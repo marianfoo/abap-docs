@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 authorization field
 
-Smallest unit of an [authorization object](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry"). An authorization field represents either data such as a [key field](javascript:call_link\('abenkey_field_glosry.htm'\) "Glossary Entry") of a [database table](javascript:call_link\('abendatabase_table_glosry.htm'\) "Glossary Entry") or activities such as reading or changing. Activities are specified as identifiers stored in the database table TACT and, for customers, in TACTZ.
+Smallest unit of an [authorization object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenauthorization_object_glosry.htm "Glossary Entry"). An authorization field represents either data such as a [key field](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkey_field_glosry.htm "Glossary Entry") of a [database table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_table_glosry.htm "Glossary Entry") or activities such as reading or changing. Activities are specified as identifiers stored in the database table TACT and, for customers, in TACTZ.
 
-[→ More](javascript:call_link\('abenbc_authority_check.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbc_authority_check.htm)

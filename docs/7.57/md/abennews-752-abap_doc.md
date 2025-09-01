@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [News for Release 7.52](javascript:call_link\('abennews-752.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 7.5x](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-75.htm) →  [News for Release 7.52](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-752.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP Doc in Release 7.52, ABENNEWS-752-ABAP_DOC, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D
 %0A%0D%0ASuggestion for improvement:)
@@ -18,13 +18,13 @@ Modification 1  
 
 Documentation Links
 
-The new syntax {@link ...} makes it possible to link to other documentation of repository objects (or its components) in [ABAP Doc comments](javascript:call_link\('abenabap_doc_comment_glosry.htm'\) "Glossary Entry").
+The new syntax {@link ...} makes it possible to link to other documentation of repository objects (or its components) in [ABAP Doc comments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_doc_comment_glosry.htm "Glossary Entry").
 
 Modification 2   
 
 Further Changes
 
-The following changes have also been made to [ABAP Doc comments](javascript:call_link\('abenabap_doc_comment_glosry.htm'\) "Glossary Entry"):
+The following changes have also been made to [ABAP Doc comments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_doc_comment_glosry.htm "Glossary Entry"):
 
 -   Opening and closing tags no longer need to be specified in lowercase letters.
 -   The restriction to 7 bit ASCII characters no longer applies. An ABAP Doc comment can now contain any 16 bit Unicode characters.

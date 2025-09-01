@@ -30,14 +30,14 @@ Included pages: 2
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - Evaluation of Annotations, ABENCDS_ANNOTATIONS_ANALYSIS, 757%0D%0A%0D%0AEr
 ror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 ABAP CDS - Evaluation of Annotations
 
-When an object defined in the [CDS source code](javascript:call_link\('abencds_source_code_glosry.htm'\) "Glossary Entry") is activated, the annotations defined in the [CDS annotation syntax](javascript:call_link\('abencds_annotation_syntax_glosry.htm'\) "Glossary Entry") there are saved in internal system tables. These tables can then be accessed to evaluate the data. This is done for every annotation with correct syntax regardless of name and value.
+When an object defined in the [CDS source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_source_code_glosry.htm "Glossary Entry") is activated, the annotations defined in the [CDS annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry") there are saved in internal system tables. These tables can then be accessed to evaluate the data. This is done for every annotation with correct syntax regardless of name and value.
 
 -   [System Class CL\_DD\_DDL\_ANNOTATION\_SERVICE](#abencds-annotations-analysis-1-------metadata-extensions---@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_2)
 -   [Direct, Inherited, and Derived Annotations](#abencds-annotations-analysis-3-------subannotations---@ITOC@@ABENCDS_ANNOTATIONS_ANALYSIS_4)
@@ -46,34 +46,34 @@ When an object defined in the [CDS source code](javascript:call_link\('abencds_s
 
 System Class CL\_DD\_DDL\_ANNOTATION\_SERVICE   
 
-The following documented system class is provided for evaluations of the annotations of [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"):
+The following documented system class is provided for evaluations of the annotations of [CDS entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm "Glossary Entry"):
 
 CL\_DD\_DDL\_ANNOTATION\_SERVICE
 
-The methods of this class return the annotations of CDS entities. By default, the annotations are returned from [metadata extensions](javascript:call_link\('abencds_metadata_extension_glosry.htm'\) "Glossary Entry") first, and then from the CDS entity itself. In the latter case, a distinction can be made between direct, derived and inherited annotations, while in the case of inherited annotations the [metadata extensions](javascript:call_link\('abencds_metadata_extension_glosry.htm'\) "Glossary Entry") (if present) are handled first. More specifically, an initial annotation value is returned in cases where an annotation has no values specified, rather than any default value defined in the annotation definition.
+The methods of this class return the annotations of CDS entities. By default, the annotations are returned from [metadata extensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_metadata_extension_glosry.htm "Glossary Entry") first, and then from the CDS entity itself. In the latter case, a distinction can be made between direct, derived and inherited annotations, while in the case of inherited annotations the [metadata extensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_metadata_extension_glosry.htm "Glossary Entry") (if present) are handled first. More specifically, an initial annotation value is returned in cases where an annotation has no values specified, rather than any default value defined in the annotation definition.
 
 Hints
 
 -   The method GET\_ANNOTATIONS of the class CL\_DD\_DDL\_ANALYZE also returns the annotations of CDS entities. It must be noted, however, that these only analyze the associated DDL source code. Annotations from metadata extensions, derived and inherited annotations, and the translations of annotations for translatable texts are ignored.
--   When the system class CL\_DD\_DDL\_ANNOTATION\_SERVICE is used to evaluate annotations, the annotations of the CDS entities are also respected, as specified in their [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") in [CDS annotation syntax](javascript:call_link\('abencds_annotation_syntax_glosry.htm'\) "Glossary Entry"). The associated [annotation definitions](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") are ignored by CL\_DD\_DDL\_ANNOTATION\_SERVICE. The validity of an annotation must be checked by the responsible framework.
--   [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") supports the specification of valid annotations (namely annotations with an [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry")) by using colors in the source code and code completion.
--   The annotations [Semantics.amount.currencyCode](javascript:call_link\('abencds_f1_element_annotation.htm'\)) and [Semantics.quantity.unitofMeasure](javascript:call_link\('abencds_f1_element_annotation.htm'\)) can be derived from DDIC database tables only if the name of the referred currency key or unit key field isn't changed in a CDS view entity. If a CDS view entity selecting from a database table uses an alias name for a currency key or unit key field, then the annotation cannot be evaluated by the API CL\_DD\_DDL\_ANNOTATION\_SERVICE.
+-   When the system class CL\_DD\_DDL\_ANNOTATION\_SERVICE is used to evaluate annotations, the annotations of the CDS entities are also respected, as specified in their [DDL source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm "Glossary Entry") in [CDS annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"). The associated [annotation definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") are ignored by CL\_DD\_DDL\_ANNOTATION\_SERVICE. The validity of an annotation must be checked by the responsible framework.
+-   [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry") supports the specification of valid annotations (namely annotations with an [annotation definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry")) by using colors in the source code and code completion.
+-   The annotations [Semantics.amount.currencyCode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm) and [Semantics.quantity.unitofMeasure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm) can be derived from DDIC database tables only if the name of the referred currency key or unit key field isn't changed in a CDS view entity. If a CDS view entity selecting from a database table uses an alias name for a currency key or unit key field, then the annotation cannot be evaluated by the API CL\_DD\_DDL\_ANNOTATION\_SERVICE.
 
 Executable Example
 
-[Evaluating Annotations](javascript:call_link\('abencds_semantics_annotation_abexa.htm'\))
+[Evaluating Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_semantics_annotation_abexa.htm)
 
 Metadata Extensions   
 
-[Metadata extensions](javascript:call_link\('abencds_meta_data_extensions.htm'\)) add further annotations to a CDS entity or override existing annotations. Currently metadata extensions can be defined for [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") and [CDS abstract entities](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry"). Only those annotations can be added to metadata extensions, that are ignored when the CDS entity is activated.
+[Metadata extensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_meta_data_extensions.htm) add further annotations to a CDS entity or override existing annotations. Currently metadata extensions can be defined for [CDS views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_glosry.htm "Glossary Entry") and [CDS abstract entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry"). Only those annotations can be added to metadata extensions, that are ignored when the CDS entity is activated.
 
-The methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE (except GET\_DIRECT\_ANNOS\_...) [respect](javascript:call_link\('abencds_meta_data_extension_eval.htm'\)) by default the existing metadata extensions in the current AS ABAP when the annotations of a CDS entity are evaluated. There can be multiple metadata extensions for an entity. These extensions can be distinguished by assignments to various layers, such as industry, partner, and customer, and by the association with [CDS variants](javascript:call_link\('abencds_variant_glosry.htm'\) "Glossary Entry"). The methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE collect all annotations belonging to the CDS entity in the following order:
+The methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE (except GET\_DIRECT\_ANNOS\_...) [respect](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_meta_data_extension_eval.htm) by default the existing metadata extensions in the current AS ABAP when the annotations of a CDS entity are evaluated. There can be multiple metadata extensions for an entity. These extensions can be distinguished by assignments to various layers, such as industry, partner, and customer, and by the association with [CDS variants](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_variant_glosry.htm "Glossary Entry"). The methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE collect all annotations belonging to the CDS entity in the following order:
 
 -   Annotations from metadata extensions
 -   Direct annotations from the data definition
 -   Indirect annotations (derived and inherited annotations)
 
-Here every annotation is only returned once for its scope. If annotations have the same name, the priority is determined first by the explicit specification of a CDS variant when the method is called, and then by the layers of the involved metadata extensions. The evaluation is performed using the following [steps](javascript:call_link\('abencds_meta_data_extension_eval.htm'\)):
+Here every annotation is only returned once for its scope. If annotations have the same name, the priority is determined first by the explicit specification of a CDS variant when the method is called, and then by the layers of the involved metadata extensions. The evaluation is performed using the following [steps](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_meta_data_extension_eval.htm):
 
 -   First the metadata extensions of the specified variant are evaluated. Here, an annotation of a higher level overrides the annotation of a lower layer.
 -   Then the metadata extensions are evaluated, which are not linked to any variants. Once again, higher levels override lower levels.
@@ -84,7 +84,7 @@ Annotations found in an earlier evaluation level always have the higher priority
 Hints
 
 -   Annotations from metadata extensions are not stored in the same system tables as annotations from the DDL source code of a CDS entity. They can only be made accessible by using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE. Other classes ignore metadata extensions.
--   For more information and examples related to evaluation, see [metadata extensions](javascript:call_link\('abencds_meta_data_extensions.htm'\)) and [evaluation of metadata extensions](javascript:call_link\('abencds_meta_data_extension_eval.htm'\)).
+-   For more information and examples related to evaluation, see [metadata extensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_meta_data_extensions.htm) and [evaluation of metadata extensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_meta_data_extension_eval.htm).
 -   The program ABAP\_DOCU\_MDE\_ANNOS shows all annotations that can be specified in metadata extensions.
 
 Caution
@@ -97,7 +97,7 @@ In the evaluation of annotations of a CDS entity using methods of the class CL\_
 
 -   Direct annotations
     
-    In the [annotation syntax](javascript:call_link\('abencds_annotations_syntax.htm'\)), these annotations are specified directly in the DDL source code of the CDS entity currently being evaluated. The methods GET\_DIRECT\_ANNOS\_ of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE only read these annotations.
+    In the [annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm), these annotations are specified directly in the DDL source code of the CDS entity currently being evaluated. The methods GET\_DIRECT\_ANNOS\_ of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE only read these annotations.
     
 -   Indirect annotations
     
@@ -114,13 +114,13 @@ In the evaluation of annotations of a CDS entity using methods of the class CL\_
 
 Hints
 
--   Inheritances apply especially to those [element annotations](javascript:call_link\('abencds_f1_element_annotation.htm'\)) of [CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") exposed in the SELECT list of a CDS entity using a path expression path\_expr. A publication of a CDS association specified in a different CDS view inherits the element annotations of preceding publications.
+-   Inheritances apply especially to those [element annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm) of [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") exposed in the SELECT list of a CDS entity using a path expression path\_expr. A publication of a CDS association specified in a different CDS view inherits the element annotations of preceding publications.
 -   Annotations derived from data elements depend on the assignment of data elements to elements of the current CDS entity. This assignment is performed in the internal metadata of a CDS entity and is not dependent on inheritance.
 -   The annotations types described here apply especially to evaluations using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE. Other APIs can evaluate the underlying metadata differently.
 
 Example
 
-The following three pieces of [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") define three view entities; the first two view entities access the third view entity. The only difference between the first two view entities is the specification of annotation @Metadata.ignorePropagatedAnnotations:true. Every view contains an element with a direct element annotation @EndUserText.label.
+The following three pieces of [DDL source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm "Glossary Entry") define three view entities; the first two view entities access the third view entity. The only difference between the first two view entities is the specification of annotation @Metadata.ignorePropagatedAnnotations:true. Every view contains an element with a direct element annotation @EndUserText.label.
 
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
 define view entity demo\_cds\_anno\_inheritance\_1
@@ -176,7 +176,7 @@ The ABAPCATALOG.INTERNAL.ISMANDT annotation that is visible in the output is an 
 
 Subannotations   
 
-In the [annotation syntax](javascript:call_link\('abencds_annotations_syntax.htm'\)), [subannotations](javascript:call_link\('abensub_annotation_glosry.htm'\) "Glossary Entry") are specified either as [comma-separated lists](javascript:call_link\('abencds_annotations_syntax_subanno.htm'\)) in curly brackets or using [structured names](javascript:call_link\('abencds_annotations_syntax_name.htm'\)). The way this metadata is saved internally is independent of the way it is specified and the methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE always return subannotations as an individual annotation with a structured name.
+In the [annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm), [subannotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensub_annotation_glosry.htm "Glossary Entry") are specified either as [comma-separated lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_subanno.htm) in curly brackets or using [structured names](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_name.htm). The way this metadata is saved internally is independent of the way it is specified and the methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE always return subannotations as an individual annotation with a structured name.
 
 Example
 
@@ -218,11 +218,11 @@ DEMOANNO.SUBANNO2.SUBANNO2.SUBANNO2
 
 Annotation Arrays   
 
-In the [annotation syntax](javascript:call_link\('abencds_annotations_syntax.htm'\)), [annotation arrays](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") are created using [comma-separated lists](javascript:call_link\('abencds_annotations_syntax_array.htm'\)) in square brackets after a specified annotation. When this metadata is saved internally, the elements of annotation arrays are saved as individual annotations. Here, they are saved under the name of the array. A consecutive index enclosed in $ characters $1$, $2$, ... is appended to this array. Accordingly, the methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE return an array as individual annotations.
+In the [annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm), [annotation arrays](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry") are created using [comma-separated lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_array.htm) in square brackets after a specified annotation. When this metadata is saved internally, the elements of annotation arrays are saved as individual annotations. Here, they are saved under the name of the array. A consecutive index enclosed in $ characters $1$, $2$, ... is appended to this array. Accordingly, the methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE return an array as individual annotations.
 
 Hint
 
-For annotation arrays, the [annotation syntax](javascript:call_link\('abencds_annotations_syntax.htm'\)) in DDL source code for [CDS](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") entities is not as strict as the syntax of [DEFINE ANNOTATION](javascript:call_link\('abencds_f1_define_annotation.htm'\)) for [annotation definitions](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry").
+For annotation arrays, the [annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm) in DDL source code for [CDS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry") entities is not as strict as the syntax of [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm) for [annotation definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry").
 
 -   Array elements do not always have to have the same type in the annotation syntax.
 -   Arrays can be nested directly in the annotation syntax.
@@ -231,7 +231,7 @@ In the internal metadata (and hence in the results of the methods of the class C
 
 Example
 
-The [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") specified as follows is valid [annotation syntax](javascript:call_link\('abencds_annotations_syntax.htm'\)), but it cannot have an [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry").
+The [annotation array](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry") specified as follows is valid [annotation syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax.htm), but it cannot have an [annotation definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry").
 
 @DemoAnno: \[ true,
              \[1,2,3\],
@@ -259,21 +259,21 @@ It should be noted that the nested array is counted but not returned.
 
 Null Values   
 
-For each [element annotation](javascript:call_link\('abencds_f1_element_annotation.htm'\)) of a CDS entity that is not part of an [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry"), the special value [null](javascript:call_link\('abencds_annotations_syntax_value.htm'\)) can be specified (without quotation marks). The value null leads to a syntax error at other positions. The value null means that the annotation is not returned by default by the methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE. The default setting can be changed with the method input parameter NULL\_VALUES.
+For each [element annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_element_annotation.htm) of a CDS entity that is not part of an [annotation array](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry"), the special value [null](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_syntax_value.htm) can be specified (without quotation marks). The value null leads to a syntax error at other positions. The value null means that the annotation is not returned by default by the methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE. The default setting can be changed with the method input parameter NULL\_VALUES.
 
 Hints
 
 -   Null values are only intended to hide unwanted, derived and inherited annotations in the evaluation of the annotations of a CDS entity.
 -   A null value is inherited like every value. A direct annotation of a CDS entity overwrites the annotations taken from used dictionary objects. This means any values can be overwritten with the null value; a null value itself can also be overwritten.
--   In the [DDLX source code](javascript:call_link\('abenddlx_source_code_glosry.htm'\) "Glossary Entry") of [CDS metadata extensions](javascript:call_link\('abencds_metadata_extension_glosry.htm'\) "Glossary Entry"), null values can be specified in exactly the same way as in the [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") of a CDS entity.
+-   In the [DDLX source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddlx_source_code_glosry.htm "Glossary Entry") of [CDS metadata extensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_metadata_extension_glosry.htm "Glossary Entry"), null values can be specified in exactly the same way as in the [DDL source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm "Glossary Entry") of a CDS entity.
 -   The evaluation only filters the annotations out, if a null value has been specified for their identifiers.
     -   If specified, @annotation.annotation1:null only affects the identifier @annotation.annotation1 but does not affect, for example, @annotation.annotation1.annotation2.
-    -   If the null value is specified for an [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry"), this value affects the entire array. @annot:null specified for an inherited annotation array @annot:\[ ..., ..., ...\] is applied to all elements of the array.
--   The evaluation filters annotations with null values - completely regardless of whether they are predefined [SAP annotations](javascript:call_link\('abensap_annotation_glosry.htm'\) "Glossary Entry") or not.
+    -   If the null value is specified for an [annotation array](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry"), this value affects the entire array. @annot:null specified for an inherited annotation array @annot:\[ ..., ..., ...\] is applied to all elements of the array.
+-   The evaluation filters annotations with null values - completely regardless of whether they are predefined [SAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_annotation_glosry.htm "Glossary Entry") or not.
 
 Example
 
-The following two [CDS source codes](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") define two views; the second view accesses the first view. In the first view, @EndUserText annotations with literal values are specified for every element of the SELECT list. In the second view, some of these values are overwritten with the value null.
+The following two [CDS source codes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm "Glossary Entry") define two views; the second view accesses the first view. In the first view, @EndUserText annotations with literal values are specified for every element of the SELECT list. In the second view, some of these values are overwritten with the value null.
 
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
 define view entity demo\_cds\_anno\_null\_value\_1
@@ -313,16 +313,16 @@ The program DEMO\_CDS\_NULL\_ANNOS uses a method of the class CL\_DD\_DDL\_ANNOT
 
 Annotations for Translatable Texts   
 
-The annotation values of annotations for which this is defined in their [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") (using the annotation [@LanguageDependency](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))) are used to define translatable semantic texts for a [CDS object](javascript:call_link\('abencds_object_glosry.htm'\) "Glossary Entry"). The value of such an annotation is saved in special tables that have a language key and that are translatable. The value specified in the source code should consist of text in the original language of the CDS source code and it is translated into the required languages. The methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE read these texts as specified by an input parameter for the language. If no language is passed to the input parameter, the [text environment language](javascript:call_link\('abentext_env_langu_glosry.htm'\) "Glossary Entry") is used as the default. If no text is found for the language, the [secondary language](javascript:call_link\('abensecondary_language_glosry.htm'\) "Glossary Entry") in AS ABAP is used.
+The annotation values of annotations for which this is defined in their [annotation definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") (using the annotation [@LanguageDependency](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_anno_annos.htm)) are used to define translatable semantic texts for a [CDS object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_object_glosry.htm "Glossary Entry"). The value of such an annotation is saved in special tables that have a language key and that are translatable. The value specified in the source code should consist of text in the original language of the CDS source code and it is translated into the required languages. The methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE read these texts as specified by an input parameter for the language. If no language is passed to the input parameter, the [text environment language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_env_langu_glosry.htm "Glossary Entry") is used as the default. If no text is found for the language, the [secondary language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_language_glosry.htm "Glossary Entry") in AS ABAP is used.
 
 Hints
 
--   Even in [metadata extensions](javascript:call_link\('abencds_metadata_extension_glosry.htm'\) "Glossary Entry"), the annotations for translatable texts are handled specially and are created in special tables, which are connected to the translation.
+-   Even in [metadata extensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_metadata_extension_glosry.htm "Glossary Entry"), the annotations for translatable texts are handled specially and are created in special tables, which are connected to the translation.
 -   The program ABAP\_DOCU\_TRANSLATABLE\_ANNOS shows all annotations for translatable texts.
 
 Example
 
-The following [CDS source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry"), which defines a CDS view entity, contains the specific ABAP annotations that are introduced using EndUserText.
+The following [CDS source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm "Glossary Entry"), which defines a CDS view entity, contains the specific ABAP annotations that are introduced using EndUserText.
 
 @EndUserText.label: 'Demo View with Texts'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -341,21 +341,21 @@ The program DEMO\_CDS\_DDL\_TEXTS uses methods of the class CL\_DD\_DDL\_ANNOTAT
 
 Performing the Evaluation   
 
-[ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") and [framework-specific annotations](javascript:call_link\('abenfrmwrk_annotation_glosry.htm'\) "Glossary Entry") are evaluated in different ways:
+[ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") and [framework-specific annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfrmwrk_annotation_glosry.htm "Glossary Entry") are evaluated in different ways:
 
 -   ABAP annotations
     
-    [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") define technical and semantic properties of a [CDS object](javascript:call_link\('abencds_object_glosry.htm'\) "Glossary Entry"). They are usually evaluated for every CDS object when activated by the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry"). ABAP annotations can modify the behavior of ABAP SQL statements that access a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"). One important example is how the client-dependency of a CDS entity is defined using the associated ABAP annotation.
+    [ABAP annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_annotation_glosry.htm "Glossary Entry") define technical and semantic properties of a [CDS object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_object_glosry.htm "Glossary Entry"). They are usually evaluated for every CDS object when activated by the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry"). ABAP annotations can modify the behavior of ABAP SQL statements that access a [CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm "Glossary Entry"). One important example is how the client-dependency of a CDS entity is defined using the associated ABAP annotation.
     
 -   Framework-specific annotations
     
-    In most cases, the [framework-specific annotations](javascript:call_link\('abenfrmwrk_annotation_glosry.htm'\) "Glossary Entry") must be evaluated by the frameworks of the corresponding software components using a suitable API and are not relevant for activations and the ABAP runtime framework. Here, the names and values of these framework-specific annotations must follow the rules of the relevant framework. For SAP components, these can be taken from the tables of the [Framework-Specific Annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)) document.
+    In most cases, the [framework-specific annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfrmwrk_annotation_glosry.htm "Glossary Entry") must be evaluated by the frameworks of the corresponding software components using a suitable API and are not relevant for activations and the ABAP runtime framework. Here, the names and values of these framework-specific annotations must follow the rules of the relevant framework. For SAP components, these can be taken from the tables of the [Framework-Specific Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk.htm) document.
     
 
 Annotations that are not evaluated by the ABAP runtime framework or by frameworks of other software components are usually ignored.
 
 Continue
-![Example](exa.gif "Example") [ABAP CDS, Evaluation of Annotations](javascript:call_link\('abencds_semantics_annotation_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP CDS, Evaluation of Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_semantics_annotation_abexa.htm)
 
 
 
@@ -376,14 +376,14 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - Evaluation of Annotations](javascript:call_link\('abencds_annotations_analysis.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) →  [ABAP CDS - Evaluation of Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_analysis.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS, Evaluation of Annotations, ABENCDS_SEMANTICS_ANNOTATION_ABEXA, 757%0D%0A%0D
 %0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 ABAP CDS, Evaluation of Annotations
 
-This example demonstrates how [semantics annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)) of [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") are evaluated.
+This example demonstrates how [semantics annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk.htm) of [DDL source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_source_code_glosry.htm "Glossary Entry") are evaluated.
 
 Source Code   
 
@@ -438,7 +438,7 @@ Description  
 
 This program uses a simple example to show how annotations can be evaluated in a framework. All rows in a CDS entity are to be found that do not contain a fully specified address. Here, a fully specified address is simply a set of elements for name, street, city, postal code, and country, none of which can be empty.
 
-To do this, the program uses cl\_dd\_ddl\_annotation\_service=>get\_drct\_annos\_4\_entity\_elmnts to read the element annotations of a CDS entity and gets the names of the elements defined (using [semantics annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\))) as the required components of an address in the internal table address\_components. In the next step, the CDS entity is read using [SELECT](javascript:call_link\('abapselect.htm'\)) and a [dynamic](javascript:call_link\('abapassign_dynamic_components.htm'\)) [ASSIGN](javascript:call_link\('abapassign.htm'\)) statement is used to check whether all required elements have a non-initial value for each read row. The output consists of any rows that do not contain a full address.
+To do this, the program uses cl\_dd\_ddl\_annotation\_service=>get\_drct\_annos\_4\_entity\_elmnts to read the element annotations of a CDS entity and gets the names of the elements defined (using [semantics annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk.htm)) as the required components of an address in the internal table address\_components. In the next step, the CDS entity is read using [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) and a [dynamic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_dynamic_components.htm) [ASSIGN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign.htm) statement is used to check whether all required elements have a non-initial value for each read row. The output consists of any rows that do not contain a full address.
 
 The following CDS view entity is used as an example for a CDS entity:
 
@@ -472,4 +472,4 @@ define view entity demo\_cds\_semantics\_annotation
       email
     }
 
-This view wraps the DDIC database table SCUSTOM, which contains address data. The assignment of the semantics annotations to the columns of the DDIC database table gives the columns semantics that can be evaluated. Previously, this was only provided by those names and [DDIC data elements](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry") that are no longer relevant for the evaluation depicted here.
+This view wraps the DDIC database table SCUSTOM, which contains address data. The assignment of the semantics annotations to the columns of the DDIC database table gives the columns semantics that can be evaluated. Previously, this was only provided by those names and [DDIC data elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_element_glosry.htm "Glossary Entry") that are no longer relevant for the evaluation depicted here.

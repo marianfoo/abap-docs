@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) →  [ABAP and SAP HANA, Examples](javascript:call_link\('abenabap_and_hana_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_hana.htm) →  [ABAP and SAP HANA, Examples](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_and_hana_abexas.htm) → 
 
 SAP HANA, Currency Conversion with SQLScript
 
@@ -70,7 +70,7 @@ START-OF-SELECTION.
 
 Description
 
-If possible, the example program calls the [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") CONVERT of the [AMDP class](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") CL\_DEMO\_SQLSCRIPT\_CURR\_CONV.
+If possible, the example program calls the [AMDP method](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp_method_glosry.htm "Glossary Entry") CONVERT of the [AMDP class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp_class_glosry.htm "Glossary Entry") CL\_DEMO\_SQLSCRIPT\_CURR\_CONV.
 
 METHOD convert BY DATABASE PROCEDURE FOR HDB
                            LANGUAGE SQLSCRIPT
@@ -129,11 +129,11 @@ Hint
 
 See also
 
--   [Unit and Currency Conversion Functions in ABAP SQL](javascript:call_link\('abensql_curr_unit_conv_func.htm'\)).
+-   [Unit and Currency Conversion Functions in ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_curr_unit_conv_func.htm).
 
 The built-in SQL function CURRENCY\_CONVERSION wraps the HANA function CONVERT\_CURRENCY. The program DEMO\_ASQL\_FUNC\_CURR\_CONV shows, how the same functionality as above can be achieved by using an ABAP SQL SELECT that calls the SQL function.
 
--   [Unit and Currency Conversion Functions in ABAP CDS](javascript:call_link\('abencds_conversion_functions_v2.htm'\)).
+-   [Unit and Currency Conversion Functions in ABAP CDS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_conversion_functions_v2.htm).
 
 The built-in CDS function CURRENCY\_CONVERSION wraps the HANA function CONVERT\_CURRENCY. The program DEMO\_CDS\_FUNC\_CURR\_CONV shows, how the same functionality as above can be achieved by using a CDS view that calls the CDS function.
 

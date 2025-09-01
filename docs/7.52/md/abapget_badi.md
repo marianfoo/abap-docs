@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Enhancements](javascript:call_link\('abenenhancement_framework.htm'\)) →  [Enhancements Using BAdIs](javascript:call_link\('abenbadi_enhancement.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Enhancements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenhancement_framework.htm) →  [Enhancements Using BAdIs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_enhancement.htm) → 
 
 GET BADI
 
-[Quick Reference](javascript:call_link\('abapget_badi_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_badi_shortref.htm)
 
 Syntax
 
@@ -26,9 +26,9 @@ Extras:
 
 Effect
 
-This statement creates a new [BAdI object](javascript:call_link\('abenbadi_object_glosry.htm'\) "Glossary Entry") and sets the [BAdI reference](javascript:call_link\('abenbadi_reference_glosry.htm'\) "Glossary Entry") to the object in a [BAdI reference variable](javascript:call_link\('abenbadi_reference_variable_glosry.htm'\) "Glossary Entry") badi. This statement has a static and a dynamic variant.
+This statement creates a new [BAdI object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_object_glosry.htm "Glossary Entry") and sets the [BAdI reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_reference_glosry.htm "Glossary Entry") to the object in a [BAdI reference variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_reference_variable_glosry.htm "Glossary Entry") badi. This statement has a static and a dynamic variant.
 
--   In the case of the static variant, the addition TYPE is not specified. The static type of the reference variable badi must be a [BAdI](javascript:call_link\('abenbadi_glosry.htm'\) "Glossary Entry"). This determines which BAdI will be used.
+-   In the case of the static variant, the addition TYPE is not specified. The static type of the reference variable badi must be a [BAdI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_glosry.htm "Glossary Entry"). This determines which BAdI will be used.
     
 -   In the case of the dynamic variant, a character-like data object name is specified for the addition TYPE. When the statement is executed, this object must contain the name of a BAdI. The static type of the reference variable badi must be a superclass for all CL\_BADI\_BASE BAdI classes.
     
@@ -37,15 +37,15 @@ To specify values for the filters of the BAdI, the addition FILTERS can be speci
 
 In the case of a context-free BAdI, the addition CONTEXT cannot be specified. In the case of a context-specific BAdI, however, it must be specified.
 
-After instancing, the program searches for [BAdI implementation classes](javascript:call_link\('abenbadi_implement_class_glosry.htm'\) "Glossary Entry") for the BAdI as follows:
+After instancing, the program searches for [BAdI implementation classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_implement_class_glosry.htm "Glossary Entry") for the BAdI as follows:
 
-1.  Only BAdI implementation classes are selected that are assigned to a [BAdI implementation](javascript:call_link\('abenbadi_implementation_glosry.htm'\) "Glossary Entry") that is in the state active.
+1.  Only BAdI implementation classes are selected that are assigned to a [BAdI implementation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_implementation_glosry.htm "Glossary Entry") that is in the state active.
     
-2.  Only BAdI implementation classes are selected that are assigned to a BAdI implementation (an [enhancement](javascript:call_link\('abenenhancement_glosry.htm'\) "Glossary Entry")) that have a [switch](javascript:call_link\('abenswitch_german_glosry.htm'\) "Glossary Entry") in the state on. If no switch is assigned to a BAdI implementation, it is handled in the same way as an implementation with a switch in the state on.
+2.  Only BAdI implementation classes are selected that are assigned to a BAdI implementation (an [enhancement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenhancement_glosry.htm "Glossary Entry")) that have a [switch](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenswitch_german_glosry.htm "Glossary Entry") in the state on. If no switch is assigned to a BAdI implementation, it is handled in the same way as an implementation with a switch in the state on.
     
 3.  All BAdI implementations are selected that satisfy the above requirements and for which the filter condition of the BAdI implementation matches the values specified after FILTERS or in ftab. If no BAdI implementations are found with the filter specifications, the system searches for BAdI implementations that are marked as standard implementations. If there are also none of these, the fallback BAdI implementation class of the BAdI is used (if one exists).
     
-4.  If multiple BAdI implementation classes with matching filter conditions were found for a BAdI defined for single use, [conflict resolution](javascript:call_link\('abenconflict_resolution_glosry.htm'\) "Glossary Entry") is performed. A successful conflict resolution produces exactly one priority [conflict-resolving enhancement implementation](javascript:call_link\('abenconflict_resol_impl_glosry.htm'\) "Glossary Entry") and only its BAdI implementation class is selected. If multiple conflict-resolving enhancement implementations have the same priority or if there are no conflict-resolving enhancement implementations at all, a correct conflict resolution is not possible and multiple BAdI implementation classes remain in the hit list.
+4.  If multiple BAdI implementation classes with matching filter conditions were found for a BAdI defined for single use, [conflict resolution](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconflict_resolution_glosry.htm "Glossary Entry") is performed. A successful conflict resolution produces exactly one priority [conflict-resolving enhancement implementation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconflict_resol_impl_glosry.htm "Glossary Entry") and only its BAdI implementation class is selected. If multiple conflict-resolving enhancement implementations have the same priority or if there are no conflict-resolving enhancement implementations at all, a correct conflict resolution is not possible and multiple BAdI implementation classes remain in the hit list.
     
 
 If the resulting hit list is suitable for the definition of the BAdI which means:
@@ -55,23 +55,23 @@ If the resulting hit list is suitable for the definition of the BAdI which means
 -   For a BAdI defined for multiple use, the hit list may contain multiple or no BAdI implementation classes,
     
 
-references to [object plug-ins](javascript:call_link\('abenobject_plugin_glosry.htm'\) "Glossary Entry") of the found BAdI implementations are saved in the BAdI object. [Object plug-ins](javascript:call_link\('abenobject_plugin_glosry.htm'\) "Glossary Entry") that do not yet exist are created for this purpose. Whether an existing object plug-in is reused or whether a new object plug-in is created depends on whether the BAdI is context-free or context-dependent, and also depends on the addition CONTEXT. The precise semantics are described in the addition.
+references to [object plug-ins](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_plugin_glosry.htm "Glossary Entry") of the found BAdI implementations are saved in the BAdI object. [Object plug-ins](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_plugin_glosry.htm "Glossary Entry") that do not yet exist are created for this purpose. Whether an existing object plug-in is reused or whether a new object plug-in is created depends on whether the BAdI is context-free or context-dependent, and also depends on the addition CONTEXT. The precise semantics are described in the addition.
 
 If the hit list contains multiple BAdI implementations or no implementation, even though the BAdI is defined for single use, an exception is raised. If the BAdI reference variable badi is given a valid BAdI reference before the statement in an exception case, this is retained, otherwise it is initialized.
 
 Notes
 
--   It is not possible to access BAdI objects directly using BAdI references. The references are only used to call the [BAdI methods](javascript:call_link\('abenbadi_method_glosry.htm'\) "Glossary Entry") in the referenced object plug-ins with the statement [CALL BADI](javascript:call_link\('abapcall_badi.htm'\)). Otherwise, BAdI reference variables can be used in the same operand positions as normal [object reference variables](javascript:call_link\('abenobject_refer_variable_glosry.htm'\) "Glossary Entry"). In particular, this means that assignments and comparisons are possible.
+-   It is not possible to access BAdI objects directly using BAdI references. The references are only used to call the [BAdI methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_method_glosry.htm "Glossary Entry") in the referenced object plug-ins with the statement [CALL BADI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_badi.htm). Otherwise, BAdI reference variables can be used in the same operand positions as normal [object reference variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_refer_variable_glosry.htm "Glossary Entry"). In particular, this means that assignments and comparisons are possible.
     
 -   The method NUMBER\_OF\_IMPLEMENTATIONS of the class CL\_BADI\_QUERY returns the number of BAdI implementations that are saved in a BAdI object.
     
--   The statement GET BADI prepares an [enhancement spot invocation](javascript:call_link\('abenenhancement_spot_invoc_glosry.htm'\) "Glossary Entry"), and can therefore be seen as part of an explicit [enhancement point](javascript:call_link\('abenenhancement_point_glosry.htm'\) "Glossary Entry") in the terminology of the [enhancement concept](javascript:call_link\('abenenhancement_concept_glosry.htm'\) "Glossary Entry").
+-   The statement GET BADI prepares an [enhancement spot invocation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenhancement_spot_invoc_glosry.htm "Glossary Entry"), and can therefore be seen as part of an explicit [enhancement point](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenhancement_point_glosry.htm "Glossary Entry") in the terminology of the [enhancement concept](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenhancement_concept_glosry.htm "Glossary Entry").
     
 -   To prevent the exception for BAdIs that are defined for single use in systems in which no corresponding enhancement is carried out, it is advisable to specify a fallback BAdI implementation class for these BAdIs. The fallback BAdI implementation class belongs to the BAdI and is independent of enhancements.
     
 -   To access object plug-ins directly requires the corresponding references. These can be supplied, for example, by BAdI methods.
     
--   The BAdI reference cannot be used to handle any instance events of a BAdI. Instead, when the [event handler](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry") is registered, either the addition FOR ALL INSTANCES must be specified using [SET HANDLER](javascript:call_link\('abapset_handler.htm'\)), or an reference to an object plug-in must be entered directly.
+-   The BAdI reference cannot be used to handle any instance events of a BAdI. Instead, when the [event handler](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_handler_glosry.htm "Glossary Entry") is registered, either the addition FOR ALL INSTANCES must be specified using [SET HANDLER](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler.htm), or an reference to an object plug-in must be entered directly.
     
 
 Addition 1
@@ -80,7 +80,7 @@ Addition 1
 
 Effect
 
-After the addition FILTERS, the elementary data objects x1, x2, ... must be specified for all f1, f2, ... filters of the BAdI. If a filter in the BAdI has the property Constant Filter Value at Call, only [literals](javascript:call_link\('abenliteral_glosry.htm'\) "Glossary Entry") and [constants](javascript:call_link\('abenconstant_glosry.htm'\) "Glossary Entry") can be specified. The data objects must be compatible with the data type of the filters. FILTERS cannot be specified for a BAdI without filters.
+After the addition FILTERS, the elementary data objects x1, x2, ... must be specified for all f1, f2, ... filters of the BAdI. If a filter in the BAdI has the property Constant Filter Value at Call, only [literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliteral_glosry.htm "Glossary Entry") and [constants](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstant_glosry.htm "Glossary Entry") can be specified. The data objects must be compatible with the data type of the filters. FILTERS cannot be specified for a BAdI without filters.
 
 Addition 2
 
@@ -105,16 +105,16 @@ Addition 3
 
 Effect
 
-Using the addition CONTEXT, for context-dependent BAdIs, an [object reference variable](javascript:call_link\('abenobject_refer_variable_glosry.htm'\) "Glossary Entry") con must be specified, the static type of which is, or includes, the [tag interface](javascript:call_link\('abentag_interface_glosry.htm'\) "Glossary Entry") IF\_BADI\_CONTEXT, and which contains a reference to a [BAdI context object](javascript:call_link\('abenbadi_context_object_glosry.htm'\) "Glossary Entry"). If con is initial, an exception is raised. The addition CONTEXT cannot be entered for context-free BAdIs.
+Using the addition CONTEXT, for context-dependent BAdIs, an [object reference variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_refer_variable_glosry.htm "Glossary Entry") con must be specified, the static type of which is, or includes, the [tag interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentag_interface_glosry.htm "Glossary Entry") IF\_BADI\_CONTEXT, and which contains a reference to a [BAdI context object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_context_object_glosry.htm "Glossary Entry"). If con is initial, an exception is raised. The addition CONTEXT cannot be entered for context-free BAdIs.
 
 The addition CONTEXT controls how the object plug-ins are created as follows:
 
--   Without the addition CONTEXT, hence for context-free BAdIs, the way the object plug-ins are created is based on the setting of the BAdI. Either new plug-ins are created every time the statement GET BADI is executed, or an object plug-in that has already been created in the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") is reused, if it is required again. An object plug-in of this type is a singleton in terms of its BAdI implementation class.
+-   Without the addition CONTEXT, hence for context-free BAdIs, the way the object plug-ins are created is based on the setting of the BAdI. Either new plug-ins are created every time the statement GET BADI is executed, or an object plug-in that has already been created in the current [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry") is reused, if it is required again. An object plug-in of this type is a singleton in terms of its BAdI implementation class.
     
 -   Using the addition CONTEXT, and hence for context-dependent BAdIs, the same object plug-ins are always used for the same content of con. These object plug-ins are singletons in terms of their BAdI implementation class and a BAdI context object.
     
 
-If a BAdI implementation class implements multiple [BAdI interfaces](javascript:call_link\('abenbadi_interface_glosry.htm'\) "Glossary Entry") and GET BADI is executed within one internal session for more than one of these BAdIs, multiple BAdI objects can point to the same object plug-in. This enables the sharing of data between different BAdIs. For context-free BAdIs, this is only the case for reuse. For context-dependent BAdIs, multiple BAdI objects from the same context can point to the same object plug-ins.
+If a BAdI implementation class implements multiple [BAdI interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbadi_interface_glosry.htm "Glossary Entry") and GET BADI is executed within one internal session for more than one of these BAdIs, multiple BAdI objects can point to the same object plug-in. This enables the sharing of data between different BAdIs. For context-free BAdIs, this is only the case for reuse. For context-dependent BAdIs, multiple BAdI objects from the same context can point to the same object plug-ins.
 
 Notes
 
@@ -123,7 +123,7 @@ Notes
 -   The tag interface IF\_BADI\_CONTEXT can be implemented by any class. Possible applications range from the implementation in a local class without other components that have the sole purpose of enabling internal program context administration for BAdIs, to the implementation in a global application class in which the objects are specifically enhanced.
     
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

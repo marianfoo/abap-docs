@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_generic_program.htm) → 
 
 READ REPORT
 
-[Quick Reference](javascript:call_link\('abapread_report_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_report_shortref.htm)
 
 Syntax
 
@@ -20,9 +20,9 @@ Addition:
 
 Effect
 
-This statement reads the source code of the program specified in prog from the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") and copies its lines into the internal table itab. The previous content of itab is deleted. If the program cannot be loaded, the content of itab remains unchanged. By default, the source text of the active version of the program is read.
+This statement reads the source code of the program specified in prog from the [repository](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrepository_glosry.htm "Glossary Entry") and copies its lines into the internal table itab. The previous content of itab is deleted. If the program cannot be loaded, the content of itab remains unchanged. By default, the source text of the active version of the program is read.
 
-prog expects a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like data object, which contains the name of the program to be read; the name is not case-sensitive. The internal table itab must be a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") without [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") with a character-like row type. When the row length of the internal table is fixed, it must be long enough for the longest program line. Program lines that are too long raise a catchable exception. In the case of the row type string, the length of each row is dictated by the length of the imported program line. An empty program line produces an empty string.
+prog expects a [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") character-like data object, which contains the name of the program to be read; the name is not case-sensitive. The internal table itab must be a [standard table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_table_glosry.htm "Glossary Entry") without [secondary table keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") with a character-like row type. When the row length of the internal table is fixed, it must be long enough for the longest program line. Program lines that are too long raise a catchable exception. In the case of the row type string, the length of each row is dictated by the length of the imported program line. An empty program line produces an empty string.
 
 System Fields
 
@@ -44,9 +44,9 @@ The specified program is a system program protected against reads.
 
 Notes
 
--   A precise working knowledge of the programs' structures and names is vital if the statement READ REPORT is used for programs organized in a [master program](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") and with [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") when they were created in ABAP Workbench.
+-   A precise working knowledge of the programs' structures and names is vital if the statement READ REPORT is used for programs organized in a [master program](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenframe_program_glosry.htm "Glossary Entry") and with [include programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninclude_program_glosry.htm "Glossary Entry") when they were created in ABAP Workbench.
     
--   The names of the master programs for [class pools](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") and [function groups](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry") do not match the names of the global class or function group (see statements [CLASS-POOL](javascript:call_link\('abapclass-pool.htm'\)) and [FUNCTION-POOL](javascript:call_link\('abapfunction-pool.htm'\))).
+-   The names of the master programs for [class pools](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_pool_glosry.htm "Glossary Entry") and [function groups](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_group_glosry.htm "Glossary Entry") do not match the names of the global class or function group (see statements [CLASS-POOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass-pool.htm) and [FUNCTION-POOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfunction-pool.htm)).
     
 
 Example
@@ -85,7 +85,7 @@ GENERATE SUBROUTINE POOL source NAME generated.
 
 Executable Example
 
-[Program Generation](javascript:call_link\('abenprogram_generation_abexa.htm'\)).
+[Program Generation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_generation_abexa.htm).
 
 Addition
 
@@ -121,7 +121,7 @@ LOOP AT programs ASSIGNING FIELD-SYMBOL(<prog>).
   ENDIF.
 ENDLOOP.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -132,4 +132,4 @@ CX\_SY\_READ\_SRC\_LINE\_TOO\_LONG
     
 
 Continue
-[READ REPORT - Internal Addition](javascript:call_link\('abapread_report_internal.htm'\))
+[READ REPORT - Internal Addition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_report_internal.htm)

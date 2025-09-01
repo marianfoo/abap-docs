@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [RAP - Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [RAP - Entity Behavior Body](javascript:call_link\('abenbdl_body.htm'\)) →  [RAP - side effects](javascript:call_link\('abenbdl_side_effects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl.htm) →  [RAP - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_bo.htm) →  [RAP - Entity Behavior Definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_define_beh.htm) →  [RAP - Entity Behavior Body](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_body.htm) →  [RAP - side effects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_side_effects.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20side%20effect%2C%20Targets%2C%20ABENBDL_SIDE_EFFECTS_TARGET%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -34,7 +34,7 @@ Variants:
 
 Effect
 
-This topic lists the BO properties that can be used as targets Targets for [side effects](javascript:call_link\('abenbdl_side_effects.htm'\)).
+This topic lists the BO properties that can be used as targets Targets for [side effects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_side_effects.htm).
 
 One type of side effect can affect multiple targets. The specifier determining the type of target must be defined explicitly for each target. Example:
 side effects { field MyField affects field Field1, field Field2, action Action1, action Action2*\[*, ...*\]* }
@@ -64,7 +64,7 @@ Variant 2  
 
 Effect
 
-The [feature](javascript:call_link\('abenrap_feature_control_glosry.htm'\) "Glossary Entry") and [authorization control](javascript:call_link\('abenrap_auth_control_glosry.htm'\) "Glossary Entry") of the specified properties are reloaded when the side effect is triggered. The following permissions are available:
+The [feature](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_feature_control_glosry.htm "Glossary Entry") and [authorization control](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_auth_control_glosry.htm "Glossary Entry") of the specified properties are reloaded when the side effect is triggered. The following permissions are available:
 
 -   Fields: permissions(field MyField)
 -   Actions: permissions(field MyField)
@@ -99,4 +99,4 @@ Variant 5  
 
 Effect
 
-All messages stored in the [response parameter](javascript:call_link\('abenrap_response_param_glosry.htm'\) "Glossary Entry") reported are reloaded when the side effect is triggered.
+All messages stored in the [response parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_response_param_glosry.htm "Glossary Entry") reported are reloaded when the side effect is triggered.

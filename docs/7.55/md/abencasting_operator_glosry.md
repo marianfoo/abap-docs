@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 casting operator
 
-[Operator](javascript:call_link\('abenoperator_glosry.htm'\) "Glossary Entry") for executing a [down cast](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry") for [reference variables](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry"). Casting operators are the special [assignment operator](javascript:call_link\('abenassignment_operator_glosry.htm'\) "Glossary Entry") [?=](javascript:call_link\('abapmove_cast.htm'\)) and the [constructor operator](javascript:call_link\('abenconstructor_operator_glosry.htm'\) "Glossary Entry") [CAST](javascript:call_link\('abenconstructor_expression_cast.htm'\)).
+[Operator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoperator_glosry.htm "Glossary Entry") for executing a [down cast](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendown_cast_glosry.htm "Glossary Entry") for [reference variables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_variable_glosry.htm "Glossary Entry"). Casting operators are the special [assignment operator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassignment_operator_glosry.htm "Glossary Entry") [?=](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmove_cast.htm) and the [constructor operator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_operator_glosry.htm "Glossary Entry") [CAST](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_cast.htm).
 
-[→ More about](javascript:call_link\('abenconversion_references.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_references.htm)

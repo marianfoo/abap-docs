@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Open SQL](javascript:call_link\('abenopensql.htm'\)) →  [Open SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [Open SQL - Path Expressions](javascript:call_link\('abenopen_sql_path.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql.htm) →  [Open SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_operands.htm) →  [Open SQL - Path Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_path.htm) → 
 
 Path Expressions, Use in the SELECT List.
 
-This example demonstrates [path expressions](javascript:call_link\('abenopen_sql_path.htm'\)) in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) in Open SQL.
+This example demonstrates [path expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_path.htm) in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) in Open SQL.
 
 Source Code
 
@@ -65,7 +65,7 @@ START-OF-SELECTION.
 
 Description
 
-The first SELECT statement accesses the [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") demo\_cds\_assoc\_scarr:
+The first SELECT statement accesses the [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry") demo\_cds\_assoc\_scarr:
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASC\_CAR'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -79,7 +79,7 @@ define view demo\_cds\_assoc\_scarr
     carrname
   }
 
-This view publishes its [association](javascript:call_link\('abencds_f1_association.htm'\)) \_spfli in its SELECT list. The association \_spfli uses the view demo\_cds\_assoc\_spfli as a target data source:
+This view publishes its [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) \_spfli in its SELECT list. The association \_spfli uses the view demo\_cds\_assoc\_spfli as a target data source:
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASC\_SPF'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -99,7 +99,7 @@ define view demo\_cds\_assoc\_spfli
       airpfrom
     }
 
-This view publishes its [associations](javascript:call_link\('abencds_f1_association.htm'\)) \_sflight and \_sairport in its SELECT list, making it possible to specify them in path expressions after \_spfli. These associations use database tables as data sources and always close a path expression.
+This view publishes its [associations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) \_sflight and \_sairport in its SELECT list, making it possible to specify them in path expressions after \_spfli. These associations use database tables as data sources and always close a path expression.
 
 The SELECT statement contains three path expressions in its SELECT list alongside a column specified as an elementary column. The first association contains only the association \_spfli of the CDS view specified after demo\_cds\_assoc\_scarr FROM. The associations of the data source of the root element are added to the other two path expressions.
 
@@ -123,7 +123,7 @@ scarr.\_spfli.\_sairport.name
 where
 scarr.carrid = :p\_carrid    
 
-This view shows how the same paths specified in the SELECT statement of the view in [CDS DDL syntax](javascript:call_link\('abencds_f1_path_expression.htm'\)) and also achieves the same result.
+This view shows how the same paths specified in the SELECT statement of the view in [CDS DDL syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) and also achieves the same result.
 
 Finally, a fourth SELECT statement accesses the CDS view demo\_cds\_outer\_joins:
 

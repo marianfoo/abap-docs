@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) →  [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfile_interface_statements.htm) →  [OPEN DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: OPEN DATASET, error_handling, ABAPOPEN_DATASET_ERROR_HANDLING, 757%0D%0A%0D%0AError:%
 0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 OPEN DATASET, error\_handling
 
-[Short Reference](javascript:call_link\('abapopen_dataset_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_shortref.htm)
 
 Syntax
 
@@ -27,7 +27,7 @@ Additions:
 
 Effect
 
-In the case of errors during execution of [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)), these additions enable operating system messages to be received, exceptions to be suppressed, and a replacement character to be defined for unknown characters.
+In the case of errors during execution of [OPEN DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset.htm), these additions enable operating system messages to be received, exceptions to be suppressed, and a replacement character to be defined for unknown characters.
 
 Addition 1   
 
@@ -39,7 +39,7 @@ If an error occurs when a file is opened, the associated operating system messag
 
 Hint
 
-The addition MESSAGE should always be used for the statement OPEN DATASET in order to find the reason why the operating system could not open a file. In case of an error, a message is also written to the [developer trace](javascript:call_link\('abendeveloper_trace_glosry.htm'\) "Glossary Entry"), but only if the trace level is 2 at least.
+The addition MESSAGE should always be used for the statement OPEN DATASET in order to find the reason why the operating system could not open a file. In case of an error, a message is also written to the [developer trace](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendeveloper_trace_glosry.htm "Glossary Entry"), but only if the trace level is 2 at least.
 
 Example
 
@@ -57,14 +57,14 @@ Addition 2  
 
 Effect
 
-This addition can be used to suppress a catchable exception defined by the class CX\_SY\_CONVERSION\_CODEPAGE. This exception can be raised by reads or writes if a conversion between [code pages](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") takes place and a character cannot be converted to the target code page.
+This addition can be used to suppress a catchable exception defined by the class CX\_SY\_CONVERSION\_CODEPAGE. This exception can be raised by reads or writes if a conversion between [code pages](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencodepage_glosry.htm "Glossary Entry") takes place and a character cannot be converted to the target code page.
 
-This addition is possible when opening [text files](javascript:call_link\('abentext_file_glosry.htm'\) "Glossary Entry"), [legacy](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") text files, or [legacy](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") binary files, but not when opening [binary files](javascript:call_link\('abenbinary_file_glosry.htm'\) "Glossary Entry").
+This addition is possible when opening [text files](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_file_glosry.htm "Glossary Entry"), [legacy](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlegacy_file_glosry.htm "Glossary Entry") text files, or [legacy](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlegacy_file_glosry.htm "Glossary Entry") binary files, but not when opening [binary files](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbinary_file_glosry.htm "Glossary Entry").
 
 Hints
 
 -   Each non-convertible character is replaced in the conversion either by the character # or by the character defined by the addition REPLACEMENT CHARACTER. The addition IGNORING CONVERSION ERRORS defines whether the user is notified of this by an exception.
--   This setting can be changed in an opened file using the statement [SET DATASET](javascript:call_link\('abapset_dataset.htm'\)).
+-   This setting can be changed in an opened file using the statement [SET DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_dataset.htm).
 
 Example
 
@@ -76,18 +76,18 @@ Addition 3  
 
 Effect
 
-If a conversion between [code pages](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") takes place while data is being read or written, every character that cannot be converted to the target code page is replaced by the character specified in rc. rc expects a character-like data object containing a single character. If the addition is not specified, the character # is used as a replacement character.
+If a conversion between [code pages](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencodepage_glosry.htm "Glossary Entry") takes place while data is being read or written, every character that cannot be converted to the target code page is replaced by the character specified in rc. rc expects a character-like data object containing a single character. If the addition is not specified, the character # is used as a replacement character.
 
-This addition is possible when opening [text files](javascript:call_link\('abentext_file_glosry.htm'\) "Glossary Entry"), [legacy](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") text files, or [legacy](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") binary files, but not when opening [binary files](javascript:call_link\('abenbinary_file_glosry.htm'\) "Glossary Entry").
+This addition is possible when opening [text files](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_file_glosry.htm "Glossary Entry"), [legacy](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlegacy_file_glosry.htm "Glossary Entry") text files, or [legacy](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlegacy_file_glosry.htm "Glossary Entry") binary files, but not when opening [binary files](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbinary_file_glosry.htm "Glossary Entry").
 
 Hints
 
 -   If at least one character is replaced by a replacement character in a read or write, the exception defined in the class CX\_SY\_CONVERSION\_CODEPAGE is raised after the conversion, if this is not suppressed by the addition IGNORING CONVERSION ERRORS.
--   The replacement character of an opened file can be changed using the statement [SET DATASET](javascript:call_link\('abapset_dataset.htm'\)).
+-   The replacement character of an opened file can be changed using the statement [SET DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_dataset.htm).
 
 Example
 
-When a legacy text file is opened with ID 1101 for codepage 7-Bit USA ASCII, the exception of class CX\_SY\_CONVERSION\_CODEPAGE is suppressed and a replacement character is specified. When data is written to a file, the character ü is replaced by u without an exception being raised. Compare the example to addition [CODE PAGE](javascript:call_link\('abapopen_dataset_code_page.htm'\)).
+When a legacy text file is opened with ID 1101 for codepage 7-Bit USA ASCII, the exception of class CX\_SY\_CONVERSION\_CODEPAGE is suppressed and a replacement character is specified. When data is written to a file, the character ü is replaced by u without an exception being raised. Compare the example to addition [CODE PAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm).
 
 FINAL(dset) = 'test.dat'.
 OPEN DATASET dset FOR OUTPUT IN LEGACY TEXT MODE CODE PAGE '1101'

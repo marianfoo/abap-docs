@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Processing Blocks](javascript:call_link\('abenleave_processing_blocks.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_program_units.htm) →  [Exiting Processing Blocks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_processing_blocks.htm) → 
 
 EXIT - processing\_block
 
-[Quick Reference](javascript:call_link\('abapexit_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexit_shortref.htm)
 
 Syntax
 
@@ -16,9 +16,9 @@ EXIT.
 
 Effect
 
-If the statement EXIT is located outside a [loop](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry"), the statement immediately terminates the current [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry").
+If the statement EXIT is located outside a [loop](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenloop_glosry.htm "Glossary Entry"), the statement immediately terminates the current [processing block](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocessing_block_glosry.htm "Glossary Entry").
 
-After the processing block is exited, the runtime environment responds in the same way as when the [processing block is exited in a regular way](javascript:call_link\('abenend_processing_blocks.htm'\)) (with the exception of the event block [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) and the [reporting event blocks](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry") START-OF-SELECTION and GET). In particular, the output parameters of procedures are passed to the bound actual parameters.
+After the processing block is exited, the runtime environment responds in the same way as when the [processing block is exited in a regular way](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenend_processing_blocks.htm) (with the exception of the event block [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapload-of-program.htm) and the [reporting event blocks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreporting_event_glosry.htm "Glossary Entry") START-OF-SELECTION and GET). In particular, the output parameters of procedures are passed to the bound actual parameters.
 
 -   The event block LOAD-OF-PROGRAM cannot be exited using EXIT.
     
@@ -27,7 +27,7 @@ After the processing block is exited, the runtime environment responds in the sa
 
 Programming Guideline
 
-[Only use RETURN to exit procedures](javascript:call_link\('abenexit_procedure_guidl.htm'\) "Guideline")
+[Only use RETURN to exit procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexit_procedure_guidl.htm "Guideline")
 
 Example
 

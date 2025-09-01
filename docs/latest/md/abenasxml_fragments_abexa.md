@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Canonical XML Representation (asXML)](javascript:call_link\('abenabap_xslt_asxml.htm'\)) →  [asXML - Examples of Mappings](javascript:call_link\('abenasxml_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml_trafos.htm) →  [Canonical XML Representation (asXML)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xslt_asxml.htm) →  [asXML - Examples of Mappings](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenasxml_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20asXML%20-%20Mapping%20of%20XML%20Fragments%2C%20ABENASXML_FRAGMENTS_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -162,14 +162,14 @@ ENDCLASS.
 
 Description   
 
-This example demonstrates the serialization and deserialization of XML fragments and their representation in asXML using the [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID.
+This example demonstrates the serialization and deserialization of XML fragments and their representation in asXML using the [identity transformation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID.
 
 -   First, an XML fragment with the root element X is created in a variable xstr with the type xstring and the result is displayed.
--   The fragment is serialized from the variable xstr of type xstring to an element ROOT as the XML schema type xsd:base64Binary in accordance with the rules for the [mapping of elementary data types](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)).
+-   The fragment is serialized from the variable xstr of type xstring to an element ROOT as the XML schema type xsd:base64Binary in accordance with the rules for the [mapping of elementary data types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xslt_asxml_elementary.htm).
 -   On the other hand, a serialization of the fragment from the variable xsdstr of type XSDANY adds the attribute asx:root with the content X, that is, the name of the root element of the XML fragment) to the element ROOT and represents the remaining content of the fragment in an unchanged way.
 -   A further serialization of the fragment from the variable xsdstr produces the element X. This has the same name as the root element of the XML fragment and so the attribute is not added.
 -   Any attempt to deserialize the fragment content to an ABAP variable of type xstring fails for both serialization results, since the attribute specified for NODE when mapping elementary data types is not supported or because no valid asXML format exists for the target variable.
 -   Deserializations to variables of type XSDANY are possible in both cases, however, and create the original XML fragment again in the variable.
 -   If a nonexistent element is addressed in deserializations, no deserialization is performed as usual.
 
-For information about serializations and deserializations of XML fragments using [Simple Transformations](javascript:call_link\('abenabap_st.htm'\)), see the executable example [ST, Mapping of XML Fragments](javascript:call_link\('abenst_xsdany_abexa.htm'\)).
+For information about serializations and deserializations of XML fragments using [Simple Transformations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_st.htm), see the executable example [ST, Mapping of XML Fragments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_xsdany_abexa.htm).

@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Field Help, Input Help, and Dropdown List Boxes](javascript:call_link\('abenabap_dynpros_help.htm'\)) →  [Input Help](javascript:call_link\('abenabap_dynpros_value_help.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Field Help, Input Help, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_help.htm) →  [Input Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help.htm) → 
 
 Input Help in Dialog Modules
 
@@ -15,7 +15,7 @@ PROCESS ON VALUE-REQUEST.
   FIELD field MODULE mod.
   ...
 
-After [PROCESS ON VALUE-REQUEST](javascript:call_link\('dynpprocess.htm'\)), the MODULE statement can only be used in combination with the FIELD statement. When F4 is selected, the dialog module mod of the FIELD statement whose field field has the cursor. If multiple FIELD statements are specified for the same field field, only the first statement is executed. The dialog module mod does not provide the content of the dynpro field field, since this content is not transported by the FIELD statement at PROCESS ON HELP-REQUEST time. If the recommended [search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry") and search help exits do not meet requirements, proposal lists for the input help can be programmed in this dialog module.
+After [PROCESS ON VALUE-REQUEST](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpprocess.htm), the MODULE statement can only be used in combination with the FIELD statement. When F4 is selected, the dialog module mod of the FIELD statement whose field field has the cursor. If multiple FIELD statements are specified for the same field field, only the first statement is executed. The dialog module mod does not provide the content of the dynpro field field, since this content is not transported by the FIELD statement at PROCESS ON HELP-REQUEST time. If the recommended [search helps](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensearch_help_glosry.htm "Glossary Entry") and search help exits do not meet requirements, proposal lists for the input help can be programmed in this dialog module.
 
 Function modules are available here that support both search helps and all other types of input help, and which also transport data between the dynpro and the ABAP program. These function modules are prefixed with F4IF\_. The most important are:
 
@@ -31,4 +31,4 @@ The additional function modules DYNP\_VALUES\_READ and DYNP\_VALUES\_UPDATE read
 
 Executable Example
 
-[Input Helps in Dialog Modules](javascript:call_link\('abendynpro_f4_help_dial_abexa.htm'\))
+[Input Helps in Dialog Modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f4_help_dial_abexa.htm)

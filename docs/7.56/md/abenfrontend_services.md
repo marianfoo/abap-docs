@@ -4,18 +4,18 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) → 
 
 Access to the Presentation Server
 
-Programs that are executed in [dialog](javascript:call_link\('abendialog_processing_glosry.htm'\) "Glossary Entry") and from SAP GUI can use the methods of the class CL\_GUI\_FRONTEND\_SERVICES to access the current [presentation server](javascript:call_link\('abenpresentation_server_glosry.htm'\) "Glossary Entry").
+Programs that are executed in [dialog](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendialog_processing_glosry.htm "Glossary Entry") and from SAP GUI can use the methods of the class CL\_GUI\_FRONTEND\_SERVICES to access the current [presentation server](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpresentation_server_glosry.htm "Glossary Entry").
 
 They can use
 
 -   the methods GUI\_UPLOAD and GUI\_DOWNLOAD to read and write to files,
 -   the methods FILE\_... to examine and process files,
 -   the methods DIRECTORY\_... to examine and process directories,
--   the method EXECUTE to execute [operating system statements](javascript:call_link\('abenabap_system_commands_pres.htm'\)).
+-   the method EXECUTE to execute [operating system statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_system_commands_pres.htm).
 
 The function module GUI\_IS\_AVAILABLE can be used in advance to determine whether a SAP GUI is available.
 
@@ -25,7 +25,7 @@ The methods of the class CL\_GUI\_FRONTEND\_SERVICES replace older function modu
 
 Example
 
-Writes to and reads a file on a presentation server with the operating system MS Windows. The directory is created on request. The SAP GUI availability query prevents runtime errors if the programs are not executed in [dialog processing](javascript:call_link\('abendialog_processing_glosry.htm'\) "Glossary Entry").
+Writes to and reads a file on a presentation server with the operating system MS Windows. The directory is created on request. The SAP GUI availability query prevents runtime errors if the programs are not executed in [dialog processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendialog_processing_glosry.htm "Glossary Entry").
 
 DATA gui TYPE c LENGTH 1.
 CALL FUNCTION 'GUI\_IS\_AVAILABLE'

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Views](javascript:call_link\('abenddic_views.htm'\)) →  [Classic Views](javascript:call_link\('abenddic_classical_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_objects.htm) →  [Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm) →  [Classic Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm) → 
 
 Maintenance Views
 
@@ -12,21 +12,21 @@ A maintenance view is a special view for performing writes on multiple tables us
 
 A maintenance view is not defined on the database. The structure type defined using a maintenance view can be referenced in ABAP programs using TYPE. A maintenance view cannot, however, be accessed using Open SQL. Instead, the transaction SE54 can be used to create dialogs called maintenance dialogs for maintenance views, which can themselves be used to edit the tables of the maintenance views jointly in extended table maintenance (transactions SM30 and SM31).
 
-When data records are inserted using maintenance views, all tables fields not in the view are given the type-specific initial values of the field. This is done regardless of whether the field is defined as [NOT NULL](javascript:call_link\('abenddic_database_tables_init.htm'\)) on the database.
+When data records are inserted using maintenance views, all tables fields not in the view are given the type-specific initial values of the field. This is done regardless of whether the field is defined as [NOT NULL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_init.htm) on the database.
 
 Primary Table and Secondary Tables
 
-All database tables grouped in a maintenance view must be joined using [foreign key dependencies](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)), which means that the join conditions are always derived from a foreign key in the case of maintenance views. The first table included in the maintenance view is known as the primary table of the maintenance view. The tables added to this primary table using foreign keys are known as secondary tables. The following restrictions apply when selecting the secondary tables of a maintenance view:
+All database tables grouped in a maintenance view must be joined using [foreign key dependencies](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkeyrel.htm), which means that the join conditions are always derived from a foreign key in the case of maintenance views. The first table included in the maintenance view is known as the primary table of the maintenance view. The tables added to this primary table using foreign keys are known as secondary tables. The following restrictions apply when selecting the secondary tables of a maintenance view:
 
--   The secondary tables must have an N:1 dependency on the primary table or on the transitively preceding secondary table. This makes sure that no more than one dependent data record exists in each of the secondary tables for a specific data record in the primary table. An N:1 dependency exists if the secondary table is the [check table](javascript:call_link\('abencheck_table_glosry.htm'\) "Glossary Entry") in the [foreign key in question](javascript:call_link\('abenforeign_key_glosry.htm'\) "Glossary Entry").
+-   The secondary tables must have an N:1 dependency on the primary table or on the transitively preceding secondary table. This makes sure that no more than one dependent data record exists in each of the secondary tables for a specific data record in the primary table. An N:1 dependency exists if the secondary table is the [check table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheck_table_glosry.htm "Glossary Entry") in the [foreign key in question](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenforeign_key_glosry.htm "Glossary Entry").
 
--   If the secondary table is the [foreign key table](javascript:call_link\('abenforeign_key_table_glosry.htm'\) "Glossary Entry"), the foreign key fields must be key fields of a table or the foreign key must have the cardinality N:1 or N:C.
+-   If the secondary table is the [foreign key table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenforeign_key_table_glosry.htm "Glossary Entry"), the foreign key fields must be key fields of a table or the foreign key must have the cardinality N:1 or N:C.
 
 A maintenance view implements an inner join. All key fields in the primary table must be included in its maintenance view. All key fields of secondary tables that are not part of the foreign key (that is, they are not joined with a key field already in the view using a join condition) must also be included in the view. This makes sure that the records inserted using a maintenance view can be written correctly to the tables in the view.
 
 Note
 
-If a database table is joined with its [text table](javascript:call_link\('abentext_table_glosry.htm'\) "Glossary Entry") in a maintenance view, the logon language is selected automatically for this table.
+If a database table is joined with its [text table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_table_glosry.htm "Glossary Entry") in a maintenance view, the logon language is selected automatically for this table.
 
 Time-Dependent Key
 
@@ -58,7 +58,7 @@ The maintenance view can be used to insert only entries whose non-time-dependent
 
 Note
 
-Like a database table, the maintenance status of a maintenance view has a [Display and Maintain](javascript:call_link\('abenddic_database_tables_maint.htm'\)) setting alongside the Access setting. The setting must match the Access setting. The setting Display/maintenance not allowed is not possible here.
+Like a database table, the maintenance status of a maintenance view has a [Display and Maintain](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_maint.htm) setting alongside the Access setting. The setting must match the Access setting. The setting Display/maintenance not allowed is not possible here.
 
 Maintenance Characteristics of View Fields
 
@@ -82,10 +82,10 @@ A field of this type is not displayed in extended table maintenance and cannot b
 
 Delivery Class
 
-A maintenance view also has a [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)). The delivery class of a maintenance view is analyzed in the extended table maintenance.
+A maintenance view also has a [delivery class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_delivery.htm). The delivery class of a maintenance view is analyzed in the extended table maintenance.
 
 -   If the view is assigned one of the delivery classes G or E, the customer namespace for the entries of the view must be defined in the database table TRESC.
 
 -   The transport interface of extended table maintenance must match the delivery class.
 
-Regardless of this, the transport of the basis tables involved in upgrades and in transports between customer systems is determined solely by their [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)).
+Regardless of this, the transport of the basis tables involved in upgrades and in transports between customer systems is determined solely by their [delivery class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_delivery.htm).

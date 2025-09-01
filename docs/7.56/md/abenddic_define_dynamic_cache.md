@@ -4,13 +4,13 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Dynamic Caches](javascript:call_link\('abenddic_dynamic_caches.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Dynamic Caches](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_dynamic_caches.htm) → 
 
 DDIC - Dictionary DDL for Defining Dynamic Caches
 
-Interface between [cached views](javascript:call_link\('abenhana_cached_views.htm'\)) in SAP HANA and DDIC views.
+Interface between [cached views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhana_cached_views.htm) in SAP HANA and DDIC views.
 
--   [DEFINE DYNAMIC CACHE](javascript:call_link\('abenddicddl_define_dynamic_cache.htm'\))
+-   [DEFINE DYNAMIC CACHE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_dynamic_cache.htm)
 
 Continue
-[DDIC DDL - DEFINE DYNAMIC CACHE](javascript:call_link\('abenddicddl_define_dynamic_cache.htm'\))
+[DDIC DDL - DEFINE DYNAMIC CACHE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_dynamic_cache.htm)

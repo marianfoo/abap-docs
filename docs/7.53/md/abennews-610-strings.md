@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.10](javascript:call_link\('abennews-610.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-6.htm) →  [Changes in Release 6.10](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-610.htm) → 
 
 Character Strings in Release 6.10
 
@@ -26,16 +26,16 @@ Modification 1
 
 Identify the Length and Number of a Character
 
-1.  The function [charlen](javascript:call_link\('abapcompute_arith.htm'\)) provides the length of the first character of a string or of a character-like field.
-2.  [numofchar](javascript:call_link\('abapcompute_arith.htm'\)) can be used to obtain the number of characters in a string or a character-like field.
-3.  [dbmaxlen](javascript:call_link\('abapcompute_arith.htm'\)) provides the maximum length of the string as stored in ABAP Dictionary.
+1.  The function [charlen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_arith.htm) provides the length of the first character of a string or of a character-like field.
+2.  [numofchar](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_arith.htm) can be used to obtain the number of characters in a string or a character-like field.
+3.  [dbmaxlen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_arith.htm) provides the maximum length of the string as stored in ABAP Dictionary.
     
 
 Modification 2
 
 New Statements FIND and REPLACE
 
-There is a new statement, [FIND](javascript:call_link\('abapfind.htm'\)), for searching in character strings. This replaces the [SEARCH](javascript:call_link\('abapsearch-.htm'\)) command. For replacing characters in character strings, the statement [REPLACE](javascript:call_link\('abapreplace_in_position.htm'\)) has been expanded to include position-based replacements.
+There is a new statement, [FIND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind.htm), for searching in character strings. This replaces the [SEARCH](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsearch-.htm) command. For replacing characters in character strings, the statement [REPLACE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreplace_in_position.htm) has been expanded to include position-based replacements.
 
 Modification 3
 
@@ -52,13 +52,13 @@ From Release 6.10, character strings and binary data can be stored in database c
 1.  Short strings consist of a maximum of 256 characters, do not have trailing blanks, and can be compared on the database.
 2.  Long strings can be of any length and do have trailing blanks; however they cannot be compared on the database.
 
-When working with strings, some restrictions have to be observed. Further details are available [here](javascript:call_link\('abenddic_character_byte_types.htm'\)).
+When working with strings, some restrictions have to be observed. Further details are available [here](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_character_byte_types.htm).
 
 Modification 5
 
 Definition of String Constants
 
-Strings can now also be defined as [constants](javascript:call_link\('abapconstants.htm'\)) and can be given an initial value using the keyword VALUE.
+Strings can now also be defined as [constants](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconstants.htm) and can be given an initial value using the keyword VALUE.
 
 CONSTANTS str1 TYPE string VALUE 'ABC'.
 DATA      str2 TYPE string VALUE 'XYZ'.
@@ -70,7 +70,7 @@ Modification 6
 
 Introduction of Text String Literals
 
-[Text string literals](javascript:call_link\('abenliteral.htm'\)) are enclosed by backquotes in the form str = \`ABC\`. Text string literals are of data type STRING and trailing blanks are not ignored, unlike in text field literals.
+[Text string literals](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenliteral.htm) are enclosed by backquotes in the form str = \`ABC\`. Text string literals are of data type STRING and trailing blanks are not ignored, unlike in text field literals.
 
 DATA: str1 TYPE string VALUE 'ABC  ',
       str2 TYPE string VALUE \`ABC  \`,

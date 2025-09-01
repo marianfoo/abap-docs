@@ -4,19 +4,27 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json.htm) → 
 
 JSON-XML - XML Representation of JSON
 
-JSON XML is an SAP-specific representation of [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") data in XML format. The [single values](javascript:call_link\('abenjson_oview.htm'\)), [arrays](javascript:call_link\('abenjson_oview.htm'\)), and [objects](javascript:call_link\('abenjson_oview.htm'\)) in JSON are represented as followed in XML.
+JSON XML is an SAP-specific representation of [JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_glosry.htm "Glossary Entry") data in XML format. The [single values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_oview.htm), [arrays](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_oview.htm), and [objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_oview.htm) in JSON are represented as followed in XML.
 
--   [Single Values](#abenabap-json-xml-1--------character-like-values---@ITOC@@ABENABAP_JSON_XML_2)
+-   [Single Values](#@@ITOC@@ABENABAP_JSON_XML_1)
 
--   [Number values](#abenabap-json-xml-3--------boolean-values---@ITOC@@ABENABAP_JSON_XML_4)
+-   [Character-like values](#@@ITOC@@ABENABAP_JSON_XML_2)
 
--   [Null values](#abenabap-json-xml-5--------data-structures---@ITOC@@ABENABAP_JSON_XML_6)
+-   [Number values](#@@ITOC@@ABENABAP_JSON_XML_3)
 
--   [Arrays](#abenabap-json-xml-7--------objects---@ITOC@@ABENABAP_JSON_XML_8)
+-   [Boolean values](#@@ITOC@@ABENABAP_JSON_XML_4)
+
+-   [Null values](#@@ITOC@@ABENABAP_JSON_XML_5)
+
+-   [Data Structures](#@@ITOC@@ABENABAP_JSON_XML_6)
+
+-   [Arrays](#@@ITOC@@ABENABAP_JSON_XML_7)
+
+-   [Objects](#@@ITOC@@ABENABAP_JSON_XML_8)
 
 Single Values
 
@@ -68,9 +76,9 @@ Notes
 
 -   In the longer alternative for object components, each component in JSON-XML is identified clearly by a <member> element. This can make it easier to distinguish objects of arrays if only partial fragments of JSON data are being edited.
 
--   The longer alternative for object components with <member> elements can be a better option for [simple transformations](javascript:call_link\('abensimple_transformation_glosry.htm'\) "Glossary Entry"), when ABAP data is serialized to JSON or deserialized from JSON.
+-   The longer alternative for object components with <member> elements can be a better option for [simple transformations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensimple_transformation_glosry.htm "Glossary Entry"), when ABAP data is serialized to JSON or deserialized from JSON.
 
--   A [JSON writer](javascript:call_link\('abenjson_writer_glosry.htm'\) "Glossary Entry") that [renders](javascript:call_link\('abenabap_json_sxml.htm'\)) JSON-XML to JSON accepts both alternatives for object components. A [JSON reader](javascript:call_link\('abenjson_reader_glosry.htm'\) "Glossary Entry") that [parses](javascript:call_link\('abenabap_json_sxml.htm'\)) JSON data to JSON-XML creates the shorter variant by default. To create the longer variant with <member> elements, the method SET\_OPTION of the interface IF\_SXML\_READER can be used to set the option IF\_SXML\_READER=>CO\_OPT\_SEP\_MEMBER.
+-   A [JSON writer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_writer_glosry.htm "Glossary Entry") that [renders](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_sxml.htm) JSON-XML to JSON accepts both alternatives for object components. A [JSON reader](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_reader_glosry.htm "Glossary Entry") that [parses](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_sxml.htm) JSON data to JSON-XML creates the shorter variant by default. To create the longer variant with <member> elements, the method SET\_OPTION of the interface IF\_SXML\_READER can be used to set the option IF\_SXML\_READER=>CO\_OPT\_SEP\_MEMBER.
 
 Executable Examples
 
@@ -78,4 +86,4 @@ Executable Examples
 
 -   The program DEMO\_JSON\_TO\_JSON\_XML allows any valid JSON data to be entered and displays its JSON-XML representation.
 
--   For information about the rendering and parsing of JSON-XML representations in both alternatives for object components, see [Object Components in JSON-XML](javascript:call_link\('abenabap_json_xml_abexa.htm'\)).
+-   For information about the rendering and parsing of JSON-XML representations in both alternatives for object components, see [Object Components in JSON-XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_xml_abexa.htm).

@@ -4,8 +4,8 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 shared objects memory
 
-Memory area of the [shared memory](javascript:call_link\('abenshared_memory_glosry.htm'\) "Glossary Entry") in which [shared objects](javascript:call_link\('abenshared_objects_glosry.htm'\) "Glossary Entry") are stored in [area instance versions](javascript:call_link\('abenarea_instance_version_glosry.htm'\) "Glossary Entry").
+Memory area of the [shared memory](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshared_memory_glosry.htm "Glossary Entry") in which [shared objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshared_objects_glosry.htm "Glossary Entry") are stored in [area instance versions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarea_instance_version_glosry.htm "Glossary Entry").

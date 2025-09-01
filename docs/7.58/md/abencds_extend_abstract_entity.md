@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entity Extension](javascript:call_link\('abencds_view_extension.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entity Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_extension.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20EXTEND%20ABSTRACT%20ENTITY%2C%20ABENCDS_EXTEND_ABSTRACT_ENTITY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improveme
 nt:)
@@ -19,30 +19,30 @@ EXTEND ABSTRACT ENTITY cds\_abstract\_entity
 
 Effect
 
-Extends an existing [CDS abstract entity](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry") cds\_abstract\_entity using a [CDS abstract entity extension](javascript:call_link\('abencds_abs_entity_extend_glosry.htm'\) "Glossary Entry") in the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry"). An existing CDS abstract entity can have one or more CDS abstract entity extensions.
+Extends an existing [CDS abstract entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") cds\_abstract\_entity using a [CDS abstract entity extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_abs_entity_extend_glosry.htm "Glossary Entry") in the [CDS DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm "Glossary Entry"). An existing CDS abstract entity can have one or more CDS abstract entity extensions.
 
 Prerequisite
 
-As a prerequisite for the extension of the CDS abstract entity with the statement EXTEND ABSTRACT ENTITY, the base entity must allow extensions. Extensions are allowed per default or can be explicitly allowed with the annotation [AbapCatalog.extensibility.extensible](javascript:call_link\('abencds_f1_entity_annotations.htm'\)) with the value true. If the value false is specified, extensions are not allowed.
+As a prerequisite for the extension of the CDS abstract entity with the statement EXTEND ABSTRACT ENTITY, the base entity must allow extensions. Extensions are allowed per default or can be explicitly allowed with the annotation [AbapCatalog.extensibility.extensible](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_entity_annotations.htm) with the value true. If the value false is specified, extensions are not allowed.
 
 Components of an Abstract Entity Extension
 
 Abstract entity extensions can make additions to the original entity, but they cannot modify, overwrite, or delete elements from the original entity. An abstract entity extension can specify only features that are possible within abstract entities, but with some limitations. The following can be specified in an abstract entity extension:
 
--   New elements. These new elements are defined as described in topic [DEFINE ABSTRACT ENTITY, element](javascript:call_link\('abencds_f1_absent_list_element.htm'\)). Those elements can have [element annotations](javascript:call_link\('abencds_f1_absent_list_annotation.htm'\)). New key elements are not possible.
--   New associations \_assoc1, \_assoc2 can be defined in the CDS abstract entity extension. The same rules apply that are described in topic [DEFINE ABSTRACT ENTITY, association](javascript:call_link\('abencds_f1_absent_association.htm'\)).
+-   New elements. These new elements are defined as described in topic [DEFINE ABSTRACT ENTITY, element](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_absent_list_element.htm). Those elements can have [element annotations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_absent_list_annotation.htm). New key elements are not possible.
+-   New associations \_assoc1, \_assoc2 can be defined in the CDS abstract entity extension. The same rules apply that are described in topic [DEFINE ABSTRACT ENTITY, association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_absent_association.htm).
     
-    Note: It is not allowed to define new [CDS to-parent associations](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry") in an abstract entity extension. New [to-child associations](javascript:call_link\('abento_child_association_glosry.htm'\) "Glossary Entry") are allowed under the condition that the composition target is also defined as composition child and has the required to-parent association. The composition target is the extended abstract entity, not the extension itself.
+    Note: It is not allowed to define new [CDS to-parent associations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abento_parent_association_glosry.htm "Glossary Entry") in an abstract entity extension. New [to-child associations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abento_child_association_glosry.htm "Glossary Entry") are allowed under the condition that the composition target is also defined as composition child and has the required to-parent association. The composition target is the extended abstract entity, not the extension itself.
     
 -   Each appended element must have a unique name.
 
 Restrictions
 
 -   CDS abstract entity extensions themselves cannot be extended.
--   It is not possible to specify new [input parameters](javascript:call_link\('abencds_f1_entity_parameter_list.htm'\)) in an abstract entity extension.
--   No addition ROOT can be specified in the statement EXTEND ABSTRACT ENTITY to transform a regular entity to a [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry").
+-   It is not possible to specify new [input parameters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_entity_parameter_list.htm) in an abstract entity extension.
+-   No addition ROOT can be specified in the statement EXTEND ABSTRACT ENTITY to transform a regular entity to a [root entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenroot_entity_glosry.htm "Glossary Entry").
 -   An appended element cannot be defined as a KEY element.
--   In an abstract entity extension, [header annotations](javascript:call_link\('abencds_f1_entity_annotations.htm'\)) are not supported. That means that no annotations are allowed in front of the statement EXTEND ABSTRACT ENTITY.
+-   In an abstract entity extension, [header annotations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_entity_annotations.htm) are not supported. That means that no annotations are allowed in front of the statement EXTEND ABSTRACT ENTITY.
 
 Example
 
@@ -68,4 +68,4 @@ define abstract entity DEMO\_CDS\_ORIGINAL\_ABSTRACT
   col3 : abap.int4;
 }
 
-The class CL\_DEMO\_CDS\_ABSTRACT\_EXTEND evaluates the structure of the extended CDS abstract entity using [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry") methods.
+The class CL\_DEMO\_CDS\_ABSTRACT\_EXTEND evaluates the structure of the extended CDS abstract entity using [RTTI](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry") methods.

@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ABAP Database Connectivity (ADBC)](javascript:call_link\('abenadbc.htm'\)) →  [ADBC - Examples](javascript:call_link\('abenadbc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennative_sql.htm) →  [ABAP Database Connectivity (ADBC)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc.htm) →  [ADBC - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ADBC%20-%20Query%2C%20ABENADBC_QUERY_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ADBC - Query
 
-This example demonstrates the execution of a [query](javascript:call_link\('abenadbc_query.htm'\)) with ADBC.
+This example demonstrates the execution of a [query](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_query.htm) with ADBC.
 
 Source Code   
 
@@ -63,4 +63,4 @@ Description  
 
 The method EXECUTE\_QUERY from the class CL\_SQL\_STATEMENT is used to read three columns of the database table SFLIGHT for the current client. An appropriate internal table is bound to the result set using the method SET\_PARAM\_TABLE of the class CL\_SQL\_RESULT\_SET. Using the method NEXT\_PACKAGE, all the rows of the result set are transported to the internal table.
 
-Quotation marks are escaped in the user input to prevent [SQL injections](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry").
+Quotation marks are escaped in the user input to prevent [SQL injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injection_glosry.htm "Glossary Entry").

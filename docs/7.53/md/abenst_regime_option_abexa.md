@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Transformation of ABAP Values](javascript:call_link\('abenst_abap_values.htm'\)) →  [ST - tt:value, Elementary Data Objects](javascript:call_link\('abenst_tt_value_elementary.htm'\)) →  [ST - option, Mapping Rules](javascript:call_link\('abenst_option.htm'\)) →  [ST - option, Mapping Rules for Elementary Types](javascript:call_link\('abenst_option_format.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_serial_deserial.htm) →  [ST - Transformation of ABAP Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_abap_values.htm) →  [ST - tt:value, Elementary Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_value_elementary.htm) →  [ST - option, Mapping Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_option.htm) →  [ST - option, Mapping Rules for Elementary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_option_format.htm) → 
 
 Simple Transformation, Option for Regime
 
@@ -55,7 +55,7 @@ START-OF-SELECTION.
 
 Description
 
-This example passes various types of ABAP data to the transformation DEMO\_ST\_REGIME\_OPTION and provides the result for XML and [JSON](javascript:call_link\('abenabap_json.htm'\)). The transformation applies the option [regime](javascript:call_link\('abenst_option_format.htm'\)) to the ABAP data:
+This example passes various types of ABAP data to the transformation DEMO\_ST\_REGIME\_OPTION and provides the result for XML and [JSON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json.htm). The transformation applies the option [regime](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_option_format.htm) to the ABAP data:
 
 <?sap.transform simple?>
 <tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
@@ -103,11 +103,11 @@ This example passes various types of ABAP data to the transformation DEMO\_ST\_R
   </tt:template>
 </tt:transform>
 
-The transformation creates [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") to represent both XML and JSON. The example shows the following:
+The transformation creates [JSON-XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_xml_glosry.htm "Glossary Entry") to represent both XML and JSON. The example shows the following:
 
 -   Source Field of Type t
 
--   Normal [asXML](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)) display according to the XML schema type xsd:time.
+-   Normal [asXML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xslt_asxml_elementary.htm) display according to the XML schema type xsd:time.
 
 -   Applying regime(num) gives the number of days since 01.01.0001.
 
@@ -123,7 +123,7 @@ The transformation creates [JSON-XML](javascript:call_link\('abenjson_xml_glosry
 
 -   Source field of type n with length 3
 
--   Normal [asXML](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)) display according to the XML schema type xsd:string (pattern \[0-9\]+).
+-   Normal [asXML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xslt_asxml_elementary.htm) display according to the XML schema type xsd:string (pattern \[0-9\]+).
 
 -   Applying regime(bin) converts the number in the source field to its binary representation and displays it in the XML schema type xsd:base64Binary.
 

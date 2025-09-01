@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Reusing ST Programs](javascript:call_link\('abenst_reuse.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_st.htm) →  [ST - Reusing ST Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_reuse.htm) → 
 
 ST - tt:call, Calling Transformations
 
@@ -25,13 +25,13 @@ Effect
 
 In an ST program, the statement tt:call can be used to call a different ST program trafo, as follows: The ST program trafo must exist actively in the repository. trafo is not case-sensitive.
 
-The ST command tt:with-root bind the [data roots](javascript:call_link\('abenst_tt_root.htm'\)) root1, root2, ... of the main template of the called transformation to the nodes node1, node2, ... of the current transformation, that is, pass to these data roots the ABAP data objects that are currently bound to the specified nodes. If ref is not specified, the current node of the calling transaction is used.
+The ST command tt:with-root bind the [data roots](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_root.htm) root1, root2, ... of the main template of the called transformation to the nodes node1, node2, ... of the current transformation, that is, pass to these data roots the ABAP data objects that are currently bound to the specified nodes. If ref is not specified, the current node of the calling transaction is used.
 
-If formal parameters are declared with [tt:parameter](javascript:call_link\('abenst_tt_parameter.htm'\)) in the called ST program, these can be linked to the actual parameters with the ST command tt:with-parameter. ref can be used to specify data roots as actual parameters, var can be used to specify variables as actual parameters, and [val](javascript:call_link\('abenst_abap_representation.htm'\)) can be used to specify values as actual parameters. Depending on the kind of formal parameter, the values of the specified actual parameters are either passed in the call or used when the called ST program ends.
+If formal parameters are declared with [tt:parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_parameter.htm) in the called ST program, these can be linked to the actual parameters with the ST command tt:with-parameter. ref can be used to specify data roots as actual parameters, var can be used to specify variables as actual parameters, and [val](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_abap_representation.htm) can be used to specify values as actual parameters. Depending on the kind of formal parameter, the values of the specified actual parameters are either passed in the call or used when the called ST program ends.
 
 Example
 
-In the ST program below, another ST program is called in a [tt:loop loop](javascript:call_link\('abenst_tt_loop.htm'\)).
+In the ST program below, another ST program is called in a [tt:loop loop](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_loop.htm).
 
 <tt:transform
   xmlns:tt="http://www.sap.com/transformation-templates">
@@ -50,7 +50,7 @@ In the ST program below, another ST program is called in a [tt:loop loop](javasc
   </tt:template>
 </tt:transform>
 
-If the called ST program is implemented as shown below, the transformation has the same function as the [example](javascript:call_link\('abenst_tt_loop.htm'\)) of transforming internal tables.
+If the called ST program is implemented as shown below, the transformation has the same function as the [example](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_loop.htm) of transforming internal tables.
 
 <tt:transform
   xmlns:tt="http://www.sap.com/transformation-templates">

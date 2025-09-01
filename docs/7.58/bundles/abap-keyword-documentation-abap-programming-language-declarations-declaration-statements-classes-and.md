@@ -3,33 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfaces.htm)
-- [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm)
-- [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_class.htm)
-- [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_ifac.htm)
-- [abapaliases.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapaliases.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.953Z
-
----
-
 ### abeninterfaces.htm
-
-> **📖 Official SAP Documentation**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfaces.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfaces.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -37,7 +11,7 @@ Included pages: 6
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_ifac_components.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Implementing%20or%20Including%20Interfaces%2C%20ABENINTERFACES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impr
 ovement:)
@@ -46,33 +20,22 @@ ABAP Objects - Implementing or Including Interfaces
 
 The statement
 
--   [INTERFACES](javascript:call_link\('abapinterfaces.htm'\))
+-   [INTERFACES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm)
 
 can be used to implement interfaces by classes or include them using other interfaces.
 
 The statement
 
--   [ALIASES](javascript:call_link\('abapaliases.htm'\))
+-   [ALIASES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapaliases.htm)
 
 can be used to define alias names for interface components.
 
 Continue
-[INTERFACES](javascript:call_link\('abapinterfaces.htm'\))
-[ALIASES](javascript:call_link\('abapaliases.htm'\))
+[INTERFACES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm)
+[ALIASES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapaliases.htm)
 
-
-
-**📖 Source**: [abeninterfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfaces.htm)
 
 ### abapinterfaces.htm
-
-> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -80,50 +43,39 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [ABAP Objects - Implementing or Including Interfaces](javascript:call_link\('abeninterfaces.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_ifac_components.htm) →  [ABAP Objects - Implementing or Including Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfaces.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20INTERFACES%2C%20ABAPINTERFACES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 INTERFACES
 
-[Short Reference](javascript:call_link\('abapinterfaces_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_shortref.htm)
 
 Syntax Forms
 
-[Implementing Interfaces in Classes](javascript:call_link\('abapinterfaces_class.htm'\))
+[Implementing Interfaces in Classes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_class.htm)
 
 1\. INTERFACES intf
-    *\[* [PARTIALLY IMPLEMENTED](javascript:call_link\('abapinterfaces_partially.htm'\))*\]*
+    *\[* [PARTIALLY IMPLEMENTED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_partially.htm)*\]*
     *{* *{**\[*ABSTRACT METHODS meth1 meth2 ... *\]*
        *\[*FINAL METHODS meth1 meth2 ... *\]**}*
     *|* *\[*ALL METHODS *{*ABSTRACT*|*FINAL*}**\]* *}*
     *\[*DATA VALUES attr1 = val1 attr2 = val2 ...*\]*.
 
-[Including Interfaces in Interfaces](javascript:call_link\('abapinterfaces_ifac.htm'\))
+[Including Interfaces in Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_ifac.htm)
 
 2\. INTERFACES intf.
 
 Effect
 
-This statement implements interfaces in classes or includes interfaces in other interfaces. It can be used in the [public](javascript:call_link\('abenpublic_glosry.htm'\) "Glossary Entry") [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry") of the [declaration part](javascript:call_link\('abapclass_definition.htm'\)) of classes and in [interface declarations](javascript:call_link\('abapinterface_definition.htm'\)).
+This statement implements interfaces in classes or includes interfaces in other interfaces. It can be used in the [public](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpublic_glosry.htm "Glossary Entry") [visibility section](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvisibility_section_glosry.htm "Glossary Entry") of the [declaration part](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_definition.htm) of classes and in [interface declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterface_definition.htm).
 
 Continue
-[INTERFACES, implementation](javascript:call_link\('abapinterfaces_class.htm'\))
-[INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
+[INTERFACES, implementation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_class.htm)
+[INTERFACES, composition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_ifac.htm)
 
-
-
-**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm)
 
 ### abapinterfaces_class.htm
-
-> **📖 Official SAP Documentation**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_class.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_class.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -131,18 +83,18 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [ABAP Objects - Implementing or Including Interfaces](javascript:call_link\('abeninterfaces.htm'\)) →  [INTERFACES](javascript:call_link\('abapinterfaces.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_ifac_components.htm) →  [ABAP Objects - Implementing or Including Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfaces.htm) →  [INTERFACES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20INTERFACES%2C%20implementation%2C%20ABAPINTERFACES_CLASS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 INTERFACES, implementation
 
-[Short Reference](javascript:call_link\('abapinterfaces_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_shortref.htm)
 
 Syntax
 
 INTERFACES intf
-  *\[*[PARTIALLY IMPLEMENTED](javascript:call_link\('abapinterfaces_partially.htm'\))*\]*
+  *\[*[PARTIALLY IMPLEMENTED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_partially.htm)*\]*
   *{* *{**\[*ABSTRACT METHODS meth1 meth2 ... *\]*
      *\[*FINAL METHODS meth1 meth2 ... *\]**}*
   *|* *\[*ALL METHODS *{*ABSTRACT*|*FINAL*}**\]* *}*
@@ -157,13 +109,13 @@ Additions:
 
 Effect
 
-In the [public](javascript:call_link\('abenpublic_glosry.htm'\) "Glossary Entry") [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry") of a class, the statement INTERFACES implements the interface intf in the class. Additions can also be specified to determine the properties of interface components in the class.
+In the [public](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpublic_glosry.htm "Glossary Entry") [visibility section](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvisibility_section_glosry.htm "Glossary Entry") of a class, the statement INTERFACES implements the interface intf in the class. Additions can also be specified to determine the properties of interface components in the class.
 
 All local or global interfaces that are visible here can be specified for intf that are not already included in a superclass of the current class. The components of the interfaces become public components of the class after the implementation. An interface component called comp has the name intf~comp in the class, where intf is the name of the interface and the character ~ is the interface component selector. A class must implement all methods of the interface in its implementation part, with the following exceptions:
 
--   Interface methods declared as optional using the addition [DEFAULT](javascript:call_link\('abapmethods_default.htm'\)).
+-   Interface methods declared as optional using the addition [DEFAULT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_default.htm).
 -   Interface methods that are specified in the class after the addition ABSTRACT METHODS and are therefore declared as abstract.
--   Partial implementations are allowed in test classes using the addition [PARTIALLY IMPLEMENTED](javascript:call_link\('abapinterfaces_partially.htm'\)).
+-   Partial implementations are allowed in test classes using the addition [PARTIALLY IMPLEMENTED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_partially.htm).
 
 Hints
 
@@ -217,7 +169,7 @@ Addition 2  
 
 Effect
 
-Using the additions ABSTRACT METHODS and FINAL METHODS, the individual instance methods meth of the interface can be made either abstract or final in the class to be implemented. The same rules apply as to the additions [ABSTRACT](javascript:call_link\('abapmethods_abstract_final.htm'\)) and [FINAL](javascript:call_link\('abapmethods_abstract_final.htm'\)) of the statement [METHODS](javascript:call_link\('abapmethods.htm'\)). In particular, the whole class must be abstract if an interface method is made abstract and no interface method can be listed after ABSTRACT METHODS and FINAL METHODS.
+Using the additions ABSTRACT METHODS and FINAL METHODS, the individual instance methods meth of the interface can be made either abstract or final in the class to be implemented. The same rules apply as to the additions [ABSTRACT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_abstract_final.htm) and [FINAL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_abstract_final.htm) of the statement [METHODS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods.htm). In particular, the whole class must be abstract if an interface method is made abstract and no interface method can be listed after ABSTRACT METHODS and FINAL METHODS.
 
 The following can be specified as methods meth1, meth2, ...
 
@@ -266,7 +218,7 @@ Addition 3  
 
 Effect
 
-Instead of making individual interface methods in the class abstract or final it is possible, using the addition ALL METHODS *{*ABSTRACT*|*FINAL*}*, to make all interface methods either [abstract](javascript:call_link\('abapmethods_abstract_final.htm'\)) or [final](javascript:call_link\('abapmethods_abstract_final.htm'\)).
+Instead of making individual interface methods in the class abstract or final it is possible, using the addition ALL METHODS *{*ABSTRACT*|*FINAL*}*, to make all interface methods either [abstract](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_abstract_final.htm) or [final](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_abstract_final.htm).
 
 Example
 
@@ -306,7 +258,7 @@ Addition 4  
 
 Effect
 
-Using the addition DATA VALUES, initial values can be assigned to individual attributes attr. For attributes, this addition fulfills the same functions as the addition VALUE of the statement [DATA](javascript:call_link\('abapdata.htm'\)) for attributes in its own class.
+Using the addition DATA VALUES, initial values can be assigned to individual attributes attr. For attributes, this addition fulfills the same functions as the addition VALUE of the statement [DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata.htm) for attributes in its own class.
 
 The following can be specified as attributes attr1, attr2, ...
 
@@ -314,7 +266,7 @@ The following can be specified as attributes attr1, attr2, ...
 -   Alias names declared in the interface intf for attributes declared in interfaces that are included in intf.
 -   Attributes that are declared in interfaces included in intf using the name of its own interface and the interface component selector (~). In this case the component interface cannot itself be included with the statement INTERFACES.
 
-Constants declared in the interface or in a component interface with the statement [CONSTANTS](javascript:call_link\('abapconstants.htm'\)) cannot be specified after the addition DATA VALUES.
+Constants declared in the interface or in a component interface with the statement [CONSTANTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconstants.htm) cannot be specified after the addition DATA VALUES.
 
 Example
 
@@ -346,18 +298,7 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abapinterfaces_class.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_class.htm)
-
 ### abapinterfaces_ifac.htm
-
-> **📖 Official SAP Documentation**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_ifac.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_ifac.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -365,13 +306,13 @@ ENDCLASS.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [ABAP Objects - Implementing or Including Interfaces](javascript:call_link\('abeninterfaces.htm'\)) →  [INTERFACES](javascript:call_link\('abapinterfaces.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_ifac_components.htm) →  [ABAP Objects - Implementing or Including Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfaces.htm) →  [INTERFACES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20INTERFACES%2C%20composition%2C%20ABAPINTERFACES_IFAC%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 INTERFACES, composition
 
-[Short Reference](javascript:call_link\('abapinterfaces_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_shortref.htm)
 
 Syntax
 
@@ -433,18 +374,7 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abapinterfaces_ifac.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_ifac.htm)
-
 ### abapinterfaces.htm
-
-> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -452,53 +382,39 @@ ENDCLASS.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [ABAP Objects - Implementing or Including Interfaces](javascript:call_link\('abeninterfaces.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_ifac_components.htm) →  [ABAP Objects - Implementing or Including Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfaces.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20INTERFACES%2C%20ABAPINTERFACES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 INTERFACES
 
-[Short Reference](javascript:call_link\('abapinterfaces_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_shortref.htm)
 
 Syntax Forms
 
-[Implementing Interfaces in Classes](javascript:call_link\('abapinterfaces_class.htm'\))
+[Implementing Interfaces in Classes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_class.htm)
 
 1\. INTERFACES intf
-    *\[* [PARTIALLY IMPLEMENTED](javascript:call_link\('abapinterfaces_partially.htm'\))*\]*
+    *\[* [PARTIALLY IMPLEMENTED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_partially.htm)*\]*
     *{* *{**\[*ABSTRACT METHODS meth1 meth2 ... *\]*
        *\[*FINAL METHODS meth1 meth2 ... *\]**}*
     *|* *\[*ALL METHODS *{*ABSTRACT*|*FINAL*}**\]* *}*
     *\[*DATA VALUES attr1 = val1 attr2 = val2 ...*\]*.
 
-[Including Interfaces in Interfaces](javascript:call_link\('abapinterfaces_ifac.htm'\))
+[Including Interfaces in Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_ifac.htm)
 
 2\. INTERFACES intf.
 
 Effect
 
-This statement implements interfaces in classes or includes interfaces in other interfaces. It can be used in the [public](javascript:call_link\('abenpublic_glosry.htm'\) "Glossary Entry") [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry") of the [declaration part](javascript:call_link\('abapclass_definition.htm'\)) of classes and in [interface declarations](javascript:call_link\('abapinterface_definition.htm'\)).
+This statement implements interfaces in classes or includes interfaces in other interfaces. It can be used in the [public](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpublic_glosry.htm "Glossary Entry") [visibility section](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvisibility_section_glosry.htm "Glossary Entry") of the [declaration part](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_definition.htm) of classes and in [interface declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterface_definition.htm).
 
 Continue
-[INTERFACES, implementation](javascript:call_link\('abapinterfaces_class.htm'\))
-[INTERFACES, composition](javascript:call_link\('abapinterfaces_ifac.htm'\))
+[INTERFACES, implementation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_class.htm)
+[INTERFACES, composition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_ifac.htm)
 
-
-
-**📖 Source**: [abapinterfaces.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm)
 
 ### abapaliases.htm
-
-> **📖 Official SAP Documentation**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapaliases.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapaliases.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapaliases.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapaliases.htm)
-
 
   
 
@@ -506,13 +422,13 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [ABAP Objects - Implementing or Including Interfaces](javascript:call_link\('abeninterfaces.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_ifac_components.htm) →  [ABAP Objects - Implementing or Including Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfaces.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ALIASES%2C%20ABAPALIASES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ALIASES
 
-[Short Reference](javascript:call_link\('abapaliases_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapaliases_shortref.htm)
 
 Syntax
 
@@ -520,18 +436,18 @@ ALIASES alias FOR intf~comp.
 
 Effect
 
-In the declaration part of a class or interface, this statement declares an alias name alias for a component comp of the interface intf. The [naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) apply to the name alias. The interface intf must be implemented in the same class or included in the same interface. The alias name can be used anywhere, where it is visible, instead of intf~comp, to access the interface component comp.
+In the declaration part of a class or interface, this statement declares an alias name alias for a component comp of the interface intf. The [naming conventions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennaming_conventions.htm) apply to the name alias. The interface intf must be implemented in the same class or included in the same interface. The alias name can be used anywhere, where it is visible, instead of intf~comp, to access the interface component comp.
 
-An alias name is a component of the class and the interface. It is in the same namespace as the other components and is inherited by subclasses. In classes, an alias name can be declared in every [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry").
+An alias name is a component of the class and the interface. It is in the same namespace as the other components and is inherited by subclasses. In classes, an alias name can be declared in every [visibility section](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvisibility_section_glosry.htm "Glossary Entry").
 
 Hints
 
 -   Within a context, such as a class declaration or method, only one name should be used to access components. The syntax check issues a warning if both the alias name and the full name intf~meth are used together.
--   When implementing interface methods in the implementation part of classes using METHOD and when [re-defining](javascript:call_link\('abenredefinition_glosry.htm'\) "Glossary Entry") methods using METHODS ... REDEFINITION, the alias name can also be used.
+-   When implementing interface methods in the implementation part of classes using METHOD and when [re-defining](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenredefinition_glosry.htm "Glossary Entry") methods using METHODS ... REDEFINITION, the alias name can also be used.
 
 Example
 
-In the interfaces i2, i3 and the class c1, aliases are declared for the methods of the included or implemented interfaces. In the implementation part of the class, the interface methods in the [METHODS](javascript:call_link\('abapmethods.htm'\)) statements are implemented using the interface component selector. However, the aliases of the classes could also be used here.
+In the interfaces i2, i3 and the class c1, aliases are declared for the methods of the included or implemented interfaces. In the implementation part of the class, the interface methods in the [METHODS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods.htm) statements are implemented using the interface component selector. However, the aliases of the classes could also be used here.
 
 INTERFACE i1.
   METHODS meth.

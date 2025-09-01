@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_type_obj_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Table Work Areas, ABENTABLE_WORK_AREA_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%
 0D%0ASuggestion for improvement:)
@@ -17,9 +17,9 @@ Table work areas are structured data objects of a flat structure type, a databas
 
 From the perspective of the data type, the statements
 
-[TABLES table\_wa](javascript:call_link\('abaptables.htm'\)).
+[TABLES table\_wa](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptables.htm).
 
-[NODES table\_wa](javascript:call_link\('abapnodes.htm'\)).
+[NODES table\_wa](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapnodes.htm).
 
 are the same as
 
@@ -27,7 +27,7 @@ DATA table\_wa TYPE table\_wa.
 
 This means that data objects with the same name and type as the corresponding data types from ABAP Dictionary are declared. This is supplemented by further meanings of TABLES and NODES. For the full range of meanings, refer to their documentation. The essential properties are as follows:
 
--   TABLES and NODES declare [interface work areas](javascript:call_link\('abenintern_extern_proc_call_guidl.htm'\) "Guideline"), which are shared by multiple programs of a program group.
+-   TABLES and NODES declare [interface work areas](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenintern_extern_proc_call_guidl.htm "Guideline"), which are shared by multiple programs of a program group.
 -   TABLES declares interfaces to classic dynpros and selection screens.
 -   NODES declares an interface to logical databases.
 
@@ -41,13 +41,13 @@ Only use the statement TABLES in the global declaration part of function pools t
 
 Details   
 
-The statement TABLES is not allowed within classes anyway and, in the syntax, the statement NODES can only be created in the global declaration part of an executable program linked with a logical database. The latter option is [no longer allowed](javascript:call_link\('abenprogram_property_guidl.htm'\) "Guideline").
+The statement TABLES is not allowed within classes anyway and, in the syntax, the statement NODES can only be created in the global declaration part of an executable program linked with a logical database. The latter option is [no longer allowed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_property_guidl.htm "Guideline").
 
 Since obsolete database accesses requiring the statement TABLES and shared data areas between programs are not allowed, there is no need to use the statement TABLES, except for declaring interfaces to classic dynpros (see the following exception).
 
 Exception   
 
-If dynpro fields in [classic dynpros](javascript:call_link\('abenuser_interfaces_gdl.htm'\)) are defined with reference to flat structures in ABAP Dictionary, the identically named global data objects of the ABAP program must be declared with the statement TABLES. Otherwise, the data objects of the ABAP program are not linked to the dynpro fields, and their content cannot be accessed. In addition, TABLES is also required for declaring specific work areas when handling function codes of selection screens.
+If dynpro fields in [classic dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuser_interfaces_gdl.htm) are defined with reference to flat structures in ABAP Dictionary, the identically named global data objects of the ABAP program must be declared with the statement TABLES. Otherwise, the data objects of the ABAP program are not linked to the dynpro fields, and their content cannot be accessed. In addition, TABLES is also required for declaring specific work areas when handling function codes of selection screens.
 
 Note   
 

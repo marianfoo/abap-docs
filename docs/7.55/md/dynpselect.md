@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) →  [dynpro - Obsolete Statements in Dynpro Flow Logic](javascript:call_link\('abendynpro_obsolet.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengui_obsolete.htm) →  [dynpro - Obsolete Statements in Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_obsolet.htm) → 
 
 dynpro - SELECT
 
@@ -19,8 +19,8 @@ SELECT \*
 
 Effect
 
-The use of the statement SELECT as a standalone statement in the dynpro flow logic is obsolete. The effect of the statement is described in its (also obsolete) use as an addition of the statement [FIELD](javascript:call_link\('dynpfield_value_select.htm'\)) .
+The use of the statement SELECT as a standalone statement in the dynpro flow logic is obsolete. The effect of the statement is described in its (also obsolete) use as an addition of the statement [FIELD](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/dynpfield_value_select.htm) .
 
 Hint
 
-If the SELECT statement is used in the dynpro flow logic, [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry") is applied, if activated.
+If the SELECT statement is used in the dynpro flow logic, [table buffering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_buffering_glosry.htm "Glossary Entry") is applied, if activated.

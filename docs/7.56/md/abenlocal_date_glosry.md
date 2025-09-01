@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 local date
 
-[Date](javascript:call_link\('abendate_glosry.htm'\) "Glossary Entry") valid in a [time zone](javascript:call_link\('abentime_zone_glosry.htm'\) "Glossary Entry").
+[Date](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendate_glosry.htm "Glossary Entry") valid in a [time zone](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentime_zone_glosry.htm "Glossary Entry").

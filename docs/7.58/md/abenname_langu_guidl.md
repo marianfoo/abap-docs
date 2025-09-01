@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Naming](javascript:call_link\('abennaming_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_style_gdl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennaming_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Language%20of%20Names%2C%20ABENNAME_LANGU_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -28,7 +28,7 @@ In instances where British and American spelling differ, use the American spelli
 
 Note
 
-This rule applies regardless of the [original language chosen](javascript:call_link\('abenoriginal_langu_guidl.htm'\) "Guideline").
+This rule applies regardless of the [original language chosen](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoriginal_langu_guidl.htm "Guideline").
 
 Bad Example
 

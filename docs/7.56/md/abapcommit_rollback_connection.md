@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Data Consistency](javascript:call_link\('abendata_consistency.htm'\)) →  [Database LUW](javascript:call_link\('abendb_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [Data Consistency](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_consistency.htm) →  [Database LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_transaction.htm) → 
 
 COMMIT, ROLLBACK CONNECTION
 
-[Short Reference](javascript:call_link\('abapcommit_connection_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit_connection_shortref.htm)
 
 Syntax
 
@@ -16,7 +16,7 @@ COMMIT*|*ROLLBACK CONNECTION con|(con\_syntax).
 
 Effect
 
-This COMMIT or ROLLBACK statement performs a [database commit](javascript:call_link\('abendb_commit.htm'\)) or [database rollback](javascript:call_link\('abendb_rollback.htm'\)) on the specified [database connection](javascript:call_link\('abendatabase_connection_glosry.htm'\) "Glossary Entry"). The database connection can be specified as follows:
+This COMMIT or ROLLBACK statement performs a [database commit](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_commit.htm) or [database rollback](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_rollback.htm) on the specified [database connection](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_connection_glosry.htm "Glossary Entry"). The database connection can be specified as follows:
 
 -   con
     
@@ -29,19 +29,19 @@ This COMMIT or ROLLBACK statement performs a [database commit](javascript:call_l
 
 The following can be specified for con or in con\_syntax, all of which are transformed to uppercase letters internally:
 
--   default specified statically or DEFAULT specified dynamically for the [standard connection](javascript:call_link\('abenstandard_db_connection_glosry.htm'\) "Glossary Entry") of the current work process.
--   The name of [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") specified statically or dynamically. The name must exist in the column CON\_NAME of the DDIC database table DBCON.
--   The name of a [service connection](javascript:call_link\('abenservice_connection_glosry.htm'\) "Glossary Entry") to the [standard database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") specified statically or dynamically. The name of the service connection must consist of the prefix R/3\* followed by a maximum of any 26 alphanumeric characters in uppercase letters.
--   A name (in uppercase letters) assigned for a secondary connection or service connection by the addition AS of the static Native SQL statement [CONNECT TO](javascript:call_link\('abapexec_connection.htm'\)). It should be noted here that a connection with a name of this type is a separate database connection that can exist in parallel with a connection not named using AS.
+-   default specified statically or DEFAULT specified dynamically for the [standard connection](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry") of the current work process.
+-   The name of [secondary connection](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") specified statically or dynamically. The name must exist in the column CON\_NAME of the DDIC database table DBCON.
+-   The name of a [service connection](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenservice_connection_glosry.htm "Glossary Entry") to the [standard database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_db_glosry.htm "Glossary Entry") specified statically or dynamically. The name of the service connection must consist of the prefix R/3\* followed by a maximum of any 26 alphanumeric characters in uppercase letters.
+-   A name (in uppercase letters) assigned for a secondary connection or service connection by the addition AS of the static Native SQL statement [CONNECT TO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexec_connection.htm). It should be noted here that a connection with a name of this type is a separate database connection that can exist in parallel with a connection not named using AS.
 
 Hints
 
--   It should also be noted that the statements COMMIT CONNECTION default and ROLLBACK CONNECTION default perform a pure database commit or rollback on the standard connection, unlike [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) and [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)). They do not close the current [SAP LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry").
+-   It should also be noted that the statements COMMIT CONNECTION default and ROLLBACK CONNECTION default perform a pure database commit or rollback on the standard connection, unlike [COMMIT WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit.htm) and [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaprollback.htm). They do not close the current [SAP LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_luw_glosry.htm "Glossary Entry").
 -   The statements COMMIT CONNECTION and ROLLBACK CONNECTION are suitable for a simple close of a database LUW. If database LUWs are monitored by the application log, the function modules DB\_COMMIT and DB\_ROLLBACK are better suited because they raise an appropriate event.
--   With COMMIT CONNECTION and ROLLBACK CONNECTION, connections activated in Native SQL or AMDP can only be processed if their names do not contain lowercase letters. This affects [service connections](javascript:call_link\('abenservice_connection_glosry.htm'\) "Glossary Entry") and names defined using the addition AS of the statement [CONNECT TO](javascript:call_link\('abapexec_connection.htm'\)). The names of [secondary connections](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") do not contain any lowercase letters.
--   The statements COMMIT CONNECTION and ROLLBACK CONNECTION empty [global temporary tables](javascript:call_link\('abenddic_database_tables_gtt.htm'\)) on the specified secondary connection and prevent the runtime error COMMIT\_GTT\_ERROR in implicit [database commits](javascript:call_link\('abendb_commit.htm'\)) on this connection.
--   The statements COMMIT CONNECTION and ROLLBACK CONNECTION change the state of an active [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") or [service connection](javascript:call_link\('abenservice_connection_glosry.htm'\) "Glossary Entry") to inactive. The way the following connection is used in the same internal session opens a new database LUW.
--   For detailed information about database connections, see [Database Connections](javascript:call_link\('abendb_connections.htm'\)).
+-   With COMMIT CONNECTION and ROLLBACK CONNECTION, connections activated in Native SQL or AMDP can only be processed if their names do not contain lowercase letters. This affects [service connections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenservice_connection_glosry.htm "Glossary Entry") and names defined using the addition AS of the statement [CONNECT TO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexec_connection.htm). The names of [secondary connections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") do not contain any lowercase letters.
+-   The statements COMMIT CONNECTION and ROLLBACK CONNECTION empty [global temporary tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_gtt.htm) on the specified secondary connection and prevent the runtime error COMMIT\_GTT\_ERROR in implicit [database commits](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_commit.htm) on this connection.
+-   The statements COMMIT CONNECTION and ROLLBACK CONNECTION change the state of an active [secondary connection](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") or [service connection](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenservice_connection_glosry.htm "Glossary Entry") to inactive. The way the following connection is used in the same internal session opens a new database LUW.
+-   For detailed information about database connections, see [Database Connections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_connections.htm).
 
 Example
 

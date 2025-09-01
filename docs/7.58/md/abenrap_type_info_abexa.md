@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [RAP-Related System Classes and Functionality](javascript:call_link\('abaprap_system_classes.htm'\)) →  [CL\_ABAP\_BEHVDESCR](javascript:call_link\('abapcl_abap_behvdescr.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap_other.htm) →  [RAP-Related System Classes and Functionality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm) →  [CL\_ABAP\_BEHVDESCR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Getting%20BDEF%20Derived%20Type%20Information%20Using%20CL_ABAP_BEHVDESCR%2C%20ABENRAP_TYPE_INFO_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugg
 estion%20for%20improvement:)
@@ -226,6 +226,6 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class.
 
-The class demonstrates various methods of the CL\_ABAP\_BEHVDESCR class, for example, for getting [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") information or creating types.
+The class demonstrates various methods of the CL\_ABAP\_BEHVDESCR class, for example, for getting [BDEF derived type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") information or creating types.

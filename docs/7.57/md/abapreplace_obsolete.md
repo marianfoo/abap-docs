@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Character String and Byte String Processing](javascript:call_link\('abencharacter_string_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_internal_obsolete.htm) →  [Obsolete Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencharacter_string_obsolete.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: REPLACE substring WITH, ABAPREPLACE_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A
 %0D%0ASuggestion for improvement:)
 
 REPLACE substring WITH
 
-[Short Reference](javascript:call_link\('abapreplace_pattern_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreplace_pattern_shortref.htm)
 
 Obsolete Syntax
 
@@ -50,7 +50,7 @@ The substring in substring could not be replaced in the target field dobj by the
 
 Hint
 
-This variant of the REPLACE statement has been replaced by the variant [REPLACE](javascript:call_link\('abapreplace_in_pattern.htm'\)).
+This variant of the REPLACE statement has been replaced by the variant [REPLACE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreplace_in_pattern.htm).
 
 Addition 1   
 
@@ -58,7 +58,7 @@ Addition 1  
 
 Effect
 
-The optional addition IN *{*CHARACTER*|*BYTE*}* MODE determines whether [character string or byte string processing](javascript:call_link\('abenstring_processing_statements.htm'\)) is performed. If the addition is not specified, character string processing is carried out. Depending on the processing type, the data objects substring, new, and dobj must be character-like or byte-like.
+The optional addition IN *{*CHARACTER*|*BYTE*}* MODE determines whether [character string or byte string processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_processing_statements.htm) is performed. If the addition is not specified, character string processing is carried out. Depending on the processing type, the data objects substring, new, and dobj must be character-like or byte-like.
 
 Addition 2   
 

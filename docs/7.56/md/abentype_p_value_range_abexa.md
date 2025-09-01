@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Built-In Types, Data Objects, Functions, and Constructors](javascript:call_link\('abenbuilt_in.htm'\)) →  [Built-In Data Types](javascript:call_link\('abenbuilt_in_types.htm'\)) →  [Built-In ABAP Types](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) →  [Built-In Numeric Types](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Built-In Types, Data Objects, Functions, and Constructors](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in.htm) →  [Built-In Data Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_types.htm) →  [Built-In ABAP Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_types_complete.htm) →  [Built-In Numeric Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuiltin_types_numeric.htm) → 
 
 Value Ranges of Packed Numbers
 
@@ -62,7 +62,7 @@ START-OF-SELECTION.
 
 Description
 
-The value range of a packed number with the length length and decimals decimal places is one of the following according to the formula in this [table](javascript:call_link\('abenbuiltin_types_numeric.htm'\))):
+The value range of a packed number with the length length and decimals decimal places is one of the following according to the formula in this [table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuiltin_types_numeric.htm)):
 
 ( -10^(2xlength-1) +1 ) / ( 10^decimals )
 

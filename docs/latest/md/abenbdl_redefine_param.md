@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Projection Behavior Definitions](javascript:call_link\('abenbdl_projection_bo.htm'\)) →  [RAP - Entity Behavior Definition, Projection BDEF](javascript:call_link\('abenbdl_define_beh_projection.htm'\)) →  [RAP - Entity Behavior Body, Projection BDEF](javascript:call_link\('abenbdl_body_projection.htm'\)) →  [RAP - use, Projection BDEF](javascript:call_link\('abenbdl_use_projection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl.htm) →  [RAP - Projection Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_projection_bo.htm) →  [RAP - Entity Behavior Definition, Projection BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_define_beh_projection.htm) →  [RAP - Entity Behavior Body, Projection BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_body_projection.htm) →  [RAP - use, Projection BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_use_projection.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20RedefinedParameter%2C%20ABENBDL_REDEFINE_PARAM%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -32,21 +32,21 @@ Alternatives:
 
 Effect
 
-Redefines the input parameter or output parameter of a [RAP action](javascript:call_link\('abenrap_action_glosry.htm'\) "Glossary Entry"), [RAP function](javascript:call_link\('abenrap_function_glosry.htm'\) "Glossary Entry"), or a [RAP business event](javascript:call_link\('abenrap_entity_event_glosry.htm'\) "Glossary Entry") that is reused in a [projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry") or an [interface BDEF](javascript:call_link\('abencds_interface_bdef_glosry.htm'\) "Glossary Entry").
+Redefines the input parameter or output parameter of a [RAP action](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_action_glosry.htm "Glossary Entry"), [RAP function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_function_glosry.htm "Glossary Entry"), or a [RAP business event](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_entity_event_glosry.htm "Glossary Entry") that is reused in a [projection BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry") or an [interface BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_interface_bdef_glosry.htm "Glossary Entry").
 
 The redefinition is optional and if not specified, the input and output parameters of the base BDEF are reused.
 
-As a prerequisite for redefining a parameter, the parameter in question must be defined as deep parameter using the addition deep with an [abstract BDEF](javascript:call_link\('abencds_abstract_bdef_glosry.htm'\) "Glossary Entry") in the underlying base BDEF.
+As a prerequisite for redefining a parameter, the parameter in question must be defined as deep parameter using the addition deep with an [abstract BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_bdef_glosry.htm "Glossary Entry") in the underlying base BDEF.
 
 The following rules apply to the redefined parameter RedefinedAbstractBDEF:
 
 -   It must be an abstract behavior definition with hierarchy.
--   It must be a subset of the data type of the base operation or event. This means that it can have fewer components than the parameter of the base operation and that each component must be compatible or convertible to a component of the base parameter. The [assignment and conversion rules](javascript:call_link\('abenconversion_rules.htm'\)) for elementary data objects apply.
--   It must define a [type mapping](javascript:call_link\('abenbdl_type_mapping_abstract.htm'\)) to the abstract BDEF that is used as parameter of the base operation or event. The names of the components of the derived type of RedefinedAbstractBDEF can differ from the names of the underlying data type.
+-   It must be a subset of the data type of the base operation or event. This means that it can have fewer components than the parameter of the base operation and that each component must be compatible or convertible to a component of the base parameter. The [assignment and conversion rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_rules.htm) for elementary data objects apply.
+-   It must define a [type mapping](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_type_mapping_abstract.htm) to the abstract BDEF that is used as parameter of the base operation or event. The names of the components of the derived type of RedefinedAbstractBDEF can differ from the names of the underlying data type.
 
-If a field is defined as [mandatory:execute](javascript:call_link\('abenbdl_field_abstract.htm'\)) in the abstract BDEF used as a parameter of the base operation or event, then it must be included in the data type of the redefined parameter and it must be included in the type mapping of the redefined parameter.
+If a field is defined as [mandatory:execute](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_field_abstract.htm) in the abstract BDEF used as a parameter of the base operation or event, then it must be included in the data type of the redefined parameter and it must be included in the type mapping of the redefined parameter.
 
-The base parameter and the redefined parameter RedefinedAbstractBDEF must either both specify [with control](javascript:call_link\('abenbdl_define_beh_abstract.htm'\)), or they both must not specify with control.
+The base parameter and the redefined parameter RedefinedAbstractBDEF must either both specify [with control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_define_beh_abstract.htm), or they both must not specify with control.
 
 Further Information
 
@@ -79,7 +79,7 @@ The following example shows an interface BDEF based on the managed BDEF DEMO\_RA
 
 Executable Example
 
-The executable example topic [RAP - Reuse with Redefined Parameter](javascript:call_link\('abenbdl_redef_param_abexa.htm'\)) explains the example above in detail.
+The executable example topic [RAP - Reuse with Redefined Parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_redef_param_abexa.htm) explains the example above in detail.
 
 Alternative 1   
 
@@ -124,4 +124,4 @@ Effect
 -   The deep output parameter AbstractBDEF must define a type mapping to the abstract BDEF that is used as parameter of the base operation.
 
 Continue
-![Example](exa.gif "Example") [RAP - Reuse with Redefined Parameter](javascript:call_link\('abenbdl_redef_param_abexa.htm'\))
+![Example](exa.gif "Example") [RAP - Reuse with Redefined Parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_redef_param_abexa.htm)

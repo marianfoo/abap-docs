@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [Assigning Components: Examples](javascript:call_link\('abencorresponding_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding.htm) →  [Assigning Components: Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding_abexas.htm) → 
 
 CL\_ABAP\_CORRESPONDING with Lookup Table
 
-This example demonstrates the system class [CL\_ABAP\_CORRESPONDING](javascript:call_link\('abencl_abap_corresponding.htm'\)) with a lookup table
+This example demonstrates the system class [CL\_ABAP\_CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_corresponding.htm) with a lookup table
 
 Source Code
 
@@ -106,4 +106,4 @@ START-OF-SELECTION.
 
 Description
 
-This example shows how the first two uses of the component operator CORRESPONDING in the executable example [Component Operator, Lookup Table](javascript:call_link\('abencorresponding_using_abexa.htm'\)) in can be transformed to method calls for the class CL\_ABAP\_CORRESPONDING. The results are the same in both cases. The third way of using the component operator cannot be reflected here, since the method EXECUTE\_USING uses a CHANGING parameter and hence the source table always matches the target table.
+This example shows how the first two uses of the component operator CORRESPONDING in the executable example [Component Operator, Lookup Table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding_using_abexa.htm) in can be transformed to method calls for the class CL\_ABAP\_CORRESPONDING. The results are the same in both cases. The third way of using the component operator cannot be reflected here, since the method EXECUTE\_USING uses a CHANGING parameter and hence the source table always matches the target table.

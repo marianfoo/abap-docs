@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Calculation Statements](javascript:call_link\('abencomputing_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_internal_obsolete.htm) →  [Obsolete Calculation Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomputing_obsolete.htm) → 
 
 SUBTRACT, MULTIPLY, DIVIDE
 
@@ -18,9 +18,9 @@ Effect
 
 These statements have the same effect as the statements
 
-[dobj2 = dobj2 - dobj1.](javascript:call_link\('abenequals_arith_expr.htm'\))
-[dobj2 = dobj2 \* dobj1.](javascript:call_link\('abenequals_arith_expr.htm'\))
-[dobj2 = dobj2 / dobj1.](javascript:call_link\('abenequals_arith_expr.htm'\))
+[dobj2 = dobj2 - dobj1.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_arith_expr.htm)
+[dobj2 = dobj2 \* dobj1.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_arith_expr.htm)
+[dobj2 = dobj2 / dobj1.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_arith_expr.htm)
 
 The content of dobj2
 
@@ -28,17 +28,17 @@ The content of dobj2
 -   or is multiplied by the content of dobj1,
 -   or is divided by the content of dobj1,
 
-and the result is assigned to dobj2. The data objects dobj1 and dobj2 must be numeric. Only data objects can be specified and no calls or other expressions. The [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined like an [arithmetic expression](javascript:call_link\('abapcompute_arith.htm'\)).
+and the result is assigned to dobj2. The data objects dobj1 and dobj2 must be numeric. Only data objects can be specified and no calls or other expressions. The [calculation type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculation_type_glosry.htm "Glossary Entry") is determined like an [arithmetic expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_arith.htm).
 
 Division by the value 0 is undefined and raises a catchable exception. The only situation where division by 0 does not raise an exception is if the dividend is also 0. Here, the result is set to 0.
 
 Hint
 
-The statements shown here have been replaced by [calculation assignments](javascript:call_link\('abencalculation_assignment_glosry.htm'\) "Glossary Entry") with the operators [\-=](javascript:call_link\('abencalculation_assignments.htm'\)), [\*=](javascript:call_link\('abencalculation_assignments.htm'\)), and [/=](javascript:call_link\('abencalculation_assignments.htm'\)) in which the operands can also be specified as expressions.
+The statements shown here have been replaced by [calculation assignments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculation_assignment_glosry.htm "Glossary Entry") with the operators [\-=](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculation_assignments.htm), [\*=](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculation_assignments.htm), and [/=](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculation_assignments.htm) in which the operands can also be specified as expressions.
 
 Example
 
-The variable n has the value 1.50 after the calculation statements. See also the example for the corresponding [calculation assignments](javascript:call_link\('abencalculation_assignments.htm'\)).
+The variable n has the value 1.50 after the calculation statements. See also the example for the corresponding [calculation assignments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculation_assignments.htm).
 
 DATA n TYPE p DECIMALS 2.
 ADD 1 TO n.
@@ -49,7 +49,7 @@ SUBTRACT 2 FROM n.
 MULTIPLY n BY 3.
 DIVIDE n BY 4.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 

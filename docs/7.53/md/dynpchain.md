@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros.htm) →  [Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_dynpro_statements.htm) → 
 
 CHAIN
 
@@ -16,13 +16,13 @@ ENDCHAIN.
 
 Effect
 
-The statements CHAIN and ENDCHAIN in the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry") define processing chains. The statements [FIELD](javascript:call_link\('dynpfield.htm'\)) and [MODULE](javascript:call_link\('dynpmodule.htm'\)) can be executed between CHAIN and ENDCHAIN. The statements between CHAIN and ENDCHAIN form a processing chain. Processing chains cannot be nested. The statement CHAIN can be specified in the event blocks at PAI and PBO, is ignored, however, in the event block at PBO.
+The statements CHAIN and ENDCHAIN in the [dynpro flow logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry") define processing chains. The statements [FIELD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpfield.htm) and [MODULE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpmodule.htm) can be executed between CHAIN and ENDCHAIN. The statements between CHAIN and ENDCHAIN form a processing chain. Processing chains cannot be nested. The statement CHAIN can be specified in the event blocks at PAI and PBO, is ignored, however, in the event block at PBO.
 
-A processing chain allows the joint processing of all the [dynpro fields](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") specified between CHAIN and ENDCHAIN after FIELD statements:
+A processing chain allows the joint processing of all the [dynpro fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") specified between CHAIN and ENDCHAIN after FIELD statements:
 
--   The content of all dynpro fields combined as a processing chain by the FIELD statements can be checked in the shared conditions ON CHAIN-INPUT and ON CHAIN-REQUEST of the statement [MODULE](javascript:call_link\('dynpmodule.htm'\)).
+-   The content of all dynpro fields combined as a processing chain by the FIELD statements can be checked in the shared conditions ON CHAIN-INPUT and ON CHAIN-REQUEST of the statement [MODULE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpmodule.htm).
     
--   A [warning or error message](javascript:call_link\('abendynp_field_messages.htm'\)) in a module called within a processing chain makes all input fields ready for input whose dynpro fields are combined in this processing chain using FIELD statements. After user input, PAI processing resumes at the statement CHAIN at the latest.
+-   A [warning or error message](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynp_field_messages.htm) in a module called within a processing chain makes all input fields ready for input whose dynpro fields are combined in this processing chain using FIELD statements. After user input, PAI processing resumes at the statement CHAIN at the latest.
     
 
 Example
@@ -42,4 +42,4 @@ PROCESS AFTER INPUT.
   MODULE handle\_user\_command.
 
 Continue
-[ENDCHAIN](javascript:call_link\('dynpendchain.htm'\))
+[ENDCHAIN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpendchain.htm)

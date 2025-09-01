@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Types](javascript:call_link\('abencds_data_types.htm'\)) →  [ABAP CDS - Using Built-In Data Types from ABAP Dictionary](javascript:call_link\('abencds_builtin_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds.htm) →  [ABAP CDS - Data Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_data_types.htm) →  [ABAP CDS - Using Built-In Data Types from ABAP Dictionary](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_builtin_types.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20CDS%20-%20Overview%20of%20Built-In%20DDIC%20Types%20That%20Can%20Be%20Used%20in%20ABAP%20CDS%2C%20ABENCDS_OVERVIEW_BUILTIN_TYPES%2C%20758%0D%0A%0D%0AE
 rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ABAP CDS - Overview of Built-In DDIC Types That Can Be Used in ABAP CDS
 
-The following table shows the [built-in Dictionary types](javascript:call_link\('abenddic_builtin_types.htm'\)) that can be used in ABAP CDS and their notation in ABAP CDS. The third column indicates whether a data type can be used for [typing](javascript:call_link\('abencds_typing.htm'\)) of a [CDS element](javascript:call_link\('abencds_element_glosry.htm'\) "Glossary Entry"). The fourth column indicates whether a data type can be used for [typing](javascript:call_link\('abencds_typing.htm'\)) of a [CDS parameter](javascript:call_link\('abencds_parameter_glosry.htm'\) "Glossary Entry"). The fifth column indicates whether a data type can be used in a [cast expression](javascript:call_link\('abencds_cast_expression_v2.htm'\)).
+The following table shows the [built-in Dictionary types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) that can be used in ABAP CDS and their notation in ABAP CDS. The third column indicates whether a data type can be used for [typing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_typing.htm) of a [CDS element](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_element_glosry.htm "Glossary Entry"). The fourth column indicates whether a data type can be used for [typing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_typing.htm) of a [CDS parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_parameter_glosry.htm "Glossary Entry"). The fifth column indicates whether a data type can be used in a [cast expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cast_expression_v2.htm).
 
 Notation
 
@@ -25,7 +25,7 @@ Cast Target
 
 abap.accp(6)
 
-[ACCP](javascript:call_link\('abenddic_builtin_types.htm'\)) (only in a table function)
+[ACCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) (only in a table function)
 
 x
 
@@ -35,7 +35,7 @@ x
 
 abap.char( len )
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len
+[CHAR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) with length len
 
 x
 
@@ -45,7 +45,7 @@ x
 
 abap.clnt*\[*(3)*\]*
 
-[CLNT](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CLNT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -55,7 +55,7 @@ x
 
 abap.cuky*\[*(5)*\]*
 
-[CUKY](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CUKY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -65,7 +65,7 @@ x
 
 abap.curr(len,dec)
 
-[CURR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len and with dec decimal places
+[CURR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) with length len and with dec decimal places
 
 x
 
@@ -75,7 +75,7 @@ x
 
 abap.d16n*\[*(16)*\]*
 
-[DECFLOAT16](javascript:call_link\('abenddic_builtin_types.htm'\))
+[DECFLOAT16](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -85,7 +85,7 @@ x
 
 abap.d34n*\[*(34)*\]*
 
-[DECFLOAT34](javascript:call_link\('abenddic_builtin_types.htm'\))
+[DECFLOAT34](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -95,7 +95,7 @@ x
 
 abap.datn*\[*(8)*\]*
 
-[DATN](javascript:call_link\('abenddic_builtin_types.htm'\))
+[DATN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -105,7 +105,7 @@ x
 
 abap.dats*\[*(8)*\]*
 
-[DATS](javascript:call_link\('abenddic_builtin_types.htm'\))
+[DATS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -115,7 +115,7 @@ x
 
 abap.dec(len,dec)
 
-[DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len and with dec decimal places
+[DEC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) with length len and with dec decimal places
 
 x
 
@@ -125,7 +125,7 @@ x
 
 abap.fltp*\[*(16,16)*\]*
 
-[FLTP](javascript:call_link\('abenddic_builtin_types.htm'\))
+[FLTP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -135,7 +135,7 @@ x
 
 abap.geom\_ewkb
 
-[GEOM\_EWKB](javascript:call_link\('abenddic_builtin_types.htm'\))
+[GEOM\_EWKB](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -145,7 +145,7 @@ x
 
 abap.int1*\[*(3)*\]*
 
-[INT1](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT1](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -155,7 +155,7 @@ x
 
 abap.int2*\[*(5)*\]*
 
-[INT2](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT2](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -165,7 +165,7 @@ x
 
 abap.int4*\[*(10)*\]*
 
-[INT4](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT4](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -175,7 +175,7 @@ x
 
 abap.int8*\[*(19)*\]*
 
-[INT8](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT8](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -185,7 +185,7 @@ x
 
 abap.lang*\[*(1)*\]*
 
-[LANG](javascript:call_link\('abenddic_builtin_types.htm'\))
+[LANG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -195,7 +195,7 @@ x
 
 abap.numc( len )
 
-[NUMC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len
+[NUMC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) with length len
 
 x
 
@@ -205,7 +205,7 @@ x
 
 abap.quan(len,dec)
 
-[QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len and with dec decimal places
+[QUAN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) with length len and with dec decimal places
 
 x
 
@@ -215,7 +215,7 @@ x
 
 abap.raw(len)
 
-[RAW](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len
+[RAW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) with length len
 
 x
 
@@ -225,7 +225,7 @@ x
 
 abap.rawstring
 
-[RAWSTRING](javascript:call_link\('abenddic_builtin_types.htm'\))
+[RAWSTRING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -235,7 +235,7 @@ x
 
 abap.sstring(len)
 
-[SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len
+[SSTRING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) with length len
 
 x
 
@@ -245,7 +245,7 @@ x
 
 abap.string
 
-[STRING](javascript:call_link\('abenddic_builtin_types.htm'\))
+[STRING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -255,7 +255,7 @@ x
 
 abap.timn*\[*(6)*\]*
 
-[TIMN](javascript:call_link\('abenddic_builtin_types.htm'\))
+[TIMN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -265,7 +265,7 @@ x
 
 abap.tims*\[*(6)*\]*
 
-[TIMS](javascript:call_link\('abenddic_builtin_types.htm'\))
+[TIMS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -275,7 +275,7 @@ x
 
 abap.unit*\[*(2*|*3)*\]*
 
-[UNIT](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 2 or 3 (standard length)
+[UNIT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) with length 2 or 3 (standard length)
 
 x
 
@@ -285,7 +285,7 @@ x
 
 abap.utcl*\[*(27)*\]*
 
-[UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\))
+[UTCLONG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm)
 
 x
 
@@ -295,4 +295,4 @@ x
 
 len and dec must be used to specify values for the length and decimal places of the respective generic types. The values specified here in parentheses must be within the value ranges allowed by ABAP Dictionary. For data types with fixed lengths and decimal places, it is possible, but not mandatory to specify the predefined value for length and decimal places. The exception in this regard is abap.accp: this type has the predefined length of 6, which must always be specified in parentheses.
 
-In [CDS simple types](javascript:call_link\('abencds_simple_type_glosry.htm'\) "Glossary Entry"), all of the data types listed above can be used for [typing](javascript:call_link\('abencds_define_simple_type.htm'\)) except for abap.accp and abap.fltp. The data type abap.accp is deprecated. Instead of abap.fltp, a [decimal floating point number type](javascript:call_link\('abendecfloat_type_glosry.htm'\) "Glossary Entry") can be used.
+In [CDS simple types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_type_glosry.htm "Glossary Entry"), all of the data types listed above can be used for [typing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_simple_type.htm) except for abap.accp and abap.fltp. The data type abap.accp is deprecated. Instead of abap.fltp, a [decimal floating point number type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_type_glosry.htm "Glossary Entry") can be used.

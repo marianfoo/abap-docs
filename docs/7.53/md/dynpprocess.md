@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros.htm) →  [Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_dynpro_statements.htm) → 
 
 PROCESS
 
@@ -24,7 +24,7 @@ Alternatives:
 
 Effect
 
-The keyword PROCESS defines the processing blocks of the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry"). The associated events are raised by the ABAP runtime environment when a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") is processed:
+The keyword PROCESS defines the processing blocks of the [dynpro flow logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry"). The associated events are raised by the ABAP runtime environment when a [dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") is processed:
 
 At least one PROCESS BEFORE OUTPUT statement must exist in the dynpro flow logic. In addition, PROCESS BEFORE OUTPUT must not be positioned after the statement PROCESS AFTER INPUT. If PROCESS ON HELP-REQUEST or PROCESS ON VALUE-REQUEST are specified, PROCESS AFTER INPUT must have been specified before. Other processing blocks besides the four starting with PROCESS are not allowed in the dynpro flow logic.
 
@@ -34,7 +34,7 @@ Alternative 1
 
 Effect
 
-The event PROCESS BEFORE OUTPUT (PBO) is raised by the runtime environment before the screen of a dynpro is sent to SAP GUI. After processing the related event block, the contents of the global fields of the ABAP program are transported into [dynpro fields](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") of the same name and then the screen is displayed in the GUI window.
+The event PROCESS BEFORE OUTPUT (PBO) is raised by the runtime environment before the screen of a dynpro is sent to SAP GUI. After processing the related event block, the contents of the global fields of the ABAP program are transported into [dynpro fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") of the same name and then the screen is displayed in the GUI window.
 
 Alternative 2
 
@@ -42,11 +42,11 @@ Alternative 2
 
 Effect
 
-The event PROCESS AFTER INPUT (PAI) is raised by a user action on the user interface, which is associated with a [function code](javascript:call_link\('abenfunction_code_glosry.htm'\) "Glossary Entry"). At PAI or during the processing of the relevant event block, the contents of the dynpro fields are transported to the data objects with the same names in the corresponding ABAP program. Before executing the relevant event block, automatic input checks are executed, which are defined either in the system or in ABAP Dictionary. While the event block and the PBO event block of the next dynpro are processed, the screen of the current dynpro remains in the display, but the user interface is inactive. After the PAI processing is finished, the event PBO of the next dynpro is raised or, if the current dynpro is the last one in its dynpro sequence, the execution returns to the position from which the dynpro sequence was called.
+The event PROCESS AFTER INPUT (PAI) is raised by a user action on the user interface, which is associated with a [function code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_code_glosry.htm "Glossary Entry"). At PAI or during the processing of the relevant event block, the contents of the dynpro fields are transported to the data objects with the same names in the corresponding ABAP program. Before executing the relevant event block, automatic input checks are executed, which are defined either in the system or in ABAP Dictionary. While the event block and the PBO event block of the next dynpro are processed, the screen of the current dynpro remains in the display, but the user interface is inactive. After the PAI processing is finished, the event PBO of the next dynpro is raised or, if the current dynpro is the last one in its dynpro sequence, the execution returns to the position from which the dynpro sequence was called.
 
 Note
 
-The processing of the event blocks for PAI of the current and PBO of the next dynpro together form a [dialog step](javascript:call_link\('abendialog_step_glosry.htm'\) "Glossary Entry").
+The processing of the event blocks for PAI of the current and PBO of the next dynpro together form a [dialog step](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendialog_step_glosry.htm "Glossary Entry").
 
 Alternative 3
 
@@ -58,7 +58,7 @@ Alternative 4
 
 Effect
 
-The events PROCESS ON HELP-REQUEST (POH) and PROCESS ON VALUE-REQUEST (POV) are raised by the request for the [field help](javascript:call_link\('abenfield_help_glosry.htm'\) "Glossary Entry") (F1) or the [input help](javascript:call_link\('abeninput_help_glosry.htm'\) "Glossary Entry") (F4) for a screen element of the screen. In the relevant event block, the statement MODULE is executed, which is associated with the FIELD statement for the dynpro field of the selected screen element. If multiple FIELD statements exist for the same dynpro field, only the first is executed. The content of the field specified under FIELD is not automatically passed to the called module in the event block at POH or POV. After the POH or POV is processed, the system returns to the processing of the displayed screen in SAP GUI without raising the event PBO.
+The events PROCESS ON HELP-REQUEST (POH) and PROCESS ON VALUE-REQUEST (POV) are raised by the request for the [field help](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfield_help_glosry.htm "Glossary Entry") (F1) or the [input help](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninput_help_glosry.htm "Glossary Entry") (F4) for a screen element of the screen. In the relevant event block, the statement MODULE is executed, which is associated with the FIELD statement for the dynpro field of the selected screen element. If multiple FIELD statements exist for the same dynpro field, only the first is executed. The content of the field specified under FIELD is not automatically passed to the called module in the event block at POH or POV. After the POH or POV is processed, the system returns to the processing of the displayed screen in SAP GUI without raising the event PBO.
 
 Note
 

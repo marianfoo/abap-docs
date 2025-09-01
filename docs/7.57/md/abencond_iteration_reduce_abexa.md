@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [FOR, Iteration Expressions](javascript:call_link\('abenfor.htm'\)) →  [Examples of Iteration Expressions](javascript:call_link\('abeniteration_expressions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) →  [FOR, Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm) →  [Examples of Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Creating Values with FOR and REDUCE, ABENCOND_ITERATION_REDUCE_ABEXA, 757%0D%0A%0D%0A
 Error:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Creating Values with FOR and REDUCE
 
-This example demonstrates [conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) with the operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)).
+This example demonstrates [conditional iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) with the operator [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm).
 
 Source Code   
 
@@ -47,7 +47,7 @@ START-OF-SELECTION.
 
 Description   
 
-This example demonstrates the following simple iterations, which can be used to construct elementary data objects and directly display them in a constructor expression using the reduction operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)):
+This example demonstrates the following simple iterations, which can be used to construct elementary data objects and directly display them in a constructor expression using the reduction operator [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm):
 
 -   The first expression constructs a value of the type i for which the total of the iteration variable n is calculated. n is numeric, which means that THEN does not have to be specified. Each iteration step increases the value of n by 1.
 -   The second expression uses the same iteration as the first, but constructs a text string to which each iteration step appends the character representation of n.

@@ -4,17 +4,17 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) → 
 
 General Rules
 
 The following rules do not apply specifically to ABAP, even if they are demonstrated here in the context of ABAP programming, but apply equally well to all types of business application programming. Many of the rules described in this section are either derived from the general rules or support these rules.
 
--   [Separation of Concerns](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline")
--   [KISS Principle](javascript:call_link\('abenkiss_principle_guidl.htm'\) "Guideline")
--   [Correctness and Quality](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline")
+-   [Separation of Concerns](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenseperation_concerns_guidl.htm "Guideline")
+-   [KISS Principle](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenkiss_principle_guidl.htm "Guideline")
+-   [Correctness and Quality](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencorrectness_quality_guidl.htm "Guideline")
 
 Continue
-[Separation of Concerns](javascript:call_link\('abenseperation_concerns_guidl.htm'\))
-[KISS Principle](javascript:call_link\('abenkiss_principle_guidl.htm'\))
-[Correctness and Quality](javascript:call_link\('abencorrectness_quality_guidl.htm'\))
+[Separation of Concerns](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenseperation_concerns_guidl.htm)
+[KISS Principle](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenkiss_principle_guidl.htm)
+[Correctness and Quality](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencorrectness_quality_guidl.htm)

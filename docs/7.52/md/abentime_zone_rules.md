@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Date, Time, Time Stamp, and Time Zones](javascript:call_link\('abendate_time_oview.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_time_processing.htm) →  [Date, Time, Time Stamp, and Time Zones](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_time_oview.htm) → 
 
 Rules for Time Zones
 
@@ -30,8 +30,8 @@ If a time zone specifies a summer time rule with a summer time difference not eq
 
 -   The time specified for the beginning of summer time in the tables TTZDF and TTZDV identifies the time when the clock is put forward by the summer time difference when the winter time ends. The first second of summer time is the time you get when you add the summer time difference to the specified time.
 
--   When summer time begins, a time interval of the length of the summer time difference is created, for which you can formulate a date and time, but which does not exist as a local time and which cannot be assigned to an UTC reference time. A local time of this type is handled in the [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)) statement as an invalid time.
+-   When summer time begins, a time interval of the length of the summer time difference is created, for which you can formulate a date and time, but which does not exist as a local time and which cannot be assigned to an UTC reference time. A local time of this type is handled in the [CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapconvert_date_time-stamp.htm) statement as an invalid time.
 
 -   The time specified in the database tables TTZDF or TTZDV for the end of summer time identifies the time when the clock is put back by the summer time difference when summer time ends. The first second of the winter time is the time you get when you subtract the summer time difference from the specified time.
 
--   When summer time ends, a time interval of the length of the summer time difference is created, which is passed twice as a local time (the double hour). If you formulate a date and time for this interval, the statement [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)) handles it as a time from summer time, by default.
+-   When summer time ends, a time interval of the length of the summer time difference is created, which is passed twice as a local time (the double hour). If you formulate a date and time for this interval, the statement [CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapconvert_date_time-stamp.htm) handles it as a time from summer time, by default.

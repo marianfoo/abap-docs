@@ -3,33 +3,7 @@
 Included pages: 9
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abennews-620.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620.htm)
-- [abennews-620-objects.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-objects.htm)
-- [abennews-620-structures.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-structures.htm)
-- [abennews-620-exceptions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-exceptions.htm)
-- [abennews-620-additions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-additions.htm)
-- [abennews-620-dumps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-dumps.htm)
-- [abennews-620-tools.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-tools.htm)
-- [abennews-620-classes.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-classes.htm)
-- [abennews-620-others.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-others.htm)
-
-**Bundle Contains**: 9 documentation pages
-**Version**: ABAP 7.55
-**Generated**: 2025-09-01T11:25:45.773Z
-
----
-
 ### abennews-620.htm
-
-> **📖 Official SAP Documentation**: [abennews-620.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -37,40 +11,33 @@ Included pages: 9
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-6.htm) → 
 
 Changes in Release 6.20
 
 Changes were made in the following areas as part of development in Release 6.20 of SAP Web Application Server:
 
-[ABAP Objects](javascript:call_link\('abennews-620-objects.htm'\))
-[Structure Enhancements](javascript:call_link\('abennews-620-structures.htm'\))
-[Catchable Exceptions](javascript:call_link\('abennews-620-exceptions.htm'\))
-[Additions](javascript:call_link\('abennews-620-additions.htm'\))
-[Short Dumps](javascript:call_link\('abennews-620-dumps.htm'\))
-[Tools](javascript:call_link\('abennews-620-tools.htm'\))
-[System Classes and Methods](javascript:call_link\('abennews-620-classes.htm'\))
-[Further Changes](javascript:call_link\('abennews-620-others.htm'\))
+[ABAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-objects.htm)
+[Structure Enhancements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-structures.htm)
+[Catchable Exceptions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-exceptions.htm)
+[Additions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-additions.htm)
+[Short Dumps](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-dumps.htm)
+[Tools](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-tools.htm)
+[System Classes and Methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-classes.htm)
+[Further Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-others.htm)
 
 Continue
-[ABAP Objects in Release 6.20](javascript:call_link\('abennews-620-objects.htm'\))
-[Structure Enhancements in Release 6.20](javascript:call_link\('abennews-620-structures.htm'\))
-[New Catchable Exceptions in Release 6.20](javascript:call_link\('abennews-620-exceptions.htm'\))
-[Additions in Release 6.20](javascript:call_link\('abennews-620-additions.htm'\))
-[Short Dumps in Release 6.20](javascript:call_link\('abennews-620-dumps.htm'\))
-[Tools in Release 6.20](javascript:call_link\('abennews-620-tools.htm'\))
-[System Classes and Methods in Release 6.20](javascript:call_link\('abennews-620-classes.htm'\))
-[Further Changes in Release 6.20](javascript:call_link\('abennews-620-others.htm'\))
+[ABAP Objects in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-objects.htm)
+[Structure Enhancements in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-structures.htm)
+[New Catchable Exceptions in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-exceptions.htm)
+[Additions in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-additions.htm)
+[Short Dumps in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-dumps.htm)
+[Tools in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-tools.htm)
+[System Classes and Methods in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-classes.htm)
+[Further Changes in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-others.htm)
 
-
-
-**📖 Source**: [abennews-620.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620.htm)
 
 ### abennews-620-objects.htm
-
-> **📖 Official SAP Documentation**: [abennews-620-objects.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-objects.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -78,7 +45,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-6.htm) →  [Changes in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620.htm) → 
 
 ABAP Objects in Release 6.20
 
@@ -93,17 +60,17 @@ Modification 1
 
 New Variant PROVIDE FIELDS
 
-The statement [PROVIDE FIELDS](javascript:call_link\('abapprovide.htm'\)) makes it possible to process [internal tables](javascript:call_link\('abenitab_oview.htm'\)) without [headers](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"). The functions of the statement PROVIDE are therefore also available under [ABAP Objects](javascript:call_link\('abenabap_objects_oview.htm'\)).
+The statement [PROVIDE FIELDS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapprovide.htm) makes it possible to process [internal tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_oview.htm) without [headers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenheader_line_glosry.htm "Glossary Entry"). The functions of the statement PROVIDE are therefore also available under [ABAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_objects_oview.htm).
 
 Modification 2
 
 Creating Objects from the SAP XSLT Processor
 
-It is possible to create objects and call class methods from the [SAP XSLT processor](javascript:call_link\('abenxslt_processor_glosry.htm'\) "Glossary Entry"). Now only public methods are allowed, whereas previously private and [protected](javascript:call_link\('abenprotected_glosry.htm'\) "Glossary Entry") methods could also be called.
+It is possible to create objects and call class methods from the [SAP XSLT processor](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenxslt_processor_glosry.htm "Glossary Entry"). Now only public methods are allowed, whereas previously private and [protected](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprotected_glosry.htm "Glossary Entry") methods could also be called.
 
-Parameter passing now supports all ABAP [elementary types](javascript:call_link\('abendata_types.htm'\)), any object references, and the generic types csequence and xsequence. Previously, the types c, d, f, i, n, string, and t were supported.
+Parameter passing now supports all ABAP [elementary types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_types.htm), any object references, and the generic types csequence and xsequence. Previously, the types c, d, f, i, n, string, and t were supported.
 
-The transfer has been tightened, so that for the data types d and i only valid specifications are permitted. Value losses for type p are now caught. The values of types x and xstring are converted into the [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") standard format [base64](javascript:call_link\('abenbase64_glosry.htm'\) "Glossary Entry").
+The transfer has been tightened, so that for the data types d and i only valid specifications are permitted. Value losses for type p are now caught. The values of types x and xstring are converted into the [XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenxml_glosry.htm "Glossary Entry") standard format [base64](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbase64_glosry.htm "Glossary Entry").
 
 Modification 3
 
@@ -122,7 +89,7 @@ Modification 4
 
 Accessing Data References and Static Class Components in JavaScript
 
-Binding JavaScript objects to ABAP objects has been expanded to enable access to data reference variables and [static components](javascript:call_link\('abenstatic_component_glosry.htm'\) "Glossary Entry") (attributes and methods) of classes. In bound internal tables, you can delete lines using the JS method deleteLines and the JS method append has been renamed appendLine.
+Binding JavaScript objects to ABAP objects has been expanded to enable access to data reference variables and [static components](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatic_component_glosry.htm "Glossary Entry") (attributes and methods) of classes. In bound internal tables, you can delete lines using the JS method deleteLines and the JS method append has been renamed appendLine.
 
 Hint
 
@@ -132,47 +99,33 @@ Modification 5
 
 Kernel Methods
 
-The addition BY KERNEL MODULE of the statement [METHOD](javascript:call_link\('abapmethod.htm'\)) makes it possible to implement methods as [kernel methods](javascript:call_link\('abenkernel_methods.htm'\)).
+The addition BY KERNEL MODULE of the statement [METHOD](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmethod.htm) makes it possible to implement methods as [kernel methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenkernel_methods.htm).
 
 Modification 6
 
 Recursions of RAISE EVENT
 
-The number of possible recursions of the statement [RAISE EVENT](javascript:call_link\('abapraise_event.htm'\)) has been raised from 63 to 1023.
+The number of possible recursions of the statement [RAISE EVENT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_event.htm) has been raised from 63 to 1023.
 
-
-
-**📖 Source**: [abennews-620-objects.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-objects.htm)
 
 ### abennews-620-structures.htm
 
-> **📖 Official SAP Documentation**: [abennews-620-structures.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-structures.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-6.htm) →  [Changes in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620.htm) → 
 
 Structure Enhancements in Release 6.20
 
-Since Release 3.0, customers have been able to make changes to SAP's ABAP Dictionary structures and tables using customizing includes or appends. Changes like this, however, can cause problems in programs with active [Unicode checks](javascript:call_link\('abenunicode_check_glosry.htm'\) "Glossary Entry"). For example, if a character-like-only structure is enhanced, it can lose its character-like nature and hence its fragment view is changed.
+Since Release 3.0, customers have been able to make changes to SAP's ABAP Dictionary structures and tables using customizing includes or appends. Changes like this, however, can cause problems in programs with active [Unicode checks](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunicode_check_glosry.htm "Glossary Entry"). For example, if a character-like-only structure is enhanced, it can lose its character-like nature and hence its fragment view is changed.
 
-In Release 6.20, it has therefore been made possible to classify dictionary structures and tables, so that problems caused by structure enhancements can be easily recognized and dealt with. In the ABAP programming checks, this classification is used to flag up all places in the source code that can cause problems in the context of structure enhancements. These problems are due to syntax errors or modified program behavior caused by structure enhancements. The dictionary categories and their effect in ABAP programs are described in [Enhancement Category](javascript:call_link\('abenddic_structures_enh_cat.htm'\)).
+In Release 6.20, it has therefore been made possible to classify dictionary structures and tables, so that problems caused by structure enhancements can be easily recognized and dealt with. In the ABAP programming checks, this classification is used to flag up all places in the source code that can cause problems in the context of structure enhancements. These problems are due to syntax errors or modified program behavior caused by structure enhancements. The dictionary categories and their effect in ABAP programs are described in [Enhancement Category](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_enh_cat.htm).
 
-
-
-**📖 Source**: [abennews-620-structures.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-structures.htm)
 
 ### abennews-620-exceptions.htm
-
-> **📖 Official SAP Documentation**: [abennews-620-exceptions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-exceptions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -180,7 +133,7 @@ In Release 6.20, it has therefore been made possible to classify dictionary stru
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-6.htm) →  [Changes in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620.htm) → 
 
 New Catchable Exceptions in Release 6.20
 
@@ -198,7 +151,7 @@ Modification 1
 
 Catchable Exceptions in Method Calls
 
-The following exceptions can now be handled in [method calls](javascript:call_link\('abenmethod_calls.htm'\)), having been assigned to existing exception classes:
+The following exceptions can now be handled in [method calls](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmethod_calls.htm), having been assigned to existing exception classes:
 
 -   CALL\_METHOD\_NOT\_IMPLEMENTED
 
@@ -215,7 +168,7 @@ Modification 2
 
 Catchable Exceptions in Function Module Calls
 
-In [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)), the following exceptions can now be handled, having been assigned to existing exception classes. The new exception class CX\_SY\_DYN\_CALL\_ILLEGAL\_FUNC was introduced only for the first two exceptions in the following list:
+In [CALL FUNCTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function.htm), the following exceptions can now be handled, having been assigned to existing exception classes. The new exception class CX\_SY\_DYN\_CALL\_ILLEGAL\_FUNC was introduced only for the first two exceptions in the following list:
 
 -   CALL\_FUNCTION\_NOT\_ACTIVE
 
@@ -240,7 +193,7 @@ Modification 3
 
 Catchable Exceptions in Down Casts
 
-In [down casts](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry"), the following exceptions can now be handled, having been assigned to an existing exception class:
+In [down casts](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendown_cast_glosry.htm "Glossary Entry"), the following exceptions can now be handled, having been assigned to an existing exception class:
 
 -   MOVE\_CAST\_ERROR\_DYN
 
@@ -262,41 +215,34 @@ Modification 5
 
 Catchable Exceptions in CALL TRANSFORMATION
 
-The exception classes CX\_SY\_CONVERSION\_NO\_RAW and CX\_SY\_CONVERSION\_NO\_DATE\_TIME have been introduced for the statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)).
+The exception classes CX\_SY\_CONVERSION\_NO\_RAW and CX\_SY\_CONVERSION\_NO\_DATE\_TIME have been introduced for the statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation.htm).
 
 Modification 6
 
 Catchable Exceptions in GENERATE REPORT *|* SUBROUTINE POOL
 
-The exception class CX\_SY\_GEN\_SOURCE\_TOO\_WIDE has been introduced for the statement [GENERATE REPORT*|*SUBROUTINE POOL](javascript:call_link\('abapgenerate_report.htm'\)).
+The exception class CX\_SY\_GEN\_SOURCE\_TOO\_WIDE has been introduced for the statement [GENERATE REPORT*|*SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapgenerate_report.htm).
 
 Modification 7
 
 Catchable Exceptions in SCAN
 
-The exception class CX\_SY\_SCAN\_SOURCE\_TOO\_WIDE has been introduced for the statement [SCAN](javascript:call_link\('abapscan.htm'\)).
+The exception class CX\_SY\_SCAN\_SOURCE\_TOO\_WIDE has been introduced for the statement [SCAN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapscan.htm).
 
 Modification 8
 
 Catchable Exceptions in EXPORT TO SHARED MEMORY
 
-The exception CX\_SY\_EXPORT\_NO\_SHARED\_MEMORY has been introduced for [EXPORT TO SHARED MEMORY](javascript:call_link\('abapexport_data_cluster.htm'\)).
+The exception CX\_SY\_EXPORT\_NO\_SHARED\_MEMORY has been introduced for [EXPORT TO SHARED MEMORY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexport_data_cluster.htm).
 
 Modification 9
 
 Catchable Exceptions in PROVIDE
 
-The exception classes CX\_SY\_PROVIDE\_INTERVAL\_OVERLAP and CX\_SY\_PROVIDE\_TABLE\_NOT\_SORTED have been introduced for the new variant of the statement [PROVIDE](javascript:call_link\('abapprovide.htm'\)). These exceptions are not raised by the short form of PROVIDE.
+The exception classes CX\_SY\_PROVIDE\_INTERVAL\_OVERLAP and CX\_SY\_PROVIDE\_TABLE\_NOT\_SORTED have been introduced for the new variant of the statement [PROVIDE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapprovide.htm). These exceptions are not raised by the short form of PROVIDE.
 
-
-
-**📖 Source**: [abennews-620-exceptions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-exceptions.htm)
 
 ### abennews-620-additions.htm
-
-> **📖 Official SAP Documentation**: [abennews-620-additions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-additions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -304,7 +250,7 @@ The exception classes CX\_SY\_PROVIDE\_INTERVAL\_OVERLAP and CX\_SY\_PROVIDE\_TA
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-6.htm) →  [Changes in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620.htm) → 
 
 Additions in Release 6.20
 
@@ -320,53 +266,46 @@ Modification 1
 
 DAYLIGHT SAVING TIME in CONVERT TIME STAMP
 
-The addition [DAYLIGHT SAVING TIME dst](javascript:call_link\('abapconvert_time-stamp.htm'\)) has been added to the statement CONVERT TIME STAMP tst. This provides a flag in data object dst that indicates whether the time tst is within the summer time.
+The addition [DAYLIGHT SAVING TIME dst](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapconvert_time-stamp.htm) has been added to the statement CONVERT TIME STAMP tst. This provides a flag in data object dst that indicates whether the time tst is within the summer time.
 
 Modification 2
 
-AS PERSON TABLE in [infotypes](javascript:call_link\('abeninfo_type_glosry.htm'\) "Glossary Entry")
+AS PERSON TABLE in [infotypes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninfo_type_glosry.htm "Glossary Entry")
 
-This addition creates an internal table of personal data when [infotype nnnn](javascript:call_link\('abapinfotypes.htm'\)) is declared. The internal table is given the name PPnnnn, unless a name was specified explicitly using the addition NAME.
+This addition creates an internal table of personal data when [infotype nnnn](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinfotypes.htm) is declared. The internal table is given the name PPnnnn, unless a name was specified explicitly using the addition NAME.
 
 Modification 3
 
 TO*|*FROM INTERNAL TABLE in EXPORT*|*IMPORT
 
-The variant [EXPORT ... TO INTERNAL TABLE itab](javascript:call_link\('abapexport_data_cluster.htm'\)) makes it possible to store cluster data in the internal table itab. The variant [IMPORT ... FROM INTERNAL TABLE itab](javascript:call_link\('abapimport_data_cluster.htm'\)) can be used to read this repository again.
+The variant [EXPORT ... TO INTERNAL TABLE itab](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexport_data_cluster.htm) makes it possible to store cluster data in the internal table itab. The variant [IMPORT ... FROM INTERNAL TABLE itab](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapimport_data_cluster.htm) can be used to read this repository again.
 
 Modification 4
 
 CONNECTION in ABAP SQL
 
-The addition CONNECTION enables all [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) statements to use databases other than the standard database. The alternative database systems must be supported by SAP.
+The addition CONNECTION enables all [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) statements to use databases other than the standard database. The alternative database systems must be supported by SAP.
 
 Modification 5
 
 SOURCE in CALL TRANSFORMATION
 
-The addition [SOURCE](javascript:call_link\('abapcall_transformation.htm'\)) enables ABAP data and objects to be serialized in a canonical [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") format, where the [SAP XSLT processor](javascript:call_link\('abenxslt_processor_glosry.htm'\) "Glossary Entry") has a direct interface to the serializer. The result of this [XSLT transformation](javascript:call_link\('abenxsl_transformation_glosry.htm'\) "Glossary Entry") can be produced as XML data or be converted back into ABAP data and objects.
+The addition [SOURCE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation.htm) enables ABAP data and objects to be serialized in a canonical [XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenxml_glosry.htm "Glossary Entry") format, where the [SAP XSLT processor](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenxslt_processor_glosry.htm "Glossary Entry") has a direct interface to the serializer. The result of this [XSLT transformation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenxsl_transformation_glosry.htm "Glossary Entry") can be produced as XML data or be converted back into ABAP data and objects.
 
 Modification 6
 
 VISIBLE LENGTH in SELECTION-SCREEN PUSHBUTTON
 
-This addition can be used to change the visible length of pushbuttons for the statement [SELECTION-SCREEN PUSHBUTTON](javascript:call_link\('abapselection-screen_layout.htm'\)).
+This addition can be used to change the visible length of pushbuttons for the statement [SELECTION-SCREEN PUSHBUTTON](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselection-screen_layout.htm).
 
 Modification 7
 
 DISPLAY*|*MEMORY OFFSET in GET*|*SET CURSOR*|*LINE
 
-When OFFSET is specified with the additions DISPLAY or MEMORY in list processing, the statements [GET CURSOR *{* FIELD f *|* LINE l *}*](javascript:call_link\('abapget_cursor_list.htm'\)) and [SET CURSOR *{* FIELD f *|* LINE l*}*](javascript:call_link\('abapset_cursor_list.htm'\)) can be used to specify whether the column in the displayed list or the position in the list buffer is intended. The addition DISPLAY is the standard and can be omitted.
+When OFFSET is specified with the additions DISPLAY or MEMORY in list processing, the statements [GET CURSOR *{* FIELD f *|* LINE l *}*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_cursor_list.htm) and [SET CURSOR *{* FIELD f *|* LINE l*}*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_cursor_list.htm) can be used to specify whether the column in the displayed list or the position in the list buffer is intended. The addition DISPLAY is the standard and can be omitted.
 
-
-
-**📖 Source**: [abennews-620-additions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-additions.htm)
 
 ### abennews-620-dumps.htm
-
-> **📖 Official SAP Documentation**: [abennews-620-dumps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-dumps.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -374,7 +313,7 @@ When OFFSET is specified with the additions DISPLAY or MEMORY in list processing
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-6.htm) →  [Changes in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620.htm) → 
 
 Short Dumps in Release 6.20
 
@@ -387,7 +326,7 @@ Modification 1
 
 Displaying Work Areas
 
-The system now only displays processed work areas, and the [data area](javascript:call_link\('abendata_area_glosry.htm'\) "Glossary Entry") directory no longer exists. Instead, only the directory of application tables is displayed, including their administration information.
+The system now only displays processed work areas, and the [data area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_area_glosry.htm "Glossary Entry") directory no longer exists. Instead, only the directory of application tables is displayed, including their administration information.
 
 Modification 2
 
@@ -405,7 +344,7 @@ Modification 4
 
 Display Languages
 
-When [short dumps](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") are displayed, the system now also respects the second language, stored in the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") zcsa/second\_language. If no text is found, a note can be created and referred to in the standard text. The search for the short dump text is performed in the following order with respect to language version:
+When [short dumps](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshort_dump_glosry.htm "Glossary Entry") are displayed, the system now also respects the second language, stored in the [profile parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") zcsa/second\_language. If no text is found, a note can be created and referred to in the standard text. The search for the short dump text is performed in the following order with respect to language version:
 
 1.  Search for text in logon language
     
@@ -421,14 +360,7 @@ When [short dumps](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary
 As soon as a text is found, the system stops the search and displays the text.
 
 
-
-**📖 Source**: [abennews-620-dumps.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-dumps.htm)
-
 ### abennews-620-tools.htm
-
-> **📖 Official SAP Documentation**: [abennews-620-tools.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-tools.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -436,7 +368,7 @@ As soon as a text is found, the system stops the search and displays the text.
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-6.htm) →  [Changes in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620.htm) → 
 
 Tools in Release 6.20
 
@@ -449,7 +381,7 @@ Modification 1
 
 Code Inspector
 
-Code Inspector is a tool that enables ABAP programs, function modules, classes, interfaces, and dictionary objects to be checked statically for errors, performance, security, and reliability. The development of these [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") is supported by simple search and check functions. The check results are available in the form of a tree hierarchy
+Code Inspector is a tool that enables ABAP programs, function modules, classes, interfaces, and dictionary objects to be checked statically for errors, performance, security, and reliability. The development of these [repository objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_object_glosry.htm "Glossary Entry") is supported by simple search and check functions. The check results are available in the form of a tree hierarchy
 
 Code Inspector is called for a single object from ABAP Editor by choosing Program → Check → Code Inspector, from Function Builder by choosing Function Module → Code Inspector, or from Class Builder by choosing Object Type → Check → Code Inspector. If more than one repository object needs to be checked, for example all development objects in a package, these can be grouped together in an object set. It is also possible to define check variants with individual checks. A check of all objects in an object set using a specified check variant is called an inspection.
 
@@ -461,7 +393,7 @@ Runtime Monitor
 
 The Runtime Monitor is a framework that supports the recording of ABAP program information at runtime. This information can come from tests that are fixed in the ABAP kernel. ABAP programmers can also query and log specific program conditions at runtime.
 
-With Test > Create ABAP Test, the Runtime Monitor creates a class, which can be called to record data in the source code. The data is first compressed in the main memory and periodically transferred to the database in a background job. The tests can be individually activated and deactivated for different servers. Compressing and saving the data hardly affects the [AS instance](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry"), which means that the Runtime Monitor can be used at any time, even in a production operation.
+With Test > Create ABAP Test, the Runtime Monitor creates a class, which can be called to record data in the source code. The data is first compressed in the main memory and periodically transferred to the database in a background job. The tests can be individually activated and deactivated for different servers. Compressing and saving the data hardly affects the [AS instance](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapplication_server_glosry.htm "Glossary Entry"), which means that the Runtime Monitor can be used at any time, even in a production operation.
 
 Modification 3
 
@@ -471,11 +403,11 @@ Debugger
 
 -   Breakpoints are defined according to whether they take effect in a HTTP session or in a standard session. HTTP debugging is activated in the editor by choosing Utilities → Settings → HTTP Debugging. Depending on the setting, the system then displays either the HTTP or standard breakpoints in the Editor.
 
--   If, under Settings, the function Check Sorting Before [READ BINARY SEARCH](javascript:call_link\('abapread_table.htm'\)) is selected, the system checks, before every execution of this statement, whether the internal table is sorted. If the table is not sorted, a runtime error occurs. This setting should only be activated shortly before reaching a relevant point in the source code, because there can be a significant loss in performance, depending on the table size.
+-   If, under Settings, the function Check Sorting Before [READ BINARY SEARCH](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table.htm) is selected, the system checks, before every execution of this statement, whether the internal table is sorted. If the table is not sorted, a runtime error occurs. This setting should only be activated shortly before reaching a relevant point in the source code, because there can be a significant loss in performance, depending on the table size.
 
--   If the "Check Sorting Before [PROVIDE](javascript:call_link\('abapprovide.htm'\))" function was selected under settings, the system checks all of the relevant tables - and not just the area specified with extlim1 and extlim2 - for sorting and overlapping intervals when the long form of the PROVIDE statement is executed.
+-   If the "Check Sorting Before [PROVIDE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapprovide.htm)" function was selected under settings, the system checks all of the relevant tables - and not just the area specified with extlim1 and extlim2 - for sorting and overlapping intervals when the long form of the PROVIDE statement is executed.
 
--   When displaying exception objects, the system only displayed the key itself in the field display for the TEXTID attribute that contains the OTR key of the text description assigned to the exception. Because this key is generated automatically and is nothing more than a sequence of numbers, assigning the corresponding text to the exception was difficult. The reason for this is that the displayed value had to be compared with the values of all constants generated for the exception. To simplify the assignment, the name of the constant generated for the key is now displayed as a tooltip. For example, in the case of an exception of the type CX\_SY\_FILE\_IO for the TEXTID attribute, the system displays READ\_ERROR or WRITE\_ERROR as a [tooltip](javascript:call_link\('abentool_tip_glosry.htm'\) "Glossary Entry"), depending on whether the exception was raised while reading or writing. The actual value of the attribute is the OTR key of the corresponding text description.
+-   When displaying exception objects, the system only displayed the key itself in the field display for the TEXTID attribute that contains the OTR key of the text description assigned to the exception. Because this key is generated automatically and is nothing more than a sequence of numbers, assigning the corresponding text to the exception was difficult. The reason for this is that the displayed value had to be compared with the values of all constants generated for the exception. To simplify the assignment, the name of the constant generated for the key is now displayed as a tooltip. For example, in the case of an exception of the type CX\_SY\_FILE\_IO for the TEXTID attribute, the system displays READ\_ERROR or WRITE\_ERROR as a [tooltip](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentool_tip_glosry.htm "Glossary Entry"), depending on whether the exception was raised while reading or writing. The actual value of the attribute is the OTR key of the corresponding text description.
 
 -   By choosing Debugging → Session, breakpoints and the settings "System Debugging" and "Always Create Exception Object" can now be saved persistently and reloaded later. The session can be saved by entering a name and expiration date for it. It is then available to other users and sessions, with the selected settings.
     
@@ -489,14 +421,7 @@ In Runtime Analysis, it is no longer possible to create temporary variants. Inst
 Additionally, the create, delete, and copy functions are again included in the measurement restrictions block on the initial screen. While create and copy can only be executed as single functions, the F4 key can be used to delete multiple variants.
 
 
-
-**📖 Source**: [abennews-620-tools.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-tools.htm)
-
 ### abennews-620-classes.htm
-
-> **📖 Official SAP Documentation**: [abennews-620-classes.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-classes.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -504,7 +429,7 @@ Additionally, the create, delete, and copy functions are again included in the m
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-6.htm) →  [Changes in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620.htm) → 
 
 System Classes and Methods in Release 6.20
 
@@ -517,7 +442,7 @@ Modification 1
 
 Class for Calculating with Time Stamps
 
-Class CL\_ABAP\_TSTMP has been introduced for calculating with [time stamps](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") in packed numbers.
+Class CL\_ABAP\_TSTMP has been introduced for calculating with [time stamps](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_stamp_glosry.htm "Glossary Entry") in packed numbers.
 
 Modification 2
 
@@ -537,24 +462,14 @@ Modification 4
 
 Methods for Determining Type Attributes
 
-Two new methods have been introduced in class CL\_ABAP\_DATADESCR for determining type attributes at runtime ([RTTI](javascript:call_link\('abenrtti.htm'\))):
+Two new methods have been introduced in class CL\_ABAP\_DATADESCR for determining type attributes at runtime ([RTTI](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrtti.htm)):
 
 -   Method IS\_READ\_ONLY determines whether a reference data object is write-protected.
 
 -   Method APPLIES\_TO\_DATA\_REF executes a type check between the description and the data object. This makes it possible to determine the compatibility of data objects.
 
 
-
-**📖 Source**: [abennews-620-classes.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-classes.htm)
-
 ### abennews-620-others.htm
-
-> **📖 Official SAP Documentation**: [abennews-620-others.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-others.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abennews-620-others.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620-others.htm)
-
 
   
 
@@ -562,7 +477,7 @@ Two new methods have been introduced in class CL\_ABAP\_DATADESCR for determinin
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-6.htm) →  [Changes in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620.htm) → 
 
 Further Changes in Release 6.20
 
@@ -583,13 +498,13 @@ Modification 1
 
 Parameter INITIAL SIZE for Internal Tables
 
-An internal table created as a data type in ABAP Dictionary can be assigned an initial number of lines. This specification in the dictionary has the same effect as the [INITIAL SIZE](javascript:call_link\('abapdata_itab.htm'\)) addition in the ABAP source code. Therefore, all the information that describes a table, such as table category, key, line number, and type, are also available in the dictionary.
+An internal table created as a data type in ABAP Dictionary can be assigned an initial number of lines. This specification in the dictionary has the same effect as the [INITIAL SIZE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdata_itab.htm) addition in the ABAP source code. Therefore, all the information that describes a table, such as table category, key, line number, and type, are also available in the dictionary.
 
 Modification 2
 
 Relevant Language Key in Dictionary Structures
 
-For error-free conversion of data that is swapped between [Unicode](javascript:call_link\('abenunicode_system_glosry.htm'\) "Glossary Entry") and non-Unicode systems, you can specify the structure components responsible for the relevant language key in ABAP Dictionary. If necessary, this information can be queried in the [remote function call](javascript:call_link\('abenrfc.htm'\)).
+For error-free conversion of data that is swapped between [Unicode](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunicode_system_glosry.htm "Glossary Entry") and non-Unicode systems, you can specify the structure components responsible for the relevant language key in ABAP Dictionary. If necessary, this information can be queried in the [remote function call](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc.htm).
 
 Modification 3
 
@@ -597,27 +512,27 @@ New Functions in the Extended Program Check
 
 The following changes have been made to the extended program check:
 
--   Errors in included [type pools](javascript:call_link\('abaptype-pools.htm'\)) are no longer displayed.
+-   Errors in included [type pools](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptype-pools.htm) are no longer displayed.
 
--   An [INSERT itab](javascript:call_link\('abapinsert_itab.htm'\)) outside a loop causes a warning.
+-   An [INSERT itab](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_itab.htm) outside a loop causes a warning.
 
--   All characters in the ABAP source code, especially special characters that do not comply with the [naming conventions](javascript:call_link\('abentype_names.htm'\)), raise a warning.
+-   All characters in the ABAP source code, especially special characters that do not comply with the [naming conventions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentype_names.htm), raise a warning.
 
--   All [structure enhancements](javascript:call_link\('abenddic_structures_enh_cat.htm'\)) whose ABAP source code indicate potential runtime errors or changed program behavior raise a warning.
+-   All [structure enhancements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_enh_cat.htm) whose ABAP source code indicate potential runtime errors or changed program behavior raise a warning.
     
 
 Modification 4
 
 Handling IMPORTING Parameters with CREATE
 
-Formal parameters of methods that were passed to the method using IMPORTING and referenced there using [CREATE](javascript:call_link\('abapcreate_object.htm'\)) can no longer be overwritten. This check, which was previously not executed till runtime, is now caught by the syntax check.
+Formal parameters of methods that were passed to the method using IMPORTING and referenced there using [CREATE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object.htm) can no longer be overwritten. This check, which was previously not executed till runtime, is now caught by the syntax check.
 
 Modification 5
 
 Secondary Language Access for Text Elements
 
-Secondary language access is now available for report titles, [list headers](javascript:call_link\('abenlist_header_glosry.htm'\) "Glossary Entry"), selection texts, text symbols, and texts specified dynamically of the form [ASSIGN ('TEXT-nnn') TO <fs>](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)). If the text pool does not exist in the logon language, the system loads the text pool that matches the entry in the profile parameter zcsa/second\_language.
-Until now, text elements that were not available in the text pool for the language lg remained unaltered by the statement [SET LANGUAGE lg](javascript:call_link\('abapset_language.htm'\)). In the context of this change, these texts are now reset to their initial value.
+Secondary language access is now available for report titles, [list headers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlist_header_glosry.htm "Glossary Entry"), selection texts, text symbols, and texts specified dynamically of the form [ASSIGN ('TEXT-nnn') TO <fs>](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area_dynamic_dobj.htm). If the text pool does not exist in the logon language, the system loads the text pool that matches the entry in the profile parameter zcsa/second\_language.
+Until now, text elements that were not available in the text pool for the language lg remained unaltered by the statement [SET LANGUAGE lg](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_language.htm). In the context of this change, these texts are now reset to their initial value.
 
 Modification 6
 
@@ -635,13 +550,13 @@ Modification 8
 
 Lengths Specified in the Statement WRITE
 
-As of Release 6.20, the output length can be specified using the variants [WRITE AT (\*)](javascript:call_link\('abapwrite-.htm'\)) and [WRITE AT (\*\*)](javascript:call_link\('abapwrite-.htm'\)), as well as using numeric data objects.
+As of Release 6.20, the output length can be specified using the variants [WRITE AT (\*)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite-.htm) and [WRITE AT (\*\*)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite-.htm), as well as using numeric data objects.
 
 Modification 9
 
 XML Serialization and XML Deserialization
 
-Objects and data references can now also be serialized and deserialized in [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") serialization and XML deserialization.
+Objects and data references can now also be serialized and deserialized in [XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenxml_glosry.htm "Glossary Entry") serialization and XML deserialization.
 
 1.  Objects are only serialized if the class implements the interface IF\_SERIALIZABLE\_OBJECT.
     
@@ -652,16 +567,16 @@ Modification 10
 
 Static Method Call from XSLT
 
-It is now also possible to call public [static methods](javascript:call_link\('abenstatic_method_glosry.htm'\) "Glossary Entry") from [XSLT programs](javascript:call_link\('abenxsl_transformation_glosry.htm'\) "Glossary Entry").
+It is now also possible to call public [static methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatic_method_glosry.htm "Glossary Entry") from [XSLT programs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenxsl_transformation_glosry.htm "Glossary Entry").
 
 Modification 11
 
 Addition USER-COMMAND after PARAMETERS ... AS LISTBOX
 
-The addition USER-COMMAND can be specified for the statement [PARAMETERS](javascript:call_link\('abapparameters.htm'\)) together with the addition [AS LISTBOX](javascript:call_link\('abapparameters_screen.htm'\)).
+The addition USER-COMMAND can be specified for the statement [PARAMETERS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapparameters.htm) together with the addition [AS LISTBOX](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapparameters_screen.htm).
 
 Modification 12
 
 Wider Frame on Selection Screens
 
-The standard maximum width of a frame around a block created using [SELECTION-SCREEN](javascript:call_link\('abapselection-screen_block.htm'\)) is now 120 columns. It was previously 83 columns.
+The standard maximum width of a frame around a block created using [SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselection-screen_block.htm) is now 120 columns. It was previously 83 columns.

@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 JSON reader
 
-[XML](javascript:call_link\('abenxml_reader_glosry.htm'\) "Glossary Entry") reader that reads [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") data. A JSON reader handles the JSON data internally like [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry").
+[XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenxml_reader_glosry.htm "Glossary Entry") reader that reads [JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_glosry.htm "Glossary Entry") data. A JSON reader handles the JSON data internally like [JSON-XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_xml_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenabap_json_sxml.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_sxml.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) →  [Messages - System Interfaces](javascript:call_link\('abenmessage_interfaces.htm'\)) →  [Messages - System Interface IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages.htm) →  [Messages - System Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_interfaces.htm) →  [Messages - System Interface IF\_T100\_MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_message.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Messages%20-%20IF_T100_MESSAGE%20in%20a%20Regular%20Class%2C%20ABENIF_T100_MESSAGE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%2
 0improvement:)
@@ -90,10 +90,10 @@ ENDCLASS.
 
 Description   
 
-Objects in the example class msg shown here can represent any messages from the table T100 and can be used in the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)). There are four attributes ATTR1 to ATTR4 for the content of four placeholders. The constructor provides input parameters for all necessary values. In the constructor, the message class and the message number are written directly to the associated components of the interface structure T100KEY. The identically named attributes are assigned to the components ATTR1 to ATTR4 and filled with the passed values.
+Objects in the example class msg shown here can represent any messages from the table T100 and can be used in the statement [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm). There are four attributes ATTR1 to ATTR4 for the content of four placeholders. The constructor provides input parameters for all necessary values. In the constructor, the message class and the message number are written directly to the associated components of the interface structure T100KEY. The identically named attributes are assigned to the components ATTR1 to ATTR4 and filled with the passed values.
 
-After the class is instantiated, the message text is obtained using the interface method GET\_TEXT, which is implemented appropriately in the class and for which an alias name is declared. The object of the class can be used directly as an operand of the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)) in ABAP language versions where that syntax is allowed. The message type is not stored as an attribute of the class but must be specified in the calling method.
+After the class is instantiated, the message text is obtained using the interface method GET\_TEXT, which is implemented appropriately in the class and for which an alias name is declared. The object of the class can be used directly as an operand of the statement [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) in ABAP language versions where that syntax is allowed. The message type is not stored as an attribute of the class but must be specified in the calling method.
 
 Hint
 
-See also the executable example [System Interface IF\_T100\_DYN\_MSG in Regular Class](javascript:call_link\('abenif_t100_dyn_msg_abexa.htm'\)).
+See also the executable example [System Interface IF\_T100\_DYN\_MSG in Regular Class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_dyn_msg_abexa.htm).

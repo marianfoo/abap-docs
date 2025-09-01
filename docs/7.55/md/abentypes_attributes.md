@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces (ABAP Objects)](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_declarations.htm) →  [Classes and Interfaces (ABAP Objects)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_ifac_components.htm) → 
 
 ABAP Objects - Data Types and Attributes
 
@@ -12,15 +12,15 @@ Attributes are the data objects of a class. It is also possible to declare data 
 
 -   General statements that are also possible in other contexts
 
--   [TYPES](javascript:call_link\('abaptypes.htm'\))
+-   [TYPES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes.htm)
 
--   [DATA](javascript:call_link\('abapdata.htm'\))
+-   [DATA](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdata.htm)
 
--   [CONSTANTS](javascript:call_link\('abapconstants.htm'\))
+-   [CONSTANTS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapconstants.htm)
 
 -   A special statement that is only possible in classes
 
--   [CLASS-DATA](javascript:call_link\('abapclass-data.htm'\))
+-   [CLASS-DATA](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass-data.htm)
 
 Continue
-[CLASS-DATA](javascript:call_link\('abapclass-data.htm'\))
+[CLASS-DATA](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass-data.htm)

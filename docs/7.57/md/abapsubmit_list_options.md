@@ -4,21 +4,21 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Executable Programs](javascript:call_link\('abenabap_submit_report.htm'\)) →  [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_program_call.htm) →  [Calling Executable Programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_submit_report.htm) →  [SUBMIT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsubmit.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SUBMIT, list_options, ABAPSUBMIT_LIST_OPTIONS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0
 A%0D%0ASuggestion for improvement:)
 
 SUBMIT, list\_options
 
-[Short Reference](javascript:call_link\('abapsubmit_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsubmit_shortref.htm)
 
 Syntax
 
 ... *\[*LINE-SIZE width*\]*
     *\[*LINE-COUNT page\_lines*\]*
     *{* *\[*EXPORTING LIST TO MEMORY*\]*
-    *|* *\[*TO SAP-SPOOL [spool\_options](javascript:call_link\('abapsubmit_print_parameters.htm'\))*\]* *}* ...
+    *|* *\[*TO SAP-SPOOL [spool\_options](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsubmit_print_parameters.htm)*\]* *}* ...
 
 Additions:
 
@@ -31,11 +31,11 @@ Effect
 
 These additions modify the basic list of the called program. While LINE-SIZE and LINE-COUNT affect the formatting, the other two additions determine the output type of the list.
 
-EXPORTING LIST TO MEMORY saves the list to the [ABAP memory](javascript:call_link\('abenabap_memory_glosry.htm'\) "Glossary Entry") and TO SAP-SPOOL sends it to the SAP spool system as a spool list. If these additions are not specified, the basic list is preset as a screen list.
+EXPORTING LIST TO MEMORY saves the list to the [ABAP memory](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_memory_glosry.htm "Glossary Entry") and TO SAP-SPOOL sends it to the SAP spool system as a spool list. If these additions are not specified, the basic list is preset as a screen list.
 
 Hint
 
-The additions only work the first time the called program is executed. If a [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") is displayed in the called program, the runtime framework calls the program again after it ends and ignores the additions list\_options. This applies in particular to the addition TO SAP-SPOOL, because the basic list is displayed as a screen list and not as a spool list when the program is called again. For this reason, it is not advisable to use the addition VIA SELECTION-SCREEN when using list\_options.
+The additions only work the first time the called program is executed. If a [selection screen](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselection_screen_glosry.htm "Glossary Entry") is displayed in the called program, the runtime framework calls the program again after it ends and ignores the additions list\_options. This applies in particular to the addition TO SAP-SPOOL, because the basic list is displayed as a screen list and not as a spool list when the program is called again. For this reason, it is not advisable to use the addition VIA SELECTION-SCREEN when using list\_options.
 
 Addition 1   
 
@@ -57,7 +57,7 @@ SUBMIT (name) LINE-SIZE width LINE-COUNT length AND RETURN.
 
 Executable Example
 
-[Program Calls, Modifying the Basic List](javascript:call_link\('abensubmit_list_abexa.htm'\))
+[Program Calls, Modifying the Basic List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensubmit_list_abexa.htm)
 
 Addition 3   
 
@@ -105,11 +105,11 @@ Addition 4  
 
 Effect
 
-If this addition is specified, a new [spool list level](javascript:call_link\('abenspool_list_level_glosry.htm'\) "Glossary Entry") is opened in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of the called program and the first output statement for the basic list of this program creates a new [spool request](javascript:call_link\('abenspool_request_glosry.htm'\) "Glossary Entry"). All list output for the called program is passed page by page to the [SAP spool system](javascript:call_link\('abensap_spool_system_glosry.htm'\) "Glossary Entry") as a [spool list](javascript:call_link\('abenspool_list_glosry.htm'\) "Glossary Entry"). The additions [spool\_options](javascript:call_link\('abapsubmit_print_parameters.htm'\)) are used to define the spool and archive parameters of the spool request.
+If this addition is specified, a new [spool list level](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenspool_list_level_glosry.htm "Glossary Entry") is opened in the [internal session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternal_session_glosry.htm "Glossary Entry") of the called program and the first output statement for the basic list of this program creates a new [spool request](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenspool_request_glosry.htm "Glossary Entry"). All list output for the called program is passed page by page to the [SAP spool system](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_spool_system_glosry.htm "Glossary Entry") as a [spool list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenspool_list_glosry.htm "Glossary Entry"). The additions [spool\_options](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsubmit_print_parameters.htm) are used to define the spool and archive parameters of the spool request.
 
 Hint
 
-It is not possible to switch from the spool list to the screen list in the called program. The statement [NEW-PAGE PRINT OFF](javascript:call_link\('abapnew-page_print.htm'\)) does not affect a spool list level created using SUBMIT TO SAP-SPOOL.
+It is not possible to switch from the spool list to the screen list in the called program. The statement [NEW-PAGE PRINT OFF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapnew-page_print.htm) does not affect a spool list level created using SUBMIT TO SAP-SPOOL.
 
 Example
 
@@ -137,5 +137,5 @@ IF valid\_flag = 'X' AND sy-subrc = 0.
 ENDIF.
 
 Continue
-[SUBMIT, spool\_options](javascript:call_link\('abapsubmit_print_parameters.htm'\))
-![Example](exa.gif "Example") [Program Calls, Modifying the Basic List](javascript:call_link\('abensubmit_list_abexa.htm'\))
+[SUBMIT, spool\_options](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsubmit_print_parameters.htm)
+![Example](exa.gif "Example") [Program Calls, Modifying the Basic List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensubmit_list_abexa.htm)

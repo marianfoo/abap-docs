@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Streaming and Locators](javascript:call_link\('abenstreams_locators.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Streaming and Locators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstreams_locators.htm) → 
 
 LOB Interfaces
 
-ABAP SQL supports access to [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") using [streams](javascript:call_link\('abenopen_sql_streaming.htm'\)) and [locators](javascript:call_link\('abenlocators.htm'\)). For similar reads on these streams and locators, there are the interfaces
+ABAP SQL supports access to [LOBs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlob_glosry.htm "Glossary Entry") using [streams](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_streaming.htm) and [locators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocators.htm). For similar reads on these streams and locators, there are the interfaces
 
 -   IF\_ABAP\_DB\_BLOB\_HANDLE and
 
@@ -28,8 +28,8 @@ The connection to streams and locators is as follows:
 
 -   The interface IF\_ABAP\_DB\_READER includes IF\_ABAP\_DB\_LOB\_HANDLE.
 
-The instances of the system classes that implement the interface IF\_ABAP\_DB\_LOB\_HANDLE are called [LOB handles](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry").
+The instances of the system classes that implement the interface IF\_ABAP\_DB\_LOB\_HANDLE are called [LOB handles](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlob_handle_glosry.htm "Glossary Entry").
 
 Note
 
-The LOB interfaces shown here can only be used for reads. Reference variables for LOB handles that are specified as read targets of the [INTO clause](javascript:call_link\('abapinto_clause.htm'\)) in the [SELECT](javascript:call_link\('abapselect.htm'\)) statement can be typed statically using these interfaces. The class used to create the object must then be specified using the special addition [CREATING](javascript:call_link\('abapselect_creating.htm'\)) in the statement SELECT. For writes with the statements [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)), [UPDATE](javascript:call_link\('abapupdate.htm'\)), or [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)), the reference variables which are used as a source must be typed using the classes for writer streams or locators.
+The LOB interfaces shown here can only be used for reads. Reference variables for LOB handles that are specified as read targets of the [INTO clause](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm) in the [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) statement can be typed statically using these interfaces. The class used to create the object must then be specified using the special addition [CREATING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_creating.htm) in the statement SELECT. For writes with the statements [INSERT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_dbtab.htm), [UPDATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate.htm), or [MODIFY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_dbtab.htm), the reference variables which are used as a source must be typed using the classes for writer streams or locators.

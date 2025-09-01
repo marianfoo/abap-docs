@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Structures](javascript:call_link\('abenconversion_struc.htm'\)) →  [Conversion Between Flat Structures](javascript:call_link\('abenconversion_flat_flat.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_rules.htm) →  [Conversion Rules for Structures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_struc.htm) →  [Conversion Between Flat Structures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_flat_flat.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Conversion Rules for Structures, ABENDATA_CONV_STR_ABEXA, 757%0D%0A%0D%0AError:%0D%0A
 %0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -56,4 +56,4 @@ START-OF-SELECTION.
 
 Description   
 
-In this example, two different structures are defined, fs1 and fs2. The prerequisites of the third [conversion rule for flat structures](javascript:call_link\('abenconversion_flat_flat.htm'\)) apply to both structures and the corresponding rule is also applied. After the assignment of fs1 to fs2, only the result for the first two components is the same as if they were passed component by component. fs2-text is filled with the first five places from fs1-text. None of the remaining components of fs1 are passed.
+In this example, two different structures are defined, fs1 and fs2. The prerequisites of the third [conversion rule for flat structures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_flat_flat.htm) apply to both structures and the corresponding rule is also applied. After the assignment of fs1 to fs2, only the result for the first two components is the same as if they were passed component by component. fs2-text is filled with the first five places from fs1-text. None of the remaining components of fs1 are passed.

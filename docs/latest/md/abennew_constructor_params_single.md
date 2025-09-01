@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [NEW, Instance Operator](javascript:call_link\('abenconstructor_expression_new.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_objects.htm) →  [NEW, Instance Operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_new.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20NEW%2C%20Single%20Value%20for%20All%20Data%20Types%2C%20ABENNEW_CONSTRUCTOR_PARAMS_SINGLE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%
 20improvement:)
@@ -13,11 +13,11 @@ NEW, Single Value for All Data Types
 
 Syntax
 
-... NEW dtype*|*#( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]* dobj ) ...
+... NEW dtype*|*#( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm)*\]* dobj ) ...
 
 Effect
 
-If dtype is a non-generic elementary data type, a structured type, a table type, or a reference type or # is used for a type like this, a single data object dobj can be specified as a unnamed argument that is convertible to or from data type dtype. dobj is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). The value of dobj is assigned to the created anonymous data object. The assignment is made in accordance with the applicable [assignment rules](javascript:call_link\('abenconversion_rules.htm'\)). Optionally, a LET expression [let\_exp](javascript:call_link\('abaplet.htm'\)) can be specified in front of the data object to define local helper fields.
+If dtype is a non-generic elementary data type, a structured type, a table type, or a reference type or # is used for a type like this, a single data object dobj can be specified as a unnamed argument that is convertible to or from data type dtype. dobj is a [general expression position](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). The value of dobj is assigned to the created anonymous data object. The assignment is made in accordance with the applicable [assignment rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_rules.htm). Optionally, a LET expression [let\_exp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplet.htm) can be specified in front of the data object to define local helper fields.
 
 Hints
 

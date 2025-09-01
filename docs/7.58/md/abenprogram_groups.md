@@ -4,18 +4,18 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [External Procedure Call](javascript:call_link\('abencall_procedures_extern.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_procedures.htm) →  [External Procedure Call](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_procedures_extern.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Program%20Groups%20in%20External%20Procedure%20Calls%2C%20ABENPROGRAM_GROUPS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement
 :)
 
 Program Groups in External Procedure Calls
 
-The programs within an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") form [program groups](javascript:call_link\('abeninternal_session.htm'\)) there. There is always one [main program group](javascript:call_link\('abenmain_program_group_glosry.htm'\) "Glossary Entry") and possibly multiple [additional program groups](javascript:call_link\('abenadditional_prog_group_glosry.htm'\) "Glossary Entry"). Each program group contains a main program and any other programs loaded. If, during an external procedure call, the procedure accesses shared resources of the program group, it is important to know the program group of the [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry") of the procedure. This determines whether non-critical external procedure calls and critical external procedure calls are made.
+The programs within an [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry") form [program groups](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session.htm) there. There is always one [main program group](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmain_program_group_glosry.htm "Glossary Entry") and possibly multiple [additional program groups](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadditional_prog_group_glosry.htm "Glossary Entry"). Each program group contains a main program and any other programs loaded. If, during an external procedure call, the procedure accesses shared resources of the program group, it is important to know the program group of the [compilation unit](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencompilation_unit_glosry.htm "Glossary Entry") of the procedure. This determines whether non-critical external procedure calls and critical external procedure calls are made.
 
 Non-Critical External Procedure Calls   
 
-The only procedures intended for external calls are the visible methods of global classes and function modules. The compilation units of these procedures are always [main programs](javascript:call_link\('abenmain_program_glosry.htm'\) "Glossary Entry") of their program groups and it is always determined that the procedures work with the resources of this program group.
+The only procedures intended for external calls are the visible methods of global classes and function modules. The compilation units of these procedures are always [main programs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmain_program_glosry.htm "Glossary Entry") of their program groups and it is always determined that the procedures work with the resources of this program group.
 
 Hint
 
@@ -27,8 +27,8 @@ Subroutines and the methods of local classes are not intended for external calls
 
 The way external procedures of additionally loaded programs are used is critical for the following reasons:
 
--   Within a program group, only the [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), [selection screens](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry"), [lists](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry"), and [GUI statuses](javascript:call_link\('abengui_status_glosry.htm'\) "Glossary Entry") of the main program are used. For example, the statement [CALL SCREEN](javascript:call_link\('abapcall_screen.htm'\)) does not call any dynpros of its own compilation unit in an externally called subroutine of another loaded program and calls a dynpro of the main program of its program group instead. The responses to user actions are also raised in the main program.
--   [Interface work areas](javascript:call_link\('abeninterface_work_area_glosry.htm'\) "Glossary Entry") declared using the statements [TABLES](javascript:call_link\('abaptables.htm'\)), [NODES](javascript:call_link\('abapnodes.htm'\)), or [DATA BEGIN OF COMMON PART](javascript:call_link\('abapdata_common.htm'\)) are only created once for each program group and are shared by all of its programs. Each main program shares the interface work area with additionally loaded programs.
+-   Within a program group, only the [dynpros](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm "Glossary Entry"), [selection screens](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselection_screen_glosry.htm "Glossary Entry"), [lists](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry"), and [GUI statuses](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengui_status_glosry.htm "Glossary Entry") of the main program are used. For example, the statement [CALL SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_screen.htm) does not call any dynpros of its own compilation unit in an externally called subroutine of another loaded program and calls a dynpro of the main program of its program group instead. The responses to user actions are also raised in the main program.
+-   [Interface work areas](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_work_area_glosry.htm "Glossary Entry") declared using the statements [TABLES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptables.htm), [NODES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapnodes.htm), or [DATA BEGIN OF COMMON PART](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_common.htm) are only created once for each program group and are shared by all of its programs. Each main program shares the interface work area with additionally loaded programs.
 
 This means there is no static way of determining which interface work areas and which screens are used by an externally called subroutine or local class. The following figure shows how programs are loaded into program groups, using the example of an external subroutine call.
 
@@ -38,7 +38,7 @@ Subroutines and methods of local classes must always be called internally and ne
 
 Hint
 
-The [text elements](javascript:call_link\('abentext_element_glosry.htm'\) "Glossary Entry") of an additionally loaded program are always taken from its own [text pool](javascript:call_link\('abentext_pool_glosry.htm'\) "Glossary Entry").
+The [text elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_element_glosry.htm "Glossary Entry") of an additionally loaded program are always taken from its own [text pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_pool_glosry.htm "Glossary Entry").
 
 Example
 

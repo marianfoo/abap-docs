@@ -4,18 +4,18 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [ABAP Objects - Methods](javascript:call_link\('abenmethods.htm'\)) →  [METHODS](javascript:call_link\('abapmethods.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_ifac_components.htm) →  [ABAP Objects - Methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethods.htm) →  [METHODS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20METHODS%2C%20constructor%2C%20ABAPMETHODS_CONSTRUCTOR%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 METHODS, constructor
 
-[Short Reference](javascript:call_link\('abapmethods_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_shortref.htm)
 
 Syntax
 
-METHODS constructor *\[*[FINAL](javascript:call_link\('abapmethods_abstract_final.htm'\))*\]*
-  *\[*IMPORTING [parameters](javascript:call_link\('abapmethods_parameters.htm'\)) *\[*PREFERRED PARAMETER p*\]**\]*
+METHODS constructor *\[*[FINAL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_abstract_final.htm)*\]*
+  *\[*IMPORTING [parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_parameters.htm) *\[*PREFERRED PARAMETER p*\]**\]*
   *\[**{*RAISING exc1*|*RESUMABLE(exc1) exc2*|*RESUMABLE(exc2) ...*}*
   *|**{*EXCEPTIONS exc1 exc2 ...*}**\]*.
 
@@ -28,7 +28,7 @@ Additions:
 
 Effect
 
-This statement declares the instance constructor constructor of a class. In a local class, it can be specified in all [visibility sections](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry") that are more general than or equal to the instantiability specified in the [CREATE](javascript:call_link\('abapclass_options.htm'\)) addition of the statement [CLASS DEFINITION](javascript:call_link\('abapclass_definition.htm'\)):
+This statement declares the instance constructor constructor of a class. In a local class, it can be specified in all [visibility sections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvisibility_section_glosry.htm "Glossary Entry") that are more general than or equal to the instantiability specified in the [CREATE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_options.htm) addition of the statement [CLASS DEFINITION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_definition.htm):
 
  
 
@@ -66,30 +66,30 @@ In a global class, the instance constructor must always be declared in the publi
 
 Each class has a predefined method called constructor. By declaring this explicitly, the interface of the method constructor can be defined as class-specific, and its functions can be implemented. Without explicit declaration, the instance constructor assumes the parameter interface of the direct superclass and calls it implicitly.
 
-If the instance constructor is implemented in a subclass, the instance constructor of the superclass must be called explicitly using [super->constructor](javascript:call_link\('abapcall_method_meth_super.htm'\)), even if the latter is not explicitly declared. The exception to this are direct subclasses of the root node object. The following restrictions apply before the superclass constructor is called:
+If the instance constructor is implemented in a subclass, the instance constructor of the superclass must be called explicitly using [super->constructor](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_super.htm), even if the latter is not explicitly declared. The exception to this are direct subclasses of the root node object. The following restrictions apply before the superclass constructor is called:
 
--   The instance constructor does not have access to the instance components of its class. The self-reference [me->](javascript:call_link\('abenme.htm'\)) must not be used. The static components of its class can be accessed, but not using me->.
+-   The instance constructor does not have access to the instance components of its class. The self-reference [me->](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenme.htm) must not be used. The static components of its class can be accessed, but not using me->.
 -   Before the superclass constructor is called, an instance constructor cannot be exited using statements such as RETURN or CHECK.
 
 After the superclass constructor has been called, the self-reference me-> can be used and instance components can be accessed.
 
-For each instance of a class, the instance constructor is called only once using the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)) immediately after it has been created. Here, appropriate actual parameters must be assigned to all non-optional input parameters, return values can be assigned to non-class-based exceptions, and class-based exceptions can be declared. It is not possible to call the instance constructor explicitly, unless the superclass constructor is called using super->constructor in the redefined constructor of a subclass.
+For each instance of a class, the instance constructor is called only once using the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object.htm) immediately after it has been created. Here, appropriate actual parameters must be assigned to all non-optional input parameters, return values can be assigned to non-class-based exceptions, and class-based exceptions can be declared. It is not possible to call the instance constructor explicitly, unless the superclass constructor is called using super->constructor in the redefined constructor of a subclass.
 
 When an instance constructor is executed, the current instance is temporarily the type of the class in which the constructor is defined. This has the following effects:
 
 -   If methods are called when a superclass constructor is executed, the implementations of the superclass are executed and not the redefinitions of subclasses. The specification of me-> to address a redefined method in the new subclass has no effect.
 -   Abstract methods of the same class cannot be called in an instance constructor.
--   When a superclass constructor is executed, attempts to access components of the subclass using a [downcast](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry") produce a runtime error.
--   While the superclass constructor is being executed, the predicate expression [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) is true for the current superclass and not true for the subclass that has just been created.
+-   When a superclass constructor is executed, attempts to access components of the subclass using a [downcast](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendown_cast_glosry.htm "Glossary Entry") produce a runtime error.
+-   While the superclass constructor is being executed, the predicate expression [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_instance_of.htm) is true for the current superclass and not true for the subclass that has just been created.
 
 Programming Guideline
 
-[Declare the instance constructor in the public visibility section.](javascript:call_link\('abeninstance_constructor_guidl.htm'\) "Guideline")
+[Declare the instance constructor in the public visibility section.](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninstance_constructor_guidl.htm "Guideline")
 
 Hints
 
 -   Instance constructors are an exception to the rule that all non-private components on a path in the inheritance hierarchy are in the same namespace. The instance constructor of each class has its own interface and its own implementation. An instance constructor cannot be redefined.
--   Instance constructors are declared in the public [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry") of a class purely for technical reasons. The actual visibility is controlled by the addition CREATE *{*PUBLIC*|*PROTECTED*|*PRIVATE*}* of the statement [CLASS DEFINITION](javascript:call_link\('abapclass_definition.htm'\)). It is recommended that the instance constructor of a local class is declared in the visibility section that corresponds to the instantiability, because this allows the components declared there to be used in the constructor interface. However, for global classes, only the public section is possible.
+-   Instance constructors are declared in the public [visibility section](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvisibility_section_glosry.htm "Glossary Entry") of a class purely for technical reasons. The actual visibility is controlled by the addition CREATE *{*PUBLIC*|*PROTECTED*|*PRIVATE*}* of the statement [CLASS DEFINITION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass_definition.htm). It is recommended that the instance constructor of a local class is declared in the visibility section that corresponds to the instantiability, because this allows the components declared there to be used in the constructor interface. However, for global classes, only the public section is possible.
 -   Before the superclass constructor is called, static components of the same class cannot be accessed using me-> in the instance constructor of a subclass. However, access to the components without using me-> or using the class name and the class component selector \=> is always possible.
 
 Addition 1   
@@ -110,7 +110,7 @@ The addition IMPORTING can be used to define input parameters according to the s
 
 Hint
 
-When the instance constructor is executed, the same applies to [resumable exceptions](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry") as to all other methods. If processing can be resumed successfully, the system continues to create the object.
+When the instance constructor is executed, the same applies to [resumable exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenresumable_exception_glosry.htm "Glossary Entry") as to all other methods. If processing can be resumed successfully, the system continues to create the object.
 
 Addition 4   
 
@@ -118,11 +118,11 @@ Addition 4  
 
 Effect
 
-Instance constructors are implicitly final. The addition [FINAL](javascript:call_link\('abapmethods_abstract_final.htm'\)) can be specified, but it is not necessary.
+Instance constructors are implicitly final. The addition [FINAL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_abstract_final.htm) can be specified, but it is not necessary.
 
 Example
 
-The class c3 inherits from class c2, which inherits from class c1. The instance constructor constructor is explicitly declared in all classes and must be implemented in all classes, whereby the implementation in a subclass must contain the call of the superclass constructor. The predicate expression [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) shows that every instance constructor for an instance of its own class is executed when an object of class c3 is instantiated.
+The class c3 inherits from class c2, which inherits from class c1. The instance constructor constructor is explicitly declared in all classes and must be implemented in all classes, whereby the implementation in a subclass must contain the call of the superclass constructor. The predicate expression [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_instance_of.htm) shows that every instance constructor for an instance of its own class is executed when an object of class c3 is instantiated.
 
 CLASS c1 DEFINITION.
   PUBLIC SECTION.

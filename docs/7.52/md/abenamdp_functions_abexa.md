@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, AMDP Functions
 
@@ -54,9 +54,9 @@ START-OF-SELECTION.
 
 Description
 
-This example access [AMDP functions](javascript:call_link\('abenamdp_function_glosry.htm'\) "Glossary Entry") that are declared and implemented in the [AMDP class](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") CL\_DEMO\_AMDP\_FUNCTIONS\_INPCL.
+This example access [AMDP functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_function_glosry.htm "Glossary Entry") that are declared and implemented in the [AMDP class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_class_glosry.htm "Glossary Entry") CL\_DEMO\_AMDP\_FUNCTIONS\_INPCL.
 
--   The method GET\_SCARR\_SPFLI is an [AMDP function implementation](javascript:call_link\('abenamdp_function_methods.htm'\)) for other AMDP methods with explicitly declared interfaces. It cannot be called in ABAP.
+-   The method GET\_SCARR\_SPFLI is an [AMDP function implementation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_function_methods.htm) for other AMDP methods with explicitly declared interfaces. It cannot be called in ABAP.
 
 METHOD get\_scarr\_spfli BY DATABASE FUNCTION FOR HDB
                        LANGUAGE SQLSCRIPT
@@ -70,7 +70,7 @@ METHOD get\_scarr\_spfli BY DATABASE FUNCTION FOR HDB
                   ORDER BY sc.mandt, sc.carrname, sp.connid;
 ENDMETHOD.
 
--   The method SELECT\_GET\_SCARR\_SPFLI is an [AMDP procedure implementation](javascript:call_link\('abenamdp_procedure_methods.htm'\)) that uses SELECT to access the AMDP function implemented in the method GET\_SCARR\_SPFLI. This method is called in the example program.
+-   The method SELECT\_GET\_SCARR\_SPFLI is an [AMDP procedure implementation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_procedure_methods.htm) that uses SELECT to access the AMDP function implemented in the method GET\_SCARR\_SPFLI. This method is called in the example program.
 
 METHOD select\_get\_scarr\_spfli
        BY DATABASE PROCEDURE FOR HDB
@@ -84,7 +84,7 @@ METHOD select\_get\_scarr\_spfli
                 carrid => :carrid );
 ENDMETHOD.
 
--   The method GET\_SCARR\_SPFLI\_FOR\_CDS is an [AMDP function implementation](javascript:call_link\('abenamdp_function_methods.htm'\)) for the [CDS table function](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry") DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL shown as an example of the DDL statement [DEFINE TABLE FUNCTION](javascript:call_link\('abencds_f1_define_table_function.htm'\)).
+-   The method GET\_SCARR\_SPFLI\_FOR\_CDS is an [AMDP function implementation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_function_methods.htm) for the [CDS table function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_table_function_glosry.htm "Glossary Entry") DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL shown as an example of the DDL statement [DEFINE TABLE FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_table_function.htm).
 
 @ClientHandling.type: #CLIENT\_DEPENDENT
 define table function DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL
@@ -103,7 +103,7 @@ define table function DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL
   implemented by method
     CL\_DEMO\_AMDP\_FUNCTIONS\_INPCL=>GET\_SCARR\_SPFLI\_FOR\_CDS;
 
-This method is declared using the addition [FOR TABLE FUNCTION](javascript:call_link\('abapclass-methods_for_tabfunc.htm'\)) and its interface is determined using theCDS table function. The example program uses [SELECT](javascript:call_link\('abapselect.htm'\)) to access the CDS table function. The input parameter is filled here.
+This method is declared using the addition [FOR TABLE FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-methods_for_tabfunc.htm) and its interface is determined using theCDS table function. The example program uses [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) to access the CDS table function. The input parameter is filled here.
 
 METHOD get\_scarr\_spfli\_for\_cds
        BY DATABASE FUNCTION FOR HDB
@@ -120,11 +120,11 @@ METHOD get\_scarr\_spfli\_for\_cds
                   ORDER BY sc.mandt, sc.carrname, sp.connid;
 ENDMETHOD.
 
-Both accesses produce the same result (verified by the statement [ASSERT](javascript:call_link\('abapassert.htm'\))).
+Both accesses produce the same result (verified by the statement [ASSERT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassert.htm)).
 
 Note
 
-The CDS table function DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL used here has one input parameter for the client, annotated using the annotation [@Environment.systemField](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)) and the predefined value [#CLIENT](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)). This input parameter is filled explicitly with the ID of the current client by the Open SQL statement SELECT and used in the implementation of the associated AMDP method for selecting the data. The nearly identical program DEMO\_AMDP\_FUNCTIONS uses the following CDS table function DEMO\_CDS\_GET\_SCARR\_SPFLI in which the current client is selected from the results set of the table function.
+The CDS table function DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL used here has one input parameter for the client, annotated using the annotation [@Environment.systemField](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm) and the predefined value [#CLIENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm). This input parameter is filled explicitly with the ID of the current client by the Open SQL statement SELECT and used in the implementation of the associated AMDP method for selecting the data. The nearly identical program DEMO\_AMDP\_FUNCTIONS uses the following CDS table function DEMO\_CDS\_GET\_SCARR\_SPFLI in which the current client is selected from the results set of the table function.
 
 @ClientHandling.type: #CLIENT\_DEPENDENT
 @AccessControl.authorizationCheck:#NOT\_ALLOWED

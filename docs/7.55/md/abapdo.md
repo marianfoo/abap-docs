@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Loops](javascript:call_link\('abenabap_loops.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencontrol_structures.htm) →  [Loops](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_loops.htm) → 
 
 DO
 
-[Short Reference](javascript:call_link\('abapdo_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdo_shortref.htm)
 
 Syntax
 
@@ -22,17 +22,17 @@ Addition:
 
 Effect
 
-Unconditional loop. The statements DO and ENDDO define a control structure, which can contain a complete [statement block](javascript:call_link\('abenstatement_block_glosry.htm'\) "Glossary Entry") statement\_block.
+Unconditional loop. The statements DO and ENDDO define a control structure, which can contain a complete [statement block](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatement_block_glosry.htm "Glossary Entry") statement\_block.
 
-Without the addition n TIMES, the statement block is repeated until it is exited using one of the statements for [exiting loops](javascript:call_link\('abenleave_loops.htm'\)). In particular, the statement [EXIT](javascript:call_link\('abapexit_loop.htm'\)) is intended for exiting a loop completely. Within the statement block, the system field sy-index contains the number of previous loop passes, including the current pass. In nested loops, sy-index always refers to the current loop.
+Without the addition n TIMES, the statement block is repeated until it is exited using one of the statements for [exiting loops](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenleave_loops.htm). In particular, the statement [EXIT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexit_loop.htm) is intended for exiting a loop completely. Within the statement block, the system field sy-index contains the number of previous loop passes, including the current pass. In nested loops, sy-index always refers to the current loop.
 
 Hints
 
--   If the addition n TIMES is not specified, the loop has to be terminated by a statement; otherwise it is executed endlessly. A maximum runtime can be configured using the [profile parameters](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") rdisp/scheduler/prio\_low/max\_runtime, rdisp/scheduler/prio\_normal/max\_runtime, and rdisp/scheduler/prio\_high/max\_runtime. If this is exceeded, the program is terminated by the runtime environment.
+-   If the addition n TIMES is not specified, the loop has to be terminated by a statement; otherwise it is executed endlessly. A maximum runtime can be configured using the [profile parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") rdisp/scheduler/prio\_low/max\_runtime, rdisp/scheduler/prio\_normal/max\_runtime, and rdisp/scheduler/prio\_high/max\_runtime. If this is exceeded, the program is terminated by the runtime environment.
 
--   If DO loops are used to construct values or fill internal tables, they can usually be expressed more elegantly using conditional iterations with [FOR](javascript:call_link\('abenfor_conditional.htm'\)) in constructor expressions.
+-   If DO loops are used to construct values or fill internal tables, they can usually be expressed more elegantly using conditional iterations with [FOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor_conditional.htm) in constructor expressions.
 
--   The obsolete addition [VARYING](javascript:call_link\('abapdo_varying.htm'\)) can be used to process a sequence of data objects in the memory.
+-   The obsolete addition [VARYING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdo_varying.htm) can be used to process a sequence of data objects in the memory.
     
 
 Example
@@ -53,7 +53,7 @@ Addition
 
 Effect
 
-The addition n TIMES limits the number of loop passes in a DO loop. n is a [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") of operand type i.
+The addition n TIMES limits the number of loop passes in a DO loop. n is a [numeric expression position](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") of operand type i.
 
 The numeric value of n when entering the loop determines the maximum number of times the statement block is executed. The control structure ignores changes to the value n within the loop. If n contains a value less than or equal to 0, the statement block is not executed.
 
@@ -69,4 +69,4 @@ ENDDO.
 cl\_demo\_output=>display( ).
 
 Continue
-[ENDDO](javascript:call_link\('abapenddo.htm'\))
+[ENDDO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenddo.htm)

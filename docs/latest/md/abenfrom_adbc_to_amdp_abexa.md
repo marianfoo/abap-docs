@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) →  [ABAP and SAP HANA, Examples](javascript:call_link\('abenabap_and_hana_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_hana.htm) →  [ABAP and SAP HANA, Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_and_hana_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SAP%20HANA%2C%20from%20ADBC%20to%20AMDP%2C%20ABENFROM_ADBC_TO_AMDP_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -70,11 +70,11 @@ The task is to read all rows from the database table SFLIGHT whose key fields MA
 
 Hint
 
-The examples of using HANA-specific language elements shown in the methods are syntax-only examples. The task presented here can be solved just as well using ABAP SQL, which is why ABAP SQL is the preferred method as specified in the [programming guidelines](javascript:call_link\('abendatabase_access_guidl.htm'\) "Guideline").
+The examples of using HANA-specific language elements shown in the methods are syntax-only examples. The task presented here can be solved just as well using ABAP SQL, which is why ABAP SQL is the preferred method as specified in the [programming guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_access_guidl.htm "Guideline").
 
 Reference Implementation Using ABAP SQL   
 
-The method ASQL shows how the task can be solved in ABAP SQL by simply using the addition [FOR ALL ENTRIES](javascript:call_link\('abenwhere_all_entries.htm'\)). The result of the method is used as a reference for the HANA-specific implementations.
+The method ASQL shows how the task can be solved in ABAP SQL by simply using the addition [FOR ALL ENTRIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwhere_all_entries.htm). The result of the method is used as a reference for the HANA-specific implementations.
 
 METHOD asql.
   IF connection\_tab IS NOT INITIAL.
@@ -89,7 +89,7 @@ ENDMETHOD.
 
 Using Native SQL with ADBC   
 
-The method ADBC solves the task by using HANA-specific [Native SQL statements](javascript:call_link\('abennative_sql.htm'\)) that are passed to the SAP HANA database using [ADBC](javascript:call_link\('abenadbc.htm'\)). The table with the key values is evaluated after the addition exists in a subquery of a select statement. To do this, a temporary table DEMO\_ADBC\_CONNECTIONS is created on the database and filled with the content of the connection\_tab using the statement insert. To access the result of the select statement, a standard table std\_flights must be declared as a local internal table of the method, since the return value flights cannot be used for ADBC. The temporary table DEMO\_ADBC\_CONNECTIONS is removed again after SPFLI is read.
+The method ADBC solves the task by using HANA-specific [Native SQL statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennative_sql.htm) that are passed to the SAP HANA database using [ADBC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc.htm). The table with the key values is evaluated after the addition exists in a subquery of a select statement. To do this, a temporary table DEMO\_ADBC\_CONNECTIONS is created on the database and filled with the content of the connection\_tab using the statement insert. To access the result of the select statement, a standard table std\_flights must be declared as a local internal table of the method, since the return value flights cannot be used for ADBC. The temporary table DEMO\_ADBC\_CONNECTIONS is removed again after SPFLI is read.
 
 METHOD adbc.
   DATA(sql) = NEW cl\_sql\_statement( ).
@@ -130,9 +130,9 @@ ENDMETHOD.
 
 Call of a Database Procedure Using a Database Procedure Proxy   
 
-The method CDBP solves the task by implementing the HANA-specific select statement in a [database procedure](javascript:call_link\('abendatabase_procedure_glosry.htm'\) "Glossary Entry") that is called by specifying a [database procedure proxy](javascript:call_link\('abendatabase_proc_proxy_glosry.htm'\) "Glossary Entry") in the statement [CALL DATABASE PROCEDURE](javascript:call_link\('abapcall_database_procedure.htm'\)). In a more realistic example, the database procedure DEMO\_ADBC\_GET\_FLIGHTS and the database procedure proxy DEMO\_ADBC\_GET\_FLIGHTS\_PROXY would already exist and the implementation of the method would be restricted to the call CALL DATABASE PROCEDURE (see the executable example for [procedure calls](javascript:call_link\('abencall_hana_db_proc_abexa.htm'\))). In this example, the database procedure and the database procedure proxy are created temporarily and deleted again using ADBC methods and the associated API. The input parameter connections of the procedure references an additional temporary HANA table type, DEMO\_ADBC\_CONNECTIONS\_TYPE. HANA does not support a separate type for numeric text, which means that the type NVARCHAR(4) must be used for the column CONNID. Therefore, the internal table connection\_tab must be assigned to a temporary table connections with the correct row type before the procedure is called. No auxiliary table is required for the result, since the row type is described using an ABAP Dictionary type. An appropriate mapping can be performed for this type using the mapping table params. As an alternative to an auxiliary table for connection\_tab, its data type could also be declared in the ABAP Dictionary and an appropriate mapping performed.
+The method CDBP solves the task by implementing the HANA-specific select statement in a [database procedure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_procedure_glosry.htm "Glossary Entry") that is called by specifying a [database procedure proxy](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_proc_proxy_glosry.htm "Glossary Entry") in the statement [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_database_procedure.htm). In a more realistic example, the database procedure DEMO\_ADBC\_GET\_FLIGHTS and the database procedure proxy DEMO\_ADBC\_GET\_FLIGHTS\_PROXY would already exist and the implementation of the method would be restricted to the call CALL DATABASE PROCEDURE (see the executable example for [procedure calls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_hana_db_proc_abexa.htm)). In this example, the database procedure and the database procedure proxy are created temporarily and deleted again using ADBC methods and the associated API. The input parameter connections of the procedure references an additional temporary HANA table type, DEMO\_ADBC\_CONNECTIONS\_TYPE. HANA does not support a separate type for numeric text, which means that the type NVARCHAR(4) must be used for the column CONNID. Therefore, the internal table connection\_tab must be assigned to a temporary table connections with the correct row type before the procedure is called. No auxiliary table is required for the result, since the row type is described using an ABAP Dictionary type. An appropriate mapping can be performed for this type using the mapping table params. As an alternative to an auxiliary table for connection\_tab, its data type could also be declared in the ABAP Dictionary and an appropriate mapping performed.
 
-The statement CALL DATABASE PROCEDURE is not possible on a [SAP HANA Cloud database](javascript:call_link\('abensap_hana_cloud_db_glosry.htm'\) "Glossary Entry").
+The statement CALL DATABASE PROCEDURE is not possible on a [SAP HANA Cloud database](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_hana_cloud_db_glosry.htm "Glossary Entry").
 
 METHOD cdbp.
   IF cl\_shdb\_hc=>is\_hana\_cloud(  ).
@@ -209,7 +209,7 @@ ENDMETHOD.
 
 Call an AMDP Procedure   
 
-The method AMDP solves the task in the easiest possible way by calling an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") AMDP\_METH in which the HANA-specific select statement is implemented in an [AMDP procedure](javascript:call_link\('abenamdp_procedure_glosry.htm'\) "Glossary Entry"). The main advantage of the AMDP method is that it can be called in the same way as any ABAP method and no auxiliary tables must be introduced, as was the case in the preceding examples.
+The method AMDP solves the task in the easiest possible way by calling an [AMDP method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_method_glosry.htm "Glossary Entry") AMDP\_METH in which the HANA-specific select statement is implemented in an [AMDP procedure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_procedure_glosry.htm "Glossary Entry"). The main advantage of the AMDP method is that it can be called in the same way as any ABAP method and no auxiliary tables must be introduced, as was the case in the preceding examples.
 
 METHOD amdp.
   amdp\_meth( EXPORTING connections = connection\_tab

@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 syntax check
 
-Static check performed on [ABAP source code](javascript:call_link\('abenabap_source_code_glosry.htm'\) "Glossary Entry") to check whether the syntax is formally correct. The syntax check is called in the [ABAP Editor](javascript:call_link\('abenabap_editor_glosry.htm'\) "Glossary Entry") via Program → Check → Syntax or via the statement [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)). An automatic syntax check that checks the source code while it is entered can be configured in the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry").
+Static check performed on [ABAP source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_source_code_glosry.htm "Glossary Entry") to check whether the syntax is formally correct. The syntax check is called in the [ABAP Editor](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_editor_glosry.htm "Glossary Entry") via Program → Check → Syntax or via the statement [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-check_for_itab.htm). An automatic syntax check that checks the source code while it is entered can be configured in the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abensyntax_check_guidl.htm'\) "Guideline")
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensyntax_check_guidl.htm "Guideline")

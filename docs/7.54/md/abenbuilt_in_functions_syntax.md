@@ -4,11 +4,13 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Built-In Types, Data Objects, Functions, and Constructors](javascript:call_link\('abenbuilt_in.htm'\)) →  [Built-In Functions](javascript:call_link\('abenbuilt_in_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Built-In Types, Data Objects, Functions, and Constructors](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in.htm) →  [Built-In Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_functions.htm) → 
 
 Built-In Functions - Syntax
 
--   [Functions with an Unnamed Argument](#abenbuilt-in-functions-syntax-1--------functions-with-named-arguments---@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2)
+-   [Functions with an Unnamed Argument](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_1)
+
+-   [Functions with Named Arguments](#@@ITOC@@ABENBUILT_IN_FUNCTIONS_SYNTAX_2)
 
 In functions with named arguments, there is usually a main argument val and additional, possibly also optional, arguments. The following sections show the general syntax for calling built-in functions.
 
@@ -22,7 +24,7 @@ The syntax for functions with an unnamed argument is the same as the syntax for 
 
 Example
 
-The built-on function [line\_exists](javascript:call_link\('abenline_exists_function.htm'\)) has an unnamed argument that expects a table expression.
+The built-on function [line\_exists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_exists_function.htm) has an unnamed argument that expects a table expression.
 
 DATA itab TYPE TABLE OF i WITH EMPTY KEY.
 ...
@@ -42,7 +44,7 @@ Functions with one or more named arguments are bound to keyword parameters in th
 
 Example
 
-The built-in function [condense](javascript:call_link\('abencondense_functions.htm'\)) has named arguments and can, for example, be called as follows.
+The built-in function [condense](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencondense_functions.htm) has named arguments and can, for example, be called as follows.
 
 DATA(str1) = condense( \`...\` ).
 DATA(str2) = condense( val = \`...\` ).

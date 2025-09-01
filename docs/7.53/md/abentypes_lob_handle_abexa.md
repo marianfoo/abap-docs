@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Types](javascript:call_link\('abentypes_statements.htm'\)) →  [TYPES](javascript:call_link\('abaptypes.htm'\)) →  [TYPES - LOB HANDLE](javascript:call_link\('abaptypes_lob_handle.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentypes_and_objects.htm) →  [Declaring Data Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentypes_statements.htm) →  [TYPES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes.htm) →  [TYPES - LOB HANDLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_lob_handle.htm) → 
 
 Deriving LOB Handle Structures
 
-This example demonstrates how [LOB handle structures](javascript:call_link\('abenlob_handle_structure_glosry.htm'\) "Glossary Entry") are derived using the statement [TYPES](javascript:call_link\('abaptypes_lob_handle.htm'\)).
+This example demonstrates how [LOB handle structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_handle_structure_glosry.htm "Glossary Entry") are derived using the statement [TYPES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_lob_handle.htm).
 
 Source Code
 
@@ -76,13 +76,13 @@ START-OF-SELECTION.
 
 Description
 
-The package-visible area of the class demo\_lob\_handles contains various derivations of LOB handle structures from the database table DEMO\_LOB\_TABLE. The methods of this class are used for the output of the static type of the derived [LOB handle components](javascript:call_link\('abenlob_handle_component_glosry.htm'\) "Glossary Entry").
+The package-visible area of the class demo\_lob\_handles contains various derivations of LOB handle structures from the database table DEMO\_LOB\_TABLE. The methods of this class are used for the output of the static type of the derived [LOB handle components](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_handle_component_glosry.htm "Glossary Entry").
 
 The DEMO\_LOB\_TABLE database table contains a key field of type INT4, as well as three columns CLOB1, CLOB2, CLOB3 of type STRING and three columns BLOB1, BLOB2, BLOB3 of type RAWSTRING.
 
 The derivations listed here function as follows:
 
--   In the structured type lob\_handle\_structure\_1, clob1 and blob1 become LOB handle components using columns specified directly after READER. The component clob1 contains the static type CL\_ABAP\_DB\_C\_READER and blob1 contains the static type CL\_ABAP\_DB\_X\_READER. All other components are displayed in accordance with the [regular rules](javascript:call_link\('abenddic_builtin_types.htm'\)) for their built-in types.
+-   In the structured type lob\_handle\_structure\_1, clob1 and blob1 become LOB handle components using columns specified directly after READER. The component clob1 contains the static type CL\_ABAP\_DB\_C\_READER and blob1 contains the static type CL\_ABAP\_DB\_X\_READER. All other components are displayed in accordance with the [regular rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) for their built-in types.
 
 -   In the structured type lob\_handle\_structure\_2, all components are turned into LOB components by specifying FOR ALL COLUMNS for LOB handle components. The static type of the components of type STRING is IF\_ABAP\_DB\_CLOB\_HANDLE and the static type for the components of type RAWSTRING is IF\_ABAP\_DB\_BLOB\_HANDLE.
 

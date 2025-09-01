@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Selection Screens - Create](javascript:call_link\('abenselection_screen_create.htm'\)) →  [SELECTION-SCREEN](javascript:call_link\('abapselection-screen.htm'\)) →  [SELECTION-SCREEN, screen\_elements](javascript:call_link\('abapselection-screen_layout.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen.htm) →  [Selection Screens - Create](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen_create.htm) →  [SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen.htm) →  [SELECTION-SCREEN, screen\_elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_layout.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SELECTION-SCREEN%2C%20MODIF%20ID%2C%20ABAPSELECTION-SCREEN_MODIF_ID%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SELECTION-SCREEN, MODIF ID
 
-[Short Reference](javascript:call_link\('abapselection-screen_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_shortref.htm)
 
 Syntax
 
@@ -18,22 +18,22 @@ Syntax
 
 Effect
 
-After the MODIF ID addition, a modid identifier can be specified to assign a screen element of a selection screen to a [modification group](javascript:call_link\('abenmodification_group_glosry.htm'\) "Glossary Entry"). The MODIF ID addition can be specified for the following statements:
+After the MODIF ID addition, a modid identifier can be specified to assign a screen element of a selection screen to a [modification group](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodification_group_glosry.htm "Glossary Entry"). The MODIF ID addition can be specified for the following statements:
 
--   [SELECTION-SCREEN - COMMENT](javascript:call_link\('abapselection-screen_comment.htm'\))
--   [SELECTION-SCREEN - PUSHBUTTON](javascript:call_link\('abapselection-screen_pushbutton.htm'\))
--   [SELECTION-SCREEN - TAB](javascript:call_link\('abapselection-screen_tabbed.htm'\))
--   [SELECTION-SCREEN - ULINE](javascript:call_link\('abapselection-screen_uline.htm'\))
--   [PARAMETERS](javascript:call_link\('abapparameters.htm'\))
--   [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\))
+-   [SELECTION-SCREEN - COMMENT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_comment.htm)
+-   [SELECTION-SCREEN - PUSHBUTTON](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_pushbutton.htm)
+-   [SELECTION-SCREEN - TAB](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_tabbed.htm)
+-   [SELECTION-SCREEN - ULINE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_uline.htm)
+-   [PARAMETERS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapparameters.htm)
+-   [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect-options.htm)
 
-The name of the modid modification group must be specified directly and can have no more than three characters. When generating a selection screen, modid is entered for the properties of the screen elements created using the above statement in the group that is assigned to the component group1 of the structure [SCREEN](javascript:call_link\('abenscreen.htm'\)). All screen elements of a group can be modified before displaying the selection screen together with the [MODIFY SCREEN](javascript:call_link\('abapmodify_screen.htm'\)) statement.
+The name of the modid modification group must be specified directly and can have no more than three characters. When generating a selection screen, modid is entered for the properties of the screen elements created using the above statement in the group that is assigned to the component group1 of the structure [SCREEN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen.htm). All screen elements of a group can be modified before displaying the selection screen together with the [MODIFY SCREEN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_screen.htm) statement.
 
 Hint
 
-The modification groups that are assigned to the group2 and group3 columns of the structure [SCREEN](javascript:call_link\('abenscreen.htm'\)), are set by the system when generating a selection screen.
+The modification groups that are assigned to the group2 and group3 columns of the structure [SCREEN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen.htm), are set by the system when generating a selection screen.
 
--   group2 contains the value DBS for screen elements defined in a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry").
+-   group2 contains the value DBS for screen elements defined in a [logical database](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogical_data_base_glosry.htm "Glossary Entry").
 -   group3 can contain values from the following table.
 -   group4 is only intended for internal use.
 
@@ -49,7 +49,7 @@ Frame or title of a block
 
 COF
 
-Output field that is linked with a [selection parameter](javascript:call_link\('abenselpar_glosry.htm'\) "Glossary Entry") or [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") using the addition FOR FIELD.
+Output field that is linked with a [selection parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselpar_glosry.htm "Glossary Entry") or [selection criterion](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_criterion_glosry.htm "Glossary Entry") using the addition FOR FIELD.
 
 COM
 
@@ -77,11 +77,11 @@ Input field of a selection parameter
 
 PBU
 
-[Pushbutton](javascript:call_link\('abenpushbutton_glosry.htm'\) "Glossary Entry")
+[Pushbutton](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpushbutton_glosry.htm "Glossary Entry")
 
 TAB
 
-[Tab title](javascript:call_link\('abentab_title_glosry.htm'\) "Glossary Entry")
+[Tab title](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentab_title_glosry.htm "Glossary Entry")
 
 TOT
 
@@ -89,7 +89,7 @@ Output field for text in front of the input field of the upper interval limit of
 
 TST
 
-[Tabstrip](javascript:call_link\('abentabstrip_control_glosry.htm'\) "Glossary Entry")
+[Tabstrip](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentabstrip_control_glosry.htm "Glossary Entry")
 
 TXT
 
@@ -105,7 +105,7 @@ Pushbutton for multiple selection of a selection criterion
 
 Example
 
-The elements of the b2 block are assigned to the bl2 modification group. The show\_all checkbox enables the option of displaying these elements. The change in the display takes place immediately, since the event AT SELECTION-SCREEN is raised when the checkbox is selected. The function code is not needed. Instead, the content of show\_all is evaluated at [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry").
+The elements of the b2 block are assigned to the bl2 modification group. The show\_all checkbox enables the option of displaying these elements. The change in the display takes place immediately, since the event AT SELECTION-SCREEN is raised when the checkbox is selected. The function code is not needed. Instead, the content of show\_all is evaluated at [PBO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpbo_glosry.htm "Glossary Entry").
 
 PARAMETERS show\_all AS CHECKBOX USER-COMMAND flag.
 SELECTION-SCREEN BEGIN OF BLOCK b1 WITH FRAME.

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) →  [System Interfaces for Messages](javascript:call_link\('abenmessage_interfaces.htm'\)) →  [System Interface IF\_T100\_MESSAGE for Messages](javascript:call_link\('abenif_t100_message.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_messages.htm) →  [System Interfaces for Messages](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_interfaces.htm) →  [System Interface IF\_T100\_MESSAGE for Messages](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenif_t100_message.htm) → 
 
 IF\_T100\_MESSAGE in Regular Class
 
@@ -84,10 +84,10 @@ START-OF-SELECTION.
 
 Description
 
-Objects in the example class msg can represent any messages from the table T100 and be used in the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)). The four attributes ATTR1 to ATTR4 stand for the content of four placeholders. The constructor provides input parameters for all necessary values. In the constructor, the message class and the message number are written directly to the associated components of the interface structure T100KEY. The identically named attributes are assigned to the components ATTR1 to ATTR4 and filled with the passed values.
+Objects in the example class msg can represent any messages from the table T100 and be used in the statement [MESSAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage.htm). The four attributes ATTR1 to ATTR4 stand for the content of four placeholders. The constructor provides input parameters for all necessary values. In the constructor, the message class and the message number are written directly to the associated components of the interface structure T100KEY. The identically named attributes are assigned to the components ATTR1 to ATTR4 and filled with the passed values.
 
-Once the class is instantiated, the message text is filled using the interface method GET\_TEXT, which is implemented in an appropriate way in the class and which has an alias name declared. The object of the class is used directly as an operand of the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)). A message type must be specified here.
+Once the class is instantiated, the message text is filled using the interface method GET\_TEXT, which is implemented in an appropriate way in the class and which has an alias name declared. The object of the class is used directly as an operand of the statement [MESSAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage.htm). A message type must be specified here.
 
 Note
 
-See also the executable example [System Interface IF\_T100\_DYN\_MSG in Regular Class](javascript:call_link\('abenif_t100_dyn_msg_abexa.htm'\)).
+See also the executable example [System Interface IF\_T100\_DYN\_MSG in Regular Class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenif_t100_dyn_msg_abexa.htm).

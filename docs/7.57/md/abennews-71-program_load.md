@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 7.0 and its EhPs](javascript:call_link\('abennews-70_ehps.htm'\)) →  [News for Release 7.0, EhP2](javascript:call_link\('abennews-71.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 7.0 and its EhPs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-70_ehps.htm) →  [News for Release 7.0, EhP2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-71.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Lazy Loading of Programs in Release 7.0, EhP2, ABENNEWS-71-PROGRAM_LOAD, 757%0D%0A%0D
 %0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -24,7 +24,7 @@ Modification 1  
 
 Statement TYPE-POOLS is Obsolete
 
-The statement [TYPE-POOLS](javascript:call_link\('abaptype-pools.htm'\)) is no longer required for the use of a data type, a constant, or a macro from a type pool. The elements of a type pool can now be addressed in the same way as all other objects in ABAP Dictionary without previously loading the type pool.
+The statement [TYPE-POOLS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype-pools.htm) is no longer required for the use of a data type, a constant, or a macro from a type pool. The elements of a type pool can now be addressed in the same way as all other objects in ABAP Dictionary without previously loading the type pool.
 
 TYPE-POOLS statements are ignored by ABAP Compiler from Release 7.0, EhP2, and can be deleted.
 
@@ -36,8 +36,8 @@ Addition LOAD for CLASS and INTERFACE is Obsolete
 
 The now rarely used statements
 
--   [CLASS ... DEFINITION LOAD.](javascript:call_link\('abapclass_interface_load.htm'\))
--   [INTERFACE ... LOAD.](javascript:call_link\('abapclass_interface_load.htm'\))
+-   [CLASS ... DEFINITION LOAD.](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_interface_load.htm)
+-   [INTERFACE ... LOAD.](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_interface_load.htm)
 
 are no longer required
 

@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  S
 
 SELECTION-SCREEN EXCLUDE - Quick reference
 
-[Reference](javascript:call_link\('abapselection-screen_ldb_version.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselection-screen_ldb_version.htm)
 
 Syntax
 
@@ -20,7 +20,7 @@ SELECTION-SCREEN EXCLUDE *{* *{*PARAMETERS parameter*}*
 
 Effect
 
-Deletes the specified element from a version of the [standard selection screen](javascript:call_link\('abenstandard_selscreen_glosry.htm'\) "Glossary Entry") in a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry").
+Deletes the specified element from a version of the [standard selection screen](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstandard_selscreen_glosry.htm "Glossary Entry") in a [logical database](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogical_data_base_glosry.htm "Glossary Entry").
 
 Additions
 
@@ -29,7 +29,7 @@ Additions
     
 
 -   SELECT-OPTIONS selcrit
-    Removes a [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") selcrit.
+    Removes a [selection criterion](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselection_criterion_glosry.htm "Glossary Entry") selcrit.
     
 
 -   RADIOBUTTON GROUPS group

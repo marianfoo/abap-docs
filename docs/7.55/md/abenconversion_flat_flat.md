@@ -4,18 +4,18 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Structures](javascript:call_link\('abenconversion_struc.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_rules.htm) →  [Conversion Rules for Structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_struc.htm) → 
 
 Conversion Between Flat Structures
 
-When flat structures are converted, the [fragment view](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry") of the structures must be considered. The following rules apply when converting a flat structure to another flat structure.
+When flat structures are converted, the [fragment view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry") of the structures must be considered. The following rules apply when converting a flat structure to another flat structure.
 
 -   When assigning structures with the same fragment view, the structure is assigned unconverted.
     
 
--   When assigning structures of different lengths where the length of the [fragment view](javascript:call_link\('abenunicode_fragment_view.htm'\)) exactly matches the length of the shorter structure, the assignment is made in the length of the shorter structure without conversion.
+-   When assigning structures of different lengths where the length of the [fragment view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunicode_fragment_view.htm) exactly matches the length of the shorter structure, the assignment is made in the length of the shorter structure without conversion.
 
--   If the target structure is longer than the source structure, the components of the target structure located behind the shared fragments are filled with type-dependent [initial values](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry") and any alignment gaps are set to hexadecimal 0.
+-   If the target structure is longer than the source structure, the components of the target structure located behind the shared fragments are filled with type-dependent [initial values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninitial_value_glosry.htm "Glossary Entry") and any alignment gaps are set to hexadecimal 0.
 
 -   If the target structure is shorter than the source structure, the components of the source structure located behind the shared fragments are truncated.
     
@@ -28,11 +28,11 @@ Hints
 
 -   If components of data type p occur in the involved structures, these components form individual fragments for which only the length is significant but not the number of decimal places. When assigning such structures, the value of the source components of type p is cast to the number of decimal places of the target components, and the decimal point may shift. This means that the result for such a component can differ from the result of a direct assignment between the components.
 
--   If a component of a flat structure has an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"), this is a separate fragment of the fragment view, regardless of its [basis type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry"), and must exist at the same position and with the same type in assignments between these structures in the source and target structure.
+-   If a component of a flat structure has an [enumerated type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), this is a separate fragment of the fragment view, regardless of its [basis type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbase_type_glosry.htm "Glossary Entry"), and must exist at the same position and with the same type in assignments between these structures in the source and target structure.
 
 -   If a syntax error occurs due to an invalid assignment between flat structures, the fragment views for the corresponding structures can be displayed when displaying the syntax error in the ABAP Editor by choosing the pushbutton with the information icon.
 
--   Since only [Unicode systems](javascript:call_link\('abenunicode_system_glosry.htm'\) "Glossary Entry") are supported, in which a character is always represented by 2 bytes, the conversion rules for flat structures are less strict than in systems in which also non-Unicode systems are still supported. There, all possible alignment requirements for characters have to be considered, regardless of the actual length of a character in its character representation. When downporting programs from higher to lower releases, syntax errors might occur in the lower releases because of the stricter rules there.
+-   Since only [Unicode systems](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunicode_system_glosry.htm "Glossary Entry") are supported, in which a character is always represented by 2 bytes, the conversion rules for flat structures are less strict than in systems in which also non-Unicode systems are still supported. There, all possible alignment requirements for characters have to be considered, regardless of the actual length of a character in its character representation. When downporting programs from higher to lower releases, syntax errors might occur in the lower releases because of the stricter rules there.
 
 Examples
 
@@ -136,4 +136,4 @@ DATA:
 struc1 = struc2.
 
 Continue
-![Example](exa.gif "Example") [Conversion Rules for Structures](javascript:call_link\('abendata_conv_str_abexa.htm'\))
+![Example](exa.gif "Example") [Conversion Rules for Structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_conv_str_abexa.htm)

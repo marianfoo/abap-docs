@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [Table-Specific Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_sema.htm) →  [Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_semasspec.htm) → 
 
 Displaying and Editing Database Tables
 
-In ABAP Dictionary, it is possible to define whether database tables are displayed or edited using certain tools such as [Data Browser](javascript:call_link\('abendata_browser_glosry.htm'\) "Glossary Entry") (transaction SE16 ) and "Table View Maintenance" (transactions SM30 and SM31) .
+In ABAP Dictionary, it is possible to define whether database tables are displayed or edited using certain tools such as [Data Browser](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_browser_glosry.htm "Glossary Entry") (transaction SE16 ) and "Table View Maintenance" (transactions SM30 and SM31) .
 
 The following settings are possible:
 

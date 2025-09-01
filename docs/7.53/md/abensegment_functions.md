@@ -4,17 +4,17 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Functions](javascript:call_link\('abenstring_functions.htm'\)) →  [Processing Functions for Character-Like Arguments](javascript:call_link\('abenprocess_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_expr_func.htm) →  [String Functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions.htm) →  [Processing Functions for Character-Like Arguments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocess_functions.htm) → 
 
 segment - Segment Function
 
 Syntax
 
-... segment( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) index = idx *\[*sep*|*space = delim*\]* ) ...
+... segment( [val = text](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_val.htm) index = idx *\[*sep*|*space = delim*\]* ) ...
 
 Effect
 
-This function returns the occurrence of a segment of the argument text specified by [index](javascript:call_link\('abenstring_functions_val.htm'\)). A segment is defined by delimiters. The beginning and ending of the string in text are the outer delimiters. Inner delimiters delim can be passed to sep or space as follows:
+This function returns the occurrence of a segment of the argument text specified by [index](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_val.htm). A segment is defined by delimiters. The beginning and ending of the string in text are the outer delimiters. Inner delimiters delim can be passed to sep or space as follows:
 
 -   If the argument sep is provided, the substring specified in delim is searched for (case-sensitive as in text) and used as a delimiter. If a substring specified in delim occurs directly one after another in text, an empty segment is created and an empty string is returned for this segment.
 
@@ -24,7 +24,7 @@ The delimiters are not part of the segments. If sep or space are not specified, 
 
 If index is positive, the occurrences are counted from the left; if index is negative, the instance are counted from the right. The values 1, 2, .... indicate the first, second, ... occurrences. The values -1, -2, .... indicate the last, last but one, ... occurrences. If the value of index is 0, or the specified segment does not exist, an exception of the class CX\_SY\_STRG\_PAR\_VAL is raised.
 
-delim is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry") and index is a [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") with type i. If delim has a fixed length, trailing blanks are ignored.
+delim is a [character-like expression position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry") and index is a [numeric expression position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") with type i. If delim has a fixed length, trailing blanks are ignored.
 
 The return code has the type string.
 
@@ -60,9 +60,9 @@ ENDDO.
 
 Executable Example
 
-[String Functions, cmax, cmin, and segment](javascript:call_link\('abencmax_cmin_function_abexa.htm'\))
+[String Functions, cmax, cmin, and segment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencmax_cmin_function_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

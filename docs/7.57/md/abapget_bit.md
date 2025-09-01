@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_processing_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: GET BIT, ABAPGET_BIT, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for imp
 rovement:)
 
 GET BIT
 
-[Short Reference](javascript:call_link\('abapget_bit_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_bit_shortref.htm)
 
 Syntax
 
@@ -22,10 +22,10 @@ Effect
 This statement reads the bit at the bit position bitpos of the data object byte\_string and assigns its value to the target field val. val can be specified as follows:
 
 -   An existing variable that expects the data type i.
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)), where a variable of type i is declared.
--   Expressions with the [CAST](javascript:call_link\('abenconstructor_expression_cast.htm'\)) and [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) operators and table expressions.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_inline.htm) or [FINAL(var)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfinal_inline.htm), where a variable of type i is declared.
+-   Expressions with the [CAST](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_cast.htm) and [NEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_new.htm) operators and table expressions.
 
-The data object byte\_string must be byte-like. [Bit](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry"), [constructor](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") and [table](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") expressions can be used. bitpos is a [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") of operand type i. The value of bitpos must be greater than 0, otherwise uncatchable exceptions are raised. The bit positions in byte\_string are counted from left to right, starting with the [most significant bit (MSB)](javascript:call_link\('abenmost_significant_bit_glosry.htm'\) "Glossary Entry") of the data object. If the value of bitpos is greater than the number of bits in byte\_string, no bit is read and sy-subrc is set to 4.
+The data object byte\_string must be byte-like. [Bit](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbit_expression_glosry.htm "Glossary Entry"), [constructor](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") and [table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expression_glosry.htm "Glossary Entry") expressions can be used. bitpos is a [numeric expression position](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") of operand type i. The value of bitpos must be greater than 0, otherwise uncatchable exceptions are raised. The bit positions in byte\_string are counted from left to right, starting with the [most significant bit (MSB)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmost_significant_bit_glosry.htm "Glossary Entry") of the data object. If the value of bitpos is greater than the number of bits in byte\_string, no bit is read and sy-subrc is set to 4.
 
 System Fields
 
@@ -43,9 +43,9 @@ The value of bitpos is greater than the number of bits in byte\_string and no bi
 
 Hints
 
--   If byte\_string has the [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") type xstring, a bit is read from the referenced byte string, not from the reference.
--   The reading of single bits is especially intended for evaluating the results of [bit expressions](javascript:call_link\('abapcompute_bit.htm'\)).
--   Counting the bits from the [most significant bit (MSB)](javascript:call_link\('abenmost_significant_bit_glosry.htm'\) "Glossary Entry") can have unexpected results when working with components that count from the [least significant bit (LSB)](javascript:call_link\('abenleast_significant_bit_glosry.htm'\) "Glossary Entry").
+-   If byte\_string has the [deep](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendeep_glosry.htm "Glossary Entry") type xstring, a bit is read from the referenced byte string, not from the reference.
+-   The reading of single bits is especially intended for evaluating the results of [bit expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_bit.htm).
+-   Counting the bits from the [most significant bit (MSB)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmost_significant_bit_glosry.htm "Glossary Entry") can have unexpected results when working with components that count from the [least significant bit (LSB)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenleast_significant_bit_glosry.htm "Glossary Entry").
 
 Example
 
@@ -87,7 +87,7 @@ LOOP AT itab ASSIGNING FIELD-SYMBOL(<fs>).
 ENDLOOP.
 cl\_demo\_output=>display( itab ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

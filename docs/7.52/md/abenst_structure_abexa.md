@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Examples](javascript:call_link\('abenst_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_st.htm) →  [ST - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_abexas.htm) → 
 
 Simple Transformation, Structures
 
@@ -75,4 +75,4 @@ The simple transformation DEMO\_ST\_STRUCTURE has the following form:
   </tt:template>
 </tt:transform>
 
-The transformation consists of a template temp that defines the structure of the XML data and establishes relationships between value nodes and components of the structure. The ST statements [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)) and [tt:copy](javascript:call_link\('abenst_tt_copy.htm'\)) are used to serialize and deserialize the structure components. The reverse transformation generates the same content in the structure result as in struc1.
+The transformation consists of a template temp that defines the structure of the XML data and establishes relationships between value nodes and components of the structure. The ST statements [tt:value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_value_elementary.htm) and [tt:copy](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_copy.htm) are used to serialize and deserialize the structure components. The reverse transformation generates the same content in the structure result as in struc1.

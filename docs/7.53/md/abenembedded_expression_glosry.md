@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 embedded expression
 
-[General expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") enclosed in curly brackets {} within a [string template](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry").
+[General expression position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") enclosed in curly brackets {} within a [string template](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_template_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenstring_templates_expressions.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates_expressions.htm)

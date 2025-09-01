@@ -4,15 +4,15 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_elementary.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Byte-Like Source Fields, ABENBYTE_SOURCE_FIELDS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D
 %0A%0D%0ASuggestion for improvement:)
 
 Byte-Like Source Fields
 
--   [x](javascript:call_link\('abenconversion_type_x.htm'\))
--   [xstring](javascript:call_link\('abenconversion_type_xstring.htm'\))
+-   [x](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_x.htm)
+-   [xstring](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_xstring.htm)
 
 Example
 
@@ -26,5 +26,5 @@ cl\_demo\_output=>display(
   |d:       { CONV d( hex ) }\\n| ).
 
 Continue
-[Source Field Type x](javascript:call_link\('abenconversion_type_x.htm'\))
-[Source Field Type xstring](javascript:call_link\('abenconversion_type_xstring.htm'\))
+[Source Field Type x](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_x.htm)
+[Source Field Type xstring](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_xstring.htm)

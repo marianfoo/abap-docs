@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Object Creation
 
-This section describes the creation of a local data object with the statement [ASSIGN LOCAL COPY](javascript:call_link\('abapassign_local_copy.htm'\)).
+This section describes the creation of a local data object with the statement [ASSIGN LOCAL COPY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_local_copy.htm).
 
 Continue
-[ASSIGN LOCAL COPY](javascript:call_link\('abapassign_local_copy.htm'\))
+[ASSIGN LOCAL COPY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_local_copy.htm)

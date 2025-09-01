@@ -4,17 +4,17 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_business_objects.htm) → 
 
 RAP - Simple Unmanaged RAP business object
 
-This example demonstrates a simple unmanaged [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") and different ways of accessing it.
+This example demonstrates a simple unmanaged [RAP business object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm "Glossary Entry") and different ways of accessing it.
 
-Note that this example rather shows technical aspects of an unmanaged business objects than correct semantical behavior. The business case - increase the price of selected flights - is achieved in a way that would not be followed in a real life scenario. Here, it is shown that the methods of an ABAP behavior pool can also be freely implemented and that this implementation can be called using EML as well as from outside an AS ABAP using an exposed service and the [RAP transactional engine](javascript:call_link\('abenrap_transac_engine_glosry.htm'\) "Glossary Entry").
+Note that this example rather shows technical aspects of an unmanaged business objects than correct semantical behavior. The business case - increase the price of selected flights - is achieved in a way that would not be followed in a real life scenario. Here, it is shown that the methods of an ABAP behavior pool can also be freely implemented and that this implementation can be called using EML as well as from outside an AS ABAP using an exposed service and the [RAP transactional engine](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_transac_engine_glosry.htm "Glossary Entry").
 
 Data model
 
-The CDS data model consists of one single [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") without [child entities](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry"):
+The CDS data model consists of one single [root entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_entity_glosry.htm "Glossary Entry") without [child entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchild_entity_glosry.htm "Glossary Entry"):
 
 @AbapCatalog.sqlViewName: 'DEMOROOTSIMPLE'
 @AbapCatalog.preserveKey: true
@@ -31,7 +31,7 @@ define root view demo\_cds\_simple\_root\_entity
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 unmanaged implementation in class BP\_DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY unique;
 define behavior for demo\_cds\_simple\_root\_entity alias demo\_simple\_bo
@@ -40,7 +40,7 @@ define behavior for demo\_cds\_simple\_root\_entity alias demo\_simple\_bo
   action enhancePrice parameter demo\_cds\_param\_for\_simple\_bo;
 }
 
-One [CRUD](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") operation is specified with create and one additional operation is specified with action. The action expects a parameter that must be typed with a structured CDS entity, for which the following [CDS abstract entity](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry") is defined:
+One [CRUD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencrud_glosry.htm "Glossary Entry") operation is specified with create and one additional operation is specified with action. The action expects a parameter that must be typed with a structured CDS entity, for which the following [CDS abstract entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") is defined:
 
 define abstract entity demo\_cds\_param\_for\_simple\_bo
 {
@@ -49,7 +49,7 @@ define abstract entity demo\_cds\_param\_for\_simple\_bo
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. The global class has two private static attributes:
+For the above CDS behavior definition, one [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. The global class has two private static attributes:
 
 -   BUFFER, an internal table with the structured line type of the root entity DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY that holds the business data.
 -   LOG, an internal table of line type i, that logs the lines that were changed by the behavior implementation.
@@ -58,18 +58,18 @@ There are two local classes:
 
 -   LHC\_DEMO\_SIMPLE\_BO
     
-    The [handler class](javascript:call_link\('abenabp_handler_class_glosry.htm'\) "Glossary Entry") of the behavior pool. The methods of this class implement the following operations:
+    The [handler class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_class_glosry.htm "Glossary Entry") of the behavior pool. The methods of this class implement the following operations:
     
     -   A method MODIFY implements the create operation and the additional operation including an error handling.
     -   A method READ implements the read operation.
 -   LSC\_DEMO\_SIMPLE\_BO
     
-    The [saver class](javascript:call_link\('abenabp_saver_class_glosry.htm'\) "Glossary Entry") of the behavior pool. The methods of this class implement the actual update of the persistent data from the processed business data.
+    The [saver class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_saver_class_glosry.htm "Glossary Entry") of the behavior pool. The methods of this class implement the actual update of the persistent data from the processed business data.
     
 
 Business service
 
-The [business service](javascript:call_link\('abenbusiness_service_glosry.htm'\) "Glossary Entry") DEMO\_SD\_SIMPLE\_ROOT\_ENTITY exposes the root entity DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY. a [service binding](javascript:call_link\('abenservice_binding_glosry.htm'\) "Glossary Entry") DEMO\_SB\_SIMPLE\_ROOT\_ENTITY binds this service to the OData protocol.
+The [business service](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbusiness_service_glosry.htm "Glossary Entry") DEMO\_SD\_SIMPLE\_ROOT\_ENTITY exposes the root entity DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY. a [service binding](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenservice_binding_glosry.htm "Glossary Entry") DEMO\_SB\_SIMPLE\_ROOT\_ENTITY binds this service to the OData protocol.
 
 Source Code
 
@@ -161,7 +161,7 @@ Description
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program:
 
 -   A create operation is executed with the statement MODIFY ENTITY.
     
@@ -189,17 +189,17 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 
 Access with OData using SAP Gateway OSCI
 
-The program DEMO\_ODATA\_SIMPLE\_BO\_GATEWAY shows, how the ICF node /sap/opu/odata/sap/demo\_sb\_simple\_root\_entity/ of the above mentioned service binding DEMO\_SB\_SIMPLE\_ROOT\_ENTITY can be accessed by an utility method of the OData Services Consumption and Integration (OSCI) component of [SAP Gateway](javascript:call_link\('abensap_gateway_glosry.htm'\) "Glossary Entry").
+The program DEMO\_ODATA\_SIMPLE\_BO\_GATEWAY shows, how the ICF node /sap/opu/odata/sap/demo\_sb\_simple\_root\_entity/ of the above mentioned service binding DEMO\_SB\_SIMPLE\_ROOT\_ENTITY can be accessed by an utility method of the OData Services Consumption and Integration (OSCI) component of [SAP Gateway](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_gateway_glosry.htm "Glossary Entry").
 
-An appropriate HTTP request header and body is constructed and passed to method GET\_INSTANCE of class /IWFND/CL\_SUTIL\_CLIENT\_PROXY. This method passes the HTTP request as an HTTP post request to the OData service. By setting external breakpoints in the CCIMP include of the behavior pool, you can track how the behavior implementation is called by the [RAP runtime framework](javascript:call_link\('abenrap_runt_framework_glosry.htm'\) "Glossary Entry") that handles the HTTP request on the AS ABAP.
+An appropriate HTTP request header and body is constructed and passed to method GET\_INSTANCE of class /IWFND/CL\_SUTIL\_CLIENT\_PROXY. This method passes the HTTP request as an HTTP post request to the OData service. By setting external breakpoints in the CCIMP include of the behavior pool, you can track how the behavior implementation is called by the [RAP runtime framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_runt_framework_glosry.htm "Glossary Entry") that handles the HTTP request on the AS ABAP.
 
 The respective DDIC database table is accessed by ABAP SQL before and after accessing the OData service in order to show the effect.
 
-In real live applications, an HTTP request as shown here would be send by web based frameworks as [SAPUI5](javascript:call_link\('abensapui5_glosry.htm'\) "Glossary Entry").
+In real live applications, an HTTP request as shown here would be send by web based frameworks as [SAPUI5](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensapui5_glosry.htm "Glossary Entry").
 
 Access with OData using ICF directly
 
-The program DEMO\_ODATA\_SIMPLE\_BO\_ICF drills down the access to the OData service to using classes and methods of [ICF](javascript:call_link\('abenicf_glosry.htm'\) "Glossary Entry").
+The program DEMO\_ODATA\_SIMPLE\_BO\_ICF drills down the access to the OData service to using classes and methods of [ICF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenicf_glosry.htm "Glossary Entry").
 
 The same HTTP request body is constructed as in the example above. But here, the class CL\_HTTP\_CLIENT is directly used to create a client object for the OData service, which is used to pass appropriate values for the HTTP request header and the HTTP request body as a post request to the OData service.
 

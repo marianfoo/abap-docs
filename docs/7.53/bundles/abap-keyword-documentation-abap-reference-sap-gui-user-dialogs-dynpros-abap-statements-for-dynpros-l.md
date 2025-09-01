@@ -3,28 +3,7 @@
 Included pages: 4
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abaploop_at_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm)
-- [abenscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm)
-- [abapmodify_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm)
-- [abendynpro_mod_simple_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_mod_simple_abexa.htm)
-
-**Bundle Contains**: 4 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.236Z
-
----
-
 ### abaploop_at_screen.htm
-
-> **📖 Official SAP Documentation**: [abaploop_at_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -32,11 +11,11 @@ Included pages: 4
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [ABAP Statements for Dynpros](javascript:call_link\('abenabap_dynpros_abap_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros.htm) →  [ABAP Statements for Dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_abap_statements.htm) → 
 
 LOOP AT SCREEN
 
-[Quick Reference](javascript:call_link\('abaploop_at_screen_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen_shortref.htm)
 
 Syntax
 
@@ -46,46 +25,39 @@ ENDLOOP.
 
 Effect
 
-The statements LOOP AT SCREEN ... ENDLOOP define a loop around a statement block. For every screen element of the current dynpro to which a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") is assigned, one loop pass is executed. wa can be specified as:
+The statements LOOP AT SCREEN ... ENDLOOP define a loop around a statement block. For every screen element of the current dynpro to which a [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") is assigned, one loop pass is executed. wa can be specified as:
 
--   an existing work area of the data type [SCREEN](javascript:call_link\('abenscreen.htm'\)) from ABAP Dictionary,
+-   an existing work area of the data type [SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm) from ABAP Dictionary,
     
--   an inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)), where a work area of the type SCREEN is declared.
+-   an inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm), where a work area of the type SCREEN is declared.
     
 
 After the statement LOOP, the work area contains the properties of the screen element in question.
 
-When a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry") or a [step loop](javascript:call_link\('abenstep_loop_glosry.htm'\) "Glossary Entry") is processed (that is, within a [LOOP](javascript:call_link\('dynploop.htm'\)) of the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry")), the current properties are determined for its screen elements in the current row or group. Outside of the processing of a table control or step loop, the statically predefined properties of all rows or groups are determined for its screen elements.
+When a [table control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_control_glosry.htm "Glossary Entry") or a [step loop](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstep_loop_glosry.htm "Glossary Entry") is processed (that is, within a [LOOP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynploop.htm) of the [dynpro flow logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry")), the current properties are determined for its screen elements in the current row or group. Outside of the processing of a table control or step loop, the statically predefined properties of all rows or groups are determined for its screen elements.
 
 Notes
 
--   The statement LOOP AT SCREEN behaves like the statement [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)) in a loop across an internal table, where a system table is used instead of an internal table.
+-   The statement LOOP AT SCREEN behaves like the statement [LOOP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab.htm) in a loop across an internal table, where a system table is used instead of an internal table.
     
--   In particular, the statement LOOP AT SCREEN can be used for selection screens during [selection screen processing](javascript:call_link\('abenselection_screen_events.htm'\)).
+-   In particular, the statement LOOP AT SCREEN can be used for selection screens during [selection screen processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_events.htm).
     
--   This statement also has an [obsolete short form](javascript:call_link\('abenloop_at_screen_obsolete.htm'\)), which works with an obsolete built-in structure [screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\)).
+-   This statement also has an [obsolete short form](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_at_screen_obsolete.htm), which works with an obsolete built-in structure [screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_structure_obsolete.htm).
     
--   The obsolete built-in structure [screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\)) should not be specified explicitly after INTO.
+-   The obsolete built-in structure [screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_structure_obsolete.htm) should not be specified explicitly after INTO.
     
 
 Executable Example
 
-[Dynpros, Dynamic Screen Modifications](javascript:call_link\('abendynpro_mod_simple_abexa.htm'\))
+[Dynpros, Dynamic Screen Modifications](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_mod_simple_abexa.htm)
 
 Continue
-[The Structure SCREEN](javascript:call_link\('abenscreen.htm'\))
-[MODIFY SCREEN](javascript:call_link\('abapmodify_screen.htm'\))
-![Example](exa.gif "Example") [Dynpros, Dynamic Screen Modifications](javascript:call_link\('abendynpro_mod_simple_abexa.htm'\))
+[The Structure SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm)
+[MODIFY SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm)
+![Example](exa.gif "Example") [Dynpros, Dynamic Screen Modifications](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_mod_simple_abexa.htm)
 
-
-
-**📖 Source**: [abaploop_at_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm)
 
 ### abenscreen.htm
-
-> **📖 Official SAP Documentation**: [abenscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -93,7 +65,7 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [ABAP Statements for Dynpros](javascript:call_link\('abenabap_dynpros_abap_statements.htm'\)) →  [LOOP AT SCREEN](javascript:call_link\('abaploop_at_screen.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros.htm) →  [ABAP Statements for Dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_abap_statements.htm) →  [LOOP AT SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm) → 
 
 The Structure SCREEN
 
@@ -101,9 +73,9 @@ Most components of the structure SCREEN from ABAP Dictionary correspond to the a
 
 Data objects with the data type SCREEN can be used as a work area in the following ABAP statements:
 
--   in [LOOP AT SCREEN](javascript:call_link\('abaploop_at_screen.htm'\)), to read the screen element properties of a dynpro,
+-   in [LOOP AT SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm), to read the screen element properties of a dynpro,
 
--   in [MODIFY SCREEN](javascript:call_link\('abapmodify_screen.htm'\)), to modify the screen element properties of a dynpro.
+-   in [MODIFY SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm), to modify the screen element properties of a dynpro.
 
 The following table shows the components of SCREEN, their assignment to the field properties in the dynpro, and the possible values.
 
@@ -311,7 +283,7 @@ Dropdown list box
 
 Input help exists
 
-The component name contains the name name of the current dynpro field in the loop. The components group1 to group4 can contain three figure identifiers id1 to id4, which were assigned to the current screen element when it was defined. These identifiers allow the screen elements to be grouped together in up to four different [modification groups](javascript:call_link\('abenmodification_group_glosry.htm'\) "Glossary Entry"). These can be queried in logical expressions in the statement block after [LOOP AT SCREEN](javascript:call_link\('abaploop_at_screen.htm'\)) to process multiple screen elements in the same way.
+The component name contains the name name of the current dynpro field in the loop. The components group1 to group4 can contain three figure identifiers id1 to id4, which were assigned to the current screen element when it was defined. These identifiers allow the screen elements to be grouped together in up to four different [modification groups](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodification_group_glosry.htm "Glossary Entry"). These can be queried in logical expressions in the statement block after [LOOP AT SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm) to process multiple screen elements in the same way.
 
 The remaining components of the structure SCREEN (apart from request) show the display properties of the current screen element. With the exception of length, they can have the value 0 or 1, where content 1 means "active" and content 0 means "inactive". In addition, required and value\_help can also have the value 2:
 
@@ -321,25 +293,18 @@ The remaining components of the structure SCREEN (apart from request) show the d
 
 Except for active and request, all components of the structure SCREEN correspond directly to an attribute of the current screen element.
 
--   The component active does not have a corresponding attribute. A change to its content using [MODIFY SCREEN](javascript:call_link\('abapmodify_screen.htm'\)) influences the attributes input, output and invisible, and correspondingly the components input, output and invisible of the structure SCREEN.
+-   The component active does not have a corresponding attribute. A change to its content using [MODIFY SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm) influences the attributes input, output and invisible, and correspondingly the components input, output and invisible of the structure SCREEN.
 
 -   The component request has the following meaning:
 
 -   It is set to the value 1 by the runtime environment if the event PAI occurs, provided that user input exists has been entered in the dynpro field.
 
--   Using [MODIFY SCREEN](javascript:call_link\('abapmodify_screen.htm'\)), its content can be set to the value 1 at PBO time to simulate user input.
+-   Using [MODIFY SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm), its content can be set to the value 1 at PBO time to simulate user input.
 
-If the component request has the value 1 for a dynpro field at PAI time, those dialog modules are executed that are called for this field using the additions ON REQUEST and ON CHAIN-REQUEST after the dynpro statement [FIELD](javascript:call_link\('dynpfield_module.htm'\)).
+If the component request has the value 1 for a dynpro field at PAI time, those dialog modules are executed that are called for this field using the additions ON REQUEST and ON CHAIN-REQUEST after the dynpro statement [FIELD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpfield_module.htm).
 
-
-
-**📖 Source**: [abenscreen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm)
 
 ### abapmodify_screen.htm
-
-> **📖 Official SAP Documentation**: [abapmodify_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -347,11 +312,11 @@ If the component request has the value 1 for a dynpro field at PAI time, those d
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [ABAP Statements for Dynpros](javascript:call_link\('abenabap_dynpros_abap_statements.htm'\)) →  [LOOP AT SCREEN](javascript:call_link\('abaploop_at_screen.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros.htm) →  [ABAP Statements for Dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_abap_statements.htm) →  [LOOP AT SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm) → 
 
 MODIFY SCREEN
 
-[Quick Reference](javascript:call_link\('abapmodify_screen_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen_shortref.htm)
 
 Syntax
 
@@ -359,11 +324,11 @@ MODIFY SCREEN FROM wa.
 
 Effect
 
-This statement can be used in the statement block after [LOOP AT SCREEN](javascript:call_link\('abaploop_at_screen.htm'\)) only and makes sense only during [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") processing. A work area wa of the type [SCREEN](javascript:call_link\('abenscreen.htm'\)) from ABAP Dictionary must be specified after FROM. The statement modifies the attributes of the current screen element with the values from the work area.
+This statement can be used in the statement block after [LOOP AT SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm) only and makes sense only during [PBO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpbo_glosry.htm "Glossary Entry") processing. A work area wa of the type [SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm) from ABAP Dictionary must be specified after FROM. The statement modifies the attributes of the current screen element with the values from the work area.
 
-The name component must contain the name of the current screen element, otherwise the statement is not executed. Apart from the components group1 through group4 and length, all other components of wa have either the value 0 or 1. The value 0 deactivates the corresponding field property; the value 1 activates it. In addition, [required](javascript:call_link\('abenscreen.htm'\)) and [value\_help](javascript:call_link\('abenscreen.htm'\)) can also have the value 2:
+The name component must contain the name of the current screen element, otherwise the statement is not executed. Apart from the components group1 through group4 and length, all other components of wa have either the value 0 or 1. The value 0 deactivates the corresponding field property; the value 1 activates it. In addition, [required](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm) and [value\_help](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen.htm) can also have the value 2:
 
-If MODIFY SCREEN is executed during PBO processing, the modified attributes for the display of the [screen](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") affect the current [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") after PBO processing. The attributes of the screen elements of the dynpro are reset to their static attributes at the start of each PBO processing, so that the execution of MODIFY SCREEN during [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") processing does not affect the display of the following screen.
+If MODIFY SCREEN is executed during PBO processing, the modified attributes for the display of the [screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry") affect the current [dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") after PBO processing. The attributes of the screen elements of the dynpro are reset to their static attributes at the start of each PBO processing, so that the execution of MODIFY SCREEN during [PAI](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpai_glosry.htm "Glossary Entry") processing does not affect the display of the following screen.
 
 The active component
 
@@ -380,19 +345,19 @@ The following special cases should be noted:
 
 Modifications in Table Controls and Step Loops
 
-When processing a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry") or a [step loop](javascript:call_link\('abenstep_loop_glosry.htm'\) "Glossary Entry"), the changes affect the current row of the table control or the current step loop group. Before the processing of a table control, the change to the attributes of a screen element that is part of a row in the table control does not affect the table control, since the values are passed from the structure created using [CONTROLS](javascript:call_link\('abapcontrols.htm'\)). Before a step loop is processed, the change to the attributes of a screen elements that is part of a step loop group affects all groups in the step loop.
+When processing a [table control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_control_glosry.htm "Glossary Entry") or a [step loop](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstep_loop_glosry.htm "Glossary Entry"), the changes affect the current row of the table control or the current step loop group. Before the processing of a table control, the change to the attributes of a screen element that is part of a row in the table control does not affect the table control, since the values are passed from the structure created using [CONTROLS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcontrols.htm). Before a step loop is processed, the change to the attributes of a screen elements that is part of a step loop group affects all groups in the step loop.
 
 Modifications to Tabstrip Controls
 
-If the active component for a [tab title](javascript:call_link\('abentab_title_glosry.htm'\) "Glossary Entry") of a [tabstrip control](javascript:call_link\('abentabstrip_control_glosry.htm'\) "Glossary Entry") is set to 0, the whole tabstrip page is hidden.
+If the active component for a [tab title](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentab_title_glosry.htm "Glossary Entry") of a [tabstrip control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentabstrip_control_glosry.htm "Glossary Entry") is set to 0, the whole tabstrip page is hidden.
 
 Notes
 
--   More specifically, the statement MODIFY SCREEN can be used for selection screens during the selection screen event [AT SELECTION-SCREEN OUTPUT](javascript:call_link\('abapat_selection-screen_events.htm'\)) in [selection screen processing](javascript:call_link\('abenselection_screen_events.htm'\)).
+-   More specifically, the statement MODIFY SCREEN can be used for selection screens during the selection screen event [AT SELECTION-SCREEN OUTPUT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_events.htm) in [selection screen processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_events.htm).
     
--   This statement has an [obsolete short form](javascript:call_link\('abenmodify_screen_obsolete.htm'\)) that works with the obsolete built-in structure [screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\)).
+-   This statement has an [obsolete short form](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodify_screen_obsolete.htm) that works with the obsolete built-in structure [screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_structure_obsolete.htm).
     
--   The obsolete built-in structure [screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\)) should not be specified explicitly after FROM.
+-   The obsolete built-in structure [screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_structure_obsolete.htm) should not be specified explicitly after FROM.
     
 
 Example
@@ -414,17 +379,7 @@ Executable Example
 The program DEMO\_DYNPRO\_MODIFY\_SCREEN demonstrates all possible dynamic screen modifications.
 
 
-
-**📖 Source**: [abapmodify_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm)
-
 ### abendynpro_mod_simple_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendynpro_mod_simple_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_mod_simple_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abendynpro_mod_simple_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_mod_simple_abexa.htm)
-
 
   
 
@@ -432,7 +387,7 @@ The program DEMO\_DYNPRO\_MODIFY\_SCREEN demonstrates all possible dynamic scree
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [ABAP Statements for Dynpros](javascript:call_link\('abenabap_dynpros_abap_statements.htm'\)) →  [LOOP AT SCREEN](javascript:call_link\('abaploop_at_screen.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros.htm) →  [ABAP Statements for Dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_abap_statements.htm) →  [LOOP AT SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_screen.htm) → 
 
 Dynpros, Dynamic Screen Modifications
 

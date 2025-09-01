@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [Logical Expressions (log\_exp)](javascript:call_link\('abenlogexp.htm'\)) →  [Comparison Expressions (rel\_exp)](javascript:call_link\('abenlogexp_comp.htm'\)) →  [rel\_exp - Comparison Rules](javascript:call_link\('abenlogexp_rules.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_expr_func.htm) →  [Logical Expressions (log\_exp)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp.htm) →  [Comparison Expressions (rel\_exp)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_comp.htm) →  [rel\_exp - Comparison Rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) → 
 
 rel\_exp - Comparing Internal Tables
 
@@ -16,7 +16,7 @@ Internal tables can be compared with other internal tables if their line types a
 
 Hint
 
-If an internal table with a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") is specified as the operand of an assignment, the header line is addressed in nearly all [operand positions](javascript:call_link\('abenoperands_data_objects.htm'\)) and not the [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry"). To address the table body of a table with a header, \[\] must be appended to the name.
+If an internal table with a [header line](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenheader_line_glosry.htm "Glossary Entry") is specified as the operand of an assignment, the header line is addressed in nearly all [operand positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperands_data_objects.htm) and not the [table body](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_body_glosry.htm "Glossary Entry"). To address the table body of a table with a header, \[\] must be appended to the name.
 
 Example
 
@@ -31,7 +31,7 @@ ASSERT itab2 > itab1.
 
 Executable Example
 
-[Comparing Internal Tables](javascript:call_link\('abencompare_table_abexa.htm'\)).
+[Comparing Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompare_table_abexa.htm).
 
 Continue
-![Example](exa.gif "Example") [Comparing Internal Tables](javascript:call_link\('abencompare_table_abexa.htm'\))
+![Example](exa.gif "Example") [Comparing Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompare_table_abexa.htm)

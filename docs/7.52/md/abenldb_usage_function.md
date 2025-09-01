@@ -4,13 +4,17 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Use](javascript:call_link\('abenldb_usage.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb.htm) →  [Logical Databases - Use](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_usage.htm) → 
 
 Logical Databases - Call by Function Module
 
--   [How the Call Works](#abenldb-usage-function-1--------runtime-behavior---@ITOC@@ABENLDB_USAGE_FUNCTION_2)
+-   [How the Call Works](#@@ITOC@@ABENLDB_USAGE_FUNCTION_1)
 
--   [Interface Parameter of LDB\_PROCESS](#abenldb-usage-function-3--------read-depth-and-callback-routines---@ITOC@@ABENLDB_USAGE_FUNCTION_4)
+-   [Runtime Behavior](#@@ITOC@@ABENLDB_USAGE_FUNCTION_2)
+
+-   [Interface Parameter of LDB\_PROCESS](#@@ITOC@@ABENLDB_USAGE_FUNCTION_3)
+
+-   [Read Depth and Callback Routines](#@@ITOC@@ABENLDB_USAGE_FUNCTION_4)
 
 -   [Exceptions in LDB\_PROCESS](#@@ITOC@@ABENLDB_USAGE_FUNCTION_5)
 
@@ -37,7 +41,7 @@ When called using the function module LDB\_PROCESS, the subroutines of the logic
 3.  ldb\_process\_check\_selections
 4.  put\_node
 
-None of the subroutines used for selection screen processing [when associated with executable programs](javascript:call_link\('abenldb_usage_executable.htm'\)) are called and the runtime environment does not trigger any reporting events in the calling program. Instead, the PUT statements of the logical database trigger actions in the function module that produce callback routine calls in the caller program.
+None of the subroutines used for selection screen processing [when associated with executable programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_usage_executable.htm) are called and the runtime environment does not trigger any reporting events in the calling program. Instead, the PUT statements of the logical database trigger actions in the function module that produce callback routine calls in the caller program.
 
 Interface Parameter of LDB\_PROCESS
 
@@ -47,10 +51,10 @@ Import Parameter
     Name of the logical database called.
 
 -   VARIANT
-    Name of a [selection screen variant](javascript:call_link\('abenvariant_2_glosry.htm'\) "Glossary Entry") used to fill the selection screen of the logical database. The variant must be assigned to the database program of the logical database. The data is passed in the same way as when using the addition [WITH SELECTION-TABLE](javascript:call_link\('abapsubmit_selscreen_parameters.htm'\)) in a program call using SUBMIT.
+    Name of a [selection screen variant](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvariant_2_glosry.htm "Glossary Entry") used to fill the selection screen of the logical database. The variant must be assigned to the database program of the logical database. The data is passed in the same way as when using the addition [WITH SELECTION-TABLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubmit_selscreen_parameters.htm) in a program call using SUBMIT.
 
 -   EXPRESSIONS
-    In this parameter, additional selections can be passed in the table parameter SELECTIONS for the nodes of the logical database implemented in the selection include for dynamic selections. The data type of the parameter RSDS\_TEXPR is defined in the type group RSDS. The data is passed in the same way as when using the addition [WITH FREE SELECTIONS](javascript:call_link\('abapsubmit_selscreen_parameters.htm'\)) in a program call using SUBMIT.
+    In this parameter, additional selections can be passed in the table parameter SELECTIONS for the nodes of the logical database implemented in the selection include for dynamic selections. The data type of the parameter RSDS\_TEXPR is defined in the type group RSDS. The data is passed in the same way as when using the addition [WITH FREE SELECTIONS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubmit_selscreen_parameters.htm) in a program call using SUBMIT.
 
 -   FIELD\_SELECTION
     In this parameter, a list of the required fields can be passed for the nodes of the logical database implemented in the selection include for free field selections. The data type of the parameter is the deep internal table RSFS\_FIELDS from the type group RSFS. The component TABLENAME contains the name of the node and the deep component FIELDS contains the names of the fields being read.
@@ -61,13 +65,13 @@ Table Parameters
     The names of nodes and events are assigned to callback routines in this parameter. The parameter determines the nodes from which the logical database reads data (and when) and to which callback routines it passes this data (see below).
 
 -   SELECTIONS
-    Input values for the selection criteria and parameters of the selection screen of the logical database can be passed in this parameter. The data type of the parameter matches the structure RSPARAMS in ABAP Dictionary. The data is passed in the same way as when using the addition [WITH SELECTION-TABLE](javascript:call_link\('abapsubmit_selscreen_parameters.htm'\)) in a program call using SUBMIT.
+    Input values for the selection criteria and parameters of the selection screen of the logical database can be passed in this parameter. The data type of the parameter matches the structure RSPARAMS in ABAP Dictionary. The data is passed in the same way as when using the addition [WITH SELECTION-TABLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubmit_selscreen_parameters.htm) in a program call using SUBMIT.
 
 If multiple selections are passed at the same time using multiple parameters, values passed in SELECTIONS and EXPRESSIONS overwrite the values in VARIANT.
 
 Read Depth and Callback Routines
 
-If a logical database is [associated](javascript:call_link\('abenldb_usage_executable.htm'\)) with a logical database, the GET statements determine the read depth of the logical database. If the function module LDB\_PROCESS is used for calls, the read depth is determined by the node name passed to the parameter CALLBACK. A callback routine can be executed at two points in time for each node that requests data. These times match GET and GET LATE in executable programs. For each node, the name of the associated callback routine and the required times are specified in the table parameter CALLBACK. A callback routine is a subroutine in the caller program or in another program.
+If a logical database is [associated](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_usage_executable.htm) with a logical database, the GET statements determine the read depth of the logical database. If the function module LDB\_PROCESS is used for calls, the read depth is determined by the node name passed to the parameter CALLBACK. A callback routine can be executed at two points in time for each node that requests data. These times match GET and GET LATE in executable programs. For each node, the name of the associated callback routine and the required times are specified in the table parameter CALLBACK. A callback routine is a subroutine in the caller program or in another program.
 
 For the event GET, the callback routine is called directly after the data of the node is read and before the processing of the lower subtree. For the event GET LATE, the callback routine is called after the lower subtree is processed.
 
@@ -105,7 +109,7 @@ When called, the parameters are filled using the function module LDB\_PROCESS an
 
 -   evt contains "G" or "L", depending on whether it refers to the event GET or GET LATE. This means that the program flow can branch in accordance with the content of evt in the subroutine.
 
--   check enables the callback routine to modify the further processing of the program (but only if evt contains "G"). When the subroutine is called, the parameter is given the value "X". If the parameter is initial when the subroutine is exited, this indicates that the entire lower subtree is not processed using LDB\_PROCESS. This is the same behavior as when a GET event block is exited using [CHECK](javascript:call_link\('abapcheck_processing_blocks.htm'\)) in executable programs. This option improves performance by preventing unnecessary data from being read.
+-   check enables the callback routine to modify the further processing of the program (but only if evt contains "G"). When the subroutine is called, the parameter is given the value "X". If the parameter is initial when the subroutine is exited, this indicates that the entire lower subtree is not processed using LDB\_PROCESS. This is the same behavior as when a GET event block is exited using [CHECK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcheck_processing_blocks.htm) in executable programs. This option improves performance by preventing unnecessary data from being read.
 
 Exceptions in LDB\_PROCESS
 
@@ -122,4 +126,4 @@ The other exceptions are explained in the documentation of the function module.
 
 Executable Example
 
-[Logical Database, Call by Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
+[Logical Database, Call by Function Module](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_database_abexa.htm)

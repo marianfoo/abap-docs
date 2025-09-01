@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding.htm) →  [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove-corresponding.htm) → 
 
 MOVE-CORRESPONDING - structure
 
-[Quick Reference](javascript:call_link\('abapmove-corresponding_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove-corresponding_shortref.htm)
 
 Syntax
 
@@ -22,27 +22,27 @@ Extras:
 
 Effect
 
-This variant of the statement MOVE-CORRESPONDING requires [structures](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry") to be specified for struc1 and struc2. [Meshes](javascript:call_link\('abenmesh_glosry.htm'\) "Glossary Entry") - as operands of statement MOVE-CORRESPONDING - are handled in the same way as normal structures and can also be specified.
+This variant of the statement MOVE-CORRESPONDING requires [structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructure_glosry.htm "Glossary Entry") to be specified for struc1 and struc2. [Meshes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_glosry.htm "Glossary Entry") - as operands of statement MOVE-CORRESPONDING - are handled in the same way as normal structures and can also be specified.
 
-The system searches for all components with the same name in struc1 and struc2 and the content of components in struc1 is assigned to the components with the same name in struc2. Other components are not affected. If field symbols are used as operands, the names of the components are evaluated in accordance with the data type of the field symbols. A [casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry") may be used to make this type different from the names of the actual structures.
+The system searches for all components with the same name in struc1 and struc2 and the content of components in struc1 is assigned to the components with the same name in struc2. Other components are not affected. If field symbols are used as operands, the names of the components are evaluated in accordance with the data type of the field symbols. A [casting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencast_casting_glosry.htm "Glossary Entry") may be used to make this type different from the names of the actual structures.
 
 Nested structures are fully expanded. The names of the components are compared down to the lowest common level. If the addition EXPANDING NESTED TABLES is not specified, the following statement is executed for each identically named component pair comp:
 
-[struc2-comp = struc1-comp.](javascript:call_link\('abapmove.htm'\))
+[struc2-comp = struc1-comp.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove.htm)
 
-Any associated conversions are performed and the relevant exceptions may be raised. In particular, if the components are table-like, the entire table body is mapped in accordance with the [conversion rules for internal tables](javascript:call_link\('abenconversion_itab.htm'\)).
+Any associated conversions are performed and the relevant exceptions may be raised. In particular, if the components are table-like, the entire table body is mapped in accordance with the [conversion rules for internal tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_itab.htm).
 
-If struc1 or struc2 are empty [customizing includes](javascript:call_link\('abencustomizing_include_glosry.htm'\) "Glossary Entry") when the statement is executed (that is they do not contain any components), the statement is ignored. If struc1 is a structure that contains empty customizing includes as components, these are also ignored when the structure is evaluated.
+If struc1 or struc2 are empty [customizing includes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencustomizing_include_glosry.htm "Glossary Entry") when the statement is executed (that is they do not contain any components), the statement is ignored. If struc1 is a structure that contains empty customizing includes as components, these are also ignored when the structure is evaluated.
 
 Notes
 
 -   If structures are specified for struc1 and struc2 and the structures are known statically, the names are compared once when the program is generated by ABAP Compiler. If untyped field symbols or formal parameters are used, the names must be compared each time the statement is executed.
     
--   Field symbols that point to structures can have different names for the components than the structure itself, as specified by the [CASTING](javascript:call_link\('abapassign_casting.htm'\)) addition of the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)). The statement MOVE-CORRESPONDING evaluates the names of the data type of the current operand. In this way, components in the same structure can also be assigned to each other. Note that the order of editing, and hence the result in a component that is both source and target, is usually undefined. No temporary intermediate result is created and it is not possible to exchange the content of two components from the same structure in a single statement. See the executable example [Reflexive Component Assignments](javascript:call_link\('abenreflexive_corresponding_abexa.htm'\)).
+-   Field symbols that point to structures can have different names for the components than the structure itself, as specified by the [CASTING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_casting.htm) addition of the statement [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm). The statement MOVE-CORRESPONDING evaluates the names of the data type of the current operand. In this way, components in the same structure can also be assigned to each other. Note that the order of editing, and hence the result in a component that is both source and target, is usually undefined. No temporary intermediate result is created and it is not possible to exchange the content of two components from the same structure in a single statement. See the executable example [Reflexive Component Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreflexive_corresponding_abexa.htm).
     
 -   The compiler optimizes the MOVE-CORRESPONDING statement for structures so that sequences of components that have the same names in both structures are grouped and copied together. It is therefore advisable to construct the structures in question in the same way whenever possible.
     
--   MOVE-CORRESPONDING for structures ignores names that were only defined with the AS name addition of the [INCLUDE](javascript:call_link\('abapinclude_type.htm'\)) statement or when structures were integrated into ABAP Dictionary. However, components that were renamed using the addition RENAMING WITH SUFFIX of the statement INCLUDE or similarly in ABAP Dictionary are not ignored.
+-   MOVE-CORRESPONDING for structures ignores names that were only defined with the AS name addition of the [INCLUDE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinclude_type.htm) statement or when structures were integrated into ABAP Dictionary. However, components that were renamed using the addition RENAMING WITH SUFFIX of the statement INCLUDE or similarly in ABAP Dictionary are not ignored.
     
 
 Addition 1
@@ -51,9 +51,9 @@ Addition 1
 
 Effect
 
-If the addition EXACT is specified for MOVE-CORRESPONDING the following [lossless assignment](javascript:call_link\('abenlossless_move.htm'\)) is made for each identically named component pair comp
+If the addition EXACT is specified for MOVE-CORRESPONDING the following [lossless assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_move.htm) is made for each identically named component pair comp
 
-struc2-comp = [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) #( struc1-comp ).
+struc2-comp = [EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm) #( struc1-comp ).
 
 and the corresponding checks are performed. If an exception is raised, all components are assigned up to the component that raised the exception. This component, and all following components, are not assigned.
 
@@ -63,7 +63,7 @@ Addition 2
 
 Effect
 
-This addition specifies that, for two components with the same name and which are both internal tables, no [assignment](javascript:call_link\('abapmove.htm'\)) is made and that the variant [MOVE-CORRESPONDING *\[*EXACT*\]* for internal tables](javascript:call_link\('abapmove-corresponding_itab.htm'\)) with the addition EXPANDING NESTED TABLES and without the addition KEEPING TARGET LINES is executed instead.
+This addition specifies that, for two components with the same name and which are both internal tables, no [assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove.htm) is made and that the variant [MOVE-CORRESPONDING *\[*EXACT*\]* for internal tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove-corresponding_itab.htm) with the addition EXPANDING NESTED TABLES and without the addition KEEPING TARGET LINES is executed instead.
 
 Tabular components are resolved at every hierarchy level and identically named components are mapped row by row. The target tables are deleted before a mapping.
 
@@ -164,4 +164,4 @@ cl\_demo\_output=>display( str2 ).
 
 Executable Example
 
-[MOVE-CORRESPONDING for Structures](javascript:call_link\('abenmove_corresponding_struc_abexa.htm'\))
+[MOVE-CORRESPONDING for Structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmove_corresponding_struc_abexa.htm)

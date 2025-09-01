@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DESCRIBE%20TABLE%2C%20ABAPDESCRIBE_TABLE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DESCRIBE TABLE
 
-[Short Reference](javascript:call_link\('abapdescribe_table_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_table_shortref.htm)
 
 Syntax
 
@@ -27,15 +27,15 @@ Effect
 This statement determines some of the properties of the internal table itab and assigns them to the specified target fields. The following can be specified as target fields of each addition:
 
 -   Existing variables to which the return value can be converted.
--   Inline declarations [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)).
+-   Inline declarations [DATA(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_inline.htm) or [FINAL(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfinal_inline.htm).
 
-The different additions enable the table category, the number of currently filled lines, and the [initial memory requirement](javascript:call_link\('abeninitial_mem_req_glosry.htm'\) "Glossary Entry") to be determined.
+The different additions enable the table category, the number of currently filled lines, and the [initial memory requirement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_mem_req_glosry.htm "Glossary Entry") to be determined.
 
 In addition, the system fields sy-tfill and sy-tleng are filled with the current number of table lines and the length of a table line in bytes.
 
 Hints
 
--   For more detailed information about an internal table, it is best to use the methods of the [RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry") instead of the statement DESCRIBE TABLE.
+-   For more detailed information about an internal table, it is best to use the methods of the [RTTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry") instead of the statement DESCRIBE TABLE.
 -   If no addition is specified, the statement DESCRIBE TABLE only sets the system fields sy-tfill and sy-tleng.
 
 Addition 1   
@@ -46,11 +46,11 @@ Effect
 
 Determines the table category of the internal table itab. The return value is a single character character-like ID. In an inline declaration, a variable of the type c with length 1 is declared.
 
-The possible IDs are T for [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry"), S for sorted tables, and H for [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry"). These values are also defined as constants sydes\_kind-standard, sydes\_kind-sorted, and sydes\_kind-hashed in the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") SYDES.
+The possible IDs are T for [standard tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_table_glosry.htm "Glossary Entry"), S for sorted tables, and H for [hashed tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhashed_table_glosry.htm "Glossary Entry"). These values are also defined as constants sydes\_kind-standard, sydes\_kind-sorted, and sydes\_kind-hashed in the [type pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_pool_glosry.htm "Glossary Entry") SYDES.
 
 Example
 
-Sorting of a generically typed internal table in a method in descending order. Since [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") cannot be sorted in descending order, the table category is checked to prevent uncatchable exceptions from being raised.
+Sorting of a generically typed internal table in a method in descending order. Since [sorted tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensorted_table_glosry.htm "Glossary Entry") cannot be sorted in descending order, the table category is checked to prevent uncatchable exceptions from being raised.
 
 CLASS demo DEFINITION.
   PUBLIC SECTION.
@@ -80,11 +80,11 @@ Determines the current number of table lines in the internal table itab. The ret
 
 Hint
 
-The current number of lines of an internal table can also be determined using the [built-in function](javascript:call_link\('abenbuiltin_function_glosry.htm'\) "Glossary Entry") [lines](javascript:call_link\('abendescriptive_functions_table.htm'\)), which can be used in suitable [operand positions](javascript:call_link\('abenexpression_positions.htm'\)).
+The current number of lines of an internal table can also be determined using the [built-in function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_function_glosry.htm "Glossary Entry") [lines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendescriptive_functions_table.htm), which can be used in suitable [operand positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions.htm).
 
 Example
 
-The example shows that the addition of LINES to DESCRIBE TABLE and the built-in function [lines](javascript:call_link\('abendescriptive_functions_table.htm'\)) have the same result.
+The example shows that the addition of LINES to DESCRIBE TABLE and the built-in function [lines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendescriptive_functions_table.htm) have the same result.
 
 SELECT carrid
        FROM scarr
@@ -98,11 +98,11 @@ Addition 3  
 
 Effect
 
-Determines the [initial memory requirement](javascript:call_link\('abeninitial_mem_req_glosry.htm'\) "Glossary Entry") defined using the addition [INITIAL SIZE](javascript:call_link\('abaptypes_itab.htm'\)) or the obsolete addition [OCCURS](javascript:call_link\('abaptypes_occurs.htm'\)) when the internal table is created.
+Determines the [initial memory requirement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_mem_req_glosry.htm "Glossary Entry") defined using the addition [INITIAL SIZE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_itab.htm) or the obsolete addition [OCCURS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_occurs.htm) when the internal table is created.
 
 If neither INITIAL SIZE nor OCCURS were used:
 
--   For internal tables created by [RANGES](javascript:call_link\('abapranges.htm'\)) or [INFOTYPES](javascript:call_link\('abapinfotypes.htm'\)), the standard value 10 is returned.
+-   For internal tables created by [RANGES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapranges.htm) or [INFOTYPES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinfotypes.htm), the standard value 10 is returned.
 -   In all other cases, the initial memory requirement is fully set by the ABAP runtime framework and the value of n is set to 0.
 
 The return value has the type i. In an inline declaration, a variable of the type i is declared.

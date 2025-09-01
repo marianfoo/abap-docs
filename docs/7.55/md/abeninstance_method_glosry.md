@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 instance method
 
-[Method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") of a [class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry") declared using [METHODS](javascript:call_link\('abapmethods.htm'\)), which can only be used in an [instance](javascript:call_link\('abeninstance_glosry.htm'\) "Glossary Entry") of the class. Instance methods can access all [attributes](javascript:call_link\('abenattribute_glosry.htm'\) "Glossary Entry") and [events](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry") of their class.
+[Method](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmethod_glosry.htm "Glossary Entry") of a [class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_glosry.htm "Glossary Entry") declared using [METHODS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmethods.htm), which can only be used in an [instance](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninstance_glosry.htm "Glossary Entry") of the class. Instance methods can access all [attributes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenattribute_glosry.htm "Glossary Entry") and [events](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenevent_glosry.htm "Glossary Entry") of their class.
 
-[→ More about](javascript:call_link\('abenclass_methods.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_methods.htm)

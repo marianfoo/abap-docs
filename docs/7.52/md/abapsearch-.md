@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Character String and Byte String Processing](javascript:call_link\('abencharacter_string_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_internal_obsolete.htm) →  [Obsolete Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_string_obsolete.htm) → 
 
 SEARCH
 
-[Quick Reference](javascript:call_link\('abapsearch_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsearch_shortref.htm)
 
 Obsolete Syntax
 
@@ -70,9 +70,9 @@ The search pattern was found in dobj.
 
 Notes
 
--   It is preferable to use the new statement [FIND](javascript:call_link\('abapfind.htm'\)) instead of SEARCH, wherever possible. The functions of SEARCH (with the exception of marking the found pattern (using the addition AND MARK)) are covered by the introduction of [regular expressions](javascript:call_link\('abenregex_syntax.htm'\)) in the statement FIND. If required, the marking performed after a pattern is found can be replaced by the statement [REPLACE](javascript:call_link\('abapreplace_in_pattern.htm'\)) or the built-in function [replace](javascript:call_link\('abenreplace_functions.htm'\)). Here, the [replacement patterns](javascript:call_link\('abenregex_replace.htm'\)) for [regular expressions](javascript:call_link\('abenregex_syntax.htm'\)) are particularly useful. In contrast to FIND, SEARCH is not case-sensitive and is much slower when searching large texts.
+-   It is preferable to use the new statement [FIND](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfind.htm) instead of SEARCH, wherever possible. The functions of SEARCH (with the exception of marking the found pattern (using the addition AND MARK)) are covered by the introduction of [regular expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_syntax.htm) in the statement FIND. If required, the marking performed after a pattern is found can be replaced by the statement [REPLACE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreplace_in_pattern.htm) or the built-in function [replace](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreplace_functions.htm). Here, the [replacement patterns](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_replace.htm) for [regular expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_syntax.htm) are particularly useful. In contrast to FIND, SEARCH is not case-sensitive and is much slower when searching large texts.
     
--   A variant of this statement used for searching tables ([SEARCH itab](javascript:call_link\('abapsearch_itab.htm'\))) has also been replaced by a variant of the statement [FIND](javascript:call_link\('abapfind_itab.htm'\)).
+-   A variant of this statement used for searching tables ([SEARCH itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsearch_itab.htm)) has also been replaced by a variant of the statement [FIND](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfind_itab.htm).
     
 
 Addition 1
@@ -81,7 +81,7 @@ Addition 1
 
 Effect
 
-The optional addition IN *{*CHARACTER*|*BYTE*}* MODE determines whether [character string or byte string processing](javascript:call_link\('abenstring_processing_statements.htm'\)) is performed. If the addition is not specified, character string processing is performed. Depending on the processing type, dobj and pattern must be either character-like or byte-like.
+The optional addition IN *{*CHARACTER*|*BYTE*}* MODE determines whether [character string or byte string processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_processing_statements.htm) is performed. If the addition is not specified, character string processing is performed. Depending on the processing type, dobj and pattern must be either character-like or byte-like.
 
 Addition 2
 
@@ -104,7 +104,7 @@ If the addition STARTING AT is specified, sy-fdpos is set to the offset of the o
 
 Note
 
-The term "position" is not equivalent to the term "[offset](javascript:call_link\('abenoffset_glosry.htm'\) "Glossary Entry")". A byte or a character on position 1 has an offset of 0.
+The term "position" is not equivalent to the term "[offset](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_glosry.htm "Glossary Entry")". A byte or a character on position 1 has an offset of 0.
 
 Addition 3
 

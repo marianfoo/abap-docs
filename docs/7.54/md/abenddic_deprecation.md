@@ -4,13 +4,13 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [Table-Specific Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) →  [Foreign Key Dependencies](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_sema.htm) →  [Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm) →  [Foreign Key Dependencies](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkeyrel.htm) → 
 
 Flagging of Obsolete Data in Check Tables
 
-Rows in [check tables](javascript:call_link\('abenddic_database_tables_checktab.htm'\)) can be flagged as deprecated or invalid data. If the associated check on deprecated data is active, the flag modifies the [input check](javascript:call_link\('abenabap_dynpros_checks.htm'\)) and [input help](javascript:call_link\('abenabap_dynpros_value_help.htm'\)) in dynpros and in Web Dynpro.
+Rows in [check tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_checktab.htm) can be flagged as deprecated or invalid data. If the associated check on deprecated data is active, the flag modifies the [input check](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_checks.htm) and [input help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help.htm) in dynpros and in Web Dynpro.
 
-Checks on deprecated data are active by default when an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") is created. This setting can be modified and read using methods of the class CL\_CONFIGURATION\_DEPRECATION:
+Checks on deprecated data are active by default when an [internal session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninternal_session_glosry.htm "Glossary Entry") is created. This setting can be modified and read using methods of the class CL\_CONFIGURATION\_DEPRECATION:
 
 -   The parameter I\_RESPECT\_OBSOLETE\_VALUES of the method SET\_DEPRECATION\_ACTIVE can be used to enable and disable the deprecated data check for the current session.
 
@@ -34,7 +34,7 @@ E
 
 The entry is invalid and can no longer be used.
 
-If the deprecated data check is enabled, the implicit [input checks](javascript:call_link\('abenabap_dynpros_checks.htm'\)) and [input helps](javascript:call_link\('abenabap_dynpros_value_help.htm'\)) in dynpros and in Web Dynpro that are based on check tables evaluate the column CONFIGURATIONDEPRECATIONCODE as follows:
+If the deprecated data check is enabled, the implicit [input checks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_checks.htm) and [input helps](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help.htm) in dynpros and in Web Dynpro that are based on check tables evaluate the column CONFIGURATIONDEPRECATIONCODE as follows:
 
 -   The input check creates the following:
 
@@ -50,15 +50,15 @@ If the deprecated data check is enabled, the implicit [input checks](javascript:
 
 Notes
 
--   If input helps are based on [search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry") associated with check tables, the deprecated data check runs accordingly.
+-   If input helps are based on [search helps](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensearch_help_glosry.htm "Glossary Entry") associated with check tables, the deprecated data check runs accordingly.
 
--   If the input check is implemented using a [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") module, the column CONFIGURATIONDEPRECATIONCODE must be evaluated in the PAI module itself.
+-   If the input check is implemented using a [PAI](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpai_glosry.htm "Glossary Entry") module, the column CONFIGURATIONDEPRECATIONCODE must be evaluated in the PAI module itself.
 
--   [SAP HANA databases](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") use the more universal concept of [data aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry"). This is applied each time the database is accessed using the [database interface](javascript:call_link\('abendatabase_interface_glosry.htm'\) "Glossary Entry").
+-   [SAP HANA databases](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry") use the more universal concept of [data aging](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_aging_glosry.htm "Glossary Entry"). This is applied each time the database is accessed using the [database interface](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_interface_glosry.htm "Glossary Entry").
 
 Executable Example
 
-[Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation_abexa.htm'\))
+[Flagging of Deprecated Data in Check Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation_abexa.htm'\))
+![Example](exa.gif "Example") [Flagging of Deprecated Data in Check Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation_abexa.htm)

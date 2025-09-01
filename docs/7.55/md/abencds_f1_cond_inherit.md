@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Access Control](javascript:call_link\('abencds_access_control.htm'\)) →  [ABAP CDS - DCL Statements](javascript:call_link\('abencds_f1_dcl_syntax.htm'\)) →  [CDS DCL - DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) →  [CDS DCL - DEFINE ROLE, condition](javascript:call_link\('abencds_dcl_role_conditions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Access Control](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_access_control.htm) →  [ABAP CDS - DCL Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_syntax.htm) →  [CDS DCL - DEFINE ROLE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_role.htm) →  [CDS DCL - DEFINE ROLE, condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_conditions.htm) → 
 
 CDS DCL - DEFINE ROLE, inherit\_condition
 
@@ -24,7 +24,7 @@ Variants:
 
 Effect
 
-Inheritance condition as part of an [access condition](javascript:call_link\('abenaccess_condition_glosry.htm'\) "Glossary Entry") [cds\_cond](javascript:call_link\('abencds_dcl_role_cond_expr.htm'\)) in an [access rule](javascript:call_link\('abencds_dcl_role_rules.htm'\)) of the statement [DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) in [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry"). There are three variants:
+Inheritance condition as part of an [access condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenaccess_condition_glosry.htm "Glossary Entry") [cds\_cond](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_cond_expr.htm) in an [access rule](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_rules.htm) of the statement [DEFINE ROLE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_role.htm) in [CDS DCL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_glosry.htm "Glossary Entry"). There are three variants:
 
 -   The variant INHERIT FOR GRANT applies the access conditions from a different CDS role.
 
@@ -34,11 +34,11 @@ Inheritance condition as part of an [access condition](javascript:call_link\('ab
 
 Hints
 
--   Multiple inheritance conditions can be specified within a single access condition and these can be combined with [literal conditions](javascript:call_link\('abencds_f1_cond_literal.htm'\)), [PFCG conditions](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)), and [user conditions](javascript:call_link\('abencds_f1_cond_user.htm'\)).
+-   Multiple inheritance conditions can be specified within a single access condition and these can be combined with [literal conditions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_cond_literal.htm), [PFCG conditions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_cond_pfcg.htm), and [user conditions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_cond_user.htm).
 
 -   The inherited access conditions are parenthesized implicitly. It is not necessary to set parentheses explicitly.
 
--   An inheritance conditions cannot be negated using [NOT](javascript:call_link\('abencds_dcl_role_cond_expr.htm'\)).
+-   An inheritance conditions cannot be negated using [NOT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_cond_expr.htm).
     
 
 Variant 1
@@ -49,7 +49,7 @@ Effect
 
 This variant of an inheritance condition copies the access rules declared in the CDS role parent\_role for the CDS cds\_entity. If the role parent\_role has multiple access rules for the same CDS entity cds\_entity, they are inherited using conditions joined by a logical "or".
 
-The inherited access conditions inherited from parent\_role must match the current CDS entity. [Full access rules](javascript:call_link\('abencds_dcl_role_grant_rule.htm'\)) cannot be inherited.
+The inherited access conditions inherited from parent\_role must match the current CDS entity. [Full access rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_grant_rule.htm) cannot be inherited.
 
 Hints
 
@@ -59,11 +59,11 @@ Hints
 
 -   Any changes to that CDS entity cds\_entity for which the inherited access conditions are defined in the role parent\_role can produce errors in the inheriting roles.
 
--   Unlike the obsolete [inherited access rules](javascript:call_link\('abencds_dcl_role_inherited_rule.htm'\)), the existing role parent\_role can have multiple access rules. The addition FOR GRANT SELECT ON cds\_entity selects the access conditions to inherit.
+-   Unlike the obsolete [inherited access rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_inherited_rule.htm), the existing role parent\_role can have multiple access rules. The addition FOR GRANT SELECT ON cds\_entity selects the access conditions to inherit.
 
 Example
 
-The following CDS view uses the CDS view DEMO\_CDS\_AUTH\_LIT\_PFCG from the example for [conditional access rules](javascript:call_link\('abencds_dcl_role_cond_rule.htm'\)) as the data source:
+The following CDS view uses the CDS view DEMO\_CDS\_AUTH\_LIT\_PFCG from the example for [conditional access rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_cond_rule.htm) as the data source:
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_INH'
 @AccessControl.authorizationCheck: #CHECK
@@ -111,13 +111,13 @@ The inherited access conditions must match the CDS entity for which the current 
 
 -   If an inherited access condition does not match the current CDS entity, for example because the wrong field or path is specified, all access rules of the parent CDS role are ignored.
 
--   If there is no [full access rule](javascript:call_link\('abencds_dcl_role_grant_rule.htm'\)) for the entity in this case, the current CDS role cannot be activated.
+-   If there is no [full access rule](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_grant_rule.htm) for the entity in this case, the current CDS role cannot be activated.
 
--   If there is a [full access rule](javascript:call_link\('abencds_dcl_role_grant_rule.htm'\)) for the entity, the CDS role can be activated but a syntax check warning occurs.
+-   If there is a [full access rule](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_grant_rule.htm) for the entity, the CDS role can be activated but a syntax check warning occurs.
 
 Hints
 
--   Unlike in the previous role-based inheritance, this variant also allows the inheritance of a [full access rule](javascript:call_link\('abencds_dcl_role_grant_rule.htm'\)) and replaces the expression INHERITING CONDITIONS ... with the Boolean predicate TRUE.
+-   Unlike in the previous role-based inheritance, this variant also allows the inheritance of a [full access rule](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_grant_rule.htm) and replaces the expression INHERITING CONDITIONS ... with the Boolean predicate TRUE.
 
 -   An annotation@AccessControl.authorizationCheck in the source code of the parent CDS entity cds\_entity is ignored by INHERITING CONDITIONS. The access rules are passed to the current CDS role even if the value #NOT\_ALLOWED is specified.
     
@@ -128,13 +128,13 @@ Addition 1
 
 Effect
 
-If the source CDS entity does not have a CDS role, this addition replaces the expression INHERITING CONDITIONS ... with the Boolean predicate [TRUE](javascript:call_link\('abencds_dcl_role_conditions.htm'\)) or [FALSE](javascript:call_link\('abencds_dcl_role_conditions.htm'\)).
+If the source CDS entity does not have a CDS role, this addition replaces the expression INHERITING CONDITIONS ... with the Boolean predicate [TRUE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_conditions.htm) or [FALSE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_conditions.htm).
 
 Hints
 
 -   If specified for the variant INHERITING CONDITIONS, DEFAULT TRUE is designed to inherit access conditions from other CDS entities regardless of whether a CDS role is already defined for them or not.
 
--   If the variant INHERITING CONDITIONS is the only access condition of an access rule and no CDS role is defined for the CDS entity cds\_entity, the rule is applied like a [full access rule](javascript:call_link\('abencds_dcl_role_grant_rule.htm'\)) if DEFAULT TRUE is specified and like a rule that generally blocks access if DEFAULT FALSE is specified.
+-   If the variant INHERITING CONDITIONS is the only access condition of an access rule and no CDS role is defined for the CDS entity cds\_entity, the rule is applied like a [full access rule](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_grant_rule.htm) if DEFAULT TRUE is specified and like a rule that generally blocks access if DEFAULT FALSE is specified.
     
 
 Addition 2
@@ -159,19 +159,19 @@ The optional addition REPLACING of INHERITING CONDITIONS can be used to modify t
 
 -   The addition IF ALL CONDITIONS VOID THEN can be applied only if at least one CONDITIONS ON ANY OF ... WITH VOID exists. It specifies the behavior when all conditions of the inherited roles are mapped to a VOID operator by the replacement operator. This is an error situation that can be produced by changes to the inherited role in an inheriting role and the use of this addition in the inheriting role hence provides protection against future errors.
 
--   In the inherited conditions, ROOT WITH prefixes all elements that designate the CDS entity cds\_entity with the SQL path expression [path\_expr](javascript:call_link\('abensql_path_expression_glosry.htm'\) "Glossary Entry"). The path expression can have one or more levels and can be specified in the same way as in the CDS entity.
+-   In the inherited conditions, ROOT WITH prefixes all elements that designate the CDS entity cds\_entity with the SQL path expression [path\_expr](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_path_expression_glosry.htm "Glossary Entry"). The path expression can have one or more levels and can be specified in the same way as in the CDS entity.
 
 -   The addition INCLUDING PARAMETERS of the statement ROOT WITH can be used to apply parameters filled in the specified replacement path in the inherited conditions too. If the statement ROOT WITH is not used, the same function is provided by the operator PARAMETERS WITH.
 
--   PFCG\_FILTER is used to replace the values assigned to the optional authorization fields in inherited [PFCG conditions](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)):
+-   PFCG\_FILTER is used to replace the values assigned to the optional authorization fields in inherited [PFCG conditions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_cond_pfcg.htm):
 
--   The optional [authorization object](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") auth\_object to which the replacement applies can be specified after OBJECT. If no authorization object is specified after OBJECT, the values are replaced for all optional authorization fields auth\_field that are specified in the inherited access condition.
+-   The optional [authorization object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenauthorization_object_glosry.htm "Glossary Entry") auth\_object to which the replacement applies can be specified after OBJECT. If no authorization object is specified after OBJECT, the values are replaced for all optional authorization fields auth\_field that are specified in the inherited access condition.
 
--   FIELD must be followed by the name of the authorization field auth\_field for which the value is replaced, as long as this field is specified as an optional authorization field in the inherited [PFCG condition](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)).
+-   FIELD must be followed by the name of the authorization field auth\_field for which the value is replaced, as long as this field is specified as an optional authorization field in the inherited [PFCG condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_cond_pfcg.htm).
 
 -   VALUE is followed by the replaced value and WITH is followed by a the new value as a literal in quotation marks.
 
-If multiple replacements are specified, they are made in sequence with later replacements being applied to the results of preceding replacements. If a replacement does not match the inherited access rule (because the authorization object or authorization object specified here does not exist), no replacements are made and a syntax check warning occurs. This does not happen if the inherited access rule is a [full access rule](javascript:call_link\('abencds_dcl_role_grant_rule.htm'\)).
+If multiple replacements are specified, they are made in sequence with later replacements being applied to the results of preceding replacements. If a replacement does not match the inherited access rule (because the authorization object or authorization object specified here does not exist), no replacements are made and a syntax check warning occurs. This does not happen if the inherited access rule is a [full access rule](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_grant_rule.htm).
 
 Hints
 
@@ -195,7 +195,7 @@ Hints
 
 -   Notes on ROOT WITH
 
--   A path expression prefix makes it possible to protect a CDS entity with the access rules of the [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") of one of its [CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry").
+-   A path expression prefix makes it possible to protect a CDS entity with the access rules of the [association target](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassociation_target_glosry.htm "Glossary Entry") of one of its [CDS associations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_glosry.htm "Glossary Entry").
 
 -   Notes on PFCG\_FILTER
 
@@ -212,7 +212,7 @@ Variant 3
 
 Effect
 
-This variant is possible only if the access rule has the addition [REDEFINITION](javascript:call_link\('abencds_dcl_role_cond_rule.htm'\)) and only if the inherited CDS entity has access controls.
+This variant is possible only if the access rule has the addition [REDEFINITION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_cond_rule.htm) and only if the inherited CDS entity has access controls.
 
 Instead of this condition, those conditions are used that would have been applied by the access controls disabled by REDEFINITION.
 
@@ -231,7 +231,7 @@ define view demo\_cds\_authority\_inheriting
           currcode
     };
 
-This view is assigned the following CDS role, which applies the access rules for the CDS view DEMO\_CDS\_AUTH\_LIT\_PFCG from the example for [conditional access rules](javascript:call_link\('abencds_dcl_role_cond_rule.htm'\)), which themselves are defined in the role DEMO\_CDS\_ROLE\_LIT\_PFCG.
+This view is assigned the following CDS role, which applies the access rules for the CDS view DEMO\_CDS\_AUTH\_LIT\_PFCG from the example for [conditional access rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_cond_rule.htm), which themselves are defined in the role DEMO\_CDS\_ROLE\_LIT\_PFCG.
 
 @mappingrole: true  
 define role demo\_cds\_role\_inheriting {  

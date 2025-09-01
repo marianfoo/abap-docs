@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  L
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  L
 
 LEAVE TO TRANSACTION - Quick reference
 
-[Reference](javascript:call_link\('abapleave_to_transaction.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapleave_to_transaction.htm)
 
 Syntax
 
@@ -17,7 +17,7 @@ LEAVE TO *{* *{*TRANSACTION ta*}* *|* *{*CURRENT TRANSACTION*}* *}*
 
 Effect
 
-Calls either the [transaction](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry") of the transaction code specified in ta or the current transaction without returning to the call position.
+Calls either the [transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_glosry.htm "Glossary Entry") of the transaction code specified in ta or the current transaction without returning to the call position.
 
 Addition
 

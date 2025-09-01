@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 include program
 
-[ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry") that is not generated as a standalone program, but which is integrated into another ABAP program using the statement [INCLUDE](javascript:call_link\('abapinclude_prog.htm'\)).
+[ABAP program](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_glosry.htm "Glossary Entry") that is not generated as a standalone program, but which is integrated into another ABAP program using the statement [INCLUDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinclude_prog.htm).
 
-[→ More](javascript:call_link\('abenabap_language_include.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_include.htm)

@@ -4,9 +4,9 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Conditions sql\_cond](javascript:call_link\('abenasql_cond.htm'\)) →  [sql\_cond - rel\_exp for Statements](javascript:call_link\('abenosql_stmt_logexp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL Conditions sql\_cond](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasql_cond.htm) →  [sql\_cond - rel\_exp for Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenosql_stmt_logexp.htm) → 
 
-[Short Reference](javascript:call_link\('abensql_cond_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_cond_shortref.htm)
 
 sql\_cond - IS NULL
 
@@ -16,27 +16,27 @@ Syntax
 
 Effect
 
-This relational expression is true if the value of the operand operand is (is not) the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry").
+This relational expression is true if the value of the operand operand is (is not) the [null value](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennull_value_glosry.htm "Glossary Entry").
 
 The following applies to operand:
 
--   [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) except for [aggregate expressions](javascript:call_link\('abapselect_aggregate.htm'\)) and [window expressions](javascript:call_link\('abapselect_over.htm'\)) can be specified.
+-   [SQL expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsql_expr.htm) except for [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_aggregate.htm) and [window expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_over.htm) can be specified.
 
--   In a [HAVING](javascript:call_link\('abaphaving_clause.htm'\)) clause, [aggregate expressions](javascript:call_link\('abapselect_aggregate.htm'\)) can also be used.
+-   In a [HAVING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaphaving_clause.htm) clause, [aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_aggregate.htm) can also be used.
 
--   Unlike in other relational expressions, the data type can also be [STRING](javascript:call_link\('abenddic_builtin_types.htm'\)), [RAWSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), or [GEOM\_EWKB](javascript:call_link\('abenddic_builtin_types.htm'\)).
+-   Unlike in other relational expressions, the data type can also be [STRING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm), [RAWSTRING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm), or [GEOM\_EWKB](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm).
 
 Hints
 
--   The relational expression IS *\[*NOT*\]* NULL is the only expression for which the result is true or false when the operand contains the null value. The result is unknown for all other possible relational expressions in a condition [sql\_cond](javascript:call_link\('abenasql_cond.htm'\)) when one of the operands in question contains the null value. More specifically, this is relevant for expressions specified as operands when their result is the null value.
+-   The relational expression IS *\[*NOT*\]* NULL is the only expression for which the result is true or false when the operand contains the null value. The result is unknown for all other possible relational expressions in a condition [sql\_cond](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasql_cond.htm) when one of the operands in question contains the null value. More specifically, this is relevant for expressions specified as operands when their result is the null value.
 
--   Null values can also be evaluated using a [null indicator](javascript:call_link\('abennull_indicator_glosry.htm'\) "Glossary Entry").
+-   Null values can also be evaluated using a [null indicator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennull_indicator_glosry.htm "Glossary Entry").
 
--   IS *\[*NOT*\]* NULL can be used to check [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") and [geodata types](javascript:call_link\('abengeo_data_type_glosry.htm'\) "Glossary Entry"). As in all other relational expressions, operands of the data types [LCHR](javascript:call_link\('abenddic_builtin_types.htm'\)) and [LRAW](javascript:call_link\('abenddic_builtin_types.htm'\)) are not possible.
+-   IS *\[*NOT*\]* NULL can be used to check [LOBs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlob_glosry.htm "Glossary Entry") and [geodata types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengeo_data_type_glosry.htm "Glossary Entry"). As in all other relational expressions, operands of the data types [LCHR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) and [LRAW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) are not possible.
 
 Example
 
-Comparison of the results of an inner and a left outer [join](javascript:call_link\('abenjoin_glosry.htm'\) "Glossary Entry"). The row with null values produced by the left outer join is removed again by the WHERE condition with IS NOT NULL, so the results are the same.
+Comparison of the results of an inner and a left outer [join](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenjoin_glosry.htm "Glossary Entry"). The row with null values produced by the left outer join is removed again by the WHERE condition with IS NOT NULL, so the results are the same.
 
 DELETE FROM demo\_join1.
 INSERT demo\_join1 FROM TABLE @( VALUE #(

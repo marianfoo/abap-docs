@@ -4,19 +4,19 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [log\_exp - Logical Expressions](javascript:call_link\('abenlogexp.htm'\)) →  [rel\_exp - Comparison Expressions](javascript:call_link\('abenlogexp_comp.htm'\)) →  [rel\_exp - Comparison Rules](javascript:call_link\('abenlogexp_rules.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_expr_func.htm) →  [log\_exp - Logical Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm) →  [rel\_exp - Comparison Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_comp.htm) →  [rel\_exp - Comparison Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_rules.htm) → 
 
 rel\_exp - Comparison of Enumerated Types
 
-An operand with an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") can only be compared with [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") of the same enumerated type. There is no implicit conversion. The values of the operands are compared according to the [rules](javascript:call_link\('abenlogexp_rules_operands.htm'\)) that apply to the elementary [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") of the enumerated type.
+An operand with an [enumerated type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry") can only be compared with [enumerated objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm "Glossary Entry") of the same enumerated type. There is no implicit conversion. The values of the operands are compared according to the [rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_rules_operands.htm) that apply to the elementary [base type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbase_type_glosry.htm "Glossary Entry") of the enumerated type.
 
 Note
 
-An operand of an enumerated type cannot be compared directly with a character-like operand of the type c or string, even though there is a [conversion rule](javascript:call_link\('abenconversion_enumerated.htm'\)) for this case. In this case, helper variables or the conversion operator [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) can be used to execute an explicit conversion.
+An operand of an enumerated type cannot be compared directly with a character-like operand of the type c or string, even though there is a [conversion rule](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_enumerated.htm) for this case. In this case, helper variables or the conversion operator [CONV](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_conv.htm) can be used to execute an explicit conversion.
 
 Example
 
-In the first two comparisons, [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") of the enumerated type number are compared with each other. The third comparison shows how an operand with an enumerated type can be converted so that it can be compared like a character.
+In the first two comparisons, [enumerated objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm "Glossary Entry") of the enumerated type number are compared with each other. The third comparison shows how an operand with an enumerated type can be converted so that it can be compared like a character.
 
 TYPES:
   BEGIN OF ENUM number,

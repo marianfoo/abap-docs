@@ -31,32 +31,32 @@ Included pages: 4
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) → 
 
 ABAP CDS - SELECT, select\_list
 
 Syntax
 
-... [element1](javascript:call_link\('abencds_f1_select_list_entry.htm'\)), [element2](javascript:call_link\('abencds_f1_select_list_entry.htm'\)), ...
+... [element1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm), [element2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm), ...
   *|* \* ...
 
 Effect
 
-Defines the elements of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") The elements can be specified as follows:
+Defines the elements of a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry") The elements can be specified as follows:
 
--   In a comma-separated list, elements can be defined by specifying [element1](javascript:call_link\('abencds_f1_select_list_entry.htm'\)), [element2](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) ...
+-   In a comma-separated list, elements can be defined by specifying [element1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm), [element2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm) ...
 
--   \* can be used to define all fields of the data source of the CDS view as elements and expose associations of the current view. If another CDS view is used as a data source, the associations exposed in its SELECT list are, however, not exposed by the current CDS view. The asterisk \* cannot be specified if the current CDS view contains [joins](javascript:call_link\('abencds_f1_joined_data_source.htm'\)) or [union sets](javascript:call_link\('abencds_f1_union.htm'\)) when the [data source](javascript:call_link\('abencds_f1_data_source.htm'\)) is specified.
+-   \* can be used to define all fields of the data source of the CDS view as elements and expose associations of the current view. If another CDS view is used as a data source, the associations exposed in its SELECT list are, however, not exposed by the current CDS view. The asterisk \* cannot be specified if the current CDS view contains [joins](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_joined_data_source.htm) or [union sets](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_union.htm) when the [data source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm) is specified.
 
 The names of the elements of a CDS view must be unique. These are either
 
 -   The names of the elements taken from the data sources
 
--   Alternative element names specified using [AS](javascript:call_link\('abencds_f1_select_list_entry.htm'\))
+-   Alternative element names specified using [AS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm)
 
--   The names specified in a [name list](javascript:call_link\('abencds_f1_name_list.htm'\))
+-   The names specified in a [name list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_name_list.htm)
 
-These names are also the names of the view fields of the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry") and the corresponding [rules](javascript:call_link\('abenddic_database_views.htm'\)) that must be kept.
+These names are also the names of the view fields of the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry") and the corresponding [rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm) that must be kept.
 
 Example
 
@@ -81,7 +81,7 @@ define view sales\_order as
          { \* }
 
 Continue
-[ABAP CDS - SELECT, element](javascript:call_link\('abencds_f1_select_list_entry.htm'\))
+[ABAP CDS - SELECT, element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm)
 
 
 
@@ -99,27 +99,27 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, select\_list](javascript:call_link\('abencds_f1_select_list.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, select\_list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) → 
 
 ABAP CDS - SELECT, element
 
 Syntax
 
-... *{* *\[*[@element\_annot1](javascript:call_link\('abencds_f1_element_annotations.htm'\))*\]*
-      *\[*[@element\_annot2](javascript:call_link\('abencds_f1_element_annotations.htm'\))*\]*
+... *{* *\[*[@element\_annot1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)*\]*
+      *\[*[@element\_annot2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)*\]*
       ...
         *\[*KEY*\]* *{* *{* field
-                *|* [path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)) *\[*AS alias*\]* *}*
-              *|* *{* [literal](javascript:call_link\('abencds_f1_literal.htm'\))
-                *|* [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
-                *|* [session\_variable](javascript:call_link\('abencds_f1_session_variable.htm'\))
-                *|* [aggr\_expr](javascript:call_link\('abencds_f1_aggregate_functions.htm'\))
-                *|* [arith\_expr](javascript:call_link\('abencds_f1_arithmetic_expression.htm'\))
-                *|* [builtin\_func](javascript:call_link\('abencds_f1_builtin_functions.htm'\))
-                *|* [case\_expr](javascript:call_link\('abencds_f1_case_expression.htm'\))
-                *|* [cast\_expr](javascript:call_link\('abencds_f1_cast_expression.htm'\)) AS alias *}*
-      *\[*[@<element\_annot1](javascript:call_link\('abencds_f1_element_annotations.htm'\))*\]*
-      *\[*[@<element\_annot2](javascript:call_link\('abencds_f1_element_annotations.htm'\))*\]*
+                *|* [path\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) *\[*AS alias*\]* *}*
+              *|* *{* [literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm)
+                *|* [parameter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter.htm)
+                *|* [session\_variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_session_variable.htm)
+                *|* [aggr\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_aggregate_functions.htm)
+                *|* [arith\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_arithmetic_expression.htm)
+                *|* [builtin\_func](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_builtin_functions.htm)
+                *|* [case\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_case_expression.htm)
+                *|* [cast\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression.htm) AS alias *}*
+      *\[*[@<element\_annot1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)*\]*
+      *\[*[@<element\_annot2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)*\]*
       ... *}*
   *|* *{* $EXTENSION.\* *}* *}*  ...
 
@@ -130,7 +130,7 @@ Alternatives:
 
 Effect
 
-Defines an element of a [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). The names of the elements of a SELECT list must be unique.
+Defines an element of a [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) of a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"). The names of the elements of a SELECT list must be unique.
 
 Alternative 1
 
@@ -146,35 +146,35 @@ Effect
 
 Specifies individual elements.
 
--   When the name field is specified directly, an element of a data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)) of the current CDS view is defined as an element. The field name can be prefixed with the name of the data source or its alternative name. The prefix is separated using a period (.). AS can be used to define an alternative element name alias.
+-   When the name field is specified directly, an element of a data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm) of the current CDS view is defined as an element. The field name can be prefixed with the name of the data source or its alternative name. The prefix is separated using a period (.). AS can be used to define an alternative element name alias.
 
--   When a path expression [path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)) is specified, two cases arise:
+-   When a path expression [path\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) is specified, two cases arise:
 
--   If the path expression identifies an element, the target of the path expression is defined as an element. The element is part of the results set of the CDS view, a field of the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry"), and a component of a type defined in ABAP with respect to the CDS view. If no alternative element name alias is defined, and there is no [name list](javascript:call_link\('abencds_f1_name_list.htm'\)), the element name is defined by the name of the element named by the path expression.
+-   If the path expression identifies an element, the target of the path expression is defined as an element. The element is part of the results set of the CDS view, a field of the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry"), and a component of a type defined in ABAP with respect to the CDS view. If no alternative element name alias is defined, and there is no [name list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_name_list.htm), the element name is defined by the name of the element named by the path expression.
 
--   If a path expression is specified that ends with an [association](javascript:call_link\('abencds_f1_association.htm'\)), this association is published for use in other CDS views or in Open SQL. A different CDS view can evaluate the association in its [path expressions](javascript:call_link\('abencds_f1_path_expression.htm'\)). In the same way, the association can be used in [path expressions](javascript:call_link\('abenopen_sql_path.htm'\)) in Open SQL. Like every element, an association published in this way is part of the SELECT list and must also be specified in a [name list](javascript:call_link\('abencds_f1_name_list.htm'\)). It is not, however, part of the results set, a field of the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry") of the CDS view, or a component of a type defined in ABAP with respect to the CDS view. If no alternative element name alias is defined, and there is no [name list](javascript:call_link\('abencds_f1_name_list.htm'\)), the element name is defined by the name of the association named by the path expression.
+-   If a path expression is specified that ends with an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm), this association is published for use in other CDS views or in Open SQL. A different CDS view can evaluate the association in its [path expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm). In the same way, the association can be used in [path expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_path.htm) in Open SQL. Like every element, an association published in this way is part of the SELECT list and must also be specified in a [name list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_name_list.htm). It is not, however, part of the results set, a field of the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry") of the CDS view, or a component of a type defined in ABAP with respect to the CDS view. If no alternative element name alias is defined, and there is no [name list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_name_list.htm), the element name is defined by the name of the association named by the path expression.
 
 AS can be used to define an alternative element name alias.
 
--   [literal](javascript:call_link\('abencds_f1_literal.htm'\)) can be used to declare a literal. AS must be used to define an alternative element name alias. The literal can be prefixed with the name of a domain.
+-   [literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) can be used to declare a literal. AS must be used to define an alternative element name alias. The literal can be prefixed with the name of a domain.
 
--   [parameter](javascript:call_link\('abencds_f1_parameter.htm'\)) can be used to specify a parameter from the parameter list [parameter\_list](javascript:call_link\('abencds_f1_parameter_list.htm'\)). If AS is used, an alternative element name alias must be defined, which cannot be the name pname of the parameter.
+-   [parameter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter.htm) can be used to specify a parameter from the parameter list [parameter\_list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_list.htm). If AS is used, an alternative element name alias must be defined, which cannot be the name pname of the parameter.
 
--   [session\_variable](javascript:call_link\('abencds_f1_session_variable.htm'\)) can be used to specify a session variable. AS must be used to define an alternative element name alias.
+-   [session\_variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_session_variable.htm) can be used to specify a session variable. AS must be used to define an alternative element name alias.
 
--   [aggr\_expr](javascript:call_link\('abencds_f1_aggregate_functions.htm'\)), [arith\_expr](javascript:call_link\('abencds_f1_arithmetic_expression.htm'\)), [builtin\_func](javascript:call_link\('abencds_f1_builtin_functions.htm'\)), and [case\_exp](javascript:call_link\('abencds_f1_case_expression.htm'\)) can be used to specify aggregate expressions, arithmetic expressions, calls of built-in functions in the database, and case distinctions. The expressions and functions are evaluated when the CDS view is accessed in the database system. If AS is used, an alternative element name alias has to be defined, unless there is a [name list](javascript:call_link\('abencds_f1_name_list.htm'\)).
+-   [aggr\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_aggregate_functions.htm), [arith\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_arithmetic_expression.htm), [builtin\_func](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_builtin_functions.htm), and [case\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_case_expression.htm) can be used to specify aggregate expressions, arithmetic expressions, calls of built-in functions in the database, and case distinctions. The expressions and functions are evaluated when the CDS view is accessed in the database system. If AS is used, an alternative element name alias has to be defined, unless there is a [name list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_name_list.htm).
 
-If an [association](javascript:call_link\('abencds_f1_association.htm'\)) is published in the SELECT list using a path expression path\_expr, all fields of the source data source that occur in the ON condition must also be specified as elements of the SELECT list. If a path expression contains more than one association, this type of element must be listed as a path expression closed by the field.
+If an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) is published in the SELECT list using a path expression path\_expr, all fields of the source data source that occur in the ON condition must also be specified as elements of the SELECT list. If a path expression contains more than one association, this type of element must be listed as a path expression closed by the field.
 
 Notes
 
--   When publishing an [association](javascript:call_link\('abencds_f1_association.htm'\)) using a path expression [path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)) in the SELECT list, it is not possible to pass actual parameters to any [input parameters](javascript:call_link\('abencds_f1_parameter_list.htm'\)) of the target data source to assign start values to the input parameters.
+-   When publishing an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) using a path expression [path\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) in the SELECT list, it is not possible to pass actual parameters to any [input parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_list.htm) of the target data source to assign start values to the input parameters.
 
--   That the names of the elements of a SELECT list have to be unique applies in particular also for the publication of an [association](javascript:call_link\('abencds_f1_association.htm'\)) using the path expression path\_expr. There must be not other element with this name. If necessary, AS must be used to define an alternative element name alias for the association.
+-   That the names of the elements of a SELECT list have to be unique applies in particular also for the publication of an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) using the path expression path\_expr. There must be not other element with this name. If necessary, AS must be used to define an alternative element name alias for the association.
 
--   An association can be published multiple times with various alternative element names. This allows you to use different filter conditions [cond\_expr](javascript:call_link\('abencds_path_expression_attr.htm'\)).
+-   An association can be published multiple times with various alternative element names. This allows you to use different filter conditions [cond\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm).
 
--   Special rules apply to the publication of associations in SELECT statements joined with [UNION](javascript:call_link\('abencds_f1_union.htm'\)).
+-   Special rules apply to the publication of associations in SELECT statements joined with [UNION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_union.htm).
 
 Example
 
@@ -201,13 +201,13 @@ Addition 1
 
 Effect
 
-Specifies annotations for the element. The annotations can be specified before the element using [@element\_annot](javascript:call_link\('abencds_f1_element_annotations.htm'\)) or after the element using [@<element\_annot](javascript:call_link\('abencds_f1_element_annotations.htm'\)).
+Specifies annotations for the element. The annotations can be specified before the element using [@element\_annot](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm) or after the element using [@<element\_annot](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm).
 
 Notes
 
--   An annotation can be used to assign further technical and semantic attributes to an element in ABAP Dictionary. [Framework-specific annotations](javascript:call_link\('abencomponent_annotation_glosry.htm'\) "Glossary Entry") can be used to give the element specific semantic attributes for other SAP frameworks.
+-   An annotation can be used to assign further technical and semantic attributes to an element in ABAP Dictionary. [Framework-specific annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomponent_annotation_glosry.htm "Glossary Entry") can be used to give the element specific semantic attributes for other SAP frameworks.
 
--   With respect to the element annotations, publications of an association using a path expression [path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)) ending with an [association](javascript:call_link\('abencds_f1_association.htm'\)) are handled like any regular element. When an association defined in a different CDS view is published, the annotations of preceding publications are inherited when [annotations are evaluated](javascript:call_link\('abencds_annotations_analysis.htm'\)) using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE.
+-   With respect to the element annotations, publications of an association using a path expression [path\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) ending with an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) are handled like any regular element. When an association defined in a different CDS view is published, the annotations of preceding publications are inherited when [annotations are evaluated](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_analysis.htm) using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE.
     
 
 Addition 2
@@ -216,27 +216,27 @@ Addition 2
 
 Effect
 
-KEY is used to define the current element as the key element of the current [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"). Those elements of a [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) can be defined as key elements that are placed without gaps at the start of the list. The key elements of the CDS entity are evaluated as follows if they are used as a data source of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement in Open SQL:
+KEY is used to define the current element as the key element of the current [CDS entity](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_entity_glosry.htm "Glossary Entry"). Those elements of a [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) can be defined as key elements that are placed without gaps at the start of the list. The key elements of the CDS entity are evaluated as follows if they are used as a data source of a [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) statement in Open SQL:
 
--   By the addition [ORDER BY PRIMARY KEY](javascript:call_link\('abaporderby_clause.htm'\)).
+-   By the addition [ORDER BY PRIMARY KEY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaporderby_clause.htm).
 
--   In implicit [access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry").
+-   In implicit [access control](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_access_control_glosry.htm "Glossary Entry").
 
 If a CDS role defined for a CDS entity is evaluated when the entity is accessed, its key elements must identify a unique row in the results set. If this is not the case, the internal instance of access control can produce duplicate entries or even incorrect results when aggregate functions are used. If a unique key cannot be determined for a CDS entity, no key element should be defined. A different instance of access control is then produced internally, which is less efficient.
 
 By default, the key elements of the CDS entity are used to document the semantics of the data model. The addition KEY is then ignored when the CDS view is activated and when other accesses are performed in program executions.
 
-The default setting can be overridden using the view annotation [AbapCatalog.preserveKey](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)):
+The default setting can be overridden using the view annotation [AbapCatalog.preserveKey](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_view_entity_annotations.htm):
 
--   If the value true is specified for this annotation, the key elements defined using KEY are also used as keys of the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry").
+-   If the value true is specified for this annotation, the key elements defined using KEY are also used as keys of the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry").
 
--   If this annotation is not specified or specified with the value false, the key elements defined using KEY are ignored by the key of the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry"). Like in [classic views](javascript:call_link\('abenddic_classical_views.htm'\)), the key fields of the database view are derived implicitly from the key fields of the basis tables and the join conditions. If this is not possible, all fields of the database view are key fields.
+-   If this annotation is not specified or specified with the value false, the key elements defined using KEY are ignored by the key of the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry"). Like in [classic views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm), the key fields of the database view are derived implicitly from the key fields of the basis tables and the join conditions. If this is not possible, all fields of the database view are key fields.
 
 Notes
 
--   In [table buffering](javascript:call_link\('abencds_sap_puffer.htm'\)), the key fields of the CDS database view are always the decisive key fields.
+-   In [table buffering](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_sap_puffer.htm), the key fields of the CDS database view are always the decisive key fields.
 
--   In the syntax check in Open SQL, the key elements used depend on whether the name of the CDS entity is specified or the CDS database view (with the latter being [obsolete](javascript:call_link\('abenopen_sql_cds_obsolete.htm'\))).
+-   In the syntax check in Open SQL, the key elements used depend on whether the name of the CDS entity is specified or the CDS database view (with the latter being [obsolete](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_cds_obsolete.htm)).
     
 
 Addition 3
@@ -245,15 +245,15 @@ Addition 3
 
 Effect
 
-Defines an alternative element name for the current element. The alternative element name replaces the actual name of the element from the data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)). The view field is created under the alternative element name in the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry"). Accordingly, the alternative element name must comply with the rules for names of view fields of [database views](javascript:call_link\('abenddic_database_views.htm'\)), as well as the general naming rules for [names](javascript:call_link\('abencds_general_syntax_rules.htm'\)): which means that it must also meet the
+Defines an alternative element name for the current element. The alternative element name replaces the actual name of the element from the data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm). The view field is created under the alternative element name in the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry"). Accordingly, the alternative element name must comply with the rules for names of view fields of [database views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm), as well as the general naming rules for [names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_general_syntax_rules.htm): which means that it must also meet the
 
--   naming conventions for [component names](javascript:call_link\('abenddic_structures_tech.htm'\)) of [structures](javascript:call_link\('abenddic_structures.htm'\)) in ABAP Dictionary and
+-   naming conventions for [component names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_tech.htm) of [structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures.htm) in ABAP Dictionary and
 
 -   cannot be a reserved component name. The reserved names that cannot be used are in the database table TRESE.
 
-This is only checked, however, if there is no explicit [name list](javascript:call_link\('abencds_f1_name_list.htm'\)) that overrides the alternative element names.
+This is only checked, however, if there is no explicit [name list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_name_list.htm) that overrides the alternative element names.
 
-Alternative element names can be used in the current CDS view to grant unique names for identically named elements from different entities of the data source. When the current CDS view is accessed, the alternative element names must be used instead of the actual name. Alternative element names cannot be used within the CDS view, with one exception: alternative element names can be specified directly or after $projection in the ON condition of an [association](javascript:call_link\('abencds_f1_association.htm'\)).
+Alternative element names can be used in the current CDS view to grant unique names for identically named elements from different entities of the data source. When the current CDS view is accessed, the alternative element names must be used instead of the actual name. Alternative element names cannot be used within the CDS view, with one exception: alternative element names can be specified directly or after $projection in the ON condition of an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm).
 
 Alternative 2
 
@@ -261,17 +261,17 @@ Alternative 2
 
 Effect
 
-Specifies all elements of an [enhancement](javascript:call_link\('abenddic_enhancements.htm'\)) of the enhancement concept for classic objects in ABAP Dictionary. If $EXTENSION.\* is specified as an element, all fields that occur in an enhancement of a database table or a [classic view](javascript:call_link\('abenddic_classical_views.htm'\)) in ABAP Dictionary in the data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)) become elements of the current CDS view automatically.
+Specifies all elements of an [enhancement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_enhancements.htm) of the enhancement concept for classic objects in ABAP Dictionary. If $EXTENSION.\* is specified as an element, all fields that occur in an enhancement of a database table or a [classic view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm) in ABAP Dictionary in the data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm) become elements of the current CDS view automatically.
 
 If $EXTENSION.\* is specified, it works only for the current CDS view. It is not applied to other CDS views in whose data source the current CDS view is used or to CDS views in the data source of the current CDS view.
 
-$EXTENSION.\* cannot be specified if aggregate expressions [aggr\_expr](javascript:call_link\('abencds_f1_aggregate_functions.htm'\)) occur in the current SELECT list or if the current CDS view is a union set created using [UNION](javascript:call_link\('abencds_f1_union.htm'\)).
+$EXTENSION.\* cannot be specified if aggregate expressions [aggr\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_aggregate_functions.htm) occur in the current SELECT list or if the current CDS view is a union set created using [UNION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_union.htm).
 
 Notes
 
 -   $EXTENSION.\* is specified independently of when an enhancement is made. It is also applied when a database table or a view is enhanced only after the activation of the CDS view.
 
--   The statement [EXTEND VIEW](javascript:call_link\('abencds_f1_extend_view.htm'\)) can be used to enhance the current CDS view.
+-   The statement [EXTEND VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_extend_view.htm) can be used to enhance the current CDS view.
 
 Example
 
@@ -288,7 +288,7 @@ define view sales\_order as
         $extension.\* }
 
 Continue
-[ABAP CDS - SELECT, element\_annot](javascript:call_link\('abencds_f1_element_annotations.htm'\))
+[ABAP CDS - SELECT, element\_annot](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)
 
 
 
@@ -306,24 +306,24 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, select\_list](javascript:call_link\('abencds_f1_select_list.htm'\)) →  [ABAP CDS - SELECT, element](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, select\_list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) →  [ABAP CDS - SELECT, element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm) → 
 
 ABAP CDS - SELECT, element\_annot
 
 Syntax
 
-... @[annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)) ...
-... @<[annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)) ...
+... @[annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax.htm) ...
+... @<[annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax.htm) ...
 
 Effect
 
-Specifies an [annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") [annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)) in the definition of an [element](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) of a [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) in a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") as element annotation. Element annotations can be specified before and after the element.
+Specifies an [annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotation_glosry.htm "Glossary Entry") [annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax.htm) in the definition of an [element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) in a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry") as element annotation. Element annotations can be specified before and after the element.
 
 -   In front of the element, the character @ must be placed before the name annotation of the annotation.
 
 -   Following the element, the characters @< must be placed before the name annotation of the annotation.
 
-The elements of [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") can be assigned to the element annotations grouped under [element\_annot](javascript:call_link\('abencds_f1_element_annotation.htm'\)).
+The elements of [CDS entities](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_entity_glosry.htm "Glossary Entry") can be assigned to the element annotations grouped under [element\_annot](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotation.htm).
 
 Example
 
@@ -348,7 +348,7 @@ define view corporation\_sales\_order as
 
 Example
 
-This example demonstrates [inheritance](javascript:call_link\('abencds_annotations_analysis.htm'\)) of the element annotations in publications of [associations](javascript:call_link\('abencds_f1_association.htm'\)) using path expressions [path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)). The following CDS view defines and publishes an association \_some\_assoc:
+This example demonstrates [inheritance](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_analysis.htm) of the element annotations in publications of [associations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) using path expressions [path\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm). The following CDS view defines and publishes an association \_some\_assoc:
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASAN2'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -410,27 +410,27 @@ If the association \_some\_assoc were published from Demo\_Cds\_Assoc\_Anno2 ins
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, select\_list](javascript:call_link\('abencds_f1_select_list.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, select\_list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) → 
 
 ABAP CDS - SELECT, element
 
 Syntax
 
-... *{* *\[*[@element\_annot1](javascript:call_link\('abencds_f1_element_annotations.htm'\))*\]*
-      *\[*[@element\_annot2](javascript:call_link\('abencds_f1_element_annotations.htm'\))*\]*
+... *{* *\[*[@element\_annot1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)*\]*
+      *\[*[@element\_annot2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)*\]*
       ...
         *\[*KEY*\]* *{* *{* field
-                *|* [path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)) *\[*AS alias*\]* *}*
-              *|* *{* [literal](javascript:call_link\('abencds_f1_literal.htm'\))
-                *|* [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
-                *|* [session\_variable](javascript:call_link\('abencds_f1_session_variable.htm'\))
-                *|* [aggr\_expr](javascript:call_link\('abencds_f1_aggregate_functions.htm'\))
-                *|* [arith\_expr](javascript:call_link\('abencds_f1_arithmetic_expression.htm'\))
-                *|* [builtin\_func](javascript:call_link\('abencds_f1_builtin_functions.htm'\))
-                *|* [case\_expr](javascript:call_link\('abencds_f1_case_expression.htm'\))
-                *|* [cast\_expr](javascript:call_link\('abencds_f1_cast_expression.htm'\)) AS alias *}*
-      *\[*[@<element\_annot1](javascript:call_link\('abencds_f1_element_annotations.htm'\))*\]*
-      *\[*[@<element\_annot2](javascript:call_link\('abencds_f1_element_annotations.htm'\))*\]*
+                *|* [path\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) *\[*AS alias*\]* *}*
+              *|* *{* [literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm)
+                *|* [parameter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter.htm)
+                *|* [session\_variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_session_variable.htm)
+                *|* [aggr\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_aggregate_functions.htm)
+                *|* [arith\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_arithmetic_expression.htm)
+                *|* [builtin\_func](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_builtin_functions.htm)
+                *|* [case\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_case_expression.htm)
+                *|* [cast\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression.htm) AS alias *}*
+      *\[*[@<element\_annot1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)*\]*
+      *\[*[@<element\_annot2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)*\]*
       ... *}*
   *|* *{* $EXTENSION.\* *}* *}*  ...
 
@@ -441,7 +441,7 @@ Alternatives:
 
 Effect
 
-Defines an element of a [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). The names of the elements of a SELECT list must be unique.
+Defines an element of a [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) of a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"). The names of the elements of a SELECT list must be unique.
 
 Alternative 1
 
@@ -457,35 +457,35 @@ Effect
 
 Specifies individual elements.
 
--   When the name field is specified directly, an element of a data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)) of the current CDS view is defined as an element. The field name can be prefixed with the name of the data source or its alternative name. The prefix is separated using a period (.). AS can be used to define an alternative element name alias.
+-   When the name field is specified directly, an element of a data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm) of the current CDS view is defined as an element. The field name can be prefixed with the name of the data source or its alternative name. The prefix is separated using a period (.). AS can be used to define an alternative element name alias.
 
--   When a path expression [path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)) is specified, two cases arise:
+-   When a path expression [path\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) is specified, two cases arise:
 
--   If the path expression identifies an element, the target of the path expression is defined as an element. The element is part of the results set of the CDS view, a field of the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry"), and a component of a type defined in ABAP with respect to the CDS view. If no alternative element name alias is defined, and there is no [name list](javascript:call_link\('abencds_f1_name_list.htm'\)), the element name is defined by the name of the element named by the path expression.
+-   If the path expression identifies an element, the target of the path expression is defined as an element. The element is part of the results set of the CDS view, a field of the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry"), and a component of a type defined in ABAP with respect to the CDS view. If no alternative element name alias is defined, and there is no [name list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_name_list.htm), the element name is defined by the name of the element named by the path expression.
 
--   If a path expression is specified that ends with an [association](javascript:call_link\('abencds_f1_association.htm'\)), this association is published for use in other CDS views or in Open SQL. A different CDS view can evaluate the association in its [path expressions](javascript:call_link\('abencds_f1_path_expression.htm'\)). In the same way, the association can be used in [path expressions](javascript:call_link\('abenopen_sql_path.htm'\)) in Open SQL. Like every element, an association published in this way is part of the SELECT list and must also be specified in a [name list](javascript:call_link\('abencds_f1_name_list.htm'\)). It is not, however, part of the results set, a field of the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry") of the CDS view, or a component of a type defined in ABAP with respect to the CDS view. If no alternative element name alias is defined, and there is no [name list](javascript:call_link\('abencds_f1_name_list.htm'\)), the element name is defined by the name of the association named by the path expression.
+-   If a path expression is specified that ends with an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm), this association is published for use in other CDS views or in Open SQL. A different CDS view can evaluate the association in its [path expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm). In the same way, the association can be used in [path expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_path.htm) in Open SQL. Like every element, an association published in this way is part of the SELECT list and must also be specified in a [name list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_name_list.htm). It is not, however, part of the results set, a field of the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry") of the CDS view, or a component of a type defined in ABAP with respect to the CDS view. If no alternative element name alias is defined, and there is no [name list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_name_list.htm), the element name is defined by the name of the association named by the path expression.
 
 AS can be used to define an alternative element name alias.
 
--   [literal](javascript:call_link\('abencds_f1_literal.htm'\)) can be used to declare a literal. AS must be used to define an alternative element name alias. The literal can be prefixed with the name of a domain.
+-   [literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) can be used to declare a literal. AS must be used to define an alternative element name alias. The literal can be prefixed with the name of a domain.
 
--   [parameter](javascript:call_link\('abencds_f1_parameter.htm'\)) can be used to specify a parameter from the parameter list [parameter\_list](javascript:call_link\('abencds_f1_parameter_list.htm'\)). If AS is used, an alternative element name alias must be defined, which cannot be the name pname of the parameter.
+-   [parameter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter.htm) can be used to specify a parameter from the parameter list [parameter\_list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_list.htm). If AS is used, an alternative element name alias must be defined, which cannot be the name pname of the parameter.
 
--   [session\_variable](javascript:call_link\('abencds_f1_session_variable.htm'\)) can be used to specify a session variable. AS must be used to define an alternative element name alias.
+-   [session\_variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_session_variable.htm) can be used to specify a session variable. AS must be used to define an alternative element name alias.
 
--   [aggr\_expr](javascript:call_link\('abencds_f1_aggregate_functions.htm'\)), [arith\_expr](javascript:call_link\('abencds_f1_arithmetic_expression.htm'\)), [builtin\_func](javascript:call_link\('abencds_f1_builtin_functions.htm'\)), and [case\_exp](javascript:call_link\('abencds_f1_case_expression.htm'\)) can be used to specify aggregate expressions, arithmetic expressions, calls of built-in functions in the database, and case distinctions. The expressions and functions are evaluated when the CDS view is accessed in the database system. If AS is used, an alternative element name alias has to be defined, unless there is a [name list](javascript:call_link\('abencds_f1_name_list.htm'\)).
+-   [aggr\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_aggregate_functions.htm), [arith\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_arithmetic_expression.htm), [builtin\_func](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_builtin_functions.htm), and [case\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_case_expression.htm) can be used to specify aggregate expressions, arithmetic expressions, calls of built-in functions in the database, and case distinctions. The expressions and functions are evaluated when the CDS view is accessed in the database system. If AS is used, an alternative element name alias has to be defined, unless there is a [name list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_name_list.htm).
 
-If an [association](javascript:call_link\('abencds_f1_association.htm'\)) is published in the SELECT list using a path expression path\_expr, all fields of the source data source that occur in the ON condition must also be specified as elements of the SELECT list. If a path expression contains more than one association, this type of element must be listed as a path expression closed by the field.
+If an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) is published in the SELECT list using a path expression path\_expr, all fields of the source data source that occur in the ON condition must also be specified as elements of the SELECT list. If a path expression contains more than one association, this type of element must be listed as a path expression closed by the field.
 
 Notes
 
--   When publishing an [association](javascript:call_link\('abencds_f1_association.htm'\)) using a path expression [path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)) in the SELECT list, it is not possible to pass actual parameters to any [input parameters](javascript:call_link\('abencds_f1_parameter_list.htm'\)) of the target data source to assign start values to the input parameters.
+-   When publishing an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) using a path expression [path\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) in the SELECT list, it is not possible to pass actual parameters to any [input parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_list.htm) of the target data source to assign start values to the input parameters.
 
--   That the names of the elements of a SELECT list have to be unique applies in particular also for the publication of an [association](javascript:call_link\('abencds_f1_association.htm'\)) using the path expression path\_expr. There must be not other element with this name. If necessary, AS must be used to define an alternative element name alias for the association.
+-   That the names of the elements of a SELECT list have to be unique applies in particular also for the publication of an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) using the path expression path\_expr. There must be not other element with this name. If necessary, AS must be used to define an alternative element name alias for the association.
 
--   An association can be published multiple times with various alternative element names. This allows you to use different filter conditions [cond\_expr](javascript:call_link\('abencds_path_expression_attr.htm'\)).
+-   An association can be published multiple times with various alternative element names. This allows you to use different filter conditions [cond\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm).
 
--   Special rules apply to the publication of associations in SELECT statements joined with [UNION](javascript:call_link\('abencds_f1_union.htm'\)).
+-   Special rules apply to the publication of associations in SELECT statements joined with [UNION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_union.htm).
 
 Example
 
@@ -512,13 +512,13 @@ Addition 1
 
 Effect
 
-Specifies annotations for the element. The annotations can be specified before the element using [@element\_annot](javascript:call_link\('abencds_f1_element_annotations.htm'\)) or after the element using [@<element\_annot](javascript:call_link\('abencds_f1_element_annotations.htm'\)).
+Specifies annotations for the element. The annotations can be specified before the element using [@element\_annot](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm) or after the element using [@<element\_annot](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm).
 
 Notes
 
--   An annotation can be used to assign further technical and semantic attributes to an element in ABAP Dictionary. [Framework-specific annotations](javascript:call_link\('abencomponent_annotation_glosry.htm'\) "Glossary Entry") can be used to give the element specific semantic attributes for other SAP frameworks.
+-   An annotation can be used to assign further technical and semantic attributes to an element in ABAP Dictionary. [Framework-specific annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomponent_annotation_glosry.htm "Glossary Entry") can be used to give the element specific semantic attributes for other SAP frameworks.
 
--   With respect to the element annotations, publications of an association using a path expression [path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)) ending with an [association](javascript:call_link\('abencds_f1_association.htm'\)) are handled like any regular element. When an association defined in a different CDS view is published, the annotations of preceding publications are inherited when [annotations are evaluated](javascript:call_link\('abencds_annotations_analysis.htm'\)) using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE.
+-   With respect to the element annotations, publications of an association using a path expression [path\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) ending with an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) are handled like any regular element. When an association defined in a different CDS view is published, the annotations of preceding publications are inherited when [annotations are evaluated](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_analysis.htm) using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE.
     
 
 Addition 2
@@ -527,27 +527,27 @@ Addition 2
 
 Effect
 
-KEY is used to define the current element as the key element of the current [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"). Those elements of a [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) can be defined as key elements that are placed without gaps at the start of the list. The key elements of the CDS entity are evaluated as follows if they are used as a data source of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement in Open SQL:
+KEY is used to define the current element as the key element of the current [CDS entity](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_entity_glosry.htm "Glossary Entry"). Those elements of a [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) can be defined as key elements that are placed without gaps at the start of the list. The key elements of the CDS entity are evaluated as follows if they are used as a data source of a [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) statement in Open SQL:
 
--   By the addition [ORDER BY PRIMARY KEY](javascript:call_link\('abaporderby_clause.htm'\)).
+-   By the addition [ORDER BY PRIMARY KEY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaporderby_clause.htm).
 
--   In implicit [access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry").
+-   In implicit [access control](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_access_control_glosry.htm "Glossary Entry").
 
 If a CDS role defined for a CDS entity is evaluated when the entity is accessed, its key elements must identify a unique row in the results set. If this is not the case, the internal instance of access control can produce duplicate entries or even incorrect results when aggregate functions are used. If a unique key cannot be determined for a CDS entity, no key element should be defined. A different instance of access control is then produced internally, which is less efficient.
 
 By default, the key elements of the CDS entity are used to document the semantics of the data model. The addition KEY is then ignored when the CDS view is activated and when other accesses are performed in program executions.
 
-The default setting can be overridden using the view annotation [AbapCatalog.preserveKey](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)):
+The default setting can be overridden using the view annotation [AbapCatalog.preserveKey](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_view_entity_annotations.htm):
 
--   If the value true is specified for this annotation, the key elements defined using KEY are also used as keys of the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry").
+-   If the value true is specified for this annotation, the key elements defined using KEY are also used as keys of the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry").
 
--   If this annotation is not specified or specified with the value false, the key elements defined using KEY are ignored by the key of the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry"). Like in [classic views](javascript:call_link\('abenddic_classical_views.htm'\)), the key fields of the database view are derived implicitly from the key fields of the basis tables and the join conditions. If this is not possible, all fields of the database view are key fields.
+-   If this annotation is not specified or specified with the value false, the key elements defined using KEY are ignored by the key of the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry"). Like in [classic views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm), the key fields of the database view are derived implicitly from the key fields of the basis tables and the join conditions. If this is not possible, all fields of the database view are key fields.
 
 Notes
 
--   In [table buffering](javascript:call_link\('abencds_sap_puffer.htm'\)), the key fields of the CDS database view are always the decisive key fields.
+-   In [table buffering](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_sap_puffer.htm), the key fields of the CDS database view are always the decisive key fields.
 
--   In the syntax check in Open SQL, the key elements used depend on whether the name of the CDS entity is specified or the CDS database view (with the latter being [obsolete](javascript:call_link\('abenopen_sql_cds_obsolete.htm'\))).
+-   In the syntax check in Open SQL, the key elements used depend on whether the name of the CDS entity is specified or the CDS database view (with the latter being [obsolete](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_cds_obsolete.htm)).
     
 
 Addition 3
@@ -556,15 +556,15 @@ Addition 3
 
 Effect
 
-Defines an alternative element name for the current element. The alternative element name replaces the actual name of the element from the data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)). The view field is created under the alternative element name in the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry"). Accordingly, the alternative element name must comply with the rules for names of view fields of [database views](javascript:call_link\('abenddic_database_views.htm'\)), as well as the general naming rules for [names](javascript:call_link\('abencds_general_syntax_rules.htm'\)): which means that it must also meet the
+Defines an alternative element name for the current element. The alternative element name replaces the actual name of the element from the data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm). The view field is created under the alternative element name in the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry"). Accordingly, the alternative element name must comply with the rules for names of view fields of [database views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm), as well as the general naming rules for [names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_general_syntax_rules.htm): which means that it must also meet the
 
--   naming conventions for [component names](javascript:call_link\('abenddic_structures_tech.htm'\)) of [structures](javascript:call_link\('abenddic_structures.htm'\)) in ABAP Dictionary and
+-   naming conventions for [component names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures_tech.htm) of [structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures.htm) in ABAP Dictionary and
 
 -   cannot be a reserved component name. The reserved names that cannot be used are in the database table TRESE.
 
-This is only checked, however, if there is no explicit [name list](javascript:call_link\('abencds_f1_name_list.htm'\)) that overrides the alternative element names.
+This is only checked, however, if there is no explicit [name list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_name_list.htm) that overrides the alternative element names.
 
-Alternative element names can be used in the current CDS view to grant unique names for identically named elements from different entities of the data source. When the current CDS view is accessed, the alternative element names must be used instead of the actual name. Alternative element names cannot be used within the CDS view, with one exception: alternative element names can be specified directly or after $projection in the ON condition of an [association](javascript:call_link\('abencds_f1_association.htm'\)).
+Alternative element names can be used in the current CDS view to grant unique names for identically named elements from different entities of the data source. When the current CDS view is accessed, the alternative element names must be used instead of the actual name. Alternative element names cannot be used within the CDS view, with one exception: alternative element names can be specified directly or after $projection in the ON condition of an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm).
 
 Alternative 2
 
@@ -572,17 +572,17 @@ Alternative 2
 
 Effect
 
-Specifies all elements of an [enhancement](javascript:call_link\('abenddic_enhancements.htm'\)) of the enhancement concept for classic objects in ABAP Dictionary. If $EXTENSION.\* is specified as an element, all fields that occur in an enhancement of a database table or a [classic view](javascript:call_link\('abenddic_classical_views.htm'\)) in ABAP Dictionary in the data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)) become elements of the current CDS view automatically.
+Specifies all elements of an [enhancement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_enhancements.htm) of the enhancement concept for classic objects in ABAP Dictionary. If $EXTENSION.\* is specified as an element, all fields that occur in an enhancement of a database table or a [classic view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm) in ABAP Dictionary in the data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm) become elements of the current CDS view automatically.
 
 If $EXTENSION.\* is specified, it works only for the current CDS view. It is not applied to other CDS views in whose data source the current CDS view is used or to CDS views in the data source of the current CDS view.
 
-$EXTENSION.\* cannot be specified if aggregate expressions [aggr\_expr](javascript:call_link\('abencds_f1_aggregate_functions.htm'\)) occur in the current SELECT list or if the current CDS view is a union set created using [UNION](javascript:call_link\('abencds_f1_union.htm'\)).
+$EXTENSION.\* cannot be specified if aggregate expressions [aggr\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_aggregate_functions.htm) occur in the current SELECT list or if the current CDS view is a union set created using [UNION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_union.htm).
 
 Notes
 
 -   $EXTENSION.\* is specified independently of when an enhancement is made. It is also applied when a database table or a view is enhanced only after the activation of the CDS view.
 
--   The statement [EXTEND VIEW](javascript:call_link\('abencds_f1_extend_view.htm'\)) can be used to enhance the current CDS view.
+-   The statement [EXTEND VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_extend_view.htm) can be used to enhance the current CDS view.
 
 Example
 
@@ -599,4 +599,4 @@ define view sales\_order as
         $extension.\* }
 
 Continue
-[ABAP CDS - SELECT, element\_annot](javascript:call_link\('abencds_f1_element_annotations.htm'\))
+[ABAP CDS - SELECT, element\_annot](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotations.htm)

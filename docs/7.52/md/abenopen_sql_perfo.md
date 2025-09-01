@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Open SQL](javascript:call_link\('abenopensql.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql.htm) → 
 
 Open SQL - Performance Notes
 
@@ -18,7 +18,7 @@ The set of rows selected should be kept as small as possible by using specific c
 
 -   Keep the data volume low
 
-The volume of data transported should always be restricted to the columns required. The columns can be specified explicitly or an appropriate view can be used. Furthermore, [aggregate expressions](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry") can be combined with appropriately grouped data or [SQL expressions](javascript:call_link\('abensql_expression_glosry.htm'\) "Glossary Entry") to reduce the volume of data, since here the data is aggregated before the transport in the database system.
+The volume of data transported should always be restricted to the columns required. The columns can be specified explicitly or an appropriate view can be used. Furthermore, [aggregate expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenaggregate_expression_glosry.htm "Glossary Entry") can be combined with appropriately grouped data or [SQL expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_expression_glosry.htm "Glossary Entry") to reduce the volume of data, since here the data is aggregated before the transport in the database system.
 
 -   Keep the number of reads low
 
@@ -26,11 +26,11 @@ To keep the number of database reads low, mass operations should always be used 
 
 -   Use local buffers
 
-The same data should be not be read more than once. Saving database tables to the local buffer in [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry") (and also saving prepared data in [Shared Objects](javascript:call_link\('abenshared_objects_glosry.htm'\) "Glossary Entry")) can produce significant time savings, since it takes much longer for the application server to read the database system than a locally buffered table. Database tables should always be buffered if they are read frequently and modified rarely. If the same data is to be sorted multiple times in different orders, the data should be sorted in the ABAP program.
+The same data should be not be read more than once. Saving database tables to the local buffer in [table buffering](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_buffering_glosry.htm "Glossary Entry") (and also saving prepared data in [Shared Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshared_objects_glosry.htm "Glossary Entry")) can produce significant time savings, since it takes much longer for the application server to read the database system than a locally buffered table. Database tables should always be buffered if they are read frequently and modified rarely. If the same data is to be sorted multiple times in different orders, the data should be sorted in the ABAP program.
 
 -   Efficient search using indexes
 
-In all cases where [secondary indexes](javascript:call_link\('abenddic_database_tables_index.htm'\)) of database tables improve selection performance, these indexes should be created and used.
+In all cases where [secondary indexes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_index.htm) of database tables improve selection performance, these indexes should be created and used.
 
 Bad Example
 

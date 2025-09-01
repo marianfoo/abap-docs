@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [RTTS - Runtime Type Services](javascript:call_link\('abenrtti.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendescribe_field.htm) →  [RTTS - Runtime Type Services](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrtti.htm) → 
 
 Determining Object Types
 
@@ -78,4 +78,4 @@ START-OF-SELECTION.
 
 Description
 
-This example is the object type counterpart of the [executable example](javascript:call_link\('abenrtti_data_type_abexa.htm'\)) for data types. Here, the dynamic type of reference variables is determined, namely the [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry") of the class of the referenced object.
+This example is the object type counterpart of the [executable example](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrtti_data_type_abexa.htm) for data types. Here, the dynamic type of reference variables is determined, namely the [absolute type name](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabsolute_typename_glosry.htm "Glossary Entry") of the class of the referenced object.

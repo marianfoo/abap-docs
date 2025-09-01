@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [News for Release 7.54](javascript:call_link\('abennews-754.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 7.5x](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-75.htm) →  [News for Release 7.54](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-754.htm) → 
 
 ABAP CDS in Release 7.54
 
@@ -22,13 +22,13 @@ Modification 1  
 
 Temporal Hierarchies
 
-The new addition PERIOD of the statement [DEFINE HIERARCHY](javascript:call_link\('abencds_f1_define_hierarchy.htm'\)) can now be used to create [temporal hierarchies](javascript:call_link\('abentemporal_hierarchy_glosry.htm'\) "Glossary Entry") in which the hierarchy nodes are limited by time intervals.
+The new addition PERIOD of the statement [DEFINE HIERARCHY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_hierarchy.htm) can now be used to create [temporal hierarchies](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentemporal_hierarchy_glosry.htm "Glossary Entry") in which the hierarchy nodes are limited by time intervals.
 
 Modification 2   
 
 Annotation for Database Hints
 
-The [framework-specific annotation](javascript:call_link\('abenfrmwrk_annotation_glosry.htm'\) "Glossary Entry") [@Consumption.dbHints](javascript:call_link\('abencds_annotations_frmwrk_tables.htm'\)) replaces the [ABAP annotation](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") [@AbapCatalog.dbHints](javascript:call_link\('abencds_annotations_abap_tables.htm'\)) and makes it obsolete. The ABAP annotation is evaluated by frameworks such as [SADL](javascript:call_link\('abensadl_glosry.htm'\) "Glossary Entry") and not by the ABAP runtime environment.
+The [framework-specific annotation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfrmwrk_annotation_glosry.htm "Glossary Entry") [@Consumption.dbHints](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_frmwrk_tables.htm) replaces the [ABAP annotation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_annotation_glosry.htm "Glossary Entry") [@AbapCatalog.dbHints](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_abap_tables.htm) and makes it obsolete. The ABAP annotation is evaluated by frameworks such as [SADL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensadl_glosry.htm "Glossary Entry") and not by the ABAP runtime environment.
 
 Modification 3   
 
@@ -36,15 +36,15 @@ Annotations for Releasing Elements
 
 The new element annotations
 
--   [@API.element.releaseState](javascript:call_link\('abencds_f1_element_annotation.htm'\))
--   [@API.element.successor](javascript:call_link\('abencds_f1_element_annotation.htm'\))
+-   [@API.element.releaseState](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm)
+-   [@API.element.successor](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm)
 -   can be used to override releases of the individual elements and successors can be specified for forbidden elements.
 
 Modification 4   
 
 CDS Projection Views
 
-A [CDS projection view](javascript:call_link\('abencds_define_view_as_projection.htm'\)) is a direct projection of the underlying CDS view and exposes only a subset of elements of the projected entity. A CDS projection view is defined using DEFINE VIEW ENTITY AS PROJECTION ON in a CDS data definition.
+A [CDS projection view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_view_as_projection.htm) is a direct projection of the underlying CDS view and exposes only a subset of elements of the projected entity. A CDS projection view is defined using DEFINE VIEW ENTITY AS PROJECTION ON in a CDS data definition.
 
 Modification 5   
 
@@ -52,9 +52,9 @@ New Date Functions
 
 ABAP CDS now supports the following new date functions:
 
--   [DATN\_DAYS\_BETWEEN](javascript:call_link\('abencds_date_functions_v1.htm'\))
--   [DATN\_ADD\_DAYS](javascript:call_link\('abencds_date_functions_v1.htm'\))
--   [DATN\_ADD\_MONTHS](javascript:call_link\('abencds_date_functions_v1.htm'\))
+-   [DATN\_DAYS\_BETWEEN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_date_functions_v1.htm)
+-   [DATN\_ADD\_DAYS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_date_functions_v1.htm)
+-   [DATN\_ADD\_MONTHS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_date_functions_v1.htm)
 
 Modification 6   
 
@@ -62,28 +62,28 @@ New Time Stamp Functions
 
 ABAP CDS now supports the following new time stamp functions:
 
--   [UTCL\_CURRENT](javascript:call_link\('abencds_timestamp_functions_v1.htm'\))
--   [UTCL\_ADD\_SECONDS](javascript:call_link\('abencds_timestamp_functions_v1.htm'\))
--   [UTCL\_SECONDS\_BETWEEN](javascript:call_link\('abencds_timestamp_functions_v1.htm'\))
+-   [UTCL\_CURRENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_timestamp_functions_v1.htm)
+-   [UTCL\_ADD\_SECONDS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_timestamp_functions_v1.htm)
+-   [UTCL\_SECONDS\_BETWEEN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_timestamp_functions_v1.htm)
 
 Modification 7   
 
 New Date/Time Conversion Functions
 
-ABAP CDS now supports the following new [date/time conversion functions](javascript:call_link\('abencds_date_time_conversions_v1.htm'\)):
+ABAP CDS now supports the following new [date/time conversion functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_date_time_conversions_v1.htm):
 
--   [TSTMPL\_TO\_UTCL](javascript:call_link\('abencds_date_time_conversions_v1.htm'\)) and [TSTMPL\_FROM\_UTCL](javascript:call_link\('abencds_date_time_conversions_v1.htm'\))
--   [DATS\_TO\_DATN](javascript:call_link\('abencds_date_time_conversions_v1.htm'\)) and [DATS\_FROM\_DATN](javascript:call_link\('abencds_date_time_conversions_v1.htm'\))
--   [TIMS\_TO\_TIMN](javascript:call_link\('abencds_date_time_conversions_v1.htm'\)) and [TIMS\_FROM\_TIMN](javascript:call_link\('abencds_date_time_conversions_v1.htm'\))
+-   [TSTMPL\_TO\_UTCL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_date_time_conversions_v1.htm) and [TSTMPL\_FROM\_UTCL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_date_time_conversions_v1.htm)
+-   [DATS\_TO\_DATN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_date_time_conversions_v1.htm) and [DATS\_FROM\_DATN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_date_time_conversions_v1.htm)
+-   [TIMS\_TO\_TIMN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_date_time_conversions_v1.htm) and [TIMS\_FROM\_TIMN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_date_time_conversions_v1.htm)
 
 Modification 8   
 
 Hierarchy Load Options
 
-The [hierarchy generator](javascript:call_link\('abencds_f1_define_hierarchy.htm'\)) [DEFINE HIERARCHY](javascript:call_link\('abencds_f1_define_hierarchy.htm'\)) can now use the new addition LOAD BULK*|*INCREMENTAL*|*load\_option to specify the load policy for a generated hierarchy.
+The [hierarchy generator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_hierarchy.htm) [DEFINE HIERARCHY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_hierarchy.htm) can now use the new addition LOAD BULK*|*INCREMENTAL*|*load\_option to specify the load policy for a generated hierarchy.
 
 Modification 9   
 
 CDS custom entities
 
-A new type of [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") is available: the [CDS custom entity](javascript:call_link\('abencds_custom_entities.htm'\)). CDS custom entities are used in the [RAP framework](javascript:call_link\('abenrap_framework_glosry.htm'\) "Glossary Entry") to implement ABAP queries in CDS.
+A new type of [CDS entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm "Glossary Entry") is available: the [CDS custom entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_custom_entities.htm). CDS custom entities are used in the [RAP framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_framework_glosry.htm "Glossary Entry") to implement ABAP queries in CDS.

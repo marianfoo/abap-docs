@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  R
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  R
 
 RAISE SHORTDUMP - Quick reference
 
-[Reference](javascript:call_link\('abapraise_shortdump.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump.htm)
 
 Syntax
 
@@ -28,7 +28,7 @@ Additions
 -   TYPE cx\_class *\[*EXPORTING p1 = a1 p2 = a2 ...*\]*
     Specifies the exception class of the exception object.
     
--   [MESSAGE](javascript:call_link\('abapraise_shortdump_message.htm'\))
+-   [MESSAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_shortdump_message.htm)
     Passes the specification of a message to the exception object.
     
 -   EXPORTING p1 = a1 p2 = a2 ...

@@ -4,21 +4,23 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Language Environment](javascript:call_link\('abenlanguage.htm'\)) →  [Language Settings](javascript:call_link\('abenlanguage_settings.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlanguage.htm) →  [Language Settings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlanguage_settings.htm) → 
 
 Text Environment Language and Text Environment
 
--   [Text Environment Language](#abentext-environment-1--------text-environment---@ITOC@@ABENTEXT_ENVIRONMENT_2)
+-   [Text Environment Language](#@@ITOC@@ABENTEXT_ENVIRONMENT_1)
+
+-   [Text Environment](#@@ITOC@@ABENTEXT_ENVIRONMENT_2)
 
 Text Environment Language
 
-The [text environment language](javascript:call_link\('abentext_env_langu_glosry.htm'\) "Glossary Entry") is part of the [language settings](javascript:call_link\('abenlanguage_settings.htm'\)) of an ABAP program and determines its [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry"). It is valid during an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
+The [text environment language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_env_langu_glosry.htm "Glossary Entry") is part of the [language settings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlanguage_settings.htm) of an ABAP program and determines its [text environment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_environment_glosry.htm "Glossary Entry"). It is valid during an [internal session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninternal_session_glosry.htm "Glossary Entry").
 
--   The text environment language is set at the start of each internal session to the [logon language](javascript:call_link\('abenlogon_language_glosry.htm'\) "Glossary Entry") of the current [user session](javascript:call_link\('abenuser_session_glosry.htm'\) "Glossary Entry").
+-   The text environment language is set at the start of each internal session to the [logon language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogon_language_glosry.htm "Glossary Entry") of the current [user session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuser_session_glosry.htm "Glossary Entry").
 
--   It can also be set to a different language for the current internal session using the statement [SET LOCALE LANGUAGE](javascript:call_link\('abapset_locale.htm'\)).
+-   It can also be set to a different language for the current internal session using the statement [SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_locale.htm).
 
-The current text environment language can be determined using the method GET\_LANGUAGE of the class CL\_ABAP\_SYST or using the statement [GET LOCALE LANGUAGE](javascript:call_link\('abapget_locale.htm'\)), and is the nominal content of the system field [sy-langu](javascript:call_link\('abensystem_fields.htm'\)). The possible single-character abbreviations for the text environment language are stored as language keys in the column SPRAS of the database table T002.
+The current text environment language can be determined using the method GET\_LANGUAGE of the class CL\_ABAP\_SYST or using the statement [GET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_locale.htm), and is the nominal content of the system field [sy-langu](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_fields.htm). The possible single-character abbreviations for the text environment language are stored as language keys in the column SPRAS of the database table T002.
 
 Example
 
@@ -28,55 +30,55 @@ ASSERT sy-langu = cl\_abap\_syst=>get\_language( ).
 
 Text Environment
 
-All programs in an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") run in a shared text environment determined by the text environment language and which can also be set using the statement [SET LOCALE LANGUAGE](javascript:call_link\('abapset_locale.htm'\)). As well as the language, the text environment comprises the following:
+All programs in an [internal session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninternal_session_glosry.htm "Glossary Entry") run in a shared text environment determined by the text environment language and which can also be set using the statement [SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_locale.htm). As well as the language, the text environment comprises the following:
 
 -   A code page
 
-The [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") of the text environment is always the [system code page](javascript:call_link\('abensystem_codepage_glosry.htm'\) "Glossary Entry") [UTF-16](javascript:call_link\('abenutf16_glosry.htm'\) "Glossary Entry") of the AS Instances of a [Unicode system](javascript:call_link\('abenunicode_system_glosry.htm'\) "Glossary Entry") and cannot be changed. The current release supports Unicode systems only. Text environments with other code pages are no longer supported. There is a special feature in which the non-Unicode code page that is used for conversions is the one that would be assigned to the current text environment in a non-Unicode system. This only applies to specific statements, such as reading and writing [legacy files](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") using the [ABAP file interface](javascript:call_link\('abenabap_language_files.htm'\)).
+The [code page](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencodepage_glosry.htm "Glossary Entry") of the text environment is always the [system code page](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_codepage_glosry.htm "Glossary Entry") [UTF-16](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenutf16_glosry.htm "Glossary Entry") of the AS Instances of a [Unicode system](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunicode_system_glosry.htm "Glossary Entry") and cannot be changed. The current release supports Unicode systems only. Text environments with other code pages are no longer supported. There is a special feature in which the non-Unicode code page that is used for conversions is the one that would be assigned to the current text environment in a non-Unicode system. This only applies to specific statements, such as reading and writing [legacy files](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlegacy_file_glosry.htm "Glossary Entry") using the [ABAP file interface](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_files.htm).
 
 -   A locale
 
-The [locale](javascript:call_link\('abenlocale_glosry.htm'\) "Glossary Entry") properties that match the text environment language and country are defined in an ICU (International Components for Unicode) library. This library is made available for AS ABAP and is independent of the operating system of the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the [AS Instances](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry").
+The [locale](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocale_glosry.htm "Glossary Entry") properties that match the text environment language and country are defined in an ICU (International Components for Unicode) library. This library is made available for AS ABAP and is independent of the operating system of the [host computer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the [AS Instances](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapplication_server_glosry.htm "Glossary Entry").
 
 The text environment handles texts in character-like data objects:
 
--   The [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") of the text environment affects all operations that depend on the current character set, such as
+-   The [code page](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencodepage_glosry.htm "Glossary Entry") of the text environment affects all operations that depend on the current character set, such as
 
 -   Casting character-like data objects to byte-like types
 
--   Transferring data from and to [external storage](javascript:call_link\('abenabap_language_external_data.htm'\))
+-   Transferring data from and to [external storage](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm)
 
--   Transferring data using [data and communication interfaces](javascript:call_link\('abenabap_data_communication.htm'\))
+-   Transferring data using [data and communication interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm)
 
--   The [locale](javascript:call_link\('abenlocale_glosry.htm'\) "Glossary Entry") of the text environment affects all statements that sort character-like data objects as text, such as
+-   The [locale](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocale_glosry.htm "Glossary Entry") of the text environment affects all statements that sort character-like data objects as text, such as
 
--   [SORT AS TEXT](javascript:call_link\('abapsort_itab.htm'\))
+-   [SORT AS TEXT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsort_itab.htm)
 
--   [CONVERT TEXT INTO SORTABLE CODE](javascript:call_link\('abapconvert_text.htm'\))
+-   [CONVERT TEXT INTO SORTABLE CODE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_text.htm)
 
 -   In addition, the text environment language, and not the logon language, is used in the following cases:
 
--   The ABAP-specific [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") [LOCALE\_SAP](javascript:call_link\('abenhana_session_variables.htm'\)) in SAP HANA and the session variable [system\_language](javascript:call_link\('abencds_f1_session_variable.htm'\)) in ABAP CDS contain the current text environment language in reads from ABAP or ABAP SQL.
+-   The ABAP-specific [session variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensession_variable_glosry.htm "Glossary Entry") [LOCALE\_SAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables.htm) in SAP HANA and the session variable [system\_language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_session_variable.htm) in ABAP CDS contain the current text environment language in reads from ABAP or ABAP SQL.
 
--   If the logon language for the [RFC session](javascript:call_link\('abenrfc_session_glosry.htm'\) "Glossary Entry") is not defined in the [RFC destination](javascript:call_link\('abendestination_glosry.htm'\) "Glossary Entry") in a [remote function call](javascript:call_link\('abenremote_function_call_glosry.htm'\) "Glossary Entry"), it is determined by the current text environment language.
+-   If the logon language for the [RFC session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_session_glosry.htm "Glossary Entry") is not defined in the [RFC destination](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendestination_glosry.htm "Glossary Entry") in a [remote function call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenremote_function_call_glosry.htm "Glossary Entry"), it is determined by the current text environment language.
 
--   If a language is not specified explicitly in the statement [SUBMIT VIA JOB](javascript:call_link\('abapsubmit_via_job.htm'\)), the logon language of the [background session](javascript:call_link\('abenbatch_session_glosry.htm'\) "Glossary Entry") is set implicitly to the current text environment language.
+-   If a language is not specified explicitly in the statement [SUBMIT VIA JOB](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_via_job.htm), the logon language of the [background session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbatch_session_glosry.htm "Glossary Entry") is set implicitly to the current text environment language.
 
--   The texts on [selection screens](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") are determined by the current text environment language.
+-   The texts on [selection screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_glosry.htm "Glossary Entry") are determined by the current text environment language.
 
--   The [exception texts](javascript:call_link\('abenexception_text_glosry.htm'\) "Glossary Entry") returned by [exception classes](javascript:call_link\('abenexception_class_glosry.htm'\) "Glossary Entry") are determined by the current text environment language.
+-   The [exception texts](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexception_text_glosry.htm "Glossary Entry") returned by [exception classes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexception_class_glosry.htm "Glossary Entry") are determined by the current text environment language.
 
 Any further frameworks based on the nominal value of the system field sy-langu access the current text environment language and not the logon language.
 
 Notes
 
--   The ABAP programming language supports a subset covered by [UCS-2](javascript:call_link\('abenucs2_glosry.htm'\) "Glossary Entry") and not the full UTF-16 set. This contains all [UTF](javascript:call_link\('abenutf_glosry.htm'\) "Glossary Entry") characters except those in the [surrogate area](javascript:call_link\('abensurrogate_area_glosry.htm'\) "Glossary Entry"). ABAP interprets a character from the surrogate area as two characters.
+-   The ABAP programming language supports a subset covered by [UCS-2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenucs2_glosry.htm "Glossary Entry") and not the full UTF-16 set. This contains all [UTF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenutf_glosry.htm "Glossary Entry") characters except those in the [surrogate area](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensurrogate_area_glosry.htm "Glossary Entry"). ABAP interprets a character from the surrogate area as two characters.
 
--   In the non-Unicode [single code page systems](javascript:call_link\('abensingle_codepage_system_glosry.htm'\) "Glossary Entry") supported before release 7.50, the code page of the text environment was always the non-Unicode system code page of the current AS Instance. It was possible to configure different system code pages for the code page of the text environment of a system only in the [MDMP systems](javascript:call_link\('abenmdmp-system_glosry.htm'\) "Glossary Entry") supported before Release 7.0.
+-   In the non-Unicode [single code page systems](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensingle_codepage_system_glosry.htm "Glossary Entry") supported before release 7.50, the code page of the text environment was always the non-Unicode system code page of the current AS Instance. It was possible to configure different system code pages for the code page of the text environment of a system only in the [MDMP systems](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmdmp-system_glosry.htm "Glossary Entry") supported before Release 7.0.
 
 Example
 
-Sets the text environment explicitly before an [aRFC](javascript:call_link\('abensrfc_glosry.htm'\) "Glossary Entry"). The function module DEMO\_RFM\_CALL\_TRANSACTION calls a transaction using a [transaction code](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry") passed to it. The logon language of the [RFC session](javascript:call_link\('abenrfc_session_glosry.htm'\) "Glossary Entry") is not determined by the [logon language](javascript:call_link\('abenlogon_language_glosry.htm'\) "Glossary Entry") of the current session and is always English. Afterwards, the text environment language is set back to its previous value.
+Sets the text environment explicitly before an [aRFC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensrfc_glosry.htm "Glossary Entry"). The function module DEMO\_RFM\_CALL\_TRANSACTION calls a transaction using a [transaction code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransaction_code_glosry.htm "Glossary Entry") passed to it. The logon language of the [RFC session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_session_glosry.htm "Glossary Entry") is not determined by the [logon language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogon_language_glosry.htm "Glossary Entry") of the current session and is always English. Afterwards, the text environment language is set back to its previous value.
 
 GET LOCALE LANGUAGE DATA(langu)
            COUNTRY  DATA(dummy)
@@ -89,6 +91,6 @@ CALL FUNCTION 'DEMO\_RFM\_CALL\_TRANSACTION'
 SET LOCALE LANGUAGE langu.
 
 Continue
-[SET LOCALE LANGUAGE](javascript:call_link\('abapset_locale.htm'\))
-[GET LOCALE LANGUAGE](javascript:call_link\('abapget_locale.htm'\))
-![Example](exa.gif "Example") [Setting the Text Environment](javascript:call_link\('abenset_locale_abexa.htm'\))
+[SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_locale.htm)
+[GET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_locale.htm)
+![Example](exa.gif "Example") [Setting the Text Environment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenset_locale_abexa.htm)

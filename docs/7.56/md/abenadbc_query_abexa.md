@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ABAP Database Connectivity (ADBC)](javascript:call_link\('abenadbc.htm'\)) →  [ADBC - Examples](javascript:call_link\('abenadbc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennative_sql.htm) →  [ABAP Database Connectivity (ADBC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadbc.htm) →  [ADBC - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadbc_abexas.htm) → 
 
 ADBC - Query
 
-This example demonstrates the execution of a [query](javascript:call_link\('abenadbc_query.htm'\)) with ADBC.
+This example demonstrates the execution of a [query](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadbc_query.htm) with ADBC.
 
 Source Code
 
@@ -58,4 +58,4 @@ Description
 
 The method EXECUTE\_QUERY from the class CL\_SQL\_STATEMENT is used to read three columns of the database table SFLIGHT for the current client. An appropriate internal table is bound to the result set using the method SET\_PARAM\_TABLE of the class CL\_SQL\_RESULT\_SET. Using the method NEXT\_PACKAGE, all the rows of the result set are transported to the internal table.
 
-Quotation marks are escaped in the user input to prevent [SQL injections](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry").
+Quotation marks are escaped in the user input to prevent [SQL injections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_injection_glosry.htm "Glossary Entry").

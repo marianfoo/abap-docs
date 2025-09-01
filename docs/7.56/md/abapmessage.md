@@ -4,18 +4,18 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_messages.htm) → 
 
 MESSAGE
 
-[Short Reference](javascript:call_link\('abapmessage_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_shortref.htm)
 
 Syntax
 
-MESSAGE *{* [msg](javascript:call_link\('abapmessage_msg.htm'\))  *|* [text](javascript:call_link\('abapmessage_text.htm'\))  *}*
+MESSAGE *{* [msg](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_msg.htm)  *|* [text](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_text.htm)  *}*
         *{*  *{* *\[*DISPLAY LIKE dtype*\]* *\[*WITH dobj1 ... dobj4*\]* *}*
-         *|* *{* *\[*DISPLAY LIKE dtype*\]* *\[*WITH dobj1 ... dobj4*\]* [RAISING exception](javascript:call_link\('abapmessage_raising.htm'\)) *}*
-        *|*  *{*                      *\[*WITH dobj1 ... dobj4*\]* [INTO text](javascript:call_link\('abapmessage_into.htm'\)) *}* *}*.
+         *|* *{* *\[*DISPLAY LIKE dtype*\]* *\[*WITH dobj1 ... dobj4*\]* [RAISING exception](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_raising.htm) *}*
+        *|*  *{*                      *\[*WITH dobj1 ... dobj4*\]* [INTO text](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_into.htm) *}* *}*.
 
 Additions:
 
@@ -24,11 +24,11 @@ Additions:
 
 Effect
 
-The output of the statement MESSAGE is either the short text of a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") specified in [msg](javascript:call_link\('abapmessage_msg.htm'\)) from the table [T100](javascript:call_link\('abenabap_messages_storing.htm'\)) in the [logon language](javascript:call_link\('abenlogon_language_glosry.htm'\) "Glossary Entry") of the current user or any text specified in [text](javascript:call_link\('abapmessage_text.htm'\)) as a message. The following variants are available:
+The output of the statement MESSAGE is either the short text of a [message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm "Glossary Entry") specified in [msg](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_msg.htm) from the table [T100](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_messages_storing.htm) in the [logon language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogon_language_glosry.htm "Glossary Entry") of the current user or any text specified in [text](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_text.htm) as a message. The following variants are available:
 
--   If one of the additions RAISING or INTO is not specified, the statement MESSAGE interrupts the program flow and sends the message. The exact [behavior](javascript:call_link\('abenabap_messages_types.htm'\)) of this basic form of the statement MESSAGE, that is, how the message text is displayed and how the program flow is continued after the MESSAGE statement, is context-dependent and is determined by a [message type](javascript:call_link\('abenmessage_type_glosry.htm'\) "Glossary Entry") specified in msg or text.
--   The statement MESSAGE uses the addition [RAISING](javascript:call_link\('abapmessage_raising.htm'\)) to raise a [non-class-based exception](javascript:call_link\('abenexceptions_non_class.htm'\)) in function modules or methods. If the exception is not handled, the message is sent in the same way as when the addition RAISING is not specified.
--   If the addition [INTO](javascript:call_link\('abapmessage_into.htm'\)) is specified, the program flow is not interrupted and the short text of the message is assigned to a field instead.
+-   If one of the additions RAISING or INTO is not specified, the statement MESSAGE interrupts the program flow and sends the message. The exact [behavior](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_messages_types.htm) of this basic form of the statement MESSAGE, that is, how the message text is displayed and how the program flow is continued after the MESSAGE statement, is context-dependent and is determined by a [message type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_type_glosry.htm "Glossary Entry") specified in msg or text.
+-   The statement MESSAGE uses the addition [RAISING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_raising.htm) to raise a [non-class-based exception](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexceptions_non_class.htm) in function modules or methods. If the exception is not handled, the message is sent in the same way as when the addition RAISING is not specified.
+-   If the addition [INTO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_into.htm) is specified, the program flow is not interrupted and the short text of the message is assigned to a field instead.
 
 System Fields
 
@@ -56,11 +56,11 @@ Hints
 
 -   Messages sent without one of the additions RAISING or INTO are a way of interacting with a user. Except for messages of the type X, the statement MESSAGE should be used exclusively in the presentation logic layer and never in the actual application logic layer.
 -   The addition RAISING can also be specified together with INTO, but it is ignored in this case.
--   Setting the [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry") using the statement [SET LOCALE](javascript:call_link\('abapset_locale.htm'\)) does not affect the language in which the message is displayed.
+-   Setting the [text environment](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_environment_glosry.htm "Glossary Entry") using the statement [SET LOCALE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_locale.htm) does not affect the language in which the message is displayed.
 
 Example
 
-Display of an [information message](javascript:call_link\('abeninformation_message_glosry.htm'\) "Glossary Entry").
+Display of an [information message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninformation_message_glosry.htm "Glossary Entry").
 
 MESSAGE 'Success!' TYPE 'I'.
 
@@ -70,7 +70,7 @@ Addition 1  
 
 Effect
 
-When this addition is used, the icon of the [message type](javascript:call_link\('abenmessage_type_glosry.htm'\) "Glossary Entry") specified in dtype is displayed instead of the associated icon. dtype expects a character-like data objects containing one of the values A, E, W, S, or I in uppercase letters.
+When this addition is used, the icon of the [message type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_type_glosry.htm "Glossary Entry") specified in dtype is displayed instead of the associated icon. dtype expects a character-like data objects containing one of the values A, E, W, S, or I in uppercase letters.
 
 For messages displayed in a dialog box by default, the short text is still displayed as a dialog box. Messages with the type E or W, except those at PBO and LOAD-OF-PROGRAM, are displayed as a dialog box if dtype contains A or I. Messages with the type S are always displayed in the status bar, regardless of the dtype. The latter also applies to messages of the type I for PBO and LOAD-OF-PROGRAM. Messages of the type X always cause a runtime error.
 
@@ -81,7 +81,7 @@ Hints
 
 Example
 
-Display of an [information message](javascript:call_link\('abeninformation_message_glosry.htm'\) "Glossary Entry") with the icon of a [status message](javascript:call_link\('abenstatus_message_glosry.htm'\) "Glossary Entry").
+Display of an [information message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninformation_message_glosry.htm "Glossary Entry") with the icon of a [status message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatus_message_glosry.htm "Glossary Entry").
 
 MESSAGE 'Success!' TYPE 'I' DISPLAY LIKE 'S'.
 
@@ -91,7 +91,7 @@ Addition 2  
 
 Effect
 
-This addition replaces the placeholders "&1" to "&4" and "&" of the short text or "&V1&" to "&V4&" of the long text of the message with the formatted content of the operands dobj1, ..., dobj4. Up to four operands dobj1 through dobj4 can be specified. They can have the same data type as a source field of the statement [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) and they are formatted in accordance with the associated [predefined formats](javascript:call_link\('abenwrite_formats.htm'\)) with an output length of 50. If the data type is character-like, dobj1 through dobj4 are [character-like expression positions](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry"). If it is not character-like, they are [functional operand positions](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry").
+This addition replaces the placeholders "&1" to "&4" and "&" of the short text or "&V1&" to "&V4&" of the long text of the message with the formatted content of the operands dobj1, ..., dobj4. Up to four operands dobj1 through dobj4 can be specified. They can have the same data type as a source field of the statement [WRITE TO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwrite_to.htm) and they are formatted in accordance with the associated [predefined formats](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwrite_formats.htm) with an output length of 50. If the data type is character-like, dobj1 through dobj4 are [character-like expression positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry"). If it is not character-like, they are [functional operand positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunctional_position_glosry.htm "Glossary Entry").
 
 The position of an operand determines which placeholder is replaced. The formatted content of the first operand replaces the placeholders "&1", the first placeholder "&" and "&V1&", the second replaces "&2", the second "&" and "&V2&" etc. Furthermore, the formatted content of the operands dobj1, ..., dobj4 is assigned in sequence to the system fields sy-msgv1 to sy-msgv4.
 
@@ -99,7 +99,7 @@ If fewer operands than placeholders are specified, surplus placeholders are not 
 
 If the system fields sy-msgid, sy-msgno, and sy-msgv1 through sy-msgv4 are specified directly after WITH, the values set by the current MESSAGE statement are used. If they are specified as operands of character-like expressions, the preceding values are used.
 
-The addition WITH cannot be used with the output of a text [txt](javascript:call_link\('abapmessage_text.htm'\)) or when an object reference variable is specified in [msg](javascript:call_link\('abapmessage_msg.htm'\)).
+The addition WITH cannot be used with the output of a text [txt](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_text.htm) or when an object reference variable is specified in [msg](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_msg.htm).
 
 Hints
 
@@ -112,11 +112,11 @@ Hints
 
 Example
 
-If the short text of the specified message in the table T100 contains the value "& & & &", the text "This is not America" is displayed as an [information message](javascript:call_link\('abeninformation_message_glosry.htm'\) "Glossary Entry"). If the short text was defined as "&4 &1 &3 &2", the output is "America This not is".
+If the short text of the specified message in the table T100 contains the value "& & & &", the text "This is not America" is displayed as an [information message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninformation_message_glosry.htm "Glossary Entry"). If the short text was defined as "&4 &1 &3 &2", the output is "America This not is".
 
 MESSAGE i010 WITH 'This' 'is' 'not' 'America'.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 
@@ -131,6 +131,6 @@ Uncatchable Exceptions
     Runtime error: MESSAGE\_ROLLBACK\_IN\_POSTING
 
 Continue
-[MESSAGE, msg](javascript:call_link\('abapmessage_msg.htm'\))
-[MESSAGE, text](javascript:call_link\('abapmessage_text.htm'\))
-[MESSAGE, INTO](javascript:call_link\('abapmessage_into.htm'\))
+[MESSAGE, msg](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_msg.htm)
+[MESSAGE, text](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_text.htm)
+[MESSAGE, INTO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_into.htm)

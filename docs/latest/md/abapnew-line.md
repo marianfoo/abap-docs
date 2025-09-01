@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Create](javascript:call_link\('abenabap_lists.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpro_list.htm) →  [Lists - Create](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_lists.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20NEW-LINE%2C%20ABAPNEW-LINE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 NEW-LINE
 
-[Short Reference](javascript:call_link\('abapnew-line_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapnew-line_shortref.htm)
 
 Syntax
 
@@ -23,11 +23,11 @@ Additions:
 
 Effect
 
-This statement sets the [list cursor](javascript:call_link\('abenlist_cursor_glosry.htm'\) "Glossary Entry") to the first position of the next line after the current line, if the current position of the list cursor resulted from a previous output statement. In the first line of a new page and if the current list cursor was set to the list line using the statements [SKIP](javascript:call_link\('abapskip.htm'\)), NEW-LINE, [NEW-PAGE](javascript:call_link\('abapnew-page.htm'\)) or [BACK](javascript:call_link\('abapback.htm'\)), NEW-LINE is ignored by the list cursor.
+This statement sets the [list cursor](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlist_cursor_glosry.htm "Glossary Entry") to the first position of the next line after the current line, if the current position of the list cursor resulted from a previous output statement. In the first line of a new page and if the current list cursor was set to the list line using the statements [SKIP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapskip.htm), NEW-LINE, [NEW-PAGE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapnew-page.htm) or [BACK](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapback.htm), NEW-LINE is ignored by the list cursor.
 
 Hint
 
-The statement NEW-LINE is executed implicitly at the end of an [event block](javascript:call_link\('abenevent_block_glosry.htm'\) "Glossary Entry").
+The statement NEW-LINE is executed implicitly at the end of an [event block](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevent_block_glosry.htm "Glossary Entry").
 
 Addition 1   
 
@@ -35,11 +35,11 @@ Addition 1  
 
 Effect
 
-The addition NO-SCROLLING has the effect that the first line of the current list level written after the statement NEW-LINE using an output statement ([WRITE](javascript:call_link\('abapwrite-.htm'\)) or [ULINE](javascript:call_link\('abapuline.htm'\))) cannot be moved horizontally. This applies to scrolling in the list displayed on the screen by the user and also to scrolling using the statement [SCROLL](javascript:call_link\('abapscroll.htm'\)). Vertical scrolling is not affected.
+The addition NO-SCROLLING has the effect that the first line of the current list level written after the statement NEW-LINE using an output statement ([WRITE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwrite-.htm) or [ULINE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapuline.htm)) cannot be moved horizontally. This applies to scrolling in the list displayed on the screen by the user and also to scrolling using the statement [SCROLL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll.htm). Vertical scrolling is not affected.
 
 Hint
 
-To freeze an area that covers multiple lines, the statement [SET LEFT SCROLL-BOUNDARY](javascript:call_link\('abapset_scroll-boundary.htm'\)) can be used.
+To freeze an area that covers multiple lines, the statement [SET LEFT SCROLL-BOUNDARY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_scroll-boundary.htm) can be used.
 
 Example
 

@@ -4,19 +4,19 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Display](javascript:call_link\('abenlists_displayed.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpro_list.htm) →  [Lists - Display](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlists_displayed.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: GET CURSOR, List, ABAPGET_CURSOR_LIST, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0AS
 uggestion for improvement:)
 
 GET CURSOR, List
 
-[Short Reference](javascript:call_link\('abapget_cursor_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_shortref.htm)
 
 Syntax
 
-GET CURSOR *{* *{*FIELD field *\[* [field\_properties](javascript:call_link\('abapget_cursor_list_field.htm'\))*\]**}*
-           *|* *{*LINE line *\[* [line\_properties](javascript:call_link\('abapget_cursor_list_field.htm'\))*\]**}* *}*.
+GET CURSOR *{* *{*FIELD field *\[* [field\_properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_list_field.htm)*\]**}*
+           *|* *{*LINE line *\[* [line\_properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_list_field.htm)*\]**}* *}*.
 
 Variants:
 
@@ -47,9 +47,9 @@ GET CURSOR FIELD field *\[*field\_properties*\]*.
 
 Effect
 
-Returns the name of the output field in field after a user action on which the cursor is positioned in the currently displayed list. field expects a character-like variable. The addition [field\_properties](javascript:call_link\('abapget_cursor_list_field.htm'\)) can be used to read further information about the cursor position.
+Returns the name of the output field in field after a user action on which the cursor is positioned in the currently displayed list. field expects a character-like variable. The addition [field\_properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_list_field.htm) can be used to read further information about the cursor position.
 
-If the screen cursor is on a subarea of a structure that is output using an [offset/length](javascript:call_link\('abenoffset_length.htm'\)) specification, the following rules apply:
+If the screen cursor is on a subarea of a structure that is output using an [offset/length](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoffset_length.htm) specification, the following rules apply:
 
 -   The subarea of the structure was output using the name of the structure:
     -   If the subarea includes the entire structure, the name of the structure is returned.
@@ -69,8 +69,8 @@ GET CURSOR LINE line *\[*line\_properties*\]*.
 
 Effect
 
-Returns the number of the list line in line after a user action. This line is where the cursor is positioned in the currently displayed list. line expects a variable of type i. The addition [line\_properties](javascript:call_link\('abapget_cursor_list_line.htm'\)) can be used to read further information about the cursor position.
+Returns the number of the list line in line after a user action. This line is where the cursor is positioned in the currently displayed list. line expects a variable of type i. The addition [line\_properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_list_line.htm) can be used to read further information about the cursor position.
 
 Continue
-[GET CURSOR, field\_properties](javascript:call_link\('abapget_cursor_list_field.htm'\))
-[GET CURSOR, line\_properties](javascript:call_link\('abapget_cursor_list_line.htm'\))
+[GET CURSOR, field\_properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_list_field.htm)
+[GET CURSOR, line\_properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_list_line.htm)

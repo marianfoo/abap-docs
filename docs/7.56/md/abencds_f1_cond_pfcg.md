@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Access Control](javascript:call_link\('abencds_access_control.htm'\)) →  [ABAP CDS - DCL Statements](javascript:call_link\('abencds_f1_dcl_syntax.htm'\)) →  [CDS DCL - DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) →  [CDS DCL - DEFINE ROLE, condition](javascript:call_link\('abencds_dcl_role_conditions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Access Control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_access_control.htm) →  [ABAP CDS - DCL Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_syntax.htm) →  [CDS DCL - DEFINE ROLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_role.htm) →  [CDS DCL - DEFINE ROLE, condition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_dcl_role_conditions.htm) → 
 
 CDS DCL - DEFINE ROLE, pfcg\_condition
 
@@ -12,13 +12,13 @@ Syntax
 
 ...*\[*ALL*|*EXISTS*\]*
    (*\[*element1 *\[*BYPASS WHEN bypass\_condition*\]*
-   *|*[{ element1*\[*, element2 ...*\]* }](javascript:call_link\('abencds_f1_cond_pfcg_mapping.htm'\))
+   *|*[{ element1*\[*, element2 ...*\]* }](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_pfcg_mapping.htm)
     *\[*, element2 *\[*BYPASS WHEN bypass\_condition*\]*
-   *|*[{ element1*\[*, element2 ...*\]* }](javascript:call_link\('abencds_f1_cond_pfcg_mapping.htm'\)) ...*\]**\]* )
+   *|*[{ element1*\[*, element2 ...*\]* }](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_pfcg_mapping.htm) ...*\]**\]* )
          =|?= ASPECT pfcg\_auth
                 ( auth\_object *\[*IN SCENARIO scenario\_name*\]*,
-                 *\[*mapped\_field1*|**{* [PFCG\_MAPPING = pfcg\_mapping](javascript:call_link\('abencds_f1_cond_pfcg_mapping.htm'\))*}**\[*,
-                  mapped\_field2*|**{* [PFCG\_MAPPING = pfcg\_mapping](javascript:call_link\('abencds_f1_cond_pfcg_mapping.htm'\))*}* ...*\]**\]**\[*,
+                 *\[*mapped\_field1*|**{* [PFCG\_MAPPING = pfcg\_mapping](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_pfcg_mapping.htm)*}**\[*,
+                  mapped\_field2*|**{* [PFCG\_MAPPING = pfcg\_mapping](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_pfcg_mapping.htm)*}* ...*\]**\]**\[*,
                   auth\_field1 = 'value'*\[*,
                   auth\_field2 = 'value' ...*\]**\]* ) ...
 
@@ -31,42 +31,42 @@ Additions:
 
 Effect
 
-PFCG condition as part of an [access condition](javascript:call_link\('abenaccess_condition_glosry.htm'\) "Glossary Entry") [cds\_cond](javascript:call_link\('abencds_dcl_role_cond_expr.htm'\)) in an [access rule](javascript:call_link\('abencds_dcl_role_rules.htm'\)) of the statement [DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) in [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry"). A PFCG condition filters the elements of the CDS entity specified on the left side of the operator \= or ?= with the [authorizations](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry") specified on the right side, which are granted using the classic role maintenance (transaction PFCG) . CDS access control takes this information and the authorizations of the current user and uses it to create logical conditions, which are evaluated each time the object is accessed.
+PFCG condition as part of an [access condition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenaccess_condition_glosry.htm "Glossary Entry") [cds\_cond](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_dcl_role_cond_expr.htm) in an [access rule](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_dcl_role_rules.htm) of the statement [DEFINE ROLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_role.htm) in [CDS DCL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_dcl_glosry.htm "Glossary Entry"). A PFCG condition filters the elements of the CDS entity specified on the left side of the operator \= or ?= with the [authorizations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_glosry.htm "Glossary Entry") specified on the right side, which are granted using the classic role maintenance (transaction PFCG) . CDS access control takes this information and the authorizations of the current user and uses it to create logical conditions, which are evaluated each time the object is accessed.
 
 -   Left Side
-    -   The left side consists of a parenthesized comma-separated list consisting of zero, one, or multiple [CDS elements](javascript:call_link\('abencds_element_glosry.htm'\) "Glossary Entry") of a CDS entity for which the access condition is defined. An element element can be specified directly or by using a path expression [path\_expr](javascript:call_link\('abensql_path_expression_glosry.htm'\) "Glossary Entry") and must have one of the valid [data types](javascript:call_link\('abencds_f1_dcl_cond_data_types.htm'\)). In a set-valued path expression, it is sufficient for the condition to be true for just one of the values.
+    -   The left side consists of a parenthesized comma-separated list consisting of zero, one, or multiple [CDS elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_element_glosry.htm "Glossary Entry") of a CDS entity for which the access condition is defined. An element element can be specified directly or by using a path expression [path\_expr](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_path_expression_glosry.htm "Glossary Entry") and must have one of the valid [data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_cond_data_types.htm). In a set-valued path expression, it is sufficient for the condition to be true for just one of the values.
     -   The addition BYPASS WHEN can be used to specify a bypass condition for an element element. If the condition is met, the element in question is not used for authorization filtering.
-    -   As an alternative to a single element element, an element list in curly brackets [{ element1*\[*, element2 ...*\]* }](javascript:call_link\('abencds_f1_cond_pfcg_mapping.htm'\)) can be specified instead. A [PFCG mapping](javascript:call_link\('abencds_pfcg_mapping_glosry.htm'\) "Glossary Entry") must be mapped to this list using [PFCG\_MAPPING = pfcg\_mapping](javascript:call_link\('abencds_f1_cond_pfcg_mapping.htm'\)) on the right side.
+    -   As an alternative to a single element element, an element list in curly brackets [{ element1*\[*, element2 ...*\]* }](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_pfcg_mapping.htm) can be specified instead. A [PFCG mapping](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_pfcg_mapping_glosry.htm "Glossary Entry") must be mapped to this list using [PFCG\_MAPPING = pfcg\_mapping](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_pfcg_mapping.htm) on the right side.
 -   Right Side
     
-    The right side is introduced using ASPECT pfcg\_auth. Here, pfcg\_auth is a predefined [aspect](javascript:call_link\('abencds_aspect_glosry.htm'\) "Glossary Entry") used to associate the CDS elements with the [authorizations](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry") of the current user for an [authorization object](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") of the [SAP authorization concept](javascript:call_link\('abenbc_authority_check.htm'\)). This association is made in a parenthesized comma-separated list:
+    The right side is introduced using ASPECT pfcg\_auth. Here, pfcg\_auth is a predefined [aspect](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_aspect_glosry.htm "Glossary Entry") used to associate the CDS elements with the [authorizations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_glosry.htm "Glossary Entry") of the current user for an [authorization object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_object_glosry.htm "Glossary Entry") of the [SAP authorization concept](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbc_authority_check.htm). This association is made in a parenthesized comma-separated list:
     
     -   The name of an existing authorization object is defined using auth\_object.
-    -   mapped\_field1, mapped\_field2 are used to specify the names of the [authorization fields](javascript:call_link\('abenauthorization_field_glosry.htm'\) "Glossary Entry") of the authorization object to map them to the CDS elements on the left side in the specified order. The number of CDS elements must match the number of authorization fields. It is possible to map a single authorization field to multiple CDS elements. By default, CDS access control evaluates all [authorizations](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry") of the current user for the specified CDS elements in accordance with this assignment. The PFCG condition is true when at least one authorization exists whose authorization values match the values of the entity elements on the left side.
-    -   If a CDS element is specified on the left side as an element list in curly brackets [{ element1*\[*, element2 ...*\]* }](javascript:call_link\('abencds_f1_cond_pfcg_mapping.htm'\)) rather than being specified directly, [PFCG\_MAPPING = pfcg\_mapping](javascript:call_link\('abencds_f1_cond_pfcg_mapping.htm'\)) must be used to specify a [PFCG mapping](javascript:call_link\('abencds_pfcg_mapping_glosry.htm'\) "Glossary Entry") instead of the name of an authorization field mapped\_field.
-    -   Further optional authorization fields auth\_field1, auth\_field2 of the authorization object can be specified to which literal values can be mapped using \=. In this case, the evaluation only respects those [authorizations](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry") of the current user in which all values specified in this way exist. Here, the same authorization field can be specified more than once with different values.
-    -   If the parentheses on the left side are empty, which means that no element from the CDS entity is specified, no authorization field mapped\_field can be specified after auth\_object. If further optional authorization fields auth\_field1, auth\_field1, ... are specified, the same applies as before. CDS access control evaluates all [authorizations](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry") (or those authorizations specified using auth\_field1, auth\_field1, ...) of the current user for the authorization object. If there is at least one authorization, the PFCG condition is true, else false.
+    -   mapped\_field1, mapped\_field2 are used to specify the names of the [authorization fields](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_field_glosry.htm "Glossary Entry") of the authorization object to map them to the CDS elements on the left side in the specified order. The number of CDS elements must match the number of authorization fields. It is possible to map a single authorization field to multiple CDS elements. By default, CDS access control evaluates all [authorizations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_glosry.htm "Glossary Entry") of the current user for the specified CDS elements in accordance with this assignment. The PFCG condition is true when at least one authorization exists whose authorization values match the values of the entity elements on the left side.
+    -   If a CDS element is specified on the left side as an element list in curly brackets [{ element1*\[*, element2 ...*\]* }](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_pfcg_mapping.htm) rather than being specified directly, [PFCG\_MAPPING = pfcg\_mapping](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_pfcg_mapping.htm) must be used to specify a [PFCG mapping](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_pfcg_mapping_glosry.htm "Glossary Entry") instead of the name of an authorization field mapped\_field.
+    -   Further optional authorization fields auth\_field1, auth\_field2 of the authorization object can be specified to which literal values can be mapped using \=. In this case, the evaluation only respects those [authorizations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_glosry.htm "Glossary Entry") of the current user in which all values specified in this way exist. Here, the same authorization field can be specified more than once with different values.
+    -   If the parentheses on the left side are empty, which means that no element from the CDS entity is specified, no authorization field mapped\_field can be specified after auth\_object. If further optional authorization fields auth\_field1, auth\_field1, ... are specified, the same applies as before. CDS access control evaluates all [authorizations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_glosry.htm "Glossary Entry") (or those authorizations specified using auth\_field1, auth\_field1, ...) of the current user for the authorization object. If there is at least one authorization, the PFCG condition is true, else false.
     -   The authorization object auth\_object, authorization field auth\_field and scenario name scenario\_name can be written without single quotes when they comply with identifier syntax, otherwise they must be written as text literals with single quotes.
 
-If the operator ?= is used, the evaluation is made in the same way as when using \=. The condition is also met, however, if all CDS elements in the left parentheses have the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") or their type-dependent initial value. This applies even if the user does not have an authorization for the specified authorization object.
+If the operator ?= is used, the evaluation is made in the same way as when using \=. The condition is also met, however, if all CDS elements in the left parentheses have the [null value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennull_value_glosry.htm "Glossary Entry") or their type-dependent initial value. This applies even if the user does not have an authorization for the specified authorization object.
 
-The operator [NOT](javascript:call_link\('abencds_dcl_role_cond_expr.htm'\)) can only be specified in front of PFCG conditions with empty parentheses on the left side, namely those without CDS elements element and mapped authorization fields mapped\_field. The following applies with respect to the order in which a PFCG condition is evaluated:
+The operator [NOT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_dcl_role_cond_expr.htm) can only be specified in front of PFCG conditions with empty parentheses on the left side, namely those without CDS elements element and mapped authorization fields mapped\_field. The following applies with respect to the order in which a PFCG condition is evaluated:
 
 -   If multiple authorizations are evaluated, the resulting conditions are combined using a logical "or".
 -   In the conditions of each authorization used, the values for the authorization fields in question are combined using a logical "and".
 -   If there are multiple values for an authorization field, they are combined using a logical "or".
 
-When these rules are applied to the access condition actually used by CDS access control, field values from [authorizations](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry") are compared with content from CDS elements. Here, the field values are [converted](javascript:call_link\('abencds_f1_dcl_pfcg_mapping.htm'\)) to the dictionary types of the CDS elements.
+When these rules are applied to the access condition actually used by CDS access control, field values from [authorizations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_glosry.htm "Glossary Entry") are compared with content from CDS elements. Here, the field values are [converted](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pfcg_mapping.htm) to the dictionary types of the CDS elements.
 
-During [update](javascript:call_link\('abenauthority_during_update.htm'\)) task processing, the predefined aspect pfcg\_auth behaves as if the user has full authorization. This replicates the behavior of the classic [AUTHORITY-CHECK](javascript:call_link\('abapauthority-check.htm'\)) statement, which in this situation always returns sy-subrc = 0.
+During [update](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthority_during_update.htm) task processing, the predefined aspect pfcg\_auth behaves as if the user has full authorization. This replicates the behavior of the classic [AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapauthority-check.htm) statement, which in this situation always returns sy-subrc = 0.
 
 Hints
 
--   The access conditions produced by the rules above are transformed internally to selection statements by the ABAP runtime framework. In ABAP SQL reads, the additional conditions can be viewed in the [SQL Trace](javascript:call_link\('abensql_trace_glosry.htm'\) "Glossary Entry") tools (transaction ST05). The internal implementation can be made using WHERE conditions or [common table expressions](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry") and can change between releases.
+-   The access conditions produced by the rules above are transformed internally to selection statements by the ABAP runtime framework. In ABAP SQL reads, the additional conditions can be viewed in the [SQL Trace](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_trace_glosry.htm "Glossary Entry") tools (transaction ST05). The internal implementation can be made using WHERE conditions or [common table expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") and can change between releases.
 -   The key elements of the CDS entity play a key part in internal selection statements. In the CDS data definition, these elements should either be defined so that they identify a unique row or no key elements should be defined at all. If this is not the case, unexpected results can arise.
 -   PFCG conditions with non-empty parentheses on the left side cannot be negated using the operator NOT, since this entails the opposite of an authorization check and hence unexpected results.
--   PFCG conditions can be combined within an access rule using [literal conditions](javascript:call_link\('abencds_f1_cond_literal.htm'\)), [user conditions](javascript:call_link\('abencds_f1_cond_user.htm'\)), and [inheritance conditions](javascript:call_link\('abencds_f1_cond_inherit.htm'\)).
--   If a full authorization exists within a PFCG condition for an authorization field, no condition is created for the CDS element specified on the left side. This makes the PFCG condition accept all values, including the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"). If this behavior is unwanted, AND can be used to attach a [literal condition](javascript:call_link\('abencds_f1_cond_literal.htm'\)) element IS NOT NULL.
+-   PFCG conditions can be combined within an access rule using [literal conditions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_literal.htm), [user conditions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_user.htm), and [inheritance conditions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_inherit.htm).
+-   If a full authorization exists within a PFCG condition for an authorization field, no condition is created for the CDS element specified on the left side. This makes the PFCG condition accept all values, including the [null value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennull_value_glosry.htm "Glossary Entry"). If this behavior is unwanted, AND can be used to attach a [literal condition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_literal.htm) element IS NOT NULL.
 -   It is advisable to specify an element of the CDS entity directly and to only use path expressions in exceptional cases.
 -   The operator ?= is applied to all CDS elements in the left parentheses. It cannot be restricted to individual elements. BYPASS WHEN is a better alternative.
 -   The global and context-specific disabling of authorization checks (in transactions SU24 and SU25) is respected.
@@ -159,8 +159,8 @@ The addition BYPASS WHEN bypass\_condition can be used to specify that the eleme
 
 The following are possible for bypass\_condition:
 
--   [IS NULL](javascript:call_link\('abencds_cond_expr_null_v2.htm'\))
--   [IS INITIAL](javascript:call_link\('abencds_cond_expr_initial_v2.htm'\))
+-   [IS NULL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_null_v2.htm)
+-   [IS INITIAL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_initial_v2.htm)
 -   IS INITIAL OR NULL
 
 The addition can be used to let incomplete documents pass a PFCG condition without adding empty values to the PFCG role.
@@ -268,7 +268,7 @@ Examples
 
 The following abstract examples explain various types of PFCG conditions:
 
--   The following example is a typical case. Multiple elements, element1, element2, are mapped to different authorization fields, field1, field2, of an authorization object auth\_object. Those [authorizations](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry") of the current user are evaluated in which a particular activity is allowed.
+-   The following example is a typical case. Multiple elements, element1, element2, are mapped to different authorization fields, field1, field2, of an authorization object auth\_object. Those [authorizations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_glosry.htm "Glossary Entry") of the current user are evaluated in which a particular activity is allowed.
     
     @MappingRole: 'true'
     DEFINE ROLE demo\_role {
@@ -291,7 +291,7 @@ The following abstract examples explain various types of PFCG conditions:
               element1 LIKE 'X%' AND
               element2 = 'Y' )
     
-    The values of each authorization are combined using AND and the conditions of both authorizations are combined using OR. The wildcard character \* is [converted](javascript:call_link\('abencds_f1_dcl_pfcg_mapping.htm'\)) to a LIKE condition. The actual variant in question, however, can have a different appearance.
+    The values of each authorization are combined using AND and the conditions of both authorizations are combined using OR. The wildcard character \* is [converted](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pfcg_mapping.htm) to a LIKE condition. The actual variant in question, however, can have a different appearance.
     
     If ?= instead of \= is used in the example above, the access condition is expanded roughly as follows:
               ...
@@ -299,7 +299,7 @@ The following abstract examples explain various types of PFCG conditions:
               ( ( element1 IS NULL or element1 = '' ) AND
                 ( element2 IS NULL or element2 = '' ) )
     
--   The following example illustrates how the evaluated authorizations are restricted using further authorization fields. Only those [authorizations](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry") of the current user are used that contain both the activities "02" and "03", plus the authorization field country with the value "DE". Only those rows are read for which the CDS element element matches the authorization field field of these authorizations.
+-   The following example illustrates how the evaluated authorizations are restricted using further authorization fields. Only those [authorizations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_glosry.htm "Glossary Entry") of the current user are used that contain both the activities "02" and "03", plus the authorization field country with the value "DE". Only those rows are read for which the CDS element element matches the authorization field field of these authorizations.
     
     @MappingRole: true
     DEFINE ROLE demo\_role {
@@ -368,7 +368,7 @@ define view demo\_cds\_auth\_pfcg
 
 The program DEMO\_CDS\_AUTH\_PFCG accesses the view.
 
--   There is no implicit authorization check when the associated [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") is accessed. Instead, the rows without authorization are removed from the results later using the statement [AUTHORITY-CHECK](javascript:call_link\('abapauthority-check.htm'\)).
+-   There is no implicit authorization check when the associated [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") is accessed. Instead, the rows without authorization are removed from the results later using the statement [AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapauthority-check.htm).
 -   When the CDS is accessed, the SELECT statement only reads the data for which the current user has authorization.
 
 Addition 4   
@@ -387,5 +387,5 @@ The following applies to the addition IN SCENARIO:
 -   The scenario name can be written without single quotes when it complies with identifier syntax, otherwise it must be written with surrounding single quotes as a text literal.
 
 Continue
-[CDS DCL - DEFINE ROLE, pfcg\_mapping](javascript:call_link\('abencds_f1_cond_pfcg_mapping.htm'\))
-[CDS DCL - DEFINE ROLE, Converting Field Values](javascript:call_link\('abencds_f1_dcl_pfcg_mapping.htm'\))
+[CDS DCL - DEFINE ROLE, pfcg\_mapping](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_pfcg_mapping.htm)
+[CDS DCL - DEFINE ROLE, Converting Field Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_pfcg_mapping.htm)

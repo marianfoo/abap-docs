@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) →  [System Interfaces for Messages](javascript:call_link\('abenmessage_interfaces.htm'\)) →  [System Interface IF\_T100\_MESSAGE for Messages](javascript:call_link\('abenif_t100_message.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_messages.htm) →  [System Interfaces for Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_interfaces.htm) →  [System Interface IF\_T100\_MESSAGE for Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenif_t100_message.htm) → 
 
 IF\_T100\_MESSAGE in Local Exception Class
 
@@ -74,7 +74,7 @@ START-OF-SELECTION.
 
 Description
 
-The functional method meth raises an exception from the local exception class cx\_t100 that implements the interface [IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)). When the exception is raised, the constructor is given a message class, a message number, and values for the placeholders of the message.
+The functional method meth raises an exception from the local exception class cx\_t100 that implements the interface [IF\_T100\_MESSAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenif_t100_message.htm). When the exception is raised, the constructor is given a message class, a message number, and values for the placeholders of the message.
 
 The constructor of the local exception class cx\_t100 fills the attribute T100KEY of the interface IF\_T100\_MESSAGE with the values passed. In this way, the exception class represents the passed message from the table T100 in which the placeholders "&" are replaced with the content of the attributes text1 to text4.
 
@@ -82,10 +82,10 @@ The method main catches the exception in the reference variable oref and indicat
 
 -   The exception text can be filled using the method GET\_TEXT of the component interface IF\_MESSAGE in the interface IF\_T100\_MESSAGE. The implementation of the method GET\_TEXT is in the superclass CX\_ROOT, which includes the interface IF\_MESSAGE.
 
--   The reference variable can be used directly as an operand of the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)).
+-   The reference variable can be used directly as an operand of the statement [MESSAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage.htm).
 
 See also the executable examples listed below.
 
--   [System Interface IF\_T100\_MESSAGE in Global Exception Class](javascript:call_link\('abenmessage_interface_global_abexa.htm'\))
+-   [System Interface IF\_T100\_MESSAGE in Global Exception Class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_interface_global_abexa.htm)
 
--   [System Interface IF\_T100\_DYN\_MSG in Local Exception Class](javascript:call_link\('abenraise_message_abexa.htm'\))
+-   [System Interface IF\_T100\_DYN\_MSG in Local Exception Class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenraise_message_abexa.htm)

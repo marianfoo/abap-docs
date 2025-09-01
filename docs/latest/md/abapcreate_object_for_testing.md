@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Testing RAP Business Objects](javascript:call_link\('abenrpm_testing.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Testing RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_testing.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CREATE%20OBJECT%2C%20FOR%20TESTING%2C%20ABAPCREATE_OBJECT_FOR_TESTING%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -16,9 +16,9 @@ CREATE OBJECT ... FOR TESTING.
 
 Effect
 
-RAP-specific variant of [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)).
+RAP-specific variant of [CREATE OBJECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object.htm).
 
-For [unit tests](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") of an [ABAP behavior implementation](javascript:call_link\('abenbehavior_implement_glosry.htm'\) "Glossary Entry"), an [object](javascript:call_link\('abenobject_glosry.htm'\) "Glossary Entry") of the corresponding [class](javascript:call_link\('abenabp_handler_class_glosry.htm'\) "Glossary Entry") must be created using a [reference variable](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry") declared beforehand. The addition FOR TESTING enables the instantiation of [RAP handler classes](javascript:call_link\('abenabp_handler_class_glosry.htm'\) "Glossary Entry").
+For [unit tests](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunit_test_glosry.htm "Glossary Entry") of an [ABAP behavior implementation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_implement_glosry.htm "Glossary Entry"), an [object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_glosry.htm "Glossary Entry") of the corresponding [class](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_class_glosry.htm "Glossary Entry") must be created using a [reference variable](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_variable_glosry.htm "Glossary Entry") declared beforehand. The addition FOR TESTING enables the instantiation of [RAP handler classes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_class_glosry.htm "Glossary Entry").
 
 Further Information
 
@@ -26,7 +26,7 @@ Development guide for the ABAP RESTful Application Programming Model, section [T
 
 Executable Example
 
-The [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") BP\_DEMO\_MANAGED\_ROOT\_2 contains a test include. The variable class\_under\_test is defined in the private section of the class ltc\_managed as follows:
+The [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") BP\_DEMO\_MANAGED\_ROOT\_2 contains a test include. The variable class\_under\_test is defined in the private section of the class ltc\_managed as follows:
 
 CLASS-DATA: class\_under\_test TYPE REF TO lhc\_demo\_managed\_root2,
 ...
@@ -37,7 +37,7 @@ CREATE OBJECT class\_under\_test FOR TESTING.
 
 Find more details on the unit test implementation, the methods used in this test include, and so on, via the link to the development guide for the ABAP RESTful Application Programming Model provided above.
 
-The CCIMP include contains the validation validate\_field. This validation checks the value of a specific field. If the value is greater than specified in the validation implementation, a [RAP BO instance](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") cannot be saved. The test class contains a basic [unit test](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") which includes the method validate\_field. The method is provided with mock data. In this case, the field value that is checked with the validation validate\_field is set that the saving of an instance does not fail.
+The CCIMP include contains the validation validate\_field. This validation checks the value of a specific field. If the value is greater than specified in the validation implementation, a [RAP BO instance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") cannot be saved. The test class contains a basic [unit test](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunit_test_glosry.htm "Glossary Entry") which includes the method validate\_field. The method is provided with mock data. In this case, the field value that is checked with the validation validate\_field is set that the saving of an instance does not fail.
 
 To show the unit test result, execute the unit test.
 

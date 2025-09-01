@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Data Objects in Operand Positions](javascript:call_link\('abenoperands_data_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Operands](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands.htm) →  [Data Objects in Operand Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands_data_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Notations for Single Operands, ABENOPERANDS_NAMES, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%
 0D%0A%0D%0ASuggestion for improvement:)
@@ -24,25 +24,25 @@ As a consequence, names for operands are either elementary names or names constr
 -   Components that are unique in the current context
 -   Superunits made up of components
 
-[Naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) apply to the elementary names. Composite names with component selectors are used for addressing individual components. A component can itself be a superunit of further components. Subcomponents can be addressed by [chaining](javascript:call_link\('abenchaining_glosry.htm'\) "Glossary Entry") multiple names.
+[Naming conventions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennaming_conventions.htm) apply to the elementary names. Composite names with component selectors are used for addressing individual components. A component can itself be a superunit of further components. Subcomponents can be addressed by [chaining](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenchaining_glosry.htm "Glossary Entry") multiple names.
 
--   [Structure Component Selector](javascript:call_link\('abenstructure_component_selector.htm'\))
--   [Object Component Selector](javascript:call_link\('abenobject_component_selector.htm'\))
--   [Class Component Selector](javascript:call_link\('abenclass_component_selector.htm'\))
--   [Interface Component Selector](javascript:call_link\('abeninterface_component_selector.htm'\))
--   [Dereferencing Operator](javascript:call_link\('abendereferencing_operator.htm'\))
--   [Chainings](javascript:call_link\('abencomponent_chaining_selector.htm'\))
--   [Offset/Length Specifications for Substring Access](javascript:call_link\('abenoffset_length.htm'\))
+-   [Structure Component Selector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_component_selector.htm)
+-   [Object Component Selector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobject_component_selector.htm)
+-   [Class Component Selector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_component_selector.htm)
+-   [Interface Component Selector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterface_component_selector.htm)
+-   [Dereferencing Operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendereferencing_operator.htm)
+-   [Chainings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomponent_chaining_selector.htm)
+-   [Offset/Length Specifications for Substring Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoffset_length.htm)
 
 Hint
 
-In addition to the component selectors listed here, [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry") also has a [column selector](javascript:call_link\('abentable_comp_selector_glosry.htm'\) "Glossary Entry") (~).
+In addition to the component selectors listed here, [ABAP SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_glosry.htm "Glossary Entry") also has a [column selector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_comp_selector_glosry.htm "Glossary Entry") (~).
 
 Continue
-[Structure Component Selector](javascript:call_link\('abenstructure_component_selector.htm'\))
-[Object Component Selector](javascript:call_link\('abenobject_component_selector.htm'\))
-[Class Component Selector](javascript:call_link\('abenclass_component_selector.htm'\))
-[Interface Component Selector](javascript:call_link\('abeninterface_component_selector.htm'\))
-[Dereferencing Operator](javascript:call_link\('abendereferencing_operator.htm'\))
-[Chainings](javascript:call_link\('abencomponent_chaining_selector.htm'\))
-[Offset/Length Specifications for Substring Access](javascript:call_link\('abenoffset_length.htm'\))
+[Structure Component Selector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_component_selector.htm)
+[Object Component Selector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobject_component_selector.htm)
+[Class Component Selector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_component_selector.htm)
+[Interface Component Selector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterface_component_selector.htm)
+[Dereferencing Operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendereferencing_operator.htm)
+[Chainings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomponent_chaining_selector.htm)
+[Offset/Length Specifications for Substring Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoffset_length.htm)

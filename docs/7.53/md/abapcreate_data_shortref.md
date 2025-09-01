@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  C
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  C
 
 CREATE DATA - Quick reference
 
-[Reference](javascript:call_link\('abapcreate_data.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data.htm)
 
 Syntax
 
@@ -39,39 +39,39 @@ CREATE DATA dref *\[* AREA HANDLE handle *\]*
 
 Effect
 
-Creates an [anonymous data object](javascript:call_link\('abenanonymous_data_object_glosry.htm'\) "Glossary Entry") and sets the data reference in dref to the data object. If no TYPE or LIKE addition is specified, dref has to be completely typed and this type is used for the data object.
+Creates an [anonymous data object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenanonymous_data_object_glosry.htm "Glossary Entry") and sets the data reference in dref to the data object. If no TYPE or LIKE addition is specified, dref has to be completely typed and this type is used for the data object.
 
 Additions
 
--   [AREA HANDLE handle](javascript:call_link\('abapcreate_data_area_handle.htm'\))
-    Creates a [shared object](javascript:call_link\('abenshared_object_glosry.htm'\) "Glossary Entry"), where a reference to an [area handle](javascript:call_link\('abenarea_handle_glosry.htm'\) "Glossary Entry") has to be specified in handle.
+-   [AREA HANDLE handle](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_area_handle.htm)
+    Creates a [shared object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshared_object_glosry.htm "Glossary Entry"), where a reference to an [area handle](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarea_handle_glosry.htm "Glossary Entry") has to be specified in handle.
     
--   [TYPE](javascript:call_link\('abapcreate_data.htm'\))
+-   [TYPE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data.htm)
     Defines the type by referring to a data type.
     
--   [LIKE](javascript:call_link\('abapcreate_data.htm'\))
+-   [LIKE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data.htm)
     Defines the type by referring to a data object.
     
--   [abap\_type*|*(name) *\[*LENGTH len*\]* *\[*DECIMALS dec*\]*](javascript:call_link\('abapcreate_data_built_in.htm'\))
-    Specifies a [built-in](javascript:call_link\('abenpredefined_data_type_glosry.htm'\) "Glossary Entry") [elementary data type](javascript:call_link\('abenelementary_data_type_glosry.htm'\) "Glossary Entry") statically or dynamically and defines the length and the number of [decimal places](javascript:call_link\('abenfractional_portion_glosry.htm'\) "Glossary Entry").
+-   [abap\_type*|*(name) *\[*LENGTH len*\]* *\[*DECIMALS dec*\]*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_built_in.htm)
+    Specifies a [built-in](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredefined_data_type_glosry.htm "Glossary Entry") [elementary data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenelementary_data_type_glosry.htm "Glossary Entry") statically or dynamically and defines the length and the number of [decimal places](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfractional_portion_glosry.htm "Glossary Entry").
     
--   [*\[*LINE OF*\]* type*|*(name)](javascript:call_link\('abapcreate_data_existing.htm'\))
+-   [*\[*LINE OF*\]* type*|*(name)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_existing.htm)
     Specifies a defined data type statically or dynamically. Here, LINE OF can be used to reference the row type of an internal table.
     
--   [REF TO](javascript:call_link\('abapcreate_data_reference.htm'\))
+-   [REF TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_reference.htm)
     Creates a reference variable.
     
--   [*{**\[*STANDARD*\]* TABLE*}**|**{*SORTED TABLE*}**|**{*HASHED TABLE*}*](javascript:call_link\('abaptypes_tabkind.htm'\))
+-   [*{**\[*STANDARD*\]* TABLE*}**|**{*SORTED TABLE*}**|**{*HASHED TABLE*}*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_tabkind.htm)
     Creates an internal table, see DATA.
     
--   [WITH *{**\[*UNIQUE*|*NON-UNIQUE*\]* KEY*{*comp1 comp2 ...*}**|*(keytab) *}**|**{*DEFAULT KEY*}*](javascript:call_link\('abapcreate_data_itab.htm'\))
+-   [WITH *{**\[*UNIQUE*|*NON-UNIQUE*\]* KEY*{*comp1 comp2 ...*}**|*(keytab) *}**|**{*DEFAULT KEY*}*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_itab.htm)
     Defines the primary table key. Here, components can be specified dynamically in an internal table keytab.
     
--   [WITH EMPTY KEY](javascript:call_link\('abapcreate_data_itab.htm'\))
+-   [WITH EMPTY KEY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_itab.htm)
     Defines an empty primary table key.
     
--   [INITIAL SIZE n](javascript:call_link\('abapcreate_data_itab.htm'\))
+-   [INITIAL SIZE n](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_itab.htm)
     Defines the initial memory usage, see DATA.
     
--   [HANDLE handle](javascript:call_link\('abapcreate_data_handle.htm'\))
-    Specifies the data type using a handle reference to an [RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry") [type description object](javascript:call_link\('abentype_object_glosry.htm'\) "Glossary Entry").
+-   [HANDLE handle](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_handle.htm)
+    Specifies the data type using a handle reference to an [RTTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry") [type description object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_object_glosry.htm "Glossary Entry").

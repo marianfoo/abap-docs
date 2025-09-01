@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Extracts](javascript:call_link\('abenabap_extracts_extended.htm'\)) →  [Examples of Extracts](javascript:call_link\('abenextract_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_extracts_extended.htm) →  [Examples of Extracts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_abexas.htm) → 
 
 Extracts, Processing
 
@@ -72,4 +72,4 @@ START-OF-SELECTION.
 
 Description
 
-This example continues the example given under [EXTRACT](javascript:call_link\('abapextract.htm'\)). After the extract dataset is filled, it is sorted by field group header and, afterwards, control level processing is executed in a LOOP. Here, structured output is created.
+This example continues the example given under [EXTRACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapextract.htm). After the extract dataset is filled, it is sorted by field group header and, afterwards, control level processing is executed in a LOOP. Here, structured output is created.

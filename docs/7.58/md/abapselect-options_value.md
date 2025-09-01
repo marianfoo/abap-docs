@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Selection Screens - Create](javascript:call_link\('abenselection_screen_create.htm'\)) →  [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselection_screen.htm) →  [Selection Screens - Create](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselection_screen_create.htm) →  [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect-options.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SELECT-OPTIONS%2C%20value_options%2C%20ABAPSELECT-OPTIONS_VALUE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SELECT-OPTIONS, value\_options
 
-[Short Reference](javascript:call_link\('abapselect-options_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect-options_shortref.htm)
 
 Syntax
 
@@ -28,7 +28,7 @@ Additions:
 
 Effect
 
-These additions can be used to define a start value that allows lowercase letters or used to bind a search help or a [SPA/GPA parameter](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry").
+These additions can be used to define a start value that allows lowercase letters or used to bind a search help or a [SPA/GPA parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenspa_gpa_parameter_glosry.htm "Glossary Entry").
 
 Addition 1   
 
@@ -36,7 +36,7 @@ Addition 1  
 
 Effect
 
-This addition defines [start values](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry") for the columns in the first line of the [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry"). Without the addition DEFAULT, type-dependent [initial values](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry") are used as start values.
+This addition defines [start values](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstart_value_glosry.htm "Glossary Entry") for the columns in the first line of the [selection table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselection_table_glosry.htm "Glossary Entry"). Without the addition DEFAULT, type-dependent [initial values](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_value_glosry.htm "Glossary Entry") are used as start values.
 
 val1 and val2 are used to define start values for columns low and high. These start values can either be specified as literals or as previously defined data objects. If the data type of the specified start values does not match the data type of the columns, these are converted according to the conversion rules.
 
@@ -44,11 +44,11 @@ The addition OPTION is used to define the start value for the option column. If 
 
 The addition SIGN is used to define the start value for the sign column. Either i or e must be specified directly for sgn. If the addition SIGN is not used, the content of column sign is set to I.
 
-The times at which the start values are passed to the first line of the selection table are processed in the same way as with the addition DEFAULT to the [PARAMETERS](javascript:call_link\('abapparameters_value.htm'\)) statement. If the selection table is not initial when the transfer takes place, the start values are not transferred to the first line. Only the [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") in the selection table is filled with these values, which does not affect the [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry").
+The times at which the start values are passed to the first line of the selection table are processed in the same way as with the addition DEFAULT to the [PARAMETERS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapparameters_value.htm) statement. If the selection table is not initial when the transfer takes place, the start values are not transferred to the first line. Only the [header line](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenheader_line_glosry.htm "Glossary Entry") in the selection table is filled with these values, which does not affect the [selection criterion](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselection_criterion_glosry.htm "Glossary Entry").
 
 Hints
 
--   The associated input fields on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") are only filled with the start values if the first line in the selection table is not changed before the selection screen is sent. The system displays the value contained in the selection table when the event [AT SELECTION-SCREEN OUTPUT](javascript:call_link\('abapat_selection-screen.htm'\)) has been processed. Start values for multiple selection can only be defined by inserting lines in the selection table.
+-   The associated input fields on the [selection screen](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselection_screen_glosry.htm "Glossary Entry") are only filled with the start values if the first line in the selection table is not changed before the selection screen is sent. The system displays the value contained in the selection table when the event [AT SELECTION-SCREEN OUTPUT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_selection-screen.htm) has been processed. Start values for multiple selection can only be defined by inserting lines in the selection table.
 -   When specifying start values, these must have the internal format of the ABAP values, and not the output format of the screen layout display.
 
 Addition 2   
@@ -61,7 +61,7 @@ This addition prevents the content of character-like fields from being converted
 
 Hint
 
-If a selection criterion is connected to a [DDIC domain](javascript:call_link\('abendomain_glosry.htm'\) "Glossary Entry"), the conversion to upper case letters can also be prevented by the respective [semantic property of the domain](javascript:call_link\('abenddic_domains_sema.htm'\)).
+If a selection criterion is connected to a [DDIC domain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendomain_glosry.htm "Glossary Entry"), the conversion to upper case letters can also be prevented by the respective [semantic property of the domain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_domains_sema.htm).
 
 Addition 3   
 
@@ -69,7 +69,7 @@ Addition 3  
 
 Effect
 
-This addition associates the input fields for the selection criterion with a search help search\_help from the ABAP Dictionary. The name of the search help must be specified directly. The addition has the same effect on the input fields as when it is used with a [PARAMETERS](javascript:call_link\('abapparameters_value.htm'\)) statement for an input field for a selection parameter.
+This addition associates the input fields for the selection criterion with a search help search\_help from the ABAP Dictionary. The name of the search help must be specified directly. The addition has the same effect on the input fields as when it is used with a [PARAMETERS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapparameters_value.htm) statement for an input field for a selection parameter.
 
 Addition 4   
 
@@ -77,9 +77,9 @@ Addition 4  
 
 Effect
 
-This addition associates the first input field with an [SPA/GPA parameter](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry") in the [user memory](javascript:call_link\('abenuser_memory_glosry.htm'\) "Glossary Entry"). The ID pid of the SPA/GPA parameter must be specified directly and can contain a maximum of 20 characters. The addition has the same effect on the first input field as when it is used with a [PARAMETERS](javascript:call_link\('abapparameters_value.htm'\)) statement for an input field for a selection parameter.
+This addition associates the first input field with an [SPA/GPA parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenspa_gpa_parameter_glosry.htm "Glossary Entry") in the [user memory](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_memory_glosry.htm "Glossary Entry"). The ID pid of the SPA/GPA parameter must be specified directly and can contain a maximum of 20 characters. The addition has the same effect on the first input field as when it is used with a [PARAMETERS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapparameters_value.htm) statement for an input field for a selection parameter.
 
 If the specified ID pid is not in the DDIC database table TPARA, the extended program check reports an error.
 
 Continue
-![Example](exa.gif "Example") [Selection Screens - Default Values for Selection Criteria](javascript:call_link\('abensel_screen_sel_opt_def_abexa.htm'\))
+![Example](exa.gif "Example") [Selection Screens - Default Values for Selection Criteria](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensel_screen_sel_opt_def_abexa.htm)

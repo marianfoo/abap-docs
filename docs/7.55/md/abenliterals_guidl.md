@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_type_obj_guidl.htm) → 
 
 Literals
 
@@ -21,7 +21,7 @@ A literal is a data object defined in the source code of a program by specifying
 
 -   String literals, which are enclosed in backquotes (\`). The data type is string.
 
-In numeric literals, neither decimal separators nor scientific notation with mantissa and exponent are possible. Character literals with [correct content](javascript:call_link\('abennumbers_guidl.htm'\) "Guideline") must be used to represent these types of numeric values.
+In numeric literals, neither decimal separators nor scientific notation with mantissa and exponent are possible. Character literals with [correct content](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumbers_guidl.htm "Guideline") must be used to represent these types of numeric values.
 
 Rule
 
@@ -35,7 +35,7 @@ Certain values are required in more than one place in the source code. It is the
 
 It can also be a good idea to create an appropriate constant for values used in only one place. The name of the constant gives the values semantics that make the source code easier to understand.
 
-Numeric literals that appear in source code seemingly without any semantic meaning are often known as "magic numbers". Avoid using these in ABAP programs. When using character literals, [translatability](javascript:call_link\('abensystem_text_guidl.htm'\) "Guideline") is also important.
+Numeric literals that appear in source code seemingly without any semantic meaning are often known as "magic numbers". Avoid using these in ABAP programs. When using character literals, [translatability](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_text_guidl.htm "Guideline") is also important.
 
 Exception
 

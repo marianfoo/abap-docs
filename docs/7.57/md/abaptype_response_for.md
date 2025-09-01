@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_rap_other.htm) →  [ABAP for RAP, BDEF Derived Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrpm_derived_types.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: TYPE RESPONSE FOR, ABAPTYPE_RESPONSE_FOR, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
@@ -33,7 +33,7 @@ MAPPED
 
 REPORTED
 
-[MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\))
+[MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_entity_entities.htm)
 
 X
 
@@ -41,15 +41,7 @@ X
 
 X
 
-[READ ENTITY, ENTITIES](javascript:call_link\('abapread_entity_entities.htm'\))
-
-X
-
- 
-
-X
-
-[COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\))
+[READ ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_entity_entities.htm)
 
 X
 
@@ -57,7 +49,7 @@ X
 
 X
 
-[GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\))
+[COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit_entities.htm)
 
 X
 
@@ -65,7 +57,15 @@ X
 
 X
 
-[SET LOCKS](javascript:call_link\('abapset_locks_entity.htm'\))
+[GET PERMISSIONS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_permissions.htm)
+
+X
+
+ 
+
+X
+
+[SET LOCKS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locks_entity.htm)
 
 X
 
@@ -75,11 +75,11 @@ X
 
 A variable typed with the respective structured data type represents a deep structure. The deep structure contains one internal table as nested component for each entity of the RAP BO (see the Further Information section further down). Therefore, all information on all entities of a RAP BO can be retrieved at once.
 
-The nested internal tables are of type [TYPE TABLE FOR](javascript:call_link\('abaptype_table_for.htm'\)) (plus EARLY or LATE respectively) and comprise special components.
+The nested internal tables are of type [TYPE TABLE FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_table_for.htm) (plus EARLY or LATE respectively) and comprise special components.
 
-The addition EARLY is the default, even if not explicitly specified. For example, if response parameters are explicitly declared with the type TYPE RESPONSE FOR FAILED, they automatically have the type TYPE RESPONSE FOR FAILED EARLY. The addition LATE is only possible if [late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\)) is defined for a RAP BO or, by default, if the long form of the COMMIT ENTITIES statement, [COMMIT ENTITIES RESPONSE OF](javascript:call_link\('abapemlcommit_entities_long.htm'\)), is used.
+The addition EARLY is the default, even if not explicitly specified. For example, if response parameters are explicitly declared with the type TYPE RESPONSE FOR FAILED, they automatically have the type TYPE RESPONSE FOR FAILED EARLY. The addition LATE is only possible if [late numbering](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_late_numbering.htm) is defined for a RAP BO or, by default, if the long form of the COMMIT ENTITIES statement, [COMMIT ENTITIES RESPONSE OF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapemlcommit_entities_long.htm), is used.
 
-The following overview shows the variants of the structured data type, its purpose as well as the nested internal tables that are themselves typed with a BDEF derived type and their special components. See the details on the components in the documentation for [Components of Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)).
+The following overview shows the variants of the structured data type, its purpose as well as the nested internal tables that are themselves typed with a BDEF derived type and their special components. See the details on the components in the documentation for [Components of Derived Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_comp.htm).
 
 Types of Response Structures
 
@@ -87,7 +87,7 @@ Purpose
 
 Types of Nested Internal Tables
 
-[Components of Nested Internal Tables](javascript:call_link\('abapderived_types_comp.htm'\))
+[Components of Nested Internal Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_comp.htm)
 
 TYPE RESPONSE FOR FAILED
 TYPE RESPONSE FOR FAILED EARLY
@@ -113,7 +113,7 @@ TYPE TABLE FOR FAILED LATE
 %update
 In case of a table typed with the addition LATE, %cid is not available.
 If late numbering is defined for a BO, the component %pid is available.
-In case of a [draft-enabled BO](javascript:call_link\('abendraft_rap_bo_glosry.htm'\) "Glossary Entry"), the component %is\_draft is available.
+In case of a [draft-enabled BO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendraft_rap_bo_glosry.htm "Glossary Entry"), the component %is\_draft is available.
 
 TYPE RESPONSE FOR MAPPED
 TYPE RESPONSE FOR MAPPED EARLY
@@ -164,16 +164,16 @@ In case of a draft-enabled BO, the component %is\_draft is available.
 
 Further Information
 
-The following image shows the Variables tab in the debug mode of [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"). The variables ls\_report, ls\_map and ls\_fail, are typed with the structured data type TYPE RESPONSE FOR. Once expanded, the nested internal tables for each of the entities contained in the [composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") of DEMO\_MANAGED\_ROOT are revealed. In this case, there are entries for one entity available. See the context of the image in the executable example [ABAP EML - TYPE RESPONSE FOR](javascript:call_link\('abeneml_responses_2_abexa.htm'\)) that demonstrates the response parameters.
+The following image shows the Variables tab in the debug mode of [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry"). The variables ls\_report, ls\_map and ls\_fail, are typed with the structured data type TYPE RESPONSE FOR. Once expanded, the nested internal tables for each of the entities contained in the [composition tree](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") of DEMO\_MANAGED\_ROOT are revealed. In this case, there are entries for one entity available. See the context of the image in the executable example [ABAP EML - TYPE RESPONSE FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_responses_2_abexa.htm) that demonstrates the response parameters.
 
 ![Figure](abdoc_eml_responses.png)
 
-See further information and rules on response parameters in implementations of the [RAP BO provider](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry") in the Development guide for the ABAP RESTful Application Programming Model, section General RAP BO Implementation Contract.
+See further information and rules on response parameters in implementations of the [RAP BO provider](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry") in the Development guide for the ABAP RESTful Application Programming Model, section General RAP BO Implementation Contract.
 
 Executable Example
 
--   The example [ABAP EML - TYPE RESPONSE FOR](javascript:call_link\('abeneml_responses_2_abexa.htm'\)) demonstrates the response parameters with a simple managed RAP BO. To show content for the responses, errors are intentionally produced in the context of an ABAP EML MODIFY statement trying to create new instances.
--   The example [ABAP EML - Responses](javascript:call_link\('abeneml_responses_abexa.htm'\)) demonstrates the response parameters using modify operations to change a simple managed RAP BO.
+-   The example [ABAP EML - TYPE RESPONSE FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_responses_2_abexa.htm) demonstrates the response parameters with a simple managed RAP BO. To show content for the responses, errors are intentionally produced in the context of an ABAP EML MODIFY statement trying to create new instances.
+-   The example [ABAP EML - Responses](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_responses_abexa.htm) demonstrates the response parameters using modify operations to change a simple managed RAP BO.
 
 Continue
-![Example](exa.gif "Example") [ABAP EML - TYPE RESPONSE FOR](javascript:call_link\('abeneml_responses_2_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP EML - TYPE RESPONSE FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_responses_2_abexa.htm)

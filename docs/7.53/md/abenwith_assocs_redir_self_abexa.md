@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [WITH](javascript:call_link\('abapwith.htm'\)) →  [WITH Examples](javascript:call_link\('abenwith_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Reads](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_reading.htm) →  [WITH](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm) →  [WITH Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwith_abexas.htm) → 
 
 WITH, Publishing Associations with a Recursive Redirect
 
-This example demonstrates the addition REDIRECT of [WITH ASSOCIATIONS](javascript:call_link\('abapwith_associations.htm'\)) where the redirect is made to the current CTE.
+This example demonstrates the addition REDIRECT of [WITH ASSOCIATIONS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_associations.htm) where the redirect is made to the current CTE.
 
 Source Code
 
@@ -222,7 +222,7 @@ START-OF-SELECTION.
 
 Description
 
-As in the example [Publishing Association with a Redirect](javascript:call_link\('abenwith_assocs_redirect_abexa.htm'\)), a common table expression +cte accesses the CDS view DEMO\_CDS\_PUBLISH\_ASSOC\_1 and publishes its association \_demo\_join2. Here, however, the redirect is made to the current common table expression and not to a preceding common table expression. This expression specifies the target data source demo\_join2 of the published association twice as an additional data source under the names src1 and src2.
+As in the example [Publishing Association with a Redirect](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwith_assocs_redirect_abexa.htm), a common table expression +cte accesses the CDS view DEMO\_CDS\_PUBLISH\_ASSOC\_1 and publishes its association \_demo\_join2. Here, however, the redirect is made to the current common table expression and not to a preceding common table expression. This expression specifies the target data source demo\_join2 of the published association twice as an additional data source under the names src1 and src2.
 
 -   In the first WITH statement, the data source is specified using src1.
 

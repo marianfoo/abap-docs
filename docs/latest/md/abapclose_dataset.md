@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfile_interface_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CLOSE%20DATASET%2C%20ABAPCLOSE_DATASET%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CLOSE DATASET
 
-[Short Reference](javascript:call_link\('abapclose_dataset_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclose_dataset_shortref.htm)
 
 Syntax
 
@@ -18,7 +18,7 @@ CLOSE DATASET dset.
 
 Effect
 
-This statement closes the file specified in dset. dset expects a character-like data object that contains the [physical name](javascript:call_link\('abenphysical_filename_glosry.htm'\) "Glossary Entry") of the file. If the file is already closed or does not exist, the statement is ignored and the return code sy-subrc is set to 0.
+This statement closes the file specified in dset. dset expects a character-like data object that contains the [physical name](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenphysical_filename_glosry.htm "Glossary Entry") of the file. If the file is already closed or does not exist, the statement is ignored and the return code sy-subrc is set to 0.
 
 If the operating system buffers data before it is written to a file and there is still data in the buffer, this data is written to the file before closing.
 
@@ -28,10 +28,10 @@ An opened file that was not explicitly closed using CLOSE DATASET is automatical
 
 Return Code
 
--   If a file was opened without the [FILTER](javascript:call_link\('abapopen_dataset_os_addition.htm'\)) addition, sy-subrc always contains the value 0 if no exception is raised.
+-   If a file was opened without the [FILTER](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_os_addition.htm) addition, sy-subrc always contains the value 0 if no exception is raised.
 -   If a file was opened using the FILTER addition, sy-subrc contains the return code of the filter program, which is returned by the operating system. This value is generally 0 if the statement was executed successfully.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 

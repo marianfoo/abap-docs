@@ -4,19 +4,19 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Overview](javascript:call_link\('abenabap_objects_oview.htm'\)) →  [Classes](javascript:call_link\('abenclasses.htm'\)) →  [Components of Classes](javascript:call_link\('abenclass_components.htm'\)) →  [Methods of Classes](javascript:call_link\('abenclass_methods.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_oview.htm) →  [Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses.htm) →  [Components of Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_components.htm) →  [Methods of Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_methods.htm) → 
 
 Interface Parameters in Methods
 
 Interface parameters in methods are input parameters (IMPORTING, CHANGING parameters) and output parameters (EXPORTING, CHANGING, RETURNING parameters). In declarations with the statements
 
--   [METHODS](javascript:call_link\('abapmethods.htm'\))
+-   [METHODS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods.htm)
 
--   [CLASS-METHODS](javascript:call_link\('abapclass-methods.htm'\))
+-   [CLASS-METHODS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-methods.htm)
 
--   [EVENTS](javascript:call_link\('abapevents.htm'\))
+-   [EVENTS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapevents.htm)
 
--   [CLASS-EVENTS](javascript:call_link\('abapclass-events.htm'\))
+-   [CLASS-EVENTS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-events.htm)
 
 the following attributes are determined:
 
@@ -26,7 +26,7 @@ With the exception of the return value (RETURNING parameters), parameters can be
 
 Typing parameters
 
-All parameters must be [typed](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") during declaration using the addition TYPE or the addition LIKE. The following entries are allowed after TYPE as parameter types:
+All parameters must be [typed](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_glosry.htm "Glossary Entry") during declaration using the addition TYPE or the addition LIKE. The following entries are allowed after TYPE as parameter types:
 
 Optional parameters
 

@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Editing List Buffers](javascript:call_link\('abenabap_lists_complex.htm'\)) →  [MODIFY LINE](javascript:call_link\('abapmodify_line.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpro_list.htm) →  [Lists - Editing List Buffers](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_lists_complex.htm) →  [MODIFY LINE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20MODIFY%20LINE%2C%20source%2C%20ABAPMODIFY_LINE_MODIFICATION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 MODIFY LINE, source
 
-[Short Reference](javascript:call_link\('abapmodify_line_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line_shortref.htm)
 
 Syntax
 
@@ -60,6 +60,6 @@ Addition 4  
 
 Effect
 
-For ext\_format\_options, one or more additions of the statement [FORMAT](javascript:call_link\('abapformat.htm'\)) can be specified. The addition FRAMES cannot be used. The addition LINE FORMAT formats the whole list line accordingly; FIELD FORMAT formats only the output areas of the dobj1 dobj2 ... data objects displayed in the list line. If specified, FIELD FORMAT overrides LINE FORMAT.
+For ext\_format\_options, one or more additions of the statement [FORMAT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapformat.htm) can be specified. The addition FRAMES cannot be used. The addition LINE FORMAT formats the whole list line accordingly; FIELD FORMAT formats only the output areas of the dobj1 dobj2 ... data objects displayed in the list line. If specified, FIELD FORMAT overrides LINE FORMAT.
 
 If data objects dobj1 dobj2... appear more than once in a line with the same name, only the first one is processed. If a data object dobj1 dobj2 ... does not exist at all, the specification is ignored.

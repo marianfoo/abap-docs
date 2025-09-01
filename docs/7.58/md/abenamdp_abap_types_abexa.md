@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20AMDP%20-%20Access%20to%20ABAP%20Types%2C%20ABENAMDP_ABAP_TYPES_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 AMDP - Access to ABAP Types
 
-The example demonstrates how to access ABAP types using the [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry") [$ABAP.type](javascript:call_link\('abenamdp_abap_types.htm'\)).
+The example demonstrates how to access ABAP types using the [AMDP macro](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_macro_glosry.htm "Glossary Entry") [$ABAP.type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_abap_types.htm).
 
 Source Code   
 
@@ -33,7 +33,7 @@ ENDCLASS.
 
 Description   
 
-This example calls the following [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") of the class CL\_DEMO\_AMDP\_ABAP\_TYPES:
+This example calls the following [AMDP method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_method_glosry.htm "Glossary Entry") of the class CL\_DEMO\_AMDP\_ABAP\_TYPES:
 
 METHOD demo\_abap\_types BY DATABASE PROCEDURE
                        FOR HDB LANGUAGE SQLSCRIPT.
@@ -52,6 +52,6 @@ METHOD demo\_abap\_types BY DATABASE PROCEDURE
   itab = select \* from :mytab;
 ENDMETHOD.
 
-In the method, a local table variable mytab is declared using DECLARE in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry"). All columns of the table variable are declared using the [AMDP](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry") macro [$ABAP.type](javascript:call_link\('abenamdp_abap_types.htm'\)) with reference to ABAP types. The first four ABAP types, MANDT, SYST\_UNAME, SYST\_LANGU, and SYST\_DATUM, are defined in the ABAP Dictionary. Type line\_text comes from a TYPES statement of its own class. f stands for the built-in numeric ABAP type.
+In the method, a local table variable mytab is declared using DECLARE in [SQLScript](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_glosry.htm "Glossary Entry"). All columns of the table variable are declared using the [AMDP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_macro_glosry.htm "Glossary Entry") macro [$ABAP.type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_abap_types.htm) with reference to ABAP types. The first four ABAP types, MANDT, SYST\_UNAME, SYST\_LANGU, and SYST\_DATUM, are defined in the ABAP Dictionary. Type line\_text comes from a TYPES statement of its own class. f stands for the built-in numeric ABAP type.
 
 The table variable is filled using assignments to columns with one row, where the specification of the AMDP macro $ABAP.type is also shown in a CAST expression. Finally, the content of the table variable is imported into the tabular output parameter itab, whose row type is made up of components of the same ABAP types, which are used to define the table variable.

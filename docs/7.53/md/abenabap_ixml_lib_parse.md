@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Class Libraries for XML](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml.htm) →  [Class Libraries for XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_libs.htm) →  [iXML Library](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib.htm) → 
 
 iXML Library - Parsing
 
@@ -19,22 +19,22 @@ DATA(parser) = ixml->create\_parser(
 
 The static type of the reference variable parser is then the interface IF\_IXML\_PARSER. The parser requires the following input parameters:
 
--   The input stream [istream](javascript:call_link\('abenabap_ixml_lib_input_output.htm'\)) (to be parsed).
+-   The input stream [istream](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_input_output.htm) (to be parsed).
 
--   An XML document [document](javascript:call_link\('abenabap_ixml_lib_input_output.htm'\)), to which the stream is parsed.
+-   An XML document [document](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_input_output.htm), to which the stream is parsed.
 
--   A factory [stream\_factory](javascript:call_link\('abenabap_ixml_lib_input_output.htm'\)) must be specified. This enables the parser to create appropriate streams if external sources are addressed in the parsed document.
+-   A factory [stream\_factory](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_input_output.htm) must be specified. This enables the parser to create appropriate streams if external sources are addressed in the parsed document.
 
-A parser created in this way works like an iterator on the input stream. XML data can be [parsed to a DOM representation](javascript:call_link\('abenabap_ixml_lib_parse_dom.htm'\)) in a single action or [sequential parsing](javascript:call_link\('abenabap_ixml_lib_parse_event.htm'\)) can be used, where the parser stops after certain steps and passes control to the application.
+A parser created in this way works like an iterator on the input stream. XML data can be [parsed to a DOM representation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_parse_dom.htm) in a single action or [sequential parsing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_parse_event.htm) can be used, where the parser stops after certain steps and passes control to the application.
 
-Alongside the parsers created using CREATE\_PARSER, the factory method [CREATE\_TOKEN\_PARSER](javascript:call_link\('abenabap_ixml_lib_parse_token.htm'\)) can be used to create a token parser for direct parsing to ABAP data objects.
+Alongside the parsers created using CREATE\_PARSER, the factory method [CREATE\_TOKEN\_PARSER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_parse_token.htm) can be used to create a token parser for direct parsing to ABAP data objects.
 
 Note
 
 A parser is only valid once for the associated input stream and the associated XML document. Once it has parsed the input stream to a document, the parser can be passed to the garbage collector. A parser cannot be reused for the same XML data or for any other data.
 
 Continue
-[iXML Library - Complete Parse to DOM](javascript:call_link\('abenabap_ixml_lib_parse_dom.htm'\))
-[iXML Library - Sequential Parsing](javascript:call_link\('abenabap_ixml_lib_parse_event.htm'\))
-[iXML Library - Parsing to Data Objects](javascript:call_link\('abenabap_ixml_lib_parse_token.htm'\))
-[iXML Library - Troubleshooting After Parsing](javascript:call_link\('abenabap_ixml_lib_parse_error.htm'\))
+[iXML Library - Complete Parse to DOM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_parse_dom.htm)
+[iXML Library - Sequential Parsing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_parse_event.htm)
+[iXML Library - Parsing to Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_parse_token.htm)
+[iXML Library - Troubleshooting After Parsing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_parse_error.htm)

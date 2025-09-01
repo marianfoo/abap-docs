@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [CDS BDL - Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [CDS BDL - Entity Behavior Body](javascript:call_link\('abenbdl_body.htm'\)) →  [CDS BDL - determination](javascript:call_link\('abenbdl_determinations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_rap_bo.htm) →  [CDS BDL - Entity Behavior Definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_define_beh.htm) →  [CDS BDL - Entity Behavior Body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_body.htm) →  [CDS BDL - determination](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_determinations.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - Determination, ABENBDL_DETERMINATION_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%
 0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -68,7 +68,7 @@ on \_SalesOrder.SoKey = $projection.ParentKey
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_SALES\_CDS\_SO\_2 is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_SALES\_CDS\_SO\_2 is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_sales\_cds\_so\_2 unique;
 strict(2);
@@ -122,7 +122,7 @@ Definition of determinations
 
 The following determinations are defined in the root entity:
 
--   setID is a determination on save that is triggered whenever a new instance of the root entity is created. It assigns values to the semantic key field SalesOrderId during the [save sequence](javascript:call_link\('abenrap_save_seq_glosry.htm'\) "Glossary Entry"). The technical key field SoKey is populated by means of internal numbering using the statement [numbering:managed](javascript:call_link\('abenbdl_field_numbering.htm'\)).
+-   setID is a determination on save that is triggered whenever a new instance of the root entity is created. It assigns values to the semantic key field SalesOrderId during the [save sequence](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_save_seq_glosry.htm "Glossary Entry"). The technical key field SoKey is populated by means of internal numbering using the statement [numbering:managed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_field_numbering.htm).
 -   setStatustoNew sets the status of a newly created sales order to O for open. It is triggered whenever a new sales order is created.
 -   TotalPrice sums up the price of all items of a sales order. It is triggered whenever a new sales order is created.
 
@@ -132,11 +132,11 @@ The child entity defines one determination on modify:
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_SALES\_CDS\_SO\_2. The actual implementation takes place in the CCIMP include and it works as follows:
+For the above CDS behavior definition, one [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_SALES\_CDS\_SO\_2. The actual implementation takes place in the CCIMP include and it works as follows:
 
 -   setID generates a random value of type i for the field SalesOrderId of each BO instance.
 -   setStatustoNew inserts the value O for Open into column Status for each newly created BO instance.
--   TotalPrice reads the fields GrossAmount and Quantity from the child entity via a [read-by-association operation](javascript:call_link\('abenbdl_association.htm'\)). It first calculates the total price per item and then sums up the prices of all items for each sales order to get the overall price.
+-   TotalPrice reads the fields GrossAmount and Quantity from the child entity via a [read-by-association operation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_association.htm). It first calculates the total price per item and then sums up the prices of all items for each sales order to get the overall price.
 -   TotalPrice\_1 works exactly like TotalPrice, but it has different trigger conditions.
 
 Source Code   
@@ -186,7 +186,7 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program:
 
 -   Two BO instances are created with the statement MODIFY ENTITY. Two child entities are created for each root entity instance so both sales orders have two sales order items.
 -   All three determinations of the root entity are triggered by the creation of new instances and they insert values into the fields ID, LIFECYCLE\_STATUS, and AMOUNT\_SUM.

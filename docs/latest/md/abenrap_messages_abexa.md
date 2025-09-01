@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Examples for BDEF Derived Type Components](javascript:call_link\('abenderived_types_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_comp.htm) →  [Examples for BDEF Derived Type Components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_types_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20Messages%3A%20Transition%20and%20State%20Messages%2C%20ABENRAP_MESSAGES_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impr
 ovement:)
 
 RAP Messages: Transition and State Messages
 
-This example demonstrates [RAP transition](javascript:call_link\('abenrap_trans_mes_glosry.htm'\) "Glossary Entry") and [state messages](javascript:call_link\('abenrap_state_mes_glosry.htm'\) "Glossary Entry") using a [managed](javascript:call_link\('abenbdl_impl_type.htm'\)), [draft-enabled RAP business object](javascript:call_link\('abendraft_rap_bo_glosry.htm'\) "Glossary Entry").
+This example demonstrates [RAP transition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_trans_mes_glosry.htm "Glossary Entry") and [state messages](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_state_mes_glosry.htm "Glossary Entry") using a [managed](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_impl_type.htm), [draft-enabled RAP business object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendraft_rap_bo_glosry.htm "Glossary Entry").
 
 Data model
 
@@ -37,7 +37,7 @@ define root view entity demo\_draft\_m
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_DRAFT\_M is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_DRAFT\_M is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_draft\_m unique;
 strict ( 2 );
@@ -67,7 +67,7 @@ authorization master ( global )
 
 Behavior implementation
 
-For the above RAP behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_DRAFT\_M. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. A validation implementation is included. For more information, see the comments in the code.
+For the above RAP behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_DRAFT\_M. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. A validation implementation is included. For more information, see the comments in the code.
 
 Source Code   
 

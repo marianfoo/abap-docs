@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and OLE](javascript:call_link\('abenole2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and OLE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenole2.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CREATE OBJECT, OLE, ABAPCREATE_OBJECT_OLE2, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0
 D%0ASuggestion for improvement:)
 
 CREATE OBJECT, OLE
 
-[Short Reference](javascript:call_link\('abapcreate_object_ole_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object_ole_shortref.htm)
 
 Syntax
 
@@ -24,7 +24,7 @@ Additions:
 
 Effect
 
-This statement creates the automation object ole of the automation class class. The object ole must be of type ole2\_object, which is defined in the ABAP Dictionary in the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") OLE2. The automation class class expects a character-like data object that contains the name of the class.
+This statement creates the automation object ole of the automation class class. The object ole must be of type ole2\_object, which is defined in the ABAP Dictionary in the [type pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_pool_glosry.htm "Glossary Entry") OLE2. The automation class class expects a character-like data object that contains the name of the class.
 
 The system automatically executes an authorization check if the column AUTH\_CHK in the DDIC database table TOLE contains the value X for the class. The authorization status can be checked with the function module AUTHORITY\_CHECK\_OLE.
 
@@ -62,7 +62,7 @@ Addition 1  
 
 Effect
 
-When using the addition NO FLUSH, requests are collected in the automation buffer until the function module FLUSH, which is provided for this purpose, is called and the FREE OBJECT statement is passed or, at the most, until a change of [screen layout](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry"). Only then are they passed to the automation server in the current presentation layer for asynchronous execution. Without this addition, the flush is executed, and the pass takes place as soon as a statement that does not belong to the automation command set is reached. In the ABAP Debugger, the return values of the individual automation statements are not available until after the pass to the presentation layer.
+When using the addition NO FLUSH, requests are collected in the automation buffer until the function module FLUSH, which is provided for this purpose, is called and the FREE OBJECT statement is passed or, at the most, until a change of [screen layout](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_glosry.htm "Glossary Entry"). Only then are they passed to the automation server in the current presentation layer for asynchronous execution. Without this addition, the flush is executed, and the pass takes place as soon as a statement that does not belong to the automation command set is reached. In the ABAP Debugger, the return values of the individual automation statements are not available until after the pass to the presentation layer.
 
 Addition 2   
 

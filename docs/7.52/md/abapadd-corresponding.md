@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Calculation Statements](javascript:call_link\('abencomputing_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_internal_obsolete.htm) →  [Obsolete Calculation Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomputing_obsolete.htm) → 
 
 ADD-CORRESPONDING
 
-[Quick Reference](javascript:call_link\('abapadd-corresponding_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapadd-corresponding_shortref.htm)
 
 Obsolete Syntax
 
@@ -18,9 +18,9 @@ Effect
 
 This statement, which is not allowed in classes, adds structures by component. Structures must be specified for struc1 and struc2. All components of the same name in struc1 and struct2 are added in pairs and the result is assigned to the respective component of struct2.
 
-The names are compared, as in the statement [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)). For each component pair with the same name comp, the statement
+The names are compared, as in the statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove-corresponding.htm). For each component pair with the same name comp, the statement
 
-[ADD](javascript:call_link\('abapadd.htm'\)) struc1-comp TO struc2-comp.
+[ADD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapadd.htm) struc1-comp TO struc2-comp.
 
 is executed, and the appropriate conversions are performed, if necessary.
 
@@ -46,7 +46,7 @@ DATA: BEGIN OF struc1,
 ...
 ADD-CORRESPONDING struc1 TO struc2.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

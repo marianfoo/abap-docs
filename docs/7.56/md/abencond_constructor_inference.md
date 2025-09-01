@@ -4,13 +4,13 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Conditional Expressions](javascript:call_link\('abenconditional_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_flow_logic.htm) →  [Conditional Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconditional_expressions.htm) → 
 
 COND, SWITCH, Type Inference for Actual Parameters
 
 If the following constructor expression is passed to generically typed formal parameters as an actual parameter using the character # as a symbol for the operand type, the following type inference is performed for the character #:
 
-[COND](javascript:call_link\('abenconditional_expression_cond.htm'\))*|*[SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\)) #( ... THEN ... )
+[COND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconditional_expression_cond.htm)*|*[SWITCH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconditional_expression_switch.htm) #( ... THEN ... )
 
 is passed to generically typed formal parameters as an actual parameter using the character # as a symbol for the operand type, the following type inference is performed for the character #:
 
@@ -20,7 +20,7 @@ is passed to generically typed formal parameters as an actual parameter using th
     -   xstring for xsequence
     -   decfloat34 for numeric and decfloat
     -   p with the length 8 and no decimal places if p is generic
-    -   The [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry") for a standard table type with generic primary table key
+    -   The [standard key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_key_glosry.htm "Glossary Entry") for a standard table type with generic primary table key
         
         Generic data types other than table types that are explicitly generic with respect to their secondary table keys cannot be made more concrete and produce a syntax error. More specifically, this applies to the types c, n, and x with generic lengths.
         
@@ -31,7 +31,7 @@ The rules for derivations of the type where # is specified for actual parameters
 
 Example
 
-The operator COND generates a result of type string in this case. The generic parameter p has this type during the execution of the method, which is displayed by the value "g" returned by [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)). The method call leads to a corresponding syntax warning.
+The operator COND generates a result of type string in this case. The generic parameter p has this type during the execution of the method, which is displayed by the value "g" returned by [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdescribe_field.htm). The method call leads to a corresponding syntax warning.
 
 CLASS demo DEFINITION.
   PUBLIC SECTION.
@@ -54,4 +54,4 @@ START-OF-SELECTION.
 
 Executable Example
 
-[Conditional Operator, Type Inference](javascript:call_link\('abencond_type_inference_abexa.htm'\))
+[Conditional Operator, Type Inference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencond_type_inference_abexa.htm)

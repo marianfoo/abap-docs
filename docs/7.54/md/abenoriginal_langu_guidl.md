@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [ABAP-Specific Rules](javascript:call_link\('abenabap_specific_rules_guidl.htm'\)) →  [Programm Type and Program Properties](javascript:call_link\('abenprogr_type_features_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [ABAP-Specific Rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_specific_rules_guidl.htm) →  [Programm Type and Program Properties](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogr_type_features_guidl.htm) → 
 
 Original Language
 
@@ -48,4 +48,4 @@ Notes
 
 -   When a repository object is created, its original language is the language selected at logon. It is therefore necessary to agree on a specific logon language when creating or editing repository languages.
 
--   Regardless of whether a development project is monolingual or multilingual, consistent terminology must be defined for all texts created in the project and used across the board. In multilingual development projects, the translation of the terminology into the relevant languages should be completed before development start if possible, so that the terms can be used by the developers. The existing [standards](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline") for UI texts and documents must also be followed.
+-   Regardless of whether a development project is monolingual or multilingual, consistent terminology must be defined for all texts created in the project and used across the board. In multilingual development projects, the translation of the terminology into the relevant languages should be completed before development start if possible, so that the terms can be used by the developers. The existing [standards](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorrectness_quality_guidl.htm "Guideline") for UI texts and documents must also be followed.

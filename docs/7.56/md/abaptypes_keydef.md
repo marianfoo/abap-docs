@@ -4,16 +4,16 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Types](javascript:call_link\('abentypes_statements.htm'\)) →  [TYPES](javascript:call_link\('abaptypes.htm'\)) →  [TYPES, TABLE OF](javascript:call_link\('abaptypes_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentypes_and_objects.htm) →  [Declaring Data Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentypes_statements.htm) →  [TYPES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes.htm) →  [TYPES, TABLE OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_itab.htm) → 
 
 TYPES, tabkeys
 
-[Short Reference](javascript:call_link\('abaptypes_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_shortref.htm)
 
 Syntax
 
-... *\[* WITH [key](javascript:call_link\('abaptypes_primary_key.htm'\)) *\]*
-    *\[* WITH [secondary\_key1](javascript:call_link\('abaptypes_secondary_key.htm'\)) *\]* *\[* WITH [secondary\_key2](javascript:call_link\('abaptypes_secondary_key.htm'\)) *\]* ...
+... *\[* WITH [key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_primary_key.htm) *\]*
+    *\[* WITH [secondary\_key1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_secondary_key.htm) *\]* *\[* WITH [secondary\_key2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_secondary_key.htm) *\]* ...
     *\[* *{*WITH*|*WITHOUT*}* FURTHER SECONDARY KEYS *\]* ...
 
 Additions:
@@ -25,20 +25,20 @@ Effect
 
 Definition of the table key of a table type. The following can be defined:
 
--   A [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") using [key](javascript:call_link\('abaptypes_primary_key.htm'\))
--   Up to 15 [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") using [secondary\_key1](javascript:call_link\('abaptypes_secondary_key.htm'\)), [secondary\_key2](javascript:call_link\('abaptypes_secondary_key.htm'\)), ...
+-   A [primary table key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") using [key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_primary_key.htm)
+-   Up to 15 [secondary table keys](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") using [secondary\_key1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_secondary_key.htm), [secondary\_key2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_secondary_key.htm), ...
 
 The order in which the components of a table key are defined is significant for the table type. The additions WITH*|*WITHOUT FURTHER SECONDARY KEYS determine the genericness with respect to the secondary table key.
 
-An internal table type that has no table key or an incomplete table key is generic with respect to the table key. Such a table type can only be used for [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") formal parameters or field symbols. A standard table type with a generic primary table key only can be specified for [DATA](javascript:call_link\('abapdata_referring.htm'\)) after TYPE. This creates a bound table type with a [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry").
+An internal table type that has no table key or an incomplete table key is generic with respect to the table key. Such a table type can only be used for [typing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentyping_glosry.htm "Glossary Entry") formal parameters or field symbols. A standard table type with a generic primary table key only can be specified for [DATA](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_referring.htm) after TYPE. This creates a bound table type with a [standard key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_key_glosry.htm "Glossary Entry").
 
 Primary Key
 
 The genericity of a table type with respect to the primary key is determined as follows:
 
--   If WITH [key](javascript:call_link\('abaptypes_primary_key.htm'\)) is not specified, a table type is fully generic with respect to the primary key.
--   If there is no declaration about the uniqueness of the key in [key](javascript:call_link\('abaptypes_primary_key.htm'\)), a table type is partly generic with respect to the key.
--   If a key declaration with a uniqueness declaration is made in [key](javascript:call_link\('abaptypes_primary_key.htm'\)), a table type is not generic with respect to the primary key.
+-   If WITH [key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_primary_key.htm) is not specified, a table type is fully generic with respect to the primary key.
+-   If there is no declaration about the uniqueness of the key in [key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_primary_key.htm), a table type is partly generic with respect to the key.
+-   If a key declaration with a uniqueness declaration is made in [key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_primary_key.htm), a table type is not generic with respect to the primary key.
 
 The non-generic table categories can be split up as follows:
 
@@ -55,11 +55,11 @@ The genericity of a table type with respect to the secondary keys depends on tha
 
 Hint
 
-A generic table type must not be used as a component of a [structured type](javascript:call_link\('abaptypes_struc.htm'\)).
+A generic table type must not be used as a component of a [structured type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_struc.htm).
 
 Example
 
-Definition of a table type for a [hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") with a unique primary key as well as two non-unique secondary [sorted keys](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), cityfrom\_to and airp\_from\_to.
+Definition of a table type for a [hashed table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhashed_table_glosry.htm "Glossary Entry") with a unique primary key as well as two non-unique secondary [sorted keys](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), cityfrom\_to and airp\_from\_to.
 
 TYPES spfli\_tab TYPE HASHED TABLE OF spfli
   WITH UNIQUE KEY            carrid connid
@@ -72,7 +72,7 @@ Addition 1  
 
 Effect
 
-This addition explicitly specifies that the table type is generic with respect to the secondary key. This means that it includes table types that can have further secondary keys in addition to the optional secondary keys specified using WITH [secondary\_key](javascript:call_link\('abaptypes_secondary_key.htm'\)) ....
+This addition explicitly specifies that the table type is generic with respect to the secondary key. This means that it includes table types that can have further secondary keys in addition to the optional secondary keys specified using WITH [secondary\_key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_secondary_key.htm) ....
 
 If 15 secondary keys are already defined, the addition WITH FURTHER SECONDARY KEYS cannot be specified.
 
@@ -87,7 +87,7 @@ Addition 2  
 
 Effect
 
-This addition explicitly specifies that the table type is not generic with respect to the secondary key. This means that it includes only table types that have exactly those secondary keys specified using WITH [secondary\_key](javascript:call_link\('abaptypes_secondary_key.htm'\)) ....
+This addition explicitly specifies that the table type is not generic with respect to the secondary key. This means that it includes only table types that have exactly those secondary keys specified using WITH [secondary\_key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_secondary_key.htm) ....
 
 Hint
 
@@ -115,5 +115,5 @@ START-OF-SELECTION.
   demo=>meth( itab ).
 
 Continue
-[TYPES, key](javascript:call_link\('abaptypes_primary_key.htm'\))
-[TYPES, secondary\_key](javascript:call_link\('abaptypes_secondary_key.htm'\))
+[TYPES, key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_primary_key.htm)
+[TYPES, secondary\_key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_secondary_key.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [ABAP CDS - managed and unmanaged behavior definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [CDS BDL - entity behavior definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [CDS BDL - entity behavior characteristics](javascript:call_link\('abenbdl_character.htm'\)) →  [CDS BDL - authorization](javascript:call_link\('abenbdl_authorization.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl.htm) →  [ABAP CDS - managed and unmanaged behavior definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_rap_bo.htm) →  [CDS BDL - entity behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh.htm) →  [CDS BDL - entity behavior characteristics](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_character.htm) →  [CDS BDL - authorization](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_authorization.htm) → 
 
 CDS BDL - global authorization
 
@@ -53,7 +53,7 @@ define view entity DEMO\_RAP\_UNMANAGED\_AUTH\_CHILD
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_RAP\_UNMANAGED\_AUTH is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as shown below. It defines the root view entity as [authorization master entity](javascript:call_link\('abenrap_auth_ma_ent_glosry.htm'\) "Glossary Entry") and the child entity as authorization dependent entity.
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_RAP\_UNMANAGED\_AUTH is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as shown below. It defines the root view entity as [authorization master entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_auth_ma_ent_glosry.htm "Glossary Entry") and the child entity as authorization dependent entity.
 
 unmanaged implementation in class bp\_demo\_rap\_unmanaged\_auth unique;
 strict;
@@ -78,10 +78,10 @@ authorization dependent by \_parent
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_UNMANAGED\_AUTH. This global class implements the method get\_global\_auth for global authorization control (see CCIMP include). It works as follows:
+For the above CDS behavior definition, one [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_UNMANAGED\_AUTH. This global class implements the method get\_global\_auth for global authorization control (see CCIMP include). It works as follows:
 
 -   For incoming update requests, authorization is always granted.
--   For incoming delete requests, authorization is always rejected and an error message is written into the [REPORTED](javascript:call_link\('abapeml_response.htm'\)) structure.
+-   For incoming delete requests, authorization is always rejected and an error message is written into the [REPORTED](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_response.htm) structure.
     
     Note: This is a very simple example to demonstrate how to implement global authorizations. A realistic implementation requires an instance-independent authorization check, for example, based on authorization objects.
     
@@ -180,7 +180,7 @@ Description
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") from an ABAP program:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the [RAP business object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm "Glossary Entry") from an ABAP program:
 
 -   Three instances of the parent entity and two instances of the child entity are created with the statement MODIFY ENTITY.
 -   Two instances of the parent entity are updated. This update is authorized.

@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for RAP Business Events](javascript:call_link\('abenrap_events.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for RAP Business Events](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_events.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Local%20Consumption%20of%20RAP%20Business%20Events%2C%20ABENRAP_EVENTS_LOCAL_CONSUME_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for
 %20improvement:)
 
 Local Consumption of RAP Business Events
 
-This example demonstrates the local consumption of [RAP business events](javascript:call_link\('abenrap_entity_event_glosry.htm'\) "Glossary Entry") using a [managed RAP business object](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry").
+This example demonstrates the local consumption of [RAP business events](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_entity_event_glosry.htm "Glossary Entry") using a [managed RAP business object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry").
 
 Data model
 
@@ -30,7 +30,7 @@ define root view entity demo\_rap\_event\_m as select from demo\_tab\_root\_5 {
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_RAP\_EVENT\_M is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_RAP\_EVENT\_M is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 // Note:
 // The RAP event handler class for this example is the class
@@ -55,7 +55,7 @@ authorization master ( global )
 
 Behavior implementation
 
-For the above RAP behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_EVENT\_M. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
+For the above RAP behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_EVENT\_M. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
 
 RAP event handler class
 
@@ -189,10 +189,10 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class.
 
-The example contains three ABAP EML modify requests: a RAP create, update and delete operation. For each of the operations, an event is raised using a [RAISE ENTITY EVENT](javascript:call_link\('abapraise_entity_event.htm'\)) statement. The events are raised in the [save\_modified](javascript:call_link\('abaprap_saver_meth_save_modified.htm'\)) RAP saver method.
+The example contains three ABAP EML modify requests: a RAP create, update and delete operation. For each of the operations, an event is raised using a [RAISE ENTITY EVENT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_entity_event.htm) statement. The events are raised in the [save\_modified](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_saver_meth_save_modified.htm) RAP saver method.
 
-When the events are raised, the [RAP event handler methods](javascript:call_link\('abenrap_event_handler_meth_glosry.htm'\) "Glossary Entry"), which are implemented in the CCIMP include of the CL\_DEMO\_RAP\_EVENT\_HANDLER class, are called asynchronously. To demonstrate the effect of the events, messages are created and added to the Business Application Log.
+When the events are raised, the [RAP event handler methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_event_handler_meth_glosry.htm "Glossary Entry"), which are implemented in the CCIMP include of the CL\_DEMO\_RAP\_EVENT\_HANDLER class, are called asynchronously. To demonstrate the effect of the events, messages are created and added to the Business Application Log.
 
-In the output of the example, the content of an internal table is displayed that demonstrates the effect of the RAP operations. The internal table is filled by selecting from the database table where the [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") are persisted to. Additionally, the content of an internal table is displayed including the messages that have been inserted into the Business Application Log by the event handler methods.
+In the output of the example, the content of an internal table is displayed that demonstrates the effect of the RAP operations. The internal table is filled by selecting from the database table where the [RAP BO instances](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") are persisted to. Additionally, the content of an internal table is displayed including the messages that have been inserted into the Business Application Log by the event handler methods.

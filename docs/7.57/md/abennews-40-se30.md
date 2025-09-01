@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-40.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Runtime Analysis in Release 4.0, ABENNEWS-40-SE30, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%
 0D%0A%0D%0ASuggestion for improvement:)
@@ -75,8 +75,8 @@ If the With memory management button is selected, the following are measured:
 
 -   Memory: (Re-)allocate, release
 -   Using the data and data control blocks
--   [PXA](javascript:call_link\('abenpxa_glosry.htm'\) "Glossary Entry"): find, create
--   [Dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") synchronization
+-   [PXA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpxa_glosry.htm "Glossary Entry"): find, create
+-   [Dynpro](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_glosry.htm "Glossary Entry") synchronization
 
 Modification 7   
 
@@ -84,7 +84,7 @@ Improvements in the Table Hit List
 
 -   Navigation to table definition
     
-    The table definition in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") can be displayed by double-clicking the table name.
+    The table definition in the [repository](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_glosry.htm "Glossary Entry") can be displayed by double-clicking the table name.
     
 -   The development class (package) for each table is displayed in a separate column
 

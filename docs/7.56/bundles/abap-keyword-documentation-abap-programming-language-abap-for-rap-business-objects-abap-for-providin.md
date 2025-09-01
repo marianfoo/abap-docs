@@ -3,28 +3,7 @@
 Included pages: 5
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_in_abp.htm)
-- [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapin_local_mode.htm)
-- [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_aug_entity_entities.htm)
-- [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_modify_augmenting_abexa.htm)
-
-**Bundle Contains**: 4 documentation pages
-**Version**: ABAP 7.56
-**Generated**: 2025-09-01T11:25:45.461Z
-
----
-
 ### abeneml_in_abp.htm
-
-> **📖 Official SAP Documentation**: [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_in_abp.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -32,28 +11,21 @@ Included pages: 5
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP business objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_provide_rap_bos.htm) → 
 
 ABAP EML - Providing RAP BOs
 
 The following EML language elements can only be used in behavior implementations:
 
--   [IN LOCAL MODE](javascript:call_link\('abapin_local_mode.htm'\))
--   [MODIFY AUGMENTING ENTITY, ENTITIES](javascript:call_link\('abapmodify_aug_entity_entities.htm'\))
+-   [IN LOCAL MODE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapin_local_mode.htm)
+-   [MODIFY AUGMENTING ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_aug_entity_entities.htm)
 
 Continue
-[IN LOCAL MODE](javascript:call_link\('abapin_local_mode.htm'\))
-[MODIFY AUGMENTING ENTITY, ENTITIES](javascript:call_link\('abapmodify_aug_entity_entities.htm'\))
+[IN LOCAL MODE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapin_local_mode.htm)
+[MODIFY AUGMENTING ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_aug_entity_entities.htm)
 
-
-
-**📖 Source**: [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_in_abp.htm)
 
 ### abapin_local_mode.htm
-
-> **📖 Official SAP Documentation**: [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapin_local_mode.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -61,7 +33,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP business objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_in_abp.htm) → 
 
 IN LOCAL MODE
 
@@ -73,12 +45,12 @@ Effect
 
 The addition is used to exclude feature controls and authorization checks. It can be added to the following EML statements:
 
--   [READ ENTITY, ENTITIES](javascript:call_link\('abapread_entity_entities.htm'\))
--   [MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\))
+-   [READ ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities.htm)
+-   [MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities.htm)
 
-It can currently only be used for in RAP BO implementations for the particular RAP BO itself, i. e. not for other RAP BOs. That means IN LOCAL MODE can only be used for this RAP BO's implementations classes in the behavior pool or other classes that are called from those implementation classes (for example, legacy code or other reused logic contained elsewhere). The reused logic contained elsewhere cannot be referred to by RAP statically. In that case, a warning is displayed in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"). Yet, at runtime, there will not be an issue if this logic is called via the implementation classes of this RAP BO. If the reused logic is not called from the implementation classes of this RAP BO or it is called indirectly, a short dump is the consequence. For example, if the logic is called from a report (the implementation class of the RAP BO is not called at all) or if, at runtime, another RAP BO is meanwhile involved.
+It can currently only be used for in RAP BO implementations for the particular RAP BO itself, i. e. not for other RAP BOs. That means IN LOCAL MODE can only be used for this RAP BO's implementations classes in the behavior pool or other classes that are called from those implementation classes (for example, legacy code or other reused logic contained elsewhere). The reused logic contained elsewhere cannot be referred to by RAP statically. In that case, a warning is displayed in [ADT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm "Glossary Entry"). Yet, at runtime, there will not be an issue if this logic is called via the implementation classes of this RAP BO. If the reused logic is not called from the implementation classes of this RAP BO or it is called indirectly, a short dump is the consequence. For example, if the logic is called from a report (the implementation class of the RAP BO is not called at all) or if, at runtime, another RAP BO is meanwhile involved.
 
-Example use case: A field to display the booking status of a trip on an SAP Fiori UI is specified as readonly in a [BDEF](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry"). Hence, it cannot be modified by a user on the UI directly. For example, the status of a trip is set to and displayed as "not booked". A button on the UI triggers an action to book the trip. With clicking the button, the status gets changed and "booked" is displayed. To enable this, the underlying modify operation with the action to be executed in the ABP has the addition IN LOCAL MODE that ignores the feature control.
+Example use case: A field to display the booking status of a trip on an SAP Fiori UI is specified as readonly in a [BDEF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry"). Hence, it cannot be modified by a user on the UI directly. For example, the status of a trip is set to and displayed as "not booked". A button on the UI triggers an action to book the trip. With clicking the button, the status gets changed and "booked" is displayed. To enable this, the underlying modify operation with the action to be executed in the ABP has the addition IN LOCAL MODE that ignores the feature control.
 
 Example
 
@@ -92,14 +64,7 @@ READ ENTITIES OF demo\_managed\_root\_3 IN LOCAL MODE
   FAILED DATA(failed).
 
 
-
-**📖 Source**: [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapin_local_mode.htm)
-
 ### abapmodify_aug_entity_entities.htm
-
-> **📖 Official SAP Documentation**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_aug_entity_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -107,17 +72,17 @@ READ ENTITIES OF demo\_managed\_root\_3 IN LOCAL MODE
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP business objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_in_abp.htm) → 
 
 MODIFY AUGMENTING ENTITY, ENTITIES
 
 Syntax
 
 MODIFY AUGMENTING *{* ENTITY bdef
-                      [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]* *}*
+                      [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]* *}*
                 *|* *{* ENTITIES OF bdef
-                      ENTITY bdef1 [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]*
-                     *\[*ENTITY bdef2 [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]**\]*
+                      ENTITY bdef1 [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]*
+                     *\[*ENTITY bdef2 [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]**\]*
                      *\[*...*\]* *}*.
 
 Alternatives:
@@ -131,15 +96,15 @@ Addition:
 
 Effect
 
-A special variant of [MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\)) that is only possible in the context of [projections](javascript:call_link\('abencds_define_view_as_projection.htm'\)). The variant can only be used by a [RAP BO provider](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry") and is used to manipulate the request for the base BO in the handler implementation. Only entities of the base BO can be modified by this statement. All [standard operations](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") are allowed including actions.
+A special variant of [MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities.htm) that is only possible in the context of [projections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_view_as_projection.htm). The variant can only be used by a [RAP BO provider](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry") and is used to manipulate the request for the base BO in the handler implementation. Only entities of the base BO can be modified by this statement. All [standard operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencrud_glosry.htm "Glossary Entry") are allowed including actions.
 
 Hint
 
--   For the statements, no [response parameters](javascript:call_link\('abapeml_response.htm'\)) can be specified, i.e. the additions FAILED, MAPPED or REPORTED cannot be used.
+-   For the statements, no [response parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_response.htm) can be specified, i.e. the additions FAILED, MAPPED or REPORTED cannot be used.
 
 Further Information
 
--   [CDS BDL - augment, projection BDEF](javascript:call_link\('abenbdl_augment_projection.htm'\))
+-   [CDS BDL - augment, projection BDEF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_augment_projection.htm)
 -   Development guide for the ABAP RESTful Application Programming Model, section Operation Augmentation.
 
 Alternative 1   
@@ -148,7 +113,7 @@ MODIFY AUGMENTING ENTITY ...
 
 Effect
 
-Short form. Used to manipulate the request for the base BO in the handler implementation. bdef must be the full name, i. e. not the alias name, of the projected root BO. Multiple operations can be specified for [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) within a single MODIFY statement. However, in this case, it must be ensured that the importing parameters for the corresponding methods are available.
+Short form. Used to manipulate the request for the base BO in the handler implementation. bdef must be the full name, i. e. not the alias name, of the projected root BO. Multiple operations can be specified for [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) within a single MODIFY statement. However, in this case, it must be ensured that the importing parameters for the corresponding methods are available.
 
 Alternative 2   
 
@@ -158,7 +123,7 @@ Effect
 
 Long form. Used to manipulate the request for the base BO in the handler implementation including one or more RAP BO entities. bdef must be the full name, i. e. not the alias name, of the projected root BO.
 
-bdef must be the full name, i. e. not the alias name, of the projected root BO followed by a list of operations grouped by individual entities. bdef1, bdef2, and so on, must be entities contained in the [composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") of the root entity bdef. The root entity itself can also be inserted in the position of bdef1, for example. Each part of the list of operations specified after MODIFY AUGMENTING ENTITIES OF bdef has the same syntax as the short form. At least one entry (ENTITY bdef/bdef1/... with an operation) must be specified. The same entity can be specified after ENTITY repeatedly, however, the same operation in that combination is allowed only once. operations must be specified as outlined in the topic [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)).
+bdef must be the full name, i. e. not the alias name, of the projected root BO followed by a list of operations grouped by individual entities. bdef1, bdef2, and so on, must be entities contained in the [composition tree](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") of the root entity bdef. The root entity itself can also be inserted in the position of bdef1, for example. Each part of the list of operations specified after MODIFY AUGMENTING ENTITIES OF bdef has the same syntax as the short form. At least one entry (ENTITY bdef/bdef1/... with an operation) must be specified. The same entity can be specified after ENTITY repeatedly, however, the same operation in that combination is allowed only once. operations must be specified as outlined in the topic [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm).
 
 Addition   
 
@@ -182,20 +147,13 @@ MODIFY AUGMENTING ENTITY ...
 
 Executable Example
 
-The example [ABAP EML - MODIFY ENTITY AUGMENTING](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\)) demonstrates the addition AUGMENTING with a RAP projection business object.
+The example [ABAP EML - MODIFY ENTITY AUGMENTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_modify_augmenting_abexa.htm) demonstrates the addition AUGMENTING with a RAP projection business object.
 
 Continue
-![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_modify_augmenting_abexa.htm)
 
-
-
-**📖 Source**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_aug_entity_entities.htm)
 
 ### abeneml_modify_augmenting_abexa.htm
-
-> **📖 Official SAP Documentation**: [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_modify_augmenting_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -203,7 +161,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP business objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) →  [MODIFY AUGMENTING ENTITY, ENTITIES](javascript:call_link\('abapmodify_aug_entity_entities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_in_abp.htm) →  [MODIFY AUGMENTING ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_aug_entity_entities.htm) → 
 
 ABAP EML - MODIFY AUGMENTING ENTITY
 
@@ -255,7 +213,7 @@ define behavior for DEMO\_MANAGED\_CHILD\_PROJ alias \_Child
 
 Behavior implementation
 
-For the above projection BDEF, one [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_PROJ. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. In the behavior pool, operation augmentation is implemented in the following methods:
+For the above projection BDEF, one [behavior pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_PROJ. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. In the behavior pool, operation augmentation is implemented in the following methods:
 
 -   augment\_create
     
@@ -351,24 +309,14 @@ Description
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program:
 
 -   Using an ABAP EML MODIFY statement, two parent entity instances are created. In the same request, one of the created instances gets updated. The operation augmentation automatically adds the value create\_augment for field field1 for each entity instance. For the updated entity instance, field4 is set to 222.
 -   With a further ABAP EML MODIFY statement, a child entity instance for each parent entity instance is created via a create-by-association operation. The operation augmentation automatically adds the value cba\_augment for field field2 for each newly created child entity instance.
 -   The output window shows the database entries of the root and child entities' tables.
 
 
-
-**📖 Source**: [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_modify_augmenting_abexa.htm)
-
 ### abapmodify_aug_entity_entities.htm
-
-> **📖 Official SAP Documentation**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_aug_entity_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_aug_entity_entities.htm)
-
 
   
 
@@ -376,17 +324,17 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP business objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_in_abp.htm) → 
 
 MODIFY AUGMENTING ENTITY, ENTITIES
 
 Syntax
 
 MODIFY AUGMENTING *{* ENTITY bdef
-                      [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]* *}*
+                      [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]* *}*
                 *|* *{* ENTITIES OF bdef
-                      ENTITY bdef1 [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]*
-                     *\[*ENTITY bdef2 [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]**\]*
+                      ENTITY bdef1 [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]*
+                     *\[*ENTITY bdef2 [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]**\]*
                      *\[*...*\]* *}*.
 
 Alternatives:
@@ -400,15 +348,15 @@ Addition:
 
 Effect
 
-A special variant of [MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\)) that is only possible in the context of [projections](javascript:call_link\('abencds_define_view_as_projection.htm'\)). The variant can only be used by a [RAP BO provider](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry") and is used to manipulate the request for the base BO in the handler implementation. Only entities of the base BO can be modified by this statement. All [standard operations](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") are allowed including actions.
+A special variant of [MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities.htm) that is only possible in the context of [projections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_view_as_projection.htm). The variant can only be used by a [RAP BO provider](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry") and is used to manipulate the request for the base BO in the handler implementation. Only entities of the base BO can be modified by this statement. All [standard operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencrud_glosry.htm "Glossary Entry") are allowed including actions.
 
 Hint
 
--   For the statements, no [response parameters](javascript:call_link\('abapeml_response.htm'\)) can be specified, i.e. the additions FAILED, MAPPED or REPORTED cannot be used.
+-   For the statements, no [response parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_response.htm) can be specified, i.e. the additions FAILED, MAPPED or REPORTED cannot be used.
 
 Further Information
 
--   [CDS BDL - augment, projection BDEF](javascript:call_link\('abenbdl_augment_projection.htm'\))
+-   [CDS BDL - augment, projection BDEF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_augment_projection.htm)
 -   Development guide for the ABAP RESTful Application Programming Model, section Operation Augmentation.
 
 Alternative 1   
@@ -417,7 +365,7 @@ MODIFY AUGMENTING ENTITY ...
 
 Effect
 
-Short form. Used to manipulate the request for the base BO in the handler implementation. bdef must be the full name, i. e. not the alias name, of the projected root BO. Multiple operations can be specified for [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) within a single MODIFY statement. However, in this case, it must be ensured that the importing parameters for the corresponding methods are available.
+Short form. Used to manipulate the request for the base BO in the handler implementation. bdef must be the full name, i. e. not the alias name, of the projected root BO. Multiple operations can be specified for [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) within a single MODIFY statement. However, in this case, it must be ensured that the importing parameters for the corresponding methods are available.
 
 Alternative 2   
 
@@ -427,7 +375,7 @@ Effect
 
 Long form. Used to manipulate the request for the base BO in the handler implementation including one or more RAP BO entities. bdef must be the full name, i. e. not the alias name, of the projected root BO.
 
-bdef must be the full name, i. e. not the alias name, of the projected root BO followed by a list of operations grouped by individual entities. bdef1, bdef2, and so on, must be entities contained in the [composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") of the root entity bdef. The root entity itself can also be inserted in the position of bdef1, for example. Each part of the list of operations specified after MODIFY AUGMENTING ENTITIES OF bdef has the same syntax as the short form. At least one entry (ENTITY bdef/bdef1/... with an operation) must be specified. The same entity can be specified after ENTITY repeatedly, however, the same operation in that combination is allowed only once. operations must be specified as outlined in the topic [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)).
+bdef must be the full name, i. e. not the alias name, of the projected root BO followed by a list of operations grouped by individual entities. bdef1, bdef2, and so on, must be entities contained in the [composition tree](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") of the root entity bdef. The root entity itself can also be inserted in the position of bdef1, for example. Each part of the list of operations specified after MODIFY AUGMENTING ENTITIES OF bdef has the same syntax as the short form. At least one entry (ENTITY bdef/bdef1/... with an operation) must be specified. The same entity can be specified after ENTITY repeatedly, however, the same operation in that combination is allowed only once. operations must be specified as outlined in the topic [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm).
 
 Addition   
 
@@ -451,7 +399,7 @@ MODIFY AUGMENTING ENTITY ...
 
 Executable Example
 
-The example [ABAP EML - MODIFY ENTITY AUGMENTING](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\)) demonstrates the addition AUGMENTING with a RAP projection business object.
+The example [ABAP EML - MODIFY ENTITY AUGMENTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_modify_augmenting_abexa.htm) demonstrates the addition AUGMENTING with a RAP projection business object.
 
 Continue
-![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_modify_augmenting_abexa.htm)

@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_messages.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Messages - Maintenance, ABENABAP_MESSAGES_STORING, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%
 0D%0A%0D%0ASuggestion for improvement:)
 
 Messages - Maintenance
 
-[Messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") are created and changed using the message maintenance tool in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") or using transaction SE91.
+[Messages](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmessage_glosry.htm "Glossary Entry") are created and changed using the message maintenance tool in [ADT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry") or using transaction SE91.
 
 The message short texts are stored as language-specific texts in the database table T100 and are connected to translation tools. The following table shows the structure of the database table T100.
 
@@ -39,7 +39,7 @@ The message class and the message number are the language independent message ke
 
 The long texts assigned to a message are managed as SAPscript documents in the document class NA.
 
-Placeholders can be used in both short and long texts, which can be replaced by the content of data objects using the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)) and the addition [WITH](javascript:call_link\('abapmessage.htm'\)). The placeholders in a short text can be defined in the form "&i" or "&" and the placeholders in a long text can have the form "&Vi&", where i is a digit between 1 and 4. If the actual character "&" is to be used literally, "&&" must be entered in the short text and "&" in the long text.
+Placeholders can be used in both short and long texts, which can be replaced by the content of data objects using the statement [MESSAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmessage.htm) and the addition [WITH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmessage.htm). The placeholders in a short text can be defined in the form "&i" or "&" and the placeholders in a long text can have the form "&Vi&", where i is a digit between 1 and 4. If the actual character "&" is to be used literally, "&&" must be entered in the short text and "&" in the long text.
 
 Hints
 

@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [AMC - ABAP Messaging Channels](javascript:call_link\('abenamc.htm'\)) →  [Examples of AMC](javascript:call_link\('abenamc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_channels.htm) →  [AMC - ABAP Messaging Channels](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamc.htm) →  [Examples of AMC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamc_abexas.htm) → 
 
 AMC, Suppressing Standalone Messages
 
-This example demonstrates the suppression of [AMC](javascript:call_link\('abenamc_glosry.htm'\) "Glossary Entry") messages to the current ABAP session.
+This example demonstrates the suppression of [AMC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamc_glosry.htm "Glossary Entry") messages to the current ABAP session.
 
 Source Code
 
@@ -54,6 +54,6 @@ START-OF-SELECTION.
 
 Description
 
-Like in the executable example for [Receiving Messages](javascript:call_link\('abenamc_receive_abexa.htm'\)), a receiver object for the messaging channel /demo\_text of the application DEMO\_AMC from the package SABAPDEMOS is registered. In the example shown here, the text message can be sent by calling the program DEMO\_SEND\_AMC from the example [Sending Messages](javascript:call_link\('abenamc_send_abexa.htm'\)) within the same ABAP session.
+Like in the executable example for [Receiving Messages](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamc_receive_abexa.htm), a receiver object for the messaging channel /demo\_text of the application DEMO\_AMC from the package SABAPDEMOS is registered. In the example shown here, the text message can be sent by calling the program DEMO\_SEND\_AMC from the example [Sending Messages](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamc_send_abexa.htm) within the same ABAP session.
 
 The message is only received if the initial value is transferred during sending to the parameter I\_SUPPRESS\_ECHO of the method CREATE\_MESSAGE\_PRODUCER. If the Suppress echo checkbox is selected, on the other hand, the message is suppressed.

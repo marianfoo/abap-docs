@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - CDS View Entity, SELECT, select\_list](javascript:call_link\('abencds_select_list_v2.htm'\)) →  [CDS DDL - CDS View Entity, SELECT, element](javascript:call_link\('abencds_select_list_entry_v2.htm'\)) →  [CDS DDL - CDS View Entity, SELECT, expose\_assoc](javascript:call_link\('abencds_select_list_association_v2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_statement_v2.htm) →  [CDS DDL - CDS View Entity, SELECT, select\_list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_v2.htm) →  [CDS DDL - CDS View Entity, SELECT, element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_entry_v2.htm) →  [CDS DDL - CDS View Entity, SELECT, expose\_assoc](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_association_v2.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20CDS%20View%20Entity%2C%20Exposing%20CDS%20Associations%2C%20ABENCDS_EXPOSE_ASSOC_V2_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0AS
 uggestion%20for%20improvement:)
 
 CDS DDL - CDS View Entity, Exposing CDS Associations
 
-This example demonstrates how CDS associations are [exposed](javascript:call_link\('abencds_select_list_association_v2.htm'\)) in the SELECT list of a CDS view entity.
+This example demonstrates how CDS associations are [exposed](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_association_v2.htm) in the SELECT list of a CDS view entity.
 
 Source Code   
 
@@ -120,9 +120,9 @@ ENDCLASS.
 
 Description   
 
-The executable example shown above demonstrates how [CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") are accessed that are exposed in the SELECT list of a CDS view entity. For each view, the data source in the SELECT statement is specified not directly, but as path expression, making use of an exposed association. For comparison, the explicit join expression that produces the same result is shown.
+The executable example shown above demonstrates how [CDS associations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_association_glosry.htm "Glossary Entry") are accessed that are exposed in the SELECT list of a CDS view entity. For each view, the data source in the SELECT statement is specified not directly, but as path expression, making use of an exposed association. For comparison, the explicit join expression that produces the same result is shown.
 
--   The following CDS view entity exposes its CDS association \_demo\_join2, which associates its data source demo\_join1 with the DDIC database table demo\_join1. The field d used in the ON condition of the [association source](javascript:call_link\('abenassociation_source_glosry.htm'\) "Glossary Entry") must also be an element of the SELECT list.
+-   The following CDS view entity exposes its CDS association \_demo\_join2, which associates its data source demo\_join1 with the DDIC database table demo\_join1. The field d used in the ON condition of the [association source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassociation_source_glosry.htm "Glossary Entry") must also be an element of the SELECT list.
     
     @AccessControl.authorizationCheck: #NOT\_REQUIRED
     define view entity DEMO\_CDS\_EXPOSE\_ASSOC\_1\_VE
@@ -152,9 +152,9 @@ The executable example shown above demonstrates how [CDS associations](javascrip
         where
           d = 'ww'
     
-    When the CDS association demo\_cds\_expose\_assoc\_1a\_ve\\\_demo\_join2 is accessed, the result set of the left side of the join is restricted by the WHERE condition in the [association source](javascript:call_link\('abenassociation_source_glosry.htm'\) "Glossary Entry") of the path expression.
+    When the CDS association demo\_cds\_expose\_assoc\_1a\_ve\\\_demo\_join2 is accessed, the result set of the left side of the join is restricted by the WHERE condition in the [association source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassociation_source_glosry.htm "Glossary Entry") of the path expression.
     
--   The following CDS view entity accesses the view demo\_cds\_expose\_assoc\_1\_ve above. It does not have its own CDS association, but it exposes the CDS association of its data source demo\_cds\_expose\_assoc\_1\_ve.\_demo\_join2. Here, the field demo\_cds\_expose\_assoc\_1\_ve.d of the [association source](javascript:call_link\('abenassociation_source_glosry.htm'\) "Glossary Entry") used in the ON condition must again be part of the SELECT list.
+-   The following CDS view entity accesses the view demo\_cds\_expose\_assoc\_1\_ve above. It does not have its own CDS association, but it exposes the CDS association of its data source demo\_cds\_expose\_assoc\_1\_ve.\_demo\_join2. Here, the field demo\_cds\_expose\_assoc\_1\_ve.d of the [association source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassociation_source_glosry.htm "Glossary Entry") used in the ON condition must again be part of the SELECT list.
     
     @AccessControl.authorizationCheck: #NOT\_REQUIRED
     define view entity DEMO\_CDS\_EXPOSE\_ASSOC\_2\_VE
@@ -180,7 +180,7 @@ The executable example shown above demonstrates how [CDS associations](javascrip
         where  
           d = 'xx'
     
-    When the CDS association demo\_cds\_expose\_assoc\_2a\_ve\\\_demo\_join2 is accessed, the result set of the left side of the join is restricted by the WHERE condition in the [association source](javascript:call_link\('abenassociation_source_glosry.htm'\) "Glossary Entry") of the path expression. This is different from accessing demo\_cds\_expose\_assoc\_1a\_ve\\\_demo\_join2. The CDS association defined in demo\_cds\_expose\_assoc\_1a\_ve is exposed, but the [association source](javascript:call_link\('abenassociation_source_glosry.htm'\) "Glossary Entry") is demo\_cds\_expose\_assoc\_2a\_ve with a different WHERE condition.
+    When the CDS association demo\_cds\_expose\_assoc\_2a\_ve\\\_demo\_join2 is accessed, the result set of the left side of the join is restricted by the WHERE condition in the [association source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassociation_source_glosry.htm "Glossary Entry") of the path expression. This is different from accessing demo\_cds\_expose\_assoc\_1a\_ve\\\_demo\_join2. The CDS association defined in demo\_cds\_expose\_assoc\_1a\_ve is exposed, but the [association source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassociation_source_glosry.htm "Glossary Entry") is demo\_cds\_expose\_assoc\_2a\_ve with a different WHERE condition.
     
 -   The following CDS view entity accesses the view demo\_cds\_expose\_assoc\_1a\_ve above. It does not have its own CDS association, but it exposes the CDS association of its data source demo\_cds\_expose\_assoc\_1a\_ve.\_demo\_join2.
     
@@ -207,4 +207,4 @@ The executable example shown above demonstrates how [CDS associations](javascrip
     where
       d = 'xx'
     
-    When the CDS association demo\_cds\_expose\_assoc\_3a\_ve\\\_demo\_join2 is accessed, the result set of the left side of the join is restricted by the WHERE condition in the [association source](javascript:call_link\('abenassociation_source_glosry.htm'\) "Glossary Entry") of the path expression. The disjoint WHERE condition in demo\_cds\_expose\_assoc\_1a\_ve means that no matching rows are found, however, and the result set of the left side of the join is empty.
+    When the CDS association demo\_cds\_expose\_assoc\_3a\_ve\\\_demo\_join2 is accessed, the result set of the left side of the join is restricted by the WHERE condition in the [association source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassociation_source_glosry.htm "Glossary Entry") of the path expression. The disjoint WHERE condition in demo\_cds\_expose\_assoc\_1a\_ve means that no matching rows are found, however, and the result set of the left side of the join is empty.

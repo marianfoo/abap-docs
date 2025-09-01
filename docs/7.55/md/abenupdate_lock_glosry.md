@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 update lock
 
-[Area lock](javascript:call_link\('abenarea_lock_glosry.htm'\) "Glossary Entry") on an [area instance version](javascript:call_link\('abenarea_instance_version_glosry.htm'\) "Glossary Entry") in the [shared objects memory](javascript:call_link\('abenshared_objects_memory_glosry.htm'\) "Glossary Entry"). An update lock enables to change an existing area instance version.
+[Area lock](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarea_lock_glosry.htm "Glossary Entry") on an [area instance version](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarea_instance_version_glosry.htm "Glossary Entry") in the [shared objects memory](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshared_objects_memory_glosry.htm "Glossary Entry"). An update lock enables to change an existing area instance version.
 
-[→ More about](javascript:call_link\('abenshm_area_instance_locks.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_area_instance_locks.htm)

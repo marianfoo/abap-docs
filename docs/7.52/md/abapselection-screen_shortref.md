@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  S
 
 SELECTION-SCREEN - Quick reference
 
-[Reference](javascript:call_link\('abapselection-screen.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen.htm)
 
 Syntax
 
@@ -29,39 +29,39 @@ SELECTION-SCREEN  *{* *{* COMMENT *\[*/*\]**\[*pos*|*POS\_LOW*|*POS\_HIGH*\]*(
 
 Effect
 
-Creates basic screen elements on the current [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry").
+Creates basic screen elements on the current [selection screen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_glosry.htm "Glossary Entry").
 
 Additions
 
--   [COMMENT text *|* *{**\[*text*\]* FOR FIELD sel*}*](javascript:call_link\('abapselection-screen_comment.htm'\))
-    Creates an output field with the text text that can be assigned to a parameter or a [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") sel.
+-   [COMMENT text *|* *{**\[*text*\]* FOR FIELD sel*}*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_comment.htm)
+    Creates an output field with the text text that can be assigned to a parameter or a [selection criterion](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_criterion_glosry.htm "Glossary Entry") sel.
     
--   [FUNCTION KEY n](javascript:call_link\('abapselection-screen_functionkey.htm'\))
-    Activates one of the predefined pushbuttons with the [function codes](javascript:call_link\('abenfunction_code_glosry.htm'\) "Glossary Entry") "FC01" to "FC05" in the [application toolbar](javascript:call_link\('abenapplication_toolbar_glosry.htm'\) "Glossary Entry").
+-   [FUNCTION KEY n](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_functionkey.htm)
+    Activates one of the predefined pushbuttons with the [function codes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_code_glosry.htm "Glossary Entry") "FC01" to "FC05" in the [application toolbar](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapplication_toolbar_glosry.htm "Glossary Entry").
     
--   [POSITION *{*pos*|*POS\_LOW*|*POS\_HIGH*}*](javascript:call_link\('abapselection-screen_line.htm'\))
+-   [POSITION *{*pos*|*POS\_LOW*|*POS\_HIGH*}*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_line.htm)
     Positions the following screen element within a line.
     
--   [PUSHBUTTON button\_text USER-COMMAND fcode](javascript:call_link\('abapselection-screen_pushbutton.htm'\))
+-   [PUSHBUTTON button\_text USER-COMMAND fcode](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_pushbutton.htm)
     Creates a pushbutton with the text button\_text and the function code fcode.
     
--   [SKIP *\[*n*\]*](javascript:call_link\('abapselection-screen_skip.htm'\))
+-   [SKIP *\[*n*\]*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_skip.htm)
     Creates one or n blank lines.
     
--   [ULINE](javascript:call_link\('abapselection-screen_uline.htm'\))
+-   [ULINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_uline.htm)
     Creates a horizontal line.
     
--   [*\[*/*\]**\[*pos*|*POS\_LOW*|*POS\_HIGH*\]*(len)](javascript:call_link\('abapselection-screen_uline.htm'\))
+-   [*\[*/*\]**\[*pos*|*POS\_LOW*|*POS\_HIGH*\]*(len)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_uline.htm)
     Specifies the position of the screen element.
     
 -   VISIBLE LENGTH vlen
     Defines the visible length of the screen element as vlen.
     
--   [MODIF ID modid](javascript:call_link\('abapselection-screen_modif_id.htm'\))
-    Assigns the screen element to the [modifiation group](javascript:call_link\('abenmodification_group_glosry.htm'\) "Glossary Entry") modid.
+-   [MODIF ID modid](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_modif_id.htm)
+    Assigns the screen element to the [modifiation group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodification_group_glosry.htm "Glossary Entry") modid.
     
--   [FOR *{*TABLE*|*NODE*}* node](javascript:call_link\('abapselection-screen_ldb_additions.htm'\))
-    Obsolete: Assigns the screen element in a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") to a node node of the associated structure.
+-   [FOR *{*TABLE*|*NODE*}* node](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_ldb_additions.htm)
+    Obsolete: Assigns the screen element in a [logical database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") to a node node of the associated structure.
     
--   [ID id](javascript:call_link\('abapselection-screen_ldb_additions.htm'\))
+-   [ID id](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_ldb_additions.htm)
     Obsolete: Defines a maximal three-figure identification ID for the screen element in a logical database.

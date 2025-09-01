@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Behavior Pools (ABP)](javascript:call_link\('abenabap_behavior_pools.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Behavior Pools (ABP)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm) → 
 
 ABP - Saver Class
 
@@ -42,11 +42,11 @@ ENDCLASS.
 
 Effect
 
-Within the [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"), a local saver class is defined to implement the save phase of the [business object behavior](javascript:call_link\('abenrap_bo_behavior_glosry.htm'\) "Glossary Entry"). The save phase consists of a sequence of calls used to synchronize the business objects in question. Only the final call in this sequence is the actual save method, in which changes can and must be written to the database.
+Within the [behavior pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm "Glossary Entry"), a local saver class is defined to implement the save phase of the [business object behavior](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_behavior_glosry.htm "Glossary Entry"). The save phase consists of a sequence of calls used to synchronize the business objects in question. Only the final call in this sequence is the actual save method, in which changes can and must be written to the database.
 
 The saver class lcl\_saver is defined implicitly as ABSTRACT and FINAL and derived from the class CL\_ABAP\_BEHAVIOR\_SAVER. There are no special rules for the name of the saver class.
 
-The transactional methods [finalize](javascript:call_link\('abensaver_finalize.htm'\)), [check\_before\_save](javascript:call_link\('abensaver_check_before_save.htm'\)), [adjust\_numbers](javascript:call_link\('abensaver_adjust_numbers.htm'\)), [save](javascript:call_link\('abensaver_method_save.htm'\)), and [cleanup](javascript:call_link\('abensaver_method_cleanup.htm'\)) can be implemented in a saver class:
+The transactional methods [finalize](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_finalize.htm), [check\_before\_save](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_check_before_save.htm), [adjust\_numbers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_adjust_numbers.htm), [save](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_method_save.htm), and [cleanup](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_method_cleanup.htm) can be implemented in a saver class:
 
 -   finalize
     Finalizes any changes to data before it can be saved to the database.
@@ -55,7 +55,7 @@ The transactional methods [finalize](javascript:call_link\('abensaver_finalize.h
     Checks the consistency of the application buffer.
 
 -   adjust\_numbers
-    Implements [late numbering](javascript:call_link\('abenlate_numbering_glosry.htm'\) "Glossary Entry").
+    Implements [late numbering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlate_numbering_glosry.htm "Glossary Entry").
 
 -   save
     Saves the data from the transactional buffer to the database.
@@ -63,13 +63,13 @@ The transactional methods [finalize](javascript:call_link\('abensaver_finalize.h
 -   cleanup
     Discards all data changes and cleans up the transactional buffer.
 
-The methods that correspond to the saver protocol (finalize, check\_before\_save, adjust\_numbers, save, and cleanup) are all defined already in the basis class CL\_ABAP\_BEHAVIOR\_SAVER and do not have individual signatures. The derived concrete saver class must implement these methods using REDEFINITION. In the redefinition, the types of the parameters defined in the basis class (failed, mapped, and reported are replaced by concrete [derived types](javascript:call_link\('abenrpm_derived_types.htm'\)). In the basis class, these parameters are defined generically as [CHANGING parameters](javascript:call_link\('abenchanging_type_data.htm'\)).
+The methods that correspond to the saver protocol (finalize, check\_before\_save, adjust\_numbers, save, and cleanup) are all defined already in the basis class CL\_ABAP\_BEHAVIOR\_SAVER and do not have individual signatures. The derived concrete saver class must implement these methods using REDEFINITION. In the redefinition, the types of the parameters defined in the basis class (failed, mapped, and reported are replaced by concrete [derived types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm). In the basis class, these parameters are defined generically as [CHANGING parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchanging_type_data.htm).
 
-The implementation of the methods finalize, check\_before\_save, and cleanup is not mandatory. The only mandatory redefinition is the method save. If the behavior definition specifies late numbering, the method adjust\_numbers must also be implemented. The structure [mapped](javascript:call_link\('abenchanging_type_data.htm'\)) is filled here.
+The implementation of the methods finalize, check\_before\_save, and cleanup is not mandatory. The only mandatory redefinition is the method save. If the behavior definition specifies late numbering, the method adjust\_numbers must also be implemented. The structure [mapped](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchanging_type_data.htm) is filled here.
 
-Unlike in the [interaction phase](javascript:call_link\('abenabp_handler_class.htm'\)), no instance phase is passed in the saver phase. The saver itself must know where the data is to which it needs to apply the method finalize (by cooperating with the handler or the underlying legacy functions), namely in the transactional buffer administered by the application.
+Unlike in the [interaction phase](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_handler_class.htm), no instance phase is passed in the saver phase. The saver itself must know where the data is to which it needs to apply the method finalize (by cooperating with the handler or the underlying legacy functions), namely in the transactional buffer administered by the application.
 
-The saver sequence finalize, check\_before\_save, adjust\_numbers, save, and cleanup is called in this order for every business object, after at least one successful change is made in the current [LUW](javascript:call_link\('abenluw_glosry.htm'\) "Glossary Entry") using the business object provider. A successful saver sequence is as follows:
+The saver sequence finalize, check\_before\_save, adjust\_numbers, save, and cleanup is called in this order for every business object, after at least one successful change is made in the current [LUW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenluw_glosry.htm "Glossary Entry") using the business object provider. A successful saver sequence is as follows:
 
 -   The saver sequence starts with the method finalize, which finalizes the calculations and data changes before data can be saved to the database.
 
@@ -117,8 +117,8 @@ CLASS lcl\_saver IMPLEMENTATION.
 ENDCLASS.
 
 Continue
-[Method FINALIZE](javascript:call_link\('abensaver_finalize.htm'\))
-[Method CHECK\_BEFORE\_SAVE](javascript:call_link\('abensaver_check_before_save.htm'\))
-[Method ADJUST\_NUMBERS](javascript:call_link\('abensaver_adjust_numbers.htm'\))
-[Method SAVE](javascript:call_link\('abensaver_method_save.htm'\))
-[CLEANUP method](javascript:call_link\('abensaver_method_cleanup.htm'\))
+[Method FINALIZE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_finalize.htm)
+[Method CHECK\_BEFORE\_SAVE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_check_before_save.htm)
+[Method ADJUST\_NUMBERS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_adjust_numbers.htm)
+[Method SAVE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_method_save.htm)
+[CLEANUP method](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_method_cleanup.htm)

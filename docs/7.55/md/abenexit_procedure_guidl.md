@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrobust_abap_guidl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmodularization_unit_guidl.htm) → 
 
 Exiting Procedures
 
@@ -22,13 +22,13 @@ These statements end a procedure properly, that is, the system passes output par
 
 -   Calling another unit (program, dynpro) without returning to the procedure
 
--   Triggering an exception or sending a dialog message if an [error occurs](javascript:call_link\('abenerror_handling_guidl.htm'\) "Guideline")
+-   Triggering an exception or sending a dialog message if an [error occurs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenerror_handling_guidl.htm "Guideline")
 
 Rule
 
 Only use RETURN to exit procedures
 
-Use the statement RETURN to properly exit a procedure (method, see rule [no implementations in function modules and subroutines](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) early.
+Use the statement RETURN to properly exit a procedure (method, see rule [no implementations in function modules and subroutines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) early.
 
 Details
 
@@ -36,7 +36,7 @@ The statement RETURN is used to exit procedures and always has this result. The 
 
 Hint
 
-As well as the statements RETURN, EXIT, and CHECK specified here, the statements REJECT and STOP can be used to exit special [event blocks](javascript:call_link\('abendial_mod_event_block_guidl.htm'\) "Guideline"). Conversely, RETURN, EXIT, and CHECK can also exit processing blocks other than procedures. In both cases, you must consider the particular behavior of the ABAP runtime environment regarding the exited processing block. Because other processing blocks are only supposed to contain one method call according to the rules [use ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") and [no implementations in dialog modules and event blocks](javascript:call_link\('abendial_mod_event_block_guidl.htm'\) "Guideline"), these cases should no longer occur in new programs.
+As well as the statements RETURN, EXIT, and CHECK specified here, the statements REJECT and STOP can be used to exit special [event blocks](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendial_mod_event_block_guidl.htm "Guideline"). Conversely, RETURN, EXIT, and CHECK can also exit processing blocks other than procedures. In both cases, you must consider the particular behavior of the ABAP runtime environment regarding the exited processing block. Because other processing blocks are only supposed to contain one method call according to the rules [use ABAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") and [no implementations in dialog modules and event blocks](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendial_mod_event_block_guidl.htm "Guideline"), these cases should no longer occur in new programs.
 
 Exception
 

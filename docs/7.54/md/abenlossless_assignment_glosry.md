@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 lossless assignment
 
-[Assignment](javascript:call_link\('abenassignment_glosry.htm'\) "Glossary Entry") between two non- [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") [data objects](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry") in which the source field contains a valid value, the [conversion](javascript:call_link\('abenconversion_glosry.htm'\) "Glossary Entry") is lossless, and the target field contains a valid value after the assignment. The [lossless operator](javascript:call_link\('abenlossless_operator_glosry.htm'\) "Glossary Entry") [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) and the addition EXACT of the obsolete statement [MOVE](javascript:call_link\('abapmove_obs.htm'\)) [](javascript:call_link\('abenassignment_glosry.htm'\) "Glossary Entry")can be used to check whether an assignment is lossless.
+[Assignment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenassignment_glosry.htm "Glossary Entry") between two non- [compatible](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompatible_glosry.htm "Glossary Entry") [data objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_object_glosry.htm "Glossary Entry") in which the source field contains a valid value, the [conversion](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_glosry.htm "Glossary Entry") is lossless, and the target field contains a valid value after the assignment. The [lossless operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlossless_operator_glosry.htm "Glossary Entry") [EXACT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_exact.htm) and the addition EXACT of the obsolete statement [MOVE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmove_obs.htm) [](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenassignment_glosry.htm "Glossary Entry")can be used to check whether an assignment is lossless.
 
-[→ More](javascript:call_link\('abenlossless_move.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlossless_move.htm)

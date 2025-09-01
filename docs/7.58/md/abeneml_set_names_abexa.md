@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [Type Mapping for RAP](javascript:call_link\('abapeml_type_mapping.htm'\)) →  [SET NAMES](javascript:call_link\('abapset_names.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap_other.htm) →  [Type Mapping for RAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_type_mapping.htm) →  [SET NAMES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_names.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20Variants%20of%20SET%20NAMES%2C%20ABENEML_SET_NAMES_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -50,7 +50,7 @@ define view entity DEMO\_MANAGED\_CHILD\_MAP
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_MAP is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_MAP is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_root\_map unique;
 strict(2);
@@ -196,8 +196,8 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class.
 
-For all variants of the SET NAMES statement, variables are declared for the field list typed with ABP\_FIELD\_NAME\_TAB and for the source that is typed with a [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") which includes the %control structure. The components of the %control structure include a value that is initial and, thus, not contained in the field list.
+For all variants of the SET NAMES statement, variables are declared for the field list typed with ABP\_FIELD\_NAME\_TAB and for the source that is typed with a [BDEF derived type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") which includes the %control structure. The components of the %control structure include a value that is initial and, thus, not contained in the field list.
 
 The field lists for all variants are displayed in an output window. The first variant comprises examples for both %control and %element for the source.

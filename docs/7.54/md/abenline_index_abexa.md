@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Expressions and Functions for Internal Tables](javascript:call_link\('abentable_processing_expr_func.htm'\)) →  [Table Functions](javascript:call_link\('abentable_functions.htm'\)) →  [line\_index - Index Function](javascript:call_link\('abenline_index_function.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab.htm) →  [Expressions and Functions for Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_processing_expr_func.htm) →  [Table Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_functions.htm) →  [line\_index - Index Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_index_function.htm) → 
 
 Internal Tables, Index Function
 
-The example demonstrates the table function [line\_index](javascript:call_link\('abenline_index_function.htm'\)).
+The example demonstrates the table function [line\_index](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_index_function.htm).
 
 Source Code
 
@@ -60,16 +60,16 @@ START-OF-SELECTION.
 
 Description
 
-Various row numbers in the same internal table as used in the executable example for [specified rows](javascript:call_link\('abentable_exp_itab_line_abexa.htm'\)) are read and inserted in an internal table, idx:
+Various row numbers in the same internal table as used in the executable example for [specified rows](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_itab_line_abexa.htm) are read and inserted in an internal table, idx:
 
-1.  The row number of a row in the [primary table index](javascript:call_link\('abenprimary_table_index_glosry.htm'\) "Glossary Entry") found using a free search key.
+1.  The row number of a row in the [primary table index](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_table_index_glosry.htm "Glossary Entry") found using a free search key.
     
 2.  The number \-1, since the secondary hash key id is used.
     
 3.  The number 0, since no row is found (0 overrides \-1).
     
-4.  The row number of a row in the [primary table index](javascript:call_link\('abenprimary_table_index_glosry.htm'\) "Glossary Entry") found using a different free search key.
+4.  The row number of a row in the [primary table index](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_table_index_glosry.htm "Glossary Entry") found using a different free search key.
     
-5.  The row number of a row found in the associated [secondary table index](javascript:call_link\('abensecondary_table_index_glosry.htm'\) "Glossary Entry") using the sorted table key cities.
+5.  The row number of a row found in the associated [secondary table index](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_table_index_glosry.htm "Glossary Entry") using the sorted table key cities.
     
 6.  The number 0, since no row is found.

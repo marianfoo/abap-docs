@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [Assigning Components, Examples](javascript:call_link\('abencorresponding_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorresponding.htm) →  [Assigning Components, Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorresponding_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Component%20Operator%2C%20Mapping%20Rule%2C%20ABENCORRESPONDING_MAPPING_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvemen
 t:)
 
 Component Operator, Mapping Rule
 
-This example demonstrates the [component operator](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)) with explicit mapping rules.
+This example demonstrates the [component operator](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expr_corresponding.htm) with explicit mapping rules.
 
 Source Code   
 
@@ -77,7 +77,7 @@ ENDCLASS.
 
 Description   
 
-The example assigns the [basic form](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)) of the result of a constructor expression with the component operator CORRESPONDING with the parameter struct1 to a compatible structure struct2. Various [mapping rules](javascript:call_link\('abencorresponding_constr_mapping.htm'\)) are demonstrated.
+The example assigns the [basic form](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorresponding_constr_arg_type.htm) of the result of a constructor expression with the component operator CORRESPONDING with the parameter struct1 to a compatible structure struct2. Various [mapping rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorresponding_constr_mapping.htm) are demonstrated.
 
 -   If no mapping rule is used, the identically named components a1 and a2 are assigned and the other components remain initial.
 -   The mapping rule MAPPING b4 = a3 also assigns the component a3 to the component b4.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [News for ABAP Release 6.40](javascript:call_link\('abennews-640.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennews.htm) →  [News for ABAP Release 6.xx](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennews-6.htm) →  [News for ABAP Release 6.40](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennews-640.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Tools%20in%20ABAP%20Release%206.40%2C%20ABENNEWS-640-TOOLS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -22,9 +22,9 @@ Modification 1  
 
 Assertions and Activatable Breakpoints
 
-The new statement [ASSERT](javascript:call_link\('abapassert.htm'\)) can be used to define [assertions](javascript:call_link\('abenassertion_glosry.htm'\) "Glossary Entry"). Assertions help verify particular assumptions about the state of a program in a particular location, and they guarantee that these assumptions hold.
+The new statement [ASSERT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassert.htm) can be used to define [assertions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassertion_glosry.htm "Glossary Entry"). Assertions help verify particular assumptions about the state of a program in a particular location, and they guarantee that these assumptions hold.
 
-Assertions can be activated from outside the program using a [checkpoint group](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry") and the addition ID. The same addition was also introduced for the statement [BREAK-POINT](javascript:call_link\('abapbreak-point.htm'\)) to activate breakpoints using checkpoint groups.
+Assertions can be activated from outside the program using a [checkpoint group](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencheckpoint_group_glosry.htm "Glossary Entry") and the addition ID. The same addition was also introduced for the statement [BREAK-POINT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapbreak-point.htm) to activate breakpoints using checkpoint groups.
 
 Hint
 
@@ -34,7 +34,7 @@ Modification 2  
 
 New Two-Process Debugger
 
-The new two-process debugger is a completely new development, with particular emphasis on the development of a more modern user interface. The main differences between this and the previous ABAP debugger are that the new debugger is executed in a separate [ABAP session](javascript:call_link\('abenabap_session_glosry.htm'\) "Glossary Entry") and the object that is being analyzed (the debuggee) is now the entire ABAP session instead of an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
+The new two-process debugger is a completely new development, with particular emphasis on the development of a more modern user interface. The main differences between this and the previous ABAP debugger are that the new debugger is executed in a separate [ABAP session](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_session_glosry.htm "Glossary Entry") and the object that is being analyzed (the debuggee) is now the entire ABAP session instead of an [internal session](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm "Glossary Entry").
 
 The new ABAP debugger provides the user with a flexible and freely configurable interface with over eight desktops, on which between one and four tools, such as source code display or structure display, can be placed and arranged. In ABAP release 6.40, there is now a choice of the previous debugger and the new debugger; it is now also possible to switch between the two at any time during a debugger session.
 
@@ -47,13 +47,13 @@ The following improvements were made:
 -   When internal tables are displayed, offsets and lengths can be specified for the character-like components in the column headers.
 -   When internal tables are displayed, the corresponding icons next to the table names can be selected to list the names of all internal tables displayed in the previous debugger session and double-clicked to display them. The display starts from the line number and the component with which the selected table was last displayed.
 -   If the program flow is stuck on a CASE statement, the system branches in a single step to the affected WHEN block.
--   In ABAP Editor, external debugging can be activated and deactivated under Utilities → Settings. Depending on the settings and whether a regular ABAP program or an ABAP Script for a [BSP](javascript:call_link\('abenbusiness_server_pages_glosry.htm'\) "Glossary Entry") is being edited, a prompt may appear (when creating breakpoints in ABAP Editor) asking whether these breakpoints are to be HTTP breakpoints or session breakpoints. HTTP breakpoints are persisted in the database for different logons; session breakpoints are regular breakpoints that refer to the current logon.
+-   In ABAP Editor, external debugging can be activated and deactivated under Utilities → Settings. Depending on the settings and whether a regular ABAP program or an ABAP Script for a [BSP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_server_pages_glosry.htm "Glossary Entry") is being edited, a prompt may appear (when creating breakpoints in ABAP Editor) asking whether these breakpoints are to be HTTP breakpoints or session breakpoints. HTTP breakpoints are persisted in the database for different logons; session breakpoints are regular breakpoints that refer to the current logon.
 
 Modification 4   
 
 Memory Inspector
 
-The Memory Inspector tool was introduced for the analysis of [memory snapshots](javascript:call_link\('abenmemory_snapshot_glosry.htm'\) "Glossary Entry").
+The Memory Inspector tool was introduced for the analysis of [memory snapshots](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_snapshot_glosry.htm "Glossary Entry").
 
 Hint
 
@@ -63,18 +63,18 @@ Modification 5  
 
 Code Inspector
 
-The Code Inspector tool was introduced to check [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") for performance, security, syntax, and the adherence to naming conventions.
+The Code Inspector tool was introduced to check [repository objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_object_glosry.htm "Glossary Entry") for performance, security, syntax, and the adherence to naming conventions.
 
 Modification 6   
 
 ABAP Unit
 
-The [ABAP Unit](javascript:call_link\('abenabap_unit_glosry.htm'\) "Glossary Entry") tool was integrated in the ABAP runtime framework to test individual program sections. ABAP Unit is based on the execution of [test methods](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") in [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry").
+The [ABAP Unit](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_unit_glosry.htm "Glossary Entry") tool was integrated in the ABAP runtime framework to test individual program sections. ABAP Unit is based on the execution of [test methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentest_method_glosry.htm "Glossary Entry") in [test classes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentest_class_glosry.htm "Glossary Entry").
 
 Modification 7   
 
 Runtime Analysis
 
-When measuring [BSP](javascript:call_link\('abenbusiness_server_pages_glosry.htm'\) "Glossary Entry") applications, it is now also possible to specify a different variant to the standard variant for restrictions (in the runtime analysis transaction SE30).
+When measuring [BSP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_server_pages_glosry.htm "Glossary Entry") applications, it is now also possible to specify a different variant to the standard variant for restrictions (in the runtime analysis transaction SE30).
 
-The class CL\_ABAP\_RUNTIME provides methods for creating objects. The method GET\_RUNTIME can be used to execute multiple runtime measurements with different resolutions and parallel measurements (see [Class for Runtime Measurements](javascript:call_link\('abencl_abap_runtime.htm'\))).
+The class CL\_ABAP\_RUNTIME provides methods for creating objects. The method GET\_RUNTIME can be used to execute multiple runtime measurements with different resolutions and parallel measurements (see [Class for Runtime Measurements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_runtime.htm)).

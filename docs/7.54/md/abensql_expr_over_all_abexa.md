@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_win](javascript:call_link\('abapselect_over.htm'\)) →  [ABAP SQL - Examples of Window Expressions](javascript:call_link\('abensql_expr_over_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_win](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm) →  [ABAP SQL - Examples of Window Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_over_abexas.htm) → 
 
 SQL Expressions, Window Expressions Without Partition
 
-This example demonstrates [window expressions](javascript:call_link\('abapselect_over.htm'\)) without partition.
+This example demonstrates [window expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm) without partition.
 
 Source Code
 
@@ -70,4 +70,4 @@ START-OF-SELECTION.
 
 Description
 
-The example defines the same columns as the executable example [Window Expressions](javascript:call_link\('abensql_expr_over_abexa.htm'\)). There is, however, no [PARTITION](javascript:call_link\('abapselect_over.htm'\)) addition after [OVER](javascript:call_link\('abapselect_over.htm'\)) of the window expressions. This creates a single window that covers all rows in the results set to which the [window functions](javascript:call_link\('abensql_win_func.htm'\)) are applied.
+The example defines the same columns as the executable example [Window Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_over_abexa.htm). There is, however, no [PARTITION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm) addition after [OVER](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm) of the window expressions. This creates a single window that covers all rows in the results set to which the [window functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_win_func.htm) are applied.

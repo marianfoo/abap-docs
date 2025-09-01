@@ -4,22 +4,22 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shared_objects.htm) → 
 
 Shared Objects - Areas
 
-An area is a repository object for storing shared objects. It is the template for [area instance versions](javascript:call_link\('abenarea_instance_version_glosry.htm'\) "Glossary Entry") in the shared memory. An identically named [area class](javascript:call_link\('abenarea_class_glosry.htm'\) "Glossary Entry") and any [area root class](javascript:call_link\('abenroot_data_class_glosry.htm'\) "Glossary Entry") are assigned to each area. Areas are created and managed in transaction SHMA. Various properties can be assigned to an area in transaction SHMA. From a technical point of view, the properties are taken into consideration when the area class is generated, or they are stored automatically in the attributes of the area class when an [area handle](javascript:call_link\('abenarea_handle_glosry.htm'\) "Glossary Entry") is created.
+An area is a repository object for storing shared objects. It is the template for [area instance versions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarea_instance_version_glosry.htm "Glossary Entry") in the shared memory. An identically named [area class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarea_class_glosry.htm "Glossary Entry") and any [area root class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_data_class_glosry.htm "Glossary Entry") are assigned to each area. Areas are created and managed in transaction SHMA. Various properties can be assigned to an area in transaction SHMA. From a technical point of view, the properties are taken into consideration when the area class is generated, or they are stored automatically in the attributes of the area class when an [area handle](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarea_handle_glosry.htm "Glossary Entry") is created.
 
--   [Basic Properties](javascript:call_link\('abenshm_area_basic_properties.htm'\))
+-   [Basic Properties](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshm_area_basic_properties.htm)
 
--   [Fixed Area Properties](javascript:call_link\('abenshm_area_fixed_properties.htm'\))
+-   [Fixed Area Properties](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshm_area_fixed_properties.htm)
 
--   [Dynamic Area Properties](javascript:call_link\('abenshm_area_dynamic_properties.htm'\))
+-   [Dynamic Area Properties](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshm_area_dynamic_properties.htm)
 
--   [Runtime-Dependent Area Properties](javascript:call_link\('abenshm_area_runtime_properties.htm'\))
+-   [Runtime-Dependent Area Properties](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshm_area_runtime_properties.htm)
 
 Continue
-[Areas - Basic Properties](javascript:call_link\('abenshm_area_basic_properties.htm'\))
-[Areas - Fixed Area Properties](javascript:call_link\('abenshm_area_fixed_properties.htm'\))
-[Areas - Dynamic Area Properties](javascript:call_link\('abenshm_area_dynamic_properties.htm'\))
-[Areas - Runtime-Dependent Area Properties](javascript:call_link\('abenshm_area_runtime_properties.htm'\))
+[Areas - Basic Properties](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshm_area_basic_properties.htm)
+[Areas - Fixed Area Properties](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshm_area_fixed_properties.htm)
+[Areas - Dynamic Area Properties](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshm_area_dynamic_properties.htm)
+[Areas - Runtime-Dependent Area Properties](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshm_area_runtime_properties.htm)

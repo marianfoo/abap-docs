@@ -4,17 +4,18 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) →  [Checking Typing](javascript:call_link\('abentyping_check.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentyping.htm) →  [Checking Typing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentyping_check.htm) → 
 
 Literals as Actual Parameters
 
 Special rules apply to the assignment of literals to formal parameters. They make it possible to assign character literals of type c and string or numeric literals of type i and p to formal parameters whose type would not normally allow this.
 
-If the formal parameter has a generic type, the remaining type attributes are defined by the content of the specified literal (see table 1). When a literal is bound, the pass is always executed as [pass by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry"), even if [pass by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry") is defined for the formal parameter.
+If the formal parameter has a generic type, the remaining type attributes are defined by the content of the specified literal (see table 1). When a literal is bound, the pass is always executed as [pass by value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpass_by_value_glosry.htm "Glossary Entry"), even if [pass by reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpass_by_reference_glosry.htm "Glossary Entry") is defined for the formal parameter.
 
-If a literal meets the type requirements, its content is assigned to the formal parameter according to the relevant [conversion rules for elementary data types](javascript:call_link\('abenconversion_elementary.htm'\)). However, in contrast to the normal application of these rules, a non-catchable exception is raised if the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") is exceeded.
+If a literal meets the type requirements, its content is assigned to the formal parameter according to the relevant [conversion rules for elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_elementary.htm). However, in contrast to the normal application of these rules, a non-catchable exception is raised if the [value range](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_range_glosry.htm "Glossary Entry") is exceeded.
 
--   [Checking Character Literals](#abentyping-literals-1-------checking-numeric-literals---@ITOC@@ABENTYPING_LITERALS_2)
+-   [Checking Character Literals](#@@ITOC@@ABENTYPING_LITERALS_1)
+-   [Checking Numeric Literals](#@@ITOC@@ABENTYPING_LITERALS_2)
 
 Checking Character Literals
 
@@ -34,15 +35,15 @@ The literal must be eight characters long.
 
 decfloat, decfloat16, decfloat34
 
-The literal must contain a number in [mathematical](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry"), [commercial](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry"), or [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry"). If generic typing with decfloat is used, the formal parameter is given the data type decfloat34.
+The literal must contain a number in [mathematical](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmathematical_notation_glosry.htm "Glossary Entry"), [commercial](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencommercial_notation_glosry.htm "Glossary Entry"), or [scientific notation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscientific_notation_glosry.htm "Glossary Entry"). If generic typing with decfloat is used, the formal parameter is given the data type decfloat34.
 
 f
 
-The literal must contain a number in [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry").
+The literal must contain a number in [scientific notation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscientific_notation_glosry.htm "Glossary Entry").
 
 i, int8, (b, s)
 
-The literal must contain a number in [mathematical](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") or [commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry"). The literal must not contain any [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry").
+The literal must contain a number in [mathematical](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") or [commercial notation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencommercial_notation_glosry.htm "Glossary Entry"). The literal must not contain any [decimal places](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendecimal_place_glosry.htm "Glossary Entry").
 
 n
 
@@ -50,11 +51,11 @@ The literal may only contain digits. If the formal parameter has a fixed length,
 
 numeric
 
-The literal must contain a number in [mathematical](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") or [commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry"). The formal parameter inherits the data type p, length 16, and the decimal spaces specified in the literal.
+The literal must contain a number in [mathematical](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") or [commercial notation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencommercial_notation_glosry.htm "Glossary Entry"). The formal parameter inherits the data type p, length 16, and the decimal spaces specified in the literal.
 
 p
 
-The literal must contain a number in [mathematical](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") or [commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry"). For generic formal parameters, the length is set to 16. The number of decimal places is set to the decimal places specified in the literal. If the [program attribute](javascript:call_link\('abenprogram_attribute_glosry.htm'\) "Glossary Entry") Fixed Point Arithmetic is activated in the called procedure, the number of decimal places in the literal for a completely typed formal parameter must be less than or equal to the number of decimal places in the formal parameter. If the attribute Fixed Point Arithmetic is deactivated in the called procedure, the number in the literal must have exactly the same number of decimal places as the formal parameter.
+The literal must contain a number in [mathematical](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") or [commercial notation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencommercial_notation_glosry.htm "Glossary Entry"). For generic formal parameters, the length is set to 16. The number of decimal places is set to the decimal places specified in the literal. If the [program attribute](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprogram_attribute_glosry.htm "Glossary Entry") Fixed Point Arithmetic is activated in the called procedure, the number of decimal places in the literal for a completely typed formal parameter must be less than or equal to the number of decimal places in the formal parameter. If the attribute Fixed Point Arithmetic is deactivated in the called procedure, the number in the literal must have exactly the same number of decimal places as the formal parameter.
 
 string
 
@@ -78,13 +79,13 @@ The literal may only contain allowed hexadecimal characters, that is the digits 
 
 utclong
 
-The literal can be a left-aligned [character-like representation](javascript:call_link\('abents_value.htm'\)) of a time stamp, like "yyyy-mm-ddThh:mm:ss.fffffff", or it can contain only blanks.
+The literal can be a left-aligned [character-like representation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abents_value.htm) of a time stamp, like "yyyy-mm-ddThh:mm:ss.fffffff", or it can contain only blanks.
 
 All other types have the same requirements for character literals as for other actual parameters. Generic formal parameters inherit the type of the actual parameter. Apart from the formal parameters listed in the table above, character literals can only be passed to formal parameters whose typing includes the data types c or string.
 
 Hints
 
--   Character literals that are passed to actual parameters can be linked using the [literal operator](javascript:call_link\('abenliteral_operator_glosry.htm'\) "Glossary Entry") & and the rules described above apply. However, for a linking with the [concatenation operator](javascript:call_link\('abenconcatenation_operator_glosry.htm'\) "Glossary Entry") && is used, the actual parameter is a [string expression](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry") of type string and the formal parameter must be typed accordingly.
+-   Character literals that are passed to actual parameters can be linked using the [literal operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenliteral_operator_glosry.htm "Glossary Entry") & and the rules described above apply. However, for a linking with the [concatenation operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconcatenation_operator_glosry.htm "Glossary Entry") && is used, the actual parameter is a [string expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_expression_glosry.htm "Glossary Entry") of type string and the formal parameter must be typed accordingly.
 -   The requirements in the table above do not completely exclude character literals from being passed to actual parameters that do not match their value range. An exception is raised in this case.
 
 Checking Numeric Literals

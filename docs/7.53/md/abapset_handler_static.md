@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Call Event Handler](javascript:call_link\('abencall_event_handler.htm'\)) →  [SET HANDLER](javascript:call_link\('abapset_handler.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_processing_blocks.htm) →  [Call Event Handler](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_event_handler.htm) →  [SET HANDLER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_handler.htm) → 
 
 SET HANDLER - static\_event
 
-[Quick Reference](javascript:call_link\('abapset_handler_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_handler_shortref.htm)
 
 Syntax
 
@@ -20,11 +20,11 @@ Addition:
 
 Effect
 
-This statement registers the [event handlers](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry") handler1 handler2 ... for the associated [static events](javascript:call_link\('abenstatic_event_glosry.htm'\) "Glossary Entry"). The addition ACTIVATION can be used to deregister event handlers or perform a dynamic registration.
+This statement registers the [event handlers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevent_handler_glosry.htm "Glossary Entry") handler1 handler2 ... for the associated [static events](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_event_glosry.htm "Glossary Entry"). The addition ACTIVATION can be used to deregister event handlers or perform a dynamic registration.
 
-An event handler is executed if the associated static event is raised using [RAISE EVENT](javascript:call_link\('abapraise_event.htm'\)). The list handler1 handler2 ... has the same form as for [instance events](javascript:call_link\('abapset_handler_instance.htm'\)), but can only contain event handlers for static events declared using [CLASS EVENTS.](javascript:call_link\('abapclass-events.htm'\))
+An event handler is executed if the associated static event is raised using [RAISE EVENT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_event.htm). The list handler1 handler2 ... has the same form as for [instance events](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_handler_instance.htm), but can only contain event handlers for static events declared using [CLASS EVENTS.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass-events.htm)
 
-Events that can be handled by an event handler for static events are defined uniquely by their definition in the statement [*\[*CLASS-*\]*](javascript:call_link\('abapclass-methods_event_handler.htm'\)) [METHODS](javascript:call_link\('abapmethods_event_handler.htm'\)). The addition FOR (required when registering or deregistering instance event handlers to determine the raising instances) cannot be specified. An event handler for static events is registered or deregistered independently of the instance and this applies globally to the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
+Events that can be handled by an event handler for static events are defined uniquely by their definition in the statement [*\[*CLASS-*\]*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass-methods_event_handler.htm) [METHODS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_event_handler.htm). The addition FOR (required when registering or deregistering instance event handlers to determine the raising instances) cannot be specified. An event handler for static events is registered or deregistered independently of the instance and this applies globally to the current [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry").
 
 Addition
 
@@ -32,11 +32,11 @@ Addition
 
 Effect
 
-The same applies to the syntax and semantics of the addition ACTIVATION as to the statement [SETHANDLER](javascript:call_link\('abapset_handler_instance.htm'\)) for instance events.
+The same applies to the syntax and semantics of the addition ACTIVATION as to the statement [SETHANDLER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_handler_instance.htm) for instance events.
 
 Note
 
-As long as the registration of an instance method as an event handler for a static event is not canceled using ACTIVATION " ", the associated object cannot be deleted by the [garbage collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry"). This is because it is still used by the runtime environment.
+As long as the registration of an instance method as an event handler for a static event is not canceled using ACTIVATION " ", the associated object cannot be deleted by the [garbage collector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengarbage_collector_glosry.htm "Glossary Entry"). This is because it is still used by the runtime environment.
 
 Example
 

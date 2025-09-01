@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 repeat function
 
-[Processing function](javascript:call_link\('abenprocess_function_glosry.htm'\) "Glossary Entry") that lengthens a string through repetition.
+[Processing function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocess_function_glosry.htm "Glossary Entry") that lengthens a string through repetition.
 
-[→ More](javascript:call_link\('abenrepeat_functions.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepeat_functions.htm)

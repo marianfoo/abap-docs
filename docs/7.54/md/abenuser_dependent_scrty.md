@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Further Security Risks](javascript:call_link\('abenother_programming_scrty.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_security.htm) →  [Further Security Risks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenother_programming_scrty.htm) → 
 
 User-Dependent Program Flow
 
@@ -12,9 +12,9 @@ The use of user names in ABAP programs to control program behavior can be a secu
 
 In ABAP, user-dependent program flows can occur in the following instances:
 
--   The [system field](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") sy-uname is queried in logical expressions. This is a security risk and should never occur (with the exception of a few predefined user names).
+-   The [system field](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_field_glosry.htm "Glossary Entry") sy-uname is queried in logical expressions. This is a security risk and should never occur (with the exception of a few predefined user names).
 
--   A user name specified using the addition USER of the statement [AUTHORITY-CHECK](javascript:call_link\('abapauthority-check.htm'\)). This addition can be misused to bypass an authorization check by specifying a user with extensive authorizations. The same applies to function modules such as AUTHORITY\_CHECK or SU\_RAUTH\_CHECK\_FOR\_USER, which do not usually need to be used locally. It may, however, be useful to call these function modules using RFC, to inspect the authorizations of the current user of the local system in remote systems.
+-   A user name specified using the addition USER of the statement [AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapauthority-check.htm). This addition can be misused to bypass an authorization check by specifying a user with extensive authorizations. The same applies to function modules such as AUTHORITY\_CHECK or SU\_RAUTH\_CHECK\_FOR\_USER, which do not usually need to be used locally. It may, however, be useful to call these function modules using RFC, to inspect the authorizations of the current user of the local system in remote systems.
 
 sy-uname is usually redundant when specified explicitly after the addition USER and carries the risk of the content being manipulated in advance, for example in ABAP Debugger.
 
@@ -24,7 +24,7 @@ Notes
 
 -   If the current user name is required in a program, it is safer to determine it used the method GET\_USER\_NAME of the class CL\_ABAP\_SYST than taking it from the system field sy-uname, which is easier to manipulate.
 
--   Specifying a user name using the addition USER of the statement [SUBMIT VIA JOB](javascript:call_link\('abapsubmit_via_job.htm'\)) is not a security risk, since this name is checked for the current user using the [authorization object](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") S\_BTCH\_NAM.
+-   Specifying a user name using the addition USER of the statement [SUBMIT VIA JOB](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_via_job.htm) is not a security risk, since this name is checked for the current user using the [authorization object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenauthorization_object_glosry.htm "Glossary Entry") S\_BTCH\_NAM.
 
 Example
 

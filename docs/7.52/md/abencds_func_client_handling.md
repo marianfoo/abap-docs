@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - Table Functions](javascript:call_link\('abenddic_cds_table_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - Table Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_table_functions.htm) → 
 
 ABAP CDS - Client Handling in CDS Table Functions
 
-The [CDS annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") [@ClientHandling.type](javascript:call_link\('abencds_f1_function_annotations.htm'\)) can be used to switch [client dependency](javascript:call_link\('abenclient_dependence_glosry.htm'\) "Glossary Entry") on and off for a CDS table function in ABAP CDS.
+The [CDS annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotation_glosry.htm "Glossary Entry") [@ClientHandling.type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_function_annotations.htm) can be used to switch [client dependency](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_dependence_glosry.htm "Glossary Entry") on and off for a CDS table function in ABAP CDS.
 
 -   The value #CLIENT\_DEPENDENT switches client dependency on.
 
@@ -18,35 +18,35 @@ Client dependency is switched on by default. The client dependency of a CDS tabl
 
 -   Client-specific CDS table function
 
--   The [element list](javascript:call_link\('abencds_f1_return_list.htm'\)) of a client-specific CDS must have an explicit client field with the built-in dictionary type CLNT as its first element. The client field is a column of the tabular return value of the associated AMDP function implementation and is not a component of the structured data type represented by the CDS entity.
+-   The [element list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_return_list.htm) of a client-specific CDS must have an explicit client field with the built-in dictionary type CLNT as its first element. The client field is a column of the tabular return value of the associated AMDP function implementation and is not a component of the structured data type represented by the CDS entity.
 
--   When a client-specific CDS table function is accessed using [SELECT](javascript:call_link\('abapselect.htm'\)) without the addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client.htm'\)), only those rows are selected implicitly from the results set of the function that contain the ID of the current client or the client specified in the addition [USING CLIENT](javascript:call_link\('abapselect_client.htm'\)) in the client field.
+-   When a client-specific CDS table function is accessed using [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) without the addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_client.htm), only those rows are selected implicitly from the results set of the function that contain the ID of the current client or the client specified in the addition [USING CLIENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_client.htm) in the client field.
 
--   A CDS table function is always implemented in the associated [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") in platform-specific SQL. The implementation must ensure that all required data is made available. Particularly in the ON conditions of joins, client columns must be used correctly.
+-   A CDS table function is always implemented in the associated [AMDP method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_method_glosry.htm "Glossary Entry") in platform-specific SQL. The implementation must ensure that all required data is made available. Particularly in the ON conditions of joins, client columns must be used correctly.
 
--   For performance reasons, it is best to restrict the results set of the function to the required clients at the implementation stage. This usually involves passing the client ID in question to an input parameter of the function. Here, it is advisable to use an input parameter of the dictionary type CLNT, which needs to be annotated with the annotation [@Environment.systemField](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)) and the predefined value [#CLIENT](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)). In this case, [SELECT](javascript:call_link\('abapselect.htm'\)) passes the correct client ID implicitly.
+-   For performance reasons, it is best to restrict the results set of the function to the required clients at the implementation stage. This usually involves passing the client ID in question to an input parameter of the function. Here, it is advisable to use an input parameter of the dictionary type CLNT, which needs to be annotated with the annotation [@Environment.systemField](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm) and the predefined value [#CLIENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm). In this case, [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) passes the correct client ID implicitly.
 
--   Note that if the [ABAP-specific session variables](javascript:call_link\('abenhana_session_variables.htm'\)) CLIENT and CDS\_CLIENT are accessed in the implementation of a [CDS table function](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry"), the addition [USING CLIENT](javascript:call_link\('abapselect_client.htm'\)) of the Open SQL statement [SELECT](javascript:call_link\('abapselect.htm'\)) only acts on the session variableCDS\_CLIENT. If the AMDP function is used in an AMDP method called from ABAP, there is no equivalent for USING CLIENT.
+-   Note that if the [ABAP-specific session variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_session_variables.htm) CLIENT and CDS\_CLIENT are accessed in the implementation of a [CDS table function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_table_function_glosry.htm "Glossary Entry"), the addition [USING CLIENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_client.htm) of the Open SQL statement [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) only acts on the session variableCDS\_CLIENT. If the AMDP function is used in an AMDP method called from ABAP, there is no equivalent for USING CLIENT.
 
--   If the addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client.htm'\)) is specified, the column is added to the results set and is filled with the associated client ID for each row. Before this column can be used in the SELECT statement, a name must be assigned to it after the addition CLIENT SPECIFIED. If the name is not defined, no addressing is possible in a clause and no inline declarations can be made after [INTO](javascript:call_link\('abapinto_clause.htm'\)). The defined name is also used in the case of [INTO CORRESPONDING](javascript:call_link\('abapinto_clause.htm'\)). If no name is defined, the client column is not transported
+-   If the addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_client.htm) is specified, the column is added to the results set and is filled with the associated client ID for each row. Before this column can be used in the SELECT statement, a name must be assigned to it after the addition CLIENT SPECIFIED. If the name is not defined, no addressing is possible in a clause and no inline declarations can be made after [INTO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinto_clause.htm). The defined name is also used in the case of [INTO CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinto_clause.htm). If no name is defined, the client column is not transported
 
 -   Cross-client CDS table function
 
--   The [element list](javascript:call_link\('abencds_f1_return_list.htm'\)) of a cross-client CDS does not need to have an explicit client field with the built-in dictionary type CLNT. If the first element has the type CLNT, it does not function as a client field. Instead, it is a column of the tabular return value of the associated AMDP function implementation and also a regular component of the structured data type represented by the CDS entity.
+-   The [element list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_return_list.htm) of a cross-client CDS does not need to have an explicit client field with the built-in dictionary type CLNT. If the first element has the type CLNT, it does not function as a client field. Instead, it is a column of the tabular return value of the associated AMDP function implementation and also a regular component of the structured data type represented by the CDS entity.
 
--   When a cross-client CDS table function is accessed using [SELECT](javascript:call_link\('abapselect.htm'\)), an element of the type CLNT does not have a special meaning and is handled like any other element.
+-   When a cross-client CDS table function is accessed using [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm), an element of the type CLNT does not have a special meaning and is handled like any other element.
 
--   The annotation [@Environment.systemField: #CLIENT](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)) cannot be used in the parameter list of a cross-client CDS table function.
+-   The annotation [@Environment.systemField: #CLIENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm) cannot be used in the parameter list of a cross-client CDS table function.
 
 Notes
 
 -   CDS table functions for application data should usually be client-specific.
 
--   The annotation [@ClientHandling.type](javascript:call_link\('abencds_f1_function_annotations.htm'\)) with the values #CLIENT\_DEPENDENT and #CLIENT\_INDEPENDENT replaces the annotation [@ClientDependent](javascript:call_link\('abencds_func_client_handling_obs.htm'\)) with the values true and false and should be used instead of this annotation.
+-   The annotation [@ClientHandling.type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_function_annotations.htm) with the values #CLIENT\_DEPENDENT and #CLIENT\_INDEPENDENT replaces the annotation [@ClientDependent](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_handling_obs.htm) with the values true and false and should be used instead of this annotation.
 
 Example
 
-The following client-specific CDS table function reads the [ABAP-specific session variables](javascript:call_link\('abenhana_session_variables.htm'\)) CLIENT and CDS\_CLIENT. The first element mandt of the element list is the client field. The other two elements return the read values. An input parameter clnt with the built-in dictionary type CLNT transfers the client ID and, as prescribed, is given the annotation @Environment.systemField:#CLIENT.
+The following client-specific CDS table function reads the [ABAP-specific session variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_session_variables.htm) CLIENT and CDS\_CLIENT. The first element mandt of the element list is the client field. The other two elements return the read values. An input parameter clnt with the built-in dictionary type CLNT transfers the client ID and, as prescribed, is given the annotation @Environment.systemField:#CLIENT.
 
 @ClientHandling.type: #CLIENT\_DEPENDENT
 @AccessControl.authorizationCheck:#NOT\_ALLOWED  
@@ -81,11 +81,11 @@ The first row of a local table client\_tab with the type of the tabular return v
 
 Executable Examples
 
--   [Client-specific CDS table functions](javascript:call_link\('abencds_func_client_dep_abexa.htm'\))
+-   [Client-specific CDS table functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_dep_abexa.htm)
 
--   [Cross-Client CDS Table Functions](javascript:call_link\('abencds_func_client_indep_abexa.htm'\))
+-   [Cross-Client CDS Table Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_indep_abexa.htm)
 
 Continue
-[ABAP CDS - Obsolete Client Handling in Table Functions](javascript:call_link\('abencds_func_client_handling_obs.htm'\))
-![Example](exa.gif "Example") [Client-Specific CDS Table Functions](javascript:call_link\('abencds_func_client_dep_abexa.htm'\))
-![Example](exa.gif "Example") [Cross-Client CDS Table Functions](javascript:call_link\('abencds_func_client_indep_abexa.htm'\))
+[ABAP CDS - Obsolete Client Handling in Table Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_handling_obs.htm)
+![Example](exa.gif "Example") [Client-Specific CDS Table Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_dep_abexa.htm)
+![Example](exa.gif "Example") [Cross-Client CDS Table Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_func_client_indep_abexa.htm)

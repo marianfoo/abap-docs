@@ -4,17 +4,19 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Use](javascript:call_link\('abenldb_usage.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb.htm) →  [Logical Databases - Use](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_usage.htm) → 
 
 Logical Databases - Associated with Executable Programs
 
--   [How the Association Works](#abenldb-usage-executable-1--------selection-screen---@ITOC@@ABENLDB_USAGE_EXECUTABLE_2)
+-   [How the Association Works](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_1)
+
+-   [Selection Screen](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_2)
 
 -   [Runtime Behavior](#@@ITOC@@ABENLDB_USAGE_EXECUTABLE_3)
 
 How the Association Works
 
-When an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") is associated with a logical database (meaning that the logical database is entered in the program attributes), the subroutines of the [database program](javascript:call_link\('abenldb_program.htm'\)) are combined with the [reporting event blocks](javascript:call_link\('abenabap_processing_blocks.htm'\)) of the executable program to create a complete modularized program for reading and processing data. The individual processing blocks are called in a fixed order by the runtime environment. The runtime behavior is controlled by the structure, selections, and PUT statements of the logical database, plus the GET statements of the executable program.
+When an [executable program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexecutable_program_glosry.htm "Glossary Entry") is associated with a logical database (meaning that the logical database is entered in the program attributes), the subroutines of the [database program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_program.htm) are combined with the [reporting event blocks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_processing_blocks.htm) of the executable program to create a complete modularized program for reading and processing data. The individual processing blocks are called in a fixed order by the runtime environment. The runtime behavior is controlled by the structure, selections, and PUT statements of the logical database, plus the GET statements of the executable program.
 
 The runtime environment calls are determined by both the structure of the logical database and the definition of the executable program. The structure of the logical database specifies in which order the subroutines of the logical database are called, which themselves call the GET event blocks in the executable program. The GET event blocks defined in the executable program determine the read depth of the logical database.. NODES statements or TABLES statements in the global declaration part of the executable program determine which of the input fields defined in the logical database are included on the selection screen and define interface work areas for passing data between the logical database and the executable program.
 
@@ -22,11 +24,11 @@ Generally, the database is actually accessed using Open SQL statements implement
 
 Selection Screen
 
-If a logical database is specified in the attributes of an executable program, this modifies the [standard selection screen](javascript:call_link\('abenstandard_selscreen_glosry.htm'\) "Glossary Entry") of the program. The standard selection screen contains both the selections (selection criteria and parameters) of the logical database and the program-specific selections. By declaring interface work areas, the executable program determines which database-specific selections are relevant for its data analysis and appear on the selection screen.
+If a logical database is specified in the attributes of an executable program, this modifies the [standard selection screen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_selscreen_glosry.htm "Glossary Entry") of the program. The standard selection screen contains both the selections (selection criteria and parameters) of the logical database and the program-specific selections. By declaring interface work areas, the executable program determines which database-specific selections are relevant for its data analysis and appear on the selection screen.
 
 Runtime Behavior
 
-The following describes the order in which the ABAP runtime environment calls the subroutines of the logical database and the event blocks in the executable program. Usually, the subroutines are called before the event blocks. To do this, various processors (such as the selection screen processor and reporting processor) are executed in sequence in the runtime environment (see also [Flow of an Executable Program](javascript:call_link\('abenreporting_process.htm'\))).
+The following describes the order in which the ABAP runtime environment calls the subroutines of the logical database and the event blocks in the executable program. Usually, the subroutines are called before the event blocks. To do this, various processors (such as the selection screen processor and reporting processor) are executed in sequence in the runtime environment (see also [Flow of an Executable Program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreporting_process.htm)).
 
 1.  Initializations before selection screen processing.
     Subroutine init
@@ -76,7 +78,7 @@ The following describes the order in which the ABAP runtime environment calls th
 
 Note
 
-Authorization checks performed by the statement [AUTHORITY-CHECK](javascript:call_link\('abapauthority-check.htm'\)) are useful in the following subroutines of the database program or the event blocks of the executable program:
+Authorization checks performed by the statement [AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapauthority-check.htm) are useful in the following subroutines of the database program or the event blocks of the executable program:
 
 -   Subroutines pai and authority\_check...
 
@@ -90,4 +92,4 @@ Authorization checks should always be implemented centrally and should be reusab
 
 Executable Example
 
-[Logical Database, Associated with a Program](javascript:call_link\('abenreport_abexa.htm'\))
+[Logical Database, Associated with a Program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreport_abexa.htm)

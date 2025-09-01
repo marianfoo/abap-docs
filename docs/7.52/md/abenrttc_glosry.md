@@ -4,8 +4,8 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 RTTC
 
-→ [runtime type creation](javascript:call_link\('abenrun_time_type_creation_glosry.htm'\) "Glossary Entry")
+→ [runtime type creation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrun_time_type_creation_glosry.htm "Glossary Entry")

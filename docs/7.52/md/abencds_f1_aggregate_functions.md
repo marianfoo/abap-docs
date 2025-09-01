@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, Operands and Expressions](javascript:call_link\('abencds_operands_and_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_operands_and_expressions.htm) → 
 
 ABAP CDS - aggr\_expr
 
@@ -12,14 +12,14 @@ Syntax
 
 ... *{* MAX( *\[*ALL*|*DISTINCT*\]* operand )
     *|* MIN( *\[*ALL*|*DISTINCT*\]* operand )
-    *|* AVG( *\[*ALL*|*DISTINCT*\]* operand [*\[*AS dtype*\]*](javascript:call_link\('abencds_f1_avg_as.htm'\)) )
+    *|* AVG( *\[*ALL*|*DISTINCT*\]* operand [*\[*AS dtype*\]*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_avg_as.htm) )
     *|* SUM( *\[*ALL*|*DISTINCT*\]* operand )
     *|* COUNT( DISTINCT operand )
     *|* COUNT(\*) *}* ...
 
 Effect
 
-Aggregate expression in a [SELECT statement](javascript:call_link\('abencds_f1_select_statement.htm'\)) of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). An aggregate expression calculates a single value from an operand operand by calling an aggregate function from multiple rows of a results set. The following table shows the possible aggregate functions:
+Aggregate expression in a [SELECT statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) of a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"). An aggregate expression calculates a single value from an operand operand by calling an aggregate function from multiple rows of a results set. The following table shows the possible aggregate functions:
 
 Aggregate Function
 
@@ -41,13 +41,13 @@ Data type of operand
 
 AVG
 
-Average value of operand (the operand must be numeric). Type [INT8](javascript:call_link\('abenddic_builtin_types.htm'\)) is only supported with addition [AS dtype](javascript:call_link\('abencds_f1_avg_as.htm'\)). The types [DF16\_...](javascript:call_link\('abenddic_builtin_types.htm'\)), [DF34\_...](javascript:call_link\('abenddic_builtin_types.htm'\)) for decimal free floating numbers are not supported.
+Average value of operand (the operand must be numeric). Type [INT8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) is only supported with addition [AS dtype](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_avg_as.htm). The types [DF16\_...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DF34\_...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) for decimal free floating numbers are not supported.
 
-[FLTP](javascript:call_link\('abenddic_builtin_types.htm'\)), platform-specific interim result or [dtype](javascript:call_link\('abencds_f1_avg_as.htm'\))
+[FLTP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), platform-specific interim result or [dtype](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_avg_as.htm)
 
 SUM
 
-Sum of operand (the operand must be numeric). The types [DF16\_...](javascript:call_link\('abenddic_builtin_types.htm'\)), [DF34\_...](javascript:call_link\('abenddic_builtin_types.htm'\)) for decimal free floating numbers are not supported.
+Sum of operand (the operand must be numeric). The types [DF16\_...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DF34\_...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) for decimal free floating numbers are not supported.
 
 Data type of operand
 
@@ -55,29 +55,29 @@ COUNT
 
 If DISTINCT operand is specified, the number of distinct values of operand; if \* is specified, the number of rows in the results set.
 
-[INT4](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 If ALL is used, all rows in the result set are taken into account (standard setting). If DISTINCT is used, only distinct values of operand are respected.
 
 The following can be specified for operand:
 
--   A [literal](javascript:call_link\('abencds_f1_literal.htm'\))
+-   A [literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm)
 
--   A field of a data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)) of the current CDS view
+-   A field of a data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm) of the current CDS view
 
--   A [path expression](javascript:call_link\('abencds_f1_path_expression.htm'\)) that identifies a field of a data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\))
+-   A [path expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) that identifies a field of a data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm)
 
--   A case distinction [CASE](javascript:call_link\('abencds_f1_case_expression.htm'\)) that returns a value
+-   A case distinction [CASE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_case_expression.htm) that returns a value
 
-The data type of the result is defined when the CDS view is activated and is determined by the aggregate function and the value range of the data types of the operands. If the result of aggregate function AVG is returned in a result set, the resul type is FLTP. As the interim result in a clause, the result type can be platform-specific. With addition [AS dtype](javascript:call_link\('abencds_f1_avg_as.htm'\)), the result type can be defined for every operand position.
+The data type of the result is defined when the CDS view is activated and is determined by the aggregate function and the value range of the data types of the operands. If the result of aggregate function AVG is returned in a result set, the resul type is FLTP. As the interim result in a clause, the result type can be platform-specific. With addition [AS dtype](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_avg_as.htm), the result type can be defined for every operand position.
 
-Aggregate expressions can be used as [elements](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) of a [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)). Here they need an alternative element name defined using AS and require a [GROUP BY clause](javascript:call_link\('abencds_f1_group_by.htm'\)) to be used. Aggregate expressions can be compared with [literals](javascript:call_link\('abencds_f1_literal.htm'\)) in a [HAVING condition](javascript:call_link\('abencds_f1_having_clause.htm'\)).
+Aggregate expressions can be used as [elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm). Here they need an alternative element name defined using AS and require a [GROUP BY clause](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_group_by.htm) to be used. Aggregate expressions can be compared with [literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) in a [HAVING condition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_having_clause.htm).
 
 Notes
 
 -   The names of the aggregate functions AVG, COUNT, MAX, MIN, and SUM are protected and cannot be used as self-defined names.
 
--   A CDS view with aggregate expressions in the SELECT list cannot be expanded using [EXTEND VIEW](javascript:call_link\('abencds_f1_extend_view.htm'\)).
+-   A CDS view with aggregate expressions in the SELECT list cannot be expanded using [EXTEND VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_extend_view.htm).
 
 -   The result of the aggregate functions AVG in data type FLTP is platform-dependent.
 
@@ -103,4 +103,4 @@ define view sales\_order as
   group by buyer\_guid, currency\_code
 
 Continue
-[ABAP CDS - AVG, AS](javascript:call_link\('abencds_f1_avg_as.htm'\))
+[ABAP CDS - AVG, AS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_avg_as.htm)

@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Event Blocks](javascript:call_link\('abenabap_lists_interactive.htm'\)) →  [AT list\_event](javascript:call_link\('abapat_list_event.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Event Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm) →  [AT list\_event](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_list_event.htm) → 
 
 AT USER-COMMAND
 
-[Short Reference](javascript:call_link\('abapat_user-command_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command_shortref.htm)
 
 Syntax
 
@@ -16,7 +16,7 @@ AT USER-COMMAND.
 
 Effect
 
-This statement defines an event block whose event is raised by the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry") if, when a screen list is displayed, a function with a self-defined function code is chosen. The function code is available in the system field sy-ucomm when processing starts.
+This statement defines an event block whose event is raised by the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry") if, when a screen list is displayed, a function with a self-defined function code is chosen. The function code is available in the system field sy-ucomm when processing starts.
 
 Self-defined function codes are all those that include character combinations, except for the following:
 
@@ -90,7 +90,7 @@ Scroll to last page
 
 PFILE name
 
-Stores list lines in a [text file](javascript:call_link\('abenfile_glosry.htm'\) "Glossary Entry") named "abap.lst" in standard character format in the standard directory on the [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry") [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"). If a name is entered using name, this is converted to lowercase letters and used as the file name.
+Stores list lines in a [text file](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfile_glosry.htm "Glossary Entry") named "abap.lst" in standard character format in the standard directory on the [AS instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_instance_glosry.htm "Glossary Entry") [host computer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhost_computer_glosry.htm "Glossary Entry"). If a name is entered using name, this is converted to lowercase letters and used as the file name.
 
 PL-
 
@@ -174,7 +174,7 @@ Cancel
 
 Example
 
-The following section of an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") works with a self-defined GUI status MYLIST. The function linked there with the function code MY\_SELECTION raises the event AT USER-COMMAND when the list is displayed and creates details lists.
+The following section of an [executable program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexecutable_program_glosry.htm "Glossary Entry") works with a self-defined GUI status MYLIST. The function linked there with the function code MY\_SELECTION raises the event AT USER-COMMAND when the list is displayed and creates details lists.
 
 START-OF-SELECTION.
   SET PF-STATUS 'MYLIST'.

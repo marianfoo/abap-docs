@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [NEW - Instance Operator](javascript:call_link\('abenconstructor_expression_new.htm'\)) →  [NEW - Internal Tables](javascript:call_link\('abennew_constructor_params_itab.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencreate_objects.htm) →  [NEW - Instance Operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_new.htm) →  [NEW - Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennew_constructor_params_itab.htm) → 
 
 NEW - line\_spec
 
@@ -20,7 +20,7 @@ Alternatives:
 
 Effect
 
-Specifies one or more rows to be inserted when constructing an internal table with the instance operator [NEW](javascript:call_link\('abennew_constructor_params_itab.htm'\)).
+Specifies one or more rows to be inserted when constructing an internal table with the instance operator [NEW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennew_constructor_params_itab.htm).
 
 Alternative 1
 
@@ -28,7 +28,7 @@ Alternative 1
 
 Effect
 
-Specifies a row. line can be specified in exactly the same way as in the parentheses of an expression [NEW line\_type( ... )](javascript:call_link\('abenconstructor_expression_new.htm'\)). Here, line\_type is the row type of the internal table and a corresponding row is constructed. The following special features apply here:
+Specifies a row. line can be specified in exactly the same way as in the parentheses of an expression [NEW line\_type( ... )](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_new.htm). Here, line\_type is the row type of the internal table and a corresponding row is constructed. The following special features apply here:
 
 -   If a data object is specified for line, this object must be compatible with the row type.
 
@@ -60,13 +60,13 @@ NEW dtype*|*#( *\[*let\_exp*\]*
              ( col1 = dobj31 col2 = dobj32 ... col3 = dobj43 ... )
              ... ).
 
-Values can be assigned to individual structure components outside of the inner parentheses. An assignment of this type applies to all following inner parentheses until the next assignment is made to the component in question. Assignments outside of the inner parentheses must be followed by at least one inner parenthesis. A component cannot be assigned a value more than once in the [construction of a structure](javascript:call_link\('abennew_constructor_params_struct.htm'\)), which means that a component assigned a value outside of the inner parentheses can no longer be specified in an inner parenthesis. A component can be specified again outside the inner parentheses and any components previously specified in an inner parenthesis can also be listed outside the parenthesis.
+Values can be assigned to individual structure components outside of the inner parentheses. An assignment of this type applies to all following inner parentheses until the next assignment is made to the component in question. Assignments outside of the inner parentheses must be followed by at least one inner parenthesis. A component cannot be assigned a value more than once in the [construction of a structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennew_constructor_params_struct.htm), which means that a component assigned a value outside of the inner parentheses can no longer be specified in an inner parenthesis. A component can be specified again outside the inner parentheses and any components previously specified in an inner parenthesis can also be listed outside the parenthesis.
 
 Notes
 
--   The restriction that the content of tabular row types cannot be constructed directly in line applies for reasons of legibility (for humans and for machines) and is not a functional restriction. The expression [VALUE line\_type( ... )](javascript:call_link\('abenconstructor_expression_value.htm'\)) can be specified for line to construct the content of a tabular row, where line\_type is the tabular row type.
+-   The restriction that the content of tabular row types cannot be constructed directly in line applies for reasons of legibility (for humans and for machines) and is not a functional restriction. The expression [VALUE line\_type( ... )](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_value.htm) can be specified for line to construct the content of a tabular row, where line\_type is the tabular row type.
 
--   Specifying [CONV line\_type( ... )](javascript:call_link\('abenconstructor_expression_conv.htm'\)) for the inserted values is also a way of meeting the compatibility requirements made by the row type.
+-   Specifying [CONV line\_type( ... )](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_conv.htm) for the inserted values is also a way of meeting the compatibility requirements made by the row type.
 
 -   The short form for structured row types enables columns of internal tables that are to be given an identical value in blocks to be filled more easily.
     
@@ -95,15 +95,15 @@ Alternative 2
 
 Effect
 
-Specifies multiple rows. The rows are taken from the internal table jtab and inserted into the target table as a block. The same applies to jtab and the additions FROM, TO, and USING KEY as to the addition [LINES OF](javascript:call_link\('abapinsert_itab_linespec.htm'\)) of the statement [INSERT](javascript:call_link\('abapinsert_itab.htm'\)) and the block is inserted in accordance with these rules. jtab is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry").
+Specifies multiple rows. The rows are taken from the internal table jtab and inserted into the target table as a block. The same applies to jtab and the additions FROM, TO, and USING KEY as to the addition [LINES OF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_linespec.htm) of the statement [INSERT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab.htm) and the block is inserted in accordance with these rules. jtab is a [functional operand position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunctional_position_glosry.htm "Glossary Entry").
 
 Notes
 
 -   The rows from jtab are inserted into the target table using the table key only, which means that jtab must be compatible with the target type.
 
--   If there is a conflict with an existing unique table key, a non-handleable exception is always raised when inserting multiple rows from an internal table using the statement [INSERT](javascript:call_link\('abapinsert_itab.htm'\)).
+-   If there is a conflict with an existing unique table key, a non-handleable exception is always raised when inserting multiple rows from an internal table using the statement [INSERT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab.htm).
 
--   When standard tables are created, the rows of the table jtab are appended to the target table in the same way as with the statement [APPEND LINES OF](javascript:call_link\('abapappend_linespec.htm'\)).
+-   When standard tables are created, the rows of the table jtab are appended to the target table in the same way as with the statement [APPEND LINES OF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapappend_linespec.htm).
 
 Example
 

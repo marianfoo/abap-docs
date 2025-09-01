@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Services (BS)](javascript:call_link\('abencds_business_services.htm'\)) →  [ABAP CDS - Consuming Business Services](javascript:call_link\('abenservice_bindings_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Services (BS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_business_services.htm) →  [ABAP CDS - Consuming Business Services](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenservice_bindings_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - Consuming Business Services with OData Client Proxy, ABENCONSUME_BS_CLIENT
 _PROXY_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -43,7 +43,7 @@ START-OF-SELECTION.
 
 Description   
 
-Methods of the [SAP Gateway](javascript:call_link\('abensap_gateway_glosry.htm'\) "Glossary Entry") framework are used to create a local OData Client Proxy and to retrieve the data exposed by a CDS service binding DEMO\_SB\_SCARR\_SPFLI. The service binding provides the following service definition:
+Methods of the [SAP Gateway](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_gateway_glosry.htm "Glossary Entry") framework are used to create a local OData Client Proxy and to retrieve the data exposed by a CDS service binding DEMO\_SB\_SCARR\_SPFLI. The service binding provides the following service definition:
 
 @EndUserText.label: 'Expose demo\_cds\_scarr\_spfli'
 define service demo\_sd\_scarr\_spfli {

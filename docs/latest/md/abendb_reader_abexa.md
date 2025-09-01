@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Streaming and Locators](javascript:call_link\('abenstreams_locators.htm'\)) →  [ABAP SQL - Examples of LOB Handles](javascript:call_link\('abenlobs_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql.htm) →  [ABAP SQL - Streaming and Locators](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstreams_locators.htm) →  [ABAP SQL - Examples of LOB Handles](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlobs_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20SQL%20-%20Reader%20Stream%2C%20Read%20Database%20Table%2C%20ABENDB_READER_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20i
 mprovement:)
 
 ABAP SQL - Reader Stream, Read Database Table
 
-This example demonstrates how data can be read from a DDIC database table using a [reader stream](javascript:call_link\('abenreader_stream_glosry.htm'\) "Glossary Entry").
+This example demonstrates how data can be read from a DDIC database table using a [reader stream](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreader_stream_glosry.htm "Glossary Entry").
 
 Source Code   
 
@@ -69,8 +69,8 @@ ENDCLASS.
 
 Description   
 
-In the method main, a reference variable reader is declared for a reader stream. This reader stream is then [created](javascript:call_link\('abenselect_into_lob_handles.htm'\)) in a SELECT statement.
+In the method main, a reference variable reader is declared for a reader stream. This reader stream is then [created](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_into_lob_handles.htm) in a SELECT statement.
 
-The internal table pict is then filled iteratively with binary data from the row found. If data previously written in the executable [writer stream example](javascript:call_link\('abendb_writer_abexa.htm'\)) is read, this is the data of a figure in the GIF format.
+The internal table pict is then filled iteratively with binary data from the row found. If data previously written in the executable [writer stream example](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_writer_abexa.htm) is read, this is the data of a figure in the GIF format.
 
 The auxiliary method show\_picture displays the figure in an HTML browser.

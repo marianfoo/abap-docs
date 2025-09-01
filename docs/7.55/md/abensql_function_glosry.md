@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 SQL function
 
-Built-in database platform function that can be used in [SQL](javascript:call_link\('abensql_glosry.htm'\) "Glossary Entry"). In [ABAP SQL](javascript:call_link\('abenopen_sql_functions.htm'\)) and in the [CDS DDL](javascript:call_link\('abencds_builtin_functions_v2.htm'\)) in [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry"), a set of SQL functions can be accessed platform-independently.
+Built-in database platform function that can be used in [SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_glosry.htm "Glossary Entry"). In [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_functions.htm) and in the [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_builtin_functions_v2.htm) in [ABAP CDS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_cds_glosry.htm "Glossary Entry"), a set of SQL functions can be accessed platform-independently.
 
-[→ More about](javascript:call_link\('abensql_functions.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_functions.htm)

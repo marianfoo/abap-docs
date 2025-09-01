@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Statements](javascript:call_link\('abenldb_abap_statements.htm'\)) →  [Statements in Logical Databases](javascript:call_link\('abenldb_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) →  [Logical Databases - Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_abap_statements.htm) →  [Statements in Logical Databases](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_statements.htm) → 
 
 PUT
 
-[Quick Reference](javascript:call_link\('abapput_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapput_shortref.htm)
 
 Obsolete Syntax
 
@@ -16,11 +16,11 @@ PUT *{* node *|* <node> *}*.
 
 Effect
 
-This statement is only allowed in the [database program](javascript:call_link\('abendatabase_program_glosry.htm'\) "Glossary Entry") of a logical database in the subroutine named put\_node. In the runtime environment, it raises the event [GET node](javascript:call_link\('abapget-.htm'\)), which signals that data is available in the [table work area](javascript:call_link\('abentable_work_area_glosry.htm'\) "Glossary Entry") of the node node. If there is an appropriate event block implemented in the [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") associated with the logical database, this block is executed.
+This statement is only allowed in the [database program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_program_glosry.htm "Glossary Entry") of a logical database in the subroutine named put\_node. In the runtime environment, it raises the event [GET node](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget-.htm), which signals that data is available in the [table work area](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_work_area_glosry.htm "Glossary Entry") of the node node. If there is an appropriate event block implemented in the [executable program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexecutable_program_glosry.htm "Glossary Entry") associated with the logical database, this block is executed.
 
 After the associated event block has been processed, the subroutine put\_next\_node of the node next\_node that follows in the logical database structure is called, if this node is processed in the associated executable program. Once this subroutine is exited, the event GET node LATE is raised and its event block, if implemented, is processed in the executable program.
 
-The database program must contain one of the statements [NODES](javascript:call_link\('abapnodes.htm'\)) or [TABLES](javascript:call_link\('abaptables.htm'\)) for the node node. The syntax of the statement PUT is based on the [node type](javascript:call_link\('abapnodes.htm'\)).
+The database program must contain one of the statements [NODES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnodes.htm) or [TABLES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables.htm) for the node node. The syntax of the statement PUT is based on the [node type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnodes.htm).
 
 -   If the node is type C, S, or T, the name of the node node must be specified after PUT.
     
@@ -31,7 +31,7 @@ Notes
 
 -   If the logical database is not directly associated with an executable program, but is called using the function module LDB\_PROCESS instead, the statement PUT does not raise an event, but ensures that the appropriate callback routine is called in the calling program.
     
--   See also [Database Program](javascript:call_link\('abenldb_program.htm'\)).
+-   See also [Database Program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program.htm).
     
 -   If logical databases are no longer created, the statement PUT is no longer needed either.
     

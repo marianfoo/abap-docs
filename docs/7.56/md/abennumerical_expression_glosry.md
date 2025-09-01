@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 numeric expression
 
-Represents a numeric value. A numeric expression is a [constructor expression](javascript:call_link\('abenconstructor_glosry.htm'\) "Glossary Entry"), [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry"), or a [function](javascript:call_link\('abenfunction_glosry.htm'\) "Glossary Entry") whose return value has a [numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry").
+Represents a numeric value. A numeric expression is a [constructor expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_glosry.htm "Glossary Entry"), [arithmetic expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expression_glosry.htm "Glossary Entry"), or a [function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunction_glosry.htm "Glossary Entry") whose return value has a [numeric data type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennumeric_data_type_glosry.htm "Glossary Entry").

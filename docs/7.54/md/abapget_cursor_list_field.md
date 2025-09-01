@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Displaying Lists](javascript:call_link\('abenlists_displayed.htm'\)) →  [GET CURSOR - List](javascript:call_link\('abapget_cursor_list.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_list.htm) →  [Displaying Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlists_displayed.htm) →  [GET CURSOR - List](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_cursor_list.htm) → 
 
 GET CURSOR - field\_properties
 
-[Quick Reference](javascript:call_link\('abapget_cursor_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_cursor_shortref.htm)
 
 Syntax
 
@@ -24,7 +24,7 @@ Extras:
 
 Effect
 
-Using these additions, further information about the cursor position can be read during list processing with the addition FIELD of the [GET CURSOR](javascript:call_link\('abapget_cursor_list.htm'\)) statement.
+Using these additions, further information about the cursor position can be read during list processing with the addition FIELD of the [GET CURSOR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget_cursor_list.htm) statement.
 
 Addition 1
 
@@ -54,7 +54,7 @@ The addition OFFSET with the addition MEMORY assigns the offset of the character
 
 Note
 
-If [Subfields](javascript:call_link\('abenoffset_length.htm'\)) is displayed in lists, the returned offset is counted starting from the offset of the subfield.
+If [Subfields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoffset_length.htm) is displayed in lists, the returned offset is counted starting from the offset of the subfield.
 
 Addition 4
 

@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Display](javascript:call_link\('abenlists_displayed.htm'\)) →  [GET CURSOR, List](javascript:call_link\('abapget_cursor_list.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpro_list.htm) →  [Lists - Display](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlists_displayed.htm) →  [GET CURSOR, List](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_list.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: GET CURSOR, field_properties, ABAPGET_CURSOR_LIST_FIELD, 757%0D%0A%0D%0AError:%0D%0A%
 0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 GET CURSOR, field\_properties
 
-[Short Reference](javascript:call_link\('abapget_cursor_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_shortref.htm)
 
 Syntax
 
@@ -27,7 +27,7 @@ Additions:
 
 Effect
 
-Using these additions, further information about the cursor position can be read during list processing with the addition FIELD of the [GET CURSOR](javascript:call_link\('abapget_cursor_list.htm'\)) statement.
+Using these additions, further information about the cursor position can be read during list processing with the addition FIELD of the [GET CURSOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_cursor_list.htm) statement.
 
 Addition 1   
 
@@ -57,7 +57,7 @@ The addition OFFSET with the addition MEMORY assigns the offset of the character
 
 Hint
 
-If [substrings](javascript:call_link\('abenoffset_length.htm'\)) are displayed in lists, the returned offset is counted starting from the offset of the subfield.
+If [substrings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoffset_length.htm) are displayed in lists, the returned offset is counted starting from the offset of the subfield.
 
 Addition 4   
 

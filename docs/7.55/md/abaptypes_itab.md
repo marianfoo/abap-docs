@@ -4,17 +4,17 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Types](javascript:call_link\('abentypes_statements.htm'\)) →  [TYPES](javascript:call_link\('abaptypes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentypes_and_objects.htm) →  [Declaring Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentypes_statements.htm) →  [TYPES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes.htm) → 
 
 TYPES, TABLE OF
 
-[Short Reference](javascript:call_link\('abaptypes_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_shortref.htm)
 
 Syntax
 
-TYPES table\_type *{* *{*TYPE [tabkind](javascript:call_link\('abaptypes_tabkind.htm'\)) OF *\[*REF TO*\]* type*}*
-                 *|* *{*LIKE [tabkind](javascript:call_link\('abaptypes_tabkind.htm'\)) OF dobj*}* *}*
-                 *\[*[tabkeys](javascript:call_link\('abaptypes_keydef.htm'\))*\]*
+TYPES table\_type *{* *{*TYPE [tabkind](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_tabkind.htm) OF *\[*REF TO*\]* type*}*
+                 *|* *{*LIKE [tabkind](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_tabkind.htm) OF dobj*}* *}*
+                 *\[*[tabkeys](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_keydef.htm)*\]*
                  *\[*INITIAL SIZE n*\]*.
 
 Addition:
@@ -27,11 +27,11 @@ This statement defines a table type table\_type with a specific line type, a tab
 
 The line type is determined by entering the data type type after TYPE and data type dobj after LIKE:
 
--   type can be a non-generic data type from ABAP Dictionary, a non-generic public data type of a public data type of a global class, a non-generic data type local to a program, or any ABAP type from the [tables](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) of [built-in ABAP types](javascript:call_link\('abenbuiltin_abap_type_glosry.htm'\) "Glossary Entry"). The generic ABAP types c, n, p, and x are extended implicitly to the standard length without [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") from the [tables](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) of built-in ABAP types.
-    If the addition REF TO is specified before type or dobj, the line type is a reference type. The information specified in the section [reference types](javascript:call_link\('abaptypes_references.htm'\)) can then be specified for type and dobj.
+-   type can be a non-generic data type from ABAP Dictionary, a non-generic public data type of a public data type of a global class, a non-generic data type local to a program, or any ABAP type from the [tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_types_complete.htm) of [built-in ABAP types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_abap_type_glosry.htm "Glossary Entry"). The generic ABAP types c, n, p, and x are extended implicitly to the standard length without [decimal places](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecimal_place_glosry.htm "Glossary Entry") from the [tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_types_complete.htm) of built-in ABAP types.
+    If the addition REF TO is specified before type or dobj, the line type is a reference type. The information specified in the section [reference types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_references.htm) can then be specified for type and dobj.
     
 
--   The same applies to dobj as to [TYPES ... LIKE](javascript:call_link\('abaptypes_referring.htm'\)).
+-   The same applies to dobj as to [TYPES ... LIKE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_referring.htm).
     
 
 Example
@@ -55,12 +55,12 @@ The optional addition INITIAL SIZE has two meanings:
     If the value of n would cause the initial blocks to become too big, the size of the initial memory area is also determined by the system.
 
 -   Size of Ranking Lists
-    To create a ranking list in the internal table using the addition SORTED BY of the statement [APPEND](javascript:call_link\('abapappend.htm'\)), a value greater than 0 must be specified after INITIAL SIZE. This value determines the size of the ranking list.
+    To create a ranking list in the internal table using the addition SORTED BY of the statement [APPEND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapappend.htm), a value greater than 0 must be specified after INITIAL SIZE. This value determines the size of the ranking list.
     
 
 Programming Guideline
 
-[Modify the initial memory requirements only for nested tables](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\) "Guideline")
+[Modify the initial memory requirements only for nested tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninitial_memory_requ_guidl.htm "Guideline")
 
 Hints
 
@@ -70,6 +70,6 @@ Hints
     
 
 Continue
-[TYPES, tabkind](javascript:call_link\('abaptypes_tabkind.htm'\))
-[TYPES, tabkeys](javascript:call_link\('abaptypes_keydef.htm'\))
-![Example](exa.gif "Example") [itab - Nested Tables](javascript:call_link\('abennested_internal_tables_abexa.htm'\))
+[TYPES, tabkind](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_tabkind.htm)
+[TYPES, tabkeys](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_keydef.htm)
+![Example](exa.gif "Example") [itab - Nested Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennested_internal_tables_abexa.htm)

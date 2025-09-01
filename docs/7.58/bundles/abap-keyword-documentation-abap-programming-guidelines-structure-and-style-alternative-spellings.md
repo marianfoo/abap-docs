@@ -3,34 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenalternative_spelling_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_spelling_gdl.htm)
-- [abenalternative_langu_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_langu_guidl.htm)
-- [abenchained_statements_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchained_statements_guidl.htm)
-- [abenmethod_call_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_call_guidl.htm)
-- [abenassign_calc_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassign_calc_guidl.htm)
-- [abencalc_expresssion_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencalc_expresssion_guidl.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.931Z
-
----
-
 ### abenalternative_spelling_gdl.htm
-
-> **📖 Official SAP Documentation**: [abenalternative_spelling_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_spelling_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenalternative_spelling_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_spelling_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -38,7 +11,7 @@ Included pages: 6
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_style_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Alternative%20Spellings%2C%20ABENALTERNATIVE_SPELLING_GDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -46,32 +19,21 @@ Alternative Spellings
 
 Some ABAP statements can be written with different spellings, but interpreted by the compiler in the same way. To make programming easier to understand, however, spellings should be kept the same, with alternative spelling used only in special situations.
 
--   [Alternative Language Constructs](javascript:call_link\('abenalternative_langu_guidl.htm'\) "Guideline")
--   [Chained Statements](javascript:call_link\('abenchained_statements_guidl.htm'\) "Guideline")
--   [Method Calls](javascript:call_link\('abenmethod_call_guidl.htm'\) "Guideline")
--   [Assignments](javascript:call_link\('abenassign_calc_guidl.htm'\) "Guideline")
--   [Calculations](javascript:call_link\('abencalc_expresssion_guidl.htm'\) "Guideline")
+-   [Alternative Language Constructs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_langu_guidl.htm "Guideline")
+-   [Chained Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchained_statements_guidl.htm "Guideline")
+-   [Method Calls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_call_guidl.htm "Guideline")
+-   [Assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassign_calc_guidl.htm "Guideline")
+-   [Calculations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencalc_expresssion_guidl.htm "Guideline")
 
 Continue
-[Alternative Language Constructs](javascript:call_link\('abenalternative_langu_guidl.htm'\))
-[Chained Statements](javascript:call_link\('abenchained_statements_guidl.htm'\))
-[Method Calls](javascript:call_link\('abenmethod_call_guidl.htm'\))
-[Assignments](javascript:call_link\('abenassign_calc_guidl.htm'\))
-[Calculations](javascript:call_link\('abencalc_expresssion_guidl.htm'\))
+[Alternative Language Constructs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_langu_guidl.htm)
+[Chained Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchained_statements_guidl.htm)
+[Method Calls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_call_guidl.htm)
+[Assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassign_calc_guidl.htm)
+[Calculations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencalc_expresssion_guidl.htm)
 
-
-
-**📖 Source**: [abenalternative_spelling_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_spelling_gdl.htm)
 
 ### abenalternative_langu_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenalternative_langu_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_langu_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenalternative_langu_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_langu_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -79,7 +41,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Alternative Spellings](javascript:call_link\('abenalternative_spelling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_style_gdl.htm) →  [Alternative Spellings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_spelling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Alternative%20Language%20Constructs%2C%20ABENALTERNATIVE_LANGU_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -100,10 +62,10 @@ Details  
 To make your programming easier to understand, always choose the spelling that is most accurate and easiest to read, and which (where applicable) matches the spelling used in other statements. The following list contains some examples:
 
 -   If you can choose from a range of comparison operators (\= or EQ, \> or GT, < or LT, \>= or GE, <= or LE) we recommend that you pick a type of operator and stick to it within the context of a program. The variant with the characters =, <, and > is seen as more modern, but also overloads these characters. The comparison operators that consist of two letters are better matched to other comparison operators such as CO, CN, and so on, which have no alternative forms.
--   The addition NOT of the [comparison operators](javascript:call_link\('abenrel_operator_glosry.htm'\) "Glossary Entry") BETWEEN, IN, IS ASSIGNED, IS BOUND, IS INSTANCE OF, IS INITIAL, and IS SUPPLIED is a better option than the identical Boolean operator NOT, for improved readability. For example, the expression a IS NOT INITIAL is easier than the logically identical expression NOT a IS INITIAL. This corresponds to the definition of comparison expressions, where a <> b is more intuitive than NOT a = b.
--   The addition LENGTH len of the declarative statements DATA and TYPES is preferable to the length specified in parentheses (len). This then matches the spelling used in CREATE DATA ... LENGTH. In addition to this, it is easy to mistake the parenthesized form for [dynamic tokens](javascript:call_link\('abendynamic_prog_technique_gdl.htm'\)). Only dynamic tokens should use this form.
+-   The addition NOT of the [comparison operators](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrel_operator_glosry.htm "Glossary Entry") BETWEEN, IN, IS ASSIGNED, IS BOUND, IS INSTANCE OF, IS INITIAL, and IS SUPPLIED is a better option than the identical Boolean operator NOT, for improved readability. For example, the expression a IS NOT INITIAL is easier than the logically identical expression NOT a IS INITIAL. This corresponds to the definition of comparison expressions, where a <> b is more intuitive than NOT a = b.
+-   The addition LENGTH len of the declarative statements DATA and TYPES is preferable to the length specified in parentheses (len). This then matches the spelling used in CREATE DATA ... LENGTH. In addition to this, it is easy to mistake the parenthesized form for [dynamic tokens](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_prog_technique_gdl.htm). Only dynamic tokens should use this form.
 -   The optional addition SUBSTRING of the statements FIND and REPLACE can be used to make a clearer distinction from the alternative addition PCRE*|*REGEX.
--   In ABAP SQL, comma-separated lists are preferable to lists without commas. Using commas as separators is the prerequisite for using expressions in lists. [Host variables](javascript:call_link\('abenhost_variable_glosry.htm'\) "Glossary Entry") should always be indicated by the escape character @.
+-   In ABAP SQL, comma-separated lists are preferable to lists without commas. Using commas as separators is the prerequisite for using expressions in lists. [Host variables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_variable_glosry.htm "Glossary Entry") should always be indicated by the escape character @.
 -   Within the parameter list of the statements EXPORT and IMPORT, use the equal sign (=) instead of the additions FROM or TO. The spelling then matches the spelling used in parameter lists in other calls, such as methods, functions modules, and transformations.
 -   Always use the semantically identical addition ACTUAL LENGTH instead of the addition LENGTH of the statement READ DATASET. This makes the distinction from the similar addition MAXIMUM LENGTH clearer. The last two examples are typical of the way new additions are added to the language, while retaining the old spelling as a kind of short form for reasons of downward compatibility.
 
@@ -134,18 +96,7 @@ FIND SUBSTRING '...' IN text.
 ...
 
 
-
-**📖 Source**: [abenalternative_langu_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_langu_guidl.htm)
-
 ### abenchained_statements_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenchained_statements_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchained_statements_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenchained_statements_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchained_statements_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -153,7 +104,7 @@ FIND SUBSTRING '...' IN text.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Alternative Spellings](javascript:call_link\('abenalternative_spelling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_style_gdl.htm) →  [Alternative Spellings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_spelling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Chained%20Statements%2C%20ABENCHAINED_STATEMENTS_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -171,11 +122,11 @@ Use chained statements mainly for declarations. They should always be used for r
 
 Details   
 
-The main motivation for using chained statements is to increase the readability of programs. Using chained statements correctly in declarations achieves this goal. In other statements, chained statements can actually decrease the readability or, in the worst case, result in incorrect program behavior. When using chained statements, only [one statement at most should be specified per program line](javascript:call_link\('abenstatement_guidl.htm'\) "Guideline"). Never span [expressions](javascript:call_link\('abenexpression_glosry.htm'\) "Glossary Entry") or functional calls across multiple parts of chained statements.
+The main motivation for using chained statements is to increase the readability of programs. Using chained statements correctly in declarations achieves this goal. In other statements, chained statements can actually decrease the readability or, in the worst case, result in incorrect program behavior. When using chained statements, only [one statement at most should be specified per program line](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatement_guidl.htm "Guideline"). Never span [expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_glosry.htm "Glossary Entry") or functional calls across multiple parts of chained statements.
 
 Declarations
 
-In complex declarations, chained statements can be used to improve readability. (However, if local declarations are too complex, this suggests an [insufficient separation of tasks](javascript:call_link\('abenproc_volume_guidl.htm'\) "Guideline"), and should not occur.) In particular, multiple chained statements can be used to group related declarations:
+In complex declarations, chained statements can be used to improve readability. (However, if local declarations are too complex, this suggests an [insufficient separation of tasks](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenproc_volume_guidl.htm "Guideline"), and should not occur.) In particular, multiple chained statements can be used to group related declarations:
 
 DATA:
    airplane            TYPE REF TO cl\_airplane,
@@ -194,7 +145,7 @@ TYPES:
      creation\_date TYPE timestamp,
    END OF file.
 
-For structures that copy components of another structure using the statements INCLUDE TYPE or INCLUDE STRUCTURE, this procedure cannot be used consistently because the beginning of the statement is different and therefore the chained statement must be interrupted. In any case, we [no longer recommend](javascript:call_link\('abenincluding_structures_guidl.htm'\) "Guideline") using the statement INCLUDE.
+For structures that copy components of another structure using the statements INCLUDE TYPE or INCLUDE STRUCTURE, this procedure cannot be used consistently because the beginning of the statement is different and therefore the chained statement must be interrupted. In any case, we [no longer recommend](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenincluding_structures_guidl.htm "Guideline") using the statement INCLUDE.
 
 Operational Statements
 
@@ -209,7 +160,7 @@ meth EXPORTING para = '1',
 meth EXPORTING para = '2',
 meth EXPORTING para = '3'.
 
-However, in this case the best [notation](javascript:call_link\('abenmethod_call_guidl.htm'\) "Guideline") can manage without a chained statement anyway:
+However, in this case the best [notation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_call_guidl.htm "Guideline") can manage without a chained statement anyway:
 
 meth( '1' ).
 meth( '2' ).
@@ -256,7 +207,7 @@ is not equivalent to the more probable
 
 WHEN a OR b OR c.
 
-The [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline") warns of empty statement blocks after CATCH and WHEN. In this way, the extended program check can be used to uncover where chained statements have been misused within TRY and CASE control structures.
+The [extended program check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_guidl.htm "Guideline") warns of empty statement blocks after CATCH and WHEN. In this way, the extended program check can be used to uncover where chained statements have been misused within TRY and CASE control structures.
 
 Another example in which the use of chained statements can cause problems are ABAP SQL statements. Here are two examples:
 
@@ -294,18 +245,7 @@ cl\_demo\_output=>new(
   )->display( ).
 
 
-
-**📖 Source**: [abenchained_statements_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchained_statements_guidl.htm)
-
 ### abenmethod_call_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenmethod_call_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_call_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenmethod_call_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_call_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -313,7 +253,7 @@ cl\_demo\_output=>new(
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Alternative Spellings](javascript:call_link\('abenalternative_spelling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_style_gdl.htm) →  [Alternative Spellings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_spelling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Method%20Calls%2C%20ABENMETHOD_CALL_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -321,15 +261,15 @@ Method Calls
 
 Background   
 
-Static calls of methods can be formulated in two different ways. The [obsolete long form](javascript:call_link\('abapcall_method_static.htm'\))
+Static calls of methods can be formulated in two different ways. The [obsolete long form](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_static.htm)
 
 CALL METHOD meth EXPORTING ...
 
-is based on the notation of the function module call. Alternatively, a [short form](javascript:call_link\('abapcall_method_static_short.htm'\)) can be used:
+is based on the notation of the function module call. Alternatively, a [short form](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_static_short.htm) can be used:
 
 meth( ... ).
 
-This form uses a parenthesis notation instead of the initiating ABAP words [CALL METHOD](javascript:call_link\('abapcall_method_static.htm'\)). A combination of CALL METHOD and parentheses is also possible.
+This form uses a parenthesis notation instead of the initiating ABAP words [CALL METHOD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_static.htm). A combination of CALL METHOD and parentheses is also possible.
 
 Rule   
 
@@ -382,18 +322,7 @@ cl\_class=>do\_something(
 ...
 
 
-
-**📖 Source**: [abenmethod_call_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_call_guidl.htm)
-
 ### abenassign_calc_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenassign_calc_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassign_calc_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenassign_calc_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassign_calc_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -401,7 +330,7 @@ cl\_class=>do\_something(
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Alternative Spellings](javascript:call_link\('abenalternative_spelling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_style_gdl.htm) →  [Alternative Spellings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_spelling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Assignments%2C%20ABENASSIGN_CALC_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -409,7 +338,7 @@ Assignments
 
 Background   
 
-For explicit assignments in which the value of a source is assigned to a target, ABAP contains the general assignment operator [\=](javascript:call_link\('abenequals_operator.htm'\)) and the special casting operator [?=](javascript:call_link\('abapmove_cast.htm'\)). Statements with these operators
+For explicit assignments in which the value of a source is assigned to a target, ABAP contains the general assignment operator [\=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenequals_operator.htm) and the special casting operator [?=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_cast.htm). Statements with these operators
 
 lhs =*|*?= rhs.
 
@@ -419,21 +348,21 @@ enable assignments of
 -   return values or results of functional methods, built-in functions or construction expressions, table expressions and
 -   results of calculation expressions (arithmetic expressions, bit expressions, and string expressions)
 
-to be made to variables that can also be declared inline and to [writable expressions](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry").
+to be made to variables that can also be declared inline and to [writable expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwritable_expression_glosry.htm "Glossary Entry").
 
 Alongside the assignment operators, two obsolete statements exist for historical reasons that can also perform assignments:
 
 -   The statement
     
-    [MOVE source TO*|*?TO destination.](javascript:call_link\('abapmove_obs.htm'\))
+    [MOVE source TO*|*?TO destination.](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_obs.htm)
     
-    assigns a source source to a target destination. It covers some of the operators performed by the assignment operators [\=](javascript:call_link\('abenequals_operator.htm'\)) and [?=](javascript:call_link\('abapmove_cast.htm'\)).
+    assigns a source source to a target destination. It covers some of the operators performed by the assignment operators [\=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenequals_operator.htm) and [?=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_cast.htm).
     
 -   The statement
     
-    [COMPUTE lhs =*|*?= rhs.](javascript:call_link\('abapcompute.htm'\))
+    [COMPUTE lhs =*|*?= rhs.](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcompute.htm)
     
-    has the same semantics as lhs =*|*?= rhs. The keyword COMPUTE can be written in front of each assignment with the assignment operators [\=](javascript:call_link\('abenequals_operator.htm'\)) and [?=](javascript:call_link\('abapmove_cast.htm'\)) where the left side is not an inline declaration, but is ignored.
+    has the same semantics as lhs =*|*?= rhs. The keyword COMPUTE can be written in front of each assignment with the assignment operators [\=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenequals_operator.htm) and [?=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_cast.htm) where the left side is not an inline declaration, but is ignored.
     
 
 Rule   
@@ -444,7 +373,7 @@ Use the assignment operators instead of the statement MOVE. Do not use the keywo
 
 Details   
 
-Assignments with the assignment operators [\=](javascript:call_link\('abenequals_operator.htm'\)) and [?=](javascript:call_link\('abapmove_cast.htm'\)) implement the most global concept. The right side is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") and the left side is a [declaration position](javascript:call_link\('abendeclaration_position_glosry.htm'\) "Glossary Entry") (except in downcasts).
+Assignments with the assignment operators [\=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenequals_operator.htm) and [?=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_cast.htm) implement the most global concept. The right side is a [general expression position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and the left side is a [declaration position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclaration_position_glosry.htm "Glossary Entry") (except in downcasts).
 
 The statements MOVE and COMPUTE have the following drawbacks:
 
@@ -455,7 +384,7 @@ The statements MOVE and COMPUTE were created at a time when assignments were onl
 
 Hint
 
-The optional addition EXACT of the statements [MOVE](javascript:call_link\('abapmove_obs.htm'\)) and [COMPUTE](javascript:call_link\('abapcompute.htm'\)), which produces lossless assignments and lossless calculations, has been replaced in full by the lossless operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)).
+The optional addition EXACT of the statements [MOVE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_obs.htm) and [COMPUTE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcompute.htm), which produces lossless assignments and lossless calculations, has been replaced in full by the lossless operator [EXACT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_exact.htm).
 
 Bad Example
 
@@ -484,21 +413,7 @@ DATA number2 TYPE i.
 FINAL(result) = CONV decfloat34( number1 \* number2 ).
 
 
-
-**📖 Source**: [abenassign_calc_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassign_calc_guidl.htm)
-
 ### abencalc_expresssion_guidl.htm
-
-> **📖 Official SAP Documentation**: [abencalc_expresssion_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencalc_expresssion_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abencalc_expresssion_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencalc_expresssion_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencalc_expresssion_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencalc_expresssion_guidl.htm)
-
 
   
 
@@ -506,7 +421,7 @@ FINAL(result) = CONV decfloat34( number1 \* number2 ).
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Alternative Spellings](javascript:call_link\('abenalternative_spelling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_style_gdl.htm) →  [Alternative Spellings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalternative_spelling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Calculations%2C%20ABENCALC_EXPRESSSION_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -514,7 +429,7 @@ Calculations
 
 Background   
 
-In ABAP, the [arithmetic operators](javascript:call_link\('abenarithmetic_operator_glosry.htm'\) "Glossary Entry") in [arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") are used for numeric calculations. [Calculation assignments](javascript:call_link\('abencalculation_assignment_glosry.htm'\) "Glossary Entry") with the operators [+=](javascript:call_link\('abencalculation_assignments.htm'\)), [\-=](javascript:call_link\('abencalculation_assignments.htm'\)), [\*=](javascript:call_link\('abencalculation_assignments.htm'\)), and [/=](javascript:call_link\('abencalculation_assignments.htm'\)) are available for the basic arithmetic operations. These operator formats are accompanied by the dedicated ABAP keywords ADD, SUBTRACT, MULTIPLY, and DIVIDE.
+In ABAP, the [arithmetic operators](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarithmetic_operator_glosry.htm "Glossary Entry") in [arithmetic expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") are used for numeric calculations. [Calculation assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencalculation_assignment_glosry.htm "Glossary Entry") with the operators [+=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencalculation_assignments.htm), [\-=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencalculation_assignments.htm), [\*=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencalculation_assignments.htm), and [/=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencalculation_assignments.htm) are available for the basic arithmetic operations. These operator formats are accompanied by the dedicated ABAP keywords ADD, SUBTRACT, MULTIPLY, and DIVIDE.
 
 Rule   
 

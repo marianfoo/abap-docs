@@ -4,17 +4,19 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) →  [Numeric Source Fields](javascript:call_link\('abennumeric_source_fields.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_elementary.htm) →  [Numeric Source Fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumeric_source_fields.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Source Field Type decfloat16, decfloat34, ABENCONVERSION_TYPE_DECFLOAT, 757%0D%0A%0D%
 0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Source Field Type decfloat16, decfloat34
 
-If the source field does not contain a [valid decimal floating point number](javascript:call_link\('abenbuiltin_types_numeric.htm'\)), the catchable exception CX\_SY\_CONVERSION\_NO\_NUMBER is raised, except in the case of assignments to another decimal floating point number. In ABAP, invalid decimal floating point numbers are also the special values +Infinity, \-Infinity, NaN, and sNaN, which represent infinity or invalid numbers and are designated in standard IEEE-754-2008.
+If the source field does not contain a [valid decimal floating point number](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuiltin_types_numeric.htm), the catchable exception CX\_SY\_CONVERSION\_NO\_NUMBER is raised, except in the case of assignments to another decimal floating point number. In ABAP, invalid decimal floating point numbers are also the special values +Infinity, \-Infinity, NaN, and sNaN, which represent infinity or invalid numbers and are designated in standard IEEE-754-2008.
 
--   [Numeric Target Fields](#abenconversion-type-decfloat-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_2)
--   [Byte-Like Target Fields](#abenconversion-type-decfloat-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_4)
+-   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_1)
+-   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_2)
+-   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_3)
+-   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_DECFLOAT_4)
 
 Numeric Target Fields   
 
@@ -24,15 +26,15 @@ Conversion
 
 i, int8, (b, s)
 
-The value of the decimal floating point number is rounded up to an integer. If this number is within the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") for the data type i, int8, (b, s), it is converted to the internal representation of the corresponding integer. Otherwise, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
+The value of the decimal floating point number is rounded up to an integer. If this number is within the [value range](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_range_glosry.htm "Glossary Entry") for the data type i, int8, (b, s), it is converted to the internal representation of the corresponding integer. Otherwise, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
 
 p
 
-The value of the decimal floating point number is rounded to the number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") in the target field. If this number is within the value range for the data type of the target field, it is converted to the internal representation of a packed number. Otherwise, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
+The value of the decimal floating point number is rounded to the number of [decimal places](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendecimal_place_glosry.htm "Glossary Entry") in the target field. If this number is within the value range for the data type of the target field, it is converted to the internal representation of a packed number. Otherwise, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
 
 decfloat16, decfloat34
 
-If an assignment is made to the same data type, the content is passed unconverted. In assignments from decfloat34 to decfloat16, the mantissa is truncated from 34 to 16 places and, if necessary, rounded commercially. If the mantissa of the target field is long enough, the [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") is preserved. If the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") of decfloat16 is exceeded, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
+If an assignment is made to the same data type, the content is passed unconverted. In assignments from decfloat34 to decfloat16, the mantissa is truncated from 34 to 16 places and, if necessary, rounded commercially. If the mantissa of the target field is long enough, the [scaling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscale_glosry.htm "Glossary Entry") is preserved. If the [value range](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_range_glosry.htm "Glossary Entry") of decfloat16 is exceeded, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
 
 f
 
@@ -54,7 +56,7 @@ Conversion
 
 c
 
-The content of the source field is first converted to a [mathematical notation](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") or [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry"), as described for the data type string. The result of this conversion is then passed right-aligned to the target field. If the target field is longer than the text string, it is padded on the left with blanks. If the target field is shorter than the text string, mathematical notation is converted to scientific notation and, if necessary, the mantissa is commercially rounded. If the length is not sufficient for at least one position of the mantissa, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
+The content of the source field is first converted to a [mathematical notation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") or [scientific notation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscientific_notation_glosry.htm "Glossary Entry"), as described for the data type string. The result of this conversion is then passed right-aligned to the target field. If the target field is longer than the text string, it is padded on the left with blanks. If the target field is shorter than the text string, mathematical notation is converted to scientific notation and, if necessary, the mantissa is commercially rounded. If the length is not sufficient for at least one position of the mantissa, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
 
 n
 
@@ -62,12 +64,12 @@ The value of the decimal floating point number is rounded up to an integer. The 
 
 string
 
-If the exponent of the decimal floating point number is less than or equal to 0 and the absolute value of the number is greater than or equal to 1E-6, the floating point number is formatted in [mathematical notation](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") without gaps as follows: the string of digits consists of the mantissa of the decimal floating point number without leading zeros. If the exponent of the decimal floating point number is less than 0, a decimal point is set at the corresponding position. If the exponent of the decimal floating point number is greater than 0 or the absolute value of the number is less than 1E-6, the floating point number is formatted in [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry") as follows: the mantissa is made up of the mantissa of the decimal floating point number without leading zeros. If the mantissa consists of more than one place, a decimal point is set after the first place. The exponent is always represented by a plus/minus sign and without leading zeros. In both representations, the minus sign is used for negative values but not for positive. Both representations are also used if the value of the decimal floating point number is 0. The maximum length of the target field is 24 for decfloat16 and 42 for decfloat34.
+If the exponent of the decimal floating point number is less than or equal to 0 and the absolute value of the number is greater than or equal to 1E-6, the floating point number is formatted in [mathematical notation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") without gaps as follows: the string of digits consists of the mantissa of the decimal floating point number without leading zeros. If the exponent of the decimal floating point number is less than 0, a decimal point is set at the corresponding position. If the exponent of the decimal floating point number is greater than 0 or the absolute value of the number is less than 1E-6, the floating point number is formatted in [scientific notation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscientific_notation_glosry.htm "Glossary Entry") as follows: the mantissa is made up of the mantissa of the decimal floating point number without leading zeros. If the mantissa consists of more than one place, a decimal point is set after the first place. The exponent is always represented by a plus/minus sign and without leading zeros. In both representations, the minus sign is used for negative values but not for positive. Both representations are also used if the value of the decimal floating point number is 0. The maximum length of the target field is 24 for decfloat16 and 42 for decfloat34.
 
 Hints
 
--   The conversion rule for floating point numbers to text strings is as follows: a text string that was filled by the assignment of a decimal floating point number produces the same internal representation as in the original decimal floating point number (the [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") is preserved).
--   The formatting options [STYLE](javascript:call_link\('abapwrite_to_options.htm'\)) for the statement [WRITE ... TO](javascript:call_link\('abapwrite_to.htm'\)) and [STYLE](javascript:call_link\('abapcompute_string_format_options.htm'\)) for [embedded expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)) in [string templates](javascript:call_link\('abenstring_templates.htm'\)) of [string expressions](javascript:call_link\('abapcompute_string.htm'\)) provide additional formats for assignments of decimal floating point numbers to text strings.
+-   The conversion rule for floating point numbers to text strings is as follows: a text string that was filled by the assignment of a decimal floating point number produces the same internal representation as in the original decimal floating point number (the [scaling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscale_glosry.htm "Glossary Entry") is preserved).
+-   The formatting options [STYLE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to_options.htm) for the statement [WRITE ... TO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to.htm) and [STYLE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_string_format_options.htm) for [embedded expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_templates_expressions.htm) in [string templates](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_templates.htm) of [string expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_string.htm) provide additional formats for assignments of decimal floating point numbers to text strings.
 
 Examples
 
@@ -125,11 +127,11 @@ Conversion
 
 x
 
-The content of the source field is first converted to data type i (see above) and then to type x (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type x (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_ibs.htm)).
 
 xstring
 
-The content of the source field is first converted to data type i (see above) and then to type xstring (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type xstring (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_ibs.htm)).
 
 Example
 
@@ -147,11 +149,11 @@ Conversion
 
 d
 
-The content of the source field is first converted to data type i (see above) and then to type d (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type d (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_ibs.htm)).
 
 t
 
-The content of the source field is first converted to data type i (see above) and then to type t (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type t (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_ibs.htm)).
 
 utclong
 

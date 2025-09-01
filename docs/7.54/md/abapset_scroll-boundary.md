@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Creating Lists](javascript:call_link\('abenabap_lists.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_list.htm) →  [Creating Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_lists.htm) → 
 
 SET LEFT SCROLL-BOUNDARY
 
-[Quick Reference](javascript:call_link\('abapset_left_scroll_bound_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_left_scroll_bound_shortref.htm)
 
 Syntax
 
@@ -20,7 +20,7 @@ Addition:
 
 Effect
 
-This command sets the left boundary of the horizontally movable area of the current page. This applies to both user-activated scrolling through the list displayed on-screen and to scrolling activated by the [SCROLL](javascript:call_link\('abapscroll.htm'\)) command. For the command to work properly, the [list cursor](javascript:call_link\('abenlist_cursor_glosry.htm'\) "Glossary Entry") has to be positioned in a page with an output command or with [SKIP](javascript:call_link\('abapskip.htm'\)). The command works only on this page. If the command is executed multiple times for one page, the last command is the one that is applied.
+This command sets the left boundary of the horizontally movable area of the current page. This applies to both user-activated scrolling through the list displayed on-screen and to scrolling activated by the [SCROLL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapscroll.htm) command. For the command to work properly, the [list cursor](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_cursor_glosry.htm "Glossary Entry") has to be positioned in a page with an output command or with [SKIP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapskip.htm). The command works only on this page. If the command is executed multiple times for one page, the last command is the one that is applied.
 
 If the addition COLUMN is not specified, all places on the current page that are located on the left of the current position of the list cursor (sy-colno) are excluded from horizontal scrolling.
 
@@ -36,7 +36,7 @@ Notes
 
 -   Only the lower or upper limit of displayed data objects should be used as the edge of a movable area, because the position of Unicode characters in the list buffer and in the displayed list only patch for these limits.
     
--   To prevent an entire line from being horizontally movable, use the [NEW-LINE](javascript:call_link\('abapnew-line.htm'\)) NO-SCROLLING command.
+-   To prevent an entire line from being horizontally movable, use the [NEW-LINE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnew-line.htm) NO-SCROLLING command.
     
 
 Example

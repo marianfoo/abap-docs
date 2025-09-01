@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_glossary.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: static cache, ABENSTATIC_VIEW_CACHE_GLOSRY, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0
 D%0ASuggestion for improvement:)
@@ -16,6 +16,6 @@ tps://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/8ea43
 
 See also:
 
--   [View cache](javascript:call_link\('abenview_cache_glosry.htm'\) "Glossary Entry")
--   [Dynamic cache](javascript:call_link\('abendynamic_cache_glosry.htm'\) "Glossary Entry")
--   [Cached views in SAP HANA](javascript:call_link\('abenhana_cached_views.htm'\))
+-   [View cache](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenview_cache_glosry.htm "Glossary Entry")
+-   [Dynamic cache](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynamic_cache_glosry.htm "Glossary Entry")
+-   [Cached views in SAP HANA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_cached_views.htm)

@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab.htm) →  [Processing Statements for Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_processing_statements.htm) → 
 
 Internal Tables - keyname
 
-The name of the [table key](javascript:call_link\('abentable_key_glosry.htm'\) "Glossary Entry") can be specified in a range of statements and in table expressions for the editing of internal tables. The table key name can used to access a table row or to control processing. The following syntax applies to the name keyname:
+The name of the [table key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_key_glosry.htm "Glossary Entry") can be specified in a range of statements and in table expressions for the editing of internal tables. The table key name can used to access a table row or to control processing. The following syntax applies to the name keyname:
 
 Syntax
 
@@ -20,19 +20,19 @@ The name of a table key can either be specified directly, as key\_name, or dynam
 
 The following can be specified:
 
--   a [secondary table key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") using its name
+-   a [secondary table key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") using its name
 
--   the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") using its predefined name primary\_key
+-   the [primary table key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") using its predefined name primary\_key
 
--   the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") using an alias
+-   the [primary table key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") using an alias
 
--   the table key used in a [LOOP](javascript:call_link\('abaploop_at_itab_cond.htm'\))\-loop using its predefined name loop\_key. In this case, the statement must be executed within the loop.
+-   the table key used in a [LOOP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_itab_cond.htm)\-loop using its predefined name loop\_key. In this case, the statement must be executed within the loop.
 
 Notes
 
--   Normally secondary table keys are specified. Only if [searches](javascript:call_link\('abentable_exp_itab_line.htm'\)) are to be performed explicitly in a [table expression](javascript:call_link\('abentable_expressions.htm'\)) using the primary table key does the key need be specified using its predefined name primary\_key or an alias name.
+-   Normally secondary table keys are specified. Only if [searches](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_itab_line.htm) are to be performed explicitly in a [table expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expressions.htm) using the primary table key does the key need be specified using its predefined name primary\_key or an alias name.
 
--   When specifying the primary table key using primary\_key, it is important to note that it may be [empty](javascript:call_link\('abenitab_empty_key.htm'\)) for standard tables. This can produce unexpected behavior in statements where the key is used to specify the rows to be processed.
+-   When specifying the primary table key using primary\_key, it is important to note that it may be [empty](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_empty_key.htm) for standard tables. This can produce unexpected behavior in statements where the key is used to specify the rows to be processed.
 
 Example
 

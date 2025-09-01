@@ -4,8 +4,8 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 table cluster
 
-Before Release 7.53, [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry") in the [database](javascript:call_link\('abendatabase_glosry.htm'\) "Glossary Entry") that contains the data of multiple [cluster tables](javascript:call_link\('abencluster_table_glosry.htm'\) "Glossary Entry"). Cluster tables are no longer supported and all table clusters have been removed.
+Before Release 7.53, [DDIC database table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_db_table_glosry.htm "Glossary Entry") in the [database](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_glosry.htm "Glossary Entry") that contains the data of multiple [cluster tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencluster_table_glosry.htm "Glossary Entry"). Cluster tables are no longer supported and all table clusters have been removed.

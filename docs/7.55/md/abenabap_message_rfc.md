@@ -4,17 +4,17 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) →  [Messages - Behavior](javascript:call_link\('abenabap_messages_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_messages.htm) →  [Messages - Behavior](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_messages_types.htm) → 
 
 Messages - RFC Processing
 
-If list processing and dialog processing do not take place in [RFC processing](javascript:call_link\('abenrfc_processing_glosry.htm'\) "Glossary Entry"), messages behave as follows:
+If list processing and dialog processing do not take place in [RFC processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_processing_glosry.htm "Glossary Entry"), messages behave as follows:
 
 -   Messages of types "I", "S", and "W" are ignored.
 
--   Messages of types "A", "E", and "X" cause processing to terminated, followed by a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"). In the calling program, the classic exception SYSTEM\_FAILURE is raised.
+-   Messages of types "A", "E", and "X" cause processing to terminated, followed by a [database rollback](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"). In the calling program, the classic exception SYSTEM\_FAILURE is raised.
 
-If [dialog processing](javascript:call_link\('abenabap_message_dialog.htm'\)) or [list processing](javascript:call_link\('abenabap_message_list_processing.htm'\)) takes place during RFC processing, any messages sent behave as described there.
+If [dialog processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_message_dialog.htm) or [list processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_message_list_processing.htm) takes place during RFC processing, any messages sent behave as described there.
 
 Hint
 

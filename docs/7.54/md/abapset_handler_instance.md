@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Call Event Handler](javascript:call_link\('abencall_event_handler.htm'\)) →  [SET HANDLER](javascript:call_link\('abapset_handler.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_processing_blocks.htm) →  [Call Event Handler](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_event_handler.htm) →  [SET HANDLER](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_handler.htm) → 
 
 SET HANDLER - FOR
 
-[Quick Reference](javascript:call_link\('abapset_handler_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_handler_shortref.htm)
 
 Syntax
 
@@ -23,9 +23,9 @@ Extras:
 
 Effect
 
-This statement registers the [event handlers](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry") handler1 handler2 ... for the associated [instance events](javascript:call_link\('abeninstance_event_glosry.htm'\) "Glossary Entry") of the objects specified after FOR. The addition ACTIVATION can be used to deregister event handlers or perform a dynamic registration.
+This statement registers the [event handlers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevent_handler_glosry.htm "Glossary Entry") handler1 handler2 ... for the associated [instance events](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninstance_event_glosry.htm "Glossary Entry") of the objects specified after FOR. The addition ACTIVATION can be used to deregister event handlers or perform a dynamic registration.
 
-An event handler is raised if the associated instance event is raised using [RAISE EVENT](javascript:call_link\('abapraise_event.htm'\)) in an object for which it is registered. An event handler handler can be specified as follows, where the names have the same meaning as in the [explicit method call](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)):
+An event handler is raised if the associated instance event is raised using [RAISE EVENT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapraise_event.htm) in an object for which it is registered. An event handler handler can be specified as follows, where the names have the same meaning as in the [explicit method call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_meth_ident_stat.htm):
 
 -   meth
     
@@ -34,7 +34,7 @@ An event handler is raised if the associated instance event is raised using [RAI
 -   class=>meth
     
 
-Methods meth can be specified from the same class or from other classes defined as instance event handlers using the addition FOR EVENT evt OF {class|intf} of the statements [*\[*CLASS-*\]*](javascript:call_link\('abapclass-methods_event_handler.htm'\))[METHODS](javascript:call_link\('abapmethods_event_handler.htm'\)). No event handlers for [static events](javascript:call_link\('abenstatic_event_glosry.htm'\) "Glossary Entry") can be specified. At least one name must be specified.
+Methods meth can be specified from the same class or from other classes defined as instance event handlers using the addition FOR EVENT evt OF {class|intf} of the statements [*\[*CLASS-*\]*](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-methods_event_handler.htm)[METHODS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods_event_handler.htm). No event handlers for [static events](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_event_glosry.htm "Glossary Entry") can be specified. At least one name must be specified.
 
 The type class or intf specified after FOR EVENT OF in the definition of an instance event handler defines the objects whose events it can handle. Single objects or all handleable objects can be specified after FOR.
 
@@ -46,7 +46,7 @@ Effect
 
 This addition registers or deregisters the event handlers of the list handler1 handler2 ... for exactly one object. oref is an object reference that must point to an object whose events can be handled by the specified event handlers. The class of the object must be class or a subclass of class, or must implement the interface intf directly or through a superclass.
 
-oref is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry").
+oref is a [functional operand position](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_position_glosry.htm "Glossary Entry").
 
 Example
 
@@ -88,7 +88,7 @@ This addition registers or deregisters the event handlers of the list handler1 h
 
 Note
 
-Registration with FOR ALL INSTANCES applies also in particular for temporary instances as they can be created when using the instantiation operator [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)).
+Registration with FOR ALL INSTANCES applies also in particular for temporary instances as they can be created when using the instantiation operator [NEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_new.htm).
 
 Addition 3
 
@@ -100,11 +100,11 @@ A single-character text-like field act can be specified after the addition ACTIV
 
 Note
 
-As long as the registration of an instance method as an event handler for an instance event is not canceled using ACTIVATION " " or all raising instances are deleted, the associated object cannot be deleted by the [garbage collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry"). This is because it is still used by the runtime environment.
+As long as the registration of an instance method as an event handler for an instance event is not canceled using ACTIVATION " " or all raising instances are deleted, the associated object cannot be deleted by the [garbage collector](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengarbage_collector_glosry.htm "Glossary Entry"). This is because it is still used by the runtime environment.
 
 Example
 
-Registers an event handler with FOR ALL INSTANCES. The events of all temporary instances created with [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) are handled until registration is stopped. The program can be executed as DEMO\_SET\_HANDLER\_FOR\_ALL.
+Registers an event handler with FOR ALL INSTANCES. The events of all temporary instances created with [NEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_new.htm) are handled until registration is stopped. The program can be executed as DEMO\_SET\_HANDLER\_FOR\_ALL.
 
 CLASS cls DEFINITION.
   PUBLIC SECTION.

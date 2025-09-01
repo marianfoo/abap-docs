@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [RAP - Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [RAP - Entity Behavior Characteristics](javascript:call_link\('abenbdl_character.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl.htm) →  [RAP - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_bo.htm) →  [RAP - Entity Behavior Definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_define_beh.htm) →  [RAP - Entity Behavior Characteristics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_character.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20early%20numbering%2C%20ABENBDL_EARLY_NUMB%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -18,15 +18,15 @@ early numbering
 
 Effect
 
-Defines unmanaged [early numbering](javascript:call_link\('abenrap_early_numbering_glosry.htm'\) "Glossary Entry") for all primary key fields of a [business object entity](javascript:call_link\('abenrap_bo_entity_glosry.htm'\) "Glossary Entry"). Unmanaged early numbering means:
+Defines unmanaged [early numbering](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_early_numbering_glosry.htm "Glossary Entry") for all primary key fields of a [business object entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_entity_glosry.htm "Glossary Entry"). Unmanaged early numbering means:
 
--   The [RAP runtime engine](javascript:call_link\('abenrap_runtime_engine_glosry.htm'\) "Glossary Entry") assigns values to the primary key fields.
--   How the value assignment takes place is defined by the application developer in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") (therefore, it is called unmanaged). The implementation must be done in the [RAP handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") [FOR NUMBERING](javascript:call_link\('abaphandler_meth_numbering.htm'\)).
--   The key value for an instance is available in the transactional buffer instantly after the [MODIFY](javascript:call_link\('abapmodify_entity_entities.htm'\)) request for CREATE (which is why it is called early numbering, as opposed to [late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\))).
+-   The [RAP runtime engine](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_runtime_engine_glosry.htm "Glossary Entry") assigns values to the primary key fields.
+-   How the value assignment takes place is defined by the application developer in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") (therefore, it is called unmanaged). The implementation must be done in the [RAP handler method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") [FOR NUMBERING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaphandler_meth_numbering.htm).
+-   The key value for an instance is available in the transactional buffer instantly after the [MODIFY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities.htm) request for CREATE (which is why it is called early numbering, as opposed to [late numbering](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_late_numbering.htm)).
 
-Unmanaged early numbering is defined in the [entity behavior characteristics](javascript:call_link\('abencds_entity_properties_glosry.htm'\) "Glossary Entry") for each [entity behavior definition](javascript:call_link\('abencds_entity_bdef_glosry.htm'\) "Glossary Entry") separately. That means that some business object entities may use unmanaged early numbering, while others use different methods to fill the primary key fields. The affected key fields must be specified as readonly.
+Unmanaged early numbering is defined in the [entity behavior characteristics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_properties_glosry.htm "Glossary Entry") for each [entity behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_bdef_glosry.htm "Glossary Entry") separately. That means that some business object entities may use unmanaged early numbering, while others use different methods to fill the primary key fields. The affected key fields must be specified as readonly.
 
-Currently available for [managed RAP BOs](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry") and for [unmanaged](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), [draft-enabled](javascript:call_link\('abenbdl_with_draft.htm'\)) RAP BOs. In [projection business objects](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry") and [RAP BO interfaces](javascript:call_link\('abenrap_bo_interface_glosry.htm'\) "Glossary Entry"), early numbering is automatically reused from the base BDEF and does not need to be explicitly defined.
+Currently available for [managed RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry") and for [unmanaged](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry"), [draft-enabled](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_with_draft.htm) RAP BOs. In [projection business objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_projection_bo_glosry.htm "Glossary Entry") and [RAP BO interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_interface_glosry.htm "Glossary Entry"), early numbering is automatically reused from the base BDEF and does not need to be explicitly defined.
 
 Further Information
 
@@ -36,8 +36,8 @@ Hint
 
 Alternative options for numbering:
 
--   [numbering:managed](javascript:call_link\('abenbdl_field_numbering.htm'\))
--   [RAP late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\))
+-   [numbering:managed](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_numbering.htm)
+-   [RAP late numbering](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_late_numbering.htm)
 
 Example
 
@@ -85,7 +85,7 @@ ENDMETHOD.
 
 You can see the complete source code in the CCIMP include.
 
--   The ABAP class CL\_DEMO\_RAP\_MANAGED\_EARLY\_NUMB uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access to [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") and performs the following steps:
+-   The ABAP class CL\_DEMO\_RAP\_MANAGED\_EARLY\_NUMB uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access to [RAP business object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry") and performs the following steps:
     -   It creates three entity instances by specifying a value for the field CharField.
     -   It commits the three new entity instances to the database.
     -   Using the ABAP SQL SELECT statement, it displays the content of the database table. It can be seen that the primary key field KEY\_FIELD of each entity instance contains a value, which was generated by means of unmanaged early numbering.

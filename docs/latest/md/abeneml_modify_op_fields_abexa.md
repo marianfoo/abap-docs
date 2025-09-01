@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\)) →  [Examples for ABAP EML MODIFY](javascript:call_link\('abapeml_modify_examples_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml.htm) →  [MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entity_entities.htm) →  [Examples for ABAP EML MODIFY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_modify_examples_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20MODIFY%2C%20Field%20Specification%20Expressions%2C%20ABENEML_MODIFY_OP_FIELDS_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugges
 tion%20for%20improvement:)
 
 ABAP EML - MODIFY, Field Specification Expressions
 
-This example demonstrates various standard operations and variants of field specification expressions to set up internal tables for ABAP EML MODIFY ENTITY statements to manipulate a simple managed [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+This example demonstrates various standard operations and variants of field specification expressions to set up internal tables for ABAP EML MODIFY ENTITY statements to manipulate a simple managed [RAP BO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
 The following standard operations and field specification alternatives are covered in the example:
 
@@ -61,7 +61,7 @@ define view entity DEMO\_MANAGED\_CHILD
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_root unique;
 strict ( 2 );
@@ -89,7 +89,7 @@ authorization dependent by \_parent
 
 Behavior implementation
 
-For the above RAP behavior definition, there is no [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") created and needed since only standard [CRUD](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") operations are used in the example.
+For the above RAP behavior definition, there is no [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") created and needed since only standard [CRUD](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencrud_glosry.htm "Glossary Entry") operations are used in the example.
 
 Source Code   
 
@@ -289,7 +289,7 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class:
 
 -   Modify operations with FROM
     
@@ -304,4 +304,4 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
     A CREATE, CREATE BY and UPDATE operation is demonstrated within one MODIFY ENTITY statement using the addition SET FIELDS WITH.
     
 
-For demonstration purposes, several internal tables with the required [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") are created to be used with the modify operations. They include demo values to be shown in the output. The [RAP framework](javascript:call_link\('abenrap_framework_glosry.htm'\) "Glossary Entry") reads the data from the respective database tables into a managed [transactional buffer](javascript:call_link\('abentransactional_buffer_glosry.htm'\) "Glossary Entry") in which the operations take place. The changes are saved with the statement [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)), and, thus, the changed data are persisted to the database tables.
+For demonstration purposes, several internal tables with the required [BDEF derived type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") are created to be used with the modify operations. They include demo values to be shown in the output. The [RAP framework](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_framework_glosry.htm "Glossary Entry") reads the data from the respective database tables into a managed [transactional buffer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentransactional_buffer_glosry.htm "Glossary Entry") in which the operations take place. The changes are saved with the statement [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities.htm), and, thus, the changed data are persisted to the database tables.

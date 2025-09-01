@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  I
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  I
 
 INSERT REPORT - Quick reference
 
-[Reference](javascript:call_link\('abapinsert_report.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_report.htm)
 
 Syntax
 
@@ -22,7 +22,7 @@ INSERT REPORT prog FROM itab
 
 Effect
 
-Inserts the source code contained in the internal table itab as an ABAP program prog into the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry").
+Inserts the source code contained in the internal table itab as an ABAP program prog into the [repository](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_glosry.htm "Glossary Entry").
 
 Additions
 
@@ -35,7 +35,7 @@ Additions
     
 
 -   PROGRAM TYPE pt
-    The [program type](javascript:call_link\('abenprogram_type_glosry.htm'\) "Glossary Entry") is specified by pt.
+    The [program type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_type_glosry.htm "Glossary Entry") is specified by pt.
     
 
 -   FIXED-POINT ARITHMETIC fp
@@ -43,7 +43,7 @@ Additions
     
 
 -   VERSION vs
-    Defines the [ABAP language version](javascript:call_link\('abenabap_versions.htm'\)) by specifying the version ID in vs.
+    Defines the [ABAP language version](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_versions.htm) by specifying the version ID in vs.
     
 
 -   UNICODE ENABLING vs
@@ -51,4 +51,4 @@ Additions
     
 
 -   DIRECTORY ENTRY dir
-    The [program properties](javascript:call_link\('abenprogram_attribute_glosry.htm'\) "Glossary Entry") are specified by the entries in the structure dir of the type TRDIR.
+    The [program properties](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_attribute_glosry.htm "Glossary Entry") are specified by the entries in the structure dir of the type TRDIR.

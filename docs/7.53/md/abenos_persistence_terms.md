@@ -4,13 +4,13 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services](javascript:call_link\('abenabap_object_services.htm'\)) →  [Persistence Service](javascript:call_link\('abenabap_object_services_persist.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_object_services.htm) →  [Persistence Service](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_object_services_persist.htm) → 
 
 Persistence Service Overview
 
 Transient and Persistent Data
 
-ABAP programs work with local program data, which resides in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of the program. Such data only survives as long as its [context](javascript:call_link\('abencontext_2_glosry.htm'\) "Glossary Entry"). This data is transient. Data that can be preserved beyond the runtime of the program is persistent. In AS ABAP, persistent data is usually the content of database tables, but also the content of files on application and presentation servers.
+ABAP programs work with local program data, which resides in the [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") of the program. Such data only survives as long as its [context](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontext_2_glosry.htm "Glossary Entry"). This data is transient. Data that can be preserved beyond the runtime of the program is persistent. In AS ABAP, persistent data is usually the content of database tables, but also the content of files on application and presentation servers.
 
 To work with persistent data, the system has to load it into transient data objects of the ABAP program while the program is being executed and then store the data again persistently once it has been processed. During this time, the content of the data exists twice: once in the ABAP program (transiently), and once in the relevant repository (persistently). A typical process reads data from a database table using the SELECT statement into a transient work area, modifies the work area, and then updates the database table (using UPDATE). In such cases, the content of transient and persistent data is different in the interim during this process.
 

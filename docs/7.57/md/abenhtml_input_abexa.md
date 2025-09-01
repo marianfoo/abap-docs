@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) →  [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_screen.htm) →  [dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - Input in HTML File, ABENHTML_INPUT_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%
 0D%0A%0D%0ASuggestion for improvement:)
@@ -90,4 +90,4 @@ Description  
 
 This example creates a HTML file containing multiple input fields, a pushbutton, and JavaScript functions for handling the input. The form INPUT uses method="post" to send the input data. The HTML control in CFW uses the parameter QUERY\_TABLE of the event SAPEVENT to pass this data to its handler. The class CL\_ABAP\_BROWSER (a wrapper for the class CL\_GUI\_HTML\_VIEWER also passes this parameter and the user input can be used in the ABAP program.
 
-See also the corresponding executable example for [ICF](javascript:call_link\('abenicf_post_service_abexa.htm'\)).
+See also the corresponding executable example for [ICF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenicf_post_service_abexa.htm).

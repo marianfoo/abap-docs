@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 hide area
 
-Area in the [list buffer](javascript:call_link\('abenlist_buffer_glosry.htm'\) "Glossary Entry") to which [global](javascript:call_link\('abenprg_glbl_data_glosry.htm'\) "Glossary Entry") [variables](javascript:call_link\('abenvariable_glosry.htm'\) "Glossary Entry") can be stored for every line of a [screen list](javascript:call_link\('abenscreen_list_glosry.htm'\) "Glossary Entry") using the statement [HIDE](javascript:call_link\('abaphide.htm'\)).
+Area in the [list buffer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_buffer_glosry.htm "Glossary Entry") to which [global](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprg_glbl_data_glosry.htm "Glossary Entry") [variables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvariable_glosry.htm "Glossary Entry") can be stored for every line of a [screen list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_list_glosry.htm "Glossary Entry") using the statement [HIDE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphide.htm).

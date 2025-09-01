@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  D
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  D
 
 DESCRIBE FIELD - Quick reference
 
-[Reference](javascript:call_link\('abapdescribe_field.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdescribe_field.htm)
 
 Syntax
 
@@ -35,11 +35,11 @@ Additions
     
 
 -   DECIMALS dec
-    Returns the number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") in dec.
+    Returns the number of [decimal places](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecimal_place_glosry.htm "Glossary Entry") in dec.
     
 
 -   OUTPUT-LENGTH olen
-    Returns the output length on the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") in olen.
+    Returns the output length on the [screens](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscreen_glosry.htm "Glossary Entry") in olen.
     
 
 -   HELP-ID hlp

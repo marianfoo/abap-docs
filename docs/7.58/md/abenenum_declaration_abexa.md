@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Enumerated Objects (enum)](javascript:call_link\('abenenumerated_types_usage.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Enumerated Objects (enum)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_types_usage.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20enum%2C%20Declaration%2C%20ABENENUM_DECLARATION_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 enum, Declaration
 
-This example demonstrates the declaration of [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry").
+This example demonstrates the declaration of [enumerated objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_object_glosry.htm "Glossary Entry").
 
 Source Code   
 
@@ -79,15 +79,15 @@ ENDCLASS.
 
 Description   
 
-This example shows enumerated objects defined with reference to an [ABAP enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") and to an [CDS enumerated type](javascript:call_link\('abencds_enum_type_glosry.htm'\) "Glossary Entry"):
+This example shows enumerated objects defined with reference to an [ABAP enumerated type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_type_glosry.htm "Glossary Entry") and to an [CDS enumerated type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enum_type_glosry.htm "Glossary Entry"):
 
 -   ABAP enumerated type
-    -   The ABAP enumerated type abap\_wd is defined with an [enumerated structure](javascript:call_link\('abenenumerated_structure_glosry.htm'\) "Glossary Entry") that has the same name.
+    -   The ABAP enumerated type abap\_wd is defined with an [enumerated structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_structure_glosry.htm "Glossary Entry") that has the same name.
     -   The enumerated structure abap\_wd is created by the declaration and can be referred to by LIKE to create a second structure with the same components. The second structure is not a constant structure.
-    -   The components of the constant structure abap\_wd contain the [enumerated values](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") of the enumerated type.
+    -   The components of the constant structure abap\_wd contain the [enumerated values](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_value_glosry.htm "Glossary Entry") of the enumerated type.
     -   The components of the variable structure declared by LIKE contain their initial value 0 or MON respectively.
     -   A variable wd\_abap is declared with reference to the ABAP enumerated type and assigned the enumerated constant abap\_wd-tue.
-    -   An [immutable variable](javascript:call_link\('abenimmutable_variable_glosry.htm'\) "Glossary Entry") wd\_abap\_wed is declared inline and assigned the enumerated constant abap\_wd-wed.
+    -   An [immutable variable](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenimmutable_variable_glosry.htm "Glossary Entry") wd\_abap\_wed is declared inline and assigned the enumerated constant abap\_wd-wed.
     -   The enumerated constant structure abap\_wd is assigned to the variable structure abap\_wd\_struc declared by LIKE. Each component is assigned a different enumerated constant.
 -   CDS enumerated type
     

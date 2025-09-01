@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  S
 
 STATICS - Quick reference
 
-[Reference](javascript:call_link\('abapstatics.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstatics.htm)
 
 Syntax
 
@@ -16,9 +16,9 @@ STATICS dobj options.
 
 Effect
 
-Declares a static local data object dobj in a [subroutine](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry"), a [function module](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry"), or a [static method](javascript:call_link\('abenstatic_method_glosry.htm'\) "Glossary Entry").
+Declares a static local data object dobj in a [subroutine](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubroutine_glosry.htm "Glossary Entry"), a [function module](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_module_glosry.htm "Glossary Entry"), or a [static method](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_method_glosry.htm "Glossary Entry").
 
 Additions
 
 -   options
-    As in [DATA](javascript:call_link\('abapdata_shortref.htm'\)), with the exception that the addition READ-ONLY cannot be specified.
+    As in [DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_shortref.htm), with the exception that the addition READ-ONLY cannot be specified.

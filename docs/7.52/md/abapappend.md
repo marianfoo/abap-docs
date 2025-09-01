@@ -4,15 +4,15 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab.htm) →  [Processing Statements for Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_processing_statements.htm) → 
 
 APPEND
 
-[Quick Reference](javascript:call_link\('abapappend_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapappend_shortref.htm)
 
 Syntax
 
-APPEND [line\_spec](javascript:call_link\('abapappend_linespec.htm'\)) TO itab *\[*SORTED BY comp*\]* *\[* [result](javascript:call_link\('abapappend_result.htm'\))*\]*.
+APPEND [line\_spec](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapappend_linespec.htm) TO itab *\[*SORTED BY comp*\]* *\[* [result](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapappend_result.htm)*\]*.
 
 Addition:
 
@@ -20,17 +20,17 @@ Addition:
 
 Effect
 
-This statement appends one or more rows [line\_spec](javascript:call_link\('abapappend_linespec.htm'\)) to an internal index table itab. It is appended so that a new last row is created with respect to the primary table index.
+This statement appends one or more rows [line\_spec](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapappend_linespec.htm) to an internal index table itab. It is appended so that a new last row is created with respect to the primary table index.
 
-If itab is a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry"), SORTED BY can be used to sort the table in a specified way. Use [result](javascript:call_link\('abapappend_result.htm'\)) when appending a single row to set a reference to the appended row in the form of a field symbol or a data reference.
+If itab is a [standard table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm "Glossary Entry"), SORTED BY can be used to sort the table in a specified way. Use [result](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapappend_result.htm) when appending a single row to set a reference to the appended row in the form of a field symbol or a data reference.
 
 For the individual table types, appending is done as follows:
 
 -   To standard tables, rows are appended directly and without checking the content of the internal table.
     
--   Rows are appended to [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") only if they match the sort order and do not create duplicate entries (if the primary table key is unique).
+-   Rows are appended to [sorted tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensorted_table_glosry.htm "Glossary Entry") only if they match the sort order and do not create duplicate entries (if the primary table key is unique).
     
--   No rows can be appended to [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry").
+-   No rows can be appended to [hashed tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhashed_table_glosry.htm "Glossary Entry").
     
 
 Exceptions are raised in the following cases:
@@ -52,7 +52,7 @@ Notes
 
 -   The administration of a unique secondary table key is updated immediately; the administration of a non-unique key is not updated until the secondary table key is next used explicitly (lazy update). Runtime costs for creating or updating a non-unique secondary table key are not incurred therefore until it is used for the first time.
     
--   The [value operator](javascript:call_link\('abenvalue_operator_glosry.htm'\) "Glossary Entry") [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) can also be used to [construct](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)) the content of internal tables.
+-   The [value operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_operator_glosry.htm "Glossary Entry") [VALUE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_value.htm) can also be used to [construct](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_constructor_params_itab.htm) the content of internal tables.
     
 
 Example
@@ -73,9 +73,9 @@ Addition
 
 Effect
 
-Used correctly, this addition can produce ranking lists in descending order. This only works if a value greater than 0 is specified in the declaration of the internal table in the addition [INITIAL SIZE](javascript:call_link\('abaptypes_itab.htm'\)). If the value 0 is specified for INITIAL SIZE, the statement APPEND is ignored when used with the addition SORTED BY.
+Used correctly, this addition can produce ranking lists in descending order. This only works if a value greater than 0 is specified in the declaration of the internal table in the addition [INITIAL SIZE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_itab.htm). If the value 0 is specified for INITIAL SIZE, the statement APPEND is ignored when used with the addition SORTED BY.
 
-The addition SORTED BY can be used only when a work area wa is specified and for a standard table. Also, wa must be [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") with the row type of the table. The component comp can be specified as shown in the section [Specifying Components](javascript:call_link\('abenitab_components.htm'\)), however only a single component can be addressed using the object component selector, and no attributes of classes.
+The addition SORTED BY can be used only when a work area wa is specified and for a standard table. Also, wa must be [compatible](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompatible_glosry.htm "Glossary Entry") with the row type of the table. The component comp can be specified as shown in the section [Specifying Components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_components.htm), however only a single component can be addressed using the object component selector, and no attributes of classes.
 
 As long as the declaration of the internal table for INITIAL SIZE has a value greater than zero, the statement is executed in two steps:
 
@@ -88,7 +88,7 @@ When using only the statement APPEND with the addition SORTED BY to fill an inte
 
 Programming Guideline
 
-[Create ranking lists with unsorted filling](javascript:call_link\('abensort_guidl.htm'\) "Guideline")
+[Create ranking lists with unsorted filling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensort_guidl.htm "Guideline")
 
 Example
 
@@ -116,7 +116,7 @@ SELECT fldate, seatsocc, seatsmax, seatsmax - seatsocc AS seatsfree
 ENDSELECT.
 cl\_demo\_output=>display( seats\_tab ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -137,11 +137,11 @@ Non-Handleable Exceptions
 -   Cause: Invalid index value (<= 0) when FROM, TO, or INDEX specified
     Runtime error: TABLE\_INVALID\_INDEX
     
--   Cause: [Memory area violated](javascript:call_link\('abentables_parameters_restrictions.htm'\)) when TABLES parameter accessed
+-   Cause: [Memory area violated](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentables_parameters_restrictions.htm) when TABLES parameter accessed
     Runtime error: ITAB\_STRUC\_ACCESS\_VIOLATION
     
 
 Continue
-[APPEND - line\_spec](javascript:call_link\('abapappend_linespec.htm'\))
-[APPEND - result](javascript:call_link\('abapappend_result.htm'\))
-![Example](exa.gif "Example") [Internal Table, Append Rows](javascript:call_link\('abenappend_lines_abexa.htm'\))
+[APPEND - line\_spec](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapappend_linespec.htm)
+[APPEND - result](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapappend_result.htm)
+![Example](exa.gif "Example") [Internal Table, Append Rows](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenappend_lines_abexa.htm)

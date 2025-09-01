@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [System Fields for Date and Time](javascript:call_link\('abentime_system_fields.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendate_time_processing.htm) →  [System Fields for Date and Time](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_system_fields.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: GET TIME, ABAPGET_TIME, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for i
 mprovement:)
 
 GET TIME
 
-[Short Reference](javascript:call_link\('abapget_time_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_time_shortref.htm)
 
 Syntax
 
@@ -23,15 +23,15 @@ Addition:
 
 Effect
 
-Without the addition FIELD, the [system fields for date and time](javascript:call_link\('abentime_system_fields.htm'\)), sy-datlo, sy-datum, sy-timlo, and sy-uzeit, are set to the current value. The content of the system fields sy-dayst, sy-fdayw, sy-tzone, and sy-zonlo is not updated.
+Without the addition FIELD, the [system fields for date and time](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_system_fields.htm), sy-datlo, sy-datum, sy-timlo, and sy-uzeit, are set to the current value. The content of the system fields sy-dayst, sy-fdayw, sy-tzone, and sy-zonlo is not updated.
 
 Hint
 
-Besides with GET TIME, the system fields are updated after a program is started, a [screen layout](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") is sent, and the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") is changed.
+Besides with GET TIME, the system fields are updated after a program is started, a [screen layout](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_glosry.htm "Glossary Entry") is sent, and the [internal session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternal_session_glosry.htm "Glossary Entry") is changed.
 
 Example
 
-Approximate runtime measurement. The statement [GET RUN TIME](javascript:call_link\('abapget_run_time.htm'\)) should be used instead.
+Approximate runtime measurement. The statement [GET RUN TIME](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_run_time.htm) should be used instead.
 
 GET TIME.
 FINAL(t1) = sy-timlo.
@@ -47,10 +47,10 @@ Addition  
 
 Effect
 
-The addition FIELD is used to pass the current [system time](javascript:call_link\('abensystem_time_glosry.htm'\) "Glossary Entry") in the format hhmmss to the variable tim instead of sy-uzeit and none of the system fields are updated. The return value of the statement has the data type t. The following can be specified for tim:
+The addition FIELD is used to pass the current [system time](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_time_glosry.htm "Glossary Entry") in the format hhmmss to the variable tim instead of sy-uzeit and none of the system fields are updated. The return value of the statement has the data type t. The following can be specified for tim:
 
 -   An existing variable of the data type t or a variable to which the type t can be converted.
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)), where a variable of type t is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_inline.htm) or [FINAL(var)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfinal_inline.htm), where a variable of type t is declared.
 
 Example
 

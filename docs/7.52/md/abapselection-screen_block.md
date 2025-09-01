@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Create Selection Screens](javascript:call_link\('abenselection_screen_create.htm'\)) →  [SELECTION-SCREEN](javascript:call_link\('abapselection-screen.htm'\)) →  [SELECTION-SCREEN - screen\_elements](javascript:call_link\('abapselection-screen_layout.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen.htm) →  [Create Selection Screens](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_create.htm) →  [SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen.htm) →  [SELECTION-SCREEN - screen\_elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_layout.htm) → 
 
 SELECTION-SCREEN - BLOCK
 
-[Quick Reference](javascript:call_link\('abapselection-screen_bob_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_bob_shortref.htm)
 
 Syntax
 
@@ -25,13 +25,13 @@ Extras:
 
 Effect
 
-These statements define a block with the name block on the current [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry"). The name block must be specified directly and it must contain a maximum of 20 characters.
+These statements define a block with the name block on the current [selection screen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_glosry.htm "Glossary Entry"). The name block must be specified directly and it must contain a maximum of 20 characters.
 
-All screen elements on the selection screen defined by the statements [PARAMETERS](javascript:call_link\('abapparameters.htm'\)), [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)), and [SELECTION-SCREEN](javascript:call_link\('abapselection-screen.htm'\)) between these statements are part of the block block. Additional blocks can be created within the definition of a block.
+All screen elements on the selection screen defined by the statements [PARAMETERS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapparameters.htm), [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options.htm), and [SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen.htm) between these statements are part of the block block. Additional blocks can be created within the definition of a block.
 
 Note
 
-Each block is assigned a selection screen event [AT SELECTION-SCREEN ON BLOCK](javascript:call_link\('abapat_selection-screen.htm'\)), in which the user entries within the block can be processed together.
+Each block is assigned a selection screen event [AT SELECTION-SCREEN ON BLOCK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_selection-screen.htm), in which the user entries within the block can be processed together.
 
 Addition 1
 
@@ -49,11 +49,11 @@ Addition 2
 
 Effect
 
-If NO INTERVALS is specified, the addition NO INTERVALS is used implicitly in the statement SELECT-OPTIONS when all the [selection criteria](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") are defined for this block, and the block is narrowed accordingly. If the block has a frame, the blocks nested within it also inherit the addition NO INTERVALS.
+If NO INTERVALS is specified, the addition NO INTERVALS is used implicitly in the statement SELECT-OPTIONS when all the [selection criteria](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_criterion_glosry.htm "Glossary Entry") are defined for this block, and the block is narrowed accordingly. If the block has a frame, the blocks nested within it also inherit the addition NO INTERVALS.
 
 Example
 
-Groups radio buttons in a block with a frame and title on the [standard selection screen](javascript:call_link\('abenstandard_selscreen_glosry.htm'\) "Glossary Entry") for an executable program.
+Groups radio buttons in a block with a frame and title on the [standard selection screen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_selscreen_glosry.htm "Glossary Entry") for an executable program.
 
 SELECTION-SCREEN BEGIN OF BLOCK rad1
                           WITH FRAME TITLE title.

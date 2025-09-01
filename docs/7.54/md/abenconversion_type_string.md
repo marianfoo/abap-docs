@@ -4,13 +4,17 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) →  [Character-Like Source Fields](javascript:call_link\('abencharacter_source_fields.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_elementary.htm) →  [Character-Like Source Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_source_fields.htm) → 
 
 Source Field Type string
 
--   [Numeric Target Fields](#abenconversion-type-string-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_STRING_2)
+-   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_STRING_1)
 
--   [Byte-Like Target Fields](#abenconversion-type-string-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_STRING_4)
+-   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_STRING_2)
+
+-   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_STRING_3)
+
+-   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_STRING_4)
 
 Numeric Target Fields
 
@@ -20,23 +24,23 @@ Conversion
 
 i, int8, (b, s)
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)) If the source field has a length of 0, the target field is assigned the value 0.
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_c.htm) If the source field has a length of 0, the target field is assigned the value 0.
 
 p
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)) If the source field has a length of 0, the target field is assigned the value 0.
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_c.htm) If the source field has a length of 0, the target field is assigned the value 0.
 
 decfloat16, decfloat34
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)) If the source field has a length of 0, the target field is assigned the value 0.
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_c.htm) If the source field has a length of 0, the target field is assigned the value 0.
 
 f
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)) If the source field has a length of 0, the target field is assigned the value 0.
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_c.htm) If the source field has a length of 0, the target field is assigned the value 0.
 
 Note
 
--   The class [CL\_ABAP\_DECFLOAT](javascript:call_link\('abencl_abap_decfloat_doc.htm'\)) contains the methods READ\_DECFLOAT34 and READ\_DECFLOAT16, which convert character strings into decimal floating point numbers. The exceptions of these methods are more significant than those of a normal assignment. Furthermore, the methods return a return value that reveals information about the roundings performed.
+-   The class [CL\_ABAP\_DECFLOAT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_decfloat_doc.htm) contains the methods READ\_DECFLOAT34 and READ\_DECFLOAT16, which convert character strings into decimal floating point numbers. The exceptions of these methods are more significant than those of a normal assignment. Furthermore, the methods return a return value that reveals information about the roundings performed.
 
 Example
 
@@ -52,11 +56,11 @@ Conversion
 
 c
 
-The content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)), with the difference that trailing blanks are passed. If the length of the source field is 0, the target field is padded with blanks.
+The content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_c.htm), with the difference that trailing blanks are passed. If the length of the source field is 0, the target field is padded with blanks.
 
 n
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)) If the length of the source field is 0, the target field is padded with the character "0".
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_c.htm) If the length of the source field is 0, the target field is padded with the character "0".
 
 string
 
@@ -64,9 +68,9 @@ No conversion takes place. After the assignment, the internal reference of the t
 
 Notes
 
--   In ABAP, the [trailing blanks](javascript:call_link\('abenabap_data_string.htm'\)) are respected for source fields of type string but not for data objects of type c.
+-   In ABAP, the [trailing blanks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_string.htm) are respected for source fields of type string but not for data objects of type c.
 
--   If characters are cut off on the right when character strings containing non-Unicode [double-byte](javascript:call_link\('abendouble_byte_code_glosry.htm'\) "Glossary Entry") characters are assigned, the character in question can be split down the middle, which generally produces an invalid character at the right margin. To prevent this, the method CL\_SCP\_LINEBREAK\_UTIL=>STRING\_SPLIT\_AT\_POSITION can be used.
+-   If characters are cut off on the right when character strings containing non-Unicode [double-byte](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendouble_byte_code_glosry.htm "Glossary Entry") characters are assigned, the character in question can be split down the middle, which generally produces an invalid character at the right margin. To prevent this, the method CL\_SCP\_LINEBREAK\_UTIL=>STRING\_SPLIT\_AT\_POSITION can be used.
 
 Example
 
@@ -82,11 +86,11 @@ Conversion
 
 x
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)) If the length of the source field is 0, the target field is padded with hexadecimal 0.
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_c.htm) If the length of the source field is 0, the target field is padded with hexadecimal 0.
 
 xstring
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)) If the length of the source field is 0, the length of the target field is also 0 after the assignment.
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_c.htm) If the length of the source field is 0, the length of the target field is also 0 after the assignment.
 
 Example
 
@@ -103,15 +107,15 @@ Conversion
 
 d
 
-The content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)), with the difference that trailing blanks are passed. If the length of the source field is 0, the target field is padded with the character "0".
+The content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_c.htm), with the difference that trailing blanks are passed. If the length of the source field is 0, the target field is padded with the character "0".
 
 t
 
-The content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)) and the trailing blanks are passed. If the length of the source field is 0, the target field is padded with the character "0".
+The content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_c.htm) and the trailing blanks are passed. If the length of the source field is 0, the target field is padded with the character "0".
 
 utclong
 
-The content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\)) and the trailing blanks are ignored. An initial source field and a source field that contains only blanks produce the initial value of a time stamp field.
+The content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_c.htm) and the trailing blanks are ignored. An initial source field and a source field that contains only blanks produce the initial value of a time stamp field.
 
 Example
 
@@ -121,7 +125,7 @@ DATA(result) = CONV d( \`\` ).
 
 Example
 
-Conversion of a text string composed of date and time specifications in ISO format 8601 to a time stamp in a [time stamp field](javascript:call_link\('abentimestamp_field_glosry.htm'\) "Glossary Entry").
+Conversion of a text string composed of date and time specifications in ISO format 8601 to a time stamp in a [time stamp field](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentimestamp_field_glosry.htm "Glossary Entry").
 
 DATA(ts) = CONV utclong( |{ sy-datum DATE = ISO }T{
                             sy-uzeit TIME = ISO }| ).

@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Displaying Lists](javascript:call_link\('abenlists_displayed.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpro_list.htm) →  [Displaying Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlists_displayed.htm) → 
 
 LEAVE TO LIST-PROCESSING
 
-[Quick Reference](javascript:call_link\('abapleave_to_list-process_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapleave_to_list-process_shortref.htm)
 
 Syntax
 
@@ -20,11 +20,11 @@ Addition:
 
 Effect
 
-This statement can be executed during [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") and [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") processing. After the current dynpro is processed, this statement interrupts the current [dynpro sequence](javascript:call_link\('abendynpro_sequence_glosry.htm'\) "Glossary Entry"), starts the list processor, and displays the basic list. The basic list consists of any list output of all PBO and PAI modules of the dynpro sequence executed to this point. The statement is ignored in the event blocks for [reporting events](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry") and [list events](javascript:call_link\('abenlist_event_glosry.htm'\) "Glossary Entry").
+This statement can be executed during [PBO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpbo_glosry.htm "Glossary Entry") and [PAI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpai_glosry.htm "Glossary Entry") processing. After the current dynpro is processed, this statement interrupts the current [dynpro sequence](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_sequence_glosry.htm "Glossary Entry"), starts the list processor, and displays the basic list. The basic list consists of any list output of all PBO and PAI modules of the dynpro sequence executed to this point. The statement is ignored in the event blocks for [reporting events](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreporting_event_glosry.htm "Glossary Entry") and [list events](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_event_glosry.htm "Glossary Entry").
 
-The [screen](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of the [list dynpro](javascript:call_link\('abenlist_dynpro_glosry.htm'\) "Glossary Entry") of the list processor replaces the screen shown in the [popup level](javascript:call_link\('abenpop-up_level_glosry.htm'\) "Glossary Entry") 0. Any modal dialog windows stacked above this are hidden while the list is being displayed. The GUI status set in the dynpro sequence is used. Any list events triggered by user actions in the GUI window of the list dynpro call the event blocks of the current [main program](javascript:call_link\('abenmain_program_glosry.htm'\) "Glossary Entry"). Any details lists created there are displayed by the list processor in the GUI window of the basic list (unless the statement [WINDOW](javascript:call_link\('abapwindow.htm'\)) is used).
+The [screen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_glosry.htm "Glossary Entry") of the [list dynpro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_dynpro_glosry.htm "Glossary Entry") of the list processor replaces the screen shown in the [popup level](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpop-up_level_glosry.htm "Glossary Entry") 0. Any modal dialog windows stacked above this are hidden while the list is being displayed. The GUI status set in the dynpro sequence is used. Any list events triggered by user actions in the GUI window of the list dynpro call the event blocks of the current [main program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmain_program_glosry.htm "Glossary Entry"). Any details lists created there are displayed by the list processor in the GUI window of the basic list (unless the statement [WINDOW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwindow.htm) is used).
 
-The user can exit the list processor or list display by selecting the functions Back, Exit, or Cancel in the display for list level 0, or by means of a program that uses the [LEAVE LIST-PROCESSING](javascript:call_link\('abapleave_list-processing.htm'\)) statement. By default, the interrupted dynpro sequence resumes in both cases with the PBO processing of the dynpro in which the list processor was called.
+The user can exit the list processor or list display by selecting the functions Back, Exit, or Cancel in the display for list level 0, or by means of a program that uses the [LEAVE LIST-PROCESSING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapleave_list-processing.htm) statement. By default, the interrupted dynpro sequence resumes in both cases with the PBO processing of the dynpro in which the list processor was called.
 
 Addition
 
@@ -43,7 +43,7 @@ Notes
 
 Executable Example
 
-[Calling Lists from Dynpro Processing](javascript:call_link\('abenleave_to_list_proc_abexa.htm'\))
+[Calling Lists from Dynpro Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_to_list_proc_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Calling Lists from Within Screen Processing](javascript:call_link\('abenleave_to_list_proc_abexa.htm'\))
+![Example](exa.gif "Example") [Calling Lists from Within Screen Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_to_list_proc_abexa.htm)

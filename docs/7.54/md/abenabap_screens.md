@@ -4,19 +4,19 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) → 
 
 SAP GUI User Dialogs
 
-This section handles [dialog processing](javascript:call_link\('abendialog_processing_glosry.htm'\) "Glossary Entry") in [dialog sessions](javascript:call_link\('abendialog_session_glosry.htm'\) "Glossary Entry") based on [SAP GUI](javascript:call_link\('abensap_gui_glosry.htm'\) "Glossary Entry"). The user dialogs are all based on classic [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"). Both general and special dynpros (selection screens, lists) are possible. Dynpros can be associated with [GUI controls](javascript:call_link\('abengui_control_glosry.htm'\) "Glossary Entry").
+This section handles [dialog processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendialog_processing_glosry.htm "Glossary Entry") in [dialog sessions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendialog_session_glosry.htm "Glossary Entry") based on [SAP GUI](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_gui_glosry.htm "Glossary Entry"). The user dialogs are all based on classic [dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm "Glossary Entry"). Both general and special dynpros (selection screens, lists) are possible. Dynpros can be associated with [GUI controls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengui_control_glosry.htm "Glossary Entry").
 
--   [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\))
+-   [Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm)
 
--   [Selection screens](javascript:call_link\('abenselection_screen.htm'\))
+-   [Selection screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm)
 
--   [Classic lists](javascript:call_link\('abenabap_dynpro_list.htm'\))
+-   [Classic lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_list.htm)
 
--   [Conversion routines](javascript:call_link\('abenconversion_exits.htm'\))
+-   [Conversion routines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_exits.htm)
 
 Dynpros can be used in function groups, module pools, and executable programs.
 
@@ -26,11 +26,11 @@ Notes
 
 -   When programming user dialogs, it is important that the presentation logic and application logic are decoupled.
 
--   For Web-based UIs, [SAPUI5](javascript:call_link\('abensapui5_glosry.htm'\) "Glossary Entry"), [Web Dynpros](javascript:call_link\('abenweb_dynpro_glosry.htm'\) "Glossary Entry") and [Business Server Pages](javascript:call_link\('abenbusiness_server_pages_glosry.htm'\) "Glossary Entry") are available, which are independent of the classic dynpros and are addressed using object-oriented frameworks.
+-   For Web-based UIs, [SAPUI5](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensapui5_glosry.htm "Glossary Entry"), [Web Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenweb_dynpro_glosry.htm "Glossary Entry") and [Business Server Pages](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbusiness_server_pages_glosry.htm "Glossary Entry") are available, which are independent of the classic dynpros and are addressed using object-oriented frameworks.
 
 Continue
-![Example](exa.gif "Example") [User Dialogs](javascript:call_link\('abenscreen_abexa.htm'\))
-[General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\))
-[Selection Screens](javascript:call_link\('abenselection_screen.htm'\))
-[Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\))
-[Conversion Routines](javascript:call_link\('abenconversion_exits.htm'\))
+![Example](exa.gif "Example") [User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscreen_abexa.htm)
+[General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm)
+[Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm)
+[Classic Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_list.htm)
+[Conversion Routines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_exits.htm)

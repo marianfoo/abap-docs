@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenabap_sql_reading.htm'\)) →  [WITH](javascript:call_link\('abapwith.htm'\)) →  [WITH, Examples](javascript:call_link\('abenwith_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm) →  [ABAP SQL - Read Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_reading.htm) →  [WITH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwith.htm) →  [WITH, Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwith_abexas.htm) → 
 
 WITH, Exposing Associations with a Redirect
 
-This example demonstrates the addition REDIRECTED of [WITH ASSOCIATIONS](javascript:call_link\('abapwith_associations.htm'\)) for [common table expressions](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry").
+This example demonstrates the addition REDIRECTED of [WITH ASSOCIATIONS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwith_associations.htm) for [common table expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencommon_table_expression_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -399,7 +399,7 @@ define view DEMO\_CDS\_EXPOSE\_ASSOC\_1
       demo\_join1.d
     }
 
-This example demonstrates different redirects of the [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") of the CDS association demo\_cds\_expose\_assoc\_1~\\\_demo\_join2 exposed by +cte2 to a preceding common table expression +cte1:
+This example demonstrates different redirects of the [association target](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the CDS association demo\_cds\_expose\_assoc\_1~\\\_demo\_join2 exposed by +cte2 to a preceding common table expression +cte1:
 
 -   The first WITH statement shows a simple example in which the association target demo\_join2 of the CDS association \_demo\_join2 exposed by +cte2 occurs once under its name in +cte1 as a data source. Only demo\_join2 can be specified after VIA. When the path expression +cte2\\\_demo\_join2 is accessed, an inner join is created between the result sets of +cte2 and +cte1, whose ON condition compares the columns of the result sets defined by the CDS association.
 -   The next WITH statements show examples in which the association target demo\_join2 of the CDS association \_demo\_join2 exposed by +cte2 occurs twice as a data source in +cte1 under different names, src1 and src2.

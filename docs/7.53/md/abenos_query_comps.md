@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services](javascript:call_link\('abenabap_object_services.htm'\)) →  [Query Service](javascript:call_link\('abenabap_object_services_query.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_object_services_query.htm) → 
 
 Query Service Components
 
@@ -64,7 +64,7 @@ Methods of the Interface IF\_OS\_QUERY\_EXPR\_FACTORY
 
 -   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_OPERATOR\_EXPR
 
-Creates either a [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)) of the form
+Creates either a [query condition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenos_query_filter_cond.htm) of the form
 attr1 operator attr2,
 where attr1, operator, and attr2 are the values of the parameters I\_ATTR, I\_OPERATOR, and I\_ATTR2 or a query condition of the form
 attr1 operator 'val' or

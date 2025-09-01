@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Cheat Sheets](javascript:call_link\('abenabap_blurb.htm'\)) →  [Grouping Internal Tables](javascript:call_link\('abapsheets_grouping_iitabs.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Cheat Sheets](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_blurb.htm) →  [Grouping Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_grouping_iitabs.htm) → 
 
 Grouping Internal Tables
 
-The example is a step-by-step introduction to grouping with [LOOP AT GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)).
+The example is a step-by-step introduction to grouping with [LOOP AT GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm).
 
 Source Code
 
@@ -113,4 +113,4 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates all syntactical options shown in [Grouping internal tables](javascript:call_link\('abapsheets_grouping_iitabs.htm'\)).
+This example demonstrates all syntactical options shown in [Grouping internal tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_grouping_iitabs.htm).

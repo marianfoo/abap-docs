@@ -3,31 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenconstructor_expression_new.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm)
-- [abennew_constructor_params_initial.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_initial.htm)
-- [abennew_constructor_params_single.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_single.htm)
-- [abennew_constructor_params_struct.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_struct.htm)
-- [abennew_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm)
-- [abennew_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm)
-- [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_class.htm)
-
-**Bundle Contains**: 7 documentation pages
-**Version**: ABAP 7.56
-**Generated**: 2025-09-01T11:25:45.469Z
-
----
-
 ### abenconstructor_expression_new.htm
-
-> **📖 Official SAP Documentation**: [abenconstructor_expression_new.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,7 +11,7 @@ Included pages: 8
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_objects.htm) → 
 
 NEW, Instance Operator
 
@@ -45,42 +21,42 @@ Syntax
 
 Effect
 
-A [constructor expression](javascript:call_link\('abenconstructor_expressions.htm'\)) with the instance operator NEW creates an [anonymous data object](javascript:call_link\('abenanonymous_data_object_glosry.htm'\) "Glossary Entry") or an [instance](javascript:call_link\('abeninstance_glosry.htm'\) "Glossary Entry") of a class and assigns values to the new object. The result is a reference variable that points to the created object. The following can be specified for type:
+A [constructor expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expressions.htm) with the instance operator NEW creates an [anonymous data object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenanonymous_data_object_glosry.htm "Glossary Entry") or an [instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninstance_glosry.htm "Glossary Entry") of a class and assigns values to the new object. The result is a reference variable that points to the created object. The following can be specified for type:
 
 -   A non-generic data type dtype.
     
-    The operator NEW works in the same way as the statement [CREATE DATA dref TYPE dtype](javascript:call_link\('abapcreate_data_existing.htm'\)), where dref stands for the result that points to the created anonymous data object. The result is a data reference variable of the [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") dtype. A constructor expression of this type cannot be extended using a [component selector](javascript:call_link\('abencomponent_selector_glosry.htm'\) "Glossary Entry").
+    The operator NEW works in the same way as the statement [CREATE DATA dref TYPE dtype](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_data_existing.htm), where dref stands for the result that points to the created anonymous data object. The result is a data reference variable of the [static type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_type_glosry.htm "Glossary Entry") dtype. A constructor expression of this type cannot be extended using a [component selector](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomponent_selector_glosry.htm "Glossary Entry").
     
 -   A class class.
     
-    The operator NEW works in the same way as the statement [CREATE OBJECT oref TYPE class](javascript:call_link\('abapcreate_object_explicit.htm'\)), where oref stands for the result that points to the created object. The result is an object reference variable of the [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") class. In [general expression positions](javascript:call_link\('abengeneral_expression_positions.htm'\)) and [functional positions](javascript:call_link\('abenfunctional_positions.htm'\)), a component selector can be added to such a constructor expression, like an object reference variable with an component selector \-> and can be used in the same operand positions. The following is also possible:
+    The operator NEW works in the same way as the statement [CREATE OBJECT oref TYPE class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object_explicit.htm), where oref stands for the result that points to the created object. The result is an object reference variable of the [static type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_type_glosry.htm "Glossary Entry") class. In [general expression positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneral_expression_positions.htm) and [functional positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunctional_positions.htm), a component selector can be added to such a constructor expression, like an object reference variable with an component selector \-> and can be used in the same operand positions. The following is also possible:
     
-    -   [Standalone method calls](javascript:call_link\('abapcall_method_static_short.htm'\)), including [chained method calls](javascript:call_link\('abenchained_method_call_glosry.htm'\) "Glossary Entry"), can be introduced.
+    -   [Standalone method calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_static_short.htm), including [chained method calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchained_method_call_glosry.htm "Glossary Entry"), can be introduced.
     -   A single expression that points to an attribute of the class using exactly one subsequent object component selector can also be used as the target field of assignments.
 -   The # character.
     
-    If the data type required in an operand position is unique and can be identified completely, the # character can be used instead of an explicit type specification type and the [operand type](javascript:call_link\('abenoperand_type_glosry.htm'\) "Glossary Entry") is used. If the operand type is not known completely, the # character cannot be used, with the following exception: The operand can be evaluated after BASE when a [structure](javascript:call_link\('abennew_constructor_params_struct.htm'\)) or an [internal table](javascript:call_link\('abennew_constructor_params_itab.htm'\)) is constructed.
+    If the data type required in an operand position is unique and can be identified completely, the # character can be used instead of an explicit type specification type and the [operand type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperand_type_glosry.htm "Glossary Entry") is used. If the operand type is not known completely, the # character cannot be used, with the following exception: The operand can be evaluated after BASE when a [structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_struct.htm) or an [internal table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm) is constructed.
     
 
 The same descriptions apply as to the CREATE statements. After an object is created successfully, it is supplied with values using the parameters specified in parentheses. The syntax of the parameter passing depends on the type used. There are specialized types of parameter passing for complex types.
 
--   [Initial value for all types](javascript:call_link\('abennew_constructor_params_initial.htm'\))
--   [Initial value for all data types](javascript:call_link\('abennew_constructor_params_single.htm'\))
--   [Structures](javascript:call_link\('abennew_constructor_params_struct.htm'\))
--   [Internal tables](javascript:call_link\('abennew_constructor_params_itab.htm'\))
--   [Classes](javascript:call_link\('abennew_constructor_params_class.htm'\))
+-   [Initial value for all types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_initial.htm)
+-   [Initial value for all data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_single.htm)
+-   [Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_struct.htm)
+-   [Internal tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm)
+-   [Classes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_class.htm)
 
-If a constructor expression is [assigned](javascript:call_link\('abenequals_operator.htm'\)) to a reference variable using NEW, the information in the parentheses is evaluated before the created object is bound to the target variable.
+If a constructor expression is [assigned](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_operator.htm) to a reference variable using NEW, the information in the parentheses is evaluated before the created object is bound to the target variable.
 
 Return Code
 
-If an instance of a [class](javascript:call_link\('abennew_constructor_params_class.htm'\)) is created successfully, the instance operator NEW sets sy-subrc to 0. Since non-class-based exceptions of the instance constructor cannot be handled, sy-subrc is never set to a value other than 0. The return code sy-subrc is not set when anonymous data objects are created.
+If an instance of a [class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_class.htm) is created successfully, the instance operator NEW sets sy-subrc to 0. Since non-class-based exceptions of the instance constructor cannot be handled, sy-subrc is never set to a value other than 0. The return code sy-subrc is not set when anonymous data objects are created.
 
 Hints
 
--   To create the values for a new data object, the instance operator NEW uses mainly the same syntax as the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)).
--   The instance operator NEW always creates a new temporary reference variable that points to the created object. The reference variable is used as the operand of a statement and then deleted. It is deleted when the current statement is closed or after the evaluation of a relational expression once the truth value is determined. The created object is passed to the Garbage Collector if it is not received by a [heap reference](javascript:call_link\('abenheap_reference_glosry.htm'\) "Glossary Entry") or a field symbol after the temporary reference variable has been deleted.
--   [Assignments](javascript:call_link\('abenequals_operator.htm'\)) to a reference variable also always create a temporary reference variable that is only assigned to the target variable afterwards. This means that the object to which the target variable points before the assignment can be addressed using it throughout the entire expression. This is the difference between NEW and the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)).
+-   To create the values for a new data object, the instance operator NEW uses mainly the same syntax as the value operator [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_value.htm).
+-   The instance operator NEW always creates a new temporary reference variable that points to the created object. The reference variable is used as the operand of a statement and then deleted. It is deleted when the current statement is closed or after the evaluation of a relational expression once the truth value is determined. The created object is passed to the Garbage Collector if it is not received by a [heap reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenheap_reference_glosry.htm "Glossary Entry") or a field symbol after the temporary reference variable has been deleted.
+-   [Assignments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_operator.htm) to a reference variable also always create a temporary reference variable that is only assigned to the target variable afterwards. This means that the object to which the target variable points before the assignment can be addressed using it throughout the entire expression. This is the difference between NEW and the value operator [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_value.htm).
 
 Example
 
@@ -95,21 +71,14 @@ dref = NEW i( 555 ).
 oref = NEW #( ).
 
 Continue
-[NEW, Initial Value for All Types](javascript:call_link\('abennew_constructor_params_initial.htm'\))
-[NEW, Single Value for All Data Types](javascript:call_link\('abennew_constructor_params_single.htm'\))
-[NEW, Structures](javascript:call_link\('abennew_constructor_params_struct.htm'\))
-[NEW, Internal Tables](javascript:call_link\('abennew_constructor_params_itab.htm'\))
-[NEW, Classes](javascript:call_link\('abennew_constructor_params_class.htm'\))
+[NEW, Initial Value for All Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_initial.htm)
+[NEW, Single Value for All Data Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_single.htm)
+[NEW, Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_struct.htm)
+[NEW, Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm)
+[NEW, Classes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_class.htm)
 
-
-
-**📖 Source**: [abenconstructor_expression_new.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm)
 
 ### abennew_constructor_params_initial.htm
-
-> **📖 Official SAP Documentation**: [abennew_constructor_params_initial.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_initial.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -117,7 +86,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [NEW, Instance Operator](javascript:call_link\('abenconstructor_expression_new.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_objects.htm) →  [NEW, Instance Operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm) → 
 
 NEW, Initial Value for All Types
 
@@ -136,7 +105,7 @@ This is possible for every non-generic data type dtype. The instance constructor
 
 Hint
 
-If dtype or # stand for an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"), its initial value is created according to its [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry").
+If dtype or # stand for an [enumerated type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), its initial value is created according to its [base type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbase_type_glosry.htm "Glossary Entry").
 
 Example
 
@@ -148,14 +117,7 @@ dref = NEW #( ).
 dref = NEW t\_itab( ).
 
 
-
-**📖 Source**: [abennew_constructor_params_initial.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_initial.htm)
-
 ### abennew_constructor_params_single.htm
-
-> **📖 Official SAP Documentation**: [abennew_constructor_params_single.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_single.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -163,17 +125,17 @@ dref = NEW t\_itab( ).
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [NEW, Instance Operator](javascript:call_link\('abenconstructor_expression_new.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_objects.htm) →  [NEW, Instance Operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm) → 
 
 NEW, Single Value for All Data Types
 
 Syntax
 
-... NEW dtype*|*#( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]* dobj ) ...
+... NEW dtype*|*#( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm)*\]* dobj ) ...
 
 Effect
 
-If dtype is a non-generic elementary data type, a structured type, a table type, or a reference type or # is used for a type like this, a single data object dobj can be specified as a unnamed argument that is convertible to or from data type dtype. dobj is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). The value of dobj is assigned to the created anonymous data object. The assignment is made in accordance with the applicable [assignment rules](javascript:call_link\('abenconversion_rules.htm'\)). Optionally, a LET expression [let\_exp](javascript:call_link\('abaplet.htm'\)) can be specified in front of the data object to define local helper fields.
+If dtype is a non-generic elementary data type, a structured type, a table type, or a reference type or # is used for a type like this, a single data object dobj can be specified as a unnamed argument that is convertible to or from data type dtype. dobj is a [general expression position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). The value of dobj is assigned to the created anonymous data object. The assignment is made in accordance with the applicable [assignment rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_rules.htm). Optionally, a LET expression [let\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm) can be specified in front of the data object to define local helper fields.
 
 Hints
 
@@ -204,14 +166,7 @@ SELECT \*
 ENDSELECT.
 
 
-
-**📖 Source**: [abennew_constructor_params_single.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_single.htm)
-
 ### abennew_constructor_params_struct.htm
-
-> **📖 Official SAP Documentation**: [abennew_constructor_params_struct.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_struct.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -219,37 +174,37 @@ ENDSELECT.
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [NEW, Instance Operator](javascript:call_link\('abenconstructor_expression_new.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_objects.htm) →  [NEW, Instance Operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm) → 
 
 NEW, Structures
 
 Syntax
 
-... NEW dtype*|*#( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]*
+... NEW dtype*|*#( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm)*\]*
                  *\[*BASE dobj*\]*
                  comp1 = dobj1 comp2 = dobj2 ... ) ...
 
 Effect
 
-If dtype is a structured data type or # stands for such a type, the individual components can be specified as named arguments comp1, comp2, ... Each component of the created anonymous data object can be assigned a data object with the same data type as the component, or can be converted to it. The assignment is made for all data types in accordance with the corresponding [assignment rules](javascript:call_link\('abenconversion_rules.htm'\)).
+If dtype is a structured data type or # stands for such a type, the individual components can be specified as named arguments comp1, comp2, ... Each component of the created anonymous data object can be assigned a data object with the same data type as the component, or can be converted to it. The assignment is made for all data types in accordance with the corresponding [assignment rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_rules.htm).
 
-An addition BASE can be specified in front of the individual component assignments, followed by a data object dobj. dobj is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry"). The type of dobj must be convertible to the type of the anonymous data object. If BASE is specified, the content of dobj is assigned to the anonymous data object before the individual components are assigned. If the character # is specified for the type of the anonymous data object and the type cannot be determined from the operand position of the VALUE expression, the type of dobj is used for this expression if it is known and structured.
+An addition BASE can be specified in front of the individual component assignments, followed by a data object dobj. dobj is a [functional operand position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunctional_position_glosry.htm "Glossary Entry"). The type of dobj must be convertible to the type of the anonymous data object. If BASE is specified, the content of dobj is assigned to the anonymous data object before the individual components are assigned. If the character # is specified for the type of the anonymous data object and the type cannot be determined from the operand position of the VALUE expression, the type of dobj is used for this expression if it is known and structured.
 
-dobj1, dobj2, ... are [general expression positions](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). Optionally, a LET expression [let\_exp](javascript:call_link\('abaplet.htm'\)) can be specified in front of the assignments to define local helper fields that can be used on the right side of the assignments.
+dobj1, dobj2, ... are [general expression positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). Optionally, a LET expression [let\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm) can be specified in front of the assignments to define local helper fields that can be used on the right side of the assignments.
 
 If a component is structured itself, either a suitable data object can be assigned to the entire substructure or its components can be specified using the structure component selector (\-). Non-specified components are ignored and keep their type-specific initial value, or the value assigned using BASE. If the addition BASE is used, at least one component must also be specified.
 
-It is not possible to assign multiple values to a component if the component is addressed by the same name. In structures that contain [component groups](javascript:call_link\('abencomponent_group_glosry.htm'\) "Glossary Entry"), the respective components can be addressed as usual as components of the including structures or by using the name of the component group. Then, a component might be assigned more than one value and the latest assignment is respected.
+It is not possible to assign multiple values to a component if the component is addressed by the same name. In structures that contain [component groups](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomponent_group_glosry.htm "Glossary Entry"), the respective components can be addressed as usual as components of the including structures or by using the name of the component group. Then, a component might be assigned more than one value and the latest assignment is respected.
 
 Hints
 
 -   The assignments can be specified in any order in parentheses.
--   If a component with a complex data type is to be constructed in an argument position, the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) can be used. This affects tabular components, for example. This is also possible for structured components but is not necessary since the subcomponents can be addressed using the structure component selector.
--   When a constructor expression is assigned to a reference variable using NEW, the original reference is available in the entire expression in the target variable. The target variable is not overwritten until the expression is completed. In the case of the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_struc.htm'\)), however, the target variable can only be assigned to a helper variable using LET and is then no longer available.
+-   If a component with a complex data type is to be constructed in an argument position, the value operator [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_value.htm) can be used. This affects tabular components, for example. This is also possible for structured components but is not necessary since the subcomponents can be addressed using the structure component selector.
+-   When a constructor expression is assigned to a reference variable using NEW, the original reference is available in the entire expression in the target variable. The target variable is not overwritten until the expression is completed. In the case of the value operator [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_constructor_params_struc.htm), however, the target variable can only be assigned to a helper variable using LET and is then no longer available.
 
 Example
 
-Construction of an anonymous data object with a nested structure type and tabular components. The subcomponents of col2 are addressed directly using the structure component selector. [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) must be used to construct the tabular component col3 because the [syntax](javascript:call_link\('abennew_constructor_params_itab.htm'\)) for constructing internal tables cannot be specified directly as an argument.
+Construction of an anonymous data object with a nested structure type and tabular components. The subcomponents of col2 are addressed directly using the structure component selector. [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_value.htm) must be used to construct the tabular component col3 because the [syntax](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm) for constructing internal tables cannot be specified directly as an argument.
 
 TYPES: t\_itab TYPE TABLE OF i WITH EMPTY KEY,
        BEGIN OF t\_struct,
@@ -288,17 +243,10 @@ cl\_demo\_output=>display( ref2->\* ).
 
 Example
 
-See also the examples for the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_struc.htm'\)).
+See also the examples for the value operator [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_constructor_params_struc.htm).
 
-
-
-**📖 Source**: [abennew_constructor_params_struct.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_struct.htm)
 
 ### abennew_constructor_params_itab.htm
-
-> **📖 Official SAP Documentation**: [abennew_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -306,19 +254,19 @@ See also the examples for the value operator [VALUE](javascript:call_link\('aben
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [NEW, Instance Operator](javascript:call_link\('abenconstructor_expression_new.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_objects.htm) →  [NEW, Instance Operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm) → 
 
 NEW, Internal Tables
 
 Syntax
 
-... NEW dtype*|*#( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]*
+... NEW dtype*|*#( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm)*\]*
                  *\[*BASE itab*\]*
-                 *\[*[FOR for\_exp1](javascript:call_link\('abenfor.htm'\))
-                  [FOR for\_exp2](javascript:call_link\('abenfor.htm'\))
+                 *\[*[FOR for\_exp1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor.htm)
+                  [FOR for\_exp2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor.htm)
                   ... *\]*
-                 ( [line\_spec1](javascript:call_link\('abennew_constructor_params_lspc.htm'\)) )
-                 ( [line\_spec2](javascript:call_link\('abennew_constructor_params_lspc.htm'\)) )
+                 ( [line\_spec1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm) )
+                 ( [line\_spec2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm) )
                    ... ) ...
 
 Additions:
@@ -330,17 +278,17 @@ Effect
 
 If dtype is a tabular data type or # stands for such a type, the table lines of the constructed table are created as follows:
 
--   The first option is to list a LET expression [let\_exp](javascript:call_link\('abaplet.htm'\)) to define local helper fields whose values can be used to construct the table lines.
+-   The first option is to list a LET expression [let\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm) to define local helper fields whose values can be used to construct the table lines.
 -   An optional start value for the content can then be specified for the content of the internal table after BASE (see below).
--   One or more optional consecutive [iteration expressions](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") can then be specified using [FOR](javascript:call_link\('abenfor.htm'\)) (see below).
--   The table lines are then constructed in one or more sets of internal parentheses by specifying [line\_spec](javascript:call_link\('abennew_constructor_params_lspc.htm'\)). Each set of inner parentheses constructs one or more lines in accordance with the information in line\_spec and inserts them into the new internal table according to the rules for the statement [INSERT](javascript:call_link\('abapinsert_itab.htm'\)) ... [INTO TABLE](javascript:call_link\('abapinsert_itab_position.htm'\)). The object is inserted in the order of the parentheses.
+-   One or more optional consecutive [iteration expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeniteration_expression_glosry.htm "Glossary Entry") can then be specified using [FOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor.htm) (see below).
+-   The table lines are then constructed in one or more sets of internal parentheses by specifying [line\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm). Each set of inner parentheses constructs one or more lines in accordance with the information in line\_spec and inserts them into the new internal table according to the rules for the statement [INSERT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_itab.htm) ... [INTO TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_itab_position.htm). The object is inserted in the order of the parentheses.
 
-The constructed lines must meet the requirements of the statement [INSERT](javascript:call_link\('abapinsert_itab.htm'\)) for inserting work areas using table keys and therefore be compatible with the line type, with one exception: when constructing a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") where the lines are only appended anyway, the value can be shorter than the line length for line types c and x and then padded on the right with blanks or hexadecimal 0.
+The constructed lines must meet the requirements of the statement [INSERT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_itab.htm) for inserting work areas using table keys and therefore be compatible with the line type, with one exception: when constructing a [standard table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_table_glosry.htm "Glossary Entry") where the lines are only appended anyway, the value can be shorter than the line length for line types c and x and then padded on the right with blanks or hexadecimal 0.
 
 Hints
 
--   When a constructor expression is assigned to a reference variable using NEW, the original reference is available in the entire expression in the target variable. The target variable is not overwritten until the expression is completed. In the case of the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)), however, the target variable can only be assigned to a helper variable using LET and is then no longer available.
--   The operand type for [line\_spec](javascript:call_link\('abennew_constructor_params_lspc.htm'\)) in the inner parentheses is the line type of the table type specified using dtype or # and is always uniquely identifiable. Constructor expressions at this position can therefore always derive the required data type using #.
+-   When a constructor expression is assigned to a reference variable using NEW, the original reference is available in the entire expression in the target variable. The target variable is not overwritten until the expression is completed. In the case of the value operator [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_constructor_params_itab.htm), however, the target variable can only be assigned to a helper variable using LET and is then no longer available.
+-   The operand type for [line\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm) in the inner parentheses is the line type of the table type specified using dtype or # and is always uniquely identifiable. Constructor expressions at this position can therefore always derive the required data type using #.
 
 Example
 
@@ -370,7 +318,7 @@ dref = NEW t\_itab( ( col1 = 1
 
 Examples
 
-See also the examples for the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)).
+See also the examples for the value operator [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_constructor_params_itab.htm).
 
 Addition 1   
 
@@ -378,11 +326,11 @@ Addition 1  
 
 Effect
 
-An addition, BASE, followed by an internal table, itab, can be specified in front of the specification of lines to be inserted. itab is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry"). The line type of itab must be convertible to the line type of the return value. If BASE is specified, the content of itab is assigned to the return value before the individual lines are inserted. If the character # is specified for the type of the return value and the type cannot be determined from the operand position of the constructor expression, the type of itab is used for this expression if it is known.
+An addition, BASE, followed by an internal table, itab, can be specified in front of the specification of lines to be inserted. itab is a [functional operand position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunctional_position_glosry.htm "Glossary Entry"). The line type of itab must be convertible to the line type of the return value. If BASE is specified, the content of itab is assigned to the return value before the individual lines are inserted. If the character # is specified for the type of the return value and the type cannot be determined from the operand position of the constructor expression, the type of itab is used for this expression if it is known.
 
 Example
 
-Construction of three anonymous internal tables with an elementary line type. The first table is filled with three lines, whereby the second inserted line is initial. The second and third tables are filled with the lines of the first table and three further lines. Using BASE and [LINES OF](javascript:call_link\('abennew_constructor_params_lspc.htm'\)) has the same effect here.
+Construction of three anonymous internal tables with an elementary line type. The first table is filled with three lines, whereby the second inserted line is initial. The second and third tables are filled with the lines of the first table and three further lines. Using BASE and [LINES OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm) has the same effect here.
 
 TYPES t\_itab TYPE TABLE OF i WITH EMPTY KEY.
 DATA(dref1) = NEW t\_itab( ( 1 ) (  ) ( 3 ) ).
@@ -400,16 +348,16 @@ Addition 2  
 
 Effect
 
-If one or more [iteration expressions](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") are specified consecutively using [FOR](javascript:call_link\('abenfor.htm'\)), the lines constructed in [line\_spec](javascript:call_link\('abennew_constructor_params_lspc.htm'\)) for each iteration of the last FOR expression are inserted into the target table. When constructing table lines in [line\_spec](javascript:call_link\('abennew_constructor_params_lspc.htm'\)), the visible local work areas and field symbols of the iteration expressions can be used to construct table lines.
+If one or more [iteration expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeniteration_expression_glosry.htm "Glossary Entry") are specified consecutively using [FOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor.htm), the lines constructed in [line\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm) for each iteration of the last FOR expression are inserted into the target table. When constructing table lines in [line\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm), the visible local work areas and field symbols of the iteration expressions can be used to construct table lines.
 
--   If [conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) are used, the new table lines are created in freely definable iteration steps.
--   If [table iterations](javascript:call_link\('abenfor_itab.htm'\)) are used, the lines of existing internal tables are evaluated. In this case, these are known as [table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry"), since new table lines are constructed from the lines of existing internal tables.
+-   If [conditional iterations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor_conditional.htm) are used, the new table lines are created in freely definable iteration steps.
+-   If [table iterations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor_itab.htm) are used, the lines of existing internal tables are evaluated. In this case, these are known as [table comprehensions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_comprehension_glosry.htm "Glossary Entry"), since new table lines are constructed from the lines of existing internal tables.
 
 Hints
 
 -   The term "table comprehension" is derived from similar concepts used in many other languages, where it is also referred to as "list comprehension".
--   [Table filtering](javascript:call_link\('abentable_filtering_glosry.htm'\) "Glossary Entry") can be achieved more efficiently using the [filter operator](javascript:call_link\('abenfilter_operator_glosry.htm'\) "Glossary Entry") [FILTER](javascript:call_link\('abenconstructor_expression_filter.htm'\)).
--   Conditional iterations and table comprehensions are also possible with [FOR expressions](javascript:call_link\('abenmesh_for.htm'\)) for [mesh paths](javascript:call_link\('abenmesh_path_glosry.htm'\) "Glossary Entry").
+-   [Table filtering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_filtering_glosry.htm "Glossary Entry") can be achieved more efficiently using the [filter operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfilter_operator_glosry.htm "Glossary Entry") [FILTER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_filter.htm).
+-   Conditional iterations and table comprehensions are also possible with [FOR expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmesh_for.htm) for [mesh paths](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmesh_path_glosry.htm "Glossary Entry").
 
 Example
 
@@ -422,20 +370,13 @@ cl\_demo\_output=>display( dref->\* ).
 
 Executable Examples
 
-[Examples of Table Comprehensions](javascript:call_link\('abentable_comprehensions_abexas.htm'\))
+[Examples of Table Comprehensions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_comprehensions_abexas.htm)
 
 Continue
-[NEW, line\_spec](javascript:call_link\('abennew_constructor_params_lspc.htm'\))
+[NEW, line\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm)
 
-
-
-**📖 Source**: [abennew_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm)
 
 ### abennew_constructor_params_lspc.htm
-
-> **📖 Official SAP Documentation**: [abennew_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -443,7 +384,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [NEW, Instance Operator](javascript:call_link\('abenconstructor_expression_new.htm'\)) →  [NEW, Internal Tables](javascript:call_link\('abennew_constructor_params_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_objects.htm) →  [NEW, Instance Operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm) →  [NEW, Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm) → 
 
 NEW, line\_spec
 
@@ -459,7 +400,7 @@ Alternatives:
 
 Effect
 
-Specification of one or more lines to be inserted when constructing an internal table with the instance operator [NEW](javascript:call_link\('abennew_constructor_params_itab.htm'\)).
+Specification of one or more lines to be inserted when constructing an internal table with the instance operator [NEW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm).
 
 Alternative 1   
 
@@ -467,7 +408,7 @@ Alternative 1  
 
 Effect
 
-Specification of a line. For line, the exact same specifications can be made as in the parentheses of an expression [NEW line\_type( ... )](javascript:call_link\('abenconstructor_expression_new.htm'\)), where line\_type is the line type of the internal table and a corresponding line is constructed. The following special features apply here:
+Specification of a line. For line, the exact same specifications can be made as in the parentheses of an expression [NEW line\_type( ... )](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm), where line\_type is the line type of the internal table and a corresponding line is constructed. The following special features apply here:
 
 -   If a data object is specified for line, this object must be compatible with the line type.
 -   If an expression (built-in function, functional method, calculation expression, constructor expression, or table expression) is specified for line, the result of the expression must be convertible to the line type.
@@ -497,12 +438,12 @@ NEW dtype*|*#( *\[*let\_exp*\]*
              ( col1 = dobj31 col2 = dobj32 ... col3 = dobj43 ... )
              ... ).
 
-Values can be assigned to individual structure components outside of the inner parentheses. An assignment of this type applies to all subsequent inner parentheses until the next assignment is made to the corresponding component. Assignments outside of the inner parentheses must be followed by at least one inner parenthesis. Since a component cannot be assigned a value more than once in the [construction of a structure](javascript:call_link\('abennew_constructor_params_struct.htm'\)), a component that has been assigned a value outside of the inner parentheses can no longer be listed in an inner parenthesis. A component can be specified again outside the inner parentheses and any components previously specified in an inner parenthesis can also be listed outside the parenthesis.
+Values can be assigned to individual structure components outside of the inner parentheses. An assignment of this type applies to all subsequent inner parentheses until the next assignment is made to the corresponding component. Assignments outside of the inner parentheses must be followed by at least one inner parenthesis. Since a component cannot be assigned a value more than once in the [construction of a structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_struct.htm), a component that has been assigned a value outside of the inner parentheses can no longer be listed in an inner parenthesis. A component can be specified again outside the inner parentheses and any components previously specified in an inner parenthesis can also be listed outside the parenthesis.
 
 Hints
 
--   The restriction that the content of tabular line types cannot be constructed directly in line applies for reasons of legibility (for humans and for machines) and is not a functional restriction. The expression [VALUE line\_type( ... )](javascript:call_link\('abenconstructor_expression_value.htm'\)) can be specified for line to construct the content of a tabular line, where line\_type is the tabular line type.
--   The compatibility requirement for the line type can be met by specifying [CONV line\_type( ... )](javascript:call_link\('abenconstructor_expression_conv.htm'\)) for the values to be inserted.
+-   The restriction that the content of tabular line types cannot be constructed directly in line applies for reasons of legibility (for humans and for machines) and is not a functional restriction. The expression [VALUE line\_type( ... )](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_value.htm) can be specified for line to construct the content of a tabular line, where line\_type is the tabular line type.
+-   The compatibility requirement for the line type can be met by specifying [CONV line\_type( ... )](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_conv.htm) for the values to be inserted.
 -   The short form for structured line types enables columns of internal tables that are to contain an identical value in blocks to be filled more easily.
 
 Example
@@ -529,13 +470,13 @@ Alternative 2  
 
 Effect
 
-Specification of multiple lines. The lines are taken from the internal table jtab and inserted into the target table as a block. The same applies to jtab and the additions FROM, TO, and USING KEY as to the addition [LINES OF](javascript:call_link\('abapinsert_itab_linespec.htm'\)) of the statement [INSERT](javascript:call_link\('abapinsert_itab.htm'\)) and the block is inserted in accordance with these rules. jtab is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry").
+Specification of multiple lines. The lines are taken from the internal table jtab and inserted into the target table as a block. The same applies to jtab and the additions FROM, TO, and USING KEY as to the addition [LINES OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_itab_linespec.htm) of the statement [INSERT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_itab.htm) and the block is inserted in accordance with these rules. jtab is a [functional operand position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunctional_position_glosry.htm "Glossary Entry").
 
 Hints
 
 -   Since the lines from jtab are inserted into the target table using only the table key, jtab must be compatible with the target type.
--   If there is a conflict with an existing unique table key, an uncatchable exception is always raised when inserting multiple lines from an internal table using the statement [INSERT](javascript:call_link\('abapinsert_itab.htm'\)).
--   When standard tables are created, the lines of the table jtab are appended to the target table in the same way as with the statement [APPEND LINES OF](javascript:call_link\('abapappend_linespec.htm'\)).
+-   If there is a conflict with an existing unique table key, an uncatchable exception is always raised when inserting multiple lines from an internal table using the statement [INSERT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_itab.htm).
+-   When standard tables are created, the lines of the table jtab are appended to the target table in the same way as with the statement [APPEND LINES OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapappend_linespec.htm).
 
 Example
 
@@ -555,14 +496,7 @@ itab = NEW #( ( LINES OF alpha FROM 1 to 3 )
 cl\_demo\_output=>display( itab->\* ).
 
 
-
-**📖 Source**: [abennew_constructor_params_lspc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm)
-
 ### abennew_constructor_params_itab.htm
-
-> **📖 Official SAP Documentation**: [abennew_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -570,19 +504,19 @@ cl\_demo\_output=>display( itab->\* ).
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [NEW, Instance Operator](javascript:call_link\('abenconstructor_expression_new.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_objects.htm) →  [NEW, Instance Operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm) → 
 
 NEW, Internal Tables
 
 Syntax
 
-... NEW dtype*|*#( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]*
+... NEW dtype*|*#( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm)*\]*
                  *\[*BASE itab*\]*
-                 *\[*[FOR for\_exp1](javascript:call_link\('abenfor.htm'\))
-                  [FOR for\_exp2](javascript:call_link\('abenfor.htm'\))
+                 *\[*[FOR for\_exp1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor.htm)
+                  [FOR for\_exp2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor.htm)
                   ... *\]*
-                 ( [line\_spec1](javascript:call_link\('abennew_constructor_params_lspc.htm'\)) )
-                 ( [line\_spec2](javascript:call_link\('abennew_constructor_params_lspc.htm'\)) )
+                 ( [line\_spec1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm) )
+                 ( [line\_spec2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm) )
                    ... ) ...
 
 Additions:
@@ -594,17 +528,17 @@ Effect
 
 If dtype is a tabular data type or # stands for such a type, the table lines of the constructed table are created as follows:
 
--   The first option is to list a LET expression [let\_exp](javascript:call_link\('abaplet.htm'\)) to define local helper fields whose values can be used to construct the table lines.
+-   The first option is to list a LET expression [let\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm) to define local helper fields whose values can be used to construct the table lines.
 -   An optional start value for the content can then be specified for the content of the internal table after BASE (see below).
--   One or more optional consecutive [iteration expressions](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") can then be specified using [FOR](javascript:call_link\('abenfor.htm'\)) (see below).
--   The table lines are then constructed in one or more sets of internal parentheses by specifying [line\_spec](javascript:call_link\('abennew_constructor_params_lspc.htm'\)). Each set of inner parentheses constructs one or more lines in accordance with the information in line\_spec and inserts them into the new internal table according to the rules for the statement [INSERT](javascript:call_link\('abapinsert_itab.htm'\)) ... [INTO TABLE](javascript:call_link\('abapinsert_itab_position.htm'\)). The object is inserted in the order of the parentheses.
+-   One or more optional consecutive [iteration expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeniteration_expression_glosry.htm "Glossary Entry") can then be specified using [FOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor.htm) (see below).
+-   The table lines are then constructed in one or more sets of internal parentheses by specifying [line\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm). Each set of inner parentheses constructs one or more lines in accordance with the information in line\_spec and inserts them into the new internal table according to the rules for the statement [INSERT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_itab.htm) ... [INTO TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_itab_position.htm). The object is inserted in the order of the parentheses.
 
-The constructed lines must meet the requirements of the statement [INSERT](javascript:call_link\('abapinsert_itab.htm'\)) for inserting work areas using table keys and therefore be compatible with the line type, with one exception: when constructing a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") where the lines are only appended anyway, the value can be shorter than the line length for line types c and x and then padded on the right with blanks or hexadecimal 0.
+The constructed lines must meet the requirements of the statement [INSERT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_itab.htm) for inserting work areas using table keys and therefore be compatible with the line type, with one exception: when constructing a [standard table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_table_glosry.htm "Glossary Entry") where the lines are only appended anyway, the value can be shorter than the line length for line types c and x and then padded on the right with blanks or hexadecimal 0.
 
 Hints
 
--   When a constructor expression is assigned to a reference variable using NEW, the original reference is available in the entire expression in the target variable. The target variable is not overwritten until the expression is completed. In the case of the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)), however, the target variable can only be assigned to a helper variable using LET and is then no longer available.
--   The operand type for [line\_spec](javascript:call_link\('abennew_constructor_params_lspc.htm'\)) in the inner parentheses is the line type of the table type specified using dtype or # and is always uniquely identifiable. Constructor expressions at this position can therefore always derive the required data type using #.
+-   When a constructor expression is assigned to a reference variable using NEW, the original reference is available in the entire expression in the target variable. The target variable is not overwritten until the expression is completed. In the case of the value operator [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_constructor_params_itab.htm), however, the target variable can only be assigned to a helper variable using LET and is then no longer available.
+-   The operand type for [line\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm) in the inner parentheses is the line type of the table type specified using dtype or # and is always uniquely identifiable. Constructor expressions at this position can therefore always derive the required data type using #.
 
 Example
 
@@ -634,7 +568,7 @@ dref = NEW t\_itab( ( col1 = 1
 
 Examples
 
-See also the examples for the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)).
+See also the examples for the value operator [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_constructor_params_itab.htm).
 
 Addition 1   
 
@@ -642,11 +576,11 @@ Addition 1  
 
 Effect
 
-An addition, BASE, followed by an internal table, itab, can be specified in front of the specification of lines to be inserted. itab is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry"). The line type of itab must be convertible to the line type of the return value. If BASE is specified, the content of itab is assigned to the return value before the individual lines are inserted. If the character # is specified for the type of the return value and the type cannot be determined from the operand position of the constructor expression, the type of itab is used for this expression if it is known.
+An addition, BASE, followed by an internal table, itab, can be specified in front of the specification of lines to be inserted. itab is a [functional operand position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunctional_position_glosry.htm "Glossary Entry"). The line type of itab must be convertible to the line type of the return value. If BASE is specified, the content of itab is assigned to the return value before the individual lines are inserted. If the character # is specified for the type of the return value and the type cannot be determined from the operand position of the constructor expression, the type of itab is used for this expression if it is known.
 
 Example
 
-Construction of three anonymous internal tables with an elementary line type. The first table is filled with three lines, whereby the second inserted line is initial. The second and third tables are filled with the lines of the first table and three further lines. Using BASE and [LINES OF](javascript:call_link\('abennew_constructor_params_lspc.htm'\)) has the same effect here.
+Construction of three anonymous internal tables with an elementary line type. The first table is filled with three lines, whereby the second inserted line is initial. The second and third tables are filled with the lines of the first table and three further lines. Using BASE and [LINES OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm) has the same effect here.
 
 TYPES t\_itab TYPE TABLE OF i WITH EMPTY KEY.
 DATA(dref1) = NEW t\_itab( ( 1 ) (  ) ( 3 ) ).
@@ -664,16 +598,16 @@ Addition 2  
 
 Effect
 
-If one or more [iteration expressions](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") are specified consecutively using [FOR](javascript:call_link\('abenfor.htm'\)), the lines constructed in [line\_spec](javascript:call_link\('abennew_constructor_params_lspc.htm'\)) for each iteration of the last FOR expression are inserted into the target table. When constructing table lines in [line\_spec](javascript:call_link\('abennew_constructor_params_lspc.htm'\)), the visible local work areas and field symbols of the iteration expressions can be used to construct table lines.
+If one or more [iteration expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeniteration_expression_glosry.htm "Glossary Entry") are specified consecutively using [FOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor.htm), the lines constructed in [line\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm) for each iteration of the last FOR expression are inserted into the target table. When constructing table lines in [line\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm), the visible local work areas and field symbols of the iteration expressions can be used to construct table lines.
 
--   If [conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) are used, the new table lines are created in freely definable iteration steps.
--   If [table iterations](javascript:call_link\('abenfor_itab.htm'\)) are used, the lines of existing internal tables are evaluated. In this case, these are known as [table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry"), since new table lines are constructed from the lines of existing internal tables.
+-   If [conditional iterations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor_conditional.htm) are used, the new table lines are created in freely definable iteration steps.
+-   If [table iterations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor_itab.htm) are used, the lines of existing internal tables are evaluated. In this case, these are known as [table comprehensions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_comprehension_glosry.htm "Glossary Entry"), since new table lines are constructed from the lines of existing internal tables.
 
 Hints
 
 -   The term "table comprehension" is derived from similar concepts used in many other languages, where it is also referred to as "list comprehension".
--   [Table filtering](javascript:call_link\('abentable_filtering_glosry.htm'\) "Glossary Entry") can be achieved more efficiently using the [filter operator](javascript:call_link\('abenfilter_operator_glosry.htm'\) "Glossary Entry") [FILTER](javascript:call_link\('abenconstructor_expression_filter.htm'\)).
--   Conditional iterations and table comprehensions are also possible with [FOR expressions](javascript:call_link\('abenmesh_for.htm'\)) for [mesh paths](javascript:call_link\('abenmesh_path_glosry.htm'\) "Glossary Entry").
+-   [Table filtering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_filtering_glosry.htm "Glossary Entry") can be achieved more efficiently using the [filter operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfilter_operator_glosry.htm "Glossary Entry") [FILTER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_filter.htm).
+-   Conditional iterations and table comprehensions are also possible with [FOR expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmesh_for.htm) for [mesh paths](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmesh_path_glosry.htm "Glossary Entry").
 
 Example
 
@@ -686,23 +620,13 @@ cl\_demo\_output=>display( dref->\* ).
 
 Executable Examples
 
-[Examples of Table Comprehensions](javascript:call_link\('abentable_comprehensions_abexas.htm'\))
+[Examples of Table Comprehensions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_comprehensions_abexas.htm)
 
 Continue
-[NEW, line\_spec](javascript:call_link\('abennew_constructor_params_lspc.htm'\))
+[NEW, line\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_lspc.htm)
 
-
-
-**📖 Source**: [abennew_constructor_params_itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_itab.htm)
 
 ### abennew_constructor_params_class.htm
-
-> **📖 Official SAP Documentation**: [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_class.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abennew_constructor_params_class.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_class.htm)
-
 
   
 
@@ -710,30 +634,30 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [NEW, Instance Operator](javascript:call_link\('abenconstructor_expression_new.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_objects.htm) →  [NEW, Instance Operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm) → 
 
 NEW, Classes
 
 Syntax
 
-... NEW class*|*#( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]* p1 = a1 p2 = a2 .. ) ...
+... NEW class*|*#( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm)*\]* p1 = a1 p2 = a2 .. ) ...
 
 Effect
 
-If a class class is specified or # stands for a class like this, the non-optional input parameters p1 p2 ... of the instance constructor of the instantiated class must be filled with the type-compliant actual parameters a1 a2 ... The optional input parameters do not need to but can be filled. The description of the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_parameters.htm'\)) specifies how parameters are passed and which classes can be used. [No parameters](javascript:call_link\('abennew_constructor_params_initial.htm'\)) are passed for a class without an explicit instance constructor. An optional LET expression [let\_exp](javascript:call_link\('abaplet.htm'\)) can be specified in front of the parameter to define local helper fields.
+If a class class is specified or # stands for a class like this, the non-optional input parameters p1 p2 ... of the instance constructor of the instantiated class must be filled with the type-compliant actual parameters a1 a2 ... The optional input parameters do not need to but can be filled. The description of the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object_parameters.htm) specifies how parameters are passed and which classes can be used. [No parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennew_constructor_params_initial.htm) are passed for a class without an explicit instance constructor. An optional LET expression [let\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm) can be specified in front of the parameter to define local helper fields.
 
-Like an object reference variable of the type class, a constructor expression NEW class( ... ) can be specified in front of the [object component selector](javascript:call_link\('abenobject_component_select_glosry.htm'\) "Glossary Entry") \-> and in [chained attribute accesses](javascript:call_link\('abenchained_attribute_acc_glosry.htm'\) "Glossary Entry") and [chained method calls](javascript:call_link\('abenchained_method_call_glosry.htm'\) "Glossary Entry"). A chained method call of this type can be specified as a [standalone statement](javascript:call_link\('abapcall_method_static_chain.htm'\)). The result is then preserved for the duration of the statement. Even a single expression without a subsequent object component selector can be executed as a standalone statement. In this case, only the constructor that has a reference to the created object elsewhere is executed if this object needs to be preserved.
+Like an object reference variable of the type class, a constructor expression NEW class( ... ) can be specified in front of the [object component selector](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobject_component_select_glosry.htm "Glossary Entry") \-> and in [chained attribute accesses](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchained_attribute_acc_glosry.htm "Glossary Entry") and [chained method calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchained_method_call_glosry.htm "Glossary Entry"). A chained method call of this type can be specified as a [standalone statement](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_static_chain.htm). The result is then preserved for the duration of the statement. Even a single expression without a subsequent object component selector can be executed as a standalone statement. In this case, only the constructor that has a reference to the created object elsewhere is executed if this object needs to be preserved.
 
 In the special case of an attribute access NEW class( ... )->attr, the following applies:
 
--   It can be specified as a [writable expression](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") in a [result position](javascript:call_link\('abenresult_position_glosry.htm'\) "Glossary Entry").
--   If the data type is suitable, a [specified offset/length](javascript:call_link\('abenoffset_length_specific_glosry.htm'\) "Glossary Entry") [+off(len)](javascript:call_link\('abenoffset_length.htm'\)) can be appended unless the chaining uses the statement ASSIGN as a [memory area](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)).
+-   It can be specified as a [writable expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwritable_expression_glosry.htm "Glossary Entry") in a [result position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenresult_position_glosry.htm "Glossary Entry").
+-   If the data type is suitable, a [specified offset/length](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoffset_length_specific_glosry.htm "Glossary Entry") [+off(len)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoffset_length.htm) can be appended unless the chaining uses the statement ASSIGN as a [memory area](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_mem_area_writable_exp.htm).
 
-[Method chainings](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry") cannot be specified between the constructor expression and the attribute here.
+[Method chainings](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethod_chaining_glosry.htm "Glossary Entry") cannot be specified between the constructor expression and the attribute here.
 
 Hints
 
--   This is a functional call of the instance constructor. As in [function calls](javascript:call_link\('abapcall_method_functional.htm'\)) of [functional methods](javascript:call_link\('abapmethods_functional.htm'\)), no [non-class-based exceptions](javascript:call_link\('abenexceptions_non_class.htm'\)) can be handled.
+-   This is a functional call of the instance constructor. As in [function calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_functional.htm) of [functional methods](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_functional.htm), no [non-class-based exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexceptions_non_class.htm) can be handled.
 -   When the instance constructor is called, the return code sy-subrc is set to 0. Values other than 0 are not possible, since non-class-based exceptions cannot be handled.
 
 Example

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Complexity](javascript:call_link\('abencomplexity_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_style_gdl.htm) →  [Complexity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomplexity_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Dead%20Code%2C%20ABENDEAD_CODE_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -24,11 +24,11 @@ Details  
 
 Although dead code does not affect the executed program parts directly, it still has a negative impact on the product. Program parts that cannot be accessed during program execution do not provide any benefit. Instead they cause increased costs in the course of a program lifecycle because they must be identified as unused for maintenance and further development purposes. The worst case scenario is that if these program parts are not immediately recognized as unused, they will be reused or modified during further developments or refactoring measures. A lot of time and effort is wasted making changes to unused code. In addition, these program parts increase the space required in the program buffer during program execution.
 
-Dead code also interferes with the aim of maximum [test coverage](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline") by unit tests using ABAP Unit or scenario tests using eCATT. Code not used in the live system is either tested, which is very time-consuming, or is not tested, which results in poor test coverage. Unused and inaccessible program parts must therefore be identified and removed as quickly as possible.
+Dead code also interferes with the aim of maximum [test coverage](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorrectness_quality_guidl.htm "Guideline") by unit tests using ABAP Unit or scenario tests using eCATT. Code not used in the live system is either tested, which is very time-consuming, or is not tested, which results in poor test coverage. Unused and inaccessible program parts must therefore be identified and removed as quickly as possible.
 
 Note
 
-[Check tools](javascript:call_link\('abencheck_correctness_gdl.htm'\)) indicate dead code if it can be identified. Examples:
+[Check tools](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencheck_correctness_gdl.htm) indicate dead code if it can be identified. Examples:
 
 -   The syntax check warns you about unused private methods of local classes.
 -   The extended program check warns you about unused declarations or statement blocks in control structures that can never be accessed.

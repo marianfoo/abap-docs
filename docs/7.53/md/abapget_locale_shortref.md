@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  G
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  G
 
 GET LOCALE LANGUAGE - Quick reference
 
-[Reference](javascript:call_link\('abapget_locale.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_locale.htm)
 
 Syntax
 
@@ -16,15 +16,15 @@ GET LOCALE LANGUAGE lang COUNTRY cntry MODIFIER mod.
 
 Effect
 
-Determines the current [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry").
+Determines the current [text environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment_glosry.htm "Glossary Entry").
 
 Additions
 
 -   LANGUAGE lang
     Returns the language key in lang.
     
--   [COUNTRY cntry](javascript:call_link\('abapget_locale_obsolete.htm'\))
+-   [COUNTRY cntry](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_locale_obsolete.htm)
     Obsolete: Content of cntry is undefined.
     
--   [MODIFIER mod](javascript:call_link\('abapget_locale_obsolete.htm'\))
+-   [MODIFIER mod](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_locale_obsolete.htm)
     Obsolete: Initializes mod.

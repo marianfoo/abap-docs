@@ -4,18 +4,18 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) →  [Access to Objects in SAP HANA XS](javascript:call_link\('abensap_hana_access.htm'\)) →  [Access to SAP HANA XSC Objects](javascript:call_link\('abensap_hana_access_xsc.htm'\)) →  [Database Procedure Proxies for SQLScript Procedures in the SAP HANA Repository](javascript:call_link\('abensql_script.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_hana.htm) →  [Access to Objects in SAP HANA XS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_hana_access.htm) →  [Access to SAP HANA XSC Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_hana_access_xsc.htm) →  [Database Procedure Proxies for SQLScript Procedures in the SAP HANA Repository](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_script.htm) → 
 
 CALL DATABASE PROCEDURE
 
-[Short Reference](javascript:call_link\('abapcall_db_procedure_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_db_procedure_shortref.htm)
 
 Syntax
 
 CALL DATABASE PROCEDURE
-    *{*  proxy       *\[*CONNECTION con*|*(con\_syntax)*\]* [parameter\_list](javascript:call_link\('abapcall_db_proc_parameters.htm'\)) *}*
-  *|* *{* (proxy\_name) *\[*CONNECTION con*|*(con\_syntax)*\]* *{* [parameter\_list](javascript:call_link\('abapcall_db_proc_parameters.htm'\))
-*|*[parameter\_table*}*](javascript:call_link\('abapcall_db_proc_parameter_tables.htm'\)) *}*.
+    *{*  proxy       *\[*CONNECTION con*|*(con\_syntax)*\]* [parameter\_list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_db_proc_parameters.htm) *}*
+  *|* *{* (proxy\_name) *\[*CONNECTION con*|*(con\_syntax)*\]* *{* [parameter\_list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_db_proc_parameters.htm)
+*|*[parameter\_table*}*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_db_proc_parameter_tables.htm) *}*.
 
 Addition:
 
@@ -23,13 +23,13 @@ Addition:
 
 Effect
 
-This statement calls a [database procedure](javascript:call_link\('abendatabase_procedure_glosry.htm'\) "Glossary Entry") written in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry") ([SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry")) on an [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry").
+This statement calls a [database procedure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_procedure_glosry.htm "Glossary Entry") written in [SQLScript](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_script_glosry.htm "Glossary Entry") ([SQLScript procedure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_script_procedure_glosry.htm "Glossary Entry")) on an [SAP HANA database](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_database_glosry.htm "Glossary Entry").
 
 -   If the addition CONNECTION is not specified, the statement can only be executed in a system on the SAP HANA database.
 
--   If the addition CONNECTION is specified, the statement can be executed in every system with a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") to an SAP HANA database.
+-   If the addition CONNECTION is specified, the statement can be executed in every system with a [secondary connection](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") to an SAP HANA database.
 
-The SQLScript procedure is specified using a [database procedure proxy](javascript:call_link\('abendatabase_procedure_proxy.htm'\)) defined for it. The proxy can be specified as follows:
+The SQLScript procedure is specified using a [database procedure proxy](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_procedure_proxy.htm) defined for it. The proxy can be specified as follows:
 
 -   proxy
 
@@ -47,17 +47,17 @@ Specified as the uppercase content of a parenthesized character-like data object
 
 When the statement is executed, proxy\_name is not evaluated until runtime (in both cases).
 
-The actual parameters for the input and output parameters of the procedure are either specified statically using [parameter\_list](javascript:call_link\('abapcall_db_proc_parameters.htm'\)) or dynamically using [parameter\_table](javascript:call_link\('abapcall_db_proc_parameters.htm'\)).
+The actual parameters for the input and output parameters of the procedure are either specified statically using [parameter\_list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_db_proc_parameters.htm) or dynamically using [parameter\_table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_db_proc_parameters.htm).
 
 Hints
 
--   The names of the database procedure proxy and database procedure interface can be chosen at will. Usually, the database procedure interface has the name of the database procedure proxy with the prefix IF\_, and any additional [namespace prefix](javascript:call_link\('abenname_space_prefix_glosry.htm'\) "Glossary Entry").
+-   The names of the database procedure proxy and database procedure interface can be chosen at will. Usually, the database procedure interface has the name of the database procedure proxy with the prefix IF\_, and any additional [namespace prefix](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenname_space_prefix_glosry.htm "Glossary Entry").
 
--   The constant CALL\_DATABASE\_PROCEDURE of the class [CL\_ABAP\_DBFEATURES](javascript:call_link\('abencl_abap_dbfeatures.htm'\)) can be used to query the current database procedure proxies.
+-   The constant CALL\_DATABASE\_PROCEDURE of the class [CL\_ABAP\_DBFEATURES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_abap_dbfeatures.htm) can be used to query the current database procedure proxies.
 
--   [ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) (AMDP) are a recommended alternative to the statement CALL DATABASE PROCEDURE if the [standard AS ABAP database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") is an SAP HANA database. From AMDP, any database procedures of the standard database can be called. This makes the use of database procedure proxies superfluous as long as a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") is not used to access another SAP HANA database.
+-   [ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp.htm) (AMDP) are a recommended alternative to the statement CALL DATABASE PROCEDURE if the [standard AS ABAP database](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstandard_db_glosry.htm "Glossary Entry") is an SAP HANA database. From AMDP, any database procedures of the standard database can be called. This makes the use of database procedure proxies superfluous as long as a [secondary connection](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") is not used to access another SAP HANA database.
 
--   No database procedure proxies can be used for SQLScript procedures in [SAP HANA XSA](javascript:call_link\('abenxsa_glosry.htm'\) "Glossary Entry"). Alternative methods such as [AMDP](javascript:call_link\('abenamdp.htm'\)) or [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry") must be used instead.
+-   No database procedure proxies can be used for SQLScript procedures in [SAP HANA XSA](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenxsa_glosry.htm "Glossary Entry"). Alternative methods such as [AMDP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp.htm) or [ADBC](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadbc_glosry.htm "Glossary Entry") must be used instead.
     
 
 Addition
@@ -66,13 +66,13 @@ Addition
 
 Effect
 
-The SQLScript procedure is not executed on the [standard connection](javascript:call_link\('abenstandard_db_connection_glosry.htm'\) "Glossary Entry") but on the specified [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") instead. The database connection can be specified statically with con or dynamically as the content of con\_syntax, where the field con\_syntax must belong to the type c or string. The database connection must be specified with a name from the column CON\_NAME in the table DBCON or that begins with the prefix R/3\* and hence represents a [service connection](javascript:call_link\('abenservice_connection_glosry.htm'\) "Glossary Entry") to the standard database.
+The SQLScript procedure is not executed on the [standard connection](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry") but on the specified [secondary connection](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") instead. The database connection can be specified statically with con or dynamically as the content of con\_syntax, where the field con\_syntax must belong to the type c or string. The database connection must be specified with a name from the column CON\_NAME in the table DBCON or that begins with the prefix R/3\* and hence represents a [service connection](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenservice_connection_glosry.htm "Glossary Entry") to the standard database.
 
 Hints
 
 -   The specified database procedure proxy for the database procedure of the secondary connection must exist in the current system.
 
--   Entries in the DDIC database table DBCON can only be created and modified using the [DBA Cockpit](javascript:call_link\('abendba_cockpit_glosry.htm'\) "Glossary Entry") tool.
+-   Entries in the DDIC database table DBCON can only be created and modified using the [DBA Cockpit](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendba_cockpit_glosry.htm "Glossary Entry") tool.
 
 -   The use of CALL DATABASE PROCEDURE with the addition CONNECTION is recommended in all scenarios in which existing database procedures are used in an SAP HANA database that is not the current standard AS ABAP database (side-by-side scenario).
     
@@ -287,9 +287,9 @@ ENDIF.
 
 Executable Example
 
-The example [Database Procedure Call](javascript:call_link\('abencall_db_procedure_abexa.htm'\)) uses a database procedure proxy created in the program to call a SQLScript procedure created using [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry").
+The example [Database Procedure Call](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_db_procedure_abexa.htm) uses a database procedure proxy created in the program to call a SQLScript procedure created using [ADBC](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadbc_glosry.htm "Glossary Entry").
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -356,6 +356,6 @@ Uncatchable Exceptions
     Runtime error: DBPROC\_OUT\_NOT\_WRITABLE
 
 Continue
-[CALL DATABASE PROCEDURE, parameter\_list](javascript:call_link\('abapcall_db_proc_parameters.htm'\))
-[CALL DATABASE PROCEDURE, parameter\_table](javascript:call_link\('abapcall_db_proc_parameter_tables.htm'\))
-![Example](exa.gif "Example") [SAP HANA, Database Procedure Proxy](javascript:call_link\('abencall_db_procedure_abexa.htm'\))
+[CALL DATABASE PROCEDURE, parameter\_list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_db_proc_parameters.htm)
+[CALL DATABASE PROCEDURE, parameter\_table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_db_proc_parameter_tables.htm)
+![Example](exa.gif "Example") [SAP HANA, Database Procedure Proxy](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_db_procedure_abexa.htm)

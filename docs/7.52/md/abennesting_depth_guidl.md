@@ -4,13 +4,13 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Complexity](javascript:call_link\('abencomplexity_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructure_style_guidl.htm) →  [Complexity](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomplexity_guidl.htm) → 
 
 Nesting Depth
 
 Background
 
-The nesting depth is the number of statement blocks that are nested due to the use of control structures (branches, loops). We will discuss the nesting depth at the level of a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")). [Implementations must not](javascript:call_link\('abendial_mod_event_block_guidl.htm'\) "Guideline") occur at other points.
+The nesting depth is the number of statement blocks that are nested due to the use of control structures (branches, loops). We will discuss the nesting depth at the level of a procedure ([method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")). [Implementations must not](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendial_mod_event_block_guidl.htm "Guideline") occur at other points.
 
 The maximum nesting depth is restricted to 256 by ABAP Compiler.
 
@@ -18,11 +18,11 @@ Rule
 
 Restrict the nesting depth of control structures
 
-Restrict the maximum nesting depth within a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) to five levels.
+Restrict the maximum nesting depth within a procedure ([method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) to five levels.
 
 Details
 
-In addition to the [number of executable statements](javascript:call_link\('abenproc_volume_guidl.htm'\) "Guideline"), the control structures of a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) are also important for their clarity and traceability. Nested branches and loops (IF, CASE, DO, WHILE, LOOP statements, etc.) become less clear and more difficult to trace with every nesting level. For this reason, the nesting depth must be restricted within a procedure, for example by moving functions to other procedures.
+In addition to the [number of executable statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenproc_volume_guidl.htm "Guideline"), the control structures of a procedure ([method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) are also important for their clarity and traceability. Nested branches and loops (IF, CASE, DO, WHILE, LOOP statements, etc.) become less clear and more difficult to trace with every nesting level. For this reason, the nesting depth must be restricted within a procedure, for example by moving functions to other procedures.
 
 A maximum nesting depth of five levels is considered tolerable. A deeper nesting requires a great deal of effort to trace the program flow based on the source code. This would considerably constrain maintenance and further development.
 
@@ -32,4 +32,4 @@ The use of modern language elements can help to restrict the maximum nesting dep
 
 Example
 
-The transition from the bad to the good example in the rule for [modern ABAP](javascript:call_link\('abenmodern_abap_guidl.htm'\) "Guideline") shows how you can reduce the nesting depth by using modern language elements.
+The transition from the bad to the good example in the rule for [modern ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodern_abap_guidl.htm "Guideline") shows how you can reduce the nesting depth by using modern language elements.

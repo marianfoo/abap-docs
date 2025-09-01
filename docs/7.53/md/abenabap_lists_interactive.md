@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) → 
 
 Event Blocks for Lists
 
@@ -12,34 +12,34 @@ List events appear during the creation of a list, and following certain user act
 
 The events during list creation,
 
--   [TOP-OF-PAGE](javascript:call_link\('abaptop-of-page.htm'\))
+-   [TOP-OF-PAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptop-of-page.htm)
 
--   [END-OF-PAGE](javascript:call_link\('abapend-of-page.htm'\))
+-   [END-OF-PAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-of-page.htm)
 
 make it possible to define page headers and footers independently of the actual page length, which is particularly helpful for the output of spool lists on different paper formats.
 
 The events following user actions on displayed lists,
 
--   [AT LINE-SELECTION](javascript:call_link\('abapat_line-selection.htm'\))
+-   [AT LINE-SELECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_line-selection.htm)
 
--   [AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\))
+-   [AT USER-COMMAND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_user-command.htm)
 
--   [AT PFnn](javascript:call_link\('abapat_pfnn.htm'\))
+-   [AT PFnn](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_pfnn.htm)
 
 , enable you to create details lists.
 
 The following statement can be used to trigger a list-event in a program-controlled manner:
 
--   [SET USER-COMMAND](javascript:call_link\('abapset_user-command.htm'\))
+-   [SET USER-COMMAND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_user-command.htm)
 
 Notes
 
--   After the execution of each event block for lists, the statement [NEW-LINE](javascript:call_link\('abapnew-line.htm'\)) is executed implicitly as in every [event block](javascript:call_link\('abenevent_blocks.htm'\)).
+-   After the execution of each event block for lists, the statement [NEW-LINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-line.htm) is executed implicitly as in every [event block](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevent_blocks.htm).
 
--   List events can be raised as program-driven events using the statement [SET USER-COMMAND](javascript:call_link\('abapset_user-command.htm'\)), instead of by user action on a displayed list.
+-   List events can be raised as program-driven events using the statement [SET USER-COMMAND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_user-command.htm), instead of by user action on a displayed list.
 
 Continue
-[TOP-OF-PAGE](javascript:call_link\('abaptop-of-page.htm'\))
-[END-OF-PAGE](javascript:call_link\('abapend-of-page.htm'\))
-[AT list\_event](javascript:call_link\('abapat_list_event.htm'\))
-[SET USER-COMMAND](javascript:call_link\('abapset_user-command.htm'\))
+[TOP-OF-PAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptop-of-page.htm)
+[END-OF-PAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-of-page.htm)
+[AT list\_event](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_list_event.htm)
+[SET USER-COMMAND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_user-command.htm)

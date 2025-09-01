@@ -4,19 +4,19 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenleave_program_units.htm) → 
 
 Exiting Loops
 
 The following statements can be used to exit loops:
 
--   [EXIT](javascript:call_link\('abapexit_loop.htm'\))
+-   [EXIT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexit_loop.htm)
 
--   [CONTINUE](javascript:call_link\('abapcontinue.htm'\))
+-   [CONTINUE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcontinue.htm)
 
--   [CHECK](javascript:call_link\('abapcheck_loop.htm'\))
+-   [CHECK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcheck_loop.htm)
 
 Continue
-[EXIT, loop](javascript:call_link\('abapexit_loop.htm'\))
-[CHECK, loop](javascript:call_link\('abapcheck_loop.htm'\))
-[CONTINUE](javascript:call_link\('abapcontinue.htm'\))
+[EXIT, loop](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexit_loop.htm)
+[CHECK, loop](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcheck_loop.htm)
+[CONTINUE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcontinue.htm)

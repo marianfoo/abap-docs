@@ -3,35 +3,7 @@
 Included pages: 12
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenmathematical_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm)
-- [abennumerical_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions.htm)
-- [abenpower_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpower_function.htm)
-- [abennmax_nmin_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_functions.htm)
-- [abenfloating_point_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm)
-- [abendec_floating_point_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendec_floating_point_functions.htm)
-- [abennumerical_functions_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions_abexas.htm)
-- [abenmath_func_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmath_func_abexa.htm)
-- [abenipow_function_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenipow_function_abexa.htm)
-- [abennmax_nmin_function_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_function_abexa.htm)
-- [abenround_function_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenround_function_abexa.htm)
-
-**Bundle Contains**: 11 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.940Z
-
----
-
 ### abenmathematical_functions.htm
-
-> **📖 Official SAP Documentation**: [abenmathematical_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -39,49 +11,42 @@ Included pages: 12
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_expressions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Numeric%20Functions%20%28num_func%29%2C%20ABENMATHEMATICAL_FUNCTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Numeric Functions (num\_func)
 
-Numeric functions are a type of [built-in function](javascript:call_link\('abenbuilt_in_functions.htm'\)). The main argument of a numeric function must represent a numeric value. The data type of the return value is determined either by the argument of the function (overloaded functions) or by the function.
+Numeric functions are a type of [built-in function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm). The main argument of a numeric function must represent a numeric value. The data type of the return value is determined either by the argument of the function (overloaded functions) or by the function.
 
-Outside of an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), the main argument of a numeric function must be a single numeric data object. Within an arithmetic expression, the following are possible as main arguments of a numeric function:
+Outside of an [arithmetic expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), the main argument of a numeric function must be a single numeric data object. Within an arithmetic expression, the following are possible as main arguments of a numeric function:
 
--   [Numeric data object](javascript:call_link\('abennumeric_data_object_glosry.htm'\) "Glossary Entry")
--   [Arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry")
--   [Built-in function](javascript:call_link\('abenbuiltin_function_glosry.htm'\) "Glossary Entry")
--   [Functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry")
+-   [Numeric data object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_object_glosry.htm "Glossary Entry")
+-   [Arithmetic expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry")
+-   [Built-in function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_function_glosry.htm "Glossary Entry")
+-   [Functional method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunctional_method_glosry.htm "Glossary Entry")
 
 The numeric functions are divided into:
 
--   [General numeric functions](javascript:call_link\('abennumerical_functions.htm'\))
--   [Numeric extremum functions](javascript:call_link\('abennmax_nmin_functions.htm'\))
--   [Floating point functions](javascript:call_link\('abenfloating_point_functions.htm'\))
--   [Rounding functions](javascript:call_link\('abendec_floating_point_functions.htm'\))
+-   [General numeric functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions.htm)
+-   [Numeric extremum functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_functions.htm)
+-   [Floating point functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm)
+-   [Rounding functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendec_floating_point_functions.htm)
 
 Catchable Exceptions
 
 The catchable exceptions that can be raised during the calculation of a numeric function are subclasses of the classes CX\_SY\_ARITHMETIC\_ERROR and CX\_SY\_CONVERSION\_ERROR.
 
 Continue
-[num\_func - abs, sign, ceil, floor , trunc, frac](javascript:call_link\('abennumerical_functions.htm'\))
-[num\_func - ipow](javascript:call_link\('abenpower_function.htm'\))
-[num\_func - nmax, nmin](javascript:call_link\('abennmax_nmin_functions.htm'\))
-[num\_func - acos, sin, tanh, exp , log, sqrt, ...](javascript:call_link\('abenfloating_point_functions.htm'\))
-[num\_func - round, rescale](javascript:call_link\('abendec_floating_point_functions.htm'\))
-[num\_func - Examples](javascript:call_link\('abennumerical_functions_abexas.htm'\))
+[num\_func - abs, sign, ceil, floor , trunc, frac](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions.htm)
+[num\_func - ipow](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpower_function.htm)
+[num\_func - nmax, nmin](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_functions.htm)
+[num\_func - acos, sin, tanh, exp , log, sqrt, ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm)
+[num\_func - round, rescale](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendec_floating_point_functions.htm)
+[num\_func - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions_abexas.htm)
 
-
-
-**📖 Source**: [abenmathematical_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm)
 
 ### abennumerical_functions.htm
-
-> **📖 Official SAP Documentation**: [abennumerical_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -89,7 +54,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20num_func%20-%20abs%2C%20sign%2C%20ceil%2C%20floor%20%2C%20trunc%2C%20frac%2C%20ABENNUMERICAL_FUNCTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugg
 estion%20for%20improvement:)
@@ -102,7 +67,7 @@ Syntax
 
 Effect
 
-General [built-in](javascript:call_link\('abenbuilt_in_functions.htm'\)) numeric functions for exactly one unnamed argument with any numeric data type. These functions are overloaded with the effect that the return value can have different numeric types. The argument of a general numeric function must be a single data object outside an arithmetic expression, and can itself be a numeric expression within an arithmetic expression.
+General [built-in](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) numeric functions for exactly one unnamed argument with any numeric data type. These functions are overloaded with the effect that the return value can have different numeric types. The argument of a general numeric function must be a single data object outside an arithmetic expression, and can itself be a numeric expression within an arithmetic expression.
 
 The following table shows the general numeric functions and how they work.
 
@@ -132,13 +97,13 @@ Value of the integer part of the argument arg; negative if arg is negative
 
 frac
 
-Value of the [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") of the argument arg; negative if arg is negative
+Value of the [decimal places](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendecimal_place_glosry.htm "Glossary Entry") of the argument arg; negative if arg is negative
 
 The following applies to the data type of the return value:
 
--   Outside of an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), the data type of the argument determines the data type of the return value.
--   Within an arithmetic expression, the argument of the function contributes to the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") of the entire expression and the function is calculated using the calculation type. If the argument itself is an arithmetic expression, its operands contribute to the entire calculation type and the argument is also calculated with this type.
--   If the argument arg is a [numeric expression](javascript:call_link\('abennumerical_expression_glosry.htm'\) "Glossary Entry"), the function works like an arithmetic operator and it is handled in its operand position like an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry").
+-   Outside of an [arithmetic expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), the data type of the argument determines the data type of the return value.
+-   Within an arithmetic expression, the argument of the function contributes to the [calculation type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_type_glosry.htm "Glossary Entry") of the entire expression and the function is calculated using the calculation type. If the argument itself is an arithmetic expression, its operands contribute to the entire calculation type and the argument is also calculated with this type.
+-   If the argument arg is a [numeric expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_expression_glosry.htm "Glossary Entry"), the function works like an arithmetic operator and it is handled in its operand position like an [arithmetic expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry").
 
 If the argument of a numeric function outside of an arithmetic expression does not have a numeric data type i, int8, p, decfloat16, decfloat34, or f, its data type determines the type of return value as follows:
 
@@ -147,12 +112,12 @@ If the argument of a numeric function outside of an arithmetic expression does n
 -   x and xstring givei
 -   utclong is not allowed
 
-Before the calculation of the function, the argument is [converted](javascript:call_link\('abenconversion_rules.htm'\)) to the corresponding type.
+Before the calculation of the function, the argument is [converted](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_rules.htm) to the corresponding type.
 
 Hints
 
 -   The time stamp type utclong cannot be converted implicitly to a numeric type, and therefore cannot be specified directly as an argument.
--   The functions listed here are some of the functions that can also be used in the obsolete [extended functional operand positions](javascript:call_link\('abenextended_functional_positions.htm'\)), even if their argument is a single data object.
+-   The functions listed here are some of the functions that can also be used in the obsolete [extended functional operand positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextended_functional_positions.htm), even if their argument is a single data object.
 
 Example
 
@@ -164,17 +129,10 @@ ASSERT pack  = trunc( pack ) + frac( pack ).
 
 Executable Example
 
-[Numeric Functions](javascript:call_link\('abenmath_func_abexa.htm'\))
+[Numeric Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmath_func_abexa.htm)
 
-
-
-**📖 Source**: [abennumerical_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions.htm)
 
 ### abenpower_function.htm
-
-> **📖 Official SAP Documentation**: [abenpower_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpower_function.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -182,7 +140,7 @@ Executable Example
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20num_func%20-%20ipow%2C%20ABENPOWER_FUNCTION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -194,20 +152,20 @@ Syntax
 
 Effect
 
-This [built-in function](javascript:call_link\('abenbuilt_in_functions.htm'\)) raises the argument arg passed to base to the exponent n passed to exp. The arguments arg and n are [numeric expression positions](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry"). Any [numeric data object](javascript:call_link\('abennumeric_data_object_glosry.htm'\) "Glossary Entry") can be specified for arg. n expects the type i and exponents of other types are [converted](javascript:call_link\('abenconversion_elementary.htm'\)) to i. If the argument arg has the value 0, the value of the exponent n must be greater than or equal to 0.
+This [built-in function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) raises the argument arg passed to base to the exponent n passed to exp. The arguments arg and n are [numeric expression positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry"). Any [numeric data object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_object_glosry.htm "Glossary Entry") can be specified for arg. n expects the type i and exponents of other types are [converted](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_elementary.htm) to i. If the argument arg has the value 0, the value of the exponent n must be greater than or equal to 0.
 
 The function ipow is overloaded in such a way that the return value can have different numeric types.
 
--   Outside of an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), the data type of the argument arg determines the data type of the return value.
--   Within an arithmetic expression, the argument arg contributes to the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") of the entire expression and the function is calculated using the calculation type.
--   If the argument arg is a [numeric expression](javascript:call_link\('abennumerical_expression_glosry.htm'\) "Glossary Entry"), ipow works like an arithmetic operator and the function is handled in its operand position like an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry").
+-   Outside of an [arithmetic expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), the data type of the argument arg determines the data type of the return value.
+-   Within an arithmetic expression, the argument arg contributes to the [calculation type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_type_glosry.htm "Glossary Entry") of the entire expression and the function is calculated using the calculation type.
+-   If the argument arg is a [numeric expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_expression_glosry.htm "Glossary Entry"), ipow works like an arithmetic operator and the function is handled in its operand position like an [arithmetic expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry").
 
-This function can be specified in [general](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") and [numeric expression positions](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry"). The calculation type is determined from the argument arg in the same way as with the other [numeric functions](javascript:call_link\('abennumerical_functions.htm'\)). The argument n does not have any effect on the data type of the return value.
+This function can be specified in [general](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and [numeric expression positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry"). The calculation type is determined from the argument arg in the same way as with the other [numeric functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions.htm). The argument n does not have any effect on the data type of the return value.
 
 Hints
 
--   The power function ipow can replace [arg \*\* n](javascript:call_link\('abenarith_operators.htm'\)) calculations, if the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") f is to be avoided. This makes sense if the type f is not precise enough.
--   In many cases, the power function ipow has better performance than using the arithmetic operator [\*\*](javascript:call_link\('abenarith_operators.htm'\)).
+-   The power function ipow can replace [arg \*\* n](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarith_operators.htm) calculations, if the [calculation type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_type_glosry.htm "Glossary Entry") f is to be avoided. This makes sense if the type f is not precise enough.
+-   In many cases, the power function ipow has better performance than using the arithmetic operator [\*\*](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarith_operators.htm).
 
 Example
 
@@ -218,17 +176,10 @@ cl\_demo\_output=>display( |\*\*:   { '1.2' \*\* 2 } \\n| &&
 
 Executable Example
 
-[Power Function ipow](javascript:call_link\('abenipow_function_abexa.htm'\))
+[Power Function ipow](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenipow_function_abexa.htm)
 
-
-
-**📖 Source**: [abenpower_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpower_function.htm)
 
 ### abennmax_nmin_functions.htm
-
-> **📖 Official SAP Documentation**: [abennmax_nmin_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -236,7 +187,7 @@ Executable Example
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20num_func%20-%20nmax%2C%20nmin%2C%20ABENNMAX_NMIN_FUNCTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -248,16 +199,16 @@ Syntax
 
 Effect
 
-These [built-in functions](javascript:call_link\('abenbuilt_in_functions.htm'\)) return the value of the largest or smallest of the passed arguments. A minimum of two arguments, arg1 and arg2 must, and a maximum of nine arguments can be passed. Here, the optional input parameters val3 to val9 must be filled in ascending order without gaps. The arguments arg1 to arg9 are [numeric expression positions](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry").
+These [built-in functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) return the value of the largest or smallest of the passed arguments. A minimum of two arguments, arg1 and arg2 must, and a maximum of nine arguments can be passed. Here, the optional input parameters val3 to val9 must be filled in ascending order without gaps. The arguments arg1 to arg9 are [numeric expression positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry").
 
 The following applies to the data type of the return value:
 
--   Outside of an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), a [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined from all arguments and used to perform the comparison. The calculation type is determined just like an [arithmetic expression](javascript:call_link\('abenarith_type.htm'\)) and also determines the data type of the return value.
--   Within an arithmetic expression, the arguments of the function contribute to the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") of the entire expression and the function is calculated using the calculation type. If an argument itself is an arithmetic expression, its operands contribute to the entire calculation type and the argument is also calculated using this type.
+-   Outside of an [arithmetic expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), a [calculation type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_type_glosry.htm "Glossary Entry") is determined from all arguments and used to perform the comparison. The calculation type is determined just like an [arithmetic expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarith_type.htm) and also determines the data type of the return value.
+-   Within an arithmetic expression, the arguments of the function contribute to the [calculation type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_type_glosry.htm "Glossary Entry") of the entire expression and the function is calculated using the calculation type. If an argument itself is an arithmetic expression, its operands contribute to the entire calculation type and the argument is also calculated using this type.
 
 Hints
 
--   The extremum functions [cmax](javascript:call_link\('abencmax_cmin_functions.htm'\)) and [cmin](javascript:call_link\('abencmax_cmin_functions.htm'\)) can be used to determine character-like extreme values.
+-   The extremum functions [cmax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencmax_cmin_functions.htm) and [cmin](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencmax_cmin_functions.htm) can be used to determine character-like extreme values.
 -   When using two input parameters:
     
     result =  nmax*|*nmin( val1 = arg1 val2 = arg2 )
@@ -275,7 +226,7 @@ When using more than two input parameters, an equivalent control structure would
 
 Example
 
-Determination of the smaller of two time stamps in packed numbers, whereby the initial value of the conditional operator [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)) is not regarded as the smallest value.
+Determination of the smaller of two time stamps in packed numbers, whereby the initial value of the conditional operator [COND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expression_cond.htm) is not regarded as the smallest value.
 
 CONSTANTS max\_ts TYPE timestamp VALUE 999999999999999.
 DATA: ts1 TYPE timestamp,
@@ -289,17 +240,10 @@ FINAL(min\_ts) =
 
 Executable Example
 
-[Extremum Functions nmax, nmin](javascript:call_link\('abennmax_nmin_function_abexa.htm'\))
+[Extremum Functions nmax, nmin](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_function_abexa.htm)
 
-
-
-**📖 Source**: [abennmax_nmin_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_functions.htm)
 
 ### abenfloating_point_functions.htm
-
-> **📖 Official SAP Documentation**: [abenfloating_point_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -307,7 +251,7 @@ Executable Example
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20num_func%20-%20acos%2C%20sin%2C%20tanh%2C%20exp%20%2C%20log%2C%20sqrt%2C%20...%2C%20ABENFLOATING_POINT_FUNCTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A
 %0D%0ASuggestion%20for%20improvement:)
@@ -320,7 +264,7 @@ Syntax
 
 Effect
 
-[Built-in](javascript:call_link\('abenbuilt_in_functions.htm'\)) floating point function for which a [floating point number](javascript:call_link\('abenfloating_point_number_glosry.htm'\) "Glossary Entry") is expected as an unnamed argument. Floating point functions are overloaded so that the return value can have the type decfloat34 or f. [Decimal floating point numbers](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") can only be used as arguments of exp, log, log10, and sqrt. The argument of a floating point function must be a single data object outside an arithmetic expression and can be an arithmetic expression itself within an arithmetic expression.
+[Built-in](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) floating point function for which a [floating point number](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_number_glosry.htm "Glossary Entry") is expected as an unnamed argument. Floating point functions are overloaded so that the return value can have the type decfloat34 or f. [Decimal floating point numbers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendecfloat_glosry.htm "Glossary Entry") can only be used as arguments of exp, log, log10, and sqrt. The argument of a floating point function must be a single data object outside an arithmetic expression and can be an arithmetic expression itself within an arithmetic expression.
 
 The following table shows the floating point function and how it works.
 
@@ -408,22 +352,22 @@ Square root
 
 \>= 0
 
-Functions for which no decfloat34 is specified cannot currently have the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") decfloat34. If one of these functions is specified in an expression with this calculation type, a syntax error occurs or the exception CX\_SY\_UNSUPPORTED\_FUNCTION is raised.
+Functions for which no decfloat34 is specified cannot currently have the [calculation type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_type_glosry.htm "Glossary Entry") decfloat34. If one of these functions is specified in an expression with this calculation type, a syntax error occurs or the exception CX\_SY\_UNSUPPORTED\_FUNCTION is raised.
 
-The following applies to the [floating point arithmetic](javascript:call_link\('abenfloating_point_arith_glosry.htm'\) "Glossary Entry") in which a floating point function is calculated, and to the data type of the return value:
+The following applies to the [floating point arithmetic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_arith_glosry.htm "Glossary Entry") in which a floating point function is calculated, and to the data type of the return value:
 
 -   If the argument has the type decfloat16 or decfloat34, a floating point function is calculated in decimal floating point arithmetic and the return value has the type decfloat34.
--   If a floating point function is used in an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") whose [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is decfloat34, or that contains a [numeric expression](javascript:call_link\('abennumerical_expression_glosry.htm'\) "Glossary Entry") of type decfloat34 as an argument, it also calculates a return value with the type decfloat34 and the argument is first converted to the data type decfloat34, if necessary.
+-   If a floating point function is used in an [arithmetic expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") whose [calculation type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_type_glosry.htm "Glossary Entry") is decfloat34, or that contains a [numeric expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_expression_glosry.htm "Glossary Entry") of type decfloat34 as an argument, it also calculates a return value with the type decfloat34 and the argument is first converted to the data type decfloat34, if necessary.
 -   In all other cases, floating point functions use binary floating point arithmetic to calculate a return value with type f and the argument is first converted to the data type f, if necessary.
 
-Functions with a definition range require the value of arg to be within the specified limits. Arguments within the definition ranges are guaranteed to be error-free for the exponential function exp, since the results are then within the [value ranges](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") for [binary](javascript:call_link\('abenbinfloat_glosry.htm'\) "Glossary Entry") or [decimal](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") [floating point numbers](javascript:call_link\('abenfloating_point_number_glosry.htm'\) "Glossary Entry") in accordance with IEEE-754. For arguments less than -709, the result for binary floating point numbers is a subnormal number, 0, depending on the platform, or a catchable exception of the class CX\_SY\_ARITHMETIC\_OVERFLOW is raised from a specific value.
+Functions with a definition range require the value of arg to be within the specified limits. Arguments within the definition ranges are guaranteed to be error-free for the exponential function exp, since the results are then within the [value ranges](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_range_glosry.htm "Glossary Entry") for [binary](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbinfloat_glosry.htm "Glossary Entry") or [decimal](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendecfloat_glosry.htm "Glossary Entry") [floating point numbers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_number_glosry.htm "Glossary Entry") in accordance with IEEE-754. For arguments less than -709, the result for binary floating point numbers is a subnormal number, 0, depending on the platform, or a catchable exception of the class CX\_SY\_ARITHMETIC\_OVERFLOW is raised from a specific value.
 
 The trigonometric functions sin, cos, and tan are defined for any arguments, but the results become imprecise if the argument is greater than approximately 100,000,000.
 
 Hints
 
 -   The atan function is undefined for odd multiples of pi/2, but the definition range of atan is not restricted since an argument of this function can never contain the precise value of pi/2.
--   The functions listed here are some of the functions that can be used in the obsolete [extended functional operand positions](javascript:call_link\('abenextended_functional_positions.htm'\)) if their argument is a single data object.
+-   The functions listed here are some of the functions that can be used in the obsolete [extended functional operand positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextended_functional_positions.htm) if their argument is a single data object.
 
 Example
 
@@ -435,7 +379,7 @@ itab = VALUE #( FOR i = 0 UNTIL i > 64
                 ( sin( n ) \*\* 2 + cos( n ) \*\* 2 ) ).
 cl\_demo\_output=>display( itab ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -459,14 +403,7 @@ CX\_SY\_ARG\_OUT\_OF\_DOMAIN
     Runtime error: COMPUTE\_TAN\_DOMAIN
 
 
-
-**📖 Source**: [abenfloating_point_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm)
-
 ### abendec_floating_point_functions.htm
-
-> **📖 Official SAP Documentation**: [abendec_floating_point_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendec_floating_point_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -474,7 +411,7 @@ CX\_SY\_ARG\_OUT\_OF\_DOMAIN
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20num_func%20-%20round%2C%20rescale%2C%20ABENDEC_FLOATING_POINT_FUNCTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -486,9 +423,10 @@ Syntax
 
 Effect
 
-The [built-in](javascript:call_link\('abenbuilt_in_functions.htm'\)) rounding functions expect a [decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") as a main argument val and additional arguments that describe how this floating point number is handled. The type of the return value of a rounding function is always decfloat34. Within an arithmetic expression, the argument for the decimal floating point number can either be an arithmetic expression or a function. The other arguments must always be specified as numeric data objects.
+The [built-in](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) rounding functions expect a [decimal floating point number](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendecfloat_glosry.htm "Glossary Entry") as a main argument val and additional arguments that describe how this floating point number is handled. The type of the return value of a rounding function is always decfloat34. Within an arithmetic expression, the argument for the decimal floating point number can either be an arithmetic expression or a function. The other arguments must always be specified as numeric data objects.
 
--   [Rounding Function](#abendec-floating-point-functions-1-------rescaling-function---@ITOC@@ABENDEC_FLOATING_POINT_FUNCTIONS_2)
+-   [Rounding Function](#@@ITOC@@ABENDEC_FLOATING_POINT_FUNCTIONS_1)
+-   [Rescaling Function](#@@ITOC@@ABENDEC_FLOATING_POINT_FUNCTIONS_2)
 
 Hint
 
@@ -496,7 +434,7 @@ The class CL\_ABAP\_MATH includes the method NORMALIZE for normalizing a decimal
 
 Rounding Function   
 
-The rounding function round can be implemented in [operand positions](javascript:call_link\('abenoperands_expressions.htm'\)) using the following syntax:
+The rounding function round can be implemented in [operand positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperands_expressions.htm) using the following syntax:
 
 Syntax
 
@@ -506,12 +444,12 @@ Effect
 
 This function rounds a decimal floating point number specified as an argument for the parameter val. A data object specified for arg is converted to the data type decfloat34 before the function is executed, if necessary.
 
-Either the parameter dec or the parameter prec must be given a value, and rounding must be to either a particular number of decimal places or to a [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry"):
+Either the parameter dec or the parameter prec must be given a value, and rounding must be to either a particular number of decimal places or to a [precision](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprecision_glosry.htm "Glossary Entry"):
 
 -   If the parameter dec is given a value, the input value is rounded to the number of decimal places specified in n and returned. n expects data objects of the type i whose value must not be less than -6144. If a negative value is specified, the corresponding pre-decimal place is rounded.
--   If the parameter prec is given a value, the value entered is rounded to the [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry") specified in n and returned. n expects data objects of the type i whose value must be greater than 0.
+-   If the parameter prec is given a value, the value entered is rounded to the [precision](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprecision_glosry.htm "Glossary Entry") specified in n and returned. n expects data objects of the type i whose value must be greater than 0.
 
-A rounding can reduce [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") and [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry") but cannot increase them. If dec is specified, the mantissa of the return value does not contain any zeros after the place where the rounding applies. If prec is specified, the input value is returned unchanged if the specified precision is greater than or equal to the input value.
+A rounding can reduce [scaling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscale_glosry.htm "Glossary Entry") and [precision](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprecision_glosry.htm "Glossary Entry") but cannot increase them. If dec is specified, the mantissa of the return value does not contain any zeros after the place where the rounding applies. If prec is specified, the input value is returned unchanged if the specified precision is greater than or equal to the input value.
 
 The optional parameter mode determines the rounding type. For m it is only possible to specify values that exist as ROUND\_... constants in class CL\_ABAP\_MATH. The following table shows the possible rounding rules. If mode is not given a value, commercial rounding is used.
 
@@ -745,11 +683,11 @@ Precision
 
 Executable Example
 
-[Rounding Function round](javascript:call_link\('abenround_function_abexa.htm'\))
+[Rounding Function round](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenround_function_abexa.htm)
 
 Rescaling Function   
 
-The rescaling function rescale can be implemented in [operand positions](javascript:call_link\('abenoperands_expressions.htm'\)) using the following syntax:
+The rescaling function rescale can be implemented in [operand positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperands_expressions.htm) using the following syntax:
 
 Syntax
 
@@ -757,14 +695,14 @@ Syntax
 
 Effect
 
-This function changes the [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") of a decimal floating point number specified as an argument for the parameter val. A data object specified for arg is converted to the data type decfloat34 before the function is executed, if necessary.
+This function changes the [scaling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscale_glosry.htm "Glossary Entry") of a decimal floating point number specified as an argument for the parameter val. A data object specified for arg is converted to the data type decfloat34 before the function is executed, if necessary.
 
-Either the parameter dec or the parameter prec must be given a value, where either the [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") or the [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry") is set:
+Either the parameter dec or the parameter prec must be given a value, where either the [scaling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscale_glosry.htm "Glossary Entry") or the [precision](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprecision_glosry.htm "Glossary Entry") is set:
 
--   If the parameter dec is given a value, the input value is returned using the [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") specified in n. n expects data objects of the type i, whose value must not be less than -6144. If the scaling would produce more than 34 places in the mantissa of the return value, a catchable exception is raised.
--   If the parameter prec is given a value, the value entered is returned with the [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry") specified in n and appropriate [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry"). n expects data objects of the type i, whose value must be greater than 0 and less than 34.
+-   If the parameter dec is given a value, the input value is returned using the [scaling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscale_glosry.htm "Glossary Entry") specified in n. n expects data objects of the type i, whose value must not be less than -6144. If the scaling would produce more than 34 places in the mantissa of the return value, a catchable exception is raised.
+-   If the parameter prec is given a value, the value entered is returned with the [precision](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprecision_glosry.htm "Glossary Entry") specified in n and appropriate [scaling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscale_glosry.htm "Glossary Entry"). n expects data objects of the type i, whose value must be greater than 0 and less than 34.
 
-A rescaling can both reduce and increase [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") and [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry"). An increase adds zeros on the right.
+A rescaling can both reduce and increase [scaling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscale_glosry.htm "Glossary Entry") and [precision](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprecision_glosry.htm "Glossary Entry"). An increase adds zeros on the right.
 
 The input value is rounded if required. The optional parameter mod can be used to specify the rounding rule, as described under the function round. The default is commercial rounding.
 
@@ -997,14 +935,7 @@ Precision
 12
 
 
-
-**📖 Source**: [abendec_floating_point_functions.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendec_floating_point_functions.htm)
-
 ### abennumerical_functions_abexas.htm
-
-> **📖 Official SAP Documentation**: [abennumerical_functions_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1012,32 +943,25 @@ Precision
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20num_func%20-%20Examples%2C%20ABENNUMERICAL_FUNCTIONS_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 num\_func - Examples
 
--   [num\_func - General Numeric Functions](javascript:call_link\('abenmath_func_abexa.htm'\))
--   [num\_func - Integer Power Function ipow](javascript:call_link\('abenipow_function_abexa.htm'\))
--   [num\_func - Extremum Functions nmax, nmin](javascript:call_link\('abennmax_nmin_function_abexa.htm'\))
--   [num\_func - Rounding Function round](javascript:call_link\('abenround_function_abexa.htm'\))
+-   [num\_func - General Numeric Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmath_func_abexa.htm)
+-   [num\_func - Integer Power Function ipow](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenipow_function_abexa.htm)
+-   [num\_func - Extremum Functions nmax, nmin](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_function_abexa.htm)
+-   [num\_func - Rounding Function round](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenround_function_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [num\_func - General Numeric Functions](javascript:call_link\('abenmath_func_abexa.htm'\))
-![Example](exa.gif "Example") [num\_func - Integer Power Function ipow](javascript:call_link\('abenipow_function_abexa.htm'\))
-![Example](exa.gif "Example") [num\_func - Extremum Functions nmax, nmin](javascript:call_link\('abennmax_nmin_function_abexa.htm'\))
-![Example](exa.gif "Example") [num\_func - Rounding Function round](javascript:call_link\('abenround_function_abexa.htm'\))
+![Example](exa.gif "Example") [num\_func - General Numeric Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmath_func_abexa.htm)
+![Example](exa.gif "Example") [num\_func - Integer Power Function ipow](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenipow_function_abexa.htm)
+![Example](exa.gif "Example") [num\_func - Extremum Functions nmax, nmin](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_function_abexa.htm)
+![Example](exa.gif "Example") [num\_func - Rounding Function round](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenround_function_abexa.htm)
 
-
-
-**📖 Source**: [abennumerical_functions_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions_abexas.htm)
 
 ### abenmath_func_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenmath_func_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmath_func_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1045,7 +969,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) →  [num\_func - Examples](javascript:call_link\('abennumerical_functions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm) →  [num\_func - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20num_func%20-%20General%20Numeric%20Functions%2C%20ABENMATH_FUNC_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -1088,14 +1012,7 @@ Description  
 The output of the class shows how each of the general numeric functions affects the number -5.55.
 
 
-
-**📖 Source**: [abenmath_func_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmath_func_abexa.htm)
-
 ### abenipow_function_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenipow_function_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenipow_function_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1103,14 +1020,14 @@ The output of the class shows how each of the general numeric functions affects 
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) →  [num\_func - Examples](javascript:call_link\('abennumerical_functions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm) →  [num\_func - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20num_func%20-%20Integer%20Power%20Function%20ipow%2C%20ABENIPOW_FUNCTION_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvemen
 t:)
 
 num\_func - Integer Power Function ipow
 
-This example demonstrates the integer power function [ipow](javascript:call_link\('abenpower_function.htm'\)).
+This example demonstrates the integer power function [ipow](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpower_function.htm).
 
 Source Code   
 
@@ -1142,17 +1059,10 @@ ENDCLASS.
 
 Description   
 
-The class demonstrates that the integer power function ipow can be used to achieve more precise results than with the [arithmetic operator \*\*](javascript:call_link\('abenarith_operators.htm'\)). In the cases shown here, the operator \*\* produces the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") f. If ipow is used, the calculation type is determined by the arguments arg1 and arg2.
+The class demonstrates that the integer power function ipow can be used to achieve more precise results than with the [arithmetic operator \*\*](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarith_operators.htm). In the cases shown here, the operator \*\* produces the [calculation type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_type_glosry.htm "Glossary Entry") f. If ipow is used, the calculation type is determined by the arguments arg1 and arg2.
 
-
-
-**📖 Source**: [abenipow_function_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenipow_function_abexa.htm)
 
 ### abennmax_nmin_function_abexa.htm
-
-> **📖 Official SAP Documentation**: [abennmax_nmin_function_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_function_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1160,14 +1070,14 @@ The class demonstrates that the integer power function ipow can be used to achie
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) →  [num\_func - Examples](javascript:call_link\('abennumerical_functions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm) →  [num\_func - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20num_func%20-%20Extremum%20Functions%20nmax%2C%20nmin%2C%20ABENNMAX_NMIN_FUNCTION_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20i
 mprovement:)
 
 num\_func - Extremum Functions nmax, nmin
 
-This example demonstrates the extremum functions [nmax](javascript:call_link\('abennmax_nmin_functions.htm'\)) and [nmin](javascript:call_link\('abennmax_nmin_functions.htm'\)).
+This example demonstrates the extremum functions [nmax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_functions.htm) and [nmin](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_functions.htm).
 
 Source Code   
 
@@ -1226,14 +1136,7 @@ Description  
 This class determines the minimum or maximum value of a parabola opened up or down and whose parameters can be entered on the selection screen.
 
 
-
-**📖 Source**: [abennmax_nmin_function_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_function_abexa.htm)
-
 ### abenround_function_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenround_function_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenround_function_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1241,13 +1144,13 @@ This class determines the minimum or maximum value of a parabola opened up or do
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) →  [num\_func - Examples](javascript:call_link\('abennumerical_functions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm) →  [num\_func - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20num_func%20-%20Rounding%20Function%20round%2C%20ABENROUND_FUNCTION_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 num\_func - Rounding Function round
 
-This example demonstrates the rounding function [round](javascript:call_link\('abendec_floating_point_functions.htm'\)).
+This example demonstrates the rounding function [round](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendec_floating_point_functions.htm).
 
 Source Code   
 
@@ -1338,20 +1241,10 @@ ENDCLASS.
 
 Description   
 
-For fraction numbers between 1 and -1, the class depicts the effect of all rounding types from the class CL\_ABAP\_MATH in the rounding function [round](javascript:call_link\('abendec_floating_point_functions.htm'\)). The class reads the possible rounding methods using RTTI and sorts them by name.
+For fraction numbers between 1 and -1, the class depicts the effect of all rounding types from the class CL\_ABAP\_MATH in the rounding function [round](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendec_floating_point_functions.htm). The class reads the possible rounding methods using RTTI and sorts them by name.
 
-
-
-**📖 Source**: [abenround_function_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenround_function_abexa.htm)
 
 ### abennumerical_functions_abexas.htm
-
-> **📖 Official SAP Documentation**: [abennumerical_functions_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abennumerical_functions_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions_abexas.htm)
-
 
   
 
@@ -1359,19 +1252,19 @@ For fraction numbers between 1 and -1, the class depicts the effect of all round
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20num_func%20-%20Examples%2C%20ABENNUMERICAL_FUNCTIONS_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 num\_func - Examples
 
--   [num\_func - General Numeric Functions](javascript:call_link\('abenmath_func_abexa.htm'\))
--   [num\_func - Integer Power Function ipow](javascript:call_link\('abenipow_function_abexa.htm'\))
--   [num\_func - Extremum Functions nmax, nmin](javascript:call_link\('abennmax_nmin_function_abexa.htm'\))
--   [num\_func - Rounding Function round](javascript:call_link\('abenround_function_abexa.htm'\))
+-   [num\_func - General Numeric Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmath_func_abexa.htm)
+-   [num\_func - Integer Power Function ipow](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenipow_function_abexa.htm)
+-   [num\_func - Extremum Functions nmax, nmin](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_function_abexa.htm)
+-   [num\_func - Rounding Function round](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenround_function_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [num\_func - General Numeric Functions](javascript:call_link\('abenmath_func_abexa.htm'\))
-![Example](exa.gif "Example") [num\_func - Integer Power Function ipow](javascript:call_link\('abenipow_function_abexa.htm'\))
-![Example](exa.gif "Example") [num\_func - Extremum Functions nmax, nmin](javascript:call_link\('abennmax_nmin_function_abexa.htm'\))
-![Example](exa.gif "Example") [num\_func - Rounding Function round](javascript:call_link\('abenround_function_abexa.htm'\))
+![Example](exa.gif "Example") [num\_func - General Numeric Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmath_func_abexa.htm)
+![Example](exa.gif "Example") [num\_func - Integer Power Function ipow](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenipow_function_abexa.htm)
+![Example](exa.gif "Example") [num\_func - Extremum Functions nmax, nmin](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_function_abexa.htm)
+![Example](exa.gif "Example") [num\_func - Rounding Function round](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenround_function_abexa.htm)

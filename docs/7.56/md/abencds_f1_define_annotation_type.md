@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - Definition of Annotations](javascript:call_link\('abencds_anno_definition.htm'\)) →  [ABAP CDS - DDL for Annotation Definitions](javascript:call_link\('abencds_f1_ddla_syntax.htm'\)) →  [CDS DDL - DEFINE ANNOTATION](javascript:call_link\('abencds_f1_define_annotation.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations.htm) →  [ABAP CDS - Definition of Annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_anno_definition.htm) →  [ABAP CDS - DDL for Annotation Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddla_syntax.htm) →  [CDS DDL - DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation.htm) → 
 
 CDS DDL - DEFINE ANNOTATION, type
 
@@ -14,7 +14,7 @@ Syntax
 
 Effect
 
-Defines the [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry") to be specified when a [CDS annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") defined using [define annotation](javascript:call_link\('abencds_f1_define_annotation.htm'\)) is [used](javascript:call_link\('abencds_annotations_syntax.htm'\)) in a CDS entity.
+Defines the [annotation values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenannotation_value_glosry.htm "Glossary Entry") to be specified when a [CDS annotation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotation_glosry.htm "Glossary Entry") defined using [define annotation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation.htm) is [used](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax.htm) in a CDS entity.
 
 dtype is used to define the type. The following tables show the possible options for dtype and their meaning for the annotation values. dtype and any predefined values are case-sensitive.
 
@@ -34,11 +34,11 @@ Numeric literal without quotation marks and with an optional decimal point and a
 
 DecimalFloat
 
-Numeric literal without quotation marks. The same values can be specified as in the source field of an ABAP conversion from [c to decfloat34](javascript:call_link\('abenconversion_type_c.htm'\))
+Numeric literal without quotation marks. The same values can be specified as in the source field of an ABAP conversion from [c to decfloat34](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_type_c.htm)
 
 Integer
 
-Numeric literal without quotation marks and decimal separator in the value range of the ABAP type [i](javascript:call_link\('abenbuiltin_types_numeric.htm'\)).
+Numeric literal without quotation marks and decimal separator in the value range of the ABAP type [i](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuiltin_types_numeric.htm).
 
 String(len)
 
@@ -52,11 +52,11 @@ Annotation Value
 
 AssociationRef
 
-Name of a CDS association that is exposed in the SELECT list where the annotation is used. If the association is defined in the same CDS entity, the annotation value must be the association's name. If the association is defined in another entity, the annotation value must be a [path expression](javascript:call_link\('abencds_path_expression_v2.htm'\)).
+Name of a CDS association that is exposed in the SELECT list where the annotation is used. If the association is defined in the same CDS entity, the annotation value must be the association's name. If the association is defined in another entity, the annotation value must be a [path expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_path_expression_v2.htm).
 
 ElementRef
 
-Name of an element of the CDS entity where the annotation is used. For elements of association targets, the annotation value is a [path expression](javascript:call_link\('abencds_path_expression_v2.htm'\)).
+Name of an element of the CDS entity where the annotation is used. For elements of association targets, the annotation value is a [path expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_path_expression_v2.htm).
 
 EntityRef
 
@@ -68,28 +68,28 @@ Name of a key field of the CDS entity where the annotation is used.
 
 LocalDefinitionRef
 
-Name of a [data source](javascript:call_link\('abencds_data_source_v2.htm'\)) of the current CDS entity. The data source can either be defined after FROM or as an [association](javascript:call_link\('abencds_simple_association_v2.htm'\)). If an alias name is specified for the data source, this alias name must be specified as annotation value.
+Name of a [data source](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_data_source_v2.htm) of the current CDS entity. The data source can either be defined after FROM or as an [association](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_simple_association_v2.htm). If an alias name is specified for the data source, this alias name must be specified as annotation value.
 
 ParameterRef
 
 Name of a parameter of the CDS entity where the annotation is used.
 
-When [used](javascript:call_link\('abencds_annotations_syntax_value.htm'\)), the annotation value of a reference type must be specified as a character literal in quotation marks and without blanks. The object specified must exist.
+When [used](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax_value.htm), the annotation value of a reference type must be specified as a character literal in quotation marks and without blanks. The object specified must exist.
 
-enum { SYMBOL1; SYMBOL; ... } can be used to specify a semicolon-separated (;) list of enumeration symbols SYMBOL1, SYMBOL2, ... in uppercase letters and in curly brackets. A semicolon must also be placed after the final entry in the list here. When an annotation is used, only one of the enumeration symbols prefixed with the # character can be used as an [annotation value](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry"). If enumeration symbols are specified for the type String, the symbols become the enumerated values explicitly. In this case, the length specified for String must be at least as long as the longest enumeration symbol.
+enum { SYMBOL1; SYMBOL; ... } can be used to specify a semicolon-separated (;) list of enumeration symbols SYMBOL1, SYMBOL2, ... in uppercase letters and in curly brackets. A semicolon must also be placed after the final entry in the list here. When an annotation is used, only one of the enumeration symbols prefixed with the # character can be used as an [annotation value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenannotation_value_glosry.htm "Glossary Entry"). If enumeration symbols are specified for the type String, the symbols become the enumerated values explicitly. In this case, the length specified for String must be at least as long as the longest enumeration symbol.
 
-default can be used to specify a type-compliant default value applied when an annotation is used and no explicit [annotation value](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry") is specified. The following applies here:
+default can be used to specify a type-compliant default value applied when an annotation is used and no explicit [annotation value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenannotation_value_glosry.htm "Glossary Entry") is specified. The following applies here:
 
 -   Only true can be specified as a default value for the type Boolean.
 -   If enumeration symbols are defined, the default value of one of these symbols must be prefixed with the # character.
 -   No default value can be specified for reference types.
--   No default values can be specified for the elements of an [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry").
+-   No default values can be specified for the elements of an [annotation array](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenannotation_array_glosry.htm "Glossary Entry").
 
 Hints
 
 -   The truth values for the type boolean can also be specified as 'true' and 'false' in quotation marks.
 -   The smallest feasible size is 1 for one character.
--   The default value defined using default describes the default value applied when the annotation is used in its framework. If an annotation is not used, there can be another default value (described in the documentation of the annotation). The default value of the annotation definition is ignored when the annotation is saved and [evaluated](javascript:call_link\('abencds_annotations_analysis.htm'\)) internally.
+-   The default value defined using default describes the default value applied when the annotation is used in its framework. If an annotation is not used, there can be another default value (described in the documentation of the annotation). The default value of the annotation definition is ignored when the annotation is saved and [evaluated](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_analysis.htm) internally.
 
 Example
 

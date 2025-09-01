@@ -4,17 +4,17 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) →  [Obsolete Statements in List Processing](javascript:call_link\('abenlists_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengui_obsolete.htm) →  [Obsolete Statements in List Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlists_obsolete.htm) → 
 
 Obsolete Calculations
 
--   [MINIMUM](javascript:call_link\('abapminimum.htm'\))
+-   [MINIMUM](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapminimum.htm)
 
--   [MAXIMUM](javascript:call_link\('abapmaximum.htm'\))
+-   [MAXIMUM](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmaximum.htm)
 
--   [SUMMING](javascript:call_link\('abapsumming.htm'\))
+-   [SUMMING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsumming.htm)
 
 Continue
-[MINIMUM](javascript:call_link\('abapminimum.htm'\))
-[MAXIMUM](javascript:call_link\('abapmaximum.htm'\))
-[SUMMING](javascript:call_link\('abapsumming.htm'\))
+[MINIMUM](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapminimum.htm)
+[MAXIMUM](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmaximum.htm)
+[SUMMING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsumming.htm)

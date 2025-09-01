@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [Checkpoints](javascript:call_link\('abencheckpoints.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_tests.htm) →  [Checkpoints](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencheckpoints.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Checkpoints and Checkpoint Groups, ABENCHECKPOINT_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%
 0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Checkpoints and Checkpoint Groups
 
-This example demonstrates the various [checkpoints](javascript:call_link\('abencheckpoint_glosry.htm'\) "Glossary Entry") and their binding to a [checkpoint group](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry").
+This example demonstrates the various [checkpoints](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencheckpoint_glosry.htm "Glossary Entry") and their binding to a [checkpoint group](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencheckpoint_group_glosry.htm "Glossary Entry").
 
 Source Code   
 
@@ -39,11 +39,11 @@ Description  
 
 The example includes the following:
 
--   A [logpoint](javascript:call_link\('abenlogpoint_glosry.htm'\) "Glossary Entry")
--   A [breakpoint](javascript:call_link\('abenbreakpoint_glosry.htm'\) "Glossary Entry")
--   An [assertion](javascript:call_link\('abenassertion_glosry.htm'\) "Glossary Entry")
+-   A [logpoint](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogpoint_glosry.htm "Glossary Entry")
+-   A [breakpoint](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbreakpoint_glosry.htm "Glossary Entry")
+-   An [assertion](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassertion_glosry.htm "Glossary Entry")
 
-All of these are linked with the [checkpoint group](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry") DEMO\_CHECKPOINT\_GROUP.
+All of these are linked with the [checkpoint group](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencheckpoint_group_glosry.htm "Glossary Entry") DEMO\_CHECKPOINT\_GROUP.
 
 The Activation function in transaction SAAB can be used to individually set the activation functions of this checkpoint group for the three checkpoints.
 

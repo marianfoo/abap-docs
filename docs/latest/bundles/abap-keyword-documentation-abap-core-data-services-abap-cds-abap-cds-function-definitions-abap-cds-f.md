@@ -3,28 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abencds_sql_scalar_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_function.htm)
-- [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_scalar_function.htm)
-- [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm)
-- [abencds_with_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)
-
-**Bundle Contains**: 4 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.872Z
-
----
-
 ### abencds_sql_scalar_function.htm
-
-> **📖 Official SAP Documentation**: [abencds_sql_scalar_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_function.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -32,39 +11,32 @@ Included pages: 6
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Function Definitions](javascript:call_link\('abencds_fdl.htm'\)) →  [ABAP CDS - FDL for Function Definitions](javascript:call_link\('abencds_functions.htm'\)) →  [ABAP CDS - Scalar Functions](javascript:call_link\('abencds_scalar_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl.htm) →  [ABAP CDS - FDL for Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_functions.htm) →  [ABAP CDS - Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20CDS%20-%20SQL-Based%20Scalar%20Functions%2C%20ABENCDS_SQL_SCALAR_FUNCTION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improve
 ment:)
 
 ABAP CDS - SQL-Based Scalar Functions
 
-[SQL-based scalar functions](javascript:call_link\('abencds_sql_scalar_glosry.htm'\) "Glossary Entry") are [scalar functions](javascript:call_link\('abencds_scalar_function_glosry.htm'\) "Glossary Entry") that are evaluated by an SQL environment. They can be used in [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") in operand positions that expect scalar values, similar to [built-in functions](javascript:call_link\('abencds_builtin_functions_v2.htm'\)).
+[SQL-based scalar functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_glosry.htm "Glossary Entry") are [scalar functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_function_glosry.htm "Glossary Entry") that are evaluated by an SQL environment. They can be used in [CDS view entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm "Glossary Entry") in operand positions that expect scalar values, similar to [built-in functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_builtin_functions_v2.htm).
 
-While [analytical scalar functions](javascript:call_link\('abencds_ana_scalar_function.htm'\)) are defined and implemented by SAP, SQL-based scalar functions can also be defined and implemented by customers and partners. SQL-based scalar functions make user-defined [AMDP scalar functions](javascript:call_link\('abenamdp_scalar_function_glosry.htm'\) "Glossary Entry") known to the ABAP Dictionary and available in ABAP CDS.
+While [analytical scalar functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ana_scalar_function.htm) are defined and implemented by SAP, SQL-based scalar functions can also be defined and implemented by customers and partners. SQL-based scalar functions make user-defined [AMDP scalar functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_scalar_function_glosry.htm "Glossary Entry") known to the ABAP Dictionary and available in ABAP CDS.
 
 An SQL-based scalar function consists of three development objects:
 
--   A [scalar function definition](javascript:call_link\('abencds_dsfd_glosry.htm'\) "Glossary Entry") defined using [DEFINE SCALAR FUNCTION](javascript:call_link\('abencds_define_scalar_function.htm'\)) in a [CDS function definition](javascript:call_link\('abencds_function_definition_glosry.htm'\) "Glossary Entry"). It is located in the namespace of all [global types](javascript:call_link\('abenglobal_type_glosry.htm'\) "Glossary Entry") of an AS ABAP.
--   A [scalar function implementation reference](javascript:call_link\('abencds_scalar_func_impl_ref.htm'\)) that binds the scalar function to the SQL environment and to an [AMDP function implementation](javascript:call_link\('abenamdp_function_method_glosry.htm'\) "Glossary Entry"). The scalar function implementation reference is defined in a form-based editor in the [ABAP development tools for Eclipse](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"). It must refer to an existing CDS scalar function. It is a standalone repository object that is transported and has its own editor in ADT.
--   An [AMDP function](javascript:call_link\('abenamdp_function_glosry.htm'\) "Glossary Entry") that implements the CDS scalar function using [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry") in a special [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry"). The implementation is managed as an [AMDP scalar function](javascript:call_link\('abenamdp_table_function_glosry.htm'\) "Glossary Entry") by the [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry") in the database system. The AMDP method must be declared as a special [AMDP function implementation](javascript:call_link\('abenamdp_function_methods.htm'\)) for exactly one CDS scalar function using the addition [FOR SCALAR FUNCTION](javascript:call_link\('abapclass-methods_for_scalfunc.htm'\)). The parameter interface of the AMDP scalar function is defined by the input parameters and the scalar result type of the CDS scalar function.
+-   A [scalar function definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dsfd_glosry.htm "Glossary Entry") defined using [DEFINE SCALAR FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_scalar_function.htm) in a [CDS function definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_function_definition_glosry.htm "Glossary Entry"). It is located in the namespace of all [global types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenglobal_type_glosry.htm "Glossary Entry") of an AS ABAP.
+-   A [scalar function implementation reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_func_impl_ref.htm) that binds the scalar function to the SQL environment and to an [AMDP function implementation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_function_method_glosry.htm "Glossary Entry"). The scalar function implementation reference is defined in a form-based editor in the [ABAP development tools for Eclipse](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm "Glossary Entry"). It must refer to an existing CDS scalar function. It is a standalone repository object that is transported and has its own editor in ADT.
+-   An [AMDP function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_function_glosry.htm "Glossary Entry") that implements the CDS scalar function using [SQLScript](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_script_glosry.htm "Glossary Entry") in a special [AMDP method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_method_glosry.htm "Glossary Entry"). The implementation is managed as an [AMDP scalar function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_table_function_glosry.htm "Glossary Entry") by the [AMDP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_glosry.htm "Glossary Entry") in the database system. The AMDP method must be declared as a special [AMDP function implementation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_function_methods.htm) for exactly one CDS scalar function using the addition [FOR SCALAR FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-methods_for_scalfunc.htm). The parameter interface of the AMDP scalar function is defined by the input parameters and the scalar result type of the CDS scalar function.
 
-[Client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") has not yet been implemented for CDS scalar functions, so only [client-independent](javascript:call_link\('abenclient_independent_glosry.htm'\) "Glossary Entry") scalar functions are supported. The AMDP method that implements a scalar function can only access client-independent objects. However, when it is used, client dependency is ignored. A CDS scalar function can be used in both client-dependent and client-independent CDS entities.
+[Client handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclient_handling_glosry.htm "Glossary Entry") has not yet been implemented for CDS scalar functions, so only [client-independent](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclient_independent_glosry.htm "Glossary Entry") scalar functions are supported. The AMDP method that implements a scalar function can only access client-independent objects. However, when it is used, client dependency is ignored. A CDS scalar function can be used in both client-dependent and client-independent CDS entities.
 
 The following topics describe the syntax for defining SQL-based scalar functions.
 
 Continue
-[CDS FDL - DEFINE SCALAR FUNCTION](javascript:call_link\('abencds_define_scalar_function.htm'\))
+[CDS FDL - DEFINE SCALAR FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_scalar_function.htm)
 
-
-
-**📖 Source**: [abencds_sql_scalar_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_function.htm)
 
 ### abencds_define_scalar_function.htm
-
-> **📖 Official SAP Documentation**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_scalar_function.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -72,7 +44,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Function Definitions](javascript:call_link\('abencds_fdl.htm'\)) →  [ABAP CDS - FDL for Function Definitions](javascript:call_link\('abencds_functions.htm'\)) →  [ABAP CDS - Scalar Functions](javascript:call_link\('abencds_scalar_functions.htm'\)) →  [ABAP CDS - SQL-Based Scalar Functions](javascript:call_link\('abencds_sql_scalar_function.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl.htm) →  [ABAP CDS - FDL for Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_functions.htm) →  [ABAP CDS - Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_functions.htm) →  [ABAP CDS - SQL-Based Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_function.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20FDL%20-%20DEFINE%20SCALAR%20FUNCTION%2C%20ABENCDS_DEFINE_SCALAR_FUNCTION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improveme
 nt:)
@@ -82,47 +54,47 @@ CDS FDL - DEFINE SCALAR FUNCTION
 Syntax
 
 DEFINE SCALAR FUNCTION ScalarFunction
-  *\[*WITH PARAMETERS pname1 : [typing](javascript:call_link\('abencds_scalar_typing.htm'\)) *\[*,
-                   pname2 : [typing](javascript:call_link\('abencds_scalar_typing.htm'\))*\]**\[*,
+  *\[*WITH PARAMETERS pname1 : [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm) *\[*,
+                   pname2 : [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm)*\]**\[*,
                   ...*\]**\]*
-          RETURNS [typing](javascript:call_link\('abencds_scalar_typing.htm'\))*\[*;*\]*
+          RETURNS [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm)*\[*;*\]*
 
 Effect
 
-Defines a CDS scalar function definition ScalarFunction as a [CDS scalar function](javascript:call_link\('abencds_scalar_function_glosry.htm'\) "Glossary Entry") in the [CDS FDL](javascript:call_link\('abencds_fdl_glosry.htm'\) "Glossary Entry"). The name ScalarFunction must follow the naming conventions for [dictionary types](javascript:call_link\('abenddic_types_names.htm'\)). The following additional rules apply:
+Defines a CDS scalar function definition ScalarFunction as a [CDS scalar function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_function_glosry.htm "Glossary Entry") in the [CDS FDL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl_glosry.htm "Glossary Entry"). The name ScalarFunction must follow the naming conventions for [dictionary types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_types_names.htm). The following additional rules apply:
 
--   The name can be up to 26 characters long. Four characters are reserved for the suffix of the [scalar function implementation reference](javascript:call_link\('abencds_scalar_func_impl_ref.htm'\)).
+-   The name can be up to 26 characters long. Four characters are reserved for the suffix of the [scalar function implementation reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_func_impl_ref.htm).
 -   The name must not start with the prefix QCM.
 -   The first, second, third, and last character of the name must not be an underscore (\_).
--   A CDS scalar function is located in the namespace of all [global types](javascript:call_link\('abenglobal_type_glosry.htm'\) "Glossary Entry") of an AS ABAP.
+-   A CDS scalar function is located in the namespace of all [global types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenglobal_type_glosry.htm "Glossary Entry") of an AS ABAP.
 
-Optionally, a list of input parameters pname1, pname2, ... can be declared using the addition WITH PARAMETERS. These also define the input parameters of the AMDP scalar function. There is no limit to the number of input parameters. The typing of these input parameters is explained in the topic [CDS FDL - typing](javascript:call_link\('abencds_scalar_typing.htm'\)).
+Optionally, a list of input parameters pname1, pname2, ... can be declared using the addition WITH PARAMETERS. These also define the input parameters of the AMDP scalar function. There is no limit to the number of input parameters. The typing of these input parameters is explained in the topic [CDS FDL - typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm).
 
-The name of an input parameter must comply with the naming rules for [names](javascript:call_link\('abencds_general_syntax_rules.htm'\)). Furthermore, it cannot contain any slash (/) characters and cannot be a reserved name in ABAP Dictionary. All reserved names that cannot be used are specified in the DDIC database table TRESE. The evaluation of names is not case-sensitive. Each parameter name must be unique. Blanks in the comma-separated parameter list are ignored and can be omitted.
+The name of an input parameter must comply with the naming rules for [names](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_general_syntax_rules.htm). Furthermore, it cannot contain any slash (/) characters and cannot be a reserved name in ABAP Dictionary. All reserved names that cannot be used are specified in the DDIC database table TRESE. The evaluation of names is not case-sensitive. Each parameter name must be unique. Blanks in the comma-separated parameter list are ignored and can be omitted.
 
-RETURNS defines the data type of the scalar return value. The topic [CDS FDL - typing](javascript:call_link\('abencds_scalar_typing.htm'\)) explains how the return value can be typed.
+RETURNS defines the data type of the scalar return value. The topic [CDS FDL - typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm) explains how the return value can be typed.
 
 Use
 
-CDS scalar functions are available in [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") in operand positions that expect scalar values, similar to built-in functions. In particular, they can be specified in the following operand positions:
+CDS scalar functions are available in [CDS view entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm "Glossary Entry") in operand positions that expect scalar values, similar to built-in functions. In particular, they can be specified in the following operand positions:
 
--   As the right-hand side of a join ON-condition of a CDS view entity as documented in the topic [CDS DDL - CDS View Entity, SELECT, JOIN](javascript:call_link\('abencds_joined_data_source_v2.htm'\)).
--   As an element in the element list of a CDS view entity, as documented in the topic [CDS DDL - CDS View Entity, SELECT, element](javascript:call_link\('abencds_select_list_entry_v2.htm'\)).
--   As operands in a [WHERE](javascript:call_link\('abencds_where_clause_v2.htm'\)) condition of a CDS view entity.
--   As operands of an [arithmetic expression](javascript:call_link\('abencds_arithmetic_expression_v2.htm'\)) in a CDS view entity.
--   As operand of a [case distinction](javascript:call_link\('abencds_case_expression_v2.htm'\)) in a CDS view entity.
--   As operand of a [cast expression](javascript:call_link\('abencds_cast_expression_v2.htm'\)) in a CDS view entity.
--   As operands of [built-in functions](javascript:call_link\('abencds_builtin_functions_v2.htm'\)) wherever documented.
--   As an operand of a [filter condition](javascript:call_link\('abencds_path_expression_filter_v2.htm'\)) of a [path expression](javascript:call_link\('abenpath_expression_glosry.htm'\) "Glossary Entry").
+-   As the right-hand side of a join ON-condition of a CDS view entity as documented in the topic [CDS DDL - CDS View Entity, SELECT, JOIN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_joined_data_source_v2.htm).
+-   As an element in the element list of a CDS view entity, as documented in the topic [CDS DDL - CDS View Entity, SELECT, element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_entry_v2.htm).
+-   As operands in a [WHERE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_where_clause_v2.htm) condition of a CDS view entity.
+-   As operands of an [arithmetic expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_arithmetic_expression_v2.htm) in a CDS view entity.
+-   As operand of a [case distinction](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_case_expression_v2.htm) in a CDS view entity.
+-   As operand of a [cast expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_v2.htm) in a CDS view entity.
+-   As operands of [built-in functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_builtin_functions_v2.htm) wherever documented.
+-   As an operand of a [filter condition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_path_expression_filter_v2.htm) of a [path expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpath_expression_glosry.htm "Glossary Entry").
 
 Restrictions
 
 -   SQL-based scalar functions cannot be used in CDS entities other than CDS view entities.
--   SQL-based scalar functions can currently not be used in [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry").
+-   SQL-based scalar functions can currently not be used in [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm "Glossary Entry").
 
-Once a CDS scalar function has been activated, a [scalar function implementation reference](javascript:call_link\('abencds_scalar_func_impl_ref.htm'\)) must be created. This scalar function implementation reference binds the scalar function to a runtime environment and refers to an [AMDP function implementation](javascript:call_link\('abenamdp_function_method_glosry.htm'\) "Glossary Entry").
+Once a CDS scalar function has been activated, a [scalar function implementation reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_func_impl_ref.htm) must be created. This scalar function implementation reference binds the scalar function to a runtime environment and refers to an [AMDP function implementation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_function_method_glosry.htm "Glossary Entry").
 
-The scalar function is implemented in an AMDP function using the addition [FOR SCALAR FUNCTION](javascript:call_link\('abapclass-methods_for_scalfunc.htm'\)).
+The scalar function is implemented in an AMDP function using the addition [FOR SCALAR FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-methods_for_scalfunc.htm).
 
 Hint
 
@@ -168,17 +140,10 @@ define view entity DEMO\_CDS\_SCALAR\_USE
 }
 
 Continue
-[CDS FDL - typing](javascript:call_link\('abencds_scalar_typing.htm'\))
+[CDS FDL - typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm)
 
-
-
-**📖 Source**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_scalar_function.htm)
 
 ### abencds_scalar_typing.htm
-
-> **📖 Official SAP Documentation**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -186,7 +151,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Function Definitions](javascript:call_link\('abencds_fdl.htm'\)) →  [ABAP CDS - FDL for Function Definitions](javascript:call_link\('abencds_functions.htm'\)) →  [ABAP CDS - Scalar Functions](javascript:call_link\('abencds_scalar_functions.htm'\)) →  [ABAP CDS - SQL-Based Scalar Functions](javascript:call_link\('abencds_sql_scalar_function.htm'\)) →  [CDS FDL - DEFINE SCALAR FUNCTION](javascript:call_link\('abencds_define_scalar_function.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl.htm) →  [ABAP CDS - FDL for Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_functions.htm) →  [ABAP CDS - Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_functions.htm) →  [ABAP CDS - SQL-Based Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_function.htm) →  [CDS FDL - DEFINE SCALAR FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_scalar_function.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20FDL%20-%20typing%2C%20ABENCDS_SCALAR_TYPING%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -194,11 +159,11 @@ CDS FDL - typing
 
 Syntax
 
-  [dtype](javascript:call_link\('abencds_typing.htm'\))                       *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
-*|* [simple\_type](javascript:call_link\('abencds_define_simple_type.htm'\))                 *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
-*|* [data\_element](javascript:call_link\('abenddic_data_elements.htm'\))                *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
-*|* [generic\_type](javascript:call_link\('abenddic_generic_types.htm'\))                *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
-*|* TYPE OF ParameterReference  *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
+  [dtype](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typing.htm)                       *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
+*|* [simple\_type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_simple_type.htm)                 *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
+*|* [data\_element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_data_elements.htm)                *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
+*|* [generic\_type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_generic_types.htm)                *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
+*|* TYPE OF ParameterReference  *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
 
 Addition:
 
@@ -206,12 +171,12 @@ Addition:
 
 Effect
 
-The input parameters of [SQL-based scalar functions](javascript:call_link\('abencds_sql_scalar_glosry.htm'\) "Glossary Entry") can be typed as follows:
+The input parameters of [SQL-based scalar functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_glosry.htm "Glossary Entry") can be typed as follows:
 
--   Using a [built-in ABAP Dictionary data type](javascript:call_link\('abencds_typing.htm'\)).
--   Using a [CDS simple type](javascript:call_link\('abencds_simple_type_glosry.htm'\) "Glossary Entry") defined using [DEFINE TYPE](javascript:call_link\('abencds_define_simple_type.htm'\)).
--   Using a [DDIC data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry").
--   Using the [generic data type](javascript:call_link\('abenddic_generic_types.htm'\)) numeric.
+-   Using a [built-in ABAP Dictionary data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typing.htm).
+-   Using a [CDS simple type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_type_glosry.htm "Glossary Entry") defined using [DEFINE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_simple_type.htm).
+-   Using a [DDIC data element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_element_glosry.htm "Glossary Entry").
+-   Using the [generic data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_generic_types.htm) numeric.
     
     Note: The generic type any is only available for analytical scalar functions.
     
@@ -224,9 +189,9 @@ The input parameters of [SQL-based scalar functions](javascript:call_link\('aben
 
 The return parameter of an SQL-based scalar function can be typed as follows:
 
--   Using a [built-in ABAP Dictionary data type](javascript:call_link\('abencds_typing.htm'\)).
--   Using a [CDS simple type](javascript:call_link\('abencds_simple_type_glosry.htm'\) "Glossary Entry") defined using [DEFINE TYPE](javascript:call_link\('abencds_define_simple_type.htm'\)).
--   Using a [DDIC data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry").
+-   Using a [built-in ABAP Dictionary data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typing.htm).
+-   Using a [CDS simple type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_type_glosry.htm "Glossary Entry") defined using [DEFINE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_simple_type.htm).
+-   Using a [DDIC data element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_element_glosry.htm "Glossary Entry").
 -   Referencing another input parameter using the syntax statement TYPE OF ParameterReference. ParameterReference can be any of the input parameters from the parameter list of the current scalar function that is typed with a built-in data type, a simple type, a data element, or a generic type.
     
     Note: You cannot reference an input parameter that itself references an input parameter.
@@ -303,20 +268,13 @@ Addition  
 
 Effect
 
-Specifies a reference type. Reference types allow the handling of [CDS amount fields](javascript:call_link\('abencds_amount_field_glosry.htm'\) "Glossary Entry") and [CDS quantity fields](javascript:call_link\('abencds_quantity_glosry.htm'\) "Glossary Entry"). The addition is described in topic [CDS FDL - WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\)).
+Specifies a reference type. Reference types allow the handling of [CDS amount fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_amount_field_glosry.htm "Glossary Entry") and [CDS quantity fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_quantity_glosry.htm "Glossary Entry"). The addition is described in topic [CDS FDL - WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm).
 
 Continue
-[CDS FDL - WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))
+[CDS FDL - WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)
 
-
-
-**📖 Source**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm)
 
 ### abencds_with_reference_type.htm
-
-> **📖 Official SAP Documentation**: [abencds_with_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -324,7 +282,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Function Definitions](javascript:call_link\('abencds_fdl.htm'\)) →  [ABAP CDS - FDL for Function Definitions](javascript:call_link\('abencds_functions.htm'\)) →  [ABAP CDS - Scalar Functions](javascript:call_link\('abencds_scalar_functions.htm'\)) →  [ABAP CDS - SQL-Based Scalar Functions](javascript:call_link\('abencds_sql_scalar_function.htm'\)) →  [CDS FDL - DEFINE SCALAR FUNCTION](javascript:call_link\('abencds_define_scalar_function.htm'\)) →  [CDS FDL - typing](javascript:call_link\('abencds_scalar_typing.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl.htm) →  [ABAP CDS - FDL for Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_functions.htm) →  [ABAP CDS - Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_functions.htm) →  [ABAP CDS - SQL-Based Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_function.htm) →  [CDS FDL - DEFINE SCALAR FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_scalar_function.htm) →  [CDS FDL - typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20FDL%20-%20WITH%20REFERENCE%20TYPE%2C%20ABENCDS_WITH_REFERENCE_TYPE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -354,7 +312,7 @@ Variants:
 
 Effect
 
-[SQL-based scalar functions](javascript:call_link\('abencds_sql_scalar_glosry.htm'\) "Glossary Entry") support the handling of [CDS amount fields](javascript:call_link\('abencds_amount_field_glosry.htm'\) "Glossary Entry") and [CDS quantity fields](javascript:call_link\('abencds_quantity_glosry.htm'\) "Glossary Entry"). CDS amount fields and CDS quantity fields are fields with a reference to a [currency key](javascript:call_link\('abencurrency_key_glosry.htm'\) "Glossary Entry"), a [unit key](javascript:call_link\('abenunit_glosry.htm'\) "Glossary Entry"), or a [calculated unit](javascript:call_link\('abencds_calculated_unit_glosry.htm'\) "Glossary Entry"). Scalar functions can handle these references. They can define which reference types are allowed for each [input parameter](javascript:call_link\('abeninput_parameter_glosry.htm'\) "Glossary Entry") and for the return parameter. The [actual parameters](javascript:call_link\('abenactual_parameter_glosry.htm'\) "Glossary Entry") passed to the input parameters must provide the required reference types. If the return parameter requires a reference type, the required annotation must be provided when the scalar function is used. Missing reference types for actual parameters or the return parameter result in a syntax check error.
+[SQL-based scalar functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_glosry.htm "Glossary Entry") support the handling of [CDS amount fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_amount_field_glosry.htm "Glossary Entry") and [CDS quantity fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_quantity_glosry.htm "Glossary Entry"). CDS amount fields and CDS quantity fields are fields with a reference to a [currency key](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencurrency_key_glosry.htm "Glossary Entry"), a [unit key](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunit_glosry.htm "Glossary Entry"), or a [calculated unit](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_calculated_unit_glosry.htm "Glossary Entry"). Scalar functions can handle these references. They can define which reference types are allowed for each [input parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninput_parameter_glosry.htm "Glossary Entry") and for the return parameter. The [actual parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenactual_parameter_glosry.htm "Glossary Entry") passed to the input parameters must provide the required reference types. If the return parameter requires a reference type, the required annotation must be provided when the scalar function is used. Missing reference types for actual parameters or the return parameter result in a syntax check error.
 
 The following general rules apply:
 
@@ -438,9 +396,9 @@ Effect
 The reference type can be specified statically. The following options are available:
 
 -   Specifying a reference type ref\_type. The following values can be specified for ref\_type:
-    -   #CUKY: The actual parameters passed must be [CDS amount fields](javascript:call_link\('abencds_amount_field_glosry.htm'\) "Glossary Entry"). They must have a valid data type and they must be annotated with [Semantics.amount.currencyCode](javascript:call_link\('abencds_f1_element_annotation.htm'\)).
-    -   #UNIT: The actual parameters passed must be [CDS quantity fields](javascript:call_link\('abencds_quantity_glosry.htm'\) "Glossary Entry"). They must have a valid data type and they must be annotated with [Semantics.quantity.unitOfMeasure](javascript:call_link\('abencds_f1_element_annotation.htm'\)).
-    -   #CALC: The passed actual parameters must be [CDS calculated quantities](javascript:call_link\('abencds_calculated_quantity_glosry.htm'\) "Glossary Entry"). This means that they must be the result of a calculation, they have data type DECFLOAT34, and they must have a calculated unit reference using the annotation [Semantics.quantity.unitOfMeasure](javascript:call_link\('abencds_f1_element_annotation.htm'\)).
+    -   #CUKY: The actual parameters passed must be [CDS amount fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_amount_field_glosry.htm "Glossary Entry"). They must have a valid data type and they must be annotated with [Semantics.amount.currencyCode](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_element_annotation.htm).
+    -   #UNIT: The actual parameters passed must be [CDS quantity fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_quantity_glosry.htm "Glossary Entry"). They must have a valid data type and they must be annotated with [Semantics.quantity.unitOfMeasure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_element_annotation.htm).
+    -   #CALC: The passed actual parameters must be [CDS calculated quantities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_calculated_quantity_glosry.htm "Glossary Entry"). This means that they must be the result of a calculation, they have data type DECFLOAT34, and they must have a calculated unit reference using the annotation [Semantics.quantity.unitOfMeasure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_element_annotation.htm).
     -   #NONE: The actual parameters passed must not have a reference to a currency key, a unit of measure key, or a calculated unit.
 -   WITH REFERENCE TYPE OF pname: Defines a reference type with reference to another input parameter. A parameter typed with reference to another input parameter automatically inherits the reference type of the referenced parameter. This is useful when two parameters require the same reference type. The following rules apply:
     -   The referenced parameter pname must be another input parameter. References to the return parameter are not supported.
@@ -463,8 +421,8 @@ The data type specified for a parameter and the data type required by the refere
 
 Hints
 
--   The [generic data type](javascript:call_link\('abenddic_generic_types.htm'\)) numeric has a different scope of data types than CDS amount fields and CDS quantity fields. When numeric is specified together with a reference type, the valid data types for the actual parameter are the intersection of the two requirements.
--   Casting and conversions may be required for the actual parameters. For example, the generic data type numeric does not support the data type abap.curr. The conversion function [CURR\_TO\_DECFLOAT\_AMOUNT](javascript:call_link\('abencds_conv_func_unit_curr_v2.htm'\)) can be used to convert fields of the data type abap.curr to a data type that is allowed for numeric, so that they can be used as actual parameter for a parameter typed with numeric.
+-   The [generic data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_generic_types.htm) numeric has a different scope of data types than CDS amount fields and CDS quantity fields. When numeric is specified together with a reference type, the valid data types for the actual parameter are the intersection of the two requirements.
+-   Casting and conversions may be required for the actual parameters. For example, the generic data type numeric does not support the data type abap.curr. The conversion function [CURR\_TO\_DECFLOAT\_AMOUNT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_conv_func_unit_curr_v2.htm) can be used to convert fields of the data type abap.curr to a data type that is allowed for numeric, so that they can be used as actual parameter for a parameter typed with numeric.
 
 Variant 2   
 
@@ -480,14 +438,7 @@ The reference type of the input parameter or return parameter can be defined dyn
 -   For input parameters, the ELSE branch is optional. For the return parameter, the ELSE branch is mandatory.
 
 
-
-**📖 Source**: [abencds_with_reference_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)
-
 ### abencds_scalar_typing.htm
-
-> **📖 Official SAP Documentation**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -495,7 +446,7 @@ The reference type of the input parameter or return parameter can be defined dyn
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Function Definitions](javascript:call_link\('abencds_fdl.htm'\)) →  [ABAP CDS - FDL for Function Definitions](javascript:call_link\('abencds_functions.htm'\)) →  [ABAP CDS - Scalar Functions](javascript:call_link\('abencds_scalar_functions.htm'\)) →  [ABAP CDS - SQL-Based Scalar Functions](javascript:call_link\('abencds_sql_scalar_function.htm'\)) →  [CDS FDL - DEFINE SCALAR FUNCTION](javascript:call_link\('abencds_define_scalar_function.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl.htm) →  [ABAP CDS - FDL for Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_functions.htm) →  [ABAP CDS - Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_functions.htm) →  [ABAP CDS - SQL-Based Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_function.htm) →  [CDS FDL - DEFINE SCALAR FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_scalar_function.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20FDL%20-%20typing%2C%20ABENCDS_SCALAR_TYPING%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -503,11 +454,11 @@ CDS FDL - typing
 
 Syntax
 
-  [dtype](javascript:call_link\('abencds_typing.htm'\))                       *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
-*|* [simple\_type](javascript:call_link\('abencds_define_simple_type.htm'\))                 *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
-*|* [data\_element](javascript:call_link\('abenddic_data_elements.htm'\))                *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
-*|* [generic\_type](javascript:call_link\('abenddic_generic_types.htm'\))                *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
-*|* TYPE OF ParameterReference  *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
+  [dtype](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typing.htm)                       *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
+*|* [simple\_type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_simple_type.htm)                 *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
+*|* [data\_element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_data_elements.htm)                *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
+*|* [generic\_type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_generic_types.htm)                *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
+*|* TYPE OF ParameterReference  *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
 
 Addition:
 
@@ -515,12 +466,12 @@ Addition:
 
 Effect
 
-The input parameters of [SQL-based scalar functions](javascript:call_link\('abencds_sql_scalar_glosry.htm'\) "Glossary Entry") can be typed as follows:
+The input parameters of [SQL-based scalar functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_glosry.htm "Glossary Entry") can be typed as follows:
 
--   Using a [built-in ABAP Dictionary data type](javascript:call_link\('abencds_typing.htm'\)).
--   Using a [CDS simple type](javascript:call_link\('abencds_simple_type_glosry.htm'\) "Glossary Entry") defined using [DEFINE TYPE](javascript:call_link\('abencds_define_simple_type.htm'\)).
--   Using a [DDIC data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry").
--   Using the [generic data type](javascript:call_link\('abenddic_generic_types.htm'\)) numeric.
+-   Using a [built-in ABAP Dictionary data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typing.htm).
+-   Using a [CDS simple type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_type_glosry.htm "Glossary Entry") defined using [DEFINE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_simple_type.htm).
+-   Using a [DDIC data element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_element_glosry.htm "Glossary Entry").
+-   Using the [generic data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_generic_types.htm) numeric.
     
     Note: The generic type any is only available for analytical scalar functions.
     
@@ -533,9 +484,9 @@ The input parameters of [SQL-based scalar functions](javascript:call_link\('aben
 
 The return parameter of an SQL-based scalar function can be typed as follows:
 
--   Using a [built-in ABAP Dictionary data type](javascript:call_link\('abencds_typing.htm'\)).
--   Using a [CDS simple type](javascript:call_link\('abencds_simple_type_glosry.htm'\) "Glossary Entry") defined using [DEFINE TYPE](javascript:call_link\('abencds_define_simple_type.htm'\)).
--   Using a [DDIC data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry").
+-   Using a [built-in ABAP Dictionary data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typing.htm).
+-   Using a [CDS simple type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_type_glosry.htm "Glossary Entry") defined using [DEFINE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_simple_type.htm).
+-   Using a [DDIC data element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_element_glosry.htm "Glossary Entry").
 -   Referencing another input parameter using the syntax statement TYPE OF ParameterReference. ParameterReference can be any of the input parameters from the parameter list of the current scalar function that is typed with a built-in data type, a simple type, a data element, or a generic type.
     
     Note: You cannot reference an input parameter that itself references an input parameter.
@@ -612,23 +563,13 @@ Addition  
 
 Effect
 
-Specifies a reference type. Reference types allow the handling of [CDS amount fields](javascript:call_link\('abencds_amount_field_glosry.htm'\) "Glossary Entry") and [CDS quantity fields](javascript:call_link\('abencds_quantity_glosry.htm'\) "Glossary Entry"). The addition is described in topic [CDS FDL - WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\)).
+Specifies a reference type. Reference types allow the handling of [CDS amount fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_amount_field_glosry.htm "Glossary Entry") and [CDS quantity fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_quantity_glosry.htm "Glossary Entry"). The addition is described in topic [CDS FDL - WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm).
 
 Continue
-[CDS FDL - WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))
+[CDS FDL - WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)
 
-
-
-**📖 Source**: [abencds_scalar_typing.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm)
 
 ### abencds_define_scalar_function.htm
-
-> **📖 Official SAP Documentation**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_scalar_function.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencds_define_scalar_function.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_scalar_function.htm)
-
 
   
 
@@ -636,7 +577,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Function Definitions](javascript:call_link\('abencds_fdl.htm'\)) →  [ABAP CDS - FDL for Function Definitions](javascript:call_link\('abencds_functions.htm'\)) →  [ABAP CDS - Scalar Functions](javascript:call_link\('abencds_scalar_functions.htm'\)) →  [ABAP CDS - SQL-Based Scalar Functions](javascript:call_link\('abencds_sql_scalar_function.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl.htm) →  [ABAP CDS - FDL for Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_functions.htm) →  [ABAP CDS - Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_functions.htm) →  [ABAP CDS - SQL-Based Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_function.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20FDL%20-%20DEFINE%20SCALAR%20FUNCTION%2C%20ABENCDS_DEFINE_SCALAR_FUNCTION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improveme
 nt:)
@@ -646,47 +587,47 @@ CDS FDL - DEFINE SCALAR FUNCTION
 Syntax
 
 DEFINE SCALAR FUNCTION ScalarFunction
-  *\[*WITH PARAMETERS pname1 : [typing](javascript:call_link\('abencds_scalar_typing.htm'\)) *\[*,
-                   pname2 : [typing](javascript:call_link\('abencds_scalar_typing.htm'\))*\]**\[*,
+  *\[*WITH PARAMETERS pname1 : [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm) *\[*,
+                   pname2 : [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm)*\]**\[*,
                   ...*\]**\]*
-          RETURNS [typing](javascript:call_link\('abencds_scalar_typing.htm'\))*\[*;*\]*
+          RETURNS [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm)*\[*;*\]*
 
 Effect
 
-Defines a CDS scalar function definition ScalarFunction as a [CDS scalar function](javascript:call_link\('abencds_scalar_function_glosry.htm'\) "Glossary Entry") in the [CDS FDL](javascript:call_link\('abencds_fdl_glosry.htm'\) "Glossary Entry"). The name ScalarFunction must follow the naming conventions for [dictionary types](javascript:call_link\('abenddic_types_names.htm'\)). The following additional rules apply:
+Defines a CDS scalar function definition ScalarFunction as a [CDS scalar function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_function_glosry.htm "Glossary Entry") in the [CDS FDL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl_glosry.htm "Glossary Entry"). The name ScalarFunction must follow the naming conventions for [dictionary types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_types_names.htm). The following additional rules apply:
 
--   The name can be up to 26 characters long. Four characters are reserved for the suffix of the [scalar function implementation reference](javascript:call_link\('abencds_scalar_func_impl_ref.htm'\)).
+-   The name can be up to 26 characters long. Four characters are reserved for the suffix of the [scalar function implementation reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_func_impl_ref.htm).
 -   The name must not start with the prefix QCM.
 -   The first, second, third, and last character of the name must not be an underscore (\_).
--   A CDS scalar function is located in the namespace of all [global types](javascript:call_link\('abenglobal_type_glosry.htm'\) "Glossary Entry") of an AS ABAP.
+-   A CDS scalar function is located in the namespace of all [global types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenglobal_type_glosry.htm "Glossary Entry") of an AS ABAP.
 
-Optionally, a list of input parameters pname1, pname2, ... can be declared using the addition WITH PARAMETERS. These also define the input parameters of the AMDP scalar function. There is no limit to the number of input parameters. The typing of these input parameters is explained in the topic [CDS FDL - typing](javascript:call_link\('abencds_scalar_typing.htm'\)).
+Optionally, a list of input parameters pname1, pname2, ... can be declared using the addition WITH PARAMETERS. These also define the input parameters of the AMDP scalar function. There is no limit to the number of input parameters. The typing of these input parameters is explained in the topic [CDS FDL - typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm).
 
-The name of an input parameter must comply with the naming rules for [names](javascript:call_link\('abencds_general_syntax_rules.htm'\)). Furthermore, it cannot contain any slash (/) characters and cannot be a reserved name in ABAP Dictionary. All reserved names that cannot be used are specified in the DDIC database table TRESE. The evaluation of names is not case-sensitive. Each parameter name must be unique. Blanks in the comma-separated parameter list are ignored and can be omitted.
+The name of an input parameter must comply with the naming rules for [names](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_general_syntax_rules.htm). Furthermore, it cannot contain any slash (/) characters and cannot be a reserved name in ABAP Dictionary. All reserved names that cannot be used are specified in the DDIC database table TRESE. The evaluation of names is not case-sensitive. Each parameter name must be unique. Blanks in the comma-separated parameter list are ignored and can be omitted.
 
-RETURNS defines the data type of the scalar return value. The topic [CDS FDL - typing](javascript:call_link\('abencds_scalar_typing.htm'\)) explains how the return value can be typed.
+RETURNS defines the data type of the scalar return value. The topic [CDS FDL - typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm) explains how the return value can be typed.
 
 Use
 
-CDS scalar functions are available in [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") in operand positions that expect scalar values, similar to built-in functions. In particular, they can be specified in the following operand positions:
+CDS scalar functions are available in [CDS view entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm "Glossary Entry") in operand positions that expect scalar values, similar to built-in functions. In particular, they can be specified in the following operand positions:
 
--   As the right-hand side of a join ON-condition of a CDS view entity as documented in the topic [CDS DDL - CDS View Entity, SELECT, JOIN](javascript:call_link\('abencds_joined_data_source_v2.htm'\)).
--   As an element in the element list of a CDS view entity, as documented in the topic [CDS DDL - CDS View Entity, SELECT, element](javascript:call_link\('abencds_select_list_entry_v2.htm'\)).
--   As operands in a [WHERE](javascript:call_link\('abencds_where_clause_v2.htm'\)) condition of a CDS view entity.
--   As operands of an [arithmetic expression](javascript:call_link\('abencds_arithmetic_expression_v2.htm'\)) in a CDS view entity.
--   As operand of a [case distinction](javascript:call_link\('abencds_case_expression_v2.htm'\)) in a CDS view entity.
--   As operand of a [cast expression](javascript:call_link\('abencds_cast_expression_v2.htm'\)) in a CDS view entity.
--   As operands of [built-in functions](javascript:call_link\('abencds_builtin_functions_v2.htm'\)) wherever documented.
--   As an operand of a [filter condition](javascript:call_link\('abencds_path_expression_filter_v2.htm'\)) of a [path expression](javascript:call_link\('abenpath_expression_glosry.htm'\) "Glossary Entry").
+-   As the right-hand side of a join ON-condition of a CDS view entity as documented in the topic [CDS DDL - CDS View Entity, SELECT, JOIN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_joined_data_source_v2.htm).
+-   As an element in the element list of a CDS view entity, as documented in the topic [CDS DDL - CDS View Entity, SELECT, element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_entry_v2.htm).
+-   As operands in a [WHERE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_where_clause_v2.htm) condition of a CDS view entity.
+-   As operands of an [arithmetic expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_arithmetic_expression_v2.htm) in a CDS view entity.
+-   As operand of a [case distinction](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_case_expression_v2.htm) in a CDS view entity.
+-   As operand of a [cast expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_v2.htm) in a CDS view entity.
+-   As operands of [built-in functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_builtin_functions_v2.htm) wherever documented.
+-   As an operand of a [filter condition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_path_expression_filter_v2.htm) of a [path expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpath_expression_glosry.htm "Glossary Entry").
 
 Restrictions
 
 -   SQL-based scalar functions cannot be used in CDS entities other than CDS view entities.
--   SQL-based scalar functions can currently not be used in [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry").
+-   SQL-based scalar functions can currently not be used in [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm "Glossary Entry").
 
-Once a CDS scalar function has been activated, a [scalar function implementation reference](javascript:call_link\('abencds_scalar_func_impl_ref.htm'\)) must be created. This scalar function implementation reference binds the scalar function to a runtime environment and refers to an [AMDP function implementation](javascript:call_link\('abenamdp_function_method_glosry.htm'\) "Glossary Entry").
+Once a CDS scalar function has been activated, a [scalar function implementation reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_func_impl_ref.htm) must be created. This scalar function implementation reference binds the scalar function to a runtime environment and refers to an [AMDP function implementation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_function_method_glosry.htm "Glossary Entry").
 
-The scalar function is implemented in an AMDP function using the addition [FOR SCALAR FUNCTION](javascript:call_link\('abapclass-methods_for_scalfunc.htm'\)).
+The scalar function is implemented in an AMDP function using the addition [FOR SCALAR FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-methods_for_scalfunc.htm).
 
 Hint
 
@@ -732,4 +673,4 @@ define view entity DEMO\_CDS\_SCALAR\_USE
 }
 
 Continue
-[CDS FDL - typing](javascript:call_link\('abencds_scalar_typing.htm'\))
+[CDS FDL - typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_typing.htm)

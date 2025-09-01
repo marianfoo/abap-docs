@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) →  [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) →  [OPEN DATASET, mode](javascript:call_link\('abapopen_dataset_mode.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfile_interface_statements.htm) →  [OPEN DATASET](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapopen_dataset.htm) →  [OPEN DATASET, mode](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapopen_dataset_mode.htm) → 
 
 OPEN DATASET, endian
 
-[Short Reference](javascript:call_link\('abapopen_dataset_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapopen_dataset_shortref.htm)
 
 Syntax
 
@@ -16,12 +16,12 @@ Syntax
 
 Effect
 
-This addition specifies that, when a [legacy file](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") is opened, numeric data objects of the type i, int8, decfloat16, decfloat34, f, or s are stored in the file in the [byte order](javascript:call_link\('abenbyte_order_glosry.htm'\) "Glossary Entry") Big Endian or Little Endian. When a data object of these types is written or read, a conversion between these orders and the byte order of the current platform is performed, if necessary. If the addition is not specified, the byte order of the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the current [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry") is used.
+This addition specifies that, when a [legacy file](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlegacy_file_glosry.htm "Glossary Entry") is opened, numeric data objects of the type i, int8, decfloat16, decfloat34, f, or s are stored in the file in the [byte order](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbyte_order_glosry.htm "Glossary Entry") Big Endian or Little Endian. When a data object of these types is written or read, a conversion between these orders and the byte order of the current platform is performed, if necessary. If the addition is not specified, the byte order of the [host computer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the current [AS instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_instance_glosry.htm "Glossary Entry") is used.
 
 Hints
 
--   The statement [SET DATASET](javascript:call_link\('abapset_dataset.htm'\)) can be used to specify a different byte order for an opened legacy file.
--   The addition *{*BIG*|*LITTLE*}* ENDIAN replaces the use of the obsolete statement [TRANSLATE NUMBER FORMAT](javascript:call_link\('abaptranslate.htm'\)) in the case of file accesses.
+-   The statement [SET DATASET](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_dataset.htm) can be used to specify a different byte order for an opened legacy file.
+-   The addition *{*BIG*|*LITTLE*}* ENDIAN replaces the use of the obsolete statement [TRANSLATE NUMBER FORMAT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptranslate.htm) in the case of file accesses.
 
 Example
 

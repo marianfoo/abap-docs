@@ -4,8 +4,8 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 file pointer
 
-Current position for writing to or reading from a [file](javascript:call_link\('abenfile_glosry.htm'\) "Glossary Entry").
+Current position for writing to or reading from a [file](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfile_glosry.htm "Glossary Entry").

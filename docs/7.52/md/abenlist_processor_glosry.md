@@ -4,8 +4,8 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 list processor
 
-System program for [list processing](javascript:call_link\('abenlist_processing_glosry.htm'\) "Glossary Entry") that contains the [list dynpro](javascript:call_link\('abenlist_dynpro_glosry.htm'\) "Glossary Entry") for displaying [screen lists](javascript:call_link\('abenscreen_list_glosry.htm'\) "Glossary Entry").
+System program for [list processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_processing_glosry.htm "Glossary Entry") that contains the [list dynpro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_dynpro_glosry.htm "Glossary Entry") for displaying [screen lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_list_glosry.htm "Glossary Entry").

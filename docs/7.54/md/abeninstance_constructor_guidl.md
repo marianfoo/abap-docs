@@ -4,13 +4,13 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Object-Oriented Programming](javascript:call_link\('abenobj_oriented_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarchitecture_guidl.htm) →  [Object-Oriented Programming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobj_oriented_guidl.htm) → 
 
 Instance Constructor
 
 Background
 
-When you define an ABAP class, you specify who creates an instance of this class or who may access the instance constructor of the class. To do this, you use the addition CREATE of the statement CLASS ... DEFINITION. The addition CREATE PUBLIC is the default setting and allows for the instancing by any user of the class. By specifying CREATE PROTECTED, you can restrict the object creation to the class itself and its subclasses. Using the addition CREATE PRIVATE addition, objects can only be created by the class itself. The restriction of the object creation to the class itself is useful in connection with the [singleton design pattern](javascript:call_link\('abenstatic_class_singleton_guidl.htm'\) "Guideline"), for example, where the class itself performs the object creation.
+When you define an ABAP class, you specify who creates an instance of this class or who may access the instance constructor of the class. To do this, you use the addition CREATE of the statement CLASS ... DEFINITION. The addition CREATE PUBLIC is the default setting and allows for the instancing by any user of the class. By specifying CREATE PROTECTED, you can restrict the object creation to the class itself and its subclasses. Using the addition CREATE PRIVATE addition, objects can only be created by the class itself. The restriction of the object creation to the class itself is useful in connection with the [singleton design pattern](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_class_singleton_guidl.htm "Guideline"), for example, where the class itself performs the object creation.
 
 From a technical point of view, the instance constructor can be declared in all visibility sections that are more general or equal to the instantiation specified in the addition CREATE of the statement CLASS ... DEFINITION, using the statement METHODS constructor. However, the actual visibility is controlled by the addition CREATE.
 

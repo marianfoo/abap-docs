@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Comments](javascript:call_link\('abencomments_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstructure_style_gdl.htm) →  [Comments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomments_gdl.htm) → 
 
 Language of Comments
 
@@ -22,16 +22,16 @@ Details
 
 English comments are a basic prerequisite for distributed development at an international level. There are other good reasons for using English as the comment language:
 
--   If names are in [English](javascript:call_link\('abenname_langu_guidl.htm'\) "Guideline"), the statements of an ABAP program can be considered (with a little good will) to be English sentences. For the reader, English comments are best suited for the source code. If comments in another language were used, this would result in a continuous switching between the languages, which would be exhausting even for readers who can speak the languages used.
--   Frequently, the unwanted [retelling comments](javascript:call_link\('abencontent_guidl.htm'\) "Guideline") are very similar to the described ABAP statements if they are written in English. This way, the author quickly realizes that his comment is superfluous.
+-   If names are in [English](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenname_langu_guidl.htm "Guideline"), the statements of an ABAP program can be considered (with a little good will) to be English sentences. For the reader, English comments are best suited for the source code. If comments in another language were used, this would result in a continuous switching between the languages, which would be exhausting even for readers who can speak the languages used.
+-   Frequently, the unwanted [retelling comments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencontent_guidl.htm "Guideline") are very similar to the described ABAP statements if they are written in English. This way, the author quickly realizes that his comment is superfluous.
 
 Exception
 
-Technical terms that originate from country-specific legislation (such as "Abgeltungssteuer" in German) or specific abbreviations (such as DÜVO) cannot be translated meaningfully or would no longer be recognizable after translation. Such terms should be placed in quotation marks and not be translated into English. In this case, it should be noted that [country-specific characters](javascript:call_link\('abencharacter_set_guidl.htm'\) "Guideline") can be replaced with 7-bit ASCII characters. The goal of the above rule is to enable as many users a possible to follow the program flow. This is still possible if non-IT terms are worded in another language.
+Technical terms that originate from country-specific legislation (such as "Abgeltungssteuer" in German) or specific abbreviations (such as DÜVO) cannot be translated meaningfully or would no longer be recognizable after translation. Such terms should be placed in quotation marks and not be translated into English. In this case, it should be noted that [country-specific characters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharacter_set_guidl.htm "Guideline") can be replaced with 7-bit ASCII characters. The goal of the above rule is to enable as many users a possible to follow the program flow. This is still possible if non-IT terms are worded in another language.
 
 Note
 
-This rule applies regardless of the [original language](javascript:call_link\('abenoriginal_langu_guidl.htm'\) "Guideline") chosen.
+This rule applies regardless of the [original language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoriginal_langu_guidl.htm "Guideline") chosen.
 
 Bad Example
 
@@ -69,4 +69,4 @@ CREATE OBJECT splitter\_v
     rows = 2
     columns = 1.
 
-The goal of this example is to show the difference between German and English comments. If more meaningful [names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline") had been chosen, that is splitter\_horizontal instead of splitter\_h, and so on, comments could be dispensed with altogether, thus complying with the following [rule](javascript:call_link\('abencontent_guidl.htm'\) "Guideline").
+The goal of this example is to show the difference between German and English comments. If more meaningful [names](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentelling_names_guidl.htm "Guideline") had been chosen, that is splitter\_horizontal instead of splitter\_h, and so on, comments could be dispensed with altogether, thus complying with the following [rule](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencontent_guidl.htm "Guideline").

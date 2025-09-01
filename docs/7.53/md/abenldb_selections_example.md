@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Examples](javascript:call_link\('abenldb_examples.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenldb.htm) →  [Logical Databases - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenldb_examples.htm) → 
 
 Example of a Selection Include
 
-A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](javascript:call_link\('abenldb_example.htm'\)). The generated proposal for the selection include is then as follows:
+A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows:
 
 \*-----------------------------------------------------------\*
 \* Include DBTEST\_LDBSEL

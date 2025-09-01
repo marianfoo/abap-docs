@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 message maintenance
 
-Tool in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry") for creating and editing [messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry"). Called using [transaction](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry") SE91.
+Tool in [ABAP Workbench](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_workbench_glosry.htm "Glossary Entry") for creating and editing [messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry"). Called using [transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_code_glosry.htm "Glossary Entry") SE91.

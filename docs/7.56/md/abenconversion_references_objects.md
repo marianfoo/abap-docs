@@ -4,17 +4,18 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Setting Reference Variables](javascript:call_link\('abenset_references.htm'\)) →  [Assignment Rules for Reference Variables](javascript:call_link\('abenconversion_references.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreference_assignments.htm) →  [Setting Reference Variables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenset_references.htm) →  [Assignment Rules for Reference Variables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_references.htm) → 
 
 Assignments Between Object Reference Variables
 
 Object reference variables are either class references or interface reference variables.
 
--   [Up Cast in Object References](#abenconversion-references-objects-1-------down-cast-in-object-references---@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_2)
+-   [Up Cast in Object References](#@@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_1)
+-   [Down Cast in Object References](#@@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_2)
 
 Up Cast in Object References
 
-An [up cast](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") in object references is possible in the following cases:
+An [up cast](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenup_cast_glosry.htm "Glossary Entry") in object references is possible in the following cases:
 
 -   If both static types are classes, the class of the target variable must be the same class or a superclass of the source variable.
 -   If both static types are interfaces, the interface of the target variable must be the same interface or a component interface of the source variable.
@@ -41,7 +42,7 @@ For all cases not specified under the up cast, assignments can only be programme
 
 Example
 
-Declaration of interfaces and classes, creation of an object in the subclass, and access to the components of the object. In the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)), an up cast occurs implicitly from c2 to iref. The interface reference iref can only be used to access the components declared in the interface i2. Method m1 of the object cannot be called using iref. Once the object reference has been assigned to the class reference cref using a down cast, m1 can be accessed dynamically but not statically.
+Declaration of interfaces and classes, creation of an object in the subclass, and access to the components of the object. In the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object.htm), an up cast occurs implicitly from c2 to iref. The interface reference iref can only be used to access the components declared in the interface i2. Method m1 of the object cannot be called using iref. Once the object reference has been assigned to the class reference cref using a down cast, m1 can be accessed dynamically but not statically.
 
 INTERFACE i1.
   DATA a1 TYPE string.

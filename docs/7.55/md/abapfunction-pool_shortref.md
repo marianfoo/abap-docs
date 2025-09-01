@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  F
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  F
 
 FUNCTION-POOL - Quick reference
 
-[Reference](javascript:call_link\('abapfunction-pool.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfunction-pool.htm)
 
 Syntax
 
@@ -19,7 +19,7 @@ FUNCTION-POOL fpool *\[*NO STANDARD PAGE HEADING*\]*
 
 Effect
 
-Introduces a [function pool](javascript:call_link\('abenfunction_pool_glosry.htm'\) "Glossary Entry") fpool.
+Introduces a [function pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction_pool_glosry.htm "Glossary Entry") fpool.
 
 Additions
-See [REPORT](javascript:call_link\('abapreport_shortref.htm'\)).
+See [REPORT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreport_shortref.htm).

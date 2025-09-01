@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) →  [Lossless Assignments, Rules](javascript:call_link\('abapmove_exact.htm'\)) →  [Checking Elementary Data Objects](javascript:call_link\('abenmove_exact_elementary.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlossless_move.htm) →  [Lossless Assignments, Rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove_exact.htm) →  [Checking Elementary Data Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmove_exact_elementary.htm) → 
 
 Lossless Assignment
 
-This example demonstrates how the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) is used to make lossless assignments.
+This example demonstrates how the operator [EXACT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_exact.htm) is used to make lossless assignments.
 
 Source Code
 
@@ -40,6 +40,6 @@ START-OF-SELECTION.
 
 Description
 
-Without the operator EXACT, text is assigned to num\_text without the check for validity of the assigned value against the associated [conversion rules](javascript:call_link\('abenconversion_type_string.htm'\)), which produces a value that is not very intuitive, "00000042".
+Without the operator EXACT, text is assigned to num\_text without the check for validity of the assigned value against the associated [conversion rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_type_string.htm), which produces a value that is not very intuitive, "00000042".
 
 Using the operator EXACT, the value that is passed is checked and an exception is raised in the case in question.

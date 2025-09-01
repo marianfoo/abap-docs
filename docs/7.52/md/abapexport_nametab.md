@@ -17,7 +17,7 @@ Effect
 
 Exports a generated structure description. This statement can only be used by ABAP Workbench tools. For the field list f, a standard table without a secondary key can be specified.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

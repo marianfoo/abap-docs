@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.10](javascript:call_link\('abennews-610.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-6.htm) →  [Changes in Release 6.10](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-610.htm) → 
 
 Type Concept in Release 6.10
 
@@ -33,7 +33,7 @@ Modification 2
 
 New Generic Types for Field Symbols and Formal Parameters
 
-The new [generic types](javascript:call_link\('abenbuilt_in_types_generic.htm'\)) can be used for typing field symbols and parameters in subroutines, function modules, or methods. The following table shows their variants:
+The new [generic types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_types_generic.htm) can be used for typing field symbols and parameters in subroutines, function modules, or methods. The following table shows their variants:
 
 Gen. Type
 

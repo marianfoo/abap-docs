@@ -4,35 +4,35 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Setting Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_assignments.htm) →  [Setting Field Symbols](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenset_field_symbols.htm) → 
 
 ASSIGN
 
-[Short Reference](javascript:call_link\('abapassign_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_shortref.htm)
 
 Syntax
 
-ASSIGN [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) TO <fs> [casting\_spec](javascript:call_link\('abapassign_casting.htm'\)) [range\_spec](javascript:call_link\('abapassign_range.htm'\)).
+ASSIGN [mem\_area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area.htm) TO <fs> [casting\_spec](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_casting.htm) [range\_spec](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_range.htm).
 
 Effect
 
-This statement assigns the memory area specified using [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) to the field symbol <fs>. A data object or a memory area calculated from the address of a data object can be assigned. After a successful assignment, the field symbol refers to the assigned memory area and can be used in operand positions. When used in a statement, it works like a dereferenced data reference, meaning that the statement works with the content of the memory area.
+This statement assigns the memory area specified using [mem\_area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area.htm) to the field symbol <fs>. A data object or a memory area calculated from the address of a data object can be assigned. After a successful assignment, the field symbol refers to the assigned memory area and can be used in operand positions. When used in a statement, it works like a dereferenced data reference, meaning that the statement works with the content of the memory area.
 
 The following can be specified for <fs>:
 
 -   An existing field symbol with appropriate typing.
 
--   An inline declaration [FIELD-SYMBOL(<fs>)](javascript:call_link\('abenfield-symbol_inline.htm'\)). The typing depends on the [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) specified.
+-   An inline declaration [FIELD-SYMBOL(<fs>)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield-symbol_inline.htm). The typing depends on the [mem\_area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area.htm) specified.
 
-The data type used to handle the assigned memory area depends on the specification in [casting\_spec](javascript:call_link\('abapassign_casting.htm'\)). Either an explicit [casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry") can be performed, or the field symbol inherits the data type of the data object specified in the assignment. In both cases, the data type used must [match](javascript:call_link\('abentyping_check_general.htm'\)) the [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of the field symbol. A field symbol to which a memory area is assigned, has this data type after the assignment and behaves like a data object of this type.
+The data type used to handle the assigned memory area depends on the specification in [casting\_spec](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_casting.htm). Either an explicit [casting](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencast_casting_glosry.htm "Glossary Entry") can be performed, or the field symbol inherits the data type of the data object specified in the assignment. In both cases, the data type used must [match](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_check_general.htm) the [typing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_glosry.htm "Glossary Entry") of the field symbol. A field symbol to which a memory area is assigned, has this data type after the assignment and behaves like a data object of this type.
 
-The assigned memory area mem\_area must be at least as long as the data type specified in casting\_spec and must have at least the same [alignment](javascript:call_link\('abenalignment_glosry.htm'\) "Glossary Entry"). If the data type determined in casting\_spec is [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry"), the deep components must correspond exactly in their type and position.
+The assigned memory area mem\_area must be at least as long as the data type specified in casting\_spec and must have at least the same [alignment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenalignment_glosry.htm "Glossary Entry"). If the data type determined in casting\_spec is [deep](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeep_glosry.htm "Glossary Entry"), the deep components must correspond exactly in their type and position.
 
-The specification in [range\_spec](javascript:call_link\('abapassign_range.htm'\)) is used to define the memory area that can be assigned to the field symbol.
+The specification in [range\_spec](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_range.htm) is used to define the memory area that can be assigned to the field symbol.
 
 System Fields
 
-The return value is set only for the [dynamic variants](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)) and the [table expression variant](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)) of [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)). If the constructor operator NEW is used as a [writable expression](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)), this operator sets the return value.
+The return value is set only for the [dynamic variants](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area_dynamic_dobj.htm) and the [table expression variant](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area_writable_exp.htm) of [mem\_area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area.htm). If the constructor operator NEW is used as a [writable expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area_writable_exp.htm), this operator sets the return value.
 
 sy-subrc
 
@@ -48,15 +48,15 @@ Assignment was not successful.
 
 8
 
-Assignment of [table expression](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)) was not successful.
+Assignment of [table expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area_writable_exp.htm) was not successful.
 
-If a dynamic assignment or assignment of a table expression was not successful, the field symbol keeps its previous state. If the static assignment was not successful, a memory is not assigned to the field symbol after the statement ASSIGN and the assignment can be checked with the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [<fs> IS ASSIGNED](javascript:call_link\('abenlogexp_assigned.htm'\)). If an assignment would lead to illegal memory accesses, an exception is raised for both static and dynamic ASSIGN statements.
+If a dynamic assignment or assignment of a table expression was not successful, the field symbol keeps its previous state. If the static assignment was not successful, a memory is not assigned to the field symbol after the statement ASSIGN and the assignment can be checked with the [predicate expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [<fs> IS ASSIGNED](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_assigned.htm). If an assignment would lead to illegal memory accesses, an exception is raised for both static and dynamic ASSIGN statements.
 
 Hints
 
 -   If field symbols are set using ASSIGN, permission to access the assigned data object is only checked at the position of the statement. The field symbol can then be passed on as required and used to access the assigned data object in any position. To prevent access to private and read-only attributes using field symbols outside classes, field symbols for these attributes should not be published externally. A constant or read-only input parameter, however, can never be made modifiable by passing a field symbol.
 
--   An obsolete form of the statement ASSIGN is [ASSIGN LOCAL COPY](javascript:call_link\('abapassign_local_copy.htm'\)).
+-   An obsolete form of the statement ASSIGN is [ASSIGN LOCAL COPY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_local_copy.htm).
     
 
 Example
@@ -74,7 +74,7 @@ cl\_demo\_output=>new(
   )->write(   <month>
   )->display( <day> ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -154,6 +154,6 @@ Uncatchable Exceptions
     Runtime error: ASSIGN\_UC\_STRUCT\_CONFLICT
 
 Continue
-[ASSIGN, mem\_area](javascript:call_link\('abapassign_mem_area.htm'\))
-[ASSIGN, casting\_spec](javascript:call_link\('abapassign_casting.htm'\))
-[ASSIGN, range\_spec](javascript:call_link\('abapassign_range.htm'\))
+[ASSIGN, mem\_area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area.htm)
+[ASSIGN, casting\_spec](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_casting.htm)
+[ASSIGN, range\_spec](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_range.htm)

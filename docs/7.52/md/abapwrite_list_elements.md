@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Creating Lists](javascript:call_link\('abenabap_lists.htm'\)) →  [WRITE](javascript:call_link\('abapwrite-.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpro_list.htm) →  [Creating Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_lists.htm) →  [WRITE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite-.htm) → 
 
 WRITE - list\_elements
 
-[Quick Reference](javascript:call_link\('abapwrite_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_shortref.htm)
 
 Syntax
 
@@ -28,7 +28,7 @@ Effect
 
 These additions are used to represent special list elements.
 
-The data object dobj in the output must have certain properties. The additions cannot be used together. If they are used with the additions for [internal formats](javascript:call_link\('abapwrite_int_options.htm'\)) and [external formats](javascript:call_link\('abapwrite_ext_options.htm'\)), they can only be used to a limited extent.
+The data object dobj in the output must have certain properties. The additions cannot be used together. If they are used with the additions for [internal formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_int_options.htm) and [external formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_ext_options.htm), they can only be used to a limited extent.
 
 Alternative 1
 
@@ -40,7 +40,7 @@ The output of this addition is a single-character checkbox that is ready for inp
 
 The user can select and deselect the checkbox in the list displayed on the screen. If the user selects the checkbox, the first character of the assigned field in the list is set to "X". If the user deselects it, it is set to blank. The change is stored in the list buffer and can be evaluated during a list event.
 
-If the addition AS CHECKBOX is used, no list output len is allowed after AT. Except for INPUT, NO-GAP, and UNDER, the other additions specified at the same time for [internal formats](javascript:call_link\('abapwrite_int_options.htm'\)) and [external formats](javascript:call_link\('abapwrite_ext_options.htm'\)) are ignored.
+If the addition AS CHECKBOX is used, no list output len is allowed after AT. Except for INPUT, NO-GAP, and UNDER, the other additions specified at the same time for [internal formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_int_options.htm) and [external formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_ext_options.htm) are ignored.
 
 The addition AS CHECKBOX has the same effect as specifying the addition INPUT ON simultaneously. The standard settings or a format INPUT OFF set by a FORMAT statement are overridden for the current WRITE statement. To make the checkbox not ready for input, the addition INPUT OFF must be used simultaneously.
 
@@ -48,7 +48,7 @@ Notes
 
 -   If a list line contains only a checkbox with a blank, it is displayed only if the statement SET BLANK LINES ON is executed beforehand.
     
--   By default, addition [HOTSPOT ON](javascript:call_link\('abapformat.htm'\)) has no effect on a checkbox. [HOTSPOT ON](javascript:call_link\('abapformat.htm'\)) only has an effect, if INPUT OFF is deactivated.
+-   By default, addition [HOTSPOT ON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapformat.htm) has no effect on a checkbox. [HOTSPOT ON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapformat.htm) only has an effect, if INPUT OFF is deactivated.
     
 
 Example
@@ -73,15 +73,15 @@ Effect
 
 This addition produces icons. Be aware that not all icons are suitable for spool lists. dobj expects data objects of the type c whose initial characters can be interpreted as the internal ID of an icon by the runtime environment.
 
-In the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") ICON, a constant is declared for each icon that can be displayed. The names of the constants can be taken from the type group or the output of the SHOWICON program. This program also shows the corresponding output length and whether an icon can be spooled or not.
+In the [type group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry") ICON, a constant is declared for each icon that can be displayed. The names of the constants can be taken from the type group or the output of the SHOWICON program. This program also shows the corresponding output length and whether an icon can be spooled or not.
 
-If the content of dobj cannot be interpreted as an icon or the content is changed by concurrent use of other additions for [internal formats](javascript:call_link\('abapwrite_int_options.htm'\)) or [external formats](javascript:call_link\('abapwrite_ext_options.htm'\)), blanks are produced instead of icons.
+If the content of dobj cannot be interpreted as an icon or the content is changed by concurrent use of other additions for [internal formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_int_options.htm) or [external formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_ext_options.htm), blanks are produced instead of icons.
 
 Notes
 
--   None of the additions from the [internal formats](javascript:call_link\('abapwrite_int_options.htm'\)) and [external formats](javascript:call_link\('abapwrite_ext_options.htm'\)) are forbidden. When using these additions, care must be taken that the content of dobj can be interpreted as an icon.
+-   None of the additions from the [internal formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_int_options.htm) and [external formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_ext_options.htm) are forbidden. When using these additions, care must be taken that the content of dobj can be interpreted as an icon.
     
--   The [output length](javascript:call_link\('abenwrite_output_length.htm'\)) is determined, as usual, either implicitly using the data type of dobj or by being specified explicitly. Characters in the output area that do not have the icon are set to blanks.
+-   The [output length](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwrite_output_length.htm) is determined, as usual, either implicitly using the data type of dobj or by being specified explicitly. Characters in the output area that do not have the icon are set to blanks.
     
 -   The program SHOWICON shows two internal IDs for each icon:
     
@@ -90,7 +90,7 @@ Notes
 
 -   A six-character string composed of uppercase letters and any underscores as the internal name.
 
-If a character string that is output using WRITE has an internal ID of this type between two "@" characters at the start, this is represented as an icon in the list output, even without the addition AS ICON. This can lead to unintended output of icons and unexpected effects in terms of the output length. By default, the output length is determined by the length of the character string. However, this attribute can also be exploited, for example, to use icons at the start of [text symbols](javascript:call_link\('abentext_symbol_glosry.htm'\) "Glossary Entry"). IDs that are not at the start are not represented as icons.
+If a character string that is output using WRITE has an internal ID of this type between two "@" characters at the start, this is represented as an icon in the list output, even without the addition AS ICON. This can lead to unintended output of icons and unexpected effects in terms of the output length. By default, the output length is determined by the length of the character string. However, this attribute can also be exploited, for example, to use icons at the start of [text symbols](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_symbol_glosry.htm "Glossary Entry"). IDs that are not at the start are not represented as icons.
 
 Example
 
@@ -111,11 +111,11 @@ Alternative 3
 
 Effect
 
-This addition produces all the characters of the data object dobj as symbols. The [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") SYM declares constants with a length of 1 for each character that can be displayed as a symbol, and whose name reflects the meaning of the symbol. The names of the constants and the meaning and length of the symbols can be taken from the type group or from the output of the program SHOWSYMB.
+This addition produces all the characters of the data object dobj as symbols. The [type group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry") SYM declares constants with a length of 1 for each character that can be displayed as a symbol, and whose name reflects the meaning of the symbol. The names of the constants and the meaning and length of the symbols can be taken from the type group or from the output of the program SHOWSYMB.
 
 Note
 
-The [output length](javascript:call_link\('abenwrite_output_length.htm'\)) is determined, as usual, either implicitly using the data type of dobj or by being specified explicitly.
+The [output length](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwrite_output_length.htm) is determined, as usual, either implicitly using the data type of dobj or by being specified explicitly.
 
 Example
 
@@ -129,7 +129,7 @@ Alternative 4
 
 Effect
 
-This addition produces [line elements](javascript:call_link\('abenline_element_glosry.htm'\) "Glossary Entry") with the output length 1. Line elements are corners, crosses, lines, and T sections. dobj expects data objects of the type c whose content can be interpreted as line elements by the runtime environment. The [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") LINE declares the line element constants displayed in the following table.
+This addition produces [line elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenline_element_glosry.htm "Glossary Entry") with the output length 1. Line elements are corners, crosses, lines, and T sections. dobj expects data objects of the type c whose content can be interpreted as line elements by the runtime environment. The [type group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry") LINE declares the line element constants displayed in the following table.
 
 Constant
 
@@ -183,11 +183,11 @@ line\_cross
 
 Cross
 
-If dobj has different content or the content is changed by concurrent use of other additions for [internal formats](javascript:call_link\('abapwrite_int_options.htm'\)), a blank is produced instead of a line element. The addition FRAMES OFF must not be specified simultaneously. The other additions for [external formats](javascript:call_link\('abapwrite_ext_options.htm'\)) and QUICKINFO are ignored in the output of line elements.
+If dobj has different content or the content is changed by concurrent use of other additions for [internal formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_int_options.htm), a blank is produced instead of a line element. The addition FRAMES OFF must not be specified simultaneously. The other additions for [external formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_ext_options.htm) and QUICKINFO are ignored in the output of line elements.
 
 Notes
 
--   The characters "-" and "|" and produced using ULINE are [joined with each other](javascript:call_link\('abenwrite_lines.htm'\)) by default, if no other characters exist between them. Here the system replaces the characters by the above line elements. A standalone character "|" is always replaced by a vertical line. The "-" characters from sy-uline are always replaced by a horizontal line. The default behavior can be switched off using the addition [FRAMES OFF](javascript:call_link\('abapformat.htm'\)).
+-   The characters "-" and "|" and produced using ULINE are [joined with each other](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwrite_lines.htm) by default, if no other characters exist between them. Here the system replaces the characters by the above line elements. A standalone character "|" is always replaced by a vertical line. The "-" characters from sy-uline are always replaced by a horizontal line. The default behavior can be switched off using the addition [FRAMES OFF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapformat.htm).
     
 -   The addition AS LINE produces line elements in the exact way they are defined. Links are produced only where line elements actually meet each other. The system does not, however, create any automatic extensions between the characters "-" or "|" and line elements produced explicitly using AS LINE.
     
@@ -207,4 +207,4 @@ WRITE: /10 line\_top\_left\_corner      AS LINE NO-GAP,
            line\_bottom\_right\_corner  AS LINE.
 
 Continue
-![Example](exa.gif "Example") [Lists, Line Elements](javascript:call_link\('abenlist_line_elements_abexa.htm'\))
+![Example](exa.gif "Example") [Lists, Line Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_line_elements_abexa.htm)

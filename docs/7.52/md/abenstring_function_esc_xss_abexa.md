@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Functions](javascript:call_link\('abenstring_functions.htm'\)) →  [Examples of String Functions](javascript:call_link\('abenstring_functions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_processing_expr_func.htm) →  [String Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions.htm) →  [Examples of String Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_abexas.htm) → 
 
 String Functions, escape for XSS
 
-This example demonstrates the string function [escape](javascript:call_link\('abenescape_functions.htm'\)) for preventing XSS.
+This example demonstrates the string function [escape](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenescape_functions.htm) for preventing XSS.
 
 Source Code
 
@@ -87,6 +87,6 @@ START-OF-SELECTION.
 
 Description
 
-A search term can be entered in a dialog box. An output window provides a search function in the ABAP keyword documentation and with an external search engine. By default, the input is escaped using the function escape and the format cl\_abap\_format=>e\_xss\_ml. This prevents cross site scripting ([XSS](javascript:call_link\('abenxss_glosry.htm'\) "Glossary Entry")).
+A search term can be entered in a dialog box. An output window provides a search function in the ABAP keyword documentation and with an external search engine. By default, the input is escaped using the function escape and the format cl\_abap\_format=>e\_xss\_ml. This prevents cross site scripting ([XSS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxss_glosry.htm "Glossary Entry")).
 
 The function can be disabled for specific input, which demonstrates the effects of an XSS attack. The input makes the links on the output window and the following input field unusable. More harmful functions could be used instead of the JavaScript function alert, but are not permitted in this example.

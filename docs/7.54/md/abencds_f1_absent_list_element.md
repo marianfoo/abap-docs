@@ -4,17 +4,17 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE ABSTRACT ENTITY](javascript:call_link\('abencds_f1_define_abstract_entity.htm'\)) →  [ABAP CDS - DEFINE ABSTRACT ENTITY, element\_list](javascript:call_link\('abencds_f1_absent_element_list.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE ABSTRACT ENTITY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_abstract_entity.htm) →  [ABAP CDS - DEFINE ABSTRACT ENTITY, element\_list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_absent_element_list.htm) → 
 
 ABAP CDS - DEFINE ABSTRACT ENTITY, element
 
 Syntax
 
-... *\[*[@element\_annot1](javascript:call_link\('abencds_f1_return_list_annotation.htm'\))*\]*
-    *\[*[@element\_annot2](javascript:call_link\('abencds_f1_return_list_annotation.htm'\))*\]*
+... *\[*[@element\_annot1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_return_list_annotation.htm)*\]*
+    *\[*[@element\_annot2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_return_list_annotation.htm)*\]*
     ...
-    *{* *\[*KEY*\]* name   : [typing](javascript:call_link\('abencds_typing.htm'\)) *}*
-  *|* *{*       \_assoc : [association](javascript:call_link\('abencds_f1_absent_association.htm'\)) *}* ...
+    *{* *\[*KEY*\]* name   : [typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_typing.htm) *}*
+  *|* *{*       \_assoc : [association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_absent_association.htm) *}* ...
 
 Extras:
 
@@ -23,11 +23,11 @@ Extras:
 
 Effect
 
-Specifies an element name or publication of a CDS association \_assoc in the [list of elements](javascript:call_link\('abencds_f1_absent_element_list.htm'\)) of an [abstract CDS entity](javascript:call_link\('abenabstract_glosry.htm'\) "Glossary Entry"). name or \_assoc must be used to specify a unique name that complies with the naming rules for [names](javascript:call_link\('abencds_general_syntax_rules.htm'\)). Here, the name of a CDS association can start with an underscore \_, as recommended. The names of the elements and CDS associations are in the same namespace as the [parameters](javascript:call_link\('abencds_f1_func_parameter_list.htm'\)) of the table function. Furthermore, name cannot contain any slash (/) characters and cannot be a reserved name in ABAP Dictionary. The reserved names that cannot be used are specified in the database table TRESE.
+Specifies an element name or publication of a CDS association \_assoc in the [list of elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_absent_element_list.htm) of an [abstract CDS entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabstract_glosry.htm "Glossary Entry"). name or \_assoc must be used to specify a unique name that complies with the naming rules for [names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_general_syntax_rules.htm). Here, the name of a CDS association can start with an underscore \_, as recommended. The names of the elements and CDS associations are in the same namespace as the [parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_func_parameter_list.htm) of the table function. Furthermore, name cannot contain any slash (/) characters and cannot be a reserved name in ABAP Dictionary. The reserved names that cannot be used are specified in the database table TRESE.
 
--   If the addition [association](javascript:call_link\('abencds_f1_absent_association.htm'\)) is not used, an element is defined that is typed with an elementary data type [typing](javascript:call_link\('abencds_typing.htm'\)). The typing determines the data type of the corresponding component of the structured data type represented by the abstract CDS entity.
+-   If the addition [association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_absent_association.htm) is not used, an element is defined that is typed with an elementary data type [typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_typing.htm). The typing determines the data type of the corresponding component of the structured data type represented by the abstract CDS entity.
 
--   The addition [association](javascript:call_link\('abencds_f1_absent_association.htm'\)) is used to publish a [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") of the name name. No component of this name is created in the associated structured data type.
+-   The addition [association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_absent_association.htm) is used to publish a [CDS association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_association_glosry.htm "Glossary Entry") of the name name. No component of this name is created in the associated structured data type.
 
 It is not case-sensitive. The blanks in the comma-separated list are ignored and can be omitted.
 
@@ -37,7 +37,7 @@ Addition 1
 
 Effect
 
-Specifies annotations for the element. The annotations can be specified in front of every element and every CDS association using [@element\_annot](javascript:call_link\('abencds_f1_absent_list_annotation.htm'\)).
+Specifies annotations for the element. The annotations can be specified in front of every element and every CDS association using [@element\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_absent_list_annotation.htm).
 
 Note
 
@@ -49,12 +49,12 @@ Addition 2
 
 Effect
 
-KEY is used to define the current element as the key element of the current [abstract CDS entity](javascript:call_link\('abenabstract_entity_glosry.htm'\) "Glossary Entry"). Those elements of the [element list](javascript:call_link\('abencds_f1_return_list.htm'\)) can be defined as key elements that are placed without gaps at the start of the list.
+KEY is used to define the current element as the key element of the current [abstract CDS entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabstract_entity_glosry.htm "Glossary Entry"). Those elements of the [element list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_return_list.htm) can be defined as key elements that are placed without gaps at the start of the list.
 
 Note
 
 The key elements of an abstract CDS entity can be used to create an abstract data model.
 
 Continue
-[ABAP CDS - DEFINE ABSTRACT ENTITY, element\_annot](javascript:call_link\('abencds_f1_absent_list_annotation.htm'\))
-[ABAP CDS - DEFINE ABSTRACT ENTITY, association](javascript:call_link\('abencds_f1_absent_association.htm'\))
+[ABAP CDS - DEFINE ABSTRACT ENTITY, element\_annot](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_absent_list_annotation.htm)
+[ABAP CDS - DEFINE ABSTRACT ENTITY, association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_absent_association.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [News for Release 6.40](javascript:call_link\('abennews-640.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 6.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-6.htm) →  [News for Release 6.40](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-640.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP SQL in Release 6.40, ABENNEWS-640-SQL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0
 D%0ASuggestion for improvement:)
@@ -19,13 +19,13 @@ Modification 1  
 
 Dynamic Checks on Ranges Tables
 
-From Release 6.40, it is possible to analyze a [ranges table](javascript:call_link\('abenranges_table_glosry.htm'\) "Glossary Entry") in a [dynamic WHERE condition](javascript:call_link\('abenwhere_logexp_dynamic.htm'\))
+From Release 6.40, it is possible to analyze a [ranges table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenranges_table_glosry.htm "Glossary Entry") in a [dynamic WHERE condition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwhere_logexp_dynamic.htm)
 
 Modification 2   
 
 Dynamic Checks on Internal Tables
 
-From Release 6.40, it is possible to analyze an internal table specified in [FOR ALL ENTRIES](javascript:call_link\('abenwhere_all_entries.htm'\)) in a [dynamic WHERE condition](javascript:call_link\('abenwhere_logexp_dynamic.htm'\)). The syntax comparison with a column in the internal table can be made statically or dynamically.
+From Release 6.40, it is possible to analyze an internal table specified in [FOR ALL ENTRIES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwhere_all_entries.htm) in a [dynamic WHERE condition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwhere_logexp_dynamic.htm). The syntax comparison with a column in the internal table can be made statically or dynamically.
 
 Hint
 

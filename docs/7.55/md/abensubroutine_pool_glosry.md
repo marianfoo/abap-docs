@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 subroutine pool
 
-[ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry") that usually contains [subroutines](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry") that are called from other ABAP programs. It does not support its own [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry").
+[ABAP program](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_program_glosry.htm "Glossary Entry") that usually contains [subroutines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensubroutine_glosry.htm "Glossary Entry") that are called from other ABAP programs. It does not support its own [dynpros](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenprogram_type_oview.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_type_oview.htm)

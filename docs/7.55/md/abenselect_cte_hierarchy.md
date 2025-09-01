@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT, clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT, FROM](javascript:call_link\('abapfrom_clause.htm'\)) →  [SELECT, FROM data\_source](javascript:call_link\('abapselect_data_source.htm'\)) →  [SELECT, FROM hierarchy\_data](javascript:call_link\('abenselect_hierarchy_data.htm'\)) →  [SELECT, FROM hierarchy](javascript:call_link\('abenselect_hierarchy.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) →  [ABAP SQL - Read Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_reading.htm) →  [SELECT, clauses](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_clauses.htm) →  [SELECT, FROM](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfrom_clause.htm) →  [SELECT, FROM data\_source](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_data_source.htm) →  [SELECT, FROM hierarchy\_data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_hierarchy_data.htm) →  [SELECT, FROM hierarchy](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_hierarchy.htm) → 
 
 SELECT, FROM cte\_hierarchy
 
@@ -14,13 +14,13 @@ Syntax
 
 Effect
 
-Specifies a [CTE hierarchy](javascript:call_link\('abencte_hierarchy_glosry.htm'\) "Glossary Entry") +cte\_hierarchy as a an SQL hierarchy [hierarchy](javascript:call_link\('abenselect_hierarchy.htm'\)) in an ABAP SQL query of a [WITH](javascript:call_link\('abapwith.htm'\)) statement. A CTE hierarchy is a common table expression defined as an SQL hierarchy using the addition [WITH HIERARCHY](javascript:call_link\('abapwith_hierarchy.htm'\)).
+Specifies a [CTE hierarchy](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencte_hierarchy_glosry.htm "Glossary Entry") +cte\_hierarchy as a an SQL hierarchy [hierarchy](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_hierarchy.htm) in an ABAP SQL query of a [WITH](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwith.htm) statement. A CTE hierarchy is a common table expression defined as an SQL hierarchy using the addition [WITH HIERARCHY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwith_hierarchy.htm).
 
-The rows of the tabular result set of a CTE hierarchy are the [hierarchy nodes](javascript:call_link\('abenhierarchy_node_glosry.htm'\) "Glossary Entry") of the SQL hierarchy accessed in its subquery, including their [hierarchy columns](javascript:call_link\('abenddddl_hierarchy.htm'\)).
+The rows of the tabular result set of a CTE hierarchy are the [hierarchy nodes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhierarchy_node_glosry.htm "Glossary Entry") of the SQL hierarchy accessed in its subquery, including their [hierarchy columns](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddddl_hierarchy.htm).
 
 Hint
 
-More specifically, a CTE hierarchy can be specified as a source of the [hierarchy navigators](javascript:call_link\('abenhierarchy_navigator_glosry.htm'\) "Glossary Entry").
+More specifically, a CTE hierarchy can be specified as a source of the [hierarchy navigators](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhierarchy_navigator_glosry.htm "Glossary Entry").
 
 Example
 
@@ -47,4 +47,4 @@ WITH +tree AS (
 
 Example
 
-See also the example under [WITH - hierarchy](javascript:call_link\('abapwith_hierarchy.htm'\)).
+See also the example under [WITH - hierarchy](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwith_hierarchy.htm).

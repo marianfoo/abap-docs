@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Character String and Byte String Processing](javascript:call_link\('abencharacter_string_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) →  [Obsolete Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharacter_string_obsolete.htm) → 
 
 CONVERT - DATE, INVERTED-DATE
 
-[Quick Reference](javascript:call_link\('abapconvert_date_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_date_shortref.htm)
 
 Obsolete Syntax
 
@@ -17,17 +17,17 @@ CONVERT *{* *{*DATE dat1 INTO INVERTED-DATE dat2*}*
 
 Effect
 
-These variants of the statement CONVERT are not permitted in classes. They convert the digits in a character-like data object in dat1 into their complement on nine (the difference to the number nine) and assign the result to the data object dat2. The data objects dat1 and dat2 must have a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like data type with length 8. The same data object can be specified for dat2 as for dat1.
+These variants of the statement CONVERT are not permitted in classes. They convert the digits in a character-like data object in dat1 into their complement on nine (the difference to the number nine) and assign the result to the data object dat2. The data objects dat1 and dat2 must have a [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") character-like data type with length 8. The same data object can be specified for dat2 as for dat1.
 
 Notes
 
--   These forms of the statement CONVERT are not allowed in classes. They were previously used for sorting by date fields in internal tables and [extracts](javascript:call_link\('abenextract_glosry.htm'\) "Glossary Entry") for changing the sort direction. These have now been replaced by the additions ASCENDING and DESCENDING of the statement [SORT](javascript:call_link\('abapsort_itab.htm'\)). If necessary, the complement on nine can be formed using the following [TRANSLATE](javascript:call_link\('abaptranslate.htm'\)) statement:
+-   These forms of the statement CONVERT are not allowed in classes. They were previously used for sorting by date fields in internal tables and [extracts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextract_glosry.htm "Glossary Entry") for changing the sort direction. These have now been replaced by the additions ASCENDING and DESCENDING of the statement [SORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_itab.htm). If necessary, the complement on nine can be formed using the following [TRANSLATE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptranslate.htm) statement:
     
 
 dat2 = dat1.
 TRANSLATE dat2 USING '09182736455463728190'.
 
--   The variant of the statement CONVERT DATE shown here must not be mistaken for the statement [CONVERT DATE ... INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)) used for creating time stamps.
+-   The variant of the statement CONVERT DATE shown here must not be mistaken for the statement [CONVERT DATE ... INTO TIME STAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_date_time-stamp.htm) used for creating time stamps.
     
 
 Example
@@ -51,7 +51,7 @@ The last nine lines can be replaced by a single line:
 
 SORT sflight\_tab BY fldate DESCENDING.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

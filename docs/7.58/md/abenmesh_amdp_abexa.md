@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20AMDP%20-%20Filling%20a%20Mesh%20with%20SQLScript%2C%20ABENMESH_AMDP_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -76,9 +76,9 @@ ENDCLASS.
 
 Description   
 
-The AMDP class CL\_DEMO\_AMDP\_MESH has a private AMDP method SELECT\_HDB called by the public method SELECT if the current [standard database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") is the SAP HANA database. For all other databases, the private method SELECT\_ABAP\_SQL is called. Both methods return the same results, which is ensured by a [unit test](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") in the class.
+The AMDP class CL\_DEMO\_AMDP\_MESH has a private AMDP method SELECT\_HDB called by the public method SELECT if the current [standard database](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_db_glosry.htm "Glossary Entry") is the SAP HANA database. For all other databases, the private method SELECT\_ABAP\_SQL is called. Both methods return the same results, which is ensured by a [unit test](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunit_test_glosry.htm "Glossary Entry") in the class.
 
-The methods fill the nodes of a [mesh](javascript:call_link\('abenabap_meshes.htm'\)) for sales orders whose type is declared in the AMDP class. The number of sales orders is restricted using a ranges table. In both methods subqueries are used that access local data. In ABAP SQL, the subqueries [access internal tables](javascript:call_link\('abapselect_itab.htm'\)).
+The methods fill the nodes of a [mesh](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_meshes.htm) for sales orders whose type is declared in the AMDP class. The number of sales orders is restricted using a ranges table. In both methods subqueries are used that access local data. In ABAP SQL, the subqueries [access internal tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_itab.htm).
 
 SQLScript Implementation of the AMDP Method   
 

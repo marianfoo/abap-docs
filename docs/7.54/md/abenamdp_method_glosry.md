@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 AMDP method
 
-[Method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") in an [AMDP class](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") flagged as an [AMDP](javascript:call_link\('abenamdp_procedure_method_glosry.htm'\) "Glossary Entry") [procedure implementation](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") using [BY DATABASE PROCEDURE](javascript:call_link\('abapmethod_by_db_proc.htm'\)) or as an [](javascript:call_link\('abenamdp_procedure_method_glosry.htm'\) "Glossary Entry")[AMDP](javascript:call_link\('abenamdp_function_method_glosry.htm'\) "Glossary Entry") function implementation using [BY DATABASE FUNCTION](javascript:call_link\('abapmethod_by_db_proc.htm'\)) in the [implementation part](javascript:call_link\('abenimplementation_part_glosry.htm'\) "Glossary Entry") of the class.
+[Method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_glosry.htm "Glossary Entry") in an [AMDP class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_class_glosry.htm "Glossary Entry") flagged as an [AMDP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_procedure_method_glosry.htm "Glossary Entry") [procedure implementation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_class_glosry.htm "Glossary Entry") using [BY DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethod_by_db_proc.htm) or as an [](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_procedure_method_glosry.htm "Glossary Entry")[AMDP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_function_method_glosry.htm "Glossary Entry") function implementation using [BY DATABASE FUNCTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethod_by_db_proc.htm) in the [implementation part](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenimplementation_part_glosry.htm "Glossary Entry") of the class.
 
-[→ More](javascript:call_link\('abenamdp_methods.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_methods.htm)

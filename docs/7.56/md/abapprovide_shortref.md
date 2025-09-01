@@ -4,22 +4,22 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  P
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  P
 
 PROVIDE - Short Reference
 
-[Reference](javascript:call_link\('abapprovide.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprovide.htm)
 
 Syntax
 
 PROVIDE FIELDS *{*\**|**{*comp1 comp2 ...*}**}*
                FROM itab1 INTO wa1 VALID flag1 ...
                BOUNDS intliml1 AND intlimu1
-               *\[*WHERE [log\_exp1](javascript:call_link\('abenlog_exp_shortref.htm'\))*\]*
+               *\[*WHERE [log\_exp1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlog_exp_shortref.htm)*\]*
         FIELDS *{*\**|**{*comp1 comp2 ...*}**}*
                FROM itab2 INTO wa2 VALID flag2
                BOUNDS intliml2 AND intlimu2
-               *\[*WHERE [log\_exp2](javascript:call_link\('abenlog_exp_shortref.htm'\))*\]*
+               *\[*WHERE [log\_exp2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlog_exp_shortref.htm)*\]*
                ...
         BETWEEN extliml AND extlimu
         *\[*INCLUDING GAPS*\]*.

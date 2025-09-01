@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 Logical HDI Container
 
-Part of the definition of an [ABAP-managed HDI container (AMHC)](javascript:call_link\('abenamhc_glosry.htm'\) "Glossary Entry") to which a physical [HDI container](javascript:call_link\('abenhdi_container_glosry.htm'\) "Glossary Entry") in the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") is mapped. A logical HDI container can be used as a [logical schema](javascript:call_link\('abenlogical_schema_glosry.htm'\) "Glossary Entry") in an [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry").
+Part of the definition of an [ABAP-managed HDI container (AMHC)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamhc_glosry.htm "Glossary Entry") to which a physical [HDI container](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhdi_container_glosry.htm "Glossary Entry") in the [SAP HANA database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_database_glosry.htm "Glossary Entry") is mapped. A logical HDI container can be used as a [logical schema](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_schema_glosry.htm "Glossary Entry") in an [AMDP macro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_macro_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenlogical_database_schemas.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_database_schemas.htm)

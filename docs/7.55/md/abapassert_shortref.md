@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  A
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  A
 
 ASSERT - Quick reference
 
-[Reference](javascript:call_link\('abapassert.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassert.htm)
 
 Syntax
 
@@ -18,12 +18,12 @@ ASSERT *\[* *\[*ID group *\[*SUBKEY sub*\]**\]*
 
 Effect
 
-Defines an [assertion](javascript:call_link\('abenassertion_glosry.htm'\) "Glossary Entry"). If the logical expression log\_exp is false, either the program terminates with a runtime error, or processing switches to the ABAP debugger, or a log entry is created.
+Defines an [assertion](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassertion_glosry.htm "Glossary Entry"). If the logical expression log\_exp is false, either the program terminates with a runtime error, or processing switches to the ABAP debugger, or a log entry is created.
 
 Additions
 
 -   ID group
-    Assigns the assertion to a [checkpoint group](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry") group that controls its activation and behavior.
+    Assigns the assertion to a [checkpoint group](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencheckpoint_group_glosry.htm "Glossary Entry") group that controls its activation and behavior.
     
 
 -   SUBKEY sub
@@ -31,7 +31,7 @@ Additions
     
 
 -   FIELDS val1 val2 ...
-    Writes the content of data objects val1 val2 ... to the log or the [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry").
+    Writes the content of data objects val1 val2 ... to the log or the [short dump](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshort_dump_glosry.htm "Glossary Entry").
     
 
 -   CONDITION

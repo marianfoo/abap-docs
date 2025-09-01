@@ -4,39 +4,39 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT - GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Reads](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_reading.htm) →  [SELECT clauses](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_clauses.htm) →  [SELECT - GROUP BY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgroupby_clause.htm) → 
 
 SELECT - GROUP BY, grouping\_sets
 
-[Quick Reference](javascript:call_link\('abapselect_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_shortref.htm)
 
 Syntax
 
 ... GROUPING SETS ( ( *{* *}*
-                    *|* *{* [sql\_exp1](javascript:call_link\('abapsql_expr.htm'\)), [sql\_exp2](javascript:call_link\('abapsql_expr.htm'\)), ... *}* ),
+                    *|* *{* [sql\_exp1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm), [sql\_exp2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm), ... *}* ),
                     ( *{* *}*
-                    *|* *{* [sql\_exp1](javascript:call_link\('abapsql_expr.htm'\)), [sql\_exp2](javascript:call_link\('abapsql_expr.htm'\)), ... *}* ), ... ) ...
+                    *|* *{* [sql\_exp1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm), [sql\_exp2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm), ... *}* ), ... ) ...
 
 Effect
 
 GROUPING SETS is an addition of the GROUP BY clause used to define multiple grouping sets under a GROUP BY clause. The grouping sets are aggregated separately and grouped in a results set.
 
-The [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)) addition GROUPING SETS consists of a comma-separated list of grouping sets encloses in parentheses. Each grouping set is itself parenthesized and is specified as follows:
+The [GROUP BY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgroupby_clause.htm) addition GROUPING SETS consists of a comma-separated list of grouping sets encloses in parentheses. Each grouping set is itself parenthesized and is specified as follows:
 
 -   As an empty grouping set ( )
-    An empty grouping set represents an [aggregation](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry") across the entire [data source](javascript:call_link\('abapselect_data_source.htm'\)). It is used, for example, to calculate a [total sum](javascript:call_link\('abapselect_aggregate.htm'\))\-
+    An empty grouping set represents an [aggregation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenaggregate_expression_glosry.htm "Glossary Entry") across the entire [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_data_source.htm). It is used, for example, to calculate a [total sum](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_aggregate.htm)\-
     
 -   As a comma-separated list ( sql\_exp1, sql\_exp2, ... )
     A comma-separated list consisting of SQL expressions sql\_exp1, sql\_exp2, ... that defines the set of expressions to aggregate.
     
 
-Each grouping is viewed as a separate GROUP BY list and is evaluated as a list of this type. Here, the [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) sql\_exp1, sql\_exp2, ... outside of the grouping set are also respected. The following two examples demonstrate this:
+Each grouping is viewed as a separate GROUP BY list and is evaluated as a list of this type. Here, the [SQL expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) sql\_exp1, sql\_exp2, ... outside of the grouping set are also respected. The following two examples demonstrate this:
 
 GROUP BY sql\_exp1, GROUPING SETS( ( sql\_exp2 ), ( sql\_exp3, sql\_exp4 ) )
 
 GROUP BY GROUPING SETS( ( sql\_exp1, sql\_exp2 ), (sql\_exp1, sql\_exp3, sql\_exp4 ) )
 
-The results of the two GROUP BY clauses are equivalent and are the same as two [SELECT](javascript:call_link\('abapselect.htm'\)) statements joined using [UNION ALL](javascript:call_link\('abapunion.htm'\)). The following two GROUP BY lists are used here:
+The results of the two GROUP BY clauses are equivalent and are the same as two [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) statements joined using [UNION ALL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapunion.htm). The following two GROUP BY lists are used here:
 
 1.  sql\_exp1, sql\_exp2
     
@@ -47,26 +47,26 @@ The addition GROUPING SETS has an advantage over a UNION clause grouping because
 
 Rules
 
--   All columns used in the addition GROUPING SETS must be specified in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)).
+-   All columns used in the addition GROUPING SETS must be specified in the [SELECT list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_list.htm).
     
--   The expressions specified in GROUPING SETS cannot have the [data type](javascript:call_link\('abenddic_builtin_types.htm'\)) LCHR, LRAW, RAWSTRING, STRING, or GEOM\_EWKB.
+-   The expressions specified in GROUPING SETS cannot have the [data type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) LCHR, LRAW, RAWSTRING, STRING, or GEOM\_EWKB.
     
--   The result rows, plus the SQL expressions, can be in any order in the comma-separated list and the order does not affect the result of the aggregation. If the results of the aggregation need to be sorted in a specific way, an [ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) clause must be specified. The ORDER BY addition PRIMARY KEY is allowed.
+-   The result rows, plus the SQL expressions, can be in any order in the comma-separated list and the order does not affect the result of the aggregation. If the results of the aggregation need to be sorted in a specific way, an [ORDER BY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaporderby_clause.htm) clause must be specified. The ORDER BY addition PRIMARY KEY is allowed.
     
 -   The expressions that are part of the aggregation contain the null values as placeholders in the corresponding results.
     
 
 Tips
 
-The grouping function [GROUPING](javascript:call_link\('abengrouping_function.htm'\)) can be used to verify whether a specific column in the results set was aggregated or not.
+The grouping function [GROUPING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengrouping_function.htm) can be used to verify whether a specific column in the results set was aggregated or not.
 
 Notes
 
--   If the GROUP BY addition GROUPING SETS is used, the statement SELECT bypasses [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry").
+-   If the GROUP BY addition GROUPING SETS is used, the statement SELECT bypasses [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm "Glossary Entry").
     
 -   If the addition GROUPING SETS is used, the syntax check is performed in a strict mode, which handles the SELECT statement more strictly than the regular syntax check.
     
--   Grouping sets are not supported by all databases. In an ABAP program, it is possible to use the method USE\_FEATURES of the class [CL\_ABAP\_DBFEATURES](javascript:call_link\('abencl_abap_dbfeatures.htm'\)) to check whether the current database system or a database system accessed using a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") supports access to grouping sets. This requires the constant GROUPING\_SETS of the class to be passed to the method in an internal table.
+-   Grouping sets are not supported by all databases. In an ABAP program, it is possible to use the method USE\_FEATURES of the class [CL\_ABAP\_DBFEATURES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_dbfeatures.htm) to check whether the current database system or a database system accessed using a [secondary connection](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") supports access to grouping sets. This requires the constant GROUPING\_SETS of the class to be passed to the method in an internal table.
     
 
 Example
@@ -88,4 +88,4 @@ cl\_demo\_output=>display( result\_grouping\_sets ).
 
 Executable Example
 
-See [SELECT, Grouping Sets](javascript:call_link\('abenselect_grouping_sets_abexa.htm'\))
+See [SELECT, Grouping Sets](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_grouping_sets_abexa.htm)

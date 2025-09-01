@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 bit expression
 
-Formulation of a binary operation in a [calculation expression](javascript:call_link\('abencalculation_expression_glosry.htm'\) "Glossary Entry"). The result of a bit expression is a byte-like value. Bit expressions occur in [read positions of specific statements](javascript:call_link\('abenoperands_expressions.htm'\)).
+Formulation of a binary operation in a [calculation expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculation_expression_glosry.htm "Glossary Entry"). The result of a bit expression is a byte-like value. Bit expressions occur in [read positions of specific statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperands_expressions.htm).
 
-[→ More about](javascript:call_link\('abapcompute_bit.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_bit.htm)

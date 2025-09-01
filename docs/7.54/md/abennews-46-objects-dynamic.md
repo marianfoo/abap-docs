@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [Changes in Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews.htm) →  [Changes in Releases 4.xx](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-4.htm) →  [Changes in Release 4.6A](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-46a.htm) → 
 
 ABAP Objects - Dynamic Method Calls in Release 4.6A
 
@@ -12,7 +12,7 @@ In Release 4.6A, the kernel functions of ABAP Objects are enhanced by dynamic me
 
 Dynamic method call
 
-In addition to the old static [access](javascript:call_link\('abenclass_components_addressing.htm'\)), methods can now also be addressed dynamically using the usual ABAP parenthesis semantics.
+In addition to the old static [access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_components_addressing.htm), methods can now also be addressed dynamically using the usual ABAP parenthesis semantics.
 
 -   Calling an instance method meth:
     CALL METHOD ref->(f)
@@ -29,4 +29,4 @@ In addition to the old static [access](javascript:call_link\('abenclass_componen
 
 f and c are fields containing the name of the method meth or class class.
 
-In contrast to subroutines and function modules, the actual parameters can also be passed dynamically in dynamic [method calls](javascript:call_link\('abapcall_method_dynamic.htm'\)).
+In contrast to subroutines and function modules, the actual parameters can also be passed dynamically in dynamic [method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_dynamic.htm).

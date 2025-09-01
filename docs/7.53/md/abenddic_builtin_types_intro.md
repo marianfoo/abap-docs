@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) → 
 
 Built-In Data Types in ABAP Dictionary
 
@@ -18,17 +18,17 @@ The built-in data types in ABAP Dictionary are used as follows:
 
 The following sections describe the attributes of the built-in data types in ABAP Dictionary:
 
--   [Overview of All Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types.htm'\))
+-   [Overview of All Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm)
 
--   [Attributes of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\))
+-   [Attributes of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_prop.htm)
 
--   [Use of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_type_usage.htm'\))
+-   [Use of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_type_usage.htm)
 
 Example
 
 The database table DEMO\_DDIC\_TYPES has columns with many different built-in data types of ABAP Dictionary.
 
 Continue
-[Overview of All Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types.htm'\))
-[Attributes of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\))
-[Use of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_type_usage.htm'\))
+[Overview of All Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm)
+[Attributes of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types_prop.htm)
+[Use of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_type_usage.htm)

@@ -4,19 +4,19 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [Checkpoints](javascript:call_link\('abencheckpoints.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_tests.htm) →  [Checkpoints](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencheckpoints.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ASSERT%2C%20ABAPASSERT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ASSERT
 
-[Short Reference](javascript:call_link\('abapassert_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassert_shortref.htm)
 
 Syntax
 
 ASSERT *\[* *\[*ID group *\[*SUBKEY sub*\]**\]*
          *\[*FIELDS val1 val2 ...*\]*
-         CONDITION *\]* [log\_exp](javascript:call_link\('abenlogexp.htm'\)).
+         CONDITION *\]* [log\_exp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm).
 
 Additions:
 
@@ -27,25 +27,25 @@ Additions:
 
 Effect
 
-This statement defines an [assertion](javascript:call_link\('abenassertion_glosry.htm'\) "Glossary Entry"). Any [logical expression](javascript:call_link\('abenlogical_expression_glosry.htm'\) "Glossary Entry") can be specified for [log\_exp](javascript:call_link\('abenlogexp.htm'\)). An assertion is either active or inactive.
+This statement defines an [assertion](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassertion_glosry.htm "Glossary Entry"). Any [logical expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogical_expression_glosry.htm "Glossary Entry") can be specified for [log\_exp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm). An assertion is either active or inactive.
 
 -   Without the addition ID, the assertion is always active.
--   When using the addition ID, the activation and the behavior of the statement are controlled from outside the program by a [checkpoint group](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry").
+-   When using the addition ID, the activation and the behavior of the statement are controlled from outside the program by a [checkpoint group](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencheckpoint_group_glosry.htm "Glossary Entry").
 
 When the program reaches an active assertion, the logical expression is evaluated, and the program execution continues with the statement after ASSERT only if the result of log\_exp is true. After an inactive assertion, the logical expression log\_exp is not evaluated and the program execution continues with the statement following ASSERT.
 
 -   If the result of log\_exp is false, an uncatchable exception is raised for an assertion that is always active, if the addition ID is not specified, and the program terminates with the runtime error ASSERTION\_FAILED.
--   For an assertion activated externally, if the addition ID is specified, the operation mode specified for a [checkpoint group](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry") or the current [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry") determines how the program execution is continued.
+-   For an assertion activated externally, if the addition ID is specified, the operation mode specified for a [checkpoint group](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencheckpoint_group_glosry.htm "Glossary Entry") or the current [compilation unit](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompilation_unit_glosry.htm "Glossary Entry") determines how the program execution is continued.
 
 Programming Guideline
 
-[Using Assertions](javascript:call_link\('abenassertions_guidl.htm'\) "Guideline")
+[Using Assertions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassertions_guidl.htm "Guideline")
 
 Hints
 
--   If [functional methods](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") are specified as operands of a [relational expression](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry") in the logical expression log\_exp, they must not have any side effects. This must especially apply to assertions that can be activated externally, since the program behavior otherwise depends on the activation.
--   Assertions help verify certain assumptions about the state of a program in a particular location and ensure that these assumptions are met. Compared with the implementation with a conditional expression with [THROW SHORTDUMP](javascript:call_link\('abenconditional_expression_result.htm'\)), the ASSERT statement is shorter, its meaning is immediately recognizable, and it can be activated externally.
--   This is also true in comparison with an IF statement and a [RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\)) statement.
+-   If [functional methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunctional_method_glosry.htm "Glossary Entry") are specified as operands of a [relational expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrelational_expression_glosry.htm "Glossary Entry") in the logical expression log\_exp, they must not have any side effects. This must especially apply to assertions that can be activated externally, since the program behavior otherwise depends on the activation.
+-   Assertions help verify certain assumptions about the state of a program in a particular location and ensure that these assumptions are met. Compared with the implementation with a conditional expression with [THROW SHORTDUMP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expression_result.htm), the ASSERT statement is shorter, its meaning is immediately recognizable, and it can be activated externally.
+-   This is also true in comparison with an IF statement and a [RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_shortdump.htm) statement.
 
 Example
 
@@ -64,13 +64,13 @@ Addition 1  
 
 Effect
 
-The addition ID defines that the activation of the statement ASSERT is controlled from outside of the program using the [checkpoint group](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry") group. If the addition ID is specified, the addition CONDITION must be specified before the log\_exp logical expression.
+The addition ID defines that the activation of the statement ASSERT is controlled from outside of the program using the [checkpoint group](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencheckpoint_group_glosry.htm "Glossary Entry") group. If the addition ID is specified, the addition CONDITION must be specified before the log\_exp logical expression.
 
-The name of the checkpoint group must be specified directly, and the group must exist in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry"). A checkpoint group is managed using the transaction SAAB. For a checkpoint group, activation settings can be specified for the assigned checkpoints either directly or using [activation variants](javascript:call_link\('abenactivation_variant_glosry.htm'\) "Glossary Entry").
+The name of the checkpoint group must be specified directly, and the group must exist in the [repository](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_glosry.htm "Glossary Entry"). A checkpoint group is managed using the transaction SAAB. For a checkpoint group, activation settings can be specified for the assigned checkpoints either directly or using [activation variants](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenactivation_variant_glosry.htm "Glossary Entry").
 
 All checkpoint statements linked with the checkpoint group (ASSERT, BREAK-POINT, LOG-POINT) can be activated or deactivated using the checkpoint group. An activation setting consists of three components:
 
--   Validity area - Checkpoints specified in the checkpoint group or [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry")
+-   Validity area - Checkpoints specified in the checkpoint group or [compilation unit](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompilation_unit_glosry.htm "Glossary Entry")
 -   Context - User and/or AS instance specified
 -   Operation mode - System behavior of the different checkpoint types (assertions, breakpoints, or logpoints)
     
@@ -86,7 +86,7 @@ All checkpoint statements linked with the checkpoint group (ASSERT, BREAK-POINT,
         
     -   stop / log or stop / cancel
         
-        Branch to the ABAP Debugger. In [dialog processing](javascript:call_link\('abendialog_processing_glosry.htm'\) "Glossary Entry"), the statement ASSERT behaves like the statement [BREAK-POINT](javascript:call_link\('abapbreak-point.htm'\)). The specified alternative setting is used for the cases in which the statement BREAK-POINT writes an entry to the system log, namely for [background sessions](javascript:call_link\('abenbatch_session_glosry.htm'\) "Glossary Entry"), [update sessions](javascript:call_link\('abenupdate_session_glosry.htm'\) "Glossary Entry"), [ICF](javascript:call_link\('abenicf_session_glosry.htm'\) "Glossary Entry") sessions, and [APC](javascript:call_link\('abenapc_session_glosry.htm'\) "Glossary Entry") sessions without external debugging.
+        Branch to the ABAP Debugger. In [dialog processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendialog_processing_glosry.htm "Glossary Entry"), the statement ASSERT behaves like the statement [BREAK-POINT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapbreak-point.htm). The specified alternative setting is used for the cases in which the statement BREAK-POINT writes an entry to the system log, namely for [background sessions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbatch_session_glosry.htm "Glossary Entry"), [update sessions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenupdate_session_glosry.htm "Glossary Entry"), [ICF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenicf_session_glosry.htm "Glossary Entry") sessions, and [APC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_session_glosry.htm "Glossary Entry") sessions without external debugging.
         
     -   Cancel
         
@@ -99,7 +99,7 @@ Hints
 
 -   If the checkpoint statements are activated using the compilation unit, a checkpoint group must still be specified, since a checkpoint statement without the addition ID is always active.
 -   The validity period of activation settings with active operation modes is limited.
--   The statement [LOG-POINT](javascript:call_link\('abaplog-point.htm'\)) can be used to define a [logpoint](javascript:call_link\('abenlogpoint_glosry.htm'\) "Glossary Entry") if entries are to be written to a log. The statement ASSERT should not be used for this purpose.
+-   The statement [LOG-POINT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaplog-point.htm) can be used to define a [logpoint](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogpoint_glosry.htm "Glossary Entry") if entries are to be written to a log. The statement ASSERT should not be used for this purpose.
 
 Example
 
@@ -121,7 +121,7 @@ Effect
 
 The addition SUBKEY only has an effect if the statement ASSERT writes entries to a log. If SUBKEY is specified, the content of sub is stored in the log as a subkey. Any existing log entries of the same ASSERT statement are overwritten only if the subkey has the same content. If SUBKEY is not specified, the subkey is initial.
 
-sub is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry") of which the first 200 characters are evaluated. An expression or function specified here is evaluated only if the assertion is active and the logical expression is false.
+sub is a [character-like expression position](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry") of which the first 200 characters are evaluated. An expression or function specified here is evaluated only if the assertion is active and the logical expression is false.
 
 Addition 3   
 
@@ -129,18 +129,18 @@ Addition 3  
 
 Effect
 
-After the addition FIELDS, a list val1 val2 ... of any values, except for reference variables, can be specified. If the statement ASSERT writes entries to a log, the specified values val1 val2 ... are also included in the log. If an uncatchable exception is raised, the content of the first eight specified data objects is displayed in the associated [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry"). The addition FIELDS is ignored when a branch to the ABAP Debugger is performed.
+After the addition FIELDS, a list val1 val2 ... of any values, except for reference variables, can be specified. If the statement ASSERT writes entries to a log, the specified values val1 val2 ... are also included in the log. If an uncatchable exception is raised, the content of the first eight specified data objects is displayed in the associated [short dump](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshort_dump_glosry.htm "Glossary Entry"). The addition FIELDS is ignored when a branch to the ABAP Debugger is performed.
 
-val1 val2 ... are [functional operand positions](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry") in which data objects or functional methods can be specified. The methods are executed only if the assertion is active and the logical expression is false.
+val1 val2 ... are [functional operand positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunctional_position_glosry.htm "Glossary Entry") in which data objects or functional methods can be specified. The methods are executed only if the assertion is active and the logical expression is false.
 
 If the addition FIELDS is specified, the addition CONDITION must be specified before the log\_exp logical expression.
 
 Hints
 
 -   If functional methods are specified after SUBKEY and FIELDS, code for formatting log entries can be executed only after an assertion is violated.
--   The size of each data object stored in the log with the FIELDS addition is restricted by the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") abap/aab\_log\_field\_size\_limit. The value of the profile parameter specifies the size in bytes. The default value is 1,024. The value 0 means there is no restriction. When a log entry is created, the content of each data object is truncated when this limit is reached, and complete lines are removed from internal tables.
+-   The size of each data object stored in the log with the FIELDS addition is restricted by the [profile parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") abap/aab\_log\_field\_size\_limit. The value of the profile parameter specifies the size in bytes. The default value is 1,024. The value 0 means there is no restriction. When a log entry is created, the content of each data object is truncated when this limit is reached, and complete lines are removed from internal tables.
 -   The assertion log can be read in transaction SAAB.
--   The log to which assertions write is not the system log to which [breakpoints](javascript:call_link\('abapbreak-point.htm'\)) write during [background processing](javascript:call_link\('abenbackround_processing_glosry.htm'\) "Glossary Entry").
+-   The log to which assertions write is not the system log to which [breakpoints](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapbreak-point.htm) write during [background processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbackround_processing_glosry.htm "Glossary Entry").
 
 Example
 

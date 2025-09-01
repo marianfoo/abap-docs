@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 OO transaction
 
-The [transaction code](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry") of a OO transaction is associated with a [method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") of a local or global [class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry"). When the transaction is called, the associated program is loaded, for [instance methods](javascript:call_link\('abeninstance_method_glosry.htm'\) "Glossary Entry") an [object](javascript:call_link\('abenobject_glosry.htm'\) "Glossary Entry") of the class is created, and the method is executed. OO transactions can be associated using the transaction service of the [object services](javascript:call_link\('abenobject_services_glosry.htm'\) "Glossary Entry").
+The [transaction code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransaction_code_glosry.htm "Glossary Entry") of a OO transaction is associated with a [method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_glosry.htm "Glossary Entry") of a local or global [class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_glosry.htm "Glossary Entry"). When the transaction is called, the associated program is loaded, for [instance methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninstance_method_glosry.htm "Glossary Entry") an [object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_glosry.htm "Glossary Entry") of the class is created, and the method is executed. OO transactions can be associated using the transaction service of the [object services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_services_glosry.htm "Glossary Entry").

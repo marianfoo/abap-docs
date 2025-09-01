@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 next dynpro
 
-Each [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") has a next dynpro. This means that each dynpro is part of a [dynpro sequence](javascript:call_link\('abendynpro_sequence_glosry.htm'\) "Glossary Entry"). Next dynpros can be set statically in [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry") or by using [SET SCREEN](javascript:call_link\('abapset_screen.htm'\)) or [LEAVE TO SCREEN](javascript:call_link\('abapleave_screen.htm'\)) in the [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry"). If a dynpro links to a next dynpro with the [dynpro number](javascript:call_link\('abendynpro_number_glosry.htm'\) "Glossary Entry") 0, it is the last dynpro of the dynpro sequence.
+Each [dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") has a next dynpro. This means that each dynpro is part of a [dynpro sequence](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_sequence_glosry.htm "Glossary Entry"). Next dynpros can be set statically in [Screen Painter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_painter_glosry.htm "Glossary Entry") or by using [SET SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_screen.htm) or [LEAVE TO SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapleave_screen.htm) in the [ABAP program](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_glosry.htm "Glossary Entry"). If a dynpro links to a next dynpro with the [dynpro number](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_number_glosry.htm "Glossary Entry") 0, it is the last dynpro of the dynpro sequence.
 
-[→ More](javascript:call_link\('abenabap_dynpros_processing.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpros_processing.htm)

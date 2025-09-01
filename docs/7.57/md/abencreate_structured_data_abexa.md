@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) →  [CREATE DATA, TYPE, LIKE](javascript:call_link\('abapcreate_data_existing.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencreate_objects.htm) →  [CREATE DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_data.htm) →  [CREATE DATA, TYPE, LIKE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_data_existing.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Creating Structured Data Objects, ABENCREATE_STRUCTURED_DATA_ABEXA, 757%0D%0A%0D%0AEr
 ror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -60,8 +60,8 @@ START-OF-SELECTION.
 
 Description   
 
-Creation of a work area that matches any database table and reads the first few rows (rows) of the database table into this work area using a [SELECT](javascript:call_link\('abapselect.htm'\)) loop.
+Creation of a work area that matches any database table and reads the first few rows (rows) of the database table into this work area using a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) loop.
 
 The method CHECK\_TABLE\_NAME\_STR of the class CL\_ABAP\_DYN\_PRG checks whether the entered database table exists and can be used.
 
-See also the [executable example](javascript:call_link\('abenselect_into_new_wa_abexa.htm'\)) for SELECT INTO NEW, where the structure is created implicitly in the INTO clause.
+See also the [executable example](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_into_new_wa_abexa.htm) for SELECT INTO NEW, where the structure is created implicitly in the INTO clause.

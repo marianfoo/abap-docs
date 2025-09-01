@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) →  [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_screen.htm) →  [dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - Images in HTML, ABENMIME_PICTURES_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0
 D%0A%0D%0ASuggestion for improvement:)
@@ -110,4 +110,4 @@ Images loaded here from the MIME repository using an API are displayed in two br
 -   The method main1 uses the class CL\_GUI\_HTML\_VIEWER directly. Its method LOAD\_DATA is used to get a URL for the image in the internal table, which is then used on the HTML page.
 -   The method main2 uses the class CL\_ABAP\_BROWSER as a wrapper for the direct use of CL\_GUI\_HTML\_VIEWER and calls of the method LOAD\_DATA. A reference, linked with the name used in the HTML page, is passed to the internal table.
 
-See also the [executable example](javascript:call_link\('abenicf_mime_pictures_abexa.htm'\)) for direct access to objects from the MIME repository using ICF.
+See also the [executable example](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenicf_mime_pictures_abexa.htm) for direct access to objects from the MIME repository using ICF.

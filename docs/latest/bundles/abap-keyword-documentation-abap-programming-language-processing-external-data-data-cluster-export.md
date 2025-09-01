@@ -3,31 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abapexport_data_cluster.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm)
-- [abapexport_data_cluster_param.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_param.htm)
-- [abapexport_data_cluster_medium.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_medium.htm)
-- [abenexport_data_cluster_indx.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm)
-- [abenindx_type_table_and_sql.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenindx_type_table_and_sql.htm)
-- [abapexport_internal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_internal.htm)
-- [abenrabax_export_to_database.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrabax_export_to_database.htm)
-
-**Bundle Contains**: 7 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.931Z
-
----
-
 ### abapexport_data_cluster.htm
-
-> **📖 Official SAP Documentation**: [abapexport_data_cluster.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,17 +11,17 @@ Included pages: 8
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20EXPORT%2C%20ABAPEXPORT_DATA_CLUSTER%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 EXPORT
 
-[Short Reference](javascript:call_link\('abapexport_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_shortref.htm)
 
 Syntax
 
-EXPORT [parameter\_list](javascript:call_link\('abapexport_data_cluster_param.htm'\)) TO [medium](javascript:call_link\('abapexport_data_cluster_medium.htm'\)) *\[*COMPRESSION *{*ON*|*OFF*}**\]*.
+EXPORT [parameter\_list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_param.htm) TO [medium](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_medium.htm) *\[*COMPRESSION *{*ON*|*OFF*}**\]*.
 
 Addition:
 
@@ -53,19 +29,19 @@ Addition:
 
 Effect
 
-This statement stores a [data cluster](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") defined using [parameter\_list](javascript:call_link\('abapexport_data_cluster_param.htm'\)) in a memory medium [medium](javascript:call_link\('abapexport_data_cluster_medium.htm'\)). The addition COMPRESSION can be used to control whether the data is stored in the cluster in compressed form. A data cluster can be read from the memory medium using the statement [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) and deleted using [DELETE FROM](javascript:call_link\('abapdelete_cluster.htm'\)).
+This statement stores a [data cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster_glosry.htm "Glossary Entry") defined using [parameter\_list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_param.htm) in a memory medium [medium](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_medium.htm). The addition COMPRESSION can be used to control whether the data is stored in the cluster in compressed form. A data cluster can be read from the memory medium using the statement [IMPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_data_cluster.htm) and deleted using [DELETE FROM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_cluster.htm).
 
-All data objects are archived according to the current [byte order](javascript:call_link\('abenbyte_order_glosry.htm'\) "Glossary Entry") (endian) and character-like data objects according to the [character format](javascript:call_link\('abenchar_representation_glosry.htm'\) "Glossary Entry") of the current [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry"). The ID of the data cluster indicates which byte order and character format have been used during the export. When the data cluster is imported using the IMPORT statement, this ID is evaluated, and the data is converted to the current byte order and character representation.
+All data objects are archived according to the current [byte order](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_order_glosry.htm "Glossary Entry") (endian) and character-like data objects according to the [character format](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchar_representation_glosry.htm "Glossary Entry") of the current [text environment](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_environment_glosry.htm "Glossary Entry"). The ID of the data cluster indicates which byte order and character format have been used during the export. When the data cluster is imported using the IMPORT statement, this ID is evaluated, and the data is converted to the current byte order and character representation.
 
 A data cluster can have a maximum of 2 GB. Any attempts to export more than 2 GB raise a catchable exception of the class CX\_SY\_COMPRESSION\_ERROR. If a different resource bottleneck occurs earlier, however, its related exception can be raised first.
 
 Hint
 
-See also [Classes for Data Clusters](javascript:call_link\('abencl_abap_expimp.htm'\)).
+See also [Classes for Data Clusters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_expimp.htm).
 
 Example
 
-Export of an internal table to a [suitable](javascript:call_link\('abenexport_data_cluster_indx.htm'\)) DDIC database table DEMO\_INDX\_BLOB and import of the content from the data cluster to another internal table.
+Export of an internal table to a [suitable](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm) DDIC database table DEMO\_INDX\_BLOB and import of the content from the data cluster to another internal table.
 
 SELECT \*
        FROM scarr
@@ -82,11 +58,11 @@ Addition  
 
 Effect
 
-This addition determines whether the data in the data cluster is compressed. By default, compression is deactivated for all memory media [medium](javascript:call_link\('abapexport_data_cluster_medium.htm'\)), except database tables. If compression is required, it must be switched on using ON. If stored in a database table, compression is switched on by default and is only switched off if OFF is specified.
+This addition determines whether the data in the data cluster is compressed. By default, compression is deactivated for all memory media [medium](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_medium.htm), except database tables. If compression is required, it must be switched on using ON. If stored in a database table, compression is switched on by default and is only switched off if OFF is specified.
 
 Hints
 
--   When a data cluster is imported using [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)), the system automatically recognizes whether or not the data is compressed.
+-   When a data cluster is imported using [IMPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_data_cluster.htm), the system automatically recognizes whether or not the data is compressed.
 -   Compression saves space, but it is more time-consuming.
 
 Example
@@ -121,21 +97,14 @@ Example
 The program DEMO\_DATA\_CLUSTER demonstrates how the size of the data cluster is affected by a compression.
 
 Continue
-[EXPORT, parameter\_list](javascript:call_link\('abapexport_data_cluster_param.htm'\))
-[EXPORT, medium](javascript:call_link\('abapexport_data_cluster_medium.htm'\))
-[Export/Import Tables](javascript:call_link\('abenexport_data_cluster_indx.htm'\))
-[EXPORT, Internal Additions](javascript:call_link\('abapexport_internal.htm'\))
-[Exceptions in EXPORT](javascript:call_link\('abenrabax_export_to_database.htm'\))
+[EXPORT, parameter\_list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_param.htm)
+[EXPORT, medium](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_medium.htm)
+[Export/Import Tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm)
+[EXPORT, Internal Additions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_internal.htm)
+[Exceptions in EXPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrabax_export_to_database.htm)
 
-
-
-**📖 Source**: [abapexport_data_cluster.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm)
 
 ### abapexport_data_cluster_param.htm
-
-> **📖 Official SAP Documentation**: [abapexport_data_cluster_param.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_param.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -143,13 +112,13 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) →  [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster.htm) →  [EXPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20EXPORT%2C%20parameter_list%2C%20ABAPEXPORT_DATA_CLUSTER_PARAM%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 EXPORT, parameter\_list
 
-[Short Reference](javascript:call_link\('abapexport_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_shortref.htm)
 
 Syntax
 
@@ -165,7 +134,7 @@ Additions:
 
 Effect
 
-A [data cluster](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") can be defined statically by a parameter list in the form p1 = dobj1 p2 = dobj2 ... or p1 FROM dobj1  p2 FROM dobj2 ... and dynamically by specifying a parenthesized internal table ptab. Here the system searches for the data stored in the data cluster under the names p1, p2, .... The case of the names in the data clusters depends on how they are specified in the ABAP runtime framework. If specified statically (b1, b2, ...), uppercase is used. If specified dynamically in rtab, the case used there is used.
+A [data cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster_glosry.htm "Glossary Entry") can be defined statically by a parameter list in the form p1 = dobj1 p2 = dobj2 ... or p1 FROM dobj1  p2 FROM dobj2 ... and dynamically by specifying a parenthesized internal table ptab. Here the system searches for the data stored in the data cluster under the names p1, p2, .... The case of the names in the data clusters depends on how they are specified in the ABAP runtime framework. If specified statically (b1, b2, ...), uppercase is used. If specified dynamically in rtab, the case used there is used.
 
 If the data cluster is too big for the memory, an exception is raised.
 
@@ -179,17 +148,17 @@ Addition 2  
 
 Effect
 
-In static cases, the content of the data objects dobj is stored under the names p1, p2, ... in the cluster. The name of a parameter p1, p2, ... is converted to uppercase letters and can have a maximum of 255 characters. The specifications p1 = dobj1 p2 = dobj2 ... and p1 FROM dobj1  p2 FROM dobj2 ... have the same meaning. All data types can be used for the data object dobj, except reference types or data types that contain reference types as components. If a data object dobj is an internal table with a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"), the [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry") is addressed instead of the header line. When an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") is used, the enumerated value is flagged as an enumerated type and saved in the basic type.
+In static cases, the content of the data objects dobj is stored under the names p1, p2, ... in the cluster. The name of a parameter p1, p2, ... is converted to uppercase letters and can have a maximum of 255 characters. The specifications p1 = dobj1 p2 = dobj2 ... and p1 FROM dobj1  p2 FROM dobj2 ... have the same meaning. All data types can be used for the data object dobj, except reference types or data types that contain reference types as components. If a data object dobj is an internal table with a [header line](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenheader_line_glosry.htm "Glossary Entry"), the [table body](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_body_glosry.htm "Glossary Entry") is addressed instead of the header line. When an [enumerated object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_object_glosry.htm "Glossary Entry") is used, the enumerated value is flagged as an enumerated type and saved in the basic type.
 
 Programming Guideline
 
-[Alternative Language Constructs](javascript:call_link\('abenalternative_langu_guidl.htm'\) "Guideline")
+[Alternative Language Constructs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenalternative_langu_guidl.htm "Guideline")
 
 Hints
 
 -   The use of \= is recommended rather than FROM, since \= is also used by other ABAP statements to pass data.
--   To export objects referenced by reference variables, these can first be serialized using the statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) and then exported. In instances of classes, the class must implement the interface IF\_SERIALIZABLE\_OBJECT.
--   Outside of classes, and if the name does not contain a specified addressing such as an [instance component selector](javascript:call_link\('abeninstance_comp_selector_glosry.htm'\) "Glossary Entry") or an [offset/length specification](javascript:call_link\('abenoffset_length_specific_glosry.htm'\) "Glossary Entry"), the [obsolete short form](javascript:call_link\('abapexport_import_obsolete.htm'\)) dobj1 dobj2... can be used in the static variant. Here, all data objects are implicitly stored under their name in the data cluster.
+-   To export objects referenced by reference variables, these can first be serialized using the statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_transformation.htm) and then exported. In instances of classes, the class must implement the interface IF\_SERIALIZABLE\_OBJECT.
+-   Outside of classes, and if the name does not contain a specified addressing such as an [instance component selector](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninstance_comp_selector_glosry.htm "Glossary Entry") or an [offset/length specification](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length_specific_glosry.htm "Glossary Entry"), the [obsolete short form](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_import_obsolete.htm) dobj1 dobj2... can be used in the static variant. Here, all data objects are implicitly stored under their name in the data cluster.
 
 Example
 
@@ -218,8 +187,8 @@ In the dynamic case, the parameter list is specified in an index table ptab with
 
 Hints
 
--   Data objects whose names contain lowercase letters in the data cluster cannot be read using the static variant of the [specified parameters](javascript:call_link\('abapimport_parameterlist.htm'\)) of the statement IMPORT.
--   Outside of classes, a single-column internal table for parameter\_list can also be used. This is the dynamic variant of the [obsolete short form](javascript:call_link\('abapexport_import_obsolete.htm'\)) used to store the data objects listed in the table to the data cluster implicitly under their names.
+-   Data objects whose names contain lowercase letters in the data cluster cannot be read using the static variant of the [specified parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_parameterlist.htm) of the statement IMPORT.
+-   Outside of classes, a single-column internal table for parameter\_list can also be used. This is the dynamic variant of the [obsolete short form](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_import_obsolete.htm) used to store the data objects listed in the table to the data cluster implicitly under their names.
 
 Example
 
@@ -257,14 +226,7 @@ IMPORT (ptab)
 cl\_demo\_output=>display( wa ).
 
 
-
-**📖 Source**: [abapexport_data_cluster_param.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_param.htm)
-
 ### abapexport_data_cluster_medium.htm
-
-> **📖 Official SAP Documentation**: [abapexport_data_cluster_medium.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_medium.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -272,13 +234,13 @@ cl\_demo\_output=>display( wa ).
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) →  [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster.htm) →  [EXPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20EXPORT%2C%20medium%2C%20ABAPEXPORT_DATA_CLUSTER_MEDIUM%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 EXPORT, medium
 
-[Short Reference](javascript:call_link\('abapexport_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_shortref.htm)
 
 Syntax
 
@@ -300,11 +262,11 @@ Alternatives:
 
 Effect
 
-The exported [data cluster](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") can be stored in a byte string xstr, in an internal table itab, in the [ABAP memory](javascript:call_link\('abenabap_memory_glosry.htm'\) "Glossary Entry"), in a database table dbtab, or in a shared memory area (SHARED MEMORY or BUFFER specified).
+The exported [data cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster_glosry.htm "Glossary Entry") can be stored in a byte string xstr, in an internal table itab, in the [ABAP memory](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_memory_glosry.htm "Glossary Entry"), in a database table dbtab, or in a shared memory area (SHARED MEMORY or BUFFER specified).
 
 Hint
 
-For optimization reasons, the binary content of the data cluster can depend on the way it is stored. When reconstructed, a data cluster stored in multiple parts is not necessarily the same as a data cluster stored as a single cluster. This means that a data cluster can usually only be imported using an [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) statement that matches the storage method. Especially, a data cluster stored in a structure for [export/import tables](javascript:call_link\('abenexport_data_cluster_indx.htm'\)) in multiple rows cannot necessarily be concatenated into a byte string that can be imported with FROM DATA BUFFER. Even data clusters stored in multiple rows can differ between storage methods. That means a data cluster stored with INTERNAL TABLE can differ from a data cluster for the same data in export/import tables, especially, if they were stored in different releases or for different [code pages](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry").
+For optimization reasons, the binary content of the data cluster can depend on the way it is stored. When reconstructed, a data cluster stored in multiple parts is not necessarily the same as a data cluster stored as a single cluster. This means that a data cluster can usually only be imported using an [IMPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_data_cluster.htm) statement that matches the storage method. Especially, a data cluster stored in a structure for [export/import tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm) in multiple rows cannot necessarily be concatenated into a byte string that can be imported with FROM DATA BUFFER. Even data clusters stored in multiple rows can differ between storage methods. That means a data cluster stored with INTERNAL TABLE can differ from a data cluster for the same data in export/import tables, especially, if they were stored in different releases or for different [code pages](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencodepage_glosry.htm "Glossary Entry").
 
 Example
 
@@ -321,9 +283,9 @@ If DATA BUFFER is specified, the data cluster is written to the elementary data 
 Hints
 
 -   A data object xstr filled by EXPORT TO DATA BUFFER contains exactly one data cluster.
--   A common application of the addition DATA BUFFER is to store the new data cluster in a field of a DDIC database table with the corresponding data type. In this case, compressing the data cluster using the addition [COMPRESSION](javascript:call_link\('abapexport_data_cluster.htm'\)) should be considered, since, by default, compression as a medium is only activated if DATABASE is specified directly.
+-   A common application of the addition DATA BUFFER is to store the new data cluster in a field of a DDIC database table with the corresponding data type. In this case, compressing the data cluster using the addition [COMPRESSION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm) should be considered, since, by default, compression as a medium is only activated if DATABASE is specified directly.
 -   Another application is to pass data clusters to an xstring typed procedure parameter and evaluate it there. This can be used for example in RFC in order to pass large amounts of complex data to remote systems.
--   The content of a data object filled by EXPORT TO DATA BUFFER can only be evaluated using IMPORT FROM DATA BUFFER. In other evaluations, for example when comparing data clusters, the result is undefined. For example, the undefined content of [alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry") in structures can produce different data clusters with structures that otherwise have the same content.
+-   The content of a data object filled by EXPORT TO DATA BUFFER can only be evaluated using IMPORT FROM DATA BUFFER. In other evaluations, for example when comparing data clusters, the result is undefined. For example, the undefined content of [alignment gaps](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenalignment_gap_glosry.htm "Glossary Entry") in structures can produce different data clusters with structures that otherwise have the same content.
 
 Example
 
@@ -357,13 +319,13 @@ Effect
 
 If INTERNAL TABLE is specified, the data cluster is stored in the internal table itab. The previous content of itab is overwritten completely.
 
-The first column of itab must have the data type [s](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) or [i](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) and the second column must have the type x. Depending on the width of the second column, the data is stored across multiple table lines if necessary. The first column contains the length occupied in the second column. The only table category allowed for itab are [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") without [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry").
+The first column of itab must have the data type [s](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm) or [i](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm) and the second column must have the type x. Depending on the width of the second column, the data is stored across multiple table lines if necessary. The first column contains the length occupied in the second column. The only table category allowed for itab are [standard tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_table_glosry.htm "Glossary Entry") without [secondary table keys](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensecondary_table_key_glosry.htm "Glossary Entry").
 
 Hints
 
 -   An internal table itab filled by EXPORT TO INTERNAL TABLE contains exactly one data cluster.
 -   The content of an internal table filled by EXPORT TO INTERNAL TABLE can only be evaluated using IMPORT FROM INTERNAL TABLE for the same reasons as for EXPORT TO DATA BUFFER.
--   The variant EXPORT TO DATA BUFFER is preferred over the variant EXPORT TO INTERNAL TABLE because it is easier to handle. An export to an internal table is beneficial only for very large data clusters and if the available [memory](javascript:call_link\('abenmemory_consumption_2.htm'\)) is almost used up. This is because its memory is requested block by block, while the memory for a string must always be available in one piece.
+-   The variant EXPORT TO DATA BUFFER is preferred over the variant EXPORT TO INTERNAL TABLE because it is easier to handle. An export to an internal table is beneficial only for very large data clusters and if the available [memory](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption_2.htm) is almost used up. This is because its memory is requested block by block, while the memory for a string must always be available in one piece.
 
 Example
 
@@ -392,16 +354,16 @@ Alternative 3  
 
 Effect
 
-If MEMORY is specified, the data cluster is written into the [ABAP Memory](javascript:call_link\('abenabap_memory_glosry.htm'\) "Glossary Entry") with the ID specified in id. id expects a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") [character-like data object](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") containing a case-sensitive ID with a maximum of 60 characters. Any existing data clusters with the same ID id are completely overwritten. The ID in id identifies a data cluster in the repository and can be read again using the same ID.
+If MEMORY is specified, the data cluster is written into the [ABAP Memory](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_memory_glosry.htm "Glossary Entry") with the ID specified in id. id expects a [flat](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenflat_glosry.htm "Glossary Entry") [character-like data object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") containing a case-sensitive ID with a maximum of 60 characters. Any existing data clusters with the same ID id are completely overwritten. The ID in id identifies a data cluster in the repository and can be read again using the same ID.
 
 Hints
 
--   A data cluster in the ABAP memory is available to all programs within a [call sequence](javascript:call_link\('abencall_sequence_glosry.htm'\) "Glossary Entry"), which makes it possible to pass data to called programs.
--   Outside of classes, an [obsolete short form](javascript:call_link\('abapexport_import_mem_id_obsolete.htm'\)) exists, in which the addition ID can be omitted. However, this is prone to errors, since all EXPORT statements without ID overwrite the same data cluster.
+-   A data cluster in the ABAP memory is available to all programs within a [call sequence](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_sequence_glosry.htm "Glossary Entry"), which makes it possible to pass data to called programs.
+-   Outside of classes, an [obsolete short form](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_import_mem_id_obsolete.htm) exists, in which the addition ID can be omitted. However, this is prone to errors, since all EXPORT statements without ID overwrite the same data cluster.
 
 Example
 
-Export of two text strings labeled P1 and P2 into the ABAP memory. After the statement [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) is executed, the content of the fields text1 and text2 is swapped.
+Export of two text strings labeled P1 and P2 into the ABAP memory. After the statement [IMPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_data_cluster.htm) is executed, the content of the fields text1 and text2 is swapped.
 
 FINAL(id) = 'TEXTS'.
 DATA(text1) = \`Ike\`.
@@ -418,21 +380,21 @@ Alternative 4  
 
 Effect
 
-If DATABASE is specified, the data cluster is stored under the ID id in the DDIC database table dbtab and committed by the next [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry"). The DDIC database table must be an [export/import table](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry") with a predefined [structure](javascript:call_link\('abenexport_data_cluster_indx.htm'\)). id expects a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") [character-like data object](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") containing an ID no longer than the key fields of the export/import table defined between the columns [RELID](javascript:call_link\('abenexport_data_cluster_indx.htm'\)) and [SRTF2](javascript:call_link\('abenexport_data_cluster_indx.htm'\)). The ID is case-sensitive.
+If DATABASE is specified, the data cluster is stored under the ID id in the DDIC database table dbtab and committed by the next [database commit](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_commit_glosry.htm "Glossary Entry"). The DDIC database table must be an [export/import table](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_import_table_glosry.htm "Glossary Entry") with a predefined [structure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm). id expects a [flat](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenflat_glosry.htm "Glossary Entry") [character-like data object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") containing an ID no longer than the key fields of the export/import table defined between the columns [RELID](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm) and [SRTF2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm). The ID is case-sensitive.
 
 The two-character area ar, which must be specified directly, divides the rows of the database table into multiple areas, so that data clusters with the same ID id can occur more than once in the DDIC database table.
 
-After FROM, a work area wa can be specified that must have the same data type as the export/import table dbtab. In an export, the current values of the components of wa, which are located between the fields [SRTF2](javascript:call_link\('abenexport_data_cluster_indx.htm'\)) and [CLUSTR](javascript:call_link\('abenexport_data_cluster_indx.htm'\)), are written to all rows of the database table occupied by the data cluster. If the addition FROM wa is not specified within classes, no data transport takes place to these database fields. If the addition FROM wa is not specified outside of classes, but the statement [TABLES](javascript:call_link\('abaptables.htm'\)) is used to declare a [table work area](javascript:call_link\('abentable_work_area_glosry.htm'\) "Glossary Entry") for the export/import table dbtab, the current values of the corresponding components of the table work area dbtab are written to the rows of the DDIC database table in the export.
+After FROM, a work area wa can be specified that must have the same data type as the export/import table dbtab. In an export, the current values of the components of wa, which are located between the fields [SRTF2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm) and [CLUSTR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm), are written to all rows of the database table occupied by the data cluster. If the addition FROM wa is not specified within classes, no data transport takes place to these database fields. If the addition FROM wa is not specified outside of classes, but the statement [TABLES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptables.htm) is used to declare a [table work area](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_work_area_glosry.htm "Glossary Entry") for the export/import table dbtab, the current values of the corresponding components of the table work area dbtab are written to the rows of the DDIC database table in the export.
 
-If the export/import table dbtab is client-dependent, a flat character-like field cl can be specified after the addition CLIENT. This field contains a [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry"). If the addition is not specified, the current client is used. The column MANDT of every row in the database table occupied by the data cluster is filled by this client ID in the export.
+If the export/import table dbtab is client-dependent, a flat character-like field cl can be specified after the addition CLIENT. This field contains a [client ID](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclient_identifier_glosry.htm "Glossary Entry"). If the addition is not specified, the current client is used. The column MANDT of every row in the database table occupied by the data cluster is filled by this client ID in the export.
 
 Hints
 
--   The statement EXPORT ... TO DATABASE sets a [database lock](javascript:call_link\('abendatabase_lock_glosry.htm'\) "Glossary Entry") until the next database commit or rollback. If used incorrectly, this can produce a [deadlock](javascript:call_link\('abendeadlock_glosry.htm'\) "Glossary Entry").
--   Data clusters in databases are not converted when migrating from a non-Unicode database to a [Unicode system](javascript:call_link\('abenunicode_system_glosry.htm'\) "Glossary Entry"). In a Unicode system, therefore, data clusters may sometimes exist that contain non-Unicode characters. These characters are automatically converted to Unicode characters in each import. When data is exported in Unicode systems, any Unicode characters in the stored data objects are stored in accordance with the relevant platform.
+-   The statement EXPORT ... TO DATABASE sets a [database lock](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_lock_glosry.htm "Glossary Entry") until the next database commit or rollback. If used incorrectly, this can produce a [deadlock](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeadlock_glosry.htm "Glossary Entry").
+-   Data clusters in databases are not converted when migrating from a non-Unicode database to a [Unicode system](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunicode_system_glosry.htm "Glossary Entry"). In a Unicode system, therefore, data clusters may sometimes exist that contain non-Unicode characters. These characters are automatically converted to Unicode characters in each import. When data is exported in Unicode systems, any Unicode characters in the stored data objects are stored in accordance with the relevant platform.
 -   Since each client represents a self-contained unit, the addition CLIENT must not be used in application programs.
--   The statement EXPORT ... TO DATABASE does not support [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry").
--   It is still possible to use a table work area implicitly (instead of using FROM wa explicitly). This should be considered an [obsolete short form](javascript:call_link\('abapexport_import_tables_area.htm'\)), however.
+-   The statement EXPORT ... TO DATABASE does not support [table buffering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_buffering_glosry.htm "Glossary Entry").
+-   It is still possible to use a table work area implicitly (instead of using FROM wa explicitly). This should be considered an [obsolete short form](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_import_tables_area.htm), however.
 
 Example
 
@@ -459,21 +421,21 @@ Alternative 6  
 
 Effect
 
-If SHARED MEMORY or SHARED BUFFER is specified, the data cluster is stored in [cross-transaction application buffers](javascript:call_link\('abencrosstrans_app_buffer_glosry.htm'\) "Glossary Entry") of the [shared memory](javascript:call_link\('abenshared_memory_glosry.htm'\) "Glossary Entry") on of the current [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry"). All programs of the same AS instance have access to these buffers.
+If SHARED MEMORY or SHARED BUFFER is specified, the data cluster is stored in [cross-transaction application buffers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencrosstrans_app_buffer_glosry.htm "Glossary Entry") of the [shared memory](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_memory_glosry.htm "Glossary Entry") on of the current [AS instance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_instance_glosry.htm "Glossary Entry"). All programs of the same AS instance have access to these buffers.
 
-The two application buffers differ in how the system behaves when reaching the memory limit. Both application buffers can be filled to an internal maximum limit, which can be adjusted using the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") rsdb/esm/buffersize\_kb (SHARED MEMORY) and rsdb/obj/buffersize (SHARED BUFFER).
+The two application buffers differ in how the system behaves when reaching the memory limit. Both application buffers can be filled to an internal maximum limit, which can be adjusted using the [profile parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") rsdb/esm/buffersize\_kb (SHARED MEMORY) and rsdb/obj/buffersize (SHARED BUFFER).
 
--   Before the maximum limit of the SHARED MEMORY buffer is reached, space must be freed using the statement [DELETE FROM SHARED MEMORY](javascript:call_link\('abapdelete_cluster.htm'\)); otherwise a catchable exception is raised.
+-   Before the maximum limit of the SHARED MEMORY buffer is reached, space must be freed using the statement [DELETE FROM SHARED MEMORY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_cluster.htm); otherwise a catchable exception is raised.
 -   The buffer of SHARED BUFFER is emptied automatically by a displacement when it reaches the maximum limit. This procedure deletes the least used data objects from the buffer.
 
-When storing the data, the system creates a memory table in the application buffer. The row structure of this table is defined using dbtab. For dbtab, a database table from the ABAP Dictionary must be specified that has the [structure](javascript:call_link\('abenexport_data_cluster_indx.htm'\)) of an [export/import table](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry"). The row area ar, the work area wa, the optional client cl, and the ID id have the same significance for the memory table as when stored in a database table, with the exception that the length of the ID in id is limited to 59 or 62 characters depending on whether the addition CLIENT is specified or not.
+When storing the data, the system creates a memory table in the application buffer. The row structure of this table is defined using dbtab. For dbtab, a database table from the ABAP Dictionary must be specified that has the [structure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm) of an [export/import table](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_import_table_glosry.htm "Glossary Entry"). The row area ar, the work area wa, the optional client cl, and the ID id have the same significance for the memory table as when stored in a database table, with the exception that the length of the ID in id is limited to 59 or 62 characters depending on whether the addition CLIENT is specified or not.
 
 Hints
 
 -   When storing data in the shared memory, a reference is made to an export/import table, even if the data is not stored in the table itself, but in an appropriately structured memory table.
--   The length of the key fields of the addressed export/import table between the columns [RELID](javascript:call_link\('abenexport_data_cluster_indx.htm'\)) and [SRTF2](javascript:call_link\('abenexport_data_cluster_indx.htm'\)) cannot exceed 59 or 62 characters, depending on whether a client column exists.
+-   The length of the key fields of the addressed export/import table between the columns [RELID](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm) and [SRTF2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm) cannot exceed 59 or 62 characters, depending on whether a client column exists.
 -   When data is exported, any data clusters that have the same client cl, row area ar, and ID id are overwritten. If an existing data cluster is to be overwritten by a bigger one when using SHARED MEMORY, and this would exceed the memory limit, this only deletes the existing data cluster.
--   Instead of storing data clusters in the shared memory, it is best to use [shared objects](javascript:call_link\('abenshared_objects_glosry.htm'\) "Glossary Entry"). Shared objects make it possible to store objects with complex dependencies, can be processed like regular objects, and enable multiple users to access the shared memory without any copying effort.
+-   Instead of storing data clusters in the shared memory, it is best to use [shared objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_glosry.htm "Glossary Entry"). Shared objects make it possible to store objects with complex dependencies, can be processed like regular objects, and enable multiple users to access the shared memory without any copying effort.
 
 Example
 
@@ -491,14 +453,7 @@ EXPORT scarr\_tab = itab
   ID 'SCARR'.
 
 
-
-**📖 Source**: [abapexport_data_cluster_medium.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_medium.htm)
-
 ### abenexport_data_cluster_indx.htm
-
-> **📖 Official SAP Documentation**: [abenexport_data_cluster_indx.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -506,36 +461,37 @@ EXPORT scarr\_tab = itab
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) →  [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster.htm) →  [EXPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Export%2FImport%20Tables%2C%20ABENEXPORT_DATA_CLUSTER_INDX%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Export/Import Tables
 
-When storing [data clusters](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") in database tables and application buffers of the [shared memory](javascript:call_link\('abenshared_memory_glosry.htm'\) "Glossary Entry"), database tables with one of the following structures must be specified: These database tables are referred to as [export/import tables](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry").
+When storing [data clusters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster_glosry.htm "Glossary Entry") in database tables and application buffers of the [shared memory](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_memory_glosry.htm "Glossary Entry"), database tables with one of the following structures must be specified: These database tables are referred to as [export/import tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_import_table_glosry.htm "Glossary Entry").
 
--   [Structure for Data Clusters in One Row](#abenexport-data-cluster-indx-1-------structure-for-data-clusters-in-multiple-rows---@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_2)
+-   [Structure for Data Clusters in One Row](#@@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_1)
+-   [Structure for Data Clusters in Multiple Rows](#@@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_2)
 
 Hints
 
 -   The structure for data clusters in a row is the newer variant and is recommended for new database tables.
 -   Status information about the actual data cluster, such as date, user, or language, can be stored in freely definable fields.
--   For information about processing [export/import tables](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry") using SQL, see [SQL Access to Export/Import Tables](javascript:call_link\('abenindx_type_table_and_sql.htm'\)).
--   When accessing data clusters in export/import tables using the statements [EXPORT ... TO DATABASE](javascript:call_link\('abapexport_data_cluster.htm'\)) and [IMPORT ... FROM DATABASE](javascript:call_link\('abapimport_data_cluster.htm'\)), [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry") is not supported.
+-   For information about processing [export/import tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_import_table_glosry.htm "Glossary Entry") using SQL, see [SQL Access to Export/Import Tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenindx_type_table_and_sql.htm).
+-   When accessing data clusters in export/import tables using the statements [EXPORT ... TO DATABASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm) and [IMPORT ... FROM DATABASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_data_cluster.htm), [table buffering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_buffering_glosry.htm "Glossary Entry") is not supported.
 
 Structure for Data Clusters in One Row   
 
-In export/import table structures like this, the data cluster is stored in a single row in a column CLUSTD of the type [RAWSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) ([BLOB](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry")).
+In export/import table structures like this, the data cluster is stored in a single row in a column CLUSTD of the type [RAWSTRING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) ([BLOB](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenblob_glosry.htm "Glossary Entry")).
 
 -   If the data objects are to be stored as client-dependent objects, the first field must be a key field with the name MANDT of type CLNT for the client. This component is not required for client-independent storage.
 -   The next field must be a key field with the name RELID of type CHAR and with length 2. The specification of the area ar is stored here.
 -   This must be followed by at least one key field of type CHAR with any name. The identifier specified in id within the length of the key field is stored here. If more than one key field is defined, the identifier is divided among them according to the respective length of the key fields. If the total length of the key fields is not sufficient for the identifier, it is truncated on the right.
 -   Any number of fields with freely selectable name and type can follow, which are filled with values by specifying FROM wa. The addition TO wa of the statement IMPORT reads these fields again.
--   The final field must be called CLUSTD and linked with the data element INDX\_CLUST\_BLOB with the dictionary type [RAWSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)). This column is given the actual data cluster.
+-   The final field must be called CLUSTD and linked with the data element INDX\_CLUST\_BLOB with the dictionary type [RAWSTRING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). This column is given the actual data cluster.
 
 Hint
 
-The total length of all [key fields](javascript:call_link\('abenddic_database_tables_key.htm'\)), that is the total length of MANDT, RELID, and the key fields for the ID, and SRTF2, is limited to 900 bytes, like every AS ABAP [database](javascript:call_link\('abenddic_database_tables.htm'\)) defined in the ABAP Dictionary. If the table content is to be transported by specifying a key, a limit of 120 bytes is required here.
+The total length of all [key fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_key.htm), that is the total length of MANDT, RELID, and the key fields for the ID, and SRTF2, is limited to 900 bytes, like every AS ABAP [database](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables.htm) defined in the ABAP Dictionary. If the table content is to be transported by specifying a key, a limit of 120 bytes is required here.
 
 Example
 
@@ -543,22 +499,22 @@ The database table DEMO\_INDX\_BLOB is an example of how data clusters are store
 
 Structure for Data Clusters in Multiple Rows   
 
-In export/import table structures like this, the data cluster is stored in a column CLUSTD of the type [LRAW](javascript:call_link\('abenddic_builtin_types.htm'\)) and can be split multiple rows. The structure requires the additional columns SRTF2 and CLUSTR to manage this repository.
+In export/import table structures like this, the data cluster is stored in a column CLUSTD of the type [LRAW](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and can be split multiple rows. The structure requires the additional columns SRTF2 and CLUSTR to manage this repository.
 
 -   The structure starts with the same key fields as in the structure above for data clusters in a single row.
 -   The next field must be a further key field with the name SRTF2 of type INT4. It contains the row numbers of the data cluster stored in the field CLUSTD. This cluster can span multiple rows and is filled automatically by the system. If more rows are required than allowed by the value range of SRTF2, an uncatchable exception is raised.
 -   Any number of fields with custom names and types can follow. The same applies to these fields as to the structure above for data clusters in a single row.
--   The last two components must be called CLUSTR and CLUSTD and have the types [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)) and [LRAW](javascript:call_link\('abenddic_builtin_types.htm'\)) of any length. The current length of the field CLUSTD of each row is stored in CLUSTR, while CLUSTD contains the actual data cluster, which can span multiple rows.
+-   The last two components must be called CLUSTR and CLUSTD and have the types [INT2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and [LRAW](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) of any length. The current length of the field CLUSTD of each row is stored in CLUSTR, while CLUSTD contains the actual data cluster, which can span multiple rows.
 
 Hints
 
 -   When a data cluster is split across multiple rows, the associated administration data must be stored for each row. In each row, the content of the custom fields are stored redundantly.
--   The additional key field SRTF2 is part of the total length of all [key fields](javascript:call_link\('abenddic_database_tables_key.htm'\)). When table content is transported by specifying a key, the key field SRTF2 does not usually need to be specified since only transports of all rows in a data cluster are feasible.
--   A database table INDX, delivered by SAP, has the layout for a data cluster in multiple rows and can be used as a template for creating custom database tables or for test purposes. In production programs, however, it is strongly recommended that separate [export/import tables](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry") are used:
+-   The additional key field SRTF2 is part of the total length of all [key fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_key.htm). When table content is transported by specifying a key, the key field SRTF2 does not usually need to be specified since only transports of all rows in a data cluster are feasible.
+-   A database table INDX, delivered by SAP, has the layout for a data cluster in multiple rows and can be used as a template for creating custom database tables or for test purposes. In production programs, however, it is strongly recommended that separate [export/import tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_import_table_glosry.htm "Glossary Entry") are used:
     -   When data is stored in the table INDX, data is at risk of being overwritten or deleted unintentionally by other programs.
     -   The custom fields between SRTF2 and CLUSTR do not usually match their own application.
-    -   The table INDX has the [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)) A and is client-dependent. The delivery class L may be better suited for storing temporary data. If the data needs to be client-independent data, the table used should not contain a client column. This prevents redundant data from being stored.
-    -   New export/import tables should be created with a [BLOB](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry") column CLUSTD.
+    -   The table INDX has the [delivery class](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_delivery.htm) A and is client-dependent. The delivery class L may be better suited for storing temporary data. If the data needs to be client-independent data, the table used should not contain a client column. This prevents redundant data from being stored.
+    -   New export/import tables should be created with a [BLOB](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenblob_glosry.htm "Glossary Entry") column CLUSTD.
 -   Old export/import tables can also occur, however, where the column SRTF2 has the data type INT1 or INT2. In these tables, a data cluster cannot cover more rows than allowed by the value range of these types.
 
 Example
@@ -566,17 +522,10 @@ Example
 The database table DEMO\_INDX\_TABLE is an example of how data clusters are stored in multiple rows.
 
 Continue
-[SQL Access to Export/Import Tables](javascript:call_link\('abenindx_type_table_and_sql.htm'\))
+[SQL Access to Export/Import Tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenindx_type_table_and_sql.htm)
 
-
-
-**📖 Source**: [abenexport_data_cluster_indx.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm)
 
 ### abenindx_type_table_and_sql.htm
-
-> **📖 Official SAP Documentation**: [abenindx_type_table_and_sql.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenindx_type_table_and_sql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -584,16 +533,16 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) →  [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) →  [Export/Import Tables](javascript:call_link\('abenexport_data_cluster_indx.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster.htm) →  [EXPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm) →  [Export/Import Tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SQL%20Access%20to%20Export%2FImport%20Tables%2C%20ABENINDX_TYPE_TABLE_AND_SQL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvemen
 t:)
 
 SQL Access to Export/Import Tables
 
-[Export/import tables](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry") are relational databases defined in the ABAP Dictionary. This means that, in principle, SQL statements can also be used to access export/import tables.
+[Export/import tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_import_table_glosry.htm "Glossary Entry") are relational databases defined in the ABAP Dictionary. This means that, in principle, SQL statements can also be used to access export/import tables.
 
-To be able to use SQL statements on export/import tables effectively, the [special structure](javascript:call_link\('abenexport_data_cluster_indx.htm'\)) of these tables must be respected.
+To be able to use SQL statements on export/import tables effectively, the [special structure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm) of these tables must be respected.
 
 It is not a good idea to perform reads or writes on the fields that manage the data cluster, such as CLUSTD or SRTF2 and CLUSTR. These fields contain the data cluster in an internal format and can only be handled correctly using the EXPORT TO DATABASE and IMPORT FROM DATABASE statements.
 
@@ -628,14 +577,7 @@ UPDATE demo\_indx\_table
              id    = @old\_id.
 
 
-
-**📖 Source**: [abenindx_type_table_and_sql.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenindx_type_table_and_sql.htm)
-
 ### abenexport_data_cluster_indx.htm
-
-> **📖 Official SAP Documentation**: [abenexport_data_cluster_indx.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -643,36 +585,37 @@ UPDATE demo\_indx\_table
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) →  [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster.htm) →  [EXPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Export%2FImport%20Tables%2C%20ABENEXPORT_DATA_CLUSTER_INDX%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Export/Import Tables
 
-When storing [data clusters](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") in database tables and application buffers of the [shared memory](javascript:call_link\('abenshared_memory_glosry.htm'\) "Glossary Entry"), database tables with one of the following structures must be specified: These database tables are referred to as [export/import tables](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry").
+When storing [data clusters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster_glosry.htm "Glossary Entry") in database tables and application buffers of the [shared memory](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_memory_glosry.htm "Glossary Entry"), database tables with one of the following structures must be specified: These database tables are referred to as [export/import tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_import_table_glosry.htm "Glossary Entry").
 
--   [Structure for Data Clusters in One Row](#abenexport-data-cluster-indx-1-------structure-for-data-clusters-in-multiple-rows---@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_2)
+-   [Structure for Data Clusters in One Row](#@@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_1)
+-   [Structure for Data Clusters in Multiple Rows](#@@ITOC@@ABENEXPORT_DATA_CLUSTER_INDX_2)
 
 Hints
 
 -   The structure for data clusters in a row is the newer variant and is recommended for new database tables.
 -   Status information about the actual data cluster, such as date, user, or language, can be stored in freely definable fields.
--   For information about processing [export/import tables](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry") using SQL, see [SQL Access to Export/Import Tables](javascript:call_link\('abenindx_type_table_and_sql.htm'\)).
--   When accessing data clusters in export/import tables using the statements [EXPORT ... TO DATABASE](javascript:call_link\('abapexport_data_cluster.htm'\)) and [IMPORT ... FROM DATABASE](javascript:call_link\('abapimport_data_cluster.htm'\)), [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry") is not supported.
+-   For information about processing [export/import tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_import_table_glosry.htm "Glossary Entry") using SQL, see [SQL Access to Export/Import Tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenindx_type_table_and_sql.htm).
+-   When accessing data clusters in export/import tables using the statements [EXPORT ... TO DATABASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm) and [IMPORT ... FROM DATABASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_data_cluster.htm), [table buffering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_buffering_glosry.htm "Glossary Entry") is not supported.
 
 Structure for Data Clusters in One Row   
 
-In export/import table structures like this, the data cluster is stored in a single row in a column CLUSTD of the type [RAWSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) ([BLOB](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry")).
+In export/import table structures like this, the data cluster is stored in a single row in a column CLUSTD of the type [RAWSTRING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) ([BLOB](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenblob_glosry.htm "Glossary Entry")).
 
 -   If the data objects are to be stored as client-dependent objects, the first field must be a key field with the name MANDT of type CLNT for the client. This component is not required for client-independent storage.
 -   The next field must be a key field with the name RELID of type CHAR and with length 2. The specification of the area ar is stored here.
 -   This must be followed by at least one key field of type CHAR with any name. The identifier specified in id within the length of the key field is stored here. If more than one key field is defined, the identifier is divided among them according to the respective length of the key fields. If the total length of the key fields is not sufficient for the identifier, it is truncated on the right.
 -   Any number of fields with freely selectable name and type can follow, which are filled with values by specifying FROM wa. The addition TO wa of the statement IMPORT reads these fields again.
--   The final field must be called CLUSTD and linked with the data element INDX\_CLUST\_BLOB with the dictionary type [RAWSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)). This column is given the actual data cluster.
+-   The final field must be called CLUSTD and linked with the data element INDX\_CLUST\_BLOB with the dictionary type [RAWSTRING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). This column is given the actual data cluster.
 
 Hint
 
-The total length of all [key fields](javascript:call_link\('abenddic_database_tables_key.htm'\)), that is the total length of MANDT, RELID, and the key fields for the ID, and SRTF2, is limited to 900 bytes, like every AS ABAP [database](javascript:call_link\('abenddic_database_tables.htm'\)) defined in the ABAP Dictionary. If the table content is to be transported by specifying a key, a limit of 120 bytes is required here.
+The total length of all [key fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_key.htm), that is the total length of MANDT, RELID, and the key fields for the ID, and SRTF2, is limited to 900 bytes, like every AS ABAP [database](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables.htm) defined in the ABAP Dictionary. If the table content is to be transported by specifying a key, a limit of 120 bytes is required here.
 
 Example
 
@@ -680,22 +623,22 @@ The database table DEMO\_INDX\_BLOB is an example of how data clusters are store
 
 Structure for Data Clusters in Multiple Rows   
 
-In export/import table structures like this, the data cluster is stored in a column CLUSTD of the type [LRAW](javascript:call_link\('abenddic_builtin_types.htm'\)) and can be split multiple rows. The structure requires the additional columns SRTF2 and CLUSTR to manage this repository.
+In export/import table structures like this, the data cluster is stored in a column CLUSTD of the type [LRAW](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and can be split multiple rows. The structure requires the additional columns SRTF2 and CLUSTR to manage this repository.
 
 -   The structure starts with the same key fields as in the structure above for data clusters in a single row.
 -   The next field must be a further key field with the name SRTF2 of type INT4. It contains the row numbers of the data cluster stored in the field CLUSTD. This cluster can span multiple rows and is filled automatically by the system. If more rows are required than allowed by the value range of SRTF2, an uncatchable exception is raised.
 -   Any number of fields with custom names and types can follow. The same applies to these fields as to the structure above for data clusters in a single row.
--   The last two components must be called CLUSTR and CLUSTD and have the types [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)) and [LRAW](javascript:call_link\('abenddic_builtin_types.htm'\)) of any length. The current length of the field CLUSTD of each row is stored in CLUSTR, while CLUSTD contains the actual data cluster, which can span multiple rows.
+-   The last two components must be called CLUSTR and CLUSTD and have the types [INT2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and [LRAW](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) of any length. The current length of the field CLUSTD of each row is stored in CLUSTR, while CLUSTD contains the actual data cluster, which can span multiple rows.
 
 Hints
 
 -   When a data cluster is split across multiple rows, the associated administration data must be stored for each row. In each row, the content of the custom fields are stored redundantly.
--   The additional key field SRTF2 is part of the total length of all [key fields](javascript:call_link\('abenddic_database_tables_key.htm'\)). When table content is transported by specifying a key, the key field SRTF2 does not usually need to be specified since only transports of all rows in a data cluster are feasible.
--   A database table INDX, delivered by SAP, has the layout for a data cluster in multiple rows and can be used as a template for creating custom database tables or for test purposes. In production programs, however, it is strongly recommended that separate [export/import tables](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry") are used:
+-   The additional key field SRTF2 is part of the total length of all [key fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_key.htm). When table content is transported by specifying a key, the key field SRTF2 does not usually need to be specified since only transports of all rows in a data cluster are feasible.
+-   A database table INDX, delivered by SAP, has the layout for a data cluster in multiple rows and can be used as a template for creating custom database tables or for test purposes. In production programs, however, it is strongly recommended that separate [export/import tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_import_table_glosry.htm "Glossary Entry") are used:
     -   When data is stored in the table INDX, data is at risk of being overwritten or deleted unintentionally by other programs.
     -   The custom fields between SRTF2 and CLUSTR do not usually match their own application.
-    -   The table INDX has the [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)) A and is client-dependent. The delivery class L may be better suited for storing temporary data. If the data needs to be client-independent data, the table used should not contain a client column. This prevents redundant data from being stored.
-    -   New export/import tables should be created with a [BLOB](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry") column CLUSTD.
+    -   The table INDX has the [delivery class](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_database_tables_delivery.htm) A and is client-dependent. The delivery class L may be better suited for storing temporary data. If the data needs to be client-independent data, the table used should not contain a client column. This prevents redundant data from being stored.
+    -   New export/import tables should be created with a [BLOB](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenblob_glosry.htm "Glossary Entry") column CLUSTD.
 -   Old export/import tables can also occur, however, where the column SRTF2 has the data type INT1 or INT2. In these tables, a data cluster cannot cover more rows than allowed by the value range of these types.
 
 Example
@@ -703,17 +646,10 @@ Example
 The database table DEMO\_INDX\_TABLE is an example of how data clusters are stored in multiple rows.
 
 Continue
-[SQL Access to Export/Import Tables](javascript:call_link\('abenindx_type_table_and_sql.htm'\))
+[SQL Access to Export/Import Tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenindx_type_table_and_sql.htm)
 
-
-
-**📖 Source**: [abenexport_data_cluster_indx.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm)
 
 ### abapexport_internal.htm
-
-> **📖 Official SAP Documentation**: [abapexport_internal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_internal.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -721,7 +657,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) →  [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster.htm) →  [EXPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20EXPORT%2C%20Internal%20Additions%2C%20ABAPEXPORT_INTERNAL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -741,7 +677,7 @@ Addition 1  
 
 Effect
 
-In cp, a [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") from database table TCP00 can be specified that overwrites the automatically stored ID.
+In cp, a [code page](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencodepage_glosry.htm "Glossary Entry") from database table TCP00 can be specified that overwrites the automatically stored ID.
 
 Addition 2   
 
@@ -749,32 +685,22 @@ Addition 2  
 
 Effect
 
-This addition can be specified for [EXPORT TO DATABASE](javascript:call_link\('abapexport_data_cluster_medium.htm'\)) if a table work area dbtab is declared for the relevant database table using [TABLES](javascript:call_link\('abaptables.htm'\)). The addition FROM wa is not allowed. The data is not exported to the database table. Instead, the subroutine subr is called for each row that would be written to the database without this addition. In the subroutine, the data can be accessed that would otherwise be written to the database table in the table work area dbtab.
+This addition can be specified for [EXPORT TO DATABASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster_medium.htm) if a table work area dbtab is declared for the relevant database table using [TABLES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptables.htm). The addition FROM wa is not allowed. The data is not exported to the database table. Instead, the subroutine subr is called for each row that would be written to the database without this addition. In the subroutine, the data can be accessed that would otherwise be written to the database table in the table work area dbtab.
 
 The subroutine must either be defined in the same program or in a program, prog, specified explicitly. Its name must be prefixed with the name of the database table (dbtab). The subroutine must have a USING parameter of type any, but this is currently not supplied.
 
 Hints
 
 -   For external use, TO INTERNAL TABLE is provided instead of TO DATABASE ... USING.
--   Specifying an external program prog is the same as the obsolete variant of [PERFORM](javascript:call_link\('abapperform_obsolete.htm'\)).
--   The tables used as the [export/import tables](javascript:call_link\('abenexport_data_cluster_indx.htm'\)) must have structures for data clusters in multiple rows, since TABLES cannot be used for deep structures.
+-   Specifying an external program prog is the same as the obsolete variant of [PERFORM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapperform_obsolete.htm).
+-   The tables used as the [export/import tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexport_data_cluster_indx.htm) must have structures for data clusters in multiple rows, since TABLES cannot be used for deep structures.
 
 Example
 
-See [IMPORT - Internal Additions](javascript:call_link\('abapimport_internal.htm'\))
+See [IMPORT - Internal Additions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_internal.htm)
 
-
-
-**📖 Source**: [abapexport_internal.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_internal.htm)
 
 ### abenrabax_export_to_database.htm
-
-> **📖 Official SAP Documentation**: [abenrabax_export_to_database.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrabax_export_to_database.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenrabax_export_to_database.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrabax_export_to_database.htm)
-
 
   
 
@@ -782,13 +708,13 @@ See [IMPORT - Internal Additions](javascript:call_link\('abapimport_internal.htm
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) →  [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster.htm) →  [EXPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Exceptions%20in%20EXPORT%2C%20ABENRABAX_EXPORT_TO_DATABASE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Exceptions in EXPORT
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -800,7 +726,7 @@ CX\_SY\_COMPRESSION\_ERROR
 CX\_SY\_EXPIMP\_DB\_SQL\_ERROR
 
 -   Cause: SQL error in export to the database.
-    Runtime error: [DBIF\_...](javascript:call_link\('abenabap_sql_exceptions.htm'\))
+    Runtime error: [DBIF\_...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_exceptions.htm)
 
 CX\_SY\_EXPORT\_BUFFER\_NO\_MEMORY
 

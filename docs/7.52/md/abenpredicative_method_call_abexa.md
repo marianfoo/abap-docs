@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [log\_exp - Logical Expressions](javascript:call_link\('abenlogexp.htm'\)) →  [rel\_exp - Predicates](javascript:call_link\('abenpredicate.htm'\)) →  [rel\_exp - Predicative Method Call](javascript:call_link\('abenpredicative_method_calls.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_expr_func.htm) →  [log\_exp - Logical Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp.htm) →  [rel\_exp - Predicates](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate.htm) →  [rel\_exp - Predicative Method Call](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicative_method_calls.htm) → 
 
 Predicative Method Calls
 
-This example demonstrates [predicative method calls](javascript:call_link\('abenpredicative_method_call_glosry.htm'\) "Glossary Entry").
+This example demonstrates [predicative method calls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicative_method_call_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -45,6 +45,6 @@ START-OF-SELECTION.
 
 Description
 
-The functional method IS\_PRODUCTION\_SYSTEM of the class CL\_ABAP\_DEMO\_SERVICES is called [predicatively](javascript:call_link\('abenpredicative_method_calls.htm'\)) in a [control statement](javascript:call_link\('abencontrol_statement_glosry.htm'\) "Glossary Entry") IF to verify that the current system is not a production system. The method called is a [predicate method](javascript:call_link\('abenpredicate_method_glosry.htm'\) "Glossary Entry").
+The functional method IS\_PRODUCTION\_SYSTEM of the class CL\_ABAP\_DEMO\_SERVICES is called [predicatively](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicative_method_calls.htm) in a [control statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_statement_glosry.htm "Glossary Entry") IF to verify that the current system is not a production system. The method called is a [predicate method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_method_glosry.htm "Glossary Entry").
 
-The functional method GET\_SPFLI of the class CL\_DEMO\_SPFLI is then called [predicatively](javascript:call_link\('abenpredicative_method_calls.htm'\)) once in a [control statement](javascript:call_link\('abencontrol_statement_glosry.htm'\) "Glossary Entry") IF and once in a [conditional expression](javascript:call_link\('abenconditional_expression_glosry.htm'\) "Glossary Entry") COND. In this case, it is not a [predicate method](javascript:call_link\('abenpredicate_method_glosry.htm'\) "Glossary Entry"). The relational expressions are true or false, depending on whether the internal table returned is empty or filled.
+The functional method GET\_SPFLI of the class CL\_DEMO\_SPFLI is then called [predicatively](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicative_method_calls.htm) once in a [control statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_statement_glosry.htm "Glossary Entry") IF and once in a [conditional expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expression_glosry.htm "Glossary Entry") COND. In this case, it is not a [predicate method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_method_glosry.htm "Glossary Entry"). The relational expressions are true or false, depending on whether the internal table returned is empty or filled.

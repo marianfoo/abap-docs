@@ -4,21 +4,21 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm) → 
 
 INTERFACES - PARTIALLY IMPLEMENTED
 
-[Quick Reference](javascript:call_link\('abapinterfaces_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_shortref.htm)
 
 Syntax
 
-[INTERFACES](javascript:call_link\('abapinterfaces_class.htm'\)) intf
+[INTERFACES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_class.htm) intf
   PARTIALLY IMPLEMENTED
   ...
 
 Effect
 
-The addition PARTIALLY IMPLEMENTED for statement [INTERFACES](javascript:call_link\('abapinterfaces_class.htm'\)) for implementing interfaces in classes can only be used in [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry"). This addition prevents the syntax check error/warning from occurring if not all of the concrete non-optional interface methods are implemented in the test class. The addition must be specified before the additions that list the attributes or methods.
+The addition PARTIALLY IMPLEMENTED for statement [INTERFACES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_class.htm) for implementing interfaces in classes can only be used in [test classes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_class_glosry.htm "Glossary Entry"). This addition prevents the syntax check error/warning from occurring if not all of the concrete non-optional interface methods are implemented in the test class. The addition must be specified before the additions that list the attributes or methods.
 
 If an interface method that is not implemented is called during a test, an exception from the class CX\_SY\_DYN\_CALL\_ILLEGAL\_METHOD is raised.
 
@@ -28,7 +28,7 @@ The addition is particularly useful when classes (acting as test doubles) implem
 
 Example
 
-The class [CL\_HTTP\_EXT\_SERVICE\_DEMO](javascript:call_link\('abenicf_service_abexa.htm'\)), described under [Calling an HTTP Service](javascript:call_link\('abenicf_service_abexa.htm'\)), is an example of production code. This class demonstrates the function of a simple HTTP service. If the service is used normally, the method IF\_HTTP\_EXTENSION~HANDLE\_REQUEST from [ICF](javascript:call_link\('abenicf_glosry.htm'\) "Glossary Entry") is called. ICF-independent tests can be run for the class: In its [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry"), local classes are declared as test doubles for the classes of ICF, which are implemented by the following interfaces:
+The class [CL\_HTTP\_EXT\_SERVICE\_DEMO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_service_abexa.htm), described under [Calling an HTTP Service](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_service_abexa.htm), is an example of production code. This class demonstrates the function of a simple HTTP service. If the service is used normally, the method IF\_HTTP\_EXTENSION~HANDLE\_REQUEST from [ICF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_glosry.htm "Glossary Entry") is called. ICF-independent tests can be run for the class: In its [test include](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_include_glosry.htm "Glossary Entry"), local classes are declared as test doubles for the classes of ICF, which are implemented by the following interfaces:
 
 CLASS mock\_server DEFINITION FOR TESTING FINAL.
   PUBLIC SECTION.

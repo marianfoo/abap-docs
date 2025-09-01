@@ -4,38 +4,38 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Structure](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) →  [Function Modules](javascript:call_link\('abenabap_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Structure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_modularization.htm) →  [Procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_procedures.htm) →  [Function Modules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: FUNCTION, ABAPFUNCTION, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for i
 mprovement:)
 
 FUNCTION
 
-[Short Reference](javascript:call_link\('abapfunction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfunction_shortref.htm)
 
 Syntax
 
 FUNCTION func.
 \*"---------------------------------------------------------
 \*" Local Interface:
-\*" [parameter\_interface](javascript:call_link\('abenfunction.htm'\))
+\*" [parameter\_interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction.htm)
 \*"---------------------------------------------------------
   ...
 ENDFUNCTION.
 
 Effect
 
-Between the statements FUNCTION and ENDFUNCTION, the functionality of a [function module](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") func is implemented in a function pool. The function module and its interface are defined in the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") or in the [Function Builder](javascript:call_link\('abenfunction_builder_glosry.htm'\) "Glossary Entry") tool. The function module interface defined in the Function Builder is automatically displayed in comment lines below the statement FUNCTION as [parameter\_interface](javascript:call_link\('abenfunction.htm'\)).
+Between the statements FUNCTION and ENDFUNCTION, the functionality of a [function module](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction_module_glosry.htm "Glossary Entry") func is implemented in a function pool. The function module and its interface are defined in the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry") or in the [Function Builder](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction_builder_glosry.htm "Glossary Entry") tool. The function module interface defined in the Function Builder is automatically displayed in comment lines below the statement FUNCTION as [parameter\_interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction.htm).
 
-Within the function module, local data types and data objects can be declared. There is also access to the formal parameters of the function module and to the global data types and data objects of the function pool. A function module is called using the statement [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)).
+Within the function module, local data types and data objects can be declared. There is also access to the formal parameters of the function module and to the global data types and data objects of the function pool. A function module is called using the statement [CALL FUNCTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function.htm).
 
 Hint
 
-The [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [IS SUPPLIED](javascript:call_link\('abenlogexp_supplied.htm'\)) can be used in the function module to determine whether an actual parameter has been specified for when a formal parameter is called.
+The [predicate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [IS SUPPLIED](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_supplied.htm) can be used in the function module to determine whether an actual parameter has been specified for when a formal parameter is called.
 
 Example
 
-Implements a function module that reads data in a table-like formal parameter flight\_tab under the condition of an elementary formal parameter id. The [parameter interface](javascript:call_link\('abenfunction.htm'\)) defined in Function Builder is visible as a comment.
+Implements a function module that reads data in a table-like formal parameter flight\_tab under the condition of an elementary formal parameter id. The [parameter interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction.htm) defined in Function Builder is visible as a comment.
 
 FUNCTION read\_spfli\_into\_table.
 \*"---------------------------------------------------------
@@ -52,4 +52,4 @@ FUNCTION read\_spfli\_into\_table.
 ENDFUNCTION.
 
 Continue
-[Function Module Interface](javascript:call_link\('abenfunction.htm'\))
+[Function Module Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction.htm)

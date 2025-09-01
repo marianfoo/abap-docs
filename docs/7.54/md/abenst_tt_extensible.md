@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Literal Template Content](javascript:call_link\('abenst_literals.htm'\)) →  [ST - Literal XML Elements and Attributes](javascript:call_link\('abenst_xml_literals.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_serial_deserial.htm) →  [ST - Literal Template Content](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_literals.htm) →  [ST - Literal XML Elements and Attributes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_xml_literals.htm) → 
 
 ST - tt:extensible, Extensibility of Literal XML Elements
 
@@ -26,9 +26,9 @@ The values "deep-static" and "deep-dynamic" have different areas of validity:
 
 -   "deep-static" only has an effect within the part of the program in which it is set.
 
--   "deep-dynamic" is effective across template calls using [tt:apply](javascript:call_link\('abenst_tt_apply.htm'\)) and [tt:call](javascript:call_link\('abenst_tt_call.htm'\)).
+-   "deep-dynamic" is effective across template calls using [tt:apply](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_apply.htm) and [tt:call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_call.htm).
 
-The deep extensibility that is configured using ″deep-static" and ″deep-dynamic" also takes effect in case distinctions with [tt:switch](javascript:call_link\('abenst_tt_switch.htm'\)) and groupings with [tt:group](javascript:call_link\('abenst_tt_group.htm'\)) by skipping unexpected elements that are not covered by a case.
+The deep extensibility that is configured using ″deep-static" and ″deep-dynamic" also takes effect in case distinctions with [tt:switch](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_switch.htm) and groupings with [tt:group](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_group.htm) by skipping unexpected elements that are not covered by a case.
 
 Example
 
@@ -43,7 +43,7 @@ with the input stream
 
 <r><x/><a>1</a><b>2</b></r>
 
-would not produce the deserialization A=1 since the unexpected element x determines the condition negatively using a. Both x and a are skipped as "extension elements" are only mandatory element b is deserialized as B=2. The problem can be solved by using [tt:group](javascript:call_link\('abenst_tt_group.htm'\)), although this also resolves the order of a and b:
+would not produce the deserialization A=1 since the unexpected element x determines the condition negatively using a. Both x and a are skipped as "extension elements" are only mandatory element b is deserialized as B=2. The problem can be solved by using [tt:group](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_group.htm), although this also resolves the order of a and b:
 
 <r tt:extensible="on">
   <tt:group>

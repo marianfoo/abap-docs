@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) →  [RAISE EXCEPTION, message](javascript:call_link\('abapraise_exception_message.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexceptions.htm) →  [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_class.htm) →  [RAISE EXCEPTION, message](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_message.htm) → 
 
 Converting a Classic Example to a Class-Based Exception
 
-The example demonstrates the short form of the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) with the addition [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)).
+The example demonstrates the short form of the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_class.htm) with the addition [MESSAGE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_message.htm).
 
 Source Code
 
@@ -43,4 +43,4 @@ START-OF-SELECTION.
 
 Description
 
-The example has exactly the same functionality as the executable example [IF\_T100\_DYN\_MSG in a global exception](javascript:call_link\('abenraise_message_global_abexa.htm'\)). Here, the addition [USING MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) is used, which explicitly passes the system fields sy-msgty, sy-msgid, sy-msgno, and sy-msgv1 to sy-msgv4 to the corresponding additions of the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)).
+The example has exactly the same functionality as the executable example [IF\_T100\_DYN\_MSG in a global exception](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenraise_message_global_abexa.htm). Here, the addition [USING MESSAGE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_message.htm) is used, which explicitly passes the system fields sy-msgty, sy-msgid, sy-msgno, and sy-msgv1 to sy-msgv4 to the corresponding additions of the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_class.htm).

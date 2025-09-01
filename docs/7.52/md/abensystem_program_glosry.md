@@ -4,8 +4,8 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 system program
 
-[ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry") that is part of the [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry") infrastructure. System programs generally work with data from cross-client [system tables](javascript:call_link\('abensystem_table_glosry.htm'\) "Glossary Entry"), but can also work with data from special [clients](javascript:call_link\('abenclient_glosry.htm'\) "Glossary Entry"), such as the [system client](javascript:call_link\('abensystem_client_glosry.htm'\) "Glossary Entry").
+[ABAP program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_glosry.htm "Glossary Entry") that is part of the [AS ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") infrastructure. System programs generally work with data from cross-client [system tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_table_glosry.htm "Glossary Entry"), but can also work with data from special [clients](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_glosry.htm "Glossary Entry"), such as the [system client](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_client_glosry.htm "Glossary Entry").

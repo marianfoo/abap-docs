@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [Type Mapping for RAP](javascript:call_link\('abapeml_type_mapping.htm'\)) →  [ABAP SQL Statements with MAPPING FROM ENTITY](javascript:call_link\('abapmapping_from_entity.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap_other.htm) →  [Type Mapping for RAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_type_mapping.htm) →  [ABAP SQL Statements with MAPPING FROM ENTITY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmapping_from_entity.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20SQL%20Statements%20with%20the%20Addition%20MAPPING%20FROM%20ENTITY%2C%20ABENSQL_MAPPING_FROM_ENTITY_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A
 %0D%0ASuggestion%20for%20improvement:)
 
 ABAP SQL Statements with the Addition MAPPING FROM ENTITY
 
-This example demonstrates ABAP SQL statements using the additions MAPPING FROM ENTITY. The internal tables and work areas used in the example are typed with [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry"). These types are based on a simple [managed](javascript:call_link\('abenbdl_impl_type.htm'\)) [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+This example demonstrates ABAP SQL statements using the additions MAPPING FROM ENTITY. The internal tables and work areas used in the example are typed with [BDEF derived types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm "Glossary Entry"). These types are based on a simple [managed](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_impl_type.htm) [RAP BO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
 Data model
 
@@ -34,7 +34,7 @@ define root view entity DEMO\_MANAGED\_ROOT\_MAP
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_MAP is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_MAP is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_root\_map unique;
 strict(2);
@@ -252,6 +252,6 @@ ENDCLASS.
 
 Description   
 
-The example shows the four ABAP SQL statements [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)), [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)), [UPDATE](javascript:call_link\('abapupdate.htm'\)), and [DELETE](javascript:call_link\('abapdelete_dbtab.htm'\)) with the addition MAPPING FROM ENTITY. For each statement, a structure and an internal table are filled with sample values. Both structure and internal table are typed with the [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") [TYPE STRUCTURE FOR](javascript:call_link\('abaptype_structure_for.htm'\)) and [TYPE TABLE FOR](javascript:call_link\('abaptype_table_for.htm'\)) respectively. After the statements, a [SELECT](javascript:call_link\('abapselect.htm'\)) statement is used to retrieve the entries from a database table and insert them into an internal table to visualize the effect of the ABAP SQL statements.
+The example shows the four ABAP SQL statements [INSERT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinsert_dbtab.htm), [MODIFY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_dbtab.htm), [UPDATE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapupdate.htm), and [DELETE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_dbtab.htm) with the addition MAPPING FROM ENTITY. For each statement, a structure and an internal table are filled with sample values. Both structure and internal table are typed with the [BDEF derived types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") [TYPE STRUCTURE FOR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_structure_for.htm) and [TYPE TABLE FOR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm) respectively. After the statements, a [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm) statement is used to retrieve the entries from a database table and insert them into an internal table to visualize the effect of the ABAP SQL statements.
 
-The example for UPDATE also shows the addition [INDICATORS SET STRUCTURE](javascript:call_link\('abapupdate_set_indicator.htm'\)).
+The example for UPDATE also shows the addition [INDICATORS SET STRUCTURE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapupdate_set_indicator.htm).

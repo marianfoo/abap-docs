@@ -4,26 +4,31 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Classes and Interfaces](javascript:call_link\('abenshm_classes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_shared_objects.htm) →  [Shared Objects - Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshm_classes.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Shared%20Objects%20-%20CL_ABAP_MEMORY_AREA%2C%20ABENSHM_CL_ABAP_MEMORY_AREA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:
 )
 
 Shared Objects - CL\_ABAP\_MEMORY\_AREA
 
-The class CL\_ABAP\_MEMORY\_AREA is the shared superclass of all area classes. It contains general methods for [area handles](javascript:call_link\('abenarea_handle_glosry.htm'\) "Glossary Entry").
+The class CL\_ABAP\_MEMORY\_AREA is the shared superclass of all area classes. It contains general methods for [area handles](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarea_handle_glosry.htm "Glossary Entry").
 
--   [Static Methods](#abenshm-cl-abap-memory-area-1-----------get--handle--by--oref---@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_2)
-    -   [GET\_HANDLE\_BY\_DREF](#abenshm-cl-abap-memory-area-3-----------get--handle--by--data---@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_4)
--   [Instance Methods](#abenshm-cl-abap-memory-area-5-----------is--shared---@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_6)
-    -   [IS\_VALID](#abenshm-cl-abap-memory-area-7-----------is--active--version---@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_8)
-    -   [HAS\_ACTIVE\_PROPERTIES](#abenshm-cl-abap-memory-area-9-----------get--detach--info---@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_10)
+-   [Static Methods](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_1)
+    -   [GET\_HANDLE\_BY\_OREF](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_2)
+    -   [GET\_HANDLE\_BY\_DREF](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_3)
+    -   [GET\_HANDLE\_BY\_DATA](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_4)
+-   [Instance Methods](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_5)
+    -   [IS\_SHARED](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_6)
+    -   [IS\_VALID](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_7)
+    -   [IS\_ACTIVE\_VERSION](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_8)
+    -   [HAS\_ACTIVE\_PROPERTIES](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_9)
+    -   [GET\_DETACH\_INFO](#@@ITOC@@ABENSHM_CL_ABAP_MEMORY_AREA_10)
 
 Static Methods   
 
 GET\_HANDLE\_BY\_OREF   
 
-Gets the area handle for an instance of a class. The instance can be in the shared memory or in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
+Gets the area handle for an instance of a class. The instance can be in the shared memory or in the [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry").
 
 Input Parameter
 
@@ -161,5 +166,5 @@ Return Value
         
 
 Continue
-[Shared Objects - CL\_SHM\_AREA](javascript:call_link\('abenshm_cl_shm_area.htm'\))
-[Shared Objects - CL\_IMODE\_AREA](javascript:call_link\('abenshm_cl_imode_area.htm'\))
+[Shared Objects - CL\_SHM\_AREA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshm_cl_shm_area.htm)
+[Shared Objects - CL\_IMODE\_AREA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshm_cl_imode_area.htm)

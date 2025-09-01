@@ -4,14 +4,14 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Declarations](javascript:call_link\('abenobsolete_declarations.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_declare_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obsolete.htm) →  [Obsolete Declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenobsolete_declarations.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_declare_obsolete.htm) → 
 
 TYPES, DATA ..., TABLE LINE
 
 Obsolete Syntax
 
-[TYPES](javascript:call_link\('abaptypes_itab.htm'\)) ... [WITH](javascript:call_link\('abaptypes_keydef.htm'\)) ... [KEY](javascript:call_link\('abaptypes_primary_key.htm'\)) TABLE LINE.
-[DATA](javascript:call_link\('abapdata_itab.htm'\))  ... [WITH](javascript:call_link\('abapdata_keydef.htm'\)) ... [KEY](javascript:call_link\('abapdata_primary_key.htm'\)) TABLE LINE.
+[TYPES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_itab.htm) ... [WITH](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_keydef.htm) ... [KEY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_primary_key.htm) TABLE LINE.
+[DATA](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdata_itab.htm)  ... [WITH](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdata_keydef.htm) ... [KEY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdata_primary_key.htm) TABLE LINE.
 ...
 
 Effect

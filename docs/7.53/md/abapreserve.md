@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Creating Lists](javascript:call_link\('abenabap_lists.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Creating Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_lists.htm) → 
 
 RESERVE
 
-[Quick Reference](javascript:call_link\('abapreserve_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreserve_shortref.htm)
 
 Syntax
 
@@ -16,11 +16,11 @@ RESERVE n LINES.
 
 Effect
 
-This statement creates a page break if there is not enough space left on the current list page between the last output and the page end or [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry"), as specified in n. n expects a data object of type i. No page break is triggered if the value of n is less than or equal to 0.
+This statement creates a page break if there is not enough space left on the current list page between the last output and the page end or [page footer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpage_footer_glosry.htm "Glossary Entry"), as specified in n. n expects a data object of type i. No page break is triggered if the value of n is less than or equal to 0.
 
-The page break triggers the list event [END-OF-PAGE](javascript:call_link\('abapend-of-page.htm'\)) regardless of whether or not a page footer was defined in the introductory statement of the program.
+The page break triggers the list event [END-OF-PAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-of-page.htm) regardless of whether or not a page footer was defined in the introductory statement of the program.
 
-Furthermore, the statement RESERVE influences the behavior of the statement [BACK](javascript:call_link\('abapback.htm'\)).
+Furthermore, the statement RESERVE influences the behavior of the statement [BACK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapback.htm).
 
 Note
 

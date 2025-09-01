@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - CDS Projection Behavior Definitions](javascript:call_link\('abenbdl_projection_bo.htm'\)) →  [CDS BDL - Entity Behavior Definition, Projection BDEF](javascript:call_link\('abenbdl_define_beh_projection.htm'\)) →  [CDS BDL - Entity Behavior Body, Projection BDEF](javascript:call_link\('abenbdl_body_projection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - CDS Projection Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_projection_bo.htm) →  [CDS BDL - Entity Behavior Definition, Projection BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_define_beh_projection.htm) →  [CDS BDL - Entity Behavior Body, Projection BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_body_projection.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - use, ABENBDL_USE_PROJECTION, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0AS
 uggestion for improvement:)
@@ -13,12 +13,12 @@ CDS BDL - use
 
 Syntax
 
-... use create *\[*( [augment](javascript:call_link\('abenbdl_augment_projection.htm'\))*\[*, [precheck](javascript:call_link\('abenbdl_precheck.htm'\))*\]*)*\]*
-  *|* use update *\[*( [augment](javascript:call_link\('abenbdl_augment_projection.htm'\))*\[*, [precheck](javascript:call_link\('abenbdl_precheck.htm'\))*\]*)*\]*
-  *|* use delete *\[*([precheck](javascript:call_link\('abenbdl_precheck.htm'\)))*\]*
-  *|* use association \_Assoc { create *\[*( [augment](javascript:call_link\('abenbdl_augment_projection.htm'\))*\[*, [precheck](javascript:call_link\('abenbdl_precheck.htm'\))*\]*)*\]*;
-                            *\[*[with draft](javascript:call_link\('abenbdl_association.htm'\));*\]*}
-  *|* use action *\[*([precheck](javascript:call_link\('abenbdl_precheck.htm'\)))*\]* ActionName
+... use create *\[*( [augment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_augment_projection.htm)*\[*, [precheck](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_precheck.htm)*\]*)*\]*
+  *|* use update *\[*( [augment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_augment_projection.htm)*\[*, [precheck](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_precheck.htm)*\]*)*\]*
+  *|* use delete *\[*([precheck](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_precheck.htm))*\]*
+  *|* use association \_Assoc { create *\[*( [augment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_augment_projection.htm)*\[*, [precheck](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_precheck.htm)*\]*)*\]*;
+                            *\[*[with draft](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_association.htm);*\]*}
+  *|* use action *\[*([precheck](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_precheck.htm))*\]* ActionName
                *\[*result entity ProjResultEntity*\]*
                *\[*as ProjAction*\]*
                *\[*external 'ExtName'*\]*
@@ -44,23 +44,23 @@ Variants:
 
 Effect
 
-The keyword use allows the reuse of [entity behavior characteristics](javascript:call_link\('abencds_entity_properties_glosry.htm'\) "Glossary Entry"), [draft handling](javascript:call_link\('abenrap_draft_handling_glosry.htm'\) "Glossary Entry"), and [RAP BO operations](javascript:call_link\('abenrap_bo_operation_glosry.htm'\) "Glossary Entry") from the base BDEF in a [projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry") or interface BDEF.
+The keyword use allows the reuse of [entity behavior characteristics](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_properties_glosry.htm "Glossary Entry"), [draft handling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_draft_handling_glosry.htm "Glossary Entry"), and [RAP BO operations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_operation_glosry.htm "Glossary Entry") from the base BDEF in a [projection BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry") or interface BDEF.
 
 The following operations and characteristics can be reused:
 
--   [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\))
--   [operations for associations](javascript:call_link\('abenbdl_association.htm'\))
--   [actions](javascript:call_link\('abenbdl_action.htm'\))
--   [functions](javascript:call_link\('abenbdl_function.htm'\))
--   [ETag](javascript:call_link\('abenbdl_etag.htm'\))
--   [draft handling](javascript:call_link\('abenbdl_with_draft.htm'\)), including [draft actions](javascript:call_link\('abenbdl_draft_action.htm'\))
+-   [standard operations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_standard_operations.htm)
+-   [operations for associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_association.htm)
+-   [actions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action.htm)
+-   [functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_function.htm)
+-   [ETag](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_etag.htm)
+-   [draft handling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_with_draft.htm), including [draft actions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_draft_action.htm)
 
-Only such elements can be reused that were defined in the underlying behavior definition. The behavior is realized by mapping it to the underlying behavior; no implementation in an [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is required.
+Only such elements can be reused that were defined in the underlying behavior definition. The behavior is realized by mapping it to the underlying behavior; no implementation in an [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is required.
 
 On top of reusing behavior, there are two optional, new additions available for the reused behavior: precheck and augment. Both of them require an implementation in the ABAP behavior pool. They are available only in projection BDEFs, not in interface BDEFs. These additions are documented in their own topics, see
 
--   [precheck](javascript:call_link\('abenbdl_precheck.htm'\))
--   [augment](javascript:call_link\('abenbdl_augment_projection.htm'\))
+-   [precheck](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_precheck.htm)
+-   [augment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_augment_projection.htm)
 
 For the operations and characteristics listed in this topic, no automatic inheritance takes place. They must be explicitly specified in the projection or interface BDEF. Otherwise, the respective feature is not available in the projection.
 
@@ -83,7 +83,7 @@ define behavior for DEMO\_RAP\_PROJ\_CRUD\_CHILD
   use association \_Address;
 }
 
-The ABAP program DEMO\_RAP\_PROJECTION\_CRUD uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"). It creates, updates, and deletes BO instances.
+The ABAP program DEMO\_RAP\_PROJECTION\_CRUD uses [EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") to access a [RAP business object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm "Glossary Entry"). It creates, updates, and deletes BO instances.
 
 Further Information
 
@@ -95,12 +95,12 @@ Variant 1  
 
 Effect
 
-The [standard operation create](javascript:call_link\('abenbdl_standard_operations.htm'\)) can be reused in a projection or interface BDEF.
+The [standard operation create](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_standard_operations.htm) can be reused in a projection or interface BDEF.
 
 In a projection BDEF, the following additions can be added. Both of them require an implementation in an ABAP behavior pool.
 
--   [augment](javascript:call_link\('abenbdl_augment_projection.htm'\))
--   [precheck](javascript:call_link\('abenbdl_precheck.htm'\))
+-   [augment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_augment_projection.htm)
+-   [precheck](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_precheck.htm)
 
 Example: see above, projection BDEF DEMO\_RAP\_PROJECTION\_CRUD.
 
@@ -110,12 +110,12 @@ Variant 2  
 
 Effect
 
-The [standard operation update](javascript:call_link\('abenbdl_standard_operations.htm'\)) can be reused in a projection or interface BDEF.
+The [standard operation update](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_standard_operations.htm) can be reused in a projection or interface BDEF.
 
 In a projection BDEF, the following additions can be added. Both of them require an implementation in an ABAP behavior pool.
 
--   [augment](javascript:call_link\('abenbdl_augment_projection.htm'\))
--   [precheck](javascript:call_link\('abenbdl_precheck.htm'\))
+-   [augment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_augment_projection.htm)
+-   [precheck](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_precheck.htm)
 
 Example: see above, projection BDEF DEMO\_RAP\_PROJECTION\_CRUD.
 
@@ -125,11 +125,11 @@ Variant 3  
 
 Effect
 
-The [standard operation delete](javascript:call_link\('abenbdl_standard_operations.htm'\)) can be reused in a projection or interface BDEF.
+The [standard operation delete](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_standard_operations.htm) can be reused in a projection or interface BDEF.
 
 In a projection BDEF, the following addition can be added. It requires an implementation in an ABAP behavior pool.
 
--   [precheck](javascript:call_link\('abenbdl_precheck.htm'\))
+-   [precheck](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_precheck.htm)
 
 Example: see above, projection BDEF DEMO\_RAP\_PROJECTION\_CRUD.
 
@@ -141,16 +141,16 @@ Effect
 
 The transactional enabling of associations can be reused in a projection or interface BDEF.
 
-If [RAP draft handling](javascript:call_link\('abenrap_draft_handling_glosry.htm'\) "Glossary Entry") is enabled in the projection or interface BDEF, associations must be draft enabled using the syntax addition with draft.
+If [RAP draft handling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_draft_handling_glosry.htm "Glossary Entry") is enabled in the projection or interface BDEF, associations must be draft enabled using the syntax addition with draft.
 
 Example: use association \_assoc { create; with draft; }
 
-For details on the [read-by-association](javascript:call_link\('abenrap_rba_operation_glosry.htm'\) "Glossary Entry") and [create-by-association operations](javascript:call_link\('abenrap_cba_operation_glosry.htm'\) "Glossary Entry") as well as draft-enabling of associations, see topic [CDS BDL - operations for associations](javascript:call_link\('abenbdl_association.htm'\)).
+For details on the [read-by-association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_rba_operation_glosry.htm "Glossary Entry") and [create-by-association operations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_cba_operation_glosry.htm "Glossary Entry") as well as draft-enabling of associations, see topic [CDS BDL - operations for associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_association.htm).
 
 In projection BDEFs, the following additions can be added. Both of them require an implementation in an ABAP behavior pool.
 
--   [augment](javascript:call_link\('abenbdl_augment_projection.htm'\))
--   [precheck](javascript:call_link\('abenbdl_precheck.htm'\))
+-   [augment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_augment_projection.htm)
+-   [precheck](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_precheck.htm)
 
 Example: see above, projection BDEF DEMO\_RAP\_PROJECTION\_CRUD.
 
@@ -160,13 +160,13 @@ Variant 5  
 
 Effect
 
-The syntax element use action can be used in a projection or interface BDEF to project [actions](javascript:call_link\('abenbdl_action.htm'\)), [draft actions](javascript:call_link\('abenbdl_draft_action.htm'\)), and [determine actions](javascript:call_link\('abenbdl_determine_action.htm'\)) from the underlying base BDEF. Only such actions, draft actions, and determine actions can be reused that are defined in the underlying behavior definition. If an [authorization concept](javascript:call_link\('abenbdl_authorization.htm'\)) or [feature control](javascript:call_link\('abenbdl_actions_fc.htm'\)) is specified for an action, this is automatically passed on to the projection/interface.
+The syntax element use action can be used in a projection or interface BDEF to project [actions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action.htm), [draft actions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_draft_action.htm), and [determine actions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_determine_action.htm) from the underlying base BDEF. Only such actions, draft actions, and determine actions can be reused that are defined in the underlying behavior definition. If an [authorization concept](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization.htm) or [feature control](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_actions_fc.htm) is specified for an action, this is automatically passed on to the projection/interface.
 
 Additions:
 
--   [precheck](javascript:call_link\('abenbdl_precheck.htm'\)): a precheck can newly be added in the projection layer. An implementation in an ABAP behavior pool is required.
--   result entity: If the base BDEF specifies an [output parameter entity](javascript:call_link\('abenbdl_action_output_para.htm'\)) using the keyword result entity, the projection BDEF must specify the projection of the result entity with the syntax result entity ProjResultEntity. Otherwise, it may happen that the action is no longer exposed if the result entity is not included in the service.
--   as: an action can be given a new [alias name](javascript:call_link\('abenalias_glosry.htm'\) "Glossary Entry") in the projection layer using the keyword as.
+-   [precheck](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_precheck.htm): a precheck can newly be added in the projection layer. An implementation in an ABAP behavior pool is required.
+-   result entity: If the base BDEF specifies an [output parameter entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action_output_para.htm) using the keyword result entity, the projection BDEF must specify the projection of the result entity with the syntax result entity ProjResultEntity. Otherwise, it may happen that the action is no longer exposed if the result entity is not included in the service.
+-   as: an action can be given a new [alias name](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenalias_glosry.htm "Glossary Entry") in the projection layer using the keyword as.
 -   external: a new alias name for external usage in OData can be provided in the projection layer. This external name can be much longer than the alias name in ABAP and needs to be used when defining the corresponding UI annotations.
 -   result external: a new alias name for the result entity can be provided in the projection layer. This new name is exposed in the OData metadata.
 
@@ -174,7 +174,7 @@ Example
 
 The following example shows a projection BDEF that reuses the two actions Approve\_Order and Reject\_Order from the underlying base BDEF. The underlying base BDEF is DEMO\_CDS\_PURCH\_DOC\_M.
 
-For a detailed description of the definition and implementation of the base BO, see topic [CDS BDL - action](javascript:call_link\('abenbdl_action1_abexa.htm'\)).
+For a detailed description of the definition and implementation of the base BO, see topic [CDS BDL - action](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action1_abexa.htm).
 
 projection;
 strict(2);
@@ -187,7 +187,7 @@ define behavior for DEMO\_RAP\_PROJ\_ACTION
   use action Reject\_Order as Reject;
 }
 
-The ABAP program DEMO\_RAP\_PROJ\_ACTION uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access a RAP business object. It performs the action Reject on one entity instance.
+The ABAP program DEMO\_RAP\_PROJ\_ACTION uses [EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") to access a RAP business object. It performs the action Reject on one entity instance.
 
 Result: column Status of the respective instance is filled with R for Rejected.
 
@@ -203,12 +203,12 @@ Variant 6  
 
 Effect
 
-The syntax element use function can be used in a projection or interface BDEF to reuse [functions](javascript:call_link\('abenbdl_function.htm'\)) from the underlying base BDEF. Only such functions can be reused that are defined in the underlying behavior definition.
+The syntax element use function can be used in a projection or interface BDEF to reuse [functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_function.htm) from the underlying base BDEF. Only such functions can be reused that are defined in the underlying behavior definition.
 
 Additions:
 
--   result entity: If the base BDEF specifies an [output parameter entity](javascript:call_link\('abenbdl_action_output_para.htm'\)) using the keyword result entity, the projection BDEF must specify the projection of the result entity with the syntax result entity ProjResultEntity. Otherwise, it may happen that the function is no longer exposed if the result entity is not included in the service.
--   as: a function can be given a new [alias name](javascript:call_link\('abenalias_glosry.htm'\) "Glossary Entry") in the projection layer using the keyword as.
+-   result entity: If the base BDEF specifies an [output parameter entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action_output_para.htm) using the keyword result entity, the projection BDEF must specify the projection of the result entity with the syntax result entity ProjResultEntity. Otherwise, it may happen that the function is no longer exposed if the result entity is not included in the service.
+-   as: a function can be given a new [alias name](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenalias_glosry.htm "Glossary Entry") in the projection layer using the keyword as.
 -   external: a new alias name for external usage in OData can be provided in the projection layer. This external name can be much longer than the alias name in ABAP and needs to be used when defining the corresponding UI annotations.
 -   result external: a new alias name for the result entity can be provided in the projection layer. This new name is exposed in the OData metadata.
 
@@ -216,7 +216,7 @@ Example
 
 The following example shows a projection BDEF that reuses the functions getDetails, calculateTotal, and calculateDiscount from the underlying base BDEF. The underlying base BDEF is DEMO\_RAP\_PROJ\_FUNCTION.
 
-For a detailed description of the definition and implementation of the base BO, see topic [CDS BDL - function](javascript:call_link\('abenbdl_function_abexa.htm'\)).
+For a detailed description of the definition and implementation of the base BO, see topic [CDS BDL - function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_function_abexa.htm).
 
 projection;
 strict(2);
@@ -230,7 +230,7 @@ define behavior for DEMO\_RAP\_PROJ\_FUNCTION
   use function calculateDiscount;
 }
 
-The ABAP program DEMO\_RAP\_PROJ\_FUNCTION uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access a RAP business object. It executes all three functions and displays the content of their result structures. No [modify operations](javascript:call_link\('abenrap_modify_operation_glosry.htm'\) "Glossary Entry") are carried out, the functions merely deliver information in their result structure without changing database entries.
+The ABAP program DEMO\_RAP\_PROJ\_FUNCTION uses [EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") to access a RAP business object. It executes all three functions and displays the content of their result structures. No [modify operations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_modify_operation_glosry.htm "Glossary Entry") are carried out, the functions merely deliver information in their result structure without changing database entries.
 
 Result:
 
@@ -242,9 +242,9 @@ Variant 7  
 
 Effect
 
-[RAP draft handling](javascript:call_link\('abenrap_draft_handling_glosry.htm'\) "Glossary Entry") can be reused with the syntax element use draft. As a prerequisite, the underlying RAP BO must be draft-enabled. The [draft tables](javascript:call_link\('abendraft_table_glosry.htm'\) "Glossary Entry") and the total ETag field are implementation details that are automatically reused and do not have to be explicitly specified. For details on RAP draft handling, see topic [CDS BDL - with draft](javascript:call_link\('abenbdl_with_draft.htm'\)).
+[RAP draft handling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_draft_handling_glosry.htm "Glossary Entry") can be reused with the syntax element use draft. As a prerequisite, the underlying RAP BO must be draft-enabled. The [draft tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendraft_table_glosry.htm "Glossary Entry") and the total ETag field are implementation details that are automatically reused and do not have to be explicitly specified. For details on RAP draft handling, see topic [CDS BDL - with draft](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_with_draft.htm).
 
-In a projection BDEF, [draft actions](javascript:call_link\('abenbdl_draft_action.htm'\)) should be specified explicitly using the syntax element use action. They are reused implicitly, but it is recommended that they are written explicitly. If [BDEF strict mode](javascript:call_link\('abenbdl_strict.htm'\)) is switched on, it is mandatory to explicitly specify all of the draft actions.
+In a projection BDEF, [draft actions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_draft_action.htm) should be specified explicitly using the syntax element use action. They are reused implicitly, but it is recommended that they are written explicitly. If [BDEF strict mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_strict.htm) is switched on, it is mandatory to explicitly specify all of the draft actions.
 
 In an interface BDEF, draft actions must be specified explicitly using the syntax element use action, as soon as draft handling is reused.
 
@@ -252,13 +252,13 @@ Reused associations should be explicitly draft-enabled using the syntax element 
 
 Example: use association \_assoc { create; with draft; }
 
-For further details on draft-enabled associations, see the topic [CDS BDL - operations for associations](javascript:call_link\('abenbdl_association.htm'\)).
+For further details on draft-enabled associations, see the topic [CDS BDL - operations for associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_association.htm).
 
 Example
 
 The following example shows a projection BDEF that is based on the unmanaged, draft-enabled BDEF DEMO\_RAP\_UNMANAGED\_DRAFT\_ROOT. It reuses the RAP draft handling.
 
-For a detailed description of the definition and implementation of the base BO, see the topic [CDS BDL - with draft](javascript:call_link\('abenbdl_with_draft.htm'\)).
+For a detailed description of the definition and implementation of the base BO, see the topic [CDS BDL - with draft](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_with_draft.htm).
 
 projection;
 strict(2);
@@ -283,10 +283,10 @@ define behavior for DEMO\_RAP\_PROJECTION\_DRAFT\_CHIL
 
 The implementation is automatically reused from the base BO.
 
-The ABAP program DEMO\_RAP\_PROJECTION\_DRAFT accesses the business object using [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") and performs the following steps:
+The ABAP program DEMO\_RAP\_PROJECTION\_DRAFT accesses the business object using [EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") and performs the following steps:
 
 -   It creates two new draft instances of the parent entity and two new draft instances of the child entity and displays the content of the draft tables.
--   Then it activates the draft entities using the draft action Activate. The content of the draft tables is written to the [persistent tables](javascript:call_link\('abenrap_persistent_table_glosry.htm'\) "Glossary Entry") and the draft tables are emptied.
+-   Then it activates the draft entities using the draft action Activate. The content of the draft tables is written to the [persistent tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_persistent_table_glosry.htm "Glossary Entry") and the draft tables are emptied.
 
 Variant 8   
 
@@ -294,7 +294,7 @@ Variant 8  
 
 Effect
 
-If the base BO specifies [master or dependent ETag fields for optimistic concurrency control](javascript:call_link\('abenbdl_etag.htm'\)), these fields can be reused. The keyword use etag must be specified for each entity in the projection or interface BDEF individually. If it is not specified explicitly in the projection or interface BDEF, the [optimistic concurrency control](javascript:call_link\('abenoptimistic_conc_control_glosry.htm'\) "Glossary Entry") functionality is lost.
+If the base BO specifies [master or dependent ETag fields for optimistic concurrency control](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_etag.htm), these fields can be reused. The keyword use etag must be specified for each entity in the projection or interface BDEF individually. If it is not specified explicitly in the projection or interface BDEF, the [optimistic concurrency control](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoptimistic_conc_control_glosry.htm "Glossary Entry") functionality is lost.
 
 Hint
 

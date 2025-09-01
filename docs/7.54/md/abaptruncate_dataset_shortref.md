@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  T
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shortref.htm) →  T
 
 TRUNCATE DATASET - Quick reference
 
-[Reference](javascript:call_link\('abaptruncate.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptruncate.htm)
 
 Syntax
 

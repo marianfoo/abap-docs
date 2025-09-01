@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Naming](javascript:call_link\('abennaming_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennaming_guidl.htm) → 
 
 Names of Structure Components
 
@@ -14,15 +14,15 @@ When ABAP programs are executed, the names of data objects usually only have the
 
 -   When structure components are assigned using
 
--   the statement [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\))
+-   the statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmove-corresponding.htm)
 
--   the component operator [CORRESPONDING](javascript:call_link\('abenconstructor_expr_corresponding.htm'\))
+-   the component operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expr_corresponding.htm)
 
--   the system class [CL\_ABAP\_CORRESPONDING](javascript:call_link\('abencl_abap_corresponding.htm'\))
+-   the system class [CL\_ABAP\_CORRESPONDING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_abap_corresponding.htm)
 
--   In ABAP SQL, in the addition [CORRESPONDING](javascript:call_link\('abapinto_clause.htm'\)) of the statement [SELECT](javascript:call_link\('abapselect.htm'\))
+-   In ABAP SQL, in the addition [CORRESPONDING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinto_clause.htm) of the statement [SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect.htm)
 
--   In [obsolete calculation statements](javascript:call_link\('abencomputing_obsolete.htm'\)) like [ADD-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+-   In [obsolete calculation statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomputing_obsolete.htm) like [ADD-CORRESPONDING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapadd-corresponding.htm)
 
 In these language constructs, the names of the components of the structures in question are compared and the operation is executed using the identically named components (if not overridden by a mapping rule).
 

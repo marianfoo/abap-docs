@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 Boolean function
 
-[Logical function](javascript:call_link\('abenlogic_function_glosry.htm'\) "Glossary Entry") that analyzes a [logical expression](javascript:call_link\('abenlogical_expression_glosry.htm'\) "Glossary Entry") and returns the [truth value](javascript:call_link\('abentruth_value_glosry.htm'\) "Glossary Entry") in character-like or byte-like form.
+[Logical function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogic_function_glosry.htm "Glossary Entry") that analyzes a [logical expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogical_expression_glosry.htm "Glossary Entry") and returns the [truth value](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentruth_value_glosry.htm "Glossary Entry") in character-like or byte-like form.
 
-[→ More about](javascript:call_link\('abenboole_functions.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenboole_functions.htm)

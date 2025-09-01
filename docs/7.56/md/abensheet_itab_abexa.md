@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Cheat Sheets](javascript:call_link\('abenabap_blurb.htm'\)) →  [Working with Internal Tables](javascript:call_link\('abapsheets_internal_tables.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Cheat Sheets](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_blurb.htm) →  [Working with Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_internal_tables.htm) → 
 
 Working with Internal Tables
 
-This example demonstrates all syntactical options for working with internal tables outlined in the ABAP cheat sheet [Internal Tables](javascript:call_link\('abapsheets_internal_tables.htm'\)).
+This example demonstrates all syntactical options for working with internal tables outlined in the ABAP cheat sheet [Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_internal_tables.htm).
 
 Source Code
 
@@ -1098,7 +1098,7 @@ START-OF-SELECTION.
 
 Description
 
-The output shows the outcome of various ways about how to work with internal tables. Find comments in the output explaining the context and details. Basically, all variants described in the ABAP cheat sheet [Internal Tables](javascript:call_link\('abapsheets_internal_tables.htm'\)) are covered:
+The output shows the outcome of various ways about how to work with internal tables. Find comments in the output explaining the context and details. Basically, all variants described in the ABAP cheat sheet [Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_internal_tables.htm) are covered:
 
 -   Creating internal tables
 -   Filling internal tables

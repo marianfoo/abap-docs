@@ -4,20 +4,20 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [DDIC - Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [DDIC - Table-Specific Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) →  [DDIC - Foreign Key Dependencies](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary.htm) →  [DDIC - Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables.htm) →  [DDIC - Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_sema.htm) →  [DDIC - Table-Specific Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_semasspec.htm) →  [DDIC - Foreign Key Dependencies](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkeyrel.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DDIC - Foreign Keys, ABENDDIC_DATABASE_TABLES_FORKEY, 757%0D%0A%0D%0AError:%0D%0A%0D%
 0A%0D%0A%0D%0ASuggestion for improvement:)
 
 DDIC - Foreign Keys
 
-A foreign key consists of one or more [foreign key fields](javascript:call_link\('abenforeign_key_field_glosry.htm'\) "Glossary Entry") of a [foreign key table](javascript:call_link\('abenforeign_key_table_glosry.htm'\) "Glossary Entry") that is itself the [primary key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") of a [check table](javascript:call_link\('abencheck_table_glosry.htm'\) "Glossary Entry"). A DDIC database table can have multiple foreign keys. A [foreign key dependency](javascript:call_link\('abenforeign_key_dependency_glosry.htm'\) "Glossary Entry") exists between a foreign key table and its check tables. A foreign key table usually only contains entries where the content of the foreign key also occurs exactly once as content of the primary key in the check table. This must also be respected in [writes](javascript:call_link\('abenabap_sql_writing.htm'\)) made using ABAP SQL.
+A foreign key consists of one or more [foreign key fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenforeign_key_field_glosry.htm "Glossary Entry") of a [foreign key table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenforeign_key_table_glosry.htm "Glossary Entry") that is itself the [primary key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprimary_key_glosry.htm "Glossary Entry") of a [check table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencheck_table_glosry.htm "Glossary Entry"). A DDIC database table can have multiple foreign keys. A [foreign key dependency](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenforeign_key_dependency_glosry.htm "Glossary Entry") exists between a foreign key table and its check tables. A foreign key table usually only contains entries where the content of the foreign key also occurs exactly once as content of the primary key in the check table. This must also be respected in [writes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_writing.htm) made using ABAP SQL.
 
 Foreign keys can have the following properties:
 
 -   Input check
     
-    In the definition of the foreign key, it is possible to use a foreign key dependency to activate an input check for dynpros or Web Dynpros. Furthermore, the standard message here can be replaced by a custom [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry"). Any placeholders in the message are filled as follows when the message is sent: The first three placeholders are filled with the content of the foreign key fields that are assigned to the first three key fields of the check table after the client field. The fourth placeholder is filled with the name of the check table.
+    In the definition of the foreign key, it is possible to use a foreign key dependency to activate an input check for dynpros or Web Dynpros. Furthermore, the standard message here can be replaced by a custom [message](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmessage_glosry.htm "Glossary Entry"). Any placeholders in the message are filled as follows when the message is sent: The first three placeholders are filled with the content of the foreign key fields that are assigned to the first three key fields of the check table after the client field. The fourth placeholder is filled with the name of the check table.
     
 -   Generic foreign key fields
     
@@ -33,7 +33,7 @@ Foreign keys can have the following properties:
     
 -   Cardinality
     
-    An n:m [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") can be defined for each foreign key. This cardinality has only a logging purpose, except in the definition of [DDIC maintenance views](javascript:call_link\('abenddic_maintenance_views.htm'\)) and [DDIC help views](javascript:call_link\('abenddic_help_views.htm'\)).
+    An n:m [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") can be defined for each foreign key. This cardinality has only a logging purpose, except in the definition of [DDIC maintenance views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_maintenance_views.htm) and [DDIC help views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_help_views.htm).
     
     Possible values for n:
     

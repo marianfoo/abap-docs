@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Types](javascript:call_link\('abentypes_statements.htm'\)) →  [TYPES](javascript:call_link\('abaptypes.htm'\)) →  [TYPES, TABLE OF](javascript:call_link\('abaptypes_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentypes_and_objects.htm) →  [Declaring Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentypes_statements.htm) →  [TYPES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes.htm) →  [TYPES, TABLE OF](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_itab.htm) → 
 
 TYPES, tabkind
 
-[Short Reference](javascript:call_link\('abaptypes_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_shortref.htm)
 
 Syntax
 
@@ -32,27 +32,27 @@ Defines the table category of an internal table. Possible specifications:
 
 -   Non-generic table categories
 
--   STANDARD TABLE for [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry")
+-   STANDARD TABLE for [standard tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstandard_table_glosry.htm "Glossary Entry")
 
--   SORTED TABLE for [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry")
+-   SORTED TABLE for [sorted tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensorted_table_glosry.htm "Glossary Entry")
 
--   HASHED TABLE for [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry")
+-   HASHED TABLE for [hashed tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhashed_table_glosry.htm "Glossary Entry")
 
 -   Generic table categories
 
 -   ANY TABLE covers all table categories
 
--   INDEX TABLE of [index tables](javascript:call_link\('abenindex_table_glosry.htm'\) "Glossary Entry") ([standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") and [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry"))
+-   INDEX TABLE of [index tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenindex_table_glosry.htm "Glossary Entry") ([standard tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstandard_table_glosry.htm "Glossary Entry") and [sorted tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensorted_table_glosry.htm "Glossary Entry"))
 
 The addition STANDARD is optional for standard tables.
 
 Hint
 
-The additions of the statement TYPES listed above are language element additions for defining table categories. They are not to be confused with the [generic ABAP types](javascript:call_link\('abenbuilt_in_types_generic.htm'\)) with the same name.
+The additions of the statement TYPES listed above are language element additions for defining table categories. They are not to be confused with the [generic ABAP types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_types_generic.htm) with the same name.
 
 Programming Guideline
 
-[Use a suitable table category](javascript:call_link\('abenselect_table_type_guidl.htm'\) "Guideline")
+[Use a suitable table category](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_table_type_guidl.htm "Guideline")
 
 Addition 1
 
@@ -70,18 +70,18 @@ Effect
 
 The non-generic table categories specify the internal administration and primary access type for an internal table in ABAP programs:
 
--   Standard tables are managed internally in the system using a [primary table index](javascript:call_link\('abenprimary_table_index_glosry.htm'\) "Glossary Entry"). New lines are either appended to the table or inserted at specific positions.
+-   Standard tables are managed internally in the system using a [primary table index](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprimary_table_index_glosry.htm "Glossary Entry"). New lines are either appended to the table or inserted at specific positions.
     
 
--   Like standard tables, sorted tables are also managed using a [primary table index](javascript:call_link\('abenprimary_table_index_glosry.htm'\) "Glossary Entry"). The entries in this index are always sorted by the primary table key. The sort order is ascending and corresponds to the result of the statement [SORT](javascript:call_link\('abapsort_itab.htm'\)) with no additions. The sorting is based on the [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for the data types of the key fields.
+-   Like standard tables, sorted tables are also managed using a [primary table index](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprimary_table_index_glosry.htm "Glossary Entry"). The entries in this index are always sorted by the primary table key. The sort order is ascending and corresponds to the result of the statement [SORT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsort_itab.htm) with no additions. The sorting is based on the [comparison rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_rules.htm) for the data types of the key fields.
     
 
--   Hashed tables are managed by a hash algorithm. There is no [primary table index](javascript:call_link\('abenprimary_table_index_glosry.htm'\) "Glossary Entry"). The entries are not ordered in the memory. The position of a line is calculated from a key specification using a hash function.
+-   Hashed tables are managed by a hash algorithm. There is no [primary table index](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprimary_table_index_glosry.htm "Glossary Entry"). The entries are not ordered in the memory. The position of a line is calculated from a key specification using a hash function.
     
 
 Hint
 
-For non-generic table categories, the definition of the table key [key](javascript:call_link\('abaptypes_keydef.htm'\)) determines whether the defined table type is generic.
+For non-generic table categories, the definition of the table key [key](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_keydef.htm) determines whether the defined table type is generic.
 
 Example
 
@@ -107,7 +107,7 @@ INDEX TABLE
 
 Effect
 
-The generic table categories define a generic table type that can only be used for [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") formal parameters and field symbols:
+The generic table categories define a generic table type that can only be used for [typing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_glosry.htm "Glossary Entry") formal parameters and field symbols:
 
 -   ANY TABLE covers all table categories
     
@@ -117,7 +117,7 @@ The generic table categories define a generic table type that can only be used f
 
 Hint
 
-A generic table type must not be used as a component of a [structured type](javascript:call_link\('abaptypes_struc.htm'\)).
+A generic table type must not be used as a component of a [structured type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_struc.htm).
 
 Example
 

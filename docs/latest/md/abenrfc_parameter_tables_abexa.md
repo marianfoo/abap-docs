@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [Remote Function Call (RFC)](javascript:call_link\('abenrfc.htm'\)) →  [RFC - Examples](javascript:call_link\('abenrfc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_communication.htm) →  [Remote Function Call (RFC)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc.htm) →  [RFC - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RFC%20-%20Dynamic%20Parameter%20Passing%20in%20sRFC%2C%20ABENRFC_PARAMETER_TABLES_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20
 improvement:)
@@ -80,4 +80,4 @@ ENDCLASS.
 
 Description   
 
-The function module DEMO\_RFM\_PARAMETERS is called using [sRFC](javascript:call_link\('abensrfc_glosry.htm'\) "Glossary Entry"). Parameters are passed and exceptions are handled dynamically using internal tables ptab and etab.
+The function module DEMO\_RFM\_PARAMETERS is called using [sRFC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensrfc_glosry.htm "Glossary Entry"). Parameters are passed and exceptions are handled dynamically using internal tables ptab and etab.

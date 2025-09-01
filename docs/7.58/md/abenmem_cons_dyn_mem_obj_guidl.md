@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_prog_technique_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Memory%20Consumption%20of%20Dynamic%20Memory%20Objects%2C%20ABENMEM_CONS_DYN_MEM_OBJ_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for
 %20improvement:)
@@ -20,11 +20,11 @@ In dynamic objects, the actual data is addressed using a reference. This means t
 -   Anonymous data objects created using CREATE DATA and addressed using data references in data reference variables
 -   Instances of classes created using CREATE OBJECT and addressed using object references in object reference variables
 
-The maximum total size and number of all dynamically managed memory objects in an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") are defined in principle by the maximum amount of memory that this session can request to execute programs.
+The maximum total size and number of all dynamically managed memory objects in an [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry") are defined in principle by the maximum amount of memory that this session can request to execute programs.
 
 Alongside the available memory on the current AS instance, there are two further technical limits that can restrict the size of individual dynamic memory objects:
 
--   The upper limit is 2³¹-1 for the size of a string in bytes (in the character representation [UCS-2](javascript:call_link\('abenucs2_glosry.htm'\) "Glossary Entry") used by the ABAP programming language, every character in a string occupies 2 bytes) and the number of rows in an internal table.
+-   The upper limit is 2³¹-1 for the size of a string in bytes (in the character representation [UCS-2](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenucs2_glosry.htm "Glossary Entry") used by the ABAP programming language, every character in a string occupies 2 bytes) and the number of rows in an internal table.
 -   The memory for the content of a string and for hash management of an internal hashed table must be provided as one piece. Therefore, the ztta/max\_ memreq\_mb profile parameter is relevant for these two memory object types. It defines the maximum amount of memory that can be requested as one piece. A maximum size for strings and a limitation on the number of rows in hashed tables can be directly derived from this amount. This limitation does not depend on the width of table rows. Only the hash management (and not the table content) must be provided as one piece in the memory. The current limitation is the highest power of two, which is less than or equal to an eighth of the value specified by the profile parameter. For example, if the profile parameter specifies 250MB, a hashed table can contain approximately 16 million rows.
 
 Any attempt to exceed these limits produces a runtime error and the termination of the program.
@@ -51,7 +51,7 @@ Releasing Memory
 The main advantage of dynamically managed memory is that it can be released again. Use this option to delete data and objects no longer required, to avoid memory leaks and possible memory bottlenecks:
 
 -   You can delete strings using the CLEAR statement.
--   You can use CLEAR or FREE to delete internal tables. FREE releases the entire memory space occupied by rows, whereas the [initial memory requirement](javascript:call_link\('abeninitial_mem_req_glosry.htm'\) "Glossary Entry") of the table remains reserved if CLEAR is used. An [appropriate size](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\) "Guideline") for the initial memory requirement is usually defined by the ABAP runtime framework itself. However, it can also be predefined using the INITIAL SIZE addition.
+-   You can use CLEAR or FREE to delete internal tables. FREE releases the entire memory space occupied by rows, whereas the [initial memory requirement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_mem_req_glosry.htm "Glossary Entry") of the table remains reserved if CLEAR is used. An [appropriate size](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_memory_requ_guidl.htm "Guideline") for the initial memory requirement is usually defined by the ABAP runtime framework itself. However, it can also be predefined using the INITIAL SIZE addition.
 -   Anonymous data objects and instances of classes are deleted by the Garbage Collector, after all reference variables that refer to these objects have been initialized. Here, you must ensure that all references are actually identified during initialization. This is not always straightforward, particularly in the case of complex object networks. To analyze memory problems and detect memory leaks, you can use Memory Inspector and the ABAP Debugger memory analysis. You can display memory consumption rankings for all dynamically managed memory objects.
 
 Hint

@@ -4,42 +4,42 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - Specifying Annotations](javascript:call_link\('abencds_anno_usage.htm'\)) →  [ABAP CDS - Annotation Syntax](javascript:call_link\('abencds_annotations_syntax.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations.htm) →  [ABAP CDS - Specifying Annotations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_anno_usage.htm) →  [ABAP CDS - Annotation Syntax](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax.htm) → 
 
 ABAP CDS - Annotation Syntax, .subAnno
 
 Syntax
 
-... .subAnno*\[*:   [value](javascript:call_link\('abencds_annotations_syntax_value.htm'\))  *\]*
-           *|**\[*: { [subannos](javascript:call_link\('abencds_annotations_syntax_subanno.htm'\)) } *\]*
-           *|**\[*: \[ [arrelem](javascript:call_link\('abencds_annotations_syntax_array.htm'\)) \] *\]*
+... .subAnno*\[*:   [value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax_value.htm)  *\]*
+           *|**\[*: { [subannos](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax_subanno.htm) } *\]*
+           *|**\[*: \[ [arrelem](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax_array.htm) \] *\]*
            *|**\[*.subAnno*\[* ... *\]**\]*
 
 Effect
 
-Concatenates an [annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)) with a [subannotation](javascript:call_link\('abensub_annotation_glosry.htm'\) "Glossary Entry") subanno. The concatenation is indicated by a period (.). The name of the subannotation can contain letters, numbers, and underscores only and must start with a letter. The same information can be specified after the name as specified after the [main annotation](javascript:call_link\('abenmain_annotation_glosry.htm'\) "Glossary Entry"):
+Concatenates an [annotation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax.htm) with a [subannotation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensub_annotation_glosry.htm "Glossary Entry") subanno. The concatenation is indicated by a period (.). The name of the subannotation can contain letters, numbers, and underscores only and must start with a letter. The same information can be specified after the name as specified after the [main annotation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmain_annotation_glosry.htm "Glossary Entry"):
 
 -   A colon (:) followed by the following:
 
--   An [annotation value](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry") [value](javascript:call_link\('abencds_annotations_syntax_value.htm'\))
+-   An [annotation value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenannotation_value_glosry.htm "Glossary Entry") [value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax_value.htm)
 
--   Further [subannotations](javascript:call_link\('abensub_annotation_glosry.htm'\) "Glossary Entry") [subannos](javascript:call_link\('abencds_annotations_syntax_subanno.htm'\)) specified in curly brackets { ... }. }.
+-   Further [subannotations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensub_annotation_glosry.htm "Glossary Entry") [subannos](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax_subanno.htm) specified in curly brackets { ... }. }.
 
--   Elements of an [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") [arrelem](javascript:call_link\('abencds_annotations_syntax_array.htm'\)) in square brackets \[ ... \]
+-   Elements of an [annotation array](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenannotation_array_glosry.htm "Glossary Entry") [arrelem](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax_array.htm) in square brackets \[ ... \]
 
 -   A concatenation with a further subannotation subAnno using a period (.).
 
-Only those subannotations should be specified that are [supported](javascript:call_link\('abencds_f1_define_annotation_sub.htm'\)) by the associated [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry").
+Only those subannotations should be specified that are [supported](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_annotation_sub.htm) by the associated [annotation definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_anno_definition_glosry.htm "Glossary Entry").
 
 Notes
 
--   Alongside individual subannotations specified using structured annotation names. multiple subannotations can be specified using a [comma-separated list](javascript:call_link\('abencds_annotations_syntax_subanno.htm'\)) and curly brackets.
+-   Alongside individual subannotations specified using structured annotation names. multiple subannotations can be specified using a [comma-separated list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax_subanno.htm) and curly brackets.
 
--   A structured annotation name must be unique within the [scope](javascript:call_link\('abencds_annotations_scopes.htm'\)) of the annotation.
+-   A structured annotation name must be unique within the [scope](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_scopes.htm) of the annotation.
 
 Example
 
-The following [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") is applied.
+The following [annotation definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") is applied.
 
 @Scope:\[#VIEW, #EXTEND\_VIEW\]  
 define annotation  
@@ -56,4 +56,4 @@ The subannotations can then, for example, be specified as follows:
 @DemoSubAnnos.subAnno2.subAnno2.subAnno1: 1
 @DemoSubAnnos.subAnno2.subAnno2.subAnno2: 2
 
-This example has the same semantics as the example using [comma-separated lists](javascript:call_link\('abencds_annotations_syntax_subanno.htm'\)).
+This example has the same semantics as the example using [comma-separated lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax_subanno.htm).

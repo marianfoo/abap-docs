@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (LDB, Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [LDB - Statements](javascript:call_link\('abenldb_abap_statements.htm'\)) →  [LDB - Statements for Logical Databases](javascript:call_link\('abenldb_reporting_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (LDB, Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb.htm) →  [LDB - Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_abap_statements.htm) →  [LDB - Statements for Logical Databases](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_reporting_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: REJECT, ABAPREJECT, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for impro
 vement:)
 
 REJECT
 
-[Short Reference](javascript:call_link\('abapreject_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreject_shortref.htm)
 
 Obsolete Syntax
 
@@ -23,9 +23,9 @@ Addition:
 
 Effect
 
-The statement END-OF-SELECTION is only intended for use in [executable programs](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") that are linked with a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry"). It exits the current [GET](javascript:call_link\('abapget-.htm'\)) event block of an executable program. If node is not specified, any nodes that are at a lower level in the hierarchical structure of the linked logical database are no longer processed. The logical database reads the next line of the current node or next higher node, if it has reached the end of the hierarchy level.
+The statement END-OF-SELECTION is only intended for use in [executable programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexecutable_program_glosry.htm "Glossary Entry") that are linked with a [logical database](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_data_base_glosry.htm "Glossary Entry"). It exits the current [GET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget-.htm) event block of an executable program. If node is not specified, any nodes that are at a lower level in the hierarchical structure of the linked logical database are no longer processed. The logical database reads the next line of the current node or next higher node, if it has reached the end of the hierarchy level.
 
-The REJECT statement always refers to the current GET event, not to the location where it is specified. If a [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") is called in a GET event block, and the REJECT statement is executed there, the calling event block is affected.
+The REJECT statement always refers to the current GET event, not to the location where it is specified. If a [procedure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocedure_glosry.htm "Glossary Entry") is called in a GET event block, and the REJECT statement is executed there, the calling event block is affected.
 
 Hints
 
@@ -38,7 +38,7 @@ Addition  
 
 Effect
 
-node can be a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") [character-like data object](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") that, when the statement is executed, must contain the name of a node that lies above the current node in the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") hierarchy. If node is specified, the logical database reads the next data record of the corresponding node.
+node can be a [flat](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenflat_glosry.htm "Glossary Entry") [character-like data object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") that, when the statement is executed, must contain the name of a node that lies above the current node in the [logical database](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") hierarchy. If node is specified, the logical database reads the next data record of the corresponding node.
 
 Example
 
@@ -58,7 +58,7 @@ GET sbook.
 END-OF-SELECTION.
   cl\_demo\_output=>display( ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_func](javascript:call_link\('abensql_builtin_func.htm'\)) →  [ABAP SQL - Built-In Functions sql\_func](javascript:call_link\('abenopen_sql_builtin_functions.htm'\)) →  [ABAP SQL - SQL Functions](javascript:call_link\('abenopen_sql_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_func](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_builtin_func.htm) →  [ABAP SQL - Built-In Functions sql\_func](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_builtin_functions.htm) →  [ABAP SQL - SQL Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_functions.htm) → 
 
 sql\_exp - sql\_num\_func
 
@@ -14,9 +14,9 @@ Syntax
 
 Effect
 
-Calls an numeric function func as an [SQL expression](javascript:call_link\('abapsql_expr.htm'\)) or operand of an expression in ABAP SQL. The arguments arg1, arg2, ... of the function are specified as a comma-separated list in parentheses. A blank must be placed after the opening parenthesis and before the closing parenthesis.
+Calls an numeric function func as an [SQL expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) or operand of an expression in ABAP SQL. The arguments arg1, arg2, ... of the function are specified as a comma-separated list in parentheses. A blank must be placed after the opening parenthesis and before the closing parenthesis.
 
-The following table shows the numeric functions that can be specified as SQL expressions and the requirements made on the arguments. The meaning of the functions can be found under [SQL Functions for Numeric Values](javascript:call_link\('abensql_functions_numeric.htm'\)). The value "x" in the Table Buffer column indicates that the function can be executed in the [table buffer](javascript:call_link\('abentable_buffer_glosry.htm'\) "Glossary Entry") and that the use of [this function](javascript:call_link\('abenbuffer_expressions.htm'\)) does not bypass [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry").
+The following table shows the numeric functions that can be specified as SQL expressions and the requirements made on the arguments. The meaning of the functions can be found under [SQL Functions for Numeric Values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm). The value "x" in the Table Buffer column indicates that the function can be executed in the [table buffer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_buffer_glosry.htm "Glossary Entry") and that the use of [this function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuffer_expressions.htm) does not bypass [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm "Glossary Entry").
 
 Syntax
 
@@ -26,15 +26,15 @@ Result Type
 
 Table Buffer
 
-[ABS( sql\_exp )](javascript:call_link\('abensql_functions_numeric.htm'\))
+[ABS( sql\_exp )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm)
 
-All numeric types except the [replacement types for decimal floating point numbers](javascript:call_link\('abenddic_decimal_floating_point.htm'\))
+All numeric types except the [replacement types for decimal floating point numbers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_decimal_floating_point.htm)
 
 Type of the argument
 
 x
 
-[CEIL( sql\_exp )](javascript:call_link\('abensql_functions_numeric.htm'\))
+[CEIL( sql\_exp )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm)
 
 DECFLOAT16 and DECFLOAT34 as well as DEC, CURR, and QUAN with decimal places
 
@@ -42,7 +42,7 @@ DEC without decimal places in the length of the result
 
 x
 
-[DIV( sql\_exp1,sql\_exp2 )](javascript:call_link\('abensql_functions_numeric.htm'\))
+[DIV( sql\_exp1,sql\_exp2 )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm)
 
 INT1, INT2, INT4, and INT8 plus DEC, CURR, and QUAN without decimal places
 
@@ -50,16 +50,16 @@ Type of the argument with the greatest value range.
 
 x
 
-[DIVISION( sql\_exp1,sql\_exp2,dec )](javascript:call_link\('abensql_functions_numeric.htm'\))
+[DIVISION( sql\_exp1,sql\_exp2,dec )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm)
 
 sql\_exp1, sql\_exp2: INT1, INT2, INT4, INT8, DEC, CURR, and QUAN
-dec: [Literal](javascript:call_link\('abenabap_sql_host_literals.htm'\)) or [host constant](javascript:call_link\('abenopen_sql_host_variables.htm'\)) with [ABAP type](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) b, s, i, int8 greater than or equal to 0 and not greater than the maximum value of 6 and the length of sql\_exp2 plus the number of decimal places of sql\_exp1 plus 1
+dec: [Literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql_host_literals.htm) or [host constant](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_variables.htm) with [ABAP type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_complete.htm) b, s, i, int8 greater than or equal to 0 and not greater than the maximum value of 6 and the length of sql\_exp2 plus the number of decimal places of sql\_exp1 plus 1
 
 DEC with dec decimal places. The length of the result is the length of sql\_exp1 minus the decimal places in sql\_exp1 plus the decimal places in sql\_exp2 plus dec. This value must not be greater than 31.
 
 \-
 
-[FLOOR( sql\_exp )](javascript:call_link\('abensql_functions_numeric.htm'\))
+[FLOOR( sql\_exp )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm)
 
 DECFLOAT16 and DECFLOAT34 as well as DEC, CURR, and QUAN with decimal places
 
@@ -67,7 +67,7 @@ DEC without decimal places in the length of the result
 
 x
 
-[MOD( sql\_exp1,sql\_exp2 )](javascript:call_link\('abensql_functions_numeric.htm'\))
+[MOD( sql\_exp1,sql\_exp2 )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm)
 
 INT1, INT2, INT4, and INT8 plus DEC, CURR, and QUAN without decimal places
 
@@ -75,7 +75,7 @@ Type of the argument with the greatest value range.
 
 x
 
-[ROUND( sql\_exp,pos )](javascript:call_link\('abensql_functions_numeric.htm'\))
+[ROUND( sql\_exp,pos )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm)
 
 sql\_exp: INT1, INT2, INT4, INT8, DEC, CURR, and QUAN
 pos: INT1, INT2, and INT4
@@ -84,13 +84,13 @@ Type of sql\_exp, where INT1 and INT2 are updated after INT4, and CURR and QUAN 
 
 \-
 
-The arguments sql\_exp, sql\_exp1, sql\_exp3, and pos can be any [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) with the matching data types. The possible types are specified as built-in [dictionary types](javascript:call_link\('abenddic_builtin_types.htm'\)). The possible data types for literals, host variables, and host expressions are the ABAP types [assigned](javascript:call_link\('abenddic_builtin_types.htm'\)) to the dictionary types above.
+The arguments sql\_exp, sql\_exp1, sql\_exp3, and pos can be any [SQL expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) with the matching data types. The possible types are specified as built-in [dictionary types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm). The possible data types for literals, host variables, and host expressions are the ABAP types [assigned](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) to the dictionary types above.
 
-If an argument of a numeric function has the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), the result of the full numeric function is the null value.
+If an argument of a numeric function has the [null value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry"), the result of the full numeric function is the null value.
 
 Note
 
-The SQL functions [DIV](javascript:call_link\('abensql_functions_numeric.htm'\)) and [MOD](javascript:call_link\('abensql_functions_numeric.htm'\)) behave differently with respect to the signs than the ABAP operators [DIV](javascript:call_link\('abenarith_operators.htm'\)) and [MOD](javascript:call_link\('abenarith_operators.htm'\)). In the SQL function DIV, the amounts of the arguments are divided and then the sign is assigned (positive if the arguments have the same signs and negative if they have different signs). Accordingly, the result of MOD can be negative, so that multiplying the result of DIV by expr2 plus the result of MOD produces the value of expr1. The ABAP operator [MOD](javascript:call_link\('abenarith_operators.htm'\)), on the other hand, only produces positive results. See [Example](javascript:call_link\('abensql_functions_numeric.htm'\)).
+The SQL functions [DIV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm) and [MOD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm) behave differently with respect to the signs than the ABAP operators [DIV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarith_operators.htm) and [MOD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarith_operators.htm). In the SQL function DIV, the amounts of the arguments are divided and then the sign is assigned (positive if the arguments have the same signs and negative if they have different signs). Accordingly, the result of MOD can be negative, so that multiplying the result of DIV by expr2 plus the result of MOD produces the value of expr1. The ABAP operator [MOD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarith_operators.htm), on the other hand, only produces positive results. See [Example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm).
 
 Example
 
@@ -106,4 +106,4 @@ cl\_demo\_output=>display( result ).
 
 Executable Example
 
-[SQL Expressions, Arithmetic Calculations](javascript:call_link\('abensql_expr_arith_abexa.htm'\))
+[SQL Expressions, Arithmetic Calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_arith_abexa.htm)

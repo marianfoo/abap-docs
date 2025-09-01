@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Transformation of ABAP Values](javascript:call_link\('abenst_abap_values.htm'\)) →  [ST - tt:value, Elementary Data Objects](javascript:call_link\('abenst_tt_value_elementary.htm'\)) →  [ST - option, Mapping Rules](javascript:call_link\('abenst_option.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_serial_deserial.htm) →  [ST - Transformation of ABAP Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_abap_values.htm) →  [ST - tt:value, Elementary Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_value_elementary.htm) →  [ST - option, Mapping Rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_option.htm) → 
 
 ST - option, Mapping Rules for Elementary Types
 
@@ -42,9 +42,9 @@ The format option can be used to do the following:
 
 -   Specify formats fmt based on XML schema data types. These formats create the corresponding XML representation or JSON representation from ABAP-specific representations of specific elementary values (and back).
 
--   Specify other formats fmt to convert ABAP data to framework-specific representations that do not comply with the standard [asXML](javascript:call_link\('abenabap_xslt_asxml.htm'\)) representation, and the other way round.
+-   Specify other formats fmt to convert ABAP data to framework-specific representations that do not comply with the standard [asXML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml.htm) representation, and the other way round.
 
-The following table shows the possible formats fmt, the ABAP types and representations where they can be used, and the associated XML representations and [JSON](javascript:call_link\('abenabap_json.htm'\)) representations.
+The following table shows the possible formats fmt, the ABAP types and representations where they can be used, and the associated XML representations and [JSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_json.htm) representations.
 
 fmt
 
@@ -348,7 +348,7 @@ KMT, SMI, ...
 
 currency=CURRCODE
 
-[Numeric types](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[Numeric types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_numeric.htm)
 
 123456,
 123,456
@@ -382,7 +382,7 @@ c, string, n
 
 123456  
 
-The following formats match the XML schema data types specified under [Mapping Further XML Schema Data Types](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)) or other data types and this is where more details about the formats can be found.
+The following formats match the XML schema data types specified under [Mapping Further XML Schema Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm) or other data types and this is where more details about the formats can be found.
 
 -   boolean for truth values
 
@@ -402,17 +402,17 @@ For dateTimeOffset and dateTimeLocal, packed numbers corresponding to the data t
 
 The other formats have the following meaning:
 
--   The format hex means that byte-like content is mapped to a hexadecimal format and not to [base64](javascript:call_link\('abenbase64_glosry.htm'\) "Glossary Entry").
+-   The format hex means that byte-like content is mapped to a hexadecimal format and not to [base64](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbase64_glosry.htm "Glossary Entry").
 
 -   The format duration is based on the XML schema data type with the same name.
 
 -   The formats ticks and ticksOffset are used for JSON representations of UNIX time stamps (or ticks), which are based on the number of milliseconds since 01.01.1970,00:00:00, for OData. This formats only have special support in JSON. In XML, the regular date format or the associated time stamp formats are used. If ticksOffset is used for packed numbers that correspond to the data types TIMESTAMP or TIMESTAMPL, the value 0 is used for the offset in the XML or JSON representation.
 
--   The formats uri and uriFull mask special characters like the built-in function [escape](javascript:call_link\('abenescape_functions.htm'\)) during serialization with the format E\_URI or E\_URI\_FULL. During deserialization, the escape symbols are converted to the respective characters.
+-   The formats uri and uriFull mask special characters like the built-in function [escape](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenescape_functions.htm) during serialization with the format E\_URI or E\_URI\_FULL. During deserialization, the escape symbols are converted to the respective characters.
 
 -   The format uri1 is used to represent literal values in URIs for OData.
 
--   Content of the ABAP types c and string is enclosed in quotation marks. Special characters are handled with the format E\_URI\_1, like the built-in function [escape](javascript:call_link\('abenescape_functions.htm'\)).
+-   Content of the ABAP types c and string is enclosed in quotation marks. Special characters are handled with the format E\_URI\_1, like the built-in function [escape](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenescape_functions.htm).
 
 -   Content of the ABAP types x and xstring is mapped as with the format hex. The XML and JSON representations are enclosed in quotation marks and prefixed with binary.
 
@@ -432,23 +432,23 @@ The other formats have the following meaning:
 
 -   The format unit=UNITCODE formats the values of decimal numbers during serialization according to a unit code specified in UNITCODE. For UNITCODE, visible character-like data roots of the ST program with a length no more than 3 can be specified at this point. In the database table T006, the line with the content of UNITCODE in the MSEHI column is searched for, and the decimal places are taken from the ANDEC or DECAN column. If no line is found, the default value 0 is used. The numeric content is formatted with these decimal places. Missing decimal places are filled with 0, and surplus insignificant decimal places 0 are cut off. The format has no effect during deserialization.
 
--   The format alpha formats strings like the formatting option [ALPHA](javascript:call_link\('abapcompute_string_format_options.htm'\)) for [embedded expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)) in [string templates](javascript:call_link\('abenstring_templates.htm'\)):
+-   The format alpha formats strings like the formatting option [ALPHA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_string_format_options.htm) for [embedded expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_expressions.htm) in [string templates](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates.htm):
 
 -   During serialization, leading zeros are removed as with alpha = out.
 
 -   During deserialization, leading zeros are inserted as with alpha = in.
 
-In JSON, the values are produced in accordance with the XML representation, except in the case of qName, which is not supported in JSON. In JSON, the format boolean creates real [Boolean JSON values](javascript:call_link\('abenjson_oview.htm'\)),
+In JSON, the values are produced in accordance with the XML representation, except in the case of qName, which is not supported in JSON. In JSON, the format boolean creates real [Boolean JSON values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_oview.htm),
 
-If the data type or the content do not match of if the current node is typed using [tt:type](javascript:call_link\('abenst_tt_type.htm'\)), the option format is ignored or an exception is raised.
+If the data type or the content do not match of if the current node is typed using [tt:type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_type.htm), the option format is ignored or an exception is raised.
 
 Note
 
-The option format can also be used to map ABAP data objects to XML schema data types that are not typed using a dedicated [domain](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)).
+The option format can also be used to map ABAP data objects to XML schema data types that are not typed using a dedicated [domain](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm).
 
 Executable Example
 
-[Formatting Options](javascript:call_link\('abenst_format_option_abexa.htm'\))
+[Formatting Options](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_format_option_abexa.htm)
 
 Addition 2
 
@@ -456,7 +456,7 @@ Addition 2
 
 Effect
 
-The decimals option sets the decimal places of numeric values during serialization. It can be used on all [numeric ABAP types](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) and has the same effect as the formatting option [DECIMALS](javascript:call_link\('abapcompute_string_format_options.htm'\)) for [embedded expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)) in [string templates](javascript:call_link\('abenstring_templates.htm'\)). The decimals option has no effect in deserialization.
+The decimals option sets the decimal places of numeric values during serialization. It can be used on all [numeric ABAP types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_numeric.htm) and has the same effect as the formatting option [DECIMALS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_string_format_options.htm) for [embedded expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_expressions.htm) in [string templates](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates.htm). The decimals option has no effect in deserialization.
 
 Suitable literal integer values can be specified for dec (these can also be negative). If dec is not specified (empty parentheses), the option is ignored.
 
@@ -464,13 +464,13 @@ The decimals option can be used as follows for packed numbers of the types TIMES
 
 -   decimals can be combined with the format option for these numbers. In this case, the decimals option is applied first, then format with a fmt format provided for time stamps.
 
--   Packed numbers that are typed with one of the [special domains](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)) XSDDATETIME\_... are first handled with decimals and then formatted as time stamps.
+-   Packed numbers that are typed with one of the [special domains](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm) XSDDATETIME\_... are first handled with decimals and then formatted as time stamps.
 
 In these cases, the result of decimals must be a valid time stamp.
 
 Executable Example
 
-[Option for decimal places.](javascript:call_link\('abenst_decimals_option_abexa.htm'\))
+[Option for decimal places.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_decimals_option_abexa.htm)
 
 Addition 3
 
@@ -478,7 +478,7 @@ Addition 3
 
 Effect
 
-The result of the regime option is that the ABAP source type is overridden during serialization (the ABAP target type during deserialization) by one of the num, char, or bin regimes. num results in numeric handling, char in character-like handling, and bin in binary handling of the data in the transformation. The regime option deactivates the effect of all [special domains](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)), but can be combined with the format options, where a fmt format specified with format must pass through regime for handling. The num regime can also be combined with decimals.
+The result of the regime option is that the ABAP source type is overridden during serialization (the ABAP target type during deserialization) by one of the num, char, or bin regimes. num results in numeric handling, char in character-like handling, and bin in binary handling of the data in the transformation. The regime option deactivates the effect of all [special domains](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm), but can be combined with the format options, where a fmt format specified with format must pass through regime for handling. The num regime can also be combined with decimals.
 
 The num, char, and bin regimes have the following effect on the possible ABAP types:
 
@@ -486,37 +486,37 @@ The num, char, and bin regimes have the following effect on the possible ABAP ty
 
 Forces a numeric handling of the current node.
 
--   Apart from deactivating the effect of [special domains](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)), the num regime has no effect on [numeric types](javascript:call_link\('abenbuiltin_types_numeric.htm'\)).
+-   Apart from deactivating the effect of [special domains](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm), the num regime has no effect on [numeric types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_numeric.htm).
 
--   All other data types are [converted](javascript:call_link\('abenconversion_elementary.htm'\)) to the [decfloat34](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) type before the actual transformation during serialization, and then further processed as such. Source values of types n, d, and t must be valid. During deserialization, a value is generated for decfloat34 and assigned [without loss](javascript:call_link\('abapmove_exact.htm'\)) to the target type.
+-   All other data types are [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_elementary.htm) to the [decfloat34](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_numeric.htm) type before the actual transformation during serialization, and then further processed as such. Source values of types n, d, and t must be valid. During deserialization, a value is generated for decfloat34 and assigned [without loss](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm) to the target type.
 
 -   char regime
 
 Forces a character-like handling of the current node.
 
--   Apart from deactivating the effect of [special domains](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)), the char regime has no effect on [numeric types](javascript:call_link\('abenbuiltin_types_numeric.htm'\)), that is, the standard XSD representation of [asXML](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)) is used.
+-   Apart from deactivating the effect of [special domains](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm), the char regime has no effect on [numeric types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_numeric.htm), that is, the standard XSD representation of [asXML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_elementary.htm) is used.
 
--   Apart from deactivating the effect of [special domains](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)), the char regime has no effect on [character-like data types](javascript:call_link\('abenbuiltin_types_character.htm'\)).
+-   Apart from deactivating the effect of [special domains](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm), the char regime has no effect on [character-like data types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_character.htm).
 
--   [Byte-type data types](javascript:call_link\('abenbuiltin_types_byte.htm'\)) are handled as with the formatting option format(hex), that is, representation is in hexadecimal format.
+-   [Byte-type data types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_byte.htm) are handled as with the formatting option format(hex), that is, representation is in hexadecimal format.
 
--   [Date and time types](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) are handled like the c type of corresponding length, with invalid values accepted.
+-   [Date and time types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_date_time.htm) are handled like the c type of corresponding length, with invalid values accepted.
 
 -   bin regime
 
 Forces a byte-like handling of the current node.
 
--   [Numeric types](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) are [converted](javascript:call_link\('abennumeric_source_fields.htm'\)) to the xstring type before the actual transformation during serialization, and further processed as such. During deserialization, a value is generated for xstring and [converted](javascript:call_link\('abenbyte_source_fields.htm'\)) to the target type.
+-   [Numeric types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_numeric.htm) are [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_source_fields.htm) to the xstring type before the actual transformation during serialization, and further processed as such. During deserialization, a value is generated for xstring and [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_source_fields.htm) to the target type.
 
--   Source fields of the [character-like data types](javascript:call_link\('abenbuiltin_types_character.htm'\)) c and string are [converted](javascript:call_link\('abencharacter_source_fields.htm'\)) [without loss](javascript:call_link\('abapmove_exact.htm'\)) to xstring during serialization and then processed further. A source field of type n is checked for valid content and also [converted](javascript:call_link\('abenconversion_type_n.htm'\)) to xstring. During deserialization, a value is generated for xstring and [converted](javascript:call_link\('abenbyte_source_fields.htm'\)) to the target type. There must not be any overflow for type n.
+-   Source fields of the [character-like data types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_character.htm) c and string are [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_source_fields.htm) [without loss](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm) to xstring during serialization and then processed further. A source field of type n is checked for valid content and also [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_n.htm) to xstring. During deserialization, a value is generated for xstring and [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_source_fields.htm) to the target type. There must not be any overflow for type n.
 
--   Apart from deactivating the effect of [special domains](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)), the bin regime has no effect on [byte-like data types](javascript:call_link\('abenbuiltin_types_byte.htm'\)).
+-   Apart from deactivating the effect of [special domains](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm), the bin regime has no effect on [byte-like data types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_byte.htm).
 
--   Source fields of the [date and time types](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) are checked for valid values during serialization, [converted](javascript:call_link\('abendate_time_source_fields.htm'\)) to xstring and then processed further. The source fields are checked for valid content. During deserialization, a value is generated for xstring and [converted](javascript:call_link\('abenbyte_source_fields.htm'\)) to the target type. There must not be any overflow.
+-   Source fields of the [date and time types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_date_time.htm) are checked for valid values during serialization, [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_time_source_fields.htm) to xstring and then processed further. The source fields are checked for valid content. During deserialization, a value is generated for xstring and [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_source_fields.htm) to the target type. There must not be any overflow.
 
 Executable Example
 
-[Option for regime.](javascript:call_link\('abenst_regime_option_abexa.htm'\))
+[Option for regime.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_regime_option_abexa.htm)
 
 Addition 4
 
@@ -532,49 +532,49 @@ Format
 
 Effect
 
-[n](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\))
+[n](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_elementary.htm)
 
 \-
 
 Leading and trailing blanks are ignored.
 
-[p](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\))
+[p](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_elementary.htm)
 
 \-
 
 An invalid value in the final byte is ignored and interpreted as positive sign.
 
-[XSDBOOLEAN](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\))
+[XSDBOOLEAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm)
 
 boolean
 
 Other values apart from "X" and " " are accepted and produce true.
 
-[XSDDATE\_D](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\))
+[XSDDATE\_D](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm)
 
 \-
 
 Invalid dates are accepted and formatted as a date.
 
-[XSDTIME\_T](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\))
+[XSDTIME\_T](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm)
 
 \-
 
 Invalid times are accepted and formatted as a time.
 
-[XSDLANGUAGE](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\))
+[XSDLANGUAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm)
 
 language
 
 An invalid language is accepted with no conversion taking place.
 
-[XSDCURRCODE](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\))
+[XSDCURRCODE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm)
 
 currCode
 
 An invalid currency code is ignored with no conversion taking place.
 
-[XSDUNITCODE](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\))
+[XSDUNITCODE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm)
 
 unitCode
 
@@ -582,10 +582,10 @@ An invalid unit code is ignored with no conversion taking place.
 
 Executable Example
 
-[Option for invalid values](javascript:call_link\('abenst_noerror_option_abexa.htm'\))
+[Option for invalid values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_noerror_option_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Simple Transformation, Formatting Options](javascript:call_link\('abenst_format_option_abexa.htm'\))
-![Example](exa.gif "Example") [Simple Transformation, Option for Decimal Places](javascript:call_link\('abenst_decimals_option_abexa.htm'\))
-![Example](exa.gif "Example") [Simple Transformation, Option for Regime](javascript:call_link\('abenst_regime_option_abexa.htm'\))
-![Example](exa.gif "Example") [Simple Transformation, Option for Invalid Values](javascript:call_link\('abenst_noerror_option_abexa.htm'\))
+![Example](exa.gif "Example") [Simple Transformation, Formatting Options](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_format_option_abexa.htm)
+![Example](exa.gif "Example") [Simple Transformation, Option for Decimal Places](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_decimals_option_abexa.htm)
+![Example](exa.gif "Example") [Simple Transformation, Option for Regime](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_regime_option_abexa.htm)
+![Example](exa.gif "Example") [Simple Transformation, Option for Invalid Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_noerror_option_abexa.htm)

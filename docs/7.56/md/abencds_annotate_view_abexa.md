@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - Specifying Annotations](javascript:call_link\('abencds_anno_usage.htm'\)) →  [ABAP CDS - Metadata Extensions](javascript:call_link\('abencds_meta_data_extensions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations.htm) →  [ABAP CDS - Specifying Annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_anno_usage.htm) →  [ABAP CDS - Metadata Extensions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_meta_data_extensions.htm) → 
 
 CDS Metadata Extensions with CDS Variants
 
-The example demonstrates the [evaluation](javascript:call_link\('abencds_meta_data_extension_eval.htm'\)) of CDS annotations that are defined in CDS metadata extensions.
+The example demonstrates the [evaluation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_meta_data_extension_eval.htm) of CDS annotations that are defined in CDS metadata extensions.
 
 Source Code
 
@@ -93,7 +93,7 @@ define view Demo\_Cds\_MDE
     where
       id = 'X'      
 
-The annotations of the view are extended or overridden by the following [CDS metadata extensions](javascript:call_link\('abencds_metadata_extension_glosry.htm'\) "Glossary Entry"):
+The annotations of the view are extended or overridden by the following [CDS metadata extensions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_metadata_extension_glosry.htm "Glossary Entry"):
 
 -   DEMO\_CDS\_MDE\_INDSTR\_NO\_VARIANT
     

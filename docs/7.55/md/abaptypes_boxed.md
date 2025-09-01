@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Types](javascript:call_link\('abentypes_statements.htm'\)) →  [TYPES](javascript:call_link\('abaptypes.htm'\)) →  [TYPES, BEGIN OF struct\_type](javascript:call_link\('abaptypes_struc.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentypes_and_objects.htm) →  [Declaring Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentypes_statements.htm) →  [TYPES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes.htm) →  [TYPES, BEGIN OF struct\_type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_struc.htm) → 
 
 TYPES, BOXED
 
-[Short Reference](javascript:call_link\('abaptypes_begin_of_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_begin_of_shortref.htm)
 
 Syntax
 
@@ -16,26 +16,26 @@ TYPES comp TYPE struc\_type BOXED.
 
 Effect
 
-This statement defines a substructure comp of a structure as a [static box](javascript:call_link\('abenstatic_boxes.htm'\)). It can only be located within a structure definition with the additions [BEGIN OF](javascript:call_link\('abaptypes_struc.htm'\)) and [END OF](javascript:call_link\('abaptypes_struc.htm'\)) of the statement TYPES, and only on the highest component level and not within nested BEGIN OF ... END OF blocks.
+This statement defines a substructure comp of a structure as a [static box](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatic_boxes.htm). It can only be located within a structure definition with the additions [BEGIN OF](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_struc.htm) and [END OF](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_struc.htm) of the statement TYPES, and only on the highest component level and not within nested BEGIN OF ... END OF blocks.
 
 struc\_type expects a structured data type. This can be a program-local structured type, a visible structured type of a global class or of a global interface, or a structure from the ABAP Dictionary, and can also contain static boxes.
 
-Static boxes support [initial value sharing](javascript:call_link\('abeninitial_value_sharing_glosry.htm'\) "Glossary Entry"). Here, the structure is not saved in the superordinate context itself. Instead, an internal reference that points to the actual structure is stored instead of the component. This makes a static box a [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") component.
+Static boxes support [initial value sharing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninitial_value_sharing_glosry.htm "Glossary Entry"). Here, the structure is not saved in the superordinate context itself. Instead, an internal reference that points to the actual structure is stored instead of the component. This makes a static box a [deep](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeep_glosry.htm "Glossary Entry") component.
 
 Hints
 
--   A structure with a static box is a [deep structure](javascript:call_link\('abendeep_structure_glosry.htm'\) "Glossary Entry") and the corresponding restrictions apply.
+-   A structure with a static box is a [deep structure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeep_structure_glosry.htm "Glossary Entry") and the corresponding restrictions apply.
     
 
 -   The addition BOXED defines the static box in relation to its context (structure or class). A data type declared using a direct TYPE reference or LIKE reference to a static box inherits its data type but is not a static box itself.
     
 
--   When a static box is inherited by one structure from another structure using the statement [INCLUDE TYPE*|*STRUCTURE](javascript:call_link\('abapinclude_type.htm'\)), its property as a static attribute is inherited.
+-   When a static box is inherited by one structure from another structure using the statement [INCLUDE TYPE*|*STRUCTURE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinclude_type.htm), its property as a static attribute is inherited.
     
 
 -   If a nested structure whose static boxes already contain static boxes is to be created, this is only possible if each substructure in question exists as a standalone type. It is not possible to specify BOXED for substructures created by nesting using TYPES BEGIN OF ... TYPES END OF.
 
--   The addition BOXED can also be used in the statement [DATA](javascript:call_link\('abapdata_boxed.htm'\)) to declare a structured attribute of a class or an interface.
+-   The addition BOXED can also be used in the statement [DATA](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdata_boxed.htm) to declare a structured attribute of a class or an interface.
     
 
 Example

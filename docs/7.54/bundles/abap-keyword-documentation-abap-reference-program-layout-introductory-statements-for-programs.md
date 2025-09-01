@@ -3,32 +3,7 @@
 Included pages: 9
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenabap_program_statement.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm)
-- [abapreport.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm)
-- [abapreport_list_options.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm)
-- [abapprogram.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm)
-- [abapfunction-pool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction-pool.htm)
-- [abapclass-pool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-pool.htm)
-- [abapinterface-pool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinterface-pool.htm)
-- [abaptype-pool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptype-pool.htm)
-
-**Bundle Contains**: 8 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.985Z
-
----
-
 ### abenabap_program_statement.htm
-
-> **📖 Official SAP Documentation**: [abenabap_program_statement.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -36,56 +11,49 @@ Included pages: 9
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_layout.htm) → 
 
 Introductory Statements for Programs
 
 The introductory statements for programs are:
 
--   [REPORT](javascript:call_link\('abapreport.htm'\))
+-   [REPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm)
     
--   [PROGRAM](javascript:call_link\('abapprogram.htm'\))
+-   [PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm)
     
--   [FUNCTION-POOL](javascript:call_link\('abapfunction-pool.htm'\))
+-   [FUNCTION-POOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction-pool.htm)
     
--   [CLASS-POOL](javascript:call_link\('abapclass-pool.htm'\))
+-   [CLASS-POOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-pool.htm)
     
--   [INTERFACE-POOL](javascript:call_link\('abapinterface-pool.htm'\))
+-   [INTERFACE-POOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinterface-pool.htm)
     
--   [TYPE-POOL](javascript:call_link\('abaptype-pool.htm'\)).
+-   [TYPE-POOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptype-pool.htm).
     
 
-The introductory statement of each program depends on the [program type](javascript:call_link\('abenprogram_type_glosry.htm'\) "Glossary Entry") specified in the [program attributes](javascript:call_link\('abenprogram_attribute_glosry.htm'\) "Glossary Entry").
+The introductory statement of each program depends on the [program type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_type_glosry.htm "Glossary Entry") specified in the [program attributes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_attribute_glosry.htm "Glossary Entry").
 
-All statements that follow the introductory statements in the source code or that are included as [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") are handled as a single unit by ABAP Compiler.
+All statements that follow the introductory statements in the source code or that are included as [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry") are handled as a single unit by ABAP Compiler.
 
 The first statement of every independent ABAP program must be an introductory statement, and each program can only contain one of these statements. The only other statement allowed in the first position (alongside the introductory statement) is the statement INCLUDE. In this case, an introductory statement for a program must appear in the first position of the program after the include program has been resolved when the program is generated.
 
-Executable programs, module pools, function groups, class pools, interface pools, subroutine pools, and type groups are standalone [compilation units](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry"). Include programs, on the other hand, are are only used in the context of of compilation units.
+Executable programs, module pools, function groups, class pools, interface pools, subroutine pools, and type groups are standalone [compilation units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompilation_unit_glosry.htm "Glossary Entry"). Include programs, on the other hand, are are only used in the context of of compilation units.
 
 Type groups, also known as type pools, are standalone programs from a logical point of view. However, they do not contain executable code but only type definitions and constant definitions. For this reason, type groups have their own introductory program statement, TYPE-POOL.
 
 Note
 
-From a syntax point of view, it is not mandatory to assign introductory program statements to the program types defined in the [program attributes](javascript:call_link\('abenprogram_attribute_glosry.htm'\) "Glossary Entry"). The assignments described in the following sections, however, should always be used. When a program is created, the suitable statement is automatically generated by ABAP Workbench and should be changed only in the additions, when editing. In particular, the keywords FUNCTION-POOL, CLASS-POOL, INTERFACE-POOL, and TYPE-POOL should be created solely by the respective tools of [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry") and never be entered in the source code themselves, to avoid unexpected system behavior.
+From a syntax point of view, it is not mandatory to assign introductory program statements to the program types defined in the [program attributes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_attribute_glosry.htm "Glossary Entry"). The assignments described in the following sections, however, should always be used. When a program is created, the suitable statement is automatically generated by ABAP Workbench and should be changed only in the additions, when editing. In particular, the keywords FUNCTION-POOL, CLASS-POOL, INTERFACE-POOL, and TYPE-POOL should be created solely by the respective tools of [ABAP Workbench](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_workbench_glosry.htm "Glossary Entry") and never be entered in the source code themselves, to avoid unexpected system behavior.
 
 Continue
-[REPORT](javascript:call_link\('abapreport.htm'\))
-[PROGRAM](javascript:call_link\('abapprogram.htm'\))
-[FUNCTION-POOL](javascript:call_link\('abapfunction-pool.htm'\))
-[CLASS-POOL](javascript:call_link\('abapclass-pool.htm'\))
-[INTERFACE-POOL](javascript:call_link\('abapinterface-pool.htm'\))
-[TYPE-POOL](javascript:call_link\('abaptype-pool.htm'\))
+[REPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm)
+[PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm)
+[FUNCTION-POOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction-pool.htm)
+[CLASS-POOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-pool.htm)
+[INTERFACE-POOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinterface-pool.htm)
+[TYPE-POOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptype-pool.htm)
 
-
-
-**📖 Source**: [abenabap_program_statement.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm)
 
 ### abapreport.htm
-
-> **📖 Official SAP Documentation**: [abapreport.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -93,17 +61,17 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Introductory Statements for Programs](javascript:call_link\('abenabap_program_statement.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_layout.htm) →  [Introductory Statements for Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm) → 
 
 REPORT
 
-[Quick Reference](javascript:call_link\('abapreport_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_shortref.htm)
 
 Syntax
 
-REPORT rep *\[*[list\_options](javascript:call_link\('abapreport_list_options.htm'\))*\]*
+REPORT rep *\[*[list\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm)*\]*
            *\[*MESSAGE-ID mid*\]*
-           *\[*[DEFINING DATABASE ldb](javascript:call_link\('abapreport_defining.htm'\))*\]*
+           *\[*[DEFINING DATABASE ldb](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_defining.htm)*\]*
            *\[*REDUCED FUNCTIONALITY*\]*.
 
 Extras:
@@ -113,15 +81,15 @@ Extras:
 
 Effect
 
-The statement REPORT introduces an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry"). It must be the first statement of a standalone program after any [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") are resolved. The name rep must be specified directly. The optional additions [list\_options](javascript:call_link\('abapreport_list_options.htm'\)) can be used to modify the [basic list](javascript:call_link\('abenbasic_list_glosry.htm'\) "Glossary Entry") of the program. A [message class](javascript:call_link\('abenmessage_class_glosry.htm'\) "Glossary Entry") can be specified using MESSAGE-ID.
+The statement REPORT introduces an [executable program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexecutable_program_glosry.htm "Glossary Entry"). It must be the first statement of a standalone program after any [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry") are resolved. The name rep must be specified directly. The optional additions [list\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm) can be used to modify the [basic list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbasic_list_glosry.htm "Glossary Entry") of the program. A [message class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmessage_class_glosry.htm "Glossary Entry") can be specified using MESSAGE-ID.
 
-The addition [DEFINING DATABASE](javascript:call_link\('abapreport_defining.htm'\)) is used to define a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry"), whereas REDUCED FUNCTIONALITY should only be used for [PROGRAM](javascript:call_link\('abapprogram.htm'\)).
+The addition [DEFINING DATABASE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_defining.htm) is used to define a [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry"), whereas REDUCED FUNCTIONALITY should only be used for [PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm).
 
 Notes
 
--   The keyword PROGRAM can also be replaced by the keyword [REPORT](javascript:call_link\('abapprogram.htm'\)). In executable programs, PROGRAM means the same as REPORT and can be used with the additions of REPORT. As a rule, however, executable programs should only be introduced using REPORT.
+-   The keyword PROGRAM can also be replaced by the keyword [REPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm). In executable programs, PROGRAM means the same as REPORT and can be used with the additions of REPORT. As a rule, however, executable programs should only be introduced using REPORT.
     
--   Although it is not absolutely necessary to specify the name rep, the name of the ABAP program from the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") should always be used.
+-   Although it is not absolutely necessary to specify the name rep, the name of the ABAP program from the [repository](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_glosry.htm "Glossary Entry") should always be used.
     
 
 Addition 1
@@ -130,7 +98,7 @@ Addition 1
 
 Effect
 
-This addition specifies a message class mid that allows the use of short forms of the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)) in the program. Here, only the message type and message number are specified in the statement. The message class must be specified directly and appear in the column ARBGB of the database table T100. The variants of the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)) in which the message class is specified override the addition MESSAGE-ID.
+This addition specifies a message class mid that allows the use of short forms of the statement [MESSAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmessage.htm) in the program. Here, only the message type and message number are specified in the statement. The message class must be specified directly and appear in the column ARBGB of the database table T100. The variants of the statement [MESSAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmessage.htm) in which the message class is specified override the addition MESSAGE-ID.
 
 Example
 
@@ -144,20 +112,13 @@ Addition 2
 
 Effect
 
-This addition is only intended for use with the statement [PROGRAM](javascript:call_link\('abapprogram.htm'\)) in subroutine pools and is described [there](javascript:call_link\('abapprogram.htm'\)).
+This addition is only intended for use with the statement [PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm) in subroutine pools and is described [there](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm).
 
 Continue
-[REPORT - list\_options](javascript:call_link\('abapreport_list_options.htm'\))
+[REPORT - list\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm)
 
-
-
-**📖 Source**: [abapreport.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm)
 
 ### abapreport_list_options.htm
-
-> **📖 Official SAP Documentation**: [abapreport_list_options.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -165,11 +126,11 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Introductory Statements for Programs](javascript:call_link\('abenabap_program_statement.htm'\)) →  [REPORT](javascript:call_link\('abapreport.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_layout.htm) →  [Introductory Statements for Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm) →  [REPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm) → 
 
 REPORT - list\_options
 
-[Quick Reference](javascript:call_link\('abapreport_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_shortref.htm)
 
 Syntax
 
@@ -193,7 +154,7 @@ Addition 1
 
 Effect
 
-This addition suppresses the output of the [standard page header](javascript:call_link\('abenstandard_page_header_glosry.htm'\) "Glossary Entry") (standard header and column headers) in the basic list of the program and sets the system field sy-wtitl to the value "N". This setting can be overwritten when the list is created using the additions NO-TITLE*|*WITH-TITLE and NO-HEADING*|*WITH-HEADING of the statement [NEW-PAGE](javascript:call_link\('abapnew-page_options.htm'\)).
+This addition suppresses the output of the [standard page header](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_page_header_glosry.htm "Glossary Entry") (standard header and column headers) in the basic list of the program and sets the system field sy-wtitl to the value "N". This setting can be overwritten when the list is created using the additions NO-TITLE*|*WITH-TITLE and NO-HEADING*|*WITH-HEADING of the statement [NEW-PAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnew-page_options.htm).
 
 Addition 2
 
@@ -203,11 +164,11 @@ Effect
 
 This addition specifies the line width of the basic list and the details list of the program to width characters and sets the system field sy-linsz to this value. The line width determines the number of characters in the line buffer as well as the number of columns in the list displayed. The value width must be specified directly as a positive number. The maximum line width is 1023.
 
-If LINE-SIZE is not specified, the line width of the basic list is set to a standard width based on the window width of the current [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), but is at least as wide as a standard size GUI window. For the standard width, the content of sy-linsz is 0. LINE-SIZE overwrites the value passed by the (similarly named) addition LINE-SIZE of the statement [SUBMIT](javascript:call_link\('abapsubmit_list_options.htm'\)) and can be overwritten when the list is created by the (similarly named) addition LINE-SIZE of the statement [NEW-PAGE](javascript:call_link\('abapnew-page_options.htm'\)).
+If LINE-SIZE is not specified, the line width of the basic list is set to a standard width based on the window width of the current [dynpro](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm "Glossary Entry"), but is at least as wide as a standard size GUI window. For the standard width, the content of sy-linsz is 0. LINE-SIZE overwrites the value passed by the (similarly named) addition LINE-SIZE of the statement [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_list_options.htm) and can be overwritten when the list is created by the (similarly named) addition LINE-SIZE of the statement [NEW-PAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnew-page_options.htm).
 
 Note
 
-The current maximum line width is stored in the constant SLIST\_MAX\_LINESIZE of the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") SLIST. Also defined there is a type SLIST\_MAX\_LISTLINE of type c with length SLIST\_MAX\_LINESIZE. The constant SLIST\_MAX\_LINESIZE cannot be used in the statement REPORT but can be used in the statement [NEW-PAGE](javascript:call_link\('abapnew-page.htm'\)).
+The current maximum line width is stored in the constant SLIST\_MAX\_LINESIZE of the [type group](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_group_1_glosry.htm "Glossary Entry") SLIST. Also defined there is a type SLIST\_MAX\_LISTLINE of type c with length SLIST\_MAX\_LINESIZE. The constant SLIST\_MAX\_LINESIZE cannot be used in the statement REPORT but can be used in the statement [NEW-PAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnew-page.htm).
 
 Addition 3
 
@@ -215,9 +176,9 @@ Addition 3
 
 Effect
 
-This addition specifies the page length for the basic list of the program as page\_lines lines and fills the system field sy-linct with this value. If LINE-COUNT is not specified and if page\_lines is less than 0 or greater than 60000, the page length is set internally to 60000. This setting overwrites the value passed by the (identically named) addition LINE-SIZE of the statement [SUBMIT](javascript:call_link\('abapsubmit_list_options.htm'\)) and can be overwritten when the list is created by the (identically named) addition LINE-COUNT of the statement [NEW-PAGE](javascript:call_link\('abapnew-page_options.htm'\)).
+This addition specifies the page length for the basic list of the program as page\_lines lines and fills the system field sy-linct with this value. If LINE-COUNT is not specified and if page\_lines is less than 0 or greater than 60000, the page length is set internally to 60000. This setting overwrites the value passed by the (identically named) addition LINE-SIZE of the statement [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_list_options.htm) and can be overwritten when the list is created by the (identically named) addition LINE-COUNT of the statement [NEW-PAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnew-page_options.htm).
 
-If a number is specified for footer\_lines, a corresponding number of lines are reserved for the [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry"), which can be described in the event block END-OF-PAGE.
+If a number is specified for footer\_lines, a corresponding number of lines are reserved for the [page footer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpage_footer_glosry.htm "Glossary Entry"), which can be described in the event block END-OF-PAGE.
 
 page\_lines and footer\_lines must be specified directly as positive numbers. No sign can be specified for footer\_lines here.
 
@@ -237,14 +198,7 @@ The page length of the basic list is set to 65 lines, eight of which are reserve
 REPORT z\_myreport LINE-COUNT 65(8) LINE-SIZE 132.
 
 
-
-**📖 Source**: [abapreport_list_options.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm)
-
 ### abapreport.htm
-
-> **📖 Official SAP Documentation**: [abapreport.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -252,17 +206,17 @@ REPORT z\_myreport LINE-COUNT 65(8) LINE-SIZE 132.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Introductory Statements for Programs](javascript:call_link\('abenabap_program_statement.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_layout.htm) →  [Introductory Statements for Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm) → 
 
 REPORT
 
-[Quick Reference](javascript:call_link\('abapreport_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_shortref.htm)
 
 Syntax
 
-REPORT rep *\[*[list\_options](javascript:call_link\('abapreport_list_options.htm'\))*\]*
+REPORT rep *\[*[list\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm)*\]*
            *\[*MESSAGE-ID mid*\]*
-           *\[*[DEFINING DATABASE ldb](javascript:call_link\('abapreport_defining.htm'\))*\]*
+           *\[*[DEFINING DATABASE ldb](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_defining.htm)*\]*
            *\[*REDUCED FUNCTIONALITY*\]*.
 
 Extras:
@@ -272,15 +226,15 @@ Extras:
 
 Effect
 
-The statement REPORT introduces an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry"). It must be the first statement of a standalone program after any [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") are resolved. The name rep must be specified directly. The optional additions [list\_options](javascript:call_link\('abapreport_list_options.htm'\)) can be used to modify the [basic list](javascript:call_link\('abenbasic_list_glosry.htm'\) "Glossary Entry") of the program. A [message class](javascript:call_link\('abenmessage_class_glosry.htm'\) "Glossary Entry") can be specified using MESSAGE-ID.
+The statement REPORT introduces an [executable program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexecutable_program_glosry.htm "Glossary Entry"). It must be the first statement of a standalone program after any [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry") are resolved. The name rep must be specified directly. The optional additions [list\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm) can be used to modify the [basic list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbasic_list_glosry.htm "Glossary Entry") of the program. A [message class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmessage_class_glosry.htm "Glossary Entry") can be specified using MESSAGE-ID.
 
-The addition [DEFINING DATABASE](javascript:call_link\('abapreport_defining.htm'\)) is used to define a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry"), whereas REDUCED FUNCTIONALITY should only be used for [PROGRAM](javascript:call_link\('abapprogram.htm'\)).
+The addition [DEFINING DATABASE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_defining.htm) is used to define a [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry"), whereas REDUCED FUNCTIONALITY should only be used for [PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm).
 
 Notes
 
--   The keyword PROGRAM can also be replaced by the keyword [REPORT](javascript:call_link\('abapprogram.htm'\)). In executable programs, PROGRAM means the same as REPORT and can be used with the additions of REPORT. As a rule, however, executable programs should only be introduced using REPORT.
+-   The keyword PROGRAM can also be replaced by the keyword [REPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm). In executable programs, PROGRAM means the same as REPORT and can be used with the additions of REPORT. As a rule, however, executable programs should only be introduced using REPORT.
     
--   Although it is not absolutely necessary to specify the name rep, the name of the ABAP program from the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") should always be used.
+-   Although it is not absolutely necessary to specify the name rep, the name of the ABAP program from the [repository](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_glosry.htm "Glossary Entry") should always be used.
     
 
 Addition 1
@@ -289,7 +243,7 @@ Addition 1
 
 Effect
 
-This addition specifies a message class mid that allows the use of short forms of the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)) in the program. Here, only the message type and message number are specified in the statement. The message class must be specified directly and appear in the column ARBGB of the database table T100. The variants of the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)) in which the message class is specified override the addition MESSAGE-ID.
+This addition specifies a message class mid that allows the use of short forms of the statement [MESSAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmessage.htm) in the program. Here, only the message type and message number are specified in the statement. The message class must be specified directly and appear in the column ARBGB of the database table T100. The variants of the statement [MESSAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmessage.htm) in which the message class is specified override the addition MESSAGE-ID.
 
 Example
 
@@ -303,20 +257,13 @@ Addition 2
 
 Effect
 
-This addition is only intended for use with the statement [PROGRAM](javascript:call_link\('abapprogram.htm'\)) in subroutine pools and is described [there](javascript:call_link\('abapprogram.htm'\)).
+This addition is only intended for use with the statement [PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm) in subroutine pools and is described [there](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm).
 
 Continue
-[REPORT - list\_options](javascript:call_link\('abapreport_list_options.htm'\))
+[REPORT - list\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm)
 
-
-
-**📖 Source**: [abapreport.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm)
 
 ### abapprogram.htm
-
-> **📖 Official SAP Documentation**: [abapprogram.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -324,15 +271,15 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Introductory Statements for Programs](javascript:call_link\('abenabap_program_statement.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_layout.htm) →  [Introductory Statements for Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm) → 
 
 PROGRAM
 
-[Quick Reference](javascript:call_link\('abapprogram_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram_shortref.htm)
 
 Syntax
 
-PROGRAM prog *\[*[list\_options](javascript:call_link\('abapreport_list_options.htm'\))*\]*
+PROGRAM prog *\[*[list\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm)*\]*
              *\[*MESSAGE-ID mid*\]*
              *\[*REDUCED FUNCTIONALITY*\]*.
 
@@ -342,18 +289,18 @@ Addition:
 
 Effect
 
-The statement PROGRAM introduces a [module pool](javascript:call_link\('abenmodul_pool_glosry.htm'\) "Glossary Entry") or a [subroutine pool](javascript:call_link\('abensubroutine_pool_glosry.htm'\) "Glossary Entry"). It must be the first statement of a standalone program after any [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") are resolved. The name prog must be specified directly. The following applies for the additions:
+The statement PROGRAM introduces a [module pool](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmodul_pool_glosry.htm "Glossary Entry") or a [subroutine pool](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubroutine_pool_glosry.htm "Glossary Entry"). It must be the first statement of a standalone program after any [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry") are resolved. The name prog must be specified directly. The following applies for the additions:
 
--   In module pools, the additions [list\_options](javascript:call_link\('abapreport_list_options.htm'\)) and MESSAGE-ID of the statement PROGRAM have the same meaning as the additions of the same name in the statement [REPORT](javascript:call_link\('abapreport.htm'\)). The addition REDUCED FUNCTIONALITY works only in subroutine pools and is otherwise ignored.
+-   In module pools, the additions [list\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm) and MESSAGE-ID of the statement PROGRAM have the same meaning as the additions of the same name in the statement [REPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm). The addition REDUCED FUNCTIONALITY works only in subroutine pools and is otherwise ignored.
     
--   In subroutine pools, MESSAGE-ID (if specified) has the same meaning as in the statement [REPORT](javascript:call_link\('abapreport.htm'\)). The possible additions [list\_options](javascript:call_link\('abapreport_list_options.htm'\)) for the basic list are ignored, since subroutine pools do not have a separate [list buffer](javascript:call_link\('abenlist_buffer_glosry.htm'\) "Glossary Entry"). Output statements in subroutine pools write to the current list of the calling [main program](javascript:call_link\('abenmain_program_glosry.htm'\) "Glossary Entry"). The addition REDUCED FUNCTIONALITY only works in subroutine pools..
+-   In subroutine pools, MESSAGE-ID (if specified) has the same meaning as in the statement [REPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm). The possible additions [list\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm) for the basic list are ignored, since subroutine pools do not have a separate [list buffer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_buffer_glosry.htm "Glossary Entry"). Output statements in subroutine pools write to the current list of the calling [main program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmain_program_glosry.htm "Glossary Entry"). The addition REDUCED FUNCTIONALITY only works in subroutine pools..
     
 
 Notes
 
--   The keyword PROGRAM can also be replaced by the keyword [REPORT](javascript:call_link\('abapreport.htm'\)). In module pools or subroutine pools, REPORT has the same meaning as PROGRAM and can be used with its additions. As a rule, module pools and subroutine pools should only be introduced by using PROGRAM.
+-   The keyword PROGRAM can also be replaced by the keyword [REPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm). In module pools or subroutine pools, REPORT has the same meaning as PROGRAM and can be used with its additions. As a rule, module pools and subroutine pools should only be introduced by using PROGRAM.
     
--   The name prog is not absolutely necessary, but the name of the ABAP program from the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") should always be used.
+-   The name prog is not absolutely necessary, but the name of the ABAP program from the [repository](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_glosry.htm "Glossary Entry") should always be used.
     
 -   The name of a module pool is not fixed, but should follow the naming conventions in ABAP Workbench. These specify that the name of module pools should start with "SAPM".
     
@@ -364,36 +311,29 @@ Addition
 
 Effect
 
-This addition only has an effect in programs of program type [subroutine pool](javascript:call_link\('abensubroutine_pool_glosry.htm'\) "Glossary Entry"). In other program types, the syntax check raises a warning. In a subroutine pool introduced with the addition REDUCED FUNCTIONALITY, not all components that are usually loaded with an ABAP program are loaded. This reduces the [program load](javascript:call_link\('abenload_glosry.htm'\) "Glossary Entry") and memory consumption in the [session memory](javascript:call_link\('abenroll_area_glosry.htm'\) "Glossary Entry"). This means that the full ABAP language range is not available.
+This addition only has an effect in programs of program type [subroutine pool](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubroutine_pool_glosry.htm "Glossary Entry"). In other program types, the syntax check raises a warning. In a subroutine pool introduced with the addition REDUCED FUNCTIONALITY, not all components that are usually loaded with an ABAP program are loaded. This reduces the [program load](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenload_glosry.htm "Glossary Entry") and memory consumption in the [session memory](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroll_area_glosry.htm "Glossary Entry"). This means that the full ABAP language range is not available.
 
--   The built-in structure [syst](javascript:call_link\('abensystem_fields.htm'\)) is not loaded. Instead of syst, the structure sy with the same meaning can be used.
+-   The built-in structure [syst](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_fields.htm) is not loaded. Instead of syst, the structure sy with the same meaning can be used.
     
--   The built-in structure [screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\)) is not loaded. The statements [LOOP AT SCREEN](javascript:call_link\('abaploop_at_screen.htm'\)) and [MODIFY SCREEN](javascript:call_link\('abapmodify_screen.htm'\)) are then not possible.
+-   The built-in structure [screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscreen_structure_obsolete.htm) is not loaded. The statements [LOOP AT SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_screen.htm) and [MODIFY SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_screen.htm) are then not possible.
     
--   It is not possible to work with the [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") of the [main program](javascript:call_link\('abenmain_program_glosry.htm'\) "Glossary Entry") of the current [program group](javascript:call_link\('abenprogram_group_glosry.htm'\) "Glossary Entry").
+-   It is not possible to work with the [dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm "Glossary Entry") of the [main program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmain_program_glosry.htm "Glossary Entry") of the current [program group](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_group_glosry.htm "Glossary Entry").
     
--   No support is available for [spooling lists](javascript:call_link\('abenprint.htm'\)). The corresponding additions of the statements [NEW-PAGE](javascript:call_link\('abapnew-page_print.htm'\)) and [SUBMIT](javascript:call_link\('abapsubmit_print_parameters.htm'\)) cannot be used.
+-   No support is available for [spooling lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint.htm). The corresponding additions of the statements [NEW-PAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnew-page_print.htm) and [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_print_parameters.htm) cannot be used.
     
 
 If none of the missing functions are required, the addition REDUCED FUNCTIONALITY can be used to avoid the unnecessary resources being consumed by subroutine pools.
 
 Notes
 
--   The addition REDUCED FUNCTIONALITY also works in subroutine pools which were created with [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_subroutine_pool.htm'\)).
+-   The addition REDUCED FUNCTIONALITY also works in subroutine pools which were created with [GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgenerate_subroutine_pool.htm).
     
 -   The use of REDUCED FUNCTIONALITY is especially recommended for small subroutine pools which only contain simple help procedures
     
 -   The use of REDUCED FUNCTIONALITY in a subroutine pool produces a warning from the syntax check, indicating that not all ABAP functions are available. If nonexistent functions are used, corresponding syntax errors are produced.
 
 
-
-**📖 Source**: [abapprogram.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprogram.htm)
-
 ### abapfunction-pool.htm
-
-> **📖 Official SAP Documentation**: [abapfunction-pool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction-pool.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -401,42 +341,42 @@ Notes
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Introductory Statements for Programs](javascript:call_link\('abenabap_program_statement.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_layout.htm) →  [Introductory Statements for Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm) → 
 
 FUNCTION-POOL
 
-[Quick Reference](javascript:call_link\('abapfunction-pool_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction-pool_shortref.htm)
 
 Syntax
 
-FUNCTION-POOL fpool *\[*[list\_options](javascript:call_link\('abapreport_list_options.htm'\))*\]*
+FUNCTION-POOL fpool *\[*[list\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm)*\]*
                     *\[*MESSAGE-ID mid*\]*.
 
 Effect
 
-The statement FUNCTION-POOL introduces a [function group](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry"). It must be the first statement of a standalone program after any [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") are resolved. The additions of the statement FUNCTION-POOL have the same function as the additions of the statement [REPORT](javascript:call_link\('abapreport.htm'\)).
+The statement FUNCTION-POOL introduces a [function group](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_group_glosry.htm "Glossary Entry"). It must be the first statement of a standalone program after any [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry") are resolved. The additions of the statement FUNCTION-POOL have the same function as the additions of the statement [REPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm).
 
-Function groups are defined using the [Function Builder](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") tool in [ABAP Workbench](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry"). Here, a [master program](javascript:call_link\('abenfunction_builder_glosry.htm'\) "Glossary Entry") and subordinate [include programs](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry") are generated automatically. The statement FUNCTION-POOL is created in the [top include](javascript:call_link\('abentop_include_glosry.htm'\) "Glossary Entry").
+Function groups are defined using the [Function Builder](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenframe_program_glosry.htm "Glossary Entry") tool in [ABAP Workbench](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry"). Here, a [master program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_builder_glosry.htm "Glossary Entry") and subordinate [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_workbench_glosry.htm "Glossary Entry") are generated automatically. The statement FUNCTION-POOL is created in the [top include](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentop_include_glosry.htm "Glossary Entry").
 
-The full name of the master program of a function group in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") consists of the prefix SAPL and the name fpool of the statement FUNCTION-POOL.
+The full name of the master program of a function group in the [repository](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_glosry.htm "Glossary Entry") consists of the prefix SAPL and the name fpool of the statement FUNCTION-POOL.
 
-A function group is used as a container for [function modules](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") and is organized in include programs as follows.
+A function group is used as a container for [function modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_module_glosry.htm "Glossary Entry") and is organized in include programs as follows.
 
 -   One top include with the prefix "L" and the ending "TOP" in the declaration part of the function group.
     
 -   Optional include programs with the prefix "L" and the ending "D.." for declaring local classes within the top include.
     
--   One include program with the prefix "L" and the ending "UXX" in the implementation part of the function group. This include program includes include programs with the ending "U.." for implementing each [function module](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") of the function group. This structure must not be changed.
+-   One include program with the prefix "L" and the ending "UXX" in the implementation part of the function group. This include program includes include programs with the ending "U.." for implementing each [function module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_module_glosry.htm "Glossary Entry") of the function group. This structure must not be changed.
     
 -   Optional include programs with the prefix "L" and the ending "P.." for implementing the methods of local classes in the implementation part of the function group.
     
--   Optional include programs with the prefix "L" and the ending "O.." for implementing [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") modules in the implementation part of the function group.
+-   Optional include programs with the prefix "L" and the ending "O.." for implementing [PBO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpbo_glosry.htm "Glossary Entry") modules in the implementation part of the function group.
     
--   Optional include programs with the prefix "L" and the ending "I.." for implementing [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") modules in the implementation part of the function group.
+-   Optional include programs with the prefix "L" and the ending "I.." for implementing [PAI](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpai_glosry.htm "Glossary Entry") modules in the implementation part of the function group.
     
--   Optional include programs with the prefix "L" and the ending "E.." for implementing [event blocks](javascript:call_link\('abenevent_block_glosry.htm'\) "Glossary Entry") in the implementation part of the function group.
+-   Optional include programs with the prefix "L" and the ending "E.." for implementing [event blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevent_block_glosry.htm "Glossary Entry") in the implementation part of the function group.
     
--   Optional include programs with the prefix "L" and the ending "F.." for implementing [subroutines](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry") in the implementation part of the function group.
+-   Optional include programs with the prefix "L" and the ending "F.." for implementing [subroutines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubroutine_glosry.htm "Glossary Entry") in the implementation part of the function group.
     
 
 The periods ".." represent a two-digit number. The functions in Function Builder are based on adherence to this naming convention.
@@ -469,14 +409,7 @@ INCLUDE labap\_docud00.               " Global Data for Screens
 INCLUDE labap\_docud01.               " Classes for Docu Display
 
 
-
-**📖 Source**: [abapfunction-pool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction-pool.htm)
-
 ### abapclass-pool.htm
-
-> **📖 Official SAP Documentation**: [abapclass-pool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-pool.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -484,11 +417,11 @@ INCLUDE labap\_docud01.               " Classes for Docu Display
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Introductory Statements for Programs](javascript:call_link\('abenabap_program_statement.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_layout.htm) →  [Introductory Statements for Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm) → 
 
 CLASS-POOL
 
-[Quick Reference](javascript:call_link\('abapclass-pool_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-pool_shortref.htm)
 
 Syntax
 
@@ -496,31 +429,24 @@ CLASS-POOL *\[*MESSAGE-ID id*\]*.
 
 Effect
 
-The statement CLASS-POOL introduces a [class pool](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry"). It must be the first statement of a standalone program, after any [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") have been resolved. The addition MESSAGE-ID of the statement CLASS-POOL has the same meaning as in the statement [REPORT](javascript:call_link\('abapreport.htm'\)).
+The statement CLASS-POOL introduces a [class pool](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_pool_glosry.htm "Glossary Entry"). It must be the first statement of a standalone program, after any [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry") have been resolved. The addition MESSAGE-ID of the statement CLASS-POOL has the same meaning as in the statement [REPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport.htm).
 
-Class pools are edited in [Class Builder](javascript:call_link\('abenclass_builder_glosry.htm'\) "Glossary Entry") in ABAP Workbench. Here, a [master program](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") for a global class and associated [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") are generated automatically. The statement CLASS-POOL is created in the master program.
+Class pools are edited in [Class Builder](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_builder_glosry.htm "Glossary Entry") in ABAP Workbench. Here, a [master program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenframe_program_glosry.htm "Glossary Entry") for a global class and associated [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry") are generated automatically. The statement CLASS-POOL is created in the master program.
 
-The full name of the master program of a class pool in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") starts with the name of the global class, is padded with the character "=" up to and including position 30, and ends with "CP".
+The full name of the master program of a class pool in the [repository](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_glosry.htm "Glossary Entry") starts with the name of the global class, is padded with the character "=" up to and including position 30, and ends with "CP".
 
-The names of the include programs of a class pool included by the framework program are constructed in exactly the same way as the name of the class pool itself, however they have different endings. Unlike in [function groups](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry"), the actual structure of a class pool constructed from include programs is the internal responsibility of ABAP Workbench and the ABAP runtime environment and is not displayed in Class Builder.
+The names of the include programs of a class pool included by the framework program are constructed in exactly the same way as the name of the class pool itself, however they have different endings. Unlike in [function groups](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_group_glosry.htm "Glossary Entry"), the actual structure of a class pool constructed from include programs is the internal responsibility of ABAP Workbench and the ABAP runtime environment and is not displayed in Class Builder.
 
 Note
 
-The statements permitted in a class pool are listed under [Statements in Class Pools and Interface Pools](javascript:call_link\('abenoo_differences_class_lib.htm'\)).
+The statements permitted in a class pool are listed under [Statements in Class Pools and Interface Pools](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoo_differences_class_lib.htm).
 
 Example
 
 The name of the master program of the class pool of the global class CL\_ABAP\_BROWSER is CL\_ABAP\_BROWSER===============CP.
 
 
-
-**📖 Source**: [abapclass-pool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-pool.htm)
-
 ### abapinterface-pool.htm
-
-> **📖 Official SAP Documentation**: [abapinterface-pool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinterface-pool.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -528,11 +454,11 @@ The name of the master program of the class pool of the global class CL\_ABAP\_B
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Introductory Statements for Programs](javascript:call_link\('abenabap_program_statement.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_layout.htm) →  [Introductory Statements for Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm) → 
 
 INTERFACE-POOL
 
-[Quick Reference](javascript:call_link\('abapinterface-pool_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinterface-pool_shortref.htm)
 
 Syntax
 
@@ -540,34 +466,24 @@ INTERFACE-POOL.
 
 Effect
 
-The statement INTERFACE-POOL introduces an [interface pool](javascript:call_link\('abeninterface_pool_glosry.htm'\) "Glossary Entry"). It must be the first statement of an interface pool after any [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") are resolved.
+The statement INTERFACE-POOL introduces an [interface pool](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_pool_glosry.htm "Glossary Entry"). It must be the first statement of an interface pool after any [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry") are resolved.
 
-Interface pools are edited only with the tool [Class Builder](javascript:call_link\('abenclass_builder_glosry.htm'\) "Glossary Entry") in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry"). A [master program](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") for a global interface including the statement INTERFACE-POOL is generated automatically.
+Interface pools are edited only with the tool [Class Builder](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_builder_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_workbench_glosry.htm "Glossary Entry"). A [master program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenframe_program_glosry.htm "Glossary Entry") for a global interface including the statement INTERFACE-POOL is generated automatically.
 
-The full name of the master program of an interface pool in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") starts with the name of the global interface, is padded with the character "=" up to and including position 30, and ends with "IP".
+The full name of the master program of an interface pool in the [repository](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_glosry.htm "Glossary Entry") starts with the name of the global interface, is padded with the character "=" up to and including position 30, and ends with "IP".
 
-The names of the include programs of an interface pool included by the framework program are constructed in exactly the same way as the name of the interface pool itself, however they have different endings. Unlike in [function groups](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry"), the actual structure of an interface pool constructed from include programs is the internal responsibility of ABAP Workbench and the ABAP runtime environment and is not displayed in Class Builder.
+The names of the include programs of an interface pool included by the framework program are constructed in exactly the same way as the name of the interface pool itself, however they have different endings. Unlike in [function groups](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_group_glosry.htm "Glossary Entry"), the actual structure of an interface pool constructed from include programs is the internal responsibility of ABAP Workbench and the ABAP runtime environment and is not displayed in Class Builder.
 
 Note
 
-The statements permitted in an interface pool are listed under [Statements in Class Pools and Interface Pools](javascript:call_link\('abenoo_differences_class_lib.htm'\)).
+The statements permitted in an interface pool are listed under [Statements in Class Pools and Interface Pools](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoo_differences_class_lib.htm).
 
 Example
 
 The name of the master program of the interface pool of the global interface IF\_DEMO\_CR\_CAR\_RENTL\_SERVICE is IF\_DEMO\_CR\_CAR\_RENTL\_SERVICE==IP.
 
 
-
-**📖 Source**: [abapinterface-pool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinterface-pool.htm)
-
 ### abaptype-pool.htm
-
-> **📖 Official SAP Documentation**: [abaptype-pool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptype-pool.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abaptype-pool.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptype-pool.htm)
-
 
   
 
@@ -575,11 +491,11 @@ The name of the master program of the interface pool of the global interface IF\
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Introductory Statements for Programs](javascript:call_link\('abenabap_program_statement.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_layout.htm) →  [Introductory Statements for Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_statement.htm) → 
 
 TYPE-POOL
 
-[Quick Reference](javascript:call_link\('abaptype-pool_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptype-pool_shortref.htm)
 
 Syntax
 
@@ -587,24 +503,24 @@ TYPE-POOL tpool.
 
 Effect
 
-The statement TYPE-POOL introduces a [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") called tpool. It must be the first statement of a type group after any [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") are resolved. Type groups are only defined in [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry") in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry"). Here, an ABAP program is generated automatically, including the statement TYPE-POOL. The actual name of the program of a type group in the repository does not completely match the name of the type group and is of internal relevance only.
+The statement TYPE-POOL introduces a [type group](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_group_1_glosry.htm "Glossary Entry") called tpool. It must be the first statement of a type group after any [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry") are resolved. Type groups are only defined in [ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_workbench_glosry.htm "Glossary Entry"). Here, an ABAP program is generated automatically, including the statement TYPE-POOL. The actual name of the program of a type group in the repository does not completely match the name of the type group and is of internal relevance only.
 
 Type groups can only contain the statements
 
--   [INCLUDE](javascript:call_link\('abapinclude_prog.htm'\)),
+-   [INCLUDE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinclude_prog.htm),
     
--   [INCLUDE TYPE*|*STRUCTURE](javascript:call_link\('abapinclude_type.htm'\))
+-   [INCLUDE TYPE*|*STRUCTURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinclude_type.htm)
     
--   [TYPES](javascript:call_link\('abaptypes.htm'\)),
+-   [TYPES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes.htm),
     
--   [CONSTANTS](javascript:call_link\('abapconstants.htm'\)),
+-   [CONSTANTS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconstants.htm),
     
--   [DEFINE](javascript:call_link\('abapdefine.htm'\)) and [END-OF-DEFINITION](javascript:call_link\('abapend-of-definition.htm'\))
+-   [DEFINE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdefine.htm) and [END-OF-DEFINITION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-of-definition.htm)
     
--   [CLASS ... DEFINITION DEFERRED PUBLIC](javascript:call_link\('abapclass_deferred.htm'\))
+-   [CLASS ... DEFINITION DEFERRED PUBLIC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass_deferred.htm)
     
 
-Here, the declared data types, constants, and [macros](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") must be prefixed with the name tpool of the type group. The elements declared in a type group can be addressed statically or dynamically by name in every ABAP program in which the type group can be used. This is loaded when an element of a type group is first accessed.
+Here, the declared data types, constants, and [macros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmacro_glosry.htm "Glossary Entry") must be prefixed with the name tpool of the type group. The elements declared in a type group can be addressed statically or dynamically by name in every ABAP program in which the type group can be used. This is loaded when an element of a type group is first accessed.
 
 Notes
 
@@ -616,7 +532,7 @@ Notes
     
 -   The name of a type group may contain a maximum of five characters.
     
--   Previously, type groups had to be made known in ABAP programs using the [TYPE-POOLS](javascript:call_link\('abaptype-pools.htm'\)) statement before its elements could be accessed statically or dynamically. This restriction is now obsolete. The statement TYPE-POOLS is no longer necessary.
+-   Previously, type groups had to be made known in ABAP programs using the [TYPE-POOLS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptype-pools.htm) statement before its elements could be accessed statically or dynamically. This restriction is now obsolete. The statement TYPE-POOLS is no longer necessary.
     
 
 Example

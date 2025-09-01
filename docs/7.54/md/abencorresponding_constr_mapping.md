@@ -4,14 +4,14 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [CORRESPONDING - Component Operator](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding.htm) →  [CORRESPONDING - Component Operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expr_corresponding.htm) → 
 
 CORRESPONDING - mapping
 
 Syntax
 
-... *\[* MAPPING *{*t1 = s1 *\[* [duplicates](javascript:call_link\('abencorresponding_constr_dupl.htm'\))*\]**}**|*( t1 = s1 *\[* [duplicates](javascript:call_link\('abencorresponding_constr_dupl.htm'\))*\]* *\[*MAPPING ...*\]* *\[*EXCEPT ...*\]* )
-              *{*t2 = s2 *\[* [duplicates](javascript:call_link\('abencorresponding_constr_dupl.htm'\))*\]**}**|*( t2 = s2 *\[* [duplicates](javascript:call_link\('abencorresponding_constr_dupl.htm'\))*\]* *\[*MAPPING ...*\]* *\[*EXCEPT ...*\]* )
+... *\[* MAPPING *{*t1 = s1 *\[* [duplicates](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_constr_dupl.htm)*\]**}**|*( t1 = s1 *\[* [duplicates](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_constr_dupl.htm)*\]* *\[*MAPPING ...*\]* *\[*EXCEPT ...*\]* )
+              *{*t2 = s2 *\[* [duplicates](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_constr_dupl.htm)*\]**}**|*( t2 = s2 *\[* [duplicates](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_constr_dupl.htm)*\]* *\[*MAPPING ...*\]* *\[*EXCEPT ...*\]* )
               ...  *\]*
     *\[* EXCEPT *{*ti tj ...*}**|*\* *\]* ...
 
@@ -22,15 +22,15 @@ Extras:
 
 Effect
 
-Mapping rule for the component operator [CORRESPONDING](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)). The optional mapping rule overrides the default assignment of identically named components only. The additions MAPPING and EXCEPT can be used individually or together. EXCEPT must always be specified after MAPPING.
+Mapping rule for the component operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expr_corresponding.htm). The optional mapping rule overrides the default assignment of identically named components only. The additions MAPPING and EXCEPT can be used individually or together. EXCEPT must always be specified after MAPPING.
 
 Notes
 
--   It is best to use the component operator (see the [executable example](javascript:call_link\('abencorresponding_vs_for_abexa.htm'\))) for mapping tasks that can be solved using either the component operator or [table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry").
+-   It is best to use the component operator (see the [executable example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_vs_for_abexa.htm)) for mapping tasks that can be solved using either the component operator or [table comprehensions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_comprehension_glosry.htm "Glossary Entry").
 
--   When using the [basic form](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)) with a mapping rule, assignments can currently only be made to the same structure or internal table specified as an argument if this is known statically. The information need to create the necessary temporary copy of the target object is missing at runtime and a runtime error occurs.
+-   When using the [basic form](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_constr_arg_type.htm) with a mapping rule, assignments can currently only be made to the same structure or internal table specified as an argument if this is known statically. The information need to create the necessary temporary copy of the target object is missing at runtime and a runtime error occurs.
 
--   The system class [CL\_ABAP\_CORRESPONDING](javascript:call_link\('abencl_abap_corresponding.htm'\)) is provided for assignments between structures or internal tables with a dynamic mapping rule.
+-   The system class [CL\_ABAP\_CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding.htm) is provided for assignments between structures or internal tables with a dynamic mapping rule.
     
 
 Addition 1
@@ -43,25 +43,25 @@ After MAPPING, t1, t2, ... are used to assign the components s1, s2,... of a sou
 
 If the components specified on the left and right of an equals sign of a mapping relationship are themselves structured or tabular with a structured row type, a separate mapping rule can be nested for these components. Here, the mapping relationship is set in parentheses ( ... ) and a further mapping rule MAPPING ... and/or EXCEPT ... is specified after the mapping relationship in accordance with the same rules as on the top level. The parentheses are not allowed if a nested mapping rule is not used.
 
-If the components specified left and right of an equals sign in a mapping relationship are tabular, the addition [duplicates](javascript:call_link\('abencorresponding_constr_dupl.htm'\)) can be used to specify the behavior used when duplicate rows appear in target tables with unique table keys.
+If the components specified left and right of an equals sign in a mapping relationship are tabular, the addition [duplicates](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_constr_dupl.htm) can be used to specify the behavior used when duplicate rows appear in target tables with unique table keys.
 
-A component of a target object cannot appear more than once in a list after MAPPING and the structure component selector cannot be used to access subcomponents. Neither of these rules apply to components of the source object. If MAPPING is used, the table types involved must also have structured row types in the [basic form](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)) and the addition DEEP is set implicitly.
+A component of a target object cannot appear more than once in a list after MAPPING and the structure component selector cannot be used to access subcomponents. Neither of these rules apply to components of the source object. If MAPPING is used, the table types involved must also have structured row types in the [basic form](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_constr_arg_type.htm) and the addition DEEP is set implicitly.
 
--   In the [basic form](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)), t1, t2, ... are components of the target type and s1, s2, ... are components of the parameter struct or itab.
+-   In the [basic form](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_constr_arg_type.htm), t1, t2, ... are components of the target type and s1, s2, ... are components of the parameter struct or itab.
 
--   In the [variant with lookup table](javascript:call_link\('abencorresponding_constr_using.htm'\)), t1, t2, ... are columns of the parameter itab and s1, s2, ... are columns of the parameter lookup\_tab.
+-   In the [variant with lookup table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_constr_using.htm), t1, t2, ... are columns of the parameter itab and s1, s2, ... are columns of the parameter lookup\_tab.
 
-The content of the component specified on the right side of an equals sign in a mapping relationship is assigned to each component specified on the left side. If there is an identically named component in the target structure for a component specified on the right side, it is also assigned content (unless it is specified on the left side of a mapping relationship itself). In elementary components the assignment is made in accordance with the associated [assignment rules](javascript:call_link\('abenconversion_rules.htm'\)). In structured and tabular components, the assignment is made in accordance with the rules of [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)) with the addition EXPANDING NESTED TABLES.
+The content of the component specified on the right side of an equals sign in a mapping relationship is assigned to each component specified on the left side. If there is an identically named component in the target structure for a component specified on the right side, it is also assigned content (unless it is specified on the left side of a mapping relationship itself). In elementary components the assignment is made in accordance with the associated [assignment rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_rules.htm). In structured and tabular components, the assignment is made in accordance with the rules of [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmove-corresponding.htm) with the addition EXPANDING NESTED TABLES.
 
 Identically named components can also be specified on the right and left side of the equals sign. This is a good idea in the following cases:
 
--   If the [variant with lookup table](javascript:call_link\('abencorresponding_constr_using.htm'\)) are used, identically named components in a mapping relationship override the rule that the components s1, s2, ... and t1, t2, ... used for searches are not assigned by default.
+-   If the [variant with lookup table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_constr_using.htm) are used, identically named components in a mapping relationship override the rule that the components s1, s2, ... and t1, t2, ... used for searches are not assigned by default.
 
 -   Identically named components must be specified in a mapping relationship if a nested mapping rule is to be specified for these components.
 
--   Identically named tabular components can be specified in a mapping relationship to define the behavior of duplicate rows (using [duplicates](javascript:call_link\('abencorresponding_constr_dupl.htm'\))).
+-   Identically named tabular components can be specified in a mapping relationship to define the behavior of duplicate rows (using [duplicates](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_constr_dupl.htm)).
 
-If the row type of a source table is elementary, the [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line can be specified as a component on the right of an equals sign of a mapping relationship and the full table row is mapped to the target component. In all other cases, the behavior is undefined when the pseudo component table\_line is specified.
+If the row type of a source table is elementary, the [pseudo component](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpseudo_component_glosry.htm "Glossary Entry") table\_line can be specified as a component on the right of an equals sign of a mapping relationship and the full table row is mapped to the target component. In all other cases, the behavior is undefined when the pseudo component table\_line is specified.
 
 Example
 
@@ -95,7 +95,7 @@ struct2 =
 
 Example
 
-Specifies the [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line as the right side of a mapping rule.
+Specifies the [pseudo component](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpseudo_component_glosry.htm "Glossary Entry") table\_line as the right side of a mapping rule.
 
 TYPES:
   itab1 TYPE STANDARD TABLE OF i WITH EMPTY KEY,
@@ -110,9 +110,9 @@ cl\_demo\_output=>display(
 
 Executable Examples
 
--   [Component Operator, Mapping Rule](javascript:call_link\('abencorresponding_mapping_abexa.htm'\))
+-   [Component Operator, Mapping Rule](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_mapping_abexa.htm)
 
--   [Component Operator, Nested Mapping Rule](javascript:call_link\('abencorresponding_deep_mapp_abexa.htm'\))
+-   [Component Operator, Nested Mapping Rule](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_deep_mapp_abexa.htm)
     
 
 Addition 2
@@ -129,7 +129,7 @@ After EXCEPT, components t1, t2, ... of the target structure or target table tha
 
 Access to subcomponents of components of the target object using the structure component selector is not allowed in the list after EXCEPT either.
 
-If components of the target structure are included using [INCLUDE TYPE*|*STRUCTURE](javascript:call_link\('abapinclude_type.htm'\)) and these components are assigned a name using [AS](javascript:call_link\('abapinclude_type.htm'\)), this name can be specified after EXCEPT. If the included structure has only one component, specifying the name is the same as specifying this component. If the included structure has more than one component, the specified name is ignored.
+If components of the target structure are included using [INCLUDE TYPE*|*STRUCTURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinclude_type.htm) and these components are assigned a name using [AS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinclude_type.htm), this name can be specified after EXCEPT. If the included structure has only one component, specifying the name is the same as specifying this component. If the included structure has more than one component, the specified name is ignored.
 
 Notes
 
@@ -164,6 +164,6 @@ struct3 = CORRESPONDING #( struct1 EXCEPT col2 col3 ).
 
 Executable Examples
 
--   [Component Operator, Mapping Rule](javascript:call_link\('abencorresponding_mapping_abexa.htm'\))
+-   [Component Operator, Mapping Rule](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_mapping_abexa.htm)
 
--   [Component Operator, Nested Mapping Rule](javascript:call_link\('abencorresponding_deep_mapp_abexa.htm'\))
+-   [Component Operator, Nested Mapping Rule](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_deep_mapp_abexa.htm)

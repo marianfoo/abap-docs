@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [ABAP-Specific Rules](javascript:call_link\('abenabap_specific_rules_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [ABAP-Specific Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_specific_rules_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20as%20a%20Programming%20Model%2C%20ABENABAP_OBJ_PROGR_MODEL_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improv
 ement:)
@@ -25,7 +25,7 @@ Use ABAP objects wherever possible for new and further developments. Procedural 
 
 Details   
 
-The need to achieve [separation of concerns](javascript:call_link\('abenseparation_concerns_guidl.htm'\) "Guideline") is best supported by using ABAP objects as much as possible. Object-oriented programming - particularly ABAP Objects in comparison to procedural ABAP - is better suited. Here are the reasons why:
+The need to achieve [separation of concerns](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenseparation_concerns_guidl.htm "Guideline") is best supported by using ABAP objects as much as possible. Object-oriented programming - particularly ABAP Objects in comparison to procedural ABAP - is better suited. Here are the reasons why:
 
 1.  Data encapsulation
     
@@ -53,7 +53,7 @@ The need to achieve [separation of concerns](javascript:call_link\('abenseparati
     
 7.  Cleansed syntax
     
-    ABAP Objects uses cleansed syntax rules and semantics rules. Procedural ABAP is a language that has evolved over time, and contains several obsolete and overlapping concepts. The introduction of ABAP Objects meant that classes and methods provided a field for cleansed syntax and semantics rules, which was completely unaffected by downward compatibility requirements. This meant that most obsolete and error-prone language constructs were forbidden in ABAP Objects syntax (within classes and methods). Also, any questionable and potentially incorrect data accesses are checked more closely and can also be forbidden. The syntax cleansing enforces the use of the ABAP language in classes, which can only be requested using the [Modern ABAP](javascript:call_link\('abenmodern_abap_guidl.htm'\) "Guideline") guideline, outside of classes.
+    ABAP Objects uses cleansed syntax rules and semantics rules. Procedural ABAP is a language that has evolved over time, and contains several obsolete and overlapping concepts. The introduction of ABAP Objects meant that classes and methods provided a field for cleansed syntax and semantics rules, which was completely unaffected by downward compatibility requirements. This meant that most obsolete and error-prone language constructs were forbidden in ABAP Objects syntax (within classes and methods). Also, any questionable and potentially incorrect data accesses are checked more closely and can also be forbidden. The syntax cleansing enforces the use of the ABAP language in classes, which can only be requested using the [Modern ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodern_abap_guidl.htm "Guideline") guideline, outside of classes.
     
 8.  Access to new technologies
     
@@ -65,7 +65,7 @@ Therefore the urgent recommendation to use ABAP Objects has both formal and cont
 -   As described in points 1 through 5, the object-oriented programming model is better suited to keeping the complexity of software manageable through principles, such as encapsulation and inheritance. Admittedly, a good object-oriented design is not an easy task, and there are developers with only limited experience in this area even today. Given these facts, anyone who is still considering approaching a new development in the procedural way, must bear in mind that the procedural event-driven ABAP programming model with its system events is also not easy to understand.
 -   Points 6 through 8 describe more formal aspects. These points suggest that procedures should be created only as methods, even in the absence of a real object-oriented design. Function modules and subroutines should be created only in exceptional cases, where ABAP Objects does not currently provide any alternatives.
 
-The section [Object-Oriented Programming](javascript:call_link\('abenobj_oriented_gdl.htm'\)) provides notes and recommendations on the optimal use of ABAP Objects.
+The section [Object-Oriented Programming](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobj_oriented_gdl.htm) provides notes and recommendations on the optimal use of ABAP Objects.
 
 Exception
 
@@ -80,12 +80,12 @@ The following properties are still missing in ABAP Objects. They are needed to r
 
 In these cases, the following procedural processing blocks can still be created in new programs:
 
--   [Function modules](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline") are still required for RFC and the update and are recommended for calling [classic dynpros and selection screens](javascript:call_link\('abenencap_class_interf_guidl.htm'\) "Guideline").
--   [Subroutines](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline") are still required for PERFORM ON COMMIT$/ROLLBACK and in dynamically generated subroutine pools (GENERATE SUBROUTINE POOL).
--   [Dialog modules and event blocks](javascript:call_link\('abendial_mod_event_block_guidl.htm'\) "Guideline") for selection screen events are still required in function pools that [wrap](javascript:call_link\('abenprogram_type_guidl.htm'\) "Guideline") the classic dynpros and selection screens.
+-   [Function modules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunct_module_subroutine_guidl.htm "Guideline") are still required for RFC and the update and are recommended for calling [classic dynpros and selection screens](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenencap_class_interf_guidl.htm "Guideline").
+-   [Subroutines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunct_module_subroutine_guidl.htm "Guideline") are still required for PERFORM ON COMMIT$/ROLLBACK and in dynamically generated subroutine pools (GENERATE SUBROUTINE POOL).
+-   [Dialog modules and event blocks](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendial_mod_event_block_guidl.htm "Guideline") for selection screen events are still required in function pools that [wrap](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_type_guidl.htm "Guideline") the classic dynpros and selection screens.
 -   The START-OF-SELECTION event block is still required in executable programs that are intended for background processing.
 
-Within this type of processing block, however, the execution should be delegated immediately to a suitable method. This does not have to be a method of a global class, but it can be located in the associated compilation unit within the scope of a local class. To ensure that the system implements the same stricter check in these processing blocks as in the methods, the obsolete statements check (OO context) can be activated in the [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline").
+Within this type of processing block, however, the execution should be delegated immediately to a suitable method. This does not have to be a method of a global class, but it can be located in the associated compilation unit within the scope of a local class. To ensure that the system implements the same stricter check in these processing blocks as in the methods, the obsolete statements check (OO context) can be activated in the [extended program check](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextended_program_check_guidl.htm "Guideline").
 
 Bad Example
 
@@ -185,7 +185,7 @@ Good Example
 
 The following source code contains a rudimentary implementation for handling different types of bank accounts in classes and their use in a class. Only the withdrawal of an amount function is shown.
 
-The different types of accounts are implemented in subclasses of an abstract class for accounts. Each instance of an account is provided with the required data in its constructor. If required, the application class creates instances of accounts of the required type and uses their methods polymorphically by means of a superclass reference variable. Exception handling is carried out using class-based exceptions. CASE\-WHEN control structures are not required. As already explained in [separation of concerns](javascript:call_link\('abenseparation_concerns_guidl.htm'\) "Guideline"), no overhead code is incurred here when using classes, compared to procedural programming.
+The different types of accounts are implemented in subclasses of an abstract class for accounts. Each instance of an account is provided with the required data in its constructor. If required, the application class creates instances of accounts of the required type and uses their methods polymorphically by means of a superclass reference variable. Exception handling is carried out using class-based exceptions. CASE\-WHEN control structures are not required. As already explained in [separation of concerns](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenseparation_concerns_guidl.htm "Guideline"), no overhead code is incurred here when using classes, compared to procedural programming.
 
 CLASS cx\_negative\_amount DEFINITION PUBLIC
                          INHERITING FROM cx\_static\_check.

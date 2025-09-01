@@ -3,27 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abensource_code_orga_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensource_code_orga_gdl.htm)
-- [abensource_code_modular_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensource_code_modular_guidl.htm)
-- [abenmultiple_use_include_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmultiple_use_include_guidl.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.57
-**Generated**: 2025-09-01T11:25:45.234Z
-
----
-
 ### abensource_code_orga_gdl.htm
-
-> **📖 Official SAP Documentation**: [abensource_code_orga_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensource_code_orga_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,31 +11,24 @@ Included pages: 3
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_style_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Source Code Organization, ABENSOURCE_CODE_ORGA_GDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A
 %0D%0A%0D%0ASuggestion for improvement:)
 
 Source Code Organization
 
-ABAP source code is saved in the ABAP Repository in the [standard database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") of an AS ABAP, and not in source code files like in most other programming environments. Source codes can be split into individual units by using include programs. There are also [macros](javascript:call_link\('abenmacros_guidl.htm'\) "Guideline") that are handled for callable modularization units in the context of these guidelines.
+ABAP source code is saved in the ABAP Repository in the [standard database](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_db_glosry.htm "Glossary Entry") of an AS ABAP, and not in source code files like in most other programming environments. Source codes can be split into individual units by using include programs. There are also [macros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmacros_guidl.htm "Guideline") that are handled for callable modularization units in the context of these guidelines.
 
--   [Source code modularization](javascript:call_link\('abensource_code_modular_guidl.htm'\) "Guideline")
--   [Multiple use of include programs](javascript:call_link\('abenmultiple_use_include_guidl.htm'\) "Guideline")
+-   [Source code modularization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensource_code_modular_guidl.htm "Guideline")
+-   [Multiple use of include programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmultiple_use_include_guidl.htm "Guideline")
 
 Continue
-[Source Code Modularization](javascript:call_link\('abensource_code_modular_guidl.htm'\))
-[Multiple Use of Include Programs](javascript:call_link\('abenmultiple_use_include_guidl.htm'\))
+[Source Code Modularization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensource_code_modular_guidl.htm)
+[Multiple Use of Include Programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmultiple_use_include_guidl.htm)
 
-
-
-**📖 Source**: [abensource_code_orga_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensource_code_orga_gdl.htm)
 
 ### abensource_code_modular_guidl.htm
-
-> **📖 Official SAP Documentation**: [abensource_code_modular_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensource_code_modular_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -63,7 +36,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Source Code Organization](javascript:call_link\('abensource_code_orga_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_style_gdl.htm) →  [Source Code Organization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensource_code_orga_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Source Code Modularization, ABENSOURCE_CODE_MODULAR_GUIDL, 757%0D%0A%0D%0AError:%0D%0
 A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -72,7 +45,7 @@ Source Code Modularization
 
 Background   
 
-The unit in ABAP that corresponds to a source code file capable of being inserted into another program is known as an include program. Include programs are used for source code modularization and are inserted into compilation units for this purpose. Include programs are not compilation units (which means they cannot be compiled as standalone programs), but can be activated and transported separately. The [compilation units](javascript:call_link\('abenprogram_type_guidl.htm'\) "Guideline") of include programs (such as class pools, interface pools, function pools, subroutine pools, or executable programs) are compilation units in which, when compiled, an INCLUDE statement is replaced by the content of the specified include program.
+The unit in ABAP that corresponds to a source code file capable of being inserted into another program is known as an include program. Include programs are used for source code modularization and are inserted into compilation units for this purpose. Include programs are not compilation units (which means they cannot be compiled as standalone programs), but can be activated and transported separately. The [compilation units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_type_guidl.htm "Guideline") of include programs (such as class pools, interface pools, function pools, subroutine pools, or executable programs) are compilation units in which, when compiled, an INCLUDE statement is replaced by the content of the specified include program.
 
 Rule   
 
@@ -88,26 +61,16 @@ A suitable level of source code modularization using include programs makes it e
 -   Include programs are activated separately. This means that corrections or new developments in a compilation unit can be activated independently of each other, as long as they are in separate include programs.
 -   Include programs can be transported separately. In this way, specific corrections can be distributed across a system landscape without the need to transport the entire compilation unit. This minimizes the potential for conflicts between correction levels.
 
-The [ABAP development environment](javascript:call_link\('abenabap_dev_envir_glosry.htm'\) "Glossary Entry") already provides modularization templates using includes for many compilation units. For example, the visibility sections and methods of global classes or function modules of a function pool are saved in separate include programs. The source code-based Class Builder displays the resolved include programs as a single programs, but saves each part separately. The top include for global declarations is also supported by ABAP Workbench and ABAP Compiler.
+The [ABAP development environment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dev_envir_glosry.htm "Glossary Entry") already provides modularization templates using includes for many compilation units. For example, the visibility sections and methods of global classes or function modules of a function pool are saved in separate include programs. The source code-based Class Builder displays the resolved include programs as a single programs, but saves each part separately. The top include for global declarations is also supported by ABAP Workbench and ABAP Compiler.
 
 As well as this, you can perform manual modularization using include programs, if required. Here, you can perform some of the extra modularizations on the include programs defined by ABAP Workbench. Or you can create include programs for compilation units that are not modularized automatically (such as subroutine pools and executable programs).
 
-Include programs that you create manually must contain a logically related section of the source code and this section must represent an independently maintainable and transportable unit. Logically related units such as individual procedures ([methods](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) or the declaration parts of local classes should not be distributed across multiple include programs, however. (The declaration parts of global classes are distributed automatically across multiple include programs, as specified by ABAP Compiler. There is no reason why ABAP developers should distribute local classes in the same way.)
+Include programs that you create manually must contain a logically related section of the source code and this section must represent an independently maintainable and transportable unit. Logically related units such as individual procedures ([methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) or the declaration parts of local classes should not be distributed across multiple include programs, however. (The declaration parts of global classes are distributed automatically across multiple include programs, as specified by ABAP Compiler. There is no reason why ABAP developers should distribute local classes in the same way.)
 
-Include programs you create manually should be named in accordance with the naming conventions of ABAP Workbench for automatically generated include programs. These conventions emphasize the relationship between the include program and the compilation unit and prevent include programs [from being used more than once](javascript:call_link\('abenmultiple_use_include_guidl.htm'\) "Guideline").
+Include programs you create manually should be named in accordance with the naming conventions of ABAP Workbench for automatically generated include programs. These conventions emphasize the relationship between the include program and the compilation unit and prevent include programs [from being used more than once](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmultiple_use_include_guidl.htm "Guideline").
 
-
-
-**📖 Source**: [abensource_code_modular_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensource_code_modular_guidl.htm)
 
 ### abenmultiple_use_include_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenmultiple_use_include_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmultiple_use_include_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenmultiple_use_include_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmultiple_use_include_guidl.htm)
-
 
   
 
@@ -115,7 +78,7 @@ Include programs you create manually should be named in accordance with the nami
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Source Code Organization](javascript:call_link\('abensource_code_orga_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_style_gdl.htm) →  [Source Code Organization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensource_code_orga_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Multiple Use of Include Programs, ABENMULTIPLE_USE_INCLUDE_GUIDL, 757%0D%0A%0D%0AErro
 r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -149,7 +112,7 @@ The inclusion of an include program into multiple compilation units dramatically
 Increased resource consumption
 If compilation units that use shared include programs are executed at the same time, these include programs must be loaded multiple times by the ABAP runtime framework, which increases memory consumption. In the past, include programs were used multiple times for the central definition of constants, for example. Today, you should use a global interface or global class for this purpose. Because it is loaded only once, the memory consumption does not increase with every new use as it does with any multiple use of include programs.
 
-The memory consumption also increases if an include program is used multiple times within one compilation unit (for example, through inclusion into the source code of multiple function modules of a function pool or into the source code of multiple methods of a class) because this expands the compilation unit unnecessarily. When using centrally defined, [standalone types](javascript:call_link\('abenbound_independent_dtype_guidl.htm'\) "Guideline") and storing required constants in suitable classes or interfaces, there remains no conceivable scenario where it would be useful to use include programs multiple times within a compilation unit.
+The memory consumption also increases if an include program is used multiple times within one compilation unit (for example, through inclusion into the source code of multiple function modules of a function pool or into the source code of multiple methods of a class) because this expands the compilation unit unnecessarily. When using centrally defined, [standalone types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbound_independent_dtype_guidl.htm "Guideline") and storing required constants in suitable classes or interfaces, there remains no conceivable scenario where it would be useful to use include programs multiple times within a compilation unit.
 
 Missing semantic context
 Like source code files in other programming environments, include programs are included into a compilation unit as pure text and without any semantics. The semantics only emerge in the context of the compilation unit and the position where the include program is included. Consequently, especially class definitions that are included into different compilation units by using an include program result in different technical classes whose objects have different reference types and cannot be exchanged between the compilation units.

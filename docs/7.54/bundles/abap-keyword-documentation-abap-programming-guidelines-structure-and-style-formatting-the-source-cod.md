@@ -3,29 +3,7 @@
 Included pages: 5
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenformatting_code_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformatting_code_guidl.htm)
-- [abenlower_upper_case_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlower_upper_case_guidl.htm)
-- [abenstatement_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatement_guidl.htm)
-- [abenuse_pretty_printer_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_pretty_printer_guidl.htm)
-- [abenline_width_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_width_guidl.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.924Z
-
----
-
 ### abenformatting_code_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenformatting_code_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformatting_code_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -33,35 +11,28 @@ Included pages: 5
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) → 
 
 Formatting the Source Code
 
 The readability of source code is dependent to a great extent on formatting that highlights its logical structure. The following methods help to format source code in a clear way.
 
--   [Case](javascript:call_link\('abenlower_upper_case_guidl.htm'\) "Guideline")
+-   [Case](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlower_upper_case_guidl.htm "Guideline")
 
--   [Statements per Program Line](javascript:call_link\('abenstatement_guidl.htm'\) "Guideline")
+-   [Statements per Program Line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatement_guidl.htm "Guideline")
 
--   [Using Pretty Printer](javascript:call_link\('abenuse_pretty_printer_guidl.htm'\) "Guideline")
+-   [Using Pretty Printer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_pretty_printer_guidl.htm "Guideline")
 
--   [Line Width](javascript:call_link\('abenline_width_guidl.htm'\) "Guideline")
+-   [Line Width](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_width_guidl.htm "Guideline")
 
 Continue
-[Case](javascript:call_link\('abenlower_upper_case_guidl.htm'\))
-[Statements per Program Line](javascript:call_link\('abenstatement_guidl.htm'\))
-[Using Pretty Printer](javascript:call_link\('abenuse_pretty_printer_guidl.htm'\))
-[Line Width](javascript:call_link\('abenline_width_guidl.htm'\))
+[Case](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlower_upper_case_guidl.htm)
+[Statements per Program Line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatement_guidl.htm)
+[Using Pretty Printer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_pretty_printer_guidl.htm)
+[Line Width](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_width_guidl.htm)
 
-
-
-**📖 Source**: [abenformatting_code_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformatting_code_guidl.htm)
 
 ### abenlower_upper_case_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenlower_upper_case_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlower_upper_case_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -69,13 +40,13 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Formatting the Source Code](javascript:call_link\('abenformatting_code_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Formatting the Source Code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformatting_code_guidl.htm) → 
 
 Case
 
 Background
 
-In contrast to many other modern programming languages, ABAP is not case-sensitive for ABAP words (tokens of an ABAP statement that express its semantics; either ABAP keywords or additions) nor for operators and names of operands. The only exception is [dynamic programming](javascript:call_link\('abenref_types_objects_guidl.htm'\) "Guideline"), where the names of operands usually have to be specified in uppercase.
+In contrast to many other modern programming languages, ABAP is not case-sensitive for ABAP words (tokens of an ABAP statement that express its semantics; either ABAP keywords or additions) nor for operators and names of operands. The only exception is [dynamic programming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenref_types_objects_guidl.htm "Guideline"), where the names of operands usually have to be specified in uppercase.
 
 Rule
 
@@ -91,7 +62,7 @@ The usage of uppercase or lowercase for tokens, that is ABAP words and names, us
 
 -   Since case-sensitivity in ABAP source code is not significant in the syntax outside of character literals (that is, text field literals in inverted commas (‘), string literals in backquotes (\`), and character string templates in vertical bars (|)), the ABAP development environment is not designed to maintain it permanently outside the mentioned constructs. Pretty Printer only offers the alternatives to use only lowercase or only uppercase, or to use either uppercase or lowercase for keywords and lowercase or uppercase respectively for names in operand positions.
 
-Because of the second point, it does not make sense in ABAP to use uppercase and lowercase as a self-defined means of style. In other words, the names should not be written in mixed case style (also referred to as camel case style; see the following example), as is very popular in languages that are case-sensitive. A consistent notation cannot be ensured due to the missing relevance in the syntax. A mixed notation will be lost sooner or later when Pretty Printer is used, even if this is unintentional. Moreover, it possibly prevents other developers from using Pretty Printer after changes have been made to the source code. Use of [Pretty Printer](javascript:call_link\('abenuse_pretty_printer_guidl.htm'\) "Guideline") is explicitly recommended.
+Because of the second point, it does not make sense in ABAP to use uppercase and lowercase as a self-defined means of style. In other words, the names should not be written in mixed case style (also referred to as camel case style; see the following example), as is very popular in languages that are case-sensitive. A consistent notation cannot be ensured due to the missing relevance in the syntax. A mixed notation will be lost sooner or later when Pretty Printer is used, even if this is unintentional. Moreover, it possibly prevents other developers from using Pretty Printer after changes have been made to the source code. Use of [Pretty Printer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_pretty_printer_guidl.htm "Guideline") is explicitly recommended.
 
 Note
 
@@ -105,17 +76,10 @@ The code provided here as a bad example approximately follows the Java conventio
 
 The lower part of the source code shows the declaration of a class in ABAP style, where which words within combined names are separated by underscores (\_). These separations cannot get lost when Pretty Printer is used.
 
-Once the program has been called, the example is formatted according to the proposed Pretty Printer [setting](javascript:call_link\('abenuse_pretty_printer_guidl.htm'\) "Guideline"), with ABAP words in uppercase and operands in lowercase. Regardless of its configuration, the separation of the words in the names would be preserved after each execution of Pretty Printer.
+Once the program has been called, the example is formatted according to the proposed Pretty Printer [setting](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_pretty_printer_guidl.htm "Guideline"), with ABAP words in uppercase and operands in lowercase. Regardless of its configuration, the separation of the words in the names would be preserved after each execution of Pretty Printer.
 
-
-
-**📖 Source**: [abenlower_upper_case_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlower_upper_case_guidl.htm)
 
 ### abenstatement_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenstatement_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatement_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -123,7 +87,7 @@ Once the program has been called, the example is formatted according to the prop
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Formatting the Source Code](javascript:call_link\('abenformatting_code_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Formatting the Source Code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformatting_code_guidl.htm) → 
 
 Statements per Program Line
 
@@ -143,11 +107,11 @@ Using multiple statements in one line makes the source code harder to read. If a
 
 Besides reduced readability, using multiple statements in one line can also make the code more difficult to debug. Even in single steps, ABAP Debugger stops a maximum of once per executable program line. This makes it impractical for the debugging process if there is more than one statement in a line.
 
-If a statement spans [multiple lines](javascript:call_link\('abenline_width_guidl.htm'\) "Guideline") (which occurs frequently due to the potential length of complex ABAP statements), there should be no empty lines between the parts of the statement. The breaks in the statement should occur at semantically suitable places so that groups with a similar semantic meaning are next to each other, if possible. Indentations should be used to ensure that the statement is as well structured and readable as possible.
+If a statement spans [multiple lines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_width_guidl.htm "Guideline") (which occurs frequently due to the potential length of complex ABAP statements), there should be no empty lines between the parts of the statement. The breaks in the statement should occur at semantically suitable places so that groups with a similar semantic meaning are next to each other, if possible. Indentations should be used to ensure that the statement is as well structured and readable as possible.
 
 Bad Example
 
-The following source code shows a program section with correct syntax but that is poorly laid out and difficult to understand. Even the [Pretty Printer](javascript:call_link\('abenuse_pretty_printer_guidl.htm'\) "Guideline") can barely improve the layout of the template displayed here.
+The following source code shows a program section with correct syntax but that is poorly laid out and difficult to understand. Even the [Pretty Printer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_pretty_printer_guidl.htm "Guideline") can barely improve the layout of the template displayed here.
 
 CLASS class DEFINITION.
   PUBLIC SECTION. METHODS meth. ENDCLASS.
@@ -186,14 +150,7 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abenstatement_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatement_guidl.htm)
-
 ### abenuse_pretty_printer_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenuse_pretty_printer_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_pretty_printer_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -201,15 +158,15 @@ ENDCLASS.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Formatting the Source Code](javascript:call_link\('abenformatting_code_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Formatting the Source Code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformatting_code_guidl.htm) → 
 
 Using Pretty Printer
 
 Background
 
-The alignment of ABAP statements in the source code is not defined in the syntax. There should be a [maximum of one statement per line](javascript:call_link\('abenstatement_guidl.htm'\) "Guideline"), which can be technically indented and wrapped as required. This makes control structures visible. By inserting blank lines, related source code sections can be grouped, which makes the code easier to read. Note that, in ABAP statements, blanks cannot be added or left out at random. For example, tokens must be separated by at least one blank (especially with operands and operators). In a method call, no blanks are permitted between the name of the method and the opening parenthesis.
+The alignment of ABAP statements in the source code is not defined in the syntax. There should be a [maximum of one statement per line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatement_guidl.htm "Guideline"), which can be technically indented and wrapped as required. This makes control structures visible. By inserting blank lines, related source code sections can be grouped, which makes the code easier to read. Note that, in ABAP statements, blanks cannot be added or left out at random. For example, tokens must be separated by at least one blank (especially with operands and operators). In a method call, no blanks are permitted between the name of the method and the opening parenthesis.
 
-Languages with a C-like syntax (where statement blocks within control structures are delimited by curly brackets) provide an inexhaustible source for discussions on how to best make indentations. However, for ABAP the solution is obvious: Every introductory statement (such as IF) has an associated concluding statement (in this case, ENDIF). Event blocks for ABAP runtime environment events are the only exception here. They are introduced by a statement (such as START-OF-SELECTION) but are not concluded with the associated concluding statement. Instead, they are concluded with the next event block. However, [event blocks](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") should only be used in exceptional cases. Introductory and concluding statements are aligned at the same level; the block content is indented.
+Languages with a C-like syntax (where statement blocks within control structures are delimited by curly brackets) provide an inexhaustible source for discussions on how to best make indentations. However, for ABAP the solution is obvious: Every introductory statement (such as IF) has an associated concluding statement (in this case, ENDIF). Event blocks for ABAP runtime environment events are the only exception here. They are introduced by a statement (such as START-OF-SELECTION) but are not concluded with the associated concluding statement. Instead, they are concluded with the next event block. However, [event blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") should only be used in exceptional cases. Introductory and concluding statements are aligned at the same level; the block content is indented.
 
 Pretty Printer can modify the indentation of control structures and the capitalization of keywords and names in the source code at any time (even in display mode).
 
@@ -226,13 +183,13 @@ We recommend that the use of Pretty Printer to make indentations required to mak
 Even though Pretty Printer can be used to adapt the source code to any other style (using the available settings), a consistent and universal style should be selected. The reason for this is that version management and the correction workbench are not designed to ignore purely stylistic differences between source code versions. Therefore, the following Pretty Printer settings are recommended for consistent source code formatting. These settings cover the expectations and working habits of most ABAP developers:
 
 -   Indent statements
-    Absolutely essential for a logical program structure that is clearly visible. A [maximum of one statement per program line](javascript:call_link\('abenstatement_guidl.htm'\) "Guideline") is allowed.
+    Absolutely essential for a logical program structure that is clearly visible. A [maximum of one statement per program line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatement_guidl.htm "Guideline") is allowed.
 
 -   Do not insert standard comments
     The standard comment only contains redundant information and it is not adapted, if the source code is changed.
 
 -   Uppercase keywords
-    Makes it easier to [understand the source code](javascript:call_link\('abenlower_upper_case_guidl.htm'\) "Guideline") in printed form. In this case, syntax color-coding is usually not visible.
+    Makes it easier to [understand the source code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlower_upper_case_guidl.htm "Guideline") in printed form. In this case, syntax color-coding is usually not visible.
 
 The code needs to be edited manually, to ensure the correct use of blank lines between related source code blocks. Syntax units, such as classes, methods, control blocks, or semantic units of a program, should be separated from one another with one or two blank lines (depending on their size and meaning). However, there should not be more than two blank lines in succession.
 
@@ -277,17 +234,7 @@ endmethod.
 endclass.
 
 
-
-**📖 Source**: [abenuse_pretty_printer_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_pretty_printer_guidl.htm)
-
 ### abenline_width_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenline_width_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_width_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenline_width_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_width_guidl.htm)
-
 
   
 
@@ -295,7 +242,7 @@ endclass.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Formatting the Source Code](javascript:call_link\('abenformatting_code_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Formatting the Source Code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformatting_code_guidl.htm) → 
 
 Line Width
 
@@ -311,11 +258,11 @@ Limit the width of a line in the source code to a reasonable size. As a rule of 
 
 Details
 
-Whereas the old restriction to 72 characters was too strict, the full utilization of the 255 characters that are now available would not make a program any more legible. Although very large monitors are now available, it can still be necessary, for example, for code inspections or reviews, to print a program or program section. It is therefore advisable to break long [statements](javascript:call_link\('abenstatement_guidl.htm'\) "Guideline") at suitable positions and to distribute long literals across multiple lines using the literal operator (&) or the concatenation operator (&&).
+Whereas the old restriction to 72 characters was too strict, the full utilization of the 255 characters that are now available would not make a program any more legible. Although very large monitors are now available, it can still be necessary, for example, for code inspections or reviews, to print a program or program section. It is therefore advisable to break long [statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatement_guidl.htm "Guideline") at suitable positions and to distribute long literals across multiple lines using the literal operator (&) or the concatenation operator (&&).
 
 Note
 
-The example programs in the documentation are restricted in width in a natural way, which makes them legible at the same time. Unfortunately this sometimes means using shorter [names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline") than would actually be possible.
+The example programs in the documentation are restricted in width in a natural way, which makes them legible at the same time. Unfortunately this sometimes means using shorter [names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm "Guideline") than would actually be possible.
 
 Example
 

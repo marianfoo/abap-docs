@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Types](javascript:call_link\('abentypes_statements.htm'\)) →  [TYPES](javascript:call_link\('abaptypes.htm'\)) →  [TYPES - BEGIN OF struct\_type](javascript:call_link\('abaptypes_struc.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_and_objects.htm) →  [Declaring Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_statements.htm) →  [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes.htm) →  [TYPES - BEGIN OF struct\_type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_struc.htm) → 
 
 INCLUDE - TYPE, STRUCTURE
 
-[Quick Reference](javascript:call_link\('abapinclude_type_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinclude_type_shortref.htm)
 
 Syntax
 
@@ -23,14 +23,14 @@ Extras:
 
 Effect
 
-This statement can only be declared within a structure definition with the additions BEGIN OF and END OF of the statements [TYPES](javascript:call_link\('abaptypes.htm'\)), [DATA](javascript:call_link\('abapdata.htm'\)), [CLASS-DATA](javascript:call_link\('abapclass-data.htm'\)), and [STATICS](javascript:call_link\('abapstatics.htm'\)). It applies all the components of a structured type at the specified location to the current structure definition. The structured type can be specified as follows:
+This statement can only be declared within a structure definition with the additions BEGIN OF and END OF of the statements [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes.htm), [DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata.htm), [CLASS-DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-data.htm), and [STATICS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapstatics.htm). It applies all the components of a structured type at the specified location to the current structure definition. The structured type can be specified as follows:
 
 -   As a structured data type struc\_type after TYPE, both visible and usable in this place. struc\_type can be a local structured type, a visible structured type of a global class or global interface, or a structure from ABAP Dictionary.
     
 -   As a structured data object struc after STRUCTURE, visible in this place. Its structured data type is used. struc must be a structure of the same program or a visible attribute of a global class or global interface.
     
 
-The INCLUDE statement does not create a [substructure](javascript:call_link\('abensubstructure_glosry.htm'\) "Glossary Entry"), which means the components are inserted as if they are included individually in place of the statement INCLUDE.
+The INCLUDE statement does not create a [substructure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubstructure_glosry.htm "Glossary Entry"), which means the components are inserted as if they are included individually in place of the statement INCLUDE.
 
 Notes
 
@@ -41,21 +41,21 @@ Notes
 
 -   The included structures cannot be addressed as such without restrictions.
 
--   The necessary metadata is stored again for each component of an included structure, whereas the metadata for the components of a [substructure](javascript:call_link\('abensubstructure_glosry.htm'\) "Glossary Entry") is only stored once when the substructure is defined.
+-   The necessary metadata is stored again for each component of an included structure, whereas the metadata for the components of a [substructure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubstructure_glosry.htm "Glossary Entry") is only stored once when the substructure is defined.
 
--   In contrast to real substructures, structures included using INCLUDE cannot be declared as [static boxes](javascript:call_link\('abenstatic_box_glosry.htm'\) "Glossary Entry") when embedded.
+-   In contrast to real substructures, structures included using INCLUDE cannot be declared as [static boxes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_box_glosry.htm "Glossary Entry") when embedded.
 
-Where possible, real [substructures](javascript:call_link\('abensubstructure_glosry.htm'\) "Glossary Entry") should be created rather than using the statement INCLUDE. The addition RENAMING WITH SUFFIX, however, should be used to prevent naming conflicts. This recommendation also applies to [includes of structures](javascript:call_link\('abenddic_include_structure.htm'\)) in ABAP Dictionary, where the structures of database tables in particular cannot contain any real substructures.
+Where possible, real [substructures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubstructure_glosry.htm "Glossary Entry") should be created rather than using the statement INCLUDE. The addition RENAMING WITH SUFFIX, however, should be used to prevent naming conflicts. This recommendation also applies to [includes of structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_include_structure.htm) in ABAP Dictionary, where the structures of database tables in particular cannot contain any real substructures.
 
--   As usual, the addition TYPE is used to specify a data type. Like the addition [LIKE](javascript:call_link\('abaptypes_referring.htm'\)), the addition STRUCTURE is used to specify a data object. Outside of ABAP objects, [flat structures](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry"), database tables, or [views](javascript:call_link\('abenview_glosry.htm'\) "Glossary Entry") in ABAP Dictionary can also be specified for struc with the addition STRUCTURE.
+-   As usual, the addition TYPE is used to specify a data type. Like the addition [LIKE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_referring.htm), the addition STRUCTURE is used to specify a data object. Outside of ABAP objects, [flat structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenflat_structure_glosry.htm "Glossary Entry"), database tables, or [views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenview_glosry.htm "Glossary Entry") in ABAP Dictionary can also be specified for struc with the addition STRUCTURE.
     
--   In constant structures defined with [CONSTANTS](javascript:call_link\('abapconstants.htm'\)), no components can be included using INCLUDE because these cannot be assigned a [start value](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry").
+-   In constant structures defined with [CONSTANTS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapconstants.htm), no components can be included using INCLUDE because these cannot be assigned a [start value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstart_value_glosry.htm "Glossary Entry").
     
--   With respect to their [alignments](javascript:call_link\('abenalignment_glosry.htm'\) "Glossary Entry"), structures included using INCLUDE behave like substructures, which means [alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry") can occur before the first or after the last component. These do not occur when the components are declared directly.
+-   With respect to their [alignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenalignment_glosry.htm "Glossary Entry"), structures included using INCLUDE behave like substructures, which means [alignment gaps](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenalignment_gap_glosry.htm "Glossary Entry") can occur before the first or after the last component. These do not occur when the components are declared directly.
     
--   A structure that is included using INCLUDE is handled by the method GET\_COMPONENTS of the class CL\_ABAP\_STRUCTDESCR of [RTTI](javascript:call_link\('abenrtti_glosry.htm'\) "Glossary Entry") in the same way as a substructure. The returned component table only contains one row for an included structure. The component type is represented by an object from CL\_ABAP\_STRUCTDESCR, but the AS\_INCLUDE column contains the value "X". The method GET\_INCLUDED\_VIEW\_TAB can be used to resolve the components of included structures.
+-   A structure that is included using INCLUDE is handled by the method GET\_COMPONENTS of the class CL\_ABAP\_STRUCTDESCR of [RTTI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrtti_glosry.htm "Glossary Entry") in the same way as a substructure. The returned component table only contains one row for an included structure. The component type is represented by an object from CL\_ABAP\_STRUCTDESCR, but the AS\_INCLUDE column contains the value "X". The method GET\_INCLUDED\_VIEW\_TAB can be used to resolve the components of included structures.
     
--   When a [static box](javascript:call_link\('abenstatic_box_glosry.htm'\) "Glossary Entry") is applied from one structure to another, its boxed component attribute is also applied.
+-   When a [static box](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_box_glosry.htm "Glossary Entry") is applied from one structure to another, its boxed component attribute is also applied.
     
 
 Addition 1
@@ -70,7 +70,7 @@ Notes
 
 -   Included components for which a name is specified after AS can be addressed in the same way as if they were components of a substructure name.
     
--   A name name specified with AS name is used only as an addressing option and is ignored in statements such as [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)) or [SELECT INTO CORRESPONDING](javascript:call_link\('abapinto_clause.htm'\)). A component renamed using RENAMING WITH SUFFIX actually has this name and is therefore not ignored.
+-   A name name specified with AS name is used only as an addressing option and is ignored in statements such as [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove-corresponding.htm) or [SELECT INTO CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinto_clause.htm). A component renamed using RENAMING WITH SUFFIX actually has this name and is therefore not ignored.
     
 
 Addition 2

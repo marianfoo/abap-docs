@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-6.htm) →  [Changes in Release 6.20](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-620.htm) → 
 
 New Handleable Exceptions in Release 6.20
 
@@ -30,7 +30,7 @@ Modification 1
 
 Handleable Exceptions in Method Calls
 
-The following exceptions can now be handled in [method calls](javascript:call_link\('abenmethod_calls.htm'\)), having been assigned to existing exception classes:
+The following exceptions can now be handled in [method calls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_calls.htm), having been assigned to existing exception classes:
 
 -   CALL\_METHOD\_NOT\_IMPLEMENTED
     
@@ -47,7 +47,7 @@ Modification 2
 
 Handleable Exceptions in Function Module Calls
 
-In [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)), the following exceptions can now be handled, having been assigned to existing exception classes. The new exception class CX\_SY\_DYN\_CALL\_ILLEGAL\_FUNC was introduced only for the first two exceptions in the following list:
+In [CALL FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function.htm), the following exceptions can now be handled, having been assigned to existing exception classes. The new exception class CX\_SY\_DYN\_CALL\_ILLEGAL\_FUNC was introduced only for the first two exceptions in the following list:
 
 -   CALL\_FUNCTION\_NOT\_ACTIVE
     
@@ -72,7 +72,7 @@ Modification 3
 
 Handleable Exceptions in Down Casts
 
-In [down casts](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry"), the following exceptions can now be handled, having been assigned to an existing exception class:
+In [down casts](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendown_cast_glosry.htm "Glossary Entry"), the following exceptions can now be handled, having been assigned to an existing exception class:
 
 -   MOVE\_CAST\_ERROR\_DYN
     
@@ -94,28 +94,28 @@ Modification 5
 
 Handleable Exceptions in CALL TRANSFORMATION
 
-The exception classes CX\_SY\_CONVERSION\_NO\_RAW and CX\_SY\_CONVERSION\_NO\_DATE\_TIME have been introduced for the statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)).
+The exception classes CX\_SY\_CONVERSION\_NO\_RAW and CX\_SY\_CONVERSION\_NO\_DATE\_TIME have been introduced for the statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transformation.htm).
 
 Modification 6
 
 Handleable Exceptions in GENERATE REPORT *|* SUBROUTINE POOL
 
-The exception class CX\_SY\_GEN\_SOURCE\_TOO\_WIDE has been introduced for the statement [GENERATE REPORT*|*SUBROUTINE POOL](javascript:call_link\('abapgenerate_report.htm'\)).
+The exception class CX\_SY\_GEN\_SOURCE\_TOO\_WIDE has been introduced for the statement [GENERATE REPORT*|*SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_report.htm).
 
 Modification 7
 
 Handleable Exceptions in SCAN
 
-The exception class CX\_SY\_SCAN\_SOURCE\_TOO\_WIDE has been introduced for the statement [SCAN](javascript:call_link\('abapscan.htm'\)).
+The exception class CX\_SY\_SCAN\_SOURCE\_TOO\_WIDE has been introduced for the statement [SCAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapscan.htm).
 
 Modification 8
 
 Handleable Exceptions in EXPORT TO SHARED MEMORY
 
-The exception CX\_SY\_EXPORT\_NO\_SHARED\_MEMORY has been introduced for [EXPORT TO SHARED MEMORY](javascript:call_link\('abapexport_data_cluster.htm'\)).
+The exception CX\_SY\_EXPORT\_NO\_SHARED\_MEMORY has been introduced for [EXPORT TO SHARED MEMORY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexport_data_cluster.htm).
 
 Modification 9
 
 Handleable Exceptions in PROVIDE
 
-The exception classes CX\_SY\_PROVIDE\_INTERVAL\_OVERLAP and CX\_SY\_PROVIDE\_TABLE\_NOT\_SORTED have been introduced for the new variant of the statement [PROVIDE](javascript:call_link\('abapprovide.htm'\)). These exceptions are not raised by the short form of PROVIDE.
+The exception classes CX\_SY\_PROVIDE\_INTERVAL\_OVERLAP and CX\_SY\_PROVIDE\_TABLE\_NOT\_SORTED have been introduced for the new variant of the statement [PROVIDE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprovide.htm). These exceptions are not raised by the short form of PROVIDE.

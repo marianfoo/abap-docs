@@ -4,21 +4,21 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Components Related to Information Processing](javascript:call_link\('abapderived_types_info.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [BDEF Derived Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_comp.htm) →  [Components Related to Information Processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_info.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20%25foreign%2C%20ABAPDERIVED_TYPES_FOREIGN%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 %foreign
 
-%foreign is a [component group](javascript:call_link\('abencomponent_group_glosry.htm'\) "Glossary Entry") in [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry"). The component group is contained in the REPORTED [RAP response parameter](javascript:call_link\('abenrap_response_param_glosry.htm'\) "Glossary Entry") in the context of the [map\_messages](javascript:call_link\('abensaver_map_messages.htm'\)) saver method and summarizes all available [foreign entities](javascript:call_link\('abenrap_foreign_entity_glosry.htm'\) "Glossary Entry") defined in the [BDEF](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry").
+%foreign is a [component group](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomponent_group_glosry.htm "Glossary Entry") in [BDEF derived types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm "Glossary Entry"). The component group is contained in the REPORTED [RAP response parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_response_param_glosry.htm "Glossary Entry") in the context of the [map\_messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensaver_map_messages.htm) saver method and summarizes all available [foreign entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_foreign_entity_glosry.htm "Glossary Entry") defined in the [BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry").
 
 Type
 
-The subcomponents of %foreign are internal tables of type [TYPE TABLE FOR REPORTED LATE](javascript:call_link\('abaptype_table_for.htm'\)).
+The subcomponents of %foreign are internal tables of type [TYPE TABLE FOR REPORTED LATE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype_table_for.htm).
 
 Where used
 
--   [TYPE RESPONSE FOR REPORTED LATE](javascript:call_link\('abaptype_response_for.htm'\))
+-   [TYPE RESPONSE FOR REPORTED LATE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype_response_for.htm)
 
 Further Information
 
@@ -26,7 +26,7 @@ Development guide for the ABAP RESTful Application Programming Model, section [M
 
 Example
 
-The following source code section taken from the CCIMP include of the global class of the [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") BP\_DEMO\_UNMANAGED\_MAP\_MESSAGES demonstrates the component group %foreign in the context of a map\_messages method implementation that is responsible for processing the responses of a foreign entity. See the executable program for this example further down.
+The following source code section taken from the CCIMP include of the global class of the [behavior pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") BP\_DEMO\_UNMANAGED\_MAP\_MESSAGES demonstrates the component group %foreign in the context of a map\_messages method implementation that is responsible for processing the responses of a foreign entity. See the executable program for this example further down.
 
 METHOD map\_messages.
   LOOP AT reported-%foreign-demo\_unmanaged\_foreign\_entity
@@ -47,4 +47,4 @@ ENDMETHOD.
 
 Executable Example
 
-The example [Example for RAP Saver Method map\_messages](javascript:call_link\('abenabp_map_messages_abexa.htm'\)) demonstrates the use of %foreign in the context of the implementation of a map\_messages saver method within a RAP saver class using unmanaged RAP BOs.
+The example [Example for RAP Saver Method map\_messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_map_messages_abexa.htm) demonstrates the use of %foreign in the context of the implementation of a map\_messages saver method within a RAP saver class using unmanaged RAP BOs.

@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 ICM
 
-[→ Internet Communication Manager](javascript:call_link\('abeninternet_con_man_glosry.htm'\) "Glossary Entry").
+[→ Internet Communication Manager](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternet_con_man_glosry.htm "Glossary Entry").

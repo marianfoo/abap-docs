@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Object Services (OS)](javascript:call_link\('abenabap_object_services.htm'\)) →  [OS - Persistence Service](javascript:call_link\('abenabap_object_services_persist.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [Object Services (OS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_object_services.htm) →  [OS - Persistence Service](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_object_services_persist.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20OS%20-%20Management%20States%20in%20the%20Persistence%20Service%2C%20ABENOS_PERSISTENCE_STATE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20
 for%20improvement:)
@@ -249,7 +249,7 @@ All methods except GET\_attribute and SET\_attribute are methods of the class ag
 
 The numbers reflect the management states. For example, the method DELETE\_PERSISTENT shifts a persistent object from the state 0, 2, 3, or 4 to the state 4.
 
-The dash (-) indicates that an object of a persistent class is available but cannot be managed. A situation like this may occur, for example, if the system deletes a persistent object by passing a reference to the method DELETE\_PERSISTENT. The statement COMMIT WORK deletes the object from the database and it is no longer managed. However, it is persisted in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") until all references to it are also deleted.
+The dash (-) indicates that an object of a persistent class is available but cannot be managed. A situation like this may occur, for example, if the system deletes a persistent object by passing a reference to the method DELETE\_PERSISTENT. The statement COMMIT WORK deletes the object from the database and it is no longer managed. However, it is persisted in the [internal session](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm "Glossary Entry") until all references to it are also deleted.
 
 As can be seen in the table, the methods DELETE\_PERSISTENT, GET\_PERSISTENT, and REFRESH\_PERSISTENT can work only with persistent objects in a state from 0 to 4, while GET\_TRANSIENT can work only with transient objects in the state 10.
 

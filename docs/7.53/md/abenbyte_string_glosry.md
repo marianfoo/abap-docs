@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 byte string
 
-[Byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry") for saving [byte chains](javascript:call_link\('abenbyte_chain_glosry.htm'\) "Glossary Entry") with variable lengths or a similar [data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry"). The associated [built-in ABAP type](javascript:call_link\('abenpredefined_abap_type_glosry.htm'\) "Glossary Entry") is [xstring](javascript:call_link\('abenbuilt_in_types_complete.htm'\)). These strings are managed internally using an internal [reference](javascript:call_link\('abenreference_glosry.htm'\) "Glossary Entry") and the data type is [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry").
+[Byte-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry") for saving [byte chains](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_chain_glosry.htm "Glossary Entry") with variable lengths or a similar [data object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_object_glosry.htm "Glossary Entry"). The associated [built-in ABAP type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredefined_abap_type_glosry.htm "Glossary Entry") is [xstring](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_types_complete.htm). These strings are managed internally using an internal [reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_glosry.htm "Glossary Entry") and the data type is [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenstring.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring.htm)

@@ -4,17 +4,17 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [System Response After a Class-Based Exception](javascript:call_link\('abenexceptions_system_response.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions.htm) →  [System Response After a Class-Based Exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_system_response.htm) → 
 
 Class-Based Exceptions in Event Handlers
 
-Class-based exceptions in [event handlers](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry") are a special case of [class-based exceptions in procedures](javascript:call_link\('abenexceptions_procedures.htm'\)).
+Class-based exceptions in [event handlers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_handler_glosry.htm "Glossary Entry") are a special case of [class-based exceptions in procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_procedures.htm).
 
-Since event handlers and triggers are completely detached, the trigger of an event does not know the handler and therefore cannot handle its exceptions. For this reason, no class-based exceptions can be declared using RAISING in the [declaration](javascript:call_link\('abapmethods_event_handler.htm'\)).
+Since event handlers and triggers are completely detached, the trigger of an event does not know the handler and therefore cannot handle its exceptions. For this reason, no class-based exceptions can be declared using RAISING in the [declaration](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_event_handler.htm).
 
 This has the following consequences:
 
--   If exceptions from the CX\_STATIC\_CHECK or CX\_DYNAMIC\_CHECK classes occur during event handling, they must be handled in the event handler or they lead to a violation of the interface, whereby for normal [procedures](javascript:call_link\('abenexceptions_procedures.htm'\)) the CX\_SY\_NO\_HANDLER exception is triggered.
+-   If exceptions from the CX\_STATIC\_CHECK or CX\_DYNAMIC\_CHECK classes occur during event handling, they must be handled in the event handler or they lead to a violation of the interface, whereby for normal [procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_procedures.htm) the CX\_SY\_NO\_HANDLER exception is triggered.
 
 -   If a violation of the interface occurs during event handling, event handling is terminated and the control is given back to the trigger of the event. Further event handlers which are still registered for the event are not executed.
 

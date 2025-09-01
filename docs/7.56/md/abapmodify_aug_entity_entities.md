@@ -4,17 +4,17 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP business objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_in_abp.htm) → 
 
 MODIFY AUGMENTING ENTITY, ENTITIES
 
 Syntax
 
 MODIFY AUGMENTING *{* ENTITY bdef
-                      [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]* *}*
+                      [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]* *}*
                 *|* *{* ENTITIES OF bdef
-                      ENTITY bdef1 [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]*
-                     *\[*ENTITY bdef2 [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]**\]*
+                      ENTITY bdef1 [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]*
+                     *\[*ENTITY bdef2 [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]**\]*
                      *\[*...*\]* *}*.
 
 Alternatives:
@@ -28,15 +28,15 @@ Addition:
 
 Effect
 
-A special variant of [MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\)) that is only possible in the context of [projections](javascript:call_link\('abencds_define_view_as_projection.htm'\)). The variant can only be used by a [RAP BO provider](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry") and is used to manipulate the request for the base BO in the handler implementation. Only entities of the base BO can be modified by this statement. All [standard operations](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") are allowed including actions.
+A special variant of [MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities.htm) that is only possible in the context of [projections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_view_as_projection.htm). The variant can only be used by a [RAP BO provider](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry") and is used to manipulate the request for the base BO in the handler implementation. Only entities of the base BO can be modified by this statement. All [standard operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencrud_glosry.htm "Glossary Entry") are allowed including actions.
 
 Hint
 
--   For the statements, no [response parameters](javascript:call_link\('abapeml_response.htm'\)) can be specified, i.e. the additions FAILED, MAPPED or REPORTED cannot be used.
+-   For the statements, no [response parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_response.htm) can be specified, i.e. the additions FAILED, MAPPED or REPORTED cannot be used.
 
 Further Information
 
--   [CDS BDL - augment, projection BDEF](javascript:call_link\('abenbdl_augment_projection.htm'\))
+-   [CDS BDL - augment, projection BDEF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_augment_projection.htm)
 -   Development guide for the ABAP RESTful Application Programming Model, section Operation Augmentation.
 
 Alternative 1   
@@ -45,7 +45,7 @@ MODIFY AUGMENTING ENTITY ...
 
 Effect
 
-Short form. Used to manipulate the request for the base BO in the handler implementation. bdef must be the full name, i. e. not the alias name, of the projected root BO. Multiple operations can be specified for [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) within a single MODIFY statement. However, in this case, it must be ensured that the importing parameters for the corresponding methods are available.
+Short form. Used to manipulate the request for the base BO in the handler implementation. bdef must be the full name, i. e. not the alias name, of the projected root BO. Multiple operations can be specified for [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) within a single MODIFY statement. However, in this case, it must be ensured that the importing parameters for the corresponding methods are available.
 
 Alternative 2   
 
@@ -55,7 +55,7 @@ Effect
 
 Long form. Used to manipulate the request for the base BO in the handler implementation including one or more RAP BO entities. bdef must be the full name, i. e. not the alias name, of the projected root BO.
 
-bdef must be the full name, i. e. not the alias name, of the projected root BO followed by a list of operations grouped by individual entities. bdef1, bdef2, and so on, must be entities contained in the [composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") of the root entity bdef. The root entity itself can also be inserted in the position of bdef1, for example. Each part of the list of operations specified after MODIFY AUGMENTING ENTITIES OF bdef has the same syntax as the short form. At least one entry (ENTITY bdef/bdef1/... with an operation) must be specified. The same entity can be specified after ENTITY repeatedly, however, the same operation in that combination is allowed only once. operations must be specified as outlined in the topic [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)).
+bdef must be the full name, i. e. not the alias name, of the projected root BO followed by a list of operations grouped by individual entities. bdef1, bdef2, and so on, must be entities contained in the [composition tree](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") of the root entity bdef. The root entity itself can also be inserted in the position of bdef1, for example. Each part of the list of operations specified after MODIFY AUGMENTING ENTITIES OF bdef has the same syntax as the short form. At least one entry (ENTITY bdef/bdef1/... with an operation) must be specified. The same entity can be specified after ENTITY repeatedly, however, the same operation in that combination is allowed only once. operations must be specified as outlined in the topic [operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm).
 
 Addition   
 
@@ -79,7 +79,7 @@ MODIFY AUGMENTING ENTITY ...
 
 Executable Example
 
-The example [ABAP EML - MODIFY ENTITY AUGMENTING](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\)) demonstrates the addition AUGMENTING with a RAP projection business object.
+The example [ABAP EML - MODIFY ENTITY AUGMENTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_modify_augmenting_abexa.htm) demonstrates the addition AUGMENTING with a RAP projection business object.
 
 Continue
-![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_modify_augmenting_abexa.htm)

@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [Embedded Native SQL (EXEC SQL)](javascript:call_link\('abennativesql.htm'\)) →  [EXEC SQL](javascript:call_link\('abapexec.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennative_sql.htm) →  [Embedded Native SQL (EXEC SQL)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexec.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20EXEC%20SQL%20-%20OPEN%2C%20FETCH%2C%20CLOSE%2C%20ABAPEXEC_CURSOR%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 EXEC SQL - OPEN, FETCH, CLOSE
 
-In embedded [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry"), similar statements to those in [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry") can be specified to read data using a [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry").
+In embedded [Native SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennative_sql_glosry.htm "Glossary Entry"), similar statements to those in [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm "Glossary Entry") can be specified to read data using a [database cursor](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_cursor_glosry.htm "Glossary Entry").
 
 Syntax
 
@@ -20,7 +20,7 @@ ENDEXEC.
 
 Effect
 
-Opens a database cursor dbcur. For dbcur, a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like [host variable](javascript:call_link\('abapexec_host.htm'\)) can be specified.
+Opens a database cursor dbcur. For dbcur, a [flat](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenflat_glosry.htm "Glossary Entry") character-like [host variable](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexec_host.htm) can be specified.
 
 Hint
 
@@ -34,7 +34,7 @@ ENDEXEC.
 
 Effect
 
-Uses an open database cursor dbcur to read data to the [host variables](javascript:call_link\('abapexec_host.htm'\)) specified after [INTO](javascript:call_link\('abapexec_into.htm'\)).
+Uses an open database cursor dbcur to read data to the [host variables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexec_host.htm) specified after [INTO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexec_into.htm).
 
 Syntax
 

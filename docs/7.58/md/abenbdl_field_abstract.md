@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Abstract Behavior Definitions](javascript:call_link\('abenbdl_abstract.htm'\)) →  [RAP - Entity Behavior Definition, Abstract BDEF](javascript:call_link\('abenbdl_define_beh_abstract.htm'\)) →  [RAP - Entity Behavior Body, Abstract BDEF](javascript:call_link\('abenbdl_body_abstract.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl.htm) →  [RAP - Abstract Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_abstract.htm) →  [RAP - Entity Behavior Definition, Abstract BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_define_beh_abstract.htm) →  [RAP - Entity Behavior Body, Abstract BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_body_abstract.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20Field%20Characteristics%2C%20Abstract%20BDEF%2C%20ABENBDL_FIELD_ABSTRACT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impro
 vement:)
@@ -23,7 +23,7 @@ Variants:
 
 Effect
 
-This topic lists field attributes for the [fields](javascript:call_link\('abenrap_bo_field_glosry.htm'\) "Glossary Entry") of an [abstract BDEF](javascript:call_link\('abencds_abstract_bdef_glosry.htm'\) "Glossary Entry").
+This topic lists field attributes for the [fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_field_glosry.htm "Glossary Entry") of an [abstract BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_abstract_bdef_glosry.htm "Glossary Entry").
 
 Commas can be used to classify multiple fields in the same way. Example: field(suppress) Field1, Field2, Field3;.
 
@@ -33,12 +33,12 @@ Variant 1  
 
 Effect
 
--   Removes a field from all [derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") generated for the BDEF. In particular, the redundancy is avoided in the [TYPE TABLE FOR HIERARCHY](javascript:call_link\('abaptype_table_for.htm'\)) / [TYPE STRUCTURE FOR HIERARCHY](javascript:call_link\('abaptype_structure_for.htm'\)) types.
--   This is possible for all fields except for [key fields](javascript:call_link\('abenkey_field_glosry.htm'\) "Glossary Entry") and fields used by the current BDEF.
+-   Removes a field from all [derived types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") generated for the BDEF. In particular, the redundancy is avoided in the [TYPE TABLE FOR HIERARCHY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype_table_for.htm) / [TYPE STRUCTURE FOR HIERARCHY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype_structure_for.htm) types.
+-   This is possible for all fields except for [key fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkey_field_glosry.htm "Glossary Entry") and fields used by the current BDEF.
 
 Hint
 
-A typical use case for field(suppress) was to exclude foreign-key fields used in the ON condition of the [to-parent association](javascript:call_link\('abencds_absent_to_parent_assoc.htm'\)) to appear redundantly in the hierarchical type. This was particularly useful when it was still mandatory to define an ON condition in to-parent associations of CDS abstract entities. However, since release 7.56, the ON condition can be left out.
+A typical use case for field(suppress) was to exclude foreign-key fields used in the ON condition of the [to-parent association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_absent_to_parent_assoc.htm) to appear redundantly in the hierarchical type. This was particularly useful when it was still mandatory to define an ON condition in to-parent associations of CDS abstract entities. However, since release 7.56, the ON condition can be left out.
 
 Example
 
@@ -57,12 +57,12 @@ field(mandatory:execute) Field1, Field2, ...
 
 Effect
 
--   Declares a field of an abstract BDEF as mandatory. Whenever the hierarchical type is used as [input parameter](javascript:call_link\('abenbdl_action_input_param.htm'\)) for a [RAP action](javascript:call_link\('abenrap_action_glosry.htm'\) "Glossary Entry") or a [RAP function](javascript:call_link\('abenrap_function_glosry.htm'\) "Glossary Entry"), a value must be supplied. Otherwise, a [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry") occurs.
--   As a prerequisite, the addition [with hierarchy](javascript:call_link\('abenbdl_bdef_abstract_header.htm'\)) must be used in the [behavior definition header](javascript:call_link\('abencds_bdef_header_glosry.htm'\) "Glossary Entry") and [with control](abenbdl_define_beh_abstract.htm#!ABAP_ALTERNATIVE_1@1@) must be specified for the [entity behavior definition](javascript:call_link\('abencds_entity_bdef_glosry.htm'\) "Glossary Entry") in question. Moreover, [BDEF strict mode](javascript:call_link\('abenrap_strict_mode_glosry.htm'\) "Glossary Entry") must be enabled.
+-   Declares a field of an abstract BDEF as mandatory. Whenever the hierarchical type is used as [input parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action_input_param.htm) for a [RAP action](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_action_glosry.htm "Glossary Entry") or a [RAP function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_function_glosry.htm "Glossary Entry"), a value must be supplied. Otherwise, a [runtime error](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenruntime_error_glosry.htm "Glossary Entry") occurs.
+-   As a prerequisite, the addition [with hierarchy](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_bdef_abstract_header.htm) must be used in the [behavior definition header](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdef_header_glosry.htm "Glossary Entry") and [with control](abenbdl_define_beh_abstract.htm#!ABAP_ALTERNATIVE_1@1@) must be specified for the [entity behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_bdef_glosry.htm "Glossary Entry") in question. Moreover, [BDEF strict mode](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_strict_mode_glosry.htm "Glossary Entry") must be enabled.
 
 Hint
 
-When using [IN LOCAL MODE](javascript:call_link\('abapin_local_mode.htm'\)), mandatory:execute does not have any effect.
+When using [IN LOCAL MODE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapin_local_mode.htm), mandatory:execute does not have any effect.
 
 Example
 
@@ -115,7 +115,7 @@ authorization master ( global )
   static action returnHData deep result \[1\] DEMO\_ABSTRACT\_ROOT;
 }
 
-The ABAP class CL\_DEMO\_MANDATORY\_EXECUTE executes the action ACTION\_DEEP\_PARAM. It supplies a value for the field NUM1 and sets the [%control](javascript:call_link\('abapderived_types_comp.htm'\)) structure for this field to if\_abap\_behv=>mk-on.
+The ABAP class CL\_DEMO\_MANDATORY\_EXECUTE executes the action ACTION\_DEEP\_PARAM. It supplies a value for the field NUM1 and sets the [%control](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_comp.htm) structure for this field to if\_abap\_behv=>mk-on.
 
 Code Snippet:
 
@@ -157,4 +157,4 @@ MODIFY ENTITY demo\_managed\_hierarchy
 
 Executable Example
 
-An executable example is available in topic [Using TYPE TABLE /TYPE STRUCTURE FOR HIERARCHY](javascript:call_link\('abenderived_type_hierarchy_abexa.htm'\)).
+An executable example is available in topic [Using TYPE TABLE /TYPE STRUCTURE FOR HIERARCHY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenderived_type_hierarchy_abexa.htm).

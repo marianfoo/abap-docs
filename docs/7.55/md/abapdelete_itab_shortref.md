@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  D
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  D
 
 DELETE itab - Quick reference
 
-[Reference](javascript:call_link\('abapdelete_itab.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab.htm)
 
 Syntax
 
@@ -21,40 +21,40 @@ DELETE *{* *{* *{*TABLE itab
          *|* *{*itab INDEX idx *\[*USING KEY key\_name*|*(name)*\]**}*
          *|* *{*itab *\[*USING KEY loop\_key*\]**}* *}*
        *|* *{*itab *\[*USING KEY key\_name*|*(name)*\]*
-               *\[*FROM idx1*\]* *\[*TO idx2*\]* *\[*WHERE [log\_exp*\]*](javascript:call_link\('abenlog_exp_shortref.htm'\))*|*(cond\_syntax)*}*
+               *\[*FROM idx1*\]* *\[*TO idx2*\]* *\[*WHERE [log\_exp*\]*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlog_exp_shortref.htm)*|*(cond\_syntax)*}*
        *|* *{*ADJACENT DUPLICATES FROM itab
            *\[* USING KEY key\_name*|*(name) *\]*
            *\[*COMPARING comp1 comp2 ...*|**{*ALL FIELDS*}**\]**}* *}*.
 
 Effect
 
-Deletes lines from an internal table itab. A restricted [variant](javascript:call_link\('abenmesh_delete.htm'\)) works with [mesh paths](javascript:call_link\('abenmesh_path_glosry.htm'\) "Glossary Entry").
+Deletes lines from an internal table itab. A restricted [variant](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmesh_delete.htm) works with [mesh paths](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmesh_path_glosry.htm "Glossary Entry").
 
 Additions
 
--   [TABLE itab FROM wa](javascript:call_link\('abapdelete_itab_key.htm'\))
+-   [TABLE itab FROM wa](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab_key.htm)
     Specifies a line to be deleted. The line matches the key values of a work area wa.
     
 
--   [TABLE itab WITH TABLE KEY *{*comp\_name1*|*(name1)*}* = dobj1 *{*comp\_name2*|*(name2)*}* = dobj2 ...](javascript:call_link\('abapdelete_itab_key.htm'\))
+-   [TABLE itab WITH TABLE KEY *{*comp\_name1*|*(name1)*}* = dobj1 *{*comp\_name2*|*(name2)*}* = dobj2 ...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab_key.htm)
     Specifies a line to be deleted by specifying components of the primary table key statically of dynamically.
     
 
--   [itab INDEX idx](javascript:call_link\('abapdelete_itab_line.htm'\))
+-   [itab INDEX idx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab_line.htm)
     Specifies a line to be deleted by specifying the line number of a table index idx.
     
 
--   [itab *\[*USING KEY loop\_key*\]*](javascript:call_link\('abapdelete_itab_line.htm'\))
+-   [itab *\[*USING KEY loop\_key*\]*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab_line.htm)
     Defines the lines to be deleted in a loop across the current line.
     
 
--   [itab *\[*FROM idx1*\]* *\[*TO idx2*\]* *\[*WHERE log\_exp*|*(cond\_syntax)*\]*](javascript:call_link\('abapdelete_itab_lines.htm'\))
+-   [itab *\[*FROM idx1*\]* *\[*TO idx2*\]* *\[*WHERE log\_exp*|*(cond\_syntax)*\]*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab_lines.htm)
     Specifies multiple lines to be deleted by specifying a lower and upper line number in a table index idx1 and idx2. These can be restricted by specifying a static condition log\_exp or a dynamic condition in cond\_syntax.
     
 
--   [ADJACENT DUPLICATES FROM itab *\[*COMPARING comp1 comp2 ...*|**{*ALL FIELDS*}**\]*](javascript:call_link\('abapdelete_duplicates.htm'\))
+-   [ADJACENT DUPLICATES FROM itab *\[*COMPARING comp1 comp2 ...*|**{*ALL FIELDS*}**\]*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_duplicates.htm)
     Specifies adjacent identical lines. Using COMPARING, the relevant comparison components can be specified.
     
 
--   [KEY key\_name*|*(name)](javascript:call_link\('abapdelete_itab.htm'\))
+-   [KEY key\_name*|*(name)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab.htm)
     Specifies, statically or dynamically, a (secondary) table key that is used to search for the lines to be deleted.

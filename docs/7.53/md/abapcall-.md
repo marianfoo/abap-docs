@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [Internal Statement for System Function Call](javascript:call_link\('abendata_communication_internal.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [Internal Statement for System Function Call](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_communication_internal.htm) → 
 
 CALL - System Function Call
 
@@ -29,18 +29,18 @@ The CALL statement itself does not set any system fields. Whether system fields 
 
 Notes
 
--   If possible, use [kernel methods](javascript:call_link\('abenkernel_methods.htm'\)) instead of system functions.
+-   If possible, use [kernel methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkernel_methods.htm) instead of system functions.
     
--   External programs should be called using the RFC mechanism: [CALL FUNCTION ... DESTINATION](javascript:call_link\('abapcall_function_destination.htm'\)).
+-   External programs should be called using the RFC mechanism: [CALL FUNCTION ... DESTINATION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_destination.htm).
     
 -   With some critical C functions, the system performs an authorization check automatically. If the user does not have the appropriate authorization, a runtime error occurs. The authorization can be checked using the function module AUTHORITY\_CHECK\_C\_FUNCTION.
     
--   The use of the system function SYSTEM, which can be used to execute operating system statements of the current [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"), is not recommended and can be deactivated using the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") rdisp/call\_system. If called, it then raises a non-handleable exception. If absolutely necessary, operating system statements can be called using the function modules in the [SXPG framework](javascript:call_link\('abenabap_system_commands_appl_sxpg.htm'\)). This addresses specific statements using logical command names created by the system administrator in the transaction SM68. See also [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\)).
+-   The use of the system function SYSTEM, which can be used to execute operating system statements of the current [host computer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhost_computer_glosry.htm "Glossary Entry"), is not recommended and can be deactivated using the [profile parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") rdisp/call\_system. If called, it then raises a non-handleable exception. If absolutely necessary, operating system statements can be called using the function modules in the [SXPG framework](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_system_commands_appl_sxpg.htm). This addresses specific statements using logical command names created by the system administrator in the transaction SM68. See also [Unwanted Calls of Operating System Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_system_commands_appl_depr.htm).
     
 
 Security Note
 
-Calls of system functions whose names or parameters are injected into the program from outside present a serious security risk. The values from outside must be checked thoroughly before being used. See [System Command Injections](javascript:call_link\('abensys_comm_injections_scrty.htm'\)).
+Calls of system functions whose names or parameters are injected into the program from outside present a serious security risk. The values from outside must be checked thoroughly before being used. See [System Command Injections](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensys_comm_injections_scrty.htm).
 
 Addition
 
@@ -58,7 +58,7 @@ DATA dbserver TYPE c LENGTH 255.
 CALL 'C\_SAPGPARAM' ID 'NAME'  FIELD 'SAPDBHOST'
                    ID 'VALUE' FIELD  dbserver.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

@@ -3,30 +3,7 @@
 Included pages: 7
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abencharacter_date_time.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_date_time.htm)
-- [abenchar_date_time_fields_access.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_access.htm)
-- [abenchar_date_time_fields_charlike.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_charlike.htm)
-- [abenchar_date_time_fields_numlike.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_numlike.htm)
-- [abendate_time_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_abexa.htm)
-- [abenchar_date_time_fields_validity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_validity.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.967Z
-
----
-
 ### abencharacter_date_time.htm
-
-> **📖 Official SAP Documentation**: [abencharacter_date_time.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_date_time.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,29 +11,22 @@ Included pages: 7
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_processing.htm) → 
 
 Date Fields and Time Fields
 
-The ABAP types [d](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) and [t](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) are predefined types for data objects that specify dates and times. The date type d describes a character-like local date in the format "yyyymmdd". The date type t describes a character-like local date in the format "hhmmss".
+The ABAP types [d](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_date_time.htm) and [t](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_date_time.htm) are predefined types for data objects that specify dates and times. The date type d describes a character-like local date in the format "yyyymmdd". The date type t describes a character-like local date in the format "hhmmss".
 
--   [Access to date fields and time fields](javascript:call_link\('abenchar_date_time_fields_access.htm'\))
+-   [Access to date fields and time fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_access.htm)
 
--   [Validity of date fields and time fields](javascript:call_link\('abenchar_date_time_fields_validity.htm'\))
+-   [Validity of date fields and time fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_validity.htm)
 
 Continue
-[Access to Date Fields and Time Fields](javascript:call_link\('abenchar_date_time_fields_access.htm'\))
-[Validity of Date Fields and Time Fields](javascript:call_link\('abenchar_date_time_fields_validity.htm'\))
+[Access to Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_access.htm)
+[Validity of Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_validity.htm)
 
-
-
-**📖 Source**: [abencharacter_date_time.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_date_time.htm)
 
 ### abenchar_date_time_fields_access.htm
-
-> **📖 Official SAP Documentation**: [abenchar_date_time_fields_access.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_access.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -64,25 +34,25 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Date Fields and Time Fields](javascript:call_link\('abencharacter_date_time.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_processing.htm) →  [Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_date_time.htm) → 
 
 Access to Date Fields and Time Fields
 
 Only a few operand positions are affected by the fact that date fields and time fields contain a local date in the format "yyyymmdd" or a local time in the format "hhmmss":
 
--   When using date fields and time fields as source fields or target fields of a [lossless assignment](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry").
+-   When using date fields and time fields as source fields or target fields of a [lossless assignment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlossless_assignment_glosry.htm "Glossary Entry").
 
--   In conversions of a local date and a local time to [time stamps](javascript:call_link\('abentime_stamps.htm'\)) using
+-   In conversions of a local date and a local time to [time stamps](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamps.htm) using
 
--   [CONVERT INTO UTCLONG](javascript:call_link\('abapconvert_date_utclong.htm'\)) and back using [CONVERT UTCLONG](javascript:call_link\('abapconvert_utclong.htm'\)).
+-   [CONVERT INTO UTCLONG](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_utclong.htm) and back using [CONVERT UTCLONG](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_utclong.htm).
 
--   [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)) and back using [CONVERT TIME STAMP](javascript:call_link\('abapconvert_time-stamp.htm'\)).
+-   [CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_time-stamp.htm) and back using [CONVERT TIME STAMP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_time-stamp.htm).
 
--   In output formatting using [string templates](javascript:call_link\('abenstring_templates.htm'\)) or the statement [WRITE *\[*TO*\]*](javascript:call_link\('abapwrite_to.htm'\))
+-   In output formatting using [string templates](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_templates.htm) or the statement [WRITE *\[*TO*\]*](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwrite_to.htm)
 
--   When mapping to [asXML](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)) or [JSON](javascript:call_link\('abenabap_asjson.htm'\)).
+-   When mapping to [asXML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_elementary.htm) or [JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson.htm).
 
-In all other operand positions, the handling of date fields and time fields is specified in the [conversion rules](javascript:call_link\('abenconversion_elementary.htm'\)) and [comparison rules](javascript:call_link\('abenlogexp_date_time.htm'\)) for these data types.
+In all other operand positions, the handling of date fields and time fields is specified in the [conversion rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_elementary.htm) and [comparison rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_date_time.htm) for these data types.
 
 -   The conversion rules are designed so that data objects of the types d and t display character-like behavior in character-like operand positions and numeric behavior in numeric operand positions. In the latter case, the content of a date field is converted to the number of days since 01.01.0001 and the content of a time field is converted to the number of seconds since midnight.
 
@@ -90,15 +60,15 @@ In all other operand positions, the handling of date fields and time fields is s
 
 Direct assignments or comparisons between the data types d and t are meaningless and therefore forbidden. The following sections show examples of how to access date fields and time fields effectively.
 
--   [Character-like access to date/time fields](javascript:call_link\('abenchar_date_time_fields_charlike.htm'\))
+-   [Character-like access to date/time fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_charlike.htm)
 
--   [Numeric access to date/time fields](javascript:call_link\('abenchar_date_time_fields_numlike.htm'\))
+-   [Numeric access to date/time fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_numlike.htm)
 
 Notes
 
 -   The function modules of the function group SCAL provide some additional information about character-like dates, for example the day of the week or the calendar week for a given date.
 
--   Special [date functions](javascript:call_link\('abencds_f1_date_functions.htm'\)) and [time functions](javascript:call_link\('abencds_f1_time_functions.htm'\)) can be used in the CDS DDL of the [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry") to edit dates and times saved in database tables.
+-   Special [date functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_date_functions.htm) and [time functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_time_functions.htm) can be used in the CDS DDL of the [ABAP CDS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm "Glossary Entry") to edit dates and times saved in database tables.
 
 Example
 
@@ -111,19 +81,12 @@ cl\_demo\_output=>display( |{ date DATE = ISO
                        }\\n{ time TIME = ISO }| ).
 
 Continue
-[Character-Like Access to Date Fields and Time Fields](javascript:call_link\('abenchar_date_time_fields_charlike.htm'\))
-[Numeric Access to Date Fields and Time Fields](javascript:call_link\('abenchar_date_time_fields_numlike.htm'\))
-![Example](exa.gif "Example") [Evaluating Date Fields and Time Fields](javascript:call_link\('abendate_time_abexa.htm'\))
+[Character-Like Access to Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_charlike.htm)
+[Numeric Access to Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_numlike.htm)
+![Example](exa.gif "Example") [Evaluating Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_abexa.htm)
 
-
-
-**📖 Source**: [abenchar_date_time_fields_access.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_access.htm)
 
 ### abenchar_date_time_fields_charlike.htm
-
-> **📖 Official SAP Documentation**: [abenchar_date_time_fields_charlike.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_charlike.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -131,15 +94,15 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Date Fields and Time Fields](javascript:call_link\('abencharacter_date_time.htm'\)) →  [Access to Date Fields and Time Fields](javascript:call_link\('abenchar_date_time_fields_access.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_processing.htm) →  [Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_date_time.htm) →  [Access to Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_access.htm) → 
 
 Character-Like Access to Date Fields and Time Fields
 
-Character-like access to character-like content of date fields and time fields is evaluated in a character-like manner. The character-like nature of date fields and time fields can be exploited, for example, to access detailed information. To avoid unexpected results from this type of access, the [validity](javascript:call_link\('abenchar_date_time_fields_validity.htm'\)) of the content of the date or time fields must be verified. Most [statements](javascript:call_link\('abenstring_processing_statements.htm'\)) and [functions](javascript:call_link\('abenstring_functions.htm'\)) used in [string processing](javascript:call_link\('abenabap_data_string.htm'\)) are not suitable for editing date fields and time fields because they generally produce invalid content.
+Character-like access to character-like content of date fields and time fields is evaluated in a character-like manner. The character-like nature of date fields and time fields can be exploited, for example, to access detailed information. To avoid unexpected results from this type of access, the [validity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_validity.htm) of the content of the date or time fields must be verified. Most [statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_processing_statements.htm) and [functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_functions.htm) used in [string processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_string.htm) are not suitable for editing date fields and time fields because they generally produce invalid content.
 
 Example
 
-The following example demonstrates how [substring functions](javascript:call_link\('abensubstring_functions.htm'\)) can be used to extract the components year, month, day, hour, minute, and second from date fields and time fields.
+The following example demonstrates how [substring functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubstring_functions.htm) can be used to extract the components year, month, day, hour, minute, and second from date fields and time fields.
 
 DATA: date TYPE d,
       time TYPE t.
@@ -159,14 +122,7 @@ minute = substring( val = time off = 2 len = 2 ).
 second = substring( val = time off = 4 len = 2 ).
 
 
-
-**📖 Source**: [abenchar_date_time_fields_charlike.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_charlike.htm)
-
 ### abenchar_date_time_fields_numlike.htm
-
-> **📖 Official SAP Documentation**: [abenchar_date_time_fields_numlike.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_numlike.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -174,11 +130,11 @@ second = substring( val = time off = 4 len = 2 ).
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Date Fields and Time Fields](javascript:call_link\('abencharacter_date_time.htm'\)) →  [Access to Date Fields and Time Fields](javascript:call_link\('abenchar_date_time_fields_access.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_processing.htm) →  [Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_date_time.htm) →  [Access to Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_access.htm) → 
 
 Numeric Access to Date Fields and Time Fields
 
-Numeric access to date fields and time fields exploits the fact that the [conversion](javascript:call_link\('abenconversion_elementary.htm'\)) of the types d and t to numeric values produces an integer number of days or seconds. This applies particularly when using date fields and time fields in [numeric calculations](javascript:call_link\('abencompute_expressions.htm'\)), where these fields are converted to the corresponding calculation type. This enables differences to be calculated or values to be added or subtracted from date fields or time fields. None of the other arithmetic operations are generally advisable here. To avoid unexpected results from these calculations, the [validity](javascript:call_link\('abenchar_date_time_fields_validity.htm'\)) of the content of the date or time fields must be verified.
+Numeric access to date fields and time fields exploits the fact that the [conversion](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_elementary.htm) of the types d and t to numeric values produces an integer number of days or seconds. This applies particularly when using date fields and time fields in [numeric calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompute_expressions.htm), where these fields are converted to the corresponding calculation type. This enables differences to be calculated or values to be added or subtracted from date fields or time fields. None of the other arithmetic operations are generally advisable here. To avoid unexpected results from these calculations, the [validity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_validity.htm) of the content of the date or time fields must be verified.
 
 Example
 
@@ -219,14 +175,7 @@ date+6(2) = '01'.
 date     = date - 1.
 
 
-
-**📖 Source**: [abenchar_date_time_fields_numlike.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_numlike.htm)
-
 ### abendate_time_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendate_time_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -234,7 +183,7 @@ date     = date - 1.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Date Fields and Time Fields](javascript:call_link\('abencharacter_date_time.htm'\)) →  [Access to Date Fields and Time Fields](javascript:call_link\('abenchar_date_time_fields_access.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_processing.htm) →  [Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_date_time.htm) →  [Access to Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_access.htm) → 
 
 Evaluating Date Fields and Time Fields
 
@@ -279,14 +228,7 @@ In the first part of the main method, the last day of the previous month is assi
 In the second part, the number of hours between midnight and the current time are calculated. First, the difference between the time fields is calculated. The difference is then converted into the total number of seconds using the MOD operation. A positive difference remains unchanged. This step is only required for negative differences. Finally, the number of hours is calculated by dividing the number of seconds by 3600.
 
 
-
-**📖 Source**: [abendate_time_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_abexa.htm)
-
 ### abenchar_date_time_fields_access.htm
-
-> **📖 Official SAP Documentation**: [abenchar_date_time_fields_access.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_access.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -294,25 +236,25 @@ In the second part, the number of hours between midnight and the current time ar
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Date Fields and Time Fields](javascript:call_link\('abencharacter_date_time.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_processing.htm) →  [Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_date_time.htm) → 
 
 Access to Date Fields and Time Fields
 
 Only a few operand positions are affected by the fact that date fields and time fields contain a local date in the format "yyyymmdd" or a local time in the format "hhmmss":
 
--   When using date fields and time fields as source fields or target fields of a [lossless assignment](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry").
+-   When using date fields and time fields as source fields or target fields of a [lossless assignment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlossless_assignment_glosry.htm "Glossary Entry").
 
--   In conversions of a local date and a local time to [time stamps](javascript:call_link\('abentime_stamps.htm'\)) using
+-   In conversions of a local date and a local time to [time stamps](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamps.htm) using
 
--   [CONVERT INTO UTCLONG](javascript:call_link\('abapconvert_date_utclong.htm'\)) and back using [CONVERT UTCLONG](javascript:call_link\('abapconvert_utclong.htm'\)).
+-   [CONVERT INTO UTCLONG](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_utclong.htm) and back using [CONVERT UTCLONG](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_utclong.htm).
 
--   [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)) and back using [CONVERT TIME STAMP](javascript:call_link\('abapconvert_time-stamp.htm'\)).
+-   [CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_time-stamp.htm) and back using [CONVERT TIME STAMP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_time-stamp.htm).
 
--   In output formatting using [string templates](javascript:call_link\('abenstring_templates.htm'\)) or the statement [WRITE *\[*TO*\]*](javascript:call_link\('abapwrite_to.htm'\))
+-   In output formatting using [string templates](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_templates.htm) or the statement [WRITE *\[*TO*\]*](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwrite_to.htm)
 
--   When mapping to [asXML](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)) or [JSON](javascript:call_link\('abenabap_asjson.htm'\)).
+-   When mapping to [asXML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_elementary.htm) or [JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson.htm).
 
-In all other operand positions, the handling of date fields and time fields is specified in the [conversion rules](javascript:call_link\('abenconversion_elementary.htm'\)) and [comparison rules](javascript:call_link\('abenlogexp_date_time.htm'\)) for these data types.
+In all other operand positions, the handling of date fields and time fields is specified in the [conversion rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_elementary.htm) and [comparison rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_date_time.htm) for these data types.
 
 -   The conversion rules are designed so that data objects of the types d and t display character-like behavior in character-like operand positions and numeric behavior in numeric operand positions. In the latter case, the content of a date field is converted to the number of days since 01.01.0001 and the content of a time field is converted to the number of seconds since midnight.
 
@@ -320,15 +262,15 @@ In all other operand positions, the handling of date fields and time fields is s
 
 Direct assignments or comparisons between the data types d and t are meaningless and therefore forbidden. The following sections show examples of how to access date fields and time fields effectively.
 
--   [Character-like access to date/time fields](javascript:call_link\('abenchar_date_time_fields_charlike.htm'\))
+-   [Character-like access to date/time fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_charlike.htm)
 
--   [Numeric access to date/time fields](javascript:call_link\('abenchar_date_time_fields_numlike.htm'\))
+-   [Numeric access to date/time fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_numlike.htm)
 
 Notes
 
 -   The function modules of the function group SCAL provide some additional information about character-like dates, for example the day of the week or the calendar week for a given date.
 
--   Special [date functions](javascript:call_link\('abencds_f1_date_functions.htm'\)) and [time functions](javascript:call_link\('abencds_f1_time_functions.htm'\)) can be used in the CDS DDL of the [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry") to edit dates and times saved in database tables.
+-   Special [date functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_date_functions.htm) and [time functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_time_functions.htm) can be used in the CDS DDL of the [ABAP CDS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm "Glossary Entry") to edit dates and times saved in database tables.
 
 Example
 
@@ -341,22 +283,12 @@ cl\_demo\_output=>display( |{ date DATE = ISO
                        }\\n{ time TIME = ISO }| ).
 
 Continue
-[Character-Like Access to Date Fields and Time Fields](javascript:call_link\('abenchar_date_time_fields_charlike.htm'\))
-[Numeric Access to Date Fields and Time Fields](javascript:call_link\('abenchar_date_time_fields_numlike.htm'\))
-![Example](exa.gif "Example") [Evaluating Date Fields and Time Fields](javascript:call_link\('abendate_time_abexa.htm'\))
+[Character-Like Access to Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_charlike.htm)
+[Numeric Access to Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_numlike.htm)
+![Example](exa.gif "Example") [Evaluating Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_abexa.htm)
 
-
-
-**📖 Source**: [abenchar_date_time_fields_access.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_access.htm)
 
 ### abenchar_date_time_fields_validity.htm
-
-> **📖 Official SAP Documentation**: [abenchar_date_time_fields_validity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_validity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenchar_date_time_fields_validity.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_validity.htm)
-
 
   
 
@@ -364,7 +296,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Date Fields and Time Fields](javascript:call_link\('abencharacter_date_time.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_processing.htm) →  [Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_date_time.htm) → 
 
 Validity of Date Fields and Time Fields
 
@@ -376,17 +308,17 @@ Date fields and time fields of the types d and t can contain any alphanumeric ch
 
 The ABAP runtime environment checks the validity at the following points:
 
--   Date fields and time fields with invalid values raise an exception when used as a [source field](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) of a [lossless assignment](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry"). Conversely, source fields of other types may not produce any invalid values in date fields and time fields as [target fields](javascript:call_link\('abenmove_exact_elementary_fit.htm'\)) in a lossless assignment.
+-   Date fields and time fields with invalid values raise an exception when used as a [source field](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmove_exact_elementary_valid.htm) of a [lossless assignment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlossless_assignment_glosry.htm "Glossary Entry"). Conversely, source fields of other types may not produce any invalid values in date fields and time fields as [target fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmove_exact_elementary_fit.htm) in a lossless assignment.
 
--   Invalid values cannot be converted to [time stamps](javascript:call_link\('abentime_stamps.htm'\)) by using the statements [CONVERT INTO UTCLONG](javascript:call_link\('abapconvert_date_utclong.htm'\)) and [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)).
+-   Invalid values cannot be converted to [time stamps](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamps.htm) by using the statements [CONVERT INTO UTCLONG](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_utclong.htm) and [CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconvert_date_time-stamp.htm).
 
--   In a regular assignment to numeric fields, [date fields](javascript:call_link\('abenconversion_type_d.htm'\)) and [target fields](javascript:call_link\('abenconversion_type_t.htm'\)) with invalid values produce the value 0, with the following exceptions:
+-   In a regular assignment to numeric fields, [date fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_d.htm) and [target fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_t.htm) with invalid values produce the value 0, with the following exceptions:
 
 -   For a source field of the type d, the values from 10/5/1582 to 10/14/1582, missing due to the conversion from the Julian to Gregorian calendar, are handled either as invalid values or like the valid values from 10/15/1582 to 10/24/1582, depending on the operand position.
 
 -   For a source field of the type t that contains only digits, the numeric value is calculated using the formula hh\*3600+mm\*60+ss, even if the times are invalid.
 
--   For regular assignments of [numeric fields](javascript:call_link\('abennumeric_source_fields.htm'\)) to date fields and time fields, the numeric fields must be within the value range of the data type i and comply with the following special rules:
+-   For regular assignments of [numeric fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_source_fields.htm) to date fields and time fields, the numeric fields must be within the value range of the data type i and comply with the following special rules:
 
 -   When number values are assigned to date fields, and these fields cannot be produced by the reverse conversion, the date field is initialized
 
@@ -404,9 +336,9 @@ The initial value "00000000" of the data type d and the date 01.01.0001 have a s
 
 1 is the smallest number that is converted to a valid date, 02.01.0001, when assigning to a date field of type d. Assignments between valid date fields and numeric fields can be reversed only from this date.
 
-In [lossless assignments](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry"), invalid values in source fields raise exceptions instead of producing the value 0 or "00000000". Here, the value "00010101", which is really part of the value range, is regarded as invalid, while "00000000", not actually part of the value range, is regarded as valid. This means that the initial value "00000000" can be used by lossless assignments and all valid assignments between date fields and numeric fields can be reversed.
+In [lossless assignments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlossless_assignment_glosry.htm "Glossary Entry"), invalid values in source fields raise exceptions instead of producing the value 0 or "00000000". Here, the value "00010101", which is really part of the value range, is regarded as invalid, while "00000000", not actually part of the value range, is regarded as valid. This means that the initial value "00000000" can be used by lossless assignments and all valid assignments between date fields and numeric fields can be reversed.
 
-[ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") is excluded from this rule. Here, the value "00010101" is also accepted as a valid date and treated like the initial value "00000000" in operand positions for which values must satisfy the rules for lossless assignments.
+[ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry") is excluded from this rule. Here, the value "00010101" is also accepted as a valid date and treated like the initial value "00000000" in operand positions for which values must satisfy the rules for lossless assignments.
 
 Note
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)) →  [CALL FUNCTION func](javascript:call_link\('abapcall_function_general.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_procedures.htm) →  [CALL FUNCTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function.htm) →  [CALL FUNCTION func](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_general.htm) → 
 
 Calling Function Modules
 
@@ -55,8 +55,8 @@ Description
 
 The function modules READ\_SPFLI\_INTO\_TABLE and READ\_SPFLI\_INTO\_TABLE\_NEW read all data from the database table SPFLI where the key field CARRID matches the import parameter id into the internal tables itab or jtab. If no suitable data can be found, exceptions are raised.
 
--   In READ\_SPFLI\_INTO\_TABLE, the non-class-based exception NOT\_FOUND is raised by [MESSAGE ... RAISING](javascript:call_link\('abapmessage_raising.htm'\)).
--   In READ\_SPFLI\_INTO\_TABLE\_NEW, the class-based exception is raised CX\_NO\_FLIGHT\_FOUND by [RAISE EXCEPTION ... MESSAGE](javascript:call_link\('abapraise_exception.htm'\)). CX\_NO\_FLIGHT\_FOUND implements the interface IF\_T100\_DYN\_MSG.
+-   In READ\_SPFLI\_INTO\_TABLE, the non-class-based exception NOT\_FOUND is raised by [MESSAGE ... RAISING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmessage_raising.htm).
+-   In READ\_SPFLI\_INTO\_TABLE\_NEW, the class-based exception is raised CX\_NO\_FLIGHT\_FOUND by [RAISE EXCEPTION ... MESSAGE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapraise_exception.htm). CX\_NO\_FLIGHT\_FOUND implements the interface IF\_T100\_DYN\_MSG.
 
 Otherwise, the table is passed to the caller as an export parameter.
 

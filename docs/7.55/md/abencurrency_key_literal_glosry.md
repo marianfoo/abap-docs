@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 currency key literal
 
-[Literal](javascript:call_link\('abenliteral_glosry.htm'\) "Glossary Entry") of the data type [CUKY](javascript:call_link\('abenddic_builtin_types.htm'\)) that contains a [currency code](javascript:call_link\('abencurrency_id_glosry.htm'\) "Glossary Entry"). Only [typed](javascript:call_link\('abentyped_literal_glosry.htm'\) "Glossary Entry") currency key literals are available.
+[Literal](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenliteral_glosry.htm "Glossary Entry") of the data type [CUKY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) that contains a [currency code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencurrency_id_glosry.htm "Glossary Entry"). Only [typed](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyped_literal_glosry.htm "Glossary Entry") currency key literals are available.
 
-[→ More about](javascript:call_link\('abenabap_sql_typed_literals.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql_typed_literals.htm)

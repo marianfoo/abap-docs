@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Time Stamps](javascript:call_link\('abentime_stamps.htm'\)) →  [Time Stamp Field with Time Stamp Type](javascript:call_link\('abenutclong.htm'\)) →  [Time Stamp Functions](javascript:call_link\('abentimestamp_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_processing.htm) →  [Time Stamps](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamps.htm) →  [Time Stamp Field with Time Stamp Type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenutclong.htm) →  [Time Stamp Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentimestamp_functions.htm) → 
 
 utclong\_add - Time Stamp Function
 
@@ -17,9 +17,9 @@ Syntax
 
 Effect
 
-This function adds the values passed to the optional parameters as a [time stamp](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") specified after val. The type of the return value is [utclong](javascript:call_link\('abenbuiltin_types_date_time.htm'\)).
+This function adds the values passed to the optional parameters as a [time stamp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamp_glosry.htm "Glossary Entry") specified after val. The type of the return value is [utclong](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_date_time.htm).
 
-A time stamp field of the type utclong must be passed to the argument val. This field must contain a valid time stamp. time\_stamp is a [time-stamp-like expression position](javascript:call_link\('abentimestamp_like_expr_pos_glosry.htm'\) "Glossary Entry"). An initial time stamp is handled like the least possible value of a time stamp.
+A time stamp field of the type utclong must be passed to the argument val. This field must contain a valid time stamp. time\_stamp is a [time-stamp-like expression position](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentimestamp_like_expr_pos_glosry.htm "Glossary Entry"). An initial time stamp is handled like the least possible value of a time stamp.
 
 The added values are passed in the following parameters, of which at least one must be specified:
 
@@ -31,7 +31,7 @@ The added values are passed in the following parameters, of which at least one m
 
 -   seconds expects a number of seconds as a number of the type decfloat34.
 
-Each parameter can be passed data objects that can be converted to the expected type. Both positive and negative numbers can be passed. These are [numerical expression positions](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry"). Internally, the passed values are transformed to the appropriate number of seconds. Here, the value passed to seconds is rounded to seven decimal places. First, the days, hours, and minutes are added to or subtracted from the time stamp, and then the seconds. If an invalid time stamp value is produced by one of the intermediate steps, a catchable exception of the class CX\_SY\_ARITHMETIC\_OVERFLOW is raised.
+Each parameter can be passed data objects that can be converted to the expected type. Both positive and negative numbers can be passed. These are [numerical expression positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry"). Internally, the passed values are transformed to the appropriate number of seconds. Here, the value passed to seconds is rounded to seven decimal places. First, the days, hours, and minutes are added to or subtracted from the time stamp, and then the seconds. If an invalid time stamp value is produced by one of the intermediate steps, a catchable exception of the class CX\_SY\_ARITHMETIC\_OVERFLOW is raised.
 
 Notes
 
@@ -44,7 +44,7 @@ Notes
 
 Example
 
-This example demonstrates how the function utclong\_add works. The appropriate number of seconds is subtracted from a time stamp field ts\_new, which itself is produced by adding days, hours, and minutes. The statement [ASSERT](javascript:call_link\('abapassert.htm'\)) demonstrates how this reproduces the original time stamp.
+This example demonstrates how the function utclong\_add works. The appropriate number of seconds is subtracted from a time stamp field ts\_new, which itself is produced by adding days, hours, and minutes. The statement [ASSERT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassert.htm) demonstrates how this reproduces the original time stamp.
 
 DATA(ts) = utclong\_current( ).
 DATA(ts\_new) =
@@ -91,7 +91,7 @@ DATA(ts\_new) =
                seconds    = '0.0000001' ).
 cl\_demo\_output=>display( |{ ts }\\n{ ts\_new }| ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

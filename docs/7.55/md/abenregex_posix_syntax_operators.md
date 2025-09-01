@@ -4,19 +4,27 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions (regex)](javascript:call_link\('abenregular_expressions.htm'\)) →  [regex - Syntax](javascript:call_link\('abenregex_syntax.htm'\)) →  [regex - POSIX Syntax](javascript:call_link\('abenregex_posix_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions (regex)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregular_expressions.htm) →  [regex - Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_syntax.htm) →  [regex - POSIX Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_syntax.htm) → 
 
 POSIX regex - Character String Patterns
 
 Character strings are represented by chainings or operators.
 
--   [Chainings](#abenregex-posix-syntax-operators-1--------operators-for-character-strings---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_2)
+-   [Chainings](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_1)
 
--   [Chaining Operators](#abenregex-posix-syntax-operators-3--------alternatives---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_4)
+-   [Operators for Character Strings](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_2)
 
--   [Subgroups](#abenregex-posix-syntax-operators-5--------subgroups-with-registration---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_6)
+-   [Chaining Operators](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_3)
 
--   [Literal Characters](#abenregex-posix-syntax-operators-7--------reserved-enhancements---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_8)
+-   [Alternatives](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_4)
+
+-   [Subgroups](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_5)
+
+-   [Subgroups with Registration](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_6)
+
+-   [Literal Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_7)
+
+-   [Reserved Enhancements](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_8)
 
 Chainings
 
@@ -24,7 +32,7 @@ Chainings are valid regular expressions that are written after each other. If r 
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_mtch.htm).
 
 Pattern
 
@@ -56,7 +64,7 @@ Hollo
 
 \-
 
-H\[aeu\]llo is the chaining of five [regular expressions for single characters](javascript:call_link\('abenregex_posix_syntax_signs.htm'\)).
+H\[aeu\]llo is the chaining of five [regular expressions for single characters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_syntax_signs.htm).
 
 Operators for Character Strings
 
@@ -72,7 +80,7 @@ The operators {n}, {n,m}, \*, +, and ? (where n and m are natural numbers, inclu
 
 -   The regular expression r? is equivalent to r{0,1}, which means the expression r or the empty character string.
 
--   The regular expression r\* is equivalent to r{0,}, in other words a chaining of r of any length, including the empty character string. When using subgroups (see below), and in a [text search](javascript:call_link\('abenregex_posix_search.htm'\)), r\* matches the longest possible substring (greedy behavior).
+-   The regular expression r\* is equivalent to r{0,}, in other words a chaining of r of any length, including the empty character string. When using subgroups (see below), and in a [text search](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_search.htm), r\* matches the longest possible substring (greedy behavior).
 
 -   The regular expression r+ is equivalent to r{1,}, in other words a chaining of any length of r excluding the empty character string. When using subgroups, and in a text search, r+ matches the longest possible substring (greedy behavior).
 
@@ -84,7 +92,7 @@ For a regular expression with chaining operators, the primary rule is that the e
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_mtch.htm).
 
 pattern
 
@@ -154,7 +162,7 @@ Chainings and other operators form a stronger bond than |, in other words r|st a
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_mtch.htm).
 
 Pattern
 
@@ -196,7 +204,7 @@ The greedy behavior of chaining operators mentioned above also applies to subgro
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_mtch.htm).
 
 Pattern
 
@@ -226,19 +234,19 @@ In the first expression, the chaining with the operator + affects the literal ch
 
 Subgroups with Registration
 
-In addition to its effect on creating subgroups, the operator ( ... ) also stores the substrings when matching the regular expression to a character string in the correct order in tabs. The subgroups ( ... ) of the expression match these substrings. In this process, an operator \\1, \\2, \\3, ... is assigned to each subgroup, which can be listed within the expression after its subgroup and acts as a placeholder for the character string stored in the corresponding tab. In [text replacements](javascript:call_link\('abenregex_posix_replace.htm'\)), the special characters $1, $2, $3, ... can be used to access the last assignment of the tab.
+In addition to its effect on creating subgroups, the operator ( ... ) also stores the substrings when matching the regular expression to a character string in the correct order in tabs. The subgroups ( ... ) of the expression match these substrings. In this process, an operator \\1, \\2, \\3, ... is assigned to each subgroup, which can be listed within the expression after its subgroup and acts as a placeholder for the character string stored in the corresponding tab. In [text replacements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_replace.htm), the special characters $1, $2, $3, ... can be used to access the last assignment of the tab.
 
 The number of subgroups and registers is only limited by the capacity of the platform.
 
 Hints
 
--   The addition SUBMATCHES of the statements [FIND](javascript:call_link\('abapfind.htm'\)) and [REPLACE](javascript:call_link\('abapreplace.htm'\)) and the identically named column of the results table filled using the addition RESULTS can be used to access the content of all tabs for an occurrence. The class CL\_ABAP\_MATCHER contains the method GET\_SUBMATCH for this purpose.
+-   The addition SUBMATCHES of the statements [FIND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind.htm) and [REPLACE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace.htm) and the identically named column of the results table filled using the addition RESULTS can be used to access the content of all tabs for an occurrence. The class CL\_ABAP\_MATCHER contains the method GET\_SUBMATCH for this purpose.
 
 -   If only grouping is required and no substrings need to be saved in tabs, the operator (?: ... ) can be used instead of ( ... ). With respect to the formation of subgroups, both operators have the same effect. However (?: ... ) does not save anything in tabs.
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_mtch.htm).
 
 Pattern
 
@@ -280,7 +288,7 @@ Literal Characters
 
 The operators \\Q ... \\E form a character string of literal characters from all enclosed characters. Special characters are ignored in this character string.
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_mtch.htm).
 
 pattern
 
@@ -308,4 +316,4 @@ X
 
 Reserved Enhancements
 
-The character string (? ... ) is generally reserved for later language enhancements. Apart from the operators already supported (?:... ), [(?=... )](javascript:call_link\('abenregex_posix_search.htm'\)), [(?!... )](javascript:call_link\('abenregex_posix_search.htm'\)), and [(?> ... )](javascript:call_link\('abenregex_posix_search.htm'\)), this string raises the exception CX\_SY\_INVALID\_REGEX.
+The character string (? ... ) is generally reserved for later language enhancements. Apart from the operators already supported (?:... ), [(?=... )](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_search.htm), [(?!... )](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_search.htm), and [(?> ... )](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_search.htm), this string raises the exception CX\_SY\_INVALID\_REGEX.

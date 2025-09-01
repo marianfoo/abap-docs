@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 ABAP daemon processing
 
-Processing of an [ABAP daemon](javascript:call_link\('abenabap_daemon_glosry.htm'\) "Glossary Entry"). ABAP daemon processing takes place in a dedicated [ABAP daemon session](javascript:call_link\('abenabap_daemon_session_glosry.htm'\) "Glossary Entry") and in [non-blocking mode](javascript:call_link\('abennon_blocking_model_glosry.htm'\) "Glossary Entry") where blocking statements are not allowed.
+Processing of an [ABAP daemon](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_daemon_glosry.htm "Glossary Entry"). ABAP daemon processing takes place in a dedicated [ABAP daemon session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_daemon_session_glosry.htm "Glossary Entry") and in [non-blocking mode](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennon_blocking_model_glosry.htm "Glossary Entry") where blocking statements are not allowed.
 
-[→ More about](javascript:call_link\('abenabap_daemon.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_daemon.htm)

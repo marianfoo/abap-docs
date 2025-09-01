@@ -4,20 +4,20 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_hana.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Access%20to%20Objects%20in%20SAP%20HANA%20XS%2C%20ABENSAP_HANA_ACCESS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Access to Objects in SAP HANA XS
 
-[SAP HANA XS](javascript:call_link\('abenxs_glosry.htm'\) "Glossary Entry") (SAP HANA extended application services) covers tools used to develop, manage, and execute native objects on the SAP HANA platform. This section describes the different ways of accessing SAP HANA XS objects from ABAP programs. Two SAP HANA XS versions are distinguished here:
+[SAP HANA XS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxs_glosry.htm "Glossary Entry") (SAP HANA extended application services) covers tools used to develop, manage, and execute native objects on the SAP HANA platform. This section describes the different ways of accessing SAP HANA XS objects from ABAP programs. Two SAP HANA XS versions are distinguished here:
 
--   The current [SAP HANA XSA](javascript:call_link\('abensap_hana_access_xsa.htm'\))
--   The preceding [SAP HANA XSC](javascript:call_link\('abensap_hana_access_xsc.htm'\)) (obsolete)
+-   The current [SAP HANA XSA](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_hana_access_xsa.htm)
+-   The preceding [SAP HANA XSC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_hana_access_xsc.htm) (obsolete)
 
 Hint
 
-[SAP HANA XSA](javascript:call_link\('abenxsa_glosry.htm'\) "Glossary Entry") replaces [SAP HANA XSC](javascript:call_link\('abenxsc_glosry.htm'\) "Glossary Entry"). The [access methods](javascript:call_link\('abensap_hana_access_xsc.htm'\)) designed specifically for XSC objects are not suitable for XSA objects. After all XSC objects have been migrated to XSA, the access methods designed for XSC became mostly obsolete. Especially, [SAP HANA XSC](javascript:call_link\('abenxsc_glosry.htm'\) "Glossary Entry") is not supported by a [SAP HANA Cloud database](javascript:call_link\('abensap_hana_cloud_db_glosry.htm'\) "Glossary Entry"). More information can be found in [SAP Note 2465027](https://launchpad.support.sap.com/#/notes/2465027) and in [SAP Note 3116165](https://launchpad.support.sap.com/#/notes/3116165).
+[SAP HANA XSA](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxsa_glosry.htm "Glossary Entry") replaces [SAP HANA XSC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxsc_glosry.htm "Glossary Entry"). The [access methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_hana_access_xsc.htm) designed specifically for XSC objects are not suitable for XSA objects. After all XSC objects have been migrated to XSA, the access methods designed for XSC became mostly obsolete. Especially, [SAP HANA XSC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxsc_glosry.htm "Glossary Entry") is not supported by a [SAP HANA Cloud database](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_hana_cloud_db_glosry.htm "Glossary Entry"). More information can be found in [SAP Note 2465027](https://launchpad.support.sap.com/#/notes/2465027) and in [SAP Note 3116165](https://launchpad.support.sap.com/#/notes/3116165).
 
 Continue
-[Access to SAP HANA XSA Objects](javascript:call_link\('abensap_hana_access_xsa.htm'\))
+[Access to SAP HANA XSA Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_hana_access_xsa.htm)

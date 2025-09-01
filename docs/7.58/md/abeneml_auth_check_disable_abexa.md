@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) →  [ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abapauthority-check_disable.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm) →  [ABAP EML - AUTHORITY-CHECK DISABLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check_disable.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20AUTHORITY-CHECK%20DISABLE%2C%20ABENEML_AUTH_CHECK_DISABLE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improve
 ment:)
@@ -29,7 +29,7 @@ as select from demo\_tab\_root\_7 {
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_UNMANAGED\_AUTH is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_UNMANAGED\_AUTH is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 unmanaged implementation in class bp\_demo\_unmanaged\_auth unique;
 strict(2);
@@ -54,7 +54,7 @@ authorization master ( global )
 
 Behavior implementation
 
-For the above BDEF, one [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UNMANAGED\_AUTH. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. The [handler methods](javascript:call_link\('abapmethods_for_rap_behv.htm'\)) do not contain any implementations. To demonstrate the statement AUTHORITY-CHECK DISABLE, multiple [AUTHORITY-CHECK OBJECT](javascript:call_link\('abapauthority-check.htm'\)) statements are included in the read method that check the authorization. One of these statements is inside an AUTHORITY-CHECK DISABLE statement. An internal table that is declared in the global class is filled to log sy-subrc values that are returned by the individual AUTHORITY-CHECK OBJECT statements.
+For the above BDEF, one [behavior pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UNMANAGED\_AUTH. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. The [handler methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_for_rap_behv.htm) do not contain any implementations. To demonstrate the statement AUTHORITY-CHECK DISABLE, multiple [AUTHORITY-CHECK OBJECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check.htm) statements are included in the read method that check the authorization. One of these statements is inside an AUTHORITY-CHECK DISABLE statement. An internal table that is declared in the global class is filled to log sy-subrc values that are returned by the individual AUTHORITY-CHECK OBJECT statements.
 
 Source Code   
 
@@ -92,13 +92,13 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class:
 
-A [RAP read operation](javascript:call_link\('abenrap_read_operation_glosry.htm'\) "Glossary Entry") is carried out.
+A [RAP read operation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_read_operation_glosry.htm "Glossary Entry") is carried out.
 
-As shown above, the BDEF defines two [RAP authorization contexts](javascript:call_link\('abencds_auth_context_glosry.htm'\) "Glossary Entry") using the demo authorization objects AUTHOBJ1 and AUTHOBJ2. For AUTHOBJ2, an authority check is disabled for read.
+As shown above, the BDEF defines two [RAP authorization contexts](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_auth_context_glosry.htm "Glossary Entry") using the demo authorization objects AUTHOBJ1 and AUTHOBJ2. For AUTHOBJ2, an authority check is disabled for read.
 
-The output shows the entries of an internal which demonstrates the effect of the AUTHORITY-CHECK DISABLE statements that are implemented in the local class of the behavior pool. When an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END statement is used, the field EML\_STMNT\_USED is flagged. When an authorization context is activated, authority checks for the associated authorization objects are always successful and the returned value for sy-subrc is 0. See more information on the sy-subrc values returned by AUTHORITY-CHECK OBJECT statements in the [ABAP Keyword Documentation](javascript:call_link\('abapauthority-check.htm'\)).
+The output shows the entries of an internal which demonstrates the effect of the AUTHORITY-CHECK DISABLE statements that are implemented in the local class of the behavior pool. When an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END statement is used, the field EML\_STMNT\_USED is flagged. When an authorization context is activated, authority checks for the associated authorization objects are always successful and the returned value for sy-subrc is 0. See more information on the sy-subrc values returned by AUTHORITY-CHECK OBJECT statements in the [ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check.htm).
 
 Table entries:
 

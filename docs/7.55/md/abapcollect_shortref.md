@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  C
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  C
 
 COLLECT - Quick reference
 
-[Reference](javascript:call_link\('abapcollect.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcollect.htm)
 
 Syntax
 
@@ -21,9 +21,9 @@ Inserts work areas wa as lines in an internal table itab. Here, the primary tabl
 
 Additions
 
--   [ASSIGNING <fs> *\[*CASTING*\]*](javascript:call_link\('abapcollect_itab_result.htm'\))
-    Assigns the inserted line to the field symbol <fs>. A [casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry") can be performed here.
+-   [ASSIGNING <fs> *\[*CASTING*\]*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcollect_itab_result.htm)
+    Assigns the inserted line to the field symbol <fs>. A [casting](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencast_casting_glosry.htm "Glossary Entry") can be performed here.
     
 
--   [REFERENCE INTO dref](javascript:call_link\('abapcollect_itab_result.htm'\))
+-   [REFERENCE INTO dref](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcollect_itab_result.htm)
     The data reference in dref is set to the inserted line.

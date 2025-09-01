@@ -4,23 +4,23 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Call Event Handler](javascript:call_link\('abencall_event_handler.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_processing_blocks.htm) →  [Call Event Handler](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_event_handler.htm) → 
 
 SET HANDLER
 
-[Quick Reference](javascript:call_link\('abapset_handler_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_handler_shortref.htm)
 
 Syntax Forms
 
-[Registers an instance events handler](javascript:call_link\('abapset_handler_instance.htm'\))
+[Registers an instance events handler](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_handler_instance.htm)
 1\. SET HANDLER handler1 handler2 ... FOR oref*|**{*ALL INSTANCES*}*
                                     *\[*ACTIVATION act*\]*.
-[Register static events handler](javascript:call_link\('abapset_handler_static.htm'\))
+[Register static events handler](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_handler_static.htm)
 2\. SET HANDLER handler1 handler2 ... *\[*ACTIVATION act*\]*.
 
 Effect
 
-This statement registers or deregisters the [event handlers](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry") handler for the corresponding [instance events](javascript:call_link\('abeninstance_event_glosry.htm'\) "Glossary Entry") or [static events](javascript:call_link\('abenstatic_event_glosry.htm'\) "Glossary Entry").
+This statement registers or deregisters the [event handlers](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevent_handler_glosry.htm "Glossary Entry") handler for the corresponding [instance events](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninstance_event_glosry.htm "Glossary Entry") or [static events](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_event_glosry.htm "Glossary Entry").
 
 System Fields
 
@@ -46,7 +46,7 @@ Notes
     
 -   The order of the calls of registered event handlers is not defined and can change during program runtime. To get a fixed order of different method calls, these can be called in one event handler.
     
--   When registering an instance method, a reference to the corresponding object in the relevant table is created and then deleted again when deregistering. With respect to the [garbage collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry"), such a reference has the same effect as a reference in a reference variable. Objects registered as handlers are not deleted as long as they are registered, that is, they are not deregistered using the ACTIVATION addition. If a triggering instance is deleted by the Garbage Collector, the corresponding system table is also deleted and as a result, its registrations are reversed.
+-   When registering an instance method, a reference to the corresponding object in the relevant table is created and then deleted again when deregistering. With respect to the [garbage collector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengarbage_collector_glosry.htm "Glossary Entry"), such a reference has the same effect as a reference in a reference variable. Objects registered as handlers are not deleted as long as they are registered, that is, they are not deregistered using the ACTIVATION addition. If a triggering instance is deleted by the Garbage Collector, the corresponding system table is also deleted and as a result, its registrations are reversed.
     
 -   If the statement SET HANDLER registers the current handler again for the current event in event handling, it is not clear whether the registration is ignored by the current event handler. This can produce endless recursions and should be avoided.
     
@@ -76,7 +76,7 @@ DATA: trigger TYPE REF TO c2,
 SET HANDLER: c3=>h1 handler->h2 FOR trigger,
              handler->h3.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 
@@ -97,5 +97,5 @@ Non-Handleable Exceptions
     
 
 Continue
-[SET HANDLER - FOR](javascript:call_link\('abapset_handler_instance.htm'\))
-[SET HANDLER - static\_event](javascript:call_link\('abapset_handler_static.htm'\))
+[SET HANDLER - FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_handler_instance.htm)
+[SET HANDLER - static\_event](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_handler_static.htm)

@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Create](javascript:call_link\('abenabap_lists.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpro_list.htm) →  [Lists - Create](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_lists.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: POSITION, ABAPPOSITION, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for i
 mprovement:)
 
 POSITION
 
-[Short Reference](javascript:call_link\('abapposition_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapposition_shortref.htm)
 
 Syntax
 
@@ -19,7 +19,7 @@ POSITION pos.
 
 Effect
 
-This statement places the [list cursor](javascript:call_link\('abenlist_cursor_glosry.htm'\) "Glossary Entry") at the position of the current line in the list buffer specified in pos. The program expects a data object of the type i for pos. If the value of pos is 0 or less than or equal to 0 or greater than the page length in sy-linsz defined with the addition [LINE-SIZE](javascript:call_link\('abapnew-page_options.htm'\)) of the program-initiating statement or [NEW-PAGE](javascript:call_link\('abapnew-page.htm'\)), none of the subsequent output statements create any output until the list cursor is positioned within a line again.
+This statement places the [list cursor](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlist_cursor_glosry.htm "Glossary Entry") at the position of the current line in the list buffer specified in pos. The program expects a data object of the type i for pos. If the value of pos is 0 or less than or equal to 0 or greater than the page length in sy-linsz defined with the addition [LINE-SIZE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapnew-page_options.htm) of the program-initiating statement or [NEW-PAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapnew-page.htm), none of the subsequent output statements create any output until the list cursor is positioned within a line again.
 
 Hints
 
@@ -28,7 +28,7 @@ Hints
 
 Example
 
-Definition and use of a [macro](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") write\_frame to draw frames around [WRITE](javascript:call_link\('abapwrite-.htm'\)) output. The POSITION statement positions the list cursor for subsequent output.
+Definition and use of a [macro](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmacro_glosry.htm "Glossary Entry") write\_frame to draw frames around [WRITE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite-.htm) output. The POSITION statement positions the list cursor for subsequent output.
 
 DATA: x TYPE i,
       y TYPE i,

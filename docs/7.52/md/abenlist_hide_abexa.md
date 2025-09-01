@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Creating Lists](javascript:call_link\('abenabap_lists.htm'\)) →  [HIDE](javascript:call_link\('abaphide.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpro_list.htm) →  [Creating Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_lists.htm) →  [HIDE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaphide.htm) → 
 
 Lists, HIDE Technique
 
@@ -84,7 +84,7 @@ Description
 
 At the event START-OF-SELECTION, the status FLIGHT is set for the basic list. In the status FLIGHT, the function key F2 and a pushbutton have been assigned the function code SELE (text SELECT). As a result, the user actions of double-clicking and choosing F2 or the pushbutton SELECT trigger the event AT USER-COMMAND.
 
-The three fields spfli-carrid, spfli-connid, and num are written to the [Hide area](javascript:call_link\('abenhide_area_glosry.htm'\) "Glossary Entry") while the basic list is created. After a line is selected, the details list defined for the function code SELE in AT USER-COMMAND is displayed. At the event AT USER-COMMAND, all stored Hide fields of the selected line are reloaded. num is used to check if a line of the actual list has been selected. The details list gets the status BOOKING where F2 is assigned the function code INFO (text: Booking Information). The details list displays data which can be selected using the Hide fields of the basic list. For each list line output, the system stores additional information in the [Hide area](javascript:call_link\('abenhide_area_glosry.htm'\) "Glossary Entry").
+The three fields spfli-carrid, spfli-connid, and num are written to the [Hide area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhide_area_glosry.htm "Glossary Entry") while the basic list is created. After a line is selected, the details list defined for the function code SELE in AT USER-COMMAND is displayed. At the event AT USER-COMMAND, all stored Hide fields of the selected line are reloaded. num is used to check if a line of the actual list has been selected. The details list gets the status BOOKING where F2 is assigned the function code INFO (text: Booking Information). The details list displays data which can be selected using the Hide fields of the basic list. For each list line output, the system stores additional information in the [Hide area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhide_area_glosry.htm "Glossary Entry").
 
 Selecting a line on the details list displays the information stored in a dialog box with the status WIND. For the status WIND, the default settings have been adopted with comparison for the list status. sbook-bookid checks whether the line selection is valid.
 

@@ -4,27 +4,27 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Data Objects in Operand Positions](javascript:call_link\('abenoperands_data_objects.htm'\)) →  [Notations for Single Operands](javascript:call_link\('abenoperands_names.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Operands](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperands.htm) →  [Data Objects in Operand Positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperands_data_objects.htm) →  [Notations for Single Operands](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperands_names.htm) → 
 
 Dereferencing Operator
 
-The content of a data object pointed to by a [data reference](javascript:call_link\('abendata_reference_type.htm'\)) is accessed using the dereferencing operator:
+The content of a data object pointed to by a [data reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_reference_type.htm) is accessed using the dereferencing operator:
 
 dref->\*
 
-The dereferencing operator \->\* can be specified after a [data reference variable](javascript:call_link\('abendata_reference_variable_glosry.htm'\) "Glossary Entry") dref.
+The dereferencing operator \->\* can be specified after a [data reference variable](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_reference_variable_glosry.htm "Glossary Entry") dref.
 
 -   If the static type of the data reference variable is not generic, the expression dref->\* can be specified at any operand position.
 -   For data reference variables with the generic static type data, it can be specified at any operand position except for:
     -   Replacement parameters behind DEFAULT for methods, functions or events.
-    -   [Components](javascript:call_link\('abenitab_components.htm'\)) of internal tables.
+    -   [Components](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_components.htm) of internal tables.
     -   Operand positions where a certain operand type, e.g. an internal table, is expected.
 
-If the data reference variable contains the [null reference](javascript:call_link\('abennull_reference_glosry.htm'\) "Glossary Entry"), the uncatchable exception DATREF\_NOT\_ASSIGNED is raised when the dereferencing operator is used. The exception to this is the dereferencing in the statement ASSIGN.
+If the data reference variable contains the [null reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennull_reference_glosry.htm "Glossary Entry"), the uncatchable exception DATREF\_NOT\_ASSIGNED is raised when the dereferencing operator is used. The exception to this is the dereferencing in the statement ASSIGN.
 
 Hint
 
-The dereferencing operator uses the [object component selector](javascript:call_link\('abenobject_component_selector.htm'\)).
+The dereferencing operator uses the [object component selector](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobject_component_selector.htm).
 
 Example
 

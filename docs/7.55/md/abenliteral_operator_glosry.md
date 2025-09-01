@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 literal operator
 
-The literal operator & joins two [text field literals](javascript:call_link\('abentext_field_literal_glosry.htm'\) "Glossary Entry") or two [text string literals](javascript:call_link\('abentext_string_literal_glosry.htm'\) "Glossary Entry") as a single literal or two [string templates](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry") as a single string template.
+The literal operator & joins two [text field literals](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_field_literal_glosry.htm "Glossary Entry") or two [text string literals](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_string_literal_glosry.htm "Glossary Entry") as a single literal or two [string templates](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_template_glosry.htm "Glossary Entry") as a single string template.
 
-[→ More about](javascript:call_link\('abenliteral_operator.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenliteral_operator.htm)

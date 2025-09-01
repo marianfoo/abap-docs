@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 HDI container
 
-An HDI container is a [database schema](javascript:call_link\('abendatabase_schema_glosry.htm'\) "Glossary Entry") of the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") for [HDI objects](javascript:call_link\('abenhdi_object_glosry.htm'\) "Glossary Entry"). Special [ABAP Managed HDI Containers (AMHC)](javascript:call_link\('abenamhc_glosry.htm'\) "Glossary Entry") can be created for HDI objects accessed in ABAP.
+An HDI container is a [database schema](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_schema_glosry.htm "Glossary Entry") of the [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry") for [HDI objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhdi_object_glosry.htm "Glossary Entry"). Special [ABAP Managed HDI Containers (AMHC)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamhc_glosry.htm "Glossary Entry") can be created for HDI objects accessed in ABAP.

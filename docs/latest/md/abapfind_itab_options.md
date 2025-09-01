@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [FIND IN TABLE itab](javascript:call_link\('abapfind_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_processing_statements.htm) →  [FIND IN TABLE itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_itab.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20FIND%20IN%20TABLE%2C%20options%2C%20ABAPFIND_ITAB_OPTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 FIND IN TABLE, options
 
-[Short Reference](javascript:call_link\('abapfind_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_shortref.htm)
 
 Syntax
 
@@ -24,14 +24,14 @@ Syntax
 
 Effect
 
-The addition MATCH LINE returns the number of the line in which the last substring was found using [FIND IN TABLE](javascript:call_link\('abapfind_itab.htm'\)) in data object mlin. The following can be specified for mlin:
+The addition MATCH LINE returns the number of the line in which the last substring was found using [FIND IN TABLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_itab.htm) in data object mlin. The following can be specified for mlin:
 
 -   An existing variable that expects the data type i.
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)). The declared variable has the data type i.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_inline.htm) or [FINAL(var)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfinal_inline.htm). The declared variable has the data type i.
 
 If the substring is not found, mlin retains its previous value or stays initial.
 
-The remaining additions used for searching in the individual table lines have the same [meaning](javascript:call_link\('abapfind_options.htm'\)) as in the statement [FIND](javascript:call_link\('abapfind.htm'\)) for elementary character strings and byte strings.
+The remaining additions used for searching in the individual table lines have the same [meaning](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_options.htm) as in the statement [FIND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind.htm) for elementary character strings and byte strings.
 
 If the addition RESULTS is used, the line numbers of each occurrence in the component LINE of the table line in question in result\_tab or the line number of the last occurrence are also saved to result\_wa and the lines in result\_tab are sorted by the columns LINE, OFFSET, and LENGTH.
 

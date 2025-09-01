@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 calculation expression
 
-Calculates a value. Either an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), a [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry"), or a [string expression](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry"). The three calculation expression types can be used simultaneously as operands for [relational expressions](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry") but they cannot be combined within the same calculation expression.
+Calculates a value. Either an [arithmetic expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), a [bit expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbit_expression_glosry.htm "Glossary Entry"), or a [string expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_expression_glosry.htm "Glossary Entry"). The three calculation expression types can be used simultaneously as operands for [relational expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrelational_expression_glosry.htm "Glossary Entry") but they cannot be combined within the same calculation expression.

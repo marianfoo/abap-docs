@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 local data queue
 
-Persistence layer into which data can be placed and read only in the order in which it was logged. The local data queue triggers the no-send scenario in [qRFC](javascript:call_link\('abenqrfc_glosry.htm'\) "Glossary Entry").
+Persistence layer into which data can be placed and read only in the order in which it was logged. The local data queue triggers the no-send scenario in [qRFC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenqrfc_glosry.htm "Glossary Entry").

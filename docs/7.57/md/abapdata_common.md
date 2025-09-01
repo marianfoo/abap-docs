@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Declarations](javascript:call_link\('abenobsolete_declarations.htm'\)) →  [Interface Work Areas](javascript:call_link\('abeninterface_areas_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Declarations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobsolete_declarations.htm) →  [Interface Work Areas](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterface_areas_obsolete.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DATA, COMMON PART, ABAPDATA_COMMON, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugg
 estion for improvement:)
 
 DATA, COMMON PART
 
-[Short Reference](javascript:call_link\('abapdata_common_part_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata_common_part_shortref.htm)
 
 Obsolete Syntax
 
@@ -23,20 +23,20 @@ DATA END OF COMMON PART *\[*name*\]*.
 
 Effect
 
-This variant of the statement [DATA](javascript:call_link\('abapdata.htm'\)) with the additions BEGIN OF COMMON PART and END OF COMMON PART defines a global [interface work area](javascript:call_link\('abeninterface_work_area_glosry.htm'\) "Glossary Entry") that can be used jointly by the programs of a [program group](javascript:call_link\('abenprogram_group_glosry.htm'\) "Glossary Entry"). All data objects declared between these statements using DATA are part of this [common area](javascript:call_link\('abencommon_area_glosry.htm'\) "Glossary Entry").
+This variant of the statement [DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata.htm) with the additions BEGIN OF COMMON PART and END OF COMMON PART defines a global [interface work area](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterface_work_area_glosry.htm "Glossary Entry") that can be used jointly by the programs of a [program group](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_group_glosry.htm "Glossary Entry"). All data objects declared between these statements using DATA are part of this [common area](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencommon_area_glosry.htm "Glossary Entry").
 
-The addition COMMON PART can only be used in the global declaration part of an ABAP program. Multiple common [data areas](javascript:call_link\('abendata_area_glosry.htm'\) "Glossary Entry") can be declared in a program, but they cannot be nested. Every common data area must be given a unique name using the name addition. The addition name can be omitted only if there is just one common data area in a program.
+The addition COMMON PART can only be used in the global declaration part of an ABAP program. Multiple common [data areas](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_area_glosry.htm "Glossary Entry") can be declared in a program, but they cannot be nested. Every common data area must be given a unique name using the name addition. The addition name can be omitted only if there is just one common data area in a program.
 
 The following rules apply:
 
--   In all programs in a program group that declare common data areas with the same name, these areas must have identical layouts. Common data areas are hence viewed as structures whose [structure fragment view](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry") must be identical and whose deep components must be compatible (pairwise). If not, the runtime error LOAD\_COMMON\_PART\_STRUCT occurs.
--   In common data areas, no [object reference variables](javascript:call_link\('abenobject_refer_variable_glosry.htm'\) "Glossary Entry") with the static type of program-local classes and interfaces, nor [data reference variables](javascript:call_link\('abendata_reference_variable_glosry.htm'\) "Glossary Entry") with the static type of program-local structured types, can be declared.
+-   In all programs in a program group that declare common data areas with the same name, these areas must have identical layouts. Common data areas are hence viewed as structures whose [structure fragment view](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry") must be identical and whose deep components must be compatible (pairwise). If not, the runtime error LOAD\_COMMON\_PART\_STRUCT occurs.
+-   In common data areas, no [object reference variables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobject_refer_variable_glosry.htm "Glossary Entry") with the static type of program-local classes and interfaces, nor [data reference variables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_reference_variable_glosry.htm "Glossary Entry") with the static type of program-local structured types, can be declared.
 
 Hints
 
--   The use of common data areas in otherwise independent programs is highly error-prone with regard to both their maintainability and their functions. Therefore, common data areas should no longer be used. The parameter interfaces of [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") are available for exchanging data between programs.
--   Common data areas for different programs are generally declared in an [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") that is embedded in all programs involved. However, multiple use of include programs is no longer recommended.
--   For more information about issues related to interface work areas, see [Program Groups in External Procedure Calls](javascript:call_link\('abenprogram_groups.htm'\)).
+-   The use of common data areas in otherwise independent programs is highly error-prone with regard to both their maintainability and their functions. Therefore, common data areas should no longer be used. The parameter interfaces of [procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocedure_glosry.htm "Glossary Entry") are available for exchanging data between programs.
+-   Common data areas for different programs are generally declared in an [include program](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninclude_program_glosry.htm "Glossary Entry") that is embedded in all programs involved. However, multiple use of include programs is no longer recommended.
+-   For more information about issues related to interface work areas, see [Program Groups in External Procedure Calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_groups.htm).
 
 Example
 

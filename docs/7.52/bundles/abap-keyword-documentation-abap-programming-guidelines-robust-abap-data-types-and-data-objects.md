@@ -3,37 +3,7 @@
 Included pages: 13
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abendata_type_obj_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm)
-- [abenbound_independent_dtype_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbound_independent_dtype_guidl.htm)
-- [abendeclaration_dtypes_const_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_dtypes_const_guidl.htm)
-- [abendeclaration_variables_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_variables_guidl.htm)
-- [abendeclaration_inline_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_inline_guidl.htm)
-- [abenincluding_structures_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenincluding_structures_guidl.htm)
-- [abenusing_types_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenusing_types_guidl.htm)
-- [abenref_types_objects_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenref_types_objects_guidl.htm)
-- [abentable_work_area_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_work_area_guidl.htm)
-- [abenliterals_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliterals_guidl.htm)
-- [abenstrings_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstrings_guidl.htm)
-- [abenstart_values_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstart_values_guidl.htm)
-- [abendataobjects_true_value_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataobjects_true_value_guidl.htm)
-
-**Bundle Contains**: 13 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.379Z
-
----
-
 ### abendata_type_obj_guidl.htm
-
-> **📖 Official SAP Documentation**: [abendata_type_obj_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -41,7 +11,7 @@ Included pages: 13
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) → 
 
 Data Types and Data Objects
 
@@ -53,59 +23,52 @@ A data type describes a data object, just as a class describes an object. In thi
 
 -   Data object
 
-A data object is an instance of a data type, just as an object is an instance of a class. It exists in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of an ABAP program or as a shared object in the shared memory and occupies memory there for the contained data. A data object is created either implicitly when a program or procedure is loaded (named data object), or by using the CREATE DATA statement (anonymous data object). Named data objects are either variables (DATA, CLASS-DATA statements, and so on) or constants (CONSTANTS statement).
+A data object is an instance of a data type, just as an object is an instance of a class. It exists in the [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry") of an ABAP program or as a shared object in the shared memory and occupies memory there for the contained data. A data object is created either implicitly when a program or procedure is loaded (named data object), or by using the CREATE DATA statement (anonymous data object). Named data objects are either variables (DATA, CLASS-DATA statements, and so on) or constants (CONSTANTS statement).
 
 A data type describes the technical attributes of a data object (for example, the elementary types it is comprised of, its length) and semantic attributes (what type of entity is represented by the data object). Types that are defined in ABAP dictionary have additional attributes, for example for input/output on a classic dynpro or in Web Dynpro.
 
-As far as the ABAP runtime environment is concerned, only the technical attributes of a data object are of interest for program execution. However, the semantic information, which is linked to the appropriate use of types, is essential for the legibility of the source code. For this reason, some of the rules covered in this section could also fall under the heading [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\) "Guideline"), since this covers not only robustness, but also good style, which, although it does not affect program execution, is nevertheless significant for readability and maintainability.
+As far as the ABAP runtime environment is concerned, only the technical attributes of a data object are of interest for program execution. However, the semantic information, which is linked to the appropriate use of types, is essential for the legibility of the source code. For this reason, some of the rules covered in this section could also fall under the heading [Structure and Style](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructure_style_guidl.htm "Guideline"), since this covers not only robustness, but also good style, which, although it does not affect program execution, is nevertheless significant for readability and maintainability.
 
--   [Bound and Standalone Data Types](javascript:call_link\('abenbound_independent_dtype_guidl.htm'\) "Guideline")
+-   [Bound and Standalone Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbound_independent_dtype_guidl.htm "Guideline")
 
--   [Declaration of Data Types and Constants](javascript:call_link\('abendeclaration_dtypes_const_guidl.htm'\) "Guideline")
+-   [Declaration of Data Types and Constants](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_dtypes_const_guidl.htm "Guideline")
 
--   [Declaration of Variables](javascript:call_link\('abendeclaration_variables_guidl.htm'\) "Guideline")
+-   [Declaration of Variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_variables_guidl.htm "Guideline")
 
--   [Inline Declarations](javascript:call_link\('abendeclaration_inline_guidl.htm'\) "Guideline")
+-   [Inline Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_inline_guidl.htm "Guideline")
 
--   [Including Structures](javascript:call_link\('abenincluding_structures_guidl.htm'\) "Guideline")
+-   [Including Structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenincluding_structures_guidl.htm "Guideline")
 
--   [Using Types](javascript:call_link\('abenusing_types_guidl.htm'\) "Guideline")
+-   [Using Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenusing_types_guidl.htm "Guideline")
 
--   [Reference to Data Types or Data Objects](javascript:call_link\('abenref_types_objects_guidl.htm'\) "Guideline")
+-   [Reference to Data Types or Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenref_types_objects_guidl.htm "Guideline")
 
--   [Table Work Areas](javascript:call_link\('abentable_work_area_guidl.htm'\) "Guideline")
+-   [Table Work Areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_work_area_guidl.htm "Guideline")
 
--   [Literals](javascript:call_link\('abenliterals_guidl.htm'\) "Guideline")
+-   [Literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliterals_guidl.htm "Guideline")
 
--   [Strings](javascript:call_link\('abenstrings_guidl.htm'\) "Guideline")
+-   [Strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstrings_guidl.htm "Guideline")
 
--   [Start Values](javascript:call_link\('abenstart_values_guidl.htm'\) "Guideline")
+-   [Start Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstart_values_guidl.htm "Guideline")
 
--   [Data Objects for Truth Values](javascript:call_link\('abendataobjects_true_value_guidl.htm'\) "Guideline")
+-   [Data Objects for Truth Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataobjects_true_value_guidl.htm "Guideline")
 
 Continue
-[Bound and Standalone Data Types](javascript:call_link\('abenbound_independent_dtype_guidl.htm'\))
-[Declaration of Data Types and Constants](javascript:call_link\('abendeclaration_dtypes_const_guidl.htm'\))
-[Declaration of Variables](javascript:call_link\('abendeclaration_variables_guidl.htm'\))
-[Inline Declarations](javascript:call_link\('abendeclaration_inline_guidl.htm'\))
-[Including Structures](javascript:call_link\('abenincluding_structures_guidl.htm'\))
-[Using Types](javascript:call_link\('abenusing_types_guidl.htm'\))
-[Reference to Data Types or Data Objects](javascript:call_link\('abenref_types_objects_guidl.htm'\))
-[Table Work Areas](javascript:call_link\('abentable_work_area_guidl.htm'\))
-[Literals](javascript:call_link\('abenliterals_guidl.htm'\))
-[Strings](javascript:call_link\('abenstrings_guidl.htm'\))
-[Start Values](javascript:call_link\('abenstart_values_guidl.htm'\))
-[Data Objects for Truth Values](javascript:call_link\('abendataobjects_true_value_guidl.htm'\))
+[Bound and Standalone Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbound_independent_dtype_guidl.htm)
+[Declaration of Data Types and Constants](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_dtypes_const_guidl.htm)
+[Declaration of Variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_variables_guidl.htm)
+[Inline Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_inline_guidl.htm)
+[Including Structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenincluding_structures_guidl.htm)
+[Using Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenusing_types_guidl.htm)
+[Reference to Data Types or Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenref_types_objects_guidl.htm)
+[Table Work Areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_work_area_guidl.htm)
+[Literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliterals_guidl.htm)
+[Strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstrings_guidl.htm)
+[Start Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstart_values_guidl.htm)
+[Data Objects for Truth Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataobjects_true_value_guidl.htm)
 
-
-
-**📖 Source**: [abendata_type_obj_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm)
 
 ### abenbound_independent_dtype_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenbound_independent_dtype_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbound_independent_dtype_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -113,7 +76,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm) → 
 
 Bound and Standalone Data Types
 
@@ -137,15 +100,15 @@ Here is a list of reasons that support the declaration of standalone types:
 
 -   Even if only one data object of this type is required initially, it is very likely that further data objects will be added during the course of the development. If the type needs to be adapted later on, you can do this centrally.
 
--   Declaring a standalone type and using it to declare a data object is nothing more than following the rule for the [SoC principle](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline").
+-   Declaring a standalone type and using it to declare a data object is nothing more than following the rule for the [SoC principle](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenseperation_concerns_guidl.htm "Guideline").
 
-The data type should always have a specific meaning and a meaningful [name](javascript:call_link\('abennaming_guidl.htm'\) "Guideline"). This gives data types a clear semantic meaning and makes the program easier to read and understand. Therefore, you should declare different data types for technically identical but semantically different data objects. This also increases the probability that a type can be adapted later on without making major program changes.
+The data type should always have a specific meaning and a meaningful [name](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennaming_guidl.htm "Guideline"). This gives data types a clear semantic meaning and makes the program easier to read and understand. Therefore, you should declare different data types for technically identical but semantically different data objects. This also increases the probability that a type can be adapted later on without making major program changes.
 
 Therefore you should avoid declaring purely technical data types that cannot be associated with specific semantics, because this does not make it easier to read or enhance the program.
 
 Note
 
-A separate [rule](javascript:call_link\('abendeclaration_dtypes_const_guidl.htm'\) "Guideline") specifies where the standalone data types should be declared.
+A separate [rule](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_dtypes_const_guidl.htm "Guideline") specifies where the standalone data types should be declared.
 
 Bad Example
 
@@ -167,14 +130,7 @@ DATA: number\_1 TYPE number\_type,
 ...
 
 
-
-**📖 Source**: [abenbound_independent_dtype_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbound_independent_dtype_guidl.htm)
-
 ### abendeclaration_dtypes_const_guidl.htm
-
-> **📖 Official SAP Documentation**: [abendeclaration_dtypes_const_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_dtypes_const_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -182,7 +138,7 @@ DATA: number\_1 TYPE number\_type,
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm) → 
 
 Declaration of Data Types and Constants
 
@@ -204,7 +160,7 @@ Data types and constants can be declared in the following contexts:
 
 -   in global classes and interfaces
 
--   in procedures ([Methods](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline"))
+-   in procedures ([Methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm "Guideline"))
 
 Technically speaking, type groups, global classes and interfaces are also ABAP programs, in which data types and constants are created using the TYPES and CONSTANTS statements. In contrast to other ABAP programs, the declarations can also be statically visible in other programs, depending on the visibility section. Absolute type names enable you to dynamically access the types of all programs.
 
@@ -216,11 +172,11 @@ Declare data types and constants in the context that guarantees the best possibl
 
 Details
 
-Data types and constants should be declared in the context in which they are [visible](javascript:call_link\('abenencapsulation_guidl.htm'\) "Guideline") for all potential consumers but not anywhere else:
+Data types and constants should be declared in the context in which they are [visible](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenencapsulation_guidl.htm "Guideline") for all potential consumers but not anywhere else:
 
 -   Local program data types and constants
 
--   Data types that are only required by local data objects (usually helper variables) or constants that are only required in a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) should be declared as local data types or constants.
+-   Data types that are only required by local data objects (usually helper variables) or constants that are only required in a procedure ([method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) should be declared as local data types or constants.
 
 -   Data types and constants that are only required within local classes should be declared in the corresponding visibility section of the classes or integrated using an interface.
 
@@ -228,21 +184,21 @@ Data types and constants should be declared in the context in which they are [vi
 
 -   Cross-program data types and constants
 
--   Data types and constants that a consumer requires to use a class/interface should be declared in the public (or package-public) visibility section of the global class/interface. Examples include data types used to type interface parameters of methods, and constants expected as actual parameters by methods, such as IDs of [exception texts](javascript:call_link\('abenexception_texts_guidl.htm'\) "Guideline") in exception classes.
+-   Data types and constants that a consumer requires to use a class/interface should be declared in the public (or package-public) visibility section of the global class/interface. Examples include data types used to type interface parameters of methods, and constants expected as actual parameters by methods, such as IDs of [exception texts](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_texts_guidl.htm "Guideline") in exception classes.
 
--   Data types required by different programs, classes, or interfaces are declared as real types of the ABAP Dictionary (not in type groups). These are usually semantically independent types, for which the ABAP Dictionary provides additional services, such as descriptive texts and documentation options. In this context, you must consider the [separation of concerns](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline").
+-   Data types required by different programs, classes, or interfaces are declared as real types of the ABAP Dictionary (not in type groups). These are usually semantically independent types, for which the ABAP Dictionary provides additional services, such as descriptive texts and documentation options. In this context, you must consider the [separation of concerns](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenseperation_concerns_guidl.htm "Guideline").
     For example, a structure of the ABAP Dictionary should never be used to type (Web) Dynpro fields and to simultaneously define a database table. Ideally, data types should be declared in encapsulated packages, which manage the cross-package use of their repository objects and which only expose types actually required outside the package in their package interfaces.
     You should generally avoid declaring or even exposing purely technical types without semantic meaning, in application development packages of the ABAP Dictionary. The declaration of these types (such as INT2 or CHAR10) should be restricted to fundamental basis packages.
 
--   You should not create any new type groups. Data types should be declared in global classes or interfaces, or as real types of the ABAP Dictionary. You should only create constants in global classes or interfaces. However, the use of existing type groups is still [allowed](javascript:call_link\('abendataobjects_true_value_guidl.htm'\) "Guideline"). It is no longer necessary to load type groups explicitly using the TYPE-POOLS statement. However, you only need to declare new types or constants in a context, if no [semantically appropriate](javascript:call_link\('abenusing_types_guidl.htm'\) "Guideline") types or constants exist that are more global. For example, if an appropriate ABAP Dictionary data type exists, it is not necessary to create a local data type in the class, to type an interface parameter of a global class method. In this case, the data type in the ABAP Dictionary might have to be published in the same package interface as the class. This would also be the case, however, if an interface parameter is typed with a data type of the class that refers to an ABAP Dictionary data type.
+-   You should not create any new type groups. Data types should be declared in global classes or interfaces, or as real types of the ABAP Dictionary. You should only create constants in global classes or interfaces. However, the use of existing type groups is still [allowed](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataobjects_true_value_guidl.htm "Guideline"). It is no longer necessary to load type groups explicitly using the TYPE-POOLS statement. However, you only need to declare new types or constants in a context, if no [semantically appropriate](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenusing_types_guidl.htm "Guideline") types or constants exist that are more global. For example, if an appropriate ABAP Dictionary data type exists, it is not necessary to create a local data type in the class, to type an interface parameter of a global class method. In this case, the data type in the ABAP Dictionary might have to be published in the same package interface as the class. This would also be the case, however, if an interface parameter is typed with a data type of the class that refers to an ABAP Dictionary data type.
 
 Note
 
-The misuse of include programs for the declaration of data types and data objects that can be reused across various programs is [not allowed](javascript:call_link\('abenmultiple_use_include_guidl.htm'\) "Guideline").
+The misuse of include programs for the declaration of data types and data objects that can be reused across various programs is [not allowed](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmultiple_use_include_guidl.htm "Guideline").
 
 Bad Example
 
-The following source code shows the declaration of constants in a type group that are required across different programs. The name of the type group must precede the names of the constants as a prefix. You should not create any new [type groups](javascript:call_link\('abenprogram_type_guidl.htm'\) "Guideline"). For constants that are required in various different programs, the above rule recommends a declaration in global classes or interfaces.
+The following source code shows the declaration of constants in a type group that are required across different programs. The name of the type group must precede the names of the constants as a prefix. You should not create any new [type groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_guidl.htm "Guideline"). For constants that are required in various different programs, the above rule recommends a declaration in global classes or interfaces.
 
 TYPE-POOL zicon.
   TYPES zicon\_icon TYPE ...
@@ -270,14 +226,7 @@ CLASS cl\_...\_icons DEFINITION PUBLIC FINAL.
 ENDCLASS.
 
 
-
-**📖 Source**: [abendeclaration_dtypes_const_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_dtypes_const_guidl.htm)
-
 ### abendeclaration_variables_guidl.htm
-
-> **📖 Official SAP Documentation**: [abendeclaration_variables_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_variables_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -285,7 +234,7 @@ ENDCLASS.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm) → 
 
 Declaration of Variables
 
@@ -301,9 +250,9 @@ Variables can be declared in the following contexts:
 
 -   as attributes of local classes and interfaces
 
--   in procedures ([Methods](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline"))
+-   in procedures ([Methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm "Guideline"))
 
-Variables that are declared within most of the event blocks or dialog modules as well as between completed processing blocks also belong to the global declaration part of a program, but violate the rule [implement global declarations centrally](javascript:call_link\('abenglobal_declar_guidl.htm'\) "Guideline").
+Variables that are declared within most of the event blocks or dialog modules as well as between completed processing blocks also belong to the global declaration part of a program, but violate the rule [implement global declarations centrally](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_declar_guidl.htm "Guideline").
 
 Program-local variables that are declared in the global declaration part of a program are generally referred to as global variables.
 
@@ -315,25 +264,25 @@ Do not declare variables in the global declaration part of a program. Variables 
 
 Details
 
-This rule is directly derived from the basic rule [use ABAP objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline"). If you disregard helper variables in procedures ([methods](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")), the content of the variable of a program indicates the state of the program and consequently the state of an application. In object-oriented programming, the class replaces the program, and the state of an application is no longer the state of the programs but the state of the classes or objects.
+This rule is directly derived from the basic rule [use ABAP objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obj_progr_model_guidl.htm "Guideline"). If you disregard helper variables in procedures ([methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")), the content of the variable of a program indicates the state of the program and consequently the state of an application. In object-oriented programming, the class replaces the program, and the state of an application is no longer the state of the programs but the state of the classes or objects.
 
-Furthermore, the rule [exploit the benefits of encapsulation](javascript:call_link\('abenencapsulation_guidl.htm'\) "Guideline") also assumes a critical role. The data of an application is sufficiently protected from misuse only in the visibility sections of classes.
+Furthermore, the rule [exploit the benefits of encapsulation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenencapsulation_guidl.htm "Guideline") also assumes a critical role. The data of an application is sufficiently protected from misuse only in the visibility sections of classes.
 
 Except for the following exception, you should not declare any global variables in a new ABAP program. They indicate a poor programming style that disregards proven concepts such as task sharing and encapsulation. If you need to access the same data of a program from multiple local classes and interfaces, you must create them in an appropriate visibility section of a local class or an interface. These can also be local classes or interfaces that contain nothing but such attributes.
 
 Note
 
-The above rule also applies to the declaration of [field symbols](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline") with the FIELD-SYMBOLS statement.
+The above rule also applies to the declaration of [field symbols](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendyn_access_data_obj_guidl.htm "Guideline") with the FIELD-SYMBOLS statement.
 
 Exception
 
-If classic dynpros and selections screens are still used instead of [SAPUI5](javascript:call_link\('abeninterface_tech_guidl.htm'\) "Guideline") or [Web Dynpro ABAP](javascript:call_link\('abeninterface_tech_guidl.htm'\) "Guideline"), global variables are required as interfaces for the communication between ABAP and classic dynpros. Global variables can be declared using the following statements for this purpose alone:
+If classic dynpros and selections screens are still used instead of [SAPUI5](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_tech_guidl.htm "Guideline") or [Web Dynpro ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_tech_guidl.htm "Guideline"), global variables are required as interfaces for the communication between ABAP and classic dynpros. Global variables can be declared using the following statements for this purpose alone:
 
--   DATA, [TABLES](javascript:call_link\('abentable_work_area_guidl.htm'\) "Guideline") and CONTROLS for general dynpros
+-   DATA, [TABLES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_work_area_guidl.htm "Guideline") and CONTROLS for general dynpros
 
 -   PARAMETERS and SELECT-OPTIONS for selection screens
 
-In these cases, you have to ensure the maximum possible [encapsulation](javascript:call_link\('abenencap_class_interf_guidl.htm'\) "Guideline") of those global variables.
+In these cases, you have to ensure the maximum possible [encapsulation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenencap_class_interf_guidl.htm "Guideline") of those global variables.
 
 Bad Example
 
@@ -365,14 +314,7 @@ CLASS screen\_handler DEFINITION.
   ...
 
 
-
-**📖 Source**: [abendeclaration_variables_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_variables_guidl.htm)
-
 ### abendeclaration_inline_guidl.htm
-
-> **📖 Official SAP Documentation**: [abendeclaration_inline_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_inline_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -380,7 +322,7 @@ CLASS screen\_handler DEFINITION.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm) → 
 
 Inline Declarations
 
@@ -388,25 +330,25 @@ Background
 
 The declaration operators
 
--   [DATA(var)](javascript:call_link\('abendata_inline.htm'\))
+-   [DATA(var)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_inline.htm)
 
--   [FIELD-SYMBOLS <fs>.](javascript:call_link\('abenfield-symbol_inline.htm'\))
+-   [FIELD-SYMBOLS <fs>.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfield-symbol_inline.htm)
 
-can be used to make inline declarations in [writing positions](javascript:call_link\('abenwriting_position_glosry.htm'\) "Glossary Entry"). In this way, declarations are made in operational statements rather than in [declaration statements](javascript:call_link\('abendeclaration_statement_glosry.htm'\) "Glossary Entry"). The declaration is made when the program is compiled, regardless of whether the statement is actually executed.
+can be used to make inline declarations in [writing positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwriting_position_glosry.htm "Glossary Entry"). In this way, declarations are made in operational statements rather than in [declaration statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_statement_glosry.htm "Glossary Entry"). The declaration is made when the program is compiled, regardless of whether the statement is actually executed.
 
 Rule
 
 Only use inline declarations locally
 
-Only make inline declarations in processing blocks that support [local data](javascript:call_link\('abenlocal_data_glosry.htm'\) "Glossary Entry"). Use them as if they were local declarations in the current statement block.
+Only make inline declarations in processing blocks that support [local data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_data_glosry.htm "Glossary Entry"). Use them as if they were local declarations in the current statement block.
 
 Details
 
 If used correctly, inline declarations are an excellent way of making programs leaner and easier to understand. An inline declaration in a statement works like a short form of a declaration statement directly in front of the statement, which is why the guidelines for declaration statements must be followed:
 
--   The rule dictating that [no global program variables and field symbols](javascript:call_link\('abendeclaration_variables_guidl.htm'\) "Guideline") are to be declared also applies to inline declarations, without restrictions. For this reason, statements with inline declarations should only be specified in processing blocks with local data, namely procedures and preferably methods. If not, the variables and field symbols declared inline would be global in the program, with all the drawbacks listed in the description of the rule.
+-   The rule dictating that [no global program variables and field symbols](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_variables_guidl.htm "Guideline") are to be declared also applies to inline declarations, without restrictions. For this reason, statements with inline declarations should only be specified in processing blocks with local data, namely procedures and preferably methods. If not, the variables and field symbols declared inline would be global in the program, with all the drawbacks listed in the description of the rule.
 
--   Inline declarations are an exception to the rule that [local declarations](javascript:call_link\('abenlocal_declar_guidl.htm'\) "Guideline") should only be made at the start of a procedure. They are specified in operational statements, which means that, unlike declaration statements, they cannot be specified at the start of the procedure. Despite this, the restrictions stated in the rule for local declarations are still valid for inline declarations. In particular, the validity of inline declarations is not limited to their current statement block. Inline declarations should, therefore, only be specified in less complex procedures, so making them easier to understand. The variables and field symbols declared inline should only be used in the direct vicinity of their declaration. Under no circumstances should a variable declared inline be accessed dynamically before the declaration. When an inline declaration is specified in a (conditional) control structure, it should usually only be accessed within this statement block.
+-   Inline declarations are an exception to the rule that [local declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_declar_guidl.htm "Guideline") should only be made at the start of a procedure. They are specified in operational statements, which means that, unlike declaration statements, they cannot be specified at the start of the procedure. Despite this, the restrictions stated in the rule for local declarations are still valid for inline declarations. In particular, the validity of inline declarations is not limited to their current statement block. Inline declarations should, therefore, only be specified in less complex procedures, so making them easier to understand. The variables and field symbols declared inline should only be used in the direct vicinity of their declaration. Under no circumstances should a variable declared inline be accessed dynamically before the declaration. When an inline declaration is specified in a (conditional) control structure, it should usually only be accessed within this statement block.
 
 Bad Example
 
@@ -457,14 +399,7 @@ METHOD demo\_method.
 ENDMETHOD.
 
 
-
-**📖 Source**: [abendeclaration_inline_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_inline_guidl.htm)
-
 ### abenincluding_structures_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenincluding_structures_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenincluding_structures_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -472,7 +407,7 @@ ENDMETHOD.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm) → 
 
 Including Structures
 
@@ -498,7 +433,7 @@ The reasons for this rule are the following:
 
 -   In contrast to real substructures, structures integrated using INCLUDE cannot be declared as boxed components. A boxed component is a structured component, which is managed through an internal reference and thus supports initial value sharing. This can considerably reduce the memory requirements for rarely filled components.
 
--   The statement cancels a [chained statement](javascript:call_link\('abenchained_statements_guidl.htm'\) "Guideline") that has been created with BEGIN OF and END OF.
+-   The statement cancels a [chained statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchained_statements_guidl.htm "Guideline") that has been created with BEGIN OF and END OF.
 
 If no real substructures can be formed, you must avoid naming conflicts as far as possible by using suffixes (RENAMING WITH SUFFIX addition). This recommendation also applies to the integration of structures in ABAP Dictionary, where you cannot always create real substructures (for example, for database tables).
 
@@ -534,14 +469,7 @@ TYPES:
 END OF structure\_2.
 
 
-
-**📖 Source**: [abenincluding_structures_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenincluding_structures_guidl.htm)
-
 ### abenusing_types_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenusing_types_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenusing_types_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -549,13 +477,13 @@ END OF structure\_2.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm) → 
 
 Using Types
 
 Background
 
-You can use the data types declared according to the rules on [Bound and Standalone Data Types](javascript:call_link\('abenbound_independent_dtype_guidl.htm'\) "Guideline") and [Declaration of Data Types and Constants](javascript:call_link\('abendeclaration_dtypes_const_guidl.htm'\) "Guideline") for declaring and creating data objects, as well as for typing field symbols or interface parameters. You specify them after the TYPE addition of the corresponding statement.
+You can use the data types declared according to the rules on [Bound and Standalone Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbound_independent_dtype_guidl.htm "Guideline") and [Declaration of Data Types and Constants](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_dtypes_const_guidl.htm "Guideline") for declaring and creating data objects, as well as for typing field symbols or interface parameters. You specify them after the TYPE addition of the corresponding statement.
 
 Rule
 
@@ -573,11 +501,11 @@ In particular, this applies to the reuse or multiple use of existing types. If y
 
 Note
 
-This rule applies especially for the use of structures from ABAP Dictionary. For example, you should never use a structure defining a database table as a template for input or output fields of classic dynpros or in Web Dynpro. This would violate the [SoC principle](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline").
+This rule applies especially for the use of structures from ABAP Dictionary. For example, you should never use a structure defining a database table as a template for input or output fields of classic dynpros or in Web Dynpro. This would violate the [SoC principle](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenseperation_concerns_guidl.htm "Guideline").
 
 Bad Example
 
-In the following source code a variable is declared, whose name and use clearly indicate that it is used for a truth value. The variable is declared with a technically correct, but semantically incorrect, data type. syst-batch, after all, is the data type for the [system field](javascript:call_link\('abensystem_fields_guidl.htm'\) "Guideline") sy-batch, which indicates whether a program is executed in the background.
+In the following source code a variable is declared, whose name and use clearly indicate that it is used for a truth value. The variable is declared with a technically correct, but semantically incorrect, data type. syst-batch, after all, is the data type for the [system field](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_fields_guidl.htm "Guideline") sy-batch, which indicates whether a program is executed in the background.
 
 DATA is\_empty TYPE syst-batch.
 ...
@@ -587,7 +515,7 @@ ENDIF.
 
 Good Example
 
-The following source code shows an improved example compared to the source code above. In this case, the abap\_bool type of type group abap, which is intended for [truth values](javascript:call_link\('abendataobjects_true_value_guidl.htm'\) "Guideline"), is used. In addition, the request of the truth value is performed using a specifically designated constant from the same type group.
+The following source code shows an improved example compared to the source code above. In this case, the abap\_bool type of type group abap, which is intended for [truth values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataobjects_true_value_guidl.htm "Guideline"), is used. In addition, the request of the truth value is performed using a specifically designated constant from the same type group.
 
 DATA is\_empty TYPE abap\_bool.
 ...
@@ -596,14 +524,7 @@ IF is\_empty EQ abap\_false.
 ENDIF.
 
 
-
-**📖 Source**: [abenusing_types_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenusing_types_guidl.htm)
-
 ### abenref_types_objects_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenref_types_objects_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenref_types_objects_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -611,13 +532,13 @@ ENDIF.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm) → 
 
 Reference to Data Types or Data Objects
 
 Background
 
-As well as [using data types](javascript:call_link\('abenusing_types_guidl.htm'\) "Guideline") for declarations and typings with the addition TYPE, you can use the alternative addition LIKE of the corresponding statements to directly reference the data type of one of the data objects visible at this position. This includes references to data objects of the same program, interface parameters of the current procedure, attributes of global classes and interfaces, and constants in type groups.
+As well as [using data types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenusing_types_guidl.htm "Guideline") for declarations and typings with the addition TYPE, you can use the alternative addition LIKE of the corresponding statements to directly reference the data type of one of the data objects visible at this position. This includes references to data objects of the same program, interface parameters of the current procedure, attributes of global classes and interfaces, and constants in type groups.
 
 Rule
 
@@ -627,9 +548,9 @@ If a data object directly depends on another data object, refer to it directly u
 
 Details
 
-For example, if a helper variable of the type of an input parameter is required within a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")), you should not declare it with reference to the type of the parameter using TYPE but with reference to the parameter itself using LIKE. You can also declare work areas using LIKE LINE OF if the parameter is an internal table. In the case of typing with LIKE, you can retroactively change the type of the parameter without always having to adapt the procedure implementation.
+For example, if a helper variable of the type of an input parameter is required within a procedure ([method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")), you should not declare it with reference to the type of the parameter using TYPE but with reference to the parameter itself using LIKE. You can also declare work areas using LIKE LINE OF if the parameter is an internal table. In the case of typing with LIKE, you can retroactively change the type of the parameter without always having to adapt the procedure implementation.
 
-However, if no close reference to another data object exists, it is usually more useful to declare data objects with reference to a [standalone data type](javascript:call_link\('abenbound_independent_dtype_guidl.htm'\) "Guideline") by using TYPE.
+However, if no close reference to another data object exists, it is usually more useful to declare data objects with reference to a [standalone data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbound_independent_dtype_guidl.htm "Guideline") by using TYPE.
 
 Note
 
@@ -667,14 +588,7 @@ The following source code shows the improved declaration of the helper variable 
 ...
 
 
-
-**📖 Source**: [abenref_types_objects_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenref_types_objects_guidl.htm)
-
 ### abentable_work_area_guidl.htm
-
-> **📖 Official SAP Documentation**: [abentable_work_area_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_work_area_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -682,7 +596,7 @@ The following source code shows the improved declaration of the helper variable 
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm) → 
 
 Table Work Areas
 
@@ -692,9 +606,9 @@ Table work areas are structured data objects of a flat structure type, a databas
 
 From the perspective of the data type, the statements
 
-[TABLES table\_wa](javascript:call_link\('abaptables.htm'\)).
+[TABLES table\_wa](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables.htm).
 
-[NODES table\_wa](javascript:call_link\('abapnodes.htm'\)).
+[NODES table\_wa](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnodes.htm).
 
 are the same as
 
@@ -702,7 +616,7 @@ DATA table\_wa TYPE table\_wa.
 
 This means that data objects with the same name and type as the corresponding data types from ABAP Dictionary are declared. This is supplemented by further meanings of TABLES and NODES. For the full range of meanings, refer to their documentation. The essential properties are as follows:
 
--   TABLES and NODES declare [interface work areas](javascript:call_link\('abenintern_extern_proc_call_guidl.htm'\) "Guideline"), which are shared by multiple programs of a program group.
+-   TABLES and NODES declare [interface work areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenintern_extern_proc_call_guidl.htm "Guideline"), which are shared by multiple programs of a program group.
 
 -   TABLES declares interfaces to classic dynpros and selection screens.
 
@@ -718,27 +632,20 @@ Only use the statement TABLES in the global declaration part of function groups 
 
 Details
 
-The statement TABLES is not allowed within classes anyway and, in the syntax, the statement NODES can only be created in the global declaration part of an executable program associated with a logical database. The latter option is [no longer allowed](javascript:call_link\('abenprogram_attribute_guidl.htm'\) "Guideline").
+The statement TABLES is not allowed within classes anyway and, in the syntax, the statement NODES can only be created in the global declaration part of an executable program associated with a logical database. The latter option is [no longer allowed](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attribute_guidl.htm "Guideline").
 
 Since obsolete database accesses requiring the statement TABLES and shared data areas between programs are not allowed, there is no need to use the statement TABLES, except for declaring interfaces to classic dynpros (see the following exception).
 
 Exception
 
-If dynpro fields in [classic dynpros](javascript:call_link\('abenuser_interfaces_guidl.htm'\) "Guideline") are defined with reference to flat structures in ABAP Dictionary, the identically named global data objects of the ABAP program must be declared with the statement TABLES. Otherwise, the data objects of the ABAP program are not linked to the dynpro fields, and their content cannot be accessed. In addition, TABLES is also required for declaring specific work areas when handling function codes of selection screens.
+If dynpro fields in [classic dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_interfaces_guidl.htm "Guideline") are defined with reference to flat structures in ABAP Dictionary, the identically named global data objects of the ABAP program must be declared with the statement TABLES. Otherwise, the data objects of the ABAP program are not linked to the dynpro fields, and their content cannot be accessed. In addition, TABLES is also required for declaring specific work areas when handling function codes of selection screens.
 
 Note
 
 The restriction on the statement TABLES to this last remaining technical requirement, that is, the communication with classic dynpros and selection screens, can also be derived from other rules of these guidelines. However, since the use of the statement TABLES instead of the statement DATA is still very popular among experienced ABAP developers, the rule above explicitly stresses that it is not allowed.
 
 
-
-**📖 Source**: [abentable_work_area_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_work_area_guidl.htm)
-
 ### abenliterals_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenliterals_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliterals_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -746,7 +653,7 @@ The restriction on the statement TABLES to this last remaining technical require
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm) → 
 
 Literals
 
@@ -763,7 +670,7 @@ A literal is a data object defined in the source code of a program by specifying
 
 -   String literals, which are enclosed in backquotes (\`). The data type is string.
 
-In numeric literals, neither decimal separators nor scientific notation with mantissa and exponent are possible. Character literals with [correct content](javascript:call_link\('abennumbers_guidl.htm'\) "Guideline") must be used to represent thesetypes of numeric values.
+In numeric literals, neither decimal separators nor scientific notation with mantissa and exponent are possible. Character literals with [correct content](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumbers_guidl.htm "Guideline") must be used to represent thesetypes of numeric values.
 
 Rule
 
@@ -777,7 +684,7 @@ Certain values are required in more than one place in the source code. It is the
 
 It can also be a good idea to create an appropriate constant for values used in only one place. The name of the constant gives the values semantics that make the source code easier to understand.
 
-Number literals that appear in source code seemingly without any semantic meaning are often known as "magic numbers". Avoid using these in ABAP programs. When using character literals, [translatability](javascript:call_link\('abensystem_text_guidl.htm'\) "Guideline") is also important.
+Number literals that appear in source code seemingly without any semantic meaning are often known as "magic numbers". Avoid using these in ABAP programs. When using character literals, [translatability](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_text_guidl.htm "Guideline") is also important.
 
 Exception
 
@@ -824,14 +731,7 @@ circumference = 2 \* pi \* radius.
 area          = pi \* radius \*\* 2.
 
 
-
-**📖 Source**: [abenliterals_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliterals_guidl.htm)
-
 ### abenstrings_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenstrings_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstrings_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -839,13 +739,13 @@ area          = pi \* radius \*\* 2.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm) → 
 
 Strings
 
 Background
 
-Strings are [dynamic data objects](javascript:call_link\('abenuse_dyn_data_object_guidl.htm'\) "Guideline") of variable length. There are text strings of the string data type and byte strings of the xstring data type, in which character strings or byte strings can be saved.
+Strings are [dynamic data objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuse_dyn_data_object_guidl.htm "Guideline") of variable length. There are text strings of the string data type and byte strings of the xstring data type, in which character strings or byte strings can be saved.
 
 In contrast to text and byte fields of a fixed length (c, x data types), the length of strings automatically adapts to the content. Other data types, such as n, d, and t, are also handled as text fields in many operand positions. Strings are deep data objects that are internally managed by references. For this, the following additional memory is required:
 
@@ -871,7 +771,7 @@ In the following cases, fields of a fixed length should be used instead of strin
 
 -   The length of the field is critical, for example, for templates or for interfaces to screen fields.
 
--   Despite [sharing](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline"), the additional administration work outweighs the benefits which can often be the case for very short strings. If it is obvious that a certain length is never exceeded, short fields of a fixed length can also be used.
+-   Despite [sharing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline"), the additional administration work outweighs the benefits which can often be the case for very short strings. If it is obvious that a certain length is never exceeded, short fields of a fixed length can also be used.
 
 -   Structures that only contain character-like components should be handled like a single text field. This is not possible for structures that contain text strings.
 
@@ -901,14 +801,7 @@ APPEND \`</BODY>\` TO html\_table.
 APPEND \`</HTML>\` TO html\_table.
 
 
-
-**📖 Source**: [abenstrings_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstrings_guidl.htm)
-
 ### abenstart_values_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenstart_values_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstart_values_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -916,7 +809,7 @@ APPEND \`</HTML>\` TO html\_table.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm) → 
 
 Start Values
 
@@ -934,7 +827,7 @@ Only use the addition VALUE to enter start values that exactly match the data ty
 
 Details
 
-The start value cannot always be specified in a type-friendly way, since ABAP does not support type-friendly [literals](javascript:call_link\('abenliterals_guidl.htm'\) "Guideline") for all possible data types. In all cases where a conversion cannot be avoided, choose the content of literals specified as start values so that the actual value meets the requirements when the source code is read.
+The start value cannot always be specified in a type-friendly way, since ABAP does not support type-friendly [literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliterals_guidl.htm "Guideline") for all possible data types. In all cases where a conversion cannot be avoided, choose the content of literals specified as start values so that the actual value meets the requirements when the source code is read.
 
 Bad Example
 
@@ -949,17 +842,7 @@ The following source code corrects the above example by replacing the numeric li
 CONSTANTS high\_noon TYPE t VALUE '120000'.
 
 
-
-**📖 Source**: [abenstart_values_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstart_values_guidl.htm)
-
 ### abendataobjects_true_value_guidl.htm
-
-> **📖 Official SAP Documentation**: [abendataobjects_true_value_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataobjects_true_value_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abendataobjects_true_value_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataobjects_true_value_guidl.htm)
-
 
   
 
@@ -967,7 +850,7 @@ CONSTANTS high\_noon TYPE t VALUE '120000'.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_obj_guidl.htm) → 
 
 Data Objects for Truth Values
 
@@ -989,7 +872,7 @@ Details
 
 Using the type abap\_bool and the constants abap\_true and abap\_false makes it clear that truth values are being used here.
 
-In accordance with the rule for [avoiding](javascript:call_link\('abenliterals_guidl.htm'\) "Guideline") literals in operand positions, not only the literals 'X' and ' ' should be used. State queries about the [predicate operators](javascript:call_link\('abenpredicate_operator_glosry.htm'\) "Glossary Entry") IS INITIAL and IS NOT INITIAL or the use of the constant space are also not advisable, because they require knowledge of the technical values of abap\_true and abap\_false, which are not significant in the sense of real Boolean data objects.
+In accordance with the rule for [avoiding](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliterals_guidl.htm "Guideline") literals in operand positions, not only the literals 'X' and ' ' should be used. State queries about the [predicate operators](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_operator_glosry.htm "Glossary Entry") IS INITIAL and IS NOT INITIAL or the use of the constant space are also not advisable, because they require knowledge of the technical values of abap\_true and abap\_false, which are not significant in the sense of real Boolean data objects.
 
 The type group abap contains a third constant for the type abap\_bool, namely abap\_undefined. However, implementing a three-value logic is only useful and recommended in exceptional cases. In this case, note that abap\_undefined does not contain the initial value for a variable of type abap\_bool. The initial value is always the value of abap\_false. However, the value of abap\_undefined can, if required, be specified using the addition VALUE when declaring a truth value as the start value.
 

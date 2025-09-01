@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - ABAP Statements](javascript:call_link\('abenabap_dynpros_abap_statements.htm'\)) →  [LOOP AT SCREEN](javascript:call_link\('abaploop_at_screen.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - ABAP Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_abap_statements.htm) →  [LOOP AT SCREEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_screen.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - The Structure SCREEN, ABENSCREEN, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D
 %0ASuggestion for improvement:)
@@ -15,8 +15,8 @@ Most components of the structure SCREEN from the ABAP Dictionary correspond to t
 
 Data objects with the data type SCREEN can be used as a work area in the following ABAP statements:
 
--   in [LOOP AT SCREEN](javascript:call_link\('abaploop_at_screen.htm'\)), to read the screen element properties of a dynpro,
--   in [MODIFY SCREEN](javascript:call_link\('abapmodify_screen.htm'\)), to modify the screen element properties of a dynpro.
+-   in [LOOP AT SCREEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_screen.htm), to read the screen element properties of a dynpro,
+-   in [MODIFY SCREEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_screen.htm), to modify the screen element properties of a dynpro.
 
 The following table shows the components of SCREEN, their assignment to the field properties in the dynpro, and the possible values.
 
@@ -224,7 +224,7 @@ Dropdown list box
 
 Input help exists
 
-The component name contains the name name of the current dynpro field in the loop. The components group1 to group4 can contain three figure identifiers id1 to id4, which were assigned to the current screen element when it was defined. These identifiers allow the screen elements to be grouped together in up to four different [modification groups](javascript:call_link\('abenmodification_group_glosry.htm'\) "Glossary Entry"). These can be queried in logical expressions in the statement block after [LOOP AT SCREEN](javascript:call_link\('abaploop_at_screen.htm'\)) to process multiple screen elements in the same way.
+The component name contains the name name of the current dynpro field in the loop. The components group1 to group4 can contain three figure identifiers id1 to id4, which were assigned to the current screen element when it was defined. These identifiers allow the screen elements to be grouped together in up to four different [modification groups](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodification_group_glosry.htm "Glossary Entry"). These can be queried in logical expressions in the statement block after [LOOP AT SCREEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_screen.htm) to process multiple screen elements in the same way.
 
 The remaining components of the structure SCREEN (apart from request) show the display properties of the current screen element. Apart from length, they can have the value 0 or 1, where content 1 means "active" and content 0 means "inactive". In addition, required and value\_help can also have the value 2:
 
@@ -233,10 +233,10 @@ The remaining components of the structure SCREEN (apart from request) show the d
 
 Except for active and request, all components of the structure SCREEN correspond directly to a property of the current screen element.
 
--   The component active does not have a corresponding property. A change of its content using [MODIFY SCREEN](javascript:call_link\('abapmodify_screen.htm'\)) affects the properties input, output and invisible, and correspondingly the components input, output and invisible of the structure SCREEN.
+-   The component active does not have a corresponding property. A change of its content using [MODIFY SCREEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_screen.htm) affects the properties input, output and invisible, and correspondingly the components input, output and invisible of the structure SCREEN.
 -   The component request has the following meaning:
     
     -   It is set to the value 1 by the runtime framework if the event PAI occurs, if user input exists in the dynpro field.
-    -   Using [MODIFY SCREEN](javascript:call_link\('abapmodify_screen.htm'\)), its content can be set to the value 1 at PBO time to simulate user input.
+    -   Using [MODIFY SCREEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_screen.htm), its content can be set to the value 1 at PBO time to simulate user input.
     
-    If the component request has the value 1 for a dynpro field at PAI time, those dialog modules are executed that are called for this field using the additions ON REQUEST and ON CHAIN-REQUEST after the dynpro statement [FIELD](javascript:call_link\('dynpfield_module.htm'\)).
+    If the component request has the value 1 for a dynpro field at PAI time, those dialog modules are executed that are called for this field using the additions ON REQUEST and ON CHAIN-REQUEST after the dynpro statement [FIELD](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/dynpfield_module.htm).

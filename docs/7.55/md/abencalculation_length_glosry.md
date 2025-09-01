@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 calculation length
 
-Property of a [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry") depending on the [byte-like data types](javascript:call_link\('abenbyte_like_data_object_glosry.htm'\) "Glossary Entry") involved. The calculation length is the length in which the operands of the expression are processed.
+Property of a [bit expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_expression_glosry.htm "Glossary Entry") depending on the [byte-like data types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbyte_like_data_object_glosry.htm "Glossary Entry") involved. The calculation length is the length in which the operands of the expression are processed.
 
-[→ More about](javascript:call_link\('abenbitexp_length.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbitexp_length.htm)

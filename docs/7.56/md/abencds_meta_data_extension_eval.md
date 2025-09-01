@@ -4,18 +4,18 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - Specifying Annotations](javascript:call_link\('abencds_anno_usage.htm'\)) →  [ABAP CDS - Metadata Extensions](javascript:call_link\('abencds_meta_data_extensions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations.htm) →  [ABAP CDS - Specifying Annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_anno_usage.htm) →  [ABAP CDS - Metadata Extensions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_meta_data_extensions.htm) → 
 
 ABAP CDS - Evaluation of Metadata Extensions
 
-When [evaluating annotations](javascript:call_link\('abencds_annotations_analysis.htm'\)) with the class CL\_DD\_DDL\_ANNOTATION\_SERVICE, the annotations from metadata extensions are considered first. If there are different metadata extensions for the same CDS entity, priority is determined by the following criteria:
+When [evaluating annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_analysis.htm) with the class CL\_DD\_DDL\_ANNOTATION\_SERVICE, the annotations from metadata extensions are considered first. If there are different metadata extensions for the same CDS entity, priority is determined by the following criteria:
 
 -   CDS variant
-    -   A metadata extension can be assigned a [CDS variant](javascript:call_link\('abencds_variant_glosry.htm'\) "Glossary Entry") in its definition with [ANNOTATE](javascript:call_link\('abencds_f1_annotate_view.htm'\)) with the addition VARIANT.
+    -   A metadata extension can be assigned a [CDS variant](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_variant_glosry.htm "Glossary Entry") in its definition with [ANNOTATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view.htm) with the addition VARIANT.
     -   The name of a CDS variant can be transferred to the methods of the class CL\_DD\_DDL\_ANNOTATION\_SERVICE to select the metadata extension.
 -   Layer of metadata extension
     
-    The layer of a metadata extension is defined in its definition with [ANNOTATE](javascript:call_link\('abencds_f1_annotate_view.htm'\)) by the annotation [@Metadata.layer](javascript:call_link\('abencds_f1_metadata_ext_annos.htm'\)). These are the enumeration symbols for layers, in descending order of priority:
+    The layer of a metadata extension is defined in its definition with [ANNOTATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_annotate_view.htm) by the annotation [@Metadata.layer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_metadata_ext_annos.htm). These are the enumeration symbols for layers, in descending order of priority:
     
     -   #CUSTOMER
     -   #PARTNER
@@ -39,4 +39,4 @@ CDS variants are not currently released for general use. It is not possible to d
 
 Executable Example
 
-[CDS Metadata Extensions with CDS Variants](javascript:call_link\('abencds_annotate_view_abexa.htm'\))
+[CDS Metadata Extensions with CDS Variants](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotate_view_abexa.htm)

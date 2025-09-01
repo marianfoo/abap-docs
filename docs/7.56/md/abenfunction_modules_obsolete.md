@@ -4,17 +4,17 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobsolete_modularization.htm) → 
 
 Function Modules
 
 The following language constructs should no longer be used when creating function modules:
 
--   [Table parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\))
--   [Obsolete typing](javascript:call_link\('abapfunction_typing_obsolete.htm'\))
--   [Global parameters](javascript:call_link\('abenglobal_parameters_obsolete.htm'\))
+-   [Table parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptables_parameters_obsolete.htm)
+-   [Obsolete typing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfunction_typing_obsolete.htm)
+-   [Global parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenglobal_parameters_obsolete.htm)
 
 Continue
-[FUNCTION, table\_parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\))
-[FUNCTION, LIKE, STRUCTURE](javascript:call_link\('abapfunction_typing_obsolete.htm'\))
-[Global Parameters](javascript:call_link\('abenglobal_parameters_obsolete.htm'\))
+[FUNCTION, table\_parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptables_parameters_obsolete.htm)
+[FUNCTION, LIKE, STRUCTURE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfunction_typing_obsolete.htm)
+[Global Parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenglobal_parameters_obsolete.htm)

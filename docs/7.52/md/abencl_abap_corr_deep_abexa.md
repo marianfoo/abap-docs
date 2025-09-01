@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [Assigning Components: Examples](javascript:call_link\('abencorresponding_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding.htm) →  [Assigning Components: Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding_abexas.htm) → 
 
 CL\_ABAP\_CORRESPONDING for Tabular Components
 
-This example demonstrates the system class [CL\_ABAP\_CORRESPONDING](javascript:call_link\('abencl_abap_corresponding.htm'\)) for tabular components of structures.
+This example demonstrates the system class [CL\_ABAP\_CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_corresponding.htm) for tabular components of structures.
 
 Source Code
 
@@ -65,8 +65,8 @@ Description
 
 The example compares the options for component-by-component assignments of structures with tabular components.
 
--   The statement [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)) can be executed both with and without the addition EXPANDING NESTED TABLES. Depending on the option chosen, the tabular component is assigned in full or by component (using matching names).
+-   The statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove-corresponding.htm) can be executed both with and without the addition EXPANDING NESTED TABLES. Depending on the option chosen, the tabular component is assigned in full or by component (using matching names).
 
--   The operator [CORRESPONDING](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)) can be executed both with and without the addition DEEP. Depending on the option chosen, the tabular component is assigned in full or by component (using matching names).
+-   The operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding_constr_arg_type.htm) can be executed both with and without the addition DEEP. Depending on the option chosen, the tabular component is assigned in full or by component (using matching names).
 
--   The class [CL\_ABAP\_CORRESPONDING](javascript:call_link\('abencl_abap_corresponding.htm'\)) always resolves tabular components.
+-   The class [CL\_ABAP\_CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_corresponding.htm) always resolves tabular components.

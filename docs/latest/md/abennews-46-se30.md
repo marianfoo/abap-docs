@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for ABAP Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennews.htm) →  [News for ABAP Release 4.xx](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennews-4.htm) →  [News for ABAP Release 4.6A](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Runtime%20Analysis%20in%20ABAP%20Release%204.6A%2C%20ABENNEWS-46-SE30%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -24,7 +24,7 @@ Modification 1  
 
 Measurement in Parallel Session
 
-Runtime analysis can be activated for ten simultaneous [ABAP sessions](javascript:call_link\('abenabap_session_glosry.htm'\) "Glossary Entry") (work processes). This makes it possible to switch to a long-running job from outside. It is possible to switch in and out of the work processes that are measured using a screen similar to transaction SM50.
+Runtime analysis can be activated for ten simultaneous [ABAP sessions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_session_glosry.htm "Glossary Entry") (work processes). This makes it possible to switch to a long-running job from outside. It is possible to switch in and out of the work processes that are measured using a screen similar to transaction SM50.
 
 Modification 2   
 
@@ -60,7 +60,7 @@ Modification 5  
 
 Unique Identification of Internal Tables
 
-The name of an internal table is the internally unique ID. This makes it possible to distinguish between identically named internal tables from different [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry"). The actual name of the internal table can be identified by navigating to the editor.
+The name of an internal table is the internally unique ID. This makes it possible to distinguish between identically named internal tables from different [procedures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprocedure_glosry.htm "Glossary Entry"). The actual name of the internal table can be identified by navigating to the editor.
 
 Modification 6   
 

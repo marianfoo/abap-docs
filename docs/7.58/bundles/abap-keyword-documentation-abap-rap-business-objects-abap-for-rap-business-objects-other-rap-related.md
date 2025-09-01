@@ -3,34 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm)
-- [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
-- [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
-- [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
-- [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
-- [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:29.014Z
-
----
-
 ### abaprap_system_classes.htm
-
-> **📖 Official SAP Documentation**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -38,7 +11,7 @@ Included pages: 8
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap_other.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP-Related%20System%20Classes%20and%20Functionality%2C%20ABAPRAP_SYSTEM_CLASSES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improve
 ment:)
@@ -47,26 +20,15 @@ RAP-Related System Classes and Functionality
 
 The following topics are covered in this section:
 
--   [CL\_ABAP\_BEHV\_AUX](javascript:call_link\('abaprap_cl_abap_behv_aux.htm'\))
--   [CL\_ABAP\_BEHVDESCR](javascript:call_link\('abapcl_abap_behvdescr.htm'\))
+-   [CL\_ABAP\_BEHV\_AUX](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+-   [CL\_ABAP\_BEHVDESCR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
 
 Continue
-[CL\_ABAP\_BEHV\_AUX](javascript:call_link\('abaprap_cl_abap_behv_aux.htm'\))
-[CL\_ABAP\_BEHVDESCR](javascript:call_link\('abapcl_abap_behvdescr.htm'\))
+[CL\_ABAP\_BEHV\_AUX](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
+[CL\_ABAP\_BEHVDESCR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
 
-
-
-**📖 Source**: [abaprap_system_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm)
 
 ### abaprap_cl_abap_behv_aux.htm
-
-> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -74,7 +36,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [RAP-Related System Classes and Functionality](javascript:call_link\('abaprap_system_classes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap_other.htm) →  [RAP-Related System Classes and Functionality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CL_ABAP_BEHV_AUX%2C%20ABAPRAP_CL_ABAP_BEHV_AUX%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -88,11 +50,11 @@ Details
 
 GET\_CURRENT\_PHASE
 
-Information about the current [RAP transactional phase](javascript:call_link\('abentransactional_phase_glosry.htm'\) "Glossary Entry"), for example, [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry"), [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry"), or [RAP interaction phase](javascript:call_link\('abenrap_int_phase_glosry.htm'\) "Glossary Entry").
+Information about the current [RAP transactional phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransactional_phase_glosry.htm "Glossary Entry"), for example, [RAP early save phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenearly_rap_save_phase_glosry.htm "Glossary Entry"), [RAP late save phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlate_rap_save_phase_glosry.htm "Glossary Entry"), or [RAP interaction phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_int_phase_glosry.htm "Glossary Entry").
 
 GET\_CURRENT\_CONTEXT
 
-Information about the context of the current [RAP handler](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") and [saver method](javascript:call_link\('abenabp_saver_method_glosry.htm'\) "Glossary Entry")
+Information about the context of the current [RAP handler](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") and [saver method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_saver_method_glosry.htm "Glossary Entry")
 
 GET\_CURRENT\_HANDLER\_KIND
 
@@ -102,15 +64,15 @@ Hint
 
 Regarding GET\_CURRENT\_CONTEXT:
 
--   In the [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry") and [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry") it makes no sense to evaluate the components other than from\_projection.
+-   In the [RAP early save phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenearly_rap_save_phase_glosry.htm "Glossary Entry") and [RAP late save phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlate_rap_save_phase_glosry.htm "Glossary Entry") it makes no sense to evaluate the components other than from\_projection.
 -   The for\_permissions parameter can be used to avoid a double checking of authorization or feature control if an ABAP EML modify request is handled.
 -   Example use cases for the context information:
-    -   When a behavior is accessed via a [RAP interface behavior definition](javascript:call_link\('abencds_interface_bdef_glosry.htm'\) "Glossary Entry"), this access is directly mapped to a request on the base [RAP business object (BO)](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"). A use case might be that the base BO implementation would like to have the information available that it has been called via a [RAP BO interface](javascript:call_link\('abenrap_bo_interface_glosry.htm'\) "Glossary Entry"). For example, a RAP BO interface implements specific logic (for example, some fields are dynamically set to read-only) in the base BO's behavior pool. The implementation in the base BO then requires the name of the RAP BO interface which can be retrieved using the methods of this class.
-    -   Similarly, the base BO implementation might be interested in knowing whether it was invoked by a [RAP projection extension entity](javascript:call_link\('abenrap_proj_ext_entity_glosry.htm'\) "Glossary Entry").
+    -   When a behavior is accessed via a [RAP interface behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_interface_bdef_glosry.htm "Glossary Entry"), this access is directly mapped to a request on the base [RAP business object (BO)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry"). A use case might be that the base BO implementation would like to have the information available that it has been called via a [RAP BO interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_interface_glosry.htm "Glossary Entry"). For example, a RAP BO interface implements specific logic (for example, some fields are dynamically set to read-only) in the base BO's behavior pool. The implementation in the base BO then requires the name of the RAP BO interface which can be retrieved using the methods of this class.
+    -   Similarly, the base BO implementation might be interested in knowing whether it was invoked by a [RAP projection extension entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_proj_ext_entity_glosry.htm "Glossary Entry").
 
 Example
 
-The following code snippet shows how information on the current context might be retrieved using the GET\_CURRENT\_CONTEXT method by storing the information in a variable [declared inline](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry").
+The following code snippet shows how information on the current context might be retrieved using the GET\_CURRENT\_CONTEXT method by storing the information in a variable [declared inline](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninline_declaration_glosry.htm "Glossary Entry").
 
 cl\_abap\_behv\_aux=>get\_current\_context( IMPORTING
       from\_projection = FINAL(fr\_proj)
@@ -122,27 +84,16 @@ cl\_abap\_behv\_aux=>get\_current\_context( IMPORTING
 
 Executable Examples
 
--   The example [Getting RAP Context Information Using CL\_ABAP\_BEHV\_AUX](javascript:call_link\('abenrap_cl_abap_behv_aux_abexa.htm'\)) demonstrates the use of methods of the class CL\_ABAP\_BEHV\_AUX by focusing on the filling of the specific parameters in multiple contexts.
--   The example [Using the Addition PRIVILEGED with an ABAP EML Statement](javascript:call_link\('abeneml_privileged_abexa.htm'\)) demonstrates the addition PRIVILEGED using an [action](javascript:call_link\('abenaction_glosry.htm'\) "Glossary Entry") and a managed RAP BO. In this example, the method get\_current\_context is used to retrieve the information whether the running handler is running in privileged mode.
--   The example [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\)) demonstrates the methods GET\_CURRENT\_PHASE and GET\_CURRENT\_HANDLER\_KIND.
+-   The example [Getting RAP Context Information Using CL\_ABAP\_BEHV\_AUX](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm) demonstrates the use of methods of the class CL\_ABAP\_BEHV\_AUX by focusing on the filling of the specific parameters in multiple contexts.
+-   The example [Using the Addition PRIVILEGED with an ABAP EML Statement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_privileged_abexa.htm) demonstrates the addition PRIVILEGED using an [action](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenaction_glosry.htm "Glossary Entry") and a managed RAP BO. In this example, the method get\_current\_context is used to retrieve the information whether the running handler is running in privileged mode.
+-   The example [Checking RAP Transactional Phases](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm) demonstrates the methods GET\_CURRENT\_PHASE and GET\_CURRENT\_HANDLER\_KIND.
 
 Continue
-![Example](exa.gif "Example") [Getting RAP Context Information Using CL\_ABAP\_BEHV\_AUX](javascript:call_link\('abenrap_cl_abap_behv_aux_abexa.htm'\))
-![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
+![Example](exa.gif "Example") [Getting RAP Context Information Using CL\_ABAP\_BEHV\_AUX](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+![Example](exa.gif "Example") [Checking RAP Transactional Phases](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
 
-
-
-**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
 
 ### abenrap_cl_abap_behv_aux_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -150,7 +101,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [RAP-Related System Classes and Functionality](javascript:call_link\('abaprap_system_classes.htm'\)) →  [CL\_ABAP\_BEHV\_AUX](javascript:call_link\('abaprap_cl_abap_behv_aux.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap_other.htm) →  [RAP-Related System Classes and Functionality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm) →  [CL\_ABAP\_BEHV\_AUX](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Getting%20RAP%20Context%20Information%20Using%20CL_ABAP_BEHV_AUX%2C%20ABENRAP_CL_ABAP_BEHV_AUX_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugges
 tion%20for%20improvement:)
@@ -159,7 +110,7 @@ Getting RAP Context Information Using CL\_ABAP\_BEHV\_AUX
 
 This example demonstrates the use of methods of the class CL\_ABAP\_BEHV\_AUX by focusing on the filling of the specific parameters in multiple contexts.
 
-Note: This example does not fully meet the requirements of the [RAP BO contract](javascript:call_link\('abenrap_bo_contract_glosry.htm'\) "Glossary Entry"). It is intentionally kept short and simple and focuses on specific RAP aspects. For example, some [RAP handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") implementations might be empty. See more information on the RAP BO contract in the [Development guide for the ABAP RESTful Application Programming Model](https://help.sap.com/docs/ABAP_Cloud/f055b8bf582d4f34b91da667bc1fcce6/3a402c5cf6a74bc1a1de080b2a7c6978?version=sap_cross_product_abap).
+Note: This example does not fully meet the requirements of the [RAP BO contract](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_contract_glosry.htm "Glossary Entry"). It is intentionally kept short and simple and focuses on specific RAP aspects. For example, some [RAP handler method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") implementations might be empty. See more information on the RAP BO contract in the [Development guide for the ABAP RESTful Application Programming Model](https://help.sap.com/docs/ABAP_Cloud/f055b8bf582d4f34b91da667bc1fcce6/3a402c5cf6a74bc1a1de080b2a7c6978?version=sap_cross_product_abap).
 
 Used artifacts in the example
 
@@ -173,7 +124,7 @@ Behavior Pool (ABP)
 
 Notes
 
-Base [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry")
+Base [RAP business object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry")
 
 DEMO\_EXT\_M
 
@@ -183,9 +134,9 @@ CCIMP include
 
 The CDS data model only consists of one node constituting the root entity.
 The BDEF defines a managed RAP BO. It is also defined as extensible.
-Since it is a simple example serving demonstration purposes, the RAP handler methods in the ABP do not contain any meaningful implementations. Each method implementation contains calls for the methods get\_current\_context and get\_current\_handler\_kind. The return values of the method parameters are stored in a [nested structure](javascript:call_link\('abennested_structure_glosry.htm'\) "Glossary Entry") in the global class of the ABP and added to an internal table for displaying purposes.
+Since it is a simple example serving demonstration purposes, the RAP handler methods in the ABP do not contain any meaningful implementations. Each method implementation contains calls for the methods get\_current\_context and get\_current\_handler\_kind. The return values of the method parameters are stored in a [nested structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennested_structure_glosry.htm "Glossary Entry") in the global class of the ABP and added to an internal table for displaying purposes.
 
-[RAP BO interface](javascript:call_link\('abenrap_bo_interface_glosry.htm'\) "Glossary Entry")
+[RAP BO interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_interface_glosry.htm "Glossary Entry")
 
 DEMO\_INTF\_M
 
@@ -203,7 +154,7 @@ DEMO\_INTF\_EXT\_M
 
 The BDEF extension extends the RAP BO via its interface. It addresses the root node by its interface name. It adds one extension action to the RAP BO which is implemented in the extension ABP. This action simply updates the value of a specific field with a default value. Additionally, the methods in the extension ABP contains similar code snippets for method calls as mentioned above. CCIMP include
 
-[RAP projection business object](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry")
+[RAP projection business object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_projection_bo_glosry.htm "Glossary Entry")
 
 DEMO\_PROJ\_M
 
@@ -362,7 +313,7 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object, the RAP BO interface and RAP projection BO from an ABAP class and performs the following steps:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object, the RAP BO interface and RAP projection BO from an ABAP class and performs the following steps:
 
 1.  Create operation directly on the root entity
     
@@ -381,18 +332,7 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
     More instances are created on the root entity, however, with an ABAP EML MODIFY request via the RAP BO projection. Hence, the from\_projection parameter is filled after calling the get\_current\_context method.
 
 
-
-**📖 Source**: [abenrap_cl_abap_behv_aux_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
-
 ### abenrap_cl_abap_behv_aux_ph_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -400,7 +340,7 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [RAP-Related System Classes and Functionality](javascript:call_link\('abaprap_system_classes.htm'\)) →  [CL\_ABAP\_BEHV\_AUX](javascript:call_link\('abaprap_cl_abap_behv_aux.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap_other.htm) →  [RAP-Related System Classes and Functionality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm) →  [CL\_ABAP\_BEHV\_AUX](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Checking%20RAP%20Transactional%20Phases%2C%20ABENRAP_CL_ABAP_BEHV_AUX_PH_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improveme
 nt:)
@@ -430,7 +370,7 @@ define root view entity demo\_umanaged\_root\_late\_num2
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_UMANAGED\_ROOT\_LATE\_NUM2 is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_UMANAGED\_ROOT\_LATE\_NUM2 is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 unmanaged implementation in class
 bp\_demo\_umanaged\_root\_late\_nu2 unique;
@@ -448,7 +388,7 @@ late numbering
 
 Behavior implementation
 
-For the above RAP behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UMANAGED\_ROOT\_LATE\_NU2. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
+For the above RAP behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UMANAGED\_ROOT\_LATE\_NU2. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
 
 Source Code   
 
@@ -584,29 +524,18 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class.
 
 The example contains four RAP create operations using an ABAP EML MODIFY statement:
 
--   Two RAP create operations fail. One operation intentionally fails in the [finalize](javascript:call_link\('abensaver_finalize.htm'\)) [RAP saver method](javascript:call_link\('abenabp_saver_method_glosry.htm'\) "Glossary Entry"). Another operations fails in the [check\_before\_save](javascript:call_link\('abensaver_check_before_save.htm'\)) method.
+-   Two RAP create operations fail. One operation intentionally fails in the [finalize](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensaver_finalize.htm) [RAP saver method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_saver_method_glosry.htm "Glossary Entry"). Another operations fails in the [check\_before\_save](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensaver_check_before_save.htm) method.
 -   Two RAP create operations are successful.
 -   The example is implemented in a way that in the RAP handler and saver methods a log table is filled. The log table includes, among other things, information about the current RAP transactional phase (retrieved using CL\_ABAP\_BEHV\_AUX=>GET\_CURRENT\_PHASE) and the current handler kind (retrieved using CL\_ABAP\_BEHV\_AUX=>GET\_CURRENT\_HANDLER\_KIND).
 -   The log table and the database table entries as result of the RAP create operations are displayed.
--   The log table for the failed instances shows that the [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry") is not reached, only the [RAP interaction phase](javascript:call_link\('abenrap_int_phase_glosry.htm'\) "Glossary Entry") and the [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry"). The RAP transaction is concluded with the [RAP cleanup phase](javascript:call_link\('abenrap_cleanup_phase_glosry.htm'\) "Glossary Entry") demonstrated by the successful RAP create operations.
+-   The log table for the failed instances shows that the [RAP late save phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlate_rap_save_phase_glosry.htm "Glossary Entry") is not reached, only the [RAP interaction phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_int_phase_glosry.htm "Glossary Entry") and the [RAP early save phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenearly_rap_save_phase_glosry.htm "Glossary Entry"). The RAP transaction is concluded with the [RAP cleanup phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cleanup_phase_glosry.htm "Glossary Entry") demonstrated by the successful RAP create operations.
 
-
-
-**📖 Source**: [abenrap_cl_abap_behv_aux_ph_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
 
 ### abaprap_cl_abap_behv_aux.htm
-
-> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -614,7 +543,7 @@ The example contains four RAP create operations using an ABAP EML MODIFY stateme
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [RAP-Related System Classes and Functionality](javascript:call_link\('abaprap_system_classes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap_other.htm) →  [RAP-Related System Classes and Functionality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CL_ABAP_BEHV_AUX%2C%20ABAPRAP_CL_ABAP_BEHV_AUX%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -628,11 +557,11 @@ Details
 
 GET\_CURRENT\_PHASE
 
-Information about the current [RAP transactional phase](javascript:call_link\('abentransactional_phase_glosry.htm'\) "Glossary Entry"), for example, [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry"), [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry"), or [RAP interaction phase](javascript:call_link\('abenrap_int_phase_glosry.htm'\) "Glossary Entry").
+Information about the current [RAP transactional phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransactional_phase_glosry.htm "Glossary Entry"), for example, [RAP early save phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenearly_rap_save_phase_glosry.htm "Glossary Entry"), [RAP late save phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlate_rap_save_phase_glosry.htm "Glossary Entry"), or [RAP interaction phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_int_phase_glosry.htm "Glossary Entry").
 
 GET\_CURRENT\_CONTEXT
 
-Information about the context of the current [RAP handler](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") and [saver method](javascript:call_link\('abenabp_saver_method_glosry.htm'\) "Glossary Entry")
+Information about the context of the current [RAP handler](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") and [saver method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_saver_method_glosry.htm "Glossary Entry")
 
 GET\_CURRENT\_HANDLER\_KIND
 
@@ -642,15 +571,15 @@ Hint
 
 Regarding GET\_CURRENT\_CONTEXT:
 
--   In the [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry") and [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry") it makes no sense to evaluate the components other than from\_projection.
+-   In the [RAP early save phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenearly_rap_save_phase_glosry.htm "Glossary Entry") and [RAP late save phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlate_rap_save_phase_glosry.htm "Glossary Entry") it makes no sense to evaluate the components other than from\_projection.
 -   The for\_permissions parameter can be used to avoid a double checking of authorization or feature control if an ABAP EML modify request is handled.
 -   Example use cases for the context information:
-    -   When a behavior is accessed via a [RAP interface behavior definition](javascript:call_link\('abencds_interface_bdef_glosry.htm'\) "Glossary Entry"), this access is directly mapped to a request on the base [RAP business object (BO)](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"). A use case might be that the base BO implementation would like to have the information available that it has been called via a [RAP BO interface](javascript:call_link\('abenrap_bo_interface_glosry.htm'\) "Glossary Entry"). For example, a RAP BO interface implements specific logic (for example, some fields are dynamically set to read-only) in the base BO's behavior pool. The implementation in the base BO then requires the name of the RAP BO interface which can be retrieved using the methods of this class.
-    -   Similarly, the base BO implementation might be interested in knowing whether it was invoked by a [RAP projection extension entity](javascript:call_link\('abenrap_proj_ext_entity_glosry.htm'\) "Glossary Entry").
+    -   When a behavior is accessed via a [RAP interface behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_interface_bdef_glosry.htm "Glossary Entry"), this access is directly mapped to a request on the base [RAP business object (BO)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry"). A use case might be that the base BO implementation would like to have the information available that it has been called via a [RAP BO interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_interface_glosry.htm "Glossary Entry"). For example, a RAP BO interface implements specific logic (for example, some fields are dynamically set to read-only) in the base BO's behavior pool. The implementation in the base BO then requires the name of the RAP BO interface which can be retrieved using the methods of this class.
+    -   Similarly, the base BO implementation might be interested in knowing whether it was invoked by a [RAP projection extension entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_proj_ext_entity_glosry.htm "Glossary Entry").
 
 Example
 
-The following code snippet shows how information on the current context might be retrieved using the GET\_CURRENT\_CONTEXT method by storing the information in a variable [declared inline](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry").
+The following code snippet shows how information on the current context might be retrieved using the GET\_CURRENT\_CONTEXT method by storing the information in a variable [declared inline](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninline_declaration_glosry.htm "Glossary Entry").
 
 cl\_abap\_behv\_aux=>get\_current\_context( IMPORTING
       from\_projection = FINAL(fr\_proj)
@@ -662,27 +591,16 @@ cl\_abap\_behv\_aux=>get\_current\_context( IMPORTING
 
 Executable Examples
 
--   The example [Getting RAP Context Information Using CL\_ABAP\_BEHV\_AUX](javascript:call_link\('abenrap_cl_abap_behv_aux_abexa.htm'\)) demonstrates the use of methods of the class CL\_ABAP\_BEHV\_AUX by focusing on the filling of the specific parameters in multiple contexts.
--   The example [Using the Addition PRIVILEGED with an ABAP EML Statement](javascript:call_link\('abeneml_privileged_abexa.htm'\)) demonstrates the addition PRIVILEGED using an [action](javascript:call_link\('abenaction_glosry.htm'\) "Glossary Entry") and a managed RAP BO. In this example, the method get\_current\_context is used to retrieve the information whether the running handler is running in privileged mode.
--   The example [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\)) demonstrates the methods GET\_CURRENT\_PHASE and GET\_CURRENT\_HANDLER\_KIND.
+-   The example [Getting RAP Context Information Using CL\_ABAP\_BEHV\_AUX](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm) demonstrates the use of methods of the class CL\_ABAP\_BEHV\_AUX by focusing on the filling of the specific parameters in multiple contexts.
+-   The example [Using the Addition PRIVILEGED with an ABAP EML Statement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_privileged_abexa.htm) demonstrates the addition PRIVILEGED using an [action](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenaction_glosry.htm "Glossary Entry") and a managed RAP BO. In this example, the method get\_current\_context is used to retrieve the information whether the running handler is running in privileged mode.
+-   The example [Checking RAP Transactional Phases](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm) demonstrates the methods GET\_CURRENT\_PHASE and GET\_CURRENT\_HANDLER\_KIND.
 
 Continue
-![Example](exa.gif "Example") [Getting RAP Context Information Using CL\_ABAP\_BEHV\_AUX](javascript:call_link\('abenrap_cl_abap_behv_aux_abexa.htm'\))
-![Example](exa.gif "Example") [Checking RAP Transactional Phases](javascript:call_link\('abenrap_cl_abap_behv_aux_ph_abexa.htm'\))
+![Example](exa.gif "Example") [Getting RAP Context Information Using CL\_ABAP\_BEHV\_AUX](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_abexa.htm)
+![Example](exa.gif "Example") [Checking RAP Transactional Phases](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cl_abap_behv_aux_ph_abexa.htm)
 
-
-
-**📖 Source**: [abaprap_cl_abap_behv_aux.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_cl_abap_behv_aux.htm)
 
 ### abapcl_abap_behvdescr.htm
-
-> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -690,48 +608,37 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [RAP-Related System Classes and Functionality](javascript:call_link\('abaprap_system_classes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap_other.htm) →  [RAP-Related System Classes and Functionality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CL_ABAP_BEHVDESCR%2C%20ABAPCL_ABAP_BEHVDESCR%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CL\_ABAP\_BEHVDESCR
 
-The class CL\_ABAP\_BEHVDESCR contains methods for [Runtime Type Creation (RTTI)](javascript:call_link\('abenrun_time_type_creation_glosry.htm'\) "Glossary Entry") and [Runtime Type Creation (RTTC)](javascript:call_link\('abenrun_time_type_creation_glosry.htm'\) "Glossary Entry") in the context of [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") in RAP. This means that BDEF derived type information can be retrieved at runtime. Derived types can also be defined at runtime.
+The class CL\_ABAP\_BEHVDESCR contains methods for [Runtime Type Creation (RTTI)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_type_creation_glosry.htm "Glossary Entry") and [Runtime Type Creation (RTTC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_type_creation_glosry.htm "Glossary Entry") in the context of [BDEF derived types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") in RAP. This means that BDEF derived type information can be retrieved at runtime. Derived types can also be defined at runtime.
 
 The following list shows a selection of available methods:
 
 -   GET\_ROOT, GET\_ROOTS\_OF\_ENTITIES: Getting the root entity or entities for a given entity
 -   GET\_TYPE: Getting runtime type information for entities and operations
 -   CREATE\_DATA: Creating data objects typed with BDEF derived types (CRUD or action)
--   GET\_ABS\_TYPENAME: Getting the [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry") for entities and operations
--   SET\_CONTROL\_FLAG, GET\_CONTROL\_FLAG, GET\_CONTROL\_FIELDS: Filling or getting [%control](javascript:call_link\('abapderived_types_control.htm'\)) fields
--   GET\_FOREIGN\_ENTITIES: Getting [RAP foreign entities](javascript:call_link\('abenrap_foreign_entity_glosry.htm'\) "Glossary Entry") and aliases
--   GET\_CONTRACTS: Getting [API classification](javascript:call_link\('abapapi_classification.htm'\))
+-   GET\_ABS\_TYPENAME: Getting the [absolute type name](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabsolute_typename_glosry.htm "Glossary Entry") for entities and operations
+-   SET\_CONTROL\_FLAG, GET\_CONTROL\_FLAG, GET\_CONTROL\_FIELDS: Filling or getting [%control](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_control.htm) fields
+-   GET\_FOREIGN\_ENTITIES: Getting [RAP foreign entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_foreign_entity_glosry.htm "Glossary Entry") and aliases
+-   GET\_CONTRACTS: Getting [API classification](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapapi_classification.htm)
 
 Further Information
 
-For more information, see the class documentation and the [Runtime Type Services (RTTS)](javascript:call_link\('abenrtti.htm'\)) topic.
+For more information, see the class documentation and the [Runtime Type Services (RTTS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti.htm) topic.
 
 Executable Example
 
-[Getting Type Information Using CL\_ABAP\_BEHVDESCR](javascript:call_link\('abenrap_type_info_abexa.htm'\))
+[Getting Type Information Using CL\_ABAP\_BEHVDESCR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Getting BDEF Derived Type Information Using CL\_ABAP\_BEHVDESCR](javascript:call_link\('abenrap_type_info_abexa.htm'\))
+![Example](exa.gif "Example") [Getting BDEF Derived Type Information Using CL\_ABAP\_BEHVDESCR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
 
-
-
-**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
 
 ### abenrap_type_info_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -739,7 +646,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [RAP-Related System Classes and Functionality](javascript:call_link\('abaprap_system_classes.htm'\)) →  [CL\_ABAP\_BEHVDESCR](javascript:call_link\('abapcl_abap_behvdescr.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap_other.htm) →  [RAP-Related System Classes and Functionality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm) →  [CL\_ABAP\_BEHVDESCR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Getting%20BDEF%20Derived%20Type%20Information%20Using%20CL_ABAP_BEHVDESCR%2C%20ABENRAP_TYPE_INFO_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugg
 estion%20for%20improvement:)
@@ -961,26 +868,12 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class.
 
-The class demonstrates various methods of the CL\_ABAP\_BEHVDESCR class, for example, for getting [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") information or creating types.
+The class demonstrates various methods of the CL\_ABAP\_BEHVDESCR class, for example, for getting [BDEF derived type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") information or creating types.
 
-
-
-**📖 Source**: [abenrap_type_info_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
 
 ### abapcl_abap_behvdescr.htm
-
-> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapcl_abap_behvdescr.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcl_abap_behvdescr.htm)
-
 
   
 
@@ -988,31 +881,31 @@ The class demonstrates various methods of the CL\_ABAP\_BEHVDESCR class, for exa
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [RAP-Related System Classes and Functionality](javascript:call_link\('abaprap_system_classes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap_other.htm) →  [RAP-Related System Classes and Functionality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_system_classes.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CL_ABAP_BEHVDESCR%2C%20ABAPCL_ABAP_BEHVDESCR%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CL\_ABAP\_BEHVDESCR
 
-The class CL\_ABAP\_BEHVDESCR contains methods for [Runtime Type Creation (RTTI)](javascript:call_link\('abenrun_time_type_creation_glosry.htm'\) "Glossary Entry") and [Runtime Type Creation (RTTC)](javascript:call_link\('abenrun_time_type_creation_glosry.htm'\) "Glossary Entry") in the context of [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") in RAP. This means that BDEF derived type information can be retrieved at runtime. Derived types can also be defined at runtime.
+The class CL\_ABAP\_BEHVDESCR contains methods for [Runtime Type Creation (RTTI)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_type_creation_glosry.htm "Glossary Entry") and [Runtime Type Creation (RTTC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_type_creation_glosry.htm "Glossary Entry") in the context of [BDEF derived types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") in RAP. This means that BDEF derived type information can be retrieved at runtime. Derived types can also be defined at runtime.
 
 The following list shows a selection of available methods:
 
 -   GET\_ROOT, GET\_ROOTS\_OF\_ENTITIES: Getting the root entity or entities for a given entity
 -   GET\_TYPE: Getting runtime type information for entities and operations
 -   CREATE\_DATA: Creating data objects typed with BDEF derived types (CRUD or action)
--   GET\_ABS\_TYPENAME: Getting the [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry") for entities and operations
--   SET\_CONTROL\_FLAG, GET\_CONTROL\_FLAG, GET\_CONTROL\_FIELDS: Filling or getting [%control](javascript:call_link\('abapderived_types_control.htm'\)) fields
--   GET\_FOREIGN\_ENTITIES: Getting [RAP foreign entities](javascript:call_link\('abenrap_foreign_entity_glosry.htm'\) "Glossary Entry") and aliases
--   GET\_CONTRACTS: Getting [API classification](javascript:call_link\('abapapi_classification.htm'\))
+-   GET\_ABS\_TYPENAME: Getting the [absolute type name](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabsolute_typename_glosry.htm "Glossary Entry") for entities and operations
+-   SET\_CONTROL\_FLAG, GET\_CONTROL\_FLAG, GET\_CONTROL\_FIELDS: Filling or getting [%control](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_control.htm) fields
+-   GET\_FOREIGN\_ENTITIES: Getting [RAP foreign entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_foreign_entity_glosry.htm "Glossary Entry") and aliases
+-   GET\_CONTRACTS: Getting [API classification](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapapi_classification.htm)
 
 Further Information
 
-For more information, see the class documentation and the [Runtime Type Services (RTTS)](javascript:call_link\('abenrtti.htm'\)) topic.
+For more information, see the class documentation and the [Runtime Type Services (RTTS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti.htm) topic.
 
 Executable Example
 
-[Getting Type Information Using CL\_ABAP\_BEHVDESCR](javascript:call_link\('abenrap_type_info_abexa.htm'\))
+[Getting Type Information Using CL\_ABAP\_BEHVDESCR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Getting BDEF Derived Type Information Using CL\_ABAP\_BEHVDESCR](javascript:call_link\('abenrap_type_info_abexa.htm'\))
+![Example](exa.gif "Example") [Getting BDEF Derived Type Information Using CL\_ABAP\_BEHVDESCR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_info_abexa.htm)

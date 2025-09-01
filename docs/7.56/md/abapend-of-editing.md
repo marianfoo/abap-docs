@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Event Blocks](javascript:call_link\('abenevent_block_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobsolete_modularization.htm) →  [Event Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenevent_block_obsolete.htm) → 
 
 END-OF-EDITING
 
-[Short Reference](javascript:call_link\('abapend-of-editing_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-editing_shortref.htm)
 
 Obsolete Syntax
 
@@ -16,7 +16,7 @@ END-OF-EDITING.
 
 Effect
 
-The statement END-OF-EDITING defines an [event block](javascript:call_link\('abenevent_block_glosry.htm'\) "Glossary Entry") in an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry"). The event of the program is raised by the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry") during the [executable program flow](javascript:call_link\('abenreporting_process.htm'\)) directly after [END-OF-SELECTION](javascript:call_link\('abapend-of-selection.htm'\)).
+The statement END-OF-EDITING defines an [event block](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenevent_block_glosry.htm "Glossary Entry") in an [executable program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexecutable_program_glosry.htm "Glossary Entry"). The event of the program is raised by the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry") during the [executable program flow](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreporting_process.htm) directly after [END-OF-SELECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-selection.htm).
 
 Hint
 

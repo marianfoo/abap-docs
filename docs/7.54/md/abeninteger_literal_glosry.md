@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 Integer literal
 
-[Numeric literal](javascript:call_link\('abennumeric_literal_glosry.htm'\) "Glossary Entry") of the [integer](javascript:call_link\('abeninteger_glosry.htm'\) "Glossary Entry") type [i](javascript:call_link\('abenbuiltin_types_numeric.htm'\)).
+[Numeric literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_literal_glosry.htm "Glossary Entry") of the [integer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninteger_glosry.htm "Glossary Entry") type [i](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuiltin_types_numeric.htm).
 
-[→ More](javascript:call_link\('abenuntyped_number_literals.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuntyped_number_literals.htm)

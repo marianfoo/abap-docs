@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 splitter control
 
-Splitter controls make it possible to display two [subscreens](javascript:call_link\('abensubscreen_glosry.htm'\) "Glossary Entry") beside each other or one above the other. A splitter control is a [screen element](javascript:call_link\('abenscreen_element_glosry.htm'\) "Glossary Entry") that divides the area that it covers into two [subscreen areas](javascript:call_link\('abensubscreen_arrea_glosry.htm'\) "Glossary Entry"). The boundary between the areas can be moved using a [sash](javascript:call_link\('abensash_glosry.htm'\) "Glossary Entry").
+Splitter controls make it possible to display two [subscreens](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_glosry.htm "Glossary Entry") beside each other or one above the other. A splitter control is a [screen element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_element_glosry.htm "Glossary Entry") that divides the area that it covers into two [subscreen areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_arrea_glosry.htm "Glossary Entry"). The boundary between the areas can be moved using a [sash](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensash_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abendynp_splitter_control_spcl.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_splitter_control_spcl.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT - FROM](javascript:call_link\('abapfrom_clause.htm'\)) →  [SELECT - FROM data\_source](javascript:call_link\('abapselect_data_source.htm'\)) →  [SELECT - FROM hierarchy\_data](javascript:call_link\('abenselect_hierarchy_data.htm'\)) →  [SELECT - FROM hierarchy](javascript:call_link\('abenselect_hierarchy.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Reads](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_reading.htm) →  [SELECT clauses](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_clauses.htm) →  [SELECT - FROM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfrom_clause.htm) →  [SELECT - FROM data\_source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_data_source.htm) →  [SELECT - FROM hierarchy\_data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy_data.htm) →  [SELECT - FROM hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy.htm) → 
 
 SELECT - FROM HIERARCHY
 
@@ -13,7 +13,7 @@ Syntax
 ... HIERARCHY( SOURCE hierarchy\_source *\[*WITH PRIVILEGED ACCESS*\]*
                CHILD TO PARENT ASSOCIATION \_hierarchy\_assoc
               *\[*PERIOD FROM field1 TO field2 VALID FROM from TO to*\]*
-               START WHERE [sql\_cond](javascript:call_link\('abenosql_expr_logexp.htm'\))
+               START WHERE [sql\_cond](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenosql_expr_logexp.htm)
               *\[*SIBLINGS ORDER BY field1 *\[*ASCENDING*|*DESCENDING*\]**\[*,
                                  field2 *\[*ASCENDING*|*DESCENDING*\]*, ...*\]**\]*
               *\[*DEPTH depth*\]*
@@ -37,15 +37,15 @@ Extras:
 
 Effect
 
-Specifies the [hierarchy generator](javascript:call_link\('abenhierarchy_generator_glosry.htm'\) "Glossary Entry") HIERARCHY as a hierarchy [hierarchy](javascript:call_link\('abenselect_hierarchy.htm'\)) in an ABAP SQL query. The hierarchy generator generates the [hierarchy](javascript:call_link\('abenhierarchy_glosry.htm'\) "Glossary Entry"). The following needs to be specified:
+Specifies the [hierarchy generator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_generator_glosry.htm "Glossary Entry") HIERARCHY as a hierarchy [hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy.htm) in an ABAP SQL query. The hierarchy generator generates the [hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_glosry.htm "Glossary Entry"). The following needs to be specified:
 
 -   SOURCE must be followed by the source hierarchy\_source of the hierarchy.
 
--   CHILD TO PARENT ASSOCIATION must be followed by a [hierarchy association](javascript:call_link\('abenhierarchy_association_glosry.htm'\) "Glossary Entry") \_hierarchy\_assoc published by the source hierarchy\_source. The source data source and target data source of this association must be the source hierarchy\_source. The ON condition of the hierarchy association defines the [parent-child relationships](javascript:call_link\('abenpcr_glosry.htm'\) "Glossary Entry") between the [hierarchy nodes](javascript:call_link\('abenhierarchy_node_glosry.htm'\) "Glossary Entry").
+-   CHILD TO PARENT ASSOCIATION must be followed by a [hierarchy association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_association_glosry.htm "Glossary Entry") \_hierarchy\_assoc published by the source hierarchy\_source. The source data source and target data source of this association must be the source hierarchy\_source. The ON condition of the hierarchy association defines the [parent-child relationships](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpcr_glosry.htm "Glossary Entry") between the [hierarchy nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_node_glosry.htm "Glossary Entry").
 
--   START WHERE must be followed by a start condition that defines [root nodes](javascript:call_link\('abenroot_node_glosry.htm'\) "Glossary Entry") for the [root node set](javascript:call_link\('abenroot_node_set_glosry.htm'\) "Glossary Entry") of the hierarchy. The hierarchy consists of the root nodes of the root node set and their [descendant nodes](javascript:call_link\('abendescendant_node_glosry.htm'\) "Glossary Entry").
+-   START WHERE must be followed by a start condition that defines [root nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_node_glosry.htm "Glossary Entry") for the [root node set](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_node_set_glosry.htm "Glossary Entry") of the hierarchy. The hierarchy consists of the root nodes of the root node set and their [descendant nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescendant_node_glosry.htm "Glossary Entry").
 
-All other additions are optional and define further properties of the hierarchy. The rows of the tabular results set of the hierarchy generator are the [hierarchy nodes](javascript:call_link\('abenhierarchy_node_glosry.htm'\) "Glossary Entry") of the generated hierarchy and their columns comprise the elements of the source specified after SOURCE and the additional [hierarchy columns](javascript:call_link\('abenddddl_hierarchy.htm'\)).
+All other additions are optional and define further properties of the hierarchy. The rows of the tabular results set of the hierarchy generator are the [hierarchy nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_node_glosry.htm "Glossary Entry") of the generated hierarchy and their columns comprise the elements of the source specified after SOURCE and the additional [hierarchy columns](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddddl_hierarchy.htm).
 
 The hierarchy navigator HIERARCHY publishes all associations of the source hierarchy\_source specified after SOURCE implicitly and leaves its target data source unchanged.
 
@@ -55,14 +55,14 @@ Notes
 
 -   Rows of the results set of the source specified after SOURCE can occur more than once in the results set of the hierarchy generator, if selected by appropriate parent-child relationships.
 
--   The hierarchy generator HIERARCHY in ABAP SQL works in the same way as the statement [DEFINE HIERARCHY](javascript:call_link\('abencds_f1_define_hierarchy.htm'\)) in [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry"). Accessing the hierarchy generator HIERARCHY as the data source of a query is the same as accessing a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry") defined accordingly.
+-   The hierarchy generator HIERARCHY in ABAP SQL works in the same way as the statement [DEFINE HIERARCHY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm) in [ABAP CDS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm "Glossary Entry"). Accessing the hierarchy generator HIERARCHY as the data source of a query is the same as accessing a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry") defined accordingly.
 
--   An association published implicitly by the hierarchy generator HIERARCHY can be used in [path expressions](javascript:call_link\('abenopen_sql_path.htm'\)) or in further hierarchy generators.
+-   An association published implicitly by the hierarchy generator HIERARCHY can be used in [path expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_path.htm) or in further hierarchy generators.
     
 
 Example
 
-Specifies the hierarchy generator HIERARCHY as the data source of a SELECT statement in the program DEMO\_HIERARCHY\_TREE. The source of the hierarchy generator is a CDS view that uses the [global temporary table](javascript:call_link\('abenglobal_temporary_table_glosry.htm'\) "Glossary Entry") DEMO\_SIMPLE\_TREE as a data source and whose CDS association \_tree defines the parent-child association. The hierarchy generator selects the row with the value of start\_id in the column ID as the [root node](javascript:call_link\('abenroot_node_glosry.htm'\) "Glossary Entry") and, starting from this node, inserts all [descendant nodes](javascript:call_link\('abendescendant_node_glosry.htm'\) "Glossary Entry") in the results set that meet the ON condition of the hierarchy association. The results set contains all columns of the view DEMO\_CDS\_SIMPLE\_TREE\_SOURCE, plus all potential [hierarchy columns](javascript:call_link\('abenddddl_hierarchy.htm'\)). When executed, this program demonstrates the result of the SELECT statement.
+Specifies the hierarchy generator HIERARCHY as the data source of a SELECT statement in the program DEMO\_HIERARCHY\_TREE. The source of the hierarchy generator is a CDS view that uses the [global temporary table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry") DEMO\_SIMPLE\_TREE as a data source and whose CDS association \_tree defines the parent-child association. The hierarchy generator selects the row with the value of start\_id in the column ID as the [root node](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_node_glosry.htm "Glossary Entry") and, starting from this node, inserts all [descendant nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescendant_node_glosry.htm "Glossary Entry") in the results set that meet the ON condition of the hierarchy association. The results set contains all columns of the view DEMO\_CDS\_SIMPLE\_TREE\_SOURCE, plus all potential [hierarchy columns](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddddl_hierarchy.htm). When executed, this program demonstrates the result of the SELECT statement.
 
 DATA(start\_id) = 1.
 SELECT FROM HIERARCHY( SOURCE demo\_cds\_simple\_tree\_source
@@ -89,33 +89,33 @@ Addition 1
 
 Effect
 
-The addition SOURCE specifies hierarchy\_source as the source of the hierarchy generator. This source must publish the [hierarchy association](javascript:call_link\('abenhierarchy_association_glosry.htm'\) "Glossary Entry") \_hierarchy\_assoc specified after CHILD TO PARENT ASSOCIATION. The following are potential sources hierarchy\_source:
+The addition SOURCE specifies hierarchy\_source as the source of the hierarchy generator. This source must publish the [hierarchy association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_association_glosry.htm "Glossary Entry") \_hierarchy\_assoc specified after CHILD TO PARENT ASSOCIATION. The following are potential sources hierarchy\_source:
 
 -   A CDS view cds\_view
 
-cds\_view can be specified as a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") that [publishes](javascript:call_link\('abencds_f1_select_list_association.htm'\)) the hierarchy association \_hierarchy\_assoc in its SELECT list.
+cds\_view can be specified as a [CDS view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry") that [publishes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list_association.htm) the hierarchy association \_hierarchy\_assoc in its SELECT list.
 
 -   A common table expression +cte
 
-+cte can be specified as a preceding [common table expression](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry") in a [WITH](javascript:call_link\('abapwith.htm'\)) statement that publishes the hierarchy association \_hierarchy\_assoc using the addition [WITH ASSOCIATIONS](javascript:call_link\('abapwith_associations.htm'\)). The self association prerequisite can be met as follows:
++cte can be specified as a preceding [common table expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") in a [WITH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith.htm) statement that publishes the hierarchy association \_hierarchy\_assoc using the addition [WITH ASSOCIATIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith_associations.htm). The self association prerequisite can be met as follows:
 
--   The addition [REDIRECTED](javascript:call_link\('abapwith_associations_using.htm'\)) is used to replace the target data source of an association of a data source of the common table expression with the common table expression itself.
+-   The addition [REDIRECTED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith_associations_using.htm) is used to replace the target data source of an association of a data source of the common table expression with the common table expression itself.
 
--   [JOIN TO ONE*|*MANY](javascript:call_link\('abapwith_associations_defining.htm'\)) is used to define a CTE association as a self association for the common table expression.
+-   [JOIN TO ONE*|*MANY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith_associations_defining.htm) is used to define a CTE association as a self association for the common table expression.
 
 -   A nested hierarchy hierarchy
 
-The hierarchy generator HIERARCHY can use other hierarchies [hierarchy](javascript:call_link\('abenselect_hierarchy.htm'\)) as a source. The following applies here:
+The hierarchy generator HIERARCHY can use other hierarchies [hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy.htm) as a source. The following applies here:
 
--   A CDS hierarchy [cds\_hierarchy](javascript:call_link\('abenselect_cds_hierarchy.htm'\)) must publish the hierarchy association \_hierarchy\_assoc in its element list. To meet the self association prerequisite, the association must be an additional association between the source of the CDS hierarchy and the CDS hierarchy.
+-   A CDS hierarchy [cds\_hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_cds_hierarchy.htm) must publish the hierarchy association \_hierarchy\_assoc in its element list. To meet the self association prerequisite, the association must be an additional association between the source of the CDS hierarchy and the CDS hierarchy.
 
 -   The hierarchy generator HIERARCHY publishes all associations of its source implicitly.
 
--   A [CTE hierarchy](javascript:call_link\('abencte_hierarchy_glosry.htm'\) "Glossary Entry") must use [WITH ASSOCIATIONS](javascript:call_link\('abapwith_associations.htm'\)) to publish the hierarchy association \_hierarchy\_assoc. Furthermore, the addition REDIRECTED must be used to replace the target data source of the association in such a way that the self association prerequisite is met.
+-   A [CTE hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencte_hierarchy_glosry.htm "Glossary Entry") must use [WITH ASSOCIATIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith_associations.htm) to publish the hierarchy association \_hierarchy\_assoc. Furthermore, the addition REDIRECTED must be used to replace the target data source of the association in such a way that the self association prerequisite is met.
 
-The hierarchy generator uses the result of a source specified after SOURCE as a source (its additional [hierarchy columns](javascript:call_link\('abenddddl_hierarchy.htm'\)) are ignored). An outer hierarchy generator always adds its own hierarchy columns directly to the columns of the hierarchy specified after SOURCE. Any hierarchy columns listed explicitly in the element list of a CDS hierarchy that is specified as a source, on the other hand, are part of this hierarchy's results set and are respected accordingly.
+The hierarchy generator uses the result of a source specified after SOURCE as a source (its additional [hierarchy columns](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddddl_hierarchy.htm) are ignored). An outer hierarchy generator always adds its own hierarchy columns directly to the columns of the hierarchy specified after SOURCE. Any hierarchy columns listed explicitly in the element list of a CDS hierarchy that is specified as a source, on the other hand, are part of this hierarchy's results set and are respected accordingly.
 
-If a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry") is assigned to a CDS view specified as a source, the source is implicitly subject to [CDS access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry") and only nodes that meet the [access conditions](javascript:call_link\('abenaccess_condition_glosry.htm'\) "Glossary Entry") of the CDS role are transferred to the hierarchy. When specifying the optional addition WITH PRIVILEGED ACCESS, the access control is deactivated and the access conditions are not evaluated.
+If a [CDS role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry") is assigned to a CDS view specified as a source, the source is implicitly subject to [CDS access control](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_access_control_glosry.htm "Glossary Entry") and only nodes that meet the [access conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenaccess_condition_glosry.htm "Glossary Entry") of the CDS role are transferred to the hierarchy. When specifying the optional addition WITH PRIVILEGED ACCESS, the access control is deactivated and the access conditions are not evaluated.
 
 Note
 
@@ -125,9 +125,9 @@ Example
 
 Uses a CDS view and two common table expressions as the source of the hierarchy generator HIERARCHY in the program DEMO\_HIERARCHY\_GENERATOR.
 
--   The first common table expression accesses the same CDS view and uses a path expression to [publish](javascript:call_link\('abapwith_associations_using.htm'\)) the same hierarchy association. This expression must use [REDIRECTED TO](javascript:call_link\('abapwith_associations.htm'\)) to redirect the hierarchy association to itself and hence meet the self association requirement.
+-   The first common table expression accesses the same CDS view and uses a path expression to [publish](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith_associations_using.htm) the same hierarchy association. This expression must use [REDIRECTED TO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith_associations.htm) to redirect the hierarchy association to itself and hence meet the self association requirement.
 
--   The second common table expression accesses the database table DEMO\_SIMPLE\_TREE in the same way as the CDS view and [defines](javascript:call_link\('abapwith_associations_defining.htm'\)) a separate [CTE association](javascript:call_link\('abencte_association_glosry.htm'\) "Glossary Entry") as a self association that is then used as a hierarchy association.
+-   The second common table expression accesses the database table DEMO\_SIMPLE\_TREE in the same way as the CDS view and [defines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith_associations_defining.htm) a separate [CTE association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencte_association_glosry.htm "Glossary Entry") as a self association that is then used as a hierarchy association.
 
 All main queries have the same result.
 
@@ -172,7 +172,7 @@ ASSERT cte\_join\_result = cds\_result.
 
 Example
 
-Nests hierarchies in the hierarchy generator HIERARCHY in the program DEMO\_HIERARCHY\_NESTED. When executed, this program demonstrates the result of the SELECT statements. Three tree-like hierarchies that start at the row with the value 1 in the column ID are restricted to a depth of 2. From these hierarchies, further hierarchies are selected that start at the row with the value 5 in the column ID. The three inner hierarchies are specified as a CDS hierarchy, the hierarchy generator HIERARCHY, and as a [CTE hierarchy](javascript:call_link\('abencte_hierarchy_glosry.htm'\) "Glossary Entry"). In the case of the CDS hierarchy and the CTE hierarchy, the hierarchy association must be verified as a self association explicitly. The three inner hierarchies have the same results sets, which means that the results of the three SELECT statements are also the same.
+Nests hierarchies in the hierarchy generator HIERARCHY in the program DEMO\_HIERARCHY\_NESTED. When executed, this program demonstrates the result of the SELECT statements. Three tree-like hierarchies that start at the row with the value 1 in the column ID are restricted to a depth of 2. From these hierarchies, further hierarchies are selected that start at the row with the value 5 in the column ID. The three inner hierarchies are specified as a CDS hierarchy, the hierarchy generator HIERARCHY, and as a [CTE hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencte_hierarchy_glosry.htm "Glossary Entry"). In the case of the CDS hierarchy and the CTE hierarchy, the hierarchy association must be verified as a self association explicitly. The three inner hierarchies have the same results sets, which means that the results of the three SELECT statements are also the same.
 
 "CDS hierarchy as source of hierarchy generator
 SELECT FROM HIERARCHY(
@@ -231,19 +231,19 @@ Addition 2
 
 Effect
 
-The addition CHILD TO PARENT ASSOCIATION specifies the [hierarchy association](javascript:call_link\('abenhierarchy_association_glosry.htm'\) "Glossary Entry") whose ON condition of the hierarchy generator selects the [descendant nodes](javascript:call_link\('abendescendant_node_glosry.htm'\) "Glossary Entry") of the [root node set](javascript:call_link\('abenroot_node_set_glosry.htm'\) "Glossary Entry"). The hierarchy association must be published by the source hierarchy\_source specified after SOURCE.
+The addition CHILD TO PARENT ASSOCIATION specifies the [hierarchy association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_association_glosry.htm "Glossary Entry") whose ON condition of the hierarchy generator selects the [descendant nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescendant_node_glosry.htm "Glossary Entry") of the [root node set](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_node_set_glosry.htm "Glossary Entry"). The hierarchy association must be published by the source hierarchy\_source specified after SOURCE.
 
-The hierarchy association defines the parent-child relationship between the [hierarchy nodes](javascript:call_link\('abenhierarchy_node_glosry.htm'\) "Glossary Entry"). The following conditions apply here:
+The hierarchy association defines the parent-child relationship between the [hierarchy nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_node_glosry.htm "Glossary Entry"). The following conditions apply here:
 
--   The association must be a [self-association](javascript:call_link\('abenself_association_glosry.htm'\) "Glossary Entry").
+-   The association must be a [self-association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenself_association_glosry.htm "Glossary Entry").
 
 -   Only equality comparisons with the operator \= and joined using AND can occur in the ON condition of the association.
 
 -   In each comparison in the ON condition, one field of the source data source must be compared with a field (prefixed with \_hierarchy\_assoc) of the target data source.
 
--   The source data source of the association cannot contain any fields that have the same name as a [hierarchy column](javascript:call_link\('abenddddl_hierarchy.htm'\)). An alternative element name must be defined for these fields.
+-   The source data source of the association cannot contain any fields that have the same name as a [hierarchy column](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddddl_hierarchy.htm). An alternative element name must be defined for these fields.
 
-Each row of the results set of the source hierarchy\_source that meets the ON condition for an existing hierarchy node is included recursively in the hierarchy as its [child node](javascript:call_link\('abenchild_node_glosry.htm'\) "Glossary Entry") (if this is possible).
+Each row of the results set of the source hierarchy\_source that meets the ON condition for an existing hierarchy node is included recursively in the hierarchy as its [child node](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchild_node_glosry.htm "Glossary Entry") (if this is possible).
 
 Note
 
@@ -273,23 +273,23 @@ Addition 3
 
 Effect
 
-Defines a hierarchy as a [temporal hierarchy](javascript:call_link\('abentemporal_hierarchy_glosry.htm'\) "Glossary Entry") in which the hierarchy nodes are limited by an adjustment of time intervals.
+Defines a hierarchy as a [temporal hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentemporal_hierarchy_glosry.htm "Glossary Entry") in which the hierarchy nodes are limited by an adjustment of time intervals.
 
--   With field1 and field2, the fields of the source hierarchy\_source are specified, which define the lower and upper limits of a [period](javascript:call_link\('abenperiod_glosry.htm'\) "Glossary Entry") in the hierarchy details. field1 and field2 must be different fields of the same data type. This can be:
+-   With field1 and field2, the fields of the source hierarchy\_source are specified, which define the lower and upper limits of a [period](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenperiod_glosry.htm "Glossary Entry") in the hierarchy details. field1 and field2 must be different fields of the same data type. This can be:
 
--   The built-in type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) of ABAP Dictionary.
+-   The built-in type [DATS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) of ABAP Dictionary.
 
--   A data type that is defined by one of the [data elements](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry") TIMESTAMP or TIMESTAMPL.
+-   A data type that is defined by one of the [data elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_element_glosry.htm "Glossary Entry") TIMESTAMP or TIMESTAMPL.
 
--   from and to define the lower and upper limit of a time interval that acts as a condition for the periods of the [root node set](javascript:call_link\('abenroot_node_set_glosry.htm'\) "Glossary Entry"). For from and to, [host variables](javascript:call_link\('abenopen_sql_host_variables.htm'\)) and [host expressions](javascript:call_link\('abenopen_sql_host_expressions.htm'\)) can be specified, whose ABAP data type matches the dictionary data type of field1 and field2 exactly. If field1 and field2 are date fields of the type DATS, text field literals of at least length 8 can also be specified for from and to.
+-   from and to define the lower and upper limit of a time interval that acts as a condition for the periods of the [root node set](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_node_set_glosry.htm "Glossary Entry"). For from and to, [host variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_variables.htm) and [host expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_expressions.htm) can be specified, whose ABAP data type matches the dictionary data type of field1 and field2 exactly. If field1 and field2 are date fields of the type DATS, text field literals of at least length 8 can also be specified for from and to.
 
 A temporal hierarchy is generated as follows:
 
--   Only [root nodes](javascript:call_link\('abenroot_node_glosry.htm'\) "Glossary Entry") of the [root node set](javascript:call_link\('abenroot_node_set_glosry.htm'\) "Glossary Entry") in which the period defined using field1 and field2 has a non empty intersection with the time interval defined by from and to are taken into account. This intersection forms the [validity interval](javascript:call_link\('abenvalidity_interval_glosry.htm'\) "Glossary Entry") of the root node.
+-   Only [root nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_node_glosry.htm "Glossary Entry") of the [root node set](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_node_set_glosry.htm "Glossary Entry") in which the period defined using field1 and field2 has a non empty intersection with the time interval defined by from and to are taken into account. This intersection forms the [validity interval](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalidity_interval_glosry.htm "Glossary Entry") of the root node.
 
--   Only [child nodes](javascript:call_link\('abenchild_node_glosry.htm'\) "Glossary Entry") in which the period defined by field1 and field2 has a non empty intersection with the validity interval of the [parent node](javascript:call_link\('abenparent_node_glosry.htm'\) "Glossary Entry") are generated. This intersection forms the [validity interval](javascript:call_link\('abenvalidity_interval_glosry.htm'\) "Glossary Entry") of the child node.
+-   Only [child nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchild_node_glosry.htm "Glossary Entry") in which the period defined by field1 and field2 has a non empty intersection with the validity interval of the [parent node](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenparent_node_glosry.htm "Glossary Entry") are generated. This intersection forms the [validity interval](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalidity_interval_glosry.htm "Glossary Entry") of the child node.
 
-For temporal hierarchies, there are additional [hierarchy columns](javascript:call_link\('abenddddl_hierarchy.htm'\)) VALID\_FROM and VALID\_UNTIL, which contain the interval limits of the [validity interval](javascript:call_link\('abenvalidity_interval_glosry.htm'\) "Glossary Entry") of each hierarchy node.
+For temporal hierarchies, there are additional [hierarchy columns](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddddl_hierarchy.htm) VALID\_FROM and VALID\_UNTIL, which contain the interval limits of the [validity interval](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalidity_interval_glosry.htm "Glossary Entry") of each hierarchy node.
 
 The addition PERIOD must not be used with GENERATE SPANTREE.
 
@@ -299,18 +299,18 @@ Notes
 
 -   For a descendant node to belong to a temporal hierarchy, it is not sufficient for its period to overlap with the time interval defined by from and to. Only the validity interval of the parent node is decisive. A path of a normal hierarchy is truncated in a temporal hierarchy at the position in which there is no intersection between the period and the preceding validity interval.
 
--   The source data source of the current [hierarchy association](javascript:call_link\('abenhierarchy_association_glosry.htm'\) "Glossary Entry") must not have any fields called VALID\_FROM or VALID\_UNTIL. An alternative element name must be defined for these fields.
+-   The source data source of the current [hierarchy association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_association_glosry.htm "Glossary Entry") must not have any fields called VALID\_FROM or VALID\_UNTIL. An alternative element name must be defined for these fields.
 
 -   The value of to can also be less than the value of from. However, a validity interval is formed where necessary. In contrast, if the value of the lower interval limit of the period is greater than the value of the upper interval limit, the validity interval is empty.
 
 -   Additions such as MULTIPLE PARENTS or CYCLES affect the temporal hierarchy. Nodes that would raise an exception in a normal hierarchy can be hidden in a temporal hierarchy.
 
--   To generate a temporal hierarchy, in an [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"), the hierarchy generator function [HIERARCHY\_TEMPORAL](https://help.sap.com/viewer/4f9859d273254e04af6ab3e9ea3af286/2.0.03/en-US/a93c356d32ef4e7fbd6143b554278eab.html) there is called.
+-   To generate a temporal hierarchy, in an [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry"), the hierarchy generator function [HIERARCHY\_TEMPORAL](https://help.sap.com/viewer/4f9859d273254e04af6ab3e9ea3af286/2.0.03/en-US/a93c356d32ef4e7fbd6143b554278eab.html) there is called.
     
 
 Example
 
-Generation of two [temporal hierarchies](javascript:call_link\('abentemporal_hierarchy_glosry.htm'\) "Glossary Entry") in the program DEMO\_HIERARCHY\_TEMPORAL, where in one date fields and in the other time stamp fields are used as [periods](javascript:call_link\('abenperiod_glosry.htm'\) "Glossary Entry").
+Generation of two [temporal hierarchies](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentemporal_hierarchy_glosry.htm "Glossary Entry") in the program DEMO\_HIERARCHY\_TEMPORAL, where in one date fields and in the other time stamp fields are used as [periods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenperiod_glosry.htm "Glossary Entry").
 
 SELECT FROM HIERARCHY(
   SOURCE demo\_cds\_parent\_child\_src\_prd
@@ -346,7 +346,7 @@ SELECT FROM HIERARCHY(
               valid\_until
        INTO TABLE @DATA(asql\_ts\_period) ##TYPE.
 
-When executed, this program demonstrates how the PERIOD addition works. The date and time stamp fields of the database table DEMO\_PARCHLD\_PRD, which are accessed in the source of the hierarchy generator DEMO\_CDS\_PARENT\_CHILD\_SRC\_PRD, are filled with data for this purpose. A normal hierarchy without the addition PERIOD and the two temporal hierarchies are shown. The [validity intervals](javascript:call_link\('abenvalidity_interval_glosry.htm'\) "Glossary Entry") are also output for these.
+When executed, this program demonstrates how the PERIOD addition works. The date and time stamp fields of the database table DEMO\_PARCHLD\_PRD, which are accessed in the source of the hierarchy generator DEMO\_CDS\_PARENT\_CHILD\_SRC\_PRD, are filled with data for this purpose. A normal hierarchy without the addition PERIOD and the two temporal hierarchies are shown. The [validity intervals](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalidity_interval_glosry.htm "Glossary Entry") are also output for these.
 
 -   The temporal hierarchy based on date fields contains only the nodes with the values A, B, and C in the column ID. The period of the node with the value D does not overlap with the validity interval of the parent node with the value B. This means that the child node with the value E is truncated, irrespective of its period. All other nodes F to I haven empty periods and do not come into question anyway.
 
@@ -359,7 +359,7 @@ Addition 4
 
 Effect
 
-The addition START WHERE specifies the start condition for the hierarchy generator. START WHERE must be followed by a logical expression [sql\_cond](javascript:call_link\('abenosql_expr_logexp.htm'\)) that selects rows from the source hierarchy\_source. The selected rows are inserted in the hierarchy as a [root node set](javascript:call_link\('abenroot_node_set_glosry.htm'\) "Glossary Entry"). For each [root node](javascript:call_link\('abenroot_node_glosry.htm'\) "Glossary Entry") in the root node set, the [descendant nodes](javascript:call_link\('abendescendant_node_glosry.htm'\) "Glossary Entry") are selected that meet the ON condition of the hierarchy association and, if possible, inserted in the hierarchy.
+The addition START WHERE specifies the start condition for the hierarchy generator. START WHERE must be followed by a logical expression [sql\_cond](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenosql_expr_logexp.htm) that selects rows from the source hierarchy\_source. The selected rows are inserted in the hierarchy as a [root node set](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_node_set_glosry.htm "Glossary Entry"). For each [root node](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_node_glosry.htm "Glossary Entry") in the root node set, the [descendant nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescendant_node_glosry.htm "Glossary Entry") are selected that meet the ON condition of the hierarchy association and, if possible, inserted in the hierarchy.
 
 Note
 
@@ -387,23 +387,23 @@ Addition 5
 
 Effect
 
-The addition SIBLINGS ORDER BY sorts [sibling nodes](javascript:call_link\('abensibling_node_glosry.htm'\) "Glossary Entry") in the hierarchy generated by the hierarchy generator. If this addition is not used, the order of the sibling nodes is undefined.
+The addition SIBLINGS ORDER BY sorts [sibling nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensibling_node_glosry.htm "Glossary Entry") in the hierarchy generated by the hierarchy generator. If this addition is not used, the order of the sibling nodes is undefined.
 
 Fields field1, field2, ... of the source cds\_view can be specified in a comma-separated list after the addition hierarchy\_source to specify the order of the sibling nodes.
 
 The addition ASCENDING or DESCENDING can be specified for each field to specify an ascending or descending order (ascending is the default).
 
-The fields specified after ORDER BY cannot be of the [type](javascript:call_link\('abenddic_builtin_types.htm'\)) LCHR, LRAW, STRING, RAWSTRING, or GEOM\_EWKB.
+The fields specified after ORDER BY cannot be of the [type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) LCHR, LRAW, STRING, RAWSTRING, or GEOM\_EWKB.
 
 Notes
 
--   If specified, an additional general [ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) clause of the current query is applied to the hierarchy sorted by SIBLINGS ORDER BY.
+-   If specified, an additional general [ORDER BY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaporderby_clause.htm) clause of the current query is applied to the hierarchy sorted by SIBLINGS ORDER BY.
 
--   The additional [hierarchy columns](javascript:call_link\('abenddddl_hierarchy.htm'\)) cannot be specified after SIBLINGS ORDER BY. They can, however, be specified in the general [ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) clause of the current query.
+-   The additional [hierarchy columns](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddddl_hierarchy.htm) cannot be specified after SIBLINGS ORDER BY. They can, however, be specified in the general [ORDER BY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaporderby_clause.htm) clause of the current query.
 
 Example
 
-Ascending and descending sort of [sibling nodes](javascript:call_link\('abensibling_node_glosry.htm'\) "Glossary Entry") in the program DEMO\_HIERARCHY\_SIBLINGS\_ORDER. When executed, this program demonstrates how these additions work.
+Ascending and descending sort of [sibling nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensibling_node_glosry.htm "Glossary Entry") in the program DEMO\_HIERARCHY\_SIBLINGS\_ORDER. When executed, this program demonstrates how these additions work.
 
 SELECT FROM HIERARCHY( SOURCE demo\_cds\_simple\_tree\_source
                        CHILD TO PARENT ASSOCIATION \_tree
@@ -428,21 +428,21 @@ Addition 6
 
 Effect
 
-The addition depth can be used to limit the number of [hierarchy levels](javascript:call_link\('abenhierarchy_level_glosry.htm'\) "Glossary Entry") used to create [descendant nodes](javascript:call_link\('abendescendant_node_glosry.htm'\) "Glossary Entry"). depth expects a [host variable](javascript:call_link\('abenopen_sql_host_variables.htm'\)), a [host expression](javascript:call_link\('abenopen_sql_host_expressions.htm'\)), or a [literal](javascript:call_link\('abenabap_sql_host_literals.htm'\)) of type i. Only the types b, s, or i can be specified for depth.
+The addition depth can be used to limit the number of [hierarchy levels](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_level_glosry.htm "Glossary Entry") used to create [descendant nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescendant_node_glosry.htm "Glossary Entry"). depth expects a [host variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_variables.htm), a [host expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_expressions.htm), or a [literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql_host_literals.htm) of type i. Only the types b, s, or i can be specified for depth.
 
 The value in depth has the following meaning:
 
--   For depth values greater then 0, the number of hierarchy edges are traversed that is specified in depth, starting from a [root node](javascript:call_link\('abenroot_node_glosry.htm'\) "Glossary Entry").
+-   For depth values greater then 0, the number of hierarchy edges are traversed that is specified in depth, starting from a [root node](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_node_glosry.htm "Glossary Entry").
 
--   If the value of depth is 0, only the [root nodes](javascript:call_link\('abenroot_node_glosry.htm'\) "Glossary Entry") are inserted in the hierarchy.
+-   If the value of depth is 0, only the [root nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_node_glosry.htm "Glossary Entry") are inserted in the hierarchy.
 
--   If depth is less than 0, no [hierarchy nodes](javascript:call_link\('abenhierarchy_node_glosry.htm'\) "Glossary Entry") are created and sy-subrc is set to 4.
+-   If depth is less than 0, no [hierarchy nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_node_glosry.htm "Glossary Entry") are created and sy-subrc is set to 4.
 
 The addition DEPTH can be used only if the addition ORPHANS is not specified or is specified as ORPHANS IGNORE.
 
 Example
 
-Limits the number of [hierarchy levels](javascript:call_link\('abenhierarchy_level_glosry.htm'\) "Glossary Entry") in the program DEMO\_HIERARCHY\_DEPTH. When executed, this program demonstrates how this addition works. It also shows the [hierarchy level](javascript:call_link\('abenhierarchy_level_glosry.htm'\) "Glossary Entry") from the hierarchy column HIERARCHY\_LEVEL.
+Limits the number of [hierarchy levels](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_level_glosry.htm "Glossary Entry") in the program DEMO\_HIERARCHY\_DEPTH. When executed, this program demonstrates how this addition works. It also shows the [hierarchy level](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_level_glosry.htm "Glossary Entry") from the hierarchy column HIERARCHY\_LEVEL.
 
 SELECT FROM HIERARCHY( SOURCE demo\_cds\_simple\_tree\_source
                        CHILD TO PARENT ASSOCIATION \_tree
@@ -458,7 +458,7 @@ Addition 7
 
 Effect
 
-The addition MULTIPLE PARENTS can be used to define whether the hierarchy generator is able to generate [child nodes](javascript:call_link\('abenchild_node_glosry.htm'\) "Glossary Entry") with multiple [parent nodes](javascript:call_link\('abenparent_node_glosry.htm'\) "Glossary Entry"):
+The addition MULTIPLE PARENTS can be used to define whether the hierarchy generator is able to generate [child nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchild_node_glosry.htm "Glossary Entry") with multiple [parent nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenparent_node_glosry.htm "Glossary Entry"):
 
 -   NOT ALLOWED
 
@@ -466,7 +466,7 @@ This is the default setting (a child node can have precisely on parent node only
 
 -   LEAVES ONLY
 
-Only [leaf nodes](javascript:call_link\('abenleaf_node_glosry.htm'\) "Glossary Entry") can have multiple parent nodes.
+Only [leaf nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleaf_node_glosry.htm "Glossary Entry") can have multiple parent nodes.
 
 -   ALLOWED
 
@@ -502,13 +502,13 @@ Addition 8
 
 Effect
 
-The addition ORPHANS defines the way [orphan nodes](javascript:call_link\('abenorphan_node_glosry.htm'\) "Glossary Entry") are handled. The following categories of orphan nodes exist:
+The addition ORPHANS defines the way [orphan nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenorphan_node_glosry.htm "Glossary Entry") are handled. The following categories of orphan nodes exist:
 
 -   Hierarchy nodes that could have parent nodes (as specified by the parent-child relationship) but the parent nodes are not in the hierarchy (known as true orphans).
 
 -   Hierarchy nodes that cannot be reached from the root node set using hierarchy edges.
 
--   Hierarchy nodes that are part of a [node cycle](javascript:call_link\('abennode_cycle_glosry.htm'\) "Glossary Entry") and cannot be reached from the root node set using hierarchy nodes (known as island orphans).
+-   Hierarchy nodes that are part of a [node cycle](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennode_cycle_glosry.htm "Glossary Entry") and cannot be reached from the root node set using hierarchy nodes (known as island orphans).
 
 The additions work as follows:
 
@@ -524,11 +524,11 @@ Any orphan nodes detected raise an exception.
 
 Orphan nodes are inserted in the hierarchy as follows:
 
--   True orphans are included in the root node set as root nodes and flagged as orphan nodes in the [hierarchy column](javascript:call_link\('abenddddl_hierarchy.htm'\)) HIERARCHY\_IS\_ORPHAN.
+-   True orphans are included in the root node set as root nodes and flagged as orphan nodes in the [hierarchy column](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddddl_hierarchy.htm) HIERARCHY\_IS\_ORPHAN.
 
--   [Descendant nodes](javascript:call_link\('abendescendant_node_glosry.htm'\) "Glossary Entry") of true orphans are handled like descendant nodes of parent nodes from the root node set, but are also flagged as orphan nodes in the [hierarchy column](javascript:call_link\('abenddddl_hierarchy.htm'\)) HIERARCHY\_IS\_ORPHAN.
+-   [Descendant nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescendant_node_glosry.htm "Glossary Entry") of true orphans are handled like descendant nodes of parent nodes from the root node set, but are also flagged as orphan nodes in the [hierarchy column](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddddl_hierarchy.htm) HIERARCHY\_IS\_ORPHAN.
 
--   For the hierarchy nodes of island orphans, a parent node in the root node set is generated for the child node where the cycle occurs. In the generated root node, all columns of the source hierarchy\_source contain the null value. In the [hierarchy columns](javascript:call_link\('abenddddl_hierarchy.htm'\)), the additional root node is flagged as an orphan node and PARENT\_ID also contains the null value.
+-   For the hierarchy nodes of island orphans, a parent node in the root node set is generated for the child node where the cycle occurs. In the generated root node, all columns of the source hierarchy\_source contain the null value. In the [hierarchy columns](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddddl_hierarchy.htm), the additional root node is flagged as an orphan node and PARENT\_ID also contains the null value.
 
 Example
 
@@ -576,7 +576,7 @@ Addition 9
 
 Effect
 
-The addition CYCLES defines how [node cycles](javascript:call_link\('abennode_cycle_glosry.htm'\) "Glossary Entry") are defined. The additions work as follows:
+The addition CYCLES defines how [node cycles](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennode_cycle_glosry.htm "Glossary Entry") are defined. The additions work as follows:
 
 -   ERROR
 
@@ -584,7 +584,7 @@ This is the default setting (an exception is raised when a node cycle is detecte
 
 -   BREAKUP
 
-The traversal of [descendant nodes](javascript:call_link\('abendescendant_node_glosry.htm'\) "Glossary Entry") is broken at the child node where the node cycle occurs and the [hierarchy column](javascript:call_link\('abenddddl_hierarchy.htm'\)) HIERARCHY\_IS\_CYCLE is set to the value 1.
+The traversal of [descendant nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescendant_node_glosry.htm "Glossary Entry") is broken at the child node where the node cycle occurs and the [hierarchy column](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddddl_hierarchy.htm) HIERARCHY\_IS\_CYCLE is set to the value 1.
 
 If the addition BREAKUP is specified, MULTIPLE PARENTS ALLOWED must also be specified.
 
@@ -645,7 +645,7 @@ Notes
 
 -   The addition GENERATE SPANTREE can be used to detect whether at least one path leads from a root node to a child node without the results set needing to contain all paths.
 
--   The addition GENERATE SPANTREE is used in an [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") to access the hierarchy generator function [HIERARCHY\_SPANTREE](https://help.sap.com/viewer/4f9859d273254e04af6ab3e9ea3af286/2.0.03/en-US/a93c356d32ef4e7fbd6143b554278eab.html) there.
+-   The addition GENERATE SPANTREE is used in an [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry") to access the hierarchy generator function [HIERARCHY\_SPANTREE](https://help.sap.com/viewer/4f9859d273254e04af6ab3e9ea3af286/2.0.03/en-US/a93c356d32ef4e7fbd6143b554278eab.html) there.
 
 Example
 

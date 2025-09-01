@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Types](javascript:call_link\('abentypes_statements.htm'\)) →  [TYPES](javascript:call_link\('abaptypes.htm'\)) →  [TYPES - TABLE OF](javascript:call_link\('abaptypes_itab.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentypes_and_objects.htm) →  [Declaring Data Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentypes_statements.htm) →  [TYPES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes.htm) →  [TYPES - TABLE OF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_itab.htm) → 
 
 Internal Tables, Nested Tables
 
@@ -105,10 +105,10 @@ Description
 
 The example shows the declaration of two internal tables, t\_address\_tab and company\_tab, where t\_address\_tab is contained in company\_tab. For this purpose, t\_address\_tab is defined as the table type. The component addresses of the company structure is declared with this type. The data type of company is used as the row type for the tables company\_tab and company\_sorted\_tab.
 
-The internal table is filled using the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)).
+The internal table is filled using the value operator [VALUE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_value.htm).
 
-A row from company\_tab is assigned to the field symbol <fs> using [READ](javascript:call_link\('abapread_table.htm'\)) and its table-like component addresses is processed in a [LOOP](javascript:call_link\('abaploop_at_itab_shortref.htm'\)). The content of the row is assigned to the structure address. Since addresses is an index table, sy-tabix can be evaluated.
+A row from company\_tab is assigned to the field symbol <fs> using [READ](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_table.htm) and its table-like component addresses is processed in a [LOOP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_itab_shortref.htm). The content of the row is assigned to the structure address. Since addresses is an index table, sy-tabix can be evaluated.
 
-To change the content of the component street of a row of the inner table addresses, the index of the relevant row is determined using a READ statement and it is then used in [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)). To make the changes effective in the corresponding row of the outer hashed table as well, the key access of the MODIFY statement is used.
+To change the content of the component street of a row of the inner table addresses, the index of the relevant row is determined using a READ statement and it is then used in [MODIFY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_itab.htm). To make the changes effective in the corresponding row of the outer hashed table as well, the key access of the MODIFY statement is used.
 
-Finally, the hashed table is assigned a sorted table with the same row type. In this way, the entries are automatically sorted by the table key name. The entries of the inner standard table, however, are sorted using the [SORT](javascript:call_link\('abapsort_itab.htm'\)) command.
+Finally, the hashed table is assigned a sorted table with the same row type. In this way, the entries are automatically sorted by the table key name. The entries of the inner standard table, however, are sorted using the [SORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsort_itab.htm) command.

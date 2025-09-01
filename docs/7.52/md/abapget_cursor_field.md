@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [ABAP Statements for Dynpros](javascript:call_link\('abenabap_dynpros_abap_statements.htm'\)) →  [GET CURSOR - Dynpro](javascript:call_link\('abapget_cursor_dynpro.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [ABAP Statements for Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_abap_statements.htm) →  [GET CURSOR - Dynpro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_dynpro.htm) → 
 
 GET CURSOR - field\_properties
 
-[Quick Reference](javascript:call_link\('abapget_cursor_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_shortref.htm)
 
 Syntax
 
@@ -24,7 +24,7 @@ Extras:
 
 Effect
 
-Using these additions, further information about the cursor position can be imported during [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") processing if the addition FIELD is specified for the statement [GET CURSOR](javascript:call_link\('abapget_cursor_dynpro.htm'\)).
+Using these additions, further information about the cursor position can be imported during [PAI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpai_glosry.htm "Glossary Entry") processing if the addition FIELD is specified for the statement [GET CURSOR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_cursor_dynpro.htm).
 
 Addition 1
 
@@ -56,7 +56,7 @@ Addition 4
 
 Effect
 
-If the screen element on which the cursor is positioned is within a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry") or a [step loop](javascript:call_link\('abenstep_loop_glosry.htm'\) "Glossary Entry"), the addition LINE assigns the number of the row of the table control or the group of the step loop to the data object lin. If not, lin is set to 0. lin expects a variable of the type i.
+If the screen element on which the cursor is positioned is within a [table control](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_control_glosry.htm "Glossary Entry") or a [step loop](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstep_loop_glosry.htm "Glossary Entry"), the addition LINE assigns the number of the row of the table control or the group of the step loop to the data object lin. If not, lin is set to 0. lin expects a variable of the type i.
 
 Addition 5
 
@@ -64,4 +64,4 @@ Addition 5
 
 Effect
 
-If the screen element on which the cursor is positioned is within a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry"), the addition AREA assigns the name of the table control to the data object area. If not, area is initialized. area expects a character-like variable.
+If the screen element on which the cursor is positioned is within a [table control](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_control_glosry.htm "Glossary Entry"), the addition AREA assigns the name of the table control to the data object area. If not, area is initialized. area expects a character-like variable.

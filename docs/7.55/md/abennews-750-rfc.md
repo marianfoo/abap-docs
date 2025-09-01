@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [Changes in Release 7.50](javascript:call_link\('abennews-750.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 7.5x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-75.htm) →  [Changes in Release 7.50](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-750.htm) → 
 
 RFC and ABAP Channels in Release 7.50
 
@@ -17,19 +17,19 @@ Modification 1
 
 Dynamic Destinations in RFC
 
-The methods of the class CL\_DYNAMIC\_DESTINATION are used to manage dynamic [RFC destinations](javascript:call_link\('abenrfc_destination.htm'\)) in Release 7.50 and higher. In particular, the method CREATE\_RFC\_DESTINATION makes it possible to create a dynamic destination, which can be used in the current sessions for RFCs.
+The methods of the class CL\_DYNAMIC\_DESTINATION are used to manage dynamic [RFC destinations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_destination.htm) in Release 7.50 and higher. In particular, the method CREATE\_RFC\_DESTINATION makes it possible to create a dynamic destination, which can be used in the current sessions for RFCs.
 
 Modification 2
 
 Point-to-Point Communication for AMC
 
-Alongside the general publish-and-subscribe mechanism, a point-to-point communication option was introduced for the [ABAP messaging channels (AMC)](javascript:call_link\('abenamc.htm'\)). Here, a sender object addresses precisely one receiver session. The send action can be either synchronous or asynchronous. This is done using the new factory method CREATE\_MESSAGE\_PRODUCER\_BY\_ID of the class CL\_AMC\_CHANNEL\_MANAGER. The ID of a receiver session is provided by the method GET\_CONSUMER\_SESSION\_ID of the same class.
+Alongside the general publish-and-subscribe mechanism, a point-to-point communication option was introduced for the [ABAP messaging channels (AMC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamc.htm). Here, a sender object addresses precisely one receiver session. The send action can be either synchronous or asynchronous. This is done using the new factory method CREATE\_MESSAGE\_PRODUCER\_BY\_ID of the class CL\_AMC\_CHANNEL\_MANAGER. The ID of a receiver session is provided by the method GET\_CONSUMER\_SESSION\_ID of the same class.
 
 Modification 3
 
 Enhancements for APC
 
-The framework for [ABAP channels](javascript:call_link\('abenapc.htm'\)) was expanded as follows:
+The framework for [ABAP channels](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapc.htm) was expanded as follows:
 
 -   Alongside communication using the WebSocket protocol, communication using TCP sockets is now also possible.
 
@@ -41,7 +41,7 @@ The framework for [ABAP channels](javascript:call_link\('abenapc.htm'\)) was exp
 
 -   A connection handle can be used to access existing APC connections across the entire system.
 
--   A [non-blocking](javascript:call_link\('abenapc_non_blocking_model.htm'\)) model was introduced for stateful APC applications.
+-   A [non-blocking](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapc_non_blocking_model.htm) model was introduced for stateful APC applications.
 
 -   The class CL\_APC\_TIMER\_MANAGER creates timer managers that can be accessed using the interface IF\_APC\_TIMER\_MANAGER. A timer manager makes it possible to start and stop a timer in stateful APC applications in which the statement WAIT is not allowed. The interface IF\_APC\_TIMER\_HANDLER is used to handle timer events.
 

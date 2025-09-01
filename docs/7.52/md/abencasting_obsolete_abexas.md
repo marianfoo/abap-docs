@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Setting Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) →  [ASSIGN](javascript:call_link\('abapassign.htm'\)) →  [ASSIGN - casting\_spec](javascript:call_link\('abapassign_casting.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_assignments.htm) →  [Setting Field Symbols](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenset_field_symbols.htm) →  [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm) →  [ASSIGN - casting\_spec](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_casting.htm) → 
 
 Casting Examples
 
 Continue
-![Example](exa.gif "Example") [Field Symbols - Casting](javascript:call_link\('abencasting_imp_exp_abexa.htm'\))
-![Example](exa.gif "Example") [Field Symbols, Casting Predefined Data Types](javascript:call_link\('abencasting_obsolete_type_abexa.htm'\))
-![Example](exa.gif "Example") [Field Symbols, Casting Decimal Places](javascript:call_link\('abencasting_obsolete_dec_abexa.htm'\))
+![Example](exa.gif "Example") [Field Symbols - Casting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencasting_imp_exp_abexa.htm)
+![Example](exa.gif "Example") [Field Symbols, Casting Predefined Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencasting_obsolete_type_abexa.htm)
+![Example](exa.gif "Example") [Field Symbols, Casting Decimal Places](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencasting_obsolete_dec_abexa.htm)

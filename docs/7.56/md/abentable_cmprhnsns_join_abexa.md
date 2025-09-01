@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Expressions and Functions](javascript:call_link\('abentable_processing_expr_func.htm'\)) →  [FOR, Table Iterations](javascript:call_link\('abenfor_itab.htm'\)) →  [itab - Examples of Table Comprehensions](javascript:call_link\('abentable_comprehensions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) →  [itab - Expressions and Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_processing_expr_func.htm) →  [FOR, Table Iterations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor_itab.htm) →  [itab - Examples of Table Comprehensions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_comprehensions_abexas.htm) → 
 
 itab - Table Comprehensions, Join
 
-This example demonstrates a join between internal tables using a [table comprehension](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry").
+This example demonstrates a join between internal tables using a [table comprehension](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_comprehension_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -77,7 +77,7 @@ Description
 
 The lines of two internal tables itab1 and itab2 that have the same value in the column key are combined in a table. This example shows two options:
 
--   The table itab3 is created after a simple FOR expression for itab1 in which the associated values are read using [table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") from itab2.
+-   The table itab3 is created after a simple FOR expression for itab1 in which the associated values are read using [table expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expression_glosry.htm "Glossary Entry") from itab2.
 -   The table itab4 is created after consecutive FOR expressions for itab1 and itab2. The last FOR expression is restricted by a WHERE condition.
 
 In both cases, only those key values are evaluated in itab1. In the second case, duplicate key values in itab2 would also produce multiple lines in itab4.

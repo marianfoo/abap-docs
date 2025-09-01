@@ -4,25 +4,25 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (LDB, Obsolete)](javascript:call_link\('abenldb.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (LDB, Obsolete)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb.htm) → 
 
 LDB - Components
 
 The main features of a logical database are
 
--   a hierarchical [structure](javascript:call_link\('abenldb_structure.htm'\))
+-   a hierarchical [structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_structure.htm)
     
     The structure defines the data view of the logical database. It generally inherits the given hierarchy of database tables defined by foreign key dependencies and controls the order in which the data is passed to the application program. In this way, the structure determines the structure of the other subobjects and the runtime behavior.
     
--   [selections](javascript:call_link\('abenldb_selections.htm'\)) as a standalone standard selection screen
+-   [selections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_selections.htm) as a standalone standard selection screen
     
     The selections define a standard selection screen as the user interface for programs that use the logical database. The construction of the screen is defined by the structure by default. The selections can be adjusted and enhanced to meet the requirements of the user.
     
--   a [database program](javascript:call_link\('abenldb_program.htm'\)) written in ABAP
+-   a [database program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_program.htm) written in ABAP
     
-    The database program contains the ABAP statements for reading the data and passing it to an application program. It is basically a container for special subroutines in which the functions of the logical database are implemented. The [reporting processor](javascript:call_link\('abenreporting_process.htm'\)) of the runtime framework calls these subroutines in the order defined by the structure. The database program is defined by the structure and the selections and can be modified or enhanced to meet the requirements of the user.
+    The database program contains the ABAP statements for reading the data and passing it to an application program. It is basically a container for special subroutines in which the functions of the logical database are implemented. The [reporting processor](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreporting_process.htm) of the runtime framework calls these subroutines in the order defined by the structure. The database program is defined by the structure and the selections and can be modified or enhanced to meet the requirements of the user.
     
--   [Further elements](javascript:call_link\('abenldb_others.htm'\)), which add to the functions.
+-   [Further elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_others.htm), which add to the functions.
 
 When an executable program is created, it can be assigned to exactly one logical database using the Logical Database attribute. This combines the standard selection screen and the program flow with the selection screen and flow of the logical database.
 
@@ -39,7 +39,7 @@ When creating a logical database in the Logical Database Builder, the following 
 5.  Editing further elements.
 
 Continue
-[LDB - Structure](javascript:call_link\('abenldb_structure.htm'\))
-[LDB - Selections](javascript:call_link\('abenldb_selections.htm'\))
-[LDB - Database Program](javascript:call_link\('abenldb_program.htm'\))
-[LDB - Further Elements](javascript:call_link\('abenldb_others.htm'\))
+[LDB - Structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_structure.htm)
+[LDB - Selections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_selections.htm)
+[LDB - Database Program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_program.htm)
+[LDB - Further Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_others.htm)

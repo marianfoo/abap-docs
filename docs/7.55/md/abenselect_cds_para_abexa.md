@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL parameter passing sql\_para](javascript:call_link\('abenopen_sql_parameters.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL parameter passing sql\_para](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_parameters.htm) → 
 
 ABAP SQL, Parameter Passing to a CDS View Entity
 
-This example demonstrates a read performed on a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") using parameter passing.
+This example demonstrates a read performed on a [CDS view entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v2_view_glosry.htm "Glossary Entry") using parameter passing.
 
 Source Code
 
@@ -42,9 +42,9 @@ START-OF-SELECTION.
 
 Description
 
-[SELECT](javascript:call_link\('abapselect.htm'\)) is used to access a CDS view entity with parameters as a [data source](javascript:call_link\('abapselect_data_source.htm'\)). Actual parameters are assigned to the input parameters of the view. The values of these actual parameters are defined via user input.
+[SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect.htm) is used to access a CDS view entity with parameters as a [data source](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_data_source.htm). Actual parameters are assigned to the input parameters of the view. The values of these actual parameters are defined via user input.
 
-The view demo\_cds\_param\_view\_entity used has the following CDS source code with a [list of input parameters](javascript:call_link\('abencds_parameter_list_v2.htm'\)):
+The view demo\_cds\_param\_view\_entity used has the following CDS source code with a [list of input parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_parameter_list_v2.htm):
 
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
 @EndUserText.label: 'View Entity with Input Parameters'

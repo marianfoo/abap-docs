@@ -4,21 +4,21 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab.htm) →  [Processing Statements for Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_processing_statements.htm) → 
 
 INSERT itab
 
-[Quick Reference](javascript:call_link\('abapinsert_itab_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab_shortref.htm)
 
 Syntax
 
-INSERT [line\_spec](javascript:call_link\('abapinsert_itab_linespec.htm'\)) INTO [itab\_position](javascript:call_link\('abapinsert_itab_position.htm'\)) *\[*[result](javascript:call_link\('abapinsert_itab_result.htm'\))*\]*.
+INSERT [line\_spec](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab_linespec.htm) INTO [itab\_position](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab_position.htm) *\[*[result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab_result.htm)*\]*.
 
 Effect
 
-This statement adds one or more rows [line\_spec](javascript:call_link\('abapinsert_itab_linespec.htm'\)) to a position [itab\_position](javascript:call_link\('abapinsert_itab_position.htm'\)) in an internal table. The position can be specified using the primary table key or a table index. Use [result](javascript:call_link\('abapinsert_itab_result.htm'\)) when appending a single row to set a reference to the appended row in the form of a field symbol or a data reference.
+This statement adds one or more rows [line\_spec](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab_linespec.htm) to a position [itab\_position](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab_position.htm) in an internal table. The position can be specified using the primary table key or a table index. Use [result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab_result.htm) when appending a single row to set a reference to the appended row in the form of a field symbol or a data reference.
 
-When the row is in inserted, all existing unique table keys are checked. These can be a [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") and multiple unique [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry"). The system handles any duplicates of the various key according to the following hierarchy:
+When the row is in inserted, all existing unique table keys are checked. These can be a [primary table key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") and multiple unique [secondary table keys](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_table_key_glosry.htm "Glossary Entry"). The system handles any duplicates of the various key according to the following hierarchy:
 
 1.  If attempting to insert a single row using a primary key would produce duplicates with respect to the unique primary key, no row is inserted and sy-subrc is set to 4.
     
@@ -45,16 +45,16 @@ The system field sy-tabix is not set.
 
 Notes
 
--   The administration of an unique secondary table key is updated immediately ([direct update](javascript:call_link\('abendirect_update_glosry.htm'\) "Glossary Entry")) and the administration of a non-unique secondary table key is updated at the next explicit use of the secondary table key ([lazy update](javascript:call_link\('abenlazy_update_glosry.htm'\) "Glossary Entry")). Runtime costs for creating or updating a non-unique secondary table key are not incurred therefore until it is used for the first time (see the [executable example](javascript:call_link\('abendelete_itab_using_key_abexa.htm'\))).
+-   The administration of an unique secondary table key is updated immediately ([direct update](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendirect_update_glosry.htm "Glossary Entry")) and the administration of a non-unique secondary table key is updated at the next explicit use of the secondary table key ([lazy update](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlazy_update_glosry.htm "Glossary Entry")). Runtime costs for creating or updating a non-unique secondary table key are not incurred therefore until it is used for the first time (see the [executable example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendelete_itab_using_key_abexa.htm)).
     
--   The [value operator](javascript:call_link\('abenvalue_operator_glosry.htm'\) "Glossary Entry") [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) can also be used to [construct](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)) the content of internal tables.
+-   The [value operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_operator_glosry.htm "Glossary Entry") [VALUE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_value.htm) can also be used to [construct](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_constructor_params_itab.htm) the content of internal tables.
     
--   A special variant [INSERT mesh\_path](javascript:call_link\('abenmesh_insert.htm'\)) can be used to insert rows into the last node of a [mesh path](javascript:call_link\('abenmesh_path_glosry.htm'\) "Glossary Entry").
+-   A special variant [INSERT mesh\_path](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_insert.htm) can be used to insert rows into the last node of a [mesh path](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_glosry.htm "Glossary Entry").
     
 
 Example
 
-Inserts single rows in a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") int\_tab using the table index and inserts references to these rows in a [hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") ref\_tab using the table key. The output in the [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)) loops produces the numbers 10 to 1 for int\_tab and the numbers 1 to 10 for ref\_tab.
+Inserts single rows in a [standard table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_table_glosry.htm "Glossary Entry") int\_tab using the table index and inserts references to these rows in a [hashed table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhashed_table_glosry.htm "Glossary Entry") ref\_tab using the table key. The output in the [LOOP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_itab.htm) loops produces the numbers 10 to 1 for int\_tab and the numbers 1 to 10 for ref\_tab.
 
 TYPES intref type REF TO i.
 DATA: int\_tab TYPE STANDARD TABLE OF i,
@@ -77,7 +77,7 @@ LOOP AT ref\_tab INTO dref.
 ENDLOOP.
 cl\_demo\_output=>display( ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -100,7 +100,7 @@ Non-Handleable Exceptions
     
 
 Continue
-[INSERT - line\_spec](javascript:call_link\('abapinsert_itab_linespec.htm'\))
-[INSERT - itab\_position](javascript:call_link\('abapinsert_itab_position.htm'\))
-[INSERT - result](javascript:call_link\('abapinsert_itab_result.htm'\))
-![Example](exa.gif "Example") [Internal Tables, Inserting Rows](javascript:call_link\('abeninsert_lines_abexa.htm'\))
+[INSERT - line\_spec](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab_linespec.htm)
+[INSERT - itab\_position](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab_position.htm)
+[INSERT - result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab_result.htm)
+![Example](exa.gif "Example") [Internal Tables, Inserting Rows](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninsert_lines_abexa.htm)

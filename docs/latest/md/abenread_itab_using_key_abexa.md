@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [READ TABLE itab](javascript:call_link\('abapread_table.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_processing_statements.htm) →  [READ TABLE itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_table.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20itab%20-%20Key%20Accesses%2C%20ABENREAD_ITAB_USING_KEY_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -145,7 +145,7 @@ ENDCLASS.
 
 Description   
 
-The table itab is a standard table with a non-unique primary key, a unique secondary sorted key, and a unique secondary hash key. For demonstration purposes, this class hides the syntax warning that different table keys in an internal table cannot contain the same components using the [pragma](javascript:call_link\('abenpragma_glosry.htm'\) "Glossary Entry") ##TABKEY.
+The table itab is a standard table with a non-unique primary key, a unique secondary sorted key, and a unique secondary hash key. For demonstration purposes, this class hides the syntax warning that different table keys in an internal table cannot contain the same components using the [pragma](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpragma_glosry.htm "Glossary Entry") ##TABKEY.
 
 The class measures the average access time of the statement READ TABLE to individual table lines, depending on the number of lines in the table. The lines are accessed using the different keys. The keys are specified statically in the method measure\_static and dynamically in the method measure\_dynamic.
 

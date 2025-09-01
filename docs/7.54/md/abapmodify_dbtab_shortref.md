@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  M
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shortref.htm) →  M
 
 MODIFY dbtab - Quick reference
 
-[Reference](javascript:call_link\('abapmodify_dbtab.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_dbtab.htm)
 
 Syntax
 
@@ -19,21 +19,21 @@ MODIFY dbtab*|*view*|*(target\_syntax)
 
 Effect
 
-[ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") statement. Inserts rows into or deletes them from a database table or a classic view.
+[ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Inserts rows into or deletes them from a database table or a classic view.
 
 Additions
 
--   [dbtab*|*view*|*(target\_syntax)](javascript:call_link\('abapiumd_target.htm'\))
+-   [dbtab*|*view*|*(target\_syntax)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapiumd_target.htm)
     Specifies the database table and/or view statically or dynamically.
     
--   [USING CLIENT](javascript:call_link\('abapiumd_client.htm'\))
-    Switches implicit [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") to the client specified in clnt.
+-   [USING CLIENT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapiumd_client.htm)
+    Switches implicit [client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_handling_glosry.htm "Glossary Entry") to the client specified in clnt.
     
--   [CLIENT SPECIFIED](javascript:call_link\('abapiumd_client.htm'\))
-    Switches implicit [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") to the client specified in the data source.
+-   [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapiumd_client.htm)
+    Switches implicit [client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_handling_glosry.htm "Glossary Entry") to the client specified in the data source.
     
--   [CONNECTION con*|*(con\_syntax)](javascript:call_link\('abapiumd_conn.htm'\))
-    Makes the change on a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry").
+-   [CONNECTION con*|*(con\_syntax)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapiumd_conn.htm)
+    Makes the change on a [secondary connection](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry").
     
--   [FROM *{* wa*|**{*TABLE itab*}**|*( SELECT subquery\_clauses ) *}*](javascript:call_link\('abapmodify_source.htm'\))
+-   [FROM *{* wa*|**{*TABLE itab*}**|*( SELECT subquery\_clauses ) *}*](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_source.htm)
     Specifies the rows to be inserted as a wa work area, as rows of an internal table itab, or as the results set of a subquery.

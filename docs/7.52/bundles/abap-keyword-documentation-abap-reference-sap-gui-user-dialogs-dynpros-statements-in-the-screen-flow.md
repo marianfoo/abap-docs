@@ -3,34 +3,7 @@
 Included pages: 11
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm)
-- [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreen.htm)
-- [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_tabstrip.htm)
-- [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_splitter_control_spcl.htm)
-- [dynpcall.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall.htm)
-- [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm)
-- [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_subscreen_abexa.htm)
-- [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control1_abexa.htm)
-- [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control2_abexa.htm)
-- [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_splitter_control_abexa.htm)
-
-**Bundle Contains**: 10 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.516Z
-
----
-
 ### abendynp_subscreens.htm
-
-> **📖 Official SAP Documentation**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -38,66 +11,52 @@ Included pages: 11
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Screen Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Statements in the Screen Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm) → 
 
 Subscreens, Tabstrips, and Splitter Controls
 
-Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special [controls](javascript:call_link\('abencontrol_glosry.htm'\) "Glossary Entry").
+Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special [controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_glosry.htm "Glossary Entry").
 
--   [Including Subscreens Directly](javascript:call_link\('abendynp_subscreen.htm'\))
+-   [Including Subscreens Directly](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreen.htm)
 
--   [Tabstrip Controls](javascript:call_link\('abendynp_tabstrip.htm'\))
+-   [Tabstrip Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_tabstrip.htm)
 
--   [Splitter Controls](javascript:call_link\('abendynp_splitter_control_spcl.htm'\))
+-   [Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_splitter_control_spcl.htm)
 
 Continue
-[Including Subscreens Directly](javascript:call_link\('abendynp_subscreen.htm'\))
-[Tabstrip Controls](javascript:call_link\('abendynp_tabstrip.htm'\))
-[Splitter Controls](javascript:call_link\('abendynp_splitter_control_spcl.htm'\))
-[CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\))
-[Subscreens, Tabstrips, and Splitter Controls - Examples](javascript:call_link\('abentab_strip_control_abexas.htm'\))
+[Including Subscreens Directly](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreen.htm)
+[Tabstrip Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_tabstrip.htm)
+[Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_splitter_control_spcl.htm)
+[CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall.htm)
+[Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm)
 
-
-
-**📖 Source**: [abendynp_subscreens.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm)
 
 ### abendynp_subscreen.htm
 
-> **📖 Official SAP Documentation**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Screen Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Statements in the Screen Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm) →  [Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm) → 
 
 Including Subscreens Directly
 
-The statement [CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\)) can be used to insert other screens directly into the [screen](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") in the form of subscreens. Subscreen areas must first be defined in the current screen of the dynpro. Every subscreen area has a unique name and can be configured to support changes in screen size. If the latter is defined, each size change in the current GUI window triggers the [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") event.
+The statement [CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall.htm) can be used to insert other screens directly into the [screen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_glosry.htm "Glossary Entry") of a [dynpro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm "Glossary Entry") in the form of subscreens. Subscreen areas must first be defined in the current screen of the dynpro. Every subscreen area has a unique name and can be configured to support changes in screen size. If the latter is defined, each size change in the current GUI window triggers the [PAI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpai_glosry.htm "Glossary Entry") event.
 
-Subscreens are the screens of special [subscreen dynpros](javascript:call_link\('abensubscreen_dynpro_glosry.htm'\) "Glossary Entry"). When a subscreen is inserted, the flow logic of the subscreen dynpro is also inserted. Subscreens can also insert other subscreens. Subscreens cannot have their own OK field. Instead, user actions on subscreens pass the function codes to the OK field of the dynpro that includes the subscreen. In the PAI event block of a subscreen dynpro, a [MODULE](javascript:call_link\('dynpmodule.htm'\)) statement is never executed with the AT EXIT-COMMAND addition.
+Subscreens are the screens of special [subscreen dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_dynpro_glosry.htm "Glossary Entry"). When a subscreen is inserted, the flow logic of the subscreen dynpro is also inserted. Subscreens can also insert other subscreens. Subscreens cannot have their own OK field. Instead, user actions on subscreens pass the function codes to the OK field of the dynpro that includes the subscreen. In the PAI event block of a subscreen dynpro, a [MODULE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpmodule.htm) statement is never executed with the AT EXIT-COMMAND addition.
 
 Note
 
-Subscreens dynpros are defined like normal dynpros in [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry") and are flagged there as regular dynpros. [Selection screens](javascript:call_link\('abapselection-screen_subscreen.htm'\)) can also be defined as subscreens.
+Subscreens dynpros are defined like normal dynpros in [Screen Painter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_painter_glosry.htm "Glossary Entry") and are flagged there as regular dynpros. [Selection screens](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselection-screen_subscreen.htm) can also be defined as subscreens.
 
 Executable Example
 
-[Dynpros, Subscreens](javascript:call_link\('abendynpro_subscreen_abexa.htm'\))
+[Dynpros, Subscreens](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_subscreen_abexa.htm)
 
-
-
-**📖 Source**: [abendynp_subscreen.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreen.htm)
 
 ### abendynp_tabstrip.htm
-
-> **📖 Official SAP Documentation**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_tabstrip.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -105,17 +64,17 @@ Executable Example
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Screen Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Statements in the Screen Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm) →  [Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm) → 
 
 Tabstrip Controls
 
-A tabstrip control is a screen element that is made up of multiple tab pages. Every tab page contains a one line [tab title](javascript:call_link\('abentab_title_glosry.htm'\) "Glossary Entry") associated with a function code and which can be used to select the tab page by clicking once. Under the tab title, a tab page is made up of a subscreen area. Each tab title must have a subscreen area assigned to it, in which any subscreens can be displayed. There are two ways to do this:
+A tabstrip control is a screen element that is made up of multiple tab pages. Every tab page contains a one line [tab title](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_title_glosry.htm "Glossary Entry") associated with a function code and which can be used to select the tab page by clicking once. Under the tab title, a tab page is made up of a subscreen area. Each tab title must have a subscreen area assigned to it, in which any subscreens can be displayed. There are two ways to do this:
 
 -   Browsing in SAP GUI
-    A separate subscreen area is assigned to each tab title, and the function codes of the tab titles are defined with function type "P". If the user selects a tab title, the event PAI is not triggered. The associated subscreens are included once in each individual subscreen area by using the [CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\)) statement of the flow logic. If the user selects a tab title, the SAP GUI browses to the associated tab page and displays its subscreen.
+    A separate subscreen area is assigned to each tab title, and the function codes of the tab titles are defined with function type "P". If the user selects a tab title, the event PAI is not triggered. The associated subscreens are included once in each individual subscreen area by using the [CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall.htm) statement of the flow logic. If the user selects a tab title, the SAP GUI browses to the associated tab page and displays its subscreen.
 
 -   Browsing in ABAP Programs
-    The same subscreen area is assigned to each tab title, and the function codes of the tab titles are defined without [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry"). If the user selects a tab title, the event PAI is triggered. The associated subscreen is included dynamically using the [CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\)) statement of the flow logic in the subscreen area each time the user browses. In the ABAP program, the associated tab page must be activated using [CONTROLS](javascript:call_link\('abapcontrols.htm'\)) and the correct subscreen dynpro for the subscreen area must be specified.
+    The same subscreen area is assigned to each tab title, and the function codes of the tab titles are defined without [typing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_glosry.htm "Glossary Entry"). If the user selects a tab title, the event PAI is triggered. The associated subscreen is included dynamically using the [CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall.htm) statement of the flow logic in the subscreen area each time the user browses. In the ABAP program, the associated tab page must be activated using [CONTROLS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols.htm) and the correct subscreen dynpro for the subscreen area must be specified.
 
 Note
 
@@ -123,19 +82,12 @@ If a tab title entry is selected when browsing in SAP GUI, input checks are not 
 
 Executable Examples
 
--   [Dynpros, Tabstrips with Scrolling in SAP GUI](javascript:call_link\('abentab_strip_control1_abexa.htm'\))
+-   [Dynpros, Tabstrips with Scrolling in SAP GUI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control1_abexa.htm)
 
--   [Dynpros, Tabstrips with Scrolling on the Application Server](javascript:call_link\('abentab_strip_control2_abexa.htm'\))
+-   [Dynpros, Tabstrips with Scrolling on the Application Server](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control2_abexa.htm)
 
-
-
-**📖 Source**: [abendynp_tabstrip.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_tabstrip.htm)
 
 ### abendynp_splitter_control_spcl.htm
-
-> **📖 Official SAP Documentation**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_splitter_control_spcl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -143,13 +95,13 @@ Executable Examples
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Screen Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Statements in the Screen Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm) →  [Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm) → 
 
 Splitter Controls
 
-A splitter control is a screen element that divides the area it covers into two [subscreen areas](javascript:call_link\('abensubscreen_arrea_glosry.htm'\) "Glossary Entry"), either horizontally beside each other or vertically one above the other. The division is made by a sash. The horizontal or vertical position of the sash is specified statically in the definition of the splitter control. It can be set to PBO in the ABAP program and changed by the user while the screen is being displayed.
+A splitter control is a screen element that divides the area it covers into two [subscreen areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_arrea_glosry.htm "Glossary Entry"), either horizontally beside each other or vertically one above the other. The division is made by a sash. The horizontal or vertical position of the sash is specified statically in the definition of the splitter control. It can be set to PBO in the ABAP program and changed by the user while the screen is being displayed.
 
-Inserting [subscreen dynpros](javascript:call_link\('abensubscreen_dynpro_glosry.htm'\) "Glossary Entry") into both subscreen areas takes place in exactly the same way as [direct insertion](javascript:call_link\('abendynp_subscreen.htm'\)) using the [CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\)) statement in the dynpro flow logic. Any subscreens can be inserted, particularly those that contain splitter controls again.
+Inserting [subscreen dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_dynpro_glosry.htm "Glossary Entry") into both subscreen areas takes place in exactly the same way as [direct insertion](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreen.htm) using the [CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall.htm) statement in the dynpro flow logic. Any subscreens can be inserted, particularly those that contain splitter controls again.
 
 In ABAP programs, the position of the sash of a splitter controls is controlled using an instance of the CL\_DYNPRO\_SPLITTER class. If, before sending this screen, an object of this class is created and its constructor is given the name of a splitter control, this is bound to the splitter control and its methods can be used to set and read the position of the sash. The sash position is specified by percentage and refers to the width or height of the splitter control. In the object, the position is represented by a private attribute. Important methods of the class are:
 
@@ -162,27 +114,20 @@ In ABAP programs, the position of the sash of a splitter controls is controlled 
 -   GET\_SASH
     Gets the sash position of the bound splitter control at PBO and PAI.
 
-A splitter control can have a [function code](javascript:call_link\('abenfunction_code_glosry.htm'\) "Glossary Entry") assigned to it, which can be used to react to changes to the sash position made by the user in ABAP programs.
+A splitter control can have a [function code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_code_glosry.htm "Glossary Entry") assigned to it, which can be used to react to changes to the sash position made by the user in ABAP programs.
 
 Notes
 
--   A splitter control can only be created in the alphanumeric Screen Painter by using Edit → Create Element → Splitter Control. For this reason it should only be used in cases when the functions offered are required on classic dynpros. Use [SAPUI5](javascript:call_link\('abensapui5_glosry.htm'\) "Glossary Entry") or [Web Dynpro ABAP](javascript:call_link\('abenweb_dynpro_glosry.htm'\) "Glossary Entry") for new developments instead of classic dynpros.
+-   A splitter control can only be created in the alphanumeric Screen Painter by using Edit → Create Element → Splitter Control. For this reason it should only be used in cases when the functions offered are required on classic dynpros. Use [SAPUI5](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensapui5_glosry.htm "Glossary Entry") or [Web Dynpro ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenweb_dynpro_glosry.htm "Glossary Entry") for new developments instead of classic dynpros.
 
--   Splitter controls offer certain advantages over the corresponding [CFW](javascript:call_link\('abencfw_glosry.htm'\) "Glossary Entry") containers. One advantage is that they allow all screen elements of a classic dynpro to be displayed directly in a flexible frame; another is that they have better performance than CFW controls. An example of intensive use of splitter controls is the flexible interface of ABAP Debugger.
+-   Splitter controls offer certain advantages over the corresponding [CFW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencfw_glosry.htm "Glossary Entry") containers. One advantage is that they allow all screen elements of a classic dynpro to be displayed directly in a flexible frame; another is that they have better performance than CFW controls. An example of intensive use of splitter controls is the flexible interface of ABAP Debugger.
 
 Executable Example
 
-[Dynpros, Splitter Controls](javascript:call_link\('abendynpro_splitter_control_abexa.htm'\))
+[Dynpros, Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_splitter_control_abexa.htm)
 
-
-
-**📖 Source**: [abendynp_splitter_control_spcl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_splitter_control_spcl.htm)
 
 ### dynpcall.htm
-
-> **📖 Official SAP Documentation**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -190,7 +135,7 @@ Executable Example
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Screen Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Statements in the Screen Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm) →  [Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm) → 
 
 CALL SUBSCREEN
 
@@ -205,13 +150,13 @@ Variants:
 
 Effect
 
-Includes a [subscreen](javascript:call_link\('abensubscreen_glosry.htm'\) "Glossary Entry") in the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry"). There is one variant for event [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") and one variant for event [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry"). The statement CALL SUBSCREEN cannot be used between the statements LOOP and ENDLOOP or CHAIN and ENDCHAIN.
+Includes a [subscreen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_glosry.htm "Glossary Entry") in the [dynpro flow logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry"). There is one variant for event [PBO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpbo_glosry.htm "Glossary Entry") and one variant for event [PAI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpai_glosry.htm "Glossary Entry"). The statement CALL SUBSCREEN cannot be used between the statements LOOP and ENDLOOP or CHAIN and ENDCHAIN.
 
 Notes
 
--   The statement CALL SUBSCREEN is required for [directly including](javascript:call_link\('abendynp_subscreen.htm'\)) subscreens and for using [tabstrips](javascript:call_link\('abendynp_tabstrip.htm'\)) or [splitter controls](javascript:call_link\('abendynp_splitter_control_spcl.htm'\)) to include them.
+-   The statement CALL SUBSCREEN is required for [directly including](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreen.htm) subscreens and for using [tabstrips](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_tabstrip.htm) or [splitter controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_splitter_control_spcl.htm) to include them.
     
--   An obsolete variant of this statement is [CALL CUSTOMER SUBSCREEN](javascript:call_link\('dynpcall_customer_subscreen.htm'\)).
+-   An obsolete variant of this statement is [CALL CUSTOMER SUBSCREEN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall_customer_subscreen.htm).
     
 
 Variant 1
@@ -222,11 +167,11 @@ Effect
 
 PBO
 
-This statement is used to include the [subscreen dynpro](javascript:call_link\('abensubscreen_dynpro_glosry.htm'\) "Glossary Entry") of the program defined in prog and the dynpro number defined in dynnr in the [subscreen area](javascript:call_link\('abensubscreen_arrea_glosry.htm'\) "Glossary Entry") sub\_area of the current dynpro, and to process its PBO flow logic at this point. After PBO processing of the subscreen dynpro, the flow logic of the current dynpro is continued after the CALL statement.
+This statement is used to include the [subscreen dynpro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_dynpro_glosry.htm "Glossary Entry") of the program defined in prog and the dynpro number defined in dynnr in the [subscreen area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_arrea_glosry.htm "Glossary Entry") sub\_area of the current dynpro, and to process its PBO flow logic at this point. After PBO processing of the subscreen dynpro, the flow logic of the current dynpro is continued after the CALL statement.
 
 The area sub\_area must be specified directly. prog expects either a two-character data object of the current ABAP program or a text field literal. dynnr expects a data object of the type n and length 4 from the current ABAP program or a text field literal. An exception that cannot be handled is raised if the specified subscreen dynpro cannot be found. If no subscreen dynpro is included for PBO in a subscreen area, the area remains empty.
 
-If the specified subscreen dynpro is not defined in the current ABAP program, the specified program is loaded into the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") and [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) is raised. If the object is a [function group](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry"), a new [additional program group](javascript:call_link\('abenadditional_prog_group_glosry.htm'\) "Glossary Entry") is created. If the object is an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") or a [module pool](javascript:call_link\('abenmodul_pool_glosry.htm'\) "Glossary Entry"), the program is loaded to the [program group](javascript:call_link\('abenprogram_group_glosry.htm'\) "Glossary Entry") of the current program.
+If the specified subscreen dynpro is not defined in the current ABAP program, the specified program is loaded into the [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry") and [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapload-of-program.htm) is raised. If the object is a [function group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_group_glosry.htm "Glossary Entry"), a new [additional program group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadditional_prog_group_glosry.htm "Glossary Entry") is created. If the object is an [executable program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexecutable_program_glosry.htm "Glossary Entry") or a [module pool](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodul_pool_glosry.htm "Glossary Entry"), the program is loaded to the [program group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_group_glosry.htm "Glossary Entry") of the current program.
 
 The flow logic of the subscreen dynpro calls the dialog modules of its own ABAP program and the global fields of its own program are transported to the subscreen dynpro . When a subscreen is being processed, sy-dynnr contains the dynpro number of the subscreen.
 
@@ -240,7 +185,7 @@ Effect
 
 PAI
 
-The statement calls the PAI flow logic of the [subscreen dynpro](javascript:call_link\('abensubscreen_dynpro_glosry.htm'\) "Glossary Entry") bound in the sub\_area [subscreen area](javascript:call_link\('abensubscreen_arrea_glosry.htm'\) "Glossary Entry"). The subscreen dynpro must be included in the subscreen area for PBO (see variant 1). The same applies to the dialog modules called by the PAI flow logic as to the modules called by PBO. The data transport between the subscreen dynpro and its ABAP program is performed at the call, or is delayed when [FIELD](javascript:call_link\('dynpfield.htm'\)) statements are executed in the PAI flow logic of the subscreen logic.
+The statement calls the PAI flow logic of the [subscreen dynpro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_dynpro_glosry.htm "Glossary Entry") bound in the sub\_area [subscreen area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubscreen_arrea_glosry.htm "Glossary Entry"). The subscreen dynpro must be included in the subscreen area for PBO (see variant 1). The same applies to the dialog modules called by the PAI flow logic as to the modules called by PBO. The data transport between the subscreen dynpro and its ABAP program is performed at the call, or is delayed when [FIELD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpfield.htm) statements are executed in the PAI flow logic of the subscreen logic.
 
 Notes
 
@@ -253,7 +198,7 @@ Notes
 
 Example
 
-If a tabstrip control with untyped tabstrips and a subscreen area called SUB is defined on a dynpro, the associated dynpro flow logic can appear as follows. The statement CALL SUBSCREEN includes the subscreen dynpro of the same ABAP program whose number is in the ABAP data object dynnr in the subscreen area SUB. The associated programming section of the ABAP program is in the example for [CONTROLS](javascript:call_link\('abapcontrols_tabstrip.htm'\)).
+If a tabstrip control with untyped tabstrips and a subscreen area called SUB is defined on a dynpro, the associated dynpro flow logic can appear as follows. The statement CALL SUBSCREEN includes the subscreen dynpro of the same ABAP program whose number is in the ABAP data object dynnr in the subscreen area SUB. The associated programming section of the ABAP program is in the example for [CONTROLS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontrols_tabstrip.htm).
 
 PROCESS BEFORE OUTPUT.
   MODULE prepare\_tabstrip.
@@ -263,14 +208,7 @@ PROCESS AFTER INPUT.
   MODULE handle\_user\_command.
 
 
-
-**📖 Source**: [dynpcall.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall.htm)
-
 ### abentab_strip_control_abexas.htm
-
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -278,25 +216,18 @@ PROCESS AFTER INPUT.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Screen Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Statements in the Screen Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm) →  [Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm) → 
 
 Subscreens, Tabstrips, and Splitter Controls - Examples
 
 Continue
-![Example](exa.gif "Example") [Dynpros, Subscreens](javascript:call_link\('abendynpro_subscreen_abexa.htm'\))
-![Example](exa.gif "Example") [Screens, Tabstrips with scrolling in the SAP GUI](javascript:call_link\('abentab_strip_control1_abexa.htm'\))
-![Example](exa.gif "Example") [Dynpros, Tabstrips with Scrolling on the Application Server](javascript:call_link\('abentab_strip_control2_abexa.htm'\))
-![Example](exa.gif "Example") [Dynpros, Splitter Control](javascript:call_link\('abendynpro_splitter_control_abexa.htm'\))
+![Example](exa.gif "Example") [Dynpros, Subscreens](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_subscreen_abexa.htm)
+![Example](exa.gif "Example") [Screens, Tabstrips with scrolling in the SAP GUI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control1_abexa.htm)
+![Example](exa.gif "Example") [Dynpros, Tabstrips with Scrolling on the Application Server](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control2_abexa.htm)
+![Example](exa.gif "Example") [Dynpros, Splitter Control](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_splitter_control_abexa.htm)
 
-
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm)
 
 ### abendynpro_subscreen_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_subscreen_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -304,7 +235,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Screen Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls - Examples](javascript:call_link\('abentab_strip_control_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Statements in the Screen Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm) →  [Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm) →  [Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm) → 
 
 Dynpros, Subscreens
 
@@ -405,14 +336,7 @@ Since all subscreen dynpros use the same field name field, the ABAP field with t
 The function code of the pushbuttons of the subscreen dynpros is different and regular handling in an ABAP field is enough. If the function codes had the same names, it would be necessary to use multiple helper fields here as well.
 
 
-
-**📖 Source**: [abendynpro_subscreen_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_subscreen_abexa.htm)
-
 ### abentab_strip_control1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -420,7 +344,7 @@ The function code of the pushbuttons of the subscreen dynpros is different and r
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Screen Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls - Examples](javascript:call_link\('abentab_strip_control_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Statements in the Screen Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm) →  [Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm) →  [Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm) → 
 
 Screens, Tabstrips with scrolling in the SAP GUI
 
@@ -458,14 +382,7 @@ When the program is executed, the user sees a screen, the second tab page of whi
 By selecting the Continue button, the PAI event is triggered and a message shows the function code of the tab assigned to the currently active tab page.
 
 
-
-**📖 Source**: [abentab_strip_control1_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control1_abexa.htm)
-
 ### abentab_strip_control2_abexa.htm
-
-> **📖 Official SAP Documentation**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control2_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -473,7 +390,7 @@ By selecting the Continue button, the PAI event is triggered and a message shows
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Screen Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls - Examples](javascript:call_link\('abentab_strip_control_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Statements in the Screen Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm) →  [Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm) →  [Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm) → 
 
 Dynpros, Tabstrips with Scrolling on the Application Server
 
@@ -516,21 +433,14 @@ ENDMODULE.
 
 Description
 
-The static next dynpro number of dynpro 100 is 100. The layout of dynpro 100 and the subscreen dynpros 110 to 130 is the same as in the [executable example](javascript:call_link\('abentab_strip_control1_abexa.htm'\)) with local scrolling. The function codes of the three tab titles are not typed and a common subscreen area sub is assigned to all tab titles.
+The static next dynpro number of dynpro 100 is 100. The layout of dynpro 100 and the subscreen dynpros 110 to 130 is the same as in the [executable example](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control1_abexa.htm) with local scrolling. The function codes of the three tab titles are not typed and a common subscreen area sub is assigned to all tab titles.
 
 The screen flow logic of dynpro 100 makes a dynamic binding to PBO, a subscreen dynpro in the subscreen area sub. The screen flow logic of subscreen dynpros 110 to 130 does not contain any module calls.
 
-This example works in exactly the same way as the [example with local scrolling](javascript:call_link\('abentab_strip_control1_abexa.htm'\)) except that scrolling between the tabstrip pages is programmed in the ABAP program. Every time a tab title is selected, it is assigned the function code of the OK field in the activetab component of the mytabstrip structure. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
+This example works in exactly the same way as the [example with local scrolling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control1_abexa.htm) except that scrolling between the tabstrip pages is programmed in the ABAP program. Every time a tab title is selected, it is assigned the function code of the OK field in the activetab component of the mytabstrip structure. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
 
-
-
-**📖 Source**: [abentab_strip_control2_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control2_abexa.htm)
 
 ### abendynpro_splitter_control_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_splitter_control_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -538,11 +448,11 @@ This example works in exactly the same way as the [example with local scrolling]
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Screen Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls - Examples](javascript:call_link\('abentab_strip_control_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Statements in the Screen Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm) →  [Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm) →  [Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm) → 
 
 Dynpros, Splitter Control
 
-The example demonstrates a [splitter control](javascript:call_link\('abensplitter_control_glosry.htm'\) "Glossary Entry").
+The example demonstrates a [splitter control](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensplitter_control_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -571,17 +481,7 @@ Description
 A subscreen is assigned to both parts of the splitter control. The subscreens are called in the dynpro flow logic.
 
 
-
-**📖 Source**: [abendynpro_splitter_control_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_splitter_control_abexa.htm)
-
 ### abentab_strip_control_abexas.htm
-
-> **📖 Official SAP Documentation**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abentab_strip_control_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control_abexas.htm)
-
 
   
 
@@ -589,12 +489,12 @@ A subscreen is assigned to both parts of the splitter control. The subscreens ar
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Screen Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Statements in the Screen Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm) →  [Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynp_subscreens.htm) → 
 
 Subscreens, Tabstrips, and Splitter Controls - Examples
 
 Continue
-![Example](exa.gif "Example") [Dynpros, Subscreens](javascript:call_link\('abendynpro_subscreen_abexa.htm'\))
-![Example](exa.gif "Example") [Screens, Tabstrips with scrolling in the SAP GUI](javascript:call_link\('abentab_strip_control1_abexa.htm'\))
-![Example](exa.gif "Example") [Dynpros, Tabstrips with Scrolling on the Application Server](javascript:call_link\('abentab_strip_control2_abexa.htm'\))
-![Example](exa.gif "Example") [Dynpros, Splitter Control](javascript:call_link\('abendynpro_splitter_control_abexa.htm'\))
+![Example](exa.gif "Example") [Dynpros, Subscreens](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_subscreen_abexa.htm)
+![Example](exa.gif "Example") [Screens, Tabstrips with scrolling in the SAP GUI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control1_abexa.htm)
+![Example](exa.gif "Example") [Dynpros, Tabstrips with Scrolling on the Application Server](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_strip_control2_abexa.htm)
+![Example](exa.gif "Example") [Dynpros, Splitter Control](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_splitter_control_abexa.htm)

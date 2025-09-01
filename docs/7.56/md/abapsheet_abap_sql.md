@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Cheat Sheets](javascript:call_link\('abenabap_blurb.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Cheat Sheets](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_blurb.htm) → 
 
 ABAP SQL: Working with persisted data in database tables
 
@@ -12,30 +12,38 @@ ABAP SQL: Working with persisted data in database tables
 
 This cheat sheet provides quick information and tips about working with persisted data in database tables using ABAP SQL. Furthermore, it serves as a collection of syntax and code snippets in one place for your reference. For more details, refer to the respective topic in the ABAP Keyword Documentation.
 
--   [Database tables in AS ABAP in a nutshell](#abapsheet-abap-sql-1-----------excursion--views---@ITOC@@ABAPSHEET_ABAP_SQL_2)
--   [ABAP SQL](#abapsheet-abap-sql-3-------read-data-using-select---@ITOC@@ABAPSHEET_ABAP_SQL_4)
-    -   [Basic syntax](#abapsheet-abap-sql-5-----------using-select-1--basics---@ITOC@@ABAPSHEET_ABAP_SQL_6)
-    -   [Using SELECT 2: Clause variations and additions](#abapsheet-abap-sql-7-----------using-select-3--further-clauses---@ITOC@@ABAPSHEET_ABAP_SQL_8)
-    -   [Using SELECT 4: Read from multiple tables](#abapsheet-abap-sql-9-----------using-select-5--excursions---@ITOC@@ABAPSHEET_ABAP_SQL_10)
--   [Changing data in database tables](#abapsheet-abap-sql-11-----------using-insert---@ITOC@@ABAPSHEET_ABAP_SQL_12)
-    -   [Using UPDATE](#abapsheet-abap-sql-13-----------using-modify---@ITOC@@ABAPSHEET_ABAP_SQL_14)
-    -   [Using DELETE](#abapsheet-abap-sql-15-------demonstration-program---@ITOC@@ABAPSHEET_ABAP_SQL_16)
+-   [Database tables in AS ABAP in a nutshell](#@@ITOC@@ABAPSHEET_ABAP_SQL_1)
+    -   [Excursion: Views](#@@ITOC@@ABAPSHEET_ABAP_SQL_2)
+-   [ABAP SQL](#@@ITOC@@ABAPSHEET_ABAP_SQL_3)
+-   [Read data using SELECT](#@@ITOC@@ABAPSHEET_ABAP_SQL_4)
+    -   [Basic syntax](#@@ITOC@@ABAPSHEET_ABAP_SQL_5)
+    -   [Using SELECT 1: Basics](#@@ITOC@@ABAPSHEET_ABAP_SQL_6)
+    -   [Using SELECT 2: Clause variations and additions](#@@ITOC@@ABAPSHEET_ABAP_SQL_7)
+    -   [Using SELECT 3: Further clauses](#@@ITOC@@ABAPSHEET_ABAP_SQL_8)
+    -   [Using SELECT 4: Read from multiple tables](#@@ITOC@@ABAPSHEET_ABAP_SQL_9)
+    -   [Using SELECT 5: Excursions](#@@ITOC@@ABAPSHEET_ABAP_SQL_10)
+-   [Changing data in database tables](#@@ITOC@@ABAPSHEET_ABAP_SQL_11)
+    -   [Using INSERT](#@@ITOC@@ABAPSHEET_ABAP_SQL_12)
+    -   [Using UPDATE](#@@ITOC@@ABAPSHEET_ABAP_SQL_13)
+    -   [Using MODIFY](#@@ITOC@@ABAPSHEET_ABAP_SQL_14)
+    -   [Using DELETE](#@@ITOC@@ABAPSHEET_ABAP_SQL_15)
+-   [Demonstration program](#@@ITOC@@ABAPSHEET_ABAP_SQL_16)
 
 Database tables in AS ABAP in a nutshell
 
-Database tables in [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry") ...
+Database tables in [AS ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm "Glossary Entry") ...
 
--   are objects of the [ABAP Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry")
+-   are objects of the [ABAP Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary_glosry.htm "Glossary Entry")
 -   consist of table rows and columns; each row represents a data record whose components (or fields) are available in columns; each component has a data type
--   are [relational database](javascript:call_link\('abenrelational_database_glosry.htm'\) "Glossary Entry") tables, i. e. information can be stored in multiple database tables that are related to each other.
+-   are [relational database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrelational_database_glosry.htm "Glossary Entry") tables, i. e. information can be stored in multiple database tables that are related to each other.
     -   For example, there might be a table containing information on flight connections, flight destinations and times, another table is related to this one and includes further details on the flights like occupied seats in the plane or price details.
-    -   Such tables define a relationship using [foreign key](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)) relations.
--   have at least one key, i.e. the [primary key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry"), to uniquely identify table rows; this might be one or more columns at the beginning of each database table.
--   are either cross-[client](javascript:call_link\('abenclient_glosry.htm'\) "Glossary Entry") or client-specific to keep the data separated; client-specific tables, which are the vast majority of database tables, include a client field (often named MANDT) as their first key field.
+    -   Such tables define a relationship using [foreign key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_forkeyrel.htm) relations.
+-   have at least one key, i.e. the [primary key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprimary_key_glosry.htm "Glossary Entry"), to uniquely identify table rows; this might be one or more columns at the beginning of each database table.
+-   are either cross-[client](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclient_glosry.htm "Glossary Entry") or client-specific to keep the data separated; client-specific tables, which are the vast majority of database tables, include a client field (often named MANDT) as their first key field.
     -   Note: ABAP SQL ensures that a statement only manipulates data from the current client
--   have a [flat structure](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry") type.
--   are physically created on the database when activated - in contrast to [internal tables](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry"). Plus, a globally available [structured type](javascript:call_link\('abenstructured_type_glosry.htm'\) "Glossary Entry") of the same name is created, too. Hence, in an ABAP program, a database table's name can be used to declare data objects, for example, internal tables. These can be accessed by ABAP SQL, too.
--   are primarily processed through ABAP SQL statements via [structures](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry") and internal tables that allow to store a single row or multiple rows of data at once.
+-   have a [flat structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_structure_glosry.htm "Glossary Entry") type.
+-   are physically created on the database when activated - in contrast to [internal tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_table_glosry.htm "Glossary Entry"). Plus, a globally available [structured type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstructured_type_glosry.htm "Glossary Entry") of the same name is created, too. Hence, in an ABAP program, a database table's name can be used to declare data objects, for example, internal tables. These can be accessed by ABAP SQL, too.
+-   are primarily processed through ABAP SQL statements via [structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstructure_glosry.htm "Glossary Entry") and internal tables that allow to store a single row or multiple rows of data at once.
 
 Excursion: Views
 
@@ -43,37 +51,37 @@ Views ...
 
 -   are further ABAP Dictionary objects to group particular data.
 -   combine columns of one or more database tables.
--   usually realize a [join](javascript:call_link\('abenjoin_glosry.htm'\) "Glossary Entry") with defined [join conditions](javascript:call_link\('abenjoin_condition_glosry.htm'\) "Glossary Entry").
+-   usually realize a [join](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenjoin_glosry.htm "Glossary Entry") with defined [join conditions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenjoin_condition_glosry.htm "Glossary Entry").
 -   Note:
     -   Similar to database tables, the columns of such a view form a flat structure. Hence, the view's name can be used to declare data objects, too.
     -   The views can be accessed by ABAP SQL, especially for reading purposes using SELECT.
 
-"Classic" [DDIC Views](javascript:call_link\('abenddic_view_glosry.htm'\) "Glossary Entry") ...
+"Classic" [DDIC Views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_view_glosry.htm "Glossary Entry") ...
 
 -   are the eldest form of views.
 -   can be accessed by ABAP SQL for read and write operations, however, writing is supported if the view is created with only one database table
--   can only be created in the [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry")
+-   can only be created in the [ABAP Workbench](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_workbench_glosry.htm "Glossary Entry")
 
 "Modern" Views (since release 7.40)
 
--   [External Views](javascript:call_link\('abenexternal_view_glosry.htm'\) "Glossary Entry") as proxies for [SAP HANA Views](javascript:call_link\('abenhana_view_glosry.htm'\) "Glossary Entry") (Attribute View, Analytic View, Calculation View)
-    -   SAP HANA Views are entities of the SAP HANA database that are defined using the [SAP HANA Studio](javascript:call_link\('abenhana_studio_glosry.htm'\) "Glossary Entry").
+-   [External Views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexternal_view_glosry.htm "Glossary Entry") as proxies for [SAP HANA Views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhana_view_glosry.htm "Glossary Entry") (Attribute View, Analytic View, Calculation View)
+    -   SAP HANA Views are entities of the SAP HANA database that are defined using the [SAP HANA Studio](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhana_studio_glosry.htm "Glossary Entry").
     -   They are based on HANA-specific data types.
     -   Using External Views of the ABAP dictionary, you can make those SAP HANA Views "known" to the ABAP program. In doing so, the External Views can be used like classic DDIC views as structured data types and as a source for reading operations with ABAP SQL.
-    -   To be used only if the central database of the AS ABAP is a [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry").
--   [ABAP Core Data Services (ABAP CDS)](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") ...
+    -   To be used only if the central database of the AS ABAP is a [SAP HANA database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhana_database_glosry.htm "Glossary Entry").
+-   [ABAP Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_glosry.htm "Glossary Entry") ...
     -   serve the purpose of defining semantically rich data models.
     -   have a lot more possibilities than classic views, for example, they support annotations (provide information about view or individual fields), data sources can be combined using associations, unions are possible, or views can be defined with input parameters.
-    -   are used like a classic database views as structured data types and used as source for reading operations with ABAP SQL (using [SELECT](javascript:call_link\('abapselect.htm'\))).
-    -   are created using [Data Definition Language (DDL)](javascript:call_link\('abenddl_glosry.htm'\) "Glossary Entry") in the [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") (that is, a source code editor, in contrast to a form-based editor)
+    -   are used like a classic database views as structured data types and used as source for reading operations with ABAP SQL (using [SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm)).
+    -   are created using [Data Definition Language (DDL)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddl_glosry.htm "Glossary Entry") in the [ADT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm "Glossary Entry") (that is, a source code editor, in contrast to a form-based editor)
     -   are, in contrast to External Views, supported by all database systems (that support the ABAP CDS characteristics).
 
 ABAP SQL
 
--   ABAP-specific form of standard [Structured Query Language (SQL)](javascript:call_link\('abensql_glosry.htm'\) "Glossary Entry") which is the common language to access database tables.
+-   ABAP-specific form of standard [Structured Query Language (SQL)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_glosry.htm "Glossary Entry") which is the common language to access database tables.
 -   What happens behind the scenes when using an ABAP SQL statement?
     -   Generally speaking, tables in relational database systems have a programming interface allowing table access using standard SQL, however, these interfaces are not entirely uniform and can have individual characteristics.
-    -   To make AS ABAP independent of the database used, the ABAP SQL statements are converted to the corresponding [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statements of the current database system. In doing so, ABAP SQL allows a hassle-free and uniform access to the database tables no matter what database system is used
+    -   To make AS ABAP independent of the database used, the ABAP SQL statements are converted to the corresponding [Native SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennative_sql_glosry.htm "Glossary Entry") statements of the current database system. In doing so, ABAP SQL allows a hassle-free and uniform access to the database tables no matter what database system is used
 -   The main ABAP SQL keywords to read and change data are the following:
     
     Keyword
@@ -134,7 +142,7 @@ Note:
 
 -   The assumption is that struc has the same structure type as the database table dbtab.
 -   As mentioned above, an alternative syntax to below is: SELECT SINGLE \* FROM dbtab WHERE ....
--   ABAP variables must be preceded by @ when they interfere with database tables. See [host variables](javascript:call_link\('abenabap_sql_host_variables.htm'\)).
+-   ABAP variables must be preceded by @ when they interfere with database tables. See [host variables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_host_variables.htm).
     
     SELECT SINGLE FROM dbtab
       FIELDS \*
@@ -204,7 +212,7 @@ IF exists = abap\_true.
 ...
 ENDIF.
 
-Exclude duplicate rows from a multi-row result set using [DISTINCT](javascript:call_link\('abapselect_clause.htm'\)). The duplicate entries might occur due to a non-unique WHERE clause.
+Exclude duplicate rows from a multi-row result set using [DISTINCT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_clause.htm). The duplicate entries might occur due to a non-unique WHERE clause.
 
 SELECT DISTINCT comp1
   FROM dbtab
@@ -218,7 +226,7 @@ SELECT FROM dbtab
   WHERE ...
   INTO TABLE @DATA(itab\_as).
 
-Get data from database table in another client. Note that there are several variants of the [USING CLIENT](javascript:call_link\('abapselect_client.htm'\)) addition, for example, you can also specify ALL CLIENTS to select from database tables in all clients. Furthermore, the USING CLIENT addition is also available for the ABAP SQL statements that modify database table entries further down.
+Get data from database table in another client. Note that there are several variants of the [USING CLIENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_client.htm) addition, for example, you can also specify ALL CLIENTS to select from database tables in all clients. Furthermore, the USING CLIENT addition is also available for the ABAP SQL statements that modify database table entries further down.
 
 SELECT \*
   FROM dbtab USING CLIENT '000'
@@ -226,7 +234,7 @@ SELECT \*
   WHERE ...
   INTO TABLE @itab.
 
-Get aggregate data using an SQL expression. See the ABAP keyword documentation for more information on the various [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)). In below example, the sum of all values in the specified column is calculated.
+Get aggregate data using an SQL expression. See the ABAP keyword documentation for more information on the various [SQL expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsql_expr.htm). In below example, the sum of all values in the specified column is calculated.
 
 SELECT SUM( comp3 )
   FROM dbtab
@@ -241,7 +249,7 @@ SELECT SUM( comp2 ) AS sum
   WHERE ...
   INTO @DATA(sql\_expr).
 
-Get aggregate data using [CASE](javascript:call_link\('abensql_case.htm'\)) expressions
+Get aggregate data using [CASE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_case.htm) expressions
 
 DATA(status\_a) = 'A'.
   DATA(status\_b) = 'B'.
@@ -266,7 +274,7 @@ SELECT FROM dbtab
 
 WHERE clause:
 
-Various WHERE clause options to restrict the result. Note that without a WHERE clause, all rows are considered for the operation. The clause parts that are commented out in the following code snippet just demonstrate how the WHERE clause might look like and which expressions might be used. There are more options available. See the topic [SQL Conditions](javascript:call_link\('abenasql_cond.htm'\)) in the ABAP Keyword Documentation for more information on those options.
+Various WHERE clause options to restrict the result. Note that without a WHERE clause, all rows are considered for the operation. The clause parts that are commented out in the following code snippet just demonstrate how the WHERE clause might look like and which expressions might be used. There are more options available. See the topic [SQL Conditions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasql_cond.htm) in the ABAP Keyword Documentation for more information on those options.
 
 SELECT FROM dbtab
   FIELDS comp1, comp2, comp3
@@ -296,7 +304,7 @@ SELECT FROM dbtab
 
 INTO clause:
 
-Restrict absolute number of returned table rows using the addition [UP TO n ROWS](javascript:call_link\('abapselect_up_to_offset.htm'\)). In below example, only five rows should be returned at most.
+Restrict absolute number of returned table rows using the addition [UP TO n ROWS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_up_to_offset.htm). In below example, only five rows should be returned at most.
 
 SELECT \* FROM dbtab
   WHERE ...
@@ -332,7 +340,7 @@ ENDSELECT.
 
 Using SELECT 3: Further clauses
 
-[GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)) clause: Combining groups of rows of the result set into one row.
+[GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapgroupby_clause.htm) clause: Combining groups of rows of the result set into one row.
 
 SELECT FROM dbtab
   FIELDS comp1, MIN( comp2 ) AS min, MAX( comp3 ) AS max
@@ -340,7 +348,7 @@ SELECT FROM dbtab
   GROUP BY comp1
   INTO ...
 
-[HAVING](javascript:call_link\('abaphaving_clause.htm'\)) clause: Combining groups of rows of the result set into one row and setting conditions for aggregated rows.
+[HAVING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphaving_clause.htm) clause: Combining groups of rows of the result set into one row and setting conditions for aggregated rows.
 
 SELECT FROM dbtab
   FIELDS comp1, comp2, comp3
@@ -349,7 +357,7 @@ SELECT FROM dbtab
   HAVING comp1 LIKE '%XYZ%' AND SUM( comp7 ) > 100
   INTO ...
 
-[ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) clause: Sort result set.
+[ORDER BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaporderby_clause.htm) clause: Sort result set.
 
 SELECT FROM dbtab
   FIELDS \*
@@ -361,7 +369,7 @@ SELECT FROM dbtab
 
 Using SELECT 4: Read from multiple tables
 
-Using [FOR ALL ENTRIES](javascript:call_link\('abenwhere_all_entries.htm'\)): Read data from a table depending on the content of an internal table.
+Using [FOR ALL ENTRIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwhere_all_entries.htm): Read data from a table depending on the content of an internal table.
 
 Note: Ensure that the internal table from which to read is not initial. It is recommended to use a subquery, which is shown in the next example, and use a SELECT statement that reads from the internal table (... ( SELECT ... FROM itab2 WHERE ...).
 
@@ -373,7 +381,7 @@ SELECT comp1, comp2, comp3
   WHERE comp1 = @itab2-comp1 ...
 ENDIF.
 
-Using a subquery: Read from a database table depending on data of another database table. More information: [EXISTS](javascript:call_link\('abenwhere_logexp_exists.htm'\)). The components of the table are referenced by ~.
+Using a subquery: Read from a database table depending on data of another database table. More information: [EXISTS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwhere_logexp_exists.htm). The components of the table are referenced by ~.
 
 SELECT comp1, comp2, comp3
   FROM dbtab AS tab1
@@ -402,7 +410,7 @@ SELECT a~comp1, a~comp2, b~comp3,
   WHERE ...
   INTO ...
 
-Using a [UNION](javascript:call_link\('abapunion.htm'\)): Combine data of multiple database tables. The columns of the result set keep the names defined in the statement on the left of UNION. The result set of rows of the SELECT statement on the right of UNION are inserted into the results set of the SELECT statement on the left of UNION.
+Using a [UNION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapunion.htm): Combine data of multiple database tables. The columns of the result set keep the names defined in the statement on the left of UNION. The result set of rows of the SELECT statement on the right of UNION are inserted into the results set of the SELECT statement on the left of UNION.
 
 SELECT FROM dbtab1
   FIELDS ...
@@ -415,7 +423,7 @@ UNION
 
 Further Information
 
-There are more join variants available. See the ABAP Keyword Documentation on [joins](javascript:call_link\('abapselect_join.htm'\)) for more information.
+There are more join variants available. See the ABAP Keyword Documentation on [joins](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_join.htm) for more information.
 
 Using SELECT 5: Excursions
 
@@ -465,7 +473,7 @@ Demonstration program
 
 Executable Example
 
-The example [ABAP SQL - Working with persisted data in database tables](javascript:call_link\('abensheet_abap_sql_abexa.htm'\)) demonstrates all of above mentioned syntactical options in one program.
+The example [ABAP SQL - Working with persisted data in database tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensheet_abap_sql_abexa.htm) demonstrates all of above mentioned syntactical options in one program.
 
 Continue
-![Example](exa.gif "Example") [ABAP SQL - Working with Persisted Data in Database Tables](javascript:call_link\('abensheet_abap_sql_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP SQL - Working with Persisted Data in Database Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensheet_abap_sql_abexa.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Structure of ST Programs](javascript:call_link\('abenst_programs_structure.htm'\)) →  [ST - Data Declarations](javascript:call_link\('abenst_data_declarations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_st.htm) →  [ST - Structure of ST Programs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_programs_structure.htm) →  [ST - Data Declarations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_data_declarations.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ST%20-%20tt%3Aparameter%2C%20Parameters%2C%20ABENST_TT_PARAMETER%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -20,16 +20,16 @@ Effect
 
 The statement tt:parameter can be used to declare one or more parameters in an ST program outside of a template. The attribute name is used to define a symbolic name that can be used to access the parameter. This name can have a maximum of 30 characters.
 
-The symbolic name is not case-sensitive and must be unique. The namespace also includes the data roots declared with [tt:root](javascript:call_link\('abenst_tt_root.htm'\)) and the variables declared with [tt:variable](javascript:call_link\('abenst_tt_variable.htm'\)).
+The symbolic name is not case-sensitive and must be unique. The namespace also includes the data roots declared with [tt:root](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_root.htm) and the variables declared with [tt:variable](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_variable.htm).
 
-The parameters can be addressed directly in the context of the [main template](javascript:call_link\('abenst_tt_template_main.htm'\)). In [subtemplates](javascript:call_link\('abenst_tt_template_sub.htm'\)), the parameters of the main template are not known.
+The parameters can be addressed directly in the context of the [main template](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_template_main.htm). In [subtemplates](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_template_sub.htm), the parameters of the main template are not known.
 
-Parameters are special [variables](javascript:call_link\('abenst_tt_variable.htm'\)) and can be used as such. Parameters are also applied as formal parameters of an ST program (or a subtemplate):
+Parameters are special [variables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_variable.htm) and can be used as such. Parameters are also applied as formal parameters of an ST program (or a subtemplate):
 
--   In [tt:call](javascript:call_link\('abenst_tt_call.htm'\)) (or [tt:apply](javascript:call_link\('abenst_tt_apply.htm'\))), a current value can be assigned to a parameter with tt:with-parameter.
--   The addition PARAMETERS of the ABAP statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) can be used to assign an ABAP data object to a parameter as an actual parameter.
+-   In [tt:call](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_call.htm) (or [tt:apply](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_apply.htm)), a current value can be assigned to a parameter with tt:with-parameter.
+-   The addition PARAMETERS of the ABAP statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_transformation.htm) can be used to assign an ABAP data object to a parameter as an actual parameter.
 
-ref-type can be used to define the formal parameter as a reference variable. The value of ref-type determines the static type of the reference variable. All global ABAP classes and interfaces for an object reference variable are possible, as are data types for a data reference variable. The names of classes and interfaces are specified directly and without namespaces. The names of data types must be specified using an XML namespace that determines the context of the data type, as with [tt:type](javascript:call_link\('abenst_tt_type.htm'\)). Class reference variables and interface reference variables are intended primarily for creating objects and calling instance methods. Data reference variables, however, are used for binding appropriately typed interface parameters when ABAP methods are called.
+ref-type can be used to define the formal parameter as a reference variable. The value of ref-type determines the static type of the reference variable. All global ABAP classes and interfaces for an object reference variable are possible, as are data types for a data reference variable. The names of classes and interfaces are specified directly and without namespaces. The names of data types must be specified using an XML namespace that determines the context of the data type, as with [tt:type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_type.htm). Class reference variables and interface reference variables are intended primarily for creating objects and calling instance methods. Data reference variables, however, are used for binding appropriately typed interface parameters when ABAP methods are called.
 
 kind can be used to specify the category of formal parameter. Possible values for kind are:
 
@@ -39,11 +39,11 @@ kind can be used to specify the category of formal parameter. Possible values fo
 
 If kind is not specified, the formal parameter is by default an input parameter.
 
-The additions s-val and d-val or val can be used to assign a replacement value to each the input parameters, where the values are specified as [ABAP values](javascript:call_link\('abenst_abap_representation.htm'\)). If no actual parameter is assigned to an input parameter, it is set to the replacement value. s-val only takes effect in serializations, d-val only takes effect in deserializations, and val takes effect in both serializations and deserializations. Replacement values cannot be assigned to output parameters and input/output parameters.
+The additions s-val and d-val or val can be used to assign a replacement value to each the input parameters, where the values are specified as [ABAP values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_abap_representation.htm). If no actual parameter is assigned to an input parameter, it is set to the replacement value. s-val only takes effect in serializations, d-val only takes effect in deserializations, and val takes effect in both serializations and deserializations. Replacement values cannot be assigned to output parameters and input/output parameters.
 
 Example
 
-This example demonstrates how parameters are passed to a called transformation. The same example is used for subtemplates in the statement [tt:apply](javascript:call_link\('abenst_tt_apply.htm'\)).
+This example demonstrates how parameters are passed to a called transformation. The same example is used for subtemplates in the statement [tt:apply](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_apply.htm).
 
 The transformation DEMO\_ST\_PARAMETER1 below has three parameters PARA1, PARA2, and PARA3.
 

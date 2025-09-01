@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [Changes in Release 7.54](javascript:call_link\('abennews-754.htm'\)) →  [ABAP RESTful Programming Model in Release 7.54](javascript:call_link\('abennews-754-restful.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 7.5x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-75.htm) →  [Changes in Release 7.54](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-754.htm) →  [ABAP RESTful Programming Model in Release 7.54](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-754-restful.htm) → 
 
 ABAP EML in Release 7.54
 
@@ -14,7 +14,7 @@ Modification 1
 
 Entity Manipulation Language
 
-Entity Manipulation Language (or [EML](javascript:call_link\('abeneml.htm'\)) for short) is a set of ABAP-based statements for manipulating the [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") that are granted a behavior by the [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry"). EML statements allow:
+Entity Manipulation Language (or [EML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) for short) is a set of ABAP-based statements for manipulating the [CDS entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry") that are granted a behavior by the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry"). EML statements allow:
 
 -   Write and read operations on CDS entities.
 

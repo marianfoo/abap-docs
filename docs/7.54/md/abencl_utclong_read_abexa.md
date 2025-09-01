@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Time Stamps](javascript:call_link\('abentime_stamps.htm'\)) →  [Time Stamp Field with Time Stamp Type](javascript:call_link\('abenutclong.htm'\)) →  [System Class for Time Stamp Fields](javascript:call_link\('abentimestamp_system_class.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_processing.htm) →  [Time Stamps](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamps.htm) →  [Time Stamp Field with Time Stamp Type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenutclong.htm) →  [System Class for Time Stamp Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentimestamp_system_class.htm) → 
 
 Read Time Stamp from String
 
@@ -79,6 +79,6 @@ START-OF-SELECTION.
 
 Description
 
-A selection screen displays a time stamp in a string whose content can be modified in any way. Both a [date format](javascript:call_link\('abendate_formats.htm'\)) and a [time format](javascript:call_link\('abentime_formats.htm'\)) can be selected.
+A selection screen displays a time stamp in a string whose content can be modified in any way. Both a [date format](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_formats.htm) and a [time format](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_formats.htm) can be selected.
 
 When Execute is chosen, the method READ of the system class CL\_ABAP\_UTCLONG is used to read the string as a time stamp. If the read action raises an exception, this is displayed in a message.

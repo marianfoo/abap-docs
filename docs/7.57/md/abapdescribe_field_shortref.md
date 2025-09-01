@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  D
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_shortref.htm) →  D
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DESCRIBE FIELD, ABAPDESCRIBE_FIELD_SHORTREF, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%
 0D%0ASuggestion for improvement:)
 
 DESCRIBE FIELD - Short Reference
 
-[Reference](javascript:call_link\('abapdescribe_field.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdescribe_field.htm)
 
 Syntax
 
@@ -34,9 +34,9 @@ Additions  
 -   LENGTH ilen IN *{*BYTE*|*CHARACTER*}* MODE
     Returns the length in bytes or characters in ilen.
 -   DECIMALS dec
-    Returns the number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") in dec.
+    Returns the number of [decimal places](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendecimal_place_glosry.htm "Glossary Entry") in dec.
 -   OUTPUT-LENGTH olen
-    Returns the output length on the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") in olen.
+    Returns the output length on the [screens](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_glosry.htm "Glossary Entry") in olen.
 -   HELP-ID hlp
     Returns the name of the data element in ABAP Dictionary referred to by the type of dobj hlp.
 -   EDIT MASK mask

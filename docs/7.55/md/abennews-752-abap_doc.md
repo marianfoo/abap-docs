@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [Changes in Release 7.52](javascript:call_link\('abennews-752.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 7.5x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-75.htm) →  [Changes in Release 7.52](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-752.htm) → 
 
 ABAP Doc in Release 7.52
 
@@ -15,13 +15,13 @@ Modification 1
 
 Documentation Links
 
-The new syntax {@link ...} makes it possible to link to other documentation of repository objects (or its components) in [ABAP Doc comments](javascript:call_link\('abenabap_doc_comment_glosry.htm'\) "Glossary Entry").
+The new syntax {@link ...} makes it possible to link to other documentation of repository objects (or its components) in [ABAP Doc comments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_doc_comment_glosry.htm "Glossary Entry").
 
 Modification 2
 
 Further Changes
 
-The following changes have also been made to [ABAP Doc comments](javascript:call_link\('abenabap_doc_comment_glosry.htm'\) "Glossary Entry"):
+The following changes have also been made to [ABAP Doc comments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_doc_comment_glosry.htm "Glossary Entry"):
 
 -   Opening and closing tags no longer need to be specified in lowercase letters.
 

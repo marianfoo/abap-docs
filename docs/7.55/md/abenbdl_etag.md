@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR, etag
 
@@ -20,9 +20,9 @@ The etag field field of an entity is used for locks in the OData protocol. It re
 
 A field flagged as an entity tag (ETag) field field is typically used to describe, uniquely, the state of a requested resource (for example a specific entity instance). Any changes made to the requested resource update the etag field. Often fields containing time stamps, check sums, or version numbers are used for this.
 
-In the [behavior implementation](javascript:call_link\('abenbehavior_implement_glosry.htm'\) "Glossary Entry"), the method [read](javascript:call_link\('abenhandler_method_read.htm'\)) of the [handler class](javascript:call_link\('abenabp_handler_class.htm'\)) is called, which then requests the current ETag for the resource as shown in the following example. The process flow is as follows:
+In the [behavior implementation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_implement_glosry.htm "Glossary Entry"), the method [read](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_read.htm) of the [handler class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_handler_class.htm) is called, which then requests the current ETag for the resource as shown in the following example. The process flow is as follows:
 
--   If an entity has an ETag field in its [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry"), a write operation (such as update) passes an if match header with the value of the ETag in the query and hence informs the framework of the expected state.
+-   If an entity has an ETag field in its [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry"), a write operation (such as update) passes an if match header with the value of the ETag in the query and hence informs the framework of the expected state.
 
 -   The method read then checks whether the requested resource exists in a buffered state or, if not, whether it needs to be read from the database.
 

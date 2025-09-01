@@ -3,29 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenfunction_modules_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_modules_obsolete.htm)
-- [abaptables_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm)
-- [abentables_parameters_restrictions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentables_parameters_restrictions.htm)
-- [abapfunction_typing_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm)
-- [abenglobal_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_parameters_obsolete.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.464Z
-
----
-
 ### abenfunction_modules_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abenfunction_modules_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_modules_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -33,32 +11,25 @@ Included pages: 6
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_modularization.htm) → 
 
 Function Modules
 
 The following language constructs should no longer be used when creating function modules:
 
--   [Table parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\))
+-   [Table parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm)
 
--   [Obsolete typing](javascript:call_link\('abapfunction_typing_obsolete.htm'\))
+-   [Obsolete typing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm)
 
--   [Global parameters](javascript:call_link\('abenglobal_parameters_obsolete.htm'\))
+-   [Global parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_parameters_obsolete.htm)
 
 Continue
-[FUNCTION - table\_parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\))
-[FUNCTION - LIKE, STRUCTURE](javascript:call_link\('abapfunction_typing_obsolete.htm'\))
-[Global Parameters](javascript:call_link\('abenglobal_parameters_obsolete.htm'\))
+[FUNCTION - table\_parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm)
+[FUNCTION - LIKE, STRUCTURE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm)
+[Global Parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_parameters_obsolete.htm)
 
-
-
-**📖 Source**: [abenfunction_modules_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_modules_obsolete.htm)
 
 ### abaptables_parameters_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abaptables_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -66,30 +37,30 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Function Modules](javascript:call_link\('abenfunction_modules_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_modularization.htm) →  [Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_modules_obsolete.htm) → 
 
 FUNCTION - table\_parameters
 
 Obsolete Syntax
 
-... TABLES p1  *{*TYPE itab\_type*}* *|* *{* [STRUCTURE struc](javascript:call_link\('abapfunction_typing_obsolete.htm'\))*}* *\[*OPTIONAL*\]*
-           p2  *{*TYPE itab\_type*}* *|* *{* [STRUCTURE struc](javascript:call_link\('abapfunction_typing_obsolete.htm'\))*}* *\[*OPTIONAL*\]*
+... TABLES p1  *{*TYPE itab\_type*}* *|* *{* [STRUCTURE struc](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm)*}* *\[*OPTIONAL*\]*
+           p2  *{*TYPE itab\_type*}* *|* *{* [STRUCTURE struc](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm)*}* *\[*OPTIONAL*\]*
            ...
 
 Effect
 
-Defines the [table parameters](javascript:call_link\('abentable_parameter_glosry.htm'\) "Glossary Entry") t1 t2 ... in the [function module interface](javascript:call_link\('abenfunction.htm'\)) display in the source code of function modules. Table parameters are obsolete CHANGING parameters that are typed as [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"). If an internal table without a header line or a [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry") is passed as an actual parameter to a formal parameter of this type, an empty local header line is generated in the function module. If an internal table with a header line is used as an actual parameter, both the table body and the header line are passed to the function module. Pass by value is not possible in formal parameters defined using TABLES.
+Defines the [table parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_parameter_glosry.htm "Glossary Entry") t1 t2 ... in the [function module interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm) display in the source code of function modules. Table parameters are obsolete CHANGING parameters that are typed as [standard tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm "Glossary Entry") with a [header line](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenheader_line_glosry.htm "Glossary Entry"). If an internal table without a header line or a [table body](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_body_glosry.htm "Glossary Entry") is passed as an actual parameter to a formal parameter of this type, an empty local header line is generated in the function module. If an internal table with a header line is used as an actual parameter, both the table body and the header line are passed to the function module. Pass by value is not possible in formal parameters defined using TABLES.
 
-Information about TYPE, STRUCTURE, and OPTIONAL is available in [Properties of the Interface Parameters](javascript:call_link\('abenfunction_parameters.htm'\)). The following special rules apply to table parameters:
+Information about TYPE, STRUCTURE, and OPTIONAL is available in [Properties of the Interface Parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm). The following special rules apply to table parameters:
 
--   Only [pass by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry") is allowed in TABLES parameters.
+-   Only [pass by reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpass_by_reference_glosry.htm "Glossary Entry") is allowed in TABLES parameters.
     
 -   After TYPE, only one table type itab\_type from ABAP Dictionary (including type groups) with the table category standard table with a flat row type can be specified.
     
 -   A type with TYPE REF TO is not permitted.
     
 
-When TABLES parameters are accessed that are not bound to any type-compliant actual parameters, a special [exception situation](javascript:call_link\('abentables_parameters_restrictions.htm'\)) can arise.
+When TABLES parameters are accessed that are not bound to any type-compliant actual parameters, a special [exception situation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentables_parameters_restrictions.htm) can arise.
 
 Note
 
@@ -97,20 +68,13 @@ Formal parameters defined with TABLES can be replaced by formal parameters defin
 
 Exception
 
-Provided that [basXML](javascript:call_link\('abenbasxml_glosry.htm'\) "Glossary Entry") is not set as the [RFC log](javascript:call_link\('abenrfc_protocol.htm'\)), using TABLES parameters for [remote-enabled function modules](javascript:call_link\('abenremote_enabled_fm_glosry.htm'\) "Glossary Entry") for [RFC](javascript:call_link\('abenrfc_glosry.htm'\) "Glossary Entry") can be significantly faster than passing by means of the CHANGING parameter.
+Provided that [basXML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbasxml_glosry.htm "Glossary Entry") is not set as the [RFC log](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_protocol.htm), using TABLES parameters for [remote-enabled function modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenremote_enabled_fm_glosry.htm "Glossary Entry") for [RFC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_glosry.htm "Glossary Entry") can be significantly faster than passing by means of the CHANGING parameter.
 
 Continue
-[Exceptions when Accessing TABLES Parameters](javascript:call_link\('abentables_parameters_restrictions.htm'\))
+[Exceptions when Accessing TABLES Parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentables_parameters_restrictions.htm)
 
-
-
-**📖 Source**: [abaptables_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm)
 
 ### abentables_parameters_restrictions.htm
-
-> **📖 Official SAP Documentation**: [abentables_parameters_restrictions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentables_parameters_restrictions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -118,41 +82,34 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Function Modules](javascript:call_link\('abenfunction_modules_obsolete.htm'\)) →  [FUNCTION - table\_parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_modularization.htm) →  [Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_modules_obsolete.htm) →  [FUNCTION - table\_parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm) → 
 
 Exceptions when Accessing TABLES Parameters
 
 In some variants of statements, which use a work area to access internal tables, the work area must be compatible with the row type of the internal table. This is checked statically by the syntax check.
 
-In the case of TABLES parameters typed using the obsolete addition [STRUCTURE](javascript:call_link\('abapfunction_typing_obsolete.htm'\)), the compatibility of the work area with the type specified in STRUCTURE is checked. The [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") that always accompanies TABLES parameters also has this type.
+In the case of TABLES parameters typed using the obsolete addition [STRUCTURE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm), the compatibility of the work area with the type specified in STRUCTURE is checked. The [header line](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenheader_line_glosry.htm "Glossary Entry") that always accompanies TABLES parameters also has this type.
 
 If a TABLES parameter is typed using STRUCTURE it can also be bound to actual parameters whose row type is longer than the type of the TABLES parameter, so making them incompatible with a work area judged to be correct by the syntax check. This causes problems if the components of the TABLES parameter are accessed dynamically within the procedure, since the data type of the actual parameter is evaluated at runtime. Consequently, memory limits can be violated by statements accessing a work area that references the type specified using STRUCTURE. This is why the following accesses produce the runtime error ITAB\_STRUC\_ACCESS\_VIOLATION:
 
 -   The following statements terminate when the component specified in name is used to access a memory area after wa.
 
--   [READ TABLE itab](javascript:call_link\('abapread_table.htm'\)) [INTO wa](javascript:call_link\('abapread_table_outdesc.htm'\)) ... [COMPARING*|*TRANSPORTING ... (name) ...](javascript:call_link\('abapread_table_transport_options.htm'\))
+-   [READ TABLE itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table.htm) [INTO wa](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table_outdesc.htm) ... [COMPARING*|*TRANSPORTING ... (name) ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table_transport_options.htm)
 
--   [MODIFY itab](javascript:call_link\('abapmodify_itab.htm'\)) [FROM wa TRANSPORTING ... (name) ...](javascript:call_link\('abapmodify_itab_single.htm'\))
+-   [MODIFY itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_itab.htm) [FROM wa TRANSPORTING ... (name) ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_itab_single.htm)
 
--   [APPEND wa TO itab SORTED BY ... (name) ...](javascript:call_link\('abapappend.htm'\))
+-   [APPEND wa TO itab SORTED BY ... (name) ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapappend.htm)
 
 -   The following statements terminated when wa is shorter than the row type:
 
--   [READ TABLE itab](javascript:call_link\('abapread_table.htm'\)) [INTO wa](javascript:call_link\('abapread_table_outdesc.htm'\)) ... [COMPARING ALL FIELDS.](javascript:call_link\('abapread_table_transport_options.htm'\))
+-   [READ TABLE itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table.htm) [INTO wa](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table_outdesc.htm) ... [COMPARING ALL FIELDS.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table_transport_options.htm)
 
--   [COLLECT wa INTO itab ...](javascript:call_link\('abapcollect.htm'\))
+-   [COLLECT wa INTO itab ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcollect.htm)
 
-This exception is particularly likely if the [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") is used as an implicit work area. An explicit work area with the type of the actual parameter should be used to avoid this runtime error.
+This exception is particularly likely if the [header line](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenheader_line_glosry.htm "Glossary Entry") is used as an implicit work area. An explicit work area with the type of the actual parameter should be used to avoid this runtime error.
 
-
-
-**📖 Source**: [abentables_parameters_restrictions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentables_parameters_restrictions.htm)
 
 ### abaptables_parameters_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abaptables_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -160,30 +117,30 @@ This exception is particularly likely if the [header line](javascript:call_link\
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Function Modules](javascript:call_link\('abenfunction_modules_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_modularization.htm) →  [Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_modules_obsolete.htm) → 
 
 FUNCTION - table\_parameters
 
 Obsolete Syntax
 
-... TABLES p1  *{*TYPE itab\_type*}* *|* *{* [STRUCTURE struc](javascript:call_link\('abapfunction_typing_obsolete.htm'\))*}* *\[*OPTIONAL*\]*
-           p2  *{*TYPE itab\_type*}* *|* *{* [STRUCTURE struc](javascript:call_link\('abapfunction_typing_obsolete.htm'\))*}* *\[*OPTIONAL*\]*
+... TABLES p1  *{*TYPE itab\_type*}* *|* *{* [STRUCTURE struc](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm)*}* *\[*OPTIONAL*\]*
+           p2  *{*TYPE itab\_type*}* *|* *{* [STRUCTURE struc](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm)*}* *\[*OPTIONAL*\]*
            ...
 
 Effect
 
-Defines the [table parameters](javascript:call_link\('abentable_parameter_glosry.htm'\) "Glossary Entry") t1 t2 ... in the [function module interface](javascript:call_link\('abenfunction.htm'\)) display in the source code of function modules. Table parameters are obsolete CHANGING parameters that are typed as [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"). If an internal table without a header line or a [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry") is passed as an actual parameter to a formal parameter of this type, an empty local header line is generated in the function module. If an internal table with a header line is used as an actual parameter, both the table body and the header line are passed to the function module. Pass by value is not possible in formal parameters defined using TABLES.
+Defines the [table parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_parameter_glosry.htm "Glossary Entry") t1 t2 ... in the [function module interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm) display in the source code of function modules. Table parameters are obsolete CHANGING parameters that are typed as [standard tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm "Glossary Entry") with a [header line](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenheader_line_glosry.htm "Glossary Entry"). If an internal table without a header line or a [table body](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_body_glosry.htm "Glossary Entry") is passed as an actual parameter to a formal parameter of this type, an empty local header line is generated in the function module. If an internal table with a header line is used as an actual parameter, both the table body and the header line are passed to the function module. Pass by value is not possible in formal parameters defined using TABLES.
 
-Information about TYPE, STRUCTURE, and OPTIONAL is available in [Properties of the Interface Parameters](javascript:call_link\('abenfunction_parameters.htm'\)). The following special rules apply to table parameters:
+Information about TYPE, STRUCTURE, and OPTIONAL is available in [Properties of the Interface Parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm). The following special rules apply to table parameters:
 
--   Only [pass by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry") is allowed in TABLES parameters.
+-   Only [pass by reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpass_by_reference_glosry.htm "Glossary Entry") is allowed in TABLES parameters.
     
 -   After TYPE, only one table type itab\_type from ABAP Dictionary (including type groups) with the table category standard table with a flat row type can be specified.
     
 -   A type with TYPE REF TO is not permitted.
     
 
-When TABLES parameters are accessed that are not bound to any type-compliant actual parameters, a special [exception situation](javascript:call_link\('abentables_parameters_restrictions.htm'\)) can arise.
+When TABLES parameters are accessed that are not bound to any type-compliant actual parameters, a special [exception situation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentables_parameters_restrictions.htm) can arise.
 
 Note
 
@@ -191,20 +148,13 @@ Formal parameters defined with TABLES can be replaced by formal parameters defin
 
 Exception
 
-Provided that [basXML](javascript:call_link\('abenbasxml_glosry.htm'\) "Glossary Entry") is not set as the [RFC log](javascript:call_link\('abenrfc_protocol.htm'\)), using TABLES parameters for [remote-enabled function modules](javascript:call_link\('abenremote_enabled_fm_glosry.htm'\) "Glossary Entry") for [RFC](javascript:call_link\('abenrfc_glosry.htm'\) "Glossary Entry") can be significantly faster than passing by means of the CHANGING parameter.
+Provided that [basXML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbasxml_glosry.htm "Glossary Entry") is not set as the [RFC log](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_protocol.htm), using TABLES parameters for [remote-enabled function modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenremote_enabled_fm_glosry.htm "Glossary Entry") for [RFC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_glosry.htm "Glossary Entry") can be significantly faster than passing by means of the CHANGING parameter.
 
 Continue
-[Exceptions when Accessing TABLES Parameters](javascript:call_link\('abentables_parameters_restrictions.htm'\))
+[Exceptions when Accessing TABLES Parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentables_parameters_restrictions.htm)
 
-
-
-**📖 Source**: [abaptables_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm)
 
 ### abapfunction_typing_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abapfunction_typing_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -212,7 +162,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Function Modules](javascript:call_link\('abenfunction_modules_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_modularization.htm) →  [Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_modules_obsolete.htm) → 
 
 FUNCTION - LIKE, STRUCTURE
 
@@ -222,11 +172,11 @@ Obsolete Syntax
 
 Effect
 
-Typing of interface parameters in the display of the [properties of the interface parameters](javascript:call_link\('abenfunction_parameters.htm'\)) of a function module interface in the source code of function modules, when the type is specified using LIKE in Function Builder. Specifying the type in this way now produces a warning in Function Builder.
+Typing of interface parameters in the display of the [properties of the interface parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm) of a function module interface in the source code of function modules, when the type is specified using LIKE in Function Builder. Specifying the type in this way now produces a warning in Function Builder.
 
--   A typing using LIKE is displayed if an elementary component of a flat structure (or database table or view) [struc-comp](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry") from ABAP Dictionary is specified after LIKE in Function Builder. The typing check is the same as when specifying components after TYPE, with the exception that the [decimal places](javascript:call_link\('abenfractional_portion_glosry.htm'\) "Glossary Entry") are ignored for [packed numbers](javascript:call_link\('abenpacked_number_glosry.htm'\) "Glossary Entry"). No types from a type group can be specified.
+-   A typing using LIKE is displayed if an elementary component of a flat structure (or database table or view) [struc-comp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenflat_structure_glosry.htm "Glossary Entry") from ABAP Dictionary is specified after LIKE in Function Builder. The typing check is the same as when specifying components after TYPE, with the exception that the [decimal places](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfractional_portion_glosry.htm "Glossary Entry") are ignored for [packed numbers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpacked_number_glosry.htm "Glossary Entry"). No types from a type group can be specified.
     
--   A typing using STRUCTURE is displayed if a flat structure (or database table) struc from ABAP Dictionary is specified after LIKE in Function Builder. This structure is then forced on the formal parameter ([casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry")), and it is possible to access the individual components. The [fragment view](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry") of a structured actual parameter must match that of struc (in table parameters only across the length of struc); an elementary actual parameter must be character-like and flat. No types from a type group can be specified.
+-   A typing using STRUCTURE is displayed if a flat structure (or database table) struc from ABAP Dictionary is specified after LIKE in Function Builder. This structure is then forced on the formal parameter ([casting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencast_casting_glosry.htm "Glossary Entry")), and it is possible to access the individual components. The [fragment view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry") of a structured actual parameter must match that of struc (in table parameters only across the length of struc); an elementary actual parameter must be character-like and flat. No types from a type group can be specified.
     
 
 If a component of a global program structure in the function group of a function module has exactly the same identity (structure name struc and component comp) as the component of a structure in ABAP Dictionary specified after LIKE, LIKE refers to the component of the structure defined in the function group. This produces a warning in the syntax check.
@@ -235,20 +185,10 @@ Notes
 
 -   Use TYPE instead of LIKE in Function Builder; this is always displayed as TYPE in the source code. Furthermore, TYPE always relates to types in ABAP Dictionary and never to local types of the function group.
     
--   Formal parameters typed with STRUCTURE can usually be replaced by formal parameters typed with TYPE. If a casting is necessary, generic formal parameters should be used and assigned to field symbols using the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)) and the addition CASTING.
+-   Formal parameters typed with STRUCTURE can usually be replaced by formal parameters typed with TYPE. If a casting is necessary, generic formal parameters should be used and assigned to field symbols using the statement [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm) and the addition CASTING.
 
-
-
-**📖 Source**: [abapfunction_typing_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm)
 
 ### abenglobal_parameters_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abenglobal_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_parameters_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenglobal_parameters_obsolete.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_parameters_obsolete.htm)
-
 
   
 
@@ -256,15 +196,15 @@ Notes
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Function Modules](javascript:call_link\('abenfunction_modules_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_modularization.htm) →  [Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_modules_obsolete.htm) → 
 
 Global Parameters
 
-The formal parameters of the [interface](javascript:call_link\('abenfunction.htm'\)) of a function module can be made known globally by choosing Edit → Interface → Globalize Parameters in Function Builder. Then the field Global is selected in the properties of the function module. The formal parameters of a global interface have the following properties:
+The formal parameters of the [interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm) of a function module can be made known globally by choosing Edit → Interface → Globalize Parameters in Function Builder. Then the field Global is selected in the properties of the function module. The formal parameters of a global interface have the following properties:
 
 -   All parameters that are fully typed and are defined for being passed as a value are treated as if global data objects of the same name were declared in the Top Include. This means they are visible in the same function group and, when the function module is exited, they retain their value.
 
--   All the other parameters are handled as if data objects of the same name were declared in the top include (for [table parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\)), two in each case # one for the table body, one for the header line). But they can only be used during execution of the function module. If a parameter of this type is accessed when the function module is not executed, the runtime error GETWA\_NOT\_ASSIGNED occurs, since these parameters are realized internally by field symbols. A data object is only assigned to these field symbols while the function module is being executed.
+-   All the other parameters are handled as if data objects of the same name were declared in the top include (for [table parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm), two in each case # one for the table body, one for the header line). But they can only be used during execution of the function module. If a parameter of this type is accessed when the function module is not executed, the runtime error GETWA\_NOT\_ASSIGNED occurs, since these parameters are realized internally by field symbols. A data object is only assigned to these field symbols while the function module is being executed.
 
 In the function group, no global data objects with the same name (such as a global parameter) may be created. If multiple function modules in a function group have global interfaces, similarly named parameters must have identical definitions.
 

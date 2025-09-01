@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarchitecture_gdl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenerror_handling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Cleanups%20After%20Exceptions%2C%20ABENCLEANUP_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -24,7 +24,7 @@ Before forwarding an exception to higher-level call layers, perform the necessar
 
 Details   
 
-Each exception changes the program flow and can thus pose a significant risk to the consistency of an application. If you decide not to handle an exception, but to [forward](javascript:call_link\('abenhandl_prop_except_guidl.htm'\) "Guideline") it, you must make sure that you leave the current software layer in a consistent state. You can implement the CLEANUP block in this case, to execute cleanups before the exception is forwarded to higher-level software layers.
+Each exception changes the program flow and can thus pose a significant risk to the consistency of an application. If you decide not to handle an exception, but to [forward](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhandl_prop_except_guidl.htm "Guideline") it, you must make sure that you leave the current software layer in a consistent state. You can implement the CLEANUP block in this case, to execute cleanups before the exception is forwarded to higher-level software layers.
 
 Bad Example
 

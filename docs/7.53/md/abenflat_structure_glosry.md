@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 flat structure
 
-[Structure](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry") that contains only [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") [components](javascript:call_link\('abencomponent_glosry.htm'\) "Glossary Entry").
+[Structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_glosry.htm "Glossary Entry") that contains only [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") [components](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomponent_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abendata_objects_structure.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_objects_structure.htm)

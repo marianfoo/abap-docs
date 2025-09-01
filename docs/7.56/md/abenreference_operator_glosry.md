@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 reference operator
 
-[Constructor operator](javascript:call_link\('abenconstructor_operator_glosry.htm'\) "Glossary Entry") [REF](javascript:call_link\('abenconstructor_expression_ref.htm'\)) used to construct a [data reference](javascript:call_link\('abendata_reference_glosry.htm'\) "Glossary Entry") to a [data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry").
+[Constructor operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_operator_glosry.htm "Glossary Entry") [REF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_ref.htm) used to construct a [data reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_reference_glosry.htm "Glossary Entry") to a [data object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_object_glosry.htm "Glossary Entry").

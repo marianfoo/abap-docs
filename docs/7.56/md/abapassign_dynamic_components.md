@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Setting Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) →  [ASSIGN](javascript:call_link\('abapassign.htm'\)) →  [ASSIGN, mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreference_assignments.htm) →  [Setting Field Symbols](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenset_field_symbols.htm) →  [ASSIGN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign.htm) →  [ASSIGN, mem\_area](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_mem_area.htm) → 
 
 ASSIGN, dynamic\_components
 
-[Short Reference](javascript:call_link\('abapassign_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_shortref.htm)
 
 Syntax
 
@@ -22,7 +22,7 @@ Alternatives:
 
 Effect
 
-These alternatives for specifying the memory area [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) of the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)) access components of structures dynamically.
+These alternatives for specifying the memory area [mem\_area](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_mem_area.htm) of the statement [ASSIGN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign.htm) access components of structures dynamically.
 
 Alternative 1   
 
@@ -30,13 +30,13 @@ Alternative 1  
 
 Effect
 
-This form access components of structures that are referenced by a [data reference variable](javascript:call_link\('abendata_reference_variable_glosry.htm'\) "Glossary Entry") dref. dref can be any data reference variable that points to structure that contains the component specified in a character-like field comp\_name.
+This form access components of structures that are referenced by a [data reference variable](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_reference_variable_glosry.htm "Glossary Entry") dref. dref can be any data reference variable that points to structure that contains the component specified in a character-like field comp\_name.
 
 The component name does not have to be in uppercase letters. It can contain offsets/lengths, structure component selectors, object component selectors, and class component selectors, in order to assign parts of the component or referenced objects of the component.
 
 Hint
 
-This syntax form corresponds to [dynamic access](javascript:call_link\('abapassign_mem_area_dynamic_access.htm'\)) to object components..
+This syntax form corresponds to [dynamic access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_mem_area_dynamic_access.htm) to object components..
 
 Example
 
@@ -66,11 +66,11 @@ Effect
 
 This expression for mem\_area assigns a memory area of a component comp of a structure struc to the field symbol.
 
-struc is a [result position](javascript:call_link\('abenresult_position_glosry.htm'\) "Glossary Entry"). The structure can be specified as a data object or as a [writable expression](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry"). If struc is specified as an expression, its result must be structured. If struc is specified as a data object, it does not need to be structured.
+struc is a [result position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenresult_position_glosry.htm "Glossary Entry"). The structure can be specified as a data object or as a [writable expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwritable_expression_glosry.htm "Glossary Entry"). If struc is specified as an expression, its result must be structured. If struc is specified as a data object, it does not need to be structured.
 
-comp is a [character-like](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry") or [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry"). The evaluation depends on the data type of comp:
+comp is a [character-like](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry") or [numeric expression position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry"). The evaluation depends on the data type of comp:
 
--   If the field comp has a text-like type (c or string) or the type of a [flat](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry") structure, which exclusively contains character-like components, its content is interpreted as the name of the component. The name must be in uppercase letters. It may contain offsets and lengths, structure component selectors, and component selectors for assigning structured data objects and attributes in classes or objects.
+-   If the field comp has a text-like type (c or string) or the type of a [flat](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_structure_glosry.htm "Glossary Entry") structure, which exclusively contains character-like components, its content is interpreted as the name of the component. The name must be in uppercase letters. It may contain offsets and lengths, structure component selectors, and component selectors for assigning structured data objects and attributes in classes or objects.
 -   If the field comp has a non-text-like elementary type, the content is converted to the type i and interpreted as the position of the component in the structure. If the value of comp is 0, the memory area of the entire structure is assigned to the field symbol.
 -   If comp has a different type, a syntax error or runtime error occurs.
 
@@ -78,8 +78,8 @@ If an operand struc specified as a data object is not a structure or the specifi
 
 Hints
 
--   Identifying a component by its name is far less efficient than using its position, since far more internal processes are involved. Using COMPONENTS OF, however, is always more efficient than specifying the name after the structure component selector within a fully dynamically specified component in a parenthesized data object name (see this [executable example](javascript:call_link\('abenassign_component_abexa.htm'\))).
--   If the structure struc is specified as a [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") and the corresponding line is not found, the exception CX\_SY\_ITAB\_LINE\_NOT\_FOUND is raised.
+-   Identifying a component by its name is far less efficient than using its position, since far more internal processes are involved. Using COMPONENTS OF, however, is always more efficient than specifying the name after the structure component selector within a fully dynamically specified component in a parenthesized data object name (see this [executable example](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassign_component_abexa.htm)).
+-   If the structure struc is specified as a [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expression_glosry.htm "Glossary Entry") and the corresponding line is not found, the exception CX\_SY\_ITAB\_LINE\_NOT\_FOUND is raised.
 -   Writable expressions can be specified for struc but no other expressions, since only these can have a non-temporary result. Assigning a component of a temporary structure to a field symbol would not make sense.
 -   If struc is specified, it is advisable to specify only structures as a data object and to check this in advance. Just evaluating sy-subrc is not enough to determine why an assignment was not successful.
 
@@ -105,8 +105,8 @@ Example
 
 The following two methods show the dynamic assignment of the components of a structure that is passed to the parameter para of the methods to a field symbol <comp>.
 
--   The first implementation does not use [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry"). The statement [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)) is used to check whether the passed data object is a structure. The components are then assigned one after another to the field symbol in a DO loop.
--   The second implementation uses [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry"). A [down cast](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry") of the type description object to the class CL\_ABAP\_STRUCTDESCR for the passed data object ensures that the object is a structure. A loop across the component table COMPONENTS assigns the components to the field symbol via their names.
+-   The first implementation does not use [RTTI](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry"). The statement [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdescribe_field.htm) is used to check whether the passed data object is a structure. The components are then assigned one after another to the field symbol in a DO loop.
+-   The second implementation uses [RTTI](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry"). A [down cast](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendown_cast_glosry.htm "Glossary Entry") of the type description object to the class CL\_ABAP\_STRUCTDESCR for the passed data object ensures that the object is a structure. A loop across the component table COMPONENTS assigns the components to the field symbol via their names.
 
 CLASS demo DEFINITION.
   PUBLIC SECTION.
@@ -161,7 +161,7 @@ cl\_demo\_output=>display( <fs> ).
 
 Executable Example
 
-[Field Symbols, Dynamic Structure Components](javascript:call_link\('abenassign_component_abexa.htm'\))
+[Field Symbols, Dynamic Structure Components](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassign_component_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Field Symbols, Dynamic Structure Components](javascript:call_link\('abenassign_component_abexa.htm'\))
+![Example](exa.gif "Example") [Field Symbols, Dynamic Structure Components](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassign_component_abexa.htm)

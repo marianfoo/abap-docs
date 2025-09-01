@@ -4,17 +4,17 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Structures](javascript:call_link\('abenconversion_struc.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_rules.htm) →  [Conversion Rules for Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_struc.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Conversion%20Between%20Flat%20Structures%20and%20Single%20Fields%2C%20ABENCONVERSION_FLAT_ELEMENTARY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugges
 tion%20for%20improvement:)
 
 Conversion Between Flat Structures and Single Fields
 
-The following rules apply when converting a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") structure to a single field and vice versa:
+The following rules apply when converting a [flat](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenflat_glosry.htm "Glossary Entry") structure to a single field and vice versa:
 
--   If a structure is purely character-like, it is handled like a data object of the type c (casting) during conversion. The single field can have any elementary data type, except for an [enumerated type](javascript:call_link\('abenenum_type_glosry.htm'\) "Glossary Entry").
--   If the structure is not completely character-like, the single field must have the type c and the structure must begin with a character-like [fragment](javascript:call_link\('abenunicode_fragment_view.htm'\)) that is at least as long as the single field. The assignment takes place only between this fragment and the single field. The character-like fragment of the structure is handled like a data object of the type c (casting) during assignment. If the structure is the target field, the remaining character-like fragments are filled with blanks and all other components with the type-dependent [initial value](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry").
+-   If a structure is purely character-like, it is handled like a data object of the type c (casting) during conversion. The single field can have any elementary data type, except for an [enumerated type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_type_glosry.htm "Glossary Entry").
+-   If the structure is not completely character-like, the single field must have the type c and the structure must begin with a character-like [fragment](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunicode_fragment_view.htm) that is at least as long as the single field. The assignment takes place only between this fragment and the single field. The character-like fragment of the structure is handled like a data object of the type c (casting) during assignment. If the structure is the target field, the remaining character-like fragments are filled with blanks and all other components with the type-dependent [initial value](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninitial_value_glosry.htm "Glossary Entry").
 
 No conversion rule is defined for any other cases, and assignments are not possible.
 

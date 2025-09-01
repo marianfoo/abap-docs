@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) →  [FIND IN TABLE itab](javascript:call_link\('abapfind_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab.htm) →  [Processing Statements for Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_processing_statements.htm) →  [FIND IN TABLE itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfind_itab.htm) → 
 
 FIND IN TABLE - table\_range
 
-[Quick Reference](javascript:call_link\('abapfind_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfind_shortref.htm)
 
 Syntax
 
@@ -17,15 +17,15 @@ Syntax
 
 Effect
 
-This addition limits the search in the statement [FIND IN TABLE](javascript:call_link\('abapfind_itab.htm'\)) to the table section specified in lin1, off1, lin2 and off2. Without this addition, the program searches the whole table, row by row. lin1, off1, lin2 and off2 are [numeric expression positions](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") of operand type i.
+This addition limits the search in the statement [FIND IN TABLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfind_itab.htm) to the table section specified in lin1, off1, lin2 and off2. Without this addition, the program searches the whole table, row by row. lin1, off1, lin2 and off2 are [numeric expression positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") of operand type i.
 
-The table section begins in the line lin1 after the [offset](javascript:call_link\('abenoffset_glosry.htm'\) "Glossary Entry") off1, and ends in the line lin2 in front of the offset off2. If FROM is specified without OFFSET, the section implicitly begins at the start of lin1. If TO is specified without OFFSET, the range implicitly ends at the end of the line lin2.
+The table section begins in the line lin1 after the [offset](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_glosry.htm "Glossary Entry") off1, and ends in the line lin2 in front of the offset off2. If FROM is specified without OFFSET, the section implicitly begins at the start of lin1. If TO is specified without OFFSET, the range implicitly ends at the end of the line lin2.
 
 The value of lin1 must be greater than or equal to 1, and the value of lin2 must be greater than or equal to the value of lin1, and both must refer to valid table rows. The values of off1 and off2 must be greater than or equal to 0 and be within the respective line length. If lin1 and lin2 indicate the same line, the value of off2 must be greater than or equal to the value of off1. Both offsets may refer to the end of the line.
 
 Note
 
-This addition is also used in the statement [REPLACE IN TABLE](javascript:call_link\('abapreplace_itab.htm'\)).
+This addition is also used in the statement [REPLACE IN TABLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreplace_itab.htm).
 
 Example
 

@@ -4,15 +4,15 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  W
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
 
 WHILE - Quick reference
 
-[Reference](javascript:call_link\('abapwhile.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm)
 
 Syntax
 
-WHILE [log\_exp](javascript:call_link\('abenlog_exp_shortref.htm'\))
+WHILE [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm)
       *\[*VARY dobj FROM dobj1 NEXT dobj2 *\[*RANGE range*\]*
       *\[*VARY ...*\]**\]*.
   *\[*statement\_block*\]*

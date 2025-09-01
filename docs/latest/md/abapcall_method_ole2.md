@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and OLE](javascript:call_link\('abenole2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_communication.htm) →  [ABAP and OLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenole2.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CALL%20METHOD%2C%20OLE%2C%20ABAPCALL_METHOD_OLE2%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CALL METHOD, OLE
 
-[Short Reference](javascript:call_link\('abapcall_method_of_ole_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_of_ole_shortref.htm)
 
 Syntax
 
@@ -26,9 +26,9 @@ Additions:
 
 Effect
 
-This statement calls the method meth of the automation object ole. The automation object must have been created using the special statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)) for automation objects. The name of the method must be specified in a character-like data object meth.
+This statement calls the method meth of the automation object ole. The automation object must have been created using the special statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_ole2.htm) for automation objects. The name of the method must be specified in a character-like data object meth.
 
-The return value of the external method meth can be stored in a data object rc. This data object expects, depending on the called method, a character-like data type of length 8 or a data type of type ole2\_object from the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") OLE2 to be able to copy the addressed object.
+The return value of the external method meth can be stored in a data object rc. This data object expects, depending on the called method, a character-like data type of length 8 or a data type of type ole2\_object from the [type pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_pool_glosry.htm "Glossary Entry") OLE2 to be able to copy the addressed object.
 
 Addition 1   
 
@@ -48,7 +48,7 @@ Addition 3  
 
 Effect
 
-The additions NO FLUSH and QUEUE-ONLY are described in the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)).
+The additions NO FLUSH and QUEUE-ONLY are described in the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_ole2.htm).
 
 System Fields
 
@@ -78,7 +78,7 @@ Error when reading an attribute.
 
 Example
 
-Depending on the selection on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry"), this source code can be used to open the Excel file Table.xls in directory C:\\temp, start the application Word, and then close both applications again. The automation methods used are listed in the following table.
+Depending on the selection on the [selection screen](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen_glosry.htm "Glossary Entry"), this source code can be used to open the Excel file Table.xls in directory C:\\temp, start the application Word, and then close both applications again. The automation methods used are listed in the following table.
 
 Application
 

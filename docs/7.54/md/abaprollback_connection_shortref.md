@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  R
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shortref.htm) →  R
 
 ROLLBACK CONNECTION - Quick reference
 
-[Reference](javascript:call_link\('abapcommit_rollback_connection.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcommit_rollback_connection.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ ROLLBACK CONNECTION con.
 
 Effect
 
-Exits a [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry") on the specified connection con.
+Exits a [database LUW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_luw_glosry.htm "Glossary Entry") on the specified connection con.

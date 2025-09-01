@@ -4,35 +4,35 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Objects](javascript:call_link\('abenobjects_statements.htm'\)) →  [DATA](javascript:call_link\('abapdata.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentypes_and_objects.htm) →  [Declaring Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobjects_statements.htm) →  [DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata.htm) → 
 
 DATA - RANGE OF
 
-[Quick Reference](javascript:call_link\('abapdata_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_shortref.htm)
 
 Syntax
 
 DATA rtab *{*TYPE RANGE OF type*}**|**{*LIKE RANGE OFdobj*}*
           *\[*INITIAL SIZE n*\]*
-          [*\[*VALUE IS INITIAL*\]*](javascript:call_link\('abapdata_options.htm'\))
-          [*\[*READ-ONLY*\]*](javascript:call_link\('abapdata_options.htm'\)).
+          [*\[*VALUE IS INITIAL*\]*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_options.htm)
+          [*\[*READ-ONLY*\]*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_options.htm).
 
 Effect
 
-This statement defines a [ranges table](javascript:call_link\('abenranges_table_glosry.htm'\) "Glossary Entry") rtab with the table type described in the section [TYPES - RANGE OF](javascript:call_link\('abaptypes_ranges.htm'\)). The table type defined here, however, is not a standalone type, but exists as a property of the data object rtab.
+This statement defines a [ranges table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenranges_table_glosry.htm "Glossary Entry") rtab with the table type described in the section [TYPES - RANGE OF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_ranges.htm). The table type defined here, however, is not a standalone type, but exists as a property of the data object rtab.
 
-The addition [VALUE IS INITIAL](javascript:call_link\('abapdata_options.htm'\)) can be used to specify an initial [start value](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry").
+The addition [VALUE IS INITIAL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_options.htm) can be used to specify an initial [start value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstart_value_glosry.htm "Glossary Entry").
 
 Notes
 
--   Outside of classes, the addition [WITH HEADER LINE](javascript:call_link\('abapdata_header_line.htm'\)) can also be used to declare an obsolete [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry").
+-   Outside of classes, the addition [WITH HEADER LINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_header_line.htm) can also be used to declare an obsolete [header line](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenheader_line_glosry.htm "Glossary Entry").
     
--   The declaration of a ranges table using the statement [RANGES](javascript:call_link\('abapranges.htm'\)) is obsolete.
+-   The declaration of a ranges table using the statement [RANGES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapranges.htm) is obsolete.
     
 
 Example
 
-In this example, a ranges table is declared, filled, and evaluated in the [WHERE](javascript:call_link\('abapwhere.htm'\)) condition of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement.
+In this example, a ranges table is declared, filled, and evaluated in the [WHERE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhere.htm) condition of a [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm) statement.
 
 DATA carrid\_range TYPE RANGE OF spfli-carrid.
 carrid\_range = VALUE #(

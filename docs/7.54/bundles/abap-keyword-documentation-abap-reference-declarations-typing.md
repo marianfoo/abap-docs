@@ -3,34 +3,7 @@
 Included pages: 12
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abentyping.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm)
-- [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_syntax.htm)
-- [abentyping_generic.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_generic.htm)
-- [abentyping_complete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_complete.htm)
-- [abentyping_check.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm)
-- [abentyping_check_general.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check_general.htm)
-- [abentyping_return_values.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_return_values.htm)
-- [abentyping_literals.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_literals.htm)
-- [abentyping_arith_expr.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_arith_expr.htm)
-- [abentyping_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_abexa.htm)
-
-**Bundle Contains**: 10 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.946Z
-
----
-
 ### abentyping.htm
-
-> **📖 Official SAP Documentation**: [abentyping.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -38,23 +11,23 @@ Included pages: 12
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) → 
 
 Typing
 
-Typing means defining a generic or complete data type for a [formal parameter](javascript:call_link\('abenformal_parameter_glosry.htm'\) "Glossary Entry") of a [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") or for a [field symbol](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry"). When an actual parameter is assigned to a formal parameter, or a data object to a field symbol, a [check](javascript:call_link\('abentyping_check.htm'\)) is carried out to make sure the data type matches the typing.
+Typing means defining a generic or complete data type for a [formal parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformal_parameter_glosry.htm "Glossary Entry") of a [procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocedure_glosry.htm "Glossary Entry") or for a [field symbol](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfield_symbol_glosry.htm "Glossary Entry"). When an actual parameter is assigned to a formal parameter, or a data object to a field symbol, a [check](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm) is carried out to make sure the data type matches the typing.
 
 Generically Typed
 
-Unlike data objects, where the data type has a specific property and is always identified in full, formal parameters and field symbols that are generically typed receive their complete data type only when an actual parameter is passed in a procedure call or when a memory area is assigned using [ASSIGN](javascript:call_link\('abapassign.htm'\)).
+Unlike data objects, where the data type has a specific property and is always identified in full, formal parameters and field symbols that are generically typed receive their complete data type only when an actual parameter is passed in a procedure call or when a memory area is assigned using [ASSIGN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassign.htm).
 
 When using generically typed formal parameters or field symbols, a difference is made between static and dynamic access.
 
--   In static access to a generically typed formal parameter, field symbol, or their components, the type attributes specified by the typing of the formal parameter are used. In static accesses where a complete data type is required, a [standard type](javascript:call_link\('abenstandard_type_glosry.htm'\) "Glossary Entry") is used if possible.
+-   In static access to a generically typed formal parameter, field symbol, or their components, the type attributes specified by the typing of the formal parameter are used. In static accesses where a complete data type is required, a [standard type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_type_glosry.htm "Glossary Entry") is used if possible.
 
 -   In static access to a generically typed formal parameter, field symbol ,or their components, the type attributes of the actual parameter are used.
 
-The attributes of the actual parameter, which are not [checked](javascript:call_link\('abentyping_check.htm'\)) in calls or assignments, can be different from those of the formal parameter. This can produce different behavior in static and dynamic accesses. A dynamic access to components of generically typed formal parameters will result in a runtime error, if the components are not available in the actual parameter.
+The attributes of the actual parameter, which are not [checked](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm) in calls or assignments, can be different from those of the formal parameter. This can produce different behavior in static and dynamic accesses. A dynamic access to components of generically typed formal parameters will result in a runtime error, if the components are not available in the actual parameter.
 
 Fully Typed
 
@@ -66,34 +39,27 @@ Notes
 
 -   The typing of formal parameters or field symbols defines some or all of the type attributes before the actual specification of the type. This permits the use of formal parameters and field symbols in operand positions that require certain type attributes.
 
--   If the typing of an existing field symbol or formal parameter is made weaker, note that there may then be fewer options for static accesses and that the associated standard type may change if they are used in [inline declarations](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry").
+-   If the typing of an existing field symbol or formal parameter is made weaker, note that there may then be fewer options for static accesses and that the associated standard type may change if they are used in [inline declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninline_declaration_glosry.htm "Glossary Entry").
 
--   The static type of data reference variables is always completely generic (data) or completely typed (see [DATA - reference variables](javascript:call_link\('abapdata_references.htm'\))).
+-   The static type of data reference variables is always completely generic (data) or completely typed (see [DATA - reference variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_references.htm)).
 
--   An obsolete [table parameter](javascript:call_link\('abentable_parameter_glosry.htm'\) "Glossary Entry") can be typed in full or typed generically with respect to the table key and the same rules apply as to other formal parameters.
+-   An obsolete [table parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_parameter_glosry.htm "Glossary Entry") can be typed in full or typed generically with respect to the table key and the same rules apply as to other formal parameters.
 
 Programming Guideline
 
-[Be as specific as possible when typing formal parameters](javascript:call_link\('abentype_formal_param_guidl.htm'\) "Guideline")
+[Be as specific as possible when typing formal parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_formal_param_guidl.htm "Guideline")
 
 Executable Example
 
-[Generic Typing and Full Typing](javascript:call_link\('abentyping_abexa.htm'\))
+[Generic Typing and Full Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_abexa.htm)
 
 Continue
-[typing Addition](javascript:call_link\('abentyping_syntax.htm'\))
-[Checking Typing](javascript:call_link\('abentyping_check.htm'\))
-![Example](exa.gif "Example") [Generic Typing and Full Typing](javascript:call_link\('abentyping_abexa.htm'\))
+[typing Addition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_syntax.htm)
+[Checking Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm)
+![Example](exa.gif "Example") [Generic Typing and Full Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_abexa.htm)
 
-
-
-**📖 Source**: [abentyping.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm)
 
 ### abentyping_syntax.htm
-
-> **📖 Official SAP Documentation**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -101,51 +67,44 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm) → 
 
 typing Addition
 
-[Quick Reference](javascript:call_link\('abentyping_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_shortref.htm)
 
 Syntax
 
-... [generic\_type](javascript:call_link\('abentyping_generic.htm'\)) *|* [complete\_type](javascript:call_link\('abentyping_complete.htm'\))  ...
+... [generic\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_generic.htm) *|* [complete\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_complete.htm)  ...
 
 Effect
 
 The addition typing is part of the definition of formal parameters and field symbols in the following statements:
 
--   [*\[*CLASS-*\]*METHODS](javascript:call_link\('abapmethods.htm'\))
+-   [*\[*CLASS-*\]*METHODS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods.htm)
 
--   [*\[*CLASS-*\]*EVENTS](javascript:call_link\('abapevents.htm'\))
+-   [*\[*CLASS-*\]*EVENTS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapevents.htm)
 
--   [FORM](javascript:call_link\('abapform.htm'\))
+-   [FORM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapform.htm)
 
--   [FIELD-SYMBOLS](javascript:call_link\('abapfield-symbols.htm'\))
+-   [FIELD-SYMBOLS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfield-symbols.htm)
 
-The addition allows generic typing with [generic\_type](javascript:call_link\('abentyping_generic.htm'\)) and full typing with [complete\_type](javascript:call_link\('abentyping_complete.htm'\)). In positions where the addition typing is not necessary, implicit typing with the generic type [any](javascript:call_link\('abenbuilt_in_types_generic.htm'\)) takes place (if no typing is specified explicitly).
+The addition allows generic typing with [generic\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_generic.htm) and full typing with [complete\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_complete.htm). In positions where the addition typing is not necessary, implicit typing with the generic type [any](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm) takes place (if no typing is specified explicitly).
 
 Notes
 
--   In classes, the formal parameters of methods or events and field symbols must be typed explicitly. The formal parameters of methods or events of global classes and the formal parameters of function modules are typed in [Class Builder](javascript:call_link\('abenclass_builder_glosry.htm'\) "Glossary Entry") or [Function Builder](javascript:call_link\('abenfunction_builder_glosry.htm'\) "Glossary Entry"). For a typing of system wide visible public interface parameters to be carried out in Function Builder or Class Builder, only the types in ABAP Dictionary may be used.
+-   In classes, the formal parameters of methods or events and field symbols must be typed explicitly. The formal parameters of methods or events of global classes and the formal parameters of function modules are typed in [Class Builder](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_builder_glosry.htm "Glossary Entry") or [Function Builder](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_builder_glosry.htm "Glossary Entry"). For a typing of system wide visible public interface parameters to be carried out in Function Builder or Class Builder, only the types in ABAP Dictionary may be used.
 
--   More information about typing parameters of function modules can be found under [Function Module Interface](javascript:call_link\('abenfunction_parameters.htm'\)).
+-   More information about typing parameters of function modules can be found under [Function Module Interface](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_parameters.htm).
 
 -   When formal parameters are typed, the addition LIKE can be used to reference formal parameters (in the same procedure) that have already been declared.
 
 Continue
-[Typing Addition - generic\_type](javascript:call_link\('abentyping_generic.htm'\))
-[typing - Addition - complete\_type](javascript:call_link\('abentyping_complete.htm'\))
+[Typing Addition - generic\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_generic.htm)
+[typing - Addition - complete\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_complete.htm)
 
-
-
-**📖 Source**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_syntax.htm)
 
 ### abentyping_generic.htm
-
-> **📖 Official SAP Documentation**: [abentyping_generic.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_generic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -153,36 +112,36 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) →  [typing Addition](javascript:call_link\('abentyping_syntax.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm) →  [typing Addition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_syntax.htm) → 
 
 Typing Addition - generic\_type
 
-[Quick Reference](javascript:call_link\('abentyping_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_shortref.htm)
 
 Syntax
 
-... *{* TYPE [generic\_type](javascript:call_link\('abenbuilt_in_types_generic.htm'\)) *}*
+... *{* TYPE [generic\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm) *}*
   *|* *{* LIKE <generic\_fs>*|*generic\_para *}* ...
 
 Effect
 
 To type a formal parameter or a field symbol generically, the following is possible:
 
--   specify any generic ABAP type [generic\_type](javascript:call_link\('abenbuilt_in_types_generic.htm'\)) (except object) after TYPE.
+-   specify any generic ABAP type [generic\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm) (except object) after TYPE.
 
 -   specify a field symbol visible at this position (<generic\_fs>) or a formal parameter (generic\_para) with generic typing, after LIKE. The typing defined is applied when the field symbol/parameter is declared. In method parameters, all generic typings are possible. No complete generic typings are possible in parameters of subroutines and field symbols.
 
-When an actual parameter or memory area is assigned to a generically typed formal parameter or field symbol, the system [checks](javascript:call_link\('abentyping_check.htm'\)) whether the specified data type is a subset of the generic type. The type of the formal parameter or field symbol is derived from the type of the actual parameter.
+When an actual parameter or memory area is assigned to a generically typed formal parameter or field symbol, the system [checks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm) whether the specified data type is a subset of the generic type. The type of the formal parameter or field symbol is derived from the type of the actual parameter.
 
 The formal parameter or field symbol can be used as operands anywhere that is not excluded by this typing. The following exceptions apply:
 
--   [Operand positions](javascript:call_link\('abenoperand_position_glosry.htm'\) "Glossary Entry") that expect internal tables. Here, only formal parameters or field symbols with the requisite internal table type are allowed.
+-   [Operand positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperand_position_glosry.htm "Glossary Entry") that expect internal tables. Here, only formal parameters or field symbols with the requisite internal table type are allowed.
 
--   [Reading positions](javascript:call_link\('abenreading_position_glosry.htm'\) "Glossary Entry") in which an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") (known statically) is expected, such as the source field of an assignment to an [enumerated variable](javascript:call_link\('abenenumerated_variable_glosry.htm'\) "Glossary Entry"), or an operand in a comparison with an enumerated object. Only operands with the same [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") are allowed here. In [writing positions](javascript:call_link\('abenwriting_position_glosry.htm'\) "Glossary Entry"), however, generic formal parameters or field symbols are allowed for enumerated types. If the operand type is not known statically, the check is only made at runtime in reading positions too.
+-   [Reading positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreading_position_glosry.htm "Glossary Entry") in which an [enumerated object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_object_glosry.htm "Glossary Entry") (known statically) is expected, such as the source field of an assignment to an [enumerated variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_variable_glosry.htm "Glossary Entry"), or an operand in a comparison with an enumerated object. Only operands with the same [enumerated type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_type_glosry.htm "Glossary Entry") are allowed here. In [writing positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwriting_position_glosry.htm "Glossary Entry"), however, generic formal parameters or field symbols are allowed for enumerated types. If the operand type is not known statically, the check is only made at runtime in reading positions too.
 
 The type attributes specified by the typing are used in static access to a generically typed formal parameter or field symbol. In dynamic access, the attributes of the actual parameter or memory area assigned apply.
 
-If an actual parameter is not specified for a generically typed optional formal parameter of a method or a function module when calling the procedure and no replacement parameter is defined in the procedure, the formal parameter is typed with a [standard type](javascript:call_link\('abenstandard_type_glosry.htm'\) "Glossary Entry") in accordance with the following rules:
+If an actual parameter is not specified for a generically typed optional formal parameter of a method or a function module when calling the procedure and no replacement parameter is defined in the procedure, the formal parameter is typed with a [standard type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_type_glosry.htm "Glossary Entry") in accordance with the following rules:
 
 -   any and data are converted to the type c with length 4.
 
@@ -202,17 +161,17 @@ If an actual parameter is not specified for a generically typed optional formal 
 
 -   For generic table types, for which the primary table key is specified but uniqueness is not specified, the standard key is set to non-unique for standard tables and sorted tables, and to unique for hashed tables.
 
--   This generic property is ignored for table types that are generic with respect to the secondary table key. This applies even if the generic property was defined explicitly with the addition [WITH FURTHER SECONDARY KEYS](javascript:call_link\('abaptypes_keydef.htm'\)).
+-   This generic property is ignored for table types that are generic with respect to the secondary table key. This applies even if the generic property was defined explicitly with the addition [WITH FURTHER SECONDARY KEYS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_keydef.htm).
 
 If a replacement parameter is specified, then the type attributes of this parameter are applied.
 
 Note
 
-In typings of formal parameters with the generic type [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\)), it should be noted that no [numeric functions](javascript:call_link\('abenmathematical_funktion_glosry.htm'\) "Glossary Entry"), no [description functions](javascript:call_link\('abendescription_function_glosry.htm'\) "Glossary Entry"), and no [arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") can be passed to these parameters. This restriction can be bypassed by applying the [conversion operator](javascript:call_link\('abenconversion_operator_glosry.htm'\) "Glossary Entry") [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) to the actual parameter. This restriction does not apply to the generic type any.
+In typings of formal parameters with the generic type [data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm), it should be noted that no [numeric functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmathematical_funktion_glosry.htm "Glossary Entry"), no [description functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescription_function_glosry.htm "Glossary Entry"), and no [arithmetic expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") can be passed to these parameters. This restriction can be bypassed by applying the [conversion operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_operator_glosry.htm "Glossary Entry") [CONV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_conv.htm) to the actual parameter. This restriction does not apply to the generic type any.
 
 Example
 
-In the following example, two generically typed field symbols are used in [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)) statement. To avoid syntax errors, <any\_table> must be defined as an internal table. However, the system does not check the type of <any\_object> until runtime, to ensure that the type of the data object assigned to it is compatible with the row type of the table.
+In the following example, two generically typed field symbols are used in [LOOP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_itab.htm) statement. To avoid syntax errors, <any\_table> must be defined as an internal table. However, the system does not check the type of <any\_object> until runtime, to ensure that the type of the data object assigned to it is compatible with the row type of the table.
 
 FIELD-SYMBOLS: <any\_object> TYPE ANY,
                <any\_table>  TYPE ANY TABLE.
@@ -222,14 +181,7 @@ LOOP AT <any\_table> INTO <any\_object>.
 ENDLOOP.
 
 
-
-**📖 Source**: [abentyping_generic.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_generic.htm)
-
 ### abentyping_complete.htm
-
-> **📖 Official SAP Documentation**: [abentyping_complete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_complete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -237,11 +189,11 @@ ENDLOOP.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) →  [typing Addition](javascript:call_link\('abentyping_syntax.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm) →  [typing Addition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_syntax.htm) → 
 
 typing - Addition - complete\_type
 
-[Quick Reference](javascript:call_link\('abentyping_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_shortref.htm)
 
 Syntax
 
@@ -254,31 +206,31 @@ Effect
 
 To completely type a formal parameter or a field symbol, you can
 
--   specify any non-generic type (complete\_type) after TYPE. complete\_type can be a non-generic data type from ABAP Dictionary, a non-generic public data type from a global class, a non-generic program-local type already defined using [TYPES<](javascript:call_link\('abaptypes.htm'\)), or a non-generic [built-in ABAP type](javascript:call_link\('abenbuilt_in_types_complete.htm'\)).
+-   specify any non-generic type (complete\_type) after TYPE. complete\_type can be a non-generic data type from ABAP Dictionary, a non-generic public data type from a global class, a non-generic program-local type already defined using [TYPES<](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes.htm), or a non-generic [built-in ABAP type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_complete.htm).
 
--   By specifying a data object dobj after LIKE. dobj is specified based on the rules [TYPES ... LIKE](javascript:call_link\('abaptypes_referring.htm'\)). The bound type of the data object is applied. If field symbols and formal parameters are specified for dobj, they must be fully typed, to make sure that their typing is full.
+-   By specifying a data object dobj after LIKE. dobj is specified based on the rules [TYPES ... LIKE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_referring.htm). The bound type of the data object is applied. If field symbols and formal parameters are specified for dobj, they must be fully typed, to make sure that their typing is full.
 
 If complete\_type or the data type of dobj is table-like, LINE OF can be used to reference the appropriate row type.
 
-REF TO types the formal parameter or field symbol as a reference variable. In this case, the same rules apply as for the [definition of reference types in TYPES](javascript:call_link\('abaptypes_references.htm'\)). Typings with TYPE REF TO data or TYPE REF TO object are also considered as full typings.
+REF TO types the formal parameter or field symbol as a reference variable. In this case, the same rules apply as for the [definition of reference types in TYPES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_references.htm). Typings with TYPE REF TO data or TYPE REF TO object are also considered as full typings.
 
-If an actual parameter or a memory area is assigned to fully typed formal parameters or field symbols, the technical attributes of the specified data type must match the typing exactly (see [Typing Check](javascript:call_link\('abentyping_check.htm'\))), except when passing literals. Completely typed formal parameters and field symbols can be used in the same operand positions as data objects of the corresponding data type.
+If an actual parameter or a memory area is assigned to fully typed formal parameters or field symbols, the technical attributes of the specified data type must match the typing exactly (see [Typing Check](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm)), except when passing literals. Completely typed formal parameters and field symbols can be used in the same operand positions as data objects of the corresponding data type.
 
 Type attributes specified by the typing are used during both static and dynamic access to a fully typed formal parameter or field symbol.
 
 Notes
 
--   The data types of the ABAP Dictionary that can be referred to with TYPE include specifically the [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") ([CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"), [CDS table functions](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry"), [CDS hierarchies](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry"), and [abstract CDS entities](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry")).
+-   The data types of the ABAP Dictionary that can be referred to with TYPE include specifically the [CDS entities](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_entity_glosry.htm "Glossary Entry") ([CDS views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry"), [CDS table functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_table_function_glosry.htm "Glossary Entry"), [CDS hierarchies](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry"), and [abstract CDS entities](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry")).
 
--   Complete data types, which can be referenced with TYPE, or indirectly using LIKE, also include [enumerated types](javascript:call_link\('abaptypes_enum.htm'\)).
+-   Complete data types, which can be referenced with TYPE, or indirectly using LIKE, also include [enumerated types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_enum.htm).
 
 -   LIKE can be used to reference the public attributes of global classes.
 
--   In a LIKE reference to an internal table with a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"), the header line is used. To reference the table type, \[\] must be appended to the name in the usual way. A formal parameter (with the exception of [table parameters](javascript:call_link\('abentable_parameter_glosry.htm'\) "Glossary Entry")) or a field symbol can be typed only with reference to the header line or to the table type.
+-   In a LIKE reference to an internal table with a [header line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenheader_line_glosry.htm "Glossary Entry"), the header line is used. To reference the table type, \[\] must be appended to the name in the usual way. A formal parameter (with the exception of [table parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_parameter_glosry.htm "Glossary Entry")) or a field symbol can be typed only with reference to the header line or to the table type.
 
--   Outside classes, LIKE can also be used for an [obsolete type reference](javascript:call_link\('abenlike_obsolete.htm'\)).
+-   Outside classes, LIKE can also be used for an [obsolete type reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlike_obsolete.htm).
 
--   The predefined generic data type [any](javascript:call_link\('abenbuilt_in_types_generic.htm'\)) cannot currently be specified after REF TO.
+-   The predefined generic data type [any](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm) cannot currently be specified after REF TO.
 
 Example
 
@@ -289,14 +241,7 @@ FIELD-SYMBOLS <spfli> TYPE spfli.
 <spfli>-carrid = ...
 
 
-
-**📖 Source**: [abentyping_complete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_complete.htm)
-
 ### abentyping_syntax.htm
-
-> **📖 Official SAP Documentation**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -304,93 +249,79 @@ FIELD-SYMBOLS <spfli> TYPE spfli.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm) → 
 
 typing Addition
 
-[Quick Reference](javascript:call_link\('abentyping_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_shortref.htm)
 
 Syntax
 
-... [generic\_type](javascript:call_link\('abentyping_generic.htm'\)) *|* [complete\_type](javascript:call_link\('abentyping_complete.htm'\))  ...
+... [generic\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_generic.htm) *|* [complete\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_complete.htm)  ...
 
 Effect
 
 The addition typing is part of the definition of formal parameters and field symbols in the following statements:
 
--   [*\[*CLASS-*\]*METHODS](javascript:call_link\('abapmethods.htm'\))
+-   [*\[*CLASS-*\]*METHODS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods.htm)
 
--   [*\[*CLASS-*\]*EVENTS](javascript:call_link\('abapevents.htm'\))
+-   [*\[*CLASS-*\]*EVENTS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapevents.htm)
 
--   [FORM](javascript:call_link\('abapform.htm'\))
+-   [FORM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapform.htm)
 
--   [FIELD-SYMBOLS](javascript:call_link\('abapfield-symbols.htm'\))
+-   [FIELD-SYMBOLS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfield-symbols.htm)
 
-The addition allows generic typing with [generic\_type](javascript:call_link\('abentyping_generic.htm'\)) and full typing with [complete\_type](javascript:call_link\('abentyping_complete.htm'\)). In positions where the addition typing is not necessary, implicit typing with the generic type [any](javascript:call_link\('abenbuilt_in_types_generic.htm'\)) takes place (if no typing is specified explicitly).
+The addition allows generic typing with [generic\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_generic.htm) and full typing with [complete\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_complete.htm). In positions where the addition typing is not necessary, implicit typing with the generic type [any](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm) takes place (if no typing is specified explicitly).
 
 Notes
 
--   In classes, the formal parameters of methods or events and field symbols must be typed explicitly. The formal parameters of methods or events of global classes and the formal parameters of function modules are typed in [Class Builder](javascript:call_link\('abenclass_builder_glosry.htm'\) "Glossary Entry") or [Function Builder](javascript:call_link\('abenfunction_builder_glosry.htm'\) "Glossary Entry"). For a typing of system wide visible public interface parameters to be carried out in Function Builder or Class Builder, only the types in ABAP Dictionary may be used.
+-   In classes, the formal parameters of methods or events and field symbols must be typed explicitly. The formal parameters of methods or events of global classes and the formal parameters of function modules are typed in [Class Builder](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_builder_glosry.htm "Glossary Entry") or [Function Builder](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_builder_glosry.htm "Glossary Entry"). For a typing of system wide visible public interface parameters to be carried out in Function Builder or Class Builder, only the types in ABAP Dictionary may be used.
 
--   More information about typing parameters of function modules can be found under [Function Module Interface](javascript:call_link\('abenfunction_parameters.htm'\)).
+-   More information about typing parameters of function modules can be found under [Function Module Interface](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_parameters.htm).
 
 -   When formal parameters are typed, the addition LIKE can be used to reference formal parameters (in the same procedure) that have already been declared.
 
 Continue
-[Typing Addition - generic\_type](javascript:call_link\('abentyping_generic.htm'\))
-[typing - Addition - complete\_type](javascript:call_link\('abentyping_complete.htm'\))
+[Typing Addition - generic\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_generic.htm)
+[typing - Addition - complete\_type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_complete.htm)
 
-
-
-**📖 Source**: [abentyping_syntax.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_syntax.htm)
 
 ### abentyping_check.htm
 
-> **📖 Official SAP Documentation**: [abentyping_check.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm) → 
 
 Checking Typing
 
-When data objects are assigned to typed [field symbols](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") and when [actual parameters](javascript:call_link\('abenactual_parameter_glosry.htm'\) "Glossary Entry") are assigned to typed [formal parameters](javascript:call_link\('abenformal_parameter_glosry.htm'\) "Glossary Entry") of [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry"), a check is made to see whether the data type of the assigned data object matches the typing of the field symbol or of the formal parameter.
+When data objects are assigned to typed [field symbols](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfield_symbol_glosry.htm "Glossary Entry") and when [actual parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenactual_parameter_glosry.htm "Glossary Entry") are assigned to typed [formal parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformal_parameter_glosry.htm "Glossary Entry") of [procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocedure_glosry.htm "Glossary Entry"), a check is made to see whether the data type of the assigned data object matches the typing of the field symbol or of the formal parameter.
 
--   [General rules for typing](javascript:call_link\('abentyping_check_general.htm'\))
+-   [General rules for typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check_general.htm)
 
 Special rules apply to the following:
 
--   [Return values of functional methods](javascript:call_link\('abentyping_return_values.htm'\))
+-   [Return values of functional methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_return_values.htm)
 
--   [Literals as actual parameters](javascript:call_link\('abentyping_literals.htm'\))
+-   [Literals as actual parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_literals.htm)
 
--   [Functions and expressions as actual parameters](javascript:call_link\('abentyping_arith_expr.htm'\))
+-   [Functions and expressions as actual parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_arith_expr.htm)
 
 Note
 
-When specifying data objects suitable for a typing, an assignment to an helper variable with a valid data type is often made. When methods are called, these types of helper variables can often be skipped by using a [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") in the position of an actual parameter.
+When specifying data objects suitable for a typing, an assignment to an helper variable with a valid data type is often made. When methods are called, these types of helper variables can often be skipped by using a [constructor expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") in the position of an actual parameter.
 
 Continue
-[General Rules for Typing](javascript:call_link\('abentyping_check_general.htm'\))
-[Return Values of Functional Methods](javascript:call_link\('abentyping_return_values.htm'\))
-[Literals as Actual Parameters](javascript:call_link\('abentyping_literals.htm'\))
-[Functions and Expressions as Actual Parameters](javascript:call_link\('abentyping_arith_expr.htm'\))
+[General Rules for Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check_general.htm)
+[Return Values of Functional Methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_return_values.htm)
+[Literals as Actual Parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_literals.htm)
+[Functions and Expressions as Actual Parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_arith_expr.htm)
 
-
-
-**📖 Source**: [abentyping_check.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm)
 
 ### abentyping_check_general.htm
-
-> **📖 Official SAP Documentation**: [abentyping_check_general.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check_general.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -398,31 +329,31 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) →  [Checking Typing](javascript:call_link\('abentyping_check.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm) →  [Checking Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm) → 
 
 General Rules for Typing
 
 The general rules for checking apply strictly to the following:
 
--   The assignment of all data objects to [field symbols](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry")
+-   The assignment of all data objects to [field symbols](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfield_symbol_glosry.htm "Glossary Entry")
 
--   The binding of the said data objects to [input](javascript:call_link\('abeninput_parameter_glosry.htm'\) "Glossary Entry"), [input/output](javascript:call_link\('abeninput_output_parameter_glosry.htm'\) "Glossary Entry"), and [output parameters](javascript:call_link\('abenoutput_parameter_glosry.htm'\) "Glossary Entry") for procedures
+-   The binding of the said data objects to [input](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninput_parameter_glosry.htm "Glossary Entry"), [input/output](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninput_output_parameter_glosry.htm "Glossary Entry"), and [output parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoutput_parameter_glosry.htm "Glossary Entry") for procedures
 
 The general rules for checking the typing are:
 
--   If the assignment is made to generically typed field symbols or field parameters, the system checks whether the [technical type attributes](javascript:call_link\('abentechnical_type_attr_glosry.htm'\) "Glossary Entry") of the assigned data object are a subset of the generic type. The type attributes that are not defined by typing are applied to the actual parameter.
+-   If the assignment is made to generically typed field symbols or field parameters, the system checks whether the [technical type attributes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentechnical_type_attr_glosry.htm "Glossary Entry") of the assigned data object are a subset of the generic type. The type attributes that are not defined by typing are applied to the actual parameter.
 
--   In assignments to fully typed field symbols or formal parameters, the technical properties of the data type of the assigned data object must correspond exactly to the typing. If the assignment is made to field symbols or formal parameters typed with [enumerated types](javascript:call_link\('abaptypes_enum.htm'\)), the type of the assigned data object must be exactly the same enumerated type as is used for the typing.
+-   In assignments to fully typed field symbols or formal parameters, the technical properties of the data type of the assigned data object must correspond exactly to the typing. If the assignment is made to field symbols or formal parameters typed with [enumerated types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_enum.htm), the type of the assigned data object must be exactly the same enumerated type as is used for the typing.
 
--   The result of the typing check when actual parameters are passed to formal parameters is independent of the passing type used. In a [pass by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry"), the check for [pass by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry") is always carried out, even though this is stricter than necessary in individual cases.
+-   The result of the typing check when actual parameters are passed to formal parameters is independent of the passing type used. In a [pass by value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpass_by_value_glosry.htm "Glossary Entry"), the check for [pass by reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpass_by_reference_glosry.htm "Glossary Entry") is always carried out, even though this is stricter than necessary in individual cases.
 
--   If reference variables are passed, [up cast](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry")s are possible but [down cast](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry")s are not. If actual parameters are passed to input parameters typed as reference variables, an [up cast](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") is only possible if there is no change of content within the procedure. When a [subroutine](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry") is passed to the parameters, an up cast is not possible.
+-   If reference variables are passed, [up cast](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenup_cast_glosry.htm "Glossary Entry")s are possible but [down cast](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendown_cast_glosry.htm "Glossary Entry")s are not. If actual parameters are passed to input parameters typed as reference variables, an [up cast](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenup_cast_glosry.htm "Glossary Entry") is only possible if there is no change of content within the procedure. When a [subroutine](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubroutine_glosry.htm "Glossary Entry") is passed to the parameters, an up cast is not possible.
 
 -   If memory areas are assigned to field symbols typed as reference variables, the typing of the field symbol and the static type of the memory area must be the same.
 
--   If the assignment is made to generically and fully typed field symbols or formal parameters, only the [technical type attributes](javascript:call_link\('abentechnical_type_attr_glosry.htm'\) "Glossary Entry") are checked. The following are not checked:
+-   If the assignment is made to generically and fully typed field symbols or formal parameters, only the [technical type attributes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentechnical_type_attr_glosry.htm "Glossary Entry") are checked. The following are not checked:
 
--   Names of structure components (but the names of [mesh nodes](javascript:call_link\('abenmesh_node_glosry.htm'\) "Glossary Entry") and [mesh associations](javascript:call_link\('abenmesh_association_glosry.htm'\) "Glossary Entry") are checked).
+-   Names of structure components (but the names of [mesh nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_node_glosry.htm "Glossary Entry") and [mesh associations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_association_glosry.htm "Glossary Entry") are checked).
 
 -   Semantic properties of data types defined in the ABAP Dictionary (conversion routines, documentation, and so on)
 
@@ -430,23 +361,16 @@ The general rules for checking the typing are:
 
 If generally typed formal parameters or field symbols are accessed dynamically, these attributes are applied to the type of the actual parameter. If generically typed formal parameters or field symbols are accessed statically, these attributes are applied to the typing of the formal parameter.
 
--   When assigning to field symbols or formal parameters for which a structure is defined with the obsolete STRUCTURE addition are called in Unicode programs, elementary data structures must be character type and flat and for structures the [fragment views](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry") must match. The assigned data object must be at least as long as the structure.
+-   When assigning to field symbols or formal parameters for which a structure is defined with the obsolete STRUCTURE addition are called in Unicode programs, elementary data structures must be character type and flat and for structures the [fragment views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry") must match. The assigned data object must be at least as long as the structure.
 
 Notes
 
--   In the case of generically typed field symbols or formal parameters, and in the case of formal parameters of function modules and externally called subroutines, the typing is checked first at the time of the assignment - that is, at runtime. In the case of fully typed field symbols and formal parameters of methods and internally called subroutines, the check is performed as part of the [syntax check](javascript:call_link\('abensyntax_check_glosry.htm'\) "Glossary Entry").
+-   In the case of generically typed field symbols or formal parameters, and in the case of formal parameters of function modules and externally called subroutines, the typing is checked first at the time of the assignment - that is, at runtime. In the case of fully typed field symbols and formal parameters of methods and internally called subroutines, the check is performed as part of the [syntax check](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensyntax_check_glosry.htm "Glossary Entry").
 
--   The constructor operators [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) and [CAST](javascript:call_link\('abenconstructor_expression_cast.htm'\)) are well suited to converting or casting invalid actual parameters to the type of a formal parameter.
+-   The constructor operators [CONV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_conv.htm) and [CAST](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_cast.htm) are well suited to converting or casting invalid actual parameters to the type of a formal parameter.
 
-
-
-**📖 Source**: [abentyping_check_general.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check_general.htm)
 
 ### abentyping_return_values.htm
-
-> **📖 Official SAP Documentation**: [abentyping_return_values.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_return_values.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -454,39 +378,32 @@ Notes
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) →  [Checking Typing](javascript:call_link\('abentyping_check.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm) →  [Checking Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm) → 
 
 Return Values of Functional Methods
 
-The return value of a [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") is always fully typed and is always passed as a value. An actual parameter can be appended to the return value as follows:
+The return value of a [functional method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_method_glosry.htm "Glossary Entry") is always fully typed and is always passed as a value. An actual parameter can be appended to the return value as follows:
 
--   By specifying the method in an [operand position](javascript:call_link\('abenoperands_expressions.htm'\))
+-   By specifying the method in an [operand position](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm)
 
-If a function method is used in an operation position, the return value is used like a data object whose data type is determined with an exception by the full typing of the return value (a type-friendly actual parameter is implicitly associated with it). Checking of this typing is not necessary (or is always successful). An error always occurs, however, if the typing of the return value does not match the [operand type](javascript:call_link\('abenoperand_type_glosry.htm'\) "Glossary Entry").
+If a function method is used in an operation position, the return value is used like a data object whose data type is determined with an exception by the full typing of the return value (a type-friendly actual parameter is implicitly associated with it). Checking of this typing is not necessary (or is always successful). An error always occurs, however, if the typing of the return value does not match the [operand type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperand_type_glosry.htm "Glossary Entry").
 
 If the return value of a functional method as an actual parameter is bound to a generically typed formal parameter of type p, this uses the decimal places of the return value but not its length. In this case the formal parameter is given a length of 16.
 
--   In a [method call](javascript:call_link\('abapcall_method_static.htm'\)) with the addition [RECEIVING](javascript:call_link\('abapcall_method_parameters.htm'\))
+-   In a [method call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static.htm) with the addition [RECEIVING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm)
 
-If an actual parameter is specified explicitly after RECEIVING, this parameter does not have to comply with the [general typing rules](javascript:call_link\('abentyping_check_general.htm'\)) for typing the formal parameter. Instead, it is enough if the formal parameter can be converted to the actual parameter in accordance with the [conversion rules](javascript:call_link\('abenconversion_rules.htm'\)).
+If an actual parameter is specified explicitly after RECEIVING, this parameter does not have to comply with the [general typing rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check_general.htm) for typing the formal parameter. Instead, it is enough if the formal parameter can be converted to the actual parameter in accordance with the [conversion rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_rules.htm).
 
 If an exception is raised when the return value is assigned to a formal parameter or when it is used as an operand, the exception cannot always be handled and a runtime error can occur instead (depending on the operand positions).
 
 Notes
 
--   If reference variables are returned using RECEIVING, an [up cast](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") is possible but a [down cast](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry") is not.
+-   If reference variables are returned using RECEIVING, an [up cast](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenup_cast_glosry.htm "Glossary Entry") is possible but a [down cast](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendown_cast_glosry.htm "Glossary Entry") is not.
 
 -   The special rule that a generic formal parameter of type p gets a length of 16 when a functional method is passed does not apply to the other generic types any, data, simple, or numeric.
 
 
-
-**📖 Source**: [abentyping_return_values.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_return_values.htm)
-
 ### abentyping_literals.htm
-
-> **📖 Official SAP Documentation**: [abentyping_literals.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_literals.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -494,17 +411,19 @@ Notes
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) →  [Checking Typing](javascript:call_link\('abentyping_check.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm) →  [Checking Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm) → 
 
 Literals as Actual Parameters
 
 Special rules apply to the assignment of literals to formal parameters. They make it possible to assign character literals of type c and string or numeric literals of type i and p to formal parameters whose type would not normally allow this.
 
-If the formal parameter has a generic type, the non-specified type attributes are defined by the contents of the specified literal (see table 1). When a literal is bound, the pass is always executed as [pass by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry"), even if [pass by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry") is defined for the formal parameter.
+If the formal parameter has a generic type, the non-specified type attributes are defined by the contents of the specified literal (see table 1). When a literal is bound, the pass is always executed as [pass by value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpass_by_value_glosry.htm "Glossary Entry"), even if [pass by reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpass_by_reference_glosry.htm "Glossary Entry") is defined for the formal parameter.
 
-If a literal meets the type requirements of the parameter, its contents are assigned to the formal parameter according to the relevant [conversion rules for elementary data types](javascript:call_link\('abenconversion_elementary.htm'\)). However, in contrast to the normal application of these rules, a non-catchable exception is raised if the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") of the target is exceeded.
+If a literal meets the type requirements of the parameter, its contents are assigned to the formal parameter according to the relevant [conversion rules for elementary data types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_elementary.htm). However, in contrast to the normal application of these rules, a non-catchable exception is raised if the [value range](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_range_glosry.htm "Glossary Entry") of the target is exceeded.
 
--   [Checking Character Literals](#abentyping-literals-1--------checking-numeric-literals---@ITOC@@ABENTYPING_LITERALS_2)
+-   [Checking Character Literals](#@@ITOC@@ABENTYPING_LITERALS_1)
+
+-   [Checking Numeric Literals](#@@ITOC@@ABENTYPING_LITERALS_2)
 
 Checking Character Literals
 
@@ -524,15 +443,15 @@ The literal must be eight characters long.
 
 decfloat, decfloat16, decfloat34
 
-The literal must contain a number in [mathematical](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry"), [commercial](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry"), or [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry"). If generic typing with decfloat is used, the formal parameter contains the data type decfloat34.
+The literal must contain a number in [mathematical](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmathematical_notation_glosry.htm "Glossary Entry"), [commercial](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencommercial_notation_glosry.htm "Glossary Entry"), or [scientific notation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscientific_notation_glosry.htm "Glossary Entry"). If generic typing with decfloat is used, the formal parameter contains the data type decfloat34.
 
 f
 
-The literal must contain a number in [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry").
+The literal must contain a number in [scientific notation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscientific_notation_glosry.htm "Glossary Entry").
 
 i, int8, (b, s)
 
-The literal must contain a number in [mathematical](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") or [commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry"). The literal may not contain any [decimal places](javascript:call_link\('abenfractional_portion_glosry.htm'\) "Glossary Entry").
+The literal must contain a number in [mathematical](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") or [commercial notation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencommercial_notation_glosry.htm "Glossary Entry"). The literal may not contain any [decimal places](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfractional_portion_glosry.htm "Glossary Entry").
 
 n
 
@@ -540,11 +459,11 @@ The literal may only contain digits. If the formal parameter has a fixed length,
 
 numeric
 
-The literal must contain a number in [mathematical](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") or [commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry"). The formal parameter inherits the data type p, length 16, and the decimal spaces specified in the literal.
+The literal must contain a number in [mathematical](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") or [commercial notation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencommercial_notation_glosry.htm "Glossary Entry"). The formal parameter inherits the data type p, length 16, and the decimal spaces specified in the literal.
 
 p
 
-The literal must contain a number in [mathematical](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") or [commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry"). If a generic formal parameter is used, the length is set to 16. The number of decimal spaces is set to the number of spaces specified in the literal. If the [program attribute](javascript:call_link\('abenprogram_attribute_glosry.htm'\) "Glossary Entry") Fixed Point Arithmetic is activated in the called procedure, the number of decimal places in the literal for a fully typed formal parameter must be less than or equal to the number of decimal places in the formal parameter. If the attribute Fixed Point Arithmetic is deactivated in the called procedure, the number in the literal must have exactly the same number of decimal places as the formal parameter.
+The literal must contain a number in [mathematical](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") or [commercial notation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencommercial_notation_glosry.htm "Glossary Entry"). If a generic formal parameter is used, the length is set to 16. The number of decimal spaces is set to the number of spaces specified in the literal. If the [program attribute](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_attribute_glosry.htm "Glossary Entry") Fixed Point Arithmetic is activated in the called procedure, the number of decimal places in the literal for a fully typed formal parameter must be less than or equal to the number of decimal places in the formal parameter. If the attribute Fixed Point Arithmetic is deactivated in the called procedure, the number in the literal must have exactly the same number of decimal places as the formal parameter.
 
 string
 
@@ -568,13 +487,13 @@ The literal may only contain valid hexadecimal characters, that is the digits "0
 
 utclong
 
-The literal can be a left-aligned [character-like representation](javascript:call_link\('abents_value.htm'\)) of a time stamp, like "yyyy-mm-ddThh:mm:ss.fffffff", or it can contain only blanks.
+The literal can be a left-aligned [character-like representation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abents_value.htm) of a time stamp, like "yyyy-mm-ddThh:mm:ss.fffffff", or it can contain only blanks.
 
 All other types have the same requirements of character literals as apply to other actual parameters. Generic formal parameters inherit the type of the actual parameter. With the exception of formal parameters listed in the table above, character literals can only be passed to formal parameters whose typings include the data types c or string.
 
 Notes
 
--   Character literals that are passed to actual parameters can be joined using the [literal operator](javascript:call_link\('abenliteral_operator_glosry.htm'\) "Glossary Entry") &. The rules described above apply here. However, if a join with the [chaining operator](javascript:call_link\('abenconcatenation_operator_glosry.htm'\) "Glossary Entry") && is used, the actual parameter is a [string expression](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry") of type string and the formal parameter must be typed accordingly.
+-   Character literals that are passed to actual parameters can be joined using the [literal operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenliteral_operator_glosry.htm "Glossary Entry") &. The rules described above apply here. However, if a join with the [chaining operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconcatenation_operator_glosry.htm "Glossary Entry") && is used, the actual parameter is a [string expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_expression_glosry.htm "Glossary Entry") of type string and the formal parameter must be typed accordingly.
 
 -   The requirements in the table above do not fully exclude the case where character literals are passed to actual parameters that do not match their value range. An exception is raised in this case.
 
@@ -613,14 +532,7 @@ Note
 The requirements in the table above do not fully exclude the case where numeric literals are passed to actual parameters that do not match their value range. An exception is raised in this case.
 
 
-
-**📖 Source**: [abentyping_literals.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_literals.htm)
-
 ### abentyping_arith_expr.htm
-
-> **📖 Official SAP Documentation**: [abentyping_arith_expr.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_arith_expr.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -628,65 +540,69 @@ The requirements in the table above do not fully exclude the case where numeric 
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) →  [Checking Typing](javascript:call_link\('abentyping_check.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm) →  [Checking Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm) → 
 
 Functions and Expressions as Actual Parameters
 
-[Functions and expressions](javascript:call_link\('abenoperands_expressions.htm'\)) can be specified as actual parameters in the following formal parameters:
+[Functions and expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm) can be specified as actual parameters in the following formal parameters:
 
 -   Writing Positions
 
--   [Output parameters](javascript:call_link\('abenoutput_parameter_glosry.htm'\) "Glossary Entry"), [input/output parameters](javascript:call_link\('abeninput_output_parameter_glosry.htm'\) "Glossary Entry"), and [return values](javascript:call_link\('abenreturn_value_glosry.htm'\) "Glossary Entry") in [method calls](javascript:call_link\('abapcall_method_parameters.htm'\)).
+-   [Output parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoutput_parameter_glosry.htm "Glossary Entry"), [input/output parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninput_output_parameter_glosry.htm "Glossary Entry"), and [return values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreturn_value_glosry.htm "Glossary Entry") in [method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm).
 
 -   Reading Positions
 
--   [Input parameters](javascript:call_link\('abeninput_parameter_glosry.htm'\) "Glossary Entry") of [methods](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") in [method calls](javascript:call_link\('abapcall_method_parameters.htm'\)), when [objects are created](javascript:call_link\('abapcreate_object_parameters.htm'\)), or when exceptions are raised using [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) or [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [condition exception](javascript:call_link\('abenconditional_expressions.htm'\))
+-   [Input parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninput_parameter_glosry.htm "Glossary Entry") of [methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_glosry.htm "Glossary Entry") in [method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm), when [objects are created](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_object_parameters.htm), or when exceptions are raised using [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapraise_exception_class.htm) or [THROW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconditional_expression_result.htm) in a [condition exception](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconditional_expressions.htm)
 
--   [Input parameters](javascript:call_link\('abeninput_parameter_glosry.htm'\) "Glossary Entry") of [function modules](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") in all variants of the statement [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)).
+-   [Input parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninput_parameter_glosry.htm "Glossary Entry") of [function modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_module_glosry.htm "Glossary Entry") in all variants of the statement [CALL FUNCTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_function.htm).
 
-The parameters are read from left to right (and from inside to outside) and the procedure executed. A parameter cannot be modified by the method itself or by the evaluation of a preceding expression. This applies in particular to [writable expressions](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") in [result positions](javascript:call_link\('abenresult_position_glosry.htm'\) "Glossary Entry").
+The parameters are read from left to right (and from inside to outside) and the procedure executed. A parameter cannot be modified by the method itself or by the evaluation of a preceding expression. This applies in particular to [writable expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwritable_expression_glosry.htm "Glossary Entry") in [result positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenresult_position_glosry.htm "Glossary Entry").
 
 Special rules apply to typing checks, identifying the calculation type, and parameter passes.
 
--   [Checking Typing](#abentyping-arith-expr-1--------calculation-type-and-calculation-length---@ITOC@@ABENTYPING_ARITH_EXPR_2)
+-   [Checking Typing](#@@ITOC@@ABENTYPING_ARITH_EXPR_1)
 
--   [Passing Parameters](#abentyping-arith-expr-3--------fully-typed---@ITOC@@ABENTYPING_ARITH_EXPR_4)
+-   [Calculation Type and Calculation Length](#@@ITOC@@ABENTYPING_ARITH_EXPR_2)
+
+-   [Passing Parameters](#@@ITOC@@ABENTYPING_ARITH_EXPR_3)
+
+-   [Fully Typed](#@@ITOC@@ABENTYPING_ARITH_EXPR_4)
 
 -   [Generically Typed](#@@ITOC@@ABENTYPING_ARITH_EXPR_5)
 
 Notes
 
--   In the case of [dynamic method calls](javascript:call_link\('abapcall_method_dynamic.htm'\)), the same rules apply as to static method calls. However, the handling during runtime is time-consuming. Therefore, helper variables should be used in a dynamic call instead of functions or arithmetic expressions if possible. Function module calls are always dynamic and, compared to method calls, fewer rules apply.
+-   In the case of [dynamic method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_dynamic.htm), the same rules apply as to static method calls. However, the handling during runtime is time-consuming. Therefore, helper variables should be used in a dynamic call instead of functions or arithmetic expressions if possible. Function module calls are always dynamic and, compared to method calls, fewer rules apply.
 
--   A [system field](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") should [never be used an actual parameter](javascript:call_link\('abenuse_actual_parameters_guidl.htm'\) "Guideline").
+-   A [system field](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_field_glosry.htm "Glossary Entry") should [never be used an actual parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_actual_parameters_guidl.htm "Guideline").
 
 Checking Typing
 
--   A [numeric function](javascript:call_link\('abenmathematical_funktion_glosry.htm'\) "Glossary Entry"), a [description function](javascript:call_link\('abendescription_function_glosry.htm'\) "Glossary Entry"), or an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") can
+-   A [numeric function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmathematical_funktion_glosry.htm "Glossary Entry"), a [description function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescription_function_glosry.htm "Glossary Entry"), or an [arithmetic expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") can
 
 -   be bound to any numeric input parameter or any input parameter typed using the type any in a method call.
 
 -   be bound to any appropriately typed input parameter in a function module call.
 
--   A [bit function](javascript:call_link\('abenbit_function_glosry.htm'\) "Glossary Entry") or a [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry") can
+-   A [bit function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbit_function_glosry.htm "Glossary Entry") or a [bit expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbit_expression_glosry.htm "Glossary Entry") can
 
 -   be bound to any byte-like or general typed input parameter in a method call.
 
 -   be passed to input parameters of the type x or a generic type covering x in function module calls.
 
--   A [string function](javascript:call_link\('abenstring_function_glosry.htm'\) "Glossary Entry") or a [string expression](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry") can
+-   A [string function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_function_glosry.htm "Glossary Entry") or a [string expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_expression_glosry.htm "Glossary Entry") can
 
 -   be bound to any character-like or general typed input parameter in a method call.
 
 -   be passed to input parameters of the type string or a generic type covering string in function module calls.
 
--   A [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") can
+-   A [constructor expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") can
 
--   be passed to every input parameter that matches the specified type [type](javascript:call_link\('abenconstructor_expressions.htm'\)) of the constructor expression in method calls. In this case (with the exception of conversion operator [CONV](javascript:call_link\('abenconv_constructor_inference.htm'\)) in the constructor expression), the # character can only be specified for type if the input parameter is typed in full and this type is used.
+-   be passed to every input parameter that matches the specified type [type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expressions.htm) of the constructor expression in method calls. In this case (with the exception of conversion operator [CONV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconv_constructor_inference.htm) in the constructor expression), the # character can only be specified for type if the input parameter is typed in full and this type is used.
 
--   be passed to every input parameter that matches the specified type [type](javascript:call_link\('abenconstructor_expressions.htm'\)) of the constructor expression in function module calls. The character # cannot be specified for type ion the constructor expression since static derivations of types are not possible in function module calls.
+-   be passed to every input parameter that matches the specified type [type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expressions.htm) of the constructor expression in function module calls. The character # cannot be specified for type ion the constructor expression since static derivations of types are not possible in function module calls.
 
--   A [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") can
+-   A [table expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expression_glosry.htm "Glossary Entry") can
 
 -   be passed in method calls or function calls to every input parameter that matches the type of the result.
 
@@ -694,27 +610,27 @@ Notes
 
 -   In function module calls, the typing is not checked until runtime.
 
--   No arithmetic expressions, description functions, or numeric functions can be passed to formal parameters with the generic type [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\)). This restriction can be bypassed by applying the [conversion operator](javascript:call_link\('abenconversion_operator_glosry.htm'\) "Glossary Entry") [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) to the actual parameter. This restriction does not apply to the generic type any.
+-   No arithmetic expressions, description functions, or numeric functions can be passed to formal parameters with the generic type [data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm). This restriction can be bypassed by applying the [conversion operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_operator_glosry.htm "Glossary Entry") [CONV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_conv.htm) to the actual parameter. This restriction does not apply to the generic type any.
 
 Calculation Type and Calculation Length
 
 If calculation expressions are specified as actual parameters, the calculation type and calculation length are specified as follows:
 
--   The [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") of an arithmetic expression is determined
+-   The [calculation type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_type_glosry.htm "Glossary Entry") of an arithmetic expression is determined
 
 -   in method calls from the operands of the expression and the typing of the input parameter, if this parameter is fully typed. If the input parameter is typed generically, only the operands of the expression are evaluated.
 
 -   in function module calls from the operands of the expression. The typing of the input parameter is ignored.
 
--   The [calculation length](javascript:call_link\('abencalculation_length_glosry.htm'\) "Glossary Entry") of a bit expression is the length of the largest operand of the expression.
+-   The [calculation length](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_length_glosry.htm "Glossary Entry") of a bit expression is the length of the largest operand of the expression.
 
 Passing Parameters
 
-When binding a function, a calculation expression, a constructor expression, or a table expression, the parameters are always [passed by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry"), even if the formal parameter is defined as to be [passed by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry").
+When binding a function, a calculation expression, a constructor expression, or a table expression, the parameters are always [passed by value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpass_by_value_glosry.htm "Glossary Entry"), even if the formal parameter is defined as to be [passed by reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpass_by_reference_glosry.htm "Glossary Entry").
 
 Fully Typed
 
-The return value of a function or the result of a calculation expression, a constructor expression, or a table expression is [converted](javascript:call_link\('abenconversion_rules.htm'\)), if necessary, to the type of the input parameter and passed.
+The return value of a function or the result of a calculation expression, a constructor expression, or a table expression is [converted](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_rules.htm), if necessary, to the type of the input parameter and passed.
 
 Generically Typed
 
@@ -749,14 +665,7 @@ START-OF-SELECTION.
   result = c1=>m1( sqrt( 4 ) +  c1=>m1( num2 / 2 )  ).
 
 
-
-**📖 Source**: [abentyping_arith_expr.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_arith_expr.htm)
-
 ### abentyping_check.htm
-
-> **📖 Official SAP Documentation**: [abentyping_check.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -764,44 +673,34 @@ START-OF-SELECTION.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm) → 
 
 Checking Typing
 
-When data objects are assigned to typed [field symbols](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") and when [actual parameters](javascript:call_link\('abenactual_parameter_glosry.htm'\) "Glossary Entry") are assigned to typed [formal parameters](javascript:call_link\('abenformal_parameter_glosry.htm'\) "Glossary Entry") of [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry"), a check is made to see whether the data type of the assigned data object matches the typing of the field symbol or of the formal parameter.
+When data objects are assigned to typed [field symbols](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfield_symbol_glosry.htm "Glossary Entry") and when [actual parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenactual_parameter_glosry.htm "Glossary Entry") are assigned to typed [formal parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformal_parameter_glosry.htm "Glossary Entry") of [procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocedure_glosry.htm "Glossary Entry"), a check is made to see whether the data type of the assigned data object matches the typing of the field symbol or of the formal parameter.
 
--   [General rules for typing](javascript:call_link\('abentyping_check_general.htm'\))
+-   [General rules for typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check_general.htm)
 
 Special rules apply to the following:
 
--   [Return values of functional methods](javascript:call_link\('abentyping_return_values.htm'\))
+-   [Return values of functional methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_return_values.htm)
 
--   [Literals as actual parameters](javascript:call_link\('abentyping_literals.htm'\))
+-   [Literals as actual parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_literals.htm)
 
--   [Functions and expressions as actual parameters](javascript:call_link\('abentyping_arith_expr.htm'\))
+-   [Functions and expressions as actual parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_arith_expr.htm)
 
 Note
 
-When specifying data objects suitable for a typing, an assignment to an helper variable with a valid data type is often made. When methods are called, these types of helper variables can often be skipped by using a [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") in the position of an actual parameter.
+When specifying data objects suitable for a typing, an assignment to an helper variable with a valid data type is often made. When methods are called, these types of helper variables can often be skipped by using a [constructor expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") in the position of an actual parameter.
 
 Continue
-[General Rules for Typing](javascript:call_link\('abentyping_check_general.htm'\))
-[Return Values of Functional Methods](javascript:call_link\('abentyping_return_values.htm'\))
-[Literals as Actual Parameters](javascript:call_link\('abentyping_literals.htm'\))
-[Functions and Expressions as Actual Parameters](javascript:call_link\('abentyping_arith_expr.htm'\))
+[General Rules for Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check_general.htm)
+[Return Values of Functional Methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_return_values.htm)
+[Literals as Actual Parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_literals.htm)
+[Functions and Expressions as Actual Parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_arith_expr.htm)
 
-
-
-**📖 Source**: [abentyping_check.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm)
 
 ### abentyping_abexa.htm
-
-> **📖 Official SAP Documentation**: [abentyping_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abentyping_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_abexa.htm)
-
 
   
 
@@ -809,7 +708,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm) → 
 
 Generic Typing and Full Typing
 

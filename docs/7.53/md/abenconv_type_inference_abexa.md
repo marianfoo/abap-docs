@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [CONV - Conversion Operator](javascript:call_link\('abenconstructor_expression_conv.htm'\)) →  [CONV - Type Inference for Actual Parameters](javascript:call_link\('abenconv_constructor_inference.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [CONV - Conversion Operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_conv.htm) →  [CONV - Type Inference for Actual Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconv_constructor_inference.htm) → 
 
 Conversion Operator, Type Inference
 
-This example demonstrates a type inference for the conversion operator [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)).
+This example demonstrates a type inference for the conversion operator [CONV](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_conv.htm).
 
 Source Code
 
@@ -68,7 +68,7 @@ START-OF-SELECTION.
 
 Description
 
-Passes constructor expressions with the conversion operator [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) to differently typed formal parameters of methods. In the case of generic formal parameters, [special rules](javascript:call_link\('abenconv_constructor_inference.htm'\)) apply when identifying the operand type.
+Passes constructor expressions with the conversion operator [CONV](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_conv.htm) to differently typed formal parameters of methods. In the case of generic formal parameters, [special rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconv_constructor_inference.htm) apply when identifying the operand type.
 
 -   Fully typed formal parameter
 
@@ -80,7 +80,7 @@ The operand type for # is determined from the argument.
 
 -   In the first call, the type c with length 20 of the argument matches the generic type and is used, which is why this conversion is redundant.
 
--   In the second call, the type i does not match the generic type and the type c with the predefined [output length](javascript:call_link\('abenwrite_output_length.htm'\)) 11 of i is used.
+-   In the second call, the type i does not match the generic type and the type c with the predefined [output length](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwrite_output_length.htm) 11 of i is used.
 
 -   Calls with the generically typed field symbol <fs> are not possible, since no type can be derived from the argument.
 

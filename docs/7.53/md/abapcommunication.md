@@ -4,19 +4,19 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) →  [CPI-C Interface](javascript:call_link\('abenabap_cpic.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextern_obsolete.htm) →  [CPI-C Interface](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cpic.htm) → 
 
 COMMUNICATION
 
-[Quick Reference](javascript:call_link\('abapcommunication_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication_shortref.htm)
 
 Obsolete Syntax
 
-COMMUNICATION [comstep](javascript:call_link\('abapcommunication_comstep.htm'\)) ID id *\[* [cpic\_options](javascript:call_link\('abapcommunication_options.htm'\))*\]*.
+COMMUNICATION [comstep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication_comstep.htm) ID id *\[* [cpic\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication_options.htm)*\]*.
 
 Effect
 
-This statement enables cross-system communication between two ABAP programs, or between an ABAP program and a program written in another programming language. The whole communication process takes place in individual communication steps, which involve repeated execution of the statement COMMUNICATION with the corresponding additions [comstep](javascript:call_link\('abapcommunication_comstep.htm'\)). For both partner programs, communication is based on the [CPI-C](javascript:call_link\('abencpi-c_glosry.htm'\) "Glossary Entry") interface, which has been defined as a communication standard by IBM as a part of the SAA standard. This interface provides the following functions in the form of the CPI-C starter set:
+This statement enables cross-system communication between two ABAP programs, or between an ABAP program and a program written in another programming language. The whole communication process takes place in individual communication steps, which involve repeated execution of the statement COMMUNICATION with the corresponding additions [comstep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication_comstep.htm). For both partner programs, communication is based on the [CPI-C](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencpi-c_glosry.htm "Glossary Entry") interface, which has been defined as a communication standard by IBM as a part of the SAA standard. This interface provides the following functions in the form of the CPI-C starter set:
 
 -   Creating, accepting, and closing a connection
     
@@ -25,22 +25,22 @@ This statement enables cross-system communication between two ABAP programs, or 
 
 Coordination of the individual communication steps, recording any errors that occur in the database table TCPIC and, if necessary, data conversion, take place in the individual programs themselves. The parameters that determined the physical partner system for a connection are administrated in the database table TXCOM.
 
-Once the connection is initialized, the system writes an eight-digit connection number in the data object id. This number can be used to identify individual connections. As standard, 2\*\*16 connections are possible for each calling program. id expects only [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like data types, with a minimum length of eight digits.
+Once the connection is initialized, the system writes an eight-digit connection number in the data object id. This number can be used to identify individual connections. As standard, 2\*\*16 connections are possible for each calling program. id expects only [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") character-like data types, with a minimum length of eight digits.
 
-After initialization, the connection must be created. Then, in the first connection step, all the necessary administration data is sent to the partner system. The data sent in this connection step must have a specific structure and must be available in an [EBCDIC](javascript:call_link\('abenebcdic_glosry.htm'\) "Glossary Entry") format. The example below shows how a specifically formed structure can be converted into the EBCDIC format. The subsequent response also exists in EBCDIC format. After this initial connection has been established, data can be transferred without the need for further conversion.
+After initialization, the connection must be created. Then, in the first connection step, all the necessary administration data is sent to the partner system. The data sent in this connection step must have a specific structure and must be available in an [EBCDIC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenebcdic_glosry.htm "Glossary Entry") format. The example below shows how a specifically formed structure can be converted into the EBCDIC format. The subsequent response also exists in EBCDIC format. After this initial connection has been established, data can be transferred without the need for further conversion.
 
-In communications, the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") in the called program must not be changed. Screen output is ignored or, in the case of list output to the SAP spool system, is diverted if the statement NEW-PAGE is entered beforehand. [Messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") of types I, S, and W are ignored, while types A and E cause the program to terminate.
+In communications, the [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") in the called program must not be changed. Screen output is ignored or, in the case of list output to the SAP spool system, is diverted if the statement NEW-PAGE is entered beforehand. [Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry") of types I, S, and W are ignored, while types A and E cause the program to terminate.
 
 Notes
 
--   The statement COMMUNICATION is not supported in classes and should not appear in programs anymore, since support for the direct programming of the CPI-C interface has largely been discontinued. Instead, only the [RFC interface](javascript:call_link\('abenrfc_interface_glosry.htm'\) "Glossary Entry") is to be used for communication between programs. However, the function of the statement is maintained for supporting existing programs and for internal purposes.
+-   The statement COMMUNICATION is not supported in classes and should not appear in programs anymore, since support for the direct programming of the CPI-C interface has largely been discontinued. Instead, only the [RFC interface](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_interface_glosry.htm "Glossary Entry") is to be used for communication between programs. However, the function of the statement is maintained for supporting existing programs and for internal purposes.
     
 -   The EBCDIC format is used in the first connection step because the CPI-C interface was mainly used for connections to R/2 systems.
     
 
 Example
 
-In the simplest case, an ABAP program calls a subroutine in an ABAP program of another [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry"). To enable this, the calling program must register on the other system by specifying the type of CPI-C service, the logon data, the programs and subroutines, and the type of error handling. The registration is performed by sending a specific structure to the other system in EBCDIC format.
+In the simplest case, an ABAP program calls a subroutine in an ABAP program of another [AS ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_nw_abap_glosry.htm "Glossary Entry"). To enable this, the calling program must register on the other system by specifying the type of CPI-C service, the logon data, the programs and subroutines, and the type of error handling. The registration is performed by sending a specific structure to the other system in EBCDIC format.
 
 The following example shows a schematic representation of the communication between two ABAP programs P1 and P2 without querying return values. The calling program P1 first creates the connection and sends a field connect\_xstr that contains the content of the connect structure converted into EBCDIC format, with the necessary data. After the connection is confirmed by P2, P1 sends the actual, unconverted application data in the buffer b. When this data has been received, P2 sends a confirmation to P1. The connection from P1 is then closed again and the content of the buffer ("Answer") is produced as output.
 
@@ -121,7 +121,7 @@ COMMUNICATION RECEIVE
 WRITE / b.
 COMMUNICATION DEALLOCATE ID id.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 
@@ -133,5 +133,5 @@ Non-Handleable Exceptions
     
 
 Continue
-[COMMUNICATION - comstep](javascript:call_link\('abapcommunication_comstep.htm'\))
-[COMMUNICATION - cpic\_options](javascript:call_link\('abapcommunication_options.htm'\))
+[COMMUNICATION - comstep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication_comstep.htm)
+[COMMUNICATION - cpic\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommunication_options.htm)

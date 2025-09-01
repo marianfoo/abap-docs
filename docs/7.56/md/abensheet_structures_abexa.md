@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Cheat Sheets](javascript:call_link\('abenabap_blurb.htm'\)) →  [Structures in a Nutshell](javascript:call_link\('abapsheets_structures.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Cheat Sheets](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_blurb.htm) →  [Structures in a Nutshell](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_structures.htm) → 
 
 Working with Structures
 
-This example demonstrates the syntactical options for working with structures outlined in the ABAP cheat sheet [Structures in a nutshell](javascript:call_link\('abapsheets_structures.htm'\)).
+This example demonstrates the syntactical options for working with structures outlined in the ABAP cheat sheet [Structures in a nutshell](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_structures.htm).
 
 Source Code
 
@@ -736,7 +736,7 @@ START-OF-SELECTION.
 
 Description
 
-The output shows the outcome of various ways about how to work with structures. Find comments in the output explaining the context and details. Basically, all variants described in the ABAP cheat sheet [Structures in a nutshell](javascript:call_link\('abapsheets_structures.htm'\)) are covered and more:
+The output shows the outcome of various ways about how to work with structures. Find comments in the output explaining the context and details. Basically, all variants described in the ABAP cheat sheet [Structures in a nutshell](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_structures.htm) are covered and more:
 
 -   Creating structures and structured types
 -   Variants of structures

@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Internal Table Processing](javascript:call_link\('abenitab_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_internal_obsolete.htm) →  [Obsolete Internal Table Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_obsolete.htm) → 
 
 SEARCH itab
 
-[Quick Reference](javascript:call_link\('abapsearch_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsearch_shortref.htm)
 
 Obsolete Syntax
 
@@ -26,9 +26,9 @@ Extras:
 
 Effect
 
-This statement searches the rows of the index table itab for a pattern specified in pattern. SEARCH cannot be used for [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry"). The statement always searches the internal table and not the [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") (if it exists).
+This statement searches the rows of the index table itab for a pattern specified in pattern. SEARCH cannot be used for [hashed tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhashed_table_glosry.htm "Glossary Entry"). The statement always searches the internal table and not the [header line](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenheader_line_glosry.htm "Glossary Entry") (if it exists).
 
-For pattern, a character-like or byte-like data object can be specified, depending on the processing type. The pattern in pattern can have the same forms as the statement [SEARCH](javascript:call_link\('abapsearch-.htm'\)) has for character-like or byte-like string processing.
+For pattern, a character-like or byte-like data object can be specified, depending on the processing type. The pattern in pattern can have the same forms as the statement [SEARCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsearch-.htm) has for character-like or byte-like string processing.
 
 The search ends at the first hit and sy-tabix is set to the index of the table row found. sy-fdpos is set to the offset of the character string or byte string found or word found in the table row. If the pattern is not found, sy-fdpos and sy-tabix are set to 0.
 
@@ -48,7 +48,7 @@ Pattern not found in itab.
 
 Note
 
-The statement SEARCH has been replaced by the statement [FIND IN TABLE](javascript:call_link\('abapfind_itab.htm'\)).
+The statement SEARCH has been replaced by the statement [FIND IN TABLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfind_itab.htm).
 
 Addition 1
 
@@ -56,7 +56,7 @@ Addition 1
 
 Effect
 
-The addition IN CHARACTER MODE or IN BYTE MODE is used to determine whether [character or byte string processing](javascript:call_link\('abenstring_processing_statements.htm'\)) is carried out. The row type of the internal table must be suitable for the chosen processing type. If no addition is specified, the search is carried out character by character.
+The addition IN CHARACTER MODE or IN BYTE MODE is used to determine whether [character or byte string processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_processing_statements.htm) is carried out. The row type of the internal table must be suitable for the chosen processing type. If no addition is specified, the search is carried out character by character.
 
 Addition 2
 
@@ -81,7 +81,7 @@ Addition 3
 
 Effect
 
-When searching character by character, it is possible to specify an abbreviated pattern in pattern for character string processing by using the addition ABBREVIATED (just as with the statement [SEARCH](javascript:call_link\('abapsearch-.htm'\))).
+When searching character by character, it is possible to specify an abbreviated pattern in pattern for character string processing by using the addition ABBREVIATED (just as with the statement [SEARCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsearch-.htm)).
 
 Addition 4
 
@@ -89,7 +89,7 @@ Addition 4
 
 Effect
 
-When searching character by character, it is possible to transform a character string or a word found in itab to uppercase using the statement AND MARK (just as with the statement [SEARCH for character string processing](javascript:call_link\('abapsearch-.htm'\))).
+When searching character by character, it is possible to transform a character string or a word found in itab to uppercase using the statement AND MARK (just as with the statement [SEARCH for character string processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsearch-.htm)).
 
 Example
 

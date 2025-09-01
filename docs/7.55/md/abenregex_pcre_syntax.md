@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions (regex)](javascript:call_link\('abenregular_expressions.htm'\)) →  [regex - Syntax](javascript:call_link\('abenregex_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions (regex)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregular_expressions.htm) →  [regex - Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_syntax.htm) → 
 
 regex - PCRE Syntax
 
-Regular expressions with PCRE syntax can be specified after an addition PCRE of [statements](javascript:call_link\('abenregex_mtch.htm'\)) or for the argument pcre of [built-in functions](javascript:call_link\('abenregex_mtch.htm'\)). Respective objects of the [system classes](javascript:call_link\('abenregex_system_classes.htm'\)) CL\_ABAP\_REGEX and CL\_ABAP\_MATCHER can be created with the factory method CREATE\_PCRE.
+Regular expressions with PCRE syntax can be specified after an addition PCRE of [statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_mtch.htm) or for the argument pcre of [built-in functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_mtch.htm). Respective objects of the [system classes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_system_classes.htm) CL\_ABAP\_REGEX and CL\_ABAP\_MATCHER can be created with the factory method CREATE\_PCRE.
 
 Currently, there is no detailed description of the PCRE syntax for regular expressions in the ABAP keyword documentation.
 
@@ -26,7 +26,7 @@ The PCRE syntax is more powerful than the POSIX syntax. Furthermore, PCRE regula
 
 Example
 
-PCRE regular expressions support non-greedy behavior by placing a question mark (?) behind wildcard characters as for example the asterisk (\*). In the following example, the asterisk in the first regular expression is greedy and finds everything between the first <i> and the last </i>. In the second regular expression, the asterisk is marked as non-greedy and only the substring between the first <i> and the following </i> is found. Non-greedy behavior is not supported in [POSIX syntax](javascript:call_link\('abenregex_posix_syntax.htm'\)) and other workarounds as for example \[^<\]\* have to be used.
+PCRE regular expressions support non-greedy behavior by placing a question mark (?) behind wildcard characters as for example the asterisk (\*). In the following example, the asterisk in the first regular expression is greedy and finds everything between the first <i> and the last </i>. In the second regular expression, the asterisk is marked as non-greedy and only the substring between the first <i> and the following </i> is found. Non-greedy behavior is not supported in [POSIX syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_syntax.htm) and other workarounds as for example \[^<\]\* have to be used.
 
 DATA(text)  = \`<i>abc</i>def<i>ghi</i>\`.
 FIND PCRE \`<i>(.\*)</i>\` IN text SUBMATCHES DATA(subm1).

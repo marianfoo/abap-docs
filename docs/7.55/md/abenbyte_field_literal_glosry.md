@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 byte field literal
 
-[Literal](javascript:call_link\('abenliteral_glosry.htm'\) "Glossary Entry") of the type [byte field](javascript:call_link\('abenbyte_field_glosry.htm'\) "Glossary Entry") with the length of the specified bytes. Only [typed](javascript:call_link\('abentyped_literal_glosry.htm'\) "Glossary Entry") byte field literals are available.
+[Literal](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenliteral_glosry.htm "Glossary Entry") of the type [byte field](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbyte_field_glosry.htm "Glossary Entry") with the length of the specified bytes. Only [typed](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyped_literal_glosry.htm "Glossary Entry") byte field literals are available.
 
-[→ More about](javascript:call_link\('abenabap_sql_typed_literals.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql_typed_literals.htm)

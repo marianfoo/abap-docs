@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_win](javascript:call_link\('abapselect_over.htm'\)) →  [sql\_win - Examples of Window Expressions](javascript:call_link\('abensql_expr_over_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_win](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_over.htm) →  [sql\_win - Examples of Window Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_over_abexas.htm) → 
 
 sql\_win - Window Expressions with Grouping
 
-This example demonstrates [window expressions](javascript:call_link\('abapselect_over.htm'\)) for a grouped result set.
+This example demonstrates [window expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_over.htm) for a grouped result set.
 
 Source Code
 
@@ -78,8 +78,8 @@ START-OF-SELECTION.
 
 Description
 
-The example shows the combination of [window expressions](javascript:call_link\('abapselect_over.htm'\)) in the SELECT list with a [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)) clause. In this case, [aggregate functions](javascript:call_link\('abenaggregate_function_glosry.htm'\) "Glossary Entry") used as a [window function](javascript:call_link\('abenwindow_function_glosry.htm'\) "Glossary Entry") can also have aggregate functions as arguments.
+The example shows the combination of [window expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_over.htm) in the SELECT list with a [GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapgroupby_clause.htm) clause. In this case, [aggregate functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenaggregate_function_glosry.htm "Glossary Entry") used as a [window function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwindow_function_glosry.htm "Glossary Entry") can also have aggregate functions as arguments.
 
-The GROUP BY clause groups by the columns CHAR1 and CHAR2. In the result set created by this, [OVER](javascript:call_link\('abapselect_over.htm'\)) is used to define windows whose window criterion is the column CHAR1. Aggregate expressions that can be specified as columns in the SELECT list due to the GROUP BY clause are also used as arguments of window functions.
+The GROUP BY clause groups by the columns CHAR1 and CHAR2. In the result set created by this, [OVER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_over.htm) is used to define windows whose window criterion is the column CHAR1. Aggregate expressions that can be specified as columns in the SELECT list due to the GROUP BY clause are also used as arguments of window functions.
 
 The aggregate functions used as an argument of window functions would not need to appear as separately specified columns in the SELECT list but are shown here anyway to highlight how these values are produced.

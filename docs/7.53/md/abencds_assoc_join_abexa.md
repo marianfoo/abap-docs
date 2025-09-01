@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, ASSOCIATION](javascript:call_link\('abencds_f1_association.htm'\)) →  [ABAP CDS - path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, ASSOCIATION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_association.htm) →  [ABAP CDS - path\_expr](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_path_expression.htm) → 
 
 ABAP CDS - Joins of Associations
 
@@ -136,7 +136,7 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates how joins are used for [path expressions](javascript:call_link\('abencds_f1_path_expression.htm'\)) with [associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [published](javascript:call_link\('abencds_f1_select_list_association.htm'\)) association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
+This example demonstrates how joins are used for [path expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_path_expression.htm) with [associations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_association_glosry.htm "Glossary Entry"). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the [published](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_association.htm) association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -197,12 +197,12 @@ define view Demo\_Cds\_Assoc\_Join2
   demo\_join2.h
 }    
 
-[LEFT OUTER](javascript:call_link\('abencds_path_expression_attr.htm'\)) and [INNER](javascript:call_link\('abencds_path_expression_attr.htm'\)) are explicitly specified in the path expressions.
+[LEFT OUTER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_path_expression_attr.htm) and [INNER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_path_expression_attr.htm) are explicitly specified in the path expressions.
 
 -   LEFT OUTER affects the implementation of associations in a left outer join, which is the default behavior at these places.
 
 -   INNER affects the implementation of associations in an inner join, which overwrites the default behavior at these places.
 
-In the DDL Source Text Editor of the [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), you can view the relevant configuration of the join in the display of the generated SQL DDL statement.
+In the DDL Source Text Editor of the [ADT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadt_glosry.htm "Glossary Entry"), you can view the relevant configuration of the join in the display of the generated SQL DDL statement.
 
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](javascript:call_link\('abapselect.htm'\)) with explicitly programmed left outer and inner joins. The CDS views and the database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
+This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of ABAP SQL statements [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The CDS views and the database table DEMO\_JOIN3 above are accessed. All involved database tables are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.

@@ -4,21 +4,21 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructure_style_guidl.htm) → 
 
 Naming
 
 The naming of the repository objects defined outside of a program and of the entities declared within the program (such as data types, data objects, and procedures) is of vital importance for understanding and editing the program. All names used must be readable, easy to learn, and appropriate. You can meet these requirements by using meaningful names. It is also important to avoid naming conflicts.
 
--   [Choosing the Language](javascript:call_link\('abenchoice_langu_guidl.htm'\) "Guideline")
+-   [Choosing the Language](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchoice_langu_guidl.htm "Guideline")
 
--   [Descriptive Names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline")
+-   [Descriptive Names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentelling_names_guidl.htm "Guideline")
 
--   [Names of Repository Objects](javascript:call_link\('abennames_repos_obj_guidl.htm'\) "Guideline")
+-   [Names of Repository Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennames_repos_obj_guidl.htm "Guideline")
 
--   [Program-Internal Names](javascript:call_link\('abenprog_intern_names_guidl.htm'\) "Guideline")
+-   [Program-Internal Names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprog_intern_names_guidl.htm "Guideline")
 
--   [Names of structure components](javascript:call_link\('abenstruc_comp_names_guidl.htm'\) "Guideline")
+-   [Names of structure components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstruc_comp_names_guidl.htm "Guideline")
 
 Note
 
@@ -29,8 +29,8 @@ A maintenance organization is responsible for maintaining monolithic ABAP applic
 The rules on naming listed below meet the requirements of modern ABAP development. The only disadvantage is that it is difficult to use automatic checks, to monitor whether these requirements are adhered to. Our rules address human readers (and not automated test tools), who want to understand ABAP programs and eliminate ambiguous elements as quickly as possible. With regard to older code, we recommend refactoring based on the basic guidelines presented here. This enables you to get down to the root of maintenance problems. If you simply try to retroactively change names in line with technical naming conventions, you are only attempting to cure the symptoms and not the problem itself.
 
 Continue
-[Choosing the Language](javascript:call_link\('abenchoice_langu_guidl.htm'\))
-[Descriptive Names](javascript:call_link\('abentelling_names_guidl.htm'\))
-[Names of Repository Objects](javascript:call_link\('abennames_repos_obj_guidl.htm'\))
-[Program-Internal Names](javascript:call_link\('abenprog_intern_names_guidl.htm'\))
-[Names of Structure Components](javascript:call_link\('abenstruc_comp_names_guidl.htm'\))
+[Choosing the Language](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchoice_langu_guidl.htm)
+[Descriptive Names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentelling_names_guidl.htm)
+[Names of Repository Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennames_repos_obj_guidl.htm)
+[Program-Internal Names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprog_intern_names_guidl.htm)
+[Names of Structure Components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstruc_comp_names_guidl.htm)

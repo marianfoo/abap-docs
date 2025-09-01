@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [Global Temporary Tables](javascript:call_link\('abenddic_database_tables_gtt.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables.htm) →  [Global Temporary Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_gtt.htm) → 
 
 Global Temporary Tables, Access
 
-This example demonstrates how [global temporary tables](javascript:call_link\('abenddic_database_tables_gtt.htm'\)) in ABAP Dictionary are accessed.
+This example demonstrates how [global temporary tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_gtt.htm) in ABAP Dictionary are accessed.
 
 Source Code
 
@@ -60,11 +60,11 @@ START-OF-SELECTION.
 
 Description
 
-[ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") and [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") are used to access a [global temporary table (GTT)](javascript:call_link\('abenglobal_temporary_table_glosry.htm'\) "Glossary Entry") DEMO\_GTT:
+[ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") and [Native SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennative_sql_glosry.htm "Glossary Entry") are used to access a [global temporary table (GTT)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry") DEMO\_GTT:
 
--   After the GTT is filled using the ABAP SQL statement [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)), the table is cleared again (after user input) using the ABAP SQL statement [DELETE FROM](javascript:call_link\('abapdelete_dbtab.htm'\)) without a WHERE condition. If the DELETE statement is not executed, the statement [WAIT UP TO](javascript:call_link\('abapwait_up_to.htm'\)) (which performs an implicit [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry")) produces the runtime error COMMIT\_GTT\_ERROR, which can be found in the ABAP dump analysis (ST22).
+-   After the GTT is filled using the ABAP SQL statement [INSERT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_dbtab.htm), the table is cleared again (after user input) using the ABAP SQL statement [DELETE FROM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_dbtab.htm) without a WHERE condition. If the DELETE statement is not executed, the statement [WAIT UP TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm) (which performs an implicit [database commit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry")) produces the runtime error COMMIT\_GTT\_ERROR, which can be found in the ABAP dump analysis (ST22).
 
--   After the GTT has been filled using a static native INSERT statement between [EXEC SQL - ENDEXEC](javascript:call_link\('abapexec.htm'\)), the table is not cleared explicitly. Instead it is cleared in most database platforms using an implicit [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") raised by the statement [WAIT UP TO](javascript:call_link\('abapwait_up_to.htm'\)).
+-   After the GTT has been filled using a static native INSERT statement between [EXEC SQL - ENDEXEC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexec.htm), the table is not cleared explicitly. Instead it is cleared in most database platforms using an implicit [database commit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry") raised by the statement [WAIT UP TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm).
 
 Note
 

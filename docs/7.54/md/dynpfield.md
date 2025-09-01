@@ -4,36 +4,36 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_dynpro_statements.htm) → 
 
 FIELD
 
 Syntax
 
-FIELD dynp\_field *{* *\[* MODULE mod *\[*[cond](javascript:call_link\('dynpfield_module.htm'\))*\]* *\]*
-                 *|* *\[* *\[*MODULE mod*\]* [WITH](javascript:call_link\('abendynp_field_help.htm'\)) hlp *\]* *}*.
+FIELD dynp\_field *{* *\[* MODULE mod *\[*[cond](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpfield_module.htm)*\]* *\]*
+                 *|* *\[* *\[*MODULE mod*\]* [WITH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_help.htm) hlp *\]* *}*.
 
 Effect
 
-The statement FIELD of the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry") controls the data transport from the dynpro to the ABAP program during the event [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry"). It can be combined with the MODULE statement to call dialog modules conditionally, to allow any input to be checked, and to allow self-programmed field and input helps at POH time and POV time.
+The statement FIELD of the [dynpro flow logic](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry") controls the data transport from the dynpro to the ABAP program during the event [PAI](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpai_glosry.htm "Glossary Entry"). It can be combined with the MODULE statement to call dialog modules conditionally, to allow any input to be checked, and to allow self-programmed field and input helps at POH time and POV time.
 
-FIELD can be used in the event blocks at [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry"), [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry"), [POH](javascript:call_link\('abenpoh_glosry.htm'\) "Glossary Entry"), and [POV](javascript:call_link\('abenpov_glosry.htm'\) "Glossary Entry"), but is ignored in the event block at PBO. dynp\_field expects a dynpro field of the current dynpro. The statement has the following effect:
+FIELD can be used in the event blocks at [PBO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpbo_glosry.htm "Glossary Entry"), [PAI](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpai_glosry.htm "Glossary Entry"), [POH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpoh_glosry.htm "Glossary Entry"), and [POV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpov_glosry.htm "Glossary Entry"), but is ignored in the event block at PBO. dynp\_field expects a dynpro field of the current dynpro. The statement has the following effect:
 
--   In the event block at PAI, FIELD controls the time when the [data transport](javascript:call_link\('abendynp_field_data_transport.htm'\)) from dynpro field dynp\_field to the global data object with the same name of the ABAP program takes place.
+-   In the event block at PAI, FIELD controls the time when the [data transport](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_data_transport.htm) from dynpro field dynp\_field to the global data object with the same name of the ABAP program takes place.
     
--   In the event block at PAI, FIELD can be combined with a [MODULE](javascript:call_link\('dynpfield_module.htm'\)) statement to call a module mod according to the conditions cond for the dynpro field dynp\_field and to allow input checks with [error handling](javascript:call_link\('abendynp_field_messages.htm'\)).
+-   In the event block at PAI, FIELD can be combined with a [MODULE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpfield_module.htm) statement to call a module mod according to the conditions cond for the dynpro field dynp\_field and to allow input checks with [error handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_messages.htm).
     
--   In the event blocks at POH and POV, FIELD can either be combined with a MODULE statement (without cond condition) to call a module mod with self-programmed [field or input help](javascript:call_link\('abendynp_field_help.htm'\)) or, with the addition WITH of POH, a [data element additional documentation](javascript:call_link\('abendynp_field_help.htm'\)) can be called.
+-   In the event blocks at POH and POV, FIELD can either be combined with a MODULE statement (without cond condition) to call a module mod with self-programmed [field or input help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_help.htm) or, with the addition WITH of POH, a [data element additional documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_help.htm) can be called.
     
 
-If a switch is assigned to the dynpro field dynp\_field in [Screen Painter](javascript:call_link\('abenswitch_german_glosry.htm'\) "Glossary Entry"), the statement FIELD is respected only if the dynpro field has been activated by the switch.
+If a switch is assigned to the dynpro field dynp\_field in [Screen Painter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenswitch_german_glosry.htm "Glossary Entry"), the statement FIELD is respected only if the dynpro field has been activated by the switch.
 
 Note
 
-The statement FIELD has two further additions, [VALUES](javascript:call_link\('dynpfield_value_select.htm'\)) and [SELECT](javascript:call_link\('dynpfield_value_select.htm'\)), for executing an obsolete value check in the flow logic.
+The statement FIELD has two further additions, [VALUES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpfield_value_select.htm) and [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpfield_value_select.htm), for executing an obsolete value check in the flow logic.
 
 Continue
-[FIELD - Data Transport in Event PAI](javascript:call_link\('abendynp_field_data_transport.htm'\))
-[FIELD - MODULE](javascript:call_link\('dynpfield_module.htm'\))
-[FIELD - Handling of Messages from the PAI Event](javascript:call_link\('abendynp_field_messages.htm'\))
-[FIELD - Field and Input Help](javascript:call_link\('abendynp_field_help.htm'\))
+[FIELD - Data Transport in Event PAI](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_data_transport.htm)
+[FIELD - MODULE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpfield_module.htm)
+[FIELD - Handling of Messages from the PAI Event](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_messages.htm)
+[FIELD - Field and Input Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_field_help.htm)

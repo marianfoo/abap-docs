@@ -3,34 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenconditional_expressions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm)
-- [abenconditional_expression_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm)
-- [abenconditional_expression_switch.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_switch.htm)
-- [abenconditional_expression_result.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm)
-- [abencond_constructor_inference.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_constructor_inference.htm)
-- [abencond_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_type_inference_abexa.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.993Z
-
----
-
 ### abenconditional_expressions.htm
-
-> **📖 Official SAP Documentation**: [abenconditional_expressions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenconditional_expressions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -38,37 +11,26 @@ Included pages: 6
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Conditional%20Expressions%2C%20ABENCONDITIONAL_EXPRESSIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Conditional Expressions
 
-A conditional expression is a [constructor expression](javascript:call_link\('abenconstructor_expressions.htm'\)) that creates a value or raises a class-based exception depending on a logical expression or a case distinction. Conditional expressions are constructed using the following conditional operators:
+A conditional expression is a [constructor expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expressions.htm) that creates a value or raises a class-based exception depending on a logical expression or a case distinction. Conditional expressions are constructed using the following conditional operators:
 
--   [COND](javascript:call_link\('abenconditional_expression_cond.htm'\))
--   [SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\))
+-   [COND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm)
+-   [SWITCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_switch.htm)
 
 Continue
-[COND, Conditional Operator](javascript:call_link\('abenconditional_expression_cond.htm'\))
-[SWITCH, Conditional Operator](javascript:call_link\('abenconditional_expression_switch.htm'\))
-[COND, SWITCH, result](javascript:call_link\('abenconditional_expression_result.htm'\))
-[COND, SWITCH, Type Inference for Actual Parameters](javascript:call_link\('abencond_constructor_inference.htm'\))
-![Example](exa.gif "Example") [Conditional Operator, Type Inference](javascript:call_link\('abencond_type_inference_abexa.htm'\))
+[COND, Conditional Operator](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm)
+[SWITCH, Conditional Operator](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_switch.htm)
+[COND, SWITCH, result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm)
+[COND, SWITCH, Type Inference for Actual Parameters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_constructor_inference.htm)
+![Example](exa.gif "Example") [Conditional Operator, Type Inference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_type_inference_abexa.htm)
 
-
-
-**📖 Source**: [abenconditional_expressions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm)
 
 ### abenconditional_expression_cond.htm
-
-> **📖 Official SAP Documentation**: [abenconditional_expression_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenconditional_expression_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -76,7 +38,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Conditional Expressions](javascript:call_link\('abenconditional_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Conditional Expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20COND%2C%20Conditional%20Operator%2C%20ABENCONDITIONAL_EXPRESSION_COND%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -84,28 +46,28 @@ COND, Conditional Operator
 
 Syntax
 
-... COND type( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]*
-               WHEN [log\_exp1](javascript:call_link\('abenlogexp.htm'\)) THEN *\[* [let\_exp](javascript:call_link\('abaplet.htm'\))*\]* [result1](javascript:call_link\('abenconditional_expression_result.htm'\))
-             *\[* WHEN [log\_exp2](javascript:call_link\('abenlogexp.htm'\)) THEN *\[* [let\_exp](javascript:call_link\('abaplet.htm'\))*\]* [result2](javascript:call_link\('abenconditional_expression_result.htm'\)) *\]*
+... COND type( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm)*\]*
+               WHEN [log\_exp1](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm) THEN *\[* [let\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm)*\]* [result1](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm)
+             *\[* WHEN [log\_exp2](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm) THEN *\[* [let\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm)*\]* [result2](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) *\]*
              ...
-             *\[* ELSE *\[* [let\_exp](javascript:call_link\('abaplet.htm'\))*\]* [resultn](javascript:call_link\('abenconditional_expression_result.htm'\)) *\]* ) ...
+             *\[* ELSE *\[* [let\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm)*\]* [resultn](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) *\]* ) ...
 
 Effect
 
-A [conditional expression](javascript:call_link\('abenconditional_expression_glosry.htm'\) "Glossary Entry") with the conditional operator COND has a result [result](javascript:call_link\('abenconditional_expression_result.htm'\)) that is dependent on logical expressions. Either a value with the data type specified by type is created or a class-based exception is raised. The following can be specified for type:
+A [conditional expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_glosry.htm "Glossary Entry") with the conditional operator COND has a result [result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) that is dependent on logical expressions. Either a value with the data type specified by type is created or a class-based exception is raised. The following can be specified for type:
 
 -   A non-generic data type dtype.
--   The # character as a symbol for the [operand type](javascript:call_link\('abenoperand_type_glosry.htm'\) "Glossary Entry").
+-   The # character as a symbol for the [operand type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_type_glosry.htm "Glossary Entry").
     -   If the data type required in an operand position is unique and known completely, this type is used.
-    -   If the operand type is not known completely, an operand with a type known statically must be specified after the first THEN, except when passing the constructor parameter to an actual parameter with a generically typed formal parameter, and this type is then used. No [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) statement can be specified after THEN in this case.
-    -   If the constructor expression is passed to an actual parameter with a generically typed formal parameter, the operand type is derived in accordance with [special rules](javascript:call_link\('abencond_constructor_inference.htm'\)).
+    -   If the operand type is not known completely, an operand with a type known statically must be specified after the first THEN, except when passing the constructor parameter to an actual parameter with a generically typed formal parameter, and this type is then used. No [THROW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) statement can be specified after THEN in this case.
+    -   If the constructor expression is passed to an actual parameter with a generically typed formal parameter, the operand type is derived in accordance with [special rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_constructor_inference.htm).
     -   In other cases, the character # cannot be specified.
 
-All operands specified after THEN must be convertible to the data type determined by type. In the case of reference variables, an [upcast](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") must be possible.
+All operands specified after THEN must be convertible to the data type determined by type. In the case of reference variables, an [upcast](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenup_cast_glosry.htm "Glossary Entry") must be possible.
 
-WHEN must be specified at least once with any [logical expression](javascript:call_link\('abenlogical_expression_glosry.htm'\) "Glossary Entry") [log\_exp](javascript:call_link\('abenlogexp.htm'\)) in the parentheses. This can be followed by any number of WHEN statements with further logical expressions. An ELSE can be specified at the end. The expression evaluates the logical expressions one after the other and selects the [result](javascript:call_link\('abenconditional_expression_result.htm'\)) specified after THEN of the first logical expression whose result is true. The selected [result](javascript:call_link\('abenconditional_expression_result.htm'\)) determines the result of the conditional expression. If none of the logical expressions are true, the [result](javascript:call_link\('abenconditional_expression_result.htm'\)) specified after ELSE is selected. If ELSE is not specified, the result is the initial value of the data type type.
+WHEN must be specified at least once with any [logical expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_expression_glosry.htm "Glossary Entry") [log\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm) in the parentheses. This can be followed by any number of WHEN statements with further logical expressions. An ELSE can be specified at the end. The expression evaluates the logical expressions one after the other and selects the [result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) specified after THEN of the first logical expression whose result is true. The selected [result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) determines the result of the conditional expression. If none of the logical expressions are true, the [result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) specified after ELSE is selected. If ELSE is not specified, the result is the initial value of the data type type.
 
-To define local helper fields, an optional [LET expression](javascript:call_link\('abaplet.htm'\)) can be specified before the first WHEN, after every THEN, and after ELSE.
+To define local helper fields, an optional [LET expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm) can be specified before the first WHEN, after every THEN, and after ELSE.
 
 Hints
 
@@ -139,18 +101,7 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abenconditional_expression_cond.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm)
-
 ### abenconditional_expression_switch.htm
-
-> **📖 Official SAP Documentation**: [abenconditional_expression_switch.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_switch.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenconditional_expression_switch.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_switch.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -158,7 +109,7 @@ ENDCLASS.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Conditional Expressions](javascript:call_link\('abenconditional_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Conditional Expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SWITCH%2C%20Conditional%20Operator%2C%20ABENCONDITIONAL_EXPRESSION_SWITCH%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -166,36 +117,36 @@ SWITCH, Conditional Operator
 
 Syntax
 
-... SWITCH type( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]*
+... SWITCH type( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm)*\]*
                  operand
-                 WHEN const1 THEN *\[* [let\_exp](javascript:call_link\('abaplet.htm'\))*\]* [result1](javascript:call_link\('abenconditional_expression_result.htm'\))
-               *\[* WHEN const2 THEN *\[* [let\_exp](javascript:call_link\('abaplet.htm'\))*\]* [result2](javascript:call_link\('abenconditional_expression_result.htm'\)) *\]*
+                 WHEN const1 THEN *\[* [let\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm)*\]* [result1](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm)
+               *\[* WHEN const2 THEN *\[* [let\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm)*\]* [result2](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) *\]*
                ...
-               *\[* ELSE *\[* [let\_exp](javascript:call_link\('abaplet.htm'\))*\]* [resultn](javascript:call_link\('abenconditional_expression_result.htm'\)) *\]* ) ...
+               *\[* ELSE *\[* [let\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm)*\]* [resultn](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) *\]* ) ...
 
 Effect
 
-A [conditional expression](javascript:call_link\('abenconditional_expression_glosry.htm'\) "Glossary Entry") with the conditional operator SWITCH has a result, [result](javascript:call_link\('abenconditional_expression_result.htm'\)), that is dependent on a case distinction. Either a value with the data type specified by type is produced or a class-based exception is raised. The following can be specified for type:
+A [conditional expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_glosry.htm "Glossary Entry") with the conditional operator SWITCH has a result, [result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm), that is dependent on a case distinction. Either a value with the data type specified by type is produced or a class-based exception is raised. The following can be specified for type:
 
 -   A non-generic data type dtype.
--   The # character as a symbol for the [operand type](javascript:call_link\('abenoperand_type_glosry.htm'\) "Glossary Entry").
+-   The # character as a symbol for the [operand type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_type_glosry.htm "Glossary Entry").
     -   If the data type required in an operand position is unique and known completely, this type is used.
-    -   If the operand type is not known completely, an operand with a type known statically must be specified after the first THEN, except when passing the constructor parameter to an actual parameter with a generically typed formal parameter, and this type is then used. No [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) statement can be specified after THEN in this case.
-    -   If the constructor expression is passed to an actual parameter with a generically typed formal parameter, the operand type is derived in accordance with [special rules](javascript:call_link\('abencond_constructor_inference.htm'\)).
+    -   If the operand type is not known completely, an operand with a type known statically must be specified after the first THEN, except when passing the constructor parameter to an actual parameter with a generically typed formal parameter, and this type is then used. No [THROW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) statement can be specified after THEN in this case.
+    -   If the constructor expression is passed to an actual parameter with a generically typed formal parameter, the operand type is derived in accordance with [special rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_constructor_inference.htm).
     -   In other cases, the character # cannot be specified.
 
-All operands specified after THEN must be convertible to the data type determined by type. In the case of reference variables, an [upcast](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") must be possible.
+All operands specified after THEN must be convertible to the data type determined by type. In the case of reference variables, an [upcast](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenup_cast_glosry.htm "Glossary Entry") must be possible.
 
-The position operand in the parentheses is the value that is checked in the case distinction. This is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). It must be followed by at least one WHEN. Literals and [constants](javascript:call_link\('abenconstant_glosry.htm'\) "Glossary Entry") can be specified for const after WHEN. It must be possible to [compare](javascript:call_link\('abenlogexp_rules.htm'\)) them with operand. [Substring access](javascript:call_link\('abenoffset_length.htm'\)) is not possible. This can be followed by any number of WHEN statements with further constant values. An ELSE can be specified at the end. This expression compares the values of the operand operand with the specified constant values one after another and chooses the [result](javascript:call_link\('abenconditional_expression_result.htm'\)) after THEN for which the values of operand and constant are identical for the first time. The selected [result](javascript:call_link\('abenconditional_expression_result.htm'\)) determines the result of the conditional expression. If no matches are found, the [result](javascript:call_link\('abenconditional_expression_result.htm'\)) specified after ELSE is selected. If ELSE is not specified, the result is the initial value of the data type type.
+The position operand in the parentheses is the value that is checked in the case distinction. This is a [general expression position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). It must be followed by at least one WHEN. Literals and [constants](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstant_glosry.htm "Glossary Entry") can be specified for const after WHEN. It must be possible to [compare](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_rules.htm) them with operand. [Substring access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoffset_length.htm) is not possible. This can be followed by any number of WHEN statements with further constant values. An ELSE can be specified at the end. This expression compares the values of the operand operand with the specified constant values one after another and chooses the [result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) after THEN for which the values of operand and constant are identical for the first time. The selected [result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) determines the result of the conditional expression. If no matches are found, the [result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) specified after ELSE is selected. If ELSE is not specified, the result is the initial value of the data type type.
 
-If a specification after THEN or ELSE can be selected, either the result is set or a class-based exception is raised, just as with a conditional expression [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)).
+If a specification after THEN or ELSE can be selected, either the result is set or a class-based exception is raised, just as with a conditional expression [COND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm).
 
-To define local helper fields, an optional [LET expression](javascript:call_link\('abaplet.htm'\)) can be specified in front of the operand operand, after every THEN, and after ELSE.
+To define local helper fields, an optional [LET expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm) can be specified in front of the operand operand, after every THEN, and after ELSE.
 
 Hints
 
--   No [text symbols](javascript:call_link\('abentext_symbol_glosry.htm'\) "Glossary Entry") for const can be specified after WHEN.
--   A conditional expression with SWITCH has the same meaning as the following conditional expression with [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)):
+-   No [text symbols](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_symbol_glosry.htm "Glossary Entry") for const can be specified after WHEN.
+-   A conditional expression with SWITCH has the same meaning as the following conditional expression with [COND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm):
     
     COND type( WHEN operand = const1 THEN result1
              *\[* WHEN operand = const2 THEN result2 *\]*
@@ -235,18 +186,7 @@ CLASS exa IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abenconditional_expression_switch.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_switch.htm)
-
 ### abenconditional_expression_result.htm
-
-> **📖 Official SAP Documentation**: [abenconditional_expression_result.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenconditional_expression_result.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -254,7 +194,7 @@ ENDCLASS.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Conditional Expressions](javascript:call_link\('abenconditional_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Conditional Expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20COND%2C%20SWITCH%2C%20result%2C%20ABENCONDITIONAL_EXPRESSION_RESULT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -263,7 +203,7 @@ COND, SWITCH, result
 Syntax
 
 ...   operand
-  *|* *{* THROW *\[*RESUMABLE*|*SHORTDUMP*\]* cx\_class( *\[* [message](javascript:call_link\('abapraise_exception_message.htm'\))*\]*
+  *|* *{* THROW *\[*RESUMABLE*|*SHORTDUMP*\]* cx\_class( *\[* [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_message.htm)*\]*
                                             *\[*p1 = a1 p2 = a2 ...*\]* ) *}* ...
 
 Alternatives:
@@ -273,7 +213,7 @@ Alternatives:
 
 Effect
 
-These specifications after THEN and ELSE in the [conditional expressions](javascript:call_link\('abenconditional_expression_glosry.htm'\) "Glossary Entry") [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)) and [SWITCH](javascript:call_link\('abenconditional_expression_cond.htm'\)) determine the result of the expression when the corresponding branch is selected.
+These specifications after THEN and ELSE in the [conditional expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_glosry.htm "Glossary Entry") [COND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm) and [SWITCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm) determine the result of the expression when the corresponding branch is selected.
 
 Alternative 1   
 
@@ -281,10 +221,10 @@ Alternative 1  
 
 Effect
 
-If an operand operand is specified, its value is converted to the data type type if necessary and returned as the result of the conditional expression. operand is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") with the following restrictions:
+If an operand operand is specified, its value is converted to the data type type if necessary and returned as the result of the conditional expression. operand is a [general expression position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") with the following restrictions:
 
--   If operand is specified as a [string expression](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry"), type must be character-like.
--   If operand is specified as a [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry"), type must be byte-like.
+-   If operand is specified as a [string expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_expression_glosry.htm "Glossary Entry"), type must be character-like.
+-   If operand is specified as a [bit expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbit_expression_glosry.htm "Glossary Entry"), type must be byte-like.
 
 Hint
 
@@ -312,20 +252,20 @@ Effect
 
 The specification of THROW raises either an exception or a runtime error.
 
--   If the addition SHORTDUMP is not specified, THROW works like the statement [RAISE EXCEPTION TYPE](javascript:call_link\('abapraise_exception_class.htm'\)) and raises an exception of the [exception class](javascript:call_link\('abenexception_class_glosry.htm'\) "Glossary Entry") cx\_class. The following applies here:
+-   If the addition SHORTDUMP is not specified, THROW works like the statement [RAISE EXCEPTION TYPE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm) and raises an exception of the [exception class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_class_glosry.htm "Glossary Entry") cx\_class. The following applies here:
     -   The addition RESUMABLE can be used to make the exception resumable.
-    -   A message can be passed to the exception object using the addition [message](javascript:call_link\('abapraise_exception_message.htm'\)).
+    -   A message can be passed to the exception object using the addition [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_message.htm).
     -   The input parameters p1, p2, ... of the instance constructor can be filled with actual parameters a1, a2.
--   If the addition SHORTDUMP is specified, THROW works like the statement [RAISE SHORTDUMP TYPE](javascript:call_link\('abapraise_shortdump.htm'\)) and raises a runtime error with the [exception class](javascript:call_link\('abenexception_class_glosry.htm'\) "Glossary Entry") cx\_class, whereby a message can be also passed and the input parameters can be filled.
+-   If the addition SHORTDUMP is specified, THROW works like the statement [RAISE SHORTDUMP TYPE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm) and raises a runtime error with the [exception class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_class_glosry.htm "Glossary Entry") cx\_class, whereby a message can be also passed and the input parameters can be filled.
 
 Hints
 
 -   If the exception class is specified after THROW, the parentheses must always be specified, even if no messages or actual parameters are passed. EXPORTING cannot be specified, nor is it necessary.
--   Like the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)), the specification THROW without the addition SHORTDUMP cannot be used in a method or function module in whose interface [non-class-based](javascript:call_link\('abenexceptions_non_class.htm'\)) exceptions are declared. Furthermore, it does not allow simultaneous use of the statement [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)) for the obsolete handling of [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"), and the statements [RAISE](javascript:call_link\('abapraise_exception.htm'\)) or [MESSAGE RAISING](javascript:call_link\('abapmessage_raising.htm'\)) to raise non-class-based exceptions in the current processing block.
+-   Like the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm), the specification THROW without the addition SHORTDUMP cannot be used in a method or function module in whose interface [non-class-based](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexceptions_non_class.htm) exceptions are declared. Furthermore, it does not allow simultaneous use of the statement [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm) for the obsolete handling of [catchable runtime errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"), and the statements [RAISE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception.htm) or [MESSAGE RAISING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_raising.htm) to raise non-class-based exceptions in the current processing block.
 
 Example
 
-Raising of an exception of the class CX\_DEMO\_DYN\_T100 that implements the interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)).
+Raising of an exception of the class CX\_DEMO\_DYN\_T100 that implements the interface [IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_dyn_msg.htm).
 
 DATA cflag TYPE abap\_bool.
 ...
@@ -341,7 +281,7 @@ ENDTRY.
 
 Example
 
-Raising of a runtime error with an exception object of the class CX\_DEMO\_DYN\_T100, which implements the interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)).
+Raising of a runtime error with an exception object of the class CX\_DEMO\_DYN\_T100, which implements the interface [IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_dyn_msg.htm).
 
 FINAL(t) = cl\_demo\_date\_time=>get\_user\_time( ).
 FINAL(time) = COND t( WHEN t BETWEEN '090000' AND '170000'
@@ -352,18 +292,7 @@ FINAL(time) = COND t( WHEN t BETWEEN '090000' AND '170000'
                                   WITH \`I\` \`don't\` \`work\` \`now!\` ) ).
 
 
-
-**📖 Source**: [abenconditional_expression_result.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm)
-
 ### abencond_constructor_inference.htm
-
-> **📖 Official SAP Documentation**: [abencond_constructor_inference.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_constructor_inference.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abencond_constructor_inference.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_constructor_inference.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -371,7 +300,7 @@ FINAL(time) = COND t( WHEN t BETWEEN '090000' AND '170000'
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Conditional Expressions](javascript:call_link\('abenconditional_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Conditional Expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20COND%2C%20SWITCH%2C%20Type%20Inference%20for%20Actual%20Parameters%2C%20ABENCOND_CONSTRUCTOR_INFERENCE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugg
 estion%20for%20improvement:)
@@ -380,7 +309,7 @@ COND, SWITCH, Type Inference for Actual Parameters
 
 If the following constructor expression is passed to generically typed formal parameters as an actual parameter using the character # as a symbol for the operand type, the following type inference is performed for the character #:
 
-[COND](javascript:call_link\('abenconditional_expression_cond.htm'\))*|*[SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\)) #( ... THEN ... )
+[COND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm)*|*[SWITCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_switch.htm) #( ... THEN ... )
 
 is passed to generically typed formal parameters as an actual parameter using the character # as a symbol for the operand type, the following type inference is performed for the character #:
 
@@ -390,7 +319,7 @@ is passed to generically typed formal parameters as an actual parameter using th
     -   xstring for xsequence
     -   decfloat34 for numeric and decfloat
     -   p with the length 8 and no decimal places if p is generic
-    -   The [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry") for a standard table type with generic primary table key
+    -   The [standard key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_key_glosry.htm "Glossary Entry") for a standard table type with generic primary table key
         
         Generic data types other than table types that are explicitly generic with respect to their secondary table keys cannot be made more concrete and produce a syntax error. More specifically, this applies to the types c, n, and x with generic lengths.
         
@@ -401,7 +330,7 @@ The rules for derivations of the type where # is specified for actual parameters
 
 Example
 
-The operator COND generates a result of type string in this case. The generic parameter p has this type during the execution of the method, which is displayed by the value g returned by [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)). The method call leads to a corresponding syntax warning.
+The operator COND generates a result of type string in this case. The generic parameter p has this type during the execution of the method, which is displayed by the value g returned by [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_field.htm). The method call leads to a corresponding syntax warning.
 
 CLASS demo1 DEFINITION.
   PUBLIC SECTION.
@@ -433,24 +362,10 @@ ENDCLASS.
 
 Executable Example
 
-[Conditional Operator, Type Inference](javascript:call_link\('abencond_type_inference_abexa.htm'\))
+[Conditional Operator, Type Inference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_type_inference_abexa.htm)
 
-
-
-**📖 Source**: [abencond_constructor_inference.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_constructor_inference.htm)
 
 ### abencond_type_inference_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencond_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_type_inference_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abencond_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_type_inference_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencond_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_type_inference_abexa.htm)
-
 
   
 
@@ -458,14 +373,14 @@ Executable Example
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Conditional Expressions](javascript:call_link\('abenconditional_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Conditional Expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Conditional%20Operator%2C%20Type%20Inference%2C%20ABENCOND_TYPE_INFERENCE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvem
 ent:)
 
 Conditional Operator, Type Inference
 
-This example demonstrates a type inference for the conversion operator [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)).
+This example demonstrates a type inference for the conversion operator [COND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm).
 
 Source Code   
 
@@ -546,7 +461,7 @@ ENDCLASS.
 
 Description   
 
-Constructor expressions with the conditional operator [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)) are passed to differently typed formal parameters of methods. In the case of generic formal parameters, [special rules](javascript:call_link\('abencond_constructor_inference.htm'\)) apply when determining the operand type. Replacing the conditional operator COND with [SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\)) produces the same results.
+Constructor expressions with the conditional operator [COND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm) are passed to differently typed formal parameters of methods. In the case of generic formal parameters, [special rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencond_constructor_inference.htm) apply when determining the operand type. Replacing the conditional operator COND with [SWITCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_switch.htm) produces the same results.
 
 -   Completely typed formal parameter
     

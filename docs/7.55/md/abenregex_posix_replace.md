@@ -4,23 +4,27 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions (regex)](javascript:call_link\('abenregular_expressions.htm'\)) →  [regex - Syntax](javascript:call_link\('abenregex_syntax.htm'\)) →  [regex - POSIX Syntax](javascript:call_link\('abenregex_posix_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions (regex)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregular_expressions.htm) →  [regex - Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_syntax.htm) →  [regex - POSIX Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_syntax.htm) → 
 
 POSIX regex - Replace Patterns
 
-In addition to [searching](javascript:call_link\('abenregex_posix_search.htm'\)), the replacement of substrings in character strings is the most important application of regular expressions. When replacing, the occurrences of a search, that is, the substrings that match a regular expression, are replaced by one or more different character strings. In ABAP, the replacement is implemented using regular expressions with the addition [REGEX](javascript:call_link\('abapfind_pattern.htm'\)) of the statement [REPLACE](javascript:call_link\('abapreplace.htm'\)).
+In addition to [searching](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_search.htm), the replacement of substrings in character strings is the most important application of regular expressions. When replacing, the occurrences of a search, that is, the substrings that match a regular expression, are replaced by one or more different character strings. In ABAP, the replacement is implemented using regular expressions with the addition [REGEX](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind_pattern.htm) of the statement [REPLACE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace.htm).
 
 In contrast to normal text replacements, when regular expressions are used, operators can be used in the replacement text that refer to the relevant occurrence.
 
--   [Operators for Replacement Texts](#abenregex-posix-replace-1--------addressing-the-full-occurrence---@ITOC@@ABENREGEX_POSIX_REPLACE_2)
+-   [Operators for Replacement Texts](#@@ITOC@@ABENREGEX_POSIX_REPLACE_1)
 
--   [Addressing the Registers of Subgroups](#abenregex-posix-replace-3--------addressing-the-text-before-the-occurrence---@ITOC@@ABENREGEX_POSIX_REPLACE_4)
+-   [Addressing the Full Occurrence](#@@ITOC@@ABENREGEX_POSIX_REPLACE_2)
+
+-   [Addressing the Registers of Subgroups](#@@ITOC@@ABENREGEX_POSIX_REPLACE_3)
+
+-   [Addressing the Text Before the Occurrence](#@@ITOC@@ABENREGEX_POSIX_REPLACE_4)
 
 -   [Addressing the Text After the Occurrence](#@@ITOC@@ABENREGEX_POSIX_REPLACE_5)
 
 Operators for Replacement Texts
 
-The following operators can be specified in the replacement text. These operators are made up of the special characters $, &, \`, and ´. The special characters can be made into literal characters by prefixing the escape character \\ or by using the addition [VERBATIM](javascript:call_link\('abapreplace_options.htm'\)) of the [REPLACE](javascript:call_link\('abapreplace.htm'\)) statement, where the latter improves the performance.
+The following operators can be specified in the replacement text. These operators are made up of the special characters $, &, \`, and ´. The special characters can be made into literal characters by prefixing the escape character \\ or by using the addition [VERBATIM](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_options.htm) of the [REPLACE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace.htm) statement, where the latter improves the performance.
 
 Addressing the Full Occurrence
 
@@ -36,7 +40,7 @@ REPLACE REGEX \`\\w+\` IN text WITH \`$0 $0 $&\`.
 
 Addressing the Registers of Subgroups
 
-The operators $1, $2, $3, ... can be used in the replacement text as placeholders for the character strings stored in the registers of [subgroups](javascript:call_link\('abenregex_posix_syntax_operators.htm'\)) for the current occurrence. If the n-th subgroup is not available, or it was not supplied with a value in the match, the corresponding operator $n is replaced by the empty character string.
+The operators $1, $2, $3, ... can be used in the replacement text as placeholders for the character strings stored in the registers of [subgroups](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_syntax_operators.htm) for the current occurrence. If the n-th subgroup is not available, or it was not supplied with a value in the match, the corresponding operator $n is replaced by the empty character string.
 
 Example
 

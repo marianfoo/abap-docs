@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Program Flow](javascript:call_link\('abenobsolete_program_flow.htm'\)) →  [Obsolete Comparison Expressions](javascript:call_link\('abenobsolete_logexp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obsolete.htm) →  [Obsolete Program Flow](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenobsolete_program_flow.htm) →  [Obsolete Comparison Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenobsolete_logexp.htm) → 
 
 rel\_exp - IN, Short Form
 
@@ -16,19 +16,19 @@ Effect
 
 This relational expression has the same effect as the comparison expression
 
-[... operand IN selcrit ...](javascript:call_link\('abenlogexp_select_option.htm'\))
+[... operand IN selcrit ...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_select_option.htm)
 
-Here, operand is the data object for which the [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") selcrit was declared using
+Here, operand is the data object for which the [selection table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselection_table_glosry.htm "Glossary Entry") selcrit was declared using
 
-[SELECT-OPTIONS selcrit FOR operand](javascript:call_link\('abapselect-options.htm'\)).
+[SELECT-OPTIONS selcrit FOR operand](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect-options.htm).
 
-The short form is only possible for selections tables declared using the statement SELECT-OPTIONS and with a statically specified data object. More specifically, the short form is not possible for [ranges tables](javascript:call_link\('abenranges_table_glosry.htm'\) "Glossary Entry").
+The short form is only possible for selections tables declared using the statement SELECT-OPTIONS and with a statically specified data object. More specifically, the short form is not possible for [ranges tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenranges_table_glosry.htm "Glossary Entry").
 
 Hints
 
 -   Using this short form makes a program more difficult to understand. In particular, using this short form in processing blocks not immediately adjacent to the declaration of the selection table declaration can make the program confusing.
 
--   More specifically, this short form should not be confused with a [predicative method call](javascript:call_link\('abenpredicative_method_call_glosry.htm'\) "Glossary Entry"). A call of this type is false if its result is initial, whereas the short form shown here is always true for an initial selection table.
+-   More specifically, this short form should not be confused with a [predicative method call](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpredicative_method_call_glosry.htm "Glossary Entry"). A call of this type is false if its result is initial, whereas the short form shown here is always true for an initial selection table.
 
 Example
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 7.40 and Its SPs](javascript:call_link\('abennews-740.htm'\)) →  [Changes in Release 7.40, SP02](javascript:call_link\('abennews-740_sp02.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews.htm) →  [Changes in Release 7.40 and Its SPs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-740.htm) →  [Changes in Release 7.40, SP02](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-740_sp02.htm) → 
 
 Data Clusters in Release 7.40, SP02
 
@@ -16,12 +16,12 @@ Modification 1
 
 Replacement of the System Class
 
-The abstract system class CL\_ABAP\_EXPIMP for [data clusters](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") and its subclasses have been replaced by the new system class [CL\_ABAP\_EXPIMP\_UTILITIES](javascript:call_link\('abencl_abap_expimp.htm'\)) and its methods. The class CL\_ABAP\_EXPIMP should no longer be used.
+The abstract system class CL\_ABAP\_EXPIMP for [data clusters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_cluster_glosry.htm "Glossary Entry") and its subclasses have been replaced by the new system class [CL\_ABAP\_EXPIMP\_UTILITIES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_expimp.htm) and its methods. The class CL\_ABAP\_EXPIMP should no longer be used.
 
 Modification 2
 
 Exception Handling
 
--   If an SQL error occurs in the statements [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)), [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)), or [DELETE FROM](javascript:call_link\('abapdelete_cluster.htm'\)) for data clusters in database tables, the new exception class CX\_SY\_EXPIMP\_DB\_SQL\_ERROR can be used to handle the error.
+-   If an SQL error occurs in the statements [EXPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexport_data_cluster.htm), [IMPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapimport_data_cluster.htm), or [DELETE FROM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_cluster.htm) for data clusters in database tables, the new exception class CX\_SY\_EXPIMP\_DB\_SQL\_ERROR can be used to handle the error.
     
--   If the string or internal table is empty in the statements [IMPORT FROM DATA BUFFER](javascript:call_link\('abapimport_medium.htm'\)) or [IMPORT FROM INTERNAL TABLE](javascript:call_link\('abapimport_medium.htm'\)), the dedicated runtime errors IMPORT\_FROM\_DATA\_BUFFER\_EMPTY or IMPORT\_FROM\_INTTABLE\_EMPTY now occur.
+-   If the string or internal table is empty in the statements [IMPORT FROM DATA BUFFER](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapimport_medium.htm) or [IMPORT FROM INTERNAL TABLE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapimport_medium.htm), the dedicated runtime errors IMPORT\_FROM\_DATA\_BUFFER\_EMPTY or IMPORT\_FROM\_INTTABLE\_EMPTY now occur.

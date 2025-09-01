@@ -3,36 +3,7 @@
 Included pages: 13
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abendynamic_programming_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm)
-- [abensql_injections_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injections_scrty.htm)
-- [abensql_inj_dyn_tokens_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_dyn_tokens_scrty.htm)
-- [abensql_inj_adbc_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_adbc_scrty.htm)
-- [abensql_inj_amdp_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_amdp_scrty.htm)
-- [abensql_inj_os_query_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_os_query_scrty.htm)
-- [abensql_inj_gen_prog_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_gen_prog_scrty.htm)
-- [abendyn_call_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_call_scrty.htm)
-- [abendyn_file_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_file_scrty.htm)
-- [abensys_comm_injections_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensys_comm_injections_scrty.htm)
-- [abenxss_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxss_scrty.htm)
-- [abengeneric_prog_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_prog_scrty.htm)
-
-**Bundle Contains**: 12 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.962Z
-
----
-
 ### abendynamic_programming_scrty.htm
-
-> **📖 Official SAP Documentation**: [abendynamic_programming_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -40,7 +11,7 @@ Included pages: 13
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Security%20Risks%20Caused%20by%20Input%20from%20Outside%2C%20ABENDYNAMIC_PROGRAMMING_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for
 %20improvement:)
@@ -55,8 +26,8 @@ Most security issues in ABAP programs are caused by because input injected into 
 
 is used wrongly or carelessly. More specifically, security risks arise here whenever full statements, parts of statements, or objects accessed in statements are specified dynamically and hence are not subject to static checks. Dynamically specified items of this nature occur, for example, in the following cases:
 
--   Dynamically specified objects are anchored in the syntax of a statement in a natural way. For example, file names specified dynamically using a variable in a statement from the [ABAP file interface](javascript:call_link\('abenfile_interface_glosry.htm'\) "Glossary Entry") are the norm, and not exceptions.
--   Frameworks are fully dynamic (for example [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry")) if they use dynamic SQL statements only.
+-   Dynamically specified objects are anchored in the syntax of a statement in a natural way. For example, file names specified dynamically using a variable in a statement from the [ABAP file interface](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfile_interface_glosry.htm "Glossary Entry") are the norm, and not exceptions.
+-   Frameworks are fully dynamic (for example [ADBC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_glosry.htm "Glossary Entry")) if they use dynamic SQL statements only.
 -   Here, information is specified dynamically to make the programming of functions more compact than if they were programmed statically (perhaps due to a large number of case distinctions).
 
 Two main cases must be distinguished here:
@@ -70,36 +41,29 @@ The latter case, on the other hand, is critical. If external input is specified 
 
 The following sections provide examples of the most significant security risks when input from outside is used in statements:
 
--   [SQL Injections](javascript:call_link\('abensql_injections_scrty.htm'\))
--   [Dynamic Calls](javascript:call_link\('abendyn_call_scrty.htm'\))
--   [Directory Traversal](javascript:call_link\('abendyn_file_scrty.htm'\))
--   [System Command Injections](javascript:call_link\('abensys_comm_injections_scrty.htm'\))
--   [Cross Site Scripting](javascript:call_link\('abenxss_scrty.htm'\))
--   [ABAP Command Injections](javascript:call_link\('abengeneric_prog_scrty.htm'\))
+-   [SQL Injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injections_scrty.htm)
+-   [Dynamic Calls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_call_scrty.htm)
+-   [Directory Traversal](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_file_scrty.htm)
+-   [System Command Injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensys_comm_injections_scrty.htm)
+-   [Cross Site Scripting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxss_scrty.htm)
+-   [ABAP Command Injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_prog_scrty.htm)
 
-The global principle in these sections of always checking and/or escaping external input also applies in all cases not listed separately here, such as using a dynamic [WHERE](javascript:call_link\('abaploop_at_itab_cond.htm'\)) condition when accessing internal tables.
+The global principle in these sections of always checking and/or escaping external input also applies in all cases not listed separately here, such as using a dynamic [WHERE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_itab_cond.htm) condition when accessing internal tables.
 
 Hint
 
-Back doors, implemented by malicious developers using dynamically specified information, are not discussed here. These cannot be checked statically, since they do not originate outside the program, and are not usually classified as dangerous by static checks. The two-man rule code inspections are probably the only solution here. See also [Obscuring ABAP Source Code](javascript:call_link\('abenobscure_code_scrty.htm'\)).
+Back doors, implemented by malicious developers using dynamically specified information, are not discussed here. These cannot be checked statically, since they do not originate outside the program, and are not usually classified as dangerous by static checks. The two-man rule code inspections are probably the only solution here. See also [Obscuring ABAP Source Code](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobscure_code_scrty.htm).
 
 Continue
-[SQL Injections](javascript:call_link\('abensql_injections_scrty.htm'\))
-[Dynamic Calls](javascript:call_link\('abendyn_call_scrty.htm'\))
-[Directory Traversal](javascript:call_link\('abendyn_file_scrty.htm'\))
-[System Command Injections](javascript:call_link\('abensys_comm_injections_scrty.htm'\))
-[Cross Site Scripting](javascript:call_link\('abenxss_scrty.htm'\))
-[ABAP Command Injections](javascript:call_link\('abengeneric_prog_scrty.htm'\))
+[SQL Injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injections_scrty.htm)
+[Dynamic Calls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_call_scrty.htm)
+[Directory Traversal](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_file_scrty.htm)
+[System Command Injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensys_comm_injections_scrty.htm)
+[Cross Site Scripting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxss_scrty.htm)
+[ABAP Command Injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_prog_scrty.htm)
 
-
-
-**📖 Source**: [abendynamic_programming_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm)
 
 ### abensql_injections_scrty.htm
-
-> **📖 Official SAP Documentation**: [abensql_injections_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injections_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -107,37 +71,30 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SQL%20Injections%2C%20ABENSQL_INJECTIONS_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SQL Injections
 
-An [SQL injection](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry") is a widely used attack method on insufficiently secure input from outside. An SQL injection passes malicious SQL code injected into a program to the database system, unchecked and unescaped. In ABAP, this can occur when the following programming techniques are used:
+An [SQL injection](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injection_glosry.htm "Glossary Entry") is a widely used attack method on insufficiently secure input from outside. An SQL injection passes malicious SQL code injected into a program to the database system, unchecked and unescaped. In ABAP, this can occur when the following programming techniques are used:
 
--   [Dynamically specified tokens in ABAP SQL](javascript:call_link\('abensql_inj_dyn_tokens_scrty.htm'\))
--   [SQL Injections Using Dynamic Tokens](javascript:call_link\('abensql_inj_dyn_tokens_scrty.htm'\))
--   [SQL Injections Using ADBC](javascript:call_link\('abensql_inj_adbc_scrty.htm'\))
--   [SQL Injections Using AMDP](javascript:call_link\('abensql_inj_amdp_scrty.htm'\))
--   [SQL Injections Using Object Services](javascript:call_link\('abensql_inj_os_query_scrty.htm'\))
--   [SQL Injections Using Generic Programming](javascript:call_link\('abensql_inj_gen_prog_scrty.htm'\))
+-   [Dynamically specified tokens in ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_dyn_tokens_scrty.htm)
+-   [SQL Injections Using Dynamic Tokens](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_dyn_tokens_scrty.htm)
+-   [SQL Injections Using ADBC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_adbc_scrty.htm)
+-   [SQL Injections Using AMDP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_amdp_scrty.htm)
+-   [SQL Injections Using Object Services](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_os_query_scrty.htm)
+-   [SQL Injections Using Generic Programming](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_gen_prog_scrty.htm)
 
 Continue
-[SQL Injections Using Dynamic Tokens](javascript:call_link\('abensql_inj_dyn_tokens_scrty.htm'\))
-[SQL Injections Using ADBC](javascript:call_link\('abensql_inj_adbc_scrty.htm'\))
-[SQL Injections Using AMDP](javascript:call_link\('abensql_inj_amdp_scrty.htm'\))
-[SQL Injections Using Object Services](javascript:call_link\('abensql_inj_os_query_scrty.htm'\))
-[SQL Injections Using Generic Programming](javascript:call_link\('abensql_inj_gen_prog_scrty.htm'\))
+[SQL Injections Using Dynamic Tokens](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_dyn_tokens_scrty.htm)
+[SQL Injections Using ADBC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_adbc_scrty.htm)
+[SQL Injections Using AMDP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_amdp_scrty.htm)
+[SQL Injections Using Object Services](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_os_query_scrty.htm)
+[SQL Injections Using Generic Programming](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_gen_prog_scrty.htm)
 
-
-
-**📖 Source**: [abensql_injections_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injections_scrty.htm)
 
 ### abensql_inj_dyn_tokens_scrty.htm
-
-> **📖 Official SAP Documentation**: [abensql_inj_dyn_tokens_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_dyn_tokens_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -145,17 +102,19 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) →  [SQL Injections](javascript:call_link\('abensql_injections_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm) →  [SQL Injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injections_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SQL%20Injections%20Using%20Dynamic%20Tokens%2C%20ABENSQL_INJ_DYN_TOKENS_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvemen
 t:)
 
 SQL Injections Using Dynamic Tokens
 
-The [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry") syntax allows almost every clause of an ABAP SQL statement to be specified dynamically as the content of a data object specified in parentheses. If all of part of the content of one of these data objects originates from outside of the program, there is a risk of one of the following SQL injections:
+The [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm "Glossary Entry") syntax allows almost every clause of an ABAP SQL statement to be specified dynamically as the content of a data object specified in parentheses. If all of part of the content of one of these data objects originates from outside of the program, there is a risk of one of the following SQL injections:
 
--   [Access to Non-Permitted Database Tables](#abensql-inj-dyn-tokens-scrty-1-------access-to-non-permitted-table-columns---@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_2)
--   [Manipulation of the Dynamic WHERE Condition](#abensql-inj-dyn-tokens-scrty-3-------manipulation-of-a-dynamic-change-expression---@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_4)
+-   [Access to Non-Permitted Database Tables](#@@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_1)
+-   [Access to Non-Permitted Table Columns](#@@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_2)
+-   [Manipulation of the Dynamic WHERE Condition](#@@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_3)
+-   [Manipulation of a Dynamic Change Expression](#@@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_4)
 
 Hint
 
@@ -172,7 +131,7 @@ SELECT SINGLE \* FROM scarr WHERE (sql\_cond2) INTO @wa.
 
 Access to Non-Permitted Database Tables   
 
-If dynamically specified database tables [source\_syntax](javascript:call_link\('abapfrom_clause.htm'\)) (for the statement [SELECT](javascript:call_link\('abapselect.htm'\)) or target\_syntax for [writes](javascript:call_link\('abenabap_sql_writing.htm'\))) originate in full or in part from outside the program, users could potentially access databases for which they usually do not have authorization. If the use of external input in dynamically specified database tables is unavoidable, the input must be properly checked. For example, the class CL\_ABAP\_DYN\_PRG can be used to make a comparison with a include list.
+If dynamically specified database tables [source\_syntax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfrom_clause.htm) (for the statement [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm) or target\_syntax for [writes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_writing.htm)) originate in full or in part from outside the program, users could potentially access databases for which they usually do not have authorization. If the use of external input in dynamically specified database tables is unavoidable, the input must be properly checked. For example, the class CL\_ABAP\_DYN\_PRG can be used to make a comparison with a include list.
 
 Example
 
@@ -207,23 +166,23 @@ cl\_demo\_output=>display( dref->\* ).
 
 Access to Non-Permitted Table Columns   
 
-If the dynamically specified table columns column\_syntax in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) of the statement [SELECT](javascript:call_link\('abapselect.htm'\)) originate fully or in part from outside the program, users could potentially access table columns for which they usually do not have authorization. Users could also rename columns without permission or use aggregate functions to perform unauthorized calculations. If the use of external input in a dynamically specified table columns is unavoidable, the input must be properly checked. For example, the class CL\_ABAP\_DYN\_PRG can be used to make a comparison with an include list.
+If the dynamically specified table columns column\_syntax in the [SELECT list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_list.htm) of the statement [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm) originate fully or in part from outside the program, users could potentially access table columns for which they usually do not have authorization. Users could also rename columns without permission or use aggregate functions to perform unauthorized calculations. If the use of external input in a dynamically specified table columns is unavoidable, the input must be properly checked. For example, the class CL\_ABAP\_DYN\_PRG can be used to make a comparison with an include list.
 
 Hint
 
-When specifying columns after [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)), the same security advice applies as to columns specified dynamically directly after SELECT.
+When specifying columns after [GROUP BY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapgroupby_clause.htm), the same security advice applies as to columns specified dynamically directly after SELECT.
 
 Example
 
-See the example in [column \_syntax](javascript:call_link\('abapselect_list.htm'\)). Here only columns from an include list are allowed to be read.
+See the example in [column \_syntax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_list.htm). Here only columns from an include list are allowed to be read.
 
 Manipulation of the Dynamic WHERE Condition   
 
-If a dynamic WHERE condition [cond\_syntax](javascript:call_link\('abenwhere_logexp_dynamic.htm'\)) originates completely or partially from outside the program, then users could potentially access data for which they usually do not have authorization. If the use of external input in a dynamic WHERE condition cannot be avoided, the input must be properly checked and usually escaped as well. To do this, you can sue the methods of class CL\_ABAP\_DYN\_PRG.
+If a dynamic WHERE condition [cond\_syntax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwhere_logexp_dynamic.htm) originates completely or partially from outside the program, then users could potentially access data for which they usually do not have authorization. If the use of external input in a dynamic WHERE condition cannot be avoided, the input must be properly checked and usually escaped as well. To do this, you can sue the methods of class CL\_ABAP\_DYN\_PRG.
 
 Hint
 
-When dynamically specifying a [HAVING](javascript:call_link\('abaphaving_clause.htm'\)) condition, the same security advice applies as for the dynamic WHERE condition.
+When dynamically specifying a [HAVING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphaving_clause.htm) condition, the same security advice applies as for the dynamic WHERE condition.
 
 Example
 
@@ -243,11 +202,11 @@ TRY.
     cl\_demo\_output=>display( 'Wrong input' ).
 ENDTRY.
 
-More examples under [dynamic WHERE condition](javascript:call_link\('abenwhere_logexp_dynamic.htm'\)).
+More examples under [dynamic WHERE condition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenwhere_logexp_dynamic.htm).
 
 Manipulation of a Dynamic Change Expression   
 
-If a dynamic change expression [expr\_syntax](javascript:call_link\('abapupdate_set_expression.htm'\)) (for the statement [UPDATE](javascript:call_link\('abapupdate.htm'\))) originates completely or partially from outside the program, then users could potentially change data for which they usually do not have authorization. If the use of external input in a dynamic change expression cannot be avoided, the input must be properly checked and usually escaped as well. To do this, you can sue the methods of class CL\_ABAP\_DYN\_PRG.
+If a dynamic change expression [expr\_syntax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapupdate_set_expression.htm) (for the statement [UPDATE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapupdate.htm)) originates completely or partially from outside the program, then users could potentially change data for which they usually do not have authorization. If the use of external input in a dynamic change expression cannot be avoided, the input must be properly checked and usually escaped as well. To do this, you can sue the methods of class CL\_ABAP\_DYN\_PRG.
 
 Example
 
@@ -295,14 +254,7 @@ TRY.
 ENDTRY.
 
 
-
-**📖 Source**: [abensql_inj_dyn_tokens_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_dyn_tokens_scrty.htm)
-
 ### abensql_inj_adbc_scrty.htm
-
-> **📖 Official SAP Documentation**: [abensql_inj_adbc_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_adbc_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -310,13 +262,13 @@ ENDTRY.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) →  [SQL Injections](javascript:call_link\('abensql_injections_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm) →  [SQL Injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injections_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SQL%20Injections%20Using%20ADBC%2C%20ABENSQL_INJ_ADBC_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SQL Injections Using ADBC
 
-When [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry") is used, SQL statements are passed as strings to objects of class ADBC and then passed on to the database system. If all of part of one of these SQL statements originates from outside of the program, there is a risk of an SQL injection.
+When [ADBC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_glosry.htm "Glossary Entry") is used, SQL statements are passed as strings to objects of class ADBC and then passed on to the database system. If all of part of one of these SQL statements originates from outside of the program, there is a risk of an SQL injection.
 
 To prevent SQL Injections, make sure that SQL statements passed to ADBC contain as few parts as possible that originate from outside of the program. If the statements do contain parts from outside the program, the content of these parts should not be chained to the SQL statement. Instead these content should be addressed using the ? placeholder and the associated SET\_PARAM methods. If this is not possible, the parts from outside must be checked using the CL\_ABAP\_DYN\_PRG class and escaped if necessary.
 
@@ -364,14 +316,7 @@ TRY.
 ENDTRY.
 
 
-
-**📖 Source**: [abensql_inj_adbc_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_adbc_scrty.htm)
-
 ### abensql_inj_amdp_scrty.htm
-
-> **📖 Official SAP Documentation**: [abensql_inj_amdp_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_amdp_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -379,17 +324,17 @@ ENDTRY.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) →  [SQL Injections](javascript:call_link\('abensql_injections_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm) →  [SQL Injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injections_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SQL%20Injections%20Using%20AMDP%2C%20ABENSQL_INJ_AMDP_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SQL Injections Using AMDP
 
-When [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry") is used, database procedures are created and called that are currently usually implemented in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry") for the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"). The implementation of the database procedures in AMDP methods is managed by ABAP, but their content and security is not ABAP's responsibility. Risks are incurred whenever a database procedure contains dynamic parts or whenever it calls further database procedures whose functions are unknown in ABAP and cannot be checked there.
+When [AMDP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_glosry.htm "Glossary Entry") is used, database procedures are created and called that are currently usually implemented in [SQLScript](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_script_glosry.htm "Glossary Entry") for the [SAP HANA database](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_database_glosry.htm "Glossary Entry"). The implementation of the database procedures in AMDP methods is managed by ABAP, but their content and security is not ABAP's responsibility. Risks are incurred whenever a database procedure contains dynamic parts or whenever it calls further database procedures whose functions are unknown in ABAP and cannot be checked there.
 
-There are currently no test tools available for checking the security of the implementation of a AMDP methods. Developers of AMDP methods are themselves responsible for their security, with dual control (Code Inspections) being a useful principle here. This is partly why the use of dynamic programming techniques is strongly [discouraged](javascript:call_link\('abenamdp.htm'\)). In cases where AMDP methods do contain dynamic parts that could produce SQL injections when combined with input from outside, they must be flagged accordingly to allow the caller to implement any checks needed.
+There are currently no test tools available for checking the security of the implementation of a AMDP methods. Developers of AMDP methods are themselves responsible for their security, with dual control (Code Inspections) being a useful principle here. This is partly why the use of dynamic programming techniques is strongly [discouraged](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp.htm). In cases where AMDP methods do contain dynamic parts that could produce SQL injections when combined with input from outside, they must be flagged accordingly to allow the caller to implement any checks needed.
 
-Implementations of [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") are not currently supported by ABAP test tools, which means the caller of a method is responsible for ensuring that only non-malicious content is passed to it. If the implementation of an AMDP method contains dynamic parts into which formal parameters are injected, no input from outside can be passed to these parameters that is not checked or escaped appropriately, to avoid SQL injections.
+Implementations of [AMDP methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_method_glosry.htm "Glossary Entry") are not currently supported by ABAP test tools, which means the caller of a method is responsible for ensuring that only non-malicious content is passed to it. If the implementation of an AMDP method contains dynamic parts into which formal parameters are injected, no input from outside can be passed to these parameters that is not checked or escaped appropriately, to avoid SQL injections.
 
 Hint
 
@@ -406,7 +351,7 @@ CLASS cl\_dyn\_amdp IMPLEMENTATION.
   ENDMETHOD.
 ENDCLASS.
 
-This method uses the SQLScript statement EXEC in the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") to execute an SQL statement specified as a character string into which the input parameter seats is merged. A method like this should be classified as a potential risk, since the input parameter is not checked. If possible, an input check should be implemented in SQLScript directly before the statement EXEC is executed.
+This method uses the SQLScript statement EXEC in the [SAP HANA database](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_database_glosry.htm "Glossary Entry") to execute an SQL statement specified as a character string into which the input parameter seats is merged. A method like this should be classified as a potential risk, since the input parameter is not checked. If possible, an input check should be implemented in SQLScript directly before the statement EXEC is executed.
 
 If the method is delivered without an appropriate check and the caller wants to pass value entered outside to it, the validity of the value must be checked first. In the case in question, only integers can be passed, which can be verified using the method CHECK\_INT\_VALUE of the class CL\_ABAP\_DYN\_PRG in calls from ABAP. If not, input such as 2, seatsmax = seatsmax + 10 would be possible, which would change the column SEATSMAX and not just the column SEATSOCC.
 
@@ -432,7 +377,7 @@ CLASS cl\_dyn\_amdp IMPLEMENTATION.
   ENDMETHOD.
 ENDCLASS.
 
-This method uses the SQLScript statement APPLY\_FILTER in the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"), which sets a dynamic condition on a result set. This statement can also produce SQL injections when combined with input from outside if the input is not validated appropriately. As used in ABAP, methods of the class CL\_ABAP\_DYN\_PRG can validate this input..
+This method uses the SQLScript statement APPLY\_FILTER in the [SAP HANA database](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_database_glosry.htm "Glossary Entry"), which sets a dynamic condition on a result set. This statement can also produce SQL injections when combined with input from outside if the input is not validated appropriately. As used in ABAP, methods of the class CL\_ABAP\_DYN\_PRG can validate this input..
 
 DATA column TYPE string.
 cl\_demo\_input=>add\_field( CHANGING field = column ).
@@ -450,14 +395,7 @@ TRY.
 ENDTRY.
 
 
-
-**📖 Source**: [abensql_inj_amdp_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_amdp_scrty.htm)
-
 ### abensql_inj_os_query_scrty.htm
-
-> **📖 Official SAP Documentation**: [abensql_inj_os_query_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_os_query_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -465,18 +403,18 @@ ENDTRY.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) →  [SQL Injections](javascript:call_link\('abensql_injections_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm) →  [SQL Injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injections_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SQL%20Injections%20Using%20Object%20Services%2C%20ABENSQL_INJ_OS_QUERY_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement
 :)
 
 SQL Injections Using Object Services
 
-[Filter conditions](javascript:call_link\('abenos_query_filter_cond.htm'\)) are passed to a query as character strings in the [query service](javascript:call_link\('abenquery_service_glosry.htm'\) "Glossary Entry") in the [Object Services](javascript:call_link\('abenobject_services_glosry.htm'\) "Glossary Entry"). If a filter condition like this (or part of it) originates outside the program, the same risk of an SQL injection is incurred as when a dynamic WHERE condition is manipulated in [ABAP SQL](javascript:call_link\('abensql_inj_dyn_tokens_scrty.htm'\)). To prevent SQL injections of this nature, either parameters from a parameter list or must be used or parts escaped using the class CL\_ABAP\_DYN\_PRG.
+[Filter conditions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_filter_cond.htm) are passed to a query as character strings in the [query service](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenquery_service_glosry.htm "Glossary Entry") in the [Object Services](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_services_glosry.htm "Glossary Entry"). If a filter condition like this (or part of it) originates outside the program, the same risk of an SQL injection is incurred as when a dynamic WHERE condition is manipulated in [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_dyn_tokens_scrty.htm). To prevent SQL injections of this nature, either parameters from a parameter list or must be used or parts escaped using the class CL\_ABAP\_DYN\_PRG.
 
 Example
 
-The executable example [CL\_DEMO\_QUERY\_SERVICE](javascript:call_link\('abenos_query_abexa.htm'\)) is secure, since the interactive input is passed to the query using parameter bindings. If the source code after the statement TRY is replaced as follows, however, SQL injections are possible:
+The executable example [CL\_DEMO\_QUERY\_SERVICE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenos_query_abexa.htm) is secure, since the interactive input is passed to the query using parameter bindings. If the source code after the statement TRY is replaced as follows, however, SQL injections are possible:
 
 TRY.
     query\_manager = cl\_os\_system=>get\_query\_manager( ).
@@ -497,14 +435,7 @@ If airpfrom and airpto contain the values FRA' OR AIRPFROM <> ' and SIN' OR AIRP
                   cl\_abap\_dyn\_prg=>quote( airpto ) ).
 
 
-
-**📖 Source**: [abensql_inj_os_query_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_os_query_scrty.htm)
-
 ### abensql_inj_gen_prog_scrty.htm
-
-> **📖 Official SAP Documentation**: [abensql_inj_gen_prog_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_gen_prog_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -512,18 +443,18 @@ If airpfrom and airpto contain the values FRA' OR AIRPFROM <> ' and SIN' OR AIRP
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) →  [SQL Injections](javascript:call_link\('abensql_injections_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm) →  [SQL Injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injections_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SQL%20Injections%20Using%20Generic%20Programming%2C%20ABENSQL_INJ_GEN_PROG_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improve
 ment:)
 
 SQL Injections Using Generic Programming
 
-Generic programming is the most unsafe of all dynamic programming techniques. In principle, the [ABAP statement injections](javascript:call_link\('abengeneric_prog_scrty.htm'\)) cover all individual security risks that can occur in dynamic programming, and most significantly SQL injections. The more generic the programming, the more difficult it is to prevent SQL injections from exploiting input that originates outside the program.
+Generic programming is the most unsafe of all dynamic programming techniques. In principle, the [ABAP statement injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_prog_scrty.htm) cover all individual security risks that can occur in dynamic programming, and most significantly SQL injections. The more generic the programming, the more difficult it is to prevent SQL injections from exploiting input that originates outside the program.
 
 Example
 
-The following program section demonstrates [static embedded of Native SQL](javascript:call_link\('abennativesql.htm'\)) in a program generated using [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_subroutine_pool.htm'\)). Before [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry") was introduced, this was the only way of creating dynamic parts in [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry"). In the case in question, the input key must be escaped using the method ESCAPE\_QUOTES of the class CL\_ABAP\_DYN\_PRG to prevent SQL injections. In a more realistic example, of course, [host variables](javascript:call_link\('abapexec_host.htm'\)) would be the preferred method.
+The following program section demonstrates [static embedded of Native SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennativesql.htm) in a program generated using [GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapgenerate_subroutine_pool.htm). Before [ADBC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_glosry.htm "Glossary Entry") was introduced, this was the only way of creating dynamic parts in [Native SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennative_sql_glosry.htm "Glossary Entry"). In the case in question, the input key must be escaped using the method ESCAPE\_QUOTES of the class CL\_ABAP\_DYN\_PRG to prevent SQL injections. In a more realistic example, of course, [host variables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexec_host.htm) would be the preferred method.
 
 DATA source TYPE TABLE OF string WITH EMPTY KEY.
 source = VALUE #(
@@ -550,14 +481,7 @@ ENDIF.
 cl\_demo\_output=>display( name ).
 
 
-
-**📖 Source**: [abensql_inj_gen_prog_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_gen_prog_scrty.htm)
-
 ### abensql_injections_scrty.htm
-
-> **📖 Official SAP Documentation**: [abensql_injections_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injections_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -565,37 +489,30 @@ cl\_demo\_output=>display( name ).
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SQL%20Injections%2C%20ABENSQL_INJECTIONS_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SQL Injections
 
-An [SQL injection](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry") is a widely used attack method on insufficiently secure input from outside. An SQL injection passes malicious SQL code injected into a program to the database system, unchecked and unescaped. In ABAP, this can occur when the following programming techniques are used:
+An [SQL injection](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injection_glosry.htm "Glossary Entry") is a widely used attack method on insufficiently secure input from outside. An SQL injection passes malicious SQL code injected into a program to the database system, unchecked and unescaped. In ABAP, this can occur when the following programming techniques are used:
 
--   [Dynamically specified tokens in ABAP SQL](javascript:call_link\('abensql_inj_dyn_tokens_scrty.htm'\))
--   [SQL Injections Using Dynamic Tokens](javascript:call_link\('abensql_inj_dyn_tokens_scrty.htm'\))
--   [SQL Injections Using ADBC](javascript:call_link\('abensql_inj_adbc_scrty.htm'\))
--   [SQL Injections Using AMDP](javascript:call_link\('abensql_inj_amdp_scrty.htm'\))
--   [SQL Injections Using Object Services](javascript:call_link\('abensql_inj_os_query_scrty.htm'\))
--   [SQL Injections Using Generic Programming](javascript:call_link\('abensql_inj_gen_prog_scrty.htm'\))
+-   [Dynamically specified tokens in ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_dyn_tokens_scrty.htm)
+-   [SQL Injections Using Dynamic Tokens](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_dyn_tokens_scrty.htm)
+-   [SQL Injections Using ADBC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_adbc_scrty.htm)
+-   [SQL Injections Using AMDP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_amdp_scrty.htm)
+-   [SQL Injections Using Object Services](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_os_query_scrty.htm)
+-   [SQL Injections Using Generic Programming](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_gen_prog_scrty.htm)
 
 Continue
-[SQL Injections Using Dynamic Tokens](javascript:call_link\('abensql_inj_dyn_tokens_scrty.htm'\))
-[SQL Injections Using ADBC](javascript:call_link\('abensql_inj_adbc_scrty.htm'\))
-[SQL Injections Using AMDP](javascript:call_link\('abensql_inj_amdp_scrty.htm'\))
-[SQL Injections Using Object Services](javascript:call_link\('abensql_inj_os_query_scrty.htm'\))
-[SQL Injections Using Generic Programming](javascript:call_link\('abensql_inj_gen_prog_scrty.htm'\))
+[SQL Injections Using Dynamic Tokens](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_dyn_tokens_scrty.htm)
+[SQL Injections Using ADBC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_adbc_scrty.htm)
+[SQL Injections Using AMDP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_amdp_scrty.htm)
+[SQL Injections Using Object Services](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_os_query_scrty.htm)
+[SQL Injections Using Generic Programming](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_gen_prog_scrty.htm)
 
-
-
-**📖 Source**: [abensql_injections_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_injections_scrty.htm)
 
 ### abendyn_call_scrty.htm
-
-> **📖 Official SAP Documentation**: [abendyn_call_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_call_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -603,7 +520,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Dynamic%20Calls%2C%20ABENDYN_CALL_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -613,17 +530,17 @@ In dynamic calls, the name of the called unit is specified as the content of a c
 
 Potential dynamic calls and hence a potential security risk when handling input can occur in the following cases:
 
--   When an executable program is specified dynamically after [SUBMIT](javascript:call_link\('abapsubmit.htm'\)).
--   When a transaction is specified dynamically after [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) and [LEAVE TO TRANSACTION](javascript:call_link\('abapleave_to_transaction.htm'\)).
--   When classes and methods are specified dynamically in a dynamic method call using [CALL METHOD](javascript:call_link\('abapcall_method_dynamic.htm'\)).
--   When a class is specified dynamically in [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)) (a dynamic call of the instance constructor).
--   When the function module is specified dynamically in a function module call using [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)) (particularly if [RFC](javascript:call_link\('abenrfc_glosry.htm'\) "Glossary Entry") is used).
--   When subroutines and programs are specified dynamically in dynamic subroutine calls using [PERFORM](javascript:call_link\('abapperform.htm'\)).
--   When the system function is specified dynamically in the internal statement [CALL](javascript:call_link\('abapcall-.htm'\)).
+-   When an executable program is specified dynamically after [SUBMIT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsubmit.htm).
+-   When a transaction is specified dynamically after [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_transaction.htm) and [LEAVE TO TRANSACTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapleave_to_transaction.htm).
+-   When classes and methods are specified dynamically in a dynamic method call using [CALL METHOD](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_dynamic.htm).
+-   When a class is specified dynamically in [CREATE OBJECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object.htm) (a dynamic call of the instance constructor).
+-   When the function module is specified dynamically in a function module call using [CALL FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function.htm) (particularly if [RFC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_glosry.htm "Glossary Entry") is used).
+-   When subroutines and programs are specified dynamically in dynamic subroutine calls using [PERFORM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapperform.htm).
+-   When the system function is specified dynamically in the internal statement [CALL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall-.htm).
 
 Hint
 
-As well as checking intentional calls, it is also necessary to perform a sufficient [authorization check](javascript:call_link\('abenauthority_scrty.htm'\)) on the current user in program calls.
+As well as checking intentional calls, it is also necessary to perform a sufficient [authorization check](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenauthority_scrty.htm) on the current user in program calls.
 
 Example
 
@@ -653,14 +570,7 @@ TRY.
 ENDTRY.
 
 
-
-**📖 Source**: [abendyn_call_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_call_scrty.htm)
-
 ### abendyn_file_scrty.htm
-
-> **📖 Official SAP Documentation**: [abendyn_file_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_file_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -668,37 +578,30 @@ ENDTRY.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Directory%20Traversal%2C%20ABENDYN_FILE_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Directory Traversal
 
-Physical file names can be specified as the content of a character-like data object in the statements and system class of the [ABAP file interface](javascript:call_link\('abenfile_interface_glosry.htm'\) "Glossary Entry"). If some or all of this content originates outside of the calling program, there is a risk that files or file paths are accessed by unauthorized sources (this is known as [directory traversal](javascript:call_link\('abendirectory_traversal_glosry.htm'\) "Glossary Entry")). The following are potential security risks when using input from outside to access the ABAP file interface:
+Physical file names can be specified as the content of a character-like data object in the statements and system class of the [ABAP file interface](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfile_interface_glosry.htm "Glossary Entry"). If some or all of this content originates outside of the calling program, there is a risk that files or file paths are accessed by unauthorized sources (this is known as [directory traversal](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendirectory_traversal_glosry.htm "Glossary Entry")). The following are potential security risks when using input from outside to access the ABAP file interface:
 
--   A file name used in the statements [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) and [DELETE DATASET](javascript:call_link\('abapdelete_dataset.htm'\)) originates either partly or in full from outside the program.
+-   A file name used in the statements [OPEN DATASET](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset.htm) and [DELETE DATASET](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_dataset.htm) originates either partly or in full from outside the program.
 -   A file name passed to the method CREATE\_UTF8\_FILE\_WITH\_BOM of the system class CL\_ABAP\_FILE\_UTILITIES originates either partly or in full from outside the program.
 
-To act against this security risk, [the file names must be validated](javascript:call_link\('abendataset_auth_self.htm'\)). This can be a self-programmed validation or the function module FILE\_VALIDATE\_NAME can be used. This function module checks whether a physical file name matches a [logical file name](javascript:call_link\('abenlogical_filename_glosry.htm'\) "Glossary Entry") or whether it is a valid directory. One prerequisite is that the matching file names or logical paths were created using the transactions FILE or SF01.
+To act against this security risk, [the file names must be validated](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendataset_auth_self.htm). This can be a self-programmed validation or the function module FILE\_VALIDATE\_NAME can be used. This function module checks whether a physical file name matches a [logical file name](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogical_filename_glosry.htm "Glossary Entry") or whether it is a valid directory. One prerequisite is that the matching file names or logical paths were created using the transactions FILE or SF01.
 
 Hints
 
 -   If a program uses logical file names exclusively, instead of physical file names, the physical file names or paths required by the statements are constructed using the function module FILE\_GET\_NAME only. In this case, validation is not usually necessary.
--   Alongside the validation of file names, adequate checks should be made on the [authorizations for file access](javascript:call_link\('abendataset_auth.htm'\)).
+-   Alongside the validation of file names, adequate checks should be made on the [authorizations for file access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendataset_auth.htm).
 
 Example
 
-See the examples under [Validating File Names](javascript:call_link\('abendataset_auth_self.htm'\)).
+See the examples under [Validating File Names](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendataset_auth_self.htm).
 
-
-
-**📖 Source**: [abendyn_file_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_file_scrty.htm)
 
 ### abensys_comm_injections_scrty.htm
-
-> **📖 Official SAP Documentation**: [abensys_comm_injections_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensys_comm_injections_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -706,30 +609,30 @@ See the examples under [Validating File Names](javascript:call_link\('abendatase
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20System%20Command%20Injections%2C%20ABENSYS_COMM_INJECTIONS_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 System Command Injections
 
-A [system command injection](javascript:call_link\('abensyst_comm_injection_glosry.htm'\) "Glossary Entry") is a attack method that can result from insufficiently secure input from outside. A system command injection forwards malicious [operating system statements](javascript:call_link\('abenabap_system_commands.htm'\)), which enter a program from an external source, to the operating system. In ABAP, this can occur when the following programming techniques are used:
+A [system command injection](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensyst_comm_injection_glosry.htm "Glossary Entry") is a attack method that can result from insufficiently secure input from outside. A system command injection forwards malicious [operating system statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands.htm), which enter a program from an external source, to the operating system. In ABAP, this can occur when the following programming techniques are used:
 
 -   In the application layer
-    -   Input forwarded from an external source to the parameters of the function modules used to call operating system statements using the [SXPG framework](javascript:call_link\('abenabap_system_commands_appl_sxpg.htm'\))
-    -   When the addition [FILTER](javascript:call_link\('abapopen_dataset_os_addition.htm'\)) of the statement [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) is used and some or all of the specified operating system statement originates from outside the program.
-    -   Using the internal statement [CALL](javascript:call_link\('abapcall-.htm'\)) for the special system function SYSTEM if part of the specified operating system statement or some or all of its parameters come from outside the program.
+    -   Input forwarded from an external source to the parameters of the function modules used to call operating system statements using the [SXPG framework](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm)
+    -   When the addition [FILTER](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset_os_addition.htm) of the statement [OPEN DATASET](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_dataset.htm) is used and some or all of the specified operating system statement originates from outside the program.
+    -   Using the internal statement [CALL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall-.htm) for the special system function SYSTEM if part of the specified operating system statement or some or all of its parameters come from outside the program.
 -   In the presentation layer
     -   Input forwarded from an external source to the parameters of the method, the class, or the function module.
 
-The [SXPG framework](javascript:call_link\('abenabap_system_commands_appl_sxpg.htm'\)) is the only recommended method for executing operating system statements from the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the current AS instance in ABAP. Here, only predefined logical command names can be passed to function modules in the function pool SXPG, so enabling a certain amount of independence from the operating system in question. These predefined logical command names comprise an include list, preventing both unwanted operating system statements from being executed and also direct system command injections. When the statement is called, authorization checks and other checks take place. If further parameters can be passed to the function modules, they can be checked for unwanted code relatively easily.
+The [SXPG framework](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm) is the only recommended method for executing operating system statements from the [host computer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the current AS instance in ABAP. Here, only predefined logical command names can be passed to function modules in the function pool SXPG, so enabling a certain amount of independence from the operating system in question. These predefined logical command names comprise an include list, preventing both unwanted operating system statements from being executed and also direct system command injections. When the statement is called, authorization checks and other checks take place. If further parameters can be passed to the function modules, they can be checked for unwanted code relatively easily.
 
-The two other ways of executing operating system statements from the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the current AS instance are not at all secure (even with no external input) and should be avoided in ABAP programs. Calls of the SYSTEM function using internal statements should be especially avoided and can and should be deactivated using the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") rdisp/call\_system. External statements or parts of external statements should never be passed to the operating system without being checked first. Checking and filtering user input when using FILTER or CALL 'SYSTEM' is, however, particularly difficult, since all possible operating systems and code pages must be covered.
+The two other ways of executing operating system statements from the [host computer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the current AS instance are not at all secure (even with no external input) and should be avoided in ABAP programs. Calls of the SYSTEM function using internal statements should be especially avoided and can and should be deactivated using the [profile parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") rdisp/call\_system. External statements or parts of external statements should never be passed to the operating system without being checked first. Checking and filtering user input when using FILTER or CALL 'SYSTEM' is, however, particularly difficult, since all possible operating systems and code pages must be covered.
 
 In principle, all input from outside must be checked if passed to the parameters of SXPG framework function modules and to parameters of the method or function module used to execute operating system statements on the presentation server. This prevents unwanted effects from operating system statements.
 
 Example
 
-In the following program section, the operating system statement ping of the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the current AS instance is executed for a database server using the unwanted system function SYSTEM. If this function has been deactivated (using the profile parameter rdisp/call\_system), a runtime error occurs. The number of pings and the database server can be set externally. The program can be manipulated by two attacks:
+In the following program section, the operating system statement ping of the [host computer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the current AS instance is executed for a database server using the unwanted system function SYSTEM. If this function has been deactivated (using the profile parameter rdisp/call\_system), a runtime error occurs. The number of pings and the database server can be set externally. The program can be manipulated by two attacks:
 
 -   The number of pings is unlimited, which means that Denial of Service attack can take place.
 -   The input field DBSERVER for the database server, whose default is the current database server, is at risk from system command injections. If, for example, the string ; ls -l /etc is appended to the name of the database server in a Unix operating system, the operating system statement ls is executed after the pings and the content of the directory /etc is produced.
@@ -760,7 +663,7 @@ Example
 In the following program section, the unwanted use of the system function SYSTEM is replaced by calling the function module SXPG\_CALL\_SYSTEM for the logical command name PING predefined by SAP. The function module call only shows some of the possible exceptions.
 
 -   Denial of Service attacks are prevented by limiting the number of pings to a maximum of 10.
--   The system command injections shown above are not possible, since the [SXPG framework](javascript:call_link\('abenabap_system_commands_appl_sxpg.htm'\)) input is detected as invalid parameter passing to ping.
+-   The system command injections shown above are not possible, since the [SXPG framework](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_system_commands_appl_sxpg.htm) input is detected as invalid parameter passing to ping.
 
 DATA dbserver TYPE c LENGTH 255.
 CALL 'C\_SAPGPARAM' ID 'NAME'  FIELD 'SAPDBHOST'
@@ -795,14 +698,7 @@ ENDIF.
 The example above can itself be improved by using a user-defined logical command name instead of the predefined logical command name PING. For each operating system used, this command name gives the ping statement a specific path, such as /bin/ping for Linux or c:\\Windows\\System32\\ping.exe for MS Windows. This calls the specified statement precisely and any attacker is unable to smuggle a statement with the same name (but with the wrong function) into a directory in front of the required target directory in the environment variable for the path.
 
 
-
-**📖 Source**: [abensys_comm_injections_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensys_comm_injections_scrty.htm)
-
 ### abenxss_scrty.htm
-
-> **📖 Official SAP Documentation**: [abenxss_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxss_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -810,37 +706,27 @@ The example above can itself be improved by using a user-defined logical command
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Cross%20Site%20Scripting%2C%20ABENXSS_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Cross Site Scripting
 
-Cross site scripting ([XSS](javascript:call_link\('abenxss_glosry.htm'\) "Glossary Entry")) is a way of attacking a Web server using a Web application, for example using a manipulated HTML page displayed in a browser. Cross site scripting is a wide-ranging topic that cannot be covered in full here and ABAP application developers are not usually concerned with creating Web pages directly. These pages are normally wrapped in frameworks such as SAPUI5, Web Dynpro or Web Services and these frameworks are responsible for the necessary security.
+Cross site scripting ([XSS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxss_glosry.htm "Glossary Entry")) is a way of attacking a Web server using a Web application, for example using a manipulated HTML page displayed in a browser. Cross site scripting is a wide-ranging topic that cannot be covered in full here and ABAP application developers are not usually concerned with creating Web pages directly. These pages are normally wrapped in frameworks such as SAPUI5, Web Dynpro or Web Services and these frameworks are responsible for the necessary security.
 
-An ABAP program is itself responsible for security only in the very rare cases where it is not part of one of these frameworks and generates HTML pages itself, for example directly using [Internet Communication Framework](javascript:call_link\('abeninternet_con_fra_glosry.htm'\) "Glossary Entry") (transaction SICF). The built-in function [escape](javascript:call_link\('abenescape_functions.htm'\)) is most often used to do this. Other escape methods, such as the classes CL\_HTTP\_UTILITY, CL\_HTTP\_SERVER, and CL\_HTTP\_CLIENT are obsolete and should no longer be used.
+An ABAP program is itself responsible for security only in the very rare cases where it is not part of one of these frameworks and generates HTML pages itself, for example directly using [Internet Communication Framework](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternet_con_fra_glosry.htm "Glossary Entry") (transaction SICF). The built-in function [escape](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenescape_functions.htm) is most often used to do this. Other escape methods, such as the classes CL\_HTTP\_UTILITY, CL\_HTTP\_SERVER, and CL\_HTTP\_CLIENT are obsolete and should no longer be used.
 
 Hint
 
-[Business Server Pages](javascript:call_link\('abenbusiness_server_pages_glosry.htm'\) "Glossary Entry") (BSP) are an exception to the rule above: When Business Server Pages are created, ABAP application developers can also be faced with HTML pages and must take the appropriate security precautions. More specifically, the attribute <htmlb:content forceEncode="ENABLED"> must be set in the HTMLB Library and obsolete values such as CLASSIC or DESIGN2002 can no longer be specified in the attribute design.
+[Business Server Pages](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbusiness_server_pages_glosry.htm "Glossary Entry") (BSP) are an exception to the rule above: When Business Server Pages are created, ABAP application developers can also be faced with HTML pages and must take the appropriate security precautions. More specifically, the attribute <htmlb:content forceEncode="ENABLED"> must be set in the HTMLB Library and obsolete values such as CLASSIC or DESIGN2002 can no longer be specified in the attribute design.
 
 Executable Examples
 
--   The example [String Functions, escape for XSS](javascript:call_link\('abenstring_function_esc_xss_abexa.htm'\)) demonstrates simple cross site scripting possible when input is not escaped and is used on a generated HTML page.
--   In the [ICF Services](javascript:call_link\('abenicf_service_abexa.htm'\)) example, the class CL\_HTTP\_EXT\_SERVICE\_DEMO uses the built-in function [escape](javascript:call_link\('abenescape_functions.htm'\)) to prevent cross site scripting.
+-   The example [String Functions, escape for XSS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_function_esc_xss_abexa.htm) demonstrates simple cross site scripting possible when input is not escaped and is used on a generated HTML page.
+-   In the [ICF Services](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenicf_service_abexa.htm) example, the class CL\_HTTP\_EXT\_SERVICE\_DEMO uses the built-in function [escape](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenescape_functions.htm) to prevent cross site scripting.
 
-
-
-**📖 Source**: [abenxss_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxss_scrty.htm)
 
 ### abengeneric_prog_scrty.htm
-
-> **📖 Official SAP Documentation**: [abengeneric_prog_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_prog_scrty.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abengeneric_prog_scrty.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneric_prog_scrty.htm)
-
 
   
 
@@ -848,27 +734,27 @@ Executable Examples
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_programming_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Command%20Injections%2C%20ABENGENERIC_PROG_SCRTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ABAP Command Injections
 
-[ABAP command injections](javascript:call_link\('abenabap_comm_injection_glosry.htm'\) "Glossary Entry"), the injection of malicious ABAP code into programs, is a potential risk in generic programming. The most important statements in generic programming are
+[ABAP command injections](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_comm_injection_glosry.htm "Glossary Entry"), the injection of malicious ABAP code into programs, is a potential risk in generic programming. The most important statements in generic programming are
 
--   [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_subroutine_pool.htm'\))
--   [INSERT REPORT](javascript:call_link\('abapinsert_report.htm'\))
+-   [GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapgenerate_subroutine_pool.htm)
+-   [INSERT REPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinsert_report.htm)
 
 Both of these statements can be used to create executable ABAP code, some or all of which can originate outside of the program. Careful checks must be made on those parts of programs created in this way that originate from outside of the program. The greater the number of these parts, the more difficult this is. For this reason, it is recommended that all other dynamic programming techniques are tried before resorting to program generation. If it is absolutely necessary to use program generation, the dynamic parts of programs should be kept as few as possible. Persistently saved forms are useful here, in which only placeholders are replaced by dynamic parts and which can otherwise be checked statically. If the content for the placeholders of the forms originate outside the program, they must be checked in accordance with how they are used in the form.
 
 Hints
 
--   In principle, the ABAP command injections cover all individual security risks listed here. Generic programs containing fully dynamic statements are susceptible to potential injections. See, for example, [SQL Injections Using Generic Programming](javascript:call_link\('abensql_inj_gen_prog_scrty.htm'\)).
--   The [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") abap/dyn\_abap\_log can be used to activate logging of all dynamic source code changes using [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_subroutine_pool.htm'\)) [INSERT REPORT](javascript:call_link\('abapinsert_report.htm'\)), and [DELETE REPORT](javascript:call_link\('abapdelete_report.htm'\)). The database table DYNABAPHDR then contains the associated events, which can be evaluated using the program RDYNABAP\_SHOW. The generic programming statements are also used by the development tools, which means logging of this kind is useful only in non-development systems.
+-   In principle, the ABAP command injections cover all individual security risks listed here. Generic programs containing fully dynamic statements are susceptible to potential injections. See, for example, [SQL Injections Using Generic Programming](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_gen_prog_scrty.htm).
+-   The [profile parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") abap/dyn\_abap\_log can be used to activate logging of all dynamic source code changes using [GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapgenerate_subroutine_pool.htm) [INSERT REPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinsert_report.htm), and [DELETE REPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_report.htm). The database table DYNABAPHDR then contains the associated events, which can be evaluated using the program RDYNABAP\_SHOW. The generic programming statements are also used by the development tools, which means logging of this kind is useful only in non-development systems.
 
 Example
 
-The following program is a perfect example of a worst case scenario. Every user with authorization for this program can enter and execute source code at will. The minimum action that must be taken is to check the development authorization of the current user (see the example for [authorizations](javascript:call_link\('abenauthority_scrty.htm'\))). Another option is to check whether the system in question is a development or production system. Checking entered program code, on the other hand, is very difficult, particularly if the entire program is modifiable (as here) and not just a single line in a pattern.
+The following program is a perfect example of a worst case scenario. Every user with authorization for this program can enter and execute source code at will. The minimum action that must be taken is to check the development authorization of the current user (see the example for [authorizations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenauthority_scrty.htm)). Another option is to check whether the system in question is a development or production system. Checking entered program code, on the other hand, is very difficult, particularly if the entire program is modifiable (as here) and not just a single line in a pattern.
 
 TYPES prog TYPE TABLE OF string WITH EMPTY KEY.
 DATA(text) = concat\_lines\_of( VALUE prog(

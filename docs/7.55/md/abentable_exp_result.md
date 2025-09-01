@@ -4,15 +4,15 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Expressions and Functions](javascript:call_link\('abentable_processing_expr_func.htm'\)) →  [itab - Table Expressions (table\_exp)](javascript:call_link\('abentable_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab.htm) →  [itab - Expressions and Functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_processing_expr_func.htm) →  [itab - Table Expressions (table\_exp)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_expressions.htm) → 
 
 table\_exp - Result
 
 Syntax
 
-... *{*             itab\[ [itab\_line](javascript:call_link\('abentable_exp_itab_line.htm'\)) \][*\[*...*\]*](javascript:call_link\('abentable_exp_chaining.htm'\)) *}*
-  *|* *{* VALUE type( itab\[ [itab\_line](javascript:call_link\('abentable_exp_itab_line.htm'\)) \][*\[*...*\]*](javascript:call_link\('abentable_exp_chaining.htm'\)) *\[* [default](javascript:call_link\('abentable_exp_optional_default.htm'\))*\]* ) *}*
-  *|* *{* REF   type( itab\[ [itab\_line](javascript:call_link\('abentable_exp_itab_line.htm'\)) \][*\[*...*\]*](javascript:call_link\('abentable_exp_chaining.htm'\)) *\[* [default](javascript:call_link\('abentable_exp_optional_default.htm'\))*\]*  ) *}* ...
+... *{*             itab\[ [itab\_line](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_itab_line.htm) \][*\[*...*\]*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm) *}*
+  *|* *{* VALUE type( itab\[ [itab\_line](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_itab_line.htm) \][*\[*...*\]*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm) *\[* [default](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_optional_default.htm)*\]* ) *}*
+  *|* *{* REF   type( itab\[ [itab\_line](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_itab_line.htm) \][*\[*...*\]*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm) *\[* [default](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_optional_default.htm)*\]*  ) *}* ...
 
 Alternatives:
 
@@ -22,17 +22,17 @@ Alternatives:
 
 Effect
 
-If a [table expression](javascript:call_link\('abentable_expressions.htm'\)) is specified in a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") or in a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry"), the read line can be passed to this position in three different ways:
+If a [table expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_expressions.htm) is specified in a [general expression position](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") or in a [functional operand position](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunctional_position_glosry.htm "Glossary Entry"), the read line can be passed to this position in three different ways:
 
--   As a [field symbol](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") to which the table line is assigned.
+-   As a [field symbol](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield_symbol_glosry.htm "Glossary Entry") to which the table line is assigned.
 
--   As a [work area](javascript:call_link\('abenwork_area_glosry.htm'\) "Glossary Entry") that contains the content of the table line.
+-   As a [work area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwork_area_glosry.htm "Glossary Entry") that contains the content of the table line.
 
--   As a [data reference variable](javascript:call_link\('abendata_reference_variable_glosry.htm'\) "Glossary Entry") that points to the table line.
+-   As a [data reference variable](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_reference_variable_glosry.htm "Glossary Entry") that points to the table line.
 
 The result of a table expression is only available temporarily. It is used as an operand of a statement and then deleted again. It is deleted when the current statement is closed or after the evaluation of a relational expression once the truth value is determined.
 
-The ways of how a table expression is specified shown here determine how the table line is returned. A default value [default](javascript:call_link\('abentable_exp_optional_default.htm'\)) can be specified for the result in two alternatives.
+The ways of how a table expression is specified shown here determine how the table line is returned. A default value [default](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_optional_default.htm) can be specified for the result in two alternatives.
 
 Alternative 1
 
@@ -44,39 +44,39 @@ Alternative 2
 
 Effect
 
-Both alternatives can be specified in all read positions for table expressions in which the line type matches the operand type (see also [Chainings](javascript:call_link\('abentable_exp_chaining.htm'\))). The result is either a temporary field symbol, a temporary work area, or the value is assigned directly to a target variable. If the value operator VALUE is used, an optional default value [default](javascript:call_link\('abentable_exp_optional_default.htm'\)) can be specified for cases where no table line is found.
+Both alternatives can be specified in all read positions for table expressions in which the line type matches the operand type (see also [Chainings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm)). The result is either a temporary field symbol, a temporary work area, or the value is assigned directly to a target variable. If the value operator VALUE is used, an optional default value [default](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_optional_default.htm) can be specified for cases where no table line is found.
 
--   If the table expression is not specified as an operand of the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) or of the reference operator [REF](javascript:call_link\('abenconstructor_expression_ref.htm'\)), the result is usually a temporary field symbol typed with the line type of the internal table and to which the table line found is assigned. For performance reasons, there are exceptions to this rule in the following cases:
+-   If the table expression is not specified as an operand of the value operator [VALUE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_value.htm) or of the reference operator [REF](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_ref.htm), the result is usually a temporary field symbol typed with the line type of the internal table and to which the table line found is assigned. For performance reasons, there are exceptions to this rule in the following cases:
 
--   If the table expression is specified as the right side of an [assignment](javascript:call_link\('abenequals_operator.htm'\)), the content of the table line or a [component](javascript:call_link\('abentable_exp_chaining.htm'\)) is assigned directly to the target variable instead of a temporary result being produced.
+-   If the table expression is specified as the right side of an [assignment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenequals_operator.htm), the content of the table line or a [component](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm) is assigned directly to the target variable instead of a temporary result being produced.
 
 -   If the line type of the internal table is flat and narrow and used directly in the operand position, for example as an operand of an arithmetic expression or as a formal parameter for an actual parameter where pass by value is declared, the result is a temporary work area.
 
--   If the table expression is specified as an operand of the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)), the result is always a temporary work area, unless the expression is specified as the right side of an [assignment](javascript:call_link\('abenequals_operator.htm'\)). The data type of the work area is determined by specifying [type](javascript:call_link\('abenconstructor_expression_value.htm'\)) for the constructor expression:
+-   If the table expression is specified as an operand of the value operator [VALUE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_value.htm), the result is always a temporary work area, unless the expression is specified as the right side of an [assignment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenequals_operator.htm). The data type of the work area is determined by specifying [type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_value.htm) for the constructor expression:
 
--   If the # character is specified for type and the data type required in an operand position is known uniquely and completely, the operand type is used. Otherwise the line type of the internal table or of a [chaining](javascript:call_link\('abentable_exp_chaining.htm'\)) specified here is applied.
+-   If the # character is specified for type and the data type required in an operand position is known uniquely and completely, the operand type is used. Otherwise the line type of the internal table or of a [chaining](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm) specified here is applied.
 
--   If a non-generic data type dtype is specified for type, the line type of the internal table must be compatible with this data type or be convertible to this data type. In this case, the temporary work area has the data type dtype and the data of the line found is converted to this data type, if necessary, in accordance with the [conversion rules](javascript:call_link\('abenconversion_rule_glosry.htm'\) "Glossary Entry").
+-   If a non-generic data type dtype is specified for type, the line type of the internal table must be compatible with this data type or be convertible to this data type. In this case, the temporary work area has the data type dtype and the data of the line found is converted to this data type, if necessary, in accordance with the [conversion rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_rule_glosry.htm "Glossary Entry").
 
-If the expression is specified as the right side of an [assignment](javascript:call_link\('abenequals_operator.htm'\)), the content of the table line or [component](javascript:call_link\('abentable_exp_chaining.htm'\)) is also assigned directly when using VALUE.
+If the expression is specified as the right side of an [assignment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenequals_operator.htm), the content of the table line or [component](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm) is also assigned directly when using VALUE.
 
 In most cases, it is transparent and irrelevant, whether the result exists as a field symbol or as a work area. In some cases, however, performance reasons or to avoid side effects, it may be beneficial if the standard behavior is suspended and data is written explicitly to a temporary work area instead.
 
--   For notes about performance, see the programming guideline [Output Behavior](javascript:call_link\('abentable_output_guidl.htm'\) "Guideline"). This guideline should also be respected when using table expressions. In the [extended program checks](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry"), a syntax check warning, that can be hidden by a pragma occurs if the rule appears to be violated.
+-   For notes about performance, see the programming guideline [Output Behavior](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_output_guidl.htm "Guideline"). This guideline should also be respected when using table expressions. In the [extended program checks](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenextended_program_check_glosry.htm "Glossary Entry"), a syntax check warning, that can be hidden by a pragma occurs if the rule appears to be violated.
 
 -   Side effects can occur if the line of the internal table to which the temporary field symbol points is modified while the binding to the field symbol persists.
 
 Hints
 
--   A table expression whose result is a temporary field symbol can be viewed as a short form of the statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) with the addition [ASSIGNING](javascript:call_link\('abapread_table_outdesc.htm'\)) and a table expression whose result is a temporary work area can be viewed as a short form of this statement with the addition [INTO](javascript:call_link\('abapread_table_outdesc.htm'\)). The corresponding rules and notes apply.
+-   A table expression whose result is a temporary field symbol can be viewed as a short form of the statement [READ TABLE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table.htm) with the addition [ASSIGNING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_outdesc.htm) and a table expression whose result is a temporary work area can be viewed as a short form of this statement with the addition [INTO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_outdesc.htm). The corresponding rules and notes apply.
 
--   More specifically, [restrictions](javascript:call_link\('abapread_table_outdesc.htm'\)) regarding the modification of key fields must be respected in writing positions in the case of table expressions whose result is a temporary field symbol.
+-   More specifically, [restrictions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_outdesc.htm) regarding the modification of key fields must be respected in writing positions in the case of table expressions whose result is a temporary field symbol.
 
 -   In variant 1, the compilation decides whether the result is a field symbol or a work area, not the table content at runtime.
 
--   [Chainings](javascript:call_link\('abentable_exp_chaining.htm'\)) of table expressions can also be specified as an argument of the value operator VALUE. This argument then controls the final result of the chaining.
+-   [Chainings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm) of table expressions can also be specified as an argument of the value operator VALUE. This argument then controls the final result of the chaining.
 
--   Unlike when using the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) for constructing values, elementary types or reference types can also be specified for table expressions for type.
+-   Unlike when using the value operator [VALUE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_value.htm) for constructing values, elementary types or reference types can also be specified for table expressions for type.
 
 Example
 
@@ -123,7 +123,7 @@ START-OF-SELECTION.
 
 Executable Example
 
-[Table Expressions, Side Effects](javascript:call_link\('abentable_exp_side_effect_abexa.htm'\))
+[Table Expressions, Side Effects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_side_effect_abexa.htm)
 
 Alternative 3
 
@@ -131,29 +131,29 @@ Alternative 3
 
 Effect
 
-This alternative can be specified in all read positions for table expressions in which a data reference variable with a suitable type is expected. If a table expression is used as an argument of a constructor expression with the reference operator [REF](javascript:call_link\('abenconstructor_expression_ref.htm'\)), the result is a temporary data reference variable that points to the found table line. If no table line is found, an optional default value [default](javascript:call_link\('abentable_exp_optional_default.htm'\)) can be specified.
+This alternative can be specified in all read positions for table expressions in which a data reference variable with a suitable type is expected. If a table expression is used as an argument of a constructor expression with the reference operator [REF](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_ref.htm), the result is a temporary data reference variable that points to the found table line. If no table line is found, an optional default value [default](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_optional_default.htm) can be specified.
 
-The [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") of the reference variable is determined by specifying [type](javascript:call_link\('abenconstructor_expression_ref.htm'\)) for the constructor expression:
+The [static type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatic_type_glosry.htm "Glossary Entry") of the reference variable is determined by specifying [type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_ref.htm) for the constructor expression:
 
 -   If the # character is specified for type, the line type of the internal table is used as the static type.
 
--   If a non-generic data type dtype or the generic data type [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\)) is specified for type, they determine the static type of the result. A non-generic data type, dtype, must be compatible with the line type of the internal table.
+-   If a non-generic data type dtype or the generic data type [data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_types_generic.htm) is specified for type, they determine the static type of the result. A non-generic data type, dtype, must be compatible with the line type of the internal table.
 
-If the reference operator [REF](javascript:call_link\('abenconstructor_expression_ref.htm'\)) is specified in front of a [chaining](javascript:call_link\('abentable_exp_chaining.htm'\)) whose result is a component of a structured table line, it creates a reference to this component. In this case, no substring accesses [+off(len)](javascript:call_link\('abenoffset_length.htm'\)) can be specified after the component.
+If the reference operator [REF](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_ref.htm) is specified in front of a [chaining](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm) whose result is a component of a structured table line, it creates a reference to this component. In this case, no substring accesses [+off(len)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoffset_length.htm) can be specified after the component.
 
 Hints
 
--   A table expression whose result is a temporary data reference variable can be viewed as a short form of the statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) with the addition [REFERENCE INTO](javascript:call_link\('abapread_table_outdesc.htm'\)). The corresponding rules and notes apply.
+-   A table expression whose result is a temporary data reference variable can be viewed as a short form of the statement [READ TABLE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table.htm) with the addition [REFERENCE INTO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_outdesc.htm). The corresponding rules and notes apply.
 
--   More specifically, in the case of a table expression whose result is a temporary data reference variable, the [restrictions](javascript:call_link\('abapread_table_outdesc.htm'\)) on the modification of key fields are respected when dereferencing writing positions.
+-   More specifically, in the case of a table expression whose result is a temporary data reference variable, the [restrictions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_outdesc.htm) on the modification of key fields are respected when dereferencing writing positions.
 
 -   The static type of the temporary data reference variable can only be the line type of the internal table or be completely generic.
 
--   [Chainings](javascript:call_link\('abentable_exp_chaining.htm'\)) of table expressions can also be specified as an argument of the reference operator REF, which then controls the final result of the chaining.
+-   [Chainings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm) of table expressions can also be specified as an argument of the reference operator REF, which then controls the final result of the chaining.
 
 Example
 
-The following program corresponds to the example for [READ TABLE REFERENCE INTO](javascript:call_link\('abapread_table_outdesc.htm'\)), but the statement READ has been replaced by a table expression in the constructor expression REF.
+The following program corresponds to the example for [READ TABLE REFERENCE INTO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_outdesc.htm), but the statement READ has been replaced by a table expression in the constructor expression REF.
 
 DATA: carrid TYPE sflight-carrid,
       connid TYPE sflight-connid,
@@ -180,4 +180,4 @@ IF sy-subrc = 0.
 ENDIF.
 
 Continue
-![Example](exa.gif "Example") [table\_exp - Side Effects](javascript:call_link\('abentable_exp_side_effect_abexa.htm'\))
+![Example](exa.gif "Example") [table\_exp - Side Effects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_side_effect_abexa.htm)

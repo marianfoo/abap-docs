@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  A
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  A
 
 ADD, THEN, UNTIL - Short Reference
 
-[Reference](javascript:call_link\('abapadd_sequences.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapadd_sequences.htm)
 
 Syntax
 
@@ -32,6 +32,6 @@ Additions
 -   FROM ... TO
     Defines the sequence using data objects directly adjacent in the memory whose first data object is dobj and whose elements are determined using pos1 and pos.
 -   ACCORDING TO sel
-    Limits the elements of the sequence according to the conditions of a [ranges table](javascript:call_link\('abenranges_table_glosry.htm'\) "Glossary Entry").
+    Limits the elements of the sequence according to the conditions of a [ranges table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenranges_table_glosry.htm "Glossary Entry").
 -   RANGE range
     Limits the addressable memory area to a structure range.

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Screen and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) →  [Screen Elements - Examples](javascript:call_link\('abenscreen_elements_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Screen and Screen Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_screen.htm) →  [Screen Elements - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_elements_abexas.htm) → 
 
 Dynpros, Images in HTML
 
@@ -108,4 +108,4 @@ Images loaded here from the MIME repository using an API are displayed in two br
 
 -   The method main2 uses the class CL\_ABAP\_BROWSER as a wrapper for the direct use of CL\_GUI\_HTML\_VIEWER and calls of the method LOAD\_DATA. A reference, associated with the name used in the HTML page, is passed to the internal table.
 
-See also the [executable example](javascript:call_link\('abenicf_mime_pictures_abexa.htm'\)) for direct access to objects from the MIME repository using ICF.
+See also the [executable example](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenicf_mime_pictures_abexa.htm) for direct access to objects from the MIME repository using ICF.

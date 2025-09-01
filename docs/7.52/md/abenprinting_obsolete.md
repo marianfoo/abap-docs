@@ -4,17 +4,17 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) →  [Obsolete Statements in List Processing](javascript:call_link\('abenlists_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengui_obsolete.htm) →  [Obsolete Statements in List Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlists_obsolete.htm) → 
 
 Obsolete Spooling
 
--   [Obsolete spool parameters specified](javascript:call_link\('abapnew-page_print_obsolete.htm'\))
+-   [Obsolete spool parameters specified](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_print_obsolete.htm)
 
--   [NEW-SECTION](javascript:call_link\('abapnew-section.htm'\))
+-   [NEW-SECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-section.htm)
 
--   [PRINT-CONTROL - formats](javascript:call_link\('abapprint-control_obsolete.htm'\))
+-   [PRINT-CONTROL - formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprint-control_obsolete.htm)
 
 Continue
-[Obsolete Specification of Spool Parameters](javascript:call_link\('abapnew-page_print_obsolete.htm'\))
-[NEW-SECTION](javascript:call_link\('abapnew-section.htm'\))
-[PRINT-CONTROL - formats](javascript:call_link\('abapprint-control_obsolete.htm'\))
+[Obsolete Specification of Spool Parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_print_obsolete.htm)
+[NEW-SECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-section.htm)
+[PRINT-CONTROL - formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprint-control_obsolete.htm)

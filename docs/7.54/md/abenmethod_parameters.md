@@ -4,19 +4,19 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Overview](javascript:call_link\('abenabap_objects_oview.htm'\)) →  [Classes](javascript:call_link\('abenclasses.htm'\)) →  [Components of Classes](javascript:call_link\('abenclass_components.htm'\)) →  [Methods of Classes](javascript:call_link\('abenclass_methods.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Overview](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_objects_oview.htm) →  [Classes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclasses.htm) →  [Components of Classes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_components.htm) →  [Methods of Classes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_methods.htm) → 
 
 Interface Parameters in Methods
 
 The interface parameters in methods are input parameters (IMPORTING and CHANGING parameters) and output parameters (EXPORTING, CHANGING, and RETURNING parameters). Declarations using the statements
 
--   [METHODS](javascript:call_link\('abapmethods.htm'\))
+-   [METHODS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods.htm)
 
--   [CLASS-METHODS](javascript:call_link\('abapclass-methods.htm'\))
+-   [CLASS-METHODS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-methods.htm)
 
--   [EVENTS](javascript:call_link\('abapevents.htm'\))
+-   [EVENTS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapevents.htm)
 
--   [CLASS-EVENTS](javascript:call_link\('abapclass-events.htm'\))
+-   [CLASS-EVENTS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapclass-events.htm)
 
 define the following attributes:
 
@@ -26,8 +26,8 @@ With the exception of the return value (RETURNING parameters), parameters can be
 
 Typing of Parameters
 
-All parameters must be [typed](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") when declared using TYPE or LIKE additions.
+All parameters must be [typed](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_glosry.htm "Glossary Entry") when declared using TYPE or LIKE additions.
 
 Optional Parameters
 
-All input parameters (IMPORTING and CHANGING parameters) can be defined in the declaration as optional parameters using the additions OPTIONAL or DEFAULT. These parameters are then not always mandatory when the method is called. The parameter remains initial and type-friendly when the addition OPTIONAL is specified, whereas the addition DEFAULT makes it possible to specify a [start value](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry").
+All input parameters (IMPORTING and CHANGING parameters) can be defined in the declaration as optional parameters using the additions OPTIONAL or DEFAULT. These parameters are then not always mandatory when the method is called. The parameter remains initial and type-friendly when the addition OPTIONAL is specified, whereas the addition DEFAULT makes it possible to specify a [start value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstart_value_glosry.htm "Glossary Entry").

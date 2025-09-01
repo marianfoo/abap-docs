@@ -4,18 +4,18 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Executable Programs](javascript:call_link\('abenabap_submit_report.htm'\)) →  [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_call.htm) →  [Calling Executable Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_submit_report.htm) →  [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm) → 
 
 SUBMIT - list\_options
 
-[Quick Reference](javascript:call_link\('abapsubmit_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_shortref.htm)
 
 Syntax
 
 ... *\[*LINE-SIZE width*\]*
     *\[*LINE-COUNT page\_lines*\]*
     *{* *\[*EXPORTING LIST TO MEMORY*\]*
-    *|* *\[*TO SAP-SPOOL [spool\_options](javascript:call_link\('abapsubmit_print_parameters.htm'\))*\]* *}* ...
+    *|* *\[*TO SAP-SPOOL [spool\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_print_parameters.htm)*\]* *}* ...
 
 Extras:
 
@@ -28,11 +28,11 @@ Effect
 
 These additions modify the basic list in the called program. While LINE-SIZE and LINE-COUNT modify the formatting, the other two additions determine the output type of the list.
 
-EXPORTING LIST TO MEMORY saves the list to the [ABAP memory](javascript:call_link\('abenabap_memory_glosry.htm'\) "Glossary Entry") and TO SAP-SPOOL sends it to the SAP spool system as a spool list. If you do not specify these additions, the basic list is displayed as a screen list.
+EXPORTING LIST TO MEMORY saves the list to the [ABAP memory](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_memory_glosry.htm "Glossary Entry") and TO SAP-SPOOL sends it to the SAP spool system as a spool list. If you do not specify these additions, the basic list is displayed as a screen list.
 
 Note
 
-The additions only take effect the first time the called program is executed. If a [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") is displayed in the called program, the runtime environment accesses the program again after it ends, and ignores the additions list\_options. This applies in particular to the addition TO SAP-SPOOL, because the basic list is displayed as a screen list and not as a spool list when the program is accessed again. For this reason, it is not advisable to use the addition VIA SELECTION-SCREEN when using list\_options.
+The additions only take effect the first time the called program is executed. If a [selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_glosry.htm "Glossary Entry") is displayed in the called program, the runtime environment accesses the program again after it ends, and ignores the additions list\_options. This applies in particular to the addition TO SAP-SPOOL, because the basic list is displayed as a screen list and not as a spool list when the program is accessed again. For this reason, it is not advisable to use the addition VIA SELECTION-SCREEN when using list\_options.
 
 Addition 1
 
@@ -54,7 +54,7 @@ SUBMIT (name) LINE-SIZE width LINE-COUNT length AND RETURN.
 
 Executable Example
 
-[Program Calls, Modifying the Basic List](javascript:call_link\('abensubmit_list_abexa.htm'\))
+[Program Calls, Modifying the Basic List](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubmit_list_abexa.htm)
 
 Addition 3
 
@@ -106,11 +106,11 @@ Addition 4
 
 Effect
 
-If this addition is specified, a new [spool list level](javascript:call_link\('abenprint_list_level_glosry.htm'\) "Glossary Entry") is opened in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of the called program and the first output statement for the basic list of this program creates a new [spool request](javascript:call_link\('abenspool_request_glosry.htm'\) "Glossary Entry"). All list output for the called program is passed page by page to the [SAP spool system](javascript:call_link\('abensap_spool_system_glosry.htm'\) "Glossary Entry") as a [spool list](javascript:call_link\('abenprint_list_glosry.htm'\) "Glossary Entry"). The additions [spool\_options](javascript:call_link\('abapsubmit_print_parameters.htm'\)) are used to define the spool and archiving parameters for the spool request.
+If this addition is specified, a new [spool list level](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_list_level_glosry.htm "Glossary Entry") is opened in the [internal session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninternal_session_glosry.htm "Glossary Entry") of the called program and the first output statement for the basic list of this program creates a new [spool request](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenspool_request_glosry.htm "Glossary Entry"). All list output for the called program is passed page by page to the [SAP spool system](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_spool_system_glosry.htm "Glossary Entry") as a [spool list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_list_glosry.htm "Glossary Entry"). The additions [spool\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_print_parameters.htm) are used to define the spool and archiving parameters for the spool request.
 
 Note
 
-It is not possible to switch from the spool list to the screen list in the called program. The statement [NEW-PAGE PRINT OFF](javascript:call_link\('abapnew-page_print.htm'\)) does not modify a spool list level created using SUBMIT TO SAP-SPOOL.
+It is not possible to switch from the spool list to the screen list in the called program. The statement [NEW-PAGE PRINT OFF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnew-page_print.htm) does not modify a spool list level created using SUBMIT TO SAP-SPOOL.
 
 Example
 
@@ -138,5 +138,5 @@ IF valid\_flag = 'X' AND sy-subrc = 0.
 ENDIF.
 
 Continue
-[SUBMIT - spool\_options](javascript:call_link\('abapsubmit_print_parameters.htm'\))
-![Example](exa.gif "Example") [Program Calls, Modifying the Basic List](javascript:call_link\('abensubmit_list_abexa.htm'\))
+[SUBMIT - spool\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_print_parameters.htm)
+![Example](exa.gif "Example") [Program Calls, Modifying the Basic List](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubmit_list_abexa.htm)

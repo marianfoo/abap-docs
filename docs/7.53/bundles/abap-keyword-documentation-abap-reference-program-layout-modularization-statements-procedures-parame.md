@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenformal_parameters_oview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformal_parameters_oview.htm)
-- [abenprocedure_param_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocedure_param_abexa.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.231Z
-
----
-
 ### abenformal_parameters_oview.htm
-
-> **📖 Official SAP Documentation**: [abenformal_parameters_oview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformal_parameters_oview.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,34 +11,34 @@ Included pages: 2
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_modularization.htm) →  [Procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_procedures.htm) → 
 
 Parameter Interface of Procedures
 
-The parameter interface of a procedure consists of [formal parameters](javascript:call_link\('abenformal_parameter_glosry.htm'\) "Glossary Entry") and specifies the [exceptions](javascript:call_link\('abenexception_glosry.htm'\) "Glossary Entry") possible in the procedure.
+The parameter interface of a procedure consists of [formal parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformal_parameter_glosry.htm "Glossary Entry") and specifies the [exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_glosry.htm "Glossary Entry") possible in the procedure.
 
 Formal Parameters
 
-Formal parameters are [input parameters](javascript:call_link\('abeninput_parameter_glosry.htm'\) "Glossary Entry"), [output parameters](javascript:call_link\('abenoutput_parameter_glosry.htm'\) "Glossary Entry"), [input/output parameters](javascript:call_link\('abeninput_output_parameter_glosry.htm'\) "Glossary Entry"), or [return values](javascript:call_link\('abenreturn_value_glosry.htm'\) "Glossary Entry"). Several obsolete [table parameters](javascript:call_link\('abentable_parameter_glosry.htm'\) "Glossary Entry") also exist. Formal parameters are either generic or fully [typed](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry"). [Pass by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry") or [pass by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry") can be specified for most formal parameters. Pass by value is mandatory for some formal parameters.
+Formal parameters are [input parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninput_parameter_glosry.htm "Glossary Entry"), [output parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoutput_parameter_glosry.htm "Glossary Entry"), [input/output parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninput_output_parameter_glosry.htm "Glossary Entry"), or [return values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreturn_value_glosry.htm "Glossary Entry"). Several obsolete [table parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_parameter_glosry.htm "Glossary Entry") also exist. Formal parameters are either generic or fully [typed](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_glosry.htm "Glossary Entry"). [Pass by reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpass_by_reference_glosry.htm "Glossary Entry") or [pass by value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpass_by_value_glosry.htm "Glossary Entry") can be specified for most formal parameters. Pass by value is mandatory for some formal parameters.
 
 Programming Guideline
 
-[Choose the appropriate formal parameter type](javascript:call_link\('abentype_formal_param_proc_guidl.htm'\) "Guideline")
+[Choose the appropriate formal parameter type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_formal_param_proc_guidl.htm "Guideline")
 
 Exceptions
 
-In all procedures ([methods](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry"), [function modules](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry")
-, and [subroutines](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry") ) [class-based exceptions](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry") can be declared using RAISING, which and can then be [propagated from the procedure](javascript:call_link\('abenexceptions_procedures.htm'\)). EXCEPTIONS can also be used in methods and function modules to define non-class-based exceptions, which can then be triggered in the procedure using [RAISE](javascript:call_link\('abapraise_exception.htm'\)) or [MESSAGE ... RAISING](javascript:call_link\('abapmessage_raising.htm'\)).
+In all procedures ([methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_glosry.htm "Glossary Entry"), [function modules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_module_glosry.htm "Glossary Entry")
+, and [subroutines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubroutine_glosry.htm "Glossary Entry") ) [class-based exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_based_exception_glosry.htm "Glossary Entry") can be declared using RAISING, which and can then be [propagated from the procedure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexceptions_procedures.htm). EXCEPTIONS can also be used in methods and function modules to define non-class-based exceptions, which can then be triggered in the procedure using [RAISE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_exception.htm) or [MESSAGE ... RAISING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage_raising.htm).
 
 Pass by Reference or Pass by Value
 
 When deciding whether to use pass by reference or pass by value for a formal parameter, you must compare the performance and robustness of each transfer type.
 
-In ABAP, pass by reference always leads to better performance since no local data object has to be stored and no data transport is necessary when the procedure is called. Therefore, for performance reasons, pass by reference is usually preferable, unless explicit or implicit write access exists to an input parameter in the procedure or you want to ensure that an input/output parameter or an output parameter is returned only if the procedure ends without any errors. In such cases, pass by value is mandatory, to make sure that the assigned [actual parameter](javascript:call_link\('abenactual_parameter_glosry.htm'\) "Glossary Entry") is not modified simultaneously in the caller when writes are made to a formal parameter. For performance reasons, only parameters of 100 bytes or less should be passed in these cases, whenever possible.
+In ABAP, pass by reference always leads to better performance since no local data object has to be stored and no data transport is necessary when the procedure is called. Therefore, for performance reasons, pass by reference is usually preferable, unless explicit or implicit write access exists to an input parameter in the procedure or you want to ensure that an input/output parameter or an output parameter is returned only if the procedure ends without any errors. In such cases, pass by value is mandatory, to make sure that the assigned [actual parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenactual_parameter_glosry.htm "Glossary Entry") is not modified simultaneously in the caller when writes are made to a formal parameter. For performance reasons, only parameters of 100 bytes or less should be passed in these cases, whenever possible.
 
 Also note the following when using pass by reference:
 
--   In [subroutines](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry"), writes can be made to an input parameter defined using USING without a syntax error being produced (as is the case with input parameters of methods or function modules defined using IMPORTING).
+-   In [subroutines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubroutine_glosry.htm "Glossary Entry"), writes can be made to an input parameter defined using USING without a syntax error being produced (as is the case with input parameters of methods or function modules defined using IMPORTING).
 
 -   An output parameter that is passed by reference acts like an input/ output parameter; in other words, if read access to an output parameter exists in the procedure before the value of that parameter is changed, this value is not initial, unlike with pass by value, but is the same as the current value of the actual parameter in the caller.
 
@@ -69,21 +50,21 @@ To summarize, pass by reference is always preferable when performance is an issu
 
 Programming Guideline
 
-[Choose a suitable pass-by type](javascript:call_link\('abentype_transf_formal_para_guidl.htm'\) "Guideline")
+[Choose a suitable pass-by type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_transf_formal_para_guidl.htm "Guideline")
 
 Notes
 
--   When strings or internal tables of the same type are passed by value, [table sharing](javascript:call_link\('abensharing_glosry.htm'\) "Glossary Entry") comes into force between the data object created locally and the data object passed, as in [assignments](javascript:call_link\('abenassignment_glosry.htm'\) "Glossary Entry"). However, [table sharing](javascript:call_link\('abentable_sharing_glosry.htm'\) "Glossary Entry") only happens if the row type of the internal table permits it. This means that, when you pass strings and internal tables, the performance benefits of pass by reference over pass by value may be negated by sharing (in certain circumstances).
+-   When strings or internal tables of the same type are passed by value, [table sharing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensharing_glosry.htm "Glossary Entry") comes into force between the data object created locally and the data object passed, as in [assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassignment_glosry.htm "Glossary Entry"). However, [table sharing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_sharing_glosry.htm "Glossary Entry") only happens if the row type of the internal table permits it. This means that, when you pass strings and internal tables, the performance benefits of pass by reference over pass by value may be negated by sharing (in certain circumstances).
 
--   Only pass by reference can be specified for the obsolete [table parameters](javascript:call_link\('abentable_parameter_glosry.htm'\) "Glossary Entry").
+-   Only pass by reference can be specified for the obsolete [table parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_parameter_glosry.htm "Glossary Entry").
 
--   Pass by value is mandatory for the [return value](javascript:call_link\('abenreturn_value_glosry.htm'\) "Glossary Entry") of [functional methods](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry"), the output parameters of [events](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry") in ABAP Objects, and all formal parameters of [RFC](javascript:call_link\('abenrfc_glosry.htm'\) "Glossary Entry")\-enabled function modules and [update function modules](javascript:call_link\('abenupdate_function_module_glosry.htm'\) "Glossary Entry") (pass by value is also used implicitly with table parameters).
+-   Pass by value is mandatory for the [return value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreturn_value_glosry.htm "Glossary Entry") of [functional methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunctional_method_glosry.htm "Glossary Entry"), the output parameters of [events](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevent_glosry.htm "Glossary Entry") in ABAP Objects, and all formal parameters of [RFC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_glosry.htm "Glossary Entry")\-enabled function modules and [update function modules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenupdate_function_module_glosry.htm "Glossary Entry") (pass by value is also used implicitly with table parameters).
 
 -   A local data object is generated for formal parameters passed by reference that are not bound to an actual parameter during the call (as for pass by value).
 
--   There are special rules for defining [literals](javascript:call_link\('abentyping_literals.htm'\)) and [functions and expressions as actual parameters](javascript:call_link\('abentyping_arith_expr.htm'\)).
+-   There are special rules for defining [literals](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_literals.htm) and [functions and expressions as actual parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_arith_expr.htm).
 
--   The result of the [typing check](javascript:call_link\('abentyping_check.htm'\)) when passing actual parameters to formal parameters is independent of the pass type. In a [pass by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry"), the check for [pass by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry") is always carried out, even though this is stricter than necessary in individual cases. For example, a special reference variable cannot be passed to a general typed CHANGING parameter, even if pass by value is defined for this parameter.
+-   The result of the [typing check](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_check.htm) when passing actual parameters to formal parameters is independent of the pass type. In a [pass by value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpass_by_value_glosry.htm "Glossary Entry"), the check for [pass by reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpass_by_reference_glosry.htm "Glossary Entry") is always carried out, even though this is stricter than necessary in individual cases. For example, a special reference variable cannot be passed to a general typed CHANGING parameter, even if pass by value is defined for this parameter.
 
 Example
 
@@ -116,20 +97,10 @@ START-OF-SELECTION.
   ENDTRY.
 
 Continue
-![Example](exa.gif "Example") [Pass by Parameter](javascript:call_link\('abenprocedure_param_abexa.htm'\))
+![Example](exa.gif "Example") [Pass by Parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocedure_param_abexa.htm)
 
-
-
-**📖 Source**: [abenformal_parameters_oview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformal_parameters_oview.htm)
 
 ### abenprocedure_param_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenprocedure_param_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocedure_param_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenprocedure_param_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocedure_param_abexa.htm)
-
 
   
 
@@ -137,7 +108,7 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) →  [Parameter Interface of Procedures](javascript:call_link\('abenformal_parameters_oview.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_modularization.htm) →  [Procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_procedures.htm) →  [Parameter Interface of Procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformal_parameters_oview.htm) → 
 
 Pass by Parameter
 

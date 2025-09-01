@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  S
 
 string\_exp - Short Reference
 
-[Reference](javascript:call_link\('abapcompute_string.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_string.htm)
 
 Syntax
 
@@ -21,7 +21,7 @@ String expression for creating a character string
 
 Additions
 
--   [string\_template](javascript:call_link\('abenstring_templates.htm'\))
+-   [string\_template](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_templates.htm)
     String template that represents a character string
--   [&&](javascript:call_link\('abenstring_operators.htm'\))
+-   [&&](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_operators.htm)
     String operator for concatenating two character strings

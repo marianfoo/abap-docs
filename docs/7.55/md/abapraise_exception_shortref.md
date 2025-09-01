@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  R
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  R
 
 RAISE EXCEPTION - Quick reference
 
-[Reference](javascript:call_link\('abapraise_exception_class.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_class.htm)
 
 Syntax
 
@@ -26,14 +26,14 @@ Raises a class-based exception.
 Additions
 
 -   RESUMABLE
-    Raises a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry").
+    Raises a [resumable exception](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenresumable_exception_glosry.htm "Glossary Entry").
     
 
 -   TYPE cx\_class *\[*EXPORTING p1 = a1 p2 = a2 ...*\]*
     Specifies the exception class of the exception object.
     
 
--   [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\))
+-   [MESSAGE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_message.htm)
     Passes the specification of a message to the exception object.
     
 

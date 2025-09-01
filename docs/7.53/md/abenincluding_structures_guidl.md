@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_type_obj_guidl.htm) → 
 
 Including Structures
 
@@ -30,7 +30,7 @@ The reasons for this rule are the following:
 
 -   In contrast to real substructures, structures integrated using INCLUDE cannot be declared as boxed components. A boxed component is a structured component, which is managed through an internal reference and thus supports initial value sharing. This can considerably reduce the memory requirements for rarely filled components.
 
--   The statement cancels a [chained statement](javascript:call_link\('abenchained_statements_guidl.htm'\) "Guideline") that has been created with BEGIN OF and END OF.
+-   The statement cancels a [chained statement](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchained_statements_guidl.htm "Guideline") that has been created with BEGIN OF and END OF.
 
 If no real substructures can be formed, you must avoid naming conflicts as far as possible by using suffixes (RENAMING WITH SUFFIX addition). This recommendation also applies to the integration of structures in ABAP Dictionary, where you cannot always create real substructures (for example, for database tables).
 

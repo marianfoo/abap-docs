@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Syntax Elements of an ABAP Program](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Syntax Elements of an ABAP Program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_statements.htm) → 
 
 Chained Statements
 
@@ -23,12 +23,12 @@ When the syntax is checked and the program is executed, a chained statement is h
 
 Programming Guideline
 
-[Only use chained statements where appropriate](javascript:call_link\('abenchained_statements_guidl.htm'\) "Guideline")
+[Only use chained statements where appropriate](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchained_statements_guidl.htm "Guideline")
 
 Hints
 
 -   The identical starting parts are not limited to the keyword.
--   When using chained statements, it must be ensured that no syntactically correct statements with incorrect behavior are created by mistake. The risk of this is especially high for more complex statements, as well as when using [expressions](javascript:call_link\('abenexpression_glosry.htm'\) "Glossary Entry") or function calls where chained statements should be avoided all together.
+-   When using chained statements, it must be ensured that no syntactically correct statements with incorrect behavior are created by mistake. The risk of this is especially high for more complex statements, as well as when using [expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexpression_glosry.htm "Glossary Entry") or function calls where chained statements should be avoided all together.
 -   If further colons are listed after the first colon of a chained statement, they are handled like blanks.
 
 Examples

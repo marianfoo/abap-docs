@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 7.0 and its EhPs](javascript:call_link\('abennews-70_ehps.htm'\)) →  [News for ABAP Release 7.0, EhP2](javascript:call_link\('abennews-71.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 7.0 and its EhPs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70_ehps.htm) →  [News for ABAP Release 7.0, EhP2](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-71.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Remote%20Function%20Call%20in%20ABAP%20Release%207.0%2C%20EhP2%2C%20ABENNEWS-71-RFC%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impr
 ovement:)
@@ -22,7 +22,7 @@ Modification 1  
 
 Background RFC
 
-With the new [Background RFC](javascript:call_link\('abenbg_remote_function_glosry.htm'\) "Glossary Entry") (bgRFC) Remote Function Calls can be carried out safely in a transaction and in the call sequence. The calling application and the called application are connected asynchronously. bgRFC replaces the functions previously provided by tRFC and qRFC (but not qRFC no-Send).
+With the new [Background RFC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbg_remote_function_glosry.htm "Glossary Entry") (bgRFC) Remote Function Calls can be carried out safely in a transaction and in the call sequence. The calling application and the called application are connected asynchronously. bgRFC replaces the functions previously provided by tRFC and qRFC (but not qRFC no-Send).
 
 Hint
 
@@ -50,12 +50,12 @@ Modification 5  
 
 basXML as New RFC Protocol
 
-The [basXML](javascript:call_link\('abenbasxml_glosry.htm'\) "Glossary Entry") format is supported as the new standard [RFC protocol](javascript:call_link\('abenrfc_protocol.htm'\)) and replaces the previous formats.
+The [basXML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbasxml_glosry.htm "Glossary Entry") format is supported as the new standard [RFC protocol](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrfc_protocol.htm) and replaces the previous formats.
 
 Modification 6   
 
 Identification of Trusted Systems
 
-In transaction SMT1 for editing [RFC trust relationships](javascript:call_link\('abensmt1_2.htm'\)), the installation number is now also used when creating [trusted systems](javascript:call_link\('abentrusted_system_glosry.htm'\) "Glossary Entry") by entering the system ID (name of the [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry")). This applies to all trusted systems from ABAP releases 7.02, EhP2 and 7.2 (including 7.1).
+In transaction SMT1 for editing [RFC trust relationships](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensmt1_2.htm), the installation number is now also used when creating [trusted systems](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentrusted_system_glosry.htm "Glossary Entry") by entering the system ID (name of the [AS ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_abap_glosry.htm "Glossary Entry")). This applies to all trusted systems from ABAP releases 7.02, EhP2 and 7.2 (including 7.1).
 
-When creating a trusted relationship from ABAP release 7.0, EhP2, the [trusting system](javascript:call_link\('abentrusting_system_glosry.htm'\) "Glossary Entry") checks the installation number of the calling system, if it is specified in transaction SMT1. For trust relationships of this kind, the relevant authorizations need to be modified so that field RFC\_INFO in authorization object S\_RFCACL contains the installation number of the calling system.
+When creating a trusted relationship from ABAP release 7.0, EhP2, the [trusting system](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentrusting_system_glosry.htm "Glossary Entry") checks the installation number of the calling system, if it is specified in transaction SMT1. For trust relationships of this kind, the relevant authorizations need to be modified so that field RFC\_INFO in authorization object S\_RFCACL contains the installation number of the calling system.

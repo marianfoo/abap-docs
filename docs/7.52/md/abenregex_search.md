@@ -4,17 +4,23 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions](javascript:call_link\('abenregular_expressions.htm'\)) →  [Syntax of Regular Expressions](javascript:call_link\('abenregex_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregular_expressions.htm) →  [Syntax of Regular Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_syntax.htm) → 
 
 Search Patterns
 
-One of the principle uses of regular expressions is the search for (and subsequent [replacement of](javascript:call_link\('abenregex_replace.htm'\))) substrings in character strings. In general, a user is interested in a specific selection of character strings that match a regular expression. In ABAP, searches using regular expressions are implemented using the addition [REGEX](javascript:call_link\('abapfind_pattern.htm'\)) of the statement [FIND](javascript:call_link\('abapfind.htm'\)) or one of the [search functions](javascript:call_link\('abensearch_function_glosry.htm'\) "Glossary Entry"). Here, the found substrings are determined with no overlaps in accordance with the leftmost-longest rule.
+One of the principle uses of regular expressions is the search for (and subsequent [replacement of](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_replace.htm)) substrings in character strings. In general, a user is interested in a specific selection of character strings that match a regular expression. In ABAP, searches using regular expressions are implemented using the addition [REGEX](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfind_pattern.htm) of the statement [FIND](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfind.htm) or one of the [search functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensearch_function_glosry.htm "Glossary Entry"). Here, the found substrings are determined with no overlaps in accordance with the leftmost-longest rule.
 
--   [Leftmost-Longest Rule](#abenregex-search-1--------operators-for-search-patterns---@ITOC@@ABENREGEX_SEARCH_2)
+-   [Leftmost-Longest Rule](#@@ITOC@@ABENREGEX_SEARCH_1)
 
--   [Start and End of a Line](#abenregex-search-3--------start-and-end-of-a-character-string---@ITOC@@ABENREGEX_SEARCH_4)
+-   [Operators for Search Patterns](#@@ITOC@@ABENREGEX_SEARCH_2)
 
--   [Start and End of a Word](#abenregex-search-5--------preview-conditions---@ITOC@@ABENREGEX_SEARCH_6)
+-   [Start and End of a Line](#@@ITOC@@ABENREGEX_SEARCH_3)
+
+-   [Start and End of a Character String](#@@ITOC@@ABENREGEX_SEARCH_4)
+
+-   [Start and End of a Word](#@@ITOC@@ABENREGEX_SEARCH_5)
+
+-   [Preview Conditions](#@@ITOC@@ABENREGEX_SEARCH_6)
 
 -   [Cut Operator](#@@ITOC@@ABENREGEX_SEARCH_7)
 
@@ -52,11 +58,11 @@ If a character-like data object contains control characters for a line break or 
 
 Note
 
-Within ABAP programs, control characters generally only occur when externally generated data records are imported or if the characters are specified explicitly in [character string templates](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry").
+Within ABAP programs, control characters generally only occur when externally generated data records are imported or if the characters are specified explicitly in [character string templates](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_glosry.htm "Glossary Entry").
 
 Example
 
-The character string in text contains two [control characters](javascript:call_link\('abenstring_templates_separators.htm'\)) for line breaks, inserted using a character string template. The first search finds three starts of lines with the offsets 0, 6, and 12. The second search finds three ends of lines with the offsets 5, 11, and 17.
+The character string in text contains two [control characters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_separators.htm) for line breaks, inserted using a character string template. The first search finds three starts of lines with the offsets 0, 6, and 12. The second search finds three ends of lines with the offsets 5, 11, and 17.
 
 DATA TEXT type STRING.
 DATA result\_tab TYPE match\_result\_tab.

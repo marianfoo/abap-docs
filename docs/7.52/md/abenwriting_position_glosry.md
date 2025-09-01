@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 writer position
 
-[Operand position](javascript:call_link\('abenoperand_position_glosry.htm'\) "Glossary Entry") in which the [operand](javascript:call_link\('abenoperand_glosry.htm'\) "Glossary Entry") is written to. As well as writer-only positions, positions that read an operand are also available.
+[Operand position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperand_position_glosry.htm "Glossary Entry") in which the [operand](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperand_glosry.htm "Glossary Entry") is written to. As well as writer-only positions, positions that read an operand are also available.
 
-[→ More](javascript:call_link\('abendata_objects_usage_writing.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_writing.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [Changes in Release 7.55](javascript:call_link\('abennews-755.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 7.5x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-75.htm) →  [Changes in Release 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-755.htm) → 
 
 Data Types in Release 7.55
 
@@ -14,4 +14,4 @@ Modification 1
 
 Indicator structures
 
-The new addition [INDICATORS](javascript:call_link\('abaptypes_indicators.htm'\)) to the statement [TYPES](javascript:call_link\('abaptypes.htm'\)) allows to define an [indicator structure](javascript:call_link\('abenindicator_structure_glosry.htm'\) "Glossary Entry") as a [substructure](javascript:call_link\('abensubstructure_glosry.htm'\) "Glossary Entry") of a given [structured type](javascript:call_link\('abenstructured_type_glosry.htm'\) "Glossary Entry"). An indicator structure can be used as a [ABAP SQL indicator](javascript:call_link\('abenabap_sql_indicator_glosry.htm'\) "Glossary Entry") in ABAP SQL read and write statements.
+The new addition [INDICATORS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_indicators.htm) to the statement [TYPES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes.htm) allows to define an [indicator structure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenindicator_structure_glosry.htm "Glossary Entry") as a [substructure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensubstructure_glosry.htm "Glossary Entry") of a given [structured type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstructured_type_glosry.htm "Glossary Entry"). An indicator structure can be used as a [ABAP SQL indicator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql_indicator_glosry.htm "Glossary Entry") in ABAP SQL read and write statements.

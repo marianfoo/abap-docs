@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [CDS BDL - Base BDEF Extension](javascript:call_link\('abenbdl_extensibility_managed_unm.htm'\)) →  [CDS BDL - extension](javascript:call_link\('abenbdl_extension_syntax.htm'\)) →  [CDS BDL - using interface, Extension](javascript:call_link\('abenbdl_using_interface.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm) →  [CDS BDL - Base BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_managed_unm.htm) →  [CDS BDL - extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_syntax.htm) →  [CDS BDL - using interface, Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_using_interface.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - RAP BO Extension Using Interface, ABENBDL_USING_INTERFACE_ABEXA, 757%0D%0A%
 0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -108,7 +108,7 @@ define view entity DEMO\_RAP\_EXTENSIBLE\_GGCHLD
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_RAP\_EXTENSIBLE\_ROOT is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as shown below. It defines a managed, draft-enabled RAP BO with multiple extension points.
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_RAP\_EXTENSIBLE\_ROOT is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry") as shown below. It defines a managed, draft-enabled RAP BO with multiple extension points.
 
 managed implementation in class bp\_demo\_rap\_extensible\_root unique;
 strict(2);
@@ -211,7 +211,7 @@ extensible
 
 Behavior implementation
 
-For the CDS behavior definition, one [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_EXTENSIBLE\_ROOT, see CCIMP include. It implements the method get\_instance\_authorizations for instance authorization control. It returns information on whether update and delete operations are allowed on instances. In this example, these operations are not allowed if CharField has a particular value.
+For the CDS behavior definition, one [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_EXTENSIBLE\_ROOT, see CCIMP include. It implements the method get\_instance\_authorizations for instance authorization control. It returns information on whether update and delete operations are allowed on instances. In this example, these operations are not allowed if CharField has a particular value.
 
 Note: This is a simple example that serves demonstration purposes.
 
@@ -404,7 +404,7 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses ABAP SQL and [ABAP EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP BO interface from an ABAP program and performs the following steps:
+The above source code uses ABAP SQL and [ABAP EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP BO interface from an ABAP program and performs the following steps:
 
 -   It creates two instances of the root entity.
 -   It executes the action setValue\_ext for one of the instances.

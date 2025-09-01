@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) →  [COMMIT ENTITIES BEGIN, END](javascript:call_link\('abapemlcommit_entities_late.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml.htm) →  [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit_entities.htm) →  [COMMIT ENTITIES BEGIN, END](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapemlcommit_entities_late.htm) → 
 
 CONVERT KEY
 
@@ -16,7 +16,7 @@ CONVERT KEY OF bdef
 
 Effect
 
-This statement is only possible between [COMMIT ENTITIES BEGIN, END](javascript:call_link\('abapemlcommit_entities_late.htm'\)).
+This statement is only possible between [COMMIT ENTITIES BEGIN, END](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapemlcommit_entities_late.htm).
 
 Syntax Part
 
@@ -28,7 +28,7 @@ Specifies the RAP BO (bdef) for which the keys should be converted. In contrast 
 
 FROM \[TEMPORARY\] pre\_key
 
-Specifies the value of the preliminary key (pre\_key). The type of pre\_key must be compatible with the types of %pid, i. e. ABP\_BEHV\_PID, the key or ...-%pre. The keyword TEMPORARY is relevant if the variant [in place](javascript:call_link\('abenbdl_late_numbering.htm'\)) is used in the context of late numbering. Here, the regular %key fields (with the preliminary key values) - instead of %pid - are used for pre\_key for which the final key is retrieved via CONVERT KEY OF.
+Specifies the value of the preliminary key (pre\_key). The type of pre\_key must be compatible with the types of %pid, i. e. ABP\_BEHV\_PID, the key or ...-%pre. The keyword TEMPORARY is relevant if the variant [in place](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_late_numbering.htm) is used in the context of late numbering. Here, the regular %key fields (with the preliminary key values) - instead of %pid - are used for pre\_key for which the final key is retrieved via CONVERT KEY OF.
 
 TO final\_key.
 
@@ -51,4 +51,4 @@ COMMIT ENTITIES END.
 
 Executable Example
 
-The example [COMMIT ENTITIES BEGIN, END with CONVERT KEY OF](javascript:call_link\('abencommit_entities_beginend_abexa.htm'\)) demonstrates the use of this COMMIT ENTITIES statement including CONVERT KEY OF.
+The example [COMMIT ENTITIES BEGIN, END with CONVERT KEY OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencommit_entities_beginend_abexa.htm) demonstrates the use of this COMMIT ENTITIES statement including CONVERT KEY OF.

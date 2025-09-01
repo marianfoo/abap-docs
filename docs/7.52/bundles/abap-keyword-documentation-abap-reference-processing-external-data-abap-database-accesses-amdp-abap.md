@@ -3,37 +3,7 @@
 Included pages: 13
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenamdp_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm)
-- [abenamdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexa.htm)
-- [abenamdp_call_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_amdp_abexa.htm)
-- [abenamdp_call_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_abexa.htm)
-- [abenamdp_polymorphism_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_polymorphism_abexa.htm)
-- [abenamdp_changing_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_changing_abexa.htm)
-- [abenamdp_connection_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_connection_abexa.htm)
-- [abenmesh_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_amdp_abexa.htm)
-- [abenamdp_vs_open_sql_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_vs_open_sql_abexa.htm)
-- [abenamdp_functions_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_functions_abexa.htm)
-- [abenamdp_abap_types_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abap_types_abexa.htm)
-- [abenamdp_db_schema_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_db_schema_abexa.htm)
-- [abenamdp_l_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_l_abexa.htm)
-
-**Bundle Contains**: 13 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.481Z
-
----
-
 ### abenamdp_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenamdp_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -41,33 +11,26 @@ Included pages: 13
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) → 
 
 AMDP - Examples
 
 Continue
-![Example](exa.gif "Example") [AMDP, Implementation of a SQLScript Procedure](javascript:call_link\('abenamdp_abexa.htm'\))
-![Example](exa.gif "Example") [AMDP, Calling an AMDP Procedure from SQLScript](javascript:call_link\('abenamdp_call_amdp_abexa.htm'\))
-![Example](exa.gif "Example") [AMDP, Calling an SQLScript Procedure from AMDP](javascript:call_link\('abenamdp_call_abexa.htm'\))
-![Example](exa.gif "Example") [AMDP, AMDP Methods in Interfaces and Superclasses](javascript:call_link\('abenamdp_polymorphism_abexa.htm'\))
-![Example](exa.gif "Example") [AMDP, SQL Script with Tabular CHANGING Parameter](javascript:call_link\('abenamdp_changing_abexa.htm'\))
-![Example](exa.gif "Example") [AMDP, AMDP Method with Specified Service Connection](javascript:call_link\('abenamdp_connection_abexa.htm'\))
-![Example](exa.gif "Example") [AMDP, Filling a Mesh with SQLScript](javascript:call_link\('abenmesh_amdp_abexa.htm'\))
-![Example](exa.gif "Example") [AMDP, Comparison of SQLScript with Open SQL](javascript:call_link\('abenamdp_vs_open_sql_abexa.htm'\))
-![Example](exa.gif "Example") [AMDP, AMDP Functions](javascript:call_link\('abenamdp_functions_abexa.htm'\))
-![Example](exa.gif "Example") [AMDP, Access to ABAP Types](javascript:call_link\('abenamdp_abap_types_abexa.htm'\))
-![Example](exa.gif "Example") [AMDP, Access to Database Schemas](javascript:call_link\('abenamdp_db_schema_abexa.htm'\))
-![Example](exa.gif "Example") [AMDP, Implementation of an L Procedure](javascript:call_link\('abenamdp_l_abexa.htm'\))
+![Example](exa.gif "Example") [AMDP, Implementation of a SQLScript Procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexa.htm)
+![Example](exa.gif "Example") [AMDP, Calling an AMDP Procedure from SQLScript](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_amdp_abexa.htm)
+![Example](exa.gif "Example") [AMDP, Calling an SQLScript Procedure from AMDP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_abexa.htm)
+![Example](exa.gif "Example") [AMDP, AMDP Methods in Interfaces and Superclasses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_polymorphism_abexa.htm)
+![Example](exa.gif "Example") [AMDP, SQL Script with Tabular CHANGING Parameter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_changing_abexa.htm)
+![Example](exa.gif "Example") [AMDP, AMDP Method with Specified Service Connection](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_connection_abexa.htm)
+![Example](exa.gif "Example") [AMDP, Filling a Mesh with SQLScript](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_amdp_abexa.htm)
+![Example](exa.gif "Example") [AMDP, Comparison of SQLScript with Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_vs_open_sql_abexa.htm)
+![Example](exa.gif "Example") [AMDP, AMDP Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_functions_abexa.htm)
+![Example](exa.gif "Example") [AMDP, Access to ABAP Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abap_types_abexa.htm)
+![Example](exa.gif "Example") [AMDP, Access to Database Schemas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_db_schema_abexa.htm)
+![Example](exa.gif "Example") [AMDP, Implementation of an L Procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_l_abexa.htm)
 
-
-
-**📖 Source**: [abenamdp_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm)
 
 ### abenamdp_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenamdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -75,7 +38,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, Implementation of a SQLScript Procedure
 
@@ -166,7 +129,7 @@ START-OF-SELECTION.
 
 Description
 
-A simple [SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") is implemented in three AMDP methods (showing the different options for self-defined [client handling](javascript:call_link\('abenamdp_client_handling.htm'\))) in the AMDP class CL\_DEMO\_AMDP:
+A simple [SQLScript procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") is implemented in three AMDP methods (showing the different options for self-defined [client handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_client_handling.htm)) in the AMDP class CL\_DEMO\_AMDP:
 
 -   INCREASE\_PRICE
 
@@ -177,7 +140,7 @@ METHOD increase\_price BY DATABASE PROCEDURE FOR HDB
                  where mandt = :clnt;
 ENDMETHOD.
 
-In this implementation, the input parameter clnt is used to access the data of the passed client, as [recommended](javascript:call_link\('abenamdp_client_handling.htm'\)).
+In this implementation, the input parameter clnt is used to access the data of the passed client, as [recommended](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_client_handling.htm).
 
 -   INCREASE\_PRICE\_CLIENT
 
@@ -188,7 +151,7 @@ METHOD increase\_price\_client BY DATABASE PROCEDURE FOR HDB
                  where mandt = SESSION\_CONTEXT('CLIENT');
 ENDMETHOD.
 
-In this implementation, the [ABAP-specific session variable](javascript:call_link\('abenhana_session_variables.htm'\)) CLIENT is used to access the data of the current client.
+In this implementation, the [ABAP-specific session variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_session_variables.htm) CLIENT is used to access the data of the current client.
 
 -   INCREASE\_PRICE\_CDS\_CLIENT
 
@@ -199,9 +162,9 @@ METHOD increase\_price\_cds\_client BY DATABASE PROCEDURE FOR HDB
                  where mandt = SESSION\_CONTEXT('CDS\_CLIENT');
 ENDMETHOD.
 
-In this implementation, the [ABAP-specific session variable](javascript:call_link\('abenhana_session_variables.htm'\)) CDS\_CLIENT is used to access the data of the current client. The addition [AMDP OPTIONS CDS SESSION CLIENT CURRENT](javascript:call_link\('abapmethods_amdp_options.htm'\)) is used for this purpose in the declaration of the method.
+In this implementation, the [ABAP-specific session variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_session_variables.htm) CDS\_CLIENT is used to access the data of the current client. The addition [AMDP OPTIONS CDS SESSION CLIENT CURRENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_amdp_options.htm) is used for this purpose in the declaration of the method.
 
-The database table SPFLI defined in ABAP Dictionary must be specified after USING. On a SAP HANA database, this program works in the same way as the executable examples for [ADBC](javascript:call_link\('abenadbc_procedure_abexa.htm'\)) and for [CALL DATABASE PROCEDURE](javascript:call_link\('abencall_db_procedure_abexa.htm'\)). AMDP replaces these technologies when calling database procedures for an SAP HANA database that is the [standard database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") of an AS ABAP.
+The database table SPFLI defined in ABAP Dictionary must be specified after USING. On a SAP HANA database, this program works in the same way as the executable examples for [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc_procedure_abexa.htm) and for [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_db_procedure_abexa.htm). AMDP replaces these technologies when calling database procedures for an SAP HANA database that is the [standard database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_db_glosry.htm "Glossary Entry") of an AS ABAP.
 
 It is generally preferable to pass the client ID to an input parameter of a use of the ABAP-specific session variable CLIENT or CDS\_CLIENT.
 
@@ -210,14 +173,7 @@ Note
 This is a syntax example. The same function can be provided with the same efficiency in Open SQL. AMDP is not needed in simple cases like this.
 
 
-
-**📖 Source**: [abenamdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexa.htm)
-
 ### abenamdp_call_amdp_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenamdp_call_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_amdp_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -225,7 +181,7 @@ This is a syntax example. The same function can be provided with the same effici
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, Calling an AMDP Procedure from SQLScript
 
@@ -281,21 +237,14 @@ START-OF-SELECTION.
 
 Description
 
-The [SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") of the AMDP method INCREASE\_PRICE of the AMDP class CL\_DEMO\_AMDP\_CALL\_AMDP calls a further AMDP procedure implemented in the private AMDP method INCREASE\_PRICE\_AMDP in the same class:
+The [SQLScript procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") of the AMDP method INCREASE\_PRICE of the AMDP class CL\_DEMO\_AMDP\_CALL\_AMDP calls a further AMDP procedure implemented in the private AMDP method INCREASE\_PRICE\_AMDP in the same class:
 
 Method was not found
 
-The called database procedure must be specified after the addition [USING](javascript:call_link\('abapmethod_by_db_proc.htm'\)) of the statement METHOD. Compare the [executable example](javascript:call_link\('abenamdp_call_abexa.htm'\)) for calling a further database procedure not managed using AMDP.
+The called database procedure must be specified after the addition [USING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_by_db_proc.htm) of the statement METHOD. Compare the [executable example](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_abexa.htm) for calling a further database procedure not managed using AMDP.
 
-
-
-**📖 Source**: [abenamdp_call_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_amdp_abexa.htm)
 
 ### abenamdp_call_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenamdp_call_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -303,7 +252,7 @@ The called database procedure must be specified after the addition [USING](javas
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, Calling an SQLScript Procedure from AMDP
 
@@ -358,23 +307,16 @@ START-OF-SELECTION.
 
 Description
 
-The [SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") of the AMDP method INCREASE\_PRICE in the AMDP class CL\_DEMO\_AMDP\_CALL calls a database procedure (not managed by AMDP) of the current database schema in the namespace /1BCAMDP/:
+The [SQLScript procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") of the AMDP method INCREASE\_PRICE in the AMDP class CL\_DEMO\_AMDP\_CALL calls a database procedure (not managed by AMDP) of the current database schema in the namespace /1BCAMDP/:
 
 METHOD increase\_price BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
   call "/1BCAMDP/ABAP\_DOCU\_DEMO\_INCPRICE"( INC => :INCPRICE );
 ENDMETHOD.
 
-The called database procedure is created dynamically in the static constructor of the AMDP class CL\_DEMO\_AMDP\_CALL using [ADBC](javascript:call_link\('abenadbc.htm'\)). It is in the same database schema, but due to the namespace /1BCAMDP/ it cannot and must not be used after the addition [USING](javascript:call_link\('abapmethod_by_db_proc.htm'\)) of the METHOD statement. Compare this [executable example](javascript:call_link\('abenamdp_call_amdp_abexa.htm'\)) when calling a further AMDP procedure.
+The called database procedure is created dynamically in the static constructor of the AMDP class CL\_DEMO\_AMDP\_CALL using [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc.htm). It is in the same database schema, but due to the namespace /1BCAMDP/ it cannot and must not be used after the addition [USING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_by_db_proc.htm) of the METHOD statement. Compare this [executable example](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_amdp_abexa.htm) when calling a further AMDP procedure.
 
-
-
-**📖 Source**: [abenamdp_call_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_call_abexa.htm)
 
 ### abenamdp_polymorphism_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenamdp_polymorphism_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_polymorphism_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -382,7 +324,7 @@ The called database procedure is created dynamically in the static constructor o
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, AMDP Methods in Interfaces and Superclasses
 
@@ -427,21 +369,14 @@ START-OF-SELECTION.
 
 Description
 
-An interface IF\_DEMO\_AMDP\_INTERFACE and an abstract superclass CL\_DEMO\_AMDP\_SUPERCLASS implement the tag interface IF\_AMDP\_MARKER\_HDB and contain the method GET\_CARRIER, which meets the prerequisites of an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry").
+An interface IF\_DEMO\_AMDP\_INTERFACE and an abstract superclass CL\_DEMO\_AMDP\_SUPERCLASS implement the tag interface IF\_AMDP\_MARKER\_HDB and contain the method GET\_CARRIER, which meets the prerequisites of an [AMDP method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_method_glosry.htm "Glossary Entry").
 
 The interface method is implemented once as an AMDP method and once as a regular method in the classes CL\_DEMO\_AMDP\_IMPLEMENT\_HDB and CL\_DEMO\_AMDP\_IMPLEMENT\_OPEN. In the same way, the method of the abstract superclass is redefined in the fixed subclasses CL\_DEMO\_AMDP\_SUBCLASS\_HDB and CL\_DEMO\_AMDP\_SUBCLASS\_OPEN.
 
 This program demonstrates how objects are created using either the AMDP method or the regular method and called polymorphically, as specified by the current database.
 
 
-
-**📖 Source**: [abenamdp_polymorphism_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_polymorphism_abexa.htm)
-
 ### abenamdp_changing_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenamdp_changing_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_changing_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -449,7 +384,7 @@ This program demonstrates how objects are created using either the AMDP method o
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, SQL Script with Tabular CHANGING Parameter
 
@@ -509,7 +444,7 @@ START-OF-SELECTION.
 
 Description
 
-The following [SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") is implemented in the AMDP method GET\_CARRIERS of the AMDP class CL\_DEMO\_AMDP\_CHANGING:
+The following [SQLScript procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") is implemented in the AMDP method GET\_CARRIERS of the AMDP class CL\_DEMO\_AMDP\_CHANGING:
 
 METHOD get\_carriers BY DATABASE PROCEDURE FOR HDB
                        LANGUAGE SQLSCRIPT
@@ -521,7 +456,7 @@ METHOD get\_carriers BY DATABASE PROCEDURE FOR HDB
                         s.carrid = c.carrid;
 ENDMETHOD.
 
-The tabular CHANGING parameter carriers can be used in this way in the procedure in reading positions and writing positions. Internally, the database procedure uses an identically named output parameter to which the initial value of the CHANGING parameter is assigned (using the invisible IN parameter carrriers\_\_in\_\_) when the procedure is first executed (see [SQL Script for the SAP HANA Database](javascript:call_link\('abenamdp_hdb_sqlscript.htm'\))).
+The tabular CHANGING parameter carriers can be used in this way in the procedure in reading positions and writing positions. Internally, the database procedure uses an identically named output parameter to which the initial value of the CHANGING parameter is assigned (using the invisible IN parameter carrriers\_\_in\_\_) when the procedure is first executed (see [SQL Script for the SAP HANA Database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_hdb_sqlscript.htm)).
 
 A further method, CALL\_GET\_CARRIERS, demonstrates how the SQL Script procedure implemented in GET\_CARRIERS is called from a different SQL Script procedure.
 
@@ -540,14 +475,7 @@ Note
 This is a syntax example. The same function can be provided with the same efficiency in Open SQL. AMDP is not needed in simple cases like this.
 
 
-
-**📖 Source**: [abenamdp_changing_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_changing_abexa.htm)
-
 ### abenamdp_connection_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenamdp_connection_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_connection_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -555,7 +483,7 @@ This is a syntax example. The same function can be provided with the same effici
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, AMDP Method with Specified Service Connection
 
@@ -598,7 +526,7 @@ START-OF-SELECTION.
 
 Description
 
-A simple [SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") is implemented in the AMDP method GET\_SCARR of the AMDP class CL\_DEMO\_AMDP:
+A simple [SQLScript procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") is implemented in the AMDP method GET\_SCARR of the AMDP class CL\_DEMO\_AMDP:
 
 METHOD get\_scarr BY DATABASE PROCEDURE FOR HDB
                       LANGUAGE SQLSCRIPT
@@ -608,17 +536,10 @@ METHOD get\_scarr BY DATABASE PROCEDURE FOR HDB
                      WHERE mandt  = clnt;
 ENDMETHOD.
 
-The method also has an optional input parameter with the predefined name connection. This is used to specify whether the [standard connection](javascript:call_link\('abenstandard_db_connection_glosry.htm'\) "Glossary Entry") or a [service connection](javascript:call_link\('abenservice_connection_glosry.htm'\) "Glossary Entry") is used. If a permitted name such as "DEFAULT" or "R/3\*my\_conn" is passed, the method is executed using either the standard connection or a service connection. Invalid names raise an exception and an exception is text is displayed.
+The method also has an optional input parameter with the predefined name connection. This is used to specify whether the [standard connection](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry") or a [service connection](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenservice_connection_glosry.htm "Glossary Entry") is used. If a permitted name such as "DEFAULT" or "R/3\*my\_conn" is passed, the method is executed using either the standard connection or a service connection. Invalid names raise an exception and an exception is text is displayed.
 
-
-
-**📖 Source**: [abenamdp_connection_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_connection_abexa.htm)
 
 ### abenmesh_amdp_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenmesh_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_amdp_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -626,7 +547,7 @@ The method also has an optional input parameter with the predefined name connect
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, Filling a Mesh with SQLScript
 
@@ -687,9 +608,9 @@ START-OF-SELECTION.
 
 Description
 
-The AMDP class CL\_DEMO\_AMDP\_MESH has a private AMDP method SELECT\_HDB called by the public method SELECT if the current [standard database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") is the SAP HANA database. For all other databases, the private method SELECT\_OPEN\_SQL is called. Both methods return the same results, verified by a [unit test](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") in the class.
+The AMDP class CL\_DEMO\_AMDP\_MESH has a private AMDP method SELECT\_HDB called by the public method SELECT if the current [standard database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_db_glosry.htm "Glossary Entry") is the SAP HANA database. For all other databases, the private method SELECT\_OPEN\_SQL is called. Both methods return the same results, verified by a [unit test](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunit_test_glosry.htm "Glossary Entry") in the class.
 
-The methods fill the nodes of a [mesh](javascript:call_link\('abenabap_meshes.htm'\)) for sales orders whose type is declared in the AMDP class. The number of sales orders is restricted using a ranges table. In the method SELECT\_OPEN\_SQL, the Open SQL addition FOR ALL ENTRIES is used, but in SELECT\_OPEN\_SQL the intermediate results can be evaluated in subqueries.
+The methods fill the nodes of a [mesh](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_meshes.htm) for sales orders whose type is declared in the AMDP class. The number of sales orders is restricted using a ranges table. In the method SELECT\_OPEN\_SQL, the Open SQL addition FOR ALL ENTRIES is used, but in SELECT\_OPEN\_SQL the intermediate results can be evaluated in subqueries.
 
 SQLScript implementation of the AMDP method
 
@@ -748,14 +669,7 @@ Note
 This is a syntax example. The same function can be provided with the same efficiency in Open SQL. AMDP is not needed in simple cases like this.
 
 
-
-**📖 Source**: [abenmesh_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_amdp_abexa.htm)
-
 ### abenamdp_vs_open_sql_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenamdp_vs_open_sql_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_vs_open_sql_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -763,7 +677,7 @@ This is a syntax example. The same function can be provided with the same effici
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, Comparison of SQLScript with Open SQL
 
@@ -1111,14 +1025,7 @@ INTO TABLE @et\_invoice\_header.
 ENDMETHOD.
 
 
-
-**📖 Source**: [abenamdp_vs_open_sql_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_vs_open_sql_abexa.htm)
-
 ### abenamdp_functions_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenamdp_functions_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_functions_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1126,7 +1033,7 @@ ENDMETHOD.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, AMDP Functions
 
@@ -1176,9 +1083,9 @@ START-OF-SELECTION.
 
 Description
 
-This example access [AMDP functions](javascript:call_link\('abenamdp_function_glosry.htm'\) "Glossary Entry") that are declared and implemented in the [AMDP class](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") CL\_DEMO\_AMDP\_FUNCTIONS\_INPCL.
+This example access [AMDP functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_function_glosry.htm "Glossary Entry") that are declared and implemented in the [AMDP class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_class_glosry.htm "Glossary Entry") CL\_DEMO\_AMDP\_FUNCTIONS\_INPCL.
 
--   The method GET\_SCARR\_SPFLI is an [AMDP function implementation](javascript:call_link\('abenamdp_function_methods.htm'\)) for other AMDP methods with explicitly declared interfaces. It cannot be called in ABAP.
+-   The method GET\_SCARR\_SPFLI is an [AMDP function implementation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_function_methods.htm) for other AMDP methods with explicitly declared interfaces. It cannot be called in ABAP.
 
 METHOD get\_scarr\_spfli BY DATABASE FUNCTION FOR HDB
                        LANGUAGE SQLSCRIPT
@@ -1192,7 +1099,7 @@ METHOD get\_scarr\_spfli BY DATABASE FUNCTION FOR HDB
                   ORDER BY sc.mandt, sc.carrname, sp.connid;
 ENDMETHOD.
 
--   The method SELECT\_GET\_SCARR\_SPFLI is an [AMDP procedure implementation](javascript:call_link\('abenamdp_procedure_methods.htm'\)) that uses SELECT to access the AMDP function implemented in the method GET\_SCARR\_SPFLI. This method is called in the example program.
+-   The method SELECT\_GET\_SCARR\_SPFLI is an [AMDP procedure implementation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_procedure_methods.htm) that uses SELECT to access the AMDP function implemented in the method GET\_SCARR\_SPFLI. This method is called in the example program.
 
 METHOD select\_get\_scarr\_spfli
        BY DATABASE PROCEDURE FOR HDB
@@ -1206,7 +1113,7 @@ METHOD select\_get\_scarr\_spfli
                 carrid => :carrid );
 ENDMETHOD.
 
--   The method GET\_SCARR\_SPFLI\_FOR\_CDS is an [AMDP function implementation](javascript:call_link\('abenamdp_function_methods.htm'\)) for the [CDS table function](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry") DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL shown as an example of the DDL statement [DEFINE TABLE FUNCTION](javascript:call_link\('abencds_f1_define_table_function.htm'\)).
+-   The method GET\_SCARR\_SPFLI\_FOR\_CDS is an [AMDP function implementation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_function_methods.htm) for the [CDS table function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_table_function_glosry.htm "Glossary Entry") DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL shown as an example of the DDL statement [DEFINE TABLE FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_table_function.htm).
 
 @ClientHandling.type: #CLIENT\_DEPENDENT
 define table function DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL
@@ -1225,7 +1132,7 @@ define table function DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL
   implemented by method
     CL\_DEMO\_AMDP\_FUNCTIONS\_INPCL=>GET\_SCARR\_SPFLI\_FOR\_CDS;
 
-This method is declared using the addition [FOR TABLE FUNCTION](javascript:call_link\('abapclass-methods_for_tabfunc.htm'\)) and its interface is determined using theCDS table function. The example program uses [SELECT](javascript:call_link\('abapselect.htm'\)) to access the CDS table function. The input parameter is filled here.
+This method is declared using the addition [FOR TABLE FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-methods_for_tabfunc.htm) and its interface is determined using theCDS table function. The example program uses [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) to access the CDS table function. The input parameter is filled here.
 
 METHOD get\_scarr\_spfli\_for\_cds
        BY DATABASE FUNCTION FOR HDB
@@ -1242,11 +1149,11 @@ METHOD get\_scarr\_spfli\_for\_cds
                   ORDER BY sc.mandt, sc.carrname, sp.connid;
 ENDMETHOD.
 
-Both accesses produce the same result (verified by the statement [ASSERT](javascript:call_link\('abapassert.htm'\))).
+Both accesses produce the same result (verified by the statement [ASSERT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassert.htm)).
 
 Note
 
-The CDS table function DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL used here has one input parameter for the client, annotated using the annotation [@Environment.systemField](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)) and the predefined value [#CLIENT](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)). This input parameter is filled explicitly with the ID of the current client by the Open SQL statement SELECT and used in the implementation of the associated AMDP method for selecting the data. The nearly identical program DEMO\_AMDP\_FUNCTIONS uses the following CDS table function DEMO\_CDS\_GET\_SCARR\_SPFLI in which the current client is selected from the results set of the table function.
+The CDS table function DEMO\_CDS\_GET\_SCARR\_SPFLI\_INPCL used here has one input parameter for the client, annotated using the annotation [@Environment.systemField](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm) and the predefined value [#CLIENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm). This input parameter is filled explicitly with the ID of the current client by the Open SQL statement SELECT and used in the implementation of the associated AMDP method for selecting the data. The nearly identical program DEMO\_AMDP\_FUNCTIONS uses the following CDS table function DEMO\_CDS\_GET\_SCARR\_SPFLI in which the current client is selected from the results set of the table function.
 
 @ClientHandling.type: #CLIENT\_DEPENDENT
 @AccessControl.authorizationCheck:#NOT\_ALLOWED
@@ -1265,14 +1172,7 @@ define table function DEMO\_CDS\_GET\_SCARR\_SPFLI
     CL\_DEMO\_AMDP\_FUNCTIONS=>GET\_SCARR\_SPFLI\_FOR\_CDS;
 
 
-
-**📖 Source**: [abenamdp_functions_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_functions_abexa.htm)
-
 ### abenamdp_abap_types_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenamdp_abap_types_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abap_types_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1280,11 +1180,11 @@ define table function DEMO\_CDS\_GET\_SCARR\_SPFLI
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, Access to ABAP Types
 
-The example demonstrates how to access ABAP types via the [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry") [$ABAP.type](javascript:call_link\('abenamdp_abap_types.htm'\)).
+The example demonstrates how to access ABAP types via the [AMDP macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_macro_glosry.htm "Glossary Entry") [$ABAP.type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abap_types.htm).
 
 Source Code
 
@@ -1304,7 +1204,7 @@ START-OF-SELECTION.
 
 Description
 
-This example calls the following [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") of class CL\_DEMO\_AMDP\_ABAP\_TYPES:
+This example calls the following [AMDP method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_method_glosry.htm "Glossary Entry") of class CL\_DEMO\_AMDP\_ABAP\_TYPES:
 
 METHOD demo\_abap\_types BY DATABASE PROCEDURE
                        FOR HDB LANGUAGE SQLSCRIPT.
@@ -1323,19 +1223,12 @@ METHOD demo\_abap\_types BY DATABASE PROCEDURE
   itab = select \* from :mytab;
 ENDMETHOD.
 
-In [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry") a local table variable mytab is declared with DECLARE in the method. All columns of the table variable are declared via the [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry") [$ABAP.type](javascript:call_link\('abenamdp_abap_types.htm'\)) with reference to ABAP types. The first four ABAP types MANDT, SYST\_UNAME, SYST\_LANGU and SYST\_DATUM are defined in ABAP Dictionary. Type line\_text comes from a TYPES statement of its own class. f stands for the built-in numeric ABAP type.
+In [SQLScript](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_glosry.htm "Glossary Entry") a local table variable mytab is declared with DECLARE in the method. All columns of the table variable are declared via the [AMDP macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_macro_glosry.htm "Glossary Entry") [$ABAP.type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abap_types.htm) with reference to ABAP types. The first four ABAP types MANDT, SYST\_UNAME, SYST\_LANGU and SYST\_DATUM are defined in ABAP Dictionary. Type line\_text comes from a TYPES statement of its own class. f stands for the built-in numeric ABAP type.
 
 The table variable is filled using assignments to columns with one row, whereby the specification of the AMDP macro $ABAP.type is displayed in a CAST expression. Finally, the content of the table variable is imported into the tabular output parameter itab, whose row type is made up of components of the same ABAP types, which are used to define the table variable.
 
 
-
-**📖 Source**: [abenamdp_abap_types_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abap_types_abexa.htm)
-
 ### abenamdp_db_schema_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenamdp_db_schema_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_db_schema_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1343,11 +1236,11 @@ The table variable is filled using assignments to columns with one row, whereby 
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, Access to Database Schemas
 
-This example demonstrates how a table is accessed in a different [database schema](javascript:call_link\('abendatabase_schema_glosry.htm'\) "Glossary Entry").
+This example demonstrates how a table is accessed in a different [database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_schema_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -1388,7 +1281,7 @@ START-OF-SELECTION.
 
 Description
 
-This example accesses [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") that are declared and implemented in the [AMDP class](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") CL\_DEMO\_AMDP\_DB\_SCHEMA.
+This example accesses [AMDP methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_method_glosry.htm "Glossary Entry") that are declared and implemented in the [AMDP class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_class_glosry.htm "Glossary Entry") CL\_DEMO\_AMDP\_DB\_SCHEMA.
 
 -   The method GET\_SCHEMAS\_PHYSICAL accesses the table SCHEMAS of the physical database schema SYS by specifying the schema directly. All existing database schema are saved in this table.
 
@@ -1399,7 +1292,7 @@ METHOD get\_schemas\_physical BY DATABASE PROCEDURE
       FROM "SYS"."SCHEMAS";
 ENDMETHOD.
 
--   The method GET\_SCHEMAS\_LOGICAL accesses the physical database schema that is mapped to the [logical database schema](javascript:call_link\('abenlogical_database_schema_glosry.htm'\) "Glossary Entry") DEMO\_LOGICAL\_DB\_SCHEMA in transaction DB\_SCHEMA\_MAP by specifying the [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry"). If this is SYS, the same table is accessed.
+-   The method GET\_SCHEMAS\_LOGICAL accesses the physical database schema that is mapped to the [logical database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_database_schema_glosry.htm "Glossary Entry") DEMO\_LOGICAL\_DB\_SCHEMA in transaction DB\_SCHEMA\_MAP by specifying the [AMDP macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_macro_glosry.htm "Glossary Entry"). If this is SYS, the same table is accessed.
 
 METHOD get\_schemas\_logical BY DATABASE PROCEDURE
                            FOR HDB LANGUAGE SQLSCRIPT.
@@ -1409,17 +1302,7 @@ METHOD get\_schemas\_logical BY DATABASE PROCEDURE
 ENDMETHOD.
 
 
-
-**📖 Source**: [abenamdp_db_schema_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_db_schema_abexa.htm)
-
 ### abenamdp_l_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenamdp_l_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_l_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenamdp_l_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_l_abexa.htm)
-
 
   
 
@@ -1427,11 +1310,11 @@ ENDMETHOD.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, Implementation of an L Procedure
 
-This example demonstrates the implementation of a procedure in the programming language [L](javascript:call_link\('abenllang_glosry.htm'\) "Glossary Entry") using AMDP.
+This example demonstrates the implementation of a procedure in the programming language [L](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenllang_glosry.htm "Glossary Entry") using AMDP.
 
 Source Code
 
@@ -1467,7 +1350,7 @@ START-OF-SELECTION.
 
 Description
 
-The following [L procedure](javascript:call_link\('abenl_procedure_glosry.htm'\) "Glossary Entry") is implemented in the AMDP method HELLO\_WORLD of the AMDP class CL\_DEMO\_AMDP\_L\_HELLO\_WORLD:
+The following [L procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenl_procedure_glosry.htm "Glossary Entry") is implemented in the AMDP method HELLO\_WORLD of the AMDP class CL\_DEMO\_AMDP\_L\_HELLO\_WORLD:
 
 METHOD hello\_world BY DATABASE PROCEDURE
                    FOR HDB LANGUAGE LLANG
@@ -1485,4 +1368,4 @@ The tabular output parameter is created from a predefined text and an interactiv
 
 Note
 
-The programming language L can only be used internally and with restrictions at SAP. For general programming with the SAP HANA database, [SQL](javascript:call_link\('abensql_glosry.htm'\) "Glossary Entry") or the script language [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry") must be used. The use of L by customers and partners is not supported.
+The programming language L can only be used internally and with restrictions at SAP. For general programming with the SAP HANA database, [SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_glosry.htm "Glossary Entry") or the script language [SQLScript](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_glosry.htm "Glossary Entry") must be used. The use of L by customers and partners is not supported.

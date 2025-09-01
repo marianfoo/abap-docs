@@ -4,15 +4,19 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) →  [Character-Like Source Fields](javascript:call_link\('abencharacter_source_fields.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_elementary.htm) →  [Character-Like Source Fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_source_fields.htm) → 
 
 Source Field Type n
 
-The conversion rules are designed in such a way that when data objects of type [n](javascript:call_link\('abenbuiltin_types_character.htm'\)) are assigned to character-like data objects they behave as character-like data objects. Valid data for data objects of type n is in the form of digit-only strings. When assigning valid data to number data objects, the numeric value of the string of digits is assigned to the target object. The conversion rules, however, also allow assignment of numeric text fields that contain invalid data. The latter is not recommended.
+The conversion rules are designed in such a way that when data objects of type [n](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_character.htm) are assigned to character-like data objects they behave as character-like data objects. Valid data for data objects of type n is in the form of digit-only strings. When assigning valid data to number data objects, the numeric value of the string of digits is assigned to the target object. The conversion rules, however, also allow assignment of numeric text fields that contain invalid data. The latter is not recommended.
 
--   [Numeric Target Fields](#abenconversion-type-n-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_N_2)
+-   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_N_1)
 
--   [Byte-Like Target Fields](#abenconversion-type-n-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_N_4)
+-   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_N_2)
+
+-   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_N_3)
+
+-   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_N_4)
 
 Numeric Target Fields
 
@@ -22,19 +26,19 @@ Conversion
 
 i, int8, (b, s)
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\))
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_c.htm)
 
 p
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\))
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_c.htm)
 
 decfloat16, decfloat34
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\))
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_c.htm)
 
 f
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\))
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_c.htm)
 
 Note
 
@@ -55,7 +59,7 @@ Conversion
 
 c
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\))
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_c.htm)
 
 n
 
@@ -63,7 +67,7 @@ The characters in the source field are passed right-justified to the target fiel
 
 string
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\))
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_c.htm)
 
 Example
 
@@ -81,11 +85,11 @@ Conversion
 
 x
 
-The content of the source field is converted first to data type i (see above) and then to type x (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is converted first to data type i (see above) and then to type x (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_ibs.htm)).
 
 xstring
 
-The content of the source field is converted first to data type i (see above) and then to type xstring (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is converted first to data type i (see above) and then to type xstring (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_ibs.htm)).
 
 Example
 
@@ -102,11 +106,11 @@ Conversion
 
 d
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\))
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_c.htm)
 
 t
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\))
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_c.htm)
 
 Example
 

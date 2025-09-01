@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, Built-In Functions](javascript:call_link\('abencds_f1_builtin_functions.htm'\)) →  [ABAP CDS - Special Functions](javascript:call_link\('abencds_special_functions.htm'\)) →  [ABAP CDS - Date Functions and Time Functions](javascript:call_link\('abencds_f1_date_time_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, Built-In Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_builtin_functions.htm) →  [ABAP CDS - Special Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_special_functions.htm) →  [ABAP CDS - Date Functions and Time Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_date_time_functions.htm) → 
 
 ABAP CDS - Date Functions
 
@@ -24,11 +24,11 @@ Variants:
 
 Effect
 
-In a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"), these functions execute operations with arguments of the predefined data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)). The functions have positional parameters to which actual parameters need to be assigned when called. There are currently no optional parameters. Suitable fields of a [data source](javascript:call_link\('abencds_f1_data_source.htm'\)), [literals](javascript:call_link\('abencds_f1_literal.htm'\)), [parameters](javascript:call_link\('abencds_f1_parameter.htm'\)), [path expressions](javascript:call_link\('abencds_f1_path_expression.htm'\)), predefined functions, or expressions can all be specified as actual parameters. Only literals can be passed to the parameter on\_error. If an actual parameter contains the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), every function except DATS\_IS\_VALID returns a null value.
+In a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"), these functions execute operations with arguments of the predefined data type [DATS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm). The functions have positional parameters to which actual parameters need to be assigned when called. There are currently no optional parameters. Suitable fields of a [data source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm), [literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm), [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter.htm), [path expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm), predefined functions, or expressions can all be specified as actual parameters. Only literals can be passed to the parameter on\_error. If an actual parameter contains the [null value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennull_value_glosry.htm "Glossary Entry"), every function except DATS\_IS\_VALID returns a null value.
 
 Note
 
-The session variable [$session.system\_date](javascript:call_link\('abencds_f1_session_variable.htm'\)) is used in a CDS view to provide direct access to the current system date. In addition, special annotation [@Environment.systemField](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)) makes it possible to pass the value of the [ABAP system field](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") sy-datum to [input parameters](javascript:call_link\('abencds_f1_parameter_list.htm'\)).
+The session variable [$session.system\_date](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_session_variable.htm) is used in a CDS view to provide direct access to the current system date. In addition, special annotation [@Environment.systemField](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_annotations.htm) makes it possible to pass the value of the [ABAP system field](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_field_glosry.htm "Glossary Entry") sy-datum to [input parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_list.htm).
 
 Variant 1
 
@@ -36,7 +36,7 @@ Variant 1
 
 Effect
 
-The function DATS\_IS\_VALID determines whether date (if specified) contains a valid date in the format YYYYMMDD. The actual parameter must have the predefined data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)). The result has the data type [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)). A valid date produces the value 1 and all other input values (including the null value) produce the value 0.
+The function DATS\_IS\_VALID determines whether date (if specified) contains a valid date in the format YYYYMMDD. The actual parameter must have the predefined data type [DATS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm). The result has the data type [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm). A valid date produces the value 1 and all other input values (including the null value) produce the value 0.
 
 Note
 
@@ -48,11 +48,11 @@ Variant 2
 
 Effect
 
-The function DATS\_DAYS\_BETWEEN calculates the difference between two specified dates, date1 and date2, in days. The actual parameters must have the predefined data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) and should contain a valid date in the format YYYYMMDD. Any invalid dates specified are initialized or set to the value "00010101" before the calculation. The result has the data type [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)). If date2 is greater than date1, the result is positive. In the reverse case, it is negative.
+The function DATS\_DAYS\_BETWEEN calculates the difference between two specified dates, date1 and date2, in days. The actual parameters must have the predefined data type [DATS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) and should contain a valid date in the format YYYYMMDD. Any invalid dates specified are initialized or set to the value "00010101" before the calculation. The result has the data type [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm). If date2 is greater than date1, the result is positive. In the reverse case, it is negative.
 
 Note
 
-Before the difference is calculated, the specified dates are converted to integers, like in ABAP, and the corresponding [rules](javascript:call_link\('abenconversion_type_d.htm'\)) apply.
+Before the difference is calculated, the specified dates are converted to integers, like in ABAP, and the corresponding [rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_d.htm) apply.
 
 Variant 3
 
@@ -62,11 +62,11 @@ Effect
 
 The function DATS\_ADD\_DAYS adds days days to a specified date date.
 
--   The actual parameter date must have the predefined data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) and should contain a valid date in the format YYYYMMDD. Any invalid date specified is initialized or set to the value "00010101" before the calculation.
+-   The actual parameter date must have the predefined data type [DATS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) and should contain a valid date in the format YYYYMMDD. Any invalid date specified is initialized or set to the value "00010101" before the calculation.
 
--   The actual parameter days must have the predefined data type [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)).
+-   The actual parameter days must have the predefined data type [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm).
 
--   The actual parameter on\_error must have the predefined data type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with the length 10 and must have one of the following values:
+-   The actual parameter on\_error must have the predefined data type [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with the length 10 and must have one of the following values:
 
 -   "FAIL" (an error raises an exception)
 
@@ -78,11 +78,11 @@ The function DATS\_ADD\_DAYS adds days days to a specified date date.
 
 The format is not case-sensitive. Any incorrectly specified values raise an exception.
 
-The result has the data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)). If days is positive, the number of days is added to date. In other cases, the number of days is subtracted. If the calculation produces an invalid date, the error is handled as specified in on\_error.
+The result has the data type [DATS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm). If days is positive, the number of days is added to date. In other cases, the number of days is subtracted. If the calculation produces an invalid date, the error is handled as specified in on\_error.
 
 Note
 
-For the calculation, the specified date is [converted](javascript:call_link\('abenconversion_type_d.htm'\)) to an integer, like in ABAP, and the result is [converted](javascript:call_link\('abenconversion_type_ibs.htm'\)) to a date again while applying the corresponding rules.
+For the calculation, the specified date is [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_d.htm) to an integer, like in ABAP, and the result is [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_ibs.htm) to a date again while applying the corresponding rules.
 
 Variant 4
 
@@ -92,13 +92,13 @@ Effect
 
 The function DATS\_ADD\_MONTHS adds months months to a specified date date.
 
--   The actual parameter date must have the predefined data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) and should contain a valid date in the format YYYYMMDD. Any invalid date specified is initialized or set to the value "00010101" before the calculation.
+-   The actual parameter date must have the predefined data type [DATS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) and should contain a valid date in the format YYYYMMDD. Any invalid date specified is initialized or set to the value "00010101" before the calculation.
 
--   The actual parameter months must have the predefined data type [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)).
+-   The actual parameter months must have the predefined data type [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm).
 
 -   The same applies to the actual parameter on\_error as to DATS\_ADD\_DAYS.
 
-The result has the data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)). If months is positive, the number of months is added to date. In other cases, the number of months is subtracted.
+The result has the data type [DATS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm). If months is positive, the number of months is added to date. In other cases, the number of months is subtracted.
 
 An attempt is made to create a date with the same day in an earlier or later month. If the maximum day possible in a month is exceeded, the greatest possible day is used. If the calculation produces an otherwise invalid date, the error is handled as specified in on\_error.
 

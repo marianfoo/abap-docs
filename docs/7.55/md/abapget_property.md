@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and OLE](javascript:call_link\('abenole2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP and OLE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenole2.htm) → 
 
 GET PROPERTY, OLE
 
-[Short Reference](javascript:call_link\('abapget_property_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_property_shortref.htm)
 
 Syntax
 
@@ -23,7 +23,7 @@ Additions:
 
 Effect
 
-Assigns the content of the attribute attr of an automation object ole to the data object dobj. The automation object must have been created using the special statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)) for automation objects. For the [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of ole, the description of the statement CREATE OBJECT applies. The typing of the data object dobj depends on the properties of the automation attribute attr.
+Assigns the content of the attribute attr of an automation object ole to the data object dobj. The automation object must have been created using the special statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_ole2.htm) for automation objects. For the [typing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_glosry.htm "Glossary Entry") of ole, the description of the statement CREATE OBJECT applies. The typing of the data object dobj depends on the properties of the automation attribute attr.
 
 System Fields
 
@@ -61,7 +61,7 @@ Addition 2
 
 Effect
 
-For the description of the NO FLUSH and QUEUE-ONLY additions, refer to the description of the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)).
+For the description of the NO FLUSH and QUEUE-ONLY additions, refer to the description of the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_ole2.htm).
 
 Addition 3
 

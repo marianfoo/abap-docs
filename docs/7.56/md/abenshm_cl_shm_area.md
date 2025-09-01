@@ -4,20 +4,28 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Classes and Interfaces](javascript:call_link\('abenshm_classes.htm'\)) →  [Shared Objects - CL\_ABAP\_MEMORY\_AREA](javascript:call_link\('abenshm_cl_abap_memory_area.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shared_objects.htm) →  [Shared Objects - Classes and Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_classes.htm) →  [Shared Objects - CL\_ABAP\_MEMORY\_AREA](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_cl_abap_memory_area.htm) → 
 
 Shared Objects - CL\_SHM\_AREA
 
-The class CL\_SHM\_AREA is a subclass of [CL\_ABAP\_MEMORY\_AREA](javascript:call_link\('abenshm_cl_abap_memory_area.htm'\)) and the superclass of all area classes that are generated when an area is created using transaction SHMA. This class contains general attributes and methods for the corresponding [area handles](javascript:call_link\('abenarea_handle_glosry.htm'\) "Glossary Entry").
+The class CL\_SHM\_AREA is a subclass of [CL\_ABAP\_MEMORY\_AREA](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_cl_abap_memory_area.htm) and the superclass of all area classes that are generated when an area is created using transaction SHMA. This class contains general attributes and methods for the corresponding [area handles](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarea_handle_glosry.htm "Glossary Entry").
 
--   [Instance Attributes](#abenshm-cl-shm-area-1-----------properties---@ITOC@@ABENSHM_CL_SHM_AREA_2)
-    -   [INST\_NAME](#abenshm-cl-shm-area-3-----------client---@ITOC@@ABENSHM_CL_SHM_AREA_4)
--   [Static Methods](#abenshm-cl-shm-area-5-----------multi--attach---@ITOC@@ABENSHM_CL_SHM_AREA_6)
-    -   [DETACH\_ALL\_AREAS](#abenshm-cl-shm-area-7-------instance-methods---@ITOC@@ABENSHM_CL_SHM_AREA_8)
-    -   [DETACH](#abenshm-cl-shm-area-9-----------detach--commit---@ITOC@@ABENSHM_CL_SHM_AREA_10)
-    -   [DETACH\_ROLLBACK](#abenshm-cl-shm-area-11-----------get--lock--kind---@ITOC@@ABENSHM_CL_SHM_AREA_12)
-    -   [GET\_ROOT](#abenshm-cl-shm-area-13-------instance-events---@ITOC@@ABENSHM_CL_SHM_AREA_14)
-    -   [SHM\_COMMIT\_EVENT](#abenshm-cl-shm-area-15-----------shm--rollback--event---@ITOC@@ABENSHM_CL_SHM_AREA_16)
+-   [Instance Attributes](#@@ITOC@@ABENSHM_CL_SHM_AREA_1)
+    -   [PROPERTIES](#@@ITOC@@ABENSHM_CL_SHM_AREA_2)
+    -   [INST\_NAME](#@@ITOC@@ABENSHM_CL_SHM_AREA_3)
+    -   [CLIENT](#@@ITOC@@ABENSHM_CL_SHM_AREA_4)
+-   [Static Methods](#@@ITOC@@ABENSHM_CL_SHM_AREA_5)
+    -   [MULTI\_ATTACH](#@@ITOC@@ABENSHM_CL_SHM_AREA_6)
+    -   [DETACH\_ALL\_AREAS](#@@ITOC@@ABENSHM_CL_SHM_AREA_7)
+-   [Instance Methods](#@@ITOC@@ABENSHM_CL_SHM_AREA_8)
+    -   [DETACH](#@@ITOC@@ABENSHM_CL_SHM_AREA_9)
+    -   [DETACH\_COMMIT](#@@ITOC@@ABENSHM_CL_SHM_AREA_10)
+    -   [DETACH\_ROLLBACK](#@@ITOC@@ABENSHM_CL_SHM_AREA_11)
+    -   [GET\_LOCK\_KIND](#@@ITOC@@ABENSHM_CL_SHM_AREA_12)
+    -   [GET\_ROOT](#@@ITOC@@ABENSHM_CL_SHM_AREA_13)
+-   [Instance Events](#@@ITOC@@ABENSHM_CL_SHM_AREA_14)
+    -   [SHM\_COMMIT\_EVENT](#@@ITOC@@ABENSHM_CL_SHM_AREA_15)
+    -   [SHM\_ROLLBACK\_EVENT](#@@ITOC@@ABENSHM_CL_SHM_AREA_16)
 
 Instance Attributes
 
@@ -31,11 +39,11 @@ Structure of type SHM\_PROPERTIES with the property READ-ONLY. The components of
     
 -   AUTO\_BUILD\_CLASS
     
-    Contains the name of the [area constructor class](javascript:call_link\('abenshm_area_constructor_class.htm'\)) that implements the constructor BUILD using the interface [IF\_SHM\_BUILD\_INSTANCE](javascript:call_link\('abenshm_if_shm_build_instance.htm'\)) to rebuild area instance versions automatically. This component is only filled if the area handle is bound by a change lock to an area instance version and is otherwise initial.
+    Contains the name of the [area constructor class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_area_constructor_class.htm) that implements the constructor BUILD using the interface [IF\_SHM\_BUILD\_INSTANCE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_if_shm_build_instance.htm) to rebuild area instance versions automatically. This component is only filled if the area handle is bound by a change lock to an area instance version and is otherwise initial.
     
 -   BUILD\_KIND
     
-    Controls when area instance versions of the area are to be built automatically using the area constructor in the [area constructor class](javascript:call_link\('abenshm_area_constructor_class.htm'\)). If the value is CL\_SHM\_AREA=>BUILD\_KIND\_NONE, area instance versions are not built automatically. This is always the case if the component AUTO\_BUILD has the value abap\_false. If the component AUTO\_BUILD has the value abap\_true, the component BUILD\_KIND can have the values CL\_SHM\_AREA=>BUILD\_KIND\_DUE\_TO\_READ\_REQUEST or CL\_SHM\_AREA=>BUILD\_KIND\_DUE\_TO\_INVALIDATION. If the component has the value CL\_SHM\_AREA=>BUILD\_KIND\_DUE\_TO\_READ\_REQUEST and no active area instance versions exist, the area constructor is called automatically during a read access. If it has the value CL\_SHM\_AREA=>BUILD\_KIND\_DUE\_TO\_INVALIDATION, the area constructor is called in the same way as with value CL\_SHM\_AREA=>BUILD\_KIND\_DUE\_TO\_READ\_REQUEST. Furthermore, the constructor is called in transitions from an active version to an obsolete or expired version, without creating an active area instance version.
+    Controls when area instance versions of the area are to be built automatically using the area constructor in the [area constructor class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_area_constructor_class.htm). If the value is CL\_SHM\_AREA=>BUILD\_KIND\_NONE, area instance versions are not built automatically. This is always the case if the component AUTO\_BUILD has the value abap\_false. If the component AUTO\_BUILD has the value abap\_true, the component BUILD\_KIND can have the values CL\_SHM\_AREA=>BUILD\_KIND\_DUE\_TO\_READ\_REQUEST or CL\_SHM\_AREA=>BUILD\_KIND\_DUE\_TO\_INVALIDATION. If the component has the value CL\_SHM\_AREA=>BUILD\_KIND\_DUE\_TO\_READ\_REQUEST and no active area instance versions exist, the area constructor is called automatically during a read access. If it has the value CL\_SHM\_AREA=>BUILD\_KIND\_DUE\_TO\_INVALIDATION, the area constructor is called in the same way as with value CL\_SHM\_AREA=>BUILD\_KIND\_DUE\_TO\_READ\_REQUEST. Furthermore, the constructor is called in transitions from an active version to an obsolete or expired version, without creating an active area instance version.
     
 -   CLIENT\_DEPENDENT
     
@@ -59,7 +67,7 @@ Structure of type SHM\_PROPERTIES with the property READ-ONLY. The components of
     
 -   LIFE\_CONTEXT
     
-    Determines the visibility and lifetime of the area instance versions of the area. If it has the value CL\_SHM\_AREA=>LIFE\_CONTEXT\_APPSERVER, the area instance versions exist until the AS instance is shut down (default value). If it has the value CL\_SHM\_AREA=>LIFE\_CONTEXT\_SESSION, the area instances exist until the last [ABAP session](javascript:call_link\('abenabap_session_glosry.htm'\) "Glossary Entry") of the current user ends. If it has the value CL\_SHM\_AREA=>LIFE\_CONTEXT\_MODE, the area instances exist for as long as the current ABAP session. If it has the value CL\_SHM\_AREA=>LIFE\_CONTEXT\_MEMORY, the area instances exist for as long as the data exists in the ABAP memory in the current call sequence.
+    Determines the visibility and lifetime of the area instance versions of the area. If it has the value CL\_SHM\_AREA=>LIFE\_CONTEXT\_APPSERVER, the area instance versions exist until the AS instance is shut down (default value). If it has the value CL\_SHM\_AREA=>LIFE\_CONTEXT\_SESSION, the area instances exist until the last [ABAP session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_session_glosry.htm "Glossary Entry") of the current user ends. If it has the value CL\_SHM\_AREA=>LIFE\_CONTEXT\_MODE, the area instances exist for as long as the current ABAP session. If it has the value CL\_SHM\_AREA=>LIFE\_CONTEXT\_MEMORY, the area instances exist for as long as the data exists in the ABAP memory in the current call sequence.
     
 -   MAX\_AREA\_SIZE
     
@@ -84,7 +92,7 @@ Structure of type SHM\_PROPERTIES with the property READ-ONLY. The components of
 
 INST\_NAME
 
-Text field of type SHM\_INST\_NAME with the property READ-ONLY. This attribute contains the name of the current area instance and it is set when an area instance is created using the method ATTACH\_FOR\_WRITE of the [area class](javascript:call_link\('abenshm_area_class.htm'\)).
+Text field of type SHM\_INST\_NAME with the property READ-ONLY. This attribute contains the name of the current area instance and it is set when an area instance is created using the method ATTACH\_FOR\_WRITE of the [area class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_area_class.htm).
 
 CLIENT
 
@@ -135,7 +143,7 @@ Input/Output Parameters
         If an exception is raised, this column returns a reference to the exception object for either one line or all affected lines, depending on the value of IGNORE\_ERRORS. In addition to the exceptions of ATTACH methods for settings individual locks in the area class, the exception CX\_SHM\_MULTI\_ATTACH\_ERROR can also be raised in the following cases: a write lock and an update lock are requested at the same time on an area instance version (exception text: DUPLICATE\_CHANGE\_LOCK), a lock for a client other than the current client is requested on an area instance version with automatic area building (exception text: ILLEGAL\_AUTO\_BUILD\_CLIENT), a client ID is specified for a client-independent area (exception text: ILLEGAL\_CLIENT\_FOR\_AREA). If this is successful, the column is initial.
         
     
-    For more information about the individual components, see also the description of the parameters of the ATTACH methods for setting individual locks in the [area class](javascript:call_link\('abenshm_area_class.htm'\)).
+    For more information about the individual components, see also the description of the parameters of the ATTACH methods for setting individual locks in the [area class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_area_class.htm).
     
 
 Input Parameters
@@ -167,7 +175,7 @@ Output Parameters
 
 DETACH\_ALL\_AREAS
 
-Releases all locks of the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") on any area instance versions of any areas, and thus deactivates all of the area handles of the internal session. If a write lock or update lock is released, any changes that were made to area instance versions are discarded until then.
+Releases all locks of the current [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry") on any area instance versions of any areas, and thus deactivates all of the area handles of the internal session. If a write lock or update lock is released, any changes that were made to area instance versions are discarded until then.
 
 Return Value
 
@@ -201,7 +209,7 @@ Exceptions
 
 DETACH\_COMMIT
 
-Releases a change lock (write lock or update lock) on the current area handle and confirms the changes that were made. The area handle is then inactive. The prerequisite is that the current area instance version contains an instance of the area root class ( [root object](javascript:call_link\('abenroot_object_glosry.htm'\) "Glossary Entry")) and that there are no references from the area instance version to a different area instance of the shared objects memory or to the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
+Releases a change lock (write lock or update lock) on the current area handle and confirms the changes that were made. The area handle is then inactive. The prerequisite is that the current area instance version contains an instance of the area root class ( [root object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_object_glosry.htm "Glossary Entry")) and that there are no references from the area instance version to a different area instance of the shared objects memory or to the [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry").
 
 If an exception is raised when the method is executed, the change lock is not released correctly. It remains the same but cannot be released a second time using the method DETACH\_COMMIT. The DETACH\_ROLLBACK can be used instead.
 
@@ -289,7 +297,7 @@ Return Value
 
 GET\_ROOT
 
-Returns a reference to the [root object](javascript:call_link\('abenroot_object_glosry.htm'\) "Glossary Entry") (instance of the area root class) for an area handle. This method is intended for the unlikely case where multiple handles need to be handled for different areas with different area root classes. Otherwise the attribute ROOT of the [area class](javascript:call_link\('abenshm_area_class.htm'\)) can be accessed directly.
+Returns a reference to the [root object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_object_glosry.htm "Glossary Entry") (instance of the area root class) for an area handle. This method is intended for the unlikely case where multiple handles need to be handled for different areas with different area root classes. Otherwise the attribute ROOT of the [area class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_area_class.htm) can be accessed directly.
 
 Return value
 
@@ -313,4 +321,4 @@ SHM\_ROLLBACK\_EVENT
 This event is raised by the area handle automatically when the method DETACH\_ROLLBACK is called.
 
 Continue
-[Shared Objects - Area Classes](javascript:call_link\('abenshm_area_class.htm'\))
+[Shared Objects - Area Classes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_area_class.htm)

@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) →  [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfile_interface_statements.htm) →  [OPEN DATASET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset.htm) → 
 
 OPEN DATASET - access
 
-[Quick Reference](javascript:call_link\('abapopen_dataset_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset_shortref.htm)
 
 Syntax
 
@@ -64,7 +64,7 @@ Alternative 3
 
 Effect
 
-The addition FOR APPENDING opens the file for appending. If the file specified already exists, it is opened and the file pointer is set at the end of the file. If the file specified does not exist, it is created. Attempted reads to a file opened with FOR APPENDING with the statement [READ DATASET](javascript:call_link\('abapread_dataset.htm'\)) fail, and return the value 4 for sy-subrc.
+The addition FOR APPENDING opens the file for appending. If the file specified already exists, it is opened and the file pointer is set at the end of the file. If the file specified does not exist, it is created. Attempted reads to a file opened with FOR APPENDING with the statement [READ DATASET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_dataset.htm) fail, and return the value 4 for sy-subrc.
 
 Example
 

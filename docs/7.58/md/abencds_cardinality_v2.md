@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - CDS View Entity, SELECT, Associations](javascript:call_link\('abencds_association_v2.htm'\)) →  [CDS DDL - CDS View Entity, ASSOCIATION](javascript:call_link\('abencds_simple_association_v2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_select_statement_v2.htm) →  [CDS DDL - CDS View Entity, SELECT, Associations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_association_v2.htm) →  [CDS DDL - CDS View Entity, ASSOCIATION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_association_v2.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20CDS%20View%20Entity%2C%20cardinality%2C%20ABENCDS_CARDINALITY_V2%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improve
 ment:)
@@ -28,13 +28,13 @@ Alternatives:
 
 Effect
 
-Specifies a [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") to express the relation between the rows of the data sources. The following options are available:
+Specifies a [cardinality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencardinality_glosry.htm "Glossary Entry") to express the relation between the rows of the data sources. The following options are available:
 
--   The cardinality can be written in words. In this case, a [source](javascript:call_link\('abensource_cardinality_glosry.htm'\) "Glossary Entry") and a [target cardinality](javascript:call_link\('abentarget_cardinality_glosry.htm'\) "Glossary Entry") can be specified. This syntax variant is the recommended option.
--   The cardinality can be specified in numbers in square brackets. In this case, the minimum and maximum cardinality of the [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") is specified. No source cardinality can be specified. The implicit default source cardinality is MANY.
+-   The cardinality can be written in words. In this case, a [source](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensource_cardinality_glosry.htm "Glossary Entry") and a [target cardinality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentarget_cardinality_glosry.htm "Glossary Entry") can be specified. This syntax variant is the recommended option.
+-   The cardinality can be specified in numbers in square brackets. In this case, the minimum and maximum cardinality of the [association target](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassociation_target_glosry.htm "Glossary Entry") is specified. No source cardinality can be specified. The implicit default source cardinality is MANY.
 -   The cardinality is optional and can be left out. In this case, the implicit default is many-to-one. SAP recommends always specifying the cardinality explicitly.
 
-A cardinality is specified to document the semantics of the data model. Moreover, the SAP HANA database uses the cardinality for performance optimizations. Left outer joins (LEFT OUTER JOIN) produced by [path expressions](javascript:call_link\('abencds_path_expression_v2.htm'\)) are given the addition TO ONE if an explicit or implicit to-one cardinality is used and the addition TO MANY if any other cardinality is used. These additions work in the same way as when they are specified explicitly in [LEFT OUTER JOIN](javascript:call_link\('abencds_joined_data_source_v2.htm'\)). This means that an optimization is attempted and the result can be undefined if the result set does not match the cardinality.
+A cardinality is specified to document the semantics of the data model. Moreover, the SAP HANA database uses the cardinality for performance optimizations. Left outer joins (LEFT OUTER JOIN) produced by [path expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_v2.htm) are given the addition TO ONE if an explicit or implicit to-one cardinality is used and the addition TO MANY if any other cardinality is used. These additions work in the same way as when they are specified explicitly in [LEFT OUTER JOIN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_joined_data_source_v2.htm). This means that an optimization is attempted and the result can be undefined if the result set does not match the cardinality.
 
 If no cardinality is specified, the implicit default cardinality is MANY TO ONE.
 
@@ -46,7 +46,7 @@ Hints
 
 Example
 
-The following example shows how an incorrect cardinality leads to unexpected results. A CDS view entity joins the DDIC database tables SCARR and SPFLI in a CDS association \_spfli without specifying the cardinality explicitly. The implicitly set cardinality is MANY TO ONE. If the CDS association is used in a path specified in the SELECT list, this is implemented on the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") as a left outer join using the addition MANY TO ONE. The actual cardinality of the data is, however, TO MANY.
+The following example shows how an incorrect cardinality leads to unexpected results. A CDS view entity joins the DDIC database tables SCARR and SPFLI in a CDS association \_spfli without specifying the cardinality explicitly. The implicitly set cardinality is MANY TO ONE. If the CDS association is used in a path specified in the SELECT list, this is implemented on the [SAP HANA database](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_database_glosry.htm "Glossary Entry") as a left outer join using the addition MANY TO ONE. The actual cardinality of the data is, however, TO MANY.
 
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
 define view entity DEMO\_CDS\_WRONG\_CARDINALITY\_1
@@ -62,7 +62,7 @@ The class CL\_DEMO\_CDS\_WRONG\_CRDNLTY\_1 uses different SELECT statements to a
 
 Example
 
-The following CDS view entity joins the DDIC database tables SCARR and SPFLI in a CDS association \_spfli while specifying the cardinality explicitly and correctly. If the CDS association is used in a path specified in the SELECT list, this is implemented on the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") as a left outer many-to-many join. This matches the actual cardinality of the data.
+The following CDS view entity joins the DDIC database tables SCARR and SPFLI in a CDS association \_spfli while specifying the cardinality explicitly and correctly. If the CDS association is used in a path specified in the SELECT list, this is implemented on the [SAP HANA database](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_database_glosry.htm "Glossary Entry") as a left outer many-to-many join. This matches the actual cardinality of the data.
 
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
 define view entity DEMO\_CDS\_EXPLICIT\_CARD\_1
@@ -99,8 +99,8 @@ Hints
 
 -   SAP recommends using the cardinality syntax written in words instead of the numeric syntax, since it improves query performance in some scenarios.
 -   Further details can be found on SAP Help Portal in the SAP HANA SQL Reference Guide for SAP HANA Platform.
--   In case of [to-child associations](javascript:call_link\('abento_child_association_glosry.htm'\) "Glossary Entry"), the source cardinality must be set to EXACT ONE. It can also be left out and is then implicitly set to EXACT ONE. No other source cardinality is valid for to-child associations.
--   The cardinality syntax written in words is available in [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"), [CDS projection views](javascript:call_link\('abencds_projection_view_glosry.htm'\) "Glossary Entry"), [CDS custom entities](javascript:call_link\('abencds_custom_entity_glosry.htm'\) "Glossary Entry"), and [CDS abstract entities](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry"). It is not available in any other CDS entity.
+-   In case of [to-child associations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abento_child_association_glosry.htm "Glossary Entry"), the source cardinality must be set to EXACT ONE. It can also be left out and is then implicitly set to EXACT ONE. No other source cardinality is valid for to-child associations.
+-   The cardinality syntax written in words is available in [CDS view entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_view_glosry.htm "Glossary Entry"), [CDS projection views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_projection_view_glosry.htm "Glossary Entry"), [CDS custom entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_custom_entity_glosry.htm "Glossary Entry"), and [CDS abstract entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry"). It is not available in any other CDS entity.
 
 Example
 
@@ -131,13 +131,13 @@ Alternative 2  
 
 Effect
 
-The numeric syntax specifies the cardinality of the [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") of a CDS view entity. The square brackets \[ \] are part of the syntax. For min and max, positive integers (including 0) and asterisks (\*) can be specified:
+The numeric syntax specifies the cardinality of the [association target](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a CDS view entity. The square brackets \[ \] are part of the syntax. For min and max, positive integers (including 0) and asterisks (\*) can be specified:
 
 -   max cannot be 0.
 -   An asterisk \* for max means any number of rows.
 -   min can be omitted (set to 0 if omitted).
 -   min cannot be \*.
--   When a CDS association is used in a [WHERE condition](javascript:call_link\('abencds_where_clause_v2.htm'\)), 1 must be specified for max.
+-   When a CDS association is used in a [WHERE condition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_where_clause_v2.htm), 1 must be specified for max.
 
 If the cardinality is not defined explicitly, the cardinality to-one is used implicitly (\[min..1\]).
 

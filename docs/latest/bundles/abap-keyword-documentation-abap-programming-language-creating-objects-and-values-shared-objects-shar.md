@@ -3,27 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
-- [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
-- [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.904Z
-
----
-
 ### abenshm_examples_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,28 +11,21 @@ Included pages: 3
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_shared_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Shared%20Objects%20-%20Examples%2C%20ABENSHM_EXAMPLES_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Shared Objects - Examples
 
--   [Shared Objects - Example](javascript:call_link\('abenshared_objects_abexa.htm'\))
--   [Shared Objects - Writing to and Reading from an Area](javascript:call_link\('abenshared_objects2_abexa.htm'\))
+-   [Shared Objects - Example](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
+-   [Shared Objects - Writing to and Reading from an Area](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Shared Objects - Example](javascript:call_link\('abenshared_objects_abexa.htm'\))
-![Example](exa.gif "Example") [Shared Objects - Writing to and Reading from an Area](javascript:call_link\('abenshared_objects2_abexa.htm'\))
+![Example](exa.gif "Example") [Shared Objects - Example](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
+![Example](exa.gif "Example") [Shared Objects - Writing to and Reading from an Area](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
 
-
-
-**📖 Source**: [abenshm_examples_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm)
 
 ### abenshared_objects_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -60,7 +33,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Examples](javascript:call_link\('abenshm_examples_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_shared_objects.htm) →  [Shared Objects - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Shared%20Objects%20-%20Example%2C%20ABENSHARED_OBJECTS_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -170,7 +143,7 @@ CL\_DEMO\_FLIGHTS is used as an area whose properties are maintained in the tran
 
 Brokers and Loaders   
 
-The class demo\_flight\_list\_handler encapsulates access to the area for the user (in the real world, this would be a global class). The static constructor creates an instance of this class (singleton). The method get\_flight\_list is used as a broker. It attempts to set a read lock on an area instance. Since there can only be one read lock within an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"), a query is first made to establish whether an area handle area already exists. Alternatively, the exception CX\_SHM\_READ\_LOCK\_ACTIVE could have been handled, but this is less effective in this example. If the operation is not successful, the method create\_flight\_list is called, which acts as a loader. This method attempts to set a write lock and to build an area instance with a root object. Any exceptions are propagated to the calling method. A DETACH\_ROLLBACK is executed before any possible CX\_NO\_FLIGHTS exception from SET\_FLIGHT\_LIST is forwarded to the caller. If the change lock is not removed explicitly, the execution is terminated at the end of the current internal session at the latest.
+The class demo\_flight\_list\_handler encapsulates access to the area for the user (in the real world, this would be a global class). The static constructor creates an instance of this class (singleton). The method get\_flight\_list is used as a broker. It attempts to set a read lock on an area instance. Since there can only be one read lock within an [internal session](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm "Glossary Entry"), a query is first made to establish whether an area handle area already exists. Alternatively, the exception CX\_SHM\_READ\_LOCK\_ACTIVE could have been handled, but this is less effective in this example. If the operation is not successful, the method create\_flight\_list is called, which acts as a loader. This method attempts to set a write lock and to build an area instance with a root object. Any exceptions are propagated to the calling method. A DETACH\_ROLLBACK is executed before any possible CX\_NO\_FLIGHTS exception from SET\_FLIGHT\_LIST is forwarded to the caller. If the change lock is not removed explicitly, the execution is terminated at the end of the current internal session at the latest.
 
 If the area was built successfully, get\_flight\_list attempts to set a read lock again. If no area instance could be built, get\_flight\_list creates an object of the class CL\_DEMO\_FLIGHT\_LIST in the current internal session as an emergency measure and fills the internal table flight\_list. Finally, a data reference to the flight list is assigned to the return value of the method either in the root object of the shared object or in the local object.
 
@@ -183,17 +156,7 @@ The class shm\_demo demonstrates a user. The method main creates an object of th
 After executing the class, the area instance version can be examined in transaction SHMM.
 
 
-
-**📖 Source**: [abenshared_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects_abexa.htm)
-
 ### abenshared_objects2_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenshared_objects2_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_objects2_abexa.htm)
-
 
   
 
@@ -201,7 +164,7 @@ After executing the class, the area instance version can be examined in transact
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Examples](javascript:call_link\('abenshm_examples_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_shared_objects.htm) →  [Shared Objects - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_examples_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Shared%20Objects%20-%20Writing%20to%20and%20Reading%20from%20an%20Area%2C%20ABENSHARED_OBJECTS2_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugge
 stion%20for%20improvement:)
@@ -302,8 +265,8 @@ Description  
 
 The internal table values is filled with data the writing and reading procedure is based on. It also provides instance names.
 
-The table is looped across to write the entries to the area. First, an area is created before any data can be written to the shared memory using the method [ATTACH\_FOR\_WRITE](javascript:call_link\('abenshm_cl_shm_area.htm'\)). This method call includes the instance name that is provided in the internal table. This method returns a handle to the area (or instance), that has just been created in the shared memory. Then, a root object is created for the instance using a [CREATE OBJECT ... AREA HANDLE ...](javascript:call_link\('abapcreate_object_area_handle.htm'\)) statement that includes the handle returned by the method call before. The WRITE method of the root reference is called providing the values for the attributes that are stored in the shared memory. Calling the [DETACH\_COMMIT](javascript:call_link\('abenshm_cl_shm_area.htm'\)) method releases the change lock.
+The table is looped across to write the entries to the area. First, an area is created before any data can be written to the shared memory using the method [ATTACH\_FOR\_WRITE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_cl_shm_area.htm). This method call includes the instance name that is provided in the internal table. This method returns a handle to the area (or instance), that has just been created in the shared memory. Then, a root object is created for the instance using a [CREATE OBJECT ... AREA HANDLE ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object_area_handle.htm) statement that includes the handle returned by the method call before. The WRITE method of the root reference is called providing the values for the attributes that are stored in the shared memory. Calling the [DETACH\_COMMIT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_cl_shm_area.htm) method releases the change lock.
 
-The internal table is looped across again to read from the instances using the instance names. The [ATTACH\_FOR\_READ](javascript:call_link\('abenshm_cl_shm_area.htm'\)) method is called using those instance names and the area handle as parameters. Using the READ method, the values of the attributes of the individual instances that have been created before are retrieved from the shared memory. Calling the [DETACH](javascript:call_link\('abenshm_cl_shm_area.htm'\)) method releases the read lock.
+The internal table is looped across again to read from the instances using the instance names. The [ATTACH\_FOR\_READ](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_cl_shm_area.htm) method is called using those instance names and the area handle as parameters. Using the READ method, the values of the attributes of the individual instances that have been created before are retrieved from the shared memory. Calling the [DETACH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_cl_shm_area.htm) method releases the read lock.
 
 After the executing the class, the area instance versions can be examined in transaction SHMM.

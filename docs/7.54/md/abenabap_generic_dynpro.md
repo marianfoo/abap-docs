@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_dynamic.htm) → 
 
 Screen
 
-The statements for creating and maintaining [screens](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") are not released for application programming and cannot be used in application programs.
+The statements for creating and maintaining [screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm "Glossary Entry") are not released for application programming and cannot be used in application programs.
 
 Continue
-[Internal Statements for Editing Dynpros](javascript:call_link\('abengeneric_dynpro_internal.htm'\))
+[Internal Statements for Editing Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneric_dynpro_internal.htm)

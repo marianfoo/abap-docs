@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Access Control](javascript:call_link\('abencds_authorizations.htm'\)) →  [ABAP CDS - DCL Statements](javascript:call_link\('abencds_f1_dcl_syntax.htm'\)) →  [ABAP CDS - DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) →  [ABAP CDS - DEFINE ROLE, condition](javascript:call_link\('abencds_dcl_role_conditions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds.htm) →  [ABAP CDS - Access Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_authorizations.htm) →  [ABAP CDS - DCL Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_syntax.htm) →  [ABAP CDS - DEFINE ROLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_role.htm) →  [ABAP CDS - DEFINE ROLE, condition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_dcl_role_conditions.htm) → 
 
 ABAP CDS - DEFINE ROLE, Data Types
 
-The operand specified on the left side of a [condition](javascript:call_link\('abencds_dcl_role_conditions.htm'\)) of an [access rule](javascript:call_link\('abencds_dcl_role_rules.htm'\)) of a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry") cannot have all the [built-in data types in ABAP Dictionary](javascript:call_link\('abenddic_builtin_types.htm'\)). Only the following types are permitted:
+The operand specified on the left side of a [condition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_dcl_role_conditions.htm) of an [access rule](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_dcl_role_rules.htm) of a [CDS role](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_role_glosry.htm "Glossary Entry") cannot have all the [built-in data types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm). Only the following types are permitted:
 
 -   Numeric Types
 
@@ -32,6 +32,6 @@ The operand specified on the left side of a [condition](javascript:call_link\('a
 
 -   NUMC
 
-Any other data types generally produce a syntax error in the definition of a CDS role. In [PFCG conditions](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)), however, invalid data types are sometimes not detected until runtime.
+Any other data types generally produce a syntax error in the definition of a CDS role. In [PFCG conditions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_cond_pfcg.htm), however, invalid data types are sometimes not detected until runtime.
 
-In PFCG conditions, field values of [authorizations](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry") are compared with [CDS elements](javascript:call_link\('abencds_element_glosry.htm'\) "Glossary Entry") of the permitted data types and an appropriate [conversion](javascript:call_link\('abencds_f1_dcl_pfcg_mapping.htm'\)) takes place.
+In PFCG conditions, field values of [authorizations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthorization_glosry.htm "Glossary Entry") are compared with [CDS elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_element_glosry.htm "Glossary Entry") of the permitted data types and an appropriate [conversion](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_pfcg_mapping.htm) takes place.

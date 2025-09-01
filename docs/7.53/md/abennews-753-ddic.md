@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [Changes in Release 7.53](javascript:call_link\('abennews-753.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews.htm) →  [Changes in Releases 7.5x](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-75.htm) →  [Changes in Release 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-753.htm) → 
 
 ABAP Dictionary in Release 7.53
 
@@ -18,19 +18,19 @@ Modification 1
 
 Dependency Rules
 
-In ABAP Dictionary, the [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") can be used to define [dependency rules](javascript:call_link\('abenddic_dependency_rules.htm'\)) in the SAP HANA database. A dependency rule makes it possible to derive additional selection conditions from existing conditions when a database table is accessed. In the [data aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry") concept, for example, dependency rules are used in the [optimization of access to old data](javascript:call_link\('abenhana_data_aging_druls.htm'\)).
+In ABAP Dictionary, the [Dictionary DDL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") can be used to define [dependency rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_dependency_rules.htm) in the SAP HANA database. A dependency rule makes it possible to derive additional selection conditions from existing conditions when a database table is accessed. In the [data aging](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_aging_glosry.htm "Glossary Entry") concept, for example, dependency rules are used in the [optimization of access to old data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_data_aging_druls.htm).
 
 Modification 2
 
 Pooled Tables and Cluster Tables Obsolete
 
-All support for [pooled tables](javascript:call_link\('abenpooled_table_glosry.htm'\) "Glossary Entry") and [cluster tables](javascript:call_link\('abencluster_table_glosry.htm'\) "Glossary Entry") has been dropped. Any existing pooled tables and cluster tables are transformed to [transparent tables](javascript:call_link\('abentransparent_table_glosry.htm'\) "Glossary Entry"). Any existing [table pools](javascript:call_link\('abentable_pool_glosry.htm'\) "Glossary Entry") and [table clusters](javascript:call_link\('abentable_cluster_glosry.htm'\) "Glossary Entry") are removed. All restrictions that applied when accessing pooled tables and cluster tables hence no longer apply.
+All support for [pooled tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpooled_table_glosry.htm "Glossary Entry") and [cluster tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencluster_table_glosry.htm "Glossary Entry") has been dropped. Any existing pooled tables and cluster tables are transformed to [transparent tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransparent_table_glosry.htm "Glossary Entry"). Any existing [table pools](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_pool_glosry.htm "Glossary Entry") and [table clusters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_cluster_glosry.htm "Glossary Entry") are removed. All restrictions that applied when accessing pooled tables and cluster tables hence no longer apply.
 
 Modification 3
 
 Expanded Limits
 
-The following limits now apply to the number of fields and the length of the structure of a [database table](javascript:call_link\('abendatabase_table_glosry.htm'\) "Glossary Entry"), of a [database view](javascript:call_link\('abendatabase_view_glosry.htm'\) "Glossary Entry"), and of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"):
+The following limits now apply to the number of fields and the length of the structure of a [database table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_table_glosry.htm "Glossary Entry"), of a [database view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_view_glosry.htm "Glossary Entry"), and of a [CDS view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry"):
 
 -   Database tables
     

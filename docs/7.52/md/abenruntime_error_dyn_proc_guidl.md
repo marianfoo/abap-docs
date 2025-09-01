@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynamic_prog_technique_guidl.htm) → 
 
 Runtime Errors in Dynamic Processing
 
@@ -22,7 +22,7 @@ Details
 
 The different dynamic techniques also require different reactions to the possible exception situations. Examples:
 
--   When dynamic data objects are accessed, [their limitations must not be violated](javascript:call_link\('abenruntime_error_data_obj_guidl.htm'\) "Guideline"). For internal tables, for example, no row numbers must be specified for which no row exists.
+-   When dynamic data objects are accessed, [their limitations must not be violated](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenruntime_error_data_obj_guidl.htm "Guideline"). For internal tables, for example, no row numbers must be specified for which no row exists.
 
 -   Before data objects are accessed dynamically by using data references or field symbols, it must be ensured, before execution, that these are bound to a data object and this binding checked using IS BOUND or IS ASSIGNED, if necessary. Afterwards, the return value should be checked to see whether execution was successful.
 
@@ -32,7 +32,7 @@ The different dynamic techniques also require different reactions to the possibl
 
 -   If programs are developed generically, the programs in question must checked using the statement SYNTAX-CHECK.
 
-These examples illustrate how the use of dynamic techniques can lead to more complex and less clear code due to the numerous possible exception situations. Of course, the more the mentioned techniques are combined, the more complex and less clear the code becomes. Therefore, [dynamic programming techniques must always be used with care](javascript:call_link\('abenuse_dynamic_progr_tech_guidl.htm'\) "Guideline").
+These examples illustrate how the use of dynamic techniques can lead to more complex and less clear code due to the numerous possible exception situations. Of course, the more the mentioned techniques are combined, the more complex and less clear the code becomes. Therefore, [dynamic programming techniques must always be used with care](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuse_dynamic_progr_tech_guidl.htm "Guideline").
 
 Note
 

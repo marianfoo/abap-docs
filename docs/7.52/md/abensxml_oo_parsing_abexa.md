@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Class Libraries for XML](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)) →  [sXML Library, Examples](javascript:call_link\('abenabap_sxml_lib_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml.htm) →  [Class Libraries for XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml_libs.htm) →  [sXML Library](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sxml_lib.htm) →  [sXML Library, Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sxml_lib_abexas.htm) → 
 
 sXML Library, Object-Oriented Parsing
 
-Simple [object-oriented](javascript:call_link\('abenabap_sxml_lib_parse_oo.htm'\)) reading of XML data.
+Simple [object-oriented](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sxml_lib_parse_oo.htm) reading of XML data.
 
 Source Code
 
@@ -112,4 +112,4 @@ START-OF-SELECTION.
 
 Description
 
-The example has the same basic functions as the [executable example](javascript:call_link\('abensxml_parsing_abexa.htm'\)) for token-based parsing. Instead of the method NEXT\_NODE, however, the method READ\_NEXT\_NODE is used here and its return value analyzed. Depending on the current node type, a down cast is performed to a suitable interface and attributes and methods are used to read the attributes of the current node.
+The example has the same basic functions as the [executable example](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensxml_parsing_abexa.htm) for token-based parsing. Instead of the method NEXT\_NODE, however, the method READ\_NEXT\_NODE is used here and its return value analyzed. Depending on the current node type, a down cast is performed to a suitable interface and attributes and methods are used to read the attributes of the current node.

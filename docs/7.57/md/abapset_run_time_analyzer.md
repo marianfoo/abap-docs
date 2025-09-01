@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [Runtime Measurements](javascript:call_link\('abenabap_runtime_measurements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_tests.htm) →  [Runtime Measurements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_runtime_measurements.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SET RUN TIME ANALYZER, ABAPSET_RUN_TIME_ANALYZER, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0
 D%0A%0D%0ASuggestion for improvement:)
 
 SET RUN TIME ANALYZER
 
-[Short Reference](javascript:call_link\('abapset_run_time_analyzer_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_run_time_analyzer_shortref.htm)
 
 Syntax
 
@@ -19,7 +19,7 @@ SET RUN TIME ANALYZER *{*ON*|*OFF*}*.
 
 Effect
 
-This statement affects the measurement of a program with the [runtime analysis](javascript:call_link\('abenruntime_analysis_glosry.htm'\) "Glossary Entry") tool. If the setting Particular Units is activated in the runtime analysis, which can be done using Restrictions → Program Units, the runtime analysis only measures the runtime of statements that occur between SET RUN TIME ANALYZER ON and SET RUN TIME ANALYZER OFF.
+This statement affects the measurement of a program with the [runtime analysis](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenruntime_analysis_glosry.htm "Glossary Entry") tool. If the setting Particular Units is activated in the runtime analysis, which can be done using Restrictions → Program Units, the runtime analysis only measures the runtime of statements that occur between SET RUN TIME ANALYZER ON and SET RUN TIME ANALYZER OFF.
 
 System Fields
 
@@ -28,9 +28,9 @@ The statement SET RUN TIME ANALYZER always sets the return code sy-subrc to 0.
 Hints
 
 -   This statement should only be used in the test phase of a program to enable a later runtime measurement independently of the source code.
--   Runtime analysis can be switched on and off in transaction SAT by selecting System → Utilities → Runtime Analysis or by entering /RON and /ROFF in the command field of the [system toolbar](javascript:call_link\('abenstandard_toolbar_glosry.htm'\) "Glossary Entry")
+-   Runtime analysis can be switched on and off in transaction SAT by selecting System → Utilities → Runtime Analysis or by entering /RON and /ROFF in the command field of the [system toolbar](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_toolbar_glosry.htm "Glossary Entry")
 -   Runtime analysis can be stopped and started on a program-driven basis by calling the static methods ON and OFF in CL\_ABAP\_TRACE\_SWITCH either before or after the statements SET RUN TIME ANALYZER.
--   Runtime analysis was replaced by the ABAP Profiler in the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry").
+-   Runtime analysis was replaced by the ABAP Profiler in the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry").
 
 Example
 

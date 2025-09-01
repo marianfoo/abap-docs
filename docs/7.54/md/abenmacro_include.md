@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Source Code Modules](javascript:call_link\('abenabap_language_includes.htm'\)) →  [Macros](javascript:call_link\('abenabap_macros.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_modularization.htm) →  [Source Code Modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_includes.htm) →  [Macros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_macros.htm) → 
 
 Inserting Macros
 
@@ -14,17 +14,17 @@ macro *\[*p1 p2 ... *\]*.
 
 Effect
 
-If a macro is executed as the first word in an ABAP statement instead of a valid [ABAP keyword](javascript:call_link\('abenabap_keyword_glosry.htm'\) "Glossary Entry"), its content is included at this position in the source code.
+If a macro is executed as the first word in an ABAP statement instead of a valid [ABAP keyword](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_keyword_glosry.htm "Glossary Entry"), its content is included at this position in the source code.
 
-To ensure that the program has correct syntax, the included macro must only contain full ABAP statements (except [DEFINE](javascript:call_link\('abapdefine.htm'\)) and [END-OF-DEFINITION](javascript:call_link\('abapend-of-definition.htm'\))) and introductory program statements. These statements create a source code section that is included in the current source code. The statements of a macro are not bound to the limits of processing blocks here.
+To ensure that the program has correct syntax, the included macro must only contain full ABAP statements (except [DEFINE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdefine.htm) and [END-OF-DEFINITION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-of-definition.htm)) and introductory program statements. These statements create a source code section that is included in the current source code. The statements of a macro are not bound to the limits of processing blocks here.
 
 Suitable ABAP words or operands p1, p2, ... must be passed to all of the placeholders of the macro. The specified operands p1, p2, replace the placeholders sequentially. The characters are converted to uppercase (except for the content of character literals).
 
 ABAP Compiler searches for a macro specified in an ABAP program as follows:
 
-1.  In the preceding source code of the same [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry").
+1.  In the preceding source code of the same [compilation unit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompilation_unit_glosry.htm "Glossary Entry").
     
-2.  In the [type groups](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") that can be used for the program. Local macros of the program obscure macros of the same name in type groups.
+2.  In the [type groups](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_group_1_glosry.htm "Glossary Entry") that can be used for the program. Local macros of the program obscure macros of the same name in type groups.
     
 3.  In the table TRMAC. Macros in the table TRMAC usually follow different name conventions to those in type groups and therefore nothing should be obscured.
 
@@ -54,4 +54,4 @@ operation n2 - n1.
 
 Executable Example
 
-[Macros](javascript:call_link\('abenmacro_abexa.htm'\))
+[Macros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmacro_abexa.htm)

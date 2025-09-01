@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Input Checks](javascript:call_link\('abenabap_dynpros_checks.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Input Checks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_checks.htm) → 
 
 Automatic Input Checks
 
@@ -26,12 +26,12 @@ The values entered in an input field must match the data format of the associate
 
 If an input field in Screen Painter is defined by being taken from ABAP Dictionary, the dynpro checks the following:
 
--   Does the entered value match any [foreign key relationship](javascript:call_link\('abenforeign_key_dependency_glosry.htm'\) "Glossary Entry") with a different database table? This means the check table is checked to verify whether the input value exists as a foreign key in the check table. This check only takes place, however, if the foreign key attribute is set for the input field in Screen Painter. This input check is not necessarily identical with the [input help](javascript:call_link\('abenabap_dynpros_value_help_auto.htm'\)). The developers in question must ensure that the input help represents a subset of the content of the check table.
+-   Does the entered value match any [foreign key relationship](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_dependency_glosry.htm "Glossary Entry") with a different database table? This means the check table is checked to verify whether the input value exists as a foreign key in the check table. This check only takes place, however, if the foreign key attribute is set for the input field in Screen Painter. This input check is not necessarily identical with the [input help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_value_help_auto.htm). The developers in question must ensure that the input help represents a subset of the content of the check table.
 
--   Does the entered value exist as a [fixed value](javascript:call_link\('abenfixed_value_glosry.htm'\) "Glossary Entry") of the domain of the field? This means that the definition of the domain of the field in ABAP Dictionary is checked. The fixed values of the domain can also be used as an input help. The value table of a domain, however, is not checked. It is only used as a default value for the check tables of the fields that reference the domain.
+-   Does the entered value exist as a [fixed value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfixed_value_glosry.htm "Glossary Entry") of the domain of the field? This means that the definition of the domain of the field in ABAP Dictionary is checked. The fixed values of the domain can also be used as an input help. The value table of a domain, however, is not checked. It is only used as a default value for the check tables of the fields that reference the domain.
 
-If necessary, the input check also triggers a [check on obsolete data](javascript:call_link\('abenddic_deprecation.htm'\)).
+If necessary, the input check also triggers a [check on obsolete data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm).
 
 Executable Example
 
-[Automatic Input Checks](javascript:call_link\('abendynpro_auto_check_abexa.htm'\))
+[Automatic Input Checks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_auto_check_abexa.htm)

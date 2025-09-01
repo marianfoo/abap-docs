@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [log\_exp - Logical Expressions](javascript:call_link\('abenlogexp.htm'\)) →  [rel\_exp - Predicates](javascript:call_link\('abenpredicate.htm'\)) →  [rel\_exp - Predicate Expressions](javascript:call_link\('abenpredicate_expressions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_expr_func.htm) →  [log\_exp - Logical Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp.htm) →  [rel\_exp - Predicates](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredicate.htm) →  [rel\_exp - Predicate Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredicate_expressions.htm) → 
 
 rel\_exp - IS SUPPLIED
 
@@ -14,7 +14,7 @@ Syntax
 
 Effect
 
-This predicate expression checks whether a formal parameter para of a [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") is filled or requested. The expression is true if at the call an actual parameter was assigned to the formal parameter.
+This predicate expression checks whether a formal parameter para of a [procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocedure_glosry.htm "Glossary Entry") is filled or requested. The expression is true if at the call an actual parameter was assigned to the formal parameter.
 
 This relational expression can be used only in function modules and methods. For para, all optional formal parameters can be specified.
 
@@ -22,25 +22,25 @@ If the addition NOT is specified, the expression is true if no actual parameter 
 
 Some specific rules must be observed in the following procedures:
 
--   [Remote-enabled function modules](javascript:call_link\('abenremote_enabled_fm_glosry.htm'\) "Glossary Entry")
+-   [Remote-enabled function modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenremote_enabled_fm_glosry.htm "Glossary Entry")
 
--   In a [remote function call](javascript:call_link\('abapcall_function_destination-.htm'\)) between two AS ABAP, both must have at least Release 4.6. This ensures that IS SUPPLIED can be used in the called function module.
+-   In a [remote function call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_function_destination-.htm) between two AS ABAP, both must have at least Release 4.6. This ensures that IS SUPPLIED can be used in the called function module.
 
--   In a function module called using [CALL FUNCTION ... STARTING NEW TASK ...](javascript:call_link\('abapcall_function_starting.htm'\)), IS SUPPLIED is ignored.
+-   In a function module called using [CALL FUNCTION ... STARTING NEW TASK ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_function_starting.htm), IS SUPPLIED is ignored.
 
--   In calls from an external RFC interface, IS SUPPLIED is evaluated for all currently supported [RFC Libraries](javascript:call_link\('abenrfc_interface.htm'\)). IS SUPPLIED is not evaluated only when an older RFC Library such as librfc32.dll is used instead of RFC Software Development Kit for C and C++.
+-   In calls from an external RFC interface, IS SUPPLIED is evaluated for all currently supported [RFC Libraries](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_interface.htm). IS SUPPLIED is not evaluated only when an older RFC Library such as librfc32.dll is used instead of RFC Software Development Kit for C and C++.
 
--   [Update function modules](javascript:call_link\('abenupdate_function_module_glosry.htm'\) "Glossary Entry")
+-   [Update function modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenupdate_function_module_glosry.htm "Glossary Entry")
 
-In an update function module called using [CALL FUNCTION ... IN UPDATE TASK ...](javascript:call_link\('abapcall_function_update.htm'\)), IS SUPPLIED is ignored.
+In an update function module called using [CALL FUNCTION ... IN UPDATE TASK ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_function_update.htm), IS SUPPLIED is ignored.
 
 In cases where IS SUPPLIED is not evaluated, the predicate expression returns the value true.
 
 Notes
 
--   In a [functionally called](javascript:call_link\('abenfunctional_method_call_glosry.htm'\) "Glossary Entry") [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry"), the predicate expression IS SUPPLIED is true for its return value. In this case, a temporary actual parameter is always bound to the return value, which is used as the operand of the current operand position.
+-   In a [functionally called](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_method_call_glosry.htm "Glossary Entry") [functional method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_method_glosry.htm "Glossary Entry"), the predicate expression IS SUPPLIED is true for its return value. In this case, a temporary actual parameter is always bound to the return value, which is used as the operand of the current operand position.
 
--   The predicate expression IS SUPPLIED encompasses the obsolete expression [IS REQUESTED](javascript:call_link\('abenlogexp_requested.htm'\)).
+-   The predicate expression IS SUPPLIED encompasses the obsolete expression [IS REQUESTED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_requested.htm).
 
 Example
 

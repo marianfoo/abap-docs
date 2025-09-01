@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  R
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  R
 
 RAISE EVENT - Short Reference
 
-[Reference](javascript:call_link\('abapraise_event.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapraise_event.htm)
 
 Syntax
 
@@ -21,4 +21,4 @@ Raises an event in a method.
 Addition
 
 -   EXPORTING p1 = a1 p2 = a2 ...
-    Passes actual parameters a1, a2, ... to the input parameter p1, p2 of the [event handler](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry").
+    Passes actual parameters a1, a2, ... to the input parameter p1, p2 of the [event handler](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenevent_handler_glosry.htm "Glossary Entry").

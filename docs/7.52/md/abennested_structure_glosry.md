@@ -4,8 +4,8 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 nested structure
 
-[Structure](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry") with one or more [substructures](javascript:call_link\('abensubstructure_glosry.htm'\) "Glossary Entry"). A nested structure can contain [box components](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry").
+[Structure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructure_glosry.htm "Glossary Entry") with one or more [substructures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubstructure_glosry.htm "Glossary Entry"). A nested structure can contain [box components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenboxed_component_glosry.htm "Glossary Entry").

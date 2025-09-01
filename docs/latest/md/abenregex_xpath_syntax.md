@@ -4,30 +4,30 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions (regex)](javascript:call_link\('abenregular_expressions.htm'\)) →  [regex - Syntax](javascript:call_link\('abenregex_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions (regex)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregular_expressions.htm) →  [regex - Syntax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_syntax.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20regex%20-%20XPath%20Syntax%2C%20ABENREGEX_XPATH_SYNTAX%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 regex - XPath Syntax
 
-Regular expressions with XPath syntax can be specified behind the argument [xpath](javascript:call_link\('abenstring_functions_regex.htm'\)) of built-in functions for strings. Objects for XPath regular expressions can be created with the factory method CREATE\_XPATH2 of the system class [CL\_ABAP\_REGEX](javascript:call_link\('abenregex_system_classes.htm'\)) to be used in statements [FIND](javascript:call_link\('abapfind.htm'\)) and [REPLACE](javascript:call_link\('abapreplace.htm'\)) or with the system class [CL\_ABAP\_MATCHER](javascript:call_link\('abenregex_system_classes.htm'\)).
+Regular expressions with XPath syntax can be specified behind the argument [xpath](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_regex.htm) of built-in functions for strings. Objects for XPath regular expressions can be created with the factory method CREATE\_XPATH2 of the system class [CL\_ABAP\_REGEX](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_system_classes.htm) to be used in statements [FIND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind.htm) and [REPLACE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace.htm) or with the system class [CL\_ABAP\_MATCHER](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_system_classes.htm).
 
 Currently, there is no detailed description of the XPath syntax for regular expressions in the ABAP keyword documentation.
 
 -   For a short syntax overview, see
     
-    [Special Characters in XPath Regular Expressions](javascript:call_link\('abenregex_xpath_syntax_specials.htm'\))
+    [Special Characters in XPath Regular Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_xpath_syntax_specials.htm)
     
 -   For the complete documentation, refer to
     
     [XQuery 1.0 and XPath 2.0 Functions and Operators](https://www.w3.org/TR/xquery-operators/#regex-syntax).
     
 
-A regular expression in XPath syntax can be compiled in a normal and extended mode. In the extended mode, most unescaped whitespace (blanks and line breaks) of the pattern are ignored outside character classes and comments can be placed behind #. In ABAP built-in functions, the extended mode is switched on by default and can be switched off with [(?-x)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) in the regular expression. When using CL\_ABAP\_REGEX, it can be switched by the parameter EXTENDED of method CREATE\_XPATH2.
+A regular expression in XPath syntax can be compiled in a normal and extended mode. In the extended mode, most unescaped whitespace (blanks and line breaks) of the pattern are ignored outside character classes and comments can be placed behind #. In ABAP built-in functions, the extended mode is switched on by default and can be switched off with [(?-x)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_pcre_syntax_specials.htm) in the regular expression. When using CL\_ABAP\_REGEX, it can be switched by the parameter EXTENDED of method CREATE\_XPATH2.
 
 Hints
 
--   A regular expression with XPath syntax cannot be specified directly as a character string in the statements [FIND](javascript:call_link\('abapfind.htm'\)) and [REPLACE](javascript:call_link\('abapreplace.htm'\)), but you can use objects of CL\_ABAP\_REGEX that are created with method CREATE\_XPATH2 with the addition [REGEX](javascript:call_link\('abapfind_pattern.htm'\)) instead.
+-   A regular expression with XPath syntax cannot be specified directly as a character string in the statements [FIND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind.htm) and [REPLACE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace.htm), but you can use objects of CL\_ABAP\_REGEX that are created with method CREATE\_XPATH2 with the addition [REGEX](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_pattern.htm) instead.
 -   The test and demonstration program DEMO\_REGEX allows XPath syntax to be tested by selecting XPath.
 
 Example
@@ -49,8 +49,8 @@ FIND REGEX cl\_abap\_regex=>create\_pcre(   pattern = '\\x' ) IN 'abxcd'.
 
 Executable Example
 
-[XPath regular expression](javascript:call_link\('abenxpath_regex_abexa.htm'\))
+[XPath regular expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxpath_regex_abexa.htm)
 
 Continue
-[XPath regex - Special Characters](javascript:call_link\('abenregex_xpath_syntax_specials.htm'\))
-![Example](exa.gif "Example") [regex - XPath Regular Expression](javascript:call_link\('abenxpath_regex_abexa.htm'\))
+[XPath regex - Special Characters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_xpath_syntax_specials.htm)
+![Example](exa.gif "Example") [regex - XPath Regular Expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxpath_regex_abexa.htm)

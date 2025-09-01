@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 deadlock
 
-Blocked access to shared files, such as of a [database](javascript:call_link\('abendatabase_glosry.htm'\) "Glossary Entry"), due to an incorrect locking concept that prevents competing access, or an incorrect application of a locking concept.
+Blocked access to shared files, such as of a [database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_glosry.htm "Glossary Entry"), due to an incorrect locking concept that prevents competing access, or an incorrect application of a locking concept.

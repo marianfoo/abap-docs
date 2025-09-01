@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Open SQL](javascript:call_link\('abenopensql.htm'\)) →  [Open SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [Open SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql.htm) →  [Open SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_operands.htm) →  [Open SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm) → 
 
 sql\_exp - sql\_string
 
@@ -16,11 +16,11 @@ Effect
 
 Character string expression in Open SQL. The operator && chains the character strings in two adjacent operand to a single character string. The operands can have the following data types:
 
--   Dictionary types [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)), [CLNT](javascript:call_link\('abenddic_builtin_types.htm'\)), [CUKY](javascript:call_link\('abenddic_builtin_types.htm'\)), [LANG](javascript:call_link\('abenddic_builtin_types.htm'\)), and [UNIT](javascript:call_link\('abenddic_builtin_types.htm'\)) for columns of [data sources](javascript:call_link\('abapselect_data_source.htm'\)).
+-   Dictionary types [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CLNT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CUKY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [LANG](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), and [UNIT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) for columns of [data sources](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_data_source.htm).
 
 -   ABAP type c for host variables and host expressions.
 
--   Text field literal of type c. Empty [text field literals](javascript:call_link\('abentext_field_literal_glosry.htm'\) "Glossary Entry") cannot be specified.
+-   Text field literal of type c. Empty [text field literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_field_literal_glosry.htm "Glossary Entry") cannot be specified.
 
 The operator && can only be used to chain the elementary operands stated above. Any other expressions cannot be chained. The result of the chaining must be no longer than 255 characters.
 
@@ -30,13 +30,13 @@ Trailing blanks are handled as follows:
 
 -   In all other cases, trailing blanks are cut off on the right.
 
-The result has the type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) in the resulting length and can be assigned to the ABAP types c and string in accordance with the associated [assignment rule](javascript:call_link\('abenselect_into_conversion.htm'\)).
+The result has the type [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) in the resulting length and can be assigned to the ABAP types c and string in accordance with the associated [assignment rule](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_into_conversion.htm).
 
-If the operand of a string expression has the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), the result of the full string expression is the null value.
+If the operand of a string expression has the [null value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennull_value_glosry.htm "Glossary Entry"), the result of the full string expression is the null value.
 
 Note
 
-Strings can also be concatenated using the SQL function [CONCAT](javascript:call_link\('abensql_string_func.htm'\)). The function CONCAT is restricted to concatenations of two operands but has the following benefits when compared to the operator &&:
+Strings can also be concatenated using the SQL function [CONCAT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_string_func.htm). The function CONCAT is restricted to concatenations of two operands but has the following benefits when compared to the operator &&:
 
 -   It allows expressions to be used as operands.
 
@@ -63,4 +63,4 @@ cl\_demo\_output=>display( result ).
 
 Executable Example
 
-[SQL Expressions, CASE and &&](javascript:call_link\('abensql_expr_case_string_abexa.htm'\))
+[SQL Expressions, CASE and &&](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_expr_case_string_abexa.htm)

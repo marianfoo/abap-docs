@@ -4,21 +4,31 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) →  [Data Aging in SAP HANA](javascript:call_link\('abenhana_data_aging.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_hana.htm) →  [Data Aging in SAP HANA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_data_aging.htm) → 
 
 Dependency Rules for Optimization of Access to Old Data
 
-[Dependency rules](javascript:call_link\('abenddic_dependency_rules.htm'\)) are SAP HANA database objects that can represent dependencies between semantic columns and technical columns in a database table. The optimizer can then use these dependencies to create extended selection conditions when the table is read.
+[Dependency rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_dependency_rules.htm) are SAP HANA database objects that can represent dependencies between semantic columns and technical columns in a database table. The optimizer can then use these dependencies to create extended selection conditions when the table is read.
 
-In database tables with a [temperature column](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry"), and hence where [data aging](javascript:call_link\('abentemperature_column_glosry.htm'\) "Glossary Entry") is enabled, dependency rules can be used to optimize access to old data. In this case, a dependency rule joins the [temperature column](javascript:call_link\('abentemperature_column_glosry.htm'\) "Glossary Entry") of a database table with regular date columns in the table.
+In database tables with a [temperature column](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_aging_glosry.htm "Glossary Entry"), and hence where [data aging](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentemperature_column_glosry.htm "Glossary Entry") is enabled, dependency rules can be used to optimize access to old data. In this case, a dependency rule joins the [temperature column](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentemperature_column_glosry.htm "Glossary Entry") of a database table with regular date columns in the table.
 
--   [Basics of Optimization](#abenhana-data-aging-druls-1--------filter-dependency-rules-for-data-aging---@ITOC@@ABENHANA_DATA_AGING_DRULS_2)
+-   [Basics of Optimization](#@@ITOC@@ABENHANA_DATA_AGING_DRULS_1)
 
--   [Join Dependency Rules for Data Aging](#abenhana-data-aging-druls-3---basics-of-optimization--in-tables-with-a-temperature-column--only-the-current-data-is-located-in-the-main-memory-of-the-sap-hana-database-and-old-data-is-moved-to-other-partitions--by-default--the--as-abap--javascript-call-link---abensap-nw-abap-glosry-htm-----glossary-entry----database-interface--javascript-call-link---abendatabase-interface-glosry-htm-----glossary-entry---accesses-current-data-only--the-relationship-between-the-actual-data-and-the-partition-limits-is-defined-in-data-aging-runs-and-is-made-transparent-for-application-programming--this-means-that--when-old-data-is-accessed--the-data-in-all-partitions-must-first-be-loaded-to-the-main-memory-of-the-sap-hana-database--which-can-have-a-negative-effect-on-performance--old-data-can-be-accessed-as-follows-------disabling-data-aging-in-the-database-interface-using-the-profile-parameter-abap-data--aging-------bypassing-data-aging-in-abap-sql-access-to--cds-views--javascript-call-link---abencds-view-glosry-htm-----glossary-entry---and--cds-table-functions--javascript-call-link---abencds-table-function-glosry-htm-----glossary-entry---using-the-annotation--DataAging.noAgingRestriction:true](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)).
+-   [Filter Dependency Rules for Data Aging](#@@ITOC@@ABENHANA_DATA_AGING_DRULS_2)
+
+-   [Join Dependency Rules for Data Aging](#@@ITOC@@ABENHANA_DATA_AGING_DRULS_3)
+
+Basics of Optimization
+
+In tables with a temperature column, only the current data is located in the main memory of the SAP HANA database and old data is moved to other partitions. By default, the [AS ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") [database interface](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_interface_glosry.htm "Glossary Entry") accesses current data only. The relationship between the actual data and the partition limits is defined in data aging runs and is made transparent for application programming. This means that, when old data is accessed, the data in all partitions must first be loaded to the main memory of the SAP HANA database, which can have a negative effect on performance. Old data can be accessed as follows:
+
+-   Disabling data aging in the database interface using the profile parameter abap/data\_aging.
+
+-   Bypassing data aging in ABAP SQL access to [CDS views](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry") and [CDS table functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_table_function_glosry.htm "Glossary Entry") using the annotation [@DataAging.noAgingRestriction:true](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm).
 
 -   Configuring a different temperature using the classes CL\_ABAP\_SESSION\_TEMPERATURE and CL\_ABAP\_STACK\_TEMPERATURE.
 
--   Access using [Non-ABAP-Managed Native SQL](javascript:call_link\('abenabap_managed_db_objects_nsql.htm'\))
+-   Access using [Non-ABAP-Managed Native SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_managed_db_objects_nsql.htm)
 
 A dependency rule can be used to add a selection condition for the temperature column to an access of this type. This restricts the temperatures to those that are in the same rows as the data that is actually requested. This means that the SAP HANA database only has to load those partitions to its main memory that contain the required data.
 
@@ -28,7 +38,7 @@ The following sections demonstrate how dependency rules for optimizing access to
 
 Filter Dependency Rules for Data Aging
 
-The [temperature column](javascript:call_link\('abentemperature_column_glosry.htm'\) "Glossary Entry") has the following important properties for [filter dependencies](javascript:call_link\('abenddicddl_define_filter_drul.htm'\)):
+The [temperature column](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentemperature_column_glosry.htm "Glossary Entry") has the following important properties for [filter dependencies](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddicddl_define_filter_drul.htm):
 
 -   The temperature column has the data type DATS.
 
@@ -48,7 +58,7 @@ The actual design of filter dependency rules for optimizing access to old data i
 
 Example
 
-In the following CDS view, data aging is disabled for the database table DAAG\_SFLIGHT using the annotation [@DataAging.noAgingRestriction:true](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)).
+In the following CDS view, data aging is disabled for the database table DAAG\_SFLIGHT using the annotation [@DataAging.noAgingRestriction:true](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm).
 
 @AbapCatalog.sqlViewName: 'DEMOCDSDAAGSFL'
 @DataAging.noAgingRestriction:true
@@ -86,11 +96,11 @@ Join Dependency Rules for Data Aging
 
 If multiple database tables are joined together in a relational model, data aging must be respected for all these tables. Rows in different database tables that have the same date are usually joined using join expressions. These joins can be in ABAP SQL, Native SQL, or in views.
 
-[Join dependency](javascript:call_link\('abenddicddl_define_join_drul.htm'\)) rules can be defined to optimize access to old data for database tables joined like this. As in filter dependency rules, the actual design of the data aging must be known as well as how the tables are dependent on each other.
+[Join dependency](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddicddl_define_join_drul.htm) rules can be defined to optimize access to old data for database tables joined like this. As in filter dependency rules, the actual design of the data aging must be known as well as how the tables are dependent on each other.
 
 Example
 
-In the following CDS view, data aging is disabled for the database tables DAAG\_SFLIGHT and DAAG\_SBOOK using the annotation [@DataAging.noAgingRestriction:true](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)).
+In the following CDS view, data aging is disabled for the database tables DAAG\_SFLIGHT and DAAG\_SBOOK using the annotation [@DataAging.noAgingRestriction:true](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm).
 
 @AbapCatalog.sqlViewName: 'DEMOCDSDAAGSFLBK'
 @DataAging.noAgingRestriction:true

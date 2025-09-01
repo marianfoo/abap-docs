@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp_abexas.htm) → 
 
 AMDP - SQLScript with Tabular CHANGING Parameter
 
@@ -64,7 +64,7 @@ START-OF-SELECTION.
 
 Description
 
-The following [SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") is implemented in the AMDP method GET\_CARRIERS of the AMDP class CL\_DEMO\_AMDP\_CHANGING:
+The following [SQLScript procedure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") is implemented in the AMDP method GET\_CARRIERS of the AMDP class CL\_DEMO\_AMDP\_CHANGING:
 
 METHOD get\_carriers BY DATABASE PROCEDURE FOR HDB
                        LANGUAGE SQLSCRIPT
@@ -76,7 +76,7 @@ METHOD get\_carriers BY DATABASE PROCEDURE FOR HDB
                         s.carrid = c.carrid;
 ENDMETHOD.
 
-The tabular CHANGING parameter carriers can be used in this way in the procedure in read positions and write positions. Internally, the database procedure uses an identically named output parameter to which the initial value of the CHANGING parameter is assigned at the beginning of the execution of the procedure using the invisible IN parameter carriers\_\_in\_\_ (see [SQLScript for the SAP HANA Database](javascript:call_link\('abenamdp_hdb_sqlscript.htm'\))).
+The tabular CHANGING parameter carriers can be used in this way in the procedure in read positions and write positions. Internally, the database procedure uses an identically named output parameter to which the initial value of the CHANGING parameter is assigned at the beginning of the execution of the procedure using the invisible IN parameter carriers\_\_in\_\_ (see [SQLScript for the SAP HANA Database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp_hdb_sqlscript.htm)).
 
 A further method CALL\_GET\_CARRIERS demonstrates how the SQLScript procedure implemented in GET\_CARRIERS is called from a different SQLScript procedure.
 

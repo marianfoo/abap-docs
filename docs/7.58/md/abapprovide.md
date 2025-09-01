@@ -4,24 +4,24 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [itab - Interval Join](javascript:call_link\('abeninternal_table_interval_spcl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_processing_statements.htm) →  [itab - Interval Join](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_interval_spcl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20PROVIDE%2C%20ABAPPROVIDE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 PROVIDE
 
-[Short Reference](javascript:call_link\('abapprovide_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprovide_shortref.htm)
 
 Syntax
 
 PROVIDE FIELDS *{*\**|**{*comp1 comp2 ...*}**}*
                FROM itab1 INTO wa1 VALID flag1
                BOUNDS intliml1 AND intlimu1
-               *\[*WHERE [log\_exp1](javascript:call_link\('abenlogexp.htm'\))*\]*
+               *\[*WHERE [log\_exp1](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm)*\]*
         FIELDS *{*\**|**{*comp1 comp2 ...*}**}*
                FROM itab2 INTO wa2 VALID flag2
                BOUNDS intliml2 AND intlimu2
-               *\[*WHERE [log\_exp2](javascript:call_link\('abenlogexp.htm'\))*\]*
+               *\[*WHERE [log\_exp2](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm)*\]*
                ...
         BETWEEN extliml AND extlimu
         *\[*INCLUDING GAPS*\]*.
@@ -35,7 +35,7 @@ Additions:
 
 Effect
 
-[Table iteration](javascript:call_link\('abentable_iteration_glosry.htm'\) "Glossary Entry") across multiple tables depending on interval limits. The statements PROVIDE and ENDPROVIDE define a loop around a statement block. In this loop, any number of internal tables itab1, itab2, ... are processed together. A single table can be listed more than once. For each table itab a FIELDS addition must be specified. After FIELDS, either the placeholder \* must be specified for all components or a list comp1, comp2, ... must be specified for certain components of the table in question. The names of the components comp1, comp2, ... can only be specified directly.
+[Table iteration](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_iteration_glosry.htm "Glossary Entry") across multiple tables depending on interval limits. The statements PROVIDE and ENDPROVIDE define a loop around a statement block. In this loop, any number of internal tables itab1, itab2, ... are processed together. A single table can be listed more than once. For each table itab a FIELDS addition must be specified. After FIELDS, either the placeholder \* must be specified for all components or a list comp1, comp2, ... must be specified for certain components of the table in question. The names of the components comp1, comp2, ... can only be specified directly.
 
 Prerequisites
 
@@ -51,7 +51,7 @@ Defining Intervals
 In every line of the internal tables involved, the columns intliml1, intliml2, ... and intlimu1, intlimu2, ... must contain values that can be interpreted as limits of closed intervals. The PROVIDE statement must be able to interpret intervals defined by these columns as a kind of unique key for each line within each individual internal table. This is achieved by the following additional prerequisites for the values in these columns:
 
 -   The intervals must not overlap.
--   The intervals must be sorted in ascending order with regard to the [primary table index](javascript:call_link\('abenprimary_table_index_glosry.htm'\) "Glossary Entry").
+-   The intervals must be sorted in ascending order with regard to the [primary table index](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprimary_table_index_glosry.htm "Glossary Entry").
 
 Another external interval with limits extliml and extlimu must be specified using the BETWEEN addition. The operands extliml and extlimu can be data objects that can be converted to the data types of columns intliml1, intliml2, ... and intlimu1, intlimu2, ... respectively.
 
@@ -73,7 +73,7 @@ The PROVIDE loop processes the above described set of sequential intervals that 
 -   The components intliml1, intliml2, ... and intlimu1, intlimu2, ... of every work area wa1, wa2, ...are filled with the interval limits of the current interval.
     
     -   If the current interval overlaps with one of the intervals of an involved table, the remaining components of the corresponding work area are assigned the content of the corresponding components of this table line and the variables flag1, flag2, ... are set to the value X.
-    -   Otherwise, the work area components and the variables flag1, flag2, ... are set to their [initial value](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry").
+    -   Otherwise, the work area components and the variables flag1, flag2, ... are set to their [initial value](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_value_glosry.htm "Glossary Entry").
     
     For performance reasons, the components of the work areas are filled with values again only if the corresponding content of the table lines has been modified since the preceding loop pass.
     
@@ -85,22 +85,22 @@ Exiting a PROVIDE Loop
 
 The PROVIDE loop can be exited with the following statements;
 
--   [EXIT](javascript:call_link\('abapexit_loop.htm'\)) that exits a complete loop and resumes the program behind the closing statement of the loop.
--   A statement for [exiting the current processing block](javascript:call_link\('abenleave_processing_blocks.htm'\))
--   A statement for [existing the current program](javascript:call_link\('abenabap_leave_program.htm'\))
+-   [EXIT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_loop.htm) that exits a complete loop and resumes the program behind the closing statement of the loop.
+-   A statement for [exiting the current processing block](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenleave_processing_blocks.htm)
+-   A statement for [existing the current program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_leave_program.htm)
 
-In order to exit the current loop pass and to continue with the next loop pass, the statements [CONTINUE](javascript:call_link\('abapcontinue.htm'\)) and [CHECK](javascript:call_link\('abapcheck_processing_blocks.htm'\)) can be used.
+In order to exit the current loop pass and to continue with the next loop pass, the statements [CONTINUE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcontinue.htm) and [CHECK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcheck_processing_blocks.htm) can be used.
 
 Hints
 
--   The statement PROVIDE is intended mainly for the processing of internal tables for HR\- [info types](javascript:call_link\('abeninfo_type_glosry.htm'\) "Glossary Entry") declared using the special statement [INFOTYPES](javascript:call_link\('abapinfotypes.htm'\)) or that have a corresponding structure.
+-   The statement PROVIDE is intended mainly for the processing of internal tables for HR\- [info types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninfo_type_glosry.htm "Glossary Entry") declared using the special statement [INFOTYPES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinfotypes.htm) or that have a corresponding structure.
 -   The internal tables involved should not be modified in the PROVIDE loop.
 -   Only reads should be performed on the work areas wa1, wa2,..., since they are not necessarily assigned values at the start of each loop.
 -   The WHERE condition can be used to remove overlaps between the tables involved, or to ensure the sorting of the intervals.
--   Any [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") of the internal tables involved are not supported in the PROVIDE statement. The primary table index is always implicitly used for processing.
+-   Any [secondary table keys](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") of the internal tables involved are not supported in the PROVIDE statement. The primary table index is always implicitly used for processing.
 -   The PROVIDE statement relies on the above described prerequisites of non-overlapping intervals and sorting of the intervals. But an exception only occurs if processing of the PROVIDE loop runs into a situation, where that can be detected. If the last interval of the sequential interval set can be processed, the PROVIDE loop ends normally and no exception is raised. This behavior depends on the interval limits and the number of tables involved and cannot easily be foreseen. If multiple tables are involved, the PROVIDE statement cannot be used for checking if the prerequisites are fulfilled for the complete content of all involved internal tables. Such a check must be done for each individual table before executing the PROVIDE statement.
--   In addition to this variant of the PROVIDE statement, an [obsolete short form](javascript:call_link\('abapprovide_obsolete.htm'\)) can also be used outside of classes.
--   The usage of group level processing with [AT](javascript:call_link\('abapat_itab.htm'\)) is not supported in PROVIDE loops and leads to syntax errors in most cases. The fact that a few variants of AT are syntactically allowed in certain constellations should not be exploited.
+-   In addition to this variant of the PROVIDE statement, an [obsolete short form](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprovide_obsolete.htm) can also be used outside of classes.
+-   The usage of group level processing with [AT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_itab.htm) is not supported in PROVIDE loops and leads to syntax errors in most cases. The fact that a few variants of AT are syntactically allowed in certain constellations should not be exploited.
 
 System Fields
 
@@ -112,7 +112,7 @@ Addition 1  
 
 Effect
 
-The addition WHERE can be used to specify a condition for every table itab1, itab2, ... involved. After WHERE, a [logical expression](javascript:call_link\('abenlogical_expression_glosry.htm'\) "Glossary Entry") [log\_exp1](javascript:call_link\('abenlogexp.htm'\)), [log\_exp2](javascript:call_link\('abenlogexp.htm'\)) ... can be specified, where a [component](javascript:call_link\('abenitab_components.htm'\)) of the internal table must be specified as the first operand of each [relational expression](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry") as a single operand, that is, not part of an expression. Only components that are also listed after FIELDS can be specified. All [comparison expression](javascript:call_link\('abenlogexp_comp.htm'\)) and the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [IS INITIAL](javascript:call_link\('abenlogexp_initial.htm'\)) can be specified as relational expressions. No other [predicates](javascript:call_link\('abenpredicate.htm'\)) can be specified. The other operands of a comparison can be any [suitable](javascript:call_link\('abenlogexp_rules.htm'\)) individual operands or arithmetic expressions but not components of the internal table. The table entries for which the condition is not met are ignored by the PROVIDE loop.
+The addition WHERE can be used to specify a condition for every table itab1, itab2, ... involved. After WHERE, a [logical expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_expression_glosry.htm "Glossary Entry") [log\_exp1](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm), [log\_exp2](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm) ... can be specified, where a [component](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_components.htm) of the internal table must be specified as the first operand of each [relational expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrelational_expression_glosry.htm "Glossary Entry") as a single operand, that is, not part of an expression. Only components that are also listed after FIELDS can be specified. All [comparison expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_comp.htm) and the [predicate expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [IS INITIAL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_initial.htm) can be specified as relational expressions. No other [predicates](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpredicate.htm) can be specified. The other operands of a comparison can be any [suitable](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_rules.htm) individual operands or arithmetic expressions but not components of the internal table. The table entries for which the condition is not met are ignored by the PROVIDE loop.
 
 Addition 2   
 
@@ -190,7 +190,7 @@ The output is as follows:
   12          12  Itab1 Int2 X
   12          12
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -205,4 +205,4 @@ CX\_SY\_PROVIDE\_TABLE\_NOT\_SORTED
     Runtime error: UNCAUGHT\_EXCEPTION
 
 Continue
-[ENDPROVIDE](javascript:call_link\('abapendprovide.htm'\))
+[ENDPROVIDE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendprovide.htm)

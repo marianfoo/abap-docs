@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 typing
 
-[Generic](javascript:call_link\('abengeneric_typing_glosry.htm'\) "Glossary Entry") or [complete](javascript:call_link\('abencomplete_typing_glosry.htm'\) "Glossary Entry") definition of a [data type](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") for [formal parameters](javascript:call_link\('abenformal_parameter_glosry.htm'\) "Glossary Entry") or [field symbols](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry"). Specifies in which operand positions a formal parameter or field symbol can be used and which type attributes are used. When parameters are passed, a check is made to find out whether the data type of the assigned [actual parameter](javascript:call_link\('abenactual_parameter_glosry.htm'\) "Glossary Entry"), or memory area, is [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") with the typing.
+[Generic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_typing_glosry.htm "Glossary Entry") or [complete](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomplete_typing_glosry.htm "Glossary Entry") definition of a [data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_type_glosry.htm "Glossary Entry") for [formal parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformal_parameter_glosry.htm "Glossary Entry") or [field symbols](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfield_symbol_glosry.htm "Glossary Entry"). Specifies in which operand positions a formal parameter or field symbol can be used and which type attributes are used. When parameters are passed, a check is made to find out whether the data type of the assigned [actual parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenactual_parameter_glosry.htm "Glossary Entry"), or memory area, is [compatible](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompatible_glosry.htm "Glossary Entry") with the typing.
 
-[→ More](javascript:call_link\('abentyping.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping.htm)

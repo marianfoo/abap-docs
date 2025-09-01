@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [READ ENTITY, ENTITIES](javascript:call_link\('abapread_entity_entities.htm'\)) →  [Examples for ABAP EML READ](javascript:call_link\('abapeml_read_examples.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml.htm) →  [READ ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities.htm) →  [Examples for ABAP EML READ](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_read_examples.htm) → 
 
 ABAP EML - READ, Field Specification Expressions
 
-This example demonstrates read operations using diverse variants of field specification expressions so as to read from a simple managed [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+This example demonstrates read operations using diverse variants of field specification expressions so as to read from a simple managed [RAP BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
 The example covers read and read-by-association operations as well as a read operation executing a function. The following field specification alternatives are covered in the example:
 
@@ -74,7 +74,7 @@ define view entity DEMO\_SFLIGHT
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_SPFLI\_FLIGHTS is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_SPFLI\_FLIGHTS is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_spfli\_flights unique;
 define behavior for DEMO\_SPFLI\_Flights
@@ -100,7 +100,7 @@ lock dependent by \_spfli
 
 Behavior implementation
 
-For the above CDS behavior definition, there is an [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") available. The global class of the behavior pool is BP\_DEMO\_SPFLI\_FLIGHTS. This global class implements the local handler class LHC\_DEMO\_SPFLI\_FLIGHTS. The actual implementation takes place in the CCIMP include. In managed scenarios, the implementation for standard operations is carried out by the managed RAP BO provider. Hence, only the function FunctionResultEntity which is executed in a read operation in the example is relevant here. See the example [READ: Operation Executing Functions](javascript:call_link\('abeneml_read_op_func_abexa.htm'\)) that focuses on this very function execution for details.
+For the above CDS behavior definition, there is an [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") available. The global class of the behavior pool is BP\_DEMO\_SPFLI\_FLIGHTS. This global class implements the local handler class LHC\_DEMO\_SPFLI\_FLIGHTS. The actual implementation takes place in the CCIMP include. In managed scenarios, the implementation for standard operations is carried out by the managed RAP BO provider. Hence, only the function FunctionResultEntity which is executed in a read operation in the example is relevant here. See the example [READ: Operation Executing Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_read_op_func_abexa.htm) that focuses on this very function execution for details.
 
 Source Code
 
@@ -286,8 +286,8 @@ Description
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program:
 
-Using the short syntax form READ ENTITY, several separate read and read-by-association operations are carried out in the example showcasing the diverse variants of field specification that are possible to specify input parameters for the read operation in an internal table. In this case, the internal table is always declared inline using the [value operator](javascript:call_link\('abenconstructor_expression_value.htm'\)). The table gets the required [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") automatically. Depending on the operation and key words (FROM, for example), the internal tables require specific components.
+Using the short syntax form READ ENTITY, several separate read and read-by-association operations are carried out in the example showcasing the diverse variants of field specification that are possible to specify input parameters for the read operation in an internal table. In this case, the internal table is always declared inline using the [value operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_value.htm). The table gets the required [BDEF derived type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") automatically. Depending on the operation and key words (FROM, for example), the internal tables require specific components.
 
-The RAP query engine reads the data from the respective database tables into a managed [transactional buffer](javascript:call_link\('abentransactional_buffer_glosry.htm'\) "Glossary Entry") in which the read operations take place using the respective additions. Each result of the individual read operations is output. For the sake of completeness, an example for the read operation executing a function is covered here as well. Refer to the separate example [READ: Operation Executing Functions](javascript:call_link\('abeneml_read_op_func_abexa.htm'\)) for the details.
+The RAP query engine reads the data from the respective database tables into a managed [transactional buffer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactional_buffer_glosry.htm "Glossary Entry") in which the read operations take place using the respective additions. Each result of the individual read operations is output. For the sake of completeness, an example for the read operation executing a function is covered here as well. Refer to the separate example [READ: Operation Executing Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_read_op_func_abexa.htm) for the details.

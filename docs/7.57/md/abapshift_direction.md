@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) →  [SHIFT](javascript:call_link\('abapshift.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_processing_statements.htm) →  [SHIFT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapshift.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SHIFT, direction, ABAPSHIFT_DIRECTION, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0AS
 uggestion for improvement:)
 
 SHIFT, direction
 
-[Short Reference](javascript:call_link\('abapshift_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapshift_shortref.htm)
 
 Syntax
 
@@ -48,7 +48,7 @@ Using the addition CIRCULAR, the content shifted from the data object to the lef
 
 Example
 
-This example is a variant of the second example under [places](javascript:call_link\('abapshift_places.htm'\)). Using the addition CIRCULAR makes the result you know I know.
+This example is a variant of the second example under [places](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapshift_places.htm). Using the addition CIRCULAR makes the result you know I know.
 
 DATA text TYPE string VALUE \`I know you know \`.
 SHIFT text UP TO 'you' LEFT CIRCULAR.

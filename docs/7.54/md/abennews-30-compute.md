@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 3.0](javascript:call_link\('abennews-30.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews.htm) →  [Changes in Release 3.0](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-30.htm) → 
 
 Arithmetic Expressions in Release 3.0
 
@@ -14,7 +14,7 @@ Arithmetic Expressions in Release 3.0
 Modification 1
 
 Exponentiation
-The [COMPUTE](javascript:call_link\('abapcompute.htm'\)) statement now supports the operator "\*\*". Previously, the exponential operation "X \*\* Y" was awkward to express. You either had to use repeated multiplication (if Y was an integer) or the expression "EXP( Y \* LOG( X ) )" for any exponent Y.
+The [COMPUTE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute.htm) statement now supports the operator "\*\*". Previously, the exponential operation "X \*\* Y" was awkward to express. You either had to use repeated multiplication (if Y was an integer) or the expression "EXP( Y \* LOG( X ) )" for any exponent Y.
 
 Modification 2
 

@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 lossless operator
 
-[Constructor operator](javascript:call_link\('abenconstructor_operator_glosry.htm'\) "Glossary Entry") [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) used to create a value for a [data type](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") without loss of data.
+[Constructor operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_operator_glosry.htm "Glossary Entry") [EXACT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_exact.htm) used to create a value for a [data type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_type_glosry.htm "Glossary Entry") without loss of data.

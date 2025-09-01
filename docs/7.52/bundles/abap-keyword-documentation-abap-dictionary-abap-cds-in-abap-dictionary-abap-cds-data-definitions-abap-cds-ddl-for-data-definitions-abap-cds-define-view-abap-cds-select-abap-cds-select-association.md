@@ -32,14 +32,14 @@ Included pages: 5
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) → 
 
 ABAP CDS - SELECT, ASSOCIATION
 
 Syntax
 
-... ASSOCIATION *\[* \[min..max\] *\]* TO target *\[*AS \_assoc*\]* ON [cond\_exp](javascript:call_link\('abencds_f1_conditional_expression.htm'\))
-                *\[* WITH DEFAULT FILTER [cond\_exp](javascript:call_link\('abencds_f1_conditional_expression.htm'\)) *\]* ...
+... ASSOCIATION *\[* \[min..max\] *\]* TO target *\[*AS \_assoc*\]* ON [cond\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conditional_expression.htm)
+                *\[* WITH DEFAULT FILTER [cond\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conditional_expression.htm) *\]* ...
 
 Extras:
 
@@ -49,49 +49,49 @@ Extras:
 
 Effect
 
-Defines a [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") of the name \_assoc in a [SELECT statement](javascript:call_link\('abencds_f1_select_statement.htm'\)) of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). An association associates the current CDS view as a source data source with the target data source target specified in the definition of the association using an ON condition [cond\_exp](javascript:call_link\('abencds_f1_conditional_expression.htm'\)) . A data source target can be a database table defined in ABAP Dictionary, a [classic view](javascript:call_link\('abenclassical_view_glosry.htm'\) "Glossary Entry"), an [external view](javascript:call_link\('abenexternal_view_glosry.htm'\) "Glossary Entry"), or a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry").
+Defines a [CDS association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_association_glosry.htm "Glossary Entry") of the name \_assoc in a [SELECT statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) of a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"). An association associates the current CDS view as a source data source with the target data source target specified in the definition of the association using an ON condition [cond\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conditional_expression.htm) . A data source target can be a database table defined in ABAP Dictionary, a [classic view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclassical_view_glosry.htm "Glossary Entry"), an [external view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexternal_view_glosry.htm "Glossary Entry"), or a [CDS entity](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_entity_glosry.htm "Glossary Entry").
 
-An association of a [SELECT statement](javascript:call_link\('abencds_f1_select_statement.htm'\)) in a CDS view can be accessed as follows:
+An association of a [SELECT statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) in a CDS view can be accessed as follows:
 
--   By specifying its name in a [path expression](javascript:call_link\('abencds_f1_path_expression.htm'\)) in the same statement and in all places where this is documented.
+-   By specifying its name in a [path expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) in the same statement and in all places where this is documented.
 
--   If an association is published using a [path expression](javascript:call_link\('abencds_f1_path_expression.htm'\)) in the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) of the current SELECT statement, the following can use it in their path expressions:
+-   If an association is published using a [path expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) of the current SELECT statement, the following can use it in their path expressions:
 
--   Other [CDS views](javascript:call_link\('abencds_f1_path_expression.htm'\))
+-   Other [CDS views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm)
 
--   [Open SQL statements](javascript:call_link\('abenopen_sql_path.htm'\))
+-   [Open SQL statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_path.htm)
 
-When a CDS view is activated that uses a path expression to access an association or an element, every association of the path expression is transformed to a join expression. Here, the source data source represents the left side and the target data source represents the right side. The ON condition of the association is added to the ON condition of the join. By default, the category of the join is determined by where the [path expression](javascript:call_link\('abencds_f1_path_expression.htm'\)) is used:
+When a CDS view is activated that uses a path expression to access an association or an element, every association of the path expression is transformed to a join expression. Here, the source data source represents the left side and the target data source represents the right side. The ON condition of the association is added to the ON condition of the join. By default, the category of the join is determined by where the [path expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) is used:
 
--   After [FROM](javascript:call_link\('abencds_f1_select_statement.htm'\)), it is an inner join (INNER JOIN)
+-   After [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm), it is an inner join (INNER JOIN)
 
 -   In all other locations, it is a left outer join (LEFT OUTER JOIN)
 
-This setting can be overwritten when specifying the association in a path expression using an [attribute](javascript:call_link\('abencds_path_expression_attr.htm'\)). A path expression in a [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) that publishes the closing association and is not closed using an element is not defined as a join.
+This setting can be overwritten when specifying the association in a path expression using an [attribute](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm). A path expression in a [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) that publishes the closing association and is not closed using an element is not defined as a join.
 
-When specifying the ON condition, the following special [rules](javascript:call_link\('abencds_cond_expr_on_assoc.htm'\)) apply:
+When specifying the ON condition, the following special [rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_on_assoc.htm) apply:
 
 -   The fields of the target data source must be prefixed in the ON condition by the name of the association (prefix \_assoc. separated by a period).
 
--   If the association in the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) of the current SELECT statement is published, the fields of the source data source specified in the ON condition must also be listed in the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)). This ensures that a join expression can be built from the association (when used in a path expression).
+-   If the association in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) of the current SELECT statement is published, the fields of the source data source specified in the ON condition must also be listed in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm). This ensures that a join expression can be built from the association (when used in a path expression).
 
--   To make a reference to an element of the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) in the ON condition, the field name can be prefixed with $projection instead of the source data source. In this case, an alternative element name defined using [AS](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) can be specified instead of the field name. If a path expression of the SELECT list is used when the prefix $projection is used in the ON condition, the current association cannot itself be used in the SELECT list, to avoid invalid join expressions.
+-   To make a reference to an element of the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) in the ON condition, the field name can be prefixed with $projection instead of the source data source. In this case, an alternative element name defined using [AS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm) can be specified instead of the field name. If a path expression of the SELECT list is used when the prefix $projection is used in the ON condition, the current association cannot itself be used in the SELECT list, to avoid invalid join expressions.
 
 Notes
 
 -   Associations not listed in the SELECT list can only be used in path expressions of the current SELECT statement.
 
--   The syntax for defining and using associations is a higher-value wrapping of the syntax for [joins](javascript:call_link\('abencds_f1_joined_data_source.htm'\)). Using associations instead of directly programming joins makes it easier to read the definition of a CDS view. Associations can be used to model relationships between CDS entities that can be accessed simply using path expressions in [CDS views](javascript:call_link\('abencds_f1_path_expression.htm'\)) or in [Open SQL](javascript:call_link\('abenopen_sql_path.htm'\)).
+-   The syntax for defining and using associations is a higher-value wrapping of the syntax for [joins](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_joined_data_source.htm). Using associations instead of directly programming joins makes it easier to read the definition of a CDS view. Associations can be used to model relationships between CDS entities that can be accessed simply using path expressions in [CDS views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) or in [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_path.htm).
 
 -   When a CDS view is activated, a join defined by an association is built for every use in a path expression and not for the definition of the association. No joins are constructed for associations that are not used in their CDS views.
 
 -   If an association is used in a path expression of the SELECT list of the current SELECT statement, a join is defined for the current view. Here, the ON conditions of the association are applied to the join directly. No path expressions are allowed in the ON condition of a join, which means that no reference can be made to a path expression of the SELECT list when using the prefix $projection in the ON condition of an association, if the association is also used here.
 
--   Associations and [join expressions](javascript:call_link\('abencds_f1_joined_data_source.htm'\)) can be used in a SELECT statement of a CDS view.
+-   Associations and [join expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_joined_data_source.htm) can be used in a SELECT statement of a CDS view.
 
--   Special rules apply to associations in SELECT statements joined with [UNION](javascript:call_link\('abencds_f1_union.htm'\)).
+-   Special rules apply to associations in SELECT statements joined with [UNION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_union.htm).
 
--   [Cyclical dependencies](javascript:call_link\('abenddic_cds_cycle_problems.htm'\)) should be avoided when using associations to prevent problems occurring in mass activations of CDS entities.
+-   [Cyclical dependencies](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_cycle_problems.htm) should be avoided when using associations to prevent problems occurring in mass activations of CDS entities.
     
 
 Addition 1
@@ -110,11 +110,11 @@ Defines the cardinality of the target data source of a CDS view, which is define
 
 -   min cannot be \*.
 
--   When an association is used in a [WHERE condition](javascript:call_link\('abencds_f1_where_clause.htm'\)), 1 must be specified for max.
+-   When an association is used in a [WHERE condition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_where_clause.htm), 1 must be specified for max.
 
 If the cardinality is not defined explicitly, the cardinality "to 1" is used implicitly (\[min..1\]).
 
-A cardinality is specified to document the semantics of the data model and, in some database systems, for optimizations. In these database systems, LEFT OUTER JOINs produced by a [path expressions](javascript:call_link\('abencds_f1_path_expression.htm'\)) are given the addition TO ONE if an explicit or implicit "to 1" cardinality is used and the addition TO MANY if any other cardinality is used. These additions work in the same way as when they are specified explicitly in [LEFT OUTER JOIN](javascript:call_link\('abencds_f1_joined_data_source.htm'\)). This means that an optimization is attempted and the result can be undefined if the results set does not match the cardinality.
+A cardinality is specified to document the semantics of the data model and, in some database systems, for optimizations. In these database systems, LEFT OUTER JOINs produced by a [path expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) are given the addition TO ONE if an explicit or implicit "to 1" cardinality is used and the addition TO MANY if any other cardinality is used. These additions work in the same way as when they are specified explicitly in [LEFT OUTER JOIN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_joined_data_source.htm). This means that an optimization is attempted and the result can be undefined if the results set does not match the cardinality.
 
 Note
 
@@ -124,7 +124,7 @@ Note
 
 Example
 
-Specifies the cardinality of an association incorrectly. The following CDS view joins the database tables SCARR and SPFLI in an association \_spfli without specifying the cardinality explicitly. The implicitly set cardinality is "to 1". If the association is used in a path specified in the SELECT list, this is instanced in some database systems (for example the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry")) as a left outer join using the implicit addition TO ONE. The actual cardinality of the data is, however, TO MANY.
+Specifies the cardinality of an association incorrectly. The following CDS view joins the database tables SCARR and SPFLI in an association \_spfli without specifying the cardinality explicitly. The implicitly set cardinality is "to 1". If the association is used in a path specified in the SELECT list, this is instanced in some database systems (for example the [SAP HANA database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm "Glossary Entry")) as a left outer join using the implicit addition TO ONE. The actual cardinality of the data is, however, TO MANY.
 
 @AbapCatalog.sqlViewName: 'DEMOCDSWRGC'
 define view demo\_cds\_wrong\_cardinality
@@ -142,7 +142,7 @@ The program DEMO\_CDS\_WRONG\_CARDINALITY uses different SELECT statements to ac
 
 Example
 
-Specifies the cardinality of an association correctly. The following CDS view joins the database tables SCARR and SPFLI in an association \_spfli while specifying the cardinality explicitly. If the association is used in a path specified in the SELECT list, this is instanced in some database systems (for example the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry")) as a left outer join using the implicit addition TO MANY, which matches the actual cardinality of the data.
+Specifies the cardinality of an association correctly. The following CDS view joins the database tables SCARR and SPFLI in an association \_spfli while specifying the cardinality explicitly. If the association is used in a path specified in the SELECT list, this is instanced in some database systems (for example the [SAP HANA database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm "Glossary Entry")) as a left outer join using the implicit addition TO MANY, which matches the actual cardinality of the data.
 
 @AbapCatalog.sqlViewName: 'DEMOCDSEXPC'
 define view demo\_cds\_explicit\_cardinality
@@ -164,7 +164,7 @@ Addition 2
 
 Effect
 
-Defines the name \_assoc of an association defined using ASSOCIATION of a CDS view. If no name is defined explicitly using AS, \_assoc is set implicitly to the name of the target data source. The name \_assoc must comply with the naming rules for [names](javascript:call_link\('abencds_general_syntax_rules.htm'\)).
+Defines the name \_assoc of an association defined using ASSOCIATION of a CDS view. If no name is defined explicitly using AS, \_assoc is set implicitly to the name of the target data source. The name \_assoc must comply with the naming rules for [names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_general_syntax_rules.htm).
 
 Note
 
@@ -172,7 +172,7 @@ It is advisable to use an underscore \_ as the first character of the associatio
 
 Example
 
-Example of a simple association. The following CDS view provides the same result as the CDS view DEMO\_CDS\_SCARR\_SPFLI in the [joins](javascript:call_link\('abencds_f1_joined_data_source.htm'\)) example, as shown in the program DEMO\_CDS\_ASSOCIATION using an assertion. Furthermore, the association spfli\_scarr is published to be used from outside in the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) by specifying a [path](javascript:call_link\('abencds_f1_path_expression.htm'\)) that contains only the name of an association. The program DEMO\_CDS\_ASSOCIATION also shows how the association can be accessed by [specifying a path](javascript:call_link\('abenopen_sql_path.htm'\)) in Open SQL.
+Example of a simple association. The following CDS view provides the same result as the CDS view DEMO\_CDS\_SCARR\_SPFLI in the [joins](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_joined_data_source.htm) example, as shown in the program DEMO\_CDS\_ASSOCIATION using an assertion. Furthermore, the association spfli\_scarr is published to be used from outside in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) by specifying a [path](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) that contains only the name of an association. The program DEMO\_CDS\_ASSOCIATION also shows how the association can be accessed by [specifying a path](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_path.htm) in Open SQL.
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASSOC'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -259,18 +259,18 @@ Addition 3
 
 Effect
 
-Defines a standard filter condition for a [path expression](javascript:call_link\('abencds_f1_path_expression.htm'\)).
+Defines a standard filter condition for a [path expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm).
 
--   If no filter condition is specified when the association is used in an path expression in the attributes [attributes](javascript:call_link\('abencds_path_expression_attr.htm'\)), the condition [cond\_exp](javascript:call_link\('abencds_f1_conditional_expression.htm'\)) specified using DEFAULT FILTER is used as the filter condition and applied in an extended condition for the join. The same [rules](javascript:call_link\('abencds_cond_expr_filter.htm'\)) apply to the default filter condition as to a filter condition specified as an attribute.
+-   If no filter condition is specified when the association is used in an path expression in the attributes [attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm), the condition [cond\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conditional_expression.htm) specified using DEFAULT FILTER is used as the filter condition and applied in an extended condition for the join. The same [rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_filter.htm) apply to the default filter condition as to a filter condition specified as an attribute.
 
--   If no filter condition is specified when the association is used in a path expression in the attributes [attributes](javascript:call_link\('abencds_path_expression_attr.htm'\)), this condition is used instead of the default filter condition.
+-   If no filter condition is specified when the association is used in a path expression in the attributes [attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm), this condition is used instead of the default filter condition.
 
 Note
 
 When the syntax check evaluates a cardinality specified using \[min..max\], the default filter condition is respected alongside the ON condition.
 
 Continue
-[ABAP CDS - path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\))
+[ABAP CDS - path\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm)
 
 
 
@@ -288,28 +288,28 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, ASSOCIATION](javascript:call_link\('abencds_f1_association.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, ASSOCIATION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) → 
 
 ABAP CDS - path\_expr
 
 Syntax
 
-... *\[*viewEntity.*\]*\_assoc1*\[* [parameters](javascript:call_link\('abencds_f1_select_parameters.htm'\))*\]**\[*[attributes](javascript:call_link\('abencds_path_expression_attr.htm'\))*\]*
-               *\[*.\_assoc2*\[* [parameters](javascript:call_link\('abencds_f1_select_parameters.htm'\))*\]**\[* [attributes](javascript:call_link\('abencds_path_expression_attr.htm'\))*\]* ... *\]**\[*.element*\]* ...
+... *\[*viewEntity.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_parameters.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm)*\]*
+               *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_parameters.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm)*\]* ... *\]**\[*.element*\]* ...
 
 Effect
 
-Specifies a [CDS path expression](javascript:call_link\('abencds_path_expression_glosry.htm'\) "Glossary Entry") in a SELECT selection of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). A path expression is a string of [associations](javascript:call_link\('abencds_f1_association.htm'\)) separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on.
+Specifies a [CDS path expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_glosry.htm "Glossary Entry") in a SELECT selection of a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"). A path expression is a string of [associations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on.
 
 Path expressions can be used as follows in the CDS DDL in ABAP CDS:
 
--   As data sources [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\))
+-   As data sources [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm)
 
--   As [elements](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) of [SELECT lists](javascript:call_link\('abencds_f1_select_list.htm'\))
+-   As [elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm)
 
--   As operands of [WHERE conditions](javascript:call_link\('abencds_f1_where_clause.htm'\)) or [HAVING conditions](javascript:call_link\('abencds_f1_having_clause.htm'\))
+-   As operands of [WHERE conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_where_clause.htm) or [HAVING conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_having_clause.htm)
 
-Path expressions specified as operands of a condition must be closed using an element. As a non-aggregated element of a SELECT list of [aggregate expressions](javascript:call_link\('abencds_f1_aggregate_functions.htm'\)) and in a WHERE condition or HAVING condition, the result of the path expression must be monovalent. This means that the cardinality of all associations used is either to 1 or the path expression can contain only [filter conditions](javascript:call_link\('abencds_path_expression_attr.htm'\)) declared as monovalent using the addition 1:.
+Path expressions specified as operands of a condition must be closed using an element. As a non-aggregated element of a SELECT list of [aggregate expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_aggregate_functions.htm) and in a WHERE condition or HAVING condition, the result of the path expression must be monovalent. This means that the cardinality of all associations used is either to 1 or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm) declared as monovalent using the addition 1:.
 
 The following is evaluated when a CDS view is accessed using a path expression:
 
@@ -323,15 +323,15 @@ The path expression addresses the full result of this evaluation or a single ele
 
 -   If the path expression is closed using an association, this is interpreted as follows depending on the position of the path expression:
 
--   After [FROM](javascript:call_link\('abencds_f1_select_statement.htm'\)), the association is a data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)).
+-   After [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm), the association is a data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm).
 
--   As an [element](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) of a [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)), the association is published for use in other CDS views or in Open SQL.
+-   As an [element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm), the association is published for use in other CDS views or in Open SQL.
 
-In a [WHERE](javascript:call_link\('abencds_f1_where_clause.htm'\)) clause or [HAVING](javascript:call_link\('abencds_f1_having_clause.htm'\)) clause, the path expression must be closed using an element.
+In a [WHERE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_where_clause.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_having_clause.htm) clause, the path expression must be closed using an element.
 
 The name of the CDS view in which the first association is defined can be specified in front of this association. The first association in a path expression must either be defined in the current CDS view or published as an element in a data source of the current view. All further associations must be published in the target data source of the directly prefixed association in the path expression.
 
--   [attributes](javascript:call_link\('abencds_path_expression_attr.htm'\)) can be used to specify attributes in angle brackets after every association. These attributes define the following further properties of this section of the path expression:
+-   [attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm) can be used to specify attributes in angle brackets after every association. These attributes define the following further properties of this section of the path expression:
 
 -   Declaration of monovalency
 
@@ -339,21 +339,21 @@ The name of the CDS view in which the first association is defined can be specif
 
 -   Specified filter conditions
 
--   If the data source target of a specified [association](javascript:call_link\('abencds_f1_association.htm'\)) is a CDS entity with [input parameters](javascript:call_link\('abencds_f1_param.htm'\)), [parameters](javascript:call_link\('abencds_f1_select_parameters.htm'\)) must be used after the name \_assoc to pass actual parameters to them. No parameters can be specified for an association published as an [element](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) of a [SELECT](javascript:call_link\('abencds_f1_select_list.htm'\)) list.
+-   If the data source target of a specified [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm), [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_parameters.htm) must be used after the name \_assoc to pass actual parameters to them. No parameters can be specified for an association published as an [element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) list.
 
 Notes
 
 -   The most simple path expression is the name of a single association.
 
--   CDS DDL path expressions can also be used in [conditions](javascript:call_link\('abencds_dcl_role_conditions.htm'\)) in the ABAP [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry") of ABAP CDS.
+-   CDS DDL path expressions can also be used in [conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_role_conditions.htm) in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS.
 
 -   An association whose target data source does not publish an association cannot be followed by any further associations in a path expression. More specifically, no further associations can be made into a path expression after associations whose target data sources are database tables or classic views.
 
--   When the associations of the path expressions of a view are defined as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](javascript:call_link\('abencore_annotation_glosry.htm'\) "Glossary Entry") [AbapCatalog.compiler.compareFilter](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)) is used as support here. The value true guarantees that associations with semantically identical [filter conditions](javascript:call_link\('abencds_path_expression_attr.htm'\)) do not produce differing join expressions.
+-   When the associations of the path expressions of a view are defined as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencore_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_view_entity_annotations.htm) is used as support here. The value true guarantees that associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm) do not produce differing join expressions.
 
 Example
 
-The following CDS view contains the simple path expression \_scarr\[inner\].carrname in the SELECT list, whereby the attribute [INNER](javascript:call_link\('abencds_path_expression_attr.htm'\)) is specified that controls the type of join. The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in Open SQL.
+The following CDS view contains the simple path expression \_scarr\[inner\].carrname in the SELECT list, whereby the attribute [INNER](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm) is specified that controls the type of join. The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in Open SQL.
 
 Example
 
@@ -402,11 +402,11 @@ define view invoice as
 
 Executable Example
 
-[Path Expressions, Use in the SELECT List](javascript:call_link\('abenpath_expr_in_colspec_abexa.htm'\)) .
+[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpath_expr_in_colspec_abexa.htm) .
 
 Continue
-[ABAP CDS - path\_expr, attributes](javascript:call_link\('abencds_path_expression_attr.htm'\))
-![Example](exa.gif "Example") [ABAP CDS - Joins of Associations](javascript:call_link\('abencds_assoc_join_abexa.htm'\))
+[ABAP CDS - path\_expr, attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm)
+![Example](exa.gif "Example") [ABAP CDS - Joins of Associations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_assoc_join_abexa.htm)
 
 
 
@@ -424,13 +424,13 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, ASSOCIATION](javascript:call_link\('abencds_f1_association.htm'\)) →  [ABAP CDS - path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, ASSOCIATION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) →  [ABAP CDS - path\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) → 
 
 ABAP CDS - path\_expr, attributes
 
 Syntax
 
-... \[ *\[*1*|*\*:*\]* *\[*INNER*|**{*LEFT OUTER*}* *\[*WHERE*\]**\]* *\[* [cond\_expr](javascript:call_link\('abencds_f1_conditional_expression.htm'\))*\]* \] ...
+... \[ *\[*1*|*\*:*\]* *\[*INNER*|**{*LEFT OUTER*}* *\[*WHERE*\]**\]* *\[* [cond\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conditional_expression.htm)*\]* \] ...
 
 Extras:
 
@@ -440,7 +440,7 @@ Extras:
 
 Effect
 
-For every association [\_assoc](javascript:call_link\('abencds_f1_association.htm'\)) of a [path expression](javascript:call_link\('abencds_f1_path_expression.htm'\)) of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following can be done using these attributes:
+For every association [\_assoc](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) of a [path expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) of a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"), attributes for this part of the path expression can be defined in square brackets \[ \]. The following can be done using these attributes:
 
 -   The polyvalence of the section can be declared.
 
@@ -461,13 +461,13 @@ Declaration of the polyvalence of the current association:
 
 -   If the attribute \*: is specified, the current association is declared as polyvalent.
 
-The addition 1: makes it possible to use filter conditions in path expressions, which are used in [WHERE](javascript:call_link\('abencds_f1_where_clause.htm'\)) clauses or [HAVING](javascript:call_link\('abencds_f1_having_clause.htm'\)) clauses. In a clause like this, it overwrites the cardinality of the [association](javascript:call_link\('abencds_f1_association.htm'\)). (The variant of the path expression can, however, be affected differently on certain database systems.)
+The addition 1: makes it possible to use filter conditions in path expressions, which are used in [WHERE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_where_clause.htm) clauses or [HAVING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_having_clause.htm) clauses. In a clause like this, it overwrites the cardinality of the [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm). (The variant of the path expression can, however, be affected differently on certain database systems.)
 
 The addition 1: or \*: cannot be specified as the only addition in square brackets.
 
 Note
 
-The addition 1: prevents a syntax error, if a path specified with filter conditions or with a quantity value cardinality is used in a [WHERE](javascript:call_link\('abencds_f1_where_clause.htm'\)) clause or [HAVING](javascript:call_link\('abencds_f1_having_clause.htm'\)) clause. It is not possible at runtime, however, to check whether the required uniqueness is achieved by the condition.
+The addition 1: prevents a syntax error, if a path specified with filter conditions or with a quantity value cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_where_clause.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_having_clause.htm) clause. It is not possible at runtime, however, to check whether the required uniqueness is achieved by the condition.
 
 Addition 2
 
@@ -483,7 +483,7 @@ Defines the type of join expression where the current expression is implemented:
 
 If the type of join expression is not specified explicitly, the type depends on the place where the path expression is used:
 
--   After [FROM](javascript:call_link\('abencds_f1_select_statement.htm'\)), it is an inner join (INNER JOIN)
+-   After [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm), it is an inner join (INNER JOIN)
 
 -   In all other locations, it is a left outer join (LEFT OUTER JOIN)
 
@@ -491,11 +491,11 @@ If the type of join expression is defined before a filter condition cond\_expr, 
 
 Note
 
-The variants of the joins can be seen in in the display of the SQL DDL statement in the DDL source code editor in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry").
+The variants of the joins can be seen in in the display of the SQL DDL statement in the DDL source code editor in [ADT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry").
 
 Executable Example
 
-[Joins of Associations](javascript:call_link\('abencds_assoc_join_abexa.htm'\))
+[Joins of Associations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_assoc_join_abexa.htm)
 
 Addition 3
 
@@ -503,13 +503,13 @@ Addition 3
 
 Effect
 
-[Filter condition](javascript:call_link\('abenfilter_condition_glosry.htm'\) "Glossary Entry") for the current association. A filter condition is a condition [cond\_exp](javascript:call_link\('abencds_f1_conditional_expression.htm'\)) implemented as an expanded condition for the join when resolving the association to the join in question. Special [rules](javascript:call_link\('abencds_cond_expr_filter.htm'\)) apply when specifying the condition.
+[Filter condition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfilter_condition_glosry.htm "Glossary Entry") for the current association. A filter condition is a condition [cond\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conditional_expression.htm) implemented as an expanded condition for the join when resolving the association to the join in question. Special [rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_cond_expr_filter.htm) apply when specifying the condition.
 
-If no filter condition is specified in the path expression, any default filter condition specified for the [association](javascript:call_link\('abencds_f1_association.htm'\)) is used.
+If no filter condition is specified in the path expression, any default filter condition specified for the [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) is used.
 
 Note
 
-In most cases, a filter condition modifies the join expression defined for an association of a path expression on the database. This means that a separate join expression is defined for each association with a filter condition by default. This is not necessary, however, if an association is used more than once and the same filter condition is specified. This is why the [ABAP annotation](javascript:call_link\('abencore_annotation_glosry.htm'\) "Glossary Entry") [AbapCatalog.compiler.compareFilter](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)) can be used to configure whether the filter conditions of a multiple association are compared semantically for the path expressions defined as joins when a view is activated . If the filter condition matches, the associated join expression is created only once, which generally improves performance. In most cases, it is best to use the annotation and propose it when creating a CDS view in the ADT. The results sets of the two configurations can, however, differ.
+In most cases, a filter condition modifies the join expression defined for an association of a path expression on the database. This means that a separate join expression is defined for each association with a filter condition by default. This is not necessary, however, if an association is used more than once and the same filter condition is specified. This is why the [ABAP annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencore_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_view_entity_annotations.htm) can be used to configure whether the filter conditions of a multiple association are compared semantically for the path expressions defined as joins when a view is activated . If the filter condition matches, the associated join expression is created only once, which generally improves performance. In most cases, it is best to use the annotation and propose it when creating a CDS view in the ADT. The results sets of the two configurations can, however, differ.
 
 Example
 
@@ -682,7 +682,7 @@ FROM (
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, ASSOCIATION](javascript:call_link\('abencds_f1_association.htm'\)) →  [ABAP CDS - path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, ASSOCIATION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) →  [ABAP CDS - path\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) → 
 
 ABAP CDS - Joins of Associations
 
@@ -814,7 +814,7 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates how joins are used for [path expressions](javascript:call_link\('abencds_f1_path_expression.htm'\)) with [associations](javascript:call_link\('abencds_f1_association.htm'\)). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the published association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
+This example demonstrates how joins are used for [path expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) with [associations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm). The following two CDS views - DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I - access their own association \_demo\_join2 in path expressions of the SELECT list and the published association \_demo\_join3 of DEMO\_CDS\_ASSOC\_JOIN2.
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASJO1O'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -875,15 +875,15 @@ define view Demo\_Cds\_Assoc\_Join2
   demo\_join2.h
 }    
 
-[LEFT OUTER](javascript:call_link\('abencds_path_expression_attr.htm'\)) and [INNER](javascript:call_link\('abencds_path_expression_attr.htm'\)) are explicitly specified in the path expressions.
+[LEFT OUTER](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm) and [INNER](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm) are explicitly specified in the path expressions.
 
 -   LEFT OUTER affects the implementation of associations in a left outer join, which is the default behavior at these places.
 
 -   INNER affects the implementation of associations in an inner join, which overwrites the default behavior at these places.
 
-In the DDL Source Text Editor of the [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), you can view the relevant configuration of the join in the display of the generated SQL DDL statement.
+In the DDL Source Text Editor of the [ADT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry"), you can view the relevant configuration of the join in the display of the generated SQL DDL statement.
 
-This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of Open-SQL statements [SELECT](javascript:call_link\('abapselect.htm'\)) with explicitly programmed left outer and inner joins. The system accesses the database tables DEMO\_JOIN1, DEMO\_JOIN2 and DEMO\_JOIN3, which are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
+This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1\_O and DEMO\_CDS\_ASSOC\_JOIN1\_I are identical to the result sets of Open-SQL statements [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) with explicitly programmed left outer and inner joins. The system accesses the database tables DEMO\_JOIN1, DEMO\_JOIN2 and DEMO\_JOIN3, which are filled with sample data. With an inner join, unlike a left outer join, only the row is returned for which the join condition t3~l = t2~d is fulfilled.
 
 
 
@@ -904,28 +904,28 @@ This example shows that the result sets of the CDS views DEMO\_CDS\_ASSOC\_JOIN1
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, ASSOCIATION](javascript:call_link\('abencds_f1_association.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, ASSOCIATION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) → 
 
 ABAP CDS - path\_expr
 
 Syntax
 
-... *\[*viewEntity.*\]*\_assoc1*\[* [parameters](javascript:call_link\('abencds_f1_select_parameters.htm'\))*\]**\[*[attributes](javascript:call_link\('abencds_path_expression_attr.htm'\))*\]*
-               *\[*.\_assoc2*\[* [parameters](javascript:call_link\('abencds_f1_select_parameters.htm'\))*\]**\[* [attributes](javascript:call_link\('abencds_path_expression_attr.htm'\))*\]* ... *\]**\[*.element*\]* ...
+... *\[*viewEntity.*\]*\_assoc1*\[* [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_parameters.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm)*\]*
+               *\[*.\_assoc2*\[* [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_parameters.htm)*\]**\[* [attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm)*\]* ... *\]**\[*.element*\]* ...
 
 Effect
 
-Specifies a [CDS path expression](javascript:call_link\('abencds_path_expression_glosry.htm'\) "Glossary Entry") in a SELECT selection of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). A path expression is a string of [associations](javascript:call_link\('abencds_f1_association.htm'\)) separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on.
+Specifies a [CDS path expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_glosry.htm "Glossary Entry") in a SELECT selection of a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"). A path expression is a string of [associations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) separated by periods (.) whose names are specified using \_assoc1, \_assoc2, and so on.
 
 Path expressions can be used as follows in the CDS DDL in ABAP CDS:
 
--   As data sources [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\))
+-   As data sources [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm)
 
--   As [elements](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) of [SELECT lists](javascript:call_link\('abencds_f1_select_list.htm'\))
+-   As [elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm) of [SELECT lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm)
 
--   As operands of [WHERE conditions](javascript:call_link\('abencds_f1_where_clause.htm'\)) or [HAVING conditions](javascript:call_link\('abencds_f1_having_clause.htm'\))
+-   As operands of [WHERE conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_where_clause.htm) or [HAVING conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_having_clause.htm)
 
-Path expressions specified as operands of a condition must be closed using an element. As a non-aggregated element of a SELECT list of [aggregate expressions](javascript:call_link\('abencds_f1_aggregate_functions.htm'\)) and in a WHERE condition or HAVING condition, the result of the path expression must be monovalent. This means that the cardinality of all associations used is either to 1 or the path expression can contain only [filter conditions](javascript:call_link\('abencds_path_expression_attr.htm'\)) declared as monovalent using the addition 1:.
+Path expressions specified as operands of a condition must be closed using an element. As a non-aggregated element of a SELECT list of [aggregate expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_aggregate_functions.htm) and in a WHERE condition or HAVING condition, the result of the path expression must be monovalent. This means that the cardinality of all associations used is either to 1 or the path expression can contain only [filter conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm) declared as monovalent using the addition 1:.
 
 The following is evaluated when a CDS view is accessed using a path expression:
 
@@ -939,15 +939,15 @@ The path expression addresses the full result of this evaluation or a single ele
 
 -   If the path expression is closed using an association, this is interpreted as follows depending on the position of the path expression:
 
--   After [FROM](javascript:call_link\('abencds_f1_select_statement.htm'\)), the association is a data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)).
+-   After [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm), the association is a data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm).
 
--   As an [element](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) of a [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)), the association is published for use in other CDS views or in Open SQL.
+-   As an [element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm), the association is published for use in other CDS views or in Open SQL.
 
-In a [WHERE](javascript:call_link\('abencds_f1_where_clause.htm'\)) clause or [HAVING](javascript:call_link\('abencds_f1_having_clause.htm'\)) clause, the path expression must be closed using an element.
+In a [WHERE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_where_clause.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_having_clause.htm) clause, the path expression must be closed using an element.
 
 The name of the CDS view in which the first association is defined can be specified in front of this association. The first association in a path expression must either be defined in the current CDS view or published as an element in a data source of the current view. All further associations must be published in the target data source of the directly prefixed association in the path expression.
 
--   [attributes](javascript:call_link\('abencds_path_expression_attr.htm'\)) can be used to specify attributes in angle brackets after every association. These attributes define the following further properties of this section of the path expression:
+-   [attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm) can be used to specify attributes in angle brackets after every association. These attributes define the following further properties of this section of the path expression:
 
 -   Declaration of monovalency
 
@@ -955,21 +955,21 @@ The name of the CDS view in which the first association is defined can be specif
 
 -   Specified filter conditions
 
--   If the data source target of a specified [association](javascript:call_link\('abencds_f1_association.htm'\)) is a CDS entity with [input parameters](javascript:call_link\('abencds_f1_param.htm'\)), [parameters](javascript:call_link\('abencds_f1_select_parameters.htm'\)) must be used after the name \_assoc to pass actual parameters to them. No parameters can be specified for an association published as an [element](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) of a [SELECT](javascript:call_link\('abencds_f1_select_list.htm'\)) list.
+-   If the data source target of a specified [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) is a CDS entity with [input parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_param.htm), [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_parameters.htm) must be used after the name \_assoc to pass actual parameters to them. No parameters can be specified for an association published as an [element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list_entry.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) list.
 
 Notes
 
 -   The most simple path expression is the name of a single association.
 
--   CDS DDL path expressions can also be used in [conditions](javascript:call_link\('abencds_dcl_role_conditions.htm'\)) in the ABAP [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry") of ABAP CDS.
+-   CDS DDL path expressions can also be used in [conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_role_conditions.htm) in the ABAP [CDS DCL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_glosry.htm "Glossary Entry") of ABAP CDS.
 
 -   An association whose target data source does not publish an association cannot be followed by any further associations in a path expression. More specifically, no further associations can be made into a path expression after associations whose target data sources are database tables or classic views.
 
--   When the associations of the path expressions of a view are defined as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](javascript:call_link\('abencore_annotation_glosry.htm'\) "Glossary Entry") [AbapCatalog.compiler.compareFilter](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)) is used as support here. The value true guarantees that associations with semantically identical [filter conditions](javascript:call_link\('abencds_path_expression_attr.htm'\)) do not produce differing join expressions.
+-   When the associations of the path expressions of a view are defined as joins, they are mapped to as few join expressions as possible. The [ABAP annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencore_annotation_glosry.htm "Glossary Entry") [AbapCatalog.compiler.compareFilter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_view_entity_annotations.htm) is used as support here. The value true guarantees that associations with semantically identical [filter conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm) do not produce differing join expressions.
 
 Example
 
-The following CDS view contains the simple path expression \_scarr\[inner\].carrname in the SELECT list, whereby the attribute [INNER](javascript:call_link\('abencds_path_expression_attr.htm'\)) is specified that controls the type of join. The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in Open SQL.
+The following CDS view contains the simple path expression \_scarr\[inner\].carrname in the SELECT list, whereby the attribute [INNER](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm) is specified that controls the type of join. The program DEMO\_FROM\_JOIN\_TO\_ASSOCIATION demonstrates that this view returns the same result as a directly programmed inner join in ABAP CDS or in Open SQL.
 
 Example
 
@@ -1018,8 +1018,8 @@ define view invoice as
 
 Executable Example
 
-[Path Expressions, Use in the SELECT List](javascript:call_link\('abenpath_expr_in_colspec_abexa.htm'\)) .
+[Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpath_expr_in_colspec_abexa.htm) .
 
 Continue
-[ABAP CDS - path\_expr, attributes](javascript:call_link\('abencds_path_expression_attr.htm'\))
-![Example](exa.gif "Example") [ABAP CDS - Joins of Associations](javascript:call_link\('abencds_assoc_join_abexa.htm'\))
+[ABAP CDS - path\_expr, attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_path_expression_attr.htm)
+![Example](exa.gif "Example") [ABAP CDS - Joins of Associations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_assoc_join_abexa.htm)

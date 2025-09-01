@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_comp.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Secondary%20Table%20Keys%20for%20BDEF%20Derived%20Types%2C%20ABAPDERIVED_TYPES_SECONDARY_KEYS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20
 for%20improvement:)
 
 Secondary Table Keys for BDEF Derived Types
 
-[Internal tables](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") that are typed with [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry"), i. e. using [TYPE TABLE FOR ...](javascript:call_link\('abaptype_table_for.htm'\)), are [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with an empty [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry"). However, most of these internal tables have predefined [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry"). In this case, the secondary table keys are always [sorted keys](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"). Currently, the following secondary table keys are available:
+[Internal tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_table_glosry.htm "Glossary Entry") that are typed with [BDEF derived types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm "Glossary Entry"), i. e. using [TYPE TABLE FOR ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm), are [standard tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_table_glosry.htm "Glossary Entry") with an empty [primary table key](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprimary_table_key_glosry.htm "Glossary Entry"). However, most of these internal tables have predefined [secondary table keys](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensecondary_table_key_glosry.htm "Glossary Entry"). In this case, the secondary table keys are always [sorted keys](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensorted_key_glosry.htm "Glossary Entry"). Currently, the following secondary table keys are available:
 
 Secondary Table Key
 
@@ -19,23 +19,23 @@ Details
 
 entity
 
-The table key entity always includes the component [%key](javascript:call_link\('abapderived_types_key.htm'\)) and is available in all BDEF derived types that have %key as a component.
+The table key entity always includes the component [%key](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_key.htm) and is available in all BDEF derived types that have %key as a component.
 
 cid
 
-The table key cid includes the components [%cid](javascript:call_link\('abapderived_types_cid.htm'\)) or [%cid\_ref](javascript:call_link\('abapderived_types_cid_ref.htm'\)). Depending on the BDEF derived type, the components can also include [%key](javascript:call_link\('abapderived_types_key.htm'\)) and [%pid](javascript:call_link\('abapderived_types_pid.htm'\)).
+The table key cid includes the components [%cid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_cid.htm) or [%cid\_ref](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_cid_ref.htm). Depending on the BDEF derived type, the components can also include [%key](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_key.htm) and [%pid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_pid.htm).
 
 draft
 
-The table key draft includes the component [%is\_draft](javascript:call_link\('abapderived_types_is_draft.htm'\)) and is only available in [draft](javascript:call_link\('abenbdl_with_draft.htm'\)) scenarios. Depending on the BDEF derived type, the components can also include [%pid](javascript:call_link\('abapderived_types_pid.htm'\)) and [%key](javascript:call_link\('abapderived_types_key.htm'\)).
+The table key draft includes the component [%is\_draft](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_is_draft.htm) and is only available in [draft](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_with_draft.htm) scenarios. Depending on the BDEF derived type, the components can also include [%pid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_pid.htm) and [%key](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_key.htm).
 
 pid
 
-Only available in the context of [late numbering](javascript:call_link\('abenrap_late_numbering_glosry.htm'\) "Glossary Entry") scenarios. The table key pid includes the component [%pid](javascript:call_link\('abapderived_types_pid.htm'\)). Depending on the BDEF derived type, the components can also include [%tmp](javascript:call_link\('abapderived_types_tmp.htm'\)) and [%key](javascript:call_link\('abapderived_types_key.htm'\)).
+Only available in the context of [late numbering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_late_numbering_glosry.htm "Glossary Entry") scenarios. The table key pid includes the component [%pid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_pid.htm). Depending on the BDEF derived type, the components can also include [%tmp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_tmp.htm) and [%key](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_key.htm).
 
 Example
 
-The following source code demonstrates the secondary keys of an internal table type with TYPE TABLE FOR CREATE and [table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry").
+The following source code demonstrates the secondary keys of an internal table type with TYPE TABLE FOR CREATE and [table expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_expression_glosry.htm "Glossary Entry").
 
 DATA create\_tab TYPE TABLE FOR CREATE demo\_managed\_root\_4.
 create\_tab = VALUE #( %control-key\_field = if\_abap\_behv=>mk-on
@@ -64,15 +64,15 @@ cl\_demo\_output=>display( ).
 
 Example
 
-You can execute the class CL\_DEMO\_RAP\_DSPLY\_DER\_TYPE\_KS to explore multiple BDEF derived types ([TYPE TABLE FOR ...](javascript:call_link\('abaptype_table_for.htm'\))) and their keys.
+You can execute the class CL\_DEMO\_RAP\_DSPLY\_DER\_TYPE\_KS to explore multiple BDEF derived types ([TYPE TABLE FOR ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)) and their keys.
 
 The class makes use of three different RAP scenarios:
 
--   [RAP external numbering](javascript:call_link\('abenrap_ext_numbering_glosry.htm'\) "Glossary Entry") (non-draft and non-late numbering)
--   [Late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\)) (non-draft)
--   [Draft](javascript:call_link\('abenbdl_with_draft.htm'\))
+-   [RAP external numbering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_ext_numbering_glosry.htm "Glossary Entry") (non-draft and non-late numbering)
+-   [Late numbering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_late_numbering.htm) (non-draft)
+-   [Draft](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_with_draft.htm)
 
-The example is based on dummy [BDEFs](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") and [behavior pools (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") that just serve the purpose of including many specifications to display a variety of BDEF derived types:
+The example is based on dummy [BDEFs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") and [behavior pools (ABP)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") that just serve the purpose of including many specifications to display a variety of BDEF derived types:
 
 Scenario
 

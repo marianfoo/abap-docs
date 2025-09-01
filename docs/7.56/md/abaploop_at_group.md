@@ -4,15 +4,15 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [LOOP AT itab](javascript:call_link\('abaploop_at_itab_variants.htm'\)) →  [LOOP AT itab, GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_processing_statements.htm) →  [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_variants.htm) →  [LOOP AT itab, GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm) → 
 
 LOOP AT GROUP
 
-[Short Reference](javascript:call_link\('abaploop_at_group_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_group_shortref.htm)
 
 Syntax
 
-LOOP AT GROUP group [result](javascript:call_link\('abaploop_at_itab_result.htm'\)) *\[* [WHERE log\_exp](javascript:call_link\('abaploop_at_itab_cond.htm'\))*\]* *\[*[GROUP BY ...](javascript:call_link\('abaploop_at_itab_group_by.htm'\))*\]*.
+LOOP AT GROUP group [result](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_result.htm) *\[* [WHERE log\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm)*\]* *\[*[GROUP BY ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm)*\]*.
   ...
 ENDLOOP.
 
@@ -22,20 +22,20 @@ Addition:
 
 Effect
 
-Member loop across the lines of a group within the [group loop](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) in the [grouping](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) of internal tables. This loop is only possible within a [LOOP](javascript:call_link\('abaploop_at_itab_variants.htm'\)) across an internal table with the addition [GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)),
+Member loop across the lines of a group within the [group loop](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm) in the [grouping](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm) of internal tables. This loop is only possible within a [LOOP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_variants.htm) across an internal table with the addition [GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm),
 
 -   for which the internal table itab is specified directly as a data object and not as the result of a call or expression,
 -   in which the addition WITHOUT MEMBERS is not used.
 
-group is used to specify the group across which the member loop passes. The target object must be specified that is defined in the output behavior [group\_result](javascript:call_link\('abaploop_at_itab_group_by_binding.htm'\)) of the group loop and bound to the group:
+group is used to specify the group across which the member loop passes. The target object must be specified that is defined in the output behavior [group\_result](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by_binding.htm) of the group loop and bound to the group:
 
--   In the representative binding, this is a representative specified in the output behavior [result](javascript:call_link\('abaploop_at_itab_result.htm'\)).
--   In the group key binding, this is a data object or field symbol specified in the output behavior [group\_result](javascript:call_link\('abaploop_at_itab_group_by_binding.htm'\)).
+-   In the representative binding, this is a representative specified in the output behavior [result](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_result.htm).
+-   In the group key binding, this is a data object or field symbol specified in the output behavior [group\_result](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by_binding.htm).
 
-The member loop across the current group is executed just like a regular [LOOP](javascript:call_link\('abaploop_at_itab_variants.htm'\)) across a standard table with the line type of itab which contains the lines of the group. Both variants are possible:
+The member loop across the current group is executed just like a regular [LOOP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_variants.htm) across a standard table with the line type of itab which contains the lines of the group. Both variants are possible:
 
--   [Loop across lines](javascript:call_link\('abaploop_at_itab.htm'\)) without the addition GROUP BY.
--   [Loop across groups](javascript:call_link\('abaploop_at_itab.htm'\)) with the addition GROUP BY.
+-   [Loop across lines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm) without the addition GROUP BY.
+-   [Loop across groups](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm) with the addition GROUP BY.
 
 The second option enables further groupings of existing groups.
 
@@ -49,11 +49,11 @@ Hints
 
 -   Despite the fact that there is always only one grouping for a single LOOP, it is still necessary to specify the group group explicitly, since multiple groups can be accessed in nested LOOP statements.
 -   group expects the precise name specified in the output behavior, namely a field symbol with angle brackets specified after ASSIGNING and a data reference variable without dereferencing operator \-> specified after REFERENCE INTO.
--   The statement LOOP AT GROUP can only be listed within a loop defined using [LOOP AT ... GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)), since the name for the group defined using its [output behavior](javascript:call_link\('abaploop_at_itab_group_by_binding.htm'\)) is only valid here. LOOP AT GROUP is in particular not possible in procedures called from a group loop, even if the data object or field symbol defined by the output behavior can be accessed here.
+-   The statement LOOP AT GROUP can only be listed within a loop defined using [LOOP AT ... GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm), since the name for the group defined using its [output behavior](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by_binding.htm) is only valid here. LOOP AT GROUP is in particular not possible in procedures called from a group loop, even if the data object or field symbol defined by the output behavior can be accessed here.
 -   Despite the syntax and semantics of LOOP AT GROUP being the same as a regular nested loop, the way the lines of the group are actually accessed is optimized. This exploits the internal variant of the assignment of the lines to their group.
--   A loop LOOP AT GROUP does not allow [group level processing](javascript:call_link\('abengroup_level_processing_glosry.htm'\) "Glossary Entry") with the statement [AT](javascript:call_link\('abapat_itab.htm'\)).
+-   A loop LOOP AT GROUP does not allow [group level processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengroup_level_processing_glosry.htm "Glossary Entry") with the statement [AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_itab.htm).
 -   A group loop does not create any empty groups, which means that a member loop is always passed as a rule. Only WHERE conditions can be used to prevent members of a group from being processed. Internally, however, this is not detected until the start of the first loop pass, which means that sy-subrc is set to 0 in this case as well.
--   The statement LOOP AT GROUP corresponds to the expression [FOR ... IN GROUP](javascript:call_link\('abenfor_in_group.htm'\)). This means its functions can often be expressed more elegantly using [table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry") or [table reductions](javascript:call_link\('abentable_reduction_glosry.htm'\) "Glossary Entry").
+-   The statement LOOP AT GROUP corresponds to the expression [FOR ... IN GROUP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor_in_group.htm). This means its functions can often be expressed more elegantly using [table comprehensions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_comprehension_glosry.htm "Glossary Entry") or [table reductions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_reduction_glosry.htm "Glossary Entry").
 
 Example
 
@@ -78,12 +78,12 @@ Example
 
 The following example shows each of the six different syntax methods of specifying a group in a member loop:
 
--   Work area wa of the LOOP in a [representative binding](javascript:call_link\('abaploop_at_itab_group_by_binding.htm'\)).
--   Field symbol <fs> of the LOOP in a [representative binding](javascript:call_link\('abaploop_at_itab_group_by_binding.htm'\)).
--   Data reference variable dref of the LOOP in a [representative binding](javascript:call_link\('abaploop_at_itab_group_by_binding.htm'\)).
--   Work area group of the group loop in a [group key binding](javascript:call_link\('abaploop_at_itab_group_by_binding.htm'\)).
--   Field symbol group of the group loop in a [group key binding](javascript:call_link\('abaploop_at_itab_group_by_binding.htm'\)).
--   Data reference variable group\_ref of the group loop in a [group key binding](javascript:call_link\('abaploop_at_itab_group_by_binding.htm'\)).
+-   Work area wa of the LOOP in a [representative binding](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by_binding.htm).
+-   Field symbol <fs> of the LOOP in a [representative binding](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by_binding.htm).
+-   Data reference variable dref of the LOOP in a [representative binding](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by_binding.htm).
+-   Work area group of the group loop in a [group key binding](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by_binding.htm).
+-   Field symbol group of the group loop in a [group key binding](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by_binding.htm).
+-   Data reference variable group\_ref of the group loop in a [group key binding](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by_binding.htm).
 
 TYPES itab TYPE STANDARD TABLE OF i WITH EMPTY KEY.
 DATA(itab) = VALUE itab( ( 1 ) ( 1 ) ( 2 ) ( 2 ) ).
@@ -127,11 +127,11 @@ Addition  
 
 Effect
 
-The lines read from the group can be restricted using a static [WHERE condition](javascript:call_link\('abaploop_at_itab_cond.htm'\)). The syntax and semantics are the same as in a LOOP across an internal table with the line type of itab.
+The lines read from the group can be restricted using a static [WHERE condition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). The syntax and semantics are the same as in a LOOP across an internal table with the line type of itab.
 
 Hint
 
-The additions [USING KEY](javascript:call_link\('abaploop_at_itab_cond.htm'\)), [FROM](javascript:call_link\('abaploop_at_itab_cond.htm'\)), [TO](javascript:call_link\('abaploop_at_itab_cond.htm'\)), and a dynamic WHERE condition cannot be specified after LOOP AT GROUP.
+The additions [USING KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm), [FROM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm), [TO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm), and a dynamic WHERE condition cannot be specified after LOOP AT GROUP.
 
 Example
 

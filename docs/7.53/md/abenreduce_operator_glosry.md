@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 reduction operator
 
-[Constructor operator](javascript:call_link\('abenconstructor_operator_glosry.htm'\) "Glossary Entry") [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) for constructing a value using [iteration expressions](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") with [FOR](javascript:call_link\('abenfor.htm'\)). See also [table reduction](javascript:call_link\('abentable_reduction_glosry.htm'\) "Glossary Entry").
+[Constructor operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_operator_glosry.htm "Glossary Entry") [REDUCE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_reduce.htm) for constructing a value using [iteration expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeniteration_expression_glosry.htm "Glossary Entry") with [FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor.htm). See also [table reduction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_reduction_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenconstructor_expression_reduce.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_reduce.htm)

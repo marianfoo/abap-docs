@@ -4,22 +4,22 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Examples for BDEF Derived Type Components](javascript:call_link\('abenderived_types_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_rap_other.htm) →  [ABAP for RAP, BDEF Derived Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_comp.htm) →  [Examples for BDEF Derived Type Components](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenderived_types_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Example for Message-Related BDEF Derived Type Components, ABENDERIVED_TYPES_REPORTED_
 ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Example for Message-Related BDEF Derived Type Components
 
-This example demonstrates the use of the following message-related [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") components with a [managed](javascript:call_link\('abenbdl_impl_type.htm'\)) [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"):
+This example demonstrates the use of the following message-related [BDEF derived type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") components with a [managed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_impl_type.htm) [RAP BO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm "Glossary Entry"):
 
--   [%element](javascript:call_link\('abapderived_types_element.htm'\))
--   [%global](javascript:call_link\('abapderived_types_global.htm'\))
--   [%msg](javascript:call_link\('abapderived_types_msg.htm'\))
--   [%other](javascript:call_link\('abapderived_types_other.htm'\))
--   [%own](javascript:call_link\('abapderived_types_own.htm'\))
--   [%path](javascript:call_link\('abapderived_types_path.htm'\))
--   [%state\_area](javascript:call_link\('abapderived_types_state_area.htm'\))
+-   [%element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_element.htm)
+-   [%global](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_global.htm)
+-   [%msg](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_msg.htm)
+-   [%other](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_other.htm)
+-   [%own](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_own.htm)
+-   [%path](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_path.htm)
+-   [%state\_area](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_state_area.htm)
 
 Further Information
 
@@ -27,7 +27,7 @@ See more details on message handling in the Development Guide for the ABAP RESTf
 
 Data model
 
-The CDS data model consists of the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_REPORTED and its [child entity](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_CHILD\_REPORTED.
+The CDS data model consists of the [root entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenroot_entity_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_REPORTED and its [child entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenchild_entity_glosry.htm "Glossary Entry") DEMO\_MANAGED\_CHILD\_REPORTED.
 
 Root entity:
 
@@ -63,7 +63,7 @@ define view entity DEMO\_MANAGED\_CHILD\_REPORTED
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_REPORTED is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_REPORTED is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_root\_reported unique;
 strict(2);
@@ -91,19 +91,19 @@ authorization dependent by \_parent
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_REPORTED. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
+For the above CDS behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_REPORTED. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
 
 The following methods are relevant for the example:
 
 -   get\_global\_authorizations
     
-    The method is implemented in a way that RAP create, update and delete operations are only enabled for users with the appropriate authorizations. In the interest of having a simple demo, the example goes without an authorization object which is, for example, a way to handle the authorization granting in production applications. The variable auth\_flag represents the authorization that is granted or not. In this case, the permission for the operations is granted and the [reported](javascript:call_link\('abaptype_response_for.htm'\)) response parameter is filled by adding a message to the %msg component. Furthermore, the components [%create](javascript:call_link\('abapderived_types_create.htm'\)), [%update](javascript:call_link\('abapderived_types_update.htm'\)) and [%delete](javascript:call_link\('abapderived_types_delete.htm'\)) are filled in case the respective requested\_authorizations parameter is marked as enabled. The %global component is marked as enabled, too, because the message is a [RAP transition message](javascript:call_link\('abenrap_trans_mes_glosry.htm'\) "Glossary Entry") and, thus, related to a specific entity of the business object.
+    The method is implemented in a way that RAP create, update and delete operations are only enabled for users with the appropriate authorizations. In the interest of having a simple demo, the example goes without an authorization object which is, for example, a way to handle the authorization granting in production applications. The variable auth\_flag represents the authorization that is granted or not. In this case, the permission for the operations is granted and the [reported](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_response_for.htm) response parameter is filled by adding a message to the %msg component. Furthermore, the components [%create](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_create.htm), [%update](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_update.htm) and [%delete](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_delete.htm) are filled in case the respective requested\_authorizations parameter is marked as enabled. The %global component is marked as enabled, too, because the message is a [RAP transition message](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_trans_mes_glosry.htm "Glossary Entry") and, thus, related to a specific entity of the business object.
     
     For demonstration purposes, a RAP unbound message is added to the %other component in the context of this method.
     
 -   validatenum:
     
-    It contains the method implementation for a [validation](javascript:call_link\('abenbdl_validations.htm'\)). The validation checks whether the value of a number of a RAP BO instance field in the child entity is between the values of two numbers of two fields in the root entity. If this is not the case, the validation fails and the failed and reported response parameters are filled. Since reported is of type [TYPE RESPONSE FOR REPORTED LATE](javascript:call_link\('abaptype_response_for.htm'\)), the %own component is available and used in the example, although it is optional here, to refer to the child entity. The %path, %element and %state\_area components are also filled. Before looping at the RAP BO instances, the state area is invalidated.
+    It contains the method implementation for a [validation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_validations.htm). The validation checks whether the value of a number of a RAP BO instance field in the child entity is between the values of two numbers of two fields in the root entity. If this is not the case, the validation fails and the failed and reported response parameters are filled. Since reported is of type [TYPE RESPONSE FOR REPORTED LATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_response_for.htm), the %own component is available and used in the example, although it is optional here, to refer to the child entity. The %path, %element and %state\_area components are also filled. Before looping at the RAP BO instances, the state area is invalidated.
     
     For demonstration purposes, a RAP unbound message is added to the %other component in the context of this method.
     
@@ -318,7 +318,7 @@ The program includes multiple ABAP EML requests:
 
 1.  ABAP EML create request:
     
-    Multiple RAP BO instances are created for the root entity. A [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) triggers the saving of the instances to the database. Apart from an internal table showing the database table entries, the output shows the REPORTED EARLY response that, among other things, includes the %global component that is marked as enabled, and the content of the %other component.
+    Multiple RAP BO instances are created for the root entity. A [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit_entities.htm) triggers the saving of the instances to the database. Apart from an internal table showing the database table entries, the output shows the REPORTED EARLY response that, among other things, includes the %global component that is marked as enabled, and the content of the %other component.
     
 2.  First ABAP EML create-by-association request:
     
@@ -334,4 +334,4 @@ The program includes multiple ABAP EML requests:
     
 5.  Third ABAP EML create-by-association request:
     
-    A [ROLLBACK ENTITIES](javascript:call_link\('abaprollback_entities.htm'\)) statement before the create-by-association request rolls back all changes of the current [RAP LUW](javascript:call_link\('abenrap_luw_glosry.htm'\) "Glossary Entry"). Then, two RAP BO instances are created for the child entity using the same keys as previously. All are purposely specified in a way so that the validation does not fail. Hence, the entries are saved to the database table following a COMMIT ENTITIES statement. The entries of the database table are shown in an internal table. Both REPORTED EARLY and REPORTED LATE responses are displayed in an internal table, too, however, they do not show any entries for the child entity. The RAP unbound messages in %other contained in REPORTED EARLY and REPORTED LATE are displayed.
+    A [ROLLBACK ENTITIES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaprollback_entities.htm) statement before the create-by-association request rolls back all changes of the current [RAP LUW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_luw_glosry.htm "Glossary Entry"). Then, two RAP BO instances are created for the child entity using the same keys as previously. All are purposely specified in a way so that the validation does not fail. Hence, the entries are saved to the database table following a COMMIT ENTITIES statement. The entries of the database table are shown in an internal table. Both REPORTED EARLY and REPORTED LATE responses are displayed in an internal table, too, however, they do not show any entries for the child entity. The RAP unbound messages in %other contained in REPORTED EARLY and REPORTED LATE are displayed.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodularization_unit_guidl.htm) → 
 
 Internal and External Procedure Calls
 
@@ -20,7 +20,7 @@ When a procedure is called, a distinction is made between internal and external 
 
 -   Methods of local classes, where the name of the class is specified dynamically using an absolute type name (\\PROGRAM= ... \\CLASS=...\\)
 
-The programs loaded within an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") are grouped into program groups. There is always one main program group and a number of optional additional program groups. Each program group contains a main program and possibly several additional programs (loaded due to external use). The loaded programs are not always the result of a call. The reason could also have to do with other references to components of external programs, such as a reference to a visible data type of a global class. The loaded programs are not always the result of a call. The reason could also have to do with other references to components of external programs, such as a reference to a visible data type of a global class.
+The programs loaded within an [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") are grouped into program groups. There is always one main program group and a number of optional additional program groups. Each program group contains a main program and possibly several additional programs (loaded due to external use). The loaded programs are not always the result of a call. The reason could also have to do with other references to components of external programs, such as a reference to a visible data type of a global class. The loaded programs are not always the result of a call. The reason could also have to do with other references to components of external programs, such as a reference to a visible data type of a global class.
 
 If shared resources of the program group are accessed in an externally called procedure, the information about which program group the program was loaded into is very important. Whether a program creates a separate program group when loaded or whether it is loaded into an existing program group, largely depends on the program type:
 
@@ -52,7 +52,7 @@ Interface work areas are defined as table work areas using the TABLES and NODES 
 
 Note
 
-Except for the warning regarding dynamic calls of methods of local classes from other programs, this rule is basically intended to raise the awareness of problems when using existing programs. In new programs, the creation of new subroutines and the use of [shared resources](javascript:call_link\('abentable_work_area_guidl.htm'\) "Guideline") are largely obsolete anyway. The problems mentioned above can only occur if classic dynpros or selection screens (and therefore GUI statuses and table work areas) are used.
+Except for the warning regarding dynamic calls of methods of local classes from other programs, this rule is basically intended to raise the awareness of problems when using existing programs. In new programs, the creation of new subroutines and the use of [shared resources](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_work_area_guidl.htm "Guideline") are largely obsolete anyway. The problems mentioned above can only occur if classic dynpros or selection screens (and therefore GUI statuses and table work areas) are used.
 
 Example
 

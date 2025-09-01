@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [RAP - Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [RAP - Entity Behavior Body](javascript:call_link\('abenbdl_body.htm'\)) →  [RAP - Events](javascript:call_link\('abenbdl_event_overview.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl.htm) →  [RAP - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bo.htm) →  [RAP - Entity Behavior Definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_define_beh.htm) →  [RAP - Entity Behavior Body](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_body.htm) →  [RAP - Events](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_event_overview.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20managed%20event%2C%20ABENBDL_MANAGED_EVENT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -16,15 +16,15 @@ managed event DerivedEventName on RefEvent parameter ViewEntityName;
 
 Effect
 
-Defines a [RAP derived event](javascript:call_link\('abenrap_derived_event_glosry.htm'\) "Glossary Entry") DerivedEventName in the root node of a [managed](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry") or [unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry"). A derived event is defined with reference to an already implemented event RefEvent and allows the definition of a payload that deviates from the one of the referenced event. When the referenced event is raised, the derived event is raised as well with its custom payload. No implementation in an [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is required for the derived event.
+Defines a [RAP derived event](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_event_glosry.htm "Glossary Entry") DerivedEventName in the root node of a [managed](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry") or [unmanaged RAP BO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry"). A derived event is defined with reference to an already implemented event RefEvent and allows the definition of a payload that deviates from the one of the referenced event. When the referenced event is raised, the derived event is raised as well with its custom payload. No implementation in an [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is required for the derived event.
 
 Currently, RAP derived events can be defined only in the root node of a RAP business object or in an extension of the root node of a RAP business object.
 
--   The name DerivedEventName defines the name of the derived event. It must comply with the naming rules for CDS BDL that are described in the topic [RAP BDL - General Syntax Rules](javascript:call_link\('abenbdl_general_syntax_rules.htm'\)).
+-   The name DerivedEventName defines the name of the derived event. It must comply with the naming rules for CDS BDL that are described in the topic [RAP BDL - General Syntax Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_general_syntax_rules.htm).
 -   After the keyword ON, the referenced event RefEvent is specified. The referenced event must be an event from the current behavior definition. In case of an extension, the referenced event must be specified in the original BDEF that is currently being extended.
--   An [output parameter](javascript:call_link\('abenoutput_parameter_glosry.htm'\) "Glossary Entry") ViewEntityName must be defined. It redefines the payload of the event RefEvent. The following rules apply:
+-   An [output parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoutput_parameter_glosry.htm "Glossary Entry") ViewEntityName must be defined. It redefines the payload of the event RefEvent. The following rules apply:
     
-    -   The output parameter ViewEntityName must be a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") without any associations.
+    -   The output parameter ViewEntityName must be a [CDS view entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm "Glossary Entry") without any associations.
     -   The key fields of the view entity used as output parameter ViewEntityName must match the key fields of the entity the referenced event is defined for.
     
     Note: The output parameter of a derived event is always flat. Deep structures or view entities with associations are not supported.
@@ -32,8 +32,8 @@ Currently, RAP derived events can be defined only in the root node of a RAP busi
 
 Availability
 
--   RAP derived events can be defined in [managed RAP BOs](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry") and in [unmanaged RAP BOs](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry").
--   They can also be defined in [BDEF extensions](javascript:call_link\('abenrap_extension_glosry.htm'\) "Glossary Entry") for managed and unmanaged RAP BOs. This is described in topic [RAP BDL - Adding Elements](javascript:call_link\('abenbdl_new_elem_ext.htm'\)).
+-   RAP derived events can be defined in [managed RAP BOs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry") and in [unmanaged RAP BOs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry").
+-   They can also be defined in [BDEF extensions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_extension_glosry.htm "Glossary Entry") for managed and unmanaged RAP BOs. This is described in topic [RAP BDL - Adding Elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_new_elem_ext.htm).
 
 Further Information
 

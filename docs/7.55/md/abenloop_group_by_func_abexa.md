@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [LOOP AT itab](javascript:call_link\('abaploop_at_itab_variants.htm'\)) →  [LOOP AT itab, GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) →  [Examples of Grouping with LOOP](javascript:call_link\('abenloop_group_by_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_processing_statements.htm) →  [LOOP AT itab](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaploop_at_itab_variants.htm) →  [LOOP AT itab, GROUP BY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaploop_at_itab_group_by.htm) →  [Examples of Grouping with LOOP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenloop_group_by_abexas.htm) → 
 
 itab - Grouping with LOOP Using a Function
 
-This example demonstrates the construction of the [group key](javascript:call_link\('abengroup_key_glosry.htm'\) "Glossary Entry") using a string function.
+This example demonstrates the construction of the [group key](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengroup_key_glosry.htm "Glossary Entry") using a string function.
 
 Source Code
 
@@ -56,12 +56,12 @@ START-OF-SELECTION.
 
 Description
 
-[Grouping](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) of an internal table text with [group key binding](javascript:call_link\('abaploop_at_itab_group_by_binding.htm'\)). The [group key](javascript:call_link\('abaploop_at_itab_group_by_key.htm'\)) of the [group loop](javascript:call_link\('abengroup_loop_glosry.htm'\) "Glossary Entry") is constructed as a value of the type string, which is calculated from the content of each table line using the built-in function replace. This creates groups of lines that contain the same digits in the same order in their text. The groups are sorted in ascending order according to the group key.
+[Grouping](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaploop_at_itab_group_by.htm) of an internal table text with [group key binding](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaploop_at_itab_group_by_binding.htm). The [group key](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaploop_at_itab_group_by_key.htm) of the [group loop](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengroup_loop_glosry.htm "Glossary Entry") is constructed as a value of the type string, which is calculated from the content of each table line using the built-in function replace. This creates groups of lines that contain the same digits in the same order in their text. The groups are sorted in ascending order according to the group key.
 
-The group key that is bound to a field symbol <group> is produced in the group loop. The first group key is an initial text string. In a [member loop](javascript:call_link\('abenmember_loop_glosry.htm'\) "Glossary Entry"), the lines of each group are placed in an internal table members using the [value operator](javascript:call_link\('abenvalue_operator_glosry.htm'\) "Glossary Entry") with the addition [BASE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)). This table is also displayed.
+The group key that is bound to a field symbol <group> is produced in the group loop. The first group key is an initial text string. In a [member loop](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmember_loop_glosry.htm "Glossary Entry"), the lines of each group are placed in an internal table members using the [value operator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_operator_glosry.htm "Glossary Entry") with the addition [BASE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_constructor_params_itab.htm). This table is also displayed.
 
-members could also be filled by evaluating a table comprehension using [FOR ... IN GROUP](javascript:call_link\('abenfor_in_group.htm'\)), instead of in a [member loop](javascript:call_link\('abenmember_loop_glosry.htm'\) "Glossary Entry") [LOOP AT GROUP](javascript:call_link\('abaploop_at_group.htm'\)):
+members could also be filled by evaluating a table comprehension using [FOR ... IN GROUP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor_in_group.htm), instead of in a [member loop](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmember_loop_glosry.htm "Glossary Entry") [LOOP AT GROUP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaploop_at_group.htm):
 
 members = VALUE #( FOR <member> IN GROUP <group> ( <member> ) ).
 
-The executable example for [grouping with FOR](javascript:call_link\('abenfor_group_by_func_abexa.htm'\)) demonstrates how the entire group loop can be implemented using expressions.
+The executable example for [grouping with FOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor_group_by_func_abexa.htm) demonstrates how the entire group loop can be implemented using expressions.

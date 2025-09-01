@@ -4,55 +4,55 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Objects](javascript:call_link\('abenobjects_statements.htm'\)) →  [DATA](javascript:call_link\('abapdata.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentypes_and_objects.htm) →  [Declaring Data Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobjects_statements.htm) →  [DATA](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata.htm) → 
 
 DATA - BEGIN OF struc
 
-[Quick Reference](javascript:call_link\('abapdata_begin_of_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_begin_of_shortref.htm)
 
 Syntax
 
-DATA BEGIN OF struc [*\[*READ-ONLY*\]*](javascript:call_link\('abapdata_options.htm'\)).
+DATA BEGIN OF struc [*\[*READ-ONLY*\]*](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_options.htm).
   ...
-   [INCLUDE TYPE*|*STRUCTURE ...](javascript:call_link\('abapinclude_type.htm'\))
+   [INCLUDE TYPE*|*STRUCTURE ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinclude_type.htm)
   ...
 DATA END OF struc.
 
 Effect
 
-Declares a new [structure](javascript:call_link\('abendata_objects_structure.htm'\)) struc. This starts with a DATA statement with the addition BEGIN OF and must end with a DATA statement with the addition END OF.
+Declares a new [structure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_objects_structure.htm) struc. This starts with a DATA statement with the addition BEGIN OF and must end with a DATA statement with the addition END OF.
 
 The following can be included between these DATA statements:
 
 -   Any DATA statements, in particular further closed structures.
     
--   The statements [INCLUDE TYPE](javascript:call_link\('abapinclude_type.htm'\)) and [INCLUDE STRUCTURE](javascript:call_link\('abapinclude_type.htm'\))
+-   The statements [INCLUDE TYPE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinclude_type.htm) and [INCLUDE STRUCTURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinclude_type.htm)
     
 
-The meaning of these statements is the same as in the definition of structured data types in the section [TYPES - BEGIN OF](javascript:call_link\('abaptypes_struc.htm'\)), but here it is used to create a bound structured data type. No structure can be created without at least one component.
+The meaning of these statements is the same as in the definition of structured data types in the section [TYPES - BEGIN OF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_struc.htm), but here it is used to create a bound structured data type. No structure can be created without at least one component.
 
-A component of type struc cannot be declared by referencing struc itself. If the name struc is specified after LIKE in the declaration of a component, a search is performed for the next object with this name in a higher [visibility section](javascript:call_link\('abenlifetime_and_visibility.htm'\)), and used if found. If a more global object with this name does not exist, a syntax error occurs.
+A component of type struc cannot be declared by referencing struc itself. If the name struc is specified after LIKE in the declaration of a component, a search is performed for the next object with this name in a higher [visibility section](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlifetime_and_visibility.htm), and used if found. If a more global object with this name does not exist, a syntax error occurs.
 
 Notes
 
--   The addition [READ-ONLY](javascript:call_link\('abapdata_options.htm'\)) can only be used for whole structures and not for individual structure components comp.
+-   The addition [READ-ONLY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_options.htm) can only be used for whole structures and not for individual structure components comp.
     
--   A structure called text cannot have any components with three-character names, since these are reserved for addressing [text symbols](javascript:call_link\('abentext_symbols.htm'\)). It is best never to call a structure text and avoid any conflicts with text symbols.
+-   A structure called text cannot have any components with three-character names, since these are reserved for addressing [text symbols](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_symbols.htm). It is best never to call a structure text and avoid any conflicts with text symbols.
     
--   The addition [BOXED](javascript:call_link\('abapdata_boxed.htm'\)) cannot be specified between DATA BEGIN OF and DATA END OF when declaring components. Static boxes in structures can only be defined with [TYPES](javascript:call_link\('abaptypes_boxed.htm'\)).
+-   The addition [BOXED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_boxed.htm) cannot be specified between DATA BEGIN OF and DATA END OF when declaring components. Static boxes in structures can only be defined with [TYPES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_boxed.htm).
     
--   The [value operator](javascript:call_link\('abenvalue_operator_glosry.htm'\) "Glossary Entry") [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) can be used to [construct](javascript:call_link\('abenvalue_constructor_params_struc.htm'\)) the content of structures.
+-   The [value operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_operator_glosry.htm "Glossary Entry") [VALUE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_value.htm) can be used to [construct](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_constructor_params_struc.htm) the content of structures.
     
--   In an [obsolete variant](javascript:call_link\('abenanonymous_components.htm'\)), text field literals or the constant space can be specified as anonymous components between BEGIN OF and END OF.
+-   In an [obsolete variant](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenanonymous_components.htm), text field literals or the constant space can be specified as anonymous components between BEGIN OF and END OF.
     
--   The use of the addition [OCCURS](javascript:call_link\('abapdata_begin_of_occurs.htm'\)) for defining standard tables with structured row types is obsolete.
+-   The use of the addition [OCCURS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_begin_of_occurs.htm) for defining standard tables with structured row types is obsolete.
     
--   The statements for declaring a structure are usually summarized in a [chained statement](javascript:call_link\('abenchained_statement_glosry.htm'\) "Glossary Entry") if possible.
+-   The statements for declaring a structure are usually summarized in a [chained statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchained_statement_glosry.htm "Glossary Entry") if possible.
     
 
 Example
 
-In this example, a structure spfli\_struc is declared with an elementary component index and a substructure spfli\_wa. The [SELECT](javascript:call_link\('abapselect.htm'\)) loop shows a possible use of the nested structure.
+In this example, a structure spfli\_struc is declared with an elementary component index and a substructure spfli\_wa. The [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) loop shows a possible use of the nested structure.
 
 DATA: BEGIN OF spfli\_struc,
          index  TYPE i,
@@ -69,11 +69,11 @@ cl\_demo\_output=>display( ).
 
 Executable Examples
 
--   [Declaration of a Simple Structure](javascript:call_link\('abensimple_structure_abexa.htm'\))
+-   [Declaration of a Simple Structure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensimple_structure_abexa.htm)
 
--   [Declaration of a Nested Structure](javascript:call_link\('abennested_structure_abexa.htm'\))
+-   [Declaration of a Nested Structure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennested_structure_abexa.htm)
     
 
 Continue
-![Example](exa.gif "Example") [Declaration of a Simple Structure](javascript:call_link\('abensimple_structure_abexa.htm'\))
-![Example](exa.gif "Example") [Declaration of a Nested Structure](javascript:call_link\('abennested_structure_abexa.htm'\))
+![Example](exa.gif "Example") [Declaration of a Simple Structure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensimple_structure_abexa.htm)
+![Example](exa.gif "Example") [Declaration of a Nested Structure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennested_structure_abexa.htm)

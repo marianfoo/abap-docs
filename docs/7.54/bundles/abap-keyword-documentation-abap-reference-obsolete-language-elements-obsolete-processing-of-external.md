@@ -3,30 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-- [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-- [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-- [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-- [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-- [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.954Z
-
----
-
 ### abenldb_examples.htm
-
-> **📖 Official SAP Documentation**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,36 +11,29 @@ Included pages: 6
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) → 
 
 Logical Databases - Examples
 
--   [Example of a logical database](javascript:call_link\('abenldb_example.htm'\))
+-   [Example of a logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
 
--   [Example of selection include](javascript:call_link\('abenldb_selections_example.htm'\))
+-   [Example of selection include](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
 
--   [Example of a database program](javascript:call_link\('abenldb_program_example.htm'\))
+-   [Example of a database program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
 
--   [Logical database, associated with a program](javascript:call_link\('abenreport_abexa.htm'\))
+-   [Logical database, associated with a program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
 
--   [Logical database, called by function module](javascript:call_link\('abenlogical_database_abexa.htm'\))
+-   [Logical database, called by function module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
 
 Continue
-[Example of a Logical Database](javascript:call_link\('abenldb_example.htm'\))
-[Example of a Selection Include](javascript:call_link\('abenldb_selections_example.htm'\))
-[Example of a Database Program](javascript:call_link\('abenldb_program_example.htm'\))
-![Example](exa.gif "Example") [Logical Database, Associated with a Program](javascript:call_link\('abenreport_abexa.htm'\))
-![Example](exa.gif "Example") [Logical Database, Call by Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
+[Example of a Logical Database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
+[Example of a Selection Include](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
+[Example of a Database Program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
+![Example](exa.gif "Example") [Logical Database, Associated with a Program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
+![Example](exa.gif "Example") [Logical Database, Call by Function Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
 
-
-
-**📖 Source**: [abenldb_examples.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm)
 
 ### abenldb_example.htm
-
-> **📖 Official SAP Documentation**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -71,15 +41,78 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Examples](javascript:call_link\('abenldb_examples.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) →  [Logical Databases - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm) → 
 
 Example of a Logical Database
 
 This example demonstrates all significant components of the imaginary logical database TEST\_LDB.
 
--   [Structure](#abenldb-example-1--------selections-in-the-selection-include---@ITOC@@ABENLDB_EXAMPLE_2)
+-   [Structure](#@@ITOC@@ABENLDB_EXAMPLE_1)
 
--   [Database Program](#abenldb-example-3---structure--lfa1------------lfb1--------------------------lfc1--------------------------bkpf--selections-in-the-selection-include--select-options--slifnr---for-lfa1-lifnr------------------sbukrs---for-lfb1-bukrs------------------sgjahr---for-lfc1-gjahr------------------sbelnr---for-bkpf-belnr---database-program-----------------------------------------------------------------database-program-of-logical-database-test--ldb-------------------------------------------------------------program-sapdbtest--ldb-defining-database-test--ldb--nodes--lfa1---------lfb1---------lfc1---------bkpf-----------------------------------------------------------------initialize-selection-screen--processed-before-pbo--------------------------------------------------------------form-init-------endform-----------------------------------------------------------------pbo-of-selection-screen-------------------------------------------------------------form-pbo-------endform-----------------------------------------------------------------pai-of-selection-screen-------------------------------------------------------------form-pai-using-fname-mark----case-fname------when--slifnr-----------------when--sbukrs-----------------when--sgjahr-----------------when--sbelnr---------------endcase--endform-----------------------------------------------------------------raise-event-get-lfa1-------------------------------------------------------------form-put--lfa1----select----from-lfa1------------where-lifnr-in-slifnr INTO @lfa1.
+-   [Selections in the Selection Include](#@@ITOC@@ABENLDB_EXAMPLE_2)
+
+-   [Database Program](#@@ITOC@@ABENLDB_EXAMPLE_3)
+
+Structure
+
+LFA1
+  |
+  |----LFB1
+         |
+         |----LFC1
+         |
+         |----BKPF
+
+Selections in the Selection Include
+
+SELECT-OPTIONS: slifnr   FOR lfa1-lifnr,
+                sbukrs   FOR lfb1-bukrs,
+                sgjahr   FOR lfc1-gjahr,
+                sbelnr   FOR bkpf-belnr.
+
+Database Program
+
+\*-------------------------------------------------------\*
+\* DATABASE PROGRAM OF LOGICAL DATABASE TEST\_LDB
+\*-------------------------------------------------------\*
+PROGRAM sapdbtest\_ldb DEFINING DATABASE test\_ldb.
+NODES: lfa1,
+       lfb1,
+       lfc1,
+       bkpf.
+\*-------------------------------------------------------\*
+\* Initialize selection screen (processed before PBO)
+\*-------------------------------------------------------\*
+FORM init.
+....
+ENDFORM.
+\*-------------------------------------------------------\*
+\* PBO of selection screen
+\*-------------------------------------------------------\*
+FORM pbo.
+....
+ENDFORM.
+\*-------------------------------------------------------\*
+\* PAI of selection screen
+\*-------------------------------------------------------\*
+FORM pai USING fname mark.
+  CASE fname.
+    WHEN 'SLIFNR'.
+     ....
+    WHEN 'SBUKRS'.
+     ....
+    WHEN 'SGJAHR'.
+     ....
+    WHEN 'SBELNR'.
+     ....
+  ENDCASE.
+ENDFORM.
+\*-------------------------------------------------------\*
+\* Raise event GET lfa1
+\*-------------------------------------------------------\*
+FORM put\_lfa1.
+  SELECT \* FROM lfa1
+           WHERE lifnr IN @slifnr INTO @lfa1.
     PUT lfa1.
   ENDSELECT.
 ENDFORM.
@@ -119,9 +152,9 @@ FORM put\_bkpf.
   ENDSELECT.
 ENDFORM.
 
-The PROGRAM statement has the addition [DEFINING DATABASE test\_ldb](javascript:call_link\('abapreport_defining.htm'\)). This defines the association of the database program with the logical database TEST\_LDB.
+The PROGRAM statement has the addition [DEFINING DATABASE test\_ldb](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_defining.htm). This defines the association of the database program with the logical database TEST\_LDB.
 
-The nodes of the structure are declared using the [NODES statement](javascript:call_link\('abapnodes.htm'\)). This creates the required interface work areas as table work areas. The statement [TABLES](javascript:call_link\('abaptables.htm'\)) can be used, as a node, in the same way for database tables If the nodes do not have any database tables, they need to be declared using NODES. The interface work areas are shared by the database program and an associated executable program or the function module LDB\_PROCESS and become the interface used for passing data.
+The nodes of the structure are declared using the [NODES statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnodes.htm). This creates the required interface work areas as table work areas. The statement [TABLES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables.htm) can be used, as a node, in the same way for database tables If the nodes do not have any database tables, they need to be declared using NODES. The interface work areas are shared by the database program and an associated executable program or the function module LDB\_PROCESS and become the interface used for passing data.
 
 The selection screen can be initialized in the subroutines init and pbo.
 
@@ -132,14 +165,7 @@ The database tables are read in accordance with the user's selection criteria an
 This program is only designed to demonstrates the principles of the structure of a logical database. It does not contain any methods for optimizing response times. The chronology of the subroutine calls is determined by the structure of the logical database.
 
 
-
-**📖 Source**: [abenldb_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm)
-
 ### abenldb_selections_example.htm
-
-> **📖 Official SAP Documentation**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -147,11 +173,11 @@ This program is only designed to demonstrates the principles of the structure of
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Examples](javascript:call_link\('abenldb_examples.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) →  [Logical Databases - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm) → 
 
 Example of a Selection Include
 
-A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](javascript:call_link\('abenldb_example.htm'\)). The generated proposal for the selection include is then as follows:
+A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows:
 
 \*-----------------------------------------------------------\*
 \* Include DBTEST\_LDBSEL
@@ -207,14 +233,7 @@ This automatically generated selection include can be complete, for example, as 
 A selection is made from the available selection criteria and is given a name. The additional parameter pstida is declared and associated with the node BKPF. Dynamic selections are defined for the tables LFA1 and LFB1. The tables LFB1 and LFC1 are defined for field selections.
 
 
-
-**📖 Source**: [abenldb_selections_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_selections_example.htm)
-
 ### abenldb_program_example.htm
-
-> **📖 Official SAP Documentation**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -222,11 +241,11 @@ A selection is made from the available selection criteria and is given a name. T
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Examples](javascript:call_link\('abenldb_examples.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) →  [Logical Databases - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm) → 
 
 Example of a Database Program
 
-A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](javascript:call_link\('abenldb_example.htm'\)). All nodes are database tables. Selections are defined in the selection include:
+A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include:
 
 SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR.
 SELECT-OPTIONS SBUKRS  FOR LFB1-BUKRS.
@@ -390,19 +409,12 @@ The comment characters before ABAP statements used in addition to the mandatory 
 
 When the database is accessed in the subroutines put\_node, SELECT statements with conditions for the primary key fields in the WHERE clauses are generated. The performance of these statements is, however, not yet optimized. In particular, the subroutines put\_node of a subtree of the structure represent nested SELECT loops, which should generally be avoided. Instead, the data read can be buffered in internal tables, for example, and passed from here to the application program using the PUT statement. The statement PUT node, though, should always be located in a subroutine whose name starts with put\_node for technical reasons.
 
-If the selections specify [dynamic selections](javascript:call_link\('abenldb_free_selections.htm'\)) or [field selections](javascript:call_link\('abenldb_field_selections.htm'\)) for a node, corresponding statements are generated in the subroutine put\_node and the SELECT statement created automatically is modified, as seen in the example for the node BKPF.
+If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_free_selections.htm) or [field selections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_field_selections.htm) for a node, corresponding statements are generated in the subroutine put\_node and the SELECT statement created automatically is modified, as seen in the example for the node BKPF.
 
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and (by deleting the asterisks) activated. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to edit the return values instead of put\_node for the root node.
 
 
-
-**📖 Source**: [abenldb_program_example.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_program_example.htm)
-
 ### abenreport_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -410,7 +422,7 @@ The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a c
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Examples](javascript:call_link\('abenldb_examples.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) →  [Logical Databases - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm) → 
 
 Logical Database, Associated with a Program
 
@@ -453,20 +465,10 @@ END-OF-SELECTION.
 
 Description
 
-This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
+This example shows a typical report where the [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S is assigned to its properties.
 
-
-
-**📖 Source**: [abenreport_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_abexa.htm)
 
 ### abenlogical_database_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenlogical_database_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_database_abexa.htm)
-
 
   
 
@@ -474,7 +476,7 @@ This example shows a typical report where the [logical database](javascript:call
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Examples](javascript:call_link\('abenldb_examples.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) →  [Logical Databases - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_examples.htm) → 
 
 Logical Database, Call by Function Module
 

@@ -4,31 +4,33 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions (regex)](javascript:call_link\('abenregular_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions (regex)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregular_expressions.htm) → 
 
 regex - System Classes
 
 The system classes for regular expressions are CL\_ABAP\_REGEX and CL\_ABAP\_MATCHER. Both are documented in the class library.
 
--   [CL\_ABAP\_REGEX](#abenregex-system-classes-1--------cl--abap--matcher---@ITOC@@ABENREGEX_SYSTEM_CLASSES_2)
+-   [CL\_ABAP\_REGEX](#@@ITOC@@ABENREGEX_SYSTEM_CLASSES_1)
+
+-   [CL\_ABAP\_MATCHER](#@@ITOC@@ABENREGEX_SYSTEM_CLASSES_2)
 
 CL\_ABAP\_REGEX
 
 Factory methods of class CL\_ABAP\_REGEX create an object-oriented representation of a regular expression passed in a character-like field:
 
--   CREATE\_PCRE creates instances for regular expressions with [PCRE syntax](javascript:call_link\('abenregex_pcre_syntax.htm'\)).
+-   CREATE\_PCRE creates instances for regular expressions with [PCRE syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_pcre_syntax.htm).
 
--   CREATE\_POSIX creates instances for regular expressions with [POSIX syntax](javascript:call_link\('abenregex_posix_syntax.htm'\)).
+-   CREATE\_POSIX creates instances for regular expressions with [POSIX syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_syntax.htm).
 
 Optional parameters allow further specifications for handling the regular expression.
 
-Instances of CL\_ABAP\_REGEX can be used with the class CL\_ABAP\_MATCHER and with the addition REGEX of the statements [FIND](javascript:call_link\('abapfind.htm'\)) and [REPLACE](javascript:call_link\('abapreplace.htm'\)).
+Instances of CL\_ABAP\_REGEX can be used with the class CL\_ABAP\_MATCHER and with the addition REGEX of the statements [FIND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind.htm) and [REPLACE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace.htm).
 
 Hints
 
--   The class CL\_ABAP\_REGEX can also be instantiated with the operator [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) or the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)), but this is deprecated. Such a direct instantiation of CL\_ABAP\_REGEX creates instances for regular expressions with [POSIX syntax](javascript:call_link\('abenregex_posix_syntax.htm'\)). Instead of direct instantiation, the above factory methods CREATE\_PCRE or CREATE\_POSIX should be used.
+-   The class CL\_ABAP\_REGEX can also be instantiated with the operator [NEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_new.htm) or the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object.htm), but this is deprecated. Such a direct instantiation of CL\_ABAP\_REGEX creates instances for regular expressions with [POSIX syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_syntax.htm). Instead of direct instantiation, the above factory methods CREATE\_PCRE or CREATE\_POSIX should be used.
 
--   Instances of CL\_ABAP\_REGEX cannot be used with the addition PCRE of the statements [FIND](javascript:call_link\('abapfind.htm'\)) and [REPLACE](javascript:call_link\('abapreplace.htm'\)). However, both kinds of objects for regular expressions, PCRE and POSIX, can be used with the addition REGEX.
+-   Instances of CL\_ABAP\_REGEX cannot be used with the addition PCRE of the statements [FIND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind.htm) and [REPLACE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace.htm). However, both kinds of objects for regular expressions, PCRE and POSIX, can be used with the addition REGEX.
 
 CL\_ABAP\_MATCHER
 

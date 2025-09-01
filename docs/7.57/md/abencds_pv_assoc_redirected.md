@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - Projection Views](javascript:call_link\('abencds_proj_views.htm'\)) →  [CDS DDL - CDS Projection View, Transactional Queries](javascript:call_link\('abencds_pv_transactional_query.htm'\)) →  [CDS DDL - projection\_list, Transactional Query](javascript:call_link\('abencds_proj_view_element_list.htm'\)) →  [CDS DDL - proj\_element, Transactional Query](javascript:call_link\('abencds_proj_view_element.htm'\)) →  [CDS DDL - expose\_assoc, Transactional Query](javascript:call_link\('abencds_proj_view_expose_assoc.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_entity.htm) →  [ABAP CDS - Projection Views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_views.htm) →  [CDS DDL - CDS Projection View, Transactional Queries](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_pv_transactional_query.htm) →  [CDS DDL - projection\_list, Transactional Query](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_element_list.htm) →  [CDS DDL - proj\_element, Transactional Query](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_element.htm) →  [CDS DDL - expose\_assoc, Transactional Query](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_expose_assoc.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - redirected, Transactional Query, ABENCDS_PV_ASSOC_REDIRECTED, 757%0D%0A%0D%
 0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -25,13 +25,13 @@ Variants:
 
 Effect
 
-Redirects a [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry"), a [CDS composition](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry"), or a [CDS to-parent association](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry") of the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry") in a [CDS projection view](javascript:call_link\('abencds_projection_view_glosry.htm'\) "Glossary Entry") to a new association target. As a prerequisite, the original association target must also have a CDS projection view. Redirection using the keyword REDIRECTED TO *\[*...*\]* means to direct an association to a new association target, which is also a CDS projection view, in this way moving the complete data model to the projection layer.
+Redirects a [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"), a [CDS composition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_glosry.htm "Glossary Entry"), or a [CDS to-parent association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abento_parent_association_glosry.htm "Glossary Entry") of the [projected entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_pv_projected_entity_glosry.htm "Glossary Entry") in a [CDS projection view](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_projection_view_glosry.htm "Glossary Entry") to a new association target. As a prerequisite, the original association target must also have a CDS projection view. Redirection using the keyword REDIRECTED TO *\[*...*\]* means to direct an association to a new association target, which is also a CDS projection view, in this way moving the complete data model to the projection layer.
 
 With redirection, a specialized CDS association can lose its specialization and become a simple CDS association. This means that you can redirect a CDS composition or a CDS to-parent association with the keyword REDIRECTED TO and then it is exposed as a simple CDS association. The other way around is not possible - a simple CDS association cannot be specialized. Thus, you cannot use the addition REDIRECTED TO COMPOSITION CHILD or REDIRECTED TO PARENT to redirect a simple CDS association.
 
 Example
 
-The projection view DEMO\_SALES\_PV\_SO is based on the CDS view DEMO\_SALES\_CDS\_SO. It replaces the [association targets](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") of the associations with other CDS projection views where required.
+The projection view DEMO\_SALES\_PV\_SO is based on the CDS view DEMO\_SALES\_CDS\_SO. It replaces the [association targets](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the associations with other CDS projection views where required.
 
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Projection View SO'
@@ -65,7 +65,7 @@ provider contract transactional\_query
 
 Executable Example
 
-The executable example [Exposing Associations](javascript:call_link\('abenwith_associations_abexa.htm'\)) accesses the CDS projection view shown above, reads all fields and returns the result.
+The executable example [Exposing Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwith_associations_abexa.htm) accesses the CDS projection view shown above, reads all fields and returns the result.
 
 Variant 1   
 
@@ -73,17 +73,17 @@ Variant 1  
 
 Effect
 
-Redirects a [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") exposed in a CDS projection view to a new [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry").
+Redirects a [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") exposed in a CDS projection view to a new [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry").
 
 The following applies to the redirection of a CDS association:
 
 -   Can be used to redirect simple CDS associations, CDS compositions, or to-parent associations.
     
-    Note: When the keyword REDIRECTED TO is used on specialized CDS associations ([CDS compositions](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry") or [CDS to-parent associations](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry")), they become non-specialized and are handled as CDS associations. Compositions and to-parent associations which are projected in this way never define compositions and to-parent associations in the projection view.
+    Note: When the keyword REDIRECTED TO is used on specialized CDS associations ([CDS compositions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_glosry.htm "Glossary Entry") or [CDS to-parent associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abento_parent_association_glosry.htm "Glossary Entry")), they become non-specialized and are handled as CDS associations. Compositions and to-parent associations which are projected in this way never define compositions and to-parent associations in the projection view.
     
 -   The target of the redirection proj\_view must be a projection view based on the original target of the association.
--   The target of the redirection proj\_view can be the CDS projection view proj\_view itself only if the projected CDS association is a [self association](javascript:call_link\('abenself_association_glosry.htm'\) "Glossary Entry").
--   The target of the redirection REDIRECTED TO cannot be specified using a [path expression](javascript:call_link\('abencds_proj_view_path_expr.htm'\)).
+-   The target of the redirection proj\_view can be the CDS projection view proj\_view itself only if the projected CDS association is a [self association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenself_association_glosry.htm "Glossary Entry").
+-   The target of the redirection REDIRECTED TO cannot be specified using a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_path_expr.htm).
 -   The CDS projection view proj\_view can be used multiple times as the redirection target of the projected CDS associations in the CDS projection view proj\_view. The following syntax is valid:
     
     \_Assoc1: REDIRECTED TO proj\_view,
@@ -96,14 +96,14 @@ Variant 2  
 
 Effect
 
-Redirects a [CDS composition](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry") exposed in a CDS projection view to a new [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry"). With the addition REDIRECTED TO COMPOSITION CHILD, the special characteristics of a CDS composition are kept.
+Redirects a [CDS composition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_glosry.htm "Glossary Entry") exposed in a CDS projection view to a new [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry"). With the addition REDIRECTED TO COMPOSITION CHILD, the special characteristics of a CDS composition are kept.
 
 The following applies to the redirection of a CDS composition:
 
 -   The CDS association redirected using the addition REDIRECTED TO COMPOSITION CHILD must be a CDS composition.
 -   The target of the redirection REDIRECTED TO COMPOSITION CHILD must be the projection of the original target of the association. Therefore, the target cannot be a root projection view.
--   The target of the redirection REDIRECTED TO COMPOSITION CHILD cannot be specified using a [path expression](javascript:call_link\('abencds_proj_view_path_expr.htm'\)).
--   The target of REDIRECTED TO COMPOSITION CHILD cannot be the CDS projection view proj\_view itself. A [self association](javascript:call_link\('abenself_association_glosry.htm'\) "Glossary Entry") is not possible.
+-   The target of the redirection REDIRECTED TO COMPOSITION CHILD cannot be specified using a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_path_expr.htm).
+-   The target of REDIRECTED TO COMPOSITION CHILD cannot be the CDS projection view proj\_view itself. A [self association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenself_association_glosry.htm "Glossary Entry") is not possible.
 -   The redirection target proj\_view must project exactly one to-parent association to its composition parent. This to-parent association must exist before the composition can be projected in the projection view.
 -   The redirection target proj\_view can be used only once in a CDS composition and multiple times in CDS associations. This is demonstrated in the following simplified example:
     
@@ -124,15 +124,15 @@ Variant 3  
 
 Effect
 
-Redirects a [to-parent association](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry") in a CDS projection view to a new [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry"). With the addition REDIRECTED TO PARENT, the special characteristics of a CDS to-parent association are kept.
+Redirects a [to-parent association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abento_parent_association_glosry.htm "Glossary Entry") in a CDS projection view to a new [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry"). With the addition REDIRECTED TO PARENT, the special characteristics of a CDS to-parent association are kept.
 
 The following applies to the redirection of a CDS to-parent association:
 
 -   The CDS association to\_parent\_assoc projected with this syntax must be defined as a CDS to-parent association in the underlying CDS view.
 -   The target of the redirection REDIRECTED TO PARENT should be the projection of the original target of the to-parent association.
--   The target of the redirection REDIRECTED TO PARENT cannot be specified using a [path expression](javascript:call_link\('abencds_proj_view_path_expr.htm'\)).
+-   The target of the redirection REDIRECTED TO PARENT cannot be specified using a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_path_expr.htm).
 -   The addition REDIRECTED TO PARENT can be used no more than once in the definition of a CDS projection view. This means that a CDS projection view can have no more than one parent entity.
--   The redirection target cannot be the CDS projection view proj\_view itself. A [self association](javascript:call_link\('abenself_association_glosry.htm'\) "Glossary Entry") is not possible.
+-   The redirection target cannot be the CDS projection view proj\_view itself. A [self association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenself_association_glosry.htm "Glossary Entry") is not possible.
 -   The redirection target proj\_view can be used only once in a CDS to-parent association and multiple times in CDS associations. This is demonstrated in the following simplified example:
     
     -   This is valid
@@ -147,4 +147,4 @@ The following applies to the redirection of a CDS to-parent association:
     
 
 Continue
-![Example](exa.gif "Example") [CDS DDL - CDS Projection View, Expose Associations](javascript:call_link\('abencds_proj_view_assoc_abexa.htm'\))
+![Example](exa.gif "Example") [CDS DDL - CDS Projection View, Expose Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_assoc_abexa.htm)

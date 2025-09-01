@@ -4,22 +4,22 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Components](javascript:call_link\('abenldb_oview.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb.htm) →  [Logical Databases - Components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_oview.htm) → 
 
 Logical Databases - Further Elements
 
--   [Association with search helps](javascript:call_link\('abenldb_search_help.htm'\))
+-   [Association with search helps](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_search_help.htm)
 
--   [Dynamic selections](javascript:call_link\('abenldb_free_selections.htm'\))
+-   [Dynamic selections](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_free_selections.htm)
 
--   [Field selections](javascript:call_link\('abenldb_field_selections.htm'\))
+-   [Field selections](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_field_selections.htm)
 
--   [Selection views](javascript:call_link\('abenldb_selection_views.htm'\))
+-   [Selection views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_selection_views.htm)
 
-Alongside the [selection texts](javascript:call_link\('abenselection_text_glosry.htm'\) "Glossary Entry") regularly used by programs and the program documentation, a list of the [authorization objects](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") checked in the database program can also be created.
+Alongside the [selection texts](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_text_glosry.htm "Glossary Entry") regularly used by programs and the program documentation, a list of the [authorization objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenauthorization_object_glosry.htm "Glossary Entry") checked in the database program can also be created.
 
 Continue
-[Logical Databases - Associated with Search Helps](javascript:call_link\('abenldb_search_help.htm'\))
-[Logical Databases - Dynamic Selections](javascript:call_link\('abenldb_free_selections.htm'\))
-[Logical Databases - Field Selections](javascript:call_link\('abenldb_field_selections.htm'\))
-[Logical Databases - Selection Views](javascript:call_link\('abenldb_selection_views.htm'\))
+[Logical Databases - Associated with Search Helps](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_search_help.htm)
+[Logical Databases - Dynamic Selections](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_free_selections.htm)
+[Logical Databases - Field Selections](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_field_selections.htm)
+[Logical Databases - Selection Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_selection_views.htm)

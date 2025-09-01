@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 packed numeric literal
 
-[Numeric literal](javascript:call_link\('abennumeric_literal_glosry.htm'\) "Glossary Entry") of the type [packed number](javascript:call_link\('abenpacked_number_glosry.htm'\) "Glossary Entry").
+[Numeric literal](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennumeric_literal_glosry.htm "Glossary Entry") of the type [packed number](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpacked_number_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenuntyped_number_literals.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuntyped_number_literals.htm)

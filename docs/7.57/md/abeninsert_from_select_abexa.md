@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Write Access](javascript:call_link\('abenabap_sql_writing.htm'\)) →  [INSERT dbtab](javascript:call_link\('abapinsert_dbtab.htm'\)) →  [INSERT dbtab, source](javascript:call_link\('abapinsert_source.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql.htm) →  [ABAP SQL - Write Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_writing.htm) →  [INSERT dbtab](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_dbtab.htm) →  [INSERT dbtab, source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_source.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: INSERT, FROM SELECT, ABENINSERT_FROM_SELECT_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%
 0D%0A%0D%0ASuggestion for improvement:)
 
 INSERT, FROM SELECT
 
-This example demonstrates the statement [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)) with the addition [FROM SELECT](javascript:call_link\('abapinsert_source.htm'\)).
+This example demonstrates the statement [INSERT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_dbtab.htm) with the addition [FROM SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_source.htm).
 
 Source Code   
 
@@ -66,4 +66,4 @@ The DDIC database table DEMO\_SUMDIST\_AGG is filled with aggregated data from t
 -   First, a standalone SELECT statement is used to read the aggregated data into an internal table and then the statement INSERT is used to write it to the DDIC database table. This requires two database reads and the transport of the data between the database server and the AS ABAP.
 -   The same SELECT statement is then used directly as a subquery in the INSERT statement. Only a single database read and no transport of data between the database server and the AS ABAP is then required.
 
-The result of both INSERT statements is the same. DEMO\_SUMDIST\_AGG is a [global temporary table (GTT)](javascript:call_link\('abenglobal_temporary_table_glosry.htm'\) "Glossary Entry"), which means that its content must be deleted before the results are produced, since this creates an implicit database commit.
+The result of both INSERT statements is the same. DEMO\_SUMDIST\_AGG is a [global temporary table (GTT)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry"), which means that its content must be deleted before the results are produced, since this creates an implicit database commit.

@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 basic arithmetic operation
 
-The four basic arithmetic operation types addition, subtraction, multiplication, and division are implemented in [arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") and in [calculation assignments](javascript:call_link\('abencalculation_assignments.htm'\)) by the [arithmetic operators](javascript:call_link\('abenarithmetic_operator_glosry.htm'\) "Glossary Entry") ([+](javascript:call_link\('abenarith_operators.htm'\)), [\-](javascript:call_link\('abenarith_operators.htm'\)), [\*](javascript:call_link\('abenarith_operators.htm'\)), and [/](javascript:call_link\('abenarith_operators.htm'\))).
+The four basic arithmetic operation types addition, subtraction, multiplication, and division are implemented in [arithmetic expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") and in [calculation assignments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculation_assignments.htm) by the [arithmetic operators](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarithmetic_operator_glosry.htm "Glossary Entry") ([+](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarith_operators.htm), [\-](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarith_operators.htm), [\*](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarith_operators.htm), and [/](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarith_operators.htm)).

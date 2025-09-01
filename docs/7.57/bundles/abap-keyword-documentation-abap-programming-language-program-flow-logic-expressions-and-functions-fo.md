@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogic_functions.htm)
-- [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.57
-**Generated**: 2025-09-01T11:25:45.270Z
-
----
-
 ### abenlogic_functions.htm
-
-> **📖 Official SAP Documentation**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogic_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,37 +11,27 @@ Included pages: 2
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_expr_func.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Logical Functions, ABENLOGIC_FUNCTIONS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0A
 Suggestion for improvement:)
 
 Logical Functions
 
-Logical functions are a part of [built-in functions](javascript:call_link\('abenbuilt_in_functions.htm'\)). They are divided into:
+Logical functions are a part of [built-in functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions.htm). They are divided into:
 
--   [Boolean functions](javascript:call_link\('abenboole_functions.htm'\))
--   [Predicate functions](javascript:call_link\('abenpredicate_functions.htm'\))
+-   [Boolean functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm)
+-   [Predicate functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpredicate_functions.htm)
 
 Hint
 
 The program DEMO\_EXPRESSIONS shows examples of how to use logical functions.
 
 Continue
-[boolc, boolx, xsdbool, Boolean Functions](javascript:call_link\('abenboole_functions.htm'\))
+[boolc, boolx, xsdbool, Boolean Functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm)
 
-
-
-**📖 Source**: [abenlogic_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogic_functions.htm)
 
 ### abenboole_functions.htm
-
-> **📖 Official SAP Documentation**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenboole_functions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm)
-
 
   
 
@@ -68,7 +39,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [Logical Functions](javascript:call_link\('abenlogic_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_expr_func.htm) →  [Logical Functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogic_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: boolc, boolx, xsdbool, Boolean Functions, ABENBOOLE_FUNCTIONS, 757%0D%0A%0D%0AError:%
 0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -83,7 +54,7 @@ Variants:
 
 Effect
 
-The [built-in](javascript:call_link\('abenbuilt_in_functions.htm'\)) Boolean functions determine the [truth value](javascript:call_link\('abentruth_value_glosry.htm'\) "Glossary Entry") of a logical expression [log\_exp](javascript:call_link\('abenlogexp.htm'\)) specified as an argument. For log\_exp, any logical expression can be specified in accordance with the applicable rules. The return value of a Boolean function has a data type dependent on the function and expresses the truth value of the logical expression with a value of this type.
+The [built-in](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions.htm) Boolean functions determine the [truth value](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentruth_value_glosry.htm "Glossary Entry") of a logical expression [log\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp.htm) specified as an argument. For log\_exp, any logical expression can be specified in accordance with the applicable rules. The return value of a Boolean function has a data type dependent on the function and expresses the truth value of the logical expression with a value of this type.
 
 Hint
 
@@ -95,13 +66,13 @@ Variant 1  
 
 Effect
 
-The function boolc returns a single-character character string of the type string. If the logical expression is true, X is returned. If the logical expression is false, a blank is returned. In principle, boolc is one of the [processing functions with character-like results](javascript:call_link\('abenprocess_functions.htm'\)) and can be specified in [general expression positions](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") and in [character-like expression positions](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry").
+The function boolc returns a single-character character string of the type string. If the logical expression is true, X is returned. If the logical expression is false, a blank is returned. In principle, boolc is one of the [processing functions with character-like results](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocess_functions.htm) and can be specified in [general expression positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and in [character-like expression positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
 
 Hints
 
--   If boolc requires return values other than X or blank (for example, "Y" and "N" or "1" and "0"), the result of boolc can be processed directly using the function [translate](javascript:call_link\('abentranslate_functions.htm'\)) or another suitable [processing function](javascript:call_link\('abenprocess_functions.htm'\)).
+-   If boolc requires return values other than X or blank (for example, "Y" and "N" or "1" and "0"), the result of boolc can be processed directly using the function [translate](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentranslate_functions.htm) or another suitable [processing function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocess_functions.htm).
 -   The result of boolc should not be compared with the constants abap\_true and abap\_false in relational expressions, since the latter converts from c to string and ignores any blanks. Comparisons of this type are not usually necessary. If a comparison of this type is to be executed anyway, the function xsdbool can be used instead of boolc whose result has the same ABAP type as abap\_bool.
--   If the logical expression is false, the result of boolc does not meet the condition [IS INITIAL](javascript:call_link\('abenlogexp_initial.htm'\)), since a blank and no empty string is returned. If this is desired, the function xsdbool can be used instead of boolc.
+-   If the logical expression is false, the result of boolc does not meet the condition [IS INITIAL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_initial.htm), since a blank and no empty string is returned. If this is desired, the function xsdbool can be used instead of boolc.
 -   If boolc is used in inappropriate places as specified in the points above, this leads to a syntax warning, which can be hidden using a pragma.
 
 Example
@@ -129,7 +100,7 @@ Variant 2  
 
 Effect
 
-The function boolx returns a byte chain of the type xstring. If the logical expression is true, the byte chain is filled as if the function [bit-set( bit )](javascript:call_link\('abenbit_functions.htm'\)) were executed. If the logical expression is false, the byte chain is filled as if the function [bit-set( 0 )](javascript:call_link\('abenbit_functions.htm'\)) were executed. bit expects a data object of the type i. In principle, boolx belongs to the [bit functions](javascript:call_link\('abenbit_functions.htm'\)) and can be used in all positions where a [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry") is also allowed.
+The function boolx returns a byte chain of the type xstring. If the logical expression is true, the byte chain is filled as if the function [bit-set( bit )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbit_functions.htm) were executed. If the logical expression is false, the byte chain is filled as if the function [bit-set( 0 )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbit_functions.htm) were executed. bit expects a data object of the type i. In principle, boolx belongs to the [bit functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbit_functions.htm) and can be used in all positions where a [bit expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbit_expression_glosry.htm "Glossary Entry") is also allowed.
 
 Hint
 
@@ -137,7 +108,7 @@ The function boolx can be used for efficient storage of sequences of truth value
 
 Example
 
-The result of the following [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry") is hexadecimal 55, which corresponds to the calculated bit string 01010101.
+The result of the following [bit expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbit_expression_glosry.htm "Glossary Entry") is hexadecimal 55, which corresponds to the calculated bit string 01010101.
 
 FINAL(result) = boolx( bool = 2 > 1 bit = 8 )
         BIT-OR boolx( bool = 2 < 1 bit = 7 )
@@ -148,7 +119,7 @@ FINAL(result) = boolx( bool = 2 > 1 bit = 8 )
         BIT-OR boolx( bool = 2 > 1 bit = 2 )
         BIT-OR boolx( bool = 2 < 1 bit = 1 ).
 
-The bit expression above can be expressed using the following iteration with the operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)).
+The bit expression above can be expressed using the following iteration with the operator [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm).
 
 FINAL(result) =
   REDUCE xstring( INIT x TYPE xstring
@@ -165,20 +136,20 @@ Effect
 
 Like boolc, the function xsdbool returns the value X for true and a blank for false. The data type of the return value, however, has the type c of the length 1 here.
 
-The return value references the type XSDBOOLEAN from the ABAP Dictionary. This type, which refers to the identically named domain of type CHAR and length 1, is handled like a real Boolean type in serializations and deserializations to or from [asXML](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)) and [asJSON](javascript:call_link\('abenabap_asjson_schema.htm'\)) using [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)). The XML or JSON values true and false are assigned to the values X and blank of this type.
+The return value references the type XSDBOOLEAN from the ABAP Dictionary. This type, which refers to the identically named domain of type CHAR and length 1, is handled like a real Boolean type in serializations and deserializations to or from [asXML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xslt_asxml_schema.htm) and [asJSON](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_asjson_schema.htm) using [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transformation.htm). The XML or JSON values true and false are assigned to the values X and blank of this type.
 
-xsdbool can be specified in [general](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") and [character-like expression positions](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry").
+xsdbool can be specified in [general](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and [character-like expression positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
 
 Hints
 
 -   The result of xsdbool can be used like a value of the type abap\_bool and can be compared with the constants abap\_true and abap\_false without any problems.
--   If the logical expression is false, the result of boolc fulfills the condition [IS INITIAL](javascript:call_link\('abenlogexp_initial.htm'\)), since the returned blank is the type-dependent initial value at the same time.
--   The result of xsdbool cannot usually be converted directly using a [processing function](javascript:call_link\('abenprocess_functions.htm'\)) such as [translate](javascript:call_link\('abentranslate_functions.htm'\)), since the trailing blanks here are ignored in text fields of type c. The result of a false logical expression would be ignored. The result of the function boolc of type string is better suited for conversions of this type.
+-   If the logical expression is false, the result of boolc fulfills the condition [IS INITIAL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_initial.htm), since the returned blank is the type-dependent initial value at the same time.
+-   The result of xsdbool cannot usually be converted directly using a [processing function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocess_functions.htm) such as [translate](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentranslate_functions.htm), since the trailing blanks here are ignored in text fields of type c. The result of a false logical expression would be ignored. The result of the function boolc of type string is better suited for conversions of this type.
 -   The abbreviation xsd stands for [XML schema data types](http://www.w3.org/TR/xmlschema-2/).
 
 Example
 
-This example sets the type and the value of the variable gui\_flag declared inline using the Boolean function xsdbool for whose argument a [predicative method call](javascript:call_link\('abenpredicative_method_call_glosry.htm'\) "Glossary Entry") is listed. The variable is then serialized to [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") and [asJSON](javascript:call_link\('abenasjson_glosry.htm'\) "Glossary Entry") using the predefined [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") [ID](javascript:call_link\('abenabap_xslt_id.htm'\)). This produces the value true or false. After a comparison with the identically typed constant abap\_false, the formatted result of the serialization is either read or displayed.
+This example sets the type and the value of the variable gui\_flag declared inline using the Boolean function xsdbool for whose argument a [predicative method call](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpredicative_method_call_glosry.htm "Glossary Entry") is listed. The variable is then serialized to [asXML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenasxml_glosry.htm "Glossary Entry") and [asJSON](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenasjson_glosry.htm "Glossary Entry") using the predefined [identity transformation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenid_trafo_glosry.htm "Glossary Entry") [ID](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xslt_id.htm). This produces the value true or false. After a comparison with the identically typed constant abap\_false, the formatted result of the serialization is either read or displayed.
 
 The result would be quite different if boolc were used instead of xsdbool. First, the transformations would have a different result since the values X and blank are not transformed to true or false; second, the logical expression gui\_flag = abap\_false would always be false, since abap\_false loses its blank when converting to the type string.
 

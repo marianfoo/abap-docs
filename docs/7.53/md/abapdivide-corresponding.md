@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Calculation Statements](javascript:call_link\('abencomputing_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) →  [Obsolete Calculation Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomputing_obsolete.htm) → 
 
 DIVIDE-CORRESPONDING
 
-[Quick Reference](javascript:call_link\('abapdivide-corresponding_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide-corresponding_shortref.htm)
 
 Obsolete Syntax
 
@@ -18,9 +18,9 @@ Effect
 
 This statement is not allowed in classes and divides structures by component. Structures must be specified for struc1 and struc2. For all components of the same name in struc1 and struc2, the components of struc1 are divided by the components in struc2 in pairs, and the result is assigned to the relevant component in struc1.
 
-The names are compared, as in the statement [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)). For each component pair with the same name comp, the statement
+The names are compared, as in the statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove-corresponding.htm). For each component pair with the same name comp, the statement
 
-[DIVIDE](javascript:call_link\('abapdivide.htm'\)) struc1-comp BY struc2-comp.
+[DIVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide.htm) struc1-comp BY struc2-comp.
 
 is executed, and the appropriate conversions are performed, if necessary.
 
@@ -30,7 +30,7 @@ Note
 
 This statement is error-prone because, particularly in complex structures, it is not easy to check that components of the same name have the data type and content necessary for a numeric operation.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

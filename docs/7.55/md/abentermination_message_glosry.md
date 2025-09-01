@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 termination message
 
-[Message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") of [message type](javascript:call_link\('abenmessage_type_glosry.htm'\) "Glossary Entry") A. Termination messages are displayed in a [dialog box](javascript:call_link\('abendialog_box_glosry.htm'\) "Glossary Entry"), create a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"), and terminate the running program.
+[Message](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmessage_glosry.htm "Glossary Entry") of [message type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmessage_type_glosry.htm "Glossary Entry") A. Termination messages are displayed in a [dialog box](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendialog_box_glosry.htm "Glossary Entry"), create a [database rollback](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"), and terminate the running program.
 
-[→ More about](javascript:call_link\('abenabap_messages_types.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_messages_types.htm)

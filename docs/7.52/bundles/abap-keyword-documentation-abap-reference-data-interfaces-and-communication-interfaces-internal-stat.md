@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abendata_communication_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_communication_internal.htm)
-- [abapcall-.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall-.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.451Z
-
----
-
 ### abendata_communication_internal.htm
-
-> **📖 Official SAP Documentation**: [abendata_communication_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_communication_internal.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,30 +11,20 @@ Included pages: 2
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) → 
 
 Internal Statement for System Function Call
 
 This statement is for internal use only.
 It must not be used in application programs.
 
--   [CALL cfunc](javascript:call_link\('abapcall-.htm'\))
+-   [CALL cfunc](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall-.htm)
 
 Continue
-[CALL - System Function Call](javascript:call_link\('abapcall-.htm'\))
+[CALL - System Function Call](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall-.htm)
 
-
-
-**📖 Source**: [abendata_communication_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_communication_internal.htm)
 
 ### abapcall-.htm
-
-> **📖 Official SAP Documentation**: [abapcall-.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall-.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapcall-.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall-.htm)
-
 
   
 
@@ -61,7 +32,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [Internal Statement for System Function Call](javascript:call_link\('abendata_communication_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [Internal Statement for System Function Call](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_communication_internal.htm) → 
 
 CALL - System Function Call
 
@@ -86,18 +57,18 @@ The CALL statement itself does not set any system fields. Whether system fields 
 
 Notes
 
--   If possible, use [kernel methods](javascript:call_link\('abenkernel_methods.htm'\)) instead of system functions.
+-   If possible, use [kernel methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkernel_methods.htm) instead of system functions.
     
--   External programs should be called using the RFC mechanism: [CALL FUNCTION... DESTINATION](javascript:call_link\('abapcall_function_destination.htm'\)).
+-   External programs should be called using the RFC mechanism: [CALL FUNCTION... DESTINATION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function_destination.htm).
     
 -   With some critical C functions, the system performs an authorization check automatically. If the user does not have the appropriate authorization, a runtime error occurs. The authorization can be checked using the function module AUTHORITY\_CHECK\_C\_FUNCTION.
     
--   The use of the system function SYSTEM, which can be used to execute operating system statements, is not recommended and can be deactivated using the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") rdisp/call\_system. If called, it then raises a non-handleable exception. If absolutely necessary, operating system statements can be called using the function modules in the [SXPG framework](javascript:call_link\('abenabap_system_commands_appl_sxpg.htm'\)). This addresses specific statements using logical command names created by the system administrator in the transaction SM68. See also [Unwanted Calls of Operating System Statements](javascript:call_link\('abenabap_system_commands_appl_depr.htm'\)).
+-   The use of the system function SYSTEM, which can be used to execute operating system statements, is not recommended and can be deactivated using the [profile parameter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") rdisp/call\_system. If called, it then raises a non-handleable exception. If absolutely necessary, operating system statements can be called using the function modules in the [SXPG framework](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_system_commands_appl_sxpg.htm). This addresses specific statements using logical command names created by the system administrator in the transaction SM68. See also [Unwanted Calls of Operating System Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_system_commands_appl_depr.htm).
     
 
 Security Note
 
-Calls of system functions whose names or parameters are injected into the program from outside present a serious security risk. The values from outside must be checked thoroughly before being used. See [System Command Injections](javascript:call_link\('abensys_comm_injections_scrty.htm'\)).
+Calls of system functions whose names or parameters are injected into the program from outside present a serious security risk. The values from outside must be checked thoroughly before being used. See [System Command Injections](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensys_comm_injections_scrty.htm).
 
 Addition
 
@@ -115,7 +86,7 @@ DATA dbserver TYPE c LENGTH 255.
 CALL 'C\_SAPGPARAM' ID 'NAME'  FIELD 'SAPDBHOST'
                    ID 'VALUE' FIELD  dbserver.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

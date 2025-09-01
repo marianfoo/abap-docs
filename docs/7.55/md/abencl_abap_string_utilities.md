@@ -4,20 +4,20 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) → 
 
 System Classes for Character String and Byte String Processing
 
--   [Class for Trailing Blanks](javascript:call_link\('abenstring_util.htm'\))
+-   [Class for Trailing Blanks](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_util.htm)
 
--   [Class for Compressing Character Strings and Byte Strings](javascript:call_link\('abencl_abap_gzip.htm'\))
+-   [Class for Compressing Character Strings and Byte Strings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_abap_gzip.htm)
 
--   [Class with Utilities for String Processing](javascript:call_link\('abencl_abap_char_utilities.htm'\))
+-   [Class with Utilities for String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_abap_char_utilities.htm)
 
--   [Methods for Handling Code Pages](javascript:call_link\('abencl_abap_conv_codepage.htm'\))
+-   [Methods for Handling Code Pages](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_abap_conv_codepage.htm)
 
 Continue
-[Class for Trailing Blanks](javascript:call_link\('abenstring_util.htm'\))
-[Class for Compressing Character Strings and Byte Strings](javascript:call_link\('abencl_abap_gzip.htm'\))
-[Class with Utilities for String Processing](javascript:call_link\('abencl_abap_char_utilities.htm'\))
-[Methods for Handling Code Pages](javascript:call_link\('abencl_abap_conv_codepage.htm'\))
+[Class for Trailing Blanks](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_util.htm)
+[Class for Compressing Character Strings and Byte Strings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_abap_gzip.htm)
+[Class with Utilities for String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_abap_char_utilities.htm)
+[Methods for Handling Code Pages](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_abap_conv_codepage.htm)

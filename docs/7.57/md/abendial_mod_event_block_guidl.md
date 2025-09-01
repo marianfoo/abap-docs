@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Dialog Modules and Event Blocks, ABENDIAL_MOD_EVENT_BLOCK_GUIDL, 757%0D%0A%0D%0AError
 :%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -36,11 +36,11 @@ Only use dialog modules and event routines if they are necessary from a technica
 
 Details   
 
-Since it is not possible to declare local data in dialog modules and event blocks, you cannot implement any useful program logic. This means that any dialog modules and event blocks (provided that they are still necessary) should only contain one method call. If you [use ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") consistently, only the following elements are required:
+Since it is not possible to declare local data in dialog modules and event blocks, you cannot implement any useful program logic. This means that any dialog modules and event blocks (provided that they are still necessary) should only contain one method call. If you [use ABAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") consistently, only the following elements are required:
 
--   LOAD-OF-PROGRAM or INITIALIZATION as the program constructor in cases where [program types](javascript:call_link\('abenprogram_type_guidl.htm'\) "Guideline") other than class pools are used
--   Dialog modules and AT SELECTION-SCREEN when [classic dynpros and selection screens](javascript:call_link\('abenencap_class_interf_guidl.htm'\) "Guideline") are processed
--   START-OF-SELECTION in [executable programs](javascript:call_link\('abenprogram_type_guidl.htm'\) "Guideline") for background processing. To improve readability, you should always specify the statement explicitly (although it is optional in many situations).
+-   LOAD-OF-PROGRAM or INITIALIZATION as the program constructor in cases where [program types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_type_guidl.htm "Guideline") other than class pools are used
+-   Dialog modules and AT SELECTION-SCREEN when [classic dynpros and selection screens](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenencap_class_interf_guidl.htm "Guideline") are processed
+-   START-OF-SELECTION in [executable programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_type_guidl.htm "Guideline") for background processing. To improve readability, you should always specify the statement explicitly (although it is optional in many situations).
 -   Although possible in the syntax, you should never specify an event block more than once within a program.
 
 Hint

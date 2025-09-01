@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 batch input table
 
-[Internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") with the [row type](javascript:call_link\('abenrow_type_glosry.htm'\) "Glossary Entry") BDCDATA, which contains the data for a [dialog transaction](javascript:call_link\('abendialog_transaction_glosry.htm'\) "Glossary Entry") in the same format as in a [batch input session](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry"). Batch input tables can be specified after the addition USING of the statement [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) when [transactions](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry") are called.
+[Internal table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninternal_table_glosry.htm "Glossary Entry") with the [row type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrow_type_glosry.htm "Glossary Entry") BDCDATA, which contains the data for a [dialog transaction](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendialog_transaction_glosry.htm "Glossary Entry") in the same format as in a [batch input session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbatch_input_session_glosry.htm "Glossary Entry"). Batch input tables can be specified after the addition USING of the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transaction.htm) when [transactions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransaction_glosry.htm "Glossary Entry") are called.
 
-[→ More](javascript:call_link\('abenbatch_input_table.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbatch_input_table.htm)

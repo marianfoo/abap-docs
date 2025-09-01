@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 SAP HANA XSA
 
-SAP HANA Extended Application Services Advanced Model. Current version of [XS](javascript:call_link\('abenxs_glosry.htm'\) "Glossary Entry") and successor to [XSC](javascript:call_link\('abenxsc_glosry.htm'\) "Glossary Entry"). XSA objects are developed in [SAP Web IDE for SAP HANA](javascript:call_link\('abensap_web_ide_for_sap_han_glosry.htm'\) "Glossary Entry"), are managed in [SAP HANA Cockpit](javascript:call_link\('abensap_hana_cockpit_glosry.htm'\) "Glossary Entry"), deployed using [HDI](javascript:call_link\('abenhdi_glosry.htm'\) "Glossary Entry").
+SAP HANA Extended Application Services Advanced Model. Current version of [XS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxs_glosry.htm "Glossary Entry") and successor to [XSC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsc_glosry.htm "Glossary Entry"). XSA objects are developed in [SAP Web IDE for SAP HANA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_web_ide_for_sap_han_glosry.htm "Glossary Entry"), are managed in [SAP HANA Cockpit](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_hana_cockpit_glosry.htm "Glossary Entry"), deployed using [HDI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhdi_glosry.htm "Glossary Entry").
 
 → More

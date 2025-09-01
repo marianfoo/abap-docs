@@ -4,17 +4,17 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Processing Lists in the List Buffer](javascript:call_link\('abenabap_lists_complex.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpro_list.htm) →  [Processing Lists in the List Buffer](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_lists_complex.htm) → 
 
 DESCRIBE LIST
 
-[Quick Reference](javascript:call_link\('abapdescribe_list_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_shortref.htm)
 
 Syntax
 
 DESCRIBE LIST *{* *{*NUMBER OF  *{*LINES*|*PAGES*}* n*}*
               *|* *{*LINE linno PAGE page*}*
-              *|* *{*PAGE pagno [page\_properties](javascript:call_link\('abapdescribe_list_page_properties.htm'\))*}* *}*
+              *|* *{*PAGE pagno [page\_properties](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_page_properties.htm)*}* *}*
               *\[*INDEX idx*\]*.
 
 Alternatives:
@@ -29,7 +29,7 @@ Addition:
 
 Effect
 
-This statement assigns the properties of a list stored in a list buffer to the variables n, page, or the variables specified in [page\_properties](javascript:call_link\('abapdescribe_list_page_properties.htm'\)).
+This statement assigns the properties of a list stored in a list buffer to the variables n, page, or the variables specified in [page\_properties](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_page_properties.htm).
 
 System Fields
 
@@ -83,7 +83,7 @@ Alternative 3
 
 Effect
 
-Various properties [page\_properties](javascript:call_link\('abapdescribe_list_page_properties.htm'\)) for the page number specified in pagno are determined and passed to the specified variables. At least one addition must be specified after pagno. pagno expects the data type i. If the page specified in pagno does not exist, the variables are not changed and sy-subrc is set to the value 4.
+Various properties [page\_properties](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_page_properties.htm) for the page number specified in pagno are determined and passed to the specified variables. At least one addition must be specified after pagno. pagno expects the data type i. If the page specified in pagno does not exist, the variables are not changed and sy-subrc is set to the value 4.
 
 Example
 
@@ -101,4 +101,4 @@ AT LINE-SELECTION.
                                 TOP-LINES  top\_lines.
 
 Continue
-[DESCRIBE LIST - page\_properties](javascript:call_link\('abapdescribe_list_page_properties.htm'\))
+[DESCRIBE LIST - page\_properties](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_page_properties.htm)

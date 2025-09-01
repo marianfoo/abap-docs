@@ -3,30 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenoperands_names.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands_names.htm)
-- [abenstructure_component_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_component_selector.htm)
-- [abenobject_component_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_component_selector.htm)
-- [abenclass_component_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_component_selector.htm)
-- [abeninterface_component_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_component_selector.htm)
-- [abencomponent_chaining_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomponent_chaining_selector.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.172Z
-
----
-
 ### abenoperands_names.htm
-
-> **📖 Official SAP Documentation**: [abenoperands_names.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands_names.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,7 +11,7 @@ Included pages: 6
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands.htm) → 
 
 Names for Individual Operands
 
@@ -56,38 +33,31 @@ Accordingly, names for operands are either elementary names or names constructed
 
 -   superunits made up of components
 
-[Naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) apply to the elementary names. Composite names with component selectors are used for addressing individual components. A component can itself be a superunit of further components. Subcomponents can be addressed by [chaining](javascript:call_link\('abenchaining_glosry.htm'\) "Glossary Entry") multiple names.
+[Naming conventions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_conventions.htm) apply to the elementary names. Composite names with component selectors are used for addressing individual components. A component can itself be a superunit of further components. Subcomponents can be addressed by [chaining](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchaining_glosry.htm "Glossary Entry") multiple names.
 
--   [Structure Component Selector](javascript:call_link\('abenstructure_component_selector.htm'\))
+-   [Structure Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_component_selector.htm)
 
--   [Object Component Selector](javascript:call_link\('abenobject_component_selector.htm'\))
+-   [Object Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_component_selector.htm)
 
--   [Class Component Selector](javascript:call_link\('abenclass_component_selector.htm'\))
+-   [Class Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_component_selector.htm)
 
--   [Interface Component Selector](javascript:call_link\('abeninterface_component_selector.htm'\))
+-   [Interface Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_component_selector.htm)
 
--   [Chainings](javascript:call_link\('abencomponent_chaining_selector.htm'\))
+-   [Chainings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomponent_chaining_selector.htm)
 
 Note
 
-As well as the component selectors specified here, [ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") has a [column selector](javascript:call_link\('abentable_comp_selector_glosry.htm'\) "Glossary Entry") (~).
+As well as the component selectors specified here, [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") has a [column selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_comp_selector_glosry.htm "Glossary Entry") (~).
 
 Continue
-[Structure Component Selector](javascript:call_link\('abenstructure_component_selector.htm'\))
-[Object Component Selector](javascript:call_link\('abenobject_component_selector.htm'\))
-[Class Component Selector](javascript:call_link\('abenclass_component_selector.htm'\))
-[Interface Component Selector](javascript:call_link\('abeninterface_component_selector.htm'\))
-[Chainings](javascript:call_link\('abencomponent_chaining_selector.htm'\))
+[Structure Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_component_selector.htm)
+[Object Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_component_selector.htm)
+[Class Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_component_selector.htm)
+[Interface Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_component_selector.htm)
+[Chainings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomponent_chaining_selector.htm)
 
-
-
-**📖 Source**: [abenoperands_names.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands_names.htm)
 
 ### abenstructure_component_selector.htm
-
-> **📖 Official SAP Documentation**: [abenstructure_component_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_component_selector.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -95,7 +65,7 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Names for Individual Operands](javascript:call_link\('abenoperands_names.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands.htm) →  [Names for Individual Operands](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands_names.htm) → 
 
 Structure Component Selector
 
@@ -107,9 +77,9 @@ In this case, the character \- is the structure component selector. A structured
 
 -   Name of a structure or a structured type (which can itself be composite).
 
--   [Functional method call](javascript:call_link\('abenfunctional_method_call_glosry.htm'\) "Glossary Entry") or [method chaining](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry") with a structured result.
+-   [Functional method call](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunctional_method_call_glosry.htm "Glossary Entry") or [method chaining](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_chaining_glosry.htm "Glossary Entry") with a structured result.
 
--   Single or chained [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") that returns a structured table row.
+-   Single or chained [table expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expression_glosry.htm "Glossary Entry") that returns a structured table row.
 
 The name comp of the component must be on the right of the structure component selector.
 
@@ -122,14 +92,7 @@ DATA struc TYPE spfli.
 ... struc-carrid ...
 
 
-
-**📖 Source**: [abenstructure_component_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_component_selector.htm)
-
 ### abenobject_component_selector.htm
-
-> **📖 Official SAP Documentation**: [abenobject_component_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_component_selector.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -137,7 +100,7 @@ DATA struc TYPE spfli.
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Names for Individual Operands](javascript:call_link\('abenoperands_names.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands.htm) →  [Names for Individual Operands](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands_names.htm) → 
 
 Object Component Selector
 
@@ -149,11 +112,11 @@ In this case, the character \-> is the object component selector. A reference va
 
 -   Name of a reference variable (can itself be a composite).
 
--   [Functional method call](javascript:call_link\('abenfunctional_method_call_glosry.htm'\) "Glossary Entry") or [method chaining](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry") with reference variable as a result.
+-   [Functional method call](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunctional_method_call_glosry.htm "Glossary Entry") or [method chaining](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_chaining_glosry.htm "Glossary Entry") with reference variable as a result.
 
--   Single or chained [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") whose result is a reference variable.
+-   Single or chained [table expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expression_glosry.htm "Glossary Entry") whose result is a reference variable.
 
--   [Constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") with the [instance operator](javascript:call_link\('abeninstance_operator_glosry.htm'\) "Glossary Entry") [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) or the [casting operator](javascript:call_link\('abencasting_operator_glosry.htm'\) "Glossary Entry") [CAST](javascript:call_link\('abenconstructor_expression_cast.htm'\)).
+-   [Constructor expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") with the [instance operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninstance_operator_glosry.htm "Glossary Entry") [NEW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_new.htm) or the [casting operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencasting_operator_glosry.htm "Glossary Entry") [CAST](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_cast.htm).
 
 The name comp of the component must be on the right of the object component selector. The object component selector dereferences the reference variable ref and makes the components of the referenced object accessible.
 
@@ -161,7 +124,7 @@ The name comp of the component must be on the right of the object component sele
 
 -   If ref is a data reference variable that is typed as a structure, the components comp of the structure to which the data reference variable points are addressed using the object component selector.
 
-If an attempt is made to access a data object (an [instance attribute](javascript:call_link\('abeninstance_attribute_glosry.htm'\) "Glossary Entry") or structure component) using a reference variable that contains the [null reference](javascript:call_link\('abennull_reference_glosry.htm'\) "Glossary Entry"), a non-handleable exception is raised. Dereferencing of a data reference in the statement ASSIGN is an exception to this. If an attempt is made to access an [instance method](javascript:call_link\('abeninstance_method_glosry.htm'\) "Glossary Entry") using a reference variable that contains the null reference, a handleable exception of the class CX\_SY\_REF\_IS\_INITIAL is raised.
+If an attempt is made to access a data object (an [instance attribute](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninstance_attribute_glosry.htm "Glossary Entry") or structure component) using a reference variable that contains the [null reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennull_reference_glosry.htm "Glossary Entry"), a non-handleable exception is raised. Dereferencing of a data reference in the statement ASSIGN is an exception to this. If an attempt is made to access an [instance method](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninstance_method_glosry.htm "Glossary Entry") using a reference variable that contains the null reference, a handleable exception of the class CX\_SY\_REF\_IS\_INITIAL is raised.
 
 Note
 
@@ -188,14 +151,7 @@ DATA dref TYPE REF TO sflight.
 ... dref->carrid ...
 
 
-
-**📖 Source**: [abenobject_component_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_component_selector.htm)
-
 ### abenclass_component_selector.htm
-
-> **📖 Official SAP Documentation**: [abenclass_component_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_component_selector.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -203,11 +159,11 @@ DATA dref TYPE REF TO sflight.
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Names for Individual Operands](javascript:call_link\('abenoperands_names.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands.htm) →  [Names for Individual Operands](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands_names.htm) → 
 
 Class Component Selector
 
-A [static component](javascript:call_link\('abenstatic_component_glosry.htm'\) "Glossary Entry") comp of a class can be accessed using the following name:
+A [static component](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_component_glosry.htm "Glossary Entry") comp of a class can be accessed using the following name:
 
 class=>comp
 
@@ -246,14 +202,7 @@ CLASS factory IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abenclass_component_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_component_selector.htm)
-
 ### abeninterface_component_selector.htm
-
-> **📖 Official SAP Documentation**: [abeninterface_component_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_component_selector.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -261,7 +210,7 @@ ENDCLASS.
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Names for Individual Operands](javascript:call_link\('abenoperands_names.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands.htm) →  [Names for Individual Operands](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands_names.htm) → 
 
 Interface Component Selector
 
@@ -275,7 +224,7 @@ The name intf~comp identifies the components of interfaces in classes or compone
 
 Programming Guideline
 
-[Address interface components using interface reference variables](javascript:call_link\('abenclass_ref_interf_ref_guidl.htm'\) "Guideline")
+[Address interface components using interface reference variables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_ref_interf_ref_guidl.htm "Guideline")
 
 Note
 
@@ -307,17 +256,7 @@ CLASS c1 IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abeninterface_component_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_component_selector.htm)
-
 ### abencomponent_chaining_selector.htm
-
-> **📖 Official SAP Documentation**: [abencomponent_chaining_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomponent_chaining_selector.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencomponent_chaining_selector.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomponent_chaining_selector.htm)
-
 
   
 
@@ -325,11 +264,11 @@ ENDCLASS.
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Names for Individual Operands](javascript:call_link\('abenoperands_names.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands.htm) →  [Names for Individual Operands](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands_names.htm) → 
 
 Chainings
 
-In cases where operands are composed of components that themselves contain components, the names of these components are composed of chainings with multiple component selectors. The following rules apply to these [chained names](javascript:call_link\('abenchained_name_glosry.htm'\) "Glossary Entry"):
+In cases where operands are composed of components that themselves contain components, the names of these components are composed of chainings with multiple component selectors. The following rules apply to these [chained names](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchained_name_glosry.htm "Glossary Entry"):
 
 -   The names on the left of each structure component selector must, as a composite group, address a structured data type or a structure.
 
@@ -343,9 +282,9 @@ Note
 
 As well as the chaining of names, the following chainings are possible:
 
--   [Method chainings](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry") with the object component selector
+-   [Method chainings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_chaining_glosry.htm "Glossary Entry") with the object component selector
 
--   [Chainings](javascript:call_link\('abentable_exp_chaining.htm'\)) of [table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry")
+-   [Chainings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_exp_chaining.htm) of [table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expression_glosry.htm "Glossary Entry")
 
 Chainings can be combined in any way as long as their rules are respected.
 
@@ -353,7 +292,7 @@ Example
 
 Declares a nested structured data type struc2 in struc1 and a structure struc3 in an interface i1.
 
-The component comp of struc3 is a data reference variable of the static type struc1. The i1 interface is the component interface of i2 and the latter is implemented in c1. In c2, a [static attribute](javascript:call_link\('abenstatic_attribute_glosry.htm'\) "Glossary Entry") is declared as the object reference of the static type c1. The expression in the last line can be in an operand position that expects a data object, and names the component comp of the structure struc2 in a chaining that starts at class c2. A prerequisite for use of the expression is that both reference variables, oref and dref, point to the respective instances.
+The component comp of struc3 is a data reference variable of the static type struc1. The i1 interface is the component interface of i2 and the latter is implemented in c1. In c2, a [static attribute](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_attribute_glosry.htm "Glossary Entry") is declared as the object reference of the static type c1. The expression in the last line can be in an operand position that expects a data object, and names the component comp of the structure struc2 in a chaining that starts at class c2. A prerequisite for use of the expression is that both reference variables, oref and dref, point to the respective instances.
 
 INTERFACE i1.
   TYPES: BEGIN OF struc1,

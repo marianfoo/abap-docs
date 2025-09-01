@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 similarity function
 
-[Description function](javascript:call_link\('abendescription_function_glosry.htm'\) "Glossary Entry") that returns the similarity of one string to another string.
+[Description function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendescription_function_glosry.htm "Glossary Entry") that returns the similarity of one string to another string.
 
-[→ More about](javascript:call_link\('abendistance_functions.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendistance_functions.htm)

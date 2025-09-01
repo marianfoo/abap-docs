@@ -4,19 +4,35 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Internal Tables - Overview](javascript:call_link\('abenitab_oview.htm'\)) →  [Table Keys](javascript:call_link\('abenitab_key.htm'\)) →  [Primary Table Key](javascript:call_link\('abenitab_key_primary.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab.htm) →  [Internal Tables - Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_oview.htm) →  [Table Keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_key.htm) →  [Primary Table Key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_key_primary.htm) → 
 
 Empty Table Key
 
-The [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") of a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") can be empty. An empty table key does not contain any key fields.
+The [primary table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") of a [standard table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm "Glossary Entry") can be empty. An empty table key does not contain any key fields.
 
--   [Declaration](#abenitab-empty-key-1--------notes-on-use---@ITOC@@ABENITAB_EMPTY_KEY_2)
+-   [Declaration](#@@ITOC@@ABENITAB_EMPTY_KEY_1)
 
--   [Uncritical use](#abenitab-empty-key-3--------critical-use---@ITOC@@ABENITAB_EMPTY_KEY_4)
+-   [Notes on Use](#@@ITOC@@ABENITAB_EMPTY_KEY_2)
 
--   [Example](#abenitab-empty-key-5---note---sorted-keys--javascript-call-link---abensorted-key-glosry-htm-----glossary-entry---and--hash-keys--javascript-call-link---abenhash-key-glosry-htm-----glossary-entry---are-never-empty--regardless-of-whether-they-are-primary-or--secondary--javascript-call-link---abensecondary-key-glosry-htm-----glossary-entry-----declaration--an-empty-primary-table-key-can-be-created-as-follows-------explicitly-with-the-addition--empty-key--javascript-call-link---abaptypes-primary-key-htm-----of-the-statements--types--javascript-call-link---abaptypes-primary-key-htm-------data--javascript-call-link---abapdata-primary-key-htm------and-so-on-------explicitly-using-an-inline-declaration--into-table-DATA(itab)](javascript:call_link\('abapinto_clause.htm'\)) in the statement SELECT
+-   [Uncritical use](#@@ITOC@@ABENITAB_EMPTY_KEY_3)
 
--   Implicitly when using the [standard key](javascript:call_link\('abenitab_standard_key.htm'\)) if a structured row type does not contain any non-numeric elementary components or if an unstructured row type is table-like.
+-   [Critical use](#@@ITOC@@ABENITAB_EMPTY_KEY_4)
+
+-   [Example](#@@ITOC@@ABENITAB_EMPTY_KEY_5)
+
+Note
+
+[Sorted keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensorted_key_glosry.htm "Glossary Entry") and [hash keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhash_key_glosry.htm "Glossary Entry") are never empty, regardless of whether they are primary or [secondary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_key_glosry.htm "Glossary Entry").
+
+Declaration
+
+An empty primary table key can be created as follows:
+
+-   Explicitly with the addition [EMPTY KEY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_primary_key.htm) of the statements [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_primary_key.htm), [DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_primary_key.htm), and so on.
+
+-   Explicitly using an inline declaration [INTO TABLE @DATA(itab)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinto_clause.htm) in the statement SELECT
+
+-   Implicitly when using the [standard key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_standard_key.htm) if a structured row type does not contain any non-numeric elementary components or if an unstructured row type is table-like.
 
 Notes on Use
 
@@ -26,13 +42,13 @@ An empty primary table key can be used to handle a table like an array. This mea
 
 Notes
 
--   Developers should always be aware of the fact that they are handling an empty primary table key. This is really achieved only when the empty key is declared explicitly. This implicit declaration using the [standard key](javascript:call_link\('abenitab_standard_key.htm'\)) (in which the row type determines whether the primary table key is empty or not) is not usually suitable.
+-   Developers should always be aware of the fact that they are handling an empty primary table key. This is really achieved only when the empty key is declared explicitly. This implicit declaration using the [standard key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_standard_key.htm) (in which the row type determines whether the primary table key is empty or not) is not usually suitable.
 
--   Even an empty primary key in a standard table has the order specified by the [primary index](javascript:call_link\('abenprimary_table_index_glosry.htm'\) "Glossary Entry"), which can be exploited in related index accesses or loops.
+-   Even an empty primary key in a standard table has the order specified by the [primary index](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_table_index_glosry.htm "Glossary Entry"), which can be exploited in related index accesses or loops.
 
 Example
 
-A particularly prominent example is the statement [LOOP AT itab](javascript:call_link\('abaploop_at_itab.htm'\)), which when used implicitly or explicitly (using [USING primary\_key](javascript:call_link\('abaploop_at_itab_cond.htm'\))) defines the processing order with respect to the [primary table index](javascript:call_link\('abenprimary_table_index_glosry.htm'\) "Glossary Entry"), but is otherwise ignored.
+A particularly prominent example is the statement [LOOP AT itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab.htm), which when used implicitly or explicitly (using [USING primary\_key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_cond.htm)) defines the processing order with respect to the [primary table index](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_table_index_glosry.htm "Glossary Entry"), but is otherwise ignored.
 
 Critical use
 
@@ -40,21 +56,21 @@ In the following statements, which work with the primary table key without speci
 
 -   Primary table key specified by a work area:
 
--   If [FROM wa](javascript:call_link\('abapread_table_key.htm'\)) is used to specify an empty table key for the statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)), the first row of the internal table is read.
+-   If [FROM wa](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table_key.htm) is used to specify an empty table key for the statement [READ TABLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table.htm), the first row of the internal table is read.
 
--   If [FROM wa](javascript:call_link\('abapmodify_itab_single.htm'\)) is used to specify an empty table key for the statement [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)), the first row of the internal table is modified.
+-   If [FROM wa](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_itab_single.htm) is used to specify an empty table key for the statement [MODIFY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_itab.htm), the first row of the internal table is modified.
 
--   If [FROM wa](javascript:call_link\('abapdelete_itab_key.htm'\)) is used to specify an empty table key for the statement [DELETE](javascript:call_link\('abapdelete_itab.htm'\)), the first row of the internal table is deleted.
+-   If [FROM wa](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_itab_key.htm) is used to specify an empty table key for the statement [DELETE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_itab.htm), the first row of the internal table is deleted.
 
--   If the statement [SORT itab](javascript:call_link\('abapsort_itab.htm'\)) is executed without the addition BY and the primary table key is empty, the statement is ignored and the table is not sorted.
+-   If the statement [SORT itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsort_itab.htm) is executed without the addition BY and the primary table key is empty, the statement is ignored and the table is not sorted.
 
--   If the statement [DELETE ADJACENT DUPLICATES](javascript:call_link\('abapdelete_duplicates.htm'\)) is executed and the primary table key is empty, no rows are deleted.
+-   If the statement [DELETE ADJACENT DUPLICATES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_duplicates.htm) is executed and the primary table key is empty, no rows are deleted.
 
--   If the primary table key is empty and the statement [COLLECT](javascript:call_link\('abapcollect.htm'\)) is executed, the first row of the internal table is compressed. In this case, all components of the row type must be numeric.
+-   If the primary table key is empty and the statement [COLLECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcollect.htm) is executed, the first row of the internal table is compressed. In this case, all components of the row type must be numeric.
 
 Note
 
-The statements described above can be particularly unpredictable when using the [standard key](javascript:call_link\('abenitab_standard_key.htm'\)) (which itself can be declared implicitly) to declare an empty internal table key.
+The statements described above can be particularly unpredictable when using the [standard key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_standard_key.htm) (which itself can be declared implicitly) to declare an empty internal table key.
 
 Example
 

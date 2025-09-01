@@ -4,15 +4,15 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - Common EML Statements and Operands](javascript:call_link\('abapcommon_eml_elements.htm'\)) →  [ABAP EML - response\_param](javascript:call_link\('abapeml_response.htm'\)) →  [Examples for responses](javascript:call_link\('abeneml_responses_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml.htm) →  [ABAP EML - Common EML Statements and Operands](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommon_eml_elements.htm) →  [ABAP EML - response\_param](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_response.htm) →  [Examples for responses](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_responses_abexas.htm) → 
 
 ABAP EML - Responses
 
-This example demonstrates the response parameters FAILED, MAPPED and REPORTED in a managed RAP BO. The scenario provokes errors while trying to modify [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") using the MODIFY statement. The output results are displayed for showcasing purposes.
+This example demonstrates the response parameters FAILED, MAPPED and REPORTED in a managed RAP BO. The scenario provokes errors while trying to modify [RAP BO instances](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") using the MODIFY statement. The output results are displayed for showcasing purposes.
 
 Data model
 
-The CDS data model consists of the root entity DEMO\_MANAGED\_ROOT\_CUSTOM and its child entity DEMO\_MANAGED\_CHILD\_CUSTOM. Furthermore, it contains an association to an entity (DEMO\_MANAGED\_ASSOC\_CUSTOM) that is not part of the [composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry").
+The CDS data model consists of the root entity DEMO\_MANAGED\_ROOT\_CUSTOM and its child entity DEMO\_MANAGED\_CHILD\_CUSTOM. Furthermore, it contains an association to an entity (DEMO\_MANAGED\_ASSOC\_CUSTOM) that is not part of the [composition tree](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_composition_tree_glosry.htm "Glossary Entry").
 
 Root entity:
 
@@ -52,7 +52,7 @@ define view entity DEMO\_MANAGED\_CHILD\_CUSTOM
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_CUSTOM is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_CUSTOM is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_root\_custom unique;
 define behavior for DEMO\_MANAGED\_ROOT\_CUSTOM
@@ -78,7 +78,7 @@ lock dependent by \_parent
 
 Behavior implementation
 
-For the above CDS behavior definition, there is an [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") available. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_CUSTOM. This global class implements the local handler class LHC\_DEMO\_MANAGED\_ROOT\_CUSTOM. The actual implementation takes place in the CCIMP include. The details of the behavior implementation are not relevant for this example since no custom operations are used.
+For the above CDS behavior definition, there is an [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") available. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_CUSTOM. This global class implements the local handler class LHC\_DEMO\_MANAGED\_ROOT\_CUSTOM. The actual implementation takes place in the CCIMP include. The details of the behavior implementation are not relevant for this example since no custom operations are used.
 
 Source Code
 
@@ -303,7 +303,7 @@ START-OF-SELECTION.
 
 Description
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program:
 
 -   As a first step, demo values are created for the root and child entity using a MODIFY statement. As part of the modify operation, FAILED, MAPPED and REPORTED parameters are specified. With a COMMIT ENTITIES, the data is saved to the database.
     

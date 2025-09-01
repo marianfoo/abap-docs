@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Function Definitions](javascript:call_link\('abencds_fdl.htm'\)) →  [ABAP CDS - FDL for Function Definitions](javascript:call_link\('abencds_functions.htm'\)) →  [ABAP CDS - Scalar Functions](javascript:call_link\('abencds_scalar_functions.htm'\)) →  [ABAP CDS - SQL-Based Scalar Functions](javascript:call_link\('abencds_sql_scalar_function.htm'\)) →  [CDS FDL - DEFINE SCALAR FUNCTION](javascript:call_link\('abencds_define_scalar_function.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl.htm) →  [ABAP CDS - FDL for Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_functions.htm) →  [ABAP CDS - Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_functions.htm) →  [ABAP CDS - SQL-Based Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_function.htm) →  [CDS FDL - DEFINE SCALAR FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_scalar_function.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20FDL%20-%20typing%2C%20ABENCDS_SCALAR_TYPING%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,11 +12,11 @@ CDS FDL - typing
 
 Syntax
 
-  [dtype](javascript:call_link\('abencds_typing.htm'\))                       *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
-*|* [simple\_type](javascript:call_link\('abencds_define_simple_type.htm'\))                 *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
-*|* [data\_element](javascript:call_link\('abenddic_data_elements.htm'\))                *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
-*|* [generic\_type](javascript:call_link\('abenddic_generic_types.htm'\))                *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
-*|* TYPE OF ParameterReference  *\[*[WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))*\]*
+  [dtype](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typing.htm)                       *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
+*|* [simple\_type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_simple_type.htm)                 *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
+*|* [data\_element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_data_elements.htm)                *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
+*|* [generic\_type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_generic_types.htm)                *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
+*|* TYPE OF ParameterReference  *\[*[WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)*\]*
 
 Addition:
 
@@ -24,12 +24,12 @@ Addition:
 
 Effect
 
-The input parameters of [SQL-based scalar functions](javascript:call_link\('abencds_sql_scalar_glosry.htm'\) "Glossary Entry") can be typed as follows:
+The input parameters of [SQL-based scalar functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_glosry.htm "Glossary Entry") can be typed as follows:
 
--   Using a [built-in ABAP Dictionary data type](javascript:call_link\('abencds_typing.htm'\)).
--   Using a [CDS simple type](javascript:call_link\('abencds_simple_type_glosry.htm'\) "Glossary Entry") defined using [DEFINE TYPE](javascript:call_link\('abencds_define_simple_type.htm'\)).
--   Using a [DDIC data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry").
--   Using the [generic data type](javascript:call_link\('abenddic_generic_types.htm'\)) numeric.
+-   Using a [built-in ABAP Dictionary data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typing.htm).
+-   Using a [CDS simple type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_type_glosry.htm "Glossary Entry") defined using [DEFINE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_simple_type.htm).
+-   Using a [DDIC data element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_element_glosry.htm "Glossary Entry").
+-   Using the [generic data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_generic_types.htm) numeric.
     
     Note: The generic type any is only available for analytical scalar functions.
     
@@ -42,9 +42,9 @@ The input parameters of [SQL-based scalar functions](javascript:call_link\('aben
 
 The return parameter of an SQL-based scalar function can be typed as follows:
 
--   Using a [built-in ABAP Dictionary data type](javascript:call_link\('abencds_typing.htm'\)).
--   Using a [CDS simple type](javascript:call_link\('abencds_simple_type_glosry.htm'\) "Glossary Entry") defined using [DEFINE TYPE](javascript:call_link\('abencds_define_simple_type.htm'\)).
--   Using a [DDIC data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry").
+-   Using a [built-in ABAP Dictionary data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typing.htm).
+-   Using a [CDS simple type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_type_glosry.htm "Glossary Entry") defined using [DEFINE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_simple_type.htm).
+-   Using a [DDIC data element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_element_glosry.htm "Glossary Entry").
 -   Referencing another input parameter using the syntax statement TYPE OF ParameterReference. ParameterReference can be any of the input parameters from the parameter list of the current scalar function that is typed with a built-in data type, a simple type, a data element, or a generic type.
     
     Note: You cannot reference an input parameter that itself references an input parameter.
@@ -121,7 +121,7 @@ Addition  
 
 Effect
 
-Specifies a reference type. Reference types allow the handling of [CDS amount fields](javascript:call_link\('abencds_amount_field_glosry.htm'\) "Glossary Entry") and [CDS quantity fields](javascript:call_link\('abencds_quantity_glosry.htm'\) "Glossary Entry"). The addition is described in topic [CDS FDL - WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\)).
+Specifies a reference type. Reference types allow the handling of [CDS amount fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_amount_field_glosry.htm "Glossary Entry") and [CDS quantity fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_quantity_glosry.htm "Glossary Entry"). The addition is described in topic [CDS FDL - WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm).
 
 Continue
-[CDS FDL - WITH REFERENCE TYPE](javascript:call_link\('abencds_with_reference_type.htm'\))
+[CDS FDL - WITH REFERENCE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_with_reference_type.htm)

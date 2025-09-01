@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 symbol
 
-Graphical element in [lists](javascript:call_link\('abenlist_glosry.htm'\) "Glossary Entry").
+Graphical element in [lists](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlist_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abapwrite_list_elements.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_list_elements.htm)

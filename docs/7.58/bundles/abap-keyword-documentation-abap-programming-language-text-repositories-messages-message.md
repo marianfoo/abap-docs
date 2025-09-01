@@ -3,32 +3,7 @@
 Included pages: 4
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abapmessage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm)
-- [abapmessage_msg.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm)
-- [abapmessage_text.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm)
-- [abapmessage_into.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_into.htm)
-
-**Bundle Contains**: 4 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:29.007Z
-
----
-
 ### abapmessage.htm
-
-> **📖 Official SAP Documentation**: [abapmessage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapmessage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -36,20 +11,20 @@ Included pages: 4
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20MESSAGE%2C%20ABAPMESSAGE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 MESSAGE
 
-[Short Reference](javascript:call_link\('abapmessage_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_shortref.htm)
 
 Syntax
 
-MESSAGE *{* [msg](javascript:call_link\('abapmessage_msg.htm'\))  *|* [text](javascript:call_link\('abapmessage_text.htm'\))  *}*
+MESSAGE *{* [msg](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm)  *|* [text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm)  *}*
         *{*  *{* *\[*DISPLAY LIKE dtype*\]* *\[*WITH dobj1 ... dobj4*\]* *}*
-        *|*  *{* *\[*DISPLAY LIKE dtype*\]* *\[*WITH dobj1 ... dobj4*\]* [RAISING exception](javascript:call_link\('abapmessage_raising.htm'\)) *}*
-        *|*  *{*                      *\[*WITH dobj1 ... dobj4*\]* [INTO text](javascript:call_link\('abapmessage_into.htm'\)) *}* *}*.
+        *|*  *{* *\[*DISPLAY LIKE dtype*\]* *\[*WITH dobj1 ... dobj4*\]* [RAISING exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_raising.htm) *}*
+        *|*  *{*                      *\[*WITH dobj1 ... dobj4*\]* [INTO text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_into.htm) *}* *}*.
 
 Additions:
 
@@ -58,11 +33,11 @@ Additions:
 
 Effect
 
-The statement MESSAGE sends either the short text of a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") specified in [msg](javascript:call_link\('abapmessage_msg.htm'\)) from the table [T100](javascript:call_link\('abenabap_messages_storing.htm'\)) in the [logon language](javascript:call_link\('abenlogon_language_glosry.htm'\) "Glossary Entry") of the current user or any text specified in [text](javascript:call_link\('abapmessage_text.htm'\)). The following variants are available:
+The statement MESSAGE sends either the short text of a [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_glosry.htm "Glossary Entry") specified in [msg](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm) from the table [T100](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages_storing.htm) in the [logon language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogon_language_glosry.htm "Glossary Entry") of the current user or any text specified in [text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm). The following variants are available:
 
--   If one of the additions RAISING or INTO is not specified, the statement MESSAGE interrupts the program flow and sends the message. The exact [behavior](javascript:call_link\('abenabap_messages_types.htm'\)) of this basic form of the statement MESSAGE, that is, how the message text is displayed and how the program flow is continued after the MESSAGE statement, is context-dependent and is determined by a [message type](javascript:call_link\('abenmessage_type_glosry.htm'\) "Glossary Entry") specified in msg or text.
--   If the addition [RAISING](javascript:call_link\('abapmessage_raising.htm'\)) is specified, the statement MESSAGE raises a [non-class-based exception](javascript:call_link\('abenexceptions_non_class.htm'\)) in function modules or methods. If the exception is not handled, the message is sent in the same way as when the addition RAISING is not specified.
--   If the addition [INTO](javascript:call_link\('abapmessage_into.htm'\)) is specified, the program flow is not interrupted and the short text of the message is assigned to a field instead.
+-   If one of the additions RAISING or INTO is not specified, the statement MESSAGE interrupts the program flow and sends the message. The exact [behavior](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages_types.htm) of this basic form of the statement MESSAGE, that is, how the message text is displayed and how the program flow is continued after the MESSAGE statement, is context-dependent and is determined by a [message type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_type_glosry.htm "Glossary Entry") specified in msg or text.
+-   If the addition [RAISING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_raising.htm) is specified, the statement MESSAGE raises a [non-class-based exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexceptions_non_class.htm) in function modules or methods. If the exception is not handled, the message is sent in the same way as when the addition RAISING is not specified.
+-   If the addition [INTO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_into.htm) is specified, the program flow is not interrupted and the short text of the message is assigned to a field instead.
 
 System Fields
 
@@ -92,11 +67,11 @@ Hints
 
 -   Messages sent without one of the additions RAISING or INTO are a way of interacting with a user. Except for messages of the type X, the statement MESSAGE should be used exclusively in the presentation logic layer and never in the actual application logic layer.
 -   The addition RAISING can also be specified together with INTO, but it is ignored in this case.
--   Setting the [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry") using the statement [SET LOCALE](javascript:call_link\('abapset_locale.htm'\)) does not affect the language in which the message is displayed.
+-   Setting the [text environment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_environment_glosry.htm "Glossary Entry") using the statement [SET LOCALE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_locale.htm) does not affect the language in which the message is displayed.
 
 Example
 
-Display of an [information message](javascript:call_link\('abeninformation_message_glosry.htm'\) "Glossary Entry").
+Display of an [information message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninformation_message_glosry.htm "Glossary Entry").
 
 MESSAGE 'Success!' TYPE 'I'.
 
@@ -106,7 +81,7 @@ Addition 1  
 
 Effect
 
-When this addition is used, the icon of the [message type](javascript:call_link\('abenmessage_type_glosry.htm'\) "Glossary Entry") specified in dtype is displayed instead of the associated icon. dtype expects a character-like data objects containing one of the values A, E, W, S, or I in uppercase letters.
+When this addition is used, the icon of the [message type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_type_glosry.htm "Glossary Entry") specified in dtype is displayed instead of the associated icon. dtype expects a character-like data objects containing one of the values A, E, W, S, or I in uppercase letters.
 
 For messages displayed in a dialog box by default, the short text is still displayed as a dialog box. Messages with the type E or W, except those at PBO and LOAD-OF-PROGRAM, are displayed as a dialog box if dtype contains A or I. Messages with the type S are always displayed in the status bar, regardless of the dtype. The latter also applies to messages of the type I for PBO and LOAD-OF-PROGRAM. Messages of the type X always cause a runtime error.
 
@@ -117,7 +92,7 @@ Hints
 
 Example
 
-Display of an [information message](javascript:call_link\('abeninformation_message_glosry.htm'\) "Glossary Entry") with the icon of a [status message](javascript:call_link\('abenstatus_message_glosry.htm'\) "Glossary Entry").
+Display of an [information message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninformation_message_glosry.htm "Glossary Entry") with the icon of a [status message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatus_message_glosry.htm "Glossary Entry").
 
 MESSAGE 'Success!' TYPE 'I' DISPLAY LIKE 'S'.
 
@@ -127,7 +102,7 @@ Addition 2  
 
 Effect
 
-This addition replaces the placeholders &1 to &4 and & of the short text or &V1& to &V4& of the long text of the message with the formatted content of the operands dobj1, ..., dobj4. Up to four operands dobj1 through dobj4 can be specified. They can have the same data type as a source field of the statement [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) and they are formatted in accordance with the associated [predefined formats](javascript:call_link\('abenwrite_formats.htm'\)) with an output length of 50. If the data type is character-like, dobj1 through dobj4 are [character-like expression positions](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry"). If it is not character-like, they are [functional operand positions](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry").
+This addition replaces the placeholders &1 to &4 and & of the short text or &V1& to &V4& of the long text of the message with the formatted content of the operands dobj1, ..., dobj4. Up to four operands dobj1 through dobj4 can be specified. They can have the same data type as a source field of the statement [WRITE TO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to.htm) and they are formatted in accordance with the associated [predefined formats](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwrite_formats.htm) with an output length of 50. If the data type is character-like, dobj1 through dobj4 are [character-like expression positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry"). If it is not character-like, they are [functional operand positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_position_glosry.htm "Glossary Entry").
 
 The position of an operand determines which placeholder is replaced. The formatted content of the first operand replaces the placeholders &1, the first placeholder & and &V1&, the second replaces &2, the second & and &V2& etc. Furthermore, the formatted content of the operands dobj1, ..., dobj4 is assigned in sequence to the system fields sy-msgv1 to sy-msgv4.
 
@@ -135,7 +110,7 @@ If fewer operands than placeholders are specified, surplus placeholders are not 
 
 If the system fields sy-msgid, sy-msgno, and sy-msgv1 through sy-msgv4 are specified directly after WITH, the values set by the current MESSAGE statement are used. If they are specified as operands of character-like expressions, the preceding values are used.
 
-The addition WITH cannot be used with the output of a text [txt](javascript:call_link\('abapmessage_text.htm'\)) or when an object reference variable is specified in [msg](javascript:call_link\('abapmessage_msg.htm'\)).
+The addition WITH cannot be used with the output of a text [txt](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm) or when an object reference variable is specified in [msg](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm).
 
 Hints
 
@@ -148,12 +123,12 @@ Hints
 
 Example
 
-The short text of the specified message in the table T100 contains the value & & & & and the message text This is not America is displayed as an [information message](javascript:call_link\('abeninformation_message_glosry.htm'\) "Glossary Entry"). If the short text were defined as &4 &1 &3 &2, the output would be America This not is.
+The short text of the specified message in the table T100 contains the value & & & & and the message text This is not America is displayed as an [information message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninformation_message_glosry.htm "Glossary Entry"). If the short text were defined as &4 &1 &3 &2, the output would be America This not is.
 
 MESSAGE ID 'SABAPDEMOS'  TYPE 'I' NUMBER '888'
         WITH 'This' 'is' 'not' 'America'.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 
@@ -168,23 +143,12 @@ Uncatchable Exceptions
     Runtime error: MESSAGE\_ROLLBACK\_IN\_POSTING
 
 Continue
-[MESSAGE, msg](javascript:call_link\('abapmessage_msg.htm'\))
-[MESSAGE, text](javascript:call_link\('abapmessage_text.htm'\))
-[MESSAGE, INTO](javascript:call_link\('abapmessage_into.htm'\))
+[MESSAGE, msg](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm)
+[MESSAGE, text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm)
+[MESSAGE, INTO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_into.htm)
 
-
-
-**📖 Source**: [abapmessage.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm)
 
 ### abapmessage_msg.htm
-
-> **📖 Official SAP Documentation**: [abapmessage_msg.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapmessage_msg.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -192,13 +156,13 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) →  [MESSAGE](javascript:call_link\('abapmessage.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages.htm) →  [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20MESSAGE%2C%20msg%2C%20ABAPMESSAGE_MSG%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 MESSAGE, msg
 
-[Short Reference](javascript:call_link\('abapmessage_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_shortref.htm)
 
 Syntax
 
@@ -216,18 +180,18 @@ Alternatives:
 
 Effect
 
-msg specifies a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") from the database table [T100](javascript:call_link\('abenabap_messages_storing.htm'\)) either by specifying the message key consisting of id and n directly or by using the content of the data objects mid and num for the message class and the message number. Alternatively, an object reference variable oref is specified whose [dynamic type](javascript:call_link\('abendynamic_type_glosry.htm'\) "Glossary Entry") implements the interface [IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)).
+msg specifies a [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_glosry.htm "Glossary Entry") from the database table [T100](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages_storing.htm) either by specifying the message key consisting of id and n directly or by using the content of the data objects mid and num for the message class and the message number. Alternatively, an object reference variable oref is specified whose [dynamic type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_type_glosry.htm "Glossary Entry") implements the interface [IF\_T100\_MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_message.htm).
 
-The [message type](javascript:call_link\('abenmessage_type_glosry.htm'\) "Glossary Entry") that controls the [behavior](javascript:call_link\('abenabap_messages_types.htm'\)) of the message must be specified directly in t or as content of the data object mtype. The following message types are possible: A, E, I, S, W, or X. An invalid type produces a syntax error or runtime error.
+The [message type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_type_glosry.htm "Glossary Entry") that controls the [behavior](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages_types.htm) of the message must be specified directly in t or as content of the data object mtype. The following message types are possible: A, E, I, S, W, or X. An invalid type produces a syntax error or runtime error.
 
-If the specified message is not found for the [logon language](javascript:call_link\('abenlogon_language_glosry.htm'\) "Glossary Entry") of the current user, a search is made in the [secondary language](javascript:call_link\('abensecondary_language_glosry.htm'\) "Glossary Entry") in AS ABAP and then in English. If it is still not found, the specified message type, message class, and message number are used as short text in uppercase letters and separated by a colon :.
+If the specified message is not found for the [logon language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogon_language_glosry.htm "Glossary Entry") of the current user, a search is made in the [secondary language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_language_glosry.htm "Glossary Entry") in AS ABAP and then in English. If it is still not found, the specified message type, message class, and message number are used as short text in uppercase letters and separated by a colon :.
 
 The system fields of the statement MESSAGE are always supplied with the specified values.
 
 Hints
 
--   The maximum length of a message is 269 and is determined from the short text of the message in the database table [T100](javascript:call_link\('abenabap_messages_storing.htm'\)) with a maximum of 73 characters) including up to four single-character placeholders &. These placeholders can be replaced by strings with a maximum of 50 characters using the addition [WITH](javascript:call_link\('abapmessage.htm'\)).
--   The [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry") checks the existence of statically specified messages.
+-   The maximum length of a message is 269 and is determined from the short text of the message in the database table [T100](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages_storing.htm) with a maximum of 73 characters) including up to four single-character placeholders &. These placeholders can be replaced by strings with a maximum of 50 characters using the addition [WITH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm).
+-   The [extended program check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_glosry.htm "Glossary Entry") checks the existence of statically specified messages.
 
 Alternative 1   
 
@@ -239,7 +203,7 @@ t and n are used to specify the single-character message type and the three-digi
 
 Example
 
-Display of the short text of the message with the number 014 from the message class SABAPDOCU as an [information message](javascript:call_link\('abeninformation_message_glosry.htm'\) "Glossary Entry").
+Display of the short text of the message with the number 014 from the message class SABAPDOCU as an [information message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninformation_message_glosry.htm "Glossary Entry").
 
 REPORT rep MESSAGE-ID sabapdemos.
 ...
@@ -292,29 +256,29 @@ Alternative 4  
 
 Effect
 
-For oref, an object reference variable can be specified which, when the statement MESSAGE is executed, points to an object whose class implements the system interface [IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)). This in turn contains the [component interface](javascript:call_link\('abencomponent_interface_glosry.htm'\) "Glossary Entry") IF\_MESSAGE. oref is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry"). If oref is specified, the addition [WITH](javascript:call_link\('abapmessage.htm'\)) and the variant with [INTO](javascript:call_link\('abapmessage_into.htm'\)) are not allowed.
+For oref, an object reference variable can be specified which, when the statement MESSAGE is executed, points to an object whose class implements the system interface [IF\_T100\_MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_message.htm). This in turn contains the [component interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomponent_interface_glosry.htm "Glossary Entry") IF\_MESSAGE. oref is a [functional operand position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_position_glosry.htm "Glossary Entry"). If oref is specified, the addition [WITH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) and the variant with [INTO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_into.htm) are not allowed.
 
-The statement MESSAGE evaluates the components of the structured attribute T100KEY of the interface [IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)) in the referenced object:
+The statement MESSAGE evaluates the components of the structured attribute T100KEY of the interface [IF\_T100\_MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_message.htm) in the referenced object:
 
 -   The message class is taken from the component MSGID and the message number from the component MSGNO. If the message is not found, a short text is generated that lists the message class and message number used plus the placeholder texts.
--   The names of attributes of the object are taken from the components ATTR1 to ATTR4. The placeholders &1 to &4 and & of the short text or &V1& to &V4& of the message long text are replaced with the content of these attributes in accordance with rules of the addition [WITH](javascript:call_link\('abapmessage.htm'\)). If an attribute does not exist or an attribute cannot be converted to a placeholder text, the character & is added to the start and the end of the attribute name and used as a placeholder text. Initial components ATTR1 to ATTR4 produce initial placeholder texts.
+-   The names of attributes of the object are taken from the components ATTR1 to ATTR4. The placeholders &1 to &4 and & of the short text or &V1& to &V4& of the message long text are replaced with the content of these attributes in accordance with rules of the addition [WITH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm). If an attribute does not exist or an attribute cannot be converted to a placeholder text, the character & is added to the start and the end of the attribute name and used as a placeholder text. Initial components ATTR1 to ATTR4 produce initial placeholder texts.
 
 The message type is either specified explicitly or determined implicitly.
 
 -   The type is specified explicitly using TYPE mtype, where mtype expects a character-like data object containing a valid message type in uppercase letters.
--   If oref points to an object that implements the system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)) and this is known statically, the addition TYPE can be omitted and the message type in MSGTY is used.
+-   If oref points to an object that implements the system interface [IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_dyn_msg.htm) and this is known statically, the addition TYPE can be omitted and the message type in MSGTY is used.
 
 Hints
 
--   If field symbols or formal parameters of the generic type any or data are specified for oref, the variant [MESSAGE text](javascript:call_link\('abapmessage_text.htm'\)) is used, which has identical syntax.
--   This variant is mainly intended to be used with [exception objects](javascript:call_link\('abenexception_object_glosry.htm'\) "Glossary Entry"). If a global [exception class](javascript:call_link\('abenexception_class_glosry.htm'\) "Glossary Entry") implements the interface IF\_T100\_MESSAGE, the components of the structure T100KEY are filled in accordance with the definition of the associated exception text when a corresponding exception is raised in the interface method GET\_TEXT, which is itself implemented in the superclass CX\_ROOT. In local exception classes, the components must be filled manually. To do this, the interface method GET\_TEXT should not be redefined and the instance constructor should be used instead.
--   The system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)) includes IF\_T100\_MESSAGE and objects from classes that implement IF\_T100\_DYN\_MSG can be used accordingly. IF\_T100\_MESSAGE is intended to be used on its own for statically predefined [exception texts](javascript:call_link\('abenexception_texts.htm'\)) of exception classes and IF\_T100\_DYN\_MSG enables exception objects to be linked with [messages](javascript:call_link\('abenmessage_exceptions.htm'\)).
--   If the TYPE addition is omitted for an object with the system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)), the addition TYPE oref->if\_t100\_dyn\_msg~msgty is added implicitly.
--   For compatibility reasons, this variant can still be used for classes that only implement the interface IF\_MESSAGE. In this case, the interface methods GET\_TEXT and GET\_LONGTEXT are called automatically in the referenced object and their return value is used as the short text or long text of the message. In this case, the system fields sy-msgid and sy-msgno are not filled specifically. The root class of all [exception classes](javascript:call_link\('abenexception_class_glosry.htm'\) "Glossary Entry") CX\_ROOT implements the interface IF\_MESSAGE. In exception classes that do not implement the interface IF\_T100\_MESSAGE, the interface methods GET\_TEXT and GET\_LONGTEXT get the exception texts of exception objects stored in OTR (Online Text Repository ), which then can be displayed as a message using the variant of the MESSAGE statement.
+-   If field symbols or formal parameters of the generic type any or data are specified for oref, the variant [MESSAGE text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm) is used, which has identical syntax.
+-   This variant is mainly intended to be used with [exception objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_object_glosry.htm "Glossary Entry"). If a global [exception class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_class_glosry.htm "Glossary Entry") implements the interface IF\_T100\_MESSAGE, the components of the structure T100KEY are filled in accordance with the definition of the associated exception text when a corresponding exception is raised in the interface method GET\_TEXT, which is itself implemented in the superclass CX\_ROOT. In local exception classes, the components must be filled manually. To do this, the interface method GET\_TEXT should not be redefined and the instance constructor should be used instead.
+-   The system interface [IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_dyn_msg.htm) includes IF\_T100\_MESSAGE and objects from classes that implement IF\_T100\_DYN\_MSG can be used accordingly. IF\_T100\_MESSAGE is intended to be used on its own for statically predefined [exception texts](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts.htm) of exception classes and IF\_T100\_DYN\_MSG enables exception objects to be linked with [messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_exceptions.htm).
+-   If the TYPE addition is omitted for an object with the system interface [IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_dyn_msg.htm), the addition TYPE oref->if\_t100\_dyn\_msg~msgty is added implicitly.
+-   For compatibility reasons, this variant can still be used for classes that only implement the interface IF\_MESSAGE. In this case, the interface methods GET\_TEXT and GET\_LONGTEXT are called automatically in the referenced object and their return value is used as the short text or long text of the message. In this case, the system fields sy-msgid and sy-msgno are not filled specifically. The root class of all [exception classes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_class_glosry.htm "Glossary Entry") CX\_ROOT implements the interface IF\_MESSAGE. In exception classes that do not implement the interface IF\_T100\_MESSAGE, the interface methods GET\_TEXT and GET\_LONGTEXT get the exception texts of exception objects stored in OTR (Online Text Repository ), which then can be displayed as a message using the variant of the MESSAGE statement.
 
 Example
 
-Sending of a messages using an object of the class cls created using the instance operator [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) that implements the system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)). The message is specified completely by interface attributes of the object.
+Sending of a messages using an object of the class cls created using the instance operator [NEW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_new.htm) that implements the system interface [IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_dyn_msg.htm). The message is specified completely by interface attributes of the object.
 
 CLASS cls DEFINITION.
   PUBLIC SECTION.
@@ -347,23 +311,12 @@ START-OF-SELECTION.
 
 Executable Examples
 
--   [System Interface IF\_T100\_MESSAGE in a Regular Class](javascript:call_link\('abenif_t100_message_abexa.htm'\))
--   [System Interface IF\_T100\_MESSAGE in a Local Exception Class](javascript:call_link\('abenmessage_interface_abexa.htm'\))
--   [System Interface IF\_T100\_MESSAGE in a Global Exception Class](javascript:call_link\('abenmessage_interface_global_abexa.htm'\))
+-   [System Interface IF\_T100\_MESSAGE in a Regular Class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_message_abexa.htm)
+-   [System Interface IF\_T100\_MESSAGE in a Local Exception Class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_interface_abexa.htm)
+-   [System Interface IF\_T100\_MESSAGE in a Global Exception Class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_interface_global_abexa.htm)
 
-
-
-**📖 Source**: [abapmessage_msg.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm)
 
 ### abapmessage_text.htm
-
-> **📖 Official SAP Documentation**: [abapmessage_text.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapmessage_text.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -371,13 +324,13 @@ Executable Examples
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) →  [MESSAGE](javascript:call_link\('abapmessage.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages.htm) →  [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20MESSAGE%2C%20text%2C%20ABAPMESSAGE_TEXT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 MESSAGE, text
 
-[Short Reference](javascript:call_link\('abapmessage_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_shortref.htm)
 
 Syntax
 
@@ -385,20 +338,20 @@ Syntax
 
 Effect
 
-This variant sends a character string in text as a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") of the [message type](javascript:call_link\('abenabap_messages_types.htm'\)) specified in mtype. text is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry") whose value is used as the short text of the message. Only the first 300 characters are used. No long text can be defined for a message of this type.
+This variant sends a character string in text as a [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_glosry.htm "Glossary Entry") of the [message type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages_types.htm) specified in mtype. text is a [character-like expression position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry") whose value is used as the short text of the message. Only the first 300 characters are used. No long text can be defined for a message of this type.
 
 mtype expects a character-like data object containing the message type in uppercase letters. Invalid message types raise an uncatchable exception.
 
-In this variant, the addition [WITH](javascript:call_link\('abapmessage.htm'\)) and the variant with [INTO](javascript:call_link\('abapmessage_into.htm'\)) are not allowed.
+In this variant, the addition [WITH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) and the variant with [INTO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_into.htm) are not allowed.
 
 Hints
 
--   If field symbols or formal parameters of the type any or data are specified for text, these must be character-like when the statement is executed. The variant [MESSAGE oref](javascript:call_link\('abapmessage_msg.htm'\)), which has identical syntax, cannot be executed using generically typed field symbols or formal parameters.
--   The system fields sy-msgid and sy-msgno are filled in a non-specific way when a character string is specified, which means that this variant should only be used on rare occasions if the content of the system fields is not required for identifying the message. Otherwise, in all cases in which messages are passed using these system fields, for example, from [function modules](javascript:call_link\('abapcall_function_parameter.htm'\)), or logged, language-independent access to the message text would be lost.
+-   If field symbols or formal parameters of the type any or data are specified for text, these must be character-like when the statement is executed. The variant [MESSAGE oref](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm), which has identical syntax, cannot be executed using generically typed field symbols or formal parameters.
+-   The system fields sy-msgid and sy-msgno are filled in a non-specific way when a character string is specified, which means that this variant should only be used on rare occasions if the content of the system fields is not required for identifying the message. Otherwise, in all cases in which messages are passed using these system fields, for example, from [function modules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_parameter.htm), or logged, language-independent access to the message text would be lost.
 
 Example
 
-Output of an exception text as an [information message](javascript:call_link\('abeninformation_message_glosry.htm'\) "Glossary Entry").
+Output of an exception text as an [information message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninformation_message_glosry.htm "Glossary Entry").
 
 DATA oref TYPE REF TO cx\_sy\_arithmetic\_error.
 TRY.
@@ -408,21 +361,7 @@ TRY.
 ENDTRY.
 
 
-
-**📖 Source**: [abapmessage_text.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm)
-
 ### abapmessage_into.htm
-
-> **📖 Official SAP Documentation**: [abapmessage_into.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_into.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapmessage_into.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_into.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapmessage_into.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_into.htm)
-
 
   
 
@@ -430,31 +369,31 @@ ENDTRY.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) →  [MESSAGE](javascript:call_link\('abapmessage.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages.htm) →  [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20MESSAGE%2C%20INTO%2C%20ABAPMESSAGE_INTO%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 MESSAGE, INTO
 
-[Short Reference](javascript:call_link\('abapmessage_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_shortref.htm)
 
 Syntax
 
-MESSAGE [msg](javascript:call_link\('abapmessage_msg.htm'\)) [*\[*WITH dobj1 ... dobj4*\]*](javascript:call_link\('abapmessage.htm'\))
+MESSAGE [msg](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm) [*\[*WITH dobj1 ... dobj4*\]*](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm)
         INTO text.
 
 Effect
 
-The statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)) with the addition INTO assigns the short text of the message to the target field text. The [message type](javascript:call_link\('abenmessage_type_glosry.htm'\) "Glossary Entry") is irrelevant. The program flow is not interrupted and no [message processing](javascript:call_link\('abenabap_messages_types.htm'\)) takes place. The following can be specified for text:
+The statement [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) with the addition INTO assigns the short text of the message to the target field text. The [message type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_type_glosry.htm "Glossary Entry") is irrelevant. The program flow is not interrupted and no [message processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages_types.htm) takes place. The following can be specified for text:
 
 -   An existing character-like variable.
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)), where a variable of type string is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_inline.htm) or [FINAL(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfinal_inline.htm), where a variable of type string is declared.
 
-The addition INTO cannot be specified when a text [text](javascript:call_link\('abapmessage_text.htm'\)) is specified or when an object reference variable is specified in [msg](javascript:call_link\('abapmessage_text.htm'\)).
+The addition INTO cannot be specified when a text [text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm) is specified or when an object reference variable is specified in [msg](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm).
 
 Example
 
-The short text of a message sent in a function module is assigned to the data object mtext declared inline when handling the exception [error\_message](javascript:call_link\('abapcall_function_parameter.htm'\)) using the corresponding system fields.
+The short text of a message sent in a function module is assigned to the data object mtext declared inline when handling the exception [error\_message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_parameter.htm) using the corresponding system fields.
 
 CALL FUNCTION 'DEMO\_FUNCTION\_ERROR\_MESSAGE'
   EXCEPTIONS

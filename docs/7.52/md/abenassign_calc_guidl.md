@@ -4,13 +4,13 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Alternative Spellings](javascript:call_link\('abenalternative_spelling_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructure_style_guidl.htm) →  [Alternative Spellings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenalternative_spelling_guidl.htm) → 
 
 Assignments
 
 Background
 
-For explicit assignments in which the value of a source is assigned to a target, ABAP contains the general assignment operator [\=](javascript:call_link\('abenequals_operator.htm'\)) and the special casting operator [?=](javascript:call_link\('abapmove_cast.htm'\)). Statements with these operators
+For explicit assignments in which the value of a source is assigned to a target, ABAP contains the general assignment operator [\=](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_operator.htm) and the special casting operator [?=](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_cast.htm). Statements with these operators
 
 lhs =*|*?= rhs.
 
@@ -22,21 +22,21 @@ enable assignments of
 
 -   results of calculation expressions (arithmetic expressions, bit expressions, and string expressions)
 
-to variables that can also be declared inline and to [writable expressions](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry").
+to variables that can also be declared inline and to [writable expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwritable_expression_glosry.htm "Glossary Entry").
 
 Alongside the assignment operators, two obsolete statements exist for historical reasons that can also perform assignments:
 
 -   The statement
 
-[MOVE source TO*|*?TO destination.](javascript:call_link\('abapmove_obs.htm'\))
+[MOVE source TO*|*?TO destination.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_obs.htm)
 
-assigns a source source to a target destination. It covers some of the operators performed by the assignment operators [\=](javascript:call_link\('abenequals_operator.htm'\)) and [?=](javascript:call_link\('abapmove_cast.htm'\)).
+assigns a source source to a target destination. It covers some of the operators performed by the assignment operators [\=](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_operator.htm) and [?=](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_cast.htm).
 
 -   The statement
 
-[COMPUTE lhs =*|*?= rhs.](javascript:call_link\('abapcompute.htm'\))
+[COMPUTE lhs =*|*?= rhs.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute.htm)
 
-has the same semantics as lhs =*|*?= rhs. The keyword COMPUTE can be written in front of each assignment with the assignment operators [\=](javascript:call_link\('abenequals_operator.htm'\)) and [?=](javascript:call_link\('abapmove_cast.htm'\)) where the left side is not an inline declaration, but is ignored.
+has the same semantics as lhs =*|*?= rhs. The keyword COMPUTE can be written in front of each assignment with the assignment operators [\=](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_operator.htm) and [?=](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_cast.htm) where the left side is not an inline declaration, but is ignored.
 
 Rule
 
@@ -46,7 +46,7 @@ Use the assignment operators instead of the statement MOVE. Do not use the keywo
 
 Details
 
-Assignments with the assignment operators [\=](javascript:call_link\('abenequals_operator.htm'\)) and [?=](javascript:call_link\('abapmove_cast.htm'\)) implement the most global concept. The right side is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") and the left side is a [declaration position](javascript:call_link\('abendeclaration_position_glosry.htm'\) "Glossary Entry") (except in down casts).
+Assignments with the assignment operators [\=](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_operator.htm) and [?=](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_cast.htm) implement the most global concept. The right side is a [general expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and the left side is a [declaration position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_position_glosry.htm "Glossary Entry") (except in down casts).
 
 The statements MOVE and COMPUTE have the following drawbacks:
 
@@ -58,7 +58,7 @@ The statements MOVE and COMPUTE were created at a time when assignments were onl
 
 Note
 
-The optional addition EXACT of the statements [MOVE](javascript:call_link\('abapmove_obs.htm'\)) and [COMPUTE](javascript:call_link\('abapcompute.htm'\)), which produces lossless assignments and lossless calculations, has been replaced in full by the lossless operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)).
+The optional addition EXACT of the statements [MOVE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_obs.htm) and [COMPUTE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute.htm), which produces lossless assignments and lossless calculations, has been replaced in full by the lossless operator [EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm).
 
 Bad Example
 

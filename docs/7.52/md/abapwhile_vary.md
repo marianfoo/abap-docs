@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Program Flow](javascript:call_link\('abenobsolete_program_flow.htm'\)) →  [Obsolete Control Structures](javascript:call_link\('abenobsolete_control_structures.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Program Flow](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_program_flow.htm) →  [Obsolete Control Structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_control_structures.htm) → 
 
 WHILE - VARY
 
-[Quick Reference](javascript:call_link\('abapwhile_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwhile_shortref.htm)
 
 Obsolete Syntax
 
@@ -19,13 +19,13 @@ ENDWHILE.
 
 Effect
 
-The addition VARY and its addition RANGE have exactly the same effect on a [WHILE](javascript:call_link\('abapwhile.htm'\)) loop as the other obsolete additions [VARYING](javascript:call_link\('abapdo_varying.htm'\)) and [RANGE](javascript:call_link\('abapdo_varying.htm'\)) of the statement [DO](javascript:call_link\('abapdo.htm'\)). The addition VARY can be used more than once in a WHILE statement.
+The addition VARY and its addition RANGE have exactly the same effect on a [WHILE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwhile.htm) loop as the other obsolete additions [VARYING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdo_varying.htm) and [RANGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdo_varying.htm) of the statement [DO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdo.htm). The addition VARY can be used more than once in a WHILE statement.
 
 Note
 
-Instead of the addition VARY, the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)) should be used in the loop with the addition [INCREMENT](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)).
+Instead of the addition VARY, the statement [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm) should be used in the loop with the addition [INCREMENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area_dynamic_dobj.htm).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

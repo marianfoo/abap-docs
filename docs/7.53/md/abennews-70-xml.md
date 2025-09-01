@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 7.0 and its EhPs](javascript:call_link\('abennews-70_ehps.htm'\)) →  [Changes in Release 7.0](javascript:call_link\('abennews-70.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews.htm) →  [Changes in Release 7.0 and its EhPs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-70_ehps.htm) →  [Changes in Release 7.0](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-70.htm) → 
 
 XML Binding in Release 7.0
 
@@ -16,7 +16,7 @@ Modification 1
 
 Enhancements to ST
 
-The following changes have been made to the syntax for [Simple Transformations](javascript:call_link\('abensimple_transformation_glosry.htm'\) "Glossary Entry"):
+The following changes have been made to the syntax for [Simple Transformations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensimple_transformation_glosry.htm "Glossary Entry"):
 
 -   New statements tt:type, tt:node, and tt:front for the definition of types in the ST program.
     
@@ -29,13 +29,13 @@ The following changes have been made to the syntax for [Simple Transformations](
 -   Generalization of the term "pattern" for conditional transformations.
     
 
-See the [ST Command Overview](javascript:call_link\('abenst_statements.htm'\)).
+See the [ST Command Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_statements.htm).
 
 Modification 2
 
 Changes to CALL TRANSFORMATION
 
-In the statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)), the dynamic specification of parameters after the addition PARAMETERS has been enhanced by the option of entering the following table types:
+In the statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transformation.htm), the dynamic specification of parameters after the addition PARAMETERS has been enhanced by the option of entering the following table types:
 
 -   ABAP\_TRANS\_OBJ\_BIND\_TAB for the specification of data references
     

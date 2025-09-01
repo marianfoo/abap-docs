@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Formatting the Source Code](javascript:call_link\('abenformatting_code_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstructure_style_gdl.htm) →  [Formatting the Source Code](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenformatting_code_gdl.htm) → 
 
 Statements per Program Line
 
@@ -24,11 +24,11 @@ Using multiple statements in one line makes the source code harder to read. If a
 
 Besides reduced readability, using multiple statements in one line can also make the code more difficult to debug. Even in single steps, ABAP Debugger stops a maximum of once per executable program line. This makes it impractical for the debugging process if there is more than one statement in a line.
 
-If a statement spans [multiple lines](javascript:call_link\('abenline_width_guidl.htm'\) "Guideline") (which occurs frequently due to the potential length of complex ABAP statements), there should be no empty lines between the parts of the statement. The breaks in the statement should occur at semantically suitable places so that groups with a similar semantic meaning are next to each other, if possible. Indentations should be used to ensure that the statement is as well structured and readable as possible.
+If a statement spans [multiple lines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenline_width_guidl.htm "Guideline") (which occurs frequently due to the potential length of complex ABAP statements), there should be no empty lines between the parts of the statement. The breaks in the statement should occur at semantically suitable places so that groups with a similar semantic meaning are next to each other, if possible. Indentations should be used to ensure that the statement is as well structured and readable as possible.
 
 Bad Example
 
-The following source code shows a program section with correct syntax but that is poorly laid out and difficult to understand. Even the [Pretty Printer](javascript:call_link\('abenuse_pretty_printer_guidl.htm'\) "Guideline") can barely improve the layout of the pattern shown here.
+The following source code shows a program section with correct syntax but that is poorly laid out and difficult to understand. Even the [Pretty Printer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_pretty_printer_guidl.htm "Guideline") can barely improve the layout of the pattern shown here.
 
 CLASS class DEFINITION.
   PUBLIC SECTION. METHODS meth. ENDCLASS.

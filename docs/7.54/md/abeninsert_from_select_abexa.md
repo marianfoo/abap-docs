@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Write Accesses](javascript:call_link\('abenopen_sql_writing.htm'\)) →  [INSERT dbtab](javascript:call_link\('abapinsert_dbtab.htm'\)) →  [INSERT dbtab - source](javascript:call_link\('abapinsert_source.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Write Accesses](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_writing.htm) →  [INSERT dbtab](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_dbtab.htm) →  [INSERT dbtab - source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_source.htm) → 
 
 INSERT, FROM SELECT
 
-This example demonstrates the statement [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)) with the addition [FROM SELECT](javascript:call_link\('abapinsert_source.htm'\)).
+This example demonstrates the statement [INSERT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_dbtab.htm) with the addition [FROM SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_source.htm).
 
 Source Code
 
@@ -64,4 +64,4 @@ The database table DEMO\_SUMDIST\_AGG is filled with aggregated data from the ta
 
 -   The same SELECT statement is then used directly as a subquery in the INSERT statement. Only a single database read and no transport of data between the database server and the AS ABAP is then required.
 
-The result of both INSERT statements is the same. DEMO\_SUMDIST\_AGG is a [global temporary table (GTT)](javascript:call_link\('abenglobal_temporary_table_glosry.htm'\) "Glossary Entry"), which means that its content must be deleted before the results are produced (since this creates an implicit database commit).
+The result of both INSERT statements is the same. DEMO\_SUMDIST\_AGG is a [global temporary table (GTT)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry"), which means that its content must be deleted before the results are produced (since this creates an implicit database commit).

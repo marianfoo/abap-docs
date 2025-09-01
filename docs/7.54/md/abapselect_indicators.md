@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT - INTO, APPENDING](javascript:call_link\('abapinto_clause.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Reads](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_reading.htm) →  [SELECT clauses](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_clauses.htm) →  [SELECT - INTO, APPENDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm) → 
 
 SELECT - indicators
 
-[Quick Reference](javascript:call_link\('abapselect_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_shortref.htm)
 
 Syntax
 
@@ -22,7 +22,7 @@ Alternatives:
 
 Effect
 
-The addition INDICATORS of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to specify indicators. Currently, you can specify a [null indicator](javascript:call_link\('abennull_indicator_glosry.htm'\) "Glossary Entry") by storing information about which columns of the results set contain the null value and which do not. The addition is specified only for importing to structured work areas wa or internal tables itab with a structured row type. It is possible to use it when existing target areas are specified, in combination with the addition [NEW](javascript:call_link\('abapselect_into_target.htm'\)), and in [inline declarations](javascript:call_link\('abapselect_into_target.htm'\)). There is a static variant and a dynamic variant.
+The addition INDICATORS of the [INTO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm) clause can be used to specify indicators. Currently, you can specify a [null indicator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_indicator_glosry.htm "Glossary Entry") by storing information about which columns of the results set contain the null value and which do not. The addition is specified only for importing to structured work areas wa or internal tables itab with a structured row type. It is possible to use it when existing target areas are specified, in combination with the addition [NEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_into_target.htm), and in [inline declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_into_target.htm). There is a static variant and a dynamic variant.
 
 Alternative 1
 
@@ -30,11 +30,11 @@ Alternative 1
 
 Effect
 
-Specifies the [substructure](javascript:call_link\('abensubstructure_glosry.htm'\) "Glossary Entry") null\_ind of a structured target area specified in the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause as a [null indicator](javascript:call_link\('abennull_indicator_glosry.htm'\) "Glossary Entry").
+Specifies the [substructure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubstructure_glosry.htm "Glossary Entry") null\_ind of a structured target area specified in the [INTO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm) clause as a [null indicator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_indicator_glosry.htm "Glossary Entry").
 
--   After a specified existing work area wa or existing internal table itab, this must contain a substructure with the name null\_ind as a component. The substructure must contain at least as many components as the number of columns in the results set defined using the [SELECT list](javascript:call_link\('abapselect_list.htm'\)). These may also be components of other substructures. Each component must be of type x or c with length 1. The position and name of the substructure must be defined in such a way that it is not affected by the assignment of data from the results set for the query.
+-   After a specified existing work area wa or existing internal table itab, this must contain a substructure with the name null\_ind as a component. The substructure must contain at least as many components as the number of columns in the results set defined using the [SELECT list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_list.htm). These may also be components of other substructures. Each component must be of type x or c with length 1. The position and name of the substructure must be defined in such a way that it is not affected by the assignment of data from the results set for the query.
     
--   The addition INDICATORS after an [inline declaration](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry") with @DATA(wa) or @DATA(itab) adds a substructure with the name null\_ind to the end of the structure or row structure declared inline. For each column in the results set, this substructure contains a component of type x and length 1 with the same name as the column and in the same sequence. If preceding components of the structure declared inline are substructures, the substructure null\_ind is also structured accordingly. The name null\_ind must not be used as the name of a column in the results set.
+-   The addition INDICATORS after an [inline declaration](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninline_declaration_glosry.htm "Glossary Entry") with @DATA(wa) or @DATA(itab) adds a substructure with the name null\_ind to the end of the structure or row structure declared inline. For each column in the results set, this substructure contains a component of type x and length 1 with the same name as the column and in the same sequence. If preceding components of the structure declared inline are substructures, the substructure null\_ind is also structured accordingly. The name null\_ind must not be used as the name of a column in the results set.
     
 
 If the addition CORRESPONDING FIELDS is not specified, the names of the components of the null indicator are not important. From left to right, they are assigned an ID that indicates whether or not the column with the same name in the current row of the results set contains the null value. Nested structures are broken down into their elementary components. If the addition CORRESPONDING FIELDS is specified, a component with the same name must exist in the null indicator for each component of wa or itab supplied with data. The relevant ID is assigned to these components. For components of any substructures, the full composite name created using the structure component selector is considered. The IDs are as follows:
@@ -89,15 +89,15 @@ Alternative 2
 
 Effect
 
-Instead of specifying information statically, a data object indicator\_syntax can be specified in parentheses after INDICATORS. When the statement is executed, the data object must contain the syntax displayed for the statically specified information. The data object indicator\_syntax can be a character-like data object or a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with a character-like row type. The syntax in indicator\_syntax is not case-sensitive. When an internal table is specified, the syntax can be distributed across multiple rows. Invalid syntax raises a handleable exception from the class CX\_SY\_DYNAMIC\_OSQL\_ERROR. If the content of indicator\_syntax is initial, the addition INDICATORS is ignored.
+Instead of specifying information statically, a data object indicator\_syntax can be specified in parentheses after INDICATORS. When the statement is executed, the data object must contain the syntax displayed for the statically specified information. The data object indicator\_syntax can be a character-like data object or a [standard table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_table_glosry.htm "Glossary Entry") with a character-like row type. The syntax in indicator\_syntax is not case-sensitive. When an internal table is specified, the syntax can be distributed across multiple rows. Invalid syntax raises a handleable exception from the class CX\_SY\_DYNAMIC\_OSQL\_ERROR. If the content of indicator\_syntax is initial, the addition INDICATORS is ignored.
 
 Security Note
 
-If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the predefined function [escape](javascript:call_link\('abenescape_functions.htm'\)). See [SQL Injections Using Dynamic Tokens](javascript:call_link\('abensql_inj_dyn_tokens_scrty.htm'\)).
+If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the predefined function [escape](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenescape_functions.htm). See [SQL Injections Using Dynamic Tokens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_dyn_tokens_scrty.htm).
 
 Example
 
-Like the example for specifying information statically, but the null indicator is specified dynamically in this case. For this reason, inline declarations cannot be used without the addition [NEW](javascript:call_link\('abapselect_into_target.htm'\)) and a suitable structure must be defined. Because NOT is specified, the character-like components x and y of the null indicator are filled with "X".
+Like the example for specifying information statically, but the null indicator is specified dynamically in this case. For this reason, inline declarations cannot be used without the addition [NEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_into_target.htm) and a suitable structure must be defined. Because NOT is specified, the character-like components x and y of the null indicator are filled with "X".
 
 DELETE FROM demo\_expressions.
 INSERT demo\_expressions FROM @( VALUE #( id = 'X' num1 = 1 ) ).
@@ -128,7 +128,7 @@ cl\_demo\_output=>new(
 
 Example
 
-Like the preceding example but with the addition [NEW](javascript:call_link\('abapselect_into_target.htm'\)). An inline declaration can be used here.
+Like the preceding example but with the addition [NEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_into_target.htm). An inline declaration can be used here.
 
 DELETE FROM demo\_expressions.
 INSERT demo\_expressions FROM @( VALUE #( id = 'X' num1 = 1 ) ).

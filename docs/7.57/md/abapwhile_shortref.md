@@ -4,18 +4,18 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  W
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_shortref.htm) →  W
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: WHILE, ABAPWHILE_SHORTREF, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion fo
 r improvement:)
 
 WHILE - Short Reference
 
-[Reference](javascript:call_link\('abapwhile.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwhile.htm)
 
 Syntax
 
-WHILE [log\_exp](javascript:call_link\('abenlog_exp_shortref.htm'\))
+WHILE [log\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlog_exp_shortref.htm)
       *\[*VARY dobj FROM dobj1 NEXT dobj2 *\[*RANGE range*\]*
       *\[*VARY ...*\]**\]*.
   *\[*statement\_block*\]*

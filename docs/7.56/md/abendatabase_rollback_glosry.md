@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 database rollback
 
-End of a [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry") in which all modifying database operations are undone until the beginning of the LUW. In an [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry"), database rollbacks are triggered implicitly, as well as by explicit requests.
+End of a [database LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_luw_glosry.htm "Glossary Entry") in which all modifying database operations are undone until the beginning of the LUW. In an [AS ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm "Glossary Entry"), database rollbacks are triggered implicitly, as well as by explicit requests.
 
-[→ More about](javascript:call_link\('abendb_rollback.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_rollback.htm)

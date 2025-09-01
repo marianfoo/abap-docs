@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_st.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ST - Serialization and Deserialization, ABENST_SERIAL_DESERIAL, 757%0D%0A%0D%0AError:
 %0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -18,28 +18,28 @@ Serialization and deserialization are primarily based on following schema:
 
 Serializations and deserializations can be divided into the following topics:
 
--   [Literal Template Content](javascript:call_link\('abenst_literals.htm'\))
--   [Non-Literal Attributes](javascript:call_link\('abenst_tt_attribute.htm'\))
--   [Namespaces](javascript:call_link\('abenst_tt_namespace.htm'\))
--   [Transformation of ABAP Values](javascript:call_link\('abenst_abap_values.htm'\))
--   [Value Assignments](javascript:call_link\('abenst_assignments.htm'\))
--   [Reading and Writing Variables](javascript:call_link\('abenst_variable_transformations.htm'\))
--   [Flow Control](javascript:call_link\('abenst_tt_cond.htm'\))
+-   [Literal Template Content](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_literals.htm)
+-   [Non-Literal Attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_attribute.htm)
+-   [Namespaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_namespace.htm)
+-   [Transformation of ABAP Values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_abap_values.htm)
+-   [Value Assignments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_assignments.htm)
+-   [Reading and Writing Variables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_variable_transformations.htm)
+-   [Flow Control](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_cond.htm)
 
-When a Simple Transformation is defined, it must be noted whether the serializations and deserializations are [symmetric](javascript:call_link\('abenst_symmetry.htm'\)).
+When a Simple Transformation is defined, it must be noted whether the serializations and deserializations are [symmetric](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_symmetry.htm).
 
 Hints
 
--   In serializations and deserializations, the XML data is processed in the form of writer streams and reader streams. When ABAP methods are called from Simple Transformations, [processing these XML streams](javascript:call_link\('abenst_tt_call-method_writerreader.htm'\)) is possible.
--   Serializations and deserializations are subject to the general restriction that the content of a [data root](javascript:call_link\('abenst_tt_root.htm'\)) cannot be modified by serialization and only writes are possible to a data root in deserializations.
+-   In serializations and deserializations, the XML data is processed in the form of writer streams and reader streams. When ABAP methods are called from Simple Transformations, [processing these XML streams](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_call-method_writerreader.htm) is possible.
+-   Serializations and deserializations are subject to the general restriction that the content of a [data root](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_root.htm) cannot be modified by serialization and only writes are possible to a data root in deserializations.
 
 Continue
-[ST - Literal Template Content](javascript:call_link\('abenst_literals.htm'\))
-[ST - tt:attribute, Non-Literal Attributes](javascript:call_link\('abenst_tt_attribute.htm'\))
-[ST - tt:namespace, Namespaces](javascript:call_link\('abenst_tt_namespace.htm'\))
-[ST - Transformation of ABAP Values](javascript:call_link\('abenst_abap_values.htm'\))
-[ST - Value Assignments](javascript:call_link\('abenst_assignments.htm'\))
-[ST - Reading and Writing Variables](javascript:call_link\('abenst_variable_transformations.htm'\))
-[ST - Flow Control](javascript:call_link\('abenst_flow_control.htm'\))
-[ST - Symmetry of Serialization and Deserialization](javascript:call_link\('abenst_symmetry.htm'\))
-[ST - Representation of ABAP Values](javascript:call_link\('abenst_abap_representation.htm'\))
+[ST - Literal Template Content](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_literals.htm)
+[ST - tt:attribute, Non-Literal Attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_attribute.htm)
+[ST - tt:namespace, Namespaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_namespace.htm)
+[ST - Transformation of ABAP Values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_abap_values.htm)
+[ST - Value Assignments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_assignments.htm)
+[ST - Reading and Writing Variables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_variable_transformations.htm)
+[ST - Flow Control](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_flow_control.htm)
+[ST - Symmetry of Serialization and Deserialization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_symmetry.htm)
+[ST - Representation of ABAP Values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_abap_representation.htm)

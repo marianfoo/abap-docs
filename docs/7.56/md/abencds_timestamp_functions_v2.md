@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](javascript:call_link\('abencds_operands_and_expr_v2.htm'\)) →  [CDS DDL - CDS View Entity, Expressions](javascript:call_link\('abencds_expressions_v2.htm'\)) →  [CDS DDL - CDS View Entity, Built-In Functions](javascript:call_link\('abencds_builtin_functions_v2.htm'\)) →  [CDS DDL - CDS View Entity, Special Functions](javascript:call_link\('abencds_special_functions_v2.htm'\)) →  [CDS DDL - CDS View Entity, Date Functions and Time Functions](javascript:call_link\('abencds_date_time_functions_v2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_statement_v2.htm) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_operands_and_expr_v2.htm) →  [CDS DDL - CDS View Entity, Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_expressions_v2.htm) →  [CDS DDL - CDS View Entity, Built-In Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_builtin_functions_v2.htm) →  [CDS DDL - CDS View Entity, Special Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_special_functions_v2.htm) →  [CDS DDL - CDS View Entity, Date Functions and Time Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_date_time_functions_v2.htm) → 
 
 CDS DDL - CDS View Entity, Time Stamp Functions
 
@@ -30,14 +30,14 @@ Variants:
 
 Effect
 
-In a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"), these functions perform operations on time stamps.
+In a [CDS view entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_view_glosry.htm "Glossary Entry"), these functions perform operations on time stamps.
 
-With the exception of UTCL\_CURRENT and TSTMP\_CURRENT\_UTCTIMESTAMP, these functions have [positional parameters](javascript:call_link\('abenpositional_parameter_glosry.htm'\) "Glossary Entry") to which actual parameters must be assigned when called. There are currently no optional parameters. Suitable fields of a [data source](javascript:call_link\('abencds_data_source_v2.htm'\)), [literals](javascript:call_link\('abencds_literal_v2.htm'\)), [parameters](javascript:call_link\('abencds_parameter_v2.htm'\)), [path expressions](javascript:call_link\('abencds_path_expression_v2.htm'\)), [built-in functions](javascript:call_link\('abencds_builtin_functions_v2.htm'\)), [expressions](javascript:call_link\('abencds_expressions_v2.htm'\)), or [reuse expressions](javascript:call_link\('abencds_reusable_expression_v2.htm'\)) using $projection can all be specified as actual parameters. Only literals can be passed to the parameter on\_error. If an actual parameter contains the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), every function except TSTMP\_IS\_VALID returns a null value.
+With the exception of UTCL\_CURRENT and TSTMP\_CURRENT\_UTCTIMESTAMP, these functions have [positional parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpositional_parameter_glosry.htm "Glossary Entry") to which actual parameters must be assigned when called. There are currently no optional parameters. Suitable fields of a [data source](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_data_source_v2.htm), [literals](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_literal_v2.htm), [parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_parameter_v2.htm), [path expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_path_expression_v2.htm), [built-in functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_builtin_functions_v2.htm), [expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_expressions_v2.htm), or [reuse expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_reusable_expression_v2.htm) using $projection can all be specified as actual parameters. Only literals can be passed to the parameter on\_error. If an actual parameter contains the [null value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennull_value_glosry.htm "Glossary Entry"), every function except TSTMP\_IS\_VALID returns a null value.
 
 Hints
 
--   While the time stamp functions starting with UTCL process data that is stored as real time stamp on the database, the functions starting with TSTMP process time stamps on the database that are stored [as a packed number](javascript:call_link\('abentime_stamps_packed.htm'\)) in the ABAP-specific format in DDIC database tables. These TSTMP time stamps are interpreted as regular numeric values in ABAP and in other types of access.
--   [Conversion functions](javascript:call_link\('abencds_date_time_conversions_v2.htm'\)) make it possible to transform a time stamp to date fields and time fields and to transform date fields and time fields to a time stamp.
+-   While the time stamp functions starting with UTCL process data that is stored as real time stamp on the database, the functions starting with TSTMP process time stamps on the database that are stored [as a packed number](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentime_stamps_packed.htm) in the ABAP-specific format in DDIC database tables. These TSTMP time stamps are interpreted as regular numeric values in ABAP and in other types of access.
+-   [Conversion functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_date_time_conversions_v2.htm) make it possible to transform a time stamp to date fields and time fields and to transform date fields and time fields to a time stamp.
 
 Variant 1   
 
@@ -45,7 +45,7 @@ Variant 1  
 
 Effect
 
-This function generates a [UTC time stamp](javascript:call_link\('abenutc_timestamp_glosry.htm'\) "Glossary Entry") from the [system time](javascript:call_link\('abensystem_time_glosry.htm'\) "Glossary Entry") and the [system date](javascript:call_link\('abensystem_date_glosry.htm'\) "Glossary Entry") of AS ABAP in accordance with [POSIX](javascript:call_link\('abenposix_timestamp_glosry.htm'\) "Glossary Entry"). The return value has the built-in dictionary type [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)).
+This function generates a [UTC time stamp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenutc_timestamp_glosry.htm "Glossary Entry") from the [system time](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_time_glosry.htm "Glossary Entry") and the [system date](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_date_glosry.htm "Glossary Entry") of AS ABAP in accordance with [POSIX](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenposix_timestamp_glosry.htm "Glossary Entry"). The return value has the built-in dictionary type [UTCLONG](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm).
 
 Variant 2   
 
@@ -53,14 +53,14 @@ Variant 2  
 
 Effect
 
-The function UTCL\_ADD\_SECONDS adds seconds seconds to a time stamp utclong. It has two [positional parameters](javascript:call_link\('abenpositional_parameter_glosry.htm'\) "Glossary Entry"). The actual parameter for the formal parameter utclong must have the built-in dictionary type [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)) and contain a valid [UTC time stamp](javascript:call_link\('abenutc_timestamp_glosry.htm'\) "Glossary Entry"). An invalid time stamp produces an error. The actual parameter for the formal parameter seconds must have either the built-in data type [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)) or the data type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 21 and 7 decimal places. Any negative values are subtracted. If the result is invalid, an error occurs.
+The function UTCL\_ADD\_SECONDS adds seconds seconds to a time stamp utclong. It has two [positional parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpositional_parameter_glosry.htm "Glossary Entry"). The actual parameter for the formal parameter utclong must have the built-in dictionary type [UTCLONG](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) and contain a valid [UTC time stamp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenutc_timestamp_glosry.htm "Glossary Entry"). An invalid time stamp produces an error. The actual parameter for the formal parameter seconds must have either the built-in data type [INT4](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) or the data type [DEC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) with length 21 and 7 decimal places. Any negative values are subtracted. If the result is invalid, an error occurs.
 
-The result is of type [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The result is of type [UTCLONG](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm).
 
 Hints
 
 -   If the positional parameter utclong is empty, it is set to its initial value.
--   The days missing from the Gregorian calendar (from 5.10.1582 to 15.10.1582) are [handled as usually](javascript:call_link\('abenconversion_type_d.htm'\)) in ABAP.
+-   The days missing from the Gregorian calendar (from 5.10.1582 to 15.10.1582) are [handled as usually](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_type_d.htm) in ABAP.
 
 Variant 3   
 
@@ -68,14 +68,14 @@ Variant 3  
 
 Effect
 
-The function UTCL\_SECONDS\_BETWEEN calculates the difference between two specified time stamps, utcl1 and utcl2, in seconds. It has two [positional parameters](javascript:call_link\('abenpositional_parameter_glosry.htm'\) "Glossary Entry"). The actual parameters for the formal parameters utcl1 and utcl2 must have the built-in dictionary type [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)) and contain a valid [UTC time stamp](javascript:call_link\('abenutc_timestamp_glosry.htm'\) "Glossary Entry"). Any invalid time stamps produce an error. If utcl2 is greater than utcl1 , the result is positive. If the values are identical, the result is 0. In all other cases, the result is negative.
+The function UTCL\_SECONDS\_BETWEEN calculates the difference between two specified time stamps, utcl1 and utcl2, in seconds. It has two [positional parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpositional_parameter_glosry.htm "Glossary Entry"). The actual parameters for the formal parameters utcl1 and utcl2 must have the built-in dictionary type [UTCLONG](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) and contain a valid [UTC time stamp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenutc_timestamp_glosry.htm "Glossary Entry"). Any invalid time stamps produce an error. If utcl2 is greater than utcl1 , the result is positive. If the values are identical, the result is 0. In all other cases, the result is negative.
 
-The result is of type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 21 and 7 decimal places.
+The result is of type [DEC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) with length 21 and 7 decimal places.
 
 Hints
 
 -   If an actual parameter is empty, then this parameter is set to its initial value.
--   The days missing from the Gregorian calendar (from 5.10.1582 to 15.10.1582) are [handled as usual](javascript:call_link\('abenconversion_type_d.htm'\)) in ABAP.
+-   The days missing from the Gregorian calendar (from 5.10.1582 to 15.10.1582) are [handled as usual](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_type_d.htm) in ABAP.
 
 Variant 4   
 
@@ -83,7 +83,7 @@ Variant 4  
 
 Effect
 
-The function TSTMP\_IS\_VALID determines whether an argument tstmp contains a [valid time stamp](javascript:call_link\('abentime_stamps_packed.htm'\)) in the format YYYYMMDDHHMMSS. The actual parameter must have the built-in data type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 15 and no decimal places. The result has the data type [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)). A valid time stamp produces the value 1 and all other input values (including the null value) produce the value 0.
+The function TSTMP\_IS\_VALID determines whether an argument tstmp contains a [valid time stamp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentime_stamps_packed.htm) in the format YYYYMMDDHHMMSS. The actual parameter must have the built-in data type [DEC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) with length 15 and no decimal places. The result has the data type [INT4](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm). A valid time stamp produces the value 1 and all other input values (including the null value) produce the value 0.
 
 Variant 5   
 
@@ -91,11 +91,11 @@ Variant 5  
 
 Effect
 
-The function TSTMP\_CURRENT\_UTCTIMESTAMP returns a [UTC time stamp](javascript:call_link\('abenutc_timestamp_glosry.htm'\) "Glossary Entry") in accordance with the [POSIX](javascript:call_link\('abenposix_timestamp_glosry.htm'\) "Glossary Entry") standard. The result has the data type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 15 and no decimal places.
+The function TSTMP\_CURRENT\_UTCTIMESTAMP returns a [UTC time stamp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenutc_timestamp_glosry.htm "Glossary Entry") in accordance with the [POSIX](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenposix_timestamp_glosry.htm "Glossary Entry") standard. The result has the data type [DEC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) with length 15 and no decimal places.
 
 Hints
 
--   The UTC time stamp is created from the clock on the database server. The [system date](javascript:call_link\('abensystem_date_glosry.htm'\) "Glossary Entry") and the [system time](javascript:call_link\('abensystem_time_glosry.htm'\) "Glossary Entry") in AS ABAP from which its time stamp is created using [GET TIME STAMP](javascript:call_link\('abapget_time-stamp.htm'\)) are [synchronized](javascript:call_link\('abensystem_user_time_zones.htm'\)) with the database server clock.
+-   The UTC time stamp is created from the clock on the database server. The [system date](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_date_glosry.htm "Glossary Entry") and the [system time](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_time_glosry.htm "Glossary Entry") in AS ABAP from which its time stamp is created using [GET TIME STAMP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_time-stamp.htm) are [synchronized](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_user_time_zones.htm) with the database server clock.
 -   If the function TSTMP\_CURRENT\_UTCTIMESTAMP is used more than once within a view, it cannot be guaranteed that the every call within a database access produces the same result. Later calls can produce later time stamps.
 
 Variant 6   
@@ -104,9 +104,9 @@ Variant 6  
 
 Effect
 
-The function TSTMP\_SECONDS\_BETWEEN calculates the difference between two specified time stamps, tstmp1 and tstmp2, in seconds. The actual parameter must have the built-in data type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 15 and no decimal places and contain [valid time stamps](javascript:call_link\('abentime_stamps_packed.htm'\)) in the format YYYYMMDDHHMMSS. Any invalid time stamps produce an error. If tstmp2 is greater than tstmp1, the result is positive. In the reverse case, it is negative.
+The function TSTMP\_SECONDS\_BETWEEN calculates the difference between two specified time stamps, tstmp1 and tstmp2, in seconds. The actual parameter must have the built-in data type [DEC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) with length 15 and no decimal places and contain [valid time stamps](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentime_stamps_packed.htm) in the format YYYYMMDDHHMMSS. Any invalid time stamps produce an error. If tstmp2 is greater than tstmp1, the result is positive. In the reverse case, it is negative.
 
-The actual parameter on\_error controls error handling. It must have the built-in data type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with the length 10 and must have one of the following values:
+The actual parameter on\_error controls error handling. It must have the built-in data type [CHAR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) with the length 10 and must have one of the following values:
 
 -   "FAIL" (an error raises an exception)
 -   "NULL" (an error returns the null value)
@@ -120,7 +120,7 @@ Variant 7  
 
 Effect
 
-The function TSTMP\_ADD\_SECONDS adds seconds seconds to a time stamp tstmp. The actual parameter tstmp must have the built-in data type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 15 and no decimal places and contain a valid [time stamp](javascript:call_link\('abentime_stamps_packed.htm'\)) in the format YYYYMMDDHHMMSS. An invalid time stamp produces an error. The actual parameter seconds must also have the built-in data type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 15 and no decimal places. Any negative values are subtracted. If the result is invalid, an error occurs.
+The function TSTMP\_ADD\_SECONDS adds seconds seconds to a time stamp tstmp. The actual parameter tstmp must have the built-in data type [DEC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) with length 15 and no decimal places and contain a valid [time stamp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentime_stamps_packed.htm) in the format YYYYMMDDHHMMSS. An invalid time stamp produces an error. The actual parameter seconds must also have the built-in data type [DEC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) with length 15 and no decimal places. Any negative values are subtracted. If the result is invalid, an error occurs.
 
 The actual parameter on\_error controls error handling. The same applies as to the function TSTMP\_SECONDS\_BETWEEN. The additional value "UNCHANGED" can be used to specify that an error caused the unchanged value of tstmp to be returned.
 

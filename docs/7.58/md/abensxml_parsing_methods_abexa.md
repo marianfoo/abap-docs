@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Class Libraries](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)) →  [sXML - Examples](javascript:call_link\('abenabap_sxml_lib_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xml.htm) →  [XML - Class Libraries](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xml_libs.htm) →  [sXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib.htm) →  [sXML - Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20sXML%20-%20Methods%20for%20Token-Based%20Parsing.%2C%20ABENSXML_PARSING_METHODS_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20im
 provement:)
 
 sXML - Methods for Token-Based Parsing.
 
-This example demonstrates how various methods are used in [token-based parsing](javascript:call_link\('abenabap_sxml_lib_parse_iterative.htm'\)).
+This example demonstrates how various methods are used in [token-based parsing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib_parse_iterative.htm).
 
 Source Code   
 
@@ -251,7 +251,7 @@ A string of XML data is parsed multiple times:
 -   The third parsing demonstrates various ways of reading XML data.
     -   First, a specific attribute is read for an element with a specific name using GET\_ATTRIBUTE\_VALUE.
     -   Then an iteration runs across all attributes of all elements without evaluating the elements until a specific value occurs. If the value occurs, the method CURRENT\_NODE is used to reset the parser to the start of the current attribute list and the list is evaluated.
-    -   Finally, the method NEXT\_ATTRIBUTE\_VALUE is used to read the value of each attribute as raw data stored in [Base64](javascript:call_link\('abenbase64_glosry.htm'\) "Glossary Entry") format. The data is displayed only if this is successful.
+    -   Finally, the method NEXT\_ATTRIBUTE\_VALUE is used to read the value of each attribute as raw data stored in [Base64](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbase64_glosry.htm "Glossary Entry") format. The data is displayed only if this is successful.
 -   In the fourth and fifth parsings, the method SKIP\_NODE demonstrates why the hierarchy level of the current node is saved in the helper variable level.
     -   In the first case, the element opening of subitems is exited using SKIP\_NODE. The entire subtree introduced using subitems is parsed and placed in an XML writer. The results are then displayed.
     -   In the second case, the element openings of all subelements of subitems are exited and these are parsed and their content is placed in an XML writer. These elements are located at the same level, which means the associated element opening and the end of element must be added to the writer explicitly.

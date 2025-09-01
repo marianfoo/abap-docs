@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Transformation of ABAP Values](javascript:call_link\('abenst_abap_values.htm'\)) →  [ST - tt:value, Elementary Data Objects](javascript:call_link\('abenst_tt_value_elementary.htm'\)) →  [ST - option, Mapping Rules](javascript:call_link\('abenst_option.htm'\)) →  [ST - option, Mapping Rules for Elementary Types](javascript:call_link\('abenst_option_format.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_serial_deserial.htm) →  [ST - Transformation of ABAP Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_abap_values.htm) →  [ST - tt:value, Elementary Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_value_elementary.htm) →  [ST - option, Mapping Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_option.htm) →  [ST - option, Mapping Rules for Elementary Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_option_format.htm) → 
 
 Simple Transformation, Option for Invalid Values
 
@@ -67,7 +67,7 @@ START-OF-SELECTION.
 
 Description
 
-This example passes various types of ABAP data to the transformation DEMO\_ST\_NOERROR\_OPTION and provides the result for XML. The transformation applies the option [noError](javascript:call_link\('abenst_option_format.htm'\)) to the ABAP data:
+This example passes various types of ABAP data to the transformation DEMO\_ST\_NOERROR\_OPTION and provides the result for XML. The transformation applies the option [noError](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_option_format.htm) to the ABAP data:
 
 <?sap.transform simple?>
 <tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
@@ -111,4 +111,4 @@ This example passes various types of ABAP data to the transformation DEMO\_ST\_N
   </tt:template>
 </tt:transform>
 
-The transformation creates [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") to represent both XML and JSON. The example passes an invalid value to the transformation for each of the types used. If the option [noError](javascript:call_link\('abenst_option_format.htm'\)) were not specified, each of the invalid types would raise an exception.
+The transformation creates [JSON-XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_xml_glosry.htm "Glossary Entry") to represent both XML and JSON. The example passes an invalid value to the transformation for each of the types used. If the option [noError](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_option_format.htm) were not specified, each of the invalid types would raise an exception.

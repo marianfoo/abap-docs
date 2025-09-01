@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Internal Table Processing](javascript:call_link\('abenitab_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_internal_obsolete.htm) →  [Obsolete Internal Table Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_obsolete.htm) → 
 
 SEARCH itab
 
-[Short Reference](javascript:call_link\('abapsearch_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsearch_shortref.htm)
 
 Obsolete Syntax
 
@@ -26,9 +26,9 @@ Additions:
 
 Effect
 
-This statement searches the lines of the [index table](javascript:call_link\('abenindex_table_glosry.htm'\) "Glossary Entry") itab for a pattern specified in pattern. SEARCH cannot be used for [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") and not for tables with [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry"). The statement always searches the internal table and does not search any [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") that might exist.
+This statement searches the lines of the [index table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenindex_table_glosry.htm "Glossary Entry") itab for a pattern specified in pattern. SEARCH cannot be used for [hashed tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhashed_table_glosry.htm "Glossary Entry") and not for tables with [secondary table keys](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_table_key_glosry.htm "Glossary Entry"). The statement always searches the internal table and does not search any [header line](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenheader_line_glosry.htm "Glossary Entry") that might exist.
 
-For pattern, a character-like or byte-like data object can be specified, depending on the processing type. The pattern in pattern can have the same forms as the statement [SEARCH](javascript:call_link\('abapsearch-.htm'\)) has for character-like or byte-like string processing.
+For pattern, a character-like or byte-like data object can be specified, depending on the processing type. The pattern in pattern can have the same forms as the statement [SEARCH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsearch-.htm) has for character-like or byte-like string processing.
 
 The search is terminated at the first hit and sy-tabix is set to the index of the table line found. sy-fdpos is set to the offset of the character string or byte string found or word found in the table line. If the pattern is not found, sy-fdpos and sy-tabix are set to 0.
 
@@ -48,9 +48,9 @@ Pattern not found in itab.
 
 Hints
 
--   Instead of the statement SEARCH, the statement [FIND IN TABLE](javascript:call_link\('abapfind_itab.htm'\)) should be used whenever possible.
--   While SEARCH supports all [index tables](javascript:call_link\('abenindex_table_glosry.htm'\) "Glossary Entry"), FIND IN TABLE supports only [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry").
--   See also [Migrating SEARCH to FIND](javascript:call_link\('abenmigrate_search_to_find.htm'\)).
+-   Instead of the statement SEARCH, the statement [FIND IN TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfind_itab.htm) should be used whenever possible.
+-   While SEARCH supports all [index tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenindex_table_glosry.htm "Glossary Entry"), FIND IN TABLE supports only [standard tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_table_glosry.htm "Glossary Entry").
+-   See also [Migrating SEARCH to FIND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmigrate_search_to_find.htm).
 
 Addition 1   
 
@@ -58,7 +58,7 @@ Addition 1  
 
 Effect
 
-The addition IN CHARACTER MODE or IN BYTE MODE is used to determine whether [character or byte string processing](javascript:call_link\('abenstring_processing_statements.htm'\)) is performed. The line type of the internal table must be suitable for the selected processing type. If no addition is specified, the search is performed character by character.
+The addition IN CHARACTER MODE or IN BYTE MODE is used to determine whether [character or byte string processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_processing_statements.htm) is performed. The line type of the internal table must be suitable for the selected processing type. If no addition is specified, the search is performed character by character.
 
 Addition 2   
 
@@ -80,7 +80,7 @@ Addition 3  
 
 Effect
 
-In character-like searches, it is possible to specify an abbreviated pattern in pattern for character string processing by using the addition ABBREVIATED, like in the statement [SEARCH](javascript:call_link\('abapsearch-.htm'\)).
+In character-like searches, it is possible to specify an abbreviated pattern in pattern for character string processing by using the addition ABBREVIATED, like in the statement [SEARCH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsearch-.htm).
 
 Addition 4   
 
@@ -88,7 +88,7 @@ Addition 4  
 
 Effect
 
-When searching character by character, it is possible to transform a character string or a word found in itab to uppercase using the statement AND MARK (just as with the statement [SEARCH for character string processing](javascript:call_link\('abapsearch-.htm'\))).
+When searching character by character, it is possible to transform a character string or a word found in itab to uppercase using the statement AND MARK (just as with the statement [SEARCH for character string processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsearch-.htm)).
 
 Example
 

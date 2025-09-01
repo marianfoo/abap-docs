@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.10](javascript:call_link\('abennews-610.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-6.htm) →  [Changes in Release 6.10](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-610.htm) → 
 
 Compiler in Release 6.10
 
@@ -30,7 +30,7 @@ Modification 1
 
 Error Handling Using the Statement SYNTAX-CHECK
 
-The statement [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)) has been enhanced so that the syntax check also continues after error messages occur, as long as the parameter ID = ERR is set. Any error messages are written to an internal table, which can be specified using TABLE. The collected errors also provide the return code SY-SUBRC = 4.
+The statement [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_for_itab.htm) has been enhanced so that the syntax check also continues after error messages occur, as long as the parameter ID = ERR is set. Any error messages are written to an internal table, which can be specified using TABLE. The collected errors also provide the return code SY-SUBRC = 4.
 
 Modification 2
 
@@ -42,7 +42,7 @@ Modification 3
 
 Data Types for Source Code in SCAN ABAP-SOURCE
 
-The statement [SCAN ABAP-SOURCE](javascript:call_link\('abapscan.htm'\)) has been enhanced so that fields of type C or STRING are permitted in the scanned source code, instead of an internal table. This means that an internal table no longer needs to be edited.
+The statement [SCAN ABAP-SOURCE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapscan.htm) has been enhanced so that fields of type C or STRING are permitted in the scanned source code, instead of an internal table. This means that an internal table no longer needs to be edited.
 
 Modification 4
 
@@ -54,9 +54,9 @@ Modification 5
 
 Faster Generation of Program Segments
 
-Program segments can be generated much more quickly, now that pre-compiled headers have been introduced. Pre-compiled headers allow the system to import and reuse previously processed data declarations of global classes, interfaces, and type groups more quickly, both during the syntax check and when generating the program. This means it is no longer necessary to import program segments repeatedly. If the compiler does not find a pre-compiled header for the required program segment, it generates one and stores it in the program buffer ([PXA](javascript:call_link\('abenpxa_glosry.htm'\) "Glossary Entry")).
+Program segments can be generated much more quickly, now that pre-compiled headers have been introduced. Pre-compiled headers allow the system to import and reuse previously processed data declarations of global classes, interfaces, and type groups more quickly, both during the syntax check and when generating the program. This means it is no longer necessary to import program segments repeatedly. If the compiler does not find a pre-compiled header for the required program segment, it generates one and stores it in the program buffer ([PXA](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpxa_glosry.htm "Glossary Entry")).
 
-The addition WITH PRECOMPILED HEADERS of the statement [GENERATE REPORT](javascript:call_link\('abapgenerate_report.htm'\)) can now be used to speed up generation from within an ABAP program.
+The addition WITH PRECOMPILED HEADERS of the statement [GENERATE REPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgenerate_report.htm) can now be used to speed up generation from within an ABAP program.
 
 Modification 6
 
@@ -90,4 +90,4 @@ Modification 9
 
 Typing the Source Code in GENERATE SUBROUTINE POOL
 
-In the statement [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_report.htm'\)), source code can now also be passed in an internal table of row type string.
+In the statement [GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgenerate_report.htm), source code can now also be passed in an internal table of row type string.

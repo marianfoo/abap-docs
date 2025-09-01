@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 predicate operator
 
-[Relational operator](javascript:call_link\('abenrel_operator_glosry.htm'\) "Glossary Entry") [IS](javascript:call_link\('abenpredicate_expressions.htm'\)) for use in a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry").
+[Relational operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrel_operator_glosry.htm "Glossary Entry") [IS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expressions.htm) for use in a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenpredicate.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate.htm)

@@ -4,23 +4,23 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_rap_other.htm) →  [ABAP for RAP, BDEF Derived Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrpm_derived_types.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Declaration of Variables with BDEF Derived Types, ABAPDERIVED_TYPES_DECLARATION, 757%
 0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Declaration of Variables with BDEF Derived Types
 
-For modularization purposes, [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") can be used outside of the reserved handler methods by declaring variables, for example, in ABAP programs. The statements TYPES, DATA and CREATE DATA are supported. For example, an internal table can be declared with the type [TYPE TABLE FOR](javascript:call_link\('abaptype_table_for.htm'\)):
+For modularization purposes, [BDEF derived types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") can be used outside of the reserved handler methods by declaring variables, for example, in ABAP programs. The statements TYPES, DATA and CREATE DATA are supported. For example, an internal table can be declared with the type [TYPE TABLE FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_table_for.htm):
 
 DATA itab TYPE TABLE FOR CREATE entity\_name.
 
-entity\_name must be the full name of the entity, not the alias defined in the [BDEF](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") since there is no clear reference to a specific BDEF outside of handler methods in [behavior pools](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"). The following type declarations are supported in the context of BDEF derived types:
+entity\_name must be the full name of the entity, not the alias defined in the [BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") since there is no clear reference to a specific BDEF outside of handler methods in [behavior pools](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry"). The following type declarations are supported in the context of BDEF derived types:
 
--   [TYPE TABLE FOR](javascript:call_link\('abaptype_table_for.htm'\))
--   [TYPE STRUCTURE FOR](javascript:call_link\('abaptype_structure_for.htm'\))
--   [TYPE REQUEST FOR](javascript:call_link\('abaptype_request_for.htm'\))
--   [TYPE RESPONSE FOR](javascript:call_link\('abaptype_response_for.htm'\))
+-   [TYPE TABLE FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_table_for.htm)
+-   [TYPE STRUCTURE FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_structure_for.htm)
+-   [TYPE REQUEST FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_request_for.htm)
+-   [TYPE RESPONSE FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_response_for.htm)
 
 Creation of Data Objects
 
@@ -60,7 +60,7 @@ p\_structure
 'X'
 For the creation of a row type (and not a table type)
 
-The data object creation is based on [absolute types](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry"). These types can be constructed manually and instantiated using the following syntax.
+The data object creation is based on [absolute types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabsolute_typename_glosry.htm "Glossary Entry"). These types can be constructed manually and instantiated using the following syntax.
 
 CREATE DATA dref TYPE (der\_type).
 

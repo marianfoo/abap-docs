@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Structures](javascript:call_link\('abenconversion_struc.htm'\)) →  [Conversion Between Flat Structures](javascript:call_link\('abenconversion_flat_flat.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_rules.htm) →  [Conversion Rules for Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_struc.htm) →  [Conversion Between Flat Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_flat_flat.htm) → 
 
 Conversion Rules for Structures
 
@@ -53,4 +53,4 @@ START-OF-SELECTION.
 
 Description
 
-In this example, two different structures are defined, fs1 and fs2. The prerequisites of the third [conversion rule for flat structures](javascript:call_link\('abenconversion_flat_flat.htm'\)) apply to both structures and the corresponding rule is also applied. After the assignment of fs1 to fs2, only the result for the first two components is the same as if they were passed component by component. fs2-text is filled with the first five places from fs1-text. None of the remaining components of fs1 are passed.
+In this example, two different structures are defined, fs1 and fs2. The prerequisites of the third [conversion rule for flat structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_flat_flat.htm) apply to both structures and the corresponding rule is also applied. After the assignment of fs1 to fs2, only the result for the first two components is the same as if they were passed component by component. fs2-text is filled with the first five places from fs1-text. None of the remaining components of fs1 are passed.

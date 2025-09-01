@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Processing Screens](javascript:call_link\('abenabap_dynpro_processing_screens.htm'\)) →  [dynpro - Field Help, Input Help, and Dropdown List Boxes](javascript:call_link\('abenabap_dynpros_help.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpros.htm) →  [dynpro - Processing Screens](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpro_processing_screens.htm) →  [dynpro - Field Help, Input Help, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpros_help.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20dynpro%20-%20Dropdown%20List%20Boxes%2C%20ABENABAP_DYNPROS_LISTBOX%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 dynpro - Dropdown List Boxes
 
-[Dropdown list boxes](javascript:call_link\('abendropdown_listbox_glosry.htm'\) "Glossary Entry"), which contain a predefined set of proposal values, can be defined for input/output fields on dynpros. It is not possible to enter a value in this type of input field and a value must be copied from the proposal list instead. If a dropdown list box is assigned to a field, the input help key (F4) cannot be used.
+[Dropdown list boxes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendropdown_listbox_glosry.htm "Glossary Entry"), which contain a predefined set of proposal values, can be defined for input/output fields on dynpros. It is not possible to enter a value in this type of input field and a value must be copied from the proposal list instead. If a dropdown list box is assigned to a field, the input help key (F4) cannot be used.
 
 A dropdown list box is a single-column list of text fields with a maximum length of 80 characters. Internally, each text field is linked with a key of up to 40 characters. When the user selects a line, the content of the text field is entered in the input field on the screen and the content of the key is passed to the dynpro field. This means that the content and length of the screen field and dynpro field are not generally identical.
 
@@ -20,7 +20,7 @@ If a dropdown list box is linked with an input/output field, the attribute Value
 
 -   Value list from the input help (recommended)
     
-    If the attribute Value List is empty, the text field of the dropdown list box takes the first column of the [input help](javascript:call_link\('abenabap_dynpros_value_help.htm'\)) linked with the screen field. This input help should have two columns. The key of the dropdown list box is filled automatically from the second column.
+    If the attribute Value List is empty, the text field of the dropdown list box takes the first column of the [input help](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpros_value_help.htm) linked with the screen field. This input help should have two columns. The key of the dropdown list box is filled automatically from the second column.
     
 -   Value list from PBO modules (not recommended)
     
@@ -29,5 +29,5 @@ If a dropdown list box is linked with an input/output field, the attribute Value
 
 Executable Examples
 
--   [List Box with Value List from Input Help](javascript:call_link\('abendynpro_drop1_abexa.htm'\))
--   [List Box with Value List from PBO Module](javascript:call_link\('abendynpro_drop2_abexa.htm'\))
+-   [List Box with Value List from Input Help](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_drop1_abexa.htm)
+-   [List Box with Value List from PBO Module](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_drop2_abexa.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Literal Template Content](javascript:call_link\('abenst_literals.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_serial_deserial.htm) →  [ST - Literal Template Content](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_literals.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ST%20-%20Literal%20XML%20Elements%20and%20Attributes%2C%20ABENST_XML_LITERALS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvemen
 t:)
@@ -27,9 +27,9 @@ Syntax
 
 Effect
 
-Here, element is the name of the element and attr is a set of optional literal attributes with any name. The optional ST-specific attribute [tt:ref](javascript:call_link\('abenst_tt_ref.htm'\)) sets the current node node for the context of the literal element.
+Here, element is the name of the element and attr is a set of optional literal attributes with any name. The optional ST-specific attribute [tt:ref](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_ref.htm) sets the current node node for the context of the literal element.
 
-The optional ST-specific attributes [tt:lax](javascript:call_link\('abenst_tt_lax.htm'\)) and [tt:extensible](javascript:call_link\('abenst_tt_extensible.htm'\)) only have an effect during deserialization. tt:lax determines whether the element name element may differ during deserialization. tt:extensible specifies whether the content of the element can be extended by unspecified elements.
+The optional ST-specific attributes [tt:lax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_lax.htm) and [tt:extensible](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_extensible.htm) only have an effect during deserialization. tt:lax determines whether the element name element may differ during deserialization. tt:extensible specifies whether the content of the element can be extended by unspecified elements.
 
 Serializing Literal XML Elements   
 
@@ -37,7 +37,7 @@ In serializations, the element beginning <element *\[*attr*\]*\> and its literal
 
 Hint
 
-For information about handling namespaces, see [tt.namespace, Namespaces](javascript:call_link\('abenst_tt_namespace.htm'\)).
+For information about handling namespaces, see [tt.namespace, Namespaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_namespace.htm).
 
 Deserializing Literal XML Elements   
 
@@ -47,7 +47,7 @@ After a successful comparison of the element beginning, the element content is d
 
 Special Form of Literal XML Elements   
 
-A special form of literal XML attributes combines the [tt:value statement](javascript:call_link\('abenst_tt_value_elementary.htm'\)) with the above syntax.
+A special form of literal XML attributes combines the [tt:value statement](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_value_elementary.htm) with the above syntax.
 
 Syntax
 
@@ -147,5 +147,5 @@ The following ST program DEMO\_ST\_XML\_LITERALS5 raises the exception CX\_ST\_M
 A correct attribute name with an incorrect attribute content raises the exception CX\_ST\_MATCH\_TEXT.
 
 Continue
-[ST - tt:lax, Name Comparisons of Literal XML Elements](javascript:call_link\('abenst_tt_lax.htm'\))
-[ST - tt:extensible, Extensibility of Literal XML Elements](javascript:call_link\('abenst_tt_extensible.htm'\))
+[ST - tt:lax, Name Comparisons of Literal XML Elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_lax.htm)
+[ST - tt:extensible, Extensibility of Literal XML Elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenst_tt_extensible.htm)

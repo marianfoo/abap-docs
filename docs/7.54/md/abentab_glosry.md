@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 tab
 
-See [tab page](javascript:call_link\('abentab_page_glosry.htm'\) "Glossary Entry").
+See [tab page](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentab_page_glosry.htm "Glossary Entry").

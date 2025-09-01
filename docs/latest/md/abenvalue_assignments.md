@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Assignments%2C%20ABENVALUE_ASSIGNMENTS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,22 +12,22 @@ Assignments
 
 An assignment passes the content of a source to a target data object. The source can be one of the following:
 
--   [Data objects](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry")
--   Return values or results of [functional methods](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry"), [built-in functions](javascript:call_link\('abenbuiltin_function_glosry.htm'\) "Glossary Entry") and [constructor expressions](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry"), or [table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry")
--   Results of [calculation expressions](javascript:call_link\('abencalculation_expression_glosry.htm'\) "Glossary Entry")
+-   [Data objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_object_glosry.htm "Glossary Entry")
+-   Return values or results of [functional methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunctional_method_glosry.htm "Glossary Entry"), [built-in functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_function_glosry.htm "Glossary Entry") and [constructor expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_glosry.htm "Glossary Entry"), or [table expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_expression_glosry.htm "Glossary Entry")
+-   Results of [calculation expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_expression_glosry.htm "Glossary Entry")
 
 The following sections describe the rules, operators, and keywords where the assignment of source values to target data objects is of significance.
 
--   [Assignment and conversion rules](javascript:call_link\('abenconversion_rules.htm'\))
--   [\= - assignment operator](javascript:call_link\('abenequals_operator.htm'\))
--   [CONV - conversion operator](javascript:call_link\('abenconstructor_expression_conv.htm'\))
--   [Assigning structure components](javascript:call_link\('abencorresponding.htm'\))
--   [Assigning references](javascript:call_link\('abenreference_assignments.htm'\))
--   [Lossless assignments](javascript:call_link\('abenlossless_move.htm'\))
--   [Special assignments](javascript:call_link\('abenabap_data_move.htm'\))
--   [Initializations](javascript:call_link\('abeninitializations.htm'\))
+-   [Assignment and conversion rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_rules.htm)
+-   [\= - assignment operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_operator.htm)
+-   [CONV - conversion operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_conv.htm)
+-   [Assigning structure components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding.htm)
+-   [Assigning references](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_assignments.htm)
+-   [Lossless assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_move.htm)
+-   [Special assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_move.htm)
+-   [Initializations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninitializations.htm)
 
-Assignments also occur, however, in the [operand positions](javascript:call_link\('abenoperand_position_glosry.htm'\) "Glossary Entry") of many other statements in which the [assignment rules](javascript:call_link\('abenconversion_rules.htm'\)) also apply.
+Assignments also occur, however, in the [operand positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperand_position_glosry.htm "Glossary Entry") of many other statements in which the [assignment rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_rules.htm) also apply.
 
 Example
 
@@ -40,11 +40,11 @@ cl\_demo\_output=>display(
                           ).
 
 Continue
-[Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\))
-[\=, Assignment Operator](javascript:call_link\('abenequals_operator.htm'\))
-[CONV, Conversion Operator](javascript:call_link\('abenconstructor_expression_conv.htm'\))
-[Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\))
-[Assigning References](javascript:call_link\('abenreference_assignments.htm'\))
-[Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\))
-[Special Assignments](javascript:call_link\('abenabap_data_move.htm'\))
-[Initializations](javascript:call_link\('abeninitializations.htm'\))
+[Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_rules.htm)
+[\=, Assignment Operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_operator.htm)
+[CONV, Conversion Operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_conv.htm)
+[Assigning Structure Components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding.htm)
+[Assigning References](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_assignments.htm)
+[Lossless Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_move.htm)
+[Special Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_move.htm)
+[Initializations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninitializations.htm)

@@ -4,33 +4,33 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - Definition of Annotations](javascript:call_link\('abencds_anno_definition.htm'\)) →  [ABAP CDS - DDL for Annotation Definitions](javascript:call_link\('abencds_f1_ddla_syntax.htm'\)) →  [CDS DDL - DEFINE ANNOTATION](javascript:call_link\('abencds_f1_define_annotation.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations.htm) →  [ABAP CDS - Definition of Annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_anno_definition.htm) →  [ABAP CDS - DDL for Annotation Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddla_syntax.htm) →  [CDS DDL - DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation.htm) → 
 
 CDS DDL - DEFINE ANNOTATION, arrelem
 
 Syntax
 
-... *{*[type](javascript:call_link\('abencds_f1_define_annotation_type.htm'\));*}**|**{* {[subannos](javascript:call_link\('abencds_f1_define_annotation_sub.htm'\))}*\[*;*\]**}*
+... *{*[type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm);*}**|**{* {[subannos](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_sub.htm)}*\[*;*\]**}*
 
 Effect
 
-Defines the elements of an [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry"). If specified after a colon of a [main annotation](javascript:call_link\('abenmain_annotation_glosry.htm'\) "Glossary Entry") or [subannotation](javascript:call_link\('abensub_annotation_glosry.htm'\) "Glossary Entry") defined using [define annotation](javascript:call_link\('abencds_f1_define_annotation.htm'\)), array of turns the annotation specified in front of the colon into an array of the elements specified after array of:
+Defines the elements of an [annotation array](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_array_glosry.htm "Glossary Entry"). If specified after a colon of a [main annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmain_annotation_glosry.htm "Glossary Entry") or [subannotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensub_annotation_glosry.htm "Glossary Entry") defined using [define annotation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation.htm), array of turns the annotation specified in front of the colon into an array of the elements specified after array of:
 
--   [type](javascript:call_link\('abencds_f1_define_annotation_type.htm'\)) defines an annotation array for [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry"). The following applies here:
+-   [type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm) defines an annotation array for [annotation values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The following applies here:
 
--   The addition [enum](javascript:call_link\('abencds_f1_define_annotation_type.htm'\)) can be used
+-   The addition [enum](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm) can be used
 
--   The addition [default](javascript:call_link\('abencds_f1_define_annotation_type.htm'\)) cannot be used
+-   The addition [default](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm) cannot be used
 
 -   The type specification must be closed using a semicolon (;).
 
--   {[subannos](javascript:call_link\('abencds_f1_define_annotation_sub.htm'\))} defines an annotation array for [subannotations](javascript:call_link\('abensub_annotation_glosry.htm'\) "Glossary Entry") in curly brackets. If specified, subannotations can be closed using an optional semicolon (;).
+-   {[subannos](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_sub.htm)} defines an annotation array for [subannotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensub_annotation_glosry.htm "Glossary Entry") in curly brackets. If specified, subannotations can be closed using an optional semicolon (;).
 
-The same information can be specified for [type](javascript:call_link\('abencds_f1_define_annotation_type.htm'\)) and [subannos](javascript:call_link\('abencds_f1_define_annotation_sub.htm'\)) as for elementary annotations. It is not possible to define a further annotation array directly. Subannotations can, however, be arrays themselves.
+The same information can be specified for [type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm) and [subannos](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_sub.htm) as for elementary annotations. It is not possible to define a further annotation array directly. Subannotations can, however, be arrays themselves.
 
 Hint
 
-When an annotation array is used in [annotation syntax](javascript:call_link\('abencds_annotations_syntax.htm'\)) in CDS source code, a [comma-separated list](javascript:call_link\('abencds_annotations_syntax_array.htm'\)) is specified in square brackets. This list contains the information defined dictated by [type](javascript:call_link\('abencds_f1_define_annotation_type.htm'\)) or [structure](javascript:call_link\('abencds_f1_define_annotation_sub.htm'\)) as often as necessary.
+When an annotation array is used in [annotation syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax.htm) in CDS source code, a [comma-separated list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_annotations_syntax_array.htm) is specified in square brackets. This list contains the information defined dictated by [type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_type.htm) or [structure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_annotation_sub.htm) as often as necessary.
 
 Example
 

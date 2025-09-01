@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [Runtime Type Services (RTTS)](javascript:call_link\('abenrtti.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendescribe_field.htm) →  [Runtime Type Services (RTTS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrtti.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Determining Data Types, ABENRTTI_DATA_TYPE_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0
 D%0A%0D%0ASuggestion for improvement:)
@@ -61,6 +61,6 @@ START-OF-SELECTION.
 
 Description   
 
-This example expands on the [executable example](javascript:call_link\('abendescribe_field_abexa.htm'\)) for DESCRIBE FIELD to the correct check of any data type.
+This example expands on the [executable example](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendescribe_field_abexa.htm) for DESCRIBE FIELD to the correct check of any data type.
 
-When complex types, such as SCARR and SPFLI, are entered in the input fields, the RTTI determines the full [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry").
+When complex types, such as SCARR and SPFLI, are entered in the input fields, the RTTI determines the full [absolute type name](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabsolute_typename_glosry.htm "Glossary Entry").

@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) →  [num\_func - Examples](javascript:call_link\('abennumerical_functions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmathematical_functions.htm) →  [num\_func - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennumerical_functions_abexas.htm) → 
 
 num\_func - Integer Power Function ipow
 
-This example demonstrates the integer power function [ipow](javascript:call_link\('abenpower_function.htm'\)).
+This example demonstrates the integer power function [ipow](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpower_function.htm).
 
 Source Code
 
@@ -39,4 +39,4 @@ START-OF-SELECTION.
 
 Description
 
-The program demonstrates that the integer power function ipow can be used to achieve more precise results than with the [arithmetic operator \*\*](javascript:call_link\('abenarith_operators.htm'\)). In the cases shown here, the operator \*\* produces the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") f. If ipow is used, the calculation type is determined by the arguments arg1 and arg2.
+The program demonstrates that the integer power function ipow can be used to achieve more precise results than with the [arithmetic operator \*\*](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarith_operators.htm). In the cases shown here, the operator \*\* produces the [calculation type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculation_type_glosry.htm "Glossary Entry") f. If ipow is used, the calculation type is determined by the arguments arg1 and arg2.

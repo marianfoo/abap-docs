@@ -4,20 +4,20 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexceptions.htm) → 
 
 Exception Classes
 
--   [Exception Categories](javascript:call_link\('abenexception_categories.htm'\))
+-   [Exception Categories](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_categories.htm)
 
--   [Definition of Exception Classes](javascript:call_link\('abenexception_class_create.htm'\))
+-   [Definition of Exception Classes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_class_create.htm)
 
--   [Exception Texts](javascript:call_link\('abenexception_texts.htm'\))
+-   [Exception Texts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_texts.htm)
 
--   [Exception Classes for Messages](javascript:call_link\('abenmessage_exceptions.htm'\))
+-   [Exception Classes for Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_exceptions.htm)
 
 Continue
-[Exception Categories](javascript:call_link\('abenexception_categories.htm'\))
-[Creating Exception Classes](javascript:call_link\('abenexception_class_create.htm'\))
-[Exception Texts](javascript:call_link\('abenexception_texts.htm'\))
-[Exception Classes for Messages](javascript:call_link\('abenmessage_exceptions.htm'\))
+[Exception Categories](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_categories.htm)
+[Creating Exception Classes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_class_create.htm)
+[Exception Texts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_texts.htm)
+[Exception Classes for Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_exceptions.htm)

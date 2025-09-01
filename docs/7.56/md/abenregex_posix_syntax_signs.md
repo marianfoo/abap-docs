@@ -4,21 +4,25 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Character String and Byte String Processing](javascript:call_link\('abencharacter_string_obsolete.htm'\)) →  [Obsolete Regular Expression Syntax](javascript:call_link\('abenregular_expressions_obsolete.htm'\)) →  [regex - POSIX Syntax (obsolete)](javascript:call_link\('abenregex_posix_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_internal_obsolete.htm) →  [Obsolete Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharacter_string_obsolete.htm) →  [Obsolete Regular Expression Syntax](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregular_expressions_obsolete.htm) →  [regex - POSIX Syntax (obsolete)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax.htm) → 
 
 POSIX regex - Single Character Patterns (obsolete)
 
 Single characters are represented by literal characters or operators. By prefixing a backslash \\, a special character of an operator is interpreted as a literal character. This applies in particular for the backslash \\ itself, so that the regular expression \\\\ is the same as the single character \\. If the backslash is followed by a literal character, the backslash is ignored as if it does not exist.
 
--   [Literal Characters](#abenregex-posix-syntax-signs-1-------operators-for-single-characters---@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_2)
-    -   [Placeholders for Single Characters](#abenregex-posix-syntax-signs-3-----------self-defined-sets-for-single-characters---@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_4)
-    -   [Negation of a Self-Defined Set for Single Characters](#abenregex-posix-syntax-signs-5-----------ranges-in-a-self-defined-set-for-single-characters---@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_6)
-    -   [Character Classes](#abenregex-posix-syntax-signs-7-----------abbreviations-for-character-sets---@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_8)
+-   [Literal Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_1)
+-   [Operators for Single Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_2)
+    -   [Placeholders for Single Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_3)
+    -   [Self-Defined Sets for Single Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_4)
+    -   [Negation of a Self-Defined Set for Single Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_5)
+    -   [Ranges in a Self-Defined Set for Single Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_6)
+    -   [Character Classes](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_7)
+    -   [Abbreviations for Character Sets](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_8)
     -   [Equivalence Classes](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SIGNS_9)
 
 Literal Characters
 
-A literal character is a character that is not a special character, a [special character](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)) preceded by a backslash \\, or enclosed between \\Q ... \\E. As a search pattern, a literal character matches the same single character exactly.
+A literal character is a character that is not a special character, a [special character](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm) preceded by a backslash \\, or enclosed between \\Q ... \\E. As a search pattern, a literal character matches the same single character exactly.
 
 Hint
 
@@ -26,7 +30,7 @@ Case-sensitivity can be controlled using the respective statements or methods.
 
 Examples
 
-The following table shows some results of a [matching](javascript:call_link\('abenregex_mtch.htm'\)) that is case-sensitive.
+The following table shows some results of a [matching](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_mtch.htm) that is case-sensitive.
 
 Pattern
 
@@ -64,7 +68,7 @@ AB
 
 X
 
-The regular expression AB is a [concatenation](javascript:call_link\('abenregex_posix_syntax_operators.htm'\)) of two expressions for single characters.
+The regular expression AB is a [concatenation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_operators.htm) of two expressions for single characters.
 
 Operators for Single Characters
 
@@ -76,7 +80,7 @@ The special character . is a placeholder for any single character. The operator 
 
 Examples
 
-The following table shows some results of a [matching](javascript:call_link\('abenregex_mtch.htm'\)) that is not case-sensitive.
+The following table shows some results of a [matching](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_mtch.htm) that is not case-sensitive.
 
 Pattern
 
@@ -108,15 +112,15 @@ AB
 
 X
 
-The regular expression .. is a [concatenation](javascript:call_link\('abenregex_posix_syntax_operators.htm'\)) of two expressions for single characters.
+The regular expression .. is a [concatenation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_operators.htm) of two expressions for single characters.
 
 Self-Defined Sets for Single Characters
 
-The special characters \[ \] can be placed around any number of literal characters or names for character classes (see below) and thus define a set of literal characters. A regular expression \[...\] matches exactly one single character that is listed as a literal character within the brackets or that is contained in a specified character class. At least one literal character or one name for a character class (see below) must be contained within the brackets. One of the characters \[ or \], which is positioned directly after the opening bracket, is interpreted as a literal character. Some of the [special characters](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)) that start with a backslash, such as \\A or \\Q, lose their special function within sets and are interpreted as the simple literal character A or Q.
+The special characters \[ \] can be placed around any number of literal characters or names for character classes (see below) and thus define a set of literal characters. A regular expression \[...\] matches exactly one single character that is listed as a literal character within the brackets or that is contained in a specified character class. At least one literal character or one name for a character class (see below) must be contained within the brackets. One of the characters \[ or \], which is positioned directly after the opening bracket, is interpreted as a literal character. Some of the [special characters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm) that start with a backslash, such as \\A or \\Q, lose their special function within sets and are interpreted as the simple literal character A or Q.
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_mtch.htm).
 
 Pattern
 
@@ -148,7 +152,7 @@ X
 
 X
 
-The regular expression \[AB\]\[CD\] is a [concatenation](javascript:call_link\('abenregex_posix_syntax_operators.htm'\)) of two expressions for single characters.
+The regular expression \[AB\]\[CD\] is a [concatenation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_operators.htm) of two expressions for single characters.
 
 Negation of a Self-Defined Set for Single Characters
 
@@ -156,7 +160,7 @@ If the character ^ is listed as the first character in a self-defined set for si
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_mtch.htm).
 
 Pattern
 
@@ -188,7 +192,7 @@ X
 
 X
 
-The regular expression \[^A\]\[^B\] is a [concatenation](javascript:call_link\('abenregex_posix_syntax_operators.htm'\)) of two expressions for single characters.
+The regular expression \[^A\]\[^B\] is a [concatenation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_operators.htm) of two expressions for single characters.
 
 Ranges in a Self-Defined Set for Single Characters
 
@@ -196,7 +200,7 @@ If the character \- is between two literal characters, it acts as a special char
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_mtch.htm).
 
 Pattern
 
@@ -304,7 +308,7 @@ Hints
 
 Examples
 
-The following table shows some results of a [matching](javascript:call_link\('abenregex_mtch.htm'\)) that is case-sensitive.
+The following table shows some results of a [matching](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_mtch.htm) that is case-sensitive.
 
 Pattern
 
@@ -430,7 +434,7 @@ If case is ignored by the ABAP statements FIND and REPLACE and when creating an 
 
 Examples
 
-The following table shows some results of a [matching](javascript:call_link\('abenregex_mtch.htm'\)) that is case-sensitive.
+The following table shows some results of a [matching](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_mtch.htm) that is case-sensitive.
 
 Pattern
 

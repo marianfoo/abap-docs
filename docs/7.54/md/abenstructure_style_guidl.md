@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) → 
 
 Structure and Style
 
@@ -24,25 +24,25 @@ Source code needs to be read and understood time and time again during the softw
 
 The following guidelines help produce comprehensible and traceable ABAP source codes. Of course, since #beauty is in the eye of the beholder#, opinions on style vary from individual to individual and are the topic of much discussion. For this reason, the following recommendations are limited to those issues for which there is general consensus. These are mostly generally accepted guidelines that often apply to any programming language. The aim here is not to dictate a specific programming style, but rather to ensure an appropriate programming style. A developer must feel at home with his own sources so that he can work efficiently. Stringent style specifications can sometimes do more harm than good.
 
--   [Source Code Formatting](javascript:call_link\('abenformatting_code_guidl.htm'\) "Guideline")
+-   [Source Code Formatting](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformatting_code_guidl.htm "Guideline")
 
--   [Naming](javascript:call_link\('abennaming_guidl.htm'\) "Guideline")
+-   [Naming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennaming_guidl.htm "Guideline")
 
--   [Comments](javascript:call_link\('abencomments_guidl.htm'\) "Guideline")
+-   [Comments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomments_guidl.htm "Guideline")
 
--   [Program and Procedure Structure](javascript:call_link\('abenprogr_proc_structure_guidl.htm'\) "Guideline")
+-   [Program and Procedure Structure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogr_proc_structure_guidl.htm "Guideline")
 
--   [Source Code Organization](javascript:call_link\('abensource_code_orga_guidl.htm'\) "Guideline")
+-   [Source Code Organization](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensource_code_orga_guidl.htm "Guideline")
 
--   [Alternative Spellings](javascript:call_link\('abenalternative_spelling_guidl.htm'\) "Guideline")
+-   [Alternative Spellings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenalternative_spelling_guidl.htm "Guideline")
 
--   [Complexity](javascript:call_link\('abencomplexity_guidl.htm'\) "Guideline")
+-   [Complexity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomplexity_guidl.htm "Guideline")
 
 Continue
-[Formatting the Source Code](javascript:call_link\('abenformatting_code_guidl.htm'\))
-[Naming](javascript:call_link\('abennaming_guidl.htm'\))
-[Comments](javascript:call_link\('abencomments_guidl.htm'\))
-[Program Structure and Procedure Structure](javascript:call_link\('abenprogr_proc_structure_guidl.htm'\))
-[Source Code Organization](javascript:call_link\('abensource_code_orga_guidl.htm'\))
-[Alternative Spellings](javascript:call_link\('abenalternative_spelling_guidl.htm'\))
-[Complexity](javascript:call_link\('abencomplexity_guidl.htm'\))
+[Formatting the Source Code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenformatting_code_guidl.htm)
+[Naming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennaming_guidl.htm)
+[Comments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomments_guidl.htm)
+[Program Structure and Procedure Structure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogr_proc_structure_guidl.htm)
+[Source Code Organization](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensource_code_orga_guidl.htm)
+[Alternative Spellings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenalternative_spelling_guidl.htm)
+[Complexity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomplexity_guidl.htm)

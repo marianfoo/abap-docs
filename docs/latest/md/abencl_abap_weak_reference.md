@@ -4,19 +4,19 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [References](javascript:call_link\('abendata_references.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_objects.htm) →  [References](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_references.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Weak%20References%2C%20ABENCL_ABAP_WEAK_REFERENCE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Weak References
 
-An object in the system class CL\_ABAP\_WEAK\_REFERENCE represents a [weak reference](javascript:call_link\('abenweak_reference_glosry.htm'\) "Glossary Entry") to an object in a class. Unlike regular [object references](javascript:call_link\('abenobject_reference_glosry.htm'\) "Glossary Entry"), a weak reference is ignored when the [garbage collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry") is executed. This means that a weak reference does not keep the referenced object from being deleted when the garbage collector is executed.
+An object in the system class CL\_ABAP\_WEAK\_REFERENCE represents a [weak reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenweak_reference_glosry.htm "Glossary Entry") to an object in a class. Unlike regular [object references](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_reference_glosry.htm "Glossary Entry"), a weak reference is ignored when the [garbage collector](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengarbage_collector_glosry.htm "Glossary Entry") is executed. This means that a weak reference does not keep the referenced object from being deleted when the garbage collector is executed.
 
-A weak reference to an existing object is created by passing an object reference to the instance constructor of CL\_ABAP\_WEAK\_REFERENCE. The [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") GET can then be used to retrieve the reference afterwards. If the object was deleted in the meantime, the return value is initial.
+A weak reference to an existing object is created by passing an object reference to the instance constructor of CL\_ABAP\_WEAK\_REFERENCE. The [functional method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunctional_method_glosry.htm "Glossary Entry") GET can then be used to retrieve the reference afterwards. If the object was deleted in the meantime, the return value is initial.
 
 Hint
 
-A different type of reference keeps objects alive until the available memory becomes limited. The class CL\_ABAP\_SOFT\_REFERENCE is designed for these [soft references](javascript:call_link\('abensoft_reference_glosry.htm'\) "Glossary Entry"), but this class is currently still implemented like the class CL\_ABAP\_WEAK\_REFERENCE.
+A different type of reference keeps objects alive until the available memory becomes limited. The class CL\_ABAP\_SOFT\_REFERENCE is designed for these [soft references](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensoft_reference_glosry.htm "Glossary Entry"), but this class is currently still implemented like the class CL\_ABAP\_WEAK\_REFERENCE.
 
 Example
 

@@ -3,32 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abendynamic_prog_technique_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm)
-- [abenuse_dynamic_progr_tech_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dynamic_progr_tech_guidl.htm)
-- [abenruntime_error_dyn_proc_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_dyn_proc_guidl.htm)
-- [abenuse_dyn_data_object_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dyn_data_object_guidl.htm)
-- [abenmem_cons_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmem_cons_dyn_mem_obj_guidl.htm)
-- [abenadmin_costs_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm)
-- [abendyn_access_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_access_data_obj_guidl.htm)
-- [abengeneric_progr_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_progr_guidl.htm)
-
-**Bundle Contains**: 8 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.162Z
-
----
-
 ### abendynamic_prog_technique_guidl.htm
-
-> **📖 Official SAP Documentation**: [abendynamic_prog_technique_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -36,49 +11,42 @@ Included pages: 8
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) → 
 
 Dynamic Programming Techniques
 
 Dynamic programming techniques are all techniques whose functions or effects are detectable only at runtime of a program in the runtime environment.
 
--   [Using Dynamic Programming Techniques](javascript:call_link\('abenuse_dynamic_progr_tech_guidl.htm'\) "Guideline")
+-   [Using Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dynamic_progr_tech_guidl.htm "Guideline")
 
--   [Runtime Errors in Dynamic Processing](javascript:call_link\('abenruntime_error_dyn_proc_guidl.htm'\) "Guideline")
+-   [Runtime Errors in Dynamic Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_dyn_proc_guidl.htm "Guideline")
 
--   [Using Dynamic Data Objects](javascript:call_link\('abenuse_dyn_data_object_guidl.htm'\) "Guideline")
+-   [Using Dynamic Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dyn_data_object_guidl.htm "Guideline")
 
--   [Memory Consumption of Dynamic Memory Objects](javascript:call_link\('abenmem_cons_dyn_mem_obj_guidl.htm'\) "Guideline")
+-   [Memory Consumption of Dynamic Memory Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmem_cons_dyn_mem_obj_guidl.htm "Guideline")
 
--   [Administration Costs of Dynamic Memory Objects](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline")
+-   [Administration Costs of Dynamic Memory Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline")
 
--   [Accessing Data Objects Dynamically](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline")
+-   [Accessing Data Objects Dynamically](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_access_data_obj_guidl.htm "Guideline")
 
--   [Generic Programming](javascript:call_link\('abengeneric_progr_guidl.htm'\) "Guideline")
+-   [Generic Programming](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_progr_guidl.htm "Guideline")
     
 
 Security Note
 
-If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the built-in function [escape](javascript:call_link\('abenescape_functions.htm'\)).
+If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the built-in function [escape](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenescape_functions.htm).
 
 Continue
-[Using Dynamic Programming Techniques](javascript:call_link\('abenuse_dynamic_progr_tech_guidl.htm'\))
-[Runtime Errors in Dynamic Processing](javascript:call_link\('abenruntime_error_dyn_proc_guidl.htm'\))
-[Using Dynamic Data Objects](javascript:call_link\('abenuse_dyn_data_object_guidl.htm'\))
-[Memory Consumption of Dynamic Memory Objects](javascript:call_link\('abenmem_cons_dyn_mem_obj_guidl.htm'\))
-[Administration Costs of Dynamic Memory Objects](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\))
-[Accessing Data Objects Dynamically](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\))
-[Generic Programming](javascript:call_link\('abengeneric_progr_guidl.htm'\))
+[Using Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dynamic_progr_tech_guidl.htm)
+[Runtime Errors in Dynamic Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_dyn_proc_guidl.htm)
+[Using Dynamic Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dyn_data_object_guidl.htm)
+[Memory Consumption of Dynamic Memory Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmem_cons_dyn_mem_obj_guidl.htm)
+[Administration Costs of Dynamic Memory Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm)
+[Accessing Data Objects Dynamically](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_access_data_obj_guidl.htm)
+[Generic Programming](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_progr_guidl.htm)
 
-
-
-**📖 Source**: [abendynamic_prog_technique_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm)
 
 ### abenuse_dynamic_progr_tech_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenuse_dynamic_progr_tech_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dynamic_progr_tech_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -86,7 +54,7 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm) → 
 
 Using Dynamic Programming Techniques
 
@@ -104,7 +72,7 @@ The use of dynamic programming techniques includes the following:
 
 -   Generic program development, where parts of the statements are specified using dynamic tokens or entire programs are not created until runtime
 
-In this sense, handling reference variables can also be considered a dynamic technique. The dynamic type (the object to which the reference points) can be more specific than the static type of the variable, which entails polymorphic behavior and becomes apparent in assignments made using [up casts](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") or [down casts](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry").
+In this sense, handling reference variables can also be considered a dynamic technique. The dynamic type (the object to which the reference points) can be more specific than the static type of the variable, which entails polymorphic behavior and becomes apparent in assignments made using [up casts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenup_cast_glosry.htm "Glossary Entry") or [down casts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendown_cast_glosry.htm "Glossary Entry").
 
 Rule
 
@@ -114,9 +82,9 @@ Use dynamic programming techniques only when this is necessary and reasonable. U
 
 Details
 
-The advantage of dynamic programming techniques is an increased flexibility when creating programs. Dynamic programming techniques enable flexible and generic services to be developed that meet various requirements. The price to be paid for this advantage is that dynamic programming techniques may decrease the static checkability, legibility, maintainability, testability, performance, and also [security](javascript:call_link\('abenabap_security.htm'\)). [Security standards](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline") may even prohibit the use of high-risk dynamic programming techniques.
+The advantage of dynamic programming techniques is an increased flexibility when creating programs. Dynamic programming techniques enable flexible and generic services to be developed that meet various requirements. The price to be paid for this advantage is that dynamic programming techniques may decrease the static checkability, legibility, maintainability, testability, performance, and also [security](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_security.htm). [Security standards](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorrectness_quality_guidl.htm "Guideline") may even prohibit the use of high-risk dynamic programming techniques.
 
-This section describes various dynamic programming techniques. These range from [using strings](javascript:call_link\('abenstrings_guidl.htm'\) "Guideline"), which we explicitly recommend, and [using internal tables](javascript:call_link\('abenitab_guidl.htm'\) "Guideline"), which form a basis of ABAP programming, to [generating entire programs](javascript:call_link\('abengeneric_progr_guidl.htm'\) "Guideline"), which we advise against. The higher the dynamics, the more comprehensive the precautionary measures to be taken when using these techniques. Already the simple access to data objects involves a corresponding partial aspect, which was addressed in the rule for [Runtime Errors when Accessing Data Objects](javascript:call_link\('abenruntime_error_dyn_proc_guidl.htm'\) "Guideline"). The rules in this section expand these specific rules and provide a more general framework.
+This section describes various dynamic programming techniques. These range from [using strings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstrings_guidl.htm "Guideline"), which we explicitly recommend, and [using internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_guidl.htm "Guideline"), which form a basis of ABAP programming, to [generating entire programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_progr_guidl.htm "Guideline"), which we advise against. The higher the dynamics, the more comprehensive the precautionary measures to be taken when using these techniques. Already the simple access to data objects involves a corresponding partial aspect, which was addressed in the rule for [Runtime Errors when Accessing Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_dyn_proc_guidl.htm "Guideline"). The rules in this section expand these specific rules and provide a more general framework.
 
 Always consider the following aspects when deploying dynamic techniques:
 
@@ -128,19 +96,12 @@ Always consider the following aspects when deploying dynamic techniques:
 
 -   More tests are required, since numerous states of a dynamic program and possible error situations must be checked.
 
--   If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the built-in function [escape](javascript:call_link\('abenescape_functions.htm'\)).
+-   If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the built-in function [escape](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenescape_functions.htm).
 
 The significance of these aspects differs for the various dynamic programming techniques. For example, a program that uses strings is by no means more complex than a program that works only with text fields. In cases like this, a range of details must nevertheless be taken into account.
 
 
-
-**📖 Source**: [abenuse_dynamic_progr_tech_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dynamic_progr_tech_guidl.htm)
-
 ### abenruntime_error_dyn_proc_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenruntime_error_dyn_proc_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_dyn_proc_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -148,7 +109,7 @@ The significance of these aspects differs for the various dynamic programming te
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm) → 
 
 Runtime Errors in Dynamic Processing
 
@@ -166,7 +127,7 @@ Details
 
 The different dynamic techniques also require different reactions to the possible exception situations. Examples:
 
--   When dynamic data objects are accessed, [their limitations must not be violated](javascript:call_link\('abenruntime_error_data_obj_guidl.htm'\) "Guideline"). For internal tables, for example, no row numbers must be specified for which no row exists.
+-   When dynamic data objects are accessed, [their limitations must not be violated](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_data_obj_guidl.htm "Guideline"). For internal tables, for example, no row numbers must be specified for which no row exists.
 
 -   Before data objects are accessed dynamically by using data references or field symbols, it must be ensured, before execution, that these are bound to a data object and this binding checked using IS BOUND or IS ASSIGNED, if necessary. Afterwards, the return value should be checked to see whether execution was successful.
 
@@ -176,7 +137,7 @@ The different dynamic techniques also require different reactions to the possibl
 
 -   If programs are developed generically, the programs in question must checked using the statement SYNTAX-CHECK.
 
-These examples illustrate how the use of dynamic techniques can lead to more complex and less clear code due to the numerous possible exception situations. Of course, the more the mentioned techniques are combined, the more complex and less clear the code becomes. Therefore, [dynamic programming techniques must always be used with care](javascript:call_link\('abenuse_dynamic_progr_tech_guidl.htm'\) "Guideline").
+These examples illustrate how the use of dynamic techniques can lead to more complex and less clear code due to the numerous possible exception situations. Of course, the more the mentioned techniques are combined, the more complex and less clear the code becomes. Therefore, [dynamic programming techniques must always be used with care](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dynamic_progr_tech_guidl.htm "Guideline").
 
 Note
 
@@ -218,14 +179,7 @@ IF <where\_clause> IS NOT INITIAL.
 ENDIF.
 
 
-
-**📖 Source**: [abenruntime_error_dyn_proc_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_dyn_proc_guidl.htm)
-
 ### abenuse_dyn_data_object_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenuse_dyn_data_object_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dyn_data_object_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -233,13 +187,13 @@ ENDIF.
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm) → 
 
 Using Dynamic Data Objects
 
 Background
 
-Dynamic data objects are a subgroup of [dynamic memory objects](javascript:call_link\('abenmem_cons_dyn_mem_obj_guidl.htm'\) "Guideline") and simply consist of:
+Dynamic data objects are a subgroup of [dynamic memory objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmem_cons_dyn_mem_obj_guidl.htm "Guideline") and simply consist of:
 
 -   Strings
 
@@ -267,23 +221,16 @@ When using dynamic data objects, selecting the type is a key decision. The gener
 
 -   Structured data or data that can be sensibly divided into individual sections is stored as internal table rows.
 
-However, if you need to store a very large data set as dynamic data objects, different aspects must be considered. String and xstring data objects must be stored as one piece in the memory, whereas the content of internal tables is stored in blocks. This is more likely to cause resource bottlenecks when strings are used. Even if sufficient [memory](javascript:call_link\('abenmem_cons_dyn_mem_obj_guidl.htm'\) "Guideline") space is available, the memory cannot handle a string of the requested length, due to fragmentation. In these cases, it makes more sense to store the data as an internal table instead of storing the data in a string as one piece.
+However, if you need to store a very large data set as dynamic data objects, different aspects must be considered. String and xstring data objects must be stored as one piece in the memory, whereas the content of internal tables is stored in blocks. This is more likely to cause resource bottlenecks when strings are used. Even if sufficient [memory](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmem_cons_dyn_mem_obj_guidl.htm "Guideline") space is available, the memory cannot handle a string of the requested length, due to fragmentation. In these cases, it makes more sense to store the data as an internal table instead of storing the data in a string as one piece.
 
 The EXPORT statement for storing data in a cluster supports both storage types, for example: EXPORT ... TO DATA BUFFER stores the cluster in a single long byte string, whereas EXPORT ... TO INTERNAL TABLE distributes the cluster across numerous rows of an internal table. The latter possibility (EXPORT ... TO INTERNAL TABLE) is more secure (for the reason explained above), if the cluster needs to contain a very large data set.
 
 Note
 
-Strings and internal tables are predefined (or built in) in the ABAP language as data types and the corresponding access statements. In other programming languages, however, they are often implemented as libraries (such as string classes and container classes). In ABAP, it is usually [neither necessary nor useful](javascript:call_link\('abenobj_oriented_guidl.htm'\) "Guideline") to define specific classes for storing strings or table-like data. However, in rare cases, it may be useful to wrap internal tables in classes, to release more [memory](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline") when data is deleted.
+Strings and internal tables are predefined (or built in) in the ABAP language as data types and the corresponding access statements. In other programming languages, however, they are often implemented as libraries (such as string classes and container classes). In ABAP, it is usually [neither necessary nor useful](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobj_oriented_guidl.htm "Guideline") to define specific classes for storing strings or table-like data. However, in rare cases, it may be useful to wrap internal tables in classes, to release more [memory](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline") when data is deleted.
 
-
-
-**📖 Source**: [abenuse_dyn_data_object_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dyn_data_object_guidl.htm)
 
 ### abenmem_cons_dyn_mem_obj_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenmem_cons_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmem_cons_dyn_mem_obj_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -291,7 +238,7 @@ Strings and internal tables are predefined (or built in) in the ABAP language as
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm) → 
 
 Memory Consumption of Dynamic Memory Objects
 
@@ -307,11 +254,11 @@ In dynamic objects, the actual data is addressed using a reference. This means t
 
 -   Instances of classes created using CREATE OBJECT and addressed using object references in object reference variables
 
-The maximum total size and number of all dynamically managed memory objects in an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") are defined in principle by the maximum amount of memory that this session can request to execute programs.
+The maximum total size and number of all dynamically managed memory objects in an [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") are defined in principle by the maximum amount of memory that this session can request to execute programs.
 
 Alongside the available memory on the current AS Instance, there are two further technical limits that can restrict the size of individual dynamic memory objects:
 
--   The upper limit is 2³¹-1 for the size of a string in bytes (in the character representation [UCS-2](javascript:call_link\('abenucs2_glosry.htm'\) "Glossary Entry") used by the ABAP programming language, every character in a string occupies 2 bytes) and the number of rows in an internal table.
+-   The upper limit is 2³¹-1 for the size of a string in bytes (in the character representation [UCS-2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenucs2_glosry.htm "Glossary Entry") used by the ABAP programming language, every character in a string occupies 2 bytes) and the number of rows in an internal table.
 
 -   The memory for the content of a string and for hash management of an internal hashed table must be provided as one piece. Therefore, the ztta/max\_ memreq\_mb profile parameter is relevant for these two memory object types. It defines the maximum amount of memory that can be requested as one piece. A maximum size for strings and a limitation on the number of rows in hashed tables can be directly derived from this amount. This limitation does not depend on the width of table rows. Only the hash management (and not the table content) must be provided as one piece in the memory. The current limitation is the highest power of two, which is less than or equal to an eighth of the value specified by the profile parameter. For example, if the profile parameter specifies 250MB, a hashed table can contain approximately 16 million rows.
 
@@ -341,7 +288,7 @@ The main advantage of dynamically managed memory is that it can be released agai
 
 -   You can delete strings using the CLEAR statement.
 
--   You can use CLEAR or FREE to delete internal tables. FREE releases the entire memory space occupied by rows, whereas the initial memory requirement of the table remains reserved if CLEAR is used. An appropriate size for the [initial memory requirement](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\) "Guideline") is usually defined by the ABAP runtime environment itself. However, it can also be predefined using the INITIAL SIZE addition.
+-   You can use CLEAR or FREE to delete internal tables. FREE releases the entire memory space occupied by rows, whereas the initial memory requirement of the table remains reserved if CLEAR is used. An appropriate size for the [initial memory requirement](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninitial_memory_requ_guidl.htm "Guideline") is usually defined by the ABAP runtime environment itself. However, it can also be predefined using the INITIAL SIZE addition.
 
 -   Anonymous data objects and instances of classes are deleted by the Garbage Collector, after all reference variables that refer to these objects have been initialized. Here, you must ensure that all references are actually identified during initialization. This is not always straightforward, particularly in the case of complex object networks. To analyze memory problems and detect memory leaks, you can use Memory Inspector and the ABAP Debugger memory analysis. You can display memory consumption rankings for all dynamically managed memory objects.
 
@@ -367,14 +314,7 @@ SELECT \*
        ENDSELECT.
 
 
-
-**📖 Source**: [abenmem_cons_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmem_cons_dyn_mem_obj_guidl.htm)
-
 ### abenadmin_costs_dyn_mem_obj_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenadmin_costs_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -382,7 +322,7 @@ SELECT \*
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm) → 
 
 Administration Costs of Dynamic Memory Objects
 
@@ -406,7 +346,7 @@ For internal tables, in addition to the administration data (mostly independent 
 
 -   18 bytes per table row on average, provided that the table is not accessed using the DELETE or SORT statements. If one of these access types occurs, an average of 30 bytes is required per table row.
 
-With each additional secondary table key, the [memory](javascript:call_link\('abensecondary_key_guidl.htm'\) "Guideline") requirement increases by the memory needed for secondary key management (secondary index or secondary hash management).
+With each additional secondary table key, the [memory](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_key_guidl.htm "Guideline") requirement increases by the memory needed for secondary key management (secondary index or secondary hash management).
 
 Rule
 
@@ -431,25 +371,18 @@ In addition, the fill level of complex data objects assumes a significant role. 
 
 Deep data objects with a fill level that is sparse or duplicative can usually be used without problems. But for complex data objects with a low fill level, a disparity between administration data and application data can easily occur. ABAP is inappropriate for large-scale use of data objects with a low fill level.
 
-At a low dataset level, class wrapping can be considered as an alternative to internal tables. This is because the extra costs for objects are comparatively low and objects can be completely deleted from the memory (unlike dynamic data objects). This is an exception to the rule that [dynamic data objects](javascript:call_link\('abenuse_dyn_data_object_guidl.htm'\) "Guideline") should be used wherever possible.
+At a low dataset level, class wrapping can be considered as an alternative to internal tables. This is because the extra costs for objects are comparatively low and objects can be completely deleted from the memory (unlike dynamic data objects). This is an exception to the rule that [dynamic data objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dyn_data_object_guidl.htm "Guideline") should be used wherever possible.
 
 Note
 
-Besides the ratio of administration data to application data, the ratio of the [memory allocated](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\) "Guideline") for application data and the memory actually used is also interesting for internal tables.
+Besides the ratio of administration data to application data, the ratio of the [memory allocated](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninitial_memory_requ_guidl.htm "Guideline") for application data and the memory actually used is also interesting for internal tables.
 
 Example
 
-The executable example [DEMO\_MEMORY\_USAGE](javascript:call_link\('abenmemory_usage_abexa.htm'\)) demonstrates the administration costs of deep components with low data content.
+The executable example [DEMO\_MEMORY\_USAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmemory_usage_abexa.htm) demonstrates the administration costs of deep components with low data content.
 
-
-
-**📖 Source**: [abenadmin_costs_dyn_mem_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm)
 
 ### abendyn_access_data_obj_guidl.htm
-
-> **📖 Official SAP Documentation**: [abendyn_access_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_access_data_obj_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -457,7 +390,7 @@ The executable example [DEMO\_MEMORY\_USAGE](javascript:call_link\('abenmemory_u
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm) → 
 
 Accessing Data Objects Dynamically
 
@@ -466,14 +399,14 @@ Background
 Field symbols and data references are used to access data objects whose name and attributes are not known until runtime.
 
 -   Field symbols
-    A field symbol is a symbolic name for a data object declared with FIELD-SYMBOLS, to which memory areas can be assigned using the ASSIGN statement or, if internal tables are processed, using the ASSIGNING addition. Field symbols are typed either generically or completely and can be used like a data object in all appropriate operand positions. For typing, the same rules apply as for [formal parameters of procedures](javascript:call_link\('abentype_formal_param_guidl.htm'\) "Guideline"). When accessing field symbols, value semantics applies, which means that the assigned memory content is addressed directly. Field symbols are thus always handled like dereferenced pointers.
+    A field symbol is a symbolic name for a data object declared with FIELD-SYMBOLS, to which memory areas can be assigned using the ASSIGN statement or, if internal tables are processed, using the ASSIGNING addition. Field symbols are typed either generically or completely and can be used like a data object in all appropriate operand positions. For typing, the same rules apply as for [formal parameters of procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_formal_param_guidl.htm "Guideline"). When accessing field symbols, value semantics applies, which means that the assigned memory content is addressed directly. Field symbols are thus always handled like dereferenced pointers.
 
 -   Data references
-    A data reference is the content of a data reference variable that is declared using REF TO and points to any data objects or parts of data objects. Data references are needed to create anonymous data objects using CREATE DATA or [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)). They can also be generated for existing data objects, however, using the statement GET REFERENCE, the reference operator [REF](javascript:call_link\('abenconstructor_expression_ref.htm'\)), or, if internal tables are processed, using the REFERENCE INTO addition. A data reference variable is either completely generic or completely typed. When accessing data reference variables, reference semantics applies, which means that the data reference itself is addressed. To access the referenced memory content, a data reference variable must be dereferenced explicitly using the dereferencing operator (->\*).
+    A data reference is the content of a data reference variable that is declared using REF TO and points to any data objects or parts of data objects. Data references are needed to create anonymous data objects using CREATE DATA or [NEW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_new.htm). They can also be generated for existing data objects, however, using the statement GET REFERENCE, the reference operator [REF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_ref.htm), or, if internal tables are processed, using the REFERENCE INTO addition. A data reference variable is either completely generic or completely typed. When accessing data reference variables, reference semantics applies, which means that the data reference itself is addressed. To access the referenced memory content, a data reference variable must be dereferenced explicitly using the dereferencing operator (->\*).
 
 Field symbols and data references are closely linked because only completely typed data reference variables can be dereferenced in any operand position. Completely generic data reference variables (REF TO data) can be dereferenced in the ASSIGN statement only.
 
-Data reference variables can be [declared](javascript:call_link\('abendeclaration_variables_guidl.htm'\) "Guideline") in the same context as all other data objects, especially also as attributes of classes. Field symbols, in contrast, can only be declared within procedures ([methods](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) or in the global declaration part. However, the latter is [no longer allowed](javascript:call_link\('abendeclaration_variables_guidl.htm'\) "Guideline").
+Data reference variables can be [declared](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclaration_variables_guidl.htm "Guideline") in the same context as all other data objects, especially also as attributes of classes. Field symbols, in contrast, can only be declared within procedures ([methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) or in the global declaration part. However, the latter is [no longer allowed](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclaration_variables_guidl.htm "Guideline").
 
 Rule
 
@@ -504,15 +437,15 @@ Both field symbols and data references can be understood as pointers to memory a
 -   Dereferencing of generic data reference variables
     ASSIGN dref->\* ...
 
--   Due to their reference semantics, data references are to be used if the focus is on the explicit handling of references to data objects. Data references are vital for creating anonymous data objects or complex dynamic data structures, such as trees or chained lists in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") or in the shared objects memory. Furthermore, data references are the preferred element for implementing explicit sharing between any data objects, and for passing pointers to data objects to procedures.
+-   Due to their reference semantics, data references are to be used if the focus is on the explicit handling of references to data objects. Data references are vital for creating anonymous data objects or complex dynamic data structures, such as trees or chained lists in the [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") or in the shared objects memory. Furthermore, data references are the preferred element for implementing explicit sharing between any data objects, and for passing pointers to data objects to procedures.
 
 Note
 
-Actually, data reference variables can be better used in programs that are based on [ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") because they have the same semantics as object reference variables and therefore represent a more [modern](javascript:call_link\('abenmodern_abap_guidl.htm'\) "Guideline") programming concept. Field symbols, on the other hand, provide more functions than data references and can thus not always be replaced by them. Consequently, the usage of field symbols for dynamic accesses to data objects is still recommended, although the sole use of data references would be preferred for consistency and simplicity reasons.
+Actually, data reference variables can be better used in programs that are based on [ABAP Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") because they have the same semantics as object reference variables and therefore represent a more [modern](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodern_abap_guidl.htm "Guideline") programming concept. Field symbols, on the other hand, provide more functions than data references and can thus not always be replaced by them. Consequently, the usage of field symbols for dynamic accesses to data objects is still recommended, although the sole use of data references would be preferred for consistency and simplicity reasons.
 
 Bad Example
 
-The following source code shows a loop for an internal table in which the system is supposed to directly [access the current row](javascript:call_link\('abentable_output_guidl.htm'\) "Guideline"). If a generic data reference variable is used for this purpose, a field symbol is also needed for its dereferencing.
+The following source code shows a loop for an internal table in which the system is supposed to directly [access the current row](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_output_guidl.htm "Guideline"). If a generic data reference variable is used for this purpose, a field symbol is also needed for its dereferencing.
 
 METHOD some\_method.
   "IMPORTING i\_itab TYPE INDEX TABLE
@@ -528,7 +461,7 @@ ENDMETHOD.
 
 Good Example
 
-The following source code simplifies the above example by using a field symbol, which is required to access table rows anyway, directly and without using a data reference. The direct use of the field symbol thus also complies with the [KISS principle](javascript:call_link\('abenkiss_principle_guidl.htm'\) "Guideline").
+The following source code simplifies the above example by using a field symbol, which is required to access table rows anyway, directly and without using a data reference. The direct use of the field symbol thus also complies with the [KISS principle](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenkiss_principle_guidl.htm "Guideline").
 
 METHOD some\_method.
   "IMPORTING i\_itab TYPE INDEX TABLE
@@ -541,17 +474,7 @@ METHOD some\_method.
 ENDMETHOD.
 
 
-
-**📖 Source**: [abendyn_access_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_access_data_obj_guidl.htm)
-
 ### abengeneric_progr_guidl.htm
-
-> **📖 Official SAP Documentation**: [abengeneric_progr_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_progr_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abengeneric_progr_guidl.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_progr_guidl.htm)
-
 
   
 
@@ -559,7 +482,7 @@ ENDMETHOD.
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_prog_technique_guidl.htm) → 
 
 Generic Programming
 
@@ -574,15 +497,15 @@ Generic programming (dynamic creation of source code) makes programs as dynamic 
 
 -   Dynamic calls of procedures, particularly methods (known as dynamic invokes)
 
--   Dynamic type specifications when anonymous data objects are created. In this case, types can be used that are only created at runtime using Run Time Type Services ([RTTS](javascript:call_link\('abenrtti.htm'\))).
+-   Dynamic type specifications when anonymous data objects are created. In this case, types can be used that are only created at runtime using Run Time Type Services ([RTTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrtti.htm)).
 
 -   Dynamic specifications of clauses when internal tables are accessed or in ABAP SQL.
-    Dynamic token specifications are often used in combination with [dynamic access to data objects](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline").
+    Dynamic token specifications are often used in combination with [dynamic access to data objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_access_data_obj_guidl.htm "Guideline").
 
 -   Program generation
     Program generation involves preparing complete programs as content for internal tables and then creating the programs. A distinction is made between the following cases:
 
--   Transient program generation using GENERATE SUBROUTINE POOL, where the generated programs only exist in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of the current program.
+-   Transient program generation using GENERATE SUBROUTINE POOL, where the generated programs only exist in the [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") of the current program.
 
 -   Persistent program generation with INSERT REPORT. The generated programs are saved as repository objects.
 
@@ -604,7 +527,7 @@ Program generation has a lot of conceptual problems such as checking, testing, a
 
 -   It creates types at runtime (Runtime Type Creation, RTTC). RTTC should be used if the CREATE DATA statement does not offer sufficient options for the planned implementation (for example, building new structures).
 
-These methods, combined with [field symbols and data references](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline"), are now usually sufficient for most tasks that could only be solved using program generation in older releases.
+These methods, combined with [field symbols and data references](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_access_data_obj_guidl.htm "Guideline"), are now usually sufficient for most tasks that could only be solved using program generation in older releases.
 
 Exception
 
@@ -614,15 +537,15 @@ Unlike application programs, system programs usually frequently rely on program 
 
 Notes
 
--   Even generated programs should always adhere to the predefined guidelines. For example, the program logic should be implemented/generated in a generated subroutine pool in the form of [local classes](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline"). The generated functions are usually called by means of a single [subroutine](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline") that is used as an entry point into the generated local classes (see the following example).
+-   Even generated programs should always adhere to the predefined guidelines. For example, the program logic should be implemented/generated in a generated subroutine pool in the form of [local classes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obj_progr_model_guidl.htm "Guideline"). The generated functions are usually called by means of a single [subroutine](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm "Guideline") that is used as an entry point into the generated local classes (see the following example).
 
 -   To minimize the risks involved, it can be useful to save templates with correct syntax that adhere to the guidelines in the repository. READ REPORT can then be used to load the templates as templates for dynamically generated programs, in which only small parts are changed or added at runtime.
 
--   Subroutines in generated subroutine pools are an exception to the [rule](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline"), which states that subroutines should no longer be created, and an exception to the [rule](javascript:call_link\('abenintern_extern_proc_call_guidl.htm'\) "Guideline"), which states that subroutines should no longer be called. In addition, absolute type names can be used to access the local classes of a generated subroutine pool. However, this violates the rule [Only call suitable procedures externally](javascript:call_link\('abenintern_extern_proc_call_guidl.htm'\) "Guideline").
+-   Subroutines in generated subroutine pools are an exception to the [rule](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obj_progr_model_guidl.htm "Guideline"), which states that subroutines should no longer be created, and an exception to the [rule](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenintern_extern_proc_call_guidl.htm "Guideline"), which states that subroutines should no longer be called. In addition, absolute type names can be used to access the local classes of a generated subroutine pool. However, this violates the rule [Only call suitable procedures externally](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenintern_extern_proc_call_guidl.htm "Guideline").
 
 Bad Example
 
-The following source code demonstrates unnecessary program generation. The only reason for generating the program are dynamic reads on a database table. The name of the database table and the row type of the internal table (into which data is read) are replaced by a parameter value in the source code of the program to be generated. The value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) is used to create the internal table. As recommended, the subroutine of the generated subroutine pool only contains the call for a method of a local class where the actual implementation is located. Instead of filling the program table row by row, it would have also been possible in this case to create a corresponding program in the repository and load this program using READ REPORT.
+The following source code demonstrates unnecessary program generation. The only reason for generating the program are dynamic reads on a database table. The name of the database table and the row type of the internal table (into which data is read) are replaced by a parameter value in the source code of the program to be generated. The value operator [VALUE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_value.htm) is used to create the internal table. As recommended, the subroutine of the generated subroutine pool only contains the call for a method of a local class where the actual implementation is located. Instead of filling the program table row by row, it would have also been possible in this case to create a corresponding program in the repository and load this program using READ REPORT.
 
 PARAMETERS dbtab TYPE c LENGTH 16.
 

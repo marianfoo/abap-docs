@@ -3,31 +3,7 @@
 Included pages: 7
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenadbc_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm)
-- [abenadbc_dml_ddl_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm)
-- [abenadbc_dml_ddl_binding_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm)
-- [abenadbc_dml_ddl_bulk_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
-- [abenadbc_query_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm)
-- [abenadbc_procedure_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm)
-- [abenadbc_sql_prepared_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
-
-**Bundle Contains**: 7 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.959Z
-
----
-
 ### abenadbc_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenadbc_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,27 +11,20 @@ Included pages: 7
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ADBC - ABAP Database Connectivity](javascript:call_link\('abenadbc.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [ADBC - ABAP Database Connectivity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) → 
 
 ADBC Examples
 
 Continue
-![Example](exa.gif "Example") [ADBC, DDL, and DML](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\))
-![Example](exa.gif "Example") [ADBC, Parameter Binding](javascript:call_link\('abenadbc_dml_ddl_binding_abexa.htm'\))
-![Example](exa.gif "Example") [ADBC, Bulk Access](javascript:call_link\('abenadbc_dml_ddl_bulk_abexa.htm'\))
-![Example](exa.gif "Example") [ADBC, Query](javascript:call_link\('abenadbc_query_abexa.htm'\))
-![Example](exa.gif "Example") [ADBC, Stored Procedure](javascript:call_link\('abenadbc_procedure_abexa.htm'\))
-![Example](exa.gif "Example") [ADBC, Prepared Statement](javascript:call_link\('abenadbc_sql_prepared_abexa.htm'\))
+![Example](exa.gif "Example") [ADBC, DDL, and DML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm)
+![Example](exa.gif "Example") [ADBC, Parameter Binding](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm)
+![Example](exa.gif "Example") [ADBC, Bulk Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
+![Example](exa.gif "Example") [ADBC, Query](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm)
+![Example](exa.gif "Example") [ADBC, Stored Procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm)
+![Example](exa.gif "Example") [ADBC, Prepared Statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
 
-
-
-**📖 Source**: [abenadbc_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm)
 
 ### abenadbc_dml_ddl_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -63,11 +32,11 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ADBC - ABAP Database Connectivity](javascript:call_link\('abenadbc.htm'\)) →  [ADBC Examples](javascript:call_link\('abenadbc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [ADBC - ABAP Database Connectivity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) →  [ADBC Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm) → 
 
 ADBC, DDL, and DML
 
-This example demonstrates the use of the [DDL and DML statements](javascript:call_link\('abenadbc_ddl_dml.htm'\)) with ADBC.
+This example demonstrates the use of the [DDL and DML statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_ddl_dml.htm) with ADBC.
 
 Source Code
 
@@ -170,19 +139,12 @@ START-OF-SELECTION.
 
 Description
 
-This program makes it possible to create a database table whose name can be chosen by the user. One hundred rows can be inserted in the database table, individual rows can be read, and the database table can be deleted. The Native SQL statements are passed to methods of the class CL\_SQL\_STATEMENT using [string expressions](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry").
+This program makes it possible to create a database table whose name can be chosen by the user. One hundred rows can be inserted in the database table, individual rows can be read, and the database table can be deleted. The Native SQL statements are passed to methods of the class CL\_SQL\_STATEMENT using [string expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_expression_glosry.htm "Glossary Entry").
 
-Any exceptions are handled. When rows are exported, quotation marks are escaped in the user input. This prevents [SQL injections](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry").
+Any exceptions are handled. When rows are exported, quotation marks are escaped in the user input. This prevents [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry").
 
-
-
-**📖 Source**: [abenadbc_dml_ddl_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm)
 
 ### abenadbc_dml_ddl_binding_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_binding_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -190,7 +152,7 @@ Any exceptions are handled. When rows are exported, quotation marks are escaped 
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ADBC - ABAP Database Connectivity](javascript:call_link\('abenadbc.htm'\)) →  [ADBC Examples](javascript:call_link\('abenadbc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [ADBC - ABAP Database Connectivity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) →  [ADBC Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm) → 
 
 ADBC, Parameter Binding
 
@@ -325,19 +287,12 @@ START-OF-SELECTION.
 
 Description
 
-The program is identical to the executable example for [DDL and DML](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\)), except that here the arguments of the statements INSERT and SELECT are specified in the form of parameters ? that are bound to ABAP data objects. Instead of binding multiple parameters to ABAP data objects, they can also be bound to individual data objects or to a structure.
+The program is identical to the executable example for [DDL and DML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm), except that here the arguments of the statements INSERT and SELECT are specified in the form of parameters ? that are bound to ABAP data objects. Instead of binding multiple parameters to ABAP data objects, they can also be bound to individual data objects or to a structure.
 
 The parameter binding removes the need to escape quotation marks in the user input for the key when reading data.
 
 
-
-**📖 Source**: [abenadbc_dml_ddl_binding_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm)
-
 ### abenadbc_dml_ddl_bulk_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenadbc_dml_ddl_bulk_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -345,7 +300,7 @@ The parameter binding removes the need to escape quotation marks in the user inp
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ADBC - ABAP Database Connectivity](javascript:call_link\('abenadbc.htm'\)) →  [ADBC Examples](javascript:call_link\('abenadbc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [ADBC - ABAP Database Connectivity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) →  [ADBC Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm) → 
 
 ADBC, Bulk Access
 
@@ -479,14 +434,7 @@ In all methods for DML statements, parameters are bound using an internal table.
 -   select reads the results set of a query across all rows of the database table to an internal table.
 
 
-
-**📖 Source**: [abenadbc_dml_ddl_bulk_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
-
 ### abenadbc_query_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenadbc_query_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -494,11 +442,11 @@ In all methods for DML statements, parameters are bound using an internal table.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ADBC - ABAP Database Connectivity](javascript:call_link\('abenadbc.htm'\)) →  [ADBC Examples](javascript:call_link\('abenadbc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [ADBC - ABAP Database Connectivity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) →  [ADBC Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm) → 
 
 ADBC, Query
 
-This example demonstrates the execution of a [query](javascript:call_link\('abenadbc_query.htm'\)) with ADBC.
+This example demonstrates the execution of a [query](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query.htm) with ADBC.
 
 Source Code
 
@@ -546,17 +494,10 @@ Description
 
 The method EXECUTE\_QUERY from the class CL\_SQL\_STATEMENT is used to extract three columns of the database table SFLIGHT for the current client. An appropriate internal table is bound to the results set using the method SET\_PARAM\_TABLE of the class CL\_SQL\_RESULT\_SET. Using the method NEXT\_PACKAGE, all the rows of the results set are transported into the internal table.
 
-Quotation marks are escaped in the user input. This prevents [SQL injections](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry").
+Quotation marks are escaped in the user input. This prevents [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry").
 
-
-
-**📖 Source**: [abenadbc_query_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm)
 
 ### abenadbc_procedure_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenadbc_procedure_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -564,11 +505,11 @@ Quotation marks are escaped in the user input. This prevents [SQL injections](ja
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ADBC - ABAP Database Connectivity](javascript:call_link\('abenadbc.htm'\)) →  [ADBC Examples](javascript:call_link\('abenadbc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [ADBC - ABAP Database Connectivity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) →  [ADBC Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm) → 
 
 ADBC, Stored Procedure
 
-The example demonstrates the execution of a [stored procedure](javascript:call_link\('abenadbc_procedure.htm'\)) using ADBC.
+The example demonstrates the execution of a [stored procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure.htm) using ADBC.
 
 Source Code
 
@@ -668,24 +609,14 @@ START-OF-SELECTION.
 
 Description
 
-Using the method EXECUTE\_PROCEDURE of the class CL\_SQL\_STATEMENT, the [SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") increase\_price defined in the same program using the method EXECUTE\_DDL is called. This raises all the flight prices in the table SFLIGHT in the current client by the value contained in the parameter incprice.
+Using the method EXECUTE\_PROCEDURE of the class CL\_SQL\_STATEMENT, the [SQLScript procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") increase\_price defined in the same program using the method EXECUTE\_DDL is called. This raises all the flight prices in the table SFLIGHT in the current client by the value contained in the parameter incprice.
 
 This procedure must be implemented specially for each database. The databases in this example are the SAP HANA database, MaxDB, and Oracle. This example program can only be executed for these databases.
 
-The executable example [AMDP, simple procedure call of an SQL Script procedure](javascript:call_link\('abenamdp_abexa.htm'\)) shows how the procedure can be managed and called as an [ABAP Managed Database Procedure](javascript:call_link\('abenamdp.htm'\)). A further [executable example](javascript:call_link\('abencall_db_procedure_abexa.htm'\)), specific to SAP HANA database, shows how the procedure is called using the statement [CALL DATABASE PROCEDURE](javascript:call_link\('abapcall_database_procedure.htm'\)).
+The executable example [AMDP, simple procedure call of an SQL Script procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_abexa.htm) shows how the procedure can be managed and called as an [ABAP Managed Database Procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp.htm). A further [executable example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_db_procedure_abexa.htm), specific to SAP HANA database, shows how the procedure is called using the statement [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_database_procedure.htm).
 
-
-
-**📖 Source**: [abenadbc_procedure_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure_abexa.htm)
 
 ### abenadbc_sql_prepared_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenadbc_sql_prepared_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenadbc_sql_prepared_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_sql_prepared_abexa.htm)
-
 
   
 
@@ -693,11 +624,11 @@ The executable example [AMDP, simple procedure call of an SQL Script procedure](
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ADBC - ABAP Database Connectivity](javascript:call_link\('abenadbc.htm'\)) →  [ADBC Examples](javascript:call_link\('abenadbc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [ADBC - ABAP Database Connectivity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) →  [ADBC Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_abexas.htm) → 
 
 ADBC, Prepared Statement
 
-The example demonstrates how a [prepared statement](javascript:call_link\('abencl_sql_prepared_statement.htm'\)) is created and executed using ADBC.
+The example demonstrates how a [prepared statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_sql_prepared_statement.htm) is created and executed using ADBC.
 
 Source Code
 
@@ -748,6 +679,6 @@ START-OF-SELECTION.
 
 Description
 
-In this example, a [query](javascript:call_link\('abenadbc_query.htm'\)) is instantiated as a prepared statement and is executed with various parameters.
+In this example, a [query](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query.htm) is instantiated as a prepared statement and is executed with various parameters.
 
 The work process cannot switch between the calls of the prepared statement, which means that dialogs using dynpros are not possible in the corresponding loop. Instead, the parameters to be evaluated are prepared and collected in a single internal table and the results lists are prepared and collected in another internal table.

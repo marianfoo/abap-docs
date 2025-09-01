@@ -4,34 +4,34 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Objects](javascript:call_link\('abenobjects_statements.htm'\)) →  [DATA](javascript:call_link\('abapdata.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_and_objects.htm) →  [Declaring Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobjects_statements.htm) →  [DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata.htm) → 
 
 DATA - TABLE OF
 
-[Quick Reference](javascript:call_link\('abapdata_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_shortref.htm)
 
 Syntax
 
 DATA itab *{* *{*TYPE *\[*STANDARD*\]**|*SORTED*|*HASHED TABLE OF *\[*REF TO*\]* type*}*
           *|* *{*LIKE *\[*STANDARD*\]**|*SORTED*|*HASHED TABLE OF dobj*}* *}*
-          *\[*[tabkeys](javascript:call_link\('abapdata_keydef.htm'\))*\]*
+          *\[*[tabkeys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_keydef.htm)*\]*
           *\[*INITIAL SIZE n*\]*
-          [*\[*VALUE IS INITIAL*\]*](javascript:call_link\('abapdata_options.htm'\))
-          [*\[*READ-ONLY*\]*](javascript:call_link\('abapdata_options.htm'\)).
+          [*\[*VALUE IS INITIAL*\]*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_options.htm)
+          [*\[*READ-ONLY*\]*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_options.htm).
 
 Effect
 
-This statement defines an internal table. The definition of the row type, the table category ([STANDARD TABLE](javascript:call_link\('abaptypes_tabkind.htm'\)), [SORTED TABLE](javascript:call_link\('abaptypes_tabkind.htm'\)), or [HASHED TABLE](javascript:call_link\('abaptypes_tabkind.htm'\))), and the initial memory size [INITIAL SIZE](javascript:call_link\('abaptypes_itab.htm'\)) matches the definition of table categories in the section [TYPES - TABLE OF](javascript:call_link\('abaptypes_itab.htm'\)) exactly. Using DATA, these additions create a bound table type. The generic types ANY TABLE and INDEX TABLE cannot be used with DATA.
+This statement defines an internal table. The definition of the row type, the table category ([STANDARD TABLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_tabkind.htm), [SORTED TABLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_tabkind.htm), or [HASHED TABLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_tabkind.htm)), and the initial memory size [INITIAL SIZE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_itab.htm) matches the definition of table categories in the section [TYPES - TABLE OF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_itab.htm) exactly. Using DATA, these additions create a bound table type. The generic types ANY TABLE and INDEX TABLE cannot be used with DATA.
 
-[tabkeys](javascript:call_link\('abapdata_keydef.htm'\)) is used to define the [table keys](javascript:call_link\('abentable_key_glosry.htm'\) "Glossary Entry") of the internal table, which, unlike data types, cannot be generic.
+[tabkeys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_keydef.htm) is used to define the [table keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_key_glosry.htm "Glossary Entry") of the internal table, which, unlike data types, cannot be generic.
 
 Notes
 
 -   When an internal table is created as a data object, only the administration entry for an internal table is created. The actual table rows are not inserted until runtime.
     
--   When an internal table is defined, the start value after the addition [VALUE](javascript:call_link\('abapdata_options.htm'\)) must be IS INITIAL.
+-   When an internal table is defined, the start value after the addition [VALUE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_options.htm) must be IS INITIAL.
     
--   Several obsolete variants for declaring standard tables exist, described under [Obsolete Declarations](javascript:call_link\('abenitab_declare_obsolete.htm'\)). In particular, the obsolete use of the additions [WITH HEADER LINE](javascript:call_link\('abapdata_header_line.htm'\)) and [OCCURS](javascript:call_link\('abapdata_occurs.htm'\)) should be noted.
+-   Several obsolete variants for declaring standard tables exist, described under [Obsolete Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_declare_obsolete.htm). In particular, the obsolete use of the additions [WITH HEADER LINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_header_line.htm) and [OCCURS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_occurs.htm) should be noted.
     
 
 Example
@@ -50,4 +50,4 @@ spfli\_wa = spfli\_tab\[ KEY primary\_key
 ...
 
 Continue
-[DATA - tabkeys](javascript:call_link\('abapdata_keydef.htm'\))
+[DATA - tabkeys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_keydef.htm)

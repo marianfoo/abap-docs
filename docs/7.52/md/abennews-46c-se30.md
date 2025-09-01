@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [Changes in Release 4.6C](javascript:call_link\('abennews-46c.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews.htm) →  [Changes in Releases 4.xx](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-4.htm) →  [Changes in Release 4.6C](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-46c.htm) → 
 
 Runtime Analysis in Release 4.6C
 
@@ -34,7 +34,7 @@ Modification 3
 
 Measurement Restrictions
 From now on, the system uses the variant of a measurement restriction
-that was created or edited most recently. The default variant is set to None in the [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry"). In all other systems, it is set to Full.
+that was created or edited most recently. The default variant is set to None in the [AS ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm "Glossary Entry"). In all other systems, it is set to Full.
 
 Modification 4
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [General Rules](javascript:call_link\('abengeneral_rules_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [General Rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneral_rules_gdl.htm) → 
 
 Correctness and Quality
 
@@ -63,18 +63,18 @@ Details
 
 It is obvious that you must comply with product standards; this needs no further explanation. However, it is often forgotten that the static and dynamic analysis tools that are available in the ABAP environment can provide invaluable help for compliance with important product standards, particularly standards for functional correctness and performance. Therefore, as part of this basic rule we recommend that you use all available tools that help to ensure the correctness and quality of ABAP programs.
 
--   Perform the [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline") (transaction SLIN) on a regular basis and correct all messages.
--   Use the [Code Inspector](javascript:call_link\('abencode_inspector_guidl.htm'\) "Guideline") tool (transaction SCI) on a regular basis using the standard check variant, and correct all messages.
--   Check the usability and accessibility of your interface elements by using the appropriate tools (integrated into the workbench tools and [ABAP Test Cockpit](javascript:call_link\('abenabap-testcockpit_guidl.htm'\) "Guideline")).
+-   Perform the [extended program check](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextended_program_check_guidl.htm "Guideline") (transaction SLIN) on a regular basis and correct all messages.
+-   Use the [Code Inspector](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencode_inspector_guidl.htm "Guideline") tool (transaction SCI) on a regular basis using the standard check variant, and correct all messages.
+-   Check the usability and accessibility of your interface elements by using the appropriate tools (integrated into the workbench tools and [ABAP Test Cockpit](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap-testcockpit_guidl.htm "Guideline")).
 -   Cover all functions of your procedural units by using units tests with ABAP Unit (integrated into ABAP Workbench, Code Inspector, and ABAP Test Cockpit).
 -   Cover all functions of your applications by using scenario tests with eCATT (transaction SECATT).
 -   Check the memory consumption of your programs by using ABAP Memory Inspector (transaction S\_MEMORY\_INSPECTOR and the memory analysis function integrated into ABAP Debugger).
--   Check the runtime behavior and the performance. In SAP GUI use the ABAP runtime analysis (transaction SAT) and in the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") use the ABAP Profiler.
+-   Check the runtime behavior and the performance. In SAP GUI use the ABAP runtime analysis (transaction SAT) and in the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm "Glossary Entry") use the ABAP Profiler.
 -   Check the test coverage by using Coverage Analyzer (transaction SCOV and integrated into ABAP Unit Browser of ABAP Workbench).
--   Follow the [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) to protect your programs and data from attacks from outside.
--   Document your programs and services using all available means: Starting with [comments](javascript:call_link\('abencomments_gdl.htm'\)), this ranges from simple data element documentation for context-sensitive input help, to class and method documentation for documenting APIs, to explanations of concepts and tutorials in other repositories such as SAP Knowledge Warehouse, or on the Internet, for example in the SAP Community (https://community.sap.com/).
+-   Follow the [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_security.htm) to protect your programs and data from attacks from outside.
+-   Document your programs and services using all available means: Starting with [comments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomments_gdl.htm), this ranges from simple data element documentation for context-sensitive input help, to class and method documentation for documenting APIs, to explanations of concepts and tutorials in other repositories such as SAP Knowledge Warehouse, or on the Internet, for example in the SAP Community (https://community.sap.com/).
 
-[ABAP Test Cockpit](javascript:call_link\('abencts_glosry.htm'\) "Glossary Entry") (ATC) integrated into ABAP Workbench and the [Change and Transport System (CTS)](javascript:call_link\('abencts_glosry.htm'\) "Glossary Entry") supports the execution and evaluation of the most important tests. Some of these tests also check compliance with some of the rules of the ABAP programming guidelines discussed later.
+[ABAP Test Cockpit](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencts_glosry.htm "Glossary Entry") (ATC) integrated into ABAP Workbench and the [Change and Transport System (CTS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencts_glosry.htm "Glossary Entry") supports the execution and evaluation of the most important tests. Some of these tests also check compliance with some of the rules of the ABAP programming guidelines discussed later.
 
 Hint
 
@@ -82,4 +82,4 @@ Where in doubt, product standards take precedence over the guidelines and recomm
 
 Good Example
 
-Executing unit tests for classes of the package SABAP\_DEMOS\_CAR\_RENTAL\_APPL and displaying the results in ABAP Unit Browser of Object Navigator gives a test coverage of 100%. This package is shipped as a subpackage for the application part of a small example application, which, in addition to unit tests, also demonstrates strict adherence to the [separation of concerns](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline").
+Executing unit tests for classes of the package SABAP\_DEMOS\_CAR\_RENTAL\_APPL and displaying the results in ABAP Unit Browser of Object Navigator gives a test coverage of 100%. This package is shipped as a subpackage for the application part of a small example application, which, in addition to unit tests, also demonstrates strict adherence to the [separation of concerns](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenseperation_concerns_guidl.htm "Guideline").

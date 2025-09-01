@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [Obsolete CDS Language Elements](javascript:call_link\('abencds_obsolete.htm'\)) →  [Obsolete CDS Entities](javascript:call_link\('abencds_entities_obsolete.htm'\)) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](javascript:call_link\('abencds_ddic_entity.htm'\)) →  [ABAP CDS - DDIC-Based Views (Obsolete)](javascript:call_link\('abencds_v1_views.htm'\)) →  [CDS DDL - DEFINE VIEW ddic\_based](javascript:call_link\('abencds_define_view_v1.htm'\)) →  [CDS DDL - DDIC-Based View, SELECT](javascript:call_link\('abencds_select_statement_v1.htm'\)) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](javascript:call_link\('abencds_operands_and_expr_v1.htm'\)) →  [CDS DDL - DDIC-Based View, Expressions](javascript:call_link\('abencds_expressions_v1.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_expressions_v1.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20DDIC-Based%20View%2C%20cast_expr%2C%20ABENCDS_CAST_EXPRESSION_V1%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improve
 ment:)
@@ -17,27 +17,27 @@ Syntax
 
 Effect
 
-Casting in a [SELECT statement](javascript:call_link\('abencds_select_statement_v1.htm'\)) of a [CDS DDIC-based view (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry"). The cast expression [converts](javascript:call_link\('abencds_cast_expression_rules_v1.htm'\)) the value of the operand operand to the ABAP Dictionary type specified by dtype. The result has the type dtype. The following can be specified for dtype:
+Casting in a [SELECT statement](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_statement_v1.htm) of a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v1_view_glosry.htm "Glossary Entry"). The cast expression [converts](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_rules_v1.htm) the value of the operand operand to the ABAP Dictionary type specified by dtype. The result has the type dtype. The following can be specified for dtype:
 
--   A [DDIC data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry"). In this case, the optional addition PRESERVING TYPE can be specified. If this addition is specified, the built-in data type, the length of the operand and the number of decimal places, and the target data type must match exactly.
--   A built-in data type from ABAP Dictionary. The addition PRESERVING TYPE cannot be specified in this case. All available data types are listed in the topic [ABAP CDS - Overview of Built-In DDIC Types That Can Be Used in ABAP CDS](javascript:call_link\('abencds_overview_builtin_types.htm'\)).
+-   A [DDIC data element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_element_glosry.htm "Glossary Entry"). In this case, the optional addition PRESERVING TYPE can be specified. If this addition is specified, the built-in data type, the length of the operand and the number of decimal places, and the target data type must match exactly.
+-   A built-in data type from ABAP Dictionary. The addition PRESERVING TYPE cannot be specified in this case. All available data types are listed in the topic [ABAP CDS - Overview of Built-In DDIC Types That Can Be Used in ABAP CDS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_overview_builtin_types.htm).
 
 The following can be specified for operand:
 
--   A [literal](javascript:call_link\('abencds_literal_v1.htm'\)) without a domain prefix
--   A [parameter](javascript:call_link\('abencds_parameter_v1.htm'\))
--   A [session variable](javascript:call_link\('abencds_session_variable_v1.htm'\))
--   A [field](javascript:call_link\('abencds_field_v1.htm'\)) of a data source [data\_source](javascript:call_link\('abencds_data_source_v1.htm'\)) of the current CDS view
--   An [aggregate expression](javascript:call_link\('abencds_aggregate_functions_v1.htm'\))
--   A [path expression](javascript:call_link\('abencds_path_expression_v1.htm'\)) that identifies a field of a data source [data\_source](javascript:call_link\('abencds_data_source_v1.htm'\))
--   A [built-in function](javascript:call_link\('abencds_builtin_functions_v1.htm'\))
--   An [arithmetic expression](javascript:call_link\('abencds_arithmetic_expression_v1.htm'\))
--   A case distinction with [CASE](javascript:call_link\('abencds_case_expression_v1.htm'\))
+-   A [literal](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_literal_v1.htm) without a domain prefix
+-   A [parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_parameter_v1.htm)
+-   A [session variable](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_session_variable_v1.htm)
+-   A [field](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_field_v1.htm) of a data source [data\_source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_data_source_v1.htm) of the current CDS view
+-   An [aggregate expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_aggregate_functions_v1.htm)
+-   A [path expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_path_expression_v1.htm) that identifies a field of a data source [data\_source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_data_source_v1.htm)
+-   A [built-in function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_builtin_functions_v1.htm)
+-   An [arithmetic expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_arithmetic_expression_v1.htm)
+-   A case distinction with [CASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_case_expression_v1.htm)
 -   A nested cast expression
 
-Cast expressions can be specified in the [SELECT list](javascript:call_link\('abencds_select_list_v1.htm'\)) and in operand positions of expressions.
+Cast expressions can be specified in the [SELECT list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_v1.htm) and in operand positions of expressions.
 
-The following table shows which combinations of built-in data types in ABAP Dictionary can currently be cast to each other and what the prerequisites are in each case. There is a special list of [conversion rules](javascript:call_link\('abencds_cast_expression_rules_v1.htm'\)) for every combination.
+The following table shows which combinations of built-in data types in ABAP Dictionary can currently be cast to each other and what the prerequisites are in each case. There is a special list of [conversion rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_rules_v1.htm) for every combination.
 
 from/to
 
@@ -1297,20 +1297,20 @@ There are no further restrictions to note in combinations with x. The following 
     -   In combinations with d, the data element can have a suitable target type in accordance with the table above and with any length.
     -   In combinations with p, the data element must have the built-in data type and the same length as the data type of the operand.
 
-In the case of incompatible types, the content of the operand is [converted](javascript:call_link\('abencds_cast_expression_rules_v1.htm'\)) to the target type (exceptions can be raised if values are not suitable). In compatible types, a syntax check warning occurs (unless the target data type is specified as a data element using the addition PRESERVING TYPE).
+In the case of incompatible types, the content of the operand is [converted](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_rules_v1.htm) to the target type (exceptions can be raised if values are not suitable). In compatible types, a syntax check warning occurs (unless the target data type is specified as a data element using the addition PRESERVING TYPE).
 
 Hints
 
 -   If a data element is specified for dtype, the result of the expression inherits the semantic properties of the data element. An exception to this is the use of the CAST expression within a case distinction.
 -   If the addition PRESERVING TYPE is specified, the data type of the operand stays the same and only the semantic properties are changed.
--   The characters in the [surrogate area](javascript:call_link\('abensurrogate_area_glosry.htm'\) "Glossary Entry") of the [system code page](javascript:call_link\('abensystem_codepage_glosry.htm'\) "Glossary Entry") [UTF-16](javascript:call_link\('abenutf16_glosry.htm'\) "Glossary Entry") are handled as two characters in cast expressions for strings. Care should be taken to avoid splitting these characters in truncation operations.
--   When performing a [conversion](javascript:call_link\('abencds_cast_expression_rules_v1.htm'\)) between [currency fields](javascript:call_link\('abenddic_currency_field.htm'\)) with type CURR, it should be noted that CAST respects the decimal places defined for the type. In ABAP applications, on the other hand, the position of the decimal point is usually ignored.
+-   The characters in the [surrogate area](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensurrogate_area_glosry.htm "Glossary Entry") of the [system code page](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_codepage_glosry.htm "Glossary Entry") [UTF-16](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenutf16_glosry.htm "Glossary Entry") are handled as two characters in cast expressions for strings. Care should be taken to avoid splitting these characters in truncation operations.
+-   When performing a [conversion](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_rules_v1.htm) between [currency fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_currency_field.htm) with type CURR, it should be noted that CAST respects the decimal places defined for the type. In ABAP applications, on the other hand, the position of the decimal point is usually ignored.
 -   A CAST expression should be platform-independent. Conversions from the type FLTP to other numeric types are not allowed because the result would be platform-dependent.
--   An aggregate expression [AVG](javascript:call_link\('abencds_aggregate_functions_v1.htm'\)) has the type FLTP by default. It can be specified as an operand but it is not possible to cast to other types. Therefore there is a separate addition for AVG [AS dtype](javascript:call_link\('abencds_avg_as_v1.htm'\)).
--   Special built-in [conversion functions](javascript:call_link\('abencds_conversion_functions_v1.htm'\)) are available for special conversions that cannot be covered by a CAST expression:
-    -   [FLTP\_TO\_DEC](javascript:call_link\('abencds_conv_func_types_v1.htm'\)) for converting FLTP to packed numbers.
-    -   [BINTOHEX](javascript:call_link\('abencds_conv_func_types_v1.htm'\)) and [HEXTOBIN](javascript:call_link\('abencds_conv_func_types_v1.htm'\)) for conversions of byte strings to character strings and back.
-    -   [Conversion functions for units and currencies](javascript:call_link\('abencds_conv_func_unit_curr_v1.htm'\))
+-   An aggregate expression [AVG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_aggregate_functions_v1.htm) has the type FLTP by default. It can be specified as an operand but it is not possible to cast to other types. Therefore there is a separate addition for AVG [AS dtype](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_avg_as_v1.htm).
+-   Special built-in [conversion functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_conversion_functions_v1.htm) are available for special conversions that cannot be covered by a CAST expression:
+    -   [FLTP\_TO\_DEC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_conv_func_types_v1.htm) for converting FLTP to packed numbers.
+    -   [BINTOHEX](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_conv_func_types_v1.htm) and [HEXTOBIN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_conv_func_types_v1.htm) for conversions of byte strings to character strings and back.
+    -   [Conversion functions for units and currencies](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_conv_func_unit_curr_v1.htm)
 
 Example
 
@@ -1375,4 +1375,4 @@ define view demo\_cds\_cast\_clnt
     };
 
 Continue
-[CDS DDL - DDIC-Based View, cast\_expr, Conversion Rules](javascript:call_link\('abencds_cast_expression_rules_v1.htm'\))
+[CDS DDL - DDIC-Based View, cast\_expr, Conversion Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_rules_v1.htm)

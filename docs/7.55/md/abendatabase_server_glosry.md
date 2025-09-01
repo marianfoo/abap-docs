@@ -4,8 +4,8 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 database server
 
-Computer in the [database layer](javascript:call_link\('abendatabase_layer_glosry.htm'\) "Glossary Entry") on which the [database system](javascript:call_link\('abendatabase_system_glosry.htm'\) "Glossary Entry") is installed.
+Computer in the [database layer](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_layer_glosry.htm "Glossary Entry") on which the [database system](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_system_glosry.htm "Glossary Entry") is installed.

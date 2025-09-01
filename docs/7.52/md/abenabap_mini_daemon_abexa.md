@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ADF - ABAP Daemon Framework](javascript:call_link\('abenabap_daemon.htm'\)) →  [Examples for ABAP Daemons](javascript:call_link\('abenabap_daemon_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ADF - ABAP Daemon Framework](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon.htm) →  [Examples for ABAP Daemons](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_abexas.htm) → 
 
 ADF, Mini ABAP Daemon
 
-This example demonstrates a mini [ABAP Daemon](javascript:call_link\('abenabap_daemon_glosry.htm'\) "Glossary Entry").
+This example demonstrates a mini [ABAP Daemon](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -52,7 +52,7 @@ START-OF-SELECTION.
 
 Description
 
-The class CL\_DEMO\_ABAP\_MINI\_DAEMON used by the program above demonstrates a mini [ABAP Daemon class](javascript:call_link\('abenabap_daemon_class_glosry.htm'\) "Glossary Entry"). It implements only the following methods of the interface IF\_ABAP\_DAEMON\_EXTENSION:
+The class CL\_DEMO\_ABAP\_MINI\_DAEMON used by the program above demonstrates a mini [ABAP Daemon class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_class_glosry.htm "Glossary Entry"). It implements only the following methods of the interface IF\_ABAP\_DAEMON\_EXTENSION:
 
 -   ON\_ACCEPT
 
@@ -81,13 +81,13 @@ METHOD IF\_ABAP\_DAEMON\_EXTENSION~ON\_MESSAGE.
                    ID 'DemoMiniDaemon'.
 ENDMETHOD.
 
-This method indicates that the daemon is responding to message from a program. To enable this, the message is exported to the [cross-transaction application buffer](javascript:call_link\('abencrosstrans_app_buffer_glosry.htm'\) "Glossary Entry") of the shared memory.
+This method indicates that the daemon is responding to message from a program. To enable this, the message is exported to the [cross-transaction application buffer](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencrosstrans_app_buffer_glosry.htm "Glossary Entry") of the shared memory.
 
-The program DEMO\_ABAP\_MINI\_DAEMON uses [ABAP Daemon Manager](javascript:call_link\('abenabap_daemon_manager_glosry.htm'\) "Glossary Entry") to do the following:
+The program DEMO\_ABAP\_MINI\_DAEMON uses [ABAP Daemon Manager](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_manager_glosry.htm "Glossary Entry") to do the following:
 
 -   Start a daemon based on the class CL\_DEMO\_ABAP\_MINI\_DAEMON.
 
--   Send a [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") message using a temporary [ABAP Daemon handle](javascript:call_link\('abenabap_daemon_handle_glosry.htm'\) "Glossary Entry").
+-   Send a [PCP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpcp_glosry.htm "Glossary Entry") message using a temporary [ABAP Daemon handle](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_handle_glosry.htm "Glossary Entry").
 
 -   Stop the daemon immediately (not a typical step).
 

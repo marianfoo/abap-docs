@@ -4,29 +4,29 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Functions](javascript:call_link\('abenstring_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_processing_expr_func.htm) →  [String Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_functions.htm) → 
 
 Description Functions for Character-Like Arguments
 
 These functions return a numeric result.
 
--   [charlen, dbmaxlen, numofchar, strlen - Length Functions](javascript:call_link\('abenlength_functions.htm'\))
+-   [charlen, dbmaxlen, numofchar, strlen - Length Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlength_functions.htm)
 
--   [char\_off - Length Function](javascript:call_link\('abenlength_functions_args.htm'\))
+-   [char\_off - Length Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlength_functions_args.htm)
 
--   [find, find\_... - Search Functions](javascript:call_link\('abensearch_functions.htm'\))
+-   [find, find\_... - Search Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensearch_functions.htm)
 
--   [count, count\_... - Search Functions](javascript:call_link\('abencount_functions.htm'\))
+-   [count, count\_... - Search Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencount_functions.htm)
 
--   [distance - Distance Function](javascript:call_link\('abendistance_functions.htm'\))
+-   [distance - Distance Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendistance_functions.htm)
 
 Note
 
-These functions can be used in suitable [operand positions](javascript:call_link\('abenexpression_positions.htm'\)), for example directly as an operand of [arithmetic](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") or [relational expressions](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry").
+These functions can be used in suitable [operand positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm), for example directly as an operand of [arithmetic](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") or [relational expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrelational_expression_glosry.htm "Glossary Entry").
 
 Continue
-[charlen, dbmaxlen, numofchar, strlen - Length Functions](javascript:call_link\('abenlength_functions.htm'\))
-[char\_off - Length Function](javascript:call_link\('abenlength_functions_args.htm'\))
-[find, find\_... - Search Functions](javascript:call_link\('abensearch_functions.htm'\))
-[count, count\_... - Search Functions](javascript:call_link\('abencount_functions.htm'\))
-[distance - Distance Function](javascript:call_link\('abendistance_functions.htm'\))
+[charlen, dbmaxlen, numofchar, strlen - Length Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlength_functions.htm)
+[char\_off - Length Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlength_functions_args.htm)
+[find, find\_... - Search Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensearch_functions.htm)
+[count, count\_... - Search Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencount_functions.htm)
+[distance - Distance Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendistance_functions.htm)

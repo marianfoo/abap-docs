@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  M
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  M
 
 MOVE - Quick reference
 
-[Reference](javascript:call_link\('abapmove_obs.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_obs.htm)
 
 Syntax
 
@@ -22,4 +22,4 @@ Obsolete: Assigns the content of source to destination. To assign a general refe
 Addition
 
 -   EXACT
-    Forces a [lossless assignment](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry").
+    Forces a [lossless assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_assignment_glosry.htm "Glossary Entry").

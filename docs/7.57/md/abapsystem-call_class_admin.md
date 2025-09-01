@@ -75,7 +75,7 @@ Addition  
 
 Effect
 
-If the optional addition AS EXTENSION is specified, the method is flagged as an enhancement method ( [enhancement implementation element](javascript:call_link\('abenenhancement_impl_elem_glosry.htm'\) "Glossary Entry")).
+If the optional addition AS EXTENSION is specified, the method is flagged as an enhancement method ( [enhancement implementation element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenhancement_impl_elem_glosry.htm "Glossary Entry")).
 
 Variant 3   
 
@@ -130,7 +130,7 @@ Addition 2  
 
 Effect
 
-If the optional addition NO EXTENSIONS is specified, the call only sets sy-subrc to 0 if the method searched for is not flagged as an enhancement method [enhancement implementation element](javascript:call_link\('abenenhancement_impl_elem_glosry.htm'\) "Glossary Entry")).
+If the optional addition NO EXTENSIONS is specified, the call only sets sy-subrc to 0 if the method searched for is not flagged as an enhancement method [enhancement implementation element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenhancement_impl_elem_glosry.htm "Glossary Entry")).
 
 Variant 5   
 
@@ -231,9 +231,9 @@ Addition  
 
 Effect
 
-If the optional addition NO EXTENSIONS is specified, the call only sets sy-subrc to 0 if the method searched for is not flagged as an enhancement method [enhancement implementation element](javascript:call_link\('abenenhancement_impl_elem_glosry.htm'\) "Glossary Entry")).
+If the optional addition NO EXTENSIONS is specified, the call only sets sy-subrc to 0 if the method searched for is not flagged as an enhancement method [enhancement implementation element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenhancement_impl_elem_glosry.htm "Glossary Entry")).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

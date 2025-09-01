@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 canonical XML representation
 
-Format of [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data that is created during the [serialization](javascript:call_link\('abenserialization_glosry.htm'\) "Glossary Entry") of ABAP data with the [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") and that is a prerequisite for a [deserialization](javascript:call_link\('abendeserialization_glosry.htm'\) "Glossary Entry") using identity transformations and is used as an intermediate format when using [XSLT](javascript:call_link\('abenxslt_glosry.htm'\) "Glossary Entry") to access ABAP data. The short name is [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry"); see also [basXML](javascript:call_link\('abenbasxml_glosry.htm'\) "Glossary Entry")
+Format of [XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxml_glosry.htm "Glossary Entry") data that is created during the [serialization](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenserialization_glosry.htm "Glossary Entry") of ABAP data with the [identity transformation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenid_trafo_glosry.htm "Glossary Entry") and that is a prerequisite for a [deserialization](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeserialization_glosry.htm "Glossary Entry") using identity transformations and is used as an intermediate format when using [XSLT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxslt_glosry.htm "Glossary Entry") to access ABAP data. The short name is [asXML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasxml_glosry.htm "Glossary Entry"); see also [basXML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbasxml_glosry.htm "Glossary Entry")
 
-[→ More about](javascript:call_link\('abenabap_xslt_asxml.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xslt_asxml.htm)

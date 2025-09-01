@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_exceptions.htm) → 
 
 Runtime Errors
 
@@ -14,15 +14,15 @@ Runtime errors indicate situations in which the execution of an ABAP program can
     -   A catchable exception is not handled.
     -   A uncatchable exception is raised.
 -   Program-driven raise:
-    -   The statement [RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\)) or the addition [THROW SHORTDUMP](javascript:call_link\('abenconditional_expression_result.htm'\)) is used.
-    -   An [assertion](javascript:call_link\('abenassertion_glosry.htm'\) "Glossary Entry") fails.
-    -   An [exit message](javascript:call_link\('abenexit_message_glosry.htm'\) "Glossary Entry") or [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") of type X is sent.
+    -   The statement [RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapraise_shortdump.htm) or the addition [THROW SHORTDUMP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconditional_expression_result.htm) is used.
+    -   An [assertion](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassertion_glosry.htm "Glossary Entry") fails.
+    -   An [exit message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexit_message_glosry.htm "Glossary Entry") or [message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm "Glossary Entry") of type X is sent.
 
-Each runtime error is identified by a name and assigned to a specific error situation and leads to a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"). Following a program termination caused by a runtime error, the system generates a [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") which contains the name of the runtime error, the associated exception class, content of data objects, active calls, control structures, and so on, and allows the user to branch directly to the ABAP Debugger. Short dumps are kept in the system for 14 days by default and managed using the [ABAP dump analysis](javascript:call_link\('abenabap_dump_analsyis_glosry.htm'\) "Glossary Entry") (transaction ST22). The output of the short dump can be controlled in the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") rdisp/verbose\_level if there are special requirements.
+Each runtime error is identified by a name and assigned to a specific error situation and leads to a [database rollback](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"). Following a program termination caused by a runtime error, the system generates a [short dump](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshort_dump_glosry.htm "Glossary Entry") which contains the name of the runtime error, the associated exception class, content of data objects, active calls, control structures, and so on, and allows the user to branch directly to the ABAP Debugger. Short dumps are kept in the system for 14 days by default and managed using the [ABAP dump analysis](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dump_analsyis_glosry.htm "Glossary Entry") (transaction ST22). The output of the short dump can be controlled in the [profile parameter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") rdisp/verbose\_level if there are special requirements.
 
 Hint
 
-Program-driven termination of a program should be implemented in situations where meaningful program execution is no longer possible, using [RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\)), [THROW SHORTDUMP](javascript:call_link\('abenconditional_expression_result.htm'\)), or [ASSERT](javascript:call_link\('abapassert.htm'\)) from now on and not using [exit messages](javascript:call_link\('abenexit_message_glosry.htm'\) "Glossary Entry").
+Program-driven termination of a program should be implemented in situations where meaningful program execution is no longer possible, using [RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapraise_shortdump.htm), [THROW SHORTDUMP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconditional_expression_result.htm), or [ASSERT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassert.htm) from now on and not using [exit messages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexit_message_glosry.htm "Glossary Entry").
 
 Example
 
@@ -31,4 +31,4 @@ Raising of the runtime error COMPUTE\_INT\_ZERODIVIDE when the exception CX\_SY\
 cl\_demo\_output=>display( 1 / 0 ).
 
 Continue
-[RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\))
+[RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapraise_shortdump.htm)

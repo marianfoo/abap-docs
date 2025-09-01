@@ -4,8 +4,8 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 database object
 
-Object saved in a [database](javascript:call_link\('abendatabase_glosry.htm'\) "Glossary Entry"), such as a [database table](javascript:call_link\('abendatabase_table_glosry.htm'\) "Glossary Entry"), an [SQL view](javascript:call_link\('abensql_view_glosry.htm'\) "Glossary Entry"), or a [stored procedure](javascript:call_link\('abenstored_procedure_glosry.htm'\) "Glossary Entry"). [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry") mainly uses [ABAP-managed database objects](javascript:call_link\('abenabap_managed_db_object_glosry.htm'\) "Glossary Entry").
+Object saved in a [database](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_glosry.htm "Glossary Entry"), such as a [database table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_table_glosry.htm "Glossary Entry"), an [SQL view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_view_glosry.htm "Glossary Entry"), or a [stored procedure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstored_procedure_glosry.htm "Glossary Entry"). [AS ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenas_abap_glosry.htm "Glossary Entry") mainly uses [ABAP-managed database objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_object_glosry.htm "Glossary Entry").

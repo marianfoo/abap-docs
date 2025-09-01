@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  E
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  E
 
 END-OF-SELECTION - Quick reference
 
-[Reference](javascript:call_link\('abapend-of-selection.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-of-selection.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ END-OF-SELECTION.
 
 Effect
 
-Obsolete: Initiates an event block whose event is raised in [executable programs](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") once the associated [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") has read all data.
+Obsolete: Initiates an event block whose event is raised in [executable programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexecutable_program_glosry.htm "Glossary Entry") once the associated [logical database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") has read all data.

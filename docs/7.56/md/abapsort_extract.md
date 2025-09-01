@@ -4,18 +4,18 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Extracts](javascript:call_link\('abenabap_extracts_extended.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_extracts_extended.htm) → 
 
 SORT, Extract
 
-[Short Reference](javascript:call_link\('abapsort_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_shortref.htm)
 
 Obsolete Syntax
 
 SORT *\[*ASCENDING*|*DESCENDING*\]*
      *\[*AS TEXT*\]*
      *\[*STABLE*\]*
-     *\[*[sort\_key](javascript:call_link\('abapsort_key.htm'\))*\]*.
+     *\[*[sort\_key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_key.htm)*\]*.
 
 Additions:
 
@@ -25,20 +25,20 @@ Additions:
 
 Effect
 
-This statement sorts the [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry") of the program. A prerequisite for executing the statement is that the field group header is defined using the statement [FIELD-GROUPS](javascript:call_link\('abapfield-groups.htm'\)), and is therefore a component of all field groups. If no explicit sort key [sort\_key](javascript:call_link\('abapsort_key.htm'\)) is specified, the extract dataset is sorted by the components of the field group header. Numeric and byte-like components are sorted according to their value and character-like components are sorted by default according to their binary representation ([code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry")). Here, components containing hexadecimal 0 are placed in front of other entries. Text sorting for character-like components can be done using the addition AS TEXT.
+This statement sorts the [extract dataset](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextract_dataset_glosry.htm "Glossary Entry") of the program. A prerequisite for executing the statement is that the field group header is defined using the statement [FIELD-GROUPS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfield-groups.htm), and is therefore a component of all field groups. If no explicit sort key [sort\_key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_key.htm) is specified, the extract dataset is sorted by the components of the field group header. Numeric and byte-like components are sorted according to their value and character-like components are sorted by default according to their binary representation ([code page](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencodepage_glosry.htm "Glossary Entry")). Here, components containing hexadecimal 0 are placed in front of other entries. Text sorting for character-like components can be done using the addition AS TEXT.
 
-The priority of sorting is based on the order in which the components are inserted into the field group header using [INSERT](javascript:call_link\('abapinsert_fg.htm'\)).
+The priority of sorting is based on the order in which the components are inserted into the field group header using [INSERT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_fg.htm).
 
 Sorting is unstable by default, which means that the relative order of rows that do not differ in their sort keys is not preserved when they are sorted, and can change when a sort is performed multiple times. The addition STABLE can be used for stable sorting.
 
-The statement SORT also completes the structure of the extract dataset. Executing the statement [EXTRACT](javascript:call_link\('abapextract.htm'\)) after executing the statement SORT raises an uncatchable exception.
+The statement SORT also completes the structure of the extract dataset. Executing the statement [EXTRACT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapextract.htm) after executing the statement SORT raises an uncatchable exception.
 
 Hints
 
--   The only difference between the syntax of the statement SORT for the [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry") and the statement [SORT for internal tables](javascript:call_link\('abapsort_itab.htm'\)) is that no internal table is specified. Regardless of this, the two should not be confused with one another.
+-   The only difference between the syntax of the statement SORT for the [extract dataset](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextract_dataset_glosry.htm "Glossary Entry") and the statement [SORT for internal tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_itab.htm) is that no internal table is specified. Regardless of this, the two should not be confused with one another.
 -   If components with the content hexadecimal 0 are placed in front of other entries, this can lead to unexpected behavior when sorting numeric data types.
 -   In global classes, no field groups can be defined or processed. In methods of local classes of programs other than class pools, the statement SORT is possible for globally defined field groups.
--   Extracts are obsolete. [Internal tables](javascript:call_link\('abenitab.htm'\)) should be used instead.
+-   Extracts are obsolete. [Internal tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) should be used instead.
 
 Addition 1   
 
@@ -54,7 +54,7 @@ Addition 2  
 
 Effect
 
-The addition AS TEXT specifies that [text-like](javascript:call_link\('abentextlike_data_type_glosry.htm'\) "Glossary Entry") components are sorted according to the [locale](javascript:call_link\('abenlocale_glosry.htm'\) "Glossary Entry") of the current text environment. If AS TEXT is not specified, text-like components are sorted according to the encoding in the code page of the current text environment. For more information, see [SORT for internal tables](javascript:call_link\('abapsort_itab.htm'\)).
+The addition AS TEXT specifies that [text-like](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentextlike_data_type_glosry.htm "Glossary Entry") components are sorted according to the [locale](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocale_glosry.htm "Glossary Entry") of the current text environment. If AS TEXT is not specified, text-like components are sorted according to the encoding in the code page of the current text environment. For more information, see [SORT for internal tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_itab.htm).
 
 Addition 3   
 
@@ -66,9 +66,9 @@ STABLE can be used to perform stable sorting. The relative order of rows, which 
 
 Executable Example
 
-[Extracts, Processing](javascript:call_link\('abenextract_at_abexa.htm'\))
+[Extracts, Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextract_at_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 
@@ -86,4 +86,4 @@ Uncatchable Exceptions
     Runtime error: SORT\_EXTRACT\_INDEX\_NO\_ROLL
 
 Continue
-[SORT, sort\_key](javascript:call_link\('abapsort_key.htm'\))
+[SORT, sort\_key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_key.htm)

@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces (ABAP Objects)](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [CLASS](javascript:call_link\('abapclass.htm'\)) →  [CLASS, DEFINITION](javascript:call_link\('abapclass_definition.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_declarations.htm) →  [Classes and Interfaces (ABAP Objects)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclasses_and_interfaces.htm) →  [CLASS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass.htm) →  [CLASS, DEFINITION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass_definition.htm) → 
 
 PROTECTED SECTION
 
-[Short Reference](javascript:call_link\('abapclass_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass_shortref.htm)
 
 Syntax
 
@@ -16,9 +16,9 @@ PROTECTED SECTION.
 
 Effect
 
-This statement can only be used in the [declaration part](javascript:call_link\('abapclass_definition.htm'\)) of a class and defines the protected [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry") of the class class.
+This statement can only be used in the [declaration part](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass_definition.htm) of a class and defines the protected [visibility section](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvisibility_section_glosry.htm "Glossary Entry") of the class class.
 
-All components of the class that are declared in the area behind the statement PROTECTED SECTION can be addressed directly only in the subclasses of the class and in the class itself, as well as its [friends](javascript:call_link\('abenfriend_glosry.htm'\) "Glossary Entry"), if allowed by the [package concept](javascript:call_link\('abenpackage_concept_glosry.htm'\) "Glossary Entry"). In particular, protected methods in subclasses can be redefined.
+All components of the class that are declared in the area behind the statement PROTECTED SECTION can be addressed directly only in the subclasses of the class and in the class itself, as well as its [friends](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfriend_glosry.htm "Glossary Entry"), if allowed by the [package concept](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpackage_concept_glosry.htm "Glossary Entry"). In particular, protected methods in subclasses can be redefined.
 
 Hints
 
@@ -31,7 +31,7 @@ Hints
 -   A subclass cannot access the protected components of a subclass of a different branch of the inheritance hierarchy inherited from a shared superclass.
     
 
--   The declaration of attributes in the protected section does not prevent methods in subclasses or in the class itself from passing [references](javascript:call_link\('abenreference_glosry.htm'\) "Glossary Entry") to these attributes in the form of [reference variables](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry") or [field symbols](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry"), so that the attributes become visible and modifiable outside the protected section.
+-   The declaration of attributes in the protected section does not prevent methods in subclasses or in the class itself from passing [references](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_glosry.htm "Glossary Entry") to these attributes in the form of [reference variables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_variable_glosry.htm "Glossary Entry") or [field symbols](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield_symbol_glosry.htm "Glossary Entry"), so that the attributes become visible and modifiable outside the protected section.
 
 Example
 

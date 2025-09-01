@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [External Procedure Call](javascript:call_link\('abencall_procedures_extern.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_procedures.htm) →  [External Procedure Call](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_procedures_extern.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Fixed Point Arithmetic in External Procedure Calls, ABENFIXED_POINT_ARITH_EXTERNAL, 7
 57%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Fixed Point Arithmetic in External Procedure Calls
 
-A procedure called externally is executed in accordance with the property [Fixed Point Arithmetic](javascript:call_link\('abenfixed_point_arithmetic_glosry.htm'\) "Glossary Entry") of its compilation unit. Here, each [actual parameter](javascript:call_link\('abenformal_parameter_glosry.htm'\) "Glossary Entry") bound to a [formal parameter](javascript:call_link\('abenactual_parameter_glosry.htm'\) "Glossary Entry") of the procedure is also handled in accordance with the property of the called program, irrespective of the corresponding property of the calling program, the parameter type and pass by type.
+A procedure called externally is executed in accordance with the property [Fixed Point Arithmetic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfixed_point_arithmetic_glosry.htm "Glossary Entry") of its compilation unit. Here, each [actual parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenformal_parameter_glosry.htm "Glossary Entry") bound to a [formal parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenactual_parameter_glosry.htm "Glossary Entry") of the procedure is also handled in accordance with the property of the called program, irrespective of the corresponding property of the calling program, the parameter type and pass by type.
 
 Hint
 
@@ -83,6 +83,6 @@ off
 
 10.00
 
-In this case, the call takes place in an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"). The return value of the call is first assigned to an interim result of the type of the formal parameter and this is then converted into the calculation type of the arithmetic expression in the calling program. In this case, therefore, the property of the calling program determines whether or not the decimal separator is respected.
+In this case, the call takes place in an [arithmetic expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"). The return value of the call is first assigned to an interim result of the type of the formal parameter and this is then converted into the calculation type of the arithmetic expression in the calling program. In this case, therefore, the property of the calling program determines whether or not the decimal separator is respected.
 
 The behavior in the second case usually corresponds to the expectations of a caller. This can, of course, also be achieved by introducing a helper variable of the type of the formal parameter that is first used as an actual parameter in the calling program and then assigned to the target field.

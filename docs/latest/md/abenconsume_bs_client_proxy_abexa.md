@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Service Definitions](javascript:call_link\('abencds_service_definitions.htm'\)) →  [ABAP CDS - Consuming Business Services](javascript:call_link\('abenservice_bindings_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Service Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_service_definitions.htm) →  [ABAP CDS - Consuming Business Services](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenservice_bindings_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20CDS%20-%20Consuming%20Business%20Services%20with%20OData%20Client%20Proxy%2C%20ABENCONSUME_BS_CLIENT_PROXY_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0
 A%0D%0A%0D%0ASuggestion%20for%20improvement:)
@@ -46,7 +46,7 @@ ENDCLASS.
 
 Description   
 
-Methods of the [SAP Gateway](javascript:call_link\('abensap_gateway_glosry.htm'\) "Glossary Entry") framework are used to create a local [OData Client Proxy](https://help.sap.com/docs/ABAP_PLATFORM_NEW/68bf513362174d54b58cddec28794093/bb778da49bf34e03a699eb476d4bb316) and to retrieve the data exposed by a CDS service binding DEMO\_SB\_SCARR\_SPFLI. The service binding provides the following service definition:
+Methods of the [SAP Gateway](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_gateway_glosry.htm "Glossary Entry") framework are used to create a local [OData Client Proxy](https://help.sap.com/docs/ABAP_PLATFORM_NEW/68bf513362174d54b58cddec28794093/bb778da49bf34e03a699eb476d4bb316) and to retrieve the data exposed by a CDS service binding DEMO\_SB\_SCARR\_SPFLI. The service binding provides the following service definition:
 
 @EndUserText.label: 'Expose demo\_cds\_scarr\_spfli'
 define service demo\_sd\_scarr\_spfli {

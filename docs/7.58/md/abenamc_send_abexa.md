@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [ABAP Messaging Channels (AMC)](javascript:call_link\('abenamc.htm'\)) →  [AMC - Examples](javascript:call_link\('abenamc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_channels.htm) →  [ABAP Messaging Channels (AMC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc.htm) →  [AMC - Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20AMC%20-%20Sending%20Messages%2C%20ABENAMC_SEND_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 AMC - Sending Messages
 
-This example demonstrates how messages are sent using [AMC](javascript:call_link\('abenamc_glosry.htm'\) "Glossary Entry").
+This example demonstrates how messages are sent using [AMC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_glosry.htm "Glossary Entry").
 
 Source Code   
 
@@ -163,10 +163,10 @@ Description  
 
 The factory method CREATE\_MESSAGE\_PRODUCER of the system class CL\_AMC\_CHANNEL\_MANAGER is used to create sender objects for the messaging channels /demo\_text, /demo\_binary, and /demo\_pcp of the application DEMO\_AMC from the package SABAPDEMOS and to perform a casting for these objects to the appropriate interfaces.
 
-X can be passed to the optional parameter I\_SUPPRESS\_ECHO to define that the messages sent using a sender object are not sent to the current ABAP session. The effect of this is shown in the executable example [Suppressing Standalone Messages](javascript:call_link\('abenamc_suppress_echo_abexa.htm'\)).
+X can be passed to the optional parameter I\_SUPPRESS\_ECHO to define that the messages sent using a sender object are not sent to the current ABAP session. The effect of this is shown in the executable example [Suppressing Standalone Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_suppress_echo_abexa.htm).
 
-The SEND methods of the interfaces are used to send a text string, [JSON data](javascript:call_link\('abenabap_json.htm'\)) as a byte string and two name/value pairs, as well as a body in SAP's own [Push Channel Protocol (PCP)](javascript:call_link\('abenpush_channel_protocol_glosry.htm'\) "Glossary Entry") using the messaging channels. The data of the PCP message is passed to an object of the class CL\_AC\_MESSAGE\_TYPE\_PCP and serialized there.
+The SEND methods of the interfaces are used to send a text string, [JSON data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json.htm) as a byte string and two name/value pairs, as well as a body in SAP's own [Push Channel Protocol (PCP)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpush_channel_protocol_glosry.htm "Glossary Entry") using the messaging channels. The data of the PCP message is passed to an object of the class CL\_AC\_MESSAGE\_TYPE\_PCP and serialized there.
 
-The executable example [Receiving AMC Messages](javascript:call_link\('abenamc_receive_abexa.htm'\)) demonstrates how these messages can be received in ABAP programs. The executable example [APC, WebSocket Communication](javascript:call_link\('abenapc_abexa.htm'\)) shows how the messaging channels are linked with [ABAP Push Channels (APC)](javascript:call_link\('abenapc.htm'\)) and that the messages sent using CL\_DEMO\_SEND\_AMC are received by Web pages connected to an APC like this.
+The executable example [Receiving AMC Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_receive_abexa.htm) demonstrates how these messages can be received in ABAP programs. The executable example [APC, WebSocket Communication](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenapc_abexa.htm) shows how the messaging channels are linked with [ABAP Push Channels (APC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenapc.htm) and that the messages sent using CL\_DEMO\_SEND\_AMC are received by Web pages connected to an APC like this.
 
-The ID of a receiver session can be entered in the input window of the class, as shown in the executable example for [receiving AMC messages](javascript:call_link\('abenamc_receive_abexa.htm'\)). If an ID of this type is entered, the class attempts to send the messages synchronously to this receiver session only.
+The ID of a receiver session can be entered in the input window of the class, as shown in the executable example for [receiving AMC messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_receive_abexa.htm). If an ID of this type is entered, the class attempts to send the messages synchronously to this receiver session only.

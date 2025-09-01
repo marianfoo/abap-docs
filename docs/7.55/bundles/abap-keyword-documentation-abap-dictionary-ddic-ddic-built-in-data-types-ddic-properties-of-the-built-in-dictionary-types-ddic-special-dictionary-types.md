@@ -34,26 +34,26 @@ Included pages: 6
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Built-In Data Types](javascript:call_link\('abenddic_builtin_types_intro.htm'\)) →  [DDIC - Properties of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary.htm) →  [DDIC - Built-In Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_intro.htm) →  [DDIC - Properties of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_prop.htm) → 
 
 DDIC - Special Dictionary Types
 
--   [Date types and time types](javascript:call_link\('abenddic_date_time_types.htm'\))
+-   [Date types and time types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_date_time_types.htm)
 
--   [Special character-like types](javascript:call_link\('abenddic_special_character_types.htm'\))
+-   [Special character-like types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_special_character_types.htm)
 
--   [Currency fields](javascript:call_link\('abenddic_currency_field.htm'\))
+-   [Currency fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_currency_field.htm)
 
--   [Quantity fields](javascript:call_link\('abenddic_quantity_field.htm'\))
+-   [Quantity fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_quantity_field.htm)
 
--   [Geodata Types](javascript:call_link\('abenddic_geo_data.htm'\))
+-   [Geodata Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_geo_data.htm)
 
 Continue
-[DDIC - Date Fields, Time Fields, and Time Stamp Fields](javascript:call_link\('abenddic_date_time_types.htm'\))
-[DDIC - Special Character-Like Types](javascript:call_link\('abenddic_special_character_types.htm'\))
-[DDIC - Currency Fields](javascript:call_link\('abenddic_currency_field.htm'\))
-[DDIC - Quantity Fields](javascript:call_link\('abenddic_quantity_field.htm'\))
-[DDIC - Geodata Types](javascript:call_link\('abenddic_geo_data.htm'\))
+[DDIC - Date Fields, Time Fields, and Time Stamp Fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_date_time_types.htm)
+[DDIC - Special Character-Like Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_special_character_types.htm)
+[DDIC - Currency Fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_currency_field.htm)
+[DDIC - Quantity Fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_quantity_field.htm)
+[DDIC - Geodata Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_geo_data.htm)
 
 
 
@@ -71,7 +71,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Built-In Data Types](javascript:call_link\('abenddic_builtin_types_intro.htm'\)) →  [DDIC - Properties of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\)) →  [DDIC - Special Dictionary Types](javascript:call_link\('abenddic_builtin_types_special.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary.htm) →  [DDIC - Built-In Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_intro.htm) →  [DDIC - Properties of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_prop.htm) →  [DDIC - Special Dictionary Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_special.htm) → 
 
 DDIC - Date Fields, Time Fields, and Time Stamp Fields
 
@@ -83,35 +83,35 @@ Date Types, Time Types, and Time Stamp Types
 
 The following built-in data types in ABAP Dictionary represent real date types, time types, and time stamp types in a database:
 
--   [DATN](javascript:call_link\('abenddic_builtin_types.htm'\)) for date fields in the database
+-   [DATN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) for date fields in the database
 
--   [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)) for time fields in the database
+-   [TIMN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) for time fields in the database
 
--   [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)) for time stamp fields in the database
+-   [UTCLONG](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) for time stamp fields in the database
 
-Database fields with these types generally contain only valid values for dates, times, and time stamps in the internal representation of the database. These types are currently only supported by [SAP HANA databases](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry").
+Database fields with these types generally contain only valid values for dates, times, and time stamps in the internal representation of the database. These types are currently only supported by [SAP HANA databases](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_database_glosry.htm "Glossary Entry").
 
 Hints
 
--   The dictionary types DATN and TIMN are mapped to the character-like ABAP date type and time type [d](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) or [t](javascript:call_link\('abenbuiltin_types_date_time.htm'\)). The built-in ABAP type [utclong](javascript:call_link\('abenbuiltin_types_date_time.htm'\)), on the other hand, provides a real time stamp type for UTCLONG.
+-   The dictionary types DATN and TIMN are mapped to the character-like ABAP date type and time type [d](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_date_time.htm) or [t](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_date_time.htm). The built-in ABAP type [utclong](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_date_time.htm), on the other hand, provides a real time stamp type for UTCLONG.
 
 -   The types DATN and TIMN are recommended for saving individual dates and times. Access to dates and times in the corresponding functions and expressions is optimized for these types. In the case of the dictionary types DATS and TIMS, such access may not be possible at all or they may need to be converted to real date and time types.
 
--   The output formats for fields on dynpros and Web dynpros and in the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) can be predefined for the types DATN, TIMN, and UTCLONG specific to each user in the [user master record](javascript:call_link\('abenuser_master_record_glosry.htm'\) "Glossary Entry"). The output length required for formatted output is usually greater than the number of places in ABAP Dictionary.
+-   The output formats for fields on dynpros and Web dynpros and in the statements [WRITE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite-.htm) or [WRITE TO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm) can be predefined for the types DATN, TIMN, and UTCLONG specific to each user in the [user master record](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_master_record_glosry.htm "Glossary Entry"). The output length required for formatted output is usually greater than the number of places in ABAP Dictionary.
 
 Character-Like Date Fields and Time Fields
 
 Instances of the following data types in ABAP Dictionary are created on the database using character-like fields:
 
--   [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) for [date fields](javascript:call_link\('abendate_field_glosry.htm'\) "Glossary Entry")
+-   [DATS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) for [date fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendate_field_glosry.htm "Glossary Entry")
 
-From a technical perspective, the built-in data type DATS describes objects of the type CHAR with a length of 8 characters. It is intended to be used for a [calendar date](javascript:call_link\('abencalendar_date_glosry.htm'\) "Glossary Entry") with the format YYYYMMDD. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to DATS. In ABAP, DATS is assigned to the special type [d](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) and the associated rules apply.
+From a technical perspective, the built-in data type DATS describes objects of the type CHAR with a length of 8 characters. It is intended to be used for a [calendar date](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencalendar_date_glosry.htm "Glossary Entry") with the format YYYYMMDD. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to DATS. In ABAP, DATS is assigned to the special type [d](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_date_time.htm) and the associated rules apply.
 
--   [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)) for [time fields](javascript:call_link\('abentime_field_glosry.htm'\) "Glossary Entry")
+-   [TIMS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) for [time fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_field_glosry.htm "Glossary Entry")
 
-From a technical perspective, the built-in data type TIMS describes objects of the type CHAR with a length of 6 characters. It is intended to be used for a [time](javascript:call_link\('abenday_time_glosry.htm'\) "Glossary Entry") with the format HHMMSS. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to TIMS. In ABAP, TIMS is assigned to the special type [t](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) and the associated rules apply.
+From a technical perspective, the built-in data type TIMS describes objects of the type CHAR with a length of 6 characters. It is intended to be used for a [time](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenday_time_glosry.htm "Glossary Entry") with the format HHMMSS. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to TIMS. In ABAP, TIMS is assigned to the special type [t](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_date_time.htm) and the associated rules apply.
 
--   [ACCP](javascript:call_link\('abenddic_builtin_types.htm'\)) for posting periods
+-   [ACCP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) for posting periods
 
 From a technical perspective, the built-in data type ACCP describes objects of the type CHAR with a length of 6 characters. It is intended to be used for a posting period with the format YYYYMM. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to ACCP.
 
@@ -119,9 +119,9 @@ Hints
 
 -   If possible, the types DATN and TIMN should be used.
 
--   The output formats for fields on dynpros and Web Dynpros and in the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) can be predefined for the types DATS and TIMS specific to each user in the [user master record](javascript:call_link\('abenuser_master_record_glosry.htm'\) "Glossary Entry"). The output length required for formatted output is usually greater than the number of places in ABAP Dictionary. If the output length is too short, any formatting characters are suppressed.
+-   The output formats for fields on dynpros and Web Dynpros and in the statements [WRITE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite-.htm) or [WRITE TO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm) can be predefined for the types DATS and TIMS specific to each user in the [user master record](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_master_record_glosry.htm "Glossary Entry"). The output length required for formatted output is usually greater than the number of places in ABAP Dictionary. If the output length is too short, any formatting characters are suppressed.
 
--   When a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") is represented with reference to the type ACCP (but not in the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\))) and there is enough output length, a point is inserted between the year YYYY and the month MM.
+-   When a [dynpro field](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_field_glosry.htm "Glossary Entry") is represented with reference to the type ACCP (but not in the statements [WRITE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite-.htm) or [WRITE TO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm)) and there is enough output length, a point is inserted between the year YYYY and the month MM.
 
 
 
@@ -139,27 +139,27 @@ Hints
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Built-In Data Types](javascript:call_link\('abenddic_builtin_types_intro.htm'\)) →  [DDIC - Properties of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\)) →  [DDIC - Special Dictionary Types](javascript:call_link\('abenddic_builtin_types_special.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary.htm) →  [DDIC - Built-In Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_intro.htm) →  [DDIC - Properties of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_prop.htm) →  [DDIC - Special Dictionary Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_special.htm) → 
 
 DDIC - Special Character-Like Types
 
 The following character-like data types in ABAP Dictionary have a special semantic meaning:
 
--   [NUMC](javascript:call_link\('abenddic_builtin_types.htm'\)) for [numeric texts](javascript:call_link\('abennumeric_text_glosry.htm'\) "Glossary Entry")
+-   [NUMC](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) for [numeric texts](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumeric_text_glosry.htm "Glossary Entry")
 
-From a technical perspective, the built-in data type NUMC describes objects of the type CHAR with a maximum length of 255 characters. It is intended for numeric texts. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to NUMC. In ABAP, NUMC is assigned to the special type [n](javascript:call_link\('abenbuiltin_types_character.htm'\)) and the associated rules apply.
+From a technical perspective, the built-in data type NUMC describes objects of the type CHAR with a maximum length of 255 characters. It is intended for numeric texts. This is not checked however when writing to or reading from database fields of this type. Automatic checks are only made for dynpro fields typed with reference to NUMC. In ABAP, NUMC is assigned to the special type [n](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_character.htm) and the associated rules apply.
 
--   [CLNT](javascript:call_link\('abenddic_builtin_types.htm'\)) for [client columns](javascript:call_link\('abenclient_column_glosry.htm'\) "Glossary Entry")
+-   [CLNT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) for [client columns](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclient_column_glosry.htm "Glossary Entry")
 
-From a technical perspective, the data type CLNT describes objects of the type CHAR with length 3. If the data type CLNT is used for the first key field of a DDIC database table, this makes the DDIC database table [client-dependent](javascript:call_link\('abenddic_database_tables_client.htm'\)).
+From a technical perspective, the data type CLNT describes objects of the type CHAR with length 3. If the data type CLNT is used for the first key field of a DDIC database table, this makes the DDIC database table [client-dependent](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_client.htm).
 
--   [LANG](javascript:call_link\('abenddic_builtin_types.htm'\)) for [text language](javascript:call_link\('abentext_language_glosry.htm'\) "Glossary Entry")
+-   [LANG](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) for [text language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_language_glosry.htm "Glossary Entry")
 
-From a technical perspective, the built-in data type LANG describes objects of the type CHAR with length 1. It is intended specifically for language keys. The [primary key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") of a [text table](javascript:call_link\('abentext_table_glosry.htm'\) "Glossary Entry") consists of the [foreign key](javascript:call_link\('abenforeign_key_glosry.htm'\) "Glossary Entry") and a field of type LANG. Furthermore, a component of structures or DDIC database tables that has the data type LANG can be flagged as a text language. The text language is used to convert character-like components of the structure when importing data from [data clusters](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") and in the binary [RFC protocol](javascript:call_link\('abenrfc_protocol.htm'\)) for passing TABLES parameters between [MDMP systems](javascript:call_link\('abenmdmp-system_glosry.htm'\) "Glossary Entry") and [Unicode systems](javascript:call_link\('abenunicode_system_glosry.htm'\) "Glossary Entry").
+From a technical perspective, the built-in data type LANG describes objects of the type CHAR with length 1. It is intended specifically for language keys. The [primary key](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprimary_key_glosry.htm "Glossary Entry") of a [text table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_table_glosry.htm "Glossary Entry") consists of the [foreign key](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenforeign_key_glosry.htm "Glossary Entry") and a field of type LANG. Furthermore, a component of structures or DDIC database tables that has the data type LANG can be flagged as a text language. The text language is used to convert character-like components of the structure when importing data from [data clusters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_cluster_glosry.htm "Glossary Entry") and in the binary [RFC protocol](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_protocol.htm) for passing TABLES parameters between [MDMP systems](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmdmp-system_glosry.htm "Glossary Entry") and [Unicode systems](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunicode_system_glosry.htm "Glossary Entry").
 
 Hint
 
-When the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) are used to represent a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") with the type LANG (and when a field that references this type is formatted), this field has an output length of 2 and is converted automatically from the single-character internal language ID to the matching two-character ISO ID using the [conversion routine](javascript:call_link\('abenconversion_routine_glosry.htm'\) "Glossary Entry") ISOLA (and back).
+When the statements [WRITE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite-.htm) or [WRITE TO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm) are used to represent a [dynpro field](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_field_glosry.htm "Glossary Entry") with the type LANG (and when a field that references this type is formatted), this field has an output length of 2 and is converted automatically from the single-character internal language ID to the matching two-character ISO ID using the [conversion routine](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_routine_glosry.htm "Glossary Entry") ISOLA (and back).
 
 
 
@@ -177,13 +177,13 @@ When the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) or [WRITE 
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Built-In Data Types](javascript:call_link\('abenddic_builtin_types_intro.htm'\)) →  [DDIC - Properties of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\)) →  [DDIC - Special Dictionary Types](javascript:call_link\('abenddic_builtin_types_special.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary.htm) →  [DDIC - Built-In Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_intro.htm) →  [DDIC - Properties of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_prop.htm) →  [DDIC - Special Dictionary Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_special.htm) → 
 
 DDIC - Currency Fields
 
-A currency field is a component of a DDIC structure, DDIC database table, or DDIC view defined in ABAP Dictionary of type [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)) and used to record an amount in a specific currency. A currency amount is an integer in the smallest unit of the currency. The integer is constructed from all figures in a currency field while ignoring the position of the decimal separator.
+A currency field is a component of a DDIC structure, DDIC database table, or DDIC view defined in ABAP Dictionary of type [CURR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) and used to record an amount in a specific currency. A currency amount is an integer in the smallest unit of the currency. The integer is constructed from all figures in a currency field while ignoring the position of the decimal separator.
 
-A currency field must be associated with a currency key of a DDIC structure, DDIC database table, or DDIC view that specifies the currency and the number of decimal places. A currency key is a component of a DDIC structure, DDIC database table, or DDIC view defined in ABAP Dictionary, has the type CUKY, and can contain a [currency ID](javascript:call_link\('abencurrency_id_glosry.htm'\) "Glossary Entry") from the DDIC database table TCURC.
+A currency field must be associated with a currency key of a DDIC structure, DDIC database table, or DDIC view that specifies the currency and the number of decimal places. A currency key is a component of a DDIC structure, DDIC database table, or DDIC view defined in ABAP Dictionary, has the type CUKY, and can contain a [currency ID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencurrency_id_glosry.htm "Glossary Entry") from the DDIC database table TCURC.
 
 By default, the number of decimal places for a currency is always two. Currencies with a different number of decimal places must also be entered in the table TCURX, where the number of decimal places can be defined explicitly.
 
@@ -197,25 +197,25 @@ Hints
 
 -   Quantities and units are handled as specified by the data saved in the DDIC database tables T006... in the package SZME. This data can be maintained using the transaction CUNI.
 
--   Quantity fields are defined as elements of [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") using [semantics annotations](javascript:call_link\('abencds_f1_element_annotation.htm'\)).
+-   Quantity fields are defined as elements of [CDS entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry") using [semantics annotations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_element_annotation.htm).
 
 Handling in ABAP Dictionary
 
-A data element of data type [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)) is handled as a field of data type [DEC](javascript:call_link\('abenddic_builtin_types_int_pack.htm'\)) and is stored in DDIC database tables in the [BCD](javascript:call_link\('abenbcd_glosry.htm'\) "Glossary Entry") format. When creating a data element or a structure component of the data type QUAN in an ABAP Dictionary [tool](javascript:call_link\('abenddic_tools.htm'\)), any number of decimal places can be defined. The default value is no decimal places.
+A data element of data type [QUAN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) is handled as a field of data type [DEC](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_int_pack.htm) and is stored in DDIC database tables in the [BCD](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbcd_glosry.htm "Glossary Entry") format. When creating a data element or a structure component of the data type QUAN in an ABAP Dictionary [tool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_tools.htm), any number of decimal places can be defined. The default value is no decimal places.
 
-For every structure component of data type QUAN, a component of the same structure or of a different structure, DDIC database table, or DDIC view must be defined as a [reference field](javascript:call_link\('abenddic_structures_sema.htm'\)) with the data type [UNIT](javascript:call_link\('abenddic_builtin_types.htm'\)). This field is the [unit key](javascript:call_link\('abenunit_glosry.htm'\) "Glossary Entry") that defines the unit of the quantity. From a technical perspective, the data type UNIT is handled like a type CHAR with length 2.
+For every structure component of data type QUAN, a component of the same structure or of a different structure, DDIC database table, or DDIC view must be defined as a [reference field](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_structures_sema.htm) with the data type [UNIT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm). This field is the [unit key](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunit_glosry.htm "Glossary Entry") that defines the unit of the quantity. From a technical perspective, the data type UNIT is handled like a type CHAR with length 2.
 
 Hints
 
 -   The number of decimal places for the unit defined using the unit key of type UNIT only affects the formatting of a quantity field on a dynpro. In principal, it is independent of the number given for the quantity field of type QUAN.
 
--   As in [general packed numbers](javascript:call_link\('abenddic_builtin_types_int_pack.htm'\)), the number of places in type QUAN should be odd.
+-   As in [general packed numbers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_int_pack.htm), the number of places in type QUAN should be odd.
 
 Handling in Dynpros
 
-For the display of an input/output field of type QUAN on a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), the content is displayed as character-like content and in accordance with a type-dependent mask, as for all [dynpro fields](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry"). The system tries to create a display which suits the unit of the quantity field.
+For the display of an input/output field of type QUAN on a [dynpro](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_glosry.htm "Glossary Entry"), the content is displayed as character-like content and in accordance with a type-dependent mask, as for all [dynpro fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_field_glosry.htm "Glossary Entry"). The system tries to create a display which suits the unit of the quantity field.
 
-To determine the unit, the global data of the current ABAP program is searched for the reference field associated with the field for the unit key. The content of this field must be a valid [unit ID](javascript:call_link\('abenunit_id_glosry.htm'\) "Glossary Entry") from the DDIC database table T006. If the reference field is not found or if there is no entry in the DDIC database table T006 with the content of the field, the quantity field is displayed as a regular field of type DEC.
+To determine the unit, the global data of the current ABAP program is searched for the reference field associated with the field for the unit key. The content of this field must be a valid [unit ID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunit_id_glosry.htm "Glossary Entry") from the DDIC database table T006. If the reference field is not found or if there is no entry in the DDIC database table T006 with the content of the field, the quantity field is displayed as a regular field of type DEC.
 
 The reference field is either defined in the relevant structure in ABAP Dictionary or was defined using Screen Painter for the attributes of the dynpro field. It does not have to be present on the dynpro itself.
 
@@ -229,7 +229,7 @@ Handling in ABAP Programs
 
 The ABAP type that corresponds to the data type QUAN is p. An ABAP data object declared with reference to a dictionary type of type QUAN has the number of decimal places defined there. These decimal places are respected for all operations and calculations, as for all packed numbers.
 
-The unit defined for a quantity field only plays a part in ABAP programs if it is specified after the addition [UNIT](javascript:call_link\('abapwrite_to_options.htm'\)) of the statement [WRITE *\[*TO*\]*](javascript:call_link\('abapwrite_to.htm'\)).
+The unit defined for a quantity field only plays a part in ABAP programs if it is specified after the addition [UNIT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to_options.htm) of the statement [WRITE *\[*TO*\]*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm).
 
 
 
@@ -250,22 +250,22 @@ The unit defined for a quantity field only plays a part in ABAP programs if it i
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Built-In Data Types](javascript:call_link\('abenddic_builtin_types_intro.htm'\)) →  [DDIC - Properties of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\)) →  [DDIC - Special Dictionary Types](javascript:call_link\('abenddic_builtin_types_special.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary.htm) →  [DDIC - Built-In Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_intro.htm) →  [DDIC - Properties of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_prop.htm) →  [DDIC - Special Dictionary Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types_special.htm) → 
 
 DDIC - Geodata Types
 
-The [geodata type](javascript:call_link\('abengeo_data_type_glosry.htm'\) "Glossary Entry") [GEOM\_EWKB](javascript:call_link\('abenddic_builtin_types.htm'\)) is a built-in data type in ABAP Dictionary that describes the geometric position in a given coordinate reference system.
+The [geodata type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengeo_data_type_glosry.htm "Glossary Entry") [GEOM\_EWKB](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) is a built-in data type in ABAP Dictionary that describes the geometric position in a given coordinate reference system.
 
-It represents fields in the database that contain geometric data in the EWKB (Extended Well-Known Binary) format. This type is currently only supported on [SAP HANA databases](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") and references the database type ST\_GEOMETRY.
+It represents fields in the database that contain geometric data in the EWKB (Extended Well-Known Binary) format. This type is currently only supported on [SAP HANA databases](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhana_database_glosry.htm "Glossary Entry") and references the database type ST\_GEOMETRY.
 
-The internal representation of the geodata type GEOM\_EWKB is a [BLOB](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry") (Binary Large Object) and the same rules and restrictions largely apply as to the type [RAWSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)). The type GEOM\_EWKB is mapped to the ABAP type [xstring](javascript:call_link\('abenbuiltin_types_byte.htm'\)).
+The internal representation of the geodata type GEOM\_EWKB is a [BLOB](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenblob_glosry.htm "Glossary Entry") (Binary Large Object) and the same rules and restrictions largely apply as to the type [RAWSTRING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm). The type GEOM\_EWKB is mapped to the ABAP type [xstring](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_byte.htm).
 
-At ABAP level, there is no semantic representation for geometric data. ABAP only allows geometric data to be passed between the application and the SAP HANA database. The SAP HANA database functions for geometric data types can be accessed using [AMDP](javascript:call_link\('abenamdp.htm'\)).
+At ABAP level, there is no semantic representation for geometric data. ABAP only allows geometric data to be passed between the application and the SAP HANA database. The SAP HANA database functions for geometric data types can be accessed using [AMDP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp.htm).
 
-If the data type GEOM\_EWKB is used for a structure component or a table field of a DDIC database table, the type must be assigned a [spatial reference system](javascript:call_link\('abenddic_database_tables_sptlrf.htm'\)). This system cannot be changed once activated. The system has the ID 0 by default.
+If the data type GEOM\_EWKB is used for a structure component or a table field of a DDIC database table, the type must be assigned a [spatial reference system](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_sptlrf.htm). This system cannot be changed once activated. The system has the ID 0 by default.
 
 Hints
 
--   Columns of the data type GEOM\_EWKB are not supported as [BLOBs](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry") in [streaming and locators in ABAP SQL](javascript:call_link\('abenstreams_locators.htm'\)). To use columns of the data type GEOM\_EWKB in streaming and locators, they have to be converted to [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") format first. This can be done with the conversion function [AS\_GEO\_JSON](javascript:call_link\('abensql_geo_conv_func.htm'\)).
+-   Columns of the data type GEOM\_EWKB are not supported as [BLOBs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenblob_glosry.htm "Glossary Entry") in [streaming and locators in ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstreams_locators.htm). To use columns of the data type GEOM\_EWKB in streaming and locators, they have to be converted to [JSON](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenjson_glosry.htm "Glossary Entry") format first. This can be done with the conversion function [AS\_GEO\_JSON](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_geo_conv_func.htm).
 
--   [NOT NULL](javascript:call_link\('abenddic_database_tables_init.htm'\)) cannot be set for a column of the type GEOM\_EWKB.
+-   [NOT NULL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_init.htm) cannot be set for a column of the type GEOM\_EWKB.

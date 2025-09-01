@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [Program Directives](javascript:call_link\('abenprogram_directives.htm'\)) →  [Pseudo Comments](javascript:call_link\('abenpseudo_comment.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_syntax.htm) →  [Program Directives](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_directives.htm) →  [Pseudo Comments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpseudo_comment.htm) → 
 
 Pseudo Comments for Code Inspector
 
-The character string "#EC behind a statement or a part of a statement followed by an abbreviation with the prefix CI\_ defines a [pseudo comment](javascript:call_link\('abenpseudo_comment_glosry.htm'\) "Glossary Entry") for the [Code Inspector](javascript:call_link\('abencode_inspector_glosry.htm'\) "Glossary Entry").
+The character string "#EC behind a statement or a part of a statement followed by an abbreviation with the prefix CI\_ defines a [pseudo comment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpseudo_comment_glosry.htm "Glossary Entry") for the [Code Inspector](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencode_inspector_glosry.htm "Glossary Entry").
 
 These pseudo comments can be used to hide certain warnings from Code Inspector for the relevant statement. The possible abbreviations are documented with the Code Inspector or in the output of its messages.
 
@@ -20,7 +20,7 @@ Hints
 
 Example
 
-The following [join expression](javascript:call_link\('abenjoin_expression_glosry.htm'\) "Glossary Entry") bypasses [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry"), which raises a warning of the Code Inspector. However, if the SELECT statement is part of an application that buffers selected data itself, however, the warning can be hidden as shown here. An additional regular comment illustrates to the user why the pseudo comment is being used.
+The following [join expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenjoin_expression_glosry.htm "Glossary Entry") bypasses [table buffering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_buffering_glosry.htm "Glossary Entry"), which raises a warning of the Code Inspector. However, if the SELECT statement is part of an application that buffers selected data itself, however, the warning can be hidden as shown here. An additional regular comment illustrates to the user why the pseudo comment is being used.
 
 SELECT d~object, h~dokldate, h~dokltime   "#EC CI\_BUFFJOIN
   FROM dokil AS d                         "Buffering is done

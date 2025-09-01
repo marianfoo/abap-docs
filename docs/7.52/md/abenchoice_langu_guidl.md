@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Naming](javascript:call_link\('abennaming_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennaming_guidl.htm) → 
 
 Choosing the Language
 
@@ -26,7 +26,7 @@ In instances where British and American spelling differ, use the American spelli
 
 Note
 
-This rule applies regardless of the [original language chosen](javascript:call_link\('abenoriginal_langu_guidl.htm'\) "Guideline").
+This rule applies regardless of the [original language chosen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoriginal_langu_guidl.htm "Guideline").
 
 Bad Example
 

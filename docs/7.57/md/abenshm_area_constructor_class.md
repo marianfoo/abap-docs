@@ -4,16 +4,16 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Classes and Interfaces](javascript:call_link\('abenshm_classes.htm'\)) →  [Shared Objects - IF\_SHM\_BUILD\_INSTANCE](javascript:call_link\('abenshm_if_shm_build_instance.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_shared_objects.htm) →  [Shared Objects - Classes and Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_classes.htm) →  [Shared Objects - IF\_SHM\_BUILD\_INSTANCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_if_shm_build_instance.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Shared Objects - Area Constructor Class, ABENSHM_AREA_CONSTRUCTOR_CLASS, 757%0D%0A%0D
 %0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Shared Objects - Area Constructor Class
 
-An area constructor class is a global class with a freely selectable name that implements the interface [IF\_SHM\_BUILD\_INSTANCE](javascript:call_link\('abenshm_if_shm_build_instance.htm'\)). An area constructor can be implemented in the interface method BUILD.
+An area constructor class is a global class with a freely selectable name that implements the interface [IF\_SHM\_BUILD\_INSTANCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_if_shm_build_instance.htm). An area constructor can be implemented in the interface method BUILD.
 
-An area constructor class can be [assigned](javascript:call_link\('abenshm_area_dynamic_properties.htm'\)) to an [area](javascript:call_link\('abenshm_areas.htm'\)) in transaction SHMA. This is always necessary if the area is to be built automatically by calling the area constructor, that is, if the components BUILD\_KIND and REFRESH\_TIME of the structure PROPERTIES of the class [CL\_SHM\_AREA](javascript:call_link\('abenshm_cl_shm_area.htm'\)) are filled accordingly. If an area is not built automatically, an area constructor class can be specified for the explicit area constructor call using the method BUILD of the [area class](javascript:call_link\('abenshm_area_class.htm'\)).
+An area constructor class can be [assigned](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_area_dynamic_properties.htm) to an [area](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_areas.htm) in transaction SHMA. This is always necessary if the area is to be built automatically by calling the area constructor, that is, if the components BUILD\_KIND and REFRESH\_TIME of the structure PROPERTIES of the class [CL\_SHM\_AREA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_cl_shm_area.htm) are filled accordingly. If an area is not built automatically, an area constructor class can be specified for the explicit area constructor call using the method BUILD of the [area class](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_area_class.htm).
 
 Structure of an Area Constructor   
 
@@ -25,7 +25,7 @@ The following structure is recommended for the area constructor implemented in t
 4.  The created area handle has to be released again using the method DETACH\_COMMIT. If an exception is raised, it is usually a programming error and should not be handled in the area constructor.
 5.  If the area constructor was called automatically, a database commit must be triggered when a transactional area is built.
 
-In an area constructor, no statements can be used that exit the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") (such as SUBMIT, CALL TRANSACTION, CALL SCREEN, MESSAGE for message types W, P, E, and so on).
+In an area constructor, no statements can be used that exit the current [internal session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternal_session_glosry.htm "Glossary Entry") (such as SUBMIT, CALL TRANSACTION, CALL SCREEN, MESSAGE for message types W, P, E, and so on).
 
 Example
 

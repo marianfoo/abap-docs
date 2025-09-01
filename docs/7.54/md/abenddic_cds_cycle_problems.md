@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) → 
 
 ABAP CDS - Cyclical Dependencies
 
-In ABAP CDS, [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") can be defined with mutual dependencies. For example, a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") accesses a different CDS view CDS entity as a data source or exposes a CDS view in a [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry"). A CDS entity that consumes another CDS entity is dependent on the consumed entity. A distinction should be made between the following:
+In ABAP CDS, [CDS entities](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_entity_glosry.htm "Glossary Entry") can be defined with mutual dependencies. For example, a [CDS view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry") accesses a different CDS view CDS entity as a data source or exposes a CDS view in a [CDS association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_association_glosry.htm "Glossary Entry"). A CDS entity that consumes another CDS entity is dependent on the consumed entity. A distinction should be made between the following:
 
 -   Technical dependencies
 
@@ -46,11 +46,11 @@ Notes
 
 -   A solution for full resolution of semantic cyclical dependencies using step-by-step activation in mass activation of CDS entities is currently being developed and will be shipped in a future release.
 
--   [Classic objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) cannot have technical dependencies on each other, but they can have semantic dependencies. Classic views, for example, cannot contain other views as data sources. Semantic references, however, are possible, for example using foreign key relationships or value tables. Mass activations of classic dictionary objects resolve any semantic cyclical dependencies using step-by-step activation.
+-   [Classic objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) cannot have technical dependencies on each other, but they can have semantic dependencies. Classic views, for example, cannot contain other views as data sources. Semantic references, however, are possible, for example using foreign key relationships or value tables. Mass activations of classic dictionary objects resolve any semantic cyclical dependencies using step-by-step activation.
 
 Example
 
-The following two CDS views consume each other as data sources, which creates a technical cycle. Both of the views have incorrect syntax and cannot be activated as long as the other view does not exist in an active version. One option is to remove the dependency on the other view from one of the views and then activate both views. If the dependency is then applied again, the view has correct syntax but still cannot be activated. This is because the associated [CDS database views](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry") cannot have cyclical dependencies on each other.
+The following two CDS views consume each other as data sources, which creates a technical cycle. Both of the views have incorrect syntax and cannot be activated as long as the other view does not exist in an active version. One option is to remove the dependency on the other view from one of the views and then activate both views. If the dependency is then applied again, the view has correct syntax but still cannot be activated. This is because the associated [CDS database views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_database_view_glosry.htm "Glossary Entry") cannot have cyclical dependencies on each other.
 
 @AbapCatalog.sqlViewName: 'TEST1'
 define view test\_view1 as
@@ -66,7 +66,7 @@ define view test\_view2 as
 
 Example
 
-The cyclical dependency of the following views is produced by [CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") and has a semantic background.
+The cyclical dependency of the following views is produced by [CDS associations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_association_glosry.htm "Glossary Entry") and has a semantic background.
 
 -   The view test\_view1 defines and exposes a CDS association \_assoc1 with the view test\_view2.
 

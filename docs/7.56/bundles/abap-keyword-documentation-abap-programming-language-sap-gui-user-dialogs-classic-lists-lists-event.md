@@ -3,32 +3,7 @@
 Included pages: 10
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenabap_lists_interactive.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm)
-- [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptop-of-page.htm)
-- [abenlist_top_of_page_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_top_of_page_abexa.htm)
-- [abapend-of-page.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-page.htm)
-- [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_list_event.htm)
-- [abapat_line-selection.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_line-selection.htm)
-- [abapat_user-command.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command.htm)
-- [abapset_user-command.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_user-command.htm)
-
-**Bundle Contains**: 8 documentation pages
-**Version**: ABAP 7.56
-**Generated**: 2025-09-01T11:25:45.502Z
-
----
-
 ### abenabap_lists_interactive.htm
-
-> **📖 Official SAP Documentation**: [abenabap_lists_interactive.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -36,7 +11,7 @@ Included pages: 10
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) → 
 
 Lists - Event Blocks
 
@@ -44,41 +19,34 @@ List events occur during the creation of a list and following certain user actio
 
 The events during list creation,
 
--   [TOP-OF-PAGE](javascript:call_link\('abaptop-of-page.htm'\))
--   [END-OF-PAGE](javascript:call_link\('abapend-of-page.htm'\))
+-   [TOP-OF-PAGE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptop-of-page.htm)
+-   [END-OF-PAGE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-page.htm)
 
 make it possible to define page headers and footers independently of the actual page length, which is particularly helpful for the output of spool lists on different paper formats.
 
 The events after user actions in a displayed list enable the creation of details lists:
 
--   [AT LINE-SELECTION](javascript:call_link\('abapat_line-selection.htm'\))
--   [AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\))
--   [AT PFnn](javascript:call_link\('abapat_pfnn.htm'\))
+-   [AT LINE-SELECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_line-selection.htm)
+-   [AT USER-COMMAND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command.htm)
+-   [AT PFnn](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_pfnn.htm)
 
 The following statement can be used to raise a list event in a program-driven way:
 
--   [SET USER-COMMAND](javascript:call_link\('abapset_user-command.htm'\))
+-   [SET USER-COMMAND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_user-command.htm)
 
 Hints
 
--   After the execution of each event block for lists, the statement [NEW-LINE](javascript:call_link\('abapnew-line.htm'\)) is executed implicitly as in every [event block](javascript:call_link\('abenevent_blocks.htm'\)).
--   List events can be raised as program-driven events using the statement [SET USER-COMMAND](javascript:call_link\('abapset_user-command.htm'\)), instead of by user action on a displayed list.
+-   After the execution of each event block for lists, the statement [NEW-LINE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-line.htm) is executed implicitly as in every [event block](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenevent_blocks.htm).
+-   List events can be raised as program-driven events using the statement [SET USER-COMMAND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_user-command.htm), instead of by user action on a displayed list.
 
 Continue
-[TOP-OF-PAGE](javascript:call_link\('abaptop-of-page.htm'\))
-[END-OF-PAGE](javascript:call_link\('abapend-of-page.htm'\))
-[AT list\_event](javascript:call_link\('abapat_list_event.htm'\))
-[SET USER-COMMAND](javascript:call_link\('abapset_user-command.htm'\))
+[TOP-OF-PAGE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptop-of-page.htm)
+[END-OF-PAGE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-page.htm)
+[AT list\_event](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_list_event.htm)
+[SET USER-COMMAND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_user-command.htm)
 
-
-
-**📖 Source**: [abenabap_lists_interactive.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm)
 
 ### abaptop-of-page.htm
-
-> **📖 Official SAP Documentation**: [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptop-of-page.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -86,11 +54,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Event Blocks](javascript:call_link\('abenabap_lists_interactive.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Event Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm) → 
 
 TOP-OF-PAGE
 
-[Short Reference](javascript:call_link\('abaptop-of-page_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptop-of-page_shortref.htm)
 
 Syntax
 
@@ -102,9 +70,9 @@ Addition:
 
 Effect
 
-This statement defines an event block whose event is raised by the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry") when a list is created when a new page begins, that is, immediately before the first line on a new page is output. All list output produced in the event block is placed below the standard page header of the list. It is not possible to output lines than are available on the page within the event block. The statement [NEW-PAGE](javascript:call_link\('abapnew-page.htm'\)) is ignored within this event block.
+This statement defines an event block whose event is raised by the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry") when a list is created when a new page begins, that is, immediately before the first line on a new page is output. All list output produced in the event block is placed below the standard page header of the list. It is not possible to output lines than are available on the page within the event block. The statement [NEW-PAGE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-page.htm) is ignored within this event block.
 
-All output written to the list in the event block is part of the [page header](javascript:call_link\('abenpage_header_glosry.htm'\) "Glossary Entry") of the current list page. The top displayed page header cannot be moved when scrolling vertically in a list displayed on the screen.
+All output written to the list in the event block is part of the [page header](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpage_header_glosry.htm "Glossary Entry") of the current list page. The top displayed page header cannot be moved when scrolling vertically in a list displayed on the screen.
 
 For each TOP-OF-PAGE event, the placeholders "&1" - "&9" are replaced by the content of the system fields sy-tvar0 - sy-tvar9 in the standard header and the column headers of the standard page header when a basic list is created. Values can be assigned to these system fields in the program.
 
@@ -117,17 +85,10 @@ Effect
 If no addition is specified, an event block is raised for the event TOP-OF-PAGE when a basic list is created. If the addition DURING LINE-SELECTION is specified, an event block is raised for the corresponding events when details lists are created. System fields like sy-lsind must be used to distinguish between the individual details lists.
 
 Continue
-![Example](exa.gif "Example") [Lists - Page Header](javascript:call_link\('abenlist_top_of_page_abexa.htm'\))
+![Example](exa.gif "Example") [Lists - Page Header](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_top_of_page_abexa.htm)
 
-
-
-**📖 Source**: [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptop-of-page.htm)
 
 ### abenlist_top_of_page_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenlist_top_of_page_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_top_of_page_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -135,7 +96,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Event Blocks](javascript:call_link\('abenabap_lists_interactive.htm'\)) →  [TOP-OF-PAGE](javascript:call_link\('abaptop-of-page.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Event Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm) →  [TOP-OF-PAGE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptop-of-page.htm) → 
 
 Lists - Page Header
 
@@ -169,17 +130,10 @@ Description
 
 This program creates a two-page list. In the self-defined page header, column headers are placed in relative position to each other using the system field sy-colno and the POSITION statement. The actual list output is positioned under the fields of the header line using the addition UNDER of the WRITE statement. The line breaks are achieved using NEW-LINE.
 
-The alignment of the individual fields results from the ABAP default of representing character strings as left-aligned and numeric fields as right-aligned. The alignment can be adjusted using the formatting options LEFT-JUSTIFIED, RIGHT-JUSTIFIED, and CENTERED of the WRITE statement (see [WRITE - format\_options](javascript:call_link\('abapwrite_to_options.htm'\))).
+The alignment of the individual fields results from the ABAP default of representing character strings as left-aligned and numeric fields as right-aligned. The alignment can be adjusted using the formatting options LEFT-JUSTIFIED, RIGHT-JUSTIFIED, and CENTERED of the WRITE statement (see [WRITE - format\_options](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwrite_to_options.htm)).
 
-
-
-**📖 Source**: [abenlist_top_of_page_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_top_of_page_abexa.htm)
 
 ### abaptop-of-page.htm
-
-> **📖 Official SAP Documentation**: [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptop-of-page.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -187,11 +141,11 @@ The alignment of the individual fields results from the ABAP default of represen
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Event Blocks](javascript:call_link\('abenabap_lists_interactive.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Event Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm) → 
 
 TOP-OF-PAGE
 
-[Short Reference](javascript:call_link\('abaptop-of-page_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptop-of-page_shortref.htm)
 
 Syntax
 
@@ -203,9 +157,9 @@ Addition:
 
 Effect
 
-This statement defines an event block whose event is raised by the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry") when a list is created when a new page begins, that is, immediately before the first line on a new page is output. All list output produced in the event block is placed below the standard page header of the list. It is not possible to output lines than are available on the page within the event block. The statement [NEW-PAGE](javascript:call_link\('abapnew-page.htm'\)) is ignored within this event block.
+This statement defines an event block whose event is raised by the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry") when a list is created when a new page begins, that is, immediately before the first line on a new page is output. All list output produced in the event block is placed below the standard page header of the list. It is not possible to output lines than are available on the page within the event block. The statement [NEW-PAGE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-page.htm) is ignored within this event block.
 
-All output written to the list in the event block is part of the [page header](javascript:call_link\('abenpage_header_glosry.htm'\) "Glossary Entry") of the current list page. The top displayed page header cannot be moved when scrolling vertically in a list displayed on the screen.
+All output written to the list in the event block is part of the [page header](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpage_header_glosry.htm "Glossary Entry") of the current list page. The top displayed page header cannot be moved when scrolling vertically in a list displayed on the screen.
 
 For each TOP-OF-PAGE event, the placeholders "&1" - "&9" are replaced by the content of the system fields sy-tvar0 - sy-tvar9 in the standard header and the column headers of the standard page header when a basic list is created. Values can be assigned to these system fields in the program.
 
@@ -218,17 +172,10 @@ Effect
 If no addition is specified, an event block is raised for the event TOP-OF-PAGE when a basic list is created. If the addition DURING LINE-SELECTION is specified, an event block is raised for the corresponding events when details lists are created. System fields like sy-lsind must be used to distinguish between the individual details lists.
 
 Continue
-![Example](exa.gif "Example") [Lists - Page Header](javascript:call_link\('abenlist_top_of_page_abexa.htm'\))
+![Example](exa.gif "Example") [Lists - Page Header](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_top_of_page_abexa.htm)
 
-
-
-**📖 Source**: [abaptop-of-page.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptop-of-page.htm)
 
 ### abapend-of-page.htm
-
-> **📖 Official SAP Documentation**: [abapend-of-page.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-page.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -236,11 +183,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Event Blocks](javascript:call_link\('abenabap_lists_interactive.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Event Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm) → 
 
 END-OF-PAGE
 
-[Short Reference](javascript:call_link\('abapend-of-page_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-page_shortref.htm)
 
 Syntax
 
@@ -248,14 +195,14 @@ END-OF-PAGE.
 
 Effect
 
-This statement defines an event block, whose event is raised by the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry") during the creation of a basic list at the following time:
+This statement defines an event block, whose event is raised by the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry") during the creation of a basic list at the following time:
 
--   If lines were reserved in the addition [LINE-COUNT](javascript:call_link\('abapreport_list_options.htm'\)) of the program-initiating statement for a [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") that was reached by a write on this page. List output made in the event block is placed in this area. Output statements that exceed the reserved area are ignored.
--   If no lines were reserved in the addition [LINE-COUNT](javascript:call_link\('abapreport_list_options.htm'\)) for a [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") and the end of page was reached by a write on this page. List outputs made in the event block have no effect.
+-   If lines were reserved in the addition [LINE-COUNT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreport_list_options.htm) of the program-initiating statement for a [page footer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpage_footer_glosry.htm "Glossary Entry") that was reached by a write on this page. List output made in the event block is placed in this area. Output statements that exceed the reserved area are ignored.
+-   If no lines were reserved in the addition [LINE-COUNT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreport_list_options.htm) for a [page footer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpage_footer_glosry.htm "Glossary Entry") and the end of page was reached by a write on this page. List outputs made in the event block have no effect.
 
 Hint
 
-The event END-OF-PAGE is intended for writing list outputs in the page footer and is raised only when the page footer or end of page is reached. Statements such as [NEW-PAGE](javascript:call_link\('abapnew-page.htm'\)) do not raise the event.
+The event END-OF-PAGE is intended for writing list outputs in the page footer and is raised only when the page footer or end of page is reached. Statements such as [NEW-PAGE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-page.htm) do not raise the event.
 
 Example
 
@@ -297,14 +244,7 @@ START-OF-SELECTION.
   ENDLOOP.
 
 
-
-**📖 Source**: [abapend-of-page.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-page.htm)
-
 ### abapat_list_event.htm
-
-> **📖 Official SAP Documentation**: [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_list_event.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -312,21 +252,21 @@ START-OF-SELECTION.
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Event Blocks](javascript:call_link\('abenabap_lists_interactive.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Event Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm) → 
 
 AT list\_event
 
 Syntax
 
-AT [LINE-SELECTION](javascript:call_link\('abapat_line-selection.htm'\))
-  *|* [USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\))
-  *|* [PFnn](javascript:call_link\('abapat_pfnn.htm'\)).
+AT [LINE-SELECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_line-selection.htm)
+  *|* [USER-COMMAND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command.htm)
+  *|* [PFnn](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_pfnn.htm).
 
 Effect
 
 Defines event blocks for interactive list processing. The associated events occur if the screen cursor is positioned on a line in a displayed list and the user chooses an appropriate function. Each interactive list event increases the system field sy-lsind by one.
 
-If the cursor is positioned on a line in a list displayed on the screen in an interactive list event, all the values stored using [HIDE](javascript:call_link\('abaphide.htm'\)) and belonging to the relevant line are assigned the respective variables and the following system fields are filled with data:
+If the cursor is positioned on a line in a list displayed on the screen in an interactive list event, all the values stored using [HIDE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphide.htm) and belonging to the relevant line are assigned the respective variables and the following system fields are filled with data:
 
 System Field
 
@@ -372,25 +312,18 @@ sy-ucomm
 
 Function code to which the user action that raised the event is assigned
 
-After each list event AT LINE-SELECTION, AT PFnn, and AT USER-COMMAND, the statement [NEW-PAGE PRINT OFF](javascript:call_link\('abapnew-page_print.htm'\)) is executed implicitly.
+After each list event AT LINE-SELECTION, AT PFnn, and AT USER-COMMAND, the statement [NEW-PAGE PRINT OFF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-page_print.htm) is executed implicitly.
 
 Hint
 
-The list event [AT PFnn](javascript:call_link\('abapat_pfnn.htm'\)) is obsolete and the other two list events, preferably [AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\)), should be used instead.
+The list event [AT PFnn](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_pfnn.htm) is obsolete and the other two list events, preferably [AT USER-COMMAND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command.htm), should be used instead.
 
 Continue
-[AT LINE-SELECTION](javascript:call_link\('abapat_line-selection.htm'\))
-[AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\))
+[AT LINE-SELECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_line-selection.htm)
+[AT USER-COMMAND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command.htm)
 
-
-
-**📖 Source**: [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_list_event.htm)
 
 ### abapat_line-selection.htm
-
-> **📖 Official SAP Documentation**: [abapat_line-selection.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_line-selection.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -398,11 +331,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Event Blocks](javascript:call_link\('abenabap_lists_interactive.htm'\)) →  [AT list\_event](javascript:call_link\('abapat_list_event.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Event Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm) →  [AT list\_event](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_list_event.htm) → 
 
 AT LINE-SELECTION
 
-[Short Reference](javascript:call_link\('abapat_line-selection_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_line-selection_shortref.htm)
 
 Syntax
 
@@ -410,7 +343,7 @@ AT LINE-SELECTION.
 
 Effect
 
-This statement defines an event block whose event is raised by the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry") when a screen list is displayed if the screen cursor is on a list line and a function is selected using the function code PICK. By defining this event block, the [standard list status](javascript:call_link\('abenstandard_list_status_glosry.htm'\) "Glossary Entry") is enhanced automatically in such a way that the function code F2 and, with it, the double-click mouse functionality is linked with the function code PICK.
+This statement defines an event block whose event is raised by the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry") when a screen list is displayed if the screen cursor is on a list line and a function is selected using the function code PICK. By defining this event block, the [standard list status](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_list_status_glosry.htm "Glossary Entry") is enhanced automatically in such a way that the function code F2 and, with it, the double-click mouse functionality is linked with the function code PICK.
 
 Hint
 
@@ -431,14 +364,7 @@ AT LINE-SELECTION.
   ENDIF.
 
 
-
-**📖 Source**: [abapat_line-selection.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_line-selection.htm)
-
 ### abapat_user-command.htm
-
-> **📖 Official SAP Documentation**: [abapat_user-command.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -446,11 +372,11 @@ AT LINE-SELECTION.
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Event Blocks](javascript:call_link\('abenabap_lists_interactive.htm'\)) →  [AT list\_event](javascript:call_link\('abapat_list_event.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Event Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm) →  [AT list\_event](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_list_event.htm) → 
 
 AT USER-COMMAND
 
-[Short Reference](javascript:call_link\('abapat_user-command_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command_shortref.htm)
 
 Syntax
 
@@ -458,7 +384,7 @@ AT USER-COMMAND.
 
 Effect
 
-This statement defines an event block whose event is raised by the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry") if, when a screen list is displayed, a function with a self-defined function code is chosen. The function code is available in the system field sy-ucomm when processing starts.
+This statement defines an event block whose event is raised by the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry") if, when a screen list is displayed, a function with a self-defined function code is chosen. The function code is available in the system field sy-ucomm when processing starts.
 
 Self-defined function codes are all those that include character combinations, except for the following:
 
@@ -532,7 +458,7 @@ Scroll to last page
 
 PFILE name
 
-Stores list lines in a [text file](javascript:call_link\('abenfile_glosry.htm'\) "Glossary Entry") named "abap.lst" in standard character format in the standard directory on the [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry") [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"). If a name is entered using name, this is converted to lowercase letters and used as the file name.
+Stores list lines in a [text file](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfile_glosry.htm "Glossary Entry") named "abap.lst" in standard character format in the standard directory on the [AS instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_instance_glosry.htm "Glossary Entry") [host computer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhost_computer_glosry.htm "Glossary Entry"). If a name is entered using name, this is converted to lowercase letters and used as the file name.
 
 PL-
 
@@ -616,7 +542,7 @@ Cancel
 
 Example
 
-The following section of an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") works with a self-defined GUI status MYLIST. The function linked there with the function code MY\_SELECTION raises the event AT USER-COMMAND when the list is displayed and creates details lists.
+The following section of an [executable program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexecutable_program_glosry.htm "Glossary Entry") works with a self-defined GUI status MYLIST. The function linked there with the function code MY\_SELECTION raises the event AT USER-COMMAND when the list is displayed and creates details lists.
 
 START-OF-SELECTION.
   SET PF-STATUS 'MYLIST'.
@@ -633,14 +559,7 @@ AT USER-COMMAND.
   ENDCASE.
 
 
-
-**📖 Source**: [abapat_user-command.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command.htm)
-
 ### abapat_list_event.htm
-
-> **📖 Official SAP Documentation**: [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_list_event.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -648,21 +567,21 @@ AT USER-COMMAND.
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Event Blocks](javascript:call_link\('abenabap_lists_interactive.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Event Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm) → 
 
 AT list\_event
 
 Syntax
 
-AT [LINE-SELECTION](javascript:call_link\('abapat_line-selection.htm'\))
-  *|* [USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\))
-  *|* [PFnn](javascript:call_link\('abapat_pfnn.htm'\)).
+AT [LINE-SELECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_line-selection.htm)
+  *|* [USER-COMMAND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command.htm)
+  *|* [PFnn](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_pfnn.htm).
 
 Effect
 
 Defines event blocks for interactive list processing. The associated events occur if the screen cursor is positioned on a line in a displayed list and the user chooses an appropriate function. Each interactive list event increases the system field sy-lsind by one.
 
-If the cursor is positioned on a line in a list displayed on the screen in an interactive list event, all the values stored using [HIDE](javascript:call_link\('abaphide.htm'\)) and belonging to the relevant line are assigned the respective variables and the following system fields are filled with data:
+If the cursor is positioned on a line in a list displayed on the screen in an interactive list event, all the values stored using [HIDE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphide.htm) and belonging to the relevant line are assigned the respective variables and the following system fields are filled with data:
 
 System Field
 
@@ -708,28 +627,18 @@ sy-ucomm
 
 Function code to which the user action that raised the event is assigned
 
-After each list event AT LINE-SELECTION, AT PFnn, and AT USER-COMMAND, the statement [NEW-PAGE PRINT OFF](javascript:call_link\('abapnew-page_print.htm'\)) is executed implicitly.
+After each list event AT LINE-SELECTION, AT PFnn, and AT USER-COMMAND, the statement [NEW-PAGE PRINT OFF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnew-page_print.htm) is executed implicitly.
 
 Hint
 
-The list event [AT PFnn](javascript:call_link\('abapat_pfnn.htm'\)) is obsolete and the other two list events, preferably [AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\)), should be used instead.
+The list event [AT PFnn](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_pfnn.htm) is obsolete and the other two list events, preferably [AT USER-COMMAND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command.htm), should be used instead.
 
 Continue
-[AT LINE-SELECTION](javascript:call_link\('abapat_line-selection.htm'\))
-[AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\))
+[AT LINE-SELECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_line-selection.htm)
+[AT USER-COMMAND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command.htm)
 
-
-
-**📖 Source**: [abapat_list_event.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_list_event.htm)
 
 ### abapset_user-command.htm
-
-> **📖 Official SAP Documentation**: [abapset_user-command.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_user-command.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapset_user-command.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_user-command.htm)
-
 
   
 
@@ -737,11 +646,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Event Blocks](javascript:call_link\('abenabap_lists_interactive.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Event Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_interactive.htm) → 
 
 SET USER-COMMAND
 
-[Short Reference](javascript:call_link\('abapset_user-command_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_user-command_shortref.htm)
 
 Syntax
 
@@ -749,13 +658,13 @@ SET USER-COMMAND fcode.
 
 Effect
 
-Raises a list event with a function code specified in fcode. fcode must be a [character-like data object](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry"). This statement can be used when creating a list. After completion, but before display of the current list, the runtime framework responds as if a user action were performed in the displayed list using the function code specified in fcode.
+Raises a list event with a function code specified in fcode. fcode must be a [character-like data object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharlike_data_object_glosry.htm "Glossary Entry"). This statement can be used when creating a list. After completion, but before display of the current list, the runtime framework responds as if a user action were performed in the displayed list using the function code specified in fcode.
 
-The assignment of list events to function codes corresponds to the description under [AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\)):
+The assignment of list events to function codes corresponds to the description under [AT USER-COMMAND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command.htm):
 
 -   The predefined function codes of the tables specified under AT USER-COMMAND are caught by the runtime framework
--   The function codes "PICK" and "PFnn" raise the events [AT LINE-SELECTION](javascript:call_link\('abapat_line-selection.htm'\)) or [AT PFnn](javascript:call_link\('abapat_pfnn.htm'\))
--   all other functions raise the event [AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\))
+-   The function codes "PICK" and "PFnn" raise the events [AT LINE-SELECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_line-selection.htm) or [AT PFnn](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_pfnn.htm)
+-   all other functions raise the event [AT USER-COMMAND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_user-command.htm)
 
 If the corresponding event block is implemented, the content of sy-lsind is increased by one and the event block is executed.
 
@@ -764,7 +673,7 @@ If multiple SET USER-COMMAND statements are used when creating a list, only the 
 Hints
 
 -   The function code "PICK" only raises an event if the cursor is positioned on a list line.
--   If a function code is assigned to the Return key in the current [GUI status](javascript:call_link\('abengui_status_glosry.htm'\) "Glossary Entry"), this function code is used instead of the one specified in fcode.
+-   If a function code is assigned to the Return key in the current [GUI status](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengui_status_glosry.htm "Glossary Entry"), this function code is used instead of the one specified in fcode.
 
 Example
 

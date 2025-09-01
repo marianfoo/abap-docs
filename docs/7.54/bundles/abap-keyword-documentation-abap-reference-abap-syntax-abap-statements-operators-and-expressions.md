@@ -3,31 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenoperators_expressions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators_expressions.htm)
-- [abenoperators.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators.htm)
-- [abenexpressions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions.htm)
-- [abenexpressions_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions_abexas.htm)
-- [abenjaw_breaker_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjaw_breaker_abexa.htm)
-- [abenmine_sweeper_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmine_sweeper_abexa.htm)
-- [abengame_2048_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengame_2048_abexa.htm)
-
-**Bundle Contains**: 7 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.932Z
-
----
-
 ### abenoperators_expressions.htm
-
-> **📖 Official SAP Documentation**: [abenoperators_expressions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators_expressions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,30 +11,23 @@ Included pages: 8
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) → 
 
 Operators and Expressions
 
-Normally an operater links two operands with an [expression](javascript:call_link\('abenexpressions.htm'\)) or forms an expression with an operand. During the execution of a statement containing such expressions, the result of the expression is determined (operation) and used in the statement. Operators are represented either by special characters or [reserved indicators](javascript:call_link\('abenabap_words.htm'\)).
+Normally an operater links two operands with an [expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions.htm) or forms an expression with an operand. During the execution of a statement containing such expressions, the result of the expression is determined (operation) and used in the statement. Operators are represented either by special characters or [reserved indicators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_words.htm).
 
--   [Operators](javascript:call_link\('abenoperators.htm'\))
+-   [Operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators.htm)
 
--   [Expressions](javascript:call_link\('abenexpressions.htm'\))
+-   [Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions.htm)
 
 Continue
-[Operators](javascript:call_link\('abenoperators.htm'\))
-[Expressions](javascript:call_link\('abenexpressions.htm'\))
-[Examples of Expression-Oriented Programming](javascript:call_link\('abenexpressions_abexas.htm'\))
+[Operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators.htm)
+[Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions.htm)
+[Examples of Expression-Oriented Programming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions_abexas.htm)
 
-
-
-**📖 Source**: [abenoperators_expressions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators_expressions.htm)
 
 ### abenoperators.htm
-
-> **📖 Official SAP Documentation**: [abenoperators.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -66,7 +35,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operators and Expressions](javascript:call_link\('abenoperators_expressions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operators and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators_expressions.htm) → 
 
 Operators
 
@@ -74,46 +43,39 @@ ABAP contains the following operators:
 
 -   Operators that perform special operations in operand positions:
 
--   [Declaration Operators](javascript:call_link\('abeninline_declarations.htm'\))
+-   [Declaration Operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninline_declarations.htm)
     The declaration operators DATA and FIELD-SYMBOL declare variables or field symbols in operand positions.
 
--   [Constructor Operators](javascript:call_link\('abenconstructor_expressions.htm'\))
+-   [Constructor Operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expressions.htm)
     The constructor operators NEW, VALUE, CONV, CORRESPONDING, CAST, REF, EXACT, REDUCE, FILTER, COND, and SWITCH construct values for data objects of specific data types in constructor expressions.
 
 -   Operators that join multiple operands in a single expression:
 
--   [Assignment Operators](javascript:call_link\('abenequals_operator.htm'\))
-    The assignment operator \= joins the source field and target field of an assignment. In the case of assignments, the special [casting operator](javascript:call_link\('abencasting_operator_glosry.htm'\) "Glossary Entry") ?= performs a [down cast](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry"). The [addition assignment operator](javascript:call_link\('abenadd_assignment_op_glosry.htm'\) "Glossary Entry") ([+=](javascript:call_link\('abencalculation_assignments.htm'\))), [subtraction assignment operator](javascript:call_link\('abensub_assignment_op_glosry.htm'\) "Glossary Entry") ([\-=](javascript:call_link\('abencalculation_assignments.htm'\))), [multiplication assignment operator](javascript:call_link\('abenmult_assignment_op_glosry.htm'\) "Glossary Entry") ([\*=](javascript:call_link\('abencalculation_assignments.htm'\))), [division assignment operator](javascript:call_link\('abendiv_assignment_op_glosry.htm'\) "Glossary Entry") ([/=](javascript:call_link\('abencalculation_assignments.htm'\))), or [concatenation assignment operator](javascript:call_link\('abenconcat_assignment_op_glosry.htm'\) "Glossary Entry") ([\*\*=](javascript:call_link\('abencalculation_assignment_string.htm'\))) performs a [calculation assignment](javascript:call_link\('abencalculation_assignment_glosry.htm'\) "Glossary Entry"). The operator \= also joins actual parameters with formal parameters, for example in procedure calls or when working with [data clusters](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry").
+-   [Assignment Operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenequals_operator.htm)
+    The assignment operator \= joins the source field and target field of an assignment. In the case of assignments, the special [casting operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencasting_operator_glosry.htm "Glossary Entry") ?= performs a [down cast](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendown_cast_glosry.htm "Glossary Entry"). The [addition assignment operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadd_assignment_op_glosry.htm "Glossary Entry") ([+=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_assignments.htm)), [subtraction assignment operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensub_assignment_op_glosry.htm "Glossary Entry") ([\-=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_assignments.htm)), [multiplication assignment operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmult_assignment_op_glosry.htm "Glossary Entry") ([\*=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_assignments.htm)), [division assignment operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendiv_assignment_op_glosry.htm "Glossary Entry") ([/=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_assignments.htm)), or [concatenation assignment operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconcat_assignment_op_glosry.htm "Glossary Entry") ([\*\*=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_assignment_string.htm)) performs a [calculation assignment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_assignment_glosry.htm "Glossary Entry"). The operator \= also joins actual parameters with formal parameters, for example in procedure calls or when working with [data clusters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_cluster_glosry.htm "Glossary Entry").
 
--   [Arithmetic Operators](javascript:call_link\('abapcompute_arith.htm'\))
+-   [Arithmetic Operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_arith.htm)
     The arithmetic operators +, \-, \*, /, DIV, MOD, and \*\* join two or more numeric operands with an arithmetic expression. In addition, the characters + and \- act as signs in arithmetic expressions.
 
--   [Bit Operators](javascript:call_link\('abapcompute_bit.htm'\))
+-   [Bit Operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_bit.htm)
     The bit operators BIT-AND, BIT-OR, and BIT-XOR join two or more byte-like operands with a bit expression. The bit operator BIT-NOT negates a byte-like operand.
 
--   [String Operators](javascript:call_link\('abapcompute_string.htm'\))
+-   [String Operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_string.htm)
     The string operator && chains two character-like operands to a string expression.
 
--   [Relational Operators](javascript:call_link\('abenlogexp.htm'\))
-    Relational operators occur in relational expressions, which themselves are components of logical expressions. The [relational operators](javascript:call_link\('abenrelational_operator_glosry.htm'\) "Glossary Entry") \=, <>, <, \>, <=,\>=, BETWEEN, and so on join two or more operands of any data type as a comparison expression. There are additional relational operators for specific data types. The [predicate operator](javascript:call_link\('abenpredicate_operator_glosry.htm'\) "Glossary Entry") IS qualifies an operand.
+-   [Relational Operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp.htm)
+    Relational operators occur in relational expressions, which themselves are components of logical expressions. The [relational operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrelational_operator_glosry.htm "Glossary Entry") \=, <>, <, \>, <=,\>=, BETWEEN, and so on join two or more operands of any data type as a comparison expression. There are additional relational operators for specific data types. The [predicate operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredicate_operator_glosry.htm "Glossary Entry") IS qualifies an operand.
 
--   [Boolean Operators](javascript:call_link\('abenlogexp_boole.htm'\))
+-   [Boolean Operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_boole.htm)
     The Boolean operators AND, OR, and EQUIV join the results of individual logical expressions with a logical expression. The result of a logical expression is either true or false. The Boolean operator NOT negates the result of a logical expression.
 
 -   Operator that joins two operands in compilations:
 
--   [Literal Operator](javascript:call_link\('abenliteral_operator.htm'\))
+-   [Literal Operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenliteral_operator.htm)
     The literal operator & joins two literals or two string templates with a literal or a string template.
 
 
-
-**📖 Source**: [abenoperators.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators.htm)
-
 ### abenexpressions.htm
-
-> **📖 Official SAP Documentation**: [abenexpressions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -121,61 +83,54 @@ ABAP contains the following operators:
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operators and Expressions](javascript:call_link\('abenoperators_expressions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operators and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators_expressions.htm) → 
 
 Expressions
 
-The following expressions can be constructed in certain [operand positions](javascript:call_link\('abenexpression_positions.htm'\)):
+The following expressions can be constructed in certain [operand positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm):
 
 -   Writer positions
 
--   [Declaration expressions](javascript:call_link\('abeninline_declarations.htm'\))
+-   [Declaration expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninline_declarations.htm)
 
--   Certain [constructor expressions](javascript:call_link\('abenconstructor_expressions.htm'\))
+-   Certain [constructor expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expressions.htm)
 
--   Certain [table expressions](javascript:call_link\('abentable_expressions.htm'\))
+-   Certain [table expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expressions.htm)
 
 -   Reader positions
 
--   [Logical expressions](javascript:call_link\('abenlogexp.htm'\))
+-   [Logical expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp.htm)
 
--   [Constructor expressions](javascript:call_link\('abenconstructor_expressions.htm'\))
+-   [Constructor expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expressions.htm)
 
--   [Table expressions](javascript:call_link\('abentable_expressions.htm'\)) and [mesh path expressions](javascript:call_link\('abenmesh_path_expression.htm'\))
+-   [Table expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expressions.htm) and [mesh path expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_expression.htm)
 
--   [Arithmetic expressions](javascript:call_link\('abapcompute_arith.htm'\))
+-   [Arithmetic expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_arith.htm)
 
--   [String expressions](javascript:call_link\('abapcompute_string.htm'\))
+-   [String expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_string.htm)
 
--   [Bit expressions](javascript:call_link\('abapcompute_bit.htm'\))
+-   [Bit expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_bit.htm)
 
-An expression in a [writer position](javascript:call_link\('abenwriting_position_glosry.htm'\) "Glossary Entry") produces a result to which a value is assigned.
+An expression in a [writer position](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwriting_position_glosry.htm "Glossary Entry") produces a result to which a value is assigned.
 
-An expression in a [reader position](javascript:call_link\('abenreading_position_glosry.htm'\) "Glossary Entry") produces a result that is used as an operand in the statement. Logical expressions can contain [calculation expressions](javascript:call_link\('abencalculation_expression_glosry.htm'\) "Glossary Entry") (arithmetic expressions, string expressions, and bit expressions) as relational expressions. The three different calculation expression types cannot currently be mixed in a single calculation expression.
+An expression in a [reader position](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreading_position_glosry.htm "Glossary Entry") produces a result that is used as an operand in the statement. Logical expressions can contain [calculation expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_expression_glosry.htm "Glossary Entry") (arithmetic expressions, string expressions, and bit expressions) as relational expressions. The three different calculation expression types cannot currently be mixed in a single calculation expression.
 
 Notes
 
--   Although the calculation expression types cannot be mixed directly, a different type of expression can be used as an argument of a permitted function in another expression. In the same way, logical expressions can be used as arguments of [Boolean functions](javascript:call_link\('abenboole_function_glosry.htm'\) "Glossary Entry") in calculation expressions.
+-   Although the calculation expression types cannot be mixed directly, a different type of expression can be used as an argument of a permitted function in another expression. In the same way, logical expressions can be used as arguments of [Boolean functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenboole_function_glosry.htm "Glossary Entry") in calculation expressions.
 
--   In [ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry"), three other kinds of expressions are possible:
+-   In [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry"), three other kinds of expressions are possible:
 
--   [SQL expressions](javascript:call_link\('abensql_expression_glosry.htm'\) "Glossary Entry")
+-   [SQL expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expression_glosry.htm "Glossary Entry")
 
--   [Aggregate expressions](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry")
+-   [Aggregate expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenaggregate_expression_glosry.htm "Glossary Entry")
 
--   [SQL path expressions](javascript:call_link\('abencds_path_expression_glosry.htm'\) "Glossary Entry")
+-   [SQL path expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_path_expression_glosry.htm "Glossary Entry")
 
-The ABAP expressions above can be used as [host expressions](javascript:call_link\('abenhost_expression_glosry.htm'\) "Glossary Entry") in ABAP SQL.
+The ABAP expressions above can be used as [host expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhost_expression_glosry.htm "Glossary Entry") in ABAP SQL.
 
-
-
-**📖 Source**: [abenexpressions.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions.htm)
 
 ### abenexpressions_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenexpressions_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -183,24 +138,17 @@ The ABAP expressions above can be used as [host expressions](javascript:call_lin
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operators and Expressions](javascript:call_link\('abenoperators_expressions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operators and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators_expressions.htm) → 
 
 Examples of Expression-Oriented Programming
 
 Continue
-![Example](exa.gif "Example") [Jawbreaker](javascript:call_link\('abenjaw_breaker_abexa.htm'\))
-![Example](exa.gif "Example") [Minesweeper](javascript:call_link\('abenmine_sweeper_abexa.htm'\))
-![Example](exa.gif "Example") [2048 Game](javascript:call_link\('abengame_2048_abexa.htm'\))
+![Example](exa.gif "Example") [Jawbreaker](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjaw_breaker_abexa.htm)
+![Example](exa.gif "Example") [Minesweeper](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmine_sweeper_abexa.htm)
+![Example](exa.gif "Example") [2048 Game](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengame_2048_abexa.htm)
 
-
-
-**📖 Source**: [abenexpressions_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions_abexas.htm)
 
 ### abenjaw_breaker_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenjaw_breaker_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjaw_breaker_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -208,7 +156,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operators and Expressions](javascript:call_link\('abenoperators_expressions.htm'\)) →  [Examples of Expression-Oriented Programming](javascript:call_link\('abenexpressions_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operators and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators_expressions.htm) →  [Examples of Expression-Oriented Programming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions_abexas.htm) → 
 
 Jawbreaker
 
@@ -356,14 +304,7 @@ This example uses the implementation of a Jawbreaker game to demonstrate express
 To play the game, use the left mouse button to remove adjacent blocks with the same color.
 
 
-
-**📖 Source**: [abenjaw_breaker_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjaw_breaker_abexa.htm)
-
 ### abenmine_sweeper_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenmine_sweeper_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmine_sweeper_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -371,7 +312,7 @@ To play the game, use the left mouse button to remove adjacent blocks with the s
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operators and Expressions](javascript:call_link\('abenoperators_expressions.htm'\)) →  [Examples of Expression-Oriented Programming](javascript:call_link\('abenexpressions_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operators and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators_expressions.htm) →  [Examples of Expression-Oriented Programming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions_abexas.htm) → 
 
 Minesweeper
 
@@ -569,14 +510,7 @@ This example uses the implementation of a Minesweeper game to demonstrate expres
 To play the game, use the left and right mouse buttons to enter or select fields.
 
 
-
-**📖 Source**: [abenmine_sweeper_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmine_sweeper_abexa.htm)
-
 ### abengame_2048_abexa.htm
-
-> **📖 Official SAP Documentation**: [abengame_2048_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengame_2048_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -584,7 +518,7 @@ To play the game, use the left and right mouse buttons to enter or select fields
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operators and Expressions](javascript:call_link\('abenoperators_expressions.htm'\)) →  [Examples of Expression-Oriented Programming](javascript:call_link\('abenexpressions_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operators and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators_expressions.htm) →  [Examples of Expression-Oriented Programming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions_abexas.htm) → 
 
 2048 Game
 
@@ -835,17 +769,7 @@ This example uses the implementation of a 2048 game to demonstrate expression-or
 To play the game, use the arrow keys on the keyboard to move all tiles in one of the four directions.
 
 
-
-**📖 Source**: [abengame_2048_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengame_2048_abexa.htm)
-
 ### abenexpressions_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenexpressions_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenexpressions_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions_abexas.htm)
-
 
   
 
@@ -853,11 +777,11 @@ To play the game, use the arrow keys on the keyboard to move all tiles in one of
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operators and Expressions](javascript:call_link\('abenoperators_expressions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operators and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators_expressions.htm) → 
 
 Examples of Expression-Oriented Programming
 
 Continue
-![Example](exa.gif "Example") [Jawbreaker](javascript:call_link\('abenjaw_breaker_abexa.htm'\))
-![Example](exa.gif "Example") [Minesweeper](javascript:call_link\('abenmine_sweeper_abexa.htm'\))
-![Example](exa.gif "Example") [2048 Game](javascript:call_link\('abengame_2048_abexa.htm'\))
+![Example](exa.gif "Example") [Jawbreaker](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjaw_breaker_abexa.htm)
+![Example](exa.gif "Example") [Minesweeper](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmine_sweeper_abexa.htm)
+![Example](exa.gif "Example") [2048 Game](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengame_2048_abexa.htm)

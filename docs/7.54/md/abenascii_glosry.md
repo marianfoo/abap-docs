@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 ASCII
 
-The abbreviation for American Standard Code for Information Interchange. 7-bit [character set](javascript:call_link\('abencharacter_set_glosry.htm'\) "Glossary Entry") in accordance with the ISO-646 standard. Expanded to 8-bit character sets in [ISO-8859](javascript:call_link\('abeniso-8859_glosry.htm'\) "Glossary Entry").
+The abbreviation for American Standard Code for Information Interchange. 7-bit [character set](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_set_glosry.htm "Glossary Entry") in accordance with the ISO-646 standard. Expanded to 8-bit character sets in [ISO-8859](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeniso-8859_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abencharacter_sets.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_sets.htm)

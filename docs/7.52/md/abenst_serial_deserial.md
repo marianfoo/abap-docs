@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_st.htm) → 
 
 ST - Serialization and Deserialization
 
@@ -16,35 +16,35 @@ Serialization and deserialization is primarily based on following schema:
 
 Serializations and deserializations can be divided into the following topics:
 
--   [Literal Template Content](javascript:call_link\('abenst_literals.htm'\))
+-   [Literal Template Content](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_literals.htm)
 
--   [Non-Literal Attributes](javascript:call_link\('abenst_tt_attribute.htm'\))
+-   [Non-Literal Attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_attribute.htm)
 
--   [Namespaces](javascript:call_link\('abenst_tt_namespace.htm'\))
+-   [Namespaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_namespace.htm)
 
--   [Transformation of ABAP Values](javascript:call_link\('abenst_abap_values.htm'\))
+-   [Transformation of ABAP Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_abap_values.htm)
 
--   [Value Assignments](javascript:call_link\('abenst_assignments.htm'\))
+-   [Value Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_assignments.htm)
 
--   [Reading and Writing Variables](javascript:call_link\('abenst_variable_transformations.htm'\))
+-   [Reading and Writing Variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_variable_transformations.htm)
 
--   [Flow Control](javascript:call_link\('abenst_tt_cond.htm'\))
+-   [Flow Control](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_cond.htm)
 
-When a simple transformation is defined, note whether the serializations and deserializations are [symmetric](javascript:call_link\('abenst_symmetry.htm'\)).
+When a simple transformation is defined, note whether the serializations and deserializations are [symmetric](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_symmetry.htm).
 
 Notes
 
--   In serializations and deserializations, the XML data is processed in the form of writer streams and reader streams. When ABAP methods are called from simple transformations, it is possible to [edit these XML streams](javascript:call_link\('abenst_tt_call-method_writerreader.htm'\)).
+-   In serializations and deserializations, the XML data is processed in the form of writer streams and reader streams. When ABAP methods are called from simple transformations, it is possible to [edit these XML streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_call-method_writerreader.htm).
 
--   Serializations and deserializations are subject to the general restriction that the content of a [data root](javascript:call_link\('abenst_tt_root.htm'\)) cannot be modified by serialization; only writes are possible to a data root in deserializations.
+-   Serializations and deserializations are subject to the general restriction that the content of a [data root](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_root.htm) cannot be modified by serialization; only writes are possible to a data root in deserializations.
 
 Continue
-[ST - Literal Template Content](javascript:call_link\('abenst_literals.htm'\))
-[ST - tt:attribute, Non-Literal Attributes](javascript:call_link\('abenst_tt_attribute.htm'\))
-[ST - tt:namespace, Namespaces](javascript:call_link\('abenst_tt_namespace.htm'\))
-[ST - Transformation of ABAP Values](javascript:call_link\('abenst_abap_values.htm'\))
-[ST - Value Assignments](javascript:call_link\('abenst_assignments.htm'\))
-[ST - Reading and Writing Variables](javascript:call_link\('abenst_variable_transformations.htm'\))
-[ST - Flow Control](javascript:call_link\('abenst_flow_control.htm'\))
-[ST - Symmetry of Serialization and Deserialization](javascript:call_link\('abenst_symmetry.htm'\))
-[ST - Representation of ABAP Values](javascript:call_link\('abenst_abap_representation.htm'\))
+[ST - Literal Template Content](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_literals.htm)
+[ST - tt:attribute, Non-Literal Attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_attribute.htm)
+[ST - tt:namespace, Namespaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_namespace.htm)
+[ST - Transformation of ABAP Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_abap_values.htm)
+[ST - Value Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_assignments.htm)
+[ST - Reading and Writing Variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_variable_transformations.htm)
+[ST - Flow Control](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_flow_control.htm)
+[ST - Symmetry of Serialization and Deserialization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_symmetry.htm)
+[ST - Representation of ABAP Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_abap_representation.htm)

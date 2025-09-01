@@ -4,42 +4,42 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_procedures.htm) →  [CALL FUNCTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function.htm) → 
 
 CALL FUNCTION func
 
-[Quick Reference](javascript:call_link\('abapcall_function_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_shortref.htm)
 
 Syntax
 
-CALL FUNCTION func *{* [parameter\_list](javascript:call_link\('abapcall_function_parameter.htm'\))
-                   *|* [parameter\_tables](javascript:call_link\('abapcall_function_dynamic.htm'\)) *}*.
+CALL FUNCTION func *{* [parameter\_list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_parameter.htm)
+                   *|* [parameter\_tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_dynamic.htm) *}*.
 
 Effect
 
-This statement calls the [function module](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") specified in func. The name func must be a character-like data object. When the statement is executed, this data object must contain the name of a function module permitted by the package check in uppercase. Each function module in [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry") has a unique name, which is why the function group does not need to be specified. The following can be specified for func:
+This statement calls the [function module](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_module_glosry.htm "Glossary Entry") specified in func. The name func must be a character-like data object. When the statement is executed, this data object must contain the name of a function module permitted by the package check in uppercase. Each function module in [AS ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") has a unique name, which is why the function group does not need to be specified. The following can be specified for func:
 
 -   Literal or constant
     
 
-If the data object func is specified as a [character literal](javascript:call_link\('abentext_literal_glosry.htm'\) "Glossary Entry") or as a [constant](javascript:call_link\('abenconstant_glosry.htm'\) "Glossary Entry"), it is evaluated as a statically specified object by tools such as for the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry") or for the where-used list.
+If the data object func is specified as a [character literal](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_literal_glosry.htm "Glossary Entry") or as a [constant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstant_glosry.htm "Glossary Entry"), it is evaluated as a statically specified object by tools such as for the [extended program check](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextended_program_check_glosry.htm "Glossary Entry") or for the where-used list.
 
 -   Variable
     
 
-If the data object func is specified as a [variable](javascript:call_link\('abenvariable_glosry.htm'\) "Glossary Entry"), it is specified only dynamically and the content is not evaluated statically.
+If the data object func is specified as a [variable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvariable_glosry.htm "Glossary Entry"), it is specified only dynamically and the content is not evaluated statically.
 
-When the statement is executed, func is not evaluated until runtime (in both cases). More specifically, the types of the [parameters](javascript:call_link\('abapcall_function_parameter.htm'\)) are not known until runtime. In both cases, incorrectly specified function modules or parameters produce runtime errors and not syntax errors
+When the statement is executed, func is not evaluated until runtime (in both cases). More specifically, the types of the [parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_parameter.htm) are not known until runtime. In both cases, incorrectly specified function modules or parameters produce runtime errors and not syntax errors
 
-The additions [parameter\_list](javascript:call_link\('abapcall_function_parameter.htm'\)) or [parameter\_tables](javascript:call_link\('abapcall_function_dynamic.htm'\)) are used to assign (statically or dynamically) actual parameters to the formal parameters of the function module and return codes to the non-class-based exceptions.
+The additions [parameter\_list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_parameter.htm) or [parameter\_tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_dynamic.htm) are used to assign (statically or dynamically) actual parameters to the formal parameters of the function module and return codes to the non-class-based exceptions.
 
 Security Note
 
-If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, the result is a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](javascript:call_link\('abendyn_call_scrty.htm'\)).
+If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, the result is a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_call_scrty.htm).
 
 Note
 
-func is not evaluated until runtime, which means that, unlike in static method calls, no [writable expressions](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") and no [inline declarations](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry") can be specified as actual parameters in function module calls.
+func is not evaluated until runtime, which means that, unlike in static method calls, no [writable expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwritable_expression_glosry.htm "Glossary Entry") and no [inline declarations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninline_declaration_glosry.htm "Glossary Entry") can be specified as actual parameters in function module calls.
 
 Example
 
@@ -68,15 +68,15 @@ ENDTRY.
 
 Executable Example
 
-[Calling Function Modules](javascript:call_link\('abencall_function_abexa.htm'\))
+[Calling Function Modules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_function_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
 CX\_SY\_NO\_HANDLER
 
--   See [Class-Based Exceptions in Procedures](javascript:call_link\('abenexceptions_procedures.htm'\)).
+-   See [Class-Based Exceptions in Procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexceptions_procedures.htm).
     Runtime error: UNCAUGHT\_EXCEPTION
     
 
@@ -120,4 +120,4 @@ CX\_SY\_DYN\_CALL\_PARAM\_NOT\_FOUND
     
 
 Continue
-![Example](exa.gif "Example") [Calling Function Modules](javascript:call_link\('abencall_function_abexa.htm'\))
+![Example](exa.gif "Example") [Calling Function Modules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_function_abexa.htm)

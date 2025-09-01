@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - Projection Views](javascript:call_link\('abencds_proj_views.htm'\)) →  [CDS DDL - CDS Projection View, Transactional Queries](javascript:call_link\('abencds_pv_transactional_query.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_entity.htm) →  [ABAP CDS - Projection Views](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_proj_views.htm) →  [CDS DDL - CDS Projection View, Transactional Queries](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_pv_transactional_query.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20proj_view_annot%2C%20ABENCDS_PROJ_VIEW_ANNOTATIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,23 +12,25 @@ CDS DDL - proj\_view\_annot
 
 Syntax
 
-... @[annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)) ...
+... @[annotation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax.htm) ...
 
 Effect
 
-Specifies an [annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") [annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)) as a view annotation in the definition of a CDS projection view in front of the statementDEFINE *\[*TRANSIENT*\]* VIEW ENTITY AS PROJECTION ON. The character @ must be placed directly in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") and the annotation definition annotation [@Scope](javascript:call_link\('abencds_f1_define_anno_annos.htm'\)) should be specified here using the value #VIEW.
+Specifies an [annotation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotation_glosry.htm "Glossary Entry") [annotation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax.htm) as a view annotation in the definition of a CDS projection view in front of the statementDEFINE *\[*TRANSIENT*\]* VIEW ENTITY AS PROJECTION ON. The character @ must be placed directly in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the annotation definition annotation [@Scope](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_anno_annos.htm) should be specified here using the value #VIEW.
 
-The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
+The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
 
--   [AbapCatalog Annotations](#abencds-proj-view-annotations-1-------accesscontrol-annotations---@ITOC@@ABENCDS_PROJ_VIEW_ANNOTATIONS_2)
--   [Metadata Annotations](#abencds-proj-view-annotations-3-------objectmodel-annotations---@ITOC@@ABENCDS_PROJ_VIEW_ANNOTATIONS_4)
+-   [AbapCatalog Annotations](#@@ITOC@@ABENCDS_PROJ_VIEW_ANNOTATIONS_1)
+-   [AccessControl Annotations](#@@ITOC@@ABENCDS_PROJ_VIEW_ANNOTATIONS_2)
+-   [Metadata Annotations](#@@ITOC@@ABENCDS_PROJ_VIEW_ANNOTATIONS_3)
+-   [ObjectModel Annotations](#@@ITOC@@ABENCDS_PROJ_VIEW_ANNOTATIONS_4)
 
-The following tables show the possible [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS object. Annotations with other identifiers are usually [framework-specific annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
+The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS object. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
 
 Hints
 
--   Projection views inherit the field and association annotations of the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry"). Header annotations are not inherited and must be specified anew, if required.
--   Alongside the view annotations shown here, the globally valid [entity annotations](javascript:call_link\('abencds_f1_entity_annotations.htm'\)) can also be specified for a CDS projection view.
+-   Projection views inherit the field and association annotations of the [projected entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_pv_projected_entity_glosry.htm "Glossary Entry"). Header annotations are not inherited and must be specified anew, if required.
+-   Alongside the view annotations shown here, the globally valid [entity annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_entity_annotations.htm) can also be specified for a CDS projection view.
 -   Only a limited number of view annotations can be used in CDS projection views. The following groups of annotations are not possible and are therefore not listed below:
     -   Client handling is done implicitly in CDS projection views. The client is always set to #session\_variable\_filter. Therefore, client handling annotations cannot be explicitly set in CDS projection views.
     -   DataAging annotations are currently not supported for projection views.
@@ -64,7 +66,7 @@ Display not allowed
 
 AbapCatalog.extensibility.allowNewDatasources
 
-Defines whether a [CDS view entity extension](javascript:call_link\('abencds_view_entity_extend_glosry.htm'\) "Glossary Entry") is allowed to use new data sources. More precisely, if a CDS view entity extension specifies an association, this annotation defines whether the newly defined local association is allowed to be used in [path expressions](javascript:call_link\('abenpath_expression_glosry.htm'\) "Glossary Entry").
+Defines whether a [CDS view entity extension](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_entity_extend_glosry.htm "Glossary Entry") is allowed to use new data sources. More precisely, if a CDS view entity extension specifies an association, this annotation defines whether the newly defined local association is allowed to be used in [path expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpath_expression_glosry.htm "Glossary Entry").
 
 true:
 New data sources in extensions allowed.
@@ -88,10 +90,10 @@ Alias name of a data source or alias name of a locally defined or redefined asso
 
 AbapCatalog.viewEnhancementCategory\[ \]
 
-Specifies how the CDS projection view is extended using [CDS view extensions](javascript:call_link\('abencds_view_extend_glosry.htm'\) "Glossary Entry"). A comma-separated list of values can be specified in the square brackets of the [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry").
+Specifies how the CDS projection view is extended using [CDS view extensions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_extend_glosry.htm "Glossary Entry"). A comma-separated list of values can be specified in the square brackets of the [annotation array](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenannotation_array_glosry.htm "Glossary Entry").
 
 #PROJECTION\_LIST:
-Extensions of the SELECT list and additional CDS associations are allowed; extensions of CDS views whose SELECT lists contain [aggregate expressions](javascript:call_link\('abencds_aggregate_functions_v2.htm'\)) or have a [UNION](javascript:call_link\('abencds_union_v1.htm'\)) clause must be allowed using further values
+Extensions of the SELECT list and additional CDS associations are allowed; extensions of CDS views whose SELECT lists contain [aggregate expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_aggregate_functions_v2.htm) or have a [UNION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_union_v1.htm) clause must be allowed using further values
 #NONE:
 No extensions allowed; cannot be specified together with other values
 
@@ -102,19 +104,19 @@ No extensions allowed; cannot be specified together with other values
 Hints
 
 -   AbapCatalog.viewEnhancementCategory\[#NONE\] is mandatory for views that contain an element of data type LRAW or LCHR. The reason is that elements of data type LRAW or LCHR must always be in the last position in the SELECT list and therefore, no extensions are allowed.
--   The annotation AbapCatalog.dataMaintenance defines whether the CDS projection view can be displayed or maintained by certain tools such as Data Preview in [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"). The annotation is evaluated by these tools. Restrictions imposed by that annotation are user-independent and they are evaluated before accessing the data. Additional restrictions imposed by [CDS roles](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry") are evaluated during the actual data access, if this is done by ABAP SQL.
+-   The annotation AbapCatalog.dataMaintenance defines whether the CDS projection view can be displayed or maintained by certain tools such as Data Preview in [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm "Glossary Entry"). The annotation is evaluated by these tools. Restrictions imposed by that annotation are user-independent and they are evaluated before accessing the data. Additional restrictions imposed by [CDS roles](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_role_glosry.htm "Glossary Entry") are evaluated during the actual data access, if this is done by ABAP SQL.
 -   AbapCatalog.extensibility.dataSources:
     -   can only be specified if extensions are allowed. If @AbapCatalog.extensibility.extensible is set to false or @AbapCatalog.viewEnhancementCategory is set to #NONE, no data sources can be specified.
-    -   can specify only such associations as data\_source\_name which have a maximum [target cardinality](javascript:call_link\('abentarget_cardinality_glosry.htm'\) "Glossary Entry") not greater than 1.
+    -   can specify only such associations as data\_source\_name which have a maximum [target cardinality](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentarget_cardinality_glosry.htm "Glossary Entry") not greater than 1.
 -   Most Abap.Catalog annotations supported in CDS views are not supported in CDS projection views, for the following reasons:
-    -   AbapCatalog.buffering annotations are not possible, since [buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry") does not work with another CDS view as data source.
+    -   AbapCatalog.buffering annotations are not possible, since [buffering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_buffering_glosry.htm "Glossary Entry") does not work with another CDS view as data source.
     -   AbapCatalog.compiler.compareFilter is not required, since the optimization of joins is done automatically.
-    -   AbapCatalog.preserveKey (obsolete) cannot be specified, since the key fields are inherited by the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry").
+    -   AbapCatalog.preserveKey (obsolete) cannot be specified, since the key fields are inherited by the [projected entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_pv_projected_entity_glosry.htm "Glossary Entry").
     -   AbapCatalog.sqlViewName is not required, since projection views do not have a corresponding SQL view in ABAP Dictionary.
 
 AccessControl Annotations   
 
-Defines [access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry") for the CDS projection view.
+Defines [access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control_glosry.htm "Glossary Entry") for the CDS projection view.
 
 Annotation
 
@@ -128,18 +130,18 @@ Default Value if Used Without Value
 
 AccessControl.authorizationCheck
 
-Defines implicit [access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry") when ABAP SQL is used to access the CDS view
+Defines implicit [access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control_glosry.htm "Glossary Entry") when ABAP SQL is used to access the CDS view
 
 #CHECK:
-If ABAP SQL is used to access the view, [access control](javascript:call_link\('abencds_access_control.htm'\)) is performed implicitly if a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry") is assigned to the view. If there is no role for the view, a syntax check warning occurs.
+If ABAP SQL is used to access the view, [access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control.htm) is performed implicitly if a [CDS role](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_role_glosry.htm "Glossary Entry") is assigned to the view. If there is no role for the view, a syntax check warning occurs.
 #NOT\_REQUIRED:
 Like #CHECK, but there is no syntax check warning.
 #MANDATORY:
 It is mandatory to define a CDS role for the projection view. If no access control has been created, a runtime error occurs when ABAP SQL is used to access the projection view.
 #NOT\_ALLOWED:
-No [access control](javascript:call_link\('abencds_access_control.htm'\)) is performed. This produces a syntax check warning in the DCL source code of a role for the view.
+No [access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control.htm) is performed. This produces a syntax check warning in the DCL source code of a role for the view.
 #PRIVILEGED\_ONLY:
-Privileged CDS association (evaluated by [SADL](javascript:call_link\('abensadl_glosry.htm'\) "Glossary Entry")).
+Privileged CDS association (evaluated by [SADL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensadl_glosry.htm "Glossary Entry")).
 
 #NOT\_REQUIRED
 
@@ -147,12 +149,12 @@ Privileged CDS association (evaluated by [SADL](javascript:call_link\('abensadl_
 
 Hints
 
--   Value #NOT\_REQUIRED is recommended for CDS projection views that no [access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry") is provided for when they are created, but which roles can be defined for later on.
--   The annotation AccessControl has further [framework-specific subannotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)).
--   The value #NOT\_ALLOWED disables implicit access control when the CDS projection view is accessed in ABAP SQL. The addition [WITH PRIVILEGED ACCESS](javascript:call_link\('abapselect_data_source.htm'\)) can be used in the [FROM](javascript:call_link\('abapfrom_clause.htm'\)) clause to disable access control for views not annotated with this annotation.
--   In the case of views too, the authorization check with the addition WITH PRIVILEGED ACCESS must be disabled in [updates](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry") in ABAP SQL statements. If not, a [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry") occurs.
--   [CDS access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry") does not work for client-independent access. This is why in ABAP SQL, the addition [USING](javascript:call_link\('abapselect_client.htm'\)) can only be used when accessing CDS entities where access control is disabled. It is recommended that the annotation AccessControl.authorizationCheck:#NOT\_ALLOWED is only specified for CDS projection views that are subject to client-independent access.
--   The obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)) can also only be used when accessing CDS entities where access control is disabled.
+-   Value #NOT\_REQUIRED is recommended for CDS projection views that no [access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control_glosry.htm "Glossary Entry") is provided for when they are created, but which roles can be defined for later on.
+-   The annotation AccessControl has further [framework-specific subannotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_frmwrk.htm).
+-   The value #NOT\_ALLOWED disables implicit access control when the CDS projection view is accessed in ABAP SQL. The addition [WITH PRIVILEGED ACCESS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_data_source.htm) can be used in the [FROM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfrom_clause.htm) clause to disable access control for views not annotated with this annotation.
+-   In the case of views too, the authorization check with the addition WITH PRIVILEGED ACCESS must be disabled in [updates](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenupdate_glosry.htm "Glossary Entry") in ABAP SQL statements. If not, a [runtime error](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenruntime_error_glosry.htm "Glossary Entry") occurs.
+-   [CDS access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control_glosry.htm "Glossary Entry") does not work for client-independent access. This is why in ABAP SQL, the addition [USING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_client.htm) can only be used when accessing CDS entities where access control is disabled. It is recommended that the annotation AccessControl.authorizationCheck:#NOT\_ALLOWED is only specified for CDS projection views that are subject to client-independent access.
+-   The obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_client_obsolete.htm) can also only be used when accessing CDS entities where access control is disabled.
 
 Metadata Annotations   
 
@@ -170,7 +172,7 @@ Default Value if Used Without Value
 
 Metadata.ignorePropagatedAnnotations
 
-Defines whether [analysis of annotations](javascript:call_link\('abencds_annotations_analysis.htm'\)) is possible using the annotation API CL\_DD\_DDL\_ANNOTATION\_SERVICE.
+Defines whether [analysis of annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_analysis.htm) is possible using the annotation API CL\_DD\_DDL\_ANNOTATION\_SERVICE.
 
 true:
 Only direct and derived annotations of the current CDS entity are respected.
@@ -261,5 +263,5 @@ The expected size of the data record that needs to be scanned is 100,000,000 or 
 
 Hints
 
--   With the above subannotations of ObjectModel, it can be documented for a CDS projection view for which kind of application it is intended and which kind of data are to expected. This information is especially important in regards of performance that can be expected by the consumer of the function. For further details refer to the general rules for [view annotations](javascript:call_link\('abencds_view_entity_anno.htm'\)).
--   In addition to the [ABAP annotations](javascript:call_link\('abencds_annotations_abap.htm'\)) shown here, the annotation ObjectModel has further [framework-specific subannotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)).
+-   With the above subannotations of ObjectModel, it can be documented for a CDS projection view for which kind of application it is intended and which kind of data are to expected. This information is especially important in regards of performance that can be expected by the consumer of the function. For further details refer to the general rules for [view annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_entity_anno.htm).
+-   In addition to the [ABAP annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_abap.htm) shown here, the annotation ObjectModel has further [framework-specific subannotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_frmwrk.htm).

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Pass%20by%20Reference%20for%20Output%20Parameters%2C%20ABENREF_TRANSF_OUTPUT_PARAM_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%2
 0improvement:)
@@ -19,7 +19,7 @@ Rule  
 
 Use output parameters correctly with pass by reference
 
-Do not evaluate EXPORTING parameters that are passed by reference in a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) until a value has been explicitly assigned.
+Do not evaluate EXPORTING parameters that are passed by reference in a procedure ([method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) until a value has been explicitly assigned.
 
 Details   
 
@@ -29,7 +29,7 @@ If a parameter like this is an internal table or a string, a simple write is not
 
 Hint
 
-If the described properties are to be exploited for writable parameters that have been passed by reference in a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")), that is, a read is to be performed prior to the write or an existing dynamic data object is to be extended, the [appropriate formal parameter type](javascript:call_link\('abentype_formal_param_proc_guidl.htm'\) "Guideline") must be specified, that is, input/output parameter (CHANGING parameter).
+If the described properties are to be exploited for writable parameters that have been passed by reference in a procedure ([method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")), that is, a read is to be performed prior to the write or an existing dynamic data object is to be extended, the [appropriate formal parameter type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_formal_param_proc_guidl.htm "Guideline") must be specified, that is, input/output parameter (CHANGING parameter).
 
 Exception
 

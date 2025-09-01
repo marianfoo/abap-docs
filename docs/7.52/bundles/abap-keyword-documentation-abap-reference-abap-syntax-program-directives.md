@@ -3,29 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenprogram_directives.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directives.htm)
-- [abendoccomment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendoccomment.htm)
-- [abenpragma.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpragma.htm)
-- [abenpseudo_comment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment.htm)
-- [abenpseudo_comment_ci.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_ci.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.432Z
-
----
-
 ### abenprogram_directives.htm
-
-> **📖 Official SAP Documentation**: [abenprogram_directives.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directives.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -33,32 +11,25 @@ Included pages: 6
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) → 
 
 Program Directives
 
-The ABAP [program directives](javascript:call_link\('abenprogram_directive_glosry.htm'\) "Glossary Entry") enable source-code-based development objects to be documented or modify the check results of various check tools.
+The ABAP [program directives](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directive_glosry.htm "Glossary Entry") enable source-code-based development objects to be documented or modify the check results of various check tools.
 
--   [ABAP Doc](javascript:call_link\('abendoccomment.htm'\))
+-   [ABAP Doc](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendoccomment.htm)
 
--   [Pragmas](javascript:call_link\('abenpragma.htm'\))
+-   [Pragmas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpragma.htm)
 
--   [Pseudo Comments](javascript:call_link\('abenpseudo_comment.htm'\))
+-   [Pseudo Comments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment.htm)
 
 Continue
-[ABAP Doc](javascript:call_link\('abendoccomment.htm'\))
-[Pragmas](javascript:call_link\('abenpragma.htm'\))
-[Pseudo Comments](javascript:call_link\('abenpseudo_comment.htm'\))
+[ABAP Doc](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendoccomment.htm)
+[Pragmas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpragma.htm)
+[Pseudo Comments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment.htm)
 
-
-
-**📖 Source**: [abenprogram_directives.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directives.htm)
 
 ### abendoccomment.htm
-
-> **📖 Official SAP Documentation**: [abendoccomment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendoccomment.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -66,33 +37,39 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [Program Directives](javascript:call_link\('abenprogram_directives.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) →  [Program Directives](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directives.htm) → 
 
 ABAP Doc
 
-ABAP Doc allows [declarations](javascript:call_link\('abendeclaration_glosry.htm'\) "Glossary Entry") in ABAP programs to be documented, based on special ABAP Doc comments. ABAP development environments that support ABAP Doc, such as [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), analyze the content of ABAP Doc comments, convert it to HTML and display it appropriately.
+ABAP Doc allows [declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_glosry.htm "Glossary Entry") in ABAP programs to be documented, based on special ABAP Doc comments. ABAP development environments that support ABAP Doc, such as [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry"), analyze the content of ABAP Doc comments, convert it to HTML and display it appropriately.
 
--   [ABAP Doc Comments](#abendoccomment-1--------parameter-interface-of-procedures---@ITOC@@ABENDOCCOMMENT_2)
+-   [ABAP Doc Comments](#@@ITOC@@ABENDOCCOMMENT_1)
 
--   [Formatting](#abendoccomment-3--------short-texts-and-their-synchronization---@ITOC@@ABENDOCCOMMENT_4)
+-   [Parameter Interface of Procedures](#@@ITOC@@ABENDOCCOMMENT_2)
 
--   [Documentation Links](#abendoccomment-5--------guidelines---@ITOC@@ABENDOCCOMMENT_6)
+-   [Formatting](#@@ITOC@@ABENDOCCOMMENT_3)
+
+-   [Short Texts and Their Synchronization](#@@ITOC@@ABENDOCCOMMENT_4)
+
+-   [Documentation Links](#@@ITOC@@ABENDOCCOMMENT_5)
+
+-   [Guidelines](#@@ITOC@@ABENDOCCOMMENT_6)
 
 ABAP Doc Comments
 
-A comment for ABAP Doc is introduced using the string "!. This is a special form of a normal [line end comment](javascript:call_link\('abencomment.htm'\)) that is introduced using ". The following rules must be applied if an ABAP Doc comment is to be read correctly:
+A comment for ABAP Doc is introduced using the string "!. This is a special form of a normal [line end comment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomment.htm) that is introduced using ". The following rules must be applied if an ABAP Doc comment is to be read correctly:
 
 -   An ABAP Doc comment is one of the following:
 
--   A single [comment line](javascript:call_link\('abencomment_line_glosry.htm'\) "Glossary Entry") that only contains the comment
+-   A single [comment line](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomment_line_glosry.htm "Glossary Entry") that only contains the comment
 
 -   A multiline block of consecutive comment lines The content of a block is summarized into a single ABAP Doc comment.
 
--   An ABAP Doc comment (a line or a block of lines) must be linked to one [declaration statement](javascript:call_link\('abendeclaration_statement_glosry.htm'\) "Glossary Entry") only:
+-   An ABAP Doc comment (a line or a block of lines) must be linked to one [declaration statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_statement_glosry.htm "Glossary Entry") only:
 
--   If the declaration statement does not create a [chained statement](javascript:call_link\('abenchained_statement_glosry.htm'\) "Glossary Entry"), an ABAP Doc comment can be placed directly in front of the declaration statement, without using spaces as separators.
+-   If the declaration statement does not create a [chained statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchained_statement_glosry.htm "Glossary Entry"), an ABAP Doc comment can be placed directly in front of the declaration statement, without using spaces as separators.
 
--   If the declaration statement makes a [chained statement](javascript:call_link\('abenchained_statement_glosry.htm'\) "Glossary Entry"), the colon must be placed after the keyword. An ABAP Doc comment can be placed in front of the identifier of every declared entity.
+-   If the declaration statement makes a [chained statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchained_statement_glosry.htm "Glossary Entry"), the colon must be placed after the keyword. An ABAP Doc comment can be placed in front of the identifier of every declared entity.
 
 ABAP Doc comments are not allowed anywhere else.
 
@@ -133,7 +110,7 @@ ENDCLASS.
 
 Parameter Interface of Procedures
 
-The [parameter interface](javascript:call_link\('abenparameter_interface_glosry.htm'\) "Glossary Entry") for [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") and for [events](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry") in classes can be documented in the corresponding ABAP Doc commentary with a special syntax:
+The [parameter interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenparameter_interface_glosry.htm "Glossary Entry") for [procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocedure_glosry.htm "Glossary Entry") and for [events](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_glosry.htm "Glossary Entry") in classes can be documented in the corresponding ABAP Doc commentary with a special syntax:
 
 Documentation for
 
@@ -236,7 +213,7 @@ The following attributes are possible:
 
 Example
 
-Use of formatting in an ABAP Doc comment for a class. The [ABAP Development Tools](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") display the documentation with the appropriate formatting.
+Use of formatting in an ABAP Doc comment for a class. The [ABAP Development Tools](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry") display the documentation with the appropriate formatting.
 
 "!<h1>Class demo</h1>
 "!<p>This class must <strong>not</strong> be used productively.</p>
@@ -255,13 +232,13 @@ Parts of ABAP Doc comments can be flagged as short texts and the short texts of 
 
 <p class="shorttext">...</p>
 
-A paragraph tagged like this is displayed as a header in the display of the [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") documentation, instead of the short text shown in ABAP Workbench.
+A paragraph tagged like this is displayed as a header in the display of the [ADT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry") documentation, instead of the short text shown in ABAP Workbench.
 
 To synchronize the ABAP Doc short texts and the short texts shown in ABAP Workbench, the tag can be specified as follows (this is optional):
 
 <p class="shorttext synchronized">...</p>
 
-In this case, the length of the short text in ABAP Doc is restricted to the length of the matching short text in ABAP Workbench and is synchronized with the associated short text in the [original language](javascript:call_link\('abenoriginal_langu_guidl.htm'\) "Guideline") of the class or function module as follows:
+In this case, the length of the short text in ABAP Doc is restricted to the length of the matching short text in ABAP Workbench and is synchronized with the associated short text in the [original language](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoriginal_langu_guidl.htm "Guideline") of the class or function module as follows:
 
 -   When an ABAP Doc short text is created or modified in the source code, the associated short text of the repository object is used when the source code is saved. If the short text in ABAP Doc is empty, the short text of the repository object is deleted. If class="shorttext synchronized" is used to remove a full paragraph, the short text of the repository object is preserved. This synchronization works regardless of the tool used.
 
@@ -283,7 +260,7 @@ In an ABAP Doc comment, the following syntax can be used to link to the document
 
 ... {@link *\[**\[**\[*kind:*\]*name.*\]*...*\]**\[*kind:*\]*name} ...
 
-In curly brackets after @link, a path is specified to a repository object and hence a link to its documentation. When the documentation is displayed in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), a link is created here that displays the documentation of the repository object when selected (if this documentation exists).
+In curly brackets after @link, a path is specified to a repository object and hence a link to its documentation. When the documentation is displayed in [ADT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry"), a link is created here that displays the documentation of the repository object when selected (if this documentation exists).
 
 -   name is used to specify the name of a repository object or a component of a repository object (this is not case-sensitive).
 
@@ -291,27 +268,27 @@ In curly brackets after @link, a path is specified to a repository object and he
 
 -   DATA for constants, variables, and procedure parameters in the appropriate context
 
--   DOMA for [domains](javascript:call_link\('abendomain_glosry.htm'\) "Glossary Entry")
+-   DOMA for [domains](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendomain_glosry.htm "Glossary Entry")
 
--   EVNT for [events](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry") in classes
+-   EVNT for [events](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_glosry.htm "Glossary Entry") in classes
 
--   FUNC for [function modules](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") in function groups
+-   FUNC for [function modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_module_glosry.htm "Glossary Entry") in function groups
 
--   FORM for [subroutines](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry") in programs
+-   FORM for [subroutines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubroutine_glosry.htm "Glossary Entry") in programs
 
--   FUGR for [function groups](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry")
+-   FUGR for [function groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_group_glosry.htm "Glossary Entry")
 
--   INTF for [interfaces](javascript:call_link\('abeninterface_oo_glosry.htm'\) "Glossary Entry") implemented in a class to access its components.
+-   INTF for [interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_oo_glosry.htm "Glossary Entry") implemented in a class to access its components.
 
--   METH for [methods](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry")
+-   METH for [methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_glosry.htm "Glossary Entry")
 
--   PROG for [ABAP programs](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry")
+-   PROG for [ABAP programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_glosry.htm "Glossary Entry")
 
--   SEAM for [test seams](javascript:call_link\('abentest_seam_glosry.htm'\) "Glossary Entry")
+-   SEAM for [test seams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_seam_glosry.htm "Glossary Entry")
 
--   XSLT for [XSLT programs](javascript:call_link\('abenxsl_transformation_2_glosry.htm'\) "Glossary Entry") and [simple transformations](javascript:call_link\('abensimple_transformation_glosry.htm'\) "Glossary Entry")
+-   XSLT for [XSLT programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsl_transformation_2_glosry.htm "Glossary Entry") and [simple transformations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensimple_transformation_glosry.htm "Glossary Entry")
 
-kind cannot and must not be specified for global data types and object types (classes and interfaces). These repository objects are only addressed using their names. This applies specifically to [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry").
+kind cannot and must not be specified for global data types and object types (classes and interfaces). These repository objects are only addressed using their names. This applies specifically to [CDS entities](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_entity_glosry.htm "Glossary Entry").
 
 -   The path is specified on one level only when repository objects are addressed. When a component of a repository is addressed, for example a method of a class or a local class of a program, the path is usually specified with multiple levels, with each segment separated by a period (.). The segments between the periods are allowed to be empty. This makes the path into a relative path and the next higher context of the current context is addressed.
 
@@ -350,24 +327,17 @@ Programming Guidelines
 
 The following guidelines for general comments also specifically apply to ABAP-DOC comments.
 
--   [Write program comments in English](javascript:call_link\('abenlangu_choice_guidl.htm'\) "Guideline")
+-   [Write program comments in English](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlangu_choice_guidl.htm "Guideline")
     Adhering to this rule is particularly important, because documentation created in an ABAP Doc as part of the source code is not translated into other languages. One exception are synchronized short texts.
     
--   [Arrange comments correctly](javascript:call_link\('abenarrange_guidl.htm'\) "Guideline")
+-   [Arrange comments correctly](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarrange_guidl.htm "Guideline")
     This rule affects the horizontal indents because the vertical alignment is fixed in the syntax before declarations.
     
--   [Character set in source code](javascript:call_link\('abencharacter_set_guidl.htm'\) "Guideline")
+-   [Character set in source code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_set_guidl.htm "Guideline")
     This rule is checked by the syntax check.
 
 
-
-**📖 Source**: [abendoccomment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendoccomment.htm)
-
 ### abenpragma.htm
-
-> **📖 Official SAP Documentation**: [abenpragma.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpragma.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -375,19 +345,21 @@ The following guidelines for general comments also specifically apply to ABAP-DO
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [Program Directives](javascript:call_link\('abenprogram_directives.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) →  [Program Directives](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directives.htm) → 
 
 Pragmas
 
-Pragmas are [program directives](javascript:call_link\('abenprogram_directive_glosry.htm'\) "Glossary Entry") that can be used to hide warnings from various check tools. The following are supported:
+Pragmas are [program directives](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directive_glosry.htm "Glossary Entry") that can be used to hide warnings from various check tools. The following are supported:
 
--   Warnings from the ABAP Compiler [syntax check](javascript:call_link\('abensyntax_check_glosry.htm'\) "Glossary Entry")
+-   Warnings from the ABAP Compiler [syntax check](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensyntax_check_glosry.htm "Glossary Entry")
 
--   Warnings from the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry")
+-   Warnings from the [extended program check](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenextended_program_check_glosry.htm "Glossary Entry")
 
 For more information, see:
 
--   [Syntax of Pragmas](#abenpragma-1--------positioning-of-pragmas-in-abap-source-code---@ITOC@@ABENPRAGMA_2)
+-   [Syntax of Pragmas](#@@ITOC@@ABENPRAGMA_1)
+
+-   [Positioning of Pragmas in ABAP Source Code](#@@ITOC@@ABENPRAGMA_2)
 
 Syntax of Pragmas
 
@@ -403,11 +375,11 @@ Notes
 
 -   The existence of a pragma for a specific warning from the system check can be checked using the long text of the message (which in this case always exists). The description of a message for the extended program check is also specified by the pragma, which can be used to hide it.
 
--   Pragmas replace the previously common [pseudo comments](javascript:call_link\('abenpseudo_comment_slin.htm'\)) to hide warnings from the extended program check. Pseudo comments are now obsolete and should no longer be used. The program ABAP\_SLIN\_PRAGMAS shows which pragmas are to be used instead of the obsolete pseudo comments.
+-   Pragmas replace the previously common [pseudo comments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_slin.htm) to hide warnings from the extended program check. Pseudo comments are now obsolete and should no longer be used. The program ABAP\_SLIN\_PRAGMAS shows which pragmas are to be used instead of the obsolete pseudo comments.
 
--   The statement [SET EXTENDED CHECK](javascript:call_link\('abapset_extended_check.htm'\)) and the [pseudo comment](javascript:call_link\('abenpseudo_comment_slin.htm'\)) #EC \* should not be used in programs that use pragmas to deactivate warnings. This causes an extended program check warning that cannot be deactivated.
+-   The statement [SET EXTENDED CHECK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_extended_check.htm) and the [pseudo comment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_slin.htm) #EC \* should not be used in programs that use pragmas to deactivate warnings. This causes an extended program check warning that cannot be deactivated.
 
--   A pragma in a type definition made using [TYPES](javascript:call_link\('abaptypes.htm'\)) (for example, for hiding the warning about redundant secondary keys of table types) can also be applied to data declarations using [DATA](javascript:call_link\('abapdata.htm'\)) (in the case of non-generic types) and associated statements that reference the data type using [TYPE](javascript:call_link\('abapdata_referring.htm'\)). In the case of references to a generic data type defined using TYPES (that is a table type for which no primary table key is defined), a specified pragma is not applied to the data declaration. This is because the declaration uses a full table type implicitly and the pragma must potentially be specified again.
+-   A pragma in a type definition made using [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes.htm) (for example, for hiding the warning about redundant secondary keys of table types) can also be applied to data declarations using [DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata.htm) (in the case of non-generic types) and associated statements that reference the data type using [TYPE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_referring.htm). In the case of references to a generic data type defined using TYPES (that is a table type for which no primary table key is defined), a specified pragma is not applied to the data declaration. This is because the declaration uses a full table type implicitly and the pragma must potentially be specified again.
 
 Example
 
@@ -439,11 +411,11 @@ text  = 'Hello Pragmas' ##no\_text.
 
 Examples
 
-In some executable examples for key accesses to internal tables ([read](javascript:call_link\('abenread_itab_using_key_abexa.htm'\)), [delete](javascript:call_link\('abendelete_itab_using_key_abexa.htm'\))), syntax warnings are hidden by the relevant pragma. The pragmas were found in the long text of the syntax warnings (i button selected).
+In some executable examples for key accesses to internal tables ([read](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenread_itab_using_key_abexa.htm), [delete](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendelete_itab_using_key_abexa.htm)), syntax warnings are hidden by the relevant pragma. The pragmas were found in the long text of the syntax warnings (i button selected).
 
 Positioning of Pragmas in ABAP Source Code
 
-A pragma applies to the current statement, that is to the statement that ends at the next "." or ",". Pragmas in front of the ":" of a chained statement apply to the whole chained statement. Pragmas that occur when calling a [macro](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") apply to all statements of the macro.
+A pragma applies to the current statement, that is to the statement that ends at the next "." or ",". Pragmas in front of the ":" of a chained statement apply to the whole chained statement. Pragmas that occur when calling a [macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_glosry.htm "Glossary Entry") apply to all statements of the macro.
 
 Pragmas must only occur at certain positions in the source code for reasons of readability, namely:
 
@@ -457,14 +429,7 @@ Pragmas must only occur at certain positions in the source code for reasons of r
 Unknown pragmas or pragmas with formal errors or pragmas in the wrong position or with incorrect parameters themselves produce syntax warnings. Pragmas in the wrong position for syntax check warnings are ignored.
 
 
-
-**📖 Source**: [abenpragma.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpragma.htm)
-
 ### abenpseudo_comment.htm
-
-> **📖 Official SAP Documentation**: [abenpseudo_comment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -472,38 +437,31 @@ Unknown pragmas or pragmas with formal errors or pragmas in the wrong position o
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [Program Directives](javascript:call_link\('abenprogram_directives.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) →  [Program Directives](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directives.htm) → 
 
 Pseudo Comments
 
-Pseudo comments are [program directives](javascript:call_link\('abenprogram_directive_glosry.htm'\) "Glossary Entry") that influence check and test procedures. Pseudo comments have mostly become [obsolete](javascript:call_link\('abenpseudo_comments_obsolete.htm'\)) and have been replaced by [pragmas](javascript:call_link\('abenpragma.htm'\)) or real additions.
+Pseudo comments are [program directives](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directive_glosry.htm "Glossary Entry") that influence check and test procedures. Pseudo comments have mostly become [obsolete](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comments_obsolete.htm) and have been replaced by [pragmas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpragma.htm) or real additions.
 
 Non-Obsolete Pseudo Comments
 
--   [Pseudo Comments for Code Inspector](javascript:call_link\('abenpseudo_comment_ci.htm'\))
+-   [Pseudo Comments for Code Inspector](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_ci.htm)
 
 Obsolete Pseudo Comments
 
--   [Pseudo Comments for the Extended Program Check](javascript:call_link\('abenpseudo_comment_slin.htm'\))
+-   [Pseudo Comments for the Extended Program Check](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_slin.htm)
 
--   [Pseudo Comments for Test Classes](javascript:call_link\('abenpseudo_comment_test_class.htm'\))
+-   [Pseudo Comments for Test Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_test_class.htm)
 
 Note
 
 It is only possible to specify one pseudo comment for each program line. If multiple pseudo comments are required for a single statement, they must span multiple lines.
 
 Continue
-[Pseudo Comments for Code Inspector](javascript:call_link\('abenpseudo_comment_ci.htm'\))
+[Pseudo Comments for Code Inspector](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_ci.htm)
 
-
-
-**📖 Source**: [abenpseudo_comment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment.htm)
 
 ### abenpseudo_comment_ci.htm
-
-> **📖 Official SAP Documentation**: [abenpseudo_comment_ci.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_ci.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -511,11 +469,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [Program Directives](javascript:call_link\('abenprogram_directives.htm'\)) →  [Pseudo Comments](javascript:call_link\('abenpseudo_comment.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) →  [Program Directives](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directives.htm) →  [Pseudo Comments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment.htm) → 
 
 Pseudo Comments for Code Inspector
 
-The character string "#EC after a statement or a part of a statement followed by an ID with the prefix "CI\_" defines a [pseudo comment](javascript:call_link\('abenpseudo_comment_glosry.htm'\) "Glossary Entry") for [Code Inspector](javascript:call_link\('abencode_inspector_glosry.htm'\) "Glossary Entry").
+The character string "#EC after a statement or a part of a statement followed by an ID with the prefix "CI\_" defines a [pseudo comment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_glosry.htm "Glossary Entry") for [Code Inspector](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencode_inspector_glosry.htm "Glossary Entry").
 
 These pseudo comments can be used to hide certain warnings from Code Inspector for the statement in question. The possible IDs are documented in Code Inspector or in the output of its messages.
 
@@ -527,7 +485,7 @@ Notes
 
 Example
 
-The following [join expression](javascript:call_link\('abenjoin_expression_glosry.htm'\) "Glossary Entry") bypasses [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry"), which raises a warning from Code Inspector. If the SELECT statement is part of an application that buffers selected data itself, however, the warning can be hidden as shown here. An additional normal comment is included to make it clear to the reader why the pseudo comment is being used.
+The following [join expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjoin_expression_glosry.htm "Glossary Entry") bypasses [table buffering](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_buffering_glosry.htm "Glossary Entry"), which raises a warning from Code Inspector. If the SELECT statement is part of an application that buffers selected data itself, however, the warning can be hidden as shown here. An additional normal comment is included to make it clear to the reader why the pseudo comment is being used.
 
 SELECT d~object, h~dokldate, h~dokltime   "#EC CI\_BUFFJOIN
   FROM dokil AS d                         "Buffering is done
@@ -544,17 +502,7 @@ SELECT d~object, h~dokldate, h~dokltime   "#EC CI\_BUFFJOIN
   INTO CORRESPONDING FIELDS OF TABLE @docu\_tab.
 
 
-
-**📖 Source**: [abenpseudo_comment_ci.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_ci.htm)
-
 ### abenpseudo_comment.htm
-
-> **📖 Official SAP Documentation**: [abenpseudo_comment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenpseudo_comment.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment.htm)
-
 
   
 
@@ -562,25 +510,25 @@ SELECT d~object, h~dokldate, h~dokltime   "#EC CI\_BUFFJOIN
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [Program Directives](javascript:call_link\('abenprogram_directives.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) →  [Program Directives](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directives.htm) → 
 
 Pseudo Comments
 
-Pseudo comments are [program directives](javascript:call_link\('abenprogram_directive_glosry.htm'\) "Glossary Entry") that influence check and test procedures. Pseudo comments have mostly become [obsolete](javascript:call_link\('abenpseudo_comments_obsolete.htm'\)) and have been replaced by [pragmas](javascript:call_link\('abenpragma.htm'\)) or real additions.
+Pseudo comments are [program directives](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directive_glosry.htm "Glossary Entry") that influence check and test procedures. Pseudo comments have mostly become [obsolete](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comments_obsolete.htm) and have been replaced by [pragmas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpragma.htm) or real additions.
 
 Non-Obsolete Pseudo Comments
 
--   [Pseudo Comments for Code Inspector](javascript:call_link\('abenpseudo_comment_ci.htm'\))
+-   [Pseudo Comments for Code Inspector](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_ci.htm)
 
 Obsolete Pseudo Comments
 
--   [Pseudo Comments for the Extended Program Check](javascript:call_link\('abenpseudo_comment_slin.htm'\))
+-   [Pseudo Comments for the Extended Program Check](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_slin.htm)
 
--   [Pseudo Comments for Test Classes](javascript:call_link\('abenpseudo_comment_test_class.htm'\))
+-   [Pseudo Comments for Test Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_test_class.htm)
 
 Note
 
 It is only possible to specify one pseudo comment for each program line. If multiple pseudo comments are required for a single statement, they must span multiple lines.
 
 Continue
-[Pseudo Comments for Code Inspector](javascript:call_link\('abenpseudo_comment_ci.htm'\))
+[Pseudo Comments for Code Inspector](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_ci.htm)

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 7.0 and its EhPs](javascript:call_link\('abennews-70_ehps.htm'\)) →  [Changes in Release 7.0, EhP2](javascript:call_link\('abennews-71.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews.htm) →  [Changes in Release 7.0 and its EhPs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-70_ehps.htm) →  [Changes in Release 7.0, EhP2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-71.htm) → 
 
 Shared Objects in Release 7.0, EhP2
 
@@ -28,17 +28,17 @@ Modification 2
 
 Data References in the Shared Objects Memory
 
-From Release 7.0, EhP2, [anonymous data objects](javascript:call_link\('abenanonymous_data_object_glosry.htm'\) "Glossary Entry") in the [shared objects memory](javascript:call_link\('abenshared_objects_memory_glosry.htm'\) "Glossary Entry") can also be created with direct reference to data elements and table types of ABAP Dictionary using the addition [AREA HANDLE](javascript:call_link\('abapcreate_data_area_handle.htm'\)) of the statement [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)).
+From Release 7.0, EhP2, [anonymous data objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenanonymous_data_object_glosry.htm "Glossary Entry") in the [shared objects memory](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshared_objects_memory_glosry.htm "Glossary Entry") can also be created with direct reference to data elements and table types of ABAP Dictionary using the addition [AREA HANDLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_area_handle.htm) of the statement [CREATE DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data.htm).
 
 Modification 3
 
 Area Binding
 
-From Release 7.0, EhP2, the lifetime and visibility of area instances can be bound not only to the current [application server](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry") but also to the following:
+From Release 7.0, EhP2, the lifetime and visibility of area instances can be bound not only to the current [application server](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapplication_server_glosry.htm "Glossary Entry") but also to the following:
 
--   [User sessions](javascript:call_link\('abenuser_session_glosry.htm'\) "Glossary Entry")
+-   [User sessions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_session_glosry.htm "Glossary Entry")
     
--   [Top level transactions](javascript:call_link\('abentop_level_transaction_glosry.htm'\) "Glossary Entry")
+-   [Top level transactions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentop_level_transaction_glosry.htm "Glossary Entry")
     
 
 .
@@ -47,7 +47,7 @@ Modification 4
 
 Methods PROPAGATE\_AREA and PROPAGATE\_INSTANCE Replaced
 
-The methods PROPAGATE\_AREA and PROPAGATE\_INSTANCE of an [area class](javascript:call_link\('abenarea_class_glosry.htm'\) "Glossary Entry") for transactional areas may no longer be used. Instead, the parameter AFFECT\_SERVER of the methods FREE\_AREA, FREE\_INSTANCE, INVALIDATE\_AREA, and INVALIDATE\_INSTANCE can be used for areas of this type with the Application Server area binding.
+The methods PROPAGATE\_AREA and PROPAGATE\_INSTANCE of an [area class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarea_class_glosry.htm "Glossary Entry") for transactional areas may no longer be used. Instead, the parameter AFFECT\_SERVER of the methods FREE\_AREA, FREE\_INSTANCE, INVALIDATE\_AREA, and INVALIDATE\_INSTANCE can be used for areas of this type with the Application Server area binding.
 
 Modification 5
 

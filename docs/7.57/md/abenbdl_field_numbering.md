@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [CDS BDL - Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [CDS BDL - Entity Behavior Body](javascript:call_link\('abenbdl_body.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_rap_bo.htm) →  [CDS BDL - Entity Behavior Definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_define_beh.htm) →  [CDS BDL - Entity Behavior Body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_body.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - field numbering, ABENBDL_FIELD_NUMBERING, 757%0D%0A%0D%0AError:%0D%0A%0D%0A
 %0D%0A%0D%0ASuggestion for improvement:)
@@ -17,16 +17,16 @@ Syntax
 
 Effect
 
-Defines managed [internal numbering](javascript:call_link\('abenrap_int_numbering_glosry.htm'\) "Glossary Entry") for a [RAP BO field](javascript:call_link\('abenrap_bo_field_glosry.htm'\) "Glossary Entry"). The field in question is automatically assigned values upon creation of a new entity instance. The RAP BO consumer does not have to provide any input for those fields.
+Defines managed [internal numbering](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_int_numbering_glosry.htm "Glossary Entry") for a [RAP BO field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_field_glosry.htm "Glossary Entry"). The field in question is automatically assigned values upon creation of a new entity instance. The RAP BO consumer does not have to provide any input for those fields.
 
 -   Can be applied only to primary key fields with ABAP type raw(16) (UUID).
--   Managed internal numbering is only available in [managed RAP BOs](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry").
--   It is managed by the [RAP framework](javascript:call_link\('abenrap_framework_glosry.htm'\) "Glossary Entry"), no implementation in the ABAP behavior pool is required.
+-   Managed internal numbering is only available in [managed RAP BOs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry").
+-   It is managed by the [RAP framework](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_framework_glosry.htm "Glossary Entry"), no implementation in the ABAP behavior pool is required.
 -   The field in question can also be defined as readonly to ensure that no values are passed from the RAP BO consumer. However, this is optional. If you do not set the key field to readonly, the key value can also be given by the consumer.
 
 Hint
 
-For self-defined numbering, the keyword early numbering is available, see topic [CDS BDL - early numbering](javascript:call_link\('abenbdl_early_numb.htm'\)).
+For self-defined numbering, the keyword early numbering is available, see topic [CDS BDL - early numbering](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_early_numb.htm).
 
 Further Information
 
@@ -47,7 +47,7 @@ lock master
   field ( numbering:managed, readonly ) key\_field;
 }
 
-The ABAP program DEMO\_RAP\_MANAGED\_FIELDS uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access to [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") and performs the following steps:
+The ABAP program DEMO\_RAP\_MANAGED\_FIELDS uses [EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") to access to [RAP business object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm "Glossary Entry") and performs the following steps:
 
 -   It creates three entity instances by specifying a value for the field char\_field1.
 -   It commits the three new entity instances to the database.

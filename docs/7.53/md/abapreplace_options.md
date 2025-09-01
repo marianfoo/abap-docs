@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) →  [REPLACE](javascript:call_link\('abapreplace.htm'\)) →  [REPLACE pattern IN](javascript:call_link\('abapreplace_in_pattern.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_statements.htm) →  [REPLACE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreplace.htm) →  [REPLACE pattern IN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreplace_in_pattern.htm) → 
 
 REPLACE - options
 
-[Quick Reference](javascript:call_link\('abapreplace_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreplace_shortref.htm)
 
 Syntax
 
@@ -28,7 +28,7 @@ Extras:
 
 Effect
 
-These additions modify the statement [REPLACE pattern IN](javascript:call_link\('abapreplace_in_pattern.htm'\)) and provide advanced evaluation options. The addition CASE can be used to specify whether the search is case-sensitive. The additions REPLACEMENT and RESULTS can be used to determine the number, position, and length of the string(s) replaced.
+These additions modify the statement [REPLACE pattern IN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreplace_in_pattern.htm) and provide advanced evaluation options. The addition CASE can be used to specify whether the search is case-sensitive. The additions REPLACEMENT and RESULTS can be used to determine the number, position, and length of the string(s) replaced.
 
 Addition 1
 
@@ -36,7 +36,7 @@ Addition 1
 
 Effect
 
-You can use this addition in string processing only. It has the same syntax and effect as the associated [addition](javascript:call_link\('abapfind_options.htm'\)) for searching for a substring in a data object using the [FIND](javascript:call_link\('abapfind.htm'\)) statement. This addition is not permitted when using an instance of class CL\_ABAP\_REGEX.
+You can use this addition in string processing only. It has the same syntax and effect as the associated [addition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_options.htm) for searching for a substring in a data object using the [FIND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind.htm) statement. This addition is not permitted when using an instance of class CL\_ABAP\_REGEX.
 
 Example
 
@@ -57,7 +57,7 @@ This addition saves the number of replacements made in data object dobj to rcnt.
 
 -   An existing variable that expects the data type i.
     
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)). The declared variable has the data type i.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm). The declared variable has the data type i.
     
 
 If no replacements are made, rcnt is set to 0.
@@ -72,18 +72,18 @@ Addition 3
 
 Effect
 
-This addition saves the [offset](javascript:call_link\('abenoffset_glosry.htm'\) "Glossary Entry") with respect to data object dobj at which the last replacement was made to roff. The following can be specified for roff:
+This addition saves the [offset](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoffset_glosry.htm "Glossary Entry") with respect to data object dobj at which the last replacement was made to roff. The following can be specified for roff:
 
 -   An existing variable that expects the data type i.
     
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)). The declared variable has the data type i.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm). The declared variable has the data type i.
     
 
 If no replacement is made, roff retains its existing value or stays initial.
 
 Notes
 
--   When ALL OCCURRENCES is used, REPLACEMENT OFFSET generally returns a different value than [MATCH OFFSET](javascript:call_link\('abapfind_options.htm'\)) for the [FIND](javascript:call_link\('abapfind.htm'\)) statement. This is because the position of the last location found can be shifted by previous replacements.
+-   When ALL OCCURRENCES is used, REPLACEMENT OFFSET generally returns a different value than [MATCH OFFSET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_options.htm) for the [FIND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind.htm) statement. This is because the position of the last location found can be shifted by previous replacements.
     
 -   In data objects of fixed length, the value in roff refers to the last replacement within the data object. Occurrences that are shifted by previous replacements in the data object are no longer relevant.
     
@@ -98,7 +98,7 @@ This addition saves the length of the last substring inserted into dobj to rlen.
 
 -   An existing variable that expects the data type i.
     
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)). The declared variable has the data type i.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm). The declared variable has the data type i.
     
 
 If no replacement is made, rlen retains its existing value or stays initial.
@@ -131,7 +131,7 @@ Addition 5
 
 Effect
 
-If at least one replacement is made, the RESULTS addition saves the offsets of the locations at which replacements were made. It also saves the length of the substrings inserted either in an internal table result\_tab or in a structure result\_wa. The syntax and meaning of the addition are otherwise the same as those for the [addition](javascript:call_link\('abapfind_options.htm'\)) of the same name for the [FIND](javascript:call_link\('abapfind.htm'\)) statement. The only difference is that in this case, the data types for result\_tab and result\_wa must be REPL\_RESULT\_TAB and REPL\_RESULT, in which there is no SUBMATCHES component. As in FIND, an inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) can be specified after RESULTS.
+If at least one replacement is made, the RESULTS addition saves the offsets of the locations at which replacements were made. It also saves the length of the substrings inserted either in an internal table result\_tab or in a structure result\_wa. The syntax and meaning of the addition are otherwise the same as those for the [addition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_options.htm) of the same name for the [FIND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind.htm) statement. The only difference is that in this case, the data types for result\_tab and result\_wa must be REPL\_RESULT\_TAB and REPL\_RESULT, in which there is no SUBMATCHES component. As in FIND, an inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm) can be specified after RESULTS.
 
 Example
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for Byte String Processing](javascript:call_link\('abenbyte_processing_expr_func.htm'\)) →  [Byte String Functions](javascript:call_link\('abenbinary_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_string.htm) →  [Expressions and Functions for Byte String Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbyte_processing_expr_func.htm) →  [Byte String Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbinary_functions.htm) → 
 
 bit-set - Bit Function
 
@@ -14,7 +14,7 @@ Syntax
 
 ... bit-set( arg ) ...
 
-This function expects an integer numeric value as an argument. The argument is a [numerical expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") of the type i.
+This function expects an integer numeric value as an argument. The argument is a [numerical expression position](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") of the type i.
 
 -   If the argument is positive, the function creates a byte chain in which the bit has the value 1 in the place specified by the argument. All other bits have the value 0.
 
@@ -24,10 +24,10 @@ This function expects an integer numeric value as an argument. The argument is a
 
 The length of the result is the minimum number of bytes needed to include the set bits.
 
-The function can be used in all places in which a [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry") can be used, particularly in bit expressions themselves. As regards handling the result, the same applies as for bit expressions. More specifically, during assignment to an inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)), the resulting byte chain is handled as a byte string of data type xstring, and when passing a generic typed formal parameter it is handled as a byte field of data type x. An empty byte chain stamps a generically typed formal parameter as a byte field with a length of 1 and a hexadecimal value of "00".
+The function can be used in all places in which a [bit expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbit_expression_glosry.htm "Glossary Entry") can be used, particularly in bit expressions themselves. As regards handling the result, the same applies as for bit expressions. More specifically, during assignment to an inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_inline.htm), the resulting byte chain is handled as a byte string of data type xstring, and when passing a generic typed formal parameter it is handled as a byte field of data type x. An empty byte chain stamps a generically typed formal parameter as a byte field with a length of 1 and a hexadecimal value of "00".
 
 Notes
 
--   The function [boolx](javascript:call_link\('abenboole_functions.htm'\)) is a bit function in principle, but due to its properties is handled as a [logical function](javascript:call_link\('abenlogic_function_glosry.htm'\) "Glossary Entry").
+-   The function [boolx](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenboole_functions.htm) is a bit function in principle, but due to its properties is handled as a [logical function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogic_function_glosry.htm "Glossary Entry").
 
--   Unlike the statement [SET BIT](javascript:call_link\('abapset_bit.htm'\)), the result field does not need to be filled first.
+-   Unlike the statement [SET BIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_bit.htm), the result field does not need to be filled first.

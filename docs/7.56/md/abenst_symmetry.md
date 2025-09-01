@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_serial_deserial.htm) → 
 
 ST - Symmetry of Serialization and Deserialization
 
@@ -12,7 +12,7 @@ The language constructs of Simple Transformations support the formulation of rev
 
 Example
 
-This simple example illustrates a non-symmetrical transformation. Since the [tt.value](javascript:call_link\('abenst_tt_value_elementary.htm'\)) statements are not enclosed in separate elements, the serialized values of ROOT1 and ROOT2 are grouped in X.
+This simple example illustrates a non-symmetrical transformation. Since the [tt.value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_value_elementary.htm) statements are not enclosed in separate elements, the serialized values of ROOT1 and ROOT2 are grouped in X.
 
 <tt:transform
   xmlns:tt="http://www.sap.com/transformation-templates">

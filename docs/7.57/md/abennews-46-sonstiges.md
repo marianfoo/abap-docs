@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Further Changes in Release 4.6A, ABENNEWS-46-SONSTIGES, 757%0D%0A%0D%0AError:%0D%0A%0
 D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -22,7 +22,7 @@ Modification 1  
 
 LOOP in Extracts
 
-As with internal tables, SY-SUBRC is now set to 4 in an extract if, in a [LOOP ... ENDLOOP](javascript:call_link\('abaploop-.htm'\)), the loop pass is not executed.
+As with internal tables, SY-SUBRC is now set to 4 in an extract if, in a [LOOP ... ENDLOOP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop-.htm), the loop pass is not executed.
 
 Modification 2   
 
@@ -34,19 +34,19 @@ Modification 3  
 
 Bit Operations with Differing Operand Lengths
 
-If operands with differing lengths are joined using statements such as [COMPUTE x = bitexp.](javascript:call_link\('abapcompute_bit.htm'\)), all operands are standardized to the length of the longest operand involved. The shorter operands are padded with trailing HEX 0 characters. Until now, the length of the target field was respected, but now only the operands of the right side are considered in the calculation.
+If operands with differing lengths are joined using statements such as [COMPUTE x = bitexp.](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_bit.htm), all operands are standardized to the length of the longest operand involved. The shorter operands are padded with trailing HEX 0 characters. Until now, the length of the target field was respected, but now only the operands of the right side are considered in the calculation.
 
 Modification 4   
 
 Multiple-Field ASSIGN on Method Parameters
 
-[ASSIGN f TO <fs>](javascript:call_link\('abapassign.htm'\)) statements on method parameters passed by reference that exceed the length of the parameter are now forbidden. This used to be allowed as long as the statement did not exceed the segment length.
+[ASSIGN f TO <fs>](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign.htm) statements on method parameters passed by reference that exceed the length of the parameter are now forbidden. This used to be allowed as long as the statement did not exceed the segment length.
 
 Modification 5   
 
 Obsolete Read Access to Database Tables
 
-When database tables are accessed using the statements [READ TABLE dbtab](javascript:call_link\('abapread_table_dbtab.htm'\)) and [LOOP AT dbtab](javascript:call_link\('abaploop_at_dbtab.htm'\)), a runtime error occurs if the key of the database table contains components that do not have a character-like type. Both statements are obsolete anyway, and can be replaced using appropriate [SELECT](javascript:call_link\('abapselect.htm'\)) statements.
+When database tables are accessed using the statements [READ TABLE dbtab](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table_dbtab.htm) and [LOOP AT dbtab](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_dbtab.htm), a runtime error occurs if the key of the database table contains components that do not have a character-like type. Both statements are obsolete anyway, and can be replaced using appropriate [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) statements.
 
 Modification 6   
 

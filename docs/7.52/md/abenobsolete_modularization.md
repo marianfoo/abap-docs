@@ -4,20 +4,20 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Modularization
 
--   [Subroutines](javascript:call_link\('abenabap_subroutines.htm'\))
+-   [Subroutines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_subroutines.htm)
 
--   [Function Modules](javascript:call_link\('abenfunction_modules_obsolete.htm'\))
+-   [Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_modules_obsolete.htm)
 
--   [Event Blocks](javascript:call_link\('abenevent_block_obsolete.htm'\))
+-   [Event Blocks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_block_obsolete.htm)
 
--   [Data Caching](javascript:call_link\('abenlocal_obsolete.htm'\))
+-   [Data Caching](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_obsolete.htm)
 
 Continue
-[Subroutines](javascript:call_link\('abenabap_subroutines.htm'\))
-[Function Modules](javascript:call_link\('abenfunction_modules_obsolete.htm'\))
-[Event Blocks](javascript:call_link\('abenevent_block_obsolete.htm'\))
-[Temporary Storage of Data](javascript:call_link\('abenlocal_obsolete.htm'\))
+[Subroutines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_subroutines.htm)
+[Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_modules_obsolete.htm)
+[Event Blocks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_block_obsolete.htm)
+[Temporary Storage of Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_obsolete.htm)

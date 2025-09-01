@@ -16,17 +16,17 @@ Changes and further developments, which may be incompatible, can occur at any ti
 
 Hint
 
-[kernel methods](javascript:call_link\('abenkernel_methods.htm'\)) should be used instead of SYSTEM-CALL whenever possible.
+[kernel methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkernel_methods.htm) should be used instead of SYSTEM-CALL whenever possible.
 
 Syntax Forms
 
-[Saves Addresses and Sets Field Symbols](javascript:call_link\('abapsystem-call_pointer.htm'\))
+[Saves Addresses and Sets Field Symbols](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsystem-call_pointer.htm)
 
 SYSTEM-CALL POINTER <f> TO   ptr.
 
 SYSTEM-CALL POINTER <f> FROM ptr.
 
-[Edits Internal Tables](javascript:call_link\('abapsystem-call_itab.htm'\))
+[Edits Internal Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsystem-call_itab.htm)
 
 SYSTEM-CALL ITAB\_DELETE\_LIST TABLE itab1 INDEX-LIST itab2
                              *\[*NO-CHECK*\]* *\[*USING KEY key*\]*.
@@ -34,7 +34,7 @@ SYSTEM-CALL ITAB\_DELETE\_LIST TABLE itab1 INDEX-LIST itab2
 SYSTEM-CALL ITAB\_INFO TABLE itab1 OPCODE op
                                   *{*VALUE f*|*PROTOCOL itab2*}*.
 
-[Method Management for the ABAP Class Library](javascript:call_link\('abapsystem-call_class_admin.htm'\))
+[Method Management for the ABAP Class Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsystem-call_class_admin.htm)
 
 SYSTEM-CALL CREATE CLASS c.
 
@@ -55,7 +55,7 @@ SYSTEM-CALL RENAME METHOD m OF CLASS c NEW NAME FROM m2.
 SYSTEM-CALL QUERY METHOD INCLUDE FROM incl CLASS INTO c
                                            METHOD INTO m.
 
-[Object Manager Calls](javascript:call_link\('abapsystem-call_oo.htm'\))
+[Object Manager Calls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsystem-call_oo.htm)
 
 SYSTEM-CALL OBJMGR SET TRACELEVEL f1.
 
@@ -85,7 +85,7 @@ SYSTEM-CALL EVENTS GET NUM\_HANDLERS FOR f1 OF CLASS f2 INTO f3.
 
 SYSTEM-CALL EVENTS GET NUM\_HANDLERS FOR f1 OF INST f2 INTO f3.
 
-[RTTI Calls](javascript:call_link\('abapsystem-call_rtti.htm'\))
+[RTTI Calls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsystem-call_rtti.htm)
 
 SYSTEM-CALL DESCRIBE ADMINISTRATION MODE f1 OF f2 INTO f3 f4 f5.
 
@@ -107,7 +107,7 @@ SYSTEM-CALL DESCRIBE CLASS f1 INTO f2 f3 f4 f5 f6 f7 f8 f9 f10 f11 f12 f13 f14.
 
 SYSTEM-CALL DESCRIBE INTERFACE f1 INTO f2 f3 f4 f5 f6 f7 f8 f9 f10 f11.
 
-[Debugging and System Paths](javascript:call_link\('abapsystem-call_path.htm'\))
+[Debugging and System Paths](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsystem-call_path.htm)
 
 SYSTEM-CALL DEBUGGER SET SYSTEM PATH ON.
 
@@ -123,7 +123,7 @@ SYSTEM-CALL DEBUGGER SET PROTECTED PATH ON.
 
 SYSTEM-CALL DEBUGGER SET PROTECTED PATH OFF.
 
-[CHECK Calls](javascript:call_link\('abapsystem-call_check.htm'\))
+[CHECK Calls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsystem-call_check.htm)
 
 SYSTEM-CALL CHECK f1 FOR SEQUENCE OF C CLASS f2 METHOD f3 PARAMETER f4.
 
@@ -131,13 +131,13 @@ SYSTEM-CALL CHECK f1 FOR SEQUENCE OF C FUNCTION f2 PARAMETER f3.
 
 SYSTEM-CALL CHECK f1 FOR SEQUENCE OF C FORM f2 PARAMETER f3.
 
-[Nametab Management](javascript:call_link\('abapsystem-call_nametab.htm'\))
+[Nametab Management](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsystem-call_nametab.htm)
 
 EXPORT NAMETAB h f ID id.
 
 IMPORT NAMETAB h f ID id.
 
-[Conversions](javascript:call_link\('abapsystem-call_convert.htm'\))
+[Conversions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsystem-call_convert.htm)
 
 CONVERT ID id DATA dat
   ENCODING code
@@ -150,7 +150,7 @@ CONVERT ID id DATA dat
   AUX aux
   TYPE type.
 
-[Memory Use of Complex Data Structures](javascript:call_link\('abapsystem-call_memory.htm'\))
+[Memory Use of Complex Data Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsystem-call_memory.htm)
 
 GET STORAGE COSTS OF dobj INTO struc
   *\[* IGNORING *\[*TABLE SHARING*\]* *|* *\[*REFERENCES*\]* *|* *\[*STRING SHARING*\]* *\]*.
@@ -179,7 +179,7 @@ FREE MODE f
 
 GET\_STRING\_BY\_ALIAS LANGUAGE l ID id TEXT t
 
-GET\_STRING\_BY\_[GUID](javascript:call_link\('abenguid_glosry.htm'\) "Glossary Entry") LANGUAGE l ID id TEXT t
+GET\_STRING\_BY\_[GUID](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenguid_glosry.htm "Glossary Entry") LANGUAGE l ID id TEXT t
 
 GET\_TEXT\_BY\_ALIAS LANGUAGE l ID id NR n
 

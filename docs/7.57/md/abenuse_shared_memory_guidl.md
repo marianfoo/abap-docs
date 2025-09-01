@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) →  [Data Storage](javascript:call_link\('abendata_storage_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarchitecture_gdl.htm) →  [Data Storage](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_storage_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Using the Shared Memory, ABENUSE_SHARED_MEMORY_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0D%
 0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -15,7 +15,7 @@ Background  
 
 The shared memory of an AS instance is an highly important medium for buffering data with the goal of high-performance access. For this purpose, the shared memory can be used as follows:
 
--   To buffer data from database tables implicitly using [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry"), which can be determined when defining the tables in ABAP Dictionary
+-   To buffer data from database tables implicitly using [table buffering](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_buffering_glosry.htm "Glossary Entry"), which can be determined when defining the tables in ABAP Dictionary
 -   To explicitly store data clusters in the cross-transaction application buffer using the statements EXPORT TO SHARED MEMORY or EXPORT TO SHARED BUFFER
 -   To explicitly handle (data) objects stored there using shared objects, which are created using the addition AREA HANDLE of the statements CREATE OBJECT or CREATE DATA
 
@@ -30,7 +30,7 @@ Details  
 For explicit access to the shared memory, shared objects (CREATE AREA HANDLE) provide the following advantages compared to the cross-transaction application buffer (SHARED MEMORY, SHARED BUFFER):
 
 -   Any number of (data) objects can be saved, including their mutual interdependencies.
--   (Data) objects can be used in the shared objects memory just like objects in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"). Technically, the shared objects memory can be considered an extension of the internal session during the time the memory is bound to it.
+-   (Data) objects can be used in the shared objects memory just like objects in the [internal session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternal_session_glosry.htm "Glossary Entry"). Technically, the shared objects memory can be considered an extension of the internal session during the time the memory is bound to it.
 -   Multiple programs can access the same memory area simultaneously without having to copy data to their own internal session.
 
 Scenarios in which shared objects can be used efficiently include the following:

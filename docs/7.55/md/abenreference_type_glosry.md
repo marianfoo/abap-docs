@@ -4,8 +4,8 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 reference type
 
-A reference type describes [reference variables](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry"), that is, the [data objects](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry") that contain [references](javascript:call_link\('abenreference_glosry.htm'\) "Glossary Entry"). See also [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry").
+A reference type describes [reference variables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_variable_glosry.htm "Glossary Entry"), that is, the [data objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_object_glosry.htm "Glossary Entry") that contain [references](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_glosry.htm "Glossary Entry"). See also [static type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatic_type_glosry.htm "Glossary Entry").

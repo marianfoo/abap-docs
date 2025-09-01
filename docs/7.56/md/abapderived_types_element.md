@@ -4,13 +4,13 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Components related to information processing](javascript:call_link\('abapderived_types_info.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_rap_other.htm) →  [ABAP for RAP, BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm) →  [Components related to information processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_info.htm) → 
 
 %element
 
 Use
 
-%element is a [component group](javascript:call_link\('abencomponent_group_glosry.htm'\) "Glossary Entry") in [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry"). It is used in the context of the [reported](javascript:call_link\('abaptype_response_for.htm'\)) response parameter.
+%element is a [component group](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomponent_group_glosry.htm "Glossary Entry") in [BDEF derived types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry"). It is used in the context of the [reported](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_response_for.htm) response parameter.
 
 %element is a structure containing all primary key and data fields plus the associations of a RAP BO entity a message relates to. By marking key and data fields as well as associations, you can assign messages to one or more target elements. In doing so, you can ensure a clear allocation, for example, of error messages if there are multiple error messages.
 
@@ -22,7 +22,7 @@ The subcomponents of %element have the following type: ABP\_BEHV\_FLAG.
 
 Where used
 
-This component can occur in the following type declarations of [TYPE TABLE FOR ...](javascript:call_link\('abaptype_table_for.htm'\)) and [TYPE STRUCTURE FOR ...](javascript:call_link\('abaptype_structure_for.htm'\)):
+This component can occur in the following type declarations of [TYPE TABLE FOR ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_table_for.htm) and [TYPE STRUCTURE FOR ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_structure_for.htm):
 
 -   REPORTED \[EARLY/LATE\]
 
@@ -32,7 +32,7 @@ See more details on message handling in the Development Guide for the ABAP RESTf
 
 Example
 
-The following source code section taken from the CCIMP include of the global class of the [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") BP\_DEMO\_MANAGED\_ROOT\_REPORTED demonstrates the component %element in the context of a method implementation for a [validation](javascript:call_link\('abenbdl_validations.htm'\)) that takes care of checking field values of RAP BO instances before saving. See the executable program for this example further down.
+The following source code section taken from the CCIMP include of the global class of the [behavior pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") BP\_DEMO\_MANAGED\_ROOT\_REPORTED demonstrates the component %element in the context of a method implementation for a [validation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_validations.htm) that takes care of checking field values of RAP BO instances before saving. See the executable program for this example further down.
 
 METHOD ValidateNum.
   CHECK keys IS NOT INITIAL.
@@ -88,4 +88,4 @@ ENDMETHOD.
 
 Executable Example
 
-The example [Example for message-related BDEF derived type components](javascript:call_link\('abenderived_types_reported_abexa.htm'\)) demonstrates the use of various BDEF derived type components including %element with a managed RAP BO.
+The example [Example for message-related BDEF derived type components](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenderived_types_reported_abexa.htm) demonstrates the use of various BDEF derived type components including %element with a managed RAP BO.

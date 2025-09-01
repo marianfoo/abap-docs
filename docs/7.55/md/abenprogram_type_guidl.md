@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [ABAP-Specific Rules](javascript:call_link\('abenabap_specific_rules_guidl.htm'\)) →  [Program Type and Program Attributes](javascript:call_link\('abenprogr_type_features_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_pgl.htm) →  [ABAP-Specific Rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_specific_rules_guidl.htm) →  [Program Type and Program Attributes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogr_type_features_guidl.htm) → 
 
 Program Type
 
@@ -33,7 +33,7 @@ Every ABAP program has a program type that specifies which declarations and proc
 -   Type pool (type group)
     A type pool can contain the declarative statements, TYPES and CONSTANTS. Processing blocks, classic dynpros, and selection screens are not possible. Type pools cannot be called or executed. Type pools are created using ABAP Dictionary.
 
-In addition to these compilation units (programs that can be compiled independently), include programs can also be used for [source code organization](javascript:call_link\('abensource_code_orga_guidl.htm'\) "Guideline").
+In addition to these compilation units (programs that can be compiled independently), include programs can also be used for [source code organization](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensource_code_orga_guidl.htm "Guideline").
 
 In ABAP, a program execution means that the system loads a program into the memory and executes one or more of its processing blocks. A distinction is made between standalone and called program execution:
 
@@ -41,7 +41,7 @@ In ABAP, a program execution means that the system loads a program into the memo
     When programs are executed as standalone programs, the program is started using a transaction code (statements CALL TRANSACTION and LEAVE TO TRANSACTION) or using the statement SUBMIT for an executable program. The statement SUBMIT also allows execution in a background process.
 
 -   Called program execution
-    In called program executions, a running program calls a procedure (method, function module, or subroutine) of another program. If necessary, this other program is loaded into the [internal session of the calling program](javascript:call_link\('abenintern_extern_proc_call_guidl.htm'\) "Guideline").
+    In called program executions, a running program calls a procedure (method, function module, or subroutine) of another program. If necessary, this other program is loaded into the [internal session of the calling program](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenintern_extern_proc_call_guidl.htm "Guideline").
 
 -   The program flow for standalone program execution depends on the selected program type and the type of program call:
 
@@ -69,24 +69,24 @@ To select the program type, proceed as follows:
 
 Details
 
-The above hierarchy for selecting the program type is derived from the basic [rule](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") described, which defines the use of ABAP Objects. The following list describes specific aspects in detail:
+The above hierarchy for selecting the program type is derived from the basic [rule](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") described, which defines the use of ABAP Objects. The following list describes specific aspects in detail:
 
 -   If ABAP Objects functions need to be provided across the whole package or system, this is done using global classes or interfaces that have the program type "class pool" or "interface pool" implicitly. The call is performed using a method call or an OO transaction (if a standalone program execution is required).
 
 -   The "subroutine pool" program type can be used to implement completed functions called using a transaction code (not using a method call), and which do not require passed parameters and do not have a user interface. Only local classes are used for implementation. The program is called using an OO transaction. Subroutine pools - as the name suggests - were originally intended for subroutines that were called from other programs. Subroutines (and calling subroutines externally in particular) are declared as obsolete, according to the existing programming guidelines. Subroutine pools no longer have this purpose. Instead, subroutine pools are suggested as independent containers for local classes. This is because they are otherwise barely affected by implicit processes of the ABAP runtime environment.
 
--   Remote-enabled function modules (RFM) (which provide functions using the RFC interface across servers or across systems or are used for parallelization) can only be created in a function pool. The implementation of the actual functions, however, is carried out in a class, for example in a local class within the [function pool](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline").
+-   Remote-enabled function modules (RFM) (which provide functions using the RFC interface across servers or across systems or are used for parallelization) can only be created in a function pool. The implementation of the actual functions, however, is carried out in a class, for example in a local class within the [function pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunct_module_subroutine_guidl.htm "Guideline").
 
 -   The same applies to update function modules (which are called for the update using CALL FUNCTION IN UPDATE TASK) as to RFMs.
 
--   Programs with a [classic dynpro interface or selection screens](javascript:call_link\('abenencap_class_interf_guidl.htm'\) "Guideline") (if still required) should also be created as a function pool. The function pool only implements the UI but does not contain its own application logic (based on the [SoC principle](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline")). This program type is suitable because it can contain both classic dynpros and an external functional interface in the form of function modules. The dialog modules of the function pool called by the dynpro flow logic should only contain method calls, for instance, for methods of local classes.
+-   Programs with a [classic dynpro interface or selection screens](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenencap_class_interf_guidl.htm "Guideline") (if still required) should also be created as a function pool. The function pool only implements the UI but does not contain its own application logic (based on the [SoC principle](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenseperation_concerns_guidl.htm "Guideline")). This program type is suitable because it can contain both classic dynpros and an external functional interface in the form of function modules. The dialog modules of the function pool called by the dynpro flow logic should only contain method calls, for instance, for methods of local classes.
 
--   An executable program includes multiple event blocks that are executed when the various reporting events occur. This form of event control is largely obsolete and should no longer be used. Executable programs should only be used where they are technically required, thus mainly for background processing. In this case, the actual implementation should also be carried out in methods, for example, methods of a local class within the executable program. The event block of the initial event, START-OF-SELECTION, should only contain a [method call](javascript:call_link\('abendial_mod_event_block_guidl.htm'\) "Guideline"). No other event blocks should be included anymore.
+-   An executable program includes multiple event blocks that are executed when the various reporting events occur. This form of event control is largely obsolete and should no longer be used. Executable programs should only be used where they are technically required, thus mainly for background processing. In this case, the actual implementation should also be carried out in methods, for example, methods of a local class within the executable program. The event block of the initial event, START-OF-SELECTION, should only contain a [method call](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendial_mod_event_block_guidl.htm "Guideline"). No other event blocks should be included anymore.
 
--   The module pool used to be the program type traditionally used for classic dialog programming with dynpros. The [Separation of Concerns](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline") concept is not sufficiently supported by module pools. This is why no more new module pools should be created. Instead, any classic dynpros that are still required should be wrapped in function pools.
+-   The module pool used to be the program type traditionally used for classic dialog programming with dynpros. The [Separation of Concerns](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenseperation_concerns_guidl.htm "Guideline") concept is not sufficiently supported by module pools. This is why no more new module pools should be created. Instead, any classic dynpros that are still required should be wrapped in function pools.
 
--   The type pool program type was initially implemented as a temporary solution. This was because it was not always possible to define types for internal tables in ABAP Dictionary. The same applied to the global storage of constants. Both gaps have now been closed. In ABAP Dictionary, any types can be defined. In global classes and interfaces, types and constants can be created for package-wide or system-wide use. Therefore, the "type pool" program type is obsolete, and no new [type pools](javascript:call_link\('abendeclaration_dtypes_const_guidl.htm'\) "Guideline") should be created.
+-   The type pool program type was initially implemented as a temporary solution. This was because it was not always possible to define types for internal tables in ABAP Dictionary. The same applied to the global storage of constants. Both gaps have now been closed. In ABAP Dictionary, any types can be defined. In global classes and interfaces, types and constants can be created for package-wide or system-wide use. Therefore, the "type pool" program type is obsolete, and no new [type pools](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclaration_dtypes_const_guidl.htm "Guideline") should be created.
 
 Note
 
-In cases where program types other than class and interface pools are still used, the check Obsolete Statements (OO Context) should be activated in the [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline"). This enables same stringent syntax check to be implemented for program components not implemented in local classes as for within classes.
+In cases where program types other than class and interface pools are still used, the check Obsolete Statements (OO Context) should be activated in the [extended program check](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenextended_program_check_guidl.htm "Guideline"). This enables same stringent syntax check to be implemented for program components not implemented in local classes as for within classes.

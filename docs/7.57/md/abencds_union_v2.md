@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - CDS View Entity, SELECT, clauses](javascript:call_link\('abencds_select_clauses_v2.htm'\)) →  [CDS DDL - CDS View Entity, Set Operators](javascript:call_link\('abencds_set_operators.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v2.htm) →  [CDS DDL - CDS View Entity, SELECT, clauses](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_clauses_v2.htm) →  [CDS DDL - CDS View Entity, Set Operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_set_operators.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - CDS View Entity, SELECT, UNION, ABENCDS_UNION_V2, 757%0D%0A%0D%0AError:%0D%
 0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -13,11 +13,11 @@ CDS DDL - CDS View Entity, SELECT, UNION
 
 Syntax
 
-... UNION *\[*ALL*\]* [select\_statement](javascript:call_link\('abencds_select_statement_v2.htm'\)) ...
+... UNION *\[*ALL*\]* [select\_statement](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v2.htm) ...
 
 Effect
 
-Merges the rows of the result sets of multiple [SELECT statements](javascript:call_link\('abencds_select_statement_v2.htm'\)) of [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") into one result set. As a prerequisite, the result sets must have the same number of elements and the element pairs that occur in the same position of the result set must have a compatible data type. A union result set can itself be the left side of a further union.
+Merges the rows of the result sets of multiple [SELECT statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v2.htm) of [CDS view entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm "Glossary Entry") into one result set. As a prerequisite, the result sets must have the same number of elements and the element pairs that occur in the same position of the result set must have a compatible data type. A union result set can itself be the left side of a further union.
 
 If the addition ALL is specified, all entries, even duplicates, are listed in the result set. If ALL is not specified, all duplicate entries are removed from the result set. For determining the duplicate rows, all columns of the result set are considered. In detail, this works as follows:
 
@@ -26,13 +26,13 @@ If the addition ALL is specified, all entries, even duplicates, are listed in th
 
 Data Types
 
-If the addition ALL is specified, all data types are possible in a union view. Elements with data types [LRAW](javascript:call_link\('abenddic_builtin_types.htm'\)) and [LCHR](javascript:call_link\('abenddic_builtin_types.htm'\)) must be at the end of the view and an element of type INT2 or INT4 must stand directly in front of such an element, representing the maximum length of the element. Only one such element is allowed per view.
+If the addition ALL is specified, all data types are possible in a union view. Elements with data types [LRAW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm) and [LCHR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm) must be at the end of the view and an element of type INT2 or INT4 must stand directly in front of such an element, representing the maximum length of the element. Only one such element is allowed per view.
 
-Without the addition ALL, data types [STRING](javascript:call_link\('abenddic_builtin_types.htm'\)), [RAWSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), [LCHR](javascript:call_link\('abenddic_builtin_types.htm'\)), [LRAW](javascript:call_link\('abenddic_builtin_types.htm'\)), and [GEOM\_EWKB](javascript:call_link\('abenddic_builtin_types.htm'\)) are not supported.
+Without the addition ALL, data types [STRING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), [RAWSTRING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), [LCHR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), [LRAW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), and [GEOM\_EWKB](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm) are not supported.
 
 Prerequisite
 
-As a prerequisite for using the statement UNION in a CDS view entity, the CDS view entity annotation [Metadata.ignorePropagatedAnnotations: true](javascript:call_link\('abencds_view_entity_anno.htm'\)) must be specified.
+As a prerequisite for using the statement UNION in a CDS view entity, the CDS view entity annotation [Metadata.ignorePropagatedAnnotations: true](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_entity_anno.htm) must be specified.
 
 Rules for the Elements of a UNION View
 
@@ -40,7 +40,7 @@ In general, the first SELECT statement defines the signature of the UNION view. 
 
 -   Element names
     
-    The direct element names or the alternative element names defined using AS must match for each column in the [SELECT lists](javascript:call_link\('abencds_select_list_v2.htm'\)) of all SELECT statements and are used.
+    The direct element names or the alternative element names defined using AS must match for each column in the [SELECT lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v2.htm) of all SELECT statements and are used.
     
 -   Key elements
     
@@ -48,7 +48,7 @@ In general, the first SELECT statement defines the signature of the UNION view. 
     
 -   Element annotations
     
-    Only the SELECT list of the first SELECT statement can define [element annotations](javascript:call_link\('abencds_element_annotations_v2.htm'\)). In all subsequent branches, element annotations a forbidden.
+    Only the SELECT list of the first SELECT statement can define [element annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_element_annotations_v2.htm). In all subsequent branches, element annotations a forbidden.
     
 -   Data type
     -   The SELECT list of the first SELECT statement determines the DDIC data type of each element of the CDS entity.
@@ -1520,11 +1520,11 @@ There are no further restrictions to note in combinations using x. The following
 -   In combinations using l, the lengths of the data types must match exactly.
 -   In combinations using d, the number of decimal places must match exactly.
 
-If the length or value range of the first element does not cover the following elements in combinations with w, the value returned by the database can be too great for the data type of the element of the CDS entity. It is still possible to activate the view here, but the content may be truncated or exceptions may be raised in ABAP SQL [queries](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry") if a type reference is applied to the entity. This is due to the [assignment rules](javascript:call_link\('abenselect_into_conversion.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause. Assignments to ABAP data objects with a sufficiently large value range, on the other hand, do not cause problems.
+If the length or value range of the first element does not cover the following elements in combinations with w, the value returned by the database can be too great for the data type of the element of the CDS entity. It is still possible to activate the view here, but the content may be truncated or exceptions may be raised in ABAP SQL [queries](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenquery_glosry.htm "Glossary Entry") if a type reference is applied to the entity. This is due to the [assignment rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_into_conversion.htm) of the [INTO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm) clause. Assignments to ABAP data objects with a sufficiently large value range, on the other hand, do not cause problems.
 
 Amounts and Quantities in UNION Views
 
-If the elements of a UNION view are [CDS amount fields](javascript:call_link\('abencds_amount_field_glosry.htm'\) "Glossary Entry"), [CDS quantity fields](javascript:call_link\('abencds_quantity_glosry.htm'\) "Glossary Entry"), or [CDS calculated quantities](javascript:call_link\('abencds_calculated_quantity_glosry.htm'\) "Glossary Entry"), the following rules apply:
+If the elements of a UNION view are [CDS amount fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_amount_field_glosry.htm "Glossary Entry"), [CDS quantity fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_quantity_glosry.htm "Glossary Entry"), or [CDS calculated quantities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_calculated_quantity_glosry.htm "Glossary Entry"), the following rules apply:
 
 -   Since the annotation Metadata.ignorePropagatedAnnotations: true is mandatory in UNION views, all reference annotations are lost and must be provided again within the first SELECT branch.
     -   For elements of data type CURR or QUAN as well as for calculated quantities, the reference annotation is mandatory.
@@ -1535,13 +1535,13 @@ If the elements of a UNION view are [CDS amount fields](javascript:call_link\('a
 
 Associations in UNION Views
 
-A CDS view entity in which union sets are formed with UNION can expose [CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry"). Such an association must be defined and exposed in the same way in all SELECT statements merged with UNION. That is, CDS associations that are exposed in the respective SELECT lists must appear in all SELECT statements merged with UNION and the following requirements must be met:
+A CDS view entity in which union sets are formed with UNION can expose [CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). Such an association must be defined and exposed in the same way in all SELECT statements merged with UNION. That is, CDS associations that are exposed in the respective SELECT lists must appear in all SELECT statements merged with UNION and the following requirements must be met:
 
--   They have the same [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry").
--   They must be exposed at the same position in the SELECT list using a [path expression](javascript:call_link\('abencds_path_expression_v2.htm'\)).
+-   They have the same [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry").
+-   They must be exposed at the same position in the SELECT list using a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v2.htm).
 -   They must have the same ON conditions, that is:
     -   The conditions must relate to the same fields in the association source and association target and express the same logic for these fields.
-    -   The fields of the [association source](javascript:call_link\('abenassociation_source_glosry.htm'\) "Glossary Entry") that are listed in an ON condition must be at identical positions in the SELECT list.
+    -   The fields of the [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry") that are listed in an ON condition must be at identical positions in the SELECT list.
 -   Note: It is not required that the associations are defined with the same alias name.
 
 These rules also apply if a CDS association is defined in a data source of a SELECT statement and is exposed by the current statement. From outside, the CDS associations with the same name that are exposed in the individual SELECT lists act like a CDS association exposed by the union set. There are no restrictions on CDS associations that are not exposed in the SELECT lists.
@@ -1559,10 +1559,10 @@ Restrictions
 
 Hints
 
--   Union sets can be a good way of transforming non-normalized [DDIC database tables](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry") into a normalized view of the data.
--   If the length of the value range of an element from the SELECT list of the first SELECT statement does not cover the associated elements of the following SELECT statements, it is advisable to define an appropriate type with a suitable [CAST](javascript:call_link\('abencds_cast_expression_v2.htm'\)) expression.
+-   Union sets can be a good way of transforming non-normalized [DDIC database tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_db_table_glosry.htm "Glossary Entry") into a normalized view of the data.
+-   If the length of the value range of an element from the SELECT list of the first SELECT statement does not cover the associated elements of the following SELECT statements, it is advisable to define an appropriate type with a suitable [CAST](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v2.htm) expression.
 -   The maximum number of different SELECT statements that can be merged using UNION depends on the database system. If this number is exceeded, the CDS view entity cannot be activated.
--   If the annotation [@AbapCatalog.entityBuffer.definitionAllowed](javascript:call_link\('abencds_v2_view_buffering.htm'\)) is set to true in a union view, a syntax check warning occurs. Union views might return duplicate records with regards to the key fields. The buffer needs a unique key in some scenarios. Therefore, unexpected buffer behavior might occur.
+-   If the annotation [@AbapCatalog.entityBuffer.definitionAllowed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_buffering.htm) is set to true in a union view, a syntax check warning occurs. Union views might return duplicate records with regards to the key fields. The buffer needs a unique key in some scenarios. Therefore, unexpected buffer behavior might occur.
 
 Example
 
@@ -1579,7 +1579,7 @@ define view entity ... as
 
 Example
 
-The following CDS view entity creates the union of the result sets of two SELECT statements. The element col1 in the first SELECT list has the type INT4, whereas the associated element col1 in the second SELECT list has the type INT8. This is why a syntax check warning is raised. To bypass the warning, col2 is converted to data type INT8 using a [CAST](javascript:call_link\('abencds_cast_expression_v2.htm'\)) expression.
+The following CDS view entity creates the union of the result sets of two SELECT statements. The element col1 in the first SELECT list has the type INT4, whereas the associated element col1 in the second SELECT list has the type INT8. This is why a syntax check warning is raised. To bypass the warning, col2 is converted to data type INT8 using a [CAST](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v2.htm) expression.
 
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
 @Metadata.ignorePropagatedAnnotations: true
@@ -1601,14 +1601,14 @@ union all select from
       abap.raw'AABBCCDDEEAABBCCDDEE' as col3    
     }
 
-The program DEMO\_CDS\_UNION\_ELEMENT\_TYPE\_VE uses [SELECT](javascript:call_link\('abapselect.htm'\)) to access the view four times:
+The program DEMO\_CDS\_UNION\_ELEMENT\_TYPE\_VE uses [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) to access the view four times:
 
 -   The first access writes directly to an internal table with the line type of the CDS entity. The access works because the value of the element col1 matches the value range of the data type i.
 -   The second access is the same as the first but one value in the element col1 is outside the value range of the data type i of the first column of the internal table result2. This is why an exception is raised.
--   In the third access, the exception is prevented since the data type of the first column of the result set (and hence the data type of the internal table result3) is transformed to int8 using a [CAST](javascript:call_link\('abensql_cast.htm'\)) in ABAP SQL.
+-   In the third access, the exception is prevented since the data type of the first column of the result set (and hence the data type of the internal table result3) is transformed to int8 using a [CAST](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_cast.htm) in ABAP SQL.
 -   In the fourth access, the exception is prevented due to an appropriate declaration of the data type of the first column of the internal table result4.
 
-The recommended method in all cases, however, is to handle the second element using a [CAST](javascript:call_link\('abencds_cast_expression_v2.htm'\)) in the CDS view entity.
+The recommended method in all cases, however, is to handle the second element using a [CAST](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v2.htm) in the CDS view entity.
 
 Example - Nesting of Union Clauses
 
@@ -1651,7 +1651,7 @@ union all
     key\_field = 6 // 1 unique entry
 )
 
-The program DEMO\_CDS\_UNION\_NESTING\_VE first fills the underlying database table and then accesses the view using [SELECT](javascript:call_link\('abapselect.htm'\)). The result set consists of 9 rows. Two of them are duplicates, marked in yellow:
+The program DEMO\_CDS\_UNION\_NESTING\_VE first fills the underlying database table and then accesses the view using [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm). The result set consists of 9 rows. Two of them are duplicates, marked in yellow:
 
 ![Figure](nesting_result.png)
 

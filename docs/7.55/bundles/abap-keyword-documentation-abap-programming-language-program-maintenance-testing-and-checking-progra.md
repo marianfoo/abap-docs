@@ -3,28 +3,7 @@
 Included pages: 4
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abentests_internal.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentests_internal.htm)
-- [abaptrace-entry.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptrace-entry.htm)
-- [abapsyntax-trace.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-trace.htm)
-- [abapverification-message.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapverification-message.htm)
-
-**Bundle Contains**: 4 documentation pages
-**Version**: ABAP 7.55
-**Generated**: 2025-09-01T11:25:45.761Z
-
----
-
 ### abentests_internal.htm
-
-> **📖 Official SAP Documentation**: [abentests_internal.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentests_internal.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -32,33 +11,26 @@ Included pages: 4
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_tests.htm) → 
 
 Internal Test Statements
 
 These statements are for internal use only.
 Do not use them in application programs.
 
--   [TRACE-ENTRY](javascript:call_link\('abaptrace-entry.htm'\))
+-   [TRACE-ENTRY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptrace-entry.htm)
 
--   [SYNTAX-TRACE](javascript:call_link\('abapsyntax-trace.htm'\))
+-   [SYNTAX-TRACE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-trace.htm)
 
--   [VERIFICATION-MESSAGE](javascript:call_link\('abapverification-message.htm'\))
+-   [VERIFICATION-MESSAGE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapverification-message.htm)
 
 Continue
-[TRACE-ENTRY](javascript:call_link\('abaptrace-entry.htm'\))
-[SYNTAX-TRACE](javascript:call_link\('abapsyntax-trace.htm'\))
-[VERIFICATION-MESSAGE](javascript:call_link\('abapverification-message.htm'\))
+[TRACE-ENTRY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptrace-entry.htm)
+[SYNTAX-TRACE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-trace.htm)
+[VERIFICATION-MESSAGE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapverification-message.htm)
 
-
-
-**📖 Source**: [abentests_internal.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentests_internal.htm)
 
 ### abaptrace-entry.htm
-
-> **📖 Official SAP Documentation**: [abaptrace-entry.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptrace-entry.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -66,7 +38,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [Internal Test Statements](javascript:call_link\('abentests_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_tests.htm) →  [Internal Test Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentests_internal.htm) → 
 
 TRACE-ENTRY
 
@@ -82,14 +54,7 @@ Effect
 This statement writes the string contained in a flat character-like data object text to the current system trace if the trace is enabled in the transaction ST01 using the trace component General kernel.
 
 
-
-**📖 Source**: [abaptrace-entry.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptrace-entry.htm)
-
 ### abapsyntax-trace.htm
-
-> **📖 Official SAP Documentation**: [abapsyntax-trace.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-trace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -97,7 +62,7 @@ This statement writes the string contained in a flat character-like data object 
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [Internal Test Statements](javascript:call_link\('abentests_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_tests.htm) →  [Internal Test Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentests_internal.htm) → 
 
 SYNTAX-TRACE
 
@@ -166,7 +131,7 @@ Effect
 
 This statement can be used to activate the trace function of the ABAP syntax check and to select a certain mode for the trace output.
 
-This trace mode SYNCPOINTS (for internal test purposes only) logs the declaration units (that is, used global class and interface declarations as well as [type pools](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry")) for which the routines for creating the load table entries must be called after a delay and not immediately.
+This trace mode SYNCPOINTS (for internal test purposes only) logs the declaration units (that is, used global class and interface declarations as well as [type pools](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentype_pool_glosry.htm "Glossary Entry")) for which the routines for creating the load table entries must be called after a delay and not immediately.
 
 In doing so, the call of the generation routine is delayed until a synchronization point is reached, for which the generation of a quantity of declaration units is executed afterwards.
 
@@ -185,17 +150,7 @@ Effect
 Switches off the syntax trace switched on with SYNTAX-TRACE ON.
 
 
-
-**📖 Source**: [abapsyntax-trace.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-trace.htm)
-
 ### abapverification-message.htm
-
-> **📖 Official SAP Documentation**: [abapverification-message.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapverification-message.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapverification-message.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapverification-message.htm)
-
 
   
 
@@ -203,7 +158,7 @@ Switches off the syntax trace switched on with SYNTAX-TRACE ON.
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [Internal Test Statements](javascript:call_link\('abentests_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_tests.htm) →  [Internal Test Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentests_internal.htm) → 
 
 VERIFICATION-MESSAGE
 

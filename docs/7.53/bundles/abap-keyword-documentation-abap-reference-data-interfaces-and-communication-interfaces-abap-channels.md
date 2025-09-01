@@ -3,31 +3,7 @@
 Included pages: 7
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenapc_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexas.htm)
-- [abenapc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexa.htm)
-- [abenapc_ws_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_ws_client_abexa.htm)
-- [abenapc_tcp_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_tcp_client_abexa.htm)
-- [abenapc_detached_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_detached_client_abexa.htm)
-- [abenapc_attached_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_attached_client_abexa.htm)
-- [abenapc_connect_via_handle_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_connect_via_handle_abexa.htm)
-
-**Bundle Contains**: 7 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.184Z
-
----
-
 ### abenapc_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenapc_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,27 +11,20 @@ Included pages: 7
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [APC - ABAP Push Channels](javascript:call_link\('abenapc.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_channels.htm) →  [APC - ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm) → 
 
 Examples of APC
 
 Continue
-![Example](exa.gif "Example") [APC, AS ABAP as WebSocket Server](javascript:call_link\('abenapc_abexa.htm'\))
-![Example](exa.gif "Example") [APC, AS ABAP as WebSocket Client](javascript:call_link\('abenapc_ws_client_abexa.htm'\))
-![Example](exa.gif "Example") [APC, AS ABAP as TCP Socket Client](javascript:call_link\('abenapc_tcp_client_abexa.htm'\))
-![Example](exa.gif "Example") [APC, Creating a Detached Client](javascript:call_link\('abenapc_detached_client_abexa.htm'\))
-![Example](exa.gif "Example") [APC, AS ABAP as Attached Client](javascript:call_link\('abenapc_attached_client_abexa.htm'\))
-![Example](exa.gif "Example") [APC, System-Wide Access](javascript:call_link\('abenapc_connect_via_handle_abexa.htm'\))
+![Example](exa.gif "Example") [APC, AS ABAP as WebSocket Server](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexa.htm)
+![Example](exa.gif "Example") [APC, AS ABAP as WebSocket Client](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_ws_client_abexa.htm)
+![Example](exa.gif "Example") [APC, AS ABAP as TCP Socket Client](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_tcp_client_abexa.htm)
+![Example](exa.gif "Example") [APC, Creating a Detached Client](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_detached_client_abexa.htm)
+![Example](exa.gif "Example") [APC, AS ABAP as Attached Client](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_attached_client_abexa.htm)
+![Example](exa.gif "Example") [APC, System-Wide Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_connect_via_handle_abexa.htm)
 
-
-
-**📖 Source**: [abenapc_abexas.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexas.htm)
 
 ### abenapc_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenapc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -63,11 +32,11 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [APC - ABAP Push Channels](javascript:call_link\('abenapc.htm'\)) →  [Examples of APC](javascript:call_link\('abenapc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_channels.htm) →  [APC - ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm) →  [Examples of APC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexas.htm) → 
 
 APC, AS ABAP as WebSocket Server
 
-This example demonstrates [ABAP push channel](javascript:call_link\('abenapc_glosry.htm'\) "Glossary Entry")s in AS ABAP as a WebSocket server.
+This example demonstrates [ABAP push channel](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_glosry.htm "Glossary Entry")s in AS ABAP as a WebSocket server.
 
 Source Code
 
@@ -132,35 +101,28 @@ Description
 
 This example demonstrates bidirectional communication between a browser that supports the WebSocket protocol as an APC client and AS ABAP as an APC server. The example program above has the task of displaying a webpage that communicates with the current AS ABAP. It is possible to specify the following:
 
--   Is the APC used associated with an [ABAP messaging channel (AMC)](javascript:call_link\('abenamc.htm'\))?
+-   Is the APC used associated with an [ABAP messaging channel (AMC)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc.htm)?
 
--   Is an APC used together with the [Push Channel Protocol (PCP)](javascript:call_link\('abenpush_channel_protocol_glosry.htm'\) "Glossary Entry") or is an APC used without this protocol?
+-   Is an APC used together with the [Push Channel Protocol (PCP)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpush_channel_protocol_glosry.htm "Glossary Entry") or is an APC used without this protocol?
 
 -   Is a stateful service used when the subprotocol PCP is used?
 
-The Web page is provided by an [ICF](javascript:call_link\('abenicf.htm'\)) HTTP service whose URL is constructed in the program for the current AS Instance. If the standard browser called does not support communication using the WebSocket protocol, you must open the URL using a suitable browser instead.
+The Web page is provided by an [ICF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf.htm) HTTP service whose URL is constructed in the program for the current AS Instance. If the standard browser called does not support communication using the WebSocket protocol, you must open the URL using a suitable browser instead.
 
 The communication partners are:
 
 -   The Web pages generated in the HTTP request handler CL\_HTTP\_EXT\_APC\_DEMO or CL\_HTTP\_EXT\_APC\_PCP\_DEMO. One Web page makes it possible to open a WebSocket object without Push Channel Protocol (PCP) support and the other Web page makes it possible to open a WebSocket object with the support of this protocol. Both Web pages make it possible to send messages using the object and to close the object. These tasks are performed by a JavaScript function implemented in the Web page. If PCP is used, a JavaScript file sap-pcp-websocket.js is included from the Mime repository in AS ABAP. This file provides the client-side framework for using this protocol. This API is not needed if PCP is not used. If the PCP protocol is used, it is possible to access both a stateless ABAP channel and a stateful channel.
 
--   The ABAP push channel DEMO\_APC, DEMO\_APC\_PCP, or DEMO\_APC\_PCP\_STATEFUL from the package SABAPDEMOS in the current AS ABAP (with the latter two supporting the Push Channel Protocol (PCP) and the latter being stateful). The URL of the service assigned to the push channel is used in the JavaScript function of the associated Web page to open the WebSocket communication of this Web page. The form field amc is passed further. The APC handler classes CL\_APC\_WS\_EXT\_DEMO\_APC and CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP implement the methods ON\_START and ON\_MESSAGE of the interface IF\_APC\_WSP\_EXTENSION for communication with and without a connection to an [AMC](javascript:call_link\('abenamc.htm'\)). The APC handler class CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP\_ST demonstrates a stateful service by simply calling the identically named methods of an object of the class CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP. The AMC used here is /demo\_text or /demo\_pcp from the [executable examples](javascript:call_link\('abenamc_abexas.htm'\)) for AMC. When a message is received, the method ON\_MESSAGE creates a new message with information about the received message and sends it. If PCP is not used, a text message is sent. In the version for PCP, this protocol is used. CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP demonstrates the stateful service by raising a counter whose value stays the same in stateless services.
+-   The ABAP push channel DEMO\_APC, DEMO\_APC\_PCP, or DEMO\_APC\_PCP\_STATEFUL from the package SABAPDEMOS in the current AS ABAP (with the latter two supporting the Push Channel Protocol (PCP) and the latter being stateful). The URL of the service assigned to the push channel is used in the JavaScript function of the associated Web page to open the WebSocket communication of this Web page. The form field amc is passed further. The APC handler classes CL\_APC\_WS\_EXT\_DEMO\_APC and CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP implement the methods ON\_START and ON\_MESSAGE of the interface IF\_APC\_WSP\_EXTENSION for communication with and without a connection to an [AMC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc.htm). The APC handler class CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP\_ST demonstrates a stateful service by simply calling the identically named methods of an object of the class CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP. The AMC used here is /demo\_text or /demo\_pcp from the [executable examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_abexas.htm) for AMC. When a message is received, the method ON\_MESSAGE creates a new message with information about the received message and sends it. If PCP is not used, a text message is sent. In the version for PCP, this protocol is used. CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP demonstrates the stateful service by raising a counter whose value stays the same in stateless services.
 
-If the ABAP push channel is opened using the form field amc=x, communication takes place using AMC. Each Web page bound to the push channel receives every message sent using AMC. In the example, this means that the message sent by ON\_MESSAGE is not just received by the Web page that sent a message. Furthermore, the Web pages bound to the push channel receive messages sent, for example, using the program DEMO\_SEND\_AMC from the executable example [Sending AMC Messages](javascript:call_link\('abenamc_send_abexa.htm'\)). Conversely, the program DEMO\_RECEIVE\_AMC receives the messages sent from the Web pages from the executable example [Receiving AMC Messages](javascript:call_link\('abenamc_receive_abexa.htm'\)).
+If the ABAP push channel is opened using the form field amc=x, communication takes place using AMC. Each Web page bound to the push channel receives every message sent using AMC. In the example, this means that the message sent by ON\_MESSAGE is not just received by the Web page that sent a message. Furthermore, the Web pages bound to the push channel receive messages sent, for example, using the program DEMO\_SEND\_AMC from the executable example [Sending AMC Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_send_abexa.htm). Conversely, the program DEMO\_RECEIVE\_AMC receives the messages sent from the Web pages from the executable example [Receiving AMC Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_receive_abexa.htm).
 
 Note
 
 Before this example can work, the protocols WEBSOCKET and WEBSOCKETS must be specified as active services in the Services function in the transaction SMICM.
 
 
-
-**📖 Source**: [abenapc_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexa.htm)
-
 ### abenapc_ws_client_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenapc_ws_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_ws_client_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -168,7 +130,7 @@ Before this example can work, the protocols WEBSOCKET and WEBSOCKETS must be spe
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [APC - ABAP Push Channels](javascript:call_link\('abenapc.htm'\)) →  [Examples of APC](javascript:call_link\('abenapc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_channels.htm) →  [APC - ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm) →  [Examples of APC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexas.htm) → 
 
 APC, AS ABAP as WebSocket Client
 
@@ -296,13 +258,13 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates how an ABAP program can create an [APC client](javascript:call_link\('abenapc.htm'\)) for the WebSocket protocol.
+This example demonstrates how an ABAP program can create an [APC client](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm) for the WebSocket protocol.
 
 -   The local class apc\_handler, which implements the interface IF\_APC\_WSP\_EVENT\_HANDLER\_PCP, is used as the handler class. When a message is received, the method on\_message sets its message attribute to the message text.
 
--   The message manager of the client object is used to create a message in [PCP format](javascript:call_link\('abenpcp.htm'\)) and send it multiple times.
+-   The message manager of the client object is used to create a message in [PCP format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpcp.htm) and send it multiple times.
 
--   The statement [WAIT FOR PUSH CHANNELS](javascript:call_link\('abapwait_apc.htm'\)) is then used to switch the program to a wait state so that messages sent back from the server can be handled. Here, the logical expression checks the attribute message of the handler class apc\_handler. A received text is displayed.
+-   The statement [WAIT FOR PUSH CHANNELS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_apc.htm) is then used to switch the program to a wait state so that messages sent back from the server can be handled. Here, the logical expression checks the attribute message of the handler class apc\_handler. A received text is displayed.
 
 -   Finally, the connection is closed explicitly.
 
@@ -310,17 +272,10 @@ It is possible to select how many messages are sent and how often the wait state
 
 -   If communication takes place with the stateful server, the counter level of the server is raised, indicating that multiple messages are being sent and received.
 
--   If the server sends its messages using ABAP messaging channels, other AMC receivers in the same messaging channel can also see the messages of the server. For example, the Web browser from the executable example [AS ABAP as WebSocket Server](javascript:call_link\('abenapc_abexa.htm'\)) can receive these messages. In the reverse direction, the APC client can then also receive those messages sent by the APC server as a response to messages from the Web browser, if they occur in one of the programmed wait periods.
+-   If the server sends its messages using ABAP messaging channels, other AMC receivers in the same messaging channel can also see the messages of the server. For example, the Web browser from the executable example [AS ABAP as WebSocket Server](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexa.htm) can receive these messages. In the reverse direction, the APC client can then also receive those messages sent by the APC server as a response to messages from the Web browser, if they occur in one of the programmed wait periods.
 
-
-
-**📖 Source**: [abenapc_ws_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_ws_client_abexa.htm)
 
 ### abenapc_tcp_client_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenapc_tcp_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_tcp_client_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -328,7 +283,7 @@ It is possible to select how many messages are sent and how often the wait state
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [APC - ABAP Push Channels](javascript:call_link\('abenapc.htm'\)) →  [Examples of APC](javascript:call_link\('abenapc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_channels.htm) →  [APC - ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm) →  [Examples of APC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexas.htm) → 
 
 APC, AS ABAP as TCP Socket Client
 
@@ -442,21 +397,14 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates how an ABAP program can create an [APC client](javascript:call_link\('abenapc.htm'\)) for the TCP socket protocol. It is structured in exactly the same way as in the [executable example](javascript:call_link\('abenapc_ws_client_abexa.htm'\)) for the WebSocket client, but with the connection being made to a TCP socket server. The current front-end computer is used as the TCP socket server here and the available [Ncat](https://nmap.org/ncat/) can be downloaded to this computer.
+This example demonstrates how an ABAP program can create an [APC client](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm) for the TCP socket protocol. It is structured in exactly the same way as in the [executable example](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_ws_client_abexa.htm) for the WebSocket client, but with the connection being made to a TCP socket server. The current front-end computer is used as the TCP socket server here and the available [Ncat](https://nmap.org/ncat/) can be downloaded to this computer.
 
 This program requires the Ncat.exe directory and the address of the current front-end computer (proposals are made for this information). In addition, a terminator character is needed for the TCP framework structure.
 
 When the program is executed, Ncat.exe is started and waits for messages from the APC client. Once a message is sent, this client waits for a message entered in the Ncat window and confirmed using Enter.
 
 
-
-**📖 Source**: [abenapc_tcp_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_tcp_client_abexa.htm)
-
 ### abenapc_detached_client_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenapc_detached_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_detached_client_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -464,7 +412,7 @@ When the program is executed, Ncat.exe is started and waits for messages from th
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [APC - ABAP Push Channels](javascript:call_link\('abenapc.htm'\)) →  [Examples of APC](javascript:call_link\('abenapc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_channels.htm) →  [APC - ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm) →  [Examples of APC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexas.htm) → 
 
 APC, Creating a Detached Client
 
@@ -582,27 +530,20 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates how an ABAP program can create a [detached APC client](javascript:call_link\('abenapc.htm'\)) for the WebSocket protocol.
+This example demonstrates how an ABAP program can create a [detached APC client](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm) for the WebSocket protocol.
 
 -   The local class apc\_handler, which implements the interface IF\_APC\_WSP\_EVENT\_HANDLER\_PCP, is used as the handler class. The method on\_open gets a connection handle for the connection. The other methods are not needed.
 
 -   The connection handle obtained by the method on\_open of the handler class can either be displayed or used immediately in the program to create an attached client for the detached client.
 
--   A displayed connection handle can be used in the program of the executable [attached client](javascript:call_link\('abenapc_attached_client_abexa.htm'\)) example.
+-   A displayed connection handle can be used in the program of the executable [attached client](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_attached_client_abexa.htm) example.
 
--   If not, the method ATTACH of the class CL\_APC\_WSP\_CLIENT\_CONN\_MANAGER is used to create an attached client object for the connection handle. Its message manager is then used to create a message in [PCP format](javascript:call_link\('abenpcp.htm'\)) and send it.
+-   If not, the method ATTACH of the class CL\_APC\_WSP\_CLIENT\_CONN\_MANAGER is used to create an attached client object for the connection handle. Its message manager is then used to create a message in [PCP format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpcp.htm) and send it.
 
-A breakpoint in the method ON\_MESSAGE of the APC handler class CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP can be used to monitor the arrival and processing of the message (it is not possible to respond to messages from the same class here). If the message is sent using [AMC](javascript:call_link\('abenamc.htm'\)), the response from the server is received by all associated AMC receivers. The attached client cannot itself wait for the response.
+A breakpoint in the method ON\_MESSAGE of the APC handler class CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP can be used to monitor the arrival and processing of the message (it is not possible to respond to messages from the same class here). If the message is sent using [AMC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc.htm), the response from the server is received by all associated AMC receivers. The attached client cannot itself wait for the response.
 
-
-
-**📖 Source**: [abenapc_detached_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_detached_client_abexa.htm)
 
 ### abenapc_attached_client_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenapc_attached_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_attached_client_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -610,7 +551,7 @@ A breakpoint in the method ON\_MESSAGE of the APC handler class CL\_APC\_WSP\_EX
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [APC - ABAP Push Channels](javascript:call_link\('abenapc.htm'\)) →  [Examples of APC](javascript:call_link\('abenapc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_channels.htm) →  [APC - ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm) →  [Examples of APC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexas.htm) → 
 
 APC, AS ABAP as Attached Client
 
@@ -672,20 +613,10 @@ START-OF-SELECTION.
 
 Description
 
-The program expects a connection handle as input, as provided in the output of the executable [detached client](javascript:call_link\('abenapc_detached_client_abexa.htm'\)) example. The connection handle is used to create and employ an attached client object precisely as described in the detached client example. The connection handle can be reused indefinitely until the connection is closed using the method CLOSE. If the connection is not closed by mistake, this can be done later in the transaction SMWS.
+The program expects a connection handle as input, as provided in the output of the executable [detached client](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_detached_client_abexa.htm) example. The connection handle is used to create and employ an attached client object precisely as described in the detached client example. The connection handle can be reused indefinitely until the connection is closed using the method CLOSE. If the connection is not closed by mistake, this can be done later in the transaction SMWS.
 
-
-
-**📖 Source**: [abenapc_attached_client_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_attached_client_abexa.htm)
 
 ### abenapc_connect_via_handle_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenapc_connect_via_handle_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_connect_via_handle_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenapc_connect_via_handle_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_connect_via_handle_abexa.htm)
-
 
   
 
@@ -693,7 +624,7 @@ The program expects a connection handle as input, as provided in the output of t
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [APC - ABAP Push Channels](javascript:call_link\('abenapc.htm'\)) →  [Examples of APC](javascript:call_link\('abenapc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_channels.htm) →  [APC - ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm) →  [Examples of APC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexas.htm) → 
 
 APC, System-Wide Access
 
@@ -736,7 +667,7 @@ Description
 
 The program expects a valid connection handle for a WebSocket connection as its input, creates an access objects for this handle, and uses it to send a simple text message.
 
-An APC connection from the executable example [AS ABAP as WebSocket Server](javascript:call_link\('abenapc_abexa.htm'\)) publishes its connection handle as follows:
+An APC connection from the executable example [AS ABAP as WebSocket Server](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_abexa.htm) publishes its connection handle as follows:
 
 -   Create a WebSocket server without PCP.
 

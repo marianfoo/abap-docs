@@ -4,17 +4,17 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Expressions and Functions](javascript:call_link\('abentable_processing_expr_func.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) →  [itab - Expressions and Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_processing_expr_func.htm) → 
 
 FILTER, Filter Operator
 
 Syntax Forms
 
-[Basic form](javascript:call_link\('abenconstructor_expr_filter_basic.htm'\))
-1\. ... FILTER type( itab *\[*EXCEPT*\]* *\[*USING KEY [keyname](javascript:call_link\('abenkeyname.htm'\))*\]*
+[Basic form](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expr_filter_basic.htm)
+1\. ... FILTER type( itab *\[*EXCEPT*\]* *\[*USING KEY [keyname](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenkeyname.htm)*\]*
                         WHERE c1 op f1 *\[*AND c2 op f2 *\[*...*\]**\]* ) ...
-[Filter table](javascript:call_link\('abenconstructor_expr_filter_table.htm'\))
-2\. ... FILTER type( itab *\[*EXCEPT*\]* IN ftab *\[*USING KEY [keyname](javascript:call_link\('abenkeyname.htm'\))*\]*
+[Filter table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expr_filter_table.htm)
+2\. ... FILTER type( itab *\[*EXCEPT*\]* IN ftab *\[*USING KEY [keyname](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenkeyname.htm)*\]*
                         WHERE c1 op f1 *\[*AND c2 op f2 *\[*...*\]**\]* ) ...
 
 Addition:
@@ -23,21 +23,21 @@ Addition:
 
 Effect
 
-A [constructor expression](javascript:call_link\('abenconstructor_expressions.htm'\)) with the component operator FILTER creates a result of a table type specified using type. The lines are taken from an existing internal table itab in accordance with the condition after WHERE, converted to the line type of type, and inserted into the target table in accordance with the rules of [INSERT](javascript:call_link\('abapinsert_itab.htm'\)) ... [INTO TABLE](javascript:call_link\('abapinsert_itab_position.htm'\)).
+A [constructor expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expressions.htm) with the component operator FILTER creates a result of a table type specified using type. The lines are taken from an existing internal table itab in accordance with the condition after WHERE, converted to the line type of type, and inserted into the target table in accordance with the rules of [INSERT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_itab.htm) ... [INTO TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_itab_position.htm).
 
--   In the [basic form](javascript:call_link\('abenconstructor_expr_filter_basic.htm'\)), the condition is created with single values.
--   When using a [filter table](javascript:call_link\('abenconstructor_expr_filter_table.htm'\)), the condition is created with values from the filter table ftab.
+-   In the [basic form](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expr_filter_basic.htm), the condition is created with single values.
+-   When using a [filter table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expr_filter_table.htm), the condition is created with values from the filter table ftab.
 
 The following can be specified for type:
 
--   A non-generic [table type](javascript:call_link\('abentable_type_glosry.htm'\) "Glossary Entry").
--   The # character as a symbol for the [operand type](javascript:call_link\('abenoperand_type_glosry.htm'\) "Glossary Entry"). If the data type required in an operand position is not unique and not known completely, the type of itab is used if known.
+-   A non-generic [table type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_type_glosry.htm "Glossary Entry").
+-   The # character as a symbol for the [operand type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperand_type_glosry.htm "Glossary Entry"). If the data type required in an operand position is not unique and not known completely, the type of itab is used if known.
 
-itab is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry"). The line type of itab must be convertible to the line type of the target type type. USING KEY can or must be used to specify a table key for evaluating itab or ftab, depending on the variant.
+itab is a [functional operand position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunctional_position_glosry.htm "Glossary Entry"). The line type of itab must be convertible to the line type of the target type type. USING KEY can or must be used to specify a table key for evaluating itab or ftab, depending on the variant.
 
 Hints
 
--   Table filtering can also be performed using a [table comprehension](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry") or a [table reduction](javascript:call_link\('abentable_reduction_glosry.htm'\) "Glossary Entry") with an [iteration expression](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") for [table iterations](javascript:call_link\('abentable_iteration_glosry.htm'\) "Glossary Entry") with [FOR](javascript:call_link\('abenfor_itab.htm'\)). The operator FILTER provides a shorter notation for this special case and is more efficient to execute.
+-   Table filtering can also be performed using a [table comprehension](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_comprehension_glosry.htm "Glossary Entry") or a [table reduction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_reduction_glosry.htm "Glossary Entry") with an [iteration expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeniteration_expression_glosry.htm "Glossary Entry") for [table iterations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_iteration_glosry.htm "Glossary Entry") with [FOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor_itab.htm). The operator FILTER provides a shorter notation for this special case and is more efficient to execute.
 -   A table filter constructs the result line by line. If the result contains almost all lines in the source table, this method can be slower than copying the source table and deleting the surplus lines from the target table.
 
 Addition   
@@ -50,11 +50,11 @@ If EXCEPT is not specified, those lines from itab are used that meet the WHERE c
 
 Hint
 
-The addition EXCEPT is not the same as a negation of the WHERE condition, particularly in the variant with a [filter table](javascript:call_link\('abenconstructor_expr_filter_table.htm'\)).
+The addition EXCEPT is not the same as a negation of the WHERE condition, particularly in the variant with a [filter table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expr_filter_table.htm).
 
 Example
 
-Use of the addition EXCEPT in the [basic form](javascript:call_link\('abenconstructor_expr_filter_basic.htm'\)) of the FILTER operator.
+Use of the addition EXCEPT in the [basic form](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expr_filter_basic.htm) of the FILTER operator.
 
 DATA messages TYPE SORTED TABLE OF t100 WITH NON-UNIQUE KEY sprsl.
 SELECT \*
@@ -66,6 +66,6 @@ cl\_demo\_output=>display(
   FILTER #( messages EXCEPT WHERE sprsl = 'D' ) ).
 
 Continue
-[FILTER, Basic Form](javascript:call_link\('abenconstructor_expr_filter_basic.htm'\))
-[FILTER, Filter Table](javascript:call_link\('abenconstructor_expr_filter_table.htm'\))
-[itab - Examples for FILTER](javascript:call_link\('abentable_filtering_abexas.htm'\))
+[FILTER, Basic Form](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expr_filter_basic.htm)
+[FILTER, Filter Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expr_filter_table.htm)
+[itab - Examples for FILTER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_filtering_abexas.htm)

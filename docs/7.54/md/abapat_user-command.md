@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Event Blocks for Lists](javascript:call_link\('abenabap_lists_interactive.htm'\)) →  [AT list\_event](javascript:call_link\('abapat_list_event.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_list.htm) →  [Event Blocks for Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_lists_interactive.htm) →  [AT list\_event](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapat_list_event.htm) → 
 
 AT USER-COMMAND
 
-[Quick Reference](javascript:call_link\('abapat_user-command_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapat_user-command_shortref.htm)
 
 Syntax
 
@@ -16,7 +16,7 @@ AT USER-COMMAND.
 
 Effect
 
-This statement defines an event block whose event is raised by the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry") if, when a screen is displayed, a function with a self-defined function code is chosen. The function code is available in the system field sy-ucomm when processing starts.
+This statement defines an event block whose event is raised by the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry") if, when a screen is displayed, a function with a self-defined function code is chosen. The function code is available in the system field sy-ucomm when processing starts.
 
 Self-defined function codes are all those that include character combinations, except for the following:
 
@@ -93,7 +93,7 @@ Scroll to last page
 
 PFILE name
 
-Saves list lines in a [text file](javascript:call_link\('abenfile_glosry.htm'\) "Glossary Entry") named "abap.lst" in standard character format in the standard directory on the [AS Instance](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry") [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"). If a name is entered using name, this is converted to lowercase letters and used as the file name.
+Saves list lines in a [text file](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfile_glosry.htm "Glossary Entry") named "abap.lst" in standard character format in the standard directory on the [AS Instance](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapplication_server_glosry.htm "Glossary Entry") [host computer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhost_computer_glosry.htm "Glossary Entry"). If a name is entered using name, this is converted to lowercase letters and used as the file name.
 
 PL-
 

@@ -3,32 +3,7 @@
 Included pages: 11
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenabap_language_includes.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm)
-- [abenabap_language_include.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_include.htm)
-- [abapinclude_prog.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinclude_prog.htm)
-- [abenabap_macros.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm)
-- [abapdefine.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm)
-- [abapend-of-definition.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-of-definition.htm)
-- [abenmacro_include.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_include.htm)
-- [abenmacro_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_abexa.htm)
-
-**Bundle Contains**: 8 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.510Z
-
----
-
 ### abenabap_language_includes.htm
-
-> **📖 Official SAP Documentation**: [abenabap_language_includes.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -36,27 +11,20 @@ Included pages: 11
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) → 
 
 Source Code Modules
 
 Source code modularization is the segmentation of a program's source code into individual units. Modularization operates independently of the segmentation of an ABAP program into processing blocks.
 
-Source code modules are implemented as either [include programs](javascript:call_link\('abenabap_language_include.htm'\)) or as [macros](javascript:call_link\('abenabap_macros.htm'\)). Include programs are used to structure large programs, whereas macros are used to recycle individual parts of programs.
+Source code modules are implemented as either [include programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_include.htm) or as [macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm). Include programs are used to structure large programs, whereas macros are used to recycle individual parts of programs.
 
 Continue
-[Include Programs](javascript:call_link\('abenabap_language_include.htm'\))
-[Macros](javascript:call_link\('abenabap_macros.htm'\))
+[Include Programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_include.htm)
+[Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm)
 
-
-
-**📖 Source**: [abenabap_language_includes.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm)
 
 ### abenabap_language_include.htm
-
-> **📖 Official SAP Documentation**: [abenabap_language_include.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_include.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -64,36 +32,29 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Source Code Modules](javascript:call_link\('abenabap_language_includes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Source Code Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm) → 
 
 Include Programs
 
-Include programs are used to split [ABAP source code](javascript:call_link\('abenabap_source_code_glosry.htm'\) "Glossary Entry") into individual [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry"). An ABAP program can be created in the [program attributes](javascript:call_link\('abenprogram_attribute_glosry.htm'\) "Glossary Entry") using the [program type](javascript:call_link\('abenprogram_type_glosry.htm'\) "Glossary Entry") include program. Include programs do not need to contain introductory statements for programs and cannot be generated as standalone programs by ABAP Compiler. When using the statement [INCLUDE](javascript:call_link\('abapinclude_prog.htm'\)), however, include programs can be integrated into [compilation units](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry").
+Include programs are used to split [ABAP source code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_source_code_glosry.htm "Glossary Entry") into individual [repository objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepository_object_glosry.htm "Glossary Entry"). An ABAP program can be created in the [program attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attribute_glosry.htm "Glossary Entry") using the [program type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_glosry.htm "Glossary Entry") include program. Include programs do not need to contain introductory statements for programs and cannot be generated as standalone programs by ABAP Compiler. When using the statement [INCLUDE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinclude_prog.htm), however, include programs can be integrated into [compilation units](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompilation_unit_glosry.htm "Glossary Entry").
 
 An include program must contain complete statements. It can include other include programs but not it cannot include itself. An include program does not need to contain complete processing blocks.
 
 Programming Guideline
 
-[Do not use include programs multiple times](javascript:call_link\('abenmultiple_use_include_guidl.htm'\) "Guideline")
+[Do not use include programs multiple times](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmultiple_use_include_guidl.htm "Guideline")
 
 Notes
 
--   For the [global declaration part](javascript:call_link\('abenglobal_declaration_sect_glosry.htm'\) "Glossary Entry") of an ABAP program, a special [top include](javascript:call_link\('abentop_include_glosry.htm'\) "Glossary Entry") is available which is included in the compilation of individual include programs of a program.
+-   For the [global declaration part](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_declaration_sect_glosry.htm "Glossary Entry") of an ABAP program, a special [top include](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentop_include_glosry.htm "Glossary Entry") is available which is included in the compilation of individual include programs of a program.
 
--   [Master programs](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") such as [class pools](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") or [function groups](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry") are organized in include programs automatically by ABAP Workbench.
+-   [Master programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenframe_program_glosry.htm "Glossary Entry") such as [class pools](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_pool_glosry.htm "Glossary Entry") or [function groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_group_glosry.htm "Glossary Entry") are organized in include programs automatically by ABAP Workbench.
 
 Continue
-[INCLUDE](javascript:call_link\('abapinclude_prog.htm'\))
+[INCLUDE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinclude_prog.htm)
 
-
-
-**📖 Source**: [abenabap_language_include.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_include.htm)
 
 ### abapinclude_prog.htm
-
-> **📖 Official SAP Documentation**: [abapinclude_prog.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinclude_prog.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -101,11 +62,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Source Code Modules](javascript:call_link\('abenabap_language_includes.htm'\)) →  [Include Programs](javascript:call_link\('abenabap_language_include.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Source Code Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm) →  [Include Programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_include.htm) → 
 
 INCLUDE
 
-[Quick Reference](javascript:call_link\('abapinclude_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinclude_shortref.htm)
 
 Syntax
 
@@ -117,24 +78,24 @@ Addition:
 
 Effect
 
-The statement INCLUDE includes the [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") incl in this position in the source code. In syntax checks and when the program is generated by ABAP Compiler, the statement is replaced by the source code of the include program. The included INCLUDE program must consist of full statements.
+The statement INCLUDE includes the [include program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninclude_program_glosry.htm "Glossary Entry") incl in this position in the source code. In syntax checks and when the program is generated by ABAP Compiler, the statement is replaced by the source code of the include program. The included INCLUDE program must consist of full statements.
 
 If the specified include program does not exist, the syntax of the program is incorrect and cannot be executed. This error situation can be suppressed by specifying the addition IF FOUND.
 
 Programming Guidelines
 
--   [Use include programs to modularize source code.](javascript:call_link\('abensource_code_modular_guidl.htm'\) "Guideline")
+-   [Use include programs to modularize source code.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensource_code_modular_guidl.htm "Guideline")
     
--   [Do not use include programs multiple times](javascript:call_link\('abenmultiple_use_include_guidl.htm'\) "Guideline")
+-   [Do not use include programs multiple times](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmultiple_use_include_guidl.htm "Guideline")
     
 
 Notes
 
--   The statement INCLUDE is the only statement that can be used instead of a [statement that introduces a program](javascript:call_link\('abenprogram_init_statement_glosry.htm'\) "Glossary Entry") in the first position of a program. The requirement is that, after the include program is resolved, a statement that introduces a program is located at the beginning of the including program.
+-   The statement INCLUDE is the only statement that can be used instead of a [statement that introduces a program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_init_statement_glosry.htm "Glossary Entry") in the first position of a program. The requirement is that, after the include program is resolved, a statement that introduces a program is located at the beginning of the including program.
     
--   [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry") supports the automatic creation of include programs for specific program parts, such as the [top include](javascript:call_link\('abentop_include_glosry.htm'\) "Glossary Entry") for global declarative statements. It is advisable to always use the naming conventions proposed by ABAP Workbench. The top include can contain only declarative statements and is respected when individual include programs of a program are compiled.
+-   [ABAP Workbench](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_workbench_glosry.htm "Glossary Entry") supports the automatic creation of include programs for specific program parts, such as the [top include](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentop_include_glosry.htm "Glossary Entry") for global declarative statements. It is advisable to always use the naming conventions proposed by ABAP Workbench. The top include can contain only declarative statements and is respected when individual include programs of a program are compiled.
     
--   In [Repository Browser](javascript:call_link\('abenrepository_browser_glosry.htm'\) "Glossary Entry") (a part of Object Navigator in ABAP Workbench), the INCLUDE programs bound by a program are executed as the subnodes of the program.
+-   In [Repository Browser](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepository_browser_glosry.htm "Glossary Entry") (a part of Object Navigator in ABAP Workbench), the INCLUDE programs bound by a program are executed as the subnodes of the program.
     
 
 Addition
@@ -143,7 +104,7 @@ Addition
 
 Effect
 
-The addition IF FOUND dictates that the specified [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") can be included only if it exists. If the include program does not exist, the INCLUDE statement is ignored and no syntax error occurs here.
+The addition IF FOUND dictates that the specified [include program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninclude_program_glosry.htm "Glossary Entry") can be included only if it exists. If the include program does not exist, the INCLUDE statement is ignored and no syntax error occurs here.
 
 Note
 
@@ -151,7 +112,7 @@ If the addition IF FOUND is specified, it is recommended that the including prog
 
 Example
 
-These lines show the [master program](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") of the function group ABAP\_DOCU. This function group displays the keyword documentation on [Application Server ABAP](javascript:call_link\('abenabap_personality_glosry.htm'\) "Glossary Entry"). It only contains INCLUDE statements that embed the actual source code. labap\_docutop itself is made up of include programs for the individual declarations (global data and class declarations local to the program).
+These lines show the [master program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenframe_program_glosry.htm "Glossary Entry") of the function group ABAP\_DOCU. This function group displays the keyword documentation on [Application Server ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_personality_glosry.htm "Glossary Entry"). It only contains INCLUDE statements that embed the actual source code. labap\_docutop itself is made up of include programs for the individual declarations (global data and class declarations local to the program).
 
 \*&----------------------------------------------------------------\*
 \*&  Function Group SAPLABAP\_DOCU
@@ -169,14 +130,7 @@ These lines show the [master program](javascript:call_link\('abenframe_program_g
   INCLUDE labap\_docut99.               " Unit tests
 
 
-
-**📖 Source**: [abapinclude_prog.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinclude_prog.htm)
-
 ### abenabap_language_include.htm
-
-> **📖 Official SAP Documentation**: [abenabap_language_include.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_include.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -184,71 +138,57 @@ These lines show the [master program](javascript:call_link\('abenframe_program_g
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Source Code Modules](javascript:call_link\('abenabap_language_includes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Source Code Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm) → 
 
 Include Programs
 
-Include programs are used to split [ABAP source code](javascript:call_link\('abenabap_source_code_glosry.htm'\) "Glossary Entry") into individual [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry"). An ABAP program can be created in the [program attributes](javascript:call_link\('abenprogram_attribute_glosry.htm'\) "Glossary Entry") using the [program type](javascript:call_link\('abenprogram_type_glosry.htm'\) "Glossary Entry") include program. Include programs do not need to contain introductory statements for programs and cannot be generated as standalone programs by ABAP Compiler. When using the statement [INCLUDE](javascript:call_link\('abapinclude_prog.htm'\)), however, include programs can be integrated into [compilation units](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry").
+Include programs are used to split [ABAP source code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_source_code_glosry.htm "Glossary Entry") into individual [repository objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepository_object_glosry.htm "Glossary Entry"). An ABAP program can be created in the [program attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attribute_glosry.htm "Glossary Entry") using the [program type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_glosry.htm "Glossary Entry") include program. Include programs do not need to contain introductory statements for programs and cannot be generated as standalone programs by ABAP Compiler. When using the statement [INCLUDE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinclude_prog.htm), however, include programs can be integrated into [compilation units](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompilation_unit_glosry.htm "Glossary Entry").
 
 An include program must contain complete statements. It can include other include programs but not it cannot include itself. An include program does not need to contain complete processing blocks.
 
 Programming Guideline
 
-[Do not use include programs multiple times](javascript:call_link\('abenmultiple_use_include_guidl.htm'\) "Guideline")
+[Do not use include programs multiple times](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmultiple_use_include_guidl.htm "Guideline")
 
 Notes
 
--   For the [global declaration part](javascript:call_link\('abenglobal_declaration_sect_glosry.htm'\) "Glossary Entry") of an ABAP program, a special [top include](javascript:call_link\('abentop_include_glosry.htm'\) "Glossary Entry") is available which is included in the compilation of individual include programs of a program.
+-   For the [global declaration part](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_declaration_sect_glosry.htm "Glossary Entry") of an ABAP program, a special [top include](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentop_include_glosry.htm "Glossary Entry") is available which is included in the compilation of individual include programs of a program.
 
--   [Master programs](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") such as [class pools](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") or [function groups](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry") are organized in include programs automatically by ABAP Workbench.
+-   [Master programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenframe_program_glosry.htm "Glossary Entry") such as [class pools](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_pool_glosry.htm "Glossary Entry") or [function groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_group_glosry.htm "Glossary Entry") are organized in include programs automatically by ABAP Workbench.
 
 Continue
-[INCLUDE](javascript:call_link\('abapinclude_prog.htm'\))
+[INCLUDE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinclude_prog.htm)
 
-
-
-**📖 Source**: [abenabap_language_include.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_include.htm)
 
 ### abenabap_macros.htm
 
-> **📖 Official SAP Documentation**: [abenabap_macros.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Source Code Modules](javascript:call_link\('abenabap_language_includes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Source Code Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm) → 
 
 Macros
 
-Macros enable [source code to be modularized](javascript:call_link\('abensource_code_modularizat_glosry.htm'\) "Glossary Entry") within an ABAP program. They have the following properties:
+Macros enable [source code to be modularized](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensource_code_modularizat_glosry.htm "Glossary Entry") within an ABAP program. They have the following properties:
 
--   They are defined between the statements [DEFINE](javascript:call_link\('abapdefine.htm'\)) and [END-OF-DEFINITION](javascript:call_link\('abapend-of-definition.htm'\)).
+-   They are defined between the statements [DEFINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm) and [END-OF-DEFINITION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-of-definition.htm).
 
--   They are [included](javascript:call_link\('abenmacro_include.htm'\)) by their name being specified.
+-   They are [included](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_include.htm) by their name being specified.
 
 Programming Guideline
 
-[Only use macros in exceptional cases.](javascript:call_link\('abenmacros_guidl.htm'\) "Guideline")
+[Only use macros in exceptional cases.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacros_guidl.htm "Guideline")
 
 Continue
-[DEFINE](javascript:call_link\('abapdefine.htm'\))
-[Including Macros](javascript:call_link\('abenmacro_include.htm'\))
-![Example](exa.gif "Example") [Macros](javascript:call_link\('abenmacro_abexa.htm'\))
+[DEFINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm)
+[Including Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_include.htm)
+![Example](exa.gif "Example") [Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_abexa.htm)
 
-
-
-**📖 Source**: [abenabap_macros.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm)
 
 ### abapdefine.htm
-
-> **📖 Official SAP Documentation**: [abapdefine.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -256,11 +196,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Source Code Modules](javascript:call_link\('abenabap_language_includes.htm'\)) →  [Macros](javascript:call_link\('abenabap_macros.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Source Code Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm) →  [Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm) → 
 
 DEFINE
 
-[Quick Reference](javascript:call_link\('abapdefine_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine_shortref.htm)
 
 Syntax
 
@@ -270,17 +210,17 @@ END-OF-DEFINITION.
 
 Effect
 
-The statement DEFINE defines a [macro](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") macro. The following [naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) macro apply and [ABAP words](javascript:call_link\('abenabap_words.htm'\)) cannot be used. Macros can be defined in all [program types](javascript:call_link\('abenprogram_type_glosry.htm'\) "Glossary Entry"), particularly in [type groups](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry").
+The statement DEFINE defines a [macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_glosry.htm "Glossary Entry") macro. The following [naming conventions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennaming_conventions.htm) macro apply and [ABAP words](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_words.htm) cannot be used. Macros can be defined in all [program types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_glosry.htm "Glossary Entry"), particularly in [type groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry").
 
-Any content can be defined between the statements DEFINE and END-OF-DEFINITION. A macro is not evaluated until it is included in another program (which must have correct syntax). Currently, a macro can only be [included](javascript:call_link\('abenmacro_include.htm'\)) in other ABAP programs using its name macro.
+Any content can be defined between the statements DEFINE and END-OF-DEFINITION. A macro is not evaluated until it is included in another program (which must have correct syntax). Currently, a macro can only be [included](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_include.htm) in other ABAP programs using its name macro.
 
-The validity of a macro is determined by its position in the [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry"). It can be inserted at any point after END-OF-DEFINITION in the same compilation unit. If another macro is defined with the same name, it overwrites the previous macro from its new position.
+The validity of a macro is determined by its position in the [compilation unit](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompilation_unit_glosry.htm "Glossary Entry"). It can be inserted at any point after END-OF-DEFINITION in the same compilation unit. If another macro is defined with the same name, it overwrites the previous macro from its new position.
 
 Within a macro, up to nine placeholders &1 ... &9 can be used instead of ABAP words and operands. These placeholders must be replaced by fixed words when the macro is inserted.
 
 Programming Guideline
 
-[Only use macros in exceptional cases.](javascript:call_link\('abenmacros_guidl.htm'\) "Guideline")
+[Only use macros in exceptional cases.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacros_guidl.htm "Guideline")
 
 Notes
 
@@ -288,41 +228,34 @@ Notes
     
 -   In global classes, macros are defined in a dedicated include program.
     
--   Apart from in the source code of a program and in [type groups](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry"), macros can also be stored as cross-program macros in the table TRMAC. No new macros, however, should be defined in the table TRMAC. An example of a macro stored in the table TRMAC is break, which sets a breakpoint depending on the current user name in the system field sy-uname.
+-   Apart from in the source code of a program and in [type groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry"), macros can also be stored as cross-program macros in the table TRMAC. No new macros, however, should be defined in the table TRMAC. An example of a macro stored in the table TRMAC is break, which sets a breakpoint depending on the current user name in the system field sy-uname.
     
 
 Example
 
-See [Including Macros](javascript:call_link\('abenmacro_include.htm'\)).
+See [Including Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_include.htm).
 
 Executable Example
 
-[Macros](javascript:call_link\('abenmacro_abexa.htm'\))
+[Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_abexa.htm)
 
 Continue
-[END-OF-DEFINITION](javascript:call_link\('abapend-of-definition.htm'\))
+[END-OF-DEFINITION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-of-definition.htm)
 
-
-
-**📖 Source**: [abapdefine.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm)
 
 ### abapend-of-definition.htm
 
-> **📖 Official SAP Documentation**: [abapend-of-definition.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-of-definition.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Source Code Modules](javascript:call_link\('abenabap_language_includes.htm'\)) →  [Macros](javascript:call_link\('abenabap_macros.htm'\)) →  [DEFINE](javascript:call_link\('abapdefine.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Source Code Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm) →  [Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm) →  [DEFINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm) → 
 
 END-OF-DEFINITION
 
-[Quick Reference](javascript:call_link\('abapdefine_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine_shortref.htm)
 
 Syntax
 
@@ -330,17 +263,10 @@ END-OF-DEFINITION.
 
 Effect
 
-The statement END-OF-DEFINITION closes a macro definition that was initiated by [DEFINE](javascript:call_link\('abapdefine.htm'\)).
+The statement END-OF-DEFINITION closes a macro definition that was initiated by [DEFINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm).
 
-
-
-**📖 Source**: [abapend-of-definition.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-of-definition.htm)
 
 ### abapdefine.htm
-
-> **📖 Official SAP Documentation**: [abapdefine.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -348,11 +274,11 @@ The statement END-OF-DEFINITION closes a macro definition that was initiated by 
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Source Code Modules](javascript:call_link\('abenabap_language_includes.htm'\)) →  [Macros](javascript:call_link\('abenabap_macros.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Source Code Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm) →  [Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm) → 
 
 DEFINE
 
-[Quick Reference](javascript:call_link\('abapdefine_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine_shortref.htm)
 
 Syntax
 
@@ -362,17 +288,17 @@ END-OF-DEFINITION.
 
 Effect
 
-The statement DEFINE defines a [macro](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") macro. The following [naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) macro apply and [ABAP words](javascript:call_link\('abenabap_words.htm'\)) cannot be used. Macros can be defined in all [program types](javascript:call_link\('abenprogram_type_glosry.htm'\) "Glossary Entry"), particularly in [type groups](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry").
+The statement DEFINE defines a [macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_glosry.htm "Glossary Entry") macro. The following [naming conventions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennaming_conventions.htm) macro apply and [ABAP words](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_words.htm) cannot be used. Macros can be defined in all [program types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_glosry.htm "Glossary Entry"), particularly in [type groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry").
 
-Any content can be defined between the statements DEFINE and END-OF-DEFINITION. A macro is not evaluated until it is included in another program (which must have correct syntax). Currently, a macro can only be [included](javascript:call_link\('abenmacro_include.htm'\)) in other ABAP programs using its name macro.
+Any content can be defined between the statements DEFINE and END-OF-DEFINITION. A macro is not evaluated until it is included in another program (which must have correct syntax). Currently, a macro can only be [included](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_include.htm) in other ABAP programs using its name macro.
 
-The validity of a macro is determined by its position in the [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry"). It can be inserted at any point after END-OF-DEFINITION in the same compilation unit. If another macro is defined with the same name, it overwrites the previous macro from its new position.
+The validity of a macro is determined by its position in the [compilation unit](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompilation_unit_glosry.htm "Glossary Entry"). It can be inserted at any point after END-OF-DEFINITION in the same compilation unit. If another macro is defined with the same name, it overwrites the previous macro from its new position.
 
 Within a macro, up to nine placeholders &1 ... &9 can be used instead of ABAP words and operands. These placeholders must be replaced by fixed words when the macro is inserted.
 
 Programming Guideline
 
-[Only use macros in exceptional cases.](javascript:call_link\('abenmacros_guidl.htm'\) "Guideline")
+[Only use macros in exceptional cases.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacros_guidl.htm "Guideline")
 
 Notes
 
@@ -380,29 +306,22 @@ Notes
     
 -   In global classes, macros are defined in a dedicated include program.
     
--   Apart from in the source code of a program and in [type groups](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry"), macros can also be stored as cross-program macros in the table TRMAC. No new macros, however, should be defined in the table TRMAC. An example of a macro stored in the table TRMAC is break, which sets a breakpoint depending on the current user name in the system field sy-uname.
+-   Apart from in the source code of a program and in [type groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry"), macros can also be stored as cross-program macros in the table TRMAC. No new macros, however, should be defined in the table TRMAC. An example of a macro stored in the table TRMAC is break, which sets a breakpoint depending on the current user name in the system field sy-uname.
     
 
 Example
 
-See [Including Macros](javascript:call_link\('abenmacro_include.htm'\)).
+See [Including Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_include.htm).
 
 Executable Example
 
-[Macros](javascript:call_link\('abenmacro_abexa.htm'\))
+[Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_abexa.htm)
 
 Continue
-[END-OF-DEFINITION](javascript:call_link\('abapend-of-definition.htm'\))
+[END-OF-DEFINITION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-of-definition.htm)
 
-
-
-**📖 Source**: [abapdefine.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm)
 
 ### abenmacro_include.htm
-
-> **📖 Official SAP Documentation**: [abenmacro_include.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_include.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -410,7 +329,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Source Code Modules](javascript:call_link\('abenabap_language_includes.htm'\)) →  [Macros](javascript:call_link\('abenabap_macros.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Source Code Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm) →  [Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm) → 
 
 Including Macros
 
@@ -420,17 +339,17 @@ macro *\[*p1 p2 ... *\]*.
 
 Effect
 
-If a macro is executed as the first word in an ABAP statement instead of a valid [ABAP keyword](javascript:call_link\('abenabap_keyword_glosry.htm'\) "Glossary Entry"), its content is included at this position in the source code.
+If a macro is executed as the first word in an ABAP statement instead of a valid [ABAP keyword](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_keyword_glosry.htm "Glossary Entry"), its content is included at this position in the source code.
 
-To ensure that the program has correct syntax, the included macro must only contain full ABAP statements (except [DEFINE](javascript:call_link\('abapdefine.htm'\)) and [END-OF-DEFINITION](javascript:call_link\('abapend-of-definition.htm'\))) and introductory program statements. These statements create a source code section that is included in the current source code. The statements of a macro are not bound to the limits of processing blocks here.
+To ensure that the program has correct syntax, the included macro must only contain full ABAP statements (except [DEFINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm) and [END-OF-DEFINITION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-of-definition.htm)) and introductory program statements. These statements create a source code section that is included in the current source code. The statements of a macro are not bound to the limits of processing blocks here.
 
 Suitable ABAP words or operands p1, p2, ... must be passed to all of the placeholders of the macro. The specified operands p1, p2, replace the placeholders sequentially. The characters are transformed to uppercase letters (except for the content of character literals).
 
 ABAP Compiler searches for a macro specified in an ABAP program as follows:
 
-1.  In the preceding source code of the same [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry").
+1.  In the preceding source code of the same [compilation unit](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompilation_unit_glosry.htm "Glossary Entry").
     
-2.  In the [type groups](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") that can be used for the program. Local macros of the program obscure macros of the same name in type groups.
+2.  In the [type groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry") that can be used for the program. Local macros of the program obscure macros of the same name in type groups.
     
 3.  In the table TRMAC. Macros in the table TRMAC usually follow different name conventions to those in type groups and therefore nothing should be obscured.
 
@@ -460,17 +379,10 @@ operation n2 - n1.
 
 Executable Example
 
-[Macros](javascript:call_link\('abenmacro_abexa.htm'\))
+[Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_abexa.htm)
 
-
-
-**📖 Source**: [abenmacro_include.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_include.htm)
 
 ### abenmacro_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenmacro_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -478,7 +390,7 @@ Executable Example
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Source Code Modules](javascript:call_link\('abenabap_language_includes.htm'\)) →  [Macros](javascript:call_link\('abenabap_macros.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Source Code Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm) →  [Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm) → 
 
 Macros
 
@@ -506,17 +418,7 @@ Description
 This example first defines and then uses the macro write\_frame which draws a frame around the placeholder &1 on a list.
 
 
-
-**📖 Source**: [abenmacro_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_abexa.htm)
-
 ### abenabap_macros.htm
-
-> **📖 Official SAP Documentation**: [abenabap_macros.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenabap_macros.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_macros.htm)
-
 
   
 
@@ -524,21 +426,21 @@ This example first defines and then uses the macro write\_frame which draws a fr
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Source Code Modules](javascript:call_link\('abenabap_language_includes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Source Code Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_includes.htm) → 
 
 Macros
 
-Macros enable [source code to be modularized](javascript:call_link\('abensource_code_modularizat_glosry.htm'\) "Glossary Entry") within an ABAP program. They have the following properties:
+Macros enable [source code to be modularized](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensource_code_modularizat_glosry.htm "Glossary Entry") within an ABAP program. They have the following properties:
 
--   They are defined between the statements [DEFINE](javascript:call_link\('abapdefine.htm'\)) and [END-OF-DEFINITION](javascript:call_link\('abapend-of-definition.htm'\)).
+-   They are defined between the statements [DEFINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm) and [END-OF-DEFINITION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-of-definition.htm).
 
--   They are [included](javascript:call_link\('abenmacro_include.htm'\)) by their name being specified.
+-   They are [included](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_include.htm) by their name being specified.
 
 Programming Guideline
 
-[Only use macros in exceptional cases.](javascript:call_link\('abenmacros_guidl.htm'\) "Guideline")
+[Only use macros in exceptional cases.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacros_guidl.htm "Guideline")
 
 Continue
-[DEFINE](javascript:call_link\('abapdefine.htm'\))
-[Including Macros](javascript:call_link\('abenmacro_include.htm'\))
-![Example](exa.gif "Example") [Macros](javascript:call_link\('abenmacro_abexa.htm'\))
+[DEFINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdefine.htm)
+[Including Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_include.htm)
+![Example](exa.gif "Example") [Macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_abexa.htm)

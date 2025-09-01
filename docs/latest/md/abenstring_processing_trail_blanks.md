@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Character String and Byte String Processing, Overview](javascript:call_link\('abenstring_processing_oview.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_string.htm) →  [Character String and Byte String Processing, Overview](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_processing_oview.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Trailing%20Blanks%20in%20Character%20String%20Processing%2C%20ABENSTRING_PROCESSING_TRAIL_BLANKS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion
 %20for%20improvement:)
@@ -20,17 +20,17 @@ If the result of a statement for character string processing is assigned to an o
 
 Programming Guideline
 
-[Do not use trailing blanks in text field literals](javascript:call_link\('abentrailing_blanks_literals_guidl.htm'\) "Guideline")
+[Do not use trailing blanks in text field literals](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentrailing_blanks_literals_guidl.htm "Guideline")
 
 Hints
 
--   Truncating trailing blanks especially affects the [text field literal](javascript:call_link\('abentext_field_literal_glosry.htm'\) "Glossary Entry") ' ' and the constant [space](javascript:call_link\('abenspace.htm'\)). These should therefore never be listed in operand positions where trailing blanks are truncated.
+-   Truncating trailing blanks especially affects the [text field literal](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_field_literal_glosry.htm "Glossary Entry") ' ' and the constant [space](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenspace.htm). These should therefore never be listed in operand positions where trailing blanks are truncated.
 -   In result fields that are too long, padding with blanks can produce invalid values, if the fields have the type n, d, or t.
--   The preservation of trailing blanks can be forced for assignments using the addition RESPECTING BLANKS of the statement [CONCATENATE](javascript:call_link\('abapconcatenate.htm'\)).
+-   The preservation of trailing blanks can be forced for assignments using the addition RESPECTING BLANKS of the statement [CONCATENATE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapconcatenate.htm).
 
 Example
 
-The result of the following [concatenation](javascript:call_link\('abapconcatenate.htm'\)) is a string with exactly one blank. The blank characters in space and ' ' are ignored. At the operand position after SEPARATED BY however, the blank character that is contained explicitly in '' is not ignored. If the addition RESPECTING BLANKS was used, the result would be a string with three blanks.
+The result of the following [concatenation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapconcatenate.htm) is a string with exactly one blank. The blank characters in space and ' ' are ignored. At the operand position after SEPARATED BY however, the blank character that is contained explicitly in '' is not ignored. If the addition RESPECTING BLANKS was used, the result would be a string with three blanks.
 
 DATA text TYPE string.
 CONCATENATE space ' ' INTO text SEPARATED BY ''.

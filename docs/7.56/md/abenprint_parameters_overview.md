@@ -4,16 +4,18 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Spool](javascript:call_link\('abenprint.htm'\)) →  [Lists - Spool Parameters](javascript:call_link\('abenprint_parameters.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Spool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprint.htm) →  [Lists - Spool Parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprint_parameters.htm) → 
 
 Lists - Overview of All Spool Parameters
 
--   [Spool Parameters](#abenprint-parameters-overview-1-------archiving-parameters---@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_2)
--   [Control Parameters](#abenprint-parameters-overview-3-------output-parameters-of-get--print--parameters---@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_4)
+-   [Spool Parameters](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_1)
+-   [Archiving Parameters](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_2)
+-   [Control Parameters](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_3)
+-   [Output Parameters of GET\_PRINT\_PARAMETERS](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_4)
 
 Spool Parameters
 
-The following table lists all spool parameters by their associated input parameters in the function modules [GET\_PRINT\_PARAMETERS](javascript:call_link\('abenprint_parameters_function.htm'\)) and [SET\_PRINT\_PARAMETERS](javascript:call_link\('abenprint_parameters_window.htm'\)). The second column shows the label in the spool dialog box. The third column contains the name of the component in the structure PRI\_PARAMS whose content, however, cannot be modified directly in a program.
+The following table lists all spool parameters by their associated input parameters in the function modules [GET\_PRINT\_PARAMETERS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprint_parameters_function.htm) and [SET\_PRINT\_PARAMETERS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprint_parameters_window.htm). The second column shows the label in the spool dialog box. The third column contains the name of the component in the structure PRI\_PARAMS whose content, however, cannot be modified directly in a program.
 
 Input Parameter
 
@@ -349,7 +351,7 @@ Object type of the SAP object.
 Hints
 
 -   Requests can be archived only if these parameters are specified consistently and completely. Archiving works across all applications. Apart from certain basic settings, no other actions are required. If spool lists are to be stored on an application-specific basis, some special actions must be taken. For more information, see the documentation ArchiveLink in SAP Help Portal.
--   When archiving long lists, it may be useful to write index information to the list using [PRINT-CONTROL INDEX-LINE](javascript:call_link\('abapprint-control.htm'\)). This makes it easier to search the archived list later on.
+-   When archiving long lists, it may be useful to write index information to the list using [PRINT-CONTROL INDEX-LINE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprint-control.htm). This makes it easier to search the archived list later on.
 
 Control Parameters
 

@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  R
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shortref.htm) →  R
 
 REFRESH - Quick reference
 
-[Reference](javascript:call_link\('abaprefresh_itab.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaprefresh_itab.htm)
 
 Syntax
 

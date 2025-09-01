@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 interface component
 
-[Component](javascript:call_link\('abencomponent_glosry.htm'\) "Glossary Entry") of an [interface](javascript:call_link\('abeninterface_oo_glosry.htm'\) "Glossary Entry"). Declared in the [declaration part](javascript:call_link\('abendeclaration_section_glosry.htm'\) "Glossary Entry") of an interface. Possible interface components are: [Attributes](javascript:call_link\('abenattribute_glosry.htm'\) "Glossary Entry"), [methods](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry"), and [events](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry").
+[Component](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomponent_glosry.htm "Glossary Entry") of an [interface](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_oo_glosry.htm "Glossary Entry"). Declared in the [declaration part](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclaration_section_glosry.htm "Glossary Entry") of an interface. Possible interface components are: [Attributes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenattribute_glosry.htm "Glossary Entry"), [methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_glosry.htm "Glossary Entry"), and [events](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevent_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenclass_ifac_components.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_ifac_components.htm)

@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 CDS aspect
 
-Object used to define user-specific values and how they are used in the conditions of a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry"). Currently, the predefined aspects pfcg\_auth and user can be used.
+Object used to define user-specific values and how they are used in the conditions of a [CDS role](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry"). Currently, the predefined aspects pfcg\_auth and user can be used.

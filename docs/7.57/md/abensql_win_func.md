@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_win](javascript:call_link\('abapselect_over.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_win](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: sql_win - win_func, ABENSQL_WIN_FUNC, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASu
 ggestion for improvement:)
@@ -13,24 +13,24 @@ sql\_win - win\_func
 
 Syntax
 
-... [AVG](javascript:call_link\('abapselect_aggregate.htm'\))( [col](javascript:call_link\('abenabap_sql_columns.htm'\)) *\[*[AS dtype](javascript:call_link\('abapselect_avg_as.htm'\))*\]* )
-  *|* [MEDIAN](javascript:call_link\('abapselect_aggregate.htm'\))( [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) )
-  *|* [MAX](javascript:call_link\('abapselect_aggregate.htm'\))( [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) )
-  *|* [MIN](javascript:call_link\('abapselect_aggregate.htm'\))( [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) )
-  *|* [SUM](javascript:call_link\('abapselect_aggregate.htm'\))( [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) )
-  *|* [STDDEV](javascript:call_link\('abapselect_aggregate.htm'\))( [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) )
-  *|* [VAR](javascript:call_link\('abapselect_aggregate.htm'\))( [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) )
-  *|* [CORR](javascript:call_link\('abapselect_aggregate.htm'\))( [sql\_exp1](javascript:call_link\('abapsql_expr.htm'\)),[sql\_exp2](javascript:call_link\('abapsql_expr.htm'\)) )
-  *|* [CORR\_SPEARMAN](javascript:call_link\('abapselect_aggregate.htm'\))( [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)),[sql\_exp2](javascript:call_link\('abapsql_expr.htm'\)) )
-  *|* [COUNT](javascript:call_link\('abapselect_aggregate.htm'\))( [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) )
-  *|* [COUNT](javascript:call_link\('abapselect_aggregate.htm'\))( \* )
-  *|* [COUNT](javascript:call_link\('abapselect_aggregate.htm'\))(\*)
+... [AVG](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm)( [col](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_columns.htm) *\[*[AS dtype](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_avg_as.htm)*\]* )
+  *|* [MEDIAN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm)( [sql\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) )
+  *|* [MAX](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm)( [sql\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) )
+  *|* [MIN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm)( [sql\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) )
+  *|* [SUM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm)( [sql\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) )
+  *|* [STDDEV](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm)( [sql\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) )
+  *|* [VAR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm)( [sql\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) )
+  *|* [CORR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm)( [sql\_exp1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm),[sql\_exp2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) )
+  *|* [CORR\_SPEARMAN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm)( [sql\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm),[sql\_exp2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) )
+  *|* [COUNT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm)( [sql\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) )
+  *|* [COUNT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm)( \* )
+  *|* [COUNT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm)(\*)
   *|* ROW\_NUMBER( )
   *|* RANK( )
   *|* DENSE\_RANK( )
   *|* NTILE( n )
-  *|* LEAD*|*LAG( [sql\_exp1](javascript:call_link\('abapsql_expr.htm'\))*\[*, diff*\[*, [sql\_exp2](javascript:call_link\('abapsql_expr.htm'\))*\]**\]* )
-  *|* FIRST\_VALUE*|*LAST\_VALUE( [col](javascript:call_link\('abenabap_sql_columns.htm'\)) ) ...
+  *|* LEAD*|*LAG( [sql\_exp1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm)*\[*, diff*\[*, [sql\_exp2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm)*\]**\]* )
+  *|* FIRST\_VALUE*|*LAST\_VALUE( [col](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_columns.htm) ) ...
 
 Variants:
 
@@ -44,11 +44,11 @@ Variants:
 
 Effect
 
-[Window function](javascript:call_link\('abenwindow_function_glosry.htm'\) "Glossary Entry") in a [window expression](javascript:call_link\('abapselect_over.htm'\)). Window functions are:
+[Window function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwindow_function_glosry.htm "Glossary Entry") in a [window expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm). Window functions are:
 
--   [Aggregate functions](javascript:call_link\('abenaggregate_function_glosry.htm'\) "Glossary Entry") AVG( ... ), ..., COUNT(\*) that can also be used in [aggregate expressions](javascript:call_link\('abapselect_aggregate.htm'\)).
--   [Ranking functions](javascript:call_link\('abenranking_function_glosry.htm'\) "Glossary Entry") ROW\_NUMBER( ), RANK( ), DENSE\_RANK( ), and NTILE (n) that can only be used in [window expressions](javascript:call_link\('abapselect_over.htm'\)).
--   [Value functions](javascript:call_link\('abenvalue_function_glosry.htm'\) "Glossary Entry") LEAD( ... ), LAG( ... ), FIRST\_VALUE ( ... ), LAST\_VALUE ( ... ) that can be used only in [window expressions](javascript:call_link\('abapselect_over.htm'\)).
+-   [Aggregate functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenaggregate_function_glosry.htm "Glossary Entry") AVG( ... ), ..., COUNT(\*) that can also be used in [aggregate expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm).
+-   [Ranking functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenranking_function_glosry.htm "Glossary Entry") ROW\_NUMBER( ), RANK( ), DENSE\_RANK( ), and NTILE (n) that can only be used in [window expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm).
+-   [Value functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_function_glosry.htm "Glossary Entry") LEAD( ... ), LAG( ... ), FIRST\_VALUE ( ... ), LAST\_VALUE ( ... ) that can be used only in [window expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm).
 
 Variant 1   
 
@@ -56,13 +56,13 @@ Variant 1  
 
 Effect
 
-Specifies one of the aggregate functions [AVG](javascript:call_link\('abensql_agg_func.htm'\)), [MEDIAN](javascript:call_link\('abensql_agg_func.htm'\)), [MAX](javascript:call_link\('abensql_agg_func.htm'\)), [MIN](javascript:call_link\('abensql_agg_func.htm'\)), [STDDEV](javascript:call_link\('abensql_agg_func.htm'\)), [VAR](javascript:call_link\('abensql_agg_func.htm'\)), [CORR](javascript:call_link\('abensql_agg_func.htm'\)), [CORR\_SPEARMAN](javascript:call_link\('abensql_agg_func.htm'\)), [SUM](javascript:call_link\('abensql_agg_func.htm'\)), [COUNT](javascript:call_link\('abensql_agg_func.htm'\)), or [COUNT(\*)](javascript:call_link\('abensql_agg_func.htm'\)) as a window function. The aggregate functions evaluate the rows of the current window or of the frame defined by an addition ORDER BY after [OVER](javascript:call_link\('abapselect_over.htm'\)). The aggregate functions are applied as in the [general description](javascript:call_link\('abensql_agg_func.htm'\)), with the following differences:
+Specifies one of the aggregate functions [AVG](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm), [MEDIAN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm), [MAX](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm), [MIN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm), [STDDEV](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm), [VAR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm), [CORR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm), [CORR\_SPEARMAN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm), [SUM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm), [COUNT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm), or [COUNT(\*)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm) as a window function. The aggregate functions evaluate the rows of the current window or of the frame defined by an addition ORDER BY after [OVER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm). The aggregate functions are applied as in the [general description](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm), with the following differences:
 
 -   The addition DISTINCT is not allowed in a window expression.
 -   The result of the function COUNT has the data type INT8 and not INT4.
 -   When used in window expressions, STDDEV and VAR can have only data type FLTP as argument.
 
-The same applies to the arguments of aggregate functions as in the [general description](javascript:call_link\('abensql_agg_func.htm'\)), with the difference that the argument of an aggregate function in a window expression can itself, as a window function, be an aggregate function. This is the precise case when a grouping is made using the [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)) clause in the current query. The windows on the combined result set are then defined and the aggregate expressions allowed as specified columns of the current [SELECT list](javascript:call_link\('abapselect_list.htm'\)) can be used either as standalone expressions or as part of an SQL expression as an argument of window functions of the window expressions there. A window function then determines its result from the aggregated values of the rows of the current window.
+The same applies to the arguments of aggregate functions as in the [general description](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_agg_func.htm), with the difference that the argument of an aggregate function in a window expression can itself, as a window function, be an aggregate function. This is the precise case when a grouping is made using the [GROUP BY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapgroupby_clause.htm) clause in the current query. The windows on the combined result set are then defined and the aggregate expressions allowed as specified columns of the current [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm) can be used either as standalone expressions or as part of an SQL expression as an argument of window functions of the window expressions there. A window function then determines its result from the aggregated values of the rows of the current window.
 
 Hint
 
@@ -70,7 +70,7 @@ The addition DISTINCT cannot be specified, which means that COUNT( sql\_exp ) ca
 
 Executable Example
 
-[Window Expressions with Grouping](javascript:call_link\('abensql_expr_over_group_abexa.htm'\))
+[Window Expressions with Grouping](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expr_over_group_abexa.htm)
 
 Variant 2   
 
@@ -78,15 +78,15 @@ Variant 2  
 
 Effect
 
-Specifies the ranking function ROW\_NUMBER as a window function. This ranking function assigns each row a row number of the data type INT8 and does not have an argument. The rows of each window are numbered starting with 1. This numbering takes place in the order in which the rows of a window are processed. The order is either undefined or can be defined by specifying the addition ORDER BY after [OVER](javascript:call_link\('abapselect_over.htm'\)).
+Specifies the ranking function ROW\_NUMBER as a window function. This ranking function assigns each row a row number of the data type INT8 and does not have an argument. The rows of each window are numbered starting with 1. This numbering takes place in the order in which the rows of a window are processed. The order is either undefined or can be defined by specifying the addition ORDER BY after [OVER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm).
 
 Hint
 
-If ORDER BY is not specified after [OVER](javascript:call_link\('abapselect_over.htm'\)), ROW\_NUMBER still assigns a unique row number, but these numbers are not sorted.
+If ORDER BY is not specified after [OVER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm), ROW\_NUMBER still assigns a unique row number, but these numbers are not sorted.
 
 Executable Examples
 
-[Examples of Window Expressions](javascript:call_link\('abensql_expr_over_abexas.htm'\))
+[Examples of Window Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expr_over_abexas.htm)
 
 Variant 3   
 
@@ -94,7 +94,7 @@ Variant 3  
 
 Effect
 
-Specifies the ranking function RANK as a window function. This ranking function assigns each row a rank of the data type INT8 and does not have an argument. It can only be specified together with ORDER BY after [OVER](javascript:call_link\('abapselect_over.htm'\)).
+Specifies the ranking function RANK as a window function. This ranking function assigns each row a rank of the data type INT8 and does not have an argument. It can only be specified together with ORDER BY after [OVER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm).
 
 The rank of a row is the position of this row in the ranking defined by the addition ORDER BY after OVER and is defined as follows:
 
@@ -107,7 +107,7 @@ If a window does not contain any multiple rows with respect to the sort criterio
 
 Executable Example
 
-[Window Expressions with Sort](javascript:call_link\('abensql_expr_over_order_by_abexa.htm'\))
+[Window Expressions with Sort](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expr_over_order_by_abexa.htm)
 
 Variant 4   
 
@@ -115,7 +115,7 @@ Variant 4  
 
 Effect
 
-Specifies the ranking function DENSE\_RANK as a window function. This ranking function assigns each row a rank of the data type INT8 and does not have an argument. It can only be specified together with ORDER BY after [OVER](javascript:call_link\('abapselect_over.htm'\)).
+Specifies the ranking function DENSE\_RANK as a window function. This ranking function assigns each row a rank of the data type INT8 and does not have an argument. It can only be specified together with ORDER BY after [OVER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm).
 
 DENSE\_RANK works in largely the same way as RANK, but counts without any gaps, starting from the first group, and does not determine the rank using the lowest row number of groups of identical values with respect to the sort criterion.
 
@@ -125,20 +125,20 @@ If a window does not contain any multiple rows with respect to the sort criterio
 
 Executable Example
 
-[Window Expressions with Sort](javascript:call_link\('abensql_expr_over_order_by_abexa.htm'\))
+[Window Expressions with Sort](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expr_over_order_by_abexa.htm)
 
 Variant 5   
 
-... NTILE( n ) OVER( *\[*PARTITION BY [sql\_exp1](javascript:call_link\('abapsql_expr.htm'\))*\]*
-               ORDER BY [col](javascript:call_link\('abenabap_sql_columns.htm'\)) *\[*ASCENDING*|*DESCENDING*\]*) ...
+... NTILE( n ) OVER( *\[*PARTITION BY [sql\_exp1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm)*\]*
+               ORDER BY [col](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_columns.htm) *\[*ASCENDING*|*DESCENDING*\]*) ...
 
 Effect
 
 Specifies the ranking function NTILE as a window function. This window function divides the rows of a window into n buckets. The goal is to fill all buckets with the same number of rows by following the rule specified after ORDER BY.
 
-If the number of rows of the window m cannot be distributed equally between the number of buckets n, the remainder r is distributed in such a way that the first (m [MOD](javascript:call_link\('abenarith_operators.htm'\)) n) buckets each contain one element more. The buckets are numbered starting with the start value 1 and the result of the NTILE function is the number of the bucket a particular row belongs to.
+If the number of rows of the window m cannot be distributed equally between the number of buckets n, the remainder r is distributed in such a way that the first (m [MOD](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarith_operators.htm) n) buckets each contain one element more. The buckets are numbered starting with the start value 1 and the result of the NTILE function is the number of the bucket a particular row belongs to.
 
-n must be a [host variable](javascript:call_link\('abenabap_sql_host_variables.htm'\)), a [host expression](javascript:call_link\('abenabap_sql_host_expressions.htm'\)), or a [literal](javascript:call_link\('abenabap_sql_literals.htm'\)) of type b, s,i, or int8 which represents a positive integer. The [OVER](javascript:call_link\('abapselect_over.htm'\))\-clause including ORDER BY is mandatory.
+n must be a [host variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_host_variables.htm), a [host expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_host_expressions.htm), or a [literal](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_literals.htm) of type b, s,i, or int8 which represents a positive integer. The [OVER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm)\-clause including ORDER BY is mandatory.
 
 If n is negative, for literals and host constants, a syntax error occurs. If n is a variable or an expression, instead of a syntax error, a database error and its respective exception CX\_SY\_OPEN\_SQL\_DB can occur. The result of the NTILE function is always of type INT8.
 
@@ -158,7 +158,7 @@ SELECT name,
 
 Executable Example
 
-[Window Function NTILE.](javascript:call_link\('abensql_expr_over_ntile_abexa.htm'\))
+[Window Function NTILE.](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expr_over_ntile_abexa.htm)
 
 Variant 6   
 
@@ -166,28 +166,28 @@ Variant 6  
 
 Effect
 
-Specifies one of the value functions LEAD or LAG as a window function. They can only be specified together with ORDER BY after [OVER](javascript:call_link\('abapselect_over.htm'\)).
+Specifies one of the value functions LEAD or LAG as a window function. They can only be specified together with ORDER BY after [OVER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm).
 
-The result of the functions is the value of the SQL expression [sql\_exp1](javascript:call_link\('abapsql_expr.htm'\)) for the row of the current window defined by the addition diff or the box defined by the addition ORDER BY after [OVER](javascript:call_link\('abapselect_over.htm'\)). For diff, a [literal](javascript:call_link\('abenabap_sql_literals.htm'\)) or a [host constant](javascript:call_link\('abenabap_sql_host_variables.htm'\)) with the ABAP type b, s, i, int8 can be specified, whose value is a positive number other than 0.
+The result of the functions is the value of the SQL expression [sql\_exp1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) for the row of the current window defined by the addition diff or the box defined by the addition ORDER BY after [OVER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm). For diff, a [literal](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_literals.htm) or a [host constant](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_host_variables.htm) with the ABAP type b, s, i, int8 can be specified, whose value is a positive number other than 0.
 
 -   For the function LEAD, diff determines the row positioned in a corresponding distance after the current row.
 -   For the function LAG, diff determines the row positioned in a corresponding distance in front of the current row.
 
-If diff is not specified, the value 1 is used implicitly. In the case of LEAD, this is the row that follows directly and in the case of LAG, the directly preceding row. If the row determined by diff is not in the current window, the result is the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") by default. If the optional SQL expression [sql\_exp2](javascript:call_link\('abapsql_expr.htm'\)) is specified, it is evaluated and returned for the current row in cases where the row does not exist.
+If diff is not specified, the value 1 is used implicitly. In the case of LEAD, this is the row that follows directly and in the case of LAG, the directly preceding row. If the row determined by diff is not in the current window, the result is the [null value](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennull_value_glosry.htm "Glossary Entry") by default. If the optional SQL expression [sql\_exp2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) is specified, it is evaluated and returned for the current row in cases where the row does not exist.
 
 The result of the functions LEAD and LAG has the following data type:
 
--   If [sql\_exp2](javascript:call_link\('abapsql_expr.htm'\)) is not specified, the data type is determined by [sql\_exp1](javascript:call_link\('abapsql_expr.htm'\)).
--   If [sql\_exp2](javascript:call_link\('abapsql_expr.htm'\)) is specified, the results of sql\_exp1 and sql\_exp2 must match in a way that a common result type can be determined: The data types must either be the same or the data type of an expression must represent the value of the other expression. The result has the dictionary type of the expression with the largest value range.
+-   If [sql\_exp2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) is not specified, the data type is determined by [sql\_exp1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm).
+-   If [sql\_exp2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) is specified, the results of sql\_exp1 and sql\_exp2 must match in a way that a common result type can be determined: The data types must either be the same or the data type of an expression must represent the value of the other expression. The result has the dictionary type of the expression with the largest value range.
 
 Hints
 
 -   The window functions LEAD or LAG are suitable for calculations, such as determining the difference between values in the current row and values of the preceding or following rows.
--   If the window functions LEAD or LAG are used, the syntax check is performed in [strict mode from Release 7.54](javascript:call_link\('abenabap_sql_strictmode_754.htm'\)).
+-   If the window functions LEAD or LAG are used, the syntax check is performed in [strict mode from Release 7.54](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_strictmode_754.htm).
 
 Example
 
-SELECT statement with the window functions LEAD and LAG as operands of an [arithmetic expression](javascript:call_link\('abensql_arith.htm'\)). The addition [PARTITION](javascript:call_link\('abapselect_over.htm'\)) is not specified, which means there is only one window with all rows of the result set. Both LEAD and LAG have only one argument each, which means that the difference between the values of the column NUM1 is calculated using the directly following or preceding row, and any nonexistent rows produce null values. The latter are defined using a [null indicator](javascript:call_link\('abennull_indicator_glosry.htm'\) "Glossary Entry"). The program DEMO\_SELECT\_OVER\_LEAD\_LAG\_DIFF uses this SELECT statement and, when executed, the program displays the result.
+SELECT statement with the window functions LEAD and LAG as operands of an [arithmetic expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_arith.htm). The addition [PARTITION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm) is not specified, which means there is only one window with all rows of the result set. Both LEAD and LAG have only one argument each, which means that the difference between the values of the column NUM1 is calculated using the directly following or preceding row, and any nonexistent rows produce null values. The latter are defined using a [null indicator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennull_indicator_glosry.htm "Glossary Entry"). The program DEMO\_SELECT\_OVER\_LEAD\_LAG\_DIFF uses this SELECT statement and, when executed, the program displays the result.
 
 SELECT num1 AS number,
        num1 - LEAD( num1 ) OVER( ORDER BY id ) AS diff\_lead,
@@ -199,11 +199,11 @@ SELECT num1 AS number,
 
 Executable Example
 
-[Window Functions LEAD and LAG](javascript:call_link\('abensql_expr_over_lead_lag_abexa.htm'\))
+[Window Functions LEAD and LAG](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_expr_over_lead_lag_abexa.htm)
 
 Variant 7   
 
-... FIRST\_VALUE*|*LAST\_VALUE( [col](javascript:call_link\('abenabap_sql_columns.htm'\)) )
+... FIRST\_VALUE*|*LAST\_VALUE( [col](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_columns.htm) )
 
 Effect
 
@@ -213,7 +213,7 @@ If the value is null or if the expression is empty, null is returned (see exampl
 
 OVER and ORDER BY are mandatory. PARTITION BY is optional. If a window is divided into partitions, the FIRST\_VALUE/ LAST\_VALUE function returns a result for each partition (see example). If there is no PARTITON BY clause, the functions work on the entire window.
 
-With the LAST\_VALUE function, framing is an important aspect to consider. The default frame is [ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW](javascript:call_link\('abapselect_over.htm'\)), so the LAST\_VALUE function always returns the value from the current row. To find the last value for a partition or a window, the correct frame has to be specified explicitly: [ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING](javascript:call_link\('abapselect_over.htm'\)).
+With the LAST\_VALUE function, framing is an important aspect to consider. The default frame is [ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm), so the LAST\_VALUE function always returns the value from the current row. To find the last value for a partition or a window, the correct frame has to be specified explicitly: [ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_over.htm).
 
 Example
 

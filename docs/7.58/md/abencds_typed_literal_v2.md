@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](javascript:call_link\('abencds_operands_and_expr_v2.htm'\)) →  [CDS DDL - CDS View Entity, Elementary CDS Operands](javascript:call_link\('abencds_operands_v2.htm'\)) →  [CDS DDL - CDS View Entity, literal](javascript:call_link\('abencds_literal_v2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_select_statement_v2.htm) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_operands_and_expr_v2.htm) →  [CDS DDL - CDS View Entity, Elementary CDS Operands](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_operands_v2.htm) →  [CDS DDL - CDS View Entity, literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_literal_v2.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20CDS%20View%20Entity%2C%20Typed%20Literals%2C%20ABENCDS_TYPED_LITERAL_V2%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20
 improvement:)
@@ -13,24 +13,27 @@ CDS DDL - CDS View Entity, Typed Literals
 
 Syntax
 
-... [dtype](javascript:call_link\('abencds_typing.htm'\))'...'
+... [dtype](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_typing.htm)'...'
 
 Effect
 
-[Typed literal](javascript:call_link\('abentyped_literal_glosry.htm'\) "Glossary Entry") in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\)) of a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"). Typed literals can be created for all [built-in ABAP Dictionary types](javascript:call_link\('abenddic_builtin_types.htm'\)) with the exception of LCHR, LRAW, GEOM\_EWKB, PREC, ACCP, DF16\_SCL, DF34\_SCL, and VARC. A typed literal can be used in all operand positions where this is documented.
+[Typed literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyped_literal_glosry.htm "Glossary Entry") in a [SELECT statement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_select_statement_v2.htm) of a [CDS view entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_view_glosry.htm "Glossary Entry"). Typed literals can be created for all [built-in ABAP Dictionary types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) with the exception of LCHR, LRAW, GEOM\_EWKB, PREC, ACCP, DF16\_SCL, DF34\_SCL, and VARC. A typed literal can be used in all operand positions where this is documented.
 
-[dtype](javascript:call_link\('abencds_typing.htm'\)) is the name of a [built-in dictionary type](javascript:call_link\('abencds_typing.htm'\)) with the type namespace abap. and it is followed by the character-like representation of the value in single quotes ('). Only those values can be specified that are accepted by the data type of the literal. Length and decimal places are derived from the literal value, they must not be explicitly specified.
+[dtype](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_typing.htm) is the name of a [built-in dictionary type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_typing.htm) with the type namespace abap. and it is followed by the character-like representation of the value in single quotes ('). Only those values can be specified that are accepted by the data type of the literal. Length and decimal places are derived from the literal value, they must not be explicitly specified.
 
 Hints
 
 -   Typed literals should be used instead of untyped literals. They offer many advantages, such as more flexibility with regard to the data type they can have, explicit type declaration, and checking type compatibility of the value specified.
--   Currently, typed literals are available in CDS view entities and in CDS hierarchies in all operand positions where untyped literals are possible with one exception: typed literals are not supported in the [ON condition of a CDS association](javascript:call_link\('abencds_simple_association_v2.htm'\)).
+-   Currently, typed literals are available in CDS view entities and in CDS hierarchies in all operand positions where untyped literals are possible with one exception: typed literals are not supported in the [ON condition of a CDS association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_association_v2.htm).
 
 Typed literals can be divided into the following categories:
 
--   [Typed Numeric Literals](#abencds-typed-literal-v2-1-------typed-character-literals---@ITOC@@ABENCDS_TYPED_LITERAL_V2_2)
--   [Typed Byte Literals](#abencds-typed-literal-v2-3-------typed-literals-for-character-like-types-with-special-semantics---@ITOC@@ABENCDS_TYPED_LITERAL_V2_4)
--   [Typed Date and Time Literals](#abencds-typed-literal-v2-5-------typed-currency-and-quantity-literals---@ITOC@@ABENCDS_TYPED_LITERAL_V2_6)
+-   [Typed Numeric Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_1)
+-   [Typed Character Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_2)
+-   [Typed Byte Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_3)
+-   [Typed Literals for Character-Like Types with Special Semantics](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_4)
+-   [Typed Date and Time Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_5)
+-   [Typed Currency and Quantity Literals](#@@ITOC@@ABENCDS_TYPED_LITERAL_V2_6)
 
 Typed Numeric Literals   
 
@@ -47,13 +50,13 @@ abap.int2'...'
 abap.int4'...'
 abap.int8'...'
 
-[Integer literal](javascript:call_link\('abeninteger_literal_glosry.htm'\) "Glossary Entry")
+[Integer literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninteger_literal_glosry.htm "Glossary Entry")
 
-Uninterrupted string of digits, with an optional sign + or - as a prefix. At least one digit must be specified. The value of the number must be in the value range of the respective [dictionary type](javascript:call_link\('abenddic_builtin_types.htm'\)). An empty literal '' is not allowed.
+Uninterrupted string of digits, with an optional sign + or - as a prefix. At least one digit must be specified. The value of the number must be in the value range of the respective [dictionary type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm). An empty literal '' is not allowed.
 
 abap.dec'...'
 
-[Packed number literal](javascript:call_link\('abenpacked_number_literal_glosry.htm'\) "Glossary Entry")
+[Packed number literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpacked_number_literal_glosry.htm "Glossary Entry")
 
 String of digits with a maximum of one decimal point (.). This point can be located in front of, between, or after the digits. The string can be prefixed with an optional sign + or -. At least one and no more than 31 digits can be specified. The maximum number of decimal places is 14. The length used in the memory and the number of decimal places are determined by the number of digits specified. An empty literal '' is not allowed.
 
@@ -62,21 +65,21 @@ abap.decfloat16'...'
 abap.decfloat34'...'
 *|* abap.d34n'...'
 
-[Decimal floating point literal](javascript:call_link\('abendecfloat_literal_glosry.htm'\) "Glossary Entry")
+[Decimal floating point literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_literal_glosry.htm "Glossary Entry")
 
-Mantissa followed by an optional exponent. The mantissa is a string of digits with a maximum of one decimal point (.). This point can be located in front of, between, or after the digits. The string can be prefixed with an optional sign + or -. Length restrictions, typing conventions, and scaling rules of the respective [dictionary type](javascript:call_link\('abenddic_builtin_types.htm'\)) apply. An empty literal '' is not allowed.
+Mantissa followed by an optional exponent. The mantissa is a string of digits with a maximum of one decimal point (.). This point can be located in front of, between, or after the digits. The string can be prefixed with an optional sign + or -. Length restrictions, typing conventions, and scaling rules of the respective [dictionary type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) apply. An empty literal '' is not allowed.
 
 abap.fltp'...'
 
-[Binary floating point literal](javascript:call_link\('abenbinfloat_literal_glosry.htm'\) "Glossary Entry")
+[Binary floating point literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbinfloat_literal_glosry.htm "Glossary Entry")
 
 Mantissa followed by an optional exponent. The mantissa is a string of digits with a maximum of one decimal point (.). This point can be located in front of, between, or after the digits. The string can be prefixed with an optional sign + or -. The maximum number of valid places is 16. An empty literal '' is not allowed.
 
 Hints
 
--   A zero with a sign + is not allowed for [integer literals](javascript:call_link\('abeninteger_literal_glosry.htm'\) "Glossary Entry") and [packed number literals](javascript:call_link\('abendecfloat_literal_glosry.htm'\) "Glossary Entry"). For example, abap.int4'+0' is not allowed. This rule is verified by the syntax check. A zero with a sign - is allowed though.
--   For all [decimal floating point literals](javascript:call_link\('abendecfloat_literal_glosry.htm'\) "Glossary Entry"), there are alternative notations for the data type. This is indicated in the table above by the *|* sign.
--   A literal prefixed with a sign is never interpreted as an [arithmetic expression](javascript:call_link\('abencds_arithmetic_expression_v2.htm'\)).
+-   A zero with a sign + is not allowed for [integer literals](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninteger_literal_glosry.htm "Glossary Entry") and [packed number literals](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_literal_glosry.htm "Glossary Entry"). For example, abap.int4'+0' is not allowed. This rule is verified by the syntax check. A zero with a sign - is allowed though.
+-   For all [decimal floating point literals](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_literal_glosry.htm "Glossary Entry"), there are alternative notations for the data type. This is indicated in the table above by the *|* sign.
+-   A literal prefixed with a sign is never interpreted as an [arithmetic expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_arithmetic_expression_v2.htm).
 
 Example
 
@@ -106,14 +109,14 @@ Possible Characters
 
 abap.char'...'
 
-[Text field literal](javascript:call_link\('abentext_field_literal_glosry.htm'\) "Glossary Entry")
+[Text field literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_field_literal_glosry.htm "Glossary Entry")
 
 String of any characters. The length of a text field literal must lie between 1 and 255 characters. An empty text field literal abap.char'' is allowed and denotes the initial value of one blank. Trailing blanks are removed but the type length includes the trimmed trailing blanks.
 
 abap.string'...'
 abap.sstring'...'
 
-[Text string literal](javascript:call_link\('abentext_string_literal_glosry.htm'\) "Glossary Entry")
+[Text string literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_string_literal_glosry.htm "Glossary Entry")
 
 String of any characters. A typed text string literal can have a maximum of 255 characters. A typed text string literal can be empty and the typed text string literal abap.string'' represents an empty string with length 0.
 For data type abap.sstring, trailing blanks are removed but the type length includes the trimmed trailing blanks.
@@ -151,14 +154,14 @@ Possible Characters
 
 abap.raw'...'
 
-[Byte field literal](javascript:call_link\('abenbyte_field_literal_glosry.htm'\) "Glossary Entry")
+[Byte field literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbyte_field_literal_glosry.htm "Glossary Entry")
 
 String including the characters 0-9 and A-F. No other characters are allowed. The number of characters must be even. At least two characters must be specified. An empty literal abap.raw'' is not allowed.
 
 abap.rawstring'...'
 *|* abap.rstr''
 
-[Byte string literal](javascript:call_link\('abenbyte_string_literal_glosry.htm'\) "Glossary Entry")
+[Byte string literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbyte_string_literal_glosry.htm "Glossary Entry")
 
 String including the characters 0-9 and A-F. No other characters are allowed. The number of characters must be even. The empty byte string literal abap.rawstring'' represents an empty byte string.
 
@@ -192,19 +195,19 @@ Possible Characters
 
 abap.numc'...'
 
-[Numeric text literal](javascript:call_link\('abennumeric_text_literal_glosry.htm'\) "Glossary Entry")
+[Numeric text literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumeric_text_literal_glosry.htm "Glossary Entry")
 
 Character string consisting of the digits 0 to 9. The length of a numeric text literal must lie between 1 and 255 characters. Empty numeric text literals abap.numc'' or blanks within numeric text literals are not allowed. Negative values are not allowed.
 
 abap.clnt'...'
 
-[Client literal](javascript:call_link\('abenclient_literal_glosry.htm'\) "Glossary Entry")
+[Client literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclient_literal_glosry.htm "Glossary Entry")
 
 String of any characters with a length of exactly 3 characters. Blanks are not allowed. An empty literal abap.clnt'' is not allowed.
 
 abap.lang'...'
 
-[Language key literal](javascript:call_link\('abenlang_key_literal_glosry.htm'\) "Glossary Entry")
+[Language key literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlang_key_literal_glosry.htm "Glossary Entry")
 
 A language key literal can contain any character and it consists of exactly one character. An empty literal abap.lang'' is not allowed. A blank space is allowed.
 
@@ -234,27 +237,27 @@ Possible Characters
 abap.dats'..'
 abap.datn'...'
 
-[Date literal](javascript:call_link\('abendate_literal_glosry.htm'\) "Glossary Entry")
+[Date literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendate_literal_glosry.htm "Glossary Entry")
 
 Character string that represents a date in the format YYYYMMDD. Must contain a valid date according to the rules for valid dates described for time stamp literals below. An empty literal '' is not allowed.
 
 abap.tims'...'
 abap.timn'...'
 
-[Time literal](javascript:call_link\('abentime_literal_glosry.htm'\) "Glossary Entry")
+[Time literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentime_literal_glosry.htm "Glossary Entry")
 
 Character string that represents a time in the format HHMMSS. Must contain a valid time according to the rules for valid times described for time stamp literals below. An empty literal '' is not allowed.
 
 abap.utclong'...'
 *|* abap.utcl'...'
 
-[Time stamp literal](javascript:call_link\('abentime_stamp_literal_glosry.htm'\) "Glossary Entry")
+[Time stamp literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentime_stamp_literal_glosry.htm "Glossary Entry")
 
-Character string that represents a [time stamp](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") in the format YYYY-MM-DD HH:MM:SS,SSSSSSS, precise to 100 nanoseconds. YYYY-MM-DD consists of eight digits separated by hyphens. They must represent dates that are valid in accordance with the calendar rules: YYYY (year): 0001 to 9999, mm (month): 01 to 12, DD (day): 01 to 31. 1582-10-05 to 1582-10-14 are skipped due to the conversion from the Julian to the Gregorian calendar. HH:MM:SS,SSSSSSS consists of digits separated by colons and a full stop. They must represent a time in a 24-hour range in the format HHMMSS: 00 to 23 for HH (hours) and 00 to 59 for MM (minutes) and 00 to 59 for SS.SSSSSSS (seconds with exactly seven decimal places). No other characters are allowed. An empty literal '' is not allowed.
+Character string that represents a [time stamp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentime_stamp_glosry.htm "Glossary Entry") in the format YYYY-MM-DD HH:MM:SS,SSSSSSS, precise to 100 nanoseconds. YYYY-MM-DD consists of eight digits separated by hyphens. They must represent dates that are valid in accordance with the calendar rules: YYYY (year): 0001 to 9999, mm (month): 01 to 12, DD (day): 01 to 31. 1582-10-05 to 1582-10-14 are skipped due to the conversion from the Julian to the Gregorian calendar. HH:MM:SS,SSSSSSS consists of digits separated by colons and a full stop. They must represent a time in a 24-hour range in the format HHMMSS: 00 to 23 for HH (hours) and 00 to 59 for MM (minutes) and 00 to 59 for SS.SSSSSSS (seconds with exactly seven decimal places). No other characters are allowed. An empty literal '' is not allowed.
 
 Hint
 
-60 cannot be specified in a time, either as minutes or as seconds. In particular, this means that [leap seconds](javascript:call_link\('abenleap_second_glosry.htm'\) "Glossary Entry") cannot be specified.
+60 cannot be specified in a time, either as minutes or as seconds. In particular, this means that [leap seconds](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenleap_second_glosry.htm "Glossary Entry") cannot be specified.
 
 Example
 
@@ -288,25 +291,25 @@ Possible Characters
 
 abap.curr'...'
 
-[Currency field literal](javascript:call_link\('abencurrency_literal_glosry.htm'\) "Glossary Entry")
+[Currency field literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencurrency_literal_glosry.htm "Glossary Entry")
 
 Uninterrupted string of digits with an optional sign + or - as a prefix. Cannot contain more than one decimal point (.). At least one and no more than 31 digits can be specified. Exactly two decimal places must be specified.
 
 abap.cuky'...'
 
-[Currency key literal](javascript:call_link\('abencurrency_key_literal_glosry.htm'\) "Glossary Entry")
+[Currency key literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencurrency_key_literal_glosry.htm "Glossary Entry")
 
 String of any characters with a maximum of 5 characters. An empty literal abap.cuky'' is allowed and denotes five blanks.
 
 abap.quan'...'
 
-[Quantity field literal](javascript:call_link\('abenquantity_field_literal_glosry.htm'\) "Glossary Entry")
+[Quantity field literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenquantity_field_literal_glosry.htm "Glossary Entry")
 
 Uninterrupted string of digits with an optional sign + or - as a prefix. Cannot contain more than one decimal point (.). At least one and no more than 31 digits can be specified. The maximum number of decimal places is 14.
 
 abap.unit'...'
 
-[Unit key literal](javascript:call_link\('abenunit_key_literal_glosry.htm'\) "Glossary Entry")
+[Unit key literal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunit_key_literal_glosry.htm "Glossary Entry")
 
 String of any characters with a maximum of 3 characters. An empty literal '' is allowed and denotes two blanks.
 

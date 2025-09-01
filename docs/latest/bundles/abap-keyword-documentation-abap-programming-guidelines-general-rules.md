@@ -3,28 +3,7 @@
 Included pages: 4
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abengeneral_rules_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_rules_gdl.htm)
-- [abenseparation_concerns_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenseparation_concerns_guidl.htm)
-- [abenkiss_principle_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenkiss_principle_guidl.htm)
-- [abencorrectness_quality_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorrectness_quality_guidl.htm)
-
-**Bundle Contains**: 4 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.888Z
-
----
-
 ### abengeneral_rules_gdl.htm
-
-> **📖 Official SAP Documentation**: [abengeneral_rules_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_rules_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -32,7 +11,7 @@ Included pages: 4
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20General%20Rules%2C%20ABENGENERAL_RULES_GDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -40,24 +19,17 @@ General Rules
 
 The following rules do not apply specifically to ABAP, even if they are demonstrated here in the context of ABAP programming, but apply equally well to all types of business application programming. Many of the rules described in this section are either derived from the general rules or support these rules.
 
--   [Separation of Concerns](javascript:call_link\('abenseparation_concerns_guidl.htm'\) "Guideline")
--   [KISS Principle](javascript:call_link\('abenkiss_principle_guidl.htm'\) "Guideline")
--   [Correctness and Quality](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline")
+-   [Separation of Concerns](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenseparation_concerns_guidl.htm "Guideline")
+-   [KISS Principle](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenkiss_principle_guidl.htm "Guideline")
+-   [Correctness and Quality](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorrectness_quality_guidl.htm "Guideline")
 
 Continue
-[Separation of Concerns](javascript:call_link\('abenseparation_concerns_guidl.htm'\))
-[KISS Principle](javascript:call_link\('abenkiss_principle_guidl.htm'\))
-[Correctness and Quality](javascript:call_link\('abencorrectness_quality_guidl.htm'\))
+[Separation of Concerns](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenseparation_concerns_guidl.htm)
+[KISS Principle](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenkiss_principle_guidl.htm)
+[Correctness and Quality](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorrectness_quality_guidl.htm)
 
-
-
-**📖 Source**: [abengeneral_rules_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_rules_gdl.htm)
 
 ### abenseparation_concerns_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenseparation_concerns_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenseparation_concerns_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -65,7 +37,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [General Rules](javascript:call_link\('abengeneral_rules_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [General Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_rules_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Separation%20of%20Concerns%2C%20ABENSEPARATION_CONCERNS_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -98,7 +70,7 @@ The SoC principle identifies the parts of an application with a specific purpose
 -   easier to maintain
 -   easier to test
 
-Regarding the last point, it would even be true to say that following the SoC principle is a prerequisite for executing isolated, automated [unit tests](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline").
+Regarding the last point, it would even be true to say that following the SoC principle is a prerequisite for executing isolated, automated [unit tests](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorrectness_quality_guidl.htm "Guideline").
 
 Bad Example
 
@@ -317,19 +289,12 @@ ENDCLASS.
 START-OF-SELECTION.
 report=>main( ).
 
-At first glance, the above source code appears to be very excessive compared to the first source code. But only on the first glance. A real application program usually only consists of 25 lines. The larger and more realistic the application program, the smaller the proportion of the overhead that is incurred by wrapping the concerns in classes. If the reuse options for [ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") are used appropriately, it is even possible to reduce the amount of source code.
+At first glance, the above source code appears to be very excessive compared to the first source code. But only on the first glance. A real application program usually only consists of 25 lines. The larger and more realistic the application program, the smaller the proportion of the overhead that is incurred by wrapping the concerns in classes. If the reuse options for [ABAP Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") are used appropriately, it is even possible to reduce the amount of source code.
 
 In addition, the individual steps are now wrapped in classes, in other words, real program units (unlike in the second source code). In practice, wrapping is not performed in one single program, but in global classes that are assigned to different packages, depending on the layer. These packages are connected to each other using package interfaces. It is only by using these interfaces that you can achieve the other benefits of separating the concerns (in addition to the testing capability achieved in the second source code).
 
 
-
-**📖 Source**: [abenseparation_concerns_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenseparation_concerns_guidl.htm)
-
 ### abenkiss_principle_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenkiss_principle_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenkiss_principle_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -337,7 +302,7 @@ In addition, the individual steps are now wrapped in classes, in other words, re
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [General Rules](javascript:call_link\('abengeneral_rules_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [General Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_rules_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20KISS%20Principle%2C%20ABENKISS_PRINCIPLE_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -372,34 +337,24 @@ There are plenty of bad examples of the KISS principle. Why is this?
 -   Programs are too complex right from the start. This can be due to poor design or simply a rash, undisciplined programming style.
 -   Programs are maintained for lengthy periods. Instead of creating new implementations for old and new functions together, new functions are simply added (usually using IF control structures) to old functions. Programs that were initially simple thus become ever more complex, although this is not justified by the complexity of the task at hand.
 
-To develop according to the KISS principle, you should ensure right from the start that the complexity of the program remains manageable. Rules that support this approach relate to the [structure and style](javascript:call_link\('abenstructure_style_gdl.htm'\)) of programs, in particular [comments](javascript:call_link\('abencomments_gdl.htm'\)) and [complexity](javascript:call_link\('abencomplexity_gdl.htm'\)).
+To develop according to the KISS principle, you should ensure right from the start that the complexity of the program remains manageable. Rules that support this approach relate to the [structure and style](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_style_gdl.htm) of programs, in particular [comments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomments_gdl.htm) and [complexity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomplexity_gdl.htm).
 
 Hint
 
 If existing programs do not follow the KISS principle, and these programs need to be further developed, we recommend refactoring as appropriate. Refactoring refers to the process of manually or automatically improving the structure of programs while retaining the observable program behavior. It improves legibility, understandability, maintainability, and extensibility, as well as considerably reducing the related effort for troubleshooting and functional enhancements (see Wikipedia entry on refactoring). The (incremental) refactoring of an existing program is not only useful for following the above rule, but also for all following rules.
 
-The refactoring of existing code is supported by the required coverage by [unit tests](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline"). Comprehensive unit tests can ensure that a program behaves in the same way after the refactoring process.
+The refactoring of existing code is supported by the required coverage by [unit tests](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorrectness_quality_guidl.htm "Guideline"). Comprehensive unit tests can ensure that a program behaves in the same way after the refactoring process.
 
 Example
 
-The figure below shows the structure of a method that does not follow the KISS principle. The method consists of approximately 160 statements and reaches a [nesting depth](javascript:call_link\('abennesting_depth_guidl.htm'\) "Guideline") of 12 levels. The method, which is only illustrated schematically, is a real example from a live ABAP program, which reached the state shown on the left after continuous additional developments. The method had become so complex that it was practically impossible to make another necessary change, and the developer was forced to refactor in line with the KISS principle.
+The figure below shows the structure of a method that does not follow the KISS principle. The method consists of approximately 160 statements and reaches a [nesting depth](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennesting_depth_guidl.htm "Guideline") of 12 levels. The method, which is only illustrated schematically, is a real example from a live ABAP program, which reached the state shown on the left after continuous additional developments. The method had become so complex that it was practically impossible to make another necessary change, and the developer was forced to refactor in line with the KISS principle.
 
 ![Figure](abdoc_kiss.jpg)
 
-The result is illustrated on the right of the figure. By splitting the method M into three methods, each with less than 100 statements and a maximum nesting depth of 5 levels, manageable modularization units were created, which follow the rules for [complexity](javascript:call_link\('abencomplexity_gdl.htm'\)), and allow the required modification to be made. Ideally, however, the state shown on the left side of the figure should never occur.
+The result is illustrated on the right of the figure. By splitting the method M into three methods, each with less than 100 statements and a maximum nesting depth of 5 levels, manageable modularization units were created, which follow the rules for [complexity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomplexity_gdl.htm), and allow the required modification to be made. Ideally, however, the state shown on the left side of the figure should never occur.
 
-
-
-**📖 Source**: [abenkiss_principle_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenkiss_principle_guidl.htm)
 
 ### abencorrectness_quality_guidl.htm
-
-> **📖 Official SAP Documentation**: [abencorrectness_quality_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorrectness_quality_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencorrectness_quality_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorrectness_quality_guidl.htm)
-
 
   
 
@@ -407,7 +362,7 @@ The result is illustrated on the right of the figure. By splitting the method M 
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [General Rules](javascript:call_link\('abengeneral_rules_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [General Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_rules_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Correctness%20and%20Quality%2C%20ABENCORRECTNESS_QUALITY_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -468,18 +423,18 @@ Details  
 
 It is obvious that you must comply with product standards; this needs no further explanation. However, it is often forgotten that the static and dynamic analysis tools that are available in the ABAP development environments can provide invaluable help for compliance with important product standards, particularly standards for functional correctness and performance. Therefore, as part of this basic rule we recommend that you use all available tools that help to ensure the correctness and quality of ABAP programs.
 
--   Perform the [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline") (transaction SLIN) on a regular basis and correct all messages.
--   Use the [Code Inspector](javascript:call_link\('abencode_inspector_guidl.htm'\) "Guideline") tool (transaction SCI) on a regular basis using the standard check variant, and correct all messages.
--   Check the usability and accessibility of your interface elements by using the appropriate tools (integrated into the workbench tools and [ABAP Test Cockpit](javascript:call_link\('abenabap-testcockpit_guidl.htm'\) "Guideline")).
+-   Perform the [extended program check](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextended_program_check_guidl.htm "Guideline") (transaction SLIN) on a regular basis and correct all messages.
+-   Use the [Code Inspector](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencode_inspector_guidl.htm "Guideline") tool (transaction SCI) on a regular basis using the standard check variant, and correct all messages.
+-   Check the usability and accessibility of your interface elements by using the appropriate tools (integrated into the workbench tools and [ABAP Test Cockpit](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap-testcockpit_guidl.htm "Guideline")).
 -   Cover all functions of your procedural units by using units tests with ABAP Unit (integrated into ABAP Workbench, Code Inspector, and ABAP Test Cockpit).
 -   Cover all functions of your applications by using scenario tests with eCATT (transaction SECATT).
 -   Check the memory consumption of your programs by using ABAP Memory Inspector (transaction S\_MEMORY\_INSPECTOR and the memory analysis function integrated into ABAP Debugger).
--   Check the runtime behavior and the performance. In SAP GUI use the ABAP runtime analysis (transaction SAT) and in the [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") use the ABAP Profiler.
+-   Check the runtime behavior and the performance. In SAP GUI use the ABAP runtime analysis (transaction SAT) and in the [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm "Glossary Entry") use the ABAP Profiler.
 -   Check the test coverage by using Coverage Analyzer (transaction SCOV and integrated into ABAP Unit Browser of ABAP Workbench).
--   Follow the [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) to protect your programs and data from attacks from outside.
--   Document your programs and services using all available means: Starting with [comments](javascript:call_link\('abencomments_gdl.htm'\)), this ranges from simple data element documentation for context-sensitive input help, to class and method documentation for documenting APIs, to explanations of concepts and tutorials in other repositories such as SAP Knowledge Warehouse, or on the Internet, for example in the SAP Community (https://community.sap.com/).
+-   Follow the [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_security.htm) to protect your programs and data from attacks from outside.
+-   Document your programs and services using all available means: Starting with [comments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomments_gdl.htm), this ranges from simple data element documentation for context-sensitive input help, to class and method documentation for documenting APIs, to explanations of concepts and tutorials in other repositories such as SAP Knowledge Warehouse, or on the Internet, for example in the SAP Community (https://community.sap.com/).
 
-[ABAP Test Cockpit](javascript:call_link\('abencts_glosry.htm'\) "Glossary Entry") (ATC) integrated into ABAP Workbench and the [Change and Transport System (CTS)](javascript:call_link\('abencts_glosry.htm'\) "Glossary Entry") supports the execution and evaluation of the most important tests. Some of these tests also check compliance with some of the rules of the ABAP programming guidelines discussed later.
+[ABAP Test Cockpit](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencts_glosry.htm "Glossary Entry") (ATC) integrated into ABAP Workbench and the [Change and Transport System (CTS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencts_glosry.htm "Glossary Entry") supports the execution and evaluation of the most important tests. Some of these tests also check compliance with some of the rules of the ABAP programming guidelines discussed later.
 
 Hint
 
@@ -487,4 +442,4 @@ Where in doubt, product standards take precedence over the guidelines and recomm
 
 Good Example
 
-Executing unit tests for classes of the package SABAP\_DEMOS\_CAR\_RENTAL\_APPL and displaying the results in ABAP Unit Browser of Object Navigator gives a test coverage of 100%. This package is shipped as a subpackage for the application part of a small example application, which, in addition to unit tests, also demonstrates strict adherence to the [separation of concerns](javascript:call_link\('abenseparation_concerns_guidl.htm'\) "Guideline").
+Executing unit tests for classes of the package SABAP\_DEMOS\_CAR\_RENTAL\_APPL and displaying the results in ABAP Unit Browser of Object Navigator gives a test coverage of 100%. This package is shipped as a subpackage for the application part of a small example application, which, in addition to unit tests, also demonstrates strict adherence to the [separation of concerns](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenseparation_concerns_guidl.htm "Guideline").

@@ -4,15 +4,15 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Behavior Pools (ABP)](javascript:call_link\('abenabap_behavior_pools.htm'\)) →  [ABP - Saver Class](javascript:call_link\('abenabp_saver_class.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Behavior Pools (ABP)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm) →  [ABP - Saver Class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_saver_class.htm) → 
 
 CLEANUP method
 
 \* Work in progress \*
 
-The cleanup method is called when an error has occurred during the execution of the methods [finalize](javascript:call_link\('abensaver_finalize.htm'\)) and [check\_before\_save](javascript:call_link\('abensaver_check_before_save.htm'\)). During the cleanup process, all calculations and data modifications are discarded and the transactional buffer is deleted.
+The cleanup method is called when an error has occurred during the execution of the methods [finalize](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_finalize.htm) and [check\_before\_save](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_check_before_save.htm). During the cleanup process, all calculations and data modifications are discarded and the transactional buffer is deleted.
 
-The cleanup method is also called at the end of a successful saver sequence to delete the transactional buffer. Since the same ABAP session is likely to be used for more than one [LUW](javascript:call_link\('abenluw_glosry.htm'\) "Glossary Entry"), remaining changes in the transactional buffer can lead to inconsistencies.
+The cleanup method is also called at the end of a successful saver sequence to delete the transactional buffer. Since the same ABAP session is likely to be used for more than one [LUW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenluw_glosry.htm "Glossary Entry"), remaining changes in the transactional buffer can lead to inconsistencies.
 
 The cleanup method does not have any parameters and does not return errors or messages.
 

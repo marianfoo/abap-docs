@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Assigning Reference Variables](javascript:call_link\('abenset_references.htm'\)) →  [Assignment Rules for Reference Variables](javascript:call_link\('abenconversion_references.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_assignments.htm) →  [Assigning Reference Variables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenset_references.htm) →  [Assignment Rules for Reference Variables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_references.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Assignments%20Between%20Object%20Reference%20Variables%2C%20ABENCONVERSION_REFERENCES_OBJECTS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20
 for%20improvement:)
@@ -13,11 +13,12 @@ Assignments Between Object Reference Variables
 
 Object reference variables are either class references or interface reference variables.
 
--   [Upcast in Object References](#abenconversion-references-objects-1-------downcast-in-object-references---@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_2)
+-   [Upcast in Object References](#@@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_1)
+-   [Downcast in Object References](#@@ITOC@@ABENCONVERSION_REFERENCES_OBJECTS_2)
 
 Upcast in Object References   
 
-An [upcast](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") in object references is possible in the following cases:
+An [upcast](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenup_cast_glosry.htm "Glossary Entry") in object references is possible in the following cases:
 
 -   If both static types are classes, the class of the target variable must be the same class or a superclass of the source variable.
 -   If both static types are interfaces, the interface of the target variable must be the same interface or a component interface of the source variable.
@@ -51,7 +52,7 @@ For all cases not specified under the upcast, assignments can only be programmed
 
 Example
 
-Declaration of interfaces and classes, creation of an object in the subclass, and access to the components of the object. In the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)), an upcast occurs implicitly from c2 to iref. The interface reference iref can only be used to access the components declared in the interface i2. Method m1 of the object cannot be called using iref. Once the object reference has been assigned to the class reference cref using a downcast, m1 can be accessed dynamically but not statically.
+Declaration of interfaces and classes, creation of an object in the subclass, and access to the components of the object. In the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object.htm), an upcast occurs implicitly from c2 to iref. The interface reference iref can only be used to access the components declared in the interface i2. Method m1 of the object cannot be called using iref. Once the object reference has been assigned to the class reference cref using a downcast, m1 can be accessed dynamically but not statically.
 
 INTERFACE i1.
   DATA a1 TYPE string.

@@ -34,7 +34,7 @@ SYSTEM-CALL CHECK f1 FOR SEQUENCE OF C FUNCTION f2 PARAMETER f3.
 
 Effect
 
-Enter this system call in the first line of the function. The system checks that f1 is of type c or string. If not, the system returns the [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") FUNC\_PARM\_IS\_NOT\_SEQUENCE\_OF\_C using the character fields f2 and f3.
+Enter this system call in the first line of the function. The system checks that f1 is of type c or string. If not, the system returns the [short dump](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshort_dump_glosry.htm "Glossary Entry") FUNC\_PARM\_IS\_NOT\_SEQUENCE\_OF\_C using the character fields f2 and f3.
 
 Variant 3   
 

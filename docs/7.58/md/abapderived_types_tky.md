@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Components Related to Keys and RAP BO Instance Identification](javascript:call_link\('abapderived_types_keys_id.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [BDEF Derived Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_comp.htm) →  [Components Related to Keys and RAP BO Instance Identification](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_keys_id.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20%25tky%2C%20ABAPDERIVED_TYPES_TKY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,13 +12,13 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 Use
 
-%tky is a [component group](javascript:call_link\('abencomponent_group_glosry.htm'\) "Glossary Entry") in [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") and specifies the transactional key. A [RAP BO instance](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") must always be uniquely identifiable by its transactional key for internal processing during the [RAP interaction phase](javascript:call_link\('abenrap_int_phase_glosry.htm'\) "Glossary Entry").
+%tky is a [component group](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomponent_group_glosry.htm "Glossary Entry") in [BDEF derived types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") and specifies the transactional key. A [RAP BO instance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") must always be uniquely identifiable by its transactional key for internal processing during the [RAP interaction phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_int_phase_glosry.htm "Glossary Entry").
 
-%tky contains [%key](javascript:call_link\('abapderived_types_key.htm'\)) and the draft indicator [%is\_draft](javascript:call_link\('abapderived_types_is_draft.htm'\)) as components which makes it particularly suitable for [draft](javascript:call_link\('abenbdl_with_draft.htm'\)) scenarios. Since %tky includes %key, %tky can also be used in non-draft scenarios for referring to the primary keys. Its use in non-draft scenarios is even recommended as a preparation for a possible later switch to a draft scenario. In doing so, lots of adaptations to the code regarding the keys and the inclusion of [%is\_draft](javascript:call_link\('abapderived_types_is_draft.htm'\)) can be avoided.
+%tky contains [%key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_key.htm) and the draft indicator [%is\_draft](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_is_draft.htm) as components which makes it particularly suitable for [draft](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_with_draft.htm) scenarios. Since %tky includes %key, %tky can also be used in non-draft scenarios for referring to the primary keys. Its use in non-draft scenarios is even recommended as a preparation for a possible later switch to a draft scenario. In doing so, lots of adaptations to the code regarding the keys and the inclusion of [%is\_draft](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_is_draft.htm) can be avoided.
 
 Assignment of Key Component Groups
 
-As a general best practice, you should use a [RAP BO instance key component group](javascript:call_link\('abenkey_comp_group_glosry.htm'\) "Glossary Entry") when referring to the entire key, rather than listing the individual key fields. It is recommended that you use %tky whenever possible.
+As a general best practice, you should use a [RAP BO instance key component group](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkey_comp_group_glosry.htm "Glossary Entry") when referring to the entire key, rather than listing the individual key fields. It is recommended that you use %tky whenever possible.
 
 In the following cases, type compatibility cannot be guaranteed in component group assignments, resulting in syntax warnings:
 
@@ -40,17 +40,17 @@ APPEND VALUE #( %tky = wa-%tky
 
 Further Information
 
-[Using Keys and Identifying RAP BO Instances in a Nutshell](javascript:call_link\('abapderived_types_keys_identifiers.htm'\))
+[Using Keys and Identifying RAP BO Instances in a Nutshell](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_keys_identifiers.htm)
 
 Where used
 
-This component can occur in the following type declarations of [TYPE TABLE FOR ...](javascript:call_link\('abaptype_table_for.htm'\)) and [TYPE STRUCTURE FOR ...](javascript:call_link\('abaptype_structure_for.htm'\)):
+This component can occur in the following type declarations of [TYPE TABLE FOR ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype_table_for.htm) and [TYPE STRUCTURE FOR ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype_structure_for.htm):
 
--   Wherever %key can be specified within ABAP EML statements during the [RAP interaction phase](javascript:call_link\('abenrap_int_phase_glosry.htm'\) "Glossary Entry") except for RAP create operations, %tky can be specified, too.
+-   Wherever %key can be specified within ABAP EML statements during the [RAP interaction phase](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_int_phase_glosry.htm "Glossary Entry") except for RAP create operations, %tky can be specified, too.
 
 Hint
 
-As outlined in the topic [Using Keys and Identifying RAP BO Instances in a Nutshell](javascript:call_link\('abapderived_types_keys_identifiers.htm'\)), the use of %tky is generally preferable in whatever context. However, there are special cases in which %tky is not available and [%pky](javascript:call_link\('abapderived_types_pky.htm'\)) can be used instead, for example, implementations with [draft actions](javascript:call_link\('abenbdl_draft_action.htm'\)) or save actions.
+As outlined in the topic [Using Keys and Identifying RAP BO Instances in a Nutshell](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_keys_identifiers.htm), the use of %tky is generally preferable in whatever context. However, there are special cases in which %tky is not available and [%pky](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_pky.htm) can be used instead, for example, implementations with [draft actions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_draft_action.htm) or save actions.
 
 Example
 
@@ -73,4 +73,4 @@ UPDATE FIELDS ( field2 ) WITH VALUE #(
 
 Executable Example
 
-The example [Using %tky](javascript:call_link\('abenderived_types_tky_abexa.htm'\)) demonstrates the use of %tky with a managed RAP BO in a draft and non-draft scenario.
+The example [Using %tky](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenderived_types_tky_abexa.htm) demonstrates the use of %tky with a managed RAP BO in a draft and non-draft scenario.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Date Fields and Time Fields](javascript:call_link\('abencharacter_date_time.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_processing.htm) →  [Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharacter_date_time.htm) → 
 
 Validity of Date Fields and Time Fields
 
@@ -16,17 +16,17 @@ Date fields and time fields of the types d and t can contain any alphanumeric ch
 
 The ABAP runtime environment checks the validity at the following points:
 
--   Date fields and time fields with invalid values raise an exception when used as a [source field](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) of a [lossless assignment](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry"). Conversely, source fields of other types may not produce any invalid values in date fields and time fields as [target fields](javascript:call_link\('abenmove_exact_elementary_fit.htm'\)) in a lossless assignment.
+-   Date fields and time fields with invalid values raise an exception when used as a [source field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm) of a [lossless assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_assignment_glosry.htm "Glossary Entry"). Conversely, source fields of other types may not produce any invalid values in date fields and time fields as [target fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_fit.htm) in a lossless assignment.
 
--   Invalid values cannot be converted to [time stamps](javascript:call_link\('abentime_stamp_oview.htm'\)) by using the statement [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)).
+-   Invalid values cannot be converted to [time stamps](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_oview.htm) by using the statement [CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_date_time-stamp.htm).
 
--   In a regular assignment to numeric fields, [date fields](javascript:call_link\('abenconversion_type_d.htm'\)) and [target fields](javascript:call_link\('abenconversion_type_t.htm'\)) with invalid values produce the value 0, with the following exceptions:
+-   In a regular assignment to numeric fields, [date fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_d.htm) and [target fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_t.htm) with invalid values produce the value 0, with the following exceptions:
 
 -   For a source field of the type d, the values from 5.10.1582 to 14.10.1582, which are actually invalid due to the conversion from the Julian to Gregorian calendar, are handled just like the valid values from 15.10.1582 to 24.10.1582.
 
 -   For a source field of the type t that contains only digits, the numeric value is calculated using the formula hh\*3600+mm\*60+ss, even if the times are invalid.
 
--   For regular assignments of [numeric fields](javascript:call_link\('abennumeric_source_fields.htm'\)) to date fields and time fields, the numeric fields must be within the value range of the data type i and comply with the following special rules:
+-   For regular assignments of [numeric fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_source_fields.htm) to date fields and time fields, the numeric fields must be within the value range of the data type i and comply with the following special rules:
 
 -   When number values are assigned to date fields, and these fields cannot be produced by the reverse conversion, the date field is initialized
 
@@ -44,7 +44,7 @@ The initial value "00000000" of the data type d and the date 01.01.0001 have a s
 
 1 is the smallest number that is converted to a valid date, 02.01.0001, when assigning to a date field of type d. Assignments between valid date fields and numeric fields can be reversed only from this date.
 
-In [lossless assignments](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry"), invalid values in source fields raise exceptions instead of producing the value 0 or "00000000". Here, the value "00010101", which is really part of the value range, is regarded as invalid, while "00000000", not actually part of the value range, is regarded as valid. This means that the initial value "00000000" can be used by lossless assignments and all valid assignments between date fields and numeric fields can be reversed.
+In [lossless assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_assignment_glosry.htm "Glossary Entry"), invalid values in source fields raise exceptions instead of producing the value 0 or "00000000". Here, the value "00010101", which is really part of the value range, is regarded as invalid, while "00000000", not actually part of the value range, is regarded as valid. This means that the initial value "00000000" can be used by lossless assignments and all valid assignments between date fields and numeric fields can be reversed.
 
 Note
 

@@ -4,15 +4,15 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_unit.htm) → 
 
 CLASS, FOR TESTING
 
-[Short Reference](javascript:call_link\('abapclass_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass_shortref.htm)
 
 Syntax
 
-[CLASS class DEFINITION](javascript:call_link\('abapclass_definition.htm'\)) FOR TESTING *\[*RISK LEVEL *{*CRITICAL*|*DANGEROUS*|*HARMLESS*}**\]*
+[CLASS class DEFINITION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass_definition.htm) FOR TESTING *\[*RISK LEVEL *{*CRITICAL*|*DANGEROUS*|*HARMLESS*}**\]*
                                    *\[*DURATION *{*SHORT*|*MEDIUM*|*LONG*}**\]*.
 
 Additions:
@@ -22,19 +22,19 @@ Additions:
 
 Effect
 
-The FOR TESTING addition is used to defined a class as a [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") for the [ABAP Unit](javascript:call_link\('abenabap_unit_glosry.htm'\) "Glossary Entry") tool. Test classes can contain [test methods](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") that are called as individual tests during a [test run](javascript:call_link\('abentest_run_glosry.htm'\) "Glossary Entry").
+The FOR TESTING addition is used to defined a class as a [test class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentest_class_glosry.htm "Glossary Entry") for the [ABAP Unit](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_unit_glosry.htm "Glossary Entry") tool. Test classes can contain [test methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentest_method_glosry.htm "Glossary Entry") that are called as individual tests during a [test run](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentest_run_glosry.htm "Glossary Entry").
 
-A test class is usually a local class. The source code in a test class is not part of the production code of the program and is not generated in production systems (controlled using the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") abap/test\_generation) . A test class and its components cannot be addressed in the production code of the program therefore, only in other test classes. In particular, a subclass of a test class must be a test class itself and be declared using the FOR TESTING addition. The only exception to this rule is that test classes can be specified as [friends](javascript:call_link\('abenfriend_glosry.htm'\) "Glossary Entry") in the definition of production classes to make it possible to test private components.
+A test class is usually a local class. The source code in a test class is not part of the production code of the program and is not generated in production systems (controlled using the [profile parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") abap/test\_generation) . A test class and its components cannot be addressed in the production code of the program therefore, only in other test classes. In particular, a subclass of a test class must be a test class itself and be declared using the FOR TESTING addition. The only exception to this rule is that test classes can be specified as [friends](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfriend_glosry.htm "Glossary Entry") in the definition of production classes to make it possible to test private components.
 
-A local test class can contain special private methods that implement the [fixture](javascript:call_link\('abenfixture_glosry.htm'\) "Glossary Entry") for the tests of the class. These methods have the following predefined names:
+A local test class can contain special private methods that implement the [fixture](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfixture_glosry.htm "Glossary Entry") for the tests of the class. These methods have the following predefined names:
 
--   An [instance method](javascript:call_link\('abeninstance_method_glosry.htm'\) "Glossary Entry") setup, which is executed before each individual test or before each execution of a test method.
+-   An [instance method](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninstance_method_glosry.htm "Glossary Entry") setup, which is executed before each individual test or before each execution of a test method.
     
 
 -   An instance method teardown, which is executed after each individual test or after each execution of a test method.
     
 
--   A [static method](javascript:call_link\('abenstatic_method_glosry.htm'\) "Glossary Entry") class\_setup, which is executed once before all tests of the class.
+-   A [static method](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatic_method_glosry.htm "Glossary Entry") class\_setup, which is executed once before all tests of the class.
     
 
 -   A static method class\_teardown, which is executed once after every test of the class.
@@ -42,7 +42,7 @@ A local test class can contain special private methods that implement the [fixtu
 
 Hints
 
--   Create test classes for class pools and function pools only in the [test includes](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry") designed for them. In other programs, these tests should run at the end of the program.
+-   Create test classes for class pools and function pools only in the [test includes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentest_include_glosry.htm "Glossary Entry") designed for them. In other programs, these tests should run at the end of the program.
     
 
 -   In addition to the test methods and special methods for the fixture, a test class can also contain other components. These components can be used in a user's own test class only or in other test classes, depending on the visibility. In this way, help methods can be defined for tests, for example.
@@ -57,16 +57,16 @@ Hints
 -   Global test classes can be created for reusing complex test preparations. Global test classes should always be abstract and can only be used in local test classes. Currently, all instance methods of a global test class are automatically test methods.
     
 
--   In test classes, the addition [PARTIALLY IMPLEMENTED](javascript:call_link\('abapinterfaces_partially.htm'\)) of the statement INTERFACES can be specified, which allows interfaces to be implemented only partially. This is particularly useful in test doubles.
+-   In test classes, the addition [PARTIALLY IMPLEMENTED](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinterfaces_partially.htm) of the statement INTERFACES can be specified, which allows interfaces to be implemented only partially. This is particularly useful in test doubles.
     
 
 -   The addition FOR TESTING in a local class created in the area for local types of the class pool of a global test class. The addition is not needed in auxiliary classes for the global test class, since its property test class has an effect on the entire class pool with regard to its generation. In rare cases in which a global test class is to be tested itself, local test classes can be created as recommended for other global classes in the area local test classes.
     
 
--   The methods of the [fixture](javascript:call_link\('abenfixture_glosry.htm'\) "Glossary Entry") are not test methods and the addition [FOR TESTING](javascript:call_link\('abapmethods_testing.htm'\)) cannot be specified for their declaration.
+-   The methods of the [fixture](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfixture_glosry.htm "Glossary Entry") are not test methods and the addition [FOR TESTING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmethods_testing.htm) cannot be specified for their declaration.
     
 
--   Global test classes can also contain [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") as test methods. In this case, they must include the corresponding tag interface [IF\_AMDP\_MARKER\_...](javascript:call_link\('abenamdp_classes.htm'\)) for [AMDP classes](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry").
+-   Global test classes can also contain [AMDP method](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp_method_glosry.htm "Glossary Entry") as test methods. In this case, they must include the corresponding tag interface [IF\_AMDP\_MARKER\_...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp_classes.htm) for [AMDP classes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp_class_glosry.htm "Glossary Entry").
     
 
 Addition 1
@@ -89,7 +89,7 @@ Hints
 
 -   A risk level must be defined for SAP test classes.
 
--   The additions RISK LEVEL and DURATION replace the [pseudo comments for test classes](javascript:call_link\('abenpseudo_comment_test_class.htm'\)). Existing pseudo comments are not ignored, but should no longer be used.
+-   The additions RISK LEVEL and DURATION replace the [pseudo comments for test classes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpseudo_comment_test_class.htm). Existing pseudo comments are not ignored, but should no longer be used.
 
 Example
 

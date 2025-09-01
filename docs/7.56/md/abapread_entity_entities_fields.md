@@ -4,15 +4,15 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [READ ENTITY, ENTITIES](javascript:call_link\('abapread_entity_entities.htm'\)) →  [READ ENTITY, ENTITIES, operations](javascript:call_link\('abapread_entity_entities_op.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml.htm) →  [READ ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities.htm) →  [READ ENTITY, ENTITIES, operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities_op.htm) → 
 
 READ ENTITY, ENTITIES, field\_spec
 
 Syntax
 
-...  *{* FROM [fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\)) *}*
-   *|* *{* FIELDS ( comp1 comp2 ... ) WITH [fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\)) *}*
-   *|* *{* ALL FIELDS WITH [fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\)) *}* ...
+...  *{* FROM [fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm) *}*
+   *|* *{* FIELDS ( comp1 comp2 ... ) WITH [fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm) *}*
+   *|* *{* ALL FIELDS WITH [fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm) *}* ...
 
 Variants:
 
@@ -22,9 +22,9 @@ Variants:
 
 Effect
 
-The field specification expressions are used to specify input parameters on whose basis read operations can be performed for on [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry"). All variants can be used for direct [read](javascript:call_link\('abenrap_read_operation_glosry.htm'\) "Glossary Entry") and [read-by-association operations](javascript:call_link\('abenrap_rba_operation_glosry.htm'\) "Glossary Entry"). The variant FROM is the only option for read operations executing functions (using the keyword EXECUTE).
+The field specification expressions are used to specify input parameters on whose basis read operations can be performed for on [RAP BO instances](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry"). All variants can be used for direct [read](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_read_operation_glosry.htm "Glossary Entry") and [read-by-association operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_rba_operation_glosry.htm "Glossary Entry"). The variant FROM is the only option for read operations executing functions (using the keyword EXECUTE).
 
-The parameters that are taken into account for read operations must be specified in an internal table ([fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\))). It is essential that the internal table is typed with the required [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry"). Depending on the operation and the variant, the parameters of the internal table comprise [special components](javascript:call_link\('abapderived_types_comp.htm'\)).
+The parameters that are taken into account for read operations must be specified in an internal table ([fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm)). It is essential that the internal table is typed with the required [BDEF derived type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry"). Depending on the operation and the variant, the parameters of the internal table comprise [special components](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm).
 
 The following table provides an overview on the operations, which field specification expressions are possible for the operations, and which type and components of the required internal table are relevant:
 
@@ -74,11 +74,11 @@ TYPE TABLE FOR FUNCTION IMPORT bdef~function
 %pky
 %tky
 
-bdef is the root entity name, \_assoc the name of the association defined in the underlying CDS view of the root entity, and function the name of a function specified in the BDEF. See the details on the components in the documentation for [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)).
+bdef is the root entity name, \_assoc the name of the association defined in the underlying CDS view of the root entity, and function the name of a function specified in the BDEF. See the details on the components in the documentation for [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm).
 
 Hints
 
--   The read statement must be completed by specifying a [result](javascript:call_link\('abapeml_result.htm'\)) after fields\_tab. Optionally, [response\_param](javascript:call_link\('abapeml_response.htm'\)) can also be specified after fields\_tab.
+-   The read statement must be completed by specifying a [result](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_result.htm) after fields\_tab. Optionally, [response\_param](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_response.htm) can also be specified after fields\_tab.
 -   Depending on the context, the components listed in the Components column of the overview table might cover more than mentioned there. For example, the draft indicator %is\_draft is available in case of drafts only. %pid is only available in late numbering scenarios.
 -   In the internal table (fields\_tab), all key fields must be specified, otherwise the read operation fails. In read-by-association operations, all key fields of an associated entity are returned by default.
 
@@ -88,9 +88,9 @@ Variant 1  
 
 Effect
 
-The read operation considers input parameters specified in an internal table ([fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\))). It can be used for all operations and it is the only option for EXECUTE.
+The read operation considers input parameters specified in an internal table ([fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm)). It can be used for all operations and it is the only option for EXECUTE.
 
-The [%control](javascript:call_link\('abapderived_types_comp.htm'\)) structure must be filled explicitly in fields\_tab. For specifying the values of the fields in the %control structure, the constants provided in the interface IF\_ABAP\_BEHV can be used: IF\_ABAP\_BEHV=>MK-.... For example, if fields are set with the value IF\_ABAP\_BEHV=>MK-ON, they are respected by the operation. In combination with EXECUTE, %control is not available.
+The [%control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm) structure must be filled explicitly in fields\_tab. For specifying the values of the fields in the %control structure, the constants provided in the interface IF\_ABAP\_BEHV can be used: IF\_ABAP\_BEHV=>MK-.... For example, if fields are set with the value IF\_ABAP\_BEHV=>MK-ON, they are respected by the operation. In combination with EXECUTE, %control is not available.
 
 Example
 
@@ -120,7 +120,7 @@ Variant 2  
 
 Effect
 
-Fields to be returned by the read operation are specified in a field list in brackets after the keyword FIELDS. The input parameters for the read operation are specified in an internal table ([fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\))). The fields (comp1, comp2, etc.) can be any of the entity's fields. Key fields can but need not be explicitly specified since they are read and returned by default even if not specified. At least one field must be specified in the field list. The fields are not separated by a comma. The order of the fields is irrelevant. However, the order of the columns, for example, of the read result table corresponds to the order in the database table.
+Fields to be returned by the read operation are specified in a field list in brackets after the keyword FIELDS. The input parameters for the read operation are specified in an internal table ([fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm)). The fields (comp1, comp2, etc.) can be any of the entity's fields. Key fields can but need not be explicitly specified since they are read and returned by default even if not specified. At least one field must be specified in the field list. The fields are not separated by a comma. The order of the fields is irrelevant. However, the order of the columns, for example, of the read result table corresponds to the order in the database table.
 
 The variant is a convenience variant and shortcut for FROM. It cannot be used for EXECUTE. %control is filled implicitly in fields\_tab.
 
@@ -142,7 +142,7 @@ Variant 3  
 
 Effect
 
-All fields of an instance are read according to input parameters for the read operation specified in an internal table ([fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\))).
+All fields of an instance are read according to input parameters for the read operation specified in an internal table ([fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm)).
 
 The variant is a convenience variant and shortcut for FROM. It cannot be used for EXECUTE. %control is filled implicitly in fields\_tab.
 
@@ -159,5 +159,5 @@ READ ENTITY demo\_spfli\_flights
 
 Executable Example
 
--   The example [READ: Field Specification Expressions](javascript:call_link\('abeneml_read_op_fields_abexa.htm'\)) demonstrates several different variants of field specification expressions with a simple managed RAP BO.
--   For more examples on READ operations in general, see [Examples for ABAP EML READ](javascript:call_link\('abapeml_read_examples.htm'\)).
+-   The example [READ: Field Specification Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_read_op_fields_abexa.htm) demonstrates several different variants of field specification expressions with a simple managed RAP BO.
+-   For more examples on READ operations in general, see [Examples for ABAP EML READ](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_read_examples.htm).

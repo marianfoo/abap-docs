@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [DDIC - Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [DDIC - Table-Specific Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary.htm) →  [DDIC - Database Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables.htm) →  [DDIC - Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_sema.htm) →  [DDIC - Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_semasspec.htm) → 
 
 DDIC - Delivery Class of Database Tables
 
@@ -36,7 +36,7 @@ Customer table for data entered only by the customer.
 
 -   Delivery class L
 
-Table used as a repository for temporary or [client-dependent](javascript:call_link\('abenclient_dependent_glosry.htm'\) "Glossary Entry") data. SAP delivers tables in the delivery class L as empty tables.
+Table used as a repository for temporary or [client-dependent](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclient_dependent_glosry.htm "Glossary Entry") data. SAP delivers tables in the delivery class L as empty tables.
 
 -   These tables are delivered as empty tables.
 
@@ -48,7 +48,7 @@ Table used as a repository for temporary or [client-dependent](javascript:call_l
 
 -   Data entered using extended table maintenance (transaction code SM30) cannot be transported here.
 
-[Global temporary tables](javascript:call_link\('abenglobal_temporary_table_glosry.htm'\) "Glossary Entry") always have the delivery class L.
+[Global temporary tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry") always have the delivery class L.
 
 -   Obsolete delivery class G
 
@@ -84,7 +84,7 @@ System table in which customers can make entries. A system table in the delivery
 
 -   Delivery class S
 
-System table delivered by SAP with predefined data as part of the system, such as ABAPDOCU\_TREE (which contains the read-only tree of the ABAP keyword documentation). In the [Change and Transport Systems (CTS)](javascript:call_link\('abencts_glosry.htm'\) "Glossary Entry"), the data is handled like repository objects, which means that they have an original system and any changes in other systems are modifications or repairs.
+System table delivered by SAP with predefined data as part of the system, such as ABAPDOCU\_TREE (which contains the read-only tree of the ABAP keyword documentation). In the [Change and Transport Systems (CTS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencts_glosry.htm "Glossary Entry"), the data is handled like repository objects, which means that they have an original system and any changes in other systems are modifications or repairs.
 
 -   These system tables are delivered with prefilled entries.
 
@@ -110,6 +110,6 @@ System table for system administration data, such as TFDIR as a directory of all
 
 Hints
 
--   It is not recommended to transport table content for which a [replacement object](javascript:call_link\('abenddic_replacement_objects.htm'\)) is defined. This content is no longer transported automatically in the upcoming release.
+-   It is not recommended to transport table content for which a [replacement object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_replacement_objects.htm) is defined. This content is no longer transported automatically in the upcoming release.
 
 -   For more information about transports and client copies see the documentation Change and Transport System in the SAP Help Portal.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Flow Control](javascript:call_link\('abenst_flow_control.htm'\)) →  [ST - tt:cond, Conditional Transformations](javascript:call_link\('abenst_tt_cond.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_serial_deserial.htm) →  [ST - Flow Control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_flow_control.htm) →  [ST - tt:cond, Conditional Transformations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_cond.htm) → 
 
 ST - using, Preconditions
 
@@ -14,7 +14,7 @@ Syntax
 
 Effect
 
-The following preconditions can be specified for the content of the attribute using of an element [tt:cond](javascript:call_link\('abenst_tt_cond.htm'\)):
+The following preconditions can be specified for the content of the attribute using of an element [tt:cond](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_cond.htm):
 
 Precondition
 
@@ -28,7 +28,7 @@ type-...(node)
 
 Met if an ABAP data object of type ... is bound to the node
 
-Each [built-in ABAP type](javascript:call_link\('abenbuiltin_abap_type_glosry.htm'\) "Glossary Entry") has a precondition type-... where the data type is specified in uppercase letters (see examples). The operand node can be a data node, which must be specified in a [special form](javascript:call_link\('abenst_addressing_nodes_in_cond.htm'\)).
+Each [built-in ABAP type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuiltin_abap_type_glosry.htm "Glossary Entry") has a precondition type-... where the data type is specified in uppercase letters (see examples). The operand node can be a data node, which must be specified in a [special form](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_addressing_nodes_in_cond.htm).
 
 A single precondition can be specified as a comma-separated list of multiple of the above preconditions. A precondition like this is met is met if all preconditions in the list are met. Within the list, every data node may appear only once.
 

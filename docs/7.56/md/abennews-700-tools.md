@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 7.0 and its EhPs](javascript:call_link\('abennews-70_ehps.htm'\)) →  [News for Release 7.0](javascript:call_link\('abennews-70.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 7.0 and its EhPs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-70_ehps.htm) →  [News for Release 7.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-70.htm) → 
 
 Tools in Release 7.00
 
@@ -38,7 +38,7 @@ The new two-process debugger has been further developed as follows:
     
     Variable fast display split into global and local data. Display of current parameter interface with local data.
     Complete screen and ABAP stack in the stack display.
-    Pausing of a running process at a particular point by setting a session breakpoint in a parallel [ABAP session](javascript:call_link\('abenabap_session_glosry.htm'\) "Glossary Entry").
+    Pausing of a running process at a particular point by setting a session breakpoint in a parallel [ABAP session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_session_glosry.htm "Glossary Entry").
     
 
 Hint
@@ -56,16 +56,16 @@ Modification 3  
 
 ABAP Unit
 
--   The [pseudo comments](javascript:call_link\('abenpseudo_comment_glosry.htm'\) "Glossary Entry")
+-   The [pseudo comments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpseudo_comment_glosry.htm "Glossary Entry")
     
     "#AU Risk\_Level ...
     "#AU Duration ...
-    can be used to define test properties when creating [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") using the statement [CLASS ... FOR TESTING](javascript:call_link\('abapclass_options.htm'\)).
+    can be used to define test properties when creating [test classes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentest_class_glosry.htm "Glossary Entry") using the statement [CLASS ... FOR TESTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass_options.htm).
     
--   To enable the reuse of extensive test preparations, global [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") can be defined in [Class Builder](javascript:call_link\('abenclass_builder_glosry.htm'\) "Glossary Entry"). Global test classes should always be abstract, can only be used in local test classes, and, like these, are not generated in production systems.
+-   To enable the reuse of extensive test preparations, global [test classes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentest_class_glosry.htm "Glossary Entry") can be defined in [Class Builder](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_builder_glosry.htm "Glossary Entry"). Global test classes should always be abstract, can only be used in local test classes, and, like these, are not generated in production systems.
 
 Modification 4   
 
 Logpoints
 
--   The new [LOG-POINT](javascript:call_link\('abaplog-point.htm'\)) statement enables unconditional log entries to the log also used by [ASSERT](javascript:call_link\('abapassert.htm'\)). Logpoints are [activatable checkpoints](javascript:call_link\('abenactivatable_checkpoint_glosry.htm'\) "Glossary Entry"), whose activation must be controlled using [checkpoint groups](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry") or [activation variants](javascript:call_link\('abenactivation_variant_glosry.htm'\) "Glossary Entry"). Logpoints replace the incorrect usage of ASSERT for logging-only purposes.
+-   The new [LOG-POINT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplog-point.htm) statement enables unconditional log entries to the log also used by [ASSERT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassert.htm). Logpoints are [activatable checkpoints](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenactivatable_checkpoint_glosry.htm "Glossary Entry"), whose activation must be controlled using [checkpoint groups](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencheckpoint_group_glosry.htm "Glossary Entry") or [activation variants](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenactivation_variant_glosry.htm "Glossary Entry"). Logpoints replace the incorrect usage of ASSERT for logging-only purposes.

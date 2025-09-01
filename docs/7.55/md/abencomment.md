@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_syntax.htm) → 
 
 Comments
 
@@ -12,7 +12,7 @@ A comment is a description inserted in the source code of a program that helps t
 
 -   The \* character in the first position of a line in a program defines the entire line as a comment.
 
--   The " character at any position defines that all of the remaining content in the line is a comment. This rule does not apply to the " character in [character literals](javascript:call_link\('abencharacter_literal_glosry.htm'\) "Glossary Entry") and [pseudo comments](javascript:call_link\('abenpseudo_comment_glosry.htm'\) "Glossary Entry").
+-   The " character at any position defines that all of the remaining content in the line is a comment. This rule does not apply to the " character in [character literals](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharacter_literal_glosry.htm "Glossary Entry") and [pseudo comments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpseudo_comment_glosry.htm "Glossary Entry").
 
 These language elements make it possible to create two types of comments:
 
@@ -26,20 +26,20 @@ A line end comment is a comment started with the " character and that stands beh
 
 Programming Guidelines
 
--   [Arrange comments correctly](javascript:call_link\('abenarrange_guidl.htm'\) "Guideline")
+-   [Arrange comments correctly](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarrange_guidl.htm "Guideline")
     
 
--   [Write program comments in English](javascript:call_link\('abenlangu_choice_guidl.htm'\) "Guideline")
+-   [Write program comments in English](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlangu_choice_guidl.htm "Guideline")
     
 
--   [Make meaningful comments](javascript:call_link\('abencontent_guidl.htm'\) "Guideline")
+-   [Make meaningful comments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencontent_guidl.htm "Guideline")
     
 
--   [Character set in source code](javascript:call_link\('abencharacter_set_guidl.htm'\) "Guideline")
+-   [Character set in source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharacter_set_guidl.htm "Guideline")
 
 Hint
 
-A special type of line end comments are [ABAP Doc comments](javascript:call_link\('abenabap_doc_comment_glosry.htm'\) "Glossary Entry") started by "!. These comments can be evaluated by an ABAP development environment to support [ABAP Doc](javascript:call_link\('abenabap_doc_glosry.htm'\) "Glossary Entry").
+A special type of line end comments are [ABAP Doc comments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_doc_comment_glosry.htm "Glossary Entry") started by "!. These comments can be evaluated by an ABAP development environment to support [ABAP Doc](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_doc_glosry.htm "Glossary Entry").
 
 Example
 

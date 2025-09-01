@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Loop Processing, ABENLOOP_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggest
 ion for improvement:)
@@ -33,5 +33,5 @@ A modifying access to the entire table body usually produces a runtime error and
 
 Hints
 
--   This rule is mainly intended to make you more aware of the problem. If you only work with [ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") or if no [syntax check warnings](javascript:call_link\('abensyntax_check_guidl.htm'\) "Guideline") are ignored, the rule above should be met automatically.
--   For more information, see [Changing Internal Tables in a Loop](javascript:call_link\('abenitab_loop_change.htm'\)).
+-   This rule is mainly intended to make you more aware of the problem. If you only work with [ABAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") or if no [syntax check warnings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensyntax_check_guidl.htm "Guideline") are ignored, the rule above should be met automatically.
+-   For more information, see [Changing Internal Tables in a Loop](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_loop_change.htm).

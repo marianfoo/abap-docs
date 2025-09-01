@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_func](javascript:call_link\('abensql_builtin_func.htm'\)) →  [ABAP SQL - Built-In Functions sql\_func](javascript:call_link\('abenabap_sql_builtin_functions.htm'\)) →  [sql\_func - Special Functions](javascript:call_link\('abenabap_sql_special_functions.htm'\)) →  [sql\_func - Conversion Functions](javascript:call_link\('abenabap_sql_conversion_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_func](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_builtin_func.htm) →  [ABAP SQL - Built-In Functions sql\_func](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_builtin_functions.htm) →  [sql\_func - Special Functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_special_functions.htm) →  [sql\_func - Conversion Functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_conversion_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: sql_func - Unit and Currency Conversion Functions, ABENSQL_CURR_UNIT_CONV_FUNC, 757%0
 D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -23,7 +23,7 @@ Variants:
 
 Effect
 
-Functions for converting between units and between currencies in an ABAP SQL statement. The functions have [keyword parameters](javascript:call_link\('abenkeyword_parameter_glosry.htm'\) "Glossary Entry") p1, p2, ... (some of which are optional), to which actual parameters a1, a2, ... must be assigned using \= when a function is called.
+Functions for converting between units and between currencies in an ABAP SQL statement. The functions have [keyword parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkeyword_parameter_glosry.htm "Glossary Entry") p1, p2, ... (some of which are optional), to which actual parameters a1, a2, ... must be assigned using \= when a function is called.
 
 Variant 1   
 
@@ -51,9 +51,9 @@ quantity
 
 Inbound value
 
-[DEC](javascript:call_link\('abenddic_builtin_types.htm'\)), [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)), [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)); [DECFLOAT34](javascript:call_link\('abenddic_builtin_types.htm'\))
+[DEC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), [CURR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), [QUAN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm); [DECFLOAT34](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm)
 
-[SQL expression](javascript:call_link\('abapsql_expr.htm'\))
+[SQL expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm)
 
 source\_unit
 
@@ -61,9 +61,9 @@ source\_unit
 
 Source unit from column MSEHI of the DDIC database table T006
 
-[UNIT](javascript:call_link\('abenddic_builtin_types.htm'\))
+[UNIT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm)
 
-[SQL expression](javascript:call_link\('abapsql_expr.htm'\)) except for the [null expression](javascript:call_link\('abensql_null.htm'\))
+[SQL expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) except for the [null expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_null.htm)
 
 target\_unit
 
@@ -71,9 +71,9 @@ target\_unit
 
 Target unit from column MSEHI of the DDIC database table T006
 
-[UNIT](javascript:call_link\('abenddic_builtin_types.htm'\))
+[UNIT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm)
 
-[SQL expression](javascript:call_link\('abapsql_expr.htm'\)) except for the [null expression](javascript:call_link\('abensql_null.htm'\))
+[SQL expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) except for the [null expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_null.htm)
 
 client
 
@@ -81,19 +81,19 @@ X
 
 Client whose rules are used to perform the unit conversion. Default: Content of the client column of the current row
 
-[CLNT](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CLNT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm)
 
-[SQL expression](javascript:call_link\('abapsql_expr.htm'\)) except for the [null expression](javascript:call_link\('abensql_null.htm'\))
+[SQL expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) except for the [null expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_null.htm)
 
 on\_error
 
 X
 
-Error handling. If fail (default value), an error raises an exception; if set\_to\_null, the result is reset to the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"); if keep\_unconverted, the result is reset to the input value
+Error handling. If fail (default value), an error raises an exception; if set\_to\_null, the result is reset to the [null value](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennull_value_glosry.htm "Glossary Entry"); if keep\_unconverted, the result is reset to the input value
 
-[Enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") ON\_ERROR of class SQL\_CURRENCY\_CONVERSION
+[Enumerated type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_type_glosry.htm "Glossary Entry") ON\_ERROR of class SQL\_CURRENCY\_CONVERSION
 
-Allowed [enumerated value](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry")
+Allowed [enumerated value](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_value_glosry.htm "Glossary Entry")
 
 Example
 
@@ -140,9 +140,9 @@ amount
 
 Inbound value
 
-[DEC](javascript:call_link\('abenddic_builtin_types.htm'\)), [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)), [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)) with two decimal places; [DECFLOAT34](javascript:call_link\('abenddic_builtin_types.htm'\))
+[DEC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), [CURR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm), [QUAN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm) with two decimal places; [DECFLOAT34](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm)
 
-[SQL expression](javascript:call_link\('abapsql_expr.htm'\))
+[SQL expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm)
 
 source\_currency
 
@@ -150,9 +150,9 @@ source\_currency
 
 Source currency from column WAERS of the DDIC database table TCURC
 
-[CUKY](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CUKY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm)
 
-[SQL expression](javascript:call_link\('abapsql_expr.htm'\)) except for the [null expression](javascript:call_link\('abensql_null.htm'\))
+[SQL expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) except for the [null expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_null.htm)
 
 target\_currency
 
@@ -160,9 +160,9 @@ target\_currency
 
 Target currency from column WAERS of the DDIC database table TCURC
 
-[CUKY](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CUKY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm)
 
-[SQL expression](javascript:call_link\('abapsql_expr.htm'\)) except for the [null expression](javascript:call_link\('abensql_null.htm'\))
+[SQL expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) except for the [null expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_null.htm)
 
 exchange\_rate\_date
 
@@ -170,9 +170,9 @@ exchange\_rate\_date
 
 Exchange rate date for column GDATU of the DDIC database table TCURR
 
-[DATS](javascript:call_link\('abenddic_builtin_types.htm'\))
+[DATS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm)
 
-[SQL expression](javascript:call_link\('abapsql_expr.htm'\)) except for the [null expression](javascript:call_link\('abensql_null.htm'\))
+[SQL expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) except for the [null expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_null.htm)
 
 exchange\_rate\_type
 
@@ -180,9 +180,9 @@ X
 
 Exchange rate type from column KURST of the DDIC database table TCURR, default value: M
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CHAR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm)
 
-[SQL expression](javascript:call_link\('abapsql_expr.htm'\))
+[SQL expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm)
 
 client
 
@@ -190,9 +190,9 @@ X
 
 Client whose rules are used to perform the currency conversion. Default: Content of the client column of the current row
 
-[CLNT](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CLNT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm)
 
-[SQL expression](javascript:call_link\('abapsql_expr.htm'\)) except for the [null expression](javascript:call_link\('abensql_null.htm'\))
+[SQL expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) except for the [null expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_null.htm)
 
 round
 
@@ -202,7 +202,7 @@ Not possible for amount type D34N; if X (default value), the intermediate result
 
 ABAP type c of length 1
 
-[Literal](javascript:call_link\('abenabap_sql_literals.htm'\)) or [host constant](javascript:call_link\('abenabap_sql_host_variables.htm'\))
+[Literal](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_literals.htm) or [host constant](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_host_variables.htm)
 
 decimal\_shift
 
@@ -212,7 +212,7 @@ Not possible for amount type D34N; if X (default value), the decimal places of t
 
 ABAP type c of length 1
 
-[Literal](javascript:call_link\('abenabap_sql_literals.htm'\)) or [host constant](javascript:call_link\('abenabap_sql_host_variables.htm'\))
+[Literal](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_literals.htm) or [host constant](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_host_variables.htm)
 
 decimal\_shift\_back
 
@@ -222,17 +222,17 @@ Not possible for amount type D34N; if X (default value), the decimal places of t
 
 ABAP type c of length 1
 
-[Literal](javascript:call_link\('abenabap_sql_literals.htm'\)) or [host constant](javascript:call_link\('abenabap_sql_host_variables.htm'\))
+[Literal](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_literals.htm) or [host constant](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_host_variables.htm)
 
 on\_error
 
 X
 
-Error handling. If fail (default value), an error raises an exception; if set\_to\_null, the result is reset to the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry")
+Error handling. If fail (default value), an error raises an exception; if set\_to\_null, the result is reset to the [null value](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennull_value_glosry.htm "Glossary Entry")
 
-[Enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") ON\_ERROR of class SQL\_CURRENCY\_CONVERSION
+[Enumerated type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_type_glosry.htm "Glossary Entry") ON\_ERROR of class SQL\_CURRENCY\_CONVERSION
 
-Allowed [enumerated value](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry")
+Allowed [enumerated value](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_value_glosry.htm "Glossary Entry")
 
 Handling the Decimal Places
 
@@ -245,7 +245,7 @@ Handling the Decimal Places
 Hints
 
 -   The conversion is performed on the database, which means that part of the calculation takes place using different rounding rules from ABAP. No matter how the conversion is made, the same results cannot be expected as when using standard function modules for currency conversion, since these modules are generally less precise and round the intermediate results accordingly.
--   The parameter decimal\_shift is intended to set the source value to the number of decimal places of the source currency before the conversion. Because of that, its technical type, [CURR](javascript:call_link\('abenddic_currency_field.htm'\)) must have two decimal places. The parameter decimal\_shift\_back is intended to perform the reverse operation.
+-   The parameter decimal\_shift is intended to set the source value to the number of decimal places of the source currency before the conversion. Because of that, its technical type, [CURR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_currency_field.htm) must have two decimal places. The parameter decimal\_shift\_back is intended to perform the reverse operation.
 
 Example
 

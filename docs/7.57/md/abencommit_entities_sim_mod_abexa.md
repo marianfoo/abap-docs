@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) →  [Examples for ABAP EML COMMIT ENTITIES](javascript:call_link\('abencommit_entities_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml.htm) →  [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit_entities.htm) →  [Examples for ABAP EML COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencommit_entities_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP EML - COMMIT ENTITIES IN SIMULATION MODE, ABENCOMMIT_ENTITIES_SIM_MOD_ABEXA, 757
 %0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -19,7 +19,7 @@ The CDS data model consists of the root entity DEMO\_CDS\_UPDATE.
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_CDS\_UPDATE is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_CDS\_UPDATE is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_cds\_update unique;
 strict;
@@ -36,7 +36,7 @@ authorization master (global)
 
 Behavior implementation
 
-For the above CDS behavior definitions, there is an [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") available: BP\_DEMO\_CDS\_UPDATE. The actual implementation takes place in the CCIMP include. The following method is relevant for the example:
+For the above CDS behavior definitions, there is an [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") available: BP\_DEMO\_CDS\_UPDATE. The actual implementation takes place in the CCIMP include. The following method is relevant for the example:
 
 -   validatecol1
     
@@ -176,9 +176,9 @@ START-OF-SELECTION.
 
 Description   
 
-The example shows a program divided into segments by switching the work process. It reuses elements of the example [SAP LUW, UPDATE TASK](javascript:call_link\('abensap_luw_update_task_abexa.htm'\)). See more details and descriptions there.
+The example shows a program divided into segments by switching the work process. It reuses elements of the example [SAP LUW, UPDATE TASK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_luw_update_task_abexa.htm). See more details and descriptions there.
 
-In this example here, the mixing of data modification via update function modules and ABAP EML modify requests in SAP LUWs can be considered as a non-RAP application modifying data while including another RAP implementation. To ensure that the overall SAP LUW is consistent with regards to saving which is finally triggered by a [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) statement, the ABAP EML modify requests are followed by a COMMIT ENTITIES statement with the addition IN SIMULATION MODE that omits the actual saving but includes validating the data before it can be saved.
+In this example here, the mixing of data modification via update function modules and ABAP EML modify requests in SAP LUWs can be considered as a non-RAP application modifying data while including another RAP implementation. To ensure that the overall SAP LUW is consistent with regards to saving which is finally triggered by a [COMMIT WORK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit.htm) statement, the ABAP EML modify requests are followed by a COMMIT ENTITIES statement with the addition IN SIMULATION MODE that omits the actual saving but includes validating the data before it can be saved.
 
 The program shows the following aspects:
 

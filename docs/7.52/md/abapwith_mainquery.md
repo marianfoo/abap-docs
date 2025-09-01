@@ -4,27 +4,27 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Open SQL](javascript:call_link\('abenopensql.htm'\)) →  [Open SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [WITH](javascript:call_link\('abapwith.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql.htm) →  [Open SQL - Reads](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_reading.htm) →  [WITH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwith.htm) → 
 
 WITH - mainquery\_clauses
 
 Syntax
 
-... *\[*[SINGLE *\[*FOR UPDATE*\]*](javascript:call_link\('abapselect_single.htm'\))*\]*
-    *{* [FROM](javascript:call_link\('abapfrom_clause.htm'\)) source
-      [FIELDS](javascript:call_link\('abapfields_clause.htm'\)) [select\_clause](javascript:call_link\('abapselect_clause.htm'\)) *}*
-  *|* *{* [select\_clause](javascript:call_link\('abapselect_clause.htm'\))
-      [FROM](javascript:call_link\('abapfrom_clause.htm'\)) source *}*
-    *\[*[WHERE](javascript:call_link\('abapwhere.htm'\)) sql\_cond*\]*
-    *\[*[GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)) group*\]* *\[* [HAVING](javascript:call_link\('abaphaving_clause.htm'\)) group\_cond*\]*
-    *\[*[ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) sort\_key*\]*
-    *\[*[db\_hints](javascript:call_link\('abenosql_db_hints.htm'\))*\]* ...
+... *\[*[SINGLE *\[*FOR UPDATE*\]*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_single.htm)*\]*
+    *{* [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfrom_clause.htm) source
+      [FIELDS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfields_clause.htm) [select\_clause](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_clause.htm) *}*
+  *|* *{* [select\_clause](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_clause.htm)
+      [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfrom_clause.htm) source *}*
+    *\[*[WHERE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwhere.htm) sql\_cond*\]*
+    *\[*[GROUP BY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgroupby_clause.htm) group*\]* *\[* [HAVING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaphaving_clause.htm) group\_cond*\]*
+    *\[*[ORDER BY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaporderby_clause.htm) sort\_key*\]*
+    *\[*[db\_hints](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenosql_db_hints.htm)*\]* ...
 
 Effect
 
-Possible [clauses and additions](javascript:call_link\('abenselect_clauses.htm'\)) of the main query of a [WITH](javascript:call_link\('abapwith.htm'\)) statement. All the same clauses are possible as for a standalone a [SELECT](javascript:call_link\('abapselect.htm'\)) statement except for [FOR ALL ENTRIES](javascript:call_link\('abenwhere_logexp_itab.htm'\)), and they have the same effect. Under the same circumstances, as in the case of the standalone [SELECT](javascript:call_link\('abapselect.htm'\)) statement, a SELECT loop is opened. In this case, this has to be closed with [ENDWITH](javascript:call_link\('abapendwith.htm'\)).
+Possible [clauses and additions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_clauses.htm) of the main query of a [WITH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwith.htm) statement. All the same clauses are possible as for a standalone a [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) statement except for [FOR ALL ENTRIES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_itab.htm), and they have the same effect. Under the same circumstances, as in the case of the standalone [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) statement, a SELECT loop is opened. In this case, this has to be closed with [ENDWITH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendwith.htm).
 
-If an internal table [@itab](javascript:call_link\('abapselect_data_source.htm'\)) with elementary row type is accessed in the [FROM](javascript:call_link\('abapfrom_clause.htm'\)) clause of a common table expression, the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) cannot be \* or contain data\_source~\*.
+If an internal table [@itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_data_source.htm) with elementary row type is accessed in the [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfrom_clause.htm) clause of a common table expression, the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) cannot be \* or contain data\_source~\*.
 
 Example
 

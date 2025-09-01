@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - Custom Entities](javascript:call_link\('abencds_custom_entities.htm'\)) →  [CDS DDL - DEFINE CUSTOM ENTITY](javascript:call_link\('abencds_f1_define_custom_entity.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_entity.htm) →  [ABAP CDS - Custom Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entities.htm) →  [CDS DDL - DEFINE CUSTOM ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_custom_entity.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DEFINE CUSTOM ENTITY, ABAP Class, ABENCDS_F1_CUSTOM_QUERY, 757%0D%0A%0D%0AE
 rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -13,20 +13,20 @@ CDS DDL - DEFINE CUSTOM ENTITY, ABAP Class
 
 Syntax
 
-... [@ObjectModel.query.implementedBy : 'ABAP:class\_name'](javascript:call_link\('abencds_f1_entity_annotations.htm'\)) ...
+... [@ObjectModel.query.implementedBy : 'ABAP:class\_name'](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entity_annotations.htm) ...
 
 Effect
 
-The annotation [@ObjectModel.query.implementedBy](javascript:call_link\('abencds_f1_entity_annotations.htm'\)) binds an ABAP class class\_name as a query provider class to a [CDS custom entity](javascript:call_link\('abencds_custom_entity_glosry.htm'\) "Glossary Entry"). When a CDS custom query is accessed via a framework, such as the [RAP query engine](javascript:call_link\('abenrap_query_engine_glosry.htm'\) "Glossary Entry"), the annotation is evaluated and the ABAP implementation is called to perform the query. The ABAP class must implement the predefined ABAP interface IF\_RAP\_QUERY\_PROVIDER to connect it to the [RAP query engine](javascript:call_link\('abenrap_query_engine_glosry.htm'\) "Glossary Entry").
+The annotation [@ObjectModel.query.implementedBy](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_entity_annotations.htm) binds an ABAP class class\_name as a query provider class to a [CDS custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry"). When a CDS custom query is accessed via a framework, such as the [RAP query engine](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_query_engine_glosry.htm "Glossary Entry"), the annotation is evaluated and the ABAP implementation is called to perform the query. The ABAP class must implement the predefined ABAP interface IF\_RAP\_QUERY\_PROVIDER to connect it to the [RAP query engine](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_query_engine_glosry.htm "Glossary Entry").
 
-In the context of the [ABAP RESTful Application Programming Model](javascript:call_link\('abenarap_glosry.htm'\) "Glossary Entry"), CDS custom queries are referred to as [RAP unmanaged queries](javascript:call_link\('abenrap_unmanged_query_glosry.htm'\) "Glossary Entry").
+In the context of the [ABAP RESTful Application Programming Model](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarap_glosry.htm "Glossary Entry"), CDS custom queries are referred to as [RAP unmanaged queries](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_unmanged_query_glosry.htm "Glossary Entry").
 
 For more information, see the ABAP RESTful Application Programming Model Developer guide, sections
 
 -   Using a CDS Custom Entity for Data Modeling and
 -   Implementing an Unmanaged Query
 
-The annotation ObjectModel.query.implementedBy is mandatory for CDS custom entities when working in [SAP BTP ABAP Environment](javascript:call_link\('abensap_btp_abap_env_glosry.htm'\) "Glossary Entry") or [SAP S/4HANA Cloud ABAP Environment](javascript:call_link\('abens4_hana_cloud_abap_env_glosry.htm'\) "Glossary Entry").
+The annotation ObjectModel.query.implementedBy is mandatory for CDS custom entities when working in [SAP BTP ABAP Environment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_btp_abap_env_glosry.htm "Glossary Entry") or [SAP S/4HANA Cloud ABAP Environment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abens4_hana_cloud_abap_env_glosry.htm "Glossary Entry").
 
 Hint
 
@@ -48,7 +48,7 @@ define custom entity DEMO\_CDS\_CUSTOM\_ENTITY
 
 Executable Example
 
-The executable example [Implementing a custom query](javascript:call_link\('abencds_custom_query_abexa.htm'\)) executes the query implementation class and returns data.
+The executable example [Implementing a custom query](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_query_abexa.htm) executes the query implementation class and returns data.
 
 Continue
-![Example](exa.gif "Example") [CDS DDL - DEFINE CUSTOM ENTITY, Implementing a Custom Query](javascript:call_link\('abencds_custom_query_abexa.htm'\))
+![Example](exa.gif "Example") [CDS DDL - DEFINE CUSTOM ENTITY, Implementing a Custom Query](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_query_abexa.htm)

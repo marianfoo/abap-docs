@@ -4,20 +4,20 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews.htm) → 
 
 Changes in Releases 4.xx
 
--   [Changes in Release 4.6C](javascript:call_link\('abennews-46c.htm'\))
+-   [Changes in Release 4.6C](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-46c.htm)
 
--   [Changes in Release 4.6A](javascript:call_link\('abennews-46a.htm'\))
+-   [Changes in Release 4.6A](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-46a.htm)
 
--   [Changes in Release 4.5](javascript:call_link\('abennews-40-other-45a.htm'\))
+-   [Changes in Release 4.5](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-40-other-45a.htm)
 
--   [Changes in Release 4.0](javascript:call_link\('abennews-40.htm'\))
+-   [Changes in Release 4.0](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-40.htm)
 
 Continue
-[Changes in Release 4.6C](javascript:call_link\('abennews-46c.htm'\))
-[Changes in Release 4.6A](javascript:call_link\('abennews-46a.htm'\))
-[Changes in Release 4.5](javascript:call_link\('abennews-40-other-45a.htm'\))
-[Changes in Release 4.0](javascript:call_link\('abennews-40.htm'\))
+[Changes in Release 4.6C](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-46c.htm)
+[Changes in Release 4.6A](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-46a.htm)
+[Changes in Release 4.5](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-40-other-45a.htm)
+[Changes in Release 4.0](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-40.htm)

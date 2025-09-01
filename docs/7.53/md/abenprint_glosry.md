@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 spool
 
-Also called print. Sending of [lists](javascript:call_link\('abenlist_glosry.htm'\) "Glossary Entry") to the [SAP spool system](javascript:call_link\('abensap_spool_system_glosry.htm'\) "Glossary Entry"). See [spool list](javascript:call_link\('abenprint_list_glosry.htm'\) "Glossary Entry").
+Also called print. Sending of [lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlist_glosry.htm "Glossary Entry") to the [SAP spool system](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_spool_system_glosry.htm "Glossary Entry"). See [spool list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_list_glosry.htm "Glossary Entry").

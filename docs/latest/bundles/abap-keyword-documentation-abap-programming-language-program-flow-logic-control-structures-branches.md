@@ -3,36 +3,7 @@
 Included pages: 15
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenabap_branches.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm)
-- [abapif.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm)
-- [abapelseif.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapelseif.htm)
-- [abapelse.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapelse.htm)
-- [abapendif.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendif.htm)
-- [abapcase.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm)
-- [abapwhen.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhen.htm)
-- [abapendcase.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendcase.htm)
-- [abapcase_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm)
-- [abapwhen_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhen_type.htm)
-- [abencase_type_of_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_exception_abexa.htm)
-- [abencase_type_of_rtti_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_rtti_abexa.htm)
-
-**Bundle Contains**: 12 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.942Z
-
----
-
 ### abenabap_branches.htm
-
-> **📖 Official SAP Documentation**: [abenabap_branches.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -40,7 +11,7 @@ Included pages: 15
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Branches%2C%20ABENABAP_BRANCHES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -48,30 +19,23 @@ Branches
 
 This section describes the branches defined using the following:
 
--   [IF](javascript:call_link\('abapif.htm'\))
--   [CASE](javascript:call_link\('abapcase.htm'\))
--   [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\))
+-   [IF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm)
+-   [CASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm)
+-   [CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm)
 
-Special types of branch are group level processing for [internal tables](javascript:call_link\('abapat_itab.htm'\)) and [extracts](javascript:call_link\('abapat_extract.htm'\)) and branches for [exception handling](javascript:call_link\('abenabap_exceptions.htm'\)).
+Special types of branch are group level processing for [internal tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_itab.htm) and [extracts](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_extract.htm) and branches for [exception handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_exceptions.htm).
 
 Hint
 
-The [conditional operators](javascript:call_link\('abenconditional_operator_glosry.htm'\) "Glossary Entry") [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)) and [SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\)) can be used to implement branches in operand positions.
+The [conditional operators](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_operator_glosry.htm "Glossary Entry") [COND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expression_cond.htm) and [SWITCH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expression_switch.htm) can be used to implement branches in operand positions.
 
 Continue
-[IF](javascript:call_link\('abapif.htm'\))
-[CASE](javascript:call_link\('abapcase.htm'\))
-[CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\))
+[IF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm)
+[CASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm)
+[CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm)
 
-
-
-**📖 Source**: [abenabap_branches.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm)
 
 ### abapif.htm
-
-> **📖 Official SAP Documentation**: [abapif.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -79,19 +43,19 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20IF%2C%20ABAPIF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 IF
 
-[Short Reference](javascript:call_link\('abapif_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif_shortref.htm)
 
 Syntax
 
-IF [log\_exp1](javascript:call_link\('abenlogexp.htm'\)).
+IF [log\_exp1](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm).
   *\[*statement\_block1*\]*
-*\[*ELSEIF [log\_exp2](javascript:call_link\('abenlogexp.htm'\)).
+*\[*ELSEIF [log\_exp2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm).
   *\[*statement\_block2*\]**\]*
 ...
 *\[*ELSE.
@@ -100,9 +64,9 @@ ENDIF.
 
 Effect
 
-These statements define a control structure that can contain multiple statement blocks statement\_block of which a maximum of one is executed, depending on the logical expressions [log\_exp](javascript:call_link\('abenlogexp.htm'\)).
+These statements define a control structure that can contain multiple statement blocks statement\_block of which a maximum of one is executed, depending on the logical expressions [log\_exp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm).
 
-After IF and ELSEIF any logical expressions [log\_exp](javascript:call_link\('abenlogexp.htm'\)) can be listed, while the expressions statement\_block stand for any statement blocks.
+After IF and ELSEIF any logical expressions [log\_exp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm) can be listed, while the expressions statement\_block stand for any statement blocks.
 
 The logical expressions, beginning with the IF statement, are checked from top to bottom and the statement block after the first real logical expression is executed. If none of the logical expressions are true, the statement block after the ELSE statement is executed.
 
@@ -110,11 +74,11 @@ If the end of the executed statement block is reached or if no statement block i
 
 Hint
 
-The [conditional operator](javascript:call_link\('abenconditional_operator_glosry.htm'\) "Glossary Entry") [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)) can also be used to implement branches in operand positions that are based on logical expressions.
+The [conditional operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_operator_glosry.htm "Glossary Entry") [COND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expression_cond.htm) can also be used to implement branches in operand positions that are based on logical expressions.
 
 Example
 
-Transformation of a time to the 12-hour format (see also [Country-Specific Formats](javascript:call_link\('abencountry_formats.htm'\))).
+Transformation of a time to the 12-hour format (see also [Country-Specific Formats](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencountry_formats.htm)).
 
 FINAL(time) = cl\_demo\_date\_time=>get\_user\_time( ).
 IF time < '120000'.
@@ -129,22 +93,15 @@ ELSE.
     |High Noon| ).
 ENDIF.
 
-See also the example for [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)).
+See also the example for [COND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expression_cond.htm).
 
 Continue
-[ELSEIF](javascript:call_link\('abapelseif.htm'\))
-[ELSE](javascript:call_link\('abapelse.htm'\))
-[ENDIF](javascript:call_link\('abapendif.htm'\))
+[ELSEIF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapelseif.htm)
+[ELSE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapelse.htm)
+[ENDIF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendif.htm)
 
-
-
-**📖 Source**: [abapif.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm)
 
 ### abapelseif.htm
-
-> **📖 Official SAP Documentation**: [abapelseif.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapelseif.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -152,31 +109,24 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) →  [IF](javascript:call_link\('abapif.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) →  [IF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ELSEIF%2C%20ABAPELSEIF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ELSEIF
 
-[Short Reference](javascript:call_link\('abapif_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif_shortref.htm)
 
 Syntax
 
-ELSEIF [log\_exp](javascript:call_link\('abenlogexp.htm'\)).
+ELSEIF [log\_exp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm).
 
 Effect
 
-See [IF](javascript:call_link\('abapif.htm'\)).
+See [IF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm).
 
-
-
-**📖 Source**: [abapelseif.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapelseif.htm)
 
 ### abapelse.htm
-
-> **📖 Official SAP Documentation**: [abapelse.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapelse.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -184,13 +134,13 @@ See [IF](javascript:call_link\('abapif.htm'\)).
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) →  [IF](javascript:call_link\('abapif.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) →  [IF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ELSE%2C%20ABAPELSE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ELSE
 
-[Short Reference](javascript:call_link\('abapif_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif_shortref.htm)
 
 Syntax
 
@@ -198,17 +148,10 @@ ELSE.
 
 Effect
 
-See [IF](javascript:call_link\('abapif.htm'\)).
+See [IF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm).
 
-
-
-**📖 Source**: [abapelse.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapelse.htm)
 
 ### abapendif.htm
-
-> **📖 Official SAP Documentation**: [abapendif.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendif.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -216,13 +159,13 @@ See [IF](javascript:call_link\('abapif.htm'\)).
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) →  [IF](javascript:call_link\('abapif.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) →  [IF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ENDIF%2C%20ABAPENDIF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ENDIF
 
-[Short Reference](javascript:call_link\('abapif_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif_shortref.htm)
 
 Syntax
 
@@ -230,17 +173,10 @@ ENDIF.
 
 Effect
 
-See [IF](javascript:call_link\('abapif.htm'\)).
+See [IF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm).
 
-
-
-**📖 Source**: [abapendif.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendif.htm)
 
 ### abapif.htm
-
-> **📖 Official SAP Documentation**: [abapif.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -248,19 +184,19 @@ See [IF](javascript:call_link\('abapif.htm'\)).
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20IF%2C%20ABAPIF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 IF
 
-[Short Reference](javascript:call_link\('abapif_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif_shortref.htm)
 
 Syntax
 
-IF [log\_exp1](javascript:call_link\('abenlogexp.htm'\)).
+IF [log\_exp1](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm).
   *\[*statement\_block1*\]*
-*\[*ELSEIF [log\_exp2](javascript:call_link\('abenlogexp.htm'\)).
+*\[*ELSEIF [log\_exp2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm).
   *\[*statement\_block2*\]**\]*
 ...
 *\[*ELSE.
@@ -269,9 +205,9 @@ ENDIF.
 
 Effect
 
-These statements define a control structure that can contain multiple statement blocks statement\_block of which a maximum of one is executed, depending on the logical expressions [log\_exp](javascript:call_link\('abenlogexp.htm'\)).
+These statements define a control structure that can contain multiple statement blocks statement\_block of which a maximum of one is executed, depending on the logical expressions [log\_exp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm).
 
-After IF and ELSEIF any logical expressions [log\_exp](javascript:call_link\('abenlogexp.htm'\)) can be listed, while the expressions statement\_block stand for any statement blocks.
+After IF and ELSEIF any logical expressions [log\_exp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm) can be listed, while the expressions statement\_block stand for any statement blocks.
 
 The logical expressions, beginning with the IF statement, are checked from top to bottom and the statement block after the first real logical expression is executed. If none of the logical expressions are true, the statement block after the ELSE statement is executed.
 
@@ -279,11 +215,11 @@ If the end of the executed statement block is reached or if no statement block i
 
 Hint
 
-The [conditional operator](javascript:call_link\('abenconditional_operator_glosry.htm'\) "Glossary Entry") [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)) can also be used to implement branches in operand positions that are based on logical expressions.
+The [conditional operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_operator_glosry.htm "Glossary Entry") [COND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expression_cond.htm) can also be used to implement branches in operand positions that are based on logical expressions.
 
 Example
 
-Transformation of a time to the 12-hour format (see also [Country-Specific Formats](javascript:call_link\('abencountry_formats.htm'\))).
+Transformation of a time to the 12-hour format (see also [Country-Specific Formats](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencountry_formats.htm)).
 
 FINAL(time) = cl\_demo\_date\_time=>get\_user\_time( ).
 IF time < '120000'.
@@ -298,22 +234,15 @@ ELSE.
     |High Noon| ).
 ENDIF.
 
-See also the example for [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)).
+See also the example for [COND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expression_cond.htm).
 
 Continue
-[ELSEIF](javascript:call_link\('abapelseif.htm'\))
-[ELSE](javascript:call_link\('abapelse.htm'\))
-[ENDIF](javascript:call_link\('abapendif.htm'\))
+[ELSEIF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapelseif.htm)
+[ELSE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapelse.htm)
+[ENDIF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendif.htm)
 
-
-
-**📖 Source**: [abapif.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm)
 
 ### abapcase.htm
-
-> **📖 Official SAP Documentation**: [abapcase.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -321,13 +250,13 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CASE%2C%20ABAPCASE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CASE
 
-[Short Reference](javascript:call_link\('abapcase_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_shortref.htm)
 
 Syntax
 
@@ -345,8 +274,8 @@ Case Distinction. These statements define a control structure that can contain m
 
 Starting with the first WHEN statement, the system checks from top to bottom whether the content of the operand in operand matches the content of one of the operands operand1, operand2, .... The statement block is executed after the first match. If no matches are found, the statement block is executed after the statement WHEN OTHERS.
 
--   The operand operand after CASE is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry").
--   The operands operand1, operand2, ... after WHEN are [extended functional operand positions](javascript:call_link\('abenextended_functional_positions.htm'\)) in which, however, [table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") cannot be specified. This property of operand positions is obsolete and should no longer be used.
+-   The operand operand after CASE is a [general expression position](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry").
+-   The operands operand1, operand2, ... after WHEN are [extended functional operand positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextended_functional_positions.htm) in which, however, [table expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_expression_glosry.htm "Glossary Entry") cannot be specified. This property of operand positions is obsolete and should no longer be used.
 
 If the end of the executed statement block is reached or no statement block is executed, processing continues after ENDCASE.
 
@@ -355,16 +284,16 @@ The content is compared as illustrated in the following logical expression:
 operand = operand1 *\[*OR operand = operand2
                    *\[*OR operand = operand3 *\[*...*\]**\]**\]*
 
-The [comparison rules](javascript:call_link\('abenlogexp_rules_operands.htm'\)) for comparisons between any operands apply to this comparison, depending on the data types of the operands involved.
+The [comparison rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_rules_operands.htm) for comparisons between any operands apply to this comparison, depending on the data types of the operands involved.
 
 Hints
 
--   For operand, the current value is used in every comparison. This may differ from the starting value if operand is a variable that is changed in a [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") specified after a WHEN statement.
+-   For operand, the current value is used in every comparison. This may differ from the starting value if operand is a variable that is changed in a [functional method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunctional_method_glosry.htm "Glossary Entry") specified after a WHEN statement.
 -   A CASE control structure is somewhat faster than a semantically equivalent IF control structure.
 -   Functional methods and certain built-in functions can be specified after WHEN, however this should be avoided. Constant values, for example, should be specified in the operand positions after WHEN.
--   A special control structure introduced using [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) makes it possible for the type of object reference variables to be checked.
--   The [conditional operator](javascript:call_link\('abenconditional_operator_glosry.htm'\) "Glossary Entry") [SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\)) can also be used to make case distinctions in operand positions.
--   No statement can be placed between the statement CASE and the first statement WHEN. In classes, this produces a syntax error; outside classes, [obsolete syntax](javascript:call_link\('abencase_when_obsolete.htm'\)) like this produces a syntax warning.
+-   A special control structure introduced using [CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm) makes it possible for the type of object reference variables to be checked.
+-   The [conditional operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_operator_glosry.htm "Glossary Entry") [SWITCH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expression_switch.htm) can also be used to make case distinctions in operand positions.
+-   No statement can be placed between the statement CASE and the first statement WHEN. In classes, this produces a syntax error; outside classes, [obsolete syntax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_when_obsolete.htm) like this produces a syntax warning.
 
 Example
 
@@ -405,18 +334,11 @@ ENDCASE.
 cl\_demo\_output=>display( ).
 
 Continue
-[WHEN](javascript:call_link\('abapwhen.htm'\))
-[ENDCASE](javascript:call_link\('abapendcase.htm'\))
+[WHEN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhen.htm)
+[ENDCASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendcase.htm)
 
-
-
-**📖 Source**: [abapcase.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm)
 
 ### abapwhen.htm
-
-> **📖 Official SAP Documentation**: [abapwhen.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -424,13 +346,13 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) →  [CASE](javascript:call_link\('abapcase.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) →  [CASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20WHEN%2C%20ABAPWHEN%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 WHEN
 
-[Short Reference](javascript:call_link\('abapcase_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_shortref.htm)
 
 Syntax
 
@@ -439,17 +361,10 @@ WHEN *{* *{*operand1  *\[*OR operand2 *\[*OR operand2 *\[*...*\]**\]**\]**}*
 
 Effect
 
-See [CASE](javascript:call_link\('abapcase.htm'\)).
+See [CASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm).
 
-
-
-**📖 Source**: [abapwhen.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhen.htm)
 
 ### abapendcase.htm
-
-> **📖 Official SAP Documentation**: [abapendcase.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendcase.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -457,13 +372,13 @@ See [CASE](javascript:call_link\('abapcase.htm'\)).
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) →  [CASE](javascript:call_link\('abapcase.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) →  [CASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ENDCASE%2C%20ABAPENDCASE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ENDCASE
 
-[Short Reference](javascript:call_link\('abapcase_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_shortref.htm)
 
 Syntax
 
@@ -471,17 +386,10 @@ ENDCASE.
 
 Effect
 
-The statement ENDCASE closes a [case distinction](javascript:call_link\('abencase_distinction_glosry.htm'\) "Glossary Entry") introduced using [CASE](javascript:call_link\('abapcase.htm'\)) or [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)).
+The statement ENDCASE closes a [case distinction](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_distinction_glosry.htm "Glossary Entry") introduced using [CASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm) or [CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm).
 
-
-
-**📖 Source**: [abapendcase.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendcase.htm)
 
 ### abapcase.htm
-
-> **📖 Official SAP Documentation**: [abapcase.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -489,13 +397,13 @@ The statement ENDCASE closes a [case distinction](javascript:call_link\('abencas
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CASE%2C%20ABAPCASE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CASE
 
-[Short Reference](javascript:call_link\('abapcase_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_shortref.htm)
 
 Syntax
 
@@ -513,8 +421,8 @@ Case Distinction. These statements define a control structure that can contain m
 
 Starting with the first WHEN statement, the system checks from top to bottom whether the content of the operand in operand matches the content of one of the operands operand1, operand2, .... The statement block is executed after the first match. If no matches are found, the statement block is executed after the statement WHEN OTHERS.
 
--   The operand operand after CASE is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry").
--   The operands operand1, operand2, ... after WHEN are [extended functional operand positions](javascript:call_link\('abenextended_functional_positions.htm'\)) in which, however, [table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") cannot be specified. This property of operand positions is obsolete and should no longer be used.
+-   The operand operand after CASE is a [general expression position](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry").
+-   The operands operand1, operand2, ... after WHEN are [extended functional operand positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenextended_functional_positions.htm) in which, however, [table expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_expression_glosry.htm "Glossary Entry") cannot be specified. This property of operand positions is obsolete and should no longer be used.
 
 If the end of the executed statement block is reached or no statement block is executed, processing continues after ENDCASE.
 
@@ -523,16 +431,16 @@ The content is compared as illustrated in the following logical expression:
 operand = operand1 *\[*OR operand = operand2
                    *\[*OR operand = operand3 *\[*...*\]**\]**\]*
 
-The [comparison rules](javascript:call_link\('abenlogexp_rules_operands.htm'\)) for comparisons between any operands apply to this comparison, depending on the data types of the operands involved.
+The [comparison rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_rules_operands.htm) for comparisons between any operands apply to this comparison, depending on the data types of the operands involved.
 
 Hints
 
--   For operand, the current value is used in every comparison. This may differ from the starting value if operand is a variable that is changed in a [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") specified after a WHEN statement.
+-   For operand, the current value is used in every comparison. This may differ from the starting value if operand is a variable that is changed in a [functional method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunctional_method_glosry.htm "Glossary Entry") specified after a WHEN statement.
 -   A CASE control structure is somewhat faster than a semantically equivalent IF control structure.
 -   Functional methods and certain built-in functions can be specified after WHEN, however this should be avoided. Constant values, for example, should be specified in the operand positions after WHEN.
--   A special control structure introduced using [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) makes it possible for the type of object reference variables to be checked.
--   The [conditional operator](javascript:call_link\('abenconditional_operator_glosry.htm'\) "Glossary Entry") [SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\)) can also be used to make case distinctions in operand positions.
--   No statement can be placed between the statement CASE and the first statement WHEN. In classes, this produces a syntax error; outside classes, [obsolete syntax](javascript:call_link\('abencase_when_obsolete.htm'\)) like this produces a syntax warning.
+-   A special control structure introduced using [CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm) makes it possible for the type of object reference variables to be checked.
+-   The [conditional operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_operator_glosry.htm "Glossary Entry") [SWITCH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconditional_expression_switch.htm) can also be used to make case distinctions in operand positions.
+-   No statement can be placed between the statement CASE and the first statement WHEN. In classes, this produces a syntax error; outside classes, [obsolete syntax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_when_obsolete.htm) like this produces a syntax warning.
 
 Example
 
@@ -573,18 +481,11 @@ ENDCASE.
 cl\_demo\_output=>display( ).
 
 Continue
-[WHEN](javascript:call_link\('abapwhen.htm'\))
-[ENDCASE](javascript:call_link\('abapendcase.htm'\))
+[WHEN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhen.htm)
+[ENDCASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendcase.htm)
 
-
-
-**📖 Source**: [abapcase.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm)
 
 ### abapcase_type.htm
-
-> **📖 Official SAP Documentation**: [abapcase_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -592,13 +493,13 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CASE%20TYPE%20OF%2C%20ABAPCASE_TYPE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CASE TYPE OF
 
-[Short Reference](javascript:call_link\('abapcase_type_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type_shortref.htm)
 
 Syntax
 
@@ -618,7 +519,7 @@ Addition:
 
 Effect
 
-Special [case distinction](javascript:call_link\('abencase_distinction_glosry.htm'\) "Glossary Entry") for [object reference variables](javascript:call_link\('abenobject_refer_variable_glosry.htm'\) "Glossary Entry"). This form of a control structure introduced using [CASE](javascript:call_link\('abapcase.htm'\)) checks the [dynamic type](javascript:call_link\('abendynamic_type_glosry.htm'\) "Glossary Entry") of a non-initial object reference variable and the [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") of an initial object reference variable oref. oref expects an object reference variable with the static type of a class or an interface. oref is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry").
+Special [case distinction](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_distinction_glosry.htm "Glossary Entry") for [object reference variables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_refer_variable_glosry.htm "Glossary Entry"). This form of a control structure introduced using [CASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm) checks the [dynamic type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_type_glosry.htm "Glossary Entry") of a non-initial object reference variable and the [static type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_type_glosry.htm "Glossary Entry") of an initial object reference variable oref. oref expects an object reference variable with the static type of a class or an interface. oref is a [general expression position](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry").
 
 A class class or an interface intf that can be used at this position must be specified after WHEN TYPE. The first statement block statement\_block is executed for which the class class or the interface intf is more general than or equal to the following:
 
@@ -629,11 +530,11 @@ If this does not apply to any class class or interface intf, the statement block
 
 Hints
 
--   A case distinction using CASE TYPE OF is another way of writing the following branch using [IF](javascript:call_link\('abapif.htm'\)) and the predicate expression [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) and the corresponding rules and notes apply:
+-   A case distinction using CASE TYPE OF is another way of writing the following branch using [IF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm) and the predicate expression [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_instance_of.htm) and the corresponding rules and notes apply:
     
-    IF oref [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) class*|*intf.
+    IF oref [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_instance_of.htm) class*|*intf.
       *\[*statement\_block1*\]*
-    ELSEIF oref [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) class*|*intf.
+    ELSEIF oref [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_instance_of.htm) class*|*intf.
       *\[*statement\_block2*\]*
     ...
     ELSE.
@@ -678,7 +579,7 @@ ENDCLASS.
 
 Executable Example
 
-[Case Distinction CASE TYPE OF for Exceptions](javascript:call_link\('abencase_type_of_exception_abexa.htm'\))
+[Case Distinction CASE TYPE OF for Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_exception_abexa.htm)
 
 Addition   
 
@@ -688,10 +589,10 @@ Effect
 
 For every statement WHEN TYPE of a case distinction introduced using CASE TYPE OF, a target variable target can be specified after the optional addition INTO as follows:
 
--   An existing [object reference variable](javascript:call_link\('abenobject_refer_variable_glosry.htm'\) "Glossary Entry") ref whose [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") is more general than or equal to the class class or interface intf specified in the statement.
--   An inline declaration [DATA(ref)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(ref)](javascript:call_link\('abenfinal_inline.htm'\)). In this case, an object reference variable with the static type of the class class or the interface intf is declared.
+-   An existing [object reference variable](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_refer_variable_glosry.htm "Glossary Entry") ref whose [static type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_type_glosry.htm "Glossary Entry") is more general than or equal to the class class or interface intf specified in the statement.
+-   An inline declaration [DATA(ref)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_inline.htm) or [FINAL(ref)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfinal_inline.htm). In this case, an object reference variable with the static type of the class class or the interface intf is declared.
 
-If the addition INTO is specified in the first WHEN statement that fulfills the condition, the reference oref is assigned to ref before the statement block is executed, whereby both [upcasts](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") and [downcasts](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry") can be performed.
+If the addition INTO is specified in the first WHEN statement that fulfills the condition, the reference oref is assigned to ref before the statement block is executed, whereby both [upcasts](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenup_cast_glosry.htm "Glossary Entry") and [downcasts](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendown_cast_glosry.htm "Glossary Entry") can be performed.
 
 Hint
 
@@ -746,22 +647,15 @@ ENDCLASS.
 
 Executable Example
 
-[Case Distinction CASE TYPE OF for RTTI](javascript:call_link\('abencase_type_of_rtti_abexa.htm'\))
+[Case Distinction CASE TYPE OF for RTTI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_rtti_abexa.htm)
 
 Continue
-[WHEN TYPE](javascript:call_link\('abapwhen_type.htm'\))
-![Example](exa.gif "Example") [Case Distinction CASE TYPE OF for Exceptions](javascript:call_link\('abencase_type_of_exception_abexa.htm'\))
-![Example](exa.gif "Example") [Case Distinction CASE TYPE OF for RTTI](javascript:call_link\('abencase_type_of_rtti_abexa.htm'\))
+[WHEN TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhen_type.htm)
+![Example](exa.gif "Example") [Case Distinction CASE TYPE OF for Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_exception_abexa.htm)
+![Example](exa.gif "Example") [Case Distinction CASE TYPE OF for RTTI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_rtti_abexa.htm)
 
-
-
-**📖 Source**: [abapcase_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm)
 
 ### abapwhen_type.htm
-
-> **📖 Official SAP Documentation**: [abapwhen_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhen_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -769,13 +663,13 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) →  [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) →  [CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20WHEN%20TYPE%2C%20ABAPWHEN_TYPE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 WHEN TYPE
 
-[Short Reference](javascript:call_link\('abapcase_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_shortref.htm)
 
 Syntax
 
@@ -783,17 +677,10 @@ WHEN TYPE ... *\[*INTO target*\]*.
 
 Effect
 
-See [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)).
+See [CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm).
 
-
-
-**📖 Source**: [abapwhen_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhen_type.htm)
 
 ### abencase_type_of_exception_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencase_type_of_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_exception_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -801,14 +688,14 @@ See [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)).
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) →  [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) →  [CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Case%20Distinction%20CASE%20TYPE%20OF%20for%20Exceptions%2C%20ABENCASE_TYPE_OF_EXCEPTION_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%2
 0for%20improvement:)
 
 Case Distinction CASE TYPE OF for Exceptions
 
-This example demonstrates the case distinction [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) for exception classes.
+This example demonstrates the case distinction [CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm) for exception classes.
 
 Source Code   
 
@@ -849,17 +736,10 @@ ENDCLASS.
 
 Description   
 
-Non-specific exceptions of the superclass CX\_DYNAMIC\_CHECK can be propagated from a method my\_sqrt. The actual exception class is determined in the calling method using the case distinction [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)).
+Non-specific exceptions of the superclass CX\_DYNAMIC\_CHECK can be propagated from a method my\_sqrt. The actual exception class is determined in the calling method using the case distinction [CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm).
 
-
-
-**📖 Source**: [abencase_type_of_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_exception_abexa.htm)
 
 ### abencase_type_of_rtti_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencase_type_of_rtti_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_rtti_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -867,14 +747,14 @@ Non-specific exceptions of the superclass CX\_DYNAMIC\_CHECK can be propagated f
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) →  [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) →  [CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Case%20Distinction%20CASE%20TYPE%20OF%20for%20RTTI%2C%20ABENCASE_TYPE_OF_RTTI_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impr
 ovement:)
 
 Case Distinction CASE TYPE OF for RTTI
 
-This example demonstrates the case distinction [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) for type description classes.
+This example demonstrates the case distinction [CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm) for type description classes.
 
 Source Code   
 
@@ -919,20 +799,10 @@ ENDCLASS.
 
 Description   
 
-Actual parameters of different types are passed to the generically typed parameter param of the method main, and an [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry") [type description object](javascript:call_link\('abentype_object_glosry.htm'\) "Glossary Entry") is created, to which the general object reference variable typedescr points. The case distinction [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) is used to determine a more specific suitable RTTI type description class. An inline declaration after the addition INTO of the statement WHEN TYPE is used to create an object reference variable of this static type and assign the reference to the type description object. Special attributes of the type description objects are accessed in the associated statement blocks.
+Actual parameters of different types are passed to the generically typed parameter param of the method main, and an [RTTI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry") [type description object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_object_glosry.htm "Glossary Entry") is created, to which the general object reference variable typedescr points. The case distinction [CASE TYPE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm) is used to determine a more specific suitable RTTI type description class. An inline declaration after the addition INTO of the statement WHEN TYPE is used to create an object reference variable of this static type and assign the reference to the type description object. Special attributes of the type description objects are accessed in the associated statement blocks.
 
-
-
-**📖 Source**: [abencase_type_of_rtti_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_rtti_abexa.htm)
 
 ### abapcase_type.htm
-
-> **📖 Official SAP Documentation**: [abapcase_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapcase_type.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type.htm)
-
 
   
 
@@ -940,13 +810,13 @@ Actual parameters of different types are passed to the generically typed paramet
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_branches.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CASE%20TYPE%20OF%2C%20ABAPCASE_TYPE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CASE TYPE OF
 
-[Short Reference](javascript:call_link\('abapcase_type_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase_type_shortref.htm)
 
 Syntax
 
@@ -966,7 +836,7 @@ Addition:
 
 Effect
 
-Special [case distinction](javascript:call_link\('abencase_distinction_glosry.htm'\) "Glossary Entry") for [object reference variables](javascript:call_link\('abenobject_refer_variable_glosry.htm'\) "Glossary Entry"). This form of a control structure introduced using [CASE](javascript:call_link\('abapcase.htm'\)) checks the [dynamic type](javascript:call_link\('abendynamic_type_glosry.htm'\) "Glossary Entry") of a non-initial object reference variable and the [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") of an initial object reference variable oref. oref expects an object reference variable with the static type of a class or an interface. oref is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry").
+Special [case distinction](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_distinction_glosry.htm "Glossary Entry") for [object reference variables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_refer_variable_glosry.htm "Glossary Entry"). This form of a control structure introduced using [CASE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcase.htm) checks the [dynamic type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_type_glosry.htm "Glossary Entry") of a non-initial object reference variable and the [static type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_type_glosry.htm "Glossary Entry") of an initial object reference variable oref. oref expects an object reference variable with the static type of a class or an interface. oref is a [general expression position](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry").
 
 A class class or an interface intf that can be used at this position must be specified after WHEN TYPE. The first statement block statement\_block is executed for which the class class or the interface intf is more general than or equal to the following:
 
@@ -977,11 +847,11 @@ If this does not apply to any class class or interface intf, the statement block
 
 Hints
 
--   A case distinction using CASE TYPE OF is another way of writing the following branch using [IF](javascript:call_link\('abapif.htm'\)) and the predicate expression [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) and the corresponding rules and notes apply:
+-   A case distinction using CASE TYPE OF is another way of writing the following branch using [IF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapif.htm) and the predicate expression [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_instance_of.htm) and the corresponding rules and notes apply:
     
-    IF oref [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) class*|*intf.
+    IF oref [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_instance_of.htm) class*|*intf.
       *\[*statement\_block1*\]*
-    ELSEIF oref [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) class*|*intf.
+    ELSEIF oref [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_instance_of.htm) class*|*intf.
       *\[*statement\_block2*\]*
     ...
     ELSE.
@@ -1026,7 +896,7 @@ ENDCLASS.
 
 Executable Example
 
-[Case Distinction CASE TYPE OF for Exceptions](javascript:call_link\('abencase_type_of_exception_abexa.htm'\))
+[Case Distinction CASE TYPE OF for Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_exception_abexa.htm)
 
 Addition   
 
@@ -1036,10 +906,10 @@ Effect
 
 For every statement WHEN TYPE of a case distinction introduced using CASE TYPE OF, a target variable target can be specified after the optional addition INTO as follows:
 
--   An existing [object reference variable](javascript:call_link\('abenobject_refer_variable_glosry.htm'\) "Glossary Entry") ref whose [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") is more general than or equal to the class class or interface intf specified in the statement.
--   An inline declaration [DATA(ref)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(ref)](javascript:call_link\('abenfinal_inline.htm'\)). In this case, an object reference variable with the static type of the class class or the interface intf is declared.
+-   An existing [object reference variable](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobject_refer_variable_glosry.htm "Glossary Entry") ref whose [static type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_type_glosry.htm "Glossary Entry") is more general than or equal to the class class or interface intf specified in the statement.
+-   An inline declaration [DATA(ref)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_inline.htm) or [FINAL(ref)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfinal_inline.htm). In this case, an object reference variable with the static type of the class class or the interface intf is declared.
 
-If the addition INTO is specified in the first WHEN statement that fulfills the condition, the reference oref is assigned to ref before the statement block is executed, whereby both [upcasts](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") and [downcasts](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry") can be performed.
+If the addition INTO is specified in the first WHEN statement that fulfills the condition, the reference oref is assigned to ref before the statement block is executed, whereby both [upcasts](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenup_cast_glosry.htm "Glossary Entry") and [downcasts](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendown_cast_glosry.htm "Glossary Entry") can be performed.
 
 Hint
 
@@ -1094,9 +964,9 @@ ENDCLASS.
 
 Executable Example
 
-[Case Distinction CASE TYPE OF for RTTI](javascript:call_link\('abencase_type_of_rtti_abexa.htm'\))
+[Case Distinction CASE TYPE OF for RTTI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_rtti_abexa.htm)
 
 Continue
-[WHEN TYPE](javascript:call_link\('abapwhen_type.htm'\))
-![Example](exa.gif "Example") [Case Distinction CASE TYPE OF for Exceptions](javascript:call_link\('abencase_type_of_exception_abexa.htm'\))
-![Example](exa.gif "Example") [Case Distinction CASE TYPE OF for RTTI](javascript:call_link\('abencase_type_of_rtti_abexa.htm'\))
+[WHEN TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwhen_type.htm)
+![Example](exa.gif "Example") [Case Distinction CASE TYPE OF for Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_exception_abexa.htm)
+![Example](exa.gif "Example") [Case Distinction CASE TYPE OF for RTTI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_type_of_rtti_abexa.htm)

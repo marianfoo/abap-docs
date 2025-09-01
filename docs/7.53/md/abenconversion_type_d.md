@@ -4,17 +4,21 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) →  [Date/Time Fields as Source Fields](javascript:call_link\('abendate_time_source_fields.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_elementary.htm) →  [Date/Time Fields as Source Fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_source_fields.htm) → 
 
 Source Field Type d
 
-The conversion rules are designed in such a way that when data objects of the data type [d](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) are assigned to character-like data objects they behave as character-like data objects. The latter is the basis for date calculations in arithmetic expressions.
+The conversion rules are designed in such a way that when data objects of the data type [d](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_date_time.htm) are assigned to character-like data objects they behave as character-like data objects. The latter is the basis for date calculations in arithmetic expressions.
 
 Only dates in the format "yyyymmdd" are valid for data objects of type d. Here, "00010101" is the first valid value. The conversion rules, however, allow the assignment of date fields that contain invalid data. The latter is not recommended.
 
--   [Numeric Target Fields](#abenconversion-type-d-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_D_2)
+-   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_D_1)
 
--   [Byte-Like Target Fields](#abenconversion-type-d-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_D_4)
+-   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_D_2)
+
+-   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_D_3)
+
+-   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_D_4)
 
 Numeric Target Fields
 
@@ -24,7 +28,7 @@ Conversion
 
 i, int8, (b, s)
 
-If the source field contains a valid date in the format "yyyymmdd", it is used to calculate the number of days since 01.01.0001, and this value is then converted to the internal representation of the corresponding integer. If the source field contains an invalid date, the target field is assigned the value 0. If the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") for the internal data types b and s is insufficient, the non-handleable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
+If the source field contains a valid date in the format "yyyymmdd", it is used to calculate the number of days since 01.01.0001, and this value is then converted to the internal representation of the corresponding integer. If the source field contains an invalid date, the target field is assigned the value 0. If the [value range](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_range_glosry.htm "Glossary Entry") for the internal data types b and s is insufficient, the non-handleable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
 
 p
 
@@ -32,7 +36,7 @@ If the source field contains a valid date in the format "yyyymmdd", it is used t
 
 decfloat16, decfloat34
 
-If the source field contains a valid date in the format "yyyymmdd", it is used to calculate the number of days since 01.01.0001, and this value is then converted to the internal representation of a decimal floating point number with a [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") of 0. If the source field contains an invalid date, the target field is assigned the value 0.
+If the source field contains a valid date in the format "yyyymmdd", it is used to calculate the number of days since 01.01.0001, and this value is then converted to the internal representation of a decimal floating point number with a [scaling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscale_glosry.htm "Glossary Entry") of 0. If the source field contains an invalid date, the target field is assigned the value 0.
 
 f
 
@@ -42,7 +46,7 @@ Notes
 
 -   The conversion of a date into the number of days since 01.01.001 is designed in such a way that the transition from the Julian to Gregorian calendar is respected: 4.10.1582 produces the number 577,736 and 15.10.1582 produces 577,737. Converting the dates of the nonexistent days between 5.10.1582 and 14.10.1582 produces the same result as converting the existing days from 15.10.1582 to 24.10.1582.
 
--   The assignment of the values "00000000" and "00010101" to a numeric type produces the value 0 in each case. The [assignment](javascript:call_link\('abenconversion_type_ibs.htm'\)) of the value 0 to a date field produces "00000000". This means that the assignment of the value "00010101" to a numeric type cannot be reversed.
+-   The assignment of the values "00000000" and "00010101" to a numeric type produces the value 0 in each case. The [assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_ibs.htm) of the value 0 to a date field produces "00000000". This means that the assignment of the value "00010101" to a numeric type cannot be reversed.
 
 Example
 
@@ -59,7 +63,7 @@ Conversion
 
 c
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\))
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_c.htm)
 
 n
 
@@ -67,7 +71,7 @@ The characters in the source field are passed left-justified to the target field
 
 string
 
-Content is handled in the same way as a [source field of type c](javascript:call_link\('abenconversion_type_c.htm'\))
+Content is handled in the same way as a [source field of type c](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_c.htm)
 
 Example
 
@@ -85,11 +89,11 @@ Conversion
 
 x
 
-The content of the source field is converted first to data type i (see above) and then to type x (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is converted first to data type i (see above) and then to type x (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_ibs.htm)).
 
 xstring
 
-The content of the source field is converted first to data type i (see above) and then to type xstring (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is converted first to data type i (see above) and then to type xstring (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_ibs.htm)).
 
 Example
 

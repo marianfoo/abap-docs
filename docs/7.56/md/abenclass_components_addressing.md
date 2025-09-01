@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces (ABAP Objects)](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Overview](javascript:call_link\('abenabap_objects_oview.htm'\)) →  [ABAP Objects - Objects](javascript:call_link\('abenobject.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_declarations.htm) →  [Classes and Interfaces (ABAP Objects)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Overview](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_objects_oview.htm) →  [ABAP Objects - Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobject.htm) → 
 
 ABAP Objects - Accessing Class Components
 
-When accessing class components, there is a difference between access from inside and outside of the same class. In internal access, that is, within a method of the same class, the name of the component is sufficient. In external access, the object, in the case of instance components, and the class, in the case of static components, must be specified using an [object component selector](javascript:call_link\('abenobject_component_select_glosry.htm'\) "Glossary Entry") or [class component selector](javascript:call_link\('abenclass_component_select_glosry.htm'\) "Glossary Entry"). Here, a distinction can be made between static and dynamic variants.
+When accessing class components, there is a difference between access from inside and outside of the same class. In internal access, that is, within a method of the same class, the name of the component is sufficient. In external access, the object, in the case of instance components, and the class, in the case of static components, must be specified using an [object component selector](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobject_component_select_glosry.htm "Glossary Entry") or [class component selector](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_component_select_glosry.htm "Glossary Entry"). Here, a distinction can be made between static and dynamic variants.
 
 For static access, object reference variables can only be used to access components that are known to the reference variable. These are the components that are available in the static type of the reference variable (class or interface). Class reference variables that are typed with reference to a superclass but point to subclasses know only the superclass components and the interface references know only interface components.
 
@@ -23,7 +23,7 @@ The following syntax applies (oref is an object reference variable):
 -   Access to an instance attribute attr: oref->attr
 -   Call of an instance method meth: oref->meth( ... )
 
-In addition to reference variables, the class name can be used to access [static components](javascript:call_link\('abenstatic_component_glosry.htm'\) "Glossary Entry") :
+In addition to reference variables, the class name can be used to access [static components](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_component_glosry.htm "Glossary Entry") :
 
 -   Access to a static attribute attr: class=>attr
 -   Call of a static method meth: class=>meth( ... )
@@ -38,7 +38,7 @@ Apart from specifying the name directly, the self-reference me can also be used 
     The self-reference allows an object to pass a reference to itself to other objects. In addition, attributes within an object which are hidden by the local attributes of the method can be accessed using methods.
     
 
-Within a redefined method of a subclass, the [pseudo reference](javascript:call_link\('abenpseudo_reference_glosry.htm'\) "Glossary Entry") super can be used to access the hidden method in one of the superclasses:
+Within a redefined method of a subclass, the [pseudo reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpseudo_reference_glosry.htm "Glossary Entry") super can be used to access the hidden method in one of the superclasses:
 
 -   Call of an hidden method meth: super->meth( ... )
     
@@ -49,15 +49,15 @@ Within a redefined method of a subclass, the [pseudo reference](javascript:call_
     super->constructor( ... )
     
 
-As a special method for accessing attributes, the [attributes for key access](javascript:call_link\('abenclass_attributes_as_key.htm'\)) to internal tables can be used if they contain reference variables.
+As a special method for accessing attributes, the [attributes for key access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_attributes_as_key.htm) to internal tables can be used if they contain reference variables.
 
 Dynamic Access
 
-Dynamic access to class components is possible for attributes (dynamic access) and for [method calls](javascript:call_link\('abapcall_method_dynamic.htm'\)) (dynamic invoke).
+Dynamic access to class components is possible for attributes (dynamic access) and for [method calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_dynamic.htm) (dynamic invoke).
 
 Accessing Attributes Dynamically
 
-Dynamic access to attributes is possible using [dynamic ASSIGN](javascript:call_link\('abapassign_mem_area_dynamic_access.htm'\)) statements on field symbols.
+Dynamic access to attributes is possible using [dynamic ASSIGN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_mem_area_dynamic_access.htm) statements on field symbols.
 
 The following variants can be used (oref is an object reference variable):
 
@@ -101,4 +101,4 @@ The following syntax applies (oref is an object reference variable):
 
 f and c are fields that contain the name of the method meth or class class.
 
-In the case of a dynamic method call, the actual parameter can be passed dynamically to [specific internal tables](javascript:call_link\('abapcall_method_parameter_tables.htm'\)), similarly to calling function modules.
+In the case of a dynamic method call, the actual parameter can be passed dynamically to [specific internal tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_parameter_tables.htm), similarly to calling function modules.

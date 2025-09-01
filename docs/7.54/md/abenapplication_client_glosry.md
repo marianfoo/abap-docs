@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 application client
 
-[Client](javascript:call_link\('abenclient_glosry.htm'\) "Glossary Entry") in [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry") used for the processing data in [application tables](javascript:call_link\('abenapplication_table_glosry.htm'\) "Glossary Entry") in [application programs](javascript:call_link\('abenapplication_program_glosry.htm'\) "Glossary Entry").
+[Client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_glosry.htm "Glossary Entry") in [AS ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") used for the processing data in [application tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapplication_table_glosry.htm "Glossary Entry") in [application programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapplication_program_glosry.htm "Glossary Entry").

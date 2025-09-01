@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 transformation source code
 
-[Source code](javascript:call_link\('abensource_code_glosry.htm'\) "Glossary Entry") of [XSLT programs](javascript:call_link\('abenxslt_program_glosry.htm'\) "Glossary Entry") and [Simple Transformations](javascript:call_link\('abensimple_transformation_glosry.htm'\) "Glossary Entry") processed in the [Transformation Editor](javascript:call_link\('abentransformation_editor_glosry.htm'\) "Glossary Entry") .
+[Source code](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensource_code_glosry.htm "Glossary Entry") of [XSLT programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxslt_program_glosry.htm "Glossary Entry") and [Simple Transformations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensimple_transformation_glosry.htm "Glossary Entry") processed in the [Transformation Editor](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransformation_editor_glosry.htm "Glossary Entry") .

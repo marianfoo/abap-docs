@@ -3,36 +3,7 @@
 Included pages: 17
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenextern_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm)
-- [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_obsolete.htm)
-- [abapcall_function_background_task.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_task.htm)
-- [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwait_obsolete.htm)
-- [abapwait_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_obsolete.htm)
-- [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_obsolete.htm)
-- [abapcall_transformation_objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation_objects.htm)
-- [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cpic.htm)
-- [abapcommunication.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm)
-- [abapcommunication_comstep.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm)
-- [abapcommunication_options.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_options.htm)
-- [abenabap_java_script.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_java_script.htm)
-
-**Bundle Contains**: 12 documentation pages
-**Version**: ABAP 7.56
-**Generated**: 2025-09-01T11:25:45.476Z
-
----
-
 ### abenextern_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abenextern_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -40,60 +11,46 @@ Included pages: 17
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Data and Communication Interfaces
 
--   [Transactional RFC](javascript:call_link\('abenrfc_obsolete.htm'\))
--   [ABAP and XML](javascript:call_link\('abenabap_xml_obsolete.htm'\))
--   [CPI-C Interface](javascript:call_link\('abenabap_cpic.htm'\))
--   [ABAP and JavaScript](javascript:call_link\('abenabap_java_script.htm'\))
+-   [Transactional RFC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_obsolete.htm)
+-   [ABAP and XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_obsolete.htm)
+-   [CPI-C Interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cpic.htm)
+-   [ABAP and JavaScript](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_java_script.htm)
 
 Continue
-[Obsolete Transactional RFC](javascript:call_link\('abenrfc_obsolete.htm'\))
-[Obsolete Wait](javascript:call_link\('abenwait_obsolete.htm'\))
-[Obsolete XML Binding](javascript:call_link\('abenabap_xml_obsolete.htm'\))
-[CPI-C Interface](javascript:call_link\('abenabap_cpic.htm'\))
-[ABAP and JavaScript](javascript:call_link\('abenabap_java_script.htm'\))
+[Obsolete Transactional RFC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_obsolete.htm)
+[Obsolete Wait](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwait_obsolete.htm)
+[Obsolete XML Binding](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_obsolete.htm)
+[CPI-C Interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cpic.htm)
+[ABAP and JavaScript](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_java_script.htm)
 
-
-
-**📖 Source**: [abenextern_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm)
 
 ### abenrfc_obsolete.htm
 
-> **📖 Official SAP Documentation**: [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) → 
 
 Obsolete Transactional RFC
 
--   [CALL FUNCTION - IN BACKGROUND TASK](javascript:call_link\('abapcall_function_background_task.htm'\))
+-   [CALL FUNCTION - IN BACKGROUND TASK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_task.htm)
 
 Hint
 
-[Transactional remote function call (tRFC)](javascript:call_link\('abentrfc_1_glosry.htm'\) "Glossary Entry") and its enhancement, [queued remote function call (qRFC)](javascript:call_link\('abenqueued_remote_function_glosry.htm'\) "Glossary Entry"), have been replaced by [background RFC (bgRFC)](javascript:call_link\('abenbg_remote_function_glosry.htm'\) "Glossary Entry"). It is strongly recommended that bgRFC is used instead of tRFC.
+[Transactional remote function call (tRFC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentrfc_1_glosry.htm "Glossary Entry") and its enhancement, [queued remote function call (qRFC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenqueued_remote_function_glosry.htm "Glossary Entry"), have been replaced by [background RFC (bgRFC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbg_remote_function_glosry.htm "Glossary Entry"). It is strongly recommended that bgRFC is used instead of tRFC.
 
 Continue
-[CALL FUNCTION, IN BACKGROUND TASK](javascript:call_link\('abapcall_function_background_task.htm'\))
+[CALL FUNCTION, IN BACKGROUND TASK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_task.htm)
 
-
-
-**📖 Source**: [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_obsolete.htm)
 
 ### abapcall_function_background_task.htm
-
-> **📖 Official SAP Documentation**: [abapcall_function_background_task.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_task.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -101,18 +58,18 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) →  [Obsolete Transactional RFC](javascript:call_link\('abenrfc_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) →  [Obsolete Transactional RFC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_obsolete.htm) → 
 
 CALL FUNCTION, IN BACKGROUND TASK
 
-[Short Reference](javascript:call_link\('abapcall_function_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_shortref.htm)
 
 Obsolete Syntax
 
 CALL FUNCTION func IN BACKGROUND TASK
                    *\[*AS SEPARATE UNIT*\]*
                    *\[*DESTINATION dest*\]*
-[parameter\_list](javascript:call_link\('abapcall_function_background_para.htm'\)).
+[parameter\_list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_para.htm).
 
 Addition:
 
@@ -120,17 +77,17 @@ Addition:
 
 Effect
 
-Transactional call (tRFC) of a [remote-enabled function module](javascript:call_link\('abenremote_enabled_fm_glosry.htm'\) "Glossary Entry") specified in func using the [RFC interface](javascript:call_link\('abenrfc_interface_glosry.htm'\) "Glossary Entry"). The addition DESTINATION can be used to specify a unique [destination](javascript:call_link\('abenrfc_destination.htm'\)) in dest. If the destination is not specified, the destination NONE is used implicitly. func and dest expect character-like data objects.
+Transactional call (tRFC) of a [remote-enabled function module](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenremote_enabled_fm_glosry.htm "Glossary Entry") specified in func using the [RFC interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_interface_glosry.htm "Glossary Entry"). The addition DESTINATION can be used to specify a unique [destination](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_destination.htm) in dest. If the destination is not specified, the destination NONE is used implicitly. func and dest expect character-like data objects.
 
-The transactional call registers the name of the called function, together with the destination and the actual parameters passed in [parameter\_list](javascript:call_link\('abapcall_function_background_para.htm'\)) for the current [SAP LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry") in the DDIC database tables ARFCSSTATE and ARFCSDATA of the current [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry") under a unique transaction ID, which is abbreviated as TID, stored in a structure of type ARFCTID from the ABAP Dictionary, viewed using transaction SM58. After registration, the calling program is continued after the statement CALL FUNCTION.
+The transactional call registers the name of the called function, together with the destination and the actual parameters passed in [parameter\_list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_para.htm) for the current [SAP LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_luw_glosry.htm "Glossary Entry") in the DDIC database tables ARFCSSTATE and ARFCSDATA of the current [AS ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm "Glossary Entry") under a unique transaction ID, which is abbreviated as TID, stored in a structure of type ARFCTID from the ABAP Dictionary, viewed using transaction SM58. After registration, the calling program is continued after the statement CALL FUNCTION.
 
-When the [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) statement is executed, the function modules registered for the current SAP LUW are started in the order in which they were registered. The statement [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) deletes all previous registrations for the current SAP LUW.
+When the [COMMIT WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit.htm) statement is executed, the function modules registered for the current SAP LUW are started in the order in which they were registered. The statement [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaprollback.htm) deletes all previous registrations for the current SAP LUW.
 
-If the specified destination is not available when COMMIT WORK is executed, an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") called RSARFCSE is started in [background processing](javascript:call_link\('abenbackround_processing_glosry.htm'\) "Glossary Entry"). By default, this tries to start the function modules registered for an SAP LUW in their destination every 15 minutes and up to 30 times. These parameters can be changed using transaction SM59. If the destination does not become available within the specified time, it is recorded in the DDIC database table ARFCSDATA as the entry CPICERR. By default, this entry in database table ARFCSSTATE is deleted after eight days.
+If the specified destination is not available when COMMIT WORK is executed, an [executable program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexecutable_program_glosry.htm "Glossary Entry") called RSARFCSE is started in [background processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbackround_processing_glosry.htm "Glossary Entry"). By default, this tries to start the function modules registered for an SAP LUW in their destination every 15 minutes and up to 30 times. These parameters can be changed using transaction SM59. If the destination does not become available within the specified time, it is recorded in the DDIC database table ARFCSDATA as the entry CPICERR. By default, this entry in database table ARFCSSTATE is deleted after eight days.
 
 Hint
 
-[background RFC (bgRFC)](javascript:call_link\('abenbg_remote_function_glosry.htm'\) "Glossary Entry") executed with the statement [CALL FUNCTION IN BACKGROUND UNIT](javascript:call_link\('abapcall_function_background_unit.htm'\)) is the enhanced successor technology of transactional RFC (tRFC) and makes this technology obsolete. It is strongly recommended to use bgRFC instead of tRFC.
+[background RFC (bgRFC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbg_remote_function_glosry.htm "Glossary Entry") executed with the statement [CALL FUNCTION IN BACKGROUND UNIT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_unit.htm) is the enhanced successor technology of transactional RFC (tRFC) and makes this technology obsolete. It is strongly recommended to use bgRFC instead of tRFC.
 
 More Information
 
@@ -142,80 +99,59 @@ Addition  
 
 Effect
 
-When using the addition AS SEPARATE UNIT, the affected function module is executed in a separate [RFC session](javascript:call_link\('abenrfc_session_glosry.htm'\) "Glossary Entry"), in which the global data of the function pool is not affected by previous calls. Each function module that is registered with the addition AS SEPARATE UNIT is given its own transaction ID. Without the addition AS SEPARATE UNIT, the usual [description](javascript:call_link\('abenrfc_context.htm'\)) applies to the [RFC session](javascript:call_link\('abenrfc_session_glosry.htm'\) "Glossary Entry") of the called function modules. This means that, when using the same [RFC destination](javascript:call_link\('abenrfc_dest_glosry.htm'\) "Glossary Entry") for multiple calls of function modules of to the same function pool, the global data of this function pool is accessed collectively.
+When using the addition AS SEPARATE UNIT, the affected function module is executed in a separate [RFC session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_session_glosry.htm "Glossary Entry"), in which the global data of the function pool is not affected by previous calls. Each function module that is registered with the addition AS SEPARATE UNIT is given its own transaction ID. Without the addition AS SEPARATE UNIT, the usual [description](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_context.htm) applies to the [RFC session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_session_glosry.htm "Glossary Entry") of the called function modules. This means that, when using the same [RFC destination](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_dest_glosry.htm "Glossary Entry") for multiple calls of function modules of to the same function pool, the global data of this function pool is accessed collectively.
 
 Hints
 
--   The function module ID\_OF\_BACKGROUNDTASK can be used after a transactional RFC to determine the transaction ID (TID) of the current [SAP LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry").
--   The transactional RFC (tRFC) is suitable for implementing LUWs in distributed environments (a typical application is ALE). It should be noted that, although the execution of the function modules within a transaction ID is specified, the order of the [LUWs](javascript:call_link\('abenluw_glosry.htm'\) "Glossary Entry") on the RFC servers is not necessarily the same as the order of the SAP LUWs on the RFC client. To achieve the same serialization on RFC servers as well, the tRFC can be extended to [queued RFC (qRFC)](javascript:call_link\('abenqrfc_glosry.htm'\) "Glossary Entry"). For this, the function module TRFC\_SET\_QUEUE\_NAME can be called before a transactional RFC. For more information about qRFC, see the RFC documentation in the SAP Help Portal.
--   If [tRFC](javascript:call_link\('abentrfc_2_glosry.htm'\) "Glossary Entry") or [qRFC](javascript:call_link\('abenqrfc_glosry.htm'\) "Glossary Entry") are registered in a [dialog module](javascript:call_link\('abendialog_module_object_glosry.htm'\) "Glossary Entry") and not started with COMMIT WORK, they are not executed by the COMMIT WORK of the caller either.
--   The new variant [CALL FUNCTION IN BACKGROUND UNIT](javascript:call_link\('abapcall_function_background_unit.htm'\)) ([bgRFC](javascript:call_link\('abenbgrfc_glosry.htm'\) "Glossary Entry")) includes and enhances the existing tRFC and qRFC variants. For this reason, it is strongly recommended that bgRFC is used instead of tRFC.
--   The statements [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) and [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) must not be executed within a LUW. In addition, no implicit [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") can be triggered there.
--   When handling the registration entries in the DDIC database tables ARFCSSTATE and ARFCSDATA, it should be noted that they are subject to the regular administration rules for a [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry"). For example, the database LUW is ended by a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"), all registration entries of the current database LUW are deleted.
+-   The function module ID\_OF\_BACKGROUNDTASK can be used after a transactional RFC to determine the transaction ID (TID) of the current [SAP LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_luw_glosry.htm "Glossary Entry").
+-   The transactional RFC (tRFC) is suitable for implementing LUWs in distributed environments (a typical application is ALE). It should be noted that, although the execution of the function modules within a transaction ID is specified, the order of the [LUWs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenluw_glosry.htm "Glossary Entry") on the RFC servers is not necessarily the same as the order of the SAP LUWs on the RFC client. To achieve the same serialization on RFC servers as well, the tRFC can be extended to [queued RFC (qRFC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenqrfc_glosry.htm "Glossary Entry"). For this, the function module TRFC\_SET\_QUEUE\_NAME can be called before a transactional RFC. For more information about qRFC, see the RFC documentation in the SAP Help Portal.
+-   If [tRFC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentrfc_2_glosry.htm "Glossary Entry") or [qRFC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenqrfc_glosry.htm "Glossary Entry") are registered in a [dialog module](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendialog_module_object_glosry.htm "Glossary Entry") and not started with COMMIT WORK, they are not executed by the COMMIT WORK of the caller either.
+-   The new variant [CALL FUNCTION IN BACKGROUND UNIT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_unit.htm) ([bgRFC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbgrfc_glosry.htm "Glossary Entry")) includes and enhances the existing tRFC and qRFC variants. For this reason, it is strongly recommended that bgRFC is used instead of tRFC.
+-   The statements [COMMIT WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit.htm) and [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaprollback.htm) must not be executed within a LUW. In addition, no implicit [database commit](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_commit_glosry.htm "Glossary Entry") can be triggered there.
+-   When handling the registration entries in the DDIC database tables ARFCSSTATE and ARFCSDATA, it should be noted that they are subject to the regular administration rules for a [database LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). For example, the database LUW is ended by a [database rollback](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"), all registration entries of the current database LUW are deleted.
 
-
-
-**📖 Source**: [abapcall_function_background_task.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_task.htm)
 
 ### abenrfc_obsolete.htm
 
-> **📖 Official SAP Documentation**: [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) → 
 
 Obsolete Transactional RFC
 
--   [CALL FUNCTION - IN BACKGROUND TASK](javascript:call_link\('abapcall_function_background_task.htm'\))
+-   [CALL FUNCTION - IN BACKGROUND TASK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_task.htm)
 
 Hint
 
-[Transactional remote function call (tRFC)](javascript:call_link\('abentrfc_1_glosry.htm'\) "Glossary Entry") and its enhancement, [queued remote function call (qRFC)](javascript:call_link\('abenqueued_remote_function_glosry.htm'\) "Glossary Entry"), have been replaced by [background RFC (bgRFC)](javascript:call_link\('abenbg_remote_function_glosry.htm'\) "Glossary Entry"). It is strongly recommended that bgRFC is used instead of tRFC.
+[Transactional remote function call (tRFC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentrfc_1_glosry.htm "Glossary Entry") and its enhancement, [queued remote function call (qRFC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenqueued_remote_function_glosry.htm "Glossary Entry"), have been replaced by [background RFC (bgRFC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbg_remote_function_glosry.htm "Glossary Entry"). It is strongly recommended that bgRFC is used instead of tRFC.
 
 Continue
-[CALL FUNCTION, IN BACKGROUND TASK](javascript:call_link\('abapcall_function_background_task.htm'\))
+[CALL FUNCTION, IN BACKGROUND TASK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_task.htm)
 
-
-
-**📖 Source**: [abenrfc_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_obsolete.htm)
 
 ### abenwait_obsolete.htm
 
-> **📖 Official SAP Documentation**: [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwait_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) → 
 
 Obsolete Wait
 
--   [WAIT UNTIL - Short Form](javascript:call_link\('abapwait_obsolete.htm'\))
+-   [WAIT UNTIL - Short Form](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_obsolete.htm)
 
 Continue
-[WAIT UNTIL, Short Form](javascript:call_link\('abapwait_obsolete.htm'\))
+[WAIT UNTIL, Short Form](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_obsolete.htm)
 
-
-
-**📖 Source**: [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwait_obsolete.htm)
 
 ### abapwait_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abapwait_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -223,85 +159,64 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) →  [Obsolete Wait](javascript:call_link\('abenwait_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) →  [Obsolete Wait](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwait_obsolete.htm) → 
 
 WAIT UNTIL, Short Form
 
-[Short Reference](javascript:call_link\('abapwait_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_shortref.htm)
 
 Obsolete Syntax
 
-WAIT UNTIL [log\_exp](javascript:call_link\('abenlogexp.htm'\)) *\[*UP TO sec SECONDS*\]*.
+WAIT UNTIL [log\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp.htm) *\[*UP TO sec SECONDS*\]*.
 
 Effect
 
 This statement works in the same way as
 
-[WAIT FOR ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_arfc.htm'\)) UNTIL logexp *\[*UP TO sec SECONDS*\]*.
+[WAIT FOR ASYNCHRONOUS TASKS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_arfc.htm) UNTIL logexp *\[*UP TO sec SECONDS*\]*.
 
 Hint
 
-The complete form using FOR ASYNCHRONOUS TASKS should always be used. This addition expresses that an [asynchronous RFC](javascript:call_link\('abenasynchronous_rfc_glosry.htm'\) "Glossary Entry") is expected and distinguishes the statement from [WAIT FOR MESSAGING CHANNELS](javascript:call_link\('abapwait_amc.htm'\)) or [WAIT FOR PUSH CHANNELS](javascript:call_link\('abapwait_apc.htm'\)), which are waiting for messages from [ABAP Messaging Channels](javascript:call_link\('abenabap_messaging_channels_glosry.htm'\) "Glossary Entry") or [ABAP Push Channels](javascript:call_link\('abenabap_push_channels_glosry.htm'\) "Glossary Entry").
+The complete form using FOR ASYNCHRONOUS TASKS should always be used. This addition expresses that an [asynchronous RFC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasynchronous_rfc_glosry.htm "Glossary Entry") is expected and distinguishes the statement from [WAIT FOR MESSAGING CHANNELS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_amc.htm) or [WAIT FOR PUSH CHANNELS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_apc.htm), which are waiting for messages from [ABAP Messaging Channels](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_messaging_channels_glosry.htm "Glossary Entry") or [ABAP Push Channels](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_push_channels_glosry.htm "Glossary Entry").
 
-
-
-**📖 Source**: [abapwait_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_obsolete.htm)
 
 ### abenwait_obsolete.htm
 
-> **📖 Official SAP Documentation**: [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwait_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) → 
 
 Obsolete Wait
 
--   [WAIT UNTIL - Short Form](javascript:call_link\('abapwait_obsolete.htm'\))
+-   [WAIT UNTIL - Short Form](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_obsolete.htm)
 
 Continue
-[WAIT UNTIL, Short Form](javascript:call_link\('abapwait_obsolete.htm'\))
+[WAIT UNTIL, Short Form](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_obsolete.htm)
 
-
-
-**📖 Source**: [abenwait_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwait_obsolete.htm)
 
 ### abenabap_xml_obsolete.htm
 
-> **📖 Official SAP Documentation**: [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) → 
 
 Obsolete XML Binding
 
--   [CALL TRANSFORMATION - OBJECTS](javascript:call_link\('abapcall_transformation_objects.htm'\))
+-   [CALL TRANSFORMATION - OBJECTS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation_objects.htm)
 
 Continue
-[CALL TRANSFORMATION, OBJECTS](javascript:call_link\('abapcall_transformation_objects.htm'\))
+[CALL TRANSFORMATION, OBJECTS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation_objects.htm)
 
-
-
-**📖 Source**: [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_obsolete.htm)
 
 ### abapcall_transformation_objects.htm
-
-> **📖 Official SAP Documentation**: [abapcall_transformation_objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation_objects.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -309,11 +224,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) →  [Obsolete XML Binding](javascript:call_link\('abenabap_xml_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) →  [Obsolete XML Binding](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_obsolete.htm) → 
 
 CALL TRANSFORMATION, OBJECTS
 
-[Short Reference](javascript:call_link\('abapcall_transformation_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation_shortref.htm)
 
 Obsolete Syntax
 
@@ -321,77 +236,56 @@ Obsolete Syntax
 
 Effect
 
-This addition of the statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) can be used to pass object references e1 e2 ... to an XSL transformation as external objects o1 o2 ... to call their methods here.
+This addition of the statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation.htm) can be used to pass object references e1 e2 ... to an XSL transformation as external objects o1 o2 ... to call their methods here.
 
-Instead of using a static parameter list, the objects can be passed dynamically as value pairs in the columns of the internal table otab with the type abap\_trans\_objbind\_tab from the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") ABAP.
+Instead of using a static parameter list, the objects can be passed dynamically as value pairs in the columns of the internal table otab with the type abap\_trans\_objbind\_tab from the [type pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentype_pool_glosry.htm "Glossary Entry") ABAP.
 
 Hint
 
-The addition OBJECTS is obsolete. External objects are handled like parameters and object references must be passed accordingly with the addition [PARAMETERS](javascript:call_link\('abapcall_transformation.htm'\)).
+The addition OBJECTS is obsolete. External objects are handled like parameters and object references must be passed accordingly with the addition [PARAMETERS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation.htm).
 
-
-
-**📖 Source**: [abapcall_transformation_objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation_objects.htm)
 
 ### abenabap_xml_obsolete.htm
 
-> **📖 Official SAP Documentation**: [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) → 
 
 Obsolete XML Binding
 
--   [CALL TRANSFORMATION - OBJECTS](javascript:call_link\('abapcall_transformation_objects.htm'\))
+-   [CALL TRANSFORMATION - OBJECTS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation_objects.htm)
 
 Continue
-[CALL TRANSFORMATION, OBJECTS](javascript:call_link\('abapcall_transformation_objects.htm'\))
+[CALL TRANSFORMATION, OBJECTS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation_objects.htm)
 
-
-
-**📖 Source**: [abenabap_xml_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_obsolete.htm)
 
 ### abenabap_cpic.htm
 
-> **📖 Official SAP Documentation**: [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cpic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) → 
 
 CPI-C Interface
 
-This section describes cross-system communications between two ABAP programs as realized using the [COMMUNICATION](javascript:call_link\('abapcommunication.htm'\)) statement.
+This section describes cross-system communications between two ABAP programs as realized using the [COMMUNICATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm) statement.
 
 Hint
 
-SDK for CPI-C is no longer supported. The CPI-C libraries and the documentation for programming are no longer delivered. For new programs, SDK and the libraries for [RFC](javascript:call_link\('abenrfc_glosry.htm'\) "Glossary Entry") must be used. The API for CPI-C was retained to support existing programs and for internal technical purposes.
+SDK for CPI-C is no longer supported. The CPI-C libraries and the documentation for programming are no longer delivered. For new programs, SDK and the libraries for [RFC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_glosry.htm "Glossary Entry") must be used. The API for CPI-C was retained to support existing programs and for internal technical purposes.
 
 Continue
-[COMMUNICATION](javascript:call_link\('abapcommunication.htm'\))
+[COMMUNICATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm)
 
-
-
-**📖 Source**: [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cpic.htm)
 
 ### abapcommunication.htm
-
-> **📖 Official SAP Documentation**: [abapcommunication.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -399,39 +293,39 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) →  [CPI-C Interface](javascript:call_link\('abenabap_cpic.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) →  [CPI-C Interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cpic.htm) → 
 
 COMMUNICATION
 
-[Short Reference](javascript:call_link\('abapcommunication_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_shortref.htm)
 
 Obsolete Syntax
 
-COMMUNICATION [comstep](javascript:call_link\('abapcommunication_comstep.htm'\)) ID id *\[* [cpic\_options](javascript:call_link\('abapcommunication_options.htm'\))*\]*.
+COMMUNICATION [comstep](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm) ID id *\[* [cpic\_options](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_options.htm)*\]*.
 
 Effect
 
-This statement enables cross-system communication between two ABAP programs, or between an ABAP program and a program written in another programming language. The entire communication process takes place in individual communication steps, for which the COMMUNICATION statement must be executed repeatedly with the corresponding additions [comstep](javascript:call_link\('abapcommunication_comstep.htm'\)). For both partner programs, communication is based on the [CPI-C](javascript:call_link\('abencpi-c_glosry.htm'\) "Glossary Entry") interface, which has been defined as a communication standard by IBM as a part of the SAA standard. This interface provides the following functions in the form of the CPI-C starter set:
+This statement enables cross-system communication between two ABAP programs, or between an ABAP program and a program written in another programming language. The entire communication process takes place in individual communication steps, for which the COMMUNICATION statement must be executed repeatedly with the corresponding additions [comstep](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm). For both partner programs, communication is based on the [CPI-C](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencpi-c_glosry.htm "Glossary Entry") interface, which has been defined as a communication standard by IBM as a part of the SAA standard. This interface provides the following functions in the form of the CPI-C starter set:
 
 -   Establishing, accepting, and closing a connection
 -   Sending and receiving data
 
 Coordination of the individual communication steps, recording any errors that occur in the DDIC database table TCPIC and, if necessary, data conversion, take place in the individual programs themselves. The parameters that determined the physical partner system for a connection are administrated in the DDIC database table TXCOM.
 
-Once the connection is initialized, the system writes an eight-digit connection number in the data object id. This number can be used to identify individual connections. As standard, 2\*\*16 connections are possible for each calling program. id expects only [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like data types, with a minimum length of eight digits.
+Once the connection is initialized, the system writes an eight-digit connection number in the data object id. This number can be used to identify individual connections. As standard, 2\*\*16 connections are possible for each calling program. id expects only [flat](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_glosry.htm "Glossary Entry") character-like data types, with a minimum length of eight digits.
 
-After initialization, the connection must be established. Then, in the first connection step, all the necessary administration data is sent to the partner system. The data sent in this connection step must have a specific structure and must be available in an [EBCDIC](javascript:call_link\('abenebcdic_glosry.htm'\) "Glossary Entry") format. The example below shows how a specifically structured structure can be converted into the EBCDIC format. The subsequent response also exists in EBCDIC format. After this initial connection has been established, data can be transferred without the need for further conversion.
+After initialization, the connection must be established. Then, in the first connection step, all the necessary administration data is sent to the partner system. The data sent in this connection step must have a specific structure and must be available in an [EBCDIC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenebcdic_glosry.htm "Glossary Entry") format. The example below shows how a specifically structured structure can be converted into the EBCDIC format. The subsequent response also exists in EBCDIC format. After this initial connection has been established, data can be transferred without the need for further conversion.
 
-During communication, the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") in the called program must not be changed. Screen output is ignored or, in the case of list output to the SAP spool system, is redirected if the statement NEW-PAGE was entered beforehand. [Messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") of types I, S, and W are ignored, while types A and E cause the program to terminate.
+During communication, the [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry") in the called program must not be changed. Screen output is ignored or, in the case of list output to the SAP spool system, is redirected if the statement NEW-PAGE was entered beforehand. [Messages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm "Glossary Entry") of types I, S, and W are ignored, while types A and E cause the program to terminate.
 
 Hints
 
--   The statement COMMUNICATION is not supported in classes and should no longer occur in programs, since support for the direct programming of the CPI-C interface has largely been discontinued. Instead, only the [RFC interface](javascript:call_link\('abenrfc_interface_glosry.htm'\) "Glossary Entry") is to be used for communication between programs. However, the function of the statement is maintained for supporting existing programs and for internal purposes.
+-   The statement COMMUNICATION is not supported in classes and should no longer occur in programs, since support for the direct programming of the CPI-C interface has largely been discontinued. Instead, only the [RFC interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_interface_glosry.htm "Glossary Entry") is to be used for communication between programs. However, the function of the statement is maintained for supporting existing programs and for internal purposes.
 -   The EBCDIC format is used in the first connection step because the CPI-C interface was mainly used for connections to R/2 systems.
 
 Example
 
-In the simplest case, an ABAP program calls a subroutine in an ABAP program of another [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry"). To enable this, the calling program must log on to the other system by specifying the type of CPI-C service, the logon data, the programs and subroutines, and the type of error handling. The registration takes place by sending a specific structure to the other system in EBCDIC format.
+In the simplest case, an ABAP program calls a subroutine in an ABAP program of another [AS ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm "Glossary Entry"). To enable this, the calling program must log on to the other system by specifying the type of CPI-C service, the logon data, the programs and subroutines, and the type of error handling. The registration takes place by sending a specific structure to the other system in EBCDIC format.
 
 The following example shows a schematic representation of the communication between two ABAP programs P1 and P2 without querying return values. The calling program P1 first creates the connection and sends a field connect\_xstr that contains the content of the connect structure converted to EBCDIC format with the necessary data. After the connection is confirmed by P2, P1 sends the actual, unconverted application data in the buffer b. When this data has been received, P2 sends a confirmation to P1. The connection from P1 is then closed again and the content of the buffer ("Answer") is produced as output.
 
@@ -512,7 +406,7 @@ COMMUNICATION RECEIVE
 WRITE / b.
 COMMUNICATION DEALLOCATE ID id.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 
@@ -522,18 +416,11 @@ Uncatchable Exceptions
     Runtime error: COMMUNICATION\_INIT\_NO\_AUTH
 
 Continue
-[COMMUNICATION, comstep](javascript:call_link\('abapcommunication_comstep.htm'\))
-[COMMUNICATION, cpic\_options](javascript:call_link\('abapcommunication_options.htm'\))
+[COMMUNICATION, comstep](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm)
+[COMMUNICATION, cpic\_options](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_options.htm)
 
-
-
-**📖 Source**: [abapcommunication.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm)
 
 ### abapcommunication_comstep.htm
-
-> **📖 Official SAP Documentation**: [abapcommunication_comstep.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -541,11 +428,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) →  [CPI-C Interface](javascript:call_link\('abenabap_cpic.htm'\)) →  [COMMUNICATION](javascript:call_link\('abapcommunication.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) →  [CPI-C Interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cpic.htm) →  [COMMUNICATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm) → 
 
 COMMUNICATION, comstep
 
-[Short Reference](javascript:call_link\('abapcommunication_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_shortref.htm)
 
 Obsolete Syntax
 
@@ -575,9 +462,9 @@ Alternative 1  
 
 Effect
 
-The connection between the programs initialized by specifying dest. dest expects a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like data object of the length 8 that, when executing the statement, contains a value from the column SDEST of the DDIC database table TXCOM.
+The connection between the programs initialized by specifying dest. dest expects a [flat](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_glosry.htm "Glossary Entry") character-like data object of the length 8 that, when executing the statement, contains a value from the column SDEST of the DDIC database table TXCOM.
 
-During initialization, the system automatically runs an authorization check on the [authorization object](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") S\_CPIC. The authorization can be checked before the connection is established using the function module AUTHORITY\_CHECK\_CPIC.
+During initialization, the system automatically runs an authorization check on the [authorization object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_object_glosry.htm "Glossary Entry") S\_CPIC. The authorization can be checked before the connection is established using the function module AUTHORITY\_CHECK\_CPIC.
 
 Alternative 2   
 
@@ -601,7 +488,7 @@ Alternative 4  
 
 Effect
 
-Sends data to the partner program. A data object can be specified for buf, for which all [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") elementary types are allowed and the memory requirement of 32000 bytes cannot be exceeded. If the statement COMMUNICATION is executed, the content of buf is passed to the partner program.
+Sends data to the partner program. A data object can be specified for buf, for which all [flat](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_glosry.htm "Glossary Entry") elementary types are allowed and the memory requirement of 32000 bytes cannot be exceeded. If the statement COMMUNICATION is executed, the content of buf is passed to the partner program.
 
 Hints
 
@@ -616,7 +503,7 @@ Effect
 
 Receives data from the partner program. A data object can be specified for buf, for which all flat elementary types are allowed and the memory requirement of 32000 bytes cannot be exceeded. When the statement COMMUNICATION is executed, the content of buf is taken from the partner program.
 
-After the execution of the statement, the data object dat contains information about whether the data is sent completely, and the content of the data object stat indicates whether the current program is in send or receive mode. Only byte-like data objects are allowed for dat and stat, the length should not be less than 4 bytes. The encoding for the values in dat and stat can be taken from the [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") RSCPICDF. Here, data objects with a descriptive name and [start values](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry") are declared which can be compared with dat and stat.
+After the execution of the statement, the data object dat contains information about whether the data is sent completely, and the content of the data object stat indicates whether the current program is in send or receive mode. Only byte-like data objects are allowed for dat and stat, the length should not be less than 4 bytes. The encoding for the values in dat and stat can be taken from the [include program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninclude_program_glosry.htm "Glossary Entry") RSCPICDF. Here, data objects with a descriptive name and [start values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstart_value_glosry.htm "Glossary Entry") are declared which can be compared with dat and stat.
 
 Hint
 
@@ -631,14 +518,7 @@ Effect
 The connection is closed, and all memory areas are released.
 
 
-
-**📖 Source**: [abapcommunication_comstep.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm)
-
 ### abapcommunication_options.htm
-
-> **📖 Official SAP Documentation**: [abapcommunication_options.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_options.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -646,11 +526,11 @@ The connection is closed, and all memory areas are released.
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) →  [CPI-C Interface](javascript:call_link\('abenabap_cpic.htm'\)) →  [COMMUNICATION](javascript:call_link\('abapcommunication.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) →  [CPI-C Interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cpic.htm) →  [COMMUNICATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm) → 
 
 COMMUNICATION, cpic\_options
 
-[Short Reference](javascript:call_link\('abapcommunication_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_shortref.htm)
 
 Obsolete Syntax
 
@@ -676,7 +556,7 @@ Addition 1  
 
 Effect
 
-This addition can be specified for any communication steps and receives the return code in rc. rc expects the data type i. The meaning of the return codes is encoded in the [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") RSCPICDF. Here, data objects with descriptive names and [start values](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry") are declared and can be compared with rc. The following table contains a list of possible return values.
+This addition can be specified for any communication steps and receives the return code in rc. rc expects the data type i. The meaning of the return codes is encoded in the [include program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninclude_program_glosry.htm "Glossary Entry") RSCPICDF. Here, data objects with descriptive names and [start values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstart_value_glosry.htm "Glossary Entry") are declared and can be compared with rc. The following table contains a list of possible return values.
 
 rc
 
@@ -782,17 +662,10 @@ Addition 4  
 
 Effect
 
-This addition can only be specified for the communication step RECEIVE. It prevents a change of the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") when receiving data to avoid the possible loss of the [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry"). In this case, the current work process waits until all data has been received.
+This addition can only be specified for the communication step RECEIVE. It prevents a change of the [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry") when receiving data to avoid the possible loss of the [database cursor](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_cursor_glosry.htm "Glossary Entry"). In this case, the current work process waits until all data has been received.
 
-
-
-**📖 Source**: [abapcommunication_options.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_options.htm)
 
 ### abapcommunication.htm
-
-> **📖 Official SAP Documentation**: [abapcommunication.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -800,39 +673,39 @@ This addition can only be specified for the communication step RECEIVE. It preve
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) →  [CPI-C Interface](javascript:call_link\('abenabap_cpic.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) →  [CPI-C Interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cpic.htm) → 
 
 COMMUNICATION
 
-[Short Reference](javascript:call_link\('abapcommunication_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_shortref.htm)
 
 Obsolete Syntax
 
-COMMUNICATION [comstep](javascript:call_link\('abapcommunication_comstep.htm'\)) ID id *\[* [cpic\_options](javascript:call_link\('abapcommunication_options.htm'\))*\]*.
+COMMUNICATION [comstep](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm) ID id *\[* [cpic\_options](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_options.htm)*\]*.
 
 Effect
 
-This statement enables cross-system communication between two ABAP programs, or between an ABAP program and a program written in another programming language. The entire communication process takes place in individual communication steps, for which the COMMUNICATION statement must be executed repeatedly with the corresponding additions [comstep](javascript:call_link\('abapcommunication_comstep.htm'\)). For both partner programs, communication is based on the [CPI-C](javascript:call_link\('abencpi-c_glosry.htm'\) "Glossary Entry") interface, which has been defined as a communication standard by IBM as a part of the SAA standard. This interface provides the following functions in the form of the CPI-C starter set:
+This statement enables cross-system communication between two ABAP programs, or between an ABAP program and a program written in another programming language. The entire communication process takes place in individual communication steps, for which the COMMUNICATION statement must be executed repeatedly with the corresponding additions [comstep](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm). For both partner programs, communication is based on the [CPI-C](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencpi-c_glosry.htm "Glossary Entry") interface, which has been defined as a communication standard by IBM as a part of the SAA standard. This interface provides the following functions in the form of the CPI-C starter set:
 
 -   Establishing, accepting, and closing a connection
 -   Sending and receiving data
 
 Coordination of the individual communication steps, recording any errors that occur in the DDIC database table TCPIC and, if necessary, data conversion, take place in the individual programs themselves. The parameters that determined the physical partner system for a connection are administrated in the DDIC database table TXCOM.
 
-Once the connection is initialized, the system writes an eight-digit connection number in the data object id. This number can be used to identify individual connections. As standard, 2\*\*16 connections are possible for each calling program. id expects only [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like data types, with a minimum length of eight digits.
+Once the connection is initialized, the system writes an eight-digit connection number in the data object id. This number can be used to identify individual connections. As standard, 2\*\*16 connections are possible for each calling program. id expects only [flat](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_glosry.htm "Glossary Entry") character-like data types, with a minimum length of eight digits.
 
-After initialization, the connection must be established. Then, in the first connection step, all the necessary administration data is sent to the partner system. The data sent in this connection step must have a specific structure and must be available in an [EBCDIC](javascript:call_link\('abenebcdic_glosry.htm'\) "Glossary Entry") format. The example below shows how a specifically structured structure can be converted into the EBCDIC format. The subsequent response also exists in EBCDIC format. After this initial connection has been established, data can be transferred without the need for further conversion.
+After initialization, the connection must be established. Then, in the first connection step, all the necessary administration data is sent to the partner system. The data sent in this connection step must have a specific structure and must be available in an [EBCDIC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenebcdic_glosry.htm "Glossary Entry") format. The example below shows how a specifically structured structure can be converted into the EBCDIC format. The subsequent response also exists in EBCDIC format. After this initial connection has been established, data can be transferred without the need for further conversion.
 
-During communication, the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") in the called program must not be changed. Screen output is ignored or, in the case of list output to the SAP spool system, is redirected if the statement NEW-PAGE was entered beforehand. [Messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") of types I, S, and W are ignored, while types A and E cause the program to terminate.
+During communication, the [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry") in the called program must not be changed. Screen output is ignored or, in the case of list output to the SAP spool system, is redirected if the statement NEW-PAGE was entered beforehand. [Messages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm "Glossary Entry") of types I, S, and W are ignored, while types A and E cause the program to terminate.
 
 Hints
 
--   The statement COMMUNICATION is not supported in classes and should no longer occur in programs, since support for the direct programming of the CPI-C interface has largely been discontinued. Instead, only the [RFC interface](javascript:call_link\('abenrfc_interface_glosry.htm'\) "Glossary Entry") is to be used for communication between programs. However, the function of the statement is maintained for supporting existing programs and for internal purposes.
+-   The statement COMMUNICATION is not supported in classes and should no longer occur in programs, since support for the direct programming of the CPI-C interface has largely been discontinued. Instead, only the [RFC interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_interface_glosry.htm "Glossary Entry") is to be used for communication between programs. However, the function of the statement is maintained for supporting existing programs and for internal purposes.
 -   The EBCDIC format is used in the first connection step because the CPI-C interface was mainly used for connections to R/2 systems.
 
 Example
 
-In the simplest case, an ABAP program calls a subroutine in an ABAP program of another [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry"). To enable this, the calling program must log on to the other system by specifying the type of CPI-C service, the logon data, the programs and subroutines, and the type of error handling. The registration takes place by sending a specific structure to the other system in EBCDIC format.
+In the simplest case, an ABAP program calls a subroutine in an ABAP program of another [AS ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm "Glossary Entry"). To enable this, the calling program must log on to the other system by specifying the type of CPI-C service, the logon data, the programs and subroutines, and the type of error handling. The registration takes place by sending a specific structure to the other system in EBCDIC format.
 
 The following example shows a schematic representation of the communication between two ABAP programs P1 and P2 without querying return values. The calling program P1 first creates the connection and sends a field connect\_xstr that contains the content of the connect structure converted to EBCDIC format with the necessary data. After the connection is confirmed by P2, P1 sends the actual, unconverted application data in the buffer b. When this data has been received, P2 sends a confirmation to P1. The connection from P1 is then closed again and the content of the buffer ("Answer") is produced as output.
 
@@ -913,7 +786,7 @@ COMMUNICATION RECEIVE
 WRITE / b.
 COMMUNICATION DEALLOCATE ID id.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 
@@ -923,50 +796,33 @@ Uncatchable Exceptions
     Runtime error: COMMUNICATION\_INIT\_NO\_AUTH
 
 Continue
-[COMMUNICATION, comstep](javascript:call_link\('abapcommunication_comstep.htm'\))
-[COMMUNICATION, cpic\_options](javascript:call_link\('abapcommunication_options.htm'\))
+[COMMUNICATION, comstep](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm)
+[COMMUNICATION, cpic\_options](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_options.htm)
 
-
-
-**📖 Source**: [abapcommunication.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm)
 
 ### abenabap_cpic.htm
 
-> **📖 Official SAP Documentation**: [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cpic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) → 
 
 CPI-C Interface
 
-This section describes cross-system communications between two ABAP programs as realized using the [COMMUNICATION](javascript:call_link\('abapcommunication.htm'\)) statement.
+This section describes cross-system communications between two ABAP programs as realized using the [COMMUNICATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm) statement.
 
 Hint
 
-SDK for CPI-C is no longer supported. The CPI-C libraries and the documentation for programming are no longer delivered. For new programs, SDK and the libraries for [RFC](javascript:call_link\('abenrfc_glosry.htm'\) "Glossary Entry") must be used. The API for CPI-C was retained to support existing programs and for internal technical purposes.
+SDK for CPI-C is no longer supported. The CPI-C libraries and the documentation for programming are no longer delivered. For new programs, SDK and the libraries for [RFC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_glosry.htm "Glossary Entry") must be used. The API for CPI-C was retained to support existing programs and for internal technical purposes.
 
 Continue
-[COMMUNICATION](javascript:call_link\('abapcommunication.htm'\))
+[COMMUNICATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm)
 
-
-
-**📖 Source**: [abenabap_cpic.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cpic.htm)
 
 ### abenabap_java_script.htm
-
-> **📖 Official SAP Documentation**: [abenabap_java_script.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_java_script.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenabap_java_script.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_java_script.htm)
-
 
   
 
@@ -974,7 +830,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextern_obsolete.htm) → 
 
 ABAP and JavaScript
 

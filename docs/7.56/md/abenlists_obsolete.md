@@ -4,19 +4,19 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengui_obsolete.htm) → 
 
 Obsolete Statements in List Processing
 
-[Classic lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) should no longer be used in productive application programs. SAP List Viewer (ALV) should be used instead of classic lists. If classic lists are still used for any reason, then the following constructs must be avoided:
+[Classic lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) should no longer be used in productive application programs. SAP List Viewer (ALV) should be used instead of classic lists. If classic lists are still used for any reason, then the following constructs must be avoided:
 
--   [Obsolete formatting](javascript:call_link\('abenformat_obsolete.htm'\))
--   [Obsolete calculations](javascript:call_link\('abencalculate_obsolete.htm'\))
--   [Obsolete list event](javascript:call_link\('abenlist_event_obsolete.htm'\))
--   [Obsolete spooling](javascript:call_link\('abenprinting_obsolete.htm'\))
+-   [Obsolete formatting](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenformat_obsolete.htm)
+-   [Obsolete calculations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculate_obsolete.htm)
+-   [Obsolete list event](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_event_obsolete.htm)
+-   [Obsolete spooling](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprinting_obsolete.htm)
 
 Continue
-[Obsolete Formatting](javascript:call_link\('abenformat_obsolete.htm'\))
-[Obsolete Calculations](javascript:call_link\('abencalculate_obsolete.htm'\))
-[Obsolete List Event](javascript:call_link\('abenlist_event_obsolete.htm'\))
-[Obsolete Spooling](javascript:call_link\('abenprinting_obsolete.htm'\))
+[Obsolete Formatting](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenformat_obsolete.htm)
+[Obsolete Calculations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculate_obsolete.htm)
+[Obsolete List Event](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_event_obsolete.htm)
+[Obsolete Spooling](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprinting_obsolete.htm)

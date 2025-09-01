@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_processing_statements.htm) → 
 
 SET BIT
 
-[Short Reference](javascript:call_link\('abapset_bit_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_bit_shortref.htm)
 
 Syntax
 
@@ -18,7 +18,7 @@ Effect
 
 This statement sets the bit in bit position bitpos of the variable byte\_string to 1 or, if specified, to the value of data object val. The other bits in byte\_string remain unchanged.
 
-The data object byte\_string must be byte-like, whereas bitpos and val are [numeric expression positions](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") of operand type i. The value of bitpos must be greater than 0 and val must be either 0 or 1, otherwise an uncatchable exception is raised. The bit positions in byte\_string are counted from left to right starting with the [most significant bit (MSB)](javascript:call_link\('abenmost_significant_bit_glosry.htm'\) "Glossary Entry") of the data object. If the value of bitpos is greater than the number of bits in byte\_string, no replacement is made and sy-subrc is set to 4.
+The data object byte\_string must be byte-like, whereas bitpos and val are [numeric expression positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") of operand type i. The value of bitpos must be greater than 0 and val must be either 0 or 1, otherwise an uncatchable exception is raised. The bit positions in byte\_string are counted from left to right starting with the [most significant bit (MSB)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmost_significant_bit_glosry.htm "Glossary Entry") of the data object. If the value of bitpos is greater than the number of bits in byte\_string, no replacement is made and sy-subrc is set to 4.
 
 System Fields
 
@@ -36,10 +36,10 @@ The value of bitpos is greater than the number of bits in byte\_string and no bi
 
 Hints
 
--   If byte\_string has the [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") type xstring, a bit is set in the referenced byte string, not in the reference.
--   Setting single bits is intended in particular for preparing operators in [bit expressions](javascript:call_link\('abapcompute_bit.htm'\)).
--   The built-in function [bit-set](javascript:call_link\('abenbit_functions.htm'\)) can also be used to set an individual bit.
--   Counting the bits from the [most significant bit (MSB)](javascript:call_link\('abenmost_significant_bit_glosry.htm'\) "Glossary Entry") can have unexpected results when working with components that count from the [least significant bit (LSB)](javascript:call_link\('abenleast_significant_bit_glosry.htm'\) "Glossary Entry").
+-   If byte\_string has the [deep](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeep_glosry.htm "Glossary Entry") type xstring, a bit is set in the referenced byte string, not in the reference.
+-   Setting single bits is intended in particular for preparing operators in [bit expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_bit.htm).
+-   The built-in function [bit-set](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbit_functions.htm) can also be used to set an individual bit.
+-   Counting the bits from the [most significant bit (MSB)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmost_significant_bit_glosry.htm "Glossary Entry") can have unexpected results when working with components that count from the [least significant bit (LSB)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenleast_significant_bit_glosry.htm "Glossary Entry").
 
 Example
 
@@ -54,7 +54,7 @@ DO 8 TIMES.
 ENDDO.
 cl\_demo\_output=>display( output ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

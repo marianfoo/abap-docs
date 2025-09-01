@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 replacement object
 
-A [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") can be defined as a replacement object for a [database table](javascript:call_link\('abendatabase_table_glosry.htm'\) "Glossary Entry") or a classic [database view](javascript:call_link\('abendatabase_view_glosry.htm'\) "Glossary Entry") in [ABAP Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)). In this case, [ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") reads access the replacement object.
+A [CDS view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry") can be defined as a replacement object for a [database table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_table_glosry.htm "Glossary Entry") or a classic [database view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_view_glosry.htm "Glossary Entry") in [ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm). In this case, [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") reads access the replacement object.
 
-[→ More](javascript:call_link\('abenddic_replacement_objects.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_replacement_objects.htm)

@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 write position
 
-[Operand position](javascript:call_link\('abenoperand_position_glosry.htm'\) "Glossary Entry") in which the [operand](javascript:call_link\('abenabap_operand_glosry.htm'\) "Glossary Entry") is written to. As well as writing-only positions, positions that read an operand are also available.
+[Operand position](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoperand_position_glosry.htm "Glossary Entry") in which the [operand](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_operand_glosry.htm "Glossary Entry") is written to. As well as writing-only positions, positions that read an operand are also available.
 
-[→ More about](javascript:call_link\('abendata_objects_usage_writing.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_objects_usage_writing.htm)

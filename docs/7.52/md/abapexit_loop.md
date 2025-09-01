@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Loops](javascript:call_link\('abenleave_loops.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_program_units.htm) →  [Exiting Loops](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_loops.htm) → 
 
 EXIT - loop
 
-[Quick Reference](javascript:call_link\('abapexit_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexit_shortref.htm)
 
 Syntax
 
@@ -16,11 +16,11 @@ EXIT.
 
 Effect
 
-If the EXIT statement is specified within a [loop](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry"), it exits the loop by ending the current loop pass. The program flow resumes after the closing statement in the loop.
+If the EXIT statement is specified within a [loop](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenloop_glosry.htm "Glossary Entry"), it exits the loop by ending the current loop pass. The program flow resumes after the closing statement in the loop.
 
 Note
 
-Outside of a loop, the statement EXIT exits the current [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") (see [EXIT - Processing Block](javascript:call_link\('abapexit_processing_blocks.htm'\))). EXIT, however, should only be used within loops.
+Outside of a loop, the statement EXIT exits the current [processing block](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocessing_block_glosry.htm "Glossary Entry") (see [EXIT - Processing Block](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexit_processing_blocks.htm)). EXIT, however, should only be used within loops.
 
 Example
 

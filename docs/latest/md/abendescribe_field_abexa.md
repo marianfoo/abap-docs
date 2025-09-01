@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) →  [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe.htm) →  [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_field.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Determining%20Elementary%20Data%20Types%2C%20ABENDESCRIBE_FIELD_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -71,4 +71,4 @@ The statement DESCRIBE FIELD determines the type of the data objects created dyn
 
 The example does not work if complex data types such as SCARR and SPFLI are entered in the input fields. In this case DESCRIBE FIELD, determines the same types (u), which can cause runtime errors if the structures are not convertible to each other.
 
-The [RTTS](javascript:call_link\('abenrtti.htm'\)) methods can be used to check complex data types and object types at runtime.
+The [RTTS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrtti.htm) methods can be used to check complex data types and object types at runtime.

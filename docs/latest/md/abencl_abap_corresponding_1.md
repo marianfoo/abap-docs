@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [CL\_ABAP\_CORRESPONDING, System Class](javascript:call_link\('abencl_abap_corresponding.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding.htm) →  [CL\_ABAP\_CORRESPONDING, System Class](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_corresponding.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CL_ABAP_CORRESPONDING%2C%20Simple%20Assignment%2C%20ABENCL_ABAP_CORRESPONDING_1%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvem
 ent:)
@@ -33,7 +33,7 @@ Structures struct or internal tables itab of data types for which the assignment
     -   CL\_ABAP\_CORRESPONDING=>MAPPING\_COMPONENT (1) The components specified in this line are mapped to each other.
     -   CL\_ABAP\_CORRESPONDING=>MAPPING\_EXCEPT\_COMPONENT (2) The component of the source structure specified in this line is excluded from the mapping of identically named components.
     -   CL\_ABAP\_CORRESPONDING=>MAPPING\_EXCEPT\_ALL (3) All components of the current source structure are excluded from the mapping of identically name components.
-    -   CL\_ABAP\_CORRESPONDING=>MAPPING\_DISCARDING\_DUPLICATES (9) In a source table, duplicate rows are ignored as when using [DISCARDING DUPLICATES](javascript:call_link\('abencorresponding_constr_dupl.htm'\)) in a mapping rule of the component operator. The target table must have a unique table key.
+    -   CL\_ABAP\_CORRESPONDING=>MAPPING\_DISCARDING\_DUPLICATES (9) In a source table, duplicate rows are ignored as when using [DISCARDING DUPLICATES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_constr_dupl.htm) in a mapping rule of the component operator. The target table must have a unique table key.
 -   SRCNAME
     
     Component of the source structure.
@@ -56,11 +56,11 @@ The assignment is performed component by component
 -   between the components specified in the mapping rule
 -   between the remaining identically named components at the same level if they were not excluded in the mapping rule.
 
-In assignments between structures, components of the target structure to which no components of the source structure are assigned keep their previous value, like the statement [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)) and like the operator [CORRESPONDING](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)) with the addition BASE. Nested internal tables are always resolved, as if the addition EXPANDING NESTED TABLES is specified in MOVE-CORRESPONDING or the addition DEEP for the operator CORRESPONDING. In assignments between internal tables, the target table is always initialized first. The additions KEEPING TARGET LINES in MOVE-CORRESPONDING or BASE in CORRESPONDING are reflected in the optional parameter KEEPING\_LINES which represents a flag. If it is not flagged, internal table lines are not retained.
+In assignments between structures, components of the target structure to which no components of the source structure are assigned keep their previous value, like the statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove-corresponding.htm) and like the operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_constr_arg_type.htm) with the addition BASE. Nested internal tables are always resolved, as if the addition EXPANDING NESTED TABLES is specified in MOVE-CORRESPONDING or the addition DEEP for the operator CORRESPONDING. In assignments between internal tables, the target table is always initialized first. The additions KEEPING TARGET LINES in MOVE-CORRESPONDING or BASE in CORRESPONDING are reflected in the optional parameter KEEPING\_LINES which represents a flag. If it is not flagged, internal table lines are not retained.
 
-If the value X was passed to the parameter DISCARDING\_DUPLICATES of the method CREATE, duplicate rows are handled in tabular component assignments in the same way as when using the addition [DISCARDING DUPLICATES](javascript:call_link\('abencorresponding_constr_dupl.htm'\)) in the basic form of the component operator. Here, the target table must have a unique table key.
+If the value X was passed to the parameter DISCARDING\_DUPLICATES of the method CREATE, duplicate rows are handled in tabular component assignments in the same way as when using the addition [DISCARDING DUPLICATES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_constr_dupl.htm) in the basic form of the component operator. Here, the target table must have a unique table key.
 
-The source and the target may be the same. However, it should be noted that, unlike in the operator [CORRESPONDING](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)) for reflexive assignments. the target object is used directly like in the statement [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)) and no temporary interim result is created.
+The source and the target may be the same. However, it should be noted that, unlike in the operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_constr_arg_type.htm) for reflexive assignments. the target object is used directly like in the statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove-corresponding.htm) and no temporary interim result is created.
 
 The passing of incorrect parameters to the methods of the class CL\_ABAP\_CORRESPONDING raises exceptions of the class CX\_CORR\_DYN\_ERROR.
 
@@ -69,20 +69,20 @@ Hints
 -   Using the CREATE method comes with performance costs. Hence, CL\_ABAP\_CORRESPONDING should be used if the created instance is reused within the code.
 -   The methods CREATE and EXECUTE of the system class CL\_ABAP\_CORRESPONDING implement an assignment similar to the statement
     
-    dst = [CORRESPONDING](javascript:call_link\('abencorresponding_constr_arg_type.htm'\))  #( BASE ( dst ) struct*|*itab [MAPPING ... EXCEPT ...](javascript:call_link\('abencorresponding_constr_mapping.htm'\)) ).
+    dst = [CORRESPONDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_constr_arg_type.htm)  #( BASE ( dst ) struct*|*itab [MAPPING ... EXCEPT ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_constr_mapping.htm) ).
     
-    Here, the [mapping rule](javascript:call_link\('abencorresponding_constr_mapping.htm'\)) is specified dynamically, however, as the content of a special internal table.
+    Here, the [mapping rule](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_constr_mapping.htm) is specified dynamically, however, as the content of a special internal table.
     
--   The same restrictions apply as to the operator [CORRESPONDING](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)). Components can only be mapped to each other if they are on the same level. Components of a substructure cannot be assigned to the components at higher levels and vice versa.
--   The class CL\_ABAP\_CORRESPONDING always resolves tabular components, which corresponds to the behavior of the operator [CORRESPONDING](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)) if a mapping rule is specified. In this case, the addition DEEP is also set implicitly.
--   To achieve the same results for standalone components in assignments between structures as in the operator [CORRESPONDING](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)) without the addition BASE, an initial structure can be assigned to the parameter destination.
--   The [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line cannot be addressed in the mapping table.
--   In reflexive assignments between components of the same object, as in [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)), it should be noted that the processing order is not defined and that a call of the method EXECUTE cannot be used to swap the content of two components.
--   See the executable example [Reflexive Component Assignments](javascript:call_link\('abenreflexive_corresponding_abexa.htm'\)).
+-   The same restrictions apply as to the operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_constr_arg_type.htm). Components can only be mapped to each other if they are on the same level. Components of a substructure cannot be assigned to the components at higher levels and vice versa.
+-   The class CL\_ABAP\_CORRESPONDING always resolves tabular components, which corresponds to the behavior of the operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_constr_arg_type.htm) if a mapping rule is specified. In this case, the addition DEEP is also set implicitly.
+-   To achieve the same results for standalone components in assignments between structures as in the operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_constr_arg_type.htm) without the addition BASE, an initial structure can be assigned to the parameter destination.
+-   The [pseudo component](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpseudo_component_glosry.htm "Glossary Entry") table\_line cannot be addressed in the mapping table.
+-   In reflexive assignments between components of the same object, as in [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove-corresponding.htm), it should be noted that the processing order is not defined and that a call of the method EXECUTE cannot be used to swap the content of two components.
+-   See the executable example [Reflexive Component Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreflexive_corresponding_abexa.htm).
 
 Example
 
-Use of the class CL\_ABAP\_CORRESPONDING for assignments of components to a simple structure. The mapping rule specifies that the components a3 are assigned to b1 and a1 to b3. The component a2 is ignored since there are no identically named components in the target structure and b2 keeps its value. a4 and a5 in the target structure also keep their values, even though the source structure contains identically named components, since the value of CL\_ABAP\_CORRESPONDING=>MAPPING\_EXCEPT\_ALL is specified for the mapping type for all non-specified components. The executable [example for simple structures](javascript:call_link\('abencl_abap_corr_dyn_abexa.htm'\)) enables interactive input of the component names that are mapped to each other.
+Use of the class CL\_ABAP\_CORRESPONDING for assignments of components to a simple structure. The mapping rule specifies that the components a3 are assigned to b1 and a1 to b3. The component a2 is ignored since there are no identically named components in the target structure and b2 keeps its value. a4 and a5 in the target structure also keep their values, even though the source structure contains identically named components, since the value of CL\_ABAP\_CORRESPONDING=>MAPPING\_EXCEPT\_ALL is specified for the mapping type for all non-specified components. The executable [example for simple structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_corr_dyn_abexa.htm) enables interactive input of the component names that are mapped to each other.
 
 DATA:
   BEGIN OF struct1,
@@ -164,7 +164,7 @@ cl\_demo\_output=>display(  ).
 
 Executable Examples
 
--   [CL\_ABAP\_CORRESPONDING for Simple Structures](javascript:call_link\('abencl_abap_corr_dyn_abexa.htm'\))
--   [CL\_ABAP\_CORRESPONDING for Nested Structures](javascript:call_link\('abencl_abap_corr_struc_abexa.htm'\))
--   [CL\_ABAP\_CORRESPONDING for Internal Tables](javascript:call_link\('abencl_abap_corr_itab_abexa.htm'\))
--   [CL\_ABAP\_CORRESPONDING for Tabular Components](javascript:call_link\('abencl_abap_corr_deep_abexa.htm'\))
+-   [CL\_ABAP\_CORRESPONDING for Simple Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_corr_dyn_abexa.htm)
+-   [CL\_ABAP\_CORRESPONDING for Nested Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_corr_struc_abexa.htm)
+-   [CL\_ABAP\_CORRESPONDING for Internal Tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_corr_itab_abexa.htm)
+-   [CL\_ABAP\_CORRESPONDING for Tabular Components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_corr_deep_abexa.htm)

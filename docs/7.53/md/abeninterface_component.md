@@ -4,25 +4,25 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [INTERFACE](javascript:call_link\('abapinterface.htm'\)) →  [INTERFACE intf](javascript:call_link\('abapinterface_definition.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclasses_and_interfaces.htm) →  [INTERFACE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterface.htm) →  [INTERFACE intf](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterface_definition.htm) → 
 
 INTERFACE - components
 
 The following declaration statements are possible in interfaces for components:
 
--   [TYPES](javascript:call_link\('abaptypes.htm'\)), [DATA](javascript:call_link\('abapdata.htm'\)), [CLASS-DATA](javascript:call_link\('abapclass-data.htm'\)), and [CONSTANTS](javascript:call_link\('abapconstants.htm'\)) for data types and data objects
+-   [TYPES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes.htm), [DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata.htm), [CLASS-DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass-data.htm), and [CONSTANTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconstants.htm) for data types and data objects
 
--   [METHODS](javascript:call_link\('abapmethods.htm'\)), [CLASS-METHODS](javascript:call_link\('abapclass-methods.htm'\)), [EVENTS](javascript:call_link\('abapevents.htm'\)), and [CLASS-EVENTS](javascript:call_link\('abapclass-events.htm'\)) for methods and events
+-   [METHODS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods.htm), [CLASS-METHODS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass-methods.htm), [EVENTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapevents.htm), and [CLASS-EVENTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass-events.htm) for methods and events
 
--   [INTERFACES](javascript:call_link\('abapinterfaces.htm'\)) for the inclusion of component interfaces and [ALIASES](javascript:call_link\('abapaliases.htm'\)) for alias names for components of interfaces
+-   [INTERFACES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces.htm) for the inclusion of component interfaces and [ALIASES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapaliases.htm) for alias names for components of interfaces
 
-The only interface components that can be addressed without implementation of the interface in classes are data types and constants. The latter can be addressed using the name of the interface and the [class component selector](javascript:call_link\('abenoperands_names.htm'\)) (\=>).
+The only interface components that can be addressed without implementation of the interface in classes are data types and constants. The latter can be addressed using the name of the interface and the [class component selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands_names.htm) (\=>).
 
 Notes
 
 -   All components of an interfaces are in one namespace. Within an interface, the name of a component must be unique, regardless of its type (data type, attribute, method, event, or alias name). The components of an included interface are identified by the prefix intf~ (name of the interface with interface component selector).
 
--   Interfaces provide fewer variants than classes for declarations of methods using [METHODS](javascript:call_link\('abapmethods.htm'\)) and [CLASS-METHODS](javascript:call_link\('abapclass-methods.htm'\)). More specifically, no [constructors](javascript:call_link\('abenconstructor_glosry.htm'\) "Glossary Entry"), [test methods](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry"), or [AMDP function implementations](javascript:call_link\('abenamdp_function_method_glosry.htm'\) "Glossary Entry") can be declared in interfaces for CDS table functions.
+-   Interfaces provide fewer variants than classes for declarations of methods using [METHODS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods.htm) and [CLASS-METHODS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass-methods.htm). More specifically, no [constructors](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_glosry.htm "Glossary Entry"), [test methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_method_glosry.htm "Glossary Entry"), or [AMDP function implementations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_function_method_glosry.htm "Glossary Entry") can be declared in interfaces for CDS table functions.
     
 
 Example

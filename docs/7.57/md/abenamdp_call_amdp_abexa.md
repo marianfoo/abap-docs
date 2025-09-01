@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: AMDP - Calling an AMDP Procedure from SQLScript, ABENAMDP_CALL_AMDP_ABEXA, 757%0D%0A%
 0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -63,8 +63,8 @@ START-OF-SELECTION.
 
 Description   
 
-The [SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") of the AMDP method INCREASE\_PRICE of the AMDP class CL\_DEMO\_AMDP\_CALL\_AMDP calls a different AMDP procedure that is implemented in the private AMDP method INCREASE\_PRICE\_AMDP of the same class:
+The [SQLScript procedure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") of the AMDP method INCREASE\_PRICE of the AMDP class CL\_DEMO\_AMDP\_CALL\_AMDP calls a different AMDP procedure that is implemented in the private AMDP method INCREASE\_PRICE\_AMDP of the same class:
 
 Method was not found
 
-The called database procedure must be specified after the addition [USING](javascript:call_link\('abapmethod_by_db_proc.htm'\)) of the statement METHOD. Compare the [executable example](javascript:call_link\('abenamdp_call_abexa.htm'\)) for calling a further database procedure not managed using AMDP.
+The called database procedure must be specified after the addition [USING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethod_by_db_proc.htm) of the statement METHOD. Compare the [executable example](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_call_abexa.htm) for calling a further database procedure not managed using AMDP.

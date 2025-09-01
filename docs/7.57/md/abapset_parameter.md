@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [SPA/GPA Parameters in the User Memory](javascript:call_link\('abenspa_gpa.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencreate_objects.htm) →  [SPA/GPA Parameters in the User Memory](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenspa_gpa.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SET PARAMETER, ABAPSET_PARAMETER, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugges
 tion for improvement:)
 
 SET PARAMETER
 
-[Short Reference](javascript:call_link\('abapset_parameter_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_parameter_shortref.htm)
 
 Syntax
 
@@ -19,20 +19,20 @@ SET PARAMETER ID pid FIELD dobj.
 
 Effect
 
-This statement sets the content of the [SPA/GPA](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry") parameter specified in pid in the [user memory](javascript:call_link\('abenuser_memory_glosry.htm'\) "Glossary Entry") to the content of the data object dobj. The ID pid expects a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like field that can contain a maximum of 20 characters and not only blanks. pid is case-sensitive. dobj expects a flat character-like field whose binary content is passed unconverted.
+This statement sets the content of the [SPA/GPA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenspa_gpa_parameter_glosry.htm "Glossary Entry") parameter specified in pid in the [user memory](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuser_memory_glosry.htm "Glossary Entry") to the content of the data object dobj. The ID pid expects a [flat](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenflat_glosry.htm "Glossary Entry") character-like field that can contain a maximum of 20 characters and not only blanks. pid is case-sensitive. dobj expects a flat character-like field whose binary content is passed unconverted.
 
-The statement SET PARAMETER does not access the user memory directly. Instead, it accesses a local mapping of the SPA/GPA parameter in the [session memory](javascript:call_link\('abenroll_area_glosry.htm'\) "Glossary Entry"), which is loaded during rollup and saved in the user memory when rolled out (see [SPA/GPA Parameters and ABAP Programs](javascript:call_link\('abenspa_gpa.htm'\))). If the SPA/GPA parameter specified for the current user in pid does not yet exist in the [user memory](javascript:call_link\('abenuser_memory_glosry.htm'\) "Glossary Entry"), it is created. If the SPA/GPA parameter already existed for the current user, its value is overwritten.
+The statement SET PARAMETER does not access the user memory directly. Instead, it accesses a local mapping of the SPA/GPA parameter in the [session memory](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenroll_area_glosry.htm "Glossary Entry"), which is loaded during rollup and saved in the user memory when rolled out (see [SPA/GPA Parameters and ABAP Programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenspa_gpa.htm)). If the SPA/GPA parameter specified for the current user in pid does not yet exist in the [user memory](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuser_memory_glosry.htm "Glossary Entry"), it is created. If the SPA/GPA parameter already existed for the current user, its value is overwritten.
 
 In a program, SPA/GPA parameters can only be created or filled with values that have a name in the table TPARA. If it is possible to statically determine that an ID specified pid is not in the database table TPARA, the extended program check reports an error.
 
 Hints
 
 -   An SPA/GPA parameter specified in pid must be entered in uppercase to match a name in the database table TPARA.
--   Since the statements SET PARAMETER and GET PARAMETER do not work directly with the SPA/GPA parameters of the user memory, they are only suitable for passing data within an [ABAP session](javascript:call_link\('abenabap_session_glosry.htm'\) "Glossary Entry") and not for passing data between parallel ABAP sessions because programs that run in parallel can affect the state of the parameters in an uncontrolled manner.
+-   Since the statements SET PARAMETER and GET PARAMETER do not work directly with the SPA/GPA parameters of the user memory, they are only suitable for passing data within an [ABAP session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_session_glosry.htm "Glossary Entry") and not for passing data between parallel ABAP sessions because programs that run in parallel can affect the state of the parameters in an uncontrolled manner.
 
 Example
 
-If the user selects one of the flight connections displayed in the basic list, the SPA/GPA parameters CAR and CON are set to the ID of the airline and the number of the connection at the event AT LINE-SELECTION. The names of both parameters are defined in the table TPARA for this purpose. In the initial [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") of the transaction DEMO\_TRANSACTION, two input fields are linked to these SPA/GPA parameters and are displayed with the selected values as [start values](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry").
+If the user selects one of the flight connections displayed in the basic list, the SPA/GPA parameters CAR and CON are set to the ID of the airline and the number of the connection at the event AT LINE-SELECTION. The names of both parameters are defined in the table TPARA for this purpose. In the initial [dynpro](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_glosry.htm "Glossary Entry") of the transaction DEMO\_TRANSACTION, two input fields are linked to these SPA/GPA parameters and are displayed with the selected values as [start values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstart_value_glosry.htm "Glossary Entry").
 
 DATA: carrier     TYPE spfli-carrid,
       connection  TYPE spfli-connid.
@@ -48,7 +48,7 @@ AT LINE-SELECTION.
                     'CON' FIELD connection.
   CALL TRANSACTION 'DEMO\_TRANSACTION'.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

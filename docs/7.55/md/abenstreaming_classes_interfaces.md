@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Streaming](javascript:call_link\('abenstreaming.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Streaming](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstreaming.htm) → 
 
 Classes and Interfaces for Streams
 
@@ -18,14 +18,14 @@ The classes for data streams and filter streams are the templates for data strea
 
 The classes for the data stream category start with "CL\_ABAP\_", followed by
 
-1.  an ID resource for the resource that is used as a [streaming data source](javascript:call_link\('abenstreaming_data_source_glosry.htm'\) "Glossary Entry") or a [streaming data sink](javascript:call_link\('abenstreaming_data_sink_glosry.htm'\) "Glossary Entry"). Currently, data streams are supported for the following resources:
+1.  an ID resource for the resource that is used as a [streaming data source](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstreaming_data_source_glosry.htm "Glossary Entry") or a [streaming data sink](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstreaming_data_sink_glosry.htm "Glossary Entry"). Currently, data streams are supported for the following resources:
     
 
--   [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in database tables; the associated resource ID is " [DB](javascript:call_link\('abenopen_sql_streaming.htm'\))".
+-   [LOBs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlob_glosry.htm "Glossary Entry") in database tables; the associated resource ID is " [DB](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_streaming.htm)".
 
--   [Strings](javascript:call_link\('abenstring_glosry.htm'\) "Glossary Entry"); the associated resource ID is " [STRING](javascript:call_link\('abenstring_streams.htm'\))".
+-   [Strings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_glosry.htm "Glossary Entry"); the associated resource ID is " [STRING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_streams.htm)".
 
--   [Internal tables](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry"); the associated resource ID is " [ITAB](javascript:call_link\('abenitab_streams.htm'\))".
+-   [Internal tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninternal_table_glosry.htm "Glossary Entry"); the associated resource ID is " [ITAB](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab_streams.htm)".
 
 1.  an ID type for the stream type. Here the IDs "C" and "X" are possible for the binary streams or character streams.
     
@@ -50,7 +50,7 @@ Data stream classes inherit CL\_ABAP\_TYPE\_direction from abstract superclasses
 
 Important Methods
 
-In the case of data streams, the following methods are implemented as [kernel methods](javascript:call_link\('abenkernel_method_glosry.htm'\) "Glossary Entry") . The actual access to the [streaming data source](javascript:call_link\('abenstreaming_data_source_glosry.htm'\) "Glossary Entry") or [streaming data sink](javascript:call_link\('abenstreaming_data_sink_glosry.htm'\) "Glossary Entry") is completed by the ABAP runtime environment.
+In the case of data streams, the following methods are implemented as [kernel methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenkernel_method_glosry.htm "Glossary Entry") . The actual access to the [streaming data source](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstreaming_data_source_glosry.htm "Glossary Entry") or [streaming data sink](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstreaming_data_sink_glosry.htm "Glossary Entry") is completed by the ABAP runtime environment.
 
 Methods for Reader Streams
 

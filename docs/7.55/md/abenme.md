@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Built-In Types, Data Objects, Functions, and Constructors](javascript:call_link\('abenbuilt_in.htm'\)) →  [Built-In Data Objects](javascript:call_link\('abenbuilt_in_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Built-In Types, Data Objects, Functions, and Constructors](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in.htm) →  [Built-In Data Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_objects.htm) → 
 
 The Self-Reference me
 
@@ -14,7 +14,7 @@ The name me is reserved and cannot be used in a class for attributes, formal par
 
 Hint
 
-When an object is created, me also points to the instance of the generated subclass during the execution of an [instance constructor](javascript:call_link\('abeninstance_constructor_glosry.htm'\) "Glossary Entry") of a superclass called using [super->constructor](javascript:call_link\('abapcall_method_meth_super.htm'\)). However, in the instance constructor of the superclass, or in methods called by the instance constructor, me-> has not effect in the method call if specified. Instead, the method implementations of the superclass are always called.
+When an object is created, me also points to the instance of the generated subclass during the execution of an [instance constructor](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninstance_constructor_glosry.htm "Glossary Entry") of a superclass called using [super->constructor](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_meth_super.htm). However, in the instance constructor of the superclass, or in methods called by the instance constructor, me-> has not effect in the method call if specified. Instead, the method implementations of the superclass are always called.
 
 Example
 

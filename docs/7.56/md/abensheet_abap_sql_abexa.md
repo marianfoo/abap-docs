@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Cheat Sheets](javascript:call_link\('abenabap_blurb.htm'\)) →  [ABAP SQL: Working with persisted data in database tables](javascript:call_link\('abapsheet_abap_sql.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Cheat Sheets](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_blurb.htm) →  [ABAP SQL: Working with persisted data in database tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql.htm) → 
 
 ABAP SQL - Working with Persisted Data in Database Tables
 
-This example demonstrates the syntactical options for working with persisted data in database tables as outlined in the ABAP cheat sheet [ABAP SQL: Working with persisted data in database tables](javascript:call_link\('abapsheet_abap_sql.htm'\)).
+This example demonstrates the syntactical options for working with persisted data in database tables as outlined in the ABAP cheat sheet [ABAP SQL: Working with persisted data in database tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql.htm).
 
 Source Code
 
@@ -1168,7 +1168,7 @@ START-OF-SELECTION.
 
 Description
 
-The output shows the outcome of various ways about how to work with persisted data in database tables using ABAP SQL. Find comments in the program explaining the context and details. Basically, all variants described in the ABAP cheat sheet [ABAP SQL: Working with persisted data in database tables](javascript:call_link\('abapsheet_abap_sql.htm'\)) are covered:
+The output shows the outcome of various ways about how to work with persisted data in database tables using ABAP SQL. Find comments in the program explaining the context and details. Basically, all variants described in the ABAP cheat sheet [ABAP SQL: Working with persisted data in database tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql.htm) are covered:
 
 -   Reading from database tables using SELECT
 -   Changing data in database tables using INSERT, UPDATE, MODIFY and DELETE

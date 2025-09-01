@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [System Fields](javascript:call_link\('abensystem_fields_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [System Fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_fields_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Obsolete%20and%20Internal%20System%20Fields%2C%20ABENOBS_INTERN_SYSTEM_FIELD_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impro
 vement:)
@@ -13,7 +13,7 @@ Obsolete and Internal System Fields
 
 Background   
 
-Not all system fields are designed to be used in application programs. All available system fields are components of the structure SYST in ABAP Dictionary (or components of the structure sy in the debugger). The meaning of the components is included in the accompanying description. Any system fields that are [obsolete](javascript:call_link\('abensystem_fields_obsolete.htm'\)) or only to be [used internally](javascript:call_link\('abensystem_fields_internal.htm'\)) are clearly marked.
+Not all system fields are designed to be used in application programs. All available system fields are components of the structure SYST in ABAP Dictionary (or components of the structure sy in the debugger). The meaning of the components is included in the accompanying description. Any system fields that are [obsolete](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_fields_obsolete.htm) or only to be [used internally](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_fields_internal.htm) are clearly marked.
 
 Rule   
 

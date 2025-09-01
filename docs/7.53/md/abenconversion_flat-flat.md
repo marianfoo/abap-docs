@@ -4,18 +4,18 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Structures](javascript:call_link\('abenconversion_struc.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_rules.htm) →  [Conversion Rules for Structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_struc.htm) → 
 
 Conversion Between Flat Structures
 
-When flat structures are converted, the [fragment view](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry") of the structures must be respected. The following rules apply when converting a flat structure to another flat structure.
+When flat structures are converted, the [fragment view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry") of the structures must be respected. The following rules apply when converting a flat structure to another flat structure.
 
 -   When assigning structures with the same fragment view, the structure is assigned without being converted.
     
 
--   When assigning structures of different lengths where the length of the [fragment view](javascript:call_link\('abenunicode_fragment_view.htm'\)) exactly matches the shorter structure, the assignment is made at the length of the shorter structure without conversion.
+-   When assigning structures of different lengths where the length of the [fragment view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_fragment_view.htm) exactly matches the shorter structure, the assignment is made at the length of the shorter structure without conversion.
 
--   If the target structure is longer than the source structure, the components of the target structure located after the shared fragments are filled with type-dependent [initial values](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry") and any alignment gaps are set to hexadecimal 0.
+-   If the target structure is longer than the source structure, the components of the target structure located after the shared fragments are filled with type-dependent [initial values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninitial_value_glosry.htm "Glossary Entry") and any alignment gaps are set to hexadecimal 0.
 
 -   If the target structure is shorter than the source structure, the components of the source structure located after the shared fragments are cut off.
     
@@ -28,7 +28,7 @@ Notes
 
 -   If, in the affected structures, there are components of data type p, these components form individual fragments for which the length is significant but not the number of decimal places. When assigning such structures, the value of the source components of type p is cast to the number of decimal places of the target components, and the decimal point may shift. This means that the result for a component of this type can differ from the result of a direct assignment between the components.
 
--   If a component of a flat structure has an [enumerating type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"), this is an independent fragment of the fragment view, regardless of its [basis type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry"), and must be present at the same location and with the same type in the case of assignments between structures in the source and target structure.
+-   If a component of a flat structure has an [enumerating type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), this is an independent fragment of the fragment view, regardless of its [basis type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbase_type_glosry.htm "Glossary Entry"), and must be present at the same location and with the same type in the case of assignments between structures in the source and target structure.
 
 -   If a syntax error occurs due to an inadmissible assignment between flat structures, you can display the fragment views for the corresponding structures when displaying the syntax error in the ABAP Editor by choosing the pushbutton with the information icon.
 
@@ -81,4 +81,4 @@ DATA:                        DATA:
   END OF struc9.              END OF struc10.
 
 Continue
-![Example](exa.gif "Example") [Conversion Rules for Structures](javascript:call_link\('abendata_conv_str_abexa.htm'\))
+![Example](exa.gif "Example") [Conversion Rules for Structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_conv_str_abexa.htm)

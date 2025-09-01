@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfile_interface_statements.htm) → 
 
 DELETE DATASET
 
-[Short Reference](javascript:call_link\('abapdelete_dataset_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_dataset_shortref.htm)
 
 Syntax
 
@@ -16,15 +16,15 @@ DELETE DATASET dset.
 
 Effect
 
-The statement deletes the file specified in dset. dset expects a character-like data object that contains the [physical name](javascript:call_link\('abenphysical_filename_glosry.htm'\) "Glossary Entry") of the file. The file can be opened or closed.
+The statement deletes the file specified in dset. dset expects a character-like data object that contains the [physical name](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenphysical_filename_glosry.htm "Glossary Entry") of the file. The file can be opened or closed.
 
 Hint
 
-When a file is deleted, [automatic authorization checks](javascript:call_link\('abenfile_interface_authority.htm'\)) are performed, but [self-programmed checks](javascript:call_link\('abendataset_auth_self.htm'\)) may also be necessary.
+When a file is deleted, [automatic authorization checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfile_interface_authority.htm) are performed, but [self-programmed checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendataset_auth_self.htm) may also be necessary.
 
 Security Hint
 
-Access to a file whose name dset is passed to a program from outside is a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used. See [Directory Traversal](javascript:call_link\('abendyn_file_scrty.htm'\)).
+Access to a file whose name dset is passed to a program from outside is a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used. See [Directory Traversal](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendyn_file_scrty.htm).
 
 Return Code
 
@@ -40,7 +40,7 @@ File has been deleted.
 
 File could not be deleted.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 

@@ -4,13 +4,13 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Formatting the Source Code](javascript:call_link\('abenformatting_code_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_style_guidl.htm) →  [Formatting the Source Code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformatting_code_guidl.htm) → 
 
 Case
 
 Background
 
-In contrast to many other modern programming languages, ABAP is not case-sensitive for ABAP words (tokens of an ABAP statement that express its semantics; either ABAP keywords or additions) nor for operators and names of operands. The only exception is [dynamic programming](javascript:call_link\('abenref_types_objects_guidl.htm'\) "Guideline"), where the names of operands usually have to be specified in uppercase.
+In contrast to many other modern programming languages, ABAP is not case-sensitive for ABAP words (tokens of an ABAP statement that express its semantics; either ABAP keywords or additions) nor for operators and names of operands. The only exception is [dynamic programming](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenref_types_objects_guidl.htm "Guideline"), where the names of operands usually have to be specified in uppercase.
 
 Rule
 
@@ -26,7 +26,7 @@ The usage of uppercase or lowercase for tokens, that is ABAP words and names, us
 
 -   Since case-sensitivity in ABAP source code is not significant in the syntax outside of character literals (that is, text field literals in inverted commas (‘), string literals in backquotes (\`), and character string templates in vertical bars (|)), the ABAP development environment is not designed to maintain it permanently outside the mentioned constructs. Pretty Printer only offers the alternatives to use only lowercase or only uppercase, or to use either uppercase or lowercase for keywords and lowercase or uppercase respectively for names in operand positions.
 
-Because of the second point, it does not make sense in ABAP to use uppercase and lowercase as a self-defined means of style. In other words, the names should not be written in mixed case style (also referred to as camel case style; see the following example), as is very popular in languages that are case-sensitive. A consistent notation cannot be ensured due to the missing relevance in the syntax. A mixed notation will be lost sooner or later when Pretty Printer is used, even if this is unintentional. Moreover, it possibly prevents other developers from using Pretty Printer after changes have been made to the source code. Use of [Pretty Printer](javascript:call_link\('abenuse_pretty_printer_guidl.htm'\) "Guideline") is explicitly recommended.
+Because of the second point, it does not make sense in ABAP to use uppercase and lowercase as a self-defined means of style. In other words, the names should not be written in mixed case style (also referred to as camel case style; see the following example), as is very popular in languages that are case-sensitive. A consistent notation cannot be ensured due to the missing relevance in the syntax. A mixed notation will be lost sooner or later when Pretty Printer is used, even if this is unintentional. Moreover, it possibly prevents other developers from using Pretty Printer after changes have been made to the source code. Use of [Pretty Printer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_pretty_printer_guidl.htm "Guideline") is explicitly recommended.
 
 Note
 
@@ -40,4 +40,4 @@ The code provided here as a bad example approximately follows the Java conventio
 
 The lower part of the source code shows the declaration of a class in ABAP style, where which words within combined names are separated by underscores (\_). These separations cannot get lost when Pretty Printer is used.
 
-Once the program has been called, the example is formatted according to the proposed Pretty Printer [setting](javascript:call_link\('abenuse_pretty_printer_guidl.htm'\) "Guideline"), with ABAP words in uppercase and operands in lowercase. Regardless of its configuration, the separation of the words in the names would be preserved after each execution of Pretty Printer.
+Once the program has been called, the example is formatted according to the proposed Pretty Printer [setting](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_pretty_printer_guidl.htm "Guideline"), with ABAP words in uppercase and operands in lowercase. Regardless of its configuration, the separation of the words in the names would be preserved after each execution of Pretty Printer.

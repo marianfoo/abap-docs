@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Class Libraries](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)) →  [sXML - Examples](javascript:call_link\('abenabap_sxml_lib_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml.htm) →  [XML - Class Libraries](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_libs.htm) →  [sXML Library](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sxml_lib.htm) →  [sXML - Examples](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sxml_lib_abexas.htm) → 
 
 sXML - Formats
 
@@ -234,11 +234,11 @@ START-OF-SELECTION.
 
 Description
 
-A writer is created for each of the four [formats](javascript:call_link\('abenabap_sxml_lib_formats.htm'\)) and used in the method fill\_writer to fill the string with XML data. A string writer can be created for all formats except XOP. A special XOP writer must be created for XOP. The XML complies with the [JSON-XML](javascript:call_link\('abenabap_json_xml.htm'\)) rules and contain an element with raw data (the UTF-8 encoding of the string "raw" with the hexadecimal value 726177). For each writer, the results are fetched using GET\_OUTPUT and the binary content and the content of UTF-8 (default setting) represented in content converted to characters.
+A writer is created for each of the four [formats](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sxml_lib_formats.htm) and used in the method fill\_writer to fill the string with XML data. A string writer can be created for all formats except XOP. A special XOP writer must be created for XOP. The XML complies with the [JSON-XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_json_xml.htm) rules and contain an element with raw data (the UTF-8 encoding of the string "raw" with the hexadecimal value 726177). For each writer, the results are fetched using GET\_OUTPUT and the binary content and the content of UTF-8 (default setting) represented in content converted to characters.
 
 -   XML 1.0
 
-The string contains the characters of the XML data in UTF-8 encoding. The raw data is represented in [Base64](javascript:call_link\('abenbase64_glosry.htm'\) "Glossary Entry") format, where 726177 is the same as the Base64 value "cmF3".
+The string contains the characters of the XML data in UTF-8 encoding. The raw data is represented in [Base64](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbase64_glosry.htm "Glossary Entry") format, where 726177 is the same as the Base64 value "cmF3".
 
 -   XOP
 
@@ -256,6 +256,6 @@ Readers are created for the result of each writer in the method parse\_outputs. 
 
 -   The results are parsed in parallel loops using the method next\_node. The equality of the attributes of the current nodes is then checked.
 
--   The [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID is called to create XML in a byte string from each result. The equality of this data is then checked.
+-   The [identity transformation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID is called to create XML in a byte string from each result. The equality of this data is then checked.
 
 The results demonstrate that the readers produce identical results for the four formats. Of special note is the fact that only the XOP reader has a special class, CL\_SXML\_XOP\_READER, and the other readers all have the class CL\_SXML\_STRING\_READER and can detect the format themselves.

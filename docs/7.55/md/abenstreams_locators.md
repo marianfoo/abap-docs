@@ -4,15 +4,15 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) → 
 
 ABAP SQL - Streaming and Locators
 
-In ABAP SQL, [data streams](javascript:call_link\('abendata_stream_glosry.htm'\) "Glossary Entry") and [locators](javascript:call_link\('abenlocator_glosry.htm'\) "Glossary Entry") can be used to access [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry"). LOBs are fields in data sources of type [STRING](javascript:call_link\('abenddic_builtin_types.htm'\)) or [RAWSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), or SQL expressions that return one of these data types (for example, [type conversion functions](javascript:call_link\('abenopen_sql_conversion_functions.htm'\))). The associated objects are grouped together under the term [LOB handles](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry"). While a locator is always an LOB handle, in principal there can also be data streams for other resources (see [Streaming](javascript:call_link\('abenstreaming.htm'\))).
+In ABAP SQL, [data streams](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_stream_glosry.htm "Glossary Entry") and [locators](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocator_glosry.htm "Glossary Entry") can be used to access [LOBs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlob_glosry.htm "Glossary Entry"). LOBs are fields in data sources of type [STRING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) or [RAWSTRING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm), or SQL expressions that return one of these data types (for example, [type conversion functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_conversion_functions.htm)). The associated objects are grouped together under the term [LOB handles](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlob_handle_glosry.htm "Glossary Entry"). While a locator is always an LOB handle, in principal there can also be data streams for other resources (see [Streaming](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstreaming.htm)).
 
 For regular access to LOBs, ABAP data objects of the types string and xstring are used, to which the entire LOB is passed in the case of reads and from which the entire LOB is taken in the case of writes. Data streams and locators, however, work as follows:
 
--   For reads, [reader streams](javascript:call_link\('abenreader_stream_glosry.htm'\) "Glossary Entry") can be associated with LOBs using the assignment of corresponding reference variables. The same applies to writes and [writer streams](javascript:call_link\('abenwriter_stream_glosry.htm'\) "Glossary Entry"). LOB data can be processed in portions using the methods of the streams. This has the benefit that LOBs do not have to be completely realized in the ABAP program.
+-   For reads, [reader streams](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreader_stream_glosry.htm "Glossary Entry") can be associated with LOBs using the assignment of corresponding reference variables. The same applies to writes and [writer streams](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwriter_stream_glosry.htm "Glossary Entry"). LOB data can be processed in portions using the methods of the streams. This has the benefit that LOBs do not have to be completely realized in the ABAP program.
 
 -   In the case of reads and writes, locators can be associated with LOBs by assigning corresponding reference variables. Using the methods of the locators, the substrings of LOBs or the properties of LOBs can be accessed without requiring a complete realization in the ABAP program. Furthermore, locators enable the copying of LOBs within the database without having to transport the data between the database and the AS ABAP.
 
@@ -24,18 +24,18 @@ The use of data streams and locators for LOBs in DDIC database tables can improv
 
 The following sections introduce the classes for data streams and locators as well as the interfaces they include for general LOB handles.
 
--   [Streaming](javascript:call_link\('abenopen_sql_streaming.htm'\))
+-   [Streaming](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_streaming.htm)
 
--   [Locators](javascript:call_link\('abenlocators.htm'\))
+-   [Locators](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocators.htm)
 
--   [LOB Interfaces](javascript:call_link\('abenlob_interfaces.htm'\))
+-   [LOB Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlob_interfaces.htm)
 
 Hint
 
-A maximum of 1000 LOB handles can be open in a [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry").
+A maximum of 1000 LOB handles can be open in a [database LUW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_luw_glosry.htm "Glossary Entry").
 
 Continue
-[ABAP SQL - Streaming](javascript:call_link\('abenopen_sql_streaming.htm'\))
-[ABAP SQL - Locators](javascript:call_link\('abenlocators.htm'\))
-[ABAP SQL - LOB Interfaces](javascript:call_link\('abenlob_interfaces.htm'\))
-[ABAP SQL - Examples of LOB Handles](javascript:call_link\('abenlobs_abexas.htm'\))
+[ABAP SQL - Streaming](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_streaming.htm)
+[ABAP SQL - Locators](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocators.htm)
+[ABAP SQL - LOB Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlob_interfaces.htm)
+[ABAP SQL - Examples of LOB Handles](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlobs_abexas.htm)

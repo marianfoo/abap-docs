@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [ABAP Push Channels (APC)](javascript:call_link\('abenapc.htm'\)) →  [APC - Examples](javascript:call_link\('abenapc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_channels.htm) →  [ABAP Push Channels (APC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenapc.htm) →  [APC - Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenapc_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: APC - AS ABAP as Attached Client, ABENAPC_ATTACHED_CLIENT_ABEXA, 757%0D%0A%0D%0AError
 :%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -69,4 +69,4 @@ START-OF-SELECTION.
 
 Description   
 
-The program expects a connection handle as input, as returned in the output of the executable [detached client](javascript:call_link\('abenapc_detached_client_abexa.htm'\)) example. The connection handle is used to create and use an attached client object exactly as described in the detached client example. The connection handle can be reused indefinitely until the connection is closed using the method CLOSE. If the connection is not closed by mistake, this can be done later in the transaction SMWS.
+The program expects a connection handle as input, as returned in the output of the executable [detached client](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenapc_detached_client_abexa.htm) example. The connection handle is used to create and use an attached client object exactly as described in the detached client example. The connection handle can be reused indefinitely until the connection is closed using the method CLOSE. If the connection is not closed by mistake, this can be done later in the transaction SMWS.

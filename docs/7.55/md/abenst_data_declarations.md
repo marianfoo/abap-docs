@@ -4,23 +4,23 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Structure of ST Programs](javascript:call_link\('abenst_programs_structure.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_st.htm) →  [ST - Structure of ST Programs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_programs_structure.htm) → 
 
 ST - Data Declarations
 
 In ST programs, data can be declared using the following statements:
 
--   [tt:root](javascript:call_link\('abenst_tt_root.htm'\)) defines data roots for ABAP data interfaces.
+-   [tt:root](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_root.htm) defines data roots for ABAP data interfaces.
 
--   [tt:parameter](javascript:call_link\('abenst_tt_parameter.htm'\)) defines parameters as formal parameters.
+-   [tt:parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_parameter.htm) defines parameters as formal parameters.
 
--   [tt:variable](javascript:call_link\('abenst_tt_variable.htm'\)) defines variables as local data.
+-   [tt:variable](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_variable.htm) defines variables as local data.
 
-If these statements are specified outside of a template in the context of the transformation, the data declarations apply to the [main template](javascript:call_link\('abenst_tt_template_main.htm'\)).
+If these statements are specified outside of a template in the context of the transformation, the data declarations apply to the [main template](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_template_main.htm).
 
-Within a [subtemplate](javascript:call_link\('abenst_tt_template_sub.htm'\)), the statements can be used in the element tt:context to declare local data of the subtemplate.
+Within a [subtemplate](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_template_sub.htm), the statements can be used in the element tt:context to declare local data of the subtemplate.
 
 Continue
-[ST - tt:root, Data Roots](javascript:call_link\('abenst_tt_root.htm'\))
-[ST - tt:parameter, Parameters](javascript:call_link\('abenst_tt_parameter.htm'\))
-[ST - tt:variable, Variables](javascript:call_link\('abenst_tt_variable.htm'\))
+[ST - tt:root, Data Roots](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_root.htm)
+[ST - tt:parameter, Parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_parameter.htm)
+[ST - tt:variable, Variables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_variable.htm)

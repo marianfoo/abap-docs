@@ -4,13 +4,13 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) →  [Examples for ABAP EML COMMIT ENTITIES](javascript:call_link\('abencommit_entities_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml.htm) →  [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit_entities.htm) →  [Examples for ABAP EML COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencommit_entities_abexas.htm) → 
 
 ABAP EML - COMMIT ENTITIES, Short and Long Form
 
 This example demonstrates two variants of the COMMIT ENTITIES statement: the short version (without responses) and long form (with responses). It covers several MODIFY operations for creating instances for two root entities in a simplified managed scenario. The saving of these instances is triggered by COMMIT ENTITIES statements.
 
-For the purpose of showing entries in the FAILED and REPORTED structures in the context of the long version, a validation is implemented in the [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") that causes the saving of certain entries to fail and fills the response structures.
+For the purpose of showing entries in the FAILED and REPORTED structures in the context of the long version, a validation is implemented in the [behavior pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") that causes the saving of certain entries to fail and fills the response structures.
 Data model
 
 The CDS data model consists of two simple root entities:
@@ -22,7 +22,7 @@ They are not related to each other and are only used to have responses for more 
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") of entity DEMO\_MANAGED\_ROOT\_2 contains the following notation for the validation validate\_field in the body:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") of entity DEMO\_MANAGED\_ROOT\_2 contains the following notation for the validation validate\_field in the body:
 
 validation validate\_field on save { field data\_field4\_root; }
 
@@ -32,13 +32,13 @@ validation validate\_field on save { field data\_field4\_assoc; }
 
 Behavior implementation
 
-For both of the above CDS behavior definitions, there are [ABAP behavior pools (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") available. The actual implementation takes place in the CCIMP include of ABP BP\_DEMO\_MANAGED\_ROOT\_2 and CCIMP include of ABP BP\_DEMO\_MANAGED\_ASSOC\_CUSTOM respectively.
+For both of the above CDS behavior definitions, there are [ABAP behavior pools (ABP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") available. The actual implementation takes place in the CCIMP include of ABP BP\_DEMO\_MANAGED\_ROOT\_2 and CCIMP include of ABP BP\_DEMO\_MANAGED\_ASSOC\_CUSTOM respectively.
 
 The method validate\_field has the following logic:
 
 -   First, all instances of the entities with the provided keys are read into an internal table using the keyword READ ENTITIES.
 -   It is then checked whether the number of a certain data field is higher than the value that is allowed. In case of entity DEMO\_MANAGED\_ROOT\_2, the data field data\_field4\_root should not be higher than 50. In case of entity DEMO\_MANAGED\_ASSOC\_CUSTOM, the data field data\_field4\_assoc should not be higher than 10000. If the values are higher, the FAILED and REPORTED structures are filled with information for the respective failed entry.
--   Consequently, once the validation method is called and the save sequence is triggered upon committing, the saving of all instances to the database table fails including those instances for which the validation did not fail. See more information on validations in the [CDS BDL Documentation](javascript:call_link\('abenbdl_validations.htm'\)).
+-   Consequently, once the validation method is called and the save sequence is triggered upon committing, the saving of all instances to the database table fails including those instances for which the validation did not fail. See more information on validations in the [CDS BDL Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_validations.htm).
 
 Source Code
 
@@ -335,11 +335,11 @@ Description
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program and shows an example for both, short and long version of the COMMIT ENTITIES statement:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program and shows an example for both, short and long version of the COMMIT ENTITIES statement:
 
 -   COMMIT ENTITIES.
     
-    Two MODIFY operations for two different root entities are carried out within one [RAP LUW](javascript:call_link\('abenrap_luw_glosry.htm'\) "Glossary Entry") to create several instances using the keyword CREATE. These newly created instances are saved to the database tables when triggering the save phase with the COMMIT ENTITIES. statement. It is just about saving the created entries, responses are not of interest. The saved data sets are then read from the database tables into internal tables to display the outcome of the MODIFY operations and the successful saving to the database. Afterwards, the database tables are emptied.
+    Two MODIFY operations for two different root entities are carried out within one [RAP LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_luw_glosry.htm "Glossary Entry") to create several instances using the keyword CREATE. These newly created instances are saved to the database tables when triggering the save phase with the COMMIT ENTITIES. statement. It is just about saving the created entries, responses are not of interest. The saved data sets are then read from the database tables into internal tables to display the outcome of the MODIFY operations and the successful saving to the database. Afterwards, the database tables are emptied.
     
 -   COMMIT ENTITIES RESPONSE OF ...
     

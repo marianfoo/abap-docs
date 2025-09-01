@@ -4,16 +4,17 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Data Objects in Operand Positions](javascript:call_link\('abenoperands_data_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Operands](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands.htm) →  [Data Objects in Operand Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands_data_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Specifying Individual Operands, ABENOPERANDS_SPECIFYING, 757%0D%0A%0D%0AError:%0D%0A%
 0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Specifying Individual Operands
 
-There are three ways to specify the [names of operands](javascript:call_link\('abenoperands_names.htm'\)):
+There are three ways to specify the [names of operands](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands_names.htm):
 
--   [Static Specification](#abenoperands-specifying-1-------dynamic-specification-in-parentheses---@ITOC@@ABENOPERANDS_SPECIFYING_2)
+-   [Static Specification](#@@ITOC@@ABENOPERANDS_SPECIFYING_1)
+-   [Dynamic Specification in Parentheses](#@@ITOC@@ABENOPERANDS_SPECIFYING_2)
 -   [Dynamic Specification](#@@ITOC@@ABENOPERANDS_SPECIFYING_3)
 
 Static Specification   

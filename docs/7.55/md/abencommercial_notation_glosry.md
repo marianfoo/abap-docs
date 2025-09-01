@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 commercial notation
 
-Representation of a number as a string of digits with a possible [decimal separator](javascript:call_link\('abendecimal_point_separat_glosry.htm'\) "Glossary Entry") and with the plus or minus sign after the digits.
+Representation of a number as a string of digits with a possible [decimal separator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecimal_point_separat_glosry.htm "Glossary Entry") and with the plus or minus sign after the digits.
 
-[→ More about](javascript:call_link\('abennumerical_value.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumerical_value.htm)

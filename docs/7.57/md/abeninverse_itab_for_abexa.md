@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [FOR, Iteration Expressions](javascript:call_link\('abenfor.htm'\)) →  [Examples of Iteration Expressions](javascript:call_link\('abeniteration_expressions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) →  [FOR, Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm) →  [Examples of Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Inverse Reads on Internal Table without STEP, ABENINVERSE_ITAB_FOR_ABEXA, 757%0D%0A%0
 D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Inverse Reads on Internal Table without STEP
 
-This example demonstrates a [table reduction](javascript:call_link\('abentable_reduction_glosry.htm'\) "Glossary Entry") implemented by a conditional iteration.
+This example demonstrates a [table reduction](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_reduction_glosry.htm "Glossary Entry") implemented by a conditional iteration.
 
 Source Code   
 
@@ -40,4 +40,4 @@ START-OF-SELECTION.
 
 Description   
 
-The example shows how an inverse [table iteration](javascript:call_link\('abenfor_itab.htm'\)) could be performed by an iteration expression accessing a table expression before the addition [STEP](javascript:call_link\('abenfor_cond.htm'\)) was introduced for direct table iterations.
+The example shows how an inverse [table iteration](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) could be performed by an iteration expression accessing a table expression before the addition [STEP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_cond.htm) was introduced for direct table iterations.

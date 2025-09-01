@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  E
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  E
 
 END-OF-PAGE - Short Reference
 
-[Reference](javascript:call_link\('abapend-of-page.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapend-of-page.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ END-OF-PAGE.
 
 Effect
 
-Initiates an event block whose event is raised when the [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") is reached when a basic list is created.
+Initiates an event block whose event is raised when the [page footer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpage_footer_glosry.htm "Glossary Entry") is reached when a basic list is created.

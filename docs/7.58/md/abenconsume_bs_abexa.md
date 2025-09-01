@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Service Definitions](javascript:call_link\('abencds_service_definitions.htm'\)) →  [ABAP CDS - Consuming Business Services](javascript:call_link\('abenservice_bindings_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds.htm) →  [ABAP CDS - Service Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_service_definitions.htm) →  [ABAP CDS - Consuming Business Services](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenservice_bindings_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20CDS%20-%20Consuming%20Business%20Services%20with%20Demo%20Class%2C%20ABENCONSUME_BS_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion
 %20for%20improvement:)
@@ -55,7 +55,7 @@ ENDCLASS.
 
 Description   
 
-Business services are designed mainly for accessing AS ABAP from outside, however for demonstration purposes here, an ICF client implemented in ABAP is used to read the ICF nodes of business services. The ICF client is implemented in the class CL\_DEMO\_BS\_CONSUMPTION that offers some methods for examining the OData data of [service bindings](javascript:call_link\('abenservice_binding_glosry.htm'\) "Glossary Entry") whose names are passed by parameter:
+Business services are designed mainly for accessing AS ABAP from outside, however for demonstration purposes here, an ICF client implemented in ABAP is used to read the ICF nodes of business services. The ICF client is implemented in the class CL\_DEMO\_BS\_CONSUMPTION that offers some methods for examining the OData data of [service bindings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenservice_binding_glosry.htm "Glossary Entry") whose names are passed by parameter:
 
 -   Several methods are available for reading URLs for use in browsers.
 -   One method reads the non-handled OData data in XML or JSON format.
@@ -72,8 +72,8 @@ Further example classes are:
 -   CL\_DEMO\_CONSUME\_BS\_WITH\_PARAMS demonstrates parameter passing to exposed CDS entities with input parameters.
 -   CL\_DEMO\_CONSUME\_BS\_WITH\_ASSOCS demonstrates how paths are specified for exposed CDS entities joined using associations.
 
-The defaults for the input parameters of the class access service definitions and service bindings that were created for these demonstrations. These service bindings use the OData protocol (version 2) for [Web APIs](javascript:call_link\('abenweb_api_glosry.htm'\) "Glossary Entry").
+The defaults for the input parameters of the class access service definitions and service bindings that were created for these demonstrations. These service bindings use the OData protocol (version 2) for [Web APIs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenweb_api_glosry.htm "Glossary Entry").
 
 Hint
 
-See also [Consuming Business Services with Client Proxy](javascript:call_link\('abenconsume_bs_client_proxy_abexa.htm'\))
+See also [Consuming Business Services with Client Proxy](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconsume_bs_client_proxy_abexa.htm)

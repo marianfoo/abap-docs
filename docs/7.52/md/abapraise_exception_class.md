@@ -4,16 +4,16 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions.htm) → 
 
 RAISE EXCEPTION
 
-[Quick Reference](javascript:call_link\('abapraise_exception_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception_shortref.htm)
 
 Syntax
 
 RAISE *\[*RESUMABLE*\]* EXCEPTION
-  *{* *{*TYPE cx\_class *\[* [message](javascript:call_link\('abapraise_exception_message.htm'\))*\]* *\[*EXPORTING p1 = a1 p2 = a2 ...*\]**}*
+  *{* *{*TYPE cx\_class *\[* [message](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception_message.htm)*\]* *\[*EXPORTING p1 = a1 p2 = a2 ...*\]**}*
   *|* oref *}*.
 
 Extras:
@@ -23,33 +23,33 @@ Extras:
 
 Effect
 
-This statement interrupts execution of the current statement block and raises a [class-based exception](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry"). It can be used at any point in a [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry"). The statement interrupts the program flow and searches for a [handler](javascript:call_link\('abapcatch_try.htm'\)) as described in [System Response After a Class-Based Exception](javascript:call_link\('abenexceptions_system_response.htm'\)). Depending on the definition of the handler, the context of the exception is closed before or after the handler is executed. Some [cleanup tasks](javascript:call_link\('abapcleanup.htm'\)) may be performed here. During handling, processing can only be resumed again after the statement RAISE EXCEPTION (and without closing the context) if the addition RESUMABLE is specified.
+This statement interrupts execution of the current statement block and raises a [class-based exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_based_exception_glosry.htm "Glossary Entry"). It can be used at any point in a [processing block](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocessing_block_glosry.htm "Glossary Entry"). The statement interrupts the program flow and searches for a [handler](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcatch_try.htm) as described in [System Response After a Class-Based Exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_system_response.htm). Depending on the definition of the handler, the context of the exception is closed before or after the handler is executed. Some [cleanup tasks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcleanup.htm) may be performed here. During handling, processing can only be resumed again after the statement RAISE EXCEPTION (and without closing the context) if the addition RESUMABLE is specified.
 
 -   If the addition TYPE is specified, an exception of exception class cx\_class is raised and, if necessary, an exception object is created. Every exception class cx\_class visible at this point can be specified after TYPE.
     
 
 -   The addition EXPORTING can be used to assign actual parameters to the input parameters of the instance constructor.
 
--   The addition [message](javascript:call_link\('abapraise_exception_message.htm'\)) can be used to associate the exception object with a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry").
+-   The addition [message](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception_message.htm) can be used to associate the exception object with a [message](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_glosry.htm "Glossary Entry").
 
--   If oref is specified, no new exception object is created when the exception is raised. For oref, an object reference variable must be specified that references an existing exception object. The static type of oref must be an exception class (namely a subclass of CX\_ROOT or the class itself). oref is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). In the existing exception object, the internal attributes that describe the position of the exception and that are read using the method GET\_SOURCE\_POSITION are applied at the position of the statement RAISE. In addition, the attribute IS\_RESUMABLE is set to a new value, depending on how the addition RESUMABLE is used.
+-   If oref is specified, no new exception object is created when the exception is raised. For oref, an object reference variable must be specified that references an existing exception object. The static type of oref must be an exception class (namely a subclass of CX\_ROOT or the class itself). oref is a [general expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). In the existing exception object, the internal attributes that describe the position of the exception and that are read using the method GET\_SOURCE\_POSITION are applied at the position of the statement RAISE. In addition, the attribute IS\_RESUMABLE is set to a new value, depending on how the addition RESUMABLE is used.
     
 
-The statement RAISE EXCEPTION must not be used in a method or function module in whose interface [non-class-based](javascript:call_link\('abenexceptions_non_class.htm'\)) exceptions are declared. Also, this statement does not permit simultaneous use of the statement [CATCHSYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)) for the obsolete handling of [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry") or [RAISE](javascript:call_link\('abapraise_exception.htm'\)) or [MESSAGE RAISING](javascript:call_link\('abapmessage_raising.htm'\)) for raising non-class-based exceptions in function modules and methods in the current processing block.
+The statement RAISE EXCEPTION must not be used in a method or function module in whose interface [non-class-based](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_non_class.htm) exceptions are declared. Also, this statement does not permit simultaneous use of the statement [CATCHSYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcatch_sys.htm) for the obsolete handling of [catchable runtime errors](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry") or [RAISE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception.htm) or [MESSAGE RAISING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage_raising.htm) for raising non-class-based exceptions in function modules and methods in the current processing block.
 
 Notes
 
--   If the addition TYPE is used, exception objects are only created on demand for performance reasons. This is the case, namely, when a suitable CATCH block or CLEANUP block is specified in a wrapper [TRY](javascript:call_link\('abaptry.htm'\)) control structure with the addition INTO. In principle, an exception is the same thing as an exception object being generated. A difference in behavior can occur only if a non-handled exception of the instance constructor replaces the original exception when the object is generated. However, this situation should never arise.
+-   If the addition TYPE is used, exception objects are only created on demand for performance reasons. This is the case, namely, when a suitable CATCH block or CLEANUP block is specified in a wrapper [TRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptry.htm) control structure with the addition INTO. In principle, an exception is the same thing as an exception object being generated. A difference in behavior can occur only if a non-handled exception of the instance constructor replaces the original exception when the object is generated. However, this situation should never arise.
     
--   If oref is specified, either an exception object instantiated using [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)) can be used, or an exception that was previously caught during exception handling can be raised again.
+-   If oref is specified, either an exception object instantiated using [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object.htm) can be used, or an exception that was previously caught during exception handling can be raised again.
     
--   If a caught exception is raised again, note that the exception object does not remain unmodified and that the information about the position of the exception is changed. If the original information is to be propagated to an external handler, a new exception from the same class can be raised. The original exception object is then passed to the parameter PREVIOUS of the constructor of this class. It may be enough to propagate the original exception implicitly (and not raise it again using RAISE). The associated original exception object can then be evaluated in the [CLEANUP](javascript:call_link\('abapcleanup.htm'\)) block, if required
+-   If a caught exception is raised again, note that the exception object does not remain unmodified and that the information about the position of the exception is changed. If the original information is to be propagated to an external handler, a new exception from the same class can be raised. The original exception object is then passed to the parameter PREVIOUS of the constructor of this class. It may be enough to propagate the original exception implicitly (and not raise it again using RAISE). The associated original exception object can then be evaluated in the [CLEANUP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcleanup.htm) block, if required
     
--   The exception class after TYPE can be specified only statically. To raise an exception dynamically, the dynamic variant of [CREATE OBJECT](javascript:call_link\('abapcreate_object_explicit.htm'\)) can be used to create an exception object and the object specified using oref.
+-   The exception class after TYPE can be specified only statically. To raise an exception dynamically, the dynamic variant of [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_explicit.htm) can be used to create an exception object and the object specified using oref.
     
--   If a [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") is exited by raising an exception, the content of the formal parameter for which the [pass by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry") is defined is not assigned to the respective actual parameters.
+-   If a [procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocedure_glosry.htm "Glossary Entry") is exited by raising an exception, the content of the formal parameter for which the [pass by value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpass_by_value_glosry.htm "Glossary Entry") is defined is not assigned to the respective actual parameters.
     
--   The addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)) makes it possible to raise a class-based exception in an operand position.
+-   The addition [THROW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expressions.htm) makes it possible to raise a class-based exception in an operand position.
     
 
 Example
@@ -117,7 +117,7 @@ ENDTRY.
 
 Executable Example
 
-[Exceptions, RAISE](javascript:call_link\('abenraise_abexa.htm'\))
+[Exceptions, RAISE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenraise_abexa.htm)
 
 Addition 1
 
@@ -125,11 +125,11 @@ Addition 1
 
 Effect
 
-The addition RESUMABLE raises an exception as a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry"). When an exception of this type is handled in a [CATCH](javascript:call_link\('abapcatch_try.htm'\)) block, the statement [RESUME](javascript:call_link\('abapresume.htm'\)) can be used to jump back to directly before the raising statement, as long as the context of the exception was not deleted before the exception was handled.
+The addition RESUMABLE raises an exception as a [resumable exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenresumable_exception_glosry.htm "Glossary Entry"). When an exception of this type is handled in a [CATCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcatch_try.htm) block, the statement [RESUME](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapresume.htm) can be used to jump back to directly before the raising statement, as long as the context of the exception was not deleted before the exception was handled.
 
 Notes
 
--   If the statement RESUMABLE is used to raise an exception as a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry"), the handler has to determine whether processing is resumed after RAISE EXCEPTION, or whether processing for the current context is canceled completely. Both alternatives can occur when an exception is raised. It is important to note that [CLEANUP](javascript:call_link\('abapcleanup.htm'\)) blocks are only executed when the context is deleted.
+-   If the statement RESUMABLE is used to raise an exception as a [resumable exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenresumable_exception_glosry.htm "Glossary Entry"), the handler has to determine whether processing is resumed after RAISE EXCEPTION, or whether processing for the current context is canceled completely. Both alternatives can occur when an exception is raised. It is important to note that [CLEANUP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcleanup.htm) blocks are only executed when the context is deleted.
     
 -   When exceptions of the types CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK (which are raised as resumable) are propagated, they can become non-resumable if the addition RESUMABLE is not specified in each interface involved for the addition RAISING to declare the exception.
     
@@ -167,13 +167,13 @@ Addition 2
 
 Effect
 
-The addition EXPORTING can be used to assign suitable actual parameters to the input parameters of the instance constructor of the exception class. The syntax is the same as for the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)).
+The addition EXPORTING can be used to assign suitable actual parameters to the input parameters of the instance constructor of the exception class. The syntax is the same as for the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object.htm).
 
-Like in regular method calls, [a1](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"), a2, ... are general expression positions, which means that, alongside data objects, functions and expressions can also be passed as actual parameters. [Special rules](javascript:call_link\('abentyping_arith_expr.htm'\)) apply in this case.
+Like in regular method calls, [a1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"), a2, ... are general expression positions, which means that, alongside data objects, functions and expressions can also be passed as actual parameters. [Special rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_arith_expr.htm) apply in this case.
 
 Note
 
-Only the constants of the exception class that specify a static [exception text](javascript:call_link\('abenexception_text_glosry.htm'\) "Glossary Entry") of the exception class should be passed to the TEXTID input parameters of the instance constructor of the exception class. The addition [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) is used to associate any messages with an exception. This addition cannot be specified with the parameter TEXTID.
+Only the constants of the exception class that specify a static [exception text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_text_glosry.htm "Glossary Entry") of the exception class should be passed to the TEXTID input parameters of the instance constructor of the exception class. The addition [MESSAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception_message.htm) is used to associate any messages with an exception. This addition cannot be specified with the parameter TEXTID.
 
 Example
 
@@ -190,4 +190,4 @@ TRY.
 ENDTRY.
 
 Continue
-[RAISE EXCEPTION - message](javascript:call_link\('abapraise_exception_message.htm'\))
+[RAISE EXCEPTION - message](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception_message.htm)

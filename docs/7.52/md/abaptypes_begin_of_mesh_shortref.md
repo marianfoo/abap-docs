@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  T
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  T
 
 TYPES BEGIN OF MESH - Quick reference
 
-[Reference](javascript:call_link\('abaptypes_mesh.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh.htm)
 
 Syntax
 
@@ -30,5 +30,5 @@ Defines a mesh type mesh\_type whose nodes are tabular data types or reference t
 
 Addition
 
--   [ASSOCIATION ...](javascript:call_link\('abaptypes_mesh_association.htm'\))
-    Declares a [mesh association](javascript:call_link\('abenmesh_association_glosry.htm'\) "Glossary Entry") \_assoc between a start node snode and a target node tnode. The relationship between the nodes is defined using one or more ON conditions, where USING KEY can be used to specify the table key used.
+-   [ASSOCIATION ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh_association.htm)
+    Declares a [mesh association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_association_glosry.htm "Glossary Entry") \_assoc between a start node snode and a target node tnode. The relationship between the nodes is defined using one or more ON conditions, where USING KEY can be used to specify the table key used.

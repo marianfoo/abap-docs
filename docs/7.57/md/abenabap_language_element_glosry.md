@@ -4,11 +4,11 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_glossary.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP language element, ABENABAP_LANGUAGE_ELEMENT_GLOSRY, 757%0D%0A%0D%0AError:%0D%0A%
 0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 ABAP language element
 
-[ABAP keyword](javascript:call_link\('abenabap_keyword_glosry.htm'\) "Glossary Entry") or combination of an ABAP keyword with one or more following [ABAP words](javascript:call_link\('abenabap_word_glosry.htm'\) "Glossary Entry") or [ABAP operands](javascript:call_link\('abenabap_operand_glosry.htm'\) "Glossary Entry"). An ABAP language element uniquely describes the semantics of an [ABAP statement](javascript:call_link\('abenabap_statement_glosry.htm'\) "Glossary Entry"). Examples of different ABAP language elements are GET BIT, GET TIME, DELETE itab, or DELETE dbtab. ABAP language elements can be enhanced using [ABAP language element additions](javascript:call_link\('abenabap_language_elmnt_add_glosry.htm'\) "Glossary Entry").
+[ABAP keyword](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_keyword_glosry.htm "Glossary Entry") or combination of an ABAP keyword with one or more following [ABAP words](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_word_glosry.htm "Glossary Entry") or [ABAP operands](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_operand_glosry.htm "Glossary Entry"). An ABAP language element uniquely describes the semantics of an [ABAP statement](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_statement_glosry.htm "Glossary Entry"). Examples of different ABAP language elements are GET BIT, GET TIME, DELETE itab, or DELETE dbtab. ABAP language elements can be enhanced using [ABAP language element additions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_elmnt_add_glosry.htm "Glossary Entry").

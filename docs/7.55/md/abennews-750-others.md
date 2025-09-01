@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [Changes in Release 7.50](javascript:call_link\('abennews-750.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 7.5x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-75.htm) →  [Changes in Release 7.50](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-750.htm) → 
 
 Further Changes in Release 7.50
 
@@ -17,19 +17,19 @@ Modification 1
 
 Specifying the Text Environment in SUBMIT VIA JOB
 
-The new addition LANGUAGE of the statement [SUBMIT VIA JOB](javascript:call_link\('abapsubmit_via_job.htm'\)) makes it possible to set the [text environment](javascript:call_link\('abentext_environment.htm'\)) of the called program, which was previously only possible when using the function module JOB\_SUBMIT directly.
+The new addition LANGUAGE of the statement [SUBMIT VIA JOB](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsubmit_via_job.htm) makes it possible to set the [text environment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_environment.htm) of the called program, which was previously only possible when using the function module JOB\_SUBMIT directly.
 
 Modification 2
 
 Results Table in ADBC
 
-The method SET\_PARAM\_TABLE of the class CL\_SQL\_STATEMENT, used to access sets in [ADBC queries](javascript:call_link\('abenadbc_query.htm'\)), now accepts sorted and hashed tables as well as standard tables.
+The method SET\_PARAM\_TABLE of the class CL\_SQL\_STATEMENT, used to access sets in [ADBC queries](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadbc_query.htm), now accepts sorted and hashed tables as well as standard tables.
 
 Modification 3
 
 Short Texts in ABAP Doc
 
-It is now possible to define short texts in [ABAP](javascript:call_link\('abenabap_doc_comment_glosry.htm'\) "Glossary Entry") comments and synchronize them with the short texts of methods and function modules in ABAP Workbench.
+It is now possible to define short texts in [ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_doc_comment_glosry.htm "Glossary Entry") comments and synchronize them with the short texts of methods and function modules in ABAP Workbench.
 
 Modification 4
 

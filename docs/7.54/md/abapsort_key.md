@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Extracts](javascript:call_link\('abenabap_extracts_extended.htm'\)) →  [SORT - Extract](javascript:call_link\('abapsort_extract.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_extracts_extended.htm) →  [SORT - Extract](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsort_extract.htm) → 
 
 SORT - sort\_key
 
-[Quick Reference](javascript:call_link\('abapsort_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsort_shortref.htm)
 
 Obsolete Syntax
 
@@ -29,7 +29,7 @@ For field1 field2 ..., field symbols can also be specified. If a component of th
 
 Note
 
-No [customizing includes](javascript:call_link\('abencustomizing_include_glosry.htm'\) "Glossary Entry") may be specified for field1 field2 ... if they are empty.
+No [customizing includes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencustomizing_include_glosry.htm "Glossary Entry") may be specified for field1 field2 ... if they are empty.
 
 Addition 1
 

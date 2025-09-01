@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 ABAP session
 
-Instance for a [user session](javascript:call_link\('abenuser_session_glosry.htm'\) "Glossary Entry") in [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry") with [ABAP Memory](javascript:call_link\('abenabap_memory_glosry.htm'\) "Glossary Entry") as a separate memory area. Each [GUI window](javascript:call_link\('abengui_window_glosry.htm'\) "Glossary Entry") of a user session is associated with its own ABAP session. A maximum of 16 ABAP sessions can be managed for a single user session. An [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry") is executed in an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of an ABAP session.
+Instance for a [user session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_session_glosry.htm "Glossary Entry") in [AS ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") with [ABAP Memory](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_memory_glosry.htm "Glossary Entry") as a separate memory area. Each [GUI window](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengui_window_glosry.htm "Glossary Entry") of a user session is associated with its own ABAP session. A maximum of 16 ABAP sessions can be managed for a single user session. An [ABAP program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_glosry.htm "Glossary Entry") is executed in an [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry") of an ABAP session.
 
-[→ More](javascript:call_link\('abenmemory_organization.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmemory_organization.htm)

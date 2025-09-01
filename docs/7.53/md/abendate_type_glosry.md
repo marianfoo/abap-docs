@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 date type
 
-[Data type](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") [d](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) used to save a [calendar date](javascript:call_link\('abencalendar_date_glosry.htm'\) "Glossary Entry") to a [date field](javascript:call_link\('abendate_field_glosry.htm'\) "Glossary Entry").
+[Data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_type_glosry.htm "Glossary Entry") [d](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_date_time.htm) used to save a [calendar date](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalendar_date_glosry.htm "Glossary Entry") to a [date field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_field_glosry.htm "Glossary Entry").

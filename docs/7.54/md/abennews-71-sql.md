@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 7.0 and its EhPs](javascript:call_link\('abennews-70_ehps.htm'\)) →  [Changes in Release 7.0, EhP2](javascript:call_link\('abennews-71.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews.htm) →  [Changes in Release 7.0 and its EhPs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-70_ehps.htm) →  [Changes in Release 7.0, EhP2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-71.htm) → 
 
 Database Access in Release 7.0, EhP2
 
@@ -28,56 +28,56 @@ Modification 1
 
 UPDATE for Tables with Strings
 
-When the statement [UPDATE](javascript:call_link\('abapupdate.htm'\)) is used for a column of type STRING or RAWSTRING with the addition [SET](javascript:call_link\('abapupdate_source.htm'\)), it is no longer necessary to specify the [primary key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") in full in the WHERE condition.
+When the statement [UPDATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate.htm) is used for a column of type STRING or RAWSTRING with the addition [SET](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate_source.htm), it is no longer necessary to specify the [primary key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_key_glosry.htm "Glossary Entry") in full in the WHERE condition.
 
 Modification 2
 
 Table Buffering with Single Record Access
 
-Access to a table with single record buffering that an equality condition is set for in the WHERE clause for all key fields of the primary key uses [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry"), even if the addition [SINGLE](javascript:call_link\('abapselect_single.htm'\)) is not specified for SELECT. Before Release 7.0 EhP2, table buffering was bypassed if SINGLE was missing.
+Access to a table with single record buffering that an equality condition is set for in the WHERE clause for all key fields of the primary key uses [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm "Glossary Entry"), even if the addition [SINGLE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_single.htm) is not specified for SELECT. Before Release 7.0 EhP2, table buffering was bypassed if SINGLE was missing.
 
 Modification 3
 
 Short Strings as Key Fields of Database Tables
 
-From Release 7.0, EhP2, [short strings](javascript:call_link\('abenddic_character_byte_types.htm'\)) can be used as key fields of the type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) in database tables. This can produce significant memory and performance gains in comparison with using long fields of type CHAR.
+From Release 7.0, EhP2, [short strings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_character_byte_types.htm) can be used as key fields of the type [SSTRING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) in database tables. This can produce significant memory and performance gains in comparison with using long fields of type CHAR.
 
 Modification 4
 
 Maximum Length of Short Strings in ABAP Dictionary
 
-The maximum length of short strings of type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) has been increased from 255 to 1333.
+The maximum length of short strings of type [SSTRING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) has been increased from 255 to 1333.
 
 Modification 5
 
 ABAP Database Connectivity (ADBC)
 
-The class-based framework ABAP Database Connectivity (ADBC), which has existed since Release 6.10 for dynamic access to the [Native SQL interface](javascript:call_link\('abennative_sql_interface_glosry.htm'\) "Glossary Entry"), is now also documented in the ABAP keyword documentation under [ADBC](javascript:call_link\('abenadbc.htm'\)).
+The class-based framework ABAP Database Connectivity (ADBC), which has existed since Release 6.10 for dynamic access to the [Native SQL interface](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_interface_glosry.htm "Glossary Entry"), is now also documented in the ABAP keyword documentation under [ADBC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm).
 
 Modification 6
 
 Streaming and Locators in ABAP SQL
 
-From Release 7.0, EhP2, ABAP SQL supports processing of [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") using [data streams](javascript:call_link\('abendata_stream_glosry.htm'\) "Glossary Entry") and [locators](javascript:call_link\('abenlocator_glosry.htm'\) "Glossary Entry").
+From Release 7.0, EhP2, ABAP SQL supports processing of [LOBs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlob_glosry.htm "Glossary Entry") using [data streams](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_stream_glosry.htm "Glossary Entry") and [locators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocator_glosry.htm "Glossary Entry").
 
 -   A new set of classes and interfaces was introduced.
-    See [ABAP SQL - Streaming and Locators](javascript:call_link\('abenstreams_locators.htm'\))
+    See [ABAP SQL - Streaming and Locators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstreams_locators.htm)
     
 -   In reading and changing ABAP SQL statements, data streams and locators can be linked to LOBs in database tables by using special reference variables.
-    See [SELECT - LOB Handles](javascript:call_link\('abenselect_into_lob_handles.htm'\)) and INSERT, UPDATE, MODIFY dbtab*|*view - LOB Handles
+    See [SELECT - LOB Handles](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_into_lob_handles.htm) and INSERT, UPDATE, MODIFY dbtab*|*view - LOB Handles
     
 -   Using the statements TYPES, DATA, and CLASS-DATA, it is possible to derive special LOB handle structures for use in ABAP SQL.
-    See [TYPES ... FOR ... COLUMNS ...](javascript:call_link\('abaptypes_lob_handle.htm'\))
+    See [TYPES ... FOR ... COLUMNS ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes_lob_handle.htm)
     
 -   The data streams for ABAP SQL are embedded in a broader streaming framework. Further data streams and filter streams will be added to this in future releases.
-    See [Streaming](javascript:call_link\('abenstreaming.htm'\)).
+    See [Streaming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstreaming.htm).
     
 
 Modification 7
 
 Specifying Sorting Columns in ABAP SQL
 
-The restriction that after [ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) in [SELECT](javascript:call_link\('abapselect.htm'\)) only columns can be specified that are also specified after SELECT does not apply.
+The restriction that after [ORDER BY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaporderby_clause.htm) in [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) only columns can be specified that are also specified after SELECT does not apply.
 
 This also applies to the addition PRIMARY KEY. Previously, all columns of the primary key had to be in the SELECT list, but this is no longer the case.
 

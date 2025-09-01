@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodularization_unit_guidl.htm) → 
 
 Typing of Formal Parameters
 
@@ -26,15 +26,15 @@ Be only as generic as necessary when typing formal parameters. Fully generic typ
 
 Details
 
-Absolute type security within a procedure can only be achieved using full typing. It should always be used when providing a generic service is not a defined goal. It is much easier to carry out [tests](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline") for non-generic services than for generic services.
+Absolute type security within a procedure can only be achieved using full typing. It should always be used when providing a generic service is not a defined goal. It is much easier to carry out [tests](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorrectness_quality_guidl.htm "Guideline") for non-generic services than for generic services.
 
-A generically typed procedure interface usually involves more implementation effort within the procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) to avoid [runtime errors](javascript:call_link\('abenruntime_error_dyn_proc_guidl.htm'\) "Guideline"). Therefore, use the following principle when providing generic interfaces: as little generic typing as possible and as much generic typing as necessary. You should use specific generic types, such as numeric or csequence, instead of any or data, for example, if services are involved that are supposed to process numeric values or character strings. If csequence is used, the potential fixed types c and string must display different behavior with respect to trailing blanks or the potential numeric types in calculations for numeric must produce different [calculation types](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry"). More specifically, when existing typings are generalized, it may be necessary to modify the implementation accordingly.
+A generically typed procedure interface usually involves more implementation effort within the procedure ([method](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) to avoid [runtime errors](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_dyn_proc_guidl.htm "Guideline"). Therefore, use the following principle when providing generic interfaces: as little generic typing as possible and as much generic typing as necessary. You should use specific generic types, such as numeric or csequence, instead of any or data, for example, if services are involved that are supposed to process numeric values or character strings. If csequence is used, the potential fixed types c and string must display different behavior with respect to trailing blanks or the potential numeric types in calculations for numeric must produce different [calculation types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalculation_type_glosry.htm "Glossary Entry"). More specifically, when existing typings are generalized, it may be necessary to modify the implementation accordingly.
 
 Generic typing can be a pitfall if you are not aware that you have used generic typing instead of full typing, because only the technical type attributes are checked when an actual parameter is connected, but no component names, for example. This can lead to different behavior than expected.
 
 Note
 
-These rules for typing also apply to [field symbols](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline").
+These rules for typing also apply to [field symbols](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_access_data_obj_guidl.htm "Guideline").
 
 Bad Example
 
@@ -54,7 +54,7 @@ ENDCLASS.
 
 Good Example
 
-Using the built-in function [condense](javascript:call_link\('abencondense_functions.htm'\)) produces the same behavior when a blank is passed, regardless of the fixed type.
+Using the built-in function [condense](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencondense_functions.htm) produces the same behavior when a blank is passed, regardless of the fixed type.
 
 CLASS demo DEFINITION.
   PUBLIC SECTION.

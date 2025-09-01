@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [Table-Specific Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) →  [Foreign Key Dependencies](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)) →  [Flagging of Obsolete Data in Check Tables](javascript:call_link\('abenddic_deprecation.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_sema.htm) →  [Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_semasspec.htm) →  [Foreign Key Dependencies](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_forkeyrel.htm) →  [Flagging of Obsolete Data in Check Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm) → 
 
 Flagging of Deprecated Data in Check Tables
 
-This example demonstrates [how deprecated data is flagged in check tables](javascript:call_link\('abenddic_deprecation.htm'\)).
+This example demonstrates [how deprecated data is flagged in check tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_deprecation.htm).
 
 Source Code
 
@@ -45,7 +45,7 @@ Description
 
 This example uses the check table DEMO\_DEPR\_CHECK for the flagging of deprecated entries and the first three table entries are flagged as deprecated. The next three table entries are flagged as invalid.
 
-This example makes it possible to define how deprecated data is checked. The [checkbox](javascript:call_link\('abencheckbox_glosry.htm'\) "Glossary Entry") Check deprecated data enables or disables checks on deprecated data and hence defines the input check and input help.
+This example makes it possible to define how deprecated data is checked. The [checkbox](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencheckbox_glosry.htm "Glossary Entry") Check deprecated data enables or disables checks on deprecated data and hence defines the input check and input help.
 
 If checks on deprecated data are enabled, the following takes place:
 

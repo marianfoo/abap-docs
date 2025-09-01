@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarchitecture_gdl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenerror_handling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Using Exception Classes, ABENUSE_EXCEPTION_CLASS_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0
 D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -31,7 +31,7 @@ The following procedure is recommended for raising correct exceptions:
 2.  Make an existing, almost ideal exception class more specific by passing on and/or adding new exception texts.
 3.  Create an new ideal exception class, possibly as a part of a predefined inheritance hierarchy.
 
-In doing so, it must be ensured that an appropriate [exception category](javascript:call_link\('abenexception_category_guidl.htm'\) "Guideline") is used.
+In doing so, it must be ensured that an appropriate [exception category](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexception_category_guidl.htm "Guideline") is used.
 
 Bad Example
 

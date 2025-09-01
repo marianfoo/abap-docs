@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Event Blocks for Lists](javascript:call_link\('abenabap_lists_interactive.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Event Blocks for Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_lists_interactive.htm) → 
 
 END-OF-PAGE
 
-[Quick Reference](javascript:call_link\('abapend-of-page_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-of-page_shortref.htm)
 
 Syntax
 
@@ -16,7 +16,7 @@ END-OF-PAGE.
 
 Effect
 
-This statement defines an event block triggered by the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry") when a basic list is created, if a line reservation was made in the addition LINE-COUNT of the introductory statement for a [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") reached by a write operation on this page. List output made in the event block is placed in this area. Output statements that exceed the reserved area are ignored.
+This statement defines an event block triggered by the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry") when a basic list is created, if a line reservation was made in the addition LINE-COUNT of the introductory statement for a [page footer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpage_footer_glosry.htm "Glossary Entry") reached by a write operation on this page. List output made in the event block is placed in this area. Output statements that exceed the reserved area are ignored.
 
 Example
 

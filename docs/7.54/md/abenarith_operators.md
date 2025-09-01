@@ -4,13 +4,13 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [arith\_exp - Arithmetic Expressions](javascript:call_link\('abapcompute_arith.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompute_expressions.htm) →  [arith\_exp - Arithmetic Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_arith.htm) → 
 
 arith\_exp - Arithmetic Operators
 
-The table below shows the possible arithmetic operators for [arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), their priority, and the order in which the calculation is performed. Within one [parenthesis level](javascript:call_link\('abenarith_brackets.htm'\)), calculations with operators of higher priority are performed before calculations with operators of lower priority. For consecutive operators of the same priority, the calculation is performed in the order specified. In the third column of the table below, 3 indicates the highest priority and 1 the lowest.
+The table below shows the possible arithmetic operators for [arithmetic expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), their priority, and the order in which the calculation is performed. Within one [parenthesis level](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarith_brackets.htm), calculations with operators of higher priority are performed before calculations with operators of lower priority. For consecutive operators of the same priority, the calculation is performed in the order specified. In the third column of the table below, 3 indicates the highest priority and 1 the lowest.
 
-The calculation is made as specified by the [calculation rule](javascript:call_link\('abenarith_type.htm'\)) for the current [calculation type](javascript:call_link\('abenarith_type.htm'\)). With the exception of \*\*, the operators are ignored by the calculation type. If the operator \*\* does not appear in an arithmetic expression, the calculation type is determined only by the data types involved. When \*\* is used, the calculation type is either decfloat34 or f. It is decfloat34 if one of the operands in question is a [decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") and f in all other cases.
+The calculation is made as specified by the [calculation rule](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarith_type.htm) for the current [calculation type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarith_type.htm). With the exception of \*\*, the operators are ignored by the calculation type. If the operator \*\* does not appear in an arithmetic expression, the calculation type is determined only by the data types involved. When \*\* is used, the calculation type is either decfloat34 or f. It is decfloat34 if one of the operands in question is a [decimal floating point number](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendecfloat_glosry.htm "Glossary Entry") and f in all other cases.
 
 Operator
 
@@ -78,21 +78,21 @@ From right to left
 
 Programming Guideline
 
-[Prevent division by zero](javascript:call_link\('abendivision_zero_guidl.htm'\) "Guideline")
+[Prevent division by zero](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendivision_zero_guidl.htm "Guideline")
 
 Notes
 
 -   Division by the value 0 is undefined and raises a handleable exception. The only situation where division by 0 does not raise an exception is if the dividend is also 0. Here, the result is set to 0.
 
--   In ABAP, the result of a division for the [calculation types](javascript:call_link\('abenarith_type.htm'\)) i, int8, p, and decfloat34 is rounded commercially, whereas in most other programming languages any surplus decimal places are cut off.
+-   In ABAP, the result of a division for the [calculation types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarith_type.htm) i, int8, p, and decfloat34 is rounded commercially, whereas in most other programming languages any surplus decimal places are cut off.
 
 -   The result of DIV multiplied by operand2 plus the result of MOD always produces operand1. Therefore, the rule that the result of MOD is always positive also has an impact on the result of DIV. The result of an integer division of two positive numbers with a remainder that is not equal to zero differs from the result of an integer division of two negative numbers with the same amounts. Likewise, for operands with different signs, which operand is positive and which is negative is of significance.
 
 -   If, when raising to a power, the left operand is 0, the right operand must be greater than or equal to 0. If the left operand is negative, the right operand must be an integer. Otherwise, both cases raise a handleable exception.
 
--   To stop the operator \*\* producing the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") f, the built-in function [ipow](javascript:call_link\('abenpower_function.htm'\)) can be used for integer exponents. Here, the calculation type is determined by the argument.
+-   To stop the operator \*\* producing the [calculation type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_type_glosry.htm "Glossary Entry") f, the built-in function [ipow](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpower_function.htm) can be used for integer exponents. Here, the calculation type is determined by the argument.
 
--   The ABAP operators DIV and MOD behave differently with respect to the signs than the SQL operators [DIV](javascript:call_link\('abensql_functions_numeric.htm'\)) and [MOD](javascript:call_link\('abensql_functions_numeric.htm'\)).
+-   The ABAP operators DIV and MOD behave differently with respect to the signs than the SQL operators [DIV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm) and [MOD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm).
 
 Example
 
@@ -110,7 +110,7 @@ cl\_demo\_output=>display( |{ n } MOD { m } = { pack }| ).
 
 Example
 
-The following table shows the results of integer divisions and their remainders. See also the example for the SQL operators [DIV](javascript:call_link\('abensql_functions_numeric.htm'\)) and [MOD](javascript:call_link\('abensql_functions_numeric.htm'\)).
+The following table shows the results of integer divisions and their remainders. See also the example for the SQL operators [DIV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm) and [MOD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_functions_numeric.htm).
 
 operand1
 
@@ -154,12 +154,12 @@ MOD
 
 Executable Example
 
-[Arithmetic Calculations](javascript:call_link\('abendivisions_abexa.htm'\))
+[Arithmetic Calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendivisions_abexa.htm)
 
 Executable Example
 
-[Floating Point Numbers, Arithmetic Calculations](javascript:call_link\('abenfloating_point_numbers_abexa.htm'\))
+[Floating Point Numbers, Arithmetic Calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfloating_point_numbers_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Arithmetic Calculations](javascript:call_link\('abendivisions_abexa.htm'\))
-![Example](exa.gif "Example") [Floating Point Numbers, Arithmetic Calculations](javascript:call_link\('abenfloating_point_numbers_abexa.htm'\))
+![Example](exa.gif "Example") [Arithmetic Calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendivisions_abexa.htm)
+![Example](exa.gif "Example") [Floating Point Numbers, Arithmetic Calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfloating_point_numbers_abexa.htm)

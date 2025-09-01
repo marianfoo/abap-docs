@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenwait.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwait.htm)
-- [abapwait_up_to.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.226Z
-
----
-
 ### abenwait.htm
-
-> **📖 Official SAP Documentation**: [abenwait.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwait.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,27 +11,17 @@ Included pages: 2
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_structures.htm) → 
 
 Program Interruption
 
-This section describes how programs are usually interrupted using the statement [WAIT](javascript:call_link\('abapwait_up_to.htm'\)). A special [variant](javascript:call_link\('abapwait_until.htm'\)) is explained in the context of [asynchronous RFC](javascript:call_link\('abenasynchronous_rfc_glosry.htm'\) "Glossary Entry").
+This section describes how programs are usually interrupted using the statement [WAIT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm). A special [variant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_until.htm) is explained in the context of [asynchronous RFC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenasynchronous_rfc_glosry.htm "Glossary Entry").
 
 Continue
-[WAIT UP TO](javascript:call_link\('abapwait_up_to.htm'\))
+[WAIT UP TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm)
 
-
-
-**📖 Source**: [abenwait.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwait.htm)
 
 ### abapwait_up_to.htm
-
-> **📖 Official SAP Documentation**: [abapwait_up_to.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapwait_up_to.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm)
-
 
   
 
@@ -58,11 +29,11 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Program Interruption](javascript:call_link\('abenwait.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_structures.htm) →  [Program Interruption](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwait.htm) → 
 
 WAIT UP TO
 
-[Quick Reference](javascript:call_link\('abapwait_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
 
 Syntax
 
@@ -70,7 +41,7 @@ WAIT UP TO sec SECONDS.
 
 Effect
 
-This statement interrupts the execution of the program by the number of seconds specified in sec. sec is a [numerical expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") of operand type f to which positive numbers (including 0) can be passed. The unit of the number in sec is seconds and the time resolution is one millisecond. After the specified time has passed, the program continues with the statement following WAIT. When used, this statement always changes the [work process](javascript:call_link\('abenwork_process_glosry.htm'\) "Glossary Entry").
+This statement interrupts the execution of the program by the number of seconds specified in sec. sec is a [numerical expression position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") of operand type f to which positive numbers (including 0) can be passed. The unit of the number in sec is seconds and the time resolution is one millisecond. After the specified time has passed, the program continues with the statement following WAIT. When used, this statement always changes the [work process](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwork_process_glosry.htm "Glossary Entry").
 
 Return Codes
 
@@ -78,9 +49,9 @@ This statement always sets sy-subrc to 0.
 
 Notes
 
--   Each time this variant of the statement WAIT is used, a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") is triggered (except in [updates](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry")). For this reason, WAIT must not be used between [ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") statements that open or close a [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry").
+-   Each time this variant of the statement WAIT is used, a [database commit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry") is triggered (except in [updates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenupdate_glosry.htm "Glossary Entry")). For this reason, WAIT must not be used between [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statements that open or close a [database cursor](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_cursor_glosry.htm "Glossary Entry").
     
--   The variants [WAIT FOR ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_until.htm'\)), [WAIT FOR MESSAGING CHANNELS](javascript:call_link\('abapwait_amc.htm'\)), and [WAIT FOR PUSH CHANNELS](javascript:call_link\('abapwait_apc.htm'\)) of this statement are useful only when used in combination with callback routines in [aRFC](javascript:call_link\('abenarfc_glosry.htm'\) "Glossary Entry"), [AMC](javascript:call_link\('abenamc_glosry.htm'\) "Glossary Entry"), or [APC](javascript:call_link\('abenapc_glosry.htm'\) "Glossary Entry"). The variant shown here does not wait for callback routines.
+-   The variants [WAIT FOR ASYNCHRONOUS TASKS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_until.htm), [WAIT FOR MESSAGING CHANNELS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_amc.htm), and [WAIT FOR PUSH CHANNELS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_apc.htm) of this statement are useful only when used in combination with callback routines in [aRFC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarfc_glosry.htm "Glossary Entry"), [AMC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_glosry.htm "Glossary Entry"), or [APC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_glosry.htm "Glossary Entry"). The variant shown here does not wait for callback routines.
     
 
 Example
@@ -92,7 +63,7 @@ WAIT UP TO 1 SECONDS.
 GET RUN TIME FIELD DATA(t2).
 cl\_demo\_output=>display( |{ t2 - t1  STYLE = scientific }| ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numerical Functions](javascript:call_link\('abenmathematical_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompute_expressions.htm) →  [Numerical Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmathematical_functions.htm) → 
 
 round, rescale - Rounding Functions
 
@@ -14,9 +14,11 @@ Syntax
 
 Effect
 
-The rounding functions expect a [decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") as a main argument val and additional arguments that describe how this floating point number is handled. The type of the return value of a rounding function is always decfloat34. Within an arithmetic expression, the argument for the decimal floating point number can either be an arithmetic expression or a function. The other arguments must always be specified as numeric data objects.
+The rounding functions expect a [decimal floating point number](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendecfloat_glosry.htm "Glossary Entry") as a main argument val and additional arguments that describe how this floating point number is handled. The type of the return value of a rounding function is always decfloat34. Within an arithmetic expression, the argument for the decimal floating point number can either be an arithmetic expression or a function. The other arguments must always be specified as numeric data objects.
 
--   [Rounding Function](#abendec-floating-point-functions-1--------rescaling-function---@ITOC@@ABENDEC_FLOATING_POINT_FUNCTIONS_2)
+-   [Rounding Function](#@@ITOC@@ABENDEC_FLOATING_POINT_FUNCTIONS_1)
+
+-   [Rescaling Function](#@@ITOC@@ABENDEC_FLOATING_POINT_FUNCTIONS_2)
 
 Note
 
@@ -24,7 +26,7 @@ The class CL\_ABAP\_MATH includes the method NORMALIZE for normalizing a decimal
 
 Rounding Function
 
-The rounding function round can be implemented in [operand positions](javascript:call_link\('abenoperands_expressions.htm'\)) using the following syntax:
+The rounding function round can be implemented in [operand positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm) using the following syntax:
 
 Syntax
 
@@ -34,13 +36,13 @@ Effect
 
 This function rounds a decimal floating point number declared as an argument for the parameter val. A data object specified for arg is converted to the data type decfloat34 before the function is executed, if necessary.
 
-Either the parameter dec or the parameter prec must be given a value, and rounding must be to either a particular number of decimal places or [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry"):
+Either the parameter dec or the parameter prec must be given a value, and rounding must be to either a particular number of decimal places or [precision](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprecision_glosry.htm "Glossary Entry"):
 
 -   If the parameter dec is given a value, the value entered is rounded to the number of decimal places specified in n and returned. n expects data objects of the type i. The value of these data objects cannot be less than -6144. If a negative value is given, the relevant whole number place is rounded.
 
--   If the parameter prec is given a value, the value entered is rounded to the [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry") specified in n and returned. n expects data objects of the type i. The value of these data objects must be greater than 0.
+-   If the parameter prec is given a value, the value entered is rounded to the [precision](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprecision_glosry.htm "Glossary Entry") specified in n and returned. n expects data objects of the type i. The value of these data objects must be greater than 0.
 
-A rounding can reduce [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") and [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry") but cannot increase them. If dec is specified, the mantissa of the return code does not contain any zeroes after the place where the rounding applies. If prec is specified, the input value is returned without being changed, if the specified precision is greater than or equal to the input value.
+A rounding can reduce [scaling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscale_glosry.htm "Glossary Entry") and [precision](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprecision_glosry.htm "Glossary Entry") but cannot increase them. If dec is specified, the mantissa of the return code does not contain any zeroes after the place where the rounding applies. If prec is specified, the input value is returned without being changed, if the specified precision is greater than or equal to the input value.
 
 The parameter mode (optional) can be used to set the rounding type. For m it is only possible to specify values that exist as ROUND\_... constants in class CL\_ABAP\_MATH. The following table shows the possible rounding rules. If mode is not given a value, commercial rounding is used.
 
@@ -274,11 +276,11 @@ Precision
 
 Executable Example
 
-[Rounding Function round](javascript:call_link\('abenround_function_abexa.htm'\))
+[Rounding Function round](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenround_function_abexa.htm)
 
 Rescaling Function
 
-The rescaling function rescale can be implemented in [operand positions](javascript:call_link\('abenoperands_expressions.htm'\)) using the following syntax:
+The rescaling function rescale can be implemented in [operand positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm) using the following syntax:
 
 Syntax
 
@@ -286,15 +288,15 @@ Syntax
 
 Effect
 
-This function changes the [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") of a decimal floating point number declared as an argument for the parameter val. A data object specified for arg is converted to the data type decfloat34 before the function is executed, if necessary.
+This function changes the [scaling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscale_glosry.htm "Glossary Entry") of a decimal floating point number declared as an argument for the parameter val. A data object specified for arg is converted to the data type decfloat34 before the function is executed, if necessary.
 
-Either the parameter dec or the parameter prec must be given a value, where either the [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") or the [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry") is set:
+Either the parameter dec or the parameter prec must be given a value, where either the [scaling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscale_glosry.htm "Glossary Entry") or the [precision](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprecision_glosry.htm "Glossary Entry") is set:
 
--   If the parameter dec is given a value, the value entered is rounded using the [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") specified in n and returned. n expects data objects of the type i. The value of these data objects cannot be less than -6144. If the scaling produces more than 34 places in the mantissa of the return value, a handleable exception is raised.
+-   If the parameter dec is given a value, the value entered is rounded using the [scaling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscale_glosry.htm "Glossary Entry") specified in n and returned. n expects data objects of the type i. The value of these data objects cannot be less than -6144. If the scaling produces more than 34 places in the mantissa of the return value, a handleable exception is raised.
 
--   If the parameter prec is given a value, the value entered is returned with the [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry") specified in n and appropriate [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") and returned. n expects data objects of the type i. The value of these data objects must be greater than 0 and less than 34.
+-   If the parameter prec is given a value, the value entered is returned with the [precision](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprecision_glosry.htm "Glossary Entry") specified in n and appropriate [scaling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscale_glosry.htm "Glossary Entry") and returned. n expects data objects of the type i. The value of these data objects must be greater than 0 and less than 34.
 
-A rescaling can both reduce and increase [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") and [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry"). An increase adds zeros on the right.
+A rescaling can both reduce and increase [scaling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscale_glosry.htm "Glossary Entry") and [precision](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprecision_glosry.htm "Glossary Entry"). An increase adds zeros on the right.
 
 The input value is rounded if required. The optional parameter mod can be used to specify the rounding rule, as described under the function round. The default is commercial rounding.
 

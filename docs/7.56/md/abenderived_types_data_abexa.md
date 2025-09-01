@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Examples for BDEF Derived Type Components](javascript:call_link\('abenderived_types_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_rap_other.htm) →  [ABAP for RAP, BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm) →  [Examples for BDEF Derived Type Components](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenderived_types_abexas.htm) → 
 
 Using %data / %target
 
-This example demonstrates the use of %data and %target with a [managed](javascript:call_link\('abenbdl_impl_type.htm'\)) [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+This example demonstrates the use of %data and %target with a [managed](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_impl_type.htm) [RAP BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
 Data model
 
@@ -48,7 +48,7 @@ define view entity demo\_managed\_child\_4
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_4 is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_4 is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_root\_4 unique;
 strict;
@@ -75,7 +75,7 @@ authorization dependent by \_parent
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_4. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. In this case, the behavior pool does not include any implementations that are relevant for the example.
+For the above CDS behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_4. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. In this case, the behavior pool does not include any implementations that are relevant for the example.
 
 Source Code
 
@@ -246,8 +246,8 @@ Access with ABAP using EML
 
 There is one ABAP EML modify request that covers several RAP modify operations:
 
-1.  The first ABAP EML modify operation is a RAP create operation that creates two [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") for the root entity. The first instance is created by specifying the key and data fields with %data individually with the [structure component selector](javascript:call_link\('abenstructure_component_sel_glosry.htm'\) "Glossary Entry"). The second instance is created by specifying %data with the [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)). In principle, the use of %data is optional. For example, the data fields can be specified directly without %data.
-2.  The second ABAP EML modify operation is a create-by-association focusing on the %target component. Two RAP BO instances are created for the child entity. The reference to instances from the root entity is made via [%cid\_ref](javascript:call_link\('abapderived_types_cid_ref.htm'\)). Also here, the key and data fields of the instance that is to be created for the child entity within %target are specified using %data which is optional in this case, too.
+1.  The first ABAP EML modify operation is a RAP create operation that creates two [RAP BO instances](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") for the root entity. The first instance is created by specifying the key and data fields with %data individually with the [structure component selector](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstructure_component_sel_glosry.htm "Glossary Entry"). The second instance is created by specifying %data with the [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_value.htm). In principle, the use of %data is optional. For example, the data fields can be specified directly without %data.
+2.  The second ABAP EML modify operation is a create-by-association focusing on the %target component. Two RAP BO instances are created for the child entity. The reference to instances from the root entity is made via [%cid\_ref](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_cid_ref.htm). Also here, the key and data fields of the instance that is to be created for the child entity within %target are specified using %data which is optional in this case, too.
 3.  The third ABAP EML modify request is an update operation. It just shows the optional use of %data when referring to key and data fields.
 
-With a [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) statement, the instances are saved to the database. The output shows the database table entries of the root and child entity.
+With a [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit_entities.htm) statement, the instances are saved to the database. The output shows the database table entries of the root and child entity.

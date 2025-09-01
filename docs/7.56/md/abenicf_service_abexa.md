@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [Internet Communication Framework (ICF)](javascript:call_link\('abenicf.htm'\)) →  [ICF - Examples](javascript:call_link\('abenicf_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) →  [Internet Communication Framework (ICF)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenicf.htm) →  [ICF - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenicf_abexas.htm) → 
 
 ICF - Calling an HTTP Service
 
-This example demonstrates how an [ICF](javascript:call_link\('abenicf_glosry.htm'\) "Glossary Entry") HTTP service is called directly using a Web browser.
+This example demonstrates how an [ICF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenicf_glosry.htm "Glossary Entry") HTTP service is called directly using a Web browser.
 
 Source Code
 
@@ -71,7 +71,7 @@ METHOD if\_http\_extension~handle\_request.
     data = cl\_demo\_output=>get( connections ) ).
 ENDMETHOD.
 
-The built-in function [escape](javascript:call_link\('abenescape_functions.htm'\)) and the method ESCAPE\_QUOTES of the class CL\_ABAP\_DYN\_PRG are using to prevent [cross site scripting](javascript:call_link\('abenxss_glosry.htm'\) "Glossary Entry") and [SQL injections](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry"). The content of the internal table connections (filled in accordance with the passed form field) is converted to HTML using the class CL\_DEMO\_OUTPUT before it is passed to the RESPONSE object.
+The built-in function [escape](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenescape_functions.htm) and the method ESCAPE\_QUOTES of the class CL\_ABAP\_DYN\_PRG are using to prevent [cross site scripting](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxss_glosry.htm "Glossary Entry") and [SQL injections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_injection_glosry.htm "Glossary Entry"). The content of the internal table connections (filled in accordance with the passed form field) is converted to HTML using the class CL\_DEMO\_OUTPUT before it is passed to the RESPONSE object.
 
 Hint
 

@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  T
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_shortref.htm) →  T
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: TYPES BEGIN OF MESH, ABAPTYPES_BEGIN_OF_MESH_SHORTREF, 757%0D%0A%0D%0AError:%0D%0A%0D
 %0A%0D%0A%0D%0ASuggestion for improvement:)
 
 TYPES BEGIN OF MESH - Short Reference
 
-[Reference](javascript:call_link\('abaptypes_mesh.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_mesh.htm)
 
 Syntax
 
@@ -33,5 +33,5 @@ Defines a mesh type mesh\_type whose nodes are tabular data types or reference t
 
 Addition  
 
--   [ASSOCIATION ...](javascript:call_link\('abaptypes_mesh_association.htm'\))
-    Declares a [mesh association](javascript:call_link\('abenmesh_association_glosry.htm'\) "Glossary Entry") \_assoc between a start node snode and a target node tnode. The relationship between the nodes is defined using one or more ON conditions, where USING KEY can be used to specify the table key used.
+-   [ASSOCIATION ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_mesh_association.htm)
+    Declares a [mesh association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_association_glosry.htm "Glossary Entry") \_assoc between a start node snode and a target node tnode. The relationship between the nodes is defined using one or more ON conditions, where USING KEY can be used to specify the table key used.

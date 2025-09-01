@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_win](javascript:call_link\('abapselect_over.htm'\)) →  [sql\_win - Examples of Window Expressions](javascript:call_link\('abensql_expr_over_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_win](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_over.htm) →  [sql\_win - Examples of Window Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_expr_over_abexas.htm) → 
 
 sql\_win - Window Functions LEAD and LAG
 
-This example demonstrates [window expressions](javascript:call_link\('abapselect_over.htm'\)) with the [window functions](javascript:call_link\('abenwindow_function_glosry.htm'\) "Glossary Entry") [LEAD](javascript:call_link\('abensql_win_func.htm'\)) and [LAG](javascript:call_link\('abensql_win_func.htm'\)).
+This example demonstrates [window expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_over.htm) with the [window functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwindow_function_glosry.htm "Glossary Entry") [LEAD](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_win_func.htm) and [LAG](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_win_func.htm).
 
 Source Code
 
@@ -111,7 +111,7 @@ START-OF-SELECTION.
 
 Description
 
-The example shows results of the window functions [LEAD](javascript:call_link\('abensql_win_func.htm'\)) and [LAG](javascript:call_link\('abensql_win_func.htm'\)) to which all three possible arguments are passed. Like in the executable example, the windows are determined for [window expressions with sorting](javascript:call_link\('abensql_expr_over_order_by_abexa.htm'\)).
+The example shows results of the window functions [LEAD](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_win_func.htm) and [LAG](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_win_func.htm) to which all three possible arguments are passed. Like in the executable example, the windows are determined for [window expressions with sorting](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_expr_over_order_by_abexa.htm).
 
 -   The first argument determines the result as a character-like representation of the column NUM1 of the row determined by the second argument.
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [RAP - Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [RAP - Entity Behavior Characteristics](javascript:call_link\('abenbdl_character.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl.htm) →  [RAP - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_rap_bo.htm) →  [RAP - Entity Behavior Definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_define_beh.htm) →  [RAP - Entity Behavior Characteristics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_character.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20syntax_short_form%2C%20ABENBDL_SHORT_SYNTAX%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -22,7 +22,7 @@ The following three statements can be summarized in one statement:
 -   authorization dependent by \_assoc
 -   etag dependent by \_assoc
 
-This syntax short form can be used if the [RAP authorization master entity](javascript:call_link\('abenrap_auth_ma_ent_glosry.htm'\) "Glossary Entry"), [RAP lock master entity](javascript:call_link\('abenrap_lock_ma_ent_glosry.htm'\) "Glossary Entry"), and [RAP ETag master entity](javascript:call_link\('abenrap_etag_ma_ent_glosry.htm'\) "Glossary Entry") are defined in the same entity which is reached via the association \_assoc.
+This syntax short form can be used if the [RAP authorization master entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_auth_ma_ent_glosry.htm "Glossary Entry"), [RAP lock master entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_lock_ma_ent_glosry.htm "Glossary Entry"), and [RAP ETag master entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_etag_ma_ent_glosry.htm "Glossary Entry") are defined in the same entity which is reached via the association \_assoc.
 
 Each of the three components lock, authorization, and etag is optional but at least one of them must be specified within the parentheses.
 

@@ -4,8 +4,8 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 data source
 
-→ [SQL data source](javascript:call_link\('abensql_data_source_glosry.htm'\) "Glossary Entry"), [streaming data source](javascript:call_link\('abenstreaming_data_source_glosry.htm'\) "Glossary Entry")
+→ [SQL data source](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_data_source_glosry.htm "Glossary Entry"), [streaming data source](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstreaming_data_source_glosry.htm "Glossary Entry")

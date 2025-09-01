@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  R
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  R
 
 REFRESH CONTROL - Quick reference
 
-[Reference](javascript:call_link\('abaprefresh_control.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaprefresh_control.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ REFRESH CONTROL contrl FROM SCREEN dynnr.
 
 Effect
 
-Assigns the values predefined in the [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") dynnr to components of the structure contrl defined for a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry") using CONTROLS.
+Assigns the values predefined in the [dynpro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm "Glossary Entry") dynnr to components of the structure contrl defined for a [table control](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_control_glosry.htm "Glossary Entry") using CONTROLS.

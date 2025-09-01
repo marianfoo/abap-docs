@@ -4,26 +4,26 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_processing_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: WRITE, TO, ABAPWRITE_TO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for
 improvement:)
 
 WRITE, TO
 
-[Short Reference](javascript:call_link\('abapwrite_to_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to_shortref.htm)
 
 Syntax
 
 WRITE *{*source*|*(source\_name)*}* TO destination
-     [*\[*format\_options*\]*](javascript:call_link\('abapwrite_to_options.htm'\)).
+     [*\[*format\_options*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to_options.htm).
 
 Effect
 
 The statement WRITE TO prepares the content of a source either using
 
--   [predefined formats](javascript:call_link\('abenwrite_formats.htm'\)) or
--   explicit formatting options [format\_options](javascript:call_link\('abapwrite_to_options.htm'\))
+-   [predefined formats](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_formats.htm) or
+-   explicit formatting options [format\_options](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to_options.htm)
 
 as a character string and assigns the formatted content to the character-like data object destination.
 
@@ -31,11 +31,11 @@ The source field can be specified either statically or dynamically:
 
 -   source
     
-    The static specification is made directly as source. source is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") with the restriction that no [numeric literals](javascript:call_link\('abennumeric_literal_glosry.htm'\) "Glossary Entry"), [arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), or [bit expressions](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry") can be specified directly.
+    The static specification is made directly as source. source is a [general expression position](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") with the restriction that no [numeric literals](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumeric_literal_glosry.htm "Glossary Entry"), [arithmetic expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), or [bit expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbit_expression_glosry.htm "Glossary Entry") can be specified directly.
     
 -   source\_name
     
-    The dynamic specification is made as the content of a parenthesized flat character-like data object source\_name, which must contain the name of the data object in question (non-case-sensitive). If the data object specified in source\_name does not exist, no assignment takes place and sy-subrc is set to 4. When evaluating source\_name, the same applies as to a dynamically specified [(name)](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)) in the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)). The following can be specified for source\_name:
+    The dynamic specification is made as the content of a parenthesized flat character-like data object source\_name, which must contain the name of the data object in question (non-case-sensitive). If the data object specified in source\_name does not exist, no assignment takes place and sy-subrc is set to 4. When evaluating source\_name, the same applies as to a dynamically specified [(name)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_mem_area_dynamic_dobj.htm) in the statement [ASSIGN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign.htm). The following can be specified for source\_name:
     
     -   Literal or constant
         
@@ -49,15 +49,15 @@ The source field can be specified either statically or dynamically:
     When the statement is executed, name is not evaluated until runtime in both cases.
     
 
-Only the data types grouped together under the [simple](javascript:call_link\('abenbuilt_in_types_generic.htm'\)) generic type can be used as source fields.
+Only the data types grouped together under the [simple](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_types_generic.htm) generic type can be used as source fields.
 
--   All [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") data types; flat structures are handled like a data object of type c and can only contain character-like components.
+-   All [flat](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenflat_glosry.htm "Glossary Entry") data types; flat structures are handled like a data object of type c and can only contain character-like components.
 -   The data types string and xstring
--   [enumerated types](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"); the name (maximum three characters) of the [enumerated constant](javascript:call_link\('abenenumerated_constant_glosry.htm'\) "Glossary Entry") that defines the current [enumerated value](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") is used in uppercase letters.
+-   [enumerated types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_type_glosry.htm "Glossary Entry"); the name (maximum three characters) of the [enumerated constant](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_constant_glosry.htm "Glossary Entry") that defines the current [enumerated value](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_value_glosry.htm "Glossary Entry") is used in uppercase letters.
 
 The target field destination must be character-like and flat.
 
--   If the length of the target field destination is shorter than the length of the format of the data object either [predefined](javascript:call_link\('abenwrite_formats.htm'\)) or specified using [format\_options](javascript:call_link\('abapwrite_to_options.htm'\)), the output is truncated in formatting and in the subsequent assignment in accordance with a type-specific [truncation behavior](javascript:call_link\('abenwrite_truncations.htm'\)).
+-   If the length of the target field destination is shorter than the length of the format of the data object either [predefined](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_formats.htm) or specified using [format\_options](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to_options.htm), the output is truncated in formatting and in the subsequent assignment in accordance with a type-specific [truncation behavior](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_truncations.htm).
 -   If the available length is greater than the length required for formatting, the system places the result in the target field based on the predefined or self-defined alignment and fills the non-required space with blanks.
 
 System Fields
@@ -78,10 +78,10 @@ If source is specified statically, sy-subrc is not set.
 
 Hints
 
--   Although the statement WRITE TO does not send any data to an output medium, a [conversion routine](javascript:call_link\('abenconversion_routine_glosry.htm'\) "Glossary Entry") may be executed.
+-   Although the statement WRITE TO does not send any data to an output medium, a [conversion routine](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_routine_glosry.htm "Glossary Entry") may be executed.
 -   The statement WRITE TO is mainly suited for formatting data for output purposes but not for further internal processing. For example, a field can no longer be handled as a numeric data object if the decimal separator is represented as a comma.
--   No numeric literals can be specified between WRITE and TO because the statement cannot be distinguished from a [WRITE](javascript:call_link\('abapwrite-.htm'\)) statement with a specified position.
--   The use of the WRITE TO statement can be replaced in most cases by [embedded expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)) in [string templates](javascript:call_link\('abenstring_templates.htm'\)) of [string expressions](javascript:call_link\('abapcompute_string.htm'\)).
+-   No numeric literals can be specified between WRITE and TO because the statement cannot be distinguished from a [WRITE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite-.htm) statement with a specified position.
+-   The use of the WRITE TO statement can be replaced in most cases by [embedded expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_templates_expressions.htm) in [string templates](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_templates.htm) of [string expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_string.htm).
 -   It is possible to use string templates as source fields for the statement WRITE TO, but this is not usually recommended since both WRITE TO and string templates are used to format data and only a single method should be used. It is best to use string templates only.
 
 Example
@@ -95,11 +95,11 @@ WRITE sy-datlo TO: date\_short,
                    date\_long,
                    date\_mask DD/MM/YY.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
-If one of the following catchable exceptions is raised in the output of a decimal floating point number, the target field or output of the statement [WRITE](javascript:call_link\('abapwrite-.htm'\)) is filled using asterisks (\*).
+If one of the following catchable exceptions is raised in the output of a decimal floating point number, the target field or output of the statement [WRITE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite-.htm) is filled using asterisks (\*).
 
 CX\_SY\_WRITE\_INVALID\_STYLE
 
@@ -134,6 +134,6 @@ Uncatchable Exceptions
     Runtime error: CONVERT\_TSTMP\_INCONSISTENT\_TAB
 
 Continue
-[WRITE, Predefined Formats](javascript:call_link\('abenwrite_formats.htm'\))
-[WRITE, format\_options](javascript:call_link\('abapwrite_to_options.htm'\))
-[WRITE, Truncation Behavior](javascript:call_link\('abenwrite_truncations.htm'\))
+[WRITE, Predefined Formats](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_formats.htm)
+[WRITE, format\_options](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to_options.htm)
+[WRITE, Truncation Behavior](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_truncations.htm)

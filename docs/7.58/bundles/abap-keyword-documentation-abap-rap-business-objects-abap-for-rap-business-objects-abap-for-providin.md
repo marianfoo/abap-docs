@@ -3,36 +3,7 @@
 Included pages: 11
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm)
-- [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapin_local_mode.htm)
-- [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_aug_entity_entities.htm)
-- [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_modify_augmenting_abexa.htm)
-- [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check_disable.htm)
-- [abeneml_auth_check_disable_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_auth_check_disable_abexa.htm)
-- [abapset_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_entities.htm)
-- [abeneml_set_entities_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_set_entities_abexa.htm)
-
-**Bundle Contains**: 8 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:29.012Z
-
----
-
 ### abeneml_in_abp.htm
-
-> **📖 Official SAP Documentation**: [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -40,7 +11,7 @@ Included pages: 11
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20Providing%20RAP%20BOs%2C%20ABENEML_IN_ABP%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -48,36 +19,25 @@ ABAP EML - Providing RAP BOs
 
 The following EML language elements can only be used in behavior implementations:
 
--   [IN LOCAL MODE](javascript:call_link\('abapin_local_mode.htm'\))
--   [MODIFY AUGMENTING ENTITY, ENTITIES](javascript:call_link\('abapmodify_aug_entity_entities.htm'\))
--   [AUTHORITY-CHECK DISABLE](javascript:call_link\('abapauthority-check_disable.htm'\))
--   [RAISE ENTITY EVENT](javascript:call_link\('abapraise_entity_event.htm'\))
+-   [IN LOCAL MODE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapin_local_mode.htm)
+-   [MODIFY AUGMENTING ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_aug_entity_entities.htm)
+-   [AUTHORITY-CHECK DISABLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check_disable.htm)
+-   [RAISE ENTITY EVENT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_entity_event.htm)
 
 Further Information
 
-When implementing RAP operations, ensure that you comply with [RAP BO contract](javascript:call_link\('abenrap_bo_contract_glosry.htm'\) "Glossary Entry"). Follow the implementation guidelines in the development guide for the ABAP RESTful Application Programming Model, section [RAP Business Object Contract](https://help.sap.com/docs/ABAP_Cloud/f055b8bf582d4f34b91da667bc1fcce6/3a402c5cf6a74bc1a1de080b2a7c6978?version=sap_cross_product_abap).
+When implementing RAP operations, ensure that you comply with [RAP BO contract](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_contract_glosry.htm "Glossary Entry"). Follow the implementation guidelines in the development guide for the ABAP RESTful Application Programming Model, section [RAP Business Object Contract](https://help.sap.com/docs/ABAP_Cloud/f055b8bf582d4f34b91da667bc1fcce6/3a402c5cf6a74bc1a1de080b2a7c6978?version=sap_cross_product_abap).
 
-You can find a selected set of guidelines in [here](javascript:call_link\('abaprap_impl_rules.htm'\)).
+You can find a selected set of guidelines in [here](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_impl_rules.htm).
 
 Continue
-[ABAP EML - IN LOCAL MODE](javascript:call_link\('abapin_local_mode.htm'\))
-[ABAP EML - MODIFY AUGMENTING ENTITY, ENTITIES](javascript:call_link\('abapmodify_aug_entity_entities.htm'\))
-[ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abapauthority-check_disable.htm'\))
-[SET ENTITIES](javascript:call_link\('abapset_entities.htm'\))
+[ABAP EML - IN LOCAL MODE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapin_local_mode.htm)
+[ABAP EML - MODIFY AUGMENTING ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_aug_entity_entities.htm)
+[ABAP EML - AUTHORITY-CHECK DISABLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check_disable.htm)
+[SET ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_entities.htm)
 
-
-
-**📖 Source**: [abeneml_in_abp.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm)
 
 ### abapin_local_mode.htm
-
-> **📖 Official SAP Documentation**: [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapin_local_mode.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapin_local_mode.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -85,7 +45,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20IN%20LOCAL%20MODE%2C%20ABAPIN_LOCAL_MODE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -99,17 +59,17 @@ Effect
 
 The addition is used to exclude feature controls and authorization checks. It can be added to the following EML statements:
 
--   [READ ENTITY, ENTITIES](javascript:call_link\('abapread_entity_entities.htm'\))
--   [MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\))
+-   [READ ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_entity_entities.htm)
+-   [MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities.htm)
 
-It can currently only be used in RAP BO implementations for the particular RAP BO itself, i. e. not for other RAP BOs. That means IN LOCAL MODE can only be used for this RAP BO's implementation classes in the behavior pool or other classes that are called from those implementation classes (for example, legacy code or other reused logic contained elsewhere). The reused logic contained elsewhere cannot be referred to by RAP statically. In that case, a warning is displayed in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"). Yet, at runtime, there will not be an issue if this logic is called via the implementation classes of this RAP BO. If the reused logic is not called from the implementation classes of this RAP BO or it is called indirectly, a short dump is the consequence. For example, if the logic is called from a report (the implementation class of the RAP BO is not called at all) or if, at runtime, another RAP BO is meanwhile involved.
+It can currently only be used in RAP BO implementations for the particular RAP BO itself, i. e. not for other RAP BOs. That means IN LOCAL MODE can only be used for this RAP BO's implementation classes in the behavior pool or other classes that are called from those implementation classes (for example, legacy code or other reused logic contained elsewhere). The reused logic contained elsewhere cannot be referred to by RAP statically. In that case, a warning is displayed in [ADT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry"). Yet, at runtime, there will not be an issue if this logic is called via the implementation classes of this RAP BO. If the reused logic is not called from the implementation classes of this RAP BO or it is called indirectly, a short dump is the consequence. For example, if the logic is called from a report (the implementation class of the RAP BO is not called at all) or if, at runtime, another RAP BO is meanwhile involved.
 
-Example use case: A field to display the booking status of a trip on an SAP Fiori UI is specified as readonly in a [BDEF](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry"). Hence, it cannot be modified by a user on the UI directly. For example, the status of a trip is set to and displayed as not booked. A button on the UI triggers an action to book the trip. With clicking the button, the status gets changed and booked is displayed. To enable this, the underlying modify operation with the action to be executed in the ABP has the addition IN LOCAL MODE that ignores the feature control.
+Example use case: A field to display the booking status of a trip on an SAP Fiori UI is specified as readonly in a [BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry"). Hence, it cannot be modified by a user on the UI directly. For example, the status of a trip is set to and displayed as not booked. A button on the UI triggers an action to book the trip. With clicking the button, the status gets changed and booked is displayed. To enable this, the underlying modify operation with the action to be executed in the ABP has the addition IN LOCAL MODE that ignores the feature control.
 
 Hints
 
--   ABAP EML [MODIFY](javascript:call_link\('abapmodify_entity_entities.htm'\)) and [READ](javascript:call_link\('abapread_entity_entities.htm'\)) statements using the addition [IN LOCAL MODE](javascript:call_link\('abapin_local_mode.htm'\)) are not allowed in [BAdIs](javascript:call_link\('abenbadi_glosry.htm'\) "Glossary Entry") and should only be used in [ABAP behavior pools](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
--   When specifying the REPORTED response parameter for an ABAP EML READ request, the related [RAP state messages](javascript:call_link\('abenrap_state_mes_glosry.htm'\) "Glossary Entry") of the instances and child entities of a [CDS composition](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry") are returned for the instances with the keys specified. This leads to increased runtime and, usually, retrieving the messages of the REPORTED response parameter for read requests is not required. If the read request is triggered by a [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") and an entity instance contains a state message, the component [%state\_area](javascript:call_link\('abapderived_types_state_area.htm'\)) of the REPORTED response contains %STATE as an indicator for state messages. When using ABAP EML READ statements with the addition IN LOCAL MODE in behavior implementations, the original value of %state\_area can be retrieved. See the example [RAP Messages: Transition and State Messages](javascript:call_link\('abenrap_messages_abexa.htm'\)).
+-   ABAP EML [MODIFY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities.htm) and [READ](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_entity_entities.htm) statements using the addition [IN LOCAL MODE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapin_local_mode.htm) are not allowed in [BAdIs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbadi_glosry.htm "Glossary Entry") and should only be used in [ABAP behavior pools](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
+-   When specifying the REPORTED response parameter for an ABAP EML READ request, the related [RAP state messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_state_mes_glosry.htm "Glossary Entry") of the instances and child entities of a [CDS composition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_composition_glosry.htm "Glossary Entry") are returned for the instances with the keys specified. This leads to increased runtime and, usually, retrieving the messages of the REPORTED response parameter for read requests is not required. If the read request is triggered by a [RAP BO consumer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") and an entity instance contains a state message, the component [%state\_area](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapderived_types_state_area.htm) of the REPORTED response contains %STATE as an indicator for state messages. When using ABAP EML READ statements with the addition IN LOCAL MODE in behavior implementations, the original value of %state\_area can be retrieved. See the example [RAP Messages: Transition and State Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_messages_abexa.htm).
 
 Example
 
@@ -123,18 +83,7 @@ READ ENTITIES OF demo\_managed\_root\_3 IN LOCAL MODE
   FAILED DATA(failed).
 
 
-
-**📖 Source**: [abapin_local_mode.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapin_local_mode.htm)
-
 ### abapmodify_aug_entity_entities.htm
-
-> **📖 Official SAP Documentation**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_aug_entity_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_aug_entity_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -142,7 +91,7 @@ READ ENTITIES OF demo\_managed\_root\_3 IN LOCAL MODE
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20MODIFY%20AUGMENTING%20ENTITY%2C%20ENTITIES%2C%20ABAPMODIFY_AUG_ENTITY_ENTITIES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%
 20for%20improvement:)
@@ -152,10 +101,10 @@ ABAP EML - MODIFY AUGMENTING ENTITY, ENTITIES
 Syntax
 
 MODIFY AUGMENTING *{* ENTITY bdef
-                      [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]* *}*
+                      [operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]* *}*
                 *|* *{* ENTITIES OF bdef
-                      ENTITY bdef1 [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]*
-                     *\[*ENTITY bdef2 [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]**\]*
+                      ENTITY bdef1 [operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]*
+                     *\[*ENTITY bdef2 [operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]**\]*
                      *\[*...*\]* *}*.
 
 Alternatives:
@@ -169,16 +118,16 @@ Addition:
 
 Effect
 
-A special variant of [MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\)) that is only possible in the context of [projections](javascript:call_link\('abencds_define_view_as_projection.htm'\)). The variant can only be used by a [RAP BO provider](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry") and is used to manipulate the request for the base BO in the handler implementation. Only entities of the base BO can be modified by this statement. All [standard operations](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") are allowed including actions.
+A special variant of [MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities.htm) that is only possible in the context of [projections](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_view_as_projection.htm). The variant can only be used by a [RAP BO provider](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry") and is used to manipulate the request for the base BO in the handler implementation. Only entities of the base BO can be modified by this statement. All [standard operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencrud_glosry.htm "Glossary Entry") are allowed including actions.
 
 Hints
 
--   For the statements, no [response parameters](javascript:call_link\('abapeml_response.htm'\)) can be specified, i.e. the additions FAILED, MAPPED or REPORTED cannot be used.
+-   For the statements, no [response parameters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_response.htm) can be specified, i.e. the additions FAILED, MAPPED or REPORTED cannot be used.
 -   An ABAP EML MODIFY statement using the addition AUGMENTING must not overwrite fields of the original request, i. e. there must not be a flag in %control which is set for the same instance and field both in the original and in the augmenting operation. An ABAP EML MODIFY statement using the addition AUGMENTING containing operations on instances which are not contained in the original request should relate these instances to instances of the original request by use of the RELATING clause so that responses can be associated.
 
 Further Information
 
--   [RAP BDL - augment, projection BDEF](javascript:call_link\('abenbdl_augment_projection.htm'\))
+-   [RAP BDL - augment, projection BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_augment_projection.htm)
 -   Development guide for the ABAP RESTful Application Programming Model, section [Operation Augmentation](https://help.sap.com/docs/ABAP_Cloud/f055b8bf582d4f34b91da667bc1fcce6/346c2b7516ce4176bbb4daebaa80c2ca?version=sap_cross_product_abap).
 
 Alternative 1   
@@ -187,7 +136,7 @@ MODIFY AUGMENTING ENTITY ...
 
 Effect
 
-Short form. Used to manipulate the request for the base BO in the handler implementation. bdef must be the full name, i. e. not the alias name, of the projected root BO. Multiple operations can be specified for [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) within a single MODIFY statement. However, in this case, it must be ensured that the importing parameters for the corresponding methods are available.
+Short form. Used to manipulate the request for the base BO in the handler implementation. bdef must be the full name, i. e. not the alias name, of the projected root BO. Multiple operations can be specified for [operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_op.htm) within a single MODIFY statement. However, in this case, it must be ensured that the importing parameters for the corresponding methods are available.
 
 Alternative 2   
 
@@ -197,7 +146,7 @@ Effect
 
 Long form. Used to manipulate the request for the base BO in the handler implementation including one or more RAP BO entities. bdef must be the full name, i. e. not the alias name, of the projected root BO.
 
-bdef must be the full name, i. e. not the alias name, of the projected root BO followed by a list of operations grouped by individual entities. bdef1, bdef2, and so on, must be entities contained in the [composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") of the [RAP BO root entity](javascript:call_link\('abenrap_bo_root_entity_glosry.htm'\) "Glossary Entry") bdef. The root entity itself can also be inserted in the position of bdef1, for example. Each part of the list of operations specified after MODIFY AUGMENTING ENTITIES OF bdef has the same syntax as the short form. At least one entry (ENTITY bdef/bdef1/... with an operation) must be specified. The same entity can be specified after ENTITY repeatedly, however, the same operation in that combination is allowed only once. operations must be specified as outlined in the topic [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)).
+bdef must be the full name, i. e. not the alias name, of the projected root BO followed by a list of operations grouped by individual entities. bdef1, bdef2, and so on, must be entities contained in the [composition tree](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") of the [RAP BO root entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_root_entity_glosry.htm "Glossary Entry") bdef. The root entity itself can also be inserted in the position of bdef1, for example. Each part of the list of operations specified after MODIFY AUGMENTING ENTITIES OF bdef has the same syntax as the short form. At least one entry (ENTITY bdef/bdef1/... with an operation) must be specified. The same entity can be specified after ENTITY repeatedly, however, the same operation in that combination is allowed only once. operations must be specified as outlined in the topic [operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_op.htm).
 
 Addition   
 
@@ -221,24 +170,13 @@ MODIFY AUGMENTING ENTITY ...
 
 Executable Example
 
-The example [ABAP EML - MODIFY ENTITY AUGMENTING](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\)) demonstrates the addition AUGMENTING with a RAP projection business object.
+The example [ABAP EML - MODIFY ENTITY AUGMENTING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_modify_augmenting_abexa.htm) demonstrates the addition AUGMENTING with a RAP projection business object.
 
 Continue
-![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_modify_augmenting_abexa.htm)
 
-
-
-**📖 Source**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_aug_entity_entities.htm)
 
 ### abeneml_modify_augmenting_abexa.htm
-
-> **📖 Official SAP Documentation**: [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_modify_augmenting_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_modify_augmenting_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -246,7 +184,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) →  [ABAP EML - MODIFY AUGMENTING ENTITY, ENTITIES](javascript:call_link\('abapmodify_aug_entity_entities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm) →  [ABAP EML - MODIFY AUGMENTING ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_aug_entity_entities.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20MODIFY%20AUGMENTING%20ENTITY%2C%20ABENEML_MODIFY_AUGMENTING_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impro
 vement:)
@@ -307,7 +245,7 @@ define behavior for DEMO\_MANAGED\_CHILD\_PROJ alias \_Child
 
 Behavior implementation
 
-For the above projection BDEF, one [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_PROJ. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. In the behavior pool, operation augmentation is implemented in the following methods:
+For the above projection BDEF, one [behavior pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_PROJ. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. In the behavior pool, operation augmentation is implemented in the following methods:
 
 -   augment\_create
     
@@ -421,25 +359,14 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class:
 
 -   Using an ABAP EML MODIFY statement, two parent entity instances are created. In the same request, one of the created instances gets updated. The operation augmentation automatically adds the value create\_augment for field field1 for each entity instance. For the updated entity instance, field4 is set to 222.
 -   With a further ABAP EML MODIFY statement, a child entity instance for each parent entity instance is created via a create-by-association operation. The operation augmentation automatically adds the value cba\_augment for field field2 for each newly created child entity instance.
 -   The output window shows the database entries of the root and child entities' tables.
 
 
-
-**📖 Source**: [abeneml_modify_augmenting_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_modify_augmenting_abexa.htm)
-
 ### abapmodify_aug_entity_entities.htm
-
-> **📖 Official SAP Documentation**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_aug_entity_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_aug_entity_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -447,7 +374,7 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20MODIFY%20AUGMENTING%20ENTITY%2C%20ENTITIES%2C%20ABAPMODIFY_AUG_ENTITY_ENTITIES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%
 20for%20improvement:)
@@ -457,10 +384,10 @@ ABAP EML - MODIFY AUGMENTING ENTITY, ENTITIES
 Syntax
 
 MODIFY AUGMENTING *{* ENTITY bdef
-                      [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]* *}*
+                      [operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]* *}*
                 *|* *{* ENTITIES OF bdef
-                      ENTITY bdef1 [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]*
-                     *\[*ENTITY bdef2 [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) *\[*RELATING TO orig BY rela*\]**\]*
+                      ENTITY bdef1 [operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]*
+                     *\[*ENTITY bdef2 [operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_op.htm) *\[*RELATING TO orig BY rela*\]**\]*
                      *\[*...*\]* *}*.
 
 Alternatives:
@@ -474,16 +401,16 @@ Addition:
 
 Effect
 
-A special variant of [MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\)) that is only possible in the context of [projections](javascript:call_link\('abencds_define_view_as_projection.htm'\)). The variant can only be used by a [RAP BO provider](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry") and is used to manipulate the request for the base BO in the handler implementation. Only entities of the base BO can be modified by this statement. All [standard operations](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") are allowed including actions.
+A special variant of [MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities.htm) that is only possible in the context of [projections](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_view_as_projection.htm). The variant can only be used by a [RAP BO provider](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry") and is used to manipulate the request for the base BO in the handler implementation. Only entities of the base BO can be modified by this statement. All [standard operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencrud_glosry.htm "Glossary Entry") are allowed including actions.
 
 Hints
 
--   For the statements, no [response parameters](javascript:call_link\('abapeml_response.htm'\)) can be specified, i.e. the additions FAILED, MAPPED or REPORTED cannot be used.
+-   For the statements, no [response parameters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_response.htm) can be specified, i.e. the additions FAILED, MAPPED or REPORTED cannot be used.
 -   An ABAP EML MODIFY statement using the addition AUGMENTING must not overwrite fields of the original request, i. e. there must not be a flag in %control which is set for the same instance and field both in the original and in the augmenting operation. An ABAP EML MODIFY statement using the addition AUGMENTING containing operations on instances which are not contained in the original request should relate these instances to instances of the original request by use of the RELATING clause so that responses can be associated.
 
 Further Information
 
--   [RAP BDL - augment, projection BDEF](javascript:call_link\('abenbdl_augment_projection.htm'\))
+-   [RAP BDL - augment, projection BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_augment_projection.htm)
 -   Development guide for the ABAP RESTful Application Programming Model, section [Operation Augmentation](https://help.sap.com/docs/ABAP_Cloud/f055b8bf582d4f34b91da667bc1fcce6/346c2b7516ce4176bbb4daebaa80c2ca?version=sap_cross_product_abap).
 
 Alternative 1   
@@ -492,7 +419,7 @@ MODIFY AUGMENTING ENTITY ...
 
 Effect
 
-Short form. Used to manipulate the request for the base BO in the handler implementation. bdef must be the full name, i. e. not the alias name, of the projected root BO. Multiple operations can be specified for [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) within a single MODIFY statement. However, in this case, it must be ensured that the importing parameters for the corresponding methods are available.
+Short form. Used to manipulate the request for the base BO in the handler implementation. bdef must be the full name, i. e. not the alias name, of the projected root BO. Multiple operations can be specified for [operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_op.htm) within a single MODIFY statement. However, in this case, it must be ensured that the importing parameters for the corresponding methods are available.
 
 Alternative 2   
 
@@ -502,7 +429,7 @@ Effect
 
 Long form. Used to manipulate the request for the base BO in the handler implementation including one or more RAP BO entities. bdef must be the full name, i. e. not the alias name, of the projected root BO.
 
-bdef must be the full name, i. e. not the alias name, of the projected root BO followed by a list of operations grouped by individual entities. bdef1, bdef2, and so on, must be entities contained in the [composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") of the [RAP BO root entity](javascript:call_link\('abenrap_bo_root_entity_glosry.htm'\) "Glossary Entry") bdef. The root entity itself can also be inserted in the position of bdef1, for example. Each part of the list of operations specified after MODIFY AUGMENTING ENTITIES OF bdef has the same syntax as the short form. At least one entry (ENTITY bdef/bdef1/... with an operation) must be specified. The same entity can be specified after ENTITY repeatedly, however, the same operation in that combination is allowed only once. operations must be specified as outlined in the topic [operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)).
+bdef must be the full name, i. e. not the alias name, of the projected root BO followed by a list of operations grouped by individual entities. bdef1, bdef2, and so on, must be entities contained in the [composition tree](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") of the [RAP BO root entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_root_entity_glosry.htm "Glossary Entry") bdef. The root entity itself can also be inserted in the position of bdef1, for example. Each part of the list of operations specified after MODIFY AUGMENTING ENTITIES OF bdef has the same syntax as the short form. At least one entry (ENTITY bdef/bdef1/... with an operation) must be specified. The same entity can be specified after ENTITY repeatedly, however, the same operation in that combination is allowed only once. operations must be specified as outlined in the topic [operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_op.htm).
 
 Addition   
 
@@ -526,24 +453,13 @@ MODIFY AUGMENTING ENTITY ...
 
 Executable Example
 
-The example [ABAP EML - MODIFY ENTITY AUGMENTING](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\)) demonstrates the addition AUGMENTING with a RAP projection business object.
+The example [ABAP EML - MODIFY ENTITY AUGMENTING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_modify_augmenting_abexa.htm) demonstrates the addition AUGMENTING with a RAP projection business object.
 
 Continue
-![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP EML - MODIFY AUGMENTING ENTITY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_modify_augmenting_abexa.htm)
 
-
-
-**📖 Source**: [abapmodify_aug_entity_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_aug_entity_entities.htm)
 
 ### abapauthority-check_disable.htm
-
-> **📖 Official SAP Documentation**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check_disable.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check_disable.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -551,7 +467,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20AUTHORITY-CHECK%20DISABLE%2C%20ABAPAUTHORITY-CHECK_DISABLE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:
 )
@@ -566,11 +482,11 @@ AUTHORITY-CHECK DISABLE END.
 
 Effect
 
-AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... and AUTHORITY-CHECK DISABLE END. form a statement block to activate and deactivate an [authorization context](javascript:call_link\('abencds_auth_context_glosry.htm'\) "Glossary Entry"). The statement can only be used in [ABAP behavior pools](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... and AUTHORITY-CHECK DISABLE END. form a statement block to activate and deactivate an [authorization context](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_auth_context_glosry.htm "Glossary Entry"). The statement can only be used in [ABAP behavior pools](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
 
-AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... activates the authorization context context\_name that is defined in the [BDEF](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") bdef. An authorization context is active until the corresponding AUTHORITY-CHECK DISABLE END. statement is reached or until the statement block is left, for example, by a [RETURN](javascript:call_link\('abapreturn.htm'\)) or a [RAISE](javascript:call_link\('abapraise_exception.htm'\)) statement.
+AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... activates the authorization context context\_name that is defined in the [BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") bdef. An authorization context is active until the corresponding AUTHORITY-CHECK DISABLE END. statement is reached or until the statement block is left, for example, by a [RETURN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreturn.htm) or a [RAISE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception.htm) statement.
 
-The authorization context is active for all methods or functions that are called between AUTHORITY-CHECK DISABLE BEGIN ... and AUTHORITY-CHECK DISABLE END.. Statements with AUTHORITY-CHECK DISABLE BEGIN ... and AUTHORITY-CHECK DISABLE END. can be nested. In this case, the superset of all [authorization objects](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") listed in all the active authorization contexts is disabled.
+The authorization context is active for all methods or functions that are called between AUTHORITY-CHECK DISABLE BEGIN ... and AUTHORITY-CHECK DISABLE END.. Statements with AUTHORITY-CHECK DISABLE BEGIN ... and AUTHORITY-CHECK DISABLE END. can be nested. In this case, the superset of all [authorization objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenauthorization_object_glosry.htm "Glossary Entry") listed in all the active authorization contexts is disabled.
 
 AUTHORITY-CHECK DISABLE END. deactivates the authorization context of the corresponding AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... statement.
 
@@ -578,32 +494,21 @@ The statement can only be used if the BDEF that defines the authorization contex
 
 Hint
 
-The activation of an authorization context is either done explicitly by this statement or implicitly by registering a context for a handler method in the [BDEF](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") with the notation [... for disabled ...](javascript:call_link\('abenbdl_authorization_context.htm'\)). In the latter case, an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END. statement block is implicitly generated for the corresponding methods in the [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"). The explicit use of the statement block is not required.
+The activation of an authorization context is either done explicitly by this statement or implicitly by registering a context for a handler method in the [BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") with the notation [... for disabled ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_authorization_context.htm). In the latter case, an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END. statement block is implicitly generated for the corresponding methods in the [behavior pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry"). The explicit use of the statement block is not required.
 
 Further Information
 
-[RAP BDL - define authorization context](javascript:call_link\('abenbdl_authorization_context.htm'\))
+[RAP BDL - define authorization context](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_authorization_context.htm)
 
 Executable Example
 
-The example [ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abeneml_auth_check_disable_abexa.htm'\)) demonstrates AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END. statements with an unmanaged RAP BO.
+The example [ABAP EML - AUTHORITY-CHECK DISABLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_auth_check_disable_abexa.htm) demonstrates AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END. statements with an unmanaged RAP BO.
 
 Continue
-![Example](exa.gif "Example") [ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abeneml_auth_check_disable_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP EML - AUTHORITY-CHECK DISABLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_auth_check_disable_abexa.htm)
 
-
-
-**📖 Source**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check_disable.htm)
 
 ### abeneml_auth_check_disable_abexa.htm
-
-> **📖 Official SAP Documentation**: [abeneml_auth_check_disable_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_auth_check_disable_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abeneml_auth_check_disable_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_auth_check_disable_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -611,7 +516,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) →  [ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abapauthority-check_disable.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm) →  [ABAP EML - AUTHORITY-CHECK DISABLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check_disable.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20AUTHORITY-CHECK%20DISABLE%2C%20ABENEML_AUTH_CHECK_DISABLE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improve
 ment:)
@@ -636,7 +541,7 @@ as select from demo\_tab\_root\_7 {
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_UNMANAGED\_AUTH is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_UNMANAGED\_AUTH is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 unmanaged implementation in class bp\_demo\_unmanaged\_auth unique;
 strict(2);
@@ -661,7 +566,7 @@ authorization master ( global )
 
 Behavior implementation
 
-For the above BDEF, one [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UNMANAGED\_AUTH. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. The [handler methods](javascript:call_link\('abapmethods_for_rap_behv.htm'\)) do not contain any implementations. To demonstrate the statement AUTHORITY-CHECK DISABLE, multiple [AUTHORITY-CHECK OBJECT](javascript:call_link\('abapauthority-check.htm'\)) statements are included in the read method that check the authorization. One of these statements is inside an AUTHORITY-CHECK DISABLE statement. An internal table that is declared in the global class is filled to log sy-subrc values that are returned by the individual AUTHORITY-CHECK OBJECT statements.
+For the above BDEF, one [behavior pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UNMANAGED\_AUTH. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. The [handler methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_for_rap_behv.htm) do not contain any implementations. To demonstrate the statement AUTHORITY-CHECK DISABLE, multiple [AUTHORITY-CHECK OBJECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check.htm) statements are included in the read method that check the authorization. One of these statements is inside an AUTHORITY-CHECK DISABLE statement. An internal table that is declared in the global class is filled to log sy-subrc values that are returned by the individual AUTHORITY-CHECK OBJECT statements.
 
 Source Code   
 
@@ -699,13 +604,13 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class:
 
-A [RAP read operation](javascript:call_link\('abenrap_read_operation_glosry.htm'\) "Glossary Entry") is carried out.
+A [RAP read operation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_read_operation_glosry.htm "Glossary Entry") is carried out.
 
-As shown above, the BDEF defines two [RAP authorization contexts](javascript:call_link\('abencds_auth_context_glosry.htm'\) "Glossary Entry") using the demo authorization objects AUTHOBJ1 and AUTHOBJ2. For AUTHOBJ2, an authority check is disabled for read.
+As shown above, the BDEF defines two [RAP authorization contexts](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_auth_context_glosry.htm "Glossary Entry") using the demo authorization objects AUTHOBJ1 and AUTHOBJ2. For AUTHOBJ2, an authority check is disabled for read.
 
-The output shows the entries of an internal which demonstrates the effect of the AUTHORITY-CHECK DISABLE statements that are implemented in the local class of the behavior pool. When an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END statement is used, the field EML\_STMNT\_USED is flagged. When an authorization context is activated, authority checks for the associated authorization objects are always successful and the returned value for sy-subrc is 0. See more information on the sy-subrc values returned by AUTHORITY-CHECK OBJECT statements in the [ABAP Keyword Documentation](javascript:call_link\('abapauthority-check.htm'\)).
+The output shows the entries of an internal which demonstrates the effect of the AUTHORITY-CHECK DISABLE statements that are implemented in the local class of the behavior pool. When an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END statement is used, the field EML\_STMNT\_USED is flagged. When an authorization context is activated, authority checks for the associated authorization objects are always successful and the returned value for sy-subrc is 0. See more information on the sy-subrc values returned by AUTHORITY-CHECK OBJECT statements in the [ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check.htm).
 
 Table entries:
 
@@ -714,18 +619,7 @@ Table entries:
 -   Note that putting the authorization context ac2 inside an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END statement is irrelevant because it is implicitly there due to the BDEF specification.
 
 
-
-**📖 Source**: [abeneml_auth_check_disable_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_auth_check_disable_abexa.htm)
-
 ### abapauthority-check_disable.htm
-
-> **📖 Official SAP Documentation**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check_disable.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check_disable.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -733,7 +627,7 @@ Table entries:
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20AUTHORITY-CHECK%20DISABLE%2C%20ABAPAUTHORITY-CHECK_DISABLE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:
 )
@@ -748,11 +642,11 @@ AUTHORITY-CHECK DISABLE END.
 
 Effect
 
-AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... and AUTHORITY-CHECK DISABLE END. form a statement block to activate and deactivate an [authorization context](javascript:call_link\('abencds_auth_context_glosry.htm'\) "Glossary Entry"). The statement can only be used in [ABAP behavior pools](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... and AUTHORITY-CHECK DISABLE END. form a statement block to activate and deactivate an [authorization context](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_auth_context_glosry.htm "Glossary Entry"). The statement can only be used in [ABAP behavior pools](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
 
-AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... activates the authorization context context\_name that is defined in the [BDEF](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") bdef. An authorization context is active until the corresponding AUTHORITY-CHECK DISABLE END. statement is reached or until the statement block is left, for example, by a [RETURN](javascript:call_link\('abapreturn.htm'\)) or a [RAISE](javascript:call_link\('abapraise_exception.htm'\)) statement.
+AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... activates the authorization context context\_name that is defined in the [BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") bdef. An authorization context is active until the corresponding AUTHORITY-CHECK DISABLE END. statement is reached or until the statement block is left, for example, by a [RETURN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreturn.htm) or a [RAISE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception.htm) statement.
 
-The authorization context is active for all methods or functions that are called between AUTHORITY-CHECK DISABLE BEGIN ... and AUTHORITY-CHECK DISABLE END.. Statements with AUTHORITY-CHECK DISABLE BEGIN ... and AUTHORITY-CHECK DISABLE END. can be nested. In this case, the superset of all [authorization objects](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") listed in all the active authorization contexts is disabled.
+The authorization context is active for all methods or functions that are called between AUTHORITY-CHECK DISABLE BEGIN ... and AUTHORITY-CHECK DISABLE END.. Statements with AUTHORITY-CHECK DISABLE BEGIN ... and AUTHORITY-CHECK DISABLE END. can be nested. In this case, the superset of all [authorization objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenauthorization_object_glosry.htm "Glossary Entry") listed in all the active authorization contexts is disabled.
 
 AUTHORITY-CHECK DISABLE END. deactivates the authorization context of the corresponding AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... statement.
 
@@ -760,32 +654,21 @@ The statement can only be used if the BDEF that defines the authorization contex
 
 Hint
 
-The activation of an authorization context is either done explicitly by this statement or implicitly by registering a context for a handler method in the [BDEF](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") with the notation [... for disabled ...](javascript:call_link\('abenbdl_authorization_context.htm'\)). In the latter case, an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END. statement block is implicitly generated for the corresponding methods in the [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"). The explicit use of the statement block is not required.
+The activation of an authorization context is either done explicitly by this statement or implicitly by registering a context for a handler method in the [BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") with the notation [... for disabled ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_authorization_context.htm). In the latter case, an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END. statement block is implicitly generated for the corresponding methods in the [behavior pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry"). The explicit use of the statement block is not required.
 
 Further Information
 
-[RAP BDL - define authorization context](javascript:call_link\('abenbdl_authorization_context.htm'\))
+[RAP BDL - define authorization context](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_authorization_context.htm)
 
 Executable Example
 
-The example [ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abeneml_auth_check_disable_abexa.htm'\)) demonstrates AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END. statements with an unmanaged RAP BO.
+The example [ABAP EML - AUTHORITY-CHECK DISABLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_auth_check_disable_abexa.htm) demonstrates AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END. statements with an unmanaged RAP BO.
 
 Continue
-![Example](exa.gif "Example") [ABAP EML - AUTHORITY-CHECK DISABLE](javascript:call_link\('abeneml_auth_check_disable_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP EML - AUTHORITY-CHECK DISABLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_auth_check_disable_abexa.htm)
 
-
-
-**📖 Source**: [abapauthority-check_disable.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check_disable.htm)
 
 ### abapset_entities.htm
-
-> **📖 Official SAP Documentation**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -793,7 +676,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SET%20ENTITIES%2C%20ABAPSET_ENTITIES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -810,24 +693,24 @@ Additions:
 
 Effect
 
-Blocks or unblocks the ABAP EML access to [RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"). The statement can only be used in [ABAP behavior pools](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+Blocks or unblocks the ABAP EML access to [RAP business objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry"). The statement can only be used in [ABAP behavior pools](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
 
-root\_ent stands for the full name of a [RAP BO root entity](javascript:call_link\('abenrap_bo_root_entity_glosry.htm'\) "Glossary Entry") which must be specified. The statement is only allowed in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") of the specified RAP BO root entity. The following restrictions apply to the specification of root\_ent. These are not allowed:
+root\_ent stands for the full name of a [RAP BO root entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_root_entity_glosry.htm "Glossary Entry") which must be specified. The statement is only allowed in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") of the specified RAP BO root entity. The following restrictions apply to the specification of root\_ent. These are not allowed:
 
--   [Child entities](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry")
--   [Abstract](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry") root entities
--   [Interface](javascript:call_link\('abenrap_bo_interface_glosry.htm'\) "Glossary Entry") root entities
--   [Projection](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry") root entities
--   [Extensions](javascript:call_link\('abenrap_bo_extension_glosry.htm'\) "Glossary Entry")
+-   [Child entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchild_entity_glosry.htm "Glossary Entry")
+-   [Abstract](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") root entities
+-   [Interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_interface_glosry.htm "Glossary Entry") root entities
+-   [Projection](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_projection_bo_glosry.htm "Glossary Entry") root entities
+-   [Extensions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_extension_glosry.htm "Glossary Entry")
 
 ABAP EML requests are blocked or unblocked for the following statements when using the SET ENTITIES statements for the specified root entities:
 
--   [MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\))
--   [READ ENTITY, ENTITIES](javascript:call_link\('abapread_entity_entities.htm'\))
--   [GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\))
--   [SET LOCKS](javascript:call_link\('abapset_locks.htm'\))
+-   [MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities.htm)
+-   [READ ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_entity_entities.htm)
+-   [GET PERMISSIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_permissions.htm)
+-   [SET LOCKS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_locks.htm)
 
-The blocking is valid until the end of a [RAP transaction](javascript:call_link\('abenrap_luw_glosry.htm'\) "Glossary Entry"). For each RAP BO root entity blocked in one or more statements, an internal counter is incremented in case of a SET ENTITIES OF ... BLOCKED statement and decremented in case of a SET ENTITIES OF ... UNBLOCKED statement. The counter cannot be negative. The value 0 in the counter means unblocked and a value greater than 0 means blocked. The value in the counter is only visible in the short dump message mentioned below.
+The blocking is valid until the end of a [RAP transaction](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_luw_glosry.htm "Glossary Entry"). For each RAP BO root entity blocked in one or more statements, an internal counter is incremented in case of a SET ENTITIES OF ... BLOCKED statement and decremented in case of a SET ENTITIES OF ... UNBLOCKED statement. The counter cannot be negative. The value 0 in the counter means unblocked and a value greater than 0 means blocked. The value in the counter is only visible in the short dump message mentioned below.
 
 sy-subrc is set by the statement with both additions BLOCKED and UNBLOCKED in the same way:
 
@@ -836,12 +719,12 @@ sy-subrc is set by the statement with both additions BLOCKED and UNBLOCKED in th
 
 Hints
 
--   A [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") is raised for blocked statements with the exception CX\_ABAP\_BEHV\_RUNTIME\_ERROR. The short dump contains the following information:
+-   A [short dump](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshort_dump_glosry.htm "Glossary Entry") is raised for blocked statements with the exception CX\_ABAP\_BEHV\_RUNTIME\_ERROR. The short dump contains the following information:
     -   The affected RAP BO root entity
     -   The current blocking counter for the affected root entity
     -   The source position of the last SET ENTITIES OF ... BLOCKED statement for the affected root entity
--   ABAP EML statements with the addition [IN LOCAL MODE](javascript:call_link\('abapin_local_mode.htm'\)) are affected in the same way as ABAP EML statements without the addition.
--   In [RAP create-by-association](javascript:call_link\('abenrap_cba_operation_glosry.htm'\) "Glossary Entry") and [read-by-association operations](javascript:call_link\('abenrap_rba_operation_glosry.htm'\) "Glossary Entry") in the context of [cross-BO associations](javascript:call_link\('abencds_cross_bo_assoc_glosry.htm'\) "Glossary Entry"), the affected source root entity and affected target root entity are checked for blockings.
+-   ABAP EML statements with the addition [IN LOCAL MODE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapin_local_mode.htm) are affected in the same way as ABAP EML statements without the addition.
+-   In [RAP create-by-association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cba_operation_glosry.htm "Glossary Entry") and [read-by-association operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_rba_operation_glosry.htm "Glossary Entry") in the context of [cross-BO associations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cross_bo_assoc_glosry.htm "Glossary Entry"), the affected source root entity and affected target root entity are checked for blockings.
 
 Addition 1   
 
@@ -849,7 +732,7 @@ Addition 1  
 
 Effect
 
-Blocks the ABAP EML access to [RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+Blocks the ABAP EML access to [RAP business objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
 Addition 2   
 
@@ -857,28 +740,17 @@ Addition 2  
 
 Effect
 
-Unblocks the ABAP EML access to [RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+Unblocks the ABAP EML access to [RAP business objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
 Executable Example
 
-The example [SET ENTITIES](javascript:call_link\('abeneml_set_entities_abexa.htm'\)) demonstrates the SET ENTITIES statements with a managed RAP BO. Note that this example produces a short dump.
+The example [SET ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_set_entities_abexa.htm) demonstrates the SET ENTITIES statements with a managed RAP BO. Note that this example produces a short dump.
 
 Continue
-![Example](exa.gif "Example") [SET ENTITIES](javascript:call_link\('abeneml_set_entities_abexa.htm'\))
+![Example](exa.gif "Example") [SET ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_set_entities_abexa.htm)
 
-
-
-**📖 Source**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_entities.htm)
 
 ### abeneml_set_entities_abexa.htm
-
-> **📖 Official SAP Documentation**: [abeneml_set_entities_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_set_entities_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abeneml_set_entities_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_set_entities_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -886,7 +758,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) →  [SET ENTITIES](javascript:call_link\('abapset_entities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm) →  [SET ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_entities.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SET%20ENTITIES%2C%20ABENEML_SET_ENTITIES_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -908,7 +780,7 @@ define root view entity demo\_root\_m as select from demo\_tab\_root
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_ROOT\_M is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_ROOT\_M is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_root\_m unique;
 strict ( 2 );
@@ -927,7 +799,7 @@ authorization master ( global )
 
 Behavior implementation
 
-For the above BDEF, one [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_ROOT\_M. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. The [handler methods](javascript:call_link\('abapmethods_for_rap_behv.htm'\)) for the two actions are implemented in a way to demonstrate the effect of the statement SET ENTITIES.
+For the above BDEF, one [behavior pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_ROOT\_M. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. The [handler methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_for_rap_behv.htm) for the two actions are implemented in a way to demonstrate the effect of the statement SET ENTITIES.
 
 Source Code   
 
@@ -1035,27 +907,13 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class:
 
--   Two RAP BO instances are created in a [RAP modify operation](javascript:call_link\('abenrap_modify_operation_glosry.htm'\) "Glossary Entry") and persisted to the database.
+-   Two RAP BO instances are created in a [RAP modify operation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_modify_operation_glosry.htm "Glossary Entry") and persisted to the database.
 -   Depending on the selection, either the first or the second action is executed. Both actions include another modify operation to update instances. One action includes SET ENTITIES statements. If this action is executed, a short dump is produced. In the short dump message, you will also see value for the counter.
 
 
-
-**📖 Source**: [abeneml_set_entities_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_set_entities_abexa.htm)
-
 ### abapset_entities.htm
-
-> **📖 Official SAP Documentation**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapset_entities.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_entities.htm)
-
 
   
 
@@ -1063,7 +921,7 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP EML - Providing RAP BOs](javascript:call_link\('abeneml_in_abp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) →  [ABAP EML - Providing RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_in_abp.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SET%20ENTITIES%2C%20ABAPSET_ENTITIES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -1080,24 +938,24 @@ Additions:
 
 Effect
 
-Blocks or unblocks the ABAP EML access to [RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"). The statement can only be used in [ABAP behavior pools](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+Blocks or unblocks the ABAP EML access to [RAP business objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry"). The statement can only be used in [ABAP behavior pools](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
 
-root\_ent stands for the full name of a [RAP BO root entity](javascript:call_link\('abenrap_bo_root_entity_glosry.htm'\) "Glossary Entry") which must be specified. The statement is only allowed in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") of the specified RAP BO root entity. The following restrictions apply to the specification of root\_ent. These are not allowed:
+root\_ent stands for the full name of a [RAP BO root entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_root_entity_glosry.htm "Glossary Entry") which must be specified. The statement is only allowed in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") of the specified RAP BO root entity. The following restrictions apply to the specification of root\_ent. These are not allowed:
 
--   [Child entities](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry")
--   [Abstract](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry") root entities
--   [Interface](javascript:call_link\('abenrap_bo_interface_glosry.htm'\) "Glossary Entry") root entities
--   [Projection](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry") root entities
--   [Extensions](javascript:call_link\('abenrap_bo_extension_glosry.htm'\) "Glossary Entry")
+-   [Child entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchild_entity_glosry.htm "Glossary Entry")
+-   [Abstract](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") root entities
+-   [Interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_interface_glosry.htm "Glossary Entry") root entities
+-   [Projection](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_projection_bo_glosry.htm "Glossary Entry") root entities
+-   [Extensions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_extension_glosry.htm "Glossary Entry")
 
 ABAP EML requests are blocked or unblocked for the following statements when using the SET ENTITIES statements for the specified root entities:
 
--   [MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\))
--   [READ ENTITY, ENTITIES](javascript:call_link\('abapread_entity_entities.htm'\))
--   [GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\))
--   [SET LOCKS](javascript:call_link\('abapset_locks.htm'\))
+-   [MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities.htm)
+-   [READ ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_entity_entities.htm)
+-   [GET PERMISSIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_permissions.htm)
+-   [SET LOCKS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_locks.htm)
 
-The blocking is valid until the end of a [RAP transaction](javascript:call_link\('abenrap_luw_glosry.htm'\) "Glossary Entry"). For each RAP BO root entity blocked in one or more statements, an internal counter is incremented in case of a SET ENTITIES OF ... BLOCKED statement and decremented in case of a SET ENTITIES OF ... UNBLOCKED statement. The counter cannot be negative. The value 0 in the counter means unblocked and a value greater than 0 means blocked. The value in the counter is only visible in the short dump message mentioned below.
+The blocking is valid until the end of a [RAP transaction](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_luw_glosry.htm "Glossary Entry"). For each RAP BO root entity blocked in one or more statements, an internal counter is incremented in case of a SET ENTITIES OF ... BLOCKED statement and decremented in case of a SET ENTITIES OF ... UNBLOCKED statement. The counter cannot be negative. The value 0 in the counter means unblocked and a value greater than 0 means blocked. The value in the counter is only visible in the short dump message mentioned below.
 
 sy-subrc is set by the statement with both additions BLOCKED and UNBLOCKED in the same way:
 
@@ -1106,12 +964,12 @@ sy-subrc is set by the statement with both additions BLOCKED and UNBLOCKED in th
 
 Hints
 
--   A [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") is raised for blocked statements with the exception CX\_ABAP\_BEHV\_RUNTIME\_ERROR. The short dump contains the following information:
+-   A [short dump](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshort_dump_glosry.htm "Glossary Entry") is raised for blocked statements with the exception CX\_ABAP\_BEHV\_RUNTIME\_ERROR. The short dump contains the following information:
     -   The affected RAP BO root entity
     -   The current blocking counter for the affected root entity
     -   The source position of the last SET ENTITIES OF ... BLOCKED statement for the affected root entity
--   ABAP EML statements with the addition [IN LOCAL MODE](javascript:call_link\('abapin_local_mode.htm'\)) are affected in the same way as ABAP EML statements without the addition.
--   In [RAP create-by-association](javascript:call_link\('abenrap_cba_operation_glosry.htm'\) "Glossary Entry") and [read-by-association operations](javascript:call_link\('abenrap_rba_operation_glosry.htm'\) "Glossary Entry") in the context of [cross-BO associations](javascript:call_link\('abencds_cross_bo_assoc_glosry.htm'\) "Glossary Entry"), the affected source root entity and affected target root entity are checked for blockings.
+-   ABAP EML statements with the addition [IN LOCAL MODE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapin_local_mode.htm) are affected in the same way as ABAP EML statements without the addition.
+-   In [RAP create-by-association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_cba_operation_glosry.htm "Glossary Entry") and [read-by-association operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_rba_operation_glosry.htm "Glossary Entry") in the context of [cross-BO associations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cross_bo_assoc_glosry.htm "Glossary Entry"), the affected source root entity and affected target root entity are checked for blockings.
 
 Addition 1   
 
@@ -1119,7 +977,7 @@ Addition 1  
 
 Effect
 
-Blocks the ABAP EML access to [RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+Blocks the ABAP EML access to [RAP business objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
 Addition 2   
 
@@ -1127,11 +985,11 @@ Addition 2  
 
 Effect
 
-Unblocks the ABAP EML access to [RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+Unblocks the ABAP EML access to [RAP business objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
 Executable Example
 
-The example [SET ENTITIES](javascript:call_link\('abeneml_set_entities_abexa.htm'\)) demonstrates the SET ENTITIES statements with a managed RAP BO. Note that this example produces a short dump.
+The example [SET ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_set_entities_abexa.htm) demonstrates the SET ENTITIES statements with a managed RAP BO. Note that this example produces a short dump.
 
 Continue
-![Example](exa.gif "Example") [SET ENTITIES](javascript:call_link\('abeneml_set_entities_abexa.htm'\))
+![Example](exa.gif "Example") [SET ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_set_entities_abexa.htm)

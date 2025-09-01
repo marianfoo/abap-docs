@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Program Attributes](javascript:call_link\('abenprogram_attributes_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Program Attributes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_attributes_obsolete.htm) → 
 
 Obsolete ABAP Language Versions
 
-The following [ABAP language versions](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") are obsolete.
+The following [ABAP language versions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_version_glosry.htm "Glossary Entry") are obsolete.
 
 Language Version
 
@@ -16,25 +16,25 @@ Meaning
 
 Version ID
 
-[Static ABAP with restricted object use](javascript:call_link\('abenabap_for_cloud_dev_glosry.htm'\) "Glossary Entry")
+[Static ABAP with restricted object use](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_for_cloud_dev_glosry.htm "Glossary Entry")
 
-In this version of ABAP, the rules for [Standard ABAP (Unicode)](javascript:call_link\('abenunicode_program_glosry.htm'\) "Glossary Entry") apply, with restrictions on access to external [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry"). Dynamically specified data and statements for dynamic creation of programs are forbidden here to make sure that static checks can be carried out. The corresponding language elements are hidden in the documentation for static ABAP with restricted object use.
+In this version of ABAP, the rules for [Standard ABAP (Unicode)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunicode_program_glosry.htm "Glossary Entry") apply, with restrictions on access to external [repository objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_object_glosry.htm "Glossary Entry"). Dynamically specified data and statements for dynamic creation of programs are forbidden here to make sure that static checks can be carried out. The corresponding language elements are hidden in the documentation for static ABAP with restricted object use.
 
   3
 
-[Standard ABAP with restricted object use](javascript:call_link\('abenstandard_abap_restr_obj_glosry.htm'\) "Glossary Entry")
+[Standard ABAP with restricted object use](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_abap_restr_obj_glosry.htm "Glossary Entry")
 
-In this version of ABAP, the rules for [Standard ABAP (Unicode)](javascript:call_link\('abenunicode_program_glosry.htm'\) "Glossary Entry") apply, with restrictions on access to external [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry"). Dynamic language elements are not forbidden in this version.
+In this version of ABAP, the rules for [Standard ABAP (Unicode)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunicode_program_glosry.htm "Glossary Entry") apply, with restrictions on access to external [repository objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_object_glosry.htm "Glossary Entry"). Dynamic language elements are not forbidden in this version.
 
   4
 
-[Non-Unicode ABAP](javascript:call_link\('abennon_unicode_program_glosry.htm'\) "Glossary Entry")
+[Non-Unicode ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennon_unicode_program_glosry.htm "Glossary Entry")
 
-The version ID of a program of this type is initial. No [Unicode checks](javascript:call_link\('abenunicode_check_glosry.htm'\) "Glossary Entry") are performed in programs of this type.
+The version ID of a program of this type is initial. No [Unicode checks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunicode_check_glosry.htm "Glossary Entry") are performed in programs of this type.
 
   -
 
-Only the versions specified under [ABAP language versions](javascript:call_link\('abenabap_versions.htm'\)) should be used. The ABAP language versions above are obsolete for the following reasons:
+Only the versions specified under [ABAP language versions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_versions.htm) should be used. The ABAP language versions above are obsolete for the following reasons:
 
 -   There are no application scenarios for the the following versions:
 
@@ -44,4 +44,4 @@ Only the versions specified under [ABAP language versions](javascript:call_link\
 
 The associated lists of permitted repository objects have been frozen and no more objects can be added.
 
--   Non-Unicode ABAP is fully [obsolete](javascript:call_link\('abennon_unicode_obsolete.htm'\)) and is not supported in this release.
+-   Non-Unicode ABAP is fully [obsolete](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennon_unicode_obsolete.htm) and is not supported in this release.

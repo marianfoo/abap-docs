@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Data Objects in Operand Positions](javascript:call_link\('abenoperands_data_objects.htm'\)) →  [Notations for Single Operands](javascript:call_link\('abenoperands_names.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Operands](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperands.htm) →  [Data Objects in Operand Positions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperands_data_objects.htm) →  [Notations for Single Operands](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoperands_names.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Chainings%2C%20ABENCOMPONENT_CHAINING_SELECTOR%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Chainings
 
-If a deeply nested subcomponent is used at an operand position, the operand must be denoted as a chaining of all components leading to this subcomponent. This chaining contains a suitable component selector between each component. The following rules apply to such [chained names](javascript:call_link\('abenchained_name_glosry.htm'\) "Glossary Entry"):
+If a deeply nested subcomponent is used at an operand position, the operand must be denoted as a chaining of all components leading to this subcomponent. This chaining contains a suitable component selector between each component. The following rules apply to such [chained names](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchained_name_glosry.htm "Glossary Entry"):
 
 -   Taken together, the names to the left of each structure component selector must address a structured data type or a structure.
 -   Taken together, the names to the left of each object component selector must address a reference variable.
@@ -21,8 +21,8 @@ Hint
 
 In addition to the chaining of names, the following chainings are possible:
 
--   [Method chainings](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry") with the object component selector
--   [Chainings](javascript:call_link\('abentable_exp_chaining.htm'\)) of [table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry")
+-   [Method chainings](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_chaining_glosry.htm "Glossary Entry") with the object component selector
+-   [Chainings](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_exp_chaining.htm) of [table expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_expression_glosry.htm "Glossary Entry")
 
 Chainings can be combined in any way as long as the corresponding rules are respected.
 
@@ -30,7 +30,7 @@ Example
 
 Declaration of a nested structured data type struc2 in struc1 and a structure struc3 in an interface i1.
 
-The component comp of struc3 is a data reference variable of the static type struc1. The i1 interface is the component interface of i2 and the latter is implemented in c1. In c2, a [static attribute](javascript:call_link\('abenstatic_attribute_glosry.htm'\) "Glossary Entry") is declared as the object reference of the static type c1. The expression in the last line can be at an operand position that expects a data object, and identifies the component comp of the structure struc2 in a chaining that starts at class c2. A prerequisite for use of the expression is that both reference variables, oref and dref, point to the respective instances.
+The component comp of struc3 is a data reference variable of the static type struc1. The i1 interface is the component interface of i2 and the latter is implemented in c1. In c2, a [static attribute](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_attribute_glosry.htm "Glossary Entry") is declared as the object reference of the static type c1. The expression in the last line can be at an operand position that expects a data object, and identifies the component comp of the structure struc2 in a chaining that starts at class c2. A prerequisite for use of the expression is that both reference variables, oref and dref, point to the respective instances.
 
 INTERFACE i1.
   TYPES: BEGIN OF struc1,

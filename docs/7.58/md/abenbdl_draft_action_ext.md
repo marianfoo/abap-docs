@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [RAP - Base BDEF Extension](javascript:call_link\('abenbdl_extensibility_managed_unm.htm'\)) →  [RAP - extension](javascript:call_link\('abenbdl_extension_syntax.htm'\)) →  [RAP - Entity Behavior Extension](javascript:call_link\('abenbdl_extend_beh.htm'\)) →  [RAP - extension\_body](javascript:call_link\('abenbdl_entity_beh_extension.htm'\)) →  [RAP - Extending Elements](javascript:call_link\('abenbdl_ext_elem_ext.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl.htm) →  [RAP - BDEF Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extension.htm) →  [RAP - Base BDEF Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extensibility_managed_unm.htm) →  [RAP - extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extension_syntax.htm) →  [RAP - Entity Behavior Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extend_beh.htm) →  [RAP - extension\_body](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_entity_beh_extension.htm) →  [RAP - Extending Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_ext_elem_ext.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20extend%20draft%20determine%20action%20Prepare%2C%20ABENBDL_DRAFT_ACTION_EXT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20im
 provement:)
@@ -15,28 +15,28 @@ Syntax
 
 extend draft determine action Prepare
              {
-             *\[* [determination](javascript:call_link\('abenbdl_determinations.htm'\)) *\[*(always)*\]* DetName;*\]*
-             *\[* [validation](javascript:call_link\('abenbdl_validations.htm'\)) *\[*(always)*\]* ValName;*\]*
-             *\[* [determination](javascript:call_link\('abenbdl_determinations.htm'\)) *\[*(always)*\]* Child~ChildDetermination;*\]*
-             *\[* [validation](javascript:call_link\('abenbdl_validations.htm'\)) *\[*(always)*\]* Child~ChildValidation;*\]*
+             *\[* [determination](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determinations.htm) *\[*(always)*\]* DetName;*\]*
+             *\[* [validation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_validations.htm) *\[*(always)*\]* ValName;*\]*
+             *\[* [determination](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determinations.htm) *\[*(always)*\]* Child~ChildDetermination;*\]*
+             *\[* [validation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_validations.htm) *\[*(always)*\]* Child~ChildValidation;*\]*
              ...
               }
 
 Prerequisites
 
--   The respective draft determine action must be enabled for extensions in the extended BDEF as described in topic [RAP BDL - Extensibility Enabling for Managed and Unmanaged BDEFs](javascript:call_link\('abenbdl_extensibility_enabling_m_u.htm'\)).
+-   The respective draft determine action must be enabled for extensions in the extended BDEF as described in topic [RAP BDL - Extensibility Enabling for Managed and Unmanaged BDEFs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extensibility_enabling_m_u.htm).
 
 Effect
 
-Extends an existing [draft determine action Prepare](javascript:call_link\('abenrap_bo_draft_action_glosry.htm'\) "Glossary Entry") with extension [determinations](javascript:call_link\('abenrap_determination_glosry.htm'\) "Glossary Entry") and extension [validations](javascript:call_link\('abenrap_validation_glosry.htm'\) "Glossary Entry"). At least one extension determination or extension validation must be specified within curly brackets. The optional addition [(always)](javascript:call_link\('abenbdl_determine_action.htm'\)) can be used. Determinations and validations of child entities can be included.
+Extends an existing [draft determine action Prepare](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_draft_action_glosry.htm "Glossary Entry") with extension [determinations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_determination_glosry.htm "Glossary Entry") and extension [validations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_validation_glosry.htm "Glossary Entry"). At least one extension determination or extension validation must be specified within curly brackets. The optional addition [(always)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determine_action.htm) can be used. Determinations and validations of child entities can be included.
 
 Hint
 
-An [internal](javascript:call_link\('abenbdl_internal.htm'\)) draft determine action Prepare cannot be extended.
+An [internal](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_internal.htm) draft determine action Prepare cannot be extended.
 
 Related Information
 
--   [RAP BDL - draft action](javascript:call_link\('abenbdl_draft_action.htm'\)).
+-   [RAP BDL - draft action](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_draft_action.htm).
 
 Example
 

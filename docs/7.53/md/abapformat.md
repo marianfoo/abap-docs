@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Creating Lists](javascript:call_link\('abenabap_lists.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Creating Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_lists.htm) → 
 
 FORMAT
 
-[Quick Reference](javascript:call_link\('abapformat_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapformat_shortref.htm)
 
 Syntax
 
@@ -32,17 +32,17 @@ Extras:
 
 Effect
 
-The settings defined using FORMAT apply from the current position of the [list cursor](javascript:call_link\('abenlist_cursor_glosry.htm'\) "Glossary Entry") for all of the following output statements ([WRITE](javascript:call_link\('abapwrite-.htm'\)) and, with restrictions, [ULINE](javascript:call_link\('abapuline.htm'\))) until they are redefined by a new FORMAT statement. Within a line, the areas between the individual output and between the start of the line and the first output are formatted. Blank lines created using [SKIP](javascript:call_link\('abapskip.htm'\)) are not formatted, however.
+The settings defined using FORMAT apply from the current position of the [list cursor](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlist_cursor_glosry.htm "Glossary Entry") for all of the following output statements ([WRITE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm) and, with restrictions, [ULINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapuline.htm)) until they are redefined by a new FORMAT statement. Within a line, the areas between the individual output and between the start of the line and the first output are formatted. Blank lines created using [SKIP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapskip.htm) are not formatted, however.
 
 The individual additions change the associated setting only and leave the others unchanged, with the exception of the addition RESET, which can change all settings.
 
-At the start of the program, standard settings are defined for the settings that can be defined using FORMAT. These are set automatically for each [reporting event](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry") and [list event](javascript:call_link\('abenlist_event_glosry.htm'\) "Glossary Entry") (with the exception of the attribute set by FRAMES). A table of the standard settings is in the description of the addition RESET.
+At the start of the program, standard settings are defined for the settings that can be defined using FORMAT. These are set automatically for each [reporting event](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreporting_event_glosry.htm "Glossary Entry") and [list event](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlist_event_glosry.htm "Glossary Entry") (with the exception of the attribute set by FRAMES). A table of the standard settings is in the description of the addition RESET.
 
 For each individual WRITE output, the settings can be overridden using the same additions in the addition WRITE. The settings that are defined using FORMAT or the standard settings then apply again.
 
 Note
 
-Alongside the statement FORMAT, [obsolete formats](javascript:call_link\('abenformat_obsolete.htm'\)) also exist that are replaced by FORMAT.
+Alongside the statement FORMAT, [obsolete formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformat_obsolete.htm) also exist that are replaced by FORMAT.
 
 Addition 1
 
@@ -115,7 +115,7 @@ Purple
 
 The addition OFF has the same effect as COL\_BACKGROUND or the value 0 in col and is the default setting. In this setting, the color of the background corresponds to a list line of the background color of the GUI window.
 
-The addition COLOR does not affect lines made of [line elements](javascript:call_link\('abenline_element_glosry.htm'\) "Glossary Entry"), or on GUI windows that are ready for input. The latter can be overridden by the other additions.
+The addition COLOR does not affect lines made of [line elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenline_element_glosry.htm "Glossary Entry"), or on GUI windows that are ready for input. The latter can be overridden by the other additions.
 
 Addition 2
 
@@ -159,11 +159,11 @@ Effect
 
 This addition influences the display of the mouse pointer and the function of the mouse in the list displayed on the screen. flag expects a data object of type i. If ON is specified or if the content of flag is not equal to 0, it changes its appearance to a hand when the mouse pointer is positioned on a list area that is formatted accordingly (hotspot) and a single click has the same effect as a double-click (that is, selecting the function key F2). If OFF is specified or if the content of flag is equal to 0, the function of the mouse does not change (default setting). If none of ON, OFF, or flag are specified after HOTSPOT, the addition ON is applied.
 
-If the attribute INPUT ON is set, the addition HOTSPOT ON is ignored and is also ignored by [line elements](javascript:call_link\('abenline_element_glosry.htm'\) "Glossary Entry").
+If the attribute INPUT ON is set, the addition HOTSPOT ON is ignored and is also ignored by [line elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenline_element_glosry.htm "Glossary Entry").
 
 Note
 
-By default, INPUT ON is set for a checkbox defined with [AS CHECKBOX](javascript:call_link\('abapwrite_list_elements.htm'\)) and the addition HOTSPOT ON is ignored. However, HOTSPOT ON does have an effect on a non-input-ready checkbox.
+By default, INPUT ON is set for a checkbox defined with [AS CHECKBOX](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_list_elements.htm) and the addition HOTSPOT ON is ignored. However, HOTSPOT ON does have an effect on a non-input-ready checkbox.
 
 Example
 
@@ -184,9 +184,9 @@ Effect
 
 This addition makes list areas ready for input. flag expects a data object of type i. If ON is specified or the content of flag is not equal to 0, the relevant list area is displayed with a different foreground and background color than the rest of the list, and the user can overwrite the output. The screen cursor is positioned in the first field that is ready for input. If OFF is specified or the content of flag is equal to 0, the output is not made ready for input (default setting). If none of ON, OFF, or flag are specified after INPUT, the addition ON is applied.
 
-Within an area that is ready for input, icons are displayed empty and symbols are displayed as characters according to the [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry"). [Line elements](javascript:call_link\('abenline_element_glosry.htm'\) "Glossary Entry") are not made ready for input. In list areas that are ready for input, however, the characters "-" and "|", are not transformed into line elements and are not displayed as being ready for input. In particular, the latter also applies to the statement ULINE.
+Within an area that is ready for input, icons are displayed empty and symbols are displayed as characters according to the [code page](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencodepage_glosry.htm "Glossary Entry"). [Line elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenline_element_glosry.htm "Glossary Entry") are not made ready for input. In list areas that are ready for input, however, the characters "-" and "|", are not transformed into line elements and are not displayed as being ready for input. In particular, the latter also applies to the statement ULINE.
 
-The width of the list area that is ready for input is defined by the [output length](javascript:call_link\('abenwrite_output_length.htm'\)). If the display of contents from the list buffer in a list area that is ready for input results in truncation, the indicator is placed outside the area. The number of characters that can be entered is limited by the output length. The content cannot be moved. The number of characters that can be entered depends on the space that the individual characters require.
+The width of the list area that is ready for input is defined by the [output length](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwrite_output_length.htm). If the display of contents from the list buffer in a list area that is ready for input results in truncation, the indicator is placed outside the area. The number of characters that can be entered is limited by the output length. The content cannot be moved. The number of characters that can be entered depends on the space that the individual characters require.
 
 The entries made by the user are saved in the list buffer and can be evaluated during a list event. If characters were truncated in the list, then they will also be lost in the list buffer.
 
@@ -221,7 +221,7 @@ Addition 6
 
 Effect
 
-This addition defines whether the "-" and "|" characters are transformed to [line elements](javascript:call_link\('abenline_element_glosry.htm'\) "Glossary Entry"). flag expects a data object of type i. If ON is specified or if the content of flag is not equal to 0, the characters are transformed in the relevant list area (default setting). If OFF is specified or if the content of flag is not equal to 0, the characters are not transformed. If none of ON, OFF, or flag are specified after FRAMES, the addition ON is applied.
+This addition defines whether the "-" and "|" characters are transformed to [line elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenline_element_glosry.htm "Glossary Entry"). flag expects a data object of type i. If ON is specified or if the content of flag is not equal to 0, the characters are transformed in the relevant list area (default setting). If OFF is specified or if the content of flag is not equal to 0, the characters are not transformed. If none of ON, OFF, or flag are specified after FRAMES, the addition ON is applied.
 
 In the FRAMES ON setting, the following points apply:
 
@@ -339,4 +339,4 @@ FORMAT RESET
        INTENSIFIED ON.
 
 Continue
-![Example](exa.gif "Example") [Lists, Supported Colors](javascript:call_link\('abenlist_format_color2_abexa.htm'\))
+![Example](exa.gif "Example") [Lists, Supported Colors](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlist_format_color2_abexa.htm)

@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Examples for BDEF Derived Type Components](javascript:call_link\('abenderived_types_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_comp.htm) →  [Examples for BDEF Derived Type Components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_types_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Using%20%25is_draft%2C%20ABENDERIVED_TYPES_ISDRAFT_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Using %is\_draft
 
-This example demonstrates the use of the draft indicator %is\_draft with an [unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry") in a [draft](javascript:call_link\('abenbdl_with_draft.htm'\)) scenario.
+This example demonstrates the use of the draft indicator %is\_draft with an [unmanaged RAP BO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry") in a [draft](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_with_draft.htm) scenario.
 
 Data model
 
@@ -38,7 +38,7 @@ define root view entity DEMO\_UNMANAGED\_ROOT\_DRAFT
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_UNMANAGED\_ROOT\_DRAFT is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_UNMANAGED\_ROOT\_DRAFT is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 unmanaged implementation in class bp\_demo\_unmanaged\_root\_draft unique;
 strict(2);
@@ -90,7 +90,7 @@ authorization dependent by \_parent
 
 Behavior implementation
 
-For the above RAP behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UNMANAGED\_ROOT\_DRAFT. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. See a detailed description of the [RAP handler methods](javascript:call_link\('abapmethods_for_rap_behv.htm'\)) in this topic: [Example for RAP Handler Methods](javascript:call_link\('abenrap_handler_methods_abexa.htm'\)).
+For the above RAP behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UNMANAGED\_ROOT\_DRAFT. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. See a detailed description of the [RAP handler methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_for_rap_behv.htm) in this topic: [Example for RAP Handler Methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_handler_methods_abexa.htm).
 
 Source Code   
 
@@ -288,7 +288,7 @@ Access with ABAP using EML
 
 There are two ABAP EML modify requests that cover RAP modify operations:
 
-1.  The first ABAP EML modify request covers a create operation to create new [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") and an update operation on those newly created instances. In this case, the RAP operations are executed on active instances since the draft indicator %is\_draft is disabled for all instances. For demonstration purposes, the instances in the update operation are referred to using [%tky](javascript:call_link\('abapderived_types_tky.htm'\)). Within %tky, the key is referred in different ways just to visualize the [component groups](javascript:call_link\('abencomponent_group_glosry.htm'\) "Glossary Entry"). All options have the same effect and refer to the same. With a [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) statement, the instances are saved to the database. The output shows the database table entries as well as the mapped responses for the root entity to visualize the mapping of %cid and the keys, including the draft indicator.
-2.  The second ABAP EML modify request covers the creation of draft instances. In this case, the draft indicator %is\_draft is enabled for all instances. With a [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) statement, the draft instances are saved to the draft table. The [draft action](javascript:call_link\('abenbdl_draft_action.htm'\)) activate which is followed by a COMMIT ENTITIES statement that finally saves the instances to the database table. The output shows the following:
+1.  The first ABAP EML modify request covers a create operation to create new [RAP BO instances](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") and an update operation on those newly created instances. In this case, the RAP operations are executed on active instances since the draft indicator %is\_draft is disabled for all instances. For demonstration purposes, the instances in the update operation are referred to using [%tky](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_tky.htm). Within %tky, the key is referred in different ways just to visualize the [component groups](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomponent_group_glosry.htm "Glossary Entry"). All options have the same effect and refer to the same. With a [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities.htm) statement, the instances are saved to the database. The output shows the database table entries as well as the mapped responses for the root entity to visualize the mapping of %cid and the keys, including the draft indicator.
+2.  The second ABAP EML modify request covers the creation of draft instances. In this case, the draft indicator %is\_draft is enabled for all instances. With a [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities.htm) statement, the draft instances are saved to the draft table. The [draft action](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_draft_action.htm) activate which is followed by a COMMIT ENTITIES statement that finally saves the instances to the database table. The output shows the following:
     -   Mapped responses after the RAP create operation and after the execution of the activate action, but before committing. It shows the change of the draft indicator, i. e. it is changed from disabled to enabled.
     -   Tables are displayed that demonstrate the effect on the draft and database tables. The first two tables show the state of the draft and database table before the activation, i. e. new draft instances are created and, thus, available in the draft table. The data fields are changed due to the implementations in the ABAP behavior pool. At this stage, there have not been any changes to the database table. The next two tables show the state of the draft and database tables after the activation. The database table now includes the former draft instances that have been persisted to the database. The draft table is empty.

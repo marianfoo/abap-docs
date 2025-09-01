@@ -4,19 +4,21 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Spool](javascript:call_link\('abenprint.htm'\)) →  [Lists - Spool Parameters](javascript:call_link\('abenprint_parameters.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpro_list.htm) →  [Lists - Spool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint.htm) →  [Lists - Spool Parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_parameters.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Lists%20-%20Overview%20of%20All%20Spool%20Parameters%2C%20ABENPRINT_PARAMETERS_OVERVIEW%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20
 improvement:)
 
 Lists - Overview of All Spool Parameters
 
--   [Spool Parameters](#abenprint-parameters-overview-1-------archiving-parameters---@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_2)
--   [Control Parameters](#abenprint-parameters-overview-3-------output-parameters-of-get--print--parameters---@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_4)
+-   [Spool Parameters](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_1)
+-   [Archiving Parameters](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_2)
+-   [Control Parameters](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_3)
+-   [Output Parameters of GET\_PRINT\_PARAMETERS](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_4)
 
 Spool Parameters   
 
-The following table lists all spool parameters by their associated input parameters in the function modules [GET\_PRINT\_PARAMETERS](javascript:call_link\('abenprint_parameters_function.htm'\)) and [SET\_PRINT\_PARAMETERS](javascript:call_link\('abenprint_parameters_window.htm'\)). The second column shows the label in the spool dialog box. The third column contains the name of the component in the structure PRI\_PARAMS whose content, however, cannot be modified directly in a program.
+The following table lists all spool parameters by their associated input parameters in the function modules [GET\_PRINT\_PARAMETERS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_parameters_function.htm) and [SET\_PRINT\_PARAMETERS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprint_parameters_window.htm). The second column shows the label in the spool dialog box. The third column contains the name of the component in the structure PRI\_PARAMS whose content, however, cannot be modified directly in a program.
 
 Input Parameter
 
@@ -352,7 +354,7 @@ Object type of the SAP object.
 Hints
 
 -   Requests can be archived only if these parameters are specified consistently and completely. Archiving works across all applications. Apart from certain basic settings, no other actions are required. If spool lists are to be stored on an application-specific basis, some special actions must be taken. For more information, see the documentation [ArchiveLink](https://help.sap.com/docs/ABAP_PLATFORM_NEW/bb9551032d3046c98c2b251ae486085f/04ba620ec3e746889fa699542efa28a3) in SAP Help Portal.
--   When archiving long lists, it may be useful to write index information to the list using [PRINT-CONTROL INDEX-LINE](javascript:call_link\('abapprint-control.htm'\)). This makes it easier to search the archived list later on.
+-   When archiving long lists, it may be useful to write index information to the list using [PRINT-CONTROL INDEX-LINE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapprint-control.htm). This makes it easier to search the archived list later on.
 
 Control Parameters   
 

@@ -4,29 +4,29 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ABAP Database Connectivity (ADBC)](javascript:call_link\('abenadbc.htm'\)) →  [ADBC - CL\_SQL\_STATEMENT](javascript:call_link\('abencl_sql_statement.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennative_sql.htm) →  [ABAP Database Connectivity (ADBC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc.htm) →  [ADBC - CL\_SQL\_STATEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencl_sql_statement.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ADBC - Stored Procedures, ABENADBC_PROCEDURE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A
 %0D%0ASuggestion for improvement:)
 
 ADBC - Stored Procedures
 
-[Stored procedures](javascript:call_link\('abenstored_procedure_glosry.htm'\) "Glossary Entry") can be executed using the following instance method of the class CL\_SQL\_STATEMENT
+[Stored procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstored_procedure_glosry.htm "Glossary Entry") can be executed using the following instance method of the class CL\_SQL\_STATEMENT
 
 -   EXECUTE\_PROCEDURE
 
-The method has a mandatory input parameter PROC\_NAME of type string to which the name of an existing stored procedure must be passed. Similar to [DML statements](javascript:call_link\('abenadbc_ddl_dml.htm'\)), it is possible to bind ABAP data objects as actual parameters to the formal parameters of the stored procedure using the method SET\_PARAM. The type of parameter must be determined using the additional parameter INOUT. Possible values are defined in the constants C\_PARAM\_IN, C\_PARAM\_OUT, and C\_PARAM\_INOUT of the class CL\_SQL\_STATEMENT. C\_PARAM\_IN is the default value. The order of the calls determines the assignment to the formal parameters from left to right.
+The method has a mandatory input parameter PROC\_NAME of type string to which the name of an existing stored procedure must be passed. Similar to [DML statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc_ddl_dml.htm), it is possible to bind ABAP data objects as actual parameters to the formal parameters of the stored procedure using the method SET\_PARAM. The type of parameter must be determined using the additional parameter INOUT. Possible values are defined in the constants C\_PARAM\_IN, C\_PARAM\_OUT, and C\_PARAM\_INOUT of the class CL\_SQL\_STATEMENT. C\_PARAM\_IN is the default value. The order of the calls determines the assignment to the formal parameters from left to right.
 
 Hints
 
--   The methods SET\_PARAM\_STRUCT and SET\_PARAM\_TABLE cannot be used. This means that structures and internal tables cannot be bound to actual parameters. On databases where this is allowed, a stored procedure can also be called using the method [EXECUTE\_QUERY](javascript:call_link\('abenadbc_query.htm'\)). This method makes it possible to bind internal tables to the result set. See the example below.
--   On the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"), the stored procedures are [database procedures](javascript:call_link\('abendatabase_procedure_glosry.htm'\) "Glossary Entry") written in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry"). In ABAP, the [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) are available for managing and calling these stored procedures. The special statement [CALL DATABASE PROCEDURE](javascript:call_link\('abapcall_database_procedure.htm'\)) makes it possible to access them using a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry").
+-   The methods SET\_PARAM\_STRUCT and SET\_PARAM\_TABLE cannot be used. This means that structures and internal tables cannot be bound to actual parameters. On databases where this is allowed, a stored procedure can also be called using the method [EXECUTE\_QUERY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc_query.htm). This method makes it possible to bind internal tables to the result set. See the example below.
+-   On the [SAP HANA database](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_database_glosry.htm "Glossary Entry"), the stored procedures are [database procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_procedure_glosry.htm "Glossary Entry") written in [SQLScript](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_script_glosry.htm "Glossary Entry"). In ABAP, the [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp.htm) are available for managing and calling these stored procedures. The special statement [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_database_procedure.htm) makes it possible to access them using a [secondary connection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry").
 -   EXECUTE\_PROCEDURE can be used to call procedures with input and output parameters but cannot be used to call functions with return values. In SQL, functions are used directly in suitable operand positions.
--   When parameters are passed, [mapping](javascript:call_link\('abennative_sql_type_mapping.htm'\)) takes place between the ABAP types and the database types. The ABAP types should match the database types. If they do not match, conversions must be made in the Native SQL interface. These conversions are platform-dependent and can raise exceptions.
+-   When parameters are passed, [mapping](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennative_sql_type_mapping.htm) takes place between the ABAP types and the database types. The ABAP types should match the database types. If they do not match, conversions must be made in the Native SQL interface. These conversions are platform-dependent and can raise exceptions.
 
 Example
 
-Use of ADBC to call an [SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") in the SAP HANA database managed using [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry"). Before the ADBC call, a method of the class CL\_AMDP\_RUNTIME\_SERVICES must be used to ensure that the procedure exists on the database. This would not be necessary if the associated [AMDP](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") method were used for the call.
+Use of ADBC to call an [SQLScript procedure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") in the SAP HANA database managed using [AMDP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_glosry.htm "Glossary Entry"). Before the ADBC call, a method of the class CL\_AMDP\_RUNTIME\_SERVICES must be used to ensure that the procedure exists on the database. This would not be necessary if the associated [AMDP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_method_glosry.htm "Glossary Entry") method were used for the call.
 
 IF cl\_db\_sys=>is\_in\_memory\_db = abap\_false.
   RETURN.
@@ -53,7 +53,7 @@ ENDTRY.
 
 Example
 
-Call of a stored procedure of the SAP HANA database using the method [EXECUTE\_QUERY](javascript:call_link\('abenadbc_query.htm'\)). The stored procedure is an [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry")\-managed [SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") with a tabular output parameter. The null value is bound to the output parameter to create a temporary table for this parameter on the database. This table then can be linked to an internal table result using SET\_PARAM\_TABLE.
+Call of a stored procedure of the SAP HANA database using the method [EXECUTE\_QUERY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc_query.htm). The stored procedure is an [AMDP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_glosry.htm "Glossary Entry")\-managed [SQLScript procedure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") with a tabular output parameter. The null value is bound to the output parameter to create a temporary table for this parameter on the database. This table then can be linked to an internal table result using SET\_PARAM\_TABLE.
 
 IF cl\_db\_sys=>is\_in\_memory\_db = abap\_false.
   RETURN.
@@ -81,4 +81,4 @@ ENDTRY.
 
 Executable Example
 
-[ADBC, Stored Procedure](javascript:call_link\('abenadbc_procedure_abexa.htm'\))
+[ADBC, Stored Procedure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc_procedure_abexa.htm)

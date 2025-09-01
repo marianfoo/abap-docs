@@ -4,13 +4,13 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [Changes in Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews.htm) →  [Changes in Releases 4.xx](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-4.htm) →  [Changes in Release 4.6A](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-46a.htm) → 
 
 Description of Data Types and Object Types at Runtime in Release 4.6A
 
 From Release 4.6A, types can be described dynamically.
 
-Previously, the statement [DESCRIBE](javascript:call_link\('abapdescribe_field.htm'\)) could only describe some of the [ABAP types](javascript:call_link\('abentypes_objects_oview.htm'\)). With the introduction of ABAP Objects, an [RTTI concept](javascript:call_link\('abenrtti.htm'\)) based on system classes was implemented that enhances the description to include any data types and object types at runtime.
+Previously, the statement [DESCRIBE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdescribe_field.htm) could only describe some of the [ABAP types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentypes_objects_oview.htm). With the introduction of ABAP Objects, an [RTTI concept](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrtti.htm) based on system classes was implemented that enhances the description to include any data types and object types at runtime.
 
 Example for the description of a field
 

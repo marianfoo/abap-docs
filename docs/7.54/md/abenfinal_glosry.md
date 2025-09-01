@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 final
 
-Term in [ABAP Objects](javascript:call_link\('abenabap_objects_glosry.htm'\) "Glossary Entry"). A final [class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry") cannot have any [subclasses](javascript:call_link\('abensubclass_glosry.htm'\) "Glossary Entry"). A final [method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") cannot be [redefined](javascript:call_link\('abenredefinition_glosry.htm'\) "Glossary Entry").
+Term in [ABAP Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_objects_glosry.htm "Glossary Entry"). A final [class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_glosry.htm "Glossary Entry") cannot have any [subclasses](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubclass_glosry.htm "Glossary Entry"). A final [method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_glosry.htm "Glossary Entry") cannot be [redefined](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenredefinition_glosry.htm "Glossary Entry").

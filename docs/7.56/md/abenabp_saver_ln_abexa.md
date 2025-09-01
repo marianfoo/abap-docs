@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP business objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP Behavior Pools (ABP)](javascript:call_link\('abenabap_behavior_pools.htm'\)) →  [RAP Saver Class](javascript:call_link\('abenabp_saver_class.htm'\)) →  [Examples for RAP Saver Methods](javascript:call_link\('abenrap_saver_methods_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_provide_rap_bos.htm) →  [ABAP Behavior Pools (ABP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_behavior_pools.htm) →  [RAP Saver Class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_saver_class.htm) →  [Examples for RAP Saver Methods](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_saver_methods_abexas.htm) → 
 
 Example for RAP Saver Methods (Late Numbering)
 
@@ -48,7 +48,7 @@ define view entity demo\_umanaged\_child\_late\_num2
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_UMANAGED\_ROOT\_LATE\_NUM2 is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_UMANAGED\_ROOT\_LATE\_NUM2 is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 unmanaged implementation in class
 bp\_demo\_umanaged\_root\_late\_nu2 unique;
@@ -76,7 +76,7 @@ late numbering
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UMANAGED\_ROOT\_LATE\_NU2. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. Note: The ABP purposely includes only few handler method implementations since the focus is on the saver methods.
+For the above CDS behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UMANAGED\_ROOT\_LATE\_NU2. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. Note: The ABP purposely includes only few handler method implementations since the focus is on the saver methods.
 
 The class lsc\_demo\_umanaged\_root\_late\_nu is the RAP saver class that includes the following RAP saver methods:
 
@@ -94,7 +94,7 @@ Contains a consistency check. An instance should only get saved if the value of 
 
 adjust\_numbers
 
-Takes care of assigning the final primary keys of the [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry"). In the given example, a random integer gets assigned. Once the method is called, a point of no return has been reached. The method must ensure that there are no issues with the key assignment. Therefore, a check is implemented to guarantee a random number does not yet exist for instances, neither in the transactional buffer nor in the database table. Furthermore, the failed and reported parameters as well as the log table DEMO\_TAB\_LOG\_LN are filled.
+Takes care of assigning the final primary keys of the [RAP BO instances](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry"). In the given example, a random integer gets assigned. Once the method is called, a point of no return has been reached. The method must ensure that there are no issues with the key assignment. Therefore, a check is implemented to guarantee a random number does not yet exist for instances, neither in the transactional buffer nor in the database table. Furthermore, the failed and reported parameters as well as the log table DEMO\_TAB\_LOG\_LN are filled.
 
 save
 
@@ -364,7 +364,7 @@ Description
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program.
 
 The example demonstrates three different ABAP EML MODIFY requests. Each of the MODIFY requests includes CREATE operations to create three instances. COMMIT ENTITIES statements trigger the save sequence.
 

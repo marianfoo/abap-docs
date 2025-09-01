@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_objects.htm) →  [CREATE OBJECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object.htm) → 
 
 CREATE OBJECT, parameter\_tables
 
-[Short Reference](javascript:call_link\('abapcreate_object_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object_shortref.htm)
 
 Syntax
 
@@ -21,11 +21,11 @@ The additions PARAMETER-TABLE and EXCEPTION-TABLE are used to pass actual parame
 
 These additions can only be used if the instantiated class is specified dynamically in name. They use special internal tables ptab and etab to assign actual parameters to the input parameters of the instance constructor or return codes to the non-class-based exceptions.
 
-The syntax and semantics are the same as in the dynamic method calls using the statement [CALL METHOD](javascript:call_link\('abapcall_method_dynamic.htm'\)). The internal tables ptab and etab in particular must be defined with reference to the tables abap\_parmbind\_tab and abap\_excpbind\_tab from the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") ABAP.
+The syntax and semantics are the same as in the dynamic method calls using the statement [CALL METHOD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_dynamic.htm). The internal tables ptab and etab in particular must be defined with reference to the tables abap\_parmbind\_tab and abap\_excpbind\_tab from the [type pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentype_pool_glosry.htm "Glossary Entry") ABAP.
 
 Example
 
-Dynamic creation of a [Control Framework](javascript:call_link\('abencontrol_framework_glosry.htm'\) "Glossary Entry") (CFW) dialog box and dynamic passing of input parameters to the instance constructor of the global class CL\_GUI\_DIALOGBOX\_CONTAINER. The class is defined explicitly using the addition [TYPE](javascript:call_link\('abapcreate_object_explicit.htm'\)).
+Dynamic creation of a [Control Framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencontrol_framework_glosry.htm "Glossary Entry") (CFW) dialog box and dynamic passing of input parameters to the instance constructor of the global class CL\_GUI\_DIALOGBOX\_CONTAINER. The class is defined explicitly using the addition [TYPE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object_explicit.htm).
 
 DATA: container TYPE REF TO cl\_gui\_container,
       exc\_ref TYPE REF TO cx\_root.

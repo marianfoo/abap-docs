@@ -4,31 +4,47 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - SAP Annotations](javascript:call_link\('abencds_annotations_sap.htm'\)) →  [ABAP CDS - ABAP Annotations](javascript:call_link\('abencds_annotations_abap.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_sap.htm) →  [ABAP CDS - ABAP Annotations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_abap.htm) → 
 
 ABAP CDS - ABAP Annotation Syntax
 
-The following tables summarize the [annotation syntax](javascript:call_link\('abencds_annotation_syntax_glosry.htm'\) "Glossary Entry") of all [ABAP annotations](javascript:call_link\('abencore_annotation_glosry.htm'\) "Glossary Entry") in [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") and [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry") in ABAP CDS. Any specified subannotations are shown using [chainings](javascript:call_link\('abencds_annotations_syntax_name.htm'\)). If square brackets \[ \] are specified after a name in the column Annotation, this means that the annotation in front of the square brackets is an [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry"). Any enumeration symbols in an annotation are specified in the column Enums. The column Default shows the default values applied to the evaluation when an annotation is specified without a value. The columns Text and MDE indicate whether the annotation values are translatable texts and whether the annotation can be specified in a [metadata extension](javascript:call_link\('abencds_metadata_extension_glosry.htm'\) "Glossary Entry"). The MDE column indicates if the annotation can be used in CDS entities defined in [ABAP for SAP Cloud Platform](javascript:call_link\('abenabap_for_sap_cloud_glosry.htm'\) "Glossary Entry"). The detailed meanings of each ABAP annotation is documented for the corresponding [scope](javascript:call_link\('abencds_annotations_scopes.htm'\)) in this documentation.
+The following tables summarize the [annotation syntax](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry") of all [ABAP annotations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencore_annotation_glosry.htm "Glossary Entry") in [CDS DDL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_ddl_glosry.htm "Glossary Entry") and [CDS DCL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS. Any specified subannotations are shown using [chainings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_syntax_name.htm). If square brackets \[ \] are specified after a name in the column Annotation, this means that the annotation in front of the square brackets is an [annotation array](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenannotation_array_glosry.htm "Glossary Entry"). Any enumeration symbols in an annotation are specified in the column Enums. The column Default shows the default values applied to the evaluation when an annotation is specified without a value. The columns Text and MDE indicate whether the annotation values are translatable texts and whether the annotation can be specified in a [metadata extension](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_metadata_extension_glosry.htm "Glossary Entry"). The MDE column indicates if the annotation can be used in CDS entities defined in [ABAP for SAP Cloud Platform](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_for_sap_cloud_glosry.htm "Glossary Entry"). The detailed meanings of each ABAP annotation is documented for the corresponding [scope](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_scopes.htm) in this documentation.
 
--   [AbapAnnotation-Annotations](#abencds-annotations-abap-tables-1--------abapcatalog-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_2)
+-   [AbapAnnotation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_1)
 
--   [AccessControl-Annotations](#abencds-annotations-abap-tables-3--------api-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_4)
+-   [AbapCatalog-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_2)
 
--   [ClientDependent-Annotations](#abencds-annotations-abap-tables-5--------clienthandling-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_6)
+-   [AccessControl-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_3)
 
--   [CompatibilityContract-Annotations](#abencds-annotations-abap-tables-7--------dataaging-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_8)
+-   [API-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_4)
 
--   [EndUserText-Annotations](#abencds-annotations-abap-tables-9--------environment-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_10)
+-   [ClientDependent-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_5)
 
--   [LanguageDependency-Annotations](#abencds-annotations-abap-tables-11--------mappingrole-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_12)
+-   [ClientHandling-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_6)
 
--   [Metadata-Annotations](#abencds-annotations-abap-tables-13--------metadataextension-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_14)
+-   [CompatibilityContract-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_7)
 
--   [Scope\[ \]-Annotations](#abencds-annotations-abap-tables-15--------semantics-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_16)
+-   [DataAging-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_8)
+
+-   [EndUserText-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_9)
+
+-   [Environment-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_10)
+
+-   [LanguageDependency-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_11)
+
+-   [MappingRole-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_12)
+
+-   [Metadata-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_13)
+
+-   [MetadataExtension-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_14)
+
+-   [Scope\[ \]-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_15)
+
+-   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_TABLES_16)
 
 Note
 
-See also [ABAP Annotation Definitions](javascript:call_link\('abencds_annotations_abap_ddla.htm'\)).
+See also [ABAP Annotation Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_annotations_abap_ddla.htm).
 
 AbapAnnotation-Annotations
 
@@ -54,7 +70,7 @@ AbapAnnotation.definitionHidden
 
 Annotation definition, test annotation or demonstration annotation that cannot be used in production CDS source code
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 Boolean
 
@@ -92,7 +108,7 @@ AbapCatalog.buffering.numberOfKeyFields
 
 Table buffering, number of key fields when buffering generic areas
 
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 Integer
 
@@ -110,7 +126,7 @@ AbapCatalog.buffering.status
 
 Table buffering, enables and disables buffering
 
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 String(20)
 
@@ -130,7 +146,7 @@ AbapCatalog.buffering.type
 
 Table buffering, defines the buffering type
 
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 String(10)
 
@@ -151,7 +167,7 @@ AbapCatalog.compiler.compareFilter
 
 CDS view, specifies how filter conditions are evaluated in path expressions
 
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 Boolean
 
@@ -169,7 +185,7 @@ AbapCatalog.dbHints\[ \].dbSystem
 
 CDS view, database hints evaluated by SADL, database system
 
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 String(3)
 
@@ -196,7 +212,7 @@ AbapCatalog.dbHints\[ \].hint
 
 CDS view, database hints evaluated by SADL, hint
 
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 String(1298)
 
@@ -214,7 +230,7 @@ AbapCatalog.preserveKey
 
 CDS view, specifies the definition of the key fields in the associated database view
 
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 Boolean
 
@@ -232,7 +248,7 @@ AbapCatalog.sqlViewAppendName
 
 CDS view extension, name of the append view
 
-[View Extension](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
+[View Extension](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_extend_view_annotations.htm)
 
 String(16)
 
@@ -250,7 +266,7 @@ AbapCatalog.sqlViewName
 
 CDS view, name of the database view
 
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 String(16)
 
@@ -268,7 +284,7 @@ AbapCatalog.viewEnhancementCategory\[ \]
 
 CDS view, specifies how the view can be extended using CDS view extensions
 
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 String(20)
 
@@ -309,9 +325,9 @@ AccessControl.authorizationCheck
 
 CDS access control, specifies implicit access control
 
-[Hierarchy](javascript:call_link\('abencds_f1_hierarchy_annotations.htm'\))
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[Hierarchy](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_hierarchy_annotations.htm)
+[Table Function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 String(20)
 
@@ -352,7 +368,7 @@ API.state\[ \]
 
 Annotation definition, release annotation
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 String(40)
 
@@ -392,8 +408,8 @@ ClientDependent
 
 Specifies client dependency and how clients are handled (obsolete)
 
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[Table Function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 Boolean
 
@@ -431,8 +447,8 @@ ClientHandling.algorithm
 
 Specifies client handling
 
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[Table Function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 String(20)
 
@@ -452,8 +468,8 @@ ClientHandling.type
 
 Specifies client dependency
 
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[Table Function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 String(20)
 
@@ -493,7 +509,7 @@ CompatibilityContract.c0.allowedChanges.annotation\[ \]
 
 Modifiability of an annotation in released CDS entities
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 String(20)
 
@@ -515,7 +531,7 @@ CompatibilityContract.c0.allowedChanges.value\[ \]
 
 Modifiability of annotation values in released CDS entities
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 String(20)
 
@@ -540,7 +556,7 @@ CompatibilityContract.c0.usageAllowed
 
 Usability of an annotation in released CDS entities
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 Boolean
 
@@ -558,7 +574,7 @@ CompatibilityContract.c1.allowedChanges.annotation\[ \]
 
 Modifiability of an annotation in released CDS entities
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 String(20)
 
@@ -580,7 +596,7 @@ CompatibilityContract.c1.allowedChanges.value\[ \]
 
 Modifiability of annotation values in released CDS entities
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 String(20)
 
@@ -605,7 +621,7 @@ CompatibilityContract.c1.usageAllowed
 
 Usability of an annotation in released CDS entities
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 Boolean
 
@@ -623,7 +639,7 @@ CompatibilityContract.c2.allowedChanges.annotation\[ \]
 
 Modifiability of an annotation in released CDS entities
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 String(20)
 
@@ -645,7 +661,7 @@ CompatibilityContract.c2.allowedChanges.value\[ \]
 
 Modifiability of annotation values in released CDS entities
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 String(20)
 
@@ -670,7 +686,7 @@ CompatibilityContract.c2.usageAllowed
 
 Usability of an annotation in released CDS entities
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 Boolean
 
@@ -708,8 +724,8 @@ DataAging.noAgingRestriction
 
 Data aging on SAP HANA, specifies how old data is handled
 
-[Table Function](javascript:call_link\('abencds_f1_function_annotations.htm'\))
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[Table Function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_function_annotations.htm)
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 Boolean
 
@@ -765,13 +781,13 @@ EndUserText.label
 
 Texts, short text connected to translation
 
-[Access Policy](javascript:call_link\('abencds_f1_define_accesspolicy.htm'\))
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-[Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
-[View Extension](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
-[Parameter](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
-[PFCG Mapping](javascript:call_link\('abencds_f1_define_pfcg_mapping.htm'\))
-[Role](javascript:call_link\('abencds_f1_dcl_role_annotations.htm'\))
+[Access Policy](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_accesspolicy.htm)
+[Element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotation.htm)
+[Entity](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_entity_annotations.htm)
+[View Extension](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_extend_view_annotations.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
+[PFCG Mapping](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_pfcg_mapping.htm)
+[Role](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_role_annotations.htm)
 
 String(60)
 
@@ -789,9 +805,9 @@ EndUserText.quickInfo
 
 Texts, tooltip connected to translation
 
-[Meta Data Extension](javascript:call_link\('abencds_f1_metadata_ext_annos.htm'\))
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
-[Parameter](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_metadata_ext_annos.htm)
+[Element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotation.htm)
+[Parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
 
 String(100)
 
@@ -829,7 +845,7 @@ Environment.sql.passValue
 
 Defines pass-by-value of host variables in comparisons in ABAP SQL
 
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
+[Element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotation.htm)
 
 Boolean
 
@@ -847,7 +863,7 @@ Environment.systemField
 
 Environment, assigns an ABAP system field
 
-[Parameter](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))
+[Parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_parameter_annotations.htm)
 
 String(20)
 
@@ -889,7 +905,7 @@ LanguageDependency.maxLength
 
 Annotation definition, specifies the translatibility of texts
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 Integer
 
@@ -927,7 +943,7 @@ MappingRole
 
 Access control, specifies the assignment of a CDS role to users
 
-[Role](javascript:call_link\('abencds_f1_dcl_role_annotations.htm'\))
+[Role](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_role_annotations.htm)
 
 Boolean
 
@@ -965,7 +981,7 @@ Metadata.allowExtensions
 
 Metadata, specifies extensibility using metadata extensions
 
-[Entity](javascript:call_link\('abencds_f1_entity_annotations.htm'\))
+[Entity](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_entity_annotations.htm)
 
 Boolean
 
@@ -983,7 +999,7 @@ Metadata.ignorePropagatedAnnotations
 
 Metadata, specifies how propagated annotations are evaluated using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE
 
-[View](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\))
+[View](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_view_entity_annotations.htm)
 
 Boolean
 
@@ -1001,7 +1017,7 @@ Metadata.layer
 
 Metadata, specfies layer in CDS metadata extension
 
-[Meta Data Extension](javascript:call_link\('abencds_f1_metadata_ext_annos.htm'\))
+[Meta Data Extension](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_metadata_ext_annos.htm)
 
 Integer
 
@@ -1043,7 +1059,7 @@ MetadataExtension.usageAllowed
 
 Annotation definition, specifies the distribution of the annotation in CDS metadata extensions
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 Boolean
 
@@ -1081,7 +1097,7 @@ Scope\[ \]
 
 Annotation definition (defines the range of validity of the annotation)
 
-[Annotation Definition](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
+[Annotation Definition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_anno_annos.htm)
 
 String(20)
 
@@ -1134,7 +1150,7 @@ Semantics.amount.currencyCode
 
 Currency field
 
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
+[Element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotation.htm)
 
 ElementRef
 
@@ -1152,7 +1168,7 @@ Semantics.currencyCode
 
 Currency key
 
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
+[Element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotation.htm)
 
 Boolean
 
@@ -1170,7 +1186,7 @@ Semantics.quantity.unitOfMeasure
 
 Quantity field
 
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
+[Element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotation.htm)
 
 ElementRef
 
@@ -1188,7 +1204,7 @@ Semantics.unitOfMeasure
 
 Unit key
 
-[Element](javascript:call_link\('abencds_f1_element_annotation.htm'\))
+[Element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotation.htm)
 
 Boolean
 

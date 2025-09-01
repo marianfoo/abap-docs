@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abapcreate_data_implicit.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_implicit.htm)
-- [abencreate_data_implicit_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_data_implicit_abexa.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.436Z
-
----
-
 ### abapcreate_data_implicit.htm
-
-> **📖 Official SAP Documentation**: [abapcreate_data_implicit.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_implicit.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,15 +11,15 @@ Included pages: 2
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_objects.htm) →  [CREATE DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data.htm) → 
 
 CREATE DATA dref
 
-[Quick Reference](javascript:call_link\('abapcreate_data_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_shortref.htm)
 
 Syntax
 
-CREATE DATA dref *\[*[area\_handle](javascript:call_link\('abapcreate_data_area_handle.htm'\))*\]*.
+CREATE DATA dref *\[*[area\_handle](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_area_handle.htm)*\]*.
 
 Effect
 
@@ -46,7 +27,7 @@ Creates an anonymous data object with an implicit type. If none of the additions
 
 Note
 
-When the character # is used in an operand position with the operand type of a data reference variable, the [instance operator](javascript:call_link\('abeninstance_operator_glosry.htm'\) "Glossary Entry") [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) works like the statement CREATE DATA dref.
+When the character # is used in an operand position with the operand type of a data reference variable, the [instance operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_operator_glosry.htm "Glossary Entry") [NEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_new.htm) works like the statement CREATE DATA dref.
 
 Example
 
@@ -62,23 +43,13 @@ cl\_demo\_output=>display( |{ dref->carrid }, { dref->carrname }| ).
 
 Executable Example
 
-[Creating Data Objects with Implicit Type](javascript:call_link\('abencreate_data_implicit_abexa.htm'\))
+[Creating Data Objects with Implicit Type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_data_implicit_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Creating Data Objects with Implicit Type](javascript:call_link\('abencreate_data_implicit_abexa.htm'\))
+![Example](exa.gif "Example") [Creating Data Objects with Implicit Type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_data_implicit_abexa.htm)
 
-
-
-**📖 Source**: [abapcreate_data_implicit.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_implicit.htm)
 
 ### abencreate_data_implicit_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencreate_data_implicit_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_data_implicit_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencreate_data_implicit_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_data_implicit_abexa.htm)
-
 
   
 
@@ -86,7 +57,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) →  [CREATE DATA dref](javascript:call_link\('abapcreate_data_implicit.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_objects.htm) →  [CREATE DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data.htm) →  [CREATE DATA dref](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_implicit.htm) → 
 
 Creating Data Objects with Implicit Type
 
@@ -124,4 +95,4 @@ START-OF-SELECTION.
 
 Description
 
-Creates an internal table and a data object of type i. The data types of the objects in question are the static types of the reference variables tab\_ref and i\_ref. The data objects are created directly before they are used and are then initialized by the reference variables and passed to the [garbage collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry"). The data objects are accessed by dereferencing the data references.
+Creates an internal table and a data object of type i. The data types of the objects in question are the static types of the reference variables tab\_ref and i\_ref. The data objects are created directly before they are used and are then initialized by the reference variables and passed to the [garbage collector](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengarbage_collector_glosry.htm "Glossary Entry"). The data objects are accessed by dereferencing the data references.

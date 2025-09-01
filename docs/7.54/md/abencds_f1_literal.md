@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, Operands and Expressions](javascript:call_link\('abencds_operands_and_expressions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_operands_and_expressions.htm) → 
 
 ABAP CDS - literal
 
@@ -18,11 +18,11 @@ Addition:
 
 Effect
 
-Literal in a [SELECT statement](javascript:call_link\('abencds_f1_select_statement.htm'\)) of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). It is either a character literal or a number literal:
+Literal in a [SELECT statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm) of a [CDS view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry"). It is either a character literal or a number literal:
 
--   A character literal 'character\_literal' is a character string enclosed in quotation marks. If the character string consists exclusively of digits, the data type of the literal is [NUMC](javascript:call_link\('abenddic_builtin_types.htm'\)). If this is not the case, the data type is [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)). When activated, the length of the corresponding field in the database system is set to a size at least as large as the actual length of the literal. A character literal can have a maximum of 1333 characters.
+-   A character literal 'character\_literal' is a character string enclosed in quotation marks. If the character string consists exclusively of digits, the data type of the literal is [NUMC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm). If this is not the case, the data type is [CHAR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm). When activated, the length of the corresponding field in the database system is set to a size at least as large as the actual length of the literal. A character literal can have a maximum of 1333 characters.
 
--   A numeric literal numeric\_literal is a series of digits between 0 and 9. It can be directly prefixed by a + or \- sign and can contain a decimal point .) after the first digit. A numeric literal without a decimal point is handled as a field of the type [INT1](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)), or [INT8](javascript:call_link\('abenddic_builtin_types.htm'\)), depending on the value. A numeric literal with a decimal point is floating point number of type [FLTP](javascript:call_link\('abenddic_builtin_types.htm'\)). The value of a numeric literal cannot be greater than the value range of the valid types.
+-   A numeric literal numeric\_literal is a series of digits between 0 and 9. It can be directly prefixed by a + or \- sign and can contain a decimal point .) after the first digit. A numeric literal without a decimal point is handled as a field of the type [INT1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), [INT4](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), or [INT8](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), depending on the value. A numeric literal with a decimal point is floating point number of type [FLTP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm). The value of a numeric literal cannot be greater than the value range of the valid types.
 
 Literals can be used at all operand positions where this is documented.
 
@@ -32,9 +32,9 @@ Notes
 
 -   No byte-like literals are currently supported.
 
--   If specified, a literal prefixed with a sign is interpreted as an [arithmetic expression](javascript:call_link\('abencds_f1_arithmetic_expression.htm'\)) and can be specified wherever it is permitted.
+-   If specified, a literal prefixed with a sign is interpreted as an [arithmetic expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_arithmetic_expression.htm) and can be specified wherever it is permitted.
 
--   The built-in conversion function [FLTP\_TO\_DEC](javascript:call_link\('abencds_f1_conv_func_types.htm'\)) can be used to convert literals with a decimal point to a packed number.
+-   The built-in conversion function [FLTP\_TO\_DEC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conv_func_types.htm) can be used to convert literals with a decimal point to a packed number.
 
 Example
 
@@ -64,15 +64,15 @@ Addition
 
 Effect
 
-In certain operand positions, a literal can be prefixed with a name of a [domain](javascript:call_link\('abendomain_glosry.htm'\) "Glossary Entry") domain introduced using the character # or : and separated by a period (.). In this case, a check is made to verify whether the value of the literal is defined as a [fixed value](javascript:call_link\('abenfixed_value_glosry.htm'\) "Glossary Entry") in the [value range](javascript:call_link\('abenddic_domains_sema.htm'\)) of the domain. If this is not the case or if the domain does not exist as an active domain, a syntax check warning occurs. Apart from this, the literal is handled like a regular literal.
+In certain operand positions, a literal can be prefixed with a name of a [domain](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendomain_glosry.htm "Glossary Entry") domain introduced using the character # or : and separated by a period (.). In this case, a check is made to verify whether the value of the literal is defined as a [fixed value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfixed_value_glosry.htm "Glossary Entry") in the [value range](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_domains_sema.htm) of the domain. If this is not the case or if the domain does not exist as an active domain, a syntax check warning occurs. Apart from this, the literal is handled like a regular literal.
 
 A domain can be specified in front of a literal in the following operand positions:
 
--   Element of the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\))
+-   Element of the [SELECT list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list.htm)
 
--   Right side of a [comparison condition](javascript:call_link\('abencds_cond_expr_comp.htm'\))
+-   Right side of a [comparison condition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_comp.htm)
 
--   Parameters passed to [built-in functions](javascript:call_link\('abencds_f1_builtin_functions.htm'\))
+-   Parameters passed to [built-in functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_builtin_functions.htm)
 
 Notes
 

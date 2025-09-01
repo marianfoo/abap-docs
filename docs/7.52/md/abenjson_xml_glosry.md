@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 JSON-XML
 
-SAP-specific representation of [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") data in [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") format. [JSON readers](javascript:call_link\('abenjson_reader_glosry.htm'\) "Glossary Entry") and [JSON writers](javascript:call_link\('abenjson_writer_glosry.htm'\) "Glossary Entry") use JSON-XML to [parse](javascript:call_link\('abenabap_json_sxml.htm'\)) and [render](javascript:call_link\('abenabap_json_sxml.htm'\)) JSON data.
+SAP-specific representation of [JSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_glosry.htm "Glossary Entry") data in [XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxml_glosry.htm "Glossary Entry") format. [JSON readers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_reader_glosry.htm "Glossary Entry") and [JSON writers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_writer_glosry.htm "Glossary Entry") use JSON-XML to [parse](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_json_sxml.htm) and [render](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_json_sxml.htm) JSON data.
 
-[→ More](javascript:call_link\('abenabap_json_xml.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_json_xml.htm)

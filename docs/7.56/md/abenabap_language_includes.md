@@ -4,14 +4,14 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Structure](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Program Structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_modularization.htm) → 
 
 Source Code Modules
 
 Source code modularization is the decomposition of the source code of a program into individual units. It is independent of the decomposition of an ABAP program into processing blocks.
 
-Source code modules are implemented either as [include programs](javascript:call_link\('abenabap_language_include.htm'\)) or as [macros](javascript:call_link\('abenabap_macros.htm'\)). Include programs are used to structure large programs, whereas macros can be used to reuse individual parts of programs.
+Source code modules are implemented either as [include programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_include.htm) or as [macros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_macros.htm). Include programs are used to structure large programs, whereas macros can be used to reuse individual parts of programs.
 
 Continue
-[Include Programs](javascript:call_link\('abenabap_language_include.htm'\))
-[Macros](javascript:call_link\('abenabap_macros.htm'\))
+[Include Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_include.htm)
+[Macros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_macros.htm)

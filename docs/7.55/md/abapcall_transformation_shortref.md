@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  C
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  C
 
 CALL TRANSFORMATION - Quick reference
 
-[Reference](javascript:call_link\('abapcall_transformation.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation.htm)
 
 Syntax
 
@@ -24,7 +24,7 @@ CALL TRANSFORMATION *{*trans*|*(name)*}*
 
 Effect
 
-Calls an [XSL transformation](javascript:call_link\('abenxsl_transformation_glosry.htm'\) "Glossary Entry") or [simple transformation](javascript:call_link\('abensimple_transformation_glosry.htm'\) "Glossary Entry") specified statically in trans or specified dynamically in name. The call of the predefined transformation [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID serializes ABAP data into the [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") format.
+Calls an [XSL transformation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenxsl_transformation_glosry.htm "Glossary Entry") or [simple transformation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensimple_transformation_glosry.htm "Glossary Entry") specified statically in trans or specified dynamically in name. The call of the predefined transformation [identity transformation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID serializes ABAP data into the [asXML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasxml_glosry.htm "Glossary Entry") format.
 
 Additions
 
@@ -32,7 +32,7 @@ Additions
     Passes parameters specified individually as p1 = e1 p2 = e2 ... or specified in an internal table ptab to the transformation.
     
 
--   [OBJECTS *{*o1 = e1 o2 = e2 ...*}**|*otab](javascript:call_link\('abapcall_transformation_objects.htm'\))
+-   [OBJECTS *{*o1 = e1 o2 = e2 ...*}**|*otab](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_objects.htm)
     Obsolete: Passes object references specified individually as o1 = e1 o2 = e2 ... or specified in an internal table otab to the transformation.
     
 
@@ -41,7 +41,7 @@ Additions
     
 
 -   SOURCE *{*XML src\_xml*}**|**{**{*bn1 = e1 bn2 = e2 ...*}**|*(stab)*}*
-    Specifies the source to be transformed. This can be [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data in src\_xml or data objects specified individually as bn1 = e1 bn2 = e2 ... or specified in an internal table stab.
+    Specifies the source to be transformed. This can be [XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenxml_glosry.htm "Glossary Entry") data in src\_xml or data objects specified individually as bn1 = e1 bn2 = e2 ... or specified in an internal table stab.
     
 
 -   RESULT *{*XML rslt\_xml*}**|**{**{*bn1 = f1 bn2 = f2 ...*}**|*(rtab)*}*
@@ -49,4 +49,4 @@ Additions
     
 
 -   AREA HANDLE handle
-    Instantiates anonymous data objects and instances of classes that are deserialized from XML data with an XSL transformation directly as [shared objects](javascript:call_link\('abenshared_objects_glosry.htm'\) "Glossary Entry") in the [shared memory](javascript:call_link\('abenshared_memory_glosry.htm'\) "Glossary Entry") of the AS instance.
+    Instantiates anonymous data objects and instances of classes that are deserialized from XML data with an XSL transformation directly as [shared objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshared_objects_glosry.htm "Glossary Entry") in the [shared memory](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshared_memory_glosry.htm "Glossary Entry") of the AS instance.

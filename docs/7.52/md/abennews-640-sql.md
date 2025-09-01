@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.40](javascript:call_link\('abennews-640.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-6.htm) →  [Changes in Release 6.40](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-640.htm) → 
 
 Open SQL in Release 6.40
 
@@ -16,13 +16,13 @@ Modification 1
 
 \- Dynamic check of selection tables
 
-As of Release 6.40, you can analyze a [selection table](javascript:call_link\('abenwhere_logexp_seltab.htm'\)) in a [dynamic WHERE condition](javascript:call_link\('abenwhere_logexp_dynamic.htm'\))
+As of Release 6.40, you can analyze a [selection table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_seltab.htm) in a [dynamic WHERE condition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_dynamic.htm)
 
 Modification 2
 
 \- Dynamic check of internal tables
 
-As of Release 6.40, you can analyze an internal table specified in [FOR ALL ENTRIES](javascript:call_link\('abenwhere_logexp_itab.htm'\)) in a [dynamic WHERE condition](javascript:call_link\('abenwhere_logexp_dynamic.htm'\)). The syntactical comparison with a column in the internal table can take place statically or dynamically.
+As of Release 6.40, you can analyze an internal table specified in [FOR ALL ENTRIES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_itab.htm) in a [dynamic WHERE condition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_dynamic.htm). The syntactical comparison with a column in the internal table can take place statically or dynamically.
 
 Note
 

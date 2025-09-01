@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [Changes in Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews.htm) →  [Changes in Releases 4.xx](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-4.htm) →  [Changes in Release 4.6A](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-46a.htm) → 
 
 Debugger in Release 4.6A
 
@@ -26,10 +26,10 @@ Modification 2
 
 Enhancements in ABAP Objects
 
-[Static attributes](javascript:call_link\('abenstatic_attribute_glosry.htm'\) "Glossary Entry") and handlers of [static events](javascript:call_link\('abenstatic_event_glosry.htm'\) "Glossary Entry") can now be displayed without specifying an instance. You can also find all references to a specific object. The same is valid for data references.
+[Static attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_attribute_glosry.htm "Glossary Entry") and handlers of [static events](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_event_glosry.htm "Glossary Entry") can now be displayed without specifying an instance. You can also find all references to a specific object. The same is valid for data references.
 
 Modification 3
 
 Other Features
 
-The 'System Debugging' setting is also saved when you save breakpoints. A new pushbutton called 'Last [Short Dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry")' is now available, which you can use to display the last runtime error generated. Alternatively, you can use transaction 'last\_shortdump'.
+The 'System Debugging' setting is also saved when you save breakpoints. A new pushbutton called 'Last [Short Dump](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshort_dump_glosry.htm "Glossary Entry")' is now available, which you can use to display the last runtime error generated. Alternatively, you can use transaction 'last\_shortdump'.

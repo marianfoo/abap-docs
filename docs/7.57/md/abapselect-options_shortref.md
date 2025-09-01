@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_shortref.htm) →  S
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SELECT-OPTIONS, ABAPSELECT-OPTIONS_SHORTREF, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%
 0D%0ASuggestion for improvement:)
 
 SELECT-OPTIONS - Short Reference
 
-[Reference](javascript:call_link\('abapselect-options.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options.htm)
 
 Syntax
 
@@ -31,33 +31,33 @@ SELECT-OPTIONS selcrit FOR *{*dobj*|*(name)*}*
 
 Effect
 
-Declares an internal [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") selcrit for a [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") and creates the corresponding input fields on the current [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry").
+Declares an internal [selection table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselection_table_glosry.htm "Glossary Entry") selcrit for a [selection criterion](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselection_criterion_glosry.htm "Glossary Entry") and creates the corresponding input fields on the current [selection screen](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselection_screen_glosry.htm "Glossary Entry").
 
 Additions   
 
--   [FOR *{*dobj*|*(name)*}*](javascript:call_link\('abapselect-options_for.htm'\))
+-   [FOR *{*dobj*|*(name)*}*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_for.htm)
     Specifies the data type with a static reference to a data object dobj or defines the data type using c with a length of 45, and represents the input fields according to the type specified dynamically in name.
--   [OBLIGATORY](javascript:call_link\('abapselect-options_screen.htm'\))
+-   [OBLIGATORY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_screen.htm)
     Defines the first input field as a mandatory field.
--   [NO-DISPLAY](javascript:call_link\('abapselect-options_screen.htm'\))
+-   [NO-DISPLAY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_screen.htm)
     No input fields are created on the selection screen.
--   [VISIBLE LENGTH vlen](javascript:call_link\('abapselect-options_screen.htm'\))
+-   [VISIBLE LENGTH vlen](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_screen.htm)
     Sets the visible length of the input fields to vlen.
--   [NO-EXTENSION](javascript:call_link\('abapselect-options_screen.htm'\))
+-   [NO-EXTENSION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_screen.htm)
     Prevents multiple selections.
--   [NO INTERVALS](javascript:call_link\('abapselect-options_screen.htm'\))
+-   [NO INTERVALS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_screen.htm)
     Only the first input field on the selection screen is created.
--   [MODIF ID modid](javascript:call_link\('abapselection-screen_modif_id.htm'\))
-    Assigns the input fields to the [modification group](javascript:call_link\('abenmodification_group_glosry.htm'\) "Glossary Entry") modid.
--   [DEFAULT val1 *\[*TO val2*\]* *\[*OPTION opt*\]* *\[*SIGN sign*\]*](javascript:call_link\('abapselect-options_value.htm'\))
-    Creates [start values](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry") val1, val2, opt, and sign for the first line of the selection table.
--   [LOWER CASE](javascript:call_link\('abapselect-options_value.htm'\))
+-   [MODIF ID modid](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselection-screen_modif_id.htm)
+    Assigns the input fields to the [modification group](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodification_group_glosry.htm "Glossary Entry") modid.
+-   [DEFAULT val1 *\[*TO val2*\]* *\[*OPTION opt*\]* *\[*SIGN sign*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_value.htm)
+    Creates [start values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstart_value_glosry.htm "Glossary Entry") val1, val2, opt, and sign for the first line of the selection table.
+-   [LOWER CASE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_value.htm)
     Prevents the content of character-like data objects from being converted into uppercase when they are transferred between input fields and an internal table.
--   [MATCHCODE OBJECT search\_help](javascript:call_link\('abapselect-options_value.htm'\))
-    Links the input fields with a search help search\_help from [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry").
--   [MEMORY ID pid](javascript:call_link\('abapselect-options_value.htm'\))
-    Links the first input field with the [SPA/GPA parameter](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry") pid in the [user memory](javascript:call_link\('abenuser_memory_glosry.htm'\) "Glossary Entry").
--   [NO DATABASE SELECTION](javascript:call_link\('abapselect-options_no_db_sel.htm'\))
-    Does not send the selection table to the logical database as a dynamic selection after [selection screen processing](javascript:call_link\('abenselscreen_processing_glosry.htm'\) "Glossary Entry").
--   [*\[*HELP-REQUEST*\]* *\[*VALUE-REQUEST*\]* *\[*FOR *{*LOW*|*HIGH*}**\]*](javascript:call_link\('abapselect-options_ldb.htm'\))
-    Obsolete: Enables self-defined field helps and input helps in [logical databases](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") for the first or second input field.
+-   [MATCHCODE OBJECT search\_help](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_value.htm)
+    Links the input fields with a search help search\_help from [ABAP Dictionary](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary_glosry.htm "Glossary Entry").
+-   [MEMORY ID pid](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_value.htm)
+    Links the first input field with the [SPA/GPA parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenspa_gpa_parameter_glosry.htm "Glossary Entry") pid in the [user memory](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuser_memory_glosry.htm "Glossary Entry").
+-   [NO DATABASE SELECTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_no_db_sel.htm)
+    Does not send the selection table to the logical database as a dynamic selection after [selection screen processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselscreen_processing_glosry.htm "Glossary Entry").
+-   [*\[*HELP-REQUEST*\]* *\[*VALUE-REQUEST*\]* *\[*FOR *{*LOW*|*HIGH*}**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_ldb.htm)
+    Obsolete: Enables self-defined field helps and input helps in [logical databases](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") for the first or second input field.

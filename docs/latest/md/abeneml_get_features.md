@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Statements for RAP](javascript:call_link\('abenrap_obsolete.htm'\)) →  [Obsolete ABAP EML Statements](javascript:call_link\('abeneml_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_obsolete.htm) →  [Obsolete Statements for RAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_obsolete.htm) →  [Obsolete ABAP EML Statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_obsolete.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20GET%20FEATURES%2C%20ABENEML_GET_FEATURES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -15,20 +15,20 @@ Obsolete Syntax
 Syntax Forms
 
 Short Form
-GET FEATURES ENTITY bdef FROM keys REQUEST request [RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\)) *\[*[response\_param](javascript:call_link\('abapeml_response.htm'\))*\]*.
-GET GLOBAL FEATURES ENTITY bdef REQUEST request [RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\)).
+GET FEATURES ENTITY bdef FROM keys REQUEST request [RESULT result\_tab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_result.htm) *\[*[response\_param](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm)*\]*.
+GET GLOBAL FEATURES ENTITY bdef REQUEST request [RESULT result\_tab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_result.htm).
 Long Form
 GET FEATURES OF bdef
-     ENTITY bdef1 FROM keys REQUEST req [RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\))
-    *\[*ENTITY bdef2 FROM keys REQUEST req [RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\))*\]*
+     ENTITY bdef1 FROM keys REQUEST req [RESULT result\_tab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_result.htm)
+    *\[*ENTITY bdef2 FROM keys REQUEST req [RESULT result\_tab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_result.htm)*\]*
     *\[*...*\]*
-    *\[*[response\_param](javascript:call_link\('abapeml_response.htm'\))*\]*.
+    *\[*[response\_param](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm)*\]*.
 GET GLOBAL FEATURES OF bdef
-     ENTITY bdef1 FROM keys REQUEST req [RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\))
-    *\[*ENTITY bdef2 FROM keys REQUEST req [RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\))*\]*
+     ENTITY bdef1 FROM keys REQUEST req [RESULT result\_tab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_result.htm)
+    *\[*ENTITY bdef2 FROM keys REQUEST req [RESULT result\_tab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_result.htm)*\]*
     *\[*...*\]*.
 Dynamic Form
-GET FEATURES OPERATIONS features\_tab *\[*[response\_param](javascript:call_link\('abapeml_response.htm'\))*\]*.
+GET FEATURES OPERATIONS features\_tab *\[*[response\_param](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm)*\]*.
 GET GLOBAL FEATURES OPERATIONS global\_features\_tab.
 
 Alternatives:
@@ -39,15 +39,15 @@ Alternatives:
 
 Effect
 
-[GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\)) statements should be used instead.
+[GET PERMISSIONS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_permissions.htm) statements should be used instead.
 
 Retrieves information about the following:
 
--   [Global feature control](javascript:call_link\('abenrap_glo_feature_control_glosry.htm'\) "Glossary Entry"): Feature controls that depend on external factors like specific user settings or the business scope.
--   [Instance feature control](javascript:call_link\('abenrap_ins_feature_control_glosry.htm'\) "Glossary Entry"): Checks depending on the state of an entity instance.
--   [Static feature control](javascript:call_link\('abenbdl_field_char.htm'\)): Specifies individual fields of an entity that have certain access restrictions, for example, fields that are marked as readonly in the [BDEF](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry").
+-   [Global feature control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_glo_feature_control_glosry.htm "Glossary Entry"): Feature controls that depend on external factors like specific user settings or the business scope.
+-   [Instance feature control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_ins_feature_control_glosry.htm "Glossary Entry"): Checks depending on the state of an entity instance.
+-   [Static feature control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_field_char.htm): Specifies individual fields of an entity that have certain access restrictions, for example, fields that are marked as readonly in the [BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry").
 
-For all characteristics, the information retrieval must be user-implemented in [RAP BO provider](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry") implementations except for static feature controls. In latter case, the access restriction is directly defined in the BDEF. One example is when a field is marked as readonly.
+For all characteristics, the information retrieval must be user-implemented in [RAP BO provider](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry") implementations except for static feature controls. In latter case, the access restriction is directly defined in the BDEF. One example is when a field is marked as readonly.
 
 Syntax Details
 
@@ -57,28 +57,28 @@ Details
 
 bdef
 
-Specifies the name of the [RAP BO root entity](javascript:call_link\('abenrap_bo_root_entity_glosry.htm'\) "Glossary Entry").
+Specifies the name of the [RAP BO root entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_root_entity_glosry.htm "Glossary Entry").
 
 keys
 
-Specifies an internal table of type [TYPE TABLE FOR *\[*INSTANCE*\]* FEATURES KEY](javascript:call_link\('abaptype_table_for.htm'\)).
+Specifies an internal table of type [TYPE TABLE FOR *\[*INSTANCE*\]* FEATURES KEY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm).
 
 ENTITY bdef1, ENTITY bdef2, ...
 
-bdef1, bdef2, ..., specify the names of the entities that are part of the [composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") of bdef. They follow the keyword ENTITY.
-A list of queries follows OF bdef. Each query (ENTITY bdef1 ... RESULT result\_tab) of the list has the same syntax as the short form. At least one query must be specified. The root entity itself can also be inserted in the position of bdef1, for example. bdef1, and so on, should be the entity alias names if provided in the [BDEF](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry"). Using the full entity name causes a warning. If the root entity is used in the list of operations, its alias name, if defined in the BDEF, should be used as well.
+bdef1, bdef2, ..., specify the names of the entities that are part of the [composition tree](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") of bdef. They follow the keyword ENTITY.
+A list of queries follows OF bdef. Each query (ENTITY bdef1 ... RESULT result\_tab) of the list has the same syntax as the short form. At least one query must be specified. The root entity itself can also be inserted in the position of bdef1, for example. bdef1, and so on, should be the entity alias names if provided in the [BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry"). Using the full entity name causes a warning. If the root entity is used in the list of operations, its alias name, if defined in the BDEF, should be used as well.
 
 req
 
-Specifies the request parameters in a structure of type [TYPE STRUCTURE FOR *\[*INSTANCE*\]* FEATURES REQUEST](javascript:call_link\('abaptype_structure_for.htm'\)) or [TYPE STRUCTURE FOR GLOBAL FEATURES REQUEST](javascript:call_link\('abaptype_structure_for.htm'\)) respectively.
+Specifies the request parameters in a structure of type [TYPE STRUCTURE FOR *\[*INSTANCE*\]* FEATURES REQUEST](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_structure_for.htm) or [TYPE STRUCTURE FOR GLOBAL FEATURES REQUEST](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_structure_for.htm) respectively.
 
 result\_tab
 
-Specifies an internal table containing the result of the information retrieval. See more information [here](javascript:call_link\('abapeml_result.htm'\)).
+Specifies an internal table containing the result of the information retrieval. See more information [here](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_result.htm).
 
 response\_param
 
-Specifies the response parameters. See more information [here](javascript:call_link\('abapeml_response.htm'\)).
+Specifies the response parameters. See more information [here](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm).
 
 features\_tab
 
@@ -90,7 +90,7 @@ Specifies an internal table for the dynamic form. It is of type ABP\_BEHV\_GLOBA
 
 Hint
 
-If the recommended notation [strict](javascript:call_link\('abenbdl_strict.htm'\)) is used in the BDEF, GET FEATURES statements are not possible and the use of GET PERMISSIONS statements is enforced.
+If the recommended notation [strict](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_strict.htm) is used in the BDEF, GET FEATURES statements are not possible and the use of GET PERMISSIONS statements is enforced.
 
 Alternative 1   
 

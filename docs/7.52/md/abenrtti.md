@@ -4,19 +4,19 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendescribe_field.htm) → 
 
 RTTS - Runtime Type Services
 
-The RTTS are implemented using a hierarchy of [type description classes](javascript:call_link\('abentype_class_glosry.htm'\) "Glossary Entry") that contain the methods for [RTTC](javascript:call_link\('abenrttc_glosry.htm'\) "Glossary Entry") (runtime type creation) and [RTTI](javascript:call_link\('abenrtti_glosry.htm'\) "Glossary Entry") (runtime type identification). Using these system classes it is possible to
+The RTTS are implemented using a hierarchy of [type description classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_class_glosry.htm "Glossary Entry") that contain the methods for [RTTC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrttc_glosry.htm "Glossary Entry") (runtime type creation) and [RTTI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrtti_glosry.htm "Glossary Entry") (runtime type identification). Using these system classes it is possible to
 
--   determine type information of existing [instances](javascript:call_link\('abeninstance_glosry.htm'\) "Glossary Entry") and [type names](javascript:call_link\('abentype_names.htm'\)) in the [ABAP type system](javascript:call_link\('abentypes_objects_oview.htm'\)) at runtime.
+-   determine type information of existing [instances](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_glosry.htm "Glossary Entry") and [type names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_names.htm) in the [ABAP type system](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_objects_oview.htm) at runtime.
 
 -   define new data types at runtime.
 
 Concept
 
-The properties of the types are represented by the attributes of [type description objects](javascript:call_link\('abentype_object_glosry.htm'\) "Glossary Entry"). For each type there is exactly one type description object. The attributes of the type description object contain information about the properties of the type. For each category of type (elementary type, table, class, and so on), there is a type description class with special attributes for the special type properties. The class hierarchy of the type description classes corresponds to the hierarchy of the type categories in the [ABAP type system](javascript:call_link\('abentypes_objects_oview.htm'\)).
+The properties of the types are represented by the attributes of [type description objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_object_glosry.htm "Glossary Entry"). For each type there is exactly one type description object. The attributes of the type description object contain information about the properties of the type. For each category of type (elementary type, table, class, and so on), there is a type description class with special attributes for the special type properties. The class hierarchy of the type description classes corresponds to the hierarchy of the type categories in the [ABAP type system](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_objects_oview.htm).
 
 In addition, type description classes for complex types, references, classes, and interfaces have special methods for specifying references to partial types. These methods can be used can navigate to all partial types using a composite type.
 
@@ -24,7 +24,7 @@ Type description objects can only be created using the methods of type descripti
 
 Note
 
-In the statement [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)), type description objects can be specified after the addition [HANDLE](javascript:call_link\('abapcreate_data_handle.htm'\)) to create data objects with dynamically created data types.
+In the statement [CREATE DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data.htm), type description objects can be specified after the addition [HANDLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_handle.htm) to create data objects with dynamically created data types.
 
 Hierarchy of Type Description Classes
 
@@ -68,5 +68,5 @@ cl\_demo\_output=>display( CAST cl\_abap\_structdescr(
   cl\_abap\_typedescr=>describe\_by\_name( 'SYST' ) )->components ).
 
 Continue
-![Example](exa.gif "Example") [Determining Data Types](javascript:call_link\('abenrtti_data_type_abexa.htm'\))
-![Example](exa.gif "Example") [Determining Object Types](javascript:call_link\('abenrtti_object_type_abexa.htm'\))
+![Example](exa.gif "Example") [Determining Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrtti_data_type_abexa.htm)
+![Example](exa.gif "Example") [Determining Object Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrtti_object_type_abexa.htm)

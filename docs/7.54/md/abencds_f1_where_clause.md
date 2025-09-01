@@ -4,23 +4,23 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, clauses](javascript:call_link\('abencds_select_clauses.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, clauses](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_select_clauses.htm) → 
 
 ABAP CDS - SELECT, WHERE
 
 Syntax
 
-... WHERE [cond\_expr](javascript:call_link\('abencds_f1_conditional_expression.htm'\)) ...
+... WHERE [cond\_expr](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conditional_expression.htm) ...
 
 Effect
 
-Defines a WHERE condition for the results set of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). When the CDS view is accessed, the results set contains only the data from the data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)) that meets the condition [cond\_expr](javascript:call_link\('abencds_f1_conditional_expression.htm'\)) specified after WHERE.
+Defines a WHERE condition for the results set of a [CDS view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry"). When the CDS view is accessed, the results set contains only the data from the data source [data\_source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm) that meets the condition [cond\_expr](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conditional_expression.htm) specified after WHERE.
 
-The fields evaluated in the condition do not need to be defined as elements of the CDS view in the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)). Special [rules](javascript:call_link\('abencds_cond_expr_where.htm'\)) apply when specifying the condition.
+The fields evaluated in the condition do not need to be defined as elements of the CDS view in the [SELECT list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list.htm). Special [rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_where.htm) apply when specifying the condition.
 
 Note
 
-Unlike in the [HAVING condition](javascript:call_link\('abencds_f1_having_clause.htm'\)), [aggregate expressions](javascript:call_link\('abencds_f1_aggregate_functions.htm'\)) cannot be specified in the WHERE condition.
+Unlike in the [HAVING condition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_having_clause.htm), [aggregate expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_aggregate_functions.htm) cannot be specified in the WHERE condition.
 
 Example
 

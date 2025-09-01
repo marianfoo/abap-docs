@@ -3,30 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abengeneric_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_internal.htm)
-- [abapsyntax-check_for_program.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_program.htm)
-- [abapgenerate_report.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_report.htm)
-- [abapload.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapload.htm)
-- [abapdelete_report.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_report.htm)
-- [abapscan.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapscan.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.500Z
-
----
-
 ### abengeneric_internal.htm
-
-> **📖 Official SAP Documentation**: [abengeneric_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_internal.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,7 +11,7 @@ Included pages: 6
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_generic_program.htm) → 
 
 Internal Statements for Source Code Processing
 
@@ -43,32 +20,25 @@ Internal Statements
 These statements are for internal use only.
 They cannot be used in application programs.
 
--   [SYNTAX-CHECK FOR PROGRAM](javascript:call_link\('abapsyntax-check_for_program.htm'\))
+-   [SYNTAX-CHECK FOR PROGRAM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_program.htm)
 
--   [GENERATE REPORT](javascript:call_link\('abapgenerate_report.htm'\))
+-   [GENERATE REPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_report.htm)
 
--   [LOAD REPORT](javascript:call_link\('abapload.htm'\))
+-   [LOAD REPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapload.htm)
 
--   [DELETE REPORT](javascript:call_link\('abapdelete_report.htm'\))
+-   [DELETE REPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_report.htm)
 
--   [SCAN](javascript:call_link\('abapscan.htm'\))
+-   [SCAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapscan.htm)
 
 Continue
-[SYNTAX-CHECK FOR PROGRAM](javascript:call_link\('abapsyntax-check_for_program.htm'\))
-[GENERATE REPORT](javascript:call_link\('abapgenerate_report.htm'\))
-[LOAD REPORT](javascript:call_link\('abapload.htm'\))
-[DELETE REPORT](javascript:call_link\('abapdelete_report.htm'\))
-[SCAN](javascript:call_link\('abapscan.htm'\))
+[SYNTAX-CHECK FOR PROGRAM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_program.htm)
+[GENERATE REPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_report.htm)
+[LOAD REPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapload.htm)
+[DELETE REPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_report.htm)
+[SCAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapscan.htm)
 
-
-
-**📖 Source**: [abengeneric_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_internal.htm)
 
 ### abapsyntax-check_for_program.htm
-
-> **📖 Official SAP Documentation**: [abapsyntax-check_for_program.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_program.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -76,7 +46,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) →  [Internal Statements for Source Code Processing](javascript:call_link\('abengeneric_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_generic_program.htm) →  [Internal Statements for Source Code Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_internal.htm) → 
 
 SYNTAX-CHECK FOR PROGRAM
 
@@ -88,7 +58,7 @@ Syntax
 SYNTAX-CHECK FOR PROGRAM prog
                  MESSAGE mess LINE lin WORD wrd
                  *\[*WITH CURRENT SWITCHSTATES*\]*
-                 *\[*[error\_handling](javascript:call_link\('abapsyntax-check_error_handling.htm'\))*\]*
+                 *\[*[error\_handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_error_handling.htm)*\]*
                  *\[*REPLACING itab*\]*
                  *\[*SHORTDUMP-ID sid*\]*
                  *\[*TRACE-TABLE trt*\]*
@@ -105,7 +75,7 @@ Extras:
 
 Effect
 
-This statement performs a [syntax check](javascript:call_link\('abensyntax_check_glosry.htm'\) "Glossary Entry") for the program specified in prog. prog must be a [character-like data object](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") that contains the name of an existing ABAP program. If the program specified does not exist, sy-subrc is set to 8. The attributes of the specified program are used for the syntax check. The additions MESSAGE, LINE, WORD, and [error\_handling](javascript:call_link\('abapsyntax-check_error_handling.htm'\)) as well as the return codes in sy-subrc are subject to the same rules as the statement [SYNTAX-CHECK FOR itab](javascript:call_link\('abapsyntax-check_for_itab.htm'\)).
+This statement performs a [syntax check](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensyntax_check_glosry.htm "Glossary Entry") for the program specified in prog. prog must be a [character-like data object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") that contains the name of an existing ABAP program. If the program specified does not exist, sy-subrc is set to 8. The attributes of the specified program are used for the syntax check. The additions MESSAGE, LINE, WORD, and [error\_handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_error_handling.htm) as well as the return codes in sy-subrc are subject to the same rules as the statement [SYNTAX-CHECK FOR itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm).
 
 Addition 1
 
@@ -133,17 +103,10 @@ Addition 5
 
 Effect
 
-These additions work as described in [SYNTAX-CHECK - Internal Additions](javascript:call_link\('abapsyntax-check_internal.htm'\)).
+These additions work as described in [SYNTAX-CHECK - Internal Additions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_internal.htm).
 
-
-
-**📖 Source**: [abapsyntax-check_for_program.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_program.htm)
 
 ### abapgenerate_report.htm
-
-> **📖 Official SAP Documentation**: [abapgenerate_report.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_report.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -151,7 +114,7 @@ These additions work as described in [SYNTAX-CHECK - Internal Additions](javascr
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) →  [Internal Statements for Source Code Processing](javascript:call_link\('abengeneric_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_generic_program.htm) →  [Internal Statements for Source Code Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_internal.htm) → 
 
 GENERATE REPORT
 
@@ -179,15 +142,15 @@ Extras:
 
 Effect
 
-The program specified in the prog field is generated in the current work process. If the program is an executable program (that is, a type 1 program), the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") is also generated automatically.
+The program specified in the prog field is generated in the current work process. If the program is an executable program (that is, a type 1 program), the [selection screen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_glosry.htm "Glossary Entry") is also generated automatically.
 
-For the syntax check, the switch configuration of [Switch Framework](javascript:call_link\('abenswitch_german_glosry.htm'\) "Glossary Entry") is used in its current status at the time the statement is executed.
+For the syntax check, the switch configuration of [Switch Framework](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenswitch_german_glosry.htm "Glossary Entry") is used in its current status at the time the statement is executed.
 
-[Inline declarations](javascript:call_link\('abendata_inline.htm'\)) can be specified for the same operands, as is the case with the statement [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_subroutine_pool.htm'\)).
+[Inline declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_inline.htm) can be specified for the same operands, as is the case with the statement [GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_subroutine_pool.htm).
 
 Notes
 
--   If the profile parameter abap/pxa has the value "develop", a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") is triggered after generation.
+-   If the profile parameter abap/pxa has the value "develop", a [database commit](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_commit_glosry.htm "Glossary Entry") is triggered after generation.
     
 -   The static method GET\_VALUES of the system class CL\_ABAP\_GEN\_LIMITS gets the generation limits of an ABAP program. In ABAP Workbench, these can be determined by choosing Program → Check → Generation Limits. The generation limits of an ABAP program are technical maximum values which must not be exceeded for a successful generation. The values affected include:
     
@@ -236,7 +199,7 @@ Addition 2
 
 Effect
 
-When a syntax error occurs, the name of the [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") in which the error occurred is stored in this field.
+When a syntax error occurs, the name of the [include program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninclude_program_glosry.htm "Glossary Entry") in which the error occurred is stored in this field.
 
 Addition 3
 
@@ -284,7 +247,7 @@ Addition 8
 
 Effect
 
-The [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") is not generated.
+The [selection screen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_glosry.htm "Glossary Entry") is not generated.
 
 Addition 9
 
@@ -300,33 +263,26 @@ Addition 10
 
 Effect
 
-If a [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") occurs, the key of the corresponding short dump is returned in the f9 field. This key has a maximum length of 30 characters.
+If a [short dump](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshort_dump_glosry.htm "Glossary Entry") occurs, the key of the corresponding short dump is returned in the f9 field. This key has a maximum length of 30 characters.
 
 Addition 11
 
 ... WITH PRECOMPILED HEADERS
 
-This addition allows precompiled headers to be regenerated when generating the ABAP program prog. Precompiled headers are used to increase the translation speed of ABAP Compiler by buffering the declaration data of global classes, interfaces, and [type groups](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") in formatted form for ABAP Compiler.
+This addition allows precompiled headers to be regenerated when generating the ABAP program prog. Precompiled headers are used to increase the translation speed of ABAP Compiler by buffering the declaration data of global classes, interfaces, and [type groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry") in formatted form for ABAP Compiler.
 
 Note
 
-If this addition is used, it must be ensured that the application performs a [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) or [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) within a short period of time. This ensures that the [database locks](javascript:call_link\('abendatabase_lock_glosry.htm'\) "Glossary Entry") that are set when the precompiled headers are regenerated, are held for a short time only and therefore do not block generation of other ABAP programs.
+If this addition is used, it must be ensured that the application performs a [COMMIT WORK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcommit.htm) or [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaprollback.htm) within a short period of time. This ensures that the [database locks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_lock_glosry.htm "Glossary Entry") that are set when the precompiled headers are regenerated, are held for a short time only and therefore do not block generation of other ABAP programs.
 
 Addition 12
 
 ... WITH TEST CODE
 
-With this addition, the [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") of the program are generated independently of the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") abap/test\_generation.
+With this addition, the [test classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_class_glosry.htm "Glossary Entry") of the program are generated independently of the [profile parameter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") abap/test\_generation.
 
-
-
-**📖 Source**: [abapgenerate_report.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_report.htm)
 
 ### abapload.htm
-
-> **📖 Official SAP Documentation**: [abapload.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapload.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -334,7 +290,7 @@ With this addition, the [test classes](javascript:call_link\('abentest_class_glo
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) →  [Internal Statements for Source Code Processing](javascript:call_link\('abengeneric_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_generic_program.htm) →  [Internal Statements for Source Code Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_internal.htm) → 
 
 LOAD REPORT
 
@@ -347,7 +303,7 @@ LOAD REPORT prog PART part INTO itab.
 
 Effect
 
-The part (specified in part) of the generated form ([load](javascript:call_link\('abenload_glosry.htm'\) "Glossary Entry")) of the program prog, given in prog is loaded to the internal table itab for analysis.itab must be a standard table. Secondary keys are permitted.
+The part (specified in part) of the generated form ([load](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenload_glosry.htm "Glossary Entry")) of the program prog, given in prog is loaded to the internal table itab for analysis.itab must be a standard table. Secondary keys are permitted.
 
 The following table displays the possible content of part, its relevance, and the requested row type of itab.
 
@@ -491,7 +447,7 @@ RINTR
 
 'IREF'
 
-Additional information for addressing using [interface reference variables](javascript:call_link\('abeninterface_ref_variable_glosry.htm'\) "Glossary Entry")
+Additional information for addressing using [interface reference variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_ref_variable_glosry.htm "Glossary Entry")
 
 RIREF
 
@@ -527,7 +483,7 @@ RPBAG
 
 'SELC'
 
-Description of the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") variables
+Description of the [selection screen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_glosry.htm "Glossary Entry") variables
 
 RSELC
 
@@ -635,7 +591,7 @@ RTYPE
 
 'VTAB'
 
-Offsets for all methods (classes, [event handlers](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry"), instances, interfaces)
+Offsets for all methods (classes, [event handlers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_handler_glosry.htm "Glossary Entry"), instances, interfaces)
 
 RVTAB
 
@@ -677,7 +633,7 @@ The load of the program prog does not exist.
 
 The load of the program prog exists, but is not up-to-date. In special cases, this sy-subrc can also mean that the program load has been destroyed. This can be fixed by generating again. In PART 'LREF', sy-subrc = 8 means that the row reference table does not fit the program. In PART 'CONT', the reference part of the internal table is not filled.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 
@@ -688,14 +644,7 @@ Non-Handleable Exceptions
     Runtime error: LOAD\_REPORT\_TABLE\_TOO\_SHORT
 
 
-
-**📖 Source**: [abapload.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapload.htm)
-
 ### abapdelete_report.htm
-
-> **📖 Official SAP Documentation**: [abapdelete_report.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_report.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -703,7 +652,7 @@ Non-Handleable Exceptions
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) →  [Internal Statements for Source Code Processing](javascript:call_link\('abengeneric_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_generic_program.htm) →  [Internal Statements for Source Code Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_internal.htm) → 
 
 DELETE REPORT
 
@@ -765,7 +714,7 @@ Before the statement can evaluate the worklist of the current user, it must be p
 -   the inactive version of the repository object if "I" is specified. The user to which the inactive version is assigned is not important here or whether the version is part of a worklist. If there are no inactive versions, the object is not accessed and sy-subrc is set to 4.
     
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 
@@ -773,17 +722,7 @@ Non-Handleable Exceptions
     Runtime error: INSERT\_REPORT\_ILLEGAL\_STATE
 
 
-
-**📖 Source**: [abapdelete_report.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_report.htm)
-
 ### abapscan.htm
-
-> **📖 Official SAP Documentation**: [abapscan.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapscan.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapscan.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapscan.htm)
-
 
   
 
@@ -791,7 +730,7 @@ Non-Handleable Exceptions
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) →  [Internal Statements for Source Code Processing](javascript:call_link\('abengeneric_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_generic_program.htm) →  [Internal Statements for Source Code Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_internal.htm) → 
 
 SCAN
 
@@ -847,8 +786,8 @@ Effect
 Breaks down the ABAP source code in the source code table itab1 into tokens according to the rules of the ABAP scanner. The tokens are written – one per row – to the token table itab2. The source code to be broken down need not necessarily be contained in an internal table. It can be specified in any character-like field. In particular, fields of the type STRING can be used. However, this variant only makes sense if the program to be broken down does not contain any comments. When an internal table is specified, itab1 must be a standard table.
 The token table itab2 must be a standard table and have the structure STOKES. If the addition WITH ANALYSIS is specified, the token table must have the extended structure STOKESX.
 (For reasons of downward compatibility, STOKEN and STOKEX can still be used. The main difference is that in the new structures the character string which makes up the token is typed with reference to the data type string. With the structures STOKEN and STOKEX, a C field of length 30 and an OVERFLOW area are used instead.)
-Normally, comments are filtered out and subordinate source code units ([include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry"), called [macros](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry")) are ignored. These semantics can be modified by using the additions WITH COMMENTS and WITH ANALYSIS.
-In addition to classifying the source code by token, the scanner organizes the tokens themselves into statements (using the colon-comma logic to form chained statements) and the statement table itab3 contains a statement description on each row. Here, a three-part [chained statement](javascript:call_link\('abenchained_statement_glosry.htm'\) "Glossary Entry") "a: b, c1 c2, d." produces three entries "a b,", "a c1 c2,", and "a d." in the statement table itab3.
+Normally, comments are filtered out and subordinate source code units ([include programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninclude_program_glosry.htm "Glossary Entry"), called [macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_glosry.htm "Glossary Entry")) are ignored. These semantics can be modified by using the additions WITH COMMENTS and WITH ANALYSIS.
+In addition to classifying the source code by token, the scanner organizes the tokens themselves into statements (using the colon-comma logic to form chained statements) and the statement table itab3 contains a statement description on each row. Here, a three-part [chained statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchained_statement_glosry.htm "Glossary Entry") "a: b, c1 c2, d." produces three entries "a b,", "a c1 c2,", and "a d." in the statement table itab3.
 The statement table itab3 must be a standard table without secondary keys and have the structure SSTMNT.
 The statement classification characters colon, comma, and period are not written to the token table itab2. Instead, the table itab3 contains details about the position of a colon or the type (comma or period) and position of the end marker in the statement description.
 
@@ -940,7 +879,7 @@ The fields of the structure SSTMNT, and thus the columns of the statement table 
 TYPE
 
 Type of statement with possible values:
-E ( [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statement between EXEC SQL and ENDEXEC)
+E ( [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm "Glossary Entry") statement between EXEC SQL and ENDEXEC)
 I (INCLUDE prog)
 J (INCLUDE prog, prog does not exist, can occur only in connection with the addition WITH INCLUDES)
 T (TYPE-POOLS pool)
@@ -1039,7 +978,7 @@ Notes
 1.  When using the specified start n1, the addition WITHOUT TRMAC must be used to ensure that there are no unnecessary database accesses to the table TRMAC.
     
 2.  The specified end n2 is handled as "soft", meaning a statement that begins on a line <= n2, but ends only on a line > n2, is returned completely.
-    If the specified end n2 splits a [chained statement](javascript:call_link\('abenchained_statement_glosry.htm'\) "Glossary Entry"), only the split part up to the next comma is returned completely, not the entire chained statement up to the next period.
+    If the specified end n2 splits a [chained statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchained_statement_glosry.htm "Glossary Entry"), only the split part up to the next comma is returned completely, not the entire chained statement up to the next period.
     
 3.  Negative specified lines are not allowed and produce a runtime error.
     
@@ -1059,7 +998,7 @@ Effect
 Does not return all statements, only those specified in the keyword table itab.
 If the keyword table is empty (hence it contains 0 rows), all the statements are selected.
 The rows of the keyword table are handled as a character field. It must be a standard table without secondary keys.
-To select a [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statement or a macro definition, the pseudo keywords EXEC\_SQL or DEFINE\_MACRO can be specified. It makes no difference whether the statements EXEC or DEFINE occur as well. Native SQL statements and macro definitions are returned as one statement (of type E or M even if the expansion of a macro definition produces more than one statement.
+To select a [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm "Glossary Entry") statement or a macro definition, the pseudo keywords EXEC\_SQL or DEFINE\_MACRO can be specified. It makes no difference whether the statements EXEC or DEFINE occur as well. Native SQL statements and macro definitions are returned as one statement (of type E or M even if the expansion of a macro definition produces more than one statement.
 If the keyword table contains a blank row, blank statements are also selected.
 
 Addition 4
@@ -1068,7 +1007,7 @@ Addition 4
 
 Effect
 
-Stores details about each edited source code unit (source code table itab1 itself, expanded [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry"), expanded macro definitions) in the level table itab.
+Stores details about each edited source code unit (source code table itab1 itself, expanded [include programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninclude_program_glosry.htm "Glossary Entry"), expanded macro definitions) in the level table itab.
 Specify a level table only with the additions WITH INCLUDES or WITH IMPLICIT ENHANCEMENTS.
 The level table itab must have the structure SLEVEL. It must be a standard table without secondary keys.
 
@@ -1200,7 +1139,7 @@ Addition 8
 
 Effect
 
-Returns all declarative statements and all statements with [inline declarations](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry").
+Returns all declarative statements and all statements with [inline declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninline_declaration_glosry.htm "Glossary Entry").
 
 Addition 9
 
@@ -1283,15 +1222,15 @@ Effect
 
 Also breaks down subordinate source code units (include programs, called macros) into tokens.
 
-In addition, [source code plug-ins](javascript:call_link\('abensource_code_plugin_glosry.htm'\) "Glossary Entry") of explicit and implicit [enhancement options](javascript:call_link\('abenenhancement_point_glosry.htm'\) "Glossary Entry") which may exist are automatically inserted in the source code to be split. The optional addition IMPLEMENTATIONS FROM itab can be used to limit the number of inserted enhancements to the number specified in itab. If itab is empty, any enhancements are ignored. itab must be a standard table without secondary keys.
+In addition, [source code plug-ins](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensource_code_plugin_glosry.htm "Glossary Entry") of explicit and implicit [enhancement options](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenhancement_point_glosry.htm "Glossary Entry") which may exist are automatically inserted in the source code to be split. The optional addition IMPLEMENTATIONS FROM itab can be used to limit the number of inserted enhancements to the number specified in itab. If itab is empty, any enhancements are ignored. itab must be a standard table without secondary keys.
 
 Notes
 
 1.  The addition WITH INCLUDES is normally combined with the addition LEVELS INTO itab.
     
-2.  If (at least) one include program does not exist, sy-subrc is set to 1 and the relevant INCLUDE statement is flagged in the statement table itab3 by the statement type J (instead of I), but the breakdown process continues. The level table itab contains no entry for [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") that do not exist.
+2.  If (at least) one include program does not exist, sy-subrc is set to 1 and the relevant INCLUDE statement is flagged in the statement table itab3 by the statement type J (instead of I), but the breakdown process continues. The level table itab contains no entry for [include programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninclude_program_glosry.htm "Glossary Entry") that do not exist.
     
-3.  If WITH INCLUDES is combined with the addition WITHOUT TRMAC, TRMAC [macros](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") are not expanded because the system does not recognize them as subordinate source code units.
+3.  If WITH INCLUDES is combined with the addition WITHOUT TRMAC, TRMAC [macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_glosry.htm "Glossary Entry") are not expanded because the system does not recognize them as subordinate source code units.
     
 4.  When macro calls are expanded, no positions can be specified. The corresponding fields in the token table itab2 and in the statement table itab3 are then set to 0.
     
@@ -1306,7 +1245,7 @@ Addition 13
 
 Effect
 
-This addition has the same effect as the WITH INCLUDES addition, except that with the former, include programs belonging to [type groups](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") are broken down into tokens.
+This addition has the same effect as the WITH INCLUDES addition, except that with the former, include programs belonging to [type groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry") are broken down into tokens.
 
 Addition 14
 
@@ -1363,7 +1302,7 @@ Addition 22
 
 Effect
 
-The above additions have the same effect as the corresponding additions in the statement [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)): c2 is an input field for a program name to be assigned to the source code, while the fields c3, c4, c5, n3, and n4 are output fields in case an error occurs.
+The above additions have the same effect as the corresponding additions in the statement [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm): c2 is an input field for a program name to be assigned to the source code, while the fields c3, c4, c5, n3, and n4 are output fields in case an error occurs.
 
 In Release 7.00, the addition PROGRAM FROM was renamed as INCLUDE PROGRAM FROM to clarify the difference between the master program and the split source code unit. If the addition is used in its previous form PROGRAM FROM, it sets the master program and the source code text unit to be scanned at the same time.
 To be able to analyze errors without modifying programs, use the additions INCLUDE INTO, MESSAGE INTO, WORD INTO, LINE INTO and OFFSET INTO. These provide information about the errors which have occurred.
@@ -1374,7 +1313,7 @@ Addition 23
 
 Effect
 
-When WITH EXPLICIT ENHANCEMENTS is specified, the existing [source code plug-ins](javascript:call_link\('abensource_code_plugin_glosry.htm'\) "Glossary Entry") for explicit [enhancement points](javascript:call_link\('abenenhancement_point_glosry.htm'\) "Glossary Entry") are automatically inserted into the split source code.
+When WITH EXPLICIT ENHANCEMENTS is specified, the existing [source code plug-ins](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensource_code_plugin_glosry.htm "Glossary Entry") for explicit [enhancement points](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenhancement_point_glosry.htm "Glossary Entry") are automatically inserted into the split source code.
 
 The optional addition IMPLEMENTATIONS FROM can limit the number of inserted enhancements to the number specified in itab. If itab is empty, any enhancements are ignored.
 
@@ -1384,7 +1323,7 @@ Addition 24
 
 Effect
 
-When WITH IMPLICIT ENHANCEMENTS is specified, the existing [source code plug-ins](javascript:call_link\('abensource_code_plugin_glosry.htm'\) "Glossary Entry") for implicit [enhancement points](javascript:call_link\('abenenhancement_point_glosry.htm'\) "Glossary Entry") are automatically inserted into the split source code.
+When WITH IMPLICIT ENHANCEMENTS is specified, the existing [source code plug-ins](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensource_code_plugin_glosry.htm "Glossary Entry") for implicit [enhancement points](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenhancement_point_glosry.htm "Glossary Entry") are automatically inserted into the split source code.
 
 The optional addition IMPLEMENTATIONS FROM can limit the number of inserted enhancements to the number specified in itab. If itab is empty, any enhancements are ignored.
 
@@ -1498,7 +1437,7 @@ Addition 28
 
 Effect
 
-Using this addition, the master program is specified to the source code unit to be split. This is necessary, especially for inserting [source code plug-ins](javascript:call_link\('abensource_code_plugin_glosry.htm'\) "Glossary Entry") correctly.
+Using this addition, the master program is specified to the source code unit to be split. This is necessary, especially for inserting [source code plug-ins](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensource_code_plugin_glosry.htm "Glossary Entry") correctly.
 
 Note
 
@@ -1512,7 +1451,7 @@ Effect
 
 Individual INCLUDE statements can be overridden by specifying an internal table of type SREPTAB. If itab contains an entry "INCL" in column name, the statement INCLUDE incl does not read the include INCL. Instead the source code from column itab-source is inserted.
 
-It has the same effect as the addition REPLACING of the internal statement [SYNTAX-CHECK FOR PROGRAM](javascript:call_link\('abapsyntax-check_for_program.htm'\)). However, the entry itab-trdir is ignored.
+It has the same effect as the addition REPLACING of the internal statement [SYNTAX-CHECK FOR PROGRAM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_program.htm). However, the entry itab-trdir is ignored.
 
 itab must be a standard table without secondary keys.
 
@@ -1533,7 +1472,7 @@ Extras:
 
 Effect
 
-Checks the syntax of the program in table itab1. This check writes all information collected about the program, such as statement structures, statements, tokens, data objects, or types, to the variable result. Here, result must have the type SYSCH\_RESULT, defined in the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") SYSCH.
+Checks the syntax of the program in table itab1. This check writes all information collected about the program, such as statement structures, statements, tokens, data objects, or types, to the variable result. Here, result must have the type SYSCH\_RESULT, defined in the [type group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry") SYSCH.
 
 Addition 1
 
@@ -1561,10 +1500,10 @@ Addition 6
 
 Effect
 
-The above additions have the same effect as the corresponding additions in the statement [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)): c1 is an input field for a program name to be assigned to the source code, the fields c2, c3, c4, n1, and n2 are output fields, used when errors occur.
+The above additions have the same effect as the corresponding additions in the statement [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm): c1 is an input field for a program name to be assigned to the source code, the fields c2, c3, c4, n1, and n2 are output fields, used when errors occur.
 To enable errors to be analyzed without the program being modified, the additions INCLUDE, MESSAGE, WORD, LINE, and OFFSET must be specified to gather information about the error in question.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

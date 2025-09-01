@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Reading and Writing Variables](javascript:call_link\('abenst_variable_transformations.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_serial_deserial.htm) →  [ST - Reading and Writing Variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_variable_transformations.htm) → 
 
 ST - tt:read-write, Read or Write Variables
 
@@ -30,7 +30,7 @@ The command tt:read-write is a short form of the following two statements:
                          *\[*minLength*|*maxLength="len"*\]*
                          *\[*xsd-type...*\]* />
 
-Specifying tt:read-write has the same effect as the statements [tt:read](javascript:call_link\('abenst_tt_read.htm'\)) and [tt:read](javascript:call_link\('abenst_tt_read.htm'\)) specified one directly after the other.
+Specifying tt:read-write has the same effect as the statements [tt:read](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_read.htm) and [tt:read](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_read.htm) specified one directly after the other.
 
 The attribute type and the attributes length and decimals specified using this attribute are used by tt:read only. As with tt:read, the attribute length can only be specified together with type.
 
@@ -68,4 +68,4 @@ The result of the serialization is:
 
 <X>abcde     </X>
 
-The transformation is not [symmetrical](javascript:call_link\('abenst_symmetry.htm'\)), due to [minLength](javascript:call_link\('abenst_length.htm'\)). After deserialization, the string str has at least 10 places.
+The transformation is not [symmetrical](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_symmetry.htm), due to [minLength](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_length.htm). After deserialization, the string str has at least 10 places.

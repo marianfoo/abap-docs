@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [RAP - Behavior Definition Header](javascript:call_link\('abenbdl_bdef_header.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl.htm) →  [RAP - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bo.htm) →  [RAP - Behavior Definition Header](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_bdef_header.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20with%20privileged%20mode%2C%20ABENBDL_PRIVILEGED_MODE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -39,11 +39,11 @@ Alternatives:
 
 Effect
 
-Enables [BDEF privileged mode](javascript:call_link\('abenrap_privileged_mode_glosry.htm'\) "Glossary Entry") for a RAP BO. BDEF privileged mode is prerequisite to use the addition [PRIVILEGED](javascript:call_link\('abapeml_privileged.htm'\)) in EML when consuming the [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"). BDEF privileged mode can be specified for [managed](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), [unmanaged](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), [projection](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry"), and [interface BOs](javascript:call_link\('abenrap_bo_interface_glosry.htm'\) "Glossary Entry"). The syntax for the different BO types (managed, unmanaged, projection, interface) varies. Details are described below.
+Enables [BDEF privileged mode](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_privileged_mode_glosry.htm "Glossary Entry") for a RAP BO. BDEF privileged mode is prerequisite to use the addition [PRIVILEGED](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_privileged.htm) in EML when consuming the [RAP BO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm "Glossary Entry"). BDEF privileged mode can be specified for [managed](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry"), [unmanaged](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry"), [projection](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry"), and [interface BOs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_interface_glosry.htm "Glossary Entry"). The syntax for the different BO types (managed, unmanaged, projection, interface) varies. Details are described below.
 
 Executable Example
 
-The example [Using the addition PRIVILEGED with an ABAP EML Statement](javascript:call_link\('abeneml_privileged_abexa.htm'\)) defines an [authorization context for disable](javascript:call_link\('abencds_auth_context_glosry.htm'\) "Glossary Entry") and registers it for use in privileged mode. It then demonstrates access to the RAP BO, first without the addition PRIVILEGED, afterwards using PRIVILEGED.
+The example [Using the addition PRIVILEGED with an ABAP EML Statement](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_privileged_abexa.htm) defines an [authorization context for disable](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_auth_context_glosry.htm "Glossary Entry") and registers it for use in privileged mode. It then demonstrates access to the RAP BO, first without the addition PRIVILEGED, afterwards using PRIVILEGED.
 
 Alternative 1   
 
@@ -53,13 +53,13 @@ Effect
 
 This syntax variant is available only for managed and unmanaged BDEFs.
 
-In the [header part of a behavior definition](javascript:call_link\('abencds_bdef_header_glosry.htm'\) "Glossary Entry") of a managed or unmanaged RAP BO, it is possible to specify with privileged mode disabling ContextName. The effect is that the [authorization context for disable](javascript:call_link\('abencds_auth_context_glosry.htm'\) "Glossary Entry") ContextName is automatically disabled when a [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") uses [privileged access](javascript:call_link\('abapeml_privileged.htm'\)) to the [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") in question. ContextName must be an authorization context for disable defined in the same BDEF. Not more than one authorization context can be specified.
+In the [header part of a behavior definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef_header_glosry.htm "Glossary Entry") of a managed or unmanaged RAP BO, it is possible to specify with privileged mode disabling ContextName. The effect is that the [authorization context for disable](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_auth_context_glosry.htm "Glossary Entry") ContextName is automatically disabled when a [RAP BO consumer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") uses [privileged access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_privileged.htm) to the [RAP BO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm "Glossary Entry") in question. ContextName must be an authorization context for disable defined in the same BDEF. Not more than one authorization context can be specified.
 
 Example:
 
 with privileged mode disabling demo\_context\_bdl
 
-in the BDEF has the effect that the [EML statement](javascript:call_link\('abenaeml_glosry.htm'\) "Glossary Entry")
+in the BDEF has the effect that the [EML statement](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaeml_glosry.htm "Glossary Entry")
 
 read entity privileged demo\_context\_bdl
    all fields with value #( ( name = field1 ) )
@@ -77,9 +77,9 @@ authority-check disable end.
 
 had been written.
 
-So with the syntax with privileged mode disabling, the [RAP framework](javascript:call_link\('abenrap_framework_glosry.htm'\) "Glossary Entry") leaves out calls to [authorization objects](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry"). No implementation in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is required.
+So with the syntax with privileged mode disabling, the [RAP framework](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_framework_glosry.htm "Glossary Entry") leaves out calls to [authorization objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenauthorization_object_glosry.htm "Glossary Entry"). No implementation in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is required.
 
-There are other kinds of authority checks, such as [CDS access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry"). If a business object is protected from unauthorized access using any other method than authorization objects, the BDEF can define an empty authorization context that is referred to in ContextName.
+There are other kinds of authority checks, such as [CDS access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control_glosry.htm "Glossary Entry"). If a business object is protected from unauthorized access using any other method than authorization objects, the BDEF can define an empty authorization context that is referred to in ContextName.
 
 Example:
 
@@ -89,13 +89,13 @@ BDEF body: define authorization context EmptyContext { }
 
 In the case of empty authorization contexts, privileged EML calls are handled as follows:
 
--   In a [managed RAP BO](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), the RAP framework automatically and implicitly checks for other authorizations, such as CDS access control.
--   In an [unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), rules for the handling of a privileged access can be defined in the respective handler methods in the ABAP behavior pool.
+-   In a [managed RAP BO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry"), the RAP framework automatically and implicitly checks for other authorizations, such as CDS access control.
+-   In an [unmanaged RAP BO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry"), rules for the handling of a privileged access can be defined in the respective handler methods in the ABAP behavior pool.
 
 Hints
 
 -   The syntax with privileged mode; has been deprecated for managed and unmanaged RAP BOs. For compatibility reasons, it can still be used, but it is not recommended and if used, a warning message appears.
--   There are multiple options how to activate an authorization context for disable (described in topic [RAP - define authorization context](javascript:call_link\('abenbdl_def_auth_context.htm'\))). One of them is that a context can directly be registered for a category of [handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") using the syntax
+-   There are multiple options how to activate an authorization context for disable (described in topic [RAP - define authorization context](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_def_auth_context.htm)). One of them is that a context can directly be registered for a category of [handler method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") using the syntax
     
     define authorization context ContextName
        for disable(*{*read*|*modify*|*read,modify*}*)
@@ -130,7 +130,7 @@ Example - 2, New, Recommended Syntax
 
 The following example shows a managed BDEF based on the CDS root view entity DEMO\_RAP\_AUTH\_CONTEXT. It enables privileged mode and specifies that for privileged EML access, the authorization context ac\_1 is disabled.
 
-Note: This example is intentionally kept short and simple and serves demonstration purposes only. The [RAP handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") [FOR GLOBAL AUTHORIZATION](javascript:call_link\('abaphandler_meth_global_auth.htm'\)) is not implemented here. In a real-life scenario, the authorization objects from the full authorization context would be implemented in this RAP handler method.
+Note: This example is intentionally kept short and simple and serves demonstration purposes only. The [RAP handler method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") [FOR GLOBAL AUTHORIZATION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphandler_meth_global_auth.htm) is not implemented here. In a real-life scenario, the authorization objects from the full authorization context would be implemented in this RAP handler method.
 
 managed implementation in class bp\_demo\_rap\_auth\_context unique;
 strict(2);
@@ -191,16 +191,16 @@ with privileged mode disabling base context
 
 Effect
 
-This syntax variant is available only for [projection BDEFs](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry"). It enables BDEF privileged mode for a [projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry"). As a prerequisite, the [projected BDEF](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry") must offer privileged mode. The syntax for enabling privileged mode in a projection BDEF is as follows:
+This syntax variant is available only for [projection BDEFs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry"). It enables BDEF privileged mode for a [projection BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry"). As a prerequisite, the [projected BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_projection_bo_glosry.htm "Glossary Entry") must offer privileged mode. The syntax for enabling privileged mode in a projection BDEF is as follows:
 
 with privileged mode disabling base context
   *\[*and ContextName*\]*
 
-base context refers to the [authorization context for disable](javascript:call_link\('abenbdl_def_auth_context.htm'\)) that is specified in the projected BDEF. It is compulsory to reuse the authorization context from the projected BDEF.
+base context refers to the [authorization context for disable](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_def_auth_context.htm) that is specified in the projected BDEF. It is compulsory to reuse the authorization context from the projected BDEF.
 
 If the projected BDEF specifies an empty authorization context, this can also be reused by the projection BDEF.
 
-With the optional addition and ContextName, it is possible to specify an additional authorization context for disable in the projection BDEF. ContextName must be an authorization context for disable defined in the same projection BDEF. For all [privileged](javascript:call_link\('abapeml_privileged.htm'\)) operations on the projection BDEF, both the authorization context of the projected BDEF and the context of the projection BDEF are disabled.
+With the optional addition and ContextName, it is possible to specify an additional authorization context for disable in the projection BDEF. ContextName must be an authorization context for disable defined in the same projection BDEF. For all [privileged](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_privileged.htm) operations on the projection BDEF, both the authorization context of the projected BDEF and the context of the projection BDEF are disabled.
 
 Hint
 
@@ -210,7 +210,7 @@ Example
 
 The following example shows a projection BDEF based on the projected BDEF DEMO\_RAP\_AUTH\_CONTEXT. It enables privileged mode, reuses the authorization context for disable from the projected BDEF and adds one further authorization context to the projection layer.
 
-Note: This example is intentionally kept short and simple and serves demonstration purposes only. The [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is not implemented here. In a real-life scenario, AUTHOBJ1 would be implemented in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+Note: This example is intentionally kept short and simple and serves demonstration purposes only. The [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is not implemented here. In a real-life scenario, AUTHOBJ1 would be implemented in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
 
 projection implementation in class BP\_DEMO\_RAP\_AUTH\_CONTEXT\_PROJ unique;
 strict(2);
@@ -233,7 +233,7 @@ with privileged mode
 
 Effect
 
-This syntax variant is available only for [interface BDEFs](javascript:call_link\('abenrap_bo_interface_glosry.htm'\) "Glossary Entry"). It enables BDEF privileged mode for an interface BDEF, so that access with [EML](javascript:call_link\('abenabap_eml_glosry.htm'\) "Glossary Entry") can take place in privileged mode using the addition [PRIVILEGED](javascript:call_link\('abapeml_privileged.htm'\)). Since interface BDEFs cannot define any access restrictions or authorization contexts themselves, it is a prerequisite that the underlying [projected BDEF](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry") offers privileged mode. A privileged access is then delegated to the implementation of the underlying base RAP BO. The syntax for enabling privileged mode in an interface BDEF is as follows:
+This syntax variant is available only for [interface BDEFs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_interface_glosry.htm "Glossary Entry"). It enables BDEF privileged mode for an interface BDEF, so that access with [EML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_eml_glosry.htm "Glossary Entry") can take place in privileged mode using the addition [PRIVILEGED](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_privileged.htm). Since interface BDEFs cannot define any access restrictions or authorization contexts themselves, it is a prerequisite that the underlying [projected BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_projection_bo_glosry.htm "Glossary Entry") offers privileged mode. A privileged access is then delegated to the implementation of the underlying base RAP BO. The syntax for enabling privileged mode in an interface BDEF is as follows:
 
 with privileged mode;
 

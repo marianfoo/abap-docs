@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [DDIC - Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [DDIC - Table-Specific Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Database Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables.htm) →  [DDIC - Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_sema.htm) →  [DDIC - Table-Specific Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_semasspec.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Delivery%20Class%20of%20Database%20Tables%2C%20ABENDDIC_DATABASE_TABLES_DELIVERY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20fo
 r%20improvement:)
@@ -31,7 +31,7 @@ The delivery class of a DDIC database table controls the [transport](https://hel
     -   In transports between customer systems, all data is transported. In client-dependent tables, only the data in the specified target client is respected.
 -   Delivery class L
     
-    Table for local data of each [ABAP system](javascript:call_link\('abenabap_system_glosry.htm'\) "Glossary Entry"). SAP delivers tables in the delivery class L as empty tables.
+    Table for local data of each [ABAP system](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_system_glosry.htm "Glossary Entry"). SAP delivers tables in the delivery class L as empty tables.
     
     -   These tables are delivered as empty tables.
     -   No data is copied in [client copies](https://help.sap.com/docs/ABAP_PLATFORM_NEW/4a368c163b08418890a406d413933ba7/4d8062ec095114afe10000000a42189c).
@@ -39,7 +39,7 @@ The delivery class of a DDIC database table controls the [transport](https://hel
     -   No data is transported in transports between customer systems.
     -   Data entered using extended table maintenance (transaction code SM30) cannot be transported.
     
-    [Global temporary tables](javascript:call_link\('abenglobal_temporary_table_glosry.htm'\) "Glossary Entry") always have the delivery class L.
+    [Global temporary tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry") always have the delivery class L.
     
 -   Obsolete delivery class G
     
@@ -66,7 +66,7 @@ The delivery class of a DDIC database table controls the [transport](https://hel
     -   Data entered using extended table maintenance (transaction code SM30) is checked for violations of the namespace assigned in the DDIC database table TRESC.
 -   Delivery class S
     
-    System table delivered by SAP as part of the system. Contains predefined data. In the [Change and Transport Systems (CTS)](javascript:call_link\('abencts_glosry.htm'\) "Glossary Entry"), the data is handled like repository objects, which means that they have an original system and any changes in other systems are modifications or repairs.
+    System table delivered by SAP as part of the system. Contains predefined data. In the [Change and Transport Systems (CTS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencts_glosry.htm "Glossary Entry"), the data is handled like repository objects, which means that they have an original system and any changes in other systems are modifications or repairs.
     
     -   These system tables are delivered with prefilled data.
     -   In [client copies](https://help.sap.com/docs/ABAP_PLATFORM_NEW/4a368c163b08418890a406d413933ba7/4d8062ec095114afe10000000a42189c), the data of client-dependent tables is copied. Any client-independent data is not copied.
@@ -85,4 +85,4 @@ The delivery class of a DDIC database table controls the [transport](https://hel
 Hints
 
 -   For more information about transports and client copies, see the documentation [Change and Transport System](https://help.sap.com/docs/ABAP_PLATFORM_NEW/4a368c163b08418890a406d413933ba7/48c4300fca5d581ce10000000a42189c) on SAP Help Portal.
--   It is not recommended that table content is transported for which a [replacement object](javascript:call_link\('abenddic_replacement_objects.htm'\)) is defined.
+-   It is not recommended that table content is transported for which a [replacement object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm) is defined.

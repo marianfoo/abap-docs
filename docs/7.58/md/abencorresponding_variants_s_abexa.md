@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [Assigning Components, Examples](javascript:call_link\('abencorresponding_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorresponding.htm) →  [Assigning Components, Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorresponding_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Variants%20of%20MOVE-CORRESPONDING%20and%20the%20CORRESPONDING%20Operator%20Using%20Deep%20Structures%2C%20ABENCORRESPONDING_VARIANTS_S_ABEXA%2C%20758%0D%0A%
 0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Variants of MOVE-CORRESPONDING and the CORRESPONDING Operator Using Deep Structures
 
-This example demonstrates variants of statements with [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)) and the [CORRESPONDING](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)) operator using [deep structures](javascript:call_link\('abendeep_structure_glosry.htm'\) "Glossary Entry").
+This example demonstrates variants of statements with [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove-corresponding.htm) and the [CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expr_corresponding.htm) operator using [deep structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeep_structure_glosry.htm "Glossary Entry").
 
 Source Code   
 
@@ -198,6 +198,6 @@ ENDCLASS.
 
 Description   
 
-Two structures, struc1 and struc2, are declared. Both contain an identically named [nested structure](javascript:call_link\('abennested_structure_glosry.htm'\) "Glossary Entry") and nested table as deep components. The nested structures struc\_nested differ in terms of the components' data types. The number of components in the nested structures as well as in the two nested internal tables itab is different.
+Two structures, struc1 and struc2, are declared. Both contain an identically named [nested structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennested_structure_glosry.htm "Glossary Entry") and nested table as deep components. The nested structures struc\_nested differ in terms of the components' data types. The number of components in the nested structures as well as in the two nested internal tables itab is different.
 
 The example covers statements with MOVE-CORRESPONDING and the CORRESPONDING operator demonstrating the differences in the result when using the various additions. The source code contains explanations on those differences.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Data Consistency](javascript:call_link\('abendata_consistency.htm'\)) →  [SAP LUW](javascript:call_link\('abensap_luw.htm'\)) →  [SAP LUW, Examples](javascript:call_link\('abensap_luw_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [Data Consistency](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_consistency.htm) →  [SAP LUW](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_luw.htm) →  [SAP LUW, Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_luw_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SAP%20LUW%2C%20ON%20COMMIT%2C%20ABENSAP_LUW_ON_COMMIT_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -112,8 +112,8 @@ ENDFORM.
 
 Description   
 
-This example works mainly in the same way as the [executable example](javascript:call_link\('abensap_luw_update_task_abexa.htm'\)) for [updates](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry"), but demonstrates bundling using subroutines registered using the statement [PERFORM ON COMMIT](javascript:call_link\('abapperform_on_commit.htm'\)).
+This example works mainly in the same way as the [executable example](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensap_luw_update_task_abexa.htm) for [updates](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenupdate_glosry.htm "Glossary Entry"), but demonstrates bundling using subroutines registered using the statement [PERFORM ON COMMIT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapperform_on_commit.htm).
 
-No parameters can be passed in this type of bundling, which means that the internal table used in the database writes is passed by the statements [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) and [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) to and from the [ABAP Memory](javascript:call_link\('abenabap_memory_glosry.htm'\) "Glossary Entry").
+No parameters can be passed in this type of bundling, which means that the internal table used in the database writes is passed by the statements [EXPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm) and [IMPORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_data_cluster.htm) to and from the [ABAP Memory](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_memory_glosry.htm "Glossary Entry").
 
-The registered subroutines are called using the statements [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)), which can be monitored using the ABAP Debugger. The subroutines themselves do not implement the writes itself but call methods of a class instead as recommended.
+The registered subroutines are called using the statements [COMMIT WORK](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit.htm), which can be monitored using the ABAP Debugger. The subroutines themselves do not implement the writes itself but call methods of a class instead as recommended.

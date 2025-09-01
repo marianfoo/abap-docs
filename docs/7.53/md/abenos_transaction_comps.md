@@ -4,19 +4,23 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services](javascript:call_link\('abenabap_object_services.htm'\)) →  [Transaction Service](javascript:call_link\('abenabap_object_services_transact.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_object_services.htm) →  [Transaction Service](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_object_services_transact.htm) → 
 
 Components of the Transaction Service
 
 An object-oriented transaction is represented by a transaction object that is managed by a transaction manger (which is also an object). The transaction manager represents the transaction service with respect to the ABAP program.
 
-To create a transaction manager, the static method GET\_TRANSACTION\_MANAGER of the general system service class CL\_OS\_SYSTEM is required. The [transaction mode](javascript:call_link\('abenos_transaction_mode.htm'\)) is set with the method INIT\_AND\_SET\_MODES of this class.
+To create a transaction manager, the static method GET\_TRANSACTION\_MANAGER of the general system service class CL\_OS\_SYSTEM is required. The [transaction mode](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenos_transaction_mode.htm) is set with the method INIT\_AND\_SET\_MODES of this class.
 
 An ABAP program does not work with the Transaction Manager and the transaction by using class reference variables. Instead the program accesses the Transaction Manager and the transaction using the interfaces IF\_OS\_TRANSACTION\_MANAGER and IF\_OS\_TRANSACTION.
 
--   [Relevant Methods of the System Service](#abenos-transaction-comps-1--------methods-of-the-transaction-manager---@ITOC@@ABENOS_TRANSACTION_COMPS_2)
+-   [Relevant Methods of the System Service](#@@ITOC@@ABENOS_TRANSACTION_COMPS_1)
 
--   [Methods of a Transaction](#abenos-transaction-comps-3--------events-of-a-transaction---@ITOC@@ABENOS_TRANSACTION_COMPS_4)
+-   [Methods of the Transaction Manager](#@@ITOC@@ABENOS_TRANSACTION_COMPS_2)
+
+-   [Methods of a Transaction](#@@ITOC@@ABENOS_TRANSACTION_COMPS_3)
+
+-   [Events of a Transaction](#@@ITOC@@ABENOS_TRANSACTION_COMPS_4)
 
 Relevant Methods of the System Service
 
@@ -26,7 +30,7 @@ Most of the components of the system service class CL\_OS\_SYSTEM are used inter
 
 This static method initializes the entire Object Services and creates the necessary service objects. INIT\_AND\_SET\_MODES is executed no more than once for each ABAP program. Every additional call causes an exception.
 
-INIT\_AND\_SET\_MODES is used together with the transaction service to set the [transaction mode](javascript:call_link\('abenos_transaction_mode.htm'\)) of the top level transaction. The constant OSCON\_TRUE or OSCON\_FALSE of type group OSCON must be passed to input parameter I\_EXTERNAL\_COMMIT. OSCON\_TRUE sets the compatibility mode for which COMMIT WORK must be defined explicitly in the program, whereas OSCON\_FALSE sets object-oriented transaction mode, for which an explicit COMMIT WORK is not allowed. Once the compatibility mode has been set, a top level transaction is implicitly created and started. All other transactions of the program are nested in this transaction.
+INIT\_AND\_SET\_MODES is used together with the transaction service to set the [transaction mode](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenos_transaction_mode.htm) of the top level transaction. The constant OSCON\_TRUE or OSCON\_FALSE of type group OSCON must be passed to input parameter I\_EXTERNAL\_COMMIT. OSCON\_TRUE sets the compatibility mode for which COMMIT WORK must be defined explicitly in the program, whereas OSCON\_FALSE sets object-oriented transaction mode, for which an explicit COMMIT WORK is not allowed. Once the compatibility mode has been set, a top level transaction is implicitly created and started. All other transactions of the program are nested in this transaction.
 
 Update mode is controlled with the other input parameter I\_UPDATE\_MODE of type OS\_DMODE. Possible input parameters are: OSCON\_DMODE\_DEFAULT or OSCON\_DMODE\_UPDATE\_TASK for asynchronous updates, OSCON\_DMODE\_UPDATE\_TASK\_SYNC for synchronous updates, OSCON\_DMODE\_LOCAL for local updates, and OSCON\_DMODE\_DIRECT for direct saves when using COMMIT WORK. The constants OSCON\_DMODE\_LOCAL andOSCON\_DMODE\_UPDATE\_TASK\_SYNC cannot be specified in compatibility mode. If local or direct updates are chosen, the statement SET UPDATE TASK LOCAL is executed implicitly when the transaction is started.
 

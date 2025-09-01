@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) → 
 
 Statements for Character String and Byte String Processing
 
@@ -16,73 +16,73 @@ Character String Processing
 
 Byte String Processing
 
-[CONCATENATE](javascript:call_link\('abapconcatenate.htm'\))
+[CONCATENATE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapconcatenate.htm)
 
 X
 
 X
 
-[FIND](javascript:call_link\('abapfind.htm'\))
+[FIND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind.htm)
 
 X
 
 X
 
-[REPLACE](javascript:call_link\('abapreplace.htm'\))
+[REPLACE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace.htm)
 
 X
 
 X
 
-[SHIFT](javascript:call_link\('abapshift.htm'\))
+[SHIFT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapshift.htm)
 
 X
 
 X
 
-[SPLIT](javascript:call_link\('abapsplit.htm'\))
+[SPLIT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsplit.htm)
 
 X
 
 X
 
-[CONDENSE](javascript:call_link\('abapcondense.htm'\))
-
-X
-
-\-
-
-[CONVERT TEXT](javascript:call_link\('abapconvert_text.htm'\))
+[CONDENSE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcondense.htm)
 
 X
 
 \-
 
-[OVERLAY](javascript:call_link\('abapoverlay.htm'\))
+[CONVERT TEXT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapconvert_text.htm)
 
 X
 
 \-
 
-[TRANSLATE](javascript:call_link\('abaptranslate.htm'\))
+[OVERLAY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapoverlay.htm)
 
 X
 
 \-
 
-[WRITE TO](javascript:call_link\('abapwrite_to.htm'\))
+[TRANSLATE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptranslate.htm)
 
 X
 
 \-
 
-[SET BIT](javascript:call_link\('abapset_bit.htm'\))
+[WRITE TO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm)
+
+X
+
+\-
+
+[SET BIT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_bit.htm)
 
 \-
 
 X
 
-[GET BIT](javascript:call_link\('abapget_bit.htm'\))
+[GET BIT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_bit.htm)
 
 \-
 
@@ -96,20 +96,20 @@ This addition determines which processing is used. If this addition is not speci
 
 Hints
 
--   In most cases, [expressions and functions for character string processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) can be used instead of the above statements for character string processing. These have the advantage that expressions can be specified for all operands, which is only possible to a very limited extent in the above statements.
+-   In most cases, [expressions and functions for character string processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_expr_func.htm) can be used instead of the above statements for character string processing. These have the advantage that expressions can be specified for all operands, which is only possible to a very limited extent in the above statements.
 
--   In addition to the statements shown here, there is a range of [obsolete statements for character and byte string processing](javascript:call_link\('abencharacter_string_obsolete.htm'\)).
+-   In addition to the statements shown here, there is a range of [obsolete statements for character and byte string processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharacter_string_obsolete.htm).
 
 Continue
-[CONCATENATE](javascript:call_link\('abapconcatenate.htm'\))
-[FIND](javascript:call_link\('abapfind.htm'\))
-[REPLACE](javascript:call_link\('abapreplace.htm'\))
-[SHIFT](javascript:call_link\('abapshift.htm'\))
-[SPLIT](javascript:call_link\('abapsplit.htm'\))
-[CONDENSE](javascript:call_link\('abapcondense.htm'\))
-[CONVERT TEXT](javascript:call_link\('abapconvert_text.htm'\))
-[OVERLAY](javascript:call_link\('abapoverlay.htm'\))
-[TRANSLATE](javascript:call_link\('abaptranslate.htm'\))
-[WRITE, TO](javascript:call_link\('abapwrite_to.htm'\))
-[SET BIT](javascript:call_link\('abapset_bit.htm'\))
-[GET BIT](javascript:call_link\('abapget_bit.htm'\))
+[CONCATENATE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapconcatenate.htm)
+[FIND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind.htm)
+[REPLACE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace.htm)
+[SHIFT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapshift.htm)
+[SPLIT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsplit.htm)
+[CONDENSE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcondense.htm)
+[CONVERT TEXT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapconvert_text.htm)
+[OVERLAY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapoverlay.htm)
+[TRANSLATE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptranslate.htm)
+[WRITE, TO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm)
+[SET BIT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_bit.htm)
+[GET BIT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_bit.htm)

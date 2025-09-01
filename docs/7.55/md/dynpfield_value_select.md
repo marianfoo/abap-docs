@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) →  [dynpro - Obsolete Statements in Dynpro Flow Logic](javascript:call_link\('abendynpro_obsolet.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengui_obsolete.htm) →  [dynpro - Obsolete Statements in Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_obsolet.htm) → 
 
 dynpro - FIELD VALUES, FIELD SELECT
 
@@ -23,7 +23,7 @@ Variants:
 
 Effect
 
-These variants of the statement [FIELD](javascript:call_link\('dynpfield.htm'\)) can be used in the event block at PAI in the dynpro flow logic. They compare the content of the dynpro field f either with entries from a value list or with the results of a database access.
+These variants of the statement [FIELD](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/dynpfield.htm) can be used in the event block at PAI in the dynpro flow logic. They compare the content of the dynpro field f either with entries from a value list or with the results of a database access.
 
 These types of input checks in the dynpro flow logic are executed after the automatic input checks and before the self-defined input checks in the ABAP program. The specified value list or the result set from the database accesses overrule the automatic input helps from ABAP Dictionary. They are themselves overruled by the events POH and POV. The additions VALUES and SELECT do not modify the effect of the statement FIELDS on the data transport from the dynpro to the ABAP program.
 
@@ -73,9 +73,9 @@ Hints
 
 -   Without the addition INTO, the addition SELECT is similar to a subquery in ABAP SQL. If the addition INTO is used, the SELECT syntax above can be used as a standalone statement in the dynpro flow logic, that is, without the FIELD statement. However, the use of a dynpro statement SELECT is also obsolete. Replace it with the respective ABAP SQL statement in the ABAP program.
 
--   If the addition SELECT is used for the statement FIELD of the dynpro flow logic, [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry") is applied, if activated.
+-   If the addition SELECT is used for the statement FIELD of the dynpro flow logic, [table buffering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_buffering_glosry.htm "Glossary Entry") is applied, if activated.
 
--   For the automatic input checks of dynpros using [check tables](javascript:call_link\('abencheck_table_glosry.htm'\) "Glossary Entry"), relevant internal FIELD statements are generated with the addition SELECT. For this reason, [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry") is also applied, if activated, when check tables are accessed.
+-   For the automatic input checks of dynpros using [check tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencheck_table_glosry.htm "Glossary Entry"), relevant internal FIELD statements are generated with the addition SELECT. For this reason, [table buffering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_buffering_glosry.htm "Glossary Entry") is also applied, if activated, when check tables are accessed.
 
 Example
 
@@ -91,10 +91,10 @@ PROCESS AFTER INPUT.
 
 Executable Examples
 
--   [Dynpros, Obsolete Input Check Using SELECT](javascript:call_link\('abendynpro_check_flow_abexa.htm'\))
+-   [Dynpros, Obsolete Input Check Using SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_check_flow_abexa.htm)
 
--   [Dynpros, Obsolete Input Help Using SELECT](javascript:call_link\('abendynpro_f4_help_dyn_abexa.htm'\))
+-   [Dynpros, Obsolete Input Help Using SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_f4_help_dyn_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [dynpro - Obsolete Input Check Using SELECT](javascript:call_link\('abendynpro_check_flow_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Obsolete Input Help Using SELECT](javascript:call_link\('abendynpro_f4_help_dyn_abexa.htm'\))
+![Example](exa.gif "Example") [dynpro - Obsolete Input Check Using SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_check_flow_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Obsolete Input Help Using SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_f4_help_dyn_abexa.htm)

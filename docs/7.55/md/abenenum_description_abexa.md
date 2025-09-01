@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Enumerated Objects (Enums)](javascript:call_link\('abenenumerated_types_usage.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Enumerated Objects (Enums)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_types_usage.htm) → 
 
 Enums, Type Description
 
-This example demonstrates type description in [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry").
+This example demonstrates type description in [enumerated objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_object_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -46,4 +46,4 @@ START-OF-SELECTION.
 
 Description
 
-The statement [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)) and the type description class CL\_ABAP\_ENUMDESCR are applied to an enumerated variable size of the identically named enumerated type.
+The statement [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdescribe_field.htm) and the type description class CL\_ABAP\_ENUMDESCR are applied to an enumerated variable size of the identically named enumerated type.

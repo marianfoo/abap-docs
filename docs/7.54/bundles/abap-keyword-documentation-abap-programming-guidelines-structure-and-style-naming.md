@@ -3,30 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abennaming_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennaming_guidl.htm)
-- [abenchoice_langu_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchoice_langu_guidl.htm)
-- [abentelling_names_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm)
-- [abennames_repos_obj_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennames_repos_obj_guidl.htm)
-- [abenprog_intern_names_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprog_intern_names_guidl.htm)
-- [abenstruc_comp_names_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstruc_comp_names_guidl.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.924Z
-
----
-
 ### abennaming_guidl.htm
-
-> **📖 Official SAP Documentation**: [abennaming_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennaming_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,21 +11,21 @@ Included pages: 6
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) → 
 
 Naming
 
 The naming of the repository objects defined outside of a program and of the entities declared within the program (such as data types, data objects, and procedures) is of vital importance for understanding and editing the program. All names used must be readable, easy to learn, and appropriate. You can meet these requirements by using meaningful names. It is also important to avoid naming conflicts.
 
--   [Choosing the Language](javascript:call_link\('abenchoice_langu_guidl.htm'\) "Guideline")
+-   [Choosing the Language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchoice_langu_guidl.htm "Guideline")
 
--   [Descriptive Names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline")
+-   [Descriptive Names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm "Guideline")
 
--   [Names of Repository Objects](javascript:call_link\('abennames_repos_obj_guidl.htm'\) "Guideline")
+-   [Names of Repository Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennames_repos_obj_guidl.htm "Guideline")
 
--   [Program-Internal Names](javascript:call_link\('abenprog_intern_names_guidl.htm'\) "Guideline")
+-   [Program-Internal Names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprog_intern_names_guidl.htm "Guideline")
 
--   [Names of Structure Components](javascript:call_link\('abenstruc_comp_names_guidl.htm'\) "Guideline")
+-   [Names of Structure Components](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstruc_comp_names_guidl.htm "Guideline")
 
 These guidelines deliberately use the term naming and not naming conventions. The term "programming guidelines" is frequently equated with naming conventions. Many of the current programming guidelines are mainly concerned with the definition of prefixes and suffixes, which are more or less meaningful. However, we pursue a different approach here. Part of these guidelines is rightly dedicated to the discussion of meaningful names. However, this discussion does not represent the core of these guidelines.
 
@@ -57,21 +34,14 @@ A maintenance organization is responsible for maintaining monolithic ABAP applic
 The rules on naming listed below meet the requirements of modern ABAP development. The only disadvantage is that it is difficult to use automatic checks, to monitor whether these requirements are adhered to. Our rules address human readers (and not automated test tools), who want to understand ABAP programs and eliminate ambiguous elements as quickly as possible. With regard to older code, we recommend refactoring based on the basic guidelines presented here. This enables you to get down to the root of maintenance problems. If you simply try to retroactively change names in line with technical naming conventions, you are only attempting to cure the symptoms and not the problem itself.
 
 Continue
-[Choosing the Language](javascript:call_link\('abenchoice_langu_guidl.htm'\))
-[Descriptive Names](javascript:call_link\('abentelling_names_guidl.htm'\))
-[Names of Repository Objects](javascript:call_link\('abennames_repos_obj_guidl.htm'\))
-[Program-Internal Names](javascript:call_link\('abenprog_intern_names_guidl.htm'\))
-[Names of Structure Components](javascript:call_link\('abenstruc_comp_names_guidl.htm'\))
+[Choosing the Language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchoice_langu_guidl.htm)
+[Descriptive Names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm)
+[Names of Repository Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennames_repos_obj_guidl.htm)
+[Program-Internal Names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprog_intern_names_guidl.htm)
+[Names of Structure Components](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstruc_comp_names_guidl.htm)
 
-
-
-**📖 Source**: [abennaming_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennaming_guidl.htm)
 
 ### abenchoice_langu_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenchoice_langu_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchoice_langu_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -79,7 +49,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Naming](javascript:call_link\('abennaming_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennaming_guidl.htm) → 
 
 Choosing the Language
 
@@ -101,21 +71,14 @@ In instances where British and American spelling differ, use the American spelli
 
 Note
 
-This rule applies regardless of the [original language chosen](javascript:call_link\('abenoriginal_langu_guidl.htm'\) "Guideline").
+This rule applies regardless of the [original language chosen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoriginal_langu_guidl.htm "Guideline").
 
 Bad Example
 
 One of the most notorious examples of non-English names in ABAP is the component UZEIT of the structure SYST, plus its data element SYUZEIT. All other components (with the exception of the equally notorious DATUM (for date) and MANDT (for client)) are English terms or abbreviations.
 
 
-
-**📖 Source**: [abenchoice_langu_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchoice_langu_guidl.htm)
-
 ### abentelling_names_guidl.htm
-
-> **📖 Official SAP Documentation**: [abentelling_names_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -123,7 +86,7 @@ One of the most notorious examples of non-English names in ABAP is the component
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Naming](javascript:call_link\('abennaming_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennaming_guidl.htm) → 
 
 Descriptive Names
 
@@ -180,16 +143,16 @@ The use of nouns, verbs, and adjectives for naming depends on the entity that yo
     They are named using an expression in present perfect that describes their occurrence, for example, cl\_dd\_form\_element->button\_clicked and cl\_gui\_alv\_ tree->selection\_changed. In this example, the noun is abbreviated significantly (o for output format). More information about useful abbreviations can be found below.
 
 -   Procedures
-    New procedures are methods according to the [use ABAP objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") rule. Here, we distinguish between different cases:
+    New procedures are methods according to the [use ABAP objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") rule. Here, we distinguish between different cases:
 
 -   Event handlers are named after the corresponding event. They are assigned a prefix that identifies them as handler methods. In ABAP, the on\_ prefix has established itself. This is consistent with natural language use and clearly labels a method as an event handler. For the two event examples above, the names of the corresponding handler methods would be on\_ button\_clicked and on\_selection\_changed.
 
--   The name of methods with a return value (functional methods) describes the returned result. The get\_ prefix is added to describe the task of the method. An example of this is the cl\_abap\_exceptional\_values=>get\_max\_value method. If the method returns a truth value, is\_ is used as a prefix instead of get\_. In ABAP, these get\_ methods are intended to identify the return value (by using a calculation, for example). Unlike in Java, for example, no own methods should be used to simply return attribute values. Instead you should use the [write-protected (READ-ONLY) attributes](javascript:call_link\('abenencapsulation_guidl.htm'\) "Guideline") provided in ABAP.
+-   The name of methods with a return value (functional methods) describes the returned result. The get\_ prefix is added to describe the task of the method. An example of this is the cl\_abap\_exceptional\_values=>get\_max\_value method. If the method returns a truth value, is\_ is used as a prefix instead of get\_. In ABAP, these get\_ methods are intended to identify the return value (by using a calculation, for example). Unlike in Java, for example, no own methods should be used to simply return attribute values. Instead you should use the [write-protected (READ-ONLY) attributes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenencapsulation_guidl.htm "Guideline") provided in ABAP.
 
--   In all other cases, the name of a method describes an activity to be performed. Therefore, the method name is a verb, generally expressed in the imperative. Examples: cl\_abap\_regex->create\_ matcher and cl\_abap\_memory\_utilities=>do\_garbage\_collection. Methods used to set attributes are described using the relevant attribute, which is prefixed with set\_. Other procedures ([function modules and subroutines](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) required to wrap method calls are named accordingly.
+-   In all other cases, the name of a method describes an activity to be performed. Therefore, the method name is a verb, generally expressed in the imperative. Examples: cl\_abap\_regex->create\_ matcher and cl\_abap\_memory\_utilities=>do\_garbage\_collection. Methods used to set attributes are described using the relevant attribute, which is prefixed with set\_. Other procedures ([function modules and subroutines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) required to wrap method calls are named accordingly.
 
 -   Exception
-    Exceptions describe unexpected states. Technically they are classes. [Classic exceptions](javascript:call_link\('abenclass_exception_guidl.htm'\) "Guideline") should no longer be used. Except for the prefix, the same considerations apply here. To distinguish exceptions from normal classes, they are assigned their [own prefix](javascript:call_link\('abennames_repos_obj_guidl.htm'\) "Guideline") cx\_, provided that they are global exception classes. The name of an exception reflects the rejected state as clearly as possible, for instance, cx\_sy\_offset\_not\_allowed. If an entire hierarchy of exception classes exists, the names of the superclasses do not describe special exception situations. Instead they describe error categories (such as cx\_ sy\_data\_access\_error in this example).
+    Exceptions describe unexpected states. Technically they are classes. [Classic exceptions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_exception_guidl.htm "Guideline") should no longer be used. Except for the prefix, the same considerations apply here. To distinguish exceptions from normal classes, they are assigned their [own prefix](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennames_repos_obj_guidl.htm "Guideline") cx\_, provided that they are global exception classes. The name of an exception reflects the rejected state as clearly as possible, for instance, cx\_sy\_offset\_not\_allowed. If an entire hierarchy of exception classes exists, the names of the superclasses do not describe special exception situations. Instead they describe error categories (such as cx\_ sy\_data\_access\_error in this example).
 
 You should avoid using abbreviations as name components wherever possible. Exceptions to this rule are abbreviations that are usually used instead of the complete term, such as GUI or XML. However, if the use of certain abbreviations cannot be avoided due to restricted space, you should initially use common abbreviations.
 
@@ -199,7 +162,7 @@ An example of a poorly chosen abbreviation would be tstmp for timestamp. This ab
 
 When you create abbreviations in a foreign language, you run the risk that the result represents a word or abbreviation with a completely different meaning. If in doubt, you should enter the abbreviation in a search engine to check it. For example, you only have four characters available and you want to use the word button. In this case, you should select the abbreviation bttn (following the abbreviation rules above), instead of the first four characters.
 
-As a rule, name components should be visually separated using underscores in ABAP. This makes the names easier to read. Separating name components with uppercase and lowercase (common in languages with C-like syntax) is [not useful](javascript:call_link\('abenlower_upper_case_guidl.htm'\) "Guideline") in ABAP. Underscores normally identify a name, because ABAP words are usually not formed this way. The only exceptions here are certain format options for character string templates (such as SCIENTIFIC\_ WITH\_LEADING\_ZERO), which can only occur within character string expressions, and certain additions of SELECTION-SCREEN and WRITE.
+As a rule, name components should be visually separated using underscores in ABAP. This makes the names easier to read. Separating name components with uppercase and lowercase (common in languages with C-like syntax) is [not useful](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlower_upper_case_guidl.htm "Guideline") in ABAP. Underscores normally identify a name, because ABAP words are usually not formed this way. The only exceptions here are certain format options for character string templates (such as SCIENTIFIC\_ WITH\_LEADING\_ZERO), which can only occur within character string expressions, and certain additions of SELECTION-SCREEN and WRITE.
 
 You should not use digits as name components. They are often a sign of poorly selected names (because they are not very descriptive) or indicate the use of multiple individual variables, where the use of an internal table would make more sense. Exceptions include the interface parameters of procedures. Numbering similar parameters definitely makes sense here.
 
@@ -218,7 +181,7 @@ METHOD do\_something.
   ENDDO.
 ENDMETHOD.
 
-The long name lcv\_maximum\_do\_loop\_count is quite difficult to read. A method can only include a manageable [number of statements](javascript:call_link\('abenproc_volume_guidl.htm'\) "Guideline"). Therefore, you can select a very simple name in simple cases:
+The long name lcv\_maximum\_do\_loop\_count is quite difficult to read. A method can only include a manageable [number of statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenproc_volume_guidl.htm "Guideline"). Therefore, you can select a very simple name in simple cases:
 
 METHOD do\_something.
   CONSTANTS nmax TYPE i VALUE 100.
@@ -227,11 +190,11 @@ METHOD do\_something.
   ENDDO.
 ENDMETHOD.
 
-A further example of where short names are useful is helper fields declared in [LET expressions](javascript:call_link\('abaplet.htm'\)).
+A further example of where short names are useful is helper fields declared in [LET expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplet.htm).
 
 Bad Example
 
-The following source code shows the declaration of a class that executes arithmetic calculations. This should be understood as a synthetic naming example. Of course, in ABAP, it makes absolutely no sense to [wrap](javascript:call_link\('abenmodularization_guidl.htm'\) "Guideline") the arithmetic operations on elementary numeric data types using a class. The names of the class and its methods are unnecessarily short, and the names of the method parameters have no semantic meaning at all.
+The following source code shows the declaration of a class that executes arithmetic calculations. This should be understood as a synthetic naming example. Of course, in ABAP, it makes absolutely no sense to [wrap](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmodularization_guidl.htm "Guideline") the arithmetic operations on elementary numeric data types using a class. The names of the class and its methods are unnecessarily short, and the names of the method parameters have no semantic meaning at all.
 
 CLASS calcltr DEFINITION.
   PUBLIC SECTION.
@@ -272,14 +235,7 @@ ENDCLASS.
 The addition and multiplication operands are commutative, which means you can use digits here to distinguish them.
 
 
-
-**📖 Source**: [abentelling_names_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm)
-
 ### abennames_repos_obj_guidl.htm
-
-> **📖 Official SAP Documentation**: [abennames_repos_obj_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennames_repos_obj_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -287,20 +243,20 @@ The addition and multiplication operands are commutative, which means you can us
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Naming](javascript:call_link\('abennaming_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennaming_guidl.htm) → 
 
 Names of Repository Objects
 
 Background
 
-Repository objects are development objects edited using the tools in ABAP Workbench. Each repository object is assigned to a package. Packages encapsulate the repository objects contained and use package interfaces to make objects available that should be usable outside the package. This complies with the [SoC principle](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline").
+Repository objects are development objects edited using the tools in ABAP Workbench. Each repository object is assigned to a package. Packages encapsulate the repository objects contained and use package interfaces to make objects available that should be usable outside the package. This complies with the [SoC principle](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenseperation_concerns_guidl.htm "Guideline").
 
 From a semantic point of view, packages represent a context for declarations, which is one level above the contexts of an ABAP program. Unlike the contexts of an ABAP program (programs, classes, procedures), a package does not generate a separate namespace.
 
 The namespace for repository objects is defined as follows:
 
 -   Prefix namespace
-    Development organizations (SAP departments, SAP partners, and SAP customers) can request a [prefix namespace](javascript:call_link\('abenprefix_name_space_glosry.htm'\) "Glossary Entry") for their own development systems. A prefix namespace has a name with at least 5 and a maximum of 10 digits, and the first digit and last digit must be slashes (/.../). After the namespace has been assigned, repository objects only can be created in systems, where the namespace is enabled by prefixing the namespace name /.../. If a package is created in this type of prefix namespace, it can only contain repository objects belonging to the same namespace. However, multiple packages can be created within a single prefix namespace. The available length for the actual name is reduced by the length of the [namespace prefix](javascript:call_link\('abenname_space_prefix_glosry.htm'\) "Glossary Entry"), including the slashes.
+    Development organizations (SAP departments, SAP partners, and SAP customers) can request a [prefix namespace](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprefix_name_space_glosry.htm "Glossary Entry") for their own development systems. A prefix namespace has a name with at least 5 and a maximum of 10 digits, and the first digit and last digit must be slashes (/.../). After the namespace has been assigned, repository objects only can be created in systems, where the namespace is enabled by prefixing the namespace name /.../. If a package is created in this type of prefix namespace, it can only contain repository objects belonging to the same namespace. However, multiple packages can be created within a single prefix namespace. The available length for the actual name is reduced by the length of the [namespace prefix](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenname_space_prefix_glosry.htm "Glossary Entry"), including the slashes.
 
 -   Customer namespace
     If no prefix namespace is available, the names of repository objects created in customer systems or non-SAP development systems must have Y or Z as the first character. This means they are located in the customer namespace. Repository objects whose names start with Z can also be located within packages whose names start with Y and the other way round.
@@ -310,7 +266,7 @@ The namespace for repository objects is defined as follows:
 
 Note
 
-The global types, namely the global [object types](javascript:call_link\('abenobject_type_glosry.htm'\) "Glossary Entry") of the [class library](javascript:call_link\('abenclass_library_glosry.htm'\) "Glossary Entry") and the global [data types](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") of [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry") are in separate dedicated namespaces. They are always unique when used after REF TO.
+The global types, namely the global [object types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_type_glosry.htm "Glossary Entry") of the [class library](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_library_glosry.htm "Glossary Entry") and the global [data types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_type_glosry.htm "Glossary Entry") of [ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary_glosry.htm "Glossary Entry") are in separate dedicated namespaces. They are always unique when used after REF TO.
 
 Rule
 
@@ -320,7 +276,7 @@ Use common naming conventions for repository objects. The predefined name prefix
 
 Details
 
-Classes and interfaces are the most important entities for [programming with ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline"). Either a class type or an interface type can be used to type a object reference. It is useful to uniquely flag these two types in the class library by means of a prefix. Global exception classes should also be uniquely identified by a prefix. The following naming conventions apply. These conventions are sometimes enforced by Class Builder but are sometimes only evaluated:
+Classes and interfaces are the most important entities for [programming with ABAP Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obj_progr_model_guidl.htm "Guideline"). Either a class type or an interface type can be used to type a object reference. It is useful to uniquely flag these two types in the class library by means of a prefix. Global exception classes should also be uniquely identified by a prefix. The following naming conventions apply. These conventions are sometimes enforced by Class Builder but are sometimes only evaluated:
 
 -   CL\_ for global classes
 
@@ -330,7 +286,7 @@ Classes and interfaces are the most important entities for [programming with ABA
 
 -   CL\_BADI\_, IF\_BADI\_, CX\_BADI\_ for classes, interfaces, and exception classes of Business Add-Ins (BAdI)
 
-These naming conventions distinguish [object types](javascript:call_link\('abenobject_type_glosry.htm'\) "Glossary Entry") from the global [data types](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") of [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry"), with which they share a namespace.
+These naming conventions distinguish [object types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_type_glosry.htm "Glossary Entry") from the global [data types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_type_glosry.htm "Glossary Entry") of [ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary_glosry.htm "Glossary Entry"), with which they share a namespace.
 
 In addition, the names of all repository objects should clearly identify the package or component they belong to. Technically speaking, a package does not generate its own namespace and therefore naming requires strict discipline. Using prefix namespaces is very helpful in itself. However, they are not intended for the package level but for bigger development projects, which usually comprise numerous packages.
 
@@ -342,9 +298,9 @@ If developers find a repository object with a global name, they naturally assume
 
 Note
 
-The above rule supplements the global rule regarding [descriptive names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline"). With regard to technical information in repository object names, the same information stated in section on descriptive names also applies here (also refer to the discussion on prefixes and suffixes in [program-internal names](javascript:call_link\('abenprog_intern_names_guidl.htm'\) "Guideline")).
+The above rule supplements the global rule regarding [descriptive names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm "Guideline"). With regard to technical information in repository object names, the same information stated in section on descriptive names also applies here (also refer to the discussion on prefixes and suffixes in [program-internal names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprog_intern_names_guidl.htm "Guideline")).
 
-All development organizations are free to create own naming conventions on the basis of the above rule regarding [descriptive names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline"). However, note that the use of a namespace prefix only leaves limited space for the remaining name components. For example, the names of database tables are restricted to 16 characters. Therefore, the namespace prefix should not be too long. It should simply describe a product line using an abbreviation
+All development organizations are free to create own naming conventions on the basis of the above rule regarding [descriptive names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm "Guideline"). However, note that the use of a namespace prefix only leaves limited space for the remaining name components. For example, the names of database tables are restricted to 16 characters. Therefore, the namespace prefix should not be too long. It should simply describe a product line using an abbreviation
 
 Exception
 
@@ -352,23 +308,16 @@ Not all repository objects can be created in prefix namespaces. Some examples ar
 
 A similar guideline applies if further development is performed in areas that are traditionally located in the SAP namespace or the customer namespace. Instead of using a real namespace prefix, this can be simulated by using uniform prefixes when new packages and development objects are created.
 
-If ABAP Workbench itself allocates [names](javascript:call_link\('abensource_code_orga_guidl.htm'\) "Guideline"), for instance, for include programs, which are assigned to specific master programs (such as function groups or class pools), this name allocation always has priority over all other rules. This ensures that the workbench and the compiler run correctly.
+If ABAP Workbench itself allocates [names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensource_code_orga_guidl.htm "Guideline"), for instance, for include programs, which are assigned to specific master programs (such as function groups or class pools), this name allocation always has priority over all other rules. This ensures that the workbench and the compiler run correctly.
 
 Example
 
 Refer to the repository objects of the example application in the package SABAP\_DEMOS\_CAR\_RENTAL.
 
-The subpackages of the SABAP\_DEMOS\_CAR\_RENTAL package start with the same name as the superpackage (as [recommended](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline") in these guidelines). A suffix indicates their specialization. The same applies to the package interfaces. Instead of a real namespace prefix, the repository objects of the packages have the DEMO\_ prefix. This indicates that the objects are part of a demo package. The affiliation with the car rental application is indicated by the abbreviation CR (car rental).
+The subpackages of the SABAP\_DEMOS\_CAR\_RENTAL package start with the same name as the superpackage (as [recommended](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm "Guideline") in these guidelines). A suffix indicates their specialization. The same applies to the package interfaces. Instead of a real namespace prefix, the repository objects of the packages have the DEMO\_ prefix. This indicates that the objects are part of a demo package. The affiliation with the car rental application is indicated by the abbreviation CR (car rental).
 
-
-
-**📖 Source**: [abennames_repos_obj_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennames_repos_obj_guidl.htm)
 
 ### abenprog_intern_names_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenprog_intern_names_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprog_intern_names_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -376,7 +325,7 @@ The subpackages of the SABAP\_DEMOS\_CAR\_RENTAL package start with the same nam
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Naming](javascript:call_link\('abennaming_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennaming_guidl.htm) → 
 
 Program-Internal Names
 
@@ -386,13 +335,13 @@ Program-internal names describe entities that are declared in the program and ar
 
 Program-internal declarations can be configured in different contexts that all span a separate namespace. These contexts are arranged in the order from local to global:
 
-1.  Local declarations in a procedure ([Method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline"))
+1.  Local declarations in a procedure ([Method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunct_module_subroutine_guidl.htm "Guideline"))
 2.  Declarations of instance components and static components in a class
 3.  Global declarations in the declaration part of a program
 
 Here local declarations always obscure the more global declarations of higher contexts. Different types of declarations each span a separate namespace in their context, except the class components, which are all located in one single namespace, regardless of their type.
 
-The identifiers used in ABAP programs are must comply with the syntactic requirements for classes (in accordance with the rule [Use ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") and the rule [Applying Default Settings to Program Attributes](javascript:call_link\('abenprogram_attribute_guidl.htm'\) "Guideline")). In other words, the identifiers must begin with a letter, which is followed other letters and numbers that can be separated by underscores.
+The identifiers used in ABAP programs are must comply with the syntactic requirements for classes (in accordance with the rule [Use ABAP Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") and the rule [Applying Default Settings to Program Attributes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_attribute_guidl.htm "Guideline")). In other words, the identifiers must begin with a letter, which is followed other letters and numbers that can be separated by underscores.
 
 Rule
 
@@ -402,7 +351,7 @@ Choose program-internal names that cannot be confused with ABAP words or other d
 
 Details
 
-Besides using the general rule of assigning [meaningful names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline"), it is also important for program-internal declarations that you stick to the above rule of eliminating human error (avoiding name confusion). Unlike a human reader, the compiler usually knows exactly what an identifier is referring to. Use the following prefixes to avoid the danger of unwanted obscuring and name confusion:
+Besides using the general rule of assigning [meaningful names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm "Guideline"), it is also important for program-internal declarations that you stick to the above rule of eliminating human error (avoiding name confusion). Unlike a human reader, the compiler usually knows exactly what an identifier is referring to. Use the following prefixes to avoid the danger of unwanted obscuring and name confusion:
 
 -   g\_ for global data objects
 
@@ -424,13 +373,13 @@ Confusion with ABAP Words
 
 A basic rule in almost all naming specifications is that language statements must not be used as names in the source code (assuming that this is permitted by the syntax). The aim of this measure is to improve readability by preventing confusion between statements and names. In ABAP, however, it is difficult to strictly adhere to this rule, because the vocabulary of the programming language is very extensive and is continuously growing. In most cases, developers will not have memorized all the ABAP words that occur in all the statements and statement additions. Also, they cannot possibly know which words will be added in future.
 
-For this reason, it is not logical or feasible to completely prohibit the use of ABAP words (ABAP keywords or additions) as names. Thanks to the color highlighting in ABAP Editor and the different capitalization rules in operands and ABAP words ([Pretty Printer](javascript:call_link\('abenuse_pretty_printer_guidl.htm'\) "Guideline")), there is no risk of confusion. If in doubt, you can always use the (!) character directly in front of a name, to distinguish it from an ABAP word with the same name in a statement.
+For this reason, it is not logical or feasible to completely prohibit the use of ABAP words (ABAP keywords or additions) as names. Thanks to the color highlighting in ABAP Editor and the different capitalization rules in operands and ABAP words ([Pretty Printer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_pretty_printer_guidl.htm "Guideline")), there is no risk of confusion. If in doubt, you can always use the (!) character directly in front of a name, to distinguish it from an ABAP word with the same name in a statement.
 
-A single ABAP word, however, usually does not represent a descriptive name. Therefore, we recommend that you only use ABAP words as part of combined names with underscores (\_), for instance, account\_class instead of class. Because the underscore is not used in most ABAP words, it is usually a good idea to distinguish between ABAP words and [names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline"). In some very rare cases, the compiler cannot distinguish an ABAP word from a name that is identical to the word. In these cases, the escape character (!) must be specified.
+A single ABAP word, however, usually does not represent a descriptive name. Therefore, we recommend that you only use ABAP words as part of combined names with underscores (\_), for instance, account\_class instead of class. Because the underscore is not used in most ABAP words, it is usually a good idea to distinguish between ABAP words and [names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm "Guideline"). In some very rare cases, the compiler cannot distinguish an ABAP word from a name that is identical to the word. In these cases, the escape character (!) must be specified.
 
 Confusion between different declarations
 
-In classes, all components are in the same namespace. Therefore, it is not possible to have data types and attributes with the same name within a class to avoid confusion. In the other contexts, that is, within procedures ([Methods](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")), or for global declarations of an ABAP program, different declarations generate different namespaces. Here it is possible to have data objects and data types with the same name. Object types (local classes and interfaces) are in the same namespace as data types.
+In classes, all components are in the same namespace. Therefore, it is not possible to have data types and attributes with the same name within a class to avoid confusion. In the other contexts, that is, within procedures ([Methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")), or for global declarations of an ABAP program, different declarations generate different namespaces. Here it is possible to have data objects and data types with the same name. Object types (local classes and interfaces) are in the same namespace as data types.
 
 To avoid confusion, we recommend that you use different names for different entities, and that you do not use the same names for data types and data objects. Exceptions to this rule are cases where the meaning of a name is absolutely clear, for example, the declaration of a helper variable:
 
@@ -449,21 +398,21 @@ The names in local contexts obscure declarations with the same name in contexts 
 
 Developers must ensure that a more global object (that should be used in the current context) is not obscured. Conversely, a global object must not be accidentally used instead of a local object. The reader of the source code should always know what a name refers to. This means that, when names are given, local names should not obscure any names that are more global.
 
-Following the [KISS principle](javascript:call_link\('abenkiss_principle_guidl.htm'\) "Guideline"), it is recommended that local names are different from global names, because they do not follow their conventions. This mainly refers to the names in global declarations of the current program or in the repository. For example, a local class should never start with the cl\_ prefix, a local interface should never start with if\_ prefix, and a local data object should never start with the g\_ prefix.
+Following the [KISS principle](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenkiss_principle_guidl.htm "Guideline"), it is recommended that local names are different from global names, because they do not follow their conventions. This mainly refers to the names in global declarations of the current program or in the repository. For example, a local class should never start with the cl\_ prefix, a local interface should never start with if\_ prefix, and a local data object should never start with the g\_ prefix.
 
 -   Within methods
 
-In a method (in new function modules and subroutines, there should be [no local declarations](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")), there is the danger that local names (including method parameters) can be confused with more global names. Declarations within the implementation can also be confused with method parameters. It should also be noted that methods in the same class always obscure any built-in functions with the same name.
+In a method (in new function modules and subroutines, there should be [no local declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")), there is the danger that local names (including method parameters) can be confused with more global names. Declarations within the implementation can also be confused with method parameters. It should also be noted that methods in the same class always obscure any built-in functions with the same name.
 
 To prevent local data objects in a method from being confused with components of their own class, you can explicitly address class components using the name of the class and the class component selector (=>), or using the object reference variable me and the instance component selector (->) .
 
-If there is a danger that identically named built-in functions can be confused, the functional methods of the same class should be addressed only by using one of the selectors when using functional method calls. However, excessive use of selectors can make the source code difficult to read. Therefore, each case should be assessed separately. This danger of confusion is only relevant for short method names, however. For methods with names consisting of multiple words or names that start with the prefixes set\_, get\_, or is\_, there is usually no risk of confusion. Methods should always have a [manageable size](javascript:call_link\('abenproc_volume_guidl.htm'\) "Guideline"), and all declarations are therefore always visible for the reader. Therefore, this simple rule should be sufficient to make the method easy to read.
+If there is a danger that identically named built-in functions can be confused, the functional methods of the same class should be addressed only by using one of the selectors when using functional method calls. However, excessive use of selectors can make the source code difficult to read. Therefore, each case should be assessed separately. This danger of confusion is only relevant for short method names, however. For methods with names consisting of multiple words or names that start with the prefixes set\_, get\_, or is\_, there is usually no risk of confusion. Methods should always have a [manageable size](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenproc_volume_guidl.htm "Guideline"), and all declarations are therefore always visible for the reader. Therefore, this simple rule should be sufficient to make the method easy to read.
 
 If the declaration of the method’s parameter interface is not visible in the method implementation (as in local classes), it is useful to make an additional distinction between local data and the method parameters. It has become customary to use the prefixes mentioned earlier to achieve this. An alternative prefix component l could also be considered here for local data, but it ultimately represents redundant information.
 
 -   Within classes
 
-If you use class components, you can always avoid confusion by addressing the class components using the name of the class and the class component selector (\=>) or an object reference variable and the instance component selector (\->). The implementation of a corresponding naming convention would lead to redundant information, which would not improve readability and would be contradictory to the basic [KISS principle](javascript:call_link\('abenkiss_principle_guidl.htm'\) "Guideline"). This applies in particular to the methods of the class. Although these methods obscure any identically named built-in functions, it would be very unusual to implement a prefix that indicates a method as a method of a class. Instead, methods should not be given the names of built-in functions.
+If you use class components, you can always avoid confusion by addressing the class components using the name of the class and the class component selector (\=>) or an object reference variable and the instance component selector (\->). The implementation of a corresponding naming convention would lead to redundant information, which would not improve readability and would be contradictory to the basic [KISS principle](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenkiss_principle_guidl.htm "Guideline"). This applies in particular to the methods of the class. Although these methods obscure any identically named built-in functions, it would be very unusual to implement a prefix that indicates a method as a method of a class. Instead, methods should not be given the names of built-in functions.
 
 -   In programs (general)
 
@@ -471,7 +420,7 @@ In the global declaration part of a program, you can create local classes and in
 
 -   The names of local classes and interfaces do not follow the naming conventions for global classes and interfaces. In other words, they cannot start with cl\_ or if\_, to ensure that no global declarations are obscured. With respect to local data, you can consider the naming convention lcl\_ or lif\_, but this would be redundant and not necessarily required, because a class/interface without a prefix is always known as a local class/local interface. The use of lif\_ may be useful for distinguishing a local interface from a local class.
 
--   Data types should no longer occur in the [global declaration part](javascript:call_link\('abendeclaration_variables_guidl.htm'\) "Guideline") of a program. Global data objects are only required for communication between ABAP and dynpro if [classic dynpros](javascript:call_link\('abenencap_class_interf_guidl.htm'\) "Guideline") are used. Since these objects cannot names cannot be prefixed with a program name, as with class attributes (absolute names are only possible for data types and only in dynamic specifications), you must use the g\_ prefix for global data objects, to prevent confusion with local data objects or class attributes in method implementations. Global data objects can only exist in executable programs, module pools, and function groups. Global classes and interfaces cannot contain any global data objects. Therefore, a g\_ prefix for class components or interface components is definitely the wrong choice.
+-   Data types should no longer occur in the [global declaration part](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_variables_guidl.htm "Guideline") of a program. Global data objects are only required for communication between ABAP and dynpro if [classic dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenencap_class_interf_guidl.htm "Guideline") are used. Since these objects cannot names cannot be prefixed with a program name, as with class attributes (absolute names are only possible for data types and only in dynamic specifications), you must use the g\_ prefix for global data objects, to prevent confusion with local data objects or class attributes in method implementations. Global data objects can only exist in executable programs, module pools, and function groups. Global classes and interfaces cannot contain any global data objects. Therefore, a g\_ prefix for class components or interface components is definitely the wrong choice.
 
 Note
 
@@ -557,20 +506,10 @@ All operands are now clearly known in the CONCATENATE statement. A prefix (l\_) 
 
 -   If you consistently use the selectors \-> and \=> to address the attributes of a class, all names without a prefix and with no specified class or a reference variable are known as local data objects.
 
-By applying the minimal naming convention used here, you can address all data objects that are declared in the displayed source code section in the method. Of course, the declaration of the global data objects is only implemented to demonstrate obscuring and how to prevent it. Global data objects should [no longer be used](javascript:call_link\('abendeclaration_variables_guidl.htm'\) "Guideline") in programs that do not work with classic dynpros.
+By applying the minimal naming convention used here, you can address all data objects that are declared in the displayed source code section in the method. Of course, the declaration of the global data objects is only implemented to demonstrate obscuring and how to prevent it. Global data objects should [no longer be used](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclaration_variables_guidl.htm "Guideline") in programs that do not work with classic dynpros.
 
-
-
-**📖 Source**: [abenprog_intern_names_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprog_intern_names_guidl.htm)
 
 ### abenstruc_comp_names_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenstruc_comp_names_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstruc_comp_names_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenstruc_comp_names_guidl.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstruc_comp_names_guidl.htm)
-
 
   
 
@@ -578,7 +517,7 @@ By applying the minimal naming convention used here, you can address all data ob
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Naming](javascript:call_link\('abennaming_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennaming_guidl.htm) → 
 
 Names of Structure Components
 
@@ -588,15 +527,15 @@ When ABAP programs are executed, the names of data objects usually only have the
 
 -   When structure components are assigned using
 
--   the statement [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\))
+-   the statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmove-corresponding.htm)
 
--   the component operator [CORRESPONDING](javascript:call_link\('abenconstructor_expr_corresponding.htm'\))
+-   the component operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expr_corresponding.htm)
 
--   the system class [CL\_ABAP\_CORRESPONDING](javascript:call_link\('abencl_abap_corresponding.htm'\))
+-   the system class [CL\_ABAP\_CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding.htm)
 
--   In ABAP SQL, in the addition [CORRESPONDING](javascript:call_link\('abapinto_clause.htm'\)) of the statement [SELECT](javascript:call_link\('abapselect.htm'\))
+-   In ABAP SQL, in the addition [CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm) of the statement [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm)
 
--   In [obsolete calculation statements](javascript:call_link\('abencomputing_obsolete.htm'\)) like [ADD-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+-   In [obsolete calculation statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomputing_obsolete.htm) like [ADD-CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapadd-corresponding.htm)
 
 In these language constructs, the names of the components of the structures in question are compared and the operation is executed using the identically named components (if not overridden by a mapping rule).
 

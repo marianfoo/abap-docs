@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ABAP Database Connectivity (ADBC)](javascript:call_link\('abenadbc.htm'\)) →  [ADBC - Examples](javascript:call_link\('abenadbc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennative_sql.htm) →  [ABAP Database Connectivity (ADBC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadbc.htm) →  [ADBC - Examples](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadbc_abexas.htm) → 
 
 ADBC - Prepared Statement
 
-The example demonstrates how a [prepared statement](javascript:call_link\('abencl_sql_prepared_statement.htm'\)) is created and executed using ADBC.
+The example demonstrates how a [prepared statement](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_sql_prepared_statement.htm) is created and executed using ADBC.
 
 Source Code
 
@@ -61,6 +61,6 @@ START-OF-SELECTION.
 
 Description
 
-In this example, a [query](javascript:call_link\('abenadbc_query.htm'\)) is instantiated as a prepared statement and is executed with various parameters.
+In this example, a [query](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadbc_query.htm) is instantiated as a prepared statement and is executed with various parameters.
 
 The work process cannot switch between the calls of the prepared statement, which means that dialogs using dynpros are not possible in the corresponding loop. Instead, the parameters to be evaluated are prepared and collected in a single internal table and the results lists are prepared and collected in another internal table.

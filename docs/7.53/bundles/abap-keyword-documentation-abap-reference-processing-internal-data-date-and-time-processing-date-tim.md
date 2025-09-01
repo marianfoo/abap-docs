@@ -3,27 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abendate_time_oview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_oview.htm)
-- [abentime_zone_rules.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm)
-- [abensystem_user_time_zones.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_user_time_zones.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.212Z
-
----
-
 ### abendate_time_oview.htm
-
-> **📖 Official SAP Documentation**: [abendate_time_oview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_oview.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,37 +11,30 @@ Included pages: 3
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_processing.htm) → 
 
 Date, Time, Time Stamp, and Time Zones
 
 Dates, times, and time stamps specify times with varying levels of precision.
 
--   A date (or calendar date) is a time specified to a precise day, week, or month with respect to a calendar. AS ABAP always references implicitly the Gregorian calendar valid across most of the world. Output can be converted to [country-specific calendars](javascript:call_link\('abencountry_formats.htm'\)). Dates are generally interpreted as local dates that are valid in the current time zone.
+-   A date (or calendar date) is a time specified to a precise day, week, or month with respect to a calendar. AS ABAP always references implicitly the Gregorian calendar valid across most of the world. Output can be converted to [country-specific calendars](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry_formats.htm). Dates are generally interpreted as local dates that are valid in the current time zone.
 
--   A time is specified to a precise second or minute with respect to a day. AS ABAP always saves times in 24-hour format. The output can have a [country-specific format](javascript:call_link\('abencountry_formats.htm'\)). Times are generally interpreted as local times that are valid in the current time zone.
+-   A time is specified to a precise second or minute with respect to a day. AS ABAP always saves times in 24-hour format. The output can have a [country-specific format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry_formats.htm). Times are generally interpreted as local times that are valid in the current time zone.
 
--   A time stamp specifies a combined date and time to a precise number of fractions of seconds, seconds, or minutes, and with respect to a reference time. AS ABAP always references implicitly the [UTC](javascript:call_link\('abenutc_glosry.htm'\) "Glossary Entry") reference time. The time stamp can be transformed to a local date and local time, using statement and functions where the required time zone is specified.
+-   A time stamp specifies a combined date and time to a precise number of fractions of seconds, seconds, or minutes, and with respect to a reference time. AS ABAP always references implicitly the [UTC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenutc_glosry.htm "Glossary Entry") reference time. The time stamp can be transformed to a local date and local time, using statement and functions where the required time zone is specified.
 
-The relationship between the local date and local time on the one hand, and global [UTC time stamps](javascript:call_link\('abenutc_timestamp_glosry.htm'\) "Glossary Entry") on the other, is governed by a set of time zone rules. These rules are stored in database tables. These rules also respect summer time.
+The relationship between the local date and local time on the one hand, and global [UTC time stamps](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenutc_timestamp_glosry.htm "Glossary Entry") on the other, is governed by a set of time zone rules. These rules are stored in database tables. These rules also respect summer time.
 
--   [Rules for Time Zones](javascript:call_link\('abentime_zone_rules.htm'\))
+-   [Rules for Time Zones](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm)
 
--   [System Time Zone and User Time Zone](javascript:call_link\('abensystem_user_time_zones.htm'\))
+-   [System Time Zone and User Time Zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_user_time_zones.htm)
 
 Continue
-[Rules for Time Zones](javascript:call_link\('abentime_zone_rules.htm'\))
-[System Time Zone and User Time Zone](javascript:call_link\('abensystem_user_time_zones.htm'\))
+[Rules for Time Zones](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm)
+[System Time Zone and User Time Zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_user_time_zones.htm)
 
-
-
-**📖 Source**: [abendate_time_oview.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_oview.htm)
 
 ### abentime_zone_rules.htm
-
-> **📖 Official SAP Documentation**: [abentime_zone_rules.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -69,7 +42,7 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Date, Time, Time Stamp, and Time Zones](javascript:call_link\('abendate_time_oview.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_processing.htm) →  [Date, Time, Time Stamp, and Time Zones](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_oview.htm) → 
 
 Rules for Time Zones
 
@@ -95,24 +68,14 @@ If a time zone specifies a summer time rule with a summer time difference not eq
 
 -   The time specified for the beginning of summer time in the tables TTZDF and TTZDV identifies the time when the clock is put forward by the summer time difference when the winter time ends. The first second of summer time is the time you get when you add the summer time difference to the specified time.
 
--   When summer time begins, a time interval of the length of the summer time difference is created, for which you can formulate a date and time, but which does not exist as a local time and which cannot be assigned to an UTC reference time. A local time of this type is handled in the statement [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)) as an invalid time.
+-   When summer time begins, a time interval of the length of the summer time difference is created, for which you can formulate a date and time, but which does not exist as a local time and which cannot be assigned to an UTC reference time. A local time of this type is handled in the statement [CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_date_time-stamp.htm) as an invalid time.
 
 -   The time specified in the database tables TTZDF or TTZDV for the end of summer time identifies the time when the clock is put back by the summer time difference when summer time ends. The first second of the winter time is the time you get when you subtract the summer time difference from the specified time.
 
--   When summer time ends, a time interval of the length of the summer time difference is created, which is passed twice as a local time (the double hour). If a date and time is formulated for this interval, the statement [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)) handles it as a time from summer time, by default.
+-   When summer time ends, a time interval of the length of the summer time difference is created, which is passed twice as a local time (the double hour). If a date and time is formulated for this interval, the statement [CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_date_time-stamp.htm) handles it as a time from summer time, by default.
 
-
-
-**📖 Source**: [abentime_zone_rules.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm)
 
 ### abensystem_user_time_zones.htm
-
-> **📖 Official SAP Documentation**: [abensystem_user_time_zones.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_user_time_zones.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abensystem_user_time_zones.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_user_time_zones.htm)
-
 
   
 
@@ -120,15 +83,15 @@ If a time zone specifies a summer time rule with a summer time difference not eq
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Date, Time, Time Stamp, and Time Zones](javascript:call_link\('abendate_time_oview.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_processing.htm) →  [Date, Time, Time Stamp, and Time Zones](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_oview.htm) → 
 
 System Time Zone and User Time Zone
 
-Two [time zones](javascript:call_link\('abentime_zone_glosry.htm'\) "Glossary Entry") are preconfigured in AS ABAP, the [system time zone](javascript:call_link\('abensystem_time_zone_glosry.htm'\) "Glossary Entry") and the [user time zone](javascript:call_link\('abenuser_time_zone_glosry.htm'\) "Glossary Entry").
+Two [time zones](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_glosry.htm "Glossary Entry") are preconfigured in AS ABAP, the [system time zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_time_zone_glosry.htm "Glossary Entry") and the [user time zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_time_zone_glosry.htm "Glossary Entry").
 
--   The system time zone is the client-specific time zone of the [system time](javascript:call_link\('abensystem_time_glosry.htm'\) "Glossary Entry") and the [system date](javascript:call_link\('abensystem_date_glosry.htm'\) "Glossary Entry") and cannot be changed while the system is running. It is contained in the column TZONESYS in the client-specific database table TTZCU.
+-   The system time zone is the client-specific time zone of the [system time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_time_glosry.htm "Glossary Entry") and the [system date](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_date_glosry.htm "Glossary Entry") and cannot be changed while the system is running. It is contained in the column TZONESYS in the client-specific database table TTZCU.
 
--   The user time zone is a client-specific time zone that can be defined for the [user time](javascript:call_link\('abenuser_time_glosry.htm'\) "Glossary Entry") and [user date](javascript:call_link\('abenuser_date_glosry.htm'\) "Glossary Entry") of each individual user in the [user master record](javascript:call_link\('abenuser_master_record_glosry.htm'\) "Glossary Entry"). It is contained in the system field sy-zonlo.
+-   The user time zone is a client-specific time zone that can be defined for the [user time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_time_glosry.htm "Glossary Entry") and [user date](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_date_glosry.htm "Glossary Entry") of each individual user in the [user master record](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_master_record_glosry.htm "Glossary Entry"). It is contained in the system field sy-zonlo.
 
 Both time zones are displayed in transaction SU01 on the Fixed Values tab, however only the user time zone can be changed here. This requires a new logon to take effect. If no user time zone is defined in the user master record, or the specified time zone is invalid or inactive, the default value from the column TZONEDEF in the database table TTZCU is used. If it is invalid or inactive, the system field sy-zonlo is filled with blanks.
 
@@ -149,13 +112,13 @@ CONVERT TIME STAMP ts TIME ZONE tzone
 
 System Time and System Date
 
-The system time and the system date are the local time and local date in AS ABAP in the system time zone. They are produced by regular synchronizations between the clock of the [ABAP runtime server](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry") and the clock of the database server. During the synchronization process, the ABAP runtime environment clock is set to the database server clock. Since this happens on all [AS Instances](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry") in [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry"), the ABAP runtime environment clock is synchronized with the clocks on all other AS Instances and with the database system clock, and therefore shows the system time and system date of the entire AS ABAP.
+The system time and the system date are the local time and local date in AS ABAP in the system time zone. They are produced by regular synchronizations between the clock of the [ABAP runtime server](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry") and the clock of the database server. During the synchronization process, the ABAP runtime environment clock is set to the database server clock. Since this happens on all [AS Instances](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapplication_server_glosry.htm "Glossary Entry") in [AS ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_nw_abap_glosry.htm "Glossary Entry"), the ABAP runtime environment clock is synchronized with the clocks on all other AS Instances and with the database system clock, and therefore shows the system time and system date of the entire AS ABAP.
 
-The [character-like system fields](javascript:call_link\('abentime_system_fields.htm'\)) sy-uzeit and sy-datum are provided with the system time and system date at certain times.
+The [character-like system fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm) sy-uzeit and sy-datum are provided with the system time and system date at certain times.
 
 Note
 
-From a technical perspective, the ABAP runtime environment clock is synchronized with the database server clock on request. If a time is required (for example, to populate [system fields for date and time](javascript:call_link\('abentime_system_fields.htm'\))), the system checks whether the last synchronization was performed during the specified interval. If this is not the case, synchronization is performed.
+From a technical perspective, the ABAP runtime environment clock is synchronized with the database server clock on request. If a time is required (for example, to populate [system fields for date and time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm)), the system checks whether the last synchronization was performed during the specified interval. If this is not the case, synchronization is performed.
 
 Example
 
@@ -170,11 +133,11 @@ CONVERT DATE sy-datum TIME sy-uzeit
 
 User Time and User Date
 
-The user time and the user date are the local time and local date of the current user, calculated from the system time and the user time zone. The [character-like system fields](javascript:call_link\('abentime_system_fields.htm'\)) sy-timlo and sy-datlo are provided with the user time and user date at certain times. If sy-zonlo is initial, sy-timlo and sy-datlo are given the same values as sy-uzeit and sy-datum, the system time and system date.
+The user time and the user date are the local time and local date of the current user, calculated from the system time and the user time zone. The [character-like system fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm) sy-timlo and sy-datlo are provided with the user time and user date at certain times. If sy-zonlo is initial, sy-timlo and sy-datlo are given the same values as sy-uzeit and sy-datum, the system time and system date.
 
 Note
 
-To get the local time and local date from a [UTC time stamp](javascript:call_link\('abenutc_timestamp_glosry.htm'\) "Glossary Entry") created using [GET TIME STAMP](javascript:call_link\('abapget_time-stamp.htm'\)), the content of the system field sy-zonlo can be passed to the statement [CONVERT TIME STAMP](javascript:call_link\('abapconvert_time-stamp.htm'\)). An initial value for the time zone is set in CONVERT TIME STAMP, but set implicitly to "UTC" and not to the system time zone.
+To get the local time and local date from a [UTC time stamp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenutc_timestamp_glosry.htm "Glossary Entry") created using [GET TIME STAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time-stamp.htm), the content of the system field sy-zonlo can be passed to the statement [CONVERT TIME STAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_time-stamp.htm). An initial value for the time zone is set in CONVERT TIME STAMP, but set implicitly to "UTC" and not to the system time zone.
 
 Example
 

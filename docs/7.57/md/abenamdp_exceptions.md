@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: AMDP - Exception Classes, ABENAMDP_EXCEPTIONS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0
 A%0D%0ASuggestion for improvement:)
 
 AMDP - Exception Classes
 
-The names of the exception classes of the exceptions that can be handled when an [AMDP procedure implementation](javascript:call_link\('abenamdp_procedure_methods.htm'\)) is called start with the prefix CX\_AMDP. The exceptions are all in the category CX\_DYNAMIC\_CHECK and must be declared explicitly using [RAISING](javascript:call_link\('abapmethods_general.htm'\)) in the definition of an [AMDP procedure implementation](javascript:call_link\('abenamdp_procedure_method_glosry.htm'\) "Glossary Entry") to be catchable when this method is called. The meaning of the exception classes is documented in their semantic properties in the class library.
+The names of the exception classes of the exceptions that can be handled when an [AMDP procedure implementation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_procedure_methods.htm) is called start with the prefix CX\_AMDP. The exceptions are all in the category CX\_DYNAMIC\_CHECK and must be declared explicitly using [RAISING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_general.htm) in the definition of an [AMDP procedure implementation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_procedure_method_glosry.htm "Glossary Entry") to be catchable when this method is called. The meaning of the exception classes is documented in their semantic properties in the class library.
 
 CX\_ROOT
   |
@@ -51,4 +51,4 @@ CX\_ROOT
 
 Hint
 
-No exceptions can be declared for [AMDP function implementations](javascript:call_link\('abenamdp_function_methods.htm'\)).
+No exceptions can be declared for [AMDP function implementations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_function_methods.htm).

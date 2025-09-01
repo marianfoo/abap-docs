@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, Implementation of a SQLScript Procedure
 
@@ -95,7 +95,7 @@ START-OF-SELECTION.
 
 Description
 
-A simple [SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") is implemented in three AMDP methods (showing the different options for self-defined [client handling](javascript:call_link\('abenamdp_client_handling.htm'\))) in the AMDP class CL\_DEMO\_AMDP:
+A simple [SQLScript procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") is implemented in three AMDP methods (showing the different options for self-defined [client handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_client_handling.htm)) in the AMDP class CL\_DEMO\_AMDP:
 
 -   INCREASE\_PRICE
 
@@ -106,7 +106,7 @@ METHOD increase\_price BY DATABASE PROCEDURE FOR HDB
                  where mandt = :clnt;
 ENDMETHOD.
 
-In this implementation, the input parameter clnt is used to access the data of the passed client, as [recommended](javascript:call_link\('abenamdp_client_handling.htm'\)).
+In this implementation, the input parameter clnt is used to access the data of the passed client, as [recommended](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_client_handling.htm).
 
 -   INCREASE\_PRICE\_CLIENT
 
@@ -117,7 +117,7 @@ METHOD increase\_price\_client BY DATABASE PROCEDURE FOR HDB
                  where mandt = SESSION\_CONTEXT('CLIENT');
 ENDMETHOD.
 
-In this implementation, the [ABAP-specific session variable](javascript:call_link\('abenhana_session_variables.htm'\)) CLIENT is used to access the data of the current client.
+In this implementation, the [ABAP-specific session variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_session_variables.htm) CLIENT is used to access the data of the current client.
 
 -   INCREASE\_PRICE\_CDS\_CLIENT
 
@@ -128,9 +128,9 @@ METHOD increase\_price\_cds\_client BY DATABASE PROCEDURE FOR HDB
                  where mandt = SESSION\_CONTEXT('CDS\_CLIENT');
 ENDMETHOD.
 
-In this implementation, the [ABAP-specific session variable](javascript:call_link\('abenhana_session_variables.htm'\)) CDS\_CLIENT is used to access the data of the current client. The addition [AMDP OPTIONS CDS SESSION CLIENT CURRENT](javascript:call_link\('abapmethods_amdp_options.htm'\)) is used for this purpose in the declaration of the method.
+In this implementation, the [ABAP-specific session variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_session_variables.htm) CDS\_CLIENT is used to access the data of the current client. The addition [AMDP OPTIONS CDS SESSION CLIENT CURRENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_amdp_options.htm) is used for this purpose in the declaration of the method.
 
-The database table SPFLI defined in ABAP Dictionary must be specified after USING. On a SAP HANA database, this program works in the same way as the executable examples for [ADBC](javascript:call_link\('abenadbc_procedure_abexa.htm'\)) and for [CALL DATABASE PROCEDURE](javascript:call_link\('abencall_db_procedure_abexa.htm'\)). AMDP replaces these technologies when calling database procedures for an SAP HANA database that is the [standard database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") of an AS ABAP.
+The database table SPFLI defined in ABAP Dictionary must be specified after USING. On a SAP HANA database, this program works in the same way as the executable examples for [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc_procedure_abexa.htm) and for [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_db_procedure_abexa.htm). AMDP replaces these technologies when calling database procedures for an SAP HANA database that is the [standard database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_db_glosry.htm "Glossary Entry") of an AS ABAP.
 
 It is generally preferable to pass the client ID to an input parameter of a use of the ABAP-specific session variable CLIENT or CDS\_CLIENT.
 

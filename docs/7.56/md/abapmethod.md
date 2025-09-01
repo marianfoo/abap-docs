@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Structure](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) →  [Methods](javascript:call_link\('abenabap_methods.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Program Structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_modularization.htm) →  [Procedures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_procedures.htm) →  [Methods](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_methods.htm) → 
 
 METHOD
 
-[Short Reference](javascript:call_link\('abapmethod_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethod_shortref.htm)
 
 Syntax
 
@@ -18,18 +18,18 @@ ENDMETHOD.
 
 Effect
 
-Between the statements METHOD and ENDMETHOD, the functionality of a [method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") meth declared using [*\[*CLASS-*\]*](javascript:call_link\('abapclass-methods.htm'\))[METHODS](javascript:call_link\('abapmethods.htm'\)) is implemented in a class. The implementation of a method is only possible in an implementation part of a class that was initiated using [CLASS class IMPLEMENTATION](javascript:call_link\('abapclass.htm'\)).
+Between the statements METHOD and ENDMETHOD, the functionality of a [method](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethod_glosry.htm "Glossary Entry") meth declared using [*\[*CLASS-*\]*](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass-methods.htm)[METHODS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods.htm) is implemented in a class. The implementation of a method is only possible in an implementation part of a class that was initiated using [CLASS class IMPLEMENTATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass.htm).
 
 Local data types and data objects can be declared within the method. It is also possible to access the formal parameters of the method as well as all components of all instances of its own class.
 
-In [instance methods](javascript:call_link\('abeninstance_method_glosry.htm'\) "Glossary Entry"), all components of the class and instance of the method can be addressed explicitly using the [self-reference](javascript:call_link\('abenself_reference_glosry.htm'\) "Glossary Entry") me->, besides their names. In addition, all components of other instances of the class of the method can be addressed using reference variables.
+In [instance methods](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninstance_method_glosry.htm "Glossary Entry"), all components of the class and instance of the method can be addressed explicitly using the [self-reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenself_reference_glosry.htm "Glossary Entry") me->, besides their names. In addition, all components of other instances of the class of the method can be addressed using reference variables.
 
-A method can be called [statically](javascript:call_link\('abenmethod_calls_static.htm'\)) or [dynamically](javascript:call_link\('abenmethod_calls_dynamic.htm'\)). For static calls, there is a standalone and a functional call form. Dynamic calls are always standalone calls.
+A method can be called [statically](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethod_calls_static.htm) or [dynamically](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethod_calls_dynamic.htm). For static calls, there is a standalone and a functional call form. Dynamic calls are always standalone calls.
 
 Hints
 
--   During the implementation of a method of an interface intf, either the name declared in the prefix with intf~ or an alias name of the class defined with [ALIASES](javascript:call_link\('abapaliases.htm'\)), can be specified for meth. The method must exist in the interface, otherwise a syntax error occurs. If intf~ is used, a syntax warning occurs for global interfaces only if an unused methods is deleted from the global interface, so that initial classes do not immediately become invalid because of this.
--   The addition [BY DATABASE PROCEDURE](javascript:call_link\('abapmethod_by_db_proc.htm'\)) transforms a method that is implemented in a database-specific language and not in ABAP and is executed in the database system into an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry").
+-   During the implementation of a method of an interface intf, either the name declared in the prefix with intf~ or an alias name of the class defined with [ALIASES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapaliases.htm), can be specified for meth. The method must exist in the interface, otherwise a syntax error occurs. If intf~ is used, a syntax warning occurs for global interfaces only if an unused methods is deleted from the global interface, so that initial classes do not immediately become invalid because of this.
+-   The addition [BY DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethod_by_db_proc.htm) transforms a method that is implemented in a database-specific language and not in ABAP and is executed in the database system into an [AMDP method](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp_method_glosry.htm "Glossary Entry").
 
 Example
 
@@ -54,4 +54,4 @@ CLASS c1 IMPLEMENTATION.
 ENDCLASS.
 
 Continue
-[METHOD, Internal Additions](javascript:call_link\('abapmethod_kernel_module_internal.htm'\))
+[METHOD, Internal Additions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethod_kernel_module_internal.htm)

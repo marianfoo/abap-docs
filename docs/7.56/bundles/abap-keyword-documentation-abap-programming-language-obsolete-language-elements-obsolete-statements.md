@@ -3,32 +3,7 @@
 Included pages: 11
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenrap_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm)
-- [abenabp_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_obsolete.htm)
-- [abapmethods_for_behavior.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_behavior.htm)
-- [abapmethods_for_det_val_obs.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_det_val_obs.htm)
-- [abeneml_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_obsolete.htm)
-- [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_get_features.htm)
-- [abenrap_le_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_le_obsolete.htm)
-- [abapderived_types_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_obsolete.htm)
-
-**Bundle Contains**: 8 documentation pages
-**Version**: ABAP 7.56
-**Generated**: 2025-09-01T11:25:45.480Z
-
----
-
 ### abenrap_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abenrap_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -36,53 +11,39 @@ Included pages: 11
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Statements for RAP
 
--   [Obsolete EML Statements](javascript:call_link\('abeneml_obsolete.htm'\))
+-   [Obsolete EML Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_obsolete.htm)
 
 Continue
-[Obsolete ABP Statements](javascript:call_link\('abenabp_obsolete.htm'\))
-[Obsolete ABAP EML Statements](javascript:call_link\('abeneml_obsolete.htm'\))
-[Obsolete ABAP EML Language Elements](javascript:call_link\('abenrap_le_obsolete.htm'\))
+[Obsolete ABP Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_obsolete.htm)
+[Obsolete ABAP EML Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_obsolete.htm)
+[Obsolete ABAP EML Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_le_obsolete.htm)
 
-
-
-**📖 Source**: [abenrap_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm)
 
 ### abenabp_obsolete.htm
 
-> **📖 Official SAP Documentation**: [abenabp_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Statements for RAP](javascript:call_link\('abenrap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Statements for RAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm) → 
 
 Obsolete ABP Statements
 
--   [METHODS, FOR BEHAVIOR](javascript:call_link\('abapmethods_for_behavior.htm'\))
--   [METHODS, FOR DETERMINATION, VALIDATION](javascript:call_link\('abapmethods_for_det_val_obs.htm'\))
+-   [METHODS, FOR BEHAVIOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_behavior.htm)
+-   [METHODS, FOR DETERMINATION, VALIDATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_det_val_obs.htm)
 
 Continue
-[METHODS, FOR BEHAVIOR](javascript:call_link\('abapmethods_for_behavior.htm'\))
-[METHODS, FOR DETERMINATION, VALIDATION](javascript:call_link\('abapmethods_for_det_val_obs.htm'\))
+[METHODS, FOR BEHAVIOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_behavior.htm)
+[METHODS, FOR DETERMINATION, VALIDATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_det_val_obs.htm)
 
-
-
-**📖 Source**: [abenabp_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_obsolete.htm)
 
 ### abapmethods_for_behavior.htm
-
-> **📖 Official SAP Documentation**: [abapmethods_for_behavior.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_behavior.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -90,7 +51,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Statements for RAP](javascript:call_link\('abenrap_obsolete.htm'\)) →  [Obsolete ABP Statements](javascript:call_link\('abenabp_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Statements for RAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm) →  [Obsolete ABP Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_obsolete.htm) → 
 
 METHODS, FOR BEHAVIOR
 
@@ -102,25 +63,18 @@ Syntax
 
 Effect
 
-Obsolete declaration of [ABP handler methods](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") in the [handler class](javascript:call_link\('abenabp_handler_class_glosry.htm'\) "Glossary Entry") of an [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"). When using the addition FOR BEHAVIOR, the methods must have one of the predefined names modify, read, or lock.
+Obsolete declaration of [ABP handler methods](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") in the [handler class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_class_glosry.htm "Glossary Entry") of an [ABAP behavior pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry"). When using the addition FOR BEHAVIOR, the methods must have one of the predefined names modify, read, or lock.
 
 Instead the following declarations should be used:
 
--   [METHODS meth FOR READ   ...](javascript:call_link\('abapmethods_for_rap_behv.htm'\))
--   [METHODS meth FOR MODIFY ...](javascript:call_link\('abapmethods_for_rap_behv.htm'\))
--   [METHODS meth FOR LOCK   ...](javascript:call_link\('abapmethods_for_rap_behv.htm'\))
+-   [METHODS meth FOR READ   ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_rap_behv.htm)
+-   [METHODS meth FOR MODIFY ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_rap_behv.htm)
+-   [METHODS meth FOR LOCK   ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_rap_behv.htm)
 
 Here, the name of the method is not prescribed. The meaning of the methods is defined by the addition FOR MODIFY, FOR READ, or FOR LOCK instead.
 
 
-
-**📖 Source**: [abapmethods_for_behavior.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_behavior.htm)
-
 ### abapmethods_for_det_val_obs.htm
-
-> **📖 Official SAP Documentation**: [abapmethods_for_det_val_obs.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_det_val_obs.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -128,7 +82,7 @@ Here, the name of the method is not prescribed. The meaning of the methods is de
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Statements for RAP](javascript:call_link\('abenrap_obsolete.htm'\)) →  [Obsolete ABP Statements](javascript:call_link\('abenabp_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Statements for RAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm) →  [Obsolete ABP Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_obsolete.htm) → 
 
 METHODS, FOR DETERMINATION, VALIDATION
 
@@ -139,69 +93,48 @@ Syntax
 
 Effect
 
-Obsolete declaration of [ABP handler methods](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") in the [handler class](javascript:call_link\('abenabp_handler_class_glosry.htm'\) "Glossary Entry") of an [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+Obsolete declaration of [ABP handler methods](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") in the [handler class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_class_glosry.htm "Glossary Entry") of an [ABAP behavior pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
 
-
-
-**📖 Source**: [abapmethods_for_det_val_obs.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_det_val_obs.htm)
 
 ### abenabp_obsolete.htm
 
-> **📖 Official SAP Documentation**: [abenabp_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Statements for RAP](javascript:call_link\('abenrap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Statements for RAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm) → 
 
 Obsolete ABP Statements
 
--   [METHODS, FOR BEHAVIOR](javascript:call_link\('abapmethods_for_behavior.htm'\))
--   [METHODS, FOR DETERMINATION, VALIDATION](javascript:call_link\('abapmethods_for_det_val_obs.htm'\))
+-   [METHODS, FOR BEHAVIOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_behavior.htm)
+-   [METHODS, FOR DETERMINATION, VALIDATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_det_val_obs.htm)
 
 Continue
-[METHODS, FOR BEHAVIOR](javascript:call_link\('abapmethods_for_behavior.htm'\))
-[METHODS, FOR DETERMINATION, VALIDATION](javascript:call_link\('abapmethods_for_det_val_obs.htm'\))
+[METHODS, FOR BEHAVIOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_behavior.htm)
+[METHODS, FOR DETERMINATION, VALIDATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_det_val_obs.htm)
 
-
-
-**📖 Source**: [abenabp_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_obsolete.htm)
 
 ### abeneml_obsolete.htm
 
-> **📖 Official SAP Documentation**: [abeneml_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Statements for RAP](javascript:call_link\('abenrap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Statements for RAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm) → 
 
 Obsolete ABAP EML Statements
 
--   [GET FEATURES](javascript:call_link\('abeneml_get_features.htm'\))
+-   [GET FEATURES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_get_features.htm)
 
 Continue
-[GET FEATURES](javascript:call_link\('abeneml_get_features.htm'\))
+[GET FEATURES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_get_features.htm)
 
-
-
-**📖 Source**: [abeneml_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_obsolete.htm)
 
 ### abeneml_get_features.htm
-
-> **📖 Official SAP Documentation**: [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_get_features.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -209,7 +142,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Statements for RAP](javascript:call_link\('abenrap_obsolete.htm'\)) →  [Obsolete ABAP EML Statements](javascript:call_link\('abeneml_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Statements for RAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm) →  [Obsolete ABAP EML Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_obsolete.htm) → 
 
 GET FEATURES
 
@@ -245,7 +178,7 @@ Addition:
 
 Effect
 
-[GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\)) should be used instead.
+[GET PERMISSIONS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_permissions.htm) should be used instead.
 
 Alternative 1   
 
@@ -290,14 +223,7 @@ Addition  
 Effect
 
 
-
-**📖 Source**: [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_get_features.htm)
-
 ### abeneml_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abeneml_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -305,49 +231,35 @@ Effect
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Statements for RAP](javascript:call_link\('abenrap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Statements for RAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm) → 
 
 Obsolete ABAP EML Statements
 
--   [GET FEATURES](javascript:call_link\('abeneml_get_features.htm'\))
+-   [GET FEATURES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_get_features.htm)
 
 Continue
-[GET FEATURES](javascript:call_link\('abeneml_get_features.htm'\))
+[GET FEATURES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_get_features.htm)
 
-
-
-**📖 Source**: [abeneml_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_obsolete.htm)
 
 ### abenrap_le_obsolete.htm
 
-> **📖 Official SAP Documentation**: [abenrap_le_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_le_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Statements for RAP](javascript:call_link\('abenrap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Statements for RAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm) → 
 
 Obsolete ABAP EML Language Elements
 
--   [Obsolete BDEF-Derived Types](javascript:call_link\('abapderived_types_obsolete.htm'\))
+-   [Obsolete BDEF-Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_obsolete.htm)
 
 Continue
-[ABAP EML - Obsolete BDEF Derived Types](javascript:call_link\('abapderived_types_obsolete.htm'\))
+[ABAP EML - Obsolete BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_obsolete.htm)
 
-
-
-**📖 Source**: [abenrap_le_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_le_obsolete.htm)
 
 ### abapderived_types_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abapderived_types_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -355,7 +267,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Statements for RAP](javascript:call_link\('abenrap_obsolete.htm'\)) →  [Obsolete ABAP EML Language Elements](javascript:call_link\('abenrap_le_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Statements for RAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm) →  [Obsolete ABAP EML Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_le_obsolete.htm) → 
 
 ABAP EML - Obsolete BDEF Derived Types
 
@@ -365,13 +277,13 @@ Syntax
 
 Effect
 
-Special ABAP type that is used for internal tables and structures in the context of [RAP](javascript:call_link\('abenrap_glosry.htm'\) "Glossary Entry") to enable the communication between a [RAP BO provider](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry") and a [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry").
+Special ABAP type that is used for internal tables and structures in the context of [RAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_glosry.htm "Glossary Entry") to enable the communication between a [RAP BO provider](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry") and a [RAP BO consumer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry").
 
 Overview
 
 The following table covers the variants including information on the BDEF prerequisites and its components.
 
-For more information on the components, see [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)). For more information on the BDEF specifications, see the subtopics in [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)).
+For more information on the components, see [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm). For more information on the BDEF specifications, see the subtopics in [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl.htm).
 
 TYPE TABLE FOR ...
 
@@ -383,30 +295,20 @@ Components
 
 LOCK
 
-Used to specify [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") that are to be locked in the context of the ABAP EML statement [SET LOCKS](javascript:call_link\('abapset_locks.htm'\)). It is basically the same as TYPE TABLE KEY OF (or TYPE STRUCTURE FOR KEY OF respectively). In ADT, a variable typed with TYPE TABLE FOR LOCK shows TYPE TABLE FOR KEY OF (or TYPE STRUCTURE FOR LOCK shows TYPE STRUCTURE FOR KEY OF respectively) in the element information (F2).
+Used to specify [RAP BO instances](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") that are to be locked in the context of the ABAP EML statement [SET LOCKS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_locks.htm). It is basically the same as TYPE TABLE KEY OF (or TYPE STRUCTURE FOR KEY OF respectively). In ADT, a variable typed with TYPE TABLE FOR LOCK shows TYPE TABLE FOR KEY OF (or TYPE STRUCTURE FOR LOCK shows TYPE STRUCTURE FOR KEY OF respectively) in the element information (F2).
 
-See the details in the CDS BDL documentation for [locking](javascript:call_link\('abenbdl_locking.htm'\)).
+See the details in the CDS BDL documentation for [locking](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_locking.htm).
 
 The keys (not %key).
 Note: %is\_draft and %pid are not possible.
 
 Further Information
 
--   [TYPE TABLE FOR](javascript:call_link\('abaptype_table_for.htm'\))
--   [TYPE STRUCTURE FOR](javascript:call_link\('abaptype_structure_for.htm'\))
+-   [TYPE TABLE FOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_table_for.htm)
+-   [TYPE STRUCTURE FOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_structure_for.htm)
 
-
-
-**📖 Source**: [abapderived_types_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_obsolete.htm)
 
 ### abenrap_le_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abenrap_le_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_le_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenrap_le_obsolete.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_le_obsolete.htm)
-
 
   
 
@@ -414,11 +316,11 @@ Further Information
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Statements for RAP](javascript:call_link\('abenrap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Statements for RAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm) → 
 
 Obsolete ABAP EML Language Elements
 
--   [Obsolete BDEF-Derived Types](javascript:call_link\('abapderived_types_obsolete.htm'\))
+-   [Obsolete BDEF-Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_obsolete.htm)
 
 Continue
-[ABAP EML - Obsolete BDEF Derived Types](javascript:call_link\('abapderived_types_obsolete.htm'\))
+[ABAP EML - Obsolete BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_obsolete.htm)

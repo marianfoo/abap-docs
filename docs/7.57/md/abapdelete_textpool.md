@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Development](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [Text Elements](javascript:call_link\('abentextpool.htm'\)) →  [Internal Statement for Editing Text Elements](javascript:call_link\('abengeneric_text_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_editing.htm) →  [Dynamic Program Development](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_dynamic.htm) →  [Text Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentextpool.htm) →  [Internal Statement for Editing Text Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneric_text_internal.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DELETE TEXTPOOL, ABAPDELETE_TEXTPOOL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASu
 ggestion for improvement:)
@@ -24,7 +24,7 @@ Addition:
 
 Effect
 
-[All](javascript:call_link\('abentext_element_glosry.htm'\) "Glossary Entry") text elements in the program whose name is in the field prog are deleted from the library in the specified language lg.
+[All](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_element_glosry.htm "Glossary Entry") text elements in the program whose name is in the field prog are deleted from the library in the specified language lg.
 If the value '\*' is used for lg, the text elements of all languages are deleted.
 
 Example
@@ -53,7 +53,7 @@ This addition determines whether the statement uses the active version or an ina
     -   the active version of the repository object if "A" is specified,
     -   the inactive version of the repository object if "I" is specified. The user to which the inactive version is assigned is not important here or whether the version is part of a worklist. If there are no inactive versions, the object is not accessed and sy-subrc is set to 4.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

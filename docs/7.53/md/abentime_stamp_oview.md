@@ -4,21 +4,25 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Time Stamp](javascript:call_link\('abentime_stamps.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_processing.htm) →  [Time Stamp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamps.htm) → 
 
 Time Stamps - Overview
 
--   [Representation of Time Stamps](#abentime-stamp-oview-1--------access-to-time-stamps---@ITOC@@ABENTIME_STAMP_OVIEW_2)
+-   [Representation of Time Stamps](#@@ITOC@@ABENTIME_STAMP_OVIEW_1)
 
--   [Notes on Handling Time Stamps](#abentime-stamp-oview-3--------examples---@ITOC@@ABENTIME_STAMP_OVIEW_4)
+-   [Access to Time Stamps](#@@ITOC@@ABENTIME_STAMP_OVIEW_2)
+
+-   [Notes on Handling Time Stamps](#@@ITOC@@ABENTIME_STAMP_OVIEW_3)
+
+-   [Examples](#@@ITOC@@ABENTIME_STAMP_OVIEW_4)
 
 Representation of Time Stamps
 
-[Time stamps](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") are represented using packed numbers of the type [p](javascript:call_link\('abenbuiltin_types_numeric.htm'\)). There is a short form and a long form.
+[Time stamps](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_glosry.htm "Glossary Entry") are represented using packed numbers of the type [p](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_numeric.htm). There is a short form and a long form.
 
 -   In the short form, a time stamp is represented precisely to the second using a packed number with length 8, and the ABAP Dictionary type TIMESTAMP. The digits of the packed number show the time stamp in the format "yyyymmddhhmmss", where "yyyy" is the year, "mm" is the month, "dd" is the day, "hh" is the hour, "mm" are the minutes, and "ss" are the seconds.
 
--   In the long form, a time stamp is represented precisely to 100 ns using a packed number with length 11 and seven decimal places, and the ABAP Dictionary type TIMESTAMPL The digits of the packed number show the time stamp in the format "yyyymmddhhmmss.sssssss", where, in addition to the short form, the seven decimal places "sssssss" are the fractions of a second. The maximum time resolution depends on the operating system of the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the current [AS Instance](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry") and can be less.
+-   In the long form, a time stamp is represented precisely to 100 ns using a packed number with length 11 and seven decimal places, and the ABAP Dictionary type TIMESTAMPL The digits of the packed number show the time stamp in the format "yyyymmddhhmmss.sssssss", where, in addition to the short form, the seven decimal places "sssssss" are the fractions of a second. The maximum time resolution depends on the operating system of the [host computer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the current [AS Instance](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapplication_server_glosry.htm "Glossary Entry") and can be less.
 
 In its integer part, a valid time stamp must contain valid dates and times:
 
@@ -26,7 +30,7 @@ In its integer part, a valid time stamp must contain valid dates and times:
 
 -   When specifying the time, only the values 00 to 23 for the hours, and 00 to 59 for the minutes and seconds are valid.
 
-A time valid in the Gregorian calendar must be represented. [Leap seconds](javascript:call_link\('abenleap_second_glosry.htm'\) "Glossary Entry") are not supported.
+A time valid in the Gregorian calendar must be represented. [Leap seconds](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenleap_second_glosry.htm "Glossary Entry") are not supported.
 
 Note
 
@@ -36,33 +40,33 @@ Access to Time Stamps
 
 Only a few statements recognize that packed numbers of the types TIMESTAMP and TIMESTAMPL are time stamps. All other statements interpret the content of these data types numerically and, with the exception of direct comparisons, are not suitable for handling time stamps. The following statements can be used to handle time stamps:
 
--   [GET TIME STAMP](javascript:call_link\('abapget_time-stamp.htm'\)) creates a current time stamp.
+-   [GET TIME STAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time-stamp.htm) creates a current time stamp.
 
--   [CONVERT TIME STAMP](javascript:call_link\('abapconvert_time-stamp.htm'\)) converts a time stamp to a local date and a local time.
+-   [CONVERT TIME STAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_time-stamp.htm) converts a time stamp to a local date and a local time.
 
--   [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)) converts a local date and a local time to a time stamp.
+-   [CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_date_time-stamp.htm) converts a local date and a local time to a time stamp.
 
 The following settings for formatting output also handle time stamps in a specific way:
 
--   Use of the options [TIMESTAMP](javascript:call_link\('abapcompute_string_format_options.htm'\)) and [TIMEZONE](javascript:call_link\('abapcompute_string_format_options.htm'\)) for [embedded expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)) in [string templates](javascript:call_link\('abenstring_templates.htm'\))
+-   Use of the options [TIMESTAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) and [TIMEZONE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) for [embedded expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates_expressions.htm) in [string templates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates.htm)
 
--   Use of the addition [TIME ZONE](javascript:call_link\('abapwrite_to_options.htm'\)) of the statement WRITE *\[*TO*\]*.
+-   Use of the addition [TIME ZONE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm) of the statement WRITE *\[*TO*\]*.
 
--   The domains XSDDATETIME\_Z and XSDDATETIME\_LONG\_Z support the serialization and deserialization of ABAP time stamps in [asXML](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)) and [asJSON](javascript:call_link\('abenabap_asjson_schema.htm'\)).
+-   The domains XSDDATETIME\_Z and XSDDATETIME\_LONG\_Z support the serialization and deserialization of ABAP time stamps in [asXML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xslt_asxml_schema.htm) and [asJSON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_asjson_schema.htm).
 
-The system class [CL\_ABAP\_TSTMP](javascript:call_link\('abencl_abap_tstmp.htm'\)) provides methods for adding, subtracting, converting, and comparing time stamps.
+The system class [CL\_ABAP\_TSTMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_tstmp.htm) provides methods for adding, subtracting, converting, and comparing time stamps.
 
 Note
 
-Special [time stamp functions](javascript:call_link\('abenddic_date_time_functions.htm'\)) can be used in [ABAP SQL](javascript:call_link\('abensql_timestamp_func.htm'\)) and the [CDS DDL](javascript:call_link\('abensql_timestamp_func.htm'\)) of the [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry") for editing time stamps saved in database tables.
+Special [time stamp functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_date_time_functions.htm) can be used in [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_timestamp_func.htm) and the [CDS DDL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_timestamp_func.htm) of the [ABAP CDS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_cds_glosry.htm "Glossary Entry") for editing time stamps saved in database tables.
 
 Notes on Handling Time Stamps
 
-Time stamps are only interpreted as such when they are accessed by the statements, methods, and functions listed above. When being assigned or converted, they behave like packed numbers of the type p, which means they are not suitable for direct calculations. Comparisons produce a meaningful result only when two time stamps are compared with each other. In programs for which the program attribute [Fixed Point Arithmetic](javascript:call_link\('abenfixed_point_arithmetic_glosry.htm'\) "Glossary Entry") is not set, note the rules applying to the data type p. In particular, direct comparisons of time stamps in the long form with the short form produce a meaningful result only when the program attribute fixed point arithmetic is set. Otherwise, you must use system class CL\_ABAP\_TSTMP for comparisons as well.
+Time stamps are only interpreted as such when they are accessed by the statements, methods, and functions listed above. When being assigned or converted, they behave like packed numbers of the type p, which means they are not suitable for direct calculations. Comparisons produce a meaningful result only when two time stamps are compared with each other. In programs for which the program attribute [Fixed Point Arithmetic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfixed_point_arithmetic_glosry.htm "Glossary Entry") is not set, note the rules applying to the data type p. In particular, direct comparisons of time stamps in the long form with the short form produce a meaningful result only when the program attribute fixed point arithmetic is set. Otherwise, you must use system class CL\_ABAP\_TSTMP for comparisons as well.
 
-A time stamp in its short form is the integer part of a time stamp in its long form. When assigning time stamps in the long form to time stamps in the short form, unwanted rounding effects occur. For this reason, always use the method MOVE of the system class [CL\_ABAP\_TSTMP](javascript:call_link\('abencl_abap_tstmp.htm'\)).
+A time stamp in its short form is the integer part of a time stamp in its long form. When assigning time stamps in the long form to time stamps in the short form, unwanted rounding effects occur. For this reason, always use the method MOVE of the system class [CL\_ABAP\_TSTMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_tstmp.htm).
 
-When time stamps are used in operand positions where they are not supposed to be used, no warnings are given by the syntax check or by the extended program check (not even in [lossless assignments](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry")).
+When time stamps are used in operand positions where they are not supposed to be used, no warnings are given by the syntax check or by the extended program check (not even in [lossless assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_assignment_glosry.htm "Glossary Entry")).
 
 Examples
 

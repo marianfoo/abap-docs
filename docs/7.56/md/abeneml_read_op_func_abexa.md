@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [READ ENTITY, ENTITIES](javascript:call_link\('abapread_entity_entities.htm'\)) →  [Examples for ABAP EML READ](javascript:call_link\('abapeml_read_examples.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml.htm) →  [READ ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities.htm) →  [Examples for ABAP EML READ](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_read_examples.htm) → 
 
 ABAP EML - READ, Operation Executing Functions
 
@@ -68,7 +68,7 @@ define view entity DEMO\_SFLIGHT
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_SPFLI\_FLIGHTS is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_SPFLI\_FLIGHTS is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_spfli\_flights unique;
 define behavior for DEMO\_SPFLI\_Flights
@@ -94,7 +94,7 @@ lock dependent by \_spfli
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_SPFLI\_FLIGHTS. This global class implements the local handler class LHC\_DEMO\_SPFLI\_FLIGHTS. The actual implementation takes place in the CCIMP include. In the example, the FunctionResultEntity method comprises an ABAP EML read operation reading the values of a selected set of fields from the entity DEMO\_SPFLI\_FLIGHTS. The values should be read according to specific keys that are specified in the internal table following the EXECUTE FunctionResultEntity FROM statement in the report.
+For the above CDS behavior definition, one [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_SPFLI\_FLIGHTS. This global class implements the local handler class LHC\_DEMO\_SPFLI\_FLIGHTS. The actual implementation takes place in the CCIMP include. In the example, the FunctionResultEntity method comprises an ABAP EML read operation reading the values of a selected set of fields from the entity DEMO\_SPFLI\_FLIGHTS. The values should be read according to specific keys that are specified in the internal table following the EXECUTE FunctionResultEntity FROM statement in the report.
 
 Source Code
 
@@ -148,8 +148,8 @@ Description
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program:
 
 -   The READ statement executes the function FunctionResultEntity for those entity instances whose keys are specified in the internal table following the EXECUTE FunctionResultEntity FROM statement.
--   The outcome of the function execution is stored in the table result. In this case, the simple function FunctionResultEntity, as it is implemented in the behavior pool, itself just reads the values of a selected set of fields from the [RAP BO instance](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") specified in a READ statement and considering the keys that have been passed. The read result is then passed to the result table.
+-   The outcome of the function execution is stored in the table result. In this case, the simple function FunctionResultEntity, as it is implemented in the behavior pool, itself just reads the values of a selected set of fields from the [RAP BO instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") specified in a READ statement and considering the keys that have been passed. The read result is then passed to the result table.
 -   To display the result of the read operation, an internal table is set up and filled with the values returned by the read operation.

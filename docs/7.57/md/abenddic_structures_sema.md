@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Data Types](javascript:call_link\('abenddic_data_types.htm'\)) →  [DDIC - Structures](javascript:call_link\('abenddic_structures.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary.htm) →  [DDIC - Data Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_data_types.htm) →  [DDIC - Structures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_structures.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DDIC - Semantic Properties of Structures, ABENDDIC_STRUCTURES_SEMA, 757%0D%0A%0D%0AEr
 ror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -27,33 +27,33 @@ Structures in the ABAP Dictionary can be given the following semantic properties
     
 -   Output style of components
     
-    A component with the directly specified type of a decimal floating point number can be assigned an [output style](javascript:call_link\('abenddic_decimal_floating_point.htm'\)) for dynpros.
+    A component with the directly specified type of a decimal floating point number can be assigned an [output style](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_decimal_floating_point.htm) for dynpros.
     
--   Reference field for components of the [built-in data types](javascript:call_link\('abenddic_builtin_types.htm'\)) CURR and QUAN
+-   Reference field for components of the [built-in data types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm) CURR and QUAN
     
-    A component of the same or a different structure (or DDIC database table or view) must be defined as a reference field (with the built-in data type CUKY or UNIT) for each [currency field](javascript:call_link\('abenddic_currency_field.htm'\)) with the type CURR and for each [quantity field](javascript:call_link\('abenddic_quantity_field.htm'\)) with the type QUAN. This field is the [currency key](javascript:call_link\('abencurrency_key_glosry.htm'\) "Glossary Entry") or [unit key](javascript:call_link\('abenunit_glosry.htm'\) "Glossary Entry") that specifies the currency or the unit. A table in which a reference field is defined is called a reference table.
+    A component of the same or a different structure (or DDIC database table or view) must be defined as a reference field (with the built-in data type CUKY or UNIT) for each [currency field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_currency_field.htm) with the type CURR and for each [quantity field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_quantity_field.htm) with the type QUAN. This field is the [currency key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencurrency_key_glosry.htm "Glossary Entry") or [unit key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunit_glosry.htm "Glossary Entry") that specifies the currency or the unit. A table in which a reference field is defined is called a reference table.
     
 -   Check table
     
-    Like table fields of DDIC database tables, structure components can be assigned [check tables](javascript:call_link\('abenddic_database_tables_checktab.htm'\)). This is useful for structures included in DDIC database tables and which become part of their [foreign keys](javascript:call_link\('abenddic_database_tables_forkey.htm'\)).
+    Like table fields of DDIC database tables, structure components can be assigned [check tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_checktab.htm). This is useful for structures included in DDIC database tables and which become part of their [foreign keys](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkey.htm).
     
 -   Spatial reference system
     
-    Structure components with the [geodata type](javascript:call_link\('abengeo_data_type_glosry.htm'\) "Glossary Entry") GEOM\_EWKB must be assigned [spatial reference systems](javascript:call_link\('abenddic_database_tables_sptlrf.htm'\)), just like table fields of DDIC database tables. This is relevant for structures that are included in DDIC database tables.
+    Structure components with the [geodata type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeo_data_type_glosry.htm "Glossary Entry") GEOM\_EWKB must be assigned [spatial reference systems](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_sptlrf.htm), just like table fields of DDIC database tables. This is relevant for structures that are included in DDIC database tables.
     
 -   Search help
     
-    Structure components whose data type is specified by a data element with an elementary data type can be assigned a [search help](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry"). This is only useful, however, for components used for input fields on UIs.
+    Structure components whose data type is specified by a data element with an elementary data type can be assigned a [search help](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensearch_help_glosry.htm "Glossary Entry"). This is only useful, however, for components used for input fields on UIs.
     
 -   Key field
     
-    Like table fields of DDIC database tables, structure components can be defined as [key fields](javascript:call_link\('abenddic_database_tables_key.htm'\)). Components of structures used as lock parameters in a [lock object](javascript:call_link\('abenlock_object_glosry.htm'\) "Glossary Entry") must be defined as key fields. When a structure with key fields is [included in DDIC database tables](javascript:call_link\('abenddic_database_tables_techstruc.htm'\)), however, they are not used as key fields of the DDIC database table. Either all or no fields of an included structure can become key fields when included.
+    Like table fields of DDIC database tables, structure components can be defined as [key fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_key.htm). Components of structures used as lock parameters in a [lock object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlock_object_glosry.htm "Glossary Entry") must be defined as key fields. When a structure with key fields is [included in DDIC database tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_techstruc.htm), however, they are not used as key fields of the DDIC database table. Either all or no fields of an included structure can become key fields when included.
     
 -   Flag for initial values
     
-    Like table fields of DDIC database tables, structure components can be assigned a [flag for initial values](javascript:call_link\('abenddic_database_tables_init.htm'\)). When a structure with such components is [included in DDIC database tables](javascript:call_link\('abenddic_database_tables_techstruc.htm'\)), the table fields can inherit these properties.
+    Like table fields of DDIC database tables, structure components can be assigned a [flag for initial values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_init.htm). When a structure with such components is [included in DDIC database tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_techstruc.htm), the table fields can inherit these properties.
     
 
 Hint
 
-Structure components whose type is defined using [data elements](javascript:call_link\('abenddic_data_elements.htm'\)) and not by being defined directly have the additional semantic properties of the data elements.
+Structure components whose type is defined using [data elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_data_elements.htm) and not by being defined directly have the additional semantic properties of the data elements.

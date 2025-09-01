@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [arith\_exp - Arithmetic Expressions](javascript:call_link\('abapcompute_arith.htm'\)) →  [arith\_exp - Lossless Calculations](javascript:call_link\('abenlossless_calculation.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompute_expressions.htm) →  [arith\_exp - Arithmetic Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_arith.htm) →  [arith\_exp - Lossless Calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlossless_calculation.htm) → 
 
 Lossless Calculations
 
-The example demonstrates [lossless calculations](javascript:call_link\('abenlossless_calculation_glosry.htm'\) "Glossary Entry") and the exceptions raised when roundings occur.
+The example demonstrates [lossless calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlossless_calculation_glosry.htm "Glossary Entry") and the exceptions raised when roundings occur.
 
 Source Code
 
@@ -62,7 +62,7 @@ START-OF-SELECTION.
 
 Description
 
-The lossless operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) makes the following calculations and assigns the result to a data object with the type decfloat34:
+The lossless operator [EXACT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_exact.htm) makes the following calculations and assigns the result to a data object with the type decfloat34:
 
 result = number / sy-index
 

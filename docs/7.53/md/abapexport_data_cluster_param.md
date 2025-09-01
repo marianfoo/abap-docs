@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) →  [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_cluster.htm) →  [EXPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_data_cluster.htm) → 
 
 EXPORT - parameter\_list
 
-[Quick Reference](javascript:call_link\('abapexport_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_shortref.htm)
 
 Syntax
 
@@ -24,7 +24,7 @@ Extras:
 
 Effect
 
-A [data cluster](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") can be defined statically by a list in the form p1 = dobj1 p2 = dobj2 ... or p1 FROM dobj1  p2 FROM dobj2 ... and dynamically by specifying a parenthesized internal table ptab. Here the system searches for the data saved in the data cluster under the names p1, p2, ... and so on. The case of the names in the data clusters depends on how they are specified in the ABAP runtime environment. If specified statically (b1, b2, ...), uppercase is used; if specified dynamically in rtab, the case used there is used.
+A [data cluster](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_cluster_glosry.htm "Glossary Entry") can be defined statically by a list in the form p1 = dobj1 p2 = dobj2 ... or p1 FROM dobj1  p2 FROM dobj2 ... and dynamically by specifying a parenthesized internal table ptab. Here the system searches for the data saved in the data cluster under the names p1, p2, ... and so on. The case of the names in the data clusters depends on how they are specified in the ABAP runtime environment. If specified statically (b1, b2, ...), uppercase is used; if specified dynamically in rtab, the case used there is used.
 
 If the data cluster is too big for the memory, an exception is raised.
 
@@ -38,19 +38,19 @@ Addition 2
 
 Effect
 
-In static cases, the content of the data objects dobj is stored under the names p1, p2, ... in the cluster. The name of a parameter p1, p2, ... is transformed to uppercase and can have a maximum of 255 characters. If specified, p1 = dobj1 p2 = dobj2 ... and p1 FROM dobj1  p2 FROM dobj2 ... have the same meaning. All data types can be used except reference types for the data object dobj or data types that contain reference types as components. If a data object dobj is an internal table with a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"), not the header line, but the [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry") is addressed. When an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") is used, the enumerated value is flagged as an enumerated type and saved in the basic type.
+In static cases, the content of the data objects dobj is stored under the names p1, p2, ... in the cluster. The name of a parameter p1, p2, ... is transformed to uppercase and can have a maximum of 255 characters. If specified, p1 = dobj1 p2 = dobj2 ... and p1 FROM dobj1  p2 FROM dobj2 ... have the same meaning. All data types can be used except reference types for the data object dobj or data types that contain reference types as components. If a data object dobj is an internal table with a [header line](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenheader_line_glosry.htm "Glossary Entry"), not the header line, but the [table body](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_body_glosry.htm "Glossary Entry") is addressed. When an [enumerated object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm "Glossary Entry") is used, the enumerated value is flagged as an enumerated type and saved in the basic type.
 
 Programming Guideline
 
-[Alternative Language Constructs](javascript:call_link\('abenalternative_langu_guidl.htm'\) "Guideline")
+[Alternative Language Constructs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalternative_langu_guidl.htm "Guideline")
 
 Notes
 
 -   The use of \= is recommended rather than FROM, since \= is also used by other ABAP statements to pass data.
     
--   Objects referenced by reference variables can first be serialized using the statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) and then exported. In instances of classes, the class must implement the interface IF\_SERIALIZABLE\_OBJECT here.
+-   Objects referenced by reference variables can first be serialized using the statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transformation.htm) and then exported. In instances of classes, the class must implement the interface IF\_SERIALIZABLE\_OBJECT here.
     
--   Outside of classes, and if the name does not contain a specified addressing such as an [instance component selector](javascript:call_link\('abeninstance_comp_selector_glosry.htm'\) "Glossary Entry") or an [offset/length specification](javascript:call_link\('abenoffset_length_specific_glosry.htm'\) "Glossary Entry"), the [obsolete short form](javascript:call_link\('abapexport_import_obsolete.htm'\)) dobj1 dobj2... can be used in the static variant. Here, all data objects are implicitly stored under their name in the data cluster.
+-   Outside of classes, and if the name does not contain a specified addressing such as an [instance component selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninstance_comp_selector_glosry.htm "Glossary Entry") or an [offset/length specification](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoffset_length_specific_glosry.htm "Glossary Entry"), the [obsolete short form](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_import_obsolete.htm) dobj1 dobj2... can be used in the static variant. Here, all data objects are implicitly stored under their name in the data cluster.
     
 
 Example
@@ -80,9 +80,9 @@ In the dynamic case, the parameter list is specified in an index table ptab with
 
 Notes
 
--   Data objects whose names contain lowercase letters in the data cluster cannot be read using the static variant of the [specified parameters](javascript:call_link\('abapimport_parameterlist.htm'\)) of the statement IMPORT.
+-   Data objects whose names contain lowercase letters in the data cluster cannot be read using the static variant of the [specified parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapimport_parameterlist.htm) of the statement IMPORT.
     
--   Outside of classes, a single-column internal table for parameter\_list can also be used. This is the dynamic variant of the [obsolete short form](javascript:call_link\('abapexport_import_obsolete.htm'\)) used to save the data objects listed in the table to the data cluster (implicitly using their names).
+-   Outside of classes, a single-column internal table for parameter\_list can also be used. This is the dynamic variant of the [obsolete short form](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapexport_import_obsolete.htm) used to save the data objects listed in the table to the data cluster (implicitly using their names).
     
 
 Example

@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Development](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) →  [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprogram_editing.htm) →  [Dynamic Program Development](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_generic_program.htm) →  [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsyntax-check_for_itab.htm) → 
 
 SYNTAX-CHECK, error\_handling
 
-[Short Reference](javascript:call_link\('abapsyntax-check_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsyntax-check_shortref.htm)
 
 Syntax
 
@@ -24,7 +24,7 @@ Additions:
 
 Effect
 
-These additions can be used for analyzing the syntax errors detected using the statement [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)).
+These additions can be used for analyzing the syntax errors detected using the statement [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsyntax-check_for_itab.htm).
 
 Addition 1   
 
@@ -32,7 +32,7 @@ Addition 1  
 
 Effect
 
-If one or more [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") are included in the source code contained in itab, and one of these programs contains the first syntax error of the checked program, the name of this include program is assigned to the variable incl. incl must be a character-like data object.
+If one or more [include programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninclude_program_glosry.htm "Glossary Entry") are included in the source code contained in itab, and one of these programs contains the first syntax error of the checked program, the name of this include program is assigned to the variable incl. incl must be a character-like data object.
 
 Addition 2   
 

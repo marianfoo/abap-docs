@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  T
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  T
 
 TEST-SEAM - Quick reference
 
-[Reference](javascript:call_link\('abaptest-seam.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptest-seam.htm)
 
 Syntax
 
@@ -18,4 +18,4 @@ END-TEST-SEAM.
 
 Effect
 
-Defines a [test seam](javascript:call_link\('abentest_seam_glosry.htm'\) "Glossary Entry").
+Defines a [test seam](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentest_seam_glosry.htm "Glossary Entry").

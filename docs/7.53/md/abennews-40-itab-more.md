@@ -4,33 +4,33 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [Changes in Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews.htm) →  [Changes in Releases 4.xx](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-4.htm) →  [Changes in Release 4.0](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-40.htm) → 
 
 Internal Tables and Extracts in Release 4.0
 
 Modification 1
 
 New addition for MODIFY: TRANSPORTING f1 f2 ...
-Using the addition [TRANSPORTING f1 f2 ... *\[*WHERE cond*\]*](javascript:call_link\('abapmodify_itab.htm'\)) of the statement MODIFY, it is now possible to target the content of individual fields and modify it (known as a selective field transport).
+Using the addition [TRANSPORTING f1 f2 ... *\[*WHERE cond*\]*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_itab.htm) of the statement MODIFY, it is now possible to target the content of individual fields and modify it (known as a selective field transport).
 
 Modification 2
 
 Unassigned field symbols for INSERT, SORT, and AT
-If the field symbol <fs> was not yet assigned (using [ASSIGN](javascript:call_link\('abapassign.htm'\))), it is ignored in the following statements:
+If the field symbol <fs> was not yet assigned (using [ASSIGN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign.htm)), it is ignored in the following statements:
 
--   [INSERT <fs> INTO fg.](javascript:call_link\('abapinsert_fg.htm'\))
+-   [INSERT <fs> INTO fg.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_fg.htm)
     
--   [SORT BY <fs>.](javascript:call_link\('abapsort_extract.htm'\))
+-   [SORT BY <fs>.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_extract.htm)
     
--   [SORT itab BY <fs>.](javascript:call_link\('abapsort_itab.htm'\))
+-   [SORT itab BY <fs>.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_itab.htm)
     
--   [AT NEW <fs>.](javascript:call_link\('abapat_extract.htm'\))
+-   [AT NEW <fs>.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
     
--   [AT END OF <fs>.](javascript:call_link\('abapat_extract.htm'\))
+-   [AT END OF <fs>.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm)
     
 
 Modification 3
 
 LOOP ... WHERE for unstructured row types
-A WHERE condition ([LOOP](javascript:call_link\('abaploop_at_itab.htm'\))) can now be formulated using the addition TABLE LINE for tables without structured row types (for example, tables with type I).
-The same applies to the WHERE variants of the statements [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)).
+A WHERE condition ([LOOP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab.htm)) can now be formulated using the addition TABLE LINE for tables without structured row types (for example, tables with type I).
+The same applies to the WHERE variants of the statements [DELETE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_itab.htm) and [MODIFY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_itab.htm).

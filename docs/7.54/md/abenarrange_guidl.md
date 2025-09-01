@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Comments](javascript:call_link\('abencomments_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Comments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomments_guidl.htm) → 
 
 Arrangement in the Source Code
 
@@ -26,7 +26,7 @@ In general, when users read source code, they prefer to view the comment first a
 For control structures, this means that comment lines directly before a control statement (such as IF or WHILE) refer to the associated condition and comment lines after the control statement refer to the associated statement block. Comment lines directly before an ELSE or WHEN OTHERS statement have obviously been put in the wrong place.
 
 End of line comments
-End of line comments are problematic in conjunction with executable statements. Individual executable program lines are usually not complex enough to justify a separate comment for each one. If you add end of line comments, they will often be [unwanted](javascript:call_link\('abencontent_guidl.htm'\) "Guideline") repetitions of what the statements clearly indicate already. In addition, these comments tend to be cryptic and unclear, because the ends of lines does not provide enough space for meaningful comments in most cases. A uniform alignment for end of line comments can only be achieved with a high degree of effort.
+End of line comments are problematic in conjunction with executable statements. Individual executable program lines are usually not complex enough to justify a separate comment for each one. If you add end of line comments, they will often be [unwanted](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencontent_guidl.htm "Guideline") repetitions of what the statements clearly indicate already. In addition, these comments tend to be cryptic and unclear, because the ends of lines does not provide enough space for meaningful comments in most cases. A uniform alignment for end of line comments can only be achieved with a high degree of effort.
 
 Therefore, you should make comments for entire statement blocks. Use self-contained comment lines to do this. This is because it is difficult to describe a reference to more than one statement line if you use end of line comments.
 
@@ -36,16 +36,16 @@ End of line comments are suitable for the following situations:
 
 -   To indicate block ends (separate from indentations) in larger control structures
 
--   To justify pseudo comments (at the relevant places) for hiding messages from the extended program check or [Code Inspector](javascript:call_link\('abencode_inspector_guidl.htm'\) "Guideline").
+-   To justify pseudo comments (at the relevant places) for hiding messages from the extended program check or [Code Inspector](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencode_inspector_guidl.htm "Guideline").
 
-The pseudo comments for hiding warnings of the extended program check and [Code Inspector](javascript:call_link\('abencode_inspector_guidl.htm'\) "Guideline") play a special role. They are not comments in the usual sense of the word. They are program directives that must be appear in the same lines as the commented statements to take full effect. These pseudo comments were replaced by pragmas for the extended program check.
+The pseudo comments for hiding warnings of the extended program check and [Code Inspector](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencode_inspector_guidl.htm "Guideline") play a special role. They are not comments in the usual sense of the word. They are program directives that must be appear in the same lines as the commented statements to take full effect. These pseudo comments were replaced by pragmas for the extended program check.
 
 Indentations
-Formatting source code using indentations is essential. Otherwise the human reader cannot understand the logical structure. This formatting is required by the rule for using the [pretty printer](javascript:call_link\('abenuse_pretty_printer_guidl.htm'\) "Guideline"). However, if comments are added in the source code that do not follow this formatting, they hide the logical structure and make the code difficult to read. Therefore, comment lines must have the same indentation as the statement lines that they relate to.
+Formatting source code using indentations is essential. Otherwise the human reader cannot understand the logical structure. This formatting is required by the rule for using the [pretty printer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_pretty_printer_guidl.htm "Guideline"). However, if comments are added in the source code that do not follow this formatting, they hide the logical structure and make the code difficult to read. Therefore, comment lines must have the same indentation as the statement lines that they relate to.
 
-These indentations can only be achieved using comments that start with a quotation mark ("), because this character can be in any position. A comment line that starts with an asterisk (\*) must always be in the first position. It is therefore strongly recommended that you start all comments used in procedures ([methods](javascript:call_link\('abenuse_operand_position_guidl.htm'\) "Guideline")) with a quotation mark and the correct indentation. Comment lines that start with a quotation mark must not be confused with end of line comments, which are appear after different code.
+These indentations can only be achieved using comments that start with a quotation mark ("), because this character can be in any position. A comment line that starts with an asterisk (\*) must always be in the first position. It is therefore strongly recommended that you start all comments used in procedures ([methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_operand_position_guidl.htm "Guideline")) with a quotation mark and the correct indentation. Comment lines that start with a quotation mark must not be confused with end of line comments, which are appear after different code.
 
-Comment lines that start with an asterisk should only be used for head comments of classes and procedures. Here they help to [subdivide](javascript:call_link\('abencontent_guidl.htm'\) "Guideline") source code into logical sections. In addition, they are useful for temporarily disabling statements by commenting them out. The commented-out code can be clearly distinguished from actually indented comments.
+Comment lines that start with an asterisk should only be used for head comments of classes and procedures. Here they help to [subdivide](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencontent_guidl.htm "Guideline") source code into logical sections. In addition, they are useful for temporarily disabling statements by commenting them out. The commented-out code can be clearly distinguished from actually indented comments.
 
 Bad Example
 

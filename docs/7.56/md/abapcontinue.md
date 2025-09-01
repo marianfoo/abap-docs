@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Loops](javascript:call_link\('abenleave_loops.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenleave_program_units.htm) →  [Exiting Loops](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenleave_loops.htm) → 
 
 CONTINUE
 
-[Short Reference](javascript:call_link\('abapcontinue_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcontinue_shortref.htm)
 
 Syntax
 
@@ -16,7 +16,7 @@ CONTINUE.
 
 Effect
 
-The statement CONTINUE may only be used in [loops](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry"). If it is used, the current loop pass is terminated immediately and the program flow is continued with the next loop pass.
+The statement CONTINUE may only be used in [loops](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_glosry.htm "Glossary Entry"). If it is used, the current loop pass is terminated immediately and the program flow is continued with the next loop pass.
 
 Example
 

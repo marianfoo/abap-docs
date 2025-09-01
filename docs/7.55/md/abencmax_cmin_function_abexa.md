@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Functions (string\_func)](javascript:call_link\('abenstring_functions.htm'\)) →  [string\_func - Examples](javascript:call_link\('abenstring_functions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_expr_func.htm) →  [String Functions (string\_func)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions.htm) →  [string\_func - Examples](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_abexas.htm) → 
 
 string\_func - cmax, cmin, and segment
 
-This example demonstrates the extremum functions [cmax](javascript:call_link\('abencmax_cmin_functions.htm'\)) and [cmin](javascript:call_link\('abennmax_nmin_functions.htm'\)), plus the segment function [segment](javascript:call_link\('abensegment_functions.htm'\)).
+This example demonstrates the extremum functions [cmax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencmax_cmin_functions.htm) and [cmin](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennmax_nmin_functions.htm), plus the segment function [segment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensegment_functions.htm).
 
 Source Code
 
@@ -46,4 +46,4 @@ START-OF-SELECTION.
 
 Description
 
-This program determines the minimum and the maximum segment of a character string with respect to the current [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry").
+This program determines the minimum and the maximum segment of a character string with respect to the current [code page](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencodepage_glosry.htm "Glossary Entry").

@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) →  [CALL TRANSFORMATION - Examples](javascript:call_link\('abencall_transformation_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_trafos.htm) →  [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transformation.htm) →  [CALL TRANSFORMATION - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_transformation_abexas.htm) → 
 
 Transformation of XML Element Names
 
@@ -79,21 +79,21 @@ In deserializations of XML data to ABAP data, the XML elements in question must 
 
 -   A structure, simple\_struc, is serialized using various XSL transformations.
 
--   The [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID creates [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") with XML element names in uppercase letters.
+-   The [identity transformation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID creates [asXML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenasxml_glosry.htm "Glossary Entry") with XML element names in uppercase letters.
 
 -   The self-written XSL transformation DEMO\_ID\_UPPER\_LOWER transforms the XML element names created by the serialization to lowercase letters, if the correct parameter passing is used.
 
--   The self-written XSL transformation DEMO\_ID\_FROM\_TO\_MIXED transforms the XML element names created by the serialization to Mixed Case Style (also known as Camel Case Style), if the correct parameter passing is used. To do this, an ABAP method is called from the transformation and this method itself calls the built-in function [to\_mixed](javascript:call_link\('abencase_functions.htm'\)).
+-   The self-written XSL transformation DEMO\_ID\_FROM\_TO\_MIXED transforms the XML element names created by the serialization to Mixed Case Style (also known as Camel Case Style), if the correct parameter passing is used. To do this, an ABAP method is called from the transformation and this method itself calls the built-in function [to\_mixed](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencase_functions.htm).
 
--   Deserializations of the transformed asXML data with the [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID do not find the structure or the components.
+-   Deserializations of the transformed asXML data with the [identity transformation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID do not find the structure or the components.
 
 -   Deserializations of the transformed asXML data with the self-written XSL transformations, on the other hand, are successful.
 
 -   DEMO\_ID\_UPPER\_LOWER also transforms lowercase letters to uppercase letters.
 
--   DEMO\_ID\_FROM\_TO\_MIXED also calls a method for [to\_mixed](javascript:call_link\('abencase_functions.htm'\)). This simple example transformations is not, however, symmetrical in all cases.
+-   DEMO\_ID\_FROM\_TO\_MIXED also calls a method for [to\_mixed](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencase_functions.htm). This simple example transformations is not, however, symmetrical in all cases.
 
-Instead of transformations, parsers and renderers can be used, as demonstrated in the executable example for [JSON](javascript:call_link\('abenabap_json_names_to_upper_abexa.htm'\)). The serial processing used here can be useful when dealing with large volumes of data.
+Instead of transformations, parsers and renderers can be used, as demonstrated in the executable example for [JSON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_names_to_upper_abexa.htm). The serial processing used here can be useful when dealing with large volumes of data.
 
 The transformations used are as follows:
 

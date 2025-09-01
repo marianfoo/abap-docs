@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [VALUE - Value Operator](javascript:call_link\('abenconstructor_expression_value.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencreate_objects.htm) →  [VALUE - Value Operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_value.htm) → 
 
 VALUE - Initial Value for All Types
 
@@ -24,7 +24,7 @@ If no parameters are specified in the parentheses, the return value is set to it
 
 -   p with the length 8 and no decimal places if p is generic
 
--   The [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry") for a standard table type with generic primary table key
+-   The [standard key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_key_glosry.htm "Glossary Entry") for a standard table type with generic primary table key
 
 Other generic data types (except for table types) that are explicitly generic with respect to their secondary table keys cannot be made more concrete and produce a syntax error. More specifically, this applies to the types c, n, and x with generic lengths.
 
@@ -34,7 +34,7 @@ Notes
 
 -   Certain rules apply to derivations of the type in cases where # is specified for actual parameters that can be passed to generically typed formal parameters. These rules prevent syntax errors in programs that call a procedure and where the procedure makes the full typing of a formal parameter type more general by switching to a generic type.
 
--   If dtype or # stand for an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"), its initial value is generated according to its [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry").
+-   If dtype or # stand for an [enumerated type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), its initial value is generated according to its [base type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbase_type_glosry.htm "Glossary Entry").
 
 Example
 
@@ -58,7 +58,7 @@ START-OF-SELECTION.
 
 Executable Example
 
-[Value Operator, Type Inference](javascript:call_link\('abenvalue_type_inference_abexa.htm'\))
+[Value Operator, Type Inference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_type_inference_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Value Operator, Type Inference](javascript:call_link\('abenvalue_type_inference_abexa.htm'\))
+![Example](exa.gif "Example") [Value Operator, Type Inference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_type_inference_abexa.htm)

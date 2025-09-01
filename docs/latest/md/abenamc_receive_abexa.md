@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [ABAP Messaging Channels (AMC)](javascript:call_link\('abenamc.htm'\)) →  [AMC - Examples](javascript:call_link\('abenamc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_channels.htm) →  [ABAP Messaging Channels (AMC)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamc.htm) →  [AMC - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamc_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20AMC%20-%20Receiving%20Messages%2C%20ABENAMC_RECEIVE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 AMC - Receiving Messages
 
-This example demonstrates how messages are received using [AMC](javascript:call_link\('abenamc_glosry.htm'\) "Glossary Entry").
+This example demonstrates how messages are received using [AMC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamc_glosry.htm "Glossary Entry").
 
 Source Code   
 
@@ -162,8 +162,8 @@ Description  
 
 The local class message\_receiver implements the interfaces IF\_AMC\_MESSAGE\_RECEIVER\_TEXT, IF\_AMC\_MESSAGE\_RECEIVER\_BINARY, and IF\_AMC\_MESSAGE\_RECEIVER\_PCP. AMC consumers (created using the factory method CREATE\_MESSAGE\_CONSUMER of the system class CL\_AMC\_CHANNEL\_MANAGER) are used to register instances of this local class for the messaging channels /demo\_text, /demo\_binary, and /demo\_pcp of the application DEMO\_AMC from the package SABAPDEMOS.
 
-It is possible to select which messages are waited for. In accordance with this selection, the [WAIT](javascript:call_link\('abapwait_amc.htm'\)) statement creates a wait state that lasts until all corresponding fields text\_message, binary\_message, and pcp\_message have been filled in the callback routines RECEIVE triggered by messages. The wait time is limited to a definable number of seconds. The transaction SMAMC displays the registered AMC consumer during the wait time.
+It is possible to select which messages are waited for. In accordance with this selection, the [WAIT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwait_amc.htm) statement creates a wait state that lasts until all corresponding fields text\_message, binary\_message, and pcp\_message have been filled in the callback routines RECEIVE triggered by messages. The wait time is limited to a definable number of seconds. The transaction SMAMC displays the registered AMC consumer during the wait time.
 
-The required messages can be sent by executing CL\_DEMO\_SEND\_AMC (see the executable example [Sending AMC Messages](javascript:call_link\('abenamc_send_abexa.htm'\))) from any current AS ABAP user session. The content of the messages is displayed once they have been received. The executable example [APC, WebSocket Communication](javascript:call_link\('abenapc_abexa.htm'\)) shows how the messaging channels are linked with [ABAP push channels (APC)](javascript:call_link\('abenapc.htm'\)). The class CL\_DEMO\_RECEIVE\_AMC also receives messages sent from Web pages connected to an APC like this.
+The required messages can be sent by executing CL\_DEMO\_SEND\_AMC (see the executable example [Sending AMC Messages](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamc_send_abexa.htm)) from any current AS ABAP user session. The content of the messages is displayed once they have been received. The executable example [APC, WebSocket Communication](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_abexa.htm) shows how the messaging channels are linked with [ABAP push channels (APC)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc.htm). The class CL\_DEMO\_RECEIVE\_AMC also receives messages sent from Web pages connected to an APC like this.
 
-The ID of the receiver session is displayed in the input window of the class. If this ID is entered in the executable example for [sending AMC messages](javascript:call_link\('abenamc_send_abexa.htm'\)), point-to-point communication is used and only this receiver session is sent.
+The ID of the receiver session is displayed in the input window of the class. If this ID is entered in the executable example for [sending AMC messages](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamc_send_abexa.htm), point-to-point communication is used and only this receiver session is sent.

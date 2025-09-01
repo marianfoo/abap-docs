@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Statements](javascript:call_link\('abenldb_abap_statements.htm'\)) →  [Statements for Logical Databases](javascript:call_link\('abenldb_reporting_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb.htm) →  [Logical Databases - Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_abap_statements.htm) →  [Statements for Logical Databases](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb_reporting_statements.htm) → 
 
 SELECT-OPTIONS - NO DATABASE SELECTION
 
-[Quick Reference](javascript:call_link\('abapselect-options_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options_shortref.htm)
 
 Obsolete Syntax
 
@@ -16,16 +16,16 @@ Obsolete Syntax
 
 Effect
 
-The addition NO DATABASE SELECTION of the statement [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)) is only possible in an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") that is connected to a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") and controls the passing of the [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") to the logical database in the following situations:
+The addition NO DATABASE SELECTION of the statement [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options.htm) is only possible in an [executable program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexecutable_program_glosry.htm "Glossary Entry") that is connected to a [logical database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") and controls the passing of the [selection table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_table_glosry.htm "Glossary Entry") to the logical database in the following situations:
 
--   It is used in an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") that is associated with a logical database.
+-   It is used in an [executable program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexecutable_program_glosry.htm "Glossary Entry") that is associated with a logical database.
     
--   A component of a node in the connected logical database is specified for dobj after the addition [FOR](javascript:call_link\('abapselect-options_for.htm'\)) and is declared in the program with a [TABLES](javascript:call_link\('abaptables.htm'\)) or [NODES](javascript:call_link\('abapnodes.htm'\)) statement.
+-   A component of a node in the connected logical database is specified for dobj after the addition [FOR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect-options_for.htm) and is declared in the program with a [TABLES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables.htm) or [NODES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnodes.htm) statement.
     
 -   The node in the logical database is designed for dynamic selections.
     
 
-If this addition is specified, the [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") is not passed to the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") as a dynamic selection after [selection screen processing](javascript:call_link\('abenselscreen_processing_glosry.htm'\) "Glossary Entry").
+If this addition is specified, the [selection table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_table_glosry.htm "Glossary Entry") is not passed to the [logical database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") as a dynamic selection after [selection screen processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselscreen_processing_glosry.htm "Glossary Entry").
 
 Note
 

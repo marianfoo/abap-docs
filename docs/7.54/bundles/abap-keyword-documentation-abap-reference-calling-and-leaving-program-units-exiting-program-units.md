@@ -3,37 +3,7 @@
 Included pages: 16
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenleave_program_units.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm)
-- [abenabap_leave_program.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_leave_program.htm)
-- [abapleave_program.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_program.htm)
-- [abenleave_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_processing_blocks.htm)
-- [abenend_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenend_processing_blocks.htm)
-- [abapreturn.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreturn.htm)
-- [abapexit_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_processing_blocks.htm)
-- [abapcheck_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_processing_blocks.htm)
-- [abapstop.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstop.htm)
-- [abenleave_loops.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_loops.htm)
-- [abapexit_loop.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_loop.htm)
-- [abapcheck_loop.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_loop.htm)
-- [abapcontinue.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcontinue.htm)
-
-**Bundle Contains**: 13 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.936Z
-
----
-
 ### abenleave_program_units.htm
-
-> **📖 Official SAP Documentation**: [abenleave_program_units.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -41,33 +11,26 @@ Included pages: 16
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) → 
 
 Exiting Program Units
 
 Program units that can be exited using ABAP statements are:
 
--   [Complete ABAP programs](javascript:call_link\('abenabap_leave_program.htm'\))
+-   [Complete ABAP programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_leave_program.htm)
 
--   [Processing blocks](javascript:call_link\('abenleave_processing_blocks.htm'\))
+-   [Processing blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_processing_blocks.htm)
 
--   [Loops](javascript:call_link\('abenleave_loops.htm'\))
+-   [Loops](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_loops.htm)
 
 This translation does not reflect the current version of the documentation.
 Continue
-[Exiting Programs](javascript:call_link\('abenabap_leave_program.htm'\))
-[Exiting Processing Blocks](javascript:call_link\('abenleave_processing_blocks.htm'\))
-[Exiting Loops](javascript:call_link\('abenleave_loops.htm'\))
+[Exiting Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_leave_program.htm)
+[Exiting Processing Blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_processing_blocks.htm)
+[Exiting Loops](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_loops.htm)
 
-
-
-**📖 Source**: [abenleave_program_units.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm)
 
 ### abenabap_leave_program.htm
-
-> **📖 Official SAP Documentation**: [abenabap_leave_program.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_leave_program.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -75,32 +38,25 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) → 
 
 Exiting Programs
 
-This section contains the statement [LEAVE PROGRAM](javascript:call_link\('abapleave_program.htm'\)) used for exiting programs.
+This section contains the statement [LEAVE PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_program.htm) used for exiting programs.
 
 Apart from LEAVE PROGRAM, the following statements are also used to exit programs that calls other programs without returning to the caller after the call:
 
--   [LEAVE TO TRANSACTION](javascript:call_link\('abapleave_to_transaction.htm'\))
+-   [LEAVE TO TRANSACTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_to_transaction.htm)
 
--   [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) without AND RETURN
+-   [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm) without AND RETURN
 
 Exiting certain processing blocks can also cause the entire program to be exited implicitly.
 
 Continue
-[LEAVE PROGRAM](javascript:call_link\('abapleave_program.htm'\))
+[LEAVE PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_program.htm)
 
-
-
-**📖 Source**: [abenabap_leave_program.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_leave_program.htm)
 
 ### abapleave_program.htm
-
-> **📖 Official SAP Documentation**: [abapleave_program.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_program.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -108,11 +64,11 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Programs](javascript:call_link\('abenabap_leave_program.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) →  [Exiting Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_leave_program.htm) → 
 
 LEAVE PROGRAM
 
-[Quick Reference](javascript:call_link\('abapleave_program_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_program_shortref.htm)
 
 Syntax
 
@@ -120,24 +76,24 @@ LEAVE PROGRAM.
 
 Effect
 
-This statement ends the current [main program](javascript:call_link\('abenmain_program_glosry.htm'\) "Glossary Entry") immediately and deletes its [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"), including all loaded programs, instances, and their data.
+This statement ends the current [main program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmain_program_glosry.htm "Glossary Entry") immediately and deletes its [internal session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninternal_session_glosry.htm "Glossary Entry"), including all loaded programs, instances, and their data.
 
-The statement LEAVE PROGRAM can appear anywhere within any processing block. It ends the program regardless of the program or object in which it is executed or in which [program group](javascript:call_link\('abenprogram_group_glosry.htm'\) "Glossary Entry") of the internal session.
+The statement LEAVE PROGRAM can appear anywhere within any processing block. It ends the program regardless of the program or object in which it is executed or in which [program group](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_group_glosry.htm "Glossary Entry") of the internal session.
 
 The way the runtime environment responds to LEAVE PROGRAM depends on how the main program was called in the internal session:
 
--   If the main program was called using [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)), [SUBMIT AND RETURN](javascript:call_link\('abapsubmit.htm'\)), or [CALL DIALOG](javascript:call_link\('abapcall_dialog.htm'\)), the runtime environment returns to the calling program after the call point. If the main program was called using CALL DIALOG, the output parameters of the [dialog module](javascript:call_link\('abendialog_module_object_glosry.htm'\) "Glossary Entry") are passed to the calling program.
+-   If the main program was called using [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transaction.htm), [SUBMIT AND RETURN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm), or [CALL DIALOG](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_dialog.htm), the runtime environment returns to the calling program after the call point. If the main program was called using CALL DIALOG, the output parameters of the [dialog module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendialog_module_object_glosry.htm "Glossary Entry") are passed to the calling program.
     
--   If the main program was called using [LEAVE TO TRANSACTION](javascript:call_link\('abapleave_to_transaction.htm'\)) or using a transaction code from within a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), the runtime environment returns to the point at which the first program in the current [call sequence](javascript:call_link\('abencall_sequence_glosry.htm'\) "Glossary Entry") was called.
+-   If the main program was called using [LEAVE TO TRANSACTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_to_transaction.htm) or using a transaction code from within a [dynpro](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm "Glossary Entry"), the runtime environment returns to the point at which the first program in the current [call sequence](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_sequence_glosry.htm "Glossary Entry") was called.
     
--   If the main program was called using [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) without the addition AND RETURN, the runtime environment returns to the point at which the calling program was started.
+-   If the main program was called using [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm) without the addition AND RETURN, the runtime environment returns to the point at which the calling program was started.
     
 
 Notes
 
--   If procedures are still registered when a program is exited in the current [SAP LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry"), the SAP LUW is ended without calling or rolling back the procedures. Any registered [update function modules](javascript:call_link\('abenupdate_function_module_glosry.htm'\) "Glossary Entry") are preserved in the database, but can no longer be executed. In this case, the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) or [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) should be executed explicitly before leaving the program.
+-   If procedures are still registered when a program is exited in the current [SAP LUW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_luw_glosry.htm "Glossary Entry"), the SAP LUW is ended without calling or rolling back the procedures. Any registered [update function modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenupdate_function_module_glosry.htm "Glossary Entry") are preserved in the database, but can no longer be executed. In this case, the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcommit.htm) or [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaprollback.htm) should be executed explicitly before leaving the program.
     
--   The statement [LEAVE](javascript:call_link\('abapleave-.htm'\)) without additions is obsolete.
+-   The statement [LEAVE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave-.htm) without additions is obsolete.
     
 
 Example
@@ -156,14 +112,7 @@ IF sy-subrc > 1.
 ENDIF.
 
 
-
-**📖 Source**: [abapleave_program.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_program.htm)
-
 ### abenabap_leave_program.htm
-
-> **📖 Official SAP Documentation**: [abenabap_leave_program.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_leave_program.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -171,32 +120,25 @@ ENDIF.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) → 
 
 Exiting Programs
 
-This section contains the statement [LEAVE PROGRAM](javascript:call_link\('abapleave_program.htm'\)) used for exiting programs.
+This section contains the statement [LEAVE PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_program.htm) used for exiting programs.
 
 Apart from LEAVE PROGRAM, the following statements are also used to exit programs that calls other programs without returning to the caller after the call:
 
--   [LEAVE TO TRANSACTION](javascript:call_link\('abapleave_to_transaction.htm'\))
+-   [LEAVE TO TRANSACTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_to_transaction.htm)
 
--   [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) without AND RETURN
+-   [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm) without AND RETURN
 
 Exiting certain processing blocks can also cause the entire program to be exited implicitly.
 
 Continue
-[LEAVE PROGRAM](javascript:call_link\('abapleave_program.htm'\))
+[LEAVE PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_program.htm)
 
-
-
-**📖 Source**: [abenabap_leave_program.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_leave_program.htm)
 
 ### abenleave_processing_blocks.htm
-
-> **📖 Official SAP Documentation**: [abenleave_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_processing_blocks.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -204,66 +146,59 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) → 
 
 Exiting Processing Blocks
 
-[Processing blocks](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") can be exited implicitly using the following:
+[Processing blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocessing_block_glosry.htm "Glossary Entry") can be exited implicitly using the following:
 
--   [normal exiting](javascript:call_link\('abenend_processing_blocks.htm'\))
+-   [normal exiting](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenend_processing_blocks.htm)
 
 or program-driven exiting, using these statements:
 
--   [RETURN](javascript:call_link\('abapreturn.htm'\))
+-   [RETURN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreturn.htm)
 
--   [EXIT](javascript:call_link\('abapexit_processing_blocks.htm'\))
+-   [EXIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_processing_blocks.htm)
 
--   [CHECK](javascript:call_link\('abapcheck_processing_blocks.htm'\))
+-   [CHECK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_processing_blocks.htm)
 
--   [STOP](javascript:call_link\('abapstop.htm'\))
+-   [STOP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstop.htm)
 
--   [CHECK SELECT-OPTIONS](javascript:call_link\('abapcheck_select-options.htm'\)) (obsolete, for logical databases only)
+-   [CHECK SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_select-options.htm) (obsolete, for logical databases only)
 
--   [REJECT](javascript:call_link\('abapreject.htm'\)) (obsolete, for logical databases only)
+-   [REJECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreject.htm) (obsolete, for logical databases only)
 
 The onward flow of the program depends on the type of processing block.
 
 In addition to the statements described here, statements that call other units without returning to the caller after the call is made, also end their processing block. These include:
 
--   [LEAVE *\[*TO*\]* SCREEN](javascript:call_link\('abapleave_screen.htm'\))
+-   [LEAVE *\[*TO*\]* SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_screen.htm)
 
--   [LEAVE LIST-PROCESSING](javascript:call_link\('abapleave_list-processing.htm'\))
+-   [LEAVE LIST-PROCESSING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_list-processing.htm)
 
--   [LEAVE TO TRANSACTION](javascript:call_link\('abapleave_to_transaction.htm'\))
+-   [LEAVE TO TRANSACTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_to_transaction.htm)
 
--   [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) without AND RETURN
+-   [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm) without AND RETURN
 
-[Messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") and raised [exceptions](javascript:call_link\('abenexception_glosry.htm'\) "Glossary Entry") can also exit processing blocks.
+[Messages](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmessage_glosry.htm "Glossary Entry") and raised [exceptions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexception_glosry.htm "Glossary Entry") can also exit processing blocks.
 
 Programming Guideline
 
-[Only use RETURN to exit procedures](javascript:call_link\('abenexit_procedure_guidl.htm'\) "Guideline")
+[Only use RETURN to exit procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexit_procedure_guidl.htm "Guideline")
 
 Note
 
 Exiting a procedure using RETURN (or EXIT or CHECK) is the error-free way to exit the procedure. Formal parameters for which the pass by value is defined are not passed to the assigned actual parameters only if the procedure terminates after an error (an exception is triggered or a message is sent).
 
 Continue
-[Regular Exiting of a Processing Block](javascript:call_link\('abenend_processing_blocks.htm'\))
-[RETURN](javascript:call_link\('abapreturn.htm'\))
-[EXIT - processing\_block](javascript:call_link\('abapexit_processing_blocks.htm'\))
-[CHECK - processing\_block](javascript:call_link\('abapcheck_processing_blocks.htm'\))
-[STOP](javascript:call_link\('abapstop.htm'\))
+[Regular Exiting of a Processing Block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenend_processing_blocks.htm)
+[RETURN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreturn.htm)
+[EXIT - processing\_block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_processing_blocks.htm)
+[CHECK - processing\_block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_processing_blocks.htm)
+[STOP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstop.htm)
 
-
-
-**📖 Source**: [abenleave_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_processing_blocks.htm)
 
 ### abenend_processing_blocks.htm
-
-> **📖 Official SAP Documentation**: [abenend_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenend_processing_blocks.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -271,7 +206,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Processing Blocks](javascript:call_link\('abenleave_processing_blocks.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) →  [Exiting Processing Blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_processing_blocks.htm) → 
 
 Regular Exiting of a Processing Block
 
@@ -279,11 +214,11 @@ A processing block is exited in a regular when reaching its end. For processing 
 
 Depending on the processing block exited, the runtime environment behaves as follows:
 
--   In [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry"), the program returns to after the point where they were called. The output parameters for which [pass by values](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry") are defined are passed to the bound actual parameters.
+-   In [procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocedure_glosry.htm "Glossary Entry"), the program returns to after the point where they were called. The output parameters for which [pass by values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpass_by_value_glosry.htm "Glossary Entry") are defined are passed to the bound actual parameters.
 
--   In [dialog modules](javascript:call_link\('abendialog_module_glosry.htm'\) "Glossary Entry"), the program returns to after the point in the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry") where they were called.
+-   In [dialog modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendialog_module_glosry.htm "Glossary Entry"), the program returns to after the point in the [dynpro flow logic](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry") where they were called.
 
--   In [event blocks](javascript:call_link\('abenevent_block_glosry.htm'\) "Glossary Entry"), the control is given back to the runtime environment and the current process of the runtime environment continues with the program execution.
+-   In [event blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevent_block_glosry.htm "Glossary Entry"), the control is given back to the runtime environment and the current process of the runtime environment continues with the program execution.
 
 Example
 
@@ -304,14 +239,7 @@ START-OF-SELECTION.
   cl\_demo\_output=>display( \`After procedure\` ).
 
 
-
-**📖 Source**: [abenend_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenend_processing_blocks.htm)
-
 ### abapreturn.htm
-
-> **📖 Official SAP Documentation**: [abapreturn.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreturn.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -319,11 +247,11 @@ START-OF-SELECTION.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Processing Blocks](javascript:call_link\('abenleave_processing_blocks.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) →  [Exiting Processing Blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_processing_blocks.htm) → 
 
 RETURN
 
-[Quick Reference](javascript:call_link\('abapreturn_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreturn_shortref.htm)
 
 Syntax
 
@@ -331,24 +259,24 @@ RETURN.
 
 Effect
 
-This statement ends the current processing block immediately. It can appear at any point in a [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") and ends this block regardless of the statement block or control structure in which the block appears.
+This statement ends the current processing block immediately. It can appear at any point in a [processing block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocessing_block_glosry.htm "Glossary Entry") and ends this block regardless of the statement block or control structure in which the block appears.
 
-After the processing block is exited, the runtime environment responds in the same way as when the [processing block is exited in a regular way](javascript:call_link\('abenend_processing_blocks.htm'\)) (with the exception of [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) and the [reporting event blocks](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry") START-OF-SELECTION and GET) . In particular, the output parameters of procedures are passed on to the bound actual parameters.
+After the processing block is exited, the runtime environment responds in the same way as when the [processing block is exited in a regular way](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenend_processing_blocks.htm) (with the exception of [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapload-of-program.htm) and the [reporting event blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreporting_event_glosry.htm "Glossary Entry") START-OF-SELECTION and GET) . In particular, the output parameters of procedures are passed on to the bound actual parameters.
 
 -   The event block LOAD-OF-PROGRAM cannot be exited using RETURN.
     
 -   After the reporting event block START-OF-SELECTION is exited using RETURN, the runtime environment does not raise any more reporting events and instead calls the list processor directly to display the basic list.
     
--   After the reporting event block GET is exited using RETURN, subordinate nodes in the hierarchical structure of the associated [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") are no longer processed. The logical database reads the next line of the current node or next higher node, if it has reached the end of the hierarchy level.
+-   After the reporting event block GET is exited using RETURN, subordinate nodes in the hierarchical structure of the associated [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") are no longer processed. The logical database reads the next line of the current node or next higher node, if it has reached the end of the hierarchy level.
     
 
 Programming Guideline
 
-[Only use RETURN to exit procedures](javascript:call_link\('abenexit_procedure_guidl.htm'\) "Guideline")
+[Only use RETURN to exit procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexit_procedure_guidl.htm "Guideline")
 
 Note
 
-The statement RETURN is provided for exiting processing blocks early but correctly. However, since RETURN behaves differently in [GET](javascript:call_link\('abapget-.htm'\)) events than when the event block is exited as usual, the statement [REJECT](javascript:call_link\('abapreject_shortref.htm'\)) should be used here, which was designed especially for this purpose.
+The statement RETURN is provided for exiting processing blocks early but correctly. However, since RETURN behaves differently in [GET](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget-.htm) events than when the event block is exited as usual, the statement [REJECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreject_shortref.htm) should be used here, which was designed especially for this purpose.
 
 Example
 
@@ -371,14 +299,7 @@ METHOD show\_list.
 ENDMETHOD.
 
 
-
-**📖 Source**: [abapreturn.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreturn.htm)
-
 ### abapexit_processing_blocks.htm
-
-> **📖 Official SAP Documentation**: [abapexit_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_processing_blocks.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -386,11 +307,11 @@ ENDMETHOD.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Processing Blocks](javascript:call_link\('abenleave_processing_blocks.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) →  [Exiting Processing Blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_processing_blocks.htm) → 
 
 EXIT - processing\_block
 
-[Quick Reference](javascript:call_link\('abapexit_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_shortref.htm)
 
 Syntax
 
@@ -398,9 +319,9 @@ EXIT.
 
 Effect
 
-If the statement EXIT is located outside a [loop](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry"), the statement immediately terminates the current [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry").
+If the statement EXIT is located outside a [loop](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenloop_glosry.htm "Glossary Entry"), the statement immediately terminates the current [processing block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocessing_block_glosry.htm "Glossary Entry").
 
-After the processing block is exited, the runtime environment responds in the same way as when the [processing block is exited in a regular way](javascript:call_link\('abenend_processing_blocks.htm'\)) (with the exception of the event block [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) and the [reporting event blocks](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry") START-OF-SELECTION and GET) . In particular, the output parameters of procedures are passed on to the bound actual parameters.
+After the processing block is exited, the runtime environment responds in the same way as when the [processing block is exited in a regular way](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenend_processing_blocks.htm) (with the exception of the event block [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapload-of-program.htm) and the [reporting event blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreporting_event_glosry.htm "Glossary Entry") START-OF-SELECTION and GET) . In particular, the output parameters of procedures are passed on to the bound actual parameters.
 
 -   The event block LOAD-OF-PROGRAM cannot be exited using EXIT.
     
@@ -409,7 +330,7 @@ After the processing block is exited, the runtime environment responds in the sa
 
 Programming Guideline
 
-[Only use RETURN to exit procedures](javascript:call_link\('abenexit_procedure_guidl.htm'\) "Guideline")
+[Only use RETURN to exit procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexit_procedure_guidl.htm "Guideline")
 
 Example
 
@@ -450,14 +371,7 @@ START-OF-SELECTION.
               itab = itab ).
 
 
-
-**📖 Source**: [abapexit_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_processing_blocks.htm)
-
 ### abapcheck_processing_blocks.htm
-
-> **📖 Official SAP Documentation**: [abapcheck_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_processing_blocks.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -465,30 +379,30 @@ START-OF-SELECTION.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Processing Blocks](javascript:call_link\('abenleave_processing_blocks.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) →  [Exiting Processing Blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_processing_blocks.htm) → 
 
 CHECK - processing\_block
 
-[Quick Reference](javascript:call_link\('abapcheck_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_shortref.htm)
 
 Syntax
 
-CHECK [log\_exp](javascript:call_link\('abenlogexp.htm'\)).
+CHECK [log\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp.htm).
 
 Effect
 
-If the statement CHECK is located outside a [loop](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry") and log\_exp is false, this statement exits the current processing block. Any [logical expression](javascript:call_link\('abenlogical_expression_glosry.htm'\) "Glossary Entry") can be specified for [log\_exp](javascript:call_link\('abenlogexp.htm'\)).
+If the statement CHECK is located outside a [loop](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenloop_glosry.htm "Glossary Entry") and log\_exp is false, this statement exits the current processing block. Any [logical expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_expression_glosry.htm "Glossary Entry") can be specified for [log\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp.htm).
 
-After the processing block is exited, the runtime environment proceeds in the same way as when the [processing block is exited in the regular way](javascript:call_link\('abenend_processing_blocks.htm'\)) (with the exception of the event block [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) and the [reporting event block](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry") GET) . In particular, the output parameters of procedures are passed on to the bound actual parameters.
+After the processing block is exited, the runtime environment proceeds in the same way as when the [processing block is exited in the regular way](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenend_processing_blocks.htm) (with the exception of the event block [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapload-of-program.htm) and the [reporting event block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreporting_event_glosry.htm "Glossary Entry") GET) . In particular, the output parameters of procedures are passed on to the bound actual parameters.
 
 -   The event block LOAD-OF-PROGRAM cannot be exited using CHECK.
     
--   After the reporting event block GET is exited using CHECK, any subordinate nodes in the hierarchy structure of the associated [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") are no longer processed. The logical database reads the next line of the current node or next higher node, if it has reached the end of the hierarchy level.
+-   After the reporting event block GET is exited using CHECK, any subordinate nodes in the hierarchy structure of the associated [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") are no longer processed. The logical database reads the next line of the current node or next higher node, if it has reached the end of the hierarchy level.
     
 
 Programming Guideline
 
-[Only use RETURN to exit procedures](javascript:call_link\('abenexit_procedure_guidl.htm'\) "Guideline")
+[Only use RETURN to exit procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexit_procedure_guidl.htm "Guideline")
 
 Notes
 
@@ -499,7 +413,7 @@ IF NOT log\_exp.
   RETURN.
 ENDIF.
 
--   A further variant of the statement CHECK for exiting processing blocks is [CHECK SELECT-OPTIONS](javascript:call_link\('abapcheck_select-options.htm'\)). This can only be used in [GET event blocks](javascript:call_link\('abapget-.htm'\)) for logical databases.
+-   A further variant of the statement CHECK for exiting processing blocks is [CHECK SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_select-options.htm). This can only be used in [GET event blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget-.htm) for logical databases.
     
 
 Example
@@ -520,14 +434,7 @@ START-OF-SELECTION.
   demo=>main( ).
 
 
-
-**📖 Source**: [abapcheck_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_processing_blocks.htm)
-
 ### abapstop.htm
-
-> **📖 Official SAP Documentation**: [abapstop.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstop.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -535,11 +442,11 @@ START-OF-SELECTION.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Processing Blocks](javascript:call_link\('abenleave_processing_blocks.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) →  [Exiting Processing Blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_processing_blocks.htm) → 
 
 STOP
 
-[Quick Reference](javascript:call_link\('abapstop_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstop_shortref.htm)
 
 Syntax
 
@@ -547,24 +454,24 @@ STOP.
 
 Effect
 
-The statement STOP is only to be used in [executable programs](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") and in the following event blocks:
+The statement STOP is only to be used in [executable programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexecutable_program_glosry.htm "Glossary Entry") and in the following event blocks:
 
--   [AT SELECTION-SCREEN](javascript:call_link\('abapat_selection-screen.htm'\)) (without additions)
+-   [AT SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapat_selection-screen.htm) (without additions)
     
--   [START-OF-SELECTION](javascript:call_link\('abapstart-of-selection.htm'\))
+-   [START-OF-SELECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstart-of-selection.htm)
     
--   [GET](javascript:call_link\('abapget-.htm'\))
+-   [GET](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapget-.htm)
     
 
 These event blocks are exited using STOP and the runtime environment raises the event END-OF-SELECTION.
 
 Note
 
-The statement STOP cannot be used in methods and raises a non-handleable exception when processing [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") called using [CALL SCREEN](javascript:call_link\('abapcall_screen.htm'\)), during a [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) event, and in programs not called using [SUBMIT](javascript:call_link\('abapsubmit.htm'\)).
+The statement STOP cannot be used in methods and raises a non-handleable exception when processing [dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm "Glossary Entry") called using [CALL SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_screen.htm), during a [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapload-of-program.htm) event, and in programs not called using [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm).
 
 Example
 
-Ends the event block GET sbook of the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S, after max postings have been issued, and branches to END-OF-SELECTION.
+Ends the event block GET sbook of the [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S, after max postings have been issued, and branches to END-OF-SELECTION.
 
 NODES: sflight,
        sbook.
@@ -585,7 +492,7 @@ END-OF-SELECTION.
   cl\_demo\_output=>line( ).
   cl\_demo\_output=>display( |First { bookings } bookings| ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 
@@ -596,14 +503,7 @@ Non-Handleable Exceptions
     Runtime error: STOP\_WITHIN\_CALLED\_DYNPRO
 
 
-
-**📖 Source**: [abapstop.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstop.htm)
-
 ### abenleave_processing_blocks.htm
-
-> **📖 Official SAP Documentation**: [abenleave_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_processing_blocks.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -611,66 +511,59 @@ Non-Handleable Exceptions
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) → 
 
 Exiting Processing Blocks
 
-[Processing blocks](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") can be exited implicitly using the following:
+[Processing blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocessing_block_glosry.htm "Glossary Entry") can be exited implicitly using the following:
 
--   [normal exiting](javascript:call_link\('abenend_processing_blocks.htm'\))
+-   [normal exiting](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenend_processing_blocks.htm)
 
 or program-driven exiting, using these statements:
 
--   [RETURN](javascript:call_link\('abapreturn.htm'\))
+-   [RETURN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreturn.htm)
 
--   [EXIT](javascript:call_link\('abapexit_processing_blocks.htm'\))
+-   [EXIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_processing_blocks.htm)
 
--   [CHECK](javascript:call_link\('abapcheck_processing_blocks.htm'\))
+-   [CHECK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_processing_blocks.htm)
 
--   [STOP](javascript:call_link\('abapstop.htm'\))
+-   [STOP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstop.htm)
 
--   [CHECK SELECT-OPTIONS](javascript:call_link\('abapcheck_select-options.htm'\)) (obsolete, for logical databases only)
+-   [CHECK SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_select-options.htm) (obsolete, for logical databases only)
 
--   [REJECT](javascript:call_link\('abapreject.htm'\)) (obsolete, for logical databases only)
+-   [REJECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreject.htm) (obsolete, for logical databases only)
 
 The onward flow of the program depends on the type of processing block.
 
 In addition to the statements described here, statements that call other units without returning to the caller after the call is made, also end their processing block. These include:
 
--   [LEAVE *\[*TO*\]* SCREEN](javascript:call_link\('abapleave_screen.htm'\))
+-   [LEAVE *\[*TO*\]* SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_screen.htm)
 
--   [LEAVE LIST-PROCESSING](javascript:call_link\('abapleave_list-processing.htm'\))
+-   [LEAVE LIST-PROCESSING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_list-processing.htm)
 
--   [LEAVE TO TRANSACTION](javascript:call_link\('abapleave_to_transaction.htm'\))
+-   [LEAVE TO TRANSACTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapleave_to_transaction.htm)
 
--   [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) without AND RETURN
+-   [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm) without AND RETURN
 
-[Messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") and raised [exceptions](javascript:call_link\('abenexception_glosry.htm'\) "Glossary Entry") can also exit processing blocks.
+[Messages](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmessage_glosry.htm "Glossary Entry") and raised [exceptions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexception_glosry.htm "Glossary Entry") can also exit processing blocks.
 
 Programming Guideline
 
-[Only use RETURN to exit procedures](javascript:call_link\('abenexit_procedure_guidl.htm'\) "Guideline")
+[Only use RETURN to exit procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexit_procedure_guidl.htm "Guideline")
 
 Note
 
 Exiting a procedure using RETURN (or EXIT or CHECK) is the error-free way to exit the procedure. Formal parameters for which the pass by value is defined are not passed to the assigned actual parameters only if the procedure terminates after an error (an exception is triggered or a message is sent).
 
 Continue
-[Regular Exiting of a Processing Block](javascript:call_link\('abenend_processing_blocks.htm'\))
-[RETURN](javascript:call_link\('abapreturn.htm'\))
-[EXIT - processing\_block](javascript:call_link\('abapexit_processing_blocks.htm'\))
-[CHECK - processing\_block](javascript:call_link\('abapcheck_processing_blocks.htm'\))
-[STOP](javascript:call_link\('abapstop.htm'\))
+[Regular Exiting of a Processing Block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenend_processing_blocks.htm)
+[RETURN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreturn.htm)
+[EXIT - processing\_block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_processing_blocks.htm)
+[CHECK - processing\_block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_processing_blocks.htm)
+[STOP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstop.htm)
 
-
-
-**📖 Source**: [abenleave_processing_blocks.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_processing_blocks.htm)
 
 ### abenleave_loops.htm
-
-> **📖 Official SAP Documentation**: [abenleave_loops.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_loops.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -678,32 +571,25 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) → 
 
 Exiting Loops
 
 You can use the following statements to exit loops:
 
--   [EXIT](javascript:call_link\('abapexit_loop.htm'\))
+-   [EXIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_loop.htm)
 
--   [CONTINUE](javascript:call_link\('abapcontinue.htm'\))
+-   [CONTINUE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcontinue.htm)
 
--   [CHECK](javascript:call_link\('abapcheck_loop.htm'\))
+-   [CHECK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_loop.htm)
 
 Continue
-[EXIT - loop](javascript:call_link\('abapexit_loop.htm'\))
-[CHECK - loop](javascript:call_link\('abapcheck_loop.htm'\))
-[CONTINUE](javascript:call_link\('abapcontinue.htm'\))
+[EXIT - loop](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_loop.htm)
+[CHECK - loop](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_loop.htm)
+[CONTINUE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcontinue.htm)
 
-
-
-**📖 Source**: [abenleave_loops.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_loops.htm)
 
 ### abapexit_loop.htm
-
-> **📖 Official SAP Documentation**: [abapexit_loop.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_loop.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -711,11 +597,11 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Loops](javascript:call_link\('abenleave_loops.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) →  [Exiting Loops](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_loops.htm) → 
 
 EXIT - loop
 
-[Quick Reference](javascript:call_link\('abapexit_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_shortref.htm)
 
 Syntax
 
@@ -723,11 +609,11 @@ EXIT.
 
 Effect
 
-If the EXIT statement is specified within a [loop](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry"), it exits the loop by ending the current loop pass. The program flow resumes after the closing statement in the loop.
+If the EXIT statement is specified within a [loop](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenloop_glosry.htm "Glossary Entry"), it exits the loop by ending the current loop pass. The program flow resumes after the closing statement in the loop.
 
 Note
 
-Outside of a loop, the statement EXIT exits the current [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") (see [EXIT - Processing Block](javascript:call_link\('abapexit_processing_blocks.htm'\))). EXIT, however, should only be used within loops.
+Outside of a loop, the statement EXIT exits the current [processing block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocessing_block_glosry.htm "Glossary Entry") (see [EXIT - Processing Block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_processing_blocks.htm)). EXIT, however, should only be used within loops.
 
 Example
 
@@ -743,14 +629,7 @@ ENDDO.
 cl\_demo\_output=>display( ).
 
 
-
-**📖 Source**: [abapexit_loop.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_loop.htm)
-
 ### abapcheck_loop.htm
-
-> **📖 Official SAP Documentation**: [abapcheck_loop.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_loop.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -758,19 +637,19 @@ cl\_demo\_output=>display( ).
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Loops](javascript:call_link\('abenleave_loops.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) →  [Exiting Loops](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_loops.htm) → 
 
 CHECK - loop
 
-[Quick Reference](javascript:call_link\('abapcheck_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_shortref.htm)
 
 Syntax
 
-CHECK [log\_exp](javascript:call_link\('abenlogexp.htm'\)).
+CHECK [log\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp.htm).
 
 Effect
 
-If the statement CHECK is executed in a [loop](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry") and log\_exp is incorrect, the statement CHECK exits the current loop pass immediately and the program continues with the next loop pass. Any [logical expression](javascript:call_link\('abenlogical_expression_glosry.htm'\) "Glossary Entry") can be specified for [log\_exp](javascript:call_link\('abenlogexp.htm'\)).
+If the statement CHECK is executed in a [loop](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenloop_glosry.htm "Glossary Entry") and log\_exp is incorrect, the statement CHECK exits the current loop pass immediately and the program continues with the next loop pass. Any [logical expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_expression_glosry.htm "Glossary Entry") can be specified for [log\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp.htm).
 
 Notes
 
@@ -781,7 +660,7 @@ IF NOT log\_exp.
   CONTINUE.
 ENDIF.
 
--   Outside a loop, the statement CHECK exits the current [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") (see [CHECK](javascript:call_link\('abapcheck_processing_blocks.htm'\))), however it is best to only use CHECK inside loops.
+-   Outside a loop, the statement CHECK exits the current [processing block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocessing_block_glosry.htm "Glossary Entry") (see [CHECK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_processing_blocks.htm)), however it is best to only use CHECK inside loops.
     
 
 Example
@@ -797,14 +676,7 @@ ENDDO.
 cl\_demo\_output=>display( ).
 
 
-
-**📖 Source**: [abapcheck_loop.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_loop.htm)
-
 ### abapcontinue.htm
-
-> **📖 Official SAP Documentation**: [abapcontinue.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcontinue.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -812,11 +684,11 @@ cl\_demo\_output=>display( ).
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Loops](javascript:call_link\('abenleave_loops.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) →  [Exiting Loops](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_loops.htm) → 
 
 CONTINUE
 
-[Quick Reference](javascript:call_link\('abapcontinue_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcontinue_shortref.htm)
 
 Syntax
 
@@ -824,7 +696,7 @@ CONTINUE.
 
 Effect
 
-The statement CONTINUE can only be used in [loops](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry"). If it is used, the current loop pass is ended immediately and the program flow is continued with the next loop pass.
+The statement CONTINUE can only be used in [loops](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenloop_glosry.htm "Glossary Entry"). If it is used, the current loop pass is ended immediately and the program flow is continued with the next loop pass.
 
 Example
 
@@ -841,17 +713,7 @@ ENDDO.
 cl\_demo\_output=>display( ).
 
 
-
-**📖 Source**: [abapcontinue.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcontinue.htm)
-
 ### abenleave_loops.htm
-
-> **📖 Official SAP Documentation**: [abenleave_loops.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_loops.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenleave_loops.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_loops.htm)
-
 
   
 
@@ -859,19 +721,19 @@ cl\_demo\_output=>display( ).
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenleave_program_units.htm) → 
 
 Exiting Loops
 
 You can use the following statements to exit loops:
 
--   [EXIT](javascript:call_link\('abapexit_loop.htm'\))
+-   [EXIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_loop.htm)
 
--   [CONTINUE](javascript:call_link\('abapcontinue.htm'\))
+-   [CONTINUE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcontinue.htm)
 
--   [CHECK](javascript:call_link\('abapcheck_loop.htm'\))
+-   [CHECK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_loop.htm)
 
 Continue
-[EXIT - loop](javascript:call_link\('abapexit_loop.htm'\))
-[CHECK - loop](javascript:call_link\('abapcheck_loop.htm'\))
-[CONTINUE](javascript:call_link\('abapcontinue.htm'\))
+[EXIT - loop](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexit_loop.htm)
+[CHECK - loop](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcheck_loop.htm)
+[CONTINUE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcontinue.htm)

@@ -1,6 +1,6 @@
 # ABAP ERROR-HANDLING - Complete Reference (7.58)
 
-**Generated**: 2025-09-01T11:14:57.330Z
+**Generated**: 2025-09-01T11:38:54.842Z
 **Bundles Combined**: 4
 **Category**: error-handling
 
@@ -31,13 +31,32 @@
 Included pages: 2
 
 
+
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
+- [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exception_classes.htm)
+
+**Bundle Contains**: 2 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.995Z
+
+---
+
 ### abenabap_language_exceptions.htm
 
 > **📖 Official SAP Documentation**: [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
+> **📖 Official SAP Documentation**: [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -47,28 +66,28 @@ Included pages: 2
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exceptions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Exceptions%20in%20ABAP%20Statements%2C%20ABENABAP_LANGUAGE_EXCEPTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Exceptions in ABAP Statements
 
-Error situations that occur during the execution of an ABAP statement raise exceptions. These exceptions are fully integrated into the [exception concept](javascript:call_link\('abenabap_exceptions.htm'\)) and are raised by the runtime framework. Two types of exception exist:
+Error situations that occur during the execution of an ABAP statement raise exceptions. These exceptions are fully integrated into the [exception concept](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exceptions.htm) and are raised by the runtime framework. Two types of exception exist:
 
--   Catchable exceptions, which are based on [predefined](javascript:call_link\('abenabap_exception_classes.htm'\)) [exception classes](javascript:call_link\('abenexception_class_glosry.htm'\) "Glossary Entry").
--   Uncatchable exceptions, which directly produce [runtime errors](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry").
+-   Catchable exceptions, which are based on [predefined](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exception_classes.htm) [exception classes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_class_glosry.htm "Glossary Entry").
+-   Uncatchable exceptions, which directly produce [runtime errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenruntime_error_glosry.htm "Glossary Entry").
 
-Each catchable exception is assigned to a runtime error that terminates the program if the exception is neither caught by using the [CATCH](javascript:call_link\('abapcatch_try.htm'\)) statement with a suitable exception class nor propagated to a caller. The keyword documentation lists the type of exceptions that can be raised for each statement.
+Each catchable exception is assigned to a runtime error that terminates the program if the exception is neither caught by using the [CATCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_try.htm) statement with a suitable exception class nor propagated to a caller. The keyword documentation lists the type of exceptions that can be raised for each statement.
 
 For reasons of backward compatibility, catchable exceptions raised by many ABAP statements can be caught by using
 
--   [TRY ... CATCH ...  ENDTRY](javascript:call_link\('abaptry.htm'\))
+-   [TRY ... CATCH ...  ENDTRY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptry.htm)
     
     This is the recommended way.
     
--   [CATCH SYSTEM-EXCEPTIONS ... ENDCATCH](javascript:call_link\('abapcatch_sys.htm'\))
+-   [CATCH SYSTEM-EXCEPTIONS ... ENDCATCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
     
-    This statement is obsolete. To use it, the runtime error assigned to the exception class must be [catchable](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry") itself.
+    This statement is obsolete. To use it, the runtime error assigned to the exception class must be [catchable](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry") itself.
     
 
 Within processing blocks, the two mechanisms prevent each other from handling exceptions. It is advisable to catch an exception between TRY ... ENDTRY using CATCH or to use the RAISING addition in the definition of the interface to propagate it to the caller. Catching exceptions using CATCH SYSTEM-EXCEPTIONS is no longer recommended.
@@ -101,7 +120,7 @@ Example
 
 Handling exceptions as catchable runtime errors.
 
-Since the runtime error COMPUTE\_INT\_ZERODIVIDE is catchable and assigned to the [exception group](javascript:call_link\('abenexception_group_glosry.htm'\) "Glossary Entry") ARITHMETIC\_ERRORS, it can also be handled using the obsolete statement [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)).
+Since the runtime error COMPUTE\_INT\_ZERODIVIDE is catchable and assigned to the [exception group](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_group_glosry.htm "Glossary Entry") ARITHMETIC\_ERRORS, it can also be handled using the obsolete statement [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm).
 
 DATA result TYPE i.
 CATCH SYSTEM-EXCEPTIONS arithmetic\_errors = 4.
@@ -112,8 +131,11 @@ IF sy-subrc = 4.
 ENDIF.
 
 Continue
-[Exception Classes for ABAP Statements](javascript:call_link\('abenabap_exception_classes.htm'\))
+[Exception Classes for ABAP Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exception_classes.htm)
 
+
+
+**📖 Source**: [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
 
 
 **📖 Source**: [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
@@ -124,8 +146,15 @@ Continue
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exception_classes.htm)
+> **📖 Official SAP Documentation**: [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exception_classes.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exception_classes.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exception_classes.htm)
 
 
   
@@ -134,18 +163,18 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Exceptions in ABAP Statements](javascript:call_link\('abenabap_language_exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exceptions.htm) →  [Exceptions in ABAP Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Exception%20Classes%20for%20ABAP%20Statements%2C%20ABENABAP_EXCEPTION_CLASSES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvemen
 t:)
 
 Exception Classes for ABAP Statements
 
-The catchable [exceptions in ABAP statements](javascript:call_link\('abenabap_language_exceptions.htm'\)) are related to the predefined exception classes listed below, which are subclasses of the classes CX\_DYNAMIC\_CHECK and CX\_NO\_CHECK. These exception classes replace the obsolete [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"). The keyword documentation lists the type of exceptions that can be raised for each statement.
+The catchable [exceptions in ABAP statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm) are related to the predefined exception classes listed below, which are subclasses of the classes CX\_DYNAMIC\_CHECK and CX\_NO\_CHECK. These exception classes replace the obsolete [catchable runtime errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"). The keyword documentation lists the type of exceptions that can be raised for each statement.
 
-When catching a superclass exception with [CATCH](javascript:call_link\('abapcatch_try.htm'\)), all of its subclass exceptions are also caught. To improve the structure, intermediate abstract classes were introduced so that groups of exceptions can be caught simultaneously.
+When catching a superclass exception with [CATCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_try.htm), all of its subclass exceptions are also caught. To improve the structure, intermediate abstract classes were introduced so that groups of exceptions can be caught simultaneously.
 
-Each exception class includes message texts, which can be found in the Texts tab in the [Class Builder](javascript:call_link\('abenclass_builder_glosry.htm'\) "Glossary Entry").
+Each exception class includes message texts, which can be found in the Texts tab in the [Class Builder](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_builder_glosry.htm "Glossary Entry").
 
 The following links open the Class Builder for the relevant exception class.
 
@@ -457,6 +486,22 @@ Included pages: 4
 
 
 
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abennoncat_exceptions.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennoncat_exceptions.htm)
+- [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm)
+- [abapraise_shortdump_message.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm)
+
+**Bundle Contains**: 3 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.995Z
+
+---
+
+
 **📖 Source**: [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exception_classes.htm)
 
 ### abennoncat_exceptions.htm
@@ -465,7 +510,11 @@ Included pages: 4
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abennoncat_exceptions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennoncat_exceptions.htm)
+> **📖 Official SAP Documentation**: [abennoncat_exceptions.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennoncat_exceptions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abennoncat_exceptions.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennoncat_exceptions.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -475,7 +524,7 @@ Included pages: 4
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exceptions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Runtime%20Errors%2C%20ABENNONCAT_EXCEPTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -487,15 +536,15 @@ Runtime errors indicate situations in which the execution of an ABAP program can
     -   A catchable exception is not handled.
     -   A uncatchable exception is raised.
 -   Program-driven raise:
-    -   The statement [RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\)) or the addition [THROW SHORTDUMP](javascript:call_link\('abenconditional_expression_result.htm'\)) is used.
-    -   An [assertion](javascript:call_link\('abenassertion_glosry.htm'\) "Glossary Entry") fails.
-    -   An [exit message](javascript:call_link\('abenexit_message_glosry.htm'\) "Glossary Entry") or [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") of type X is sent.
+    -   The statement [RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm) or the addition [THROW SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) is used.
+    -   An [assertion](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertion_glosry.htm "Glossary Entry") fails.
+    -   An [exit message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexit_message_glosry.htm "Glossary Entry") or [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_glosry.htm "Glossary Entry") of type X is sent.
 
-Each runtime error is identified by a name and assigned to a specific error situation and leads to a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"). Following a program termination caused by a runtime error, the system generates a [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") which contains the name of the runtime error, the associated exception class, content of data objects, active calls, control structures, and so on, and allows the user to branch directly to the ABAP Debugger. Short dumps are kept in the system for 14 days by default and managed using the [ABAP dump analysis](javascript:call_link\('abenabap_dump_analsyis_glosry.htm'\) "Glossary Entry") (transaction ST22). The output of the short dump can be controlled in the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") rdisp/verbose\_level if there are special requirements.
+Each runtime error is identified by a name and assigned to a specific error situation and leads to a [database rollback](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"). Following a program termination caused by a runtime error, the system generates a [short dump](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshort_dump_glosry.htm "Glossary Entry") which contains the name of the runtime error, the associated exception class, content of data objects, active calls, control structures, and so on, and allows the user to branch directly to the ABAP Debugger. Short dumps are kept in the system for 14 days by default and managed using the [ABAP dump analysis](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dump_analsyis_glosry.htm "Glossary Entry") (transaction ST22). The output of the short dump can be controlled in the [profile parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") rdisp/verbose\_level if there are special requirements.
 
 Hint
 
-Program-driven termination of a program should be implemented in situations where meaningful program execution is no longer possible, using [RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\)), [THROW SHORTDUMP](javascript:call_link\('abenconditional_expression_result.htm'\)), or [ASSERT](javascript:call_link\('abapassert.htm'\)) from now on and not using [exit messages](javascript:call_link\('abenexit_message_glosry.htm'\) "Glossary Entry").
+Program-driven termination of a program should be implemented in situations where meaningful program execution is no longer possible, using [RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm), [THROW SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm), or [ASSERT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassert.htm) from now on and not using [exit messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexit_message_glosry.htm "Glossary Entry").
 
 Example
 
@@ -504,8 +553,11 @@ Raising of the runtime error COMPUTE\_INT\_ZERODIVIDE when the exception CX\_SY\
 cl\_demo\_output=>display( 1 / 0 ).
 
 Continue
-[RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\))
+[RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm)
 
+
+
+**📖 Source**: [abennoncat_exceptions.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennoncat_exceptions.htm)
 
 
 **📖 Source**: [abennoncat_exceptions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennoncat_exceptions.htm)
@@ -516,7 +568,11 @@ Continue
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm)
+> **📖 Official SAP Documentation**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -526,39 +582,39 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Runtime Errors](javascript:call_link\('abennoncat_exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exceptions.htm) →  [Runtime Errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennoncat_exceptions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAISE%20SHORTDUMP%2C%20ABAPRAISE_SHORTDUMP%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 RAISE SHORTDUMP
 
-[Short Reference](javascript:call_link\('abapraise_shortdump_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_shortref.htm)
 
 Syntax
 
 RAISE SHORTDUMP
-  *{* *{*TYPE cx\_class *\[* [message](javascript:call_link\('abapraise_shortdump_message.htm'\))*\]* *\[*EXPORTING p1 = a1 p2 = a2 ...*\]**}*
+  *{* *{*TYPE cx\_class *\[* [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm)*\]* *\[*EXPORTING p1 = a1 p2 = a2 ...*\]**}*
   *|* oref *}*.
 
 Effect
 
-This statement interrupts the execution of the current statement block and raises the [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry") RAISE\_SHORTDUMP, which performs a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"). This runtime error is linked with an [exception object](javascript:call_link\('abenexception_object_glosry.htm'\) "Glossary Entry") using TYPE or oref:
+This statement interrupts the execution of the current statement block and raises the [runtime error](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenruntime_error_glosry.htm "Glossary Entry") RAISE\_SHORTDUMP, which performs a [database rollback](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"). This runtime error is linked with an [exception object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_object_glosry.htm "Glossary Entry") using TYPE or oref:
 
--   If the addition TYPE is specified, an exception object of the [exception class](javascript:call_link\('abenexception_class_glosry.htm'\) "Glossary Entry") cx\_class is created. Every exception class cx\_class visible at this point can be specified after TYPE. The [exception category](javascript:call_link\('abenexception_category_glosry.htm'\) "Glossary Entry") is ignored.
-    -   The addition EXPORTING can be used to assign actual parameters to the input parameters of the instance constructor. The syntax and semantics are the same as for the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)).
-    -   The addition [message](javascript:call_link\('abapraise_shortdump_message.htm'\)) can be used to link the exception object to a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry").
--   If oref is specified, no new exception object is created. oref expects an object reference variable that points to an existing exception object. The static type of oref must be an exception class, that is, a subclass of CX\_ROOT or the class itself. oref is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). In the existing exception object, the internal attributes that describe the location of the exception are converted to the position of the RAISE statement.
+-   If the addition TYPE is specified, an exception object of the [exception class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_class_glosry.htm "Glossary Entry") cx\_class is created. Every exception class cx\_class visible at this point can be specified after TYPE. The [exception category](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_glosry.htm "Glossary Entry") is ignored.
+    -   The addition EXPORTING can be used to assign actual parameters to the input parameters of the instance constructor. The syntax and semantics are the same as for the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm).
+    -   The addition [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm) can be used to link the exception object to a [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_glosry.htm "Glossary Entry").
+-   If oref is specified, no new exception object is created. oref expects an object reference variable that points to an existing exception object. The static type of oref must be an exception class, that is, a subclass of CX\_ROOT or the class itself. oref is a [general expression position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). In the existing exception object, the internal attributes that describe the location of the exception are converted to the position of the RAISE statement.
 
-The [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") of the runtime error contains the name of the exception class and the [exception text](javascript:call_link\('abenexception_text_glosry.htm'\) "Glossary Entry"). The attributes of the exception object can be listed in the transaction ST22. Under Chain of Exception Objects, the long text of the short dump contains the attributes referenced in the attribute PREVIOUS of the exception object.
+The [short dump](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshort_dump_glosry.htm "Glossary Entry") of the runtime error contains the name of the exception class and the [exception text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_text_glosry.htm "Glossary Entry"). The attributes of the exception object can be listed in the transaction ST22. Under Chain of Exception Objects, the long text of the short dump contains the attributes referenced in the attribute PREVIOUS of the exception object.
 
 Hints
 
--   The statement RAISE SHORTDUMP works in roughly the same way as when raising a [class-based exception](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry") that does not have a handler. There is no [propagation from procedures](javascript:call_link\('abenexceptions_procedures.htm'\)), however, which removes the risk of violating interfaces and raising further exceptions such as CX\_SY\_NO\_HANDLER. This means that the [exception category](javascript:call_link\('abenexception_category_glosry.htm'\) "Glossary Entry") of the used exception class is not relevant in RAISE SHORTDUMP.
--   The statement RAISE SHORTDUMP does not raise [class-based exception](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry") that can be caught using [CATCH](javascript:call_link\('abapcatch_try.htm'\)). The exception object is used exclusively for the transport of information to the short dump.
--   The statement RAISE SHORTDUMP is an alternative to raising [exit messages](javascript:call_link\('abenexit_message_glosry.htm'\) "Glossary Entry"), that is, [messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") of type X. The attributes of the exception class can be used to send more information about an error to the short dump than a message text. More specifically, the attribute PREVIOUS can reference previous exceptions.
--   If oref is specified, either an exception object instantiated using [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) or [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)) can be used or a previously caught exception can be transformed into a runtime error in exception handling.
+-   The statement RAISE SHORTDUMP works in roughly the same way as when raising a [class-based exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_based_exception_glosry.htm "Glossary Entry") that does not have a handler. There is no [propagation from procedures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexceptions_procedures.htm), however, which removes the risk of violating interfaces and raising further exceptions such as CX\_SY\_NO\_HANDLER. This means that the [exception category](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_glosry.htm "Glossary Entry") of the used exception class is not relevant in RAISE SHORTDUMP.
+-   The statement RAISE SHORTDUMP does not raise [class-based exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_based_exception_glosry.htm "Glossary Entry") that can be caught using [CATCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_try.htm). The exception object is used exclusively for the transport of information to the short dump.
+-   The statement RAISE SHORTDUMP is an alternative to raising [exit messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexit_message_glosry.htm "Glossary Entry"), that is, [messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_glosry.htm "Glossary Entry") of type X. The attributes of the exception class can be used to send more information about an error to the short dump than a message text. More specifically, the attribute PREVIOUS can reference previous exceptions.
+-   If oref is specified, either an exception object instantiated using [NEW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_new.htm) or [CREATE OBJECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_object.htm) can be used or a previously caught exception can be transformed into a runtime error in exception handling.
 -   If a caught exception is transformed into a runtime error, it should be noted that the exception object does not remain unchanged and the information about the position of the exception is changed instead. If the original information is transported to the short dump, a new exception object of the same class can be created. The original exception object is passed to the constructor parameter PREVIOUS of the new object.
--   The addition [THROW SHORTDUMP](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)) makes it possible to raise a runtime error in an operand position.
+-   The addition [THROW SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm) makes it possible to raise a runtime error in an operand position.
 
 Example
 
@@ -614,8 +670,11 @@ CLASS user IMPLEMENTATION.
 ENDCLASS.
 
 Continue
-[RAISE SHORTDUMP, message](javascript:call_link\('abapraise_shortdump_message.htm'\))
+[RAISE SHORTDUMP, message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm)
 
+
+
+**📖 Source**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm)
 
 
 **📖 Source**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm)
@@ -626,7 +685,11 @@ Continue
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abapraise_shortdump_message.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm)
+> **📖 Official SAP Documentation**: [abapraise_shortdump_message.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapraise_shortdump_message.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -636,32 +699,32 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Runtime Errors](javascript:call_link\('abennoncat_exceptions.htm'\)) →  [RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exceptions.htm) →  [Runtime Errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennoncat_exceptions.htm) →  [RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAISE%20SHORTDUMP%2C%20message%2C%20ABAPRAISE_SHORTDUMP_MESSAGE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 RAISE SHORTDUMP, message
 
-[Short Reference](javascript:call_link\('abapraise_shortdump_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_shortref.htm)
 
 Syntax
 
-... *{* [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) tn(id)
+... *{* [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_message.htm) tn(id)
             *|* *{* ID mid TYPE mtype NUMBER num *}*
               *\[*WITH dobj1 ... dobj4*\]* *}*
-  *|* *{* [USING MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) *}* ...
+  *|* *{* [USING MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_message.htm) *}* ...
 
 Effect
 
-The addition MESSAGE of the statement [RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\)) and of the addition [THROW SHORTDUMP](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)) passes the specification of a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") to the exception object. Syntax and semantics are the same as in the addition [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) of the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)).
+The addition MESSAGE of the statement [RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm) and of the addition [THROW SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm) passes the specification of a [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_glosry.htm "Glossary Entry") to the exception object. Syntax and semantics are the same as in the addition [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_message.htm) of the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm).
 
 Hint
 
-The addition MESSAGE cannot be specified after the variant [RAISE SHORTDUMP oref](javascript:call_link\('abapraise_shortdump.htm'\)).
+The addition MESSAGE cannot be specified after the variant [RAISE SHORTDUMP oref](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm).
 
 Example
 
-Raising of a runtime error with an exception object of the exception class CX\_DEMO\_DYN\_T100, which implements the interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)). The addition MESSAGE is used to pass the properties of a message that determines the exception text.
+Raising of a runtime error with an exception object of the exception class CX\_DEMO\_DYN\_T100, which implements the interface [IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_dyn_msg.htm). The addition MESSAGE is used to pass the properties of a message that determines the exception text.
 
 RAISE SHORTDUMP TYPE cx\_demo\_dyn\_t100
   MESSAGE ID 'SABAPDEMOS'
@@ -671,7 +734,7 @@ RAISE SHORTDUMP TYPE cx\_demo\_dyn\_t100
 
 Example
 
-Raising of a runtime error with an exception object of the exception class CX\_DEMO\_T100, which implements the interface [IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)). The additions MESSAGE and EXPORTING are used to pass the properties of a message that determines the exception text.
+Raising of a runtime error with an exception object of the exception class CX\_DEMO\_T100, which implements the interface [IF\_T100\_MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_message.htm). The additions MESSAGE and EXPORTING are used to pass the properties of a message that determines the exception text.
 
 RAISE SHORTDUMP TYPE cx\_demo\_t100
                 MESSAGE ID 'SABAPDEMOS'
@@ -683,7 +746,7 @@ RAISE SHORTDUMP TYPE cx\_demo\_t100
 
 Example
 
-Raising of a runtime error with an exception object of the exception class CX\_DEMO\_DYN\_T100, which implements the interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)). The addition USING MESSAGE is used to pass the properties of a previously sent message that determines the exception text.
+Raising of a runtime error with an exception object of the exception class CX\_DEMO\_DYN\_T100, which implements the interface [IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_dyn_msg.htm). The addition USING MESSAGE is used to pass the properties of a previously sent message that determines the exception text.
 
 MESSAGE ID 'SABAPDEMOS'
         TYPE 'S'
@@ -694,6 +757,9 @@ RAISE SHORTDUMP TYPE cx\_demo\_dyn\_t100
 
 
 
+**📖 Source**: [abapraise_shortdump_message.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm)
+
+
 **📖 Source**: [abapraise_shortdump_message.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm)
 
 ### abapraise_shortdump.htm
@@ -702,8 +768,15 @@ RAISE SHORTDUMP TYPE cx\_demo\_dyn\_t100
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm)
+> **📖 Official SAP Documentation**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm)
 
 
   
@@ -712,39 +785,39 @@ RAISE SHORTDUMP TYPE cx\_demo\_dyn\_t100
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Runtime Errors](javascript:call_link\('abennoncat_exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exceptions.htm) →  [Runtime Errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennoncat_exceptions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAISE%20SHORTDUMP%2C%20ABAPRAISE_SHORTDUMP%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 RAISE SHORTDUMP
 
-[Short Reference](javascript:call_link\('abapraise_shortdump_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_shortref.htm)
 
 Syntax
 
 RAISE SHORTDUMP
-  *{* *{*TYPE cx\_class *\[* [message](javascript:call_link\('abapraise_shortdump_message.htm'\))*\]* *\[*EXPORTING p1 = a1 p2 = a2 ...*\]**}*
+  *{* *{*TYPE cx\_class *\[* [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm)*\]* *\[*EXPORTING p1 = a1 p2 = a2 ...*\]**}*
   *|* oref *}*.
 
 Effect
 
-This statement interrupts the execution of the current statement block and raises the [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry") RAISE\_SHORTDUMP, which performs a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"). This runtime error is linked with an [exception object](javascript:call_link\('abenexception_object_glosry.htm'\) "Glossary Entry") using TYPE or oref:
+This statement interrupts the execution of the current statement block and raises the [runtime error](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenruntime_error_glosry.htm "Glossary Entry") RAISE\_SHORTDUMP, which performs a [database rollback](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"). This runtime error is linked with an [exception object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_object_glosry.htm "Glossary Entry") using TYPE or oref:
 
--   If the addition TYPE is specified, an exception object of the [exception class](javascript:call_link\('abenexception_class_glosry.htm'\) "Glossary Entry") cx\_class is created. Every exception class cx\_class visible at this point can be specified after TYPE. The [exception category](javascript:call_link\('abenexception_category_glosry.htm'\) "Glossary Entry") is ignored.
-    -   The addition EXPORTING can be used to assign actual parameters to the input parameters of the instance constructor. The syntax and semantics are the same as for the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)).
-    -   The addition [message](javascript:call_link\('abapraise_shortdump_message.htm'\)) can be used to link the exception object to a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry").
--   If oref is specified, no new exception object is created. oref expects an object reference variable that points to an existing exception object. The static type of oref must be an exception class, that is, a subclass of CX\_ROOT or the class itself. oref is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). In the existing exception object, the internal attributes that describe the location of the exception are converted to the position of the RAISE statement.
+-   If the addition TYPE is specified, an exception object of the [exception class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_class_glosry.htm "Glossary Entry") cx\_class is created. Every exception class cx\_class visible at this point can be specified after TYPE. The [exception category](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_glosry.htm "Glossary Entry") is ignored.
+    -   The addition EXPORTING can be used to assign actual parameters to the input parameters of the instance constructor. The syntax and semantics are the same as for the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm).
+    -   The addition [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm) can be used to link the exception object to a [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_glosry.htm "Glossary Entry").
+-   If oref is specified, no new exception object is created. oref expects an object reference variable that points to an existing exception object. The static type of oref must be an exception class, that is, a subclass of CX\_ROOT or the class itself. oref is a [general expression position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). In the existing exception object, the internal attributes that describe the location of the exception are converted to the position of the RAISE statement.
 
-The [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") of the runtime error contains the name of the exception class and the [exception text](javascript:call_link\('abenexception_text_glosry.htm'\) "Glossary Entry"). The attributes of the exception object can be listed in the transaction ST22. Under Chain of Exception Objects, the long text of the short dump contains the attributes referenced in the attribute PREVIOUS of the exception object.
+The [short dump](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshort_dump_glosry.htm "Glossary Entry") of the runtime error contains the name of the exception class and the [exception text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_text_glosry.htm "Glossary Entry"). The attributes of the exception object can be listed in the transaction ST22. Under Chain of Exception Objects, the long text of the short dump contains the attributes referenced in the attribute PREVIOUS of the exception object.
 
 Hints
 
--   The statement RAISE SHORTDUMP works in roughly the same way as when raising a [class-based exception](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry") that does not have a handler. There is no [propagation from procedures](javascript:call_link\('abenexceptions_procedures.htm'\)), however, which removes the risk of violating interfaces and raising further exceptions such as CX\_SY\_NO\_HANDLER. This means that the [exception category](javascript:call_link\('abenexception_category_glosry.htm'\) "Glossary Entry") of the used exception class is not relevant in RAISE SHORTDUMP.
--   The statement RAISE SHORTDUMP does not raise [class-based exception](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry") that can be caught using [CATCH](javascript:call_link\('abapcatch_try.htm'\)). The exception object is used exclusively for the transport of information to the short dump.
--   The statement RAISE SHORTDUMP is an alternative to raising [exit messages](javascript:call_link\('abenexit_message_glosry.htm'\) "Glossary Entry"), that is, [messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") of type X. The attributes of the exception class can be used to send more information about an error to the short dump than a message text. More specifically, the attribute PREVIOUS can reference previous exceptions.
--   If oref is specified, either an exception object instantiated using [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) or [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)) can be used or a previously caught exception can be transformed into a runtime error in exception handling.
+-   The statement RAISE SHORTDUMP works in roughly the same way as when raising a [class-based exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_based_exception_glosry.htm "Glossary Entry") that does not have a handler. There is no [propagation from procedures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexceptions_procedures.htm), however, which removes the risk of violating interfaces and raising further exceptions such as CX\_SY\_NO\_HANDLER. This means that the [exception category](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_glosry.htm "Glossary Entry") of the used exception class is not relevant in RAISE SHORTDUMP.
+-   The statement RAISE SHORTDUMP does not raise [class-based exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_based_exception_glosry.htm "Glossary Entry") that can be caught using [CATCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_try.htm). The exception object is used exclusively for the transport of information to the short dump.
+-   The statement RAISE SHORTDUMP is an alternative to raising [exit messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexit_message_glosry.htm "Glossary Entry"), that is, [messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_glosry.htm "Glossary Entry") of type X. The attributes of the exception class can be used to send more information about an error to the short dump than a message text. More specifically, the attribute PREVIOUS can reference previous exceptions.
+-   If oref is specified, either an exception object instantiated using [NEW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_new.htm) or [CREATE OBJECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_object.htm) can be used or a previously caught exception can be transformed into a runtime error in exception handling.
 -   If a caught exception is transformed into a runtime error, it should be noted that the exception object does not remain unchanged and the information about the position of the exception is changed instead. If the original information is transported to the short dump, a new exception object of the same class can be created. The original exception object is passed to the constructor parameter PREVIOUS of the new object.
--   The addition [THROW SHORTDUMP](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)) makes it possible to raise a runtime error in an operand position.
+-   The addition [THROW SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm) makes it possible to raise a runtime error in an operand position.
 
 Example
 
@@ -800,7 +873,7 @@ CLASS user IMPLEMENTATION.
 ENDCLASS.
 
 Continue
-[RAISE SHORTDUMP, message](javascript:call_link\('abapraise_shortdump_message.htm'\))
+[RAISE SHORTDUMP, message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump_message.htm)
 
 
 ---
@@ -816,6 +889,24 @@ Included pages: 6
 
 
 
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abensystem-exceptions.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem-exceptions.htm)
+- [abenueb-abfb-sysexc.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenueb-abfb-sysexc.htm)
+- [abensysexc-errkl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensysexc-errkl.htm)
+- [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
+- [abapendcatch.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendcatch.htm)
+
+**Bundle Contains**: 5 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.969Z
+
+---
+
+
 **📖 Source**: [abapraise_shortdump.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm)
 
 ### abensystem-exceptions.htm
@@ -824,7 +915,11 @@ Included pages: 6
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abensystem-exceptions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem-exceptions.htm)
+> **📖 Official SAP Documentation**: [abensystem-exceptions.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem-exceptions.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensystem-exceptions.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem-exceptions.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -834,7 +929,7 @@ Included pages: 6
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Program Flow](javascript:call_link\('abenobsolete_program_flow.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obsolete.htm) →  [Obsolete Program Flow](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobsolete_program_flow.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Obsolete%20Catchable%20Runtime%20Errors%2C%20ABENSYSTEM-EXCEPTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -848,15 +943,18 @@ With the introduction of class-based exceptions, an exception class is assigned 
 
 Catchable runtime errors cannot be raised explicitly; they are only raised implicitly by the runtime framework.
 
--   [Alphabetical Overview of Catchable Runtime Errors](javascript:call_link\('abenueb-abfb-sysexc.htm'\))
--   [Assignment of Catchable Runtime Errors to Exception Groups](javascript:call_link\('abensysexc-errkl.htm'\))
--   [Handling Catchable Runtime Errors](javascript:call_link\('abapcatch_sys.htm'\))
+-   [Alphabetical Overview of Catchable Runtime Errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenueb-abfb-sysexc.htm)
+-   [Assignment of Catchable Runtime Errors to Exception Groups](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensysexc-errkl.htm)
+-   [Handling Catchable Runtime Errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
 
 Continue
-[Alphabetical Overview of Catchable Runtime Errors](javascript:call_link\('abenueb-abfb-sysexc.htm'\))
-[Assignment of Catchable Runtime Errors to Exception Groups](javascript:call_link\('abensysexc-errkl.htm'\))
-[CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\))
+[Alphabetical Overview of Catchable Runtime Errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenueb-abfb-sysexc.htm)
+[Assignment of Catchable Runtime Errors to Exception Groups](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensysexc-errkl.htm)
+[CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
 
+
+
+**📖 Source**: [abensystem-exceptions.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem-exceptions.htm)
 
 
 **📖 Source**: [abensystem-exceptions.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem-exceptions.htm)
@@ -867,7 +965,11 @@ Continue
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abenueb-abfb-sysexc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenueb-abfb-sysexc.htm)
+> **📖 Official SAP Documentation**: [abenueb-abfb-sysexc.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenueb-abfb-sysexc.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenueb-abfb-sysexc.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenueb-abfb-sysexc.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -877,16 +979,16 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Program Flow](javascript:call_link\('abenobsolete_program_flow.htm'\)) →  [Obsolete Catchable Runtime Errors](javascript:call_link\('abensystem-exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obsolete.htm) →  [Obsolete Program Flow](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobsolete_program_flow.htm) →  [Obsolete Catchable Runtime Errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem-exceptions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Alphabetical%20Overview%20of%20Catchable%20Runtime%20Errors%2C%20ABENUEB-ABFB-SYSEXC%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20imp
 rovement:)
 
 Alphabetical Overview of Catchable Runtime Errors
 
-The following is an alphabetical list of the obsolete catchable runtime errors. For each catchable runtime error, the associated [predefined exception class](javascript:call_link\('abenabap_exception_classes.htm'\)) used to handle the corresponding runtime error is specified. If an exception class is assigned to multiple catchable runtime errors, it may contain as many message texts as required, which can be found in the [Class Builder](javascript:call_link\('abenclass_builder_glosry.htm'\) "Glossary Entry") on the Texts tab.
+The following is an alphabetical list of the obsolete catchable runtime errors. For each catchable runtime error, the associated [predefined exception class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exception_classes.htm) used to handle the corresponding runtime error is specified. If an exception class is assigned to multiple catchable runtime errors, it may contain as many message texts as required, which can be found in the [Class Builder](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_builder_glosry.htm "Glossary Entry") on the Texts tab.
 
-Almost all the runtime errors listed here are grouped together in [exception groups](javascript:call_link\('abenexception_group_glosry.htm'\) "Glossary Entry"). These exception groups are also assigned those ABAP keywords for which the runtime errors can be caught.
+Almost all the runtime errors listed here are grouped together in [exception groups](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_group_glosry.htm "Glossary Entry"). These exception groups are also assigned those ABAP keywords for which the runtime errors can be caught.
 
 ADDF\_INT\_OVERFLOW   
 
@@ -1148,7 +1250,7 @@ Exception class: CX\_SY\_PRECISION\_LOSS
 
 CONNE\_IMPORT\_WRONG\_COMP\_DECS   
 
-Import error; a component of a structured type in the data set has incorrect [decimal places](javascript:call_link\('abenfract_digit_glosry.htm'\) "Glossary Entry")
+Import error; a component of a structured type in the data set has incorrect [decimal places](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfract_digit_glosry.htm "Glossary Entry")
 
 Exception class: CX\_SY\_IMPORT\_MISMATCH\_ERROR
 
@@ -1166,7 +1268,7 @@ Exception class: CX\_SY\_IMPORT\_MISMATCH\_ERROR
 
 CONNE\_IMPORT\_WRONG\_FIELD\_DECS   
 
-Import error; a field type in the data set has incorrect [decimal places](javascript:call_link\('abenfract_digit_glosry.htm'\) "Glossary Entry")
+Import error; a field type in the data set has incorrect [decimal places](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfract_digit_glosry.htm "Glossary Entry")
 
 Exception class: CX\_SY\_IMPORT\_MISMATCH\_ERROR
 
@@ -1202,7 +1304,7 @@ Exception class: CX\_SY\_CONVERSION\_CODEPAGE
 
 CONVT\_CODEPAGE\_INIT   
 
-Conversion of texts from [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") to code page not supported
+Conversion of texts from [code page](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencodepage_glosry.htm "Glossary Entry") to code page not supported
 
 Exception class: CX\_SY\_CODEPAGE\_CONVERTER\_INIT
 
@@ -1490,7 +1592,7 @@ Exception class: CX\_SY\_DYN\_CALL\_ILLEGAL\_METHOD
 
 DYN\_CALL\_METH\_PROTECTED   
 
-An attempt was made to call a [protected](javascript:call_link\('abenprotected_glosry.htm'\) "Glossary Entry") method externally.
+An attempt was made to call a [protected](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprotected_glosry.htm "Glossary Entry") method externally.
 
 Exception class: CX\_SY\_DYN\_CALL\_ILLEGAL\_METHOD
 
@@ -1502,7 +1604,7 @@ Exception class: CX\_SY\_REF\_IS\_INITIAL
 
 EXPORT\_BUFFER\_NO\_MEMORY   
 
-The EXPORT [data cluster](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") is too big for the application buffer.
+The EXPORT [data cluster](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_cluster_glosry.htm "Glossary Entry") is too big for the application buffer.
 
 Exception class: CX\_SY\_EXPORT\_BUFFER\_NO\_MEMORY
 
@@ -1520,7 +1622,7 @@ Exception class: CX\_SY\_FILE\_IO
 
 GENERATE\_SUBPOOL\_DIR\_FULL   
 
-No further temporary [subroutine pools](javascript:call_link\('abensubroutine_pool_glosry.htm'\) "Glossary Entry") can be generated.
+No further temporary [subroutine pools](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubroutine_pool_glosry.htm "Glossary Entry") can be generated.
 
 Exception class: CX\_SY\_GENERATE\_SUBPOOL\_FULL
 
@@ -1628,7 +1730,7 @@ Exception class: CX\_SY\_LOCALIZATION\_ERROR
 
 TEXTENV\_INVALID   
 
-Error in the configuration of the [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry") (SET LOCALE...)
+Error in the configuration of the [text environment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_environment_glosry.htm "Glossary Entry") (SET LOCALE...)
 
 Exception class: CX\_SY\_LOCALIZATION\_ERROR
 
@@ -1640,6 +1742,9 @@ Exception class: CX\_SY\_LOCALIZATION\_ERROR
 
 
 
+**📖 Source**: [abenueb-abfb-sysexc.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenueb-abfb-sysexc.htm)
+
+
 **📖 Source**: [abenueb-abfb-sysexc.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenueb-abfb-sysexc.htm)
 
 ### abensysexc-errkl.htm
@@ -1648,7 +1753,11 @@ Exception class: CX\_SY\_LOCALIZATION\_ERROR
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abensysexc-errkl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensysexc-errkl.htm)
+> **📖 Official SAP Documentation**: [abensysexc-errkl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensysexc-errkl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abensysexc-errkl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensysexc-errkl.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -1658,16 +1767,16 @@ Exception class: CX\_SY\_LOCALIZATION\_ERROR
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Program Flow](javascript:call_link\('abenobsolete_program_flow.htm'\)) →  [Obsolete Catchable Runtime Errors](javascript:call_link\('abensystem-exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obsolete.htm) →  [Obsolete Program Flow](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobsolete_program_flow.htm) →  [Obsolete Catchable Runtime Errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem-exceptions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Assignment%20of%20Catchable%20Runtime%20Errors%20to%20Exception%20Groups%2C%20ABENSYSEXC-ERRKL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%2
 0for%20improvement:)
 
 Assignment of Catchable Runtime Errors to Exception Groups
 
-Most of the obsolete catchable runtime errors are assigned to exception groups. Using the name of an exception group, all catchable runtime errors of the group can be caught simultaneously using [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)).
+Most of the obsolete catchable runtime errors are assigned to exception groups. Using the name of an exception group, all catchable runtime errors of the group can be caught simultaneously using [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm).
 
-For each of the catchable runtime errors, a [predefined exception class](javascript:call_link\('abenabap_exception_classes.htm'\)) is specified that can be used to handle the runtime error. Normally, most exception classes of an exception group belong to a common superclass. This superclass is specified in parentheses below the exception group.
+For each of the catchable runtime errors, a [predefined exception class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exception_classes.htm) is specified that can be used to handle the runtime error. Normally, most exception classes of an exception group belong to a common superclass. This superclass is specified in parentheses below the exception group.
 
 The assigned ABAP keywords are specified for each exception group. Only those keywords assigned to a specific exception group can be used to catch the runtime errors in this exception group using the obsolete statement CATCH SYSTEM-EXCEPTIONS.
 
@@ -1676,7 +1785,7 @@ Exception Group: ARITHMETIC\_ERRORS  
 (Associated superclass: CX\_SY\_ARITHMETIC\_ERROR)
 
 This group contains exceptions that can be raised by arithmetic expressions. These include, for example, division by zero, overflow or underflow in fields, and errors in arithmetic and trigonometric functions.
-Errors that occur during the conversion between data types in mixed [arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") are not caught.
+Errors that occur during the conversion between data types in mixed [arithmetic expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") are not caught.
 
 BCD\_ZERODIVIDE
 
@@ -1836,27 +1945,27 @@ CX\_SY\_CONVERSION\_OVERFLOW
 
 The following keywords are assigned to this exception group:
 
-[ADD](javascript:call_link\('abapadd.htm'\))
+[ADD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd.htm)
 
-[ADD-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+[ADD-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd-corresponding.htm)
 
-[COMPUTE](javascript:call_link\('abapcompute_arith.htm'\))
+[COMPUTE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcompute_arith.htm)
 
-[DIVIDE](javascript:call_link\('abapsubtract_multiply_divide.htm'\))
+[DIVIDE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsubtract_multiply_divide.htm)
 
-[DIVIDE-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+[DIVIDE-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd-corresponding.htm)
 
-[MULTIPLY](javascript:call_link\('abapsubtract_multiply_divide.htm'\))
+[MULTIPLY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsubtract_multiply_divide.htm)
 
-[MULTIPLY-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+[MULTIPLY-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd-corresponding.htm)
 
-[SUBTRACT](javascript:call_link\('abapsubtract_multiply_divide.htm'\))
+[SUBTRACT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsubtract_multiply_divide.htm)
 
-[SUBTRACT-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+[SUBTRACT-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd-corresponding.htm)
 
 Hints
 
--   The obsolete keyword [COMPUTE](javascript:call_link\('abapcompute_arith.htm'\)) is optional. However, statements in category
+-   The obsolete keyword [COMPUTE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcompute_arith.htm) is optional. However, statements in category
     
     n1 = arithexp
     still belong to the keyword COMPUTE.
@@ -1872,8 +1981,8 @@ Exception Group: CONVERSION\_ERRORS  
 
 (Associated superclass: CX\_SY\_CONVERSION\_ERROR)
 
-This group contains runtime errors that can occur during the conversion between data types. An explicit conversion can be made using an [assignment](javascript:call_link\('abapmove.htm'\)), for example.
-Implicit conversions are only caught in [arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry").
+This group contains runtime errors that can occur during the conversion between data types. An explicit conversion can be made using an [assignment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove.htm), for example.
+Implicit conversions are only caught in [arithmetic expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry").
 
 BCD\_FIELD\_OVERFLOW
 
@@ -1897,31 +2006,31 @@ CX\_SY\_ARITHMETIC\_OVERFLOW
 
 The following keywords are assigned to this exception group:
 
-[ADD](javascript:call_link\('abapadd.htm'\))
+[ADD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd.htm)
 
-[ADD-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+[ADD-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd-corresponding.htm)
 
-[COMPUTE](javascript:call_link\('abapcompute_arith.htm'\))
+[COMPUTE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcompute_arith.htm)
 
-[DIVIDE](javascript:call_link\('abapadd.htm'\))
+[DIVIDE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd.htm)
 
-[DIVIDE-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+[DIVIDE-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd-corresponding.htm)
 
-[MOVE](javascript:call_link\('abapmove.htm'\))
+[MOVE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove.htm)
 
-[MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\))
+[MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove-corresponding.htm)
 
-[MULTIPLY](javascript:call_link\('abapadd.htm'\))
+[MULTIPLY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd.htm)
 
-[MULTIPLY-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+[MULTIPLY-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd-corresponding.htm)
 
-[PACK](javascript:call_link\('abappack.htm'\))
+[PACK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abappack.htm)
 
-[SUBTRACT](javascript:call_link\('abapadd.htm'\))
+[SUBTRACT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd.htm)
 
-[SUBTRACT-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+[SUBTRACT-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd-corresponding.htm)
 
-[UNPACK](javascript:call_link\('abapunpack.htm'\))
+[UNPACK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapunpack.htm)
 
 Hint
 
@@ -1959,7 +2068,7 @@ CX\_SY\_CREATE\_DATA\_ERROR
 
 The following keywords are assigned to this exception group:
 
-[CREATE DATA](javascript:call_link\('abapcreate_data.htm'\))
+[CREATE DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_data.htm)
 
 Exception Group: CREATE\_OBJECT\_ERRORS   
 
@@ -1985,7 +2094,7 @@ CX\_SY\_CREATE\_OBJECT\_ERROR
 
 The following keywords are assigned to this exception group:
 
-[CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\))
+[CREATE OBJECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_object.htm)
 
 Exception Group: DATA\_ACCESS\_ERRORS   
 
@@ -2123,7 +2232,7 @@ CX\_SY\_REF\_IS\_INITIAL
 
 The following keywords are assigned to this exception group:
 
-[CALL METHOD](javascript:call_link\('abapcall_method_dynamic.htm'\))
+[CALL METHOD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_dynamic.htm)
 
 Exception Group: FILE\_ACCESS\_ERRORS   
 
@@ -2189,17 +2298,17 @@ CX\_SY\_PIPES\_NOT\_SUPPORTED
 
 The following keywords are assigned to this exception group:
 
-CLOSE, variant: [CLOSE DATASET ...](javascript:call_link\('abapclose_dataset.htm'\))
+CLOSE, variant: [CLOSE DATASET ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclose_dataset.htm)
 
-DELETE, variant: [DELETE DATASET ...](javascript:call_link\('abapdelete_dataset.htm'\))
+DELETE, variant: [DELETE DATASET ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_dataset.htm)
 
-EXPORT, variant: [EXPORT ... TO DATASET ...](javascript:call_link\('abapexport_data_cluster.htm'\))
+EXPORT, variant: [EXPORT ... TO DATASET ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_data_cluster.htm)
 
-OPEN, variant: [OPEN DATASET...](javascript:call_link\('abapopen_dataset.htm'\))
+OPEN, variant: [OPEN DATASET...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset.htm)
 
-READ, variant: [READ DATASET...](javascript:call_link\('abapread_dataset.htm'\))
+READ, variant: [READ DATASET...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_dataset.htm)
 
-[TRANSFER](javascript:call_link\('abaptransfer.htm'\))
+[TRANSFER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptransfer.htm)
 
 Exception Group: IMPORT\_MISMATCH\_ERRORS   
 
@@ -2256,13 +2365,13 @@ CX\_SY\_IMPORT\_MISMATCH\_ERROR
 
 The following keywords are assigned to this exception group:
 
-[IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\))
+[IMPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapimport_data_cluster.htm)
 
 Exception Group: LOCALIZATION\_ERRORS   
 
 (Common class: CX\_SY\_LOCALIZATION\_ERROR)
 
-This group contains runtime errors that can occur when the program switches to another [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry"). Typical examples are when the required locale language is not allowed or when the system wants to switch to a character set which has not been released.
+This group contains runtime errors that can occur when the program switches to another [text environment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_environment_glosry.htm "Glossary Entry"). Typical examples are when the required locale language is not allowed or when the system wants to switch to a character set which has not been released.
 
 TEXTENV\_CODEPAGE\_NOT\_ALLOWED
 
@@ -2278,7 +2387,7 @@ CX\_SY\_LOCALIZATION\_ERROR
 
 The following keywords are assigned to this exception group:
 
-SET, variant: [SET LOCALE ...](javascript:call_link\('abapset_locale.htm'\))
+SET, variant: [SET LOCALE ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_locale.htm)
 
 Exception Group: REMOTE\_CALL\_ERRORS   
 
@@ -2300,7 +2409,7 @@ CX\_SY\_RMC\_SYSTEM\_FAILURE
 
 The following keywords are assigned to this exception group:
 
-[CALL METHOD](javascript:call_link\('abapcall_method_dynamic.htm'\))
+[CALL METHOD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_dynamic.htm)
 
 Not Assigned to an Exception Group:   
 
@@ -2346,6 +2455,9 @@ CX\_SY\_REPLACE\_INFINITE\_LOOP
 
 
 
+**📖 Source**: [abensysexc-errkl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensysexc-errkl.htm)
+
+
 **📖 Source**: [abensysexc-errkl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensysexc-errkl.htm)
 
 ### abapcatch_sys.htm
@@ -2354,7 +2466,11 @@ CX\_SY\_REPLACE\_INFINITE\_LOOP
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
+> **📖 Official SAP Documentation**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -2364,13 +2480,13 @@ CX\_SY\_REPLACE\_INFINITE\_LOOP
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Program Flow](javascript:call_link\('abenobsolete_program_flow.htm'\)) →  [Obsolete Catchable Runtime Errors](javascript:call_link\('abensystem-exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obsolete.htm) →  [Obsolete Program Flow](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobsolete_program_flow.htm) →  [Obsolete Catchable Runtime Errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem-exceptions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CATCH%20SYSTEM-EXCEPTIONS%2C%20ABAPCATCH_SYS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CATCH SYSTEM-EXCEPTIONS
 
-[Short Reference](javascript:call_link\('abapcatch_system-except_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_system-except_shortref.htm)
 
 Obsolete Syntax
 
@@ -2381,7 +2497,7 @@ ENDCATCH.
 
 Effect
 
-Handling [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"). The statement CATCH SYSTEM-EXCEPTIONS introduces a control structure containing a statement block statement\_block that is always processed. In the list exc1 = n1 exc2 = n2 ..., [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry") and [exception groups](javascript:call_link\('abenexception_group_glosry.htm'\) "Glossary Entry") can be specified in any order. A directly specified number n1 n2 ... must be assigned to each of them.
+Handling [catchable runtime errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"). The statement CATCH SYSTEM-EXCEPTIONS introduces a control structure containing a statement block statement\_block that is always processed. In the list exc1 = n1 exc2 = n2 ..., [catchable runtime errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry") and [exception groups](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_group_glosry.htm "Glossary Entry") can be specified in any order. A directly specified number n1 n2 ... must be assigned to each of them.
 
 The OTHERS addition can be specified independently or after the list exc1 = n1 exc2 = n2 .... Its effect is the same as specifying an exception group that includes all catchable runtime errors of the runtime framework.
 
@@ -2389,16 +2505,16 @@ The system handles the CATCH control structure as follows:
 
 -   If one of the specified catchable runtime errors or a catchable runtime error contained in the specified exception groups occurs, the execution of the statement block is immediately terminated, the program continues after the statement ENDCATCH, and the number n1 n2 ... assigned to the catchable runtime error or the exception group, is stored for evaluation in the system field sy-subrc. If the list contains a catchable runtime error and its exception group or if a catchable runtime error occurs in some of the specified exception groups, sy-subrc contains the assigned number of the first position in the list.
 
--   If a catchable runtime error occurs in the statement block that is not specified in the statement CATCH SYSTEM-EXCEPTIONS or is not contained in one of the specified exception groups, the program terminates with a [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry")
+-   If a catchable runtime error occurs in the statement block that is not specified in the statement CATCH SYSTEM-EXCEPTIONS or is not contained in one of the specified exception groups, the program terminates with a [short dump](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshort_dump_glosry.htm "Glossary Entry")
 
 -   If the end of the statement block is reached and no runtime error occurs, sy-subrc is set to 0.
 
-A CATCH control structure cannot be defined in the same [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry"), in which the class-based exceptions are handled in a [TRY](javascript:call_link\('abaptry.htm'\)) control structure or are raised by the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) or by the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)).
+A CATCH control structure cannot be defined in the same [processing block](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm "Glossary Entry"), in which the class-based exceptions are handled in a [TRY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptry.htm) control structure or are raised by the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm) or by the addition [THROW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm).
 
 Hints
 
--   Catchable runtime errors are not passed from called [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") to the caller. They can only be caught within a processing block. Within a processing block, catchable runtime errors are caught in control structures that can be nested in any depth. If multiple CATCH control structures are nested, the system branches behind the ENDCATCH statement of the innermost CATCH control structure that handles the runtime error.
--   The handling of catchable runtime errors using CATCH SYSTEM-EXCEPTIONS is obsolete and should be replaced by a [TRY](javascript:call_link\('abaptry.htm'\)) control structure. Since class-based exceptions are assigned to all catchable runtime errors, this is possible without restriction. The class-based exceptions can also be passed from a procedure using RAISING, as well as by using TRY.
+-   Catchable runtime errors are not passed from called [procedures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocedure_glosry.htm "Glossary Entry") to the caller. They can only be caught within a processing block. Within a processing block, catchable runtime errors are caught in control structures that can be nested in any depth. If multiple CATCH control structures are nested, the system branches behind the ENDCATCH statement of the innermost CATCH control structure that handles the runtime error.
+-   The handling of catchable runtime errors using CATCH SYSTEM-EXCEPTIONS is obsolete and should be replaced by a [TRY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptry.htm) control structure. Since class-based exceptions are assigned to all catchable runtime errors, this is possible without restriction. The class-based exceptions can also be passed from a procedure using RAISING, as well as by using TRY.
 
 Example
 
@@ -2417,8 +2533,11 @@ IF sy-subrc <> 0.
 ENDIF.
 
 Continue
-[ENDCATCH](javascript:call_link\('abapendcatch.htm'\))
+[ENDCATCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendcatch.htm)
 
+
+
+**📖 Source**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
 
 
 **📖 Source**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
@@ -2429,7 +2548,11 @@ Continue
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abapendcatch.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendcatch.htm)
+> **📖 Official SAP Documentation**: [abapendcatch.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendcatch.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapendcatch.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendcatch.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -2439,13 +2562,13 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Program Flow](javascript:call_link\('abenobsolete_program_flow.htm'\)) →  [Obsolete Catchable Runtime Errors](javascript:call_link\('abensystem-exceptions.htm'\)) →  [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obsolete.htm) →  [Obsolete Program Flow](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobsolete_program_flow.htm) →  [Obsolete Catchable Runtime Errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem-exceptions.htm) →  [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ENDCATCH%2C%20ABAPENDCATCH%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ENDCATCH
 
-[Short Reference](javascript:call_link\('abapcatch_system-except_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_system-except_shortref.htm)
 
 Obsolete Syntax
 
@@ -2453,8 +2576,11 @@ ENDCATCH.
 
 Effect
 
-The statement ENDCATCH closes a control structure introduced by [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)).
+The statement ENDCATCH closes a control structure introduced by [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm).
 
+
+
+**📖 Source**: [abapendcatch.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendcatch.htm)
 
 
 **📖 Source**: [abapendcatch.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendcatch.htm)
@@ -2465,8 +2591,15 @@ The statement ENDCATCH closes a control structure introduced by [CATCH SYSTEM-EX
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
+> **📖 Official SAP Documentation**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
 
 
   
@@ -2475,13 +2608,13 @@ The statement ENDCATCH closes a control structure introduced by [CATCH SYSTEM-EX
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Program Flow](javascript:call_link\('abenobsolete_program_flow.htm'\)) →  [Obsolete Catchable Runtime Errors](javascript:call_link\('abensystem-exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obsolete.htm) →  [Obsolete Program Flow](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobsolete_program_flow.htm) →  [Obsolete Catchable Runtime Errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem-exceptions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CATCH%20SYSTEM-EXCEPTIONS%2C%20ABAPCATCH_SYS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CATCH SYSTEM-EXCEPTIONS
 
-[Short Reference](javascript:call_link\('abapcatch_system-except_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_system-except_shortref.htm)
 
 Obsolete Syntax
 
@@ -2492,7 +2625,7 @@ ENDCATCH.
 
 Effect
 
-Handling [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"). The statement CATCH SYSTEM-EXCEPTIONS introduces a control structure containing a statement block statement\_block that is always processed. In the list exc1 = n1 exc2 = n2 ..., [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry") and [exception groups](javascript:call_link\('abenexception_group_glosry.htm'\) "Glossary Entry") can be specified in any order. A directly specified number n1 n2 ... must be assigned to each of them.
+Handling [catchable runtime errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"). The statement CATCH SYSTEM-EXCEPTIONS introduces a control structure containing a statement block statement\_block that is always processed. In the list exc1 = n1 exc2 = n2 ..., [catchable runtime errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry") and [exception groups](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_group_glosry.htm "Glossary Entry") can be specified in any order. A directly specified number n1 n2 ... must be assigned to each of them.
 
 The OTHERS addition can be specified independently or after the list exc1 = n1 exc2 = n2 .... Its effect is the same as specifying an exception group that includes all catchable runtime errors of the runtime framework.
 
@@ -2500,16 +2633,16 @@ The system handles the CATCH control structure as follows:
 
 -   If one of the specified catchable runtime errors or a catchable runtime error contained in the specified exception groups occurs, the execution of the statement block is immediately terminated, the program continues after the statement ENDCATCH, and the number n1 n2 ... assigned to the catchable runtime error or the exception group, is stored for evaluation in the system field sy-subrc. If the list contains a catchable runtime error and its exception group or if a catchable runtime error occurs in some of the specified exception groups, sy-subrc contains the assigned number of the first position in the list.
 
--   If a catchable runtime error occurs in the statement block that is not specified in the statement CATCH SYSTEM-EXCEPTIONS or is not contained in one of the specified exception groups, the program terminates with a [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry")
+-   If a catchable runtime error occurs in the statement block that is not specified in the statement CATCH SYSTEM-EXCEPTIONS or is not contained in one of the specified exception groups, the program terminates with a [short dump](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshort_dump_glosry.htm "Glossary Entry")
 
 -   If the end of the statement block is reached and no runtime error occurs, sy-subrc is set to 0.
 
-A CATCH control structure cannot be defined in the same [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry"), in which the class-based exceptions are handled in a [TRY](javascript:call_link\('abaptry.htm'\)) control structure or are raised by the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) or by the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)).
+A CATCH control structure cannot be defined in the same [processing block](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm "Glossary Entry"), in which the class-based exceptions are handled in a [TRY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptry.htm) control structure or are raised by the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm) or by the addition [THROW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm).
 
 Hints
 
--   Catchable runtime errors are not passed from called [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") to the caller. They can only be caught within a processing block. Within a processing block, catchable runtime errors are caught in control structures that can be nested in any depth. If multiple CATCH control structures are nested, the system branches behind the ENDCATCH statement of the innermost CATCH control structure that handles the runtime error.
--   The handling of catchable runtime errors using CATCH SYSTEM-EXCEPTIONS is obsolete and should be replaced by a [TRY](javascript:call_link\('abaptry.htm'\)) control structure. Since class-based exceptions are assigned to all catchable runtime errors, this is possible without restriction. The class-based exceptions can also be passed from a procedure using RAISING, as well as by using TRY.
+-   Catchable runtime errors are not passed from called [procedures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocedure_glosry.htm "Glossary Entry") to the caller. They can only be caught within a processing block. Within a processing block, catchable runtime errors are caught in control structures that can be nested in any depth. If multiple CATCH control structures are nested, the system branches behind the ENDCATCH statement of the innermost CATCH control structure that handles the runtime error.
+-   The handling of catchable runtime errors using CATCH SYSTEM-EXCEPTIONS is obsolete and should be replaced by a [TRY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptry.htm) control structure. Since class-based exceptions are assigned to all catchable runtime errors, this is possible without restriction. The class-based exceptions can also be passed from a procedure using RAISING, as well as by using TRY.
 
 Example
 
@@ -2528,7 +2661,7 @@ IF sy-subrc <> 0.
 ENDIF.
 
 Continue
-[ENDCATCH](javascript:call_link\('abapendcatch.htm'\))
+[ENDCATCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendcatch.htm)
 
 
 ---
@@ -2544,6 +2677,29 @@ Included pages: 10
 
 
 
+## 🔗 Source References
+
+**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
+
+**Individual Pages in this Bundle**:
+- [abenerror_handling_gdl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm)
+- [abenreaction_error_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreaction_error_guidl.htm)
+- [abenclass_exception_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_exception_guidl.htm)
+- [abenexception_category_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_guidl.htm)
+- [abenexception_texts_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_guidl.htm)
+- [abenuse_exception_class_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_exception_class_guidl.htm)
+- [abenhandl_prop_except_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhandl_prop_except_guidl.htm)
+- [abencleanup_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencleanup_guidl.htm)
+- [abenassertions_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertions_guidl.htm)
+- [abenmessages_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessages_guidl.htm)
+
+**Bundle Contains**: 10 documentation pages
+**Version**: ABAP 7.58
+**Generated**: 2025-09-01T11:25:28.924Z
+
+---
+
+
 **📖 Source**: [abapcatch_sys.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
 
 ### abenerror_handling_gdl.htm
@@ -2552,7 +2708,11 @@ Included pages: 10
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abenerror_handling_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm)
+> **📖 Official SAP Documentation**: [abenerror_handling_gdl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenerror_handling_gdl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -2562,7 +2722,7 @@ Included pages: 10
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarchitecture_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Error%20Handling%2C%20ABENERROR_HANDLING_GDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -2575,27 +2735,30 @@ Error situations are always a possibility when a program is being executed. Thes
 
 ABAP offers various method for responding to error situations like these.
 
--   [Reaction to Error Situations](javascript:call_link\('abenreaction_error_guidl.htm'\) "Guideline")
--   [Classic and Class-Based Exceptions](javascript:call_link\('abenclass_exception_guidl.htm'\) "Guideline")
--   [Exception Categories](javascript:call_link\('abenexception_category_guidl.htm'\) "Guideline")
--   [Exception Texts](javascript:call_link\('abenexception_texts_guidl.htm'\) "Guideline")
--   [Using Exception Classes](javascript:call_link\('abenuse_exception_class_guidl.htm'\) "Guideline")
--   [Handling and Propagating Exceptions](javascript:call_link\('abenhandl_prop_except_guidl.htm'\) "Guideline")
--   [Cleanups After Exceptions](javascript:call_link\('abencleanup_guidl.htm'\) "Guideline")
--   [Assertions](javascript:call_link\('abenassertions_guidl.htm'\) "Guideline")
--   [Messages](javascript:call_link\('abenmessages_guidl.htm'\) "Guideline")
+-   [Reaction to Error Situations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreaction_error_guidl.htm "Guideline")
+-   [Classic and Class-Based Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_exception_guidl.htm "Guideline")
+-   [Exception Categories](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_guidl.htm "Guideline")
+-   [Exception Texts](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_guidl.htm "Guideline")
+-   [Using Exception Classes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_exception_class_guidl.htm "Guideline")
+-   [Handling and Propagating Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhandl_prop_except_guidl.htm "Guideline")
+-   [Cleanups After Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencleanup_guidl.htm "Guideline")
+-   [Assertions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertions_guidl.htm "Guideline")
+-   [Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessages_guidl.htm "Guideline")
 
 Continue
-[Reaction to Error Situations](javascript:call_link\('abenreaction_error_guidl.htm'\))
-[Classic and Class-Based Exceptions](javascript:call_link\('abenclass_exception_guidl.htm'\))
-[Exception Categories](javascript:call_link\('abenexception_category_guidl.htm'\))
-[Exception Texts](javascript:call_link\('abenexception_texts_guidl.htm'\))
-[Using Exception Classes](javascript:call_link\('abenuse_exception_class_guidl.htm'\))
-[Handling and Propagating Exceptions](javascript:call_link\('abenhandl_prop_except_guidl.htm'\))
-[Cleanups After Exceptions](javascript:call_link\('abencleanup_guidl.htm'\))
-[Assertions](javascript:call_link\('abenassertions_guidl.htm'\))
-[Messages](javascript:call_link\('abenmessages_guidl.htm'\))
+[Reaction to Error Situations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreaction_error_guidl.htm)
+[Classic and Class-Based Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_exception_guidl.htm)
+[Exception Categories](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_guidl.htm)
+[Exception Texts](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_guidl.htm)
+[Using Exception Classes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_exception_class_guidl.htm)
+[Handling and Propagating Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhandl_prop_except_guidl.htm)
+[Cleanups After Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencleanup_guidl.htm)
+[Assertions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertions_guidl.htm)
+[Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessages_guidl.htm)
 
+
+
+**📖 Source**: [abenerror_handling_gdl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm)
 
 
 **📖 Source**: [abenerror_handling_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm)
@@ -2606,7 +2769,11 @@ Continue
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abenreaction_error_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreaction_error_guidl.htm)
+> **📖 Official SAP Documentation**: [abenreaction_error_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreaction_error_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenreaction_error_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreaction_error_guidl.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -2616,7 +2783,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarchitecture_gdl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Reaction%20to%20Error%20Situations%2C%20ABENREACTION_ERROR_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -2640,7 +2807,7 @@ ABAP provides the following concepts that a program can use to properly react to
     
 -   Program Terminations
     
-    The language elements [RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\)) and [THROW SHORTDUMP](javascript:call_link\('abenconditional_expression_result.htm'\)) make it possible to resolve runtime errors linked with an exception object. The attributes of the exception object can be listed in the short dump of the runtime error.
+    The language elements [RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm) and [THROW SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) make it possible to resolve runtime errors linked with an exception object. The attributes of the exception object can be listed in the short dump of the runtime error.
     
 
 These four concepts either involve the handling of the error situations by the program or the user (exceptions or error messages) or produce a controlled program termination (assertions, RAISE SHORTDUMP, THROW SHORTDUMP, and exit messages).
@@ -2655,15 +2822,18 @@ Details  
 
 For each error situation, you should decide on one of the three concepts for error handling:
 
--   [Exceptions](javascript:call_link\('abenclass_exception_guidl.htm'\) "Guideline") are to be used in all unexpected situations that the user does not have under control. These include, for example, invalid parameter values during the procedure call or unavailable external resources, such as files.
--   [Assertions](javascript:call_link\('abenassertions_guidl.htm'\) "Guideline") are to be used to detect inconsistent program states that necessitate an immediate program termination.
--   [Messages](javascript:call_link\('abenmessages_guidl.htm'\) "Guideline") are to be used only as dialog messages for error dialogs within the scope of classic dynpro processing (if still available). If you want to implement a program termination in situations where it is not a good idea for the program to continue, use assertions from now on instead of termination or exit messages.
+-   [Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_exception_guidl.htm "Guideline") are to be used in all unexpected situations that the user does not have under control. These include, for example, invalid parameter values during the procedure call or unavailable external resources, such as files.
+-   [Assertions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertions_guidl.htm "Guideline") are to be used to detect inconsistent program states that necessitate an immediate program termination.
+-   [Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessages_guidl.htm "Guideline") are to be used only as dialog messages for error dialogs within the scope of classic dynpro processing (if still available). If you want to implement a program termination in situations where it is not a good idea for the program to continue, use assertions from now on instead of termination or exit messages.
 -   Targeted program terminations should only be used as a last resource when a program cannot otherwise execute correctly. They can be raised by failed assertions RAISE SHORTDUMP, THROW SHORTDUMP, or exit messages. Exit messages, if used, offer the fewest options for passing error information to the short dump. Assertions make it possible to write log entries and can be controlled from outside the program. RAISE SHORTDUMP and THROW SHORTDUMP pass exception objects and their attributes, which is of particular use for analyzing previous exceptions.
 
-The statement MESSAGE is not only used to send dialog messages in a classic dynpro, but can also be deployed to terminate a program in a controlled manner or raise classic exceptions in the [MESSAGE ... RAISING](javascript:call_link\('abapmessage_raising.htm'\)) variant if the appropriate message type is selected. This invites you to combine the different concepts, which may lead to problems. This can be traced back to the old programming model that was driven exclusively by classic dynpros, in which an error situation directly required the output of a message to the user.
+The statement MESSAGE is not only used to send dialog messages in a classic dynpro, but can also be deployed to terminate a program in a controlled manner or raise classic exceptions in the [MESSAGE ... RAISING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_raising.htm) variant if the appropriate message type is selected. This invites you to combine the different concepts, which may lead to problems. This can be traced back to the old programming model that was driven exclusively by classic dynpros, in which an error situation directly required the output of a message to the user.
 
-For contemporary programming that takes the [separation of concerns](javascript:call_link\('abenseparation_concerns_guidl.htm'\) "Guideline") (SoC) into account, the question of whether a message is to be sent to the user in the event of an error can usually only be answered in a higher software layer. The layer in which such an error situation occurs must therefore react with an exception initially, which in turn represents a new situation for a higher layer, to which it can react with a dialog message or any other error message.
+For contemporary programming that takes the [separation of concerns](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenseparation_concerns_guidl.htm "Guideline") (SoC) into account, the question of whether a message is to be sent to the user in the event of an error can usually only be answered in a higher software layer. The layer in which such an error situation occurs must therefore react with an exception initially, which in turn represents a new situation for a higher layer, to which it can react with a dialog message or any other error message.
 
+
+
+**📖 Source**: [abenreaction_error_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreaction_error_guidl.htm)
 
 
 **📖 Source**: [abenreaction_error_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreaction_error_guidl.htm)
@@ -2674,7 +2844,11 @@ For contemporary programming that takes the [separation of concerns](javascript:
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abenclass_exception_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_exception_guidl.htm)
+> **📖 Official SAP Documentation**: [abenclass_exception_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_exception_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenclass_exception_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_exception_guidl.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -2684,7 +2858,7 @@ For contemporary programming that takes the [separation of concerns](javascript:
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarchitecture_gdl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Classic%20and%20Class-Based%20Exceptions%2C%20ABENCLASS_EXCEPTION_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -2694,11 +2868,11 @@ Background  
 
 For reasons of downward compatibility, there are two options for defining standalone catchable exceptions in ABAP:
 
--   [Classic Exceptions](javascript:call_link\('abenexceptions_non_class.htm'\))
+-   [Classic Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexceptions_non_class.htm)
     
-    These exceptions can only be declared in the interfaces of methods or function modules using EXCEPTIONS and can be raised within such a procedure using the statements [RAISE](javascript:call_link\('abapraise_exception.htm'\)) or [MESSAGE RAISING](javascript:call_link\('abapmessage_raising.htm'\)). The procedure caller can use the addition EXCEPTIONS of the statements [meth( ... )](javascript:call_link\('abapcall_method_static_short.htm'\)) or [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)) to assign return codes for the system field sy-subrc to the exceptions the caller wants to handle and evaluate them after the call.
+    These exceptions can only be declared in the interfaces of methods or function modules using EXCEPTIONS and can be raised within such a procedure using the statements [RAISE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception.htm) or [MESSAGE RAISING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_raising.htm). The procedure caller can use the addition EXCEPTIONS of the statements [meth( ... )](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_static_short.htm) or [CALL FUNCTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function.htm) to assign return codes for the system field sy-subrc to the exceptions the caller wants to handle and evaluate them after the call.
     
--   [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\))
+-   [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexceptions.htm)
     
     These exceptions are defined by exception classes, from which an exception object can be created when an exception is raised (if a handler uses the addition INTO in CATCH). A class-based exception can either cancel the current context or allow for a resume. Exceptions are raised using the statement RAISE EXCEPTION and handled using CATCH in a TRY control structure. Class-based exceptions can be raised in any procedures and can be further propagated by any procedures.
     
@@ -2718,7 +2892,7 @@ Details  
 
 User-defined classic exceptions are little more than return codes. If a classic exception is raised in a procedure using the statement RAISE, the sy-subrc system field is set according to the raised exception after the return to the calling program. The calling program itself must always check, by querying sy-subrc, whether an exception was raised and react to it if required, for example, by appropriate handling or explicit forwarding to its own calling program (by raising a separate equivalent exception). This does not improve the clarity of the program.
 
-The raising of class-based exceptions, however, results in a change of the program flow. They can either be handled directly or propagated upwards along the call hierarchy. In this way, not every procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) has to consider every possible exception situation itself. This supports the [separation of concerns](javascript:call_link\('abenseparation_concerns_guidl.htm'\) "Guideline") within an application. Because the exception can be represented by an object of an exception class, this exception object can gather additional information about the exception situation and transport it to the handler. In contrast to classic exceptions, this can also include specific [exception texts](javascript:call_link\('abenexception_texts_guidl.htm'\) "Guideline").
+The raising of class-based exceptions, however, results in a change of the program flow. They can either be handled directly or propagated upwards along the call hierarchy. In this way, not every procedure ([method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) has to consider every possible exception situation itself. This supports the [separation of concerns](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenseparation_concerns_guidl.htm "Guideline") within an application. Because the exception can be represented by an object of an exception class, this exception object can gather additional information about the exception situation and transport it to the handler. In contrast to classic exceptions, this can also include specific [exception texts](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_guidl.htm "Guideline").
 
 By default, raising an exception stops the entire current context even if the exception is handled. However, there may be situations (mass data processing, for instance) in which a single error does not justify canceling an entire service. For these cases, class-based exceptions can be raised and propagated as resumable exceptions (RESUMABLE). A handler can decide whether a service is canceled completely or is resumed using the statement RESUME, for example after a corresponding log entry has been written.
 
@@ -2794,6 +2968,9 @@ This simple example is perhaps not the most obvious demonstration of the great a
 
 
 
+**📖 Source**: [abenclass_exception_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_exception_guidl.htm)
+
+
 **📖 Source**: [abenclass_exception_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_exception_guidl.htm)
 
 ### abenexception_category_guidl.htm
@@ -2802,7 +2979,11 @@ This simple example is perhaps not the most obvious demonstration of the great a
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abenexception_category_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_guidl.htm)
+> **📖 Official SAP Documentation**: [abenexception_category_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexception_category_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_guidl.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -2812,7 +2993,7 @@ This simple example is perhaps not the most obvious demonstration of the great a
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarchitecture_gdl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Exception%20Categories%2C%20ABENEXCEPTION_CATEGORY_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -2849,7 +3030,7 @@ Details  
 
 The exception categories are designed for the following error situations:
 
--   As a rule, exceptions that are raised in a procedure should be handled there or declared in the interface for the procedure to declare to the caller which exceptions are to be expected. A syntax check to verify this is run on exceptions from the CX\_STATIC\_CHECK category. This category is therefore always warranted if a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) is to be forced to handle an exception or to at least forward it explicitly. However, if an exception can be prevented by prior checks, exceptions of the CX\_DYNAMIC\_CHECK category are preferable.
+-   As a rule, exceptions that are raised in a procedure should be handled there or declared in the interface for the procedure to declare to the caller which exceptions are to be expected. A syntax check to verify this is run on exceptions from the CX\_STATIC\_CHECK category. This category is therefore always warranted if a procedure ([method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) is to be forced to handle an exception or to at least forward it explicitly. However, if an exception can be prevented by prior checks, exceptions of the CX\_DYNAMIC\_CHECK category are preferable.
 -   If the program logic can eliminate potential error situations, the corresponding exceptions do not have to be handled or declared in the interface. This is the case if prior to a division, for example, there is an explicit precondition for the denominator not to equal zero. In this case, exceptions from the CX\_DYNAMIC\_CHECK category can and should be used. These exceptions only need to be handled and declared if their occurrence cannot be otherwise prevented. In well modeled applications, exceptions are generally prevented by incorporating appropriate conditions in program code and CX\_DYNAMIC\_CHECK category should then be the most frequently used exception category.
 -   For exception situations that can occur at any time and that cannot be handled directly, the CX\_NO\_CHECK category can be used. Otherwise, all exceptions that can be raised due to resource bottlenecks would have to be caught or declared. These exceptions would then have to be specified in practically every interface, which would result in more complex programs lacking in clarity.
 
@@ -2857,6 +3038,9 @@ Note
 
 The resumability of a class-based exception is not an attribute of the exception class; it is defined instead by the RESUMABLE addition of the RAISE EXCEPTION statement when the exception is raised. This attribute can be lost for exceptions of the categories CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK during propagation, if the exceptions are not also declared there using RESUMABLE. CX\_NO\_CHECK always preserves its resumability implicitly.
 
+
+
+**📖 Source**: [abenexception_category_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_guidl.htm)
 
 
 **📖 Source**: [abenexception_category_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_guidl.htm)
@@ -2867,7 +3051,11 @@ The resumability of a class-based exception is not an attribute of the exception
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abenexception_texts_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_guidl.htm)
+> **📖 Official SAP Documentation**: [abenexception_texts_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenexception_texts_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_guidl.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -2877,7 +3065,7 @@ The resumability of a class-based exception is not an attribute of the exception
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarchitecture_gdl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Exception%20Texts%2C%20ABENEXCEPTION_TEXTS_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -2885,7 +3073,7 @@ Exception Texts
 
 Background   
 
-Each global exception class has a predefined [exception text](javascript:call_link\('abenexception_texts.htm'\)) that has the same name as the exception class. This text can be edited and further exception texts can be defined. The exception texts of an exception class can be created either by referencing [messages in the table T100](javascript:call_link\('abenexception_texts_t100.htm'\)) or by referencing [texts in Online Text Repository (OTR)](javascript:call_link\('abenexception_texts_internal.htm'\)).
+Each global exception class has a predefined [exception text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts.htm) that has the same name as the exception class. This text can be edited and further exception texts can be defined. The exception texts of an exception class can be created either by referencing [messages in the table T100](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_t100.htm) or by referencing [texts in Online Text Repository (OTR)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_internal.htm).
 
 For each exception text, Class Builder creates a static constant in the exception class with the same name as the exception text. When the exception is raised, this can be passed to the parameter TEXTID of the instance constructor to determine the exception text. If the parameter is not passed, the predefined exception text with the same name as the exception class is used.
 
@@ -2901,19 +3089,19 @@ Details  
 
 The following guideline describes how to choose the text category:
 
--   [Messages](javascript:call_link\('abenexception_texts_t100.htm'\)) should be used as exception texts in all exception classes in application programming.
--   [OTR texts](javascript:call_link\('abenexception_texts_internal.htm'\)) should only be used in system classes, namely exception classes for system exceptions. OTR offers various benefits when compared with messages, such as no restriction to 73 characters and unlimited placeholders, but lacks full tool support. More specifically, [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") do not support OTR texts.
+-   [Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_t100.htm) should be used as exception texts in all exception classes in application programming.
+-   [OTR texts](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_internal.htm) should only be used in system classes, namely exception classes for system exceptions. OTR offers various benefits when compared with messages, such as no restriction to 73 characters and unlimited placeholders, but lacks full tool support. More specifically, [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry") do not support OTR texts.
 
 From a technical perspective, it is possible to pass a data object to the input parameter TEXTID of the instance constructor when an exception is raised. This data object specifies either a message or an OTR text, depending on the text category. This approach is, however, absolutely not advisable. If the parameter TEXTID is used, an exception can only be raised with the texts specific to it. Only the associated constants of the exception class can be passed to the input parameter TEXTID of the instance constructor.
 
 Hints
 
--   In cases where a class-based exception is used to wrap a [classic exception](javascript:call_link\('abenclass_exception_guidl.htm'\) "Guideline") and [MESSAGE ... RAISING](javascript:call_link\('abapmessage_raising.htm'\)) is used to associate this classic exception with a message text (or after a message is caught using [error\_message](javascript:call_link\('abapcall_function_parameter.htm'\))), the class-based exception can use the same message text regardless of whether the program in question is a system program or application program. The system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)) and the addition [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) of the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) and of the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional exception](javascript:call_link\('abenconditional_expressions.htm'\)) are used for these cases.
--   Classic exceptions are not associated with exception texts. If classic exceptions are required for reasons of downward compatibility, the statement [MESSAGE ... RAISING](javascript:call_link\('abapmessage_raising.htm'\)) gives the option of emulating exception texts here. Using MESSAGE ...RAISING in cases in which non-class-based exceptions must still be used is preferable to using the statement RAISE, because it offers the option of providing additional text information with an exception.
+-   In cases where a class-based exception is used to wrap a [classic exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_exception_guidl.htm "Guideline") and [MESSAGE ... RAISING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_raising.htm) is used to associate this classic exception with a message text (or after a message is caught using [error\_message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_parameter.htm)), the class-based exception can use the same message text regardless of whether the program in question is a system program or application program. The system interface [IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_dyn_msg.htm) and the addition [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_message.htm) of the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm) and of the addition [THROW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) in a [conditional exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm) are used for these cases.
+-   Classic exceptions are not associated with exception texts. If classic exceptions are required for reasons of downward compatibility, the statement [MESSAGE ... RAISING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_raising.htm) gives the option of emulating exception texts here. Using MESSAGE ...RAISING in cases in which non-class-based exceptions must still be used is preferable to using the statement RAISE, because it offers the option of providing additional text information with an exception.
 
 Bad Example
 
-The following source code passes a [UUID](javascript:call_link\('abenuuid_glosry.htm'\) "Glossary Entry") for an OTR text to the input parameter TEXTID of the instance constructor when an exception is raised. According to the rule above, however, only exception texts from the exception class can be passed, with each exception class containing the corresponding constants.
+The following source code passes a [UUID](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuuid_glosry.htm "Glossary Entry") for an OTR text to the input parameter TEXTID of the instance constructor when an exception is raised. According to the rule above, however, only exception texts from the exception class can be passed, with each exception class containing the corresponding constants.
 
 ...
 DATA otr\_id TYPE sotr\_conc.
@@ -2935,6 +3123,9 @@ RAISE EXCEPTION TYPE cx\_system\_exception
 
 
 
+**📖 Source**: [abenexception_texts_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_guidl.htm)
+
+
 **📖 Source**: [abenexception_texts_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_guidl.htm)
 
 ### abenuse_exception_class_guidl.htm
@@ -2943,7 +3134,11 @@ RAISE EXCEPTION TYPE cx\_system\_exception
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abenuse_exception_class_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_exception_class_guidl.htm)
+> **📖 Official SAP Documentation**: [abenuse_exception_class_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_exception_class_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenuse_exception_class_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_exception_class_guidl.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -2953,7 +3148,7 @@ RAISE EXCEPTION TYPE cx\_system\_exception
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarchitecture_gdl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Using%20Exception%20Classes%2C%20ABENUSE_EXCEPTION_CLASS_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -2979,7 +3174,7 @@ The following procedure is recommended for raising correct exceptions:
 2.  Make an existing, almost ideal exception class more specific by passing on and/or adding new exception texts.
 3.  Create an new ideal exception class, possibly as a part of a predefined inheritance hierarchy.
 
-In doing so, it must be ensured that an appropriate [exception category](javascript:call_link\('abenexception_category_guidl.htm'\) "Guideline") is used.
+In doing so, it must be ensured that an appropriate [exception category](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_category_guidl.htm "Guideline") is used.
 
 Bad Example
 
@@ -3023,6 +3218,9 @@ ENDCLASS.
 
 
 
+**📖 Source**: [abenuse_exception_class_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_exception_class_guidl.htm)
+
+
 **📖 Source**: [abenuse_exception_class_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuse_exception_class_guidl.htm)
 
 ### abenhandl_prop_except_guidl.htm
@@ -3031,7 +3229,11 @@ ENDCLASS.
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abenhandl_prop_except_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhandl_prop_except_guidl.htm)
+> **📖 Official SAP Documentation**: [abenhandl_prop_except_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhandl_prop_except_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenhandl_prop_except_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhandl_prop_except_guidl.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -3041,7 +3243,7 @@ ENDCLASS.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarchitecture_gdl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Handling%20and%20Propagating%20Exceptions%2C%20ABENHANDL_PROP_EXCEPT_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -3076,6 +3278,9 @@ Forwarding the exceptions to higher software layers usually results in a general
 
 
 
+**📖 Source**: [abenhandl_prop_except_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhandl_prop_except_guidl.htm)
+
+
 **📖 Source**: [abenhandl_prop_except_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhandl_prop_except_guidl.htm)
 
 ### abencleanup_guidl.htm
@@ -3084,7 +3289,11 @@ Forwarding the exceptions to higher software layers usually results in a general
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abencleanup_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencleanup_guidl.htm)
+> **📖 Official SAP Documentation**: [abencleanup_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencleanup_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abencleanup_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencleanup_guidl.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -3094,7 +3303,7 @@ Forwarding the exceptions to higher software layers usually results in a general
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarchitecture_gdl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Cleanups%20After%20Exceptions%2C%20ABENCLEANUP_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -3114,7 +3323,7 @@ Before forwarding an exception to higher-level call layers, perform the necessar
 
 Details   
 
-Each exception changes the program flow and can thus pose a significant risk to the consistency of an application. If you decide not to handle an exception, but to [forward](javascript:call_link\('abenhandl_prop_except_guidl.htm'\) "Guideline") it, you must make sure that you leave the current software layer in a consistent state. You can implement the CLEANUP block in this case, to execute cleanups before the exception is forwarded to higher-level software layers.
+Each exception changes the program flow and can thus pose a significant risk to the consistency of an application. If you decide not to handle an exception, but to [forward](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhandl_prop_except_guidl.htm "Guideline") it, you must make sure that you leave the current software layer in a consistent state. You can implement the CLEANUP block in this case, to execute cleanups before the exception is forwarded to higher-level software layers.
 
 Bad Example
 
@@ -3146,6 +3355,9 @@ ENDTRY.
 
 
 
+**📖 Source**: [abencleanup_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencleanup_guidl.htm)
+
+
 **📖 Source**: [abencleanup_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencleanup_guidl.htm)
 
 ### abenassertions_guidl.htm
@@ -3154,7 +3366,11 @@ ENDTRY.
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abenassertions_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertions_guidl.htm)
+> **📖 Official SAP Documentation**: [abenassertions_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertions_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+> **📖 Official SAP Documentation**: [abenassertions_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertions_guidl.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
@@ -3164,7 +3380,7 @@ ENDTRY.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarchitecture_gdl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Assertions%2C%20ABENASSERTIONS_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -3172,7 +3388,7 @@ Assertions
 
 Background   
 
-The [ASSERT](javascript:call_link\('abapassert.htm'\)) statement is used to express an assertion in an ABAP program. Such an assertion is either always active or can be activated externally by assignment to a checkpoint group. When the program reaches an active assertion, it evaluates the corresponding condition. If the condition is violated, the following happens, depending on the type of activation:
+The [ASSERT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassert.htm) statement is used to express an assertion in an ABAP program. Such an assertion is either always active or can be activated externally by assignment to a checkpoint group. When the program reaches an active assertion, it evaluates the corresponding condition. If the condition is violated, the following happens, depending on the type of activation:
 
 -   The program is terminated with the runtime error ASSERTION\_FAILED.
 -   The program branches to the ABAP Debugger.
@@ -3211,6 +3427,9 @@ ASSERT sy-subrc = 0.
 
 
 
+**📖 Source**: [abenassertions_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertions_guidl.htm)
+
+
 **📖 Source**: [abenassertions_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertions_guidl.htm)
 
 ### abenmessages_guidl.htm
@@ -3219,11 +3438,18 @@ ASSERT sy-subrc = 0.
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-> **📖 Official SAP Documentation**: [abenmessages_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessages_guidl.htm)
+**📖 Source**: [abenmessages_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessages_guidl.htm)
+
+
+> **📖 Official SAP Documentation**: [abenmessages_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessages_guidl.htm)
 > **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
 
 
-**📖 Source**: [abenmessages_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessages_guidl.htm)
+> **📖 Official SAP Documentation**: [abenmessages_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessages_guidl.htm)
+> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
+
+
+**📖 Source**: [abenmessages_guidl.htm](https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_7.58_index_htm/7.58/en-US/https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessages_guidl.htm)
 
 
   
@@ -3232,7 +3458,7 @@ ASSERT sy-subrc = 0.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarchitecture_gdl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_handling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Messages%2C%20ABENMESSAGES_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -3240,7 +3466,7 @@ Messages
 
 Background   
 
-Messages are texts that are created using a [message maintenance](javascript:call_link\('abenmessage_maintenance_glosry.htm'\) "Glossary Entry"). They are stored in the system table T100. In ABAP programs, the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)) is the main element for using messages. In its basic form, this statement sends a message; by specifying a message type, the display type and subsequent program behavior can be defined. For this reason, a distinction is made between the following message types:
+Messages are texts that are created using a [message maintenance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_maintenance_glosry.htm "Glossary Entry"). They are stored in the system table T100. In ABAP programs, the statement [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) is the main element for using messages. In its basic form, this statement sends a message; by specifying a message type, the display type and subsequent program behavior can be defined. For this reason, a distinction is made between the following message types:
 
 -   Status message (S)
 -   Information message (I)
@@ -3250,17 +3476,17 @@ Messages are texts that are created using a [message maintenance](javascript:cal
 
 In addition, there is a special message type, exit message (X), which causes a targeted program termination with a runtime error.
 
-The actual system behavior after a message is sent is highly context-dependent. The current version of the ABAP keyword documentation contains a [detailed list](javascript:call_link\('abenabap_messages_types.htm'\)) of effects caused by different message types in different contexts (such as dialog processing, background processing, during an RFC and during the processing of HTTP requests).
+The actual system behavior after a message is sent is highly context-dependent. The current version of the ABAP keyword documentation contains a [detailed list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages_types.htm) of effects caused by different message types in different contexts (such as dialog processing, background processing, during an RFC and during the processing of HTTP requests).
 
 The original purpose of messages is to act as dialog messages to display short information (types I and S) and handle incorrect user input (types W and E), during classic dynpro processing. Messages also have aspects that overlap with exceptions:
 
--   The statement [MESSAGE ... RAISING](javascript:call_link\('abapmessage_raising.htm'\)) is a combination of the statements MESSAGE and RAISE which enables classic exceptions to be linked with messages.
+-   The statement [MESSAGE ... RAISING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_raising.htm) is a combination of the statements MESSAGE and RAISE which enables classic exceptions to be linked with messages.
 -   Using the special, predefined classic exception, error\_message, error and termination messages (that occur when function modules run) can be handled in the same way as exceptions. This also applies to messages sent from the ABAP runtime framework (for example, when the automatic input check of classic dynpros is running).
--   In exception classes, [exception texts](javascript:call_link\('abenexception_texts_guidl.htm'\) "Guideline") can be defined with a reference to messages. The message types A and X can also be used for direct program terminations.
+-   In exception classes, [exception texts](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_guidl.htm "Guideline") can be defined with a reference to messages. The message types A and X can also be used for direct program terminations.
 
 Hint
 
-A further variant, [MESSAGE ... INTO](javascript:call_link\('abapmessage_into.htm'\)) makes it possible to copy the short texts of messages into fields.
+A further variant, [MESSAGE ... INTO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_into.htm) makes it possible to copy the short texts of messages into fields.
 
 Rule   
 
@@ -3270,30 +3496,30 @@ Only send dialog messages in PAI processing of classic dynpros. Messages should 
 
 Details   
 
-The wide use of messages for different purposes can be traced back to the previous programming model, which was only driven by classic dynpros. Here, an exception situation usually always required the direct output of a message to the user. This concept was adopted for other situations, such as targeted program terminations. Triggering a dialog message within application logic procedures violates the [SoC principle](javascript:call_link\('abenseparation_concerns_guidl.htm'\) "Guideline") and limits the usability of the relevant procedure ([Method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) to the context of classic dynpro processing. The predefined exception error\_message should be regarded as a workaround that enables procedures to be executed for sending messages in the application logic or in the background.
+The wide use of messages for different purposes can be traced back to the previous programming model, which was only driven by classic dynpros. Here, an exception situation usually always required the direct output of a message to the user. This concept was adopted for other situations, such as targeted program terminations. Triggering a dialog message within application logic procedures violates the [SoC principle](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenseparation_concerns_guidl.htm "Guideline") and limits the usability of the relevant procedure ([Method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) to the context of classic dynpro processing. The predefined exception error\_message should be regarded as a workaround that enables procedures to be executed for sending messages in the application logic or in the background.
 
 In new programs, the use of messages should be restricted as described below.
 
 Dialog Messages
 
-In cases where [classic dynpros](javascript:call_link\('abenuser_interfaces_gdl.htm'\)) are still used, message types E, I, S, and W are still suitable for sending information to the user or for running error dialogs at the time of PAI (which is the original purpose of these messages types). Running error dialogs, in particular, is supported by the statements FIELD and CHAIN of the dynpro flow logic.
+In cases where [classic dynpros](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_interfaces_gdl.htm) are still used, message types E, I, S, and W are still suitable for sending information to the user or for running error dialogs at the time of PAI (which is the original purpose of these messages types). Running error dialogs, in particular, is supported by the statements FIELD and CHAIN of the dynpro flow logic.
 
 Exception Texts
 
-Messages are the recommended category of text for [exception texts](javascript:call_link\('abenexception_texts_guidl.htm'\) "Guideline"). The statement MESSAGE allows these exception texts to be sent directly as dialog messages. A reference to a corresponding exception object can be specified directly. From a technical point of view, a reference must be specified to an object whose class implements the interface [IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)).
+Messages are the recommended category of text for [exception texts](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_texts_guidl.htm "Guideline"). The statement MESSAGE allows these exception texts to be sent directly as dialog messages. A reference to a corresponding exception object can be specified directly. From a technical point of view, a reference must be specified to an object whose class implements the interface [IF\_T100\_MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_message.htm).
 
-Messages in procedures where classic exceptions are still necessary can serve to replace real exception texts. This is done by using the statement [MESSAGE ... RAISING](javascript:call_link\('abapraise_exception.htm'\)) instead of [RAISE](javascript:call_link\('abapmessage_raising.htm'\)). During this process, information about the exception text is passed to the handler, in the system fields sy-msgid and sy-msgv1 - sy-msgv4. These fields are filled using the statement MESSAGE. This works especially well for handling exceptions during an RFC, for which class-based exception handling is not possible. When a classic exception of this type is handled or a message caught using [error\_message](javascript:call_link\('abapcall_function_parameter.htm'\)), the message can then be raised as an exception and forwarded with a suitable message class. The system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)) and the addition [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) of the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) and of the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional exception](javascript:call_link\('abenconditional_expressions.htm'\)) are used for these cases.
+Messages in procedures where classic exceptions are still necessary can serve to replace real exception texts. This is done by using the statement [MESSAGE ... RAISING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception.htm) instead of [RAISE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_raising.htm). During this process, information about the exception text is passed to the handler, in the system fields sy-msgid and sy-msgv1 - sy-msgv4. These fields are filled using the statement MESSAGE. This works especially well for handling exceptions during an RFC, for which class-based exception handling is not possible. When a classic exception of this type is handled or a message caught using [error\_message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_parameter.htm), the message can then be raised as an exception and forwarded with a suitable message class. The system interface [IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenif_t100_dyn_msg.htm) and the addition [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_message.htm) of the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm) and of the addition [THROW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) in a [conditional exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expressions.htm) are used for these cases.
 
 Program Terminations
 
 Message types A and X cause program terminations (aborts) and should no longer be used:
 
 -   If a termination message of type A is sent, the statement ROLLBACK WORK is executed implicitly. This can lead to unexpected results, if the message is handled with error\_message as a classic exception (rather than causing a program termination) To be on the safe side, the statements ROLLBACK WORK and LEAVE PROGRAM should be used explicitly to exit the program.
--   If a message of type X is sent, the program is terminated with the runtime error MESSAGE\_TYPE\_X. When programs are forced to terminate due to internal inconsistencies, however, [assertions](javascript:call_link\('abenassertions_guidl.htm'\) "Guideline") or the language elements [RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\)) or [THROW SHORTDUMP](javascript:call_link\('abenconditional_expression_result.htm'\)) should now be used. The values specified here using the addition FIELDS of the statement ASSERT or the exception object RAISE SHORTDUMP or THROW SHORTDUMP are usually better suited for troubleshooting than a message.
+-   If a message of type X is sent, the program is terminated with the runtime error MESSAGE\_TYPE\_X. When programs are forced to terminate due to internal inconsistencies, however, [assertions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertions_guidl.htm "Guideline") or the language elements [RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm) or [THROW SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) should now be used. The values specified here using the addition FIELDS of the statement ASSERT or the exception object RAISE SHORTDUMP or THROW SHORTDUMP are usually better suited for troubleshooting than a message.
 
 Exception
 
-Exit messages can still be used if you want only the text of the message to appear in the short dump of the runtime error. However, this should not be misunderstood as communication with the user. A runtime error is not a suitable way of communicating with users. For a simple, unconditional program termination, however, exit messages should no longer be used. Instead, where required, the language elements [RAISE SHORTDUMP](javascript:call_link\('abapraise_shortdump.htm'\)) or [THROW SHORTDUMP](javascript:call_link\('abenconditional_expression_result.htm'\)) can be used instead.
+Exit messages can still be used if you want only the text of the message to appear in the short dump of the runtime error. However, this should not be misunderstood as communication with the user. A runtime error is not a suitable way of communicating with users. For a simple, unconditional program termination, however, exit messages should no longer be used. Instead, where required, the language elements [RAISE SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_shortdump.htm) or [THROW SHORTDUMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_result.htm) can be used instead.
 
 
 ---

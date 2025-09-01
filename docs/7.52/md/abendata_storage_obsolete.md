@@ -4,20 +4,20 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Processing of External Data
 
--   [Obsolete database access](javascript:call_link\('abendatabase_access_obsolete.htm'\))
+-   [Obsolete database access](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_access_obsolete.htm)
 
--   [Data clusters](javascript:call_link\('abendata_cluster_obsolete.htm'\))
+-   [Data clusters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_cluster_obsolete.htm)
 
--   [Contexts](javascript:call_link\('abencontext.htm'\))
+-   [Contexts](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontext.htm)
 
--   [Logical databases](javascript:call_link\('abenldb.htm'\))
+-   [Logical databases](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb.htm)
 
 Continue
-[Obsolete Database Access](javascript:call_link\('abendatabase_access_obsolete.htm'\))
-[Obsolete Access to Data Clusters](javascript:call_link\('abendata_cluster_obsolete.htm'\))
-[Contexts (Obsolete)](javascript:call_link\('abencontext.htm'\))
-[Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\))
+[Obsolete Database Access](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_access_obsolete.htm)
+[Obsolete Access to Data Clusters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_cluster_obsolete.htm)
+[Contexts (Obsolete)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontext.htm)
+[Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenldb.htm)

@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenabap_sql_reading.htm'\)) →  [WITH](javascript:call_link\('abapwith.htm'\)) →  [WITH, Examples](javascript:call_link\('abenwith_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql.htm) →  [ABAP SQL - Read Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_reading.htm) →  [WITH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwith.htm) →  [WITH, Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwith_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: WITH, Aggregation for Join Set, ABENWITH_AGG_UNION_ABEXA, 757%0D%0A%0D%0AError:%0D%0A
 %0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 WITH, Aggregation for Join Set
 
-This example demonstrates how to use [WITH](javascript:call_link\('abapwith.htm'\)) for an aggregation.
+This example demonstrates how to use [WITH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwith.htm) for an aggregation.
 
 Source Code   
 
@@ -47,4 +47,4 @@ START-OF-SELECTION.
 
 Description   
 
-This example has the same result as the executable example for a [union with a global temporary table](javascript:call_link\('abenselect_union_sum_gtt_abexa.htm'\)). The source code is almost identical. Here the global temporary table demo\_sflight\_agg has been replaced by a [common table expression](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry") +agg and both SELECT statements are part of a WITH statement.
+This example has the same result as the executable example for a [union with a global temporary table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_union_sum_gtt_abexa.htm). The source code is almost identical. Here the global temporary table demo\_sflight\_agg has been replaced by a [common table expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +agg and both SELECT statements are part of a WITH statement.

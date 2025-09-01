@@ -4,51 +4,51 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Setting Reference Variables](javascript:call_link\('abenset_references.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreference_assignments.htm) →  [Setting Reference Variables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenset_references.htm) → 
 
 CAST, Casting Operator
 
 Syntax
 
-... CAST type( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]* dobj ) ...
+... CAST type( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm)*\]* dobj ) ...
 
 Effect
 
-A [constructor expression](javascript:call_link\('abenconstructor_expressions.htm'\)) with the casting operator CAST performs a [down cast](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry") or an [up cast](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") for the argument dobj and creates a reference variable of the static type type as a result. type can be specified as:
+A [constructor expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expressions.htm) with the casting operator CAST performs a [down cast](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendown_cast_glosry.htm "Glossary Entry") or an [up cast](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenup_cast_glosry.htm "Glossary Entry") for the argument dobj and creates a reference variable of the static type type as a result. type can be specified as:
 
 -   any non-generic data type dtype or the completely generic data type data
--   any [object type](javascript:call_link\('abenobject_type_glosry.htm'\) "Glossary Entry") (class or interface) including the completely generic object type object.
--   The # character as a symbol for the [operand type](javascript:call_link\('abenoperand_type_glosry.htm'\) "Glossary Entry"). This specification is only possible if the data type required in an operand position is unique and completely identifiable.
+-   any [object type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobject_type_glosry.htm "Glossary Entry") (class or interface) including the completely generic object type object.
+-   The # character as a symbol for the [operand type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperand_type_glosry.htm "Glossary Entry"). This specification is only possible if the data type required in an operand position is unique and completely identifiable.
 
-The parentheses must contain exactly one unnamed argument dobj. If a data type is specified, dobj must be a data reference variable. If an object type is used, dobj must be an object reference variable. dobj is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry").
+The parentheses must contain exactly one unnamed argument dobj. If a data type is specified, dobj must be a data reference variable. If an object type is used, dobj must be an object reference variable. dobj is a [general expression position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry").
 
-The casting of dobj to the specified type takes place in accordance with the same rules as for the [casting operator](javascript:call_link\('abencasting_operator_glosry.htm'\) "Glossary Entry") for assignments, [?=](javascript:call_link\('abapmove_cast.htm'\)). If the specified type type is more specific than the static type of dobj, it is a [down cast](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry"). If type is more general than the static type of dobj, it is an explicit [up cast](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry").
+The casting of dobj to the specified type takes place in accordance with the same rules as for the [casting operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_operator_glosry.htm "Glossary Entry") for assignments, [?=](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove_cast.htm). If the specified type type is more specific than the static type of dobj, it is a [down cast](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendown_cast_glosry.htm "Glossary Entry"). If type is more general than the static type of dobj, it is an explicit [up cast](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenup_cast_glosry.htm "Glossary Entry").
 
--   Like a data reference variable of type dtype, a constructor expression CAST dtype( ... ) can be continued using a [dereferencing operator](javascript:call_link\('abendereferencing_operat_glosry.htm'\) "Glossary Entry") \->\*, and for a structured type with an [object component selector](javascript:call_link\('abenobject_component_select_glosry.htm'\) "Glossary Entry") \->.
--   Like an object reference variable of the type class, a constructor expression CAST class( ... ) can be continued using an [object component selector](javascript:call_link\('abenobject_component_select_glosry.htm'\) "Glossary Entry") \-> and used in [general expression positions](javascript:call_link\('abengeneral_expression_positions.htm'\)) and [functional positions](javascript:call_link\('abenfunctional_positions.htm'\)). Furthermore, it is possible to introduce [standalone method calls](javascript:call_link\('abapcall_method_static_short.htm'\)) including [chained method calls](javascript:call_link\('abenchained_method_call_glosry.htm'\) "Glossary Entry").
+-   Like a data reference variable of type dtype, a constructor expression CAST dtype( ... ) can be continued using a [dereferencing operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendereferencing_operat_glosry.htm "Glossary Entry") \->\*, and for a structured type with an [object component selector](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobject_component_select_glosry.htm "Glossary Entry") \->.
+-   Like an object reference variable of the type class, a constructor expression CAST class( ... ) can be continued using an [object component selector](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobject_component_select_glosry.htm "Glossary Entry") \-> and used in [general expression positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneral_expression_positions.htm) and [functional positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunctional_positions.htm). Furthermore, it is possible to introduce [standalone method calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_static_short.htm) including [chained method calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchained_method_call_glosry.htm "Glossary Entry").
 
 A single expression not followed by the object component selector \-> can be specified as a standalone statement. This makes it possible to test the feasibility of a down cast by catching the associated exception CX\_SY\_MOVE\_CAST\_ERROR.
 
 If a single expression points to a data object or a component of a data object using exactly one following object component selector, \->,
 
--   it can be specified as a [writable expression](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") in a [result position](javascript:call_link\('abenresult_position_glosry.htm'\) "Glossary Entry"). The type of the result must be convertible to the data type type with the following restriction: If the result is the result of a [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry"), type must be byte-like or character-like with the type c or string.
--   a [specified offset/length](javascript:call_link\('abenoffset_length_specific_glosry.htm'\) "Glossary Entry") [+off(len)](javascript:call_link\('abenoffset_length.htm'\)) can be appended if the data type is suitable, unless the chaining is used as a [memory area](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)) of the statement ASSIGN.
+-   it can be specified as a [writable expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwritable_expression_glosry.htm "Glossary Entry") in a [result position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenresult_position_glosry.htm "Glossary Entry"). The type of the result must be convertible to the data type type with the following restriction: If the result is the result of a [bit expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbit_expression_glosry.htm "Glossary Entry"), type must be byte-like or character-like with the type c or string.
+-   a [specified offset/length](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoffset_length_specific_glosry.htm "Glossary Entry") [+off(len)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoffset_length.htm) can be appended if the data type is suitable, unless the chaining is used as a [memory area](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_mem_area_writable_exp.htm) of the statement ASSIGN.
 
-An optional LET expression [let\_exp](javascript:call_link\('abaplet.htm'\)) can be specified in front of the argument to define local helper fields.
+An optional LET expression [let\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaplet.htm) can be specified in front of the argument to define local helper fields.
 
 Hints
 
 -   The casting operator CAST is suitable for avoiding the declaration of helper variables that are only necessary for down casts.
--   Explicit up casts with the casting operator CAST are suitable for determining a more general type of a declared reference variable in [inline declarations](javascript:call_link\('abendata_inline.htm'\)).
+-   Explicit up casts with the casting operator CAST are suitable for determining a more general type of a declared reference variable in [inline declarations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_inline.htm).
 -   No empty parentheses can be specified after CAST.
--   Unlike [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)), CAST works with an existing reference variable, which means that the result does not need to be saved to persist the referenced object.
--   The predicate expression [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) or the case distinction [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) can be used to check whether a cast is possible to specific classes or interfaces.
--   Down casts are also possible using the INTO addition of the statement [WHEN TYPE](javascript:call_link\('abapwhen_type.htm'\)) of a case distinction using [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)).
--   The constructor operator [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) is related to CAST but performs a [conversion](javascript:call_link\('abenconversion_glosry.htm'\) "Glossary Entry") instead of a [casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry").
+-   Unlike [NEW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm), CAST works with an existing reference variable, which means that the result does not need to be saved to persist the referenced object.
+-   The predicate expression [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_instance_of.htm) or the case distinction [CASE TYPE OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase_type.htm) can be used to check whether a cast is possible to specific classes or interfaces.
+-   Down casts are also possible using the INTO addition of the statement [WHEN TYPE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwhen_type.htm) of a case distinction using [CASE TYPE OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcase_type.htm).
+-   The constructor operator [CONV](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_conv.htm) is related to CAST but performs a [conversion](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_glosry.htm "Glossary Entry") instead of a [casting](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencast_casting_glosry.htm "Glossary Entry").
 
 Example
 
-The source code section below shows two equally valid down casts with the two possible [casting operators](javascript:call_link\('abencasting_operator_glosry.htm'\) "Glossary Entry") ?= and CAST. Before the actual cast, its feasibility is checked using the predicate expression [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)).
+The source code section below shows two equally valid down casts with the two possible [casting operators](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencasting_operator_glosry.htm "Glossary Entry") ?= and CAST. Before the actual cast, its feasibility is checked using the predicate expression [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_instance_of.htm).
 
 CLASS c1 DEFINITION.
 ENDCLASS.
@@ -64,7 +64,7 @@ ENDIF.
 
 Example
 
-Use of the dereferencing operator and component selector in CAST with data types. The constructor expressions can be used as [writable expressions](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") on the right and left side of assignments with the [assignment operator\=](javascript:call_link\('abenequals_operator.htm'\)).
+Use of the dereferencing operator and component selector in CAST with data types. The constructor expressions can be used as [writable expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwritable_expression_glosry.htm "Glossary Entry") on the right and left side of assignments with the [assignment operator\=](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_operator.htm).
 
 TYPES: BEGIN OF t\_struc,
         col1 TYPE i,
@@ -82,7 +82,7 @@ CAST t\_struc( dref )->col2 = struc-col2.
 
 Example
 
-[RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry") often requires a helper variable to perform a down cast of a type description object to a specialized class. These examples show how helper variables can be reduced by using the operator CAST.
+[RTTS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry") often requires a helper variable to perform a down cast of a type description object to a specialized class. These examples show how helper variables can be reduced by using the operator CAST.
 
 DATA(attributes) =
   CAST cl\_abap\_classdescr(

@@ -4,13 +4,13 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_type_obj_gdl.htm) → 
 
 Start Values
 
 Background
 
-If you declare a data object with the statement DATA, you can use the addition [VALUE](javascript:call_link\('abapdata_options.htm'\)) to set a value, with which the data object is filled when it is created. If the addition VALUE is not used, the system uses the type-dependent initial value. If the statement CONSTANTS is used, the addition VALUE must always be specified. If the type-dependent initial value is required here, this can be achieved using the addition VALUE IS INITIAL. The addition [DEFAULT](javascript:call_link\('abapmethods_parameters.htm'\)) for input parameters of methods is a further option for start values.
+If you declare a data object with the statement DATA, you can use the addition [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_options.htm) to set a value, with which the data object is filled when it is created. If the addition VALUE is not used, the system uses the type-dependent initial value. If the statement CONSTANTS is used, the addition VALUE must always be specified. If the type-dependent initial value is required here, this can be achieved using the addition VALUE IS INITIAL. The addition [DEFAULT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_parameters.htm) for input parameters of methods is a further option for start values.
 
 If the specified start value does match the type and length of the data object, the value is converted when the program is generated.
 
@@ -22,7 +22,7 @@ Only use the addition VALUE to enter start values that exactly match the data ty
 
 Details
 
-The start value cannot always be specified in a type-compliant way, since ABAP does not support type-compliant [literals](javascript:call_link\('abenliterals_guidl.htm'\) "Guideline") for all possible data types. In all cases where a conversion cannot be avoided, choose the content of literals specified as start values so that the actual value meets the requirements when the source code is read.
+The start value cannot always be specified in a type-compliant way, since ABAP does not support type-compliant [literals](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenliterals_guidl.htm "Guideline") for all possible data types. In all cases where a conversion cannot be avoided, choose the content of literals specified as start values so that the actual value meets the requirements when the source code is read.
 
 Hint
 

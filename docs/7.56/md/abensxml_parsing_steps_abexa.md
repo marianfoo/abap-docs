@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Class Libraries](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)) →  [sXML - Examples](javascript:call_link\('abenabap_sxml_lib_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml.htm) →  [XML - Class Libraries](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_libs.htm) →  [sXML Library](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sxml_lib.htm) →  [sXML - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sxml_lib_abexas.htm) → 
 
 sXML - Steps in Token-Based Parsing
 
-This example demonstrates various steps in [token-based parsing](javascript:call_link\('abenabap_sxml_lib_parse_iterative.htm'\)).
+This example demonstrates various steps in [token-based parsing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sxml_lib_parse_iterative.htm).
 
 Source Code
 
@@ -89,10 +89,10 @@ START-OF-SELECTION.
 
 Description
 
-Using simple XML data, this example demonstrates how possible steps work, alongside NEXT\_NODE and NEXT\_ATTRIBUTE, in [token-based parsing](javascript:call_link\('abenabap_sxml_lib_parse_iterative.htm'\)) with an XML reader from [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)).
+Using simple XML data, this example demonstrates how possible steps work, alongside NEXT\_NODE and NEXT\_ATTRIBUTE, in [token-based parsing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sxml_lib_parse_iterative.htm) with an XML reader from [sXML Library](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sxml_lib.htm).
 
 -   The method CURRENT\_NODE resets an iteration across an attribute list back to its start.
 -   The method PUSH\_BACK first branches an iteration from a value node to the associated element opening and from there to the element opening of the superelement.
 -   The method SKIP\_NODE then parses all subnodes up to the end of element of the XML data.
 
-In this example, the demonstration methods process a known XML data structure. A further [executable example](javascript:call_link\('abensxml_parsing_methods_abexa.htm'\)) demonstrates the methods without the entire structure of XML data being known in advance.
+In this example, the demonstration methods process a known XML data structure. A further [executable example](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensxml_parsing_methods_abexa.htm) demonstrates the methods without the entire structure of XML data being known in advance.

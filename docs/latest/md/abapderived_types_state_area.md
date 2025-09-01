@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Components Related to Information Processing](javascript:call_link\('abapderived_types_info.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_comp.htm) →  [Components Related to Information Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_info.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20%25state_area%2C%20ABAPDERIVED_TYPES_STATE_AREA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,19 +12,19 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 Use
 
-%state\_area is a component of [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry"). It is a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry") of type [string](javascript:call_link\('abenbuiltin_types_character.htm'\)) and used as a component of the REPORTED [RAP response parameter](javascript:call_link\('abenrap_response_param_glosry.htm'\) "Glossary Entry"). It is filled by the [RAP BO provider](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry").
+%state\_area is a component of [BDEF derived types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm "Glossary Entry"). It is a [character string](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharacter_string_glosry.htm "Glossary Entry") of type [string](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_character.htm) and used as a component of the REPORTED [RAP response parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_response_param_glosry.htm "Glossary Entry"). It is filled by the [RAP BO provider](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry").
 
-If this component is filled, the framework interprets a message as [state message](javascript:call_link\('abenrap_state_mes_glosry.htm'\) "Glossary Entry"). Otherwise, a message is interpreted as a [transition message](javascript:call_link\('abenrap_trans_mes_glosry.htm'\) "Glossary Entry").
+If this component is filled, the framework interprets a message as [state message](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_state_mes_glosry.htm "Glossary Entry"). Otherwise, a message is interpreted as a [transition message](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_trans_mes_glosry.htm "Glossary Entry").
 
-In ABAP EML, state messages can only be accessed via an ABAP EML [READ](javascript:call_link\('abapread_entity_short.htm'\)) statement. In this case, the %state\_area component is filled with the value %STATE. In all other ABAP EML statements, the [reported](javascript:call_link\('abaptype_response_for.htm'\)) response parameter only contains transition messages.
+In ABAP EML, state messages can only be accessed via an ABAP EML [READ](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_short.htm) statement. In this case, the %state\_area component is filled with the value %STATE. In all other ABAP EML statements, the [reported](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_response_for.htm) response parameter only contains transition messages.
 
 The %state\_area component is mainly relevant in the following contexts:
 
--   [draft](javascript:call_link\('abenbdl_with_draft.htm'\)) scenarios because state messages are persisted (in table RAP\_MESSAGES) until the state of the RAP BO is changed. The string provided is not relevant for the [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry"). The RAP BO consumer is only interested in transition messages.
--   [finalize](javascript:call_link\('abensaver_finalize.htm'\)) and [check\_before\_save](javascript:call_link\('abensaver_check_before_save.htm'\)) RAP saver methods in [unmanaged RAP business objects](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry")
--   [RAP determinations](javascript:call_link\('abenrap_determination_glosry.htm'\) "Glossary Entry") and [validations](javascript:call_link\('abenrap_validation_glosry.htm'\) "Glossary Entry") in [managed RAP business objects](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry")
+-   [draft](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_with_draft.htm) scenarios because state messages are persisted (in table RAP\_MESSAGES) until the state of the RAP BO is changed. The string provided is not relevant for the [RAP BO consumer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry"). The RAP BO consumer is only interested in transition messages.
+-   [finalize](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensaver_finalize.htm) and [check\_before\_save](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensaver_check_before_save.htm) RAP saver methods in [unmanaged RAP business objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry")
+-   [RAP determinations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_determination_glosry.htm "Glossary Entry") and [validations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_validation_glosry.htm "Glossary Entry") in [managed RAP business objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry")
 
-Note: You must manually invalidate state messages, i. e. remove the assignment of persisted messages, in the RAP BO provider implementation. To identify the messages, use the respective key ([%tky](javascript:call_link\('abapderived_types_tky.htm'\))) and %state\_area string. For example:
+Note: You must manually invalidate state messages, i. e. remove the assignment of persisted messages, in the RAP BO provider implementation. To identify the messages, use the respective key ([%tky](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_tky.htm)) and %state\_area string. For example:
 
 Example
 
@@ -46,7 +46,7 @@ The component has the following type: STRING
 
 Where used
 
-This component can occur in the following type declarations of [TYPE TABLE FOR ...](javascript:call_link\('abaptype_table_for.htm'\)) and [TYPE STRUCTURE FOR ...](javascript:call_link\('abaptype_structure_for.htm'\)):
+This component can occur in the following type declarations of [TYPE TABLE FOR ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm) and [TYPE STRUCTURE FOR ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_structure_for.htm):
 
 -   REPORTED \[EARLY*|*LATE\]
 
@@ -56,7 +56,7 @@ See more details on message handling in the Development Guide for the ABAP RESTf
 
 Example
 
-The following source code section taken from the CCIMP include of the global class of the [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") BP\_DEMO\_MANAGED\_ROOT\_REPORTED demonstrates the component %state\_area in the context of a method implementation for a [validation](javascript:call_link\('abenbdl_validations.htm'\)) that checks field values of RAP BO instances before saving. See the executable program for this example further down.
+The following source code section taken from the CCIMP include of the global class of the [behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") BP\_DEMO\_MANAGED\_ROOT\_REPORTED demonstrates the component %state\_area in the context of a method implementation for a [validation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_validations.htm) that checks field values of RAP BO instances before saving. See the executable program for this example further down.
 
 METHOD ValidateNum.
   CHECK keys IS NOT INITIAL.
@@ -112,5 +112,5 @@ ENDMETHOD.
 
 Executable Example
 
--   The example [Example for message-related BDEF derived type components](javascript:call_link\('abenderived_types_reported_abexa.htm'\)) demonstrates the use of various BDEF derived type components including %state\_area with a managed RAP BO.
--   [RAP Messages: Transition and State Messages](javascript:call_link\('abenrap_messages_abexa.htm'\))
+-   The example [Example for message-related BDEF derived type components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_types_reported_abexa.htm) demonstrates the use of various BDEF derived type components including %state\_area with a managed RAP BO.
+-   [RAP Messages: Transition and State Messages](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_messages_abexa.htm)

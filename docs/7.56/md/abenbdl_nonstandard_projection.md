@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - CDS projection behavior definitions](javascript:call_link\('abenbdl_projection_bo.htm'\)) →  [CDS BDL - entity behavior definition, projection BDEF](javascript:call_link\('abenbdl_define_beh_projection.htm'\)) →  [CDS BDL - entity behavior body, projection BDEF](javascript:call_link\('abenbdl_body_projection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl.htm) →  [CDS BDL - CDS projection behavior definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_projection_bo.htm) →  [CDS BDL - entity behavior definition, projection BDEF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh_projection.htm) →  [CDS BDL - entity behavior body, projection BDEF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body_projection.htm) → 
 
 CDS BDL - actions and functions, projection BDEF
 
@@ -12,28 +12,28 @@ Syntax Forms
 
 New action definition
 
-*\[*[internal](javascript:call_link\('abenbdl_internal.htm'\))*\]**\[*static*\]**\[*factory*\]**\[**{*static factory*}**\]* action
+*\[*[internal](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_internal.htm)*\]**\[*static*\]**\[*factory*\]**\[**{*static factory*}**\]* action
                   *\[*(
-                  *\[*[features: *{*instance *|* global*}*](javascript:call_link\('abenbdl_actions_fc.htm'\))*\]*
-                  *\[*[precheck](javascript:call_link\('abenbdl_precheck.htm'\))*\]*
-                  *\[* [authorization:none](javascript:call_link\('abenbdl_authorization_projection.htm'\))*\]*
-                  *\[* [authorization:update](javascript:call_link\('abenbdl_authorization_projection.htm'\))*\]*
-                  *\[*[lock:none](javascript:call_link\('abenbdl_action.htm'\))*\]*
+                  *\[*[features: *{*instance *|* global*}*](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actions_fc.htm)*\]*
+                  *\[*[precheck](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_precheck.htm)*\]*
+                  *\[* [authorization:none](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_authorization_projection.htm)*\]*
+                  *\[* [authorization:update](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_authorization_projection.htm)*\]*
+                  *\[*[lock:none](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm)*\]*
                    )*\]*
-                   ActionName *\[* [external 'ExternalName'](javascript:call_link\('abenbdl_action.htm'\))*\]*
-                  *\[*[InputParameter](javascript:call_link\('abenbdl_action_input_param.htm'\))*\]*
-                  *\[* [OutputParameter](javascript:call_link\('abenbdl_action_output_para.htm'\))*\]*
+                   ActionName *\[* [external 'ExternalName'](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm)*\]*
+                  *\[*[InputParameter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action_input_param.htm)*\]*
+                  *\[* [OutputParameter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action_output_para.htm)*\]*
 New function definition
 *\[*internal*\]* *\[*static*\]* function FunctionName
                    *\[*external 'ExternalName'*\]*
-                   *\[* [InputParameter](javascript:call_link\('abenbdl_action_input_param.htm'\))*\]*
-                    [OutputParameter](javascript:call_link\('abenbdl_action_output_para.htm'\))
+                   *\[* [InputParameter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action_input_param.htm)*\]*
+                    [OutputParameter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action_output_para.htm)
 
 Effect
 
-You can specify new [actions](javascript:call_link\('abenbdl_action.htm'\)) and [functions](javascript:call_link\('abenbdl_function.htm'\)) for a [projection BO](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry") in the projection layer. This works similar to defining actions and functions in a base BDEF; see topics [CDS BDL - action](javascript:call_link\('abenbdl_action.htm'\)) and [CDS BDL - function](javascript:call_link\('abenbdl_function.htm'\)).
+You can specify new [actions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm) and [functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_function.htm) for a [projection BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_projection_bo_glosry.htm "Glossary Entry") in the projection layer. This works similar to defining actions and functions in a base BDEF; see topics [CDS BDL - action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm) and [CDS BDL - function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_function.htm).
 
-There is a difference however regarding the [authorization concept](javascript:call_link\('abenbdl_authorization.htm'\)) of an action defined in a projection BDEF: In a projection BDEF, no authorization master from the base BDEF is available. If an authorization concept is required, this must be specified for each node of a BO node as described in topic [CDS BDL - authorization, projection BDEF](javascript:call_link\('abenbdl_authorization_projection.htm'\)).
+There is a difference however regarding the [authorization concept](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_authorization.htm) of an action defined in a projection BDEF: In a projection BDEF, no authorization master from the base BDEF is available. If an authorization concept is required, this must be specified for each node of a BO node as described in topic [CDS BDL - authorization, projection BDEF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_authorization_projection.htm).
 
 Further Information
 
@@ -42,7 +42,7 @@ Further Information
 
 Example - defining an action in the projection layer
 
-The following example shows a projection BDEF that defines a new action in the projection layer. It is based on the underlying base BO DEMO\_RAP\_UNMANAGED\_AUTH. It defines the new action deductDicounts in the projection layer. For this action, global [authorization control](javascript:call_link\('abenrap_auth_control_glosry.htm'\) "Glossary Entry") is specified.
+The following example shows a projection BDEF that defines a new action in the projection layer. It is based on the underlying base BO DEMO\_RAP\_UNMANAGED\_AUTH. It defines the new action deductDicounts in the projection layer. For this action, global [authorization control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_auth_control_glosry.htm "Glossary Entry") is specified.
 
 projection implementation in class bp\_demo\_rap\_proj\_new\_action unique;
 strict;
@@ -122,7 +122,7 @@ METHOD deductDiscount.
                                               %param = item ) ).
 ENDMETHOD.
 
-The ABAP program DEMO\_RAP\_PROJ\_NEW\_ACTION uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access to [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"). It first creates two new entity instances and then executes the action deductDiscount for both of them.
+The ABAP program DEMO\_RAP\_PROJ\_NEW\_ACTION uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access to [RAP business object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm "Glossary Entry"). It first creates two new entity instances and then executes the action deductDiscount for both of them.
 
 Result: The specified discount percentage is subtracted from the initial value.
 
@@ -160,7 +160,7 @@ METHOD getDetails.
   ENDLOOP.
 ENDMETHOD.
 
-The ABAP program DEMO\_RAP\_PROJ\_NEW\_FUNCTION uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access to RAP business object. It first creates two new entity instances and then executes the function getDetails for both of them.
+The ABAP program DEMO\_RAP\_PROJ\_NEW\_FUNCTION uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access to RAP business object. It first creates two new entity instances and then executes the function getDetails for both of them.
 
 Result: The content of the fields key\_field and data\_field is returned in the result structure.
 

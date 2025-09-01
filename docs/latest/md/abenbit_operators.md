@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for Byte String Processing](javascript:call_link\('abenbyte_processing_expr_func.htm'\)) →  [Bit Expressions (bit\_exp)](javascript:call_link\('abapcompute_bit.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_string.htm) →  [Expressions and Functions for Byte String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_processing_expr_func.htm) →  [Bit Expressions (bit\_exp)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcompute_bit.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20bit_exp%20-%20Bit%20Operators%2C%20ABENBIT_OPERATORS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 bit\_exp - Bit Operators
 
-Bit operators work with the individual bits of the operands. The [calculation length](javascript:call_link\('abencalculation_length_glosry.htm'\) "Glossary Entry") is determined by the operands involved. Combining two operands with BIT-AND, BIT-OR, and BIT-XOR produces a result of this length in which each bit is set according to the table from the bits of the corresponding positions in the operands. BIT-NOT changes the bits of the operands to its right as shown in the table.
+Bit operators work with the individual bits of the operands. The [calculation length](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencalculation_length_glosry.htm "Glossary Entry") is determined by the operands involved. Combining two operands with BIT-AND, BIT-OR, and BIT-XOR produces a result of this length in which each bit is set according to the table from the bits of the corresponding positions in the operands. BIT-NOT changes the bits of the operands to its right as shown in the table.
 
 x
 
@@ -72,7 +72,7 @@ x BIT-OR y
 
 1
 
-The order of the columns in the table reflects the priority of the bit operators. The operator BIT-NOT has the highest, and BIT-OR the lowest priority. Within one [level of parentheses](javascript:call_link\('abenbit_brackets.htm'\)), the results of operators with higher priority are formed before the results with operators of a lower priority. For adjacent operators of the same priority, the evaluation is performed from left to right, except for the operator BIT-NOT, which is executed from right to left.
+The order of the columns in the table reflects the priority of the bit operators. The operator BIT-NOT has the highest, and BIT-OR the lowest priority. Within one [level of parentheses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbit_brackets.htm), the results of operators with higher priority are formed before the results with operators of a lower priority. For adjacent operators of the same priority, the evaluation is performed from left to right, except for the operator BIT-NOT, which is executed from right to left.
 
 Example
 

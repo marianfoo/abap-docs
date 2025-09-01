@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenlocal_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocal_obsolete.htm)
-- [abaplocal.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplocal.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.57
-**Generated**: 2025-09-01T11:25:45.251Z
-
----
-
 ### abenlocal_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abenlocal_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocal_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,30 +11,20 @@ Included pages: 2
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobsolete_modularization.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Temporary Storage of Data, ABENLOCAL_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0
 A%0D%0ASuggestion for improvement:)
 
 Temporary Storage of Data
 
--   [LOCAL](javascript:call_link\('abaplocal.htm'\))
+-   [LOCAL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplocal.htm)
 
 Continue
-[LOCAL](javascript:call_link\('abaplocal.htm'\))
+[LOCAL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplocal.htm)
 
-
-
-**📖 Source**: [abenlocal_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocal_obsolete.htm)
 
 ### abaplocal.htm
-
-> **📖 Official SAP Documentation**: [abaplocal.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplocal.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abaplocal.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplocal.htm)
-
 
   
 
@@ -61,14 +32,14 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Temporary Storage of Data](javascript:call_link\('abenlocal_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobsolete_modularization.htm) →  [Temporary Storage of Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocal_obsolete.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: LOCAL, ABAPLOCAL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improve
 ment:)
 
 LOCAL
 
-[Short Reference](javascript:call_link\('abaplocal_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplocal_shortref.htm)
 
 Obsolete Syntax
 
@@ -76,15 +47,15 @@ LOCAL dobj.
 
 Effect
 
-The statement LOCAL, which is forbidden in classes, saves the current content of a data object dobj in an internal buffer. It can be used only in [subroutines](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry") or [function modules](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry"). At the end of the procedure, the data object dobj is reassigned the value in the buffer. If LOCAL is executed in a procedure for a data object more than once, all executions are ignored except the first one.
+The statement LOCAL, which is forbidden in classes, saves the current content of a data object dobj in an internal buffer. It can be used only in [subroutines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensubroutine_glosry.htm "Glossary Entry") or [function modules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction_module_glosry.htm "Glossary Entry"). At the end of the procedure, the data object dobj is reassigned the value in the buffer. If LOCAL is executed in a procedure for a data object more than once, all executions are ignored except the first one.
 
-All data objects possible in [write positions](javascript:call_link\('abenoperands_data_objects.htm'\)) can be specified for dobj. If dobj is an internal table, the procedure must not be called within a [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)) loop across the table.
+All data objects possible in [write positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperands_data_objects.htm) can be specified for dobj. If dobj is an internal table, the procedure must not be called within a [LOOP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab.htm) loop across the table.
 
 Modifiable formal parameters of the procedure, field symbols, or dereferenced data references are also possible after LOCAL. If formal parameters are specified, the assigned actual parameter is set to the value in the buffer at the end of the procedure. For field symbols, the field reference and the content of the referenced fields are saved.
 
 Hint
 
-The statement LOCAL is used, in particular, to protect global variables of the [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry") declared with [DATA](javascript:call_link\('abapdata.htm'\)) from unwanted changes during a procedure. Instead of using LOCAL, the global data of the compilation unit should not be accessed in procedures.
+The statement LOCAL is used, in particular, to protect global variables of the [compilation unit](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencompilation_unit_glosry.htm "Glossary Entry") declared with [DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata.htm) from unwanted changes during a procedure. Instead of using LOCAL, the global data of the compilation unit should not be accessed in procedures.
 
 Example
 

@@ -4,21 +4,21 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_dynpro_statements.htm) → 
 
 Subscreens, Tabstrips, and Splitter Controls
 
-Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special [controls](javascript:call_link\('abencontrol_glosry.htm'\) "Glossary Entry").
+Subscreens are screens of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special [controls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencontrol_glosry.htm "Glossary Entry").
 
--   [Including Subscreens Directly](javascript:call_link\('abendynp_subscreen.htm'\))
+-   [Including Subscreens Directly](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_subscreen.htm)
 
--   [Tabstrip Controls](javascript:call_link\('abendynp_tabstrip.htm'\))
+-   [Tabstrip Controls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_tabstrip.htm)
 
--   [Splitter Controls](javascript:call_link\('abendynp_splitter_control_spcl.htm'\))
+-   [Splitter Controls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_splitter_control_spcl.htm)
 
 Continue
-[Including Subscreens Directly](javascript:call_link\('abendynp_subscreen.htm'\))
-[Tabstrip Controls](javascript:call_link\('abendynp_tabstrip.htm'\))
-[Splitter Controls](javascript:call_link\('abendynp_splitter_control_spcl.htm'\))
-[CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\))
-[Subscreens, Tabstrips, and Splitter Controls - Examples](javascript:call_link\('abentab_strip_control_abexas.htm'\))
+[Including Subscreens Directly](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_subscreen.htm)
+[Tabstrip Controls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_tabstrip.htm)
+[Splitter Controls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynp_splitter_control_spcl.htm)
+[CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/dynpcall.htm)
+[Subscreens, Tabstrips, and Splitter Controls - Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentab_strip_control_abexas.htm)

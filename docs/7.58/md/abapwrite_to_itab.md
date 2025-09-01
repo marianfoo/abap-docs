@@ -4,26 +4,26 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Internal Table Processing](javascript:call_link\('abenitab_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_internal_obsolete.htm) →  [Obsolete Internal Table Processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_obsolete.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20WRITE%20TO%20itab%2C%20ABAPWRITE_TO_ITAB%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 WRITE TO itab
 
-[Short Reference](javascript:call_link\('abapwrite_to_itab_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_itab_shortref.htm)
 
 Obsolete Syntax
 
 WRITE dobj TO itab*\[*+off*\]**\[*(len)*\]* INDEX idx
-      *\[*[format\_options](javascript:call_link\('abapwrite_to_options.htm'\))*\]*.
+      *\[*[format\_options](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_options.htm)*\]*.
 
 Effect
 
-This variant, of the statement WRITE TO, which is forbidden in classes, has the same effect as the allowed [variant](javascript:call_link\('abapwrite_to.htm'\)), except that the formatted content is written to the line of the internal table itab specified in idx. The internal table must be a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") without [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry"). The same requirements apply to the line type as to the variable [destination](javascript:call_link\('abapwrite_to.htm'\)).
+This variant, of the statement WRITE TO, which is forbidden in classes, has the same effect as the allowed [variant](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to.htm), except that the formatted content is written to the line of the internal table itab specified in idx. The internal table must be a [standard table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_table_glosry.htm "Glossary Entry") without [secondary table keys](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_table_key_glosry.htm "Glossary Entry"). The same requirements apply to the line type as to the variable [destination](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to.htm).
 
 idx expects a data object of the data type i. It must be a data type. When the statement is executed, this data object must contain the index of the line to be overwritten. If the value of idx is less than or equal to 0, an uncatchable exception is raised. If the value of idx is greater than the number of table lines, no line is overwritten and sy-subrc is set to 4.
 
-After the table name itab, [offset and length specifications](javascript:call_link\('abenoffset_length_specific_glosry.htm'\) "Glossary Entry") off and len can be made that refer to the specified table line.
+After the table name itab, [offset and length specifications](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoffset_length_specific_glosry.htm "Glossary Entry") off and len can be made that refer to the specified table line.
 
 System Fields
 
@@ -45,7 +45,7 @@ This form of the statement WRITE TO is now only possible outside of classes and 
 
 FIELD-SYMBOLS <line> LIKE LINE OF itab.
 ASSIGN itab\[ idx \] TO <line>.
-WRITE dobj TO <line>*\[*+off*\]**\[*(len)*\]**\[* [format\_options](javascript:call_link\('abapwrite_to_options.htm'\))*\]*.
+WRITE dobj TO <line>*\[*+off*\]**\[*(len)*\]**\[* [format\_options](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_options.htm)*\]*.
 
 Example
 
@@ -59,7 +59,7 @@ WRITE sy-datum TO itab INDEX 1 DD/MM/YYYY.
 ASSIGN itab\[ 1 \] TO <line>.
 WRITE sy-datum TO <line> DD/MM/YYYY.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

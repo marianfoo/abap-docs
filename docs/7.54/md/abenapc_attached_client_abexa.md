@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [APC - ABAP Push Channels](javascript:call_link\('abenapc.htm'\)) →  [Examples of APC](javascript:call_link\('abenapc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_channels.htm) →  [APC - ABAP Push Channels](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc.htm) →  [Examples of APC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_abexas.htm) → 
 
 APC, AS ABAP as Attached Client
 
@@ -66,4 +66,4 @@ START-OF-SELECTION.
 
 Description
 
-The program expects a connection handle as input, as provided in the output of the executable [detached client](javascript:call_link\('abenapc_detached_client_abexa.htm'\)) example. The connection handle is used to create and employ an attached client object precisely as described in the detached client example. The connection handle can be reused indefinitely until the connection is closed using the method CLOSE. If the connection is not closed by mistake, this can be done later in the transaction SMWS.
+The program expects a connection handle as input, as provided in the output of the executable [detached client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_detached_client_abexa.htm) example. The connection handle is used to create and employ an attached client object precisely as described in the detached client example. The connection handle can be reused indefinitely until the connection is closed using the method CLOSE. If the connection is not closed by mistake, this can be done later in the transaction SMWS.

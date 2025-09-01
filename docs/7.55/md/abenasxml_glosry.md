@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 asXML
 
-ABAP Serialization XML. Short name for the canonical [XML representation](javascript:call_link\('abencanonical_xml_represent_glosry.htm'\) "Glossary Entry") of ABAP data.
+ABAP Serialization XML. Short name for the canonical [XML representation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencanonical_xml_represent_glosry.htm "Glossary Entry") of ABAP data.
 
-[→ More about](javascript:call_link\('abenabap_xslt_asxml.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml.htm)

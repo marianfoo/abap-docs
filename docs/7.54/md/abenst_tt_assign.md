@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Value Assignments](javascript:call_link\('abenst_assignments.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_serial_deserial.htm) →  [ST - Value Assignments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_assignments.htm) → 
 
 ST - tt:assign, Value Assignment
 
@@ -15,17 +15,17 @@ Syntax
 
 Effect
 
-The statement tt:assign is used to assign a value to a [data root](javascript:call_link\('abenst_tt_root.htm'\)), a [variable](javascript:call_link\('abenst_tt_variable.htm'\)), or a [parameter](javascript:call_link\('abenst_tt_parameter.htm'\)).
+The statement tt:assign is used to assign a value to a [data root](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_root.htm), a [variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_variable.htm), or a [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_parameter.htm).
 
-to-ref or to-var is used to specify the target field, and ref, val, or var to specify the source field. If no target field or no source field is specified, the [current node](javascript:call_link\('abenst_tt_ref.htm'\)) is used implicitly. Target and source fields can be:
+to-ref or to-var is used to specify the target field, and ref, val, or var to specify the source field. If no target field or no source field is specified, the [current node](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_ref.htm) is used implicitly. Target and source fields can be:
 
--   a node node specified in accordance with the [addressing rules](javascript:call_link\('abenst_addressing_nodes.htm'\)),
+-   a node node specified in accordance with the [addressing rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_addressing_nodes.htm),
 
--   a [variable](javascript:call_link\('abenst_tt_variable.htm'\)) or a [parameter](javascript:call_link\('abenst_tt_parameter.htm'\)) variable,
+-   a [variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_variable.htm) or a [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_parameter.htm) variable,
 
--   a value value specified in accordance with the [rules for ABAP values](javascript:call_link\('abenst_data.htm'\)) (source field only)
+-   a value value specified in accordance with the [rules for ABAP values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_data.htm) (source field only)
 
-An assignment between reference variables with tt:assign is possible only if the static type of the source variables is more special or the same as the static type of the target variables (upcast). In all other cases, you can use the [tt:cast](javascript:call_link\('abenst_tt_cast.htm'\)) statement to perform a downcast.
+An assignment between reference variables with tt:assign is possible only if the static type of the source variables is more special or the same as the static type of the target variables (upcast). In all other cases, you can use the [tt:cast](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_cast.htm) statement to perform a downcast.
 
 Serialization
 

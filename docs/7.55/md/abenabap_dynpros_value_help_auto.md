@@ -4,15 +4,19 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Field Help, Input Help, and Dropdown List Boxes](javascript:call_link\('abenabap_dynpros_help.htm'\)) →  [dynpro - Input Help](javascript:call_link\('abenabap_dynpros_value_help.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros.htm) →  [dynpro - Field Help, Input Help, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_help.htm) →  [dynpro - Input Help](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_value_help.htm) → 
 
 dynpro - Input Helps in ABAP Dictionary
 
-The primary input helps used in ABAP Dictionary are [search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry"). A search help is a standalone [repository object](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") used specifically to provide input helps on screen fields. Search helps can be associated with table fields and data elements. The content of [check tables](javascript:call_link\('abencheck_table_glosry.htm'\) "Glossary Entry"), [fixed values](javascript:call_link\('abenfixed_value_glosry.htm'\) "Glossary Entry"), or calendar helps and clock helps can be used instead of search helps.
+The primary input helps used in ABAP Dictionary are [search helps](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensearch_help_glosry.htm "Glossary Entry"). A search help is a standalone [repository object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrepository_object_glosry.htm "Glossary Entry") used specifically to provide input helps on screen fields. Search helps can be associated with table fields and data elements. The content of [check tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencheck_table_glosry.htm "Glossary Entry"), [fixed values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfixed_value_glosry.htm "Glossary Entry"), or calendar helps and clock helps can be used instead of search helps.
 
--   [Overview of ABAP Dictionary Input Helps](#abenabap-dynpros-value-help-auto-1--------hierarchy-of-the-input-helps---@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_2)
+-   [Overview of ABAP Dictionary Input Helps](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_1)
 
--   [Data Transport of Search Helps](#abenabap-dynpros-value-help-auto-3--------search-help-exits---@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_4)
+-   [Hierarchy of the Input Helps](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_2)
+
+-   [Data Transport of Search Helps](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_3)
+
+-   [Search Help Exits](#@@ITOC@@ABENABAP_DYNPROS_VALUE_HELP_AUTO_4)
 
 Overview of ABAP Dictionary Input Helps
 
@@ -22,11 +26,11 @@ There are two kinds of search helps: elementary and collective. An elementary se
 
 -   Check tables
 
-In the case of [foreign key relationships](javascript:call_link\('abenforeign_key_dependency_glosry.htm'\) "Glossary Entry") defined in ABAP Dictionary, the key fields of the check table can be used as an input help for a [foreign key field](javascript:call_link\('abenforeign_key_field_glosry.htm'\) "Glossary Entry") used as a dynpro field.
+In the case of [foreign key relationships](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenforeign_key_dependency_glosry.htm "Glossary Entry") defined in ABAP Dictionary, the key fields of the check table can be used as an input help for a [foreign key field](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenforeign_key_field_glosry.htm "Glossary Entry") used as a dynpro field.
 
 -   Fixed values
 
-The [fixed values](javascript:call_link\('abenfixed_value_glosry.htm'\) "Glossary Entry") of a domain can be used as an input help for dynpro fields that reference the domain in question. The [value table](javascript:call_link\('abenvalue_table_glosry.htm'\) "Glossary Entry") of a domain, on the other hand, cannot be used for input helps.
+The [fixed values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfixed_value_glosry.htm "Glossary Entry") of a domain can be used as an input help for dynpro fields that reference the domain in question. The [value table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_table_glosry.htm "Glossary Entry") of a domain, on the other hand, cannot be used for input helps.
 
 -   Calendar helps and clock helps
 
@@ -50,11 +54,11 @@ If no check table or search help is defined for a field, the search help associa
 
 -   Check table
 
-If the check table of a field does not have a [text table](javascript:call_link\('abentext_table_glosry.htm'\) "Glossary Entry") and does not have its own search help, and no dedicated search help is specified for a field, the content of the key fields of the check table are used as an input help.
+If the check table of a field does not have a [text table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_table_glosry.htm "Glossary Entry") and does not have its own search help, and no dedicated search help is specified for a field, the content of the key fields of the check table are used as an input help.
 
 -   Check table with text table
 
-If the [foreign key table](javascript:call_link\('abenforeign_key_table_glosry.htm'\) "Glossary Entry") of the check table of the fields is a [text table](javascript:call_link\('abentext_table_glosry.htm'\) "Glossary Entry"), the associated text from the text table is displayed in the input help in the logon language of the user.
+If the [foreign key table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenforeign_key_table_glosry.htm "Glossary Entry") of the check table of the fields is a [text table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_table_glosry.htm "Glossary Entry"), the associated text from the text table is displayed in the input help in the logon language of the user.
 
 -   Check table with search help
 
@@ -62,9 +66,9 @@ If a search help is bound to the check table of a field, the search help is used
 
 -   Search help of the field
 
-If the dynpro field is defined with reference to a field of a structure or a database table and a search help is associated with this field directly, this binding has the highest priority and is always used as an input help. To avoid errors in the [automatic input check](javascript:call_link\('abenabap_dynpros_checks_auto.htm'\)), the bound search help should only propose values that also exist in a check table.
+If the dynpro field is defined with reference to a field of a structure or a database table and a search help is associated with this field directly, this binding has the highest priority and is always used as an input help. To avoid errors in the [automatic input check](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_checks_auto.htm), the bound search help should only propose values that also exist in a check table.
 
-If necessary, the input help is modified using methods of [flagging obsolete data in check tables](javascript:call_link\('abenddic_deprecation.htm'\)).
+If necessary, the input help is modified using methods of [flagging obsolete data in check tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_deprecation.htm).
 
 Data Transport of Search Helps
 
@@ -112,4 +116,4 @@ Some requirements made on search helps occur repeatedly. One example is the opti
 
 Executable Example
 
-[Input Helps from ABAP Dictionary](javascript:call_link\('abendynpro_f4_help_dic_abexa.htm'\))
+[Input Helps from ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_f4_help_dic_abexa.htm)

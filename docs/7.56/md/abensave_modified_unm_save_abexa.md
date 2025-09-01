@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP business objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP Behavior Pools (ABP)](javascript:call_link\('abenabap_behavior_pools.htm'\)) →  [RAP Saver Class](javascript:call_link\('abenabp_saver_class.htm'\)) →  [Examples for RAP Saver Methods](javascript:call_link\('abenrap_saver_methods_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_provide_rap_bos.htm) →  [ABAP Behavior Pools (ABP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_behavior_pools.htm) →  [RAP Saver Class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_saver_class.htm) →  [Examples for RAP Saver Methods](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_saver_methods_abexas.htm) → 
 
 Example for save\_modified in a managed RAP BO with unmanaged save
 
-This example demonstrates the RAP saver method save\_modified as well as the use of the BDEF-derived types TYPE REQUEST FOR CHANGE and TYPE REQUEST FOR DELETE in the context of a managed RAP BO whose BDEF is specified with [with unmanaged save](javascript:call_link\('abenbdl_saving.htm'\)). The saving of created, changed or deleted [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") is self-implemented in the save\_modified method of the [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+This example demonstrates the RAP saver method save\_modified as well as the use of the BDEF-derived types TYPE REQUEST FOR CHANGE and TYPE REQUEST FOR DELETE in the context of a managed RAP BO whose BDEF is specified with [with unmanaged save](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_saving.htm). The saving of created, changed or deleted [RAP BO instances](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") is self-implemented in the save\_modified method of the [ABP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
 
 Data model
 
@@ -29,7 +29,7 @@ define root view entity DEMO\_MANAGED\_UNMANAGED\_SAVE
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_UNMANAGED\_SAVE is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_UNMANAGED\_SAVE is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed with unmanaged save
 implementation in class bp\_demo\_managed\_unmanaged\_save unique;
@@ -45,13 +45,13 @@ authorization master ( instance )
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_UNMANAGED\_SAVE. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
+For the above CDS behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_UNMANAGED\_SAVE. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
 
 The following method is relevant in this example:
 
 -   save\_modified
     
-    At first, several type and variable declarations are available just for demonstration purposes. Among them, there are the [BDEF-derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") TYPE REQUEST FOR CHANGE, TYPE REQUEST FOR DELETE, TYPE TABLE FOR CHANGE and TYPE STRUCTURE FOR CHANGE. These BDEF-derived types are only relevant in the contexts of a managed RAP BO [with additional save](javascript:call_link\('abenbdl_saving.htm'\)) and a managed RAP BO [with unmanaged save](javascript:call_link\('abenbdl_saving.htm'\)). Basically, the structures create and update (that are of type TYPE REQUEST FOR CHANGE) as well as delete (that is of TYPE REQUEST FOR DELETE) - they contain those instances that are to be created, changed or deleted - are available here by default and can actually be referred to directly instead of extra variable and type declarations as it is the case in this example. The declarations are followed by a further declaration of an internal table (lt\_tab) that acts as a helper table to temporarily store the instances that are to be created, changed or deleted.
+    At first, several type and variable declarations are available just for demonstration purposes. Among them, there are the [BDEF-derived types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") TYPE REQUEST FOR CHANGE, TYPE REQUEST FOR DELETE, TYPE TABLE FOR CHANGE and TYPE STRUCTURE FOR CHANGE. These BDEF-derived types are only relevant in the contexts of a managed RAP BO [with additional save](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_saving.htm) and a managed RAP BO [with unmanaged save](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_saving.htm). Basically, the structures create and update (that are of type TYPE REQUEST FOR CHANGE) as well as delete (that is of TYPE REQUEST FOR DELETE) - they contain those instances that are to be created, changed or deleted - are available here by default and can actually be referred to directly instead of extra variable and type declarations as it is the case in this example. The declarations are followed by a further declaration of an internal table (lt\_tab) that acts as a helper table to temporarily store the instances that are to be created, changed or deleted.
     
     IF statements then check whether instances have been created, updated or deleted by a RAP BO consumer. In doing so, the %control structure is used to get information on which fields have been set when creating, updating or deleting the instance.
     
@@ -174,7 +174,7 @@ Description
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program:
 
 -   An ABAP EML CREATE operation is carried out. Two instances are created. The save sequence is triggered by the COMMIT ENTITIES statement. The underlying BDEF includes the syntax with unmanaged save. Thus, the ABP method save\_modified is called in this example that saves the instances to the database table demo\_tab\_root\_3 as described in section Behavior implementation.
 -   The CREATE operation is followed by an UPDATE operation that modifies the two previously created instances. The changes get committed as well. Some of the fields are disabled in the %control structure (using if\_abap\_behv=>mk-off). Hence, the existing field values are not changed.

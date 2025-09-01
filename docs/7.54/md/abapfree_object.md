@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and OLE](javascript:call_link\('abenole2.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and OLE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenole2.htm) → 
 
 FREE OBJECT - OLE
 
-[Quick Reference](javascript:call_link\('abapfree_object_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfree_object_shortref.htm)
 
 Syntax
 
@@ -20,7 +20,7 @@ Addition:
 
 Effect
 
-This statement releases the memory occupied by the object ole on the current [AS Instance](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry"). The automation object must have been created using the special statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)) for automation objects. After the release, the object is still available on the current automation server, but can no longer be processed in the ABAP program. For the [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of ole, the description of the statement CREATE OBJECT applies.
+This statement releases the memory occupied by the object ole on the current [AS Instance](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapplication_server_glosry.htm "Glossary Entry"). The automation object must have been created using the special statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_object_ole2.htm) for automation objects. After the release, the object is still available on the current automation server, but can no longer be processed in the ABAP program. For the [typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_glosry.htm "Glossary Entry") of ole, the description of the statement CREATE OBJECT applies.
 
 When the statement FREE OBJECT is passed to the presentation layer, the entire automation queue collected using the addition NO FLUSH is passed.
 
@@ -52,7 +52,7 @@ Addition
 
 Effect
 
-The meaning of the addition NO FLUSH is included in the description of the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)).
+The meaning of the addition NO FLUSH is included in the description of the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_object_ole2.htm).
 
 Example
 

@@ -4,18 +4,19 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Built-In Data Objects](javascript:call_link\('abenbuilt_in_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Built-In Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_obsolete.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Obsolete System Fields, ABENSYSTEM_FIELDS_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A
 %0D%0A%0D%0ASuggestion for improvement:)
 
 Obsolete System Fields
 
--   [Former System Fields](#abensystem-fields-obsolete-1-------spool-parameters---@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2)
+-   [Former System Fields](#@@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_1)
+-   [Spool Parameters](#@@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2)
 
 Former System Fields   
 
-The following [system fields](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") are obsolete and should no longer be used. Many originate from the R/2 era. The transition from R/2 to R/3 retained some system fields which are no longer provided with data.
+The following [system fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_field_glosry.htm "Glossary Entry") are obsolete and should no longer be used. Many originate from the R/2 era. The transition from R/2 to R/3 retained some system fields which are no longer provided with data.
 
 Name
 
@@ -363,7 +364,7 @@ In R/2, window coordinates in details lists in a GUI window. No longer used.
 
 Spool Parameters   
 
-[Spool parameters](javascript:call_link\('abenprint_parameters.htm'\)) are passed from the runtime framework to the spool system in a structure of type PRI\_PARAMS. Before this structure was introduced, [system fields](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") were used. When spooling is activated today, a subset of the structure PRI\_PARAMS is still written to identically named system fields. This information is redundant and should not be used.
+[Spool parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters.htm) are passed from the runtime framework to the spool system in a structure of type PRI\_PARAMS. Before this structure was introduced, [system fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_field_glosry.htm "Glossary Entry") were used. When spooling is activated today, a subset of the structure PRI\_PARAMS is still written to identically named system fields. This information is redundant and should not be used.
 
 Name
 
@@ -379,7 +380,7 @@ c
 
 16
 
-[Formatting](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Formatting](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-pdest
 
@@ -387,7 +388,7 @@ c
 
 4
 
-[Output device](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Output device](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-pexpi
 
@@ -395,7 +396,7 @@ n
 
 1
 
-[Retention period](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Retention period](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-plist
 
@@ -403,7 +404,7 @@ c
 
 12
 
-[Name of spool request](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Name of spool request](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-prabt
 
@@ -411,7 +412,7 @@ c
 
 12
 
-[Department name](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Department name](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-prbig
 
@@ -419,7 +420,7 @@ c
 
 1
 
-[Cover sheet](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Cover sheet](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-prcop
 
@@ -427,7 +428,7 @@ n
 
 3
 
-[Number of copies](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Number of copies](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-prdsn
 
@@ -435,7 +436,7 @@ c
 
 6
 
-[Name of the spool file](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Name of the spool file](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-primm
 
@@ -443,7 +444,7 @@ c
 
 1
 
-[Print now](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Print now](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-prnew
 
@@ -451,7 +452,7 @@ c
 
 1
 
-[New spool request](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[New spool request](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-prrec
 
@@ -459,7 +460,7 @@ c
 
 12
 
-[Recipient name](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Recipient name](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-prrel
 
@@ -467,7 +468,7 @@ c
 
 1
 
-[Delete now](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Delete now](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-prtxt
 
@@ -475,7 +476,7 @@ c
 
 68
 
-[Description text](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Description text](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)
 
 sy-rtitl
 
@@ -483,4 +484,4 @@ c
 
 70
 
-[Title of the spooler program](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Title of the spooler program](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprint_parameters_overview.htm)

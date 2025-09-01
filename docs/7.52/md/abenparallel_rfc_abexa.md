@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) →  [Examples for Remote Function Call](javascript:call_link\('abenrfc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [RFC - Remote Function Call](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc.htm) →  [Examples for Remote Function Call](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_abexas.htm) → 
 
 Parallel asynchronous RFC
 
@@ -91,8 +91,8 @@ START-OF-SELECTION.
 
 Description
 
-Parallel asynchronous processing of the function module RFC\_SYSTEM\_INFO using [asynchronous remote function calls](javascript:call_link\('abenasynchronous_rfc_glosry.htm'\) "Glossary Entry"). Ten calls with different task IDsname are made, which each run in a separate [work process](javascript:call_link\('abenwork_process_glosry.htm'\) "Glossary Entry"). The callback routine callbback\_meth counts the completed function modules and receives information about the target system.
+Parallel asynchronous processing of the function module RFC\_SYSTEM\_INFO using [asynchronous remote function calls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenasynchronous_rfc_glosry.htm "Glossary Entry"). Ten calls with different task IDsname are made, which each run in a separate [work process](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwork_process_glosry.htm "Glossary Entry"). The callback routine callbback\_meth counts the completed function modules and receives information about the target system.
 
-The addition GROUP DEFAULT is used to distribute the execution among all [application servers](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry") for the current system. If no further work process is available after at least one successful call, the system interrupts execution of the program until all function modules that have already been started have been completed. This interruption is limited to a maximum of five seconds.
+The addition GROUP DEFAULT is used to distribute the execution among all [application servers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapplication_server_glosry.htm "Glossary Entry") for the current system. If no further work process is available after at least one successful call, the system interrupts execution of the program until all function modules that have already been started have been completed. This interruption is limited to a maximum of five seconds.
 
 After starting all function modules, the system waits until all callback routines have been executed. Then it outputs the internal table task\_list it has filled. The output shows the sequence in which the individual tasks were completed and the application server each one was executed on.

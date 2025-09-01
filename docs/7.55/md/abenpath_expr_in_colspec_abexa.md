@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL path expressions sql\_path](javascript:call_link\('abenopen_sql_path.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL path expressions sql\_path](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_path.htm) → 
 
 Path Expressions, Use in the SELECT List
 
-This example demonstrates [path expressions](javascript:call_link\('abenopen_sql_path.htm'\)) in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) in ABAP SQL.
+This example demonstrates [path expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_path.htm) in the [SELECT list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_list.htm) in ABAP SQL.
 
 Source Code
 
@@ -69,7 +69,7 @@ START-OF-SELECTION.
 
 Description
 
-The first SELECT statement accesses the [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") demo\_cds\_assoc\_scarr:
+The first SELECT statement accesses the [CDS view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_glosry.htm "Glossary Entry") demo\_cds\_assoc\_scarr:
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASC\_CAR'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -83,7 +83,7 @@ define view demo\_cds\_assoc\_scarr
     carrname
   }
 
-This view exposes its [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") \_spfli in its SELECT list. The CDS association \_spfli uses the view demo\_cds\_assoc\_spfli as an [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry"):
+This view exposes its [CDS association](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_glosry.htm "Glossary Entry") \_spfli in its SELECT list. The CDS association \_spfli uses the view demo\_cds\_assoc\_spfli as an [association target](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassociation_target_glosry.htm "Glossary Entry"):
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASC\_SPF'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -103,9 +103,9 @@ define view demo\_cds\_assoc\_spfli  
       airpfrom
     }
 
-This view exposes its [CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") \_sflight and \_sairport in its SELECT list, making it possible to specify them in path expressions after \_spfli. These CDS associations use wrappers of DDIC database tables as data sources.
+This view exposes its [CDS associations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_glosry.htm "Glossary Entry") \_sflight and \_sairport in its SELECT list, making it possible to specify them in path expressions after \_spfli. These CDS associations use wrappers of DDIC database tables as data sources.
 
-The SELECT statement contains three path expressions in its SELECT list alongside an elementary column specification. The first association contains only the CDS association \_spfli of the CDS view demo\_cds\_assoc\_scarr specified after FROM. The CDS associations of the data source of the root element are added to the other two path expressions. The path expressions specify the [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") of the associations, which prevents syntax check warnings indicating that the path expressions affect the [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") of the result set.
+The SELECT statement contains three path expressions in its SELECT list alongside an elementary column specification. The first association contains only the CDS association \_spfli of the CDS view demo\_cds\_assoc\_scarr specified after FROM. The CDS associations of the data source of the root element are added to the other two path expressions. The path expressions specify the [cardinality](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencardinality_glosry.htm "Glossary Entry") of the associations, which prevents syntax check warnings indicating that the path expressions affect the [cardinality](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencardinality_glosry.htm "Glossary Entry") of the result set.
 
 The second SELECT statement demonstrates which joins must be created in ABAP SQL to achieve the same result. This is guaranteed by an assertion.
 
@@ -127,7 +127,7 @@ define view demo\_cds\_use\_assocs
     where
       scarr.carrid = :p\_carrid
 
-This view shows how the same paths specified in the SELECT statement of the view in [CDS DDL syntax](javascript:call_link\('abencds_path_expression_v1.htm'\)) and also achieves the same result.
+This view shows how the same paths specified in the SELECT statement of the view in [CDS DDL syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_path_expression_v1.htm) and also achieves the same result.
 
 Finally, a fourth SELECT statement accesses the CDS view demo\_cds\_outer\_joins:
 

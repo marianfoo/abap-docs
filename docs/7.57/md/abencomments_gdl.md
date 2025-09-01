@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_style_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Comments, ABENCOMMENTS_GDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion f
 or improvement:)
@@ -26,11 +26,11 @@ There are two categories of comments in ABAP:
 
 A comment line or end of line comment can have any content and this content is ignored when the program is generated using ABAP Compiler.
 
--   [Language of Comments](javascript:call_link\('abencomment_langu_guidl.htm'\) "Guideline")
--   [Content](javascript:call_link\('abencontent_guidl.htm'\) "Guideline")
--   [Arrangement in the Source Code](javascript:call_link\('abenarrange_guidl.htm'\) "Guideline")
+-   [Language of Comments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomment_langu_guidl.htm "Guideline")
+-   [Content](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencontent_guidl.htm "Guideline")
+-   [Arrangement in the Source Code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarrange_guidl.htm "Guideline")
 
 Continue
-[Language of Comments](javascript:call_link\('abencomment_langu_guidl.htm'\))
-[Content of Comments](javascript:call_link\('abencontent_guidl.htm'\))
-[Arrangement in the Source Code](javascript:call_link\('abenarrange_guidl.htm'\))
+[Language of Comments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomment_langu_guidl.htm)
+[Content of Comments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencontent_guidl.htm)
+[Arrangement in the Source Code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarrange_guidl.htm)

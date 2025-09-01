@@ -4,21 +4,21 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Alternative Spellings](javascript:call_link\('abenalternative_spelling_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructure_style_guidl.htm) →  [Alternative Spellings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenalternative_spelling_guidl.htm) → 
 
 Method Calls
 
 Background
 
-Static calls of methods can be formulated in two different ways. The [obsolete long form](javascript:call_link\('abapcall_method_static.htm'\))
+Static calls of methods can be formulated in two different ways. The [obsolete long form](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_static.htm)
 
 CALL METHOD meth EXPORTING ...
 
-is based on the notation of the function module call. Alternatively, a [short form](javascript:call_link\('abapcall_method_static_short.htm'\)) can be used:
+is based on the notation of the function module call. Alternatively, a [short form](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_static_short.htm) can be used:
 
 meth( ... ).
 
-This form uses a parenthesis notation instead of the introductory ABAP words [CALL METHOD](javascript:call_link\('abapcall_method_static.htm'\)). A combination of CALL METHOD and parentheses is also possible.
+This form uses a parenthesis notation instead of the introductory ABAP words [CALL METHOD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_static.htm). A combination of CALL METHOD and parentheses is also possible.
 
 Rule
 

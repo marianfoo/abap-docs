@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) → 
 
 ABAP SQL - Exceptions
 
@@ -75,22 +75,22 @@ CX\_SY\_DYNAMIC\_OSQL\_ERROR
 -   Cause: An attempt was made to select the average of a non-numeric field.
     Runtime error: SAPSQL\_FIELDLIST\_AVG\_TYPE
 
--   Cause: An attempt was made to create an aggregate function using a [LOB column](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry").
+-   Cause: An attempt was made to create an aggregate function using a [LOB column](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_glosry.htm "Glossary Entry").
     Runtime error: SAPSQL\_AGGREGATE\_LOB
 
--   Cause: An attempt was made to sort the values of a [LOB column](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry").
+-   Cause: An attempt was made to sort the values of a [LOB column](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_glosry.htm "Glossary Entry").
     Runtime error: SAPSQL\_ORDER\_BY\_LOB
 
--   Cause: An attempt was made to use the addition DISTINCT on a [LOB column](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry").
+-   Cause: An attempt was made to use the addition DISTINCT on a [LOB column](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_glosry.htm "Glossary Entry").
     Runtime error: SAPSQL\_DISTINCT\_AND\_LOB
 
 -   Cause: An alias is too long.
     Runtime error: SAPSQL\_ALIASNAME\_TOO\_LONG
 
--   Cause: An attempt was made to sort the values of a [LOB column](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry").
+-   Cause: An attempt was made to sort the values of a [LOB column](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_glosry.htm "Glossary Entry").
     Runtime error: SAPSQL\_GROUP\_BY\_LOB
 
--   Cause: An attempt was made to use a [LOB column](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in a logical expression.
+-   Cause: An attempt was made to use a [LOB column](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_glosry.htm "Glossary Entry") in a logical expression.
     Runtime error: SAPSQL\_BOUND\_LONG\_STRING
 
 -   Cause: A pattern specified with LIKE is too long.
@@ -150,7 +150,7 @@ CX\_SY\_DYNAMIC\_OSQL\_ERROR
 -   Cause: A column from the right side of a LEFT OUTER JOIN is used in a WHERE condition.
     Runtime error: SAPSQL\_ACCESS\_TO\_RHS\_TABLE
 
--   Cause: Syntax error when the addition [CREATING](javascript:call_link\('abapselect_creating.htm'\)) was specified dynamically.
+-   Cause: Syntax error when the addition [CREATING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_creating.htm) was specified dynamically.
     Runtime error: SAPSQL\_NO\_LOB\_COLUMN
     Runtime error: SAPSQL\_FOR\_ALL\_COLUMNS
     Runtime error: SAPSQL\_TWICE\_DEFINITION
@@ -159,7 +159,7 @@ CX\_SY\_DYNAMIC\_OSQL\_ERROR
     Runtime error: SAPSQL\_OTHER\_ONLY\_AT\_THE\_END
     
 
-The following exceptions can only occur when using the statement [UPDATE](javascript:call_link\('abapupdate.htm'\)):
+The following exceptions can only occur when using the statement [UPDATE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapupdate.htm):
 
 -   Cause: An attempt was made to change a database field using an operator other than + or \-.
     Runtime error: SAPSQL\_SET\_NOT\_PLUS\_MINUS

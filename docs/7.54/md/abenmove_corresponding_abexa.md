@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [Assigning Components: Examples](javascript:call_link\('abencorresponding_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding.htm) →  [Assigning Components: Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorresponding_abexas.htm) → 
 
 MOVE-CORRESPONDING for Internal Tables
 
-This example demonstrates the statement [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)) for internal tables.
+This example demonstrates the statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmove-corresponding.htm) for internal tables.
 
 Source Code
 
@@ -158,7 +158,7 @@ START-OF-SELECTION.
 
 Description
 
-[MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding_itab.htm'\)) and the available additions are used to declare two internal tables, itab1 and itab2, and assign them to each other.
+[MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmove-corresponding_itab.htm) and the available additions are used to declare two internal tables, itab1 and itab2, and assign them to each other.
 
 -   itab1 contains two elementary components, col1 and col2, and a tabular component col3 with the components col1 and col2.
 

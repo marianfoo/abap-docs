@@ -6,39 +6,39 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 ABAP - Keyword Documentation
 
-This documentation describes the syntax and meaning of the keywords of the [ABAP](javascript:call_link\('abenabap_glosry.htm'\) "Glossary Entry") language and its object-oriented part [ABAP Objects](javascript:call_link\('abenabap_objects_glosry.htm'\) "Glossary Entry"). Alongside this, language frameworks and the associated system classes are also described.
+This documentation describes the syntax and meaning of the keywords of the [ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glosry.htm "Glossary Entry") language and its object-oriented part [ABAP Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_objects_glosry.htm "Glossary Entry"). Alongside this, language frameworks and the associated system classes are also described.
 
--   [ABAP - Overview](javascript:call_link\('abenabap_oview.htm'\))
+-   [ABAP - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_oview.htm)
     An introduction to ABAP and the most important umbrella topics.
 
--   [ABAP Dictionary](javascript:call_link\('abenabap_dictionary.htm'\))
+-   [ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm)
     A complete description of the most important objects for ABAP from ABAP Dictionary, including ABAP CDS.
 
--   [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\))
+-   [ABAP - Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm)
     A complete description of all ABAP keywords in their relevant context.
 
--   [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\))
+-   [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm)
     A short overview of all statements, ordered alphabetically.
 
--   [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\))
+-   [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews.htm)
     List of all changes and enhancements made to ABAP since Release 3.0
 
--   [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\))
+-   [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm)
     Rules and hints on using ABAP.
 
--   [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\))
+-   [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_security.htm)
     Overview of potential security risks in ABAP programs.
 
--   [ABAP - Glossary](javascript:call_link\('abenabap_glossary.htm'\))
+-   [ABAP - Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm)
     Terms in the ABAP environment, and their explanations.
 
--   [ABAP - Index](javascript:call_link\('abenabap_index.htm'\))
+-   [ABAP - Index](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_index.htm)
     Alphabetical index of all language elements.
 
--   [ABAP - Keyword Directory](javascript:call_link\('abenabap_subjects.htm'\))
+-   [ABAP - Keyword Directory](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_subjects.htm)
     Alphabetic keyword directory for searching by subject.
 
--   [ABAP - Examples](javascript:call_link\('abenabap_examples.htm'\))
+-   [ABAP - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_examples.htm)
     Compilation of executable example programs.
 
 This external version of the ABAP keyword documentation only supports text links within the documentation itself and to external Web addresses, such as [SAP Help Portal](http://help.sap.com). Other links, such as links to programs in AS ABAP, are not active in this version.

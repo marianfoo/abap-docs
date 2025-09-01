@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [News for ABAP Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 6.xx](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-6.htm) →  [News for ABAP Release 6.20](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-620.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20in%20ABAP%20Release%206.20%2C%20ABENNEWS-620-OBJECTS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -21,17 +21,17 @@ Modification 1  
 
 New Variant PROVIDE FIELDS
 
-The statement [PROVIDE FIELDS](javascript:call_link\('abapprovide.htm'\)) makes it possible to process [internal tables](javascript:call_link\('abendobj_itab.htm'\)) without [headers](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"). The functions of the statement PROVIDE are therefore also available under [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)).
+The statement [PROVIDE FIELDS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprovide.htm) makes it possible to process [internal tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendobj_itab.htm) without [headers](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenheader_line_glosry.htm "Glossary Entry"). The functions of the statement PROVIDE are therefore also available under [ABAP Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_objects.htm).
 
 Modification 2   
 
 Creating Objects from the SAP XSLT Processor
 
-It is possible to create objects and call class methods from the [SAP XSLT processor](javascript:call_link\('abenxslt_processor_glosry.htm'\) "Glossary Entry"). Now only public methods are allowed, whereas previously private and [protected](javascript:call_link\('abenprotected_glosry.htm'\) "Glossary Entry") methods could also be called.
+It is possible to create objects and call class methods from the [SAP XSLT processor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxslt_processor_glosry.htm "Glossary Entry"). Now only public methods are allowed, whereas previously private and [protected](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprotected_glosry.htm "Glossary Entry") methods could also be called.
 
-Parameter passing now supports all ABAP [elementary types](javascript:call_link\('abendata_types.htm'\)), any object references, and the generic types csequence and xsequence. Previously, the types c, d, f, i, n, string, and t were supported.
+Parameter passing now supports all ABAP [elementary types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_types.htm), any object references, and the generic types csequence and xsequence. Previously, the types c, d, f, i, n, string, and t were supported.
 
-The transfer has been tightened, so that for the data types d and i only valid specifications are allowed. Value losses for type p are now caught. The values of types x and xstring are converted into the [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") standard format [base64](javascript:call_link\('abenbase64_glosry.htm'\) "Glossary Entry").
+The transfer has been tightened, so that for the data types d and i only valid specifications are allowed. Value losses for type p are now caught. The values of types x and xstring are converted into the [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") standard format [base64](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbase64_glosry.htm "Glossary Entry").
 
 Modification 3   
 
@@ -47,7 +47,7 @@ Modification 4  
 
 Accessing Data References and Static Class Components in JavaScript
 
-Binding JavaScript objects to ABAP objects has been expanded to enable access to data reference variables and [static components](javascript:call_link\('abenstatic_component_glosry.htm'\) "Glossary Entry") (attributes and methods) of classes. In bound internal tables, you can delete lines using the JS method deleteLines and the JS method append has been renamed appendLine.
+Binding JavaScript objects to ABAP objects has been expanded to enable access to data reference variables and [static components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_component_glosry.htm "Glossary Entry") (attributes and methods) of classes. In bound internal tables, you can delete lines using the JS method deleteLines and the JS method append has been renamed appendLine.
 
 Hint
 
@@ -57,10 +57,10 @@ Modification 5  
 
 Kernel Methods
 
-The addition BY KERNEL MODULE of the statement [METHOD](javascript:call_link\('abapmethod.htm'\)) makes it possible to implement methods as [kernel methods](javascript:call_link\('abenkernel_methods.htm'\)).
+The addition BY KERNEL MODULE of the statement [METHOD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethod.htm) makes it possible to implement methods as [kernel methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkernel_methods.htm).
 
 Modification 6   
 
 Recursions of RAISE EVENT
 
-The number of possible recursions of the statement [RAISE EVENT](javascript:call_link\('abapraise_event.htm'\)) has been raised from 63 to 1023.
+The number of possible recursions of the statement [RAISE EVENT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_event.htm) has been raised from 63 to 1023.

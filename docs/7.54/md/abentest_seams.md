@@ -4,19 +4,19 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_unit.htm) → 
 
 Test Seams
 
-Test seams are language constructs designed especially for [unit tests](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") and are implemented using the following statements:
+Test seams are language constructs designed especially for [unit tests](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunit_test_glosry.htm "Glossary Entry") and are implemented using the following statements:
 
--   [TEST-SEAM - END-TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\))
+-   [TEST-SEAM - END-TEST-SEAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptest-seam.htm)
 
 Defines a test seam as a replaceable area in the production code of a program.
 
--   [TEST-INJECTION - END-TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\))
+-   [TEST-INJECTION - END-TEST-INJECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptest-injection.htm)
 
-Replaces the executable statements of a test seam by the statements of an injection in a [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") of the same program.
+Replaces the executable statements of a test seam by the statements of an injection in a [test class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentest_class_glosry.htm "Glossary Entry") of the same program.
 
 Test seams have the following properties:
 
@@ -26,9 +26,9 @@ Test seams have the following properties:
 
 -   Multiple injections can be defined for a single test seam.
 
--   Injections can only be created in test classes that are defined in a [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry"). Test seams can be used in all executable units of a master program that includes a test include , including local classes and subroutines .
+-   Injections can only be created in test classes that are defined in a [test include](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentest_include_glosry.htm "Glossary Entry"). Test seams can be used in all executable units of a master program that includes a test include , including local classes and subroutines .
 
--   Unit tests can make injections while [test methods](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") or the setup method are being executed.
+-   Unit tests can make injections while [test methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentest_method_glosry.htm "Glossary Entry") or the setup method are being executed.
 
 -   If injections are repeated in the same test seam, the last injection is the active injection.
 
@@ -44,11 +44,11 @@ Notes
 
 -   Creating test doubles
 
--   Test seams are intended mainly for use with legacy code that, due to [separation of concerns](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline"), is no suitable for unit tests. New programs, on the other hand, should be modular in such a way that test seams are made unnecessary.
+-   Test seams are intended mainly for use with legacy code that, due to [separation of concerns](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenseperation_concerns_guidl.htm "Guideline"), is no suitable for unit tests. New programs, on the other hand, should be modular in such a way that test seams are made unnecessary.
 
 Example for authorization checks
 
-An injection can use the statement [AUTHORITY-CHECK](javascript:call_link\('abapauthority-check.htm'\)) to bypass the dependency of a unit test on the authorizations of the current user by setting a suitable return code.
+An injection can use the statement [AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapauthority-check.htm) to bypass the dependency of a unit test on the authorizations of the current user by setting a suitable return code.
 
 Test Seam
 
@@ -130,5 +130,5 @@ Example
 See also the class CL\_AU\_SAMPLE\_TEST\_SEAMS in the package SABP\_UNIT\_SAMPLE.
 
 Continue
-[TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\))
-[TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\))
+[TEST-SEAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptest-seam.htm)
+[TEST-INJECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptest-injection.htm)

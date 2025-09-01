@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6C](javascript:call_link\('abennews-46c.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6C](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46c.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Runtime Analysis in Release 4.6C, ABENNEWS-46C-SE30, 757%0D%0A%0D%0AError:%0D%0A%0D%0
 A%0D%0A%0D%0ASuggestion for improvement:)
@@ -31,7 +31,7 @@ For ABAP programs that work with classes and instances, the appropriate hit list
 Modification 3   
 
 Measurement Restrictions
-From now on, the system uses the variant of a measurement restriction that was created or edited most recently. The default variant is set to None in [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry"). In all other systems, it is set to Full.
+From now on, the system uses the variant of a measurement restriction that was created or edited most recently. The default variant is set to None in [AS ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenas_abap_glosry.htm "Glossary Entry"). In all other systems, it is set to Full.
 
 Modification 4   
 

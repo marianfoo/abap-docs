@@ -4,21 +4,23 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Setting Reference Variables](javascript:call_link\('abenset_references.htm'\)) →  [Assignment Rules for Reference Variables](javascript:call_link\('abenconversion_references.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_assignments.htm) →  [Setting Reference Variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenset_references.htm) →  [Assignment Rules for Reference Variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_references.htm) → 
 
 Assignments Between Data Reference Variables
 
 Data reference variables are either completely typed or typed with the generic type data.
 
--   [Up Casts in Data References](#abenconversion-references-data-1--------down-casts-in-data-references---@ITOC@@ABENCONVERSION_REFERENCES_DATA_2)
+-   [Up Casts in Data References](#@@ITOC@@ABENCONVERSION_REFERENCES_DATA_1)
+
+-   [Down Casts in Data References](#@@ITOC@@ABENCONVERSION_REFERENCES_DATA_2)
 
 Up Casts in Data References
 
-An [up cast](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") in data references is possible in the following cases:
+An [up cast](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenup_cast_glosry.htm "Glossary Entry") in data references is possible in the following cases:
 
 -   The static types of the source variable and the target variable match according to the following rules:
 
--   Both are elementary data types with identical [technical type attributes](javascript:call_link\('abentechnical_type_attr_glosry.htm'\) "Glossary Entry"), that is predefined ABAP type, length and number of decimal places. The way in which the static types were defined is not important.
+-   Both are elementary data types with identical [technical type attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentechnical_type_attr_glosry.htm "Glossary Entry"), that is predefined ABAP type, length and number of decimal places. The way in which the static types were defined is not important.
 
 -   Both have an identical structured type. In the case of structured types, identical technical type attributes are not sufficient and, in the definition of the static types, the same structured type must have been used.
 
@@ -32,11 +34,11 @@ With respect to checks on static types, structured types behave like classes. Tw
 
 Down Casts in Data References
 
-A [down cast](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry") in data references is only possible if the static type of the source variable is generic and that of the target variable is completely typed. The syntax check makes it impossible that the static types of the source variable and the target variable are both completely typed, but not identical.
+A [down cast](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendown_cast_glosry.htm "Glossary Entry") in data references is only possible if the static type of the source variable is generic and that of the target variable is completely typed. The syntax check makes it impossible that the static types of the source variable and the target variable are both completely typed, but not identical.
 
 Example
 
-The assignment from dref1 to dref2 is an up cast. The assignment from dref2 to dref1 is a down cast, which in the example below raises an exception. If the statement [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) had the addition TYPE i, the down cast would also have been successful.
+The assignment from dref1 to dref2 is an up cast. The assignment from dref2 to dref1 is a down cast, which in the example below raises an exception. If the statement [CREATE DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data.htm) had the addition TYPE i, the down cast would also have been successful.
 
 DATA: dref1 TYPE REF TO i,
       dref2 TYPE REF TO data.

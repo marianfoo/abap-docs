@@ -4,15 +4,15 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Exceptions in ABAP Statements](javascript:call_link\('abenabap_language_exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_exceptions.htm) →  [Exceptions in ABAP Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm) → 
 
 Exception Classes for ABAP Statements
 
-The handleable [exceptions in ABAP statements](javascript:call_link\('abenabap_language_exceptions.htm'\)) can be caught using the predefined exception classes listed below. These classes are subclasses of the classes CX\_DYNAMIC\_CHECK and CX\_NO\_CHECK. These exception classes replace the obsolete [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"). The keyword documentation lists the type of exceptions that can be raised for each statement.
+The handleable [exceptions in ABAP statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm) can be caught using the predefined exception classes listed below. These classes are subclasses of the classes CX\_DYNAMIC\_CHECK and CX\_NO\_CHECK. These exception classes replace the obsolete [catchable runtime errors](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"). The keyword documentation lists the type of exceptions that can be raised for each statement.
 
 To improve the structure, intermediate abstract classes were introduced so that groups of exceptions can be caught simultaneously.
 
-Each exception class includes message texts, which can be displayed by choosing the Texts tab in [Class Builder](javascript:call_link\('abenclass_builder_glosry.htm'\) "Glossary Entry"). The following links open Class Builder for the exception class in question.
+Each exception class includes message texts, which can be displayed by choosing the Texts tab in [Class Builder](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_builder_glosry.htm "Glossary Entry"). The following links open Class Builder for the exception class in question.
 
 CX\_ROOT
   |

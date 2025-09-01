@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Classes and Interfaces](javascript:call_link\('abenshm_classes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_shared_objects.htm) →  [Shared Objects - Classes and Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_classes.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Shared%20Objects%20-%20IF_SHM_BUILD_INSTANCE%2C%20ABENSHM_IF_SHM_BUILD_INSTANCE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvem
 ent:)
 
 Shared Objects - IF\_SHM\_BUILD\_INSTANCE
 
-The interface IF\_SHM\_BUILD\_INSTANCE must be included by an [area constructor class](javascript:call_link\('abenshm_area_constructor_class.htm'\)) that implements the optional area constructor of an area.
+The interface IF\_SHM\_BUILD\_INSTANCE must be included by an [area constructor class](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_area_constructor_class.htm) that implements the optional area constructor of an area.
 
 Static Methods   
 
@@ -42,4 +42,4 @@ Note
 The method BUILD does not have an input parameter for the client ID. The area is built in the current client when the method is called.
 
 Continue
-[Shared Objects - Area Constructor Class](javascript:call_link\('abenshm_area_constructor_class.htm'\))
+[Shared Objects - Area Constructor Class](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshm_area_constructor_class.htm)

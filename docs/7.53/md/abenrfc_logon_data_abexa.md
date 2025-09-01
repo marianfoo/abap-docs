@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) →  [Examples for Remote Function Call](javascript:call_link\('abenrfc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [RFC - Remote Function Call](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc.htm) →  [Examples for Remote Function Call](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_abexas.htm) → 
 
 Implicit Logon Data in RFC
 
@@ -54,6 +54,6 @@ START-OF-SELECTION.
 
 Description
 
-A remote-enabled function module DEMO\_RFM\_LOGON\_DATA is called with the destination "NONE" using the RFC interface. The logon data user name, client, and logon language of the corresponding [RFC session](javascript:call_link\('abenrfc_context.htm'\)) are provided implicitly. To demonstrate that the [logon language](javascript:call_link\('abenlogon_language_glosry.htm'\) "Glossary Entry") of the RFC session is set by the language of the [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry") of the caller, this is set before the call with the statement [SET LOCALE LANGUAGE](javascript:call_link\('abapset_locale.htm'\)) to a language different from the logon language of the caller. In the called RFM the language of the text environment of the RFC session is also changed and is then different to the logon language there as well.
+A remote-enabled function module DEMO\_RFM\_LOGON\_DATA is called with the destination "NONE" using the RFC interface. The logon data user name, client, and logon language of the corresponding [RFC session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrfc_context.htm) are provided implicitly. To demonstrate that the [logon language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogon_language_glosry.htm "Glossary Entry") of the RFC session is set by the language of the [text environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_environment_glosry.htm "Glossary Entry") of the caller, this is set before the call with the statement [SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_locale.htm) to a language different from the logon language of the caller. In the called RFM the language of the text environment of the RFC session is also changed and is then different to the logon language there as well.
 
 If the function module DEMO\_RFM\_LOGON\_DATA is called remotely again, the RFC session is reused with the existing logon data. Changing the language of the text environment again in the caller would have no effect.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [Changes in Release 7.52](javascript:call_link\('abennews-752.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews.htm) →  [Changes in Releases 7.5x](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-75.htm) →  [Changes in Release 7.52](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-752.htm) → 
 
 Assignments in Release 7.52
 
@@ -14,4 +14,4 @@ Modification 1
 
 System Class for Dynamic Mapping
 
-The system class [CL\_ABAP\_CORRESPONDING](javascript:call_link\('abencl_abap_corresponding.htm'\)) now has a new method [CREATE\_WITH\_VALUE](javascript:call_link\('abencl_abap_corresponding_3.htm'\)), which allows the values of any suitable data objects to be assigned to the components of the target structure or target table.
+The system class [CL\_ABAP\_CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding.htm) now has a new method [CREATE\_WITH\_VALUE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_abap_corresponding_3.htm), which allows the values of any suitable data objects to be assigned to the components of the target structure or target table.

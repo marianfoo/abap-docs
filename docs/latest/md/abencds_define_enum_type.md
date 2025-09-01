@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Type Definitions](javascript:call_link\('abencds_tdl.htm'\)) →  [ABAP CDS - TDL for Type Definitions](javascript:call_link\('abencds_types.htm'\)) →  [CDS TDL - DEFINE TYPE](javascript:call_link\('abencds_define_type.htm'\)) →  [ABAP CDS - Enumerated Types](javascript:call_link\('abencds_enumeration_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Type Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_tdl.htm) →  [ABAP CDS - TDL for Type Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_types.htm) →  [CDS TDL - DEFINE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_type.htm) →  [ABAP CDS - Enumerated Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enumeration_types.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20TDL%20-%20DEFINE%20TYPE%20ENUM%2C%20ABENCDS_DEFINE_ENUM_TYPE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,8 +12,8 @@ CDS TDL - DEFINE TYPE ENUM
 
 Syntax
 
-*\[*[@type\_annot1](javascript:call_link\('abencds_enum_type_anno.htm'\))*\]*
-*\[*[@type\_annot2](javascript:call_link\('abencds_enum_type_anno.htm'\))*\]*
+*\[*[@type\_annot1](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_type_anno.htm)*\]*
+*\[*[@type\_annot2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_type_anno.htm)*\]*
 ...
   DEFINE TYPE EnumType : BaseType ENUM
   {
@@ -27,13 +27,13 @@ Syntax
 
 Effect
 
-Defines a [CDS enumerated type](javascript:call_link\('abencds_enum_type_glosry.htm'\) "Glossary Entry") EnumType in the [CDS TDL](javascript:call_link\('abencds_tdl_glosry.htm'\) "Glossary Entry"). An enumerated type defines a set of [enumerated constants](javascript:call_link\('abenenumerated_constant_glosry.htm'\) "Glossary Entry") EnumConstant1, EnumConstant2, ... and each constant is assigned an [enumerated value](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") Enum1Value1, Enum1Value2, .... [CDS enumerated elements](javascript:call_link\('abencds_enum_element_glosry.htm'\) "Glossary Entry") and [enumerated variables](javascript:call_link\('abenenumerated_variable_glosry.htm'\) "Glossary Entry") in ABAP that are typed with a CDS enumerated type may take only one of the enumerated values. The enumerated constants and enumerated values define the set of allowed values of an enumerated type.
+Defines a [CDS enumerated type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_type_glosry.htm "Glossary Entry") EnumType in the [CDS TDL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_tdl_glosry.htm "Glossary Entry"). An enumerated type defines a set of [enumerated constants](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_constant_glosry.htm "Glossary Entry") EnumConstant1, EnumConstant2, ... and each constant is assigned an [enumerated value](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_value_glosry.htm "Glossary Entry") Enum1Value1, Enum1Value2, .... [CDS enumerated elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_element_glosry.htm "Glossary Entry") and [enumerated variables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_variable_glosry.htm "Glossary Entry") in ABAP that are typed with a CDS enumerated type may take only one of the enumerated values. The enumerated constants and enumerated values define the set of allowed values of an enumerated type.
 
 The statement for defining an enumerated type is DEFINE TYPE ... ENUM. A list of enumerated constants and enumerated values is defined in curly brackets. If an enumerated type EnumTypeStack is typed using another enumerated type EnumTypeBase, the enumerated constants are inherited automatically and the addition ENUM can be left out.
 
-The name EnumType of a CDS enumerated type is defined after the DEFINE TYPE statement. It is in the namespace of all [global types](javascript:call_link\('abenglobal_type_glosry.htm'\) "Glossary Entry") of an AS ABAP. The general rules for CDS object names described in topic [ABAP CDS - General Syntax Rules](javascript:call_link\('abencds_general_syntax_rules.htm'\)) apply. The name of the CDS enumerated type must be the same as the name of the TDL source code.
+The name EnumType of a CDS enumerated type is defined after the DEFINE TYPE statement. It is in the namespace of all [global types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenglobal_type_glosry.htm "Glossary Entry") of an AS ABAP. The general rules for CDS object names described in topic [ABAP CDS - General Syntax Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_general_syntax_rules.htm) apply. The name of the CDS enumerated type must be the same as the name of the TDL source code.
 
-The [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") BaseType determines the technical storage type of the enumerated constants and the CDS enumerated elements. The following can be specified as base type:
+The [base type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbase_type_glosry.htm "Glossary Entry") BaseType determines the technical storage type of the enumerated constants and the CDS enumerated elements. The following can be specified as base type:
 
 BaseType
 
@@ -41,25 +41,25 @@ Dictionary Type
 
 abap.int1
 
-[INT1](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT1](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm)
 
 abap.int2
 
-[INT2](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm)
 
 abap.int4
 
-[INT4](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT4](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm)
 
 abap.char( len ).
 len can be 1 to 8.
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len.
+[CHAR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) with length len.
 
 abap.numc( len ).
 len can be 1 to 8.
 
-[NUMC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len.
+[NUMC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) with length len.
 
 The base type has the following effect:
 
@@ -67,16 +67,16 @@ The base type has the following effect:
 -   The base type describes how each enumeration value of the value set is stored internally. It is part of the compatibility checks during cast expressions and in comparisons with CDS enumerated elements.
 -   The base type is the technical storage type of a CDS enumerated type itself.
 
-Note: The base type is the technical storage type of [CDS enumerated elements](javascript:call_link\('abencds_enum_element_glosry.htm'\) "Glossary Entry"). However, in the code element information or in the [debugger](javascript:call_link\('abendebugger_glosry.htm'\) "Glossary Entry"), the data type of CDS enumerated elements is displayed as ENUM.
+Note: The base type is the technical storage type of [CDS enumerated elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_element_glosry.htm "Glossary Entry"). However, in the code element information or in the [debugger](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendebugger_glosry.htm "Glossary Entry"), the data type of CDS enumerated elements is displayed as ENUM.
 
 Components
 
--   Header annotations [@type\_annot1](javascript:call_link\('abencds_enum_type_anno.htm'\)), [@type\_annot2](javascript:call_link\('abencds_enum_type_anno.htm'\)), ... can be specified in front of the statement DEFINE TYPE. All header annotations are optional, and an enumerated type can also be created without any header annotations.
+-   Header annotations [@type\_annot1](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_type_anno.htm), [@type\_annot2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_type_anno.htm), ... can be specified in front of the statement DEFINE TYPE. All header annotations are optional, and an enumerated type can also be created without any header annotations.
 -   Annotations for enumerated constants enum\_annot1, enum\_annot2, ... can optionally be specified in front of the enumerated constants to add semantic information. The following annotations are available for enumerated constants:
-    -   [EndUserText.heading](javascript:call_link\('abencds_enum_type_anno.htm'\))
-    -   [EndUserText.label](javascript:call_link\('abencds_enum_type_anno.htm'\))
--   Enumerated constants EnumConstant1, EnumConstant2, ... contain the enumerated values EnumValue1, EnumValue2, ... The data type of each constant is the enumerated type ENUM. Each name EnumConstant1, EnumConstant2, must follow the [naming rules](javascript:call_link\('abencds_general_syntax_rules.htm'\)). Most importantly, it can have up to 30 characters and each name must be unique within the enumerated type.
--   Enumerated values EnumValue1, EnumValue2, ... assign type-compliant values to the enumerated constants. Each enumerated value must be unique within the enumerated type. The order of the specified values is not important. The enumerated values are specified as [untyped literals](javascript:call_link\('abenuntyped_literal_glosry.htm'\) "Glossary Entry"), and their content must be compatible with the base type of the CDS enumerated type in question.
+    -   [EndUserText.heading](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_type_anno.htm)
+    -   [EndUserText.label](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_type_anno.htm)
+-   Enumerated constants EnumConstant1, EnumConstant2, ... contain the enumerated values EnumValue1, EnumValue2, ... The data type of each constant is the enumerated type ENUM. Each name EnumConstant1, EnumConstant2, must follow the [naming rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_general_syntax_rules.htm). Most importantly, it can have up to 30 characters and each name must be unique within the enumerated type.
+-   Enumerated values EnumValue1, EnumValue2, ... assign type-compliant values to the enumerated constants. Each enumerated value must be unique within the enumerated type. The order of the specified values is not important. The enumerated values are specified as [untyped literals](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuntyped_literal_glosry.htm "Glossary Entry"), and their content must be compatible with the base type of the CDS enumerated type in question.
 -   The addition INITIAL must be specified for exactly one constant. It generates the initial value of the base type.
 
 Hint
@@ -106,7 +106,7 @@ define type DEMO\_CDS\_ENUM\_WEEKDAY : abap.int1 enum
   SUN =       6;
 }
 
-The enumerated type can be used for declaring an enumerated variable wd in an ABAP program. By doing so, an [enumerated structure](javascript:call_link\('abenenumerated_structure_glosry.htm'\) "Glossary Entry") named demo\_cds\_enum\_weekday is implicitly declared in the current context and can be used there. wd initially contains the content of the initial enumerated constant demo\_cds\_enum\_weekday-mon. Note that the components of the structure are ordered alphabetically and not according to their definition.
+The enumerated type can be used for declaring an enumerated variable wd in an ABAP program. By doing so, an [enumerated structure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_structure_glosry.htm "Glossary Entry") named demo\_cds\_enum\_weekday is implicitly declared in the current context and can be used there. wd initially contains the content of the initial enumerated constant demo\_cds\_enum\_weekday-mon. Note that the components of the structure are ordered alphabetically and not according to their definition.
 
 DATA wd TYPE demo\_cds\_enum\_weekday.
 ASSERT wd = demo\_cds\_enum\_weekday-mon.
@@ -183,7 +183,7 @@ The following screenshot shows the code element information. The element typed w
 
 ![Figure](enum.jpg)
 Continue
-[CDS TDL - CDS Enumerated Type, type\_annot](javascript:call_link\('abencds_enum_type_anno.htm'\))
-[CDS TDL - Using CDS Enumerated Types](javascript:call_link\('abencds_use_enum_type.htm'\))
-![Example](exa.gif "Example") [CDS TDL - CDS Enumerated Type, Use](javascript:call_link\('abencds_enum_abexa.htm'\))
-![Example](exa.gif "Example") [CDS TDL - CDS Enumerated Type, Type Description](javascript:call_link\('abencds_enum_description_abexa.htm'\))
+[CDS TDL - CDS Enumerated Type, type\_annot](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_type_anno.htm)
+[CDS TDL - Using CDS Enumerated Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_use_enum_type.htm)
+![Example](exa.gif "Example") [CDS TDL - CDS Enumerated Type, Use](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_abexa.htm)
+![Example](exa.gif "Example") [CDS TDL - CDS Enumerated Type, Type Description](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_description_abexa.htm)

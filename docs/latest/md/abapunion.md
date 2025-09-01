@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenabap_sql_reading.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql.htm) →  [ABAP SQL - Read Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_reading.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20UNION%2C%20INTERSECT%2C%20EXCEPT%2C%20ABAPUNION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -14,42 +14,42 @@ Syntax Forms
 
 UNION, INTERSECT, and EXCEPT in Main Queries
 
-1\. *\[*[WITH ...](javascript:call_link\('abapwith.htm'\))*\]*
-  SELECT [query\_clauses](javascript:call_link\('abapunion_clause.htm'\))
+1\. *\[*[WITH ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith.htm)*\]*
+  SELECT [query\_clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunion_clause.htm)
     *{*UNION *\[*ALL*|*DISTINCT*\]**}*
   *|* *{*INTERSECT *\[*DISTINCT*\]**}*
   *|* *{*EXCEPT *\[*DISTINCT*\]**}*
-     *\[*(*\]* SELECT [query\_clauses](javascript:call_link\('abapunion_clause.htm'\)) *\[*)*\]*
+     *\[*(*\]* SELECT [query\_clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunion_clause.htm) *\[*)*\]*
     *\[**{*UNION *\[*ALL*|*DISTINCT*\]**}*
    *|* *{*INTERSECT *\[*DISTINCT*\]**}*
    *|* *{*EXCEPT *\[*DISTINCT*\]**}*
     ...*\]*
-        *\[*[ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) sort\_key*\]*
-         [INTO*|*APPENDING](javascript:call_link\('abapinto_clause.htm'\)) target
-        *\[*[abap\_options](javascript:call_link\('abapselect_additions.htm'\))*\]*.
+        *\[*[ORDER BY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaporderby_clause.htm) sort\_key*\]*
+         [INTO*|*APPENDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinto_clause.htm) target
+        *\[*[abap\_options](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_additions.htm)*\]*.
   ...
-  *\[* [ENDSELECT](javascript:call_link\('abapendselect.htm'\))*|*[ENDWITH](javascript:call_link\('abapendwith.htm'\)).*\]*
-2\. [OPEN CURSOR ... FOR](javascript:call_link\('abapopen_cursor.htm'\))
-    *\[*[WITH ...](javascript:call_link\('abapwith.htm'\))*\]*
-    SELECT [query\_clauses](javascript:call_link\('abapunion_clause.htm'\))
+  *\[* [ENDSELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendselect.htm)*|*[ENDWITH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendwith.htm).*\]*
+2\. [OPEN CURSOR ... FOR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_cursor.htm)
+    *\[*[WITH ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith.htm)*\]*
+    SELECT [query\_clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunion_clause.htm)
      *{*UNION *\[*ALL*|*DISTINCT*\]**}*
    *|* *{*INTERSECT *\[*DISTINCT*\]**}*
    *|* *{*EXCEPT *\[*DISTINCT*\]**}*
-       *\[*(*\]* SELECT [query\_clauses](javascript:call_link\('abapunion_clause.htm'\)) *\[*)*\]*
+       *\[*(*\]* SELECT [query\_clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunion_clause.htm) *\[*)*\]*
       *\[**{*UNION *\[*ALL*|*DISTINCT*\]**}*
      *|* *{*INTERSECT *\[*DISTINCT*\]**}*
      *|* *{*EXCEPT *\[*DISTINCT*\]**}*
       ...*\]*
-          *\[*[ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) sort\_key*\]*
-          *\[*[abap\_options](javascript:call_link\('abapselect_additions.htm'\))*\]*.
+          *\[*[ORDER BY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaporderby_clause.htm) sort\_key*\]*
+          *\[*[abap\_options](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_additions.htm)*\]*.
 
 UNION, INTERSECT, and EXCEPT in Subqueries
 
-3\. ... ( SELECT [query\_clauses](javascript:call_link\('abapunion_clause.htm'\))
+3\. ... ( SELECT [query\_clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunion_clause.htm)
           *{*UNION*\[*ALL*|*DISTINCT*\]**}*
         *|* *{*INTERSECT *\[*DISTINCT*\]**}*
         *|* *{*EXCEPT *\[*DISTINCT*\]**}*
-           *\[*(*\]* SELECT [query\_clauses](javascript:call_link\('abapunion_clause.htm'\)) *\[*)*\]*
+           *\[*(*\]* SELECT [query\_clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunion_clause.htm) *\[*)*\]*
           *\[**{*UNION *\[*ALL*|*DISTINCT*\]**}*
          *|* *{*INTERSECT *\[*DISTINCT*\]**}*
          *|* *{*EXCEPT *\[*DISTINCT*\]**}*
@@ -67,30 +67,30 @@ Addition:
 
 Effect
 
-The [set operators](javascript:call_link\('abencds_set_operators_glosry.htm'\) "Glossary Entry") UNION, INTERSECT, and EXCEPT merge the result sets of multiple queries into a single result set. The syntax forms show where UNION, INTERSECT, and EXCEPT can be used:
+The [set operators](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_set_operators_glosry.htm "Glossary Entry") UNION, INTERSECT, and EXCEPT merge the result sets of multiple queries into a single result set. The syntax forms show where UNION, INTERSECT, and EXCEPT can be used:
 
-1.  For creating the result set of the [main query](javascript:call_link\('abenmainquery_glosry.htm'\) "Glossary Entry") of a standalone statement, which is introduced using [WITH](javascript:call_link\('abapwith.htm'\)) or [SELECT](javascript:call_link\('abapselect.htm'\)).
-2.  For creating the result set of the [main query](javascript:call_link\('abenmainquery_glosry.htm'\) "Glossary Entry") after [OPEN CURSOR](javascript:call_link\('abapopen_cursor.htm'\)).
-3.  For creating the result set of a parenthesized [subquery](javascript:call_link\('abensubquery_glosry.htm'\) "Glossary Entry") in a [relational expression](javascript:call_link\('abenabap_sql_stmt_logexp.htm'\)), the definition of a [common table expression](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry") after [WITH](javascript:call_link\('abapwith.htm'\)), or an [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)) statement.
+1.  For creating the result set of the [main query](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmainquery_glosry.htm "Glossary Entry") of a standalone statement, which is introduced using [WITH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith.htm) or [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm).
+2.  For creating the result set of the [main query](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmainquery_glosry.htm "Glossary Entry") after [OPEN CURSOR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapopen_cursor.htm).
+3.  For creating the result set of a parenthesized [subquery](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensubquery_glosry.htm "Glossary Entry") in a [relational expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_stmt_logexp.htm), the definition of a [common table expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") after [WITH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith.htm), or an [INSERT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinsert_dbtab.htm) statement.
 
-In all syntax forms, it is possible to specify the same [clauses and additions](javascript:call_link\('abenselect_clauses.htm'\)), specifically [query\_clauses](javascript:call_link\('abapunion_clause.htm'\)), for SELECT statements of queries in front of and after UNION, INTERSECT, or EXCEPT for defining result sets. A query on the right side of UNION, INTERSECT, or EXCEPT can be enclosed in parentheses ( ). A pair of parentheses can include multiple unions, intersections, or differences. The queries joined with UNION, INTERSECT, or EXCEPT are evaluated from left to right. Specific statements can be prioritized using parentheses.
+In all syntax forms, it is possible to specify the same [clauses and additions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_clauses.htm), specifically [query\_clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunion_clause.htm), for SELECT statements of queries in front of and after UNION, INTERSECT, or EXCEPT for defining result sets. A query on the right side of UNION, INTERSECT, or EXCEPT can be enclosed in parentheses ( ). A pair of parentheses can include multiple unions, intersections, or differences. The queries joined with UNION, INTERSECT, or EXCEPT are evaluated from left to right. Specific statements can be prioritized using parentheses.
 
-In the case of a standalone [SELECT](javascript:call_link\('abapselect.htm'\)) or [WITH](javascript:call_link\('abapwith.htm'\)) statement and after OPEN CURSOR, the [ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) and the [abap\_options](javascript:call_link\('abapselect_additions.htm'\)) after the last query or after the position of the last closing bracket are listed and affect the merged result set. In the case of standalone statements, the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause is to be listed as the last clause and in front of the additions [abap\_options](javascript:call_link\('abapselect_additions.htm'\)). The following special features apply to standalone statements with set operators:
+In the case of a standalone [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm) or [WITH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith.htm) statement and after OPEN CURSOR, the [ORDER BY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaporderby_clause.htm) and the [abap\_options](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_additions.htm) after the last query or after the position of the last closing bracket are listed and affect the merged result set. In the case of standalone statements, the [INTO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinto_clause.htm) clause is to be listed as the last clause and in front of the additions [abap\_options](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_additions.htm). The following special features apply to standalone statements with set operators:
 
 -   ORDER BY clause
-    -   The addition [ORDER BY PRIMARY KEY](javascript:call_link\('abaporderby_clause.htm'\)) is not allowed.
-    -   Columns of the merged result set specified after [ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) must occur with the same name in all relevant SELECT statements. The names must be specified directly and cannot be specified with the [column selector](javascript:call_link\('abentable_comp_selector_glosry.htm'\) "Glossary Entry") ~ after a column name.
+    -   The addition [ORDER BY PRIMARY KEY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaporderby_clause.htm) is not allowed.
+    -   Columns of the merged result set specified after [ORDER BY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaporderby_clause.htm) must occur with the same name in all relevant SELECT statements. The names must be specified directly and cannot be specified with the [column selector](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_comp_selector_glosry.htm "Glossary Entry") ~ after a column name.
 -   INTO clause
-    -   If the addition CORRESPONDING or an inline declaration @DATA*|*@FINAL(...) is used in the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause, the column names of all result sets defined in the [query\_clauses](javascript:call_link\('abapunion_clause.htm'\)) from left to right must match.
-    -   The merged result set is always multirow. When assigning to a non-table target area, that is, a SELECT statement without the addition [INTO*|*APPENDING ... TABLE](javascript:call_link\('abapinto_clause.htm'\)), a loop to be terminated with [ENDSELECT](javascript:call_link\('abapendselect.htm'\)) or [ENDWITH](javascript:call_link\('abapendwith.htm'\)) is always opened.
+    -   If the addition CORRESPONDING or an inline declaration @DATA*|*@FINAL(...) is used in the [INTO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinto_clause.htm) clause, the column names of all result sets defined in the [query\_clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunion_clause.htm) from left to right must match.
+    -   The merged result set is always multirow. When assigning to a non-table target area, that is, a SELECT statement without the addition [INTO*|*APPENDING ... TABLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinto_clause.htm), a loop to be terminated with [ENDSELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendselect.htm) or [ENDWITH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapendwith.htm) is always opened.
 -   Restricting the result set
-    -   The additions [UP TO](javascript:call_link\('abapselect_up_to_offset.htm'\)) and [OFFSET](javascript:call_link\('abapselect_up_to_offset.htm'\)) are not currently allowed with UNION, INTERSECT, and EXCEPT.
-    -   Since the result set is tabular, [SINGLE](javascript:call_link\('abapselect_single.htm'\)) cannot be used.
+    -   The additions [UP TO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_up_to_offset.htm) and [OFFSET](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_up_to_offset.htm) are not currently allowed with UNION, INTERSECT, and EXCEPT.
+    -   Since the result set is tabular, [SINGLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_single.htm) cannot be used.
 
 Hints
 
 -   Prioritizations using parentheses are particularly applicable when handling duplicate rows using DISTINCT.
--   UNION, INTERSECT, or EXCEPT cannot be processed by the [ABAP SQL engine](javascript:call_link\('abenabap_sql_engine.htm'\)). The ABAP SQL statement bypasses the [table buffer](javascript:call_link\('abentable_buffer_glosry.htm'\) "Glossary Entry") and an internal table accessed by [FROM @itab](javascript:call_link\('abapselect_itab.htm'\)) must be transported to the database. This is only possible for one internal table per ABAP SQL statement.
+-   UNION, INTERSECT, or EXCEPT cannot be processed by the [ABAP SQL engine](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_engine.htm). The ABAP SQL statement bypasses the [table buffer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_buffer_glosry.htm "Glossary Entry") and an internal table accessed by [FROM @itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_itab.htm) must be transported to the database. This is only possible for one internal table per ABAP SQL statement.
 -   The maximum number of different SELECT statements that can be joined using UNION, INTERSECT, or EXCEPT depends on the database system. If this number is exceeded, an exception is raised when the program is executed.
 
 Variant 1   
@@ -99,15 +99,15 @@ Variant 1  
 
 Effect
 
-The ABAP SQL set operator UNION merges the result sets of two [queries](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry"). The rows of the result set of the query after UNION are inserted into the result set of the query in front of UNION.
+The ABAP SQL set operator UNION merges the result sets of two [queries](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenquery_glosry.htm "Glossary Entry"). The rows of the result set of the query after UNION are inserted into the result set of the query in front of UNION.
 
 Hint
 
-When UNION is used, the syntax check is performed in a [strict mode](javascript:call_link\('abenabap_sql_strictmode_750.htm'\)), which handles the statement more strictly than the regular syntax check. More specifically, the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause and the additions [abap\_options](javascript:call_link\('abapselect_additions.htm'\)) must be specified at the end of the entire SELECT statement.
+When UNION is used, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_strictmode_750.htm), which handles the statement more strictly than the regular syntax check. More specifically, the [INTO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinto_clause.htm) clause and the additions [abap\_options](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_additions.htm) must be specified at the end of the entire SELECT statement.
 
 Example
 
-Creates the union of one row from the DDIC database table SCARR with multiple rows from the DDIC database table SPFLI. Those columns that do not exist in the other table are replaced by literals. Here, a [CAST](javascript:call_link\('abensql_cast.htm'\)) is required for the column CONNID.
+Creates the union of one row from the DDIC database table SCARR with multiple rows from the DDIC database table SPFLI. Those columns that do not exist in the other table are replaced by literals. Here, a [CAST](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_cast.htm) is required for the column CONNID.
 
 SELECT FROM scarr
        FIELDS carrname,
@@ -128,7 +128,7 @@ cl\_demo\_output=>display( result ).
 
 Executable Examples
 
-[UNION - Examples](javascript:call_link\('abenunion_abexas.htm'\))
+[UNION - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunion_abexas.htm)
 
 Variant 2   
 
@@ -140,7 +140,7 @@ The ABAP SQL set operator INTERSECT returns all distinct rows of the result set 
 
 Hint
 
-When INTERSECT is used, the syntax check is performed in a [strict mode](javascript:call_link\('abenabap_sql_strictmode_756.htm'\)), which handles the statement more strictly than the regular syntax check. More specifically, the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause and the additions [abap\_options](javascript:call_link\('abapselect_additions.htm'\)) must be specified at the end of the entire SELECT statement.
+When INTERSECT is used, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_strictmode_756.htm), which handles the statement more strictly than the regular syntax check. More specifically, the [INTO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinto_clause.htm) clause and the additions [abap\_options](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_additions.htm) must be specified at the end of the entire SELECT statement.
 
 Example
 
@@ -157,7 +157,7 @@ SELECT spfli~carrid, scarr~carrname
 
 Executable Examples
 
-[INTERSECT - Examples](javascript:call_link\('abenintersect_abexas.htm'\))
+[INTERSECT - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenintersect_abexas.htm)
 
 Variant 3   
 
@@ -170,7 +170,7 @@ The ABAP SQL set operator EXCEPT returns all distinct rows of the result set of 
 Hints
 
 -   ABAP SQL does not support the alternative syntax MINUS that is available for the SAP HANA database.
--   When EXCEPT is used, the syntax check is performed in a [strict mode](javascript:call_link\('abenabap_sql_strictmode_756.htm'\)), which handles the statement more strictly than the regular syntax check. More specifically, the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause and the additions [abap\_options](javascript:call_link\('abapselect_additions.htm'\)) must be specified at the end of the entire SELECT statement.
+-   When EXCEPT is used, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_strictmode_756.htm), which handles the statement more strictly than the regular syntax check. More specifically, the [INTO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinto_clause.htm) clause and the additions [abap\_options](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_additions.htm) must be specified at the end of the entire SELECT statement.
 
 Example
 
@@ -187,7 +187,7 @@ SELECT carrid, carrname
 
 Executable Examples
 
-[EXCEPT - Examples](javascript:call_link\('abenexcept_abexas.htm'\))
+[EXCEPT - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexcept_abexas.htm)
 
 Addition   
 
@@ -230,7 +230,7 @@ ASSERT lines( result1 ) = 1.
 ASSERT lines( result2 ) = 2.
 
 Continue
-[UNION, INTERSECT, EXCEPT, query\_clauses](javascript:call_link\('abapunion_clause.htm'\))
-[UNION, Examples](javascript:call_link\('abenunion_abexas.htm'\))
-[INTERSECT, Examples](javascript:call_link\('abenintersect_abexas.htm'\))
-[EXCEPT, Examples](javascript:call_link\('abenexcept_abexas.htm'\))
+[UNION, INTERSECT, EXCEPT, query\_clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapunion_clause.htm)
+[UNION, Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunion_abexas.htm)
+[INTERSECT, Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenintersect_abexas.htm)
+[EXCEPT, Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexcept_abexas.htm)

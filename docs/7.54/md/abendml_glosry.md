@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 DML
 
-Data Manipulation Language. Subset of [SQL](javascript:call_link\('abensql_glosry.htm'\) "Glossary Entry"). The statements of DML read and change the contents of [relational](javascript:call_link\('abenrelational_database_glosry.htm'\) "Glossary Entry") [database tables](javascript:call_link\('abendatabase_table_glosry.htm'\) "Glossary Entry"). In ABAP, DML is represented using [ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry").
+Data Manipulation Language. Subset of [SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_glosry.htm "Glossary Entry"). The statements of DML read and change the contents of [relational](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrelational_database_glosry.htm "Glossary Entry") [database tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_table_glosry.htm "Glossary Entry"). In ABAP, DML is represented using [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry").

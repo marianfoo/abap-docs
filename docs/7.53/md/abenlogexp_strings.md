@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [log\_exp - Logical Expressions](javascript:call_link\('abenlogexp.htm'\)) →  [rel\_exp - Comparison Expressions](javascript:call_link\('abenlogexp_comp.htm'\)) →  [rel\_exp - Relational Operators](javascript:call_link\('abenlogexp_op.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_expr_func.htm) →  [log\_exp - Logical Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm) →  [rel\_exp - Comparison Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_comp.htm) →  [rel\_exp - Relational Operators](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_op.htm) → 
 
 rel\_exp - Relational Operators for Character-Like Data Types
 
-The following table shows the relational operators for comparisons between character-like operands (single data objects and return values or [string expressions](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry")) in [comparison expressions](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry"). Trailing blanks are respected for operands of type string. If not stated differently in the following table, trailing blanks are ignored for operands of types c, d, n, and t.
+The following table shows the relational operators for comparisons between character-like operands (single data objects and return values or [string expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_expression_glosry.htm "Glossary Entry")) in [comparison expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomparison_expression_glosry.htm "Glossary Entry"). Trailing blanks are respected for operands of type string. If not stated differently in the following table, trailing blanks are ignored for operands of types c, d, n, and t.
 
 operator
 
@@ -40,7 +40,7 @@ Contains No String: True if a relational expression with CS is false, that is if
 
 CP
 
-Covers Pattern: True if the content of operand1 fits the pattern in operand2. Wildcard characters can be used to create the operand2 pattern, where "\*" represents any character string (including a blank string) and "+" represents any character. It is not case-sensitive. Trailing blanks in the left operand are respected. If the comparison is true, sy-fdpos contains the offset of operand2 in operand1. Here, leading wildcard characters "\*" in operand2 are ignored if operand2 also contains other characters. If the comparison is false, sy-fdpos contains the length of operand1. Characters in operand2 can be selected for direct comparisons by prefixing them with the [escape character](javascript:call_link\('abenescape_character_glosry.htm'\) "Glossary Entry") "#". For characters flagged in this way in operand2, the operator is case-sensitive. Also, wildcard characters and the escape character are not subject to special handling and trailing blanks are relevant.
+Covers Pattern: True if the content of operand1 fits the pattern in operand2. Wildcard characters can be used to create the operand2 pattern, where "\*" represents any character string (including a blank string) and "+" represents any character. It is not case-sensitive. Trailing blanks in the left operand are respected. If the comparison is true, sy-fdpos contains the offset of operand2 in operand1. Here, leading wildcard characters "\*" in operand2 are ignored if operand2 also contains other characters. If the comparison is false, sy-fdpos contains the length of operand1. Characters in operand2 can be selected for direct comparisons by prefixing them with the [escape character](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenescape_character_glosry.htm "Glossary Entry") "#". For characters flagged in this way in operand2, the operator is case-sensitive. Also, wildcard characters and the escape character are not subject to special handling and trailing blanks are relevant.
 
 NP
 
@@ -50,15 +50,15 @@ Notes
 
 -   The operators CP and NP use multiple wildcard characters "\*" in a row in the same way as a single "\*" character. The wildcard character "+" does not represent a blank string.
 
--   When using the operators CP and NP, there is not usually any point in using patterns without wildcard characters in operand2 and comparisons with [\=](javascript:call_link\('abenlogexp_any_operand.htm'\)) can be made instead.
+-   When using the operators CP and NP, there is not usually any point in using patterns without wildcard characters in operand2 and comparisons with [\=](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_any_operand.htm) can be made instead.
 
--   Operands of byte-like data types cannot be compared using the relational operators from this table. The [relational operators for byte-like data types](javascript:call_link\('abenlogexp_bytes.htm'\)) can be used to perform these comparisons for byte-like operands.
+-   Operands of byte-like data types cannot be compared using the relational operators from this table. The [relational operators for byte-like data types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_bytes.htm) can be used to perform these comparisons for byte-like operands.
 
--   The relational operators in this table can be replaced by [predicate functions](javascript:call_link\('abenpredicate_functions_strgs.htm'\)).
+-   The relational operators in this table can be replaced by [predicate functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredicate_functions_strgs.htm).
 
--   The statement [FIND](javascript:call_link\('abapfind.htm'\)) and the search functions [find](javascript:call_link\('abensearch_functions.htm'\)) can be quicker than the relational operator CS by some magnitude.
+-   The statement [FIND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind.htm) and the search functions [find](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensearch_functions.htm) can be quicker than the relational operator CS by some magnitude.
 
--   When using relational operators for character-like data types in a [conditional expression](javascript:call_link\('abenconditional_expression_glosry.htm'\) "Glossary Entry") or in a [Boolean function](javascript:call_link\('abenboole_function_glosry.htm'\) "Glossary Entry"), the system field sy-fdpos is given the value set in the expression once the expression is processed.
+-   When using relational operators for character-like data types in a [conditional expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconditional_expression_glosry.htm "Glossary Entry") or in a [Boolean function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboole_function_glosry.htm "Glossary Entry"), the system field sy-fdpos is given the value set in the expression once the expression is processed.
 
 Example
 
@@ -72,7 +72,7 @@ ENDIF.
 
 Example
 
-Displays the first position of a letter in a field. The operator CS is used in the conditional operator [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)), which returns the content of the system field sy-fdpos.
+Displays the first position of a letter in a field. The operator CS is used in the conditional operator [COND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconditional_expression_cond.htm), which returns the content of the system field sy-fdpos.
 
 cl\_demo\_output=>display( COND #( WHEN sy-abcde CS 'H' THEN sy-fdpos ) ).
 
@@ -88,7 +88,7 @@ ENDIF.
 
 Executable Example
 
-[Relational Operators for Character-Like Data Types](javascript:call_link\('abencharacter_comparisons_abexa.htm'\))
+[Relational Operators for Character-Like Data Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharacter_comparisons_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Relational Operators for Character-Like Data Types](javascript:call_link\('abencharacter_comparisons_abexa.htm'\))
+![Example](exa.gif "Example") [Relational Operators for Character-Like Data Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharacter_comparisons_abexa.htm)

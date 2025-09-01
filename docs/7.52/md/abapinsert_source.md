@@ -4,17 +4,17 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Open SQL](javascript:call_link\('abenopensql.htm'\)) →  [Open SQL - Write Accesses](javascript:call_link\('abenopen_sql_writing.htm'\)) →  [INSERT dbtab](javascript:call_link\('abapinsert_dbtab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql.htm) →  [Open SQL - Write Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_writing.htm) →  [INSERT dbtab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab.htm) → 
 
 INSERT dbtab - source
 
-[Quick Reference](javascript:call_link\('abapinsert_dbtab_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab_shortref.htm)
 
 Syntax
 
 ...  @wa
   *|* *{* TABLE @itab *\[*ACCEPTING DUPLICATE KEYS*\]* *}*
-  *|* ( SELECT [subquery\_clauses](javascript:call_link\('abapinsert_from_select.htm'\)) *\[*[UNION ...](javascript:call_link\('abapunion.htm'\))*\]* ) ...
+  *|* ( SELECT [subquery\_clauses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_from_select.htm) *\[*[UNION ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapunion.htm)*\]* ) ...
 
 Alternatives:
 
@@ -24,11 +24,11 @@ Alternatives:
 
 Effect
 
-A non-table-like data object wa can be specified as a data source after the additions VALUES and FROM of the statement [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)). After FROM TABLE, an internal table itab can also be specified. Both data objects can be specified as [host variables](javascript:call_link\('abenopen_sql_host_variables.htm'\)) or [host expressions](javascript:call_link\('abenopen_sql_host_expressions.htm'\)). The contents of the row(s) to be inserted are taken from these data objects. The escape character @ should precede the work area name or the internal table name (as should be the case with every [host variable](javascript:call_link\('abenopen_sql_host_variables.htm'\))).
+A non-table-like data object wa can be specified as a data source after the additions VALUES and FROM of the statement [INSERT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab.htm). After FROM TABLE, an internal table itab can also be specified. Both data objects can be specified as [host variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_variables.htm) or [host expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_expressions.htm). The contents of the row(s) to be inserted are taken from these data objects. The escape character @ should precede the work area name or the internal table name (as should be the case with every [host variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_variables.htm)).
 
 Note
 
-Host variables without the escape character @ are [obsolete](javascript:call_link\('abenopen_sql_hostvar_obsolete.htm'\)). The escape character @ must be specified in the [strict modes](javascript:call_link\('abenopensql_strict_modes.htm'\)) of the syntax check from Release 7.40, SP05.
+Host variables without the escape character @ are [obsolete](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_hostvar_obsolete.htm). The escape character @ must be specified in the [strict modes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_strict_modes.htm) of the syntax check from Release 7.40, SP05.
 
 Alternative 1
 
@@ -36,26 +36,26 @@ Alternative 1
 
 Effect
 
-After [VALUES](javascript:call_link\('abapinsert_dbtab.htm'\)) and [FROM](javascript:call_link\('abapinsert_dbtab.htm'\)), a non-table-like work area wa can be specified (as a [host variable](javascript:call_link\('abenopen_sql_host_variables.htm'\)) or [host expression](javascript:call_link\('abenopen_sql_host_expressions.htm'\))), from whose content a row is created for insertion in the database table. The work area must meet the [prerequisites](javascript:call_link\('abenopen_sql_wa.htm'\)) for use in Open SQL statements.
+After [VALUES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab.htm) and [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab.htm), a non-table-like work area wa can be specified (as a [host variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_variables.htm) or [host expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_expressions.htm)), from whose content a row is created for insertion in the database table. The work area must meet the [prerequisites](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_wa.htm) for use in Open SQL statements.
 
--   When specifying a work area that does not contain any reference variables for [LOB Handles](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry"), the content of the row to be added is taken from the work area wa while ignoring its data type and without converting it from left to right in accordance with the structure of the database table or the [view](javascript:call_link\('abenview_glosry.htm'\) "Glossary Entry").
+-   When specifying a work area that does not contain any reference variables for [LOB Handles](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_glosry.htm "Glossary Entry"), the content of the row to be added is taken from the work area wa while ignoring its data type and without converting it from left to right in accordance with the structure of the database table or the [view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenview_glosry.htm "Glossary Entry").
     
--   When a [LOB handle structure](javascript:call_link\('abenlob_handle_structure_glosry.htm'\) "Glossary Entry") is specified, it must be constructed (in accordance with the [prerequisites](javascript:call_link\('abenopen_sql_wa.htm'\))) exactly like the structure of the database table. The components of the work area that are not [LOB Handle components](javascript:call_link\('abenlob_handle_component_glosry.htm'\) "Glossary Entry") are assigned directly to the corresponding columns of the new row. In the case of a LOB handle component of a reader stream type, this type is created. In this case of a type for a locator: this must exist and is used as a source. For details, see [LOB handles](javascript:call_link\('abeninsert_update_modify_lob.htm'\)).
+-   When a [LOB handle structure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_structure_glosry.htm "Glossary Entry") is specified, it must be constructed (in accordance with the [prerequisites](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_wa.htm)) exactly like the structure of the database table. The components of the work area that are not [LOB Handle components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_component_glosry.htm "Glossary Entry") are assigned directly to the corresponding columns of the new row. In the case of a LOB handle component of a reader stream type, this type is created. In this case of a type for a locator: this must exist and is used as a source. For details, see [LOB handles](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninsert_update_modify_lob.htm).
     
 
-The new row is inserted in the database table if this does not already contain a row with the same [primary key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") or the same unique secondary index. If it does, the row is not inserted and sy-subrc is set to 4.
+The new row is inserted in the database table if this does not already contain a row with the same [primary key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_key_glosry.htm "Glossary Entry") or the same unique secondary index. If it does, the row is not inserted and sy-subrc is set to 4.
 
-If a view is specified in [target](javascript:call_link\('abapinsert_target.htm'\)) that does not include all columns in the database table, these are set to the type-dependent [initial value](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry") or to the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") in the inserted rows. The latter applies only if, for the columns of the database table in question, the attribute [NOT NULL](javascript:call_link\('abenddic_database_tables_init.htm'\)) is not selected in the database.
+If a view is specified in [target](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_target.htm) that does not include all columns in the database table, these are set to the type-dependent [initial value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninitial_value_glosry.htm "Glossary Entry") or to the [null value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennull_value_glosry.htm "Glossary Entry") in the inserted rows. The latter applies only if, for the columns of the database table in question, the attribute [NOT NULL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_init.htm) is not selected in the database.
 
-By default, an automatic client handling is performed, which means that any [client identifier](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") specified in wa is ignored and the current client is used instead. This is ignored by wa. Automatic client handling can be switched off using the addition [CLIENT SPECIFIED](javascript:call_link\('abapinsert_target.htm'\)).
+By default, an automatic client handling is performed, which means that any [client identifier](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_identifier_glosry.htm "Glossary Entry") specified in wa is ignored and the current client is used instead. This is ignored by wa. Automatic client handling can be switched off using the addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_target.htm).
 
 Notes
 
--   The work area wa should always be declared in relation to the database table or the view in ABAP Dictionary. For the derivation of [LOB handle structures](javascript:call_link\('abenlob_handle_structure_glosry.htm'\) "Glossary Entry"), there are special [additions](javascript:call_link\('abaptypes_lob_handle.htm'\)) of the statements TYPES and *\[*CLASS-*\]*DATA.
+-   The work area wa should always be declared in relation to the database table or the view in ABAP Dictionary. For the derivation of [LOB handle structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_structure_glosry.htm "Glossary Entry"), there are special [additions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_lob_handle.htm) of the statements TYPES and *\[*CLASS-*\]*DATA.
     
--   If a [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") is specified as a [host expression](javascript:call_link\('abenopen_sql_host_expressions.htm'\)) for the work area wa, for which the data type is inferred using the # character, a structure consisting of all the database table columns is created as the type.
+-   If a [constructor expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") is specified as a [host expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_expressions.htm) for the work area wa, for which the data type is inferred using the # character, a structure consisting of all the database table columns is created as the type.
     
--   If the database table or the view is specified statically, an obsolete [short form](javascript:call_link\('abapinsert_obsolete.htm'\)) of the specification outside of classes is possible. This means that the specification of the work area using FROM wa in the variant without INTO can be omitted. The prerequisite is that a [table work area](javascript:call_link\('abentable_work_area_glosry.htm'\) "Glossary Entry") dbtab for the respective database table or the view is declared using the statement TABLES. The runtime environment then adds the addition FROM dbtab to the statement INSERT implicitly.
+-   If the database table or the view is specified statically, an obsolete [short form](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_obsolete.htm) of the specification outside of classes is possible. This means that the specification of the work area using FROM wa in the variant without INTO can be omitted. The prerequisite is that a [table work area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_work_area_glosry.htm "Glossary Entry") dbtab for the respective database table or the view is declared using the statement TABLES. The runtime environment then adds the addition FROM dbtab to the statement INSERT implicitly.
     
 
 Example
@@ -72,7 +72,7 @@ INSERT INTO scarr VALUES @scarr\_wa.
 
 Example
 
-Inserts a new airline into the database table SCARR with the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) in a [host expression](javascript:call_link\('abenopen_sql_host_expressions.htm'\)).
+Inserts a new airline into the database table SCARR with the value operator [VALUE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_value.htm) in a [host expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_expressions.htm).
 
 INSERT INTO scarr VALUES @( VALUE #(
   carrid   = 'FF'
@@ -86,11 +86,11 @@ Alternative 2
 
 Effect
 
-An internal table itab can be specified as a [host variable](javascript:call_link\('abenopen_sql_host_variables.htm'\)) or [host expression](javascript:call_link\('abenopen_sql_host_expressions.htm'\)) after [FROM](javascript:call_link\('abapinsert_dbtab.htm'\)) and TABLE, from whose content multiple rows are created for insertion in the database table. The row type of the internal table must meet the [prerequisites](javascript:call_link\('abenopen_sql_wa.htm'\)) for use in Open SQL statements.
+An internal table itab can be specified as a [host variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_variables.htm) or [host expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_expressions.htm) after [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab.htm) and TABLE, from whose content multiple rows are created for insertion in the database table. The row type of the internal table must meet the [prerequisites](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_wa.htm) for use in Open SQL statements.
 
-The content of each row of the internal table is composed using the same rules as for a single work area wa with the exception that when inserting from an internal table [locators](javascript:call_link\('abenlocator_glosry.htm'\) "Glossary Entry") operate as the source but no [writer streams](javascript:call_link\('abenwriter_stream_glosry.htm'\) "Glossary Entry") can be created.
+The content of each row of the internal table is composed using the same rules as for a single work area wa with the exception that when inserting from an internal table [locators](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocator_glosry.htm "Glossary Entry") operate as the source but no [writer streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwriter_stream_glosry.htm "Glossary Entry") can be created.
 
-If no row with the same [primary key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") or with the same unique secondary index exists in the database table for any of the rows to be inserted, all rows are inserted and sy-subrc is set to 0. If the internal table is empty, no rows are inserted. However sy-subrc is still set to 0. The system field sy-dbcnt is set to the number of rows that are inserted.
+If no row with the same [primary key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_key_glosry.htm "Glossary Entry") or with the same unique secondary index exists in the database table for any of the rows to be inserted, all rows are inserted and sy-subrc is set to 0. If the internal table is empty, no rows are inserted. However sy-subrc is still set to 0. The system field sy-dbcnt is set to the number of rows that are inserted.
 
 If a row with the same primary key or the same unique secondary index exists in the database table for one or more of the rows to be inserted, these rows cannot be inserted. In this situation, there are the following options:
 
@@ -105,23 +105,23 @@ If a row with the same primary key or the same unique secondary index exists in 
     
 
 -   No handling of the exception CX\_SY\_OPEN\_SQL\_DB
-    If the addition ACCEPTING DUPLICATE KEYS is not specified and if the exception is not handled, a runtime error occurs when a duplicate row is inserted. This executes a [database rollback](javascript:call_link\('abendb_rollback.htm'\)) that rolls back all changes to the current [database LUW](javascript:call_link\('abendb_transaction.htm'\)). This applies in particular to rows that were inserted before the duplicate entry was made.
+    If the addition ACCEPTING DUPLICATE KEYS is not specified and if the exception is not handled, a runtime error occurs when a duplicate row is inserted. This executes a [database rollback](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendb_rollback.htm) that rolls back all changes to the current [database LUW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendb_transaction.htm). This applies in particular to rows that were inserted before the duplicate entry was made.
     
 
 Notes
 
--   The addition ACCEPTING DUPLICATE KEYS does not indicate that duplicate key entries are accepted in the strict sense of the word. More specifically, no change is made to an existing entry as is the case when [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)) is used. Instead, ACCEPTING DUPLICATE KEYS prevents the associated exception from being raised and sets the return code sy-subrc to 4.
+-   The addition ACCEPTING DUPLICATE KEYS does not indicate that duplicate key entries are accepted in the strict sense of the word. More specifically, no change is made to an existing entry as is the case when [MODIFY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_dbtab.htm) is used. Instead, ACCEPTING DUPLICATE KEYS prevents the associated exception from being raised and sets the return code sy-subrc to 4.
     
 -   If the runtime error produced by inserting existing rows is prevented by handling an exception, a program-driven database rollback must be initiated, instead of using the addition ACCEPTING DUPLICATE KEYS.
     
 -   When an internal table is used, package by package processing makes only some of the rows being inserted visible to any reads running in parallel with the INSERT.
     
--   If a [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") as a [host expression](javascript:call_link\('abenopen_sql_host_expressions.htm'\)) is specified as an internal table itab, for which the data type is inferred using the # character, a structured standard table (whose row type consists of all the database table columns) with an empty table key is created as the type.
+-   If a [constructor expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") as a [host expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_expressions.htm) is specified as an internal table itab, for which the data type is inferred using the # character, a structured standard table (whose row type consists of all the database table columns) with an empty table key is created as the type.
     
 
 Example
 
-Inserts multiple rows in a [host expression](javascript:call_link\('abenopen_sql_host_expressions.htm'\)) using the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)). This example shows the two ways of dealing with duplicate rows.
+Inserts multiple rows in a [host expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_expressions.htm) using the value operator [VALUE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_value.htm). This example shows the two ways of dealing with duplicate rows.
 
 TRY.
     INSERT scarr FROM TABLE @( VALUE #(
@@ -155,44 +155,44 @@ Alternative 3
 
 Effect
 
-A parenthesized [subquery](javascript:call_link\('abensubquery_glosry.htm'\) "Glossary Entry") can be specified as a data source after [FROM](javascript:call_link\('abapinsert_dbtab.htm'\)). The lines of the result set of a subquery are inserted, which is defined by the corresponding clauses [subquery\_clauses](javascript:call_link\('abapinsert_from_select.htm'\)). The language element [UNION](javascript:call_link\('abapunion.htm'\)) can be used to combine the result sets of multiple subqueries. In this case, special rules [query\_clauses](javascript:call_link\('abapunion_clause.htm'\)) apply for specifying clauses.
+A parenthesized [subquery](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubquery_glosry.htm "Glossary Entry") can be specified as a data source after [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab.htm). The lines of the result set of a subquery are inserted, which is defined by the corresponding clauses [subquery\_clauses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_from_select.htm). The language element [UNION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapunion.htm) can be used to combine the result sets of multiple subqueries. In this case, special rules [query\_clauses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapunion_clause.htm) apply for specifying clauses.
 
-If a subquery is used as a data source, automatic [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") in the INSERT statement cannot be deactivated using the addition [CLIENT SPECIFIED](javascript:call_link\('abapinsert_target.htm'\)). The client column of a client-specific database table or classic view filled using the INSERT statement is filled with the ID of the current client or the client specified using [USING CLIENT](javascript:call_link\('abapinsert_target.htm'\)), regardless of the results set of the subquery.
+If a subquery is used as a data source, automatic [client handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_handling_glosry.htm "Glossary Entry") in the INSERT statement cannot be deactivated using the addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_target.htm). The client column of a client-specific database table or classic view filled using the INSERT statement is filled with the ID of the current client or the client specified using [USING CLIENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_target.htm), regardless of the results set of the subquery.
 
-The data from the results set is inserted into the database table or classic view in question column by column in the database system. Columns are assigned using their position. The columns names in the result set are not important for assignment purposes. The columns assigned to each other must have the same type attributes with respect to [built-in data type](javascript:call_link\('abenddic_builtin_types.htm'\)), length, and number of digits after the decimal point, with the following exceptions:
+The data from the results set is inserted into the database table or classic view in question column by column in the database system. Columns are assigned using their position. The columns names in the result set are not important for assignment purposes. The columns assigned to each other must have the same type attributes with respect to [built-in data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), length, and number of digits after the decimal point, with the following exceptions:
 
--   In the case of the numeric types [INT1](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)), and [INT8](javascript:call_link\('abenddic_builtin_types.htm'\)), columns with a lesser value range can be assigned to a column with a greater value range.
+-   In the case of the numeric types [INT1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), and [INT8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), columns with a lesser value range can be assigned to a column with a greater value range.
     
--   In the case of the numeric type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)), columns with shorter lengths can be assigned to columns with greater lengths. Furthermore, columns with fewer decimal places can be assigned to columns with more decimal places, as long as there are enough integer digits. The corresponding special types [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)) and [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)) are handled here like [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)).
+-   In the case of the numeric type [DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), columns with shorter lengths can be assigned to columns with greater lengths. Furthermore, columns with fewer decimal places can be assigned to columns with more decimal places, as long as there are enough integer digits. The corresponding special types [CURR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) and [QUAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) are handled here like [DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm).
     
--   The numeric types [DF16\_DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) and [DF34\_DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) are handled like the numbers of type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) (as they are saved) and the rule above applies with respect to lengths and decimal places.
+-   The numeric types [DF16\_DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) and [DF34\_DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) are handled like the numbers of type [DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) (as they are saved) and the rule above applies with respect to lengths and decimal places.
     
--   In the case of the character-like type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)), columns with shorter lengths can be assigned to columns with greater lengths. The corresponding special types [CLNT](javascript:call_link\('abenddic_builtin_types.htm'\)), [LANG](javascript:call_link\('abenddic_builtin_types.htm'\)), [CUKY](javascript:call_link\('abenddic_builtin_types.htm'\)), and [UNIT](javascript:call_link\('abenddic_builtin_types.htm'\)) are handled here like [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)).
+-   In the case of the character-like type [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), columns with shorter lengths can be assigned to columns with greater lengths. The corresponding special types [CLNT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [LANG](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CUKY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), and [UNIT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) are handled here like [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm).
     
 
-All other types must be exactly the same. This applies specifically to [NUMC](javascript:call_link\('abenddic_builtin_types.htm'\)) and [RAW](javascript:call_link\('abenddic_builtin_types.htm'\)), where the lengths must match. The different categories of [strings](javascript:call_link\('abenddic_character_byte_types.htm'\)) cannot be combined either.
+All other types must be exactly the same. This applies specifically to [NUMC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) and [RAW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), where the lengths must match. The different categories of [strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_character_byte_types.htm) cannot be combined either.
 
-The statement INSERT with subquery does not insert any [null values](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") into the database table or classic view in question. Null values for insertion can be produced in the following cases:
+The statement INSERT with subquery does not insert any [null values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennull_value_glosry.htm "Glossary Entry") into the database table or classic view in question. Null values for insertion can be produced in the following cases:
 
--   As results of [outer joins](javascript:call_link\('abapselect_join.htm'\)) in the FORM clause of the subquery
+-   As results of [outer joins](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_join.htm) in the FORM clause of the subquery
     
--   As results of [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) in the SELECT list of the subquery
+-   As results of [SQL expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm) in the SELECT list of the subquery
     
 -   If a field read by the subquery already contains a null value
     
 
 In these cases, the following is done instead of inserting a null value:
 
--   The [type-dependent initial value](javascript:call_link\('abenddic_builtin_types.htm'\)) is inserted for columns that are not [key fields](javascript:call_link\('abenkey_field_glosry.htm'\) "Glossary Entry") of the database table or classic view in question.
+-   The [type-dependent initial value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) is inserted for columns that are not [key fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkey_field_glosry.htm "Glossary Entry") of the database table or classic view in question.
     
--   An exception that can be caught using the exception class CX\_SY\_OPEN\_SQL\_DB is raised in the case of columns that are [key fields](javascript:call_link\('abenkey_field_glosry.htm'\) "Glossary Entry") of the database table or classic view in question. If it is statically identifiable that null values can be inserted into key fields, a syntax check warning that can be hidden by the pragma null\_values is produced.
+-   An exception that can be caught using the exception class CX\_SY\_OPEN\_SQL\_DB is raised in the case of columns that are [key fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkey_field_glosry.htm "Glossary Entry") of the database table or classic view in question. If it is statically identifiable that null values can be inserted into key fields, a syntax check warning that can be hidden by the pragma null\_values is produced.
     
 
 Columns of the database table or classic view in question that do not have a column in the results set of the subquery are also filled with their type-dependent initial value.
 
-If it was possible to insert all rows of the results set, sy-subrc is set to 0. If it was not possible to insert a row from the results set (since a row with the same [primary key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") or an identical unique secondary index exists), all previously inserted rows are discarded and a catchable exception of the class CX\_SY\_OPEN\_SQL\_DB is raised. If the results set of the subquery is empty, no row is inserted and sy-subrc is set to 4.
+If it was possible to insert all rows of the results set, sy-subrc is set to 0. If it was not possible to insert a row from the results set (since a row with the same [primary key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_key_glosry.htm "Glossary Entry") or an identical unique secondary index exists), all previously inserted rows are discarded and a catchable exception of the class CX\_SY\_OPEN\_SQL\_DB is raised. If the results set of the subquery is empty, no row is inserted and sy-subrc is set to 4.
 
-The statement INSERT with subquery cannot be used if [logging](javascript:call_link\('abenddic_database_tables_protocol.htm'\)) is enabled for the table in question, and hence the corresponding [technical attribute](javascript:call_link\('abenddic_database_tables_techspec.htm'\)) of the database table and the profile parameter rec/client are set accordingly. If used for a database table with logging enabled, the non-handleable exception DBSQL\_DBPRT\_STATEMENT is raised.
+The statement INSERT with subquery cannot be used if [logging](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_protocol.htm) is enabled for the table in question, and hence the corresponding [technical attribute](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_techspec.htm) of the database table and the profile parameter rec/client are set accordingly. If used for a database table with logging enabled, the non-handleable exception DBSQL\_DBPRT\_STATEMENT is raised.
 
 Notes
 
@@ -200,23 +200,23 @@ Notes
     
 -   Unlike when inserting rows from an internal table itab, the content of the modified table or classic view is always defined after the exception CX\_SY\_OPEN\_SQL\_DB is handled.
     
--   This variant of the INSERT statement is particularly well suited to filling [global temporary tables](javascript:call_link\('abenglobal_temporary_table_glosry.htm'\) "Glossary Entry").
+-   This variant of the INSERT statement is particularly well suited to filling [global temporary tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry").
     
--   In certain circumstances, [CAST expressions](javascript:call_link\('abensql_cast.htm'\)) can be used in the SELECT list of the subquery for combinations between columns forbidden by the rules above.
+-   In certain circumstances, [CAST expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_cast.htm) can be used in the SELECT list of the subquery for combinations between columns forbidden by the rules above.
     
--   A [SELECT list](javascript:call_link\('abapselect_list.htm'\)) of the subquery specified using \* ignores all client columns, which means that client-specific [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") whose results sets do not have a client column can be accessed without any problems.
+-   A [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) of the subquery specified using \* ignores all client columns, which means that client-specific [CDS entities](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_entity_glosry.htm "Glossary Entry") whose results sets do not have a client column can be accessed without any problems.
     
 -   Currently, only the data of a single client can be edited using INSERT and a subquery. More specifically, it is not possible to copy the data from one client to a different client.
     
--   Attempts to fill [key fields](javascript:call_link\('abenkey_field_glosry.htm'\) "Glossary Entry") with null values raise exceptions, which also prevents duplicate entries from being made in the table or classic view in question.
+-   Attempts to fill [key fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkey_field_glosry.htm "Glossary Entry") with null values raise exceptions, which also prevents duplicate entries from being made in the table or classic view in question.
     
 -   Database tables and views accessed using this variant of the INSERT statement should not be expanded independently from one another, to avoid syntax errors.
     
--   To avoid exceptions when performing writes to a database table with [logging](javascript:call_link\('abenddic_database_tables_protocol.htm'\)) enabled. the method IS\_LOGGING\_ON of the system class CL\_DBI\_UTILITIES can be used to branch to an alternative implementation.
+-   To avoid exceptions when performing writes to a database table with [logging](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_protocol.htm) enabled. the method IS\_LOGGING\_ON of the system class CL\_DBI\_UTILITIES can be used to branch to an alternative implementation.
     
--   Subqueries cannot be used when accessing [pooled tables](javascript:call_link\('abenpooled_table_glosry.htm'\) "Glossary Entry") or [cluster tables](javascript:call_link\('abencluster_table_glosry.htm'\) "Glossary Entry").
+-   Subqueries cannot be used when accessing [pooled tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpooled_table_glosry.htm "Glossary Entry") or [cluster tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencluster_table_glosry.htm "Glossary Entry").
     
--   When a subquery is used, the syntax check is performed in a [strict mode](javascript:call_link\('abenopensql_strict_mode_750.htm'\)), which handles the statement more strictly than the regular syntax check.
+-   When a subquery is used, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_strict_mode_750.htm), which handles the statement more strictly than the regular syntax check.
     
 
 Example
@@ -244,11 +244,11 @@ cl\_demo\_output=>display( result ).
 
 Executable Examples
 
--   [INSERT, FROM SELECT](javascript:call_link\('abeninsert_from_select_abexa.htm'\))
+-   [INSERT, FROM SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninsert_from_select_abexa.htm)
     
--   [Union with Global Temporary Table](javascript:call_link\('abenselect_union_sum_gtt_abexa.htm'\))
+-   [Union with Global Temporary Table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_union_sum_gtt_abexa.htm)
     
 
 Continue
-[INSERT dbtab - subquery\_clauses](javascript:call_link\('abapinsert_from_select.htm'\))
-![Example](exa.gif "Example") [INSERT, FROM SELECT](javascript:call_link\('abeninsert_from_select_abexa.htm'\))
+[INSERT dbtab - subquery\_clauses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_from_select.htm)
+![Example](exa.gif "Example") [INSERT, FROM SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninsert_from_select_abexa.htm)

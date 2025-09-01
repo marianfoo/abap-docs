@@ -4,42 +4,44 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Overview](javascript:call_link\('abenopen_sql_oview.htm'\)) →  [ABAP SQL - Release-Dependent Syntax Check Modes](javascript:call_link\('abenopensql_strict_modes.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_oview.htm) →  [ABAP SQL - Release-Dependent Syntax Check Modes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_modes.htm) → 
 
 Strict Mode in Release 7.52
 
--   [Conditions for the Strict Mode](#abenopensql-strict-mode-752-1--------rules-for-the-strict-mode---@ITOC@@ABENOPENSQL_STRICT_MODE_752_2)
+-   [Conditions for the Strict Mode](#@@ITOC@@ABENOPENSQL_STRICT_MODE_752_1)
+
+-   [Rules for the Strict Mode](#@@ITOC@@ABENOPENSQL_STRICT_MODE_752_2)
 
 Conditions for the Strict Mode
 
-The strict mode of the syntax check in Release 7.52 applies to all ABAP SQL statements that use one of the following attributes introduced in [Release 7.52](javascript:call_link\('abennews-752-open_sql.htm'\)):
+The strict mode of the syntax check in Release 7.52 applies to all ABAP SQL statements that use one of the following attributes introduced in [Release 7.52](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-752-open_sql.htm):
 
--   Use of ONE TO MANY in [LEFT OUTER JOIN](javascript:call_link\('abapselect_join.htm'\))
+-   Use of ONE TO MANY in [LEFT OUTER JOIN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_join.htm)
 
--   Use of the type conversion functions [BINTOHEX](javascript:call_link\('abensql_type_conv_func.htm'\)) and [HEXTOBIN](javascript:call_link\('abensql_type_conv_func.htm'\))
+-   Use of the type conversion functions [BINTOHEX](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_type_conv_func.htm) and [HEXTOBIN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_type_conv_func.htm)
 
--   Use of the addition [FOR ALL ENTRIES](javascript:call_link\('abenwhere_logexp_itab.htm'\)) of statement [SELECT](javascript:call_link\('abapselect.htm'\)) together with columns of the types STRING and RAWSTRING and also LCHR and LRAW in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) in a strict mode.
+-   Use of the addition [FOR ALL ENTRIES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_itab.htm) of statement [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm) together with columns of the types STRING and RAWSTRING and also LCHR and LRAW in the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm) in a strict mode.
 
--   Internal table as the data source [data\_source](javascript:call_link\('abapselect_data_source.htm'\)) of a query
+-   Internal table as the data source [data\_source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm) of a query
 
--   The following occurs in [path expressions](javascript:call_link\('abenopen_sql_path.htm'\)):
+-   The following occurs in [path expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path.htm):
 
--   Associations are used whose target data sources are [CDS table functions](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry").
+-   Associations are used whose target data sources are [CDS table functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_table_function_glosry.htm "Glossary Entry").
 
--   [Parameters](javascript:call_link\('abenopen_sql_parameters.htm'\)) are passed.
+-   [Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_parameters.htm) are passed.
 
--   The cardinality or the kind of the join expression are specified as [attributes](javascript:call_link\('abenopen_sql_path_filter.htm'\)).
+-   The cardinality or the kind of the join expression are specified as [attributes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path_filter.htm).
 
--   [Filter conditions](javascript:call_link\('abenopen_sql_path_filter.htm'\)) are specified.
+-   [Filter conditions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path_filter.htm) are specified.
 
--   [CDS access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry") is switched off by the addition [WITH PRIVILEGED ACCESS](javascript:call_link\('abapselect_data_source.htm'\)).
+-   [CDS access control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_access_control_glosry.htm "Glossary Entry") is switched off by the addition [WITH PRIVILEGED ACCESS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm).
 
 Rules for the Strict Mode
 
-The strict mode in Release 7.52 covers all rules of the [strict mode in Release 7.51](javascript:call_link\('abenopensql_strict_mode_751.htm'\)), plus the following rules:
+The strict mode in Release 7.52 covers all rules of the [strict mode in Release 7.51](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_mode_751.htm), plus the following rules:
 
--   A [path expression](javascript:call_link\('abenopen_sql_path.htm'\)) as a [data source](javascript:call_link\('abapselect_data_source.htm'\)) of a [FROM](javascript:call_link\('abapfrom_clause.htm'\)) clause must have an alternative table name defined with [AS](javascript:call_link\('abapfrom_clause.htm'\)).
+-   A [path expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path.htm) as a [data source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm) of a [FROM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfrom_clause.htm) clause must have an alternative table name defined with [AS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfrom_clause.htm).
 
--   The addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client.htm'\)) cannot be specified for a [data source](javascript:call_link\('abapselect_data_source.htm'\)) specified using a [path expression](javascript:call_link\('abenopen_sql_path.htm'\)).
+-   The addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_client.htm) cannot be specified for a [data source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm) specified using a [path expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path.htm).
 
--   When the addition [USING CLIENT](javascript:call_link\('abapselect_client.htm'\)) is used in a query that accesses a CDS entity, this access is known statically, and [CDS access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry") applies, a syntax error occurs.
+-   When the addition [USING CLIENT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_client.htm) is used in a query that accesses a CDS entity, this access is known statically, and [CDS access control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_access_control_glosry.htm "Glossary Entry") applies, a syntax error occurs.

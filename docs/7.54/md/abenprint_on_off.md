@@ -4,23 +4,23 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Spooling Lists](javascript:call_link\('abenprint.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint.htm) → 
 
 Switch Spooling On and Off
 
 As long as spooling is switched off, all list output is written to the list buffer for the current screen list. When spooling is switched on, a spool list is created. You can switch on spooling as follows:
 
--   Use statement [NEW-PAGE PRINT ON](javascript:call_link\('abapnew-page_print.htm'\)).
+-   Use statement [NEW-PAGE PRINT ON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnew-page_print.htm).
 
--   Choose function Execute + Print on the [standard selection screen](javascript:call_link\('abenstandard_selscreen_glosry.htm'\) "Glossary Entry") of an executable program.
+-   Choose function Execute + Print on the [standard selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_selscreen_glosry.htm "Glossary Entry") of an executable program.
 
--   Call an executable program with the addition [TO SAP-SPOOL](javascript:call_link\('abapsubmit_list_options.htm'\)) of statement [SUBMIT](javascript:call_link\('abapsubmit.htm'\)).
+-   Call an executable program with the addition [TO SAP-SPOOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_list_options.htm) of statement [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm).
 
--   Schedule an executable program in a background job using the additions [VIA JOB](javascript:call_link\('abapsubmit_via_job.htm'\)) and [TO SAP-SPOOL](javascript:call_link\('abapsubmit_list_options.htm'\)) of statement [SUBMIT](javascript:call_link\('abapsubmit.htm'\)).
+-   Schedule an executable program in a background job using the additions [VIA JOB](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_via_job.htm) and [TO SAP-SPOOL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_list_options.htm) of statement [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm).
 
-When using NEW-PAGE PRINT ON, spooling is explicitly switched on in the program. With the other three options, spooling is switched on from the beginning of executing an executable program. Switching on spooling opens a new [spool list level](javascript:call_link\('abenprint_list_level_glosry.htm'\) "Glossary Entry").
+When using NEW-PAGE PRINT ON, spooling is explicitly switched on in the program. With the other three options, spooling is switched on from the beginning of executing an executable program. Switching on spooling opens a new [spool list level](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprint_list_level_glosry.htm "Glossary Entry").
 
-Only the spooling switched on with NEW-PAGE PRINT ON can be switched off again using NEW-PAGE PRINT OFF. Spooling that is switched on at the start of a program, cannot be switched off within this same program. In particular, spooling is always switched on when executing a program in [background processing](javascript:call_link\('abenbackround_processing_glosry.htm'\) "Glossary Entry").
+Only the spooling switched on with NEW-PAGE PRINT ON can be switched off again using NEW-PAGE PRINT OFF. Spooling that is switched on at the start of a program, cannot be switched off within this same program. In particular, spooling is always switched on when executing a program in [background processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbackround_processing_glosry.htm "Glossary Entry").
 
 Examples
 

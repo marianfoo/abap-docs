@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 Numeric text
 
-[Character string](javascript:call_link\('abencharacter_string_1_glosry.htm'\) "Glossary Entry") consisting only of the digits 0 through 9. Valid content of a [numeric text field](javascript:call_link\('abennumeric_text_field_glosry.htm'\) "Glossary Entry").
+[Character string](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_string_1_glosry.htm "Glossary Entry") consisting only of the digits 0 through 9. Valid content of a [numeric text field](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_text_field_glosry.htm "Glossary Entry").

@@ -4,38 +4,38 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [PERFORM](javascript:call_link\('abapperform.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_procedures.htm) →  [PERFORM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapperform.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20PERFORM%2C%20general%2C%20ABAPPERFORM_GENERAL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 PERFORM, general
 
-[Short Reference](javascript:call_link\('abapperform_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapperform_shortref.htm)
 
 Syntax
 
-PERFORM [subr\_identifier](javascript:call_link\('abapperform_form.htm'\)) *\[* [parameter\_list](javascript:call_link\('abapperform_parameters.htm'\))*\]*.
+PERFORM [subr\_identifier](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapperform_form.htm) *\[* [parameter\_list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapperform_parameters.htm)*\]*.
 
 Effect
 
-This statement calls the subroutine specified with the name [subr\_identifier](javascript:call_link\('abapperform_form.htm'\)) and assigns the actual parameters specified in [parameter\_list](javascript:call_link\('abapperform_parameters.htm'\)) to the formal parameters of the subroutine.
+This statement calls the subroutine specified with the name [subr\_identifier](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapperform_form.htm) and assigns the actual parameters specified in [parameter\_list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapperform_parameters.htm) to the formal parameters of the subroutine.
 
 Hints
 
 -   Subroutines are obsolete. No new subroutines should be created in new programs. Subroutines that have been created in existing programs for internal modularization can continue to be called. Whenever possible, however, external subroutine calls from other programs should be avoided.
--   For more information about the behavior of class-based exceptions in subroutines, see [Class-Based Exceptions in Procedures](javascript:call_link\('abenexceptions_procedures.htm'\)).
+-   For more information about the behavior of class-based exceptions in subroutines, see [Class-Based Exceptions in Procedures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexceptions_procedures.htm).
 
 Example
 
 Old function modules such as GUI\_DOWNLOAD, whose function pools have not been switched to using local classes, still contain a large number of PERFORM statements.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
 CX\_SY\_NO\_HANDLER
 
--   See [Class-Based Exceptions in Procedures](javascript:call_link\('abenexceptions_procedures.htm'\)).
+-   See [Class-Based Exceptions in Procedures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexceptions_procedures.htm).
     Runtime error: UNCAUGHT\_EXCEPTION
 
 CX\_SY\_PROGRAM\_NOT\_FOUND
@@ -88,4 +88,4 @@ CX\_SY\_DYN\_CALL\_ILLEGAL\_TYPE
     Runtime error: PERFORM\_STD\_TAB\_REQUIRED
 
 Continue
-[PERFORM, subr\_identifier](javascript:call_link\('abapperform_form.htm'\))
+[PERFORM, subr\_identifier](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapperform_form.htm)

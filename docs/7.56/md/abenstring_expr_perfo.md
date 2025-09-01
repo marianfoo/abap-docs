@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Expressions (string\_exp)](javascript:call_link\('abapcompute_string.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_processing_expr_func.htm) →  [String Expressions (string\_exp)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_string.htm) → 
 
 string\_exp - Performance Note
 
-If on the right side of an [assignment](javascript:call_link\('abenequals_string_expr.htm'\)) strings in a [string expression](javascript:call_link\('abapcompute_string.htm'\)) are appended to a variable str with the type string specified on the left side of the assignment, the variable is used directly in the following cases without producing an interim result.
+If on the right side of an [assignment](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenequals_string_expr.htm) strings in a [string expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_string.htm) are appended to a variable str with the type string specified on the left side of the assignment, the variable is used directly in the following cases without producing an interim result.
 
 -   str &&= dobj1 && dobj2 && ... .
 -   str = |{ str }...{ dobj1 \[format\_options\] }...{ dobj2 \[format\_options\] }...|.
@@ -16,8 +16,8 @@ If on the right side of an [assignment](javascript:call_link\('abenequals_string
 The appended strings cannot be dependent on str for the compiler:
 
 -   The target field str can occur only once in the string expression, and only at the very beginning.
--   No formatting options can be used on str in a [string template](javascript:call_link\('abenstring_templates.htm'\)).
--   Only directly specified data objects dobj1, dobj2, ... and no other [expressions](javascript:call_link\('abenexpression_glosry.htm'\) "Glossary Entry") or [functions](javascript:call_link\('abenfunction_glosry.htm'\) "Glossary Entry") can be listed, even if they are not dependent on str.
+-   No formatting options can be used on str in a [string template](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_templates.htm).
+-   Only directly specified data objects dobj1, dobj2, ... and no other [expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexpression_glosry.htm "Glossary Entry") or [functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunction_glosry.htm "Glossary Entry") can be listed, even if they are not dependent on str.
 
 Optimization is therefore deactivated in the following cases:
 
@@ -59,7 +59,7 @@ html = html && \`</table></body></html>\`.
 
 Executable Example
 
-[Concatenating Strings](javascript:call_link\('abenstring_concatenation_abexa.htm'\))
+[Concatenating Strings](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_concatenation_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [string\_exp - Concatenating Strings](javascript:call_link\('abenstring_concatenation_abexa.htm'\))
+![Example](exa.gif "Example") [string\_exp - Concatenating Strings](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_concatenation_abexa.htm)

@@ -4,13 +4,13 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [Logical Databases - Statements](javascript:call_link\('abenldb_abap_statements.htm'\)) →  [Statements in Logical Databases](javascript:call_link\('abenldb_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (Obsolete)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb.htm) →  [Logical Databases - Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_abap_statements.htm) →  [Statements in Logical Databases](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_statements.htm) → 
 
 SELECTION-SCREEN - ldb\_options
 
 Obsolete Syntax Forms
 
-[Versions of the standard selection screen](javascript:call_link\('abapselection-screen_ldb_version.htm'\))
+[Versions of the standard selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_ldb_version.htm)
 1\. SELECTION-SCREEN BEGIN OF VERSION vers text.
   ...
   SELECTION-SCREEN EXCLUDE *{*PARAMETERS para*}*          
@@ -20,23 +20,23 @@ Obsolete Syntax Forms
                          *|* *{*IDS id*}*.
   ...
   SELECTION-SCREEN END OF VERSION vers.
-[Nodes for field selections](javascript:call_link\('abapselection-screen_ldb_field.htm'\))
+[Nodes for field selections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_ldb_field.htm)
 2\. SELECTION-SCREEN FIELD SELECTION
                    FOR *{*NODE*|*TABLE*}* node *\[*ID id*\]*.
-[Nodes for free selections](javascript:call_link\('abapselection-screen_ldb_dynamic.htm'\))
+[Nodes for free selections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_ldb_dynamic.htm)
 3\. SELECTION-SCREEN DYNAMIC SELECTIONS
                    FOR *{*NODE*|*TABLE*}* node *\[*ID id*\]*.
 
 Effect
 
-These variants of the command [SELECTION-SCREEN](javascript:call_link\('abapselection-screen.htm'\)) are intended specially for use in a logical database and can only be specified in the [selection include](javascript:call_link\('abenldb_statements.htm'\)).
+These variants of the command [SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen.htm) are intended specially for use in a logical database and can only be specified in the [selection include](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenldb_statements.htm).
 
 Note
 
 If logical databases are no longer created, these variants no longer need to be used.
 
 Continue
-[SELECTION-SCREEN BEGIN OF VERSION](javascript:call_link\('abapselection-screen_ldb_version.htm'\))
-[SELECTION-SCREEN FIELD SELECTION](javascript:call_link\('abapselection-screen_ldb_field.htm'\))
-[SELECTION-SCREEN DYNAMIC SELECTIONS](javascript:call_link\('abapselection-screen_ldb_dynamic.htm'\))
-[SELECTION-SCREEN - ldb\_additions](javascript:call_link\('abapselection-screen_ldb_additions.htm'\))
+[SELECTION-SCREEN BEGIN OF VERSION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_ldb_version.htm)
+[SELECTION-SCREEN FIELD SELECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_ldb_field.htm)
+[SELECTION-SCREEN DYNAMIC SELECTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_ldb_dynamic.htm)
+[SELECTION-SCREEN - ldb\_additions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_ldb_additions.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Alternative Spellings](javascript:call_link\('abenalternative_spelling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_style_gdl.htm) →  [Alternative Spellings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenalternative_spelling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Chained Statements, ABENCHAINED_STATEMENTS_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0
 D%0A%0D%0ASuggestion for improvement:)
@@ -23,11 +23,11 @@ Use chained statements mainly for declarations. They should always be used for r
 
 Details   
 
-The main motivation for using chained statements is to increase the readability of programs. Using chained statements correctly in declarations achieves this goal. In other statements, chained statements can actually decrease the readability or, in the worst case, result in incorrect program behavior. When using chained statements, only [one statement at most should be specified per program line](javascript:call_link\('abenstatement_guidl.htm'\) "Guideline"). Never span [expressions](javascript:call_link\('abenexpression_glosry.htm'\) "Glossary Entry") or functional calls across multiple parts of chained statements.
+The main motivation for using chained statements is to increase the readability of programs. Using chained statements correctly in declarations achieves this goal. In other statements, chained statements can actually decrease the readability or, in the worst case, result in incorrect program behavior. When using chained statements, only [one statement at most should be specified per program line](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatement_guidl.htm "Guideline"). Never span [expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpression_glosry.htm "Glossary Entry") or functional calls across multiple parts of chained statements.
 
 Declarations
 
-In complex declarations, chained statements can be used to improve readability. (However, if local declarations are too complex, this suggests an [insufficient separation of tasks](javascript:call_link\('abenproc_volume_guidl.htm'\) "Guideline"), and should not occur.) In particular, multiple chained statements can be used to group related declarations:
+In complex declarations, chained statements can be used to improve readability. (However, if local declarations are too complex, this suggests an [insufficient separation of tasks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenproc_volume_guidl.htm "Guideline"), and should not occur.) In particular, multiple chained statements can be used to group related declarations:
 
 DATA:
    airplane            TYPE REF TO cl\_airplane,
@@ -46,7 +46,7 @@ TYPES:
      creation\_date TYPE timestamp,
    END OF file.
 
-For structures that copy components of another structure using the statements INCLUDE TYPE or INCLUDE STRUCTURE, this procedure cannot be used consistently because the beginning of the statement is different and therefore the chained statement must be interrupted. In any case, we [no longer recommend](javascript:call_link\('abenincluding_structures_guidl.htm'\) "Guideline") using the statement INCLUDE.
+For structures that copy components of another structure using the statements INCLUDE TYPE or INCLUDE STRUCTURE, this procedure cannot be used consistently because the beginning of the statement is different and therefore the chained statement must be interrupted. In any case, we [no longer recommend](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenincluding_structures_guidl.htm "Guideline") using the statement INCLUDE.
 
 Operational Statements
 
@@ -61,7 +61,7 @@ meth EXPORTING para = '1',
 meth EXPORTING para = '2',
 meth EXPORTING para = '3'.
 
-However, in this case the best [notation](javascript:call_link\('abenmethod_call_guidl.htm'\) "Guideline") can manage without a chained statement anyway:
+However, in this case the best [notation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethod_call_guidl.htm "Guideline") can manage without a chained statement anyway:
 
 meth( '1' ).
 meth( '2' ).
@@ -108,7 +108,7 @@ is not equivalent to the more probable
 
 WHEN a OR b OR c.
 
-The [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline") warns of empty statement blocks after CATCH and WHEN. In this way, the extended program check can be used to uncover where chained statements have been misused within TRY and CASE control structures.
+The [extended program check](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextended_program_check_guidl.htm "Guideline") warns of empty statement blocks after CATCH and WHEN. In this way, the extended program check can be used to uncover where chained statements have been misused within TRY and CASE control structures.
 
 Another example in which the use of chained statements can cause problems are ABAP SQL statements. Here are two examples:
 

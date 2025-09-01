@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  A
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_shortref.htm) →  A
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ASSIGN%2C%20ABAPASSIGN_SHORTREF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ASSIGN - Short Reference
 
-[Reference](javascript:call_link\('abapassign.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign.htm)
 
 Syntax
 
@@ -40,36 +40,36 @@ Additions  
 
 Specifies the memory area:
 
--   [dobj*\[*+off*\]**\[*(len)*\]*](javascript:call_link\('abapassign_mem_area_static_dobj.htm'\)) - Data object dobj or its subarea off(len).
--   [(name)](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)) - Data object contained in name.
--   [TABLE FIELD](javascript:call_link\('abapassign_table_field.htm'\)) - Obsolete: Restricts the search for the data object (contained in name) to [interface work areas](javascript:call_link\('abeninterface_work_area_glosry.htm'\) "Glossary Entry") declared using the TABLES statement.
--   [dref->\*](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)) - dereferenced reference variable.
--   [dobj INCREMENT inc](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)) - Area that is incremented inc times by the length of dobj.
--   [COMPONENT comp OF STRUCTURE struct](javascript:call_link\('abapassign_dynamic_components.htm'\)) - Component comp of a structure struc.
--   [oref->(attr\_name)](javascript:call_link\('abapassign_mem_area_dynamic_access.htm'\)) - Attribute of an object referenced by oref, specified in attr\_name.
--   [class*|*(class\_name)=>attr*|*(attr\_name)](javascript:call_link\('abapassign_mem_area_dynamic_access.htm'\)) - [Static attribute](javascript:call_link\('abenstatic_attribute_glosry.htm'\) "Glossary Entry") attr of the class class, where the attribute and class can also be specified as the content of attr\_name and class\_name.
--   [writable\_exp](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)) - [Writable expression](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry").
+-   [dobj*\[*+off*\]**\[*(len)*\]*](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_mem_area_static_dobj.htm) - Data object dobj or its subarea off(len).
+-   [(name)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_mem_area_dynamic_dobj.htm) - Data object contained in name.
+-   [TABLE FIELD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_table_field.htm) - Obsolete: Restricts the search for the data object (contained in name) to [interface work areas](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_work_area_glosry.htm "Glossary Entry") declared using the TABLES statement.
+-   [dref->\*](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_mem_area_dynamic_dobj.htm) - dereferenced reference variable.
+-   [dobj INCREMENT inc](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_mem_area_dynamic_dobj.htm) - Area that is incremented inc times by the length of dobj.
+-   [COMPONENT comp OF STRUCTURE struct](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_dynamic_components.htm) - Component comp of a structure struc.
+-   [oref->(attr\_name)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_mem_area_dynamic_access.htm) - Attribute of an object referenced by oref, specified in attr\_name.
+-   [class*|*(class\_name)=>attr*|*(attr\_name)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_mem_area_dynamic_access.htm) - [Static attribute](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_attribute_glosry.htm "Glossary Entry") attr of the class class, where the attribute and class can also be specified as the content of attr\_name and class\_name.
+-   [writable\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_mem_area_writable_exp.htm) - [Writable expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwritable_expression_glosry.htm "Glossary Entry").
     
 
 Specifies the data type:
 
--   [CASTING](javascript:call_link\('abapassign_casting.htm'\))
+-   [CASTING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_casting.htm)
     Specifies the data type used to handle the memory area:
-    [TYPE type*|*(name)](javascript:call_link\('abapassign_casting.htm'\)) - Data type type, which can also be specified as the content of name.
-    [LIKE dobj](javascript:call_link\('abapassign_casting.htm'\)) - Data type of data object dobj.
-    [*\[*TYPE p*\]* DECIMALS dec](javascript:call_link\('abapassign_casting.htm'\)) - Data type p, with [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") specified in dec.
-    [TYPE HANDLE handle](javascript:call_link\('abapassign_casting.htm'\)) - Data type described by the [type description object](javascript:call_link\('abentype_object_glosry.htm'\) "Glossary Entry") of [RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry") that handle points to.
--   [*\[*TYPE name*\]* DECIMALS dec](javascript:call_link\('abapassign_casting_obsolete.htm'\))
-    Obsolete: [Casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry") to an elementary ABAP type in name or to the decimal places in dec.
+    [TYPE type*|*(name)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_casting.htm) - Data type type, which can also be specified as the content of name.
+    [LIKE dobj](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_casting.htm) - Data type of data object dobj.
+    [*\[*TYPE p*\]* DECIMALS dec](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_casting.htm) - Data type p, with [decimal places](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecimal_place_glosry.htm "Glossary Entry") specified in dec.
+    [TYPE HANDLE handle](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_casting.htm) - Data type described by the [type description object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_object_glosry.htm "Glossary Entry") of [RTTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry") that handle points to.
+-   [*\[*TYPE name*\]* DECIMALS dec](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_casting_obsolete.htm)
+    Obsolete: [Casting](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencast_casting_glosry.htm "Glossary Entry") to an elementary ABAP type in name or to the decimal places in dec.
     
 
 Restricts the memory area:
 
--   [RANGE range](javascript:call_link\('abapassign_range.htm'\))
+-   [RANGE range](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_range.htm)
     Restricts the assignable memory area to the data object range.
     
 
 Unassigns the field symbol:
 
--   [ELSE UNASSIGN](javascript:call_link\('abapassign_else_unassign.htm'\))
+-   [ELSE UNASSIGN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_else_unassign.htm)
     Unassigns the field symbol in case sy-subrc is not initial.

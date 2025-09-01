@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types](javascript:call_link\('abentypes_statements.htm'\)) →  [TYPES](javascript:call_link\('abaptypes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_declarations.htm) →  [Data Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_statements.htm) →  [TYPES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20TYPES%2C%20BEGIN%20OF%20ENUM%20enum_type%2C%20ABAPTYPES_ENUM%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 TYPES, BEGIN OF ENUM enum\_type
 
-[Short Reference](javascript:call_link\('abaptypes_begin_of_enum_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_begin_of_enum_shortref.htm)
 
 Syntax
 
@@ -32,7 +32,7 @@ Additions:
 
 Effect
 
-Definition of an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") enum\_type. An enumerated type describes [enumerated variables](javascript:call_link\('abenenumerated_variable_glosry.htm'\) "Glossary Entry"), that is, elementary data objects that can only have certain [enumerated values](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry"). These values are defined in the form of [enumerated constants](javascript:call_link\('abenenumerated_constant_glosry.htm'\) "Glossary Entry") val1, val2, ... in the definition of the enumerated type as its value set. Enumerated variables and enumerated constants are both [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry").
+Definition of an [enumerated type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_type_glosry.htm "Glossary Entry") enum\_type. An enumerated type describes [enumerated variables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_variable_glosry.htm "Glossary Entry"), that is, elementary data objects that can only have certain [enumerated values](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_value_glosry.htm "Glossary Entry"). These values are defined in the form of [enumerated constants](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_constant_glosry.htm "Glossary Entry") val1, val2, ... in the definition of the enumerated type as its value set. Enumerated variables and enumerated constants are both [enumerated objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_object_glosry.htm "Glossary Entry").
 
 The statements for defining an enumerated type are introduced with a TYPES BEGIN OF ENUM statement and end with a TYPES END OF ENUM statement. Between these are TYPES statements for defining the value set of the enumerated type. At least one enumerated value must be defined. No other statements are allowed.
 
@@ -40,22 +40,22 @@ The definition of an enumerated type includes:
 
 -   Name enum\_type.
     
-    The enumerated type, like any data type defined with TYPES, can be used with its name enum\_type, for example, after a TYPE addition or in suitable [constructor expressions](javascript:call_link\('abenconstructor_expressions.htm'\)). It acts as a complete type in [typing](javascript:call_link\('abentyping.htm'\)) of field symbols or actual parameters.
+    The enumerated type, like any data type defined with TYPES, can be used with its name enum\_type, for example, after a TYPE addition or in suitable [constructor expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expressions.htm). It acts as a complete type in [typing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping.htm) of field symbols or actual parameters.
     
 -   Base type
     
-    The [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") determines the data type of the enumerated constants in the value set of the enumerated type and the technical type of enumerated variables.
+    The [base type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbase_type_glosry.htm "Glossary Entry") determines the data type of the enumerated constants in the value set of the enumerated type and the technical type of enumerated variables.
     
     -   If the BASE TYPE addition is not specified, the default base type is i.
-    -   The BASE TYPE addition can be used to explicitly define the base type; all flat elementary data types, including [CDS simple types](javascript:call_link\('abencds_simple_type_glosry.htm'\) "Glossary Entry"), that are no longer than 16 bytes can be specified for dtype.
+    -   The BASE TYPE addition can be used to explicitly define the base type; all flat elementary data types, including [CDS simple types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_type_glosry.htm "Glossary Entry"), that are no longer than 16 bytes can be specified for dtype.
 -   Enumerated constants
     
-    Each enumerated value val1, val2, ... is declared by a separate TYPES statement. However, it does not define a data type, and an enumerated constant that contains the enumerated value is defined instead. The data type of each constant is the enumerated type enum. The technical data type for the enumerated value is the base type. Each name val1, val2, ... must adhere strictly to the [naming conventions](javascript:call_link\('abennaming_conventions.htm'\)).
+    Each enumerated value val1, val2, ... is declared by a separate TYPES statement. However, it does not define a data type, and an enumerated constant that contains the enumerated value is defined instead. The data type of each constant is the enumerated type enum. The technical data type for the enumerated value is the base type. Each name val1, val2, ... must adhere strictly to the [naming conventions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennaming_conventions.htm).
     
     -   If the STRUCTURE addition is not specified, each enumerated constant is a separate data object with the respective name val1, val2, .... The enumerated constants are declared in the namespace and validity area of the current context (procedure, class, program), and each name must be unique within the enumerated type as well as in the entire current context.
-    -   The STRUCTURE addition creates a constant structure struc with the components val1, val2, ... as an [enumerated structure](javascript:call_link\('abenenumerated_structure_glosry.htm'\) "Glossary Entry") in the current context. The enumerated values are stored in the components of this structure.
+    -   The STRUCTURE addition creates a constant structure struc with the components val1, val2, ... as an [enumerated structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_structure_glosry.htm "Glossary Entry") in the current context. The enumerated values are stored in the components of this structure.
     
-    The individual enumerated constants or the constant enumerated structure can be [used](javascript:call_link\('abenenumerated_types_usage.htm'\)) in certain read positions. In classes they belong, like all constants, to the static attributes and can be addressed accordingly using the component selectors \=> and \->.
+    The individual enumerated constants or the constant enumerated structure can be [used](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_types_usage.htm) in certain read positions. In classes they belong, like all constants, to the static attributes and can be addressed accordingly using the component selectors \=> and \->.
     
 -   Enumerated values
     
@@ -64,7 +64,7 @@ The definition of an enumerated type includes:
     -   If the VALUE addition is not specified, the base type must be numeric and the enumerated constants val1, val2, and so on are filled with the enumerated values 0, 1, and so on, from left to right.
     -   The VALUE addition is used to assign explicit type-compliant enumerated values to the enumerated constants. The addition must be specified either for all or for none of the enumerated constants val1, val2, .... The IS INITIAL addition must be specified for exactly one constant. Each enumerated value must be unique within the enumerated type. The order of the specified values is not important. For non-numeric base types, the VALUE addition must be specified for each enumerated constant.
 
-Special [conversion rules](javascript:call_link\('abenconversion_enumerated.htm'\)) apply to enumerated types that ensure only the enumerated values defined in the enumerated type can be assigned to an [enumerated variable](javascript:call_link\('abenenumerated_variable_glosry.htm'\) "Glossary Entry").
+Special [conversion rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_enumerated.htm) apply to enumerated types that ensure only the enumerated values defined in the enumerated type can be assigned to an [enumerated variable](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_variable_glosry.htm "Glossary Entry").
 
 Hints
 
@@ -72,15 +72,15 @@ Hints
     
     CONSTANTS val TYPE enum\_type VALUE ...
     
--   An enumerated type is always an elementary data type and is included in the generic type [simple](javascript:call_link\('abenbuilt_in_types_generic.htm'\)). Likewise, the associated type description class CL\_ABAP\_ENUMDESCR is a subclass of CL\_ABAP\_ELEMDESCR.
--   The statements for defining an enumerated type are usually summarized in a [chained statement](javascript:call_link\('abenchained_statement_glosry.htm'\) "Glossary Entry").
--   In a [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry"), the names of the enumerated constants, in addition to the type name enum\_type, must have the name of the type pool as a prefix.
--   The definition of enumerated types is supported in the ABAP language and in [ABAP CDS](javascript:call_link\('abencds_glosry.htm'\) "Glossary Entry") but not in ABAP Dictionary.
-    -   The definition of enumerated types in ABAP CDS is described in the topic [ABAP CDS - Enumerated Types](javascript:call_link\('abencds_enumeration_types.htm'\)).
+-   An enumerated type is always an elementary data type and is included in the generic type [simple](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_types_generic.htm). Likewise, the associated type description class CL\_ABAP\_ENUMDESCR is a subclass of CL\_ABAP\_ELEMDESCR.
+-   The statements for defining an enumerated type are usually summarized in a [chained statement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchained_statement_glosry.htm "Glossary Entry").
+-   In a [type pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_pool_glosry.htm "Glossary Entry"), the names of the enumerated constants, in addition to the type name enum\_type, must have the name of the type pool as a prefix.
+-   The definition of enumerated types is supported in the ABAP language and in [ABAP CDS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_glosry.htm "Glossary Entry") but not in ABAP Dictionary.
+    -   The definition of enumerated types in ABAP CDS is described in the topic [ABAP CDS - Enumerated Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_enumeration_types.htm).
     -   Enumerated types defined in ABAP CDS can be used in ABAP programs in the same way as enumerated types defined in ABAP with an enumerated structure.
-    -   Enumerated types defined in ABAP CDS are represented in ABAP by an [enumerated structure](javascript:call_link\('abenenumerated_structure_glosry.htm'\) "Glossary Entry") with the name of the type. This structure is implicitly created as an ABAP data object in the global program context, before a CDS enumerated type is addressed for the first time in the program. After that, the CDS enumerated type can be used like an ABAP enumerated type with an enumerated structure of the same name.
--   For more information about usage, see [enumerated objects](javascript:call_link\('abenenumerated_types_usage.htm'\)).
-    -   Enumerated types are not currently supported by classic [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry").
+    -   Enumerated types defined in ABAP CDS are represented in ABAP by an [enumerated structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_structure_glosry.htm "Glossary Entry") with the name of the type. This structure is implicitly created as an ABAP data object in the global program context, before a CDS enumerated type is addressed for the first time in the program. After that, the CDS enumerated type can be used like an ABAP enumerated type with an enumerated structure of the same name.
+-   For more information about usage, see [enumerated objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_types_usage.htm).
+    -   Enumerated types are not currently supported by classic [dynpros](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm "Glossary Entry").
 
 Example
 
@@ -103,7 +103,7 @@ cl\_demo\_output=>display( planet ).
 
 Example
 
-The enumerated type number comprises the same value set as the fixed values of the domain DEMO\_NUMBERS. This is checked by the assignment of each domain fixed value to an enumerated variable number of the enumerated type number. The necessary [conversions](javascript:call_link\('abenconv_constructor_enum.htm'\)) are performed.
+The enumerated type number comprises the same value set as the fixed values of the domain DEMO\_NUMBERS. This is checked by the assignment of each domain fixed value to an enumerated variable number of the enumerated type number. The necessary [conversions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconv_constructor_enum.htm) are performed.
 
 TYPES:
   BEGIN OF ENUM number,
@@ -130,7 +130,7 @@ Addition 1  
 
 Effect
 
-If the STRUCTURE addition is specified, no separate enumerated constant is created for each enumerated value val1, val2, .... Instead, a constant [enumerated structure](javascript:call_link\('abenenumerated_structure_glosry.htm'\) "Glossary Entry") struc is declared in the namespace and validity area of the current context (procedure, class, program). The TYPES statements for the enumerated values val1, val2, ... define the components of the structure in the order they appear. They have the names val1, val2, ..., and each has the enumerated type enum. The components of the structure are special [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry").
+If the STRUCTURE addition is specified, no separate enumerated constant is created for each enumerated value val1, val2, .... Instead, a constant [enumerated structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_structure_glosry.htm "Glossary Entry") struc is declared in the namespace and validity area of the current context (procedure, class, program). The TYPES statements for the enumerated values val1, val2, ... define the components of the structure in the order they appear. They have the names val1, val2, ..., and each has the enumerated type enum. The components of the structure are special [enumerated objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_object_glosry.htm "Glossary Entry").
 
 Hints
 
@@ -148,7 +148,7 @@ Hints
     
 -   If STRUCTURE is specified, the enumerated values of the enumerated type can be addressed using struc-val1, struc-val2, .... Additionally, the structure can be addressed as a whole, with the rules for structures whose components have enumerated types.
 -   The enumerated type enum is an elementary type, even if STRUCTURE is specified.
--   In a [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry"), the name of the enumerated structure, in addition to the type name enum\_type, must have the name of the type pool as a prefix. This is not necessary for the components.
+-   In a [type pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_pool_glosry.htm "Glossary Entry"), the name of the enumerated structure, in addition to the type name enum\_type, must have the name of the type pool as a prefix. This is not necessary for the components.
 -   In a class, the enumerated structure cannot have the same name as the enumerated type.
 
 Example
@@ -177,12 +177,12 @@ Addition 2  
 
 Effect
 
-The BASE TYPE addition defines an explicit base type dtype for the enumerated values of the value set of the enumerated type enum. All built-in and user-defined flat elementary data types that are no longer than 16 bytes can be specified. This includes the following [built-in ABAP types](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) and all [dictionary types](javascript:call_link\('abenddic_builtin_types_intro.htm'\)) that are mapped to them:
+The BASE TYPE addition defines an explicit base type dtype for the enumerated values of the value set of the enumerated type enum. All built-in and user-defined flat elementary data types that are no longer than 16 bytes can be specified. This includes the following [built-in ABAP types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_types_complete.htm) and all [dictionary types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types_intro.htm) that are mapped to them:
 
--   All [numeric types](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
--   The [character-like types](javascript:call_link\('abenbuiltin_types_character.htm'\)) c and n with a maximum length of 8, but no text strings
--   the [byte-like type](javascript:call_link\('abenbuiltin_types_character.htm'\)) x with a maximum length of 16, but no byte strings
--   The [date types and time types](javascript:call_link\('abenbuiltin_types_date_time.htm'\))
+-   All [numeric types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
+-   The [character-like types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_character.htm) c and n with a maximum length of 8, but no text strings
+-   the [byte-like type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_character.htm) x with a maximum length of 16, but no byte strings
+-   The [date types and time types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_date_time.htm)
 
 If the BASE TYPE addition is not specified, the base type i is used.
 
@@ -244,7 +244,7 @@ The VALUE addition can be used to assign explicit enumerated values to the enume
 -   If the base type is numeric, VALUE can be specified.
 -   If the base type is not numeric, VALUE must be specified.
 
-The same applies to the VALUE addition as to the statements [CONSTANTS](javascript:call_link\('abapconstants.htm'\)) and [DATA](javascript:call_link\('abapdata_options.htm'\)):
+The same applies to the VALUE addition as to the statements [CONSTANTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconstants.htm) and [DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_options.htm):
 
 -   IS INITIAL generates the initial value of the base type.
 -   val can either be specified as a literal or as an already defined constant.
@@ -253,7 +253,7 @@ Each enumerated value can only occur once within the value set of an enumerated 
 
 Example
 
-In the following enumerated type, the planets are in alphabetical order. The explicit assignment of enumerated values, however, corresponds to their order in the solar system. Accordingly, the logical expression after ASSERT is true. The order of the components of the structure p, on the other hand, corresponds to the order of definition. The enumerated value is determined using the conversion operator [CONV](javascript:call_link\('abenconv_constructor_enum.htm'\)), to which a special rule applies.
+In the following enumerated type, the planets are in alphabetical order. The explicit assignment of enumerated values, however, corresponds to their order in the solar system. Accordingly, the logical expression after ASSERT is true. The order of the components of the structure p, on the other hand, corresponds to the order of definition. The enumerated value is determined using the conversion operator [CONV](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconv_constructor_enum.htm), to which a special rule applies.
 
 TYPES:
   BEGIN OF ENUM planet STRUCTURE p,

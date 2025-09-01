@@ -4,24 +4,29 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Type Definitions](javascript:call_link\('abencds_tdl.htm'\)) →  [ABAP CDS - TDL for Type Definitions](javascript:call_link\('abencds_types.htm'\)) →  [CDS TDL - DEFINE TYPE](javascript:call_link\('abencds_define_type.htm'\)) →  [ABAP CDS - Enumerated Types](javascript:call_link\('abencds_enumeration_types.htm'\)) →  [CDS TDL - DEFINE TYPE ENUM](javascript:call_link\('abencds_define_enum_type.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Type Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_tdl.htm) →  [ABAP CDS - TDL for Type Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_types.htm) →  [CDS TDL - DEFINE TYPE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_type.htm) →  [ABAP CDS - Enumerated Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enumeration_types.htm) →  [CDS TDL - DEFINE TYPE ENUM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_enum_type.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20TDL%20-%20Using%20CDS%20Enumerated%20Types%2C%20ABENCDS_USE_ENUM_TYPE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:
 )
 
 CDS TDL - Using CDS Enumerated Types
 
-This section summarizes the use of [CDS elements](javascript:call_link\('abencds_element_glosry.htm'\) "Glossary Entry") with an enumerated type.
+This section summarizes the use of [CDS elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_element_glosry.htm "Glossary Entry") with an enumerated type.
 
--   [Declaration](#abencds-use-enum-type-1-------operand-positions-for-cds-elements-with-an-enumerated-type---@ITOC@@ABENCDS_USE_ENUM_TYPE_2)
-    -   [CDS Enumerated Type](#abencds-use-enum-type-3-----------cds-enumerated-constant---@ITOC@@ABENCDS_USE_ENUM_TYPE_4)
-    -   [CDS Enumerated Element](#abencds-use-enum-type-5-------case-expressions---@ITOC@@ABENCDS_USE_ENUM_TYPE_6)
--   [Cast Expressions](#abencds-use-enum-type-7-------comparisons---@ITOC@@ABENCDS_USE_ENUM_TYPE_8)
--   [Parameter Passing](#abencds-use-enum-type-9-------type-descriptions---@ITOC@@ABENCDS_USE_ENUM_TYPE_10)
+-   [Declaration](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_1)
+-   [Operand Positions for CDS Elements with an Enumerated Type](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_2)
+    -   [CDS Enumerated Type](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_3)
+    -   [CDS Enumerated Constant](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_4)
+    -   [CDS Enumerated Element](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_5)
+-   [Case Expressions](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_6)
+-   [Cast Expressions](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_7)
+-   [Comparisons](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_8)
+-   [Parameter Passing](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_9)
+-   [Type Descriptions](#@@ITOC@@ABENCDS_USE_ENUM_TYPE_10)
 
 Executable Example
 
-[CDS Enumerated Type, Use](javascript:call_link\('abencds_enum_abexa.htm'\))
+[CDS Enumerated Type, Use](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_abexa.htm)
 
 Declaration   
 
@@ -29,26 +34,26 @@ The following enumerated operands are available:
 
 -   CDS enumerated type
     
-    The [CDS enumerated type](javascript:call_link\('abencds_enum_type_glosry.htm'\) "Glossary Entry") EnumType itself.
+    The [CDS enumerated type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_type_glosry.htm "Glossary Entry") EnumType itself.
     
 -   CDS enumerated constant
     
-    An [enumerated constant](javascript:call_link\('abenenumerated_constant_glosry.htm'\) "Glossary Entry") EnumConstant defines a value of the value set of an enumerated type. A CDS enumerated constant is specified using the name of the enumerated type EnumType, followed by a period (.), a hash character (#), and the name of an enumerated constant EnumConstant.
+    An [enumerated constant](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_constant_glosry.htm "Glossary Entry") EnumConstant defines a value of the value set of an enumerated type. A CDS enumerated constant is specified using the name of the enumerated type EnumType, followed by a period (.), a hash character (#), and the name of an enumerated constant EnumConstant.
     
     Example: EnumType.#EnumConstant
     
 -   CDS enumerated element
     
-    A [CDS enumerated element](javascript:call_link\('abencds_enum_element_glosry.htm'\) "Glossary Entry") contains one of the enumerated values of the respective enumerated type. CDS enumerated elements can be defined as follows:
+    A [CDS enumerated element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_element_glosry.htm "Glossary Entry") contains one of the enumerated values of the respective enumerated type. CDS enumerated elements can be defined as follows:
     
-    1.  Using a [cast expression](javascript:call_link\('abencds_cast_expression_v2.htm'\)).
-    2.  Exposing an [input parameter](javascript:call_link\('abeninput_parameter_glosry.htm'\) "Glossary Entry"), defined in the parameter list after [WITH PARAMETERS](javascript:call_link\('abencds_parameter_list_v2.htm'\)), typed with an enumerated type EnumType as an element in the SELECT list of a CDS entity.
-    3.  Exposing a field typed with an enumerated type from a [data source](javascript:call_link\('abencds_data_source_v2.htm'\)) or from an [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry").
-    4.  Using a [case expression](javascript:call_link\('abencds_case_expression_v2.htm'\)) with operands of an enumerated type.
-    5.  Reusing an expression from the SELECT list via [$projection](javascript:call_link\('abencds_reusable_expression_v2.htm'\)).
+    1.  Using a [cast expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_v2.htm).
+    2.  Exposing an [input parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninput_parameter_glosry.htm "Glossary Entry"), defined in the parameter list after [WITH PARAMETERS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_parameter_list_v2.htm), typed with an enumerated type EnumType as an element in the SELECT list of a CDS entity.
+    3.  Exposing a field typed with an enumerated type from a [data source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_data_source_v2.htm) or from an [association target](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassociation_target_glosry.htm "Glossary Entry").
+    4.  Using a [case expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_case_expression_v2.htm) with operands of an enumerated type.
+    5.  Reusing an expression from the SELECT list via [$projection](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_reusable_expression_v2.htm).
     6.  Using an enumerated constant in the element list of a CDS entity.
 
-The technical storage type of the content of an operand of an enumerated element is the [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") of the CDS enumerated type. However, in the code element information in ADT or in the debugger, the data type of CDS enumerated elements is displayed as ENUM. The possible content is defined by the [enumerated values](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") EnumValue1, EnumValue2, ..., of which exactly one value must have the type-specific initial value.
+The technical storage type of the content of an operand of an enumerated element is the [base type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbase_type_glosry.htm "Glossary Entry") of the CDS enumerated type. However, in the code element information in ADT or in the debugger, the data type of CDS enumerated elements is displayed as ENUM. The possible content is defined by the [enumerated values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_value_glosry.htm "Glossary Entry") EnumValue1, EnumValue2, ..., of which exactly one value must have the type-specific initial value.
 
 Example
 
@@ -81,25 +86,25 @@ The following image of the code element information of the CDS view entity DEMO\
 
 Operand Positions for CDS Elements with an Enumerated Type   
 
-CDS enumerated elements are currently available in [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"), [CDS projection views](javascript:call_link\('abencds_projection_view_glosry.htm'\) "Glossary Entry"), [CDS custom entities](javascript:call_link\('abencds_custom_entity_glosry.htm'\) "Glossary Entry") and [CDS abstract entities](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry") in the following operand positions:
+CDS enumerated elements are currently available in [CDS view entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm "Glossary Entry"), [CDS projection views](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_projection_view_glosry.htm "Glossary Entry"), [CDS custom entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") and [CDS abstract entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") in the following operand positions:
 
 CDS Enumerated Type   
 
 A CDS enumerated type EnumType can be used in the following places:
 
--   To type another CDS enumerated type as described in the topic [CDS TDL - DEFINE TYPE ENUM](javascript:call_link\('abencds_define_enum_type.htm'\)).
+-   To type another CDS enumerated type as described in the topic [CDS TDL - DEFINE TYPE ENUM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_enum_type.htm).
     
     Note: The maximum nesting depth is five. This means that a stack of enumerated types can have a maximum of five layers, from base to top-most.
     
--   In [cast expressions in CDS view entities](javascript:call_link\('abencds_cast_expression_v2.htm'\)).
--   In [cast expressions in CDS projection views](javascript:call_link\('abencds_proj_view_element.htm'\)).
+-   In [cast expressions in CDS view entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_v2.htm).
+-   In [cast expressions in CDS projection views](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_proj_view_element.htm).
     
     Note: Remember that casting in CDS projection views is only possible with the addition PRESERVING TYPE.
     
     Example: cast(ProjField as MyEnumType preserving type) as NewProjField
     
--   For [typing](javascript:call_link\('abencds_typing.htm'\)) of elements in [CDS custom entities](javascript:call_link\('abencds_custom_entity_glosry.htm'\) "Glossary Entry") and in [CDS abstract entities](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry").
--   For [typing](javascript:call_link\('abencds_typing.htm'\)) of parameters in [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"), CDS custom entities, and CDS abstract entities
+-   For [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typing.htm) of elements in [CDS custom entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") and in [CDS abstract entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry").
+-   For [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typing.htm) of parameters in [CDS view entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm "Glossary Entry"), CDS custom entities, and CDS abstract entities
 -   In ABAP for typing data objects with the statement TYPE.
 
 CDS Enumerated Constant   
@@ -110,31 +115,31 @@ A CDS enumerated constant can be used in the following places:
     
     Syntax: MyEnum.#EnumConstant as FieldName
     
--   As actual parameters for input parameters of CDS view entities and [CDS analytical queries](javascript:call_link\('abencds_analytic_query_glosry.htm'\) "Glossary Entry").
+-   As actual parameters for input parameters of CDS view entities and [CDS analytical queries](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_analytic_query_glosry.htm "Glossary Entry").
     
     Note: An enumerated constant of an enumerated type EnumType can be passed to an input parameter that is typed with the same CDS enumerated type EnumType.
     
 -   In a simple case expression in the WHEN, THEN, and ELSE branches. However, an enumerated constant is not valid as operand after CASE.
 -   In a complex case expression as right-hand operand of the WHEN condition and as operand after THEN.
--   As right-hand operand in a [WHERE](javascript:call_link\('abencds_where_clause_v2.htm'\)) clause in a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"), [CDS transactional query](javascript:call_link\('abencds_transactional_pv_glosry.htm'\) "Glossary Entry"), and [CDS analytical query](javascript:call_link\('abencds_analytic_query_glosry.htm'\) "Glossary Entry").
--   In ABAP for value assignments and in comparisons as described in topic [Enumerated Objects (enum)](javascript:call_link\('abenenumerated_types_usage.htm'\)).
+-   As right-hand operand in a [WHERE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_where_clause_v2.htm) clause in a [CDS view entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm "Glossary Entry"), [CDS transactional query](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_transactional_pv_glosry.htm "Glossary Entry"), and [CDS analytical query](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_analytic_query_glosry.htm "Glossary Entry").
+-   In ABAP for value assignments and in comparisons as described in topic [Enumerated Objects (enum)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_types_usage.htm).
 
 CDS Enumerated Element   
 
 A CDS enumerated element can be used in the following places:
 
 -   As an element in the SELECT list of a CDS entity.
--   As an element in the projection list of a [CDS transactional query](javascript:call_link\('abencds_transactional_pv_glosry.htm'\) "Glossary Entry").
+-   As an element in the projection list of a [CDS transactional query](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_transactional_pv_glosry.htm "Glossary Entry").
 -   In a simple case expression of a CDS view entity.
 -   In a complex case expression of a CDS view entity.
 -   In a reuse expression using $projection in the SELECT list of a CDS view entity and a CDS analytical query.
 -   As right-hand operand of a WHERE clause in a CDS entity.
--   As field of the [GROUP BY](javascript:call_link\('abencds_group_by_v2.htm'\)) clause of a CDS entity.
--   As operand of a [HAVING](javascript:call_link\('abencds_having_clause_v2.htm'\)) clause in a CDS entity.
+-   As field of the [GROUP BY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_group_by_v2.htm) clause of a CDS entity.
+-   As operand of a [HAVING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_having_clause_v2.htm) clause in a CDS entity.
 -   As an operand of an association ON condition of a CDS association and of a to-parent association in a CDS view entity, CDS custom entity, CDS abstract entity and CDS transactional query.
 -   As an operand of a join ON condition of a join between two data sources in a CDS view entity.
--   In a default filter condition of a CDS association, defined using [WITH DEFAULT FILTER](javascript:call_link\('abencds_simple_association_v2.htm'\)).
--   In ABAP for value assignments and in comparisons as described in topic [Enumerated Objects (enum)](javascript:call_link\('abenenumerated_types_usage.htm'\)).
+-   In a default filter condition of a CDS association, defined using [WITH DEFAULT FILTER](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_association_v2.htm).
+-   In ABAP for value assignments and in comparisons as described in topic [Enumerated Objects (enum)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_types_usage.htm).
 
 Example
 
@@ -172,7 +177,7 @@ wd\_cds = demo\_cds\_enum\_weekday-tue.
 
 Case Expressions   
 
-CDS enumerated elements can be used in [simple case expressions](javascript:call_link\('abencds_simple_case_expression_v2.htm'\)) and in [complex case expressions](javascript:call_link\('abencds_searched_case_expr_v2.htm'\)) in CDS entities. The following rules apply:
+CDS enumerated elements can be used in [simple case expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_simple_case_expression_v2.htm) and in [complex case expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_searched_case_expr_v2.htm) in CDS entities. The following rules apply:
 
 Simple Case expression
 
@@ -185,13 +190,13 @@ Complex case expression
 -   The following rules apply to the condition specified after WHEN:
     -   The left side of the condition must be a CDS enumerated element. CDS enumerated constants and CDS enumerated types are not possible.
     -   The right side of the condition can be a CDS enumerated element or a CDS enumerated constant.
-    -   As relational operators, all [comparison operators](javascript:call_link\('abencds_cond_expr_comp_v2.htm'\)), [BETWEEN](javascript:call_link\('abencds_cond_expr_betw_v2.htm'\)), [IS NULL](javascript:call_link\('abencds_cond_expr_null_v2.htm'\)), and [IS INITIAL](javascript:call_link\('abencds_cond_expr_initial_v2.htm'\)) are allowed.
+    -   As relational operators, all [comparison operators](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cond_expr_comp_v2.htm), [BETWEEN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cond_expr_betw_v2.htm), [IS NULL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cond_expr_null_v2.htm), and [IS INITIAL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cond_expr_initial_v2.htm) are allowed.
     -   The Boolean operators NOT, AND, and OR are allowed.
 -   The operands specified in the condition after WHEN must be of the same CDS enumerated type. Otherwise, a syntax check error occurs.
 
 Cast Expressions   
 
-When [casting](javascript:call_link\('abencds_cast_expression_v2.htm'\)) to a CDS enumerated type, the operand of the cast expression must be compatible with the base type of the CDS enumerated type. The [cast matrix](javascript:call_link\('abencds_cast_expression_v2.htm'\)) and the [conversion rules](javascript:call_link\('abencds_cast_expression_rules_v2.htm'\)) for casting apply with respect to the base type.
+When [casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_v2.htm) to a CDS enumerated type, the operand of the cast expression must be compatible with the base type of the CDS enumerated type. The [cast matrix](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_v2.htm) and the [conversion rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_rules_v2.htm) for casting apply with respect to the base type.
 
 If the addition PRESERVING TYPE is specified, the data type and length of the operand and the base type of the CDS enumerated type must match exactly.
 
@@ -201,7 +206,7 @@ For comparisons between operands of an enumerated data type, the rule applies th
 
 An exception to this rule are type stacks. If an enumerated type is defined with reference to another CDS enumerated type, these two types are compatible with each other.
 
-Each enumerated type has an initial enumerated value, which makes checks with the predicate expression [IS INITIAL](javascript:call_link\('abencds_cond_expr_initial_v2.htm'\)) possible.
+Each enumerated type has an initial enumerated value, which makes checks with the predicate expression [IS INITIAL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cond_expr_initial_v2.htm) possible.
 
 Example
 
@@ -223,7 +228,7 @@ Input parameters that are typed with a CDS enumerated type can have the followin
 
 Type Descriptions   
 
-In [RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry"), enumerated operands are described by objects of the class CL\_ABAP\_ENUMDESCR. This class can be used for [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry") and [RTTC](javascript:call_link\('abenrun_time_type_creation_glosry.htm'\) "Glossary Entry") purposes. Like any enumerated type, an enumerated type created using RTTC is only compatible with itself.
+In [RTTS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry"), enumerated operands are described by objects of the class CL\_ABAP\_ENUMDESCR. This class can be used for [RTTI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry") and [RTTC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_creation_glosry.htm "Glossary Entry") purposes. Like any enumerated type, an enumerated type created using RTTC is only compatible with itself.
 
 The following attributes exist in a type description of the class CL\_ABAP\_ENUMDESCR:
 
@@ -234,12 +239,12 @@ The following attributes exist in a type description of the class CL\_ABAP\_ENUM
 
 Executable Example
 
-[Enumerated Elements, Type Description](javascript:call_link\('abencds_enum_description_abexa.htm'\))
+[Enumerated Elements, Type Description](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_enum_description_abexa.htm)
 
 Restrictions
 
--   CDS enumerated types cannot be used in [CDS DDIC-based views (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry").
--   CDS enumerated types cannot be used for typing in DDIC objects such as [DDIC data types](javascript:call_link\('abenddic_data_types.htm'\)), [DDIC views](javascript:call_link\('abenddic_view_glosry.htm'\) "Glossary Entry"), and [DDIC extensions](javascript:call_link\('abenddic_extension_glosry.htm'\) "Glossary Entry").
+-   CDS enumerated types cannot be used in [CDS DDIC-based views (obsolete)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v1_view_glosry.htm "Glossary Entry").
+-   CDS enumerated types cannot be used for typing in DDIC objects such as [DDIC data types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_data_types.htm), [DDIC views](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_view_glosry.htm "Glossary Entry"), and [DDIC extensions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_extension_glosry.htm "Glossary Entry").
 
 Hints
 

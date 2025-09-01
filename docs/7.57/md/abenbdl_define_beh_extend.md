@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [CDS BDL - Base BDEF Extension](javascript:call_link\('abenbdl_extensibility_managed_unm.htm'\)) →  [CDS BDL - extension](javascript:call_link\('abenbdl_extension_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm) →  [CDS BDL - Base BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_managed_unm.htm) →  [CDS BDL - extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_syntax.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - Extension Entity Behavior Definition, ABENBDL_DEFINE_BEH_EXTEND, 757%0D%0A%
 0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -13,35 +13,35 @@ CDS BDL - Extension Entity Behavior Definition
 
 Syntax
 
-... [define behavior for ExtNode](javascript:call_link\('abenbdl_define_beh.htm'\)) ...
+... [define behavior for ExtNode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_define_beh.htm) ...
 
 Prerequisite
 
-As a prerequisite, the extended [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") must explicitly allow BDEF extensions as described in topic [CDS BDL - Extensibility Enabling for RAP BOs](javascript:call_link\('abenbdl_extensibility_enabling_m_u.htm'\)).
+As a prerequisite, the extended [CDS behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") must explicitly allow BDEF extensions as described in topic [CDS BDL - Extensibility Enabling for RAP BOs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_enabling_m_u.htm).
 
 Effect
 
-Defines the behavior for an [extension node](javascript:call_link\('abenrap_ext_entity_behavior_glosry.htm'\) "Glossary Entry") in a BDEF extension using the statement define behavior for. As a prerequisite, the node must be added to the RAP data model via [RAP data model extensions](javascript:call_link\('abenrap_data_model_ext_glosry.htm'\) "Glossary Entry"). The BDEF extension can add behavior for this extension node.
+Defines the behavior for an [extension node](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_ext_entity_behavior_glosry.htm "Glossary Entry") in a BDEF extension using the statement define behavior for. As a prerequisite, the node must be added to the RAP data model via [RAP data model extensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_data_model_ext_glosry.htm "Glossary Entry"). The BDEF extension can add behavior for this extension node.
 
-The behavior for the extension node is defined in the same way as for RAP BOs, see section [Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)), with the following differences:
+The behavior for the extension node is defined in the same way as for RAP BOs, see section [Entity Behavior Definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_define_beh.htm), with the following differences:
 
--   No explicit pointing to a [RAP authorization master entity](javascript:call_link\('abenrap_auth_ma_ent_glosry.htm'\) "Glossary Entry").
+-   No explicit pointing to a [RAP authorization master entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_auth_ma_ent_glosry.htm "Glossary Entry").
     
-    Use authorization dependent instead of [authorization dependent by \_Assoc](javascript:call_link\('abenbdl_authorization.htm'\)).
+    Use authorization dependent instead of [authorization dependent by \_Assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization.htm).
     
--   No explicit pointing to a [RAP lock master entity](javascript:call_link\('abenrap_lock_ma_ent_glosry.htm'\) "Glossary Entry").
+-   No explicit pointing to a [RAP lock master entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_lock_ma_ent_glosry.htm "Glossary Entry").
     
-    Use lock dependent instead of [lock dependent by \_Assoc](javascript:call_link\('abenbdl_locking.htm'\)).
+    Use lock dependent instead of [lock dependent by \_Assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_locking.htm).
     
--   No explicit pointing to a [RAP ETag master entity](javascript:call_link\('abenrap_etag_ma_ent_glosry.htm'\) "Glossary Entry").
+-   No explicit pointing to a [RAP ETag master entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_etag_ma_ent_glosry.htm "Glossary Entry").
     
-    Use etag dependent instead of [etag dependent by \_Assoc](javascript:call_link\('abenbdl_etag.htm'\)).
+    Use etag dependent instead of [etag dependent by \_Assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_etag.htm).
     
     Note: As a best practice, SAP recommends that an ETag master field is defined for each individual entity. As a consequence, the syntax etag dependent should not be used at all.
     
--   Declare [ancestor associations](javascript:call_link\('abenbdl_ancestor_ext.htm'\)), so that the path to the authorization master, lock master, and ETag master entities can be derived.
+-   Declare [ancestor associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_ancestor_ext.htm), so that the path to the authorization master, lock master, and ETag master entities can be derived.
 
-If an ABAP behavior pool is specified, the rules for extension ABPs apply. See topic [CDS BDL - implementation in class unique, Extension](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)).
+If an ABAP behavior pool is specified, the rules for extension ABPs apply. See topic [CDS BDL - implementation in class unique, Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm).
 
 Hint
 
@@ -86,7 +86,7 @@ etag master Timestamp
 
 Executable Example
 
-The executable example [Node extension](javascript:call_link\('abenbdl_assoc_ext_abexa.htm'\)) explains the example above in detail.
+The executable example [Node extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_assoc_ext_abexa.htm) explains the example above in detail.
 
 Continue
-[CDS BDL - ancestor association](javascript:call_link\('abenbdl_ancestor_ext.htm'\))
+[CDS BDL - ancestor association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_ancestor_ext.htm)

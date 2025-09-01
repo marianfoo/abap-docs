@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  A
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  A
 
 AUTHORITY-CHECK - Quick reference
 
-[Reference](javascript:call_link\('abapauthority-check.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapauthority-check.htm)
 
 Syntax
 
@@ -20,7 +20,7 @@ AUTHORITY-CHECK OBJECT auth\_obj *\[*FOR USER user*\]*
 
 Effect
 
-Performs an authorization check for the current user or a specified user compared with the [authorization object](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") auth\_obj. Either the entry in the user master record is evaluated using FIELD for the authorization field id1, ..., id10, or the check is skipped using DUMMY.
+Performs an authorization check for the current user or a specified user compared with the [authorization object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenauthorization_object_glosry.htm "Glossary Entry") auth\_obj. Either the entry in the user master record is evaluated using FIELD for the authorization field id1, ..., id10, or the check is skipped using DUMMY.
 
 Additions
 

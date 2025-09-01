@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  P
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  P
 
 PROGRAM - Short Reference
 
-[Reference](javascript:call_link\('abapprogram.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprogram.htm)
 
 Syntax
 
@@ -20,11 +20,11 @@ PROGRAM prog *\[*NO STANDARD PAGE HEADING*\]*
 
 Effect
 
-Initiates a [module pool](javascript:call_link\('abenmodul_pool_glosry.htm'\) "Glossary Entry") or a [subroutine pool](javascript:call_link\('abensubroutine_pool_glosry.htm'\) "Glossary Entry") prog.
+Initiates a [module pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmodul_pool_glosry.htm "Glossary Entry") or a [subroutine pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubroutine_pool_glosry.htm "Glossary Entry") prog.
 
 Additions
 
 -   NO STANDARD PAGE HEADING, LINE-SIZE, LINE-COUNT, MESSAGE-ID
-    See [REPORT](javascript:call_link\('abapreport_shortref.htm'\)).
--   [REDUCED FUNCTIONALITY](javascript:call_link\('abapprogram.htm'\))
+    See [REPORT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreport_shortref.htm).
+-   [REDUCED FUNCTIONALITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprogram.htm)
     Minimizes the components loaded when calling a subroutine pool.

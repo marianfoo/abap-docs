@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [TYPE REQUEST FOR](javascript:call_link\('abaptype_request_for.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_rap_other.htm) →  [ABAP for RAP, BDEF Derived Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrpm_derived_types.htm) →  [TYPE REQUEST FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_request_for.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP EML - TYPE REQUEST FOR in a Managed RAP BO with Additional Save, ABENRAP_ADDITIO
 NAL_SAVE_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -21,11 +21,11 @@ Details
 
 change\_id
 
-Identifier for an individual change. In this case, it is a [UUID](javascript:call_link\('abenuuid_glosry.htm'\) "Glossary Entry").
+Identifier for an individual change. In this case, it is a [UUID](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuuid_glosry.htm "Glossary Entry").
 
 key\_field
 
-Key field of the [RAP BO instance](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry").
+Key field of the [RAP BO instance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry").
 
 changing\_operation
 
@@ -62,7 +62,7 @@ define root view entity DEMO\_MANAGED\_ADDITIONAL\_SAVE
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ADDITIONAL\_SAVE is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ADDITIONAL\_SAVE is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed with additional save with full data
 implementation in class bp\_demo\_managed\_additional\_sav unique;
@@ -79,15 +79,15 @@ authorization master ( global )
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ADDITIONAL\_SAV. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
+For the above CDS behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ADDITIONAL\_SAV. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
 
 The following method is relevant in this example:
 
 -   save\_modified
     
-    At first, several type and variable declarations are available just for demonstration purposes. Among them, there are the [BDEF-derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") TYPE REQUEST FOR CHANGE, TYPE REQUEST FOR DELETE, TYPE TABLE FOR CHANGE and TYPE STRUCTURE FOR CHANGE. These BDEF-derived types are only relevant in the context of a managed RAP BO with additional save and unmanaged save. Basically, the structures create and update (that are of type TYPE REQUEST FOR CHANGE) as well as delete (that is of type TYPE REQUEST FOR DELETE) - they contain those instances that are to be created, changed or deleted - are available here by default and can be referred to directly instead of extra variable and type declarations as it is the case in this example. The declarations are followed by further declarations of internal tables that store the input for the log table in the database.
+    At first, several type and variable declarations are available just for demonstration purposes. Among them, there are the [BDEF-derived types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") TYPE REQUEST FOR CHANGE, TYPE REQUEST FOR DELETE, TYPE TABLE FOR CHANGE and TYPE STRUCTURE FOR CHANGE. These BDEF-derived types are only relevant in the context of a managed RAP BO with additional save and unmanaged save. Basically, the structures create and update (that are of type TYPE REQUEST FOR CHANGE) as well as delete (that is of type TYPE REQUEST FOR DELETE) - they contain those instances that are to be created, changed or deleted - are available here by default and can be referred to directly instead of extra variable and type declarations as it is the case in this example. The declarations are followed by further declarations of internal tables that store the input for the log table in the database.
     
-    IF statements then check whether instances have been created, updated or deleted by a [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") In doing so, the %control structure is used to get information on which fields have been set when creating, updating or deleting the instance. The IF statement processing those instances that have been created is implemented as follows: The internal table lt\_log is filled with the instance data created by the CREATE operation. A LOOP statement processes the individual instances: The changing\_operation receives the value CREATE. The creation time is logged (created\_at field). Then the instance data is read into an internal table to handle the %control information for certain fields. In this case, it is checked if field1 is marked as enabled. If so, a [UUID](javascript:call_link\('abenuuid_glosry.htm'\) "Glossary Entry") is created and assigned to the change\_id field. Since field1 is affected, the field changed\_field\_name gets the value field1. The field changed\_value receives the value that is provided by the RAP BO consumer. Finally, the entries are added to the internal table lt\_log\_c. The same procedure is done for field2. At the end of the IF statement, all the entries in the internal table are inserted in the log table on the database (demo\_tab\_log).
+    IF statements then check whether instances have been created, updated or deleted by a [RAP BO consumer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") In doing so, the %control structure is used to get information on which fields have been set when creating, updating or deleting the instance. The IF statement processing those instances that have been created is implemented as follows: The internal table lt\_log is filled with the instance data created by the CREATE operation. A LOOP statement processes the individual instances: The changing\_operation receives the value CREATE. The creation time is logged (created\_at field). Then the instance data is read into an internal table to handle the %control information for certain fields. In this case, it is checked if field1 is marked as enabled. If so, a [UUID](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuuid_glosry.htm "Glossary Entry") is created and assigned to the change\_id field. Since field1 is affected, the field changed\_field\_name gets the value field1. The field changed\_value receives the value that is provided by the RAP BO consumer. Finally, the entries are added to the internal table lt\_log\_c. The same procedure is done for field2. At the end of the IF statement, all the entries in the internal table are inserted in the log table on the database (demo\_tab\_log).
     
     The IF statement processing those instances that have been updated are implemented similarly to above (here, field3 and field4 of the entity are used).
     
@@ -225,7 +225,7 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program:
 
 -   An ABAP EML CREATE operation is carried out. Two instances are created. The save sequence is triggered by the COMMIT ENTITIES statement. The underlying BDEF includes the syntax with unmanaged save. Thus, the ABP method save\_modified is called in this example that saves certain entries to a log table in the database as described above.
 -   The CREATE operation is followed by an UPDATE operation that modifies the two previously created instances. The changes get committed as well.

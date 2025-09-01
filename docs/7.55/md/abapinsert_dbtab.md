@@ -4,18 +4,18 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Write Access](javascript:call_link\('abenopen_sql_writing.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) →  [ABAP SQL - Write Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_writing.htm) → 
 
 INSERT dbtab
 
-[Short Reference](javascript:call_link\('abapinsert_dbtab_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_dbtab_shortref.htm)
 
 Syntax
 
-INSERT *{* INTO [target](javascript:call_link\('abapiumd_target.htm'\)) *\[* [connection](javascript:call_link\('abapiumd_conn.htm'\))*\]* VALUES [wa](javascript:call_link\('abapinsert_source.htm'\)) *}*
-     *|* *{*      [target](javascript:call_link\('abapiumd_target.htm'\)) *\[* [connection](javascript:call_link\('abapiumd_conn.htm'\))*\]* FROM [wa](javascript:call_link\('abapinsert_source.htm'\)) *}*
-     *|* *{*      [target](javascript:call_link\('abapiumd_target.htm'\)) *\[* [connection](javascript:call_link\('abapiumd_conn.htm'\))*\]* FROM [TABLE itab](javascript:call_link\('abapinsert_source.htm'\)) *}*
-     *|* *{*      [target](javascript:call_link\('abapiumd_target.htm'\)) *\[* [connection](javascript:call_link\('abapiumd_conn.htm'\))*\]* FROM [( SELECT subquery\_clauses *\[*UNION ...*\]* )](javascript:call_link\('abapinsert_source.htm'\)) *}*.
+INSERT *{* INTO [target](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_target.htm) *\[* [connection](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_conn.htm)*\]* VALUES [wa](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm) *}*
+     *|* *{*      [target](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_target.htm) *\[* [connection](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_conn.htm)*\]* FROM [wa](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm) *}*
+     *|* *{*      [target](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_target.htm) *\[* [connection](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_conn.htm)*\]* FROM [TABLE itab](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm) *}*
+     *|* *{*      [target](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_target.htm) *\[* [connection](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_conn.htm)*\]* FROM [( SELECT subquery\_clauses *\[*UNION ...*\]* )](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm) *}*.
 
 Variants:
 
@@ -26,22 +26,22 @@ Variants:
 
 Effect
 
-The [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry") statement INSERT inserts one or more rows in the DDIC database table or [DDIC table view](javascript:call_link\('abentable_view_glosry.htm'\) "Glossary Entry") specified in target. The inserted rows are taken from a work area [wa](javascript:call_link\('abapinsert_source.htm'\)), an internal table [itab](javascript:call_link\('abapinsert_source.htm'\)), or the result set of an embedded subquery [SELECT subquery\_clauses](javascript:call_link\('abapinsert_source.htm'\)). The addition [connection](javascript:call_link\('abapiumd_conn.htm'\)) can be used to specify a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry").
+The [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql_glosry.htm "Glossary Entry") statement INSERT inserts one or more rows in the DDIC database table or [DDIC table view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_view_glosry.htm "Glossary Entry") specified in target. The inserted rows are taken from a work area [wa](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm), an internal table [itab](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm), or the result set of an embedded subquery [SELECT subquery\_clauses](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm). The addition [connection](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_conn.htm) can be used to specify a [secondary connection](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry").
 
-If VALUES is used, there must be an INTO between INSERT and [target](javascript:call_link\('abapiumd_target.htm'\)). If FROM is used, INTO must not be specified.
+If VALUES is used, there must be an INTO between INSERT and [target](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_target.htm). If FROM is used, INTO must not be specified.
 
 System Fields
-The statement INSERT sets the values of the system fields sy-subrc (see below) and sy-dbcnt. sy-dbcnt is set to the number of rows that are inserted. If an overflow occurs because the number or rows is greater than 2,147,483,647, sy-dbcnt is set to -1. If sy-subrc is 2 when inserting a [LOB handle structure](javascript:call_link\('abenlob_handle_structure_glosry.htm'\) "Glossary Entry") with a component for [writer streams](javascript:call_link\('abenwriter_stream_glosry.htm'\) "Glossary Entry"), sy-dbcnt is also set to -1 (meaning undefined).
+The statement INSERT sets the values of the system fields sy-subrc (see below) and sy-dbcnt. sy-dbcnt is set to the number of rows that are inserted. If an overflow occurs because the number or rows is greater than 2,147,483,647, sy-dbcnt is set to -1. If sy-subrc is 2 when inserting a [LOB handle structure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlob_handle_structure_glosry.htm "Glossary Entry") with a component for [writer streams](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwriter_stream_glosry.htm "Glossary Entry"), sy-dbcnt is also set to -1 (meaning undefined).
 
 Hints
 
--   The inserted rows are included permanently in the table in the next [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry"). Up until this point, they can still be removed by a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"). The current [isolation level](javascript:call_link\('abendb_isolation.htm'\)) defines whether the inserted data can be read into other [database LUWs](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry") before or only after the database commit.
+-   The inserted rows are included permanently in the table in the next [database commit](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_commit_glosry.htm "Glossary Entry"). Up until this point, they can still be removed by a [database rollback](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"). The current [isolation level](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendb_isolation.htm) defines whether the inserted data can be read into other [database LUWs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_luw_glosry.htm "Glossary Entry") before or only after the database commit.
 
--   The statement INSERT sets a [database lock](javascript:call_link\('abendatabase_lock_glosry.htm'\) "Glossary Entry") as an [exclusive lock](javascript:call_link\('abenexclusive_lock_glosry.htm'\) "Glossary Entry") until the next database commit or rollback. If used incorrectly, this can produce a [deadlock](javascript:call_link\('abendeadlock_glosry.htm'\) "Glossary Entry").
+-   The statement INSERT sets a [database lock](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_lock_glosry.htm "Glossary Entry") as an [exclusive lock](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexclusive_lock_glosry.htm "Glossary Entry") until the next database commit or rollback. If used incorrectly, this can produce a [deadlock](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeadlock_glosry.htm "Glossary Entry").
 
--   The number of rows that can be inserted in the tables of a database within a [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry") is limited, since a database system can only manage a limited amount of locks and data in the rollback area.
+-   The number of rows that can be inserted in the tables of a database within a [database LUW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_luw_glosry.htm "Glossary Entry") is limited, since a database system can only manage a limited amount of locks and data in the rollback area.
 
--   Once rows have been inserted in a [global temporary table](javascript:call_link\('abenddic_database_tables_gtt.htm'\)), this table must be emptied again explicitly before the next implicit [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") using the ABAP SQL statement [DELETE FROM](javascript:call_link\('abapdelete_dbtab.htm'\)) without WHERE or using an explicit [database commit](javascript:call_link\('abendb_commit.htm'\)) or [database rollback](javascript:call_link\('abendb_rollback.htm'\)). If not, the runtime error COMMIT\_GTT\_ERROR is produced.
+-   Once rows have been inserted in a [global temporary table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_gtt.htm), this table must be emptied again explicitly before the next implicit [database commit](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_commit_glosry.htm "Glossary Entry") using the ABAP SQL statement [DELETE FROM](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_dbtab.htm) without WHERE or using an explicit [database commit](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendb_commit.htm) or [database rollback](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendb_rollback.htm). If not, the runtime error COMMIT\_GTT\_ERROR is produced.
 
 -   The statement INSERT cannot be applied to the system table TRDIR.
     
@@ -56,7 +56,7 @@ INSERT target FROM wa.
 
 Effect
 
-These two variants insert a single row contained in a work area [wa](javascript:call_link\('abapinsert_source.htm'\)). Both variants have the same behavior and only their syntax is different.
+These two variants insert a single row contained in a work area [wa](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm). Both variants have the same behavior and only their syntax is different.
 
 System Fields
 These variants of the statement INSERT set the value of the system field sy-subrc as follows:
@@ -67,15 +67,15 @@ Meaning
 
 0
 
-The row specified in the work area in [wa](javascript:call_link\('abapinsert_source.htm'\)) was inserted.
+The row specified in the work area in [wa](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm) was inserted.
 
 2
 
-When a [LOB handle structure](javascript:call_link\('abenlob_handle_structure_glosry.htm'\) "Glossary Entry") was specified with a component for [writer streams](javascript:call_link\('abenwriter_stream_glosry.htm'\) "Glossary Entry"), the non-LOB handle components were not yet written to the database, but instead are passed when the stream is closed, at the latest. Whether this situation occurs or not depends on the database. See [LOB handles](javascript:call_link\('abenium_lob.htm'\)).
+When a [LOB handle structure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlob_handle_structure_glosry.htm "Glossary Entry") was specified with a component for [writer streams](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwriter_stream_glosry.htm "Glossary Entry"), the non-LOB handle components were not yet written to the database, but instead are passed when the stream is closed, at the latest. Whether this situation occurs or not depends on the database. See [LOB handles](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenium_lob.htm).
 
 4
 
-The row specified in the work area in [wa](javascript:call_link\('abapinsert_source.htm'\)) was not inserted, since a row with the same [primary key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") or a unique [secondary index](javascript:call_link\('abensecondary_index_glosry.htm'\) "Glossary Entry") exists in the DDIC database table.
+The row specified in the work area in [wa](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm) was not inserted, since a row with the same [primary key](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprimary_key_glosry.htm "Glossary Entry") or a unique [secondary index](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensecondary_index_glosry.htm "Glossary Entry") exists in the DDIC database table.
 
 Example
 
@@ -88,7 +88,7 @@ INSERT INTO demo\_expressions VALUES wa.
 wa = VALUE #( id = 'Y' num1 = 222 ).
 INSERT demo\_expressions FROM wa.
 
-A [host expression](javascript:call_link\('abenhost_expression_glosry.htm'\) "Glossary Entry") with the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) can be used instead of an explicit work area.
+A [host expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhost_expression_glosry.htm "Glossary Entry") with the value operator [VALUE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_value.htm) can be used instead of an explicit work area.
 
 DELETE FROM demo\_expressions.
 INSERT INTO demo\_expressions VALUES @( VALUE #( id = 'X' num1 = 111
@@ -101,7 +101,7 @@ INSERT target FROM TABLE itab.
 
 Effect
 
-This variant inserts the rows contained in an internal table [itab](javascript:call_link\('abapinsert_source.htm'\)).
+This variant inserts the rows contained in an internal table [itab](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm).
 
 Hint
 
@@ -116,13 +116,13 @@ Meaning
 
 0
 
-All rows of the internal table [itab](javascript:call_link\('abapinsert_source.htm'\)) were inserted or the internal table is empty.
+All rows of the internal table [itab](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm) were inserted or the internal table is empty.
 
 4
 
-The addition [ACCEPTING DUPLICATE KEYS](javascript:call_link\('abapinsert_source.htm'\)) is specified and not all rows of the internal table were inserted, since a row with the same [primary key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") or a unique [secondary index](javascript:call_link\('abensecondary_index_glosry.htm'\) "Glossary Entry") exists in the DDIC database table.
+The addition [ACCEPTING DUPLICATE KEYS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm) is specified and not all rows of the internal table were inserted, since a row with the same [primary key](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprimary_key_glosry.htm "Glossary Entry") or a unique [secondary index](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensecondary_index_glosry.htm "Glossary Entry") exists in the DDIC database table.
 
-More information about exceptions when inserting rows from internal tables can be found under [TABLE itab](javascript:call_link\('abapinsert_source.htm'\)).
+More information about exceptions when inserting rows from internal tables can be found under [TABLE itab](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm).
 
 Example
 
@@ -134,7 +134,7 @@ itab = VALUE #( ( id = 'X' num1 = 111 )
                 ( id = 'Y' num1 = 222 ) ).
 INSERT demo\_expressions FROM TABLE itab.
 
-A [host expression](javascript:call_link\('abenhost_expression_glosry.htm'\) "Glossary Entry") with the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) can be used instead of an explicit internal table.
+A [host expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhost_expression_glosry.htm "Glossary Entry") with the value operator [VALUE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_value.htm) can be used instead of an explicit internal table.
 
 DELETE FROM demo\_expressions.
 INSERT demo\_expressions
@@ -147,7 +147,7 @@ INSERT target FROM ( SELECT subquery\_clauses *\[*UNION ...*\]* ).
 
 Effect
 
-This variant inserts the rows of the [result set](javascript:call_link\('abapinsert_from_select.htm'\)) of an embedded [subquery](javascript:call_link\('abensubquery_glosry.htm'\) "Glossary Entry") [SELECT subquery\_clauses](javascript:call_link\('abapinsert_source.htm'\)), where multiple result sets can be joined with [UNION](javascript:call_link\('abapunion.htm'\)).
+This variant inserts the rows of the [result set](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_from_select.htm) of an embedded [subquery](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensubquery_glosry.htm "Glossary Entry") [SELECT subquery\_clauses](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm), where multiple result sets can be joined with [UNION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapunion.htm).
 
 System Fields
 This variant of the statement INSERT sets the value of the system field sy-subrc as follows:
@@ -166,7 +166,7 @@ The result set of the embedded subquery is empty and no rows were inserted.
 
 Hints
 
--   The statement INSERT with subquery cannot be used if [logging](javascript:call_link\('abenddic_database_tables_protocol.htm'\)) is enabled for the table that is filled.
+-   The statement INSERT with subquery cannot be used if [logging](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_protocol.htm) is enabled for the table that is filled.
 
 -   If a row could not be inserted when the result set of the embedded subquery was inserted (since a row with the same primary key or the same unique secondary index exists), a catchable exception of the class CX\_SY\_OPEN\_SQL\_DB is always raised and the system field sy-subrc is not set.
 
@@ -187,4 +187,4 @@ SELECT \*
 cl\_demo\_output=>display( result ).
 
 Continue
-[INSERT dbtab, source](javascript:call_link\('abapinsert_source.htm'\))
+[INSERT dbtab, source](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_source.htm)

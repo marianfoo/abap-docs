@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 database table
 
-[Database object](javascript:call_link\('abendb_object_glosry.htm'\) "Glossary Entry") of a [relational database](javascript:call_link\('abenrelational_database_glosry.htm'\) "Glossary Entry") in which the data is structured as a table in rows and columns. The database tables of an [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry") are defined as [DDIC database tables](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry").
+[Database object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_object_glosry.htm "Glossary Entry") of a [relational database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrelational_database_glosry.htm "Glossary Entry") in which the data is structured as a table in rows and columns. The database tables of an [AS ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm "Glossary Entry") are defined as [DDIC database tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_db_table_glosry.htm "Glossary Entry").

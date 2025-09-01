@@ -4,20 +4,20 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v2.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - CDS View Entity, SELECT, Associations, ABENCDS_ASSOCIATION_V2, 757%0D%0A%0D
 %0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CDS DDL - CDS View Entity, SELECT, Associations
 
-[CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") offer an advanced modelling capability for CDS data models. A CDS association defines a relationship between two [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"). A CDS association can be used to include fields from the [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") in the current view, and/or it can be published for usage in other CDS entities or in ABAP SQL.
+[CDS associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") offer an advanced modelling capability for CDS data models. A CDS association defines a relationship between two [CDS entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm "Glossary Entry"). A CDS association can be used to include fields from the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") in the current view, and/or it can be published for usage in other CDS entities or in ABAP SQL.
 
-As soon as an association is used in a [path expression](javascript:call_link\('abenpath_expression_glosry.htm'\) "Glossary Entry"), for example, to specify a field from the [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") in the element list of a view, it is internally transformed into a [join](javascript:call_link\('abenjoin_glosry.htm'\) "Glossary Entry"). So technically, a CDS association is instantiated as join. The benefit of a CDS association compared to a join is that it can be reused in different positions and that it renders the task of coding complex [join expressions](javascript:call_link\('abenjoin_expression_glosry.htm'\) "Glossary Entry") superfluous. Further details about the use cases of CDS associations and by which join type they are represented are explained in the topic below about CDS associations and joins.
+As soon as an association is used in a [path expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpath_expression_glosry.htm "Glossary Entry"), for example, to specify a field from the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") in the element list of a view, it is internally transformed into a [join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_glosry.htm "Glossary Entry"). So technically, a CDS association is instantiated as join. The benefit of a CDS association compared to a join is that it can be reused in different positions and that it renders the task of coding complex [join expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjoin_expression_glosry.htm "Glossary Entry") superfluous. Further details about the use cases of CDS associations and by which join type they are represented are explained in the topic below about CDS associations and joins.
 
-[Compositions](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry") and [to-parent associations](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry") are special kinds of CDS associations. They define an existential dependency of the composition child to its composition parent. For example, a sales order item (composition child) always belongs to a sales order header (composition parent).
+[Compositions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_glosry.htm "Glossary Entry") and [to-parent associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abento_parent_association_glosry.htm "Glossary Entry") are special kinds of CDS associations. They define an existential dependency of the composition child to its composition parent. For example, a sales order item (composition child) always belongs to a sales order header (composition parent).
 
-For an overview of all possible association targets of all CDS entities that can define associations, see [Data Source Matrix](javascript:call_link\('abencds_data_source_matrix.htm'\)).
+For an overview of all possible association targets of all CDS entities that can define associations, see [Data Source Matrix](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_data_source_matrix.htm).
 
 Example
 
@@ -58,13 +58,13 @@ define view entity DEMO\_SALES\_CDS\_SO\_I\_VE
 
 For further details, see the following sections:
 
--   [Details on CDS Associations: Use Cases and Join Types](javascript:call_link\('abencds_assoc_join_v2.htm'\))
--   [Association](javascript:call_link\('abencds_simple_association_v2.htm'\))
--   [Composition](javascript:call_link\('abencds_composition_v2.htm'\))
--   [To-parent Association](javascript:call_link\('abencds_to_parent_assoc_v2.htm'\))
+-   [Details on CDS Associations: Use Cases and Join Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v2.htm)
+-   [Association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_simple_association_v2.htm)
+-   [Composition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_v2.htm)
+-   [To-parent Association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_to_parent_assoc_v2.htm)
 
 Continue
-[CDS DDL - CDS View Entity, Associations and Joins](javascript:call_link\('abencds_assoc_join_v2.htm'\))
-[CDS DDL - CDS View Entity, ASSOCIATION](javascript:call_link\('abencds_simple_association_v2.htm'\))
-[CDS DDL - CDS View Entity, COMPOSITION](javascript:call_link\('abencds_composition_v2.htm'\))
-[CDS DDL - CDS View Entity, ASSOCIATION TO PARENT](javascript:call_link\('abencds_to_parent_assoc_v2.htm'\))
+[CDS DDL - CDS View Entity, Associations and Joins](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v2.htm)
+[CDS DDL - CDS View Entity, ASSOCIATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_simple_association_v2.htm)
+[CDS DDL - CDS View Entity, COMPOSITION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_v2.htm)
+[CDS DDL - CDS View Entity, ASSOCIATION TO PARENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_to_parent_assoc_v2.htm)

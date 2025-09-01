@@ -4,22 +4,22 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces (ABAP Objects)](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [ABAP Objects - Methods](javascript:call_link\('abenmethods.htm'\)) →  [METHODS](javascript:call_link\('abapmethods.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_declarations.htm) →  [Classes and Interfaces (ABAP Objects)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_ifac_components.htm) →  [ABAP Objects - Methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethods.htm) →  [METHODS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: METHODS, IMPORTING, EXPORTING, CHANGING, RAISING, ABAPMETHODS_GENERAL, 757%0D%0A%0D%0
 AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 METHODS, IMPORTING, EXPORTING, CHANGING, RAISING
 
-[Short Reference](javascript:call_link\('abapmethods_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_shortref.htm)
 
 Syntax
 
-METHODS meth *\[*[ABSTRACT*|*FINAL](javascript:call_link\('abapmethods_abstract_final.htm'\))*\]*
-            *|**\[*[DEFAULT IGNORE*|*FAIL](javascript:call_link\('abapmethods_default.htm'\))*\]*
-  *\[*IMPORTING [parameters](javascript:call_link\('abapmethods_parameters.htm'\)) *\[*PREFERRED PARAMETER p*\]**\]*
-  *\[*EXPORTING [parameters](javascript:call_link\('abapmethods_parameters.htm'\))*\]*
-  *\[*CHANGING  [parameters](javascript:call_link\('abapmethods_parameters.htm'\))*\]*
+METHODS meth *\[*[ABSTRACT*|*FINAL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_abstract_final.htm)*\]*
+            *|**\[*[DEFAULT IGNORE*|*FAIL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_default.htm)*\]*
+  *\[*IMPORTING [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_parameters.htm) *\[*PREFERRED PARAMETER p*\]**\]*
+  *\[*EXPORTING [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_parameters.htm)*\]*
+  *\[*CHANGING  [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_parameters.htm)*\]*
   *\[**{*RAISING exc1*|*RESUMABLE(exc1) exc2*|*RESUMABLE(exc2) ...*}*
   *|**{*EXCEPTIONS exc1 exc2 ...*}**\]*.
 
@@ -33,15 +33,15 @@ Additions:
 
 Effect
 
-This statement declares a general instance method meth. The additions [ABSTRACT](javascript:call_link\('abapmethods_abstract_final.htm'\)) and [FINAL](javascript:call_link\('abapmethods_abstract_final.htm'\)) can be used to make the method of a class abstract or final. The addition [DEFAULT](javascript:call_link\('abapmethods_default.htm'\)) is used to make an interface method optional.
+This statement declares a general instance method meth. The additions [ABSTRACT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_abstract_final.htm) and [FINAL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_abstract_final.htm) can be used to make the method of a class abstract or final. The addition [DEFAULT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_default.htm) is used to make an interface method optional.
 
-The additions IMPORTING, EXPORTING, and CHANGING define the [parameter interface](javascript:call_link\('abenformal_parameters_oview.htm'\)) of the method. After every addition, the corresponding formal parameters are defined by specifying a list [parameters](javascript:call_link\('abapmethods_parameters.htm'\)). The order of the additions is fixed.
+The additions IMPORTING, EXPORTING, and CHANGING define the [parameter interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenformal_parameters_oview.htm) of the method. After every addition, the corresponding formal parameters are defined by specifying a list [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_parameters.htm). The order of the additions is fixed.
 
 The remaining additions determine which exceptions are propagated or raised by the method.
 
 Hint
 
-Within a method, the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [IS SUPPLIED](javascript:call_link\('abenlogexp_supplied.htm'\)) can be used to check whether an optional formal parameter was assigned an actual parameter when it was called.
+Within a method, the [predicate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [IS SUPPLIED](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_supplied.htm) can be used to check whether an optional formal parameter was assigned an actual parameter when it was called.
 
 Addition 1   
 
@@ -51,7 +51,7 @@ Effect
 
 IMPORTING defines input parameters. When the method is called, an appropriate actual parameter must be specified for each non-optional input parameter. The content of the actual parameter is passed to the input parameter when it is called. The content of an input parameter for which pass-by-reference is defined cannot be changed in the method.
 
-PREFERRED PARAMETER can be used to flag an input parameter p1 p2 ... from the list [parameters](javascript:call_link\('abapmethods_parameters.htm'\)) after IMPORTING as a preferred parameter. This specification is only possible if all input parameters and input/output parameters are optional. The parameter specified after PREFERRED PARAMETER is implicitly set to optional. If the method is called using the syntax meth( a ) (as [standalone](javascript:call_link\('abapcall_method_static_short.htm'\)) or [functional](javascript:call_link\('abapcall_method_functional.htm'\)) syntax), the actual parameter a is assigned to the preferred input parameter p.
+PREFERRED PARAMETER can be used to flag an input parameter p1 p2 ... from the list [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_parameters.htm) after IMPORTING as a preferred parameter. This specification is only possible if all input parameters and input/output parameters are optional. The parameter specified after PREFERRED PARAMETER is implicitly set to optional. If the method is called using the syntax meth( a ) (as [standalone](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_static_short.htm) or [functional](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_functional.htm) syntax), the actual parameter a is assigned to the preferred input parameter p.
 
 Hint
 
@@ -128,11 +128,11 @@ Addition 4  
 
 Effect
 
-The addition RAISING is used to declare the [class-based exceptions](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry") exc1 exc2 ... that can be propagated from the method to the caller.
+The addition RAISING is used to declare the [class-based exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_based_exception_glosry.htm "Glossary Entry") exc1 exc2 ... that can be propagated from the method to the caller.
 
 For exc1 exc2 ..., all exception that are classes and that are visible at this point can be specified here. The exception classes must be specified in ascending order with respect to their inheritance hierarchy. Each exception class may only be specified once.
 
-The addition RESUMABLE declares an exception that can be propagated as a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry"). This means:
+The addition RESUMABLE declares an exception that can be propagated as a [resumable exception](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenresumable_exception_glosry.htm "Glossary Entry"). This means:
 
 -   A resumable exception is propagated as such.
 -   The addition does not have any effect on a non-resumable exception.
@@ -146,9 +146,9 @@ Hints
 
 -   The declaration of exceptions of the category CX\_STATIC\_CHECK is checked statically in the syntax check. For exceptions of the category CX\_DYNAMIC\_CHECK, the check is not performed until runtime. For exceptions of the category CX\_NO\_CHECK no check is performed.
 -   Exceptions of the category CX\_NO\_CHECK can be declared explicitly with or without the addition RESUMABLE. Implicitly the addition RESUMABLE is always added. An explicit declaration of an exception of the category CX\_NO\_CHECK has no effect but it documents for the user of a method the probability that this exception can be expected. Furthermore, it allows the category of existing exceptions to be changed into CX\_NO\_CHECK without leading to a syntax error.
--   In a method in which class-based exceptions are declared using the addition RAISING, the obsolete statement [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)) cannot be used to handle [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"). Instead, the catchable exceptions assigned to the runtime errors should be handled in a [TRY](javascript:call_link\('abaptry.htm'\)) control structure.
--   An exception that is raised as resumable in the method with [RAISE RESUMABLE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) should also be declared as resumable in the interface, otherwise the exception would lose this property when the method is exited.
--   See also [Class-Based Exceptions in Procedures](javascript:call_link\('abenexceptions_procedures.htm'\)).
+-   In a method in which class-based exceptions are declared using the addition RAISING, the obsolete statement [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcatch_sys.htm) cannot be used to handle [catchable runtime errors](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"). Instead, the catchable exceptions assigned to the runtime errors should be handled in a [TRY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptry.htm) control structure.
+-   An exception that is raised as resumable in the method with [RAISE RESUMABLE EXCEPTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_exception_class.htm) should also be declared as resumable in the interface, otherwise the exception would lose this property when the method is exited.
+-   See also [Class-Based Exceptions in Procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexceptions_procedures.htm).
 
 Example
 
@@ -186,15 +186,15 @@ Addition 5  
 
 Effect
 
-The addition EXCEPTIONS is used to define a list of [non-class-based exceptions](javascript:call_link\('abenexceptions_non_class.htm'\)) exc1 exc2... that can be raised by the statements [RAISE](javascript:call_link\('abapraise_exception.htm'\)) or [MESSAGE RAISING](javascript:call_link\('abapmessage_raising.htm'\)) in the method. The names exc1 exc2 ... for the exceptions that are to be defined are freely definable and specified directly. Exceptions defined in this way are bound to the method, similar to formal parameters, and cannot be propagated.
+The addition EXCEPTIONS is used to define a list of [non-class-based exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexceptions_non_class.htm) exc1 exc2... that can be raised by the statements [RAISE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_exception.htm) or [MESSAGE RAISING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmessage_raising.htm) in the method. The names exc1 exc2 ... for the exceptions that are to be defined are freely definable and specified directly. Exceptions defined in this way are bound to the method, similar to formal parameters, and cannot be propagated.
 
-If such an exception is raised in a method and no return code was assigned to it with the addition EXCEPTIONS in the [method call](javascript:call_link\('abenmethod_calls.htm'\)), a runtime error occurs.
+If such an exception is raised in a method and no return code was assigned to it with the addition EXCEPTIONS in the [method call](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethod_calls.htm), a runtime error occurs.
 
-The additions RAISING and EXCEPTIONS cannot be used simultaneously. In addition, in a method in whose interface non-class-based exceptions are defined, the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) or the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)) must not be used to raise class-based exceptions.
+The additions RAISING and EXCEPTIONS cannot be used simultaneously. In addition, in a method in whose interface non-class-based exceptions are defined, the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapraise_exception_class.htm) or the addition [THROW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconditional_expressions.htm) must not be used to raise class-based exceptions.
 
 Programming Guideline
 
-[Using Class-Based Exceptions](javascript:call_link\('abenclass_exception_guidl.htm'\) "Guideline")
+[Using Class-Based Exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_exception_guidl.htm "Guideline")
 
 For new developments, it is recommended that class-based exceptions that are independent of individual methods are used.
 

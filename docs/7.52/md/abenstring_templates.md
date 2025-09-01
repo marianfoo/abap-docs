@@ -4,35 +4,35 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [string\_exp - String Expressions](javascript:call_link\('abapcompute_string.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_processing_expr_func.htm) →  [string\_exp - String Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_string.htm) → 
 
 string\_exp - String Templates
 
 Syntax
 
-|*\[*[literal\_text](javascript:call_link\('abenstring_templates_literals.htm'\))*\]**\[* [embedded\_expressions](javascript:call_link\('abenstring_templates_expressions.htm'\))*\]**\[* [control\_characters](javascript:call_link\('abenstring_templates_separators.htm'\))*\]*|
+|*\[*[literal\_text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_literals.htm)*\]**\[* [embedded\_expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_expressions.htm)*\]**\[* [control\_characters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_separators.htm)*\]*|
 
 Effect
 
 A string template is enclosed by two characters "|" and creates a character string that is used by the string expression instead of the string templates. The characters of this character string consist of any sequence of the following syntax elements of the string template:
 
--   Literal text [literal\_text](javascript:call_link\('abenstring_templates_literals.htm'\))
+-   Literal text [literal\_text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_literals.htm)
 
--   Embedded expressions [embedded\_expressions](javascript:call_link\('abenstring_templates_expressions.htm'\))
+-   Embedded expressions [embedded\_expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_expressions.htm)
 
--   Control characters [control\_characters](javascript:call_link\('abenstring_templates_separators.htm'\))
+-   Control characters [control\_characters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_separators.htm)
 
-A string template that starts with "|" must be closed with "|" within the same line of source code. The only exceptions to this rule are line breaks in [embedded expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)). There are, however, no length restrictions on a string template. The [literal operator](javascript:call_link\('abenliteral_operator_glosry.htm'\) "Glossary Entry") & or the [chaining operator](javascript:call_link\('abenconcatenation_operator_glosry.htm'\) "Glossary Entry") && can be used to join multiple string templates in a single string template. A string template can be defined across multiple lines of source code and be given [comments](javascript:call_link\('abencomment_glosry.htm'\) "Glossary Entry").
+A string template that starts with "|" must be closed with "|" within the same line of source code. The only exceptions to this rule are line breaks in [embedded expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_expressions.htm). There are, however, no length restrictions on a string template. The [literal operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliteral_operator_glosry.htm "Glossary Entry") & or the [chaining operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconcatenation_operator_glosry.htm "Glossary Entry") && can be used to join multiple string templates in a single string template. A string template can be defined across multiple lines of source code and be given [comments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomment_glosry.htm "Glossary Entry").
 
 Notes
 
--   To represent the delimiter "|" as a string template with in [literal text](javascript:call_link\('abenstring_templates_literals.htm'\)), it must be prefixed with the escape character \\.
+-   To represent the delimiter "|" as a string template with in [literal text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_literals.htm), it must be prefixed with the escape character \\.
 
 -   The delimiter characters "|" can be formatted in the ABAP Editor by choosing Fonts and Colors → Token operator to highlight them in the source code.
 
--   Using the character string function [escape](javascript:call_link\('abenescape_functions.htm'\)), all special characters for character string templates can be put in front of their escape character.
+-   Using the character string function [escape](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenescape_functions.htm), all special characters for character string templates can be put in front of their escape character.
 
--   When string templates are joined, the literal operator [&](javascript:call_link\('abenliteral_operator.htm'\)) behaves differently than with literals. This operator is executed at runtime (like the chaining operator [&&](javascript:call_link\('abenstring_operators.htm'\))) and not during compilation as a one-off process. This means the restriction of 255 characters for literals no longer applies. The two joins
+-   When string templates are joined, the literal operator [&](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliteral_operator.htm) behaves differently than with literals. This operator is executed at runtime (like the chaining operator [&&](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_operators.htm)) and not during compilation as a one-off process. This means the restriction of 255 characters for literals no longer applies. The two joins
 
 |...| &  |...|
 
@@ -52,7 +52,7 @@ However they are different to
 
 In the first two cases, a length restriction of 255 characters applies. In the third case, trailing blanks are ignored.
 
--   If the right side of an [assignment](javascript:call_link\('abenequals_string_expr.htm'\)) appends strings using string templates to a variable specified with the type string on the left side of the assignment, the variable is used directly in [some cases](javascript:call_link\('abenstring_expr_perfo.htm'\)) without producing a subtotal. Be careful to preserve this optimization, especially in loops.
+-   If the right side of an [assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_string_expr.htm) appends strings using string templates to a variable specified with the type string on the left side of the assignment, the variable is used directly in [some cases](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_expr_perfo.htm) without producing a subtotal. Be careful to preserve this optimization, especially in loops.
 
 Example
 
@@ -73,7 +73,7 @@ DATA(result3) = |Hello| & "sub template 1
                 |!|.
 
 Continue
-[String Templates - literal\_text](javascript:call_link\('abenstring_templates_literals.htm'\))
-[String Templates - embedded\_expressions](javascript:call_link\('abenstring_templates_expressions.htm'\))
-[String Templates - control\_characters](javascript:call_link\('abenstring_templates_separators.htm'\))
-[Examples of string templates](javascript:call_link\('abenstring_templates_abexas.htm'\))
+[String Templates - literal\_text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_literals.htm)
+[String Templates - embedded\_expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_expressions.htm)
+[String Templates - control\_characters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_separators.htm)
+[Examples of string templates](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_abexas.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - Projection Views](javascript:call_link\('abencds_proj_views.htm'\)) →  [CDS DDL - CDS Projection View, Transactional Interface](javascript:call_link\('abencds_pv_transactional_interface.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY AS PROJECTION ON, Transactional Interface](javascript:call_link\('abencds_define_view_as_interface.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_entity.htm) →  [ABAP CDS - Projection Views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_views.htm) →  [CDS DDL - CDS Projection View, Transactional Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_pv_transactional_interface.htm) →  [CDS DDL - DEFINE VIEW ENTITY AS PROJECTION ON, Transactional Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_as_interface.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - projection_list, Transactional Interface, ABENCDS_ELEMENT_LIST_INTERFACE, 7
 57%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -13,12 +13,12 @@ CDS DDL - projection\_list, Transactional Interface
 
 Syntax
 
-... *\[*[@element\_annot1](javascript:call_link\('abencds_element_annotations_v2.htm'\))*\]*
-    *\[*[@element\_annot2](javascript:call_link\('abencds_element_annotations_v2.htm'\))*\]*
+... *\[*[@element\_annot1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_element_annotations_v2.htm)*\]*
+    *\[*[@element\_annot2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_element_annotations_v2.htm)*\]*
     ...
       *\[*KEY*\]*   *{*proj\_element        *\[*AS alias*\]**}*
-            *|* *{*[proj\_assoc](javascript:call_link\('abencds_proj_view_expose_assoc.htm'\))          *\[*AS alias*\]**}*
-            *|* *{*[cast\_expr](javascript:call_link\('abencds_cast_expression_v2.htm'\))            AS alias*}*
+            *|* *{*[proj\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_expose_assoc.htm)          *\[*AS alias*\]**}*
+            *|* *{*[cast\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v2.htm)            AS alias*}*
 
 Additions:
 
@@ -27,24 +27,24 @@ Additions:
 
 Effect
 
-Defines the elements of a [CDS transactional interface](javascript:call_link\('abencds_trans_interface_glosry.htm'\) "Glossary Entry"). The elements are specified in a comma-separated list in curly brackets { }.
+Defines the elements of a [CDS transactional interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_trans_interface_glosry.htm "Glossary Entry"). The elements are specified in a comma-separated list in curly brackets { }.
 
 The feature set of a transactional interface is restricted to projecting elements from the underlying projected entity. No new associations, virtual elements, or fields can be defined.
 
 The following elements are supported in the projection list of a transactional interface:
 
--   Element annotations can be specified. The rules for [propagation of element annotations in CDS projection views](javascript:call_link\('abencds_element_annotations_pv.htm'\)) apply.
--   proj\_element exposes an element from the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry"). AS can be used to define an alternative element name alias.
+-   Element annotations can be specified. The rules for [propagation of element annotations in CDS projection views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_element_annotations_pv.htm) apply.
+-   proj\_element exposes an element from the [projected entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_pv_projected_entity_glosry.htm "Glossary Entry"). AS can be used to define an alternative element name alias.
     
     Note: In transactional interfaces, an element from the projected entity can be exposed multiple times with different alias names.
     
--   [proj\_assoc](javascript:call_link\('abencds_proj_view_expose_assoc.htm'\)) exposes a [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry"), a [CDS composition](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry"), or a [CDS to-parent association](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry") from the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry"). Exposed associations can be redirected to a new target when the [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") is also projected. Read topic [CDS DDL - CDS Projection View, proj\_assoc](javascript:call_link\('abencds_proj_view_expose_assoc.htm'\)) for further details.
+-   [proj\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_expose_assoc.htm) exposes a [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"), a [CDS composition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_glosry.htm "Glossary Entry"), or a [CDS to-parent association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abento_parent_association_glosry.htm "Glossary Entry") from the [projected entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_pv_projected_entity_glosry.htm "Glossary Entry"). Exposed associations can be redirected to a new target when the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") is also projected. Read topic [CDS DDL - CDS Projection View, proj\_assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_view_expose_assoc.htm) for further details.
     
     Note: Adding additional filter conditions to exposed associations is not supported in CDS transactional interfaces.
     
-    All elements included in the ON clause of an exposed [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") must also be included in the projection list of the CDS projection view.
+    All elements included in the ON clause of an exposed [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") must also be included in the projection list of the CDS projection view.
     
--   A [cast\_expr](javascript:call_link\('abencds_cast_expression_v2.htm'\)) can be used to assign a new data element to a field, for example to get additional semantic information. The addition PRESERVING TYPE is mandatory and must be used. For a cast expression, an alias name must be specified with the keyword AS.
+-   A [cast\_expr](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cast_expression_v2.htm) can be used to assign a new data element to a field, for example to get additional semantic information. The addition PRESERVING TYPE is mandatory and must be used. For a cast expression, an alias name must be specified with the keyword AS.
     
     Caution: In transactional interfaces, only a limited form of cast expressions is available. Cast expressions can only be used to assign a data element to a field, but not for type conversion.
     
@@ -106,4 +106,4 @@ Addition 2  
 
 Effect
 
-Defines an alternative element name for the projected element. The alternative element name replaces the actual name of the element from the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry"). The view field is created under the alternative element name in the CDS transactional interface. Accordingly, the alternative element name must comply with the general syntax rules for [names](javascript:call_link\('abencds_general_syntax_rules.htm'\)).
+Defines an alternative element name for the projected element. The alternative element name replaces the actual name of the element from the [projected entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_pv_projected_entity_glosry.htm "Glossary Entry"). The view field is created under the alternative element name in the CDS transactional interface. Accordingly, the alternative element name must comply with the general syntax rules for [names](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_general_syntax_rules.htm).

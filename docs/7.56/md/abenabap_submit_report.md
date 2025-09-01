@@ -4,19 +4,19 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) → 
 
 Calling Executable Programs
 
-[Executable programs](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") can only be executed directly from the perspective of the end user. Whenever an executable program is started using System → Services → Reporting or a [report transaction](javascript:call_link\('abenreport_transaction_glosry.htm'\) "Glossary Entry"), the statement [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) is executed internally. Executable programs are the only programs that can be called using SUBMIT.
+[Executable programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexecutable_program_glosry.htm "Glossary Entry") can only be executed directly from the perspective of the end user. Whenever an executable program is started using System → Services → Reporting or a [report transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreport_transaction_glosry.htm "Glossary Entry"), the statement [SUBMIT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsubmit.htm) is executed internally. Executable programs are the only programs that can be called using SUBMIT.
 
--   [Flow of an Executable Program after SUBMIT](javascript:call_link\('abenreporting_process.htm'\))
--   [SUBMIT](javascript:call_link\('abapsubmit.htm'\))
+-   [Flow of an Executable Program after SUBMIT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreporting_process.htm)
+-   [SUBMIT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsubmit.htm)
 
 Hint
 
-When the statement SUBMIT is executed, an authorization check is performed using the [authorization object](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") S\_PROGRAM for the [authorization group](javascript:call_link\('abenauthorization_group_glosry.htm'\) "Glossary Entry") specified in the [program attributes](javascript:call_link\('abenprogram_attribute_glosry.htm'\) "Glossary Entry").
+When the statement SUBMIT is executed, an authorization check is performed using the [authorization object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_object_glosry.htm "Glossary Entry") S\_PROGRAM for the [authorization group](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_group_glosry.htm "Glossary Entry") specified in the [program attributes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprogram_attribute_glosry.htm "Glossary Entry").
 
 Continue
-[Flow of an Executable Program after SUBMIT](javascript:call_link\('abenreporting_process.htm'\))
-[SUBMIT](javascript:call_link\('abapsubmit.htm'\))
+[Flow of an Executable Program after SUBMIT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreporting_process.htm)
+[SUBMIT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsubmit.htm)

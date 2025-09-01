@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](javascript:call_link\('abencds_operands_and_expr_v2.htm'\)) →  [CDS DDL - CDS View Entity, path\_expr](javascript:call_link\('abencds_path_expression_v2.htm'\)) →  [CDS DDL - CDS View Entity, path\_expr, attributes](javascript:call_link\('abencds_path_expr_attr_v2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_select_statement_v2.htm) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_operands_and_expr_v2.htm) →  [CDS DDL - CDS View Entity, path\_expr](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_v2.htm) →  [CDS DDL - CDS View Entity, path\_expr, attributes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expr_attr_v2.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20CDS%20View%20Entity%2C%20path_expr%2C%20cardinality%2C%20ABENCDS_PATH_EXPR_CARD_V2%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggesti
 on%20for%20improvement:)
@@ -23,9 +23,9 @@ Numeric Syntax
 
 Effect
 
-Specifies the [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") of the current CDS association as unique or non-unique. The cardinality can be specified in words or in numbers. The syntax written in words is recommended.
+Specifies the [cardinality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencardinality_glosry.htm "Glossary Entry") of the current CDS association as unique or non-unique. The cardinality can be specified in words or in numbers. The syntax written in words is recommended.
 
-The syntax written in words can specify the [source](javascript:call_link\('abensource_cardinality_glosry.htm'\) "Glossary Entry") and [target cardinalities](javascript:call_link\('abentarget_cardinality_glosry.htm'\) "Glossary Entry"). However, it is also possible to specify only the target cardinality. The source cardinality can be omitted. The following combinations are possible:
+The syntax written in words can specify the [source](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensource_cardinality_glosry.htm "Glossary Entry") and [target cardinalities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentarget_cardinality_glosry.htm "Glossary Entry"). However, it is also possible to specify only the target cardinality. The source cardinality can be omitted. The following combinations are possible:
 
 -   EXACT ONE TO EXACT ONE
 -   EXACT ONE TO MANY
@@ -44,13 +44,13 @@ The numeric syntax only specifies the target cardinality. The target cardinality
 
 A colon (:) must be placed at the end of the cardinality specification.
 
-If the target cardinality is specified as to-one (using the syntax additions TO EXACT ONE:, TO ONE:, or 1:), it is possible to use filter conditions in path expressions, which are used in [WHERE](javascript:call_link\('abencds_where_clause_v2.htm'\)) clauses or [HAVING](javascript:call_link\('abencds_having_clause_v2.htm'\)) clauses. In a clause like this, it overwrites the [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") of the [CDS association](javascript:call_link\('abencds_association_v2.htm'\)).
+If the target cardinality is specified as to-one (using the syntax additions TO EXACT ONE:, TO ONE:, or 1:), it is possible to use filter conditions in path expressions, which are used in [WHERE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_where_clause_v2.htm) clauses or [HAVING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_having_clause_v2.htm) clauses. In a clause like this, it overwrites the [cardinality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencardinality_glosry.htm "Glossary Entry") of the [CDS association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_association_v2.htm).
 
-The cardinality cannot be specified as the only addition in square brackets. It must always be combined with a [filter condition](javascript:call_link\('abencds_path_expression_filter_v2.htm'\)).
+The cardinality cannot be specified as the only addition in square brackets. It must always be combined with a [filter condition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_path_expression_filter_v2.htm).
 
 Hint
 
-Specifying the cardinality as to-one cardinality prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](javascript:call_link\('abencds_where_clause_v2.htm'\)) clause or [HAVING](javascript:call_link\('abencds_having_clause_v2.htm'\)) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
+Specifying the cardinality as to-one cardinality prevents a syntax error if a path specified with filter conditions or with a non-unique cardinality is used in a [WHERE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_where_clause_v2.htm) clause or [HAVING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_having_clause_v2.htm) clause. However, at runtime, there is no check to validate whether the condition achieves the required unique cardinality.
 
 Example
 

@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_shortref.htm) →  S
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: sql_exp, ABENSQL_EXP_SHORTREF, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestio
 n for improvement:)
 
 sql\_exp - Short Reference
 
-[Reference](javascript:call_link\('abapsql_expr.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm)
 
 Syntax
 
@@ -23,7 +23,7 @@ Syntax
   *|* *{* operand1 && operand2 *\[*&&  operand3 ... *\]* *}*
   *|* *{* coalesce( arg1, arg2 ) *}*
   *|* *{* CASE ... WHEN ... THEN ... ELSE ... END *}*
-  *|* *{* [sql\_agg](javascript:call_link\('abenaggregate_shortref.htm'\)) *}*
+  *|* *{* [sql\_agg](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenaggregate_shortref.htm) *}*
   *|* *{* sql\_win *}* ...
 
 Effect
@@ -32,21 +32,21 @@ Expression that is passed to the database system and executed there.
 
 Additions   
 
--   [col *|* literal *|* @dobj  *|* @( expr )](javascript:call_link\('abensql_elem.htm'\))
+-   [col *|* literal *|* @dobj  *|* @( expr )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_elem.htm)
     Column or literal, host variable, host expression.
--   [operand1 +*|*\-*|*\**|*/ operand2 *\[*+*|*\-*|*\**|*/ operand3 ... *\]*](javascript:call_link\('abensql_arith.htm'\))
+-   [operand1 +*|*\-*|*\**|*/ operand2 *\[*+*|*\-*|*\**|*/ operand3 ... *\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_arith.htm)
     Arithmetic expression
--   [func( arg1*\[*, arg2*\]*... )](javascript:call_link\('abensql_arith_func.htm'\))
+-   [func( arg1*\[*, arg2*\]*... )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_arith_func.htm)
     Numeric function or string function.
--   [cast( operand AS dtype )](javascript:call_link\('abensql_cast.htm'\))
+-   [cast( operand AS dtype )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_cast.htm)
     Type modification.
--   [operand1 && operand2  *\[*&& operand3 ... *\]*](javascript:call_link\('abensql_string.htm'\))
+-   [operand1 && operand2  *\[*&& operand3 ... *\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_string.htm)
     Chaining of character strings.
--   [COALESCE( arg1, arg2 )](javascript:call_link\('abensql_elem.htm'\))
+-   [COALESCE( arg1, arg2 )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_elem.htm)
     Replacement of a null value.
--   [CASE ... WHEN ... THEN ... ELSE ... END](javascript:call_link\('abensql_case.htm'\))
+-   [CASE ... WHEN ... THEN ... ELSE ... END](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_case.htm)
     Case distinction.
--   [sql\_agg](javascript:call_link\('abenaggregate_shortref.htm'\))
+-   [sql\_agg](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenaggregate_shortref.htm)
     Aggregate expression.
 -   sql\_win
     Window expression.

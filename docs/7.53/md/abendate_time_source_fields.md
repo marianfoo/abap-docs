@@ -4,19 +4,19 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_elementary.htm) → 
 
 Date/Time Fields as Source Fields
 
--   [d](javascript:call_link\('abenconversion_type_d.htm'\))
+-   [d](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_d.htm)
 
--   [t](javascript:call_link\('abenconversion_type_t.htm'\))
+-   [t](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_t.htm)
 
 Notes
 
 -   The conversion rules are designed so that data objects of the types d and t display character-like behavior in character-like operand positions and numeric behavior in numeric operand positions.
 
--   In the case of a [substring access](javascript:call_link\('abenoffset_length.htm'\)) to an operand of the type d or t, the substring is handled like an operand of the type n and the relevant conversion rules apply.
+-   In the case of a [substring access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoffset_length.htm) to an operand of the type d or t, the substring is handled like an operand of the type n and the relevant conversion rules apply.
 
 Example
 
@@ -29,5 +29,5 @@ cl\_demo\_output=>display(
   |xstring: { CONV xstring( time ) }\\n| ).
 
 Continue
-[Source Field Type d](javascript:call_link\('abenconversion_type_d.htm'\))
-[Source Field Type t](javascript:call_link\('abenconversion_type_t.htm'\))
+[Source Field Type d](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_d.htm)
+[Source Field Type t](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_t.htm)

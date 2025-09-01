@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Processing Lists in the List Buffer](javascript:call_link\('abenabap_lists_complex.htm'\)) →  [SCROLL LIST](javascript:call_link\('abapscroll.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_list.htm) →  [Processing Lists in the List Buffer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_lists_complex.htm) →  [SCROLL LIST](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapscroll.htm) → 
 
 SCROLL LIST - vertical
 
-[Quick Reference](javascript:call_link\('abapscroll_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapscroll_shortref.htm)
 
 Syntax
 
@@ -60,7 +60,7 @@ Addition
 
 Effect
 
-The addition LINE specifies which line is displayed first on the pages selected using PAGE. If the addition LINE is not used, the list is displayed starting with the first line on the selected page. If the addition LINE is specified, the line on the selected page specified in lin is displayed under the [page header](javascript:call_link\('abenpage_header_glosry.htm'\) "Glossary Entry"), not counting the page header. lin expects a data object of type i. If the value in lin is 0 or less, it is processed as 1; if it is greater than the page length, it is processed as if it were the same as the page length and a value of 4 is set for sy-subrc.
+The addition LINE specifies which line is displayed first on the pages selected using PAGE. If the addition LINE is not used, the list is displayed starting with the first line on the selected page. If the addition LINE is specified, the line on the selected page specified in lin is displayed under the [page header](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpage_header_glosry.htm "Glossary Entry"), not counting the page header. lin expects a data object of type i. If the value in lin is 0 or less, it is processed as 1; if it is greater than the page length, it is processed as if it were the same as the page length and a value of 4 is set for sy-subrc.
 
 Alternative 4
 
@@ -68,6 +68,6 @@ Alternative 4
 
 Effect
 
-The additions FORWARD and BACKWARD without n PAGES move the current screen segment up or down by the current number of lines in the GUI window (sy-srows). The [page header](javascript:call_link\('abenpage_header_glosry.htm'\) "Glossary Entry") of the top page displayed is always displayed first.
+The additions FORWARD and BACKWARD without n PAGES move the current screen segment up or down by the current number of lines in the GUI window (sy-srows). The [page header](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpage_header_glosry.htm "Glossary Entry") of the top page displayed is always displayed first.
 
 The additions FORWARD and BACKWARD with n PAGES define the top page in the screen segment on the page derived by adding or subtracting the value in n from the current top page; n expects a data object of type i. If the resulting value is less than or equal to 0 is greater than the number of pages, it is processed as 1 or as if it were the same as the number of pages and a value of 4 is set for sy-subrc. The resulting page is displayed starting with the first line.

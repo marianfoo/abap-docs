@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Expressions and Functions](javascript:call_link\('abentable_processing_expr_func.htm'\)) →  [FOR, Table Iterations](javascript:call_link\('abenfor_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab.htm) →  [itab - Expressions and Functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_processing_expr_func.htm) →  [FOR, Table Iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: FOR, cond, ABENFOR_COND, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for
 improvement:)
@@ -13,31 +13,31 @@ FOR, cond
 
 Syntax
 
-... *\[*USING KEY [keyname](javascript:call_link\('abenkeyname.htm'\))*\]*
+... *\[*USING KEY [keyname](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkeyname.htm)*\]*
     *\[*FROM idx1*\]* *\[*TO idx2*\]* *\[*STEP n*\]*
-    *\[*WHERE ( [log\_exp](javascript:call_link\('abenlogexp.htm'\)) )*|*(cond\_syntax)*\]* ...
+    *\[*WHERE ( [log\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp.htm) )*|*(cond\_syntax)*\]* ...
 
 Effect
 
-As with [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)), the following is possible for each expression [FOR ... IN itab](javascript:call_link\('abenfor_in_itab.htm'\)) and [FOR GROUPS ... OF](javascript:call_link\('abenfor_groups_of.htm'\)) of a constructor expression:
+As with [LOOP AT itab](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab_cond.htm), the following is possible for each expression [FOR ... IN itab](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_in_itab.htm) and [FOR GROUPS ... OF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_groups_of.htm) of a constructor expression:
 
 -   USING KEY can be used to specify the table key with which the table is evaluated.
 -   FROM and TO can be used as upper and lower limits to restrict the lines in the table index used.
 -   STEP can be used to define the step size and loop order for processing the internal table.
 -   WHERE can be used to specify static or dynamic conditions for column content.
 
-The syntax and semantics are exactly the same as in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)), apart from the fact that a statically specified logical expression log\_exp in the WHERE condition must always be placed in parentheses.
+The syntax and semantics are exactly the same as in [LOOP AT itab](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab_cond.htm), apart from the fact that a statically specified logical expression log\_exp in the WHERE condition must always be placed in parentheses.
 
-In the expression [FOR ... IN GROUP group](javascript:call_link\('abenfor_in_group.htm'\)), only static WHERE conditions can be specified for cond.
+In the expression [FOR ... IN GROUP group](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_in_group.htm), only static WHERE conditions can be specified for cond.
 
 Hints
 
 -   The local auxiliary variables of the expression visible in this position can be used for idx1, idx2, and in the logical expression of the WHERE condition.
--   The [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line can be used in the logical expression of the WHERE condition.
+-   The [pseudo component](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_component_glosry.htm "Glossary Entry") table\_line can be used in the logical expression of the WHERE condition.
 
 Example
 
-The example shows how the same result can be achieved with a WHERE condition in an iteration expression and the filter operator [FILTER](javascript:call_link\('abenconstructor_expression_filter.htm'\)). The shorter filter expression is usually more suitable in this case.
+The example shows how the same result can be achieved with a WHERE condition in an iteration expression and the filter operator [FILTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_filter.htm). The shorter filter expression is usually more suitable in this case.
 
 DATA messages TYPE SORTED TABLE OF t100 WITH NON-UNIQUE KEY sprsl msgnr.
 SELECT \*

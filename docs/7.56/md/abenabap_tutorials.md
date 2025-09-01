@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) → 
 
 Videos, How to use the ABAP Keyword Documentation
 
-The ABAP Keyword Documentation is available in SAP GUI, in [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), and on SAP Help Portal. In each of these channels, the content and functionality is slightly different. To inform users about the full scope and functionality of the ABAP Keyword Documentation, there's a video tutorial available for each channel:
+The ABAP Keyword Documentation is available in SAP GUI, in [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm "Glossary Entry"), and on SAP Help Portal. In each of these channels, the content and functionality is slightly different. To inform users about the full scope and functionality of the ABAP Keyword Documentation, there's a video tutorial available for each channel:
 
 -   [How to use the ABAP Keyword Documentation in SAP GUI](https://www.youtube.com/watch?v=fsX-085MlD8)
 -   [How to use the ABAP Keyword Documentation in ADT](https://www.youtube.com/watch?v=hNGEYFpWwh0)

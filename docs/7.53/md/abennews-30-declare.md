@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 3.0](javascript:call_link\('abennews-30.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews.htm) →  [Changes in Release 3.0](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-30.htm) → 
 
 Declaration Statements in Release 3.0
 
@@ -19,32 +19,32 @@ Declaration Statements in Release 3.0
 Modification 1
 
 Defining Types
-The [TYPES](javascript:call_link\('abaptypes_simple.htm'\)) statement has been introduced, which makes it possible to define new types. It has a similar syntax to the DATA statement.
+The [TYPES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_simple.htm) statement has been introduced, which makes it possible to define new types. It has a similar syntax to the DATA statement.
 
 Modification 2
 
 Type Groups
-The type groups (see [TYPE-POOL](javascript:call_link\('abaptype-pool.htm'\))) make it possible to form groups of global types and their associated constants.
+The type groups (see [TYPE-POOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptype-pool.htm)) make it possible to form groups of global types and their associated constants.
 
 Modification 3
 
 Defining Constants
-The [CONSTANTS](javascript:call_link\('abapconstants.htm'\)) statement makes it possible to define constants. The syntax of the CONSTANTS statement is similar to that of the DATA statement. Both simple fields and structures can be defined as constants. Constant tables cannot be defined.
+The [CONSTANTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconstants.htm) statement makes it possible to define constants. The syntax of the CONSTANTS statement is similar to that of the DATA statement. Both simple fields and structures can be defined as constants. Constant tables cannot be defined.
 
 Modification 4
 
 Defining Static Variables
-Fields within subroutines and function modules that are defined with DATA are re-created and re-initialized each time the routine is called. The new statement [STATICS](javascript:call_link\('abapstatics.htm'\)), which can be used within subroutines and function modules, makes it possible to define fields that keep their values beyond the calls. This statement supports nearly all of the additions used with the DATA statement.
+Fields within subroutines and function modules that are defined with DATA are re-created and re-initialized each time the routine is called. The new statement [STATICS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstatics.htm), which can be used within subroutines and function modules, makes it possible to define fields that keep their values beyond the calls. This statement supports nearly all of the additions used with the DATA statement.
 
 Modification 5
 
 Multiple Nesting of Structures
-Previously, it was only possible to define simple nested structures using the DATA statement. It was not possible to nest DATA BEGIN OF, .... END OF. This restriction has now been lifted, which makes it possible to define structures as components of another structure. This is now possible in the [DATA](javascript:call_link\('abapdata_struc.htm'\)), [STATICS](javascript:call_link\('abapstatics.htm'\)), [CONSTANTS](javascript:call_link\('abapconstants.htm'\)), and [TYPES](javascript:call_link\('abaptypes_struc.htm'\)) statements.
+Previously, it was only possible to define simple nested structures using the DATA statement. It was not possible to nest DATA BEGIN OF, .... END OF. This restriction has now been lifted, which makes it possible to define structures as components of another structure. This is now possible in the [DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_struc.htm), [STATICS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstatics.htm), [CONSTANTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconstants.htm), and [TYPES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_struc.htm) statements.
 
 Modification 6
 
 Internal Tables Without Header Line
-Previously, each internal table automatically had a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"), which was used as a table work area. A table with header line is therefore a mixture of two data objects (the table and the header line) under a single name. It is now possible to define tables and table types without header lines in the statements [DATA](javascript:call_link\('abapdata_itab.htm'\)), [STATICS](javascript:call_link\('abapstatics.htm'\)), and [TYPES](javascript:call_link\('abaptypes_itab.htm'\)), using the following syntax:
+Previously, each internal table automatically had a [header line](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenheader_line_glosry.htm "Glossary Entry"), which was used as a table work area. A table with header line is therefore a mixture of two data objects (the table and the header line) under a single name. It is now possible to define tables and table types without header lines in the statements [DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_itab.htm), [STATICS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstatics.htm), and [TYPES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_itab.htm), using the following syntax:
 
 DATA TAB TYPE STRUC OCCURS 0.
 

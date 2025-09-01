@@ -4,37 +4,37 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [asXML - Canonical XML Representation](javascript:call_link\('abenabap_xslt_asxml.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml_trafos.htm) →  [asXML - Canonical XML Representation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml.htm) → 
 
 asXML - Mapping of ABAP Data Types
 
 Named data objects other than reference variables are represented in asXML as the content of the following elements:
 
-[<bn1>...</bn1>](javascript:call_link\('abenabap_xslt_asxml_general.htm'\))
-[<bn2>...</bn2>](javascript:call_link\('abenabap_xslt_asxml_general.htm'\))
-[...](javascript:call_link\('abenabap_xslt_asxml_general.htm'\))
+[<bn1>...</bn1>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_general.htm)
+[<bn2>...</bn2>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_general.htm)
+[...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_general.htm)
 
 An additional area is implemented for the objects referenced by reference variables:
 
-[<asx:heap>](javascript:call_link\('abenabap_xslt_asxml_general.htm'\))
-  [...](javascript:call_link\('abenabap_xslt_asxml_general.htm'\))
-[</asx:heap>](javascript:call_link\('abenabap_xslt_asxml_general.htm'\))
+[<asx:heap>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_general.htm)
+  [...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_general.htm)
+[</asx:heap>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_general.htm)
 
 Depending on the ABAP data type, serializations map the value of named data objects to a particular XML representation; deserializations operate in the opposite direction:
 
--   [Mapping of Elementary ABAP Types](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\))
+-   [Mapping of Elementary ABAP Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_elementary.htm)
 
--   [Mapping of Structures](javascript:call_link\('abenabap_xslt_asxml_structure.htm'\))
+-   [Mapping of Structures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_structure.htm)
 
--   [Mapping of Internal Tables](javascript:call_link\('abenabap_xslt_asxml_table.htm'\))
+-   [Mapping of Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_table.htm)
 
--   [Mapping of Enumerated Types](javascript:call_link\('abenabap_xslt_asxml_enum.htm'\))
+-   [Mapping of Enumerated Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_enum.htm)
 
--   [Mapping of Reference Variables and Referenced Objects](javascript:call_link\('abenabap_xslt_asxml_references.htm'\))
+-   [Mapping of Reference Variables and Referenced Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_references.htm)
 
 Continue
-[asXML - Mapping of Elementary ABAP Types](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\))
-[asXML - Mapping of Structures](javascript:call_link\('abenabap_xslt_asxml_structure.htm'\))
-[asXML - Mapping of Internal Tables](javascript:call_link\('abenabap_xslt_asxml_table.htm'\))
-[asXML - Mapping of Enumerated Types](javascript:call_link\('abenabap_xslt_asxml_enum.htm'\))
-[asXML - Mapping of Reference Variables and Objects](javascript:call_link\('abenabap_xslt_asxml_references.htm'\))
+[asXML - Mapping of Elementary ABAP Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_elementary.htm)
+[asXML - Mapping of Structures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_structure.htm)
+[asXML - Mapping of Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_table.htm)
+[asXML - Mapping of Enumerated Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_enum.htm)
+[asXML - Mapping of Reference Variables and Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_references.htm)

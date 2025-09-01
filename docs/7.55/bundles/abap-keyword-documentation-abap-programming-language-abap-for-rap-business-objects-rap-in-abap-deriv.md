@@ -3,30 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenrpm_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm)
-- [abenrpm_input_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_input_parameters.htm)
-- [abenrpm_export_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_export_parameters.htm)
-- [abenspecific_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenspecific_derived_types.htm)
-- [abenvariables_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvariables_derived_types.htm)
-- [abencomponents_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.55
-**Generated**: 2025-09-01T11:25:45.720Z
-
----
-
 ### abenrpm_derived_types.htm
-
-> **📖 Official SAP Documentation**: [abenrpm_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,7 +11,7 @@ Included pages: 6
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) → 
 
 Derived Types
 
@@ -47,21 +24,14 @@ Derived types contain at least the instance key (in accordance with the CDS defi
 When a business object provider is implemented, certain derived types can be used in method signatures in the context of the behavior implementation. This means the syntax can be used to create both local and global derived data types, which are used to declare input parameters or output parameters.
 
 Continue
-[Input Parameter Type](javascript:call_link\('abenrpm_input_parameters.htm'\))
-[Type of the Output Parameter](javascript:call_link\('abenrpm_export_parameters.htm'\))
-[Specific Derived Types](javascript:call_link\('abenspecific_derived_types.htm'\))
-[Variables with Derived Types](javascript:call_link\('abenvariables_derived_types.htm'\))
-[Component of the Derived Types](javascript:call_link\('abencomponents_derived_types.htm'\))
+[Input Parameter Type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_input_parameters.htm)
+[Type of the Output Parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_export_parameters.htm)
+[Specific Derived Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenspecific_derived_types.htm)
+[Variables with Derived Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvariables_derived_types.htm)
+[Component of the Derived Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm)
 
-
-
-**📖 Source**: [abenrpm_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm)
 
 ### abenrpm_input_parameters.htm
-
-> **📖 Official SAP Documentation**: [abenrpm_input_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_input_parameters.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -69,7 +39,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [Derived Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm) → 
 
 Input Parameter Type
 
@@ -91,7 +61,7 @@ IMPORT, RESULT, or LINK entity-association is expected after READ.
 
 The type name of the input parameter type\_for\_import\_parameter can be specified freely.
 
-If available, the [alias](javascript:call_link\('abenbdl_alias.htm'\)) specified in the [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") should be used to reference a CDS entity. Therefore, CDS\_entity\_name refers to the name of the CDS entity or the alias as defined in the behavior definition.
+If available, the [alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm) specified in the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") should be used to reference a CDS entity. Therefore, CDS\_entity\_name refers to the name of the CDS entity or the alias as defined in the behavior definition.
 
 Example
 
@@ -114,14 +84,7 @@ CLASS lcl\_handler DEFINITION
 ENDCLASS.
 
 
-
-**📖 Source**: [abenrpm_input_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_input_parameters.htm)
-
 ### abenrpm_export_parameters.htm
-
-> **📖 Official SAP Documentation**: [abenrpm_export_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_export_parameters.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -129,7 +92,7 @@ ENDCLASS.
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [Derived Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm) → 
 
 Type of the Output Parameter
 
@@ -158,11 +121,11 @@ The output parameters FAILED, MAPPED, and REPORTED are structure types that cont
 
 -   MAPPED *\[*LATE*\]*
     Provides the consumer with ID mapping information.
-    The mapping information is available in the interaction phase by default. The [%CID](javascript:call_link\('abencomponents_derived_types.htm'\)) is then mapped to the real key or to the [%PID](javascript:call_link\('abencomponents_derived_types.htm'\)). The addition LATE specifies that the mapping information is available only when saving. This is important when [late numbering](javascript:call_link\('abenlate_numbering_glosry.htm'\) "Glossary Entry") is used (the method [adjust\_numbers](javascript:call_link\('abensaver_adjust_numbers.htm'\))), during which the %PID is mapped to the real key.
+    The mapping information is available in the interaction phase by default. The [%CID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm) is then mapped to the real key or to the [%PID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm). The addition LATE specifies that the mapping information is available only when saving. This is important when [late numbering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlate_numbering_glosry.htm "Glossary Entry") is used (the method [adjust\_numbers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_adjust_numbers.htm)), during which the %PID is mapped to the real key.
 
 -   FAILED *\[*LATE*\]*
     Contains information that identifies the data record when an error occurs.
-    FAILED is provided during the [interaction phase](javascript:call_link\('abenabap_behavior_pools.htm'\)) and contains the %CID or the [%KEY](javascript:call_link\('abencomponents_derived_types.htm'\)) to specify instances for which an operation (CREATE, UPDATE, DELETE, LOCK, or READ IMPORT) has failed. FAILED with the addition LATE is provided during the [save phase](javascript:call_link\('abenabap_behavior_pools.htm'\)) only and contains the %PID or the %KEY, but not the %CID.
+    FAILED is provided during the [interaction phase](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm) and contains the %CID or the [%KEY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm) to specify instances for which an operation (CREATE, UPDATE, DELETE, LOCK, or READ IMPORT) has failed. FAILED with the addition LATE is provided during the [save phase](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm) only and contains the %PID or the %KEY, but not the %CID.
 
 -   REPORTED *\[*LATE*\]*
     This parameter is used to send error messages.
@@ -173,7 +136,7 @@ The output parameters FAILED, MAPPED, and REPORTED are structure types that cont
 
 The type name of the output parameter (type\_for\_export\_parameter, type\_for\_action\_export\_parameter, and ts\_reported) can be specified freely.
 
-CDS\_entity\_name refers to the name of the CDS entity or the [alias](javascript:call_link\('abenbdl_alias.htm'\)) as defined in the [behavior definition](javascript:call_link\('abencds_behavior_definitions.htm'\)) for the CDS entity.
+CDS\_entity\_name refers to the name of the CDS entity or the [alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm) as defined in the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) for the CDS entity.
 
 ...TYPE RESPONSE FOR... are structures that contain one component for each entity of the business object.
 
@@ -199,14 +162,7 @@ CLASS lcl\_handler DEFINITION
 ENDCLASS.
 
 
-
-**📖 Source**: [abenrpm_export_parameters.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_export_parameters.htm)
-
 ### abenspecific_derived_types.htm
-
-> **📖 Official SAP Documentation**: [abenspecific_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenspecific_derived_types.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -214,7 +170,7 @@ ENDCLASS.
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [Derived Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm) → 
 
 Specific Derived Types
 
@@ -229,7 +185,7 @@ TYPES type\_for\_row    TYPE STRUCTURE FOR    type\_for\_update.
 
 Effect
 
-Alongside derived parameter types (the types of the [input parameter](javascript:call_link\('abenrpm_input_parameters.htm'\)) and [output parameter](javascript:call_link\('abenrpm_export_parameters.htm'\))), certain derived data types can also be defined for the ID fields and data fields.
+Alongside derived parameter types (the types of the [input parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_input_parameters.htm) and [output parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_export_parameters.htm)), certain derived data types can also be defined for the ID fields and data fields.
 
 Using TYPE STRUCTURE FOR it is possible to directly get the row type of a derived table type. This way, the two-stage solution using LINE OF can be avoided.
 
@@ -249,14 +205,7 @@ CLASS lcl\_handler DEFINITION
 ENDCLASS.
 
 
-
-**📖 Source**: [abenspecific_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenspecific_derived_types.htm)
-
 ### abenvariables_derived_types.htm
-
-> **📖 Official SAP Documentation**: [abenvariables_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvariables_derived_types.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -264,7 +213,7 @@ ENDCLASS.
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [Derived Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm) → 
 
 Variables with Derived Types
 
@@ -366,17 +315,7 @@ CLASS lcl\_handler DEFINITION
 ENDCLASS.
 
 
-
-**📖 Source**: [abenvariables_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvariables_derived_types.htm)
-
 ### abencomponents_derived_types.htm
-
-> **📖 Official SAP Documentation**: [abencomponents_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencomponents_derived_types.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm)
-
 
   
 
@@ -384,13 +323,13 @@ ENDCLASS.
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [Derived Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm) → 
 
 Component of the Derived Types
 
 \* Work in progress \*
 
-[Derived data types](javascript:call_link\('abenrpm_derived_types.htm'\)) in the context of [ABAP RAP](javascript:call_link\('abenabap_rap_glosry.htm'\) "Glossary Entry") also contain components that are not based on the line type of the entity and that start with the character % to avoid naming conflicts with original components. For example, the line type of the failed table failed contains a component %FAIL used to save the symptom of a failed instance, plus an include structure %KEY that contains all primary key fields of the entity.
+[Derived data types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm) in the context of [ABAP RAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_rap_glosry.htm "Glossary Entry") also contain components that are not based on the line type of the entity and that start with the character % to avoid naming conflicts with original components. For example, the line type of the failed table failed contains a component %FAIL used to save the symptom of a failed instance, plus an include structure %KEY that contains all primary key fields of the entity.
 
 The following list contains the most frequent components of the derived types:
 
@@ -407,11 +346,11 @@ The following list contains the most frequent components of the derived types:
 
 -   %PID
     The temporary ID component of type ABP\_BEHV\_PID.
-    %PID is available only if [late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\)) is defined in the [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") without the addition in place. %PID is used only if the application does not provide a temporary primary key %TMP. In the operation CREATE, %PID must be entered in the mapped table and hence set with respect to %CID.
+    %PID is available only if [late numbering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm) is defined in the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") without the addition in place. %PID is used only if the application does not provide a temporary primary key %TMP. In the operation CREATE, %PID must be entered in the mapped table and hence set with respect to %CID.
     The component %PID is generated in the operations UPDATE, DELETE create-by-association, ACTION, READ, and read-by-association and applied to the parameters failed, mapped, and reported.
 
 -   %PIDPARENT and %PID\_Assoc
-    In the period before the final keys are granted, the %PID fields must represent the instance hierarchy and their associations using non-composition associations. The instance hierarchy is represented using the field %PIDPARENT, which (generically) applies the function of the superordinate foreign key. The associations are provided using %PID\_Assoc fields, which are inserted in a target entity with late numbering and to-one [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") for each association with the name (or alias Assoc) released in a transactional way. Cardinality 0..1 or 1 matches a foreign key in the source entity. %PID\_Assoc applies this function if it is not filled.
+    In the period before the final keys are granted, the %PID fields must represent the instance hierarchy and their associations using non-composition associations. The instance hierarchy is represented using the field %PIDPARENT, which (generically) applies the function of the superordinate foreign key. The associations are provided using %PID\_Assoc fields, which are inserted in a target entity with late numbering and to-one [cardinality](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencardinality_glosry.htm "Glossary Entry") for each association with the name (or alias Assoc) released in a transactional way. Cardinality 0..1 or 1 matches a foreign key in the source entity. %PID\_Assoc applies this function if it is not filled.
 
 -   %CONTROL
     Specifies which elements of an entity are requested by the consumer.

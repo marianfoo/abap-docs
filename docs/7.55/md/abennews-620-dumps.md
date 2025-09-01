@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-6.htm) →  [Changes in Release 6.20](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-620.htm) → 
 
 Short Dumps in Release 6.20
 
@@ -17,7 +17,7 @@ Modification 1
 
 Displaying Work Areas
 
-The system now only displays processed work areas, and the [data area](javascript:call_link\('abendata_area_glosry.htm'\) "Glossary Entry") directory no longer exists. Instead, only the directory of application tables is displayed, including their administration information.
+The system now only displays processed work areas, and the [data area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_area_glosry.htm "Glossary Entry") directory no longer exists. Instead, only the directory of application tables is displayed, including their administration information.
 
 Modification 2
 
@@ -35,7 +35,7 @@ Modification 4
 
 Display Languages
 
-When [short dumps](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") are displayed, the system now also respects the second language, stored in the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") zcsa/second\_language. If no text is found, a note can be created and referred to in the standard text. The search for the short dump text is performed in the following order with respect to language version:
+When [short dumps](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshort_dump_glosry.htm "Glossary Entry") are displayed, the system now also respects the second language, stored in the [profile parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") zcsa/second\_language. If no text is found, a note can be created and referred to in the standard text. The search for the short dump text is performed in the following order with respect to language version:
 
 1.  Search for text in logon language
     

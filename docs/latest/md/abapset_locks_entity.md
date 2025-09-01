@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [SET LOCKS](javascript:call_link\('abapset_locks.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml.htm) →  [SET LOCKS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locks.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SET%20LOCKS%20ENTITY%2C%20Short%20Form%2C%20ABAPSET_LOCKS_ENTITY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,7 +12,7 @@ SET LOCKS ENTITY, Short Form
 
 Syntax
 
-SET LOCKS ENTITY entity FROM inst *\[*[response\_param](javascript:call_link\('abapeml_response.htm'\))*\]*.
+SET LOCKS ENTITY entity FROM inst *\[*[response\_param](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm)*\]*.
 
 Addition:
 
@@ -24,7 +24,7 @@ Used to exclusively lock instances of a single RAP BO entity.
 
 The entity name entity can be specified directly. The entity name must be the full entity name and cannot be an alias name because the context of a RAP BO is unknown.
 
-inst is an internal table specifying the instances that are to be locked. The table must be typed with the [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") [TYPE TABLE FOR KEY OF](javascript:call_link\('abaptype_table_for.htm'\)). It can be constructed in an operand position using [constructor expressions](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry"), for example with the [value operator](javascript:call_link\('abenvalue_operator_glosry.htm'\) "Glossary Entry") (VALUE) and other [constructor operators](javascript:call_link\('abenconstructor_expressions.htm'\)) to fill the internal table with instances as input parameters after the keyword FROM.
+inst is an internal table specifying the instances that are to be locked. The table must be typed with the [BDEF derived type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") [TYPE TABLE FOR KEY OF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm). It can be constructed in an operand position using [constructor expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_glosry.htm "Glossary Entry"), for example with the [value operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_operator_glosry.htm "Glossary Entry") (VALUE) and other [constructor operators](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expressions.htm) to fill the internal table with instances as input parameters after the keyword FROM.
 
 Addition   
 
@@ -32,15 +32,15 @@ Addition  
 
 Effect
 
-The addition [response\_param](javascript:call_link\('abapeml_response.htm'\)) represents the response parameters that can be specified.
+The addition [response\_param](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm) represents the response parameters that can be specified.
 
 Hint
 
-The internal table inst can also be typed with the [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") [TYPE TABLE FOR LOCK](javascript:call_link\('abaptype_table_for.htm'\)).
+The internal table inst can also be typed with the [BDEF derived type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") [TYPE TABLE FOR LOCK](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm).
 
 Example
 
-The class CL\_DEMO\_RAP\_EML\_SET\_LOCKS covers all forms of the SET LOCKS statement. It accesses a RAP BO using [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") and creates several BO instances. A SET LOCKS statement follows that exclusively locks instances via the keys. The following SET LOCKS statement (short form) is used at the beginning of the example:
+The class CL\_DEMO\_RAP\_EML\_SET\_LOCKS covers all forms of the SET LOCKS statement. It accesses a RAP BO using [EML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_glosry.htm "Glossary Entry") and creates several BO instances. A SET LOCKS statement follows that exclusively locks instances via the keys. The following SET LOCKS statement (short form) is used at the beginning of the example:
 
 SET LOCKS ENTITY demo\_managed\_root
    FROM VALUE #( ( key\_field = 1 )

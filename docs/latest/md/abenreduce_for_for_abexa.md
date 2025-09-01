@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Expressions and Functions](javascript:call_link\('abentable_processing_expr_func.htm'\)) →  [FOR, Table Iterations](javascript:call_link\('abenfor_itab.htm'\)) →  [itab - Examples of Table Reductions](javascript:call_link\('abentable_reductions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab.htm) →  [itab - Expressions and Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_processing_expr_func.htm) →  [FOR, Table Iterations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfor_itab.htm) →  [itab - Examples of Table Reductions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_reductions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20itab%20-%20Multiple%20FOR%20Expressions%2C%20ABENREDUCE_FOR_FOR_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 itab - Multiple FOR Expressions
 
-This example demonstrates a [reduction](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) of the columns of a nested internal table to a text string.
+This example demonstrates a [reduction](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_reduce.htm) of the columns of a nested internal table to a text string.
 
 Source Code   
 
@@ -65,4 +65,4 @@ ENDCLASS.
 
 Description   
 
-The example uses the same nested source table as in the executable example for [table comprehensions](javascript:call_link\('abentable_cmprhnsns_for_for_abexa.htm'\)). Its VALUE operator is replaced here by the REDUCE operator with the data type string and the content of the nested loop is chained to the text string after the last [FOR expression](javascript:call_link\('abenfor_in_itab.htm'\)).
+The example uses the same nested source table as in the executable example for [table comprehensions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_cmprhnsns_for_for_abexa.htm). Its VALUE operator is replaced here by the REDUCE operator with the data type string and the content of the nested loop is chained to the text string after the last [FOR expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfor_in_itab.htm).

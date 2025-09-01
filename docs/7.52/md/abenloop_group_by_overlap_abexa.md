@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) →  [LOOP AT itab](javascript:call_link\('abaploop_at_itab_variants.htm'\)) →  [LOOP AT itab - GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) →  [Examples of Grouping with LOOP](javascript:call_link\('abenloop_group_by_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab.htm) →  [Processing Statements for Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_processing_statements.htm) →  [LOOP AT itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_variants.htm) →  [LOOP AT itab - GROUP BY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_group_by.htm) →  [Examples of Grouping with LOOP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenloop_group_by_abexas.htm) → 
 
 Internal Tables, Grouping with LOOP in Overlaps
 
-This example demonstrates the construction of the [group key](javascript:call_link\('abengroup_key_glosry.htm'\) "Glossary Entry") if conditions overlap.
+This example demonstrates the construction of the [group key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengroup_key_glosry.htm "Glossary Entry") if conditions overlap.
 
 Source Code
 
@@ -64,7 +64,7 @@ START-OF-SELECTION.
 
 Description
 
-This example works in a similar way to the [executable example](javascript:call_link\('abenloop_group_by_comparison_abexa.htm'\)) for constructions using comparison expressions. The following shows how the result depends on the order in which expressions are evaluated if the comparison expressions overlap.
+This example works in a similar way to the [executable example](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenloop_group_by_comparison_abexa.htm) for constructions using comparison expressions. The following shows how the result depends on the order in which expressions are evaluated if the comparison expressions overlap.
 
 In the first group loop,
 
@@ -84,4 +84,4 @@ In the second group loop,
 
 The result of this is that the rows with the values 3, 4, and 5 are assigned to different groups. The groups of the rows would not change, however, even if the internal table were sorted differently.
 
-The executable example for [grouping with FOR](javascript:call_link\('abenfor_group_by_overlap_abexa.htm'\)) demonstrates how the entire group loop can be implemented using expressions.
+The executable example for [grouping with FOR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfor_group_by_overlap_abexa.htm) demonstrates how the entire group loop can be implemented using expressions.

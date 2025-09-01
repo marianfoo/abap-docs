@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  L
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  L
 
 LEAVE TO LIST-PROCESSING - Quick reference
 
-[Reference](javascript:call_link\('abapleave_to_list-processing.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapleave_to_list-processing.htm)
 
 Syntax
 
@@ -16,7 +16,7 @@ LEAVE TO LIST-PROCESSING *\[*AND RETURN TO SCREEN dynnr*\]*.
 
 Effect
 
-Calls list processing when the current [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") is exited.
+Calls list processing when the current [dynpro](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_glosry.htm "Glossary Entry") is exited.
 
 Additions
 

@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) →  [JSON - Examples](javascript:call_link\('abenabap_json_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_json.htm) →  [JSON - Examples](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_json_abexas.htm) → 
 
 JSON - Simple Transformation for Name Attributes
 
-The example demonstrates a simple transformation used to create name attributes in [JSON data](javascript:call_link\('abenjson_oview.htm'\)).
+The example demonstrates a simple transformation used to create name attributes in [JSON data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenjson_oview.htm).
 
 Source Code
 
@@ -53,7 +53,7 @@ START-OF-SELECTION.
 
 Description
 
-This example works in a similar way to the [executable example](javascript:call_link\('abenabap_st_json_table_abexa.htm'\)) for an internal table, but the values of the attributes name of the elements object in JSON-XML are also filled from the internal table in the simple transformation DEMO\_ST\_JSON\_TABLE\_ATTRIBUTES. The ST program is as follows:
+This example works in a similar way to the [executable example](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_st_json_table_abexa.htm) for an internal table, but the values of the attributes name of the elements object in JSON-XML are also filled from the internal table in the simple transformation DEMO\_ST\_JSON\_TABLE\_ATTRIBUTES. The ST program is as follows:
 
 <?sap.transform simple?>
 <tt:transform xmlns:tt="http://www.sap.com/transformation-templates">

@@ -4,8 +4,8 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 top include
 
-[Include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") used for the [global declaration part](javascript:call_link\('abenglobal_declaration_sect_glosry.htm'\) "Glossary Entry") of an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry"). No [processing blocks](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") should be implemented in top includes. This is checked by the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry"). The corresponding top include is included whenever an individual include program of an ABAP program is compiled.
+[Include program](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninclude_program_glosry.htm "Glossary Entry") used for the [global declaration part](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenglobal_declaration_sect_glosry.htm "Glossary Entry") of an [ABAP program](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_program_glosry.htm "Glossary Entry"). No [processing blocks](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocessing_block_glosry.htm "Glossary Entry") should be implemented in top includes. This is checked by the [extended program check](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenextended_program_check_glosry.htm "Glossary Entry"). The corresponding top include is included whenever an individual include program of an ABAP program is compiled.

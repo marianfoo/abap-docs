@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 parent node
 
-[Hierarchy node](javascript:call_link\('abenhierarchy_node_glosry.htm'\) "Glossary Entry") from which a [parent-child relationship](javascript:call_link\('abenpcr_glosry.htm'\) "Glossary Entry") to a [child node](javascript:call_link\('abenchild_node_glosry.htm'\) "Glossary Entry") originates. A parent node can have multiple child nodes. A parent node is an [ancestor node](javascript:call_link\('abenancestor_node_glosry.htm'\) "Glossary Entry") of its child nodes, their child nodes, and so on.
+[Hierarchy node](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhierarchy_node_glosry.htm "Glossary Entry") from which a [parent-child relationship](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpcr_glosry.htm "Glossary Entry") to a [child node](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchild_node_glosry.htm "Glossary Entry") originates. A parent node can have multiple child nodes. A parent node is an [ancestor node](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenancestor_node_glosry.htm "Glossary Entry") of its child nodes, their child nodes, and so on.

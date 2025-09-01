@@ -4,24 +4,24 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencontrol_structures.htm) → 
 
 Loops
 
 This section describes the loops defined using
 
--   [DO - ENDDO](javascript:call_link\('abapdo.htm'\)), and
+-   [DO - ENDDO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdo.htm), and
 
--   [WHILE - ENDWHILE](javascript:call_link\('abapwhile.htm'\))
+-   [WHILE - ENDWHILE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwhile.htm)
 
 Other keywords for defining loops are:
 
--   [LOOP - ENDLOOP](javascript:call_link\('abaploop_at_itab.htm'\)), and
+-   [LOOP - ENDLOOP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_at_itab.htm), and
 
--   [PROVIDE - ENDPROVIDE](javascript:call_link\('abapprovide.htm'\)) for loops through internal tables and
+-   [PROVIDE - ENDPROVIDE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprovide.htm) for loops through internal tables and
 
--   [SELECT - ENDSELECT](javascript:call_link\('abapselect.htm'\)) for loops through the result set of a database access
+-   [SELECT - ENDSELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) for loops through the result set of a database access
 
 Continue
-[DO](javascript:call_link\('abapdo.htm'\))
-[WHILE](javascript:call_link\('abapwhile.htm'\))
+[DO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdo.htm)
+[WHILE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwhile.htm)

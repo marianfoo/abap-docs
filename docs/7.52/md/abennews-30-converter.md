@@ -4,15 +4,15 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 3.0](javascript:call_link\('abennews-30.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews.htm) →  [Changes in Release 3.0](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-30.htm) → 
 
 Assigning Formal Parameters in Release 3.0
 
 Note: The following function can no longer be used with Release 4.6A.
 
-If you are in the ABAP Editor and you choose Utilities → Type assignment, you call a conversion program which assigns types to the formal parameters of all [FORM](javascript:call_link\('abapform.htm'\)) routines of an ABAP program and its includes.
+If you are in the ABAP Editor and you choose Utilities → Type assignment, you call a conversion program which assigns types to the formal parameters of all [FORM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapform.htm) routines of an ABAP program and its includes.
 Conversion is possible if all the actual parameters corresponding to a particular formal parameter agree in type and length, i.e. they are technically similar or all actual parameters have the same type (e.g. C).
-If there are several [framework programs](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") for an include, this is displayed at the end of the list. However, the conversion proposals made refer only to the current framework program. The names of the FORM routines defined in this include appear in the list of conversion proposals underlined in red.
+If there are several [framework programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenframe_program_glosry.htm "Glossary Entry") for an include, this is displayed at the end of the list. However, the conversion proposals made refer only to the current framework program. The names of the FORM routines defined in this include appear in the list of conversion proposals underlined in red.
 If there are external calls for a FORM routine, no conversion proposal is made. The names of any such routines are displayed at the end of the list.
 
 If conversion is not possible, the reason is given at the end of the line. Possible reasons are:

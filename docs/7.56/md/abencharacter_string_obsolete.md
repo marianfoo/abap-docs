@@ -4,18 +4,18 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_internal_obsolete.htm) → 
 
 Obsolete Character String and Byte String Processing
 
--   [SEARCH](javascript:call_link\('abapsearch-.htm'\))
--   [REPLACE substring WITH](javascript:call_link\('abapreplace_obsolete.htm'\))
--   [CONVERT DATE*|*INVERTED-DATE](javascript:call_link\('abapconvert_date.htm'\))
--   [Obsolete Class for Handling Code Pages](javascript:call_link\('abencl_abap_codepage_obsolete.htm'\))
+-   [SEARCH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsearch-.htm)
+-   [REPLACE substring WITH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreplace_obsolete.htm)
+-   [CONVERT DATE*|*INVERTED-DATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapconvert_date.htm)
+-   [Obsolete Class for Handling Code Pages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencl_abap_codepage_obsolete.htm)
 
 Continue
-[SEARCH](javascript:call_link\('abapsearch-.htm'\))
-[REPLACE substring WITH](javascript:call_link\('abapreplace_obsolete.htm'\))
-[CONVERT, DATE, INVERTED-DATE](javascript:call_link\('abapconvert_date.htm'\))
-[Obsolete Regular Expression Syntax](javascript:call_link\('abenregular_expressions_obsolete.htm'\))
-[Obsolete Methods for Handling Code Pages](javascript:call_link\('abencl_abap_codepage_obsolete.htm'\))
+[SEARCH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsearch-.htm)
+[REPLACE substring WITH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreplace_obsolete.htm)
+[CONVERT, DATE, INVERTED-DATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapconvert_date.htm)
+[Obsolete Regular Expression Syntax](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregular_expressions_obsolete.htm)
+[Obsolete Methods for Handling Code Pages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencl_abap_codepage_obsolete.htm)

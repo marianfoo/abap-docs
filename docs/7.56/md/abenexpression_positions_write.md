@@ -4,15 +4,15 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Syntax Elements of an ABAP Program](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operand Positions](javascript:call_link\('abenoperand_positions.htm'\)) →  [Expression Positions for Functions and Expressions](javascript:call_link\('abenexpression_positions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Syntax Elements of an ABAP Program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_statements.htm) →  [Operand Positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperand_positions.htm) →  [Expression Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexpression_positions.htm) → 
 
 Write Positions for Functions and Expressions
 
-[Write positions](javascript:call_link\('abenwrite_position_glosry.htm'\) "Glossary Entry") are operand positions in which the operand is written to.
+[Write positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwrite_position_glosry.htm "Glossary Entry") are operand positions in which the operand is written to.
 
--   [Declaration Positions](javascript:call_link\('abendeclaration_positions.htm'\))
--   [Result Positions](javascript:call_link\('abenresult_positions.htm'\))
+-   [Declaration Positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeclaration_positions.htm)
+-   [Result Positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenresult_positions.htm)
 
 Continue
-[Declaration Positions](javascript:call_link\('abendeclaration_positions.htm'\))
-[Result Positions](javascript:call_link\('abenresult_positions.htm'\))
+[Declaration Positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeclaration_positions.htm)
+[Result Positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenresult_positions.htm)

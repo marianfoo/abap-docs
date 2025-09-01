@@ -4,25 +4,25 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [OPEN CURSOR](javascript:call_link\('abapopen_cursor.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Reads](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_reading.htm) →  [OPEN CURSOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_cursor.htm) → 
 
 FETCH
 
-[Quick Reference](javascript:call_link\('abapfetch_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfetch_shortref.htm)
 
 Syntax
 
-FETCH NEXT CURSOR dbcur [INTO*|*APPENDING ...](javascript:call_link\('abapinto_clause.htm'\)).
+FETCH NEXT CURSOR dbcur [INTO*|*APPENDING ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinto_clause.htm).
 
 Effect
 
-The [ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") statement FETCH extracts the requested rows (using the addition INTO or APPENDING) from the results set of the [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry") (associated with the cursor variable dbcur) from the current cursor position and assigns these rows to the data objects specified in the results set.
+The [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement FETCH extracts the requested rows (using the addition INTO or APPENDING) from the results set of the [database cursor](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_cursor_glosry.htm "Glossary Entry") (associated with the cursor variable dbcur) from the current cursor position and assigns these rows to the data objects specified in the results set.
 
-The cursor variable dbcur must be a [host variable](javascript:call_link\('abenopen_sql_host_variables.htm'\)) declared by the special predefined data type cursor, which was opened with the statement [OPEN CURSOR](javascript:call_link\('abapopen_cursor.htm'\)), or to which an opened cursor was assigned. Otherwise, a handleable exception of the class CX\_SY\_OPEN\_SQL\_DB is raised. The name of a host variable should be prefixed with the escape character @.
+The cursor variable dbcur must be a [host variable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_host_variables.htm) declared by the special predefined data type cursor, which was opened with the statement [OPEN CURSOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_cursor.htm), or to which an opened cursor was assigned. Otherwise, a handleable exception of the class CX\_SY\_OPEN\_SQL\_DB is raised. The name of a host variable should be prefixed with the escape character @.
 
-The syntax and meaning of the addition INTO or APPENDING are the same as the identically named [additions](javascript:call_link\('abapinto_clause.htm'\)) of the SELECT statement, with the exception that no inline declarations can be made there and no [LOB handles](javascript:call_link\('abenselect_into_lob_handles.htm'\)) can be created.
+The syntax and meaning of the addition INTO or APPENDING are the same as the identically named [additions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinto_clause.htm) of the SELECT statement, with the exception that no inline declarations can be made there and no [LOB handles](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_into_lob_handles.htm) can be created.
 
-If non-table-like data objects are specified after INTO, one row is extracted. If an internal table is specified after INTO or APPENDING, either all rows are extracted, or as many as specified in the addition [PACKAGE SIZE](javascript:call_link\('abapinto_clause.htm'\)).
+If non-table-like data objects are specified after INTO, one row is extracted. If an internal table is specified after INTO or APPENDING, either all rows are extracted, or as many as specified in the addition [PACKAGE SIZE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinto_clause.htm).
 
 The statement FETCH moves the position of the database cursor (which is associated with dbcur) by the amount of extracted rows to the next row to be extracted. If the last row of the results set was extracted in a FETCH statement, each subsequent FETCH statement in which
 dbcur is associated with the same database cursor sets sy-subrc to 4, without affecting the data objects specified after INTO or APPENDING.
@@ -48,16 +48,16 @@ Notes
 
 -   Consecutive FETCH statements that access the same results set can have the different additions INTO or APPENDING: If specified, work areas can be combined with any internal tables specified and various combinations of PACKAGE SIZE can be specified too. In doing so, the addition CORRESPONDING FIELDS is either not listed at all in any of the FETCH statements involved, or has to be specified in every statement. Moreover, the data types of all work areas wa involved or the row types of the internal tables itab must be identical. A parenthesized list of data objects after INTO cannot be specified together with work areas or internal tables, but every involved FETCH statement must contain a list of this type.
     
--   It depends on the database system whether the database cursor in the database is closed implicitly after the extraction of the final row of the results set or not. For this reason, it is always better to use the [CLOSE CURSOR](javascript:call_link\('abapclose_cursor.htm'\)) statement explicitly.
+-   It depends on the database system whether the database cursor in the database is closed implicitly after the extraction of the final row of the results set or not. For this reason, it is always better to use the [CLOSE CURSOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclose_cursor.htm) statement explicitly.
     
--   If a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") is defined as a [replacement object](javascript:call_link\('abenddic_replacement_objects.htm'\)) for a database table or database view specified as a [data source](javascript:call_link\('abapselect_data_source.htm'\)) of the SELECT statement of [OPEN CURSOR](javascript:call_link\('abapopen_cursor.htm'\)), the statement FETCH accesses the CDS view and not the database table or the database view.
+-   If a [CDS view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry") is defined as a [replacement object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_replacement_objects.htm) for a database table or database view specified as a [data source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm) of the SELECT statement of [OPEN CURSOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_cursor.htm), the statement FETCH accesses the CDS view and not the database table or the database view.
     
--   Host variables without the escape character @ are [obsolete](javascript:call_link\('abenopen_sql_hostvar_obsolete.htm'\)). In the [strict modes](javascript:call_link\('abenopensql_strict_modes.htm'\)) of the syntax check from Release 7.40, SP05 or when the associated statement [OPEN CURSOR](javascript:call_link\('abapopen_cursor.htm'\)) is checked in accordance with the rules for the [strict mode](javascript:call_link\('abenopensql_strict_mode_750.htm'\)) from Release 7.50, the escape character @ must be specified.
+-   Host variables without the escape character @ are [obsolete](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_hostvar_obsolete.htm). In the [strict modes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_modes.htm) of the syntax check from Release 7.40, SP05 or when the associated statement [OPEN CURSOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_cursor.htm) is checked in accordance with the rules for the [strict mode](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_mode_750.htm) from Release 7.50, the escape character @ must be specified.
     
 
 Example
 
-Reading of data from the database table SPFLI in packets of varying size using two parallel cursors. The packet size is determined by the first cursor using the [aggregation function](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry")count( \* ) and using the second cursor for access. Variable control of the addition PACKAGE SIZE is not possible within a single SELECT statement.
+Reading of data from the database table SPFLI in packets of varying size using two parallel cursors. The packet size is determined by the first cursor using the [aggregation function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenaggregate_expression_glosry.htm "Glossary Entry")count( \* ) and using the second cursor for access. Variable control of the addition PACKAGE SIZE is not possible within a single SELECT statement.
 
 OPEN CURSOR @DATA(dbcur1) FOR
   SELECT carrid, COUNT(\*) AS count

@@ -4,25 +4,25 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Names for Individual Operands](javascript:call_link\('abenoperands_names.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands.htm) →  [Names for Individual Operands](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_names.htm) → 
 
 Dereferencing Operator
 
-The dereferencing operator can be used to access the content of a data object pointed to by a [data reference](javascript:call_link\('abendata_reference_type.htm'\)):
+The dereferencing operator can be used to access the content of a data object pointed to by a [data reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_reference_type.htm):
 
 dref->\*
 
-The dereferencing operator \->\* can be specified after a [data reference variable](javascript:call_link\('abendata_reference_variable_glosry.htm'\) "Glossary Entry") dref.
+The dereferencing operator \->\* can be specified after a [data reference variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_reference_variable_glosry.htm "Glossary Entry") dref.
 
 -   If the static type of the data reference variable is not generic, the expression dref->\* can be specified at any operand position.
 
--   For data reference variables with the generic static type data, only the statement [ASSIGN dref ->\* TO <fs>](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)) can be used to assign the data object (to which the data reference points) to a field symbol.
+-   For data reference variables with the generic static type data, only the statement [ASSIGN dref ->\* TO <fs>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassign_mem_area_dynamic_dobj.htm) can be used to assign the data object (to which the data reference points) to a field symbol.
 
-If the data reference variable contains the [null reference](javascript:call_link\('abennull_reference_glosry.htm'\) "Glossary Entry"), the non-handleable exception DATREF\_NOT\_ASSIGNEDis raised when the dereferencing operator is used. Dereferencing in the statement ASSIGN is an exception to this.
+If the data reference variable contains the [null reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_reference_glosry.htm "Glossary Entry"), the non-handleable exception DATREF\_NOT\_ASSIGNEDis raised when the dereferencing operator is used. Dereferencing in the statement ASSIGN is an exception to this.
 
 Note
 
-The dereferencing operator uses the [object component selector](javascript:call_link\('abenobject_component_selector.htm'\)).
+The dereferencing operator uses the [object component selector](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_component_selector.htm).
 
 Example
 

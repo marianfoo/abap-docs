@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Example Output with CL\_DEMO\_OUTPUT](javascript:call_link\('abencl_demo_output.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screens.htm) →  [Example Output with CL\_DEMO\_OUTPUT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Usage%20of%20CL_DEMO_OUTPUT%2C%20ABENCL_DEMO_OUTPUT_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -123,4 +123,4 @@ ENDCLASS.
 
 Description   
 
-The class shows the output produced by [CL\_DEMO\_OUTPUT](javascript:call_link\('abencl_demo_output.htm'\)) for some ABAP data types. The output mode can be entered. More usage of CL\_DEMO\_OUTPUT can be found in many examples of the ABAP Keyword Documentation.
+The class shows the output produced by [CL\_DEMO\_OUTPUT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output.htm) for some ABAP data types. The output mode can be entered. More usage of CL\_DEMO\_OUTPUT can be found in many examples of the ABAP Keyword Documentation.

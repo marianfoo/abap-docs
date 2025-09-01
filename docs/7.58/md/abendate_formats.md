@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Language Environment](javascript:call_link\('abenlanguage.htm'\)) →  [Formatting Settings](javascript:call_link\('abencountry.htm'\)) →  [Country-Specific Formats](javascript:call_link\('abencountry_formats.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlanguage.htm) →  [Formatting Settings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencountry.htm) →  [Country-Specific Formats](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencountry_formats.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Date%20Formats%2C%20ABENDATE_FORMATS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -68,7 +68,7 @@ yyyy/mm/dd, Iranian date
 -   In the Islamic formats for the values A and B, the date is formatted according to the Islamic moon calendar, which calculates time since 16th July 622, which is the date on which Mohammed left Mecca (Hijra). Since this calculation can be different in different Islamic countries, two formats are offered, each of which can be set individually. The corresponding settings are in the database table TISLCAL, and can be changed using the program I18N\_MAINTAIN\_TISLCAL.
 -   The Iranian format for value C is based on an Islamic sun calendar, which calculates the time in sun years since the Hijra.
 
-The setting for the date format also affects the formatting of time stamps in [time stamp fields](javascript:call_link\('abentimestamp_field_glosry.htm'\) "Glossary Entry").
+The setting for the date format also affects the formatting of time stamps in [time stamp fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentimestamp_field_glosry.htm "Glossary Entry").
 
 Hints
 
@@ -87,5 +87,5 @@ cl\_demo\_output=>display(
 
 Executable Examples
 
--   [String Templates, Date Formats](javascript:call_link\('abenstring_template_date_abexa.htm'\))
--   [String Templates, Time Stamp Templates](javascript:call_link\('abenstring_template_utc_abexa.htm'\))
+-   [String Templates, Date Formats](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_template_date_abexa.htm)
+-   [String Templates, Time Stamp Templates](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_template_utc_abexa.htm)

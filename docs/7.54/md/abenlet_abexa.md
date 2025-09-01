@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Local Declarations in Expressions](javascript:call_link\('abenlocal_expr_declarations.htm'\)) →  [let\_exp - LET ... IN](javascript:call_link\('abaplet.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Local Declarations in Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlocal_expr_declarations.htm) →  [let\_exp - LET ... IN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaplet.htm) → 
 
 LET Expression
 
@@ -33,4 +33,4 @@ START-OF-SELECTION.
 
 Description
 
-A constructor expression with the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) constructs rows in an internal table. The value of the local auxiliary variable it is passed to the table.
+A constructor expression with the value operator [VALUE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_value.htm) constructs rows in an internal table. The value of the local auxiliary variable it is passed to the table.

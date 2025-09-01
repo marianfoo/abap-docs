@@ -4,8 +4,8 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 GUI
 
-Graphical User Interface. Graphic part of the [user interface](javascript:call_link\('abenuser_interface_glosry.htm'\) "Glossary Entry"). The GUI is displayed in a [window](javascript:call_link\('abenwindow_glosry.htm'\) "Glossary Entry").
+Graphical User Interface. Graphic part of the [user interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_interface_glosry.htm "Glossary Entry"). The GUI is displayed in a [window](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwindow_glosry.htm "Glossary Entry").

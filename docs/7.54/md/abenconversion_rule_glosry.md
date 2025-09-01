@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 conversion rule
 
-Rule for converting content during [assignments](javascript:call_link\('abenassignment_glosry.htm'\) "Glossary Entry") between [incompatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") (but [convertible](javascript:call_link\('abenconvertible_glosry.htm'\) "Glossary Entry")) [data objects](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry").
+Rule for converting content during [assignments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenassignment_glosry.htm "Glossary Entry") between [incompatible](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompatible_glosry.htm "Glossary Entry") (but [convertible](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconvertible_glosry.htm "Glossary Entry")) [data objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_object_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenconversion_rules.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_rules.htm)

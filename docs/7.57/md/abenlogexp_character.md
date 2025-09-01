@@ -4,17 +4,19 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [Logical Expressions (log\_exp)](javascript:call_link\('abenlogexp.htm'\)) →  [Comparison Expressions (rel\_exp)](javascript:call_link\('abenlogexp_comp.htm'\)) →  [rel\_exp - Comparison Rules](javascript:call_link\('abenlogexp_rules.htm'\)) →  [rel\_exp - Comparing Elementary Data Types](javascript:call_link\('abenlogexp_rules_operands.htm'\)) →  [rel\_exp - Comparison Type of Elementary Data Objects](javascript:call_link\('abenlogexp_rules_operands_dobj.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_expr_func.htm) →  [Logical Expressions (log\_exp)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp.htm) →  [Comparison Expressions (rel\_exp)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_comp.htm) →  [rel\_exp - Comparison Rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_rules.htm) →  [rel\_exp - Comparing Elementary Data Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_rules_operands.htm) →  [rel\_exp - Comparison Type of Elementary Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_rules_operands_dobj.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: rel_exp - Comparison Type of Character-Like Data Objects, ABENLOGEXP_CHARACTER, 757%0
 D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 rel\_exp - Comparison Type of Character-Like Data Objects
 
-The following tables show the [comparison types](javascript:call_link\('abencomparison_type_glosry.htm'\) "Glossary Entry") for comparisons between character-like data types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](javascript:call_link\('abenconversion_elementary.htm'\)) to this type. The [comparison rules for the comparison types](javascript:call_link\('abencomparison_type.htm'\)) determine how the comparison is performed. If no comparison type is specified for a combination, no comparisons are possible.
+The following tables show the [comparison types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomparison_type_glosry.htm "Glossary Entry") for comparisons between character-like data types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_elementary.htm) to this type. The [comparison rules for the comparison types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencomparison_type.htm) determine how the comparison is performed. If no comparison type is specified for a combination, no comparisons are possible.
 
--   [Comparisons with Numeric Data Types](#abenlogexp-character-1-------comparisons-with-character-like-data-types---@ITOC@@ABENLOGEXP_CHARACTER_2)
--   [Comparisons with Byte-Like Data Types](#abenlogexp-character-3-------comparisons-with-date-types--time-types--or-time-stamp-types---@ITOC@@ABENLOGEXP_CHARACTER_4)
+-   [Comparisons with Numeric Data Types](#@@ITOC@@ABENLOGEXP_CHARACTER_1)
+-   [Comparisons with Character-Like Data Types](#@@ITOC@@ABENLOGEXP_CHARACTER_2)
+-   [Comparisons with Byte-Like Data Types](#@@ITOC@@ABENLOGEXP_CHARACTER_3)
+-   [Comparisons with Date Types, Time Types, or Time Stamp Types](#@@ITOC@@ABENLOGEXP_CHARACTER_4)
 
 Comparisons with Numeric Data Types   
 
@@ -98,16 +100,16 @@ n
 Length Adjustments
 
 -   Operands with a different length of data type string never match. If the content of the operands match for the length of the shorter operand, the shorter operand is smaller than the longer one. Otherwise, the surplus places in the longer field are truncated on the right, and then the content is compared.
--   In comparisons between two operands of data type c with the same length, the entire length is compared, which means the trailing blanks are respected. In comparisons between two operands of data type c with different lengths, the shorter field is [converted](javascript:call_link\('abenconversion_type_c.htm'\)) to the longer field, with blanks used as padding on the right.
--   In comparisons between two operands of data type n, the shorter field is [converted](javascript:call_link\('abenconversion_type_n.htm'\)) to the longer field, with the character "0" used as padding on the left.
+-   In comparisons between two operands of data type c with the same length, the entire length is compared, which means the trailing blanks are respected. In comparisons between two operands of data type c with different lengths, the shorter field is [converted](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_c.htm) to the longer field, with blanks used as padding on the right.
+-   In comparisons between two operands of data type n, the shorter field is [converted](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_n.htm) to the longer field, with the character "0" used as padding on the left.
 
 Hint
 
-In comparisons between text fields of the type c and text strings of the type string, any trailing blanks are ignored by conversions from c to string. This can lead to unexpected results. The conversion operator [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) can be used here to force other comparison types (see the example there).
+In comparisons between text fields of the type c and text strings of the type string, any trailing blanks are ignored by conversions from c to string. This can lead to unexpected results. The conversion operator [CONV](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_conv.htm) can be used here to force other comparison types (see the example there).
 
 Example
 
-In the following comparison, the comparison type is c and the comparison is performed in the current code page, in accordance with the binary representation. In most code pages, "a" is greater than "Z". See also the example for [CONVERT TEXT](javascript:call_link\('abapconvert_text.htm'\)).
+In the following comparison, the comparison type is c and the comparison is performed in the current code page, in accordance with the binary representation. In most code pages, "a" is greater than "Z". See also the example for [CONVERT TEXT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapconvert_text.htm).
 
 IF 'a' > 'Z'.
   cl\_demo\_output=>display\_text( \`'a' > 'Z'\` ).
@@ -117,7 +119,7 @@ ENDIF.
 
 Example
 
-The following comparison is false, which is probably unexpected. The value returned by [boolc](javascript:call_link\('abenboole_functions.htm'\)) has the type string and contains a blank, whereas the constant abap\_false has the type c. For the comparison, the value of abap\_false is converted to an empty string, since the blank it contains is ignored.
+The following comparison is false, which is probably unexpected. The value returned by [boolc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm) has the type string and contains a blank, whereas the constant abap\_false has the type c. For the comparison, the value of abap\_false is converted to an empty string, since the blank it contains is ignored.
 
 IF boolc( 1 = 2 ) = abap\_false.
   cl\_demo\_output=>display\_text( 'yes' ).
@@ -125,7 +127,7 @@ ELSE.
   cl\_demo\_output=>display\_text( 'no' ).
 ENDIF.
 
-The following comparison, however, is true, since the return value of [xsdbool](javascript:call_link\('abenboole_functions.htm'\)) has the same ABAP type as the constant abap\_false.
+The following comparison, however, is true, since the return value of [xsdbool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm) has the same ABAP type as the constant abap\_false.
 
 IF xsdbool( 1 = 2 ) = abap\_false.
   cl\_demo\_output=>display\_text( 'yes' ).
@@ -135,7 +137,7 @@ ENDIF.
 
 Executable Example
 
-[Comparing Text Strings of Different Length](javascript:call_link\('abenstring_comparison_abexa.htm'\))
+[Comparing Text Strings of Different Length](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_comparison_abexa.htm)
 
 Comparisons with Byte-Like Data Types   
 
@@ -225,4 +227,4 @@ The following comparison is always true. The initial text string literal is conv
 ASSERT utclong\_current( ) > \`\`.
 
 Continue
-![Example](exa.gif "Example") [rel\_exp - Comparing Text Strings of Different Length](javascript:call_link\('abenstring_comparison_abexa.htm'\))
+![Example](exa.gif "Example") [rel\_exp - Comparing Text Strings of Different Length](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_comparison_abexa.htm)

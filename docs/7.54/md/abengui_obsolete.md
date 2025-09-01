@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) → 
 
 Obsolete User Dialogs
 
@@ -12,33 +12,33 @@ Various UI technologies are available in the ABAP environment:
 
 -   Classic SAP GUI technologies
 
--   [Classic dynpros](javascript:call_link\('abenabap_dynpros.htm'\))
+-   [Classic dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm)
 
--   [Selection screens](javascript:call_link\('abenselection_screen.htm'\))
+-   [Selection screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm)
 
--   [Classic lists](javascript:call_link\('abenabap_dynpro_list.htm'\))
+-   [Classic lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_list.htm)
 
 -   Web-based technologies
 
--   [Business Server Pages](javascript:call_link\('abenbusiness_server_pages_glosry.htm'\) "Glossary Entry")
+-   [Business Server Pages](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbusiness_server_pages_glosry.htm "Glossary Entry")
 
--   [Web Dynpro ABAP](javascript:call_link\('abenweb_dynpro_glosry.htm'\) "Glossary Entry")
+-   [Web Dynpro ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenweb_dynpro_glosry.htm "Glossary Entry")
 
--   [SAPUI5](javascript:call_link\('abensapui5_glosry.htm'\) "Glossary Entry")
+-   [SAPUI5](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensapui5_glosry.htm "Glossary Entry")
 
-If possible, [SAPUI5](javascript:call_link\('abensapui5_glosry.htm'\) "Glossary Entry") or [Web Dynpro](javascript:call_link\('abenweb_dynpro_glosry.htm'\) "Glossary Entry") should be used. If classic technologies are still used for any reason, the following constructs must be avoided:
+If possible, [SAPUI5](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensapui5_glosry.htm "Glossary Entry") or [Web Dynpro](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenweb_dynpro_glosry.htm "Glossary Entry") should be used. If classic technologies are still used for any reason, the following constructs must be avoided:
 
--   [Obsolete statements in dynpro flow logic](javascript:call_link\('abendynpro_obsolet.htm'\))
+-   [Obsolete statements in dynpro flow logic](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_obsolet.htm)
 
--   [Obsolete ABAP statements for dynpros](javascript:call_link\('abenabap_dynpro_obsolet.htm'\))
+-   [Obsolete ABAP statements for dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_obsolet.htm)
 
--   [Obsolete statements in list processing](javascript:call_link\('abenlists_obsolete.htm'\))
+-   [Obsolete statements in list processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlists_obsolete.htm)
 
--   [Obsolete editor calls](javascript:call_link\('abentexteditor.htm'\))
+-   [Obsolete editor calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentexteditor.htm)
 
 Continue
-[Obsolete statements of the screen flow logic](javascript:call_link\('abendynpro_obsolet.htm'\))
-[Obsolete ABAP Statements for Dynpros](javascript:call_link\('abenabap_dynpro_obsolet.htm'\))
-[Obsolete Statements for Selection Screens](javascript:call_link\('abenselscreen_obsolete.htm'\))
-[Obsolete Statements in List Processing](javascript:call_link\('abenlists_obsolete.htm'\))
-[Obsolete Editor Calls](javascript:call_link\('abentexteditor.htm'\))
+[Obsolete statements of the screen flow logic](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_obsolet.htm)
+[Obsolete ABAP Statements for Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_obsolet.htm)
+[Obsolete Statements for Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselscreen_obsolete.htm)
+[Obsolete Statements in List Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlists_obsolete.htm)
+[Obsolete Editor Calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentexteditor.htm)

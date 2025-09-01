@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Transformation of ABAP Values](javascript:call_link\('abenst_abap_values.htm'\)) →  [ST - tt:value, Elementary Data Objects](javascript:call_link\('abenst_tt_value_elementary.htm'\)) →  [ST - option, Mapping Rules](javascript:call_link\('abenst_option.htm'\)) →  [ST - option, Mapping Rules for Elementary Types](javascript:call_link\('abenst_option_format.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_serial_deserial.htm) →  [ST - Transformation of ABAP Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_abap_values.htm) →  [ST - tt:value, Elementary Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_value_elementary.htm) →  [ST - option, Mapping Rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_option.htm) →  [ST - option, Mapping Rules for Elementary Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_option_format.htm) → 
 
 Simple Transformation, Formatting Options
 
@@ -99,7 +99,7 @@ START-OF-SELECTION.
 
 Description
 
-This example passes various types of ABAP data to the transformation DEMO\_ST\_FORMAT\_OPTION and provides the result for XML and [JSON](javascript:call_link\('abenabap_json.htm'\)). The transformation applies those [formatting options](javascript:call_link\('abenst_option_format.htm'\)) to the ABAP data that match its data type:
+This example passes various types of ABAP data to the transformation DEMO\_ST\_FORMAT\_OPTION and provides the result for XML and [JSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_json.htm). The transformation applies those [formatting options](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_option_format.htm) to the ABAP data that match its data type:
 
 <?sap.transform simple?>
 <tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
@@ -292,4 +292,4 @@ This example passes various types of ABAP data to the transformation DEMO\_ST\_F
   </tt:template>
 </tt:transform>
 
-The transformation creates [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") to represent both XML and JSON. It should be noted that the formats ticks and ticksOffset only apply to JSON, where they create the JSON representation of UNIX time stamps for OData.
+The transformation creates [JSON-XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_xml_glosry.htm "Glossary Entry") to represent both XML and JSON. It should be noted that the formats ticks and ticksOffset only apply to JSON, where they create the JSON representation of UNIX time stamps for OData.

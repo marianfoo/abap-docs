@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 locator
 
-Pointer to substrings of [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in a [database](javascript:call_link\('abendatabase_glosry.htm'\) "Glossary Entry"). In ABAP, locators are [LOB handles](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry") and are implemented using [instances](javascript:call_link\('abeninstance_glosry.htm'\) "Glossary Entry") of the corresponding [system classes](javascript:call_link\('abensystem_class_glosry.htm'\) "Glossary Entry"). Locators can be linked with the database in question in [ABAP SQL statements with LOBs](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry"). Different [locator types](javascript:call_link\('abenlocator_type_glosry.htm'\) "Glossary Entry") are provided for [BLOBs](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry") and [CLOBs](javascript:call_link\('abenclob_glosry.htm'\) "Glossary Entry").
+Pointer to substrings of [LOBs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlob_glosry.htm "Glossary Entry") in a [database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_glosry.htm "Glossary Entry"). In ABAP, locators are [LOB handles](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlob_handle_glosry.htm "Glossary Entry") and are implemented using [instances](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninstance_glosry.htm "Glossary Entry") of the corresponding [system classes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_class_glosry.htm "Glossary Entry"). Locators can be linked with the database in question in [ABAP SQL statements with LOBs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_glosry.htm "Glossary Entry"). Different [locator types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocator_type_glosry.htm "Glossary Entry") are provided for [BLOBs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenblob_glosry.htm "Glossary Entry") and [CLOBs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclob_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenlocators.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocators.htm)

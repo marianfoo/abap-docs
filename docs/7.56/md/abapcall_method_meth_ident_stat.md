@@ -4,18 +4,18 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [Method Calls](javascript:call_link\('abenmethod_calls.htm'\)) →  [Static Method Calls](javascript:call_link\('abenmethod_calls_static.htm'\)) →  [meth( ... ), Standalone Method Call](javascript:call_link\('abapcall_method_static_short.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_procedures.htm) →  [Method Calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethod_calls.htm) →  [Static Method Calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethod_calls_static.htm) →  [meth( ... ), Standalone Method Call](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_static_short.htm) → 
 
 meth( ... ), Static Method Specification
 
-[Short Reference](javascript:call_link\('abapcall_method_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_shortref.htm)
 
 Syntax
 
 ... meth
   *|* oref->meth
   *|* class=>meth
-  *|* [super->meth](javascript:call_link\('abapcall_method_meth_super.htm'\)) ...
+  *|* [super->meth](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_meth_super.htm) ...
 
 Alternatives:
 
@@ -25,11 +25,11 @@ Alternatives:
 
 Effect
 
-These names are used for to specify methods statically, where meth is a valid name for the method in the current context. A special case of specifying methods statically is the specification after the pseudo reference [super](javascript:call_link\('abapcall_method_meth_super.htm'\)) in methods of subclasses.
+These names are used for to specify methods statically, where meth is a valid name for the method in the current context. A special case of specifying methods statically is the specification after the pseudo reference [super](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_meth_super.htm) in methods of subclasses.
 
 Hint
 
-The name of a method can be the name of the method declared in [METHODS](javascript:call_link\('abapmethods.htm'\)), a name composed using the [interface component selector](javascript:call_link\('abeninterface_comp_selector_glosry.htm'\) "Glossary Entry"), or an [alias name](javascript:call_link\('abenalias_glosry.htm'\) "Glossary Entry").
+The name of a method can be the name of the method declared in [METHODS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods.htm), a name composed using the [interface component selector](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninterface_comp_selector_glosry.htm "Glossary Entry"), or an [alias name](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenalias_glosry.htm "Glossary Entry").
 
 Alternative 1   
 
@@ -37,7 +37,7 @@ Alternative 1  
 
 Effect
 
-Can be specified in method implementations for any method meth of the same class. In instance methods, meth is a short form of me->meth, where me is the [self-reference](javascript:call_link\('abenself_reference_glosry.htm'\) "Glossary Entry").
+Can be specified in method implementations for any method meth of the same class. In instance methods, meth is a short form of me->meth, where me is the [self-reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenself_reference_glosry.htm "Glossary Entry").
 
 Example
 
@@ -69,14 +69,14 @@ Effect
 Can be specified in processing blocks in which any method meth is visible. Here, oref contains an object reference to an object that contains the method as a component. The following can be specified for oref:
 
 -   A reference variable
--   A single or chained [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") whose result is a reference variable
--   A [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") with a [constructor operator](javascript:call_link\('abenconstructor_operator_glosry.htm'\) "Glossary Entry") [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) or [CAST](javascript:call_link\('abenconstructor_expression_cast.htm'\))
+-   A single or chained [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expression_glosry.htm "Glossary Entry") whose result is a reference variable
+-   A [constructor expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") with a [constructor operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_operator_glosry.htm "Glossary Entry") [NEW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm) or [CAST](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_cast.htm)
 
-This applies to both [standalone method calls](javascript:call_link\('abapcall_method_static_short.htm'\)) and [functional method calls](javascript:call_link\('abapcall_method_functional.htm'\)).
+This applies to both [standalone method calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_static_short.htm) and [functional method calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_functional.htm).
 
 Example
 
-Call of the instance method meth via a temporary reference variable created using the [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) operator.
+Call of the instance method meth via a temporary reference variable created using the [NEW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_new.htm) operator.
 
 CLASS cls DEFINITION.
   PUBLIC SECTION.
@@ -96,7 +96,7 @@ Alternative 3  
 
 Effect
 
-Can be specified in processing blocks in which a [static method](javascript:call_link\('abenstatic_method_glosry.htm'\) "Glossary Entry") meth is visible, where class is one of the classes allowed by the package check that contains the method as a [static component](javascript:call_link\('abenstatic_component_glosry.htm'\) "Glossary Entry").
+Can be specified in processing blocks in which a [static method](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_method_glosry.htm "Glossary Entry") meth is visible, where class is one of the classes allowed by the package check that contains the method as a [static component](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_component_glosry.htm "Glossary Entry").
 
 Example
 

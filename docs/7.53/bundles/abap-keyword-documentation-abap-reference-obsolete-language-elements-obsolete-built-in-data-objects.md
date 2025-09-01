@@ -3,27 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenbuilt_in_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_obsolete.htm)
-- [abensystem_fields_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields_obsolete.htm)
-- [abenscreen_structure_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_structure_obsolete.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.191Z
-
----
-
 ### abenbuilt_in_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abenbuilt_in_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,27 +11,20 @@ Included pages: 3
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Built-In Data Objects
 
--   [Obsolete System Fields](javascript:call_link\('abensystem_fields_obsolete.htm'\))
+-   [Obsolete System Fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields_obsolete.htm)
 
--   [The Built-In Structure screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\))
+-   [The Built-In Structure screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_structure_obsolete.htm)
 
 Continue
-[Obsolete System Fields](javascript:call_link\('abensystem_fields_obsolete.htm'\))
-[The Built-In Structure screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\))
+[Obsolete System Fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields_obsolete.htm)
+[The Built-In Structure screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_structure_obsolete.htm)
 
-
-
-**📖 Source**: [abenbuilt_in_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_obsolete.htm)
 
 ### abensystem_fields_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abensystem_fields_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -59,15 +32,17 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Built-In Data Objects](javascript:call_link\('abenbuilt_in_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Built-In Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_obsolete.htm) → 
 
 Obsolete System Fields
 
--   [Former System Fields](#abensystem-fields-obsolete-1--------spool-parameters---@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2)
+-   [Former System Fields](#@@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_1)
+
+-   [Spool Parameters](#@@ITOC@@ABENSYSTEM_FIELDS_OBSOLETE_2)
 
 Former System Fields
 
-The following [system fields](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") are obsolete and should no longer be used. Many originate from the R/2 era. The transition from R/2 to R/3 retained some system fields which are no longer provided with data.
+The following [system fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_field_glosry.htm "Glossary Entry") are obsolete and should no longer be used. Many originate from the R/2 era. The transition from R/2 to R/3 retained some system fields which are no longer provided with data.
 
 Name
 
@@ -415,7 +390,7 @@ In R/2, window coordinates in details lists in a GUI window. No longer used.
 
 Spool Parameters
 
-[Spool parameters](javascript:call_link\('abenprint_parameters.htm'\)) are passed from the runtime environment to the spool system in a structure of type PRI\_PARAMS. Before this structure was introduced, [system fields](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") were used. When spooling is activated today, a subset of the structure PRI\_PARAMS is still written to system fields of the same name. This information is redundant and should not be used.
+[Spool parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters.htm) are passed from the runtime environment to the spool system in a structure of type PRI\_PARAMS. Before this structure was introduced, [system fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_field_glosry.htm "Glossary Entry") were used. When spooling is activated today, a subset of the structure PRI\_PARAMS is still written to system fields of the same name. This information is redundant and should not be used.
 
 Name
 
@@ -431,7 +406,7 @@ c
 
 16
 
-[Formatting](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Formatting](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-pdest
 
@@ -439,7 +414,7 @@ c
 
 4
 
-[Output device](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Output device](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-pexpi
 
@@ -447,7 +422,7 @@ n
 
 1
 
-[Retention period](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Retention period](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-plist
 
@@ -455,7 +430,7 @@ c
 
 12
 
-[Name of spool request](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Name of spool request](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-prabt
 
@@ -463,7 +438,7 @@ c
 
 12
 
-[Department name](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Department name](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-prbig
 
@@ -471,7 +446,7 @@ c
 
 1
 
-[Cover sheet](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Cover sheet](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-prcop
 
@@ -479,7 +454,7 @@ n
 
 3
 
-[Number of copies](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Number of copies](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-prdsn
 
@@ -487,7 +462,7 @@ c
 
 6
 
-[Name of the spool file](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Name of the spool file](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-primm
 
@@ -495,7 +470,7 @@ c
 
 1
 
-[Print now](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Print now](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-prnew
 
@@ -503,7 +478,7 @@ c
 
 1
 
-[New spool request](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[New spool request](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-prrec
 
@@ -511,7 +486,7 @@ c
 
 12
 
-[Recipient name](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Recipient name](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-prrel
 
@@ -519,7 +494,7 @@ c
 
 1
 
-[Delete now](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Delete now](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-prtxt
 
@@ -527,7 +502,7 @@ c
 
 68
 
-[Description text](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Description text](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 sy-rtitl
 
@@ -535,20 +510,10 @@ c
 
 70
 
-[Title of the spooler program](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Title of the spooler program](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
-
-
-**📖 Source**: [abensystem_fields_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields_obsolete.htm)
 
 ### abenscreen_structure_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abenscreen_structure_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_structure_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenscreen_structure_obsolete.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_structure_obsolete.htm)
-
 
   
 
@@ -556,15 +521,15 @@ c
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Built-In Data Objects](javascript:call_link\('abenbuilt_in_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Built-In Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_obsolete.htm) → 
 
 The Built-In Structure screen
 
-In [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") processing in dialog modules, the built-in data object screen of the data type SCREEN from ABAP Dictionary is available. It can be addressed explicitly there and implicitly in obsolete short forms.
+In [dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") processing in dialog modules, the built-in data object screen of the data type SCREEN from ABAP Dictionary is available. It can be addressed explicitly there and implicitly in obsolete short forms.
 
--   [LOOP AT SCREEN](javascript:call_link\('abenloop_at_screen_obsolete.htm'\))
+-   [LOOP AT SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_at_screen_obsolete.htm)
 
--   [MODIFY SCREEN](javascript:call_link\('abenmodify_screen_obsolete.htm'\))
+-   [MODIFY SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodify_screen_obsolete.htm)
 
 can be used. A data object screen declared explicitly in the current context obscures the built-in structure.
 

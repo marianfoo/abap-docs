@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  E
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  E
 
 EDITOR-CALL - Quick reference
 
-[Reference](javascript:call_link\('abapeditor-call_for_report.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapeditor-call_for_report.htm)
 
 Syntax
 
@@ -18,15 +18,15 @@ EDITOR-CALL FOR *{* *{*REPORT prog *\[*DISPLAY-MODE*\]**}*
 
 Effect
 
-Obsolete: Calls ABAP Editor for a [program](javascript:call_link\('abapeditor-call_for_report.htm'\)) prog or a text editor for text in an [internal table](javascript:call_link\('abapeditor-call_for_itab.htm'\)) itab.
+Obsolete: Calls ABAP Editor for a [program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapeditor-call_for_report.htm) prog or a text editor for text in an [internal table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapeditor-call_for_itab.htm) itab.
 
 Additions
 
--   [DISPLAY-MODE](javascript:call_link\('abapeditor-call_for_report.htm'\))
+-   [DISPLAY-MODE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapeditor-call_for_report.htm)
     Opens the editor in display mode
     
--   [TITLE title](javascript:call_link\('abapeditor-call_for_itab.htm'\))
+-   [TITLE title](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapeditor-call_for_itab.htm)
     Displays the title title in the title bar of the text editor.
     
--   [BACKUP INTO jtab](javascript:call_link\('abapeditor-call_for_itab.htm'\))
+-   [BACKUP INTO jtab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapeditor-call_for_itab.htm)
     Assigns the content of itab to the table jtab before opening the editor.

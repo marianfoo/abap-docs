@@ -4,8 +4,8 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 class library
 
-Repository of all global [object types](javascript:call_link\('abenobject_type_glosry.htm'\) "Glossary Entry"). The global [classes](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry") and [interfaces](javascript:call_link\('abeninterface_oo_glosry.htm'\) "Glossary Entry") in the class library are in the same namespace as the global [data types](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") in [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry").
+Repository of all global [object types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_type_glosry.htm "Glossary Entry"). The global [classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm "Glossary Entry") and [interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_oo_glosry.htm "Glossary Entry") in the class library are in the same namespace as the global [data types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_type_glosry.htm "Glossary Entry") in [ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary_glosry.htm "Glossary Entry").

@@ -3,29 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkeyrel.htm)
-- [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_checktab.htm)
-- [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkey.htm)
-- [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation.htm)
-- [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation_abexa.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.57
-**Generated**: 2025-09-01T11:25:45.211Z
-
----
-
 ### abenddic_database_tables_forkeyrel.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkeyrel.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -33,38 +11,31 @@ Included pages: 6
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [DDIC - Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [DDIC - Table-Specific Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary.htm) →  [DDIC - Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables.htm) →  [DDIC - Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_sema.htm) →  [DDIC - Table-Specific Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_semasspec.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DDIC - Foreign Key Dependencies, ABENDDIC_DATABASE_TABLES_FORKEYREL, 757%0D%0A%0D%0AE
 rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 DDIC - Foreign Key Dependencies
 
-A foreign key dependency is a semantic dependency between two DDIC database tables, namely a [foreign key table](javascript:call_link\('abenforeign_key_table_glosry.htm'\) "Glossary Entry") and a [check table](javascript:call_link\('abencheck_table_glosry.htm'\) "Glossary Entry").
+A foreign key dependency is a semantic dependency between two DDIC database tables, namely a [foreign key table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenforeign_key_table_glosry.htm "Glossary Entry") and a [check table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencheck_table_glosry.htm "Glossary Entry").
 
-A foreign key dependency is defined in the foreign key table. Check tables are assigned to table fields and these fields become [foreign keys](javascript:call_link\('abenforeign_key_glosry.htm'\) "Glossary Entry").
+A foreign key dependency is defined in the foreign key table. Check tables are assigned to table fields and these fields become [foreign keys](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenforeign_key_glosry.htm "Glossary Entry").
 
--   [Check table](javascript:call_link\('abenddic_database_tables_checktab.htm'\))
--   [Foreign Key](javascript:call_link\('abenddic_database_tables_forkey.htm'\))
+-   [Check table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_checktab.htm)
+-   [Foreign Key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkey.htm)
 
-Among other things, foreign key dependencies are evaluated for input checks, for input help on dynpros and in Web Dynpro, when creating [views](javascript:call_link\('abenddic_views.htm'\)), and in [lock objects](javascript:call_link\('abenlock_object_glosry.htm'\) "Glossary Entry"). Foreign keys are not used in the ABAP programming language or in ABAP SQL.
+Among other things, foreign key dependencies are evaluated for input checks, for input help on dynpros and in Web Dynpro, when creating [views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_views.htm), and in [lock objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlock_object_glosry.htm "Glossary Entry"). Foreign keys are not used in the ABAP programming language or in ABAP SQL.
 
-In a check table, [obsolete data can be identified](javascript:call_link\('abenddic_deprecation.htm'\)), which has an effect on the input check and input help on dynpros or Web Dynpros.
+In a check table, [obsolete data can be identified](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation.htm), which has an effect on the input check and input help on dynpros or Web Dynpros.
 
 Continue
-[DDIC - Check Table](javascript:call_link\('abenddic_database_tables_checktab.htm'\))
-[DDIC - Foreign Keys](javascript:call_link\('abenddic_database_tables_forkey.htm'\))
-[DDIC - Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation.htm'\))
+[DDIC - Check Table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_checktab.htm)
+[DDIC - Foreign Keys](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkey.htm)
+[DDIC - Flagging of Deprecated Data in Check Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation.htm)
 
-
-
-**📖 Source**: [abenddic_database_tables_forkeyrel.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkeyrel.htm)
 
 ### abenddic_database_tables_checktab.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_checktab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -72,14 +43,14 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [DDIC - Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [DDIC - Table-Specific Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) →  [DDIC - Foreign Key Dependencies](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary.htm) →  [DDIC - Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables.htm) →  [DDIC - Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_sema.htm) →  [DDIC - Table-Specific Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_semasspec.htm) →  [DDIC - Foreign Key Dependencies](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkeyrel.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DDIC - Check Table, ABENDDIC_DATABASE_TABLES_CHECKTAB, 757%0D%0A%0D%0AError:%0D%0A%0D
 %0A%0D%0A%0D%0ASuggestion for improvement:)
 
 DDIC - Check Table
 
-Table fields of a DDIC database table whose data type is determined by a [DDIC data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry") can be assigned a check table. Here, the [value table](javascript:call_link\('abenvalue_table_glosry.htm'\) "Glossary Entry") of any [DDIC domain](javascript:call_link\('abendomain_glosry.htm'\) "Glossary Entry") of the data element is used as a default value. A table field to which a check table is assigned is called a [foreign key field](javascript:call_link\('abenforeign_key_field_glosry.htm'\) "Glossary Entry") and becomes a part of the [foreign key](javascript:call_link\('abenddic_database_tables_forkey.htm'\)) of the table. The table itself becomes a foreign key table. The primary key of the check table is the foreign key of the foreign key table. Each key field of the check table corresponds to a field in the foreign key table. Here, the corresponding field pairs must have the same data type.
+Table fields of a DDIC database table whose data type is determined by a [DDIC data element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_element_glosry.htm "Glossary Entry") can be assigned a check table. Here, the [value table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_table_glosry.htm "Glossary Entry") of any [DDIC domain](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendomain_glosry.htm "Glossary Entry") of the data element is used as a default value. A table field to which a check table is assigned is called a [foreign key field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenforeign_key_field_glosry.htm "Glossary Entry") and becomes a part of the [foreign key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkey.htm) of the table. The table itself becomes a foreign key table. The primary key of the check table is the foreign key of the foreign key table. Each key field of the check table corresponds to a field in the foreign key table. Here, the corresponding field pairs must have the same data type.
 
 Hints
 
@@ -87,17 +58,10 @@ Hints
 -   As long as a DDIC database table is a check table, none of its key fields can be deleted and the order of the key fields cannot be modified.
 -   As long as a DDIC database table is a check table, its primary key can be expanded later only by appending new key fields to its end. The existing foreign keys then automatically become generic with respect to the new key fields.
 -   A client field cannot be inserted later into an existing check table.
--   A special column can be used to [flag obsolete data](javascript:call_link\('abenddic_deprecation.htm'\)) in check tables.
+-   A special column can be used to [flag obsolete data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation.htm) in check tables.
 
-
-
-**📖 Source**: [abenddic_database_tables_checktab.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_checktab.htm)
 
 ### abenddic_database_tables_forkey.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkey.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -105,20 +69,20 @@ Hints
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [DDIC - Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [DDIC - Table-Specific Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) →  [DDIC - Foreign Key Dependencies](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary.htm) →  [DDIC - Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables.htm) →  [DDIC - Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_sema.htm) →  [DDIC - Table-Specific Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_semasspec.htm) →  [DDIC - Foreign Key Dependencies](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkeyrel.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DDIC - Foreign Keys, ABENDDIC_DATABASE_TABLES_FORKEY, 757%0D%0A%0D%0AError:%0D%0A%0D%
 0A%0D%0A%0D%0ASuggestion for improvement:)
 
 DDIC - Foreign Keys
 
-A foreign key consists of one or more [foreign key fields](javascript:call_link\('abenforeign_key_field_glosry.htm'\) "Glossary Entry") of a [foreign key table](javascript:call_link\('abenforeign_key_table_glosry.htm'\) "Glossary Entry") that is itself the [primary key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") of a [check table](javascript:call_link\('abencheck_table_glosry.htm'\) "Glossary Entry"). A DDIC database table can have multiple foreign keys. A [foreign key dependency](javascript:call_link\('abenforeign_key_dependency_glosry.htm'\) "Glossary Entry") exists between a foreign key table and its check tables. A foreign key table usually only contains entries where the content of the foreign key also occurs exactly once as content of the primary key in the check table. This must also be respected in [writes](javascript:call_link\('abenabap_sql_writing.htm'\)) made using ABAP SQL.
+A foreign key consists of one or more [foreign key fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenforeign_key_field_glosry.htm "Glossary Entry") of a [foreign key table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenforeign_key_table_glosry.htm "Glossary Entry") that is itself the [primary key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprimary_key_glosry.htm "Glossary Entry") of a [check table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencheck_table_glosry.htm "Glossary Entry"). A DDIC database table can have multiple foreign keys. A [foreign key dependency](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenforeign_key_dependency_glosry.htm "Glossary Entry") exists between a foreign key table and its check tables. A foreign key table usually only contains entries where the content of the foreign key also occurs exactly once as content of the primary key in the check table. This must also be respected in [writes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_writing.htm) made using ABAP SQL.
 
 Foreign keys can have the following properties:
 
 -   Input check
     
-    In the definition of the foreign key, it is possible to use a foreign key dependency to activate an input check for dynpros or Web Dynpros. Furthermore, the standard message here can be replaced by a custom [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry"). Any placeholders in the message are filled as follows when the message is sent: The first three placeholders are filled with the content of the foreign key fields that are assigned to the first three key fields of the check table after the client field. The fourth placeholder is filled with the name of the check table.
+    In the definition of the foreign key, it is possible to use a foreign key dependency to activate an input check for dynpros or Web Dynpros. Furthermore, the standard message here can be replaced by a custom [message](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmessage_glosry.htm "Glossary Entry"). Any placeholders in the message are filled as follows when the message is sent: The first three placeholders are filled with the content of the foreign key fields that are assigned to the first three key fields of the check table after the client field. The fourth placeholder is filled with the name of the check table.
     
 -   Generic foreign key fields
     
@@ -134,7 +98,7 @@ Foreign keys can have the following properties:
     
 -   Cardinality
     
-    An n:m [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") can be defined for each foreign key. This cardinality has only a logging purpose, except in the definition of [DDIC maintenance views](javascript:call_link\('abenddic_maintenance_views.htm'\)) and [DDIC help views](javascript:call_link\('abenddic_help_views.htm'\)).
+    An n:m [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") can be defined for each foreign key. This cardinality has only a logging purpose, except in the definition of [DDIC maintenance views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_maintenance_views.htm) and [DDIC help views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_help_views.htm).
     
     Possible values for n:
     
@@ -185,14 +149,7 @@ Foreign keys can have the following properties:
         If this type of foreign key field is defined, the foreign key table is handled as a text table of the check table the primary key of the foreign key table must match the check table, plus a language key field with the type LANG. There can be only one text table for each check table, otherwise an activation warning occurs. The texts in a text table are used, for example, to explain input helps on dynpros and Web Dynpros.
 
 
-
-**📖 Source**: [abenddic_database_tables_forkey.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkey.htm)
-
 ### abenddic_deprecation.htm
-
-> **📖 Official SAP Documentation**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -200,16 +157,16 @@ Foreign keys can have the following properties:
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [DDIC - Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [DDIC - Table-Specific Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) →  [DDIC - Foreign Key Dependencies](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary.htm) →  [DDIC - Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables.htm) →  [DDIC - Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_sema.htm) →  [DDIC - Table-Specific Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_semasspec.htm) →  [DDIC - Foreign Key Dependencies](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkeyrel.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DDIC - Flagging of Deprecated Data in Check Tables, ABENDDIC_DEPRECATION, 757%0D%0A%0
 D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 DDIC - Flagging of Deprecated Data in Check Tables
 
-Lines in [check tables](javascript:call_link\('abenddic_database_tables_checktab.htm'\)) can be flagged as deprecated or invalid data. If the associated check on deprecated data is active, the flag modifies the [input check](javascript:call_link\('abenabap_dynpros_checks.htm'\)) and [input help](javascript:call_link\('abenabap_dynpros_value_help.htm'\)) in dynpros or Web Dynpros.
+Lines in [check tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_checktab.htm) can be flagged as deprecated or invalid data. If the associated check on deprecated data is active, the flag modifies the [input check](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_checks.htm) and [input help](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help.htm) in dynpros or Web Dynpros.
 
-Checks on deprecated data are active by default when an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") is created. This setting can be modified and read using methods of the class CL\_CONFIGURATION\_DEPRECATION:
+Checks on deprecated data are active by default when an [internal session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternal_session_glosry.htm "Glossary Entry") is created. This setting can be modified and read using methods of the class CL\_CONFIGURATION\_DEPRECATION:
 
 -   The parameter I\_RESPECT\_OBSOLETE\_VALUES of the method SET\_DEPRECATION\_ACTIVE can be used to enable and disable the deprecated data check for the current internal session.
 -   If the check on deprecated data is active, the return value of the method DEPRECATION\_IS\_ACTIVE has the value of abap\_true.
@@ -232,7 +189,7 @@ E
 
 The entry is invalid and can no longer be used.
 
-If the deprecated data check is enabled, the implicit [input checks](javascript:call_link\('abenabap_dynpros_checks.htm'\)) and [input helps](javascript:call_link\('abenabap_dynpros_value_help.htm'\)) in dynpros and in Web Dynpro that are based on check tables evaluate the column CONFIGURATIONDEPRECATIONCODE as follows:
+If the deprecated data check is enabled, the implicit [input checks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_checks.htm) and [input helps](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help.htm) in dynpros and in Web Dynpro that are based on check tables evaluate the column CONFIGURATIONDEPRECATIONCODE as follows:
 
 -   The input check creates the following:
     -   A warning if a deprecated value is entered
@@ -243,26 +200,19 @@ If the deprecated data check is enabled, the implicit [input checks](javascript:
 
 Hints
 
--   If input helps are based on [search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry") linked with check tables, the deprecated data check runs accordingly.
--   If the input check is implemented using a [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") module, the column CONFIGURATIONDEPRECATIONCODE must be evaluated in the PAI module itself.
--   [SAP HANA databases](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") use the more universal concept of [data aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry"), which is applied to each access using the [database interface](javascript:call_link\('abendatabase_interface_glosry.htm'\) "Glossary Entry").
+-   If input helps are based on [search helps](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensearch_help_glosry.htm "Glossary Entry") linked with check tables, the deprecated data check runs accordingly.
+-   If the input check is implemented using a [PAI](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpai_glosry.htm "Glossary Entry") module, the column CONFIGURATIONDEPRECATIONCODE must be evaluated in the PAI module itself.
+-   [SAP HANA databases](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_database_glosry.htm "Glossary Entry") use the more universal concept of [data aging](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_aging_glosry.htm "Glossary Entry"), which is applied to each access using the [database interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_interface_glosry.htm "Glossary Entry").
 
 Executable Example
 
-[Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation_abexa.htm'\))
+[Flagging of Deprecated Data in Check Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [DDIC - Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation_abexa.htm'\))
+![Example](exa.gif "Example") [DDIC - Flagging of Deprecated Data in Check Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation_abexa.htm)
 
-
-
-**📖 Source**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation.htm)
 
 ### abenddic_deprecation_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -270,14 +220,14 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [DDIC - Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [DDIC - Table-Specific Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) →  [DDIC - Foreign Key Dependencies](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)) →  [DDIC - Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary.htm) →  [DDIC - Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables.htm) →  [DDIC - Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_sema.htm) →  [DDIC - Table-Specific Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_semasspec.htm) →  [DDIC - Foreign Key Dependencies](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkeyrel.htm) →  [DDIC - Flagging of Deprecated Data in Check Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DDIC - Flagging of Deprecated Data in Check Tables, ABENDDIC_DEPRECATION_ABEXA, 757%0
 D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 DDIC - Flagging of Deprecated Data in Check Tables
 
-This example demonstrates [how deprecated data is flagged in check tables](javascript:call_link\('abenddic_deprecation.htm'\)).
+This example demonstrates [how deprecated data is flagged in check tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation.htm).
 
 Source Code   
 
@@ -314,7 +264,7 @@ Description  
 
 This example uses the check table DEMO\_DEPR\_CHECK for the flagging of deprecated entries and the first three table entries are flagged as deprecated. The next three table entries are flagged as invalid.
 
-This example makes it possible to define how deprecated data is checked. The [checkbox](javascript:call_link\('abencheckbox_glosry.htm'\) "Glossary Entry") Check deprecated data enables or disables checks on deprecated data and hence defines the input check and input help.
+This example makes it possible to define how deprecated data is checked. The [checkbox](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencheckbox_glosry.htm "Glossary Entry") Check deprecated data enables or disables checks on deprecated data and hence defines the input check and input help.
 
 If checks on deprecated data are enabled, the following takes place:
 
@@ -324,17 +274,7 @@ If checks on deprecated data are enabled, the following takes place:
 If the checkbox Check deprecated data is not selected, no warnings or error messages are produced and the input help displays all entries from the check table DEMO\_DEPR\_CHECK.
 
 
-
-**📖 Source**: [abenddic_deprecation_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation_abexa.htm)
-
 ### abenddic_deprecation.htm
-
-> **📖 Official SAP Documentation**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenddic_deprecation.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation.htm)
-
 
   
 
@@ -342,16 +282,16 @@ If the checkbox Check deprecated data is not selected, no warnings or error mess
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [DDIC - Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [DDIC - Table-Specific Semantic Properties of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) →  [DDIC - Foreign Key Dependencies](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary.htm) →  [DDIC - Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables.htm) →  [DDIC - Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_sema.htm) →  [DDIC - Table-Specific Semantic Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_semasspec.htm) →  [DDIC - Foreign Key Dependencies](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_forkeyrel.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DDIC - Flagging of Deprecated Data in Check Tables, ABENDDIC_DEPRECATION, 757%0D%0A%0
 D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 DDIC - Flagging of Deprecated Data in Check Tables
 
-Lines in [check tables](javascript:call_link\('abenddic_database_tables_checktab.htm'\)) can be flagged as deprecated or invalid data. If the associated check on deprecated data is active, the flag modifies the [input check](javascript:call_link\('abenabap_dynpros_checks.htm'\)) and [input help](javascript:call_link\('abenabap_dynpros_value_help.htm'\)) in dynpros or Web Dynpros.
+Lines in [check tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_checktab.htm) can be flagged as deprecated or invalid data. If the associated check on deprecated data is active, the flag modifies the [input check](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_checks.htm) and [input help](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help.htm) in dynpros or Web Dynpros.
 
-Checks on deprecated data are active by default when an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") is created. This setting can be modified and read using methods of the class CL\_CONFIGURATION\_DEPRECATION:
+Checks on deprecated data are active by default when an [internal session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternal_session_glosry.htm "Glossary Entry") is created. This setting can be modified and read using methods of the class CL\_CONFIGURATION\_DEPRECATION:
 
 -   The parameter I\_RESPECT\_OBSOLETE\_VALUES of the method SET\_DEPRECATION\_ACTIVE can be used to enable and disable the deprecated data check for the current internal session.
 -   If the check on deprecated data is active, the return value of the method DEPRECATION\_IS\_ACTIVE has the value of abap\_true.
@@ -374,7 +314,7 @@ E
 
 The entry is invalid and can no longer be used.
 
-If the deprecated data check is enabled, the implicit [input checks](javascript:call_link\('abenabap_dynpros_checks.htm'\)) and [input helps](javascript:call_link\('abenabap_dynpros_value_help.htm'\)) in dynpros and in Web Dynpro that are based on check tables evaluate the column CONFIGURATIONDEPRECATIONCODE as follows:
+If the deprecated data check is enabled, the implicit [input checks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_checks.htm) and [input helps](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_value_help.htm) in dynpros and in Web Dynpro that are based on check tables evaluate the column CONFIGURATIONDEPRECATIONCODE as follows:
 
 -   The input check creates the following:
     -   A warning if a deprecated value is entered
@@ -385,13 +325,13 @@ If the deprecated data check is enabled, the implicit [input checks](javascript:
 
 Hints
 
--   If input helps are based on [search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry") linked with check tables, the deprecated data check runs accordingly.
--   If the input check is implemented using a [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") module, the column CONFIGURATIONDEPRECATIONCODE must be evaluated in the PAI module itself.
--   [SAP HANA databases](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") use the more universal concept of [data aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry"), which is applied to each access using the [database interface](javascript:call_link\('abendatabase_interface_glosry.htm'\) "Glossary Entry").
+-   If input helps are based on [search helps](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensearch_help_glosry.htm "Glossary Entry") linked with check tables, the deprecated data check runs accordingly.
+-   If the input check is implemented using a [PAI](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpai_glosry.htm "Glossary Entry") module, the column CONFIGURATIONDEPRECATIONCODE must be evaluated in the PAI module itself.
+-   [SAP HANA databases](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_database_glosry.htm "Glossary Entry") use the more universal concept of [data aging](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_aging_glosry.htm "Glossary Entry"), which is applied to each access using the [database interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_interface_glosry.htm "Glossary Entry").
 
 Executable Example
 
-[Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation_abexa.htm'\))
+[Flagging of Deprecated Data in Check Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [DDIC - Flagging of Deprecated Data in Check Tables](javascript:call_link\('abenddic_deprecation_abexa.htm'\))
+![Example](exa.gif "Example") [DDIC - Flagging of Deprecated Data in Check Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_deprecation_abexa.htm)

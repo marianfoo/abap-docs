@@ -4,16 +4,18 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) →  [Numeric Source Fields](javascript:call_link\('abennumeric_source_fields.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_elementary.htm) →  [Numeric Source Fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_source_fields.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Source%20Field%20Type%20p%2C%20ABENCONVERSION_TYPE_P%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Source Field Type p
 
-If the program property [fixed point arithmetic](javascript:call_link\('abenfixed_point_arithmetic_glosry.htm'\) "Glossary Entry") is not set, the decimal separator in source fields with the type [p](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) is ignored, except in assignments to character-like target fields with the types c and string.
+If the program property [fixed point arithmetic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfixed_point_arithmetic_glosry.htm "Glossary Entry") is not set, the decimal separator in source fields with the type [p](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm) is ignored, except in assignments to character-like target fields with the types c and string.
 
--   [Numeric Target Fields](#abenconversion-type-p-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_P_2)
--   [Byte-Like Target Fields](#abenconversion-type-p-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_P_4)
+-   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_P_1)
+-   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_P_2)
+-   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_P_3)
+-   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_P_4)
 
 Numeric Target Fields   
 
@@ -23,15 +25,15 @@ Conversion
 
 i, int8, (b, s)
 
-The value of the packed number is rounded commercially to an integer number. If this number is within the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") for the data type i, (b, s), it is converted to the internal representation of the corresponding integer number. Otherwise, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
+The value of the packed number is rounded commercially to an integer number. If this number is within the [value range](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_range_glosry.htm "Glossary Entry") for the data type i, (b, s), it is converted to the internal representation of the corresponding integer number. Otherwise, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
 
 p
 
-The value of the packed number is rounded commercially to the number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") of the target field. If this number is within the value range for the data type of the target field, it is converted to the internal representation of this packed number. Otherwise, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
+The value of the packed number is rounded commercially to the number of [decimal places](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendecimal_place_glosry.htm "Glossary Entry") of the target field. If this number is within the value range for the data type of the target field, it is converted to the internal representation of this packed number. Otherwise, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
 
 decfloat16, decfloat34
 
-The value of the packed number is converted into the internal format of a decimal floating point number. If the number of places for a target field of type decfloat16 is greater than 16 when the assignment is performed, commercial rounding to 16 places is applied. If the mantissa of the target field is long enough, the [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") is set to the number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") of the source field. An invalid value in the source field raises the catchable exception CX\_SY\_CONVERSION\_NO\_NUMBER.
+The value of the packed number is converted into the internal format of a decimal floating point number. If the number of places for a target field of type decfloat16 is greater than 16 when the assignment is performed, commercial rounding to 16 places is applied. If the mantissa of the target field is long enough, the [scaling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscale_glosry.htm "Glossary Entry") is set to the number of [decimal places](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendecimal_place_glosry.htm "Glossary Entry") of the source field. An invalid value in the source field raises the catchable exception CX\_SY\_CONVERSION\_NO\_NUMBER.
 
 f
 
@@ -52,7 +54,7 @@ Conversion
 
 c
 
-The value of the packed number is formatted in [commercial notation](javascript:call_link\('abennumerical_value.htm'\)) and passed right-aligned to the target field. The character \- is set in the last position for a negative value and a blank is set in the last place for a positive value. If the target field is longer than the string of digits, including the plus/minus sign, it is padded with blanks on the left. If it is too short, the number representation is moved to the right by one position for positive values. If the target field is still too short (and for negative values), it is truncated on the left and the character \* is set in the first position of the target field.
+The value of the packed number is formatted in [commercial notation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_value.htm) and passed right-aligned to the target field. The character \- is set in the last position for a negative value and a blank is set in the last place for a positive value. If the target field is longer than the string of digits, including the plus/minus sign, it is padded with blanks on the left. If it is too short, the number representation is moved to the right by one position for positive values. If the target field is still too short (and for negative values), it is truncated on the left and the character \* is set in the first position of the target field.
 
 n
 
@@ -60,7 +62,7 @@ The value of the packed number is rounded commercially to an integer number. The
 
 string
 
-The value of the packed number is formatted in [commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry") and passed to the target field without gaps. The character \- is set in the last position for a negative value and a blank is set in the last position for a positive value. The resulting length of the target field is determined by the number of digits, plus the places for the plus/minus sign and the decimal separator.
+The value of the packed number is formatted in [commercial notation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencommercial_notation_glosry.htm "Glossary Entry") and passed to the target field without gaps. The character \- is set in the last position for a negative value and a blank is set in the last position for a positive value. The resulting length of the target field is determined by the number of digits, plus the places for the plus/minus sign and the decimal separator.
 
 Hint
 
@@ -81,11 +83,11 @@ Conversion
 
 x
 
-The content of the source field is first converted to data type i (see above) and then to type x (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type x (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_type_ibs.htm)).
 
 xstring
 
-The content of the source field is first converted to data type i (see above) and then to type xstring (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type xstring (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_type_ibs.htm)).
 
 Example
 
@@ -103,11 +105,11 @@ Conversion
 
 d
 
-The content of the source field is first converted to data type i (see above) and then to type d (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type d (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_type_ibs.htm)).
 
 t
 
-The content of the source field is first converted to data type i (see above) and then to type t (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type t (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_type_ibs.htm)).
 
 utclong
 
@@ -115,7 +117,7 @@ Not supported. Produces a syntax error or raises the exception CX\_SY\_CONVERSIO
 
 Hint
 
-The method TSTMP2UTCLONG of the class [CL\_ABAP\_TSTMP](javascript:call_link\('abencl_abap_tstmp.htm'\)) converts [time stamps in packed numbers](javascript:call_link\('abentime_stamps_packed.htm'\)) to [time stamp fields](javascript:call_link\('abentimestamp_field_glosry.htm'\) "Glossary Entry") of the type utclong.
+The method TSTMP2UTCLONG of the class [CL\_ABAP\_TSTMP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencl_abap_tstmp.htm) converts [time stamps in packed numbers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_stamps_packed.htm) to [time stamp fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentimestamp_field_glosry.htm "Glossary Entry") of the type utclong.
 
 Example
 

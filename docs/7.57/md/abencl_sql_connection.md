@@ -4,22 +4,22 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ABAP Database Connectivity (ADBC)](javascript:call_link\('abenadbc.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennative_sql.htm) →  [ABAP Database Connectivity (ADBC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ADBC - CL_SQL_CONNECTION, ABENCL_SQL_CONNECTION, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D
 %0A%0D%0ASuggestion for improvement:)
 
 ADBC - CL\_SQL\_CONNECTION
 
-The SQL statements that are represented by objects of the [CL\_SQL\_STATEMENT](javascript:call_link\('abencl_sql_statement.htm'\)) and [CL\_SQL\_PREPARED\_STATEMENT](javascript:call_link\('abencl_sql_prepared_statement.htm'\)) classes work by default with the [standard AS ABAP database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry"). The following class can be used to enable additional [database connections](javascript:call_link\('abendatabase_connection_glosry.htm'\) "Glossary Entry") or to make settings for database connections, including the [standard connection](javascript:call_link\('abenstandard_db_connection_glosry.htm'\) "Glossary Entry"):
+The SQL statements that are represented by objects of the [CL\_SQL\_STATEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencl_sql_statement.htm) and [CL\_SQL\_PREPARED\_STATEMENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencl_sql_prepared_statement.htm) classes work by default with the [standard AS ABAP database](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_db_glosry.htm "Glossary Entry"). The following class can be used to enable additional [database connections](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_connection_glosry.htm "Glossary Entry") or to make settings for database connections, including the [standard connection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry"):
 
 -   CL\_SQL\_CONNECTION
 
 The following can be passed to the method GET\_ABAP\_CONNECTION of this class:
 
--   The value DEFAULT for the [standard connection](javascript:call_link\('abenstandard_db_connection_glosry.htm'\) "Glossary Entry") of the current work process.
--   The name of a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") from the column CON\_NAME of the database table DBCON.
--   The name of a [service connection](javascript:call_link\('abenservice_connection_glosry.htm'\) "Glossary Entry") prefixed with R/3\*.
+-   The value DEFAULT for the [standard connection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry") of the current work process.
+-   The name of a [secondary connection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") from the column CON\_NAME of the database table DBCON.
+-   The name of a [service connection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenservice_connection_glosry.htm "Glossary Entry") prefixed with R/3\*.
 
 All of these instances are case-sensitive. The method attempts to activate the corresponding connection or continue using it and, if successful, creates an instance of CL\_SQL\_CONNECTION as a connection object and returns the corresponding reference.
 
@@ -30,14 +30,14 @@ A further method GET\_CONNECTION has the additional parameter SHARABLE, which ca
 
 References to instances of CL\_SQL\_CONNECTION can be passed to the parameter CON\_REF of the instance constructor of CL\_SQL\_STATEMENT or CL\_SQL\_PREPARED\_STATEMENT. Instances created in this way execute their SQL statements on the database connection represented by the instance of CL\_SQL\_CONNECTION.
 
-The instance method CLOSE of CL\_SQL\_CONNECTION closes the current secondary connection or service connection. All database changes not yet committed using a [database commit](javascript:call_link\('abendb_commit.htm'\)) are discarded here. The instance can no longer be used after this and statements that are already linked with the connection become invalid. CLOSE is ignored in instances that represent the standard connection.
+The instance method CLOSE of CL\_SQL\_CONNECTION closes the current secondary connection or service connection. All database changes not yet committed using a [database commit](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_commit.htm) are discarded here. The instance can no longer be used after this and statements that are already linked with the connection become invalid. CLOSE is ignored in instances that represent the standard connection.
 
-To handle [database LUWs](javascript:call_link\('abenadbc_transaction.htm'\)) using ADBC, the class CL\_SQL\_CONNECTION contains the methods COMMIT and ROLLBACK, which raise a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") or [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry") respectively. Furthermore, CL\_SQL\_CONNECTION contains methods for [setting the transaction behavior](javascript:call_link\('abenhana_set_transaction.htm'\)) of the current database connection. When an [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") is accessed, these methods must be used instead of the corresponding SQL SET TRANSACTION statements.
+To handle [database LUWs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc_transaction.htm) using ADBC, the class CL\_SQL\_CONNECTION contains the methods COMMIT and ROLLBACK, which raise a [database commit](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_commit_glosry.htm "Glossary Entry") or [database rollback](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_rollback_glosry.htm "Glossary Entry") respectively. Furthermore, CL\_SQL\_CONNECTION contains methods for [setting the transaction behavior](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_set_transaction.htm) of the current database connection. When an [SAP HANA database](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_database_glosry.htm "Glossary Entry") is accessed, these methods must be used instead of the corresponding SQL SET TRANSACTION statements.
 
 Hints
 
--   To create a connection object for the [standard connection](javascript:call_link\('abenstandard_db_connection_glosry.htm'\) "Glossary Entry"), an instance of CL\_SQL\_CONNECTION can be created directly using CREATE OBJECT or the instance operator NEW instead of calling the method GET\_ABAP\_CONNECTION with the value DEFAULT.
--   For detailed information about database connections, see [database connections](javascript:call_link\('abendb_connections.htm'\)).
+-   To create a connection object for the [standard connection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry"), an instance of CL\_SQL\_CONNECTION can be created directly using CREATE OBJECT or the instance operator NEW instead of calling the method GET\_ABAP\_CONNECTION with the value DEFAULT.
+-   For detailed information about database connections, see [database connections](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_connections.htm).
 
 Example
 
@@ -57,4 +57,4 @@ TRY.
 ENDTRY.
 
 Continue
-[ADBC - Database LUWs](javascript:call_link\('abenadbc_transaction.htm'\))
+[ADBC - Database LUWs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc_transaction.htm)

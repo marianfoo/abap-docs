@@ -4,23 +4,23 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Objects](javascript:call_link\('abenobjects_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_declarations.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobjects_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Text%20Symbols%2C%20ABENTEXT_SYMBOLS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Text Symbols
 
-A text symbol is a [named data object](javascript:call_link\('abennamed_data_object_glosry.htm'\) "Glossary Entry") of an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry") that is not declared in the program itself but is maintained as a part of the [text elements](javascript:call_link\('abentext_element_glosry.htm'\) "Glossary Entry") of the program. A text symbol has the [data type](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") [c](javascript:call_link\('abenbuiltin_types_character.htm'\)) and the length defined in the text elements by mlen.
+A text symbol is a [named data object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennamed_data_object_glosry.htm "Glossary Entry") of an [ABAP program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_glosry.htm "Glossary Entry") that is not declared in the program itself but is maintained as a part of the [text elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_element_glosry.htm "Glossary Entry") of the program. A text symbol has the [data type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_type_glosry.htm "Glossary Entry") [c](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_character.htm) and the length defined in the text elements by mlen.
 
-A text symbol behaves like a [constant](javascript:call_link\('abenconstant_glosry.htm'\) "Glossary Entry") and can be specified in [read positions](javascript:call_link\('abenread_position_glosry.htm'\) "Glossary Entry") using its names as follows:
+A text symbol behaves like a [constant](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstant_glosry.htm "Glossary Entry") and can be specified in [read positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenread_position_glosry.htm "Glossary Entry") using its names as follows:
 
 ... text-idf ...
 
-Here, idf is the three-character ID of the text symbol, which can be composed of all alphanumeric characters including \_. The text symbol is then taken from the currently loaded [text pool](javascript:call_link\('abentext_pool_glosry.htm'\) "Glossary Entry").
+Here, idf is the three-character ID of the text symbol, which can be composed of all alphanumeric characters including \_. The text symbol is then taken from the currently loaded [text pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_pool_glosry.htm "Glossary Entry").
 
-If the text symbol does not exist in the currently loaded [text pool](javascript:call_link\('abentext_pool_glosry.htm'\) "Glossary Entry"), text-idf is handled like an initial single-character [text field](javascript:call_link\('abentext_field_glosry.htm'\) "Glossary Entry").
+If the text symbol does not exist in the currently loaded [text pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_pool_glosry.htm "Glossary Entry"), text-idf is handled like an initial single-character [text field](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_field_glosry.htm "Glossary Entry").
 
-A text symbol can be linked to [text field literals](javascript:call_link\('abentext_field_literal_glosry.htm'\) "Glossary Entry") using the following syntax:
+A text symbol can be linked to [text field literals](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_field_literal_glosry.htm "Glossary Entry") using the following syntax:
 
 ... 'Literal'(idf) ...
 

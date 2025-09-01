@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Write Access](javascript:call_link\('abenabap_sql_writing.htm'\)) →  [INSERT, UPDATE, MODIFY, DELETE, target](javascript:call_link\('abapiumd_target.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql.htm) →  [ABAP SQL - Write Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_writing.htm) →  [INSERT, UPDATE, MODIFY, DELETE, target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapiumd_target.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: INSERT, UPDATE, MODIFY, DELETE dbtab, CLIENT, CLIENTS, ABAPIUMD_CLIENT, 757%0D%0A%0D%
 0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -26,9 +26,9 @@ Variants:
 
 Effect
 
-These additions modify [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") of the ABAP SQL write statements [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)), [UPDATE](javascript:call_link\('abapupdate.htm'\)), [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)), and [DELETE](javascript:call_link\('abapdelete_dbtab.htm'\)). They can be specified optionally after the target [target](javascript:call_link\('abapiumd_target.htm'\)) in each of these statements. If none of these additions are specified, default client handling applies:
+These additions modify [client handling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_handling_glosry.htm "Glossary Entry") of the ABAP SQL write statements [INSERT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_dbtab.htm), [UPDATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapupdate.htm), [MODIFY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_dbtab.htm), and [DELETE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_dbtab.htm). They can be specified optionally after the target [target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapiumd_target.htm) in each of these statements. If none of these additions are specified, default client handling applies:
 
--   If a work area wa, an internal table itab, or a subquery [subquery\_clauses](javascript:call_link\('abapinsert_from_select.htm'\)) is specified as a source source after FROM, the ID of the current client is used when client-dependent tables are modified instead of the values of the tables for the client column.
+-   If a work area wa, an internal table itab, or a subquery [subquery\_clauses](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_from_select.htm) is specified as a source source after FROM, the ID of the current client is used when client-dependent tables are modified instead of the values of the tables for the client column.
 -   In the case of the variants UPDATE SET or DELETE FROM, in which a WHERE can be specified, no explicit condition can be set on the client column. Instead, an implicit condition for the current client is passed to the database system.
 
 The two variants of the optional additions are specific for these two cases:
@@ -39,7 +39,7 @@ The two variants of the optional additions are specific for these two cases:
 Hints
 
 -   Each client represents a self-contained unit, which means that implicit client handling should not be switched off in application programs.
--   See also the related [security note](javascript:call_link\('abenclient_dependent_scrty.htm'\)) and the [programming guideline](javascript:call_link\('abenclient_handling_guidl.htm'\) "Guideline").
+-   See also the related [security note](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_dependent_scrty.htm) and the [programming guideline](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_handling_guidl.htm "Guideline").
 
 Variant 1   
 
@@ -52,7 +52,7 @@ Alternatives:
 
 Effect
 
-These two additions modify implicit [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") of a modifying ABAP SQL statement in cases where its source is specified as a work area wa, internal table itab, or subquery subquery\_clauses after FROM.
+These two additions modify implicit [client handling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_handling_glosry.htm "Glossary Entry") of a modifying ABAP SQL statement in cases where its source is specified as a work area wa, internal table itab, or subquery subquery\_clauses after FROM.
 
 -   The addition USING CLIENT switches implicit client handling to the specified client.
 -   The addition CLIENT SPECIFIED specifies that the client IDs specified in source are used.
@@ -60,9 +60,9 @@ These two additions modify implicit [client handling](javascript:call_link\('abe
 Hints
 
 -   If data is to be processed with exactly one other client ID, USING CLIENT should be used instead of CLIENT SPECIFIED, since it specifies the client explicitly.
--   If data of multiple clients is to be processed, CLIENT SPECIFIED can or must be used. This is particularly the case when an internal table is used as a data source whose client column contains different client IDs or if a subquery is used as a data source to select the data of various clients using [USING *\[*ALL*\]* CLIENTS *\[*IN*\]*](javascript:call_link\('abapselect_client.htm'\)).
--   The addition [USING *\[*ALL*\]* CLIENTS *\[*IN*\]*](javascript:call_link\('abapselect_client.htm'\)) cannot be used in this variant.
--   In this variant, the addition CLIENT SPECIFIED is not [obsolete](javascript:call_link\('abapud_client_obsolete.htm'\)) and is even allowed when accessing [global temporary tables](javascript:call_link\('abenddic_database_tables_gtt.htm'\)). Here, it is used to express the fact that the client IDs of the sources specified after FROM are used.
+-   If data of multiple clients is to be processed, CLIENT SPECIFIED can or must be used. This is particularly the case when an internal table is used as a data source whose client column contains different client IDs or if a subquery is used as a data source to select the data of various clients using [USING *\[*ALL*\]* CLIENTS *\[*IN*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_client.htm).
+-   The addition [USING *\[*ALL*\]* CLIENTS *\[*IN*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_client.htm) cannot be used in this variant.
+-   In this variant, the addition CLIENT SPECIFIED is not [obsolete](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapud_client_obsolete.htm) and is even allowed when accessing [global temporary tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_gtt.htm). Here, it is used to express the fact that the client IDs of the sources specified after FROM are used.
 
 Example
 
@@ -89,7 +89,7 @@ UPDATE demo\_update CLIENT SPECIFIED
 
 Executable Example
 
-See [INSERT, CLIENT](javascript:call_link\('abeninsert_client_abexa.htm'\))
+See [INSERT, CLIENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninsert_client_abexa.htm)
 
 Alternative 1   
 
@@ -97,23 +97,23 @@ Alternative 1  
 
 Effect
 
-This addition modifies implicit [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") in ABAP SQL so that the client ID from clnt is used instead of the current client ID. The [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry") replaces the client specified in source with the client specified in clnt and passes it to the database system.
+This addition modifies implicit [client handling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_handling_glosry.htm "Glossary Entry") in ABAP SQL so that the client ID from clnt is used instead of the current client ID. The [ABAP runtime framework](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry") replaces the client specified in source with the client specified in clnt and passes it to the database system.
 
-clnt expects a data object of the type c with length 3 and containing a client ID. A [literal](javascript:call_link\('abenabap_sql_literals.htm'\)) or a [host variable](javascript:call_link\('abenabap_sql_host_variables.htm'\)) can be specified.
+clnt expects a data object of the type c with length 3 and containing a client ID. A [literal](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_literals.htm) or a [host variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_host_variables.htm) can be specified.
 
 The following rules apply to the addition USING:
 
 -   It can be used only when modifying a client-dependent table or view of this type.
 -   This addition cannot be used with the addition CLIENT SPECIFIED.
--   It cannot be used if a subquery is used as a data source of [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)) or [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)) in which implicit client handling is switched using [USING *\[*ALL*\]* CLIENTS *\[*IN*\]*](javascript:call_link\('abapselect_client.htm'\)).
+-   It cannot be used if a subquery is used as a data source of [INSERT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_dbtab.htm) or [MODIFY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_dbtab.htm) in which implicit client handling is switched using [USING *\[*ALL*\]* CLIENTS *\[*IN*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_client.htm).
 -   If specified, the system field sy-mandt would be ignored and cannot be specified directly for clnt.
 
 Hints
 
 -   If the addition USING CLIENT is used, the statement ABAP SQL works as if the current user were logged on with the client ID specified in clnt.
 -   If the addition USING CLIENT is used for a dynamically specified DDIC database table or DDIC view and they are not client-dependent, the addition is ignored.
--   The addition USING CLIENT is not allowed in the [obsolete short forms](javascript:call_link\('abenabap_sql_short_forms_obsolete.htm'\)).
--   If the addition USING CLIENT is used, the syntax check is performed in a [strict mode](javascript:call_link\('abenabap_sql_strictmode_740_sp05.htm'\)), which handles the statement more strictly than the regular syntax check.
+-   The addition USING CLIENT is not allowed in the [obsolete short forms](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_short_forms_obsolete.htm).
+-   If the addition USING CLIENT is used, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_strictmode_740_sp05.htm), which handles the statement more strictly than the regular syntax check.
 
 Example
 
@@ -124,7 +124,7 @@ MODIFY demo\_expressions USING CLIENT '800'
 
 Example
 
-The addition USING CLIENT after INSERT fills two columns of a DDIC database table with three rows for the client 100. Afterwards, these rows are copied to the current client in a [subquery](javascript:call_link\('abensubquery_glosry.htm'\) "Glossary Entry") by specifying USING CLIENT.
+The addition USING CLIENT after INSERT fills two columns of a DDIC database table with three rows for the client 100. Afterwards, these rows are copied to the current client in a [subquery](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensubquery_glosry.htm "Glossary Entry") by specifying USING CLIENT.
 
 DELETE FROM demo\_expressions.
 DELETE FROM demo\_expressions USING CLIENT '100'.
@@ -148,23 +148,23 @@ Alternative 2  
 
 Effect
 
-The addition CLIENT SPECIFIED specifies that the [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") in the client column in the source source specified after FROM is used and not the ID of the current client.
+The addition CLIENT SPECIFIED specifies that the [client ID](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_identifier_glosry.htm "Glossary Entry") in the client column in the source source specified after FROM is used and not the ID of the current client.
 
 The following rules apply to the addition CLIENT SPECIFIED:
 
 -   It can be used only when accessing client-dependent DDIC database tables or views.
 -   It cannot be used together with USING CLIENT.
--   It cannot be used when a subquery is used as a data source of [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)) or [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)) that works with default client handling or in which implicit client handling is switched using [USING CLIENT](javascript:call_link\('abapselect_client.htm'\)).
--   It must be used if a subquery is used as a data source of [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)) or [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)) in which implicit client handling is switched using [USING *\[*ALL*\]* CLIENTS *\[*IN*\]*](javascript:call_link\('abapselect_client.htm'\)).
+-   It cannot be used when a subquery is used as a data source of [INSERT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_dbtab.htm) or [MODIFY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_dbtab.htm) that works with default client handling or in which implicit client handling is switched using [USING CLIENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_client.htm).
+-   It must be used if a subquery is used as a data source of [INSERT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_dbtab.htm) or [MODIFY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_dbtab.htm) in which implicit client handling is switched using [USING *\[*ALL*\]* CLIENTS *\[*IN*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_client.htm).
 
 Hints
 
 -   If the addition CLIENT SPECIFIED is used for a dynamically specified DDIC database table or DDIC view and they are not client-dependent, the addition is ignored.
--   If specified for statically specified client-independent DDIC database tables or DDIC views, the addition CLIENT SPECIFIED produces a syntax error in the [strict modes](javascript:call_link\('abenabap_sql_strict_modes.htm'\)) of the syntax check from ABAP release 7.40, SP05 or else a syntax warning.
+-   If specified for statically specified client-independent DDIC database tables or DDIC views, the addition CLIENT SPECIFIED produces a syntax error in the [strict modes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_strict_modes.htm) of the syntax check from ABAP release 7.40, SP05 or else a syntax warning.
 
 Example
 
-This example implements a client copy of all data in a table to multiple clients. The addition CLIENT SPECIFIED of the statement [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)) ensures that the client IDs of the internal table used as a data source are not overwritten by the current client. The internal table is created in a host variable by copying the data of the current client read previously from SCARR is copied to multiple different client IDs. Duplicate entries are avoided by first using the addition USING CLIENTS IN to delete all data of the area in question. After the insertion, all data of this area is read and displayed.
+This example implements a client copy of all data in a table to multiple clients. The addition CLIENT SPECIFIED of the statement [INSERT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_dbtab.htm) ensures that the client IDs of the internal table used as a data source are not overwritten by the current client. The internal table is created in a host variable by copying the data of the current client read previously from SCARR is copied to multiple different client IDs. Duplicate entries are avoided by first using the addition USING CLIENTS IN to delete all data of the area in question. After the insertion, all data of this area is read and displayed.
 
 SELECT \*
        FROM scarr
@@ -195,14 +195,14 @@ Alternatives:
 
 Effect
 
-These additions modify implicit [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") of a modifying ABAP SQL statement [UPDATE SET](javascript:call_link\('abapupdate.htm'\)) or [DELETE FROM](javascript:call_link\('abapdelete_dbtab.htm'\)) in which a WHERE condition can be specified.
+These additions modify implicit [client handling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_handling_glosry.htm "Glossary Entry") of a modifying ABAP SQL statement [UPDATE SET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapupdate.htm) or [DELETE FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_dbtab.htm) in which a WHERE condition can be specified.
 
 -   The addition USING CLIENT switches implicit client handling to the specified client.
 -   The additions USING *\[*ALL*\]* CLIENTS *\[*IN*\]* select the data of any number of clients instead of the current client.
 
 Hint
 
-Instead of USING, the addition [CLIENT SPECIFIED](javascript:call_link\('abapud_client_obsolete.htm'\)) can also be specified outside [strict mode from Release 7.54](javascript:call_link\('abenabap_sql_strictmode_754.htm'\)). This is, however, obsolete here. The additions shown here should be used instead.
+Instead of USING, the addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapud_client_obsolete.htm) can also be specified outside [strict mode from Release 7.54](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_strictmode_754.htm). This is, however, obsolete here. The additions shown here should be used instead.
 
 Alternative 1   
 
@@ -210,9 +210,9 @@ Alternative 1  
 
 Effect
 
-This addition modifies implicit [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") in ABAP SQL so that the client ID from clnt is used instead of the current client ID. In the implicit WHERE condition, the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry") replaces the current client ID by the ID specified in clnt.
+This addition modifies implicit [client handling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_handling_glosry.htm "Glossary Entry") in ABAP SQL so that the client ID from clnt is used instead of the current client ID. In the implicit WHERE condition, the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry") replaces the current client ID by the ID specified in clnt.
 
-clnt expects a data object of the type c with length 3 and containing a client ID. A [literal](javascript:call_link\('abenabap_sql_literals.htm'\)) or a [host variable](javascript:call_link\('abenabap_sql_host_variables.htm'\)) can be specified.
+clnt expects a data object of the type c with length 3 and containing a client ID. A [literal](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_literals.htm) or a [host variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_host_variables.htm) can be specified.
 
 The following rules apply to the addition USING:
 
@@ -223,7 +223,7 @@ Hints
 
 -   If the addition USING CLIENT is used, the ABAP SQL statement works as if the current user were logged on with the client ID specified in clnt.
 -   If the addition USING CLIENT is used for a dynamically specified DDIC database table or DDIC view and they are not client-dependent, the addition is ignored.
--   If the addition USING CLIENT is used, the syntax check is performed in a [strict mode](javascript:call_link\('abenabap_sql_strictmode_740_sp05.htm'\)), which handles the statement more strictly than the regular syntax check.
+-   If the addition USING CLIENT is used, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_strictmode_740_sp05.htm), which handles the statement more strictly than the regular syntax check.
 
 Example
 
@@ -246,23 +246,23 @@ Alternative 4  
 
 Effect
 
-These additions switch implicit ABAP SQL [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") so that the data of all clients specified by the addition is modified and not just the data from the current client. The additions modify the implicit WHERE condition for the client column passed to the database.
+These additions switch implicit ABAP SQL [client handling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclient_handling_glosry.htm "Glossary Entry") so that the data of all clients specified by the addition is modified and not just the data from the current client. The additions modify the implicit WHERE condition for the client column passed to the database.
 
--   The addition USING CLIENTS IN @client\_range\_tab selects implicitly the clients whose client IDs meet the conditions in a [ranges table](javascript:call_link\('abenranges_table_glosry.htm'\) "Glossary Entry") client\_range\_tab instead of the current client. If the ranges table is empty, the data of all clients is selected.
+-   The addition USING CLIENTS IN @client\_range\_tab selects implicitly the clients whose client IDs meet the conditions in a [ranges table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenranges_table_glosry.htm "Glossary Entry") client\_range\_tab instead of the current client. If the ranges table is empty, the data of all clients is selected.
 -   The addition USING CLIENTS IN T000 selects implicitly the clients whose client IDs are in the column MANDT of the system table T000 instead of the current client.
 -   The addition USING ALL CLIENTS selects implicitly all rows regardless of client ID instead of the current client.
 
-The same rules apply to the additions as to the identically named additions [USING *\[*ALL*\]* CLIENTS *\[*IN*\]*](javascript:call_link\('abapselect_client.htm'\)) in queries.
+The same rules apply to the additions as to the identically named additions [USING *\[*ALL*\]* CLIENTS *\[*IN*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_client.htm) in queries.
 
 Hints
 
--   The additions USING *\[*ALL*\]* CLIENTS *\[*IN*\]* replace the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapud_client_obsolete.htm'\)) if this is used to select more than one client.
--   If used, the additions USING *\[*ALL*\]* CLIENTS *\[*IN*\]* apply [strict mode from Release 7.54](javascript:call_link\('abenabap_sql_strictmode_754.htm'\)).
+-   The additions USING *\[*ALL*\]* CLIENTS *\[*IN*\]* replace the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapud_client_obsolete.htm) if this is used to select more than one client.
+-   If used, the additions USING *\[*ALL*\]* CLIENTS *\[*IN*\]* apply [strict mode from Release 7.54](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_strictmode_754.htm).
 
 Executable Example
 
-See [UPDATE, USING CLIENT, CLIENTS](javascript:call_link\('abenupdate_client_clients_abexa.htm'\))
+See [UPDATE, USING CLIENT, CLIENTS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenupdate_client_clients_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [INSERT, CLIENT](javascript:call_link\('abeninsert_client_abexa.htm'\))
-![Example](exa.gif "Example") [UPDATE, USING CLIENT, CLIENTS](javascript:call_link\('abenupdate_client_clients_abexa.htm'\))
+![Example](exa.gif "Example") [INSERT, CLIENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninsert_client_abexa.htm)
+![Example](exa.gif "Example") [UPDATE, USING CLIENT, CLIENTS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenupdate_client_clients_abexa.htm)

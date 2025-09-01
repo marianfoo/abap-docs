@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  M
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_shortref.htm) →  M
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20MODIFY%20itab%2C%20ABAPMODIFY_ITAB_SHORTREF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 MODIFY itab - Short Reference
 
-[Reference](javascript:call_link\('abapmodify_itab.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab.htm)
 
 Syntax
 
@@ -22,29 +22,29 @@ MODIFY *{* *{* *{* *{*TABLE itab*}**|**{*itab INDEX idx*}*
            *\[**{*ASSIGNING <fs> *\[*CASTING*\]**}**|**{*REFERENCE INTO dref*}**\]* *}*
        *|* *{*itab FROM wa *\[*USING KEY key\_name*|*(name)*\]*
                        TRANSPORTING comp1 comp2 ...
-                       WHERE [log\_exp](javascript:call_link\('abenlog_exp_shortref.htm'\))*|*(cond\_syntax)*}* *}*.
+                       WHERE [log\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlog_exp_shortref.htm)*|*(cond\_syntax)*}* *}*.
 
 Effect
 
-Changes lines in internal tables. A restricted [variant](javascript:call_link\('abenmesh_modify.htm'\)) works with [mesh paths](javascript:call_link\('abenmesh_path_glosry.htm'\) "Glossary Entry").
+Changes lines in internal tables. A restricted [variant](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_modify.htm) works with [mesh paths](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_path_glosry.htm "Glossary Entry").
 
 Additions   
 
--   [TABLE itab](javascript:call_link\('abapmodify_itab_single.htm'\))
+-   [TABLE itab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab_single.htm)
     Specifies a line to be changed by matching the key values of the wa work area.
--   [itab INDEX idx](javascript:call_link\('abapmodify_itab_single.htm'\))
+-   [itab INDEX idx](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab_single.htm)
     Specifies a line to be changed by specifying a line number idx of a table index.
--   [itab *\[*USING KEY loop\_key*\]*](javascript:call_link\('abapmodify_itab_single.htm'\))
+-   [itab *\[*USING KEY loop\_key*\]*](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab_single.htm)
     Specifies the lines in a loop to be changed using the current lines.
--   [FROM wa](javascript:call_link\('abapmodify_itab_multiple.htm'\))
+-   [FROM wa](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab_multiple.htm)
     Specifies the new content in a wa work area.
--   [TRANSPORTING comp1 comp2 ...](javascript:call_link\('abapmodify_itab_single.htm'\))
+-   [TRANSPORTING comp1 comp2 ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab_single.htm)
     Specifies the components comp1, comp2, ... to be changed.
--   [ASSIGNING <fs> *\[*CASTING*\]*](javascript:call_link\('abapmodify_itab_result.htm'\))
+-   [ASSIGNING <fs> *\[*CASTING*\]*](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab_result.htm)
     Assigns a changed single line to a field symbol <fs> for casting.
--   [REFERENCE INTO dref](javascript:call_link\('abapmodify_itab_result.htm'\))
+-   [REFERENCE INTO dref](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab_result.htm)
     Assigns the reference to a changed single line to a reference variabledref.
--   [WHERE log\_exp*|*(cond\_syntax)](javascript:call_link\('abapmodify_itab_multiple.htm'\))
+-   [WHERE log\_exp*|*(cond\_syntax)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab_multiple.htm)
     Specifies the lines to be changed by specifying a static condition log\_exp or a dynamic condition in cond\_syntax.
--   [USING KEY key\_name*|*(name)](javascript:call_link\('abapmodify_itab.htm'\))
+-   [USING KEY key\_name*|*(name)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab.htm)
     Specifies (statically or dynamically) a secondary table key to search for the lines to be changed.

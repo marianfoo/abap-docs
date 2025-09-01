@@ -4,42 +4,42 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Calls](javascript:call_link\('abenprogram_call_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_obsolete.htm) →  [Obsolete Calls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_call_obsolete.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CALL%20METHOD%2C%20Static%20Method%20Call%20%28Obsolete%29%2C%20ABAPCALL_METHOD_STATIC%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20i
 mprovement:)
 
 CALL METHOD, Static Method Call (Obsolete)
 
-[Short Reference](javascript:call_link\('abapcall_method_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_shortref.htm)
 
 Obsolete Syntax
 
-CALL METHOD *{* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( )
-            *|* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( a )
-            *|* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( p1 = a1 p2 = a2 ... )
-            *|* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( [*\[*parameter\_list*\]*](javascript:call_link\('abapcall_method_parameters.htm'\)) ) *}*.
+CALL METHOD *{* [meth](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_ident_stat.htm)( )
+            *|* [meth](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_ident_stat.htm)( a )
+            *|* [meth](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_ident_stat.htm)( p1 = a1 p2 = a2 ... )
+            *|* [meth](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_ident_stat.htm)( [*\[*parameter\_list*\]*](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_parameters.htm) ) *}*.
 
-CALL METHOD   [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)) [*\[*parameter\_list*\]*](javascript:call_link\('abapcall_method_parameters.htm'\)).
+CALL METHOD   [meth](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_ident_stat.htm) [*\[*parameter\_list*\]*](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_parameters.htm).
 
 Effect
 
-Both statements have the same semantics and call the method that is specified statically with the name [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)).
+Both statements have the same semantics and call the method that is specified statically with the name [meth](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_ident_stat.htm).
 
--   The first statement prefixes the [standalone method call](javascript:call_link\('abapcall_method_static_short.htm'\)) with a CALL METHOD.
--   The second statement does not have any parentheses for filling the parameter interface. Instead, either an explicit [parameter list](javascript:call_link\('abapcall_method_parameters.htm'\)) is specified or no parameter list at all.
+-   The first statement prefixes the [standalone method call](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_static_short.htm) with a CALL METHOD.
+-   The second statement does not have any parentheses for filling the parameter interface. Instead, either an explicit [parameter list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_parameters.htm) is specified or no parameter list at all.
 
-In the second variant without parentheses, no [chained method calls](javascript:call_link\('abenchained_method_call_glosry.htm'\) "Glossary Entry") are possible and the operators [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) and [CAST](javascript:call_link\('abenconstructor_expression_new.htm'\)) cannot be used to specify the method.
+In the second variant without parentheses, no [chained method calls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchained_method_call_glosry.htm "Glossary Entry") are possible and the operators [NEW](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_new.htm) and [CAST](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_new.htm) cannot be used to specify the method.
 
 Hints
 
--   The static method call described here must not be confused with the call of [static methods](javascript:call_link\('abenstatic_method_glosry.htm'\) "Glossary Entry"). A static method call is the static specification of an [instance method](javascript:call_link\('abeninstance_method_glosry.htm'\) "Glossary Entry") or a static method. In addition, there is the [dynamic method call](javascript:call_link\('abenmethod_calls_dynamic.htm'\)), for which the methods are specified dynamically.
+-   The static method call described here must not be confused with the call of [static methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_method_glosry.htm "Glossary Entry"). A static method call is the static specification of an [instance method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninstance_method_glosry.htm "Glossary Entry") or a static method. In addition, there is the [dynamic method call](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_calls_dynamic.htm), for which the methods are specified dynamically.
     
-    The statement CALL METHOD is now only intended for [dynamic method calls](javascript:call_link\('abenmethod_calls_dynamic.htm'\)) and distinguishes them clearly from static calls.
+    The statement CALL METHOD is now only intended for [dynamic method calls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_calls_dynamic.htm) and distinguishes them clearly from static calls.
     
--   CALL METHOD is [no longer recommended](javascript:call_link\('abenmethod_call_guidl.htm'\) "Guideline") for [static method calls](javascript:call_link\('abenmethod_calls_static.htm'\)).
-    -   It is not necessary to prefix the [recommended syntax](javascript:call_link\('abapcall_method_static_short.htm'\)) with CALL METHOD since this would make programs harder to read.
-    -   The syntax without parentheses is based on [function module calls](javascript:call_link\('abapcall_function_general.htm'\)) and is obsolete. The syntax involving parentheses, however, standardizes both standalone and functional method calls.
+-   CALL METHOD is [no longer recommended](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_call_guidl.htm "Guideline") for [static method calls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_calls_static.htm).
+    -   It is not necessary to prefix the [recommended syntax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_static_short.htm) with CALL METHOD since this would make programs harder to read.
+    -   The syntax without parentheses is based on [function module calls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function_general.htm) and is obsolete. The syntax involving parentheses, however, standardizes both standalone and functional method calls.
 
 Example
 

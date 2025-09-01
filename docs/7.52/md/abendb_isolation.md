@@ -4,29 +4,29 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Data Consistency](javascript:call_link\('abentransaction.htm'\)) →  [Database LUW](javascript:call_link\('abendb_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Data Consistency](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentransaction.htm) →  [Database LUW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendb_transaction.htm) → 
 
 Isolation Levels
 
-The term "isolation" refers to the separation of different transactions performed on the same data in a database. Different isolation levels specify how a database user can perform reads on the data of a different user modified in a [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry"). The data is isolated by implementing appropriate [database locks](javascript:call_link\('abendatabase_lock_glosry.htm'\) "Glossary Entry").
+The term "isolation" refers to the separation of different transactions performed on the same data in a database. Different isolation levels specify how a database user can perform reads on the data of a different user modified in a [database LUW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). The data is isolated by implementing appropriate [database locks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_lock_glosry.htm "Glossary Entry").
 
 The following isolation levels are significant in AS ABAP:
 
 -   Uncommitted read
 
-In uncommitted reads, every database user performing a read can see the modified data directly, not just the owner of the database LUW where the data was modified, even if no [database commit](javascript:call_link\('abendb_commit.htm'\)) has been performed yet. The read is performed without setting a shared lock (known as a dirty read), which means the existing exclusive lock is ignored by the read. Data in a temporary state can, therefore, be read, even if it is to be removed again using a database rollback.
+In uncommitted reads, every database user performing a read can see the modified data directly, not just the owner of the database LUW where the data was modified, even if no [database commit](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendb_commit.htm) has been performed yet. The read is performed without setting a shared lock (known as a dirty read), which means the existing exclusive lock is ignored by the read. Data in a temporary state can, therefore, be read, even if it is to be removed again using a database rollback.
 
 -   Committed read
 
-In committed reads, only the user of a database LUW has access to data modified in the LUW. Other database users cannot access the modified data before a [database commit](javascript:call_link\('abendb_commit.htm'\)) is performed. In the case of reads, a shared lock is set (not possible for the modified data due to the existing exclusive lock). Data can be accessed only when released by a database commit.
+In committed reads, only the user of a database LUW has access to data modified in the LUW. Other database users cannot access the modified data before a [database commit](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendb_commit.htm) is performed. In the case of reads, a shared lock is set (not possible for the modified data due to the existing exclusive lock). Data can be accessed only when released by a database commit.
 
-In an [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry"), the following settings apply to the isolation level:
+In an [AS ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm "Glossary Entry"), the following settings apply to the isolation level:
 
 -   The SAP HANA database and Oracle databases support these isolation levels in their strictest form. In the case of reads, they do not set a shared lock as in uncommitted reads, but do read the data like in a committed read. If the data is locked in a different LUW by a write, the cached state of the data after the last database commit is accessed.
 
 -   Both isolation levels are possible on all other database with uncommitted read being the default setting. The function module DB\_SET\_ISOLATION\_LEVEL can be used to set the isolation level to committed read. In the case of reads, an attempt is actually made to set a shared lock, which can cause wait times. Calling the function module DB\_RESET\_ISOLATION\_TO\_DEFAULT or the next database commit or rollback resets the isolation level to the default setting.
 
-Many database systems employ additional isolation levels, such as serializable and repeatable read. These work in a similar way to committed reads, but the shared lock is preserved until the next data object is read or until the [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry") is closed. Since these isolation levels are not sufficiently standardized, they are not currently used in [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry").
+Many database systems employ additional isolation levels, such as serializable and repeatable read. These work in a similar way to committed reads, but the shared lock is preserved until the next data object is read or until the [database cursor](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_cursor_glosry.htm "Glossary Entry") is closed. Since these isolation levels are not sufficiently standardized, they are not currently used in [AS ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm "Glossary Entry").
 
 Notes
 
@@ -34,4 +34,4 @@ Notes
 
 -   When the database is accessed on AS ABAP, a database user is the same as a work process. This means that, for the isolation level uncommitted read, a work process can perform reads on data in a database LUW of the same or another user that has not yet been committed using a database commit.
 
--   The isolation level does not modify how [buffered tables in Open SQL](javascript:call_link\('abensap_puffering.htm'\)) are accessed. The [table buffer](javascript:call_link\('abentable_buffer_glosry.htm'\) "Glossary Entry") is also accessed at the isolation level Committed Read. However, data may be obsolete if it has been changed since the last buffer synchronization in the database. There is a guarantee, however, that data is only read if committed on the database using a database commit. To make it possible to also access current data in a buffered data, the addition [BYPASSING BUFFER](javascript:call_link\('abapselect_additions.htm'\)) must be used in the Committed Read isolation level.
+-   The isolation level does not modify how [buffered tables in Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_puffering.htm) are accessed. The [table buffer](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_buffer_glosry.htm "Glossary Entry") is also accessed at the isolation level Committed Read. However, data may be obsolete if it has been changed since the last buffer synchronization in the database. There is a guarantee, however, that data is only read if committed on the database using a database commit. To make it possible to also access current data in a buffered data, the addition [BYPASSING BUFFER](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_additions.htm) must be used in the Committed Read isolation level.

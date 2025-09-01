@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR, Standard Operations
 
@@ -18,17 +18,17 @@ Syntax
 
 Effect
 
-The standard operations create, update, and delete (known as the CRUD operations) are the most important operations for the transactional behavior of a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"). The operations create, update, and delete must be declared appropriately in the [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") for an entity whenever an entity is created, updated, or deleted.
+The standard operations create, update, and delete (known as the CRUD operations) are the most important operations for the transactional behavior of a [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry"). The operations create, update, and delete must be declared appropriately in the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") for an entity whenever an entity is created, updated, or deleted.
 
 A standard operation can be given the addition internal. This makes it possible to implement the action without making it consumable from outside. Example: internal update;
 
 CRUD operations can be made available for an entity simply by declaring them in the body of the entity in question.
 
-The [behavior](javascript:call_link\('abenrap_bo_behavior_glosry.htm'\) "Glossary Entry") for the operations create, update, and delete is implemented in the method [FOR MODIFY](javascript:call_link\('abenhandler_method_modify.htm'\)) of the [handler class](javascript:call_link\('abenabp_handler_class.htm'\)).
+The [behavior](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_behavior_glosry.htm "Glossary Entry") for the operations create, update, and delete is implemented in the method [FOR MODIFY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_modify.htm) of the [handler class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_handler_class.htm).
 
 Note
 
-The [FOR LOCK](javascript:call_link\('abenhandler_method_lock.htm'\)) method of the handler class is called automatically before a change operation (such as update) is triggered. However, the corresponding entity must have the lock property in its behavior definition.
+The [FOR LOCK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_lock.htm) method of the handler class is called automatically before a change operation (such as update) is triggered. However, the corresponding entity must have the lock property in its behavior definition.
 
 Example
 
@@ -45,4 +45,4 @@ lock master
   delete;
 }
 
-The transactional behavior of the business object is defined by the standard operations create, update, and delete. These operations are [implemented](javascript:call_link\('abenabap_behavior_pools.htm'\)) in the association [behavior pools](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+The transactional behavior of the business object is defined by the standard operations create, update, and delete. These operations are [implemented](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm) in the association [behavior pools](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").

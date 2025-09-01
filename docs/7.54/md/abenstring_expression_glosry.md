@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 string expression
 
-Formulation of an operation with character-like operands in a [calculation expression](javascript:call_link\('abencalculation_expression_glosry.htm'\) "Glossary Entry") whose result is a [character string](javascript:call_link\('abencharacter_string_1_glosry.htm'\) "Glossary Entry").
+Formulation of an operation with character-like operands in a [calculation expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_expression_glosry.htm "Glossary Entry") whose result is a [character string](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_string_1_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abapcompute_string.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_string.htm)

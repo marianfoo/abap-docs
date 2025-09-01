@@ -4,17 +4,17 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  D
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  D
 
 DATA BEGIN OF - Short Reference
 
-[Reference](javascript:call_link\('abapdata_struc.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_struc.htm)
 
 Syntax
 
 DATA BEGIN OF struc *\[*READ-ONLY*\]* *\[*OCCURS n*\]*.
   ...
-  [INCLUDE ...](javascript:call_link\('abapinclude_type_shortref.htm'\))
+  [INCLUDE ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinclude_type_shortref.htm)
   ...
 DATA END OF struc *\[*VALID BETWEEN intlim1 AND intlim2*\]*.
 
@@ -24,9 +24,9 @@ Declares a data object or instance attribute struc. This variant of the statemen
 
 Additions
 
--   [READ-ONLY](javascript:call_link\('abapdata_options.htm'\))
+-   [READ-ONLY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_options.htm)
     Protects a non-private structure against writes from outside its own class.
--   [OCCURS n](javascript:call_link\('abapdata_begin_of_occurs.htm'\))
-    Obsolete: Creates an internal table with a structured line type, [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry"), a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"), and initial memory requirement n.
--   [VALID BETWEEN intlim1 AND intlim2](javascript:call_link\('abapdata_begin_of_occurs.htm'\))
-    Obsolete: Defines the columns intlim1 and intlim2 in an internal table, created using OCCURS, as interval limits for the obsolete short form of [PROVIDE](javascript:call_link\('abapprovide_obsolete.htm'\)).
+-   [OCCURS n](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_begin_of_occurs.htm)
+    Obsolete: Creates an internal table with a structured line type, [standard key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_key_glosry.htm "Glossary Entry"), a [header line](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenheader_line_glosry.htm "Glossary Entry"), and initial memory requirement n.
+-   [VALID BETWEEN intlim1 AND intlim2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_begin_of_occurs.htm)
+    Obsolete: Defines the columns intlim1 and intlim2 in an internal table, created using OCCURS, as interval limits for the obsolete short form of [PROVIDE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprovide_obsolete.htm).

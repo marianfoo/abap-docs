@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 ABAP dump analysis
 
-A tool for listing and analyzing [runtime errors](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry") that occurred in [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry") and that can be used to access the corresponding [short dumps](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry"). Called using [transaction](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry") ST22.
+A tool for listing and analyzing [runtime errors](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_error_glosry.htm "Glossary Entry") that occurred in [AS ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") and that can be used to access the corresponding [short dumps](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshort_dump_glosry.htm "Glossary Entry"). Called using [transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_code_glosry.htm "Glossary Entry") ST22.

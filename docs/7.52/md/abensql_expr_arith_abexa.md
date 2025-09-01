@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Open SQL](javascript:call_link\('abenopensql.htm'\)) →  [Open SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [Open SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [Examples of SQL Expressions](javascript:call_link\('abensql_expr_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql.htm) →  [Open SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_operands.htm) →  [Open SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm) →  [Examples of SQL Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_expr_abexas.htm) → 
 
 SQL Expressions, Arithmetic Calculations
 
-This example demonstrates arithmetic calculations in [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)).
+This example demonstrates arithmetic calculations in [SQL expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm).
 
 Source Code
 
@@ -46,10 +46,10 @@ Description
 
 Calculations are made and functions called in a list of columns specified after SELECT.
 
--   To perform [floating point division](javascript:call_link\('abensql_arith.htm'\)) with integer columns, these columns are updated to the type FLTP using [cast](javascript:call_link\('abensql_cast.htm'\)).
+-   To perform [floating point division](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_arith.htm) with integer columns, these columns are updated to the type FLTP using [cast](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_cast.htm).
 
--   Integer divisions with the functions [DIV](javascript:call_link\('abensql_arith_func.htm'\)), [MOD](javascript:call_link\('abensql_arith_func.htm'\)), and [DIVISION](javascript:call_link\('abensql_arith_func.htm'\)) do not require this update.
+-   Integer divisions with the functions [DIV](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_arith_func.htm), [MOD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_arith_func.htm), and [DIVISION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_arith_func.htm) do not require this update.
 
--   A [host variable](javascript:call_link\('abenopen_sql_host_variables.htm'\)) is added to the absolute value of a difference between column values.
+-   A [host variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_variables.htm) is added to the absolute value of a difference between column values.
 
 Using the alternative column names defined after AS, the results are assigned to the columns with the same names of an internal table declared inline, results. The result of the final calculation are used as a sort criterion.

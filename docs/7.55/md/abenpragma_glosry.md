@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 pragma
 
-[Program directive](javascript:call_link\('abenprogram_directive_glosry.htm'\) "Glossary Entry") to [ABAP Compiler](javascript:call_link\('abenabap_compiler_glosry.htm'\) "Glossary Entry") and the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry") to hide warnings from the [syntax check](javascript:call_link\('abensyntax_check_glosry.htm'\) "Glossary Entry") and hide messages of the extended check .
+[Program directive](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_directive_glosry.htm "Glossary Entry") to [ABAP Compiler](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_compiler_glosry.htm "Glossary Entry") and the [extended program check](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenextended_program_check_glosry.htm "Glossary Entry") to hide warnings from the [syntax check](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensyntax_check_glosry.htm "Glossary Entry") and hide messages of the extended check .
 
-[→ More about](javascript:call_link\('abenpragma.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpragma.htm)

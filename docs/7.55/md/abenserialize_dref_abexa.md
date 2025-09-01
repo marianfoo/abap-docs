@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Canonical XML Representation (asXML)](javascript:call_link\('abenabap_xslt_asxml.htm'\)) →  [asXML - Mapping of ABAP Data Types](javascript:call_link\('abenabap_xslt_asxml_named.htm'\)) →  [asXML - Mapping of Reference Variables and Objects](javascript:call_link\('abenabap_xslt_asxml_references.htm'\)) →  [asXML - Named Reference Variables](javascript:call_link\('abenasxml_reference_variable.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_trafos.htm) →  [Canonical XML Representation (asXML)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml.htm) →  [asXML - Mapping of ABAP Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml_named.htm) →  [asXML - Mapping of Reference Variables and Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml_references.htm) →  [asXML - Named Reference Variables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasxml_reference_variable.htm) → 
 
 Serializing Data References
 
-This example demonstrates serializations of data references to [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") and to [asJSON](javascript:call_link\('abenasjson_glosry.htm'\) "Glossary Entry").
+This example demonstrates serializations of data references to [asXML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasxml_glosry.htm "Glossary Entry") and to [asJSON](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasjson_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -123,10 +123,10 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates the serialization of data reference variables using the [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID to the canonical formats [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") and [asJSON](javascript:call_link\('abenasjson_glosry.htm'\) "Glossary Entry").
+This example demonstrates the serialization of data reference variables using the [identity transformation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID to the canonical formats [asXML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasxml_glosry.htm "Glossary Entry") and [asJSON](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasjson_glosry.htm "Glossary Entry").
 
 -   First a data reference is serialized that points to an anonymous data object in the heap and whose dynamic type struc was created in the same program using the TYPES statement. No problems should arise from this serialization.
 
--   Next, however, a data reference variable is serialized that points to an anonymous data object in the heap whose dynamic type does not have a name. This is the technical type of a structure and reference to this type is made using LIKE. A data reference variable of this type cannot be serialized without taking further actions. This exception can be prevented using the transformation option [technical\_types](javascript:call_link\('abapcall_transformation_options.htm'\)), however the data reference variable is ignored.
+-   Next, however, a data reference variable is serialized that points to an anonymous data object in the heap whose dynamic type does not have a name. This is the technical type of a structure and reference to this type is made using LIKE. A data reference variable of this type cannot be serialized without taking further actions. This exception can be prevented using the transformation option [technical\_types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_options.htm), however the data reference variable is ignored.
 
--   Finally, a data reference variable is serialized that points to a data object in the stack. The data reference variable is ignored by default, but can be serialized using the transformation option [data\_refs](javascript:call_link\('abapcall_transformation_options.htm'\)).
+-   Finally, a data reference variable is serialized that points to a data object in the stack. The data reference variable is ignored by default, but can be serialized using the transformation option [data\_refs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_options.htm).

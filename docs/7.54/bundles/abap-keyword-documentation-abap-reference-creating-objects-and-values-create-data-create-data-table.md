@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abapcreate_data_itab.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_itab.htm)
-- [abencreate_tabular_data_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencreate_tabular_data_abexa.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.937Z
-
----
-
 ### abapcreate_data_itab.htm
-
-> **📖 Official SAP Documentation**: [abapcreate_data_itab.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_itab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,15 +11,15 @@ Included pages: 2
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencreate_objects.htm) →  [CREATE DATA](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data.htm) → 
 
 CREATE DATA - TABLE OF
 
-[Quick Reference](javascript:call_link\('abapcreate_data_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_shortref.htm)
 
 Syntax
 
-CREATE DATA dref *\[*[area\_handle](javascript:call_link\('abapcreate_data_area_handle.htm'\))*\]*
+CREATE DATA dref *\[*[area\_handle](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_area_handle.htm)*\]*
                  *{* *{*TYPE *\[*STANDARD*\]**|*SORTED*|*HASHED TABLE OF *\[*REF TO*\]* *{*type*|*(name)*}**}*
                  *|* *{*LIKE *\[*STANDARD*\]**|*SORTED*|*HASHED TABLE OF dobj*}* *}*
                  *\[* WITH *{* *{**\[*UNIQUE*|*NON-UNIQUE*\]*
@@ -48,7 +29,7 @@ CREATE DATA dref *\[*[area\_handle](javascript:call_link\('abapcreate_data_area_
 
 Effect
 
-The statement CREATE DATA uses the addition tabkind OF to create an internal table. The meaning of the additions is the same as when declaring internal tables using the statement [DATA](javascript:call_link\('abapdata_itab.htm'\)), but with special rules for [CREATE DATA](javascript:call_link\('abapcreate_data_existing.htm'\)) if dobj is specified after LIKE. The explicit definition of the primary table key is only optional if a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") is being created.
+The statement CREATE DATA uses the addition tabkind OF to create an internal table. The meaning of the additions is the same as when declaring internal tables using the statement [DATA](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_itab.htm), but with special rules for [CREATE DATA](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_existing.htm) if dobj is specified after LIKE. The explicit definition of the primary table key is only optional if a [standard table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_table_glosry.htm "Glossary Entry") is being created.
 
 Whereas the content of DATA is specified statically, the following can be specified dynamically for CREATE DATA:
 
@@ -66,13 +47,13 @@ Notes
 -   The definition of the table key is subject to the following conditions that do not apply to DATA:
     
 
--   No [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") can be defined in the statement CREATE DATA.
+-   No [secondary table keys](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") can be defined in the statement CREATE DATA.
 
--   The name [primary\_key](javascript:call_link\('abapdata_primary_key.htm'\)) and the addition [COMPONENTS](javascript:call_link\('abapdata_primary_key.htm'\)) cannot be specified explicitly in the definition of the primary key.
+-   The name [primary\_key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_primary_key.htm) and the addition [COMPONENTS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_primary_key.htm) cannot be specified explicitly in the definition of the primary key.
 
-[Runtime type creation](javascript:call_link\('abenrun_time_type_creation_glosry.htm'\) "Glossary Entry") should be used instead to create dynamic table types with secondary keys. The same applies when creating an [empty table key](javascript:call_link\('abenitab_empty_key.htm'\)) dynamically, since the internal table keytab can only be used to define non-empty keys.
+[Runtime type creation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrun_time_type_creation_glosry.htm "Glossary Entry") should be used instead to create dynamic table types with secondary keys. The same applies when creating an [empty table key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_empty_key.htm) dynamically, since the internal table keytab can only be used to define non-empty keys.
 
--   CREATE DATA cannot be used to create internal tables with [header lines](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry").
+-   CREATE DATA cannot be used to create internal tables with [header lines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenheader_line_glosry.htm "Glossary Entry").
     
 
 Example
@@ -91,23 +72,13 @@ cl\_demo\_output=>display( <fs> ).
 
 Executable Example
 
-[Creating Tabular Data Objects](javascript:call_link\('abencreate_tabular_data_abexa.htm'\))
+[Creating Tabular Data Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencreate_tabular_data_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Creating Tabular Data Objects](javascript:call_link\('abencreate_tabular_data_abexa.htm'\))
+![Example](exa.gif "Example") [Creating Tabular Data Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencreate_tabular_data_abexa.htm)
 
-
-
-**📖 Source**: [abapcreate_data_itab.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_itab.htm)
 
 ### abencreate_tabular_data_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencreate_tabular_data_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencreate_tabular_data_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencreate_tabular_data_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencreate_tabular_data_abexa.htm)
-
 
   
 
@@ -115,7 +86,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) →  [CREATE DATA - TABLE OF](javascript:call_link\('abapcreate_data_itab.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencreate_objects.htm) →  [CREATE DATA](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data.htm) →  [CREATE DATA - TABLE OF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_data_itab.htm) → 
 
 Creating Tabular Data Objects
 
@@ -172,4 +143,4 @@ Creating an internal table that matches any database table and reading the first
 
 The method CHECK\_TABLE\_NAME\_STR of the class CL\_ABAP\_DYN\_PRG checks whether the database table specified exists and can be used.
 
-See also the [executable example](javascript:call_link\('abenselect_into_new_table_abexa.htm'\)) for SELECT INTO NEW, where the internal table is created implicitly in the INTO clause.
+See also the [executable example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_into_new_table_abexa.htm) for SELECT INTO NEW, where the internal table is created implicitly in the INTO clause.

@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenmesh_path_expression.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_expression.htm)
-- [abenmesh_table_expressions_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_table_expressions_abexa.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.973Z
-
----
-
 ### abenmesh_path_expression.htm
-
-> **📖 Official SAP Documentation**: [abenmesh_path_expression.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_expression.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,53 +11,43 @@ Included pages: 2
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Using Mesh Paths](javascript:call_link\('abenmesh_path_usage.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_meshes.htm) →  [Meshes - Using Mesh Paths](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_usage.htm) → 
 
 Mesh Path Expressions
 
 Syntax
 
-... [mesh\_path](javascript:call_link\('abenmesh_path.htm'\)) ...
+... [mesh\_path](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path.htm) ...
 
 Effect
 
-Specifies a mesh path [mesh\_path](javascript:call_link\('abenmesh_path.htm'\)) as a standalone mesh path expression at an operand position. The result of a mesh path expression is a row from the last path node of the mesh path. This row is described by the [result](javascript:call_link\('abenmesh_path_result.htm'\)) of the mesh path and has the corresponding row type.
+Specifies a mesh path [mesh\_path](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path.htm) as a standalone mesh path expression at an operand position. The result of a mesh path expression is a row from the last path node of the mesh path. This row is described by the [result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_result.htm) of the mesh path and has the corresponding row type.
 
-In the square brackets [\[ ... \]](javascript:call_link\('abenmesh_path_assoc.htm'\)) of each mesh association, an additional condition can be specified via [col1 = ...  col2 = ...](javascript:call_link\('abenmesh_path_assoc_cond.htm'\)). If a path node contains multiple rows that fit the description, the first row found is read.
+In the square brackets [\[ ... \]](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_assoc.htm) of each mesh association, an additional condition can be specified via [col1 = ...  col2 = ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_assoc_cond.htm). If a path node contains multiple rows that fit the description, the first row found is read.
 
-A mesh path expression is a special type of [table expression](javascript:call_link\('abentable_expressions.htm'\)) and can be used in the same way as a table expression:
+A mesh path expression is a special type of [table expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expressions.htm) and can be used in the same way as a table expression:
 
--   Possible operand positions are all reading and writing positions listed for [table expressions](javascript:call_link\('abentable_expressions.htm'\)). In a writing position, key fields of primary or secondary table keys of the last path node must not be overwritten.
+-   Possible operand positions are all reading and writing positions listed for [table expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expressions.htm). In a writing position, key fields of primary or secondary table keys of the last path node must not be overwritten.
 
--   [VALUE](javascript:call_link\('abentable_exp_result.htm'\)) and [REF](javascript:call_link\('abentable_exp_result.htm'\)) can be used to control how the result is passed (as in regular table expressions).
+-   [VALUE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_result.htm) and [REF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_result.htm) can be used to control how the result is passed (as in regular table expressions).
 
--   A [chaining](javascript:call_link\('abentable_exp_chaining.htm'\)) with the structure component selector (\-) can be used to access a component of the row that was read.
+-   A [chaining](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_chaining.htm) with the structure component selector (\-) can be used to access a component of the row that was read.
 
-If the follow-on node does not contain any rows that meet the condition in the square brackets [\[ ... \]](javascript:call_link\('abenmesh_path_assoc.htm'\)), the response is the same as in regular table expressions. In other words, the exception CX\_SY\_ITAB\_LINE\_NOT\_FOUND is raised, unless used in the statement [ASSIGN](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)), in the predicate function [line\_exists](javascript:call_link\('abenline_exists_function.htm'\)), or in the table function [line\_index](javascript:call_link\('abenline_index_function.htm'\)).
+If the follow-on node does not contain any rows that meet the condition in the square brackets [\[ ... \]](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_assoc.htm), the response is the same as in regular table expressions. In other words, the exception CX\_SY\_ITAB\_LINE\_NOT\_FOUND is raised, unless used in the statement [ASSIGN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassign_mem_area_writable_exp.htm), in the predicate function [line\_exists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_exists_function.htm), or in the table function [line\_index](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_index_function.htm).
 
 Note
 
-Since the rows of a mesh node cannot have tabular components, a mesh path expression cannot have any [chainings](javascript:call_link\('abentable_exp_chaining.htm'\)) to other table expressions.
+Since the rows of a mesh node cannot have tabular components, a mesh path expression cannot have any [chainings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_chaining.htm) to other table expressions.
 
 Executable Example
 
-[Mesh Path Expressions](javascript:call_link\('abenmesh_table_expressions_abexa.htm'\))
+[Mesh Path Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_table_expressions_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Mesh Path Expressions](javascript:call_link\('abenmesh_table_expressions_abexa.htm'\))
+![Example](exa.gif "Example") [Mesh Path Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_table_expressions_abexa.htm)
 
-
-
-**📖 Source**: [abenmesh_path_expression.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_expression.htm)
 
 ### abenmesh_table_expressions_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenmesh_table_expressions_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_table_expressions_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenmesh_table_expressions_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_table_expressions_abexa.htm)
-
 
   
 
@@ -84,7 +55,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Using Mesh Paths](javascript:call_link\('abenmesh_path_usage.htm'\)) →  [Mesh Path Expressions](javascript:call_link\('abenmesh_path_expression.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_meshes.htm) →  [Meshes - Using Mesh Paths](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_usage.htm) →  [Mesh Path Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_expression.htm) → 
 
 Mesh Path Expressions
 

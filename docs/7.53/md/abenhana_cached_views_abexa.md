@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) →  [ABAP and SAP HANA, Examples](javascript:call_link\('abenabap_and_hana_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_hana.htm) →  [ABAP and SAP HANA, Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_and_hana_abexas.htm) → 
 
 SAP HANA, Cached Views
 
-This example demonstrates ABAP SQL access to a [cached view](javascript:call_link\('abenhana_cached_views.htm'\)) on the SAP HANA database.
+This example demonstrates ABAP SQL access to a [cached view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_cached_views.htm) on the SAP HANA database.
 
 Source Code
 
@@ -83,8 +83,8 @@ START-OF-SELECTION.
 
 Description
 
-The instance DEMOCDSCACH of the [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") DEMO\_CDS\_CACHED\_VIEW on the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") is designed for caching using [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry") and the SQL statement ALTER TABLE. The maximum cache lifetime cannot be specified. It is also possible to delete an existing cache.
+The instance DEMOCDSCACH of the [CDS view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry") DEMO\_CDS\_CACHED\_VIEW on the [SAP HANA database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhana_database_glosry.htm "Glossary Entry") is designed for caching using [ADBC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadbc_glosry.htm "Glossary Entry") and the SQL statement ALTER TABLE. The maximum cache lifetime cannot be specified. It is also possible to delete an existing cache.
 
-When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:call_link\('abapselect.htm'\)), the [database hint](javascript:call_link\('abendatabase_hint_glosry.htm'\) "Glossary Entry") [%\_HINTS](javascript:call_link\('abenosql_db_hints.htm'\)) HDB 'RESULT\_CACHE' can be used to specify that the cache is accessed.
+When the CDS view is accessed using the ABAP SQL statement [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm), the [database hint](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_hint_glosry.htm "Glossary Entry") [%\_HINTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenosql_db_hints.htm) HDB 'RESULT\_CACHE' can be used to specify that the cache is accessed.
 
-The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available and the cache properties are read.
+The addition [EXTENDED RESULT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_extended_result.htm) of the [INTO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinto_clause.htm) clause can be used to determine whether a cache is available and the cache properties are read.

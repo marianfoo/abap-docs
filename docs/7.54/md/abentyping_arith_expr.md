@@ -4,65 +4,69 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Typing](javascript:call_link\('abentyping.htm'\)) →  [Checking Typing](javascript:call_link\('abentyping_check.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeclarations.htm) →  [Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping.htm) →  [Checking Typing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_check.htm) → 
 
 Functions and Expressions as Actual Parameters
 
-[Functions and expressions](javascript:call_link\('abenoperands_expressions.htm'\)) can be specified as actual parameters in the following formal parameters:
+[Functions and expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands_expressions.htm) can be specified as actual parameters in the following formal parameters:
 
 -   Writing Positions
 
--   [Output parameters](javascript:call_link\('abenoutput_parameter_glosry.htm'\) "Glossary Entry"), [input/output parameters](javascript:call_link\('abeninput_output_parameter_glosry.htm'\) "Glossary Entry"), and [return values](javascript:call_link\('abenreturn_value_glosry.htm'\) "Glossary Entry") in [method calls](javascript:call_link\('abapcall_method_parameters.htm'\)).
+-   [Output parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoutput_parameter_glosry.htm "Glossary Entry"), [input/output parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninput_output_parameter_glosry.htm "Glossary Entry"), and [return values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreturn_value_glosry.htm "Glossary Entry") in [method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm).
 
 -   Reading Positions
 
--   [Input parameters](javascript:call_link\('abeninput_parameter_glosry.htm'\) "Glossary Entry") of [methods](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") in [method calls](javascript:call_link\('abapcall_method_parameters.htm'\)), when [objects are created](javascript:call_link\('abapcreate_object_parameters.htm'\)), or when exceptions are raised using [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) or [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [condition exception](javascript:call_link\('abenconditional_expressions.htm'\))
+-   [Input parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninput_parameter_glosry.htm "Glossary Entry") of [methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_glosry.htm "Glossary Entry") in [method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm), when [objects are created](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcreate_object_parameters.htm), or when exceptions are raised using [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapraise_exception_class.htm) or [THROW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconditional_expression_result.htm) in a [condition exception](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconditional_expressions.htm)
 
--   [Input parameters](javascript:call_link\('abeninput_parameter_glosry.htm'\) "Glossary Entry") of [function modules](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") in all variants of the statement [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)).
+-   [Input parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninput_parameter_glosry.htm "Glossary Entry") of [function modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_module_glosry.htm "Glossary Entry") in all variants of the statement [CALL FUNCTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_function.htm).
 
-The parameters are read from left to right (and from inside to outside) and the procedure executed. A parameter cannot be modified by the method itself or by the evaluation of a preceding expression. This applies in particular to [writable expressions](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") in [result positions](javascript:call_link\('abenresult_position_glosry.htm'\) "Glossary Entry").
+The parameters are read from left to right (and from inside to outside) and the procedure executed. A parameter cannot be modified by the method itself or by the evaluation of a preceding expression. This applies in particular to [writable expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwritable_expression_glosry.htm "Glossary Entry") in [result positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenresult_position_glosry.htm "Glossary Entry").
 
 Special rules apply to typing checks, identifying the calculation type, and parameter passes.
 
--   [Checking Typing](#abentyping-arith-expr-1--------calculation-type-and-calculation-length---@ITOC@@ABENTYPING_ARITH_EXPR_2)
+-   [Checking Typing](#@@ITOC@@ABENTYPING_ARITH_EXPR_1)
 
--   [Passing Parameters](#abentyping-arith-expr-3--------fully-typed---@ITOC@@ABENTYPING_ARITH_EXPR_4)
+-   [Calculation Type and Calculation Length](#@@ITOC@@ABENTYPING_ARITH_EXPR_2)
+
+-   [Passing Parameters](#@@ITOC@@ABENTYPING_ARITH_EXPR_3)
+
+-   [Fully Typed](#@@ITOC@@ABENTYPING_ARITH_EXPR_4)
 
 -   [Generically Typed](#@@ITOC@@ABENTYPING_ARITH_EXPR_5)
 
 Notes
 
--   In the case of [dynamic method calls](javascript:call_link\('abapcall_method_dynamic.htm'\)), the same rules apply as to static method calls. However, the handling during runtime is time-consuming. Therefore, helper variables should be used in a dynamic call instead of functions or arithmetic expressions if possible. Function module calls are always dynamic and, compared to method calls, fewer rules apply.
+-   In the case of [dynamic method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_dynamic.htm), the same rules apply as to static method calls. However, the handling during runtime is time-consuming. Therefore, helper variables should be used in a dynamic call instead of functions or arithmetic expressions if possible. Function module calls are always dynamic and, compared to method calls, fewer rules apply.
 
--   A [system field](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") should [never be used an actual parameter](javascript:call_link\('abenuse_actual_parameters_guidl.htm'\) "Guideline").
+-   A [system field](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensystem_field_glosry.htm "Glossary Entry") should [never be used an actual parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_actual_parameters_guidl.htm "Guideline").
 
 Checking Typing
 
--   A [numeric function](javascript:call_link\('abenmathematical_funktion_glosry.htm'\) "Glossary Entry"), a [description function](javascript:call_link\('abendescription_function_glosry.htm'\) "Glossary Entry"), or an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") can
+-   A [numeric function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmathematical_funktion_glosry.htm "Glossary Entry"), a [description function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendescription_function_glosry.htm "Glossary Entry"), or an [arithmetic expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") can
 
 -   be bound to any numeric input parameter or any input parameter typed using the type any in a method call.
 
 -   be bound to any appropriately typed input parameter in a function module call.
 
--   A [bit function](javascript:call_link\('abenbit_function_glosry.htm'\) "Glossary Entry") or a [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry") can
+-   A [bit function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbit_function_glosry.htm "Glossary Entry") or a [bit expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbit_expression_glosry.htm "Glossary Entry") can
 
 -   be bound to any byte-like or general typed input parameter in a method call.
 
 -   be passed to input parameters of the type x or a generic type covering x in function module calls.
 
--   A [string function](javascript:call_link\('abenstring_function_glosry.htm'\) "Glossary Entry") or a [string expression](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry") can
+-   A [string function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_function_glosry.htm "Glossary Entry") or a [string expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_expression_glosry.htm "Glossary Entry") can
 
 -   be bound to any character-like or general typed input parameter in a method call.
 
 -   be passed to input parameters of the type string or a generic type covering string in function module calls.
 
--   A [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") can
+-   A [constructor expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") can
 
--   be passed to every input parameter that matches the specified type [type](javascript:call_link\('abenconstructor_expressions.htm'\)) of the constructor expression in method calls. In this case (with the exception of conversion operator [CONV](javascript:call_link\('abenconv_constructor_inference.htm'\)) in the constructor expression), the # character can only be specified for type if the input parameter is typed in full and this type is used.
+-   be passed to every input parameter that matches the specified type [type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expressions.htm) of the constructor expression in method calls. In this case (with the exception of conversion operator [CONV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconv_constructor_inference.htm) in the constructor expression), the # character can only be specified for type if the input parameter is typed in full and this type is used.
 
--   be passed to every input parameter that matches the specified type [type](javascript:call_link\('abenconstructor_expressions.htm'\)) of the constructor expression in function module calls. The character # cannot be specified for type ion the constructor expression since static derivations of types are not possible in function module calls.
+-   be passed to every input parameter that matches the specified type [type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expressions.htm) of the constructor expression in function module calls. The character # cannot be specified for type ion the constructor expression since static derivations of types are not possible in function module calls.
 
--   A [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") can
+-   A [table expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expression_glosry.htm "Glossary Entry") can
 
 -   be passed in method calls or function calls to every input parameter that matches the type of the result.
 
@@ -70,27 +74,27 @@ Notes
 
 -   In function module calls, the typing is not checked until runtime.
 
--   No arithmetic expressions, description functions, or numeric functions can be passed to formal parameters with the generic type [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\)). This restriction can be bypassed by applying the [conversion operator](javascript:call_link\('abenconversion_operator_glosry.htm'\) "Glossary Entry") [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) to the actual parameter. This restriction does not apply to the generic type any.
+-   No arithmetic expressions, description functions, or numeric functions can be passed to formal parameters with the generic type [data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_generic.htm). This restriction can be bypassed by applying the [conversion operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_operator_glosry.htm "Glossary Entry") [CONV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_conv.htm) to the actual parameter. This restriction does not apply to the generic type any.
 
 Calculation Type and Calculation Length
 
 If calculation expressions are specified as actual parameters, the calculation type and calculation length are specified as follows:
 
--   The [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") of an arithmetic expression is determined
+-   The [calculation type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_type_glosry.htm "Glossary Entry") of an arithmetic expression is determined
 
 -   in method calls from the operands of the expression and the typing of the input parameter, if this parameter is fully typed. If the input parameter is typed generically, only the operands of the expression are evaluated.
 
 -   in function module calls from the operands of the expression. The typing of the input parameter is ignored.
 
--   The [calculation length](javascript:call_link\('abencalculation_length_glosry.htm'\) "Glossary Entry") of a bit expression is the length of the largest operand of the expression.
+-   The [calculation length](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_length_glosry.htm "Glossary Entry") of a bit expression is the length of the largest operand of the expression.
 
 Passing Parameters
 
-When binding a function, a calculation expression, a constructor expression, or a table expression, the parameters are always [passed by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry"), even if the formal parameter is defined as to be [passed by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry").
+When binding a function, a calculation expression, a constructor expression, or a table expression, the parameters are always [passed by value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpass_by_value_glosry.htm "Glossary Entry"), even if the formal parameter is defined as to be [passed by reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpass_by_reference_glosry.htm "Glossary Entry").
 
 Fully Typed
 
-The return value of a function or the result of a calculation expression, a constructor expression, or a table expression is [converted](javascript:call_link\('abenconversion_rules.htm'\)), if necessary, to the type of the input parameter and passed.
+The return value of a function or the result of a calculation expression, a constructor expression, or a table expression is [converted](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_rules.htm), if necessary, to the type of the input parameter and passed.
 
 Generically Typed
 

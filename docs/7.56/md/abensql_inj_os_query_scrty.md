@@ -4,15 +4,15 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) →  [SQL Injections](javascript:call_link\('abensql_injections_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynamic_programming_scrty.htm) →  [SQL Injections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_injections_scrty.htm) → 
 
 SQL Injections Using Object Services
 
-[Filter conditions](javascript:call_link\('abenos_query_filter_cond.htm'\)) are passed to a query as character strings in the [query service](javascript:call_link\('abenquery_service_glosry.htm'\) "Glossary Entry") in the [Object Services](javascript:call_link\('abenobject_services_glosry.htm'\) "Glossary Entry"). If a filter condition like this (or part of it) originates outside the program, the same risk of an SQL injection is incurred as when a dynamic WHERE condition is manipulated in [ABAP SQL](javascript:call_link\('abensql_inj_dyn_tokens_scrty.htm'\)). To prevent SQL injections of this nature, either parameters from a parameter list or must be used or parts escaped using the class CL\_ABAP\_DYN\_PRG.
+[Filter conditions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenos_query_filter_cond.htm) are passed to a query as character strings in the [query service](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenquery_service_glosry.htm "Glossary Entry") in the [Object Services](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobject_services_glosry.htm "Glossary Entry"). If a filter condition like this (or part of it) originates outside the program, the same risk of an SQL injection is incurred as when a dynamic WHERE condition is manipulated in [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_inj_dyn_tokens_scrty.htm). To prevent SQL injections of this nature, either parameters from a parameter list or must be used or parts escaped using the class CL\_ABAP\_DYN\_PRG.
 
 Example
 
-The executable example [DEMO\_QUERY\_SERVICE](javascript:call_link\('abenos_query_abexa.htm'\)) is secure, since the interactive input is passed to the query using parameter bindings. If the source code after the statement TRY is replaced as follows, however, SQL injections are possible:
+The executable example [DEMO\_QUERY\_SERVICE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenos_query_abexa.htm) is secure, since the interactive input is passed to the query using parameter bindings. If the source code after the statement TRY is replaced as follows, however, SQL injections are possible:
 
 TRY.
     query\_manager = cl\_os\_system=>get\_query\_manager( ).

@@ -4,13 +4,13 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarchitecture_guidl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenerror_handling_guidl.htm) → 
 
 Exception Texts
 
 Background
 
-Each global exception class has a predefined [exception text](javascript:call_link\('abenexception_texts.htm'\)) that has the same name as the exception class. This text can be edited and further exception texts can be defined. The exception texts of an exception class can be created either by referencing [messages in the table T100](javascript:call_link\('abenexception_texts_t100.htm'\)) or by referencing [texts in Online Text Repository (OTR)](javascript:call_link\('abenexception_texts_internal.htm'\)).
+Each global exception class has a predefined [exception text](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexception_texts.htm) that has the same name as the exception class. This text can be edited and further exception texts can be defined. The exception texts of an exception class can be created either by referencing [messages in the table T100](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexception_texts_t100.htm) or by referencing [texts in Online Text Repository (OTR)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexception_texts_internal.htm).
 
 For each exception text, Class Builder creates a static constant in the exception class with the same name as the exception text. When the exception is raised, this can be passed to the parameter TEXTID of the instance constructor to determine the exception text. If the parameter is not passed, the predefined exception text with the same name as the exception class is used.
 
@@ -26,21 +26,21 @@ Details
 
 The following guideline describes how to choose the text category:
 
--   [Messages](javascript:call_link\('abenexception_texts_t100.htm'\)) should be used as exception texts in all exception classes in application programming.
+-   [Messages](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexception_texts_t100.htm) should be used as exception texts in all exception classes in application programming.
 
--   [OTR texts](javascript:call_link\('abenexception_texts_internal.htm'\)) should only be used in system classes, namely exception classes for system exceptions. OTR offers various benefits when compared with messages, such as no restriction to 73 characters and unlimited placeholders, but lacks full tool support. More specifically, [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") do not support OTR texts.
+-   [OTR texts](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexception_texts_internal.htm) should only be used in system classes, namely exception classes for system exceptions. OTR offers various benefits when compared with messages, such as no restriction to 73 characters and unlimited placeholders, but lacks full tool support. More specifically, [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadt_glosry.htm "Glossary Entry") do not support OTR texts.
 
 From a technical perspective, it is possible to pass a data object to the input parameter TEXTID of the instance constructor when an exception is raised. This data object specifies either a message or an OTR text, depending on the text category. This approach is, however, absolutely not advisable. If the parameter TEXTID is used, an exception can only be raised with the texts specific to it. Only the associated constants of the exception class can be passed to the input parameter TEXTID of the instance constructor.
 
 Hints
 
--   In cases where a class-based exception is used to wrap a [classic exception](javascript:call_link\('abenclass_exception_guidl.htm'\) "Guideline") and [MESSAGE ... RAISING](javascript:call_link\('abapmessage_raising.htm'\)) is used to associate this classic exception with a message text (or after a message is caught using [error\_message](javascript:call_link\('abapcall_function_parameter.htm'\))), the class-based exception can use the same message text regardless of whether the program in question is a system program or application program. The system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)) and the addition [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) of the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) and of the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional exception](javascript:call_link\('abenconditional_expressions.htm'\)) are used for these cases.
+-   In cases where a class-based exception is used to wrap a [classic exception](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_exception_guidl.htm "Guideline") and [MESSAGE ... RAISING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_raising.htm) is used to associate this classic exception with a message text (or after a message is caught using [error\_message](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_parameter.htm)), the class-based exception can use the same message text regardless of whether the program in question is a system program or application program. The system interface [IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenif_t100_dyn_msg.htm) and the addition [MESSAGE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_message.htm) of the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_class.htm) and of the addition [THROW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_result.htm) in a [conditional exception](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expressions.htm) are used for these cases.
 
--   Classic exceptions are not associated with exception texts. If classic exceptions are required for reasons of downward compatibility, the statement [MESSAGE ... RAISING](javascript:call_link\('abapmessage_raising.htm'\)) gives the option of emulating exception texts here. Using MESSAGE ... RAISING in cases in which non-class-based exceptions must still be used is preferable to using the statement RAISE, because it offers the option of providing additional text information with an exception.
+-   Classic exceptions are not associated with exception texts. If classic exceptions are required for reasons of downward compatibility, the statement [MESSAGE ... RAISING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_raising.htm) gives the option of emulating exception texts here. Using MESSAGE ... RAISING in cases in which non-class-based exceptions must still be used is preferable to using the statement RAISE, because it offers the option of providing additional text information with an exception.
 
 Bad Example
 
-The following source code passes a [UUID](javascript:call_link\('abenuuid_glosry.htm'\) "Glossary Entry") for an OTR text to the input parameter TEXTID of the instance constructor when an exception is raised. According to the rule above, however, only exception texts from the exception class can be passed, with each exception class containing the corresponding constants.
+The following source code passes a [UUID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuuid_glosry.htm "Glossary Entry") for an OTR text to the input parameter TEXTID of the instance constructor when an exception is raised. According to the rule above, however, only exception texts from the exception class can be passed, with each exception class containing the corresponding constants.
 
 ...
 DATA otr\_id TYPE sotr\_conc.

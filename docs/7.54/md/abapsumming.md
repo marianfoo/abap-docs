@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) →  [Obsolete Statements in List Processing](javascript:call_link\('abenlists_obsolete.htm'\)) →  [Obsolete calculations](javascript:call_link\('abencalculate_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengui_obsolete.htm) →  [Obsolete Statements in List Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlists_obsolete.htm) →  [Obsolete calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculate_obsolete.htm) → 
 
 SUMMING
 
-[Quick Reference](javascript:call_link\('abapsumming_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsumming_shortref.htm)
 
 Obsolete Syntax
 
@@ -16,15 +16,15 @@ SUMMING dobj.
 
 Effect
 
-For every [WRITE](javascript:call_link\('abapwrite-.htm'\)) statement that after executing the statement SUMMING (which is forbidden in classes) writes the content of data object dobj onto a list of any list level, the total of all values of dobj output with WRITE since the execution of SUMMING is determined implicitly and assigned to a data object sum\_dobj.
+For every [WRITE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwrite-.htm) statement that after executing the statement SUMMING (which is forbidden in classes) writes the content of data object dobj onto a list of any list level, the total of all values of dobj output with WRITE since the execution of SUMMING is determined implicitly and assigned to a data object sum\_dobj.
 
-The statement SUMMING declares the global data object sum\_dobj with the same type as dobj. [Numeric data objects](javascript:call_link\('abennumeric_data_object_glosry.htm'\) "Glossary Entry") can be specified for dobj. The statement SUMMING can be executed only once in a program. It may be located within a [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry"), but the declared data object sum\_dobj is not local.
+The statement SUMMING declares the global data object sum\_dobj with the same type as dobj. [Numeric data objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_data_object_glosry.htm "Glossary Entry") can be specified for dobj. The statement SUMMING can be executed only once in a program. It may be located within a [procedure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocedure_glosry.htm "Glossary Entry"), but the declared data object sum\_dobj is not local.
 
 If the content of dobj in a WRITE statement cannot be interpreted as a number or the addition produces an overflow after the statement SUMMING is executed, a non-handleable exception is raised.
 
 Note
 
-This statement is not permitted in classes because it works with implicitly created global variables. Instead, explicit [calculations](javascript:call_link\('abencompute_expressions.htm'\)) can be made.
+This statement is not permitted in classes because it works with implicitly created global variables. Instead, explicit [calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompute_expressions.htm) can be made.
 
 Example
 

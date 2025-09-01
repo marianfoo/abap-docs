@@ -4,43 +4,43 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [Method Calls](javascript:call_link\('abenmethod_calls.htm'\)) →  [Dynamic Method Call](javascript:call_link\('abenmethod_calls_dynamic.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_procedures.htm) →  [Method Calls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_calls.htm) →  [Dynamic Method Call](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_calls_dynamic.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CALL%20METHOD%2C%20ABAPCALL_METHOD_DYNAMIC%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CALL METHOD
 
-[Short Reference](javascript:call_link\('abapcall_method_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_shortref.htm)
 
 Syntax
 
-CALL METHOD [dynamic\_meth](javascript:call_link\('abapcall_method_meth_ident_dyna.htm'\)) *{* [parameter\_list](javascript:call_link\('abapcall_method_parameters.htm'\))
-                         *|* [parameter\_tables](javascript:call_link\('abapcall_method_parameter_tables.htm'\)) *}*.
+CALL METHOD [dynamic\_meth](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_ident_dyna.htm) *{* [parameter\_list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_parameters.htm)
+                         *|* [parameter\_tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_parameter_tables.htm) *}*.
 
 Effect
 
-This statement calls the method specified dynamically in [dynamic\_meth](javascript:call_link\('abapcall_method_meth_ident_dyna.htm'\)) (Dynamic Invoke). Actual parameters are assigned to the formal parameters of the method, either statically using [parameter\_list](javascript:call_link\('abapcall_method_parameters.htm'\)) or dynamically using [parameter\_tables](javascript:call_link\('abapcall_method_parameter_tables.htm'\)). The syntax of parameter\_list is the same as for explicit parameter specification for the [static method call](javascript:call_link\('abapcall_method_static_short.htm'\)).
+This statement calls the method specified dynamically in [dynamic\_meth](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_ident_dyna.htm) (Dynamic Invoke). Actual parameters are assigned to the formal parameters of the method, either statically using [parameter\_list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_parameters.htm) or dynamically using [parameter\_tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_parameter_tables.htm). The syntax of parameter\_list is the same as for explicit parameter specification for the [static method call](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_static_short.htm).
 
 System Fields
 
-Each method call sets the system field sy-subrc to 0 in the moment the method is called. Handling [non-class-based exceptions](javascript:call_link\('abenexceptions_non_class.htm'\)) can change this value.
+Each method call sets the system field sy-subrc to 0 in the moment the method is called. Handling [non-class-based exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexceptions_non_class.htm) can change this value.
 
 Hints
 
--   In the dynamic method call, the parameters are not passed in parentheses. The syntax of the dynamic method call is like that of a [function module call](javascript:call_link\('abapcall_function_general.htm'\)).
--   The statement CALL METHOD should now only be used for the dynamic method call. It is unnecessary, and therefore [obsolete](javascript:call_link\('abapcall_method_static.htm'\)), for the [static method call](javascript:call_link\('abenmethod_calls_static.htm'\)).
+-   In the dynamic method call, the parameters are not passed in parentheses. The syntax of the dynamic method call is like that of a [function module call](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function_general.htm).
+-   The statement CALL METHOD should now only be used for the dynamic method call. It is unnecessary, and therefore [obsolete](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_static.htm), for the [static method call](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_calls_static.htm).
 
 Security Hint
 
-If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, this a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](javascript:call_link\('abendyn_call_scrty.htm'\)).
+If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, this a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_call_scrty.htm).
 
 System Fields
 
-The system field sy-subrc is set to 0 when a method is called. If a [non-class-based exception](javascript:call_link\('abenexceptions_non_class.htm'\)) is raised and is handled by then assigning a value, sy-subrc is set to this value.
+The system field sy-subrc is set to 0 when a method is called. If a [non-class-based exception](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexceptions_non_class.htm) is raised and is handled by then assigning a value, sy-subrc is set to this value.
 
 Example
 
-Dynamic call of the static method GUI\_DOWNLOAD of the global class [CL\_GUI\_FRONTEND\_SERVICES](javascript:call_link\('abenfrontend_services.htm'\)) for storing the content of an internal table in a file on the current [presentation server](javascript:call_link\('abenpresentation_server_glosry.htm'\) "Glossary Entry"). The names of the class and method are specified in the strings class and meth. The interface parameters are passed using the internal table ptab and return values are assigned to the exceptions of the method using the table etab. Exceptions that are raised at the method call itself are handled in a [TRY](javascript:call_link\('abaptry.htm'\)) control structure with statement [CATCH](javascript:call_link\('abaptry.htm'\)).
+Dynamic call of the static method GUI\_DOWNLOAD of the global class [CL\_GUI\_FRONTEND\_SERVICES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfrontend_services.htm) for storing the content of an internal table in a file on the current [presentation server](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpresentation_server_glosry.htm "Glossary Entry"). The names of the class and method are specified in the strings class and meth. The interface parameters are passed using the internal table ptab and return values are assigned to the exceptions of the method using the table etab. Exceptions that are raised at the method call itself are handled in a [TRY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptry.htm) control structure with statement [CATCH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptry.htm).
 
 DATA: line     TYPE c LENGTH 80,
       text\_tab LIKE STANDARD TABLE OF line,
@@ -84,13 +84,13 @@ TRY.
     cl\_demo\_output=>display( exc\_ref->get\_text( ) ).
 ENDTRY.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
 CX\_SY\_NO\_HANDLER
 
--   See [Class-Based Exceptions in Procedures](javascript:call_link\('abenexceptions_procedures.htm'\)).
+-   See [Class-Based Exceptions in Procedures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexceptions_procedures.htm).
     Runtime error: UNCAUGHT\_EXCEPTION
 
 CX\_SY\_DYN\_CALL\_EXCP\_NOT\_FOUND
@@ -162,5 +162,5 @@ Uncatchable Exceptions
     Runtime error: CALL\_METHOD\_PARMS\_ILLEGAL
 
 Continue
-[CALL METHOD, dynamic\_meth](javascript:call_link\('abapcall_method_meth_ident_dyna.htm'\))
-[CALL METHOD, parameter\_tables](javascript:call_link\('abapcall_method_parameter_tables.htm'\))
+[CALL METHOD, dynamic\_meth](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_ident_dyna.htm)
+[CALL METHOD, parameter\_tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_parameter_tables.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Views](javascript:call_link\('abenddic_views.htm'\)) →  [Classic Views](javascript:call_link\('abenddic_classical_views.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_classical_objects.htm) →  [Views](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_views.htm) →  [Classic Views](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_classical_views.htm) → 
 
 Projection Views
 
@@ -20,17 +20,17 @@ The projection view can only be used to read data with ABAP SQL.
 
 -   Read, change, delete, and insert
 
-The projection view can only be used to [change](javascript:call_link\('abenopen_sql_writing.htm'\)) data with ABAP SQL.
+The projection view can only be used to [change](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_writing.htm) data with ABAP SQL.
 
-When rows are inserted using projection views, all table fields not in the view are given the type-specific initial values of the field. This is done regardless of whether the field is defined as [NOT NULL](javascript:call_link\('abenddic_database_tables_init.htm'\)) on the database.
+When rows are inserted using projection views, all table fields not in the view are given the type-specific initial values of the field. This is done regardless of whether the field is defined as [NOT NULL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_init.htm) on the database.
 
 Notes
 
--   As in a [database table](javascript:call_link\('abenddic_database_tables_client.htm'\)), the client dependency of a projection view is determined by an initial column with the built-in dictionary type CLNT.
+-   As in a [database table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_client.htm), the client dependency of a projection view is determined by an initial column with the built-in dictionary type CLNT.
 
--   Like a database table, the maintenance status of a projection view has a [Display and Maintain](javascript:call_link\('abenddic_database_tables_maint.htm'\)) setting alongside the Access setting. The setting must match the Access setting.
+-   Like a database table, the maintenance status of a projection view has a [Display and Maintain](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables_maint.htm) setting alongside the Access setting. The setting must match the Access setting.
 
--   The basis table of a projection view can be a [transparent table](javascript:call_link\('abentransparent_table_glosry.htm'\) "Glossary Entry") and a [global temporary table](javascript:call_link\('abenglobal_temporary_table_glosry.htm'\) "Glossary Entry").
+-   The basis table of a projection view can be a [transparent table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransparent_table_glosry.htm "Glossary Entry") and a [global temporary table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry").
 
 Example
 

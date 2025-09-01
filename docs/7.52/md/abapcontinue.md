@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Loops](javascript:call_link\('abenleave_loops.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_program_units.htm) →  [Exiting Loops](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_loops.htm) → 
 
 CONTINUE
 
-[Quick Reference](javascript:call_link\('abapcontinue_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontinue_shortref.htm)
 
 Syntax
 
@@ -16,7 +16,7 @@ CONTINUE.
 
 Effect
 
-The statement CONTINUE can only be used in [loops](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry"). If it is used, the current loop pass is exited immediately and the program flow is continued with the next loop pass.
+The statement CONTINUE can only be used in [loops](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenloop_glosry.htm "Glossary Entry"). If it is used, the current loop pass is exited immediately and the program flow is continued with the next loop pass.
 
 Example
 

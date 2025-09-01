@@ -4,16 +4,16 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) →  [READ TABLE itab](javascript:call_link\('abapread_table.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab.htm) →  [Processing Statements for Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_processing_statements.htm) →  [READ TABLE itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table.htm) → 
 
 READ TABLE - table\_key
 
-[Quick Reference](javascript:call_link\('abapread_table_itab_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table_itab_shortref.htm)
 
 Syntax
 
-... *{* FROM wa *\[*USING KEY [keyname](javascript:call_link\('abenkeyname.htm'\))*\]* *}*
-  *|* *{* WITH TABLE KEY *\[*[keyname](javascript:call_link\('abenkeyname.htm'\)) COMPONENTS*\]*
+... *{* FROM wa *\[*USING KEY [keyname](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkeyname.htm)*\]* *}*
+  *|* *{* WITH TABLE KEY *\[*[keyname](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkeyname.htm) COMPONENTS*\]*
                      *{*comp\_name1*|*(name1)*}* = operand1
                      *{*comp\_name2*|*(name2)*}* = operand2
                      ...                             *}* ...
@@ -27,16 +27,16 @@ Effect
 
 Specifying a Table Key as a Search Key Either the primary table key or a secondary table key can be specified. The values can be declared either implicitly in a work area wa behind FROM or by listing the components of the table key explicitly behind TABLE KEY.
 
-When the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") is used, the table categories are accessed as follows:
+When the [primary table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") is used, the table categories are accessed as follows:
 
--   [Standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") are searched in a linear fashion.
+-   [Standard tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm "Glossary Entry") are searched in a linear fashion.
     
--   Binary scans are used for [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry").
+-   Binary scans are used for [sorted tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensorted_table_glosry.htm "Glossary Entry").
     
--   The hash algorithm is used for [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry").
+-   The hash algorithm is used for [hashed tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhashed_table_glosry.htm "Glossary Entry").
     
 
-When the [secondary table key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") is used, a binary scan is used in the [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry") case and a [hash algorithm](javascript:call_link\('abenhash_algorithm_glosry.htm'\) "Glossary Entry") is used in the [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") case.
+When the [secondary table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") is used, a binary scan is used in the [sorted key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensorted_key_glosry.htm "Glossary Entry") case and a [hash algorithm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhash_algorithm_glosry.htm "Glossary Entry") is used in the [hash key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhash_key_glosry.htm "Glossary Entry") case.
 
 When a row is found, the system field sy-tabix is set as specified by the table key in use:
 
@@ -49,7 +49,7 @@ If no row is found, and in the case of sorted keys, sy-tabix is set to the row n
 
 Note
 
-Note that the [sy-tabix](javascript:call_link\('abapread_table.htm'\)) system field is always set in relation to the table key used. If the value of the sy-tabix is used as an index after the READ statement is executed in another processing statement for the internal table, the same table key should be used there, whereby it is important to note that the primary index is always addressed if there is no explicit key specification.
+Note that the [sy-tabix](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table.htm) system field is always set in relation to the table key used. If the value of the sy-tabix is used as an index after the READ statement is executed in another processing statement for the internal table, the same table key should be used there, whereby it is important to note that the primary index is always addressed if there is no explicit key specification.
 
 Alternative 1
 
@@ -57,22 +57,22 @@ Alternative 1
 
 Effect
 
-For wa, a work area compatible to the row type of the internal table must be specified. This concerns [functional operand positions](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry"). The first row of the internal table found, whose values in the columns of the table key used match those of the corresponding components of wa, is processed. If the key fields in wa are empty, no entries are processed.
+For wa, a work area compatible to the row type of the internal table must be specified. This concerns [functional operand positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunctional_position_glosry.htm "Glossary Entry"). The first row of the internal table found, whose values in the columns of the table key used match those of the corresponding components of wa, is processed. If the key fields in wa are empty, no entries are processed.
 
-If the USING KEY addition is not specified, the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") is used. If the USING KEY addition is specified, the table key specified in [keyname](javascript:call_link\('abenkeyname.htm'\)) is used.
+If the USING KEY addition is not specified, the [primary table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") is used. If the USING KEY addition is specified, the table key specified in [keyname](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkeyname.htm) is used.
 
-If the [primary table key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") is used to access a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") and the key is [empty](javascript:call_link\('abenitab_empty_key.htm'\)), the first row of the internal table is read. If this is known statically, the syntax check produces a warning.
+If the [primary table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_key_glosry.htm "Glossary Entry") is used to access a [standard table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm "Glossary Entry") and the key is [empty](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_empty_key.htm), the first row of the internal table is read. If this is known statically, the syntax check produces a warning.
 
 Notes
 
--   When using the primary table key, note that this key can be the [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry"), which can also have unexpected consequences:
+-   When using the primary table key, note that this key can be the [standard key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_key_glosry.htm "Glossary Entry"), which can also have unexpected consequences:
     
 
 -   For structured row types, the standard key covers all character-like and byte-like components.
 
--   The standard key of a standard table can be [empty](javascript:call_link\('abenitab_empty_key.htm'\)).
+-   The standard key of a standard table can be [empty](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_empty_key.htm).
 
--   Apart from classes, the FROM wa declaration can be left out if the internal table has an itab [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") with the same name. The statement then does not evaluate the content of the primary table key in the header line; instead, it evaluates the content of the [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry"); initial fields are subject to special handling (see [READ TABLE - obsolete\_key](javascript:call_link\('abapread_table_obsolet.htm'\))).
+-   Apart from classes, the FROM wa declaration can be left out if the internal table has an itab [header line](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenheader_line_glosry.htm "Glossary Entry") with the same name. The statement then does not evaluate the content of the primary table key in the header line; instead, it evaluates the content of the [standard key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_key_glosry.htm "Glossary Entry"); initial fields are subject to special handling (see [READ TABLE - obsolete\_key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_table_obsolet.htm)).
     
 
 Example
@@ -97,25 +97,25 @@ Alternative 2
 
 Effect
 
-Each component of the table key used must be listed either directly as comp\_name1 comp\_name2 ... or as a parenthesized character-like data object name1 name2 ..., which contains the name of the component when the statement is executed. name is not case-sensitive. If name only contains blanks, this specified component is ignored when the statement is executed. An operand operand1 operand2 ... [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") with the data type of the component or convertible to it must be assigned to every component. The first row of the internal table found, whose values in the column of the table key used correspond with the values in the operands operand1 operand2 ... assigned, is processed. Duplicate or overlapping keys cannot be specified, nor can columns be specified that are not components of the table key.
+Each component of the table key used must be listed either directly as comp\_name1 comp\_name2 ... or as a parenthesized character-like data object name1 name2 ..., which contains the name of the component when the statement is executed. name is not case-sensitive. If name only contains blanks, this specified component is ignored when the statement is executed. An operand operand1 operand2 ... [compatible](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompatible_glosry.htm "Glossary Entry") with the data type of the component or convertible to it must be assigned to every component. The first row of the internal table found, whose values in the column of the table key used correspond with the values in the operands operand1 operand2 ... assigned, is processed. Duplicate or overlapping keys cannot be specified, nor can columns be specified that are not components of the table key.
 
-operand1 operand2 ... are [general expression positions](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). If necessary, the content of the operands is converted to the data type of the components before the comparison. If a conversion error occurs here, the exception cannot be handled using CX\_SY\_CONVERSION\_ERROR and the associated runtime error occurs instead. If an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") is specified, the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined from its operands and the data type of the component and the result, if necessary, is converted to the data type of the component.
+operand1 operand2 ... are [general expression positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). If necessary, the content of the operands is converted to the data type of the components before the comparison. If a conversion error occurs here, the exception cannot be handled using CX\_SY\_CONVERSION\_ERROR and the associated runtime error occurs instead. If an [arithmetic expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") is specified, the [calculation type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencalculation_type_glosry.htm "Glossary Entry") is determined from its operands and the data type of the component and the result, if necessary, is converted to the data type of the component.
 
-If the addition COMPONENTS is not specified, the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") is used. If the addition COMPONENTS is specified, the table key specified in [keyname](javascript:call_link\('abenkeyname.htm'\)) is used.
+If the addition COMPONENTS is not specified, the [primary table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") is used. If the addition COMPONENTS is specified, the table key specified in [keyname](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkeyname.htm) is used.
 
 Notes
 
--   The [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line can be specified as a component for tables with an unstructured row type, if their whole table entry is defined as a table key.
+-   The [pseudo component](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_component_glosry.htm "Glossary Entry") table\_line can be specified as a component for tables with an unstructured row type, if their whole table entry is defined as a table key.
     
--   If WITH TABLE KEY is used, note that the values of incompatible operands operand1 operand2 ... are converted to the data type of the columns before the comparison. This means that the [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) do not apply to incompatible data types. If a WHERE condition is used in the statements [LOOP](javascript:call_link\('abaploop_at_itab_cond.htm'\)), [MODIFY](javascript:call_link\('abapmodify_itab_multiple.htm'\)), and [DELETE](javascript:call_link\('abapdelete_itab_lines.htm'\)), however, the comparison rules do apply, which can produce differing results.
+-   If WITH TABLE KEY is used, note that the values of incompatible operands operand1 operand2 ... are converted to the data type of the columns before the comparison. This means that the [comparison rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules.htm) do not apply to incompatible data types. If a WHERE condition is used in the statements [LOOP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_cond.htm), [MODIFY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_itab_multiple.htm), and [DELETE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdelete_itab_lines.htm), however, the comparison rules do apply, which can produce differing results.
     
 -   To avoid unexpected results after a conversion, operand1 operand2 ... must be compatible with the data type of the component.
     
 -   If the row type of the internal table is not known statically, the components of the key can only be specified dynamically and not directly.
     
--   A [customizing include](javascript:call_link\('abencustomizing_include_glosry.htm'\) "Glossary Entry") must not be specified as a component if it is empty.
+-   A [customizing include](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencustomizing_include_glosry.htm "Glossary Entry") must not be specified as a component if it is empty.
     
--   [Table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") enable reads to be performed in operand positions too. A table key is used whenever it is specified explicitly using [key](javascript:call_link\('abentable_exp_itab_line.htm'\)).
+-   [Table expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_expression_glosry.htm "Glossary Entry") enable reads to be performed in operand positions too. A table key is used whenever it is specified explicitly using [key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_exp_itab_line.htm).
     
 
 Example
@@ -136,4 +136,4 @@ ENDIF.
 
 Executable Example
 
-[Key Accesses](javascript:call_link\('abenread_itab_using_key_abexa.htm'\))
+[Key Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenread_itab_using_key_abexa.htm)

@@ -4,15 +4,15 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Data Types](javascript:call_link\('abenddic_data_types.htm'\)) →  [DDIC - Data Elements](javascript:call_link\('abenddic_data_elements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary.htm) →  [DDIC - Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_types.htm) →  [DDIC - Data Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_data_elements.htm) → 
 
 DDIC - Semantic Attributes of Data Elements
 
-The semantic attributes of data elements are mainly significant when they are used as types of fields on user interfaces such as [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") (or [Web Dynpro](javascript:call_link\('abenweb_dynpro_glosry.htm'\) "Glossary Entry")) fields . The only exceptions to this are the default component name and the flag for the change document. ABAP data objects declared with reference to a data element ignore the semantic attributes of the element.
+The semantic attributes of data elements are mainly significant when they are used as types of fields on user interfaces such as [dynpro](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_glosry.htm "Glossary Entry") (or [Web Dynpro](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenweb_dynpro_glosry.htm "Glossary Entry")) fields . The only exceptions to this are the default component name and the flag for the change document. ABAP data objects declared with reference to a data element ignore the semantic attributes of the element.
 
 -   Short text
 
-Short text of the data element. The short text assigned to a data element appears as a header in a [field help](javascript:call_link\('abenfield_help_glosry.htm'\) "Glossary Entry") of all dynpro fields or Web Dynpro fields defined with a direct or indirect reference to the data element.
+Short text of the data element. The short text assigned to a data element appears as a header in a [field help](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield_help_glosry.htm "Glossary Entry") of all dynpro fields or Web Dynpro fields defined with a direct or indirect reference to the data element.
 
 -   Field label
 
@@ -20,11 +20,11 @@ The short, medium, and long field labels assigned to a data element, plus a head
 
 -   Documentation
 
-Documentation of the data element. The documentation created for a data element appears by default as [field help](javascript:call_link\('abenfield_help_glosry.htm'\) "Glossary Entry") for all dynpro fields or Web Dynpro fields defined with a direct or indirect reference to the data element. If no documentation was created, only the short text appears.
+Documentation of the data element. The documentation created for a data element appears by default as [field help](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield_help_glosry.htm "Glossary Entry") for all dynpro fields or Web Dynpro fields defined with a direct or indirect reference to the data element. If no documentation was created, only the short text appears.
 
 -   Supplement documentation
 
-Additional supplement documentation objects can be created for a data element, with each documentation object identified by a four-digit number. This supplement documentation can be used for program-specific and dynpro-specific [field helps](javascript:call_link\('abendynp_field_help.htm'\)). The assignment of supplement documentation to a dynpro field is saved in the DDIC database table THLPF.
+Additional supplement documentation objects can be created for a data element, with each documentation object identified by a four-digit number. This supplement documentation can be used for program-specific and dynpro-specific [field helps](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynp_field_help.htm). The assignment of supplement documentation to a dynpro field is saved in the DDIC database table THLPF.
 
 -   Documentation status
 
@@ -44,12 +44,12 @@ The status of the documentation for a data element can be noted as follows for a
 
 -   Search help
 
-A data element with an elementary data type can be assigned a [search help](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry") and a parameter can be passed to this search help.
-This search help is used for the [input help](javascript:call_link\('abeninput_help_glosry.htm'\) "Glossary Entry") of all dynpro fields or Web Dynpro fields defined with direct or indirect reference to the data element, unless the dynpro field is itself associated with a search help. Search helps cannot be assigned to a data element with a reference type.
+A data element with an elementary data type can be assigned a [search help](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensearch_help_glosry.htm "Glossary Entry") and a parameter can be passed to this search help.
+This search help is used for the [input help](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninput_help_glosry.htm "Glossary Entry") of all dynpro fields or Web Dynpro fields defined with direct or indirect reference to the data element, unless the dynpro field is itself associated with a search help. Search helps cannot be assigned to a data element with a reference type.
 
 -   SPA/GPA parameter
 
-A data element with an elementary data type can be associated with an [SPA/GPA parameter](javascript:call_link\('abenspa_gpa.htm'\)).
+A data element with an elementary data type can be associated with an [SPA/GPA parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenspa_gpa.htm).
 Dynpro fields defined with direct or indirect reference to the data element can be filled with the content of the parameter, unless the dynpro field is itself associated with an SPA/GPA parameter. A data element with a reference type cannot be associated with an SPA/GPA parameter.
 
 -   Flag for input history
@@ -74,7 +74,7 @@ The default component name of a data element is a naming suggestion for structur
 
 The flag for change documents specifies whether changes to fields in DDIC database tables defined with reference to this data element are logged when change document objects are involved. A change document object groups multiple tables and is used to generate function modules that can be integrated into ABAP programs and that log changes. This flag cannot be set for data elements with a reference type.
 
--   Further semantic attributes can be defined in the [domain](javascript:call_link\('abenddic_domains.htm'\)) referenced by a data element.
+-   Further semantic attributes can be defined in the [domain](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_domains.htm) referenced by a data element.
 
 The texts in the semantic attributes (the short text, field labels, and documentation) are, like all AS ABAP texts, passed to the translation tools.
 

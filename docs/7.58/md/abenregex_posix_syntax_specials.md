@@ -4,17 +4,19 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Character String and Byte String Processing](javascript:call_link\('abencharacter_string_obsolete.htm'\)) →  [Obsolete Regular Expression Syntax](javascript:call_link\('abenregular_expressions_obsolete.htm'\)) →  [regex - POSIX Syntax (obsolete)](javascript:call_link\('abenregex_posix_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_internal_obsolete.htm) →  [Obsolete Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_obsolete.htm) →  [Obsolete Regular Expression Syntax](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregular_expressions_obsolete.htm) →  [regex - POSIX Syntax (obsolete)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_posix_syntax.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20POSIX%20regex%20-%20Special%20Characters%20%28obsolete%29%2C%20ABENREGEX_POSIX_SYNTAX_SPECIALS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%2
 0for%20improvement:)
 
 POSIX regex - Special Characters (obsolete)
 
-The following tables summarize the special characters in [POSIX regular expressions](javascript:call_link\('abenposix_regex_glosry.htm'\) "Glossary Entry").
+The following tables summarize the special characters in [POSIX regular expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenposix_regex_glosry.htm "Glossary Entry").
 
--   [Escape Character](#abenregex-posix-syntax-specials-1-------special-characters-for-single-character-strings---@ITOC@@ABENREGEX_POSIX_SYNTAX_SPECIALS_2)
--   [Special Characters for Character String Patterns](#abenregex-posix-syntax-specials-3-------special-characters-for-search-patterns---@ITOC@@ABENREGEX_POSIX_SYNTAX_SPECIALS_4)
+-   [Escape Character](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SPECIALS_1)
+-   [Special Characters for Single Character Strings](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SPECIALS_2)
+-   [Special Characters for Character String Patterns](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SPECIALS_3)
+-   [Special Characters for Search Patterns](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SPECIALS_4)
 -   [Special Characters for Replacement Texts](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_SPECIALS_5)
 
 Escape Character   
@@ -29,7 +31,7 @@ Escape character for special characters
 
 Hint
 
-The string function [escape](javascript:call_link\('abenescape_functions.htm'\)) can be used to prefix all special characters for regular expressions with their escape character.
+The string function [escape](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenescape_functions.htm) can be used to prefix all special characters for regular expressions with their escape character.
 
 Special Characters for Single Character Strings   
 
@@ -165,7 +167,7 @@ Reserved for future enhancements
 
 Reserved for future enhancements
 
-[→ More about](javascript:call_link\('abenregex_posix_syntax_signs.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_posix_syntax_signs.htm)
 
 Special Characters for Character String Patterns   
 
@@ -229,7 +231,7 @@ Definition of a string of literal characters
 
 Reserved for future enhancements
 
-[→ More about](javascript:call_link\('abenregex_posix_syntax_operators.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_posix_syntax_operators.htm)
 
 Special Characters for Search Patterns   
 
@@ -285,7 +287,7 @@ Negated preview condition
 
 Cut operator
 
-[→ More about](javascript:call_link\('abenregex_posix_search.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_posix_search.htm)
 
 Special Characters for Replacement Texts   
 
@@ -309,4 +311,4 @@ $'
 
 Placeholder for the text after the occurrence
 
-[→ More about](javascript:call_link\('abenregex_posix_replace.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_posix_replace.htm)

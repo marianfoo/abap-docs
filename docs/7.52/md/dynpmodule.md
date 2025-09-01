@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Statements in the Screen Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros.htm) →  [Statements in the Screen Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpros_dynpro_statements.htm) → 
 
 MODULE
 
@@ -23,17 +23,17 @@ Extras:
 
 Effect
 
-The statement MODULE of the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry") calls the [dialog module](javascript:call_link\('abendialog_module_glosry.htm'\) "Glossary Entry") mod of the ABAP program. MODULE can be used either as a keyword or as an addition of the statement [FIELD](javascript:call_link\('dynpfield.htm'\)). When using it as an addition, the call of the dialog module depends on conditions for the dynpro fields.
+The statement MODULE of the [dynpro flow logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry") calls the [dialog module](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendialog_module_glosry.htm "Glossary Entry") mod of the ABAP program. MODULE can be used either as a keyword or as an addition of the statement [FIELD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpfield.htm). When using it as an addition, the call of the dialog module depends on conditions for the dynpro fields.
 
-As a keyword, the statement calls the dialog module mod of the respective ABAP program. At [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") time, the additions AT and ON can be used to specify conditions for the call of the dialog module.
+As a keyword, the statement calls the dialog module mod of the respective ABAP program. At [PAI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpai_glosry.htm "Glossary Entry") time, the additions AT and ON can be used to specify conditions for the call of the dialog module.
 
-At [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") time, any dialog module defined in the ABAP program can be called with the addition OUTPUT. At PAI, POH, and POV time, any dialog module defined with the addition INPUT can be called or without any addition. If the dialog module mod does not exist in the ABAP program, a non-handleable exception is raised. After a dialog module is processed in the ABAP program, processing of the dynpro flow logic is resumed after the position of the call, unless the dynpro processing is completed within the dialog module.
+At [PBO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpbo_glosry.htm "Glossary Entry") time, any dialog module defined in the ABAP program can be called with the addition OUTPUT. At PAI, POH, and POV time, any dialog module defined with the addition INPUT can be called or without any addition. If the dialog module mod does not exist in the ABAP program, a non-handleable exception is raised. After a dialog module is processed in the ABAP program, processing of the dynpro flow logic is resumed after the position of the call, unless the dynpro processing is completed within the dialog module.
 
-MODULE can be used as a keyword only at PBO and PAI time. At [POH](javascript:call_link\('abenpoh_glosry.htm'\) "Glossary Entry") and [POV](javascript:call_link\('abenpov_glosry.htm'\) "Glossary Entry") time, MODULE can be used only as an addition of the statement [FIELD](javascript:call_link\('dynpfield.htm'\)) .
+MODULE can be used as a keyword only at PBO and PAI time. At [POH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpoh_glosry.htm "Glossary Entry") and [POV](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpov_glosry.htm "Glossary Entry") time, MODULE can be used only as an addition of the statement [FIELD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpfield.htm) .
 
 Note
 
-The statement MODULE of the dynpro flow logic should not be confused with the identically named statement [MODULE](javascript:call_link\('abapmodule.htm'\)) for defining dialog modules in the ABAP program.
+The statement MODULE of the dynpro flow logic should not be confused with the identically named statement [MODULE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodule.htm) for defining dialog modules in the ABAP program.
 
 Addition 1
 
@@ -48,13 +48,13 @@ The addition AT EXIT-COMMAND at the event PAI causes module mod to be called exa
 -   a character string starting with "E" was entered in the command field of the system toolbar and was confirmed by pressing Enter.
     
 
-The dialog module is called before the automatic input checks defined in the system or in ABAP Dictionary and independently of its position in the event block. The only dynpro field transported to the ABAP program is the [OK field](javascript:call_link\('abenok_field_glosry.htm'\) "Glossary Entry"). If the function that triggered the PAI event does not fulfill any of the above prerequisites, the statement MODULE is not executed.
+The dialog module is called before the automatic input checks defined in the system or in ABAP Dictionary and independently of its position in the event block. The only dynpro field transported to the ABAP program is the [OK field](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenok_field_glosry.htm "Glossary Entry"). If the function that triggered the PAI event does not fulfill any of the above prerequisites, the statement MODULE is not executed.
 
-If multiple statements MODULE have the addition AT EXIT COMMAND , only the first one is executed. If no statement MODULE has the addition AT EXIT COMMAND, a PAI is processed as normal: The predefined input checks are executed and then the PAI event block is processed sequentially. Provided the dynpro processing is not terminated in the dialog module mod, after the return from the dialog module, the complete PAI processing is executed. The addition AT EXIT COMMAND cannot be used with the statement [FIELD](javascript:call_link\('dynpfield.htm'\)).
+If multiple statements MODULE have the addition AT EXIT COMMAND , only the first one is executed. If no statement MODULE has the addition AT EXIT COMMAND, a PAI is processed as normal: The predefined input checks are executed and then the PAI event block is processed sequentially. Provided the dynpro processing is not terminated in the dialog module mod, after the return from the dialog module, the complete PAI processing is executed. The addition AT EXIT COMMAND cannot be used with the statement [FIELD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpfield.htm).
 
 Note
 
-The function type of a function is determined in [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry") or [Menu Painter](javascript:call_link\('abenmenu_painter_glosry.htm'\) "Glossary Entry"). Usually those functions of the user interface are defined with function type "E" that are assigned to the icons Back, Exit and Cancel in the standard toolbar of the GUI status. Therefore, the called dialog module should terminate the dynpro processing and allow security checks, if required.
+The function type of a function is determined in [Screen Painter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_painter_glosry.htm "Glossary Entry") or [Menu Painter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmenu_painter_glosry.htm "Glossary Entry"). Usually those functions of the user interface are defined with function type "E" that are assigned to the icons Back, Exit and Cancel in the standard toolbar of the GUI status. Therefore, the called dialog module should terminate the dynpro processing and allow security checks, if required.
 
 Addition 2
 
@@ -69,7 +69,7 @@ The addition AT CURSOR-SELECTION at PAI time causes the module mod to be called 
 -   The cursor is placed on a single input or output field of the screen at the moment of the user action
     
 
-The call occurs within the usual PAI processing, meaning that the automatic input checks defined in the system or in ABAP Dictionary are executed and the statement MODULE is called according to its position in the event block. More specifically, the addition can be used with the statement [FIELD](javascript:call_link\('dynpfield.htm'\)).
+The call occurs within the usual PAI processing, meaning that the automatic input checks defined in the system or in ABAP Dictionary are executed and the statement MODULE is called according to its position in the event block. More specifically, the addition can be used with the statement [FIELD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpfield.htm).
 
 If the PAI event is triggered under the above circumstances, the function code is not passed to sy-ucomm and the OK field. They keep their previous values.
 
@@ -83,7 +83,7 @@ Addition 3
 
 Effect
 
-These conditions make sense only within [chains](javascript:call_link\('dynpchain.htm'\)) using the statements CHAIN and ENDCHAIN. They check the individual conditions [ON INPUT](javascript:call_link\('dynpfield_module.htm'\)) or [ON REQUEST](javascript:call_link\('dynpfield_module.htm'\)) for all [dynpro fields](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") that are specified so far within the current chain after [FIELD](javascript:call_link\('dynpfield.htm'\)). The dialog module is called if at least one of the dynpro fields fulfills the respective condition.
+These conditions make sense only within [chains](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpchain.htm) using the statements CHAIN and ENDCHAIN. They check the individual conditions [ON INPUT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpfield_module.htm) or [ON REQUEST](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpfield_module.htm) for all [dynpro fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_field_glosry.htm "Glossary Entry") that are specified so far within the current chain after [FIELD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpfield.htm). The dialog module is called if at least one of the dynpro fields fulfills the respective condition.
 
 Addition 4
 
@@ -91,11 +91,11 @@ Addition 4
 
 Effect
 
-If the addition SWITCH is specified, the dialog module mod is called only if the [switch](javascript:call_link\('abenswitch_german_glosry.htm'\) "Glossary Entry") specified by switch is in the state ON.
+If the addition SWITCH is specified, the dialog module mod is called only if the [switch](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenswitch_german_glosry.htm "Glossary Entry") specified by switch is in the state ON.
 
 With switch, a switch defined in the repository must be specified directly. If the specified switch does not exist, the dialog module will not be called.
 
-The addition cannot be specified with the statement [FIELD](javascript:call_link\('dynpfield.htm'\)). There, the switch assigned to the dynpro field in Screen Painter applies.
+The addition cannot be specified with the statement [FIELD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpfield.htm). There, the switch assigned to the dynpro field in Screen Painter applies.
 
 Example
 
@@ -134,4 +134,4 @@ MODULE user\_command\_0100 INPUT.
 ENDMODULE.
 
 Continue
-[Module Call - Examples](javascript:call_link\('abenmodule_abexas.htm'\))
+[Module Call - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodule_abexas.htm)

@@ -4,17 +4,17 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoperands.htm) → 
 
 Escape Character for Names
 
-The character ! can be written directly before a name i order to distinguish it from an [ABAP word](javascript:call_link\('abenabap_words.htm'\)) of the same notation in a statement. With the exception of the first word, each word of a statement that is preceded by the escape character is interpreted as an operand, and not as an ABAP word during program generation. The escape character itself is not part of a name and is ignored when the statement is executed.
+The character ! can be written directly before a name i order to distinguish it from an [ABAP word](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_words.htm) of the same notation in a statement. With the exception of the first word, each word of a statement that is preceded by the escape character is interpreted as an operand, and not as an ABAP word during program generation. The escape character itself is not part of a name and is ignored when the statement is executed.
 
 Hints
 
--   The escape character ! may be required on rare occasions in which the compiler cannot tell the difference between an operand and a [reserved word](javascript:call_link\('abenabap_words.htm'\)) of the same name. Otherwise, it can be used for the documentation of operands in the source code.
+-   The escape character ! may be required on rare occasions in which the compiler cannot tell the difference between an operand and a [reserved word](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_words.htm) of the same name. Otherwise, it can be used for the documentation of operands in the source code.
 
--   The escape character ! must not be used in front of [operators](javascript:call_link\('abenoperator_glosry.htm'\) "Glossary Entry"). For example, != cannot be specified instead of \=.
+-   The escape character ! must not be used in front of [operators](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoperator_glosry.htm "Glossary Entry"). For example, != cannot be specified instead of \=.
 
 Example
 

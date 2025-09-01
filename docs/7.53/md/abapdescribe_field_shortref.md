@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  D
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  D
 
 DESCRIBE FIELD - Quick reference
 
-[Reference](javascript:call_link\('abapdescribe_field.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field.htm)
 
 Syntax
 
@@ -33,10 +33,10 @@ Additions
     Returns the length in bytes or characters in ilen.
     
 -   DECIMALS dec
-    Returns the number of [decimal places](javascript:call_link\('abenfractional_portion_glosry.htm'\) "Glossary Entry") in dec.
+    Returns the number of [decimal places](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfractional_portion_glosry.htm "Glossary Entry") in dec.
     
 -   OUTPUT-LENGTH olen
-    Returns the output length on the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") in olen.
+    Returns the output length on the [screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry") in olen.
     
 -   HELP-ID hlp
     Returns the name of the data element in ABAP Dictionary referred to by the type of dobj hlp.

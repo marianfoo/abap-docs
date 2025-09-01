@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [RAP Examples](javascript:call_link\('abapeml_examples_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap_other.htm) →  [RAP Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_examples_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20Calculator%3A%20Managed%2C%20Draft-Enabled%20RAP%20BO%20with%20Late%20Numbering%2C%20ABENSHEET_RAP_CALC_DR_LN_M_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%
 0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 RAP Calculator: Managed, Draft-Enabled RAP BO with Late Numbering
 
-This example represents a calculator using RAP concepts, i. e. using ABAP EML in the context of a [managed](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry") and [draft-enabled](javascript:call_link\('abendraft_rap_bo_glosry.htm'\) "Glossary Entry") RAP business object with [RAP late numbering](javascript:call_link\('abenrap_late_numbering_glosry.htm'\) "Glossary Entry") to carry out simple calculations. Here, a [RAP BO instance](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") consists of a calculation ID (which is the key that is finally set not until the [RAP save sequence](javascript:call_link\('abenrap_save_seq_glosry.htm'\) "Glossary Entry")), two operands (having integer values), the arithmetic operator and the result plus other draft-related fields.
+This example represents a calculator using RAP concepts, i. e. using ABAP EML in the context of a [managed](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry") and [draft-enabled](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendraft_rap_bo_glosry.htm "Glossary Entry") RAP business object with [RAP late numbering](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_late_numbering_glosry.htm "Glossary Entry") to carry out simple calculations. Here, a [RAP BO instance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") consists of a calculation ID (which is the key that is finally set not until the [RAP save sequence](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_save_seq_glosry.htm "Glossary Entry")), two operands (having integer values), the arithmetic operator and the result plus other draft-related fields.
 
 Data model
 
@@ -86,7 +86,7 @@ define root view entity DEMO\_CS\_RAP\_DRAFT\_M
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_CS\_RAP\_DRAFT\_M is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_CS\_RAP\_DRAFT\_M is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_cs\_rap\_draft\_m unique;
 strict ( 2 );
@@ -121,7 +121,7 @@ late numbering
 
 Behavior implementation
 
-For the above RAP behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_CS\_RAP\_DRAFT\_M. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. See comments in the code for more information on the implementation.
+For the above RAP behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_CS\_RAP\_DRAFT\_M. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. See comments in the code for more information on the implementation.
 
 Source Code   
 
@@ -467,9 +467,9 @@ Description  
 
 RAP Calculator within a class
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class.
 
-The class that acts as [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") here demonstrates the following:
+The class that acts as [RAP BO consumer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") here demonstrates the following:
 
 -   Creating instances and saving to the database
     
@@ -488,7 +488,7 @@ RAP Calculator using an SAP Fiori Elements app
 
 You can test the RAP Calculator using the preview version of an SAP Fiori Elements app as follows:
 
-1.  In [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), search for and open the service binding DEMO\_RAP\_CALC\_DR\_SB. It is contained in the same package as the class mentioned above.
+1.  In [ADT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry"), search for and open the service binding DEMO\_RAP\_CALC\_DR\_SB. It is contained in the same package as the class mentioned above.
 2.  Make sure that the Local Service Endpoint in the Service Version Details section is published.
 3.  Select the entity set DEMO\_CS\_RAP\_DRAFT\_M and choose Preview.
 4.  An app is opened in a browser. If you are prompted, provide the system credentials to log on. The app and the managed, draft-enabled RAP BO can be explored. The late numbering aspects comes into the picture when you, for example, create a new instance, i. e. create a new calculation, and you keep a draft version of it instead of saving it to the database. The calculation ID which represents the key of the instance has an initial value. The final key is only set when you save the instance to the database.

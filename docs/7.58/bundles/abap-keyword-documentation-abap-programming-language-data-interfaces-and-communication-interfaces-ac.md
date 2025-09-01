@@ -3,30 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenfrontend_services.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrontend_services.htm)
-- [abenexcel_to_itab_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexcel_to_itab_abexa.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.947Z
-
----
-
 ### abenfrontend_services.htm
-
-> **📖 Official SAP Documentation**: [abenfrontend_services.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrontend_services.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenfrontend_services.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrontend_services.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,20 +11,20 @@ Included pages: 2
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Access%20to%20the%20Presentation%20Server%2C%20ABENFRONTEND_SERVICES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Access to the Presentation Server
 
-Programs that are executed in [dialog](javascript:call_link\('abendialog_processing_glosry.htm'\) "Glossary Entry") and from SAP GUI can use the methods of the class CL\_GUI\_FRONTEND\_SERVICES to access the current [presentation server](javascript:call_link\('abenpresentation_server_glosry.htm'\) "Glossary Entry").
+Programs that are executed in [dialog](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendialog_processing_glosry.htm "Glossary Entry") and from SAP GUI can use the methods of the class CL\_GUI\_FRONTEND\_SERVICES to access the current [presentation server](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpresentation_server_glosry.htm "Glossary Entry").
 
 They can use
 
 -   the methods GUI\_UPLOAD and GUI\_DOWNLOAD to read and write to files,
 -   the methods FILE\_... to examine and process files,
 -   the methods DIRECTORY\_... to examine and process directories,
--   the method EXECUTE to execute [operating system statements](javascript:call_link\('abenabap_system_commands_pres.htm'\)).
+-   the method EXECUTE to execute [operating system statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_system_commands_pres.htm).
 
 The function module GUI\_IS\_AVAILABLE can be used in advance to determine whether a SAP GUI is available.
 
@@ -57,7 +34,7 @@ The methods of the class CL\_GUI\_FRONTEND\_SERVICES replace older function modu
 
 Example
 
-Writes to and reads a file on a presentation server with the operating system MS Windows. The directory is created on request. The SAP GUI availability query prevents runtime errors if the programs are not executed in [dialog processing](javascript:call_link\('abendialog_processing_glosry.htm'\) "Glossary Entry").
+Writes to and reads a file on a presentation server with the operating system MS Windows. The directory is created on request. The SAP GUI availability query prevents runtime errors if the programs are not executed in [dialog processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendialog_processing_glosry.htm "Glossary Entry").
 
 DATA gui TYPE c LENGTH 1.
 CALL FUNCTION 'GUI\_IS\_AVAILABLE'
@@ -130,27 +107,13 @@ ENDIF.
 
 Executable Example
 
-[Uploading an Excel File](javascript:call_link\('abenexcel_to_itab_abexa.htm'\))
+[Uploading an Excel File](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexcel_to_itab_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Uploading an Excel File](javascript:call_link\('abenexcel_to_itab_abexa.htm'\))
+![Example](exa.gif "Example") [Uploading an Excel File](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexcel_to_itab_abexa.htm)
 
-
-
-**📖 Source**: [abenfrontend_services.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrontend_services.htm)
 
 ### abenexcel_to_itab_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenexcel_to_itab_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexcel_to_itab_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenexcel_to_itab_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexcel_to_itab_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenexcel_to_itab_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexcel_to_itab_abexa.htm)
-
 
   
 
@@ -158,7 +121,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [Access to the Presentation Server](javascript:call_link\('abenfrontend_services.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) →  [Access to the Presentation Server](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrontend_services.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Uploading%20an%20Excel%20File%2C%20ABENEXCEL_TO_ITAB_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 

@@ -4,13 +4,13 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [REDUCE - Reduction Operator](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeniteration_expressions.htm) →  [REDUCE - Reduction Operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_reduce.htm) → 
 
 REDUCE - Type Inference for Actual Parameter
 
 The following constructor expression can be passed to generically typed formal parameters as an actual parameter using the character # as a symbol for the operand type:
 
-[REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) #( ... INIT ... FOR ... )
+[REDUCE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_reduce.htm) #( ... INIT ... FOR ... )
 
 If this is the case, the following type inference is performed for the character #:
 
@@ -26,7 +26,7 @@ If this is the case, the following type inference is performed for the character
 
 -   p with the length 8 and no decimal places if p is generic
 
--   The [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry") for a standard table type with generic primary table key
+-   The [standard key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_key_glosry.htm "Glossary Entry") for a standard table type with generic primary table key
 
 Other generic data types (except for table types) that are explicitly generic with respect to their secondary table keys cannot be made more concrete and produce a syntax error. More specifically, this applies to the types c, n, and x with generic lengths.
 
@@ -39,7 +39,7 @@ Notes
 
 Example
 
-The operator REDUCE generates a result of type string in this case. The generic parameter p has this type during the execution of the method. This is shown by the value "g" returned by [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)). The method call leads to a corresponding syntax warning.
+The operator REDUCE generates a result of type string in this case. The generic parameter p has this type during the execution of the method. This is shown by the value "g" returned by [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_field.htm). The method call leads to a corresponding syntax warning.
 
 CLASS demo DEFINITION.
   PUBLIC SECTION.
@@ -58,4 +58,4 @@ START-OF-SELECTION.
 
 Executable Example
 
-[Reduce Operator, Type Inference](javascript:call_link\('abenreduce_type_inference_abexa.htm'\))
+[Reduce Operator, Type Inference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreduce_type_inference_abexa.htm)

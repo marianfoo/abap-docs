@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Internal%20and%20External%20Procedure%20Calls%2C%20ABENINTERN_EXTERN_PROC_CALL_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20imp
 rovement:)
@@ -20,7 +20,7 @@ When a procedure is called, a distinction is made between internal and external 
 -   Subroutines in all programs that can contain subroutines (PERFORM...IN PROGRAM)
 -   Methods of local classes, where the name of the class is specified dynamically using an absolute type name (\\PROGRAM= ... \\CLASS=...\\)
 
-The programs loaded within an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") are grouped into program groups. There is always one main program group and a number of optional additional program groups. Each program group contains a main program and possibly several additional programs (loaded due to external use). The loaded programs are not always the result of a call. The reason could also have to do with other references to components of external programs, such as a reference to a visible data type of a global class. The loaded programs are not always the result of a call. The reason could also have to do with other references to components of external programs, such as a reference to a visible data type of a global class.
+The programs loaded within an [internal session](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm "Glossary Entry") are grouped into program groups. There is always one main program group and a number of optional additional program groups. Each program group contains a main program and possibly several additional programs (loaded due to external use). The loaded programs are not always the result of a call. The reason could also have to do with other references to components of external programs, such as a reference to a visible data type of a global class. The loaded programs are not always the result of a call. The reason could also have to do with other references to components of external programs, such as a reference to a visible data type of a global class.
 
 If shared resources of the program group are accessed in an externally called procedure, the information about which program group the program was loaded into is very important. Whether a program creates a separate program group when loaded or whether it is loaded into an existing program group, largely depends on the program type:
 
@@ -52,7 +52,7 @@ In addition, an assignment to a particular program group is not statically defin
 
 Hint
 
-Except for the warning regarding dynamic calls of methods of local classes from other programs, this rule is basically intended to raise the awareness of problems when using existing programs. In new programs, the creation of new subroutines and the use of [shared resources](javascript:call_link\('abentable_work_area_guidl.htm'\) "Guideline") are largely obsolete anyway. The problems mentioned above can only occur if classic dynpros or selection screens (and therefore GUI statuses and table work areas) are used.
+Except for the warning regarding dynamic calls of methods of local classes from other programs, this rule is basically intended to raise the awareness of problems when using existing programs. In new programs, the creation of new subroutines and the use of [shared resources](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_work_area_guidl.htm "Guideline") are largely obsolete anyway. The problems mentioned above can only occur if classic dynpros or selection screens (and therefore GUI statuses and table work areas) are used.
 
 Example
 

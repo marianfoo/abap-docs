@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 7.0 and its EhPs](javascript:call_link\('abennews-70_ehps.htm'\)) →  [Changes in Release 7.0, EhP2](javascript:call_link\('abennews-71.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews.htm) →  [Changes in Release 7.0 and its EhPs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-70_ehps.htm) →  [Changes in Release 7.0, EhP2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-71.htm) → 
 
 ABAP Keyword Documentation in Release 7.0, EhP2
 
@@ -32,7 +32,7 @@ Modification 1
 
 ABAP - Examples
 
-The ABAP example library has been integrated into the ABAP keyword documentation. Executable example programs that until now have been called using transaction ABAPDOCU and are still valid, are now in the relevant topic of the tree structure of the ABAP keyword documentation and can be executed, debugged, or displayed in the corresponding editor from there. An alphabetical list of all the example programs can be found under [ABAP examples](javascript:call_link\('abenabap_examples.htm'\)). The example programs are taken into account for index searches of the ABAP keyword documentation. The ABAPDOCU transaction now displays the ABAP keyword documentation.
+The ABAP example library has been integrated into the ABAP keyword documentation. Executable example programs that until now have been called using transaction ABAPDOCU and are still valid, are now in the relevant topic of the tree structure of the ABAP keyword documentation and can be executed, debugged, or displayed in the corresponding editor from there. An alphabetical list of all the example programs can be found under [ABAP examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_examples.htm). The example programs are taken into account for index searches of the ABAP keyword documentation. The ABAPDOCU transaction now displays the ABAP keyword documentation.
 
 The ABAP keyword documentation search options now include an option to search within source code in example programs.
 
@@ -49,7 +49,7 @@ The access to the search options in ABAP keyword documentation has been improved
 
 -   If Extended Search is chosen, a dialog box appears where a search mode can be selected.
 
--   The source code of [ABAP examples](javascript:call_link\('abenabap_examples.htm'\)) can now also be searched, as well as to using the existing index and full-text searches to search documentation text.
+-   The source code of [ABAP examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_examples.htm) can now also be searched, as well as to using the existing index and full-text searches to search documentation text.
     
 -   The display window of the search hit list now contains a function for opening the dialog box.
     
@@ -107,7 +107,7 @@ Modification 7
 
 Printing Documentation
 
-As of Release 7.0, EhP2, all documents for printing are formatted in HTML. The individual executable example programs from [ABAP examples](javascript:call_link\('abenabap_examples.htm'\)) and the [ABAP glossary](javascript:call_link\('abenabap_glossary.htm'\)) can now also be printed. In addition, tabular displays are now aligned correctly on printouts.
+As of Release 7.0, EhP2, all documents for printing are formatted in HTML. The individual executable example programs from [ABAP examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_examples.htm) and the [ABAP glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) can now also be printed. In addition, tabular displays are now aligned correctly on printouts.
 
 Modification 8
 

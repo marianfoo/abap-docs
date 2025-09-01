@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_generic_program.htm) → 
 
 Internal Statements for Source Code Processing
 
@@ -13,19 +13,19 @@ Internal Statements
 These statements are for internal use only.
 They cannot be used in application programs.
 
--   [SYNTAX-CHECK FOR PROGRAM](javascript:call_link\('abapsyntax-check_for_program.htm'\))
+-   [SYNTAX-CHECK FOR PROGRAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsyntax-check_for_program.htm)
 
--   [GENERATE REPORT](javascript:call_link\('abapgenerate_report.htm'\))
+-   [GENERATE REPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_report.htm)
 
--   [LOAD REPORT](javascript:call_link\('abapload.htm'\))
+-   [LOAD REPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapload.htm)
 
--   [DELETE REPORT](javascript:call_link\('abapdelete_report.htm'\))
+-   [DELETE REPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_report.htm)
 
--   [SCAN](javascript:call_link\('abapscan.htm'\))
+-   [SCAN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapscan.htm)
 
 Continue
-[SYNTAX-CHECK FOR PROGRAM](javascript:call_link\('abapsyntax-check_for_program.htm'\))
-[GENERATE REPORT](javascript:call_link\('abapgenerate_report.htm'\))
-[LOAD REPORT](javascript:call_link\('abapload.htm'\))
-[DELETE REPORT](javascript:call_link\('abapdelete_report.htm'\))
-[SCAN](javascript:call_link\('abapscan.htm'\))
+[SYNTAX-CHECK FOR PROGRAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsyntax-check_for_program.htm)
+[GENERATE REPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_report.htm)
+[LOAD REPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapload.htm)
+[DELETE REPORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_report.htm)
+[SCAN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapscan.htm)

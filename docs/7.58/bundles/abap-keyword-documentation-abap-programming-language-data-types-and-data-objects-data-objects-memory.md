@@ -3,34 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenmemory_consumption.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm)
-- [abenmemory_consumption_1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_1.htm)
-- [abenmemory_consumption_2.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_2.htm)
-- [abenmemory_consumption_3.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_3.htm)
-- [abenmemory_consumption_4.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_4.htm)
-- [abenmemory_usage_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_usage_abexa.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.951Z
-
----
-
 ### abenmemory_consumption.htm
-
-> **📖 Official SAP Documentation**: [abenmemory_consumption.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenmemory_consumption.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -38,49 +11,38 @@ Included pages: 6
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Memory%20Management%20of%20Deep%20Objects%2C%20ABENMEMORY_CONSUMPTION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Memory Management of Deep Objects
 
-All data types for which the content of their data objects represents the actual work data referred to as flat in ABAP. The [elementary data types](javascript:call_link\('abenelementary_data_type_glosry.htm'\) "Glossary Entry") of a fixed length are flat, as are structures with exclusively flat components. The memory requirements of flat data objects are defined statically by the data type. Flat data objects are always [static data objects](javascript:call_link\('abenstatic_data_object_glosry.htm'\) "Glossary Entry").
+All data types for which the content of their data objects represents the actual work data referred to as flat in ABAP. The [elementary data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenelementary_data_type_glosry.htm "Glossary Entry") of a fixed length are flat, as are structures with exclusively flat components. The memory requirements of flat data objects are defined statically by the data type. Flat data objects are always [static data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_data_object_glosry.htm "Glossary Entry").
 
-On the other hand, data types where the content of their data objects consists of [references](javascript:call_link\('abenreference_glosry.htm'\) "Glossary Entry"), which, in turn, refer to work data in another memory area, are referred to as deep. Types of [data reference variables](javascript:call_link\('abendata_reference_variable_glosry.htm'\) "Glossary Entry") and [object reference variables](javascript:call_link\('abenobject_refer_variable_glosry.htm'\) "Glossary Entry"), as well as the types of [strings](javascript:call_link\('abenstring_glosry.htm'\) "Glossary Entry"), [internal tables](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry"), and [boxed components](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry") are deep. Strings and internal tables are [dynamic data objects](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry") whose memory requirements can change at program runtime and are managed internally using references. Reference variables are static data objects since their actual size is fixed, whereas the size of the explicitly referenced objects is dynamic. Boxed components are a medium in between because their memory requirements in the internal session are not defined when the program is started in the internal session, but can be handled like static data objects with a fixed length. Structures are referred to as deep, regardless of [nesting](javascript:call_link\('abennested_structure_glosry.htm'\) "Glossary Entry") if they contain at least one deep component.
+On the other hand, data types where the content of their data objects consists of [references](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreference_glosry.htm "Glossary Entry"), which, in turn, refer to work data in another memory area, are referred to as deep. Types of [data reference variables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_reference_variable_glosry.htm "Glossary Entry") and [object reference variables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobject_refer_variable_glosry.htm "Glossary Entry"), as well as the types of [strings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_glosry.htm "Glossary Entry"), [internal tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry"), and [boxed components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_component_glosry.htm "Glossary Entry") are deep. Strings and internal tables are [dynamic data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_data_object_glosry.htm "Glossary Entry") whose memory requirements can change at program runtime and are managed internally using references. Reference variables are static data objects since their actual size is fixed, whereas the size of the explicitly referenced objects is dynamic. Boxed components are a medium in between because their memory requirements in the internal session are not defined when the program is started in the internal session, but can be handled like static data objects with a fixed length. Structures are referred to as deep, regardless of [nesting](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennested_structure_glosry.htm "Glossary Entry") if they contain at least one deep component.
 
-When using deep data objects, working memory is requested at program runtime. In the case of reference variables, this is the memory for administrative information and the objects created (instances of classes and [anonymous data objects](javascript:call_link\('abenanonymous_data_object_glosry.htm'\) "Glossary Entry")). In the case of dynamic data objects (strings, internal tables) and boxed components, this is the memory for administrative information and for the data objects themselves. Objects referenced by reference variables can themselves, in turn, be dynamic, that is, be or contain strings or internal tables.
+When using deep data objects, working memory is requested at program runtime. In the case of reference variables, this is the memory for administrative information and the objects created (instances of classes and [anonymous data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenanonymous_data_object_glosry.htm "Glossary Entry")). In the case of dynamic data objects (strings, internal tables) and boxed components, this is the memory for administrative information and for the data objects themselves. Objects referenced by reference variables can themselves, in turn, be dynamic, that is, be or contain strings or internal tables.
 
-The requested memory must be available in the [session memory](javascript:call_link\('abenroll_area_glosry.htm'\) "Glossary Entry") of the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"), since otherwise a runtime error occurs.
+The requested memory must be available in the [session memory](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenroll_area_glosry.htm "Glossary Entry") of the current [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry"), since otherwise a runtime error occurs.
 
--   [Memory Requirements for Deep Data Objects](javascript:call_link\('abenmemory_consumption_1.htm'\))
--   [Maximum Size of Dynamic Data Objects](javascript:call_link\('abenmemory_consumption_2.htm'\))
--   [Sharing Between Dynamic Data Objects](javascript:call_link\('abenmemory_consumption_3.htm'\))
--   [Complex Data Objects with Deep Components](javascript:call_link\('abenmemory_consumption_4.htm'\))
+-   [Memory Requirements for Deep Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_1.htm)
+-   [Maximum Size of Dynamic Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_2.htm)
+-   [Sharing Between Dynamic Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_3.htm)
+-   [Complex Data Objects with Deep Components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_4.htm)
 
 Hint
 
-The available session memory is controlled by the [profile parameters](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") described under [Session Memory](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f146e75588924fa4987b6c8f1a7a8c7e/11c6413c521e4a13adf7473af49e8291). A percentage of the available memory can also be defined as a limit, where a [runtime warning](javascript:call_link\('abenruntime_warning_glosry.htm'\) "Glossary Entry") occurs if it is exceeded.
+The available session memory is controlled by the [profile parameters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") described under [Session Memory](https://help.sap.com/docs/ABAP_PLATFORM_NEW/f146e75588924fa4987b6c8f1a7a8c7e/11c6413c521e4a13adf7473af49e8291). A percentage of the available memory can also be defined as a limit, where a [runtime warning](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenruntime_warning_glosry.htm "Glossary Entry") occurs if it is exceeded.
 
 Continue
-[Memory Requirement for Deep Data Objects](javascript:call_link\('abenmemory_consumption_1.htm'\))
-[Maximum Size of Dynamic Data Objects](javascript:call_link\('abenmemory_consumption_2.htm'\))
-[Sharing Between Dynamic Data Objects](javascript:call_link\('abenmemory_consumption_3.htm'\))
-[Complex Data Objects with Deep Components](javascript:call_link\('abenmemory_consumption_4.htm'\))
-![Example](exa.gif "Example") [Deep Data Objects, Memory Consumption](javascript:call_link\('abenmemory_usage_abexa.htm'\))
+[Memory Requirement for Deep Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_1.htm)
+[Maximum Size of Dynamic Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_2.htm)
+[Sharing Between Dynamic Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_3.htm)
+[Complex Data Objects with Deep Components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_4.htm)
+![Example](exa.gif "Example") [Deep Data Objects, Memory Consumption](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_usage_abexa.htm)
 
-
-
-**📖 Source**: [abenmemory_consumption.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm)
 
 ### abenmemory_consumption_1.htm
-
-> **📖 Official SAP Documentation**: [abenmemory_consumption_1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenmemory_consumption_1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_1.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -88,7 +50,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Memory Management of Deep Objects](javascript:call_link\('abenmemory_consumption.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) →  [Memory Management of Deep Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Memory%20Requirement%20for%20Deep%20Data%20Objects%2C%20ABENMEMORY_CONSUMPTION_1%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improve
 ment:)
@@ -104,11 +66,11 @@ The memory requirement for a deep data object consists of a constant memory requ
 
 Dynamic memory (header and data) is requested:
 
--   For data and object references by [creating objects](javascript:call_link\('abencreate_objects.htm'\))
--   For [dynamic data objects](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry") (strings and internal tables) by inserting content. For internal tables, the memory is requested in blocks, whereby the initial size of a block is the [initial memory requirement](javascript:call_link\('abeninitial_mem_req_glosry.htm'\) "Glossary Entry") that can be affected by the addition [INITIAL SIZE](javascript:call_link\('abaptypes_itab.htm'\)) when defining an internal table.
--   For [boxed components](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry") by undoing the [initial value sharing](javascript:call_link\('abeninitial_value_sharing_glosry.htm'\) "Glossary Entry").
+-   For data and object references by [creating objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencreate_objects.htm)
+-   For [dynamic data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_data_object_glosry.htm "Glossary Entry") (strings and internal tables) by inserting content. For internal tables, the memory is requested in blocks, whereby the initial size of a block is the [initial memory requirement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_mem_req_glosry.htm "Glossary Entry") that can be affected by the addition [INITIAL SIZE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_itab.htm) when defining an internal table.
+-   For [boxed components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_component_glosry.htm "Glossary Entry") by undoing the [initial value sharing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_value_sharing_glosry.htm "Glossary Entry").
 
-When a deep data object is initialized using [CLEAR](javascript:call_link\('abapclear.htm'\)), [REFRESH](javascript:call_link\('abaprefresh_itab.htm'\)) (obsolete), or [FREE](javascript:call_link\('abapfree_dataobject.htm'\)), the actual data is deleted, but the reference variables and the header of dynamic data objects are preserved. The latter is reused when another memory request is made. The memory requirement of a dynamic data object that was used once and then deleted therefore consists of the reference and the memory requirement of the header, except for boxed components. Only when using the statement FREE on internal tables, the table headers may also be deleted if they would take up too much memory. For static boxed components, initialization does not currently cause memory to be released. Initializing a static box in which [initial value sharing](javascript:call_link\('abeninitial_value_sharing_glosry.htm'\) "Glossary Entry") was canceled does not delete the instance in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") but assigns its type-dependent initial value to it.
+When a deep data object is initialized using [CLEAR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclear.htm), [REFRESH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprefresh_itab.htm) (obsolete), or [FREE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfree_dataobject.htm), the actual data is deleted, but the reference variables and the header of dynamic data objects are preserved. The latter is reused when another memory request is made. The memory requirement of a dynamic data object that was used once and then deleted therefore consists of the reference and the memory requirement of the header, except for boxed components. Only when using the statement FREE on internal tables, the table headers may also be deleted if they would take up too much memory. For static boxed components, initialization does not currently cause memory to be released. Initializing a static box in which [initial value sharing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_value_sharing_glosry.htm "Glossary Entry") was canceled does not delete the instance in the [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry") but assigns its type-dependent initial value to it.
 
 The memory requirement of the different headers is approximately as follows:
 
@@ -117,31 +79,20 @@ The memory requirement of the different headers is approximately as follows:
 -   A box header of a boxed component always uses approximately 20 to 30 bytes.
 -   An object header always uses approximately 30 bytes.
 
-In internal tables, there are additional [line-related management costs](javascript:call_link\('abenitab_key_memory.htm'\)) in the header. This memory is not created in the table header but in parallel to the table body. This means that when lines are deleted, the corresponding administrative data is also deleted.
+In internal tables, there are additional [line-related management costs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_memory.htm) in the header. This memory is not created in the table header but in parallel to the table body. This means that when lines are deleted, the corresponding administrative data is also deleted.
 
 Hints
 
--   Deleting lines of internal tables using [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) does not usually release any memory in the internal table, statements such as [CLEAR](javascript:call_link\('abapclear.htm'\)) or [FREE](javascript:call_link\('abapfree_dataobject.htm'\)) must be used to free memory in internal tables.
--   The exact memory requirement of a deep data object can be determined in the [ABAP Debugger](javascript:call_link\('abenabap_debugger_glosry.htm'\) "Glossary Entry") using the memory consumption function.
--   It can also be determined by creating a [memory snapshot](javascript:call_link\('abenmemory_snapshot_glosry.htm'\) "Glossary Entry") for the [Memory Inspector](javascript:call_link\('abenmemory_inspector_glosry.htm'\) "Glossary Entry").
+-   Deleting lines of internal tables using [DELETE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_itab.htm) does not usually release any memory in the internal table, statements such as [CLEAR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclear.htm) or [FREE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfree_dataobject.htm) must be used to free memory in internal tables.
+-   The exact memory requirement of a deep data object can be determined in the [ABAP Debugger](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_debugger_glosry.htm "Glossary Entry") using the memory consumption function.
+-   It can also be determined by creating a [memory snapshot](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_snapshot_glosry.htm "Glossary Entry") for the [Memory Inspector](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_inspector_glosry.htm "Glossary Entry").
 
 Executable Example
 
-[Deep Data Objects, Memory Consumption](javascript:call_link\('abenmemory_usage_abexa.htm'\))
+[Deep Data Objects, Memory Consumption](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_usage_abexa.htm)
 
-
-
-**📖 Source**: [abenmemory_consumption_1.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_1.htm)
 
 ### abenmemory_consumption_2.htm
-
-> **📖 Official SAP Documentation**: [abenmemory_consumption_2.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_2.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenmemory_consumption_2.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_2.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -149,24 +100,24 @@ Executable Example
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Memory Management of Deep Objects](javascript:call_link\('abenmemory_consumption.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) →  [Memory Management of Deep Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Maximum%20Size%20of%20Dynamic%20Data%20Objects%2C%20ABENMEMORY_CONSUMPTION_2%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement
 :)
 
 Maximum Size of Dynamic Data Objects
 
-In addition to the maximum memory size that the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") can request for [dynamic data objects](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry"), their maximum size is limited by the following factors:
+In addition to the maximum memory size that the current [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry") can request for [dynamic data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_data_object_glosry.htm "Glossary Entry"), their maximum size is limited by the following factors:
 
 -   An upper limit for the number of places in strings or lines of internal tables results from the fact that 4 byte integers are used to address them internally and in ABAP statements, which limits them to 2147483647.
--   The size of strings and hashed tables is limited by the biggest memory block that can be requested in one piece. This is a maximum of 2 GB but is usually further limited using the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") ztta/max\_memreq\_MB. For strings, the value of the profile parameter corresponds directly to the maximum size that can be occupied. The maximum number of lines in hashed tables depends on the required size of the hash administration that must be stored there. Currently, it is calculated from the largest power of two that fits into the value of the profile parameter divided by 8. For example, if the profile parameter specifies 250 MB, a hashed table can contain a maximum of about 16 million entries (128 times 1024 to the power of two divided by 8).
+-   The size of strings and hashed tables is limited by the biggest memory block that can be requested in one piece. This is a maximum of 2 GB but is usually further limited using the [profile parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") ztta/max\_memreq\_MB. For strings, the value of the profile parameter corresponds directly to the maximum size that can be occupied. The maximum number of lines in hashed tables depends on the required size of the hash administration that must be stored there. Currently, it is calculated from the largest power of two that fits into the value of the profile parameter divided by 8. For example, if the profile parameter specifies 250 MB, a hashed table can contain a maximum of about 16 million entries (128 times 1024 to the power of two divided by 8).
 
 The actual maximum size is generally smaller than specified by the above limits since the overall available memory is normally not only used by a string or an internal table.
 
 If an operation with a dynamic data object exceeds its maximum size, an exception occurs:
 
--   For internal tables, such an exception is uncatchable and always results in a [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry"). There are different runtime errors for different situations, as for example [TSV\_TNEW\_PAGE\_ALLOC\_FAILED](https://launchpad.support.sap.com/#/notes/20527).
--   For strings, the exception is class-based and connected to exception class CX\_SY\_STRING\_SIZE\_TOO\_LARGE. The runtime error STRING\_SIZE\_TOO\_LARGE only occurs if the exception is not handled. After this exception is caught, the respective string contains the content it had directly before the exception. This is usually the content it had before the entire operation (statement, function). Exceptions from this rule are statements like [CONCATENATE LINES OF](javascript:call_link\('abapconcatenate.htm'\)) or functions like [concat\_lines\_of](javascript:call_link\('abenconcatenation_functions.htm'\)), which can change the string before the exception occurs.
+-   For internal tables, such an exception is uncatchable and always results in a [runtime error](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenruntime_error_glosry.htm "Glossary Entry"). There are different runtime errors for different situations, as for example [TSV\_TNEW\_PAGE\_ALLOC\_FAILED](https://launchpad.support.sap.com/#/notes/20527).
+-   For strings, the exception is class-based and connected to exception class CX\_SY\_STRING\_SIZE\_TOO\_LARGE. The runtime error STRING\_SIZE\_TOO\_LARGE only occurs if the exception is not handled. After this exception is caught, the respective string contains the content it had directly before the exception. This is usually the content it had before the entire operation (statement, function). Exceptions from this rule are statements like [CONCATENATE LINES OF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconcatenate.htm) or functions like [concat\_lines\_of](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconcatenation_functions.htm), which can change the string before the exception occurs.
 
 Hints
 
@@ -193,18 +144,7 @@ TRY.
 ENDTRY.
 
 
-
-**📖 Source**: [abenmemory_consumption_2.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_2.htm)
-
 ### abenmemory_consumption_3.htm
-
-> **📖 Official SAP Documentation**: [abenmemory_consumption_3.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_3.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenmemory_consumption_3.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_3.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -212,7 +152,7 @@ ENDTRY.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Memory Management of Deep Objects](javascript:call_link\('abenmemory_consumption.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) →  [Memory Management of Deep Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Sharing%20Between%20Dynamic%20Data%20Objects%2C%20ABENMEMORY_CONSUMPTION_3%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -220,9 +160,9 @@ Sharing Between Dynamic Data Objects
 
 When reference variables are assigned, only the references are copied. After an assignment, source and target variables point to the same data object or instance of a class (more precisely, to their headers).
 
-Sharing also takes place internally in [assignments](javascript:call_link\('abenassignment_glosry.htm'\) "Glossary Entry") between similar [strings](javascript:call_link\('abenstring_glosry.htm'\) "Glossary Entry") and between similar [internal tables](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") whose line types do not themselves contain table types. This means that the actual data values are not copied at first. Only the necessary administration entries are copied, so that the target object refers to the same data as the source object.
+Sharing also takes place internally in [assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassignment_glosry.htm "Glossary Entry") between similar [strings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_glosry.htm "Glossary Entry") and between similar [internal tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry") whose line types do not themselves contain table types. This means that the actual data values are not copied at first. Only the necessary administration entries are copied, so that the target object refers to the same data as the source object.
 
-For strings, a new internal reference is created that points to the existing string header. For internal tables, a new internal reference and a new table header, which refers to the existing [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry"), are created.
+For strings, a new internal reference is created that points to the existing string header. For internal tables, a new internal reference and a new table header, which refers to the existing [table body](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_body_glosry.htm "Glossary Entry"), are created.
 
 Sharing between dynamic data objects is, of course, only active for as long as multiple dynamic data objects are involved, or more than one internal reference refers to the data values. As soon as only one internal reference refers to the data, sharing no longer takes place. Such cases occur, for example, if involved dynamic data objects only exist during the lifetime of a procedure, or if they are recorded as anonymous data objects by the Garbage Collector.
 
@@ -235,24 +175,13 @@ The following figure illustrates the sharing of dynamic data objects. The upper 
 Hints
 
 -   Table sharing usually only occurs for tables whose line types do not themselves contain table types. Otherwise, the prerequisite for "similar tables" is kept deliberately vague. Tables are similar if they at least have the exact same table type, that is the same line type, table category, and keys. There are other table combinations that are also considered to be similar and in which sharing can take place. However, this is an internal optimization measure that may be changed between releases. Therefore, programming should never be based on when table sharing occurs and when it is canceled again.
--   Sharing also occurs during [pass by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry") to procedures.
+-   Sharing also occurs during [pass by value](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpass_by_value_glosry.htm "Glossary Entry") to procedures.
 -   Sharing is not canceled by changes to the objects for reference variables that point to the same data object or the same instance of a class.
--   Another type of sharing is the [initial value sharing](javascript:call_link\('abeninitial_value_sharing_glosry.htm'\) "Glossary Entry") of [boxed components](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry") for which the initial value is stored only once per AS instance.
--   Sharing is also supported when accessing [shared objects](javascript:call_link\('abenshared_objects_glosry.htm'\) "Glossary Entry"), for as long as an [area instance version](javascript:call_link\('abenarea_instance_version_glosry.htm'\) "Glossary Entry") is bound to the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") using an [area handle](javascript:call_link\('abenarea_handle_glosry.htm'\) "Glossary Entry").
+-   Another type of sharing is the [initial value sharing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_value_sharing_glosry.htm "Glossary Entry") of [boxed components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_component_glosry.htm "Glossary Entry") for which the initial value is stored only once per AS instance.
+-   Sharing is also supported when accessing [shared objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshared_objects_glosry.htm "Glossary Entry"), for as long as an [area instance version](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarea_instance_version_glosry.htm "Glossary Entry") is bound to the current [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry") using an [area handle](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarea_handle_glosry.htm "Glossary Entry").
 
-
-
-**📖 Source**: [abenmemory_consumption_3.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_3.htm)
 
 ### abenmemory_consumption_4.htm
-
-> **📖 Official SAP Documentation**: [abenmemory_consumption_4.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_4.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenmemory_consumption_4.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_4.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -260,14 +189,14 @@ Hints
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Memory Management of Deep Objects](javascript:call_link\('abenmemory_consumption.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) →  [Memory Management of Deep Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Complex%20Data%20Objects%20with%20Deep%20Components%2C%20ABENMEMORY_CONSUMPTION_4%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improv
 ement:)
 
 Complex Data Objects with Deep Components
 
-If data objects of [complex data types](javascript:call_link\('abencomplex_data_type_glosry.htm'\) "Glossary Entry") have many deep components, which often, for example, applies to internal tables with a deep line type for example, the administrative costs in the form of memory for references and headers must be prevented from growing disproportionately large compared to the actual data content.
+If data objects of [complex data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomplex_data_type_glosry.htm "Glossary Entry") have many deep components, which often, for example, applies to internal tables with a deep line type for example, the administrative costs in the form of memory for references and headers must be prevented from growing disproportionately large compared to the actual data content.
 
 For complex data objects with relatively little data content, three basic cases can be distinguished:
 
@@ -277,7 +206,7 @@ For complex data objects with relatively little data content, three basic cases 
     
 2.  Complex data objects with a duplicative fill level
     
-    A complex deep data object has a duplicative fill level if it contains many deep components of which most refer to the same data. Such components share the dynamic memory and only contribute to the memory requirement of their references. For [dynamic data objects](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry"), this is achieved by [sharing](javascript:call_link\('abenmemory_consumption_3.htm'\)).
+    A complex deep data object has a duplicative fill level if it contains many deep components of which most refer to the same data. Such components share the dynamic memory and only contribute to the memory requirement of their references. For [dynamic data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_data_object_glosry.htm "Glossary Entry"), this is achieved by [sharing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_3.htm).
     
 3.  Complex data objects with a low fill level
     
@@ -294,24 +223,10 @@ An example of a duplicative data object with a low fill level is an internal tab
 
 Executable Example
 
-See [Deep Data Objects, Memory Usage](javascript:call_link\('abenmemory_usage_abexa.htm'\)).
+See [Deep Data Objects, Memory Usage](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_usage_abexa.htm).
 
-
-
-**📖 Source**: [abenmemory_consumption_4.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_4.htm)
 
 ### abenmemory_usage_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenmemory_usage_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_usage_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenmemory_usage_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_usage_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenmemory_usage_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_usage_abexa.htm)
-
 
   
 
@@ -319,7 +234,7 @@ See [Deep Data Objects, Memory Usage](javascript:call_link\('abenmemory_usage_ab
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Memory Management of Deep Objects](javascript:call_link\('abenmemory_consumption.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) →  [Memory Management of Deep Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Deep%20Data%20Objects%2C%20Memory%20Consumption%2C%20ABENMEMORY_USAGE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:
 )

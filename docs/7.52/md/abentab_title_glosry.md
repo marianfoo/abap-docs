@@ -4,8 +4,8 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 tab title
 
-A single-line element located at the top of a [tab page](javascript:call_link\('abentab_page_glosry.htm'\) "Glossary Entry") and associated with a [function code](javascript:call_link\('abenfunction_code_glosry.htm'\) "Glossary Entry"). A tab page is selected when the tab title is clicked.
+A single-line element located at the top of a [tab page](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentab_page_glosry.htm "Glossary Entry") and associated with a [function code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_code_glosry.htm "Glossary Entry"). A tab page is selected when the tab title is clicked.

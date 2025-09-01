@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\)) →  [Examples for ABAP EML MODIFY](javascript:call_link\('abapeml_modify_examples_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml.htm) →  [MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities.htm) →  [Examples for ABAP EML MODIFY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_modify_examples_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20RAP%20Calculator%2C%20ABENEML_CALCULATOR_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ABAP EML - RAP Calculator
 
-This example demonstrates a calculator that is implemented in a RAP context using a simple managed RAP BO. Here, a create operation with an ABAP EML MODIFY ENTITY statement takes up user input - numbers and an arithmetic operator - on whose basis a calculation is done. The RAP BO is draft-enabled which does not play a role in this example. See the following related example for more information: [ABAP EML in Use: Managed, Draft-Enabled RAP BO with Late Numbering](javascript:call_link\('abensheet_rap_calc_dr_ln_m_abexa.htm'\))
+This example demonstrates a calculator that is implemented in a RAP context using a simple managed RAP BO. Here, a create operation with an ABAP EML MODIFY ENTITY statement takes up user input - numbers and an arithmetic operator - on whose basis a calculation is done. The RAP BO is draft-enabled which does not play a role in this example. See the following related example for more information: [ABAP EML in Use: Managed, Draft-Enabled RAP BO with Late Numbering](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensheet_rap_calc_dr_ln_m_abexa.htm)
 
 Source Code   
 
@@ -88,4 +88,4 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class.

@@ -4,32 +4,32 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Objects](javascript:call_link\('abenobjects_statements.htm'\)) →  [DATA](javascript:call_link\('abapdata.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_and_objects.htm) →  [Declaring Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobjects_statements.htm) →  [DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata.htm) → 
 
 DATA - REF TO
 
-[Quick Reference](javascript:call_link\('abapdata_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_shortref.htm)
 
 Syntax
 
 DATA ref *{* *{*TYPE REF TO type*}*
          *|* *{*LIKE REF TO dobj*}* *}*
-         [*\[*VALUE IS INITIAL*\]*](javascript:call_link\('abapdata_options.htm'\))
-         [*\[*READ-ONLY*\]*](javascript:call_link\('abapdata_options.htm'\)).
+         [*\[*VALUE IS INITIAL*\]*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_options.htm)
+         [*\[*READ-ONLY*\]*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_options.htm).
 
 Effect
 
-Using the REF TO addition, you declare a [reference variable](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry") ref. The static type of the reference variable is specified after REF TO. The static type limits the set of objects to which ref can point. The dynamic type of a reference variable is the data type or the class to which it currently points. The static type is always more general or the same as the dynamic type (see also the conversion rule for reference variables).
+Using the REF TO addition, you declare a [reference variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_variable_glosry.htm "Glossary Entry") ref. The static type of the reference variable is specified after REF TO. The static type limits the set of objects to which ref can point. The dynamic type of a reference variable is the data type or the class to which it currently points. The static type is always more general or the same as the dynamic type (see also the conversion rule for reference variables).
 
-The syntax and meaning of the additions TYPE and LIKE are the same as the definition of reference types in the section [TYPES - REF TO](javascript:call_link\('abaptypes_references.htm'\)), but here they are used to create a bound reference type.
+The syntax and meaning of the additions TYPE and LIKE are the same as the definition of reference types in the section [TYPES - REF TO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_references.htm), but here they are used to create a bound reference type.
 
-Only IS INITIAL can be specified as a [start value](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry") after the addition [VALUE](javascript:call_link\('abapdata_options.htm'\)).
+Only IS INITIAL can be specified as a [start value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstart_value_glosry.htm "Glossary Entry") after the addition [VALUE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_options.htm).
 
 Notes
 
 -   Reference variables are opaque, which means their content cannot be accessed directly. A reference consists of the address of an object and other administration information.
     
--   A [reference](javascript:call_link\('abenreference_glosry.htm'\) "Glossary Entry") in a reference variable is valid if it points to an object. In this case the predicate expression [IS BOUND](javascript:call_link\('abenlogexp_bound.htm'\)) is true. A non-initial reference can be invalid it it points to deleted objects. A [heap reference](javascript:call_link\('abenheap_reference_glosry.htm'\) "Glossary Entry") that points to a row in an internal table can become invalid if the row is deleted. A [stack reference](javascript:call_link\('abenstack_reference_glosry.htm'\) "Glossary Entry") can become invalid if the referenced data object is removed from the stack.
+-   A [reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_glosry.htm "Glossary Entry") in a reference variable is valid if it points to an object. In this case the predicate expression [IS BOUND](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_bound.htm) is true. A non-initial reference can be invalid it it points to deleted objects. A [heap reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenheap_reference_glosry.htm "Glossary Entry") that points to a row in an internal table can become invalid if the row is deleted. A [stack reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstack_reference_glosry.htm "Glossary Entry") can become invalid if the referenced data object is removed from the stack.
     
 
 Example

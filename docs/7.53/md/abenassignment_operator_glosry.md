@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 assignment operator
 
-[Operator](javascript:call_link\('abenoperator_glosry.htm'\) "Glossary Entry") for assigning the content of a [data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry") to a [variable](javascript:call_link\('abenvariable_glosry.htm'\) "Glossary Entry"). In ABAP, the general assignment operator is the equals sign ([\=](javascript:call_link\('abenequals_operator.htm'\))). The [casting operator](javascript:call_link\('abencasting_operator_glosry.htm'\) "Glossary Entry") ([?=](javascript:call_link\('abapmove_cast.htm'\))) is a special assignment operator.
+[Operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperator_glosry.htm "Glossary Entry") for assigning the content of a [data object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_object_glosry.htm "Glossary Entry") to a [variable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvariable_glosry.htm "Glossary Entry"). In ABAP, the general assignment operator is the equals sign ([\=](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_operator.htm)). The [casting operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencasting_operator_glosry.htm "Glossary Entry") ([?=](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_cast.htm)) is a special assignment operator.
 
-[→ More](javascript:call_link\('abenequals_operator.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_operator.htm)

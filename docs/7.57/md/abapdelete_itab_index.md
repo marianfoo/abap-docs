@@ -4,18 +4,18 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [DELETE itab](javascript:call_link\('abapdelete_itab.htm'\)) →  [DELETE itab, itab\_line](javascript:call_link\('abapdelete_itab_line.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_processing_statements.htm) →  [DELETE itab](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_itab.htm) →  [DELETE itab, itab\_line](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_itab_line.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DELETE itab, index, ABAPDELETE_ITAB_INDEX, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D
 %0ASuggestion for improvement:)
 
 DELETE itab, index
 
-[Short Reference](javascript:call_link\('abapdelete_itab_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_itab_shortref.htm)
 
 Syntax
 
-...   *{* itab INDEX idx *\[*USING KEY [keyname](javascript:call_link\('abenkeyname.htm'\))*\]* *}*
+...   *{* itab INDEX idx *\[*USING KEY [keyname](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkeyname.htm)*\]* *}*
     *|* *{* itab *\[*USING KEY loop\_key*\]**}* ...
 
 Alternatives:
@@ -37,9 +37,9 @@ Addition:
 
 Effect
 
-If the INDEX addition is used, the DELETE statement deletes the line in the line number specified in idx in a table index. idx is a [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") with the operand type i. If idx contains the value 0 or less, an uncatchable exception is raised.
+If the INDEX addition is used, the DELETE statement deletes the line in the line number specified in idx in a table index. idx is a [numeric expression position](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") with the operand type i. If idx contains the value 0 or less, an uncatchable exception is raised.
 
-If the addition USING KEY is not used, the addition INDEX can only be used with [index tables](javascript:call_link\('abenindex_table_glosry.htm'\) "Glossary Entry") and determines the line to be deleted from the [primary table index](javascript:call_link\('abenprimary_table_index_glosry.htm'\) "Glossary Entry").
+If the addition USING KEY is not used, the addition INDEX can only be used with [index tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenindex_table_glosry.htm "Glossary Entry") and determines the line to be deleted from the [primary table index](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprimary_table_index_glosry.htm "Glossary Entry").
 
 Example
 
@@ -59,7 +59,7 @@ ENDIF.
 
 Executable Example
 
-[Deleting Lines Using an Index](javascript:call_link\('abendelete_line_idx_abexa.htm'\))
+[Deleting Lines Using an Index](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendelete_line_idx_abexa.htm)
 
 Addition   
 
@@ -67,11 +67,11 @@ Addition  
 
 Effect
 
-The addition USING KEY can be used to specify a table key can be specified in [keyname](javascript:call_link\('abenkeyname.htm'\)) to specify the table index to be used explicitly.
+The addition USING KEY can be used to specify a table key can be specified in [keyname](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkeyname.htm) to specify the table index to be used explicitly.
 
-If the table has a [sorted](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry") [secondary key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry"), this can be specified in keyname. The line to be deleted is then determined from its [secondary table index](javascript:call_link\('abensecondary_table_index_glosry.htm'\) "Glossary Entry"). A secondary [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") cannot be specified.
+If the table has a [sorted](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensorted_key_glosry.htm "Glossary Entry") [secondary key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_table_key_glosry.htm "Glossary Entry"), this can be specified in keyname. The line to be deleted is then determined from its [secondary table index](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_table_index_glosry.htm "Glossary Entry"). A secondary [hash key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhash_key_glosry.htm "Glossary Entry") cannot be specified.
 
-If the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") is specified under its name primary\_key, the table must be an index table, and the behavior is the same as when USING KEY is not specified.
+If the [primary table key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") is specified under its name primary\_key, the table must be an index table, and the behavior is the same as when USING KEY is not specified.
 
 Hint
 
@@ -96,7 +96,7 @@ Addition:
 
 Effect
 
-This variant is only possible within a [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)) across the same internal table. The current table line of the LOOP is then deleted implicitly. If the addition [USING KEY](javascript:call_link\('abaploop_at_itab_cond.htm'\)) is specified in LOOP, the addition USING KEY loop\_key must be specified for this variant.
+This variant is only possible within a [LOOP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab.htm) across the same internal table. The current table line of the LOOP is then deleted implicitly. If the addition [USING KEY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab_cond.htm) is specified in LOOP, the addition USING KEY loop\_key must be specified for this variant.
 
 If the current line was already deleted in the same loop, however, the behavior is undefined.
 
@@ -108,7 +108,7 @@ This alternative is not recommended. Instead, use the addition INDEX to specify 
 
 Example
 
-The following loop deletes all lines of an internal table, since the short form of the statement [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) always deletes the current first line.
+The following loop deletes all lines of an internal table, since the short form of the statement [DELETE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_itab.htm) always deletes the current first line.
 
 DATA itab TYPE TABLE OF i WITH EMPTY KEY.
 itab = VALUE #( ( 1 ) ( 2 ) ( 3 ) ).
@@ -122,7 +122,7 @@ Addition  
 
 Effect
 
-This addition is required if the table key used by the LOOP is specified explicitly in the statement LOOP. It states explicitly that the current table line is deleted by the LOOP. No other key can be specified apart from the predefined name [loop\_key](javascript:call_link\('abaploop_at_itab_cond.htm'\)). If no explicit table key is specified for LOOP, the addition USING KEY loop\_key is optional.
+This addition is required if the table key used by the LOOP is specified explicitly in the statement LOOP. It states explicitly that the current table line is deleted by the LOOP. No other key can be specified apart from the predefined name [loop\_key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab_cond.htm). If no explicit table key is specified for LOOP, the addition USING KEY loop\_key is optional.
 
 Example
 
@@ -136,4 +136,4 @@ LOOP AT itab USING KEY primary\_key
 ENDLOOP.
 
 Continue
-![Example](exa.gif "Example") [itab - Deleting Lines Using the Index](javascript:call_link\('abendelete_line_idx_abexa.htm'\))
+![Example](exa.gif "Example") [itab - Deleting Lines Using the Index](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendelete_line_idx_abexa.htm)

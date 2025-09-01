@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 authorization object
 
-[Repository object](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") on which [authorizations](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry") are based. An authorization object consists of up to ten [authorization fields](javascript:call_link\('abenauthorization_field_glosry.htm'\) "Glossary Entry"). The combination of authorization fields that represent data and activities is used for [authorization assignments](javascript:call_link\('abenauthorization_assign_glosry.htm'\) "Glossary Entry") and [authorization checks](javascript:call_link\('abenauthorization_check_glosry.htm'\) "Glossary Entry") . Authorization objects are grouped together in authorization object classes. They are edited in [transaction](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry") SU21.
+[Repository object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrepository_object_glosry.htm "Glossary Entry") on which [authorizations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenauthorization_glosry.htm "Glossary Entry") are based. An authorization object consists of up to ten [authorization fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenauthorization_field_glosry.htm "Glossary Entry"). The combination of authorization fields that represent data and activities is used for [authorization assignments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenauthorization_assign_glosry.htm "Glossary Entry") and [authorization checks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenauthorization_check_glosry.htm "Glossary Entry") . Authorization objects are grouped together in authorization object classes. They are edited in [transaction](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransaction_code_glosry.htm "Glossary Entry") SU21.
 
-[→ More](javascript:call_link\('abenbc_authority_check.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbc_authority_check.htm)

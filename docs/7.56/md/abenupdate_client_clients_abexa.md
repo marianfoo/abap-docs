@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Write Access](javascript:call_link\('abenabap_sql_writing.htm'\)) →  [INSERT, UPDATE, MODIFY, DELETE, target](javascript:call_link\('abapiumd_target.htm'\)) →  [INSERT, UPDATE, MODIFY, DELETE dbtab, CLIENT, CLIENTS](javascript:call_link\('abapiumd_client.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm) →  [ABAP SQL - Write Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_writing.htm) →  [INSERT, UPDATE, MODIFY, DELETE, target](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapiumd_target.htm) →  [INSERT, UPDATE, MODIFY, DELETE dbtab, CLIENT, CLIENTS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapiumd_client.htm) → 
 
 UPDATE, USING CLIENT, CLIENTS
 
-This example demonstrates client handling in the ABAP SQL statement [UPDATE](javascript:call_link\('abapupdate.htm'\)).
+This example demonstrates client handling in the ABAP SQL statement [UPDATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapupdate.htm).
 
 Source Code
 
@@ -54,11 +54,11 @@ START-OF-SELECTION.
 
 Description
 
-The example demonstrates how the additions [USING CLIENT](javascript:call_link\('abapiumd_client.htm'\)) and [USING CLIENTS](javascript:call_link\('abapiumd_client.htm'\)) are used in the statement [UPDATE](javascript:call_link\('abapupdate.htm'\)) and in other ABAP SQL statements.
+The example demonstrates how the additions [USING CLIENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapiumd_client.htm) and [USING CLIENTS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapiumd_client.htm) are used in the statement [UPDATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapupdate.htm) and in other ABAP SQL statements.
 
--   First, the addition [USING ALL CLIENTS](javascript:call_link\('abapiumd_client.htm'\)) of the statement [DELETE](javascript:call_link\('abapdelete_dbtab.htm'\)) is used to delete all data in all clients from the client-dependent table DEMO\_UPDATE.
--   The addition [CLIENT SPECIFIED](javascript:call_link\('abapiumd_client.htm'\)) of the statement [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)) is used to write data with five different client IDs from a table constructed in a host expression into this DDIC database table.
--   The statement [UPDATE](javascript:call_link\('abapupdate.htm'\)) with different variants of the [USING](javascript:call_link\('abapiumd_client.htm'\)) addition is applied to the filled table:
+-   First, the addition [USING ALL CLIENTS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapiumd_client.htm) of the statement [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_dbtab.htm) is used to delete all data in all clients from the client-dependent table DEMO\_UPDATE.
+-   The addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapiumd_client.htm) of the statement [INSERT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_dbtab.htm) is used to write data with five different client IDs from a table constructed in a host expression into this DDIC database table.
+-   The statement [UPDATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapupdate.htm) with different variants of the [USING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapiumd_client.htm) addition is applied to the filled table:
     
     -   USING CLIENT modifies the content of the column COL1 for the client 100.
     -   USING CLIENTS IN @( ... ) modifies the content of the column COL2 for the clients 200 and 300 that meet the conditions of a ranges table constructed in a host expression.
@@ -67,4 +67,4 @@ The example demonstrates how the additions [USING CLIENT](javascript:call_link\(
     
     In this example, the additions USING CLIENTS IN T000 and USING ALL CLIENTS can select different clients, since the validity of the client IDs is not checked when data is inserted. In real application tables, however, only client IDs from the table T000 should occur.
     
--   Finally, the addition [USING ALL CLIENTS](javascript:call_link\('abapselect_client.htm'\)) of the statement [SELECT](javascript:call_link\('abapselect.htm'\)) is used to read and display the data from all clients.
+-   Finally, the addition [USING ALL CLIENTS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_client.htm) of the statement [SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm) is used to read and display the data from all clients.

@@ -4,31 +4,33 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Overview](javascript:call_link\('abenopen_sql_oview.htm'\)) →  [ABAP SQL - Table Buffering](javascript:call_link\('abensap_puffering.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Overview](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_oview.htm) →  [ABAP SQL - Table Buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_puffering.htm) → 
 
 Table Buffering - Buffer Synchronization
 
--   [Invalidating and Updating](#abenbuffer-synchro-1--------eviction---@ITOC@@ABENBUFFER_SYNCHRO_2)
+-   [Invalidating and Updating](#@@ITOC@@ABENBUFFER_SYNCHRO_1)
+
+-   [Eviction](#@@ITOC@@ABENBUFFER_SYNCHRO_2)
 
 -   [Resetting the Buffer](#@@ITOC@@ABENBUFFER_SYNCHRO_3)
 
 Invalidating and Updating
 
-One buffered table or database view usually exists in the [table buffers](javascript:call_link\('abentable_buffer_glosry.htm'\) "Glossary Entry") of every AS Instance. If a program in one of the AS Instances modifies data from a table using ABAP SQL, the data is updated as follows:
+One buffered table or database view usually exists in the [table buffers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_buffer_glosry.htm "Glossary Entry") of every AS Instance. If a program in one of the AS Instances modifies data from a table using ABAP SQL, the data is updated as follows:
 
 -   The data is modified in the database table on the database.
 
 -   The buffers of the current AS Instance are invalidated directly.
 
--   In changes made using [work areas](javascript:call_link\('abenwork_area_glosry.htm'\) "Glossary Entry"), the row in question is invalidated in tables with single record buffering. In generically buffered tables, the generic area in question is invalidated and in fully buffered tables, the whole table is invalidated.
+-   In changes made using [work areas](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwork_area_glosry.htm "Glossary Entry"), the row in question is invalidated in tables with single record buffering. In generically buffered tables, the generic area in question is invalidated and in fully buffered tables, the whole table is invalidated.
 
--   In changes made using [](javascript:call_link\('abapupdate_source.htm'\))UPDATE ... SET ... WHERE ... or [](javascript:call_link\('abapdelete_where.htm'\))DELETE ... WHERE ... , the whole table is invalidated in tables with single record buffering and full buffering. In generically buffered tables, all generic areas are invalidated that are affected by a left-justified generic subkey.
+-   In changes made using [](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate_source.htm)UPDATE ... SET ... WHERE ... or [](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_where.htm)DELETE ... WHERE ... , the whole table is invalidated in tables with single record buffering and full buffering. In generically buffered tables, all generic areas are invalidated that are affected by a left-justified generic subkey.
 
--   In buffered [database views](javascript:call_link\('abenddic_database_views.htm'\)) or [CDS](javascript:call_link\('abenddic_cds_views.htm'\)) views, the entire buffer is invalidated regardless of the buffering type. In client-specific views, however, this only affects the content of the current client.
+-   In buffered [database views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_views.htm) or [CDS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_views.htm) views, the entire buffer is invalidated regardless of the buffering type. In client-specific views, however, this only affects the content of the current client.
 
 -   The invalidated data is written to the log table DDLOG of the database interface.
 
--   Provided that no [database commits](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") have been performed for a change to the buffered table, all database reads on the AS Instance (where the change was performed) access the database directly and bypass the buffer. After a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry"), the following applies to reads on this AS Instance:
+-   Provided that no [database commits](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_commit_glosry.htm "Glossary Entry") have been performed for a change to the buffered table, all database reads on the AS Instance (where the change was performed) access the database directly and bypass the buffer. After a [database commit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_commit_glosry.htm "Glossary Entry"), the following applies to reads on this AS Instance:
 
 -   In the case of single record buffering and a change, which only relates to a single record in this type of table, the buffer is updated immediately on read access.
 
@@ -62,11 +64,11 @@ Data is evicted from those tables that are accessed least often. Here, accesses 
 
 Note
 
-The individual generic areas of [generically buffered tables](javascript:call_link\('abenbuffer_generic_buffering.htm'\)) are handled like standalone tables, which means that certain generic areas of a table can be evicted while other generic areas of the same table are kept in the buffer.
+The individual generic areas of [generically buffered tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuffer_generic_buffering.htm) are handled like standalone tables, which means that certain generic areas of a table can be evicted while other generic areas of the same table are kept in the buffer.
 
 Resetting the Buffer
 
-The table buffer of the current AS Instance can be reset by invalidating all its data. This is done by entering /$TAB in the [command field](javascript:call_link\('abencommand_field_glosry.htm'\) "Glossary Entry") in the [standard toolbar](javascript:call_link\('abenstandard_toolbar_glosry.htm'\) "Glossary Entry") in SAP GUI.
+The table buffer of the current AS Instance can be reset by invalidating all its data. This is done by entering /$TAB in the [command field](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencommand_field_glosry.htm "Glossary Entry") in the [standard toolbar](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_toolbar_glosry.htm "Glossary Entry") in SAP GUI.
 
 Note
 

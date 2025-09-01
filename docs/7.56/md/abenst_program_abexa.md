@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Structure of ST Programs](javascript:call_link\('abenst_programs_structure.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_st.htm) →  [ST - Structure of ST Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_programs_structure.htm) → 
 
 ST - Example of an ST Program
 
@@ -63,4 +63,4 @@ The called transformation DEMO\_ST\_PROGRAM shows the principal structure of an 
   </tt:template>
 </tt:transform>
 
-The only template tmpl1 is defined as the [main template](javascript:call_link\('abenst_tt_template_main.htm'\)). Two [data roots](javascript:call_link\('abenst_tt_root.htm'\)), ROOT1 and ROOT2, are declared. The template contains two subelements, X1 and X2 of an element X0, which are given the values of the data roots in serializations or whose values are given to the data roots in deserializations using the statement [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)). After the deserialization, result1 and result2 have the same content as source1 and source2.
+The only template tmpl1 is defined as the [main template](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_template_main.htm). Two [data roots](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_root.htm), ROOT1 and ROOT2, are declared. The template contains two subelements, X1 and X2 of an element X0, which are given the values of the data roots in serializations or whose values are given to the data roots in deserializations using the statement [tt:value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_value_elementary.htm). After the deserialization, result1 and result2 have the same content as source1 and source2.

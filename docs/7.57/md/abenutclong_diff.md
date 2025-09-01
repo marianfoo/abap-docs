@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Time Stamps](javascript:call_link\('abentime_stamps.htm'\)) →  [Time Stamp Fields with Time Stamp Type](javascript:call_link\('abenutclong.htm'\)) →  [Time Stamp Functions (ts\_func)](javascript:call_link\('abentimestamp_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendate_time_processing.htm) →  [Time Stamps](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_stamps.htm) →  [Time Stamp Fields with Time Stamp Type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenutclong.htm) →  [Time Stamp Functions (ts\_func)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentimestamp_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ts_func - utclong_diff, ABENUTCLONG_DIFF, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%
 0ASuggestion for improvement:)
@@ -18,15 +18,15 @@ Syntax
 
 Effect
 
-This [built-in function](javascript:call_link\('abenbuilt_in_functions.htm'\)) calculates the time difference between the values of two time stamp fields time\_stamp2 and time\_stamp1. The return value has the type decfloat34 and contains the exact difference in seconds rounded to seven decimal places. If the time stamp in time\_stamp2 is later than the time stamp in time\_stamp1, the result is positive. If the values are identical, the result is 0, otherwise it is negative.
+This [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions.htm) calculates the time difference between the values of two time stamp fields time\_stamp2 and time\_stamp1. The return value has the type decfloat34 and contains the exact difference in seconds rounded to seven decimal places. If the time stamp in time\_stamp2 is later than the time stamp in time\_stamp1, the result is positive. If the values are identical, the result is 0, otherwise it is negative.
 
-Time stamp fields of the type [utclong](javascript:call_link\('abenbuiltin_types_date_time.htm'\)) containing valid time stamps must be passed to the arguments high and low. time\_stamp2 and time\_stamp1 are [time-stamp-like expression positions](javascript:call_link\('abentimestamp_like_expr_pos_glosry.htm'\) "Glossary Entry"). An initial time stamp is handled like the smallest possible value of a time stamp.
+Time stamp fields of the type [utclong](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuiltin_types_date_time.htm) containing valid time stamps must be passed to the arguments high and low. time\_stamp2 and time\_stamp1 are [time-stamp-like expression positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentimestamp_like_expr_pos_glosry.htm "Glossary Entry"). An initial time stamp is handled like the smallest possible value of a time stamp.
 
 Hints
 
--   The system class [CL\_ABAP\_UTCLONG](javascript:call_link\('abentimestamp_system_class.htm'\)) contains a method DIFF with multiple output parameters for days, hours, minutes, and seconds across which the time difference is spread instead of just one return parameter.
--   If the function utclong\_diff is used as an operand of an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") decfloat34 is produced.
--   If the function utclong\_diff is used as the [right side of an assignment](javascript:call_link\('abenequals_return_values.htm'\)) or other operand positions in which the return value is converted, the decimal places are converted in accordance with the general conversion rules for [source field type decfloat34](javascript:call_link\('abenconversion_type_decfloat.htm'\)), if necessary, and are not cut off. If the decimal places are to be cut off, the built-in function [trunc](javascript:call_link\('abennumerical_functions.htm'\)) can be applied to the return value.
+-   The system class [CL\_ABAP\_UTCLONG](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentimestamp_system_class.htm) contains a method DIFF with multiple output parameters for days, hours, minutes, and seconds across which the time difference is spread instead of just one return parameter.
+-   If the function utclong\_diff is used as an operand of an [arithmetic expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), the [calculation type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_type_glosry.htm "Glossary Entry") decfloat34 is produced.
+-   If the function utclong\_diff is used as the [right side of an assignment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenequals_return_values.htm) or other operand positions in which the return value is converted, the decimal places are converted in accordance with the general conversion rules for [source field type decfloat34](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_decfloat.htm), if necessary, and are not cut off. If the decimal places are to be cut off, the built-in function [trunc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumerical_functions.htm) can be applied to the return value.
 
 Example
 
@@ -43,7 +43,7 @@ cl\_demo\_output=>display(
                   high = \_ts
                   low  = time\_stamps\[ i - 1 \] ) \* 1000000 ) ) ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 

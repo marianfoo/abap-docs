@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - SAP Annotations](javascript:call_link\('abencds_annotations_sap.htm'\)) →  [ABAP CDS - Framework-Specific Annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)) →  [ABAP CDS - Framework-Specific Annotation Syntax](javascript:call_link\('abencds_annotations_frmwrk_tables.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_sap.htm) →  [ABAP CDS - Framework-Specific Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk.htm) →  [ABAP CDS - Framework-Specific Annotation Syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk_tables.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS, Annotation Array, ABENCDS_ANNOTATION_ARRAY_ABEXA, 757%0D%0A%0D%0AError:%0D%
 0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 ABAP CDS, Annotation Array
 
-This example shows how an [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") is evaluated in a piece of DDL source code.
+This example shows how an [annotation array](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry") is evaluated in a piece of DDL source code.
 
 Source Code   
 
@@ -46,9 +46,9 @@ define view entity demo\_cds\_annotation\_array
       id
     }
 
-An [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") Consumption.filter.hierarchyBinding with two elements is assigned to the view field ID and each of the elements is structured using three [subannotations](javascript:call_link\('abensub_annotation_glosry.htm'\) "Glossary Entry") type, value, and variableSequence.
+An [annotation array](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenannotation_array_glosry.htm "Glossary Entry") Consumption.filter.hierarchyBinding with two elements is assigned to the view field ID and each of the elements is structured using three [subannotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensub_annotation_glosry.htm "Glossary Entry") type, value, and variableSequence.
 
-The annotation array is a subannotation of a [framework-specific annotation](javascript:call_link\('abencds_annotations_frmwrk.htm'\)) delivered by SAP and defined as follows in its [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry"):
+The annotation array is a subannotation of a [framework-specific annotation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk.htm) delivered by SAP and defined as follows in its [annotation definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry"):
 
 annotation Consumption
 {
@@ -69,4 +69,4 @@ annotation Consumption
    };
 };
 
-In the case of elements of the annotation array, square brackets are specified in the [tabular list](javascript:call_link\('abencds_annotations_frmwrk_tables.htm'\)) of the framework-specific annotations. These brackets are used as placeholders for the $ signs used in the internal metadata repository, which enclose the serial index of an array element.
+In the case of elements of the annotation array, square brackets are specified in the [tabular list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk_tables.htm) of the framework-specific annotations. These brackets are used as placeholders for the $ signs used in the internal metadata repository, which enclose the serial index of an array element.

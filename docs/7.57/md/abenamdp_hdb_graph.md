@@ -4,19 +4,19 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Methods](javascript:call_link\('abenamdp_methods.htm'\)) →  [METHOD, BY DATABASE PROCEDURE, FUNCTION, GRAPH WORKSPACE](javascript:call_link\('abapmethod_by_db_proc.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp.htm) →  [AMDP - Methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_methods.htm) →  [METHOD, BY DATABASE PROCEDURE, FUNCTION, GRAPH WORKSPACE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethod_by_db_proc.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: AMDP - Graph Processing, ABENAMDP_HDB_GRAPH, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%
 0D%0ASuggestion for improvement:)
 
 AMDP - Graph Processing
 
-[AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry") supports two [SAP HANA](javascript:call_link\('abensap_hana_glosry.htm'\) "Glossary Entry") artifacts for processing [graphs](javascript:call_link\('abengraph_glosry.htm'\) "Glossary Entry"):
+[AMDP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_glosry.htm "Glossary Entry") supports two [SAP HANA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_hana_glosry.htm "Glossary Entry") artifacts for processing [graphs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_glosry.htm "Glossary Entry"):
 
--   [Graph workspaces](javascript:call_link\('abengraph_workspace_glosry.htm'\) "Glossary Entry")
--   [Graph procedures](javascript:call_link\('abengraph_procedure_glosry.htm'\) "Glossary Entry")
+-   [Graph workspaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_workspace_glosry.htm "Glossary Entry")
+-   [Graph procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_procedure_glosry.htm "Glossary Entry")
 
-Graph workspaces can be consumed by [graph procedures](javascript:call_link\('abengraph_procedure_glosry.htm'\) "Glossary Entry") using [GraphScript](javascript:call_link\('abengraphscript_glosry.htm'\) "Glossary Entry") which is the implementation language of an [AMDP method](javascript:call_link\('abenamdp_methods.htm'\)) that specifies the addition [FOR HDB LANGUAGE GRAPH](javascript:call_link\('abapmethod_by_db_proc.htm'\)) in the METHOD statement. In contrast to [AMDP procedures](javascript:call_link\('abenamdp_procedure_glosry.htm'\) "Glossary Entry") and [AMDP functions](javascript:call_link\('abenamdp_function_glosry.htm'\) "Glossary Entry"), methods in this context operate on non-procedural database objects ([DDL objects](javascript:call_link\('abenddl_object_glosry.htm'\) "Glossary Entry")).
+Graph workspaces can be consumed by [graph procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_procedure_glosry.htm "Glossary Entry") using [GraphScript](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraphscript_glosry.htm "Glossary Entry") which is the implementation language of an [AMDP method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_methods.htm) that specifies the addition [FOR HDB LANGUAGE GRAPH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethod_by_db_proc.htm) in the METHOD statement. In contrast to [AMDP procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_procedure_glosry.htm "Glossary Entry") and [AMDP functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_function_glosry.htm "Glossary Entry"), methods in this context operate on non-procedural database objects ([DDL objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddl_object_glosry.htm "Glossary Entry")).
 
 Further Information
 
@@ -24,26 +24,26 @@ SAP HANA Graph Reference
 
 Graph Workspace   
 
-Graph workspaces are created in [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") that declare a [vertex table](javascript:call_link\('abenvertex_table_glosry.htm'\) "Glossary Entry") and an [edge table](javascript:call_link\('abenedge_table_glosry.htm'\) "Glossary Entry") as sources for a [graph](javascript:call_link\('abengraph_glosry.htm'\) "Glossary Entry") model.
+Graph workspaces are created in [AMDP methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_method_glosry.htm "Glossary Entry") that declare a [vertex table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvertex_table_glosry.htm "Glossary Entry") and an [edge table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenedge_table_glosry.htm "Glossary Entry") as sources for a [graph](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_glosry.htm "Glossary Entry") model.
 
-The declaration consists of the key column of a vertex table ([vertex key](javascript:call_link\('abenvertex_key_glosry.htm'\) "Glossary Entry")) and the key column of an edge table ([edge key](javascript:call_link\('abenedge_key_glosry.htm'\) "Glossary Entry")), as well as a source and a target column of an edge table. Currently, graph workspaces are restricted to one key column, and one source and target column.
+The declaration consists of the key column of a vertex table ([vertex key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvertex_key_glosry.htm "Glossary Entry")) and the key column of an edge table ([edge key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenedge_key_glosry.htm "Glossary Entry")), as well as a source and a target column of an edge table. Currently, graph workspaces are restricted to one key column, and one source and target column.
 
-Note: Graph workspaces cannot be mocked during a syntax check. There is no separate signature available. Instead, the complete [database object](javascript:call_link\('abendb_object_glosry.htm'\) "Glossary Entry") must be created. It might be defined in a different [AMDP class](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") and use other [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry") objects. Hence, a special handling is needed, and implementation details from other classes must be used (transitive syntax check).
+Note: Graph workspaces cannot be mocked during a syntax check. There is no separate signature available. Instead, the complete [database object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_object_glosry.htm "Glossary Entry") must be created. It might be defined in a different [AMDP class](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_class_glosry.htm "Glossary Entry") and use other [AMDP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_glosry.htm "Glossary Entry") objects. Hence, a special handling is needed, and implementation details from other classes must be used (transitive syntax check).
 
 Definition and implementation of a graph workspace
 
-The following code snippets are taken from the example [AMDP - Graph Processing](javascript:call_link\('abenamdp_graph_abexa.htm'\)).
+The following code snippets are taken from the example [AMDP - Graph Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_graph_abexa.htm).
 
 Definition:
 
-The method definition must include the addition [FOR DDL OBJECT](javascript:call_link\('abapclass-methods_for_ddl_object.htm'\)).
+The method definition must include the addition [FOR DDL OBJECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass-methods_for_ddl_object.htm).
 
 CLASS-METHODS graph\_workspace FOR DDL OBJECT
         OPTIONS CDS SESSION CLIENT REQUIRED.
 
 Implementation:
 
-The METHOD statement includes the addition BY DATABASE GRAPH WORKSPACE. Currently, only [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") are allowed after the addition USING. The declaration of the vertex table and edge table is included automatically. The declaration consists of the key column of a vertex table ([vertex key](javascript:call_link\('abenvertex_key_glosry.htm'\) "Glossary Entry")) and the key column of an edge table ([edge key](javascript:call_link\('abenedge_key_glosry.htm'\) "Glossary Entry")), as well as a source and a target column of an edge table. Currently, graph workspaces are restricted to one key column, and one source and destination column.
+The METHOD statement includes the addition BY DATABASE GRAPH WORKSPACE. Currently, only [CDS views](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_glosry.htm "Glossary Entry") are allowed after the addition USING. The declaration of the vertex table and edge table is included automatically. The declaration consists of the key column of a vertex table ([vertex key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvertex_key_glosry.htm "Glossary Entry")) and the key column of an edge table ([edge key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenedge_key_glosry.htm "Glossary Entry")), as well as a source and a target column of an edge table. Currently, graph workspaces are restricted to one key column, and one source and destination column.
 
 METHOD graph\_workspace BY DATABASE GRAPH WORKSPACE FOR HDB
   LANGUAGE SQL
@@ -58,11 +58,11 @@ ENDMETHOD.
 
 Graph Procedure   
 
-[Graph procedures](javascript:call_link\('abengraph_procedure_glosry.htm'\) "Glossary Entry") are methods that refer to [graph workspaces](javascript:call_link\('abengraph_workspace_glosry.htm'\) "Glossary Entry") and operate on [graph](javascript:call_link\('abengraph_glosry.htm'\) "Glossary Entry") models. Graph procedures may have scalar input parameters and scalar or tabular output parameters. Inconsistencies in the underlying vertex and edge tables may result in runtime errors (CX\_AMDP\_EXECUTION\_FAILED), for example, if the edge source or target do not exist in the vertex table.
+[Graph procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_procedure_glosry.htm "Glossary Entry") are methods that refer to [graph workspaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_workspace_glosry.htm "Glossary Entry") and operate on [graph](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_glosry.htm "Glossary Entry") models. Graph procedures may have scalar input parameters and scalar or tabular output parameters. Inconsistencies in the underlying vertex and edge tables may result in runtime errors (CX\_AMDP\_EXECUTION\_FAILED), for example, if the edge source or target do not exist in the vertex table.
 
 Definition and implementation of a graph procedure
 
-The following code snippets are taken from the example [AMDP - Graph Processing](javascript:call_link\('abenamdp_graph_abexa.htm'\)).
+The following code snippets are taken from the example [AMDP - Graph Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_graph_abexa.htm).
 
 Definition:
 
@@ -78,7 +78,7 @@ CLASS-METHODS get\_shortest\_path
 
 Implementation:
 
-The METHOD statement includes the addition FOR HDB LANGUAGE GRAPH to denote that the implementation contains [GraphScript](javascript:call_link\('abengraphscript_glosry.htm'\) "Glossary Entry") code. The READ-ONLY addition is mandatory. The USING addition must be followed by a graph workspace.
+The METHOD statement includes the addition FOR HDB LANGUAGE GRAPH to denote that the implementation contains [GraphScript](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraphscript_glosry.htm "Glossary Entry") code. The READ-ONLY addition is mandatory. The USING addition must be followed by a graph workspace.
 
 METHOD get\_shortest\_path BY DATABASE PROCEDURE FOR HDB
   LANGUAGE GRAPH OPTIONS READ-ONLY
@@ -101,4 +101,4 @@ ENDMETHOD.
 
 Executable Example
 
-The example [AMDP - Graph Processing](javascript:call_link\('abenamdp_graph_abexa.htm'\)) demonstrates graph processing using a graph workspace and a graph procedure.
+The example [AMDP - Graph Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_graph_abexa.htm) demonstrates graph processing using a graph workspace and a graph procedure.

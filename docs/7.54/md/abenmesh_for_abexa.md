@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Using Mesh Paths](javascript:call_link\('abenmesh_path_usage.htm'\)) →  [FOR ... IN mesh\_path](javascript:call_link\('abenmesh_for.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_meshes.htm) →  [Meshes - Using Mesh Paths](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_path_usage.htm) →  [FOR ... IN mesh\_path](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_for.htm) → 
 
 FOR Expressions for Mesh Paths
 
@@ -136,6 +136,6 @@ START-OF-SELECTION.
 
 Description
 
-This example uses the same mesh paths as the executable example for [LOOP AT](javascript:call_link\('abenmesh_loops_abexa.htm'\)) and produces the same results sets. Unlike [LOOP AT](javascript:call_link\('abenmesh_loop.htm'\)), the rows in the results set are produced in a results table using [table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry") and not as individual rows.
+This example uses the same mesh paths as the executable example for [LOOP AT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_loops_abexa.htm) and produces the same results sets. Unlike [LOOP AT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmesh_loop.htm), the rows in the results set are produced in a results table using [table comprehensions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_comprehension_glosry.htm "Glossary Entry") and not as individual rows.
 
-For the first mesh path, a [table reduction](javascript:call_link\('abentable_reduction_glosry.htm'\) "Glossary Entry") is also performed using the reduction operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)). This totals the distances, with the conversion from kilometers to miles done using a [SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\)) expression.
+For the first mesh path, a [table reduction](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_reduction_glosry.htm "Glossary Entry") is also performed using the reduction operator [REDUCE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_reduce.htm). This totals the distances, with the conversion from kilometers to miles done using a [SWITCH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconditional_expression_switch.htm) expression.

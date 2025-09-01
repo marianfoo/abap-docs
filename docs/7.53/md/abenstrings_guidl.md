@@ -4,13 +4,13 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_type_obj_guidl.htm) → 
 
 Strings
 
 Background
 
-Strings are [dynamic data objects](javascript:call_link\('abenuse_dyn_data_object_guidl.htm'\) "Guideline") of variable length. There are text strings of the string data type and byte strings of the xstring data type, in which character strings or byte strings can be saved.
+Strings are [dynamic data objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_dyn_data_object_guidl.htm "Guideline") of variable length. There are text strings of the string data type and byte strings of the xstring data type, in which character strings or byte strings can be saved.
 
 In contrast to text and byte fields of a fixed length (c, x data types), the length of strings automatically adapts to the content. Other data types, such as n, d, and t, are also handled as text fields in many operand positions. Strings are deep data objects that are internally managed by references. For this, the following additional memory is required:
 
@@ -36,7 +36,7 @@ In the following cases, fields of a fixed length should be used instead of strin
 
 -   The length of the field is critical, for example, for templates or for interfaces to screen fields.
 
--   Despite [sharing](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline"), the additional administration work outweighs the benefits which can often be the case for very short strings. If it is obvious that a certain length is never exceeded, short fields of a fixed length can also be used.
+-   Despite [sharing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline"), the additional administration work outweighs the benefits which can often be the case for very short strings. If it is obvious that a certain length is never exceeded, short fields of a fixed length can also be used.
 
 -   Structures that only contain character-like components should be handled like a single text field. This is not possible for structures that contain text strings.
 

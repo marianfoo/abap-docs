@@ -4,25 +4,25 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Access Control](javascript:call_link\('abencds_authorizations.htm'\)) →  [ABAP CDS - DCL Statements](javascript:call_link\('abencds_f1_dcl_syntax.htm'\)) →  [ABAP CDS - DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) →  [ABAP CDS - DEFINE ROLE, condition](javascript:call_link\('abencds_dcl_role_conditions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Access Control](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_authorizations.htm) →  [ABAP CDS - DCL Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_syntax.htm) →  [ABAP CDS - DEFINE ROLE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_role.htm) →  [ABAP CDS - DEFINE ROLE, condition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_role_conditions.htm) → 
 
 ABAP CDS - DEFINE ROLE, user\_condition
 
 Syntax
 
-... element [\=*|*<>*|*?=](javascript:call_link\('abencds_f1_dcl_cond_expression.htm'\)) ASPECT user ...
+... element [\=*|*<>*|*?=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_cond_expression.htm) ASPECT user ...
 
 Effect
 
-User condition as part of an [access condition](javascript:call_link\('abenaccess_condition_glosry.htm'\) "Glossary Entry") [cond\_expr](javascript:call_link\('abencds_dcl_role_cond_expr.htm'\)) in an [access rule](javascript:call_link\('abencds_dcl_role_rules.htm'\)) of the statement [DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) in [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry"). In a user condition, the predefined [aspect](javascript:call_link\('abencds_aspect_glosry.htm'\) "Glossary Entry") user is specified on the right side introduced with ASPECT.
+User condition as part of an [access condition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenaccess_condition_glosry.htm "Glossary Entry") [cond\_expr](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_role_cond_expr.htm) in an [access rule](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_role_rules.htm) of the statement [DEFINE ROLE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_role.htm) in [CDS DCL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_dcl_glosry.htm "Glossary Entry"). In a user condition, the predefined [aspect](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_aspect_glosry.htm "Glossary Entry") user is specified on the right side introduced with ASPECT.
 
-The left side is compared with the [user name](javascript:call_link\('abenuser_name_glosry.htm'\) "Glossary Entry") of the user currently logged on to AS ABAP by using one of the three operators [\=](javascript:call_link\('abencds_f1_dcl_cond_expression.htm'\)), [<>](javascript:call_link\('abencds_f1_dcl_cond_expression.htm'\)), [?=](javascript:call_link\('abencds_f1_dcl_cond_expression.htm'\)), as in a [literal condition](javascript:call_link\('abencds_f1_dcl_cond_expression.htm'\)).
+The left side is compared with the [user name](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuser_name_glosry.htm "Glossary Entry") of the user currently logged on to AS ABAP by using one of the three operators [\=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_cond_expression.htm), [<>](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_cond_expression.htm), [?=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_cond_expression.htm), as in a [literal condition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_cond_expression.htm).
 
 Notes
 
--   User conditions can be combined within an access rule using [literal conditions](javascript:call_link\('abencds_f1_cond_literal.htm'\)) and [PFCG conditions](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)), and [inheritance conditions](javascript:call_link\('abencds_f1_cond_inherit.htm'\)).
+-   User conditions can be combined within an access rule using [literal conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_literal.htm) and [PFCG conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_pfcg.htm), and [inheritance conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cond_inherit.htm).
 
--   A user condition acts like a comparison with the session variable [$session.user](javascript:call_link\('abencds_f1_session_variable.htm'\)) in the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry"). It is not currently possible to use session variables on the right side of conditions in DCL.
+-   A user condition acts like a comparison with the session variable [$session.user](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_session_variable.htm) in the [CDS DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_ddl_glosry.htm "Glossary Entry"). It is not currently possible to use session variables on the right side of conditions in DCL.
 
 Example
 
@@ -47,4 +47,4 @@ define role demo\_cds\_role\_user {  
     where
       uname ?= aspect user; }
 
-The role grants a user AS ABAP access to his or her own entries in the database table ABDOCMODE, as well as to entries in which the UNAME column is initial or contains a [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry").
+The role grants a user AS ABAP access to his or her own entries in the database table ABDOCMODE, as well as to entries in which the UNAME column is initial or contains a [null value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry").

@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services (OS)](javascript:call_link\('abenabap_object_services.htm'\)) →  [OS - Query Service](javascript:call_link\('abenabap_object_services_query.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [Object Services (OS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_object_services.htm) →  [OS - Query Service](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_object_services_query.htm) → 
 
 OS - Components of the Query Service
 
@@ -14,7 +14,7 @@ To create a query manager, the static method GET\_QUERY\_MANAGER of the general 
 
 An ABAP program does not work with the query manager and queries by using class reference variables. Instead, it uses the interfaces IF\_OS\_QUERY\_MANAGER, IF\_OS\_QUERY, and IF\_OS\_QUERY\_EXPR\_FACTORY.
 
-A query is not executed directly, but using the method GET\_PERSISTENT\_BY\_QUERY of the interface IF\_OS\_CA\_PERSISTENCY of a class agent. This means a search is carried out for persistent objects of the associated persistent class that match the [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)).
+A query is not executed directly, but using the method GET\_PERSISTENT\_BY\_QUERY of the interface IF\_OS\_CA\_PERSISTENCY of a class agent. This means a search is carried out for persistent objects of the associated persistent class that match the [query condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_filter_cond.htm).
 
 The options for executing a query are controlled using the interface IF\_OS\_QUERY\_OPTIONS. To enable this, a structure of the type IF\_OS\_QUERY\_OPTIONS=>OPTIONS can be passed to the method GET\_PERSISTENT\_BY\_QUERY.
 
@@ -32,7 +32,7 @@ The query manager manages the object-oriented queries of the ABAP program and is
 
 -   IF\_OS\_QUERY\_MANAGER~CREATE\_QUERY
 
-Creates a query and returns a reference to the query object in the return value RESULT of type IF\_OS\_QUERY. The [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)) is passed to the parameter I\_FILTER of type string. The [sort condition](javascript:call_link\('abenos_query_sort_cond.htm'\)) is passed to the parameter I\_ORDERING of type string. If the parameters of the query are specified using a parameter list, this must be passed to the parameter I\_PARAMETERS of type string.
+Creates a query and returns a reference to the query object in the return value RESULT of type IF\_OS\_QUERY. The [query condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_filter_cond.htm) is passed to the parameter I\_FILTER of type string. The [sort condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_sort_cond.htm) is passed to the parameter I\_ORDERING of type string. If the parameters of the query are specified using a parameter list, this must be passed to the parameter I\_PARAMETERS of type string.
 
 Methods of a Query
 
@@ -46,15 +46,15 @@ Returns a reference to a query expression factory in the return parameter RESULT
 
 -   IF\_OS\_QUERY~SET\_FILTER\_EXPR
 
-Sets the [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)). The internal representation of the query condition that is created with a query expression factory is passed to the parameter I\_FILTER\_EXPR of type IF\_OS\_QUERY\_FILTER\_EXPR.
+Sets the [query condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_filter_cond.htm). The internal representation of the query condition that is created with a query expression factory is passed to the parameter I\_FILTER\_EXPR of type IF\_OS\_QUERY\_FILTER\_EXPR.
 
 -   IF\_OS\_QUERY~SET\_PARAMETERS\_EXPR
 
-Sets the parameter list of the [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)). The internal representation of the parameter list that is created with a query expression factory is passed to the parameter I\_PARAMETERS\_EXPR of type IF\_OS\_QUERY\_PARAMETERS\_EXPR.
+Sets the parameter list of the [query condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_filter_cond.htm). The internal representation of the parameter list that is created with a query expression factory is passed to the parameter I\_PARAMETERS\_EXPR of type IF\_OS\_QUERY\_PARAMETERS\_EXPR.
 
 -   IF\_OS\_QUERY~SET\_ORDERING\_EXPR
 
-Sets the [sort condition](javascript:call_link\('abenos_query_sort_cond.htm'\)). The internal representation of a sort condition created with the query expression factory is passed to the parameter I\_ORDERING\_EXPR of type IF\_OS\_QUERY\_ORDERING\_EXPR.
+Sets the [sort condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_sort_cond.htm). The internal representation of a sort condition created with the query expression factory is passed to the parameter I\_ORDERING\_EXPR of type IF\_OS\_QUERY\_ORDERING\_EXPR.
 
 -   IF\_OS\_QUERY~PARSE
 
@@ -64,7 +64,7 @@ Methods of the Interface IF\_OS\_QUERY\_EXPR\_FACTORY
 
 -   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_OPERATOR\_EXPR
 
-Creates either a [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)) of the form
+Creates either a [query condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_filter_cond.htm) of the form
 attr1 operator attr2,
 where attr1, operator, and attr2 are the values of the parameters I\_ATTR, I\_OPERATOR, and I\_ATTR2 or a query condition of the form
 attr1 operator 'val' or
@@ -77,7 +77,7 @@ The query condition that is created is returned in the return value RESULT of ty
 
 -   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_LIKE\_EXPR
 
-Depending on the value of the parameter I\_NOT, creates a [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)) of the form
+Depending on the value of the parameter I\_NOT, creates a [query condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_filter_cond.htm) of the form
 attr *\[*NOT*\]* LIKE 'pattern' or
 attr *\[*NOT*\]* LIKE pattern\_w\_quotes,
 where attr, pattern, and pattern\_w\_quotes are the values of the parameters I\_ATTR, I\_PATTERN and I\_PATTERN\_W\_QUOTES.
@@ -90,7 +90,7 @@ The query condition that is created is returned in the return value RESULT of ty
 
 -   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_ISNULL\_EXPR
 
-Depending on the value of the parameter I\_NOT, creates a [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)) of the form
+Depending on the value of the parameter I\_NOT, creates a [query condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_filter_cond.htm) of the form
 attr IS *\[*NOT*\]* NULL,
 where attr is the value of the parameter I\_ATTR.
 
@@ -98,7 +98,7 @@ The query condition that is created is returned in the return value RESULT of ty
 
 -   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_REF\_EXPR
 
-Creates a [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)) of the form
+Creates a [query condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_filter_cond.htm) of the form
 attr EQUALSREF ref,
 where attr is the value of the parameter I\_ATTR and ref is the value of the parameter from the parameter list whose index when the query is executed is determined by the value of the parameter I\_IDX.
 
@@ -108,7 +108,7 @@ The query condition that is created is returned in the return value RESULT of ty
 
 -   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_NOT\_EXPR
 
-Creates a [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)) of the form
+Creates a [query condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_filter_cond.htm) of the form
 NOT ( expr ),
 where expr is a query condition that already exists and was passed to the parameter I\_EXPR.
 
@@ -116,7 +116,7 @@ The new query condition is returned in the return value RESULT.
 
 -   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_AND\_EXPR
 
-Creates a [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)) of the form
+Creates a [query condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_filter_cond.htm) of the form
 ( expr1 ) AND ( expr2 )
 where expr1 or expr2 are query conditions that already exist and were passed to the parameters I\_EXPR1 or I\_EXPR2.
 
@@ -124,7 +124,7 @@ The new query condition is returned in the return value RESULT.
 
 -   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_OR\_EXPR
 
-Creates a [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)) of the form
+Creates a [query condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_filter_cond.htm) of the form
 ( expr1 ) OR ( expr2 )
 where expr1 or expr2 are query conditions that already exist and were passed to the parameters I\_EXPR1 or I\_EXPR2.
 
@@ -138,6 +138,6 @@ The parameters are appended in succession when the method APPEND of an additiona
 
 -   IF\_OS\_QUERY\_EXPR\_FACTORY~CREATE\_ORDERING\_EXPR
 
-Creates a [sort condition](javascript:call_link\('abenos_query_sort_cond.htm'\)). The sort condition is returned in the return value RESULT of type IF\_OS\_QUERY\_ORDERING\_EXPR.
+Creates a [sort condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_query_sort_cond.htm). The sort condition is returned in the return value RESULT of type IF\_OS\_QUERY\_ORDERING\_EXPR.
 
 The attributes used for the sort are appended one after the other when the method APPEND\_ASCENDING or APPEND\_DESCENDING of the additional interface IF\_OS\_QUERY\_ORDERING\_EXPR is called. The parameter name is passed to the parameter I\_ATTR.

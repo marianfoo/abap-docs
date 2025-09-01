@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Development](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) →  [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_editing.htm) →  [Dynamic Program Development](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_generic_program.htm) →  [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsyntax-check_for_itab.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SYNTAX-CHECK%2C%20Internal%20Additions%2C%20ABAPSYNTAX-CHECK_INTERNAL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -28,7 +28,7 @@ Addition 1  
 
 Effect
 
-If a runtime error occurs, the field sid returns the maximum 30-character key of the corresponding [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry").
+If a runtime error occurs, the field sid returns the maximum 30-character key of the corresponding [short dump](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshort_dump_glosry.htm "Glossary Entry").
 
 Addition 2   
 
@@ -46,7 +46,7 @@ Effect
 
 This addition can only be used together with the PROGRAM addition and under the following prerequisites:
 
-The program text contained in the internal table itab does not include the compilation unit, it contains an [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") instead, and the program named under PROGRAM is to be checked. However, if the include program specified in incl is included in this program, the content of the internal table itab should be used instead.
+The program text contained in the internal table itab does not include the compilation unit, it contains an [include program](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninclude_program_glosry.htm "Glossary Entry") instead, and the program named under PROGRAM is to be checked. However, if the include program specified in incl is included in this program, the content of the internal table itab should be used instead.
 
 Addition 4   
 
@@ -54,7 +54,7 @@ Addition 4  
 
 Effect
 
-The properties required for checking the program (e.g. [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry"), [program type](javascript:call_link\('abenprogram_type_glosry.htm'\) "Glossary Entry")) are taken from the field dir. Here, dir expects a structure of type TRDIR.
+The properties required for checking the program (e.g. [logical database](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogical_data_base_glosry.htm "Glossary Entry"), [program type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_type_glosry.htm "Glossary Entry")) are taken from the field dir. Here, dir expects a structure of type TRDIR.
 
 Addition 5   
 
@@ -198,7 +198,7 @@ Addition 6  
 
 Effect
 
-Only the ABAP statements specified in flt are respected in the check. flt must have the type SYNT\_FILTER from the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") SYNT.
+Only the ABAP statements specified in flt are respected in the check. flt must have the type SYNT\_FILTER from the [type pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_pool_glosry.htm "Glossary Entry") SYNT.
 
 Possible values are:
 

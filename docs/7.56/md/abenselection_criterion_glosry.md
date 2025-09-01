@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 selection criterion
 
-Component of a [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") defined using [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)). Displayed on the selection screen via two [input fields](javascript:call_link\('abeninput_output_field_glosry.htm'\) "Glossary Entry") for interval boundaries and a pushbutton for [multiple selection](javascript:call_link\('abenmultiple_selection_glosry.htm'\) "Glossary Entry"). It is represented internally by a [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry").
+Component of a [selection screen](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselection_screen_glosry.htm "Glossary Entry") defined using [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect-options.htm). Displayed on the selection screen via two [input fields](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_output_field_glosry.htm "Glossary Entry") for interval boundaries and a pushbutton for [multiple selection](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmultiple_selection_glosry.htm "Glossary Entry"). It is represented internally by a [selection table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselection_table_glosry.htm "Glossary Entry").

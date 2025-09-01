@@ -4,18 +4,21 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Character String and Byte String Processing](javascript:call_link\('abencharacter_string_obsolete.htm'\)) →  [Obsolete Regular Expression Syntax](javascript:call_link\('abenregular_expressions_obsolete.htm'\)) →  [regex - POSIX Syntax (obsolete)](javascript:call_link\('abenregex_posix_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_internal_obsolete.htm) →  [Obsolete Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_obsolete.htm) →  [Obsolete Regular Expression Syntax](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregular_expressions_obsolete.htm) →  [regex - POSIX Syntax (obsolete)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_posix_syntax.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20POSIX%20regex%20-%20Search%20Patterns%20%28obsolete%29%2C%20ABENREGEX_POSIX_SEARCH%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impro
 vement:)
 
 POSIX regex - Search Patterns (obsolete)
 
-A main application of regular expressions is the search for and subsequent [replacement of](javascript:call_link\('abenregex_posix_replace.htm'\)) substrings in character strings. In general, a user is interested in a specific selection of substrings that match a regular expression. In ABAP, searches using regular expressions are implemented using the addition [REGEX](javascript:call_link\('abapfind_pattern.htm'\)) of the statement [FIND](javascript:call_link\('abapfind.htm'\)) or one of the [search functions](javascript:call_link\('abensearch_function_glosry.htm'\) "Glossary Entry"). Here, the found substrings are determined with no overlaps in accordance with the leftmost-longest rule.
+A main application of regular expressions is the search for and subsequent [replacement of](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_posix_replace.htm) substrings in character strings. In general, a user is interested in a specific selection of substrings that match a regular expression. In ABAP, searches using regular expressions are implemented using the addition [REGEX](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfind_pattern.htm) of the statement [FIND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfind.htm) or one of the [search functions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensearch_function_glosry.htm "Glossary Entry"). Here, the found substrings are determined with no overlaps in accordance with the leftmost-longest rule.
 
--   [Leftmost-Longest Rule](#abenregex-posix-search-1-------operators-for-search-patterns---@ITOC@@ABENREGEX_POSIX_SEARCH_2)
-    -   [Start and End of a Line](#abenregex-posix-search-3-----------start-and-end-of-a-character-string---@ITOC@@ABENREGEX_POSIX_SEARCH_4)
-    -   [Start and End of a Word](#abenregex-posix-search-5-----------preview-conditions---@ITOC@@ABENREGEX_POSIX_SEARCH_6)
+-   [Leftmost-Longest Rule](#@@ITOC@@ABENREGEX_POSIX_SEARCH_1)
+-   [Operators for Search Patterns](#@@ITOC@@ABENREGEX_POSIX_SEARCH_2)
+    -   [Start and End of a Line](#@@ITOC@@ABENREGEX_POSIX_SEARCH_3)
+    -   [Start and End of a Character String](#@@ITOC@@ABENREGEX_POSIX_SEARCH_4)
+    -   [Start and End of a Word](#@@ITOC@@ABENREGEX_POSIX_SEARCH_5)
+    -   [Preview Conditions](#@@ITOC@@ABENREGEX_POSIX_SEARCH_6)
     -   [Cut Operator](#@@ITOC@@ABENREGEX_POSIX_SEARCH_7)
 
 Leftmost-Longest Rule   
@@ -43,18 +46,18 @@ Character-like data objects have at least one start and end of line, which are d
 -   In a text field of the type c and the other character-like data objects with fixed lengths, a line starts in front of the first character and ends after the defined length.
 -   In a string of the type string, a line starts in front of the first character and ends after its current length.
 
-If a character-like data object contains [control characters](javascript:call_link\('abencontrol_character_glosry.htm'\) "Glossary Entry") for a line feed or a return, further line starts and line ends are possible:
+If a character-like data object contains [control characters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_character_glosry.htm "Glossary Entry") for a line feed or a return, further line starts and line ends are possible:
 
 -   A line end precedes each control character for a line feed or a return.
 -   A line start follows each control character for a line feed or a return.
 
 Hint
 
-Within ABAP programs, control characters generally only occur when externally generated data records are imported or if the characters are specified explicitly in [string templates](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry").
+Within ABAP programs, control characters generally only occur when externally generated data records are imported or if the characters are specified explicitly in [string templates](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_template_glosry.htm "Glossary Entry").
 
 Example
 
-The character string in text contains two [control characters](javascript:call_link\('abenstring_templates_separators.htm'\)) for line feeds, inserted using a string template. The first search finds three line starts with the offsets 0, 6, and 12. The second search finds three line ends with the offsets 5, 11, and 17.
+The character string in text contains two [control characters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_templates_separators.htm) for line feeds, inserted using a string template. The first search finds three line starts with the offsets 0, 6, and 12. The second search finds three line ends with the offsets 5, 11, and 17.
 
 DATA TEXT type STRING.
 DATA result\_tab TYPE match\_result\_tab.

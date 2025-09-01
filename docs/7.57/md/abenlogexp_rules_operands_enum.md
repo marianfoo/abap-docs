@@ -4,22 +4,22 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [Logical Expressions (log\_exp)](javascript:call_link\('abenlogexp.htm'\)) →  [Comparison Expressions (rel\_exp)](javascript:call_link\('abenlogexp_comp.htm'\)) →  [rel\_exp - Comparison Rules](javascript:call_link\('abenlogexp_rules.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_expr_func.htm) →  [Logical Expressions (log\_exp)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp.htm) →  [Comparison Expressions (rel\_exp)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_comp.htm) →  [rel\_exp - Comparison Rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_rules.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: rel_exp - Comparing Enumerated Types, ABENLOGEXP_RULES_OPERANDS_ENUM, 757%0D%0A%0D%0A
 Error:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 rel\_exp - Comparing Enumerated Types
 
-An operand with an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") can only be compared with [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") of the same enumerated type. There is no implicit conversion. The values of the operands are compared according to the [rules](javascript:call_link\('abenlogexp_rules_operands.htm'\)) that apply to the elementary [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") of the enumerated type.
+An operand with an [enumerated type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_type_glosry.htm "Glossary Entry") can only be compared with [enumerated objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_object_glosry.htm "Glossary Entry") of the same enumerated type. There is no implicit conversion. The values of the operands are compared according to the [rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_rules_operands.htm) that apply to the elementary [base type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbase_type_glosry.htm "Glossary Entry") of the enumerated type.
 
 Hint
 
-An operand of an enumerated type cannot be compared directly with a character-like operand of type c or string, even though there is a [conversion rule](javascript:call_link\('abenconversion_enumerated.htm'\)) for this case. In this case, helper variables or the conversion operator [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) can be used to perform an explicit conversion.
+An operand of an enumerated type cannot be compared directly with a character-like operand of type c or string, even though there is a [conversion rule](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_enumerated.htm) for this case. In this case, helper variables or the conversion operator [CONV](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_conv.htm) can be used to perform an explicit conversion.
 
 Example
 
-In the first two comparisons, [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") of the enumerated type number are compared with each other. The third comparison shows how an operand with an enumerated type can be converted to be compared like a character.
+In the first two comparisons, [enumerated objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_object_glosry.htm "Glossary Entry") of the enumerated type number are compared with each other. The third comparison shows how an operand with an enumerated type can be converted to be compared like a character.
 
 TYPES:
   BEGIN OF ENUM number,

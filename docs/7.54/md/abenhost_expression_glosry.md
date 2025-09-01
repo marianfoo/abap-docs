@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 host expression
 
-ABAP-[expression](javascript:call_link\('abenexpression_glosry.htm'\) "Glossary Entry") specified in an operand position of an [ABAP SQL](javascript:call_link\('abenopen_sql_host_expressions.htm'\)) statement. Host expressions are always specified in parentheses prefixed by the [escape character](javascript:call_link\('abenescape_character_glosry.htm'\) "Glossary Entry") @: @( ... ).
+ABAP-[expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_glosry.htm "Glossary Entry") specified in an operand position of an [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_expressions.htm) statement. Host expressions are always specified in parentheses prefixed by the [escape character](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenescape_character_glosry.htm "Glossary Entry") @: @( ... ).
 
-[→ More](javascript:call_link\('abenopen_sql_host_expressions.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_expressions.htm)

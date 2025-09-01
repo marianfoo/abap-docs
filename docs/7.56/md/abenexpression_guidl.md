@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Complexity](javascript:call_link\('abencomplexity_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstructure_style_gdl.htm) →  [Complexity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomplexity_gdl.htm) → 
 
 Expressions
 
@@ -27,7 +27,7 @@ The diverse options for expressions mean that the use of helper variables is sup
 -   The result of an expression or a calculation is required only once. If an intermediate result is required multiple times, it should only be calculated once and saved in a helper variable. (ABAP Compiler does not implicitly handle this task at the moment)
 -   The data type of the result matches the operand position, or the conversion rules for an expression or call used at an operand position are suitable for the task to be implemented. If special type conversions must be performed, for example, for date or time fields, helper variables of an appropriate type might be required.
 
-Programs should always be kept clear and legible.. Do not be too ambitious and combine everything into one single expression. If an expression becomes too complex, it should be split at suitable points, and the intermediate results should be saved in helper variables. This particularly applies to character string processing with string templates and to regular expressions. These are very powerful but they can also make programs difficult to read very quickly. [Comments](javascript:call_link\('abencomments_gdl.htm'\)) can also help to describe the way a complex expression works.
+Programs should always be kept clear and legible.. Do not be too ambitious and combine everything into one single expression. If an expression becomes too complex, it should be split at suitable points, and the intermediate results should be saved in helper variables. This particularly applies to character string processing with string templates and to regular expressions. These are very powerful but they can also make programs difficult to read very quickly. [Comments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomments_gdl.htm) can also help to describe the way a complex expression works.
 
 Bad Example
 

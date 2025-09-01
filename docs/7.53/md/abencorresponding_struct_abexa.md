@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [Assigning Components: Examples](javascript:call_link\('abencorresponding_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding.htm) →  [Assigning Components: Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_abexas.htm) → 
 
 Component Operator for Structures
 
-This example demonstrates the [component operator](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)) for structures.
+This example demonstrates the [component operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_corresponding.htm) for structures.
 
 Source Code
 
@@ -135,6 +135,6 @@ START-OF-SELECTION.
 
 Description
 
-This example uses the same structures as the [executable example](javascript:call_link\('abenmove_corresponding_struc_abexa.htm'\)) for MOVE-CORRESPONDING. Here, the source structure struct1 is used as a parameter of a constructor expression with the component operator CORRESPONDING and the result is assigned to the target structure struct2. The source structure struct1 is assigned to the result with the type of struct2, both with and without the addition DEEP. If the addition BASE is used, the result is given the original value of struct2 as its start value and otherwise stays initial. The assignment is made exactly as described in the [executable example](javascript:call_link\('abenmove_corresponding_struc_abexa.htm'\)) for MOVE-CORRESPONDING with or without EXPANDING NESTED TABLES. If DEEP is used the name comparison is made for the components of the substructure col3. This is why fewer assignments are made than when omitting DEEP. The uninvolved component col4 keeps its initial value without BASE being used. If BASE is used, it keeps the set value. The result is assigned to the target structure struct2.
+This example uses the same structures as the [executable example](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_corresponding_struc_abexa.htm) for MOVE-CORRESPONDING. Here, the source structure struct1 is used as a parameter of a constructor expression with the component operator CORRESPONDING and the result is assigned to the target structure struct2. The source structure struct1 is assigned to the result with the type of struct2, both with and without the addition DEEP. If the addition BASE is used, the result is given the original value of struct2 as its start value and otherwise stays initial. The assignment is made exactly as described in the [executable example](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_corresponding_struc_abexa.htm) for MOVE-CORRESPONDING with or without EXPANDING NESTED TABLES. If DEEP is used the name comparison is made for the components of the substructure col3. This is why fewer assignments are made than when omitting DEEP. The uninvolved component col4 keeps its initial value without BASE being used. If BASE is used, it keeps the set value. The result is assigned to the target structure struct2.
 
 The result of the component operator matches the result of MOVE-CORRESPONDING only if the addition BASE is used.

@@ -4,76 +4,76 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Overview](javascript:call_link\('abenabap_objects_oview.htm'\)) →  [Statements in ABAP Objects](javascript:call_link\('abenabap_objects_differences.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_oview.htm) →  [Statements in ABAP Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_differences.htm) → 
 
 ABAP Objects - Keywords
 
 The following list displays the keywords specially introduced for ABAP objects.
 
-[ALIASES](javascript:call_link\('abapaliases.htm'\))
+[ALIASES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapaliases.htm)
 
-Declares an [alias name](javascript:call_link\('abenalias_glosry.htm'\) "Glossary Entry")
+Declares an [alias name](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenalias_glosry.htm "Glossary Entry")
 
-[CALL METHOD](javascript:call_link\('abapcall_method_dynamic.htm'\))
+[CALL METHOD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_dynamic.htm)
 
-Calls a [method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") dynamically
+Calls a [method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_glosry.htm "Glossary Entry") dynamically
 
-[CLASS ... ENDCLASS](javascript:call_link\('abapclass.htm'\))
+[CLASS ... ENDCLASS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass.htm)
 
-Defines a [class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry")
+Defines a [class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm "Glossary Entry")
 
-[CLASS-DATA](javascript:call_link\('abapclass-data.htm'\))
+[CLASS-DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-data.htm)
 
-Declares a [static attribute](javascript:call_link\('abenstatic_attribute_glosry.htm'\) "Glossary Entry")
+Declares a [static attribute](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_attribute_glosry.htm "Glossary Entry")
 
-[CLASS-EVENTS](javascript:call_link\('abapclass-events.htm'\))
+[CLASS-EVENTS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-events.htm)
 
-Declares a [static event](javascript:call_link\('abenstatic_event_glosry.htm'\) "Glossary Entry")
+Declares a [static event](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_event_glosry.htm "Glossary Entry")
 
-[CLASS-METHODS](javascript:call_link\('abapclass-methods.htm'\))
+[CLASS-METHODS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-methods.htm)
 
-Declares a [static method](javascript:call_link\('abenstatic_method_glosry.htm'\) "Glossary Entry")
+Declares a [static method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_method_glosry.htm "Glossary Entry")
 
-[CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\))
+[CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object.htm)
 
-Creates an [object](javascript:call_link\('abenobject_glosry.htm'\) "Glossary Entry").
+Creates an [object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_glosry.htm "Glossary Entry").
 
-[EVENTS](javascript:call_link\('abapevents.htm'\))
+[EVENTS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapevents.htm)
 
-Declares an [instance event](javascript:call_link\('abeninstance_event_glosry.htm'\) "Glossary Entry")
+Declares an [instance event](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_event_glosry.htm "Glossary Entry")
 
-[INTERFACE ... ENDINTERFACE](javascript:call_link\('abapinterface.htm'\))
+[INTERFACE ... ENDINTERFACE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterface.htm)
 
-Defines an [interface](javascript:call_link\('abeninterface_oo_glosry.htm'\) "Glossary Entry")
+Defines an [interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_oo_glosry.htm "Glossary Entry")
 
-[INTERFACES](javascript:call_link\('abapinterfaces.htm'\))
+[INTERFACES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces.htm)
 
-Includes an [interface](javascript:call_link\('abeninterface_oo_glosry.htm'\) "Glossary Entry")
+Includes an [interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_oo_glosry.htm "Glossary Entry")
 
-[METHOD ... ENDMETHOD](javascript:call_link\('abapmethod.htm'\))
+[METHOD ... ENDMETHOD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod.htm)
 
-Defines a [method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry")
+Defines a [method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_glosry.htm "Glossary Entry")
 
-[METHODS](javascript:call_link\('abapmethods.htm'\))
+[METHODS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods.htm)
 
-Declares an [instance method](javascript:call_link\('abeninstance_method_glosry.htm'\) "Glossary Entry")
+Declares an [instance method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_method_glosry.htm "Glossary Entry")
 
-[PRIVATE SECTION](javascript:call_link\('abapprivate.htm'\))
+[PRIVATE SECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprivate.htm)
 
-Introduces the package [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry")
+Introduces the package [visibility section](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvisibility_section_glosry.htm "Glossary Entry")
 
-[PROTECTED SECTION](javascript:call_link\('abapprotected.htm'\))
+[PROTECTED SECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprotected.htm)
 
-Introduces the protected [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry")
+Introduces the protected [visibility section](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvisibility_section_glosry.htm "Glossary Entry")
 
-[PUBLIC SECTION](javascript:call_link\('abappublic.htm'\))
+[PUBLIC SECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abappublic.htm)
 
-Introduces the public [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry")
+Introduces the public [visibility section](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvisibility_section_glosry.htm "Glossary Entry")
 
-[RAISE EVENT](javascript:call_link\('abapraise_event.htm'\))
+[RAISE EVENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_event.htm)
 
-Triggers an [event](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry")
+Triggers an [event](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_glosry.htm "Glossary Entry")
 
-[SET HANDLER](javascript:call_link\('abapset_handler.htm'\))
+[SET HANDLER](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_handler.htm)
 
-Registers an [event](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry")
+Registers an [event](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_glosry.htm "Glossary Entry")

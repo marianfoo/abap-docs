@@ -4,25 +4,25 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [\=, Assignment Operator](javascript:call_link\('abenequals_operator.htm'\)) →  [\=, Assign Calculation Expressions](javascript:call_link\('abenequals_calc_expr.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_assignments.htm) →  [\=, Assignment Operator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenequals_operator.htm) →  [\=, Assign Calculation Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenequals_calc_expr.htm) → 
 
 \=, Bit Expression
 
 Syntax
 
-result = [bit\_exp](javascript:call_link\('abapcompute_bit.htm'\)).
+result = [bit\_exp](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcompute_bit.htm).
 
 Effect
 
-If a [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry") [bit\_exp](javascript:call_link\('abapcompute_bit.htm'\)) is specified on the right side of the [assignment operator \=](javascript:call_link\('abenequals_operator.htm'\)), a byte chain with the [calculation length](javascript:call_link\('abenbitexp_length.htm'\)) is calculated and assigned to the left side result like a [source field with the type xstring](javascript:call_link\('abenconversion_type_xstring.htm'\)).
+If a [bit expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbit_expression_glosry.htm "Glossary Entry") [bit\_exp](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcompute_bit.htm) is specified on the right side of the [assignment operator \=](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenequals_operator.htm), a byte chain with the [calculation length](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbitexp_length.htm) is calculated and assigned to the left side result like a [source field with the type xstring](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_xstring.htm).
 
 The following can be specified for result:
 
--   A [variable](javascript:call_link\('abenvariable_glosry.htm'\) "Glossary Entry") with the type x or xstring.
+-   A [variable](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvariable_glosry.htm "Glossary Entry") with the type x or xstring.
 
--   A [variable](javascript:call_link\('abenvariable_glosry.htm'\) "Glossary Entry") with the type c or string .
+-   A [variable](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvariable_glosry.htm "Glossary Entry") with the type c or string .
 
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)). The data type of the declared variable var is xstring.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_inline.htm). The data type of the declared variable var is xstring.
 
 Example
 

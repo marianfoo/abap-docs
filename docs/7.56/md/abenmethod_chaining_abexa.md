@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [Method Calls](javascript:call_link\('abenmethod_calls.htm'\)) →  [Static Method Calls](javascript:call_link\('abenmethod_calls_static.htm'\)) →  [... meth1( ... )->meth2( ... )->..., Method Chaining](javascript:call_link\('abapcall_method_static_chain.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_procedures.htm) →  [Method Calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethod_calls.htm) →  [Static Method Calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethod_calls_static.htm) →  [... meth1( ... )->meth2( ... )->..., Method Chaining](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_static_chain.htm) → 
 
 Method Chaining
 
@@ -37,4 +37,4 @@ START-OF-SELECTION.
 
 Description
 
-In the argument of the method DISPLAY\_TEXT, [chained attribute access](javascript:call_link\('abenchained_attribute_acc_glosry.htm'\) "Glossary Entry") is applied to the attribute text of the class demo. The attribute is changed using three chained method calls.
+In the argument of the method DISPLAY\_TEXT, [chained attribute access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchained_attribute_acc_glosry.htm "Glossary Entry") is applied to the attribute text of the class demo. The attribute is changed using three chained method calls.

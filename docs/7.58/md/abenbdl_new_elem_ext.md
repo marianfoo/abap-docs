@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [RAP - Base BDEF Extension](javascript:call_link\('abenbdl_extensibility_managed_unm.htm'\)) →  [RAP - extension](javascript:call_link\('abenbdl_extension_syntax.htm'\)) →  [RAP - Entity Behavior Extension](javascript:call_link\('abenbdl_extend_beh.htm'\)) →  [RAP - extension\_body](javascript:call_link\('abenbdl_entity_beh_extension.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl.htm) →  [RAP - BDEF Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extension.htm) →  [RAP - Base BDEF Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extensibility_managed_unm.htm) →  [RAP - extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extension_syntax.htm) →  [RAP - Entity Behavior Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extend_beh.htm) →  [RAP - extension\_body](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_entity_beh_extension.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20Adding%20Elements%2C%20ABENBDL_NEW_ELEM_EXT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -13,16 +13,16 @@ RAP - Adding Elements
 Syntax
 
 ...
-  *\[*[determination](javascript:call_link\('abenbdl_determinations.htm'\))*\]*
-  *\[*[validation](javascript:call_link\('abenbdl_validations.htm'\))*\]*
-  *\[*[event](javascript:call_link\('abenbdl_event.htm'\))*\]*
-  *\[*[managed event](javascript:call_link\('abenbdl_managed_event.htm'\))*\]*
-  *\[*[field characteristics](javascript:call_link\('abenbdl_field_char.htm'\))*\]*
-  *\[*[action](javascript:call_link\('abenbdl_action.htm'\))*\]*
-  *\[*[function](javascript:call_link\('abenbdl_function.htm'\))*\]*
-  *\[*[determine action](javascript:call_link\('abenbdl_determine_action.htm'\))*\]*
-  *\[*[association](javascript:call_link\('abenbdl_association.htm'\))*\]*
-  *\[*[type mapping](javascript:call_link\('abenbdl_type_mapping.htm'\))*\]*
+  *\[*[determination](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determinations.htm)*\]*
+  *\[*[validation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_validations.htm)*\]*
+  *\[*[event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_event.htm)*\]*
+  *\[*[managed event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_managed_event.htm)*\]*
+  *\[*[field characteristics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_char.htm)*\]*
+  *\[*[action](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action.htm)*\]*
+  *\[*[function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_function.htm)*\]*
+  *\[*[determine action](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determine_action.htm)*\]*
+  *\[*[association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_association.htm)*\]*
+  *\[*[type mapping](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_type_mapping.htm)*\]*
   ...
 
 Variants:
@@ -40,24 +40,24 @@ Variants:
 
 Effect
 
-The elements listed in this topic can be added to the [body](javascript:call_link\('abencds_entity_body_glosry.htm'\) "Glossary Entry") of an existing RAP BO entity. All of them are optional, and multiple elements or all elements can be specified together.
+The elements listed in this topic can be added to the [body](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_body_glosry.htm "Glossary Entry") of an existing RAP BO entity. All of them are optional, and multiple elements or all elements can be specified together.
 
-The elements can be added in a [base BDEF extension](javascript:call_link\('abenrap_base_bdef_ext_glosry.htm'\) "Glossary Entry") with or without the addition [using interface](javascript:call_link\('abenbdl_using_interface.htm'\)). In other words, these elements are possible in direct base extensions and also in extensions that make use of an interface layer.
+The elements can be added in a [base BDEF extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_base_bdef_ext_glosry.htm "Glossary Entry") with or without the addition [using interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_using_interface.htm). In other words, these elements are possible in direct base extensions and also in extensions that make use of an interface layer.
 
 Executable Example
 
 Executable examples:
 
--   [Node extension](javascript:call_link\('abenbdl_assoc_ext_abexa.htm'\)):
+-   [Node extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_assoc_ext_abexa.htm):
     -   A RAP BO with four nodes is extended via a RAP BO interface with one further node on the level of the great-grandchild.
     -   Ancestor associations are defined, while lock master and authorization master entities are not explicitly defined.
     -   An ABAP EML call creates instances of all five nodes.
--   [Field extension](javascript:call_link\('abenbdl_field_ext_abexa.htm'\))
+-   [Field extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_ext_abexa.htm)
     -   The original BO consists of one root node.
     -   The root node is extended via a RAP BO interface with extension fields. These extension fields are created on database level and added to the CDS data model via a CDS data model extension.
     -   Field attributes are added to the extension fields.
     -   Dynamic feature control for the extension fields is implemented in the extension ABP.
--   [Behavior extension](javascript:call_link\('abenbdl__behavior_ext_abexa.htm'\)):
+-   [Behavior extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl__behavior_ext_abexa.htm):
     -   The original BO consists of one root node.
     -   One extension node is added to the original BO via a RAP BO interface.
     -   The extended RAP BO implements authorization control, feature control, a validation, a determination and two actions. These implementations are distributed between original ABP and extension ABP.
@@ -69,11 +69,11 @@ Variant 1  
 
 Effect
 
--   Adds a [RAP determination](javascript:call_link\('abenrap_determination_glosry.htm'\) "Glossary Entry") to the entity behavior body of an existing RAP BO entity via a BDEF extension.
--   As a prerequisite, the extended BDEF must explicitly allow the particular kind of determination (see topic [RAP - Extensibility Enabling for Base BOs](javascript:call_link\('abenbdl_extensibility_enabling_m_u.htm'\))).
--   Syntax: exactly the same as for RAP BOs, see topic [RAP - determination](javascript:call_link\('abenbdl_determinations.htm'\)).
+-   Adds a [RAP determination](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_determination_glosry.htm "Glossary Entry") to the entity behavior body of an existing RAP BO entity via a BDEF extension.
+-   As a prerequisite, the extended BDEF must explicitly allow the particular kind of determination (see topic [RAP - Extensibility Enabling for Base BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extensibility_enabling_m_u.htm)).
+-   Syntax: exactly the same as for RAP BOs, see topic [RAP - determination](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determinations.htm).
 -   All fields (extension fields and original fields) can be used as trigger.
--   Implementation in the extension ABAP behavior pool must obey the rules for [extension ABPs](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)).
+-   Implementation in the extension ABAP behavior pool must obey the rules for [extension ABPs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_in_class_unique_ext.htm).
 
 Hint
 
@@ -127,7 +127,7 @@ ENDMETHOD.
 
 Executable Example
 
-An executable example for a BDEF extension adding a new determination is provided in topic [RAP BDL - extend determine action](javascript:call_link\('abenbdl_det_action_ext_abexa.htm'\)).
+An executable example for a BDEF extension adding a new determination is provided in topic [RAP BDL - extend determine action](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_det_action_ext_abexa.htm).
 
 Variant 2   
 
@@ -135,11 +135,11 @@ Variant 2  
 
 Effect
 
--   Adds a [RAP validation](javascript:call_link\('abenrap_validation_glosry.htm'\) "Glossary Entry") to the entity behavior body of an existing RAP BO entity via a BDEF extension.
--   As a prerequisite, the extended BDEF must explicitly allow the particular kind of validation (see topic about [extensibility enabling](javascript:call_link\('abenbdl_extensibility_enabling_m_u.htm'\))).
--   Syntax: exactly the same as for RAP BOs, see topic about [validations](javascript:call_link\('abenbdl_validations.htm'\)).
+-   Adds a [RAP validation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_validation_glosry.htm "Glossary Entry") to the entity behavior body of an existing RAP BO entity via a BDEF extension.
+-   As a prerequisite, the extended BDEF must explicitly allow the particular kind of validation (see topic about [extensibility enabling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extensibility_enabling_m_u.htm)).
+-   Syntax: exactly the same as for RAP BOs, see topic about [validations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_validations.htm).
 -   All fields (extension fields and original fields) can be used as trigger.
--   Implementation in the extension ABAP behavior pool must obey the rules for [extension ABPs](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)).
+-   Implementation in the extension ABAP behavior pool must obey the rules for [extension ABPs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_in_class_unique_ext.htm).
 
 Hint
 
@@ -211,10 +211,10 @@ Variant 3  
 
 Effect
 
--   Adds a [RAP business event](javascript:call_link\('abenrap_entity_event_glosry.htm'\) "Glossary Entry") to the entity behavior body of an existing RAP BO entity via a BDEF extension.
+-   Adds a [RAP business event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_entity_event_glosry.htm "Glossary Entry") to the entity behavior body of an existing RAP BO entity via a BDEF extension.
 -   RAP business events can only be defined in the root node of a RAP business object. As a consequence, they can only be defined in a BDEF extension to the root node.
--   Syntax: exactly the same as for RAP BOs, see topic about [events](javascript:call_link\('abenbdl_event.htm'\)).
--   An extension RAP business event must be raised in the extension ABAP behavior pool of the RAP BO in question with the [ABAP EML](javascript:call_link\('abenabap_eml_glosry.htm'\) "Glossary Entry") statement [RAISE ENTITY EVENT](javascript:call_link\('abapraise_entity_event.htm'\)). The rules for [extension ABPs](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)) must be obeyed.
+-   Syntax: exactly the same as for RAP BOs, see topic about [events](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_event.htm).
+-   An extension RAP business event must be raised in the extension ABAP behavior pool of the RAP BO in question with the [ABAP EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_eml_glosry.htm "Glossary Entry") statement [RAISE ENTITY EVENT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_entity_event.htm). The rules for [extension ABPs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_in_class_unique_ext.htm) must be obeyed.
 
 Further Information
 
@@ -222,7 +222,7 @@ The development guide for the ABAP RESTful Application Programming Model provide
 
 Example
 
-The BDEF extension DEMO\_RAP\_EVENT\_EXT extends the RAP behavior definition DEMO\_RAP\_EXTENSIBLE. It adds the RAP business event MyEvent to the [RAP BO root entity](javascript:call_link\('abenrap_bo_root_entity_glosry.htm'\) "Glossary Entry"). It adds a [RAP additional save](javascript:call_link\('abenrap_add_save_glosry.htm'\) "Glossary Entry"), so the event can be raised in the extension ABP in the [RAP handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") [save\_modified](javascript:call_link\('abaprap_saver_meth_save_modified.htm'\)).
+The BDEF extension DEMO\_RAP\_EVENT\_EXT extends the RAP behavior definition DEMO\_RAP\_EXTENSIBLE. It adds the RAP business event MyEvent to the [RAP BO root entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_root_entity_glosry.htm "Glossary Entry"). It adds a [RAP additional save](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_add_save_glosry.htm "Glossary Entry"), so the event can be raised in the extension ABP in the [RAP handler method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") [save\_modified](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprap_saver_meth_save_modified.htm).
 
 extension
 implementation in class bp\_demo\_rap\_event\_ext unique;
@@ -238,10 +238,10 @@ Variant 4  
 
 Effect
 
--   Adds a [RAP derived event](javascript:call_link\('abenrap_derived_event_glosry.htm'\) "Glossary Entry") to the entity behavior body of an existing RAP BO entity via a BDEF extension.
+-   Adds a [RAP derived event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_derived_event_glosry.htm "Glossary Entry") to the entity behavior body of an existing RAP BO entity via a BDEF extension.
 -   RAP derived events can only be defined in the root node of a RAP business object. As a consequence, they can only be defined in a BDEF extension to the root node.
--   Syntax: exactly the same as for RAP BOs, see the topic [RAP - managed event](javascript:call_link\('abenbdl_managed_event.htm'\)).
--   An implementation in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is not required. Derived events are raised automatically when the referenced event is raised.
+-   Syntax: exactly the same as for RAP BOs, see the topic [RAP - managed event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_managed_event.htm).
+-   An implementation in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is not required. Derived events are raised automatically when the referenced event is raised.
 
 Further Information
 
@@ -253,8 +253,8 @@ Variant 5  
 
 Effect
 
--   Adds [field attributes](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry") to extension fields.
--   Field attributes can be added only for extension fields. Extension fields are fields which are not part of the original BO, but are added via [RAP data model extension](javascript:call_link\('abenrap_data_model_ext_glosry.htm'\) "Glossary Entry").
+-   Adds [field attributes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_field_char_glosry.htm "Glossary Entry") to extension fields.
+-   Field attributes can be added only for extension fields. Extension fields are fields which are not part of the original BO, but are added via [RAP data model extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_data_model_ext_glosry.htm "Glossary Entry").
 -   The following field attributes are available in BDEF extensions for extension fields:
     -   readonly
     -   mandatory
@@ -262,11 +262,11 @@ Effect
     -   readonly:update
     -   features:instance
         
-        Note: When implementing [instance feature control](javascript:call_link\('abenrap_ins_feature_control_glosry.htm'\) "Glossary Entry") for fields, the rules for [extension ABPs](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)) apply.
+        Note: When implementing [instance feature control](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_ins_feature_control_glosry.htm "Glossary Entry") for fields, the rules for [extension ABPs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_in_class_unique_ext.htm) apply.
         
--   These field attributes work as described in topic [RAP BDL - field characteristics](javascript:call_link\('abenbdl_field_char.htm'\)).
+-   These field attributes work as described in topic [RAP BDL - field characteristics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_char.htm).
     
-    Note: [Internal field numbering](javascript:call_link\('abenbdl_field_numbering.htm'\)) is not available in BDEF extensions.
+    Note: [Internal field numbering](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_numbering.htm) is not available in BDEF extensions.
     
     Note: The field characteristic mandatory:create is not available in BDEF extensions.
     
@@ -288,7 +288,7 @@ extend behavior for Root
 
 Executable Example
 
-The example above is described in detail in topic [RAP BDL - Field Extension](javascript:call_link\('abenbdl_field_ext_abexa.htm'\)).
+The example above is described in detail in topic [RAP BDL - Field Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_ext_abexa.htm).
 
 Variant 6   
 
@@ -296,28 +296,28 @@ Variant 6  
 
 Effect
 
--   Adds a [RAP action](javascript:call_link\('abenrap_action_glosry.htm'\) "Glossary Entry") to the entity behavior body of an existing RAP BO entity.
--   Syntax: exactly the same as for RAP BOs, see topic [RAP BDL - action](javascript:call_link\('abenbdl_action.htm'\)).
+-   Adds a [RAP action](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_action_glosry.htm "Glossary Entry") to the entity behavior body of an existing RAP BO entity.
+-   Syntax: exactly the same as for RAP BOs, see topic [RAP BDL - action](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action.htm).
     
-    Note: The following additional rule applies: Each extension action must define authorization control on action-level that replaces the authorization control specified in the [authorization master entity](javascript:call_link\('abenrap_auth_ma_ent_glosry.htm'\) "Glossary Entry") of the original RAP BO. That means that one of the following additions must be specified for each extension action:
+    Note: The following additional rule applies: Each extension action must define authorization control on action-level that replaces the authorization control specified in the [authorization master entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_auth_ma_ent_glosry.htm "Glossary Entry") of the original RAP BO. That means that one of the following additions must be specified for each extension action:
     
-    [authorization:none](javascript:call_link\('abenbdl_actions_auth.htm'\))
+    [authorization:none](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_actions_auth.htm)
     
-    [authorization:update](javascript:call_link\('abenbdl_actions_auth_update.htm'\))
+    [authorization:update](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_actions_auth_update.htm)
     
-    [authorization:global](javascript:call_link\('abenbdl_actions_auth_global.htm'\))
+    [authorization:global](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_actions_auth_global.htm)
     
-    [authorization:instance](javascript:call_link\('abenbdl_actions_auth_instance.htm'\))
+    [authorization:instance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_actions_auth_instance.htm)
     
-    [authorization:instance, authorization:global](javascript:call_link\('abenbdl_actions_auth_instance.htm'\))
+    [authorization:instance, authorization:global](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_actions_auth_instance.htm)
     
-    [authorization:global, authorization:instance](javascript:call_link\('abenbdl_actions_auth_instance.htm'\))
+    [authorization:global, authorization:instance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_actions_auth_instance.htm)
     
-    For details, see the topic [RAP - authorization](javascript:call_link\('abenbdl_authorization.htm'\)).
+    For details, see the topic [RAP - authorization](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_authorization.htm).
     
-    Note: The optional addition [default](javascript:call_link\('abenbdl_action_default_factory.htm'\)) to define a factory action as default factory action is not available in BDEF extensions.
+    Note: The optional addition [default](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action_default_factory.htm) to define a factory action as default factory action is not available in BDEF extensions.
     
--   Implementation in the extension ABAP behavior pool must obey the rules for [extension ABPs](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)).
+-   Implementation in the extension ABAP behavior pool must obey the rules for [extension ABPs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_in_class_unique_ext.htm).
 
 Example
 
@@ -347,7 +347,7 @@ persistent table demo\_dbtab\_fi\_ch
 
 Executable Example
 
-The example above is described in detail in topic [RAP BDL - Behavior Extension](javascript:call_link\('abenbdl__behavior_ext_abexa.htm'\)).
+The example above is described in detail in topic [RAP BDL - Behavior Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl__behavior_ext_abexa.htm).
 
 Variant 7   
 
@@ -355,9 +355,9 @@ Variant 7  
 
 Effect
 
--   Adds a [RAP function](javascript:call_link\('abenrap_function_glosry.htm'\) "Glossary Entry") to the entity behavior body of an existing RAP BO entity.
--   Syntax: exactly the same as for RAP BOs, see topic [RAP BDL - function](javascript:call_link\('abenbdl_function.htm'\)).
--   Implementation in the extension ABAP behavior pool must obey the rules for [extension ABPs](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)).
+-   Adds a [RAP function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_function_glosry.htm "Glossary Entry") to the entity behavior body of an existing RAP BO entity.
+-   Syntax: exactly the same as for RAP BOs, see topic [RAP BDL - function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_function.htm).
+-   Implementation in the extension ABAP behavior pool must obey the rules for [extension ABPs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_in_class_unique_ext.htm).
 
 Variant 8   
 
@@ -365,9 +365,9 @@ Variant 8  
 
 Effect
 
--   Adds a [RAP BO determine action](javascript:call_link\('abenrap_bo_det_action_glosry.htm'\) "Glossary Entry") to the entity behavior body of an existing RAP BO entity.
--   Syntax exactly the same as for RAP BOs, see topic [RAP BDL - determine actions](javascript:call_link\('abenbdl_determine_action.htm'\)).
--   Only [determinations](javascript:call_link\('abenrap_determination_glosry.htm'\) "Glossary Entry") and [validations](javascript:call_link\('abenrap_validation_glosry.htm'\) "Glossary Entry") from the same BDEF extension can be assigned. Determinations and validations from the original BDEF must not be assigned.
+-   Adds a [RAP BO determine action](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_det_action_glosry.htm "Glossary Entry") to the entity behavior body of an existing RAP BO entity.
+-   Syntax exactly the same as for RAP BOs, see topic [RAP BDL - determine actions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_determine_action.htm).
+-   Only [determinations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_determination_glosry.htm "Glossary Entry") and [validations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_validation_glosry.htm "Glossary Entry") from the same BDEF extension can be assigned. Determinations and validations from the original BDEF must not be assigned.
 
 Variant 9   
 
@@ -375,8 +375,8 @@ Variant 9  
 
 Effect
 
--   Behavior-enables an association. The [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") must be an extension node.
--   Syntax exactly the same as for RAP BOs, see topic [Operations for Associations](javascript:call_link\('abenbdl_association.htm'\)).
+-   Behavior-enables an association. The [association target](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassociation_target_glosry.htm "Glossary Entry") must be an extension node.
+-   Syntax exactly the same as for RAP BOs, see topic [Operations for Associations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_association.htm).
 
 Example
 
@@ -417,7 +417,7 @@ etag master Timestamp
 
 Executable Example
 
-The example above is described in detail in topic [RAP BDL - Node Extension](javascript:call_link\('abenbdl_assoc_ext_abexa.htm'\)).
+The example above is described in detail in topic [RAP BDL - Node Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_assoc_ext_abexa.htm).
 
 Variant 10   
 
@@ -425,8 +425,8 @@ Variant 10  
 
 Effect
 
--   Adds a [RAP type mapping](javascript:call_link\('abenrap_type_mapping_glosry.htm'\) "Glossary Entry") to the entity behavior body of an existing RAP BO entity. This type mapping can only contain extension fields. It must not contain any fields from the extended BDEF.
--   Syntax exactly the same as for RAP BOs, see topic [RAP BDL - Type Mapping](javascript:call_link\('abenbdl_type_mapping.htm'\)).
+-   Adds a [RAP type mapping](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_type_mapping_glosry.htm "Glossary Entry") to the entity behavior body of an existing RAP BO entity. This type mapping can only contain extension fields. It must not contain any fields from the extended BDEF.
+-   Syntax exactly the same as for RAP BOs, see topic [RAP BDL - Type Mapping](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_type_mapping.htm).
 
 Example
 
@@ -444,5 +444,5 @@ extend behavior for Root
 }
 
 Continue
-![Example](exa.gif "Example") [RAP - Field Extension](javascript:call_link\('abenbdl_field_ext_abexa.htm'\))
-![Example](exa.gif "Example") [RAP - Behavior Extension](javascript:call_link\('abenbdl__behavior_ext_abexa.htm'\))
+![Example](exa.gif "Example") [RAP - Field Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_field_ext_abexa.htm)
+![Example](exa.gif "Example") [RAP - Behavior Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl__behavior_ext_abexa.htm)

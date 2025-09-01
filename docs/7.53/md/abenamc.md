@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_channels.htm) → 
 
 AMC - ABAP Messaging Channels
 
@@ -16,25 +16,33 @@ ABAP Messaging Channels (AMC) are a method of communication between ABAP program
 
 -   Content that can be serialized in accordance with fixed protocols. Helper classes are available for serializations and deserializations.
 
-ABAP Messaging Channels are implemented as repository objects that can be accessed in sender and receiver programs using an interface-based an class-based programming interface (API). The classes and interfaces of the API use the naming convention CL\_AMC\_... and IF\_AMC\_... respectively. . Communication between different AS Instances takes places across the [message server](javascript:call_link\('abenmessage_server_glosry.htm'\) "Glossary Entry").
+ABAP Messaging Channels are implemented as repository objects that can be accessed in sender and receiver programs using an interface-based an class-based programming interface (API). The classes and interfaces of the API use the naming convention CL\_AMC\_... and IF\_AMC\_... respectively. . Communication between different AS Instances takes places across the [message server](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_server_glosry.htm "Glossary Entry").
 
--   [Messaging Channels as Repository Objects](#abenamc-1--------sending-amc-messages---@ITOC@@ABENAMC_2)
+-   [Messaging Channels as Repository Objects](#@@ITOC@@ABENAMC_1)
 
--   [Receiving AMC Messages](#abenamc-3--------point-to-point-communication---@ITOC@@ABENAMC_4)
+-   [Sending AMC Messages](#@@ITOC@@ABENAMC_2)
 
--   [AMC - Security](#abenamc-5--------amc---exceptions---@ITOC@@ABENAMC_6)
+-   [Receiving AMC Messages](#@@ITOC@@ABENAMC_3)
 
--   [AMC - Test and Analysis](#abenamc-7--------more-information---@ITOC@@ABENAMC_8)
+-   [Point-to-Point Communication](#@@ITOC@@ABENAMC_4)
+
+-   [AMC - Security](#@@ITOC@@ABENAMC_5)
+
+-   [AMC - Exceptions](#@@ITOC@@ABENAMC_6)
+
+-   [AMC - Test and Analysis](#@@ITOC@@ABENAMC_7)
+
+-   [More Information](#@@ITOC@@ABENAMC_8)
 
 Notes
 
--   Any data object can be sent by being serialized in a suitable way by the sender and deserialized by the receiver. Possible formats include [XML](javascript:call_link\('abenabap_xml.htm'\)) or [JSON](javascript:call_link\('abenabap_json.htm'\)) in strings or SAP's own [Push Channel Protocol](javascript:call_link\('abenpush_channel_protocol_glosry.htm'\) "Glossary Entry").
+-   Any data object can be sent by being serialized in a suitable way by the sender and deserialized by the receiver. Possible formats include [XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml.htm) or [JSON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json.htm) in strings or SAP's own [Push Channel Protocol](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpush_channel_protocol_glosry.htm "Glossary Entry").
 
--   The sendable messages The length of messages that can be sent is currently restricted to approximately 1 MB. Character strings are converted to the [UTF-8](javascript:call_link\('abenutf8_glosry.htm'\) "Glossary Entry") format. The limit can be increased by changing the profile parameter rdisp/long\_messages/max\_length.
+-   The sendable messages The length of messages that can be sent is currently restricted to approximately 1 MB. Character strings are converted to the [UTF-8](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenutf8_glosry.htm "Glossary Entry") format. The limit can be increased by changing the profile parameter rdisp/long\_messages/max\_length.
 
 Messaging Channels as Repository Objects
 
-An [ABAP Messaging Channel](javascript:call_link\('abenabap_messaging_channel_glosry.htm'\) "Glossary Entry") defined as a [repository object](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") must exist for each AMC communication. An ABAP Messaging Channel like this can be created in [Repository Browser](javascript:call_link\('abenrepository_browser_glosry.htm'\) "Glossary Entry") in ABAP Workbench by opening the context menu of a package and choosing Connectivity. Connectivity Browser in Object Navigator provides another means of access. To open Object Navigator for AMCs, use transaction SAMC.
+An [ABAP Messaging Channel](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_messaging_channel_glosry.htm "Glossary Entry") defined as a [repository object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrepository_object_glosry.htm "Glossary Entry") must exist for each AMC communication. An ABAP Messaging Channel like this can be created in [Repository Browser](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in ABAP Workbench by opening the context menu of a package and choosing Connectivity. Connectivity Browser in Object Navigator provides another means of access. To open Object Navigator for AMCs, use transaction SAMC.
 
 An ABAP Messaging Channel is identified by its assignment to an application and by its name. The name must start with a forward slash character (/) and is not case-sensitive. The following properties can be defined for an ABAP Messaging Channel:
 
@@ -46,7 +54,7 @@ The message type determines the data type of the data objects that can be sent a
 
 -   BINARY for byte strings
 
--   PCP for SAP's own [Push Channel Protocol (PCP)](javascript:call_link\('abenpush_channel_protocol_glosry.htm'\) "Glossary Entry")
+-   PCP for SAP's own [Push Channel Protocol (PCP)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpush_channel_protocol_glosry.htm "Glossary Entry")
 
 -   Scope
 
@@ -58,23 +66,23 @@ All programs of all users sessions in the current AS ABAP can receive messages.
 
 -   Client
 
-All programs of user sessions in the current AS ABAP logged on with the same [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") as the sender program can receive messages.
+All programs of user sessions in the current AS ABAP logged on with the same [client ID](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_identifier_glosry.htm "Glossary Entry") as the sender program can receive messages.
 
 -   User
 
-Only programs of user sessions in the current AS ABAP logged on with the same [user name](javascript:call_link\('abenuser_name_glosry.htm'\) "Glossary Entry") and the same [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") as the sender program can receive messages.
+Only programs of user sessions in the current AS ABAP logged on with the same [user name](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_name_glosry.htm "Glossary Entry") and the same [client ID](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_identifier_glosry.htm "Glossary Entry") as the sender program can receive messages.
 
-No other restrictions apply apart from these settings. More specifically, it is possible to send and receive messages between different [AS Instances](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry").
+No other restrictions apply apart from these settings. More specifically, it is possible to send and receive messages between different [AS Instances](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapplication_server_glosry.htm "Glossary Entry").
 
 -   Authorized programs
 
-Each program that is authorized to send or receive messages using the messaging channel (or a predecessor program in the current [call sequence](javascript:call_link\('abencall_sequence_glosry.htm'\) "Glossary Entry")) must be specified with the appropriate activity in a whitelist. Possible activities are:
+Each program that is authorized to send or receive messages using the messaging channel (or a predecessor program in the current [call sequence](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_sequence_glosry.htm "Glossary Entry")) must be specified with the appropriate activity in a whitelist. Possible activities are:
 
 -   Send, which authorizes the program to send AMC messages
 
 -   Receive, which authorizes the program to receive AMC messages
 
--   Bind APC WebSocket as consumer, which authorizes the program (usually the class pool of an [APC handler class](javascript:call_link\('abenapc.htm'\))) to bind its WebSocket connection to an ABAP Messaging Channel. This makes the [APC](javascript:call_link\('abenapc_glosry.htm'\) "Glossary Entry") connection partners (such as Web browsers) into AMC consumers.
+-   Bind APC WebSocket as consumer, which authorizes the program (usually the class pool of an [APC handler class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm)) to bind its WebSocket connection to an ABAP Messaging Channel. This makes the [APC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc_glosry.htm "Glossary Entry") connection partners (such as Web browsers) into AMC consumers.
 
 Example
 
@@ -84,19 +92,19 @@ Sending AMC Messages
 
 Before an AMC message can be sent in an authorized program (known as the publish part), the factory method CREATE\_MESSAGE\_PRODUCER of the system class CL\_AMC\_CHANNEL\_MANAGER must be used to create a sender object for a messaging channel from the repository. The application and name of the channel are passed here. The returned reference variable of type IF\_AMC\_MESSAGE\_PRODUCER must be cast to a type-specific interface that contains a method SEND used to send type-friendly messages. The following interfaces are possible, depending on the type of messaging channel used:
 
-Objects of the class [CL\_AC\_MESSAGE\_TYPE\_PCP](javascript:call_link\('abenpcp.htm'\)), which implement the interface IF\_AC\_MESSAGE\_TYPE\_PCP, can be used to create messages for the [Push Channel Protocol](javascript:call_link\('abenpcp.htm'\)).
+Objects of the class [CL\_AC\_MESSAGE\_TYPE\_PCP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpcp.htm), which implement the interface IF\_AC\_MESSAGE\_TYPE\_PCP, can be used to create messages for the [Push Channel Protocol](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpcp.htm).
 
 Notes
 
 -   The sender of an AMC message implements the publish part of the publish-and-subscribe mechanism in AMC. The sender does not usually know whether receivers are registered for the AMC message.
 
--   The parameter I\_SUPPRESS\_ECHO of the method CREATE\_MESSAGE\_PRODUCER can be used to specify whether messages are sent to the current ABAP session or not. It may be helpful to suppress messages like these when joining AMC with [APC](javascript:call_link\('abenapc.htm'\)) to stop superfluous messages from being sent.
+-   The parameter I\_SUPPRESS\_ECHO of the method CREATE\_MESSAGE\_PRODUCER can be used to specify whether messages are sent to the current ABAP session or not. It may be helpful to suppress messages like these when joining AMC with [APC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm) to stop superfluous messages from being sent.
 
 Executable Examples
 
--   [Sending AMC Messages](javascript:call_link\('abenamc_send_abexa.htm'\))
+-   [Sending AMC Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_send_abexa.htm)
 
--   [Suppressing Standalone Messages](javascript:call_link\('abenamc_suppress_echo_abexa.htm'\))
+-   [Suppressing Standalone Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_suppress_echo_abexa.htm)
 
 Receiving AMC Messages
 
@@ -116,21 +124,21 @@ Receiver objects are instances of local or global classes that implement at leas
 
 -   IF\_AMC\_MESSAGE\_RECEIVER\_PCP
 
-. These interfaces each have a RECEIVE method used as a callback routine for the messaging channel for which a receiver object is registered. The input parameters of the callback routines receive the messages sent during registration in a type-friendly way and can be processed or forwarded in the methods. An object of the class [CL\_AC\_MESSAGE\_TYPE\_PCP](javascript:call_link\('abenpcp.htm'\)), pointed to by the attribute PCP\_MESSAGE of the receiver object, can be used to read messages in SAP's own [Push Channel Protocol](javascript:call_link\('abenpcp.htm'\)).
+. These interfaces each have a RECEIVE method used as a callback routine for the messaging channel for which a receiver object is registered. The input parameters of the callback routines receive the messages sent during registration in a type-friendly way and can be processed or forwarded in the methods. An object of the class [CL\_AC\_MESSAGE\_TYPE\_PCP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpcp.htm), pointed to by the attribute PCP\_MESSAGE of the receiver object, can be used to read messages in SAP's own [Push Channel Protocol](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpcp.htm).
 
 When the receiver objects are registered, object references to them are created in the AMC framework to keep them alive. It is also possible to deregister the objects using the method STOP\_MESSAGE\_DELIVERY. This deletes the references. The objects are deregistered implicitly at the end of the program.
 
-Once one or more receiver objects have been registered, the statement [WAIT FOR MESSAGING CHANNELS](javascript:call_link\('abapwait_amc.htm'\)) can be used to put the program in a wait state where it is ready to receive the messages. If, while the program is waiting, a message is received through a messaging channel for which a receiver object is registered, the associated RECEIVE method is executed and a check is made to see whether a logical condition is true or false. The wait state is persisted as long as the condition is false (but a maximum duration can be configured). In this way, multiple messages can be consumed until a message is received that ends the wait state.
+Once one or more receiver objects have been registered, the statement [WAIT FOR MESSAGING CHANNELS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_amc.htm) can be used to put the program in a wait state where it is ready to receive the messages. If, while the program is waiting, a message is received through a messaging channel for which a receiver object is registered, the associated RECEIVE method is executed and a check is made to see whether a logical condition is true or false. The wait state is persisted as long as the condition is false (but a maximum duration can be configured). In this way, multiple messages can be consumed until a message is received that ends the wait state.
 
 Notes
 
--   The methods START\_MESSAGE\_DELIVERY and STOP\_MESSAGE\_DELIVERY both cause a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry").
+-   The methods START\_MESSAGE\_DELIVERY and STOP\_MESSAGE\_DELIVERY both cause a [database commit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry").
 
--   It is not possible to receive AMC messages during the [update](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry") process.
+-   It is not possible to receive AMC messages during the [update](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenupdate_glosry.htm "Glossary Entry") process.
 
 Executable Example
 
-[Receiving AMC Messages](javascript:call_link\('abenamc_receive_abexa.htm'\))
+[Receiving AMC Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_receive_abexa.htm)
 
 Point-to-Point Communication
 
@@ -144,7 +152,7 @@ The parameter I\_COMMUNICATION\_TYPE of the method CREATE\_MESSAGE\_PRODUCER\_BY
 
 Executable Example
 
-The executable example [Receiving AMC Messages](javascript:call_link\('abenamc_receive_abexa.htm'\)) displays the ID of the receiver session. If this ID is entered in the example [Sending AMC Messages](javascript:call_link\('abenamc_send_abexa.htm'\)), the message is sent synchronously and to this receiver session only.
+The executable example [Receiving AMC Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_receive_abexa.htm) displays the ID of the receiver session. If this ID is entered in the example [Sending AMC Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_send_abexa.htm), the message is sent synchronously and to this receiver session only.
 
 AMC - Security
 
@@ -156,7 +164,7 @@ Error situations in sender and receiver programs (such as violations of rules se
 
 AMC - Test and Analysis
 
-AMC messages are both sent and received in AS ABAP, which means that existing test and analysis tools, such as [ABAP Debugger](javascript:call_link\('abenabap_debugger_glosry.htm'\) "Glossary Entry"), [runtime analysis](javascript:call_link\('abenruntime_analysis_glosry.htm'\) "Glossary Entry"), or [performance trace](javascript:call_link\('abenperformance_trace_glosry.htm'\) "Glossary Entry") can be used as previously. There is also a special AMC logger:
+AMC messages are both sent and received in AS ABAP, which means that existing test and analysis tools, such as [ABAP Debugger](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_debugger_glosry.htm "Glossary Entry"), [runtime analysis](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenruntime_analysis_glosry.htm "Glossary Entry"), or [performance trace](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenperformance_trace_glosry.htm "Glossary Entry") can be used as previously. There is also a special AMC logger:
 
 -   The transaction AMC\_LOG\_ADMIN can be used to switch AMC logging on and off for specific ABAP Messaging Channels.
 
@@ -169,5 +177,5 @@ More Information
 Detailed information about AMC can be found in the ABAP Channels documentation in SAP Help Portal.
 
 Continue
-[WAIT FOR MESSAGING CHANNELS](javascript:call_link\('abapwait_amc.htm'\))
-[AMC Examples](javascript:call_link\('abenamc_abexas.htm'\))
+[WAIT FOR MESSAGING CHANNELS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_amc.htm)
+[AMC Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc_abexas.htm)

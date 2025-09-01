@@ -15,4 +15,4 @@ INCLUDE METHODS.
 
 Effect
 
-This statement cannot be entered locally in an ABAP program using an ABAP Editor. Instead, it is generated automatically in the definition of a global class using the Class Builder tool in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry").
+This statement cannot be entered locally in an ABAP program using an ABAP Editor. Instead, it is generated automatically in the definition of a global class using the Class Builder tool in [ABAP Workbench](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_workbench_glosry.htm "Glossary Entry").

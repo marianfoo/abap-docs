@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 dependency rule
 
-[Database object](javascript:call_link\('abendb_object_glosry.htm'\) "Glossary Entry") in the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"). A dependency rule can be defined for [database tables](javascript:call_link\('abendatabase_table_glosry.htm'\) "Glossary Entry") and derives additional conditions from a selection condition. The optimizer of the [database system](javascript:call_link\('abendatabase_system_glosry.htm'\) "Glossary Entry") then expands read queries to these database tables. On an [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry"), dependency rules can be defined in [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry").
+[Database object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendb_object_glosry.htm "Glossary Entry") in the [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry"). A dependency rule can be defined for [database tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_table_glosry.htm "Glossary Entry") and derives additional conditions from a selection condition. The optimizer of the [database system](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_system_glosry.htm "Glossary Entry") then expands read queries to these database tables. On an [AS ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm "Glossary Entry"), dependency rules can be defined in [ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenddic_dependency_rules.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_dependency_rules.htm)

@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abentime_system_fields.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm)
-- [abapget_time.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.213Z
-
----
-
 ### abentime_system_fields.htm
-
-> **📖 Official SAP Documentation**: [abentime_system_fields.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,11 +11,11 @@ Included pages: 2
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_processing.htm) → 
 
 System Fields for Date and Time
 
-The following table shows the [system fields](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") that contain information about date and time.
+The following table shows the [system fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_field_glosry.htm "Glossary Entry") that contain information about date and time.
 
 System Field
 
@@ -52,7 +33,7 @@ d
 
 \-
 
-[User date](javascript:call_link\('abenuser_date_glosry.htm'\) "Glossary Entry")
+[User date](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_date_glosry.htm "Glossary Entry")
 
 X
 
@@ -62,7 +43,7 @@ d
 
 \-
 
-[System date](javascript:call_link\('abensystem_date_glosry.htm'\) "Glossary Entry")
+[System date](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_date_glosry.htm "Glossary Entry")
 
 X
 
@@ -72,7 +53,7 @@ c
 
 1
 
-Flag for summer time in the [system time zone](javascript:call_link\('abensystem_time_zone_glosry.htm'\) "Glossary Entry"). During summer time, "X", otherwise " ".
+Flag for summer time in the [system time zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_time_zone_glosry.htm "Glossary Entry"). During summer time, "X", otherwise " ".
 
 \-
 
@@ -82,7 +63,7 @@ b
 
 \-
 
-Factory calendar weekday in the [system time zone](javascript:call_link\('abensystem_time_zone_glosry.htm'\) "Glossary Entry"). "1" for Monday, ..., "5" for Friday.
+Factory calendar weekday in the [system time zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_time_zone_glosry.htm "Glossary Entry"). "1" for Monday, ..., "5" for Friday.
 
 \-
 
@@ -92,7 +73,7 @@ t
 
 \-
 
-[User time](javascript:call_link\('abenuser_time_glosry.htm'\) "Glossary Entry")
+[User time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_time_glosry.htm "Glossary Entry")
 
 X
 
@@ -102,7 +83,7 @@ i
 
 \-
 
-Time difference between the [system time](javascript:call_link\('abensystem_time_glosry.htm'\) "Glossary Entry") and [UTC](javascript:call_link\('abenutc_glosry.htm'\) "Glossary Entry") reference time in seconds, ignoring summer time.
+Time difference between the [system time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_time_glosry.htm "Glossary Entry") and [UTC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenutc_glosry.htm "Glossary Entry") reference time in seconds, ignoring summer time.
 
 \-
 
@@ -112,7 +93,7 @@ t
 
 \-
 
-[System time](javascript:call_link\('abensystem_time_glosry.htm'\) "Glossary Entry")
+[System time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_time_glosry.htm "Glossary Entry")
 
 X
 
@@ -122,17 +103,17 @@ c
 
 6
 
-[User time zone](javascript:call_link\('abenuser_time_zone_glosry.htm'\) "Glossary Entry")
+[User time zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_time_zone_glosry.htm "Glossary Entry")
 
 \-
 
-The values of all system fields in this table are set implicitly when the program is started, every time a [screen](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") is sent, and when the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") is set. The last column of the table shows which of the system fields can be updated explicitly using the statement [GET TIME](javascript:call_link\('abapget_time.htm'\)).
+The values of all system fields in this table are set implicitly when the program is started, every time a [screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry") of a [dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") is sent, and when the [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") is set. The last column of the table shows which of the system fields can be updated explicitly using the statement [GET TIME](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time.htm).
 
-The content of sy-zonlo is the user time zone described under [System Time Zone and User Time Zone](javascript:call_link\('abensystem_user_time_zones.htm'\)). The local values of sy-datlo and sy-timlo that make reference to the user time zone are determined from the [system time](javascript:call_link\('abensystem_time_glosry.htm'\) "Glossary Entry") and the [system date](javascript:call_link\('abensystem_date_glosry.htm'\) "Glossary Entry"). If sy-zonlo is initial, sy-timlo and sy-datlo have the same values as sy-uzeit and sy-datum.
+The content of sy-zonlo is the user time zone described under [System Time Zone and User Time Zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_user_time_zones.htm). The local values of sy-datlo and sy-timlo that make reference to the user time zone are determined from the [system time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_time_glosry.htm "Glossary Entry") and the [system date](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_date_glosry.htm "Glossary Entry"). If sy-zonlo is initial, sy-timlo and sy-datlo have the same values as sy-uzeit and sy-datum.
 
 Example
 
-If the [system time zone](javascript:call_link\('abensystem_time_zone_glosry.htm'\) "Glossary Entry") is the same as the [user time zone](javascript:call_link\('abenuser_time_zone_glosry.htm'\) "Glossary Entry"), the corresponding system fields for system date and user date and/or system time and user time must be the same.
+If the [system time zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_time_zone_glosry.htm "Glossary Entry") is the same as the [user time zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_time_zone_glosry.htm "Glossary Entry"), the corresponding system fields for system date and user date and/or system time and user time must be the same.
 
 DATA tz TYPE timezone.
 CALL FUNCTION 'GET\_SYSTEM\_TIMEZONE'
@@ -144,20 +125,10 @@ IF tz = sy-zonlo.
 ENDIF.
 
 Continue
-[GET TIME](javascript:call_link\('abapget_time.htm'\))
+[GET TIME](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time.htm)
 
-
-
-**📖 Source**: [abentime_system_fields.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm)
 
 ### abapget_time.htm
-
-> **📖 Official SAP Documentation**: [abapget_time.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapget_time.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time.htm)
-
 
   
 
@@ -165,11 +136,11 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [System Fields for Date and Time](javascript:call_link\('abentime_system_fields.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_processing.htm) →  [System Fields for Date and Time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm) → 
 
 GET TIME
 
-[Quick Reference](javascript:call_link\('abapget_time_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time_shortref.htm)
 
 Syntax
 
@@ -181,15 +152,15 @@ Addition:
 
 Effect
 
-Without the addition FIELD, the [system fields for date and time](javascript:call_link\('abentime_system_fields.htm'\)), sy-datlo, sy-datum, sy-timlo, and sy-uzeit, are set to the current value. The content of the system fields sy-dayst, sy-fdayw, sy-tzone, and sy-zonlo is not updated.
+Without the addition FIELD, the [system fields for date and time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm), sy-datlo, sy-datum, sy-timlo, and sy-uzeit, are set to the current value. The content of the system fields sy-dayst, sy-fdayw, sy-tzone, and sy-zonlo is not updated.
 
 Note
 
-Except for GET TIME, the system fields are updated after starting a program, after sending a [screen](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry"), and after changing the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
+Except for GET TIME, the system fields are updated after starting a program, after sending a [screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry"), and after changing the [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry").
 
 Example
 
-Approximate runtime measurement. You should use the statement [GET RUN TIME](javascript:call_link\('abapget_run_time.htm'\)) instead.
+Approximate runtime measurement. You should use the statement [GET RUN TIME](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_run_time.htm) instead.
 
 GET TIME.
 DATA(t1) = sy-timlo.
@@ -205,11 +176,11 @@ Addition
 
 Effect
 
-The addition FIELD is used to pass the current [system time](javascript:call_link\('abensystem_time_glosry.htm'\) "Glossary Entry") in the format "hhmmss" to the variable tim instead of sy-uzeit, and none of the system fields are updated. The return value of the statement has data type t. The following can be specified for tim:
+The addition FIELD is used to pass the current [system time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_time_glosry.htm "Glossary Entry") in the format "hhmmss" to the variable tim instead of sy-uzeit, and none of the system fields are updated. The return value of the statement has data type t. The following can be specified for tim:
 
 -   An existing variable of the data type t or a variable to which the type t can be converted.
     
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)), where a variable of type t is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm), where a variable of type t is declared.
     
 
 Example

@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Addressing ABAP Data](javascript:call_link\('abenst_addressing.htm'\)) →  [ST - Addressing Data Nodes](javascript:call_link\('abenst_addressing_nodes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_st.htm) →  [ST - Addressing ABAP Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_addressing.htm) →  [ST - Addressing Data Nodes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_addressing_nodes.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ST%20-%20Addressing%20Subnodes%2C%20ABENST_ADDRESSING_SUBNODES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ST - Addressing Subnodes
 
-When addressing subnodes, it is important to distinguish between a defined and undefined [current node](javascript:call_link\('abenst_tt_ref.htm'\)).
+When addressing subnodes, it is important to distinguish between a defined and undefined [current node](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_ref.htm).
 
 Subnodes when the Current Node is Undefined   
 
@@ -18,7 +18,7 @@ If the current node is undefined, the subnodes of the data root of the template 
 
 name.node1.node2. ...
 
-Here, name is the symbolic name of a [data root](javascript:call_link\('abenst_tt_root.htm'\)) and node1, node2, ... are the actual names of components of the hierarchy levels 1, 2, ... When the transformation is executed, the ABAP data object bound to the data root must have a structured type with the corresponding components.
+Here, name is the symbolic name of a [data root](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_root.htm) and node1, node2, ... are the actual names of components of the hierarchy levels 1, 2, ... When the transformation is executed, the ABAP data object bound to the data root must have a structured type with the corresponding components.
 
 Hint
 
@@ -76,4 +76,4 @@ The following ST program DEMO\_ST\_ADDRESSING\_SUBNODES can be used to serialize
   </tt:template>
 </tt:transform>
 
-For each tt:value statement, the current node is set individually to a subnode of the data root. Otherwise the current node is undefined, and the data root ROOT can be addressed using its name. Also see the example for calling a transformation in the [tt:value, Structures](javascript:call_link\('abenst_tt_value_structure.htm'\)) section.
+For each tt:value statement, the current node is set individually to a subnode of the data root. Otherwise the current node is undefined, and the data root ROOT can be addressed using its name. Also see the example for calling a transformation in the [tt:value, Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_value_structure.htm) section.

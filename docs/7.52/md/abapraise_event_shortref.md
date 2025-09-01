@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  R
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  R
 
 RAISE EVENT - Quick reference
 
-[Reference](javascript:call_link\('abapraise_event.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_event.htm)
 
 Syntax
 
@@ -21,4 +21,4 @@ Raises an event in a method.
 Addition
 
 -   EXPORTING p1 = a1 p2 = a2 ...
-    Passes actual parameters a1, a2, ... to the input parameter p1, p2 of the [event handler](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry").
+    Passes actual parameters a1, a2, ... to the input parameter p1, p2 of the [event handler](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevent_handler_glosry.htm "Glossary Entry").

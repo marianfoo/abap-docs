@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 Object Services
 
-[Interfaces](javascript:call_link\('abeninterface_oo_glosry.htm'\) "Glossary Entry") and [classes](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry") from the [class library](javascript:call_link\('abenclass_library_glosry.htm'\) "Glossary Entry") with the prefixes IF\_OS\_ and CL\_OS\_. Object services provide [persistence services](javascript:call_link\('abenpersistence_service_glosry.htm'\) "Glossary Entry") and [transaction services](javascript:call_link\('abentransaction_service_glosry.htm'\) "Glossary Entry") that are used to manage [persistent objects](javascript:call_link\('abenpersistent_object_glosry.htm'\) "Glossary Entry") and object-oriented transactions. There is also a [query service](javascript:call_link\('abenquery_service_glosry.htm'\) "Glossary Entry") for finding and loading persistent objects.
+[Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_oo_glosry.htm "Glossary Entry") and [classes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_glosry.htm "Glossary Entry") from the [class library](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_library_glosry.htm "Glossary Entry") with the prefixes IF\_OS\_ and CL\_OS\_. Object services provide [persistence services](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpersistence_service_glosry.htm "Glossary Entry") and [transaction services](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_service_glosry.htm "Glossary Entry") that are used to manage [persistent objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpersistent_object_glosry.htm "Glossary Entry") and object-oriented transactions. There is also a [query service](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquery_service_glosry.htm "Glossary Entry") for finding and loading persistent objects.
 
-[→ More](javascript:call_link\('abenabap_object_services.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_object_services.htm)

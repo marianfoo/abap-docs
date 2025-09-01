@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrobust_abap_guidl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_guidl.htm) → 
 
 Selecting the Table Category
 
@@ -45,12 +45,12 @@ Particularly for tables with a lot of rows, you have to select the appropriate t
 -   Hashed Tables
     This table category is useful if key accesses are the central operation for table entries, if the tables are large, and if a unique key can be defined.
 
-In addition to the processing speed, memory requirements can also play an important role. If this is supposed to be optimized according to [Consider the Ratio of Administration and Application Data](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline"), you must also take into account the administration costs of the table categories.
+In addition to the processing speed, memory requirements can also play an important role. If this is supposed to be optimized according to [Consider the Ratio of Administration and Application Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline"), you must also take into account the administration costs of the table categories.
 
--   Standard tables and sorted tables (index tables) that are managed via a table index, incur the least [administration costs](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline") (6 bytes for each line on average). As long as the logical order in the table index corresponds to the physical order in the table body, a standard table does not incur any line-related administration costs. This is the case if you always append lines after the last line or delete only the last line.
+-   Standard tables and sorted tables (index tables) that are managed via a table index, incur the least [administration costs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline") (6 bytes for each line on average). As long as the logical order in the table index corresponds to the physical order in the table body, a standard table does not incur any line-related administration costs. This is the case if you always append lines after the last line or delete only the last line.
 
--   Hashed tables require considerably more space for their [administration data](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline") than index tables (18 or 30 bytes for each line on average).
+-   Hashed tables require considerably more space for their [administration data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline") than index tables (18 or 30 bytes for each line on average).
 
 Depending on the length of the key and the number of lines in an internal table, the access via a sorted key can be as fast as or even faster than using a hashed table. In such a case, and if the memory space is critical, you should work with a sorted table instead of a hashed table.
 
-If you use [secondary keys](javascript:call_link\('abensecondary_key_guidl.htm'\) "Guideline"), the rules mentioned here may be qualified to a certain degree, as the overall costs need to be considered in this case.
+If you use [secondary keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_key_guidl.htm "Guideline"), the rules mentioned here may be qualified to a certain degree, as the overall costs need to be considered in this case.

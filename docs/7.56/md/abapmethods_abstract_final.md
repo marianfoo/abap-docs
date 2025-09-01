@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces (ABAP Objects)](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [ABAP Objects - Methods](javascript:call_link\('abenmethods.htm'\)) →  [METHODS](javascript:call_link\('abapmethods.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_declarations.htm) →  [Classes and Interfaces (ABAP Objects)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_ifac_components.htm) →  [ABAP Objects - Methods](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethods.htm) →  [METHODS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods.htm) → 
 
 METHODS, ABSTRACT, FINAL
 
-[Short Reference](javascript:call_link\('abapmethods_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_shortref.htm)
 
 Syntax
 
@@ -29,7 +29,7 @@ Addition 1  
 
 Effect
 
-The addition ABSTRACT defines an abstract method meth. The addition ABSTRACT is allowed only in abstract classes, not in interfaces. An abstract method is not implemented in the implementation part of its class. To implement an abstract method, it must be redefined in a [specific](javascript:call_link\('abenconcrete_glosry.htm'\) "Glossary Entry") subclass using the addition REDEFINITION. Private methods cannot be redefined and can therefore not be declared as abstract.
+The addition ABSTRACT defines an abstract method meth. The addition ABSTRACT is allowed only in abstract classes, not in interfaces. An abstract method is not implemented in the implementation part of its class. To implement an abstract method, it must be redefined in a [specific](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconcrete_glosry.htm "Glossary Entry") subclass using the addition REDEFINITION. Private methods cannot be redefined and can therefore not be declared as abstract.
 
 Hints
 
@@ -62,7 +62,7 @@ Addition 2  
 
 Effect
 
-The addition FINAL defines a final method meth. The addition FINAL is allowed only in classes, not in interfaces. A final method cannot be redefined in a subclass. In final classes, all methods are automatically final and the addition FINAL is not allowed. An instance constructor [constructor](javascript:call_link\('abapmethods_constructor.htm'\)) is always final and FINAL can be specified but is not mandatory.
+The addition FINAL defines a final method meth. The addition FINAL is allowed only in classes, not in interfaces. A final method cannot be redefined in a subclass. In final classes, all methods are automatically final and the addition FINAL is not allowed. An instance constructor [constructor](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_constructor.htm) is always final and FINAL can be specified but is not mandatory.
 
 Hints
 

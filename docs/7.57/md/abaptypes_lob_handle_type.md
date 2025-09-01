@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Types](javascript:call_link\('abentypes_statements.htm'\)) →  [TYPES](javascript:call_link\('abaptypes.htm'\)) →  [TYPES, LOB HANDLE](javascript:call_link\('abaptypes_lob_handle.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentypes_and_objects.htm) →  [Declaring Data Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentypes_statements.htm) →  [TYPES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes.htm) →  [TYPES, LOB HANDLE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_lob_handle.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: TYPES, lob_handle_type, ABAPTYPES_LOB_HANDLE_TYPE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%
 0D%0A%0D%0ASuggestion for improvement:)
@@ -18,24 +18,24 @@ Syntax
 
 Effect
 
-These additions define the static type of the [LOB handle components](javascript:call_link\('abenlob_handle_component_glosry.htm'\) "Glossary Entry") when deriving a [LOB handle structure](javascript:call_link\('abenlob_handle_component_glosry.htm'\) "Glossary Entry") using the statement [TYPES](javascript:call_link\('abaptypes_lob_handle.htm'\)).
+These additions define the static type of the [LOB handle components](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlob_handle_component_glosry.htm "Glossary Entry") when deriving a [LOB handle structure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlob_handle_component_glosry.htm "Glossary Entry") using the statement [TYPES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_lob_handle.htm).
 
 -   The addition READER defines the following:
-    -   The static type CL\_ABAP\_DB\_X\_READER for [BLOBs](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry")
-    -   The static type CL\_ABAP\_DB\_C\_READER for [CLOBs](javascript:call_link\('abenclob_glosry.htm'\) "Glossary Entry")
+    -   The static type CL\_ABAP\_DB\_X\_READER for [BLOBs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenblob_glosry.htm "Glossary Entry")
+    -   The static type CL\_ABAP\_DB\_C\_READER for [CLOBs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclob_glosry.htm "Glossary Entry")
 -   The addition WRITER defines the following:
-    -   The static type CL\_ABAP\_DB\_X\_WRITER for [BLOBs](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry")
-    -   The static type CL\_ABAP\_DB\_C\_WRITER for [CLOBs](javascript:call_link\('abenclob_glosry.htm'\) "Glossary Entry")
+    -   The static type CL\_ABAP\_DB\_X\_WRITER for [BLOBs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenblob_glosry.htm "Glossary Entry")
+    -   The static type CL\_ABAP\_DB\_C\_WRITER for [CLOBs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclob_glosry.htm "Glossary Entry")
 -   The addition LOCATOR defines the following:
-    -   The static type CL\_ABAP\_DB\_X\_LOCATOR for [BLOBs](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry")
-    -   The static type CL\_ABAP\_DB\_C\_LOCATOR for [CLOBs](javascript:call_link\('abenclob_glosry.htm'\) "Glossary Entry")
+    -   The static type CL\_ABAP\_DB\_X\_LOCATOR for [BLOBs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenblob_glosry.htm "Glossary Entry")
+    -   The static type CL\_ABAP\_DB\_C\_LOCATOR for [CLOBs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclob_glosry.htm "Glossary Entry")
 -   The addition LOB HANDLE defines the following:
-    -   The static type IF\_ABAP\_DB\_BLOB\_HANDLE for [BLOBs](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry")
-    -   The static type IF\_ABAP\_DB\_CLOB\_HANDLE for [CLOBs](javascript:call_link\('abenclob_glosry.htm'\) "Glossary Entry")
+    -   The static type IF\_ABAP\_DB\_BLOB\_HANDLE for [BLOBs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenblob_glosry.htm "Glossary Entry")
+    -   The static type IF\_ABAP\_DB\_CLOB\_HANDLE for [CLOBs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclob_glosry.htm "Glossary Entry")
 
-The additions READER and WRITER cannot be used together in the statement [TYPES](javascript:call_link\('abaptypes_lob_handle.htm'\)). Furthermore, WRITER cannot be used together with LOB HANDLE.
+The additions READER and WRITER cannot be used together in the statement [TYPES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_lob_handle.htm). Furthermore, WRITER cannot be used together with LOB HANDLE.
 
-The combination options with the column specifications [lob\_handle\_columns](javascript:call_link\('abaptypes_lob_handle_columns.htm'\)) are explained in the statement [TYPES](javascript:call_link\('abaptypes_lob_handle.htm'\)).
+The combination options with the column specifications [lob\_handle\_columns](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_lob_handle_columns.htm) are explained in the statement [TYPES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_lob_handle.htm).
 
 Example
 
@@ -48,4 +48,4 @@ TYPES lob\_handle TYPE demo\_lob\_table
 
 Executable Example
 
-[Deriving LOB Handle Structures](javascript:call_link\('abentypes_lob_handle_abexa.htm'\))
+[Deriving LOB Handle Structures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentypes_lob_handle_abexa.htm)

@@ -3,33 +3,7 @@
 Included pages: 14
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenprint.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm)
-- [abenprint_on_off.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_on_off.htm)
-- [abenprint_spool.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_spool.htm)
-- [abenprint_parameters.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters.htm)
-- [abenprint_control.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_control.htm)
-- [abapset_margin.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_margin.htm)
-- [abapprint-control.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control.htm)
-- [abenprint_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_screen.htm)
-- [abenprint_list_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_list_abexa.htm)
-
-**Bundle Contains**: 9 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.234Z
-
----
-
 ### abenprint.htm
-
-> **📖 Official SAP Documentation**: [abenprint.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -37,57 +11,50 @@ Included pages: 14
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) → 
 
 Spooling Lists
 
-The "spooling" of lists means the list output is not put in the [list buffer](javascript:call_link\('abenlist_buffer_glosry.htm'\) "Glossary Entry") for [screen lists](javascript:call_link\('abenscreen_list_glosry.htm'\) "Glossary Entry"), instead it is passed, page by page, to the [SAP spool system](javascript:call_link\('abensap_spool_system_glosry.htm'\) "Glossary Entry"). After a page has been passed, it is deleted from the ABAP runtime environment and only exists in the SAP spool system.
+The "spooling" of lists means the list output is not put in the [list buffer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlist_buffer_glosry.htm "Glossary Entry") for [screen lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_list_glosry.htm "Glossary Entry"), instead it is passed, page by page, to the [SAP spool system](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_spool_system_glosry.htm "Glossary Entry"). After a page has been passed, it is deleted from the ABAP runtime environment and only exists in the SAP spool system.
 
 The size of a spool list is therefore only limited by the intake capacity of the spool system, and can be very large. On the other hand, when spool lists are created, it is not possible to refer to previous pages.
 
-Each spooling of list output is associated with a [spool request](javascript:call_link\('abenspool_request_glosry.htm'\) "Glossary Entry"). The list pages that are passed to a spool request comprise a [spool list](javascript:call_link\('abenprint_list_glosry.htm'\) "Glossary Entry"). The spool list of a spool request can be
+Each spooling of list output is associated with a [spool request](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenspool_request_glosry.htm "Glossary Entry"). The list pages that are passed to a spool request comprise a [spool list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_list_glosry.htm "Glossary Entry"). The spool list of a spool request can be
 
 -   kept in the spool system,
 
 -   printed on a printer, or
 
--   archived using [ArchiveLink](javascript:call_link\('abensap_archivelink_glosry.htm'\) "Glossary Entry").
+-   archived using [ArchiveLink](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_archivelink_glosry.htm "Glossary Entry").
 
 For the spooling of lists, both the activation and deactivation of spooling and the association with spool requests are important.
 
--   [Switching Spooling On and Off](javascript:call_link\('abenprint_on_off.htm'\))
+-   [Switching Spooling On and Off](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_on_off.htm)
 
--   [Spool List Levels and Spool Requests](javascript:call_link\('abenprint_spool.htm'\))
+-   [Spool List Levels and Spool Requests](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_spool.htm)
 
 The following topics also play a role in spooling lists:
 
--   [Spool Parameters](javascript:call_link\('abenprint_parameters.htm'\))
+-   [Spool Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters.htm)
 
--   [Spool Control](javascript:call_link\('abenprint_control.htm'\))
+-   [Spool Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_control.htm)
 
--   [Spooling Screen Lists](javascript:call_link\('abenprint_screen.htm'\))
+-   [Spooling Screen Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_screen.htm)
 
 Note
 
 Separate solutions are provided for form-based output of data, instead of spool lists. For example, search the [SAP Help Portal](http://help.sap.com) for the term "form".
 
 Continue
-[Switching Spooling On and Off](javascript:call_link\('abenprint_on_off.htm'\))
-[Spool List Levels and Spool Requests](javascript:call_link\('abenprint_spool.htm'\))
-[spool parameter](javascript:call_link\('abenprint_parameters.htm'\))
-[Spool Control](javascript:call_link\('abenprint_control.htm'\))
-[Spooling Screen Lists](javascript:call_link\('abenprint_screen.htm'\))
-![Example](exa.gif "Example") [Spooling Lists](javascript:call_link\('abenprint_list_abexa.htm'\))
+[Switching Spooling On and Off](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_on_off.htm)
+[Spool List Levels and Spool Requests](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_spool.htm)
+[spool parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters.htm)
+[Spool Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_control.htm)
+[Spooling Screen Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_screen.htm)
+![Example](exa.gif "Example") [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_list_abexa.htm)
 
-
-
-**📖 Source**: [abenprint.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm)
 
 ### abenprint_on_off.htm
-
-> **📖 Official SAP Documentation**: [abenprint_on_off.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_on_off.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -95,23 +62,23 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Spooling Lists](javascript:call_link\('abenprint.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) → 
 
 Switching Spooling On and Off
 
 As long as spooling is switched off, all list output is written to the list buffer for the current screen list. When spooling is switched on, a spool list is created. Spooling can be switched on as follows:
 
--   Use the statement [NEW-PAGE PRINT ON](javascript:call_link\('abapnew-page_print.htm'\)).
+-   Use the statement [NEW-PAGE PRINT ON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print.htm).
 
--   Choose the function Execute + Print on the [standard selection screen](javascript:call_link\('abenstandard_selscreen_glosry.htm'\) "Glossary Entry") of an executable program.
+-   Choose the function Execute + Print on the [standard selection screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_selscreen_glosry.htm "Glossary Entry") of an executable program.
 
--   Call an executable program with the addition [TO SAP-SPOOL](javascript:call_link\('abapsubmit_list_options.htm'\)) of the statement [SUBMIT](javascript:call_link\('abapsubmit.htm'\)).
+-   Call an executable program with the addition [TO SAP-SPOOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_list_options.htm) of the statement [SUBMIT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit.htm).
 
--   Schedule an executable program in a background job using the additions [VIA JOB](javascript:call_link\('abapsubmit_via_job.htm'\)) and [TO SAP-SPOOL](javascript:call_link\('abapsubmit_list_options.htm'\)) of the statement [SUBMIT](javascript:call_link\('abapsubmit.htm'\)).
+-   Schedule an executable program in a background job using the additions [VIA JOB](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_via_job.htm) and [TO SAP-SPOOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_list_options.htm) of the statement [SUBMIT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit.htm).
 
-If NEW-PAGE PRINT ON is used, spooling is switched on explicitly in the program. With the other three options, spooling is switched on from the start of execution of an executable program. Switching on spooling opens a new [spool list level](javascript:call_link\('abenprint_list_level_glosry.htm'\) "Glossary Entry").
+If NEW-PAGE PRINT ON is used, spooling is switched on explicitly in the program. With the other three options, spooling is switched on from the start of execution of an executable program. Switching on spooling opens a new [spool list level](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_list_level_glosry.htm "Glossary Entry").
 
-Only spooling switched on with NEW-PAGE PRINT ON can be switched off again using NEW-PAGE PRINT OFF. Spooling that is switched on at the start of a program cannot be switched off within this same program. In particular, spooling is always switched on when executing a program in [background processing](javascript:call_link\('abenbackround_processing_glosry.htm'\) "Glossary Entry").
+Only spooling switched on with NEW-PAGE PRINT ON can be switched off again using NEW-PAGE PRINT OFF. Spooling that is switched on at the start of a program cannot be switched off within this same program. In particular, spooling is always switched on when executing a program in [background processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbackround_processing_glosry.htm "Glossary Entry").
 
 Examples
 
@@ -175,14 +142,7 @@ IF valid <> space.
 ENDIF.
 
 
-
-**📖 Source**: [abenprint_on_off.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_on_off.htm)
-
 ### abenprint_spool.htm
-
-> **📖 Official SAP Documentation**: [abenprint_spool.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_spool.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -190,23 +150,186 @@ ENDIF.
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Spooling Lists](javascript:call_link\('abenprint.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) → 
 
 Spool List Levels and Spool Requests
 
-Every output to a spool list is assigned to exactly one spool request. For every spool request, [spool parameters](javascript:call_link\('abenprint_parameters.htm'\)) have been specified that can no longer be changed. Spool lists can be stacked in spool list levels. A spool list level always has exactly one spool request assigned to it.
+Every output to a spool list is assigned to exactly one spool request. For every spool request, [spool parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters.htm) have been specified that can no longer be changed. Spool lists can be stacked in spool list levels. A spool list level always has exactly one spool request assigned to it.
 
--   [Spool List Levels](#abenprint-spool-1--------open-spool-requests---@ITOC@@ABENPRINT_SPOOL_2)
+-   [Spool List Levels](#@@ITOC@@ABENPRINT_SPOOL_1)
 
--   [Close Spool Requests](#abenprint-spool-3---spool-list-levels--the-following-operations-create-a-new-spool-list-level-------choose-execute---print-on-the-selection-screen------call-program-with--submit-to-sap-spool--javascript-call-link---abapsubmit-list-options-htm----------execute-a-program-in-a-background-job-------dynpro-sequence--javascript-call-link---abendynpro-sequence-glosry-htm-----glossary-entry---call-using--call-screen--javascript-call-link---abapcall-screen-htm------when-a-spool-request-is-already-open-------execute-the-statement--new-page-print-on--javascript-call-link---abapnew-page-print-htm------this-statement--however--does-not-create-a-randomly-stackable-spool-list-level-------in-a-spool-list-level-created-with-new-page-print-on--no-other-spool-list-level-can-be-created-with-new-page-print-on--however--the-other-operations-for-creating-spool-list-levels-are-still-valid--if-the-addition-new-section-is-used-in-new-page-print-on--the-existing-request-is-used-further-or-it-is-closed-implicitly-before-a-new-one-is-opened-------in-a-spool-list-level-not-created-with-new-page-print-on-or-while-creating-a-screen-list--no-more-than-one-spool-list-level-can-be-created-using-new-page-print-on---a-spool-list-level-created-with-new-page-print-on-can-thus-be-stacked-only-upon-a-spool-list-level-that-has-not-been-created-with-new-page-print-on-or-into-the-creation-of-a-screen-list---up-to-20-spool-list-levels-can-be-stacked---open-spool-requests--the-first-output-statement-within-a-spool-list-level-opens-a-new-spool-request--whose-number-is-placed-into-system-field-sy-spono--if-another-spool-request-is-already-open--it-remains-open-and-is-used-further-after-the-spool-list-level-has-been-left--in-a-spool-list-level-that-has-been-created-by-calling-a-dynpro-sequence--the-spool-request-inherits-the-spool-parameters-of-the-preceding-spool-request--in-all-other-cases--the-explicitly-specified-spool-parameters-apply---close-spool-requests--when-leaving-a-spool-list-level-that-was-not-opened-with-new-page-print-on--i-e--at-the-end-of-the-program-or-when-leaving-a-dynpro-sequence--the-spool-request-associated-with-the-spool-list-level-is-closed--if-a-spool-request-stacked-upon-the-spool-list-level-with-new-page-print-on-has-not-yet-been-closed-using-new-page-print-off--it-will-also-be-closed--subsequent-output-statements-continue-to-write-to-the-spool-list-of-the-previous-spool-request-or-to-the-current-screen-list---the-statement-new-page-print-off-closes-only-spool-requests-for-which-spooling-was-activated-using-new-page-print-on--if-after-that-no-previous-spool-request-is-open--spooling-is-switched-off-again--i-e--subsequent-output-statements-continue-to-write-to-the-screen-list--if-a-previous-spool-request-existed--spooling-remains-activated-and-the-output-is-again-written-into-its-spool-list--new-page-print-off-is-ignored-by-spool-requests-not-opened-using-new-page-print-on---after-closing-a-spool-request--the-number-of-the-closed-spool-request-remains-in-system-field-sy-spono-until-an-output-statement-again-writes-into-a-spool-list--this-may-be-a-new-spool-list-or-the-list-of-a-previous-spool-request--if-after-closing-a-spool-request-a-previous-spool-request-exists--the-number-in-sy-spono-differs-from-the-number-of-that-request-until-another-output-into-its-spool-list-is-performed---note--it-is-best-always-to-close-a-spool-request-that-was-opened-using-new-page-print-on-explicitly-using-new-page-print-off--before-it-is-closed-implicitly-at-the-end-of-the-program-or-when-leaving-a-dynpro-sequence---executable-example---lists--spooling--javascript-call-link---abenprint-list-abexa-htm------------abenprint-parameters-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------sap-gui-user-dialogs--javascript-call-link---abenabap-screens-htm---------classic-lists--javascript-call-link---abenabap-dynpro-list-htm---------spooling-lists--javascript-call-link---abenprint-htm---------spool-parameter--for-every--spool-request--javascript-call-link---abenprint-spool-htm------spool-parameters-must-be-defined-that-are-used-to-format-the-spool-list-when-the-list-is-created--and-to-control-the-request---in-the-abap-statements--new-page-print-on--javascript-call-link---abapnew-page-print-htm-----and--submit-to-sap-spool--javascript-call-link---abapsubmit-print-parameters-htm-----the-spool-parameters-are-specified-in-a-structure-of-type-pri--params-from-abap-dictionary--spool-parameters-can-be-enhanced-by-archiving-parameters-if-the-data-of-the-spool-request-is-to-be-archived-using-archivelink--to-do-this--optical-archiving-using--archivelink--javascript-call-link---abensap-archivelink-glosry-htm-----glossary-entry---is-switched-on--archiving-mode-2-or-3--in-the-spool-parameters--archiving-parameters-are-specified-in-a-structure-of-type-arc--params-from-the-abap-dictionary---the-spool-parameters-are-specified-either-explicitly-or-implicitly--the-end-user-can-set-them-directly-in-the-spool-dialog-box-or-the-spool-parameters-can-be-set-in-the-program-code--------spool-dialog-box--javascript-call-link---abenprint-parameters-window-htm-----------setting-program-driven-spool-parameters--javascript-call-link---abenprint-parameters-function-htm-----------overview-of-all-spool-parameters--javascript-call-link---abenprint-parameters-overview-htm------note--the-content-of-the-structures-pri--params-and-arc--params-cannot-be-modified-directly-in-programs--only-the-function-module-get--print--parameters-can-be-used-for-this---continue--spool-dialog-box--javascript-call-link---abenprint-parameters-window-htm------setting-program-driven-spool-parameters--javascript-call-link---abenprint-parameters-function-htm------overview-of-all-spool-parameters--javascript-call-link---abenprint-parameters-overview-htm-----------abenprint-parameters-window-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------sap-gui-user-dialogs--javascript-call-link---abenabap-screens-htm---------classic-lists--javascript-call-link---abenabap-dynpro-list-htm---------spooling-lists--javascript-call-link---abenprint-htm---------spool-parameter--javascript-call-link---abenprint-parameters-htm---------spool-dialog-box--the-spool-dialog-box-makes-it-possible-to-interactively-determine-all-spool-parameters-and-checks-the-input-values-for-consistency-and-completeness--the-call-is-either-automatic-or-program-controlled-------the-spool-dialog-box-appears-automatically-if-a-user-chooses-execute-and-print-on-the-selection-screen--and-also-when--spooling-screen-lists--javascript-call-link---abenprint-screen-htm------in-these-cases--the-spool-dialog-box-cannot-be-suppressed-------the-get--print--parameters-function-module-can-be-used-to-call-the-spool-dialog-box-in-a-program---when-the-spool-dialog-box-is-called-automatically--the-set--print--parameters-function-module-can-be-used-to-set-standard-values--the-set--print--parameters-function-module-mainly-has-the-same-import-parameters-as-the-get--print--parameters-function-module--refer-to--overview-of-all-spool-parameters--javascript-call-link---abenprint-parameters-overview-htm------and-no-export-parameters--an-additional-input-parameter-called-foot--line-is-used-when--spooling-a-screen-list--javascript-call-link---abenprint-screen-htm-----and-defines-that-a-footer-is-printed--it-is-only-respected-here---notes------displaying-the-spool-dialog-box-using-get--print--parameters-is-the-recommended-method-for-program-driven-spooling--and-thereby-decouples-the-dialog-from-the-statements--new-page-print-on--javascript-call-link---abapnew-page-print-htm-----and--submit-to-sap-spool--javascript-call-link---abapsubmit-list-options-htm------it-is-still-possible-to-call-the-spool-dialog-box-with-the-latter--however--the-functions-back-or-cancel-cannot-be-processed-properly-------the-standard-values-for-the-spool-dialog-box-must-be-set-before-sending-the-selection-screen-or-list-to-the-screen-when-the-spool-dialog-box-is-called-automatically--it-is-recommended-that-set--print--parameters-only-be-used-at-the--initialization--javascript-call-link---abapinitialization-htm-----event-of-an-executable-program-------using-set--print--parameters-only-allows-the-setting-those-spool-parameters-that-are-stored-in-components-of-the-pri--params-structure--------abenprint-parameters-function-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------sap-gui-user-dialogs--javascript-call-link---abenabap-screens-htm---------classic-lists--javascript-call-link---abenabap-dynpro-list-htm---------spooling-lists--javascript-call-link---abenprint-htm---------spool-parameter--javascript-call-link---abenprint-parameters-htm---------setting-program-driven-spool-parameters--spool-and-archiving-parameters-can-only-be-set-in-a-program-using-the-following-function-module--get--print--parameters--if-the-corresponding-structure-is-changed-directly-and-then-the-parameters-in-question-used-in-new-page-print-on-or-submit-to-sap-spool--a-runtime-error-occurs--the-get--print--parameters-function-module-can-be-used-to-execute-the-following-functions-------creating-a-complete-set-of-spool-and-archiving-parameters-------determining-the-spool-parameters-that-are-currently-valid-during-spooling------changing-individual-spool-parameters------interactive-querying-of-the-spool-parameters-in-the-spool-dialog-box--the-interface-parameters-for-the-function-module-are-listed-in--overview-of-all-spool-parameters--javascript-call-link---abenprint-parameters-overview-htm-------the--spool-dialog-box--javascript-call-link---abenprint-parameters-window-htm-----is-displayed-by-default-and-can-be-switched-off-using-the-parameter-no--dialog--the-values-passed-to-the-function-module-are-used-as-the-default-values-in-the-spool-dialog-box-and-can-be-overwritten-there---the-function-module-gets-all-parameters-that-have-not-been-set-from-the-system--taking-some-values-from-the-user-master-record--dependent-parameters-are-set-automatically--if-the-function-module-is-unable-to-create-a-record-with-valid-spool-and-archiving-parameters--it-raises-an-exception--the-new-records-are-either-complete-or-empty--the-export-parameter-valid--if-the-spool-dialog-box-is-being-used--indicates-whether-a-complete-record-could-be-created---notes------for-get--print--parameters--the-completeness-of-the-parameter-records-and-the-run-capability-of-the-spool-request-are-of-primary-importance--the-function-module-does-not-carry-out-a-complete-consistency-test-like-the-spool-dialog-box--consistency-is-only-established-in-cases-where-it-is-significant-for-the-run-capability-of-the-spool-request--inconsistent-entries-are-partly-ignored--partly-replaced--for-example-------the-input-parameter-line--size-or-line--count-can-be-used-to-set-values-that-are-not-compatible-with-the-parameter-layout-and-produce-truncated-output--such-inconsistencies-are-recognized-in-the-spool-dialog-box-------even-if-invalid-values-are-passed-to-destination--it-is-still-possible-to-set-immediately-to--x---the-function-module-replaces-the-output-device-with-a-standard-value--lp01--and-initializes-immediately--this-causes-the-spool-system-to-store-the-request-using-the-settings-that-go-with-the-default-printer-------the-get--print--parameters-function-module-can-be-called-multiple-times-consecutively--for-example--the-spool-dialog-box-can-be-called-at-the-start-of-a-program-if-the-user-enters-the-basic-setting--when-it-is-called-again--the-parameter-records-created-in-this-way-can-be-passed-collectively-to-the-import-parameters-pri--params-and-arc--params-of-the-function-module-and-overwritten-there--this-enables-the-spooling-of-wide-lists-in-landscape-format-or-narrow-lists-in-portrait-format-with-otherwise-unchanged-settings--------abenprint-parameters-overview-htm-------------as-abap-release-753---copyright-2019-sap-ag--all-rights-reserved----abap-keyword-documentation--javascript-call-link---abenabap-htm---------abap---reference--javascript-call-link---abenabap-reference-htm---------sap-gui-user-dialogs--javascript-call-link---abenabap-screens-htm---------classic-lists--javascript-call-link---abenabap-dynpro-list-htm---------spooling-lists--javascript-call-link---abenprint-htm---------spool-parameter--javascript-call-link---abenprint-parameters-htm---------overview-of-all-spool-parameters-------spool-parameters---@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_1)
+-   [Open Spool Requests](#@@ITOC@@ABENPRINT_SPOOL_2)
 
--   [Archiving Parameters](#abenprint-parameters-overview-2--------control-parameters---@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_3)
+-   [Close Spool Requests](#@@ITOC@@ABENPRINT_SPOOL_3)
+
+Spool List Levels
+
+The following operations create a new spool list level:
+
+-   Choose Execute + Print on the selection screen
+
+-   Call program with [SUBMIT TO SAP-SPOOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_list_options.htm)
+
+-   Execute a program in a background job
+
+-   [Dynpro sequence](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_sequence_glosry.htm "Glossary Entry") call using [CALL SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_screen.htm), when a spool request is already open.
+
+-   Execute the statement [NEW-PAGE PRINT ON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print.htm). This statement, however, does not create a randomly stackable spool list level.
+
+-   In a spool list level created with NEW-PAGE PRINT ON, no other spool list level can be created with NEW-PAGE PRINT ON. However, the other operations for creating spool list levels are still valid. If the addition NEW SECTION is used in NEW-PAGE PRINT ON, the existing request is used further or it is closed implicitly before a new one is opened.
+
+-   In a spool list level not created with NEW-PAGE PRINT ON or while creating a screen list, no more than one spool list level can be created using NEW-PAGE PRINT ON.
+
+A spool list level created with NEW-PAGE PRINT ON can thus be stacked only upon a spool list level that has not been created with NEW-PAGE PRINT ON or into the creation of a screen list.
+
+Up to 20 spool list levels can be stacked.
+
+Open Spool Requests
+
+The first output statement within a spool list level opens a new spool request, whose number is placed into system field sy-spono. If another spool request is already open, it remains open and is used further after the spool list level has been left. In a spool list level that has been created by calling a dynpro sequence, the spool request inherits the spool parameters of the preceding spool request. In all other cases, the explicitly specified spool parameters apply.
+
+Close Spool Requests
+
+When leaving a spool list level that was not opened with NEW-PAGE PRINT ON, i.e. at the end of the program or when leaving a dynpro sequence, the spool request associated with the spool list level is closed. If a spool request stacked upon the spool list level with NEW-PAGE PRINT ON has not yet been closed using NEW-PAGE PRINT OFF, it will also be closed. Subsequent output statements continue to write to the spool list of the previous spool request or to the current screen list.
+
+The statement NEW-PAGE PRINT OFF closes only spool requests for which spooling was activated using NEW-PAGE PRINT ON. If after that no previous spool request is open, spooling is switched off again, i.e. subsequent output statements continue to write to the screen list. If a previous spool request existed, spooling remains activated and the output is again written into its spool list. NEW-PAGE PRINT OFF is ignored by spool requests not opened using NEW-PAGE PRINT ON.
+
+After closing a spool request, the number of the closed spool request remains in system field sy-spono until an output statement again writes into a spool list. This may be a new spool list or the list of a previous spool request. If after closing a spool request a previous spool request exists, the number in sy-spono differs from the number of that request until another output into its spool list is performed.
+
+Note
+
+It is best always to close a spool request that was opened using NEW-PAGE PRINT ON explicitly using NEW-PAGE PRINT OFF, before it is closed implicitly at the end of the program or when leaving a dynpro sequence.
+
+Executable Example
+
+[Lists, Spooling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_list_abexa.htm).
+
+
+### abenprint_parameters.htm
+
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) → 
+
+spool parameter
+
+For every [spool request](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_spool.htm), spool parameters must be defined that are used to format the spool list when the list is created, and to control the request.
+
+In the ABAP statements [NEW-PAGE PRINT ON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print.htm) and [SUBMIT TO SAP-SPOOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_print_parameters.htm) the spool parameters are specified in a structure of type PRI\_PARAMS from ABAP Dictionary. Spool parameters can be enhanced by archiving parameters if the data of the spool request is to be archived using ArchiveLink. To do this, optical archiving using [ArchiveLink](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_archivelink_glosry.htm "Glossary Entry") is switched on (archiving mode 2 or 3) in the spool parameters. Archiving parameters are specified in a structure of type ARC\_PARAMS from the ABAP Dictionary.
+
+The spool parameters are specified either explicitly or implicitly. The end user can set them directly in the spool dialog box or the spool parameters can be set in the program code.
+
+-   [Spool Dialog Box](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_window.htm)
+
+-   [Setting Program-Driven Spool Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_function.htm)
+
+-   [Overview of All Spool Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
+
+Note
+
+The content of the structures PRI\_PARAMS and ARC\_PARAMS cannot be modified directly in programs; only the function module GET\_PRINT\_PARAMETERS can be used for this.
+
+Continue
+[Spool Dialog Box](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_window.htm)
+[Setting Program-Driven Spool Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_function.htm)
+[Overview of All Spool Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
+
+
+### abenprint_parameters_window.htm
+
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) →  [spool parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters.htm) → 
+
+Spool Dialog Box
+
+The spool dialog box makes it possible to interactively determine all spool parameters and checks the input values for consistency and completeness. The call is either automatic or program controlled.
+
+-   The spool dialog box appears automatically if a user chooses Execute and Print on the selection screen, and also when [spooling screen lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_screen.htm). In these cases, the spool dialog box cannot be suppressed.
+
+-   The GET\_PRINT\_PARAMETERS function module can be used to call the spool dialog box in a program.
+
+When the spool dialog box is called automatically, the SET\_PRINT\_PARAMETERS function module can be used to set standard values. The SET\_PRINT\_PARAMETERS function module mainly has the same import parameters as the GET\_PRINT\_PARAMETERS function module (refer to [Overview of All Spool Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)) and no export parameters. An additional input parameter called FOOT\_LINE is used when [spooling a screen list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_screen.htm) and defines that a footer is printed. It is only respected here.
+
+Notes
+
+-   Displaying the spool dialog box using GET\_PRINT\_PARAMETERS is the recommended method for program-driven spooling, and thereby decouples the dialog from the statements [NEW-PAGE PRINT ON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print.htm) and [SUBMIT TO SAP SPOOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_list_options.htm). It is still possible to call the spool dialog box with the latter, however, the functions Back or Cancel cannot be processed properly.
+
+-   The standard values for the spool dialog box must be set before sending the selection screen or list to the screen when the spool dialog box is called automatically. It is recommended that SET\_PRINT\_PARAMETERS only be used at the [INITIALIZATION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinitialization.htm) event of an executable program.
+
+-   Using SET\_PRINT\_PARAMETERS only allows the setting those spool parameters that are stored in components of the PRI\_PARAMS structure.
+
+
+### abenprint_parameters_function.htm
+
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) →  [spool parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters.htm) → 
+
+Setting Program-Driven Spool Parameters
+
+Spool and archiving parameters can only be set in a program using the following function module: GET\_PRINT\_PARAMETERS. If the corresponding structure is changed directly and then the parameters in question used in NEW-PAGE PRINT ON or SUBMIT TO SAP-SPOOL, a runtime error occurs. The GET\_PRINT\_PARAMETERS function module can be used to execute the following functions:
+
+-   Creating a complete set of spool and archiving parameters.
+
+-   Determining the spool parameters that are currently valid during spooling
+
+-   Changing individual spool parameters
+
+-   Interactive querying of the spool parameters in the spool dialog box
+
+The interface parameters for the function module are listed in [Overview of All Spool Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm).
+
+The [spool dialog box](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_window.htm) is displayed by default and can be switched off using the parameter NO\_DIALOG. The values passed to the function module are used as the default values in the spool dialog box and can be overwritten there.
+
+The function module gets all parameters that have not been set from the system, taking some values from the user master record. Dependent parameters are set automatically. If the function module is unable to create a record with valid spool and archiving parameters, it raises an exception. The new records are either complete or empty. The export parameter VALID (if the spool dialog box is being used) indicates whether a complete record could be created.
+
+Notes
+
+-   For GET\_PRINT\_PARAMETERS, the completeness of the parameter records and the run capability of the spool request are of primary importance. The function module does not carry out a complete consistency test like the spool dialog box. Consistency is only established in cases where it is significant for the run capability of the spool request. Inconsistent entries are partly ignored, partly replaced. For example:
+
+-   The input parameter LINE\_SIZE or LINE\_COUNT can be used to set values that are not compatible with the parameter LAYOUT and produce truncated output. Such inconsistencies are recognized in the spool dialog box.
+
+-   Even if invalid values are passed to DESTINATION, it is still possible to set IMMEDIATELY to "X". The function module replaces the output device with a standard value (LP01) and initializes IMMEDIATELY. This causes the spool system to store the request using the settings that go with the default printer.
+
+-   The GET\_PRINT\_PARAMETERS function module can be called multiple times consecutively. For example, the spool dialog box can be called at the start of a program if the user enters the basic setting. When it is called again, the parameter records created in this way can be passed collectively to the import parameters PRI\_PARAMS and ARC\_PARAMS of the function module and overwritten there. This enables the spooling of wide lists in landscape format or narrow lists in portrait format with otherwise unchanged settings.
+
+
+### abenprint_parameters_overview.htm
+
+  
+
+* * *
+
+AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
+
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) →  [spool parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters.htm) → 
+
+Overview of All Spool Parameters
+
+-   [Spool Parameters](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_1)
+
+-   [Archiving Parameters](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_2)
+
+-   [Control Parameters](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_3)
 
 -   [Output Parameters of GET\_PRINT\_PARAMETERS](#@@ITOC@@ABENPRINT_PARAMETERS_OVERVIEW_4)
 
 Spool Parameters
 
-The following table lists all spool parameters by their associated input parameters in the function modules [GET\_PRINT\_PARAMETERS](javascript:call_link\('abenprint_parameters_function.htm'\)) and [SET\_PRINT\_PARAMETERS.](javascript:call_link\('abenprint_parameters_window.htm'\)) The second column shows the label in the spool dialog window. The third column contains the name of the component in the structure PRI\_PARAMS whose content, however, cannot be modified directly in a program.
+The following table lists all spool parameters by their associated input parameters in the function modules [GET\_PRINT\_PARAMETERS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_function.htm) and [SET\_PRINT\_PARAMETERS.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_window.htm) The second column shows the label in the spool dialog window. The third column contains the name of the component in the structure PRI\_PARAMS whose content, however, cannot be modified directly in a program.
 
 Input Parameter
 
@@ -546,7 +669,7 @@ Notes
 
 -   Requests can be archived only if these parameters are specified consistently and in full. Archiving works across all applications. With the exception of certain basic settings, no other actions are required. If spool lists need to be saved specific to an application, some special actions must be taken. For more information, see the ArchiveLink documentation on [SAP Help Portal](http://help.sap.com).
 
--   When archiving long lists, it may be useful to write index information to the list using [PRINT-CONTROL INDEX-LINE](javascript:call_link\('abapprint-control.htm'\)). This makes it easier to search the archived list at a later date.
+-   When archiving long lists, it may be useful to write index information to the list using [PRINT-CONTROL INDEX-LINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control.htm). This makes it easier to search the archived list at a later date.
 
 Control Parameters
 
@@ -619,14 +742,7 @@ VALID\_FOR\_SPOOL\_CREATION
 If "X", enough spool parameters are available to create a spool request. There is no guarantee, however, that this request can be printed or archived. If " ", the structures are empty and a spool request cannot be created. This is different from VALID only if the spool dialog box is not displayed. If the spool dialog box is displayed, VALID\_FOR\_SPOOL\_CREATION is filled just like VALID.
 
 
-
-**📖 Source**: [abenprint_spool.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_spool.htm)
-
 ### abenprint_parameters.htm
-
-> **📖 Official SAP Documentation**: [abenprint_parameters.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -634,40 +750,33 @@ If "X", enough spool parameters are available to create a spool request. There i
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Spooling Lists](javascript:call_link\('abenprint.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) → 
 
 spool parameter
 
-For every [spool request](javascript:call_link\('abenprint_spool.htm'\)), spool parameters must be defined that are used to format the spool list when the list is created, and to control the request.
+For every [spool request](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_spool.htm), spool parameters must be defined that are used to format the spool list when the list is created, and to control the request.
 
-In the ABAP statements [NEW-PAGE PRINT ON](javascript:call_link\('abapnew-page_print.htm'\)) and [SUBMIT TO SAP-SPOOL](javascript:call_link\('abapsubmit_print_parameters.htm'\)) the spool parameters are specified in a structure of type PRI\_PARAMS from ABAP Dictionary. Spool parameters can be enhanced by archiving parameters if the data of the spool request is to be archived using ArchiveLink. To do this, optical archiving using [ArchiveLink](javascript:call_link\('abensap_archivelink_glosry.htm'\) "Glossary Entry") is switched on (archiving mode 2 or 3) in the spool parameters. Archiving parameters are specified in a structure of type ARC\_PARAMS from the ABAP Dictionary.
+In the ABAP statements [NEW-PAGE PRINT ON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print.htm) and [SUBMIT TO SAP-SPOOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_print_parameters.htm) the spool parameters are specified in a structure of type PRI\_PARAMS from ABAP Dictionary. Spool parameters can be enhanced by archiving parameters if the data of the spool request is to be archived using ArchiveLink. To do this, optical archiving using [ArchiveLink](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_archivelink_glosry.htm "Glossary Entry") is switched on (archiving mode 2 or 3) in the spool parameters. Archiving parameters are specified in a structure of type ARC\_PARAMS from the ABAP Dictionary.
 
 The spool parameters are specified either explicitly or implicitly. The end user can set them directly in the spool dialog box or the spool parameters can be set in the program code.
 
--   [Spool Dialog Box](javascript:call_link\('abenprint_parameters_window.htm'\))
+-   [Spool Dialog Box](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_window.htm)
 
--   [Setting Program-Driven Spool Parameters](javascript:call_link\('abenprint_parameters_function.htm'\))
+-   [Setting Program-Driven Spool Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_function.htm)
 
--   [Overview of All Spool Parameters](javascript:call_link\('abenprint_parameters_overview.htm'\))
+-   [Overview of All Spool Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
 Note
 
 The content of the structures PRI\_PARAMS and ARC\_PARAMS cannot be modified directly in programs; only the function module GET\_PRINT\_PARAMETERS can be used for this.
 
 Continue
-[Spool Dialog Box](javascript:call_link\('abenprint_parameters_window.htm'\))
-[Setting Program-Driven Spool Parameters](javascript:call_link\('abenprint_parameters_function.htm'\))
-[Overview of All Spool Parameters](javascript:call_link\('abenprint_parameters_overview.htm'\))
+[Spool Dialog Box](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_window.htm)
+[Setting Program-Driven Spool Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_function.htm)
+[Overview of All Spool Parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters_overview.htm)
 
-
-
-**📖 Source**: [abenprint_parameters.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters.htm)
 
 ### abenprint_control.htm
-
-> **📖 Official SAP Documentation**: [abenprint_control.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_control.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -675,35 +784,28 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Spooling Lists](javascript:call_link\('abenprint.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) → 
 
 Spool Control
 
 Configuring the Upper and Left Margins
 
-The statement [SET MARGIN](javascript:call_link\('abapset_margin.htm'\)) can be used to define the upper and left margins of a spool list.
+The statement [SET MARGIN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_margin.htm) can be used to define the upper and left margins of a spool list.
 
 Archiving Information in Spool Lists
 
-When spooling is active, the statement [PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\)) can be used to write formatting information for optical archiving to the spool system.
+When spooling is active, the statement [PRINT-CONTROL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control.htm) can be used to write formatting information for optical archiving to the spool system.
 
 Obsolete Formatting of Spool Lists
 
-When spooling is active, an [obsolete variant](javascript:call_link\('abapprint-control_obsolete.htm'\)) of the statement PRINT-CONTROL can be used to write control statements for output devices (printers) to the spool system.
+When spooling is active, an [obsolete variant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control_obsolete.htm) of the statement PRINT-CONTROL can be used to write control statements for output devices (printers) to the spool system.
 
 Continue
-[SET MARGIN](javascript:call_link\('abapset_margin.htm'\))
-[PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\))
+[SET MARGIN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_margin.htm)
+[PRINT-CONTROL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control.htm)
 
-
-
-**📖 Source**: [abenprint_control.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_control.htm)
 
 ### abapset_margin.htm
-
-> **📖 Official SAP Documentation**: [abapset_margin.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_margin.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -711,11 +813,11 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Spooling Lists](javascript:call_link\('abenprint.htm'\)) →  [Spool Control](javascript:call_link\('abenprint_control.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) →  [Spool Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_control.htm) → 
 
 SET MARGIN
 
-[Quick Reference](javascript:call_link\('abapset_margin_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_margin_shortref.htm)
 
 Syntax
 
@@ -727,21 +829,14 @@ This statement defines the left margin of a spool list as the columns specified 
 
 The set values apply to the current page and all subsequent pages until the next SET MARGIN statement. If more than one SET MARGIN statement is specified on a page, the last one is used.
 
-SET MARGIN is ignored when screen lists are displayed. The set margins are only inserted in the list as blanks or empty lines if a list page is sent to the SAP spool system. This applies to spool lists created using [NEW-PAGE PRINT ON](javascript:call_link\('abapnew-page_print.htm'\)), [SUBMIT TO SAP-SPOOL](javascript:call_link\('abapsubmit_list_options.htm'\)), and by the selection of Execute and Print on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry"). SET MARGIN also applies if a screen list is spooled while it is being displayed, when Print (function code "PRI") is selected.
+SET MARGIN is ignored when screen lists are displayed. The set margins are only inserted in the list as blanks or empty lines if a list page is sent to the SAP spool system. This applies to spool lists created using [NEW-PAGE PRINT ON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print.htm), [SUBMIT TO SAP-SPOOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_list_options.htm), and by the selection of Execute and Print on the [selection screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_glosry.htm "Glossary Entry"). SET MARGIN also applies if a screen list is spooled while it is being displayed, when Print (function code "PRI") is selected.
 
 Note
 
 For printers with an active list driver, margins can be defined in millimeters in the spool dialog. When pages are sent from the spool system to the printer, the pages, including the margins set using SET MARGIN, are positioned within these margins.
 
 
-
-**📖 Source**: [abapset_margin.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_margin.htm)
-
 ### abapprint-control.htm
-
-> **📖 Official SAP Documentation**: [abapprint-control.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -749,11 +844,11 @@ For printers with an active list driver, margins can be defined in millimeters i
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Spooling Lists](javascript:call_link\('abenprint.htm'\)) →  [Spool Control](javascript:call_link\('abenprint_control.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) →  [Spool Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_control.htm) → 
 
 PRINT-CONTROL
 
-[Quick Reference](javascript:call_link\('abapprint-control_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control_shortref.htm)
 
 Syntax
 
@@ -761,16 +856,16 @@ PRINT-CONTROL INDEX-LINE index\_line.
 
 Effect
 
-In spool lists, this statement creates index entries for optical archiving using [ArchiveLink](javascript:call_link\('abensap_archivelink_glosry.htm'\) "Glossary Entry"). This applies only to spool lists created using [NEW-PAGE PRINT ON](javascript:call_link\('abapnew-page_print.htm'\)), [SUBMIT TO SAP-SPOOL](javascript:call_link\('abapsubmit_list_options.htm'\)), and when selecting Execute and Print on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry"). It does not work for screen lists spooled from the display by selecting Print (function code "PRI").
+In spool lists, this statement creates index entries for optical archiving using [ArchiveLink](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_archivelink_glosry.htm "Glossary Entry"). This applies only to spool lists created using [NEW-PAGE PRINT ON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-page_print.htm), [SUBMIT TO SAP-SPOOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubmit_list_options.htm), and when selecting Execute and Print on the [selection screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_glosry.htm "Glossary Entry"). It does not work for screen lists spooled from the display by selecting Print (function code "PRI").
 
-This statement inserts the content of the data object index\_line into the current spool list as an index line. Index\_line must be a flat character-like data object. If the [list cursor](javascript:call_link\('abenlist_cursor_glosry.htm'\) "Glossary Entry") of an output statement has been set in the current list line, the index line is inserted after the end of the line. Index lines can be used for the following purposes:
+This statement inserts the content of the data object index\_line into the current spool list as an index line. Index\_line must be a flat character-like data object. If the [list cursor](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlist_cursor_glosry.htm "Glossary Entry") of an output statement has been set in the current list line, the index line is inserted after the end of the line. Index lines can be used for the following purposes:
 
 -   As DAIN lines whose structure is defined DKEY. Here, they improve the performance of searches in archived spool lists.
     
 -   As DARC lines, they enable hypertext links to other archived objects.
     
 
-An index line is sent to the spool system as a part of the spool list and is displayed there, although not included in the print output. When a list is archived using [ArchiveLink](javascript:call_link\('abensap_archivelink_glosry.htm'\) "Glossary Entry"), the spool system divides it into a data file and a description file. The data file contains the actual spool lists, and the description file contains the index lines.
+An index line is sent to the spool system as a part of the spool list and is displayed there, although not included in the print output. When a list is archived using [ArchiveLink](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_archivelink_glosry.htm "Glossary Entry"), the spool system divides it into a data file and a description file. The data file contains the actual spool lists, and the description file contains the index lines.
 
 Note
 
@@ -778,7 +873,7 @@ To enable the associated ArchiveLink search function to be used when an archived
 
 Example
 
-Inserting index lines in a list of square numbers. After every hundredth line, index lines for archiving are created (DAIN lines) using the statement PRINT-CONTROL. The structure of the DAIN lines is defined at the start of the list in two additional index lines (DKEY lines). If the user selects Execute and Print on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") and archives the list in the spool dialog, the archived list can be searched for the indexes. For more information, see the ArchiveLink documentation on the [SAP Help Portal](http://help.sap.com).
+Inserting index lines in a list of square numbers. After every hundredth line, index lines for archiving are created (DAIN lines) using the statement PRINT-CONTROL. The structure of the DAIN lines is defined at the start of the list in two additional index lines (DKEY lines). If the user selects Execute and Print on the [selection screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_glosry.htm "Glossary Entry") and archives the list in the spool dialog, the archived list can be searched for the indexes. For more information, see the ArchiveLink documentation on the [SAP Help Portal](http://help.sap.com).
 
 PARAMETERS number TYPE i.
 DATA: index  TYPE i,
@@ -811,14 +906,7 @@ DO number TIMES.
 ENDDO.
 
 
-
-**📖 Source**: [abapprint-control.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control.htm)
-
 ### abenprint_control.htm
-
-> **📖 Official SAP Documentation**: [abenprint_control.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_control.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -826,35 +914,28 @@ ENDDO.
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Spooling Lists](javascript:call_link\('abenprint.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) → 
 
 Spool Control
 
 Configuring the Upper and Left Margins
 
-The statement [SET MARGIN](javascript:call_link\('abapset_margin.htm'\)) can be used to define the upper and left margins of a spool list.
+The statement [SET MARGIN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_margin.htm) can be used to define the upper and left margins of a spool list.
 
 Archiving Information in Spool Lists
 
-When spooling is active, the statement [PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\)) can be used to write formatting information for optical archiving to the spool system.
+When spooling is active, the statement [PRINT-CONTROL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control.htm) can be used to write formatting information for optical archiving to the spool system.
 
 Obsolete Formatting of Spool Lists
 
-When spooling is active, an [obsolete variant](javascript:call_link\('abapprint-control_obsolete.htm'\)) of the statement PRINT-CONTROL can be used to write control statements for output devices (printers) to the spool system.
+When spooling is active, an [obsolete variant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control_obsolete.htm) of the statement PRINT-CONTROL can be used to write control statements for output devices (printers) to the spool system.
 
 Continue
-[SET MARGIN](javascript:call_link\('abapset_margin.htm'\))
-[PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\))
+[SET MARGIN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_margin.htm)
+[PRINT-CONTROL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control.htm)
 
-
-
-**📖 Source**: [abenprint_control.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_control.htm)
 
 ### abenprint_screen.htm
-
-> **📖 Official SAP Documentation**: [abenprint_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -862,38 +943,28 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Spooling Lists](javascript:call_link\('abenprint.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) → 
 
 Spooling Screen Lists
 
-As well as creating spool lists, screen lists can also be sent to the SAP spool system. To do this, use the Print function in the list display. This function transforms the screen list into a spool list, where the spool format specified in the [spool parameters](javascript:call_link\('abenprint_parameters.htm'\)) is used to split the list and shorten it, if necessary. However, this usually results in the following problems:
+As well as creating spool lists, screen lists can also be sent to the SAP spool system. To do this, use the Print function in the list display. This function transforms the screen list into a spool list, where the spool format specified in the [spool parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_parameters.htm) is used to split the list and shorten it, if necessary. However, this usually results in the following problems:
 
 -   A list that has been formatted as a screen list is not appropriate for spool output, because:
 
--   A screen list usually consists of one logical page. This logical page must be divided into multiple physical spool pages for the spooling process. Since the screen list contains only one [page header](javascript:call_link\('abenpage_header_glosry.htm'\) "Glossary Entry"), this page header is used as the page header of every spool page. If it contains page numbering, every spool page has the same page number (usually 1).
+-   A screen list usually consists of one logical page. This logical page must be divided into multiple physical spool pages for the spooling process. Since the screen list contains only one [page header](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpage_header_glosry.htm "Glossary Entry"), this page header is used as the page header of every spool page. If it contains page numbering, every spool page has the same page number (usually 1).
 
 -   Screen lists are usually very wide (> 130 columns). A normal printer can print these lists only by truncating the lines.
 
--   A screen list does not support any special print control sequences as they appear, for example, in the statement [PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\)).
+-   A screen list does not support any special print control sequences as they appear, for example, in the statement [PRINT-CONTROL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control.htm).
 
 Notes
 
 -   For the reasons mentioned this type of spooling should not be used for production purposes. It is designed only as a way of capturing a screen for testing purposes.
 
--   A screen list cannot contain any index lines created using [PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\)). Indexed searches are not possible in an archived screen list.
+-   A screen list cannot contain any index lines created using [PRINT-CONTROL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapprint-control.htm). Indexed searches are not possible in an archived screen list.
 
-
-
-**📖 Source**: [abenprint_screen.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_screen.htm)
 
 ### abenprint_list_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenprint_list_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_list_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenprint_list_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_list_abexa.htm)
-
 
   
 
@@ -901,7 +972,7 @@ Notes
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Spooling Lists](javascript:call_link\('abenprint.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Spooling Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint.htm) → 
 
 Spooling Lists
 

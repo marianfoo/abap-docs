@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Setting Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) →  [ASSIGN](javascript:call_link\('abapassign.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_assignments.htm) →  [Setting Field Symbols](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenset_field_symbols.htm) →  [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm) → 
 
 ASSIGN - range\_spec
 
-[Quick Reference](javascript:call_link\('abapassign_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_shortref.htm)
 
 Syntax
 
@@ -24,11 +24,11 @@ Effect
 
 When specified, range\_spec defines the area limits within which a memory area can be assigned to the field symbol. Either nothing can be specified here or the addition RANGE .
 
-At the same time, the statement ASSIGN assigns these area limits to the field symbol <fs>. If the field symbol <fs> is itself used in a subsequent ASSIGN statement to specify a memory area [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)), the assigned memory areas are used for determining the area limits of the field symbol that is being assigned.
+At the same time, the statement ASSIGN assigns these area limits to the field symbol <fs>. If the field symbol <fs> is itself used in a subsequent ASSIGN statement to specify a memory area [mem\_area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area.htm), the assigned memory areas are used for determining the area limits of the field symbol that is being assigned.
 
 Note
 
-The area limits assigned to a field symbol using range\_spec only apply to the following ASSIGN statements. In other statements, with the exception of [ADD UNTIL](javascript:call_link\('abapadd_sequences.htm'\)), the [general rules](javascript:call_link\('abenoperands_data_objects.htm'\)) apply.
+The area limits assigned to a field symbol using range\_spec only apply to the following ASSIGN statements. In other statements, with the exception of [ADD UNTIL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapadd_sequences.htm), the [general rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_data_objects.htm) apply.
 
 Alternative 1
 
@@ -38,14 +38,14 @@ Effect
 
 If no value is specified for range\_spec, the area limits are defined as follows:
 
--   If an elementary data object was specified for dobj in [mem\_area](javascript:call_link\('abapassign_mem_area_static_dobj.htm'\)), the memory area of this data object determines the area limits.
+-   If an elementary data object was specified for dobj in [mem\_area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area_static_dobj.htm), the memory area of this data object determines the area limits.
     
--   If a field symbol was specified for dobj in [mem\_area](javascript:call_link\('abapassign_mem_area_static_dobj.htm'\)), and this field symbol has an elementary data object assigned to it, the field symbol <fs> of the current statement takes on the area limits assigned to this field symbol.
+-   If a field symbol was specified for dobj in [mem\_area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area_static_dobj.htm), and this field symbol has an elementary data object assigned to it, the field symbol <fs> of the current statement takes on the area limits assigned to this field symbol.
     
--   If a structure or a field symbol was specified for dobj in [mem\_area](javascript:call_link\('abapassign_mem_area_static_dobj.htm'\)), and one of these points to a structure, the system checks whether the structure has a character-like initial part (up to the first [alignment gap](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry")). This then determines the area limits.
+-   If a structure or a field symbol was specified for dobj in [mem\_area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area_static_dobj.htm), and one of these points to a structure, the system checks whether the structure has a character-like initial part (up to the first [alignment gap](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenalignment_gap_glosry.htm "Glossary Entry")). This then determines the area limits.
     
 
-If these area limits are exceeded, no memory area is assigned for the static variant of mem\_area after the ASSIGN statement. Also, the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [<fs> IS ASSIGNED](javascript:call_link\('abenlogexp_assigned.htm'\)) is incorrect, while sy-subrc is set to 4 in the dynamic variant.
+If these area limits are exceeded, no memory area is assigned for the static variant of mem\_area after the ASSIGN statement. Also, the [predicate expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [<fs> IS ASSIGNED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_assigned.htm) is incorrect, while sy-subrc is set to 4 in the dynamic variant.
 
 Example
 
@@ -69,17 +69,17 @@ Alternative 2
 
 Effect
 
-If the addition RANGE is specified in range\_spec, the area limits are defined by the [data area](javascript:call_link\('abendata_area_glosry.htm'\) "Glossary Entry") of a range data object. range expects a data object of any data type. This object must cover the area limits when the RANGE addition is not specified (see above). If it is established at runtime that range does not cover these area limits, a non-handleable exception is raised.
+If the addition RANGE is specified in range\_spec, the area limits are defined by the [data area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_area_glosry.htm "Glossary Entry") of a range data object. range expects a data object of any data type. This object must cover the area limits when the RANGE addition is not specified (see above). If it is established at runtime that range does not cover these area limits, a non-handleable exception is raised.
 
-When the RANGE addition is used, only subareas of the range data object can be assigned to the field symbol. If these area limits are exceeded, no memory area is assigned for the static variant of [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) after the ASSIGN statement. Also, the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [<fs> IS ASSIGNED](javascript:call_link\('abenlogexp_assigned.htm'\)) is incorrect, while sy-subrc is set to 4 in the dynamic variant.
+When the RANGE addition is used, only subareas of the range data object can be assigned to the field symbol. If these area limits are exceeded, no memory area is assigned for the static variant of [mem\_area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area.htm) after the ASSIGN statement. Also, the [predicate expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [<fs> IS ASSIGNED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_assigned.htm) is incorrect, while sy-subrc is set to 4 in the dynamic variant.
 
-The addition RANGE cannot be used with the addition [CASTING TYPE HANDLE](javascript:call_link\('abapassign_casting.htm'\)) or for assigning [table expressions](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)).
+The addition RANGE cannot be used with the addition [CASTING TYPE HANDLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_casting.htm) or for assigning [table expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area_writable_exp.htm).
 
 Notes
 
--   A RANGE addition does not remove the type-specific rules for [substring accesses](javascript:call_link\('abenoffset_length.htm'\)). To enable substring access beyond the field limits of a specified data object dobj, substring access must be possible in principle. In particular, substring access is never possible beyond the limits of a structure, since the character-like initial part is not accessed in this case.
+-   A RANGE addition does not remove the type-specific rules for [substring accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm). To enable substring access beyond the field limits of a specified data object dobj, substring access must be possible in principle. In particular, substring access is never possible beyond the limits of a structure, since the character-like initial part is not accessed in this case.
     
--   If a structure is specified for range that contains [dynamic data objects](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry"), they only contribute the internal reference to the data area of the structure. The actual data area of the dynamic data objects is paged out and is ignored by RANGE. This also applies to substructures that are declared as [boxed components](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry").
+-   If a structure is specified for range that contains [dynamic data objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynamic_data_object_glosry.htm "Glossary Entry"), they only contribute the internal reference to the data area of the structure. The actual data area of the dynamic data objects is paged out and is ignored by RANGE. This also applies to substructures that are declared as [boxed components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenboxed_component_glosry.htm "Glossary Entry").
     
 
 Example

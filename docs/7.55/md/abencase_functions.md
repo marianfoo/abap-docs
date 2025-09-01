@@ -4,23 +4,23 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Functions (string\_func)](javascript:call_link\('abenstring_functions.htm'\)) →  [string\_func - Processing Functions](javascript:call_link\('abenprocess_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_expr_func.htm) →  [String Functions (string\_func)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions.htm) →  [string\_func - Processing Functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocess_functions.htm) → 
 
 string\_func - to\_upper, to\_lower, to\_mixed, from\_mixed
 
 Syntax Forms
 
-1\. ... to\_upper( [*\[*val =*\]* text](javascript:call_link\('abenstring_functions_val.htm'\)) ) ...
+1\. ... to\_upper( [*\[*val =*\]* text](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm) ) ...
 
-2\. ... to\_lower( [*\[*val =*\]* text](javascript:call_link\('abenstring_functions_val.htm'\)) ) ...
+2\. ... to\_lower( [*\[*val =*\]* text](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm) ) ...
 
-3\. ... to\_mixed( [*\[*val =*\]* text](javascript:call_link\('abenstring_functions_val.htm'\)) *\[*sep = sep*\]* *\[*case = case*\]* *\[*min = min*\]* ) ...
+3\. ... to\_mixed( [*\[*val =*\]* text](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm) *\[*sep = sep*\]* *\[*case = case*\]* *\[*min = min*\]* ) ...
 
-4\. ... from\_mixed( [*\[*val =*\]* text](javascript:call_link\('abenstring_functions_val.htm'\)) *\[*sep = sep*\]* *\[*case = case*\]* *\[*min = min*\]* ) ...
+4\. ... from\_mixed( [*\[*val =*\]* text](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm) *\[*sep = sep*\]* *\[*case = case*\]* *\[*min = min*\]* ) ...
 
 Effect
 
-These functions return the character string from [text](javascript:call_link\('abenstring_functions_val.htm'\)) after it has been converted in accordance with the following case rules:
+These functions return the character string from [text](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm) after it has been converted in accordance with the following case rules:
 
 -   The function to\_upper transforms all letters in the character string to uppercase letters.
 
@@ -30,7 +30,7 @@ These functions return the character string from [text](javascript:call_link\('a
 
 -   The function from\_mixed inserts the first character specified in sep before each uppercase letter from left to right and from the second position. The default value for separator sep is an underscore (\_). If case is not specified or if the first character in case is an uppercase letter, the entire string is transformed to uppercase, otherwise to lowercase. A positive number can be passed to min to specify a minimum number of characters that must appear before an uppercase letter from the start of the string or since the last insert so that a separator is inserted. The default value for min is 1.
 
-sep is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry"). If they have a fixed length, trailing blanks are ignored. min is a [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") of type i. case expects a character-like data object with fixed length. val = can be omitted only if none of the optional arguments are specified. If sep is an empty string or if min is negative, an exception of class CX\_SY\_STRG\_PAR\_VAL is raised.
+sep is a [character-like expression position](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry"). If they have a fixed length, trailing blanks are ignored. min is a [numeric expression position](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") of type i. case expects a character-like data object with fixed length. val = can be omitted only if none of the optional arguments are specified. If sep is an empty string or if min is negative, an exception of class CX\_SY\_STRG\_PAR\_VAL is raised.
 
 The return value has the type string.
 
@@ -46,9 +46,9 @@ cl\_demo\_output=>display( to\_lower( sy-abcde ) ).
 
 Executable Example
 
-[String Functions, to\_mixed and from\_mixed](javascript:call_link\('abenstring_function_mixed_abexa.htm'\))
+[String Functions, to\_mixed and from\_mixed](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_function_mixed_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 

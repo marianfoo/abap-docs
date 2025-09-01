@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [SORT itab](javascript:call_link\('abapsort_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_processing_statements.htm) →  [SORT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_itab.htm) → 
 
 Sorting Internal Tables Dynamically
 
@@ -53,4 +53,4 @@ START-OF-SELECTION.
 
 Description
 
-The method sort\_itab sorts an internal table using the statement [SORT itab](javascript:call_link\('abapsort_itab.htm'\)), where the sort criteria are specified as a table of type abap\_sortorder\_tab constructed using the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)). The component descending of this table is set using a [conditional expression](javascript:call_link\('abenconditional_expression_glosry.htm'\) "Glossary Entry") with the case distinction [SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\)), depending on the input parameter direction.
+The method sort\_itab sorts an internal table using the statement [SORT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_itab.htm), where the sort criteria are specified as a table of type abap\_sortorder\_tab constructed using the value operator [VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_value.htm). The component descending of this table is set using a [conditional expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconditional_expression_glosry.htm "Glossary Entry") with the case distinction [SWITCH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconditional_expression_switch.htm), depending on the input parameter direction.

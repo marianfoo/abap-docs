@@ -4,20 +4,20 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengui_obsolete.htm) → 
 
 Obsolete Statements in Dynpro Flow Logic
 
--   [SELECT](javascript:call_link\('dynpselect.htm'\))
+-   [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpselect.htm)
 
--   [FIELD - VALUES, SELECT](javascript:call_link\('dynpfield_value_select.htm'\))
+-   [FIELD - VALUES, SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpfield_value_select.htm)
 
--   [CALL CUSTOMER SUBSCREEN](javascript:call_link\('dynpcall_customer_subscreen.htm'\))
+-   [CALL CUSTOMER SUBSCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall_customer_subscreen.htm)
 
--   [Obsolete Processing of Step Loops](javascript:call_link\('abensteploop.htm'\))
+-   [Obsolete Processing of Step Loops](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensteploop.htm)
 
 Continue
-[SELECT - Dynpro](javascript:call_link\('dynpselect.htm'\))
-[FIELD - VALUES, SELECT](javascript:call_link\('dynpfield_value_select.htm'\))
-[CALL CUSTOMER SUBSCREEN](javascript:call_link\('dynpcall_customer_subscreen.htm'\))
-[Obsolete Processing of Step Loops](javascript:call_link\('abensteploop.htm'\))
+[SELECT - Dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpselect.htm)
+[FIELD - VALUES, SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpfield_value_select.htm)
+[CALL CUSTOMER SUBSCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall_customer_subscreen.htm)
+[Obsolete Processing of Step Loops](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensteploop.htm)

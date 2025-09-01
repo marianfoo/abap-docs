@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [RAP-Related System Classes and Functionality](javascript:call_link\('abaprap_system_classes.htm'\)) →  [CL\_ABAP\_BEHV\_AUX](javascript:call_link\('abaprap_cl_abap_behv_aux.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap_other.htm) →  [RAP-Related System Classes and Functionality](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_system_classes.htm) →  [CL\_ABAP\_BEHV\_AUX](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaprap_cl_abap_behv_aux.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Checking%20RAP%20Transactional%20Phases%2C%20ABENRAP_CL_ABAP_BEHV_AUX_PH_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improveme
 nt:)
@@ -34,7 +34,7 @@ define root view entity demo\_umanaged\_root\_late\_num2
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_UMANAGED\_ROOT\_LATE\_NUM2 is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_UMANAGED\_ROOT\_LATE\_NUM2 is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 unmanaged implementation in class
 bp\_demo\_umanaged\_root\_late\_nu2 unique;
@@ -52,7 +52,7 @@ late numbering
 
 Behavior implementation
 
-For the above RAP behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UMANAGED\_ROOT\_LATE\_NU2. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
+For the above RAP behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UMANAGED\_ROOT\_LATE\_NU2. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
 
 Source Code   
 
@@ -188,12 +188,12 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class.
 
 The example contains four RAP create operations using an ABAP EML MODIFY statement:
 
--   Two RAP create operations fail. One operation intentionally fails in the [finalize](javascript:call_link\('abensaver_finalize.htm'\)) [RAP saver method](javascript:call_link\('abenabp_saver_method_glosry.htm'\) "Glossary Entry"). Another operations fails in the [check\_before\_save](javascript:call_link\('abensaver_check_before_save.htm'\)) method.
+-   Two RAP create operations fail. One operation intentionally fails in the [finalize](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensaver_finalize.htm) [RAP saver method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_saver_method_glosry.htm "Glossary Entry"). Another operations fails in the [check\_before\_save](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensaver_check_before_save.htm) method.
 -   Two RAP create operations are successful.
 -   The example is implemented in a way that in the RAP handler and saver methods a log table is filled. The log table includes, among other things, information about the current RAP transactional phase (retrieved using CL\_ABAP\_BEHV\_AUX=>GET\_CURRENT\_PHASE) and the current handler kind (retrieved using CL\_ABAP\_BEHV\_AUX=>GET\_CURRENT\_HANDLER\_KIND).
 -   The log table and the database table entries as result of the RAP create operations are displayed.
--   The log table for the failed instances shows that the [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry") is not reached, only the [RAP interaction phase](javascript:call_link\('abenrap_int_phase_glosry.htm'\) "Glossary Entry") and the [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry"). The RAP transaction is concluded with the [RAP cleanup phase](javascript:call_link\('abenrap_cleanup_phase_glosry.htm'\) "Glossary Entry") demonstrated by the successful RAP create operations.
+-   The log table for the failed instances shows that the [RAP late save phase](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlate_rap_save_phase_glosry.htm "Glossary Entry") is not reached, only the [RAP interaction phase](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_int_phase_glosry.htm "Glossary Entry") and the [RAP early save phase](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenearly_rap_save_phase_glosry.htm "Glossary Entry"). The RAP transaction is concluded with the [RAP cleanup phase](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_cleanup_phase_glosry.htm "Glossary Entry") demonstrated by the successful RAP create operations.

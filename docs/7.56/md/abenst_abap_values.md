@@ -4,19 +4,19 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_serial_deserial.htm) → 
 
 ST - Transformation of ABAP Values
 
 The following ST statements are used for transformations of ABAP values:
 
--   [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)) for elementary data objects
--   [tt:value](javascript:call_link\('abenst_tt_value_structure.htm'\)) for structures
--   [tt:loop](javascript:call_link\('abenst_tt_loop.htm'\)) for internal tables
--   [tt:copy](javascript:call_link\('abenst_tt_copy.htm'\)) for the asXML format
+-   [tt:value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_value_elementary.htm) for elementary data objects
+-   [tt:value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_value_structure.htm) for structures
+-   [tt:loop](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_loop.htm) for internal tables
+-   [tt:copy](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_copy.htm) for the asXML format
 
 Continue
-[ST - tt:value, Elementary Data Objects](javascript:call_link\('abenst_tt_value_elementary.htm'\))
-[ST - tt:value, Structures](javascript:call_link\('abenst_tt_value_structure.htm'\))
-[ST - tt:loop, Internal Tables](javascript:call_link\('abenst_tt_loop.htm'\))
-[ST - tt:copy, asXML Format](javascript:call_link\('abenst_tt_copy.htm'\))
+[ST - tt:value, Elementary Data Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_value_elementary.htm)
+[ST - tt:value, Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_value_structure.htm)
+[ST - tt:loop, Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_loop.htm)
+[ST - tt:copy, asXML Format](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_copy.htm)

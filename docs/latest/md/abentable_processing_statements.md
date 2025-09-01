@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20itab%20-%20Processing%20Statements%2C%20ABENTABLE_PROCESSING_STATEMENTS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,48 +12,48 @@ itab - Processing Statements
 
 Reading Internal Tables   
 
--   [READ TABLE](javascript:call_link\('abapread_table.htm'\))
--   [LOOP AT](javascript:call_link\('abaploop_at_itab_variants.htm'\))
+-   [READ TABLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_table.htm)
+-   [LOOP AT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_itab_variants.htm)
 
 Filling Internal Tables   
 
--   [INSERT](javascript:call_link\('abapinsert_itab.htm'\))
--   [COLLECT](javascript:call_link\('abapcollect.htm'\))
--   [APPEND](javascript:call_link\('abapappend.htm'\))
+-   [INSERT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinsert_itab.htm)
+-   [COLLECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcollect.htm)
+-   [APPEND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapappend.htm)
 
 Changing Internal Tables   
 
--   [MODIFY](javascript:call_link\('abapmodify_itab.htm'\))
--   [DELETE](javascript:call_link\('abapdelete_itab.htm'\))
--   [SORT](javascript:call_link\('abapsort_itab.htm'\))
+-   [MODIFY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_itab.htm)
+-   [DELETE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_itab.htm)
+-   [SORT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsort_itab.htm)
 
 Scanning Internal Tables   
 
--   [FIND IN TABLE](javascript:call_link\('abapfind_itab.htm'\))
--   [REPLACE IN TABLE](javascript:call_link\('abapfind_itab.htm'\))
+-   [FIND IN TABLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_itab.htm)
+-   [REPLACE IN TABLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_itab.htm)
 
 Interval Join of Internal Tables   
 
--   [PROVIDE](javascript:call_link\('abapprovide.htm'\))
+-   [PROVIDE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapprovide.htm)
 
 Hints
 
--   How these statements are used to access individual components of internal tables is described in [itab - comp1 comp2 ...](javascript:call_link\('abenitab_components.htm'\)).
--   Special [variants](javascript:call_link\('abenmesh_path_usage.htm'\)) of the statements shown here can access the last path node of a [mesh path](javascript:call_link\('abenmesh_pathes.htm'\)), instead of accessing directly specified internal tables.
--   Internal tables can also be specified as a [data source](javascript:call_link\('abapselect_itab.htm'\)) of a [query](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry") in ABAP SQL.
--   As well as the statements shown here, a range of [obsolete processing statements](javascript:call_link\('abenitab_obsolete.htm'\)) exists for internal tables.
+-   How these statements are used to access individual components of internal tables is described in [itab - comp1 comp2 ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_components.htm).
+-   Special [variants](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_usage.htm) of the statements shown here can access the last path node of a [mesh path](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_pathes.htm), instead of accessing directly specified internal tables.
+-   Internal tables can also be specified as a [data source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_itab.htm) of a [query](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenquery_glosry.htm "Glossary Entry") in ABAP SQL.
+-   As well as the statements shown here, a range of [obsolete processing statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_obsolete.htm) exists for internal tables.
 
 Continue
-[READ TABLE itab](javascript:call_link\('abapread_table.htm'\))
-[LOOP AT itab](javascript:call_link\('abaploop_at_itab_variants.htm'\))
-[INSERT itab](javascript:call_link\('abapinsert_itab.htm'\))
-[COLLECT](javascript:call_link\('abapcollect.htm'\))
-[APPEND](javascript:call_link\('abapappend.htm'\))
-[MODIFY itab](javascript:call_link\('abapmodify_itab.htm'\))
-[DELETE itab](javascript:call_link\('abapdelete_itab.htm'\))
-[SORT itab](javascript:call_link\('abapsort_itab.htm'\))
-[FIND IN TABLE itab](javascript:call_link\('abapfind_itab.htm'\))
-[REPLACE IN TABLE itab](javascript:call_link\('abapreplace_itab.htm'\))
-[itab - Interval Join](javascript:call_link\('abeninternal_table_interval_spcl.htm'\))
-[itab - comp1 comp2 ...](javascript:call_link\('abenitab_components.htm'\))
-[itab - keyname](javascript:call_link\('abenkeyname.htm'\))
+[READ TABLE itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_table.htm)
+[LOOP AT itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_itab_variants.htm)
+[INSERT itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinsert_itab.htm)
+[COLLECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcollect.htm)
+[APPEND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapappend.htm)
+[MODIFY itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_itab.htm)
+[DELETE itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_itab.htm)
+[SORT itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsort_itab.htm)
+[FIND IN TABLE itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_itab.htm)
+[REPLACE IN TABLE itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace_itab.htm)
+[itab - Interval Join](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_table_interval_spcl.htm)
+[itab - comp1 comp2 ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab_components.htm)
+[itab - keyname](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenkeyname.htm)

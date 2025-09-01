@@ -4,54 +4,54 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - Definition of Annotations](javascript:call_link\('abencds_anno_definition.htm'\)) →  [ABAP CDS - DDL for Annotation Definitions](javascript:call_link\('abencds_f1_ddla_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations.htm) →  [ABAP CDS - Definition of Annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_anno_definition.htm) →  [ABAP CDS - DDL for Annotation Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddla_syntax.htm) → 
 
 ABAP CDS - DEFINE ANNOTATION
 
 Syntax
 
-*\[*[@annotation\_annot1](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))*\]*
-*\[*[@annotation\_annot2](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))*\]*
+*\[*[@annotation\_annot1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_anno_annos.htm)*\]*
+*\[*[@annotation\_annot2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_anno_annos.htm)*\]*
 ...
-*\[*define*\]* annotation Anno *{*  :   [type](javascript:call_link\('abencds_f1_define_annotation_type.htm'\)); *}*
-                       *|* *{* *\[*:*\]* {[subannos](javascript:call_link\('abencds_f1_define_annotation_sub.htm'\))}*\[*;*\]* *}*
-                       *|* *{*  :   array of [arrelem](javascript:call_link\('abencds_f1_define_annotation_arr.htm'\)) *}*
+*\[*define*\]* annotation Anno *{*  :   [type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_annotation_type.htm); *}*
+                       *|* *{* *\[*:*\]* {[subannos](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_annotation_sub.htm)}*\[*;*\]* *}*
+                       *|* *{*  :   array of [arrelem](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_annotation_arr.htm) *}*
 
 Effect
 
-The statement define annotation defines a [CDS annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") with the name Anno in the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") in the [DDLA source code](javascript:call_link\('abenddla_source_code_glosry.htm'\) "Glossary Entry"). The annotation Anno is the [main annotation](javascript:call_link\('abenmain_annotation_glosry.htm'\) "Glossary Entry") of the current [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry"), which can be structured with optional [subannotations](javascript:call_link\('abensub_annotation_glosry.htm'\) "Glossary Entry"). The DDLA source code of an annotation definition can contain the definition of exactly one main annotation, whose name must match the name of the DDLA source code. The names are case-sensitive. Annotations of the definition annotation, [@annotation\_annot1](javascript:call_link\('abencds_f1_define_anno_annos.htm'\)), [@annotation\_annot2](javascript:call_link\('abencds_f1_define_anno_annos.htm'\)), ..., can be specified before the statement define annotation. These are inherited by subannotations or overwritten there.
+The statement define annotation defines a [CDS annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotation_glosry.htm "Glossary Entry") with the name Anno in the [CDS DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm "Glossary Entry") in the [DDLA source code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddla_source_code_glosry.htm "Glossary Entry"). The annotation Anno is the [main annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmain_annotation_glosry.htm "Glossary Entry") of the current [annotation definition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_anno_definition_glosry.htm "Glossary Entry"), which can be structured with optional [subannotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensub_annotation_glosry.htm "Glossary Entry"). The DDLA source code of an annotation definition can contain the definition of exactly one main annotation, whose name must match the name of the DDLA source code. The names are case-sensitive. Annotations of the definition annotation, [@annotation\_annot1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_anno_annos.htm), [@annotation\_annot2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_anno_annos.htm), ..., can be specified before the statement define annotation. These are inherited by subannotations or overwritten there.
 
-The statement define annotation creates the annotation Anno as a [CDS object](javascript:call_link\('abencds_object_glosry.htm'\) "Glossary Entry"), which is transported using the DDLA source code. The definition of the annotation Anno describes how it is to be used in other CDS source code in [annotation syntax](javascript:call_link\('abencds_annotation_syntax_glosry.htm'\) "Glossary Entry"):
+The statement define annotation creates the annotation Anno as a [CDS object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_object_glosry.htm "Glossary Entry"), which is transported using the DDLA source code. The definition of the annotation Anno describes how it is to be used in other CDS source code in [annotation syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"):
 
--   Anno is the name of the annotation. It can contain letters, numbers, and underscores, and must start with a letter. Only annotations with names defined in this way should be [used](javascript:call_link\('abencds_annotations_syntax.htm'\)).
+-   Anno is the name of the annotation. It can contain letters, numbers, and underscores, and must start with a letter. Only annotations with names defined in this way should be [used](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax.htm).
 
 -   One of the following must be specified after the name:
 
--   A colon (:) followed by the definition of the type [type](javascript:call_link\('abencds_f1_define_annotation_type.htm'\)) of the annotation. Enumerations and a default value can be defined when the type is specified. The type specification must be closed using a (;).
+-   A colon (:) followed by the definition of the type [type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_annotation_type.htm) of the annotation. Enumerations and a default value can be defined when the type is specified. The type specification must be closed using a (;).
 
--   An optional colon (:) followed by the structuring of the annotation using [subannotations](javascript:call_link\('abensub_annotation_glosry.htm'\) "Glossary Entry") [subannos](javascript:call_link\('abencds_f1_define_annotation_sub.htm'\)) in curly brackets {...}. This can be closed using an optional semicolon (;).
+-   An optional colon (:) followed by the structuring of the annotation using [subannotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensub_annotation_glosry.htm "Glossary Entry") [subannos](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_annotation_sub.htm) in curly brackets {...}. This can be closed using an optional semicolon (;).
 
--   A colon (:) followed by the definition of the elements of an array using array of. This makes the annotation Anno into an [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") of the elements defined using [arrelem](javascript:call_link\('abencds_f1_define_annotation_arr.htm'\)). These elements can be a type specification or subannotations.
+-   A colon (:) followed by the definition of the elements of an array using array of. This makes the annotation Anno into an [annotation array](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenannotation_array_glosry.htm "Glossary Entry") of the elements defined using [arrelem](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_annotation_arr.htm). These elements can be a type specification or subannotations.
 
 Notes
 
--   Put simply, an annotation definition dictates how the annotation needs to be specified in CDS source code in [annotation syntax](javascript:call_link\('abencds_annotation_syntax_glosry.htm'\) "Glossary Entry"). When annotations are specified, the annotation definitions are used for the color of the source code and for code completion.
+-   Put simply, an annotation definition dictates how the annotation needs to be specified in CDS source code in [annotation syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry"). When annotations are specified, the annotation definitions are used for the color of the source code and for code completion.
 
--   The type specification determines which [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry") can be specified in the annotation syntax when the annotation is used.
+-   The type specification determines which [annotation values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenannotation_value_glosry.htm "Glossary Entry") can be specified in the annotation syntax when the annotation is used.
 
--   In the annotation syntax, subannotations are specified either as [comma-separated lists in curly brackets](javascript:call_link\('abencds_annotations_syntax_subanno.htm'\)) or as [structured names](javascript:call_link\('abencds_annotations_syntax_name.htm'\)).
+-   In the annotation syntax, subannotations are specified either as [comma-separated lists in curly brackets](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax_subanno.htm) or as [structured names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax_name.htm).
 
--   The elements of an array are specified in annotation syntax as [comma-separated lists in square brackets](javascript:call_link\('abencds_annotations_syntax_array.htm'\)).
+-   The elements of an array are specified in annotation syntax as [comma-separated lists in square brackets](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax_array.htm).
 
--   The syntax check in [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") for data definitions currently ignores annotation definitions. It checks only the formal correctness of any names, [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry"), [subannotations](javascript:call_link\('abensub_annotation_glosry.htm'\) "Glossary Entry"), and [annotation arrays](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") specified.
+-   The syntax check in [CDS DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm "Glossary Entry") for data definitions currently ignores annotation definitions. It checks only the formal correctness of any names, [annotation values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenannotation_value_glosry.htm "Glossary Entry"), [subannotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensub_annotation_glosry.htm "Glossary Entry"), and [annotation arrays](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenannotation_array_glosry.htm "Glossary Entry") specified.
 
--   When [annotations are evaluated](javascript:call_link\('abencds_semantics_annotation_abexa.htm'\)) in a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE, the annotations are respected as specified in the [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") of the entity. The associated annotation definitions are ignored.
+-   When [annotations are evaluated](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_semantics_annotation_abexa.htm) in a [CDS entity](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_entity_glosry.htm "Glossary Entry") using the class CL\_DD\_DDL\_ANNOTATION\_SERVICE, the annotations are respected as specified in the [DDL source code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_source_code_glosry.htm "Glossary Entry") of the entity. The associated annotation definitions are ignored.
 
 -   Alongside the rules defined by the statement define annotation, an annotation definition also has annotation documentation that describes its meaning and how it is used by the framework in question.
 
 Example
 
-Defines a structured annotation. The [main annotation](javascript:call_link\('abenmain_annotation_glosry.htm'\) "Glossary Entry") DemoAnnoStruct has [subannotations](javascript:call_link\('abensub_annotation_glosry.htm'\) "Glossary Entry") subAnno1 to subAnno4. The subannotations subAnno3 and subAnno4 are [annotation arrays](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry"). (Here, subAnno4 is structured.)
+Defines a structured annotation. The [main annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmain_annotation_glosry.htm "Glossary Entry") DemoAnnoStruct has [subannotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensub_annotation_glosry.htm "Glossary Entry") subAnno1 to subAnno4. The subannotations subAnno3 and subAnno4 are [annotation arrays](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenannotation_array_glosry.htm "Glossary Entry"). (Here, subAnno4 is structured.)
 
 @Scope:\[#VIEW, #EXTEND\_VIEW\]  
 define annotation DemoAnnoStruct  
@@ -63,13 +63,13 @@ define annotation DemoAnnoStruct  
                         };  
   };
 
-The annotation defined in this way permits the following to be specified in [annotation syntax](javascript:call_link\('abencds_annotation_syntax_glosry.htm'\) "Glossary Entry") in a piece of [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") that defines a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") or a [CDS table function](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry") as a [view annotation](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)) or as a [function annotation](javascript:call_link\('abencds_f1_function_annotations.htm'\)):
+The annotation defined in this way permits the following to be specified in [annotation syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry") in a piece of [DDL source code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_source_code_glosry.htm "Glossary Entry") that defines a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry") or a [CDS table function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_table_function_glosry.htm "Glossary Entry") as a [view annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_view_entity_annotations.htm) or as a [function annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_function_annotations.htm):
 
 -   Specifies the subannotation subAnno1 once (the default value true is used here implicitly):
 
 @DemoAnnoStruct.subAnno1
 
--   Specifies the subannotations subAnno1 and subAnno2 together in curly brackets (the default values are overwritten by explicit [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry") here. In subAnno2, one of the fixed enumeration values is used:
+-   Specifies the subannotations subAnno1 and subAnno2 together in curly brackets (the default values are overwritten by explicit [annotation values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenannotation_value_glosry.htm "Glossary Entry") here. In subAnno2, one of the fixed enumeration values is used:
 
 @DemoAnnoStruct:{subAnno1:false, subAnno2:#I2}
 
@@ -84,7 +84,7 @@ The annotation defined in this way permits the following to be specified in [ann
                            {comp1: 'e', comp2: 'f' } \]
 
 Continue
-[ABAP CDS - DEFINE ANNOTATION, annotation\_annot](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))
-[ABAP CDS - DEFINE ANNOTATION, type](javascript:call_link\('abencds_f1_define_annotation_type.htm'\))
-[ABAP CDS - DEFINE ANNOTATION, subannos](javascript:call_link\('abencds_f1_define_annotation_sub.htm'\))
-[ABAP CDS - DEFINE ANNOTATION, arrelem](javascript:call_link\('abencds_f1_define_annotation_arr.htm'\))
+[ABAP CDS - DEFINE ANNOTATION, annotation\_annot](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_anno_annos.htm)
+[ABAP CDS - DEFINE ANNOTATION, type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_annotation_type.htm)
+[ABAP CDS - DEFINE ANNOTATION, subannos](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_annotation_sub.htm)
+[ABAP CDS - DEFINE ANNOTATION, arrelem](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_annotation_arr.htm)

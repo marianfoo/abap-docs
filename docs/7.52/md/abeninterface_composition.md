@@ -4,25 +4,25 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Overview](javascript:call_link\('abenabap_objects_oview.htm'\)) →  [Interfaces](javascript:call_link\('abeninterfac.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_oview.htm) →  [Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterfac.htm) → 
 
 Nesting Interfaces
 
-Interfaces can be nested. An [interface](javascript:call_link\('abeninterfac.htm'\)) can include one or more interfaces as components, which can contain interfaces themselves. An interface that includes another interface is called a [compound interface](javascript:call_link\('abencompound_interface_glosry.htm'\) "Glossary Entry"). An interface nested within an interface is called a component interface. An interface that does not contain any compound interfaces is called an elementary interface.
+Interfaces can be nested. An [interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterfac.htm) can include one or more interfaces as components, which can contain interfaces themselves. An interface that includes another interface is called a [compound interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompound_interface_glosry.htm "Glossary Entry"). An interface nested within an interface is called a component interface. An interface that does not contain any compound interfaces is called an elementary interface.
 
 All interface components of a compound interface have the same level. If a compound interface i3 contains another compound interface i2, its interface component i1 becomes interface component of i3. A compound interface includes each interface component exactly once. A component interface exists only once even if it is used again as a component of another component interface.
 
 The statement INTERFACES is used for nesting interfaces within an interface definition:
 
-[INTERFACE i3.](javascript:call_link\('abapinterface.htm'\))
-  [INTERFACES: i1, i2 ...](javascript:call_link\('abapinterfaces.htm'\))
-[ENDINTERFACE.](javascript:call_link\('abapendinterface.htm'\))
+[INTERFACE i3.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterface.htm)
+  [INTERFACES: i1, i2 ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces.htm)
+[ENDINTERFACE.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendinterface.htm)
 
-Here the interface i3 consists of its components and the interfaces i1 and i2. In the compound interface the components of the component interfaces are visible using the interface component selector (~). Within the above definition of i3, expressions such as i1~comp or i2~comp are possible. However, independent names can be defined using the [ALIASES](javascript:call_link\('abapaliases.htm'\)) statement.
+Here the interface i3 consists of its components and the interfaces i1 and i2. In the compound interface the components of the component interfaces are visible using the interface component selector (~). Within the above definition of i3, expressions such as i1~comp or i2~comp are possible. However, independent names can be defined using the [ALIASES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapaliases.htm) statement.
 
 Using Alias Names
 
-Within interface definitions, the statement [ALIASES](javascript:call_link\('abapaliases.htm'\)) can be used to assign alias names to the components of component interfaces, and therefore make those nested to a depth greater than one level visible within the interface definition.
+Within interface definitions, the statement [ALIASES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapaliases.htm) can be used to assign alias names to the components of component interfaces, and therefore make those nested to a depth greater than one level visible within the interface definition.
 
 INTERFACE i2.
   INTERFACES i1.
@@ -36,7 +36,7 @@ ENDINTERFACE.
 
 Accessing Interface Reference Variables
 
-Reference variables typed with reference to a compound interface can be assigned reference variables typed with reference to one of the component interfaces ( [up cast](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry")). The latter can be used to address the components of the component interfaces. The opposite case cannot be checked statically and must take place with the [casting operator](javascript:call_link\('abencasting_operator_glosry.htm'\) "Glossary Entry") (?= or CAST) ( [down cast](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry")).
+Reference variables typed with reference to a compound interface can be assigned reference variables typed with reference to one of the component interfaces ( [up cast](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenup_cast_glosry.htm "Glossary Entry")). The latter can be used to address the components of the component interfaces. The opposite case cannot be checked statically and must take place with the [casting operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencasting_operator_glosry.htm "Glossary Entry") (?= or CAST) ( [down cast](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendown_cast_glosry.htm "Glossary Entry")).
 
 INTERFACE i1.
   DATA comp1.

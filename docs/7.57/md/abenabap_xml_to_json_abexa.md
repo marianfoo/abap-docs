@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) →  [JSON - Examples](javascript:call_link\('abenabap_json_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_json.htm) →  [JSON - Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_json_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: JSON - Transformation of XML Data, ABENABAP_XML_TO_JSON_ABEXA, 757%0D%0A%0D%0AError:%
 0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -177,4 +177,4 @@ START-OF-SELECTION.
 
 Description   
 
-This example demonstrates the transformation of XML data to JSON. This is achieved via token-based parsing of the XML data using methods of the [sXML library](javascript:call_link\('abenabap_sxml_lib.htm'\)) and then token-based rendering of this data to [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry"). A [JSON writer](javascript:call_link\('abenjson_writer_glosry.htm'\) "Glossary Entry") is filled directly. If an [XML writer](javascript:call_link\('abenxml_writer_glosry.htm'\) "Glossary Entry") had been specified instead (shown as a comment in the source code), the result would be JSON-XML.
+This example demonstrates the transformation of XML data to JSON. This is achieved via token-based parsing of the XML data using methods of the [sXML library](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib.htm) and then token-based rendering of this data to [JSON-XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjson_xml_glosry.htm "Glossary Entry"). A [JSON writer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjson_writer_glosry.htm "Glossary Entry") is filled directly. If an [XML writer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxml_writer_glosry.htm "Glossary Entry") had been specified instead (shown as a comment in the source code), the result would be JSON-XML.

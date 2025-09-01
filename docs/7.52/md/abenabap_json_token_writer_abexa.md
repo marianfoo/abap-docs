@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) →  [JSON, Examples](javascript:call_link\('abenabap_json_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_json.htm) →  [JSON, Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_json_abexas.htm) → 
 
 JSON, Render
 
-The example demonstrates the rendering of [JSON data](javascript:call_link\('abenjson_oview.htm'\)).
+The example demonstrates the rendering of [JSON data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_oview.htm).
 
 Source Code
 
@@ -101,4 +101,4 @@ START-OF-SELECTION.
 
 Description
 
-An [XML string writer](javascript:call_link\('abenabap_sxml_lib_render.htm'\)) from [XML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)) is created as a [JSON-Writer](javascript:call_link\('abenjson_writer_glosry.htm'\) "Glossary Entry") with the type IF\_SXML=>CO\_XT\_JSON. [Token-based rendering](javascript:call_link\('abenabap_sxml_lib_render_token.htm'\)) methods are used to fill the writer with XML elements that create a valid [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") representation. The result is a string with valid [JSON data](javascript:call_link\('abenjson_oview.htm'\)).
+An [XML string writer](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sxml_lib_render.htm) from [XML Library](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sxml_lib.htm) is created as a [JSON-Writer](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_writer_glosry.htm "Glossary Entry") with the type IF\_SXML=>CO\_XT\_JSON. [Token-based rendering](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sxml_lib_render_token.htm) methods are used to fill the writer with XML elements that create a valid [JSON-XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_xml_glosry.htm "Glossary Entry") representation. The result is a string with valid [JSON data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_oview.htm).

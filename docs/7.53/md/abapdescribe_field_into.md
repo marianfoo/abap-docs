@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) →  [DESCRIBE - Internal Variant](javascript:call_link\('abendescribe_internal.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm) →  [DESCRIBE - Internal Variant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_internal.htm) → 
 
 DESCRIBE FIELD INTO
 
@@ -17,7 +17,7 @@ DESCRIBE FIELD dobj INTO td.
 
 Effect
 
-All attributes of the field f, its components, subcomponents, and so on, are in the output of the field td (type description). td must have the type SYDES\_DESC, defined in the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") SYDES.
+All attributes of the field f, its components, subcomponents, and so on, are in the output of the field td (type description). td must have the type SYDES\_DESC, defined in the [type group](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_group_1_glosry.htm "Glossary Entry") SYDES.
 
 The structure SYDES\_DESC has two table-like components TYPES and NAMES:
 
@@ -35,7 +35,7 @@ Component name
 
 IDX\_USER\_TYPE
 
-Name of a user-defined type, in other words a type defined by a [TYPES](javascript:call_link\('abaptypes.htm'\)) statement. Derived types (... TYPE A-B) and structures from ABAP Dictionary are not considered to be user-defined types.
+Name of a user-defined type, in other words a type defined by a [TYPES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes.htm) statement. Derived types (... TYPE A-B) and structures from ABAP Dictionary are not considered to be user-defined types.
 
 CONTEXT
 
@@ -69,15 +69,15 @@ Output length, like the addition OUTPUT-LENGTH in a simple DESCRIBE
 
 DECIMALS
 
-Number of [decimal digits](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry"), like the addition DECIMALS in a simple DESCRIBE
+Number of [decimal digits](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendecimal_place_glosry.htm "Glossary Entry"), like the addition DECIMALS in a simple DESCRIBE
 
 TYPE
 
-ABAP type, like the addition TYPE in a simple DESCRIBE. If DESCRIBE INTO is applied to a nested structure which contains a [boxed component](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry"), the type is returned with the internal ID j ([static box](javascript:call_link\('abenstatic_box_glosry.htm'\) "Glossary Entry")).
+ABAP type, like the addition TYPE in a simple DESCRIBE. If DESCRIBE INTO is applied to a nested structure which contains a [boxed component](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboxed_component_glosry.htm "Glossary Entry"), the type is returned with the internal ID j ([static box](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_box_glosry.htm "Glossary Entry")).
 
 TABLE\_KIND
 
-A [table category](javascript:call_link\('abaptypes_tabkind.htm'\)) is stored here for the components which represent an internal table. The same values are returned as with the variant [DESCRIBE TABLE itab KIND k](javascript:call_link\('abapdescribe_table.htm'\)). For components which do not represent a table, the return code is set to SYDES\_KIND-UNDEFINED (see type group SYDES).
+A [table category](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_tabkind.htm) is stored here for the components which represent an internal table. The same values are returned as with the variant [DESCRIBE TABLE itab KIND k](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_table.htm). For components which do not represent a table, the return code is set to SYDES\_KIND-UNDEFINED (see type group SYDES).
 
 Example
 

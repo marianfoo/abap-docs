@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Data Consistency](javascript:call_link\('abentransaction.htm'\)) →  [SAP LUW](javascript:call_link\('abensap_luw.htm'\)) →  [SAP LUW, Examples](javascript:call_link\('abensap_luw_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [Data Consistency](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransaction.htm) →  [SAP LUW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_luw.htm) →  [SAP LUW, Examples](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_luw_abexas.htm) → 
 
 SAP LUW, UPDATE TASK
 
-This example demonstrates how [SAP LUWs](javascript:call_link\('abensap_luw.htm'\)) are bundled using [update function modules](javascript:call_link\('abenupdate_function_module_glosry.htm'\) "Glossary Entry").
+This example demonstrates how [SAP LUWs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_luw.htm) are bundled using [update function modules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenupdate_function_module_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -63,8 +63,8 @@ START-OF-SELECTION.
 
 Description
 
-The example shows a program divided into segments by switching the work process. An implicit [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") is performed at the end of each segment. Here, the work process is switched using the statement [WAIT UP TO](javascript:call_link\('abapwait_up_to.htm'\)). In real programs, a switch of this kind can have [many different causes](javascript:call_link\('abendb_commit.htm'\)).
+The example shows a program divided into segments by switching the work process. An implicit [database commit](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_commit_glosry.htm "Glossary Entry") is performed at the end of each segment. Here, the work process is switched using the statement [WAIT UP TO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwait_up_to.htm). In real programs, a switch of this kind can have [many different causes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendb_commit.htm).
 
-This program makes writes on the database that are moved to different [update function modules](javascript:call_link\('abenupdate_function_module_glosry.htm'\) "Glossary Entry"). The statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) executes the function modules registered up until now using the [CALL FUNCTION IN UPDATE TASK](javascript:call_link\('abapcall_function_update.htm'\)). This entails closing one SAP LUW and opening another.
+This program makes writes on the database that are moved to different [update function modules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenupdate_function_module_glosry.htm "Glossary Entry"). The statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcommit.htm) executes the function modules registered up until now using the [CALL FUNCTION IN UPDATE TASK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_update.htm). This entails closing one SAP LUW and opening another.
 
-In the first statement, COMMIT WORK, the addition AND WAIT specifies [synchronous updates](javascript:call_link\('abensynchronous_update_glosry.htm'\) "Glossary Entry"), where one update function module must be completed before the next one can start. In the second SAP LUW, the statement [SET UPDATE TASK](javascript:call_link\('abapset_update_task_shortref.htm'\)) switches [local updates](javascript:call_link\('abenlocal_update_glosry.htm'\) "Glossary Entry") on, which are always performed synchronously.
+In the first statement, COMMIT WORK, the addition AND WAIT specifies [synchronous updates](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensynchronous_update_glosry.htm "Glossary Entry"), where one update function module must be completed before the next one can start. In the second SAP LUW, the statement [SET UPDATE TASK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_update_task_shortref.htm) switches [local updates](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocal_update_glosry.htm "Glossary Entry") on, which are always performed synchronously.

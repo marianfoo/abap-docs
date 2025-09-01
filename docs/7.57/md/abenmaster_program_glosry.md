@@ -4,11 +4,11 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_glossary.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: master program, ABENMASTER_PROGRAM_GLOSRY, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D
 %0ASuggestion for improvement:)
 
 master program
 
-[Compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry") that is modularized into different [processing blocks](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") which are distributed over several [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry"). Typical master programs are [class](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") and [function pools](javascript:call_link\('abenfunction_pool_glosry.htm'\) "Glossary Entry"), that are created implicitly by the development tools. The [ABAP Unit](javascript:call_link\('abenabap_unit_glosry.htm'\) "Glossary Entry") tests for the units in the include programs are usually created in the [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry") of the master program.
+[Compilation unit](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencompilation_unit_glosry.htm "Glossary Entry") that is modularized into different [processing blocks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocessing_block_glosry.htm "Glossary Entry") which are distributed over several [include programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninclude_program_glosry.htm "Glossary Entry"). Typical master programs are [class](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_pool_glosry.htm "Glossary Entry") and [function pools](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction_pool_glosry.htm "Glossary Entry"), that are created implicitly by the development tools. The [ABAP Unit](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_unit_glosry.htm "Glossary Entry") tests for the units in the include programs are usually created in the [test include](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentest_include_glosry.htm "Glossary Entry") of the master program.

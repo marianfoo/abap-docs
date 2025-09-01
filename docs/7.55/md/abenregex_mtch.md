@@ -4,13 +4,15 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions (regex)](javascript:call_link\('abenregular_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions (regex)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregular_expressions.htm) → 
 
 regex - Searching, Replacing, Matching
 
 Regular expressions can be used to find and replace substrings of character strings or to check if a complete character string matches its pattern. If a regular expression is applied to a character string as a search pattern, a search for matches of the regular expression with substrings of the character string is intended. In this case, special characters in the regular expression do not match characters, but match positions, thus affecting the type and number of occurrences. If a regular expression is applied to a character string as a search pattern, it is checked whether the character string matches a pattern.
 
--   [Searching](#abenregex-mtch-1--------replacing---@ITOC@@ABENREGEX_MTCH_2)
+-   [Searching](#@@ITOC@@ABENREGEX_MTCH_1)
+
+-   [Replacing](#@@ITOC@@ABENREGEX_MTCH_2)
 
 -   [Matching](#@@ITOC@@ABENREGEX_MTCH_3)
 
@@ -18,21 +20,21 @@ Searching
 
 In order to search for substrings that match a pattern described by a regular expression you can use the following:
 
--   Statement [FIND](javascript:call_link\('abapfind.htm'\)) with the addition [PCRE*|*REGEX](javascript:call_link\('abapfind_pattern.htm'\)).
+-   Statement [FIND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind.htm) with the addition [PCRE*|*REGEX](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind_pattern.htm).
 
--   Built-in functions with the argument [pcre*|*regex](javascript:call_link\('abenstring_functions_regex.htm'\)):
+-   Built-in functions with the argument [pcre*|*regex](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_regex.htm):
 
--   [find, find\_...](javascript:call_link\('abensearch_functions.htm'\))
+-   [find, find\_...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensearch_functions.htm)
 
--   [count, count\_...](javascript:call_link\('abencount_functions.htm'\))
+-   [count, count\_...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencount_functions.htm)
 
--   [match](javascript:call_link\('abenmatch_functions.htm'\))
+-   [match](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmatch_functions.htm)
 
--   [substring, substring\_...](javascript:call_link\('abensubstring_functions.htm'\))
+-   [substring, substring\_...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensubstring_functions.htm)
 
--   [contains...](javascript:call_link\('abencontains_functions.htm'\))
+-   [contains...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencontains_functions.htm)
 
--   Methods of [system class](javascript:call_link\('abenregex_system_classes.htm'\)) CL\_ABAP\_MATCHER.
+-   Methods of [system class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_system_classes.htm) CL\_ABAP\_MATCHER.
 
 Example
 
@@ -56,11 +58,11 @@ Replacing
 
 In order to replace substrings that match a pattern described by a regular expression, the following can be used:
 
--   Statement [REPLACE](javascript:call_link\('abapreplace.htm'\)) with the addition [PCRE*|*REGEX](javascript:call_link\('abapreplace_pattern.htm'\)).
+-   Statement [REPLACE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace.htm) with the addition [PCRE*|*REGEX](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_pattern.htm).
 
--   Built-in function [replace](javascript:call_link\('abenreplace_functions.htm'\)) with the argument [pcre*|*regex](javascript:call_link\('abenstring_functions_regex.htm'\)).
+-   Built-in function [replace](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreplace_functions.htm) with the argument [pcre*|*regex](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_regex.htm).
 
--   Methods of the [system class](javascript:call_link\('abenregex_system_classes.htm'\)) CL\_ABAP\_MATCHER.
+-   Methods of the [system class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_system_classes.htm) CL\_ABAP\_MATCHER.
 
 Example
 
@@ -76,9 +78,9 @@ Matching
 
 In order to check if a complete character string matches a regular expression, the following can be used:
 
--   Built-in function [matches](javascript:call_link\('abenmatches_functions.htm'\)) with the argument [pcre*|*regex](javascript:call_link\('abenstring_functions_regex.htm'\)).
+-   Built-in function [matches](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmatches_functions.htm) with the argument [pcre*|*regex](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_regex.htm).
 
--   Methods of [system class](javascript:call_link\('abenregex_system_classes.htm'\)) CL\_ABAP\_MATCHER.
+-   Methods of [system class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_system_classes.htm) CL\_ABAP\_MATCHER.
 
 Example
 

@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - Views](javascript:call_link\('abenddic_cds_views.htm'\)) →  [ABAP CDS - Client Handling in CDS Views](javascript:call_link\('abencds_client_handling.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_views.htm) →  [ABAP CDS - Client Handling in CDS Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_client_handling.htm) → 
 
 CDS Views, Obsolete Client Handling
 
-This example demonstrates how obsolete [cross-client](javascript:call_link\('abencds_view_client_handling_obs.htm'\)) CDS views are handled.
+This example demonstrates how obsolete [cross-client](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_client_handling_obs.htm) CDS views are handled.
 
 Source Code
 
@@ -117,7 +117,7 @@ spfli.cityfrom,
 spfli.cityto
 }    
 
-They are used to demonstrate the behavior in rare cases where views with the obsolete notation [ClientDependent:false](javascript:call_link\('abencds_view_client_handling_obs.htm'\)) are made into cross-client views even though they contain client-specific data sources:
+They are used to demonstrate the behavior in rare cases where views with the obsolete notation [ClientDependent:false](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_client_handling_obs.htm) are made into cross-client views even though they contain client-specific data sources:
 
 -   DEMO\_CDS\_SPFLI\_CLIENT\_2 is a cross-client CDS view in which the client column is not specified in the SELECT list.
 

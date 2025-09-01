@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - Common EML Statements and Operands](javascript:call_link\('abapcommon_eml_elements.htm'\)) →  [ABAP EML - response\_param](javascript:call_link\('abapeml_response.htm'\)) →  [Examples for Responses](javascript:call_link\('abeneml_responses_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml.htm) →  [ABAP EML - Common EML Statements and Operands](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommon_eml_elements.htm) →  [ABAP EML - response\_param](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_response.htm) →  [Examples for Responses](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_responses_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20Responses%20%28Dynamic%20Forms%20of%20ABAP%20EML%20Statements%29%2C%20ABENEML_RESPONSES_DYN_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%
 0A%0D%0ASuggestion%20for%20improvement:)
 
 ABAP EML - Responses (Dynamic Forms of ABAP EML Statements)
 
-This example demonstrates responses for the dynamic form of the ABAP EML MODIFY and READ statements with a simple managed [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+This example demonstrates responses for the dynamic form of the ABAP EML MODIFY and READ statements with a simple managed [RAP BO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
 Data model
 
@@ -46,7 +46,7 @@ define view entity DEMO\_MANAGED\_CHILD
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_root unique;
 strict ( 2 );
@@ -74,7 +74,7 @@ authorization dependent by \_parent
 
 Behavior implementation
 
-For the above RAP behavior definition, there is no [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") created.
+For the above RAP behavior definition, there is no [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") created.
 
 Source Code   
 
@@ -319,7 +319,7 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class:
 
 -   Dynamic ABAP EML modify operations using MODIFY ENTITIES OPERATIONS
     
@@ -327,4 +327,4 @@ The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "G
     
 -   Dynamic ABAP EML read operations using READ ENTITIES OPERATIONS
     
-    Various read operations on data sets of the root and child entity are executed. For that purpose, an internal table with type ABP\_BEHV\_RETRIEVALS\_TAB must be defined. This table includes parameters (in this case, among others, other tables holding demo data and being typed with the required BDEF derived type) to carry out the reading. Errors are intentionally caused for the read operations so that the parameter for FAILED is filled with entries (the REPORTED parameter does not get filled by the [RAP BO provider](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry") in this example). Also here, the response parameter is of type ABP\_BEHV\_RESPONSE\_TAB. Same as above, the responses are put into an internal table that are displayed in the output screen (note that this internal table is shared for the output of failures for the modify and read operations in this example, i. e. the columns for create, delete and update are not relevant for read operations and must be ignored) as well as the database table entries after the read operation.
+    Various read operations on data sets of the root and child entity are executed. For that purpose, an internal table with type ABP\_BEHV\_RETRIEVALS\_TAB must be defined. This table includes parameters (in this case, among others, other tables holding demo data and being typed with the required BDEF derived type) to carry out the reading. Errors are intentionally caused for the read operations so that the parameter for FAILED is filled with entries (the REPORTED parameter does not get filled by the [RAP BO provider](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry") in this example). Also here, the response parameter is of type ABP\_BEHV\_RESPONSE\_TAB. Same as above, the responses are put into an internal table that are displayed in the output screen (note that this internal table is shared for the output of failures for the modify and read operations in this example, i. e. the columns for create, delete and update are not relevant for read operations and must be ignored) as well as the database table entries after the read operation.

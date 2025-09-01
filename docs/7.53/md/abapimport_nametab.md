@@ -35,7 +35,7 @@ Note
 
 The statement IMPORT NAMETAB is no longer supported. Instead, the function module DD\_GET\_NAMETAB must be used.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 web API
 
-[OData](javascript:call_link\('abenodata_glosry.htm'\) "Glossary Entry") consumer of a [RAP business service](javascript:call_link\('abenbusiness_service_glosry.htm'\) "Glossary Entry") that serves as an API without UI-specific metadata.
+[OData](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenodata_glosry.htm "Glossary Entry") consumer of a [RAP business service](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbusiness_service_glosry.htm "Glossary Entry") that serves as an API without UI-specific metadata.

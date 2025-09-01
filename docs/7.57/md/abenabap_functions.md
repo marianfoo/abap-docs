@@ -4,25 +4,25 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Structure](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Structure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_modularization.htm) →  [Procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_procedures.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Function Modules, ABENABAP_FUNCTIONS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASu
 ggestion for improvement:)
 
 Function Modules
 
-Function modules are reusable cross-program [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") that are organized into [function pools](javascript:call_link\('abenfunction_pool_glosry.htm'\) "Glossary Entry") and whose functionality is implemented between the following statements:
+Function modules are reusable cross-program [procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocedure_glosry.htm "Glossary Entry") that are organized into [function pools](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction_pool_glosry.htm "Glossary Entry") and whose functionality is implemented between the following statements:
 
-[FUNCTION](javascript:call_link\('abapfunction.htm'\))
+[FUNCTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfunction.htm)
   ...
-[ENDFUNCTION](javascript:call_link\('abapendfunction.htm'\))
+[ENDFUNCTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapendfunction.htm)
 
-Function modules and their [interfaces](javascript:call_link\('abenfunction.htm'\)) are created in the [Function Builder](javascript:call_link\('abenfunction_builder_glosry.htm'\) "Glossary Entry") in the ABAP Workbench or in the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry").
+Function modules and their [interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction.htm) are created in the [Function Builder](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction_builder_glosry.htm "Glossary Entry") in the ABAP Workbench or in the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadt_glosry.htm "Glossary Entry").
 
 Hint
 
-Function modules in function pools are the predecessor technology of public [methods](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") in global classes.
+Function modules in function pools are the predecessor technology of public [methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethod_glosry.htm "Glossary Entry") in global classes.
 
 Continue
-[FUNCTION](javascript:call_link\('abapfunction.htm'\))
-[ENDFUNCTION](javascript:call_link\('abapendfunction.htm'\))
+[FUNCTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfunction.htm)
+[ENDFUNCTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapendfunction.htm)

@@ -4,15 +4,15 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT clauses](javascript:call_link\('abenselect_clauses.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Reads](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_reading.htm) →  [SELECT clauses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_clauses.htm) → 
 
 SELECT - select\_clause
 
-[Quick Reference](javascript:call_link\('abapselect_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm)
 
 Syntax
 
-... *\[*DISTINCT*\]* [select\_list](javascript:call_link\('abapselect_list.htm'\)) ...
+... *\[*DISTINCT*\]* [select\_list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm) ...
 
 Addition:
 
@@ -20,13 +20,13 @@ Addition:
 
 Effect
 
-SELECT clause of a [query](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry") statement. The SELECT defines the structure of the results set of the SELECT statement. It consists of a [SELECT list](javascript:call_link\('abapselect_list.htm'\)), which defines the columns of the results set, and an optional addition DISTINCT, which removes duplicative rows from the results set.
+SELECT clause of a [query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquery_glosry.htm "Glossary Entry") statement. The SELECT defines the structure of the results set of the SELECT statement. It consists of a [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm), which defines the columns of the results set, and an optional addition DISTINCT, which removes duplicative rows from the results set.
 
-The SELECT list [select\_list](javascript:call_link\('abapselect_list.htm'\)) specifies the columns to be read and defines their names in the results set. Note that column names from the [data source](javascript:call_link\('abapselect_data_source.htm'\)) can be changed. For single columns, [aggregate expressions](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry") can be used to specify [aggregates](javascript:call_link\('abenaggregate_glosry.htm'\) "Glossary Entry"). [SQL expressions](javascript:call_link\('abensql_expression_glosry.htm'\) "Glossary Entry") enable table fields to be evaluated in the database system.
+The SELECT list [select\_list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm) specifies the columns to be read and defines their names in the results set. Note that column names from the [data source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm) can be changed. For single columns, [aggregate expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenaggregate_expression_glosry.htm "Glossary Entry") can be used to specify [aggregates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenaggregate_glosry.htm "Glossary Entry"). [SQL expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_expression_glosry.htm "Glossary Entry") enable table fields to be evaluated in the database system.
 
 Note
 
-The SELECT clause must either be listed as the first clause after the keyword SELECT (or after the optional addition SINGLE) or after the FROM clause. After the FROM clause, the SELECT clause must be introduced using the addition [FIELDS](javascript:call_link\('abapselect.htm'\)). A FROM clause of the SELECT clause supports tools such as the code completion in ABAP Editor.
+The SELECT clause must either be listed as the first clause after the keyword SELECT (or after the optional addition SINGLE) or after the FROM clause. After the FROM clause, the SELECT clause must be introduced using the addition [FIELDS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm). A FROM clause of the SELECT clause supports tools such as the code completion in ABAP Editor.
 
 Example
 
@@ -51,22 +51,22 @@ The addition DISTINCT removes rows that occur more than once in a multirow resul
 
 The addition DISTINCT must not be used in the following cases:
 
--   If the addition [SINGLE](javascript:call_link\('abapselect_single.htm'\)) is used.
+-   If the addition [SINGLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_single.htm) is used.
     
--   If a column specified in the SELECT list [select\_list](javascript:call_link\('abapselect_list.htm'\)) has the type STRING, RAWSTRING, LCHR, or LRAW.
+-   If a column specified in the SELECT list [select\_list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm) has the type STRING, RAWSTRING, LCHR, or LRAW.
     
 
-If DISTINCT is used, the statement SELECT bypasses [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry").
+If DISTINCT is used, the statement SELECT bypasses [table buffering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_buffering_glosry.htm "Glossary Entry").
 
 Notes
 
 -   For the addition DISTINCT, it is not important which columns of the results set are key fields of the associated database tables, views, or CDS entities.
     
--   The comparison is based on the full row content, which means that the number of rows in the results set is determined by the [SELECT list](javascript:call_link\('abapselect_list.htm'\)). If, for example, all key fields of a database table are specified directly as columns in a [SELECT](javascript:call_link\('abenopen_sql_columns.htm'\)) list, there can be no rows that occur more than once. The other extreme is the case where a SELECT list contains a single [host variable](javascript:call_link\('abenopen_sql_host_variables.htm'\)) or a single literal. Here, all rows are deleted except one.
+-   The comparison is based on the full row content, which means that the number of rows in the results set is determined by the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm). If, for example, all key fields of a database table are specified directly as columns in a [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm) list, there can be no rows that occur more than once. The other extreme is the case where a SELECT list contains a single [host variable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_host_variables.htm) or a single literal. Here, all rows are deleted except one.
     
--   As a part of the SELECT clause, the addition DISTINCT is applied before the additions [UP TO](javascript:call_link\('abapselect_up_to_offset.htm'\)) and [OFFSET](javascript:call_link\('abapselect_up_to_offset.htm'\)) are evaluated.
+-   As a part of the SELECT clause, the addition DISTINCT is applied before the additions [UP TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_up_to_offset.htm) and [OFFSET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_up_to_offset.htm) are evaluated.
     
--   If DISTINCT is specified, it should be noted that this requires the execution of sort operations in the database system, and the statement SELECT therefore bypasses [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry").
+-   If DISTINCT is specified, it should be noted that this requires the execution of sort operations in the database system, and the statement SELECT therefore bypasses [table buffering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_buffering_glosry.htm "Glossary Entry").
     
 
 Example
@@ -81,4 +81,4 @@ SELECT DISTINCT cityto
 cl\_demo\_output=>display( destinations ).
 
 Continue
-[SELECT - select\_list](javascript:call_link\('abapselect_list.htm'\))
+[SELECT - select\_list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm)

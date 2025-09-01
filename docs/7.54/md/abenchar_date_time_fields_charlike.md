@@ -4,15 +4,15 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Date Fields and Time Fields](javascript:call_link\('abencharacter_date_time.htm'\)) →  [Access to Date Fields and Time Fields](javascript:call_link\('abenchar_date_time_fields_access.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendate_time_processing.htm) →  [Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_date_time.htm) →  [Access to Date Fields and Time Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_access.htm) → 
 
 Character-Like Access to Date Fields and Time Fields
 
-Character-like access to character-like content of date fields and time fields is evaluated in a character-like manner. The character-like nature of date fields and time fields can be exploited, for example, to access detailed information. To avoid unexpected results from this type of access, the [validity](javascript:call_link\('abenchar_date_time_fields_validity.htm'\)) of the content of the date or time fields must be verified. Most [statements](javascript:call_link\('abenstring_processing_statements.htm'\)) and [functions](javascript:call_link\('abenstring_functions.htm'\)) used in [string processing](javascript:call_link\('abenabap_data_string.htm'\)) are not suitable for editing date fields and time fields because they generally produce invalid content.
+Character-like access to character-like content of date fields and time fields is evaluated in a character-like manner. The character-like nature of date fields and time fields can be exploited, for example, to access detailed information. To avoid unexpected results from this type of access, the [validity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchar_date_time_fields_validity.htm) of the content of the date or time fields must be verified. Most [statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_processing_statements.htm) and [functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_functions.htm) used in [string processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_string.htm) are not suitable for editing date fields and time fields because they generally produce invalid content.
 
 Example
 
-The following example demonstrates how [substring functions](javascript:call_link\('abensubstring_functions.htm'\)) can be used to extract the components year, month, day, hour, minute, and second from date fields and time fields.
+The following example demonstrates how [substring functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubstring_functions.htm) can be used to extract the components year, month, day, hour, minute, and second from date fields and time fields.
 
 DATA: date TYPE d,
       time TYPE t.

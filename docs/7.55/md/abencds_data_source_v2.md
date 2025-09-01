@@ -4,25 +4,25 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_statement_v2.htm) → 
 
 CDS DDL - CDS View Entity, SELECT, data\_source
 
 Syntax
 
-... entity*\[* [parameters](javascript:call_link\('abencds_select_parameters_v2.htm'\))*\]**|* [path\_expr](javascript:call_link\('abencds_path_expression_v2.htm'\)) *\[*AS alias*\]* *\[* [join](javascript:call_link\('abencds_joined_data_source_v2.htm'\))*\]* ...
+... entity*\[* [parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_parameters_v2.htm)*\]**|* [path\_expr](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_path_expression_v2.htm) *\[*AS alias*\]* *\[* [join](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_joined_data_source_v2.htm)*\]* ...
 
 Effect
 
-Defines a data source of a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"). A data source can be a [DDIC database table](javascript:call_link\('abenddic_database_tables.htm'\)), a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"), a [CDS table function](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry"), a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry"), or a [CDS DDIC-based view](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry").
+Defines a data source of a [CDS view entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v2_view_glosry.htm "Glossary Entry"). A data source can be a [DDIC database table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables.htm), a [CDS view entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v2_view_glosry.htm "Glossary Entry"), a [CDS table function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_table_function_glosry.htm "Glossary Entry"), a [CDS hierarchy](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_hierarchy_glosry.htm "Glossary Entry"), or a [CDS DDIC-based view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v1_view_glosry.htm "Glossary Entry").
 
--   The data source is specified either directly using its name entity or using a path expression [path\_expr](javascript:call_link\('abencds_path_expression_v2.htm'\)) in which [CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") are evaluated. The CDS associations of the path expression cannot have any abstract [association targets](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry").
+-   The data source is specified either directly using its name entity or using a path expression [path\_expr](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_path_expression_v2.htm) in which [CDS associations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_glosry.htm "Glossary Entry") are evaluated. The CDS associations of the path expression cannot have any abstract [association targets](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassociation_target_glosry.htm "Glossary Entry").
 
--   If the data source is a CDS entity with a [list of input parameters](javascript:call_link\('abencds_parameter_list_v2.htm'\)), actual parameters must be passed to these using [parameters](javascript:call_link\('abencds_select_parameters_v2.htm'\)).
+-   If the data source is a CDS entity with a [list of input parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_parameter_list_v2.htm), actual parameters must be passed to these using [parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_parameters_v2.htm).
 
--   An [alias name](javascript:call_link\('abenalias_glosry.htm'\) "Glossary Entry") alias for a directly specified data source can be defined after AS. The name must comply with the naming rules for [names](javascript:call_link\('abencds_general_syntax_rules.htm'\)).
+-   An [alias name](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenalias_glosry.htm "Glossary Entry") alias for a directly specified data source can be defined after AS. The name must comply with the naming rules for [names](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_general_syntax_rules.htm).
 
--   The syntax [JOIN](javascript:call_link\('abencds_joined_data_source_v2.htm'\)) can be used to combine multiple data sources as [joins](javascript:call_link\('abenjoin_glosry.htm'\) "Glossary Entry").
+-   The syntax [JOIN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_joined_data_source_v2.htm) can be used to combine multiple data sources as [joins](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenjoin_glosry.htm "Glossary Entry").
 
 Hint
 
@@ -63,4 +63,4 @@ define view entity DEMO\_CDS\_DATA\_SOURCE
   }
 
 Continue
-[CDS DDL - CDS View Entity, SELECT, JOIN](javascript:call_link\('abencds_joined_data_source_v2.htm'\))
+[CDS DDL - CDS View Entity, SELECT, JOIN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_joined_data_source_v2.htm)

@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  E
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  E
 
 EXEC SQL - Short Reference
 
-[Reference](javascript:call_link\('abapexec.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexec.htm)
 
 Syntax
 
@@ -18,9 +18,9 @@ ENDEXEC.
 
 Effect
 
-Defines an area in which [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statements can be specified for database accesses.
+Defines an area in which [Native SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennative_sql_glosry.htm "Glossary Entry") statements can be specified for database accesses.
 
 Addition
 
--   [PERFORMING subr](javascript:call_link\('abapexec_implicit.htm'\))
+-   [PERFORMING subr](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexec_implicit.htm)
     Obsolete: Implicit cursor processing if a SELECT statement is specified. Here, the subroutine subr is called for each row read.

@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\)) →  [Exiting Processing Blocks](javascript:call_link\('abenleave_processing_blocks.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_execution.htm) →  [Exiting Program Units](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenleave_program_units.htm) →  [Exiting Processing Blocks](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenleave_processing_blocks.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20STOP%2C%20ABAPSTOP%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 STOP
 
-[Short Reference](javascript:call_link\('abapstop_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstop_shortref.htm)
 
 Syntax
 
@@ -18,21 +18,21 @@ STOP.
 
 Effect
 
-The statement STOP is only to be used in [executable programs](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") and in the following event blocks:
+The statement STOP is only to be used in [executable programs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexecutable_program_glosry.htm "Glossary Entry") and in the following event blocks:
 
--   [AT SELECTION-SCREEN](javascript:call_link\('abapat_selection-screen.htm'\)) (without additions)
--   [START-OF-SELECTION](javascript:call_link\('abapstart-of-selection.htm'\))
--   [GET](javascript:call_link\('abapget-.htm'\))
+-   [AT SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_selection-screen.htm) (without additions)
+-   [START-OF-SELECTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstart-of-selection.htm)
+-   [GET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget-.htm)
 
 These event blocks are exited immediately using STOP and the runtime framework raises the event END-OF-SELECTION.
 
 Hint
 
-The statement STOP is forbidden in methods and raises a uncatchable exception when processing [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") called using [CALL SCREEN](javascript:call_link\('abapcall_screen.htm'\)), during a [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) event, and in programs not called using [SUBMIT](javascript:call_link\('abapsubmit.htm'\)).
+The statement STOP is forbidden in methods and raises a uncatchable exception when processing [dynpros](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm "Glossary Entry") called using [CALL SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_screen.htm), during a [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapload-of-program.htm) event, and in programs not called using [SUBMIT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsubmit.htm).
 
 Example
 
-Termination of the event block GET sbook of the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S, after max postings have been issued, and branching to END-OF-SELECTION.
+Termination of the event block GET sbook of the [logical database](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S, after max postings have been issued, and branching to END-OF-SELECTION.
 
 NODES: sflight,
        sbook.
@@ -53,7 +53,7 @@ END-OF-SELECTION.
   cl\_demo\_output=>line( ).
   cl\_demo\_output=>display( |First { bookings } bookings| ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

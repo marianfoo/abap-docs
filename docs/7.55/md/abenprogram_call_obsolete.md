@@ -4,24 +4,24 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Calls
 
--   [CALL METHOD - obsolete](javascript:call_link\('abapcall_method_static.htm'\))
+-   [CALL METHOD - obsolete](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_static.htm)
 
--   [CALL DIALOG](javascript:call_link\('abapcall_dialog.htm'\))
+-   [CALL DIALOG](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_dialog.htm)
 
--   [CALL CUSTOMER-FUNCTION](javascript:call_link\('abapcall_customer-function.htm'\))
+-   [CALL CUSTOMER-FUNCTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_customer-function.htm)
 
--   [CALL FUNCTION EXCEPTIONS - Short Form](javascript:call_link\('abapcall_function_exc_short_form.htm'\))
+-   [CALL FUNCTION EXCEPTIONS - Short Form](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_exc_short_form.htm)
 
--   [PERFORM sub(prog)](javascript:call_link\('abapperform_obsolete.htm'\))
+-   [PERFORM sub(prog)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapperform_obsolete.htm)
 
 Continue
-[CALL TRANSACTION, Obsolete](javascript:call_link\('abapcall_transaction_auth_obs.htm'\))
-[CALL METHOD, Static Method Call (Obsolete)](javascript:call_link\('abapcall_method_static.htm'\))
-[CALL DIALOG](javascript:call_link\('abapcall_dialog.htm'\))
-[CALL CUSTOMER-FUNCTION](javascript:call_link\('abapcall_customer-function.htm'\))
-[CALL FUNCTION EXCEPTIONS, Short Form](javascript:call_link\('abapcall_function_exc_short_form.htm'\))
-[PERFORM subr(prog)](javascript:call_link\('abapperform_obsolete.htm'\))
+[CALL TRANSACTION, Obsolete](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transaction_auth_obs.htm)
+[CALL METHOD, Static Method Call (Obsolete)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_static.htm)
+[CALL DIALOG](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_dialog.htm)
+[CALL CUSTOMER-FUNCTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_customer-function.htm)
+[CALL FUNCTION EXCEPTIONS, Short Form](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_exc_short_form.htm)
+[PERFORM subr(prog)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapperform_obsolete.htm)

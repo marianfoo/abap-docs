@@ -4,15 +4,15 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Miscellaneous components](javascript:call_link\('abapderived_types_misc.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_rap_other.htm) →  [ABAP for RAP, BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm) →  [Miscellaneous components](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_misc.htm) → 
 
 %op
 
 Use
 
-%op is a [component group](javascript:call_link\('abencomponent_group_glosry.htm'\) "Glossary Entry") in [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry").
+%op is a [component group](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomponent_group_glosry.htm "Glossary Entry") in [BDEF derived types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry").
 
-It is used as indicator for [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\)), [nonstandard operations](javascript:call_link\('abenbdl_nonstandard.htm'\)) and associations defined in the BDEF.
+It is used as indicator for [standard operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_standard_operations.htm), [nonstandard operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_nonstandard.htm) and associations defined in the BDEF.
 
 For accessing the elements with %op, the syntax can, for example, be as follows: %op-%create, %op-%update, %op-%delete, %op-%action-action\_name, or %op-%assoc-assoc\_name.
 
@@ -22,7 +22,7 @@ The components are typed with ABP\_BEHV\_FLAG.
 
 Where used
 
-This component can occur in the following type declarations of [TYPE TABLE FOR ...](javascript:call_link\('abaptype_table_for.htm'\)) and [TYPE STRUCTURE FOR ...](javascript:call_link\('abaptype_structure_for.htm'\)):
+This component can occur in the following type declarations of [TYPE TABLE FOR ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_table_for.htm) and [TYPE STRUCTURE FOR ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_structure_for.htm):
 
 -   FAILED \[EARLY/LATE\]
 -   REPORTED \[EARLY/LATE\]
@@ -30,7 +30,7 @@ This component can occur in the following type declarations of [TYPE TABLE FOR .
 
 Example
 
-The following source code section taken from the CCIMP include of the global class of the [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") BP\_DEMO\_MANAGED\_ROOT\_PERM demonstrates the component %op in the context of a get\_instance\_authorizations method that returns information on whether delete operations and executions of an action are allowed on RAP BO instances or not. See the executable program for this example further down.
+The following source code section taken from the CCIMP include of the global class of the [behavior pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") BP\_DEMO\_MANAGED\_ROOT\_PERM demonstrates the component %op in the context of a get\_instance\_authorizations method that returns information on whether delete operations and executions of an action are allowed on RAP BO instances or not. See the executable program for this example further down.
 
 METHOD get\_instance\_authorizations.
   READ ENTITIES OF demo\_managed\_root\_perm IN LOCAL MODE
@@ -55,4 +55,4 @@ ENDMETHOD.
 
 Executable Example
 
-The example [BDEF derived type components in the context of requesting permissions](javascript:call_link\('abenderived_types_misc_abexa.htm'\)) demonstrates the use of various BDEF derived type components including %op with a managed RAP BO.
+The example [BDEF derived type components in the context of requesting permissions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenderived_types_misc_abexa.htm) demonstrates the use of various BDEF derived type components including %op with a managed RAP BO.

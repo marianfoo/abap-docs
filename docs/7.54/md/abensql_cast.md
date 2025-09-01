@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) → 
 
 sql\_exp - sql\_cast
 
@@ -14,9 +14,9 @@ Syntax
 
 Effect
 
-Type adjustment in ABAP SQL. A cast expression [converts](javascript:call_link\('abensql_cast_rules.htm'\)) the value of the operand sql\_exp to the dictionary type specified by dtype. SQL expressions, which have a type that matches dtype (as shown below), can be used as an operand sql\_exp. The result is a representation of the source value in type dtype.
+Type adjustment in ABAP SQL. A cast expression [converts](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_cast_rules.htm) the value of the operand sql\_exp to the dictionary type specified by dtype. SQL expressions, which have a type that matches dtype (as shown below), can be used as an operand sql\_exp. The result is a representation of the source value in type dtype.
 
-[Built-in data types](javascript:call_link\('abenddic_builtin_types.htm'\)) in ABAP Dictionary with the following syntax can be specified for dtype:
+[Built-in data types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) in ABAP Dictionary with the following syntax can be specified for dtype:
 
 -   Numeric types
 
@@ -76,9 +76,9 @@ Type adjustment in ABAP SQL. A cast expression [converts](javascript:call_link\(
 
 -   UNIT( 2*|*3 )
 
-len and decimals can be used to specify lengths and decimal places for those dictionary types that have variable lengths and decimal places. [Literals](javascript:call_link\('abenabap_sql_host_literals.htm'\)) or [host constants](javascript:call_link\('abenopen_sql_host_variables.htm'\)) of the [ABAP type](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) b, s, i, or int8 can be specified for len and decimals. If no lengths or decimal places are specified for these types, these values are taken from the result of the specified SQL expression sql\_exp. In both cases, the lengths and decimal places must meet the requirements of the following table.
+len and decimals can be used to specify lengths and decimal places for those dictionary types that have variable lengths and decimal places. [Literals](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql_host_literals.htm) or [host constants](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_variables.htm) of the [ABAP type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_complete.htm) b, s, i, or int8 can be specified for len and decimals. If no lengths or decimal places are specified for these types, these values are taken from the result of the specified SQL expression sql\_exp. In both cases, the lengths and decimal places must meet the requirements of the following table.
 
-The following table shows which combinations of built-in data types in ABAP Dictionary can currently be cast to each other and what the prerequisites are in each case. There is a special list of [conversion rules](javascript:call_link\('abensql_cast_rules.htm'\)) for every combination.
+The following table shows which combinations of built-in data types in ABAP Dictionary can currently be cast to each other and what the prerequisites are in each case. There is a special list of [conversion rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_cast_rules.htm) for every combination.
 
 from/to
 
@@ -1336,29 +1336,29 @@ There are no further restrictions to note in combinations using "x". The followi
 
 -   For combinations with "c", the initial length and target length must be equal.
 
-In the case of incompatible types, the content of the operand is [converted](javascript:call_link\('abensql_cast_rules.htm'\)) to the target type (exceptions can be raised if values are not suitable). If the operand of the expression has the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), the result of the expression is also the null value.
+In the case of incompatible types, the content of the operand is [converted](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_cast_rules.htm) to the target type (exceptions can be raised if values are not suitable). If the operand of the expression has the [null value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry"), the result of the expression is also the null value.
 
 Notes
 
--   Specifying a cast expression always means specifying an [SQL expression](javascript:call_link\('abapsql_expr.htm'\)). Cast expressions can only be specified for operand positions for which SQL expressions are possible.
+-   Specifying a cast expression always means specifying an [SQL expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm). Cast expressions can only be specified for operand positions for which SQL expressions are possible.
 
 -   Type modifications can be used in operand positions of ABAP SQL statements to convert operands without a suitable type to an operand with a suitable type.
 
 -   A CAST expression should be platform-independent. Conversions from the type FLTP to other numeric types are not allowed because the result would be platform-dependent.
 
--   For the missing combinations of type modifications that cannot be covered by a CAST expression, construction operators such as CONV can be used in [host expressions](javascript:call_link\('abenopen_sql_host_expressions.htm'\)) (at least for literals and host variables). In addition, built-in [conversion functions](javascript:call_link\('abenopen_sql_conversion_functions.htm'\)) exist for special conversions:
+-   For the missing combinations of type modifications that cannot be covered by a CAST expression, construction operators such as CONV can be used in [host expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_expressions.htm) (at least for literals and host variables). In addition, built-in [conversion functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_conversion_functions.htm) exist for special conversions:
 
--   [BINTOHEX](javascript:call_link\('abensql_type_conv_func.htm'\)) and [HEXTOBIN](javascript:call_link\('abensql_type_conv_func.htm'\)) for conversions of byte strings to character strings and back.
+-   [BINTOHEX](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_type_conv_func.htm) and [HEXTOBIN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_type_conv_func.htm) for conversions of byte strings to character strings and back.
 
--   If SQL expressions other than operands are used in a cast expression or if a data type other than FLTP is specified as dtype, the syntax check is run in [strict mode from Release 7.50](javascript:call_link\('abenopensql_strict_mode_750.htm'\)). This mode handles the statement more strictly than the normal syntax check.
+-   If SQL expressions other than operands are used in a cast expression or if a data type other than FLTP is specified as dtype, the syntax check is run in [strict mode from Release 7.50](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql_strict_mode_750.htm). This mode handles the statement more strictly than the normal syntax check.
 
--   If INT8 is specified as dtype in a cast expression, the syntax check is performed in a [strict mode from Release 7.50](javascript:call_link\('abenopensql_strict_mode_750.htm'\)), which handles the statement more strictly than the regular syntax check. If used, D16N or D34N apply [strict mode of the syntax check from Release 7.54](javascript:call_link\('abenopensql_strict_mode_754.htm'\)).
+-   If INT8 is specified as dtype in a cast expression, the syntax check is performed in a [strict mode from Release 7.50](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql_strict_mode_750.htm), which handles the statement more strictly than the regular syntax check. If used, D16N or D34N apply [strict mode of the syntax check from Release 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql_strict_mode_754.htm).
 
--   A cast expression cannot be evaluated in the [table buffer](javascript:call_link\('abentable_buffer_glosry.htm'\) "Glossary Entry") and always causes [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry") to be bypassed.
+-   A cast expression cannot be evaluated in the [table buffer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_buffer_glosry.htm "Glossary Entry") and always causes [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm "Glossary Entry") to be bypassed.
 
 Example
 
-The following [SELECT list](javascript:call_link\('abapselect_list.htm'\)) splits a [time stamp in a packed number](javascript:call_link\('abentime_stamps_packed.htm'\)) into its date part and its time part. Various CAST expressions are needed here to create a suitable type in every operand position.
+The following [SELECT list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_list.htm) splits a [time stamp in a packed number](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamps_packed.htm) into its date part and its time part. Various CAST expressions are needed here to create a suitable type in every operand position.
 
 DATA(timestamp) =
   cl\_abap\_tstmp=>utclong2tstmp\_short( utclong\_current( ) ).
@@ -1378,8 +1378,8 @@ cl\_demo\_output=>display( wa ).
 
 Executable Example
 
-[SQL Expressions, Cast Expression](javascript:call_link\('abensql_expr_cast_abexa.htm'\))
+[SQL Expressions, Cast Expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_cast_abexa.htm)
 
 Continue
-[sql\_exp - sql\_cast, Conversion Rules](javascript:call_link\('abensql_cast_rules.htm'\))
-![Example](exa.gif "Example") [SQL Expressions, Cast Expression](javascript:call_link\('abensql_expr_cast_abexa.htm'\))
+[sql\_exp - sql\_cast, Conversion Rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_cast_rules.htm)
+![Example](exa.gif "Example") [SQL Expressions, Cast Expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_cast_abexa.htm)

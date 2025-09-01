@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Addressing ABAP Data](javascript:call_link\('abenst_addressing.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_st.htm) →  [ST - Addressing ABAP Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_addressing.htm) → 
 
 ST - tt:ref, Current Node
 
@@ -14,9 +14,9 @@ Syntax
 
 Effect
 
-Exactly one node of the tree structures of the current template can be set as the current node at any place within a simple transformation (statically and when the program is executed). The current node hides the data roots in the sense that a reference name does not refer to a root name, but to the component name of the current node (see [Addressing Subnodes](javascript:call_link\('abenst_addressing_subnodes.htm'\))). If the current node is defined, it is the implicit operand of many [ST statements](javascript:call_link\('abenst_statements.htm'\)), but it can also be addressed explicitly using $ref.
+Exactly one node of the tree structures of the current template can be set as the current node at any place within a simple transformation (statically and when the program is executed). The current node hides the data roots in the sense that a reference name does not refer to a root name, but to the component name of the current node (see [Addressing Subnodes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_addressing_subnodes.htm)). If the current node is defined, it is the implicit operand of many [ST statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_statements.htm), but it can also be addressed explicitly using $ref.
 
-This section shows how to set the current node explicitly using *\[*tt:*\]*ref. In addition, the statement [tt:loop](javascript:call_link\('abenst_tt_loop.htm'\)) for transforming internal tables also sets the current node.
+This section shows how to set the current node explicitly using *\[*tt:*\]*ref. In addition, the statement [tt:loop](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_loop.htm) for transforming internal tables also sets the current node.
 
 At positions where the current node is not set explicitly, it is undefined and cannot be addressed using $ref. In these positions, the data roots are not hidden and they can be addressed using name.
 
@@ -34,7 +34,7 @@ The statement tt:ref itself has no operational effect; it only affects the impac
 
 Hint
 
-As a result of the [addressing rules](javascript:call_link\('abenst_addressing_nodes.htm'\)), only a subnode of the current node can be set as the new current node, unless a data root is being set.
+As a result of the [addressing rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_addressing_nodes.htm), only a subnode of the current node can be set as the new current node, unless a data root is being set.
 
 Use an attribute to set the current node
 
@@ -42,7 +42,7 @@ Use an attribute to set the current node
   ...
 </tt:...>
 
-Many [ST statements](javascript:call_link\('abenst_statements.htm'\)) make it possible to specify the current node as the content of the attribute ref. The same rules apply to node as when setting using the statement tt:ref. If no attribute ref is specified, the statement applies to the current node of the context. The currently set node is valid only within the context of the ST statement.
+Many [ST statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_statements.htm) make it possible to specify the current node as the content of the attribute ref. The same rules apply to node as when setting using the statement tt:ref. If no attribute ref is specified, the statement applies to the current node of the context. The currently set node is valid only within the context of the ST statement.
 
 Sets the current node in literal XML elements
 
@@ -50,7 +50,7 @@ Sets the current node in literal XML elements
   ...
 </...>
 
-In a [literal XML element](javascript:call_link\('abenst_xml_literals.htm'\)), tt:ref is a special attribute in the namespace of the ST statement and sets the current node there. The same rules apply to node as when setting using the statement tt:ref. The currently set node is valid only within the context of the XML element.
+In a [literal XML element](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_xml_literals.htm), tt:ref is a special attribute in the namespace of the ST statement and sets the current node there. The same rules apply to node as when setting using the statement tt:ref. The currently set node is valid only within the context of the XML element.
 
 Example
 
@@ -91,4 +91,4 @@ The current node is changed as follows:
 
 -   In the context of the two subsequent tt:value statements, the current node is set consecutively to the subnodes COL1 and COL2 of STRUC2. Each time an element is exited, the current node is set back to that of the surrounding element.
 
-Also see the example for calling a transformation in the [tt:value, Structures](javascript:call_link\('abenst_tt_value_structure.htm'\)) section.
+Also see the example for calling a transformation in the [tt:value, Structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_value_structure.htm) section.

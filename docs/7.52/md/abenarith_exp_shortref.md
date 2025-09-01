@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  A
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  A
 
 arith\_exp - Quick reference
 
@@ -17,12 +17,12 @@ Syntax
 
 Effect
 
-Arithmetic expression for calculating a numeric result from the operand operand. Arithmetic expressions can be parenthesized explicitly using [( )](javascript:call_link\('abenarith_brackets.htm'\)) and can occur in the [reading positions of certain statements](javascript:call_link\('abenoperands_expressions.htm'\)).
+Arithmetic expression for calculating a numeric result from the operand operand. Arithmetic expressions can be parenthesized explicitly using [( )](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarith_brackets.htm) and can occur in the [reading positions of certain statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_expressions.htm).
 
 Additions
 
--   [+*|*\-](javascript:call_link\('abapcompute_arith.htm'\))
+-   [+*|*\-](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_arith.htm)
     Sign of an operand operand.
     
--   [+*|*\-*|*\**|*/*|*DIV*|*MOD*|*\*\*](javascript:call_link\('abenarith_operators.htm'\))
+-   [+*|*\-*|*\**|*/*|*DIV*|*MOD*|*\*\*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarith_operators.htm)
     Arithmetic operators.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_operands.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20SQL%20-%20SQL%20Path%20Expressions%20sql_path%2C%20ABENABAP_SQL_PATH%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:
 )
@@ -13,60 +13,60 @@ ABAP SQL - SQL Path Expressions sql\_path
 
 Syntax
 
-... *\[*source~*\]*\\\_assoc1*\[* [sql\_para](javascript:call_link\('abenabap_sql_parameters.htm'\))*\]**\[*[attributes](javascript:call_link\('abenabap_sql_path_filter.htm'\))*\]*
-            *\[*\\\_assoc2*\[* [sql\_para](javascript:call_link\('abenabap_sql_parameters.htm'\))*\]**\[*[attributes](javascript:call_link\('abenabap_sql_path_filter.htm'\))*\]**\]*
+... *\[*source~*\]*\\\_assoc1*\[* [sql\_para](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_parameters.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_path_filter.htm)*\]*
+            *\[*\\\_assoc2*\[* [sql\_para](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_parameters.htm)*\]**\[*[attributes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_path_filter.htm)*\]**\]*
             *\[*\\...*\]* ...
 
 Effect
 
-Specifies an [SQL path expression](javascript:call_link\('abensql_path_expression_glosry.htm'\) "Glossary Entry"). ABAP SQL statements can contain path expressions in certain operand positions whose root element must be a [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") or [CTE association](javascript:call_link\('abencte_association_glosry.htm'\) "Glossary Entry") exposed as follows:
+Specifies an [SQL path expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_path_expression_glosry.htm "Glossary Entry"). ABAP SQL statements can contain path expressions in certain operand positions whose root element must be a [CDS association](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_association_glosry.htm "Glossary Entry") or [CTE association](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencte_association_glosry.htm "Glossary Entry") exposed as follows:
 
--   In the same SELECT statement of a [query](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry"), the name of the [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") is used to access one of the following [data sources](javascript:call_link\('abapselect_data_source.htm'\)):
-    -   A [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") that [exposes](javascript:call_link\('abencds_select_list_association_v2.htm'\)) the CDS association in its [SELECT list](javascript:call_link\('abencds_select_list_v2.htm'\)).
-    -   A [CDS DDIC-based view (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry") that [exposes](javascript:call_link\('abencds_select_list_association_v1.htm'\)) the CDS association in its [SELECT list](javascript:call_link\('abencds_select_list_v1.htm'\)).
-    -   A [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry") that [exposes](javascript:call_link\('abencds_f1_hiera_element.htm'\)) the CDS association in its [element list](javascript:call_link\('abencds_f1_hiera_element_list.htm'\)).
--   In a [WITH](javascript:call_link\('abapwith.htm'\)) statement, the association with the addition [WITH ASSOCIATIONS](javascript:call_link\('abapwith_associations.htm'\)) is exposed by a preceding [common table expression](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry"). This can be one of the following:
-    -   [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") or [CTE association](javascript:call_link\('abencte_association_glosry.htm'\) "Glossary Entry") [exposed](javascript:call_link\('abapwith_associations_using.htm'\)) using a path expression.
-    -   [CTE association](javascript:call_link\('abencte_association_glosry.htm'\) "Glossary Entry") [defined and exposed](javascript:call_link\('abapwith_associations_defining.htm'\)) for the common table expression.
+-   In the same SELECT statement of a [query](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenquery_glosry.htm "Glossary Entry"), the name of the [CDS entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm "Glossary Entry") is used to access one of the following [data sources](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_data_source.htm):
+    -   A [CDS view entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm "Glossary Entry") that [exposes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_association_v2.htm) the CDS association in its [SELECT list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_v2.htm).
+    -   A [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v1_view_glosry.htm "Glossary Entry") that [exposes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_association_v1.htm) the CDS association in its [SELECT list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_v1.htm).
+    -   A [CDS hierarchy](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_hierarchy_glosry.htm "Glossary Entry") that [exposes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_hiera_element.htm) the CDS association in its [element list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_hiera_element_list.htm).
+-   In a [WITH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith.htm) statement, the association with the addition [WITH ASSOCIATIONS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith_associations.htm) is exposed by a preceding [common table expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencommon_table_expression_glosry.htm "Glossary Entry"). This can be one of the following:
+    -   [CDS association](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_association_glosry.htm "Glossary Entry") or [CTE association](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencte_association_glosry.htm "Glossary Entry") [exposed](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith_associations_using.htm) using a path expression.
+    -   [CTE association](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencte_association_glosry.htm "Glossary Entry") [defined and exposed](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith_associations_defining.htm) for the common table expression.
 
-In a path expression, the names of associations \_assoc1, \_assoc2, ... are separated by backslashes (\\). Associations specified after the root element must be exposed in the [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") of the directly prefixed association in the path expression. No CDS associations can occur that are defined in a [CDS abstract entity](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry") or whose association targets are a [CDS abstract entity](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry").
+In a path expression, the names of associations \_assoc1, \_assoc2, ... are separated by backslashes (\\). Associations specified after the root element must be exposed in the [association target](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassociation_target_glosry.htm "Glossary Entry") of the directly prefixed association in the path expression. No CDS associations can occur that are defined in a [CDS abstract entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or whose association targets are a [CDS abstract entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry").
 
-When a SELECT statement with path expressions is compiled, the joins represented by them are implicitly inserted in the [FROM](javascript:call_link\('abapfrom_clause.htm'\)) clause of the statement and the resulting additional data sources are implicitly evaluated at the usage locations of the path expressions. The join conditions of the associations and the other conditions of the CDS entities or common table expressions involved are respected. Path expressions can be used:
+When a SELECT statement with path expressions is compiled, the joins represented by them are implicitly inserted in the [FROM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfrom_clause.htm) clause of the statement and the resulting additional data sources are implicitly evaluated at the usage locations of the path expressions. The join conditions of the associations and the other conditions of the CDS entities or common table expressions involved are respected. Path expressions can be used:
 
--   In the [column specifications](javascript:call_link\('abenabap_sql_columns.htm'\)) of SELECT statements of [queries](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry").
+-   In the [column specifications](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_columns.htm) of SELECT statements of [queries](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenquery_glosry.htm "Glossary Entry").
     
     The path expression represents a left outer join (LEFT OUTER JOIN) by default.
     
--   As a [data source](javascript:call_link\('abapselect_data_source.htm'\)) of the [FROM clause](javascript:call_link\('abapfrom_clause.htm'\)) in [queries](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry").
+-   As a [data source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_data_source.htm) of the [FROM clause](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfrom_clause.htm) in [queries](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenquery_glosry.htm "Glossary Entry").
     
     The path expression represents an inner join (INNER JOIN) by default.
     
--   To [expose](javascript:call_link\('abapwith_associations_using.htm'\)) an association of a [common table expression](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry") in the [WITH](javascript:call_link\('abapwith.htm'\)) statement.
+-   To [expose](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith_associations_using.htm) an association of a [common table expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") in the [WITH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapwith.htm) statement.
 
-When specifying columns and when exposing an association, an optional source unit can be specified in front of the path expression, separated by a [column selector](javascript:call_link\('abentable_comp_selector_glosry.htm'\) "Glossary Entry") ~. The first association of this unit is exposed. This is either a CDS view, a CDS hierarchy, or a common table expression. However, when used as a data source, the path expression follows the exposed unit directly anyway.
+When specifying columns and when exposing an association, an optional source unit can be specified in front of the path expression, separated by a [column selector](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_comp_selector_glosry.htm "Glossary Entry") ~. The first association of this unit is exposed. This is either a CDS view, a CDS hierarchy, or a common table expression. However, when used as a data source, the path expression follows the exposed unit directly anyway.
 
-An association has the [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") defined implicitly or explicitly in the CDS entity or common table expression by default. Syntax warnings or syntax errors occur when the cardinality does not match the way the path expression is used in the SELECT statement. If the association has the cardinality to one, the addition [MANY TO ONE](javascript:call_link\('abapselect_join.htm'\)) is added implicitly in the case of a LEFT OUTER JOIN on databases where this is supported. The consequences of this behavior should be noted. The following can be specified after an association:
+An association has the [cardinality](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencardinality_glosry.htm "Glossary Entry") defined implicitly or explicitly in the CDS entity or common table expression by default. Syntax warnings or syntax errors occur when the cardinality does not match the way the path expression is used in the SELECT statement. If the association has the cardinality to one, the addition [MANY TO ONE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_join.htm) is added implicitly in the case of a LEFT OUTER JOIN on databases where this is supported. The consequences of this behavior should be noted. The following can be specified after an association:
 
--   Actual parameters can be passed to input parameters of the data source of a CDS association by using [sql\_para](javascript:call_link\('abenabap_sql_parameters.htm'\)).
--   The following attributes can be specified for the section of the path expression using [attributes](javascript:call_link\('abenabap_sql_path_filter.htm'\)):
+-   Actual parameters can be passed to input parameters of the data source of a CDS association by using [sql\_para](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_parameters.htm).
+-   The following attributes can be specified for the section of the path expression using [attributes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_path_filter.htm):
     -   Cardinality of the association
     -   Category of the join expression
     -   Filter conditions
 
 A path expression can be split across multiple lines of source code at the following places:
 
--   In front of a backslash (\\), but not in the [SELECT](javascript:call_link\('abapselect_list.htm'\)) list
+-   In front of a backslash (\\), but not in the [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_list.htm) list
 -   In blanks in parentheses of parameter passing
 -   In blanks in square brackets for attributes
 
-Certain [restrictions](javascript:call_link\('abenabap_sql_path_restrictions.htm'\)) apply to the associations of path expressions in ABAP SQL.
+Certain [restrictions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_path_restrictions.htm) apply to the associations of path expressions in ABAP SQL.
 
 Hints
 
--   When the associations of the path expressions are defined as joins, an attempt is made to map them to as few join expressions as possible. Associations with identical [parameter passing](javascript:call_link\('abenabap_sql_parameters.htm'\)) and semantically identical [attributes](javascript:call_link\('abenabap_sql_path_filter.htm'\)) generally produce only one join expression.
--   If the [column specifications](javascript:call_link\('abenabap_sql_columns.htm'\)) of different [clauses](javascript:call_link\('abenselect_clauses.htm'\)) are checked for matches in a SELECT statement, any parameters specified and attributes are also checked. Here, the same host variables must also be used in the same operand positions.
--   No path expressions can be created using CDS associations that are [exposed](javascript:call_link\('abencds_f1_absent_association.htm'\)) in the element list of [CDS abstract entities](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry").
--   If parameters are passed or attributes specified in a path expression of a [column specification](javascript:call_link\('abenabap_sql_columns.htm'\)), the syntax check runs in [strict mode from ABAP release 7.52](javascript:call_link\('abenabap_sql_strictmode_752.htm'\)).
+-   When the associations of the path expressions are defined as joins, an attempt is made to map them to as few join expressions as possible. Associations with identical [parameter passing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_parameters.htm) and semantically identical [attributes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_path_filter.htm) generally produce only one join expression.
+-   If the [column specifications](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_columns.htm) of different [clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_clauses.htm) are checked for matches in a SELECT statement, any parameters specified and attributes are also checked. Here, the same host variables must also be used in the same operand positions.
+-   No path expressions can be created using CDS associations that are [exposed](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_absent_association.htm) in the element list of [CDS abstract entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry").
+-   If parameters are passed or attributes specified in a path expression of a [column specification](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_columns.htm), the syntax check runs in [strict mode from ABAP release 7.52](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_strictmode_752.htm).
 
 Example
 
@@ -100,11 +100,11 @@ A SELECT statement that accesses the entire SELECT list of the view and a SELECT
 
 Executable Examples
 
--   [Path Expressions, Use in the SELECT List](javascript:call_link\('abenpath_expr_in_colspec_abexa.htm'\))
--   [Path Expressions, Use in the FROM Clause](javascript:call_link\('abenpath_expr_in_from_clause_abexa.htm'\))
+-   [Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpath_expr_in_colspec_abexa.htm)
+-   [Path Expressions, Use in the FROM Clause](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpath_expr_in_from_clause_abexa.htm)
 
 Continue
-[ABAP SQL - Path Expressions, attributes](javascript:call_link\('abenabap_sql_path_filter.htm'\))
-[ABAP SQL - Restrictions for Path Expressions](javascript:call_link\('abenabap_sql_path_restrictions.htm'\))
-![Example](exa.gif "Example") [Path Expressions, Use in the SELECT List](javascript:call_link\('abenpath_expr_in_colspec_abexa.htm'\))
-![Example](exa.gif "Example") [Path Expressions, Use in the FROM Clause](javascript:call_link\('abenpath_expr_in_from_clause_abexa.htm'\))
+[ABAP SQL - Path Expressions, attributes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_path_filter.htm)
+[ABAP SQL - Restrictions for Path Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_path_restrictions.htm)
+![Example](exa.gif "Example") [Path Expressions, Use in the SELECT List](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpath_expr_in_colspec_abexa.htm)
+![Example](exa.gif "Example") [Path Expressions, Use in the FROM Clause](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpath_expr_in_from_clause_abexa.htm)

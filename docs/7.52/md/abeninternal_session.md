@@ -4,21 +4,29 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Overview](javascript:call_link\('abenabap_oview.htm'\)) →  [ABAP Programs in AS ABAP](javascript:call_link\('abenorganization_of_modules.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_oview.htm) →  [ABAP Programs in AS ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenorganization_of_modules.htm) → 
 
 Programs in the Internal Session
 
-The following figure shows the memory organization within an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"):
+The following figure shows the memory organization within an [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry"):
 
 ![Figure](abdoc_memory2.gif)
 
--   [Program Groups](#abeninternal-session-1--------main-program-group---@ITOC@@ABENINTERNAL_SESSION_2)
+-   [Program Groups](#@@ITOC@@ABENINTERNAL_SESSION_1)
 
--   [Additional Program Group](#abeninternal-session-3--------main-program-of-a-program-group---@ITOC@@ABENINTERNAL_SESSION_4)
+-   [Main Program Group](#@@ITOC@@ABENINTERNAL_SESSION_2)
 
--   [Programs Loaded into a Program Group](#abeninternal-session-5--------data-objects---@ITOC@@ABENINTERNAL_SESSION_6)
+-   [Additional Program Group](#@@ITOC@@ABENINTERNAL_SESSION_3)
 
--   [Instances of Classes](#abeninternal-session-7--------interface-work-areas---@ITOC@@ABENINTERNAL_SESSION_8)
+-   [Main Program of a Program Group](#@@ITOC@@ABENINTERNAL_SESSION_4)
+
+-   [Programs Loaded into a Program Group](#@@ITOC@@ABENINTERNAL_SESSION_5)
+
+-   [Data Objects](#@@ITOC@@ABENINTERNAL_SESSION_6)
+
+-   [Instances of Classes](#@@ITOC@@ABENINTERNAL_SESSION_7)
+
+-   [Interface Work Areas](#@@ITOC@@ABENINTERNAL_SESSION_8)
 
 -   [Dynpros, Lists, and GUI Statuses](#@@ITOC@@ABENINTERNAL_SESSION_9)
 
@@ -28,11 +36,11 @@ In an internal session it is possible to load multiple programs that can be orga
 
 Main Program Group
 
-When an internal session is created by [calling an ABAP program](javascript:call_link\('abenabap_program_call.htm'\)) using [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) or a [transaction code](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry"), the main program group is created and the called program is its main program. The full internal session exists for as long as the main program of the main program group is being executed. This can be an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry"), a [module pool](javascript:call_link\('abenmodul_pool_glosry.htm'\) "Glossary Entry"), or a [function group](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry").
+When an internal session is created by [calling an ABAP program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_call.htm) using [SUBMIT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubmit.htm) or a [transaction code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentransaction_code_glosry.htm "Glossary Entry"), the main program group is created and the called program is its main program. The full internal session exists for as long as the main program of the main program group is being executed. This can be an [executable program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexecutable_program_glosry.htm "Glossary Entry"), a [module pool](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodul_pool_glosry.htm "Glossary Entry"), or a [function group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_group_glosry.htm "Glossary Entry").
 
 Additional Program Group
 
-Each time a new [class pool](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") or a new [function group](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry") is loaded by being used externally, an additional program group is created and the class pool or the function group is the main program of the additional program group. A pool or group is usually used externally when the components it exposes are accessed,(these are the visible components of the global class or function module). However, this can also occur when local components are accessed, such as when a type is specified using [absolute type names](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry"). An additional program group is persisted for as long as the internal session exists.
+Each time a new [class pool](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_pool_glosry.htm "Glossary Entry") or a new [function group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_group_glosry.htm "Glossary Entry") is loaded by being used externally, an additional program group is created and the class pool or the function group is the main program of the additional program group. A pool or group is usually used externally when the components it exposes are accessed,(these are the visible components of the global class or function module). However, this can also occur when local components are accessed, such as when a type is specified using [absolute type names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabsolute_typename_glosry.htm "Glossary Entry"). An additional program group is persisted for as long as the internal session exists.
 
 Main Program of a Program Group
 
@@ -44,21 +52,21 @@ When programs that are not function groups or class pools are loaded (because th
 
 -   In external calls of subroutines that are defined in executable programs, module pools or subroutine pools
 
--   When using the dynpro statement [CALL SUBSCREEN sub\_area INCLUDING prog](javascript:call_link\('dynpcall.htm'\)), if the dynpro is not defined in a function group
+-   When using the dynpro statement [CALL SUBSCREEN sub\_area INCLUDING prog](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpcall.htm), if the dynpro is not defined in a function group
 
--   In dynamic access to a local data type or object type of an executable program, module pool, or a subroutine using [absolute type names](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry")
+-   In dynamic access to a local data type or object type of an executable program, module pool, or a subroutine using [absolute type names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabsolute_typename_glosry.htm "Glossary Entry")
 
--   In statements such as [SET PF-STATUS OF PROGRAM](javascript:call_link\('abapset_pf-status_dynpro.htm'\)), if the program of the necessary component is not a function group.
+-   In statements such as [SET PF-STATUS OF PROGRAM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_pf-status_dynpro.htm), if the program of the necessary component is not a function group.
 
 Notes
 
--   The [introductory program statement](javascript:call_link\('abenprogram_init_statement_glosry.htm'\) "Glossary Entry") is important for the assignment of a program to a program group and not the [program type](javascript:call_link\('abenprogram_type_glosry.htm'\) "Glossary Entry"). For example, if the statement [FUNCTION-POOL](javascript:call_link\('abapfunction-pool.htm'\)) is used in a subroutine pool instead of [PROGRAM](javascript:call_link\('abapprogram.htm'\)), when the program is loaded by an external usage it creates an additional program group.
+-   The [introductory program statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_init_statement_glosry.htm "Glossary Entry") is important for the assignment of a program to a program group and not the [program type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_glosry.htm "Glossary Entry"). For example, if the statement [FUNCTION-POOL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction-pool.htm) is used in a subroutine pool instead of [PROGRAM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprogram.htm), when the program is loaded by an external usage it creates an additional program group.
 
--   The assignment of a program loaded into a program group is particularly important if procedures of this program are [called externally](javascript:call_link\('abenprogram_groups.htm'\)), since all the programs of a program group use the interface work area, the dynpros, lists, and GUI statuses of the main program (see below for more information).
+-   The assignment of a program loaded into a program group is particularly important if procedures of this program are [called externally](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_groups.htm), since all the programs of a program group use the interface work area, the dynpros, lists, and GUI statuses of the main program (see below for more information).
 
 Data Objects
 
-The [data objects](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry") of a program, with the exception of the [interface work area](javascript:call_link\('abeninterface_work_area_glosry.htm'\) "Glossary Entry"), belong exclusively to their program and are only visible there. A loaded program exists for the same length of time as the internal session. After the return from a program, its data objects are preserved and are available if a [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") of the program is called again.
+The [data objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_object_glosry.htm "Glossary Entry") of a program, with the exception of the [interface work area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_work_area_glosry.htm "Glossary Entry"), belong exclusively to their program and are only visible there. A loaded program exists for the same length of time as the internal session. After the return from a program, its data objects are preserved and are available if a [procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocedure_glosry.htm "Glossary Entry") of the program is called again.
 
 Instances of Classes
 
@@ -70,7 +78,7 @@ This means that references to objects of the internal session can be passed to e
 
 Interface Work Areas
 
-Data objects declared using [TABLES](javascript:call_link\('abaptables.htm'\)) or [DATA BEGIN*|*END OF COMMON PART ...](javascript:call_link\('abapdata_common.htm'\)) are [interface work areas](javascript:call_link\('abeninterface_work_area_glosry.htm'\) "Glossary Entry"). These are only created once per program group and are used by all programs of a program group together.
+Data objects declared using [TABLES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables.htm) or [DATA BEGIN*|*END OF COMMON PART ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_common.htm) are [interface work areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterface_work_area_glosry.htm "Glossary Entry"). These are only created once per program group and are used by all programs of a program group together.
 
 Note
 
@@ -78,10 +86,10 @@ The assignment of a program to a program group (which hence defines which other 
 
 Dynpros, Lists, and GUI Statuses
 
-Only the [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") of the main program of a program group can be called using [CALL SCREEN](javascript:call_link\('abapcall_screen.htm'\)). After an internal session is loaded, these are the dynpros of the main program of the main program group. The main programs (the function groups) of additional program groups can also call their own dynpros.
+Only the [dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm "Glossary Entry") of the main program of a program group can be called using [CALL SCREEN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_screen.htm). After an internal session is loaded, these are the dynpros of the main program of the main program group. The main programs (the function groups) of additional program groups can also call their own dynpros.
 
-[Lists](javascript:call_link\('abenlist_glosry.htm'\) "Glossary Entry") are always assigned to the current [dynpro sequence](javascript:call_link\('abendynpro_sequence_glosry.htm'\) "Glossary Entry") and therefore also to the main program of the program group.
+[Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_glosry.htm "Glossary Entry") are always assigned to the current [dynpro sequence](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_sequence_glosry.htm "Glossary Entry") and therefore also to the main program of the program group.
 
-By default, [SET PF-STATUS](javascript:call_link\('abapset_pf-status_dynpro.htm'\)) is used to access the [GUI status](javascript:call_link\('abengui_status_glosry.htm'\) "Glossary Entry") of the main program of a program group and use its data objects for dynamic texts.
+By default, [SET PF-STATUS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_pf-status_dynpro.htm) is used to access the [GUI status](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengui_status_glosry.htm "Glossary Entry") of the main program of a program group and use its data objects for dynamic texts.
 
 All programs of a program group work with the dynpros, lists, and GUI status of the main program by default. A statement CALL SCREEN in an externally called subroutine, for example, never calls a dynpro from its own master program. The dialog modules and list result blocks of the main program are executed instead.

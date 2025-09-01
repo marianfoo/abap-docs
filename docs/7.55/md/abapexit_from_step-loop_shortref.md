@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  E
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  E
 
 EXIT FROM STEP-LOOP - Quick reference
 
-[Reference](javascript:call_link\('abapexit_step-loop.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexit_step-loop.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ EXIT FROM STEP-LOOP.
 
 Effect
 
-Exits the loop processing of a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry") or [step loop](javascript:call_link\('abenstep_loop_glosry.htm'\) "Glossary Entry") in the current [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"). Processing continues in the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry") after the loop.
+Exits the loop processing of a [table control](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_control_glosry.htm "Glossary Entry") or [step loop](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstep_loop_glosry.htm "Glossary Entry") in the current [dynpro](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_glosry.htm "Glossary Entry"). Processing continues in the [dynpro flow logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry") after the loop.

@@ -4,15 +4,15 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [Remote Function Call (RFC)](javascript:call_link\('abenrfc.htm'\)) →  [RFC - Overview](javascript:call_link\('abenrfc_intro_oview.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_communication.htm) →  [Remote Function Call (RFC)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc.htm) →  [RFC - Overview](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_intro_oview.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RFC%20-%20Exceptions%2C%20ABENRFC_EXCEPTION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 RFC - Exceptions
 
-In the interface of a [remote enabled function module](javascript:call_link\('abenremote_enabled_fm_glosry.htm'\) "Glossary Entry"), it is currently only possible to specify classic exceptions, that is, [non-class-based exceptions](javascript:call_link\('abenexceptions_non_class.htm'\)). Class-based exceptions are supported only in internal SAP release tracks.
+In the interface of a [remote enabled function module](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenremote_enabled_fm_glosry.htm "Glossary Entry"), it is currently only possible to specify classic exceptions, that is, [non-class-based exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexceptions_non_class.htm). Class-based exceptions are supported only in internal SAP release tracks.
 
-In an external function call, the non-class-based exceptions defined in the interface of the function module called using the [EXCEPTIONS](javascript:call_link\('abapcall_function_destination_para.htm'\)) addition of the statements [CALL FUNCTION](javascript:call_link\('abapcall_function_destination-.htm'\)) or [RECEIVE](javascript:call_link\('abapreceive.htm'\)) can be assigned return values.
+In an external function call, the non-class-based exceptions defined in the interface of the function module called using the [EXCEPTIONS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function_destination_para.htm) addition of the statements [CALL FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_function_destination-.htm) or [RECEIVE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreceive.htm) can be assigned return values.
 
 If EXCEPTIONS is specified, classic exception handling is performed. If a remotely called function module raises a class-based exception, this exception is not transported and raises the predefined classical exception SYSTEM\_FAILURE instead
 
@@ -20,9 +20,9 @@ In addition to the exceptions that are specified explicitly in the interface of 
 
 -   SYSTEM\_FAILURE.
     
-    This exception can be caused, among other things, by error situations that arise when a remotely called function is executed on the RFC server. These error situations can be caused by runtime errors or sending a [message of type A, E, or X](javascript:call_link\('abenabap_message_rfc.htm'\)).
+    This exception can be caused, among other things, by error situations that arise when a remotely called function is executed on the RFC server. These error situations can be caused by runtime errors or sending a [message of type A, E, or X](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_message_rfc.htm).
     
--   COMMUNICATION\_FAILURE, RESOURCE\_FAILURE (only with [pRFC](javascript:call_link\('abenprfc_glosry.htm'\) "Glossary Entry") or SYSTEM\_FAILURE)
+-   COMMUNICATION\_FAILURE, RESOURCE\_FAILURE (only with [pRFC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprfc_glosry.htm "Glossary Entry") or SYSTEM\_FAILURE)
     
     These exceptions are raised by all errors that occur when connections are being established, when resources are being assigned, or in the communication layer.
     
@@ -40,4 +40,4 @@ For more information about exceptions during RFC calls, see the documentation [R
 
 Executable Example
 
-[Exception Handling in RFC](javascript:call_link\('abenrfc_exceptions_abexa.htm'\))
+[Exception Handling in RFC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrfc_exceptions_abexa.htm)

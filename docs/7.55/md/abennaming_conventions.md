@@ -4,17 +4,19 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_syntax.htm) → 
 
 Naming Conventions and Namespaces
 
--   [Naming Conventions](#abennaming-conventions-1--------namespaces---@ITOC@@ABENNAMING_CONVENTIONS_2)
+-   [Naming Conventions](#@@ITOC@@ABENNAMING_CONVENTIONS_1)
+
+-   [Namespaces](#@@ITOC@@ABENNAMING_CONVENTIONS_2)
 
 -   [Reserved Names](#@@ITOC@@ABENNAMING_CONVENTIONS_3)
 
 Naming Conventions
 
-The following conventions apply to the names of all definable objects within ABAP programs, such as data types, data objects, classes, macros, and [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry"):
+The following conventions apply to the names of all definable objects within ABAP programs, such as data types, data objects, classes, macros, and [procedures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocedure_glosry.htm "Glossary Entry"):
 
 -   A name can be up to 30 characters long.
 
@@ -22,11 +24,11 @@ The following conventions apply to the names of all definable objects within ABA
 
 -   The name must start with a letter or an underscore (\_). Only outside of ABAP objects can the name also start with a different character.
 
--   The name can have a [namespace prefix](javascript:call_link\('abenname_space_prefix_glosry.htm'\) "Glossary Entry"). A namespace prefix consists of at least three characters that are enclosed by two forward slashes (/.../). The entire length of prefix and name must not exceed 30 characters.
+-   The name can have a [namespace prefix](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenname_space_prefix_glosry.htm "Glossary Entry"). A namespace prefix consists of at least three characters that are enclosed by two forward slashes (/.../). The entire length of prefix and name must not exceed 30 characters.
 
 -   The names of predefined ABAP types or predefined data objects must not be used for data types or data objects.
 
--   The use of names that are reserved for [ABAP words](javascript:call_link\('abenabap_words.htm'\)) and so on for custom definitions is not actually forbidden, but is strongly advised against.
+-   The use of names that are reserved for [ABAP words](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_words.htm) and so on for custom definitions is not actually forbidden, but is strongly advised against.
 
 -   Field symbols are special in that their names have to be enclosed in angle brackets (<...>). The angle brackets are part of the name, which means that a field symbol could be called <>, but this is not recommended.
 
@@ -34,7 +36,7 @@ Since ABAP is not case-sensitive, there is also no case-sensitivity for the prog
 
 Programming Guideline
 
-[Program-Internal Names](javascript:call_link\('abenprog_intern_names_guidl.htm'\) "Guideline")
+[Program-Internal Names](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprog_intern_names_guidl.htm "Guideline")
 
 Hints
 
@@ -54,22 +56,22 @@ Reserved Names
 
 The following names are reserved and must not be used in personal declarations:
 
--   Self-defined data types must not have the name of a [built-in ABAP type](javascript:call_link\('abenbuilt_in_types_complete.htm'\)). This applies to type definitions in the ABAP language and in the [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry").
+-   Self-defined data types must not have the name of a [built-in ABAP type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_types_complete.htm). This applies to type definitions in the ABAP language and in the [ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary_glosry.htm "Glossary Entry").
 
--   The name of a structure component must not have the name of the [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line. This applies to type definitions in ABAP and in the [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry") as well as to data declarations and when creating data objects in ABAP.
+-   The name of a structure component must not have the name of the [pseudo component](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpseudo_component_glosry.htm "Glossary Entry") table\_line. This applies to type definitions in ABAP and in the [ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary_glosry.htm "Glossary Entry") as well as to data declarations and when creating data objects in ABAP.
 
--   A [secondary table key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") of an internal table must not have the predefined names primary\_key or loop\_key.
+-   A [secondary table key](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") of an internal table must not have the predefined names primary\_key or loop\_key.
 
--   The name of the [built-in data object](javascript:call_link\('abenbuilt_in_objects.htm'\)) [space](javascript:call_link\('abenspace.htm'\)) must not be used in any positions for other declarations or data objects, except in the case of the obsolete [anonymous components](javascript:call_link\('abenanonymous_components.htm'\)).
+-   The name of the [built-in data object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_objects.htm) [space](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenspace.htm) must not be used in any positions for other declarations or data objects, except in the case of the obsolete [anonymous components](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenanonymous_components.htm).
 
--   The name of the [built-in data object](javascript:call_link\('abenbuilt_in_objects.htm'\)) [me](javascript:call_link\('abenme.htm'\)) must not be used in classes for attributes, formal parameters, and local data objects.
+-   The name of the [built-in data object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_objects.htm) [me](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenme.htm) must not be used in classes for attributes, formal parameters, and local data objects.
 
 Hint
 
 The names of the following built-in data objects are not reserved but are hidden by any declarations with the same name:
 
--   The structures of the [ABAP system fields](javascript:call_link\('abensystem_fields.htm'\)) sy and syst and the system fields themselves.
+-   The structures of the [ABAP system fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_fields.htm) sy and syst and the system fields themselves.
 
--   The [obsolete built-in data object](javascript:call_link\('abenbuilt_in_obsolete.htm'\)) [screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\)).
+-   The [obsolete built-in data object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_obsolete.htm) [screen](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscreen_structure_obsolete.htm).
 
 It is strongly advised to not create any data objects with the names of these built-in data objects

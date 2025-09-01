@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [dynpro - MODULE](javascript:call_link\('dynpmodule.htm'\)) →  [dynpro - Examples of Module Calls](javascript:call_link\('abenmodule_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros_dynpro_statements.htm) →  [dynpro - MODULE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpmodule.htm) →  [dynpro - Examples of Module Calls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodule_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20dynpro%20-%20Simple%20Module%20Call%2C%20ABENDYNPRO_SIMPLE_MODULE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -69,4 +69,4 @@ PROCESS AFTER INPUT.
    MODULE get\_data.
    MODULE user\_command\_0100.
 
-In the GUI status STATUS\_100, the icon Cancel (F12) is activated using the function code CANCEL and the function keys F5 and Shift+F2 are assigned the function codes DISPLAY and CLEAR. The way this program works is similar to the executable example [Processing Input/Output Fields](javascript:call_link\('abendynpro_in_out_field_abexa.htm'\)), but the processing logic is distributed across multiple dialog modules and a subroutine is used to read the data from the database.
+In the GUI status STATUS\_100, the icon Cancel (F12) is activated using the function code CANCEL and the function keys F5 and Shift+F2 are assigned the function codes DISPLAY and CLEAR. The way this program works is similar to the executable example [Processing Input/Output Fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_in_out_field_abexa.htm), but the processing logic is distributed across multiple dialog modules and a subroutine is used to read the data from the database.

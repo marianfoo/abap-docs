@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [Assigning Components: Examples](javascript:call_link\('abencorresponding_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding.htm) →  [Assigning Components: Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding_abexas.htm) → 
 
 Component Operator, Reflexive Assignment
 
-This example demonstrates the [component operator](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)) with FROM USING for a single table.
+This example demonstrates the [component operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expr_corresponding.htm) with FROM USING for a single table.
 
 Source Code
 
@@ -57,8 +57,8 @@ START-OF-SELECTION.
 
 Description
 
-The example associates an internal table itab in a component expression using the component operator CORRESPONDING in the [variant with lookup table](javascript:call_link\('abencorresponding_constr_using.htm'\)) with itself and assigns the result to the same table. This requires a temporary copy of the table to be created, which raises a warning from the syntax check. This warning can be hidden using the pragma ##operator.
+The example associates an internal table itab in a component expression using the component operator CORRESPONDING in the [variant with lookup table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencorresponding_constr_using.htm) with itself and assigns the result to the same table. This requires a temporary copy of the table to be created, which raises a warning from the syntax check. This warning can be hidden using the pragma ##operator.
 
 The table contains a hierarchical tree structure in which nodes of the column node are assigned to a top node using the column parent. This relationship is specified after USING, which finds the top node for every row. The assignment of the identically named component text ensures that every row in this column is given the content of its direct top node.
 
-For further examples of reflexive assignments, see the executable example [Reflexive Component Assignments](javascript:call_link\('abenreflexive_corresponding_abexa.htm'\)).
+For further examples of reflexive assignments, see the executable example [Reflexive Component Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreflexive_corresponding_abexa.htm).

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Macros%2C%20ABENMACROS_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,26 +12,26 @@ Macros
 
 Background   
 
-A [macro](javascript:call_link\('abenabap_macros.htm'\)) is a summary of a statement list for internal reuse within a program between [DEFINE](javascript:call_link\('abapdefine.htm'\)) and [END-OF-DEFINITION](javascript:call_link\('abapend-of-definition.htm'\)). The statement list is included in another position in the program by specifying the macro name. A macro can contain up to nine placeholders, &1 to &9, in place of ABAP words and operands (or parts of operands). These placeholders must be replaced by fixed words when the macro is included.
+A [macro](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_macros.htm) is a summary of a statement list for internal reuse within a program between [DEFINE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdefine.htm) and [END-OF-DEFINITION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapend-of-definition.htm). The statement list is included in another position in the program by specifying the macro name. A macro can contain up to nine placeholders, &1 to &9, in place of ABAP words and operands (or parts of operands). These placeholders must be replaced by fixed words when the macro is included.
 
 Rule   
 
 Only use macros in exceptional cases.
 
-We recommend that procedures ([methods](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) or expressions with appropriate operators are used instead of macros.
+We recommend that procedures ([methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) or expressions with appropriate operators are used instead of macros.
 
 Details   
 
 Macros are often used as callable units, instead of real procedures. This is rarely a good idea however. Macros do not have a real context, and cannot be executed in steps in ABAP Debugger. This makes it practically impossible to look for errors in programs that use large or complex macros. For these reasons, a macro cannot be viewed as a worthy replacement for a genuine procedure.
 
-In addition, in the past macros were not just used to replace procedures, they were also used to perform recurrent declarations of structured data. Today, macros are, of course, avoided and [standalone types](javascript:call_link\('abenbound_independent_dtype_guidl.htm'\) "Guideline") are used instead.
+In addition, in the past macros were not just used to replace procedures, they were also used to perform recurrent declarations of structured data. Today, macros are, of course, avoided and [standalone types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbound_independent_dtype_guidl.htm "Guideline") are used instead.
 
-Nowadays, expressions can be used instead of macros in many cases. One example is using the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) to fill internal tables, which makes it unnecessary to use macros (which mostly contain the statement APPEND.
+Nowadays, expressions can be used instead of macros in many cases. One example is using the value operator [VALUE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_value.htm) to fill internal tables, which makes it unnecessary to use macros (which mostly contain the statement APPEND.
 
 In certain cases, however, the use of macros could be justified, as long as the statement patterns are simple and recurring. Here, a macro can be seen as a design-time generation tool. The following (good) example shows how a macro can be used in this way. In a situation like this, a macro may be preferable to a procedure for the following reasons:
 
 -   The statement list in the macro is clear and simple enough that it does not matter that it cannot be debugged.
--   The syntax check performs static checks on the correctness of the statements. When using the dynamic language methods required in a procedure, any errors (in this case, incorrect names) would not be detected until runtime. [Dynamic access](javascript:call_link\('abendynamic_prog_technique_gdl.htm'\)) would also be more time-consuming.
+-   The syntax check performs static checks on the correctness of the statements. When using the dynamic language methods required in a procedure, any errors (in this case, incorrect names) would not be detected until runtime. [Dynamic access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_prog_technique_gdl.htm) would also be more time-consuming.
 -   Unlike listing all statements separately, using these macros makes the source code clearer, particularly if the statement list is repeated frequently. There is a lower risk of trivial typing errors being made, since there is no need to create and edit a large volume of similar source code. It is easier to make subsequent changes to the logic.
 
 This means that, in certain cases, using macros can improve the correctness and maintainability of source code. Macros that contain non-trivial control structures, however, always present a maintenance problem because they cannot run in steps in ABAP Debugger. For this reason, use macros very sparingly and only if they contain no more than a few lines. Errors in macros are almost impossible to analyze.

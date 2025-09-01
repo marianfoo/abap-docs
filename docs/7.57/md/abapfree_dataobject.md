@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Initializations](javascript:call_link\('abeninitializations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_assignments.htm) →  [Initializations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninitializations.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: FREE, ABAPFREE_DATAOBJECT, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion fo
 r improvement:)
 
 FREE
 
-[Short Reference](javascript:call_link\('abapfree_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfree_shortref.htm)
 
 Syntax
 
@@ -19,18 +19,18 @@ FREE dobj.
 
 Effect
 
-The statement FREE deletes all lines from an internal table and releases the complete memory area that was occupied by the lines, including the [initial memory requirement](javascript:call_link\('abeninitial_mem_req_glosry.htm'\) "Glossary Entry").
+The statement FREE deletes all lines from an internal table and releases the complete memory area that was occupied by the lines, including the [initial memory requirement](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninitial_mem_req_glosry.htm "Glossary Entry").
 
-On other data objects, FREE works like the statement [CLEAR](javascript:call_link\('abapclear.htm'\)).
+On other data objects, FREE works like the statement [CLEAR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclear.htm).
 
 If dobj is a structure with tabular components, the memory of all the tabular components is released.
 
 Hints
 
--   If dobj is an internal table with a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"), FREE only affects the [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry") and not the header line.
--   Unlike CLEAR, the [initial memory requirement](javascript:call_link\('abeninitial_mem_req_glosry.htm'\) "Glossary Entry") does not remain occupied when FREE is used. This can become necessary when there is a lack of memory.
+-   If dobj is an internal table with a [header line](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenheader_line_glosry.htm "Glossary Entry"), FREE only affects the [table body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_body_glosry.htm "Glossary Entry") and not the header line.
+-   Unlike CLEAR, the [initial memory requirement](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninitial_mem_req_glosry.htm "Glossary Entry") does not remain occupied when FREE is used. This can become necessary when there is a lack of memory.
 -   In general, FREE should only be used if the entire memory is to be released completely and the internal table is no longer needed or at the least not filled again immediately.
--   See also [Memory Requirements of Deep Data Objects](javascript:call_link\('abenmemory_consumption_1.htm'\)).
+-   See also [Memory Requirements of Deep Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmemory_consumption_1.htm).
 
 Example
 

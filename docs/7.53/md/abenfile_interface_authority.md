@@ -4,19 +4,23 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Authorization for File Access](javascript:call_link\('abendataset_auth.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_files.htm) →  [Authorization for File Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendataset_auth.htm) → 
 
 Automatic Authorization Checks
 
 The following authorization checks take place automatically when data is accessed:
 
--   [Authorization Check in the Operating System](#abenfile-interface-authority-1--------authorization-checks-for-special-files---@ITOC@@ABENFILE_INTERFACE_AUTHORITY_2)
+-   [Authorization Check in the Operating System](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_1)
 
--   [Authorization Object S\_DATASET](#abenfile-interface-authority-3--------database-table-spth-and-authorization-object-s--path---@ITOC@@ABENFILE_INTERFACE_AUTHORITY_4)
+-   [Authorization Checks for Special Files](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_2)
+
+-   [Authorization Object S\_DATASET](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_3)
+
+-   [Database Table SPTH and Authorization Object S\_PATH](#@@ITOC@@ABENFILE_INTERFACE_AUTHORITY_4)
 
 Authorization Check in the Operating System
 
-From the point of view of the operating system on the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of a AS Instance, all files are accessed from [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry"). As a consequence, the user of the operating system that creates an instance of the [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry") AS Instance must have the authority to read and write to all files and directories that are handled by the ABAP file interface. If this authorization does not exist, the file interface statements can only be partially carried out, or not at all. If a statement cannot be executed because of lack of authorization in the operating system, the return value sy-subrc is set to not equal to 0.
+From the point of view of the operating system on the [host computer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhost_computer_glosry.htm "Glossary Entry") of a AS Instance, all files are accessed from [AS ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_nw_abap_glosry.htm "Glossary Entry"). As a consequence, the user of the operating system that creates an instance of the [AS ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") AS Instance must have the authority to read and write to all files and directories that are handled by the ABAP file interface. If this authorization does not exist, the file interface statements can only be partially carried out, or not at all. If a statement cannot be executed because of lack of authorization in the operating system, the return value sy-subrc is set to not equal to 0.
 
 Authorization Checks for Special Files
 
@@ -26,27 +30,27 @@ Authorization Object S\_DATASET
 
 An authorization check is performed for the current user each time a file is opened or deleted using the following:
 
--   [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\))
+-   [OPEN DATASET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset.htm)
 
--   [DELETE DATASET](javascript:call_link\('abapdelete_dataset.htm'\))
+-   [DELETE DATASET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_dataset.htm)
 
 Also, the current program is executed using the predefined authorization object S\_DATASET. This authorization object contains the authorization fields PROGRAM for the program names, FILENAME for the opened files, and ACTVT with the activities Delete, Read, Write, Read with Filter, and Write with Filter. If the user or program does not have the necessary authorization, a handleable exception of the class CX\_SY\_FILE\_AUTHORITY is raised. To avoid this, the function module AUTHORITY\_CHECK\_DATASET can be called before the relevant ABAP statement to check whether the authorization exists.
 
 Note
 
-In the authorization check with the authorization object S\_DATASET, the [physical file name](javascript:call_link\('abenphysical_filename_glosry.htm'\) "Glossary Entry") used in the statements above and the values of the authorization field FILENAME are subject to a literal comparison. Any relative paths specified are not transformed to absolute paths. To avoid unexpected results, it is best to specify only absolute paths in physical file names.
+In the authorization check with the authorization object S\_DATASET, the [physical file name](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenphysical_filename_glosry.htm "Glossary Entry") used in the statements above and the values of the authorization field FILENAME are subject to a literal comparison. Any relative paths specified are not transformed to absolute paths. To avoid unexpected results, it is best to specify only absolute paths in physical file names.
 
 Database Table SPTH and Authorization Object S\_PATH
 
 An automatic check is made when the following statements access files:
 
--   [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\))
+-   [OPEN DATASET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset.htm)
 
--   [DELETE DATASET](javascript:call_link\('abapdelete_dataset.htm'\))
+-   [DELETE DATASET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_dataset.htm)
 
 This check is made on entries in the database tables SPTH. The entries in the database table SPTH control the general read and write accesses from ABAP programs to files and whether files should be backed up or not.
 
-In the database table SPTH, reads and writes can be forbidden on all files specified absolutely or relatively, regardless of the [authorization objects](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry"). For the remaining files (those that are generally allowed to be accessed for read or write according to the database table SPTH), authorization checks can be carried out on the basis of authorization objects. In the database table SPTH, authorization groups from the table SPTHB (texts in SPTHT, shared view V\_SPT) for program-independent authorization checks can be defined. The following table shows the columns of the database table SPTH. If the check on the database table SPTH has a negative result, a handleable exception of the class CX\_SY\_FILE\_AUTHORITY is raised.
+In the database table SPTH, reads and writes can be forbidden on all files specified absolutely or relatively, regardless of the [authorization objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthorization_object_glosry.htm "Glossary Entry"). For the remaining files (those that are generally allowed to be accessed for read or write according to the database table SPTH), authorization checks can be carried out on the basis of authorization objects. In the database table SPTH, authorization groups from the table SPTHB (texts in SPTHT, shared view V\_SPT) for program-independent authorization checks can be defined. The following table shows the columns of the database table SPTH. If the check on the database table SPTH has a negative result, a handleable exception of the class CX\_SY\_FILE\_AUTHORITY is raised.
 
 Column
 
@@ -70,15 +74,15 @@ If this column contains the value "X", writes cannot be performed on the files s
 
 FS\_BRGRU
 
-In this column, an authorization group can be specified that is defined in the table SPTHB. The files of multiple rows can be grouped together in this way. When the database table SPTH is evaluated, an authorization check for the current user is made against the authorization object S\_PATH (which contains an authorization field FS\_BRGRU and an authorization field ACTVT with the possible values "03" (Display), "02" (Change), "A6" (Display with Addition [FILTER](javascript:call_link\('abapopen_dataset_os_addition.htm'\)) ), and "A7" (Change with Addition [FILTER](javascript:call_link\('abapopen_dataset_os_addition.htm'\))). This makes it possible to grant access to the files specified in PATH to specific users. If no authorization group is entered, no authorization check is made against the authorization object S\_PATH.
+In this column, an authorization group can be specified that is defined in the table SPTHB. The files of multiple rows can be grouped together in this way. When the database table SPTH is evaluated, an authorization check for the current user is made against the authorization object S\_PATH (which contains an authorization field FS\_BRGRU and an authorization field ACTVT with the possible values "03" (Display), "02" (Change), "A6" (Display with Addition [FILTER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset_os_addition.htm) ), and "A7" (Change with Addition [FILTER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset_os_addition.htm)). This makes it possible to grant access to the files specified in PATH to specific users. If no authorization group is entered, no authorization check is made against the authorization object S\_PATH.
 
-In the paths specified in the column PATH, placeholders can be specified for specific [profile parameters](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") or for the current [client](javascript:call_link\('abenclient_glosry.htm'\) "Glossary Entry"):
+In the paths specified in the column PATH, placeholders can be specified for specific [profile parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") or for the current [client](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_glosry.htm "Glossary Entry"):
 
 ... <P=name> ...
 
-When evaluated, a placeholder is replaced by the value of the profile parameter specified in name or by the current [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry"). The possible values for name are specified in the documentation of the table SPTH.
+When evaluated, a placeholder is replaced by the value of the profile parameter specified in name or by the current [client ID](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_identifier_glosry.htm "Glossary Entry"). The possible values for name are specified in the documentation of the table SPTH.
 
-When a file is accessed using the statements [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) and [DELETE DATASET](javascript:call_link\('abapdelete_dataset.htm'\)), a [physical file name](javascript:call_link\('abenphysical_filename_glosry.htm'\) "Glossary Entry") is used. When the content of the database table SPTH is transformed, a check is made to see whether the physical file name starts with an entry in the column PATH and the row with the longest matching path is used. Before the check, a specified path in the physical file name is standardized as follows:
+When a file is accessed using the statements [OPEN DATASET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset.htm) and [DELETE DATASET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_dataset.htm), a [physical file name](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenphysical_filename_glosry.htm "Glossary Entry") is used. When the content of the database table SPTH is transformed, a check is made to see whether the physical file name starts with an entry in the column PATH and the row with the longest matching path is used. Before the check, a specified path in the physical file name is standardized as follows:
 
 -   Any ../ segments are removed. For example, a path specified as /tmp/sub1/../sub2/file is transformed to /tmp/sub2/file.
 
@@ -112,9 +116,9 @@ Notes
 
 For this reason, is recommended that the authorization groups in the column FS\_BRGRU and the authorization object S\_PATH are used instead of the columns FS\_NOREAD and FS\_NOWRITE.
 
--   Unlike in an authorization check using the authorization object S\_PATH, checks made on the columns FS\_NOREAD and FS\_NOWRITE are not made as part of the general [authorization concept](javascript:call_link\('abenbc_authority_check.htm'\)) and none of the associated log entries are written.
+-   Unlike in an authorization check using the authorization object S\_PATH, checks made on the columns FS\_NOREAD and FS\_NOWRITE are not made as part of the general [authorization concept](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbc_authority_check.htm) and none of the associated log entries are written.
 
--   For compatibility reasons, even empty values are accepted for the activity when the authorization object S\_PATH is checked, which means that files can be opened using the addition [FILTER](javascript:call_link\('abapopen_dataset_os_addition.htm'\)).
+-   For compatibility reasons, even empty values are accepted for the activity when the authorization object S\_PATH is checked, which means that files can be opened using the addition [FILTER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapopen_dataset_os_addition.htm).
 
 -   The column SAVEFLAG, used for backups, should only be used together with a value in another column, preferably FS\_BRGRU. If not, no authorization check is made on files covered by the path specified in PATH.
 

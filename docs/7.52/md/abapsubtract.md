@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Statements for Numeric Calculations](javascript:call_link\('abennum_processing_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompute_expressions.htm) →  [Statements for Numeric Calculations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennum_processing_statements.htm) → 
 
 SUBTRACT
 
-[Quick Reference](javascript:call_link\('abapsubtract_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubtract_shortref.htm)
 
 Syntax
 
@@ -18,17 +18,17 @@ Effect
 
 This statement has the same effect as the statement
 
-[dobj2 = dobj2 - dobj1.](javascript:call_link\('abenequals_arith_expr.htm'\))
+[dobj2 = dobj2 - dobj1.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_arith_expr.htm)
 
-The content of dobj1 is subtracted from the content of dobj2 and the result is assigned to dobj2. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined like an [arithmetic expression](javascript:call_link\('abapcompute_arith.htm'\)).
+The content of dobj1 is subtracted from the content of dobj2 and the result is assigned to dobj2. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencalculation_type_glosry.htm "Glossary Entry") is determined like an [arithmetic expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_arith.htm).
 
 Programming Guideline
 
-[Use the operator format](javascript:call_link\('abencalc_expresssion_guidl.htm'\) "Guideline")
+[Use the operator format](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencalc_expresssion_guidl.htm "Guideline")
 
 Note
 
-One obsolete form of the statement SUBTRACT is [SUBTRACT-CORRESPONDING](javascript:call_link\('abapsubtract-corresponding.htm'\)).
+One obsolete form of the statement SUBTRACT is [SUBTRACT-CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubtract-corresponding.htm).
 
 Example
 
@@ -39,7 +39,7 @@ GET RUN TIME FIELD DATA(t1).
 GET RUN TIME FIELD DATA(t2).
 SUBTRACT t1 FROM t2.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

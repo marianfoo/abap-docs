@@ -4,21 +4,21 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_elementary.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Date Fields, Time Fields, and Time Stamp Fields as Source Fields, ABENDATE_TIME_SOURC
 E_FIELDS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Date Fields, Time Fields, and Time Stamp Fields as Source Fields
 
--   [d](javascript:call_link\('abenconversion_type_d.htm'\))
--   [t](javascript:call_link\('abenconversion_type_t.htm'\))
--   [utclong](javascript:call_link\('abenconversion_type_utclong.htm'\))
+-   [d](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_d.htm)
+-   [t](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_t.htm)
+-   [utclong](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_utclong.htm)
 
 Hints
 
 -   The conversion rules are designed in such a way that operands of the types d and t behave like character-like operands in character-like operand positions and behave numerically in numeric operand positions.
--   In [substring access](javascript:call_link\('abenoffset_length.htm'\)) to an operand of the type d or t, the substring is handled like an operand of the type n and the corresponding conversion rules apply.
+-   In [substring access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoffset_length.htm) to an operand of the type d or t, the substring is handled like an operand of the type n and the corresponding conversion rules apply.
 -   Operands of the type utclong can only be converted to the types c and string.
 
 Example
@@ -32,6 +32,6 @@ cl\_demo\_output=>display(
   |xstring: { CONV xstring( time ) }\\n| ).
 
 Continue
-[Source Field Type d](javascript:call_link\('abenconversion_type_d.htm'\))
-[Source Field Type t](javascript:call_link\('abenconversion_type_t.htm'\))
-[Source Field Type utclong](javascript:call_link\('abenconversion_type_utclong.htm'\))
+[Source Field Type d](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_d.htm)
+[Source Field Type t](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_t.htm)
+[Source Field Type utclong](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_utclong.htm)

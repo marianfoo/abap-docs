@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  F
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shortref.htm) →  F
 
 FUNCTION - Quick reference
 
-[Reference](javascript:call_link\('abapfunction.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfunction.htm)
 
 Syntax
 
@@ -18,4 +18,4 @@ ENDFUNCTION.
 
 Effect
 
-Implements a function module func. A function module is defined in [Function Builder](javascript:call_link\('abenfunction_builder_glosry.htm'\) "Glossary Entry") and implemented between FUNCTION and ENDFUNCTION.
+Implements a function module func. A function module is defined in [Function Builder](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_builder_glosry.htm "Glossary Entry") and implemented between FUNCTION and ENDFUNCTION.

@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  S
 
 SELECTION-SCREEN - VERSION - Quick reference
 
-[Reference](javascript:call_link\('abapselection-screen_ldb_version.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_ldb_version.htm)
 
 Syntax
 
@@ -18,7 +18,7 @@ SELECTION-SCREEN END OF VERSION vers.
 
 Effect
 
-Obsolete: Defines a version vers of the standard selection screen in a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry").
+Obsolete: Defines a version vers of the standard selection screen in a [logical database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_data_base_glosry.htm "Glossary Entry").
 
 Addition
 

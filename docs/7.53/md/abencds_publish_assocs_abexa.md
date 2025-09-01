@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, select\_list](javascript:call_link\('abencds_f1_select_list.htm'\)) →  [ABAP CDS - SELECT, element](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) →  [ABAP CDS - SELECT, association](javascript:call_link\('abencds_f1_select_list_association.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, select\_list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list.htm) →  [ABAP CDS - SELECT, element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_entry.htm) →  [ABAP CDS - SELECT, association](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_association.htm) → 
 
 ABAP CDS - Publishing Associations
 
-This example demonstrates how associations are [published](javascript:call_link\('abencds_f1_select_list_association.htm'\)) in the SELECT list of a CDS view.
+This example demonstrates how associations are [published](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_association.htm) in the SELECT list of a CDS view.
 
 Source Code
 
@@ -115,7 +115,7 @@ START-OF-SELECTION.
 
 Description
 
-It also demonstrates how [CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") are accessed that are published in their SELECT list using CDS views. For each view, a use of the published association as a data source of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement in a [path expression](javascript:call_link\('abenopen_sql_path.htm'\)) is shown. As a comparison, the explicit join expression that produces the same result is shown.
+It also demonstrates how [CDS associations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_association_glosry.htm "Glossary Entry") are accessed that are published in their SELECT list using CDS views. For each view, a use of the published association as a data source of a [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm) statement in a [path expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path.htm) is shown. As a comparison, the explicit join expression that produces the same result is shown.
 
 -   The following CDS view publishes its association \_demo\_join2, which associates its data source demo\_join1 with the database table demo\_join1. The field d used in the ON condition of the source data source must also be an element of the SELECT list.
 

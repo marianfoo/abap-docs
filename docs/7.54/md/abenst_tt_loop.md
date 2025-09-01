@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Transformation of ABAP Values](javascript:call_link\('abenst_abap_values.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_serial_deserial.htm) →  [ST - Transformation of ABAP Values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_abap_values.htm) → 
 
 ST - tt:loop, Internal Tables
 
@@ -16,7 +16,7 @@ Syntax
 
 Effect
 
-Internal tables are serialized and deserialized within a loop defined by tt:loop that sets the [current node](javascript:call_link\('abenst_tt_ref.htm'\)) to the current table row.
+Internal tables are serialized and deserialized within a loop defined by tt:loop that sets the [current node](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_ref.htm) to the current table row.
 
 The optional attribute ref can be used to define the current node for the command. If ref is not specified, the current node of the surrounding element is used. The ABAP data object that is bound to the current node must be an internal table.
 
@@ -106,4 +106,4 @@ The result of the serialization is the following:
   </tab2>
 </tab1>
 
-The transformation is [symmetrical](javascript:call_link\('abenst_symmetry.htm'\)). After deserialization, result has the same content as itab.
+The transformation is [symmetrical](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_symmetry.htm). After deserialization, result has the same content as itab.

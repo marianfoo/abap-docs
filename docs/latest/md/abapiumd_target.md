@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Write Access](javascript:call_link\('abenabap_sql_writing.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql.htm) →  [ABAP SQL - Write Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_writing.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20INSERT%2C%20UPDATE%2C%20MODIFY%2C%20DELETE%2C%20target%2C%20ABAPIUMD_TARGET%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:
 )
@@ -13,7 +13,7 @@ INSERT, UPDATE, MODIFY, DELETE, target
 
 Syntax
 
-... dbtab*|*view*|*(target\_syntax) *\[*[client\_handling](javascript:call_link\('abapiumd_client.htm'\))*\]* ...
+... dbtab*|*view*|*(target\_syntax) *\[*[client\_handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapiumd_client.htm)*\]* ...
 
 Alternatives:
 
@@ -22,11 +22,11 @@ Alternatives:
 
 Effect
 
-In the modifying ABAP SQL statements [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)), [UPDATE](javascript:call_link\('abapupdate.htm'\)), [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)), and [DELETE](javascript:call_link\('abapdelete_dbtab.htm'\)), these elements specify statically or dynamically which [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry") or [DDIC view](javascript:call_link\('abenddic_view_glosry.htm'\) "Glossary Entry") is accessed. Optional additions [client\_handling](javascript:call_link\('abapiumd_client.htm'\)) control [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry"). Only views whose key fields are located together at the beginning of the view can be accessed.
+In the modifying ABAP SQL statements [INSERT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinsert_dbtab.htm), [UPDATE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapupdate.htm), [MODIFY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_dbtab.htm), and [DELETE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdelete_dbtab.htm), these elements specify statically or dynamically which [DDIC database table](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_db_table_glosry.htm "Glossary Entry") or [DDIC view](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_view_glosry.htm "Glossary Entry") is accessed. Optional additions [client\_handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapiumd_client.htm) control [client handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclient_handling_glosry.htm "Glossary Entry"). Only views whose key fields are located together at the beginning of the view can be accessed.
 
 Hint
 
-Write access to DDIC database tables or DDIC table views with [replacement objects](javascript:call_link\('abenddic_replacement_objects.htm'\)) is still performed on the DDIC database table or the DDIC view and produce a syntax warning.
+Write access to DDIC database tables or DDIC table views with [replacement objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_replacement_objects.htm) is still performed on the DDIC database table or the DDIC view and produce a syntax warning.
 
 Alternative 1   
 
@@ -34,13 +34,13 @@ Alternative 1  
 
 Effect
 
-dbtab can be a DDIC database table defined in the ABAP Dictionary and view can be a [DDIC table view](javascript:call_link\('abentable_view_glosry.htm'\) "Glossary Entry").
+dbtab can be a DDIC database table defined in the ABAP Dictionary and view can be a [DDIC table view](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_view_glosry.htm "Glossary Entry").
 
-Only DDIC table views that refer to a single DDIC database table and whose status in the ABAP Dictionary allows changes can be specified. No [DDIC external views](javascript:call_link\('abenexternal_view_glosry.htm'\) "Glossary Entry") or [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") can be specified.
+Only DDIC table views that refer to a single DDIC database table and whose status in the ABAP Dictionary allows changes can be specified. No [DDIC external views](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexternal_view_glosry.htm "Glossary Entry") or [CDS entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm "Glossary Entry") can be specified.
 
 Hint
 
-The database table or view must be specified using the exact name defined for it in the ABAP Dictionary. More specifically, no name for the [database schema](javascript:call_link\('abendatabase_schema_glosry.htm'\) "Glossary Entry") can be prefixed. An ABAP SQL statement always accesses the database schema assigned to the current [database user name](javascript:call_link\('abendatabase_user_name_glosry.htm'\) "Glossary Entry"). In cases where the [standard connection](javascript:call_link\('abenstandard_db_connection_glosry.htm'\) "Glossary Entry") or a [service connection](javascript:call_link\('abenservice_connection_glosry.htm'\) "Glossary Entry") is used, this is the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry"). In cases where a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") is used, this is the database schema assigned to the [database user](javascript:call_link\('abendatabase_user_glosry.htm'\) "Glossary Entry") defined in the secondary connection. Here, each access requires the database table or view to exist under this exact name in the ABAP Dictionary of the current AS ABAP, regardless of the connection.
+The database table or view must be specified using the exact name defined for it in the ABAP Dictionary. More specifically, no name for the [database schema](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_schema_glosry.htm "Glossary Entry") can be prefixed. An ABAP SQL statement always accesses the database schema assigned to the current [database user name](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_user_name_glosry.htm "Glossary Entry"). In cases where the [standard connection](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry") or a [service connection](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenservice_connection_glosry.htm "Glossary Entry") is used, this is the [ABAP database schema](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_db_schema_glosry.htm "Glossary Entry"). In cases where a [secondary connection](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") is used, this is the database schema assigned to the [database user](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_user_glosry.htm "Glossary Entry") defined in the secondary connection. Here, each access requires the database table or view to exist under this exact name in the ABAP Dictionary of the current AS ABAP, regardless of the connection.
 
 Example
 
@@ -68,15 +68,15 @@ Alternative 2  
 
 Effect
 
-Instead of specifying an object statically, a parenthesized data object target\_syntax can be specified that must contain the name of the DDIC database table or the DDIC view when the statement is executed. A character-like data object or a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with a character-like row type can be specified for the data object target\_syntax. The syntax in target\_syntax is not case-sensitive. Invalid syntax raises a catchable exception from the class CX\_SY\_DYNAMIC\_OSQL\_ERROR.
+Instead of specifying an object statically, a parenthesized data object target\_syntax can be specified that must contain the name of the DDIC database table or the DDIC view when the statement is executed. A character-like data object or a [standard table](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_table_glosry.htm "Glossary Entry") with a character-like row type can be specified for the data object target\_syntax. The syntax in target\_syntax is not case-sensitive. Invalid syntax raises a catchable exception from the class CX\_SY\_DYNAMIC\_OSQL\_ERROR.
 
 Security Hint
 
-If used incorrectly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before it is used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the built-in function [escape](javascript:call_link\('abenescape_functions.htm'\)). See [SQL Injections Using Dynamic Tokens](javascript:call_link\('abensql_inj_dyn_tokens_scrty.htm'\)).
+If used incorrectly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before it is used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the built-in function [escape](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenescape_functions.htm). See [SQL Injections Using Dynamic Tokens](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_inj_dyn_tokens_scrty.htm).
 
 Hint
 
-When specified dynamically, ABAP SQL statements can contain the comment characters [\*](javascript:call_link\('abencomment.htm'\)) and ["](javascript:call_link\('abencomment.htm'\)) as follows:
+When specified dynamically, ABAP SQL statements can contain the comment characters [\*](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomment.htm) and ["](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomment.htm) as follows:
 
 -   In a dynamic token specified as a character-like data object, all content is ignored from the first comment character ".
 -   In a dynamic token specified as an internal table, all rows are ignored that start with the comment character \*. In the row, all content is ignored from the first comment character ".
@@ -103,4 +103,4 @@ TRY.
 ENDTRY.
 
 Continue
-[INSERT, UPDATE, MODIFY, DELETE dbtab, CLIENT, CLIENTS](javascript:call_link\('abapiumd_client.htm'\))
+[INSERT, UPDATE, MODIFY, DELETE dbtab, CLIENT, CLIENTS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapiumd_client.htm)

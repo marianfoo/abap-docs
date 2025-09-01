@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  S
 
 SYNTAX-CHECK - Quick reference
 
-[Reference](javascript:call_link\('abapsyntax-check_for_itab.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-check_for_itab.htm)
 
 Syntax
 
@@ -25,25 +25,25 @@ Checks the syntax of the source code in itab and returns the first error message
 
 Additions
 
--   [PROGRAM prog](javascript:call_link\('abapsyntax-check_for_itab.htm'\))
+-   [PROGRAM prog](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-check_for_itab.htm)
     Defines the program attributes with reference to a program prog.
     
 
--   [DIRECTORY ENTRY dir](javascript:call_link\('abapsyntax-check_for_itab.htm'\))
+-   [DIRECTORY ENTRY dir](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-check_for_itab.htm)
     Defines the program attributes by specifying a structure in dir of the type TRDIR.
     
 
--   [WITH CURRENT SWITCHSTATES](javascript:call_link\('abapsyntax-check_for_itab.htm'\))
+-   [WITH CURRENT SWITCHSTATES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-check_for_itab.htm)
     Defines which key configuration is used for the syntax check.
     
 
--   [INCLUDE incl](javascript:call_link\('abapsyntax-check_error_handling.htm'\))
+-   [INCLUDE incl](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-check_error_handling.htm)
     Returns the name of the include program in which the error occurs in incl.
     
 
--   [OFFSET off](javascript:call_link\('abapsyntax-check_error_handling.htm'\))
+-   [OFFSET off](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-check_error_handling.htm)
     Returns the offset of the error in the line in off.
     
 
--   [MESSAGE-ID mid](javascript:call_link\('abapsyntax-check_error_handling.htm'\))
+-   [MESSAGE-ID mid](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsyntax-check_error_handling.htm)
     Returns the key of the error message from the table TRMSG in mid.

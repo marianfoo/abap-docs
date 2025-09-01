@@ -4,15 +4,19 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_hana.htm) → 
 
 Logical Schemas for SAP HANA
 
-A logical schema is a symbolic name for a [database schema](javascript:call_link\('abendatabase_schema_glosry.htm'\) "Glossary Entry") in the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") that can be used in an [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry").
+A logical schema is a symbolic name for a [database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_schema_glosry.htm "Glossary Entry") in the [SAP HANA database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm "Glossary Entry") that can be used in an [AMDP macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_macro_glosry.htm "Glossary Entry").
 
--   [Definition](#abenlogical-database-schemas-1--------mapping-physical-database-schemas---@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_2)
+-   [Definition](#@@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_1)
 
--   [Mapping to a Logical Database Schema](#abenlogical-database-schemas-3--------mapping-to-a-logical-hdi-schema---@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_4)
+-   [Mapping Physical Database Schemas](#@@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_2)
+
+-   [Mapping to a Logical Database Schema](#@@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_3)
+
+-   [Mapping to a Logical HDI Schema](#@@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_4)
 
 -   [Use](#@@ITOC@@ABENLOGICAL_DATABASE_SCHEMAS_5)
 
@@ -22,17 +26,17 @@ There are two types of logical schema:
 
 -   Logical database schema
 
-A [logical database schema](javascript:call_link\('abenlogical_database_schema_glosry.htm'\) "Glossary Entry") makes it possible to map a physical database schema in a mapping table. A logical database schema is represented by a transportable [repository object](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") that developers must create in the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"). The repository object has the following attributes:
+A [logical database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_database_schema_glosry.htm "Glossary Entry") makes it possible to map a physical database schema in a mapping table. A logical database schema is represented by a transportable [repository object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepository_object_glosry.htm "Glossary Entry") that developers must create in the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry"). The repository object has the following attributes:
 
 -   A name used to map a physical database schema to the object, so making the object usable.
 
--   An optional flag that permits the mapping of the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry").
+-   An optional flag that permits the mapping of the [ABAP database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_db_schema_glosry.htm "Glossary Entry").
 
 Developers with development authorization can create and modify a logical database schema as a repository object.
 
 -   Logical HDI schema
 
-A [logical HDI schema](javascript:call_link\('abenlogical_hdi_glosry.htm'\) "Glossary Entry") is part of the definition of an [ABAP-managed HDI container (AMHC)](javascript:call_link\('abenamhc_glosry.htm'\) "Glossary Entry"), namely a [HDI container](javascript:call_link\('abenhdi_container_glosry.htm'\) "Glossary Entry") managed by ABAP. A logical HDI schema does not have a repository object.
+A [logical HDI schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_hdi_glosry.htm "Glossary Entry") is part of the definition of an [ABAP-managed HDI container (AMHC)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamhc_glosry.htm "Glossary Entry"), namely a [HDI container](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhdi_container_glosry.htm "Glossary Entry") managed by ABAP. A logical HDI schema does not have a repository object.
 
 Mapping Physical Database Schemas
 
@@ -40,11 +44,11 @@ Mappings of physical database schemas to logical database schemas can be disting
 
 Mapping to a Logical Database Schema
 
-The mapping of physical database schema to an existing logical database schema is defined in the mapping table AMDP\_SCHEMA\_MAP in the documented transaction DB\_SCHEMA\_MAP. A mapping of this type is currently only possible on an AS ABAP whose [standard database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") is a SAP HANA database. The physical database schema is case-sensitive.
+The mapping of physical database schema to an existing logical database schema is defined in the mapping table AMDP\_SCHEMA\_MAP in the documented transaction DB\_SCHEMA\_MAP. A mapping of this type is currently only possible on an AS ABAP whose [standard database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_db_glosry.htm "Glossary Entry") is a SAP HANA database. The physical database schema is case-sensitive.
 
-A mapping made using the transaction DB\_SCHEMA\_MAP is usually a local mapping, but can be transported with some restrictions. Transports like this are usually only made from systems with an SAP HANA database and should only be made into systems in which the specified physical database schemas exist. Transports should only be made between systems in the same enterprise. Any mappings made by SAP are not delivered to customers. The cross-client mapping table AMDP\_SCHEMA\_MAP has the [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)) C.
+A mapping made using the transaction DB\_SCHEMA\_MAP is usually a local mapping, but can be transported with some restrictions. Transports like this are usually only made from systems with an SAP HANA database and should only be made into systems in which the specified physical database schemas exist. Transports should only be made between systems in the same enterprise. Any mappings made by SAP are not delivered to customers. The cross-client mapping table AMDP\_SCHEMA\_MAP has the [delivery class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_delivery.htm) C.
 
-An [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry") is mapped using the predefined name :abap\_db\_schema:
+An [ABAP database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") is mapped using the predefined name :abap\_db\_schema:
 
 -   This name is used as a placeholder for the real name of the ABAP database schema and can be evaluated accordingly by frameworks.
 
@@ -56,32 +60,32 @@ Notes
 
 -   The mappings exist in systems that do not have an SAP HANA database as a standard database, but cannot be edited and are ignored.
 
--   Only the predefined name :abap\_db\_schema should be used for the mapping of the current [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry"). If the associated flag is set, it would be possible to speciiy the real name, but this name cannot be transported properly and the logical database schema would not be usable in AMDP.
+-   Only the predefined name :abap\_db\_schema should be used for the mapping of the current [ABAP database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_db_schema_glosry.htm "Glossary Entry"). If the associated flag is set, it would be possible to speciiy the real name, but this name cannot be transported properly and the logical database schema would not be usable in AMDP.
 
 Mapping to a Logical HDI Schema
 
-A physical database schema is mapped to a logical HDI schema in transaction SCTS\_AMHC (used to define [ABAP-managed HDI containers (AMHCs)](javascript:call_link\('abenamhc_glosry.htm'\) "Glossary Entry")). An AMHC is a special [HDI container](javascript:call_link\('abenhdi_container_glosry.htm'\) "Glossary Entry") that uses [SAP HANA Transport for ABAP (HTA)](javascript:call_link\('abenhta_glosry.htm'\) "Glossary Entry") as an interface to the [Change and Transport System (CTS)](javascript:call_link\('abencts_glosry.htm'\) "Glossary Entry") (for its [HDI objects](javascript:call_link\('abenhdi_object_glosry.htm'\) "Glossary Entry") too). The logical HDI schema is a symbolic name for the physical AMHC database schema. There are no entries in the mapping table AMDP\_SCHEMA\_MAP for a logical HDI schema. The logical HDI schemas in AS ABAP can be displayed in transaction DB\_SCHEMA\_MAP, but mappings cannot be edited.
+A physical database schema is mapped to a logical HDI schema in transaction SCTS\_AMHC (used to define [ABAP-managed HDI containers (AMHCs)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamhc_glosry.htm "Glossary Entry")). An AMHC is a special [HDI container](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhdi_container_glosry.htm "Glossary Entry") that uses [SAP HANA Transport for ABAP (HTA)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhta_glosry.htm "Glossary Entry") as an interface to the [Change and Transport System (CTS)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencts_glosry.htm "Glossary Entry") (for its [HDI objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhdi_object_glosry.htm "Glossary Entry") too). The logical HDI schema is a symbolic name for the physical AMHC database schema. There are no entries in the mapping table AMDP\_SCHEMA\_MAP for a logical HDI schema. The logical HDI schemas in AS ABAP can be displayed in transaction DB\_SCHEMA\_MAP, but mappings cannot be edited.
 
 Notes
 
--   Mappings of physical [HDI containers](javascript:call_link\('abenhdi_container_glosry.htm'\) "Glossary Entry") to logical HDI schemas are usually predefined in a system.
+-   Mappings of physical [HDI containers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhdi_container_glosry.htm "Glossary Entry") to logical HDI schemas are usually predefined in a system.
 
--   The database schema of a [AMHC](javascript:call_link\('abenamhc_glosry.htm'\) "Glossary Entry") is never the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry").
+-   The database schema of a [AMHC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamhc_glosry.htm "Glossary Entry") is never the [ABAP database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_db_schema_glosry.htm "Glossary Entry").
 
 Use
 
-A logical schema can be used by frameworks for variable access to a physical database schema in Native SQL. More specifically, the use of logical schemas is are supported by the [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenabap_managed_db_proc_glosry.htm'\) "Glossary Entry"):
+A logical schema can be used by frameworks for variable access to a physical database schema in Native SQL. More specifically, the use of logical schemas is are supported by the [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_managed_db_proc_glosry.htm "Glossary Entry"):
 
--   A special [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry") ([$ABAP.schema](javascript:call_link\('abenamdp_logical_db_schemas.htm'\))) can be used in [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") to specify logical schemas. At runtime, the macro is replaced by the name of the mapped physical database schema.
+-   A special [AMDP macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_macro_glosry.htm "Glossary Entry") ([$ABAP.schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_logical_db_schemas.htm)) can be used in [AMDP methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_method_glosry.htm "Glossary Entry") to specify logical schemas. At runtime, the macro is replaced by the name of the mapped physical database schema.
 
--   If the current [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry") is entered implicitly as a physical database schema of a logical database schema using the predefined name :abap\_db\_schema, the macro [$ABAP.schema](javascript:call_link\('abenamdp_logical_db_schemas.htm'\)) is skipped in the evaluation and hence the current ABAP database schema accessed implicitly.
+-   If the current [ABAP database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") is entered implicitly as a physical database schema of a logical database schema using the predefined name :abap\_db\_schema, the macro [$ABAP.schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_logical_db_schemas.htm) is skipped in the evaluation and hence the current ABAP database schema accessed implicitly.
 
--   If the current [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry") is mapped to a logical schema using its real name, it is used for the macro [$ABAP.schema](javascript:call_link\('abenamdp_logical_db_schemas.htm'\)) in the evaluation of this macro. It is not possible to specify the current ABAP database schema explicitly in AMDP, which means that a syntax error occurs.
+-   If the current [ABAP database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") is mapped to a logical schema using its real name, it is used for the macro [$ABAP.schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_logical_db_schemas.htm) in the evaluation of this macro. It is not possible to specify the current ABAP database schema explicitly in AMDP, which means that a syntax error occurs.
 
 Notes
 
--   If a logical database schema to which the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry") is mapped is used in the macro [$ABAP.schema](javascript:call_link\('abenamdp_logical_db_schemas.htm'\)), the schema must be declared using the addition [USING SCHEMA](javascript:call_link\('abapmethod_by_db_proc.htm'\)) of the statement METHOD in the current AMDP emthod. Conversely, this addition can only be used for logical database schemas to wohic the ABAP database schema can be mapped. For this reason, if the flag that allows mappings of the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry") is changed for an existing logical database schema, syntax errors are incurred in [AMDP classes](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") that already use this schema.
+-   If a logical database schema to which the [ABAP database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") is mapped is used in the macro [$ABAP.schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_logical_db_schemas.htm), the schema must be declared using the addition [USING SCHEMA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_by_db_proc.htm) of the statement METHOD in the current AMDP emthod. Conversely, this addition can only be used for logical database schemas to wohic the ABAP database schema can be mapped. For this reason, if the flag that allows mappings of the [ABAP database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") is changed for an existing logical database schema, syntax errors are incurred in [AMDP classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_class_glosry.htm "Glossary Entry") that already use this schema.
 
--   [Logical HDI schemas](javascript:call_link\('abenlogical_hdi_glosry.htm'\) "Glossary Entry") are used in the macro [$ABAP.schema](javascript:call_link\('abenamdp_logical_db_schemas.htm'\)) for simple access to [HDI objects](javascript:call_link\('abenhdi_object_glosry.htm'\) "Glossary Entry") in [SAP HANA XSA](javascript:call_link\('abenxsa_glosry.htm'\) "Glossary Entry").
+-   [Logical HDI schemas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_hdi_glosry.htm "Glossary Entry") are used in the macro [$ABAP.schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_logical_db_schemas.htm) for simple access to [HDI objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhdi_object_glosry.htm "Glossary Entry") in [SAP HANA XSA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsa_glosry.htm "Glossary Entry").
 
--   The transaction DB\_SCHEMA\_MAP also displays a logical schema with the predefined name SAP\_ABAP to which the current [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry") is always mapped. This schema is only for internal [HDI](javascript:call_link\('abenhdi_glosry.htm'\) "Glossary Entry") use and cannot be used in the [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry") [$ABAP.schema](javascript:call_link\('abenamdp_logical_db_schemas.htm'\))s.
+-   The transaction DB\_SCHEMA\_MAP also displays a logical schema with the predefined name SAP\_ABAP to which the current [ABAP database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") is always mapped. This schema is only for internal [HDI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhdi_glosry.htm "Glossary Entry") use and cannot be used in the [AMDP macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_macro_glosry.htm "Glossary Entry") [$ABAP.schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_logical_db_schemas.htm)s.

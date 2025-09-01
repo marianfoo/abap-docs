@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 asJSON
 
-ABAP Serialization JSON. Short name for the [canonical XML representation](javascript:call_link\('abencanonical_json_represen_glosry.htm'\) "Glossary Entry") of ABAP data.
+ABAP Serialization JSON. Short name for the [canonical XML representation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencanonical_json_represen_glosry.htm "Glossary Entry") of ABAP data.
 
-[→ More](javascript:call_link\('abenabap_asjson.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_asjson.htm)

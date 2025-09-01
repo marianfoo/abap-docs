@@ -4,11 +4,11 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_glossary.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: local date, ABENLOCAL_DATE_GLOSRY, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugge
 stion for improvement:)
 
 local date
 
-[Date](javascript:call_link\('abendate_glosry.htm'\) "Glossary Entry") valid in a [time zone](javascript:call_link\('abentime_zone_glosry.htm'\) "Glossary Entry").
+[Date](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendate_glosry.htm "Glossary Entry") valid in a [time zone](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_zone_glosry.htm "Glossary Entry").

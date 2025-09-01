@@ -4,25 +4,25 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE HIERARCHY](javascript:call_link\('abencds_f1_define_hierarchy.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE HIERARCHY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm) → 
 
 ABAP CDS - DEFINE HIERARCHY, element\_list
 
 Syntax
 
-... { [element1](javascript:call_link\('abencds_f1_hiera_element.htm'\)), [element2](javascript:call_link\('abencds_f1_hiera_element.htm'\)), ..., } ...
+... { [element1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_hiera_element.htm), [element2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_hiera_element.htm), ..., } ...
 
 Effect
 
-Defines the elements of a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry"). The elements are specified in a comma-separated list enclosed in curly brackets { }.
+Defines the elements of a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry"). The elements are specified in a comma-separated list enclosed in curly brackets { }.
 
 The elements determine either the components of the results set of the CDS hierarchy and of the structured data type represented by the CDS hierarchy with respect to ABAP or they publish a CDS association.
 
-The ABAP data types of the components of the structured data type are derived from the dictionary types of the elements in accordance with the associated [mapping rules](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The ABAP data types of the components of the structured data type are derived from the dictionary types of the elements in accordance with the associated [mapping rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm).
 
 Example
 
-Element list of a CDS hierarchy in which all possible [hierarchy attributes](javascript:call_link\('abencds_hierarchy_attributes.htm'\)) are listed after the prefix [$node.](javascript:call_link\('abencds_f1_hiera_element.htm'\)). The program DEMO\_HIERARCHY\_TREE\_HIER\_ATTR accesses the CDS hierarchy and uses ABAP SQL to read all elements of the element list plus the additional [hierarchy columns](javascript:call_link\('abenhierarchy_column_glosry.htm'\) "Glossary Entry"). When executed, the program demonstrates that the values of the hierarchy attributes and of the associated hierarchy columns are the same.
+Element list of a CDS hierarchy in which all possible [hierarchy attributes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_attributes.htm) are listed after the prefix [$node.](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_hiera_element.htm). The program DEMO\_HIERARCHY\_TREE\_HIER\_ATTR accesses the CDS hierarchy and uses ABAP SQL to read all elements of the element list plus the additional [hierarchy columns](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_column_glosry.htm "Glossary Entry"). When executed, the program demonstrates that the values of the hierarchy attributes and of the associated hierarchy columns are the same.
 
 define hierarchy DEMO\_CDS\_SIMPLE\_TREE\_HIER\_ATTR
   as parent child hierarchy(
@@ -48,4 +48,4 @@ define hierarchy DEMO\_CDS\_SIMPLE\_TREE\_HIER\_ATTR
     }
 
 Continue
-[ABAP CDS - DEFINE HIERARCHY, element](javascript:call_link\('abencds_f1_hiera_element.htm'\))
+[ABAP CDS - DEFINE HIERARCHY, element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_hiera_element.htm)

@@ -4,15 +4,15 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [READ ENTITY, ENTITIES](javascript:call_link\('abapread_entity_entities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml.htm) →  [READ ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities.htm) → 
 
 READ ENTITY, ENTITIES, operations
 
 Syntax
 
-... *\[*[field\_spec](javascript:call_link\('abapread_entity_entities_fields.htm'\)) [RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\))*\]*
-    *\[*BY \\\_assoc [field\_spec](javascript:call_link\('abapread_entity_entities_fields.htm'\)) [RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\)) *\[*LINK link\_tab*\]**\]*
-    *\[*EXECUTE function [field\_spec](javascript:call_link\('abapread_entity_entities_fields.htm'\)) *\[*REQUEST request*\]* [RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\)) *\]* ...
+... *\[*[field\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities_fields.htm) [RESULT result\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_result.htm)*\]*
+    *\[*BY \\\_assoc [field\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities_fields.htm) [RESULT result\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_result.htm) *\[*LINK link\_tab*\]**\]*
+    *\[*EXECUTE function [field\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities_fields.htm) *\[*REQUEST request*\]* [RESULT result\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_result.htm) *\]* ...
 
 Variants:
 
@@ -24,16 +24,16 @@ Effect
 
 The ABAP EML READ statement includes three kinds of operations:
 
--   [Read operations](javascript:call_link\('abenrap_read_operation_glosry.htm'\) "Glossary Entry"): Read entities directly via key fields.
--   [Read-by-association operations](javascript:call_link\('abenrap_rba_operation_glosry.htm'\) "Glossary Entry"): Read [child entities](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry") via key fields of the [parent entity](javascript:call_link\('abenparent_entity_glosry.htm'\) "Glossary Entry"). It is also possible to read parent entities via the child entities, however, only from within the implementation class.
+-   [Read operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_read_operation_glosry.htm "Glossary Entry"): Read entities directly via key fields.
+-   [Read-by-association operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_rba_operation_glosry.htm "Glossary Entry"): Read [child entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchild_entity_glosry.htm "Glossary Entry") via key fields of the [parent entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenparent_entity_glosry.htm "Glossary Entry"). It is also possible to read parent entities via the child entities, however, only from within the implementation class.
 -   Execute functions: Carry out a self-defined read operation, for example, if parameters are required.
 
-All read operations require an internal table ( [field\_spec](javascript:call_link\('abapread_entity_entities_fields.htm'\))) as input parameter to specify, for example, whether all fields or only a specific set of fields should be read from RAP BO entities. Read operations always have a result, which is stored in an internal table ([result\_tab](javascript:call_link\('abapeml_result.htm'\))).
+All read operations require an internal table ( [field\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities_fields.htm)) as input parameter to specify, for example, whether all fields or only a specific set of fields should be read from RAP BO entities. Read operations always have a result, which is stored in an internal table ([result\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_result.htm)).
 
 Hints
 
 -   After the keyword BY for read-by-association operations, it is required to insert the backslash (\\) before the associations are displayed via the code completion.
--   In case of read-by-association operations, the explicit specification of the [full\_rba](abaphandler_meth_read.htm#!ABAP_VARIANT_2@2@) parameter is only possible for the dynamic form of the ABAP EML READ statement ([READ ENTITIES OPERATIONS](javascript:call_link\('abapread_entities_operations.htm'\))). With the short form ([READ ENTITY](javascript:call_link\('abapread_entity_short.htm'\))) and long form ([READ ENTITIES](javascript:call_link\('abapread_entities_long.htm'\))), the explicit specification of the [full\_rba](abaphandler_meth_read.htm#!ABAP_VARIANT_2@2@) parameter is not possible. In these cases, the specification is irrelevant because it is anyway specified if the links ([link\_rba](abaphandler_meth_read.htm#!ABAP_VARIANT_2@2@) parameter) or the data are requested.
+-   In case of read-by-association operations, the explicit specification of the [full\_rba](abaphandler_meth_read.htm#!ABAP_VARIANT_2@2@) parameter is only possible for the dynamic form of the ABAP EML READ statement ([READ ENTITIES OPERATIONS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entities_operations.htm)). With the short form ([READ ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_short.htm)) and long form ([READ ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entities_long.htm)), the explicit specification of the [full\_rba](abaphandler_meth_read.htm#!ABAP_VARIANT_2@2@) parameter is not possible. In these cases, the specification is irrelevant because it is anyway specified if the links ([link\_rba](abaphandler_meth_read.htm#!ABAP_VARIANT_2@2@) parameter) or the data are requested.
 
 Variant 1   
 
@@ -41,9 +41,9 @@ Variant 1  
 
 Effect
 
-Used to read directly from a RAP BO entity, either a [root](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") or [child entity](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry"), with input parameters specified in [field\_spec](javascript:call_link\('abapread_entity_entities_fields.htm'\)).
+Used to read directly from a RAP BO entity, either a [root](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_entity_glosry.htm "Glossary Entry") or [child entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchild_entity_glosry.htm "Glossary Entry"), with input parameters specified in [field\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities_fields.htm).
 
-The keyword RESULT is the only additional mandatory keyword. The internal table result\_tab is used to store the result of the read operation. It must be typed with a [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") that depends on the read operation variant. See more details in the documentation for [RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\)).
+The keyword RESULT is the only additional mandatory keyword. The internal table result\_tab is used to store the result of the read operation. It must be typed with a [BDEF derived type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") that depends on the read operation variant. See more details in the documentation for [RESULT result\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_result.htm).
 
 Example
 
@@ -76,9 +76,9 @@ Addition:
 
 Effect
 
-Used for read-by-association operations, that is, to read [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") of associated entities via the keys of the [parent entity](javascript:call_link\('abenparent_entity_glosry.htm'\) "Glossary Entry"). This includes associated [child entities](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry") that are part of the composition tree but also cross-BO entities that are not part of it. It is also possible to read parent entities via the child entities, however, only from within the implementation class. \_assoc is the name of the association as specified in the underlying CDS view. As a prerequisite, child entities to be read from must be defined in the same BDEF. For read access to a cross-BO entity, it is a prerequisite that behavior is defined for it in another BDEF.
+Used for read-by-association operations, that is, to read [RAP BO instances](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") of associated entities via the keys of the [parent entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenparent_entity_glosry.htm "Glossary Entry"). This includes associated [child entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchild_entity_glosry.htm "Glossary Entry") that are part of the composition tree but also cross-BO entities that are not part of it. It is also possible to read parent entities via the child entities, however, only from within the implementation class. \_assoc is the name of the association as specified in the underlying CDS view. As a prerequisite, child entities to be read from must be defined in the same BDEF. For read access to a cross-BO entity, it is a prerequisite that behavior is defined for it in another BDEF.
 
-[field \_spec](javascript:call_link\('abapread_entity_entities_fields.htm'\)) is an internal table specifying the input parameters for the read-by-association operation. The internal table [RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\)) is used to store the result of the read operation. It must be typed with a [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") that depends on the read operation variant. The component [%target](javascript:call_link\('abapderived_types_comp.htm'\)) must be filled in the in the internal table field\_spec.
+[field \_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities_fields.htm) is an internal table specifying the input parameters for the read-by-association operation. The internal table [RESULT result\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_result.htm) is used to store the result of the read operation. It must be typed with a [BDEF derived type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") that depends on the read operation variant. The component [%target](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm) must be filled in the in the internal table field\_spec.
 
 Addition   
 
@@ -86,7 +86,7 @@ Addition  
 
 Effect
 
-The statement provides an additional target variable (link\_tab) after the LINK keyword. link\_tab is an internal table containing keys of the source (i. e. the parent, or the child respectively if instances are read from the parent via the child) and keys of the target (associated entity) as nested structures. link\_tab must be typed with the BDEF derived type [TYPE TABLE FOR READ LINK](javascript:call_link\('abaptype_table_for.htm'\)).
+The statement provides an additional target variable (link\_tab) after the LINK keyword. link\_tab is an internal table containing keys of the source (i. e. the parent, or the child respectively if instances are read from the parent via the child) and keys of the target (associated entity) as nested structures. link\_tab must be typed with the BDEF derived type [TYPE TABLE FOR READ LINK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_table_for.htm).
 
 Example
 
@@ -109,9 +109,9 @@ Addition:
 
 Effect
 
-The keyword EXECUTE triggers a function for a read-only operation. In both managed and unmanaged scenarios, the function must be self-implemented in a [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+The keyword EXECUTE triggers a function for a read-only operation. In both managed and unmanaged scenarios, the function must be self-implemented in a [behavior pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
 
-[field \_spec](javascript:call_link\('abapread_entity_entities_fields.htm'\)) is an internal table specifying the input parameters for the operation. The internal table result\_tab is used to store the result of the read operation. It must be typed with a BDEF derived type that depends on the read operation variant. See more details in the documentation for [RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\)).
+[field \_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities_fields.htm) is an internal table specifying the input parameters for the operation. The internal table result\_tab is used to store the result of the read operation. It must be typed with a BDEF derived type that depends on the read operation variant. See more details in the documentation for [RESULT result\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_result.htm).
 
 Example
 
@@ -132,14 +132,14 @@ Addition  
 
 Effect
 
-Used to specify whether the result should be returned completely or only parts of it (for example, only the keys) for the purpose of improving performance. request must be typed with the required [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry"): TYPE STRUCTURE FOR FUNCTION REQUEST. The components of the structure are all key and data fields of the RAP BO entity. They are of type ABP\_BEHV\_FLAG and can be flagged whether to include the respective fields or not.
+Used to specify whether the result should be returned completely or only parts of it (for example, only the keys) for the purpose of improving performance. request must be typed with the required [BDEF derived type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry"): TYPE STRUCTURE FOR FUNCTION REQUEST. The components of the structure are all key and data fields of the RAP BO entity. They are of type ABP\_BEHV\_FLAG and can be flagged whether to include the respective fields or not.
 
-It is optional and can only be used for functions specified in the BDEF with the addition [result selective](javascript:call_link\('abenbdl_action_output_para.htm'\)).
+It is optional and can only be used for functions specified in the BDEF with the addition [result selective](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action_output_para.htm).
 
 Executable Example
 
--   The example [READ: Operations and Field Selection](javascript:call_link\('abeneml_read_op_fields_abexa.htm'\)) demonstrates several different variants of field selection with a simple managed RAP BO.
--   For more examples on READ operations in general, see [Examples for ABAP EML READ](javascript:call_link\('abapeml_read_examples.htm'\)).
+-   The example [READ: Operations and Field Selection](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_read_op_fields_abexa.htm) demonstrates several different variants of field selection with a simple managed RAP BO.
+-   For more examples on READ operations in general, see [Examples for ABAP EML READ](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_read_examples.htm).
 
 Continue
-[READ ENTITY, ENTITIES, field\_spec](javascript:call_link\('abapread_entity_entities_fields.htm'\))
+[READ ENTITY, ENTITIES, field\_spec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_entity_entities_fields.htm)

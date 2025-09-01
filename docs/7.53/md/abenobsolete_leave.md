@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Leave
 
-This section describes how to [leave](javascript:call_link\('abenabap_leave_program.htm'\)) a program with the [LEAVE](javascript:call_link\('abapleave-.htm'\)) statement and no further additions.
+This section describes how to [leave](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_leave_program.htm) a program with the [LEAVE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapleave-.htm) statement and no further additions.
 
 Continue
-[LEAVE](javascript:call_link\('abapleave-.htm'\))
+[LEAVE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapleave-.htm)

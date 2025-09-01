@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Character String and Byte String Processing](javascript:call_link\('abencharacter_string_obsolete.htm'\)) →  [Obsolete Regular Expression Syntax](javascript:call_link\('abenregular_expressions_obsolete.htm'\)) →  [regex - POSIX Syntax (obsolete)](javascript:call_link\('abenregex_posix_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_internal_obsolete.htm) →  [Obsolete Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharacter_string_obsolete.htm) →  [Obsolete Regular Expression Syntax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregular_expressions_obsolete.htm) →  [regex - POSIX Syntax (obsolete)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_posix_syntax.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20POSIX%20regex%20-%20Character%20String%20Patterns%20%28obsolete%29%2C%20ABENREGEX_POSIX_SYNTAX_OPERATORS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASu
 ggestion%20for%20improvement:)
@@ -13,10 +13,14 @@ POSIX regex - Character String Patterns (obsolete)
 
 Character strings are represented by chainings or operators.
 
--   [Chainings](#abenregex-posix-syntax-operators-1-------operators-for-character-strings---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_2)
-    -   [Chaining Operators](#abenregex-posix-syntax-operators-3-----------alternatives---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_4)
-    -   [Subgroups](#abenregex-posix-syntax-operators-5-----------subgroups-with-registration---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_6)
-    -   [Literal Characters](#abenregex-posix-syntax-operators-7-----------reserved-enhancements---@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_8)
+-   [Chainings](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_1)
+-   [Operators for Character Strings](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_2)
+    -   [Chaining Operators](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_3)
+    -   [Alternatives](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_4)
+    -   [Subgroups](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_5)
+    -   [Subgroups with Registration](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_6)
+    -   [Literal Characters](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_7)
+    -   [Reserved Enhancements](#@@ITOC@@ABENREGEX_POSIX_SYNTAX_OPERATORS_8)
 
 Chainings   
 
@@ -24,7 +28,7 @@ Chainings are valid regular expressions that are written after each other. If r 
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_mtch.htm).
 
 Pattern
 
@@ -56,7 +60,7 @@ Hollo
 
 \-
 
-H\[aeu\]llo is the chaining of five [regular expressions for single characters](javascript:call_link\('abenregex_posix_syntax_signs.htm'\)).
+H\[aeu\]llo is the chaining of five [regular expressions for single characters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_posix_syntax_signs.htm).
 
 Operators for Character Strings   
 
@@ -69,7 +73,7 @@ The operators {n}, {n,m}, \*, +, and ? (where n and m are natural numbers, inclu
 -   The regular expression r{n} is equivalent to an n-fold chaining of r. The regular expression r{0} matches an empty character string, and therefore also the offset before the first character of a character string, the spaces between the characters in character strings, and the offset after the last character in a character string.
 -   The regular expression r{n,m} is equivalent to at least n and a maximum of m chainings of r. The value of n must be less than or equal to the value of m. The expression r{n} is equivalent to at least an n-fold chaining of r.
 -   The regular expression r? is equivalent to r{0,1}, which means the expression r or the empty character string.
--   The regular expression r\* is equivalent to r{0,}, in other words a chaining of r of any length, including the empty character string. When using subgroups (see below), and in a [text search](javascript:call_link\('abenregex_posix_search.htm'\)), r\* matches the longest possible substring (greedy behavior).
+-   The regular expression r\* is equivalent to r{0,}, in other words a chaining of r of any length, including the empty character string. When using subgroups (see below), and in a [text search](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_posix_search.htm), r\* matches the longest possible substring (greedy behavior).
 -   The regular expression r+ is equivalent to r{1,}, in other words a chaining of any length of r excluding the empty character string. When using subgroups, and in a text search, r+ matches the longest possible substring (greedy behavior).
 -   The regular expressions r{n,m}?, r\*? and r+? are reserved for future language enhancements (economical behavior) and currently raise the exception CX\_SY\_INVALID\_REGEX.
 
@@ -79,7 +83,7 @@ For a regular expression with chaining operators, the primary rule is that the e
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_mtch.htm).
 
 pattern
 
@@ -149,7 +153,7 @@ Chainings and other operators form a stronger bond than |, in other words r|st a
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_mtch.htm).
 
 Pattern
 
@@ -191,7 +195,7 @@ The greedy behavior of chaining operators mentioned above also applies to subgro
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_mtch.htm).
 
 Pattern
 
@@ -221,18 +225,18 @@ In the first expression, the chaining with the operator + affects the literal ch
 
 Subgroups with Registration   
 
-In addition to its effect on creating subgroups, the operator ( ... ) also stores the substrings when matching the regular expression to a character string in the correct order in subgroup registers. The subgroups ( ... ) of the expression match these substrings. In this process, an operator \\1, \\2, \\3, ... is assigned to each subgroup, which can be specified within the expression after its subgroup and acts as a placeholder for the character string stored in the corresponding register. In [text replacements](javascript:call_link\('abenregex_posix_replace.htm'\)), the special characters $1, $2, $3, ... can be used to access the last assignment of the register.
+In addition to its effect on creating subgroups, the operator ( ... ) also stores the substrings when matching the regular expression to a character string in the correct order in subgroup registers. The subgroups ( ... ) of the expression match these substrings. In this process, an operator \\1, \\2, \\3, ... is assigned to each subgroup, which can be specified within the expression after its subgroup and acts as a placeholder for the character string stored in the corresponding register. In [text replacements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_posix_replace.htm), the special characters $1, $2, $3, ... can be used to access the last assignment of the register.
 
 The number of subgroups and registers is only limited by the capacity of the platform.
 
 Hints
 
--   The addition SUBMATCHES of the statements [FIND](javascript:call_link\('abapfind.htm'\)) and [REPLACE](javascript:call_link\('abapreplace.htm'\)) and the identically named column of the results table filled using the addition RESULTS can be used to access the content of all subgroup registers for an occurrence. The class CL\_ABAP\_MATCHER contains the method GET\_SUBMATCH for this purpose.
+-   The addition SUBMATCHES of the statements [FIND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind.htm) and [REPLACE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace.htm) and the identically named column of the results table filled using the addition RESULTS can be used to access the content of all subgroup registers for an occurrence. The class CL\_ABAP\_MATCHER contains the method GET\_SUBMATCH for this purpose.
 -   If only grouping is required and no substrings are to be stored in registers, the operator (?: ... ) can be used instead of ( ... ). With respect to the formation of subgroups, both operators have the same effect. However (?: ... ) does not save anything in registers.
 
 Examples
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_mtch.htm).
 
 Pattern
 
@@ -274,7 +278,7 @@ Literal Characters  
 
 The operators \\Q ... \\E form a character string of literal characters from all enclosed characters. Special characters are ignored in this character string.
 
-The following table shows some results from a [matching](javascript:call_link\('abenregex_mtch.htm'\)).
+The following table shows some results from a [matching](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_mtch.htm).
 
 pattern
 
@@ -302,4 +306,4 @@ X
 
 Reserved Enhancements   
 
-The character string (? ... ) is generally reserved for later language enhancements. Apart from the operators already supported (?:... ), [(?=... )](javascript:call_link\('abenregex_posix_search.htm'\)), [(?!... )](javascript:call_link\('abenregex_posix_search.htm'\)), and [(?> ... )](javascript:call_link\('abenregex_posix_search.htm'\)), this string raises the exception CX\_SY\_INVALID\_REGEX.
+The character string (? ... ) is generally reserved for later language enhancements. Apart from the operators already supported (?:... ), [(?=... )](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_posix_search.htm), [(?!... )](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_posix_search.htm), and [(?> ... )](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_posix_search.htm), this string raises the exception CX\_SY\_INVALID\_REGEX.

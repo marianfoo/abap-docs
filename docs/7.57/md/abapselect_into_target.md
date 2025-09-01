@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenabap_sql_reading.htm'\)) →  [SELECT, clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT, INTO, APPENDING](javascript:call_link\('abapinto_clause.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql.htm) →  [ABAP SQL - Read Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_reading.htm) →  [SELECT, clauses](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_clauses.htm) →  [SELECT, INTO, APPENDING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SELECT, INTO target, ABAPSELECT_INTO_TARGET, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%
 0D%0ASuggestion for improvement:)
 
 SELECT, INTO target
 
-[Short Reference](javascript:call_link\('abapselect_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_shortref.htm)
 
 Syntax
 
@@ -29,7 +29,7 @@ Alternatives:
 
 Effect
 
-Specifies a target area of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause of an ABAP SQL query. The possible target areas of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause are as follows:
+Specifies a target area of the [INTO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm) clause of an ABAP SQL query. The possible target areas of the [INTO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm) clause are as follows:
 
 -   Elementary data objects elem1, elem2, ... in a comma-separated list.
 -   Individual work areas, wa.
@@ -38,19 +38,19 @@ Specifies a target area of the [INTO](javascript:call_link\('abapinto_clause.htm
 Each target area can be specified as follows:
 
 -   If the addition NEW is not used, dobj specifies the data object directly to which the data from the result set is written. The target area is one of the following:
-    -   A previously declared [host variable](javascript:call_link\('abenhost_variable_glosry.htm'\) "Glossary Entry") @dobj
-    -   A [host variable](javascript:call_link\('abenhost_variable_glosry.htm'\) "Glossary Entry") dobj declared [inline](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry") using @DATA
+    -   A previously declared [host variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_variable_glosry.htm "Glossary Entry") @dobj
+    -   A [host variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_variable_glosry.htm "Glossary Entry") dobj declared [inline](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninline_declaration_glosry.htm "Glossary Entry") using @DATA
 
-The addition NEW is used to create an [anonymous data object](javascript:call_link\('abenanonymous_data_object_glosry.htm'\) "Glossary Entry") to which data from the result set is written and to which a [data reference variable](javascript:call_link\('abendata_reference_variable_glosry.htm'\) "Glossary Entry") dref points. The data reference variable is one of the following:
+The addition NEW is used to create an [anonymous data object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenanonymous_data_object_glosry.htm "Glossary Entry") to which data from the result set is written and to which a [data reference variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_reference_variable_glosry.htm "Glossary Entry") dref points. The data reference variable is one of the following:
 
--   A previously declared [host variable](javascript:call_link\('abenhost_variable_glosry.htm'\) "Glossary Entry") @dref
--   A [host variable](javascript:call_link\('abenhost_variable_glosry.htm'\) "Glossary Entry") dref declared [inline](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry") using @DATA
+-   A previously declared [host variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_variable_glosry.htm "Glossary Entry") @dref
+-   A [host variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_variable_glosry.htm "Glossary Entry") dref declared [inline](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninline_declaration_glosry.htm "Glossary Entry") using @DATA
 
 All alternatives can occur combined in a comma-separated list for elementary data objects as target areas. One of these alternatives must be selected when a single work area or an internal table is specified.
 
 Hint
 
-In the case of the variant NEW @DATA(dref)*|*@FINAL(dref), the [SELECT list](javascript:call_link\('abapselect_list.htm'\)), the [FROM clause](javascript:call_link\('abapfrom_clause.htm'\)), and any [indicators](javascript:call_link\('abapselect_indicators.htm'\)) can be specified dynamically. This is the only way of combining a dynamically defined result set with inline declarations. The same applies to inline declarations after [FETCH](javascript:call_link\('abapfetch.htm'\)).
+In the case of the variant NEW @DATA(dref)*|*@FINAL(dref), the [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm), the [FROM clause](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfrom_clause.htm), and any [indicators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_indicators.htm) can be specified dynamically. This is the only way of combining a dynamically defined result set with inline declarations. The same applies to inline declarations after [FETCH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch.htm).
 
 Alternative 1   
 
@@ -58,13 +58,13 @@ Alternative 1  
 
 Effect
 
-Specifies a previously declared [host variable](javascript:call_link\('abenabap_sql_host_variables.htm'\)) @dobj as a target area of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause. The data in the result set is written directly to the host variable dobj. Depending on the operand position, the host variable can be one of the following:
+Specifies a previously declared [host variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_host_variables.htm) @dobj as a target area of the [INTO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm) clause. The data in the result set is written directly to the host variable dobj. Depending on the operand position, the host variable can be one of the following:
 
--   In the comma-separated list elem1, elem2, ..., an [elementary data object](javascript:call_link\('abenelementary_data_object_glosry.htm'\) "Glossary Entry") that matches the type of the associated column of the result set or whose data type can be converted to from the type of the associated column of the result set.
--   As a single work area wa, a data object that meets the [prerequisites](javascript:call_link\('abenabap_sql_wa.htm'\)).
--   As an internal table, any table category whose row structure meets the [prerequisites](javascript:call_link\('abenabap_sql_wa.htm'\)).
+-   In the comma-separated list elem1, elem2, ..., an [elementary data object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenelementary_data_object_glosry.htm "Glossary Entry") that matches the type of the associated column of the result set or whose data type can be converted to from the type of the associated column of the result set.
+-   As a single work area wa, a data object that meets the [prerequisites](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_wa.htm).
+-   As an internal table, any table category whose row structure meets the [prerequisites](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_wa.htm).
 
-Writes to the host variable are made as described in the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause.
+Writes to the host variable are made as described in the [INTO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm) clause.
 
 Example
 
@@ -94,49 +94,49 @@ Alternative 2  
 
 Effect
 
-Specifies a [host variable](javascript:call_link\('abenabap_sql_host_variables.htm'\)) @dobj declared inline as the target area of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause. The data in the result set is written directly to the host variable dobj. The inline declaration is made with one of the [declaration operators](javascript:call_link\('abendeclaration_operator_glosry.htm'\) "Glossary Entry") [DATA](javascript:call_link\('abendata_inline.htm'\)) or [FINAL](javascript:call_link\('abenfinal_inline.htm'\)), which must be prefixed with the escape character @ here. Depending on the operand position, the host variable is declared as follows:
+Specifies a [host variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_host_variables.htm) @dobj declared inline as the target area of the [INTO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm) clause. The data in the result set is written directly to the host variable dobj. The inline declaration is made with one of the [declaration operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendeclaration_operator_glosry.htm "Glossary Entry") [DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_inline.htm) or [FINAL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfinal_inline.htm), which must be prefixed with the escape character @ here. Depending on the operand position, the host variable is declared as follows:
 
 -   In the comma-separated list elem1, elem2, ..., an elementary variable is declared. The data type of the variables is constructed as follows from the associated column of the result set:
-    -   The ABAP type to which the dictionary type of a [column](javascript:call_link\('abenabap_sql_columns.htm'\)) of a data source is [assigned](javascript:call_link\('abenddic_builtin_types.htm'\)) is used for this column.
-    -   The ABAP type to which the result type of an [SQL expression](javascript:call_link\('abapsql_expr.htm'\)) is [assigned](javascript:call_link\('abenddic_builtin_types.htm'\)) is used for this expression.
-    -   The ABAP type of a [host variable](javascript:call_link\('abenabap_sql_host_variables.htm'\)) is used directly for this variable specified as a single SQL expression.
+    -   The ABAP type to which the dictionary type of a [column](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_columns.htm) of a data source is [assigned](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm) is used for this column.
+    -   The ABAP type to which the result type of an [SQL expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) is [assigned](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_builtin_types.htm) is used for this expression.
+    -   The ABAP type of a [host variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_host_variables.htm) is used directly for this variable specified as a single SQL expression.
 -   Work area and internal table:
     
     -   For INTO @DATA(wa) or INTO @FINAL(wa), a flat data object wa is declared as a single work area.
-    -   For INTO TABLE @DATA(itab) or INTO TABLE @FINAL(itab), a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") itab with an [empty table key](javascript:call_link\('abenitab_empty_key.htm'\)) is declared as an internal table.
+    -   For INTO TABLE @DATA(itab) or INTO TABLE @FINAL(itab), a [standard table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_table_glosry.htm "Glossary Entry") itab with an [empty table key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_empty_key.htm) is declared as an internal table.
     
-    The data type of wa or the row type of the internal table are constructed as follows in accordance with the structure of the result set defined after SELECT and the number of data sources specified after [FROM](javascript:call_link\('abapfrom_clause.htm'\)):
+    The data type of wa or the row type of the internal table are constructed as follows in accordance with the structure of the result set defined after SELECT and the number of data sources specified after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfrom_clause.htm):
     
-    -   If the result set in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) is defined using a single specified column [col\_spec](javascript:call_link\('abapselect_clause_col_spec.htm'\)) for which no name can be identified, the data type of wa or the row type of itab is its elementary type.
-    -   If the result set in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) is defined using a single specified column [col\_spec](javascript:call_link\('abapselect_clause_col_spec.htm'\)) for which no name can be identified, the data type of wa or the row type of itab is a structure with a component, with its elementary type.
-    -   If the result set in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) is defined using a single data\_source~\* or a list of multiple specified columns [col\_spec](javascript:call_link\('abapselect_clause_col_spec.htm'\)), the data type of wa or the row type of itab is a structure with elementary components. The data types of the components are the elementary types of the columns in the result set in the order defined there.
-    -   If data\_source~\* is specified in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) together with other elements, the data type of wa or the row type of itab is a nested structure. For each data source [data\_source](javascript:call_link\('abapselect_data_source.htm'\)) specified in this way, a substructure is generated with the name or alias name of the table or view. The data types of the components of the substructures are the elementary types of the data source in the order defined there. If the data source is a [common table expression](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry") declared using [WITH](javascript:call_link\('abapwith.htm'\)), the first character + of its name is ignored for the name of the substructure.
-    -   If the result set in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) is defined using \*, the data type depends on the number of [data sources](javascript:call_link\('abapselect_data_source.htm'\)) specified after [FROM](javascript:call_link\('abapfrom_clause.htm'\)):
+    -   If the result set in the [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm) is defined using a single specified column [col\_spec](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_clause_col_spec.htm) for which no name can be identified, the data type of wa or the row type of itab is its elementary type.
+    -   If the result set in the [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm) is defined using a single specified column [col\_spec](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_clause_col_spec.htm) for which no name can be identified, the data type of wa or the row type of itab is a structure with a component, with its elementary type.
+    -   If the result set in the [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm) is defined using a single data\_source~\* or a list of multiple specified columns [col\_spec](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_clause_col_spec.htm), the data type of wa or the row type of itab is a structure with elementary components. The data types of the components are the elementary types of the columns in the result set in the order defined there.
+    -   If data\_source~\* is specified in the [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm) together with other elements, the data type of wa or the row type of itab is a nested structure. For each data source [data\_source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_data_source.htm) specified in this way, a substructure is generated with the name or alias name of the table or view. The data types of the components of the substructures are the elementary types of the data source in the order defined there. If the data source is a [common table expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") declared using [WITH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwith.htm), the first character + of its name is ignored for the name of the substructure.
+    -   If the result set in the [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm) is defined using \*, the data type depends on the number of [data sources](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_data_source.htm) specified after [FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfrom_clause.htm):
         
-        In reads from a single [data source](javascript:call_link\('abapselect_data_source.htm'\)) data\_source, the data type of wa or the row type of itab is the same as in a definition of the result set using a single data\_source~\* (see above), that is, a structure with elementary components.
+        In reads from a single [data source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_data_source.htm) data\_source, the data type of wa or the row type of itab is the same as in a definition of the result set using a single data\_source~\* (see above), that is, a structure with elementary components.
         
-        In reads from multiple [data sources](javascript:call_link\('abapselect_data_source.htm'\)) data\_source1, data\_source2, ... using a [join](javascript:call_link\('abapselect_join.htm'\)), the data type of wa or the row type of itab is the same as in a definition of the result set using data\_source1~\*, data\_source2~\*, .... (see above), that is, a structure with a substructure for each data source.
+        In reads from multiple [data sources](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_data_source.htm) data\_source1, data\_source2, ... using a [join](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_join.htm), the data type of wa or the row type of itab is the same as in a definition of the result set using data\_source1~\*, data\_source2~\*, .... (see above), that is, a structure with a substructure for each data source.
         
-    -   The names of the elementary components of a structure match the names of the associated columns from the [result set](javascript:call_link\('abapselect_list.htm'\)). Any alias names defined there are respected.
+    -   The names of the elementary components of a structure match the names of the associated columns from the [result set](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm). Any alias names defined there are respected.
     -   As with an elementary data object in a comma-separated list, the elementary data type of an elementary data object or of an elementary component of a structure is constructed from the type of the associated column of the result set (see above).
-    -   If the addition [INDICATORS](javascript:call_link\('abapselect_indicators.htm'\)) is used, a substructure called null\_ind is added at the end of the structure or row structure declared inline. For each column in the result set, this substructure contains an identically named component of type x and length 1 in the same order. If preceding components of the structure declared inline are substructures, the substructure null\_ind is also structured accordingly.
+    -   If the addition [INDICATORS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_indicators.htm) is used, a substructure called null\_ind is added at the end of the structure or row structure declared inline. For each column in the result set, this substructure contains an identically named component of type x and length 1 in the same order. If preceding components of the structure declared inline are substructures, the substructure null\_ind is also structured accordingly.
 
 The prerequisites for an inline declaration are as follows:
 
--   The result set can be specified dynamically only when combined with the addition NEW. If the addition NEW is not specified, the structure of the result set must be known statically. The [SELECT list](javascript:call_link\('abapselect_list.htm'\)) and any [indicators](javascript:call_link\('abapselect_indicators.htm'\)) must be specified statically.
--   After [FETCH](javascript:call_link\('abapfetch.htm'\)), an inline declaration can only be made together with the addition NEW.
--   The result set defined in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) cannot have multiple columns with the same name. This can be bypassed using alias names.
--   In a [result set](javascript:call_link\('abapselect_list.htm'\)) with multiple rows or if the addition [INDICATORS](javascript:call_link\('abapselect_indicators.htm'\)) is specified, every [SQL expression](javascript:call_link\('abapsql_expr.htm'\)) and every [aggregate expression](javascript:call_link\('abapselect_aggregate.htm'\)) must have an alias name.
--   Alias names of the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) must comply with the [naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) for internal program names. More specifically, they cannot contain a minus sign \-.
--   If the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)) is used to access a client-dependent [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"), a name must be specified for the client column at the same time.
--   The addition [CORRESPONDING FIELDS OF](javascript:call_link\('abapinto_clause.htm'\)) cannot be used.
+-   The result set can be specified dynamically only when combined with the addition NEW. If the addition NEW is not specified, the structure of the result set must be known statically. The [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm) and any [indicators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_indicators.htm) must be specified statically.
+-   After [FETCH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch.htm), an inline declaration can only be made together with the addition NEW.
+-   The result set defined in the [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm) cannot have multiple columns with the same name. This can be bypassed using alias names.
+-   In a [result set](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm) with multiple rows or if the addition [INDICATORS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_indicators.htm) is specified, every [SQL expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) and every [aggregate expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_aggregate.htm) must have an alias name.
+-   Alias names of the [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm) must comply with the [naming conventions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennaming_conventions.htm) for internal program names. More specifically, they cannot contain a minus sign \-.
+-   If the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_client_obsolete.htm) is used to access a client-dependent [CDS entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_glosry.htm "Glossary Entry"), a name must be specified for the client column at the same time.
+-   The addition [CORRESPONDING FIELDS OF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm) cannot be used.
 
 Hints
 
 -   Column specifications for which no name can be identified are SQL expressions and aggregate expressions without alias name.
 -   When an inline declaration @DATA(itab) or @FINAL(itab) is specified after APPENDING TABLE, this addition usually works like INTO TABLE and is therefore pointless in this combination.
--   When inline declarations are used, the syntax check is performed in a [strict mode](javascript:call_link\('abenabap_sql_strictmode_740_sp08.htm'\)), which handles the statement more strictly than the regular syntax check.
--   Currently, only standard tables with empty key and no secondary keys can be declared inline as internal tables in the INTO clause of a SELECT statement. Therefore, this kind of inline declaration is only [suitable](javascript:call_link\('abenselect_table_type_guidl.htm'\) "Guideline") for tables, which are mainly accessed by an index. If key accesses are important, the internal table should not be declared inline but with a declaration statement and with an appropriate key.
+-   When inline declarations are used, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_strictmode_740_sp08.htm), which handles the statement more strictly than the regular syntax check.
+-   Currently, only standard tables with empty key and no secondary keys can be declared inline as internal tables in the INTO clause of a SELECT statement. Therefore, this kind of inline declaration is only [suitable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_table_type_guidl.htm "Guideline") for tables, which are mainly accessed by an index. If key accesses are important, the internal table should not be declared inline but with a declaration statement and with an appropriate key.
 
 Example
 
@@ -186,7 +186,7 @@ cl\_demo\_output=>display( CONV output( itab ) ).
 
 Executable Example
 
-[Inline Declarations](javascript:call_link\('abenselect_inline_decl_abexa.htm'\))
+[Inline Declarations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_inline_decl_abexa.htm)
 
 Alternative 3   
 
@@ -194,41 +194,41 @@ Alternative 3  
 
 Effect
 
-The addition NEW creates an [anonymous data object](javascript:call_link\('abenanonymous_data_object_glosry.htm'\) "Glossary Entry") as the target area of the [INTO clause](javascript:call_link\('abapinto_clause.htm'\)). dref expects a previously declared [data reference variable](javascript:call_link\('abendata_reference_variable_glosry.htm'\) "Glossary Entry") that points to the data object after the object is created. The data of the result set is written to the new anonymous data object. The data reference variable dref can be typed completely or generically.
+The addition NEW creates an [anonymous data object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenanonymous_data_object_glosry.htm "Glossary Entry") as the target area of the [INTO clause](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm). dref expects a previously declared [data reference variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_reference_variable_glosry.htm "Glossary Entry") that points to the data object after the object is created. The data of the result set is written to the new anonymous data object. The data reference variable dref can be typed completely or generically.
 
--   If the data reference variable dref is typed completely, its [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") must follow the same rules as for a directly specified data object @dobj:
+-   If the data reference variable dref is typed completely, its [static type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_type_glosry.htm "Glossary Entry") must follow the same rules as for a directly specified data object @dobj:
     
     -   In a comma-separated list (..., dref, ...), it must be an elementary data type to which the type of the associated column of the result set can be converted.
-    -   In a single work area wa, the type must meet the [prerequisites](javascript:call_link\('abenabap_sql_wa.htm'\)) for work areas.
-    -   In an internal table, it must be a table type with any table category whose row structure meets the [prerequisites](javascript:call_link\('abenabap_sql_wa.htm'\)).
+    -   In a single work area wa, the type must meet the [prerequisites](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_wa.htm) for work areas.
+    -   In an internal table, it must be a table type with any table category whose row structure meets the [prerequisites](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_wa.htm).
     
-    The anonymous data object is created with the type of the data reference variable. The [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") of the data reference variable matches the [dynamic type](javascript:call_link\('abendynamic_type_glosry.htm'\) "Glossary Entry"). Writes to the anonymous data object are made as described in the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause.
+    The anonymous data object is created with the type of the data reference variable. The [static type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_type_glosry.htm "Glossary Entry") of the data reference variable matches the [dynamic type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynamic_type_glosry.htm "Glossary Entry"). Writes to the anonymous data object are made as described in the [INTO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm) clause.
     
--   If the data reference variable dref is typed generically with [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\)), the data type of the anonymous data object or the [dynamic type](javascript:call_link\('abendynamic_type_glosry.htm'\) "Glossary Entry") of dref is constructed depending on the operand position in exactly the same way as the data type of dobj in the inline declaration @DATA*|*FINAL(dobj) described above. This means the following:
+-   If the data reference variable dref is typed generically with [data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_types_generic.htm), the data type of the anonymous data object or the [dynamic type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynamic_type_glosry.htm "Glossary Entry") of dref is constructed depending on the operand position in exactly the same way as the data type of dobj in the inline declaration @DATA*|*FINAL(dobj) described above. This means the following:
     
     -   In a comma-separated list (..., dref, ...), an elementary data object is created whose type is determined by the type of the associated column of the result set.
     -   For a single work area in INTO NEW @dref, a flat data object is created. The type of the new data object is constructed in the same way as in an inline declaration using @DATA*|*FINAL(dobj).
-    -   For INTO TABLE NEW @dref, a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with an [empty table key](javascript:call_link\('abenitab_empty_key.htm'\)) is created as an internal table. The row type of the internal table is constructed in the same way as in an inline declaration using @DATA*|*FINAL(dobj).
+    -   For INTO TABLE NEW @dref, a [standard table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_table_glosry.htm "Glossary Entry") with an [empty table key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_empty_key.htm) is created as an internal table. The row type of the internal table is constructed in the same way as in an inline declaration using @DATA*|*FINAL(dobj).
     
-    The anonymous data object is created with this type. The [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") of the data reference variable is more general than the [dynamic type](javascript:call_link\('abendynamic_type_glosry.htm'\) "Glossary Entry"). Writes to the anonymous data object are made as described in the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause. The columns of the result set defined in the SELECT list must have unique names.
+    The anonymous data object is created with this type. The [static type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_type_glosry.htm "Glossary Entry") of the data reference variable is more general than the [dynamic type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynamic_type_glosry.htm "Glossary Entry"). Writes to the anonymous data object are made as described in the [INTO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm) clause. The columns of the result set defined in the SELECT list must have unique names.
     
 
 Unlike in inline declarations with @DATA|FINAL(dobj), the type of the anonymous data object can also be created at runtime. This means that the addition NEW can also be specified in the following cases:
 
 -   If the structure of the result set cannot be known statically due to the use of dynamic tokens.
--   After [FETCH](javascript:call_link\('abapfetch.htm'\)).
+-   After [FETCH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch.htm).
 
 If possible, the type check takes place as part of the syntax check and otherwise at runtime. If an error is not detected until runtime, an exception of the class CX\_SY\_DYNAMIC\_OSQL\_SEMANTICS is raised.
 
 The following restrictions apply:
 
--   The addition NEW can only be specified after [INTO](javascript:call_link\('abapinto_clause.htm'\)) and not after [APPENDING](javascript:call_link\('abapinto_clause.htm'\)).
--   If multiple [FETCH](javascript:call_link\('abapfetch.htm'\)) statements access a database cursor opened using [OPEN CURSOR](javascript:call_link\('abapopen_cursor.htm'\)), a data reference variable used after NEW can be typed generically only if the first of these FETCH statements has the addition NEW with a generically typed data reference variable in the appropriate operand position.
+-   The addition NEW can only be specified after [INTO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm) and not after [APPENDING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinto_clause.htm).
+-   If multiple [FETCH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch.htm) statements access a database cursor opened using [OPEN CURSOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_cursor.htm), a data reference variable used after NEW can be typed generically only if the first of these FETCH statements has the addition NEW with a generically typed data reference variable in the appropriate operand position.
 
 Hints
 
--   The addition NEW works in a similar way as creating an anonymous data object with the [instance operator](javascript:call_link\('abeninstance_operator_glosry.htm'\) "Glossary Entry") [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) directly in front of the ABAP SQL statement and using the dereferenced reference variable as a target area. The addition NEW has the advantage that the data type of the anonymous data object is constructed in a suitable way and this works especially for dynamic tokens as well.
--   If the addition NEW is used, the syntax check is performed in [strict mode from Release 7.54](javascript:call_link\('abenabap_sql_strictmode_754.htm'\)).
+-   The addition NEW works in a similar way as creating an anonymous data object with the [instance operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninstance_operator_glosry.htm "Glossary Entry") [NEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_new.htm) directly in front of the ABAP SQL statement and using the dereferenced reference variable as a target area. The addition NEW has the advantage that the data type of the anonymous data object is constructed in a suitable way and this works especially for dynamic tokens as well.
+-   If the addition NEW is used, the syntax check is performed in [strict mode from Release 7.54](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_strictmode_754.htm).
 
 Example
 
@@ -282,7 +282,7 @@ ASSERT dref->\* =  itab.
 
 Example
 
-As in the previous example, but after [FETCH](javascript:call_link\('abapfetch.htm'\)) and with a dynamically specified SELECT list and the FROM clause after [OPEN CURSOR](javascript:call_link\('abapopen_cursor.htm'\)). In this case, it is not possible to make a direct inline declaration of the target area in the INTO clause. It is, however, possible to use the addition NEW.
+As in the previous example, but after [FETCH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch.htm) and with a dynamically specified SELECT list and the FROM clause after [OPEN CURSOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_cursor.htm). In this case, it is not possible to make a direct inline declaration of the target area in the INTO clause. It is, however, possible to use the addition NEW.
 
 FINAL(cols) = \`\*\`.
 FINAL(from) = \`scarr INNER JOIN spfli ON scarr~carrid = spfli~carrid\`.
@@ -304,16 +304,16 @@ Alternative 4  
 
 Effect
 
-The addition NEW in front of an inline declaration with the [declaration operators](javascript:call_link\('abendeclaration_operator_glosry.htm'\) "Glossary Entry") [@DATA](javascript:call_link\('abendata_inline.htm'\)) or [@FINAL](javascript:call_link\('abenfinal_inline.htm'\)) works like the previous variant, however the data reference variable dref that points to the new anonymous data object is declared inline. The [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") of the data reference variable dref is defined as follows:
+The addition NEW in front of an inline declaration with the [declaration operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendeclaration_operator_glosry.htm "Glossary Entry") [@DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_inline.htm) or [@FINAL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfinal_inline.htm) works like the previous variant, however the data reference variable dref that points to the new anonymous data object is declared inline. The [static type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_type_glosry.htm "Glossary Entry") of the data reference variable dref is defined as follows:
 
 -   If the data type of the new anonymous data object is known statically, dref is also typed with this type.
--   If the data type of the new anonymous data object cannot be known until runtime, dref is typed with the generic type [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\)). This is the case when the structure of the result set is not known statically due to the use of dynamic tokens and in inline declarations after [FETCH](javascript:call_link\('abapfetch.htm'\)).
+-   If the data type of the new anonymous data object cannot be known until runtime, dref is typed with the generic type [data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_types_generic.htm). This is the case when the structure of the result set is not known statically due to the use of dynamic tokens and in inline declarations after [FETCH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch.htm).
 
-The columns of the result set defined in the SELECT list must have unique names. If multiple [FETCH](javascript:call_link\('abapfetch.htm'\)) statements access a database cursor opened using [OPEN CURSOR](javascript:call_link\('abapopen_cursor.htm'\)), NEW and an inline declaration can be used only if this is also the case in the first of these FETCH statements in the corresponding operand position.
+The columns of the result set defined in the SELECT list must have unique names. If multiple [FETCH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch.htm) statements access a database cursor opened using [OPEN CURSOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_cursor.htm), NEW and an inline declaration can be used only if this is also the case in the first of these FETCH statements in the corresponding operand position.
 
 Hint
 
-The addition NEW can also be used to make an inline declaration together with dynamic tokens and after [FETCH](javascript:call_link\('abapfetch.htm'\)). The data reference variable that points to the target area created as an anonymous data object is declared, however, instead of the direct target area.
+The addition NEW can also be used to make an inline declaration together with dynamic tokens and after [FETCH](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfetch.htm). The data reference variable that points to the target area created as an anonymous data object is declared, however, instead of the direct target area.
 
 Example
 
@@ -346,10 +346,10 @@ cl\_demo\_output=>new(
 
 Executable Examples
 
--   [Create Structure as Target Area](javascript:call_link\('abenselect_into_new_wa_abexa.htm'\))
--   [Create Internal Table as Target Area](javascript:call_link\('abenselect_into_new_table_abexa.htm'\))
+-   [Create Structure as Target Area](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_into_new_wa_abexa.htm)
+-   [Create Internal Table as Target Area](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_into_new_table_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [SELECT, Inline Declarations](javascript:call_link\('abenselect_inline_decl_abexa.htm'\))
-![Example](exa.gif "Example") [SELECT, Create Structure as Target Area](javascript:call_link\('abenselect_into_new_wa_abexa.htm'\))
-![Example](exa.gif "Example") [SELECT, Create Internal Table as Target Area](javascript:call_link\('abenselect_into_new_table_abexa.htm'\))
+![Example](exa.gif "Example") [SELECT, Inline Declarations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_inline_decl_abexa.htm)
+![Example](exa.gif "Example") [SELECT, Create Structure as Target Area](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_into_new_wa_abexa.htm)
+![Example](exa.gif "Example") [SELECT, Create Internal Table as Target Area](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_into_new_table_abexa.htm)

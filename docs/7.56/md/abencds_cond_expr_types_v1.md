@@ -4,18 +4,19 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - DDIC-Based Entities](javascript:call_link\('abencds_ddic_entity.htm'\)) →  [ABAP CDS - DDIC-Based Views](javascript:call_link\('abencds_v1_views.htm'\)) →  [CDS DDL - DEFINE VIEW ddic\_based](javascript:call_link\('abencds_define_view_v1.htm'\)) →  [CDS DDL - DDIC-based View, SELECT](javascript:call_link\('abencds_select_statement_v1.htm'\)) →  [CDS DDL - DDIC-based View, SELECT, Operands and Expressions](javascript:call_link\('abencds_operands_and_expr_v1.htm'\)) →  [CDS DDL - DDIC-Based View, cds\_cond](javascript:call_link\('abencds_conditional_expression_v1.htm'\)) →  [CDS DDL - DDIC-based View, cds\_cond, Comparison Operators](javascript:call_link\('abencds_cond_expr_comp_v1.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_entity.htm) →  [ABAP CDS - DDIC-Based Entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-based View, SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-based View, SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_operands_and_expr_v1.htm) →  [CDS DDL - DDIC-Based View, cds\_cond](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conditional_expression_v1.htm) →  [CDS DDL - DDIC-based View, cds\_cond, Comparison Operators](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_comp_v1.htm) → 
 
 CDS DDL - DDIC-based View, cds\_cond, Comparable Types
 
-The following tables show which [built-in data types](javascript:call_link\('abenddic_builtin_types.htm'\)) in ABAP Dictionary can be compared with each other in a [condition](javascript:call_link\('abencds_conditional_expression_v1.htm'\)) of a [CDS DDIC-based view](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry").
+The following tables show which [built-in data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) in ABAP Dictionary can be compared with each other in a [condition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conditional_expression_v1.htm) of a [CDS DDIC-based view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_view_glosry.htm "Glossary Entry").
 
--   [Comparisons with Fields of Data Sources](#abencds-cond-expr-types-v1-1-------comparisons-with-parameters---@ITOC@@ABENCDS_COND_EXPR_TYPES_V1_2)
+-   [Comparisons with Fields of Data Sources](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V1_1)
+-   [Comparisons with Parameters](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V1_2)
 -   [Comparisons with literals](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V1_3)
 
 Comparisons with Fields of Data Sources
 
-The following table shows the possible combinations of data source fields [data\_source](javascript:call_link\('abencds_data_source_v1.htm'\)) on the left side (lhs) with data source fields on the right side (rhs) of [comparisons](javascript:call_link\('abencds_cond_expr_comp_v1.htm'\)).
+The following table shows the possible combinations of data source fields [data\_source](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_data_source_v1.htm) on the left side (lhs) with data source fields on the right side (rhs) of [comparisons](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_comp_v1.htm).
 
 lhs/rhs
 
@@ -1272,7 +1273,7 @@ l
 
 Comparisons with Parameters
 
-The following table shows the possible combinations of data source fields [data\_source](javascript:call_link\('abencds_data_source_v1.htm'\)) on the left side (lhs) with [parameters](javascript:call_link\('abencds_parameter_v1.htm'\)) on the right side (rhs) of [comparisons](javascript:call_link\('abencds_cond_expr_comp_v1.htm'\)).
+The following table shows the possible combinations of data source fields [data\_source](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_data_source_v1.htm) on the left side (lhs) with [parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_parameter_v1.htm) on the right side (rhs) of [comparisons](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_comp_v1.htm).
 
 lhs/rhs
 
@@ -2529,7 +2530,7 @@ l
 
 Comparisons with literals
 
-The following table shows the possible combinations of data source fields [data\_source](javascript:call_link\('abencds_data_source_v1.htm'\)) on the left side (lhs) with [literals](javascript:call_link\('abencds_literal_v1.htm'\)) on the right side (rhs) of [comparisons](javascript:call_link\('abencds_cond_expr_comp_v1.htm'\)). The data types of literals are determined by their content (as described [here](javascript:call_link\('abencds_literal_v1.htm'\))) and only the data types shown in the table are possible.
+The following table shows the possible combinations of data source fields [data\_source](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_data_source_v1.htm) on the left side (lhs) with [literals](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_literal_v1.htm) on the right side (rhs) of [comparisons](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_comp_v1.htm). The data types of literals are determined by their content (as described [here](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_literal_v1.htm)) and only the data types shown in the table are possible.
 
 lhs/rhs
 

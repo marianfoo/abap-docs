@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 data reference
 
-[Reference](javascript:call_link\('abenreference_glosry.htm'\) "Glossary Entry") that points to a [data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry") or a part of a data object. A non-initial data reference can be a [heap reference](javascript:call_link\('abenheap_reference_glosry.htm'\) "Glossary Entry") or a [stack reference](javascript:call_link\('abenstack_reference_glosry.htm'\) "Glossary Entry").
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_glosry.htm "Glossary Entry") that points to a [data object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_object_glosry.htm "Glossary Entry") or a part of a data object. A non-initial data reference can be a [heap reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenheap_reference_glosry.htm "Glossary Entry") or a [stack reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstack_reference_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abendata_reference_type.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_reference_type.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Access Control](javascript:call_link\('abencds_authorizations.htm'\)) →  [ABAP CDS - DCL Statements](javascript:call_link\('abencds_f1_dcl_syntax.htm'\)) →  [ABAP CDS - DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) →  [ABAP CDS - DEFINE ROLE, condition](javascript:call_link\('abencds_dcl_role_conditions.htm'\)) →  [ABAP CDS - DEFINE ROLE, pfcg\_condition](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds.htm) →  [ABAP CDS - Access Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_authorizations.htm) →  [ABAP CDS - DCL Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_syntax.htm) →  [ABAP CDS - DEFINE ROLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_role.htm) →  [ABAP CDS - DEFINE ROLE, condition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_dcl_role_conditions.htm) →  [ABAP CDS - DEFINE ROLE, pfcg\_condition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_cond_pfcg.htm) → 
 
 ABAP CDS - DEFINE ROLE, pfcg\_mapping
 
@@ -16,19 +16,19 @@ Syntax
 
 Effect
 
-Associates an element list specified in curly brackets { element1*\[*, element2 ...*\]* } with a [PFCG mapping](javascript:call_link\('abencds_pfcg_mapping_glosry.htm'\) "Glossary Entry") pfcg\_mapping in the definition of a [PFCG condition](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)).
+Associates an element list specified in curly brackets { element1*\[*, element2 ...*\]* } with a [PFCG mapping](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_pfcg_mapping_glosry.htm "Glossary Entry") pfcg\_mapping in the definition of a [PFCG condition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_cond_pfcg.htm).
 
--   The element list of the left side is a comma-separated list of one or more directly specified [CDS elements](javascript:call_link\('abencds_element_glosry.htm'\) "Glossary Entry") of the CDS entity for which the access condition is defined. An element element cannot be specified here using a path expression [path\_expr](javascript:call_link\('abencds_f1_path_expression.htm'\)) and must have one of the valid [data types](javascript:call_link\('abencds_f1_dcl_cond_data_types.htm'\)).
+-   The element list of the left side is a comma-separated list of one or more directly specified [CDS elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_element_glosry.htm "Glossary Entry") of the CDS entity for which the access condition is defined. An element element cannot be specified here using a path expression [path\_expr](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_path_expression.htm) and must have one of the valid [data types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_dcl_cond_data_types.htm).
 
--   After PFCG\_MAPPING =, the right side must specify a PFCG mapping pfcg\_mapping defined using [DEFINE PFCG\_MAPPING](javascript:call_link\('abencds_f1_define_pfcg_mapping.htm'\)) as part of a [CDS access policy](javascript:call_link\('abencds_access_policy_glosry.htm'\) "Glossary Entry").
+-   After PFCG\_MAPPING =, the right side must specify a PFCG mapping pfcg\_mapping defined using [DEFINE PFCG\_MAPPING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_pfcg_mapping.htm) as part of a [CDS access policy](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_access_policy_glosry.htm "Glossary Entry").
 
 Currently, there can be only one association of this type in a single PFCG condition. When the PFCG condition is transformed into specific conditions, the mapping is handled as follows by CDS access control:
 
--   The authorization fields specified in the comma-separated list of the definition of the [PFCG mapping](javascript:call_link\('abencds_f1_define_pfcg_mapping.htm'\)) are used as input fields of the PFCG mapping value definition pfcg\_mapping\_value\_definition.
+-   The authorization fields specified in the comma-separated list of the definition of the [PFCG mapping](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_pfcg_mapping.htm) are used as input fields of the PFCG mapping value definition pfcg\_mapping\_value\_definition.
 
--   The output fields of the [PFCG mapping](javascript:call_link\('abencds_f1_define_pfcg_mapping.htm'\)) are compared with the CDS elements of the element list associated with the PFCG mapping in the PFCG condition.
+-   The output fields of the [PFCG mapping](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_pfcg_mapping.htm) are compared with the CDS elements of the element list associated with the PFCG mapping in the PFCG condition.
 
-The other conditions of the [PFCG condition](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)) are created as described here. The PFCG condition is true if the conditions for the individually specified CDS elements and the PFCG mapping are met. If multiple authorizations exist for a single authorization field and there are individually specified CDS elements alongside the PFCG mapping, the PFCG mapping is resolved for each individual authorization.
+The other conditions of the [PFCG condition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_cond_pfcg.htm) are created as described here. The PFCG condition is true if the conditions for the individually specified CDS elements and the PFCG mapping are met. If multiple authorizations exist for a single authorization field and there are individually specified CDS elements alongside the PFCG mapping, the PFCG mapping is resolved for each individual authorization.
 
 Notes
 
@@ -38,7 +38,7 @@ Notes
 
 Example
 
-The following abstract example uses the PFCG mapping mapping defined in the example for [DEFINE PFCG\_MAPPING](javascript:call_link\('abencds_f1_define_pfcg_mapping.htm'\)) in a [PFCG condition](javascript:call_link\('abenpfcg_condition_glosry.htm'\) "Glossary Entry").
+The following abstract example uses the PFCG mapping mapping defined in the example for [DEFINE PFCG\_MAPPING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_pfcg_mapping.htm) in a [PFCG condition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpfcg_condition_glosry.htm "Glossary Entry").
 
 ... GRANT SELECT ON entity WHERE
       ( a,

@@ -4,19 +4,19 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - Conditions sql\_cond](javascript:call_link\('abenopen_sql_cond.htm'\)) →  [sql\_cond - rel\_exp for Statements](javascript:call_link\('abenwhere_logexp.htm'\)) →  [sql\_cond - Relational Operators](javascript:call_link\('abenwhere_logexp_compare.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - Conditions sql\_cond](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_cond.htm) →  [sql\_cond - rel\_exp for Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp.htm) →  [sql\_cond - Relational Operators](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_compare.htm) → 
 
 sql\_cond - Comparable Types
 
-The following table shows which [built-in data types](javascript:call_link\('abenddic_builtin_types.htm'\)) in ABAP Dictionary can be compared with each other. The table applies to the following:
+The following table shows which [built-in data types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) in ABAP Dictionary can be compared with each other. The table applies to the following:
 
--   [Comparisons](javascript:call_link\('abenwhere_logexp_compare.htm'\)) of a [WHERE](javascript:call_link\('abapwhere.htm'\)) condition or [HAVING](javascript:call_link\('abaphaving_clause.htm'\)) condition in which columns or expressions are specified on the left side (lhs) and columns are specified on the right side (rhs).
+-   [Comparisons](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_compare.htm) of a [WHERE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhere.htm) condition or [HAVING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaphaving_clause.htm) condition in which columns or expressions are specified on the left side (lhs) and columns are specified on the right side (rhs).
 
--   Comparisons of an [ON](javascript:call_link\('abapselect_join.htm'\)) condition.
+-   Comparisons of an [ON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_join.htm) condition.
 
--   Comparisons in [expressions](javascript:call_link\('abenosql_expr_logexp.htm'\)).
+-   Comparisons in [expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenosql_expr_logexp.htm).
 
-Invalid comparisons produce a syntax error in [conditions of an expression](javascript:call_link\('abenosql_expr_logexp.htm'\)) and in the [strict mode from Release 7.40SP08](javascript:call_link\('abenopensql_strict_mode_740_sp08.htm'\)) . In other cases, a syntax warning is produced. The result of invalid comparisons is determined by the database system and is not platform-independent.
+Invalid comparisons produce a syntax error in [conditions of an expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenosql_expr_logexp.htm) and in the [strict mode from Release 7.40SP08](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_mode_740_sp08.htm) . In other cases, a syntax warning is produced. The result of invalid comparisons is determined by the database system and is not platform-independent.
 
 lhs/rhs
 
@@ -1172,20 +1172,20 @@ l, y
 
 -   There are no restrictions for combinations using "x".
 
--   Combinations with "y" cannot be used in [conditions in an expression](javascript:call_link\('abenosql_expr_logexp.htm'\)).
+-   Combinations with "y" cannot be used in [conditions in an expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenosql_expr_logexp.htm).
 
--   In combinations with "z", the lengths and decimal places must match in the compared columns or expressions in [conditions in an expression](javascript:call_link\('abenosql_expr_logexp.htm'\)).
+-   In combinations with "z", the lengths and decimal places must match in the compared columns or expressions in [conditions in an expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenosql_expr_logexp.htm).
 
--   Combinations with "e" can only be used in [conditions in an expression](javascript:call_link\('abenosql_expr_logexp.htm'\)) and cannot be used in [conditions for a statement](javascript:call_link\('abenwhere_logexp.htm'\)).
+-   Combinations with "e" can only be used in [conditions in an expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenosql_expr_logexp.htm) and cannot be used in [conditions for a statement](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp.htm).
 
 -   In combinations with "l", the lengths of the compared columns or expressions must match.
 
 Notes
 
--   The table does not show the [obsolete types](javascript:call_link\('abenddic_obsolete_types.htm'\)) DF16\_SCL and DF34\_SCL, which cannot be compared in [conditions in an expression](javascript:call_link\('abenosql_expr_logexp.htm'\)) and (like DF16\_RAW and DF34\_RAW) can otherwise only be compared with themselves.
+-   The table does not show the [obsolete types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_obsolete_types.htm) DF16\_SCL and DF34\_SCL, which cannot be compared in [conditions in an expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenosql_expr_logexp.htm) and (like DF16\_RAW and DF34\_RAW) can otherwise only be compared with themselves.
 
--   In the following cases, the syntax check is performed in a [strict mode](javascript:call_link\('abenopensql_strict_mode_750.htm'\)), which handles the statement more strictly than the regular syntax check.
+-   In the following cases, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_mode_750.htm), which handles the statement more strictly than the regular syntax check.
 
 -   Columns or expressions of the types DF16\_DEC or DF34\_DEC are compared with other numeric types except with themselves.
 
--   Columns or expressions of the type SSTRING are compared with types other than themselves in a [CASE expression](javascript:call_link\('abensql_case.htm'\)).
+-   Columns or expressions of the type SSTRING are compared with types other than themselves in a [CASE expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_case.htm).

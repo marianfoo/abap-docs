@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 Message Type
 
-Determines in the[MESSAGE](javascript:call_link\('abapmessage.htm'\)) statement the representation of the [output](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") and the remaining program flow. There are the message types [information message](javascript:call_link\('abeninformation_message_glosry.htm'\) "Glossary Entry"), [status message](javascript:call_link\('abenstatus_message_glosry.htm'\) "Glossary Entry"), [error message](javascript:call_link\('abenerror_message_glosry.htm'\) "Glossary Entry"), [warning](javascript:call_link\('abenwarning_glosry.htm'\) "Glossary Entry"), [termination message](javascript:call_link\('abentermination_message_glosry.htm'\) "Glossary Entry"), and [exit message](javascript:call_link\('abenexit_message_glosry.htm'\) "Glossary Entry").
+Determines in the[MESSAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage.htm) statement the representation of the [output](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_glosry.htm "Glossary Entry") and the remaining program flow. There are the message types [information message](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninformation_message_glosry.htm "Glossary Entry"), [status message](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatus_message_glosry.htm "Glossary Entry"), [error message](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenerror_message_glosry.htm "Glossary Entry"), [warning](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwarning_glosry.htm "Glossary Entry"), [termination message](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentermination_message_glosry.htm "Glossary Entry"), and [exit message](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexit_message_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenabap_messages_types.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_messages_types.htm)

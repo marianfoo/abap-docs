@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shortref.htm) →  S
 
 SELECTION-SCREEN - BLOCK - Quick reference
 
-[Reference](javascript:call_link\('abapselection-screen_block.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_block.htm)
 
 Syntax
 
@@ -20,7 +20,7 @@ SELECTION-SCREEN END OF BLOCK block.
 
 Effect
 
-Defines a block named block on the current [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry").
+Defines a block named block on the current [selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_glosry.htm "Glossary Entry").
 
 Additions
 

@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) →  [ABAP SQL - SQL Path Expressions sql\_path](javascript:call_link\('abenabap_sql_path.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_operands.htm) →  [ABAP SQL - SQL Path Expressions sql\_path](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_path.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Path Expressions, Use in the FROM Clause, ABENPATH_EXPR_IN_FROM_CLAUSE_ABEXA, 757%0D%
 0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Path Expressions, Use in the FROM Clause
 
-This example demonstrates [path expressions](javascript:call_link\('abenabap_sql_path.htm'\)) in the [FROM clause](javascript:call_link\('abapfrom_clause.htm'\)) in ABAP SQL.
+This example demonstrates [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_path.htm) in the [FROM clause](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfrom_clause.htm) in ABAP SQL.
 
 Source Code   
 
@@ -75,7 +75,7 @@ define view entity demo\_cds\_assoc\_sairport\_tz
   where
     time\_zone = $parameters.tz
 
-This view entity exposes its [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") \_spfli in its SELECT list. The CDS association \_spfli uses the view entity demo\_cds\_assoc\_spfli\_scarr as an [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry"):
+This view entity exposes its [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") \_spfli in its SELECT list. The CDS association \_spfli uses the view entity demo\_cds\_assoc\_spfli\_scarr as an [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry"):
 
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
 define view entity demo\_cds\_assoc\_spfli\_scarr
@@ -90,8 +90,8 @@ define view entity demo\_cds\_assoc\_spfli\_scarr
           fltime
     }
 
-This view exposes its [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") \_scarr in its SELECT list, making it possible to specify it in path expressions after \_spfli. This CDS association uses a DDIC database table as a data source and always closes a path expression.
+This view exposes its [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry") \_scarr in its SELECT list, making it possible to specify it in path expressions after \_spfli. This CDS association uses a DDIC database table as a data source and always closes a path expression.
 
-In the [FROM clause](javascript:call_link\('abapfrom_clause.htm'\)), the first SELECT statement uses a path expression with the CDS associations \\\_spfli and \\\_scarr after the name of the CDS view. The names of all carriers are read that depart from airports in a specific time zone. The time zone is a [parameter](javascript:call_link\('abencds_f1_func_parameter_list.htm'\)) of CDS view demo\_cds\_assoc\_sairport\_tz, and a value is passed to it. Further restrictions apply to the local currency of the airline in a filter condition for the CDS association \_scarr and on the flight time in a filter condition for the CDS association \_spfli
+In the [FROM clause](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfrom_clause.htm), the first SELECT statement uses a path expression with the CDS associations \\\_spfli and \\\_scarr after the name of the CDS view. The names of all carriers are read that depart from airports in a specific time zone. The time zone is a [parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_func_parameter_list.htm) of CDS view demo\_cds\_assoc\_sairport\_tz, and a value is passed to it. Further restrictions apply to the local currency of the airline in a filter condition for the CDS association \_scarr and on the flight time in a filter condition for the CDS association \_spfli
 
 The second SELECT statement demonstrates which joins and conditions must be created in ABAP SQL to achieve the same result. This is guaranteed by an assertion.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Expressions (string\_exp)](javascript:call_link\('abapcompute_string.htm'\)) →  [string\_exp - Performance Note](javascript:call_link\('abenstring_expr_perfo.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_processing_expr_func.htm) →  [String Expressions (string\_exp)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcompute_string.htm) →  [string\_exp - Performance Note](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_expr_perfo.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20string_exp%20-%20Concatenating%20Strings%2C%20ABENSTRING_CONCATENATION_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement
 :)
@@ -54,7 +54,7 @@ ENDCLASS.
 
 Description   
 
-This example demonstrates the optimization of a string concatenation, if a string is lengthened on the right side by appending content during an [assignment](javascript:call_link\('abenequals_string_expr.htm'\)) to a string. In this case, the strings are processed in a loop using a [REDUCE expression](javascript:call_link\('abenconstructor_expression_reduce.htm'\)).
+This example demonstrates the optimization of a string concatenation, if a string is lengthened on the right side by appending content during an [assignment](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_string_expr.htm) to a string. In this case, the strings are processed in a loop using a [REDUCE expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_reduce.htm).
 
 -   There is no optimization in the first REDUCE expression since an expression is appended to the string s.
 -   In the second REDUCE expression, the expression is assigned to a helper variable num using LET. This variable can be appended to s directly without an interim result needing to be produced.

@@ -4,29 +4,41 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - SAP Annotations](javascript:call_link\('abencds_annotations_sap.htm'\)) →  [ABAP CDS - Framework-Specific Annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_sap.htm) →  [ABAP CDS - Framework-Specific Annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk.htm) → 
 
 ABAP CDS - Framework-Specific Annotation Syntax
 
-The following tables summarize the [annotation syntax](javascript:call_link\('abencds_annotation_syntax_glosry.htm'\) "Glossary Entry") of all [framework-specific annotations](javascript:call_link\('abencomponent_annotation_glosry.htm'\) "Glossary Entry") in [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") and [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry") in ABAP CDS. Any specified subannotations are shown using [chainings](javascript:call_link\('abencds_annotations_syntax_name.htm'\)). If square brackets \[ \] are specified after a name in the column Annotation, this means that the annotation in front of the square brackets is an [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") (see [Executable Example](javascript:call_link\('abencds_annotation_array_abexa.htm'\))). Any enumeration symbols in an annotation are specified in the column Enums. The column Default shows the default values applied to the evaluation when an annotation is specified without a value. The columns Text and MDE indicate whether the annotation values are translatable texts and whether the annotation can be specified in a [metadata extension](javascript:call_link\('abencds_metadata_extension_glosry.htm'\) "Glossary Entry"). More information about framework-specific annotations can be found in the documentation CDS Annotations.
+The following tables summarize the [annotation syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotation_syntax_glosry.htm "Glossary Entry") of all [framework-specific annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomponent_annotation_glosry.htm "Glossary Entry") in [CDS DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm "Glossary Entry") and [CDS DCL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS. Any specified subannotations are shown using [chainings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax_name.htm). If square brackets \[ \] are specified after a name in the column Annotation, this means that the annotation in front of the square brackets is an [annotation array](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenannotation_array_glosry.htm "Glossary Entry") (see [Executable Example](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotation_array_abexa.htm)). Any enumeration symbols in an annotation are specified in the column Enums. The column Default shows the default values applied to the evaluation when an annotation is specified without a value. The columns Text and MDE indicate whether the annotation values are translatable texts and whether the annotation can be specified in a [metadata extension](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_metadata_extension_glosry.htm "Glossary Entry"). More information about framework-specific annotations can be found in the documentation CDS Annotations.
 
--   [AccessControl-Annotations](#abencds-annotations-frmwrk-tables-1--------aggregation-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_2)
+-   [AccessControl-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_1)
 
--   [Analytics-Annotations](#abencds-annotations-frmwrk-tables-3--------analyticsdetails-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_4)
+-   [Aggregation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_2)
 
--   [Consumption-Annotations](#abencds-annotations-frmwrk-tables-5--------defaultaggregation-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_6)
+-   [Analytics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_3)
 
--   [EnterpriseSearch-Annotations](#abencds-annotations-frmwrk-tables-7--------hierarchy-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_8)
+-   [AnalyticsDetails-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_4)
 
--   [OData-Annotations](#abencds-annotations-frmwrk-tables-9--------objectmodel-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_10)
+-   [Consumption-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_5)
 
--   [Search-Annotations](#abencds-annotations-frmwrk-tables-11--------semantics-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_12)
+-   [DefaultAggregation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_6)
+
+-   [EnterpriseSearch-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_7)
+
+-   [Hierarchy-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_8)
+
+-   [OData-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_9)
+
+-   [ObjectModel-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_10)
+
+-   [Search-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_11)
+
+-   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_12)
 
 -   [UI-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_TABLES_13)
 
 Note
 
-See also [Framework-Specific Annotation Definitions](javascript:call_link\('abencds_annotations_frmwrk_ddla.htm'\)).
+See also [Framework-Specific Annotation Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_frmwrk_ddla.htm).
 
 AccessControl-Annotations
 
@@ -8270,4 +8282,4 @@ String(13)
 X
 
 Continue
-![Example](exa.gif "Example") [ABAP CDS, Annotation Array](javascript:call_link\('abencds_annotation_array_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP CDS, Annotation Array](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotation_array_abexa.htm)

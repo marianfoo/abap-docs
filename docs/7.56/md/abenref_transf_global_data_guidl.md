@@ -4,13 +4,13 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassignment_access_gdl.htm) → 
 
 Pass by Reference of Global Data
 
 Background
 
-In a local context you can normally directly access the [data objects](javascript:call_link\('abendata_type_obj_gdl.htm'\)) of superordinate more global contexts. For example, it is possible in a method to perform writes on the attributes of its class and on any global data of the current program.
+In a local context you can normally directly access the [data objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_type_obj_gdl.htm) of superordinate more global contexts. For example, it is possible in a method to perform writes on the attributes of its class and on any global data of the current program.
 
 Therefore, if a more global data object is passed to a procedure by reference, access is granted there both through its name and the formal parameter.
 
@@ -22,9 +22,9 @@ Do not use global data as actual parameters for formal parameters of procedures 
 
 Details
 
-If a global data object that has also been passed by reference is changed in a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")), this also changes the formal parameter and vice versa. This behavior is not usually anticipated when writing the procedure.
+If a global data object that has also been passed by reference is changed in a procedure ([method](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")), this also changes the formal parameter and vice versa. This behavior is not usually anticipated when writing the procedure.
 
-Global data is only supposed to be passed to formal parameters for which [pass by value](javascript:call_link\('abentype_transf_formal_para_guidl.htm'\) "Guideline") is declared, or to procedures that are guaranteed not to have any unwanted consequences for this data.
+Global data is only supposed to be passed to formal parameters for which [pass by value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentype_transf_formal_para_guidl.htm "Guideline") is declared, or to procedures that are guaranteed not to have any unwanted consequences for this data.
 
 Bad Example
 

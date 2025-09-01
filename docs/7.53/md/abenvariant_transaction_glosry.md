@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 variant transaction
 
-Special [transaction code](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry") used to associate a [dialog transaction](javascript:call_link\('abendialog_transaction_glosry.htm'\) "Glossary Entry") with a [transaction variant](javascript:call_link\('abentransaction_variant_glosry.htm'\) "Glossary Entry"). When a variant transaction is called, the dialog transaction is called and executed using the transaction variant.
+Special [transaction code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_code_glosry.htm "Glossary Entry") used to associate a [dialog transaction](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendialog_transaction_glosry.htm "Glossary Entry") with a [transaction variant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentransaction_variant_glosry.htm "Glossary Entry"). When a variant transaction is called, the dialog transaction is called and executed using the transaction variant.

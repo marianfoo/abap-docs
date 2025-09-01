@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Obsolete Database Access](javascript:call_link\('abendatabase_access_obsolete.htm'\)) →  [Obsolete Access Statements](javascript:call_link\('abendb_access_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_storage_obsolete.htm) →  [Obsolete Database Access](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_access_obsolete.htm) →  [Obsolete Access Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendb_access_obsolete.htm) → 
 
 REFRESH itab FROM
 
-[Quick Reference](javascript:call_link\('abaprefresh_from_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaprefresh_from_shortref.htm)
 
 Obsolete Syntax
 
@@ -16,11 +16,11 @@ REFRESH itab FROM TABLE *{* dbtab *|* \*dbtab*}*.
 
 Effect
 
-The variant of the statement REFRESH, which is forbidden in classes, initializes the internal table itab, reads multiple rows from a database table or [classic view](javascript:call_link\('abenclassical_view_glosry.htm'\) "Glossary Entry") dbtab, and adds their contents to the internal table itab. The row contents are cast to the row type of the internal table. If the row type of the internal table is too short, it is truncated from the right.
+The variant of the statement REFRESH, which is forbidden in classes, initializes the internal table itab, reads multiple rows from a database table or [classic view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclassical_view_glosry.htm "Glossary Entry") dbtab, and adds their contents to the internal table itab. The row contents are cast to the row type of the internal table. If the row type of the internal table is too short, it is truncated from the right.
 
-dbtab expects a database table or [classic view](javascript:call_link\('abenclassical_view_glosry.htm'\) "Glossary Entry") that begins with "T" and has a maximum length of five characters. For the database table or view dbtab, a [table work area](javascript:call_link\('abentable_work_area_glosry.htm'\) "Glossary Entry") or an [additional table work area](javascript:call_link\('abaptables_asterisk.htm'\)) must be declared using the statement [TABLES](javascript:call_link\('abaptables.htm'\)). The internal table itab must be an [index table](javascript:call_link\('abenindex_table_glosry.htm'\) "Glossary Entry"). All components of the table work area that match the primary key fields of the database table or view dbtab must be character-like.
+dbtab expects a database table or [classic view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclassical_view_glosry.htm "Glossary Entry") that begins with "T" and has a maximum length of five characters. For the database table or view dbtab, a [table work area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_work_area_glosry.htm "Glossary Entry") or an [additional table work area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_asterisk.htm) must be declared using the statement [TABLES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables.htm). The internal table itab must be an [index table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenindex_table_glosry.htm "Glossary Entry"). All components of the table work area that match the primary key fields of the database table or view dbtab must be character-like.
 
-The rows to be read are determined by the content of the components of the table work area, which correspond with the [primary key fields](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") of the database table or view dbtab. The content of these components is taken, flush left, as a search key, and the system makes a generic search for suitable entries in the database table or view. The search key handles blanks as if they match all values.
+The rows to be read are determined by the content of the components of the table work area, which correspond with the [primary key fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_key_glosry.htm "Glossary Entry") of the database table or view dbtab. The content of these components is taken, flush left, as a search key, and the system makes a generic search for suitable entries in the database table or view. The search key handles blanks as if they match all values.
 
 If the database table or view does not match the specified naming conventions, the behavior of the statement is undefined.
 
@@ -30,9 +30,9 @@ This statement always sets sy-subrc to 0.
 
 Note
 
-This form of the REFRESH statement must be replaced by the [SELECT](javascript:call_link\('abapselect.htm'\)) statement.
+This form of the REFRESH statement must be replaced by the [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) statement.
 
--   Obsolete access statements do not support automatic [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry"). The [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") of a database table must be specified explicitly. Note that application programs should only use data from the current client.
+-   Obsolete access statements do not support automatic [client handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_handling_glosry.htm "Glossary Entry"). The [client ID](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_identifier_glosry.htm "Glossary Entry") of a database table must be specified explicitly. Note that application programs should only use data from the current client.
     
 
 Example
@@ -54,7 +54,7 @@ SELECT \*
              arbgb LIKE 'BC%'
        INTO TABLE @itab.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

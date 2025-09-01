@@ -4,15 +4,15 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_business_objects.htm) → 
 
 RAP - Simple Managed RAP Business Object
 
-This example demonstrates a simple managed [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") and uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access it.
+This example demonstrates a simple managed [RAP business object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm "Glossary Entry") and uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access it.
 
 Data model
 
-The CDS data model consists of one single [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") without [child entities](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry"):
+The CDS data model consists of one single [root entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_entity_glosry.htm "Glossary Entry") without [child entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchild_entity_glosry.htm "Glossary Entry"):
 
 @AbapCatalog.sqlViewName: 'DEMOSIMPLEMNGDBO'
 @AbapCatalog.preserveKey: true
@@ -29,7 +29,7 @@ define root view DEMO\_CDS\_SIMPLE\_MANAGED\_BO
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_CDS\_SIMPLE\_MANAGED\_BO is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_CDS\_SIMPLE\_MANAGED\_BO is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_cds\_simple\_managed\_bo unique;
 define behavior for DEMO\_CDS\_SIMPLE\_MANAGED\_BO alias demo\_simple\_mngd\_bo
@@ -39,15 +39,15 @@ lock master
   update ;
 }
 
-One [CRUD](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") operation is specified with update.
+One [CRUD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencrud_glosry.htm "Glossary Entry") operation is specified with update.
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_CDS\_SIMPLE\_MANAGED\_BO. There is no self-defined behavior implementation in the CCIMP include of the behavior pool and the global class has no components. For [managed RAP business objects](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), the managed RAP BO provider can take over all operations. In fact, you don't need to create an behavior pool at all.
+For the above CDS behavior definition, one [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_CDS\_SIMPLE\_MANAGED\_BO. There is no self-defined behavior implementation in the CCIMP include of the behavior pool and the global class has no components. For [managed RAP business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry"), the managed RAP BO provider can take over all operations. In fact, you don't need to create an behavior pool at all.
 
 Business service
 
-There is no [business service](javascript:call_link\('abenbusiness_service_glosry.htm'\) "Glossary Entry") and no [service binding](javascript:call_link\('abenservice_binding_glosry.htm'\) "Glossary Entry") defined for the above root entity. The business object should be accessed by [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") only.
+There is no [business service](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbusiness_service_glosry.htm "Glossary Entry") and no [service binding](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenservice_binding_glosry.htm "Glossary Entry") defined for the above root entity. The business object should be accessed by [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") only.
 
 Source Code
 
@@ -112,11 +112,11 @@ START-OF-SELECTION.
 
 Description
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program:
 
 -   A read operation is executed with the statement READ ENTITY.
     
-    An internal table fields specifies the data to be read. The [RAP transactional engine](javascript:call_link\('abenrap_transac_engine_glosry.htm'\) "Glossary Entry") reads the data from the respective database table into a [managed transactional buffer](javascript:call_link\('abenmanaged_trans_buff_glosry.htm'\) "Glossary Entry") and returns them in internal table read\_data.
+    An internal table fields specifies the data to be read. The [RAP transactional engine](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_transac_engine_glosry.htm "Glossary Entry") reads the data from the respective database table into a [managed transactional buffer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmanaged_trans_buff_glosry.htm "Glossary Entry") and returns them in internal table read\_data.
     
 -   An update operation is executed with the statement MODIFY ENTITY.
     

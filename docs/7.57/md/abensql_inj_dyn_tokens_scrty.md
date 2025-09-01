@@ -4,17 +4,19 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) →  [Security Risks Caused by Input from Outside](javascript:call_link\('abendynamic_programming_scrty.htm'\)) →  [SQL Injections](javascript:call_link\('abensql_injections_scrty.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_security.htm) →  [Security Risks Caused by Input from Outside](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynamic_programming_scrty.htm) →  [SQL Injections](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_injections_scrty.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SQL Injections Using Dynamic Tokens, ABENSQL_INJ_DYN_TOKENS_SCRTY, 757%0D%0A%0D%0AErr
 or:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 SQL Injections Using Dynamic Tokens
 
-The [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry") syntax allows almost every clause of an ABAP SQL statement to be specified dynamically as the content of a data object specified in parentheses. If all of part of the content of one of these data objects originates from outside of the program, there is a risk of one of the following SQL injections:
+The [ABAP SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_glosry.htm "Glossary Entry") syntax allows almost every clause of an ABAP SQL statement to be specified dynamically as the content of a data object specified in parentheses. If all of part of the content of one of these data objects originates from outside of the program, there is a risk of one of the following SQL injections:
 
--   [Access to Non-Permitted Database Tables](#abensql-inj-dyn-tokens-scrty-1-------access-to-non-permitted-table-columns---@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_2)
--   [Manipulation of the Dynamic WHERE Condition](#abensql-inj-dyn-tokens-scrty-3-------manipulation-of-a-dynamic-change-expression---@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_4)
+-   [Access to Non-Permitted Database Tables](#@@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_1)
+-   [Access to Non-Permitted Table Columns](#@@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_2)
+-   [Manipulation of the Dynamic WHERE Condition](#@@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_3)
+-   [Manipulation of a Dynamic Change Expression](#@@ITOC@@ABENSQL_INJ_DYN_TOKENS_SCRTY_4)
 
 Hint
 
@@ -31,7 +33,7 @@ SELECT SINGLE \* FROM scarr WHERE (sql\_cond2) INTO @wa.
 
 Access to Non-Permitted Database Tables   
 
-If dynamically specified database tables [source\_syntax](javascript:call_link\('abapfrom_clause.htm'\)) (for the statement [SELECT](javascript:call_link\('abapselect.htm'\)) or target\_syntax for [writes](javascript:call_link\('abenabap_sql_writing.htm'\))) originate in full or in part from outside the program, users could potentially access databases for which they usually do not have authorization. If the use of external input in dynamically specified database tables is unavoidable, the input must be properly checked. For example, the class CL\_ABAP\_DYN\_PRG can be used to make a comparison with a include list.
+If dynamically specified database tables [source\_syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfrom_clause.htm) (for the statement [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) or target\_syntax for [writes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_writing.htm)) originate in full or in part from outside the program, users could potentially access databases for which they usually do not have authorization. If the use of external input in dynamically specified database tables is unavoidable, the input must be properly checked. For example, the class CL\_ABAP\_DYN\_PRG can be used to make a comparison with a include list.
 
 Example
 
@@ -66,23 +68,23 @@ cl\_demo\_output=>display( dref->\* ).
 
 Access to Non-Permitted Table Columns   
 
-If the dynamically specified table columns column\_syntax in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) of the statement [SELECT](javascript:call_link\('abapselect.htm'\)) originate fully or in part from outside the program, users could potentially access table columns for which they usually do not have authorization. Users could also rename columns without permission or use aggregate functions to perform unauthorized calculations. If the use of external input in a dynamically specified table columns is unavoidable, the input must be properly checked. For example, the class CL\_ABAP\_DYN\_PRG can be used to make a comparison with an include list.
+If the dynamically specified table columns column\_syntax in the [SELECT list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm) of the statement [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) originate fully or in part from outside the program, users could potentially access table columns for which they usually do not have authorization. Users could also rename columns without permission or use aggregate functions to perform unauthorized calculations. If the use of external input in a dynamically specified table columns is unavoidable, the input must be properly checked. For example, the class CL\_ABAP\_DYN\_PRG can be used to make a comparison with an include list.
 
 Hint
 
-When specifying columns after [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)), the same security advice applies as to columns specified dynamically directly after SELECT.
+When specifying columns after [GROUP BY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapgroupby_clause.htm), the same security advice applies as to columns specified dynamically directly after SELECT.
 
 Example
 
-See the example in [column \_syntax](javascript:call_link\('abapselect_list.htm'\)). Here only columns from an include list are allowed to be read.
+See the example in [column \_syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect_list.htm). Here only columns from an include list are allowed to be read.
 
 Manipulation of the Dynamic WHERE Condition   
 
-If a dynamic WHERE condition [cond\_syntax](javascript:call_link\('abenwhere_logexp_dynamic.htm'\)) originates completely or partially from outside the program, then users could potentially access data for which they usually do not have authorization. If the use of external input in a dynamic WHERE condition cannot be avoided, the input must be properly checked and usually escaped as well. To do this, you can sue the methods of class CL\_ABAP\_DYN\_PRG.
+If a dynamic WHERE condition [cond\_syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwhere_logexp_dynamic.htm) originates completely or partially from outside the program, then users could potentially access data for which they usually do not have authorization. If the use of external input in a dynamic WHERE condition cannot be avoided, the input must be properly checked and usually escaped as well. To do this, you can sue the methods of class CL\_ABAP\_DYN\_PRG.
 
 Hint
 
-When dynamically specifying a [HAVING](javascript:call_link\('abaphaving_clause.htm'\)) condition, the same security advice applies as for the dynamic WHERE condition.
+When dynamically specifying a [HAVING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaphaving_clause.htm) condition, the same security advice applies as for the dynamic WHERE condition.
 
 Example
 
@@ -102,11 +104,11 @@ TRY.
     cl\_demo\_output=>display( 'Wrong input' ).
 ENDTRY.
 
-More examples under [dynamic WHERE condition](javascript:call_link\('abenwhere_logexp_dynamic.htm'\)).
+More examples under [dynamic WHERE condition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwhere_logexp_dynamic.htm).
 
 Manipulation of a Dynamic Change Expression   
 
-If a dynamic change expression [expr\_syntax](javascript:call_link\('abapupdate_set_expression.htm'\)) (for the statement [UPDATE](javascript:call_link\('abapupdate.htm'\))) originates completely or partially from outside the program, then users could potentially change data for which they usually do not have authorization. If the use of external input in a dynamic change expression cannot be avoided, the input must be properly checked and usually escaped as well. To do this, you can sue the methods of class CL\_ABAP\_DYN\_PRG.
+If a dynamic change expression [expr\_syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapupdate_set_expression.htm) (for the statement [UPDATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapupdate.htm)) originates completely or partially from outside the program, then users could potentially change data for which they usually do not have authorization. If the use of external input in a dynamic change expression cannot be avoided, the input must be properly checked and usually escaped as well. To do this, you can sue the methods of class CL\_ABAP\_DYN\_PRG.
 
 Example
 

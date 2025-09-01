@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\)) →  [Examples for ABAP EML GET PERMISSIONS](javascript:call_link\('abenget_permissions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml.htm) →  [GET PERMISSIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_permissions.htm) →  [Examples for ABAP EML GET PERMISSIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenget_permissions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20GET%20PERMISSIONS%2C%20Dynamic%20Form%2C%20ABENGET_PERM_DYN_FORM_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20
 improvement:)
@@ -50,7 +50,7 @@ define view entity DEMO\_MANAGED\_CHILD\_3
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_3 is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_3 is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_root\_3 unique;
 strict;
@@ -242,7 +242,7 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class:
 
 Using the dynamic form of the GET PERMISSIONS statement, permissions are requested for specific instances of an entity. The addition ONLY INSTANCE FEATURES is used in the statement to get the permissions, as the name implies, for the instance feature controls only.
 
@@ -253,8 +253,8 @@ Dynamic Form
 -   The GET PERMISSIONS statement considers certain instances with keys that are specified after the keyword FROM. The request parameter has been specified before. The result parameter is of type TYPE STRUCTURE FOR PERMISSIONS RESULT and created inline. Response parameters are also specified, however, they are not used in the example.
 -   The GET PERMISSIONS statement includes requests for the root entity and the child entity individually.
 -   Notes on the result for the root entity, i. e. the content in the output tables:
-    -   Entries in the instance table: The entries for the instance with key 1 show that the field assoc has the value 01. According to the implementation, a create-by-association operation is disabled in this case. The entries for both instances with the keys 1 and 2 show the value 02 (that is, read-only) for the data field data\_field1\_root since it was defined as readonly in the BDEF. It is a static feature control also displayed in this context (see the [Guidelines for the Permission Result](javascript:call_link\('abapget_permissions_rules.htm'\))). The entries for data\_field3\_root and data\_field4\_root are determined by the get\_instance\_features method. The value 00 is available if the permission is unrestricted, 02 if the permissions is read-only.
-    -   Entries in the global structure: The result also contains static information (see the [Guidelines for the Permission Result](javascript:call_link\('abapget_permissions_rules.htm'\))). In this example, it is as follows: The key key\_field shows the value 20 (that is, readonly:update) and the field data\_field2\_root shows the value 01 (i. e. mandatory), the field data\_field1\_root shows the value 02 (i. e. readonly) as defined in the BDEF.
+    -   Entries in the instance table: The entries for the instance with key 1 show that the field assoc has the value 01. According to the implementation, a create-by-association operation is disabled in this case. The entries for both instances with the keys 1 and 2 show the value 02 (that is, read-only) for the data field data\_field1\_root since it was defined as readonly in the BDEF. It is a static feature control also displayed in this context (see the [Guidelines for the Permission Result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_permissions_rules.htm)). The entries for data\_field3\_root and data\_field4\_root are determined by the get\_instance\_features method. The value 00 is available if the permission is unrestricted, 02 if the permissions is read-only.
+    -   Entries in the global structure: The result also contains static information (see the [Guidelines for the Permission Result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_permissions_rules.htm)). In this example, it is as follows: The key key\_field shows the value 20 (that is, readonly:update) and the field data\_field2\_root shows the value 01 (i. e. mandatory), the field data\_field1\_root shows the value 02 (i. e. readonly) as defined in the BDEF.
 -   Notes on the result for the child entity:
     -   Similar to above, request parameters have been specified before, certain instances with specified keys are considered (following the keyword FROM) and the result parameter is declared inline. Response parameters are declared, too, but not relevant in the example.
     -   Entries in the instance table: The key field of the child entity has the value 02 (i. e. unauthorized) which means a create-by-association operations is disabled in the context of the particular instance.

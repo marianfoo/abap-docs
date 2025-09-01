@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  S
 
 SET HANDLER - Quick reference
 
-[Reference](javascript:call_link\('abapset_handler.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_handler.htm)
 
 Syntax
 
@@ -18,7 +18,7 @@ SET HANDLER handler1 handler2 ...
 
 Effect
 
-Registers or deregisters [event handlers](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry") handler1, handler2, ... for events of classes.
+Registers or deregisters [event handlers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenevent_handler_glosry.htm "Glossary Entry") handler1, handler2, ... for events of classes.
 
 Additions
 
@@ -28,9 +28,9 @@ Additions
     class=>meth (list of static methods of specified classes)
     
 
--   [FOR *{* oref *|* *{*ALL INSTANCES*}* *}*](javascript:call_link\('abapset_handler_instance.htm'\))
+-   [FOR *{* oref *|* *{*ALL INSTANCES*}* *}*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_handler_instance.htm)
     Registers instance event handlers for an object referenced using oref or for all objects that can raise the event.
     
 
--   [ACTIVATION act](javascript:call_link\('abapset_handler_instance.htm'\))
+-   [ACTIVATION act](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_handler_instance.htm)
     Specifies a registration or deregistration in act.

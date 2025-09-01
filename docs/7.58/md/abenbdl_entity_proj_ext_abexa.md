@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [RAP - BDEF Projection Extension](javascript:call_link\('abenbdl_extensibility_projection.htm'\)) →  [RAP - extension for projection](javascript:call_link\('abenbdl_extension_for_projection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl.htm) →  [RAP - BDEF Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extension.htm) →  [RAP - BDEF Projection Extension](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extensibility_projection.htm) →  [RAP - extension for projection](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_extension_for_projection.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20BDEF%20Projection%20Extension%2C%20Node%20Extension%2C%20ABENBDL_ENTITY_PROJ_EXT_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion
 %20for%20improvement:)
@@ -32,7 +32,7 @@ define root view entity DEMO\_RAP\_BEH\_EXT
 
 CDS transactional interface
 
-The following [CDS transactional interface](javascript:call_link\('abencds_trans_interface_glosry.htm'\) "Glossary Entry") is created for the root node to fulfill the [RAP BO contract](javascript:call_link\('abenrap_bo_contract_glosry.htm'\) "Glossary Entry") requirements for [RAP extensibility](javascript:call_link\('abenrap_extensibility_glosry.htm'\) "Glossary Entry").
+The following [CDS transactional interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_trans_interface_glosry.htm "Glossary Entry") is created for the root node to fulfill the [RAP BO contract](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_contract_glosry.htm "Glossary Entry") requirements for [RAP extensibility](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_extensibility_glosry.htm "Glossary Entry").
 
 @EndUserText.label: 'CDS transactional interface'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -48,7 +48,7 @@ as projection on DEMO\_RAP\_BEH\_EXT as RootInterface
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_RAP\_BEH\_EXT is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as shown below. It defines implementation-relevant components and extension points.
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_RAP\_BEH\_EXT is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") as shown below. It defines implementation-relevant components and extension points.
 
 managed implementation in class bp\_demo\_rap\_beh\_ext unique;
 strict(2);
@@ -72,7 +72,7 @@ define own authorization context by privileged mode;
 
 Behavior implementation
 
-For the RAP behavior definition, one [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_BEH\_EXT, see CCIMP include. This global class implements the following methods:
+For the RAP behavior definition, one [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_BEH\_EXT, see CCIMP include. This global class implements the following methods:
 
 -   get\_instance\_features: Instance feature control for the standard operation update. If the value of field int\_field1 is more than 50, updates are not allowed. If the value is equal to or smaller than 50, updates are allowed.
 -   get\_global\_authorizations: Global authorization control defines that create, update, and delete are always allowed.
@@ -80,7 +80,7 @@ For the RAP behavior definition, one [ABAP behavior pool (ABP)](javascript:call_
 
 Interface BDEF
 
-The following [interface BDEF](javascript:call_link\('abencds_interface_bdef_glosry.htm'\) "Glossary Entry") DEMO\_RAP\_BEH\_EXT\_INT is required as stable interface for extensions.
+The following [interface BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_interface_bdef_glosry.htm "Glossary Entry") DEMO\_RAP\_BEH\_EXT\_INT is required as stable interface for extensions.
 
 interface;
 extensible;
@@ -128,7 +128,7 @@ as projection on DEMO\_RAP\_BEH\_EXT\_CHILD
   \_parent: redirected to parent DEMO\_RAP\_BEH\_EXT\_INT
 }
 
-A [to-child association](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry") is added to the root node via a CDS view entity extension on the base layer:
+A [to-child association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abento_parent_association_glosry.htm "Glossary Entry") is added to the root node via a CDS view entity extension on the base layer:
 
 extend view entity DEMO\_RAP\_BEH\_EXT with  
 composition of exact one to many DEMO\_RAP\_BEH\_EXT\_CHILD as \_child
@@ -384,7 +384,7 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [ABAP EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the projection BO from an ABAP class:
+The above source code uses [ABAP EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the projection BO from an ABAP class:
 
 -   It inserts two parent entity instances and two child entity instances.
 -   It updates the two parent entity instances

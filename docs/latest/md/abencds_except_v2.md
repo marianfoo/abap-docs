@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - CDS View Entity, SELECT, clauses](javascript:call_link\('abencds_select_clauses_v2.htm'\)) →  [CDS DDL - CDS View Entity, Set Operators](javascript:call_link\('abencds_set_operators.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_statement_v2.htm) →  [CDS DDL - CDS View Entity, SELECT, clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_clauses_v2.htm) →  [CDS DDL - CDS View Entity, Set Operators](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_set_operators.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20CDS%20View%20Entity%2C%20SELECT%2C%20EXCEPT%2C%20ABENCDS_EXCEPT_V2%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impro
 vement:)
@@ -13,15 +13,15 @@ CDS DDL - CDS View Entity, SELECT, EXCEPT
 
 Syntax
 
-... EXCEPT [select\_statement](javascript:call_link\('abencds_select_statement_v2.htm'\)) ...
+... EXCEPT [select\_statement](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_statement_v2.htm) ...
 
 Effect
 
-The [set operator](javascript:call_link\('abencds_set_operators_glosry.htm'\) "Glossary Entry") EXCEPT returns all rows of a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\)) of a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") that are not part of the result sets of the following SELECT statements. As a prerequisite, the result sets must have the same number of elements and the element pairs that occur in the same position of the result set must have a compatible data type. All data types except for [STRING](javascript:call_link\('abenddic_builtin_types.htm'\)), [RAWSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), [LCHR](javascript:call_link\('abenddic_builtin_types.htm'\)), [LRAW](javascript:call_link\('abenddic_builtin_types.htm'\)), and [GEOM\_EWKB](javascript:call_link\('abenddic_builtin_types.htm'\)) are supported. An EXCEPT result set can itself be the left side of a further EXCEPT.
+The [set operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_set_operators_glosry.htm "Glossary Entry") EXCEPT returns all rows of a [SELECT statement](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_statement_v2.htm) of a [CDS view entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm "Glossary Entry") that are not part of the result sets of the following SELECT statements. As a prerequisite, the result sets must have the same number of elements and the element pairs that occur in the same position of the result set must have a compatible data type. All data types except for [STRING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [RAWSTRING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [LCHR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [LRAW](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), and [GEOM\_EWKB](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) are supported. An EXCEPT result set can itself be the left side of a further EXCEPT.
 
 Prerequisite
 
-As a prerequisite for using the statement EXCEPT in a CDS view entity, the CDS view entity annotation [Metadata.ignorePropagatedAnnotations: true](javascript:call_link\('abencds_view_entity_anno.htm'\)) must be specified.
+As a prerequisite for using the statement EXCEPT in a CDS view entity, the CDS view entity annotation [Metadata.ignorePropagatedAnnotations: true](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_entity_anno.htm) must be specified.
 
 Rules for the Elements of a View Using EXCEPT
 
@@ -29,7 +29,7 @@ The first SELECT statement defines the signature of the view using EXCEPT. The e
 
 -   Element names
     
-    The direct element names or the alternative element names defined using AS must match for each column in the [SELECT lists](javascript:call_link\('abencds_select_list_v2.htm'\)) of all SELECT statements and are used.
+    The direct element names or the alternative element names defined using AS must match for each column in the [SELECT lists](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_v2.htm) of all SELECT statements and are used.
     
 -   Key elements
     
@@ -37,7 +37,7 @@ The first SELECT statement defines the signature of the view using EXCEPT. The e
     
 -   Element annotations
     
-    Only the SELECT list of the first SELECT statement can define [element annotations](javascript:call_link\('abencds_element_annotations_v2.htm'\)). In all subsequent branches, element annotations are forbidden.
+    Only the SELECT list of the first SELECT statement can define [element annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_element_annotations_v2.htm). In all subsequent branches, element annotations are forbidden.
     
 -   Data type
     -   The SELECT list of the first SELECT statement determines the DDIC data type of each element of the CDS entity.
@@ -1508,17 +1508,17 @@ There are no further restrictions to note in combinations using x. The following
 -   In combinations with w, the length or the value range of the data type in the first SELECT must be long enough for all following SELECT lists. If this is not the case, a syntax check warning is raised.
 -   In combinations using l, the lengths of the data types must match exactly.
 
-If the length or value range of the first element does not cover the following elements in combinations with w, the value returned by the database can be too great for the data type of the element of the CDS entity. It is still possible to activate the view here, but the content may be truncated or exceptions may be raised in ABAP SQL [queries](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry") if a type reference is applied to the entity. This is due to the [assignment rules](javascript:call_link\('abenselect_into_conversion.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause. Assignments to ABAP data objects with a sufficiently large value range, on the other hand, do not cause problems.
+If the length or value range of the first element does not cover the following elements in combinations with w, the value returned by the database can be too great for the data type of the element of the CDS entity. It is still possible to activate the view here, but the content may be truncated or exceptions may be raised in ABAP SQL [queries](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenquery_glosry.htm "Glossary Entry") if a type reference is applied to the entity. This is due to the [assignment rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_into_conversion.htm) of the [INTO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinto_clause.htm) clause. Assignments to ABAP data objects with a sufficiently large value range, on the other hand, do not cause problems.
 
 Associations in Views Using EXCEPT
 
-A CDS view entity in which result sets are formed with EXCEPT can define and expose [CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry"). Such an association must be defined and exposed in the same way in all SELECT statements combined with EXCEPT. That is, CDS associations that are exposed in the respective SELECT lists must appear in all SELECT statements combined with EXCEPT and the following requirements must be met:
+A CDS view entity in which result sets are formed with EXCEPT can define and expose [CDS associations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_association_glosry.htm "Glossary Entry"). Such an association must be defined and exposed in the same way in all SELECT statements combined with EXCEPT. That is, CDS associations that are exposed in the respective SELECT lists must appear in all SELECT statements combined with EXCEPT and the following requirements must be met:
 
--   They have the same [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry").
--   They must be exposed at the same position in the SELECT list using a [path expression](javascript:call_link\('abencds_path_expression_v2.htm'\)).
+-   They have the same [cardinality](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencardinality_glosry.htm "Glossary Entry").
+-   They must be exposed at the same position in the SELECT list using a [path expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_path_expression_v2.htm).
 -   They must have the same ON conditions, that is:
     -   The conditions must relate to the same fields in the association source and association target and express the same logic for these fields.
-    -   The fields of the [association source](javascript:call_link\('abenassociation_source_glosry.htm'\) "Glossary Entry") that are listed in an ON condition must be at identical positions in the SELECT list.
+    -   The fields of the [association source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassociation_source_glosry.htm "Glossary Entry") that are listed in an ON condition must be at identical positions in the SELECT list.
 -   Note: It is not required that the associations are defined with the same alias name.
 
 These rules also apply if a CDS association is defined in a data source of a SELECT statement and is exposed by the current statement. From outside, the CDS associations with the same name that are exposed in the individual SELECT lists act like a CDS association exposed by the EXCEPT result set. There are no restrictions on CDS associations that are not exposed in the SELECT lists.
@@ -1536,7 +1536,7 @@ Restrictions
 
 Hints
 
--   If the length of the value range of an element from the SELECT list of the first SELECT statement does not cover the associated elements of the following SELECT statements, it is advisable to define an appropriate type with a suitable [CAST](javascript:call_link\('abencds_cast_expression_v2.htm'\)) expression.
+-   If the length of the value range of an element from the SELECT list of the first SELECT statement does not cover the associated elements of the following SELECT statements, it is advisable to define an appropriate type with a suitable [CAST](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_cast_expression_v2.htm) expression.
 -   The maximum number of different SELECT statements that can be merged using EXCEPT depends on the database system. If this number is exceeded, the CDS view entity cannot be activated.
 -   The addition ALL is not available for the set operator EXCEPT.
 
@@ -1569,7 +1569,7 @@ select from sflight
 where
   price between 600 and 900
 
-The class CL\_DEMO\_CDS\_EXCEPT uses [SELECT](javascript:call_link\('abapselect.htm'\)) to access the view and it displays the result set.
+The class CL\_DEMO\_CDS\_EXCEPT uses [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm) to access the view and it displays the result set.
 
 Example - Nesting of EXCEPT Branches
 
@@ -1602,6 +1602,6 @@ except
     int1 < 9
 )
 
-The class CL\_DEMO\_CDS\_EXCEPT\_NESTING first fills the underlying database tables and then accesses the view using [SELECT](javascript:call_link\('abapselect.htm'\)). The result set consists of 9 rows.
+The class CL\_DEMO\_CDS\_EXCEPT\_NESTING first fills the underlying database tables and then accesses the view using [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm). The result set consists of 9 rows.
 
 Without nesting and the parentheses ( ) around the last two EXCEPT branches, the result set would return only 1 row.

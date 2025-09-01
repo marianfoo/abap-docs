@@ -4,18 +4,18 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Exceptions in ABAP Statements](javascript:call_link\('abenabap_language_exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_exceptions.htm) →  [Exceptions in ABAP Statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Exception%20Classes%20for%20ABAP%20Statements%2C%20ABENABAP_EXCEPTION_CLASSES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvemen
 t:)
 
 Exception Classes for ABAP Statements
 
-The catchable [exceptions in ABAP statements](javascript:call_link\('abenabap_language_exceptions.htm'\)) are related to the predefined exception classes listed below, which are subclasses of the classes CX\_DYNAMIC\_CHECK and CX\_NO\_CHECK. These exception classes replace the obsolete [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"). The keyword documentation lists the type of exceptions that can be raised for each statement.
+The catchable [exceptions in ABAP statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm) are related to the predefined exception classes listed below, which are subclasses of the classes CX\_DYNAMIC\_CHECK and CX\_NO\_CHECK. These exception classes replace the obsolete [catchable runtime errors](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"). The keyword documentation lists the type of exceptions that can be raised for each statement.
 
-When catching a superclass exception with [CATCH](javascript:call_link\('abapcatch_try.htm'\)), all of its subclass exceptions are also caught. To improve the structure, intermediate abstract classes were introduced so that groups of exceptions can be caught simultaneously.
+When catching a superclass exception with [CATCH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcatch_try.htm), all of its subclass exceptions are also caught. To improve the structure, intermediate abstract classes were introduced so that groups of exceptions can be caught simultaneously.
 
-Each exception class includes message texts, which can be found in the Texts tab in the [Class Builder](javascript:call_link\('abenclass_builder_glosry.htm'\) "Glossary Entry").
+Each exception class includes message texts, which can be found in the Texts tab in the [Class Builder](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_builder_glosry.htm "Glossary Entry").
 
 The following links open the Class Builder for the relevant exception class.
 

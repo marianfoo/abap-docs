@@ -4,22 +4,22 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  P
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shortref.htm) →  P
 
 PROVIDE - Quick reference
 
-[Reference](javascript:call_link\('abapprovide.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprovide.htm)
 
 Syntax
 
 PROVIDE FIELDS *{*\**|**{*comp1 comp2 ...*}**}*
                FROM itab1 INTO wa1 VALID flag1 ...
                BOUNDS intliml1 AND intlimu1
-               *\[*WHERE [log\_exp1](javascript:call_link\('abenlog_exp_shortref.htm'\))*\]*
+               *\[*WHERE [log\_exp1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlog_exp_shortref.htm)*\]*
         FIELDS *{*\**|**{*comp1 comp2 ...*}**}*
                FROM itab2 INTO wa2 VALID flag2
                BOUNDS intliml2 AND intlimu2
-               *\[*WHERE [log\_exp2](javascript:call_link\('abenlog_exp_shortref.htm'\))*\]*
+               *\[*WHERE [log\_exp2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlog_exp_shortref.htm)*\]*
                ...
         BETWEEN extliml AND extlimu
         *\[*INCLUDING GAPS*\]*.

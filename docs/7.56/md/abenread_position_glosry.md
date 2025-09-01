@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 read position
 
-[Operand position](javascript:call_link\('abenoperand_position_glosry.htm'\) "Glossary Entry") in which the [operand](javascript:call_link\('abenoperand_glosry.htm'\) "Glossary Entry") is read only.
+[Operand position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperand_position_glosry.htm "Glossary Entry") in which the [operand](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperand_glosry.htm "Glossary Entry") is read only.
 
-[→ More about](javascript:call_link\('abenoperand_positions.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperand_positions.htm)

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_generic_program.htm) → 
 
 Program Generation
 
@@ -346,7 +346,7 @@ ENDMODULE.
 
 Description
 
-The program permits declaration statements to be entered in a declaration part and operational statements to be entered in an implementation part. These entries are inserted consecutively into a method of a pattern program, which is imported into an internal table using the statement [READ REPORT](javascript:call_link\('abapread_report.htm'\)). When Execute is selected, the program is generated using [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_subroutine_pool.htm'\)) and the method is called. Before this happens, the syntax is checked using [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)).
+The program permits declaration statements to be entered in a declaration part and operational statements to be entered in an implementation part. These entries are inserted consecutively into a method of a pattern program, which is imported into an internal table using the statement [READ REPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_report.htm). When Execute is selected, the program is generated using [GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_subroutine_pool.htm) and the method is called. Before this happens, the syntax is checked using [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm).
 
 The ability to enter source code for a generic program presents the greatest potential security risk. The following measures have been taken to avoid abuse of this program:
 

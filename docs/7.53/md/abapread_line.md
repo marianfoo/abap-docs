@@ -4,18 +4,18 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Processing Lists in the List Buffer](javascript:call_link\('abenabap_lists_complex.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dynpro_list.htm) →  [Processing Lists in the List Buffer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_lists_complex.htm) → 
 
 READ LINE
 
-[Quick Reference](javascript:call_link\('abapread_line_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_line_shortref.htm)
 
 Syntax
 
 READ *{* *{*LINE line *\[**{*OF PAGE page*}**|**{*OF CURRENT PAGE*}**\]*
                    *\[*INDEX idx*\]**}*
      *|* *{*CURRENT LINE*}* *}*
-     *\[*[result](javascript:call_link\('abapread_line_result.htm'\))*\]*.
+     *\[*[result](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_line_result.htm)*\]*.
 
 Extras:
 
@@ -24,7 +24,7 @@ Extras:
 
 Effect
 
-This statement assigns the content of a line stored in the list buffer to the system field sy-lisel, and allows other target fields to be specified in [result](javascript:call_link\('abapread_line_result.htm'\)). In addition, all values for this line saved using [HIDE](javascript:call_link\('abaphide.htm'\)) are assigned to the respective variables.
+This statement assigns the content of a line stored in the list buffer to the system field sy-lisel, and allows other target fields to be specified in [result](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_line_result.htm). In addition, all values for this line saved using [HIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaphide.htm) are assigned to the respective variables.
 
 The line read is specified using the addition LINE or using CURRENT LINE.
 
@@ -87,4 +87,4 @@ AT LINE-SELECTION.
   ENDDO.
 
 Continue
-[READ LINE - result](javascript:call_link\('abapread_line_result.htm'\))
+[READ LINE - result](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_line_result.htm)

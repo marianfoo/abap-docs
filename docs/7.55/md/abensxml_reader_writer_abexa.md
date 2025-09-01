@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Class Libraries](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)) →  [sXML - Examples](javascript:call_link\('abenabap_sxml_lib_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml.htm) →  [XML - Class Libraries](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_libs.htm) →  [sXML Library](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sxml_lib.htm) →  [sXML - Examples](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sxml_lib_abexas.htm) → 
 
 sXML - Modifying XML Data
 
@@ -57,8 +57,8 @@ START-OF-SELECTION.
 
 Description
 
-In a loop, XML data is [parsed using object-oriented methods](javascript:call_link\('abenabap_sxml_lib_parse_oo.htm'\)). If the node is a character-like value node, the value in the associated object is transformed to uppercase letters. All read nodes and any modified nodes are [rendered using object-oriented methods](javascript:call_link\('abenabap_sxml_lib_render_oo.htm'\)) in the same loop. The result is XML data in which all literal text elements are in uppercase letters. See also the corresponding [executable example](javascript:call_link\('abenixml_modify_dom_abexa.htm'\)) for the iXML Library.
+In a loop, XML data is [parsed using object-oriented methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sxml_lib_parse_oo.htm). If the node is a character-like value node, the value in the associated object is transformed to uppercase letters. All read nodes and any modified nodes are [rendered using object-oriented methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sxml_lib_render_oo.htm) in the same loop. The result is XML data in which all literal text elements are in uppercase letters. See also the corresponding [executable example](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenixml_modify_dom_abexa.htm) for the iXML Library.
 
 Hint
 
-Any parts of XML data can be modified in a similar way. For example, the functions [to\_mixed](javascript:call_link\('abencase_functions.htm'\)), [from\_mixed](javascript:call_link\('abencase_functions.htm'\)) can be used to convert the names of XML elements between different naming conventions.
+Any parts of XML data can be modified in a similar way. For example, the functions [to\_mixed](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencase_functions.htm), [from\_mixed](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencase_functions.htm) can be used to convert the names of XML elements between different naming conventions.

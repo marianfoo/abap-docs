@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - ABAP Statements](javascript:call_link\('abenabap_dynpros_abap_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - ABAP Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_abap_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SUPPRESS DIALOG, ABAPSUPPRESS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestio
 n for improvement:)
 
 SUPPRESS DIALOG
 
-[Short Reference](javascript:call_link\('abapsuppress_dialog_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsuppress_dialog_shortref.htm)
 
 Syntax
 
@@ -19,9 +19,9 @@ SUPPRESS DIALOG.
 
 Effect
 
-If this statement is specified during [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") processing, the current [dynpro](javascript:call_link\('abendynpro_number_glosry.htm'\) "Glossary Entry") is processed without displaying the [screen layout](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry"), while the screen layout of the previous dynpro remains visible. After PBO processing, the system raises the event [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") in the same way as if a user had pressed Enter. The function code assigned to this key in the current GUI status is then transported to sy-ucomm and to the OK field. Outside of PBO processing, this statement is ignored.
+If this statement is specified during [PBO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpbo_glosry.htm "Glossary Entry") processing, the current [dynpro](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_number_glosry.htm "Glossary Entry") is processed without displaying the [screen layout](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_glosry.htm "Glossary Entry"), while the screen layout of the previous dynpro remains visible. After PBO processing, the system raises the event [PAI](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpai_glosry.htm "Glossary Entry") in the same way as if a user had pressed Enter. The function code assigned to this key in the current GUI status is then transported to sy-ucomm and to the OK field. Outside of PBO processing, this statement is ignored.
 
-If the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)) is used to send either a [termination message](javascript:call_link\('abentermination_message_glosry.htm'\) "Glossary Entry"), [error message](javascript:call_link\('abenerror_message_glosry.htm'\) "Glossary Entry"), [information message](javascript:call_link\('abeninformation_message_glosry.htm'\) "Glossary Entry"), or a [warning](javascript:call_link\('abenwarning_glosry.htm'\) "Glossary Entry") during PAI processing, the screen of the current dynpro is displayed together with the message.
+If the statement [MESSAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmessage.htm) is used to send either a [termination message](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentermination_message_glosry.htm "Glossary Entry"), [error message](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenerror_message_glosry.htm "Glossary Entry"), [information message](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninformation_message_glosry.htm "Glossary Entry"), or a [warning](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwarning_glosry.htm "Glossary Entry") during PAI processing, the screen of the current dynpro is displayed together with the message.
 
 Example
 

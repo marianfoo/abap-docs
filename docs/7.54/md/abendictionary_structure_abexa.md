@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Structures](javascript:call_link\('abendata_objects_structure.htm'\)) →  [Examples of structures](javascript:call_link\('abenstructure_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Structures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_objects_structure.htm) →  [Examples of structures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_abexas.htm) → 
 
 Structure from ABAP Dictionary
 
@@ -33,4 +33,4 @@ START-OF-SELECTION.
 
 Description
 
-Structure types of the ABAP Dictionary are typically used in ABAP programs to define structures or internal tables with a structured row type to process data that is imported to them from the database. The example shows how a structure carrier local to the program is declared by reference to a database table SCARR defined in the ABAP Dictionary, and used as the target area of a [SELECT](javascript:call_link\('abapselect.htm'\))statement.
+Structure types of the ABAP Dictionary are typically used in ABAP programs to define structures or internal tables with a structured row type to process data that is imported to them from the database. The example shows how a structure carrier local to the program is declared by reference to a database table SCARR defined in the ABAP Dictionary, and used as the target area of a [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm)statement.

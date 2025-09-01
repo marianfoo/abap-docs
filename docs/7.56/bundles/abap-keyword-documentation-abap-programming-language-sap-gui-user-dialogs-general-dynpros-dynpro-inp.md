@@ -3,30 +3,7 @@
 Included pages: 7
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenabap_dynpros_checks.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks.htm)
-- [abenabap_dynpros_checks_auto.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks_auto.htm)
-- [abenabap_dynpros_checks_mod.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks_mod.htm)
-- [abeninput_check_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_check_abexas.htm)
-- [abendynpro_auto_check_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_auto_check_abexa.htm)
-- [abendynpro_field_chain_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_field_chain_abexa.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.56
-**Generated**: 2025-09-01T11:25:45.504Z
-
----
-
 ### abenabap_dynpros_checks.htm
-
-> **📖 Official SAP Documentation**: [abenabap_dynpros_checks.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,33 +11,26 @@ Included pages: 7
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) → 
 
 dynpro - Input Checks
 
 Dynpros enables input values to be checked in the following ways:
 
--   [Automatic input checks](javascript:call_link\('abenabap_dynpros_checks_auto.htm'\))
--   [Input checks in dialog modules](javascript:call_link\('abenabap_dynpros_checks_mod.htm'\))
+-   [Automatic input checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks_auto.htm)
+-   [Input checks in dialog modules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks_mod.htm)
 
 Hint
 
-Obsolete input checks are possible using the additions [VALUES](javascript:call_link\('dynpfield_value_select.htm'\)) and [SELECT](javascript:call_link\('dynpfield_value_select.htm'\)) of the dynpro logic statement [FIELD](javascript:call_link\('dynpfield.htm'\)). These checks are made before dialog modules are called.
+Obsolete input checks are possible using the additions [VALUES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield_value_select.htm) and [SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield_value_select.htm) of the dynpro logic statement [FIELD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield.htm). These checks are made before dialog modules are called.
 
 Continue
-[dynpro - Automatic Input Checks](javascript:call_link\('abenabap_dynpros_checks_auto.htm'\))
-[dynpro - Input Checks in Dialog Modules](javascript:call_link\('abenabap_dynpros_checks_mod.htm'\))
-[dynpro - Examples of Input Checks](javascript:call_link\('abeninput_check_abexas.htm'\))
+[dynpro - Automatic Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks_auto.htm)
+[dynpro - Input Checks in Dialog Modules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks_mod.htm)
+[dynpro - Examples of Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_check_abexas.htm)
 
-
-
-**📖 Source**: [abenabap_dynpros_checks.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks.htm)
 
 ### abenabap_dynpros_checks_auto.htm
-
-> **📖 Official SAP Documentation**: [abenabap_dynpros_checks_auto.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks_auto.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -68,7 +38,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Input Checks](javascript:call_link\('abenabap_dynpros_checks.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks.htm) → 
 
 dynpro - Automatic Input Checks
 
@@ -90,25 +60,18 @@ The automatic input checks are performed in the following order:
     
     If an input field in the Screen Painter is defined by being taken from the ABAP Dictionary, the dynpro checks the following:
     
-    -   Does the entered value match any [foreign key relationship](javascript:call_link\('abenforeign_key_dependency_glosry.htm'\) "Glossary Entry") with a different database table? This means the check table is checked to verify whether the input value exists as a foreign key in the check table. This check only takes place, however, if the foreign key attribute is set for the input field in the Screen Painter. This input check is not necessarily identical with the [input help](javascript:call_link\('abenabap_dynpros_value_help_auto.htm'\)). The developers must ensure that the input help represents a subset of the content of the check table.
-    -   Does the entered value exist as a [fixed value](javascript:call_link\('abenfixed_value_glosry.htm'\) "Glossary Entry") of the domain of the field? This means that the definition of the domain of the field in the ABAP Dictionary is checked. The fixed values of the domain can also be used as an input help. The value table of a domain, however, is not checked. It is only used as a default value for the check tables of the fields that reference the domain.
+    -   Does the entered value match any [foreign key relationship](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenforeign_key_dependency_glosry.htm "Glossary Entry") with a different database table? This means the check table is checked to verify whether the input value exists as a foreign key in the check table. This check only takes place, however, if the foreign key attribute is set for the input field in the Screen Painter. This input check is not necessarily identical with the [input help](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_value_help_auto.htm). The developers must ensure that the input help represents a subset of the content of the check table.
+    -   Does the entered value exist as a [fixed value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfixed_value_glosry.htm "Glossary Entry") of the domain of the field? This means that the definition of the domain of the field in the ABAP Dictionary is checked. The fixed values of the domain can also be used as an input help. The value table of a domain, however, is not checked. It is only used as a default value for the check tables of the fields that reference the domain.
     
-    If necessary, the input check also triggers a [check on obsolete data](javascript:call_link\('abenddic_deprecation.htm'\)).
+    If necessary, the input check also triggers a [check on obsolete data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_deprecation.htm).
     
 
 Executable Example
 
-[Automatic Input Checks](javascript:call_link\('abendynpro_auto_check_abexa.htm'\))
+[Automatic Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_auto_check_abexa.htm)
 
-
-
-**📖 Source**: [abenabap_dynpros_checks_auto.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks_auto.htm)
 
 ### abenabap_dynpros_checks_mod.htm
-
-> **📖 Official SAP Documentation**: [abenabap_dynpros_checks_mod.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks_mod.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -116,19 +79,21 @@ Executable Example
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Input Checks](javascript:call_link\('abenabap_dynpros_checks.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks.htm) → 
 
 dynpro - Input Checks in Dialog Modules
 
-Input checks in PAI modules are enabled by first transporting the content of the input fields to the ABAP program. This is where the content can then be checked. Any errors can be corrected on the screen before further modules are called. This is achieved by combining the statements [FIELD](javascript:call_link\('dynpfield.htm'\)) and [CHAIN](javascript:call_link\('dynpchain.htm'\)) of the dynpro flow logic with [messages](javascript:call_link\('abendynp_field_messages.htm'\)).
+Input checks in PAI modules are enabled by first transporting the content of the input fields to the ABAP program. This is where the content can then be checked. Any errors can be corrected on the screen before further modules are called. This is achieved by combining the statements [FIELD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield.htm) and [CHAIN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpchain.htm) of the dynpro flow logic with [messages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_field_messages.htm).
 
--   [Checking Single Fields](#abenabap-dynpros-checks-mod-1-------checking-multiple-fields---@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_2)
--   [Defining Input-Enabled Fields and Data Transport](#abenabap-dynpros-checks-mod-3-------checking-fields-repeatedly---@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_4)
+-   [Checking Single Fields](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_1)
+-   [Checking Multiple Fields](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_2)
+-   [Defining Input-Enabled Fields and Data Transport](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_3)
+-   [Checking Fields Repeatedly](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_4)
 -   [Other Functions in the FIELD and CHAIN Statements](#@@ITOC@@ABENABAP_DYNPROS_CHECKS_MOD_5)
 
 Checking Single Fields
 
-If a [warning or error message](javascript:call_link\('abendynp_field_messages.htm'\)) is sent in a module mod whose call is combined with a [FIELD](javascript:call_link\('dynpfield.htm'\)) statement
+If a [warning or error message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_field_messages.htm) is sent in a module mod whose call is combined with a [FIELD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield.htm) statement
 
 FIELD f MODULE mod.
 
@@ -136,7 +101,7 @@ the input field in question becomes the only input-enabled field on the current 
 
 Checking Multiple Fields
 
-If a [warning or error message](javascript:call_link\('abendynp_field_messages.htm'\)) is sent in a module mod1, mod2, ... whose call takes place in a [processing chain](javascript:call_link\('dynpchain.htm'\))
+If a [warning or error message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_field_messages.htm) is sent in a module mod1, mod2, ... whose call takes place in a [processing chain](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpchain.htm)
 
 CHAIN.
   FIELD: f1, f2,...
@@ -146,37 +111,30 @@ CHAIN.
 ...
 ENDCHAIN.
 
-the input fields of all dynpro fields in the processing chain become input-enabled on the current dynpro. This includes fields after the [MODULE](javascript:call_link\('dynpmodule.htm'\)) statement in [FIELD](javascript:call_link\('dynpfield.htm'\)) statements. None of the other fields are input-enabled. Even when a MODULE statement is combined with a FIELD statement within a processing chain, all input fields in the chain become input-enabled and not just the field in question. If the fields in the processing chain are only checked once, PAI resumes directly after the CHAIN statement, and the preceding modules are not called again.
+the input fields of all dynpro fields in the processing chain become input-enabled on the current dynpro. This includes fields after the [MODULE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpmodule.htm) statement in [FIELD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield.htm) statements. None of the other fields are input-enabled. Even when a MODULE statement is combined with a FIELD statement within a processing chain, all input fields in the chain become input-enabled and not just the field in question. If the fields in the processing chain are only checked once, PAI resumes directly after the CHAIN statement, and the preceding modules are not called again.
 
 Defining Input-Enabled Fields and Data Transport
 
-In the case of warnings and error messages, a [FIELD](javascript:call_link\('dynpfield.htm'\)) statement outside of a processing chain defines whether a single field is input-enabled. [FIELD](javascript:call_link\('dynpfield.htm'\)) statements between [CHAIN - ENDCHAIN](javascript:call_link\('dynpchain.htm'\)), on the other hand, define whether multiple fields are input-enabled. Here, all fields linked using FIELD are transported back to the screen layout without PBO processing taking place. This ensures that any changes to the field content are displayed before a message. This also applies to the sending of information messages, but no fields are input-enabled.
+In the case of warnings and error messages, a [FIELD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield.htm) statement outside of a processing chain defines whether a single field is input-enabled. [FIELD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield.htm) statements between [CHAIN - ENDCHAIN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpchain.htm), on the other hand, define whether multiple fields are input-enabled. Here, all fields linked using FIELD are transported back to the screen layout without PBO processing taking place. This ensures that any changes to the field content are displayed before a message. This also applies to the sending of information messages, but no fields are input-enabled.
 
 Checking Fields Repeatedly
 
-It may be necessary to specify a single dynpro field in multiple [FIELD](javascript:call_link\('dynpfield.htm'\)) or [CHAIN](javascript:call_link\('dynpchain.htm'\)) statements. If an associated dialog module sends a warning or error message, PAI resumes after the user enters a new value. It is not possible to resume at the associated FIELD or CHAIN statement if the error field is also specified in an earlier FIELD or CHAIN statement.
+It may be necessary to specify a single dynpro field in multiple [FIELD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield.htm) or [CHAIN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpchain.htm) statements. If an associated dialog module sends a warning or error message, PAI resumes after the user enters a new value. It is not possible to resume at the associated FIELD or CHAIN statement if the error field is also specified in an earlier FIELD or CHAIN statement.
 
 Instead, all FIELD and CHAIN statements containing the error field must be repeated. PAI processing resumes at the first FIELD or CHAIN statement containing one or more of the fields in the FIELD or CHAIN statement in which the error occurred and which were modified the last time the screen layout was displayed.
 
 Other Functions in the FIELD and CHAIN Statements
 
-All functions of the statements [FIELD](javascript:call_link\('dynpfield.htm'\)) and [CHAIN](javascript:call_link\('dynpchain.htm'\)) used to defined data transport and for conditional module calls are also available in combination with warnings and error messages. The content of each field is transported after the FIELD statement in question. A warning or error message in a conditional module in a processing chain makes all fields in the chain input-enabled, although not all fields need to be transported.
+All functions of the statements [FIELD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield.htm) and [CHAIN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpchain.htm) used to defined data transport and for conditional module calls are also available in combination with warnings and error messages. The content of each field is transported after the FIELD statement in question. A warning or error message in a conditional module in a processing chain makes all fields in the chain input-enabled, although not all fields need to be transported.
 
 If warnings or error messages are sent in dialog modules that are not linked with fields using FIELD or CHAIN, no dynpro fields become input-enabled. This makes a termination necessary, which itself requires a corresponding unconditional module call.
 
 Executable Example
 
-[Input Checks in Dialog Modules](javascript:call_link\('abendynpro_field_chain_abexa.htm'\))
+[Input Checks in Dialog Modules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_field_chain_abexa.htm)
 
-
-
-**📖 Source**: [abenabap_dynpros_checks_mod.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks_mod.htm)
 
 ### abeninput_check_abexas.htm
-
-> **📖 Official SAP Documentation**: [abeninput_check_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_check_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -184,23 +142,16 @@ Executable Example
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Input Checks](javascript:call_link\('abenabap_dynpros_checks.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks.htm) → 
 
 dynpro - Examples of Input Checks
 
 Continue
-![Example](exa.gif "Example") [dynpro - Automatic Input Checks](javascript:call_link\('abendynpro_auto_check_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Input Checks in Dialog Modules](javascript:call_link\('abendynpro_field_chain_abexa.htm'\))
+![Example](exa.gif "Example") [dynpro - Automatic Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_auto_check_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Input Checks in Dialog Modules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_field_chain_abexa.htm)
 
-
-
-**📖 Source**: [abeninput_check_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_check_abexas.htm)
 
 ### abendynpro_auto_check_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendynpro_auto_check_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_auto_check_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -208,7 +159,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Input Checks](javascript:call_link\('abenabap_dynpros_checks.htm'\)) →  [dynpro - Examples of Input Checks](javascript:call_link\('abeninput_check_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks.htm) →  [dynpro - Examples of Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_check_abexas.htm) → 
 
 dynpro - Automatic Input Checks
 
@@ -254,14 +205,7 @@ The user must fill all input fields with valid values before the PAI module can 
 The user can exit the dynpro using Cancel (F12) without correctly entering all values, since the module call was programmed accordingly using AT EXIT-COMMAND.
 
 
-
-**📖 Source**: [abendynpro_auto_check_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_auto_check_abexa.htm)
-
 ### abendynpro_field_chain_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendynpro_field_chain_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_field_chain_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -269,7 +213,7 @@ The user can exit the dynpro using Cancel (F12) without correctly entering all v
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Input Checks](javascript:call_link\('abenabap_dynpros_checks.htm'\)) →  [dynpro - Examples of Input Checks](javascript:call_link\('abeninput_check_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks.htm) →  [dynpro - Examples of Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_check_abexas.htm) → 
 
 dynpro - Input Checks in Dialog Modules
 
@@ -351,17 +295,7 @@ The fields input4 to input6 are checked together in the processing chain. If inp
 The execution module, from which an information message is displayed, is not executed until all six fields fulfill the appropriate conditions.
 
 
-
-**📖 Source**: [abendynpro_field_chain_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_field_chain_abexa.htm)
-
 ### abeninput_check_abexas.htm
-
-> **📖 Official SAP Documentation**: [abeninput_check_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_check_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abeninput_check_abexas.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_check_abexas.htm)
-
 
   
 
@@ -369,10 +303,10 @@ The execution module, from which an information message is displayed, is not exe
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Input Checks](javascript:call_link\('abenabap_dynpros_checks.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_checks.htm) → 
 
 dynpro - Examples of Input Checks
 
 Continue
-![Example](exa.gif "Example") [dynpro - Automatic Input Checks](javascript:call_link\('abendynpro_auto_check_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Input Checks in Dialog Modules](javascript:call_link\('abendynpro_field_chain_abexa.htm'\))
+![Example](exa.gif "Example") [dynpro - Automatic Input Checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_auto_check_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Input Checks in Dialog Modules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_field_chain_abexa.htm)

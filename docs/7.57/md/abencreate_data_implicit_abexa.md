@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) →  [CREATE DATA dref](javascript:call_link\('abapcreate_data_implicit.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencreate_objects.htm) →  [CREATE DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_data.htm) →  [CREATE DATA dref](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_data_implicit.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Creating Data Objects with Implicit Type, ABENCREATE_DATA_IMPLICIT_ABEXA, 757%0D%0A%0
 D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -45,4 +45,4 @@ START-OF-SELECTION.
 
 Description   
 
-Creation of an internal table and a data object of type i. The data types of the created objects are the static types of the reference variables tab\_ref and i\_ref. The data objects are created directly before they are used and are then passed to the [Garbage Collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry") by the initialization of the reference variable. The data objects are accessed by dereferencing the data references.
+Creation of an internal table and a data object of type i. The data types of the created objects are the static types of the reference variables tab\_ref and i\_ref. The data objects are created directly before they are used and are then passed to the [Garbage Collector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengarbage_collector_glosry.htm "Glossary Entry") by the initialization of the reference variable. The data objects are accessed by dereferencing the data references.

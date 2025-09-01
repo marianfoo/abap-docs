@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Object Services (OS)](javascript:call_link\('abenabap_object_services.htm'\)) →  [OS - Persistence Service](javascript:call_link\('abenabap_object_services_persist.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [Object Services (OS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_object_services.htm) →  [OS - Persistence Service](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_object_services_persist.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: OS - Object-Relational Mapping, ABENOS_PERSISTENCE_MAPPING, 757%0D%0A%0D%0AError:%0D%
 0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 OS - Object-Relational Mapping
 
-Technically speaking, all objects in ABAP Objects, including persistent objects managed by the Persistence Service, exist only transiently in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of an ABAP program. Conversely, AS ABAP data exists persistently in the database. The persistence of objects is achieved by object-relational mapping between database tables and the attributes of persistent classes. The mapping of existing persistent classes is defined using the Mapping Assistant of the Class Builder. The support of the Mapping Assistant is stopped, and no new mappings should be created.
+Technically speaking, all objects in ABAP Objects, including persistent objects managed by the Persistence Service, exist only transiently in the [internal session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternal_session_glosry.htm "Glossary Entry") of an ABAP program. Conversely, AS ABAP data exists persistently in the database. The persistence of objects is achieved by object-relational mapping between database tables and the attributes of persistent classes. The mapping of existing persistent classes is defined using the Mapping Assistant of the Class Builder. The support of the Mapping Assistant is stopped, and no new mappings should be created.
 
 Mapping by Business Key   
 
@@ -55,4 +55,4 @@ Structure Mapping  
 
 In this case, the mapping is performed to the ABAP Dictionary structures, rather than to database tables or DDIC database views. The application developer therefore has to program the type of persistent data storage in the relevant methods of the class agent.
 
-A structure mapping is necessary, for example, if a persistent object is to contain table-like attributes. Database tables can only have flat structures, which prevents the object from being mapped to a table in this case. Even if a different form of persistent data storage is to be used, for example, files on the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the AS instance, structure mapping has to be used.
+A structure mapping is necessary, for example, if a persistent object is to contain table-like attributes. Database tables can only have flat structures, which prevents the object from being mapped to a table in this case. Even if a different form of persistent data storage is to be used, for example, files on the [host computer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the AS instance, structure mapping has to be used.

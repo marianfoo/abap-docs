@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ICF - Internet Communication Framework](javascript:call_link\('abenicf.htm'\)) →  [ICF Examples](javascript:call_link\('abenicf_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ICF - Internet Communication Framework](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenicf.htm) →  [ICF Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenicf_abexas.htm) → 
 
 Accessing the MIME Repository from a HTTP Service
 
-This example demonstrates how the MIME repository is accessed using an HTTP service in [ICF](javascript:call_link\('abenicf_glosry.htm'\) "Glossary Entry").
+This example demonstrates how the MIME repository is accessed using an HTTP service in [ICF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenicf_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -57,6 +57,6 @@ Description
 
 The HTTP service /sap/bc/abap/demo\_mime can be called with different contents of the form field mime\_access of the URL:
 
--   If the form field has the value icf, the handler class CL\_HTTP\_EXT\_MIME\_DEMO creates an HTML file. This file points to an image in the MIME repository (as described in a different executable [example](javascript:call_link\('abenicf_mime_pictures_abexa.htm'\))).
+-   If the form field has the value icf, the handler class CL\_HTTP\_EXT\_MIME\_DEMO creates an HTML file. This file points to an image in the MIME repository (as described in a different executable [example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenicf_mime_pictures_abexa.htm)).
 
 -   If the form field has the value api, the handler class CL\_HTTP\_EXT\_MIME\_DEMO creates the HTML file and also the image that is referenced in the HTML file. The image is loaded and forwarded using MIME-API.

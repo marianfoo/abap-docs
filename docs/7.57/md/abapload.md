@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Development](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) →  [Internal Statements for Source Code Processing](javascript:call_link\('abengeneric_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_editing.htm) →  [Dynamic Program Development](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_generic_program.htm) →  [Internal Statements for Source Code Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneric_internal.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: LOAD REPORT, ABAPLOAD, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for im
 provement:)
@@ -20,7 +20,7 @@ LOAD REPORT prog PART part INTO itab.
 
 Effect
 
-The part specified in part of the generated form ([load](javascript:call_link\('abenload_glosry.htm'\) "Glossary Entry")) of the program prog specified in prog is loaded into the internal table itab for analysis purposes. itab must be a standard table and secondary keys are allowed.
+The part specified in part of the generated form ([load](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenload_glosry.htm "Glossary Entry")) of the program prog specified in prog is loaded into the internal table itab for analysis purposes. itab must be a standard table and secondary keys are allowed.
 
 The following table shows the possible content of part, its meaning, and the requested line type of itab.
 
@@ -164,7 +164,7 @@ RINTR
 
 'IREF'
 
-Additional information for addressing using [interface reference variables](javascript:call_link\('abeninterface_ref_variable_glosry.htm'\) "Glossary Entry")
+Additional information for addressing using [interface reference variables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterface_ref_variable_glosry.htm "Glossary Entry")
 
 RIREF
 
@@ -200,7 +200,7 @@ RPBAG
 
 'SELC'
 
-Description of the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") variables
+Description of the [selection screen](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselection_screen_glosry.htm "Glossary Entry") variables
 
 RSELC
 
@@ -308,7 +308,7 @@ RTYPE
 
 'VTAB'
 
-Offsets for all methods (classes, [event handlers](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry"), instances, interfaces)
+Offsets for all methods (classes, [event handlers](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenevent_handler_glosry.htm "Glossary Entry"), instances, interfaces)
 
 RVTAB
 
@@ -344,7 +344,7 @@ The load of the program prog does not exist.
 
 The load of the program prog exists but is not up-to-date. In special cases, this sy-subrc can also mean that the program load has been destroyed. This can be fixed by generating again. In PART 'LREF', sy-subrc = 8 means that the line reference table does not fit the program. In PART 'CONT', the reference part of the internal table is not filled.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

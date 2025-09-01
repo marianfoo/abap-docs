@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Open SQL](javascript:call_link\('abenopensql.htm'\)) →  [Open SQL - Streaming and Locators](javascript:call_link\('abenstreams_locators.htm'\)) →  [Open SQL - Examples forLOB Handles](javascript:call_link\('abenlobs_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql.htm) →  [Open SQL - Streaming and Locators](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreams_locators.htm) →  [Open SQL - Examples forLOB Handles](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlobs_abexas.htm) → 
 
 Locator, Access to Column Content
 
-The example demonstrates how to access texts in the database by using [locators](javascript:call_link\('abenlocator_glosry.htm'\) "Glossary Entry").
+The example demonstrates how to access texts in the database by using [locators](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocator_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -55,8 +55,8 @@ START-OF-SELECTION.
 
 Description
 
-In this example, the text column of a database table in which texts from the Online Text Repository (OTR) are stored in a column of the type STRING, is accessed in a SELECT loop using [](javascript:call_link\('abenselect_into_lob_handles.htm'\))locators which were created there.
+In this example, the text column of a database table in which texts from the Online Text Repository (OTR) are stored in a column of the type STRING, is accessed in a SELECT loop using [](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_into_lob_handles.htm)locators which were created there.
 
 The methods of the locators allow you to get information about the texts without them having to be transported into the ABAP program. In the example, the average length of all texts of a language is determined and the number of texts which contain a specific character string is returned.
 
-Since the number of locators in each [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry") is limited, the locator created there must be closed explicitly at the end of each SELECT loop. The runtime error DBIF\_RSQL\_TOO\_MANY\_LOB\_HANDLES occurs if the maximum number of open locators is exceeded.
+Since the number of locators in each [database LUW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_luw_glosry.htm "Glossary Entry") is limited, the locator created there must be closed explicitly at the end of each SELECT loop. The runtime error DBIF\_RSQL\_TOO\_MANY\_LOB\_HANDLES occurs if the maximum number of open locators is exceeded.

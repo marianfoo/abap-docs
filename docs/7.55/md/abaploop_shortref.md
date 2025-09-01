@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  L
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  L
 
 LOOP - Quick reference
 
-[Reference](javascript:call_link\('abaploop-.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaploop-.htm)
 
 Syntax
 
@@ -18,4 +18,4 @@ ENDLOOP.
 
 Effect
 
-Obsolete: Reads the [extract data set](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry") of the program in a loop and assigns (for each loop pass) the content of the read line to the data objects that make up the [field group](javascript:call_link\('abenfield_group_glosry.htm'\) "Glossary Entry") defined using INSERT INTO field\_group.
+Obsolete: Reads the [extract data set](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenextract_dataset_glosry.htm "Glossary Entry") of the program in a loop and assigns (for each loop pass) the content of the read line to the data objects that make up the [field group](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield_group_glosry.htm "Glossary Entry") defined using INSERT INTO field\_group.

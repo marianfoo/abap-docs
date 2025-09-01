@@ -4,23 +4,23 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [ABAP CDS - managed and unmanaged behavior definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [CDS BDL - entity behavior definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [CDS BDL - entity behavior body](javascript:call_link\('abenbdl_body.htm'\)) →  [CDS BDL - RAP BO operations](javascript:call_link\('abenbdl_operations.htm'\)) →  [CDS BDL - non-standard operations](javascript:call_link\('abenbdl_nonstandard.htm'\)) →  [CDS BDL - action](javascript:call_link\('abenbdl_action.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl.htm) →  [ABAP CDS - managed and unmanaged behavior definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_rap_bo.htm) →  [CDS BDL - entity behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh.htm) →  [CDS BDL - entity behavior body](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body.htm) →  [CDS BDL - RAP BO operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_operations.htm) →  [CDS BDL - non-standard operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_nonstandard.htm) →  [CDS BDL - action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm) → 
 
 CDS BDL - action, non-factory
 
 Syntax
 
-*\[*[internal](javascript:call_link\('abenbdl_internal.htm'\))*\]**\[*static*\]* action
+*\[*[internal](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_internal.htm)*\]**\[*static*\]* action
                   *\[*(
-                  *\[*[features: *{*instance *|* global*}*](javascript:call_link\('abenbdl_actions_fc.htm'\))*\]*
-                  *\[*[precheck](javascript:call_link\('abenbdl_precheck.htm'\))*\]*
-                  *\[* [authorization:none](javascript:call_link\('abenbdl_actions_auth.htm'\))*\]*
-                  *\[* [authorization:update](javascript:call_link\('abenbdl_actions_auth_update.htm'\))*\]*
+                  *\[*[features: *{*instance *|* global*}*](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actions_fc.htm)*\]*
+                  *\[*[precheck](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_precheck.htm)*\]*
+                  *\[* [authorization:none](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actions_auth.htm)*\]*
+                  *\[* [authorization:update](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actions_auth_update.htm)*\]*
                   *\[*lock:none*\]*
                    )*\]*
                    ActionName *\[*external 'ExternalName'*\]*
-                  *\[* [InputParameter](javascript:call_link\('abenbdl_action_input_param.htm'\))*\]*
-                  *\[*[OutputParameter](javascript:call_link\('abenbdl_action_output_para.htm'\))*\]*
+                  *\[* [InputParameter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action_input_param.htm)*\]*
+                  *\[*[OutputParameter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action_output_para.htm)*\]*
 
 Additions:
 
@@ -29,28 +29,28 @@ Additions:
 
 Effect
 
-Defines a [RAP action](javascript:call_link\('abenrap_action_glosry.htm'\) "Glossary Entry") which offers non-standard behavior. The custom logic must be implemented in the [RAP handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") [FOR MODIFY](javascript:call_link\('abaphandler_meth_modify.htm'\)). An action per default relates to a [RAP BO entity instance](javascript:call_link\('abenrap_bo_entity_inst_glosry.htm'\) "Glossary Entry") and changes the state of the instance.
+Defines a [RAP action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_action_glosry.htm "Glossary Entry") which offers non-standard behavior. The custom logic must be implemented in the [RAP handler method](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") [FOR MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_modify.htm). An action per default relates to a [RAP BO entity instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_entity_inst_glosry.htm "Glossary Entry") and changes the state of the instance.
 
-If the optional keyword static is used, the action is defined as [static action](javascript:call_link\('abenrap_static_operation_glosry.htm'\) "Glossary Entry"). Static actions are not bound to any instance of a [RAP BO entity](javascript:call_link\('abenrap_bo_entity_glosry.htm'\) "Glossary Entry") but relate to the complete entity. The default is that an action is related to an [instance](javascript:call_link\('abenrap_instance_operation_glosry.htm'\) "Glossary Entry"), so the keyword static overwrites the default.
+If the optional keyword static is used, the action is defined as [static action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_static_operation_glosry.htm "Glossary Entry"). Static actions are not bound to any instance of a [RAP BO entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_entity_glosry.htm "Glossary Entry") but relate to the complete entity. The default is that an action is related to an [instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_instance_operation_glosry.htm "Glossary Entry"), so the keyword static overwrites the default.
 
-The following [CDS BDL operation additions](javascript:call_link\('abenbdl_operations_additions.htm'\)) are possible:
+The following [CDS BDL operation additions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_operations_additions.htm) are possible:
 
--   [internal](javascript:call_link\('abenbdl_internal.htm'\)) to make the respective action accessible only from within the business object implementation.
--   Dynamic feature control with [(features:instance)](javascript:call_link\('abenbdl_actions_fc.htm'\)). This allows to enable or disable the action depending on preconditions within the business object. For example, the action Accept\_Order might be offered only if the status is not Rejected already.
--   Global feature control with [(features:global)](javascript:call_link\('abenbdl_actions_fc.htm'\)) allows to enable or disable the action depending on BO-external preconditions.
--   [precheck](javascript:call_link\('abenbdl_precheck.htm'\)) prevents unwanted changes from reaching the application buffer.
--   [authorization:none](javascript:call_link\('abenbdl_actions_auth.htm'\)) excludes the operation in question from [authorization checks](javascript:call_link\('abenbdl_authorization.htm'\)).
+-   [internal](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_internal.htm) to make the respective action accessible only from within the business object implementation.
+-   Dynamic feature control with [(features:instance)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actions_fc.htm). This allows to enable or disable the action depending on preconditions within the business object. For example, the action Accept\_Order might be offered only if the status is not Rejected already.
+-   Global feature control with [(features:global)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actions_fc.htm) allows to enable or disable the action depending on BO-external preconditions.
+-   [precheck](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_precheck.htm) prevents unwanted changes from reaching the application buffer.
+-   [authorization:none](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actions_auth.htm) excludes the operation in question from [authorization checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_authorization.htm).
     
     Note: For static actions, the addition authorization:none is available only in case of global authorization.
     
--   [authorization:update](javascript:call_link\('abenbdl_actions_auth_update.htm'\)) delegates the [authorization control](javascript:call_link\('abenbdl_authorization.htm'\)) to the authorization check that is implemented for the update operation.
--   Input parameters [InputParameter](javascript:call_link\('abenbdl_action_input_param.htm'\)) and output parameters [OutputParameter](javascript:call_link\('abenbdl_action_output_para.htm'\)) can optionally be added to the action signature.
+-   [authorization:update](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_actions_auth_update.htm) delegates the [authorization control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_authorization.htm) to the authorization check that is implemented for the update operation.
+-   Input parameters [InputParameter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action_input_param.htm) and output parameters [OutputParameter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action_output_para.htm) can optionally be added to the action signature.
 
 Availability
 
--   [Managed RAP BO](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry")
--   [Unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry")
--   In a [projection BO](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry"), actions from the base BDEF can be reused. For details on reuse, see topic [CDS BDL - use, projection BDEF](javascript:call_link\('abenbdl_use_projection.htm'\)). It is also possible to specify new actions as described in topic [CDS BDL - actions and functions, projection BDEF](javascript:call_link\('abenbdl_nonstandard_projection.htm'\)).
+-   [Managed RAP BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry")
+-   [Unmanaged RAP BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry")
+-   In a [projection BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_projection_bo_glosry.htm "Glossary Entry"), actions from the base BDEF can be reused. For details on reuse, see topic [CDS BDL - use, projection BDEF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_use_projection.htm). It is also possible to specify new actions as described in topic [CDS BDL - actions and functions, projection BDEF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_nonstandard_projection.htm).
 
 Further Information
 
@@ -58,7 +58,7 @@ Development guide for the ABAP RESTful Application Programming Model, section ab
 
 Example
 
-The following example shows a managed [BDEF](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") based on the CDS root view entity DEMO\_CDS\_PURCH\_DOC\_M. The business object represents a purchase order with purchase order items. If an employee wants to order equipment, the manager can approve or reject this purchase. Therefore, the two actions Approve\_Order and Reject\_Order are defined.
+The following example shows a managed [BDEF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") based on the CDS root view entity DEMO\_CDS\_PURCH\_DOC\_M. The business object represents a purchase order with purchase order items. If an employee wants to order equipment, the manager can approve or reject this purchase. Therefore, the two actions Approve\_Order and Reject\_Order are defined.
 
 managed implementation in class bp\_demo\_cds\_purch\_doc\_m unique;
 strict;
@@ -90,7 +90,7 @@ authorization dependent by \_PurchaseDocument
   mapping for DEMO\_PURCH\_DOC\_I corresponding;
 }
 
-The actions are implemented in behavior pool BP\_DEMO\_CDS\_PURCH\_DOC\_M. The program DEMO\_CDS\_PURCHASE accesses the business object using [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") and performs the Approve\_Order action on one entity instance.
+The actions are implemented in behavior pool BP\_DEMO\_CDS\_PURCH\_DOC\_M. The program DEMO\_CDS\_PURCHASE accesses the business object using [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") and performs the Approve\_Order action on one entity instance.
 
 Result: column Status of the respective instance is filled with A for Accepted.
 
@@ -98,7 +98,7 @@ Result: column Status of the respective instance is filled with A for Accepted.
 
 Executable Example
 
-The example above is explained in detail in the executable example [CDS BDL - action](javascript:call_link\('abenbdl_action1_abexa.htm'\)).
+The example above is explained in detail in the executable example [CDS BDL - action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action1_abexa.htm).
 
 Addition 1   
 
@@ -106,7 +106,7 @@ Addition 1  
 
 Effect
 
-Prevents the [locking mechanism](javascript:call_link\('abenrap_locking_glosry.htm'\) "Glossary Entry") for the entity instance for which an action is executed. Since static actions are not related to a specific instance, they are non-locking by definition and this syntax element is not applicable.
+Prevents the [locking mechanism](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_locking_glosry.htm "Glossary Entry") for the entity instance for which an action is executed. Since static actions are not related to a specific instance, they are non-locking by definition and this syntax element is not applicable.
 Note: The locking mechanism is only prevented for the action itself. Possible modify calls in the action implementation are not affected by the non-locking specification in the action definition. Consequently, an instance is locked if it is modified by an action even if the action is defined as non-locking.
 
 Addition 2   

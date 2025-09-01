@@ -3,28 +3,7 @@
 Included pages: 4
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_abexas.htm)
-- [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenraise_abexa.htm)
-- [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentry_abexa.htm)
-- [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencatch_exception_abexa.htm)
-
-**Bundle Contains**: 4 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.506Z
-
----
-
 ### abenexception_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -32,24 +11,17 @@ Included pages: 4
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions.htm) → 
 
 Examples of Exceptions
 
 Continue
-![Example](exa.gif "Example") [Exceptions, RAISE](javascript:call_link\('abenraise_abexa.htm'\))
-![Example](exa.gif "Example") [Exceptions, TRY](javascript:call_link\('abentry_abexa.htm'\))
-![Example](exa.gif "Example") [Exceptions - CATCH](javascript:call_link\('abencatch_exception_abexa.htm'\))
+![Example](exa.gif "Example") [Exceptions, RAISE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenraise_abexa.htm)
+![Example](exa.gif "Example") [Exceptions, TRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentry_abexa.htm)
+![Example](exa.gif "Example") [Exceptions - CATCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencatch_exception_abexa.htm)
 
-
-
-**📖 Source**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_abexas.htm)
 
 ### abenraise_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenraise_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -57,7 +29,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [Examples of Exceptions](javascript:call_link\('abenexception_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions.htm) →  [Examples of Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_abexas.htm) → 
 
 Exceptions, RAISE
 
@@ -105,14 +77,7 @@ This example shows the two variants of the RAISE EXCEPTION statement. The first 
 The line number in which the exception was raised is shown to indicate that, when the existing exception object was reused, information relevant to this object was modified.
 
 
-
-**📖 Source**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenraise_abexa.htm)
-
 ### abentry_abexa.htm
-
-> **📖 Official SAP Documentation**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentry_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -120,7 +85,7 @@ The line number in which the exception was raised is shown to indicate that, whe
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [Examples of Exceptions](javascript:call_link\('abenexception_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions.htm) →  [Examples of Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_abexas.htm) → 
 
 Exceptions, TRY
 
@@ -186,7 +151,7 @@ START-OF-SELECTION.
 
 Description
 
--   If the content of number is larger than 100, in the TRY block the TRY control structure of the [framework program](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") will trigger an exception of the class CX\_DEMO\_ABS\_TOO\_LARGE. This exception is handled by the second CATCH block of the same TRY control structure since the subclass of the most general exception is CX\_ROOT.
+-   If the content of number is larger than 100, in the TRY block the TRY control structure of the [framework program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenframe_program_glosry.htm "Glossary Entry") will trigger an exception of the class CX\_DEMO\_ABS\_TOO\_LARGE. This exception is handled by the second CATCH block of the same TRY control structure since the subclass of the most general exception is CX\_ROOT.
 
 -   If the content of number is 0, the runtime environment in the TRY block of the TRY control structure of the called method calculation triggers an exception of the predfined class CX\_SY\_ZERODIVIDE. This is handled in the CATCH block of the same TRY control structure.
 
@@ -195,17 +160,7 @@ Description
 -   Other possible exceptions are handled in the last CATCH block of the TRY control structure of the framework program. This block catches all possible exceptions through the specification of the most general exception class CX\_ROOT. If, for example, CX\_SY\_ARG\_OUT\_OF\_DOMAIN or one of its superclasses is not declared in the method interface, you would have the exception CX\_SY\_NO\_HANDLER, which would be handled in the last CATCH block.
 
 
-
-**📖 Source**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentry_abexa.htm)
-
 ### abencatch_exception_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencatch_exception_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencatch_exception_abexa.htm)
-
 
   
 
@@ -213,7 +168,7 @@ Description
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [Examples of Exceptions](javascript:call_link\('abenexception_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions.htm) →  [Examples of Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_abexas.htm) → 
 
 Exceptions - CATCH
 

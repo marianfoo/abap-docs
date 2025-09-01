@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 trusting system
 
-[AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry") that trusts a [trusted system](javascript:call_link\('abentrusted_system_glosry.htm'\) "Glossary Entry") in calls using [Remote Function Call](javascript:call_link\('abenremote_function_call_glosry.htm'\) "Glossary Entry"). The trusting system provides the [RFC server](javascript:call_link\('abenrfc_server_glosry.htm'\) "Glossary Entry"). The trusting systems can be listed in a trusted system using [transaction code](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry") SMT2.
+[AS ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm "Glossary Entry") that trusts a [trusted system](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentrusted_system_glosry.htm "Glossary Entry") in calls using [Remote Function Call](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenremote_function_call_glosry.htm "Glossary Entry"). The trusting system provides the [RFC server](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_server_glosry.htm "Glossary Entry"). The trusting systems can be listed in a trusted system using [transaction code](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_code_glosry.htm "Glossary Entry") SMT2.
 
-[→ More about](javascript:call_link\('abensmt1_2.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensmt1_2.htm)

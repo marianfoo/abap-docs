@@ -4,18 +4,18 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CALL TRANSACTION, USING, ABAPCALL_TRANSACTION_USING, 757%0D%0A%0D%0AError:%0D%0A%0D%0
 A%0D%0A%0D%0ASuggestion for improvement:)
 
 CALL TRANSACTION, USING
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_shortref.htm)
 
 Syntax
 
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
+CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_authority.htm)
                     USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
                                   *|*  *\[*OPTIONS FROM opt*\]* *}*
                                      *\[*MESSAGES INTO itab*\]*.
@@ -29,13 +29,13 @@ Additions:
 
 Effect
 
-In the variant with the addition USING, the transaction is executed using a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) are used to control the authorization check.
+In the variant with the addition USING, the transaction is executed using a [batch input table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_table_glosry.htm "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transaction_authority.htm) are used to control the authorization check.
 
 bdc\_tab expects an internal table with the line type BDCDATA from the ABAP Dictionary. The additions control its processing.
 
 When a transaction with the addition USING is called, the system field sy-binpt is set to the value X in the called program, and no other transaction can be called using this addition while this transaction is running.
 
-In a program, a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
+In a program, a [batch input table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
 
 Component
 
@@ -55,13 +55,13 @@ Flag for the start of a new dynpro (possible values are X and blank)
 
 FNAM
 
-Name of a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
+Name of a [dynpro field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_field_glosry.htm "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
 
 FVAL
 
 Value to be passed to the dynpro field or to the control statement
 
-Using the [content](javascript:call_link\('abenbatch_input_table.htm'\)) of the internal table bdc\_tab, any number of screens of the called transaction can be provided with input and user actions.
+Using the [content](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_table.htm) of the internal table bdc\_tab, any number of screens of the called transaction can be provided with input and user actions.
 
 System Fields
 
@@ -75,7 +75,7 @@ The called transaction was processed successfully.
 
 < 1000
 
-Error in the called transaction. If a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
+Error in the called transaction. If a [message](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmessage_glosry.htm "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
 
 1001
 
@@ -83,8 +83,8 @@ Processing error.
 
 Hints
 
--   Calling a transaction using a batch input table is actually not the same as executing [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"). However, there is no exact dividing line between the two, since batch input-based frameworks, such as [CATT](javascript:call_link\('abencatt_glosry.htm'\) "Glossary Entry"), and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. As a result, they can use certain options that are not available in genuine batch input.
--   The control options for a batch input table include the control options for [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in real [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"), and sometimes exceed them.
+-   Calling a transaction using a batch input table is actually not the same as executing [batch input sessions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_glosry.htm "Glossary Entry"). However, there is no exact dividing line between the two, since batch input-based frameworks, such as [CATT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencatt_glosry.htm "Glossary Entry"), and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. As a result, they can use certain options that are not available in genuine batch input.
+-   The control options for a batch input table include the control options for [batch input sessions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in real [batch input](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_glosry.htm "Glossary Entry"), and sometimes exceed them.
 
 Example
 
@@ -114,7 +114,7 @@ Effect
 
 A
 
-Processing with display of the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry")
+Processing with display of the [screens](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_glosry.htm "Glossary Entry")
 
 E
 
@@ -122,7 +122,7 @@ Display of screens only if an error occurs
 
 N
 
-Processing without display of the screens. If a breakpoint is reached in one of the called [transactions](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. Then, the field sy-msgty contains S, sy-msgid contains 00, sy-msgno contains 344, sy-msgv1 contains SAPMSSY3, and sy-msgv2 contains 0131.
+Processing without display of the screens. If a breakpoint is reached in one of the called [transactions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransaction_glosry.htm "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. Then, the field sy-msgty contains S, sy-msgid contains 00, sy-msgno contains 344, sy-msgv1 contains SAPMSSY3, and sy-msgv2 contains 0131.
 
 P
 
@@ -146,7 +146,7 @@ Effect
 
 A
 
-Asynchronous update. [Updates](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry") of the called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)).
+Asynchronous update. [Updates](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenupdate_glosry.htm "Glossary Entry") of the called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit.htm).
 
 S
 
@@ -154,7 +154,7 @@ Synchronous update. Updates of the called programs are executed in the same way 
 
 L
 
-Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](javascript:call_link\('abapset_update_task_local.htm'\)) had been executed in it.
+Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_update_task_local.htm) had been executed in it.
 
 Others
 
@@ -162,7 +162,7 @@ As for A.
 
 Hint
 
-This option is not available for execution of [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"). Updates are always synchronous here.
+This option is not available for execution of [batch input sessions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_glosry.htm "Glossary Entry"). Updates are always synchronous here.
 
 Addition 3   
 
@@ -186,15 +186,15 @@ Update mode for processing. Values as for the addition UPDATE.
 
 CATTMODE
 
-[CATT](javascript:call_link\('abencatt_glosry.htm'\) "Glossary Entry") mode for processing. While [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry") is used mostly for data transfer, CATT processes are designed to be reusable tests of more complex [transactions](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry"). Values: blank (no CATT mode), N (CATT without single screen control), A (CATT with single screen control).
+[CATT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencatt_glosry.htm "Glossary Entry") mode for processing. While [batch input](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_glosry.htm "Glossary Entry") is used mostly for data transfer, CATT processes are designed to be reusable tests of more complex [transactions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransaction_glosry.htm "Glossary Entry"). Values: blank (no CATT mode), N (CATT without single screen control), A (CATT with single screen control).
 
 DEFSIZE
 
-Flag to indicate whether the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: X (standard size), blank (current size).
+Flag to indicate whether the [screens](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_glosry.htm "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: X (standard size), blank (current size).
 
 RACOMMIT
 
-Flag to indicate whether the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) terminates processing or not. Values: blank ( COMMIT WORK terminates processing), X (COMMIT WORK does not terminate processing).
+Flag to indicate whether the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit.htm) terminates processing or not. Values: blank ( COMMIT WORK terminates processing), X (COMMIT WORK does not terminate processing).
 
 NOBINPT
 
@@ -212,11 +212,11 @@ Addition 4  
 
 Effect
 
-Using this addition, all the [messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") sent during batch input processing are stored in an internal table itab of the line type BDCMSGCOLL from the ABAP Dictionary.
+Using this addition, all the [messages](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmessage_glosry.htm "Glossary Entry") sent during batch input processing are stored in an internal table itab of the line type BDCMSGCOLL from the ABAP Dictionary.
 
 Executable Example
 
-[Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
+[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transaction_bdc_abexa.htm)
 
 Continue
-[CALL TRANSACTION, Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
+[CALL TRANSACTION, Batch Input Table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbatch_input_table.htm)

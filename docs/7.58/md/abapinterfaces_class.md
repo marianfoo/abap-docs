@@ -4,18 +4,18 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [ABAP Objects - Implementing or Including Interfaces](javascript:call_link\('abeninterfaces.htm'\)) →  [INTERFACES](javascript:call_link\('abapinterfaces.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_ifac_components.htm) →  [ABAP Objects - Implementing or Including Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterfaces.htm) →  [INTERFACES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20INTERFACES%2C%20implementation%2C%20ABAPINTERFACES_CLASS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 INTERFACES, implementation
 
-[Short Reference](javascript:call_link\('abapinterfaces_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_shortref.htm)
 
 Syntax
 
 INTERFACES intf
-  *\[*[PARTIALLY IMPLEMENTED](javascript:call_link\('abapinterfaces_partially.htm'\))*\]*
+  *\[*[PARTIALLY IMPLEMENTED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_partially.htm)*\]*
   *{* *{**\[*ABSTRACT METHODS meth1 meth2 ... *\]*
      *\[*FINAL METHODS meth1 meth2 ... *\]**}*
   *|* *\[*ALL METHODS *{*ABSTRACT*|*FINAL*}**\]* *}*
@@ -30,13 +30,13 @@ Additions:
 
 Effect
 
-In the [public](javascript:call_link\('abenpublic_glosry.htm'\) "Glossary Entry") [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry") of a class, the statement INTERFACES implements the interface intf in the class. Additions can also be specified to determine the properties of interface components in the class.
+In the [public](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpublic_glosry.htm "Glossary Entry") [visibility section](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvisibility_section_glosry.htm "Glossary Entry") of a class, the statement INTERFACES implements the interface intf in the class. Additions can also be specified to determine the properties of interface components in the class.
 
 All local or global interfaces that are visible here can be specified for intf that are not already included in a superclass of the current class. The components of the interfaces become public components of the class after the implementation. An interface component called comp has the name intf~comp in the class, where intf is the name of the interface and the character ~ is the interface component selector. A class must implement all methods of the interface in its implementation part, with the following exceptions:
 
--   Interface methods declared as optional using the addition [DEFAULT](javascript:call_link\('abapmethods_default.htm'\)).
+-   Interface methods declared as optional using the addition [DEFAULT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_default.htm).
 -   Interface methods that are specified in the class after the addition ABSTRACT METHODS and are therefore declared as abstract.
--   Partial implementations are allowed in test classes using the addition [PARTIALLY IMPLEMENTED](javascript:call_link\('abapinterfaces_partially.htm'\)).
+-   Partial implementations are allowed in test classes using the addition [PARTIALLY IMPLEMENTED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces_partially.htm).
 
 Hints
 
@@ -90,7 +90,7 @@ Addition 2  
 
 Effect
 
-Using the additions ABSTRACT METHODS and FINAL METHODS, the individual instance methods meth of the interface can be made either abstract or final in the class to be implemented. The same rules apply as to the additions [ABSTRACT](javascript:call_link\('abapmethods_abstract_final.htm'\)) and [FINAL](javascript:call_link\('abapmethods_abstract_final.htm'\)) of the statement [METHODS](javascript:call_link\('abapmethods.htm'\)). In particular, the whole class must be abstract if an interface method is made abstract and no interface method can be listed after ABSTRACT METHODS and FINAL METHODS.
+Using the additions ABSTRACT METHODS and FINAL METHODS, the individual instance methods meth of the interface can be made either abstract or final in the class to be implemented. The same rules apply as to the additions [ABSTRACT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_abstract_final.htm) and [FINAL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_abstract_final.htm) of the statement [METHODS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods.htm). In particular, the whole class must be abstract if an interface method is made abstract and no interface method can be listed after ABSTRACT METHODS and FINAL METHODS.
 
 The following can be specified as methods meth1, meth2, ...
 
@@ -139,7 +139,7 @@ Addition 3  
 
 Effect
 
-Instead of making individual interface methods in the class abstract or final it is possible, using the addition ALL METHODS *{*ABSTRACT*|*FINAL*}*, to make all interface methods either [abstract](javascript:call_link\('abapmethods_abstract_final.htm'\)) or [final](javascript:call_link\('abapmethods_abstract_final.htm'\)).
+Instead of making individual interface methods in the class abstract or final it is possible, using the addition ALL METHODS *{*ABSTRACT*|*FINAL*}*, to make all interface methods either [abstract](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_abstract_final.htm) or [final](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_abstract_final.htm).
 
 Example
 
@@ -179,7 +179,7 @@ Addition 4  
 
 Effect
 
-Using the addition DATA VALUES, initial values can be assigned to individual attributes attr. For attributes, this addition fulfills the same functions as the addition VALUE of the statement [DATA](javascript:call_link\('abapdata.htm'\)) for attributes in its own class.
+Using the addition DATA VALUES, initial values can be assigned to individual attributes attr. For attributes, this addition fulfills the same functions as the addition VALUE of the statement [DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata.htm) for attributes in its own class.
 
 The following can be specified as attributes attr1, attr2, ...
 
@@ -187,7 +187,7 @@ The following can be specified as attributes attr1, attr2, ...
 -   Alias names declared in the interface intf for attributes declared in interfaces that are included in intf.
 -   Attributes that are declared in interfaces included in intf using the name of its own interface and the interface component selector (~). In this case the component interface cannot itself be included with the statement INTERFACES.
 
-Constants declared in the interface or in a component interface with the statement [CONSTANTS](javascript:call_link\('abapconstants.htm'\)) cannot be specified after the addition DATA VALUES.
+Constants declared in the interface or in a component interface with the statement [CONSTANTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconstants.htm) cannot be specified after the addition DATA VALUES.
 
 Example
 

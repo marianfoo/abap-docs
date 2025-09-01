@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ADBC - ABAP Database Connectivity](javascript:call_link\('abenadbc.htm'\)) →  [ADBC - CL\_SQL\_STATEMENT](javascript:call_link\('abencl_sql_statement.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [ADBC - ABAP Database Connectivity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) →  [ADBC - CL\_SQL\_STATEMENT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_sql_statement.htm) → 
 
 ADBC - DDL and DML Statements
 
-The CL\_SQL\_STATEMENT class provides the following instance methods for executing [DDL](javascript:call_link\('abenddl_glosry.htm'\) "Glossary Entry") and [DML](javascript:call_link\('abendml_glosry.htm'\) "Glossary Entry") statements
+The CL\_SQL\_STATEMENT class provides the following instance methods for executing [DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddl_glosry.htm "Glossary Entry") and [DML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendml_glosry.htm "Glossary Entry") statements
 
 -   EXECUTE\_DDL
 
@@ -40,13 +40,13 @@ Notes
 
 -   A data reference to an indicator variable of the built-in type INT2 in ABAP Dictionary can be passed to the optional input parameter IND\_REF of the method SET\_PARAM. If the value of this indicator variable is -1, the value 0 of a parameter on the database is converted to a null value.
 
--   For security reasons, it is better to define the parameters of a DML statement using the placeholder ? rather than chaining dynamic content. This is also a way of preventing [SQL injections](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry"). If the statement only contains static content from the program and dynamic content from outside the program is possible only in operand positions (using placeholders), the statement cannot be modified from outside.
+-   For security reasons, it is better to define the parameters of a DML statement using the placeholder ? rather than chaining dynamic content. This is also a way of preventing [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry"). If the statement only contains static content from the program and dynamic content from outside the program is possible only in operand positions (using placeholders), the statement cannot be modified from outside.
 
--   In assignments between ABAP data objects and fields in database tables, a [mapping](javascript:call_link\('abennative_sql_type_mapping.htm'\)) takes place between the ABAP types and the database types. The ABAP types must match the database types. If they do not match, conversions must be made in the Native SQL interface. These conversions are platform-dependent and can raise exceptions.
+-   In assignments between ABAP data objects and fields in database tables, a [mapping](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_type_mapping.htm) takes place between the ABAP types and the database types. The ABAP types must match the database types. If they do not match, conversions must be made in the Native SQL interface. These conversions are platform-dependent and can raise exceptions.
 
 Example
 
-Inserts a row in a database table with ADBC. The tables are first emptied using ABAP SQL and then read using ABAP SQL. The values of the columns are determined by binding the components of a temporary structure (created using instance operator [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\))) to ? placeholders.
+Inserts a row in a database table with ADBC. The tables are first emptied using ABAP SQL and then read using ABAP SQL. The values of the columns are determined by binding the components of a temporary structure (created using instance operator [NEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_new.htm)) to ? placeholders.
 
 DELETE FROM demo\_update.
 TRY.
@@ -68,8 +68,8 @@ cl\_demo\_output=>display( wa ).
 
 Executable Examples
 
--   [ADBC, DDL, and DML](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\))
+-   [ADBC, DDL, and DML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm)
 
--   [ADBC, Parameter Binding](javascript:call_link\('abenadbc_dml_ddl_binding_abexa.htm'\))
+-   [ADBC, Parameter Binding](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm)
 
--   [ADBC, Bulk Access](javascript:call_link\('abenadbc_dml_ddl_bulk_abexa.htm'\))
+-   [ADBC, Bulk Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm)

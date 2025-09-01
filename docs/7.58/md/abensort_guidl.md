@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Sorted%20Filling%2C%20ABENSORT_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -14,7 +14,7 @@ Background  
 
 The statement APPEND for attaching lines to an internal table has the addition SORTED BY. This addition can be used to fill a standard table by using sorted filling. The prerequisites are:
 
--   A value greater than zero must be specified for the addition [INITIAL SIZE](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\) "Guideline").
+-   A value greater than zero must be specified for the addition [INITIAL SIZE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_memory_requ_guidl.htm "Guideline").
 -   Only the statement APPEND with the addition SORTED BY can be used to fill the internal table.
 
 Once these prerequisites have been met, a ranking list is created that contains at most the same number of lines as specified with INITIAL SIZE. This list is sorted by the component specified after SORTED BY in descending order.

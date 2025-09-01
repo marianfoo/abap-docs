@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [REDUCE, Reduction Operator](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeniteration_expressions.htm) →  [REDUCE, Reduction Operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_reduce.htm) → 
 
 Reduce Operator, Type Inference
 
-This example demonstrates a type inference for the conversion operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)).
+This example demonstrates a type inference for the conversion operator [REDUCE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_reduce.htm).
 
 Source Code
 
@@ -81,7 +81,7 @@ START-OF-SELECTION.
 
 Description
 
-Constructor expressions with the conversion operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) are passed to differently typed formal parameters of methods. In the case of generic formal parameters, [special rules](javascript:call_link\('abenreduce_constructor_inference.htm'\)) apply when determining the operand type.
+Constructor expressions with the conversion operator [REDUCE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_reduce.htm) are passed to differently typed formal parameters of methods. In the case of generic formal parameters, [special rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreduce_constructor_inference.htm) apply when determining the operand type.
 
 -   Completely typed formal parameter
     

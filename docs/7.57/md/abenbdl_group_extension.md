@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [CDS BDL - Base BDEF Extension](javascript:call_link\('abenbdl_extensibility_managed_unm.htm'\)) →  [CDS BDL - extension](javascript:call_link\('abenbdl_extension_syntax.htm'\)) →  [CDS BDL - Entity Behavior Extension](javascript:call_link\('abenbdl_extend_beh.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm) →  [CDS BDL - Base BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_managed_unm.htm) →  [CDS BDL - extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_syntax.htm) →  [CDS BDL - Entity Behavior Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - Implementation Grouping, Extension, ABENBDL_GROUP_EXTENSION, 757%0D%0A%0D%0
 AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -14,11 +14,11 @@ CDS BDL - Implementation Grouping, Extension
 Syntax
 
 ...
-group Group1 [implementation in class Class1 unique](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\))
+group Group1 [implementation in class Class1 unique](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm)
 {
   // implementation-relevant content
 }
-group Group2 [implementation in class Class2 unique](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\))
+group Group2 [implementation in class Class2 unique](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm)
 {
   //implementation-relevant content
 }
@@ -27,7 +27,7 @@ group Group2 [implementation in class Class2 unique](javascript:call_link\('aben
 
 Effect
 
-Grouping divides the implementation-relevant parts of a [business object's](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") business logic into multiple groups for behavior implementation. Each group is assigned to a separate [implementation class](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)). This works for BDEF extensions in the same way as for RAP BOs, see topic [CDS BDL - Implementation Grouping](javascript:call_link\('abenbdl_grouping.htm'\)).
+Grouping divides the implementation-relevant parts of a [business object's](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm "Glossary Entry") business logic into multiple groups for behavior implementation. Each group is assigned to a separate [implementation class](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm). This works for BDEF extensions in the same way as for RAP BOs, see topic [CDS BDL - Implementation Grouping](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_grouping.htm).
 
 The original BDEF may divide the implementation into multiple groups, and the extension can add further groups. An individual group from the original BDEF cannot be extended.
 

@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  C
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_shortref.htm) →  C
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CALL%20CUSTOMER-FUNCTION%2C%20ABAPCALL_CUSTOMER_FUNC_SHORTREF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CALL CUSTOMER-FUNCTION - Short Reference
 
-[Reference](javascript:call_link\('abapcall_customer-function.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_customer-function.htm)
 
 Syntax
 
@@ -25,8 +25,8 @@ CALL CUSTOMER-FUNCTION func
 
 Effect
 
-Obsolete: Binds the [function module exit](javascript:call_link\('abenfunction_module_exit_glosry.htm'\) "Glossary Entry") specified in func.
+Obsolete: Binds the [function module exit](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunction_module_exit_glosry.htm "Glossary Entry") specified in func.
 
 Additions   
 
--   See [CALL FUNCTION](javascript:call_link\('abapcall_function_shortref.htm'\))
+-   See [CALL FUNCTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_shortref.htm)

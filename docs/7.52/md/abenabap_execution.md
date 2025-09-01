@@ -4,17 +4,17 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) → 
 
 Calling and leaving program units
 
--   [Call program](javascript:call_link\('abenabap_program_call.htm'\))
+-   [Call program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_call.htm)
 
--   [Call processing blocks](javascript:call_link\('abencall_processing_blocks.htm'\))
+-   [Call processing blocks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_processing_blocks.htm)
 
--   [Leave program units](javascript:call_link\('abenleave_program_units.htm'\))
+-   [Leave program units](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_program_units.htm)
 
 Continue
-[Calling Programs](javascript:call_link\('abenabap_program_call.htm'\))
-[Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\))
-[Exiting Program Units](javascript:call_link\('abenleave_program_units.htm'\))
+[Calling Programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_call.htm)
+[Calling Processing Blocks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_processing_blocks.htm)
+[Exiting Program Units](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenleave_program_units.htm)

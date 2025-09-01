@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_processing_statements.htm) → 
 
 CONCATENATE
 
-[Quick Reference](javascript:call_link\('abapconcatenate_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconcatenate_shortref.htm)
 
 Syntax
 
@@ -26,11 +26,11 @@ Extras:
 
 Effect
 
-Concatenates either the content of the data objects dobj1, dobj2, ... of the rows of the internal table itab in accordance with their order and assigns them to the target field result. itab is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry"). The following can be specified for the target field result:
+Concatenates either the content of the data objects dobj1, dobj2, ... of the rows of the internal table itab in accordance with their order and assigns them to the target field result. itab is a [functional operand position](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_position_glosry.htm "Glossary Entry"). The following can be specified for the target field result:
 
 -   An existing character-like or byte-like variable to which the result of the chaining can be converted.
     
--   An inline declaration with [DATA(var)](javascript:call_link\('abendata_inline.htm'\)). If IN CHARACTER MODE is used, the declared variable is of the type string; if IN BYTE MODE is used, it is of the type xstring.
+-   An inline declaration with [DATA(var)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_inline.htm). If IN CHARACTER MODE is used, the declared variable is of the type string; if IN BYTE MODE is used, it is of the type xstring.
     
 
 If the target field result has a fixed length and this is greater than the length required, the field is filled on the right with blanks or hexadecimal 0. If the target field is too short, the concatenation is truncated on the right. If the target field is a string, its length is adjusted accordingly.
@@ -53,14 +53,14 @@ The content of the data objects dobj1, dobj2 ... or itab rows could not be passe
 
 Notes
 
--   Instead of CONCATENATE, it is usually also possible to use [string expressions](javascript:call_link\('abapcompute_string.htm'\)) for elementary fields. These expressions enable concatenations using either [concatenation operators](javascript:call_link\('abenconcatenation_operator_glosry.htm'\) "Glossary Entry") && or [embedded expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)) in [string templates](javascript:call_link\('abenstring_templates.htm'\)). The built-in function [concat\_lines\_of](javascript:call_link\('abenconcatenation_functions.htm'\)) can be used to concatenate rows in an internal table.
+-   Instead of CONCATENATE, it is usually also possible to use [string expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcompute_string.htm) for elementary fields. These expressions enable concatenations using either [concatenation operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconcatenation_operator_glosry.htm "Glossary Entry") && or [embedded expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_templates_expressions.htm) in [string templates](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_templates.htm). The built-in function [concat\_lines\_of](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconcatenation_functions.htm) can be used to concatenate rows in an internal table.
     
--   The ABAP runtime environment executes an internal optimization to reduce reallocations if new fragments are attached to an existing [string](javascript:call_link\('abenstring_glosry.htm'\) "Glossary Entry") within a loop. If the string or parts of the string themselves are appended, no optimization takes place. In loops this causes a squared increase in runtime. This can be prevented by using helper variables. See also the [Performance Note](javascript:call_link\('abenstring_expr_perfo.htm'\)) for string expressions.
+-   The ABAP runtime environment executes an internal optimization to reduce reallocations if new fragments are attached to an existing [string](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_glosry.htm "Glossary Entry") within a loop. If the string or parts of the string themselves are appended, no optimization takes place. In loops this causes a squared increase in runtime. This can be prevented by using helper variables. See also the [Performance Note](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_expr_perfo.htm) for string expressions.
     
 
 Example
 
-The example shows that a chaining with CONCATENATE has the same result as a chaining with the [chaining operator](javascript:call_link\('abenconcatenation_operator_glosry.htm'\) "Glossary Entry") [&&](javascript:call_link\('abenstring_operators.htm'\)) or via [embedded expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)).
+The example shows that a chaining with CONCATENATE has the same result as a chaining with the [chaining operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconcatenation_operator_glosry.htm "Glossary Entry") [&&](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_operators.htm) or via [embedded expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_templates_expressions.htm).
 
 CONCATENATE 'a' 'b' 'c' INTO DATA(str).
 ASSERT str = 'a' && 'b' && 'c'.
@@ -72,7 +72,7 @@ Addition 1
 
 Effect
 
-The optional addition IN *{*CHARACTER*|*BYTE*}* MODE determines whether [character string or byte string processing](javascript:call_link\('abenstring_processing_statements.htm'\)) is performed. If the addition is not specified, character string processing is performed. Depending on the processing type, the data objects dobj1, dobj2 ..., the rows of the internal table itab, and the separator sep must be [character-like](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") or [byte-like](javascript:call_link\('abenbyte_like_data_object_glosry.htm'\) "Glossary Entry").
+The optional addition IN *{*CHARACTER*|*BYTE*}* MODE determines whether [character string or byte string processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_processing_statements.htm) is performed. If the addition is not specified, character string processing is performed. Depending on the processing type, the data objects dobj1, dobj2 ..., the rows of the internal table itab, and the separator sep must be [character-like](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") or [byte-like](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbyte_like_data_object_glosry.htm "Glossary Entry").
 
 Example
 

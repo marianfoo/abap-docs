@@ -4,31 +4,33 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [Logical Expressions (log\_exp)](javascript:call_link\('abenlogexp.htm'\)) →  [Comparison Expressions (rel\_exp)](javascript:call_link\('abenlogexp_comp.htm'\)) →  [rel\_exp - Comparison Rules](javascript:call_link\('abenlogexp_rules.htm'\)) →  [rel\_exp - Comparing Elementary Data Types](javascript:call_link\('abenlogexp_rules_operands.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogical_expr_func.htm) →  [Logical Expressions (log\_exp)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp.htm) →  [Comparison Expressions (rel\_exp)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_comp.htm) →  [rel\_exp - Comparison Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_rules.htm) →  [rel\_exp - Comparing Elementary Data Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_rules_operands.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20rel_exp%20-%20Comparison%20Rules%20for%20Comparison%20Types%2C%20ABENCOMPARISON_TYPE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20imp
 rovement:)
 
 rel\_exp - Comparison Rules for Comparison Types
 
-When operands with elementary data types are compared, the comparison is performed according to a comparison type that is determined by the involved operands, as described for [elementary data objects](javascript:call_link\('abenlogexp_rules_operands_dobj.htm'\)) and [calculation expressions](javascript:call_link\('abenlogexp_rules_expressions.htm'\)). The comparison type can be one of the [built-in ABAP types](javascript:call_link\('abenbuiltin_abap_type_glosry.htm'\) "Glossary Entry"). When incompatible operands are compared, the operands that do not have the comparison type are converted to this type.
+When operands with elementary data types are compared, the comparison is performed according to a comparison type that is determined by the involved operands, as described for [elementary data objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_rules_operands_dobj.htm) and [calculation expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogexp_rules_expressions.htm). The comparison type can be one of the [built-in ABAP types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_abap_type_glosry.htm "Glossary Entry"). When incompatible operands are compared, the operands that do not have the comparison type are converted to this type.
 
--   [Numeric Comparison Type](#abencomparison-type-1-------character-like-comparison-type---@ITOC@@ABENCOMPARISON_TYPE_2)
--   [Byte-Like Comparison Type](#abencomparison-type-3-------date-time-type-as-comparison-type---@ITOC@@ABENCOMPARISON_TYPE_4)
+-   [Numeric Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_1)
+-   [Character-Like Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_2)
+-   [Byte-Like Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_3)
+-   [Date/Time Type as Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_4)
 -   [Time Stamp Type as Comparison Type](#@@ITOC@@ABENCOMPARISON_TYPE_5)
 
 Numeric Comparison Type   
 
-If the comparison type is one of the [numeric data types](javascript:call_link\('abenbuiltin_types_numeric.htm'\)), the numeric values are compared.
+If the comparison type is one of the [numeric data types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_numeric.htm), the numeric values are compared.
 
 Hints
 
 -   Since platform-dependent rounding errors may occur with data type f, a comparison for equality often does not make any sense for binary floating point numbers.
--   [Scale](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") and [precision](javascript:call_link\('abenprecision_glosry.htm'\) "Glossary Entry") are not relevant in comparisons between decimal floating point numbers.
+-   [Scale](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscale_glosry.htm "Glossary Entry") and [precision](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprecision_glosry.htm "Glossary Entry") are not relevant in comparisons between decimal floating point numbers.
 
 Example
 
-The comparison of a text string with an integer is performed with numeric comparison type i. If the text string cannot be converted to i, an uncatchable exception would be raised in the comparison. Convertibility is therefore checked first using the conversion operator [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)).
+The comparison of a text string with an integer is performed with numeric comparison type i. If the text string cannot be converted to i, an uncatchable exception would be raised in the comparison. Convertibility is therefore checked first using the conversion operator [CONV](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_conv.htm).
 
 DATA char TYPE string.
 cl\_demo\_input=>add\_field( CHANGING field = char ).
@@ -47,16 +49,16 @@ cl\_demo\_output=>display(
 
 Character-Like Comparison Type   
 
-If the comparison type is one of the [character-like data types](javascript:call_link\('abenbuiltin_types_character.htm'\)), the content is compared from left to right. Based on the internal binary representation in the [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") used, the first differing character from the left determines which operand is greater.
+If the comparison type is one of the [character-like data types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_character.htm), the content is compared from left to right. Based on the internal binary representation in the [code page](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencodepage_glosry.htm "Glossary Entry") used, the first differing character from the left determines which operand is greater.
 
 Hints
 
--   For operands of types c and string, the content is not compared with the [locale](javascript:call_link\('abenlocale_glosry.htm'\) "Glossary Entry") of the current [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry"). The statement [CONVERT TEXT](javascript:call_link\('abapconvert_text.htm'\)) can be used to determine the order of the locale.
+-   For operands of types c and string, the content is not compared with the [locale](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlocale_glosry.htm "Glossary Entry") of the current [text environment](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentext_environment_glosry.htm "Glossary Entry"). The statement [CONVERT TEXT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapconvert_text.htm) can be used to determine the order of the locale.
 -   For operands of type n that contain a valid string of digits, the proportions of the numbers represented are determined correctly.
 
 Example
 
-The example shows whether the binary representation of uppercase letters is larger, the same or smaller than the binary representation of lowercase letters for individual characters. For the Unicode character representation [UCS-2](javascript:call_link\('abenucs2_glosry.htm'\) "Glossary Entry") used by ABAP, uppercase letters are smaller than lowercase letters. Numbers and special characters are not case-sensitive and the result of the comparison for equality is true.
+The example shows whether the binary representation of uppercase letters is larger, the same or smaller than the binary representation of lowercase letters for individual characters. For the Unicode character representation [UCS-2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenucs2_glosry.htm "Glossary Entry") used by ABAP, uppercase letters are smaller than lowercase letters. Numbers and special characters are not case-sensitive and the result of the comparison for equality is true.
 
 DATA char TYPE c LENGTH 1.
 cl\_demo\_input=>request( CHANGING field = char ).
@@ -69,7 +71,7 @@ cl\_demo\_output=>display(
 
 Byte-Like Comparison Type   
 
-If the comparison type is one of the [byte-like data types](javascript:call_link\('abenbuiltin_types_byte.htm'\)), the content is compared from left to right. Based on the byte values, the first differing byte from the left determines which operand is greater.
+If the comparison type is one of the [byte-like data types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_byte.htm), the content is compared from left to right. Based on the byte values, the first differing byte from the left determines which operand is greater.
 
 Example
 
@@ -88,7 +90,7 @@ cl\_demo\_output=>display(
 
 Date/Time Type as Comparison Type   
 
-If the comparison type is one of the [date/time types](javascript:call_link\('abenbuiltin_types_date_time.htm'\)), the content is compared from left to right. Based on the internal binary representation in the [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") used, the first differing character from the left determines which operand is greater.
+If the comparison type is one of the [date/time types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_date_time.htm), the content is compared from left to right. Based on the internal binary representation in the [code page](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencodepage_glosry.htm "Glossary Entry") used, the first differing character from the left determines which operand is greater.
 
 Hint
 
@@ -112,4 +114,4 @@ cl\_demo\_output=>display(
 
 Time Stamp Type as Comparison Type   
 
-If the comparison type is the [time stamp type](javascript:call_link\('abenbuiltin_types_date_time.htm'\)), the times are compared, whereby a later time is always the greater value and the initial value is always less than every real time stamp.
+If the comparison type is the [time stamp type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_date_time.htm), the times are compared, whereby a later time is always the greater value and the initial value is always less than every real time stamp.

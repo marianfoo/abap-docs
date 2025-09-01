@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - DDIC-Based Entities](javascript:call_link\('abencds_ddic_entity.htm'\)) →  [ABAP CDS - DDIC-Based Views](javascript:call_link\('abencds_v1_views.htm'\)) →  [ABAP CDS - Client Handling in CDS DDIC-Based Views](javascript:call_link\('abencds_view_client_handling_v1.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_entity.htm) →  [ABAP CDS - DDIC-Based Entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_views.htm) →  [ABAP CDS - Client Handling in CDS DDIC-Based Views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_client_handling_v1.htm) → 
 
 CDS DDIC-based views, Obsolete Client Handling
 
-This example demonstrates how obsolete [client-independent](javascript:call_link\('abencds_view_client_handling_obs.htm'\)) [CDS DDIC-based views](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry") are handled.
+This example demonstrates how obsolete [client-independent](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_client_handling_obs.htm) [CDS DDIC-based views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_view_glosry.htm "Glossary Entry") are handled.
 
 Source Code
 
@@ -88,7 +88,7 @@ START-OF-SELECTION.
 
 Description
 
-The program accesses the following [CDS DDIC-based views](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry"):
+The program accesses the following [CDS DDIC-based views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_view_glosry.htm "Glossary Entry"):
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_PRJCTN2'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -117,7 +117,7 @@ define view demo\_cds\_spfli\_client\_3
           spfli.cityto
     }
 
-They are used to demonstrate the behavior in rare cases where CDS DDIC-based views with the obsolete notation [ClientDependent:false](javascript:call_link\('abencds_view_client_handling_obs.htm'\)) are made into client-independent views even though they contain client-dependent data sources:
+They are used to demonstrate the behavior in rare cases where CDS DDIC-based views with the obsolete notation [ClientDependent:false](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_client_handling_obs.htm) are made into client-independent views even though they contain client-dependent data sources:
 
 -   DEMO\_CDS\_SPFLI\_CLIENT\_2 is a client-independent CDS view in which the client column is not specified in the SELECT list.
 -   DEMO\_CDS\_SPFLI\_CLIENT\_3 is a client-independent CDS view in which the client column is specified in the SELECT list.
@@ -133,8 +133,8 @@ The statement SELECT is used to make the following accesses:
 
 -   Regular access to a client-independent CDS entity without client column in the SELECT list. The data is read from all clients. No conditions can be specified for the client. The result set does not have a client column.
 -   Regular access to a CDS-managed DDIC view of the client-independent CDS entity without client column in the SELECT list. The data is read from all clients. No conditions can be specified for the client. The result set does not have a client column.
--   Regular access to a client-independent CDS entity with client column in the SELECT list. The data of the client specified in the WHERE condition is read. It is not possible to specify the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)) here. The result set has a client column.
--   Access to a CDS-managed DDIC view of the client-independent CDS view with client column in the SELECT list using the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)). The data of the client specified in the WHERE condition is read. The result set has a client column.
+-   Regular access to a client-independent CDS entity with client column in the SELECT list. The data of the client specified in the WHERE condition is read. It is not possible to specify the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_client_obsolete.htm) here. The result set has a client column.
+-   Access to a CDS-managed DDIC view of the client-independent CDS view with client column in the SELECT list using the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_client_obsolete.htm). The data of the client specified in the WHERE condition is read. The result set has a client column.
 
 Hint
 

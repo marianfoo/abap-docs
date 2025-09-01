@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) →  [Examples for ABAP EML COMMIT ENTITIES](javascript:call_link\('abencommit_entities_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml.htm) →  [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommit_entities.htm) →  [Examples for ABAP EML COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencommit_entities_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20EML%20-%20COMMIT%20ENTITIES%20BEGIN%2C%20END%20with%20CONVERT%20KEY%20OF%2C%20ABENCOMMIT_ENTITIES_BEGINEND_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0
 A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ABAP EML - COMMIT ENTITIES BEGIN, END with CONVERT KEY OF
 
-This example demonstrates the COMMIT ENTITIES variant COMMIT ENTITIES ... END including CONVERT KEY OF with a simple [unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry").
+This example demonstrates the COMMIT ENTITIES variant COMMIT ENTITIES ... END including CONVERT KEY OF with a simple [unmanaged RAP BO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry").
 
 Data model
 
@@ -32,7 +32,7 @@ define root view entity DEMO\_UMANAGED\_ROOT\_LATE\_NUM
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_UMANAGED\_ROOT\_LATE\_NUM is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_UMANAGED\_ROOT\_LATE\_NUM is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 unmanaged implementation in class bp\_demo\_umanaged\_root\_late\_num unique;
 strict(2);
@@ -48,7 +48,7 @@ late numbering
 
 Behavior implementation
 
-For the above RAP behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UMANAGED\_ROOT\_LATE\_NUM. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool:
+For the above RAP behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_UMANAGED\_ROOT\_LATE\_NUM. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool:
 
 -   lcl\_buffer constitutes the transactional buffer. It includes an internal table to handle the data.
 -   lhc\_demo\_unmanaged\_root\_late\_nu is the handler class of the behavior pool. The only relevant methods in this example are create and update.
@@ -165,10 +165,10 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the [unmanaged RAP business object](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry") from an ABAP class.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the [unmanaged RAP business object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry") from an ABAP class.
 
-An ABAP EML MODIFY statement that includes a CREATE operation for creating new [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") is followed by an UPDATE operation updating these new created instances. The MODIFY statement with CREATE also includes the filling of the MAPPED response parameter (mapped\_early). When the create method is called, this parameter is given the provided %cid and also %pid, which is created by the method. This information is used to identify the instances for the UPDATE operation.
+An ABAP EML MODIFY statement that includes a CREATE operation for creating new [RAP BO instances](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") is followed by an UPDATE operation updating these new created instances. The MODIFY statement with CREATE also includes the filling of the MAPPED response parameter (mapped\_early). When the create method is called, this parameter is given the provided %cid and also %pid, which is created by the method. This information is used to identify the instances for the UPDATE operation.
 
-The save sequence is initiated by COMMIT ENTITIES BEGIN and ends with COMMIT ENTITIES END. A CONVERT KEY OF statement is available, which is not necessary in this non-business related example. Yet, for showcasing purposes, the assumption is that getting the keys is indeed of interest here. Hence, the final keys that are drawn in the adjust\_numbers method are retrieved. Since the preliminary IDs (%pid) are available until the [RAP transaction](javascript:call_link\('abenrap_luw_glosry.htm'\) "Glossary Entry") is terminated, the conversion of the keys can be done on those %pid components. In the example, a LOOP statement processes the lines of the MAPPED table for the RAP BO entity. The CONVERT KEY statement is given the final keys of the individual instances based on the preliminary ID identifying these instances. The individual key is written to a local variable. For demonstration purposes, %pid and the key values are then stored in an internal table.
+The save sequence is initiated by COMMIT ENTITIES BEGIN and ends with COMMIT ENTITIES END. A CONVERT KEY OF statement is available, which is not necessary in this non-business related example. Yet, for showcasing purposes, the assumption is that getting the keys is indeed of interest here. Hence, the final keys that are drawn in the adjust\_numbers method are retrieved. Since the preliminary IDs (%pid) are available until the [RAP transaction](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_luw_glosry.htm "Glossary Entry") is terminated, the conversion of the keys can be done on those %pid components. In the example, a LOOP statement processes the lines of the MAPPED table for the RAP BO entity. The CONVERT KEY statement is given the final keys of the individual instances based on the preliminary ID identifying these instances. The individual key is written to a local variable. For demonstration purposes, %pid and the key values are then stored in an internal table.
 
 The output window shows the result of the CONVERT KEY OF statement, i. e. a table that includes %pid and the corresponding key values, and the instances, that are successfully saved to the database, as a result of the ABAP EML MODIFY operations.

@@ -4,18 +4,18 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [MODIFY itab](javascript:call_link\('abapmodify_itab.htm'\)) →  [MODIFY itab, itab\_line](javascript:call_link\('abapmodify_itab_single.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_processing_statements.htm) →  [MODIFY itab](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_itab.htm) →  [MODIFY itab, itab\_line](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_itab_single.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: MODIFY itab, index, ABAPMODIFY_ITAB_INDEX, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D
 %0ASuggestion for improvement:)
 
 MODIFY itab, index
 
-[Short Reference](javascript:call_link\('abapmodify_itab_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_itab_shortref.htm)
 
 Syntax
 
-...   *{* itab INDEX idx *\[*USING KEY [keyname](javascript:call_link\('abenkeyname.htm'\))*\]* *}*
+...   *{* itab INDEX idx *\[*USING KEY [keyname](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkeyname.htm)*\]* *}*
     *|* *{* itab *\[*USING KEY loop\_key*\]**}* ...
 
 Alternatives:
@@ -37,11 +37,11 @@ Addition:
 
 Effect
 
-Using the addition INDEX, the statement MODIFY modifies the line in the line number specified in idx in a table index. idx is a [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") with the operand type i. If idx contains the value 0 or less, an uncatchable exception is raised.
+Using the addition INDEX, the statement MODIFY modifies the line in the line number specified in idx in a table index. idx is a [numeric expression position](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") with the operand type i. If idx contains the value 0 or less, an uncatchable exception is raised.
 
-If the addition USING KEY is not used, the addition INDEX can only be used with [index tables](javascript:call_link\('abenindex_table_glosry.htm'\) "Glossary Entry") and determines the line to be modified from its [primary table index](javascript:call_link\('abenprimary_table_index_glosry.htm'\) "Glossary Entry").
+If the addition USING KEY is not used, the addition INDEX can only be used with [index tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenindex_table_glosry.htm "Glossary Entry") and determines the line to be modified from its [primary table index](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprimary_table_index_glosry.htm "Glossary Entry").
 
-If a line specified using INDEX is modified without the addition [TRANSPORTING](javascript:call_link\('abapmodify_itab_single.htm'\)), all components of the line are transported. If it is known statically that write-protected [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") would be overwritten by this, a syntax error occurs. If it can only be determined at runtime, the corresponding runtime error occurs.
+If a line specified using INDEX is modified without the addition [TRANSPORTING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_itab_single.htm), all components of the line are transported. If it is known statically that write-protected [secondary table keys](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") would be overwritten by this, a syntax error occurs. If it can only be determined at runtime, the corresponding runtime error occurs.
 
 If the components of a primary sorted table key are modified in a line specified using INDEX, however, a runtime error occurs only if the value of the component changes.
 
@@ -51,7 +51,7 @@ The addition INDEX can also be positioned after FROM wa.
 
 Example
 
-Conversion of the local currency of an airline in the internal table scarr\_tab by accessing the index. The addition TRANSPORTING ensures that only the component currcode is modified and only this component is filled in the structure constructed by the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)).
+Conversion of the local currency of an airline in the internal table scarr\_tab by accessing the index. The addition TRANSPORTING ensures that only the component currcode is modified and only this component is filled in the structure constructed by the value operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_value.htm).
 
 DATA: carrid   TYPE scarr-carrid   VALUE 'LH',
       currcode TYPE scarr-currcode VALUE 'EUR'.
@@ -77,11 +77,11 @@ Addition  
 
 Effect
 
-The addition USING KEY can be used to specify a table key in [keyname](javascript:call_link\('abenkeyname.htm'\)) to specify the table index to be used explicitly.
+The addition USING KEY can be used to specify a table key in [keyname](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkeyname.htm) to specify the table index to be used explicitly.
 
-If the table has a [sorted](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry") [secondary key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry"), this can be specified in keyname. The line to be modified is then determined from its [secondary table index](javascript:call_link\('abensecondary_table_index_glosry.htm'\) "Glossary Entry"). A secondary [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") cannot be specified.
+If the table has a [sorted](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensorted_key_glosry.htm "Glossary Entry") [secondary key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_table_key_glosry.htm "Glossary Entry"), this can be specified in keyname. The line to be modified is then determined from its [secondary table index](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_table_index_glosry.htm "Glossary Entry"). A secondary [hash key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhash_key_glosry.htm "Glossary Entry") cannot be specified.
 
-If the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") is specified under its name primary\_key, the table must be an index table, and the behavior is the same as if USING KEY were not specified.
+If the [primary table key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") is specified under its name primary\_key, the table must be an index table, and the behavior is the same as if USING KEY were not specified.
 
 Hint
 
@@ -123,7 +123,7 @@ Addition:
 
 Effect
 
-This variant is only possible within a [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)) across the same internal table. The current table line of the LOOP is modified implicitly. If the addition [USING KEY](javascript:call_link\('abaploop_at_itab_cond.htm'\)) is specified in LOOP, the addition USING KEY loop\_key must be specified for this variant.
+This variant is only possible within a [LOOP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab.htm) across the same internal table. The current table line of the LOOP is modified implicitly. If the addition [USING KEY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab_cond.htm) is specified in LOOP, the addition USING KEY loop\_key must be specified for this variant.
 
 If the current lines were already deleted in the same loop pass, the behavior is undefined.
 
@@ -149,7 +149,7 @@ Addition  
 
 Effect
 
-This addition is required if the table key used by the LOOP is specified explicitly in the statement LOOP. It states explicitly that the current table line of the LOOP is modified. No other key can be specified apart from the predefined name [loop\_key](javascript:call_link\('abaploop_at_itab_cond.htm'\)). If no explicit table key is specified for LOOP, the addition USING KEY loop\_key is optional.
+This addition is required if the table key used by the LOOP is specified explicitly in the statement LOOP. It states explicitly that the current table line of the LOOP is modified. No other key can be specified apart from the predefined name [loop\_key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab_cond.htm). If no explicit table key is specified for LOOP, the addition USING KEY loop\_key is optional.
 
 Example
 

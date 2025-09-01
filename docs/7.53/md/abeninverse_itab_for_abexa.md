@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [FOR - Iteration Expressions](javascript:call_link\('abenfor.htm'\)) →  [Examples of Iteration Expressions](javascript:call_link\('abeniteration_expressions_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeniteration_expressions.htm) →  [FOR - Iteration Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor.htm) →  [Examples of Iteration Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeniteration_expressions_abexas.htm) → 
 
 Inverse Reads on Internal Table with FOR
 
@@ -37,4 +37,4 @@ START-OF-SELECTION.
 
 Description
 
-In a conditional iteration, an internal table is read using WHILE and a table expression. The table expression uses the secondary table key sort\_key and the result is created in a conditional expression using cond. The example shows how to bypass the restriction that inverse [table iterations](javascript:call_link\('abenfor_itab.htm'\)) cannot be performed.
+In a conditional iteration, an internal table is read using WHILE and a table expression. The table expression uses the secondary table key sort\_key and the result is created in a conditional expression using cond. The example shows how to bypass the restriction that inverse [table iterations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_itab.htm) cannot be performed.

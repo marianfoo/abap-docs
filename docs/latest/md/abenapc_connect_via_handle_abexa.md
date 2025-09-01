@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [ABAP Push Channels (APC)](javascript:call_link\('abenapc.htm'\)) →  [APC - Examples](javascript:call_link\('abenapc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_channels.htm) →  [ABAP Push Channels (APC)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc.htm) →  [APC - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20APC%20-%20System-Wide%20Access%2C%20ABENAPC_CONNECT_VIA_HANDLE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -52,7 +52,7 @@ Description  
 
 The class expects a valid connection handle for a WebSocket connection as its input, creates an access objects for this handle, and uses it to send a simple text message.
 
-An APC connection from the executable example [AS ABAP as WebSocket Server](javascript:call_link\('abenapc_abexa.htm'\)) publishes its connection handle as follows:
+An APC connection from the executable example [AS ABAP as WebSocket Server](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenapc_abexa.htm) publishes its connection handle as follows:
 
 -   Create a WebSocket server without PCP.
 -   Open the connection on the Web page.

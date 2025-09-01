@@ -4,51 +4,53 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) → 
 
 Creating Objects and Values
 
 This section describes how data objects and instances are created and values constructed.
 
--   [Creating Objects](#abencreate-objects-1--------constructing-values---@ITOC@@ABENCREATE_OBJECTS_2)
+-   [Creating Objects](#@@ITOC@@ABENCREATE_OBJECTS_1)
+
+-   [Constructing Values](#@@ITOC@@ABENCREATE_OBJECTS_2)
 
 Creating Objects
 
-Creating an object or data object is equivalent to creating an instance of a data type or a class dynamically. While instances of classes can only be created as described in this section, instances of data types (data objects) declared using the statement [DATA](javascript:call_link\('abapdata.htm'\)), or related statements such as [CONSTANTS](javascript:call_link\('abapconstants.htm'\)), are created automatically as named data objects when their [context](javascript:call_link\('abencontext_2_glosry.htm'\) "Glossary Entry") is loaded into the internal session. Data objects only need to be created dynamically if the data type is made known for the first time when the program is executed, or if large amounts of memory are allocated only for short periods of time.
+Creating an object or data object is equivalent to creating an instance of a data type or a class dynamically. While instances of classes can only be created as described in this section, instances of data types (data objects) declared using the statement [DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata.htm), or related statements such as [CONSTANTS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapconstants.htm), are created automatically as named data objects when their [context](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontext_2_glosry.htm "Glossary Entry") is loaded into the internal session. Data objects only need to be created dynamically if the data type is made known for the first time when the program is executed, or if large amounts of memory are allocated only for short periods of time.
 
-Dynamically created objects can only be addressed using reference variables, and can be deleted from the internal session by the [garbage collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry") if they are no longer referenced.
+Dynamically created objects can only be addressed using reference variables, and can be deleted from the internal session by the [garbage collector](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengarbage_collector_glosry.htm "Glossary Entry") if they are no longer referenced.
 
 Objects can be created using one of the following:
 
--   [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\))
+-   [CREATE DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data.htm)
 
--   [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\))
+-   [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object.htm)
 
--   The [instance operator](javascript:call_link\('abeninstance_operator_glosry.htm'\) "Glossary Entry") [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) for creating objects in [general expression positions](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") and in [functional operand positions](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry")
+-   The [instance operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_operator_glosry.htm "Glossary Entry") [NEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_new.htm) for creating objects in [general expression positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and in [functional operand positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunctional_position_glosry.htm "Glossary Entry")
 
-Data objects and objects are created by default in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of the current program, and only programs in the same internal session can access them. The following, however, can also be created:
+Data objects and objects are created by default in the [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry") of the current program, and only programs in the same internal session can access them. The following, however, can also be created:
 
--   [Shared objects](javascript:call_link\('abenabap_shared_objects.htm'\)) can be created in the [shared memory](javascript:call_link\('abenshared_memory_glosry.htm'\) "Glossary Entry")
+-   [Shared objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shared_objects.htm) can be created in the [shared memory](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshared_memory_glosry.htm "Glossary Entry")
 
--   [Parameters in the user memory](javascript:call_link\('abenmemory.htm'\))
+-   [Parameters in the user memory](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmemory.htm)
 
 Note
 
-The use of the statement [ASSIGN LOCAL COPY](javascript:call_link\('abapassign_local_copy.htm'\)) to create objects is now obsolete.
+The use of the statement [ASSIGN LOCAL COPY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_local_copy.htm) to create objects is now obsolete.
 
 Constructing Values
 
-The attribute values of a new instance of a class can be constructed using the [instance constructor](javascript:call_link\('abeninstance_constructor_glosry.htm'\) "Glossary Entry") of the class. The input parameters of the instance constructor can be filled using the EXPORTING addition of the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)) or using actual parameters for the instance operator [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)).
+The attribute values of a new instance of a class can be constructed using the [instance constructor](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_constructor_glosry.htm "Glossary Entry") of the class. The input parameters of the instance constructor can be filled using the EXPORTING addition of the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object.htm) or using actual parameters for the instance operator [NEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_new.htm).
 
-The values of dynamically created or statically declared data objects can be constructed using the following [constructor expressions](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry"):
+The values of dynamically created or statically declared data objects can be constructed using the following [constructor expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_glosry.htm "Glossary Entry"):
 
--   When anonymous data objects are created dynamically using the instance operator [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)), values for all data types, particularly structured and tabular types, can be constructed and assigned to the new data object.
+-   When anonymous data objects are created dynamically using the instance operator [NEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_new.htm), values for all data types, particularly structured and tabular types, can be constructed and assigned to the new data object.
 
--   The [value operator](javascript:call_link\('abenvalue_operator_glosry.htm'\) "Glossary Entry") [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) can also be used to construct the content of complex data objects (structures, internal tables). This goes beyond what is possible using the [VALUE](javascript:call_link\('abapdata_options.htm'\)) addition.
+-   The [value operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_operator_glosry.htm "Glossary Entry") [VALUE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_value.htm) can also be used to construct the content of complex data objects (structures, internal tables). This goes beyond what is possible using the [VALUE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_options.htm) addition.
 
 Note
 
-Like any constructor expression, the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) can be used in [general expression positions](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") and in [functional operand positions](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry"), in particular on the right side of an assignment to an [inline declaration](javascript:call_link\('abendata_inline.htm'\)).
+Like any constructor expression, the value operator [VALUE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_value.htm) can be used in [general expression positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and in [functional operand positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunctional_position_glosry.htm "Glossary Entry"), in particular on the right side of an assignment to an [inline declaration](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_inline.htm).
 
 Example
 
@@ -60,9 +62,9 @@ DATA(dobj) = VALUE struct( col1 = meth->get\_col1( )
                            col2 = meth->get\_col1( ) ).
 
 Continue
-[CREATE DATA](javascript:call_link\('abapcreate_data.htm'\))
-[CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\))
-[NEW - Instance Operator](javascript:call_link\('abenconstructor_expression_new.htm'\))
-[VALUE - Value Operator](javascript:call_link\('abenconstructor_expression_value.htm'\))
-[Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\))
-[Parameters in the User Memory](javascript:call_link\('abenmemory.htm'\))
+[CREATE DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data.htm)
+[CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object.htm)
+[NEW - Instance Operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_new.htm)
+[VALUE - Value Operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_value.htm)
+[Shared Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shared_objects.htm)
+[Parameters in the User Memory](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmemory.htm)

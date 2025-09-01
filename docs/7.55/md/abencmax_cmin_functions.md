@@ -4,32 +4,32 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Functions (string\_func)](javascript:call_link\('abenstring_functions.htm'\)) →  [string\_func - Processing Functions](javascript:call_link\('abenprocess_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_expr_func.htm) →  [String Functions (string\_func)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions.htm) →  [string\_func - Processing Functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocess_functions.htm) → 
 
 string\_func - cmax, cmin
 
 Syntax Forms
 
-... cmax*|*cmin( [val1 = text1](javascript:call_link\('abenstring_functions_val.htm'\))  [val2 = text2](javascript:call_link\('abenstring_functions_val.htm'\))
-              *\[* [val3 = text3](javascript:call_link\('abenstring_functions_val.htm'\))*\]* ... *\[* [val9 = text9](javascript:call_link\('abenstring_functions_val.htm'\))*\]* ) ...
+... cmax*|*cmin( [val1 = text1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm)  [val2 = text2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm)
+              *\[* [val3 = text3](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm)*\]* ... *\[* [val9 = text9](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm)*\]* ) ...
 
 Effect
 
-These functions return the value of the biggest or the smallest of the character-like arguments [text1](javascript:call_link\('abenstring_functions_val.htm'\)), [text2](javascript:call_link\('abenstring_functions_val.htm'\)), ... passed. The content of the arguments is compared from left to right in the evaluation. The first different character from the left determines which operand is bigger or smaller based on the sequence in the [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") used.
+These functions return the value of the biggest or the smallest of the character-like arguments [text1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm), [text2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm), ... passed. The content of the arguments is compared from left to right in the evaluation. The first different character from the left determines which operand is bigger or smaller based on the sequence in the [code page](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencodepage_glosry.htm "Glossary Entry") used.
 
-At least two arguments, [text1](javascript:call_link\('abenstring_functions_val.htm'\)) and [text2](javascript:call_link\('abenstring_functions_val.htm'\)), and a maximum of nine arguments must be passed. Here, the optional input parameters val3 through val9 must be filled in ascending order without gaps.
+At least two arguments, [text1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm) and [text2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_functions_val.htm), and a maximum of nine arguments must be passed. Here, the optional input parameters val3 through val9 must be filled in ascending order without gaps.
 
 The return value has the type string.
 
 Hints
 
--   The extremum functions [nmax](javascript:call_link\('abennmax_nmin_functions.htm'\)) and [nmin](javascript:call_link\('abennmax_nmin_functions.htm'\)) can be used to determine numeric extreme values.
+-   The extremum functions [nmax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennmax_nmin_functions.htm) and [nmin](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennmax_nmin_functions.htm) can be used to determine numeric extreme values.
     
 
--   Character-like extremum functions, like numeric extremum functions, can be traced back to the equivalent control structures using comparison operators. Remember that, unlike with the usual [ABAP comparison rules](javascript:call_link\('abenlogexp_rules_operands.htm'\)), shorter arguments of fixed lengths are not padded to the length of longer arguments by filling them with blanks.
+-   Character-like extremum functions, like numeric extremum functions, can be traced back to the equivalent control structures using comparison operators. Remember that, unlike with the usual [ABAP comparison rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_rules_operands.htm), shorter arguments of fixed lengths are not padded to the length of longer arguments by filling them with blanks.
     
 
--   As in comparisons with comparison operators, the current [locale](javascript:call_link\('abenlocale_glosry.htm'\) "Glossary Entry") is not significant when determining the extreme values.
+-   As in comparisons with comparison operators, the current [locale](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocale_glosry.htm "Glossary Entry") is not significant when determining the extreme values.
 
 Example
 
@@ -65,4 +65,4 @@ ASSERT max = itab\[ lines( itab ) \].
 
 Executable Example
 
-[String functions cmax, cmin, and segment](javascript:call_link\('abencmax_cmin_function_abexa.htm'\)).
+[String functions cmax, cmin, and segment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencmax_cmin_function_abexa.htm).

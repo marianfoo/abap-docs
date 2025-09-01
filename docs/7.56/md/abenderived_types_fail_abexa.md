@@ -4,15 +4,15 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Examples for BDEF Derived Type Components](javascript:call_link\('abenderived_types_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_rap_other.htm) →  [ABAP for RAP, BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm) →  [Examples for BDEF Derived Type Components](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenderived_types_abexas.htm) → 
 
 Using %fail
 
-This example demonstrates the use of %fail with a [managed](javascript:call_link\('abenbdl_impl_type.htm'\)) [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+This example demonstrates the use of %fail with a [managed](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_impl_type.htm) [RAP BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
 Data model
 
-The CDS data model consists of the root entity [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_FAILED and its [child entity](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_CHILD\_FAILED. The child entity is not used in the example.
+The CDS data model consists of the root entity [root entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_entity_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_FAILED and its [child entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchild_entity_glosry.htm "Glossary Entry") DEMO\_MANAGED\_CHILD\_FAILED. The child entity is not used in the example.
 
 Root entity:
 
@@ -31,7 +31,7 @@ define root view entity DEMO\_MANAGED\_ROOT\_FAILED
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_FAILED is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_FAILED is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_root\_failed unique;
 strict;
@@ -58,7 +58,7 @@ authorization dependent by \_parent
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_FAILED. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
+For the above CDS behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_FAILED. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
 
 The following methods are relevant for the example:
 
@@ -184,6 +184,6 @@ Access with ABAP using EML
 
 The program includes multiple ABAP EML requests:
 
-1.  ABAP EML modify request: Multiple RAP BO instances are created. A [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) triggers the saving of the instances to the database. The output shows for all requests the content of the [failed](javascript:call_link\('abaptype_response_for.htm'\)) response. In this case, all instances do not show any failures. Furthermore, an internal table is filled with the database table entries. In the output, all newly created RAP BO instances have been saved to the database and are displayed in the internal table.
+1.  ABAP EML modify request: Multiple RAP BO instances are created. A [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit_entities.htm) triggers the saving of the instances to the database. The output shows for all requests the content of the [failed](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_response_for.htm) response. In this case, all instances do not show any failures. Furthermore, an internal table is filled with the database table entries. In the output, all newly created RAP BO instances have been saved to the database and are displayed in the internal table.
 2.  ABAP EML update and delete requests: Specific RAP BO instances are updated and deleted. The outcome of calling the get\_instance\_authorizations and get\_instance\_features is that several instances cannot be updated and deleted because of the conditions implemented in the methods. Since these methods take care of filling the failed responses, an internal table that contains the entries of the failed response consequently shows the different fail causes for those RAP BO instances that could not be saved to or deleted from the database table. %fail-cause is in this case READONLY and UNAUTHORIZED. As above, a COMMIT ENTITIES statement takes care of saving those instances that did not show any failures. The outcome of these ABAP EML requests are also shown in an internal table.
 3.  ABAP EML read request: Multiple RAP BO instances are read from the database table. The read result is stored in an internal table which is displayed in the output. Since not all instances that are requested exist on the database table, an internal table containing the failed response consequently shows entries. %fail-cause is in this case NOT\_FOUND.

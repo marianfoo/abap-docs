@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Functions (string\_func)](javascript:call_link\('abenstring_functions.htm'\)) →  [string\_func - Examples](javascript:call_link\('abenstring_functions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_processing_expr_func.htm) →  [String Functions (string\_func)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions.htm) →  [string\_func - Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: string_func - count, find, and match, ABENSTRING_FUNCTION_FIND_ABEXA, 757%0D%0A%0D%0A
 Error:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 string\_func - count, find, and match
 
-The example demonstrates the string functions [count](javascript:call_link\('abencount_functions.htm'\)), [find](javascript:call_link\('abensearch_functions.htm'\)), and [match](javascript:call_link\('abenmatch_functions.htm'\)).
+The example demonstrates the string functions [count](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencount_functions.htm), [find](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensearch_functions.htm), and [match](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmatch_functions.htm).
 
 Source Code   
 

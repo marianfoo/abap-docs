@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.10](javascript:call_link\('abennews-610.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-6.htm) →  [Changes in Release 6.10](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-610.htm) → 
 
 Debugger in Release 6.10
 
@@ -32,7 +32,7 @@ Debugger in Release 6.10
 
 Modification 1
 
-Displaying [Program Attributes](javascript:call_link\('abenprogram_attribute_glosry.htm'\) "Glossary Entry")
+Displaying [Program Attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attribute_glosry.htm "Glossary Entry")
 
 If Goto → Further Information → Program Attributes is chosen in the menu, the system displays the attributes "Fixed Point Arithmetic", "System Program", and "Unicode Check".
 
@@ -62,7 +62,7 @@ Support for Class-Based Exceptions
 
 The following functions are available when an exception is raised:
 
-1.  If the addition [INTO ref](javascript:call_link\('abapcatch_try.htm'\)) is missing from the statement CATCH, an exception object can be created in the debugger under Settings.
+1.  If the addition [INTO ref](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcatch_try.htm) is missing from the statement CATCH, an exception object can be created in the debugger under Settings.
 2.  If Display Exception Object is chosen, the attributes and interfaces of the exception class are displayed together with their contents.
 3.  If Statement that Caused the Exception is chosen, the line of the source code containing the statement that raised the exception is displayed. The statement is marked explicitly in the source code.
     
@@ -71,13 +71,13 @@ Modification 6
 
 Debugging Mode for Business Server Pages with ABAP Scripting
 
-Business Server Pages ([BSP](javascript:call_link\('abenbusiness_server_pages_glosry.htm'\) "Glossary Entry")) can now be run in debugging mode. It is also possible to display and set breakpoints there. Business Server Pages can be displayed in Object Navigator by selecting an appropriate application under BSP Applications.
+Business Server Pages ([BSP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbusiness_server_pages_glosry.htm "Glossary Entry")) can now be run in debugging mode. It is also possible to display and set breakpoints there. Business Server Pages can be displayed in Object Navigator by selecting an appropriate application under BSP Applications.
 
 Modification 7
 
 Inheriting Breakpoints from HTTP and Update Sessions
 
-If an HTTP session or [update session](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry") is called from a logical unit of work ([LUW](javascript:call_link\('abendb_transaction.htm'\))), new work processes are started for these sessions. Any breakpoints set in this calling LUW are inherited by the new sessions and can be displayed by choosing Breakpoints. For example, if the update module func is called using [CALL FUNCTION func IN UPDATE TASK](javascript:call_link\('abapcall_function_update.htm'\)), the new work process is displayed in a new GUI window, provided update debugging is selected under Settings in debugging mode. Here, all the breakpoints set in the calling LUW can be processed.
+If an HTTP session or [update session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenupdate_glosry.htm "Glossary Entry") is called from a logical unit of work ([LUW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendb_transaction.htm)), new work processes are started for these sessions. Any breakpoints set in this calling LUW are inherited by the new sessions and can be displayed by choosing Breakpoints. For example, if the update module func is called using [CALL FUNCTION func IN UPDATE TASK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function_update.htm), the new work process is displayed in a new GUI window, provided update debugging is selected under Settings in debugging mode. Here, all the breakpoints set in the calling LUW can be processed.
 
 Modification 8
 
@@ -109,6 +109,6 @@ Modification 11
 
 Displaying the Structure Fragment View
 
-Choosing Goto → Display Data Object → System Information in the menu displays the [structure fragment view](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry"). In this view, structures, internal tables, strings, data references, and objects are broken down into alignment gaps, character-like and byte-like areas, and all remaining types (such as P, I, F, strings, references, or internal tables).
+Choosing Goto → Display Data Object → System Information in the menu displays the [structure fragment view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry"). In this view, structures, internal tables, strings, data references, and objects are broken down into alignment gaps, character-like and byte-like areas, and all remaining types (such as P, I, F, strings, references, or internal tables).
 
 Adjacent, character-like components of a structure (with the exception of strings) are organized internally into the same group, but only if there are no alignment gaps between these components. All possible alignment requirements for characters are respected here. In the same way, adjacent byte-like components are also grouped together.

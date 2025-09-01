@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  C
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  C
 
 COMMUNICATION - Short Reference
 
-[Reference](javascript:call_link\('abapcommunication.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication.htm)
 
 Syntax
 
@@ -25,27 +25,27 @@ COMMUNICATION *{* *{*INIT DESTINATION dest*}*
 
 Effect
 
-Obsolete: Enables communication with external programs using the [CPI-C](javascript:call_link\('abencpi-c_glosry.htm'\) "Glossary Entry") interface; the connection number is in id.
+Obsolete: Enables communication with external programs using the [CPI-C](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencpi-c_glosry.htm "Glossary Entry") interface; the connection number is in id.
 
 Additions
 
--   [INIT DESTINATION dest](javascript:call_link\('abapcommunication_comstep.htm'\))
+-   [INIT DESTINATION dest](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm)
     Initializes a connection dest.
--   [ALLOCATE](javascript:call_link\('abapcommunication_comstep.htm'\))
+-   [ALLOCATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm)
     Establishes a connection.
--   [ACCEPT](javascript:call_link\('abapcommunication_comstep.htm'\))
+-   [ACCEPT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm)
     Accepts a connection.
--   [SEND BUFFER buf](javascript:call_link\('abapcommunication_comstep.htm'\))
+-   [SEND BUFFER buf](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm)
     Sends data in buf.
--   [RECEIVE BUFFER buf DATAINFO dat STATUSINFO stat](javascript:call_link\('abapcommunication_comstep.htm'\))
+-   [RECEIVE BUFFER buf DATAINFO dat STATUSINFO stat](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm)
     Receives data in buf and status information in dat and stat.
--   [DEALLOCATE](javascript:call_link\('abapcommunication_comstep.htm'\))
+-   [DEALLOCATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_comstep.htm)
     Terminates a connection.
--   [RETURNCODE rc](javascript:call_link\('abapcommunication_options.htm'\))
+-   [RETURNCODE rc](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_options.htm)
     Receives a return code in rc.
--   [LENGTH leng](javascript:call_link\('abapcommunication_options.htm'\))
+-   [LENGTH leng](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_options.htm)
     Restricts the length of sent or received data to leng.
--   [RECEIVED rec](javascript:call_link\('abapcommunication_options.htm'\))
+-   [RECEIVED rec](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_options.htm)
     Returns the number of received bytes in rec.
--   [HOLD](javascript:call_link\('abapcommunication_options.htm'\))
-    Prevents the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") being changed when data is being received.
+-   [HOLD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommunication_options.htm)
+    Prevents the [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry") being changed when data is being received.

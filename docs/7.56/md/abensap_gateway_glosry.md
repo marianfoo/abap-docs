@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 SAP Gateway
 
-Framework that makes it possible to access [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry") using standardized open protocols such as [OData](javascript:call_link\('abenodata_glosry.htm'\) "Glossary Entry"). [Business services](javascript:call_link\('abenbusiness_service_glosry.htm'\) "Glossary Entry") and [RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") based on the data and behavior modeled in [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry") use SAP Gateway internally as part of the [RAP runtime framework](javascript:call_link\('abenrap_runt_framework_glosry.htm'\) "Glossary Entry").
+Framework that makes it possible to access [AS ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm "Glossary Entry") using standardized open protocols such as [OData](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenodata_glosry.htm "Glossary Entry"). [Business services](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbusiness_service_glosry.htm "Glossary Entry") and [RAP business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm "Glossary Entry") based on the data and behavior modeled in [ABAP CDS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_cds_glosry.htm "Glossary Entry") use SAP Gateway internally as part of the [RAP runtime framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_runt_framework_glosry.htm "Glossary Entry").

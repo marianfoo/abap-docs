@@ -3,27 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abentext_environment_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_obsolete.htm)
-- [abapset_locale_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale_obsolete.htm)
-- [abapget_locale_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_obsolete.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.57
-**Generated**: 2025-09-01T11:25:45.254Z
-
----
-
 ### abentext_environment_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abentext_environment_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,29 +11,22 @@ Included pages: 3
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Obsolete Text Environment, ABENTEXT_ENVIRONMENT_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A
 %0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Obsolete Text Environment
 
--   [SET LOCALE - obsolete\_parameters](javascript:call_link\('abapset_locale_obsolete.htm'\))
--   [GET LOCALE - obsolete\_parameters](javascript:call_link\('abapget_locale_obsolete.htm'\))
+-   [SET LOCALE - obsolete\_parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale_obsolete.htm)
+-   [GET LOCALE - obsolete\_parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_obsolete.htm)
 
 Continue
-[SET LOCALE, obsolete\_parameters](javascript:call_link\('abapset_locale_obsolete.htm'\))
-[GET LOCALE, obsolete\_parameters](javascript:call_link\('abapget_locale_obsolete.htm'\))
+[SET LOCALE, obsolete\_parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale_obsolete.htm)
+[GET LOCALE, obsolete\_parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_obsolete.htm)
 
-
-
-**📖 Source**: [abentext_environment_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_obsolete.htm)
 
 ### abapset_locale_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abapset_locale_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -61,14 +34,14 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Text Environment](javascript:call_link\('abentext_environment_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Text Environment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_obsolete.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SET LOCALE, obsolete_parameters, ABAPSET_LOCALE_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A
 %0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 SET LOCALE, obsolete\_parameters
 
-[Short Reference](javascript:call_link\('abapset_locale_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale_shortref.htm)
 
 Obsolete Syntax
 
@@ -81,7 +54,7 @@ Additions:
 
 Effect
 
-ABAP syntax allows the additions COUNTRY and MODIFIER to be specified for the statement[SET LOCALE LANGUAGE](javascript:call_link\('abapset_locale.htm'\)). These additions should not be used.
+ABAP syntax allows the additions COUNTRY and MODIFIER to be specified for the statement[SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale.htm). These additions should not be used.
 
 Addition 1   
 
@@ -91,11 +64,11 @@ Effect
 
 The addition COUNTRY was intended for explicitly setting country-specific text environments. cntry expects a character-like data object that contains a country key with a maximum of three characters.
 
-The function of this addition was not implemented completely and is undefined. If the data object lang of the statement [SET LOCALE LANGUAGE](javascript:call_link\('abapset_locale.htm'\)) contains only blanks, the addition is ignored.
+The function of this addition was not implemented completely and is undefined. If the data object lang of the statement [SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale.htm) contains only blanks, the addition is ignored.
 
 Hint
 
-The statement SET LOCALE LANGUAGE must not be confused with the addition COUNTRY of the statement [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)) for setting the [formatting settings](javascript:call_link\('abenformat_setting_glosry.htm'\) "Glossary Entry").
+The statement SET LOCALE LANGUAGE must not be confused with the addition COUNTRY of the statement [SET COUNTRY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_country.htm) for setting the [formatting settings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenformat_setting_glosry.htm "Glossary Entry").
 
 Addition 2   
 
@@ -108,17 +81,7 @@ The addition MODIFIER was intended for setting different locales for a language 
 This function is not implemented. The addition MODIFIER is ignored when the statement is executed.
 
 
-
-**📖 Source**: [abapset_locale_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_locale_obsolete.htm)
-
 ### abapget_locale_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abapget_locale_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapget_locale_obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_obsolete.htm)
-
 
   
 
@@ -126,14 +89,14 @@ This function is not implemented. The addition MODIFIER is ignored when the stat
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Text Environment](javascript:call_link\('abentext_environment_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Text Environment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_obsolete.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: GET LOCALE, obsolete_parameters, ABAPGET_LOCALE_OBSOLETE, 757%0D%0A%0D%0AError:%0D%0A
 %0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 GET LOCALE, obsolete\_parameters
 
-[Short Reference](javascript:call_link\('abapget_locale_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale_shortref.htm)
 
 Obsolete Syntax
 
@@ -146,7 +109,7 @@ Additions:
 
 Effect
 
-Although ABAP syntax requires the additions COUNTRY and MODIFIER to be specified for the statement [GET LOCALE](javascript:call_link\('abapget_locale.htm'\)), the results of these additions should not be used.
+Although ABAP syntax requires the additions COUNTRY and MODIFIER to be specified for the statement [GET LOCALE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_locale.htm), the results of these additions should not be used.
 
 Addition 1   
 
@@ -158,7 +121,7 @@ The function of this addition was not implemented completely and the result is u
 
 Hint
 
-The addition COUNTRY of the statement GET LOCALE does not extract the [formatting setting](javascript:call_link\('abenformat_setting_glosry.htm'\) "Glossary Entry") that can be set using [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)).
+The addition COUNTRY of the statement GET LOCALE does not extract the [formatting setting](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenformat_setting_glosry.htm "Glossary Entry") that can be set using [SET COUNTRY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_country.htm).
 
 Addition 2   
 

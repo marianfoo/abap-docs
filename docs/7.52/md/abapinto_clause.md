@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Open SQL](javascript:call_link\('abenopensql.htm'\)) →  [Open SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT clauses](javascript:call_link\('abenselect_clauses.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql.htm) →  [Open SQL - Reads](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_reading.htm) →  [SELECT clauses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_clauses.htm) → 
 
 SELECT - INTO, APPENDING
 
-[Quick Reference](javascript:call_link\('abapselect_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_shortref.htm)
 
 Syntax
 
@@ -18,8 +18,8 @@ Syntax
          *\[*CORRESPONDING FIELDS OF*\]* TABLE @itab *\[*PACKAGE SIZE n*\]**}*
   *|* *{* INTO @DATA(wa) *}*
   *|* *{* INTO TABLE @DATA(itab) *\[*PACKAGE SIZE n*\]* *}*
-    *\[* [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) @oref *\]*
-    *\[* [creating](javascript:call_link\('abapselect_creating.htm'\)) *\]* ...  .
+    *\[* [EXTENDED RESULT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_extended_result.htm) @oref *\]*
+    *\[* [creating](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_creating.htm) *\]* ...  .
 
 Alternatives:
 
@@ -31,7 +31,7 @@ Alternatives:
 
 Effect
 
-The information after INTO or APPENDING specifies to which data objects the results set of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement, [WITH](javascript:call_link\('abapwith.htm'\)) statement or a [FETCH](javascript:call_link\('abapfetch.htm'\)) statement is assigned. It is possible to specify
+The information after INTO or APPENDING specifies to which data objects the results set of a [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) statement, [WITH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwith.htm) statement or a [FETCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfetch.htm) statement is assigned. It is possible to specify
 
 -   a single work area wa after INTO,
     
@@ -40,17 +40,17 @@ The information after INTO or APPENDING specifies to which data objects the resu
 -   an internal table itab after INTO or APPENDING
     
 
-as a [host variable](javascript:call_link\('abenopen_sql_host_variables.htm'\)) prefixed with the escape character @. The [declaration operator](javascript:call_link\('abendeclaration_operator_glosry.htm'\) "Glossary Entry") [DATA](javascript:call_link\('abendata_inline.htm'\)) can be used to perform appropriate [inline declarations](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry").
+as a [host variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_variables.htm) prefixed with the escape character @. The [declaration operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_operator_glosry.htm "Glossary Entry") [DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_inline.htm) can be used to perform appropriate [inline declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninline_declaration_glosry.htm "Glossary Entry").
 
-When field symbols or dereferenced reference variables are specified for the work area, individual data objects, or internal tables in a SELECT loop closed using [ENDSELECT](javascript:call_link\('abapendselect.htm'\)), the data object that is the target of a field symbol or reference variable is identified precisely once, when the loop is entered. This data object is used as a target area in each loop pass. Any modifications to the assignment of a field symbol or reference variable within the loop are ignored.
+When field symbols or dereferenced reference variables are specified for the work area, individual data objects, or internal tables in a SELECT loop closed using [ENDSELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendselect.htm), the data object that is the target of a field symbol or reference variable is identified precisely once, when the loop is entered. This data object is used as a target area in each loop pass. Any modifications to the assignment of a field symbol or reference variable within the loop are ignored.
 
-The [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) addition can be used to provide an extended result in a result object.
+The [EXTENDED RESULT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_extended_result.htm) addition can be used to provide an extended result in a result object.
 
-If a [LOB](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") of the results set is associated with a [LOB handle](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry"), it may be necessary to use [creating](javascript:call_link\('abapselect_creating.htm'\)) to specify whether a [data stream](javascript:call_link\('abendata_stream_glosry.htm'\) "Glossary Entry") or a [locator](javascript:call_link\('abenlocator_glosry.htm'\) "Glossary Entry") is being used.
+If a [LOB](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_glosry.htm "Glossary Entry") of the results set is associated with a [LOB handle](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_glosry.htm "Glossary Entry"), it may be necessary to use [creating](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_creating.htm) to specify whether a [data stream](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_stream_glosry.htm "Glossary Entry") or a [locator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocator_glosry.htm "Glossary Entry") is being used.
 
 Notes
 
--   When specifying the data objects, there are no dynamic variants that correspond to the other additions. Instead, dynamically created data objects can be used (see the example for [CREATE DATA](javascript:call_link\('abapcreate_data_existing.htm'\))).
+-   When specifying the data objects, there are no dynamic variants that correspond to the other additions. Instead, dynamically created data objects can be used (see the example for [CREATE DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_data_existing.htm)).
     
 -   Whether data should better be read into an internal table or a work area depends on the type of further processing: If data is required only once in a program, it should be imported into a work area, row by row, by a SELECT. Reading data into an internal table requires more memory space (without compensating this disadvantage with a considerably higher reading speed). If, on the other hand, data is required many times in a program, it should be read into an internal table. The disadvantage of the increased memory requirement is more than compensated for here by the advantage of a once-only selection.
     
@@ -60,17 +60,17 @@ Notes
     
 -   If the addition INTO CORRESPONDING is used and all the required information exists statically, the fields are assigned when the program is generated. Otherwise the fields are assigned once when the SELECT statement is executed, which causes a slight increase in the required runtime.
     
--   The addition INTO CORRESPONDING modifies the actual [SELECT list](javascript:call_link\('abapselect_list.htm'\)) that is passed to the database and hence also the SELECT statement. If one or more names match, all the columns for which there are no name matches are removed from the SELECT list implicitly. If there are no name matches, none of the columns are removed. If \* is specified for the [SELECT list](javascript:call_link\('abapselect_list.htm'\)), it may be updated to a list of columns implicitly.
+-   The addition INTO CORRESPONDING modifies the actual [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) that is passed to the database and hence also the SELECT statement. If one or more names match, all the columns for which there are no name matches are removed from the SELECT list implicitly. If there are no name matches, none of the columns are removed. If \* is specified for the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm), it may be updated to a list of columns implicitly.
     
 -   The variants with the addition INTO CORRESPONDING FIELDS run the risk of having target areas with more components than are actually filled. This should only be the case if the components that are not filled are then filled in the program. Otherwise appropriately sized work areas should be used to avoid a large amount of memory being filled by initial values (especially in internal tables).
     
--   The statement SELECT also has an obsolete [short form](javascript:call_link\('abapselect_obsolete.htm'\)), in which INTO or APPENDING can be omitted.
+-   The statement SELECT also has an obsolete [short form](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_obsolete.htm), in which INTO or APPENDING can be omitted.
     
 -   Reference variables for LOB handles or LOB handle structures cannot currently be specified after the statement FETCH.
     
--   Host variables without the escape character @ are [obsolete](javascript:call_link\('abenopen_sql_hostvar_obsolete.htm'\)). The escape character @ must be specified in the [strict modes](javascript:call_link\('abenopensql_strict_modes.htm'\)) of the syntax check from Release 7.40, SP05.
+-   Host variables without the escape character @ are [obsolete](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_hostvar_obsolete.htm). The escape character @ must be specified in the [strict modes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_strict_modes.htm) of the syntax check from Release 7.40, SP05.
     
--   In the [strict mode](javascript:call_link\('abenopensql_strict_mode_750.htm'\)) of the syntax check from 7.50Release 7.50, the INTO clause must be the last clause of a [main query](javascript:call_link\('abenmainquery_glosry.htm'\) "Glossary Entry"). In this case, the additions [UP TO and OFFSET](javascript:call_link\('abapselect_up_to_offset.htm'\)) and the additions [abap\_options](javascript:call_link\('abapselect_additions.htm'\)) must be placed after the INTO clause.
+-   In the [strict mode](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_strict_mode_750.htm) of the syntax check from 7.50Release 7.50, the INTO clause must be the last clause of a [main query](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmainquery_glosry.htm "Glossary Entry"). In this case, the additions [UP TO and OFFSET](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_up_to_offset.htm) and the additions [abap\_options](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_additions.htm) must be placed after the INTO clause.
     
 
 Alternative 1
@@ -79,37 +79,37 @@ Alternative 1
 
 Effect
 
-For wa, a data object can be specified as a host variable using the escape character @. This must meet certain [prerequisites](javascript:call_link\('abenopen_sql_wa.htm'\)) without specifying CORRESPONDING FIELDS OF. If the results set consists of a single row, this row is assigned to wa. If the results set has multiple rows, SELECT must be followed by an ENDSELECT statement; the results set is assigned to the work area wa row-by-row and can be evaluated in the loop. After ENDSELECT, the work area wa contains the row that was assigned last. If used in the [FETCH](javascript:call_link\('abapfetch.htm'\)) statement, a row is extracted at the current cursor position. If the result is empty, the work area remains unchanged. If a handleable exception is raised when the work area is filled, its content is undefined when the exception is handled.
+For wa, a data object can be specified as a host variable using the escape character @. This must meet certain [prerequisites](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_wa.htm) without specifying CORRESPONDING FIELDS OF. If the results set consists of a single row, this row is assigned to wa. If the results set has multiple rows, SELECT must be followed by an ENDSELECT statement; the results set is assigned to the work area wa row-by-row and can be evaluated in the loop. After ENDSELECT, the work area wa contains the row that was assigned last. If used in the [FETCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfetch.htm) statement, a row is extracted at the current cursor position. If the result is empty, the work area remains unchanged. If a handleable exception is raised when the work area is filled, its content is undefined when the exception is handled.
 
-The rows of the results set are assigned as follows, based on the [SELECT list](javascript:call_link\('abapselect_list.htm'\)):
+The rows of the results set are assigned as follows, based on the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm):
 
 -   Specifying \* Without Addition CORRESPONDING FIELDS
     
 
-If all columns are read with \*, CORRESPONDING FIELDS is not specified and the SELECT statement is not the main query of a [WITH](javascript:call_link\('abapwith.htm'\)) statement, then SELECT behaves as follows:
+If all columns are read with \*, CORRESPONDING FIELDS is not specified and the SELECT statement is not the main query of a [WITH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwith.htm) statement, then SELECT behaves as follows:
 
--   When specifying a work area that does not contain any reference variables for [LOB handles](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry"), the row is assigned to the results set left-aligned and unconverted in accordance with the structure of the results set. Unaffected parts of wa retain their previous content. To be able to access the components of the results set according to type, the work area wa must be structured like the results set.
+-   When specifying a work area that does not contain any reference variables for [LOB handles](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_glosry.htm "Glossary Entry"), the row is assigned to the results set left-aligned and unconverted in accordance with the structure of the results set. Unaffected parts of wa retain their previous content. To be able to access the components of the results set according to type, the work area wa must be structured like the results set.
 
--   When a [LOB handle structure](javascript:call_link\('abenlob_handle_structure_glosry.htm'\) "Glossary Entry") is specified, it must be constructed (in accordance with the [prerequisites](javascript:call_link\('abenopen_sql_wa.htm'\))) exactly like the structure of the [data source](javascript:call_link\('abapselect_data_source.htm'\)). The content of the columns of the results set that are not assigned to any [LOB handle components](javascript:call_link\('abenlob_handle_component_glosry.htm'\) "Glossary Entry") are directly assigned to the corresponding components of the work area. One [LOB handle](javascript:call_link\('abenselect_into_lob_handles.htm'\)) is created for each LOB handle component.
+-   When a [LOB handle structure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_structure_glosry.htm "Glossary Entry") is specified, it must be constructed (in accordance with the [prerequisites](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_wa.htm)) exactly like the structure of the [data source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_data_source.htm). The content of the columns of the results set that are not assigned to any [LOB handle components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_component_glosry.htm "Glossary Entry") are directly assigned to the corresponding components of the work area. One [LOB handle](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_into_lob_handles.htm) is created for each LOB handle component.
 
 -   All Other Combinations
     
 
-If the results set consists of a single column specified explicitly after SELECT or a single [SQL expression](javascript:call_link\('abensql_expression_glosry.htm'\) "Glossary Entry") or a single [aggregate expression](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry"), wa can be an elementary data object or a structure. If the results set consists of multiple columns, it must be a structure and the following rules apply:
+If the results set consists of a single column specified explicitly after SELECT or a single [SQL expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_expression_glosry.htm "Glossary Entry") or a single [aggregate expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenaggregate_expression_glosry.htm "Glossary Entry"), wa can be an elementary data object or a structure. If the results set consists of multiple columns, it must be a structure and the following rules apply:
 
 -   If the addition CORRESPONDING FIELDS is not specified, wa must contain enough components and the content of the columns are assigned to the components of wa from left to right in the order specified after SELECT.
 
--   If the addition CORRESPONDING FIELDS is specified, only those content of columns for which there are identically named components in wa are assigned to them. This respects the alternative column names. Columns and aggregate expressions that appear multiple times can only be assigned using alternative column names, if CORRESPONDING FIELDS is specified. If a column name appears multiple times and no alternative column name was granted, the last column listed is assigned. If one or more names match, all the columns for which there are no name matches are removed from the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) implicitly and therefore from the results set too. If there are no name matches, none of the columns are removed from the results set. If \* is specified for the [SELECT list](javascript:call_link\('abapselect_list.htm'\)), it may be updated to a list of columns implicitly.
+-   If the addition CORRESPONDING FIELDS is specified, only those content of columns for which there are identically named components in wa are assigned to them. This respects the alternative column names. Columns and aggregate expressions that appear multiple times can only be assigned using alternative column names, if CORRESPONDING FIELDS is specified. If a column name appears multiple times and no alternative column name was granted, the last column listed is assigned. If one or more names match, all the columns for which there are no name matches are removed from the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) implicitly and therefore from the results set too. If there are no name matches, none of the columns are removed from the results set. If \* is specified for the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm), it may be updated to a list of columns implicitly.
 
-[Assignment rules](javascript:call_link\('abenselect_into_conversion.htm'\)) apply to the individual assignments. If a [LOB](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") of a reference variable for [LOB handle](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry") is assigned, a [LOB handle is created](javascript:call_link\('abenselect_into_lob_handles.htm'\)).
+[Assignment rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_into_conversion.htm) apply to the individual assignments. If a [LOB](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_glosry.htm "Glossary Entry") of a reference variable for [LOB handle](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_glosry.htm "Glossary Entry") is assigned, a [LOB handle is created](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_into_lob_handles.htm).
 
-If CORRESPONDING FIELDS is used, the columns of the results set defined in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) correspond to the components of the target area. Among other things, there must be at least one match or there must be an identically named component in the target area for each explicitly specified column.
+If CORRESPONDING FIELDS is used, the columns of the results set defined in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) correspond to the components of the target area. Among other things, there must be at least one match or there must be an identically named component in the target area for each explicitly specified column.
 
 Notes
 
--   The second point above, "All Other Combinations" also includes [data\_source~\*](javascript:call_link\('abapselect_list.htm'\)) when specified in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)). In this case, wa must be a structure. This is particularly valid when only one data source [data\_source~\*](javascript:call_link\('abapselect_data_source.htm'\)) is specified. If a single data\_source~\* is specified, therefore, other rules apply than in the case where \* is specified, even if the same results sets are defined both times.
+-   The second point above, "All Other Combinations" also includes [data\_source~\*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) when specified in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm). In this case, wa must be a structure. This is particularly valid when only one data source [data\_source~\*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_data_source.htm) is specified. If a single data\_source~\* is specified, therefore, other rules apply than in the case where \* is specified, even if the same results sets are defined both times.
     
--   The addition CORRESPONDING FIELDS ignores names which were only defined using the addition AS name of the statement [INCLUDE](javascript:call_link\('abapinclude_type.htm'\)) or when integrating the structures in ABAP Dictionary. Any components renamed using the addition RENAMING WITH SUFFIX of the statement INCLUDE (or renamed similarly in ABAP Dictionary) are, however, not ignored.
+-   The addition CORRESPONDING FIELDS ignores names which were only defined using the addition AS name of the statement [INCLUDE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinclude_type.htm) or when integrating the structures in ABAP Dictionary. Any components renamed using the addition RENAMING WITH SUFFIX of the statement INCLUDE (or renamed similarly in ABAP Dictionary) are, however, not ignored.
     
 -   If the addition CORRESPONDING FIELDS is used, fields with matching names (if known statically) are assigned when the program is generated or are otherwise assigned when the SELECT statement is executed.
     
@@ -138,20 +138,20 @@ Alternative 2
 
 Effect
 
-If the results set consists of multiple columns [col\_spec](javascript:call_link\('abapselect_clause_col_spec.htm'\)) specified explicitly in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)), a list of data objects dobj1, dobj2, ... (in parentheses and separated by commas) can be specified after INTO. The following can be specified as a single data object:
+If the results set consists of multiple columns [col\_spec](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_clause_col_spec.htm) specified explicitly in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm), a list of data objects dobj1, dobj2, ... (in parentheses and separated by commas) can be specified after INTO. The following can be specified as a single data object:
 
 -   An elementary host variable prefixed by an escape character @.
     
--   An inline declaration, [@DATA(dobj)](javascript:call_link\('abendata_inline.htm'\)), where an elementary variable with the type of the assigned column of the results set is declared. The [declaration operator](javascript:call_link\('abendeclaration_operator_glosry.htm'\) "Glossary Entry") [DATA](javascript:call_link\('abendata_inline.htm'\)) must be prefixed with the escape character @.
+-   An inline declaration, [@DATA(dobj)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_inline.htm), where an elementary variable with the type of the assigned column of the results set is declared. The [declaration operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_operator_glosry.htm "Glossary Entry") [DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_inline.htm) must be prefixed with the escape character @.
     
 
-The same number of elementary data objects dobj must be specified as there are columns in the results set. The content of the columns in the results set is assigned to the data objects from left to right, according to the order specified after SELECT. [Assignment rules](javascript:call_link\('abenselect_into_conversion.htm'\)) apply to the individual assignments. If a [LOB](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") of a reference variable for [LOB handle](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry") is assigned, a [LOB handle is created](javascript:call_link\('abenselect_into_lob_handles.htm'\)). If the results set is empty, the data objects remain unchanged. If a handleable exception is raised when the data objects are filled, their content is undefined when the exception is handled.
+The same number of elementary data objects dobj must be specified as there are columns in the results set. The content of the columns in the results set is assigned to the data objects from left to right, according to the order specified after SELECT. [Assignment rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_into_conversion.htm) apply to the individual assignments. If a [LOB](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_glosry.htm "Glossary Entry") of a reference variable for [LOB handle](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_glosry.htm "Glossary Entry") is assigned, a [LOB handle is created](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_into_lob_handles.htm). If the results set is empty, the data objects remain unchanged. If a handleable exception is raised when the data objects are filled, their content is undefined when the exception is handled.
 
-If the results set consists of one row, the columns are assigned from that row. If the results set contains multiple rows, SELECT must be followed by an ENDSELECT statement; the columns of the results set are assigned to the data objects row-by-row and they can be evaluated in a loop. If used in the statement [FETCH](javascript:call_link\('abapfetch.htm'\)), the columns of the row are extracted at the current cursor position.
+If the results set consists of one row, the columns are assigned from that row. If the results set contains multiple rows, SELECT must be followed by an ENDSELECT statement; the columns of the results set are assigned to the data objects row-by-row and they can be evaluated in a loop. If used in the statement [FETCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfetch.htm), the columns of the row are extracted at the current cursor position.
 
 Note
 
-No list can be specified after INTO if the results set is defined by specifying \* or dbtab1~\*, dbtab2~\*, ... in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)).
+No list can be specified after INTO if the results set is defined by specifying \* or dbtab1~\*, dbtab2~\*, ... in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm).
 
 Example
 
@@ -199,18 +199,18 @@ Addition:
 
 Effect
 
-If the results set consists of multiple rows, an internal table itab of any table type can be specified as a host variable using the escape character @ after INTO TABLE or APPENDING TABLE. The row type of the internal table must meet the [prerequisites](javascript:call_link\('abenopen_sql_wa.htm'\)).
+If the results set consists of multiple rows, an internal table itab of any table type can be specified as a host variable using the escape character @ after INTO TABLE or APPENDING TABLE. The row type of the internal table must meet the [prerequisites](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_wa.htm).
 
-The results set is inserted into the internal table itab row-by-row in accordance with the rules of [INSERT](javascript:call_link\('abapinsert_itab.htm'\)); a sorting process is executed in the case of a [sorted table](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry").
+The results set is inserted into the internal table itab row-by-row in accordance with the rules of [INSERT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_itab.htm); a sorting process is executed in the case of a [sorted table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensorted_table_glosry.htm "Glossary Entry").
 
 -   If INTO is used, the internal table is initialized.
     
 -   Previous rows remain intact if APPENDING is used.
     
 
-If there is a conflict with an existing unique table key, a non-handleable exception is raised like in the case of [INSERT LINES OF](javascript:call_link\('abapinsert_itab_linespec.htm'\)).
+If there is a conflict with an existing unique table key, a non-handleable exception is raised like in the case of [INSERT LINES OF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_itab_linespec.htm).
 
-Before any assignment of a row of the results set, an initial row of the internal table itab is created and the row of the results set is assigned to this row. When assigning a row of the results set to a row of the internal table with or without CORRESPONDING FIELDS, the same rules apply as when assigning to an individual work area wa (see above) with the exception that when inserting into internal tables, [LOB handles](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry") can be [created](javascript:call_link\('abenselect_into_lob_handles.htm'\)) as [locators](javascript:call_link\('abenlocator_glosry.htm'\) "Glossary Entry") but not as [reader streams](javascript:call_link\('abenreader_stream_glosry.htm'\) "Glossary Entry").
+Before any assignment of a row of the results set, an initial row of the internal table itab is created and the row of the results set is assigned to this row. When assigning a row of the results set to a row of the internal table with or without CORRESPONDING FIELDS, the same rules apply as when assigning to an individual work area wa (see above) with the exception that when inserting into internal tables, [LOB handles](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_glosry.htm "Glossary Entry") can be [created](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_into_lob_handles.htm) as [locators](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocator_glosry.htm "Glossary Entry") but not as [reader streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreader_stream_glosry.htm "Glossary Entry").
 
 If the addition PACKAGE SIZE is not used, all rows of the results set are inserted in the internal table itab and the ENDSELECT statement must not be specified after SELECT.
 
@@ -218,13 +218,13 @@ If the results set is empty, the internal table is initialized when INTO is used
 
 Notes
 
--   When specifying an internal table with a unique [primary](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") or [secondary table key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry"), an exception is raised that cannot be handled if an attempt is made to create a duplicate entry.
+-   When specifying an internal table with a unique [primary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") or [secondary table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_table_key_glosry.htm "Glossary Entry"), an exception is raised that cannot be handled if an attempt is made to create a duplicate entry.
     
--   If the internal table contains more columns than required when using the addition CORRESPONDING FIELDS, generally too much memory is being used by initial fields and a warning is displayed by the syntax check. In cases where the columns are needed, for example when they are filled with derived values by the program, a [pragma](javascript:call_link\('abenpragma.htm'\)) can be used to suppress the warning.
+-   If the internal table contains more columns than required when using the addition CORRESPONDING FIELDS, generally too much memory is being used by initial fields and a warning is displayed by the syntax check. In cases where the columns are needed, for example when they are filled with derived values by the program, a [pragma](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpragma.htm) can be used to suppress the warning.
     
--   Since the maximum number of [data streams](javascript:call_link\('abendata_stream_glosry.htm'\) "Glossary Entry") that can be assigned to an Open SQL statement is limited to 16, it does not make any sense to create reader streams when importing internal tables.
+-   Since the maximum number of [data streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_stream_glosry.htm "Glossary Entry") that can be assigned to an Open SQL statement is limited to 16, it does not make any sense to create reader streams when importing internal tables.
     
--   Instead of using APPENDING TABLE to form union sets on the application server, this can now be done directly in the database using [UNION](javascript:call_link\('abapunion.htm'\)), and [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) can be used to calculate column values.
+-   Instead of using APPENDING TABLE to form union sets on the application server, this can now be done directly in the database using [UNION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapunion.htm), and [SQL expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm) can be used to calculate column values.
     
 
 Example
@@ -246,7 +246,7 @@ cl\_demo\_output=>display( itab ).
 
 Example
 
-The following example for APPENDING TABLE creates the same internal table as the example for [UNION](javascript:call_link\('abapunion.htm'\)).
+The following example for APPENDING TABLE creates the same internal table as the example for [UNION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapunion.htm).
 
 SELECT FROM scarr
        FIELDS carrname,
@@ -271,7 +271,7 @@ Addition
 
 Effect
 
-If the addition PACKAGE SIZE is specified, all rows of the results set for SELECT are processed in a loop, which must be closed with ENDSELECT. They are inserted in packages of n rows in the internal table itab. n expects a [host variable](javascript:call_link\('abenopen_sql_host_variables.htm'\)) with a prefixed escape character @, a [host expression](javascript:call_link\('abenopen_sql_host_expressions.htm'\)), or a literal of type i (that contains the number of rows). When n is specified as a data object, it should be prefixed by the escape character @. The content of n must match the data type i in accordance with the rules for a [lossless assignment](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry"). In the [strict mode](javascript:call_link\('abenopensql_strict_mode_751.htm'\)) of the syntax check in Release 7.51, n must have type b, s, i or int8. If the value of n is less than 0, an exception is raised that cannot be handled. If n is equal to 0, all rows of the results set are inserted in the internal table itab. If used in the statement [FETCH](javascript:call_link\('abapfetch.htm'\)), n rows are extracted from the current cursor position.
+If the addition PACKAGE SIZE is specified, all rows of the results set for SELECT are processed in a loop, which must be closed with ENDSELECT. They are inserted in packages of n rows in the internal table itab. n expects a [host variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_variables.htm) with a prefixed escape character @, a [host expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_expressions.htm), or a literal of type i (that contains the number of rows). When n is specified as a data object, it should be prefixed by the escape character @. The content of n must match the data type i in accordance with the rules for a [lossless assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_assignment_glosry.htm "Glossary Entry"). In the [strict mode](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_strict_mode_751.htm) of the syntax check in Release 7.51, n must have type b, s, i or int8. If the value of n is less than 0, an exception is raised that cannot be handled. If n is equal to 0, all rows of the results set are inserted in the internal table itab. If used in the statement [FETCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfetch.htm), n rows are extracted from the current cursor position.
 
 If INTO is used, the internal table is initialized before each insertion and, in the SELECT loop, it only contains the rows of the current package. If APPENDING is used, a further package is added to the existing rows of the internal table for each SELECT loop or for each extraction using FETCH.
 
@@ -279,11 +279,11 @@ After ENDSELECT, the content of itab is not defined if INTO is used. That is, th
 
 Notes
 
--   The addition PACKAGE SIZE can be used after INTO to limit the amount of data read in one go. Otherwise a runtime error can occur when reading a data set that is too large into an internal table so that its [maximum size](javascript:call_link\('abenmemory_consumption_2.htm'\)) is exceeded. PACKAGE SIZE cannot prevent this runtime error after APPENDING.
+-   The addition PACKAGE SIZE can be used after INTO to limit the amount of data read in one go. Otherwise a runtime error can occur when reading a data set that is too large into an internal table so that its [maximum size](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmemory_consumption_2.htm) is exceeded. PACKAGE SIZE cannot prevent this runtime error after APPENDING.
     
--   If the addition PACKAGE SIZE is specified with the addition [FOR ALL ENTRIES](javascript:call_link\('abenwhere_logexp_itab.htm'\)), all selected rows are read initially into an internal system table and the packages are only created when they are passed from the system table to the actual target table. The addition FOR ALL ENTRIES thereby negates the effect of PACKAGE SIZE in preventing memory overflow.
+-   If the addition PACKAGE SIZE is specified with the addition [FOR ALL ENTRIES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_itab.htm), all selected rows are read initially into an internal system table and the packages are only created when they are passed from the system table to the actual target table. The addition FOR ALL ENTRIES thereby negates the effect of PACKAGE SIZE in preventing memory overflow.
     
--   The addition PACKAGE SIZE does not influence the size of the [packages](javascript:call_link\('abenopen_sql_oview.htm'\)) (configured in the profile parameters) used to transport data between the database server and the application server.
+-   The addition PACKAGE SIZE does not influence the size of the [packages](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_oview.htm) (configured in the profile parameters) used to transport data between the database server and the application server.
     
 
 Example
@@ -310,46 +310,46 @@ Alternative 5
 
 Effect
 
-[Inline declaration](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry") of the full target area. The [declaration operator](javascript:call_link\('abendeclaration_operator_glosry.htm'\) "Glossary Entry") [DATA](javascript:call_link\('abendata_inline.htm'\)) must be prefixed with the escape character @. The data type of the new data object is constructed in accordance with the structure of the results set defined after SELECT and the number of [data sources](javascript:call_link\('abapselect_data_source.htm'\)) specified after [FROM](javascript:call_link\('abapfrom_clause.htm'\)). INTO @DATA(wa) declares a flat data object wa of this type; INTO TABLE @DATA(itab) declares a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") itab of this row type with an [empty table key](javascript:call_link\('abenitab_empty_key.htm'\)). The same applies to PACKAGE SIZE as when specifying an existing internal table.
+[Inline declaration](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninline_declaration_glosry.htm "Glossary Entry") of the full target area. The [declaration operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_operator_glosry.htm "Glossary Entry") [DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_inline.htm) must be prefixed with the escape character @. The data type of the new data object is constructed in accordance with the structure of the results set defined after SELECT and the number of [data sources](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_data_source.htm) specified after [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfrom_clause.htm). INTO @DATA(wa) declares a flat data object wa of this type; INTO TABLE @DATA(itab) declares a [standard table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm "Glossary Entry") itab of this row type with an [empty table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_empty_key.htm). The same applies to PACKAGE SIZE as when specifying an existing internal table.
 
 The prerequisites for an online declaration are as follows:
 
--   The structure of the results set must be known statically. The [SELECT list](javascript:call_link\('abapselect_list.htm'\)) and the [FROM clause](javascript:call_link\('abapfrom_clause.htm'\)) must be specified statically and [host variables](javascript:call_link\('abenopen_sql_host_variables.htm'\)) in the SELECT list must not be generic.
+-   The structure of the results set must be known statically. The [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) and the [FROM clause](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfrom_clause.htm) must be specified statically and [host variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_variables.htm) in the SELECT list must not be generic.
     
--   The results set defined in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) cannot have multiple columns with the same name. This can be bypassed using alias names.
+-   The results set defined in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) cannot have multiple columns with the same name. This can be bypassed using alias names.
     
--   In a multi-column [results set](javascript:call_link\('abapselect_list.htm'\)), each [SQL expression](javascript:call_link\('abapsql_expr.htm'\)) and each [aggregate expression](javascript:call_link\('abapselect_aggregate.htm'\)) must have an alias name.
+-   In a multi-column [results set](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm), each [SQL expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm) and each [aggregate expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_aggregate.htm) must have an alias name.
     
--   If the addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client.htm'\)) is used to access a cross-client [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"), a name must be specified for the client column at the same time.
+-   If the addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_client.htm) is used to access a cross-client [CDS entity](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_entity_glosry.htm "Glossary Entry"), a name must be specified for the client column at the same time.
     
 
 The data type of the declared data object wa or itab is determined as follows:
 
--   If the results set in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) is defined using a single specified column [col\_spec](javascript:call_link\('abapselect_clause_col_spec.htm'\)) for which no name can be identified, the data type of wa or the row type of itab is its elementary type.
+-   If the results set in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) is defined using a single specified column [col\_spec](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_clause_col_spec.htm) for which no name can be identified, the data type of wa or the row type of itab is its elementary type.
     
--   If the results set in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) is defined using a single specified column [col\_spec](javascript:call_link\('abapselect_clause_col_spec.htm'\)) for which no name can be identified, the data type of wa or the row type of itab is a structure with a component, with its elementary type. .
+-   If the results set in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) is defined using a single specified column [col\_spec](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_clause_col_spec.htm) for which no name can be identified, the data type of wa or the row type of itab is a structure with a component, with its elementary type. .
     
--   If the results set in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) is defined using a single data\_source~\* or a list of multiple specified columns [col\_spec](javascript:call_link\('abapselect_clause_col_spec.htm'\)), the data type of wa or the row type of itab is a structure with elementary components. The data types of the components are the elementary types of the columns in the results set in the order defined there.
+-   If the results set in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) is defined using a single data\_source~\* or a list of multiple specified columns [col\_spec](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_clause_col_spec.htm), the data type of wa or the row type of itab is a structure with elementary components. The data types of the components are the elementary types of the columns in the results set in the order defined there.
     
--   If the results set in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) is defined using data\_source~\*, the data type of wa or the row type of itab is a nested structure. For each individual specified data source [data\_source](javascript:call_link\('abapselect_data_source.htm'\)) ... there is a substructure with the name or alias name of the table or view. The data types of the components of the substructures are the elementary types of the data source in the order defined there. If the data source is a [common table expression](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry") declared using [WITH](javascript:call_link\('abapwith.htm'\)), the first character + of its name is ignored for the name of the substructure.
+-   If the results set in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) is defined using data\_source~\*, the data type of wa or the row type of itab is a nested structure. For each individual specified data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_data_source.htm) ... there is a substructure with the name or alias name of the table or view. The data types of the components of the substructures are the elementary types of the data source in the order defined there. If the data source is a [common table expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") declared using [WITH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwith.htm), the first character + of its name is ignored for the name of the substructure.
     
--   If the results set in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) is defined using \*, the data type depends on the number of [data sources](javascript:call_link\('abapselect_data_source.htm'\)) specified after [FROM](javascript:call_link\('abapfrom_clause.htm'\)):
+-   If the results set in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm) is defined using \*, the data type depends on the number of [data sources](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_data_source.htm) specified after [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfrom_clause.htm):
     
 
--   In reads from a single [data source](javascript:call_link\('abapselect_data_source.htm'\)) dbtab, the data type of wa or the row type of itab is the same as in a definition of the results set using data\_source~\* (see above).
+-   In reads from a single [data source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_data_source.htm) dbtab, the data type of wa or the row type of itab is the same as in a definition of the results set using data\_source~\* (see above).
 
--   In reads from multiple [data sources](javascript:call_link\('abapselect_data_source.htm'\)) data\_source1, data\_source2, ... using a [join](javascript:call_link\('abapselect_join.htm'\)), the data type of wa or the row type of itab is the same as in a definition of the results set using data\_source1~\*, data\_source2~\*, .... (see above).
+-   In reads from multiple [data sources](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_data_source.htm) data\_source1, data\_source2, ... using a [join](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_join.htm), the data type of wa or the row type of itab is the same as in a definition of the results set using data\_source1~\*, data\_source2~\*, .... (see above).
 
 The elementary data type of an elementary data object or an elementary component of a structure is constructed as follows:
 
 -   For columns of data sources, the data type is taken from ABAP Dictionary.
     
--   For [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) and [aggregate expressions](javascript:call_link\('abapselect_aggregate.htm'\)), the data type is their result type.
+-   For [SQL expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm) and [aggregate expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_aggregate.htm), the data type is their result type.
     
 -   For a single host variable as an SQL expression, the data type is its ABAP type.
     
 
-The names of the elementary components of a structure match the names of the associated columns from the [results set](javascript:call_link\('abapselect_list.htm'\)). Any alias names defined there are respected.
+The names of the elementary components of a structure match the names of the associated columns from the [results set](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm). Any alias names defined there are respected.
 
 Notes
 
@@ -357,9 +357,9 @@ Notes
     
 -   When an inline declaration @DATA(itab) is specified after APPENDING TABLE, this addition usually works like INTO TABLE and is therefore pointless in this combination.
     
--   No inline declarations can be made after [FETCH](javascript:call_link\('abapfetch.htm'\)).
+-   No inline declarations can be made after [FETCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfetch.htm).
     
--   When inline declarations are used, the syntax check is performed in a [strict mode](javascript:call_link\('abenopensql_strict_mode_740_sp08.htm'\)), which handles the statement more strictly than the regular syntax check.
+-   When inline declarations are used, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_strict_mode_740_sp08.htm), which handles the statement more strictly than the regular syntax check.
     
 
 Example
@@ -393,10 +393,10 @@ cl\_demo\_output=>display( CONV output( itab ) ).
 
 Executable Example
 
-[Inline Declarations](javascript:call_link\('abenselect_inline_decl_abexa.htm'\))
+[Inline Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_inline_decl_abexa.htm)
 
 Continue
-[SELECT - EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\))
-[SELECT - Assignment Rules](javascript:call_link\('abenselect_into_conversion.htm'\))
-[SELECT - LOB Handles](javascript:call_link\('abenselect_into_lob_handles.htm'\))
-![Example](exa.gif "Example") [SELECT, Inline Declarations](javascript:call_link\('abenselect_inline_decl_abexa.htm'\))
+[SELECT - EXTENDED RESULT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_extended_result.htm)
+[SELECT - Assignment Rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_into_conversion.htm)
+[SELECT - LOB Handles](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_into_lob_handles.htm)
+![Example](exa.gif "Example") [SELECT, Inline Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_inline_decl_abexa.htm)

@@ -3,29 +3,7 @@
 Included pages: 5
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenrpm_handler_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm)
-- [abenhandler_method_modify.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_modify.htm)
-- [abenhandler_method_read.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_read.htm)
-- [abenhandler_method_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_lock.htm)
-- [abenrpm_handling_messages.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handling_messages.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.928Z
-
----
-
 ### abenrpm_handler_class.htm
-
-> **📖 Official SAP Documentation**: [abenrpm_handler_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -33,7 +11,7 @@ Included pages: 5
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP RESTful Programming Model](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Behavior Implementations](javascript:call_link\('abenabap_behavior_implementations.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP RESTful Programming Model](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrestful_abap_programming.htm) →  [Behavior Implementations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_behavior_implementations.htm) → 
 
 Handler Class
 
@@ -76,11 +54,11 @@ ENDCLASS.
 
 Effect
 
-Within the [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"), one or more local handler classes for handling the [behavior](javascript:call_link\('abenbehavior_glosry.htm'\) "Glossary Entry") of the business object are defined. In this interaction phase of the [behavior implementation](javascript:call_link\('abenbehavior_implement_glosry.htm'\) "Glossary Entry") of a business object, the application performs writes and reads that need to be evaluated and whose effects (if without errors) need to be saved to a transactional buffer. Here, it is defined for which operations a method is responsible. In extreme cases, this is the full set of all write (MODIFY) or read (READ) operations permitted by the [behavior definition](javascript:call_link\('abenbehavior_definition_glosry.htm'\) "Glossary Entry").
+Within the [behavior pool](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_pool_glosry.htm "Glossary Entry"), one or more local handler classes for handling the [behavior](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_glosry.htm "Glossary Entry") of the business object are defined. In this interaction phase of the [behavior implementation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_implement_glosry.htm "Glossary Entry") of a business object, the application performs writes and reads that need to be evaluated and whose effects (if without errors) need to be saved to a transactional buffer. Here, it is defined for which operations a method is responsible. In extreme cases, this is the full set of all write (MODIFY) or read (READ) operations permitted by the [behavior definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_definition_glosry.htm "Glossary Entry").
 
 A handler class is defined implicitly as ABSTRACT and FINAL and derived from the basis class CL\_ABAP\_BEHAVIOR\_HANDLER. There are no special rules for the name lcl\_handler\_name of the handler classes.
 
-To make a reference to the entities entity\_name, the [alias](javascript:call_link\('abenbdl_alias.htm'\)) granted in the behavior definition (if available) is used.
+To make a reference to the entities entity\_name, the [alias](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_alias.htm) granted in the behavior definition (if available) is used.
 
 The method name method\_name can be specified freely in handler classes. The category of the method is specified for the FOR clause (FOR MODIFY*|*LOCK*|*READ).
 
@@ -90,22 +68,22 @@ The trigger is associated with a freely specified parameter name (for example, u
 
 The following transactional methods can be implemented in the handler class:
 
--   [FOR MODIFY](javascript:call_link\('abenhandler_method_modify.htm'\))
+-   [FOR MODIFY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_modify.htm)
     Covers all change operations (CREATE, UPDATE, DELETE, and certain actions specified in the behavior definition) of an entity.
 
--   [FOR LOCK](javascript:call_link\('abenhandler_method_lock.htm'\))
-    Implements entity locks. Based on the [lock properties](javascript:call_link\('abenlate_numbering_glosry.htm'\) "Glossary Entry") defined in the behavior definition.
+-   [FOR LOCK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_lock.htm)
+    Implements entity locks. Based on the [lock properties](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlate_numbering_glosry.htm "Glossary Entry") defined in the behavior definition.
 
--   [FOR READ](javascript:call_link\('abenhandler_method_read.htm'\))
+-   [FOR READ](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_read.htm)
     Processes reads.
 
 Note
 
-Exceptions cannot be raised in handler methods. The statement RAISE EXCEPTION produces a [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry").
+Exceptions cannot be raised in handler methods. The statement RAISE EXCEPTION produces a [runtime error](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenruntime_error_glosry.htm "Glossary Entry").
 
 Example
 
-In the following example, the data from the ABAP flight data reference scenario (or flight data scenario for short) is used. It represents a legacy business logic that can be used to create and edit flight bookings. The root entity Travel represents the business object for managing flight trips. The underlying data model and the behavior of the root entity Travel are described in [ABAP BDL - Example](javascript:call_link\('abenbdl_example.htm'\)).
+In the following example, the data from the ABAP flight data reference scenario (or flight data scenario for short) is used. It represents a legacy business logic that can be used to create and edit flight bookings. The root entity Travel represents the business object for managing flight trips. The underlying data model and the behavior of the root entity Travel are described in [ABAP BDL - Example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example.htm).
 
 The following example shows the definition and the schema of the implementation of the handler class of the business object. The handler class implements the handler that processes:
 
@@ -167,20 +145,13 @@ CLASS lcl\_travel\_handler IMPLEMENTATION.
 ENDCLASS.
 
 Continue
-[FOR MODIFY](javascript:call_link\('abenhandler_method_modify.htm'\))
-[FOR READ](javascript:call_link\('abenhandler_method_read.htm'\))
-[FOR LOCK](javascript:call_link\('abenhandler_method_lock.htm'\))
-[Example - Handling of Messages](javascript:call_link\('abenrpm_handling_messages.htm'\))
+[FOR MODIFY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_modify.htm)
+[FOR READ](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_read.htm)
+[FOR LOCK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_lock.htm)
+[Example - Handling of Messages](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handling_messages.htm)
 
-
-
-**📖 Source**: [abenrpm_handler_class.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm)
 
 ### abenhandler_method_modify.htm
-
-> **📖 Official SAP Documentation**: [abenhandler_method_modify.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_modify.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -188,7 +159,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP RESTful Programming Model](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Behavior Implementations](javascript:call_link\('abenabap_behavior_implementations.htm'\)) →  [Handler Class](javascript:call_link\('abenrpm_handler_class.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP RESTful Programming Model](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrestful_abap_programming.htm) →  [Behavior Implementations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_behavior_implementations.htm) →  [Handler Class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm) → 
 
 FOR MODIFY
 
@@ -209,21 +180,21 @@ METHODS method\_name FOR MODIFY
 
 Effect
 
-The method MODIFY implements the handler that makes changes to the entities in the context of the ABAP RESTful programming model. This method is called if the application is processing a change request containing at least one of the change operations (CREATE, UPDATE, DELETE, or ACTION) specified in the [behavior definition](javascript:call_link\('abenbehavior_definition_glosry.htm'\) "Glossary Entry"). The command ... parameter IS \[NOT\] INITIAL can be used to determine which operations are actually used.
+The method MODIFY implements the handler that makes changes to the entities in the context of the ABAP RESTful programming model. This method is called if the application is processing a change request containing at least one of the change operations (CREATE, UPDATE, DELETE, or ACTION) specified in the [behavior definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_definition_glosry.htm "Glossary Entry"). The command ... parameter IS \[NOT\] INITIAL can be used to determine which operations are actually used.
 
-Like the method [READ](javascript:call_link\('abenhandler_method_read.htm'\)), the method MODIFY is mass-enabled and bundle-enabled (which means it can handle mass requests and can implement multiple operations). Multiple operations in a MODIFY method, however, are not permitted.
+Like the method [READ](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_read.htm), the method MODIFY is mass-enabled and bundle-enabled (which means it can handle mass requests and can implement multiple operations). Multiple operations in a MODIFY method, however, are not permitted.
 
 No rules apply to the order in which individual operations are processed within a MODIFY method. The application processes all individual passed operations in an appropriate order, for example create operations before update operations.
 
-The method name method\_name can be specified freely. Using this generalization, it is possible to accommodate multiple MODIFY methods in a single [handler class](javascript:call_link\('abenrpm_handler_class.htm'\)). For example, each action can be defined as a method in the same handler class. This enables the behavior implementation of a business object without introducing a corresponding number of handler classes.
+The method name method\_name can be specified freely. Using this generalization, it is possible to accommodate multiple MODIFY methods in a single [handler class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm). For example, each action can be defined as a method in the same handler class. This enables the behavior implementation of a business object without introducing a corresponding number of handler classes.
 
-entity\_name refers to the name of the entity or the [alias](javascript:call_link\('abenbdl_alias.htm'\)), if one is defined in the behavior definition.
+entity\_name refers to the name of the entity or the [alias](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_alias.htm), if one is defined in the behavior definition.
 
 Input Parameters
 
 The name of the input parameter (for example, create\_import\_parameter) can be specified freely.
 
-The row type of the input parameters for the corresponding operations contains the following (the associated [parameters](javascript:call_link\('abencomponents_derived_types.htm'\)) are flagged with "x"):
+The row type of the input parameters for the corresponding operations contains the following (the associated [parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponents_derived_types.htm) are flagged with "x"):
 
 Operation
 
@@ -319,13 +290,13 @@ Output Parameters
 
 The name of the output parameter (for example, create\_export\_parameter) can be specified freely.
 
-For an action with the addition RESULT, a named output parameter must be filled. Other operations do not necessarily have visible results. If they do, the results are written implicitly to three return structures (failed, mapped, and reported for errors, mappings, or messages). They can, however, be declared explicitly as [CHANGING](javascript:call_link\('abenchanging_type_data.htm'\)) parameters in the method signature using the generic type DATA:
+For an action with the addition RESULT, a named output parameter must be filled. Other operations do not necessarily have visible results. If they do, the results are written implicitly to three return structures (failed, mapped, and reported for errors, mappings, or messages). They can, however, be declared explicitly as [CHANGING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchanging_type_data.htm) parameters in the method signature using the generic type DATA:
 
 CHANGING failed   TYPE DATA
          mapped   TYPE DATA
          reported TYPE DATA
 
-The parameters failed, mapped and reported don’t have fixed data types and are assigned with [derived types](javascript:call_link\('abenrpm_derived_types.htm'\)) from the behavior definition instead.
+The parameters failed, mapped and reported don’t have fixed data types and are assigned with [derived types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_derived_types.htm) from the behavior definition instead.
 
 Remarks
 
@@ -339,7 +310,7 @@ Remarks
 
 Example
 
-In the following example, the data from the ABAP flight data reference scenario (or flight data scenario for short) is used. It represents a legacy business logic that can be used to create and edit flight bookings. The root entity Travel represents the business object for managing flight trips. The underlying data model and the behavior of the root entity Travel are described in [ABAP BDL - Example](javascript:call_link\('abenbdl_example.htm'\)).
+In the following example, the data from the ABAP flight data reference scenario (or flight data scenario for short) is used. It represents a legacy business logic that can be used to create and edit flight bookings. The root entity Travel represents the business object for managing flight trips. The underlying data model and the behavior of the root entity Travel are described in [ABAP BDL - Example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example.htm).
 
 The following example shows the definitions and implementations
 
@@ -357,7 +328,7 @@ In the example, each of the operations and the action are implemented in the met
 
 The second step can generate failed keys (ls\_travel\_create-%cid) and messages (lt\_messages). Failed keys are saved in the table failed while all instance-specific messages are saved in the table reported. If successful (lt\_messages IS INITIAL), the content ID (%CID) and the new key travel\_id are written to the table mapped.
 
-For the sake of readability, the methods for handling the messages are implemented in the separate class zcl\_messages. The class zcl\_messages is described in [Example - Handling of Messages](javascript:call_link\('abenrpm_handling_messages.htm'\)).
+For the sake of readability, the methods for handling the messages are implemented in the separate class zcl\_messages. The class zcl\_messages is described in [Example - Handling of Messages](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handling_messages.htm).
 
 CLASS lcl\_travel\_handler DEFINITION
     INHERITING FROM cl\_abap\_behavior\_handler.
@@ -491,14 +462,7 @@ CLASS lcl\_travel\_handler IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abenhandler_method_modify.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_modify.htm)
-
 ### abenhandler_method_read.htm
-
-> **📖 Official SAP Documentation**: [abenhandler_method_read.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_read.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -506,7 +470,7 @@ ENDCLASS.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP RESTful Programming Model](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Behavior Implementations](javascript:call_link\('abenabap_behavior_implementations.htm'\)) →  [Handler Class](javascript:call_link\('abenrpm_handler_class.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP RESTful Programming Model](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrestful_abap_programming.htm) →  [Behavior Implementations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_behavior_implementations.htm) →  [Handler Class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm) → 
 
 FOR READ
 
@@ -530,13 +494,13 @@ Effect
 
 The READ method implements the handler that processes read requests for the entities in the context of the ABAP RESTful programming model. The method is used to return data from the application buffer. If the buffer is empty, the data must be read from the database.
 
-The READ method can be called to support handling of an [ETag](javascript:call_link\('abenentity_tag_glosry.htm'\) "Glossary Entry"). A change operation (such as update) is triggered by the if match condition. First the [LOCK](javascript:call_link\('abenhandler_method_lock.htm'\)) method is called. If the LOCK method was successful, the READ method is triggered to request the current ETag value. The structure [%CONTROL](javascript:call_link\('abencomponents_derived_types.htm'\)) requests the ID fields and the ETag attributes. The data is then checked using the if match condition. If the check is passed, the change method is called.
+The READ method can be called to support handling of an [ETag](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenentity_tag_glosry.htm "Glossary Entry"). A change operation (such as update) is triggered by the if match condition. First the [LOCK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_lock.htm) method is called. If the LOCK method was successful, the READ method is triggered to request the current ETag value. The structure [%CONTROL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponents_derived_types.htm) requests the ID fields and the ETag attributes. The data is then checked using the if match condition. If the check is passed, the change method is called.
 
-Like [MODIFY](javascript:call_link\('abenhandler_method_modify.htm'\)) methods, the READmethod is mass-enabled and bundle-enabled. This means that it can handle mass requests and implement multiple operations. Multiple operations in a READ method, however, are not permitted.
+Like [MODIFY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_modify.htm) methods, the READmethod is mass-enabled and bundle-enabled. This means that it can handle mass requests and implement multiple operations. Multiple operations in a READ method, however, are not permitted.
 
-The method name method\_name is arbitrary. Using this generalization, it is possible to accommodate multiple READ methods in a single [handler class](javascript:call_link\('abenrpm_handler_class.htm'\)). This enables the [behavior implementation](javascript:call_link\('abenbehavior_implement_glosry.htm'\) "Glossary Entry") of a [business object](javascript:call_link\('abenbusiness_object_glosry.htm'\) "Glossary Entry") without introducing a corresponding number of handler classes.
+The method name method\_name is arbitrary. Using this generalization, it is possible to accommodate multiple READ methods in a single [handler class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm). This enables the [behavior implementation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_implement_glosry.htm "Glossary Entry") of a [business object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbusiness_object_glosry.htm "Glossary Entry") without introducing a corresponding number of handler classes.
 
-entity\_name refers to the name of the entity or the [alias](javascript:call_link\('abenbdl_alias.htm'\)), if one is defined in the [behavior definition](javascript:call_link\('abenbehavior_definition_glosry.htm'\) "Glossary Entry").
+entity\_name refers to the name of the entity or the [alias](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_alias.htm), if one is defined in the [behavior definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_definition_glosry.htm "Glossary Entry").
 
 Just like the direct operation read, the operation read-by-association uses a table with instance keys of the source entity as input parameter read\_import\_param\_assoc. The output is as follows:
 
@@ -553,7 +517,7 @@ Input Parameters
 
 The name of the input parameter (for example, read\_import\_parameter) can be specified freely.
 
-The row structure of the input parameter contains the following [components](javascript:call_link\('abencomponents_derived_types.htm'\)):
+The row structure of the input parameter contains the following [components](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponents_derived_types.htm):
 
 -   %PID
 
@@ -583,12 +547,12 @@ The output parameter read\_export\_parameter, which can be declared explicitly, 
 
 -   All fields of the entity.
 
-The output parameters failed and reported for errors or messages are added implicitly (automatically). They can, however, be declared explicitly as [CHANGING](javascript:call_link\('abenchanging_type_data.htm'\)) parameters in the method signature using the generic type DATA:
+The output parameters failed and reported for errors or messages are added implicitly (automatically). They can, however, be declared explicitly as [CHANGING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchanging_type_data.htm) parameters in the method signature using the generic type DATA:
 
 CHANGING failed   TYPE DATA
          reported TYPE DATA
 
-The parameters failed and reported don’t have fixed data types and are assigned with [derived types](javascript:call_link\('abenrpm_derived_types.htm'\)) from the behavior definition instead. The parameter mapped is part of the method signature, but it is not used in the method.
+The parameters failed and reported don’t have fixed data types and are assigned with [derived types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_derived_types.htm) from the behavior definition instead. The parameter mapped is part of the method signature, but it is not used in the method.
 
 Tip
 
@@ -602,7 +566,7 @@ Remarks
 
 Example
 
-In the following example, the data from the ABAP flight data reference scenario (or flight data scenario for short) is used. It represents a legacy business logic that can be used to create and edit flight bookings. The root entity Travel represents the business object for managing flight trips. The underlying data model and the behavior of the root entity Travel are described in [ABAP BDL - Example](javascript:call_link\('abenbdl_example.htm'\)).
+In the following example, the data from the ABAP flight data reference scenario (or flight data scenario for short) is used. It represents a legacy business logic that can be used to create and edit flight bookings. The root entity Travel represents the business object for managing flight trips. The underlying data model and the behavior of the root entity Travel are described in [ABAP BDL - Example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example.htm).
 
 The following example shows the definition and the implementation of the READ method read\_travel for processing read requests for the entity Travel. The implementation of the method includes
 
@@ -610,7 +574,7 @@ The following example shows the definition and the implementation of the READ me
 
 -   calling the function module of the legacy business logic /DMO/FLIGHT\_TRAVEL\_READ for reading Travel instances, and
 
--   message handling for processing instance-specific messages if an error occurs. For the sake of readability, the methods for handling the messages are implemented in the separate class zcl\_messages. The class zcl\_messages is described in [Example - Handling of Messages](javascript:call_link\('abenrpm_handling_messages.htm'\)).
+-   message handling for processing instance-specific messages if an error occurs. For the sake of readability, the methods for handling the messages are implemented in the separate class zcl\_messages. The class zcl\_messages is described in [Example - Handling of Messages](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handling_messages.htm).
 
 CLASS lcl\_travel\_handler DEFINITION
     INHERITING FROM cl\_abap\_behavior\_handler.
@@ -649,14 +613,7 @@ CLASS lcl\_travel\_handler IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abenhandler_method_read.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_read.htm)
-
 ### abenhandler_method_lock.htm
-
-> **📖 Official SAP Documentation**: [abenhandler_method_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_lock.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -664,7 +621,7 @@ ENDCLASS.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP RESTful Programming Model](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Behavior Implementations](javascript:call_link\('abenabap_behavior_implementations.htm'\)) →  [Handler Class](javascript:call_link\('abenrpm_handler_class.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP RESTful Programming Model](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrestful_abap_programming.htm) →  [Behavior Implementations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_behavior_implementations.htm) →  [Handler Class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm) → 
 
 FOR LOCK
 
@@ -679,11 +636,11 @@ METHODS method\_name FOR LOCK
 
 Effect
 
-The LOCK implements the handler that locks entities. However, the [lock properties](javascript:call_link\('abenbdl_lock.htm'\)) lock master or lock dependent must be specified in the [behavior definition](javascript:call_link\('abenbehavior_definition_glosry.htm'\) "Glossary Entry") of a [business object](javascript:call_link\('abenbusiness_object_glosry.htm'\) "Glossary Entry"). The method lock is called automatically before a change operation (for example, update).
+The LOCK implements the handler that locks entities. However, the [lock properties](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_lock.htm) lock master or lock dependent must be specified in the [behavior definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_definition_glosry.htm "Glossary Entry") of a [business object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbusiness_object_glosry.htm "Glossary Entry"). The method lock is called automatically before a change operation (for example, update).
 
-The method name method\_name is arbitrary. Using this generalization, it is possible to accommodate multiple LOCK methods in a single [handler class](javascript:call_link\('abenrpm_handler_class.htm'\)).
+The method name method\_name is arbitrary. Using this generalization, it is possible to accommodate multiple LOCK methods in a single [handler class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm).
 
-entity\_name refers to the name of the entity or the [alias](javascript:call_link\('abenbdl_alias.htm'\)), if it exists, as defined in the behavior definition.
+entity\_name refers to the name of the entity or the [alias](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_alias.htm), if it exists, as defined in the behavior definition.
 
 Input Parameters
 
@@ -693,11 +650,11 @@ The following points apply to the input parameter lock\_import\_parameter:
 
 -   The row type of the input parameter provides the ID fields. This structure contains the fields of the entity that are specified as keys.
 
--   The [fields](javascript:call_link\('abencomponents_derived_types.htm'\)) %CID, %CID\_REF, and %PID generated by ABAP Compiler are not required in the context of locks, since locks are only relevant for instances saved in the database.
+-   The [fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponents_derived_types.htm) %CID, %CID\_REF, and %PID generated by ABAP Compiler are not required in the context of locks, since locks are only relevant for instances saved in the database.
 
 Output Parameters
 
-The output parameters failed and reported for errors or messages are added automatically. They can, however, be declared explicitly as [CHANGING](javascript:call_link\('abenchanging_type_data.htm'\)) parameters in the method signature using the generic type DATA:
+The output parameters failed and reported for errors or messages are added automatically. They can, however, be declared explicitly as [CHANGING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchanging_type_data.htm) parameters in the method signature using the generic type DATA:
 
 CHANGING failed   TYPE DATA
          reported TYPE DATA
@@ -712,7 +669,7 @@ Remarks
 
 Example
 
-In the following example, the data from the ABAP flight data reference scenario (or flight data scenario for short) is used. It represents a legacy business logic that can be used to create and edit flight bookings. The root entity Travel represents the business object for managing flight trips. The underlying data model and the behavior of the root entity Travel are described in [ABAP BDL - Example](javascript:call_link\('abenbdl_example.htm'\)).
+In the following example, the data from the ABAP flight data reference scenario (or flight data scenario for short) is used. It represents a legacy business logic that can be used to create and edit flight bookings. The root entity Travel represents the business object for managing flight trips. The underlying data model and the behavior of the root entity Travel are described in [ABAP BDL - Example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_example.htm).
 
 The following example shows the definition and implementation of the LOCK method lock\_travel. The implementation of the method includes
 
@@ -720,7 +677,7 @@ The following example shows the definition and implementation of the LOCK method
 
 -   calling the function module of the legacy business logic ENQUEUE\_/DMO/ETRAVEL, and
 
--   message handling for processing instance-specific messages. For the sake of readability, the methods for handling the messages are implemented in the separate class zcl\_messages. The class zcl\_messages is described in [Example - Handling of Messages](javascript:call_link\('abenrpm_handling_messages.htm'\)).
+-   message handling for processing instance-specific messages. For the sake of readability, the methods for handling the messages are implemented in the separate class zcl\_messages. The class zcl\_messages is described in [Example - Handling of Messages](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handling_messages.htm).
 
 CLASS lcl\_travel\_handler DEFINITION
     INHERITING FROM cl\_abap\_behavior\_handler.
@@ -758,17 +715,7 @@ CLASS lcl\_travel\_handler IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abenhandler_method_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhandler_method_lock.htm)
-
 ### abenrpm_handling_messages.htm
-
-> **📖 Official SAP Documentation**: [abenrpm_handling_messages.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handling_messages.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenrpm_handling_messages.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handling_messages.htm)
-
 
   
 
@@ -776,7 +723,7 @@ ENDCLASS.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP RESTful Programming Model](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Behavior Implementations](javascript:call_link\('abenabap_behavior_implementations.htm'\)) →  [Handler Class](javascript:call_link\('abenrpm_handler_class.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP RESTful Programming Model](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrestful_abap_programming.htm) →  [Behavior Implementations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_behavior_implementations.htm) →  [Handler Class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm) → 
 
 Example - Handling of Messages
 

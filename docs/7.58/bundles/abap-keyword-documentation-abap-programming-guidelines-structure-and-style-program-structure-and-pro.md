@@ -3,31 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenprogr_proc_structure_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogr_proc_structure_gdl.htm)
-- [abenglobal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_declar_guidl.htm)
-- [abenlocal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_declar_guidl.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.932Z
-
----
-
 ### abenprogr_proc_structure_gdl.htm
-
-> **📖 Official SAP Documentation**: [abenprogr_proc_structure_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogr_proc_structure_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenprogr_proc_structure_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogr_proc_structure_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,7 +11,7 @@ Included pages: 3
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_style_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Program%20Structure%20and%20Procedure%20Structure%2C%20ABENPROGR_PROC_STRUCTURE_GDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impr
 ovement:)
@@ -44,26 +20,15 @@ Program Structure and Procedure Structure
 
 ABAP offers you a great deal of freedom when structuring your programs and procedures. Remember, however, that the finished product needs to be easy to maintain.
 
--   [Global Declarations of a Program](javascript:call_link\('abenglobal_declar_guidl.htm'\) "Guideline")
--   [Local Declarations](javascript:call_link\('abenlocal_declar_guidl.htm'\) "Guideline")
+-   [Global Declarations of a Program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_declar_guidl.htm "Guideline")
+-   [Local Declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_declar_guidl.htm "Guideline")
 
 Continue
-[Global Declarations of a Program](javascript:call_link\('abenglobal_declar_guidl.htm'\))
-[Local Declarations](javascript:call_link\('abenlocal_declar_guidl.htm'\))
+[Global Declarations of a Program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_declar_guidl.htm)
+[Local Declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_declar_guidl.htm)
 
-
-
-**📖 Source**: [abenprogr_proc_structure_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogr_proc_structure_gdl.htm)
 
 ### abenglobal_declar_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenglobal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_declar_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenglobal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_declar_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -71,7 +36,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Program Structure and Procedure Structure](javascript:call_link\('abenprogr_proc_structure_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_style_gdl.htm) →  [Program Structure and Procedure Structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogr_proc_structure_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Global%20Declarations%20of%20a%20Program%2C%20ABENGLOBAL_DECLAR_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -95,19 +60,19 @@ Details  
 
 The global declaration part should only ever be the area between the program-initiating statement and the first implementation. This the only place where global declarations should be made in a meaningful order. This ensures that the declarations intended for global use can really be used in all subsequent implementations.
 
-There should not be any declarative statements in contexts that do not support local data (provided that they are [still used](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline")). Otherwise, a false impression of local validity is created when the program is read, which may lead to the program not being correctly understood.
+There should not be any declarative statements in contexts that do not support local data (provided that they are [still used](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obj_progr_model_guidl.htm "Guideline")). Otherwise, a false impression of local validity is created when the program is read, which may lead to the program not being correctly understood.
 
-This rule is only of explicit relevance when working with program types other than class or interface pools. Class Builder implicitly specifies which declarations occur and where. These are the declarations of the global class or global interface itself as well as optional local data types, classes, and interfaces in [class pools](javascript:call_link\('abenlocal_type_glob_class_guidl.htm'\) "Guideline"). The developer cannot directly access the master program of a class pool or interface pool. This is still the case even if the source code-based Class Builder is introduced, because it only shows the declaration and implementation of the global class.
+This rule is only of explicit relevance when working with program types other than class or interface pools. Class Builder implicitly specifies which declarations occur and where. These are the declarations of the global class or global interface itself as well as optional local data types, classes, and interfaces in [class pools](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_type_glob_class_guidl.htm "Guideline"). The developer cannot directly access the master program of a class pool or interface pool. This is still the case even if the source code-based Class Builder is introduced, because it only shows the declaration and implementation of the global class.
 
-For other [program types](javascript:call_link\('abenprogram_type_guidl.htm'\) "Guideline") (subroutine pools, function pools, and executable programs), the developer can access the entire master program. If these program types are used, adherence to the rule is the developer's responsibility. The top include is helpful here. It is especially suited to all programs that are [organized](javascript:call_link\('abensource_code_orga_gdl.htm'\)) using include programs. The [top include](javascript:call_link\('abentop_include_glosry.htm'\) "Glossary Entry") is specially designed for the global declaration part and is therefore supported by ABAP Workbench and ABAP Compiler. ABAP Workbench creates and includes the top include automatically. The compiler incorporates the relevant top include into the syntax check for an individual include program. This enables meaningful syntax checks to be made on individual include programs.
+For other [program types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_type_guidl.htm "Guideline") (subroutine pools, function pools, and executable programs), the developer can access the entire master program. If these program types are used, adherence to the rule is the developer's responsibility. The top include is helpful here. It is especially suited to all programs that are [organized](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensource_code_orga_gdl.htm) using include programs. The [top include](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentop_include_glosry.htm "Glossary Entry") is specially designed for the global declaration part and is therefore supported by ABAP Workbench and ABAP Compiler. ABAP Workbench creates and includes the top include automatically. The compiler incorporates the relevant top include into the syntax check for an individual include program. This enables meaningful syntax checks to be made on individual include programs.
 
 If the top include is available, it should always be the first include program that a master program includes. The top include can also contain additional INCLUDE statements. The top include, and any include programs included in the top include, can only contain declarations and not implementations.
 
-If [ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") are the main focus, the global declaration part or the top include should only contain declarations of local classes and interfaces, if the above rule is strictly adhered to. Data types should only be [declared](javascript:call_link\('abendeclaration_dtypes_const_guidl.htm'\) "Guideline") for classes and interfaces or in ABAP Dictionary. Global data objects are only required for communication with classical dynpros. Therefore they should only be used in the top include for function pools that encapsulate classic [dynpros](javascript:call_link\('abenencap_class_interf_guidl.htm'\) "Guideline").
+If [ABAP Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") are the main focus, the global declaration part or the top include should only contain declarations of local classes and interfaces, if the above rule is strictly adhered to. Data types should only be [declared](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclaration_dtypes_const_guidl.htm "Guideline") for classes and interfaces or in ABAP Dictionary. Global data objects are only required for communication with classical dynpros. Therefore they should only be used in the top include for function pools that encapsulate classic [dynpros](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenencap_class_interf_guidl.htm "Guideline").
 
 Exception
 
-The above rule can be mainly justified due to the visibility within the program and the validity of declarations. Strictly speaking therefore, it only applies to program types other than class pools. In class pools, the visibility outside of the class pool and the resulting [dependencies](javascript:call_link\('abenlocal_type_glob_class_guidl.htm'\) "Guideline") are also important.
+The above rule can be mainly justified due to the visibility within the program and the validity of declarations. Strictly speaking therefore, it only applies to program types other than class pools. In class pools, the visibility outside of the class pool and the resulting [dependencies](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_type_glob_class_guidl.htm "Guideline") are also important.
 
 A further exception applies in the following situation: the local classes of a program are relatively independent units and their implementations do not refer to the declarations of other local classes. In this case, their declaration and implementation parts can be specified one after the other to improve readability.
 
@@ -173,21 +138,7 @@ MODULE user\_command\_0100 INPUT.
 ENDMODULE.
 
 
-
-**📖 Source**: [abenglobal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_declar_guidl.htm)
-
 ### abenlocal_declar_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenlocal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_declar_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenlocal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_declar_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenlocal_declar_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_declar_guidl.htm)
-
 
   
 
@@ -195,7 +146,7 @@ ENDMODULE.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Program Structure and Procedure Structure](javascript:call_link\('abenprogr_proc_structure_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_style_gdl.htm) →  [Program Structure and Procedure Structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogr_proc_structure_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Local%20Declarations%2C%20ABENLOCAL_DECLAR_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -203,7 +154,7 @@ Local Declarations
 
 Background   
 
-Local declarations can be made in a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")). These are data types, data objects, and field symbols that are valid in the context of the procedure only. Therefore, they can only be addressed in the code of the procedure and are only available during the execution of the procedure (the data objects declared with STATICS are an exception).
+Local declarations can be made in a procedure ([method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")). These are data types, data objects, and field symbols that are valid in the context of the procedure only. Therefore, they can only be addressed in the code of the procedure and are only available during the execution of the procedure (the data objects declared with STATICS are an exception).
 
 Procedure-local declarations can be specified in any position of a procedure. However, the position of the declaration does not affect the validity area of the declared object (which always comprises the entire procedure), but only the static visibility.
 
@@ -211,11 +162,11 @@ Rule  
 
 Implement local declarations at the beginning of the procedure
 
-Position the local declarations of a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) coherently and at the beginning of a procedure. The local declarations must not be distributed across the implementation of the procedure.
+Position the local declarations of a procedure ([method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) coherently and at the beginning of a procedure. The local declarations must not be distributed across the implementation of the procedure.
 
 Details   
 
-Local declarations within a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) are statically visible starting from the point of the program where they are positioned to the end of the procedure. However, because they are valid in the entire procedure, the declared entities can be accessed dynamically throughout the entire procedure. The following program example illustrates the different behavior:
+Local declarations within a procedure ([method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) are statically visible starting from the point of the program where they are positioned to the end of the procedure. However, because they are valid in the entire procedure, the declared entities can be accessed dynamically throughout the entire procedure. The following program example illustrates the different behavior:
 
 METHOD demo\_method.
   FIELD-SYMBOLS <field\_symbol> TYPE any.
@@ -227,21 +178,21 @@ METHOD demo\_method.
   DATA dobj TYPE i.
 ENDMETHOD.
 
-Because the different behavior of the [dynamic](javascript:call_link\('abendynamic_prog_technique_gdl.htm'\)) and the static variant of the ASSIGN statement is rather unexpected, all declarations are supposed to be carried out at the beginning of the procedure, that is, between the initiating and the first executable statement. Then, the static and the dynamic visibility sections match.
+Because the different behavior of the [dynamic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_prog_technique_gdl.htm) and the static variant of the ASSIGN statement is rather unexpected, all declarations are supposed to be carried out at the beginning of the procedure, that is, between the initiating and the first executable statement. Then, the static and the dynamic visibility sections match.
 
 This rule contradicts the common recommendations for other programming languages. They recommend declaring local variables as close to their use as possible to tightly restrict their validity area. In ABAP, however, there is no block-local validity of local variables. Positioning a declaration within the statement block of a loop, for example, does not make it possible to restrict the validity of this declaration to this statement block. Rather, the variable is valid within the entire procedure. So a declaration at the position where it is used can be misleading to developers or readers of a program who are not aware of this.
 
-According to the rule, [the size of a procedure](javascript:call_link\('abenproc_volume_guidl.htm'\) "Guideline") should be selected in such a way that the procedure remains clear for the reader, which means there is no good reason why all variables should not be declared as a whole at the beginning of a procedure.
+According to the rule, [the size of a procedure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenproc_volume_guidl.htm "Guideline") should be selected in such a way that the procedure remains clear for the reader, which means there is no good reason why all variables should not be declared as a whole at the beginning of a procedure.
 
 Note
 
-Within processing blocks that do not support any local data (dialog modules and event blocks), declarative statements must be [omitted completely](javascript:call_link\('abenglobal_declar_guidl.htm'\) "Guideline").
+Within processing blocks that do not support any local data (dialog modules and event blocks), declarative statements must be [omitted completely](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_declar_guidl.htm "Guideline").
 
-In [function modules and subroutines](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline"), there should be no local data, only a method call.
+In [function modules and subroutines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunct_module_subroutine_guidl.htm "Guideline"), there should be no local data, only a method call.
 
 Exception
 
-[Inline declarations](javascript:call_link\('abendeclaration_inline_guidl.htm'\) "Guideline") in procedures generally represent an exception. If used correctly, they can make a program more robust or easier to understand.
+[Inline declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclaration_inline_guidl.htm "Guideline") in procedures generally represent an exception. If used correctly, they can make a program more robust or easier to understand.
 
 Bad Example
 

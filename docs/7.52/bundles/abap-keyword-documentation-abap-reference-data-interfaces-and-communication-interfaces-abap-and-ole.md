@@ -3,30 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenole2.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenole2.htm)
-- [abapcreate_object_ole2.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm)
-- [abapcall_method_ole2.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_ole2.htm)
-- [abapget_property.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_property.htm)
-- [abapset_property.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_property.htm)
-- [abapfree_object.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfree_object.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.445Z
-
----
-
 ### abenole2.htm
-
-> **📖 Official SAP Documentation**: [abenole2.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenole2.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,23 +11,23 @@ Included pages: 6
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) → 
 
 ABAP and OLE
 
 You can use ABAP to process automation objects whose functions are available in the presentation layer in the form of an OLE Automation server. Only automation objects for Windows are supported. Typical applications that offer an automation interface are Microsoft Office products Excel and Word, in which public classes, their attributes and methods are found in the object catalog of the Visual Basic Editor at Tools → Macro → Visual Basic Editor → Object Browser.
 
-All automation applications that can be used by ABAP are contained in the database table TOLE, which is maintained using transaction SOLE. This table contains the names of the classes and components supported by the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry"). It also contains type information for adapting different data formats. The automation command set consists of the following ABAP statements:
+All automation applications that can be used by ABAP are contained in the database table TOLE, which is maintained using transaction SOLE. This table contains the names of the classes and components supported by the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry"). It also contains type information for adapting different data formats. The automation command set consists of the following ABAP statements:
 
--   [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\))
+-   [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm)
 
--   [CALL METHOD](javascript:call_link\('abapcall_method_ole2.htm'\))
+-   [CALL METHOD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_ole2.htm)
 
--   [GET PROPERTY](javascript:call_link\('abapget_property.htm'\))
+-   [GET PROPERTY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_property.htm)
 
--   [SET PROPERTY](javascript:call_link\('abapset_property.htm'\))
+-   [SET PROPERTY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_property.htm)
 
--   [FREE OBJECT](javascript:call_link\('abapfree_object.htm'\)),
+-   [FREE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfree_object.htm),
 
 CREATE OBJECT and CALL METHOD should not be confounded with the ABAP Objects statements using the same syntax.
 
@@ -61,21 +38,14 @@ Note
 For processing some of the automation objects, now the more general interfaces SAP Desktop Office Integration (DOI) and Control Framework (CFW) are available. The statements of the automation command set should be used only to access automation applications for which there is no such wrapping.
 
 Continue
-[CREATE OBJECT - OLE](javascript:call_link\('abapcreate_object_ole2.htm'\))
-[CALL METHOD - OLE](javascript:call_link\('abapcall_method_ole2.htm'\))
-[GET PROPERTY - OLE](javascript:call_link\('abapget_property.htm'\))
-[SET PROPERTY - OLE](javascript:call_link\('abapset_property.htm'\))
-[FREE OBJECT - OLE](javascript:call_link\('abapfree_object.htm'\))
+[CREATE OBJECT - OLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm)
+[CALL METHOD - OLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_ole2.htm)
+[GET PROPERTY - OLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_property.htm)
+[SET PROPERTY - OLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_property.htm)
+[FREE OBJECT - OLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfree_object.htm)
 
-
-
-**📖 Source**: [abenole2.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenole2.htm)
 
 ### abapcreate_object_ole2.htm
-
-> **📖 Official SAP Documentation**: [abapcreate_object_ole2.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -83,11 +53,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and OLE](javascript:call_link\('abenole2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and OLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenole2.htm) → 
 
 CREATE OBJECT - OLE
 
-[Quick Reference](javascript:call_link\('abapcreate_object_ole_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole_shortref.htm)
 
 Syntax
 
@@ -100,7 +70,7 @@ Extras:
 
 Effect
 
-This statement creates the automation object ole of the automation class class. The object ole must be of type ole2\_object, which is defined in ABAP Dictionary in the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") OLE2. The automation class class expects a character-like data object is expected that contains the name of the class.
+This statement creates the automation object ole of the automation class class. The object ole must be of type ole2\_object, which is defined in ABAP Dictionary in the [type group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry") OLE2. The automation class class expects a character-like data object is expected that contains the name of the class.
 
 The system automatically executes an authorization check if the column AUTH\_CHK in the database table TOLE contains the value "X" for the class. The authorization status can be checked with the function module AUTHORITY\_CHECK\_OLE.
 
@@ -141,7 +111,7 @@ Addition 1
 
 Effect
 
-When using the addition NO FLUSH, calls from automation methods are collected in the automation buffer until the function module FLUSH (which is provided for this purpose) is called and the FREE OBJECT statement is passed or, at the most, until a change of [screen](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry"). They are then passed to the automation server on the current presentation server for asynchronous execution. Without this addition, the flush is executed and the pass takes place as soon as a statement that does not belong to the automation command set is reached. Note that in the ABAP Debugger, the return values of the individual automation statements are not available until after the pass to the presentation server.
+When using the addition NO FLUSH, calls from automation methods are collected in the automation buffer until the function module FLUSH (which is provided for this purpose) is called and the FREE OBJECT statement is passed or, at the most, until a change of [screen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_glosry.htm "Glossary Entry"). They are then passed to the automation server on the current presentation server for asynchronous execution. Without this addition, the flush is executed and the pass takes place as soon as a statement that does not belong to the automation command set is reached. Note that in the ABAP Debugger, the return values of the individual automation statements are not available until after the pass to the presentation server.
 
 Addition 2
 
@@ -159,14 +129,7 @@ DATA app TYPE ole2\_object.
 CREATE OBJECT app 'Excel.Application' NO FLUSH.
 
 
-
-**📖 Source**: [abapcreate_object_ole2.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm)
-
 ### abapcall_method_ole2.htm
-
-> **📖 Official SAP Documentation**: [abapcall_method_ole2.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_ole2.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -174,11 +137,11 @@ CREATE OBJECT app 'Excel.Application' NO FLUSH.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and OLE](javascript:call_link\('abenole2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and OLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenole2.htm) → 
 
 CALL METHOD - OLE
 
-[Quick Reference](javascript:call_link\('abapcall_method_of_ole_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_of_ole_shortref.htm)
 
 Syntax
 
@@ -194,9 +157,9 @@ Extras:
 
 Effect
 
-This statement calls the method meth of the automation object ole. The automation object must have been created using the special statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)) for automation objects. The name of the method has to be specified in a character-like data object meth.
+This statement calls the method meth of the automation object ole. The automation object must have been created using the special statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm) for automation objects. The name of the method has to be specified in a character-like data object meth.
 
-The return value of the external method meth can be stored in a data object rc. This data object expects, in accordance with the called method, a character-like data type of length 8 or a data type of type ole2\_object from the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") OLE2 to be able to accept the addressed object.
+The return value of the external method meth can be stored in a data object rc. This data object expects, in accordance with the called method, a character-like data type of length 8 or a data type of type ole2\_object from the [type group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry") OLE2 to be able to accept the addressed object.
 
 Addition 1
 
@@ -216,7 +179,7 @@ Addition 3
 
 Effect
 
-The additions NO FLUSH and QUEUE-ONLY are described in the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)).
+The additions NO FLUSH and QUEUE-ONLY are described in the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm).
 
 System Fields
 
@@ -246,7 +209,7 @@ Error when reading an attribute.
 
 Example
 
-Depending on the selection on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry"), this source code can be used to open the Excel file Table.xls in directory C:\\temp, start the application Word, and then close both applications again. The automation methods used are listed in the following table.
+Depending on the selection on the [selection screen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_glosry.htm "Glossary Entry"), this source code can be used to open the Excel file Table.xls in directory C:\\temp, start the application Word, and then close both applications again. The automation methods used are listed in the following table.
 
 Application
 
@@ -342,14 +305,7 @@ AT SELECTION-SCREEN.
   ENDCASE.
 
 
-
-**📖 Source**: [abapcall_method_ole2.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_method_ole2.htm)
-
 ### abapget_property.htm
-
-> **📖 Official SAP Documentation**: [abapget_property.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_property.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -357,11 +313,11 @@ AT SELECTION-SCREEN.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and OLE](javascript:call_link\('abenole2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and OLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenole2.htm) → 
 
 GET PROPERTY - OLE
 
-[Quick Reference](javascript:call_link\('abapget_property_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_property_shortref.htm)
 
 Syntax
 
@@ -376,7 +332,7 @@ Extras:
 
 Effect
 
-Assigns the content of the attribute attr of an automation object ole to the data object dobj. The automation object must have been created using the special statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)) for automation objects. For the [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of ole, the description of the statement CREATE OBJECT applies. The typing of the data object dobj depends on the properties of the automation attribute attr.
+Assigns the content of the attribute attr of an automation object ole to the data object dobj. The automation object must have been created using the special statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm) for automation objects. For the [typing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_glosry.htm "Glossary Entry") of ole, the description of the statement CREATE OBJECT applies. The typing of the data object dobj depends on the properties of the automation attribute attr.
 
 System Fields
 
@@ -414,7 +370,7 @@ Addition 2
 
 Effect
 
-For the description of the NO FLUSH and QUEUE-ONLY additions, refer to the description of the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)).
+For the description of the NO FLUSH and QUEUE-ONLY additions, refer to the description of the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm).
 
 Addition 3
 
@@ -434,14 +390,7 @@ CREATE OBJECT app 'Excel.Application'.
 GET PROPERTY OF app 'Visible' = vis.
 
 
-
-**📖 Source**: [abapget_property.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_property.htm)
-
 ### abapset_property.htm
-
-> **📖 Official SAP Documentation**: [abapset_property.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_property.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -449,11 +398,11 @@ GET PROPERTY OF app 'Visible' = vis.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and OLE](javascript:call_link\('abenole2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and OLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenole2.htm) → 
 
 SET PROPERTY - OLE
 
-[Quick Reference](javascript:call_link\('abapset_property_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_property_shortref.htm)
 
 Syntax
 
@@ -467,7 +416,7 @@ Extras:
 
 Effect
 
-The attribute attr of an automation object ole is set in accordance with the content of the data object dobj. The automation object must have been created using the special statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)) for automation objects. For the [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of ole, the description of the statement CREATE OBJECT applies. The typing of the data object dobj depends on the properties of the automation attribute attr.
+The attribute attr of an automation object ole is set in accordance with the content of the data object dobj. The automation object must have been created using the special statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm) for automation objects. For the [typing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_glosry.htm "Glossary Entry") of ole, the description of the statement CREATE OBJECT applies. The typing of the data object dobj depends on the properties of the automation attribute attr.
 
 System Fields
 
@@ -501,7 +450,7 @@ Addition 1
 
 Effect
 
-The meaning of the addition NO FLUSH is included in the description of the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)).
+The meaning of the addition NO FLUSH is included in the description of the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm).
 
 Addition 2
 
@@ -520,17 +469,7 @@ CREATE OBJECT app 'Excel.Application'.
 SET PROPERTY OF app 'Visible' = 1.
 
 
-
-**📖 Source**: [abapset_property.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_property.htm)
-
 ### abapfree_object.htm
-
-> **📖 Official SAP Documentation**: [abapfree_object.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfree_object.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapfree_object.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfree_object.htm)
-
 
   
 
@@ -538,11 +477,11 @@ SET PROPERTY OF app 'Visible' = 1.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and OLE](javascript:call_link\('abenole2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and OLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenole2.htm) → 
 
 FREE OBJECT - OLE
 
-[Quick Reference](javascript:call_link\('abapfree_object_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfree_object_shortref.htm)
 
 Syntax
 
@@ -554,7 +493,7 @@ Addition:
 
 Effect
 
-This statement releases the memory occupied by the object ole on the [application server](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry"). The automation object must have been created using the special statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)) for automation objects. After the release, the object is still available on the current presentation server, but can no longer be processed in the ABAP program. For the [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of ole, the description of the statement CREATE OBJECT applies.
+This statement releases the memory occupied by the object ole on the [application server](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapplication_server_glosry.htm "Glossary Entry"). The automation object must have been created using the special statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm) for automation objects. After the release, the object is still available on the current presentation server, but can no longer be processed in the ABAP program. For the [typing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_glosry.htm "Glossary Entry") of ole, the description of the statement CREATE OBJECT applies.
 
 When the statement FREE OBJECT is passed to the presentation layer, the entire automation queue collected using the addition NO FLUSH is passed.
 
@@ -586,7 +525,7 @@ Addition
 
 Effect
 
-The meaning of the addition NO FLUSH is included in the description of the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)).
+The meaning of the addition NO FLUSH is included in the description of the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcreate_object_ole2.htm).
 
 Example
 

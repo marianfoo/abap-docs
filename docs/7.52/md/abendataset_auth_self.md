@@ -4,25 +4,29 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Authorization for File Access](javascript:call_link\('abendataset_auth.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_files.htm) →  [Authorization for File Access](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataset_auth.htm) → 
 
 Validation of File Names
 
-Alongside the [automatic authorization checks](javascript:call_link\('abenfile_interface_authority.htm'\)), it may be necessary to validate field names before they are used to prevent [directory traversals](javascript:call_link\('abendirectory_traversal_glosry.htm'\) "Glossary Entry"). This is particularly important if
+Alongside the [automatic authorization checks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfile_interface_authority.htm), it may be necessary to validate field names before they are used to prevent [directory traversals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendirectory_traversal_glosry.htm "Glossary Entry"). This is particularly important if
 
 -   the automatic authorization checks are not enough, for example because the database table SPTH or the authorizations for the authorization object S\_DATASET have not been defined in full.
 
--   programs with [physical file names](javascript:call_link\('abenphysical_filename_glosry.htm'\) "Glossary Entry") are used, and these file names are provided using external interfaces such as APIs or UI.
+-   programs with [physical file names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenphysical_filename_glosry.htm "Glossary Entry") are used, and these file names are provided using external interfaces such as APIs or UI.
 
 However if logical file names are consistently used, there is no need for validation.
 
--   [Using Logical File Names](#abendataset-auth-self-1--------using-physical-file-names---@ITOC@@ABENDATASET_AUTH_SELF_2)
+-   [Using Logical File Names](#@@ITOC@@ABENDATASET_AUTH_SELF_1)
 
--   [Self-Programmed Validation](#abendataset-auth-self-3--------validation-with-logical-file-names---@ITOC@@ABENDATASET_AUTH_SELF_4)
+-   [Using Physical File Names](#@@ITOC@@ABENDATASET_AUTH_SELF_2)
+
+-   [Self-Programmed Validation](#@@ITOC@@ABENDATASET_AUTH_SELF_3)
+
+-   [Validation with logical file names](#@@ITOC@@ABENDATASET_AUTH_SELF_4)
 
 Using Logical File Names
 
-File names do not usually need to be validated if a program is consistent in using only [logical file names](javascript:call_link\('abenlogical_filename_glosry.htm'\) "Glossary Entry") created by the system administrator in the transactions FILE or SF01. Next, the set of logical file names available to an application defines the set of possible physical file names. The associated physical file names are not edited explicitly in the program. Instead, the function module FILE\_GET\_NAME is used to create the physical file name from the logical file name directly before it is used in a [statement of the file interface](javascript:call_link\('abenfile_interface_statements.htm'\)) and used for file access.
+File names do not usually need to be validated if a program is consistent in using only [logical file names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_filename_glosry.htm "Glossary Entry") created by the system administrator in the transactions FILE or SF01. Next, the set of logical file names available to an application defines the set of possible physical file names. The associated physical file names are not edited explicitly in the program. Instead, the function module FILE\_GET\_NAME is used to create the physical file name from the logical file name directly before it is used in a [statement of the file interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfile_interface_statements.htm) and used for file access.
 
 Example
 
@@ -51,13 +55,13 @@ OPEN DATASET phys\_name FOR OUTPUT IN TEXT MODE ENCODING UTF-8 .
 
 Using Physical File Names
 
-If a program uses [physical file names](javascript:call_link\('abenphysical_filename_glosry.htm'\) "Glossary Entry"), the name almost always needs to be validated.
+If a program uses [physical file names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenphysical_filename_glosry.htm "Glossary Entry"), the name almost always needs to be validated.
 
 Self-Programmed Validation
 
 If valid directories and file names are defined precisely (as is often the case in programs from the technical infrastructure), this type of validation can be skipped. The following can be used, for example:
 
--   Methods from [character string processing](javascript:call_link\('abenabap_data_string.htm'\)),
+-   Methods from [character string processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm),
 
 -   Methods from class CL\_ABAP\_DYN\_PRG for checking whitelists,
 
@@ -73,7 +77,7 @@ In addition to the case above, where a program uses only logical file names, the
 
 Note
 
-The function module FILE\_VALIDATE\_NAME always checks absolute file names with specified paths. If a relative file name is passed for checking, the default path is implicitly added as a prefix to DIR\_HOME in accordance with the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry").
+The function module FILE\_VALIDATE\_NAME always checks absolute file names with specified paths. If a relative file name is passed for checking, the default path is implicitly added as a prefix to DIR\_HOME in accordance with the [profile parameter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprofile_parameter_glosry.htm "Glossary Entry").
 
 Example
 

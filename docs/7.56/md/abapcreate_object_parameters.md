@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_objects.htm) →  [CREATE OBJECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object.htm) → 
 
 CREATE OBJECT, parameter\_list
 
-[Short Reference](javascript:call_link\('abapcreate_object_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_object_shortref.htm)
 
 Syntax
 
@@ -19,10 +19,10 @@ Effect
 
 The additions EXPORTING and EXCEPTIONS are used to pass actual parameters to the instance constructor statically or to assign return values to non-class-based exceptions.
 
--   The addition EXPORTING must be used to supply the non-optional input parameters p1 p2 ... of the instance constructor of the instantiated class with the type-compliant actual parameters a1 a2 .... The other input parameters are optional. As in regular method calls, a1, a2, ... are [general expression positions](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). This means that functions and expressions can be passed as actual parameters in addition to data objects. [Special rules](javascript:call_link\('abentyping_arith_expr.htm'\)) apply in this case. If a subclass does not have an instance constructor implemented explicitly, the interface of the instance constructor from the next-highest superclass that explicitly implements the instance constructor is filled.
--   The addition EXCEPTIONS can be used to assign return codes to [non-class-based exceptions](javascript:call_link\('abenexceptions_non_class.htm'\)) exc1 exc2...
+-   The addition EXPORTING must be used to supply the non-optional input parameters p1 p2 ... of the instance constructor of the instantiated class with the type-compliant actual parameters a1 a2 .... The other input parameters are optional. As in regular method calls, a1, a2, ... are [general expression positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). This means that functions and expressions can be passed as actual parameters in addition to data objects. [Special rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentyping_arith_expr.htm) apply in this case. If a subclass does not have an instance constructor implemented explicitly, the interface of the instance constructor from the next-highest superclass that explicitly implements the instance constructor is filled.
+-   The addition EXCEPTIONS can be used to assign return codes to [non-class-based exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexceptions_non_class.htm) exc1 exc2...
 
-The syntax and semantics are the same as in the parameter list for [static method calls](javascript:call_link\('abenmethod_calls_static.htm'\)).
+The syntax and semantics are the same as in the parameter list for [static method calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethod_calls_static.htm).
 
 Example
 

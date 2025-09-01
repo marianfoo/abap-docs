@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 program global type
 
-[Data type](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") or [object type](javascript:call_link\('abenobject_type_glosry.htm'\) "Glossary Entry") that is defined in an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry") and is known in the entire program behind its declaration. Global types are declared in the [global declaration part](javascript:call_link\('abenglobal_declaration_sect_glosry.htm'\) "Glossary Entry") of a program using the statements [TYPES](javascript:call_link\('abaptypes.htm'\)), [CLASS](javascript:call_link\('abapclass.htm'\)), and [INTERFACE](javascript:call_link\('abapinterface.htm'\)).
+[Data type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_type_glosry.htm "Glossary Entry") or [object type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobject_type_glosry.htm "Glossary Entry") that is defined in an [ABAP program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_glosry.htm "Glossary Entry") and is known in the entire program behind its declaration. Global types are declared in the [global declaration part](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenglobal_declaration_sect_glosry.htm "Glossary Entry") of a program using the statements [TYPES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes.htm), [CLASS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass.htm), and [INTERFACE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinterface.htm).

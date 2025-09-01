@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Language Environment](javascript:call_link\('abenlanguage.htm'\)) →  [Formatting Settings](javascript:call_link\('abencountry.htm'\)) →  [Country-Specific Formats](javascript:call_link\('abencountry_formats.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Language Environment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlanguage.htm) →  [Formatting Settings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencountry.htm) →  [Country-Specific Formats](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencountry_formats.htm) → 
 
 Time Formats
 
@@ -44,7 +44,7 @@ Time Format
 
 -   For the 12-hour formats of values "3" and "2", midnight and noon are displayed as 00:00:00.
 
-The setting for the time format also affects the formatting of time stamps in [time stamp fields](javascript:call_link\('abentimestamp_field_glosry.htm'\) "Glossary Entry").
+The setting for the time format also affects the formatting of time stamps in [time stamp fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentimestamp_field_glosry.htm "Glossary Entry").
 
 Notes
 
@@ -68,6 +68,6 @@ cl\_demo\_output=>display(
 
 Executable Examples
 
--   [String Templates, Time Formats](javascript:call_link\('abenstring_template_time_abexa.htm'\))
+-   [String Templates, Time Formats](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_template_time_abexa.htm)
 
--   [String Templates, Time Stamp Templates](javascript:call_link\('abenstring_template_utc_abexa.htm'\))
+-   [String Templates, Time Stamp Templates](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstring_template_utc_abexa.htm)

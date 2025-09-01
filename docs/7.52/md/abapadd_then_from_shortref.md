@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  A
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  A
 
 ADD - THEN, UNTIL - Quick reference
 
-[Reference](javascript:call_link\('abapadd_sequences.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapadd_sequences.htm)
 
 Syntax
 
@@ -36,7 +36,7 @@ Additions
     Defines the sequence using data objects directly adjacent in the memory whose first data object is dobj and whose elements are determined using pos1 and pos.
     
 -   ACCORDING TO sel
-    Limits the elements of the sequence according to the conditions of a [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry").
+    Limits the elements of the sequence according to the conditions of a [selection table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_table_glosry.htm "Glossary Entry").
     
 -   RANGE range
     Limits the addressable memory area to a structure range.

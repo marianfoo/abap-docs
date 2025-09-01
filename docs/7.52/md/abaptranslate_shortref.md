@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  T
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  T
 
 TRANSLATE - Quick reference
 
-[Reference](javascript:call_link\('abaptranslate.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptranslate.htm)
 
 Syntax
 
@@ -21,8 +21,8 @@ Translates the content of a data object dobj.
 
 Additions
 
--   [TO *{*UPPER*|*LOWER*}* CASE](javascript:call_link\('abaptranslate.htm'\))
+-   [TO *{*UPPER*|*LOWER*}* CASE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptranslate.htm)
     Translates all lowercase letters to uppercase letters, or vice versa.
     
--   [USING mask](javascript:call_link\('abaptranslate.htm'\))
+-   [USING mask](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptranslate.htm)
     Translates characters in accordance with the rule specified by character pairs in the data object mask.

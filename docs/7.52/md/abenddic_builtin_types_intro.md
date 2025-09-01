@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) → 
 
 Predefined Data Types in ABAP Dictionary
 
@@ -18,13 +18,13 @@ The predefined data types in ABAP Dictionary
 
 The following sections describe the attributes of the predefined data types in ABAP Dictionary:
 
--   [Overview of All Predefined Dictionary Types](javascript:call_link\('abenddic_builtin_types.htm'\))
+-   [Overview of All Predefined Dictionary Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
--   [Attributes of the Predefined Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\))
+-   [Attributes of the Predefined Dictionary Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_prop.htm)
 
--   [Use of the Predefined Dictionary Types](javascript:call_link\('abenddic_builtin_type_usage.htm'\))
+-   [Use of the Predefined Dictionary Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_type_usage.htm)
 
 Continue
-[Overview of All Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_types.htm'\))
-[Attributes of the Predefined Dictionary Types](javascript:call_link\('abenddic_builtin_types_prop.htm'\))
-[Use of the Built-In Dictionary Types](javascript:call_link\('abenddic_builtin_type_usage.htm'\))
+[Overview of All Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
+[Attributes of the Predefined Dictionary Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_prop.htm)
+[Use of the Built-In Dictionary Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_type_usage.htm)

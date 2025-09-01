@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Calls](javascript:call_link\('abenprogram_call_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Calls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_call_obsolete.htm) → 
 
 CALL FUNCTION EXCEPTIONS - Short Form
 
@@ -15,7 +15,7 @@ CALL FUNCTION func ...
 
 Effect
 
-This short form for specifying non-class-based exceptions in the [parameter list](javascript:call_link\('abapcall_function_parameter.htm'\)) of the statement [CALL FUNCTION](javascript:call_link\('abapcall_function_general.htm'\)) is obsolete. It has the same effect as the following:
+This short form for specifying non-class-based exceptions in the [parameter list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function_parameter.htm) of the statement [CALL FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function_general.htm) is obsolete. It has the same effect as the following:
 
 CALL FUNCTION func ...
                    EXCEPTIONS exc1 = 1

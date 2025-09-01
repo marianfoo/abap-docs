@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (LDB, Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [LDB - Components](javascript:call_link\('abenldb_oview.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (LDB, Obsolete)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenldb.htm) →  [LDB - Components](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenldb_oview.htm) → 
 
 LDB - Structure
 
@@ -16,7 +16,7 @@ The structure of logical databases generally maps the foreign key relationships 
 
 -   Each node can follow exactly one other node.
 
-There are three types of node (see also [NODES](javascript:call_link\('abapnodes.htm'\))):
+There are three types of node (see also [NODES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapnodes.htm)):
 
 -   T: Database tables
 
@@ -32,7 +32,7 @@ If reference is made to a data type from a type pool, the same applies as when r
 
 In most existing logical databases, the nodes make reference to database tables whose data is read by the logical database and passed to a program for further processing. It is possible, however, to use structures from ABAP Dictionary without associated database. For technical reasons, there is an upper limit of 300 nodes in the structure of a logical database.
 
-Each executable ABAP program associated with a logical database can contain a corresponding [GET](javascript:call_link\('abapget-.htm'\)) statement for each node in the structure. At runtime of the program, the associated event blocks are processed in the order defined by the hierarchical structure. If a program does not contain a GET statement for every node in a logical database, all nodes are processed that are located in the path from the root to the nodes named by GET statements.
+Each executable ABAP program associated with a logical database can contain a corresponding [GET](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget-.htm) statement for each node in the structure. At runtime of the program, the associated event blocks are processed in the order defined by the hierarchical structure. If a program does not contain a GET statement for every node in a logical database, all nodes are processed that are located in the path from the root to the nodes named by GET statements.
 
 If called using the function module LDB\_PROCESS, the read depth of the logical database is defined using an interface parameter.
 

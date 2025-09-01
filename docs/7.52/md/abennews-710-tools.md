@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 7.0 and its EhPs](javascript:call_link\('abennews-70_ehps.htm'\)) →  [Changes in Release 7.0, EhP2](javascript:call_link\('abennews-71.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews.htm) →  [Changes in Release 7.0 and its EhPs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-70_ehps.htm) →  [Changes in Release 7.0, EhP2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-71.htm) → 
 
 Tools in Release 7.0, EhP2
 
@@ -100,7 +100,7 @@ The following functions have been added to the two-process debugger:
     A layer can be executed as a single step in debugging.
     
 -   Stack tool:
-    New setting for displaying the call stack of the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of a caller
+    New setting for displaying the call stack of the [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry") of a caller
     
 -   Exception tool:
     New tool for displaying and analyzing the last and previous class-based exceptions.
@@ -116,7 +116,7 @@ The following functions have been added to the two-process debugger:
     In the ABAP byte code or ABAP byte code (debug macro) context menus, it is possible to select what a replacement for a proper macro debugging run can depict.
     
 -   Functions taken from the old debugger:
-    Displays the classic list currently being created in the [ABAP session](javascript:call_link\('abenmain_session_glosry.htm'\) "Glossary Entry") of the debuggee.
+    Displays the classic list currently being created in the [ABAP session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmain_session_glosry.htm "Glossary Entry") of the debuggee.
     Option of restarting the entire application.
     Settings (block sending TRFC, ESI debugging, Shared Objects: Debug automatic area structure, always create exception object, Control Framework: Automation controller Always processes requests synchronously, check sorting before READ BINARY SEARCH.
     
@@ -142,7 +142,7 @@ Modification 5
 
 ABAP Unit
 
-In Release 7.0, EhP2, the additions introduced for the statement [CLASS ... FOR TESTING](javascript:call_link\('abapclass_for_testing.htm'\)), namely RISK LEVEL and DURATION, have replaced the pseudo comments introduced in Release 7.0, namely "#AU Risk\_Level ... and "#AU Duration ..., used for defining the test properties of [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry").
+In Release 7.0, EhP2, the additions introduced for the statement [CLASS ... FOR TESTING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_for_testing.htm), namely RISK LEVEL and DURATION, have replaced the pseudo comments introduced in Release 7.0, namely "#AU Risk\_Level ... and "#AU Duration ..., used for defining the test properties of [test classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_class_glosry.htm "Glossary Entry").
 
 An ABAP Unit Browser integrated into Object Navigator in ABAP Workbench allows:
 
@@ -195,4 +195,4 @@ Modification 8
 
 Checkpoint Groups
 
-A time limit now applies to activation settings for [checkpoint groups](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry"). When an activation setting is saved in transaction SAAB, either a validity period (valid for the current day or week) or a validity end date must be specified. The default value (valid for the current day) is generally suitable for most applications.
+A time limit now applies to activation settings for [checkpoint groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_group_glosry.htm "Glossary Entry"). When an activation setting is saved in transaction SAAB, either a validity period (valid for the current day or week) or a validity end date must be specified. The default value (valid for the current day) is generally suitable for most applications.

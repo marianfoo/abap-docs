@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (LDB, Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [LDB - Statements](javascript:call_link\('abenldb_abap_statements.htm'\)) →  [LDB - Statements for Logical Databases](javascript:call_link\('abenldb_reporting_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (LDB, Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb.htm) →  [LDB - Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_abap_statements.htm) →  [LDB - Statements for Logical Databases](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_reporting_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CHECK SELECT-OPTIONS, ABAPCHECK_SELECT-OPTIONS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%
 0A%0D%0ASuggestion for improvement:)
 
 CHECK SELECT-OPTIONS
 
-[Short Reference](javascript:call_link\('abapcheck_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcheck_shortref.htm)
 
 Obsolete Syntax
 
@@ -19,14 +19,14 @@ CHECK SELECT-OPTIONS.
 
 Effect
 
-This form of the statement [CHECK](javascript:call_link\('abapcheck_processing_blocks.htm'\)) for exiting processing blocks is only intended for use in executable programs that are linked with a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry"), and then only in the event blocks for the [reporting events](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry") [GET](javascript:call_link\('abapget-.htm'\)). It must not be used in methods.
+This form of the statement [CHECK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcheck_processing_blocks.htm) for exiting processing blocks is only intended for use in executable programs that are linked with a [logical database](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_data_base_glosry.htm "Glossary Entry"), and then only in the event blocks for the [reporting events](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreporting_event_glosry.htm "Glossary Entry") [GET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget-.htm). It must not be used in methods.
 
-The statement checks whether the content of the [interface work area](javascript:call_link\('abeninterface_work_area_glosry.htm'\) "Glossary Entry") that was filled for the current GET event by the logical database meets the conditions in all [selection tables](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") that are linked with the current node of the logical database. The name of the node is taken statically from the next highest GET statement in the program. The following restrictions apply:
+The statement checks whether the content of the [interface work area](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterface_work_area_glosry.htm "Glossary Entry") that was filled for the current GET event by the logical database meets the conditions in all [selection tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselection_table_glosry.htm "Glossary Entry") that are linked with the current node of the logical database. The name of the node is taken statically from the next highest GET statement in the program. The following restrictions apply:
 
 -   The statement CHECK SELECT-OPTIONS is only effective when the type of the current node of the logical database is a DDIC database table.
--   If the node is intended for dynamic selections, the statement evaluates only those selection criteria that were declared using the NO DATABASE SELECTION addition of the [SELECT-OPTIONS](javascript:call_link\('abapselect-options_ldb.htm'\)) statement.
+-   If the node is intended for dynamic selections, the statement evaluates only those selection criteria that were declared using the NO DATABASE SELECTION addition of the [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect-options_ldb.htm) statement.
 
-If the conditions in one of the selection tables are not met, and the statement is not listed within a loop, the GET event block is exited and the runtime framework behaves as with the other variant of [CHECK](javascript:call_link\('abapcheck_processing_blocks.htm'\)) used for exiting processing blocks. If the statement is listed within a loop, then only the current loop pass is exited.
+If the conditions in one of the selection tables are not met, and the statement is not listed within a loop, the GET event block is exited and the runtime framework behaves as with the other variant of [CHECK](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcheck_processing_blocks.htm) used for exiting processing blocks. If the statement is listed within a loop, then only the current loop pass is exited.
 
 Hints
 
@@ -50,7 +50,7 @@ GET sflight.
 END-OF-SELECTION.
   cl\_demo\_output=>display( ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 double-click
 
-Selecting a [screen element](javascript:call_link\('abenscreen_element_glosry.htm'\) "Glossary Entry") by double-clicking with the mouse. In [SAP GUI](javascript:call_link\('abensap_gui_glosry.htm'\) "Glossary Entry"), double-clicking with the mouse always has the same effect as selecting the [function key](javascript:call_link\('abenfunction_key_glosry.htm'\) "Glossary Entry") F2.
+Selecting a [screen element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_element_glosry.htm "Glossary Entry") by double-clicking with the mouse. In [SAP GUI](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_gui_glosry.htm "Glossary Entry"), double-clicking with the mouse always has the same effect as selecting the [function key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_key_glosry.htm "Glossary Entry") F2.

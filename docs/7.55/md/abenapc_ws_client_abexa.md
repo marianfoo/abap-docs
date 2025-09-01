@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [ABAP Push Channels (APC)](javascript:call_link\('abenapc.htm'\)) →  [APC - Examples](javascript:call_link\('abenapc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_channels.htm) →  [ABAP Push Channels (APC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapc.htm) →  [APC - Examples](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapc_abexas.htm) → 
 
 APC - AS ABAP as WebSocket Client
 
@@ -132,15 +132,15 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates how an ABAP program can create an [APC client](javascript:call_link\('abenapc.htm'\)) for the WebSocket protocol.
+This example demonstrates how an ABAP program can create an [APC client](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapc.htm) for the WebSocket protocol.
 
 -   The local class apc\_handler, which implements the interface IF\_APC\_WSP\_EVENT\_HANDLER\_PCP, is used as the handler class. When a message is received, the method on\_message sets its message attribute to the message text.
 
--   CL\_APC\_WSP\_CLIENT\_MANAGER is used to create a client object for the current AS ABAP as an APC server and opens a connection to one of its ABAP push channels. It is possible to select which of the two ABAP push channels, DEMO\_APC\_PCP or DEMO\_APC\_PCP\_STATEFUL, from the executable example [AS ABAP as WebSocket Server](javascript:call_link\('abenapc_abexa.htm'\)) is used. The server can also be instructed to send its messages using [ABAP messaging channels](javascript:call_link\('abenamc.htm'\)).
+-   CL\_APC\_WSP\_CLIENT\_MANAGER is used to create a client object for the current AS ABAP as an APC server and opens a connection to one of its ABAP push channels. It is possible to select which of the two ABAP push channels, DEMO\_APC\_PCP or DEMO\_APC\_PCP\_STATEFUL, from the executable example [AS ABAP as WebSocket Server](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapc_abexa.htm) is used. The server can also be instructed to send its messages using [ABAP messaging channels](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamc.htm).
 
--   The message manager of the client object is used to create a message in [PCP format](javascript:call_link\('abenpcp.htm'\)) and send it multiple times.
+-   The message manager of the client object is used to create a message in [PCP format](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpcp.htm) and send it multiple times.
 
--   The statement [WAIT FOR PUSH CHANNELS](javascript:call_link\('abapwait_apc.htm'\)) is then used to switch the program to a wait state so that messages sent back from the server can be handled. Here, the logical expression checks the attribute message of the handler class apc\_handler. A received text is displayed.
+-   The statement [WAIT FOR PUSH CHANNELS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwait_apc.htm) is then used to switch the program to a wait state so that messages sent back from the server can be handled. Here, the logical expression checks the attribute message of the handler class apc\_handler. A received text is displayed.
 
 -   Finally, the connection is closed explicitly.
 
@@ -148,4 +148,4 @@ It is possible to select how many messages are sent and how often the wait state
 
 -   If communication takes place with the stateful server, the counter level of the server is raised, indicating that multiple messages are being sent and received.
 
--   If the server sends its messages using ABAP messaging channels, other AMC receivers in the same messaging channel can also see the messages of the server. For example, the Web browser from the executable example [AS ABAP as WebSocket Server](javascript:call_link\('abenapc_abexa.htm'\)) can receive these messages. In the reverse direction, the APC client can then also receive those messages sent by the APC server as a response to messages from the Web browser, if they occur in one of the programmed wait periods.
+-   If the server sends its messages using ABAP messaging channels, other AMC receivers in the same messaging channel can also see the messages of the server. For example, the Web browser from the executable example [AS ABAP as WebSocket Server](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapc_abexa.htm) can receive these messages. In the reverse direction, the APC client can then also receive those messages sent by the APC server as a response to messages from the Web browser, if they occur in one of the programmed wait periods.

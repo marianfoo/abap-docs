@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Streaming and Locators](javascript:call_link\('abenstreams_locators.htm'\)) →  [ABAP SQL - Examples of LOB Handles](javascript:call_link\('abenlobs_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Streaming and Locators](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstreams_locators.htm) →  [ABAP SQL - Examples of LOB Handles](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlobs_abexas.htm) → 
 
 Reader Stream, Read Database Table
 
-This example demonstrates how data can be read from a database table using a [reader stream](javascript:call_link\('abenreader_stream_glosry.htm'\) "Glossary Entry").
+This example demonstrates how data can be read from a database table using a [reader stream](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreader_stream_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -62,8 +62,8 @@ START-OF-SELECTION.
 
 Description
 
-In the method main, a reference variable reader is declared for a reader stream. This reader stream is then [created](javascript:call_link\('abenselect_into_lob_handles.htm'\)) in a SELECT statement.
+In the method main, a reference variable reader is declared for a reader stream. This reader stream is then [created](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_into_lob_handles.htm) in a SELECT statement.
 
-The internal table pict is then filled iteratively with binary data from the row found. If data previously written in the executable [writer stream example](javascript:call_link\('abendb_writer_abexa.htm'\)) is read, this is the data of a figure in the GIF format.
+The internal table pict is then filled iteratively with binary data from the row found. If data previously written in the executable [writer stream example](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendb_writer_abexa.htm) is read, this is the data of a figure in the GIF format.
 
 The auxiliary method show\_picture displays the figure in an HTML browser.

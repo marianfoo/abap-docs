@@ -33,34 +33,34 @@ Included pages: 5
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_statement.htm) → 
 
 ABAP CD- SELECT, clauses
 
 Syntax
 
-... *\[*[WHERE cond\_expr](javascript:call_link\('abencds_f1_where_clause.htm'\))*\]*
-    *\[*[GROUP BY field1, field2, ...](javascript:call_link\('abencds_f1_group_by.htm'\))*\]*
-    *\[*[HAVING cond\_expr](javascript:call_link\('abencds_f1_having_clause.htm'\))*\]*
-    *\[*[UNION *\[*ALL*\]* SELECT ...](javascript:call_link\('abencds_f1_union.htm'\))*\]* ...
+... *\[*[WHERE cond\_expr](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_where_clause.htm)*\]*
+    *\[*[GROUP BY field1, field2, ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_group_by.htm)*\]*
+    *\[*[HAVING cond\_expr](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_having_clause.htm)*\]*
+    *\[*[UNION *\[*ALL*\]* SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_union.htm)*\]* ...
 
 Effect
 
-The optional clauses of the [SELECT statement](javascript:call_link\('abencds_f1_select_statement.htm'\)) of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") have the following semantics:
+The optional clauses of the [SELECT statement](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_statement.htm) of a [CDS view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry") have the following semantics:
 
--   The [WHERE clause](javascript:call_link\('abencds_f1_where_clause.htm'\)) restricts the rows in the results set when the CDS view is accessed.
+-   The [WHERE clause](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_where_clause.htm) restricts the rows in the results set when the CDS view is accessed.
 
--   The [GROUP BY clause](javascript:call_link\('abencds_f1_group_by.htm'\)) groups rows in the results set when the CDS view is accessed. It is applied after rows are selected using the WHERE clause.
+-   The [GROUP BY clause](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_group_by.htm) groups rows in the results set when the CDS view is accessed. It is applied after rows are selected using the WHERE clause.
 
--   The [HAVING clause](javascript:call_link\('abencds_f1_having_clause.htm'\)) restricts the results set further after a GROUP BY clause. Here, [aggregate expressions](javascript:call_link\('abencds_f1_aggregate_functions.htm'\)) can be specified in the condition.
+-   The [HAVING clause](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_having_clause.htm) restricts the results set further after a GROUP BY clause. Here, [aggregate expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_aggregate_functions.htm) can be specified in the condition.
 
--   [UNION](javascript:call_link\('abencds_f1_union.htm'\)) can be used to create the union of the results sets from two SELECT statements.
+-   [UNION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_union.htm) can be used to create the union of the results sets from two SELECT statements.
 
 Continue
-[ABAP CDS - SELECT, WHERE](javascript:call_link\('abencds_f1_where_clause.htm'\))
-[ABAP CDS - SELECT, GROUP BY](javascript:call_link\('abencds_f1_group_by.htm'\))
-[ABAP CDS - SELECT, HAVING](javascript:call_link\('abencds_f1_having_clause.htm'\))
-[ABAP CDS - SELECT, UNION](javascript:call_link\('abencds_f1_union.htm'\))
+[ABAP CDS - SELECT, WHERE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_where_clause.htm)
+[ABAP CDS - SELECT, GROUP BY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_group_by.htm)
+[ABAP CDS - SELECT, HAVING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_having_clause.htm)
+[ABAP CDS - SELECT, UNION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_union.htm)
 
 
 
@@ -78,23 +78,23 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CD- SELECT, clauses](javascript:call_link\('abencds_select_clauses.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_statement.htm) →  [ABAP CD- SELECT, clauses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_select_clauses.htm) → 
 
 ABAP CDS - SELECT, WHERE
 
 Syntax
 
-... WHERE [cond\_expr](javascript:call_link\('abencds_f1_conditional_expression.htm'\)) ...
+... WHERE [cond\_expr](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_conditional_expression.htm) ...
 
 Effect
 
-Defines a WHERE condition for the results set of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). When the CDS view is accessed, the results set contains only the data from the data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)) that meets the condition [cond\_expr](javascript:call_link\('abencds_f1_conditional_expression.htm'\)) specified after WHERE.
+Defines a WHERE condition for the results set of a [CDS view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry"). When the CDS view is accessed, the results set contains only the data from the data source [data\_source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_data_source.htm) that meets the condition [cond\_expr](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_conditional_expression.htm) specified after WHERE.
 
-The fields evaluated in the condition do not need to be defined as elements of the CDS view in the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)). Special [rules](javascript:call_link\('abencds_cond_expr_where.htm'\)) apply when specifying the condition.
+The fields evaluated in the condition do not need to be defined as elements of the CDS view in the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list.htm). Special [rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_cond_expr_where.htm) apply when specifying the condition.
 
 Note
 
-Unlike in the [HAVING condition](javascript:call_link\('abencds_f1_having_clause.htm'\)), [aggregate expressions](javascript:call_link\('abencds_f1_aggregate_functions.htm'\)) cannot be specified in the WHERE condition.
+Unlike in the [HAVING condition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_having_clause.htm), [aggregate expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_aggregate_functions.htm) cannot be specified in the WHERE condition.
 
 Example
 
@@ -134,26 +134,26 @@ define view sales\_order as
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CD- SELECT, clauses](javascript:call_link\('abencds_select_clauses.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_statement.htm) →  [ABAP CD- SELECT, clauses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_select_clauses.htm) → 
 
 ABAP CDS - SELECT, GROUP BY
 
 Syntax
 
 ... GROUP BY field1, field2, ...
-             [path\_expr1](javascript:call_link\('abencds_f1_case_expression.htm'\)), [path\_expr2](javascript:call_link\('abencds_f1_case_expression.htm'\)), ...
+             [path\_expr1](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_case_expression.htm), [path\_expr2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_case_expression.htm), ...
 
 Effect
 
-Groups those rows in the results set of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") in that have the same content in the elements specified by the fields field1, field2, ... or [path expressions](javascript:call_link\('abencds_f1_case_expression.htm'\)) path\_expr1, path\_expr2 ... as a single row. The fields must be specified using the same names as the fields in the data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)). The current CDS view cannot be specified using alternative element names, which are defined with [AS](javascript:call_link\('abencds_f1_select_list_entry.htm'\)).
+Groups those rows in the results set of a [CDS view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry") in that have the same content in the elements specified by the fields field1, field2, ... or [path expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_case_expression.htm) path\_expr1, path\_expr2 ... as a single row. The fields must be specified using the same names as the fields in the data source [data\_source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_data_source.htm). The current CDS view cannot be specified using alternative element names, which are defined with [AS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_entry.htm).
 
-Any elements of the CDS view that are not specified after GROUP BY must be defined in the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) using [aggregate expressions](javascript:call_link\('abencds_f1_aggregate_functions.htm'\)). Conversely, GROUP BY must be used if aggregate expressions are contained in the SELECT list and all elements not defined using aggregate expressions must be specified after GROUP BY. Literals and other expressions cannot be specified after GROUP BY. If expressions or calls of built-in functions are specified as elements of the SELECT list using aggregate expressions, all the fields used must be specified in the GROUP BY clause.
+Any elements of the CDS view that are not specified after GROUP BY must be defined in the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list.htm) using [aggregate expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_aggregate_functions.htm). Conversely, GROUP BY must be used if aggregate expressions are contained in the SELECT list and all elements not defined using aggregate expressions must be specified after GROUP BY. Literals and other expressions cannot be specified after GROUP BY. If expressions or calls of built-in functions are specified as elements of the SELECT list using aggregate expressions, all the fields used must be specified in the GROUP BY clause.
 
 When the CDS view is accessed, the results of the aggregate expressions are calculated from the values of the corresponding fields of the combined rows and the results are placed in the element of the resulting row in the results set.
 
 Note
 
-A [WHERE condition](javascript:call_link\('abencds_f1_where_clause.htm'\)) is evaluated before the rows are combined using GROUP BY.
+A [WHERE condition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_where_clause.htm) is evaluated before the rows are combined using GROUP BY.
 
 Example
 
@@ -187,23 +187,23 @@ define view sales\_order as
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CD- SELECT, clauses](javascript:call_link\('abencds_select_clauses.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_statement.htm) →  [ABAP CD- SELECT, clauses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_select_clauses.htm) → 
 
 ABAP CDS - SELECT, HAVING
 
 Syntax
 
-... HAVING [cond\_expr](javascript:call_link\('abencds_f1_conditional_expression.htm'\)) ...
+... HAVING [cond\_expr](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_conditional_expression.htm) ...
 
 Effect
 
-Defines a HAVING condition for the results set of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") after a [GROUP BY clause](javascript:call_link\('abencds_f1_group_by.htm'\)) is evaluated. A HAVING condition can only be specified together with GROUP BY. Special [rules](javascript:call_link\('abencds_cond_expr_having.htm'\)) apply when specifying the condition.
+Defines a HAVING condition for the results set of a [CDS view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry") after a [GROUP BY clause](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_group_by.htm) is evaluated. A HAVING condition can only be specified together with GROUP BY. Special [rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_cond_expr_having.htm) apply when specifying the condition.
 
-Removes all rows from the results set that do not meet the condition [cond\_expr](javascript:call_link\('abencds_f1_conditional_expression.htm'\)) specified after HAVING.
+Removes all rows from the results set that do not meet the condition [cond\_expr](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_conditional_expression.htm) specified after HAVING.
 
 Note
 
-[Aggregate expressions](javascript:call_link\('abencds_f1_aggregate_functions.htm'\)) can be specified in the HAVING condition, which is not possible in the [WHERE condition](javascript:call_link\('abencds_f1_where_clause.htm'\)).
+[Aggregate expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_aggregate_functions.htm) can be specified in the HAVING condition, which is not possible in the [WHERE condition](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_where_clause.htm).
 
 Example
 
@@ -240,39 +240,39 @@ define view sales\_order as
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CD- SELECT, clauses](javascript:call_link\('abencds_select_clauses.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_statement.htm) →  [ABAP CD- SELECT, clauses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_select_clauses.htm) → 
 
 ABAP CDS - SELECT, UNION
 
 Syntax
 
-... UNION *\[*ALL*\]* [select\_statement](javascript:call_link\('abencds_f1_select_statement.htm'\)) ...
+... UNION *\[*ALL*\]* [select\_statement](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_statement.htm) ...
 
 Effect
 
-Creates the union of rows in the results sets of two [SELECT statements](javascript:call_link\('abencds_f1_select_statement.htm'\)) of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). This can only happen if the results sets have the same number of elements and have a compatible data type in each position (pair by pair). The data types DF16\_..., DF34\_..., LCHR,LRAW, STRING, and RAWSTRING are not supported. A union results set can itself be the left side of a further union. If the addition ALL is not specified, all duplicate entries are removed from the results set. They are not removed if ALL is specified. The properties of the elements of the merged results set are determined as follows:
+Creates the union of rows in the results sets of two [SELECT statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_statement.htm) of a [CDS view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry"). This can only happen if the results sets have the same number of elements and have a compatible data type in each position (pair by pair). The data types DF16\_..., DF34\_..., LCHR,LRAW, STRING, and RAWSTRING are not supported. A union results set can itself be the left side of a further union. If the addition ALL is not specified, all duplicate entries are removed from the results set. They are not removed if ALL is specified. The properties of the elements of the merged results set are determined as follows:
 
 -   Element names
 
--   If an explicit [name list](javascript:call_link\('abencds_f1_name_list.htm'\)) is specified, this list determines the names of the elements
+-   If an explicit [name list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_name_list.htm) is specified, this list determines the names of the elements
 
--   If no explicit [name list](javascript:call_link\('abencds_f1_name_list.htm'\)) is specified, the direct element names or the alternative element names defined using AS must match for each column in the [SELECT lists](javascript:call_link\('abencds_f1_select_list.htm'\)) of all SELECT statements and are used.
+-   If no explicit [name list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_name_list.htm) is specified, the direct element names or the alternative element names defined using AS must match for each column in the [SELECT lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list.htm) of all SELECT statements and are used.
 
 -   Key elements
 
-The definition of the key elements is taken from the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) of the first SELECT statement.
+The definition of the key elements is taken from the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list.htm) of the first SELECT statement.
 
 -   Element annotations
 
-[Element annotations](javascript:call_link\('abencds_f1_element_annotations.htm'\)) are applied only from the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) of the first SELECT statement.
+[Element annotations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_element_annotations.htm) are applied only from the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list.htm) of the first SELECT statement.
 
 -   Data type
 
--   The data type of each element of the CDS entity is the dictionary type of the element from the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) of the first SELECT statement.
+-   The data type of each element of the CDS entity is the dictionary type of the element from the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list.htm) of the first SELECT statement.
 
 -   The data type used to create the union set on the database is a data type whose value range covers the data types of the associated columns of all results sets involved.
 
-The following table shows which data types can be merged with which data types of the following SELECT statements in the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) of the first SELECT statement using UNION.
+The following table shows which data types can be merged with which data types of the following SELECT statements in the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list.htm) of the first SELECT statement using UNION.
 
 First/following
 
@@ -1080,15 +1080,15 @@ There are no further restrictions to note in combinations using "x". The followi
 
 -   In combinations using "l", the lengths of the data types must match exactly.
 
-If the length or value range of the first element does not cover the following elements in combinations with "w", the value returned by the database can be too great for the data type of the element of the CDS entity. It is still possible to activate the view here, but the content may be truncated or exceptions may be raised in ABAP SQL [queries](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry") if a type reference is applied to the entity. This is due to the [assignment rules](javascript:call_link\('abenselect_into_conversion.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause. Assignments to ABAP data objects with a sufficiently large value range, on the other hand, do not cause problems.
+If the length or value range of the first element does not cover the following elements in combinations with "w", the value returned by the database can be too great for the data type of the element of the CDS entity. It is still possible to activate the view here, but the content may be truncated or exceptions may be raised in ABAP SQL [queries](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquery_glosry.htm "Glossary Entry") if a type reference is applied to the entity. This is due to the [assignment rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_into_conversion.htm) of the [INTO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinto_clause.htm) clause. Assignments to ABAP data objects with a sufficiently large value range, on the other hand, do not cause problems.
 
-A CDS view in which union sets are formed with UNION can expose [associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry"). An association must be defined and exposed in the same way in all SELECT statements joined with UNION. That is, associations that are [published](javascript:call_link\('abencds_f1_select_list_association.htm'\)) in the respective [SELECT lists](javascript:call_link\('abencds_f1_select_list.htm'\)) must appear in all SELECT statements joined with UNION and the following requirements must be met:
+A CDS view in which union sets are formed with UNION can expose [associations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_association_glosry.htm "Glossary Entry"). An association must be defined and exposed in the same way in all SELECT statements joined with UNION. That is, associations that are [published](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_association.htm) in the respective [SELECT lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list.htm) must appear in all SELECT statements joined with UNION and the following requirements must be met:
 
 -   They have the same name.
 
 -   They have the same cardinality.
 
--   They must be published at the same position in the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) using a [path expression](javascript:call_link\('abencds_f1_path_expression.htm'\)).
+-   They must be published at the same position in the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list.htm) using a [path expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_path_expression.htm).
 
 -   They must have the same ON conditions, that is:
 
@@ -1102,7 +1102,7 @@ Notes
 
 -   Union sets can be a good way of transforming non-standardized database tables into a standardized view of the data.
 
--   If the length of the value range of an element from the SELECT list of the first SELECT statement does not cover the associated elements of the following SELECT statements, it is advisable to define an appropriate type with a suitable [CAST](javascript:call_link\('abencds_f1_cast_expression.htm'\)) expression.
+-   If the length of the value range of an element from the SELECT list of the first SELECT statement does not cover the associated elements of the following SELECT statements, it is advisable to define an appropriate type with a suitable [CAST](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_cast_expression.htm) expression.
 
 -   The maximum number of different SELECT statements that can be joined using UNION depends on the database system. If this number is exceeded, the CDS view cannot be activated.
 
@@ -1134,7 +1134,7 @@ define view ... ( c1, c2, c3, c4 ) as
 
 Example
 
-The following CDS view creates the union of the results sets of two SELECT statements. The element col1 in the first SELECT list has the type INT4, whereas the associated element col1 in the second SELECT list has the type INT8. This is why a syntax check warning is raised. In the case of the second element, col2, the example demonstrates how the warning can be bypassed using a [CAST](javascript:call_link\('abencds_f1_cast_expression.htm'\)) to the type INT8.
+The following CDS view creates the union of the results sets of two SELECT statements. The element col1 in the first SELECT list has the type INT4, whereas the associated element col1 in the second SELECT list has the type INT8. This is why a syntax check warning is raised. In the case of the second element, col2, the example demonstrates how the warning can be bypassed using a [CAST](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_cast_expression.htm) to the type INT8.
 
 @AbapCatalog.sqlViewName: 'DEMOCDSUNIONTYPE'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -1158,14 +1158,14 @@ union all select from
       numlong1 as col2
     }
 
-The program DEMO\_CDS\_UNION\_ELEMENT\_TYPE uses [SELECT](javascript:call_link\('abapselect.htm'\)) to access the view four times:
+The program DEMO\_CDS\_UNION\_ELEMENT\_TYPE uses [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm) to access the view four times:
 
 -   The first access writes directly to an internal table with the row type of the CDS entity. The access works because the value of the element col1 matches the value range of the data type i.
 
 -   The second access is the same as the first but one value in the element col1 is outside the value range of the data type i of the first column of the internal table result2. This is why an exception is raised.
 
--   In the third access, the exception is prevented since the data type of the first column of the results set (and hence the data type of the internal table result3) is transformed to int8 using a [CAST](javascript:call_link\('abensql_cast.htm'\)) in ABAP SQL.
+-   In the third access, the exception is prevented since the data type of the first column of the results set (and hence the data type of the internal table result3) is transformed to int8 using a [CAST](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_cast.htm) in ABAP SQL.
 
 -   In the fourth access, the exception is prevented due to an appropriate declaration of the data type of the first column of the internal table result4.
 
-The recommended method in all cases, however, is to handle the second element using a [CAST](javascript:call_link\('abencds_f1_cast_expression.htm'\)) in the CDS view.
+The recommended method in all cases, however, is to handle the second element using a [CAST](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_cast_expression.htm) in the CDS view.

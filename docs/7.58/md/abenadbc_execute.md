@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ABAP Database Connectivity (ADBC)](javascript:call_link\('abenadbc.htm'\)) →  [ADBC - CL\_SQL\_STATEMENT](javascript:call_link\('abencl_sql_statement.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql.htm) →  [ABAP Database Connectivity (ADBC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc.htm) →  [ADBC - CL\_SQL\_STATEMENT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_sql_statement.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ADBC%20-%20All%20Statements%2C%20ABENADBC_EXECUTE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -20,7 +20,7 @@ The type of the return value of EXECUTE is a reference to CL\_SQL\_RESULT\_SET. 
 
 Example
 
-Same as the example from [ADBC -DDL and DML Statements](javascript:call_link\('abenadbc_ddl_dml.htm'\)) but with EXECUTE instead of EXECUTE\_UPDATE. The type of the return values differ but are not evaluated.
+Same as the example from [ADBC -DDL and DML Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc_ddl_dml.htm) but with EXECUTE instead of EXECUTE\_UPDATE. The type of the return values differ but are not evaluated.
 
 DELETE FROM demo\_update.
 TRY.
@@ -42,7 +42,7 @@ cl\_demo\_output=>display( wa ).
 
 Example
 
-Same as the example from [ADBC - Queries](javascript:call_link\('abenadbc_query.htm'\)) but with EXECUTE instead of EXECUTE\_QUERY. The type of the return values are the same and can be evaluated in the same way.
+Same as the example from [ADBC - Queries](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc_query.htm) but with EXECUTE instead of EXECUTE\_QUERY. The type of the return values are the same and can be evaluated in the same way.
 
 DELETE FROM demo\_update.
 INSERT demo\_update FROM TABLE @(
@@ -67,4 +67,4 @@ cl\_demo\_output=>display( ).
 
 Executable Example
 
-[ADBC - Multiple Result Sets](javascript:call_link\('abenadbc_multi_result_abexa.htm'\))
+[ADBC - Multiple Result Sets](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc_multi_result_abexa.htm)

@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 predicate
 
-[Relational expression](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry") qualifying an [operand](javascript:call_link\('abenoperand_glosry.htm'\) "Glossary Entry"). Implemented in ABAP using [predicate expressions](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry"), [predicate functions](javascript:call_link\('abenpredicate_function_glosry.htm'\) "Glossary Entry"), and [predicative method calls](javascript:call_link\('abenpredicative_method_call_glosry.htm'\) "Glossary Entry").
+[Relational expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrelational_expression_glosry.htm "Glossary Entry") qualifying an [operand](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperand_glosry.htm "Glossary Entry"). Implemented in ABAP using [predicate expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredicate_expression_glosry.htm "Glossary Entry"), [predicate functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredicate_function_glosry.htm "Glossary Entry"), and [predicative method calls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredicative_method_call_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenpredicate.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredicate.htm)

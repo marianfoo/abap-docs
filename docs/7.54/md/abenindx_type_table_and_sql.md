@@ -4,13 +4,13 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) →  [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) →  [Export/Import Tables](javascript:call_link\('abenexport_data_cluster_indx.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_cluster.htm) →  [EXPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexport_data_cluster.htm) →  [Export/Import Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexport_data_cluster_indx.htm) → 
 
 SQL access to export tables/import tables
 
-[Export/import tables](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry") are relational databases defined in ABAP Dictionary. This means that, in principle, SQL statements can also be used to access export tables/import tables.
+[Export/import tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexport_import_table_glosry.htm "Glossary Entry") are relational databases defined in ABAP Dictionary. This means that, in principle, SQL statements can also be used to access export tables/import tables.
 
-To use SQL statements on export tables/import tables effectively, the [special structure](javascript:call_link\('abenexport_data_cluster_indx.htm'\)) of these tables must be respected.
+To use SQL statements on export tables/import tables effectively, the [special structure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexport_data_cluster_indx.htm) of these tables must be respected.
 
 It is not a good idea to perform reads or writes on the fields that manage the data cluster, such as CLUSTD or SRTF2 and CLUSTR. These fields contain the data cluster in an internal format and can only be handled correctly using the EXPORT TO DATABASE and IMPORT FROM DATABASE statements.
 

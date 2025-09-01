@@ -4,13 +4,13 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [User Interfaces](javascript:call_link\('abenuser_interfaces_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarchitecture_guidl.htm) →  [User Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_interfaces_guidl.htm) → 
 
 Encapsulating Classic User Interfaces
 
 Background
 
-The [separation of concerns](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline") is one of the basic rules of these ABAP programming guidelines. This separation, which refers to a strict division of ABAP code into parts for presentation services, application services, and persistence services, is also technically possible for classic dynpro-based UI technologies. The MVC approach is not directly supported, but SoC can also be achieved through the consistent use of the available encapsulation technologies.
+The [separation of concerns](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenseperation_concerns_guidl.htm "Guideline") is one of the basic rules of these ABAP programming guidelines. This separation, which refers to a strict division of ABAP code into parts for presentation services, application services, and persistence services, is also technically possible for classic dynpro-based UI technologies. The MVC approach is not directly supported, but SoC can also be achieved through the consistent use of the available encapsulation technologies.
 
 However, SoC was rarely implemented in classic dialog programming. Here, presentation logic, application logic, and persistence logic were often combined in a monolithic module pool.
 
@@ -36,7 +36,7 @@ Since class pools do not support classic dynpros and selection screens, you can 
 
 Besides UI elements, these function pools can only contain display logic in the form of local classes. The application logic communicates with the display logic using the function modules of this function pool. You can still call the first dynpro of a dynpro sequence using a transaction code. This method is used in cases where the user starts the application.
 
-The guidelines described in this book are also valid in function pools. It is especially important that the [dialog modules](javascript:call_link\('abendial_mod_event_block_guidl.htm'\) "Guideline") (PBO and PAI), which are called by the dynpro, or the [event blocks](javascript:call_link\('abendial_mod_event_block_guidl.htm'\) "Guideline") for selection screen processing do not contain any program logic. Instead they should directly delegate the processing to the relevant methods of the local classes. The same applies to the [function modules](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline") that act as the external interface. In addition, you must [restrict](javascript:call_link\('abenselect_table_type_guidl.htm'\) "Guideline") the scope of the function pool global data to the minimum scope required for communicating with dynpros.
+The guidelines described in this book are also valid in function pools. It is especially important that the [dialog modules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendial_mod_event_block_guidl.htm "Guideline") (PBO and PAI), which are called by the dynpro, or the [event blocks](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendial_mod_event_block_guidl.htm "Guideline") for selection screen processing do not contain any program logic. Instead they should directly delegate the processing to the relevant methods of the local classes. The same applies to the [function modules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunct_module_subroutine_guidl.htm "Guideline") that act as the external interface. In addition, you must [restrict](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_table_type_guidl.htm "Guideline") the scope of the function pool global data to the minimum scope required for communicating with dynpros.
 
 Exception
 

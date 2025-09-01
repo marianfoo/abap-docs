@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) →  [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_branches.htm) →  [CASE TYPE OF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcase_type.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Case Distinction CASE TYPE OF for Exceptions, ABENCASE_TYPE_OF_EXCEPTION_ABEXA, 757%0
 D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Case Distinction CASE TYPE OF for Exceptions
 
-This example demonstrates the case distinction [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) for exception classes.
+This example demonstrates the case distinction [CASE TYPE OF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcase_type.htm) for exception classes.
 
 Source Code   
 
@@ -51,4 +51,4 @@ START-OF-SELECTION.
 
 Description   
 
-Non-specific exceptions of the superclass CX\_DYNAMIC\_CHECK can be propagated from a method my\_sqrt. The actual exception class is determined in the calling method using the case distinction [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)).
+Non-specific exceptions of the superclass CX\_DYNAMIC\_CHECK can be propagated from a method my\_sqrt. The actual exception class is determined in the calling method using the case distinction [CASE TYPE OF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcase_type.htm).

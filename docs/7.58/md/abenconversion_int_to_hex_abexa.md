@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) →  [Numeric Source Fields](javascript:call_link\('abennumeric_source_fields.htm'\)) →  [Source Field Type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_elementary.htm) →  [Numeric Source Fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumeric_source_fields.htm) →  [Source Field Type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_type_ibs.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Conversion%20of%20Integer%20Numbers%20to%20Bytes%2C%20ABENCONVERSION_INT_TO_HEX_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20im
 provement:)
@@ -141,6 +141,6 @@ Description  
 
 The class assigns numbers of the data types b, s, and i and int8, which cover the entire value range, to byte fields with the lengths 1, 2, 4, and 8 as well as to a byte string and displays them.
 
-To calculate the numbers with powers of two, the use of the [calculation type](javascript:call_link\('abenarith_type.htm'\)) decfloat34 is forced in some cases to avoid overflows when assigning the results of the function [ipow](javascript:call_link\('abenipow_function_abexa.htm'\)) to interim results of the calculation type i or int8.
+To calculate the numbers with powers of two, the use of the [calculation type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarith_type.htm) decfloat34 is forced in some cases to avoid overflows when assigning the results of the function [ipow](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenipow_function_abexa.htm) to interim results of the calculation type i or int8.
 
 This example highlights the different lengths that can result from these assignments to byte strings. It also shows that, in the case of assignments of the type s to x, a field length of 4 bytes instead of only 2 bytes is required for negative numbers.

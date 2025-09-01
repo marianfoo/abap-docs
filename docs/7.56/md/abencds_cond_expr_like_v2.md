@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](javascript:call_link\('abencds_operands_and_expr_v2.htm'\)) →  [CDS DDL - CDS View Entity, cds\_cond](javascript:call_link\('abencds_conditional_expression_v2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_statement_v2.htm) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_operands_and_expr_v2.htm) →  [CDS DDL - CDS View Entity, cds\_cond](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conditional_expression_v2.htm) → 
 
 CDS DDL - CDS View Entity, cds\_cond, LIKE
 
@@ -18,13 +18,13 @@ Addition:
 
 Effect
 
-Pattern comparison in a [condition](javascript:call_link\('abencds_conditional_expression_v2.htm'\)) in a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"). The relational expression is true if the string in lhs matches (does not match) the pattern in rhs.
+Pattern comparison in a [condition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_conditional_expression_v2.htm) in a [CDS view entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_view_glosry.htm "Glossary Entry"). The relational expression is true if the string in lhs matches (does not match) the pattern in rhs.
 
 Rules for the operands lhs and rhs:
 
--   The operand lhs must stick to the context-dependent rules listed in topic [CDS DDL - View Entity, cds\_cond, Operands](javascript:call_link\('abencds_cond_expr_operands_v2.htm'\)).
--   The data types of the operands must be comparable as described in topic [CDS DDL - View Entity, cds\_cond, Comparable Types](javascript:call_link\('abencds_cond_expr_types_v2.htm'\)). Only character-like data types can be used.
--   For rhs, only [character-like literals](javascript:call_link\('abencds_literal_v2.htm'\)) are allowed.
+-   The operand lhs must stick to the context-dependent rules listed in topic [CDS DDL - View Entity, cds\_cond, Operands](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_operands_v2.htm).
+-   The data types of the operands must be comparable as described in topic [CDS DDL - View Entity, cds\_cond, Comparable Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_cond_expr_types_v2.htm). Only character-like data types can be used.
+-   For rhs, only [character-like literals](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_literal_v2.htm) are allowed.
 
 Rules for the pattern in rhs:
 
@@ -34,7 +34,7 @@ Rules for the pattern in rhs:
 Hints
 
 -   Do not use patterns in rhs that are closed by wildcard characters to search for trailing blanks. The semantics of searches of this type are dependent on the database system that is used and in general do not produce the required result.
--   If lhs contains the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), then the comparison lhs LIKE '%' is not true. In ABAP SQL, this comparison is true (as described in topic [sql\_cond, LIKE](javascript:call_link\('abenwhere_logexp_like.htm'\))).
+-   If lhs contains the [null value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennull_value_glosry.htm "Glossary Entry"), then the comparison lhs LIKE '%' is not true. In ABAP SQL, this comparison is true (as described in topic [sql\_cond, LIKE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwhere_logexp_like.htm)).
 
 Addition   
 
@@ -42,7 +42,7 @@ Addition  
 
 Effect
 
-The addition ESCAPE can be used to define a single-character [escape character](javascript:call_link\('abenescape_character_glosry.htm'\) "Glossary Entry"). esc expects a [character-like literal](javascript:call_link\('abencds_literal_v2.htm'\)) with the length 1 containing the escape character. In the pattern in rhs, the escape character esc can be placed before a wildcard character or before the escape character itself. Then, the character directly following the escape character loses its special meaning.
+The addition ESCAPE can be used to define a single-character [escape character](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenescape_character_glosry.htm "Glossary Entry"). esc expects a [character-like literal](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_literal_v2.htm) with the length 1 containing the escape character. In the pattern in rhs, the escape character esc can be placed before a wildcard character or before the escape character itself. Then, the character directly following the escape character loses its special meaning.
 
 If an escape character in rhs is not placed in front of one of the valid characters, a syntax error occurs.
 

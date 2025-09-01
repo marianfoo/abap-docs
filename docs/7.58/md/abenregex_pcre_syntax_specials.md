@@ -4,28 +4,41 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions (regex)](javascript:call_link\('abenregular_expressions.htm'\)) →  [regex - Syntax](javascript:call_link\('abenregex_syntax.htm'\)) →  [regex - PCRE Syntax](javascript:call_link\('abenregex_pcre_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions (regex)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregular_expressions.htm) →  [regex - Syntax](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_syntax.htm) →  [regex - PCRE Syntax](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_pcre_syntax.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20PCRE%20regex%20-%20Special%20Characters%2C%20ABENREGEX_PCRE_SYNTAX_SPECIALS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:
 )
 
 PCRE regex - Special Characters
 
-The following tables summarize the special characters in [PCRE regular expressions](javascript:call_link\('abenpcre_regex_glosry.htm'\) "Glossary Entry").
+The following tables summarize the special characters in [PCRE regular expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcre_regex_glosry.htm "Glossary Entry").
 
--   [Pattern Syntax](#abenregex-pcre-syntax-specials-1-----------quoting---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_2)
-    -   [Escaped Characters](#abenregex-pcre-syntax-specials-3-----------character-types---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_4)
-    -   [Character Classes](#abenregex-pcre-syntax-specials-5-----------quantifiers---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_6)
-    -   [Anchors and Basic Assertions](#abenregex-pcre-syntax-specials-7-----------reported-match-point-setting---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_8)
-    -   [Alternation](#abenregex-pcre-syntax-specials-9-----------grouping-and-capturing---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_10)
-    -   [Comments](#abenregex-pcre-syntax-specials-11-----------option-setting---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_12)
-    -   [Special Control Verbs](#abenregex-pcre-syntax-specials-13-----------look-ahead-and-look-behind-assertions---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_14)
-    -   [Non-Atomic Look-around Assertions](#abenregex-pcre-syntax-specials-15-----------backreferences---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_16)
-    -   [Subroutine References](#abenregex-pcre-syntax-specials-17-----------conditional-patterns---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_18)
-    -   [Backtracking Control](#abenregex-pcre-syntax-specials-19-----------callouts---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_20)
--   [Replacement Syntax](#abenregex-pcre-syntax-specials-21-----------capture-group-substitution---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_22)
-    -   [Conditional Substitution](#abenregex-pcre-syntax-specials-23-----------case-conversion---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_24)
-    -   [Substituting Special Characters](#abenregex-pcre-syntax-specials-25-----------quoting---@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_26)
+-   [Pattern Syntax](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_1)
+    -   [Quoting](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_2)
+    -   [Escaped Characters](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_3)
+    -   [Character Types](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_4)
+    -   [Character Classes](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_5)
+    -   [Quantifiers](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_6)
+    -   [Anchors and Basic Assertions](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_7)
+    -   [Reported Match Point Setting](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_8)
+    -   [Alternation](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_9)
+    -   [Grouping and Capturing](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_10)
+    -   [Comments](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_11)
+    -   [Option Setting](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_12)
+    -   [Special Control Verbs](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_13)
+    -   [Look-ahead and Look-behind Assertions](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_14)
+    -   [Non-Atomic Look-around Assertions](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_15)
+    -   [Backreferences](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_16)
+    -   [Subroutine References](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_17)
+    -   [Conditional Patterns](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_18)
+    -   [Backtracking Control](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_19)
+    -   [Callouts](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_20)
+-   [Replacement Syntax](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_21)
+    -   [Capture Group Substitution](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_22)
+    -   [Conditional Substitution](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_23)
+    -   [Case Conversion](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_24)
+    -   [Substituting Special Characters](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_25)
+    -   [Quoting](#@@ITOC@@ABENREGEX_PCRE_SYNTAX_SPECIALS_26)
 
 Hint
 
@@ -117,7 +130,7 @@ any character except line feed (unless in dotall mode, then any character)
 
 \\C
 
-one code unit; only allowed in regular expressions created with the class [CL\_ABAP\_REGEX](javascript:call_link\('abenregex_system_classes.htm'\)) with UNICODE\_HANDLING set to RELAXED, as it could partially match UTF-16 characters otherwise
+one code unit; only allowed in regular expressions created with the class [CL\_ABAP\_REGEX](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_system_classes.htm) with UNICODE\_HANDLING set to RELAXED, as it could partially match UTF-16 characters otherwise
 
 \\d
 
@@ -870,7 +883,7 @@ disable several optimizations for quickly reaching a no match result; this can b
 
 (\*UTF)
 
-enable UTF-mode; this verb cannot be used in regular expressions created with the class [CL\_ABAP\_REGEX](javascript:call_link\('abenregex_system_classes.htm'\)) with UNICODE\_HANDLING set to RELAXED, as it would clash with usages of \\C
+enable UTF-mode; this verb cannot be used in regular expressions created with the class [CL\_ABAP\_REGEX](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_system_classes.htm) with UNICODE\_HANDLING set to RELAXED, as it would clash with usages of \\C
 
 (\*UCP)
 
@@ -1126,7 +1139,7 @@ Subroutine calls can be recursive. Left recursion is not possible however.
 
 Executable Example
 
-[Parsing with PCRE Regular Expression](javascript:call_link\('abenpcre_parsing_abexa.htm'\))
+[Parsing with PCRE Regular Expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcre_parsing_abexa.htm)
 
 Conditional Patterns   
 
@@ -1267,7 +1280,7 @@ callout with string data text
 
 Executable Example
 
-[PCRE Regular Expression with Callouts](javascript:call_link\('abenpcre_callout_abexa.htm'\))
+[PCRE Regular Expression with Callouts](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcre_callout_abexa.htm)
 
 Replacement Syntax   
 

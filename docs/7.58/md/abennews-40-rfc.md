@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for ABAP Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 4.xx](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-4.htm) →  [News for ABAP Release 4.0](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-40.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RFC%2C%20Remote%20Function%20Call%20in%20ABAP%20Release%204.0%2C%20ABENNEWS-40-RFC%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impro
 vement:)
@@ -23,15 +23,15 @@ Modification 1  
 
 WAIT Statement
 
-[WAIT](javascript:call_link\('abapwait_arfc.htm'\)) *\[*UNTIL condition*\]* UP TO time SECONDS
+[WAIT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_arfc.htm) *\[*UNTIL condition*\]* UP TO time SECONDS
 
-The statement WAIT makes it possible to wait for a response from a function module called asynchronously. This requires the addition PERFORMING form ON END OF TASK. WAIT must be executed in the same [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
+The statement WAIT makes it possible to wait for a response from a function module called asynchronously. This requires the addition PERFORMING form ON END OF TASK. WAIT must be executed in the same [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry").
 
 Modification 2   
 
 RECEIVE Statement
 
-RECEIVE RESULTS FROM FUNCTION func [KEEPING TASK](javascript:call_link\('abapreceive.htm'\))
+RECEIVE RESULTS FROM FUNCTION func [KEEPING TASK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreceive.htm)
 
 The KEEPING TASK addition preserves the remote context in the subroutine for reuse.
 
@@ -39,13 +39,13 @@ Modification 3  
 
 Error Messages from the Remote System
 
-If an error occurs in the target system in RFC, details of the [error message](javascript:call_link\('abenerror_message_glosry.htm'\) "Glossary Entry") are passed to the calling system (SY-MSGNO, SY-MSGID, SY-MSGTY, SY-MSGV1, SY-MSGV2, SY-MSGV3, and SY-MSGV4). These fields are set to initial in each RFC call.
+If an error occurs in the target system in RFC, details of the [error message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenerror_message_glosry.htm "Glossary Entry") are passed to the calling system (SY-MSGNO, SY-MSGID, SY-MSGTY, SY-MSGV1, SY-MSGV2, SY-MSGV3, and SY-MSGV4). These fields are set to initial in each RFC call.
 
 Modification 4   
 
 Load Checks for Asynchronous RFC
 
-For each RFC [destination](javascript:call_link\('abenrfc_dest_glosry.htm'\) "Glossary Entry"), an improved load check is performed for asynchronous RFCs (menu path Destination -\>ARFC Options in the RFC destination maintenance screen in [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry")). Before the function module is executed, the system makes sure that the target host has enough resources. If the host is overloaded, the execution of the function module is delayed (internally) for a short time. The algorithm used to determine the load situation on the target machine is the same used in asynchronous RFC with the addition [DESTINATION IN GROUP](javascript:call_link\('abapcall_function_starting.htm'\)). Be aware that this option can only be used for target hosts from ABAP release 3.1H.
+For each RFC [destination](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrfc_dest_glosry.htm "Glossary Entry"), an improved load check is performed for asynchronous RFCs (menu path Destination -\>ARFC Options in the RFC destination maintenance screen in [AS ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_abap_glosry.htm "Glossary Entry")). Before the function module is executed, the system makes sure that the target host has enough resources. If the host is overloaded, the execution of the function module is delayed (internally) for a short time. The algorithm used to determine the load situation on the target machine is the same used in asynchronous RFC with the addition [DESTINATION IN GROUP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_starting.htm). Be aware that this option can only be used for target hosts from ABAP release 3.1H.
 
 Modification 5   
 
@@ -65,4 +65,4 @@ Modification 7  
 
 Authorization Check
 
-If RFC communication takes place within a single system and in the same user context (with the same client and user name), no RFC authorization check based on function pools (using the [authorization object](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") S\_RFC) is performed. More information about this topic can be found in [RFC Authorizations](javascript:call_link\('abenrfc_authority.htm'\)).
+If RFC communication takes place within a single system and in the same user context (with the same client and user name), no RFC authorization check based on function pools (using the [authorization object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenauthorization_object_glosry.htm "Glossary Entry") S\_RFC) is performed. More information about this topic can be found in [RFC Authorizations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrfc_authority.htm).

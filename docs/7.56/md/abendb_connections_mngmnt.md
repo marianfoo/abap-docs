@@ -4,33 +4,35 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Database Connections](javascript:call_link\('abendb_connections.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [Database Connections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_connections.htm) → 
 
 Management of Database Connections
 
-Database connections are managed by the ABAP runtime framework. This is done at the [work process](javascript:call_link\('abenwork_process_glosry.htm'\) "Glossary Entry") level and the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") level. Each time an AS ABAP is started, a [standard connection](javascript:call_link\('abenstandard_db_connection_glosry.htm'\) "Glossary Entry") is opened for every [work process](javascript:call_link\('abenwork_process_glosry.htm'\) "Glossary Entry") and this connection cannot be closed. In addition to the standard connection, 15 further [secondary connections](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") or [service connections](javascript:call_link\('abenservice_connection_glosry.htm'\) "Glossary Entry") can be opened for each work process. A maximum of 16 database connections can be open for each work process. On certain databases, it may not be possible to reach this number. If more than 16 database connections are opened, the runtime error DBSQL\_NO\_MORE\_CONNECTION occurs.
+Database connections are managed by the ABAP runtime framework. This is done at the [work process](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwork_process_glosry.htm "Glossary Entry") level and the [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry") level. Each time an AS ABAP is started, a [standard connection](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry") is opened for every [work process](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwork_process_glosry.htm "Glossary Entry") and this connection cannot be closed. In addition to the standard connection, 15 further [secondary connections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") or [service connections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenservice_connection_glosry.htm "Glossary Entry") can be opened for each work process. A maximum of 16 database connections can be open for each work process. On certain databases, it may not be possible to reach this number. If more than 16 database connections are opened, the runtime error DBSQL\_NO\_MORE\_CONNECTION occurs.
 
--   [Opening and Closing Secondary Connections and Service Connections](#abendb-connections-mngmnt-1-------active-and-inactive-secondary-connections-and-service-connections---@ITOC@@ABENDB_CONNECTIONS_MNGMNT_2)
--   [Secondary Connections and Service Connections in the Internal Session](#abendb-connections-mngmnt-3-------displaying-secondary-connections-and-service-connections---@ITOC@@ABENDB_CONNECTIONS_MNGMNT_4)
+-   [Opening and Closing Secondary Connections and Service Connections](#@@ITOC@@ABENDB_CONNECTIONS_MNGMNT_1)
+-   [Active and Inactive Secondary Connections and Service Connections](#@@ITOC@@ABENDB_CONNECTIONS_MNGMNT_2)
+-   [Secondary Connections and Service Connections in the Internal Session](#@@ITOC@@ABENDB_CONNECTIONS_MNGMNT_3)
+-   [Displaying Secondary Connections and Service Connections](#@@ITOC@@ABENDB_CONNECTIONS_MNGMNT_4)
 
 Opening and Closing Secondary Connections and Service Connections
 
 ABAP SQL and Native SQL can request secondary connections or service connections. AMDP can only request service connections. A secondary connection or a service connection is requested as follows:
 
--   Implicitly in ABAP SQL by specifying the name of the connection after the addition [CONNECTION](javascript:call_link\('abapselect_additions.htm'\))
+-   Implicitly in ABAP SQL by specifying the name of the connection after the addition [CONNECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_additions.htm)
 -   Explicitly and implicitly in Native SQL using one of the following:
-    -   The methods [GET\_ABAP\_CONNECTION](javascript:call_link\('abencl_sql_connection.htm'\)) and [GET\_CONNECTION](javascript:call_link\('abencl_sql_connection.htm'\)) of the ADBC class CL\_SQL\_CONNECTION
-    -   The statement [CONNECT TO](javascript:call_link\('abapexec_connection.htm'\)) after [EXEC SQL](javascript:call_link\('abapexec.htm'\))
--   The input parameter [CONNECTION](javascript:call_link\('abenamdp_db_connections.htm'\)) of [AMDP procedure implementations](javascript:call_link\('abenamdp_procedure_method_glosry.htm'\) "Glossary Entry") (for service connections only)
+    -   The methods [GET\_ABAP\_CONNECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencl_sql_connection.htm) and [GET\_CONNECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencl_sql_connection.htm) of the ADBC class CL\_SQL\_CONNECTION
+    -   The statement [CONNECT TO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexec_connection.htm) after [EXEC SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexec.htm)
+-   The input parameter [CONNECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp_db_connections.htm) of [AMDP procedure implementations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp_procedure_method_glosry.htm "Glossary Entry") (for service connections only)
 
 If no inactive database connection can be activated after the specified name, it is opened for the current work process and activated for the current internal session.
 
 A secondary connection or service connection is closed explicitly in Native SQL using the following:
 
--   The method [CLOSE](javascript:call_link\('abencl_sql_connection.htm'\)) of the ADBC class CL\_SQL\_CONNECTION
--   The statement [DISCONNECT](javascript:call_link\('abapexec_connection.htm'\)) after [EXEC SQL](javascript:call_link\('abapexec.htm'\))
+-   The method [CLOSE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencl_sql_connection.htm) of the ADBC class CL\_SQL\_CONNECTION
+-   The statement [DISCONNECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexec_connection.htm) after [EXEC SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexec.htm)
 
-If closed explicitly in Native SQL, all database changes in the current database LUW of the connection that were not yet [committed on the database](javascript:call_link\('abendb_commit.htm'\)) are discarded.
+If closed explicitly in Native SQL, all database changes in the current database LUW of the connection that were not yet [committed on the database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_commit.htm) are discarded.
 
 ABAP SQL does not have a statement that closes a database connection explicitly. Any secondary connection or service connection that is inactive for a specific period of time (approximately 15 minutes by default) is closed by the ABAP runtime framework implicitly.
 
@@ -62,11 +64,11 @@ Active and Inactive Secondary Connections and Service Connections
 
 An open secondary connection or service connection can be active or inactive. Once opened in ABAP SQL, Native SQL, or AMDP, a database connection is active and can be used by ABAP SQL, Native SQL, or AMDP. The secondary connection or service connection becomes inactive as soon as the current database LUW on this connection is ended. This can occur as follows:
 
--   Using the statements [COMMIT CONNECTION](javascript:call_link\('abapcommit_rollback_connection.htm'\)) or [ROLLBACK CONNECTION](javascript:call_link\('abapcommit_rollback_connection.htm'\)) for this connection.
--   Using the Native SQL statements COMMIT WORK or ROLLBACK WORK after [EXEC SQL](javascript:call_link\('abapexec.htm'\)) for this connection
--   Using the methods [COMMIT](javascript:call_link\('abenadbc_transaction.htm'\)) and [ROLLBACK](javascript:call_link\('abenadbc_transaction.htm'\)) of the ADBC class CL\_SQL\_CONNECTION for this connection
--   Using the statements [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) and [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) for all connections
--   In an implicit [database commit](javascript:call_link\('abendb_commit.htm'\)) or [database rollback](javascript:call_link\('abendb_rollback.htm'\)) for all connections
+-   Using the statements [COMMIT CONNECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit_rollback_connection.htm) or [ROLLBACK CONNECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit_rollback_connection.htm) for this connection.
+-   Using the Native SQL statements COMMIT WORK or ROLLBACK WORK after [EXEC SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexec.htm) for this connection
+-   Using the methods [COMMIT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadbc_transaction.htm) and [ROLLBACK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadbc_transaction.htm) of the ADBC class CL\_SQL\_CONNECTION for this connection
+-   Using the statements [COMMIT WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit.htm) and [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaprollback.htm) for all connections
+-   In an implicit [database commit](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_commit.htm) or [database rollback](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_rollback.htm) for all connections
 -   When closing the internal session in which the connection was opened, where a COMMIT CONNECTION is executed for the connection implicitly.
 
 An inactive open secondary connection or service connection is reused by the ABAP runtime framework if it is to be reopened for its work process. Once activated in an internal session, a secondary connection or service connection can be reused here regardless of whether it is active or inactive. When an inactive connection is reused, it is activated implicitly and a new database LUW is opened. In this case, it is not necessary to open it again explicitly in Native SQL either.
@@ -98,7 +100,7 @@ ENDTRY.
 
 Secondary Connections and Service Connections in the Internal Session
 
-Active open secondary connections or service connections can only be used within the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") in which they are opened. An active open secondary connection or service connection can be shared by ABAP SQL, Native SQL, and AMDP within an internal session. In Native SQL or AMDP, the open connections cannot have any lowercase letters in the name and in ADBC, open connections must be intended for this purpose.
+Active open secondary connections or service connections can only be used within the [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry") in which they are opened. An active open secondary connection or service connection can be shared by ABAP SQL, Native SQL, and AMDP within an internal session. In Native SQL or AMDP, the open connections cannot have any lowercase letters in the name and in ADBC, open connections must be intended for this purpose.
 
 When the internal session is closed, any changes made using the connections are committed and the connections are set to inactive. When an ABAP program is called that returns to the called program (SUBMIT AND RETURN or CALL TRANSACTION), the states of any secondary connections or service connections opened here are preserved as active or inactive. They are not, however, passed to the called program. If a secondary connection or service connection with the same name is requested here, a further connection of the same type is opened.
 
@@ -106,7 +108,7 @@ Any secondary connection or service connection that becomes inactive within an i
 
 Example
 
-An ABAP SQL statement requests a service connection R/3\*DEMO and then calls a further program. The called program requests a service connection with the same name. After this, two service connections with the same name are open and active for the current work process until the end of the internal session of the called program. When a return is made from the called program, its service connection is deactivated, just as the service connection of the calling program is deactivated when it is exited. No database commit was made before the call, which means that the [isolation level](javascript:call_link\('abendb_isolation.htm'\)) of the database determines whether the change made in the caller is visible in the called program.
+An ABAP SQL statement requests a service connection R/3\*DEMO and then calls a further program. The called program requests a service connection with the same name. After this, two service connections with the same name are open and active for the current work process until the end of the internal session of the called program. When a return is made from the called program, its service connection is deactivated, just as the service connection of the calling program is deactivated when it is exited. No database commit was made before the call, which means that the [isolation level](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_isolation.htm) of the database determines whether the change made in the caller is visible in the called program.
 
 Calling Program
 

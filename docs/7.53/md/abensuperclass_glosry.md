@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 superclass
 
-[Class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry") from which [subclasses](javascript:call_link\('abensubclass_glosry.htm'\) "Glossary Entry") are derived by [inheritance](javascript:call_link\('abeninheritance_glosry.htm'\) "Glossary Entry").
+[Class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_glosry.htm "Glossary Entry") from which [subclasses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubclass_glosry.htm "Glossary Entry") are derived by [inheritance](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninheritance_glosry.htm "Glossary Entry").

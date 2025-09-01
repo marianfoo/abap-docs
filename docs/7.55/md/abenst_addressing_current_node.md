@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Addressing ABAP Data](javascript:call_link\('abenst_addressing.htm'\)) →  [ST - Addressing Data Nodes](javascript:call_link\('abenst_addressing_nodes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_st.htm) →  [ST - Addressing ABAP Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_addressing.htm) →  [ST - Addressing Data Nodes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_addressing_nodes.htm) → 
 
 ST - Addressing the Current Node
 
-In all ST statements in which the name of a node can be specified, the [current node](javascript:call_link\('abenst_tt_ref.htm'\)) can be addressed explicitly with $ref. An alias name can be also be defined for $ref in [tt:loop loops](javascript:call_link\('abenst_tt_loop.htm'\)) where internal tables are transformed. If specification of the node is optional, ST statements use the current node by default.
+In all ST statements in which the name of a node can be specified, the [current node](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_ref.htm) can be addressed explicitly with $ref. An alias name can be also be defined for $ref in [tt:loop loops](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_loop.htm) where internal tables are transformed. If specification of the node is optional, ST statements use the current node by default.
 
 Hint
 
@@ -43,4 +43,4 @@ The following ST program can be used to serialize a nested ABAP structure:
 
 In the example, subnodes COL1 and COL2 are set as the current node in the surrounding elements of the tt:value statements with ROOT and STRUC2, respectively. In the first two elements, the current node is addressed explicitly using $ref for demonstration purposes. The current node is also specified using $ref in the first two tt:value statements, while specification is implicit in the other two tt:value statements.
 
-Also see the example for calling a transformation in the [tt:value, Structures](javascript:call_link\('abenst_tt_value_structure.htm'\)) section.
+Also see the example for calling a transformation in the [tt:value, Structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_value_structure.htm) section.

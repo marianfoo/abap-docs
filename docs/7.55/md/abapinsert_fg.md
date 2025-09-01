@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Extracts](javascript:call_link\('abenabap_extracts_extended.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_extracts_extended.htm) → 
 
 INSERT, field\_group
 
-[Short Reference](javascript:call_link\('abapinsert_field-group_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_field-group_shortref.htm)
 
 Obsolete Syntax
 
@@ -16,9 +16,9 @@ INSERT dobj1 dobj2 ... INTO *{* header *|* field\_group *}*.
 
 Effect
 
-This statement is used to build a structure of a field group of the [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry") of the program, where the field group is defined using [FIELD-GROUPS](javascript:call_link\('abapfield-groups.htm'\)) . A list of global [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") data objects dobj can be inserted after INSERT. Specifying local data objects raises an exception. The list defines the components of the field group header or field\_group. Any name can be specified directly for field\_group, whereas header is a predefined name of a special field group whose components are automatically a part and a key of all other field groups. The components of a field group have the function of a pointer to data objects whose contents can be attached as a line to the extract dataset when executing the statement [EXTRACT](javascript:call_link\('abapextract.htm'\)).
+This statement is used to build a structure of a field group of the [extract dataset](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenextract_dataset_glosry.htm "Glossary Entry") of the program, where the field group is defined using [FIELD-GROUPS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfield-groups.htm) . A list of global [flat](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenflat_glosry.htm "Glossary Entry") data objects dobj can be inserted after INSERT. Specifying local data objects raises an exception. The list defines the components of the field group header or field\_group. Any name can be specified directly for field\_group, whereas header is a predefined name of a special field group whose components are automatically a part and a key of all other field groups. The components of a field group have the function of a pointer to data objects whose contents can be attached as a line to the extract dataset when executing the statement [EXTRACT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapextract.htm).
 
-The statement INSERT can be used in any [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") of a program and is executed at the given time during the program execution. A field group can have different INSERT statements. Additional components can be added to a field group until the first corresponding line with EXTRACT is attached to the extract dataset. More specifically, components can only be added to the field group header until a field group of the program is extracted because it is a part of all field groups. An INSERT statement for an already extracted field group raises a uncatchable exception.
+The statement INSERT can be used in any [processing block](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocessing_block_glosry.htm "Glossary Entry") of a program and is executed at the given time during the program execution. A field group can have different INSERT statements. Additional components can be added to a field group until the first corresponding line with EXTRACT is attached to the extract dataset. More specifically, components can only be added to the field group header until a field group of the program is extracted because it is a part of all field groups. An INSERT statement for an already extracted field group raises a uncatchable exception.
 
 Field symbols can be specified for dobj but not dereferenced data references. A field symbol is ignored if no data object is assigned to it. Specifying a data reference raises a uncatchable exception.
 
@@ -28,12 +28,12 @@ Hints
 
 -   In global classes, no field groups can be defined or processed. In methods of local classes of programs other than class pools, the statement INSERT is possible for globally defined field groups.
 
--   Extracts are obsolete. [Internal tables](javascript:call_link\('abenitab.htm'\)) are recommended instead.
+-   Extracts are obsolete. [Internal tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab.htm) are recommended instead.
     
 
 Example
 
-In this example, three field groups are declared in the global declaration part of an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") and its components are specified in the event block START-OF-SELECTION. The field group flight\_info contains five components of the field group header and its own. The field group flight\_date contains only the components of the field group header.
+In this example, three field groups are declared in the global declaration part of an [executable program](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexecutable_program_glosry.htm "Glossary Entry") and its components are specified in the event block START-OF-SELECTION. The field group flight\_info contains five components of the field group header and its own. The field group flight\_date contains only the components of the field group header.
 
 REPORT ...
 DATA: spfli\_wa   TYPE spfli,
@@ -45,7 +45,7 @@ START-OF-SELECTION.
           spfli\_wa-cityfrom spfli\_wa-cityto
             INTO flight\_info.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

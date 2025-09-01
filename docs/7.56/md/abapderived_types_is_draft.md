@@ -4,17 +4,17 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Components related to keys and RAP BO instance identification](javascript:call_link\('abapderived_types_keys_id.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_rap_other.htm) →  [ABAP for RAP, BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm) →  [Components related to keys and RAP BO instance identification](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_keys_id.htm) → 
 
 %is\_draft
 
 Use
 
-The draft indicator %is\_draft is a component of [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry"). It is used to indicate if a [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") instance is a [drafts](javascript:call_link\('abenbdl_with_draft.htm'\)) instance or an active instance. To create a draft instance, %is\_draft must be explicitly set in ABAP EML [MODIFY](javascript:call_link\('abapmodify_entity_entities.htm'\)) requests.
+The draft indicator %is\_draft is a component of [BDEF derived types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry"). It is used to indicate if a [RAP BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm "Glossary Entry") instance is a [drafts](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_with_draft.htm) instance or an active instance. To create a draft instance, %is\_draft must be explicitly set in ABAP EML [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities.htm) requests.
 
 Further Information
 
-[Use of keys and RAP BO instance identifiers in a nutshell](javascript:call_link\('abapderived_types_keys_identifiers.htm'\))
+[Use of keys and RAP BO instance identifiers in a nutshell](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_keys_identifiers.htm)
 
 Type
 
@@ -22,7 +22,7 @@ The component has the following type: ABP\_BEHV\_FLAG
 
 Where used
 
-In ABAP EML [MODIFY](javascript:call_link\('abapmodify_entity_entities.htm'\)) requests, the component can be referred to directly or via the [component group](javascript:call_link\('abencomponent_group_glosry.htm'\) "Glossary Entry") [%tky](javascript:call_link\('abapderived_types_tky.htm'\)) since %is\_draft is a component of %tky.
+In ABAP EML [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities.htm) requests, the component can be referred to directly or via the [component group](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomponent_group_glosry.htm "Glossary Entry") [%tky](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_tky.htm) since %is\_draft is a component of %tky.
 
 Example
 
@@ -58,4 +58,4 @@ MODIFY ENTITY demo\_unmanaged\_root\_draft
 
 Executable Example
 
-The example [Using %is\_draft](javascript:call_link\('abenderived_types_isdraft_abexa.htm'\)) demonstrates the use of %is\_draft with an unmanaged RAP BO in a draft scenario.
+The example [Using %is\_draft](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenderived_types_isdraft_abexa.htm) demonstrates the use of %is\_draft with an unmanaged RAP BO in a draft scenario.

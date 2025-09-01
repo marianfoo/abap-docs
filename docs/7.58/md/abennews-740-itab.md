@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 7.40 and its SPs](javascript:call_link\('abennews-740.htm'\)) →  [News for ABAP Release 7.40, SP02](javascript:call_link\('abennews-740_sp02.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 7.40 and its SPs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-740.htm) →  [News for ABAP Release 7.40, SP02](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-740_sp02.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Internal%20Tables%20in%20ABAP%20Release%207.40%2C%20SP02%2C%20ABENNEWS-740-ITAB%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvem
 ent:)
@@ -23,7 +23,7 @@ Modification 1  
 
 Table Expressions
 
-The new [table expressions](javascript:call_link\('abentable_expressions.htm'\)) allow reads to be performed on internal tables in operand positions.
+The new [table expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_expressions.htm) allow reads to be performed on internal tables in operand positions.
 
 Modification 2   
 
@@ -31,34 +31,34 @@ Built-In Functions for Internal Tables
 
 The following functions were introduced:
 
--   The [table function](javascript:call_link\('abentable_function_glosry.htm'\) "Glossary Entry") [line\_index](javascript:call_link\('abenline_index_function.htm'\)) can be used to identify a line number in an index of an internal table and use it in operand positions.
--   The [predicate function](javascript:call_link\('abenpredicate_function_glosry.htm'\) "Glossary Entry") [line\_exists](javascript:call_link\('abenline_exists_function.htm'\)) can be used to check the existence of table lines; the resulting truth value can then be used directly.
+-   The [table function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_function_glosry.htm "Glossary Entry") [line\_index](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenline_index_function.htm) can be used to identify a line number in an index of an internal table and use it in operand positions.
+-   The [predicate function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpredicate_function_glosry.htm "Glossary Entry") [line\_exists](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenline_exists_function.htm) can be used to check the existence of table lines; the resulting truth value can then be used directly.
 
 Modification 3   
 
 Explicit Definition of an Empty Key
 
-The new addition [EMPTY KEY](javascript:call_link\('abaptypes_primary_key.htm'\)) of the statements [TYPES](javascript:call_link\('abaptypes_primary_key.htm'\)), [DATA](javascript:call_link\('abapdata_primary_key.htm'\)), and so on can be used to define an [empty table key](javascript:call_link\('abenitab_empty_key.htm'\)) explicitly for standard tables. Without this addition, empty table keys occur only if the [standard key](javascript:call_link\('abenitab_standard_key.htm'\)) of a standard table does not contain any components suitable as key fields.
+The new addition [EMPTY KEY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_primary_key.htm) of the statements [TYPES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_primary_key.htm), [DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_primary_key.htm), and so on can be used to define an [empty table key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_empty_key.htm) explicitly for standard tables. Without this addition, empty table keys occur only if the [standard key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_standard_key.htm) of a standard table does not contain any components suitable as key fields.
 
 Modification 4   
 
 Table Sharing for Boxed Components
 
-Until now there was no [table sharing](javascript:call_link\('abentable_sharing_glosry.htm'\) "Glossary Entry") if the line types contained [boxed components](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry"). This restriction has now been lifted.
+Until now there was no [table sharing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_sharing_glosry.htm "Glossary Entry") if the line types contained [boxed components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_component_glosry.htm "Glossary Entry"). This restriction has now been lifted.
 
 Modification 5   
 
 References in Dynamically Specified Components
 
-Object component selectors can now be specified when [components are specified](javascript:call_link\('abenitab_components.htm'\)) dynamically (this was not previously the case). However, those specifications can be made that are statically possible. For example, when using ASSIGN attributes cannot be accessed that are not known statically. This is the case, for example, when using superclass references to access subclass components.
+Object component selectors can now be specified when [components are specified](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_components.htm) dynamically (this was not previously the case). However, those specifications can be made that are statically possible. For example, when using ASSIGN attributes cannot be accessed that are not known statically. This is the case, for example, when using superclass references to access subclass components.
 
 Modification 6   
 
 Optimization of the WHERE Condition
 
-The rules described under [Optimization of the WHERE Condition](javascript:call_link\('abenitab_where_optimization.htm'\)) have been modified as follows:
+The rules described under [Optimization of the WHERE Condition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_where_optimization.htm) have been modified as follows:
 
--   Except in comparisons for equality, optimizations are now also performed for the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [IS INITIAL](javascript:call_link\('abenlogexp_initial.htm'\)). This enables a simple check to be made on the initial value, in particular for columns typed as [reference variables](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry"). A static WHERE condition cannot contain any duplicate or overlapping specified keys, if the prerequisites for optimizations are met. This means that this change is occasionally incompatible: Syntax errors are now produced in those WHERE conditions in which a key column is checked using both a comparison for equality with one value and using IS INITIAL.
+-   Except in comparisons for equality, optimizations are now also performed for the [predicate expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [IS INITIAL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_initial.htm). This enables a simple check to be made on the initial value, in particular for columns typed as [reference variables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreference_variable_glosry.htm "Glossary Entry"). A static WHERE condition cannot contain any duplicate or overlapping specified keys, if the prerequisites for optimizations are met. This means that this change is occasionally incompatible: Syntax errors are now produced in those WHERE conditions in which a key column is checked using both a comparison for equality with one value and using IS INITIAL.
 -   Syntax warnings are no longer produced by mistake for non-optimizable type combinations in comparisons, even if the comparison does not contain any key columns. Non-optimizable type combinations now produce syntax warnings only if they actually modify key fields of a hash key or of the initial part of a sorted key. The syntax warnings have been improved so that the non-optimizable combination is mentioned in the text.
 -   The following type combinations were not previously detected as non-optimizable when secondary keys were used in comparisons:
     
@@ -72,4 +72,4 @@ Modification 7  
 
 Expression for Dynamic Sorts
 
-In the statement [SORT itab](javascript:call_link\('abapsort_itab.htm'\)), the table (otab) can now be specified for dynamic sorts as the result of an expression or functional method call.
+In the statement [SORT itab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsort_itab.htm), the table (otab) can now be specified for dynamic sorts as the result of an expression or functional method call.

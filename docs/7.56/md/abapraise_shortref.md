@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  R
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  R
 
 RAISE - Short Reference
 
-[Reference](javascript:call_link\('abapraise_exception.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapraise_exception.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ RAISE exception.
 
 Effect
 
-Raises a non-[class-based exception](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry") in a [function module](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") or in a method.
+Raises a non-[class-based exception](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_based_exception_glosry.htm "Glossary Entry") in a [function module](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunction_module_glosry.htm "Glossary Entry") or in a method.

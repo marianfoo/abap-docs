@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Time Stamps](javascript:call_link\('abentime_stamps.htm'\)) →  [Time Stamp Fields with Time Stamp Type](javascript:call_link\('abenutclong.htm'\)) →  [System Class for Time Stamp Fields](javascript:call_link\('abentimestamp_system_class.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendate_time_processing.htm) →  [Time Stamps](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_stamps.htm) →  [Time Stamp Fields with Time Stamp Type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenutclong.htm) →  [System Class for Time Stamp Fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentimestamp_system_class.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Read Time Stamp from String, ABENCL_UTCLONG_READ_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0
 D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -82,6 +82,6 @@ START-OF-SELECTION.
 
 Description   
 
-On a selection screen, a time stamp is specified in a string whose content can be modified in any way. A [date format](javascript:call_link\('abendate_formats.htm'\)) and a [time format](javascript:call_link\('abentime_formats.htm'\)) can be selected as well.
+On a selection screen, a time stamp is specified in a string whose content can be modified in any way. A [date format](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendate_formats.htm) and a [time format](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_formats.htm) can be selected as well.
 
 When Execute is chosen, the method READ of the system class CL\_ABAP\_UTCLONG is used to read the string as a time stamp. If the read raises an exception, this is shown using a message.

@@ -4,11 +4,11 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_glossary.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: subclass, ABENSUBCLASS_GLOSRY, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestio
 n for improvement:)
 
 subclass
 
-[Class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry") that is derived by [inheritance](javascript:call_link\('abeninheritance_glosry.htm'\) "Glossary Entry") from a [superclass](javascript:call_link\('abensuperclass_glosry.htm'\) "Glossary Entry").
+[Class](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_glosry.htm "Glossary Entry") that is derived by [inheritance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninheritance_glosry.htm "Glossary Entry") from a [superclass](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensuperclass_glosry.htm "Glossary Entry").

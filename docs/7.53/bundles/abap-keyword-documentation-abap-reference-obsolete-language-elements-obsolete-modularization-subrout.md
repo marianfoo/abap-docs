@@ -3,31 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenabap_subroutines.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_subroutines.htm)
-- [abapform.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm)
-- [abapform_parameters.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm)
-- [abapform_structure.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_structure.htm)
-- [abapform_tables.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm)
-- [abapendform.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendform.htm)
-- [abapform_definition.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_definition.htm)
-
-**Bundle Contains**: 7 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.195Z
-
----
-
 ### abenabap_subroutines.htm
-
-> **📖 Official SAP Documentation**: [abenabap_subroutines.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_subroutines.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,11 +11,11 @@ Included pages: 8
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_modularization.htm) → 
 
 Subroutines
 
-Before the introduction of ABAP Objects, subroutines were mainly used for the local modularization of programs, however, they can also be called externally. Their functions are implemented between the statements [FORM](javascript:call_link\('abapform.htm'\)) and [ENDFORM](javascript:call_link\('abapendform.htm'\)). A subroutine is declared immediately when implemented.
+Before the introduction of ABAP Objects, subroutines were mainly used for the local modularization of programs, however, they can also be called externally. Their functions are implemented between the statements [FORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm) and [ENDFORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendform.htm). A subroutine is declared immediately when implemented.
 
 Subroutines should no longer be created in new programs for the following reasons:
 
@@ -55,28 +31,21 @@ Subroutines should no longer be created in new programs for the following reason
 
 -   Every subroutine belongs implicitly to the public interface of its program, which is generally not wanted.
 
--   Calling subroutines externally is critical with respect to the assignment of the container program to a [program group](javascript:call_link\('abenprogram_group_glosry.htm'\) "Glossary Entry") in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"). This assignment cannot generally be defined statically.
+-   Calling subroutines externally is critical with respect to the assignment of the container program to a [program group](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_group_glosry.htm "Glossary Entry") in the [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry"). This assignment cannot generally be defined statically.
 
-In those places where subroutines cannot yet be replaced by methods ([PERFORM ON COMMIT*|*ROLLBACK](javascript:call_link\('abapperform_subr.htm'\)), [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_subroutine_pool.htm'\))), they should be used purely as wrappers for method calls and must not contain any other functional code.
+In those places where subroutines cannot yet be replaced by methods ([PERFORM ON COMMIT*|*ROLLBACK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapperform_subr.htm), [GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subroutine_pool.htm)), they should be used purely as wrappers for method calls and must not contain any other functional code.
 
 Note
 
-The syntax allows the definition of a subroutine to be split between a declaration part and an implementation part using the statements [FORM ... DEFINITION](javascript:call_link\('abapform_definition.htm'\)) and [FORM ... IMPLEMENTATION](javascript:call_link\('abapform_definition.htm'\)), but this is not supported by all tools and should be avoided.
+The syntax allows the definition of a subroutine to be split between a declaration part and an implementation part using the statements [FORM ... DEFINITION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_definition.htm) and [FORM ... IMPLEMENTATION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_definition.htm), but this is not supported by all tools and should be avoided.
 
 Continue
-[FORM](javascript:call_link\('abapform.htm'\))
-[ENDFORM](javascript:call_link\('abapendform.htm'\))
-[FORM - DEFINITION, IMPLEMENTATION](javascript:call_link\('abapform_definition.htm'\))
+[FORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm)
+[ENDFORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendform.htm)
+[FORM - DEFINITION, IMPLEMENTATION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_definition.htm)
 
-
-
-**📖 Source**: [abenabap_subroutines.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_subroutines.htm)
 
 ### abapform.htm
-
-> **📖 Official SAP Documentation**: [abapform.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -84,17 +53,17 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Subroutines](javascript:call_link\('abenabap_subroutines.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_modularization.htm) →  [Subroutines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_subroutines.htm) → 
 
 FORM
 
-[Quick Reference](javascript:call_link\('abapform_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm)
 
 Obsolete Syntax
 
-FORM subr *\[*TABLES [table\_parameters](javascript:call_link\('abapform_tables.htm'\))*\]*
-          *\[*USING [parameters](javascript:call_link\('abapform_parameters.htm'\))*\]*
-          *\[*CHANGING [parameters](javascript:call_link\('abapform_parameters.htm'\))*\]*
+FORM subr *\[*TABLES [table\_parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm)*\]*
+          *\[*USING [parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm)*\]*
+          *\[*CHANGING [parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm)*\]*
           *\[*RAISING exc1*|*RESUMABLE(exc1) exc2*|*RESUMABLE(exc2) ...*\]*.
   ...
 ENDFORM.
@@ -108,11 +77,11 @@ Extras:
 
 Effect
 
-The statement FORM defines a [subroutine](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry") subr and its interface. [Naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) apply to the subr name. The functions of the subroutine subr are implemented between the statements FORM and ENDFORM. The additions define the formal parameters of the subroutine and declare the propagation of the [class-based exceptions](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry") to the caller.
+The statement FORM defines a [subroutine](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubroutine_glosry.htm "Glossary Entry") subr and its interface. [Naming conventions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_conventions.htm) apply to the subr name. The functions of the subroutine subr are implemented between the statements FORM and ENDFORM. The additions define the formal parameters of the subroutine and declare the propagation of the [class-based exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_based_exception_glosry.htm "Glossary Entry") to the caller.
 
-Local data types and data objects can be declared within the subroutine. Furthermore, the formal parameters of the subroutine and the global data types and data objects of the [master program](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") can be accessed.
+Local data types and data objects can be declared within the subroutine. Furthermore, the formal parameters of the subroutine and the global data types and data objects of the [master program](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenframe_program_glosry.htm "Glossary Entry") can be accessed.
 
-Subroutines are called using the statement [PERFORM](javascript:call_link\('abapperform.htm'\)).
+Subroutines are called using the statement [PERFORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapperform.htm).
 
 Note
 
@@ -124,9 +93,9 @@ Addition 1
 
 Effect
 
-TABLES is used to declare table parameters [table\_parameters](javascript:call_link\('abapform_tables.htm'\)). Table parameters are obsolete formal parameters that are typed as internal [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with [header lines](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"). The addition TABLES can be specified only before USING or CHANGING.
+TABLES is used to declare table parameters [table\_parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm). Table parameters are obsolete formal parameters that are typed as internal [standard tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_table_glosry.htm "Glossary Entry") with [header lines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenheader_line_glosry.htm "Glossary Entry"). The addition TABLES can be specified only before USING or CHANGING.
 
-If an internal table without header line or a [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry") is passed as an actual parameter to this type of formal parameter, an empty local header line is generated in the subroutine. If an internal table with header line is used as the actual parameter, both the table body and the header line are passed to the subroutine. Pass by value is not possible in formal parameters defined using TABLES.
+If an internal table without header line or a [table body](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_body_glosry.htm "Glossary Entry") is passed as an actual parameter to this type of formal parameter, an empty local header line is generated in the subroutine. If an internal table with header line is used as the actual parameter, both the table body and the header line are passed to the subroutine. Pass by value is not possible in formal parameters defined using TABLES.
 
 Notes
 
@@ -145,9 +114,9 @@ Addition 3
 
 Effect
 
-These additions define formal parameters [parameters](javascript:call_link\('abapform_parameters.htm'\)). Formal parameters can be used in the subroutine as data objects in all operand positions that match their [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") and their modifiability defined by USING or CHANGING.
+These additions define formal parameters [parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm). Formal parameters can be used in the subroutine as data objects in all operand positions that match their [typing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_glosry.htm "Glossary Entry") and their modifiability defined by USING or CHANGING.
 
-When the formal parameters [parameter](javascript:call_link\('abapform_parameters.htm'\)) are defined, either pass by reference or pass by value can be defined. The effect of this definition for formal parameters defined with USING and CHANGING is as follows:
+When the formal parameters [parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm) are defined, either pass by reference or pass by value can be defined. The effect of this definition for formal parameters defined with USING and CHANGING is as follows:
 
 -   Pass by reference for USING parameters
     The formal parameters p1 p2 ... are handled exactly like those parameters defined for pass by reference using CHANGING.
@@ -159,7 +128,7 @@ When the formal parameters [parameter](javascript:call_link\('abapform_parameter
     For each formal parameter p1 p2 ..., a local data object with the same data type as the corresponding actual parameter is created in the subroutine and filled with its values. A change to the formal parameter in the subroutine does not change the value of the actual parameter. The actual parameter also retains its original value even after the subroutine has ended.
     
 -   Pass by value for CHANGING parameters
-    For each formal parameter p1 p2 ..., a local data object with the same data type as the corresponding actual parameter is created in the subroutine and filled with its values. A change to the formal parameter in the subroutine does not directly change the value of the actual parameter. If the subroutine is ended using ENDFORM, RETURN, CHECK, or EXIT however, the content of the formal parameter is assigned to the actual parameter. If the subroutine is ended by a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") or an exception, the actual parameter remains unchanged.
+    For each formal parameter p1 p2 ..., a local data object with the same data type as the corresponding actual parameter is created in the subroutine and filled with its values. A change to the formal parameter in the subroutine does not directly change the value of the actual parameter. If the subroutine is ended using ENDFORM, RETURN, CHECK, or EXIT however, the content of the formal parameter is assigned to the actual parameter. If the subroutine is ended by a [message](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry") or an exception, the actual parameter remains unchanged.
     
 
 Notes
@@ -186,13 +155,13 @@ Addition 4
 
 Effect
 
-The addition RAISING can be used to pass class-based exceptions exc1 exc2 ..., which are triggered in or propagated to the subroutine by the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry") or using the statement RAISE EXCEPTION or the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)), but are not handled in a [TRY](javascript:call_link\('abaptry.htm'\)) block. Subclasses of CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK can be declared explicitly. Subclasses of CX\_NO\_CHECK are always declared implicitly with the addition RESUMABLE.
+The addition RAISING can be used to pass class-based exceptions exc1 exc2 ..., which are triggered in or propagated to the subroutine by the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry") or using the statement RAISE EXCEPTION or the addition [THROW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconditional_expressions.htm), but are not handled in a [TRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptry.htm) block. Subclasses of CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK can be declared explicitly. Subclasses of CX\_NO\_CHECK are always declared implicitly with the addition RESUMABLE.
 
 For exc1 exc2 ..., all exception classes that are visible at this point that are subclasses of CX\_STATIC\_CHECK CX\_DYNAMIC\_CHECK can be specified here. The exception classes must be specified in ascending order with respect to their inheritance hierarchy. Each exception class may only be specified once.
 
 If an exception for this superclass is raised that cannot be handled and cannot be passed on, this produces either a syntax error or an exception that must be handled by the caller CX\_SY\_NO\_HANDLER.
 
-The addition RESUMABLE declares an exception that can be propagated as a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry"). This means:
+The addition RESUMABLE declares an exception that can be propagated as a [resumable exception](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenresumable_exception_glosry.htm "Glossary Entry"). This means:
 
 -   A resumable exception is therefore propagated as such
     
@@ -207,27 +176,20 @@ Notes
 
 -   Exceptions that are based on the subclasses of CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK must be handled either in the subroutine or declared explicitly using the RAISING addition. For CX\_STATIC\_CHECK, this is checked during the syntax check; for CX\_DYNAMIC\_CHECK, the check is not performed until runtime.
     
--   In a subroutine, in which class-based exceptions are declared using the addition RAISING, the obsolete statement [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)) cannot be used to handle [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"). Instead, the handleable exceptions assigned to the runtime errors should be handled in a [TRY](javascript:call_link\('abaptry.htm'\)) control structure.
+-   In a subroutine, in which class-based exceptions are declared using the addition RAISING, the obsolete statement [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_sys.htm) cannot be used to handle [catchable runtime errors](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"). Instead, the handleable exceptions assigned to the runtime errors should be handled in a [TRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptry.htm) control structure.
     
--   An exception that is raised as a resumable exception in the subroutine using [RAISE RESUMABLE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) should also be declared as resumable in the interface, since the exception would otherwise lose this property when the method is exited.
+-   An exception that is raised as a resumable exception in the subroutine using [RAISE RESUMABLE EXCEPTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_exception_class.htm) should also be declared as resumable in the interface, since the exception would otherwise lose this property when the method is exited.
     
--   See also [Class-Based Exceptions in Procedures](javascript:call_link\('abenexceptions_procedures.htm'\)).
+-   See also [Class-Based Exceptions in Procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexceptions_procedures.htm).
     
 
 Continue
-[FORM - parameters](javascript:call_link\('abapform_parameters.htm'\))
-[FORM - STRUCTURE](javascript:call_link\('abapform_structure.htm'\))
-[FORM - table\_parameters](javascript:call_link\('abapform_tables.htm'\))
+[FORM - parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm)
+[FORM - STRUCTURE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_structure.htm)
+[FORM - table\_parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm)
 
-
-
-**📖 Source**: [abapform.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm)
 
 ### abapform_parameters.htm
-
-> **📖 Official SAP Documentation**: [abapform_parameters.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -235,41 +197,34 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Subroutines](javascript:call_link\('abenabap_subroutines.htm'\)) →  [FORM](javascript:call_link\('abapform.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_modularization.htm) →  [Subroutines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_subroutines.htm) →  [FORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm) → 
 
 FORM - parameters
 
-[Quick Reference](javascript:call_link\('abapform_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm)
 
 Obsolete Syntax
 
-... *{* VALUE(p1) *|* p1 *}* *\[* [typing](javascript:call_link\('abentyping_syntax.htm'\))*|*[structure](javascript:call_link\('abapform_structure.htm'\))*\]*
-    *{* VALUE(p2) *|* p2 *}* *\[* [typing](javascript:call_link\('abentyping_syntax.htm'\))*|*[structure](javascript:call_link\('abapform_structure.htm'\))*\]*
+... *{* VALUE(p1) *|* p1 *}* *\[* [typing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_syntax.htm)*|*[structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_structure.htm)*\]*
+    *{* VALUE(p2) *|* p2 *}* *\[* [typing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_syntax.htm)*|*[structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_structure.htm)*\]*
     ...
 
 Effect
 
 Defines the formal parameters p1 p2 ... for subroutines.
 
-The addition typing types a formal parameter p1 p2 .... The syntax of typing is described in [Typing](javascript:call_link\('abentyping_syntax.htm'\)). The typing of a formal parameter causes the data type to be [checked](javascript:call_link\('abentyping_check.htm'\)) against the typing when an actual parameter is passed. In addition, the typing specifies at which operand positions the formal parameter can be used in the subroutine. If no explicit typing is specified, a formal parameter is typed with the fully generic type any.
+The addition typing types a formal parameter p1 p2 .... The syntax of typing is described in [Typing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_syntax.htm). The typing of a formal parameter causes the data type to be [checked](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_check.htm) against the typing when an actual parameter is passed. In addition, the typing specifies at which operand positions the formal parameter can be used in the subroutine. If no explicit typing is specified, a formal parameter is typed with the fully generic type any.
 
-VALUE can be used to specify how [values are passed](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry") for a formal parameter p1 p2 .... If VALUE is not specified, values are [passed by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry").
+VALUE can be used to specify how [values are passed](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpass_by_value_glosry.htm "Glossary Entry") for a formal parameter p1 p2 .... If VALUE is not specified, values are [passed by reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpass_by_reference_glosry.htm "Glossary Entry").
 
-The addition [structure](javascript:call_link\('abapform_structure.htm'\)) can also be used to implement an obsolete form of typing.
+The addition [structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_structure.htm) can also be used to implement an obsolete form of typing.
 
 Note
 
 Without an explicit typing, a formal parameter is typed implicitly with the fully generic type any.
 
 
-
-**📖 Source**: [abapform_parameters.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm)
-
 ### abapform_structure.htm
-
-> **📖 Official SAP Documentation**: [abapform_structure.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_structure.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -277,11 +232,11 @@ Without an explicit typing, a formal parameter is typed implicitly with the full
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Subroutines](javascript:call_link\('abenabap_subroutines.htm'\)) →  [FORM](javascript:call_link\('abapform.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_modularization.htm) →  [Subroutines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_subroutines.htm) →  [FORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm) → 
 
 FORM - STRUCTURE
 
-[Quick Reference](javascript:call_link\('abapform_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm)
 
 Obsolete Syntax
 
@@ -289,18 +244,18 @@ Obsolete Syntax
 
 Effect
 
-A formal parameter p1 p2 ... of a subroutine can be specified with the addition STRUCTURE instead of [typing](javascript:call_link\('abentyping_syntax.htm'\)), where struc must be a program-local structure (data object, no data type) or a [flat structure](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry") from ABAP Dictionary. This structure is then applied to the formal parameter ([casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry")) and individual components can be accessed in the subroutine.
+A formal parameter p1 p2 ... of a subroutine can be specified with the addition STRUCTURE instead of [typing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_syntax.htm), where struc must be a program-local structure (data object, no data type) or a [flat structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_structure_glosry.htm "Glossary Entry") from ABAP Dictionary. This structure is then applied to the formal parameter ([casting](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencast_casting_glosry.htm "Glossary Entry")) and individual components can be accessed in the subroutine.
 
 When an actual parameter is passed to a formal parameter typed using STRUCTURE, the actual parameter must be at least as long as the formal parameter:
 
--   In the case of a structured actual parameter, its [fragment view](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry") must match the fragment view of the corresponding initial part of struc.
+-   In the case of a structured actual parameter, its [fragment view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry") must match the fragment view of the corresponding initial part of struc.
     
 -   An elementary actual parameter must be character-like and flat and the corresponding initial part of struc can contain only components of this type.
     
 
 Note
 
-Formal parameters typed with STRUCTURE can usually be replaced by formal parameters typed with TYPE or LIKE. If a casting is necessary, generic formal parameters should be used and assigned to field symbols using the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)) and the addition CASTING.
+Formal parameters typed with STRUCTURE can usually be replaced by formal parameters typed with TYPE or LIKE. If a casting is necessary, generic formal parameters should be used and assigned to field symbols using the statement [ASSIGN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign.htm) and the addition CASTING.
 
 Example
 
@@ -317,14 +272,7 @@ FORM demo USING p STRUCTURE line.
 ENDFORM.
 
 
-
-**📖 Source**: [abapform_structure.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_structure.htm)
-
 ### abapform_tables.htm
-
-> **📖 Official SAP Documentation**: [abapform_tables.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -332,11 +280,11 @@ ENDFORM.
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Subroutines](javascript:call_link\('abenabap_subroutines.htm'\)) →  [FORM](javascript:call_link\('abapform.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_modularization.htm) →  [Subroutines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_subroutines.htm) →  [FORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm) → 
 
 FORM - table\_parameters
 
-[Quick Reference](javascript:call_link\('abapform_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm)
 
 Obsolete Syntax
 
@@ -346,27 +294,20 @@ Obsolete Syntax
 
 Effect
 
-Defines [table parameters](javascript:call_link\('abentable_parameter_glosry.htm'\) "Glossary Entry") t1 t2 ... for subroutines
+Defines [table parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_parameter_glosry.htm "Glossary Entry") t1 t2 ... for subroutines
 
-A table type table\_type or an internal table itab from the table category [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") can be specified after the additions TYPE and LIKE.
+A table type table\_type or an internal table itab from the table category [standard table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_table_glosry.htm "Glossary Entry") can be specified after the additions TYPE and LIKE.
 
-The additions TYPE and LIKE type the row type of the formal parameter with the row type of the specified internal table. The other obsolete addition, [STRUCTURE](javascript:call_link\('abapform_parameters.htm'\)), stamps the row type with the [flat structure](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry") struc.
+The additions TYPE and LIKE type the row type of the formal parameter with the row type of the specified internal table. The other obsolete addition, [STRUCTURE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm), stamps the row type with the [flat structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_structure_glosry.htm "Glossary Entry") struc.
 
-When TABLES parameters are accessed that are not bound to any type-friendly actual parameters, the same [exception situation](javascript:call_link\('abentables_parameters_restrictions.htm'\)) can arise as in function modules.
+When TABLES parameters are accessed that are not bound to any type-friendly actual parameters, the same [exception situation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentables_parameters_restrictions.htm) can arise as in function modules.
 
 Note
 
-The definition of table parameters is obsolete and can be replaced by general [formal parameters](javascript:call_link\('abapform_parameters.htm'\)) defined using USING and CHANGING.
+The definition of table parameters is obsolete and can be replaced by general [formal parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm) defined using USING and CHANGING.
 
-
-
-**📖 Source**: [abapform_tables.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm)
 
 ### abapform.htm
-
-> **📖 Official SAP Documentation**: [abapform.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -374,17 +315,17 @@ The definition of table parameters is obsolete and can be replaced by general [f
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Subroutines](javascript:call_link\('abenabap_subroutines.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_modularization.htm) →  [Subroutines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_subroutines.htm) → 
 
 FORM
 
-[Quick Reference](javascript:call_link\('abapform_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm)
 
 Obsolete Syntax
 
-FORM subr *\[*TABLES [table\_parameters](javascript:call_link\('abapform_tables.htm'\))*\]*
-          *\[*USING [parameters](javascript:call_link\('abapform_parameters.htm'\))*\]*
-          *\[*CHANGING [parameters](javascript:call_link\('abapform_parameters.htm'\))*\]*
+FORM subr *\[*TABLES [table\_parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm)*\]*
+          *\[*USING [parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm)*\]*
+          *\[*CHANGING [parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm)*\]*
           *\[*RAISING exc1*|*RESUMABLE(exc1) exc2*|*RESUMABLE(exc2) ...*\]*.
   ...
 ENDFORM.
@@ -398,11 +339,11 @@ Extras:
 
 Effect
 
-The statement FORM defines a [subroutine](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry") subr and its interface. [Naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) apply to the subr name. The functions of the subroutine subr are implemented between the statements FORM and ENDFORM. The additions define the formal parameters of the subroutine and declare the propagation of the [class-based exceptions](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry") to the caller.
+The statement FORM defines a [subroutine](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubroutine_glosry.htm "Glossary Entry") subr and its interface. [Naming conventions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_conventions.htm) apply to the subr name. The functions of the subroutine subr are implemented between the statements FORM and ENDFORM. The additions define the formal parameters of the subroutine and declare the propagation of the [class-based exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_based_exception_glosry.htm "Glossary Entry") to the caller.
 
-Local data types and data objects can be declared within the subroutine. Furthermore, the formal parameters of the subroutine and the global data types and data objects of the [master program](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") can be accessed.
+Local data types and data objects can be declared within the subroutine. Furthermore, the formal parameters of the subroutine and the global data types and data objects of the [master program](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenframe_program_glosry.htm "Glossary Entry") can be accessed.
 
-Subroutines are called using the statement [PERFORM](javascript:call_link\('abapperform.htm'\)).
+Subroutines are called using the statement [PERFORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapperform.htm).
 
 Note
 
@@ -414,9 +355,9 @@ Addition 1
 
 Effect
 
-TABLES is used to declare table parameters [table\_parameters](javascript:call_link\('abapform_tables.htm'\)). Table parameters are obsolete formal parameters that are typed as internal [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with [header lines](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"). The addition TABLES can be specified only before USING or CHANGING.
+TABLES is used to declare table parameters [table\_parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm). Table parameters are obsolete formal parameters that are typed as internal [standard tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_table_glosry.htm "Glossary Entry") with [header lines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenheader_line_glosry.htm "Glossary Entry"). The addition TABLES can be specified only before USING or CHANGING.
 
-If an internal table without header line or a [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry") is passed as an actual parameter to this type of formal parameter, an empty local header line is generated in the subroutine. If an internal table with header line is used as the actual parameter, both the table body and the header line are passed to the subroutine. Pass by value is not possible in formal parameters defined using TABLES.
+If an internal table without header line or a [table body](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_body_glosry.htm "Glossary Entry") is passed as an actual parameter to this type of formal parameter, an empty local header line is generated in the subroutine. If an internal table with header line is used as the actual parameter, both the table body and the header line are passed to the subroutine. Pass by value is not possible in formal parameters defined using TABLES.
 
 Notes
 
@@ -435,9 +376,9 @@ Addition 3
 
 Effect
 
-These additions define formal parameters [parameters](javascript:call_link\('abapform_parameters.htm'\)). Formal parameters can be used in the subroutine as data objects in all operand positions that match their [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") and their modifiability defined by USING or CHANGING.
+These additions define formal parameters [parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm). Formal parameters can be used in the subroutine as data objects in all operand positions that match their [typing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_glosry.htm "Glossary Entry") and their modifiability defined by USING or CHANGING.
 
-When the formal parameters [parameter](javascript:call_link\('abapform_parameters.htm'\)) are defined, either pass by reference or pass by value can be defined. The effect of this definition for formal parameters defined with USING and CHANGING is as follows:
+When the formal parameters [parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm) are defined, either pass by reference or pass by value can be defined. The effect of this definition for formal parameters defined with USING and CHANGING is as follows:
 
 -   Pass by reference for USING parameters
     The formal parameters p1 p2 ... are handled exactly like those parameters defined for pass by reference using CHANGING.
@@ -449,7 +390,7 @@ When the formal parameters [parameter](javascript:call_link\('abapform_parameter
     For each formal parameter p1 p2 ..., a local data object with the same data type as the corresponding actual parameter is created in the subroutine and filled with its values. A change to the formal parameter in the subroutine does not change the value of the actual parameter. The actual parameter also retains its original value even after the subroutine has ended.
     
 -   Pass by value for CHANGING parameters
-    For each formal parameter p1 p2 ..., a local data object with the same data type as the corresponding actual parameter is created in the subroutine and filled with its values. A change to the formal parameter in the subroutine does not directly change the value of the actual parameter. If the subroutine is ended using ENDFORM, RETURN, CHECK, or EXIT however, the content of the formal parameter is assigned to the actual parameter. If the subroutine is ended by a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") or an exception, the actual parameter remains unchanged.
+    For each formal parameter p1 p2 ..., a local data object with the same data type as the corresponding actual parameter is created in the subroutine and filled with its values. A change to the formal parameter in the subroutine does not directly change the value of the actual parameter. If the subroutine is ended using ENDFORM, RETURN, CHECK, or EXIT however, the content of the formal parameter is assigned to the actual parameter. If the subroutine is ended by a [message](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_glosry.htm "Glossary Entry") or an exception, the actual parameter remains unchanged.
     
 
 Notes
@@ -476,13 +417,13 @@ Addition 4
 
 Effect
 
-The addition RAISING can be used to pass class-based exceptions exc1 exc2 ..., which are triggered in or propagated to the subroutine by the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry") or using the statement RAISE EXCEPTION or the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)), but are not handled in a [TRY](javascript:call_link\('abaptry.htm'\)) block. Subclasses of CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK can be declared explicitly. Subclasses of CX\_NO\_CHECK are always declared implicitly with the addition RESUMABLE.
+The addition RAISING can be used to pass class-based exceptions exc1 exc2 ..., which are triggered in or propagated to the subroutine by the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry") or using the statement RAISE EXCEPTION or the addition [THROW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconditional_expressions.htm), but are not handled in a [TRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptry.htm) block. Subclasses of CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK can be declared explicitly. Subclasses of CX\_NO\_CHECK are always declared implicitly with the addition RESUMABLE.
 
 For exc1 exc2 ..., all exception classes that are visible at this point that are subclasses of CX\_STATIC\_CHECK CX\_DYNAMIC\_CHECK can be specified here. The exception classes must be specified in ascending order with respect to their inheritance hierarchy. Each exception class may only be specified once.
 
 If an exception for this superclass is raised that cannot be handled and cannot be passed on, this produces either a syntax error or an exception that must be handled by the caller CX\_SY\_NO\_HANDLER.
 
-The addition RESUMABLE declares an exception that can be propagated as a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry"). This means:
+The addition RESUMABLE declares an exception that can be propagated as a [resumable exception](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenresumable_exception_glosry.htm "Glossary Entry"). This means:
 
 -   A resumable exception is therefore propagated as such
     
@@ -497,27 +438,20 @@ Notes
 
 -   Exceptions that are based on the subclasses of CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK must be handled either in the subroutine or declared explicitly using the RAISING addition. For CX\_STATIC\_CHECK, this is checked during the syntax check; for CX\_DYNAMIC\_CHECK, the check is not performed until runtime.
     
--   In a subroutine, in which class-based exceptions are declared using the addition RAISING, the obsolete statement [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)) cannot be used to handle [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"). Instead, the handleable exceptions assigned to the runtime errors should be handled in a [TRY](javascript:call_link\('abaptry.htm'\)) control structure.
+-   In a subroutine, in which class-based exceptions are declared using the addition RAISING, the obsolete statement [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcatch_sys.htm) cannot be used to handle [catchable runtime errors](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"). Instead, the handleable exceptions assigned to the runtime errors should be handled in a [TRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptry.htm) control structure.
     
--   An exception that is raised as a resumable exception in the subroutine using [RAISE RESUMABLE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) should also be declared as resumable in the interface, since the exception would otherwise lose this property when the method is exited.
+-   An exception that is raised as a resumable exception in the subroutine using [RAISE RESUMABLE EXCEPTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapraise_exception_class.htm) should also be declared as resumable in the interface, since the exception would otherwise lose this property when the method is exited.
     
--   See also [Class-Based Exceptions in Procedures](javascript:call_link\('abenexceptions_procedures.htm'\)).
+-   See also [Class-Based Exceptions in Procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexceptions_procedures.htm).
     
 
 Continue
-[FORM - parameters](javascript:call_link\('abapform_parameters.htm'\))
-[FORM - STRUCTURE](javascript:call_link\('abapform_structure.htm'\))
-[FORM - table\_parameters](javascript:call_link\('abapform_tables.htm'\))
+[FORM - parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm)
+[FORM - STRUCTURE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_structure.htm)
+[FORM - table\_parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm)
 
-
-
-**📖 Source**: [abapform.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm)
 
 ### abapendform.htm
-
-> **📖 Official SAP Documentation**: [abapendform.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendform.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -525,11 +459,11 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Subroutines](javascript:call_link\('abenabap_subroutines.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_modularization.htm) →  [Subroutines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_subroutines.htm) → 
 
 ENDFORM
 
-[Quick Reference](javascript:call_link\('abapform_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_shortref.htm)
 
 Obsolete Syntax
 
@@ -537,20 +471,10 @@ ENDFORM.
 
 Effect
 
-The statement ENDFORM closes a subroutine definition introduced using [FORM](javascript:call_link\('abapform.htm'\)).
+The statement ENDFORM closes a subroutine definition introduced using [FORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm).
 
-
-
-**📖 Source**: [abapendform.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendform.htm)
 
 ### abapform_definition.htm
-
-> **📖 Official SAP Documentation**: [abapform_definition.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_definition.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapform_definition.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_definition.htm)
-
 
   
 
@@ -558,18 +482,18 @@ The statement ENDFORM closes a subroutine definition introduced using [FORM](jav
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Subroutines](javascript:call_link\('abenabap_subroutines.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_modularization.htm) →  [Subroutines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_subroutines.htm) → 
 
 FORM - DEFINITION, IMPLEMENTATION
 
-[Quick Reference](javascript:call_link\('abapform_definition_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_definition_shortref.htm)
 
 Obsolete Syntax
 
 FORM subr DEFINITION
-          *\[*TABLES [table\_parameters](javascript:call_link\('abapform_tables.htm'\))*\]*
-          *\[*USING [parameters](javascript:call_link\('abapform_parameters.htm'\))*\]*
-          *\[*CHANGING [parameters](javascript:call_link\('abapform_parameters.htm'\))*\]*
+          *\[*TABLES [table\_parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_tables.htm)*\]*
+          *\[*USING [parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm)*\]*
+          *\[*CHANGING [parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform_parameters.htm)*\]*
           *\[*RAISING exc1*|*RESUMABLE(exc1) exc2*|*RESUMABLE(exc2) ...*\]*.
 FORM subr IMPLEMENTATION.
   ...
@@ -577,9 +501,9 @@ ENDFORM.
 
 Effect
 
-In this variant of the statement [FORM](javascript:call_link\('abapform.htm'\)) the definition of a subroutine subr is shared between a declaration part and an implementation part:
+In this variant of the statement [FORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm) the definition of a subroutine subr is shared between a declaration part and an implementation part:
 
--   The statement FORM subr DEFINITION declares the subroutine and its parameter interface. The meaning of the additions is the same as in [FORM](javascript:call_link\('abapform.htm'\)). A subroutine declaration of this type is part of the [global declaration part](javascript:call_link\('abenglobal_declaration_sect_glosry.htm'\) "Glossary Entry") of a program.
+-   The statement FORM subr DEFINITION declares the subroutine and its parameter interface. The meaning of the additions is the same as in [FORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm). A subroutine declaration of this type is part of the [global declaration part](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenglobal_declaration_sect_glosry.htm "Glossary Entry") of a program.
     
 -   The subroutine is implemented between the statements FORM subr IMPLEMENTATION and ENDFORM. These statements define a processing block in the implementation part of the program.
     

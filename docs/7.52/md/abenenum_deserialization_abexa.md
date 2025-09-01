@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Enumerated Objects](javascript:call_link\('abenenumerated_types_usage.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Enumerated Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_types_usage.htm) → 
 
 Enumerated Objects, Deserialization
 
-This example demonstrates how a dynamically created XML file is deserialized to an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry").
+This example demonstrates how a dynamically created XML file is deserialized to an [enumerated object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_object_glosry.htm "Glossary Entry").
 
 Source Code
 

@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ABAP Database Connectivity (ADBC)](javascript:call_link\('abenadbc.htm'\)) →  [ADBC - Examples](javascript:call_link\('abenadbc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql.htm) →  [ABAP Database Connectivity (ADBC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc.htm) →  [ADBC - Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ADBC%20-%20Stored%20Procedure%2C%20ABENADBC_PROCEDURE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ADBC - Stored Procedure
 
-The example demonstrates the execution of a [stored procedure](javascript:call_link\('abenadbc_procedure.htm'\)) using ADBC.
+The example demonstrates the execution of a [stored procedure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc_procedure.htm) using ADBC.
 
 Source Code   
 
@@ -114,8 +114,8 @@ ENDCLASS.
 
 Description   
 
-Using the method EXECUTE\_PROCEDURE of the class CL\_SQL\_STATEMENT, the [SQLScript procedure](javascript:call_link\('abensql_script_procedure_glosry.htm'\) "Glossary Entry") increase\_price defined by using the method EXECUTE\_DDL is called. This increases all the flight prices in the table SFLIGHT in the current client by the value contained in the parameter incprice.
+Using the method EXECUTE\_PROCEDURE of the class CL\_SQL\_STATEMENT, the [SQLScript procedure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_procedure_glosry.htm "Glossary Entry") increase\_price defined by using the method EXECUTE\_DDL is called. This increases all the flight prices in the table SFLIGHT in the current client by the value contained in the parameter incprice.
 
 This procedure must be implemented specially for each database. The databases in this example are the SAP HANA database, MaxDB, and Oracle. This example class can only be executed for these databases.
 
-The executable example [AMDP, simple procedure call of an SQLScript procedure](javascript:call_link\('abenamdp_abexa.htm'\)) shows how the procedure can be managed and called as an [ABAP Managed Database Procedure](javascript:call_link\('abenamdp.htm'\)). A further [executable example](javascript:call_link\('abencall_db_procedure_abexa.htm'\)), specific to SAP HANA database, shows how the procedure is called using the statement [CALL DATABASE PROCEDURE](javascript:call_link\('abapcall_database_procedure.htm'\)).
+The executable example [AMDP, simple procedure call of an SQLScript procedure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_abexa.htm) shows how the procedure can be managed and called as an [ABAP Managed Database Procedure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp.htm). A further [executable example](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_db_procedure_abexa.htm), specific to SAP HANA database, shows how the procedure is called using the statement [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_database_procedure.htm).

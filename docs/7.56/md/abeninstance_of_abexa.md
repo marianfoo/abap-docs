@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [Logical Expressions (log\_exp)](javascript:call_link\('abenlogexp.htm'\)) →  [rel\_exp - Predicates](javascript:call_link\('abenpredicate.htm'\)) →  [rel\_exp - Predicate Expressions](javascript:call_link\('abenpredicate_expressions.htm'\)) →  [rel\_exp - IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_expr_func.htm) →  [Logical Expressions (log\_exp)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp.htm) →  [rel\_exp - Predicates](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate.htm) →  [rel\_exp - Predicate Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expressions.htm) →  [rel\_exp - IS INSTANCE OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_instance_of.htm) → 
 
 rel\_exp - Predicate Expression IS INSTANCE OF
 
-This example demonstrates the predicate expression [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)).
+This example demonstrates the predicate expression [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_instance_of.htm).
 
 Source Code
 
@@ -140,8 +140,8 @@ START-OF-SELECTION.
 
 Description
 
-A class c1 contains the interface intf and is the superclass of a class c2. For reference variables of the static types object, intf, c1, and c2, this example demonstrates the behavior of the predicate expression [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) if these variables point to instances of c1 or c2 or are initial.
+A class c1 contains the interface intf and is the superclass of a class c2. For reference variables of the static types object, intf, c1, and c2, this example demonstrates the behavior of the predicate expression [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_instance_of.htm) if these variables point to instances of c1 or c2 or are initial.
 
-If the object reference variable is non-initial, the predicate expression is always true if a [down cast](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry") to the comparison type is possible. If the object reference variable is initial, the predicate expression is true only if an [up cast](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") is possible. This example checks a generically typed field symbol for which this can only be determined at runtime.
+If the object reference variable is non-initial, the predicate expression is always true if a [down cast](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendown_cast_glosry.htm "Glossary Entry") to the comparison type is possible. If the object reference variable is initial, the predicate expression is true only if an [up cast](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenup_cast_glosry.htm "Glossary Entry") is possible. This example checks a generically typed field symbol for which this can only be determined at runtime.
 
 For an initial reference variable with the static type object, the result of the expression for all comparison types except for object is false. For an initial reference variable with the static type intf, the result of the expression for all comparison types except for the interface intf is itself false.

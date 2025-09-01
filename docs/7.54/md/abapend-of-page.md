@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Event Blocks for Lists](javascript:call_link\('abenabap_lists_interactive.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_list.htm) →  [Event Blocks for Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_lists_interactive.htm) → 
 
 END-OF-PAGE
 
-[Quick Reference](javascript:call_link\('abapend-of-page_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-of-page_shortref.htm)
 
 Syntax
 
@@ -16,16 +16,16 @@ END-OF-PAGE.
 
 Effect
 
-This statement defines an event block, whose event is triggered by the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry") during the creation of a basic list at the following time:
+This statement defines an event block, whose event is triggered by the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry") during the creation of a basic list at the following time:
 
--   If lines were reserved in the addition [LINE-COUNT](javascript:call_link\('abapreport_list_options.htm'\)) of the introductory program statement for a [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") that was reached by a write operation on this page. List output made in the event block is placed in this area. Output statements that exceed the reserved area are ignored.
+-   If lines were reserved in the addition [LINE-COUNT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm) of the introductory program statement for a [page footer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpage_footer_glosry.htm "Glossary Entry") that was reached by a write operation on this page. List output made in the event block is placed in this area. Output statements that exceed the reserved area are ignored.
     
--   If no lines were reserved in the addition [LINE-COUNT](javascript:call_link\('abapreport_list_options.htm'\)) for a [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") and the end of page was reached by a write operation on this page. List outputs made in the event block have no effect.
+-   If no lines were reserved in the addition [LINE-COUNT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreport_list_options.htm) for a [page footer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpage_footer_glosry.htm "Glossary Entry") and the end of page was reached by a write operation on this page. List outputs made in the event block have no effect.
     
 
 Note
 
-The event END-OF-PAGE is inended for writing list outputs in the page footer and is triggered only when the page footer or end of page is reached. Statements such as [NEW-PAGE](javascript:call_link\('abapnew-page.htm'\)) do not trigger the event.
+The event END-OF-PAGE is inended for writing list outputs in the page footer and is triggered only when the page footer or end of page is reached. Statements such as [NEW-PAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnew-page.htm) do not trigger the event.
 
 Example
 

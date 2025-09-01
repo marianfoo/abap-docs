@@ -4,51 +4,51 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [Method Calls](javascript:call_link\('abenmethod_calls.htm'\)) →  [Static Method Calls](javascript:call_link\('abenmethod_calls_static.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_procedures.htm) →  [Method Calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_calls.htm) →  [Static Method Calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_calls_static.htm) → 
 
 meth( ... ) - Functional Method Call
 
 Syntax
 
-... *{* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( )
-    *|* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( a )
-    *|* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( p1 = a1 p2 = a2 ... )
-    *|* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( *\[*[EXPORTING p1 = a1 p2 = a2 ...](javascript:call_link\('abapcall_method_parameters.htm'\))*\]*
-            *\[* [IMPORTING p1 =a1 p2 = a2 ...](javascript:call_link\('abapcall_method_parameters.htm'\))*\]*
-            *\[*[CHANGING  p1 =a1 p2 = a2 ...](javascript:call_link\('abapcall_method_parameters.htm'\))*\]* ) *}* ...
+... *{* [meth](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_meth_ident_stat.htm)( )
+    *|* [meth](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_meth_ident_stat.htm)( a )
+    *|* [meth](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_meth_ident_stat.htm)( p1 = a1 p2 = a2 ... )
+    *|* [meth](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_meth_ident_stat.htm)( *\[*[EXPORTING p1 = a1 p2 = a2 ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm)*\]*
+            *\[* [IMPORTING p1 =a1 p2 = a2 ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm)*\]*
+            *\[*[CHANGING  p1 =a1 p2 = a2 ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm)*\]* ) *}* ...
 
 Effect
 
-Functional call of a [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)) in a suitable [reading position for functions and expressions](javascript:call_link\('abenexpression_positions.htm'\)). The return code of the method declared using [RETURNING](javascript:call_link\('abapmethods_functional.htm'\)) is used as an operand and its full typing determines the data type of the operand. The actual parameters bound to [output parameters](javascript:call_link\('abenoutput_parameter_glosry.htm'\) "Glossary Entry") and [input/output parameters](javascript:call_link\('abeninput_output_parameter_glosry.htm'\) "Glossary Entry") are handled in the same way as in [standalone method calls](javascript:call_link\('abapcall_method_static_short.htm'\)).
+Functional call of a [functional method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_method_glosry.htm "Glossary Entry") [meth](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_meth_ident_stat.htm) in a suitable [reading position for functions and expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm). The return code of the method declared using [RETURNING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods_functional.htm) is used as an operand and its full typing determines the data type of the operand. The actual parameters bound to [output parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoutput_parameter_glosry.htm "Glossary Entry") and [input/output parameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninput_output_parameter_glosry.htm "Glossary Entry") are handled in the same way as in [standalone method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static_short.htm).
 
 The semantics of the syntax used in parameter passing are the same as in standalone method calls. Functional method calls differ from standalone method calls in the following ways:
 
--   The return code in functional method calls cannot be assigned to an actual parameter explicitly using [RECEIVING](javascript:call_link\('abapcall_method_parameters.htm'\)).
+-   The return code in functional method calls cannot be assigned to an actual parameter explicitly using [RECEIVING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm).
     
--   [Inline declarations](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry") are not possible for actual parameters.
+-   [Inline declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninline_declaration_glosry.htm "Glossary Entry") are not possible for actual parameters.
     
--   Non-class-based exceptions cannot be handled using [EXCEPTIONS](javascript:call_link\('abapcall_method_parameters.htm'\)).
+-   Non-class-based exceptions cannot be handled using [EXCEPTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_parameters.htm).
     
 
-If the return code of the method has a structured data type, a functional method call can, like a structure, be specified in front of the [structure component selector](javascript:call_link\('abenstructure_component_sel_glosry.htm'\) "Glossary Entry") \- and use this to access a component of the structure.
+If the return code of the method has a structured data type, a functional method call can, like a structure, be specified in front of the [structure component selector](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_component_sel_glosry.htm "Glossary Entry") \- and use this to access a component of the structure.
 
-If the functional method has the same name as a [built-in function](javascript:call_link\('abenpredefined_function_glosry.htm'\) "Glossary Entry"), the functional method is always called.
+If the functional method has the same name as a [built-in function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredefined_function_glosry.htm "Glossary Entry"), the functional method is always called.
 
 If an exception is raised when the functional method call is used as an operand, the exception cannot always be handled, and a runtime error can occur instead (depending on the position of the operand).
 
 Notes
 
--   In functional method calls, class-based exceptions propagated from the method can be handled as usual in a [TRY](javascript:call_link\('abaptry.htm'\)) control structure or propagated further. The [non-class-based](javascript:call_link\('abenexceptions_non_class.htm'\)) exceptions of a functional method, however, always produce a runtime error.
+-   In functional method calls, class-based exceptions propagated from the method can be handled as usual in a [TRY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptry.htm) control structure or propagated further. The [non-class-based](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexceptions_non_class.htm) exceptions of a functional method, however, always produce a runtime error.
     
--   The same applies to [resumable exceptions](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry") in functional method calls as to all other methods. If processing can be resumed successfully, execution of the statement called in the method can be completed.
+-   The same applies to [resumable exceptions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenresumable_exception_glosry.htm "Glossary Entry") in functional method calls as to all other methods. If processing can be resumed successfully, execution of the statement called in the method can be completed.
     
--   [Method chaining](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry") is possible in the operand positions where functional methods can be specified.
+-   [Method chaining](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_chaining_glosry.htm "Glossary Entry") is possible in the operand positions where functional methods can be specified.
     
--   A functional method call whose first method is an instance method can be introduced using the instance operator [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) or the casting operator [CAST](javascript:call_link\('abenconstructor_expression_cast.htm'\)).
+-   A functional method call whose first method is an instance method can be introduced using the instance operator [NEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_new.htm) or the casting operator [CAST](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_cast.htm).
     
--   A single functional method call can be used as a [predicative method call](javascript:call_link\('abenpredicative_method_call_glosry.htm'\) "Glossary Entry") and as a [relational expression](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry").
+-   A single functional method call can be used as a [predicative method call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredicative_method_call_glosry.htm "Glossary Entry") and as a [relational expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrelational_expression_glosry.htm "Glossary Entry").
     
--   In functional calls of a functional method, an implicit temporary actual parameter is always assigned to the return value, This parameter is used as the operand of the current operand position. This means that the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [IS SUPPLIED](javascript:call_link\('abenlogexp_supplied.htm'\)) is always true for the return value within a functionally called method.
+-   In functional calls of a functional method, an implicit temporary actual parameter is always assigned to the return value, This parameter is used as the operand of the current operand position. This means that the [predicate expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [IS SUPPLIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_supplied.htm) is always true for the return value within a functionally called method.
     
 -   Functional method calls can be nested in any way, which means that inline declarations for actual parameters can produce confusing results. For this reason, inline declarations are not allowed.
     
@@ -57,7 +57,7 @@ Notes
 
 Example
 
-Functional call of a method. Unlike in the example for [standalone method calls](javascript:call_link\('abapcall_method_static_short.htm'\)), the return code is assigned to the result. The inline declarations made in that example, however, are not possible here.
+Functional call of a method. Unlike in the example for [standalone method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static_short.htm), the return code is assigned to the result. The inline declarations made in that example, however, are not possible here.
 
 CLASS c1 DEFINITION.
   PUBLIC SECTION.
@@ -83,7 +83,7 @@ START-OF-SELECTION.
 
 Example
 
-The [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") factorial in this example has the return code fact of type int8, used on the right side of an assignment in an expression.
+The [functional method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_method_glosry.htm "Glossary Entry") factorial in this example has the return code fact of type int8, used on the right side of an assignment in an expression.
 
 CLASS math DEFINITION.
   PUBLIC SECTION.
@@ -105,7 +105,7 @@ START-OF-SELECTION.
 
 Example
 
-The [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") get in this example has a structured return code whose component carrname is accessed.
+The [functional method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_method_glosry.htm "Glossary Entry") get in this example has a structured return code whose component carrname is accessed.
 
 CLASS carriers DEFINITION.
   PUBLIC SECTION.

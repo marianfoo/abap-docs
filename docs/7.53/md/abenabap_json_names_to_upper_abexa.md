@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) →  [JSON, Examples](javascript:call_link\('abenabap_json_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json.htm) →  [JSON, Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_abexas.htm) → 
 
 JSON, Transforming Names
 
@@ -85,21 +85,21 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates how the names of [JSON data](javascript:call_link\('abenjson_oview.htm'\)) objects can be transformed to uppercase letters, so making it possible, for example, to bind the objects to the corresponding ABAP data in deserializations using the statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation_shortref.htm'\)). Two transformation methods are demonstrated:
+This example demonstrates how the names of [JSON data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_oview.htm) objects can be transformed to uppercase letters, so making it possible, for example, to bind the objects to the corresponding ABAP data in deserializations using the statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transformation_shortref.htm). Two transformation methods are demonstrated:
 
 -   Parsing and rendering in the method json\_names\_to\_upper\_pr
 
--   This transforms the JSON data to [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry").
+-   This transforms the JSON data to [JSON-XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_xml_glosry.htm "Glossary Entry").
 
--   The result is parsed using an [XML reader](javascript:call_link\('abenxml_reader_glosry.htm'\) "Glossary Entry").
+-   The result is parsed using an [XML reader](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenxml_reader_glosry.htm "Glossary Entry").
 
--   The attributes with the name name are transformed to uppercase letters as in the executable example [Modifying XML Data](javascript:call_link\('abensxml_reader_writer_abexa.htm'\)).
+-   The attributes with the name name are transformed to uppercase letters as in the executable example [Modifying XML Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensxml_reader_writer_abexa.htm).
 
--   The result is rendered back to JSON using a [JSON writer](javascript:call_link\('abenjson_writer_glosry.htm'\) "Glossary Entry").
+-   The result is rendered back to JSON using a [JSON writer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_writer_glosry.htm "Glossary Entry").
 
 -   Calling a transformation in the method json\_names\_to\_upper\_tr
 
--   The XSL transformation DEMO\_JSON\_XML\_TO\_UPPER, designed for this purpose, is used to transform the object names in [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") to uppercase letters and passes the result to a [JSON writer](javascript:call_link\('abenjson_writer_glosry.htm'\) "Glossary Entry").
+-   The XSL transformation DEMO\_JSON\_XML\_TO\_UPPER, designed for this purpose, is used to transform the object names in [JSON-XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_xml_glosry.htm "Glossary Entry") to uppercase letters and passes the result to a [JSON writer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_writer_glosry.htm "Glossary Entry").
 
 -   The modified JSON data is extracted from the writer.
 

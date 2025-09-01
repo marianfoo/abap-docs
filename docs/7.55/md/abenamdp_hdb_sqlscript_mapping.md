@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Methods](javascript:call_link\('abenamdp_methods.htm'\)) →  [METHOD, BY DATABASE PROCEDURE, FUNCTION](javascript:call_link\('abapmethod_by_db_proc.htm'\)) →  [AMDP - SQLScript for the SAP HANA Database](javascript:call_link\('abenamdp_hdb_sqlscript.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp.htm) →  [AMDP - Methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp_methods.htm) →  [METHOD, BY DATABASE PROCEDURE, FUNCTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmethod_by_db_proc.htm) →  [AMDP - SQLScript for the SAP HANA Database](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp_hdb_sqlscript.htm) → 
 
 AMDP - Mapping of ABAP Types to SQLScript
 
@@ -12,11 +12,13 @@ As shown in the following tables, the elementary ABAP types are mapped to the ap
 
 -   Interface parameters of a AMDP method
 
--   References to ABAP types using the [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry") [$ABAP.type](javascript:call_link\('abenamdp_abap_types.htm'\))
+-   References to ABAP types using the [AMDP macro](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp_macro_glosry.htm "Glossary Entry") [$ABAP.type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp_abap_types.htm)
 
-The tables distinguish parameters that reference a type defined in ABAP from those that reference a [built-in type in ABAP Dictionary](javascript:call_link\('abenddic_builtin_types.htm'\)). No parameters or type references can be defined for SQL Script types that are not listed here.
+The tables distinguish parameters that reference a type defined in ABAP from those that reference a [built-in type in ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm). No parameters or type references can be defined for SQL Script types that are not listed here.
 
--   [Mapping with Reference to Types Defined in ABAP](#abenamdp-hdb-sqlscript-mapping-1--------mapping-with-reference-to-types-defined-in-abap-dictionary---@ITOC@@ABENAMDP_HDB_SQLSCRIPT_MAPPING_2)
+-   [Mapping with Reference to Types Defined in ABAP](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_MAPPING_1)
+
+-   [Mapping with Reference to Types Defined in ABAP Dictionary](#@@ITOC@@ABENAMDP_HDB_SQLSCRIPT_MAPPING_2)
 
 Mapping with Reference to Types Defined in ABAP
 
@@ -150,7 +152,7 @@ TIMESTAMP
 
 Mapping with Reference to Types Defined in ABAP Dictionary
 
-The [built-in types in ABAP Dictionary](javascript:call_link\('abenddic_builtin_types.htm'\)) are mapped like the associated ABAP types, with the following exceptions.
+The [built-in types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_builtin_types.htm) are mapped like the associated ABAP types, with the following exceptions.
 
 Dictionary Type
 

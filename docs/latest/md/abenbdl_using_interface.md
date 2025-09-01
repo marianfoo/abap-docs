@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [RAP - Base BDEF Extension](javascript:call_link\('abenbdl_extensibility_managed_unm.htm'\)) →  [RAP - extension](javascript:call_link\('abenbdl_extension_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl.htm) →  [RAP - BDEF Extension](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extension.htm) →  [RAP - Base BDEF Extension](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extensibility_managed_unm.htm) →  [RAP - extension](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extension_syntax.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20using%20interface%2C%20Extension%2C%20ABENBDL_USING_INTERFACE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -27,18 +27,18 @@ Variants:
 
 Effect
 
-[RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") can be extended via [RAP BO interfaces](javascript:call_link\('abenrap_bo_interface_glosry.htm'\) "Glossary Entry") using the optional addition using *\[*interface*\]*. A RAP BO interface is a layer on top of the base BO that is an interface for stable consumption and is usually [released as API](javascript:call_link\('abenreleased_api_glosry.htm'\) "Glossary Entry"). In a [BDEF extension](javascript:call_link\('abenrap_extension_glosry.htm'\) "Glossary Entry") with the addition using interface, only entities that are part of the RAP BO interface can be extended.
+[RAP business objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm "Glossary Entry") can be extended via [RAP BO interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_interface_glosry.htm "Glossary Entry") using the optional addition using *\[*interface*\]*. A RAP BO interface is a layer on top of the base BO that is an interface for stable consumption and is usually [released as API](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreleased_api_glosry.htm "Glossary Entry"). In a [BDEF extension](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_extension_glosry.htm "Glossary Entry") with the addition using interface, only entities that are part of the RAP BO interface can be extended.
 
--   In general, the RAP BO interface is specified in the [BDEF extension header](javascript:call_link\('abenrap_bdef_ext_header_glosry.htm'\) "Glossary Entry"), directly after the keyword extension, using the syntax addition using interface. All entities that are part of the RAP BO interface can be extended then. Further details are provided under Variant 1.
--   In a node extensibility scenario, the extension node is not part of the RAP BO interface. An interface for the extension node can be specified using the keyword using in the [RAP extension entity behavior](javascript:call_link\('abenrap_ext_entity_behavior_glosry.htm'\) "Glossary Entry") on entity level. Further details are provided under Variant 2.
+-   In general, the RAP BO interface is specified in the [BDEF extension header](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bdef_ext_header_glosry.htm "Glossary Entry"), directly after the keyword extension, using the syntax addition using interface. All entities that are part of the RAP BO interface can be extended then. Further details are provided under Variant 1.
+-   In a node extensibility scenario, the extension node is not part of the RAP BO interface. An interface for the extension node can be specified using the keyword using in the [RAP extension entity behavior](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_ext_entity_behavior_glosry.htm "Glossary Entry") on entity level. Further details are provided under Variant 2.
 
-Extensions can be created directly for managed or unmanaged RAP BOs. However, SAP recommends that you always extend a RAP BO via an interface and to always use the addition using interface. In case of [C0](javascript:call_link\('abenc0_contract_glosry.htm'\) "Glossary Entry") [developer extensibility](javascript:call_link\('abendev_extensibility_glosry.htm'\) "Glossary Entry"), an interface is mandatory. In some other scenarios, using interface is mandatory and this is enforced by a syntax check error.
+Extensions can be created directly for managed or unmanaged RAP BOs. However, SAP recommends that you always extend a RAP BO via an interface and to always use the addition using interface. In case of [C0](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_contract_glosry.htm "Glossary Entry") [developer extensibility](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendev_extensibility_glosry.htm "Glossary Entry"), an interface is mandatory. In some other scenarios, using interface is mandatory and this is enforced by a syntax check error.
 
 Further Information
 
--   Topic [RAP - Interface Behavior Definition](javascript:call_link\('abenbdl_rap_bo_interface.htm'\)).
+-   Topic [RAP - Interface Behavior Definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bo_interface.htm).
 -   Development guide for the ABAP RESTful Application Programming Model, topic [Business Object Interface](https://help.sap.com/docs/ABAP_Cloud/f055b8bf582d4f34b91da667bc1fcce6/7caa146ddc4b4f24a58efd33f0f789b4?version=sap_cross_product_abap).
--   Topic [C0 Contract Rules for RAP Behavior Definitions](javascript:call_link\('abenc0_contract_rules_bdef.htm'\))
+-   Topic [C0 Contract Rules for RAP Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc0_contract_rules_bdef.htm)
 
 Example
 
@@ -77,21 +77,21 @@ Variant 1  
 
 Prerequisite
 
-As a prerequisite for using interface, the [RAP interface behavior definition](javascript:call_link\('abencds_interface_bdef_glosry.htm'\) "Glossary Entry") InterfaceBdef must explicitly allow extensions. It must be declared as extensible in the [behavior definition header](javascript:call_link\('abencds_bdef_header_glosry.htm'\) "Glossary Entry") as described in topic [RAP - Behavior Definition Header, Interface BDEF](javascript:call_link\('abenbdl_bo_interface_header.htm'\)).
+As a prerequisite for using interface, the [RAP interface behavior definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_interface_bdef_glosry.htm "Glossary Entry") InterfaceBdef must explicitly allow extensions. It must be declared as extensible in the [behavior definition header](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef_header_glosry.htm "Glossary Entry") as described in topic [RAP - Behavior Definition Header, Interface BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_bo_interface_header.htm).
 
 Effect
 
-Using the optional addition using interface, a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") is extended via a [RAP BO interface](javascript:call_link\('abenrap_bo_interface_glosry.htm'\) "Glossary Entry"). A RAP BO interface is a layer on top of the base BO that is an interface for stable consumption and is usually [released as API](javascript:call_link\('abenreleased_api_glosry.htm'\) "Glossary Entry"). In a [BDEF extension](javascript:call_link\('abenrap_extension_glosry.htm'\) "Glossary Entry") with the addition using interface, only entities that are part of the RAP BO interface can be extended.
+Using the optional addition using interface, a [RAP business object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm "Glossary Entry") is extended via a [RAP BO interface](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_interface_glosry.htm "Glossary Entry"). A RAP BO interface is a layer on top of the base BO that is an interface for stable consumption and is usually [released as API](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreleased_api_glosry.htm "Glossary Entry"). In a [BDEF extension](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_extension_glosry.htm "Glossary Entry") with the addition using interface, only entities that are part of the RAP BO interface can be extended.
 
-An extension using interface produces simultaneous extensions of the base RAP BO and of the interface. For example, an extension action is part of the [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") of the base RAP BO and of the interface RAP BO.
+An extension using interface produces simultaneous extensions of the base RAP BO and of the interface. For example, an extension action is part of the [BDEF derived types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") of the base RAP BO and of the interface RAP BO.
 
-The extension BDEF must reference [RAP BO entities](javascript:call_link\('abenrap_bo_entity_glosry.htm'\) "Glossary Entry"), [RAP BO fields](javascript:call_link\('abenrap_bo_field_glosry.htm'\) "Glossary Entry"), and other elements by their interface names, not by their base names (which may be different). The only exceptions are elements which are not reflected in the interface, such as determinations and validations.
+The extension BDEF must reference [RAP BO entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_entity_glosry.htm "Glossary Entry"), [RAP BO fields](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_field_glosry.htm "Glossary Entry"), and other elements by their interface names, not by their base names (which may be different). The only exceptions are elements which are not reflected in the interface, such as determinations and validations.
 
-In its implementation in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"), the extension may use any released interface existing for the base RAP BO to perform [ABAP EML](javascript:call_link\('abenabap_eml_glosry.htm'\) "Glossary Entry") operations. It is an EML consumer like any other and there might be multiple released interfaces for a RAP BO. But it is most common that it uses the very same interface which it extends.
+In its implementation in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry"), the extension may use any released interface existing for the base RAP BO to perform [ABAP EML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_eml_glosry.htm "Glossary Entry") operations. It is an EML consumer like any other and there might be multiple released interfaces for a RAP BO. But it is most common that it uses the very same interface which it extends.
 
 Hint
 
-An extension using interface is created for a BDEF of type managed or unmanaged. It is not created directly for the interface. In [ABAP development tools for Eclipse](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), you select the base BDEF as basis for an extension.
+An extension using interface is created for a BDEF of type managed or unmanaged. It is not created directly for the interface. In [ABAP development tools for Eclipse](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm "Glossary Entry"), you select the base BDEF as basis for an extension.
 
 Example
 
@@ -257,7 +257,7 @@ extend behavior for GreatGrandChildInterface {
 
 Executable Example
 
-The executable example [RAP BO Extension Using Interface](javascript:call_link\('abenbdl_using_interface_abexa.htm'\)) explains the example above in detail.
+The executable example [RAP BO Extension Using Interface](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_using_interface_abexa.htm) explains the example above in detail.
 
 Variant 2   
 
@@ -265,11 +265,11 @@ Variant 2  
 
 Effect
 
-In a node extensibility scenario, an interface for the extension node can be specified using the keyword using in the [RAP extension entity behavior](javascript:call_link\('abenrap_ext_entity_behavior_glosry.htm'\) "Glossary Entry") on entity level. CDSInterface is the name of a [CDS transactional interface](javascript:call_link\('abencds_trans_interface_glosry.htm'\) "Glossary Entry") that projects the extension node.
+In a node extensibility scenario, an interface for the extension node can be specified using the keyword using in the [RAP extension entity behavior](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_ext_entity_behavior_glosry.htm "Glossary Entry") on entity level. CDSInterface is the name of a [CDS transactional interface](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_trans_interface_glosry.htm "Glossary Entry") that projects the extension node.
 
 Example
 
-The following BDEF extension DEMO\_RAP\_EXTENSION\_1 adds an extension node to an existing RAP business object. It uses the RAP BO interface DEMO\_RAP\_EXT\_USING\_INTERFACE and the [CDS transactional interface](javascript:call_link\('abencds_trans_interface_glosry.htm'\) "Glossary Entry") DEMO\_RAP\_EXT\_USING\_INT\_EXT.
+The following BDEF extension DEMO\_RAP\_EXTENSION\_1 adds an extension node to an existing RAP business object. It uses the RAP BO interface DEMO\_RAP\_EXT\_USING\_INTERFACE and the [CDS transactional interface](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_trans_interface_glosry.htm "Glossary Entry") DEMO\_RAP\_EXT\_USING\_INT\_EXT.
 
 extension using interface demo\_rap\_ext\_using\_interface;
 foreign entity demo\_rap\_factory\_ACTION;
@@ -305,4 +305,4 @@ etag master Timestamp
 }
 
 Continue
-![Example](exa.gif "Example") [RAP - RAP BO Extension Using Interface](javascript:call_link\('abenbdl_using_interface_abexa.htm'\))
+![Example](exa.gif "Example") [RAP - RAP BO Extension Using Interface](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_using_interface_abexa.htm)

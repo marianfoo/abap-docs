@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 ABAP Managed Database Procedures
 
-AMDP for short. Class-based framework for managing and calling [stored procedures](javascript:call_link\('abenstored_procedure_glosry.htm'\) "Glossary Entry") or [database procedures](javascript:call_link\('abendatabase_procedure_glosry.htm'\) "Glossary Entry") as [AMDP procedures](javascript:call_link\('abenamdp_procedure_glosry.htm'\) "Glossary Entry") in [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry").
+AMDP for short. Class-based framework for managing and calling [stored procedures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstored_procedure_glosry.htm "Glossary Entry") or [database procedures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_procedure_glosry.htm "Glossary Entry") as [AMDP procedures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp_procedure_glosry.htm "Glossary Entry") in [AS ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenamdp.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenamdp.htm)

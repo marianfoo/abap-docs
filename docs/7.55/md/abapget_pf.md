@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - ABAP Statements](javascript:call_link\('abenabap_dynpros_abap_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros.htm) →  [dynpro - ABAP Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpros_abap_statements.htm) → 
 
 GET PF-STATUS
 
-[Short Reference](javascript:call_link\('abapget_pf-status_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_pf-status_shortref.htm)
 
 Syntax
 
@@ -25,9 +25,9 @@ This statement assigns data object status the currently set GUI status, whose na
 
 -   An existing character-like variable.
 
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)), where a variable of type GUI\_STATUS is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_inline.htm), where a variable of type GUI\_STATUS is declared.
 
-If no status is set (empty status is displayed in the GUI window), status is initialized. If the [standard list status](javascript:call_link\('abenstandard_list_status_glosry.htm'\) "Glossary Entry") is set, status is set to the value "STLI".
+If no status is set (empty status is displayed in the GUI window), status is initialized. If the [standard list status](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstandard_list_status_glosry.htm "Glossary Entry") is set, status is set to the value "STLI".
 
 Addition 1
 
@@ -43,11 +43,11 @@ Addition 2
 
 Effect
 
-The addition EXCLUDING is used to insert the function codes which are inactive in the current GUI status line by line into the internal table fcode. For fcode, an internal table with a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like line type can be specified. Function codes are only defined if they have been deactivated with the relevant addition of the statement SET PF-STATUS. Statically deactivated function codes in the GUI status are not defined.
+The addition EXCLUDING is used to insert the function codes which are inactive in the current GUI status line by line into the internal table fcode. For fcode, an internal table with a [flat](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenflat_glosry.htm "Glossary Entry") character-like line type can be specified. Function codes are only defined if they have been deactivated with the relevant addition of the statement SET PF-STATUS. Statically deactivated function codes in the GUI status are not defined.
 
 Example
 
-Determine the current status in a [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") module.
+Determine the current status in a [PAI](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpai_glosry.htm "Glossary Entry") module.
 
 DATA: status TYPE string,
       prog   TYPE string,

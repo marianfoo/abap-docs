@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) →  [Obsolete Statements in List Processing](javascript:call_link\('abenlists_obsolete.htm'\)) →  [Obsolete Formatting](javascript:call_link\('abenformat_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengui_obsolete.htm) →  [Obsolete Statements in List Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlists_obsolete.htm) →  [Obsolete Formatting](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenformat_obsolete.htm) → 
 
 DETAIL
 
-[Short Reference](javascript:call_link\('abapdetail_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdetail_shortref.htm)
 
 Obsolete Syntax
 
@@ -18,4 +18,4 @@ Effect
 
 This statement (which cannot be used in classes) has the same function as the following statement and is replaced by it:
 
-[FORMAT](javascript:call_link\('abapformat.htm'\)) INTENSIFIED OFF.
+[FORMAT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapformat.htm) INTENSIFIED OFF.

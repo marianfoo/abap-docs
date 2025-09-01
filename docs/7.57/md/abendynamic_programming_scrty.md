@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Security Notes](javascript:call_link\('abenabap_security.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Security Notes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_security.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Security Risks Caused by Input from Outside, ABENDYNAMIC_PROGRAMMING_SCRTY, 757%0D%0A
 %0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -19,8 +19,8 @@ Most security issues in ABAP programs are caused by because input injected into 
 
 is used wrongly or carelessly. More specifically, security risks arise here whenever full statements, parts of statements, or objects accessed in statements are specified dynamically and hence are not subject to static checks. Dynamically specified items of this nature occur, for example, in the following cases:
 
--   Dynamically specified objects are anchored in the syntax of a statement in a natural way. For example, file names specified dynamically using a variable in a statement from the [ABAP file interface](javascript:call_link\('abenfile_interface_glosry.htm'\) "Glossary Entry") are the norm, and not exceptions.
--   Frameworks are fully dynamic (for example [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry")) if they use dynamic SQL statements only.
+-   Dynamically specified objects are anchored in the syntax of a statement in a natural way. For example, file names specified dynamically using a variable in a statement from the [ABAP file interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfile_interface_glosry.htm "Glossary Entry") are the norm, and not exceptions.
+-   Frameworks are fully dynamic (for example [ADBC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc_glosry.htm "Glossary Entry")) if they use dynamic SQL statements only.
 -   Here, information is specified dynamically to make the programming of functions more compact than if they were programmed statically (perhaps due to a large number of case distinctions).
 
 Two main cases must be distinguished here:
@@ -34,23 +34,23 @@ The latter case, on the other hand, is critical. If external input is specified 
 
 The following sections provide examples of the most significant security risks when input from outside is used in statements:
 
--   [SQL Injections](javascript:call_link\('abensql_injections_scrty.htm'\))
--   [Dynamic Calls](javascript:call_link\('abendyn_call_scrty.htm'\))
--   [Directory Traversal](javascript:call_link\('abendyn_file_scrty.htm'\))
--   [System Command Injections](javascript:call_link\('abensys_comm_injections_scrty.htm'\))
--   [Cross Site Scripting](javascript:call_link\('abenxss_scrty.htm'\))
--   [ABAP Command Injections](javascript:call_link\('abengeneric_prog_scrty.htm'\))
+-   [SQL Injections](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_injections_scrty.htm)
+-   [Dynamic Calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendyn_call_scrty.htm)
+-   [Directory Traversal](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendyn_file_scrty.htm)
+-   [System Command Injections](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensys_comm_injections_scrty.htm)
+-   [Cross Site Scripting](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxss_scrty.htm)
+-   [ABAP Command Injections](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneric_prog_scrty.htm)
 
-The global principle in these sections of always checking and/or escaping external input also applies in all cases not listed separately here, such as using a dynamic [WHERE](javascript:call_link\('abaploop_at_itab_cond.htm'\)) condition when accessing internal tables.
+The global principle in these sections of always checking and/or escaping external input also applies in all cases not listed separately here, such as using a dynamic [WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab_cond.htm) condition when accessing internal tables.
 
 Hint
 
-Back doors, implemented by malicious developers using dynamically specified information, are not discussed here. These cannot be checked statically, since they do not originate outside the program, and are not usually classified as dangerous by static checks. The two-man rule code inspections are probably the only solution here. See also [Obscuring ABAP Source Code](javascript:call_link\('abenobscure_code_scrty.htm'\)).
+Back doors, implemented by malicious developers using dynamically specified information, are not discussed here. These cannot be checked statically, since they do not originate outside the program, and are not usually classified as dangerous by static checks. The two-man rule code inspections are probably the only solution here. See also [Obscuring ABAP Source Code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobscure_code_scrty.htm).
 
 Continue
-[SQL Injections](javascript:call_link\('abensql_injections_scrty.htm'\))
-[Dynamic Calls](javascript:call_link\('abendyn_call_scrty.htm'\))
-[Directory Traversal](javascript:call_link\('abendyn_file_scrty.htm'\))
-[System Command Injections](javascript:call_link\('abensys_comm_injections_scrty.htm'\))
-[Cross Site Scripting](javascript:call_link\('abenxss_scrty.htm'\))
-[ABAP Command Injections](javascript:call_link\('abengeneric_prog_scrty.htm'\))
+[SQL Injections](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_injections_scrty.htm)
+[Dynamic Calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendyn_call_scrty.htm)
+[Directory Traversal](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendyn_file_scrty.htm)
+[System Command Injections](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensys_comm_injections_scrty.htm)
+[Cross Site Scripting](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenxss_scrty.htm)
+[ABAP Command Injections](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneric_prog_scrty.htm)

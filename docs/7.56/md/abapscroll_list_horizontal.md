@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Editing List Buffers](javascript:call_link\('abenabap_lists_complex.htm'\)) →  [SCROLL LIST](javascript:call_link\('abapscroll.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Editing List Buffers](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_lists_complex.htm) →  [SCROLL LIST](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapscroll.htm) → 
 
 SCROLL LIST, horizontal
 
-[Short Reference](javascript:call_link\('abapscroll_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapscroll_shortref.htm)
 
 Syntax
 
@@ -39,7 +39,7 @@ The addition TO COLUMN specifies the value from col for the first column in the 
 
 Example
 
-Before the first display, the main list is scrolled to column 25. Since [SET LEFT SCROLL-BOUNDARY](javascript:call_link\('abapset_scroll-boundary.htm'\)) is specified, the display of the IDs of the carriers stays fixed.
+Before the first display, the main list is scrolled to column 25. Since [SET LEFT SCROLL-BOUNDARY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_scroll-boundary.htm) is specified, the display of the IDs of the carriers stays fixed.
 
 DATA scarr\_wa TYPE scarr.
 SELECT \*

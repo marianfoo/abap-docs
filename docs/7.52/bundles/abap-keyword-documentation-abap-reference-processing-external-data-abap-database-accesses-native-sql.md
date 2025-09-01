@@ -3,36 +3,7 @@
 Included pages: 14
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abennativesql.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm)
-- [abapexec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm)
-- [abapexec_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_literal.htm)
-- [abapexec_host.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm)
-- [abapexec_into.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_into.htm)
-- [abapexec_cursor.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_cursor.htm)
-- [abapexec_procedure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_procedure.htm)
-- [abapexec_connection.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_connection.htm)
-- [abapendexec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendexec.htm)
-- [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_abexas.htm)
-- [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_abexa.htm)
-- [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_db_function_abexa.htm)
-
-**Bundle Contains**: 12 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.482Z
-
----
-
 ### abennativesql.htm
-
-> **📖 Official SAP Documentation**: [abennativesql.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -40,39 +11,32 @@ Included pages: 14
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) → 
 
 EXEC SQL - Embedded Native SQL
 
-The following ABAP statements are used to embed [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statically in ABAP programs:
+The following ABAP statements are used to embed [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm "Glossary Entry") statically in ABAP programs:
 
-[EXEC SQL](javascript:call_link\('abapexec.htm'\))
+[EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm)
   ...
-[ENDEXEC](javascript:call_link\('abapendexec.htm'\))
+[ENDEXEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendexec.htm)
 
-Native SQL statements embedded between EXEC SQL and ENDEXEC do not fall within the scope of ABAP and do not follow ABAP syntax. Mainly, database-specific [SQL](javascript:call_link\('abensql_glosry.htm'\) "Glossary Entry") statements can be embedded that are passed unchanged from the Native SQL interface to a database system, and executed there. Almost the full SQL language scope of the relevant database can be used and the addressed database tables do not have to be declared in ABAP Dictionary. In addition, a small set of SAP-specific Native SQL statements and additions are available that can only be specified between EXEC SQL and ENDEXEC and that are subject to special handling by the Native SQL interface.
+Native SQL statements embedded between EXEC SQL and ENDEXEC do not fall within the scope of ABAP and do not follow ABAP syntax. Mainly, database-specific [SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_glosry.htm "Glossary Entry") statements can be embedded that are passed unchanged from the Native SQL interface to a database system, and executed there. Almost the full SQL language scope of the relevant database can be used and the addressed database tables do not have to be declared in ABAP Dictionary. In addition, a small set of SAP-specific Native SQL statements and additions are available that can only be specified between EXEC SQL and ENDEXEC and that are subject to special handling by the Native SQL interface.
 
 Programming Guideline
 
-[Using Open SQL](javascript:call_link\('abendatabase_access_guidl.htm'\) "Guideline")
+[Using Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_access_guidl.htm "Guideline")
 
 Note
 
-If Native SQL is used instead of Open SQL, the use of [ADBC](javascript:call_link\('abenadbc.htm'\)) is recommended.
+If Native SQL is used instead of Open SQL, the use of [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc.htm) is recommended.
 
 Continue
-[EXEC SQL](javascript:call_link\('abapexec.htm'\))
-[EXEC SQL - Examples](javascript:call_link\('abenexec_sql_abexas.htm'\))
+[EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm)
+[EXEC SQL - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_abexas.htm)
 
-
-
-**📖 Source**: [abennativesql.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm)
 
 ### abapexec.htm
-
-> **📖 Official SAP Documentation**: [abapexec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -80,11 +44,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) → 
 
 EXEC SQL
 
-[Quick Reference](javascript:call_link\('abapexec_sql_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_sql_shortref.htm)
 
 Syntax
 
@@ -94,30 +58,30 @@ ENDEXEC.
 
 Effect
 
-These statements define an area in an ABAP program in which one or more [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statements can be specified statically. The area between EXEC and ENDEXEC is not checked completely by the syntax check. The statements entered there are passed to the Native SQL interface and processed there as follows:
+These statements define an area in an ABAP program in which one or more [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm "Glossary Entry") statements can be specified statically. The area between EXEC and ENDEXEC is not checked completely by the syntax check. The statements entered there are passed to the Native SQL interface and processed there as follows:
 
--   SQL statements that are valid for the addressed database system can be included between EXEC and ENDEXEC, in particular the [DDL](javascript:call_link\('abenddl_glosry.htm'\) "Glossary Entry") statements. These SQL statements are passed from the Native SQL interface to the database system largely unchanged. The syntax rules are specified by the database system, in particular the case sensitivity rules for database objects. If the syntax allows a separator character between individual statements, multiple Native SQL statements can be included between EXEC and ENDEXEC. Generally, the semicolon (;) is used as the separator character.
+-   SQL statements that are valid for the addressed database system can be included between EXEC and ENDEXEC, in particular the [DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_glosry.htm "Glossary Entry") statements. These SQL statements are passed from the Native SQL interface to the database system largely unchanged. The syntax rules are specified by the database system, in particular the case sensitivity rules for database objects. If the syntax allows a separator character between individual statements, multiple Native SQL statements can be included between EXEC and ENDEXEC. Generally, the semicolon (;) is used as the separator character.
     
 -   SAP-specific Native-SQL language elements can also be included between EXEC and ENDEXEC. These statements are not passed directly from the Native SQL interface to the database, but are converted appropriately. These SAP-specific language elements are:
     
 
--   [Literals](javascript:call_link\('abapexec_literal.htm'\))
+-   [Literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_literal.htm)
 
--   [Host variables](javascript:call_link\('abapexec_host.htm'\))
+-   [Host variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm)
 
--   [INTO clause](javascript:call_link\('abapexec_into.htm'\))
+-   [INTO clause](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_into.htm)
 
--   [Statements for cursor processing](javascript:call_link\('abapexec_cursor.htm'\))
+-   [Statements for cursor processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_cursor.htm)
 
--   [Database procedure calls](javascript:call_link\('abapexec_procedure.htm'\))
+-   [Database procedure calls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_procedure.htm)
 
--   [Statements for establishing database connections](javascript:call_link\('abapexec_connection.htm'\))
+-   [Statements for establishing database connections](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_connection.htm)
 
-All Native SQL statements bypass table buffering. Automatic [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") is not performed.
+All Native SQL statements bypass table buffering. Automatic [client handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_handling_glosry.htm "Glossary Entry") is not performed.
 
 System Fields
 
-The statement ENDEXEC sets the system fields sy-subrc and sy-dbcnt. When using the obsolete addition [PERFORMING](javascript:call_link\('abapexec_implicit.htm'\)), note that implicit cursor processing is carried out and the system fields are set for every read.
+The statement ENDEXEC sets the system fields sy-subrc and sy-dbcnt. When using the obsolete addition [PERFORMING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_implicit.htm), note that implicit cursor processing is carried out and the system fields are set for every read.
 
 sy-subrc
 
@@ -135,26 +99,26 @@ The statement ENDEXEC sets sy-dbcnt to the number of table rows processed in the
 
 Notes
 
--   Programs with Native SQL statements are generally dependent on the database system used, so that they cannot be executed in all [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry") systems. This is especially true for the examples in this section, which were tested on a [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") (unless otherwise stated).
+-   Programs with Native SQL statements are generally dependent on the database system used, so that they cannot be executed in all [AS ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") systems. This is especially true for the examples in this section, which were tested on a [SAP HANA database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm "Glossary Entry") (unless otherwise stated).
     
--   If insertions or modifications using the Native SQL statements INSERT or UPDATE would produce duplicate rows with respect to the primary table key, no exception is raised. Instead, sy-subrc is set to 4. However, if another operation, such as executing a [Stored Procedure](javascript:call_link\('abenstored_procedure_glosry.htm'\) "Glossary Entry"), would produce a duplicate row, an exception would be raised.
+-   If insertions or modifications using the Native SQL statements INSERT or UPDATE would produce duplicate rows with respect to the primary table key, no exception is raised. Instead, sy-subrc is set to 4. However, if another operation, such as executing a [Stored Procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstored_procedure_glosry.htm "Glossary Entry"), would produce a duplicate row, an exception would be raised.
     
--   The [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") of a database table or a view must be specified explicitly. Note that application programs should only use data from the current client. See also the associated [security note](javascript:call_link\('abenclient_dependent_scrty.htm'\)) and the [programming guideline](javascript:call_link\('abenclient_handling_guidl.htm'\) "Guideline").
-    
-
--   When the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry") of a [client-specific](javascript:call_link\('abencds_client_handling.htm'\)) CDS view is accessed using Native SQL and the client handling of the view is specified by the annotation @ClientHandling.algorithm:#SESSION\_VARIABLE, the [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") [$session.client](javascript:call_link\('abencds_f1_session_variable.htm'\)) is generally evaluated here. Only on [SAP HANA databases](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"), is an instance of this session variable is created as a HANA session variable [CDS\_CLIENT](javascript:call_link\('abenhana_session_variables.htm'\)). Its current value is used here. On other platforms, there can be unexpected behavior or the program may crash.
+-   The [client ID](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_identifier_glosry.htm "Glossary Entry") of a database table or a view must be specified explicitly. Note that application programs should only use data from the current client. See also the associated [security note](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_dependent_scrty.htm) and the [programming guideline](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_handling_guidl.htm "Guideline").
     
 
--   The obsolete addition [PERFORMING](javascript:call_link\('abapexec_implicit.htm'\)) (not allowed in classes) executes implicit cursor processing and must no longer be used. The obsolete statement [EXIT FROM SQL](javascript:call_link\('abapexit_sql.htm'\)) can be used to exit this type of processing.
+-   When the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry") of a [client-specific](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_client_handling.htm) CDS view is accessed using Native SQL and the client handling of the view is specified by the annotation @ClientHandling.algorithm:#SESSION\_VARIABLE, the [session variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_session_variable.htm) is generally evaluated here. Only on [SAP HANA databases](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm "Glossary Entry"), is an instance of this session variable is created as a HANA session variable [CDS\_CLIENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_session_variables.htm). Its current value is used here. On other platforms, there can be unexpected behavior or the program may crash.
+    
+
+-   The obsolete addition [PERFORMING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_implicit.htm) (not allowed in classes) executes implicit cursor processing and must no longer be used. The obsolete statement [EXIT FROM SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexit_sql.htm) can be used to exit this type of processing.
     
 -   Native SQL statements used for transaction control (COMMIT and ROLLBACK) are detected by the database interface and the actions required at the end of a transaction are performed.
     
--   The static embedding of Native SQL statements between EXEC SQL and ENDEXEC is replaced by dynamic passes to objects from [ADBC](javascript:call_link\('abenadbc.htm'\)) classes. New features in the Native SQL in interface are now developed only in ADBC. Only ADBC should be used in new programs.
+-   The static embedding of Native SQL statements between EXEC SQL and ENDEXEC is replaced by dynamic passes to objects from [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc.htm) classes. New features in the Native SQL in interface are now developed only in ADBC. Only ADBC should be used in new programs.
     
 
 Example
 
-The following example demonstrates how an embedded Native SQL statement can be replaced by [ADBC](javascript:call_link\('abenadbc.htm'\)). For single statements, the use of the [instance operator](javascript:call_link\('abeninstance_operator_glosry.htm'\) "Glossary Entry") [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) removes the need for a helper variable of type CL\_SQL\_STATEMENT when creating objects.
+The following example demonstrates how an embedded Native SQL statement can be replaced by [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc.htm). For single statements, the use of the [instance operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_operator_glosry.htm "Glossary Entry") [NEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_new.htm) removes the need for a helper variable of type CL\_SQL\_STATEMENT when creating objects.
 
 "Embedded Native SQL
 EXEC SQL.
@@ -166,9 +130,9 @@ NEW cl\_sql\_statement( )->execute\_update(
 
 Executable Example
 
-[Static Native SQL](javascript:call_link\('abennative_sql_abexa.htm'\))
+[Static Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -233,23 +197,16 @@ Non-Handleable Exceptions
     
 
 Continue
-[EXEC SQL - Literals](javascript:call_link\('abapexec_literal.htm'\))
-[EXEC SQL - Host Variables](javascript:call_link\('abapexec_host.htm'\))
-[EXEC SQL - INTO](javascript:call_link\('abapexec_into.htm'\))
-[EXEC SQL - OPEN, FETCH, CLOSE](javascript:call_link\('abapexec_cursor.htm'\))
-[EXEC SQL - EXECUTE](javascript:call_link\('abapexec_procedure.htm'\))
-[EXEC SQL - CONNECT](javascript:call_link\('abapexec_connection.htm'\))
-[ENDEXEC](javascript:call_link\('abapendexec.htm'\))
+[EXEC SQL - Literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_literal.htm)
+[EXEC SQL - Host Variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm)
+[EXEC SQL - INTO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_into.htm)
+[EXEC SQL - OPEN, FETCH, CLOSE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_cursor.htm)
+[EXEC SQL - EXECUTE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_procedure.htm)
+[EXEC SQL - CONNECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_connection.htm)
+[ENDEXEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendexec.htm)
 
-
-
-**📖 Source**: [abapexec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm)
 
 ### abapexec_literal.htm
-
-> **📖 Official SAP Documentation**: [abapexec_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_literal.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -257,17 +214,17 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) →  [EXEC SQL](javascript:call_link\('abapexec.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm) → 
 
 EXEC SQL - Literals
 
-Appropriate [literals](javascript:call_link\('abenliteral_glosry.htm'\) "Glossary Entry") can be specified in ABAP syntax in suitable reading positions in embedded [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statements.
+Appropriate [literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliteral_glosry.htm "Glossary Entry") can be specified in ABAP syntax in suitable reading positions in embedded [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm "Glossary Entry") statements.
 
-The [literal operator](javascript:call_link\('abenliteral_operator_glosry.htm'\) "Glossary Entry") cannot be used in static Native SQL.
+The [literal operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliteral_operator_glosry.htm "Glossary Entry") cannot be used in static Native SQL.
 
 Example
 
-Reads a row from the database table SPFLI using static Native SQL. The required row is specified using literals. The target range of the [INTO clause](javascript:call_link\('abapexec_into.htm'\)) is specified as a [host variable](javascript:call_link\('abapexec_host.htm'\)). If a row was found, sy-subrc is set to 0; if not, it is set to 4.
+Reads a row from the database table SPFLI using static Native SQL. The required row is specified using literals. The target range of the [INTO clause](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_into.htm) is specified as a [host variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm). If a row was found, sy-subrc is set to 0; if not, it is set to 4.
 
 DATA: BEGIN OF wa,
         cityfrom TYPE spfli-cityfrom,
@@ -282,14 +239,7 @@ EXEC SQL.
 ENDEXEC.
 
 
-
-**📖 Source**: [abapexec_literal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_literal.htm)
-
 ### abapexec_host.htm
-
-> **📖 Official SAP Documentation**: [abapexec_host.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -297,28 +247,28 @@ ENDEXEC.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) →  [EXEC SQL](javascript:call_link\('abapexec.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm) → 
 
 EXEC SQL - Host Variables
 
-[Host variables](javascript:call_link\('abenhost_variable_glosry.htm'\) "Glossary Entry") are global or local variables (usually variables) declared in the ABAP program that are used in operand positions of embedded [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statements. [Named](javascript:call_link\('abennamed_data_object_glosry.htm'\) "Glossary Entry") data objects can be identified by an escape character (a colon :) placed in front of the names of the data objects. Instead of the data object itself, a field symbol to which the data object is assigned can be specified. Dereferenced data reference variables cannot be dereferenced.
+[Host variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhost_variable_glosry.htm "Glossary Entry") are global or local variables (usually variables) declared in the ABAP program that are used in operand positions of embedded [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm "Glossary Entry") statements. [Named](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennamed_data_object_glosry.htm "Glossary Entry") data objects can be identified by an escape character (a colon :) placed in front of the names of the data objects. Instead of the data object itself, a field symbol to which the data object is assigned can be specified. Dereferenced data reference variables cannot be dereferenced.
 
-Usually, only flat elementary fields and flat structures with elementary components can be used as host variables. If a structure is specified after the [INTO clause](javascript:call_link\('abapexec_into.htm'\)) by Native SQL, it is transformed by the Native SQL interface as if its components were specified as individual fields separated by commas.
+Usually, only flat elementary fields and flat structures with elementary components can be used as host variables. If a structure is specified after the [INTO clause](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_into.htm) by Native SQL, it is transformed by the Native SQL interface as if its components were specified as individual fields separated by commas.
 
-In assignments between host variables and fields in database tables, a [mapping](javascript:call_link\('abennative_sql_type_mapping.htm'\)) takes place between the ABAP types and the database types. The ABAP types must match the database types. If they do not match, conversions must be made in the Native SQL interface. These conversions are platform-dependent and can raise exceptions.
+In assignments between host variables and fields in database tables, a [mapping](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_type_mapping.htm) takes place between the ABAP types and the database types. The ABAP types must match the database types. If they do not match, conversions must be made in the Native SQL interface. These conversions are platform-dependent and can raise exceptions.
 
 Notes
 
--   When passed to a host variable, a [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") is transformed to its type-dependent initial value.
+-   When passed to a host variable, a [null value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennull_value_glosry.htm "Glossary Entry") is transformed to its type-dependent initial value.
     
--   The indicator variables provided in the SAP standard, which can be specified after an operand to identify null values, can be specified in static Native SQL by a host variable that has to be of an [external data type](javascript:call_link\('abenexternal_data_type_glosry.htm'\) "Glossary Entry") INT2.
+-   The indicator variables provided in the SAP standard, which can be specified after an operand to identify null values, can be specified in static Native SQL by a host variable that has to be of an [external data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexternal_data_type_glosry.htm "Glossary Entry") INT2.
     
--   Host variables cannot be [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry").
+-   Host variables cannot be [enumerated objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_object_glosry.htm "Glossary Entry").
     
 
 Example
 
-Like the example for [literals](javascript:call_link\('abapexec_literal.htm'\)). Here, the row to read is specified using host variables.
+Like the example for [literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_literal.htm). Here, the row to read is specified using host variables.
 
 DATA: carrid TYPE spfli-carrid VALUE 'LH',
       connid TYPE spfli-connid VALUE '400'.
@@ -339,14 +289,7 @@ ENDEXEC.
 cl\_demo\_output=>display( wa ).
 
 
-
-**📖 Source**: [abapexec_host.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm)
-
 ### abapexec_into.htm
-
-> **📖 Official SAP Documentation**: [abapexec_into.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_into.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -354,7 +297,7 @@ cl\_demo\_output=>display( wa ).
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) →  [EXEC SQL](javascript:call_link\('abapexec.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm) → 
 
 EXEC SQL - INTO
 
@@ -366,20 +309,20 @@ ENDEXEC.
 
 Effect
 
-In a native SELECT or FETCH statement specified between EXEC and ENDEXEC, an INTO clause can be specified to pass the read data to [host variables](javascript:call_link\('abapexec_host.htm'\)) host1, host2, ... specified after the statement. If there are multiple rows in the results set, any one of the rows is read.
+In a native SELECT or FETCH statement specified between EXEC and ENDEXEC, an INTO clause can be specified to pass the read data to [host variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm) host1, host2, ... specified after the statement. If there are multiple rows in the results set, any one of the rows is read.
 
-If a structure is specified as a [host variable](javascript:call_link\('abapexec_host.htm'\)) in after INTO, it is transformed by the Native SQL interface as if its components were specified as individual fields separated by commas. The addition STRUCTURE can be specified between INTO and a single host variable. This addition has the effect that the host variable is handled like a structure, even if a non-typed formal parameter or a non-typed field symbol is specified. Otherwise, when multiple values are being passed, depending on the platform, either the first value only is passed or an exception is raised.
+If a structure is specified as a [host variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm) in after INTO, it is transformed by the Native SQL interface as if its components were specified as individual fields separated by commas. The addition STRUCTURE can be specified between INTO and a single host variable. This addition has the effect that the host variable is handled like a structure, even if a non-typed formal parameter or a non-typed field symbol is specified. Otherwise, when multiple values are being passed, depending on the platform, either the first value only is passed or an exception is raised.
 
 Notes
 
 -   The SAP-specific addition INTO is removed from the statement by the Native SQL interface before it can be passed to the database.
     
--   The addition INTO can only be used in statements introduced using SELECT and FETCH. In a statement introduced using WITH to define a common table expression (CTE), for example, INTO is not possible. In cases like this, either [OPEN](javascript:call_link\('abapexec_cursor.htm'\)) or [ADBC](javascript:call_link\('abenadbc.htm'\)) (recommended) must be used.
+-   The addition INTO can only be used in statements introduced using SELECT and FETCH. In a statement introduced using WITH to define a common table expression (CTE), for example, INTO is not possible. In cases like this, either [OPEN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_cursor.htm) or [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc.htm) (recommended) must be used.
     
 
 Example
 
-As in the example for [host variables](javascript:call_link\('abapexec_host.htm'\)). The addition STRUCTURE is specified after INTO. However, this is not necessary since wa is known statically as a structure. The structure wa is handled in the INTO clause as if all substrings were specified separately: INTO :wa-cityfrom, :wa-cityto.
+As in the example for [host variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm). The addition STRUCTURE is specified after INTO. However, this is not necessary since wa is known statically as a structure. The structure wa is handled in the INTO clause as if all substrings were specified separately: INTO :wa-cityfrom, :wa-cityto.
 
 DATA: carrid TYPE spfli-carrid VALUE 'LH',
       connid TYPE spfli-connid VALUE '400'.
@@ -400,14 +343,7 @@ ENDEXEC.
 cl\_demo\_output=>display( wa ).
 
 
-
-**📖 Source**: [abapexec_into.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_into.htm)
-
 ### abapexec_cursor.htm
-
-> **📖 Official SAP Documentation**: [abapexec_cursor.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_cursor.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -415,11 +351,11 @@ cl\_demo\_output=>display( wa ).
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) →  [EXEC SQL](javascript:call_link\('abapexec.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm) → 
 
 EXEC SQL - OPEN, FETCH, CLOSE
 
-In embedded [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry"), similar statements to those in [Open SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") can be specified to read data using a [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry").
+In embedded [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm "Glossary Entry"), similar statements to those in [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_glosry.htm "Glossary Entry") can be specified to read data using a [database cursor](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_cursor_glosry.htm "Glossary Entry").
 
 Syntax
 
@@ -429,7 +365,7 @@ ENDEXEC.
 
 Effect
 
-Opens a database cursor dbcur. For dbcur, a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like [host variable](javascript:call_link\('abapexec_host.htm'\)) can be specified.
+Opens a database cursor dbcur. For dbcur, a [flat](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenflat_glosry.htm "Glossary Entry") character-like [host variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm) can be specified.
 
 Note
 
@@ -443,7 +379,7 @@ ENDEXEC.
 
 Effect
 
-Uses an open database cursor dbcur to read data to the [host variables](javascript:call_link\('abapexec_host.htm'\)) specified after [INTO](javascript:call_link\('abapexec_into.htm'\)).
+Uses an open database cursor dbcur to read data to the [host variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm) specified after [INTO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_into.htm).
 
 Syntax
 
@@ -494,14 +430,7 @@ EXEC SQL.
 ENDEXEC.
 
 
-
-**📖 Source**: [abapexec_cursor.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_cursor.htm)
-
 ### abapexec_procedure.htm
-
-> **📖 Official SAP Documentation**: [abapexec_procedure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_procedure.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -509,7 +438,7 @@ ENDEXEC.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) →  [EXEC SQL](javascript:call_link\('abapexec.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm) → 
 
 EXEC SQL - EXECUTE
 
@@ -523,20 +452,20 @@ ENDEXEC.
 
 Effect
 
-In database systems, procedures can be defined as [stored procedures](javascript:call_link\('abenstored_procedure_glosry.htm'\) "Glossary Entry"). Since the syntax for calling this type of procedure and the associated parameter passing can vary widely for various database systems, a uniform command exists in statically embedded [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry").
+In database systems, procedures can be defined as [stored procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstored_procedure_glosry.htm "Glossary Entry"). Since the syntax for calling this type of procedure and the associated parameter passing can vary widely for various database systems, a uniform command exists in statically embedded [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm "Glossary Entry").
 
-The statement EXECUTE PROCEDURE calls a procedure proc stored in the database. For all formal parameters of the procedure, the actual parameters must be specified, separated by commas. IN, OUT, or INOUT must be specified before every actual parameter, to indicate whether the parameter is an input, output, or input/output parameter. Literals or [host variables](javascript:call_link\('abapexec_host.htm'\)) indicated by colons (:) can be used for the actual parameters.
+The statement EXECUTE PROCEDURE calls a procedure proc stored in the database. For all formal parameters of the procedure, the actual parameters must be specified, separated by commas. IN, OUT, or INOUT must be specified before every actual parameter, to indicate whether the parameter is an input, output, or input/output parameter. Literals or [host variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm) indicated by colons (:) can be used for the actual parameters.
 
 Notes
 
--   On the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"), the stored procedures are [database procedures](javascript:call_link\('abendatabase_procedure_glosry.htm'\) "Glossary Entry") written in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry"). In ABAP, these procedures can be managed and called using [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) and the special statement [CALL DATABASE PROCEDURE](javascript:call_link\('abapcall_database_procedure.htm'\)). This statement enables access using a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry").
+-   On the [SAP HANA database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm "Glossary Entry"), the stored procedures are [database procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_procedure_glosry.htm "Glossary Entry") written in [SQLScript](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_glosry.htm "Glossary Entry"). In ABAP, these procedures can be managed and called using [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) and the special statement [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_database_procedure.htm). This statement enables access using a [secondary connection](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry").
     
--   EXECUTE PROCEDURE can be used to call procedures with input and output parameters but cannot be used to call functions with return values. In SQL, functions are used directly in suitable operand positions (see [Executable Example](javascript:call_link\('abenexec_sql_db_function_abexa.htm'\))).
+-   EXECUTE PROCEDURE can be used to call procedures with input and output parameters but cannot be used to call functions with return values. In SQL, functions are used directly in suitable operand positions (see [Executable Example](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_db_function_abexa.htm)).
     
 
 Example
 
-Defines a procedure abap\_docu\_demo\_incprice using database-specific SQL statements and by calling the procedure with the SAP-specific Native SQL statement EXECUTE PROCEDURE. The execution of the program section raises the price of every flight for the current client in the table SFLIGHT by a specific amount. See also the corresponding executable [example for ADBC](javascript:call_link\('abenadbc_procedure_abexa.htm'\)).
+Defines a procedure abap\_docu\_demo\_incprice using database-specific SQL statements and by calling the procedure with the SAP-specific Native SQL statement EXECUTE PROCEDURE. The execution of the program section raises the price of every flight for the current client in the table SFLIGHT by a specific amount. See also the corresponding executable [example for ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc_procedure_abexa.htm).
 
 DATA incprice TYPE sflight-price VALUE '0.5'.
 cl\_demo\_input=>request( CHANGING field = incprice ).
@@ -566,14 +495,7 @@ ENDTRY.
 cl\_demo\_output=>display( ).
 
 
-
-**📖 Source**: [abapexec_procedure.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_procedure.htm)
-
 ### abapexec_connection.htm
-
-> **📖 Official SAP Documentation**: [abapexec_connection.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_connection.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -581,19 +503,141 @@ cl\_demo\_output=>display( ).
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) →  [EXEC SQL](javascript:call_link\('abapexec.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm) → 
 
 EXEC SQL - CONNECT
 
-A connection must be defined with the database before [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statements can be used. When [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry") is started, a standard connection from the database interface to the [standard AS ABAP database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") is opened. This connection is defined as the current connection for embedded Native SQL statements and as a standard connection for [Open SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") statements when an ABAP program is started. Use the following SAP-specific Native SQL statements, to start additional database connections. These connections can be accessed in static Native SQL.
+A connection must be defined with the database before [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm "Glossary Entry") statements can be used. When [AS ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") is started, a standard connection from the database interface to the [standard AS ABAP database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_db_glosry.htm "Glossary Entry") is opened. This connection is defined as the current connection for embedded Native SQL statements and as a standard connection for [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_glosry.htm "Glossary Entry") statements when an ABAP program is started. Use the following SAP-specific Native SQL statements, to start additional database connections. These connections can be accessed in static Native SQL.
 
-The possible additional AS ABAP connections to database systems are [secondary connections](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") defined in the database table DBCON or [service connections](javascript:call_link\('abenservice_connection_glosry.htm'\) "Glossary Entry") whose name starts with R/3\*.
+The possible additional AS ABAP connections to database systems are [secondary connections](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") defined in the database table DBCON or [service connections](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenservice_connection_glosry.htm "Glossary Entry") whose name starts with R/3\*.
 
--   [Opening a Connection](#abapexec-connection-1--------selecting-a-connection---@ITOC@@ABAPEXEC_CONNECTION_2)
+-   [Opening a Connection](#@@ITOC@@ABAPEXEC_CONNECTION_1)
 
--   [Determining the Connection](#abapexec-connection-3--------closing-a-connection---@ITOC@@ABAPEXEC_CONNECTION_4)
+-   [Selecting a Connection](#@@ITOC@@ABAPEXEC_CONNECTION_2)
 
--   [Example](#abapexec-connection-5---note--detailed-information-about-database-connections-can-be-found--here--javascript-call-link---abenopensql-multiconnect-htm-------opening-a-connection--syntax--exec-sql----connect-to-conn-----as-name-----endexec---effect--this-static-native-sql-statement-requests-a-database-connection-called-conn--this-connection-is-opened--or-reused--if-it-already-exists-in-an-inactive-state-for-the-current-work-process--once-connect-to-is-executed--the-specified-connection-is-the-current-connection-of-the-internal-session--which-means-that-all-subsequent-native-sql-work-with-this-connection-until-a-connection-other-than-the-current-current-is-set-using-a-new-connect-to-statement-or-using-set-connection---for-conn--a-a-literal-or-a--host-variable--javascript-call-link---abapexec-host-htm-----that-contains-one-of-the-following-values-can-be-specified-------a-name-from-the-column-con--name-of-the-database-table-dbcon-used-to-specify-a--secondary-connection--javascript-call-link---abensecondary-db-connection-glosry-htm-----glossary-entry------------a-name-with-the-prefix-r-3---used-to-specify-a--service-connection--javascript-call-link---abenservice-connection-glosry-htm-----glossary-entry---------both-of-these-instances-are-case-sensitive--if-a-secondary-connection-that-is-not-in-the-database-table-dbcon-is-specified--a-handleable-exception-of-the-class-cx--sy--native--sql--error-is-raised--if-a--secondary-database--javascript-call-link---abensecondary-db-glosry-htm-----glossary-entry---cannot-be-reached--sy-subrc-is-set-to-4---the-addition-as-can-be-used-to-specify-a-name-name-for-the-connection--for-name--a-literal-or-a-character-like-host-variable-can-be-specified-whose-content-is-used-as-the-name--a-connection-called-name-is-not-the-same-connection-as-a-connection-requested-without-using-the-addition-as--this-makes-it-possible-to-open-parallel-connections-with-separate-database-luws-for-the-same-secondary-connection-or-service-connection-within-an-internal-session--in-an-internal-session--only-one-active-database-session-can-be-called-name--any-attempt-to-activate-a-further-connection-with-the-same-name-produces-a-runtime-error--a-connection-called-name-can-only-be-specified-in-the-statement-set-connection-using-this-name---notes------the--standard-connection--javascript-call-link---abenstandard-db-connection-glosry-htm-----glossary-entry---cannot-be-requested-using-connect-to-----------a-name-granted-using-as-can-also-be-used-in-open-sql-after-the-addition-connection-and-in-the-statements--commit-connection--javascript-call-link---abapcommit-rollback-connection-htm-----and--rollback-connection--javascript-call-link---abapcommit-rollback-connection-htm------as-long-as-it-is-in-uppercase-letters--------selecting-a-connection--syntax--exec-sql----set-connection----conn---default----endexec---effect--this-static-native-sql-statement-sets-the-current-connection-for-all-following-static-native-sql-statements--for-conn--a-literal-or-a-character-like-host-variable-can-be-specified-that-contains-the-name-of-connection-activated-in-the-current-connection-------default-in-uppercase-letters-or-default-specified-directly-can-be-used-to-specified-the--standard-connection--javascript-call-link---abenstandard-db-connection-glosry-htm-----glossary-entry-------------a-secondary-or-service-connection-activated-using-connect-to-without-specifying-a-name-after-as-can-be-specified-under-its-name-conn-----------a-secondary-or-service-connection-activated-using-connect-to-while-specifying-a-name-after-as-can-be-specified-under-this-name-name--------all-of-these-instances-are-case-sensitive--when-an-unknown-connection-is-specified--the-current-connection-remains-unchanged-and-sy-subrc-is-set-to-4---notes------when-a-current-connection-is-switched-to-a-different-current-connection--no-database-luw-is-closed-and-no-new-luw-is-opened-----------any-changes-to-the-current-connection-are-applied-only-in-static-native-sql-after-exec-sql--open-sql-and-any-other-variant-of-native-sql-remain-unaffected-----------the-current-connection-is-switched-regardless-of-whether-the-connections-in-question-are-active-or--after-their-database-luws-are-closed--inactive--------determining-the-connection--syntax--exec-sql----get-connection--conn-endexec---effect--this-static-native-sql-statement-assigns-the-name-of-the-current-connection-to-conn--conn-expects-a-character-like-host-variable--if-the-current-connection-was-activated-using-the-statement-connect-to-and-as-was-used-to-give-it-a-name-at-the-same-time--this-name-is-assigned--if-the-connection-is-activated-without-being-given-a-name--the-name-of-the-secondary-connection-or-service-connection-is-assigned--if-the-current-connection-is-the-standard-connection--the-value-default-is-assigned---note--the-current-connection-can-be-active-or--after-its-database-luw-is-closed--inactive---closing-a-connection--syntax--exec-sql----disconnect-conn-endexec---effect--this-static-native-sql-statement-closes-the-connection-conn-for-the-current-work-process--which-discards-all-database-changes-not-yet-committed-using-a--database-commit--javascript-call-link---abendb-commit-htm------for-conn--a-literal-or-a-character-like-host-variable-can-be-specified-that-contains-the-name-of-a-secondary-connection-or-service-connection-activated-in-the-internal-session-------a-secondary-or-service-connection-activated-using-connect-to-without-specifying-a-name-after-as-can-be-specified-under-its-name-conn-----------a-secondary-or-service-connection-activated-using-connect-to-while-specifying-a-name-after-as-can-be-specified-under-this-name-name--------if-anything-else-is-specified--most-specifically-default---a-runtime-error-occurs--if-the-closed-secondary-connection-or-service-connection-is-the-current-connection--the-standard-connection-is-set-as-the-new-current-connection-implicitly--all-of-these-instances-are-case-sensitive---notes------the-closed-connection-can-be-active-or--after-its-database-luw-is-closed--inactive-----------it-is-recommended-that-database-connections-are-only-closed-implicitly-by-the-abap-runtime-environment-and-not-explicitly--since-it-takes-a-lot-of-resources-to-restore-a-connection--------example--example--opens-a-connection-to-an-sap-hana-database-and-imports-all-entries-of-a-column-in-the-database-table-scarr---data-conn-type-dbcon-con--name--cl--demo--input--request--changing-field---conn----select-single-dbms--------from-dbcon--------where-con--name---conn AND
+-   [Determining the Connection](#@@ITOC@@ABAPEXEC_CONNECTION_3)
+
+-   [Closing a Connection](#@@ITOC@@ABAPEXEC_CONNECTION_4)
+
+-   [Example](#@@ITOC@@ABAPEXEC_CONNECTION_5)
+
+Note
+
+Detailed information about database connections can be found [here](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_multiconnect.htm).
+
+Opening a Connection
+
+Syntax
+
+EXEC SQL.
+  CONNECT TO conn *\[*AS name*\]*
+ENDEXEC.
+
+Effect
+
+This static Native SQL statement requests a database connection called conn. This connection is opened (or reused) if it already exists in an inactive state for the current work process. Once CONNECT TO is executed, the specified connection is the current connection of the internal session, which means that all subsequent Native SQL work with this connection until a connection other than the current current is set using a new CONNECT TO statement or using SET CONNECTION.
+
+For conn, a a literal or a [host variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm) that contains one of the following values can be specified:
+
+-   A name from the column CON\_NAME of the database table DBCON used to specify a [secondary connection](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry")
+    
+-   A name with the prefix R/3\* used to specify a [service connection](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenservice_connection_glosry.htm "Glossary Entry")
+    
+
+Both of these instances are case-sensitive. If a secondary connection that is not in the database table DBCON is specified, a handleable exception of the class CX\_SY\_NATIVE\_SQL\_ERROR is raised. If a [secondary database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_db_glosry.htm "Glossary Entry") cannot be reached, sy-subrc is set to 4.
+
+The addition AS can be used to specify a name name for the connection. For name, a literal or a character-like host variable can be specified whose content is used as the name. A connection called name is not the same connection as a connection requested without using the addition AS. This makes it possible to open parallel connections with separate database LUWs for the same secondary connection or service connection within an internal session, In an internal session, only one active database session can be called name. Any attempt to activate a further connection with the same name produces a runtime error. A connection called name can only be specified in the statement SET CONNECTION using this name.
+
+Notes
+
+-   The [standard connection](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry") cannot be requested using CONNECT TO.
+    
+-   A name granted using AS can also be used in Open SQL after the addition CONNECTION and in the statements [COMMIT CONNECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcommit_rollback_connection.htm) and [ROLLBACK CONNECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcommit_rollback_connection.htm), as long as it is in uppercase letters.
+    
+
+Selecting a Connection
+
+Syntax
+
+EXEC SQL.
+  SET CONNECTION *{*conn*|*DEFAULT*}*
+ENDEXEC.
+
+Effect
+
+This static Native SQL statement sets the current connection for all following static Native SQL statements. For conn, a literal or a character-like host variable can be specified that contains the name of connection activated in the current connection.
+
+-   DEFAULT in uppercase letters or DEFAULT specified directly can be used to specified the [standard connection](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry").
+    
+-   A secondary or service connection activated using CONNECT TO without specifying a name after AS can be specified under its name conn.
+    
+-   A secondary or service connection activated using CONNECT TO while specifying a name after AS can be specified under this name name.
+    
+
+All of these instances are case-sensitive. When an unknown connection is specified, the current connection remains unchanged and sy-subrc is set to 4.
+
+Notes
+
+-   When a current connection is switched to a different current connection, no database LUW is closed and no new LUW is opened.
+    
+-   Any changes to the current connection are applied only in static Native SQL after EXEC SQL. Open SQL and any other variant of Native SQL remain unaffected.
+    
+-   The current connection is switched regardless of whether the connections in question are active or (after their database LUWs are closed) inactive.
+    
+
+Determining the Connection
+
+Syntax
+
+EXEC SQL.
+  GET CONNECTION :conn
+ENDEXEC.
+
+Effect
+
+This static Native SQL statement assigns the name of the current connection to conn. conn expects a character-like host variable. If the current connection was activated using the statement CONNECT TO and AS was used to give it a name at the same time, this name is assigned. If the connection is activated without being given a name, the name of the secondary connection or service connection is assigned. If the current connection is the standard connection, the value DEFAULT is assigned.
+
+Note
+
+The current connection can be active or (after its database LUW is closed) inactive.
+
+Closing a Connection
+
+Syntax
+
+EXEC SQL.
+  DISCONNECT conn
+ENDEXEC.
+
+Effect
+
+This static Native SQL statement closes the connection conn for the current work process, which discards all database changes not yet committed using a [database commit](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendb_commit.htm). For conn, a literal or a character-like host variable can be specified that contains the name of a secondary connection or service connection activated in the internal session.
+
+-   A secondary or service connection activated using CONNECT TO without specifying a name after AS can be specified under its name conn.
+    
+-   A secondary or service connection activated using CONNECT TO while specifying a name after AS can be specified under this name name.
+    
+
+If anything else is specified (most specifically DEFAULT), a runtime error occurs. If the closed secondary connection or service connection is the current connection, the standard connection is set as the new current connection implicitly. All of these instances are case-sensitive.
+
+Notes
+
+-   The closed connection can be active or (after its database LUW is closed) inactive.
+    
+-   It is recommended that database connections are only closed implicitly by the ABAP runtime environment and not explicitly, since it takes a lot of resources to restore a connection.
+    
+
+Example
+
+Example
+
+Opens a connection to an SAP HANA database and imports all entries of a column in the database table SCARR.
+
+DATA conn TYPE dbcon-con\_name.
+cl\_demo\_input=>request( CHANGING field = conn ).
+SELECT SINGLE dbms
+       FROM dbcon
+       WHERE con\_name = @conn AND
              dbms     = 'HDB'
        INTO @DATA(dbtype).
 IF sy-subrc <> 0.
@@ -637,14 +681,7 @@ ENDTRY.
 cl\_demo\_output=>display( ).
 
 
-
-**📖 Source**: [abapexec_connection.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_connection.htm)
-
 ### abapendexec.htm
-
-> **📖 Official SAP Documentation**: [abapendexec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendexec.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -652,11 +689,11 @@ cl\_demo\_output=>display( ).
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) →  [EXEC SQL](javascript:call_link\('abapexec.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) →  [EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm) → 
 
 ENDEXEC
 
-[Quick Reference](javascript:call_link\('abapexec_sql_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_sql_shortref.htm)
 
 Syntax
 
@@ -664,17 +701,10 @@ ENDEXEC.
 
 Effect
 
-The statement ENDEXEC closes an embedded [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statement introduced using [EXEC SQL](javascript:call_link\('abapexec.htm'\)).
+The statement ENDEXEC closes an embedded [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm "Glossary Entry") statement introduced using [EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm).
 
-
-
-**📖 Source**: [abapendexec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendexec.htm)
 
 ### abapexec.htm
-
-> **📖 Official SAP Documentation**: [abapexec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -682,11 +712,11 @@ The statement ENDEXEC closes an embedded [Native SQL](javascript:call_link\('abe
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) → 
 
 EXEC SQL
 
-[Quick Reference](javascript:call_link\('abapexec_sql_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_sql_shortref.htm)
 
 Syntax
 
@@ -696,30 +726,30 @@ ENDEXEC.
 
 Effect
 
-These statements define an area in an ABAP program in which one or more [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statements can be specified statically. The area between EXEC and ENDEXEC is not checked completely by the syntax check. The statements entered there are passed to the Native SQL interface and processed there as follows:
+These statements define an area in an ABAP program in which one or more [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm "Glossary Entry") statements can be specified statically. The area between EXEC and ENDEXEC is not checked completely by the syntax check. The statements entered there are passed to the Native SQL interface and processed there as follows:
 
--   SQL statements that are valid for the addressed database system can be included between EXEC and ENDEXEC, in particular the [DDL](javascript:call_link\('abenddl_glosry.htm'\) "Glossary Entry") statements. These SQL statements are passed from the Native SQL interface to the database system largely unchanged. The syntax rules are specified by the database system, in particular the case sensitivity rules for database objects. If the syntax allows a separator character between individual statements, multiple Native SQL statements can be included between EXEC and ENDEXEC. Generally, the semicolon (;) is used as the separator character.
+-   SQL statements that are valid for the addressed database system can be included between EXEC and ENDEXEC, in particular the [DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_glosry.htm "Glossary Entry") statements. These SQL statements are passed from the Native SQL interface to the database system largely unchanged. The syntax rules are specified by the database system, in particular the case sensitivity rules for database objects. If the syntax allows a separator character between individual statements, multiple Native SQL statements can be included between EXEC and ENDEXEC. Generally, the semicolon (;) is used as the separator character.
     
 -   SAP-specific Native-SQL language elements can also be included between EXEC and ENDEXEC. These statements are not passed directly from the Native SQL interface to the database, but are converted appropriately. These SAP-specific language elements are:
     
 
--   [Literals](javascript:call_link\('abapexec_literal.htm'\))
+-   [Literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_literal.htm)
 
--   [Host variables](javascript:call_link\('abapexec_host.htm'\))
+-   [Host variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm)
 
--   [INTO clause](javascript:call_link\('abapexec_into.htm'\))
+-   [INTO clause](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_into.htm)
 
--   [Statements for cursor processing](javascript:call_link\('abapexec_cursor.htm'\))
+-   [Statements for cursor processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_cursor.htm)
 
--   [Database procedure calls](javascript:call_link\('abapexec_procedure.htm'\))
+-   [Database procedure calls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_procedure.htm)
 
--   [Statements for establishing database connections](javascript:call_link\('abapexec_connection.htm'\))
+-   [Statements for establishing database connections](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_connection.htm)
 
-All Native SQL statements bypass table buffering. Automatic [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") is not performed.
+All Native SQL statements bypass table buffering. Automatic [client handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_handling_glosry.htm "Glossary Entry") is not performed.
 
 System Fields
 
-The statement ENDEXEC sets the system fields sy-subrc and sy-dbcnt. When using the obsolete addition [PERFORMING](javascript:call_link\('abapexec_implicit.htm'\)), note that implicit cursor processing is carried out and the system fields are set for every read.
+The statement ENDEXEC sets the system fields sy-subrc and sy-dbcnt. When using the obsolete addition [PERFORMING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_implicit.htm), note that implicit cursor processing is carried out and the system fields are set for every read.
 
 sy-subrc
 
@@ -737,26 +767,26 @@ The statement ENDEXEC sets sy-dbcnt to the number of table rows processed in the
 
 Notes
 
--   Programs with Native SQL statements are generally dependent on the database system used, so that they cannot be executed in all [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry") systems. This is especially true for the examples in this section, which were tested on a [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") (unless otherwise stated).
+-   Programs with Native SQL statements are generally dependent on the database system used, so that they cannot be executed in all [AS ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") systems. This is especially true for the examples in this section, which were tested on a [SAP HANA database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm "Glossary Entry") (unless otherwise stated).
     
--   If insertions or modifications using the Native SQL statements INSERT or UPDATE would produce duplicate rows with respect to the primary table key, no exception is raised. Instead, sy-subrc is set to 4. However, if another operation, such as executing a [Stored Procedure](javascript:call_link\('abenstored_procedure_glosry.htm'\) "Glossary Entry"), would produce a duplicate row, an exception would be raised.
+-   If insertions or modifications using the Native SQL statements INSERT or UPDATE would produce duplicate rows with respect to the primary table key, no exception is raised. Instead, sy-subrc is set to 4. However, if another operation, such as executing a [Stored Procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstored_procedure_glosry.htm "Glossary Entry"), would produce a duplicate row, an exception would be raised.
     
--   The [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") of a database table or a view must be specified explicitly. Note that application programs should only use data from the current client. See also the associated [security note](javascript:call_link\('abenclient_dependent_scrty.htm'\)) and the [programming guideline](javascript:call_link\('abenclient_handling_guidl.htm'\) "Guideline").
-    
-
--   When the [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry") of a [client-specific](javascript:call_link\('abencds_client_handling.htm'\)) CDS view is accessed using Native SQL and the client handling of the view is specified by the annotation @ClientHandling.algorithm:#SESSION\_VARIABLE, the [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") [$session.client](javascript:call_link\('abencds_f1_session_variable.htm'\)) is generally evaluated here. Only on [SAP HANA databases](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"), is an instance of this session variable is created as a HANA session variable [CDS\_CLIENT](javascript:call_link\('abenhana_session_variables.htm'\)). Its current value is used here. On other platforms, there can be unexpected behavior or the program may crash.
+-   The [client ID](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_identifier_glosry.htm "Glossary Entry") of a database table or a view must be specified explicitly. Note that application programs should only use data from the current client. See also the associated [security note](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_dependent_scrty.htm) and the [programming guideline](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclient_handling_guidl.htm "Guideline").
     
 
--   The obsolete addition [PERFORMING](javascript:call_link\('abapexec_implicit.htm'\)) (not allowed in classes) executes implicit cursor processing and must no longer be used. The obsolete statement [EXIT FROM SQL](javascript:call_link\('abapexit_sql.htm'\)) can be used to exit this type of processing.
+-   When the [CDS database view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry") of a [client-specific](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_client_handling.htm) CDS view is accessed using Native SQL and the client handling of the view is specified by the annotation @ClientHandling.algorithm:#SESSION\_VARIABLE, the [session variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_session_variable.htm) is generally evaluated here. Only on [SAP HANA databases](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm "Glossary Entry"), is an instance of this session variable is created as a HANA session variable [CDS\_CLIENT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_session_variables.htm). Its current value is used here. On other platforms, there can be unexpected behavior or the program may crash.
+    
+
+-   The obsolete addition [PERFORMING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_implicit.htm) (not allowed in classes) executes implicit cursor processing and must no longer be used. The obsolete statement [EXIT FROM SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexit_sql.htm) can be used to exit this type of processing.
     
 -   Native SQL statements used for transaction control (COMMIT and ROLLBACK) are detected by the database interface and the actions required at the end of a transaction are performed.
     
--   The static embedding of Native SQL statements between EXEC SQL and ENDEXEC is replaced by dynamic passes to objects from [ADBC](javascript:call_link\('abenadbc.htm'\)) classes. New features in the Native SQL in interface are now developed only in ADBC. Only ADBC should be used in new programs.
+-   The static embedding of Native SQL statements between EXEC SQL and ENDEXEC is replaced by dynamic passes to objects from [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc.htm) classes. New features in the Native SQL in interface are now developed only in ADBC. Only ADBC should be used in new programs.
     
 
 Example
 
-The following example demonstrates how an embedded Native SQL statement can be replaced by [ADBC](javascript:call_link\('abenadbc.htm'\)). For single statements, the use of the [instance operator](javascript:call_link\('abeninstance_operator_glosry.htm'\) "Glossary Entry") [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) removes the need for a helper variable of type CL\_SQL\_STATEMENT when creating objects.
+The following example demonstrates how an embedded Native SQL statement can be replaced by [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc.htm). For single statements, the use of the [instance operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_operator_glosry.htm "Glossary Entry") [NEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_new.htm) removes the need for a helper variable of type CL\_SQL\_STATEMENT when creating objects.
 
 "Embedded Native SQL
 EXEC SQL.
@@ -768,9 +798,9 @@ NEW cl\_sql\_statement( )->execute\_update(
 
 Executable Example
 
-[Static Native SQL](javascript:call_link\('abennative_sql_abexa.htm'\))
+[Static Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -835,23 +865,16 @@ Non-Handleable Exceptions
     
 
 Continue
-[EXEC SQL - Literals](javascript:call_link\('abapexec_literal.htm'\))
-[EXEC SQL - Host Variables](javascript:call_link\('abapexec_host.htm'\))
-[EXEC SQL - INTO](javascript:call_link\('abapexec_into.htm'\))
-[EXEC SQL - OPEN, FETCH, CLOSE](javascript:call_link\('abapexec_cursor.htm'\))
-[EXEC SQL - EXECUTE](javascript:call_link\('abapexec_procedure.htm'\))
-[EXEC SQL - CONNECT](javascript:call_link\('abapexec_connection.htm'\))
-[ENDEXEC](javascript:call_link\('abapendexec.htm'\))
+[EXEC SQL - Literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_literal.htm)
+[EXEC SQL - Host Variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm)
+[EXEC SQL - INTO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_into.htm)
+[EXEC SQL - OPEN, FETCH, CLOSE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_cursor.htm)
+[EXEC SQL - EXECUTE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_procedure.htm)
+[EXEC SQL - CONNECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_connection.htm)
+[ENDEXEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendexec.htm)
 
-
-
-**📖 Source**: [abapexec.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm)
 
 ### abenexec_sql_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -859,23 +882,16 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) → 
 
 EXEC SQL - Examples
 
 Continue
-![Example](exa.gif "Example") [EXEC SQL, Use](javascript:call_link\('abennative_sql_abexa.htm'\))
-![Example](exa.gif "Example") [EXEC SQL, Accessing a Database Function](javascript:call_link\('abenexec_sql_db_function_abexa.htm'\))
+![Example](exa.gif "Example") [EXEC SQL, Use](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_abexa.htm)
+![Example](exa.gif "Example") [EXEC SQL, Accessing a Database Function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_db_function_abexa.htm)
 
-
-
-**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_abexas.htm)
 
 ### abennative_sql_abexa.htm
-
-> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -883,7 +899,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) →  [EXEC SQL - Examples](javascript:call_link\('abenexec_sql_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) →  [EXEC SQL - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_abexas.htm) → 
 
 EXEC SQL, Use
 
@@ -983,17 +999,10 @@ START-OF-SELECTION.
 
 Description
 
-The program is the static equivalent of the executable [ADBC](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\)) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert rows that already exist are caught using sy-subrc and the corresponding SQL exception must be raised explicitly.
+The program is the static equivalent of the executable [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc_dml_ddl_abexa.htm) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert rows that already exist are caught using sy-subrc and the corresponding SQL exception must be raised explicitly.
 
-
-
-**📖 Source**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_abexa.htm)
 
 ### abenexec_sql_db_function_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_db_function_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1001,7 +1010,7 @@ The program is the static equivalent of the executable [ADBC](javascript:call_li
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) →  [EXEC SQL - Examples](javascript:call_link\('abenexec_sql_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) →  [EXEC SQL - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_abexas.htm) → 
 
 EXEC SQL, Accessing a Database Function
 
@@ -1062,20 +1071,10 @@ START-OF-SELECTION.
 
 Description
 
-After [EXEC SQL](javascript:call_link\('abapexec.htm'\)), this example creates a scalar [database function](javascript:call_link\('abendatabase_function_glosry.htm'\) "Glossary Entry") with two input parameters and uses this function in the WHERE condition of a SELECT statement.
+After [EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm), this example creates a scalar [database function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_function_glosry.htm "Glossary Entry") with two input parameters and uses this function in the WHERE condition of a SELECT statement.
 
-
-
-**📖 Source**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_db_function_abexa.htm)
 
 ### abenexec_sql_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_abexas.htm)
-
 
   
 
@@ -1083,10 +1082,10 @@ After [EXEC SQL](javascript:call_link\('abapexec.htm'\)), this example creates a
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [EXEC SQL - Embedded Native SQL](javascript:call_link\('abennativesql.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) →  [EXEC SQL - Embedded Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennativesql.htm) → 
 
 EXEC SQL - Examples
 
 Continue
-![Example](exa.gif "Example") [EXEC SQL, Use](javascript:call_link\('abennative_sql_abexa.htm'\))
-![Example](exa.gif "Example") [EXEC SQL, Accessing a Database Function](javascript:call_link\('abenexec_sql_db_function_abexa.htm'\))
+![Example](exa.gif "Example") [EXEC SQL, Use](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_abexa.htm)
+![Example](exa.gif "Example") [EXEC SQL, Accessing a Database Function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexec_sql_db_function_abexa.htm)

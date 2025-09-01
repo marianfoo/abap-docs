@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) →  [Transformations for JSON](javascript:call_link\('abenabap_json_trafos.htm'\)) →  [asJSON - Canonical JSON Representation](javascript:call_link\('abenabap_asjson.htm'\)) →  [asJSON - Mapping of ABAP Data Types](javascript:call_link\('abenabap_asjson_abap_types.htm'\)) →  [asJSON - Mapping of Reference Variables and Objects](javascript:call_link\('abenabap_asxml_references.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_json.htm) →  [Transformations for JSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_json_trafos.htm) →  [asJSON - Canonical JSON Representation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_asjson.htm) →  [asJSON - Mapping of ABAP Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_asjson_abap_types.htm) →  [asJSON - Mapping of Reference Variables and Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_asxml_references.htm) → 
 
 asJSON - Named Reference Variables
 
@@ -14,8 +14,8 @@ Like a regular data object, a named reference variable is represented as an obje
 
 The content of the object component of a named reference variable is an object with precisely one object component, called %ref. The content of the object component %ref is a character-like value "#key", where key is the unique key of an object component in the object %heap. The object of an initial reference is empty. The key key of the ABAP runtime environment is set in serializations; in deserializations, any key can be used.
 
-Otherwise the same rules apply to serializations and deserializations of named reference variables as to [asXML](javascript:call_link\('abenasxml_reference_variable.htm'\)) and the same special cases need to be noted.
+Otherwise the same rules apply to serializations and deserializations of named reference variables as to [asXML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenasxml_reference_variable.htm) and the same special cases need to be noted.
 
 Executable Example
 
-[Serializing Data References](javascript:call_link\('abenserialize_dref_abexa.htm'\))
+[Serializing Data References](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenserialize_dref_abexa.htm)

@@ -4,13 +4,13 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Database Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables.htm) → 
 
 DDIC - Adjusting Database Tables
 
 When an existing modified DDIC database table is activated, existing content must be adjusted on the database in the following cases:
 
--   When a [client column](javascript:call_link\('abenclient_column_glosry.htm'\) "Glossary Entry") is inserted. Here, the data of the table is copied to all clients listed in the client table T000.
+-   When a [client column](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclient_column_glosry.htm "Glossary Entry") is inserted. Here, the data of the table is copied to all clients listed in the client table T000.
 -   When fields of existing DDIC database tables are deleted. Rows can be lost when key fields are deleted.
 -   When fields of existing DDIC database tables are renamed. The field with the old name is deleted and a field with the new name is appended. This leads to the loss of the data in column with the old field name.
 -   Changing the Technical Attributes of Table Fields
@@ -18,5 +18,5 @@ When an existing modified DDIC database table is activated, existing content mus
 Hints
 
 -   The order of table fields in transparent tables in the ABAP Dictionary may be different from the order of the columns of the physical database table on the database, which means that not every modification here requires an adjustment.
--   In adjustments, initial fields are not given the null value and are given their type-dependent initial value instead, regardless of the [flag for initial values](javascript:call_link\('abenddic_database_tables_init.htm'\)).
+-   In adjustments, initial fields are not given the null value and are given their type-dependent initial value instead, regardless of the [flag for initial values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_init.htm).
 -   For more information, see Adjustment of Database Structures.

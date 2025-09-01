@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Open SQL](javascript:call_link\('abenopensql.htm'\)) →  [Open SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [Open SQL - Path Expressions](javascript:call_link\('abenopen_sql_path.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql.htm) →  [Open SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_operands.htm) →  [Open SQL - Path Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_path.htm) → 
 
 Path Expressions, Use in the FROM Clause
 
-This example demonstrates [path expressions](javascript:call_link\('abenopen_sql_path.htm'\)) in the [FROM clause](javascript:call_link\('abapfrom_clause.htm'\)) in Open SQL.
+This example demonstrates [path expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_path.htm) in the [FROM clause](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfrom_clause.htm) in Open SQL.
 
 Source Code
 
@@ -52,7 +52,7 @@ START-OF-SELECTION.
 
 Description
 
-The first SELECT statement accesses the [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") demo\_cds\_assoc\_sairport\_tz:
+The first SELECT statement accesses the [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry") demo\_cds\_assoc\_sairport\_tz:
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASCSRTZ'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -69,7 +69,7 @@ define view demo\_cds\_assoc\_sairport\_tz
   where
     time\_zone = :tz
 
-This view publishes its [association](javascript:call_link\('abencds_f1_association.htm'\)) \_spfli in its SELECT list. The association \_spfli uses the view demo\_cds\_assoc\_spfli\_scarr as a target data source:
+This view publishes its [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) \_spfli in its SELECT list. The association \_spfli uses the view demo\_cds\_assoc\_spfli\_scarr as a target data source:
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_ASCSPSC'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
@@ -84,8 +84,8 @@ carrid,
 airpfrom
 }    
 
-This view publishes its [association](javascript:call_link\('abencds_f1_association.htm'\)) \_scarr in its SELECT list, making it possible to specify it in path expressions after \_spfli. This association uses a database table as a data source and always closes a path expression.
+This view publishes its [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_association.htm) \_scarr in its SELECT list, making it possible to specify it in path expressions after \_spfli. This association uses a database table as a data source and always closes a path expression.
 
-In the [FROM clause](javascript:call_link\('abapfrom_clause.htm'\)), the first SELECT statement uses a path expression with the associations \\\_spfli and \\\_scarr after the name of the CDS view. The names of all carriers are read that depart from airports in a specific time zone. The time zone is a [parameter](javascript:call_link\('abencds_f1_func_parameter_list.htm'\)) of CDS view demo\_cds\_assoc\_sairport\_tz, and a value is passed to it. A further restriction applies to the local currency of the airline in a filter condition for the association \_scarr.
+In the [FROM clause](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfrom_clause.htm), the first SELECT statement uses a path expression with the associations \\\_spfli and \\\_scarr after the name of the CDS view. The names of all carriers are read that depart from airports in a specific time zone. The time zone is a [parameter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_func_parameter_list.htm) of CDS view demo\_cds\_assoc\_sairport\_tz, and a value is passed to it. A further restriction applies to the local currency of the airline in a filter condition for the association \_scarr.
 
 The second SELECT statement demonstrates which joins and conditions need to be created in Open SQL to achieve the same result. This is guaranteed by an assertion.

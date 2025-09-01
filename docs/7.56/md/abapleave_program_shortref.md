@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  L
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  L
 
 LEAVE PROGRAM - Short Reference
 
-[Reference](javascript:call_link\('abapleave_program.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave_program.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ LEAVE PROGRAM.
 
 Effect
 
-Exits the current program and continues processing as specified by the program call after the call position of the program or the [call sequence](javascript:call_link\('abencall_sequence_glosry.htm'\) "Glossary Entry").
+Exits the current program and continues processing as specified by the program call after the call position of the program or the [call sequence](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_sequence_glosry.htm "Glossary Entry").

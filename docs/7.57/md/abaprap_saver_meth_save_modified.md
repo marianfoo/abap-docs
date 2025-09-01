@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP Behavior Pools (ABP)](javascript:call_link\('abenabap_behavior_pools.htm'\)) →  [RAP Saver Classes and Methods](javascript:call_link\('abenabp_saver_class.htm'\)) →  [RAP Saver Methods](javascript:call_link\('abenabp_saver_methods.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_provide_rap_bos.htm) →  [ABAP Behavior Pools (ABP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_behavior_pools.htm) →  [RAP Saver Classes and Methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_saver_class.htm) →  [RAP Saver Methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_saver_methods.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: save_modified, RAP Saver Method, ABAPRAP_SAVER_METH_SAVE_MODIFIED, 757%0D%0A%0D%0AErr
 or:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -15,45 +15,45 @@ Syntax
 
 Declaration part:
 
-[CLASS](javascript:call_link\('abapclass_definition.htm'\)) lsc\_bdef [DEFINITION](javascript:call_link\('abapclass_definition.htm'\)) [INHERITING FROM](javascript:call_link\('abapclass_options.htm'\)) base\_class ...
+[CLASS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_definition.htm) lsc\_bdef [DEFINITION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_definition.htm) [INHERITING FROM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_options.htm) base\_class ...
      ...
-     [METHODS](javascript:call_link\('abapmethods.htm'\)) save\_modified [REDEFINITION](javascript:call_link\('abapmethods_redefinition.htm'\)).
+     [METHODS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods.htm) save\_modified [REDEFINITION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_redefinition.htm).
      ...
-[ENDCLASS](javascript:call_link\('abapclass_definition.htm'\)).
+[ENDCLASS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_definition.htm).
 
 Implementation part:
 
-[CLASS](javascript:call_link\('abapclass_implementation.htm'\)) lsc\_bdef [IMPLEMENTATION](javascript:call_link\('abapclass_implementation.htm'\)).
+[CLASS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_implementation.htm) lsc\_bdef [IMPLEMENTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_implementation.htm).
       ...
-      [METHOD](javascript:call_link\('abapmethod.htm'\)) save\_modified.
+      [METHOD](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethod.htm) save\_modified.
       ...
-      [ENDMETHOD](javascript:call_link\('abapmethod.htm'\))
+      [ENDMETHOD](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethod.htm)
       ...
-[ENDCLASS](javascript:call_link\('abapclass_implementation.htm'\)).
+[ENDCLASS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_implementation.htm).
 
 Effect
 
-[RAP saver method](javascript:call_link\('abenabp_saver_method_glosry.htm'\) "Glossary Entry") that is declared as part of a [RAP saver class](javascript:call_link\('abenabp_saver_class_glosry.htm'\) "Glossary Entry") lsc\_bdef in the [CCIMP include](javascript:call_link\('abenccimp_glosry.htm'\) "Glossary Entry") of an [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"). The predefined saver method must be redefined.
+[RAP saver method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_saver_method_glosry.htm "Glossary Entry") that is declared as part of a [RAP saver class](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_saver_class_glosry.htm "Glossary Entry") lsc\_bdef in the [CCIMP include](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenccimp_glosry.htm "Glossary Entry") of an [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry"). The predefined saver method must be redefined.
 
 base\_class stands for the base class from which the RAP saver class inherits, for example, CL\_ABAP\_BEHAVIOR\_SAVER.
 
 The following points are relevant for this RAP saver method:
 
 -   Its use is mandatory.
--   It is only available for managed scenarios that include an additional or unmanaged save implementation. In this case, the RAP saver method [save](javascript:call_link\('abensaver_method_save.htm'\)) cannot be used. See the BDEF prerequisites in [CDS BDL - saving options](javascript:call_link\('abenbdl_saving.htm'\)).
--   It is responsible for saving the current state of the [transactional buffer](javascript:call_link\('abentransactional_buffer_glosry.htm'\) "Glossary Entry"), i. e. all [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") (including instances from cross-BO relationships) from within the current [RAP LUW](javascript:call_link\('abenrap_luw_glosry.htm'\) "Glossary Entry"), to the database. However, the method is only called if each of the previous RAP saver methods has been processed successfully without any failures.
--   It has the following implicit, predefined [IMPORTING](javascript:call_link\('abapmethods_general.htm'\)) parameters:
-    -   create: Includes information on instances that have been created within the current RAP LUW. It is of type [TYPE REQUEST FOR CHANGE](javascript:call_link\('abaptype_request_for.htm'\)).
-    -   update: Includes information on instances that have been updated within the current RAP LUW. It is of type [TYPE REQUEST FOR CHANGE](javascript:call_link\('abaptype_request_for.htm'\)).
-    -   delete: Includes information on instances that have been deleted within the current RAP LUW. It is of type [TYPE REQUEST FOR DELETE](javascript:call_link\('abaptype_request_for.htm'\)).
--   It has the following implicit, predefined [CHANGING](javascript:call_link\('abapmethods_general.htm'\)) parameters when using CL\_ABAP\_BEHAVIOR\_SAVER as base class base\_class from which the [RAP saver class](javascript:call_link\('abenabp_saver_class_glosry.htm'\) "Glossary Entry") inherits:
-    -   [reported](javascript:call_link\('abaptype_response_for.htm'\)): [RAP response parameter](javascript:call_link\('abenrap_response_param_glosry.htm'\) "Glossary Entry") that is of type [TYPE RESPONSE FOR REPORTED LATE](javascript:call_link\('abaptype_response_for.htm'\)).
+-   It is only available for managed scenarios that include an additional or unmanaged save implementation. In this case, the RAP saver method [save](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensaver_method_save.htm) cannot be used. See the BDEF prerequisites in [CDS BDL - saving options](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_saving.htm).
+-   It is responsible for saving the current state of the [transactional buffer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransactional_buffer_glosry.htm "Glossary Entry"), i. e. all [RAP BO instances](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") (including instances from cross-BO relationships) from within the current [RAP LUW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_luw_glosry.htm "Glossary Entry"), to the database. However, the method is only called if each of the previous RAP saver methods has been processed successfully without any failures.
+-   It has the following implicit, predefined [IMPORTING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_general.htm) parameters:
+    -   create: Includes information on instances that have been created within the current RAP LUW. It is of type [TYPE REQUEST FOR CHANGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_request_for.htm).
+    -   update: Includes information on instances that have been updated within the current RAP LUW. It is of type [TYPE REQUEST FOR CHANGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_request_for.htm).
+    -   delete: Includes information on instances that have been deleted within the current RAP LUW. It is of type [TYPE REQUEST FOR DELETE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_request_for.htm).
+-   It has the following implicit, predefined [CHANGING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_general.htm) parameters when using CL\_ABAP\_BEHAVIOR\_SAVER as base class base\_class from which the [RAP saver class](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_saver_class_glosry.htm "Glossary Entry") inherits:
+    -   [reported](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_response_for.htm): [RAP response parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_response_param_glosry.htm "Glossary Entry") that is of type [TYPE RESPONSE FOR REPORTED LATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_response_for.htm).
 
 Hints
 
--   After persisting data to the database, it is recommended that the transactional buffer is cleared (using the RAP saver method [cleanup](javascript:call_link\('abensaver_method_cleanup.htm'\)) if it is available and can be self-implemented) because the same ABAP session might be used for more than one RAP LUW and any remaining changes in the transactional buffer could lead to inconsistencies.
--   The method is part of the [RAP late save phase](javascript:call_link\('abenlate_rap_save_phase_glosry.htm'\) "Glossary Entry").
--   Usually, errors from [RAP BO consumers](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") must not appear after the [RAP early save phase](javascript:call_link\('abenearly_rap_save_phase_glosry.htm'\) "Glossary Entry"). Hence, the RAP response parameter failed is not available as a parameter. In case an application must stop the transaction, a runtime error occurs. However, there are exceptional cases in which errors cannot be avoided (see [here](javascript:call_link\('abenabp_cl_abap_beh_saver_failed.htm'\))). In these cases, CL\_ABAP\_BEHAVIOR\_SAVER\_FAILED can be used as base class base\_class from which the [RAP saver class](javascript:call_link\('abenabp_saver_class_glosry.htm'\) "Glossary Entry") inherits. Then, the response parameter [failed](javascript:call_link\('abaptype_response_for.htm'\)) is additionally available. It is of type [TYPE RESPONSE FOR FAILED LATE](javascript:call_link\('abaptype_response_for.htm'\)).
+-   After persisting data to the database, it is recommended that the transactional buffer is cleared (using the RAP saver method [cleanup](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensaver_method_cleanup.htm) if it is available and can be self-implemented) because the same ABAP session might be used for more than one RAP LUW and any remaining changes in the transactional buffer could lead to inconsistencies.
+-   The method is part of the [RAP late save phase](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlate_rap_save_phase_glosry.htm "Glossary Entry").
+-   Usually, errors from [RAP BO consumers](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") must not appear after the [RAP early save phase](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenearly_rap_save_phase_glosry.htm "Glossary Entry"). Hence, the RAP response parameter failed is not available as a parameter. In case an application must stop the transaction, a runtime error occurs. However, there are exceptional cases in which errors cannot be avoided (see [here](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_cl_abap_beh_saver_failed.htm)). In these cases, CL\_ABAP\_BEHAVIOR\_SAVER\_FAILED can be used as base class base\_class from which the [RAP saver class](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_saver_class_glosry.htm "Glossary Entry") inherits. Then, the response parameter [failed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_response_for.htm) is additionally available. It is of type [TYPE RESPONSE FOR FAILED LATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_response_for.htm).
 
 Further Information
 
@@ -61,5 +61,5 @@ Development guide for the ABAP RESTful Application Programming Model, section Sa
 
 Executable Example
 
--   The example [ABAP EML - TYPE REQUEST FOR in a Managed RAP BO with Additional Save](javascript:call_link\('abenrap_additional_save_abexa.htm'\)) demonstrates the save\_modified method in the context of a simple managed RAP BO whose BDEF is specified with with additional save.
--   The example [ABAP EML - TYPE REQUEST FOR in a Managed RAP BO with Unmanaged Save](javascript:call_link\('abenrap_managed_unm_save_abexa.htm'\)) demonstrates the save\_modified method in the context of a simple managed RAP BO whose BDEF is specified with with unmanaged save.
+-   The example [ABAP EML - TYPE REQUEST FOR in a Managed RAP BO with Additional Save](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_additional_save_abexa.htm) demonstrates the save\_modified method in the context of a simple managed RAP BO whose BDEF is specified with with additional save.
+-   The example [ABAP EML - TYPE REQUEST FOR in a Managed RAP BO with Unmanaged Save](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_managed_unm_save_abexa.htm) demonstrates the save\_modified method in the context of a simple managed RAP BO whose BDEF is specified with with unmanaged save.

@@ -4,33 +4,33 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Objects](javascript:call_link\('abenobjects_statements.htm'\)) →  [DATA](javascript:call_link\('abapdata.htm'\)) →  [DATA, TABLE OF](javascript:call_link\('abapdata_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentypes_and_objects.htm) →  [Declaring Data Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobjects_statements.htm) →  [DATA](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata.htm) →  [DATA, TABLE OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_itab.htm) → 
 
 DATA, tabkeys
 
-[Short Reference](javascript:call_link\('abapdata_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_shortref.htm)
 
 Syntax
 
-... *\[* WITH [key](javascript:call_link\('abapdata_primary_key.htm'\)) *\]*
-    *\[* WITH [secondary\_key1](javascript:call_link\('abapdata_secondary_key.htm'\)) *\]* *\[* WITH [secondary\_key2](javascript:call_link\('abapdata_secondary_key.htm'\)) *\]* ...
+... *\[* WITH [key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_primary_key.htm) *\]*
+    *\[* WITH [secondary\_key1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_secondary_key.htm) *\]* *\[* WITH [secondary\_key2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_secondary_key.htm) *\]* ...
 
 Effect
 
 Definition of the table keys of an internal table. The following can be defined:
 
--   A [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") using [key](javascript:call_link\('abapdata_primary_key.htm'\)).
+-   A [primary table key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") using [key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_primary_key.htm).
     
-    Every internal table has a primary key. The primary key must be defined explicitly for [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") and [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry"). The specification for the primary key can only be omitted for [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry"). The primary table key is then defined automatically as a non-unique [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry").
+    Every internal table has a primary key. The primary key must be defined explicitly for [sorted tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_table_glosry.htm "Glossary Entry") and [hashed tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhashed_table_glosry.htm "Glossary Entry"). The specification for the primary key can only be omitted for [standard tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_table_glosry.htm "Glossary Entry"). The primary table key is then defined automatically as a non-unique [standard key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_key_glosry.htm "Glossary Entry").
     
--   Multiple [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") with [secondary\_key1](javascript:call_link\('abapdata_secondary_key.htm'\)), [secondary\_key2](javascript:call_link\('abapdata_secondary_key.htm'\)), ...
+-   Multiple [secondary table keys](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") with [secondary\_key1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_secondary_key.htm), [secondary\_key2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_secondary_key.htm), ...
     
     The specification of secondary keys is optional for all table categories. If no secondary key is specified, the internal table has only one primary key.
     
 
 Example
 
-Declaration of a [hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") with a unique primary key and two non-unique secondary [sorted keys](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), cityfrom\_to and airp\_from\_to.
+Declaration of a [hashed table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhashed_table_glosry.htm "Glossary Entry") with a unique primary key and two non-unique secondary [sorted keys](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), cityfrom\_to and airp\_from\_to.
 
 DATA spfli\_tab TYPE HASHED TABLE OF spfli
   WITH UNIQUE KEY carrid connid
@@ -38,5 +38,5 @@ DATA spfli\_tab TYPE HASHED TABLE OF spfli
   WITH NON-UNIQUE SORTED KEY airp\_from\_to COMPONENTS airpfrom airpto.
 
 Continue
-[DATA, key](javascript:call_link\('abapdata_primary_key.htm'\))
-[DATA, secondary\_key](javascript:call_link\('abapdata_secondary_key.htm'\))
+[DATA, key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_primary_key.htm)
+[DATA, secondary\_key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_secondary_key.htm)

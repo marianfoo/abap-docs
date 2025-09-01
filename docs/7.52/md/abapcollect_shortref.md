@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  C
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  C
 
 COLLECT - Quick reference
 
-[Reference](javascript:call_link\('abapcollect.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcollect.htm)
 
 Syntax
 
@@ -21,8 +21,8 @@ Inserts work areas wa as rows in an internal table itab. Here, the primary table
 
 Additions
 
--   [ASSIGNING <fs> *\[*CASTING*\]*](javascript:call_link\('abapcollect_itab_result.htm'\))
-    Assigns the inserted row to the field symbol <fs>. A [casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry") can be performed here.
+-   [ASSIGNING <fs> *\[*CASTING*\]*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcollect_itab_result.htm)
+    Assigns the inserted row to the field symbol <fs>. A [casting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencast_casting_glosry.htm "Glossary Entry") can be performed here.
     
--   [REFERENCE INTO dref](javascript:call_link\('abapcollect_itab_result.htm'\))
+-   [REFERENCE INTO dref](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcollect_itab_result.htm)
     The data reference in dref is set to the inserted row.

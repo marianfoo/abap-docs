@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - ABAP Statements](javascript:call_link\('abenabap_dynpros_abap_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - ABAP Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_abap_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SET TITLEBAR, Dynpro, ABAPSET_TITLEBAR_DYNPRO, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0
 A%0D%0ASuggestion for improvement:)
 
 SET TITLEBAR, Dynpro
 
-[Short Reference](javascript:call_link\('abapset_titlebar_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_titlebar_shortref.htm)
 
 Syntax
 
@@ -25,9 +25,9 @@ Additions:
 
 Effect
 
-When [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") are processed, this statement specifies the GUI title specified in title for the subsequent [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry"). The title is displayed in the title bar from the next sending of a screen layout until the end of the program or until the next SET TITLEBAR statement. The name of the current GUI title is displayed in the system field sy-title.
+When [dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_glosry.htm "Glossary Entry") are processed, this statement specifies the GUI title specified in title for the subsequent [screens](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_glosry.htm "Glossary Entry"). The title is displayed in the title bar from the next sending of a screen layout until the end of the program or until the next SET TITLEBAR statement. The name of the current GUI title is displayed in the system field sy-title.
 
-title expects a character-like data object that contains the name of a GUI title of the [main program](javascript:call_link\('abenmain_program_glosry.htm'\) "Glossary Entry") of the current [program group](javascript:call_link\('abenprogram_group_glosry.htm'\) "Glossary Entry") or of the program specified in prog in uppercase letters. If the title does not exist, sy-subrc is set to 4 and the word "SAP" is displayed in the title bar.
+title expects a character-like data object that contains the name of a GUI title of the [main program](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmain_program_glosry.htm "Glossary Entry") of the current [program group](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_group_glosry.htm "Glossary Entry") or of the program specified in prog in uppercase letters. If the title does not exist, sy-subrc is set to 4 and the word "SAP" is displayed in the title bar.
 
 System Fields
 
@@ -45,10 +45,10 @@ GUI title was not found.
 
 Hints
 
--   The GUI title of the dynpro must be set at the latest at the [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") event. If no GUI title is set for a dynpro, the word "SAP" is displayed in the title bar.
+-   The GUI title of the dynpro must be set at the latest at the [PBO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpbo_glosry.htm "Glossary Entry") event. If no GUI title is set for a dynpro, the word "SAP" is displayed in the title bar.
 -   The title bar can contain a maximum of 70 characters. A title that exceeds this limit after the replacement of placeholders is truncated to the right.
--   In [standard selection screens](javascript:call_link\('abenstandard_selscreen_glosry.htm'\) "Glossary Entry"), the statement SET PF-STATUS can be used at [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") time. In selection screens defined using [SELECTION-SCREEN BEGIN OF SCREEN](javascript:call_link\('abapselection-screen_definition.htm'\)), the addition TITLE of this statement should be used instead.
--   The statement SET TITLEBAR contains a variant for the GUI status of [lists](javascript:call_link\('abapset_titlebar_list.htm'\)).
+-   In [standard selection screens](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_selscreen_glosry.htm "Glossary Entry"), the statement SET PF-STATUS can be used at [PBO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpbo_glosry.htm "Glossary Entry") time. In selection screens defined using [SELECTION-SCREEN BEGIN OF SCREEN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselection-screen_definition.htm), the addition TITLE of this statement should be used instead.
+-   The statement SET TITLEBAR contains a variant for the GUI status of [lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_titlebar_list.htm).
 
 Addition 1   
 
@@ -64,7 +64,7 @@ Addition 2  
 
 Effect
 
-When using the addition WITH, the placeholders of the GUI title can be replaced by the formatted content of data objects text1 to text9. Data objects text1 to text9 can have the same data type as a source field of the statement [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) and are formatted according to the [predefined formats](javascript:call_link\('abenwrite_formats.htm'\)). The placeholders of the GUI title can be defined in the form "&" or "&i", where i can be a number between 1 and 9. The replacement process works as follows:
+When using the addition WITH, the placeholders of the GUI title can be replaced by the formatted content of data objects text1 to text9. Data objects text1 to text9 can have the same data type as a source field of the statement [WRITE TO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to.htm) and are formatted according to the [predefined formats](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_formats.htm). The placeholders of the GUI title can be defined in the form "&" or "&i", where i can be a number between 1 and 9. The replacement process works as follows:
 
 -   The numbered placeholders "&i" are replaced with the formatted content of the data objects text1 to text9, whose names contain the same digit i in the second place.
 -   The non-numbered placeholders "&" are replaced with the content of the remaining data objects text1 to text9 according to their order.
@@ -77,7 +77,7 @@ If a GUI title is to be translated into other languages, the numbered placeholde
 
 Example
 
-In the following example, the GUI title TITLE\_0100 of the program specified in prog is set in a [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") module, where the placeholders "&1" and "&2" of the title are replaced with the formatted content p1 and p2.
+In the following example, the GUI title TITLE\_0100 of the program specified in prog is set in a [PBO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpbo_glosry.htm "Glossary Entry") module, where the placeholders "&1" and "&2" of the title are replaced with the formatted content p1 and p2.
 
 DATA: title TYPE string,
       prog  TYPE string,

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [Type Mapping for RAP](javascript:call_link\('abapeml_type_mapping.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap_other.htm) →  [Type Mapping for RAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_type_mapping.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SET%20FLAGS%2C%20ABAPSET_FLAGS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -23,13 +23,13 @@ Variants:
 
 Effect
 
-Used for the conversion of fields that have the [technical type](javascript:call_link\('abentechnical_type_prpt_glosry.htm'\) "Glossary Entry") [x](javascript:call_link\('abenbuiltin_types_byte.htm'\)) and field name lists in the context of RAP. The statement deals with [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") that include the components [%control](javascript:call_link\('abapderived_types_comp.htm'\)) and [%element](javascript:call_link\('abapderived_types_comp.htm'\)). The components of %control and %element have the technical type x.
+Used for the conversion of fields that have the [technical type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentechnical_type_prpt_glosry.htm "Glossary Entry") [x](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuiltin_types_byte.htm) and field name lists in the context of RAP. The statement deals with [BDEF derived types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") that include the components [%control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_comp.htm) and [%element](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_comp.htm). The components of %control and %element have the technical type x.
 
-The ABAP statement is targeted at applications that include, on the one hand, [RAP BOs](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") that use BDEF derived types and, on the other hand, implementations of the [RAP BO behavior](javascript:call_link\('abenrap_bo_behavior_glosry.htm'\) "Glossary Entry") that use other data types. Mapping of field names is required if types are involved that have different field names than those in the underlying [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") of the RAP BO.
+The ABAP statement is targeted at applications that include, on the one hand, [RAP BOs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm "Glossary Entry") that use BDEF derived types and, on the other hand, implementations of the [RAP BO behavior](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_behavior_glosry.htm "Glossary Entry") that use other data types. Mapping of field names is required if types are involved that have different field names than those in the underlying [CDS entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm "Glossary Entry") of the RAP BO.
 
-src represents a variable typed with a BDEF derived type that contains %control or %element. fields represents a [general expression](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). A variable in the position of fields must be a table containing one or more field names. It is of type ABP\_FIELD\_NAME\_TAB, the line type is ABP\_FIELD\_NAME.
+src represents a variable typed with a BDEF derived type that contains %control or %element. fields represents a [general expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). A variable in the position of fields must be a table containing one or more field names. It is of type ABP\_FIELD\_NAME\_TAB, the line type is ABP\_FIELD\_NAME.
 
-As a result of the ABAP statement, the field names contained in the table get identified as component names in the %control or %element structure and their value is set to 01. If field names do not exist in fields, the value in the structures is set to 00. The ABAP statement [SET NAMES](javascript:call_link\('abapset_names.htm'\)) does the conversion the other way round.
+As a result of the ABAP statement, the field names contained in the table get identified as component names in the %control or %element structure and their value is set to 01. If field names do not exist in fields, the value in the structures is set to 00. The ABAP statement [SET NAMES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_names.htm) does the conversion the other way round.
 
 The following short dumps result from an operation that cannot be executed at runtime using the SET FLAGS statements:
 
@@ -42,9 +42,9 @@ Variant 1  
 
 Effect
 
-Used in case type mapping is required for a structured [DDIC type](javascript:call_link\('abenddic_type_glosry.htm'\) "Glossary Entry"), for example, a legacy type. fields must contain the field names of the legacy type.
+Used in case type mapping is required for a structured [DDIC type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_type_glosry.htm "Glossary Entry"), for example, a legacy type. fields must contain the field names of the legacy type.
 
-As a prerequisite, the BDEF contains a mapping specification for the mapped type. See more information in the RAP BDL topic [mapping for](javascript:call_link\('abenbdl_type_mapping.htm'\)).
+As a prerequisite, the BDEF contains a mapping specification for the mapped type. See more information in the RAP BDL topic [mapping for](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_type_mapping.htm).
 
 Variant 2   
 
@@ -52,9 +52,9 @@ Variant 2  
 
 Effect
 
-Used in case type mapping is required for a structured [DDIC type](javascript:call_link\('abenddic_type_glosry.htm'\) "Glossary Entry"), for example, a legacy type. This variant is relevant if the type is not available and is a variable of the required type instead. fields must contain the field names of the legacy type.
+Used in case type mapping is required for a structured [DDIC type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_type_glosry.htm "Glossary Entry"), for example, a legacy type. This variant is relevant if the type is not available and is a variable of the required type instead. fields must contain the field names of the legacy type.
 
-As a prerequisite, the BDEF contains a mapping specification for the mapped type. See more information in the RAP BDL topic [mapping for](javascript:call_link\('abenbdl_type_mapping.htm'\)).
+As a prerequisite, the BDEF contains a mapping specification for the mapped type. See more information in the RAP BDL topic [mapping for](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_type_mapping.htm).
 
 Example
 
@@ -85,7 +85,7 @@ SET FLAGS src FROM NAMES fields2 MAPPING LIKE var.
 
 Executable Example
 
-The example [ABAP EML - Variants of SET FLAGS](javascript:call_link\('abeneml_set_flags_abexa.htm'\)) demonstrates the three different variants with a simple managed RAP BO.
+The example [ABAP EML - Variants of SET FLAGS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_set_flags_abexa.htm) demonstrates the three different variants with a simple managed RAP BO.
 
 Continue
-![Example](exa.gif "Example") [ABAP EML - Variants of SET FLAGS](javascript:call_link\('abeneml_set_flags_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP EML - Variants of SET FLAGS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_set_flags_abexa.htm)

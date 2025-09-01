@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - Specifying Annotations](javascript:call_link\('abencds_anno_usage.htm'\)) →  [ABAP CDS - Annotation Syntax](javascript:call_link\('abencds_annotations_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations.htm) →  [ABAP CDS - Specifying Annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_anno_usage.htm) →  [ABAP CDS - Annotation Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax.htm) → 
 
 ABAP CDS - Annotation Syntax, value
 
@@ -17,7 +17,7 @@ Syntax
 
 Effect
 
-An [annotation value](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry") can be specified directly after the colon : of an [annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)). The following can be specified for the annotation value:
+An [annotation value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenannotation_value_glosry.htm "Glossary Entry") can be specified directly after the colon : of an [annotation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax.htm). The following can be specified for the annotation value:
 
 -   Literals
 
@@ -33,19 +33,19 @@ These values can be enclosed in quotation marks but do not have to be.
 
 -   Null value null
 
-This value can be specified with quotation marks for [element annotations](javascript:call_link\('abencds_f1_element_annotation.htm'\)). This means that the annotations are ignored in the [evaluation](javascript:call_link\('abencds_annotations_analysis.htm'\)) by default. The value null cannot be specified as an [element](javascript:call_link\('abencds_annotations_syntax_array.htm'\)) of [annotation arrays](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") and can only be specified in the [scope](javascript:call_link\('abencds_annotations_scopes.htm'\)) of the element annotations.
+This value can be specified with quotation marks for [element annotations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_element_annotation.htm). This means that the annotations are ignored in the [evaluation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_analysis.htm) by default. The value null cannot be specified as an [element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_syntax_array.htm) of [annotation arrays](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenannotation_array_glosry.htm "Glossary Entry") and can only be specified in the [scope](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_annotations_scopes.htm) of the element annotations.
 
-Only those annotation values should be specified that are supported by the [specified type](javascript:call_link\('abencds_f1_define_annotation_type.htm'\)) of the associated [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry"). Unless a default value is specified, a value should be specified in all cases. Non-specified annotation values are not replaced by the default value when the annotation is saved internally and evaluated.
+Only those annotation values should be specified that are supported by the [specified type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_annotation_type.htm) of the associated [annotation definition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_anno_definition_glosry.htm "Glossary Entry"). Unless a default value is specified, a value should be specified in all cases. Non-specified annotation values are not replaced by the default value when the annotation is saved internally and evaluated.
 
 Notes
 
--   No syntax checks are performed on an annotation value in the [DDL for data definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)), except for the formal rules above. The annotation is generally only handled correctly when evaluated or activated or by the framework if the annotation value follows the rule in the [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry").
+-   No syntax checks are performed on an annotation value in the [DDL for data definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm), except for the formal rules above. The annotation is generally only handled correctly when evaluated or activated or by the framework if the annotation value follows the rule in the [annotation definition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_anno_definition_glosry.htm "Glossary Entry").
 
 -   The framework in question is responsible for applying the correct default value if annotation values are not specified.
 
 Example
 
-Applies the following [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry"):
+Applies the following [annotation definition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_anno_definition_glosry.htm "Glossary Entry"):
 
 @Scope:\[#VIEW, #EXTEND\_VIEW\]  
 define annotation  

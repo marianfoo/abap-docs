@@ -4,18 +4,18 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [READ TABLE itab](javascript:call_link\('abapread_table.htm'\)) →  [READ TABLE, result](javascript:call_link\('abapread_table_outdesc.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_processing_statements.htm) →  [READ TABLE itab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_table.htm) →  [READ TABLE, result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_table_outdesc.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20READ%20TABLE%2C%20transport_options%2C%20ABAPREAD_TABLE_TRANSPORT_OPTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 READ TABLE, transport\_options
 
-[Short Reference](javascript:call_link\('abapread_table_itab_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_table_itab_shortref.htm)
 
 Syntax
 
-... *\[*COMPARING *{* *{* [comp1 comp2 ...](javascript:call_link\('abenitab_components.htm'\))*}**|**{*ALL FIELDS*}**|**{*NO FIELDS*}* *}**\]*
-    *\[*TRANSPORTING *{* *{* [comp1 comp2 ...](javascript:call_link\('abenitab_components.htm'\))*}**|**{*ALL FIELDS*}* *}**\]* ...
+... *\[*COMPARING *{* *{* [comp1 comp2 ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_components.htm)*}**|**{*ALL FIELDS*}**|**{*NO FIELDS*}* *}**\]*
+    *\[*TRANSPORTING *{* *{* [comp1 comp2 ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_components.htm)*}**|**{*ALL FIELDS*}* *}**\]* ...
 
 Effect
 
@@ -23,11 +23,11 @@ The addition COMPARING compares the specified components comp1 comp2 ... or thei
 
 If the addition TRANSPORTING is specified, only the specified components comp1 comp2 ... or their subareas in the found line are assigned to the corresponding components of the work area or its subareas. If ALL FIELDS is specified, all components are assigned.
 
-COMPARING must be specified in front of TRANSPORTING. The components comp1 comp2 ... are specified according to the rules in the section [Specifying Components](javascript:call_link\('abenitab_components.htm'\)), with the restriction that after TRANSPORTING, no attributes of classes can be addressed using the object component selector.
+COMPARING must be specified in front of TRANSPORTING. The components comp1 comp2 ... are specified according to the rules in the section [Specifying Components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_components.htm), with the restriction that after TRANSPORTING, no attributes of classes can be addressed using the object component selector.
 
 Example
 
-The READ statement uses a [WHILE](javascript:call_link\('abapwhile.htm'\)) loop to read all lines of the table sflight\_tab one after the other using the primary table index in the work area sflight\_wa. Only fields that are also in the output are transported. The COMPARING addition is used to select all flights in which no seats have yet been booked.
+The READ statement uses a [WHILE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile.htm) loop to read all lines of the table sflight\_tab one after the other using the primary table index in the work area sflight\_wa. Only fields that are also in the output are transported. The COMPARING addition is used to select all flights in which no seats have yet been booked.
 
 DATA: sflight\_tab TYPE SORTED TABLE OF sflight
                   WITH UNIQUE KEY carrid connid fldate,

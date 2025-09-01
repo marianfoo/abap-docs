@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 ABAP language element addition
 
-[ABAP word](javascript:call_link\('abenabap_word_glosry.htm'\) "Glossary Entry") or combination of multiple ABAP words. A language element addition can be used in [ABAP statements](javascript:call_link\('abenabap_statement_glosry.htm'\) "Glossary Entry") as an addition of the associated [ABAP language element](javascript:call_link\('abenabap_language_element_glosry.htm'\) "Glossary Entry"). Examples of different ABAP language element additions are WITH KEY and WITH TABLE KEY.
+[ABAP word](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_word_glosry.htm "Glossary Entry") or combination of multiple ABAP words. A language element addition can be used in [ABAP statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_statement_glosry.htm "Glossary Entry") as an addition of the associated [ABAP language element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_element_glosry.htm "Glossary Entry"). Examples of different ABAP language element additions are WITH KEY and WITH TABLE KEY.

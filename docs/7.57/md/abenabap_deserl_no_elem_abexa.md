@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) →  [CALL TRANSFORMATION, Examples](javascript:call_link\('abencall_transformation_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml_trafos.htm) →  [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transformation.htm) →  [CALL TRANSFORMATION, Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_transformation_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Deserializing Missing Elements, ABENABAP_DESERL_NO_ELEM_ABEXA, 757%0D%0A%0D%0AError:%
 0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -116,10 +116,10 @@ START-OF-SELECTION.
 
 Description   
 
-An elementary data object, a structure and an internal table are transformed using the [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID to their [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") and [asJSON](javascript:call_link\('abenasjson_glosry.htm'\) "Glossary Entry") representations. In the asXML and asJSON representations, all elements or object components are removed.
+An elementary data object, a structure and an internal table are transformed using the [identity transformation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID to their [asXML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenasxml_glosry.htm "Glossary Entry") and [asJSON](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenasjson_glosry.htm "Glossary Entry") representations. In the asXML and asJSON representations, all elements or object components are removed.
 
-In a standard deserialization to the original ABAP data objects, the objects retain their original values. If the transformation option [clear](javascript:call_link\('abapcall_transformation_options.htm'\)) is used with the value all, all ABAP data objects are initialized.
+In a standard deserialization to the original ABAP data objects, the objects retain their original values. If the transformation option [clear](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_transformation_options.htm) is used with the value all, all ABAP data objects are initialized.
 
 Hint
 
-The modification of XML and JSON data using string processing shown here is only for the sake of clarity in the example. In production programs, the APIs of [class libraries for XML](javascript:call_link\('abenabap_xml_libs.htm'\)) should be used for this.
+The modification of XML and JSON data using string processing shown here is only for the sake of clarity in the example. In production programs, the APIs of [class libraries for XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml_libs.htm) should be used for this.

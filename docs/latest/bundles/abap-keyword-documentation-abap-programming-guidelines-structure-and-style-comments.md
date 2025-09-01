@@ -3,28 +3,7 @@
 Included pages: 4
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abencomments_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomments_gdl.htm)
-- [abencomment_langu_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomment_langu_guidl.htm)
-- [abencontent_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontent_guidl.htm)
-- [abenarrange_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarrange_guidl.htm)
-
-**Bundle Contains**: 4 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.892Z
-
----
-
 ### abencomments_gdl.htm
-
-> **📖 Official SAP Documentation**: [abencomments_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomments_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -32,7 +11,7 @@ Included pages: 4
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_style_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Comments%2C%20ABENCOMMENTS_GDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -53,24 +32,17 @@ There are two categories of comments in ABAP:
 
 A comment line or end of line comment can have any content and this content is ignored when the program is generated using ABAP Compiler.
 
--   [Language of Comments](javascript:call_link\('abencomment_langu_guidl.htm'\) "Guideline")
--   [Content](javascript:call_link\('abencontent_guidl.htm'\) "Guideline")
--   [Arrangement in the Source Code](javascript:call_link\('abenarrange_guidl.htm'\) "Guideline")
+-   [Language of Comments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomment_langu_guidl.htm "Guideline")
+-   [Content](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontent_guidl.htm "Guideline")
+-   [Arrangement in the Source Code](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarrange_guidl.htm "Guideline")
 
 Continue
-[Language of Comments](javascript:call_link\('abencomment_langu_guidl.htm'\))
-[Content of Comments](javascript:call_link\('abencontent_guidl.htm'\))
-[Arrangement in the Source Code](javascript:call_link\('abenarrange_guidl.htm'\))
+[Language of Comments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomment_langu_guidl.htm)
+[Content of Comments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontent_guidl.htm)
+[Arrangement in the Source Code](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarrange_guidl.htm)
 
-
-
-**📖 Source**: [abencomments_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomments_gdl.htm)
 
 ### abencomment_langu_guidl.htm
-
-> **📖 Official SAP Documentation**: [abencomment_langu_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomment_langu_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -78,7 +50,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Comments](javascript:call_link\('abencomments_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_style_gdl.htm) →  [Comments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomments_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Language%20of%20Comments%2C%20ABENCOMMENT_LANGU_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -98,16 +70,16 @@ Details  
 
 English comments are a basic prerequisite for distributed development at an international level. There are other good reasons for using English as the comment language:
 
--   If names are in [English](javascript:call_link\('abenname_langu_guidl.htm'\) "Guideline"), the statements of an ABAP program can be considered (with a little good will) to be English sentences. For the reader, English comments are best suited for the source code. If comments in another language were used, this would result in a continuous switching between the languages, which would be exhausting even for readers who can speak the languages used.
--   Frequently, the unwanted [retelling comments](javascript:call_link\('abencontent_guidl.htm'\) "Guideline") are very similar to the described ABAP statements if they are written in English. This way, the author quickly realizes that his comment is superfluous.
+-   If names are in [English](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenname_langu_guidl.htm "Guideline"), the statements of an ABAP program can be considered (with a little good will) to be English sentences. For the reader, English comments are best suited for the source code. If comments in another language were used, this would result in a continuous switching between the languages, which would be exhausting even for readers who can speak the languages used.
+-   Frequently, the unwanted [retelling comments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontent_guidl.htm "Guideline") are very similar to the described ABAP statements if they are written in English. This way, the author quickly realizes that his comment is superfluous.
 
 Exception
 
-Technical terms that originate from country-specific legislation (such as "Abgeltungssteuer" in German) or specific abbreviations (such as DÜVO) cannot be translated meaningfully or would no longer be recognizable after translation. Such terms should be placed in quotation marks and not be translated into English. In this case, it should be noted that [country-specific characters](javascript:call_link\('abencharacter_set_guidl.htm'\) "Guideline") can be replaced with 7-bit ASCII characters. The goal of the above rule is to enable as many users a possible to follow the program flow. This is still possible if non-IT terms are worded in another language.
+Technical terms that originate from country-specific legislation (such as "Abgeltungssteuer" in German) or specific abbreviations (such as DÜVO) cannot be translated meaningfully or would no longer be recognizable after translation. Such terms should be placed in quotation marks and not be translated into English. In this case, it should be noted that [country-specific characters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharacter_set_guidl.htm "Guideline") can be replaced with 7-bit ASCII characters. The goal of the above rule is to enable as many users a possible to follow the program flow. This is still possible if non-IT terms are worded in another language.
 
 Note
 
-This rule applies regardless of the [original language](javascript:call_link\('abenoriginal_langu_guidl.htm'\) "Guideline") chosen.
+This rule applies regardless of the [original language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoriginal_langu_guidl.htm "Guideline") chosen.
 
 Bad Example
 
@@ -145,17 +117,10 @@ CREATE OBJECT splitter\_v
     rows = 2
     columns = 1.
 
-The goal of this example is to show the difference between German and English comments. If more meaningful [names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline") had been chosen, that is splitter\_horizontal instead of splitter\_h, and so on, comments could be dispensed with altogether, thus complying with the following [rule](javascript:call_link\('abencontent_guidl.htm'\) "Guideline").
+The goal of this example is to show the difference between German and English comments. If more meaningful [names](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentelling_names_guidl.htm "Guideline") had been chosen, that is splitter\_horizontal instead of splitter\_h, and so on, comments could be dispensed with altogether, thus complying with the following [rule](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontent_guidl.htm "Guideline").
 
-
-
-**📖 Source**: [abencomment_langu_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomment_langu_guidl.htm)
 
 ### abencontent_guidl.htm
-
-> **📖 Official SAP Documentation**: [abencontent_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontent_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -163,7 +128,7 @@ The goal of this example is to show the difference between German and English co
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Comments](javascript:call_link\('abencomments_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_style_gdl.htm) →  [Comments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomments_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Content%20of%20Comments%2C%20ABENCONTENT_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -181,7 +146,7 @@ Write comments for your implementations that describe why something is done and 
 
 Details   
 
-The best case scenario is where meaningful [identifiers](javascript:call_link\('abennaming_gdl.htm'\)) are used in the source code; the source code effectively documents itself. This is the best way to document the concept of what happens in this program section. In this case, any additional comments that only describe obvious behavior are superfluous and do not make the code easier to understand. There is also the risk that when changes are made to the program logic, the associated comments are not adapted and are therefore no longer correct. In summary, these comments are not only useless but can even be misleading and should be avoided from the start.
+The best case scenario is where meaningful [identifiers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennaming_gdl.htm) are used in the source code; the source code effectively documents itself. This is the best way to document the concept of what happens in this program section. In this case, any additional comments that only describe obvious behavior are superfluous and do not make the code easier to understand. There is also the risk that when changes are made to the program logic, the associated comments are not adapted and are therefore no longer correct. In summary, these comments are not only useless but can even be misleading and should be avoided from the start.
 
 Conversely, developers often tend to assume that their source code is sufficiently self-documenting and leave out descriptive comments. However, this assumption is often incorrect. This becomes apparent when a third party tries to understand the source code (either when attempting to enhance the source code or identify a problem). Even the authors of the code can often face this problem, if they are confronted with source code that they wrote a long time ago and have not seen the source code since.
 
@@ -189,7 +154,7 @@ Even if the identifier names allow readers to easily follow what happens in the 
 
 Hint
 
-This section mainly deals with commenting the implementation of functions.. Header comments play a different role. Such comments, usually in the form of line comments that start with an asterisk (\*), subdivide large source codes into meaningful sections and can contain administrative entries. Here the rule also applies that these comments should not repeat what is already clearly described in the source code or described by any other means. For example, the person who last changed the program or the change date is indicated in the program properties. A header comment with the name of a class or method directly above the class or method is also redundant information. However, it makes more sense to differentiate between logical program parts, which cannot be indicated in the code. For example, you can subdivide the program into a global declaration part and an implementation part. Usually, this is only required if the program is not subdivided by [include programs](javascript:call_link\('abensource_code_modular_guidl.htm'\) "Guideline").
+This section mainly deals with commenting the implementation of functions.. Header comments play a different role. Such comments, usually in the form of line comments that start with an asterisk (\*), subdivide large source codes into meaningful sections and can contain administrative entries. Here the rule also applies that these comments should not repeat what is already clearly described in the source code or described by any other means. For example, the person who last changed the program or the change date is indicated in the program properties. A header comment with the name of a class or method directly above the class or method is also redundant information. However, it makes more sense to differentiate between logical program parts, which cannot be indicated in the code. For example, you can subdivide the program into a global declaration part and an implementation part. Usually, this is only required if the program is not subdivided by [include programs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensource_code_modular_guidl.htm "Guideline").
 
 Bad Example
 
@@ -235,17 +200,7 @@ IF sy-subrc = 0.
 ENDIF.
 
 
-
-**📖 Source**: [abencontent_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontent_guidl.htm)
-
 ### abenarrange_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenarrange_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarrange_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenarrange_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarrange_guidl.htm)
-
 
   
 
@@ -253,7 +208,7 @@ ENDIF.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Comments](javascript:call_link\('abencomments_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_style_gdl.htm) →  [Comments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomments_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Arrangement%20in%20the%20Source%20Code%2C%20ABENARRANGE_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -277,7 +232,7 @@ In general, when users read source code, they prefer to view the comment first a
 For control structures, this means that comment lines directly before a control statement (such as IF or WHILE) refer to the associated condition and comment lines after the control statement refer to the associated statement block. Comment lines directly before an ELSE or WHEN OTHERS statement have obviously been put in the wrong place.
 
 End of line comments
-End of line comments are problematic in conjunction with executable statements. Individual executable program lines are usually not complex enough to justify a separate comment for each one. If you add end of line comments, they will often be [unwanted](javascript:call_link\('abencontent_guidl.htm'\) "Guideline") repetitions of what the statements clearly indicate already. In addition, these comments tend to be cryptic and unclear, because the ends of lines does not provide enough space for meaningful comments in most cases. A uniform alignment for end of line comments can only be achieved with a high degree of effort.
+End of line comments are problematic in conjunction with executable statements. Individual executable program lines are usually not complex enough to justify a separate comment for each one. If you add end of line comments, they will often be [unwanted](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontent_guidl.htm "Guideline") repetitions of what the statements clearly indicate already. In addition, these comments tend to be cryptic and unclear, because the ends of lines does not provide enough space for meaningful comments in most cases. A uniform alignment for end of line comments can only be achieved with a high degree of effort.
 
 Therefore, you should make comments for entire statement blocks. Use self-contained comment lines to do this. This is because it is difficult to describe a reference to more than one statement line if you use end of line comments.
 
@@ -285,16 +240,16 @@ End of line comments are suitable for the following situations:
 
 -   To comment on declarative statements
 -   To indicate block ends (separate from indentations) in larger control structures
--   To justify pseudo comments (at the relevant places) for hiding messages from the extended program check or [Code Inspector](javascript:call_link\('abencode_inspector_guidl.htm'\) "Guideline").
+-   To justify pseudo comments (at the relevant places) for hiding messages from the extended program check or [Code Inspector](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencode_inspector_guidl.htm "Guideline").
 
-The pseudo comments for hiding warnings of the extended program check and [Code Inspector](javascript:call_link\('abencode_inspector_guidl.htm'\) "Guideline") play a special role. They are not comments in the usual sense of the word. They are program directives that must be appear in the same lines as the commented statements to take full effect. These pseudo comments were replaced by pragmas for the extended program check.
+The pseudo comments for hiding warnings of the extended program check and [Code Inspector](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencode_inspector_guidl.htm "Guideline") play a special role. They are not comments in the usual sense of the word. They are program directives that must be appear in the same lines as the commented statements to take full effect. These pseudo comments were replaced by pragmas for the extended program check.
 
 Indentations
-Formatting source code using indentations is essential. Otherwise the human reader cannot understand the logical structure. This formatting is required by the rule for using the [pretty printer](javascript:call_link\('abenuse_pretty_printer_guidl.htm'\) "Guideline"). However, if comments are added in the source code that do not follow this formatting, they hide the logical structure and make the code difficult to read. Therefore, comment lines must have the same indentation as the statement lines that they relate to.
+Formatting source code using indentations is essential. Otherwise the human reader cannot understand the logical structure. This formatting is required by the rule for using the [pretty printer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_pretty_printer_guidl.htm "Guideline"). However, if comments are added in the source code that do not follow this formatting, they hide the logical structure and make the code difficult to read. Therefore, comment lines must have the same indentation as the statement lines that they relate to.
 
-These indentations can only be achieved using comments that start with a quotation mark ("), because this character can be in any position. A comment line that starts with an asterisk (\*) must always be in the first position. It is therefore strongly recommended that you start all comments used in procedures ([methods](javascript:call_link\('abenuse_operand_position_guidl.htm'\) "Guideline")) with a quotation mark and the correct indentation. Comment lines that start with a quotation mark must not be confused with end of line comments, which are appear after different code.
+These indentations can only be achieved using comments that start with a quotation mark ("), because this character can be in any position. A comment line that starts with an asterisk (\*) must always be in the first position. It is therefore strongly recommended that you start all comments used in procedures ([methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_operand_position_guidl.htm "Guideline")) with a quotation mark and the correct indentation. Comment lines that start with a quotation mark must not be confused with end of line comments, which are appear after different code.
 
-Comment lines that start with an asterisk should only be used for head comments of classes and procedures. Here they help to [subdivide](javascript:call_link\('abencontent_guidl.htm'\) "Guideline") source code into logical sections. In addition, they are useful for temporarily disabling statements by commenting them out. The commented-out code can be clearly distinguished from actually indented comments.
+Comment lines that start with an asterisk should only be used for head comments of classes and procedures. Here they help to [subdivide](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontent_guidl.htm "Guideline") source code into logical sections. In addition, they are useful for temporarily disabling statements by commenting them out. The commented-out code can be clearly distinguished from actually indented comments.
 
 Bad Example
 

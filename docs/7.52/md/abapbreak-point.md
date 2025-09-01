@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [Checkpoints](javascript:call_link\('abencheckpoints.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_tests.htm) →  [Checkpoints](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoints.htm) → 
 
 BREAK-POINT
 
-[Quick Reference](javascript:call_link\('abapbreak-point_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapbreak-point_shortref.htm)
 
 Syntax
 
@@ -22,64 +22,64 @@ Extras:
 
 Effect
 
-This statement defines a [breakpoint](javascript:call_link\('abenbreakpoint_glosry.htm'\) "Glossary Entry"). The addition ID controls the activation. Without the addition ID, the breakpoint is always active.
+This statement defines a [breakpoint](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbreakpoint_glosry.htm "Glossary Entry"). The addition ID controls the activation. Without the addition ID, the breakpoint is always active.
 
 Breakpoints in Dialog Processing
 
-If the program reaches an active breakpoint in [dialog processing](javascript:call_link\('abendialog_processing_glosry.htm'\) "Glossary Entry"), the execution of the program is interrupted and ABAP Debugger is opened. An inactive breakpoint is ignored and the program execution continues with the statement after BREAK-POINT.
+If the program reaches an active breakpoint in [dialog processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendialog_processing_glosry.htm "Glossary Entry"), the execution of the program is interrupted and ABAP Debugger is opened. An inactive breakpoint is ignored and the program execution continues with the statement after BREAK-POINT.
 
 Breakpoints in Background Processing
 
-In [background processing](javascript:call_link\('abenbackround_processing_glosry.htm'\) "Glossary Entry"), program execution is not interrupted. When the program reaches a (permanently) active breakpoint (the addition ID is not used), the entry "Breakpoint reached" is written to the system log along with the program name and the location of the breakpoint in the program. Activatable breakpoints (where the addition ID is used) are ignored. The program execution continues in both cases with the statement after BREAK-POINT.
+In [background processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbackround_processing_glosry.htm "Glossary Entry"), program execution is not interrupted. When the program reaches a (permanently) active breakpoint (the addition ID is not used), the entry "Breakpoint reached" is written to the system log along with the program name and the location of the breakpoint in the program. Activatable breakpoints (where the addition ID is used) are ignored. The program execution continues in both cases with the statement after BREAK-POINT.
 
 Breakpoints in Updates
 
-During [synchronous](javascript:call_link\('abensynchronous_update_glosry.htm'\) "Glossary Entry") and [asynchronous updates](javascript:call_link\('abenasynchronous_update_glosry.htm'\) "Glossary Entry") in an [update session](javascript:call_link\('abenupdate_session_glosry.htm'\) "Glossary Entry"), the behavior depends on the setting of the ABAP Debugger:
+During [synchronous](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensynchronous_update_glosry.htm "Glossary Entry") and [asynchronous updates](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenasynchronous_update_glosry.htm "Glossary Entry") in an [update session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenupdate_session_glosry.htm "Glossary Entry"), the behavior depends on the setting of the ABAP Debugger:
 
 -   If ABAP Debugger is not set to update debugging, a breakpoint behaves as in background processing.
     
 -   If ABAP Debugger is set to update debugging, a breakpoint behaves as in dialog processing. The update is executed in a dialog work process on the current application server.
     
 
-In [local updates](javascript:call_link\('abenlocal_update_glosry.htm'\) "Glossary Entry"), a breakpoint behaves as in dialog processing.
+In [local updates](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_update_glosry.htm "Glossary Entry"), a breakpoint behaves as in dialog processing.
 
 Breakpoints in RFC Processing
 
-In [RFC processing](javascript:call_link\('abenrfc_processing_glosry.htm'\) "Glossary Entry"), an active breakpoint is applied and the ABAP Debugger displayed in SAP GUI whenever an [RFC dialog interaction](javascript:call_link\('abenrfc_dialog.htm'\)) is possible. The ABAP Debugger in the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") can also be displayed if no dialog interaction is possible.
+In [RFC processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_processing_glosry.htm "Glossary Entry"), an active breakpoint is applied and the ABAP Debugger displayed in SAP GUI whenever an [RFC dialog interaction](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_dialog.htm) is possible. The ABAP Debugger in the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry") can also be displayed if no dialog interaction is possible.
 
 Breakpoints in ICF Processing and APC Processing
 
-In [ICF processing](javascript:call_link\('abenicf_processing_glosry.htm'\) "Glossary Entry") and [APC processing](javascript:call_link\('abenapc_processing_glosry.htm'\) "Glossary Entry"), an active breakpoint is applied and the ABAP Debugger displayed in SAP GUI only when external debugging is enabled. When programs or procedures are called in ICF processing and APC processing, they are executed in the context of the service context and their breakpoints behave accordingly.
+In [ICF processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenicf_processing_glosry.htm "Glossary Entry") and [APC processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapc_processing_glosry.htm "Glossary Entry"), an active breakpoint is applied and the ABAP Debugger displayed in SAP GUI only when external debugging is enabled. When programs or procedures are called in ICF processing and APC processing, they are executed in the context of the service context and their breakpoints behave accordingly.
 
-External debugging can be switched on for a limited time period (by default two hours) using transaction SICF or by setting an external breakpoint in ABAP Editor. If external debugging is not switched on, the breakpoints behave as in background processing. The ABAP Debugger in the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") can also be displayed if external debugging is not enabled.
+External debugging can be switched on for a limited time period (by default two hours) using transaction SICF or by setting an external breakpoint in ABAP Editor. If external debugging is not switched on, the breakpoints behave as in background processing. The ABAP Debugger in the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry") can also be displayed if external debugging is not enabled.
 
 Breakpoints in ABAP Daemon Processing
 
-In [ABAP Daemon processing](javascript:call_link\('abenabap_daemon_processing_glosry.htm'\) "Glossary Entry"), an active breakpoint is applied and the ABAP Debugger displayed in SAP GUI only when external debugging is enabled. This also applies to non-dialog users and in callback routines.
+In [ABAP Daemon processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_daemon_processing_glosry.htm "Glossary Entry"), an active breakpoint is applied and the ABAP Debugger displayed in SAP GUI only when external debugging is enabled. This also applies to non-dialog users and in callback routines.
 
 Breakpoints in System Programs
 
-In system programs, system modules, system subroutines, and system function modules whose name begins with %\_ , the statement BREAK-POINT is only respected if system debugging is switched on in ABAP Debugger (this is done in the Settings menu or by entering "/hs" in the command field of the [system toolbar](javascript:call_link\('abenstandard_toolbar_glosry.htm'\) "Glossary Entry")). Otherwise, breakpoints are ignored.
+In system programs, system modules, system subroutines, and system function modules whose name begins with %\_ , the statement BREAK-POINT is only respected if system debugging is switched on in ABAP Debugger (this is done in the Settings menu or by entering "/hs" in the command field of the [system toolbar](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_toolbar_glosry.htm "Glossary Entry")). Otherwise, breakpoints are ignored.
 
 Notes
 
--   A breakpoint in [SELECT](javascript:call_link\('abapselect.htm'\)) loops can raise an exception due to the loss of the [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry"). This is because a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") may be triggered during debugging.
+-   A breakpoint in [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm) loops can raise an exception due to the loss of the [database cursor](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_cursor_glosry.htm "Glossary Entry"). This is because a [database commit](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_commit_glosry.htm "Glossary Entry") may be triggered during debugging.
     
 -   Breakpoints that are always active are used solely for test purposes and are not permitted in production programs. The statement BREAK-POINT without the addition ID therefore causes an error in the extended program check.
     
--   BREAK followed by a user name is not a statement, but a predefined [macro](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry").
+-   BREAK followed by a user name is not a statement, but a predefined [macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_glosry.htm "Glossary Entry").
     
--   The statement BREAK-POINT defines a [checkpoint](javascript:call_link\('abencheckpoint_glosry.htm'\) "Glossary Entry") that is part of an ABAP program. In the ABAP Editor and ABAP Debugger, you can set and manage the following breakpoints without changing the source code:
+-   The statement BREAK-POINT defines a [checkpoint](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_glosry.htm "Glossary Entry") that is part of an ABAP program. In the ABAP Editor and ABAP Debugger, you can set and manage the following breakpoints without changing the source code:
     
 
 -   Session breakpoints
-    are set in ABAP Editor. Session breakpoints are valid in all [ABAP sessions](javascript:call_link\('abenmain_session_glosry.htm'\) "Glossary Entry") of the current user session.
+    are set in ABAP Editor. Session breakpoints are valid in all [ABAP sessions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmain_session_glosry.htm "Glossary Entry") of the current user session.
 
 -   External breakpoints
-    are set in ABAP Editor or in transaction SICF. External breakpoints have the same validity as session breakpoints, but remain valid for other user sessions when the current session is ended. This makes them particularly well suited for debugging [RFC](javascript:call_link\('abenrfc_processing_glosry.htm'\) "Glossary Entry") processing, [ICF](javascript:call_link\('abenicf_processing_glosry.htm'\) "Glossary Entry") processing, and [APC](javascript:call_link\('abenapc_processing_glosry.htm'\) "Glossary Entry") processing.
+    are set in ABAP Editor or in transaction SICF. External breakpoints have the same validity as session breakpoints, but remain valid for other user sessions when the current session is ended. This makes them particularly well suited for debugging [RFC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_processing_glosry.htm "Glossary Entry") processing, [ICF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenicf_processing_glosry.htm "Glossary Entry") processing, and [APC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapc_processing_glosry.htm "Glossary Entry") processing.
 
 -   Debugger breakpoints
-    are set in the ABAP Debugger window. They are valid for the current debugging session and for all [internal sessions](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") and [ABAP sessions](javascript:call_link\('abenmain_session_glosry.htm'\) "Glossary Entry") of the debuggee. Debugger breakpoints can be saved as external breakpoints.
+    are set in the ABAP Debugger window. They are valid for the current debugging session and for all [internal sessions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry") and [ABAP sessions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmain_session_glosry.htm "Glossary Entry") of the debuggee. Debugger breakpoints can be saved as external breakpoints.
     
 
 Example
@@ -100,14 +100,14 @@ Effect
 
 The following applies when using the addition ID:
 
--   In dialog processing, activation from outside the program is controlled by a [checkpoint group](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry") group or an [activation variant](javascript:call_link\('abenactivation_variant_glosry.htm'\) "Glossary Entry"). The rules that apply to the statement [ASSERT](javascript:call_link\('abapassert.htm'\)) also apply when the checkpoint group is specified. However, only inactive or break can be chosen as operation mode.
+-   In dialog processing, activation from outside the program is controlled by a [checkpoint group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_group_glosry.htm "Glossary Entry") group or an [activation variant](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenactivation_variant_glosry.htm "Glossary Entry"). The rules that apply to the statement [ASSERT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassert.htm) also apply when the checkpoint group is specified. However, only inactive or break can be chosen as operation mode.
     
--   In [background](javascript:call_link\('abenbatch_session_glosry.htm'\) "Glossary Entry") sessions, [update](javascript:call_link\('abenupdate_session_glosry.htm'\) "Glossary Entry") sessions, [ICF](javascript:call_link\('abenicf_session_glosry.htm'\) "Glossary Entry") sessions, and [APC](javascript:call_link\('abenapc_session_glosry.htm'\) "Glossary Entry") sessions without external debugging, the breakpoint is always inactive if the addition ID is used.
+-   In [background](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbatch_session_glosry.htm "Glossary Entry") sessions, [update](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenupdate_session_glosry.htm "Glossary Entry") sessions, [ICF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenicf_session_glosry.htm "Glossary Entry") sessions, and [APC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapc_session_glosry.htm "Glossary Entry") sessions without external debugging, the breakpoint is always inactive if the addition ID is used.
     
 
 Example
 
-Specifies a breakpoint whose behavior is specified using the [checkpoint group](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry") DEMO\_CHECKPOINT\_GROUP.
+Specifies a breakpoint whose behavior is specified using the [checkpoint group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_group_glosry.htm "Glossary Entry") DEMO\_CHECKPOINT\_GROUP.
 
 BREAK-POINT ID demo\_checkpoint\_group.
 
@@ -117,7 +117,7 @@ Addition 2
 
 Effect
 
-A supplementary text can be entered for the system log in log\_text. log\_text is ignored in dialog processing. In background processing and during the [update task](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry"), the contents of log\_text in the system log are inserted between the words "Breakpoint" and "reached". log\_text expects a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like data object with a length of 40 characters. If a data object of type string is specified, it is ignored.
+A supplementary text can be entered for the system log in log\_text. log\_text is ignored in dialog processing. In background processing and during the [update task](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenupdate_glosry.htm "Glossary Entry"), the contents of log\_text in the system log are inserted between the words "Breakpoint" and "reached". log\_text expects a [flat](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenflat_glosry.htm "Glossary Entry") character-like data object with a length of 40 characters. If a data object of type string is specified, it is ignored.
 
 Example
 
@@ -128,4 +128,4 @@ DATA(log\_text) = CONV log\_text( |in program { sy-repid }| ).
 BREAK-POINT log\_text.
 
 Continue
-[BREAK-POINT - interner Zusatz](javascript:call_link\('abapbreak-point_internal.htm'\))
+[BREAK-POINT - interner Zusatz](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapbreak-point_internal.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [DDIC - Technical Properties of Database Tables](javascript:call_link\('abenddic_database_tables_tech.htm'\)) →  [DDIC - Table-Specific Technical Properties of Database Tables](javascript:call_link\('abenddic_database_tables_techspec.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dictionary.htm) →  [DDIC - Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables.htm) →  [DDIC - Technical Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_tech.htm) →  [DDIC - Table-Specific Technical Properties of Database Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_techspec.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DDIC - Load Unit of Database Tables, ABENDDIC_DATABASE_TABLES_LOAD_UNIT, 757%0D%0A%0D
 %0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -42,9 +42,9 @@ The load unit setting is completely transparent to applications.
 
 Limitations:
 
--   Page Loadable cannot be used for database tables with [storage type](javascript:call_link\('abenddic_database_tables_storage.htm'\)) Row store.
--   Page Loadable cannot be used for [global temporary tables (GTTs)](javascript:call_link\('abenddic_database_tables_gtt.htm'\)).
--   Page Loadable cannot be set for tables that have [data aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry") enabled.
+-   Page Loadable cannot be used for database tables with [storage type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_storage.htm) Row store.
+-   Page Loadable cannot be used for [global temporary tables (GTTs)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddic_database_tables_gtt.htm).
+-   Page Loadable cannot be set for tables that have [data aging](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_aging_glosry.htm "Glossary Entry") enabled.
 
 Hint
 

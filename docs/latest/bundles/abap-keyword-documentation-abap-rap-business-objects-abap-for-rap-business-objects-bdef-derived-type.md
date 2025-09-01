@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
-- [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.958Z
-
----
-
 ### abaptype_table_for.htm
-
-> **📖 Official SAP Documentation**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,7 +11,7 @@ Included pages: 2
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_derived_types.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20TYPE%20TABLE%20FOR%2C%20ABAPTYPE_TABLE_FOR%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -65,11 +46,11 @@ Syntax
 
 Effect
 
-Special ABAP type that is used for internal tables in the context of [RAP](javascript:call_link\('abenrap_glosry.htm'\) "Glossary Entry") to enable the communication between a [RAP BO provider](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry") and a [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry"). These internal tables hold [input parameters](javascript:call_link\('abeninput_parameter_glosry.htm'\) "Glossary Entry"), or [output parameters](javascript:call_link\('abenoutput_parameter_glosry.htm'\) "Glossary Entry") respectively, to enable mass processing of data by bundling ABAP EML READ or MODIFY requests in one method call.
+Special ABAP type that is used for internal tables in the context of [RAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_glosry.htm "Glossary Entry") to enable the communication between a [RAP BO provider](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry") and a [RAP BO consumer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry"). These internal tables hold [input parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninput_parameter_glosry.htm "Glossary Entry"), or [output parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoutput_parameter_glosry.htm "Glossary Entry") respectively, to enable mass processing of data by bundling ABAP EML READ or MODIFY requests in one method call.
 
-For all operations defined in the [BDEF](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry"), ABAP types can be derived and used with this special syntax. The use is dependent on the definition in the BDEF. For example, if the operation create is not specified in the BDEF, TYPE TABLE FOR CREATE cannot be used.
+For all operations defined in the [BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry"), ABAP types can be derived and used with this special syntax. The use is dependent on the definition in the BDEF. For example, if the operation create is not specified in the BDEF, TYPE TABLE FOR CREATE cannot be used.
 
-The internal tables contain various [special components](javascript:call_link\('abapderived_types_comp.htm'\)), also depending on the BDEF. Generally, the tables are [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with an empty [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry"). However, most of the tables have predefined [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry"). Find more information in the topic [Secondary Keys for BDEF Derived Types](javascript:call_link\('abapderived_types_secondary_keys.htm'\)).
+The internal tables contain various [special components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_comp.htm), also depending on the BDEF. Generally, the tables are [standard tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_table_glosry.htm "Glossary Entry") with an empty [primary table key](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprimary_table_key_glosry.htm "Glossary Entry"). However, most of the tables have predefined [secondary table keys](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensecondary_table_key_glosry.htm "Glossary Entry"). Find more information in the topic [Secondary Keys for BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_secondary_keys.htm).
 
 Notes on the syntax:
 
@@ -80,23 +61,23 @@ Notes on the syntax:
 -   bdef~group: group is the name of a group specified in the BDEF. The reference to the group is made using a tilde (~).
 -   bdef~det: det is the name of a determination specified in the BDEF. The reference to the determination is made using a tilde (~).
 -   bdef~valid: valid is the name of a validation specified in the BDEF. The reference to the validation is made using a tilde (~).
--   bdef~evt: evt is the name of a [RAP business event](javascript:call_link\('abenrap_entity_event_glosry.htm'\) "Glossary Entry") specified in the BDEF. The reference to the event is made using a tilde (~).
+-   bdef~evt: evt is the name of a [RAP business event](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_entity_event_glosry.htm "Glossary Entry") specified in the BDEF. The reference to the event is made using a tilde (~).
 
 Hints
 
--   The components of BDEF derived types can be checked via the element information in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") by choosing F2 for the typed variable.
+-   The components of BDEF derived types can be checked via the element information in [ADT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm "Glossary Entry") by choosing F2 for the typed variable.
     ![Figure](abdoc_derived_types_adt_f2.png)
     
     For a convenient handling and specification of the % components, the ADT code completion shows possible entries and simplifies inserting them without the need to remember the respective field names from the underlying CDS view.
     
     ![Figure](abdoc_derived_types_adt_f2_2.png)
--   The components listed in the Components column of the following table might cover more than mentioned there. It depends on the context. For example, the draft indicator %is\_draft is available in case of drafts only. %pid is only available in [late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\)) scenarios.
+-   The components listed in the Components column of the following table might cover more than mentioned there. It depends on the context. For example, the draft indicator %is\_draft is available in case of drafts only. %pid is only available in [late numbering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_late_numbering.htm) scenarios.
 
 Overview
 
 The following table covers the variants including information on the BDEF prerequisites and the tables' components.
 
-For details on the components, see [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)). For details on the BDEF specifications, see the subtopics in [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)).
+For details on the components, see [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_comp.htm). For details on the BDEF specifications, see the subtopics in [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl.htm).
 
 TYPE TABLE FOR ...
 
@@ -108,9 +89,9 @@ Components
 
 ACTION IMPORT
 
-Used to store the import parameters for [actions](javascript:call_link\('abenbdl_action.htm'\)).
+Used to store the import parameters for [actions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action.htm).
 
-The action is specified in the BDEF. See the details in the RAP BDL documentation for [action](javascript:call_link\('abenbdl_action.htm'\)).
+The action is specified in the BDEF. See the details in the RAP BDL documentation for [action](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action.htm).
 
 Note: The availability of the following components depends on the context and defined action in the BDEF, that is, only a subset of the below components can be expected to be available. For example, %param is only available if the action is defined with the notation PARAMETER.
 %cid
@@ -122,9 +103,9 @@ Note: The availability of the following components depends on the context and de
 
 ACTION RESULT
 
-Used to store the result for [actions](javascript:call_link\('abenbdl_action.htm'\)).
+Used to store the result for [actions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action.htm).
 
-Only available if the action has a result parameter specified in the BDEF. See the details in the RAP BDL documentation for [action](javascript:call_link\('abenbdl_action.htm'\)).
+Only available if the action has a result parameter specified in the BDEF. See the details in the RAP BDL documentation for [action](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action.htm).
 
 Note: The availability of the following components depends on the context and defined action in the BDEF, that is, only a subset of the below components might be expected to be available depending on how the action is defined in the BDEF.
 %cid
@@ -137,10 +118,10 @@ Note: The availability of the following components depends on the context and de
 AUTHORIZATION KEY
 INSTANCE AUTHORIZATION KEY
 
-Used for retrieving [instance authorization](javascript:call_link\('abenbdl_authorization.htm'\)) information in the context of handler method implementations of ABAP EML [GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\)) statements. The keys of RAP BO instances, that have been specified, serve as import parameters for the corresponding handler methods. The keys specify for which RAP BO instance authorization information is to be requested.
+Used for retrieving [instance authorization](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_authorization.htm) information in the context of handler method implementations of ABAP EML [GET PERMISSIONS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_permissions.htm) statements. The keys of RAP BO instances, that have been specified, serve as import parameters for the corresponding handler methods. The keys specify for which RAP BO instance authorization information is to be requested.
 A specification with AUTHORIZATION KEY is the same as with INSTANCE AUTHORIZATION KEY.
 
-An authorization check must be specified in the BDEF: authorization master or authorization dependent. See the details in the RAP BDL documentation for [authorization](javascript:call_link\('abenbdl_authorization.htm'\)).
+An authorization check must be specified in the BDEF: authorization master or authorization dependent. See the details in the RAP BDL documentation for [authorization](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_authorization.htm).
 
 %key
 %pky
@@ -149,10 +130,10 @@ An authorization check must be specified in the BDEF: authorization master or au
 AUTHORIZATION RESULT
 INSTANCE AUTHORIZATION RESULT
 
-Used for retrieving [instance authorization](javascript:call_link\('abenbdl_authorization.htm'\)) information in the context of handler method implementations of ABAP EML [GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\)) statements. The result contains the outcome of the permission information retrieval for authorizations based on the keys and request parameters.
+Used for retrieving [instance authorization](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_authorization.htm) information in the context of handler method implementations of ABAP EML [GET PERMISSIONS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_permissions.htm) statements. The result contains the outcome of the permission information retrieval for authorizations based on the keys and request parameters.
 A specification with AUTHORIZATION RESULT is the same as with INSTANCE AUTHORIZATION RESULT.
 
-An authorization check must be specified in the BDEF: authorization master or authorization dependent. See the details in the RAP BDL documentation for [authorization](javascript:call_link\('abenbdl_authorization.htm'\)).
+An authorization check must be specified in the BDEF: authorization master or authorization dependent. See the details in the RAP BDL documentation for [authorization](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_authorization.htm).
 
 %action
 %assoc
@@ -166,9 +147,9 @@ An authorization check must be specified in the BDEF: authorization master or au
 CHANGE
 
 Only used in the save\_modified method that is part of a local saver class of an ABP that inherits from the base saver class CL\_ABAP\_BEHAVIOR\_SAVER. It is only used in the context of managed implementations with additional save and unmanaged save.
-Internal tables that are typed with TYPE TABLE FOR CHANGE are available as nested tables of the create and update structures typed with [TYPE REQUEST FOR CHANGE](javascript:call_link\('abaptype_request_for.htm'\)) in the save\_modified method.
+Internal tables that are typed with TYPE TABLE FOR CHANGE are available as nested tables of the create and update structures typed with [TYPE REQUEST FOR CHANGE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_request_for.htm) in the save\_modified method.
 
-See the RAP BDL topic [RAP BDL - saving options](javascript:call_link\('abenbdl_saving.htm'\)) for the BDEF prerequisites on managed implementations with additional save and unmanaged save.
+See the RAP BDL topic [RAP BDL - saving options](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_saving.htm) for the BDEF prerequisites on managed implementations with additional save and unmanaged save.
 
 %control
 %data
@@ -177,10 +158,10 @@ Note: The access is not allowed outside of the implementation class.
 
 CREATE
 
-Used for [CREATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) or create-by-association ([CREATE BY](javascript:call_link\('abapmodify_entity_entities_op.htm'\))) operations.
+Used for [CREATE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entity_entities_op.htm) or create-by-association ([CREATE BY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entity_entities_op.htm)) operations.
 
-CREATE bdef: create must be defined in the root view's part of the BDEF. See the details in the RAP BDL documentation for [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\)).
-CREATE bdef\\\_assoc: create-by-association operations are enabled by default for compositions even if not explicitly maintained. Yet, it is recommended that the create operation for the respective association is included in the root view's or child view's part of the BDEF. A create-by-association operation cannot be carried out for a child entity if it is not explicitly maintained using the { create; } notation. For modifying external cross-BO associations that are not part of the composition, the { create; } notation must be explicitly maintained in the BDEF for the association. As a prerequisite, the behavior for the association \_assoc is maintained in another BDEF accordingly. See more details in the RAP BDL documentation for [Operations for Associations](javascript:call_link\('abenbdl_association.htm'\)).
+CREATE bdef: create must be defined in the root view's part of the BDEF. See the details in the RAP BDL documentation for [standard operations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_standard_operations.htm).
+CREATE bdef\\\_assoc: create-by-association operations are enabled by default for compositions even if not explicitly maintained. Yet, it is recommended that the create operation for the respective association is included in the root view's or child view's part of the BDEF. A create-by-association operation cannot be carried out for a child entity if it is not explicitly maintained using the { create; } notation. For modifying external cross-BO associations that are not part of the composition, the { create; } notation must be explicitly maintained in the BDEF for the association. As a prerequisite, the behavior for the association \_assoc is maintained in another BDEF accordingly. See more details in the RAP BDL documentation for [Operations for Associations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_association.htm).
 
 CREATE bdef:
 %cid
@@ -196,9 +177,9 @@ CREATE bdef\\assoc:
 
 DELETE
 
-Used for [DELETE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) operations.
+Used for [DELETE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entity_entities_op.htm) operations.
 
-delete must be defined in the root view's part of the BDEF. See the details in the RAP BDL documentation for [Standard Operations](javascript:call_link\('abenbdl_standard_operations.htm'\)).
+delete must be defined in the root view's part of the BDEF. See the details in the RAP BDL documentation for [Standard Operations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_standard_operations.htm).
 
 %cid\_ref
 %key
@@ -209,7 +190,7 @@ DETERMINATION
 
 Used to specify the keys of RAP BO instances as input parameters in the context of determinations and their handler method implementations. The keys specify which RAP BO instances are to be respected for determinations.
 
-The determination is specified in the BDEF. See the details in the RAP BDL documentation for [Determinations](javascript:call_link\('abenbdl_determinations.htm'\)).
+The determination is specified in the BDEF. See the details in the RAP BDL documentation for [Determinations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_determinations.htm).
 
 %key
 %pky
@@ -218,9 +199,9 @@ Note: The access to determinations is not allowed outside of the implementation 
 
 EVENT
 
-Used with [RAISE ENTITY EVENT](javascript:call_link\('abapraise_entity_event.htm'\)) statements in the context of [RAP entity events](javascript:call_link\('abenrap_entity_event_glosry.htm'\) "Glossary Entry").
+Used with [RAISE ENTITY EVENT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_entity_event.htm) statements in the context of [RAP entity events](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_entity_event_glosry.htm "Glossary Entry").
 
-The event evt must be defined in a BDEF or [BDEF extension](javascript:call_link\('abenrap_extension_glosry.htm'\) "Glossary Entry") with or without parameters.
+The event evt must be defined in a BDEF or [BDEF extension](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_extension_glosry.htm "Glossary Entry") with or without parameters.
 
 %key
 If the event is defined with parameters, %param is available, too.
@@ -229,7 +210,7 @@ FAILED
 FAILED EARLY
 FAILED LATE
 
-Used to specify [RAP response parameters](javascript:call_link\('abenrap_response_param_glosry.htm'\) "Glossary Entry"). In this case, it is used for information for identifying the data set for which an error occurred in a RAP operation.
+Used to specify [RAP response parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_response_param_glosry.htm "Glossary Entry"). In this case, it is used for information for identifying the data set for which an error occurred in a RAP operation.
 The addition EARLY or no addition is relevant in the context of the interaction phase. The addition LATE is relevant in the context of the save phase.
 
 In general, behavior must be defined for the entity in the BDEF.
@@ -251,10 +232,10 @@ In case of LATE, the component %cid is not available.
 FEATURES KEY
 INSTANCE FEATURES KEY
 
-Used for retrieving [instance feature control](javascript:call_link\('abenbdl_actions_fc.htm'\)) information in the context of handler method implementations of ABAP EML [GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\)) statements. The keys of RAP BO instances that have been specified serve as import parameters of the corresponding handler methods. The keys specify for which RAP BO instances feature control information is to be requested.
+Used for retrieving [instance feature control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_fc.htm) information in the context of handler method implementations of ABAP EML [GET PERMISSIONS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_permissions.htm) statements. The keys of RAP BO instances that have been specified serve as import parameters of the corresponding handler methods. The keys specify for which RAP BO instances feature control information is to be requested.
 A specification with FEATURES KEY is the same as with INSTANCE FEATURES KEY.
 
-The property features:instance must be specified in the BDEF. See the subtopics in the RAP BDL documentation on the [Entity Behavior Body](javascript:call_link\('abenbdl_body.htm'\)) for those elements that can be specified with the property.
+The property features:instance must be specified in the BDEF. See the subtopics in the RAP BDL documentation on the [Entity Behavior Body](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_body.htm) for those elements that can be specified with the property.
 
 %key
 %pky
@@ -263,10 +244,10 @@ The property features:instance must be specified in the BDEF. See the subtopics 
 FEATURES RESULT
 INSTANCE FEATURES RESULT
 
-Used for retrieving [instance feature control](javascript:call_link\('abenbdl_actions_fc.htm'\)) information in the context of handler method implementations of ABAP EML [GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\)) statements. The result contains the outcome of the permission information retrieval for instance features based on the keys and request parameters.
+Used for retrieving [instance feature control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_fc.htm) information in the context of handler method implementations of ABAP EML [GET PERMISSIONS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_permissions.htm) statements. The result contains the outcome of the permission information retrieval for instance features based on the keys and request parameters.
 A specification with FEATURES RESULT is the same as with INSTANCE FEATURES RESULT.
 
-The property features:instance must be specified in the BDEF. See the subtopics in the RAP BDL documentation on the [entity behavior body](javascript:call_link\('abenbdl_body.htm'\)) for those elements that can be specified with the property.
+The property features:instance must be specified in the BDEF. See the subtopics in the RAP BDL documentation on the [entity behavior body](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_body.htm) for those elements that can be specified with the property.
 
 Note: The availability of the following components depends on the BDEF, that is, only a subset of the below components might be expected to be available.
 %action
@@ -281,9 +262,9 @@ Note: The availability of the following components depends on the BDEF, that is,
 
 FUNCTION IMPORT
 
-Used to store the import parameters for [functions](javascript:call_link\('abenbdl_function.htm'\)).
+Used to store the import parameters for [functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_function.htm).
 
-The function is specified in the BDEF. See the details in the RAP BDL documentation for [Function](javascript:call_link\('abenbdl_function.htm'\)).
+The function is specified in the BDEF. See the details in the RAP BDL documentation for [Function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_function.htm).
 
 Note: The availability of the following components depends on the context and defined function in the BDEF, that is, only a subset of the below components might be expected to be available.
 %cid
@@ -294,9 +275,9 @@ Note: The availability of the following components depends on the context and de
 
 FUNCTION RESULT
 
-Used to store the result for [functions](javascript:call_link\('abenbdl_function.htm'\)).
+Used to store the result for [functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_function.htm).
 
-Only available if the function has a result parameter specified in the BDEF. See the details in the RAP BDL documentation for [function](javascript:call_link\('abenbdl_function.htm'\)).
+Only available if the function has a result parameter specified in the BDEF. See the details in the RAP BDL documentation for [function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_function.htm).
 
 Note: The availability of the following components depends on the context and defined function in the BDEF, that is, only a subset of the below components might be expected to be available.
 %cid
@@ -307,19 +288,19 @@ Note: The availability of the following components depends on the context and de
 
 HIERARCHY
 
-Used for [deep input parameters](javascript:call_link\('abenbdl_action_input_param.htm'\)) and [deep output parameters](javascript:call_link\('abenbdl_action_output_para.htm'\)) in the context of deep [action](javascript:call_link\('abenrap_action_glosry.htm'\) "Glossary Entry") or [function](javascript:call_link\('abenrap_function_glosry.htm'\) "Glossary Entry") parameters. The type is only available for [abstract BDEFs](javascript:call_link\('abencds_abstract_bdef_glosry.htm'\) "Glossary Entry").
+Used for [deep input parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action_input_param.htm) and [deep output parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action_output_para.htm) in the context of deep [action](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_action_glosry.htm "Glossary Entry") or [function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_function_glosry.htm "Glossary Entry") parameters. The type is only available for [abstract BDEFs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_bdef_glosry.htm "Glossary Entry").
 
-Only available if behavior is defined for an abstract entity, i. e. the BDEF must be defined with [with hierarchy;](javascript:call_link\('abenbdl_bdef_abstract_header.htm'\)). Furthermore, deep actions or functions must be defined in the non-abstract BDEFs with the additions [deep parameter](abenbdl_action_input_param.htm#!ABAP_ALTERNATIVE_2@2@) (to interpret the input parameter as structure) or [deep table parameter](abenbdl_action_input_param.htm#!ABAP_ALTERNATIVE_2@2@) (to interpret the input parameter as table).
+Only available if behavior is defined for an abstract entity, i. e. the BDEF must be defined with [with hierarchy;](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_bdef_abstract_header.htm). Furthermore, deep actions or functions must be defined in the non-abstract BDEFs with the additions [deep parameter](abenbdl_action_input_param.htm#!ABAP_ALTERNATIVE_2@2@) (to interpret the input parameter as structure) or [deep table parameter](abenbdl_action_input_param.htm#!ABAP_ALTERNATIVE_2@2@) (to interpret the input parameter as table).
 
-The type comprises all entity fields plus, if available, a component for every [composition](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry") that itself has subcomponents. All fields keep their original line type.
-If the BDEF for the abstract entity includes behavior definitions for the compositions, the derived type contains further components: For a composition with cardinality <= 1, this component is a structure; otherwise, the component is a table. If the behavior for an abstract entity is defined with the addition [with control](abenbdl_define_beh_abstract.htm#!ABAP_ALTERNATIVE_1@1@), the derived type also contains [%control](javascript:call_link\('abapderived_types_comp.htm'\)) as component. The components of %control itself are comprised of all fields of the abstract entity and, as above and if available, structures or internal tables for compositions.
-The subcomponents of the [%param](javascript:call_link\('abapderived_types_param.htm'\)) component in the context of deep action and function are typed with this BDEF derived type.
+The type comprises all entity fields plus, if available, a component for every [composition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_composition_glosry.htm "Glossary Entry") that itself has subcomponents. All fields keep their original line type.
+If the BDEF for the abstract entity includes behavior definitions for the compositions, the derived type contains further components: For a composition with cardinality <= 1, this component is a structure; otherwise, the component is a table. If the behavior for an abstract entity is defined with the addition [with control](abenbdl_define_beh_abstract.htm#!ABAP_ALTERNATIVE_1@1@), the derived type also contains [%control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_comp.htm) as component. The components of %control itself are comprised of all fields of the abstract entity and, as above and if available, structures or internal tables for compositions.
+The subcomponents of the [%param](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_param.htm) component in the context of deep action and function are typed with this BDEF derived type.
 
 KEY OF
 
-Used, for example, to specify RAP BO instances that are to be locked in the context of the ABAP EML statement [SET LOCKS](javascript:call_link\('abapset_locks.htm'\)). The nested tables of the structures that are typed with [TYPE REQUEST FOR DELETE](javascript:call_link\('abaptype_request_for.htm'\)) in the context of managed RAP BOs [with additional save](javascript:call_link\('abenbdl_saving.htm'\)) and [with unmanaged save](javascript:call_link\('abenbdl_saving.htm'\)) also use this type.
+Used, for example, to specify RAP BO instances that are to be locked in the context of the ABAP EML statement [SET LOCKS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_locks.htm). The nested tables of the structures that are typed with [TYPE REQUEST FOR DELETE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_request_for.htm) in the context of managed RAP BOs [with additional save](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_saving.htm) and [with unmanaged save](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_saving.htm) also use this type.
 
-See the details in the RAP BDL documentation for [Locking](javascript:call_link\('abenbdl_locking.htm'\)) and [Saving options](javascript:call_link\('abenbdl_saving.htm'\)).
+See the details in the RAP BDL documentation for [Locking](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_locking.htm) and [Saving options](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_saving.htm).
 
 The keys (not %key).
 Note: %is\_draft and %pid are not possible.
@@ -328,8 +309,8 @@ MAPPED
 MAPPED EARLY
 MAPPED LATE
 
-Used to specify [RAP response parameters](javascript:call_link\('abenrap_response_param_glosry.htm'\) "Glossary Entry"). In this case, it is used to provide mapping information on [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry"), for example, which key values were created for given content IDs ([%cid](javascript:call_link\('abapderived_types_cid.htm'\))).
-The addition EARLY or no addition is relevant in the context of the interaction phase. The addition LATE is relevant in the context of the save phase. See more details in the documentation for [response\_param](javascript:call_link\('abapeml_response.htm'\)).
+Used to specify [RAP response parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_response_param_glosry.htm "Glossary Entry"). In this case, it is used to provide mapping information on [RAP BO instances](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry"), for example, which key values were created for given content IDs ([%cid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_cid.htm)).
+The addition EARLY or no addition is relevant in the context of the interaction phase. The addition LATE is relevant in the context of the save phase. See more details in the documentation for [response\_param](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm).
 
 In general, behavior must be defined for the entity in the BDEF.
 
@@ -348,7 +329,7 @@ Components of a table typed with the addition LATE:
 
 PERMISSIONS KEY
 
-Used for specifying the keys of RAP BO instances in the context of ABAP EML [GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\)) statements. The keys of RAP BO instances are specified to define for which RAP BO instances permission information is to be requested. The keys serve then as import parameters for the corresponding handler methods [GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\)) statements.
+Used for specifying the keys of RAP BO instances in the context of ABAP EML [GET PERMISSIONS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_permissions.htm) statements. The keys of RAP BO instances are specified to define for which RAP BO instances permission information is to be requested. The keys serve then as import parameters for the corresponding handler methods [GET PERMISSIONS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapget_permissions.htm) statements.
 
  
 
@@ -358,7 +339,7 @@ Used for specifying the keys of RAP BO instances in the context of ABAP EML [GET
 
 READ IMPORT
 
-Used to import RAP BO instances in [READ](javascript:call_link\('abapread_entity_entities_op.htm'\)) and read-by-association ([READ BY](javascript:call_link\('abapread_entity_entities_op.htm'\))) operations.
+Used to import RAP BO instances in [READ](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_entities_op.htm) and read-by-association ([READ BY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_entities_op.htm)) operations.
 
 READ bdef: Read operations are enabled by default for compositions and cannot be deactivated.
 READ bdef\\\_assoc: Read-by-association operations are enabled by default for compositions even if not explicitly maintained. Yet, it is recommended association \_assoc; is used. Reading from cross-BO associations, which are not part of the composition tree, must be explicitly enabled in the BDEF using an association notation.
@@ -370,7 +351,7 @@ READ bdef\\\_assoc: Read-by-association operations are enabled by default for co
 
 READ LINK
 
-Used to return the primary keys of root and associated entities within a composition tree in [READ](javascript:call_link\('abapread_entity_entities_op.htm'\)) and read-by-association ([READ BY](javascript:call_link\('abapread_entity_entities_op.htm'\))) operations.
+Used to return the primary keys of root and associated entities within a composition tree in [READ](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_entities_op.htm) and read-by-association ([READ BY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_entities_op.htm)) operations.
 
 READ bdef\\\_assoc: Read-by-association operations are enabled by default for compositions even if not explicitly maintained. Yet, it is recommended that association \_assoc; s used. Reading from cross-BO associations, which are not part of the composition tree, must be explicitly enabled in the BDEF using an association notation.
 
@@ -378,7 +359,7 @@ Structure source containing %key/%pky/ %tky of the source entity, and structure 
 
 READ RESULT
 
-Used to return successfully read RAP BO instances in [READ](javascript:call_link\('abapread_entity_entities_op.htm'\)) and read-by-association ([READ BY](javascript:call_link\('abapread_entity_entities_op.htm'\))) operations.
+Used to return successfully read RAP BO instances in [READ](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_entities_op.htm) and read-by-association ([READ BY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_entities_op.htm)) operations.
 
 READ bdef: Read operations are enabled by default for compositions and cannot be deactivated.
 READ bdef\\\_assoc: Read-by-association operations are enabled by default for compositions even if not explicitly maintained. Yet, it is recommended that association \_assoc; is used. Reading from cross-BO associations that are not part of the composition tree must be explicitly enabled in the BDEF using an association notation.
@@ -392,8 +373,8 @@ REPORTED
 REPORTED EARLY
 REPORTED LATE
 
-Used to specify [RAP response parameters](javascript:call_link\('abenrap_response_param_glosry.htm'\) "Glossary Entry"). In this case, it is used to exchange messages, for example, error messages, for each entity defined in the BDEF and not related to a specific entity.
-The addition EARLY or no addition is relevant in the context of the interaction phase. The addition LATE is relevant in the context of the save phase. See more details in the documentation for [response\_param](javascript:call_link\('abapeml_response.htm'\)).
+Used to specify [RAP response parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_response_param_glosry.htm "Glossary Entry"). In this case, it is used to exchange messages, for example, error messages, for each entity defined in the BDEF and not related to a specific entity.
+The addition EARLY or no addition is relevant in the context of the interaction phase. The addition LATE is relevant in the context of the save phase. See more details in the documentation for [response\_param](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm).
 
 In general, behavior must be defined for the entity in the BDEF.
 
@@ -415,9 +396,9 @@ In case of LATE, the component %cid is not available.
 
 UPDATE
 
-Used for [UPDATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) operations.
+Used for [UPDATE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entity_entities_op.htm) operations.
 
-update must be defined in the root view's part of the BDEF. See the details in the RAP BDL documentation for [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\)).
+update must be defined in the root view's part of the BDEF. See the details in the RAP BDL documentation for [standard operations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_standard_operations.htm).
 
 %cid\_ref
 %control
@@ -430,7 +411,7 @@ VALIDATION
 
 Used to specify the keys of RAP BO instances as input parameters in the context of validations and their handler method implementations. The keys specify which RAP BO instances are to be considered for validations.
 
-The validation is specified in the BDEF. See the details in the RAP BDL documentation for [Validations](javascript:call_link\('abenbdl_validations.htm'\)).
+The validation is specified in the BDEF. See the details in the RAP BDL documentation for [Validations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_validations.htm).
 
 %key
 %pky
@@ -439,27 +420,17 @@ Note: The access to validations is not allowed outside of the implementation cla
 
 Executable Examples
 
--   The example [Display BDEF Derived Type Components](javascript:call_link\('abeneml_display_derived_type_abexa.htm'\)) allows you to explore multiple BDEF derived type components and their availability in variables typed with TYPE TABLE FOR ... and [TYPE STRUCTURE FOR ...](javascript:call_link\('abaptype_structure_for.htm'\)). The program makes use of three different RAP scenarios: [RAP external numbering](javascript:call_link\('abenrap_ext_numbering_glosry.htm'\) "Glossary Entry"), [late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\)) and [draft](javascript:call_link\('abenbdl_with_draft.htm'\)).
+-   The example [Display BDEF Derived Type Components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_display_derived_type_abexa.htm) allows you to explore multiple BDEF derived type components and their availability in variables typed with TYPE TABLE FOR ... and [TYPE STRUCTURE FOR ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_structure_for.htm). The program makes use of three different RAP scenarios: [RAP external numbering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_ext_numbering_glosry.htm "Glossary Entry"), [late numbering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_late_numbering.htm) and [draft](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_with_draft.htm).
 -   The type TYPE TABLE FOR CHANGE is demonstrated in the following examples:
-    -   [ABAP EML - TYPE REQUEST FOR in a managed RAP BO with additional save](javascript:call_link\('abenrap_additional_save_abexa.htm'\)): Uses a managed RAP BO whose BDEF is specified with with additional save.
-    -   [ABAP EML - TYPE REQUEST FOR in a managed RAP BO with unmanaged save](javascript:call_link\('abenrap_managed_unm_save_abexa.htm'\)): Uses a simple managed RAP BO whose BDEF is specified with with unmanaged save.
--   The type TYPE TABLE FOR HIERARCHY is demonstrated in the example [Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY](javascript:call_link\('abenderived_type_hierarchy_abexa.htm'\)).
+    -   [ABAP EML - TYPE REQUEST FOR in a managed RAP BO with additional save](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_additional_save_abexa.htm): Uses a managed RAP BO whose BDEF is specified with with additional save.
+    -   [ABAP EML - TYPE REQUEST FOR in a managed RAP BO with unmanaged save](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_managed_unm_save_abexa.htm): Uses a simple managed RAP BO whose BDEF is specified with with unmanaged save.
+-   The type TYPE TABLE FOR HIERARCHY is demonstrated in the example [Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm).
 
 Continue
-![Example](exa.gif "Example") [Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY](javascript:call_link\('abenderived_type_hierarchy_abexa.htm'\))
+![Example](exa.gif "Example") [Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
 
-
-
-**📖 Source**: [abaptype_table_for.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm)
 
 ### abenderived_type_hierarchy_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenderived_type_hierarchy_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_type_hierarchy_abexa.htm)
-
 
   
 
@@ -467,18 +438,18 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [TYPE TABLE FOR](javascript:call_link\('abaptype_table_for.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_derived_types.htm) →  [TYPE TABLE FOR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Using%20TYPE%20TABLE%2FTYPE%20STRUCTURE%20FOR%20HIERARCHY%2C%20ABENDERIVED_TYPE_HIERARCHY_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%
 20for%20improvement:)
 
 Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY
 
-This example demonstrates [actions](javascript:call_link\('abenaction_glosry.htm'\) "Glossary Entry") whose [deep input parameters](javascript:call_link\('abenbdl_action_input_param.htm'\)) and [deep output parameters](javascript:call_link\('abenbdl_action_output_para.htm'\)) use the [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") [TYPE TABLE FOR HIERARCHY](javascript:call_link\('abaptype_table_for.htm'\)) and [TYPE STRUCTURE FOR HIERARCHY](javascript:call_link\('abaptype_structure_for.htm'\)) with a [managed](javascript:call_link\('abenbdl_impl_type.htm'\)) [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+This example demonstrates [actions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaction_glosry.htm "Glossary Entry") whose [deep input parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action_input_param.htm) and [deep output parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action_output_para.htm) use the [BDEF derived types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") [TYPE TABLE FOR HIERARCHY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm) and [TYPE STRUCTURE FOR HIERARCHY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_structure_for.htm) with a [managed](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_impl_type.htm) [RAP BO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
 Data model
 
-The CDS data model consists of the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_HIERARCHY:
+The CDS data model consists of the [root entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenroot_entity_glosry.htm "Glossary Entry") DEMO\_MANAGED\_HIERARCHY:
 
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
 define root view entity DEMO\_MANAGED\_HIERARCHY
@@ -501,7 +472,7 @@ Furthermore, the example uses the following abstract entities:
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_HIERARCHY is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_HIERARCHY is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_hierarchy unique;
 strict(2);
@@ -537,13 +508,13 @@ Further BDEFs for root abstract entities that are relevant for the example:
 
 Behavior implementation
 
-For the above RAP behavior definition, one [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_HIERARCHY. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
+For the above RAP behavior definition, one [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_HIERARCHY. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
 
 The following methods are relevant for the example:
 
 -   action\_flat\_param
     
-    The method loops at the flat input parameter. In the loop, the components of a structure are filled with values from the input parameter. These values are also changed within the loop. This change includes adding characters to the character fields and a calculation for the numeric fields. The output parameter result returns the changed instances. Furthermore, the instances are added to an internal table that is typed with the BDEF derived type [TYPE TABLE FOR CREATE](javascript:call_link\('abaptype_table_for.htm'\)). This internal table with RAP BO instances is used as input for a [RAP create operation](javascript:call_link\('abenrap_create_operation_glosry.htm'\) "Glossary Entry").
+    The method loops at the flat input parameter. In the loop, the components of a structure are filled with values from the input parameter. These values are also changed within the loop. This change includes adding characters to the character fields and a calculation for the numeric fields. The output parameter result returns the changed instances. Furthermore, the instances are added to an internal table that is typed with the BDEF derived type [TYPE TABLE FOR CREATE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm). This internal table with RAP BO instances is used as input for a [RAP create operation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_create_operation_glosry.htm "Glossary Entry").
     
 -   action\_deep\_param
     
@@ -555,7 +526,7 @@ The following methods are relevant for the example:
     
 -   returnhdata
     
-    The method returns hierarchy data. The focus of this method is the use of variables that are typed with either TYPE TABLE FOR HIERARCHY or TYPE STRUCTURE FOR HIERARCHY. It visualizes how the BDEF derived type component [%param](javascript:call_link\('abapderived_types_param.htm'\)), which is contained in the output parameter result, might be set up, i. e. the component itself can contain subcomponents of type TYPE TABLE FOR HIERARCHY and TYPE STRUCTURE FOR HIERARCHY. The variables, i. e. the structures and internal tables, are filled with demo data. This data is added to the output parameter result.
+    The method returns hierarchy data. The focus of this method is the use of variables that are typed with either TYPE TABLE FOR HIERARCHY or TYPE STRUCTURE FOR HIERARCHY. It visualizes how the BDEF derived type component [%param](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_param.htm), which is contained in the output parameter result, might be set up, i. e. the component itself can contain subcomponents of type TYPE TABLE FOR HIERARCHY and TYPE STRUCTURE FOR HIERARCHY. The variables, i. e. the structures and internal tables, are filled with demo data. This data is added to the output parameter result.
     
 -   storehdata
     
@@ -760,22 +731,22 @@ Description  
 
 Access with ABAP using EML
 
-The class includes multiple ABAP EML [MODIFY](javascript:call_link\('abapmodify_entity_entities.htm'\)) requests executing actions. Before the actions are carried out, the input parameters for those actions is prepared. In this case, multiple internal tables and structures that are typed with the BDEF derived types TYPE TABLE FOR HIERARCHY or TYPE STRUCTURE FOR HIERARCHY respectively are created. The structures and internal tables are filled with demo values to provide input parameters for the actions that have deep parameters. In case of the action action\_deep\_param, the input parameter is a structure. In case of the action action\_deep\_table\_param, the input parameter is an internal table. The value assignment just visualizes the hierarchy data and possible components of the BDEF derived types, i. e. multiple types with FOR HIERARCHY can occur in those BDEF derived types.
+The class includes multiple ABAP EML [MODIFY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entity_entities.htm) requests executing actions. Before the actions are carried out, the input parameters for those actions is prepared. In this case, multiple internal tables and structures that are typed with the BDEF derived types TYPE TABLE FOR HIERARCHY or TYPE STRUCTURE FOR HIERARCHY respectively are created. The structures and internal tables are filled with demo values to provide input parameters for the actions that have deep parameters. In case of the action action\_deep\_param, the input parameter is a structure. In case of the action action\_deep\_table\_param, the input parameter is an internal table. The value assignment just visualizes the hierarchy data and possible components of the BDEF derived types, i. e. multiple types with FOR HIERARCHY can occur in those BDEF derived types.
 
 The following ABAP EML MODIFY requests executing actions are covered in the example:
 
 1.  Executing action action\_flat\_param
     
-    A content ID [%cid](javascript:call_link\('abapderived_types_cid.htm'\)) and a flat parameter %param are provided as input parameter. A [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) statement saves the RAP BO instances to the database. The result of the action is output based on the method implementation mentioned above. The database table entries are retrieved using a [SELECT](javascript:call_link\('abapselect.htm'\)) statement and displayed as well.
+    A content ID [%cid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_cid.htm) and a flat parameter %param are provided as input parameter. A [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities.htm) statement saves the RAP BO instances to the database. The result of the action is output based on the method implementation mentioned above. The database table entries are retrieved using a [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm) statement and displayed as well.
     
 2.  Executing action action\_deep\_param
     
-    A content ID [%cid](javascript:call_link\('abapderived_types_cid.htm'\)) and a deep parameter %param are provided as input parameter. Here, %param is a structure. A [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) statement saves the RAP BO instances to the database. The result of the action is output based on the method implementation mentioned above. The database table entries are retrieved using a [SELECT](javascript:call_link\('abapselect.htm'\)) statement and output as well.
+    A content ID [%cid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_cid.htm) and a deep parameter %param are provided as input parameter. Here, %param is a structure. A [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities.htm) statement saves the RAP BO instances to the database. The result of the action is output based on the method implementation mentioned above. The database table entries are retrieved using a [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm) statement and output as well.
     
 3.  Executing action action\_deep\_table\_param
     
-    A content ID [%cid](javascript:call_link\('abapderived_types_cid.htm'\)) and a deep parameter %param are provided as input parameter. Here, %param is an internal table. A [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) statement saves the RAP BO instances to the database. The result of the action is output based on the method implementation mentioned above. The database table entries are displayed, too.
+    A content ID [%cid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_cid.htm) and a deep parameter %param are provided as input parameter. Here, %param is an internal table. A [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities.htm) statement saves the RAP BO instances to the database. The result of the action is output based on the method implementation mentioned above. The database table entries are displayed, too.
     
 4.  Executing actions returnhdata and storehdata
     
-    A content ID [%cid](javascript:call_link\('abapderived_types_cid.htm'\)) is provided as input parameter for the returnhdata method. The method returns data based on the method implementation mentioned above. This data is used as input parameter for the storehdata method which includes a RAP create operations that create RAP BO instances. A [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) statement saves the RAP BO instances to the database. The result of both actions is displayed as well as the database table entries.
+    A content ID [%cid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_cid.htm) is provided as input parameter for the returnhdata method. The method returns data based on the method implementation mentioned above. This data is used as input parameter for the storehdata method which includes a RAP create operations that create RAP BO instances. A [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities.htm) statement saves the RAP BO instances to the database. The result of both actions is displayed as well as the database table entries.

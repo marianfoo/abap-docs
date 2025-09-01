@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [RAP - Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [RAP - Entity Behavior Body](javascript:call_link\('abenbdl_body.htm'\)) →  [RAP - RAP BO Operations](javascript:call_link\('abenbdl_operations.htm'\)) →  [RAP - RAP BO Operation, Additions](javascript:call_link\('abenbdl_operations_additions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl.htm) →  [RAP - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bo.htm) →  [RAP - Entity Behavior Definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_define_beh.htm) →  [RAP - Entity Behavior Body](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_body.htm) →  [RAP - RAP BO Operations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_operations.htm) →  [RAP - RAP BO Operation, Additions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_operations_additions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20internal%2C%20ABENBDL_INTERNAL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -16,24 +16,24 @@ Syntax
 
 Effect
 
-Defines a [RAP BO operation](javascript:call_link\('abenrap_bo_operation_glosry.htm'\) "Glossary Entry") as [internal](javascript:call_link\('abenrap_internal_operation_glosry.htm'\) "Glossary Entry"). That means that the operation in question can only be accessed from within the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"), for example from an [action](javascript:call_link\('abenbdl_action.htm'\)), a [validation](javascript:call_link\('abenbdl_validations.htm'\)), or a [determination](javascript:call_link\('abenbdl_determinations.htm'\)). When an external [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") tries to execute an internal RAP BO operation, a [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry") occurs.
+Defines a [RAP BO operation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_operation_glosry.htm "Glossary Entry") as [internal](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_internal_operation_glosry.htm "Glossary Entry"). That means that the operation in question can only be accessed from within the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry"), for example from an [action](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action.htm), a [validation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_validations.htm), or a [determination](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_determinations.htm). When an external [RAP BO consumer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") tries to execute an internal RAP BO operation, a [runtime error](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenruntime_error_glosry.htm "Glossary Entry") occurs.
 
 internal can be applied to the following operations:
 
--   [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\))
--   [operations for associations](javascript:call_link\('abenbdl_association.htm'\))
--   [actions](javascript:call_link\('abenbdl_action.htm'\))
--   [functions](javascript:call_link\('abenbdl_function.htm'\))
--   [determine actions](javascript:call_link\('abenbdl_determine_action.htm'\))
--   [draft actions](javascript:call_link\('abenbdl_draft_action.htm'\))
+-   [standard operations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_standard_operations.htm)
+-   [operations for associations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_association.htm)
+-   [actions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action.htm)
+-   [functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_function.htm)
+-   [determine actions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_determine_action.htm)
+-   [draft actions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_draft_action.htm)
 
-This feature is provided by the [RAP framework](javascript:call_link\('abenrap_framework_glosry.htm'\) "Glossary Entry"). No implementation in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is required.
+This feature is provided by the [RAP framework](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_framework_glosry.htm "Glossary Entry"). No implementation in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is required.
 
 Hints
 
--   If an operation is marked as internal, [feature control](javascript:call_link\('abenbdl_actions_fc.htm'\)) is not supported. Feature control is for external access control and is not required for internal operations.
--   [precheck](javascript:call_link\('abenbdl_precheck.htm'\)) is not available for internal operations.
--   [authorization:update](javascript:call_link\('abenbdl_actions_auth_update.htm'\)), [authorization:global](javascript:call_link\('abenbdl_actions_auth_global.htm'\)), and [authorization:instance](javascript:call_link\('abenbdl_actions_auth_instance.htm'\)) are not available for internal operations.
+-   If an operation is marked as internal, [feature control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_fc.htm) is not supported. Feature control is for external access control and is not required for internal operations.
+-   [precheck](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_precheck.htm) is not available for internal operations.
+-   [authorization:update](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_auth_update.htm), [authorization:global](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_auth_global.htm), and [authorization:instance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_auth_instance.htm) are not available for internal operations.
 
 Example
 
@@ -76,7 +76,7 @@ ENDMETHOD.
 
 For the full ABAP behavior pool implementation, see CCIMP include.
 
-The ABAP class CL\_DEMO\_RAP\_INTERNAL uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object:
+The ABAP class CL\_DEMO\_RAP\_INTERNAL uses [EML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object:
 
 -   It creates five new entity instances by specifying values for the fields Amount and Quantity.
     

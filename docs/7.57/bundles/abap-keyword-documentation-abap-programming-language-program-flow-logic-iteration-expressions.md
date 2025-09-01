@@ -3,35 +3,7 @@
 Included pages: 14
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abeniteration_expressions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm)
-- [abenfor.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm)
-- [abenfor_conditional.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm)
-- [abeniteration_expressions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm)
-- [abencond_iteration_reduce_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_reduce_abexa.htm)
-- [abencond_iteration_value_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_value_abexa.htm)
-- [abencond_iteration_matrix_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_matrix_abexa.htm)
-- [abeninverse_itab_for_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninverse_itab_for_abexa.htm)
-- [abenconstructor_expression_reduce.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm)
-- [abenreduce_constructor_inference.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_constructor_inference.htm)
-- [abenreduce_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_type_inference_abexa.htm)
-
-**Bundle Contains**: 11 documentation pages
-**Version**: ABAP 7.57
-**Generated**: 2025-09-01T11:25:45.271Z
-
----
-
 ### abeniteration_expressions.htm
-
-> **📖 Official SAP Documentation**: [abeniteration_expressions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -39,31 +11,24 @@ Included pages: 14
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Iteration Expressions, ABENITERATION_EXPRESSIONS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0
 D%0A%0D%0ASuggestion for improvement:)
 
 Iteration Expressions
 
-An iteration expression is a subexpression of specific [constructor expressions](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") introduced using the iteration operator FOR and executes an iteration in these expressions. In addition to its optional use for creating lines in internal tables with the corresponding variants of the instance operator [NEW](javascript:call_link\('abennew_constructor_params_itab.htm'\)) and the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)), there is a special reduction operator REDUCE that is based entirely on iteration expressions.
+An iteration expression is a subexpression of specific [constructor expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") introduced using the iteration operator FOR and executes an iteration in these expressions. In addition to its optional use for creating lines in internal tables with the corresponding variants of the instance operator [NEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm) and the value operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_constructor_params_itab.htm), there is a special reduction operator REDUCE that is based entirely on iteration expressions.
 
--   [FOR - Iteration Expressions](javascript:call_link\('abenfor.htm'\))
--   [REDUCE - Reduction Operator](javascript:call_link\('abenconstructor_expression_reduce.htm'\))
+-   [FOR - Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm)
+-   [REDUCE - Reduction Operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm)
 
 Continue
-[FOR, Iteration Expressions](javascript:call_link\('abenfor.htm'\))
-[REDUCE, Reduction Operator](javascript:call_link\('abenconstructor_expression_reduce.htm'\))
+[FOR, Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm)
+[REDUCE, Reduction Operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm)
 
-
-
-**📖 Source**: [abeniteration_expressions.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm)
 
 ### abenfor.htm
-
-> **📖 Official SAP Documentation**: [abenfor.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -71,7 +36,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: FOR, Iteration Expressions, ABENFOR, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASug
 gestion for improvement:)
@@ -80,37 +45,30 @@ FOR, Iteration Expressions
 
 Syntax
 
-... [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\))*|* [NEW](javascript:call_link\('abennew_constructor_params_itab.htm'\))*|* [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)) type( ... FOR [... UNTIL*|*WHILE ...](javascript:call_link\('abenfor_conditional.htm'\))
-                                 *|* [... IN ...](javascript:call_link\('abenfor_itab.htm'\)) ...) ...
+... [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm)*|* [NEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm)*|* [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_constructor_params_itab.htm) type( ... FOR [... UNTIL*|*WHILE ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm)
+                                 *|* [... IN ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) ...) ...
 
 Effect
 
-The language element FOR introduces an [iteration expression](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") as a subexpression in [constructor expressions](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") with the reduction operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) and in the variants of the instance operator [NEW](javascript:call_link\('abennew_constructor_params_itab.htm'\)) and the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)) for creating internal tables.
+The language element FOR introduces an [iteration expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expression_glosry.htm "Glossary Entry") as a subexpression in [constructor expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") with the reduction operator [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm) and in the variants of the instance operator [NEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm) and the value operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_constructor_params_itab.htm) for creating internal tables.
 
 There are two main variants of iteration expressions:
 
--   Iteration expressions with [UNTIL](javascript:call_link\('abenfor_conditional.htm'\)) or [WHILE](javascript:call_link\('abenfor_conditional.htm'\)) for conditional iterations. These expressions are used to iteratively create the results of any data types using REDUCE or to create lines of internal tables using NEW or VALUE. The iteration steps can be defined as required.
--   Iteration expressions with [IN](javascript:call_link\('abenfor_itab.htm'\)) for [table iterations](javascript:call_link\('abentable_iteration_glosry.htm'\) "Glossary Entry"). These expressions are used for [table reductions](javascript:call_link\('abentable_reduction_glosry.htm'\) "Glossary Entry") using REDUCE or [table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry") using NEW or VALUE. The iteration steps here evaluate an existing internal table.
+-   Iteration expressions with [UNTIL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) or [WHILE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) for conditional iterations. These expressions are used to iteratively create the results of any data types using REDUCE or to create lines of internal tables using NEW or VALUE. The iteration steps can be defined as required.
+-   Iteration expressions with [IN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) for [table iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_iteration_glosry.htm "Glossary Entry"). These expressions are used for [table reductions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_reduction_glosry.htm "Glossary Entry") using REDUCE or [table comprehensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_comprehension_glosry.htm "Glossary Entry") using NEW or VALUE. The iteration steps here evaluate an existing internal table.
 
 Hints
 
 -   Any FOR variants can be used in any way in a constructor expression and produce nested iterations.
--   The reduction operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) must contain at least one iteration expression. The variants of the instance operator [NEW](javascript:call_link\('abennew_constructor_params_itab.htm'\)) and the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)) for creating internal tables can contain iteration expressions.
--   The conditional iterations using [UNTIL](javascript:call_link\('abenfor_conditional.htm'\)) or [WHILE](javascript:call_link\('abenfor_conditional.htm'\)) provide an expression-oriented alternative to the loop statements [DO](javascript:call_link\('abapdo.htm'\)) and [WHILE](javascript:call_link\('abapwhile.htm'\)). The same applies to the table iterations using [IN](javascript:call_link\('abenfor_itab.htm'\)) and the statement [LOOP](javascript:call_link\('abaploop_at_itab_variants.htm'\)). The direct use of operand positions on the expression-oriented variants helps to avoid helper variables. Furthermore, they also enable certain tasks, such as creating values iteratively, to be expressed more concisely and more elegantly.
+-   The reduction operator [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm) must contain at least one iteration expression. The variants of the instance operator [NEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm) and the value operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_constructor_params_itab.htm) for creating internal tables can contain iteration expressions.
+-   The conditional iterations using [UNTIL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) or [WHILE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) provide an expression-oriented alternative to the loop statements [DO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdo.htm) and [WHILE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwhile.htm). The same applies to the table iterations using [IN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) and the statement [LOOP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab_variants.htm). The direct use of operand positions on the expression-oriented variants helps to avoid helper variables. Furthermore, they also enable certain tasks, such as creating values iteratively, to be expressed more concisely and more elegantly.
 
 Continue
-[FOR, Conditional Iteration](javascript:call_link\('abenfor_conditional.htm'\))
-[Examples of Iteration Expressions](javascript:call_link\('abeniteration_expressions_abexas.htm'\))
+[FOR, Conditional Iteration](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm)
+[Examples of Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm)
 
-
-
-**📖 Source**: [abenfor.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm)
 
 ### abenfor_conditional.htm
-
-> **📖 Official SAP Documentation**: [abenfor_conditional.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -118,7 +76,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [FOR, Iteration Expressions](javascript:call_link\('abenfor.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) →  [FOR, Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: FOR, Conditional Iteration, ABENFOR_CONDITIONAL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D
 %0A%0D%0ASuggestion for improvement:)
@@ -127,25 +85,25 @@ FOR, Conditional Iteration
 
 Syntax
 
-... FOR var = rhs *\[*THEN expr*\]* UNTIL*|*WHILE [log\_exp](javascript:call_link\('abenlogexp.htm'\)) *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]* ...
+... FOR var = rhs *\[*THEN expr*\]* UNTIL*|*WHILE [log\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp.htm) *\[*[let\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm)*\]* ...
 
 Effect
 
-This syntax form of an [iteration expression](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") executes a conditional iteration.
+This syntax form of an [iteration expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expression_glosry.htm "Glossary Entry") executes a conditional iteration.
 
--   If it is used in a constructor expression with the reduction operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)), the reduction result is created in the iteration steps.
--   If it is used in a constructor expression with the instance operator [NEW](javascript:call_link\('abennew_constructor_params_itab.htm'\)) or with the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)) for internal tables, new table lines are created in the iteration steps and inserted into the tabular result.
+-   If it is used in a constructor expression with the reduction operator [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm), the reduction result is created in the iteration steps.
+-   If it is used in a constructor expression with the instance operator [NEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm) or with the value operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_constructor_params_itab.htm) for internal tables, new table lines are created in the iteration steps and inserted into the tabular result.
 
 The parameters and arguments of the iteration expression must be specified as follows:
 
--   First, a local helper variable var must be declared as an iteration variable and assigned a start value rhs with \=. The same applies to the namespace and visibility of var as to the helper fields declared in a [LET expression](javascript:call_link\('abaplet.htm'\)). The syntax of the declaration is exactly the same as in a [LET expression](javascript:call_link\('abaplet.htm'\)) and it follows the rules that apply here.
+-   First, a local helper variable var must be declared as an iteration variable and assigned a start value rhs with \=. The same applies to the namespace and visibility of var as to the helper fields declared in a [LET expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm). The syntax of the declaration is exactly the same as in a [LET expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm) and it follows the rules that apply here.
 -   The next position depends on the data type of the iteration variable var:
-    -   If the iteration variable var does not have a [numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry") and is not of type d or t, an expression expr must be specified after THEN. The result of this expression can be converted into a data type of var. The expression is calculated for every iteration and its result is assigned to the iteration variable var. This is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry").
-    -   If the iteration variable var has a [numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry"), or is of type d or t, THEN expr is optional. If THEN expr is not specified explicitly, THEN var + 1 is added implicitly or the value of the iteration variable is increased by 1 for every iteration.
--   Afterwards, a termination condition log\_exp must be specified after UNTIL or WHILE. log\_exp is any [logical expression](javascript:call_link\('abenlogical_expression_glosry.htm'\) "Glossary Entry") whose operands can be any data objects visible at this position and any calls possible here.
+    -   If the iteration variable var does not have a [numeric data type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumeric_data_type_glosry.htm "Glossary Entry") and is not of type d or t, an expression expr must be specified after THEN. The result of this expression can be converted into a data type of var. The expression is calculated for every iteration and its result is assigned to the iteration variable var. This is a [general expression position](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry").
+    -   If the iteration variable var has a [numeric data type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumeric_data_type_glosry.htm "Glossary Entry"), or is of type d or t, THEN expr is optional. If THEN expr is not specified explicitly, THEN var + 1 is added implicitly or the value of the iteration variable is increased by 1 for every iteration.
+-   Afterwards, a termination condition log\_exp must be specified after UNTIL or WHILE. log\_exp is any [logical expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_expression_glosry.htm "Glossary Entry") whose operands can be any data objects visible at this position and any calls possible here.
     -   If the termination condition is specified after UNTIL, the logical expression log\_exp is evaluated after every iteration step. If the result of the logical expression is true, the iteration is ended. At least one iteration step is executed.
     -   If the termination condition is specified after WHILE, the logical expression log\_exp is evaluated after every iteration step. If the result of the logical expression is false, the iteration is terminated. If the result of the logical expression is already false before the first iteration step, no iteration steps are executed.
--   An optional LET expression [let\_exp](javascript:call_link\('abaplet.htm'\)) can be specified at the end to define local helper fields. The helper fields are filled in every iteration step and can be used to construct the result.
+-   An optional LET expression [let\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm) can be specified at the end to define local helper fields. The helper fields are filled in every iteration step and can be used to construct the result.
 
 The variables declared in FOR expressions are local. The local data of all outer FOR expressions can be used when their values are set. The iteration variable and any helper variables can be used after the FOR expression, either in additional subexpressions or to construct the result.
 
@@ -155,10 +113,10 @@ Hints
 
 -   Usually, the expression expr (after THEN) and the termination condition log\_exp after UNTIL or WHILE depend on the iteration variable var, but this not a prerequisite. The value of the iteration variable or the termination condition can also be determined in other ways. Status changes, for example, can be queried using method calls.
 -   Usually, a termination condition after UNTIL is preferable to a termination condition after WHILE in all cases where the termination condition does not have to be checked before the first iteration step.
--   In many cases, iteration expressions for conditional iterations can replace [DO](javascript:call_link\('abapdo.htm'\)) and [WHILE](javascript:call_link\('abapwhile.htm'\)) loops, which construct values and internal tables.
--   Multiple sequential FOR expressions with different variants, including the [tabular iterations](javascript:call_link\('abenfor_itab.htm'\)), can be specified in a constructor expression. These expressions then work in the same way as nested loops.
--   A maximum runtime can be configured using the [profile parameters](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") rdisp/scheduler/prio\_low/max\_runtime, rdisp/scheduler/prio\_normal/max\_runtime, and rdisp/scheduler/prio\_high/max\_runtime. If this runtime is exceeded because the termination condition does not occur in time, the program is terminated by the runtime framework.
--   Unlike in a [LET expression](javascript:call_link\('abaplet.htm'\)), a local field symbol cannot be declared instead of the iteration variable var.
+-   In many cases, iteration expressions for conditional iterations can replace [DO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdo.htm) and [WHILE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwhile.htm) loops, which construct values and internal tables.
+-   Multiple sequential FOR expressions with different variants, including the [tabular iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm), can be specified in a constructor expression. These expressions then work in the same way as nested loops.
+-   A maximum runtime can be configured using the [profile parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") rdisp/scheduler/prio\_low/max\_runtime, rdisp/scheduler/prio\_normal/max\_runtime, and rdisp/scheduler/prio\_high/max\_runtime. If this runtime is exceeded because the termination condition does not occur in time, the program is terminated by the runtime framework.
+-   Unlike in a [LET expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm), a local field symbol cannot be declared instead of the iteration variable var.
 
 Example
 
@@ -171,17 +129,10 @@ cl\_demo\_output=>display(
 
 Executable Examples
 
-[Examples of Iteration Expressions](javascript:call_link\('abeniteration_expressions_abexas.htm'\))
+[Examples of Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm)
 
-
-
-**📖 Source**: [abenfor_conditional.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm)
 
 ### abeniteration_expressions_abexas.htm
-
-> **📖 Official SAP Documentation**: [abeniteration_expressions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -189,7 +140,7 @@ Executable Examples
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [FOR, Iteration Expressions](javascript:call_link\('abenfor.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) →  [FOR, Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Examples of Iteration Expressions, ABENITERATION_EXPRESSIONS_ABEXAS, 757%0D%0A%0D%0AE
 rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -197,20 +148,13 @@ rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 Examples of Iteration Expressions
 
 Continue
-![Example](exa.gif "Example") [Creating Values with FOR and REDUCE](javascript:call_link\('abencond_iteration_reduce_abexa.htm'\))
-![Example](exa.gif "Example") [Creating Tables Using FOR and VALUE](javascript:call_link\('abencond_iteration_value_abexa.htm'\))
-![Example](exa.gif "Example") [Creating a Matrix Using FOR and VALUE](javascript:call_link\('abencond_iteration_matrix_abexa.htm'\))
-![Example](exa.gif "Example") [Inverse Reads on Internal Table without STEP](javascript:call_link\('abeninverse_itab_for_abexa.htm'\))
+![Example](exa.gif "Example") [Creating Values with FOR and REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_reduce_abexa.htm)
+![Example](exa.gif "Example") [Creating Tables Using FOR and VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_value_abexa.htm)
+![Example](exa.gif "Example") [Creating a Matrix Using FOR and VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_matrix_abexa.htm)
+![Example](exa.gif "Example") [Inverse Reads on Internal Table without STEP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninverse_itab_for_abexa.htm)
 
-
-
-**📖 Source**: [abeniteration_expressions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm)
 
 ### abencond_iteration_reduce_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencond_iteration_reduce_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_reduce_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -218,14 +162,14 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [FOR, Iteration Expressions](javascript:call_link\('abenfor.htm'\)) →  [Examples of Iteration Expressions](javascript:call_link\('abeniteration_expressions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) →  [FOR, Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm) →  [Examples of Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Creating Values with FOR and REDUCE, ABENCOND_ITERATION_REDUCE_ABEXA, 757%0D%0A%0D%0A
 Error:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Creating Values with FOR and REDUCE
 
-This example demonstrates [conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) with the operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)).
+This example demonstrates [conditional iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) with the operator [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm).
 
 Source Code   
 
@@ -261,7 +205,7 @@ START-OF-SELECTION.
 
 Description   
 
-This example demonstrates the following simple iterations, which can be used to construct elementary data objects and directly display them in a constructor expression using the reduction operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)):
+This example demonstrates the following simple iterations, which can be used to construct elementary data objects and directly display them in a constructor expression using the reduction operator [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm):
 
 -   The first expression constructs a value of the type i for which the total of the iteration variable n is calculated. n is numeric, which means that THEN does not have to be specified. Each iteration step increases the value of n by 1.
 -   The second expression uses the same iteration as the first, but constructs a text string to which each iteration step appends the character representation of n.
@@ -269,14 +213,7 @@ This example demonstrates the following simple iterations, which can be used to 
 -   Finally, the fourth expression shows that the iteration variable does not have to be numeric. In this case, THEN must be specified explicitly with a suitable expression. Here, a text string is made longer until it has reached a specific size.
 
 
-
-**📖 Source**: [abencond_iteration_reduce_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_reduce_abexa.htm)
-
 ### abencond_iteration_value_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencond_iteration_value_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_value_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -284,14 +221,14 @@ This example demonstrates the following simple iterations, which can be used to 
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [FOR, Iteration Expressions](javascript:call_link\('abenfor.htm'\)) →  [Examples of Iteration Expressions](javascript:call_link\('abeniteration_expressions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) →  [FOR, Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm) →  [Examples of Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Creating Tables Using FOR and VALUE, ABENCOND_ITERATION_VALUE_ABEXA, 757%0D%0A%0D%0AE
 rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Creating Tables Using FOR and VALUE
 
-This example demonstrates [conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) with the operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)).
+This example demonstrates [conditional iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) with the operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_value.htm).
 
 Source Code   
 
@@ -324,17 +261,10 @@ START-OF-SELECTION.
 
 Description   
 
-This example demonstrates the construction of internal tables using condition iterations with a constructor expression and the corresponding variant of the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)). Two internal tables with different iterations are created and directly output.
+This example demonstrates the construction of internal tables using condition iterations with a constructor expression and the corresponding variant of the value operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_constructor_params_itab.htm). Two internal tables with different iterations are created and directly output.
 
-
-
-**📖 Source**: [abencond_iteration_value_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_value_abexa.htm)
 
 ### abencond_iteration_matrix_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencond_iteration_matrix_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_matrix_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -342,7 +272,7 @@ This example demonstrates the construction of internal tables using condition it
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [FOR, Iteration Expressions](javascript:call_link\('abenfor.htm'\)) →  [Examples of Iteration Expressions](javascript:call_link\('abeniteration_expressions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) →  [FOR, Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm) →  [Examples of Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Creating a Matrix Using FOR and VALUE, ABENCOND_ITERATION_MATRIX_ABEXA, 757%0D%0A%0D%
 0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -407,17 +337,10 @@ START-OF-SELECTION.
 
 Description   
 
-The lines and columns of a matrix are simulated using an internal table whose line types are arrays. These tables are filled using nested [DO](javascript:call_link\('abapdo.htm'\)) loops and equivalent iteration expressions for [conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) in a constructor expression with the operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)). The [ASSERT](javascript:call_link\('abapassert.htm'\)) statement shows that both internal tables have the same content. It is possible to access each individual element.
+The lines and columns of a matrix are simulated using an internal table whose line types are arrays. These tables are filled using nested [DO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdo.htm) loops and equivalent iteration expressions for [conditional iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) in a constructor expression with the operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_value.htm). The [ASSERT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassert.htm) statement shows that both internal tables have the same content. It is possible to access each individual element.
 
-
-
-**📖 Source**: [abencond_iteration_matrix_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_matrix_abexa.htm)
 
 ### abeninverse_itab_for_abexa.htm
-
-> **📖 Official SAP Documentation**: [abeninverse_itab_for_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninverse_itab_for_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -425,14 +348,14 @@ The lines and columns of a matrix are simulated using an internal table whose li
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [FOR, Iteration Expressions](javascript:call_link\('abenfor.htm'\)) →  [Examples of Iteration Expressions](javascript:call_link\('abeniteration_expressions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) →  [FOR, Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm) →  [Examples of Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Inverse Reads on Internal Table without STEP, ABENINVERSE_ITAB_FOR_ABEXA, 757%0D%0A%0
 D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Inverse Reads on Internal Table without STEP
 
-This example demonstrates a [table reduction](javascript:call_link\('abentable_reduction_glosry.htm'\) "Glossary Entry") implemented by a conditional iteration.
+This example demonstrates a [table reduction](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_reduction_glosry.htm "Glossary Entry") implemented by a conditional iteration.
 
 Source Code   
 
@@ -461,17 +384,10 @@ START-OF-SELECTION.
 
 Description   
 
-The example shows how an inverse [table iteration](javascript:call_link\('abenfor_itab.htm'\)) could be performed by an iteration expression accessing a table expression before the addition [STEP](javascript:call_link\('abenfor_cond.htm'\)) was introduced for direct table iterations.
+The example shows how an inverse [table iteration](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) could be performed by an iteration expression accessing a table expression before the addition [STEP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_cond.htm) was introduced for direct table iterations.
 
-
-
-**📖 Source**: [abeninverse_itab_for_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninverse_itab_for_abexa.htm)
 
 ### abeniteration_expressions_abexas.htm
-
-> **📖 Official SAP Documentation**: [abeniteration_expressions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -479,7 +395,7 @@ The example shows how an inverse [table iteration](javascript:call_link\('abenfo
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [FOR, Iteration Expressions](javascript:call_link\('abenfor.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) →  [FOR, Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Examples of Iteration Expressions, ABENITERATION_EXPRESSIONS_ABEXAS, 757%0D%0A%0D%0AE
 rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -487,20 +403,13 @@ rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 Examples of Iteration Expressions
 
 Continue
-![Example](exa.gif "Example") [Creating Values with FOR and REDUCE](javascript:call_link\('abencond_iteration_reduce_abexa.htm'\))
-![Example](exa.gif "Example") [Creating Tables Using FOR and VALUE](javascript:call_link\('abencond_iteration_value_abexa.htm'\))
-![Example](exa.gif "Example") [Creating a Matrix Using FOR and VALUE](javascript:call_link\('abencond_iteration_matrix_abexa.htm'\))
-![Example](exa.gif "Example") [Inverse Reads on Internal Table without STEP](javascript:call_link\('abeninverse_itab_for_abexa.htm'\))
+![Example](exa.gif "Example") [Creating Values with FOR and REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_reduce_abexa.htm)
+![Example](exa.gif "Example") [Creating Tables Using FOR and VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_value_abexa.htm)
+![Example](exa.gif "Example") [Creating a Matrix Using FOR and VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_matrix_abexa.htm)
+![Example](exa.gif "Example") [Inverse Reads on Internal Table without STEP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninverse_itab_for_abexa.htm)
 
-
-
-**📖 Source**: [abeniteration_expressions_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm)
 
 ### abenfor.htm
-
-> **📖 Official SAP Documentation**: [abenfor.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -508,7 +417,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: FOR, Iteration Expressions, ABENFOR, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASug
 gestion for improvement:)
@@ -517,37 +426,30 @@ FOR, Iteration Expressions
 
 Syntax
 
-... [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\))*|* [NEW](javascript:call_link\('abennew_constructor_params_itab.htm'\))*|* [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)) type( ... FOR [... UNTIL*|*WHILE ...](javascript:call_link\('abenfor_conditional.htm'\))
-                                 *|* [... IN ...](javascript:call_link\('abenfor_itab.htm'\)) ...) ...
+... [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm)*|* [NEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm)*|* [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_constructor_params_itab.htm) type( ... FOR [... UNTIL*|*WHILE ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm)
+                                 *|* [... IN ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) ...) ...
 
 Effect
 
-The language element FOR introduces an [iteration expression](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") as a subexpression in [constructor expressions](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") with the reduction operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) and in the variants of the instance operator [NEW](javascript:call_link\('abennew_constructor_params_itab.htm'\)) and the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)) for creating internal tables.
+The language element FOR introduces an [iteration expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expression_glosry.htm "Glossary Entry") as a subexpression in [constructor expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") with the reduction operator [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm) and in the variants of the instance operator [NEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm) and the value operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_constructor_params_itab.htm) for creating internal tables.
 
 There are two main variants of iteration expressions:
 
--   Iteration expressions with [UNTIL](javascript:call_link\('abenfor_conditional.htm'\)) or [WHILE](javascript:call_link\('abenfor_conditional.htm'\)) for conditional iterations. These expressions are used to iteratively create the results of any data types using REDUCE or to create lines of internal tables using NEW or VALUE. The iteration steps can be defined as required.
--   Iteration expressions with [IN](javascript:call_link\('abenfor_itab.htm'\)) for [table iterations](javascript:call_link\('abentable_iteration_glosry.htm'\) "Glossary Entry"). These expressions are used for [table reductions](javascript:call_link\('abentable_reduction_glosry.htm'\) "Glossary Entry") using REDUCE or [table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry") using NEW or VALUE. The iteration steps here evaluate an existing internal table.
+-   Iteration expressions with [UNTIL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) or [WHILE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) for conditional iterations. These expressions are used to iteratively create the results of any data types using REDUCE or to create lines of internal tables using NEW or VALUE. The iteration steps can be defined as required.
+-   Iteration expressions with [IN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) for [table iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_iteration_glosry.htm "Glossary Entry"). These expressions are used for [table reductions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_reduction_glosry.htm "Glossary Entry") using REDUCE or [table comprehensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_comprehension_glosry.htm "Glossary Entry") using NEW or VALUE. The iteration steps here evaluate an existing internal table.
 
 Hints
 
 -   Any FOR variants can be used in any way in a constructor expression and produce nested iterations.
--   The reduction operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) must contain at least one iteration expression. The variants of the instance operator [NEW](javascript:call_link\('abennew_constructor_params_itab.htm'\)) and the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)) for creating internal tables can contain iteration expressions.
--   The conditional iterations using [UNTIL](javascript:call_link\('abenfor_conditional.htm'\)) or [WHILE](javascript:call_link\('abenfor_conditional.htm'\)) provide an expression-oriented alternative to the loop statements [DO](javascript:call_link\('abapdo.htm'\)) and [WHILE](javascript:call_link\('abapwhile.htm'\)). The same applies to the table iterations using [IN](javascript:call_link\('abenfor_itab.htm'\)) and the statement [LOOP](javascript:call_link\('abaploop_at_itab_variants.htm'\)). The direct use of operand positions on the expression-oriented variants helps to avoid helper variables. Furthermore, they also enable certain tasks, such as creating values iteratively, to be expressed more concisely and more elegantly.
+-   The reduction operator [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm) must contain at least one iteration expression. The variants of the instance operator [NEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennew_constructor_params_itab.htm) and the value operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_constructor_params_itab.htm) for creating internal tables can contain iteration expressions.
+-   The conditional iterations using [UNTIL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) or [WHILE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) provide an expression-oriented alternative to the loop statements [DO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdo.htm) and [WHILE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwhile.htm). The same applies to the table iterations using [IN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) and the statement [LOOP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab_variants.htm). The direct use of operand positions on the expression-oriented variants helps to avoid helper variables. Furthermore, they also enable certain tasks, such as creating values iteratively, to be expressed more concisely and more elegantly.
 
 Continue
-[FOR, Conditional Iteration](javascript:call_link\('abenfor_conditional.htm'\))
-[Examples of Iteration Expressions](javascript:call_link\('abeniteration_expressions_abexas.htm'\))
+[FOR, Conditional Iteration](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm)
+[Examples of Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions_abexas.htm)
 
-
-
-**📖 Source**: [abenfor.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm)
 
 ### abenconstructor_expression_reduce.htm
-
-> **📖 Official SAP Documentation**: [abenconstructor_expression_reduce.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -555,7 +457,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: REDUCE, Reduction Operator, ABENCONSTRUCTOR_EXPRESSION_REDUCE, 757%0D%0A%0D%0AError:%
 0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -565,12 +467,12 @@ REDUCE, Reduction Operator
 Syntax
 
 ... REDUCE type(
-      *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]*
+      *\[*[let\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm)*\]*
       INIT *{*x1 = rhs1*}**|**{*<x1> = wrexpr1*}**|**{*x1*|*<x1> TYPE dtype1*}*
            *{*x2 = rhs2*}**|**{*<x2> = wrexpr2*}**|**{*x2*|*<x2> TYPE dtype2*}*
            ...
-      [FOR for\_exp1](javascript:call_link\('abenfor.htm'\))
-      [FOR for\_exp2](javascript:call_link\('abenfor.htm'\))
+      [FOR for\_exp1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm)
+      [FOR for\_exp2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm)
       ...
       NEXT ...
            *{*x1 =*|*+=*|*\-=*|*\*=*|*/=*|*&&= rhs1*}**|**{*<x1> =*|*+=*|*\-=*|*\*=*|*/=*|*&&= wrexpr1*}*
@@ -579,33 +481,33 @@ Syntax
 
 Effect
 
-A [constructor expression](javascript:call_link\('abenconstructor_expressions.htm'\)) with the reduction operator REDUCE creates a result of a data type specified using type from one or more [iteration expressions](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry"). The following can be specified for type:
+A [constructor expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expressions.htm) with the reduction operator REDUCE creates a result of a data type specified using type from one or more [iteration expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expression_glosry.htm "Glossary Entry"). The following can be specified for type:
 
 -   A non-generic data type dtype.
--   The # character as a symbol for the [operand type](javascript:call_link\('abenoperand_type_glosry.htm'\) "Glossary Entry").
+-   The # character as a symbol for the [operand type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperand_type_glosry.htm "Glossary Entry").
     -   If the data type required in an operand position is unique and known completely, this type is used.
     -   If the operand type is not known completely, the type of the first declaration after INIT, which is always known, is used, except when the constructor expression is passed to an actual parameter with a generically typed formal parameter.
-    -   If the constructor expression is passed to an actual parameter with a generically typed formal parameter, the operand type is derived in accordance with [special rules](javascript:call_link\('abenreduce_constructor_inference.htm'\)).
+    -   If the constructor expression is passed to an actual parameter with a generically typed formal parameter, the operand type is derived in accordance with [special rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_constructor_inference.htm).
 
 The parameters and arguments of the constructor expression must be specified as follows:
 
--   First, an optional [LET expression](javascript:call_link\('abaplet.htm'\)) can be specified for defining local helper fields whose value can be used within the expression but can no longer be changed there.
--   Then, an addition INIT must be specified followed by any number of declarations. The declarations after INIT create local variables x1, x2, ... or field symbols <x1>, <x2>, ... to which the same applies with respect to namespace and visibility as to the helper fields declared in a [LET expression](javascript:call_link\('abaplet.htm'\)). The syntax of the declaration is either:
+-   First, an optional [LET expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm) can be specified for defining local helper fields whose value can be used within the expression but can no longer be changed there.
+-   Then, an addition INIT must be specified followed by any number of declarations. The declarations after INIT create local variables x1, x2, ... or field symbols <x1>, <x2>, ... to which the same applies with respect to namespace and visibility as to the helper fields declared in a [LET expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm). The syntax of the declaration is either:
     
-    -   the same as in a [LET expression](javascript:call_link\('abaplet.htm'\)) and it follows the rules that apply here.
+    -   the same as in a [LET expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm) and it follows the rules that apply here.
     -   initial variables or field symbols of the specified data type dtype can be created using TYPE.
     
     At least one variable or field symbol must be specified. The variables or field symbols declared after INIT can only be used after NEXT. In particular, they cannot be used to declare other variables or field symbols.
     
     -   The first variable x1 or the first field symbol <x1> determines the result of the expression and the data type must be convertible to the result type type.
     -   All other variables or field symbols declared after INIT are optional additional helper fields that can be on the left side of assignments after NEXT, unlike those declared after LET.
--   Then, at least one [iteration expression](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") must be specified using [FOR](javascript:call_link\('abenfor.htm'\)) but it is also possible to specify multiple expressions.
-    -   If [conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) are used, the result is created in custom iteration steps.
-    -   If [table iterations](javascript:call_link\('abenfor_itab.htm'\)) are used, the lines of existing internal tables are evaluated. This is referred to as a [table reduction](javascript:call_link\('abentable_reduction_glosry.htm'\) "Glossary Entry"), since any values are constructed from the lines of existing internal tables.
--   Then, assignments must be specified after NEXT that are executed for every iteration of the last FOR expression. For the assignments, either the [assignment operator](javascript:call_link\('abenassignment_operator_glosry.htm'\) "Glossary Entry") \= or the [calculation assignment operators](javascript:call_link\('abencalc_assignment_op_glosry.htm'\) "Glossary Entry") +=, \-=, \*=, /=, or &&= can be specified and the assignment is carried out accordingly. A value or memory area must be assigned to all variables and field symbols declared after INIT. In the case of structured variables or field symbols, an assignment to one of their components is sufficient.
+-   Then, at least one [iteration expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expression_glosry.htm "Glossary Entry") must be specified using [FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm) but it is also possible to specify multiple expressions.
+    -   If [conditional iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) are used, the result is created in custom iteration steps.
+    -   If [table iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) are used, the lines of existing internal tables are evaluated. This is referred to as a [table reduction](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_reduction_glosry.htm "Glossary Entry"), since any values are constructed from the lines of existing internal tables.
+-   Then, assignments must be specified after NEXT that are executed for every iteration of the last FOR expression. For the assignments, either the [assignment operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassignment_operator_glosry.htm "Glossary Entry") \= or the [calculation assignment operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalc_assignment_op_glosry.htm "Glossary Entry") +=, \-=, \*=, /=, or &&= can be specified and the assignment is carried out accordingly. A value or memory area must be assigned to all variables and field symbols declared after INIT. In the case of structured variables or field symbols, an assignment to one of their components is sufficient.
     
-    -   The assignment on the right side rhs to variables x takes place in accordance with the rules of a regular assignment using the [assignment operator \=](javascript:call_link\('abenequals_operator.htm'\)) or a [calculation assignment operator +=, +=, \*=, /=](javascript:call_link\('abencalculation_assignments.htm'\)) or [&&=](javascript:call_link\('abencalculation_assignment_string.htm'\)), which means that any of the possible calls and expressions can be specified for rhs.
-    -   Only the result of a [writable expression](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") wrexp can be assigned to a field symbol. The same applies here as to assignments of writable expressions using [ASSIGN](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)), which means that only the expressions listed there can be specified.
+    -   The assignment on the right side rhs to variables x takes place in accordance with the rules of a regular assignment using the [assignment operator \=](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenequals_operator.htm) or a [calculation assignment operator +=, +=, \*=, /=](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_assignments.htm) or [&&=](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_assignment_string.htm), which means that any of the possible calls and expressions can be specified for rhs.
+    -   Only the result of a [writable expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwritable_expression_glosry.htm "Glossary Entry") wrexp can be assigned to a field symbol. The same applies here as to assignments of writable expressions using [ASSIGN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_mem_area_writable_exp.htm), which means that only the expressions listed there can be specified.
     
     The assignments can be listed in any order and they are evaluated from to left to right. Each non-structured variable or field symbol declared after INIT can be specified exactly once as the left side. In the case of structured variables or field symbols, either the entire structure or each component once can be specified as the left side. In addition to the data objects of the program, all local variables and field symbols of the expression visible after the last FOR expression can be used in the operand positions on the right side:
     
@@ -616,18 +518,18 @@ The parameters and arguments of the constructor expression must be specified as 
     All helper fields declared after INTIT can only be specified in read positions on the right side.
     
 
-After the full evaluation, the content of the first variable x1 or the memory area pointed to by the first field symbol <x1> is assigned to the temporary result of the expression of type type in accordance with the [assignment rules](javascript:call_link\('abenconversion_rules.htm'\)).
+After the full evaluation, the content of the first variable x1 or the memory area pointed to by the first field symbol <x1> is assigned to the temporary result of the expression of type type in accordance with the [assignment rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_rules.htm).
 
 Hints
 
 -   The name of the operator REDUCE is explained as follows:
-    -   [Conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) are generally used to reduce sets of data objects to a single data object.
-    -   [Table iterations](javascript:call_link\('abenfor_itab.htm'\)) for [table reductions](javascript:call_link\('abentable_reduction_glosry.htm'\) "Glossary Entry") are generally used to reduce the content of the internal tables in question to a summary value. Any result type is possible and does not have to be less complex than the involved internal tables, but this should only be used in exceptional cases. When constructing tables from tables, it is best to use [table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry") instead.
--   [Table filtering](javascript:call_link\('abentable_filtering_glosry.htm'\) "Glossary Entry") can be achieved more efficiently using the [filter operator](javascript:call_link\('abenfilter_operator_glosry.htm'\) "Glossary Entry") [FILTER](javascript:call_link\('abenconstructor_expression_filter.htm'\)).
--   When a local field symbol <xi> is used on the left side of assignments after NEXT, it should be noted that the assignments are not made to the value referenced by the field symbol like in INIT and LET. Instead, the field symbol is set in the same way as in the statement [ASSIGN](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)).
--   Unlike in [table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry") with the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)), an assignment of a REDUCE expression to a structure or an internal table does not overwrite them completely before the FOR expressions are processed and can be used directly anywhere in the entire expression.
+    -   [Conditional iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) are generally used to reduce sets of data objects to a single data object.
+    -   [Table iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) for [table reductions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_reduction_glosry.htm "Glossary Entry") are generally used to reduce the content of the internal tables in question to a summary value. Any result type is possible and does not have to be less complex than the involved internal tables, but this should only be used in exceptional cases. When constructing tables from tables, it is best to use [table comprehensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_comprehension_glosry.htm "Glossary Entry") instead.
+-   [Table filtering](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_filtering_glosry.htm "Glossary Entry") can be achieved more efficiently using the [filter operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_operator_glosry.htm "Glossary Entry") [FILTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_filter.htm).
+-   When a local field symbol <xi> is used on the left side of assignments after NEXT, it should be noted that the assignments are not made to the value referenced by the field symbol like in INIT and LET. Instead, the field symbol is set in the same way as in the statement [ASSIGN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_mem_area_writable_exp.htm).
+-   Unlike in [table comprehensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_comprehension_glosry.htm "Glossary Entry") with the value operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_constructor_params_itab.htm), an assignment of a REDUCE expression to a structure or an internal table does not overwrite them completely before the FOR expressions are processed and can be used directly anywhere in the entire expression.
 -   If a variable is declared in the first position after INIT and the VALUE operator is specified with the character # on the right side, the result type type of the REDUCE expression is used for this character if possible.
--   Table reductions are also possible with [FOR expressions](javascript:call_link\('abenmesh_for.htm'\)) for [mesh paths](javascript:call_link\('abenmesh_path_glosry.htm'\) "Glossary Entry").
+-   Table reductions are also possible with [FOR expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_for.htm) for [mesh paths](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path_glosry.htm "Glossary Entry").
 
 Example
 
@@ -640,22 +542,15 @@ cl\_demo\_output=>display(
 
 Executable Examples
 
--   [Creating Values with FOR and REDUCE](javascript:call_link\('abencond_iteration_reduce_abexa.htm'\))
--   [Examples of Table Reductions](javascript:call_link\('abentable_reductions_abexas.htm'\)).
+-   [Creating Values with FOR and REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_reduce_abexa.htm)
+-   [Examples of Table Reductions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_reductions_abexas.htm).
 
 Continue
-[REDUCE, Type Inference for Actual Parameter](javascript:call_link\('abenreduce_constructor_inference.htm'\))
-![Example](exa.gif "Example") [Reduce Operator, Type Inference](javascript:call_link\('abenreduce_type_inference_abexa.htm'\))
+[REDUCE, Type Inference for Actual Parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_constructor_inference.htm)
+![Example](exa.gif "Example") [Reduce Operator, Type Inference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_type_inference_abexa.htm)
 
-
-
-**📖 Source**: [abenconstructor_expression_reduce.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm)
 
 ### abenreduce_constructor_inference.htm
-
-> **📖 Official SAP Documentation**: [abenreduce_constructor_inference.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_constructor_inference.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -663,7 +558,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [REDUCE, Reduction Operator](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) →  [REDUCE, Reduction Operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: REDUCE, Type Inference for Actual Parameter, ABENREDUCE_CONSTRUCTOR_INFERENCE, 757%0D
 %0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -672,7 +567,7 @@ REDUCE, Type Inference for Actual Parameter
 
 If a constructor expression
 
-[REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) #( ... INIT ... FOR ... )
+[REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm) #( ... INIT ... FOR ... )
 
 is passed to generically typed formal parameters as an actual parameter using the character # as a symbol for the operand type, the following type inference is performed for the character #:
 
@@ -682,7 +577,7 @@ is passed to generically typed formal parameters as an actual parameter using th
     -   xstring for xsequence
     -   decfloat34 for numeric and decfloat
     -   p with the length 8 and no decimal places if p is generic
-    -   The [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry") for a standard table type with generic primary table key
+    -   The [standard key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_key_glosry.htm "Glossary Entry") for a standard table type with generic primary table key
         
         Generic data types other than table types that are explicitly generic with respect to their secondary table keys cannot be made more concrete and produce a syntax error. More specifically, this applies to the types c, n, and x with generic lengths.
         
@@ -694,7 +589,7 @@ Hints
 
 Example
 
-The operator REDUCE generates a result of type string here. The generic parameter p has this type during the execution of the method, which is shown by the value "g" returned by [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)). The method call leads to a corresponding syntax warning that is suppressed by a pragma.
+The operator REDUCE generates a result of type string here. The generic parameter p has this type during the execution of the method, which is shown by the value "g" returned by [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdescribe_field.htm). The method call leads to a corresponding syntax warning that is suppressed by a pragma.
 
 CLASS demo DEFINITION.
   PUBLIC SECTION.
@@ -713,17 +608,10 @@ START-OF-SELECTION.
 
 Executable Example
 
-[Reduce Operator, Type Inference](javascript:call_link\('abenreduce_type_inference_abexa.htm'\))
+[Reduce Operator, Type Inference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_type_inference_abexa.htm)
 
-
-
-**📖 Source**: [abenreduce_constructor_inference.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_constructor_inference.htm)
 
 ### abenreduce_type_inference_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenreduce_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_type_inference_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -731,14 +619,14 @@ Executable Example
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) →  [REDUCE, Reduction Operator](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) →  [REDUCE, Reduction Operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Reduce Operator, Type Inference, ABENREDUCE_TYPE_INFERENCE_ABEXA, 757%0D%0A%0D%0AErro
 r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Reduce Operator, Type Inference
 
-This example demonstrates a type inference for the conversion operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)).
+This example demonstrates a type inference for the conversion operator [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm).
 
 Source Code   
 
@@ -811,7 +699,7 @@ START-OF-SELECTION.
 
 Description   
 
-Constructor expressions with the conversion operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) are passed to differently typed formal parameters of methods. In the case of generic formal parameters, [special rules](javascript:call_link\('abenreduce_constructor_inference.htm'\)) apply when determining the operand type.
+Constructor expressions with the conversion operator [REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm) are passed to differently typed formal parameters of methods. In the case of generic formal parameters, [special rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_constructor_inference.htm) apply when determining the operand type.
 
 -   Completely typed formal parameter
     
@@ -828,17 +716,7 @@ Constructor expressions with the conversion operator [REDUCE](javascript:call_li
     -   In the second call, the type i of the declaration after INIT does not match the generic type and the type string is used, which is indicated by a syntax check warning.
 
 
-
-**📖 Source**: [abenreduce_type_inference_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_type_inference_abexa.htm)
-
 ### abenconstructor_expression_reduce.htm
-
-> **📖 Official SAP Documentation**: [abenconstructor_expression_reduce.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenconstructor_expression_reduce.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_reduce.htm)
-
 
   
 
@@ -846,7 +724,7 @@ Constructor expressions with the conversion operator [REDUCE](javascript:call_li
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Iteration Expressions](javascript:call_link\('abeniteration_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_flow_logic.htm) →  [Iteration Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expressions.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: REDUCE, Reduction Operator, ABENCONSTRUCTOR_EXPRESSION_REDUCE, 757%0D%0A%0D%0AError:%
 0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -856,12 +734,12 @@ REDUCE, Reduction Operator
 Syntax
 
 ... REDUCE type(
-      *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]*
+      *\[*[let\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm)*\]*
       INIT *{*x1 = rhs1*}**|**{*<x1> = wrexpr1*}**|**{*x1*|*<x1> TYPE dtype1*}*
            *{*x2 = rhs2*}**|**{*<x2> = wrexpr2*}**|**{*x2*|*<x2> TYPE dtype2*}*
            ...
-      [FOR for\_exp1](javascript:call_link\('abenfor.htm'\))
-      [FOR for\_exp2](javascript:call_link\('abenfor.htm'\))
+      [FOR for\_exp1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm)
+      [FOR for\_exp2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm)
       ...
       NEXT ...
            *{*x1 =*|*+=*|*\-=*|*\*=*|*/=*|*&&= rhs1*}**|**{*<x1> =*|*+=*|*\-=*|*\*=*|*/=*|*&&= wrexpr1*}*
@@ -870,33 +748,33 @@ Syntax
 
 Effect
 
-A [constructor expression](javascript:call_link\('abenconstructor_expressions.htm'\)) with the reduction operator REDUCE creates a result of a data type specified using type from one or more [iteration expressions](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry"). The following can be specified for type:
+A [constructor expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expressions.htm) with the reduction operator REDUCE creates a result of a data type specified using type from one or more [iteration expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expression_glosry.htm "Glossary Entry"). The following can be specified for type:
 
 -   A non-generic data type dtype.
--   The # character as a symbol for the [operand type](javascript:call_link\('abenoperand_type_glosry.htm'\) "Glossary Entry").
+-   The # character as a symbol for the [operand type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperand_type_glosry.htm "Glossary Entry").
     -   If the data type required in an operand position is unique and known completely, this type is used.
     -   If the operand type is not known completely, the type of the first declaration after INIT, which is always known, is used, except when the constructor expression is passed to an actual parameter with a generically typed formal parameter.
-    -   If the constructor expression is passed to an actual parameter with a generically typed formal parameter, the operand type is derived in accordance with [special rules](javascript:call_link\('abenreduce_constructor_inference.htm'\)).
+    -   If the constructor expression is passed to an actual parameter with a generically typed formal parameter, the operand type is derived in accordance with [special rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_constructor_inference.htm).
 
 The parameters and arguments of the constructor expression must be specified as follows:
 
--   First, an optional [LET expression](javascript:call_link\('abaplet.htm'\)) can be specified for defining local helper fields whose value can be used within the expression but can no longer be changed there.
--   Then, an addition INIT must be specified followed by any number of declarations. The declarations after INIT create local variables x1, x2, ... or field symbols <x1>, <x2>, ... to which the same applies with respect to namespace and visibility as to the helper fields declared in a [LET expression](javascript:call_link\('abaplet.htm'\)). The syntax of the declaration is either:
+-   First, an optional [LET expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm) can be specified for defining local helper fields whose value can be used within the expression but can no longer be changed there.
+-   Then, an addition INIT must be specified followed by any number of declarations. The declarations after INIT create local variables x1, x2, ... or field symbols <x1>, <x2>, ... to which the same applies with respect to namespace and visibility as to the helper fields declared in a [LET expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm). The syntax of the declaration is either:
     
-    -   the same as in a [LET expression](javascript:call_link\('abaplet.htm'\)) and it follows the rules that apply here.
+    -   the same as in a [LET expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplet.htm) and it follows the rules that apply here.
     -   initial variables or field symbols of the specified data type dtype can be created using TYPE.
     
     At least one variable or field symbol must be specified. The variables or field symbols declared after INIT can only be used after NEXT. In particular, they cannot be used to declare other variables or field symbols.
     
     -   The first variable x1 or the first field symbol <x1> determines the result of the expression and the data type must be convertible to the result type type.
     -   All other variables or field symbols declared after INIT are optional additional helper fields that can be on the left side of assignments after NEXT, unlike those declared after LET.
--   Then, at least one [iteration expression](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") must be specified using [FOR](javascript:call_link\('abenfor.htm'\)) but it is also possible to specify multiple expressions.
-    -   If [conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) are used, the result is created in custom iteration steps.
-    -   If [table iterations](javascript:call_link\('abenfor_itab.htm'\)) are used, the lines of existing internal tables are evaluated. This is referred to as a [table reduction](javascript:call_link\('abentable_reduction_glosry.htm'\) "Glossary Entry"), since any values are constructed from the lines of existing internal tables.
--   Then, assignments must be specified after NEXT that are executed for every iteration of the last FOR expression. For the assignments, either the [assignment operator](javascript:call_link\('abenassignment_operator_glosry.htm'\) "Glossary Entry") \= or the [calculation assignment operators](javascript:call_link\('abencalc_assignment_op_glosry.htm'\) "Glossary Entry") +=, \-=, \*=, /=, or &&= can be specified and the assignment is carried out accordingly. A value or memory area must be assigned to all variables and field symbols declared after INIT. In the case of structured variables or field symbols, an assignment to one of their components is sufficient.
+-   Then, at least one [iteration expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeniteration_expression_glosry.htm "Glossary Entry") must be specified using [FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor.htm) but it is also possible to specify multiple expressions.
+    -   If [conditional iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) are used, the result is created in custom iteration steps.
+    -   If [table iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) are used, the lines of existing internal tables are evaluated. This is referred to as a [table reduction](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_reduction_glosry.htm "Glossary Entry"), since any values are constructed from the lines of existing internal tables.
+-   Then, assignments must be specified after NEXT that are executed for every iteration of the last FOR expression. For the assignments, either the [assignment operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassignment_operator_glosry.htm "Glossary Entry") \= or the [calculation assignment operators](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalc_assignment_op_glosry.htm "Glossary Entry") +=, \-=, \*=, /=, or &&= can be specified and the assignment is carried out accordingly. A value or memory area must be assigned to all variables and field symbols declared after INIT. In the case of structured variables or field symbols, an assignment to one of their components is sufficient.
     
-    -   The assignment on the right side rhs to variables x takes place in accordance with the rules of a regular assignment using the [assignment operator \=](javascript:call_link\('abenequals_operator.htm'\)) or a [calculation assignment operator +=, +=, \*=, /=](javascript:call_link\('abencalculation_assignments.htm'\)) or [&&=](javascript:call_link\('abencalculation_assignment_string.htm'\)), which means that any of the possible calls and expressions can be specified for rhs.
-    -   Only the result of a [writable expression](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") wrexp can be assigned to a field symbol. The same applies here as to assignments of writable expressions using [ASSIGN](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)), which means that only the expressions listed there can be specified.
+    -   The assignment on the right side rhs to variables x takes place in accordance with the rules of a regular assignment using the [assignment operator \=](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenequals_operator.htm) or a [calculation assignment operator +=, +=, \*=, /=](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_assignments.htm) or [&&=](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_assignment_string.htm), which means that any of the possible calls and expressions can be specified for rhs.
+    -   Only the result of a [writable expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwritable_expression_glosry.htm "Glossary Entry") wrexp can be assigned to a field symbol. The same applies here as to assignments of writable expressions using [ASSIGN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_mem_area_writable_exp.htm), which means that only the expressions listed there can be specified.
     
     The assignments can be listed in any order and they are evaluated from to left to right. Each non-structured variable or field symbol declared after INIT can be specified exactly once as the left side. In the case of structured variables or field symbols, either the entire structure or each component once can be specified as the left side. In addition to the data objects of the program, all local variables and field symbols of the expression visible after the last FOR expression can be used in the operand positions on the right side:
     
@@ -907,18 +785,18 @@ The parameters and arguments of the constructor expression must be specified as 
     All helper fields declared after INTIT can only be specified in read positions on the right side.
     
 
-After the full evaluation, the content of the first variable x1 or the memory area pointed to by the first field symbol <x1> is assigned to the temporary result of the expression of type type in accordance with the [assignment rules](javascript:call_link\('abenconversion_rules.htm'\)).
+After the full evaluation, the content of the first variable x1 or the memory area pointed to by the first field symbol <x1> is assigned to the temporary result of the expression of type type in accordance with the [assignment rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_rules.htm).
 
 Hints
 
 -   The name of the operator REDUCE is explained as follows:
-    -   [Conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) are generally used to reduce sets of data objects to a single data object.
-    -   [Table iterations](javascript:call_link\('abenfor_itab.htm'\)) for [table reductions](javascript:call_link\('abentable_reduction_glosry.htm'\) "Glossary Entry") are generally used to reduce the content of the internal tables in question to a summary value. Any result type is possible and does not have to be less complex than the involved internal tables, but this should only be used in exceptional cases. When constructing tables from tables, it is best to use [table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry") instead.
--   [Table filtering](javascript:call_link\('abentable_filtering_glosry.htm'\) "Glossary Entry") can be achieved more efficiently using the [filter operator](javascript:call_link\('abenfilter_operator_glosry.htm'\) "Glossary Entry") [FILTER](javascript:call_link\('abenconstructor_expression_filter.htm'\)).
--   When a local field symbol <xi> is used on the left side of assignments after NEXT, it should be noted that the assignments are not made to the value referenced by the field symbol like in INIT and LET. Instead, the field symbol is set in the same way as in the statement [ASSIGN](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)).
--   Unlike in [table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry") with the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)), an assignment of a REDUCE expression to a structure or an internal table does not overwrite them completely before the FOR expressions are processed and can be used directly anywhere in the entire expression.
+    -   [Conditional iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_conditional.htm) are generally used to reduce sets of data objects to a single data object.
+    -   [Table iterations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfor_itab.htm) for [table reductions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_reduction_glosry.htm "Glossary Entry") are generally used to reduce the content of the internal tables in question to a summary value. Any result type is possible and does not have to be less complex than the involved internal tables, but this should only be used in exceptional cases. When constructing tables from tables, it is best to use [table comprehensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_comprehension_glosry.htm "Glossary Entry") instead.
+-   [Table filtering](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_filtering_glosry.htm "Glossary Entry") can be achieved more efficiently using the [filter operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfilter_operator_glosry.htm "Glossary Entry") [FILTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_filter.htm).
+-   When a local field symbol <xi> is used on the left side of assignments after NEXT, it should be noted that the assignments are not made to the value referenced by the field symbol like in INIT and LET. Instead, the field symbol is set in the same way as in the statement [ASSIGN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_mem_area_writable_exp.htm).
+-   Unlike in [table comprehensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_comprehension_glosry.htm "Glossary Entry") with the value operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_constructor_params_itab.htm), an assignment of a REDUCE expression to a structure or an internal table does not overwrite them completely before the FOR expressions are processed and can be used directly anywhere in the entire expression.
 -   If a variable is declared in the first position after INIT and the VALUE operator is specified with the character # on the right side, the result type type of the REDUCE expression is used for this character if possible.
--   Table reductions are also possible with [FOR expressions](javascript:call_link\('abenmesh_for.htm'\)) for [mesh paths](javascript:call_link\('abenmesh_path_glosry.htm'\) "Glossary Entry").
+-   Table reductions are also possible with [FOR expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_for.htm) for [mesh paths](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmesh_path_glosry.htm "Glossary Entry").
 
 Example
 
@@ -931,9 +809,9 @@ cl\_demo\_output=>display(
 
 Executable Examples
 
--   [Creating Values with FOR and REDUCE](javascript:call_link\('abencond_iteration_reduce_abexa.htm'\))
--   [Examples of Table Reductions](javascript:call_link\('abentable_reductions_abexas.htm'\)).
+-   [Creating Values with FOR and REDUCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencond_iteration_reduce_abexa.htm)
+-   [Examples of Table Reductions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_reductions_abexas.htm).
 
 Continue
-[REDUCE, Type Inference for Actual Parameter](javascript:call_link\('abenreduce_constructor_inference.htm'\))
-![Example](exa.gif "Example") [Reduce Operator, Type Inference](javascript:call_link\('abenreduce_type_inference_abexa.htm'\))
+[REDUCE, Type Inference for Actual Parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_constructor_inference.htm)
+![Example](exa.gif "Example") [Reduce Operator, Type Inference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreduce_type_inference_abexa.htm)

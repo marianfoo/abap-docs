@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 BLOB
 
-Binary Large Object. Term for a [database field](javascript:call_link\('abendatabase_field_glosry.htm'\) "Glossary Entry") of the [RAWSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) data type.
+Binary Large Object. Term for a [database field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_field_glosry.htm "Glossary Entry") of the [RAWSTRING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) data type.
 
-[→ More](javascript:call_link\('abenddic_character_byte_types.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_character_byte_types.htm)

@@ -3,29 +3,7 @@
 Included pages: 5
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abencl_abap_string_utilities.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_string_utilities.htm)
-- [abenstring_util.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_util.htm)
-- [abencl_abap_gzip.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_gzip.htm)
-- [abencl_abap_char_utilities.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_char_utilities.htm)
-- [abencl_abap_codepage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_codepage.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.490Z
-
----
-
 ### abencl_abap_string_utilities.htm
-
-> **📖 Official SAP Documentation**: [abencl_abap_string_utilities.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_string_utilities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -33,33 +11,26 @@ Included pages: 5
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) → 
 
 System Classes for Character String and Byte String Processing
 
--   [Class for Trailing Blanks](javascript:call_link\('abenstring_util.htm'\))
+-   [Class for Trailing Blanks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_util.htm)
 
--   [Class for Compressing Character Strings and Byte Strings](javascript:call_link\('abencl_abap_gzip.htm'\))
+-   [Class for Compressing Character Strings and Byte Strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_gzip.htm)
 
--   [Class with Utilities for String Processing](javascript:call_link\('abencl_abap_char_utilities.htm'\))
+-   [Class with Utilities for String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_char_utilities.htm)
 
--   [Class for Handling Code Pages](javascript:call_link\('abencl_abap_codepage.htm'\))
+-   [Class for Handling Code Pages](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_codepage.htm)
 
 Continue
-[Class for Trailing Blanks](javascript:call_link\('abenstring_util.htm'\))
-[Class for Compressing Character Strings and Byte Strings](javascript:call_link\('abencl_abap_gzip.htm'\))
-[Class with Utilities for String Processing](javascript:call_link\('abencl_abap_char_utilities.htm'\))
-[Class for Handling Code Pages](javascript:call_link\('abencl_abap_codepage.htm'\))
+[Class for Trailing Blanks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_util.htm)
+[Class for Compressing Character Strings and Byte Strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_gzip.htm)
+[Class with Utilities for String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_char_utilities.htm)
+[Class for Handling Code Pages](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_codepage.htm)
 
-
-
-**📖 Source**: [abencl_abap_string_utilities.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_string_utilities.htm)
 
 ### abenstring_util.htm
-
-> **📖 Official SAP Documentation**: [abenstring_util.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_util.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -67,11 +38,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [System Classes for Character String and Byte String Processing](javascript:call_link\('abencl_abap_string_utilities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [System Classes for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_string_utilities.htm) → 
 
 Class for Trailing Blanks
 
-The class CL\_ABAP\_STRING\_UTILITIES contains methods for processing [text strings](javascript:call_link\('abentext_string_glosry.htm'\) "Glossary Entry").
+The class CL\_ABAP\_STRING\_UTILITIES contains methods for processing [text strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_string_glosry.htm "Glossary Entry").
 
 -   C2STR\_PRESERVING\_BLANKS assigns text fields while preserving the trailing blanks.
 
@@ -83,7 +54,7 @@ Tasks like this can now also be performed using statements and predefined functi
 
 Example
 
-The program compares the method C2STR\_PRESERVING\_BLANKS with the built-in function [shift\_right](javascript:call_link\('abenshift_functions.htm'\)). The implementation of the method now consists of nothing more than this function.
+The program compares the method C2STR\_PRESERVING\_BLANKS with the built-in function [shift\_right](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshift_functions.htm). The implementation of the method now consists of nothing more than this function.
 
 DATA(str) = \`abc   \`.
 DATA(rslt) = str.
@@ -91,14 +62,7 @@ cl\_abap\_string\_utilities=>del\_trailing\_blanks( CHANGING str = rslt ).
 ASSERT rslt =  shift\_right( str ).
 
 
-
-**📖 Source**: [abenstring_util.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_util.htm)
-
 ### abencl_abap_gzip.htm
-
-> **📖 Official SAP Documentation**: [abencl_abap_gzip.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_gzip.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -106,7 +70,7 @@ ASSERT rslt =  shift\_right( str ).
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [System Classes for Character String and Byte String Processing](javascript:call_link\('abencl_abap_string_utilities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [System Classes for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_string_utilities.htm) → 
 
 Class for Compressing Character Strings and Byte Strings
 
@@ -139,14 +103,7 @@ cl\_abap\_gzip=>decompress\_text(
 ASSERT txt = \`Hello!\`.
 
 
-
-**📖 Source**: [abencl_abap_gzip.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_gzip.htm)
-
 ### abencl_abap_char_utilities.htm
-
-> **📖 Official SAP Documentation**: [abencl_abap_char_utilities.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_char_utilities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -154,34 +111,24 @@ ASSERT txt = \`Hello!\`.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [System Classes for Character String and Byte String Processing](javascript:call_link\('abencl_abap_string_utilities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [System Classes for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_string_utilities.htm) → 
 
 Class with Utilities for String Processing
 
 The class CL\_ABAP\_CHAR\_UTILITIES provides attributes and methods as utilities for string processing.
 
-The components of this class are all static and public. The attributes are read-only and are initialized in the class constructor. Details about the attributes and methods of this class are described in [Class Builder](javascript:call_link\('abenclass_builder_glosry.htm'\) "Glossary Entry").
+The components of this class are all static and public. The attributes are read-only and are initialized in the class constructor. Details about the attributes and methods of this class are described in [Class Builder](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_builder_glosry.htm "Glossary Entry").
 
 Example
 
-The following rows demonstrate that attributes of the class CL\_ABAP\_CHAR\_UTILITIES containing control characters can be replaced by a representation of the [control characters](javascript:call_link\('abenstring_templates_separators.htm'\)) in a [string template](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry") .
+The following rows demonstrate that attributes of the class CL\_ABAP\_CHAR\_UTILITIES containing control characters can be replaced by a representation of the [control characters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_separators.htm) in a [string template](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_glosry.htm "Glossary Entry") .
 
 ASSERT cl\_abap\_char\_utilities=>newline        = |\\n|.
 ASSERT cl\_abap\_char\_utilities=>horizontal\_tab = |\\t|.
 ASSERT cl\_abap\_char\_utilities=>cr\_lf          = |\\r\\n|.
 
 
-
-**📖 Source**: [abencl_abap_char_utilities.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_char_utilities.htm)
-
 ### abencl_abap_codepage.htm
-
-> **📖 Official SAP Documentation**: [abencl_abap_codepage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_codepage.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencl_abap_codepage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_codepage.htm)
-
 
   
 
@@ -189,7 +136,7 @@ ASSERT cl\_abap\_char\_utilities=>cr\_lf          = |\\r\\n|.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [System Classes for Character String and Byte String Processing](javascript:call_link\('abencl_abap_string_utilities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [System Classes for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_string_utilities.htm) → 
 
 Class for Handling Code Pages
 

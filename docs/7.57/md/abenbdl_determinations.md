@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [CDS BDL - Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [CDS BDL - Entity Behavior Body](javascript:call_link\('abenbdl_body.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_rap_bo.htm) →  [CDS BDL - Entity Behavior Definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_define_beh.htm) →  [CDS BDL - Entity Behavior Body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_body.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - determination, ABENBDL_DETERMINATIONS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D
 %0A%0D%0ASuggestion for improvement:)
@@ -20,26 +20,26 @@ determination DetName *{*on modify { CUD1; CUD2; ... }
 
 Effect
 
-A [determination](javascript:call_link\('abenrap_determination_glosry.htm'\) "Glossary Entry") modifies instances of [RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") based on trigger conditions. A determination is implicitly invoked by the [RAP framework](javascript:call_link\('abenrap_framework_glosry.htm'\) "Glossary Entry") if the trigger condition of the determination is fulfilled. Trigger conditions can be [modify operations](javascript:call_link\('abenrap_modify_operation_glosry.htm'\) "Glossary Entry") ([create, update, delete](javascript:call_link\('abenbdl_standard_operations.htm'\))) CUD1; CUD2; ..., or modified fields Field1; Field2; .... Two types of determinations are distinguished, depending on the stage of the program flow the determination is executed: on modify determinations and on save determinations. A determination can compute data, modify entity instances, and return messages.
+A [determination](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_determination_glosry.htm "Glossary Entry") modifies instances of [RAP business objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm "Glossary Entry") based on trigger conditions. A determination is implicitly invoked by the [RAP framework](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_framework_glosry.htm "Glossary Entry") if the trigger condition of the determination is fulfilled. Trigger conditions can be [modify operations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_modify_operation_glosry.htm "Glossary Entry") ([create, update, delete](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_standard_operations.htm)) CUD1; CUD2; ..., or modified fields Field1; Field2; .... Two types of determinations are distinguished, depending on the stage of the program flow the determination is executed: on modify determinations and on save determinations. A determination can compute data, modify entity instances, and return messages.
 
 Determinations can be carried out at different points in time during the program logic:
 
 -   on modify
     
-    The determination is executed immediately after data changes take place in the [transactional buffer](javascript:call_link\('abentransactional_buffer_glosry.htm'\) "Glossary Entry") so that the result is available during the transaction.
+    The determination is executed immediately after data changes take place in the [transactional buffer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentransactional_buffer_glosry.htm "Glossary Entry") so that the result is available during the transaction.
     
-    Determinations on modify must be implemented in the [RAP handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") [FOR DETERMINE](javascript:call_link\('abaphandler_meth_det.htm'\)) in the local [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+    Determinations on modify must be implemented in the [RAP handler method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") [FOR DETERMINE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaphandler_meth_det.htm) in the local [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
     
 -   on save
     
-    The determination is executed during the [save sequence](javascript:call_link\('abenrap_save_seq_glosry.htm'\) "Glossary Entry") at the end of an transaction, when changes from the transactional buffer are persistent on the database.
+    The determination is executed during the [save sequence](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_save_seq_glosry.htm "Glossary Entry") at the end of an transaction, when changes from the transactional buffer are persistent on the database.
     
-    Determinations on save must be implemented in the [RAP handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") [FOR DETERMINE](javascript:call_link\('abaphandler_meth_det.htm'\)) in the local [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+    Determinations on save must be implemented in the [RAP handler method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") [FOR DETERMINE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaphandler_meth_det.htm) in the local [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
     
 
 Trigger Conditions
 
-There can be one or more trigger conditions. The trigger conditions can be changes of field values or the execution of one of the [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\)) create, update, or delete.
+There can be one or more trigger conditions. The trigger conditions can be changes of field values or the execution of one of the [standard operations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_standard_operations.htm) create, update, or delete.
 
 -   create: determination is executed when an instance is created.
 -   update: determination is executed when an instance is updated. For determinations defined as on save, update works only in combination with the trigger operation create.
@@ -48,14 +48,14 @@ There can be one or more trigger conditions. The trigger conditions can be chang
 
 Availability
 
--   [Managed RAP BOs](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry")
--   [Unmanaged](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry") and [draft-enabled](javascript:call_link\('abendraft_rap_bo_glosry.htm'\) "Glossary Entry") RAP BOs.
+-   [Managed RAP BOs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry")
+-   [Unmanaged](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry") and [draft-enabled](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendraft_rap_bo_glosry.htm "Glossary Entry") RAP BOs.
     
     Caution: Not available for unmanaged, non-draft RAP BOs.
     
-    In [unmanaged RAP BOs](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), determinations are only supported for draft instances, not for active instances.
+    In [unmanaged RAP BOs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry"), determinations are only supported for draft instances, not for active instances.
     
--   [Projection BOs](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry")
+-   [Projection BOs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_projection_bo_glosry.htm "Glossary Entry")
 
 Further Information
 
@@ -66,13 +66,13 @@ Hints
 -   The determination result must not change if the determination is executed several times under the same conditions (idempotence).
 -   The execution order of determinations is not fixed. If there is more than one determination triggered by the same condition, the execution order is arbitrary.
 -   Once a determination has been triggered, it must run independently from other determinations.
--   If an instance is created and deleted with the same request, it can happen that an [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") read operation in a determination defined as on modify fails as instances with the given key cannot be found.
+-   If an instance is created and deleted with the same request, it can happen that an [EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") read operation in a determination defined as on modify fails as instances with the given key cannot be found.
 
 Example
 
 The following example shows a managed BDEF based on the CDS root view entity DEMO\_SALES\_CDS\_SO\_2. The root view entity represents a sales order and the child entity DEMO\_SALES\_CDS\_SO\_I\_2 represents a sales order item. Three determinations are defined in the root entity:
 
--   setID assigns values to the semantic key field SalesOrderId during the save sequence. The technical key field SoKey is populated by means of internal numbering using the statement [numbering:managed](javascript:call_link\('abenbdl_field_numbering.htm'\)).
+-   setID assigns values to the semantic key field SalesOrderId during the save sequence. The technical key field SoKey is populated by means of internal numbering using the statement [numbering:managed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_field_numbering.htm).
 -   setStatustoNew sets the status of a newly created sales order to O for open. It is triggered whenever a new sales order is created. This status can be changed to Accepted or Rejected during further processing.
 -   TotalPrice sums up the price of all items of a sales order. It is triggered whenever a new sales order is created.
 
@@ -131,7 +131,7 @@ The child entity defines one on modify determination:
 
 The determinations are implemented in the behavior poolBP\_DEMO\_SALES\_CDS\_SO\_2, see CCIMP include.
 
-The program DEMO\_CDS\_DETERMINATION accesses the business object using [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry"). It creates two BO instances, providing only a value for the field BuyerID for each.
+The program DEMO\_CDS\_DETERMINATION accesses the business object using [EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry"). It creates two BO instances, providing only a value for the field BuyerID for each.
 Code snippet:
 
 MODIFY ENTITIES OF demo\_sales\_cds\_so\_2
@@ -146,7 +146,7 @@ Result: The values for the fields so\_key, id, lifecycle\_status, and amount\_su
 
 Executable Example
 
-The example above is explained in detail in the executable example [CDS BDL - determination](javascript:call_link\('abenbdl_determination_abexa.htm'\)).
+The example above is explained in detail in the executable example [CDS BDL - determination](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_determination_abexa.htm).
 
 Continue
-![Example](exa.gif "Example") [CDS BDL - Determination](javascript:call_link\('abenbdl_determination_abexa.htm'\))
+![Example](exa.gif "Example") [CDS BDL - Determination](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_determination_abexa.htm)

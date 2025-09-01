@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_win](javascript:call_link\('abapselect_over.htm'\)) →  [sql\_win - Examples of Window Expressions](javascript:call_link\('abensql_expr_over_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_win](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_over.htm) →  [sql\_win - Examples of Window Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_expr_over_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20sql_win%20-%20Window%20Expressions%20with%20Sort%2C%20ABENSQL_EXPR_OVER_ORDER_BY_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20i
 mprovement:)
 
 sql\_win - Window Expressions with Sort
 
-This example demonstrates [window expressions](javascript:call_link\('abapselect_over.htm'\)) with a sort.
+This example demonstrates [window expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_over.htm) with a sort.
 
 Source Code   
 
@@ -128,7 +128,7 @@ ENDCLASS.
 
 Description   
 
-The example compares SELECT statements with identical [window expressions](javascript:call_link\('abapselect_over.htm'\)) with and without the addition ORDER BY specified after OVER. The use of the [ranking functions](javascript:call_link\('abenranking_function_glosry.htm'\) "Glossary Entry") [RANK](javascript:call_link\('abensql_win_func.htm'\)) and [DENSE\_RANK](javascript:call_link\('abensql_win_func.htm'\)) is only possible in combination with this addition.
+The example compares SELECT statements with identical [window expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_over.htm) with and without the addition ORDER BY specified after OVER. The use of the [ranking functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenranking_function_glosry.htm "Glossary Entry") [RANK](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_win_func.htm) and [DENSE\_RANK](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_win_func.htm) is only possible in combination with this addition.
 
 -   If the addition ORDER BY is not specified after OVER, the window functions are executed in an undefined order for all rows of the windows defined by the content of the column CHAR1:
     -   The aggregate functions COUNT, MAX, MIN, and SUM evaluate all rows of a window.

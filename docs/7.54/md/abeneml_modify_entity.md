@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP RESTful Programming Model](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - MODIFY ENTITIES](javascript:call_link\('abeneml_modify_entities.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP RESTful Programming Model](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrestful_abap_programming.htm) →  [Entity Manipulation Language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml.htm) →  [ABAP EML - MODIFY ENTITIES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entities.htm) → 
 
 ABAP EML - MODIFY ENTITY
 
@@ -24,7 +24,7 @@ MODIFY
 
 Effect
 
-The short form MODIFY ENTITY is intended for the special case where only a single entity is operated on. In this case, access via the [business object](javascript:call_link\('abenbusiness_object_glosry.htm'\) "Glossary Entry") (the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") root\_name) is not necessary.
+The short form MODIFY ENTITY is intended for the special case where only a single entity is operated on. In this case, access via the [business object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbusiness_object_glosry.htm "Glossary Entry") (the [root entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_entity_glosry.htm "Glossary Entry") root\_name) is not necessary.
 
 The following points apply for the syntax of the statement MODIFY ENTITY:
 
@@ -37,4 +37,4 @@ The following points apply for the syntax of the statement MODIFY ENTITY:
            operation
           *\[*operation ...*\]*
 
-For more information on syntax elements, see [MODIFY ENTITIES](javascript:call_link\('abeneml_modify_entities.htm'\)).
+For more information on syntax elements, see [MODIFY ENTITIES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml_modify_entities.htm).

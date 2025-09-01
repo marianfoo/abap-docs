@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  S
 
 SET PF-STATUS - Quick reference
 
-[Reference](javascript:call_link\('abapset_pf-status_dynpro.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_pf-status_dynpro.htm)
 
 Syntax
 
@@ -18,17 +18,17 @@ SET PF-STATUS status *\[*OF PROGRAM prog*\]*
 
 Effect
 
-Sets the [GUI status](javascript:call_link\('abengui_status_glosry.htm'\) "Glossary Entry").
+Sets the [GUI status](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengui_status_glosry.htm "Glossary Entry").
 
 Additions
 
--   [OF PROGRAM prog](javascript:call_link\('abapset_pf-status_dynpro.htm'\))
+-   [OF PROGRAM prog](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_pf-status_dynpro.htm)
     Specifies the program prog in which the GUI status is defined.
     
 
--   [EXCLUDING fcode](javascript:call_link\('abapset_pf-status_dynpro.htm'\))
-    Deactivates functions of the GUI status by specifying the [function codes](javascript:call_link\('abenfunction_code_glosry.htm'\) "Glossary Entry") in a character string or in an internal table fcode.
+-   [EXCLUDING fcode](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_pf-status_dynpro.htm)
+    Deactivates functions of the GUI status by specifying the [function codes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction_code_glosry.htm "Glossary Entry") in a character string or in an internal table fcode.
     
 
--   [IMMEDIATELY](javascript:call_link\('abapset_pf-status_list.htm'\))
+-   [IMMEDIATELY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_pf-status_list.htm)
     Sets the GUI status after an interactive list event for the currently displayed list.

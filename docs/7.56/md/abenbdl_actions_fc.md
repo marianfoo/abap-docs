@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [ABAP CDS - managed and unmanaged behavior definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [CDS BDL - entity behavior definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [CDS BDL - entity behavior body](javascript:call_link\('abenbdl_body.htm'\)) →  [CDS BDL - RAP BO operations](javascript:call_link\('abenbdl_operations.htm'\)) →  [CDS BDL - RAP BO operation, additions](javascript:call_link\('abenbdl_operations_additions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl.htm) →  [ABAP CDS - managed and unmanaged behavior definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_rap_bo.htm) →  [CDS BDL - entity behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh.htm) →  [CDS BDL - entity behavior body](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_body.htm) →  [CDS BDL - RAP BO operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_operations.htm) →  [CDS BDL - RAP BO operation, additions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_operations_additions.htm) → 
 
 CDS BDL - feature control
 
@@ -20,24 +20,24 @@ Variants:
 
 Effect
 
-Defines [feature control](javascript:call_link\('abenrap_feature_control_glosry.htm'\) "Glossary Entry") for a [RAP BO operation](javascript:call_link\('abenrap_bo_operation_glosry.htm'\) "Glossary Entry"). With feature control, operations can be enabled or disabled.
+Defines [feature control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_feature_control_glosry.htm "Glossary Entry") for a [RAP BO operation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_operation_glosry.htm "Glossary Entry"). With feature control, operations can be enabled or disabled.
 
 There are two variants available:
 
--   [Instance feature control](javascript:call_link\('abenrap_ins_feature_control_glosry.htm'\) "Glossary Entry")
+-   [Instance feature control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_ins_feature_control_glosry.htm "Glossary Entry")
     
     Operations of a business object can be enabled or disabled depending on instance-specific criteria, for example on the value of a specific field or the value of referenced data. For example, if the status of a BO instance is set to archived, all modifying operations can be disabled by means of instance feature control.
     
-    An implementation in the [RAP handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") [FOR INSTANCE FEATURES](javascript:call_link\('abaphandler_meth_features.htm'\)) is mandatory.
+    An implementation in the [RAP handler method](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") [FOR INSTANCE FEATURES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_features.htm) is mandatory.
     
--   [Global feature control](javascript:call_link\('abenrap_glo_feature_control_glosry.htm'\) "Glossary Entry")
+-   [Global feature control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_glo_feature_control_glosry.htm "Glossary Entry")
     
     Operations of a business object can be enabled or disabled globally. That means, the decision is independent of the state of the individual entity instance. An operation can be globally enabled or disabled, for example, by interpreting a feature toggle state.
     
-    An implementation in the [RAP handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") [FOR GLOBAL FEATURES](javascript:call_link\('abaphandler_meth_global_features.htm'\)) is mandatory.
+    An implementation in the [RAP handler method](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") [FOR GLOBAL FEATURES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_global_features.htm) is mandatory.
     
 
-If an operation is disabled by means of feature control, it is grayed out on the user interface of an OData application. If an external [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") tries to execute a disabled operation with EML, the operation fails and an entry is returned in the [failed](javascript:call_link\('abapeml_response.htm'\)) structure.
+If an operation is disabled by means of feature control, it is grayed out on the user interface of an OData application. If an external [RAP BO consumer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") tries to execute a disabled operation with EML, the operation fails and an entry is returned in the [failed](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_response.htm) structure.
 
 Further Information
 
@@ -45,10 +45,10 @@ Further Information
 
 Hints
 
--   Feature control can't be used for [internal operations](javascript:call_link\('abenbdl_internal.htm'\)).
--   Feature control runtime checks are not evaluated for EML calls with the addition [IN LOCAL MODE](javascript:call_link\('abapin_local_mode.htm'\)).
--   The EML statement [GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\)) can be used to get information about disabled operations.
--   In UI scenarios, feature control is displayed as [RAP consumer hint](javascript:call_link\('abenrap_consumer_hint_glosry.htm'\) "Glossary Entry").
+-   Feature control can't be used for [internal operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_internal.htm).
+-   Feature control runtime checks are not evaluated for EML calls with the addition [IN LOCAL MODE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapin_local_mode.htm).
+-   The EML statement [GET PERMISSIONS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_permissions.htm) can be used to get information about disabled operations.
+-   In UI scenarios, feature control is displayed as [RAP consumer hint](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_consumer_hint_glosry.htm "Glossary Entry").
 
 Variant 1   
 
@@ -58,10 +58,10 @@ Effect
 
 Instance feature control enables or disables operations depending on the state of the BO entity instance. Instance feature control can be defined for the following operations:
 
--   the [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\)) update and delete
--   [operations for associations](javascript:call_link\('abenbdl_association.htm'\))
--   [actions](javascript:call_link\('abenbdl_action.htm'\))
--   the [draft action Edit](javascript:call_link\('abenbdl_draft_action.htm'\)).
+-   the [standard operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_standard_operations.htm) update and delete
+-   [operations for associations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_association.htm)
+-   [actions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm)
+-   the [draft action Edit](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_draft_action.htm).
 
 Example
 
@@ -102,13 +102,13 @@ ENDMETHOD.
 
 For the complete implementation, see CCIMP include
 
-The ABAP program DEMO\_RAP\_FC\_OPERATION uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object.
+The ABAP program DEMO\_RAP\_FC\_OPERATION uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object.
 
 -   First, it inserts two entity instances directly onto the database using ABAP SQL INSERT:
     -   one of them has the value '1' for field int\_field1.
     -   the second one has value '55' for field int\_field1. Therefore, it fulfills the condition that triggers feature control: for this instance, the update operation is disabled.
--   An EML [UPDATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) operation is executed on both instances, which updates field int\_field2.
--   Using the ABAP SQL [SELECT](javascript:call_link\('abapselect.htm'\)) statement, the content of the underlying database table is displayed.
+-   An EML [UPDATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) operation is executed on both instances, which updates field int\_field2.
+-   Using the ABAP SQL [SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm) statement, the content of the underlying database table is displayed.
 
 Result: the first entity instance is updated successfully. For the second entity instance, the update operation fails and an entry is returned in the failed structure. The update was prevented by the dynamic feature control runtime check.
 
@@ -122,9 +122,9 @@ Effect
 
 Global feature control enables or disables operations instance-independently. Global feature control can be defined for the following operations:
 
--   the [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\)) create, update, and delete
--   [operations for associations](javascript:call_link\('abenbdl_association.htm'\))
--   [actions](javascript:call_link\('abenbdl_action.htm'\))
+-   the [standard operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_standard_operations.htm) create, update, and delete
+-   [operations for associations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_association.htm)
+-   [actions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm)
 
 Example
 
@@ -162,7 +162,7 @@ ENDMETHOD.
 
 For the complete implementation, see CCIMP include
 
-The ABAP program DEMO\_RAP\_UNMANAGED\_FC uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object.
+The ABAP program DEMO\_RAP\_UNMANAGED\_FC uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object.
 
 -   Three entity instances are created.
 -   An attempt is made to delete one of the entity instances.

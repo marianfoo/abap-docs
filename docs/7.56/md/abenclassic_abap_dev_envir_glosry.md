@@ -4,14 +4,14 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 classic ABAP development environment
 
-Classic ABAP DE for short. [ABAP development environment](javascript:call_link\('abenabap_dev_envir_glosry.htm'\) "Glossary Entry") for [classic ABAP](javascript:call_link\('abenclassic_abap_glosry.htm'\) "Glossary Entry") development:
+Classic ABAP DE for short. [ABAP development environment](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dev_envir_glosry.htm "Glossary Entry") for [classic ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclassic_abap_glosry.htm "Glossary Entry") development:
 
--   The [ABAP language version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") can be chosen freely.
--   [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") and the [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry") can both be used.
--   Access to other [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") is not restricted.
+-   The [ABAP language version](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_version_glosry.htm "Glossary Entry") can be chosen freely.
+-   [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm "Glossary Entry") and the [ABAP Workbench](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_workbench_glosry.htm "Glossary Entry") can both be used.
+-   Access to other [repository objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrepository_object_glosry.htm "Glossary Entry") is not restricted.
 
-A classic ABAP development environment is provided by an [ABAP platform classic](javascript:call_link\('abenabap_platform_classic_glosry.htm'\) "Glossary Entry").
+A classic ABAP development environment is provided by an [ABAP platform classic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_platform_classic_glosry.htm "Glossary Entry").

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) →  [LOOP AT itab](javascript:call_link\('abaploop_at_itab_variants.htm'\)) →  [LOOP AT itab - Basic Form](javascript:call_link\('abaploop_at_itab.htm'\)) →  [AT - Group Level Processing](javascript:call_link\('abapat_itab.htm'\)) →  [Examples of Control Level Processing](javascript:call_link\('abenat_itab_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab.htm) →  [Processing Statements for Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_processing_statements.htm) →  [LOOP AT itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_variants.htm) →  [LOOP AT itab - Basic Form](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab.htm) →  [AT - Group Level Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_itab.htm) →  [Examples of Control Level Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenat_itab_abexas.htm) → 
 
 Control Level Processing for Unsorted Tables
 
@@ -77,4 +77,4 @@ START-OF-SELECTION.
 
 Description
 
-Performs control level processing across an unsorted internal table with the group key col1. Control breaks are produced by each change in the content of this column. A grouping using [GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) produces a different result, by comparison, since this grouping is not dependent on the sorting of the internal table. Control level processing for the table sorted by col1 has the same result as the grouping.
+Performs control level processing across an unsorted internal table with the group key col1. Control breaks are produced by each change in the content of this column. A grouping using [GROUP BY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_group_by.htm) produces a different result, by comparison, since this grouping is not dependent on the sorting of the internal table. Control level processing for the table sorted by col1 has the same result as the grouping.

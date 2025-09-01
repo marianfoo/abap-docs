@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 table work area
 
-Structured [interface work area](javascript:call_link\('abeninterface_work_area_glosry.htm'\) "Glossary Entry") that is declared using the statements [TABLES](javascript:call_link\('abaptables.htm'\)) or [NODES](javascript:call_link\('abapnodes.htm'\)) with reference to an identically named structure or [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry") of the [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry").
+Structured [interface work area](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninterface_work_area_glosry.htm "Glossary Entry") that is declared using the statements [TABLES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptables.htm) or [NODES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnodes.htm) with reference to an identically named structure or [DDIC database table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_db_table_glosry.htm "Glossary Entry") of the [ABAP Dictionary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary_glosry.htm "Glossary Entry").

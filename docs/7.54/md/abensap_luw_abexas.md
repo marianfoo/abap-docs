@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Data Consistency](javascript:call_link\('abentransaction.htm'\)) →  [SAP LUW](javascript:call_link\('abensap_luw.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Data Consistency](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransaction.htm) →  [SAP LUW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_luw.htm) → 
 
 SAP LUW, Examples
 
 Continue
-![Example](exa.gif "Example") [SAP LUW, UPDATE TASK](javascript:call_link\('abensap_luw_update_task_abexa.htm'\))
-![Example](exa.gif "Example") [SAP LUW, ON COMMIT](javascript:call_link\('abensap_luw_on_commit_abexa.htm'\))
+![Example](exa.gif "Example") [SAP LUW, UPDATE TASK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_luw_update_task_abexa.htm)
+![Example](exa.gif "Example") [SAP LUW, ON COMMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_luw_on_commit_abexa.htm)

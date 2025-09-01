@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_type_obj_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Bound%20and%20Standalone%20Data%20Types%2C%20ABENBOUND_INDEPENDENT_DTYPE_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improveme
 nt:)
@@ -29,15 +29,15 @@ Here is a list of reasons that support the declaration of standalone types:
 
 -   The declaration of a standalone data type allows multiple data objects (or interface parameters or field symbols) to use a type without the need to always redefine this type.
 -   Even if only one data object of this type is required initially, it is very likely that further data objects will be added during the course of the development. If the type needs to be adapted later on, you can do this centrally.
--   Declaring a standalone type and using it to declare a data object is nothing more than following the rule for the [SoC principle](javascript:call_link\('abenseparation_concerns_guidl.htm'\) "Guideline").
+-   Declaring a standalone type and using it to declare a data object is nothing more than following the rule for the [SoC principle](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenseparation_concerns_guidl.htm "Guideline").
 
-The data type should always have a specific meaning and a meaningful [name](javascript:call_link\('abennaming_gdl.htm'\)). This gives data types a clear semantic meaning and makes the program easier to read and understand. Therefore, you should declare different data types for technically identical but semantically different data objects. This also increases the probability that a type can be adapted later on without making major program changes.
+The data type should always have a specific meaning and a meaningful [name](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennaming_gdl.htm). This gives data types a clear semantic meaning and makes the program easier to read and understand. Therefore, you should declare different data types for technically identical but semantically different data objects. This also increases the probability that a type can be adapted later on without making major program changes.
 
 Therefore you should avoid declaring purely technical data types that cannot be associated with specific semantics, because this does not make it easier to read or enhance the program.
 
 Hint
 
-A separate [rule](javascript:call_link\('abendeclaration_dtypes_const_guidl.htm'\) "Guideline") specifies where the standalone data types should be declared.
+A separate [rule](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclaration_dtypes_const_guidl.htm "Guideline") specifies where the standalone data types should be declared.
 
 Bad Example
 

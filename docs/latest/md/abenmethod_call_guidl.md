@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Alternative Spellings](javascript:call_link\('abenalternative_spelling_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_style_gdl.htm) →  [Alternative Spellings](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenalternative_spelling_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Method%20Calls%2C%20ABENMETHOD_CALL_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,15 +12,15 @@ Method Calls
 
 Background   
 
-Static calls of methods can be formulated in two different ways. The [obsolete long form](javascript:call_link\('abapcall_method_static.htm'\))
+Static calls of methods can be formulated in two different ways. The [obsolete long form](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_static.htm)
 
 CALL METHOD meth EXPORTING ...
 
-is based on the notation of the function module call. Alternatively, a [short form](javascript:call_link\('abapcall_method_static_short.htm'\)) can be used:
+is based on the notation of the function module call. Alternatively, a [short form](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_static_short.htm) can be used:
 
 meth( ... ).
 
-This form uses a parenthesis notation instead of the initiating ABAP words [CALL METHOD](javascript:call_link\('abapcall_method_static.htm'\)). A combination of CALL METHOD and parentheses is also possible.
+This form uses a parenthesis notation instead of the initiating ABAP words [CALL METHOD](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_static.htm). A combination of CALL METHOD and parentheses is also possible.
 
 Rule   
 

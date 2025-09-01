@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_agg](javascript:call_link\('abapselect_aggregate.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_agg](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_aggregate.htm) → 
 
 ABAP SQL - Examples of Aggregate Expressions
 
 Continue
-![Example](exa.gif "Example") [SQL Expression, Aggregate Function string\_agg](javascript:call_link\('abensql_expr_string_agg_abexa.htm'\))
-![Example](exa.gif "Example") [SQL Expressions, Use in Aggregate Expressions](javascript:call_link\('abensql_expr_in_aggregates_abexa.htm'\))
-![Example](exa.gif "Example") [SQL Expressions, Aggregate Expressions in SQL Expressions](javascript:call_link\('abensql_expr_aggr_in_expr_abexa.htm'\))
+![Example](exa.gif "Example") [SQL Expression, Aggregate Function string\_agg](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_string_agg_abexa.htm)
+![Example](exa.gif "Example") [SQL Expressions, Use in Aggregate Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_in_aggregates_abexa.htm)
+![Example](exa.gif "Example") [SQL Expressions, Aggregate Expressions in SQL Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_aggr_in_expr_abexa.htm)

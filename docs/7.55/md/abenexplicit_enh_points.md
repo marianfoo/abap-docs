@@ -4,19 +4,19 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Enhancements](javascript:call_link\('abenenhancement_framework.htm'\)) →  [Source Code Enhancements](javascript:call_link\('abensource_code_enhancement.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Enhancements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenhancement_framework.htm) →  [Source Code Enhancements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensource_code_enhancement.htm) → 
 
 Explicit enhancement options
 
-Explicit [enhancement options](javascript:call_link\('abenenhancement_point_glosry.htm'\) "Glossary Entry") are created in ABAP programs by the following statements:
+Explicit [enhancement options](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenhancement_point_glosry.htm "Glossary Entry") are created in ABAP programs by the following statements:
 
--   [ENHANCEMENT-POINT](javascript:call_link\('abapenhancement-point.htm'\))
+-   [ENHANCEMENT-POINT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-point.htm)
     Defines a position in an ABAP program as an enhancement option, at which one or more source code plug-ins can be inserted.
     
 
--   [ENHANCEMENT-SECTION](javascript:call_link\('abapenhancement-section.htm'\))
+-   [ENHANCEMENT-SECTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-section.htm)
     Defines a section of an ABAP program as an enhancement option, which can be replaced by one or more source code plug-ins.
 
 Continue
-[ENHANCEMENT-POINT](javascript:call_link\('abapenhancement-point.htm'\))
-[ENHANCEMENT-SECTION](javascript:call_link\('abapenhancement-section.htm'\))
+[ENHANCEMENT-POINT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-point.htm)
+[ENHANCEMENT-SECTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-section.htm)

@@ -65,4 +65,4 @@ Variant 10
 
 SYSTEM-CALL DESCRIBE INTERFACE f1 INTO f2 f3 f4 f5 f6 f7 f8 f9 f10 f11.
 
-Variants 1-10 are intended for [RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry") system classes. They will become obsolete in the near future.
+Variants 1-10 are intended for [RTTS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry") system classes. They will become obsolete in the near future.

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [string\_exp - String Expressions](javascript:call_link\('abapcompute_string.htm'\)) →  [string\_exp - String Templates](javascript:call_link\('abenstring_templates.htm'\)) →  [String Templates - embedded\_expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_processing_expr_func.htm) →  [string\_exp - String Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_string.htm) →  [string\_exp - String Templates](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates.htm) →  [String Templates - embedded\_expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_expressions.htm) → 
 
 Embedded Expressions - format\_options
 
@@ -55,7 +55,7 @@ Extras:
 
 Effect
 
-These formatting options override the [predefined formats](javascript:call_link\('abenstring_templates_predef_format.htm'\)) of [embedded expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)) in [string templates](javascript:call_link\('abenstring_templates.htm'\)). The formatting options are specified as optional key word parameters to which an actual parameter is assigned.
+These formatting options override the [predefined formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_predef_format.htm) of [embedded expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_expressions.htm) in [string templates](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates.htm). The formatting options are specified as optional key word parameters to which an actual parameter is assigned.
 
 Actual parameters with fixed values can be specified as follows:
 
@@ -66,7 +66,7 @@ Actual parameters with fixed values can be specified as follows:
 
 -   the content of a data object (dobj) specified in parentheses
 
--   result of a [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") or [method chaining](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry"), of a [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry"), or of a [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") expr
+-   result of a [functional method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunctional_method_glosry.htm "Glossary Entry") or [method chaining](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_chaining_glosry.htm "Glossary Entry"), of a [constructor expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_glosry.htm "Glossary Entry"), or of a [table expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_expression_glosry.htm "Glossary Entry") expr
 
 The possible values of dobj or expr are defined as constants in the class CL\_ABAP\_FORMAT.
 
@@ -76,7 +76,7 @@ If a formal parameter or a field symbol with a generic data type is specified as
 
 Note
 
-If specified, (dobj) and expr represent a summary [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry"). Unlike the regular [functional operand positions](javascript:call_link\('abenfunctional_positions.htm'\)), however, the data object dobj must be placed in parentheses to distinguish it clearly from a parameter specified as a key word.
+If specified, (dobj) and expr represent a summary [functional operand position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunctional_position_glosry.htm "Glossary Entry"). Unlike the regular [functional operand positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunctional_positions.htm), however, the data object dobj must be placed in parentheses to distinguish it clearly from a parameter specified as a key word.
 
 Addition 1
 
@@ -84,7 +84,7 @@ Addition 1
 
 Effect
 
-This formatting option defines the length of the string displayed by the embedded expression as the value of len, where len is a [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry").
+This formatting option defines the length of the string displayed by the embedded expression as the value of len, where len is a [numeric expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry").
 
 The option WIDTH can be specified for all data types of the embedded expression. If the value of len is less than the minimum required length, it is ignored. This means that the predefined length cannot be reduced, only increased. By default, a string is extended on the right and padded with blanks. This default setting can be overridden using the formatting options ALIGN and PAD.
 
@@ -96,7 +96,7 @@ DATA(text) = |{ CONV decfloat34( 1234 / 10 ) WIDTH = 20 }|.
 
 Executable Example
 
-[String Templates, Length](javascript:call_link\('abenstring_template_width_abexa.htm'\))
+[String Templates, Length](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_width_abexa.htm)
 
 Addition 2
 
@@ -147,7 +147,7 @@ DATA(text) =
 
 Executable Example
 
-[String Templates, Alignments, and Padding](javascript:call_link\('abenstring_template_align_abexa.htm'\))
+[String Templates, Alignments, and Padding](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_align_abexa.htm)
 
 Addition 3
 
@@ -169,7 +169,7 @@ DATA(text) = |{ 'X' ALIGN = RIGHT WIDTH = 10 PAD = '\_' }|.
 
 Example
 
-See [Character String Templates, Alignments, and Padding](javascript:call_link\('abenstring_template_align_abexa.htm'\))
+See [Character String Templates, Alignments, and Padding](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_align_abexa.htm)
 
 Addition 4
 
@@ -222,7 +222,7 @@ DATA(text) =
 
 Executable Example
 
-[String Templates, Case](javascript:call_link\('abenstring_template_case_abexa.htm'\))
+[String Templates, Case](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_case_abexa.htm)
 
 Addition 5
 
@@ -230,7 +230,7 @@ Addition 5
 
 Effect
 
-This formatting option defines the format of the +/- sign when the string represented by the embedded expression contains a numeric value. It can be specified only if the embedded expression has a [numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry").
+This formatting option defines the format of the +/- sign when the string represented by the embedded expression contains a numeric value. It can be specified only if the embedded expression has a [numeric data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_data_type_glosry.htm "Glossary Entry").
 
 The values for the format of the sign are fixed. The following table shows the key words and the associated values from the class CL\_ABAP\_FORMAT that can be specified as dobj or expr:
 
@@ -288,7 +288,7 @@ DATA(text) = |{ 1 SIGN = LEFTPLUS }| .
 
 Executable Example
 
-[String Templates, Sign](javascript:call_link\('abenstring_template_sign_abexa.htm'\))
+[String Templates, Sign](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_sign_abexa.htm)
 
 Addition 6
 
@@ -296,7 +296,7 @@ Addition 6
 
 Effect
 
-This formatting option defines the exponent as the value of exp when formatting [floating point numbers](javascript:call_link\('abenfloating_point_number_2_glosry.htm'\) "Glossary Entry"), where exp is a [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry"). The option EXPONENT can be specified only if the embedded expression has a [numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry"). It cannot be specified in combination with the options TIMESTAMP or TIMEZONE.
+This formatting option defines the exponent as the value of exp when formatting [floating point numbers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfloating_point_number_2_glosry.htm "Glossary Entry"), where exp is a [numeric expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry"). The option EXPONENT can be specified only if the embedded expression has a [numeric data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_data_type_glosry.htm "Glossary Entry"). It cannot be specified in combination with the options TIMESTAMP or TIMEZONE.
 
 The option EXPONENT only affects the data type f or if the option STYLE is specified with the value scientific.
 
@@ -323,7 +323,7 @@ Addition 7
 
 Effect
 
-This formatting option defines the number of decimal places as the value of dec, where dec is a [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry"). The option DECIMALS can be specified only if the embedded expression has a [numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry"). It cannot be specified in combination with the options TIMESTAMP or TIMEZONE.
+This formatting option defines the number of decimal places as the value of dec, where dec is a [numeric expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry"). The option DECIMALS can be specified only if the embedded expression has a [numeric data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_data_type_glosry.htm "Glossary Entry"). It cannot be specified in combination with the options TIMESTAMP or TIMEZONE.
 
 dec expects a data object of type i that contains the number of decimal places required. If the content of dec is less than 0, it is handled like 0. The content of data objects of data types (b, s), i, int8, or p is multiplied by 10 to the power of dec beforehand. For the individual numeric data types, the following applies:
 
@@ -333,18 +333,18 @@ dec expects a data object of type i that contains the number of decimal places r
     
 -   For data objects of types decfloat16 and decfloat34, the content of dec decides the number of decimal places in mathematical notation and the number of places in the mantissa in scientific notation.
     
--   For data objects of type f, the content of dec determines the number of decimal places in the [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry"). If the content of dec is greater than 16, it is handled like 16. If the content of dec is greater than the number of decimal places of the source field, zeroes are appended accordingly. If the content of dec is less than the number of decimal places of the source field, they are rounded to the decimal places in dec.
+-   For data objects of type f, the content of dec determines the number of decimal places in the [scientific notation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscientific_notation_glosry.htm "Glossary Entry"). If the content of dec is greater than 16, it is handled like 16. If the content of dec is greater than the number of decimal places of the source field, zeroes are appended accordingly. If the content of dec is less than the number of decimal places of the source field, they are rounded to the decimal places in dec.
     
 
 If the formatting option CURRENCY is also specified, it is first executed for the data types (b, s), i, int8 and p before the formatting option DECIMALS is applied. For data type f, the formatting option CURRENCY is ignored if it is specified together with DECIMALS.
 
 Note
 
-The DECIMALS formatting option does not override the [predefined format](javascript:call_link\('abenstring_templates_predef_format.htm'\)) specifying that thousands separators are not inserted.
+The DECIMALS formatting option does not override the [predefined format](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_predef_format.htm) specifying that thousands separators are not inserted.
 
 Example
 
-The following string template generates the character string shown below it. If the [conversion operator](javascript:call_link\('abenconversion_operator_glosry.htm'\) "Glossary Entry") is not specified, the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") of the embedded expression is i.
+The following string template generates the character string shown below it. If the [conversion operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_operator_glosry.htm "Glossary Entry") is not specified, the [calculation type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencalculation_type_glosry.htm "Glossary Entry") of the embedded expression is i.
 
 DATA(text) = |{                  - 2 / 3   DECIMALS = 3 }, {
                 CONV decfloat34( - 2 / 3 ) DECIMALS = 3 }, {
@@ -358,7 +358,7 @@ Addition 8
 
 Effect
 
-This formatting option defines the format of the numeric value zero. The option ZERO can be specified only if the embedded expression has a [numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry"). It cannot be specified in combination with the options TIMESTAMP or TIMEZONE.
+This formatting option defines the format of the numeric value zero. The option ZERO can be specified only if the embedded expression has a [numeric data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_data_type_glosry.htm "Glossary Entry"). It cannot be specified in combination with the options TIMESTAMP or TIMEZONE.
 
 The values for the format of the zero value are fixed. The following table shows the key words and the associated values from the class CL\_ABAP\_FORMAT that can be specified as dobj or expr:
 
@@ -396,9 +396,9 @@ Addition 9
 
 Effect
 
-This formatting option formats the value of the embedded expression in the [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") format that is associated with its data type. The option XSD can be specified for all elementary data types. It cannot be specified together with other formatting options; with the exception of WIDTH, ALIGN, PAD, CASE, and ZERO.
+This formatting option formats the value of the embedded expression in the [asXML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenasxml_glosry.htm "Glossary Entry") format that is associated with its data type. The option XSD can be specified for all elementary data types. It cannot be specified together with other formatting options; with the exception of WIDTH, ALIGN, PAD, CASE, and ZERO.
 
-The option XSD affects all data types listed under [Mapping of Elementary ABAP Types](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)), as specified there.
+The option XSD affects all data types listed under [Mapping of Elementary ABAP Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_elementary.htm), as specified there.
 
 The values for the asXML format are fixed. The following table shows the key words and the associated values from the class CL\_ABAP\_FORMAT that can be specified as dobj or expr:
 
@@ -412,7 +412,7 @@ YES
 
 CL\_ABAP\_FORMAT=>X\_YES
 
-The data type of the embedded expression determines how it is formatted in accordance with the asXML format specified under [Mapping of Elementary ABAP Types](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)). If the data type references one of the domains specified under [Mapping of Further XML Schema Data Types](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)) (with the exception of XSDQNAME), the format specified there is used. [XML fragments](javascript:call_link\('abenabap_xslt_asxml_fragment.htm'\)) cannot be mapped using the domain XSDANY.
+The data type of the embedded expression determines how it is formatted in accordance with the asXML format specified under [Mapping of Elementary ABAP Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_elementary.htm). If the data type references one of the domains specified under [Mapping of Further XML Schema Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm) (with the exception of XSDQNAME), the format specified there is used. [XML fragments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_fragment.htm) cannot be mapped using the domain XSDANY.
 
 NO
 
@@ -424,11 +424,11 @@ If the data type of the embedded expression has the type x or xstring, a formatt
 
 Note
 
-The formatting of an embedded expression with XSD generally produces the same result as applying the predefined [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID. Unlike a CALL TRANSFORMATION call, exceptions that can be raised by mappings, but not wrapped, should be handled directly
+The formatting of an embedded expression with XSD generally produces the same result as applying the predefined [identity transformation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID. Unlike a CALL TRANSFORMATION call, exceptions that can be raised by mappings, but not wrapped, should be handled directly
 
 Example
 
-The following string template generates the character string shown below it. XSDBOOLEAN is a data element that references the special domainXSDBOOLEAN for the [mapping](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)) of truth values.
+The following string template generates the character string shown below it. XSDBOOLEAN is a data element that references the special domainXSDBOOLEAN for the [mapping](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm) of truth values.
 
 DATA:
   flag1 TYPE xsdboolean VALUE abap\_true,
@@ -439,7 +439,7 @@ true, false
 
 Executable Example
 
-[String Templates, asXML Format](javascript:call_link\('abenstring_template_xsd_abexa.htm'\)) .
+[String Templates, asXML Format](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_xsd_abexa.htm) .
 
 Addition 10
 
@@ -447,7 +447,7 @@ Addition 10
 
 Effect
 
-This formatting option defines the style of [decimal floating point numbers](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry"). The option STYLE can be specified only if the embedded expression has a [numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry"). It cannot be specified in combination with the options CURRENCY, SIGN, TIMESTAMP, or TIMEZONE.
+This formatting option defines the style of [decimal floating point numbers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendecfloat_glosry.htm "Glossary Entry"). The option STYLE can be specified only if the embedded expression has a [numeric data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_data_type_glosry.htm "Glossary Entry"). It cannot be specified in combination with the options CURRENCY, SIGN, TIMESTAMP, or TIMEZONE.
 
 The values for the format of a decimal floating point number are fixed. The following table shows the key words and the associated values from the class CL\_ABAP\_FORMAT that can be specified as dobj or expr:
 
@@ -485,22 +485,22 @@ CL\_ABAP\_FORMAT=>O\_ENGINEERING
 
 This means that the numeric value of the string is converted to the data type decfloat34 and is handled as follows:
 
--   The default settings SIMPLE creates the [predefined format](javascript:call_link\('abenstring_templates_predef_format.htm'\)) of embedded expressions.
+-   The default settings SIMPLE creates the [predefined format](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_predef_format.htm) of embedded expressions.
     
--   SIGN\_AS\_POSTFIX creates a [commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry"). The sign is appended on the right (a minus sign for negative values, a blank for positive values). Trailing zeroes in decimal places are cut off.
+-   SIGN\_AS\_POSTFIX creates a [commercial notation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencommercial_notation_glosry.htm "Glossary Entry"). The sign is appended on the right (a minus sign for negative values, a blank for positive values). Trailing zeroes in decimal places are cut off.
     
--   SCALE\_PRESERVING preserves the [scale](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry"). Here, trailing zeroes in the decimal places are not cut off. The same format is created as in [conversions of a source field of type decfloat34 to the type string](javascript:call_link\('abenconversion_type_decfloat.htm'\)).
+-   SCALE\_PRESERVING preserves the [scale](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscale_glosry.htm "Glossary Entry"). Here, trailing zeroes in the decimal places are not cut off. The same format is created as in [conversions of a source field of type decfloat34 to the type string](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_decfloat.htm).
     
--   SCIENTIFIC creates a [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry"). No sign is added for positive numbers. The result always has at least a two digit exponent with a sign. If the addition EXPONENT is not specified, only one integer digit (whose value is not zero) is represented in the mantissa, unless the source field has the value 0. Any trailing zeroes in the decimal places of the mantissa are cut off. The formatting option DECIMALS can be used to specify the number of decimal places and EXPONENT can be used to specify the exponent.
+-   SCIENTIFIC creates a [scientific notation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscientific_notation_glosry.htm "Glossary Entry"). No sign is added for positive numbers. The result always has at least a two digit exponent with a sign. If the addition EXPONENT is not specified, only one integer digit (whose value is not zero) is represented in the mantissa, unless the source field has the value 0. Any trailing zeroes in the decimal places of the mantissa are cut off. The formatting option DECIMALS can be used to specify the number of decimal places and EXPONENT can be used to specify the exponent.
     
--   SCIENTIFIC\_WITH\_LEADING\_ZERO creates a [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry") with leading zero. Like SCIENTIFIC with the following differences:
+-   SCIENTIFIC\_WITH\_LEADING\_ZERO creates a [scientific notation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscientific_notation_glosry.htm "Glossary Entry") with leading zero. Like SCIENTIFIC with the following differences:
     
 
 -   Only one integer digit with the value 0 is represented.
 
 -   The formatting option EXPONENT cannot be specified.
 
--   SCALE\_PRESERVING\_SCIENTIFIC creates a [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry") while preserving the [scale](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry"). Like SCIENTIFIC with the following differences:
+-   SCALE\_PRESERVING\_SCIENTIFIC creates a [scientific notation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscientific_notation_glosry.htm "Glossary Entry") while preserving the [scale](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscale_glosry.htm "Glossary Entry"). Like SCIENTIFIC with the following differences:
     
 
 -   The exponent always has three digits for decfloat16 and four digits for decfloat34.
@@ -518,7 +518,7 @@ This means that the numeric value of the string is converted to the data type de
 
 -   The formatting option EXPONENT cannot be specified.
 
-The [general rules](javascript:call_link\('abenstring_templates_predef_format.htm'\)) for embedded expressions apply to thousands separators and decimal separators. When combining other formatting options, the following applies:
+The [general rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_predef_format.htm) for embedded expressions apply to thousands separators and decimal separators. When combining other formatting options, the following applies:
 
 -   The formatting option EXPONENT can only be specified in combination with the output style SCIENTIFIC.
     
@@ -527,15 +527,15 @@ The [general rules](javascript:call_link\('abenstring_templates_predef_format.ht
 
 Notes
 
--   To a great extent, the formats match the output styles specified when a [domain](javascript:call_link\('abendomain_glosry.htm'\) "Glossary Entry") is created with one of the types DF16\_DEC, DF16\_RAW, DF16\_SCL (obsolete), DF34\_DEC, DF34\_RAW, or DF34\_SCL (obsolete) in ABAP Dictionary.
+-   To a great extent, the formats match the output styles specified when a [domain](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendomain_glosry.htm "Glossary Entry") is created with one of the types DF16\_DEC, DF16\_RAW, DF16\_SCL (obsolete), DF34\_DEC, DF34\_RAW, or DF34\_SCL (obsolete) in ABAP Dictionary.
     
--   When a [decimal floating point number defined in ABAP Dictionary](javascript:call_link\('abenddic_decimal_floating_point.htm'\)) is formatted, the formatting option STYLE overrides the output style defined in ABAP Dictionary.
+-   When a [decimal floating point number defined in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_decimal_floating_point.htm) is formatted, the formatting option STYLE overrides the output style defined in ABAP Dictionary.
     
 -   It is best to use the formatting option STYLE for the formatting of all numeric output. This addition then replaces all other additions whose output format can be specified using stl.
     
--   To specify the scaling of a decimal floating point number before the use of the format O\_SCALE\_PRESERVING\_SCIENTIFIC, the predefined function [rescale](javascript:call_link\('abendec_floating_point_functions.htm'\)) can be called by specifying the parameter dec.
+-   To specify the scaling of a decimal floating point number before the use of the format O\_SCALE\_PRESERVING\_SCIENTIFIC, the predefined function [rescale](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendec_floating_point_functions.htm) can be called by specifying the parameter dec.
     
--   The format O\_SCALE\_PRESERVING\_SCIENTIFIC is intended to help create output that is aligned vertically with reference to the decimal separator and exponent without the addition DECIMALS being used. To make this possible, the predefined function [rescale](javascript:call_link\('abendec_floating_point_functions.htm'\)) can be called before output by specifying the parameter prec.
+-   The format O\_SCALE\_PRESERVING\_SCIENTIFIC is intended to help create output that is aligned vertically with reference to the decimal separator and exponent without the addition DECIMALS being used. To make this possible, the predefined function [rescale](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendec_floating_point_functions.htm) can be called before output by specifying the parameter prec.
     
 
 Example
@@ -548,7 +548,7 @@ DATA(text) = |{ CONV decfloat34( '123456' ) STYLE = ENGINEERING }|.
 
 Executable Example
 
-[Decimal Floating Point Number, Formatting with STYLE](javascript:call_link\('abenwrite_style_abexa.htm'\))
+[Decimal Floating Point Number, Formatting with STYLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwrite_style_abexa.htm)
 
 Addition 11
 
@@ -556,7 +556,7 @@ Addition 11
 
 Effect
 
-This formatting option defines the number of decimal places when formatting numeric values, dependent on a currency when specified incur using a [currency ID](javascript:call_link\('abencurrency_id_glosry.htm'\) "Glossary Entry"). The option CURRENCY can be specified only if the embedded expression has one of the [numeric data types](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry") i, p, or f. It cannot be specified for the numeric data types decfloat16 and decfloat34 and not in combination with the options STYLE, TIMESTAMP, or TIMEZONE. The option SIGN can be used to control the formatting of the sign.
+This formatting option defines the number of decimal places when formatting numeric values, dependent on a currency when specified incur using a [currency ID](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencurrency_id_glosry.htm "Glossary Entry"). The option CURRENCY can be specified only if the embedded expression has one of the [numeric data types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_data_type_glosry.htm "Glossary Entry") i, p, or f. It cannot be specified for the numeric data types decfloat16 and decfloat34 and not in combination with the options STYLE, TIMESTAMP, or TIMEZONE. The option SIGN can be used to control the formatting of the sign.
 
 With respect to its decimal places. the string is formatted as follows for the individual numeric data types:
 
@@ -567,7 +567,7 @@ With respect to its decimal places. the string is formatted as follows for the i
 
 -   If specified as a data object or as a functional method, the decimal places specified in the definition of the data type are ignored in full. Regardless of the actual value and without rounding, a decimal separator is inserted between the digits in the places determined by cur.
 
--   When specifying a value of an arithmetic expression or a [general numeric function](javascript:call_link\('abenoverloaded_function_glosry.htm'\) "Glossary Entry"), CURRENCY works as in DECIMALS.
+-   When specifying a value of an arithmetic expression or a [general numeric function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoverloaded_function_glosry.htm "Glossary Entry"), CURRENCY works as in DECIMALS.
 
 -   For data objects of type f, the formatting option CURRENCY has the same effect as DECIMALS, where the number of decimal places is determined by cur.
     
@@ -576,7 +576,7 @@ cur in the numeric data types i, p, and f expects a currency ID from the column 
 
 Notes
 
--   The CURRENCY formatting option does not override the [predefined format](javascript:call_link\('abenstring_templates_predef_format.htm'\)) specifying that thousands separators are not inserted.
+-   The CURRENCY formatting option does not override the [predefined format](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_predef_format.htm) specifying that thousands separators are not inserted.
     
 -   The formatting option CURRENCY is useful with currencies from the tables TCURX or TCURX for formatting data objects of types (b, s), i, int8, or p without decimal places, whose contents are currency amounts in the smallest unit of the currency.
     
@@ -595,7 +595,7 @@ Addition 12
 
 Effect
 
-This formatting option defines the format of the decimal representation (decimal and thousand separators). The option NUMBER can only be specified if the embedded expression has a [numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry"). As well as the exclusions mentioned above, it cannot be used in combination with the options TIMESTAMP or TIMEZONE .
+This formatting option defines the format of the decimal representation (decimal and thousand separators). The option NUMBER can only be specified if the embedded expression has a [numeric data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_data_type_glosry.htm "Glossary Entry"). As well as the exclusions mentioned above, it cannot be used in combination with the options TIMESTAMP or TIMEZONE .
 
 The values for the format of the decimal representation are fixed. The following table shows the key words and the associated values from the class CL\_ABAP\_FORMAT that can be specified as dobj or expr:
 
@@ -615,23 +615,23 @@ USER
 
 CL\_ABAP\_FORMAT=>N\_USER
 
-The decimal and thousand separators are taken from the [user master record](javascript:call_link\('abenuser_master_record_glosry.htm'\) "Glossary Entry").
+The decimal and thousand separators are taken from the [user master record](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_master_record_glosry.htm "Glossary Entry").
 
 ENVIRONMENT
 
 CL\_ABAP\_FORMAT=>N\_ENVIRONMENT
 
-The decimal and thousand separators are determined according to the current [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry") that can be set using [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)).
+The decimal and thousand separators are determined according to the current [formatting setting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_environment_glosry.htm "Glossary Entry") that can be set using [SET COUNTRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_country.htm).
 
 The default setting is RAW.
 
 Note
 
-If the [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry") has not been set to a [country-specific format](javascript:call_link\('abencountry_formats.htm'\)) by means of [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)), the use of environment has the same effect as the use of USER.
+If the [formatting setting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_environment_glosry.htm "Glossary Entry") has not been set to a [country-specific format](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry_formats.htm) by means of [SET COUNTRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_country.htm), the use of environment has the same effect as the use of USER.
 
 Executable Example
 
-[String Templates, Formatting Settings](javascript:call_link\('abenstring_template_user_abexa.htm'\))
+[String Templates, Formatting Settings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_user_abexa.htm)
 
 Example
 
@@ -685,9 +685,9 @@ The length of the resulting character string is determined as follows:
 
 Notes
 
--   The formatting option ALPHA has the same function as the [conversion routine](javascript:call_link\('abenconversion_routine_glosry.htm'\) "Glossary Entry") CONVERSION\_EXIT\_ALPHA\_INPUT or CONVERSION\_EXIT\_ALPHA\_OUTPUT.
+-   The formatting option ALPHA has the same function as the [conversion routine](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_routine_glosry.htm "Glossary Entry") CONVERSION\_EXIT\_ALPHA\_INPUT or CONVERSION\_EXIT\_ALPHA\_OUTPUT.
     
--   The parameter IN can be used to transform strings of digits without leading zeroes to the format of [numeric text](javascript:call_link\('abennumeric_text_glosry.htm'\) "Glossary Entry") with leading zeroes. The parameter OUT can be used to convert numeric text with leading zeroes to strings of digits without leading zeroes.
+-   The parameter IN can be used to transform strings of digits without leading zeroes to the format of [numeric text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_text_glosry.htm "Glossary Entry") with leading zeroes. The parameter OUT can be used to convert numeric text with leading zeroes to strings of digits without leading zeroes.
     
 
 Example
@@ -700,7 +700,7 @@ DATA(text) = |{ '1234' ALPHA = IN WIDTH = 10 }|.
 
 Executable Example
 
-[String Templates, Strings of Digits](javascript:call_link\('abenstring_template_alpha_abexa.htm'\))
+[String Templates, Strings of Digits](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_alpha_abexa.htm)
 
 Addition 14
 
@@ -734,23 +734,23 @@ USER
 
 CL\_ABAP\_FORMAT=>D\_USER
 
-The date is formatted in accordance with the information in the [user master data](javascript:call_link\('abenuser_master_record_glosry.htm'\) "Glossary Entry").
+The date is formatted in accordance with the information in the [user master data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_master_record_glosry.htm "Glossary Entry").
 
 ENVIRONMENT
 
 CL\_ABAP\_FORMAT=>D\_ENVIRONMENT
 
-The formatting of the date is determined according to the current [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry") that can be set using [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)).
+The formatting of the date is determined according to the current [formatting setting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_environment_glosry.htm "Glossary Entry") that can be set using [SET COUNTRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_country.htm).
 
 The default setting is RAW.
 
 Note
 
-If the [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry") has not been set to a [country-specific format](javascript:call_link\('abencountry_formats.htm'\)) by means of [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)), the use of environment has the same effect as the use of USER.
+If the [formatting setting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_environment_glosry.htm "Glossary Entry") has not been set to a [country-specific format](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry_formats.htm) by means of [SET COUNTRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_country.htm), the use of environment has the same effect as the use of USER.
 
 Executable Example
 
-[String Templates, Formatting Settings](javascript:call_link\('abenstring_template_user_abexa.htm'\))
+[String Templates, Formatting Settings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_user_abexa.htm)
 
 Example
 
@@ -793,13 +793,13 @@ USER
 
 CL\_ABAP\_FORMAT=>T\_USER
 
-The time is formatted in accordance with the information in the [user master data](javascript:call_link\('abenuser_master_record_glosry.htm'\) "Glossary Entry").
+The time is formatted in accordance with the information in the [user master data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_master_record_glosry.htm "Glossary Entry").
 
 ENVIRONMENT
 
 CL\_ABAP\_FORMAT=>T\_ENVIRONMENT
 
-The formatting of the time is determined according to the current [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry") that can be set using [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)).
+The formatting of the time is determined according to the current [formatting setting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_environment_glosry.htm "Glossary Entry") that can be set using [SET COUNTRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_country.htm).
 
 The default setting is RAW.
 
@@ -809,11 +809,11 @@ A 24-hour format and four 12-month formats can be configured in the user master 
 
 Note
 
-If the [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry") has not been set to a [country-specific format](javascript:call_link\('abencountry_formats.htm'\)) by means of [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)), the use of environment has the same effect as the use of USER.
+If the [formatting setting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_environment_glosry.htm "Glossary Entry") has not been set to a [country-specific format](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry_formats.htm) by means of [SET COUNTRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_country.htm), the use of environment has the same effect as the use of USER.
 
 Executable Example
 
-[String Templates, Formatting Settings](javascript:call_link\('abenstring_template_user_abexa.htm'\))
+[String Templates, Formatting Settings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_user_abexa.htm)
 
 Example
 
@@ -837,7 +837,7 @@ Addition 16
 
 Effect
 
-This formatting option defines the format of a [time stamp](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry"). The option TIMESTAMP can be specified only if the embedded expression has the data type p with the length 8 and no decimal places (TIMESTAMP from ABAP Dictionary) or data type p with length 11 and seven decimal places (TIMESTAMPL from ABAP Dictionary). The value of the embedded expression is interpreted as a time stamp.
+This formatting option defines the format of a [time stamp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_stamp_glosry.htm "Glossary Entry"). The option TIMESTAMP can be specified only if the embedded expression has the data type p with the length 8 and no decimal places (TIMESTAMP from ABAP Dictionary) or data type p with length 11 and seven decimal places (TIMESTAMPL from ABAP Dictionary). The value of the embedded expression is interpreted as a time stamp.
 
 The values for the format of the time stamp are fixed. The following table shows the key words and the associated values from the class CL\_ABAP\_FORMAT that can be specified as dobj or expr:
 
@@ -851,7 +851,7 @@ SPACE
 
 CL\_ABAP\_FORMAT=>TS\_SPACE
 
-The content of the time stamp is converted by default to a date and time in [UTC](javascript:call_link\('abenutc_glosry.htm'\) "Glossary Entry") reference time and they are both represented in accordance with ISO 8601: "yyyy-mm-dd hh:mm:ss.zzzzzzz". The option TIMEZONE can be used to specify a different time zone.
+The content of the time stamp is converted by default to a date and time in [UTC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenutc_glosry.htm "Glossary Entry") reference time and they are both represented in accordance with ISO 8601: "yyyy-mm-dd hh:mm:ss.zzzzzzz". The option TIMEZONE can be used to specify a different time zone.
 
 ISO
 
@@ -863,13 +863,13 @@ USER
 
 CL\_ABAP\_FORMAT=>TS\_USER
 
-As SPACE, but the date format and the time format are taken from the [user master record](javascript:call_link\('abenuser_master_record_glosry.htm'\) "Glossary Entry").
+As SPACE, but the date format and the time format are taken from the [user master record](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_master_record_glosry.htm "Glossary Entry").
 
 ENVIRONMENT
 
 CL\_ABAP\_FORMAT=>TS\_ENVIRONMENT
 
-As SPACE. However, the date format and time format are defined in accordance with according to the current [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry") that can be set using [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)).
+As SPACE. However, the date format and time format are defined in accordance with according to the current [formatting setting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_environment_glosry.htm "Glossary Entry") that can be set using [SET COUNTRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_country.htm).
 
 \-
 
@@ -881,11 +881,11 @@ The default setting is SPACE.
 
 Note
 
-If the [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry") has not been set to a [country-specific format](javascript:call_link\('abencountry_formats.htm'\)) by means of [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)), the use of environment has the same effect as the use of USER.
+If the [formatting setting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlanguage_environment_glosry.htm "Glossary Entry") has not been set to a [country-specific format](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry_formats.htm) by means of [SET COUNTRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_country.htm), the use of environment has the same effect as the use of USER.
 
 Executable Example
 
-[String Templates, Formatting Settings](javascript:call_link\('abenstring_template_user_abexa.htm'\))
+[String Templates, Formatting Settings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_user_abexa.htm)
 
 Example
 
@@ -902,13 +902,13 @@ Addition 17
 
 Effect
 
-This formatting option converts the date and time information of a [time stamp](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") to the [local date](javascript:call_link\('abenlocal_date_glosry.htm'\) "Glossary Entry") and the [local time](javascript:call_link\('abenlocal_time_glosry.htm'\) "Glossary Entry") of the specified [time zone](javascript:call_link\('abentime_zone_glosry.htm'\) "Glossary Entry"). The information is formatted in accordance with how the option TIMESTAMP is specified.
+This formatting option converts the date and time information of a [time stamp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_stamp_glosry.htm "Glossary Entry") to the [local date](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_date_glosry.htm "Glossary Entry") and the [local time](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_time_glosry.htm "Glossary Entry") of the specified [time zone](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_zone_glosry.htm "Glossary Entry"). The information is formatted in accordance with how the option TIMESTAMP is specified.
 
-The option TIME ZONE can be specified only if the embedded expression has one of the data types TIMESTAMPL or TIMESTAMP from ABAP Dictionary (as with type p with length 11 and 7 decimal places or p with length 8 and no decimal places) as a [time stamp](javascript:call_link\('abentime_stamp_oview.htm'\)). Other data types produce a syntax error or runtime error.
+The option TIME ZONE can be specified only if the embedded expression has one of the data types TIMESTAMPL or TIMESTAMP from ABAP Dictionary (as with type p with length 11 and 7 decimal places or p with length 8 and no decimal places) as a [time stamp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_stamp_oview.htm). Other data types produce a syntax error or runtime error.
 
-tz expects a character-like data object containing a [time zone](javascript:call_link\('abentime_zone_glosry.htm'\) "Glossary Entry") from the database table TTZZ. If the [rule set](javascript:call_link\('abentime_zone_rules.htm'\)) for the specified time zone is incomplete, a non-handleable exception is raised. If tz is initial, the time zone is set implicitly to "UTC".
+tz expects a character-like data object containing a [time zone](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_zone_glosry.htm "Glossary Entry") from the database table TTZZ. If the [rule set](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_zone_rules.htm) for the specified time zone is incomplete, a non-handleable exception is raised. If tz is initial, the time zone is set implicitly to "UTC".
 
-If the addition TIMEZONE is specified for source fields with the types TIMESTAMPL or TIMESTAMP from ABAP Dictionary, the content of the source field is handled like a time stamp. If the option TIMEZONE is specified without the option TIMESTAMP, the parameter SPACE is added to the option TIMESTAMP implicitly. The option TIMEZONE cannot be specified if the value of CL\_ABAP\_FORMAT=>TS\_RAW is specified for TIMESTAMP in dobj or expr. The conversion is performed in the same way as with the statement [CONVERT TIME STAMP](javascript:call_link\('abapconvert_time-stamp.htm'\)).
+If the addition TIMEZONE is specified for source fields with the types TIMESTAMPL or TIMESTAMP from ABAP Dictionary, the content of the source field is handled like a time stamp. If the option TIMEZONE is specified without the option TIMESTAMP, the parameter SPACE is added to the option TIMESTAMP implicitly. The option TIMEZONE cannot be specified if the value of CL\_ABAP\_FORMAT=>TS\_RAW is specified for TIMESTAMP in dobj or expr. The conversion is performed in the same way as with the statement [CONVERT TIME STAMP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapconvert_time-stamp.htm).
 
 If the value of tz is not in the database table TTZZ, if the source field does not contain a valid time stamp, or if the conversion produces a local time outside the value range for local dates and times, the content is formatted as a UTC time stamp, regardless of the value.
 
@@ -925,7 +925,7 @@ DATA(text) =
 
 Executable Example
 
-[String Templates, Time Zones](javascript:call_link\('abenstring_template_timezone_abexa.htm'\))
+[String Templates, Time Zones](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_timezone_abexa.htm)
 
 Addition 18
 
@@ -933,17 +933,17 @@ Addition 18
 
 Effect
 
-The formatting option COUNTRY defines a temporary [formatting setting](javascript:call_link\('abenformat_setting_glosry.htm'\) "Glossary Entry") for the currently embedded expression. It can be specified as an alternative to all formatting options for which the parameter ENVIRONMENT can be specified (that is, instead of NUMBER, DATE, TIME, and TIMESTAMP). The embedded expression is formatted as a number, date, or time, or time stamp, depending on its data type.
+The formatting option COUNTRY defines a temporary [formatting setting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenformat_setting_glosry.htm "Glossary Entry") for the currently embedded expression. It can be specified as an alternative to all formatting options for which the parameter ENVIRONMENT can be specified (that is, instead of NUMBER, DATE, TIME, and TIMESTAMP). The embedded expression is formatted as a number, date, or time, or time stamp, depending on its data type.
 
 cty expects a data object of the type LAND1 from ABAP Dictionary. It must either contain a value from the LAND column of the database table T005X or it must be initial. If not, an exception of the class CX\_SY\_STRG\_FORMAT is raised.
 
-If cty contains a value from the data base table T005X, the [country-specific format](javascript:call_link\('abencountry_formats.htm'\)) defined there is used. If cty is initial, the formatting specified in the [user master record](javascript:call_link\('abenuser_master_record_glosry.htm'\) "Glossary Entry") is used.
+If cty contains a value from the data base table T005X, the [country-specific format](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencountry_formats.htm) defined there is used. If cty is initial, the formatting specified in the [user master record](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_master_record_glosry.htm "Glossary Entry") is used.
 
 Notes
 
--   Unlike using the statement [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)) and the parameter ENVIRONMENT, there are no side-effects when using the formatting option COUNTRY. The country specified applies only to the currently embedded expression and not on any subsequent statements from the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
+-   Unlike using the statement [SET COUNTRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_country.htm) and the parameter ENVIRONMENT, there are no side-effects when using the formatting option COUNTRY. The country specified applies only to the currently embedded expression and not on any subsequent statements from the current [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry").
     
--   In numbers, the COUNTRY formatting option overrides the [predefined setting](javascript:call_link\('abenstring_templates_predef_format.htm'\)) with respect to thousand separators.
+-   In numbers, the COUNTRY formatting option overrides the [predefined setting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates_predef_format.htm) with respect to thousand separators.
     
 
 Example
@@ -956,8 +956,8 @@ DATA(text) = |{ 1000000 COUNTRY = 'DE ' }|.
 
 Executable Examples
 
--   [Character String Templates, Number Formats](javascript:call_link\('abenstring_template_number_abexa.htm'\))
+-   [Character String Templates, Number Formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_number_abexa.htm)
     
--   [Character String Templates, Date Formats](javascript:call_link\('abenstring_template_date_abexa.htm'\))
+-   [Character String Templates, Date Formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_date_abexa.htm)
     
--   [Character String Templates, Time Formats](javascript:call_link\('abenstring_template_date_abexa.htm'\))
+-   [Character String Templates, Time Formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_template_date_abexa.htm)

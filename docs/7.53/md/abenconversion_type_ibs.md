@@ -4,15 +4,19 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) →  [Numeric Source Fields](javascript:call_link\('abennumeric_source_fields.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_elementary.htm) →  [Numeric Source Fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_source_fields.htm) → 
 
 Source Field Type i, int8, (b, s)
 
-Types [b](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) and [s](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) are internal and cannot be specified directly in ABAP statements. Self-defined data types and data objects in ABAP programs are of the data type b and s if they are defined with reference to data elements to ABAP Dictionary which are of the [external data types](javascript:call_link\('abenexternal_data_type_glosry.htm'\) "Glossary Entry") INT1 or INT2.
+Types [b](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_numeric.htm) and [s](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_numeric.htm) are internal and cannot be specified directly in ABAP statements. Self-defined data types and data objects in ABAP programs are of the data type b and s if they are defined with reference to data elements to ABAP Dictionary which are of the [external data types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexternal_data_type_glosry.htm "Glossary Entry") INT1 or INT2.
 
--   [Numeric Target Fields](#abenconversion-type-ibs-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_IBS_2)
+-   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_IBS_1)
 
--   [Byte-Like Target Fields](#abenconversion-type-ibs-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_IBS_4)
+-   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_IBS_2)
+
+-   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_IBS_3)
+
+-   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_IBS_4)
 
 Numeric Target Fields
 
@@ -22,7 +26,7 @@ Conversion
 
 i, int8, (b, s)
 
-If an assignment is made to the same data type, the content is passed unconverted. Otherwise, the value of the integer is converted to the internal format i, int8, (b, s). If the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") of the internal data types i, int8, b, or s is exceeded, the handleable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
+If an assignment is made to the same data type, the content is passed unconverted. Otherwise, the value of the integer is converted to the internal format i, int8, (b, s). If the [value range](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_range_glosry.htm "Glossary Entry") of the internal data types i, int8, b, or s is exceeded, the handleable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
 
 p
 
@@ -30,7 +34,7 @@ The value of the integer is converted to the internal format of a packed number.
 
 decfloat16, decfloat34
 
-The value of the integer is converted to internal representation of a decimal floating point number with [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") 0.
+The value of the integer is converted to internal representation of a decimal floating point number with [scaling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscale_glosry.htm "Glossary Entry") 0.
 
 f
 
@@ -58,7 +62,7 @@ Conversion
 
 c
 
-The value of the integer is formatted in [commercial notation](javascript:call_link\('abennumerical_value.htm'\)) and passed right-justified and without a decimal separator to the target field. The character "-" is set in the last place for a negative value and a blank is set in the last place for a positive value. If the target field is longer than the sequence of digits, including the sign, the field is padded with blanks on the left. If it is too short, the number representation is moved to the right by one place (in the case of positive values). If the target field is still too short (and in the case of negative values), characters are cut off on the left and the character "\*" is set in the first place of the target field.
+The value of the integer is formatted in [commercial notation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumerical_value.htm) and passed right-justified and without a decimal separator to the target field. The character "-" is set in the last place for a negative value and a blank is set in the last place for a positive value. If the target field is longer than the sequence of digits, including the sign, the field is padded with blanks on the left. If it is too short, the number representation is moved to the right by one place (in the case of positive values). If the target field is still too short (and in the case of negative values), characters are cut off on the left and the character "\*" is set in the first place of the target field.
 
 n
 
@@ -66,7 +70,7 @@ The absolute value of this integer number is passed as a right-justified string 
 
 string
 
-The value of the integer is formatted in [commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry") and passed, without gaps and without decimal separators, to the target field. The character "-" is set in the last place for a negative value and a blank is set in the last place for a positive value. The resulting length of the target field is determined by the number of digits plus the place for the sign.
+The value of the integer is formatted in [commercial notation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommercial_notation_glosry.htm "Glossary Entry") and passed, without gaps and without decimal separators, to the target field. The character "-" is set in the last place for a negative value and a blank is set in the last place for a positive value. The resulting length of the target field is determined by the number of digits plus the place for the sign.
 
 Example
 
@@ -82,11 +86,11 @@ Conversion
 
 x
 
-Data objects of the types b or s are converted in the internal representation from data type i. The 4 or 8 bytes of the data types i and int8 are positioned in the target field so that they are right-justified and in [big endian](javascript:call_link\('abenbig_endian_glosry.htm'\) "Glossary Entry") order. If the target field is too long, it is padded on the left with hexadecimal 0s. If it is too short, it is truncated on the left.
+Data objects of the types b or s are converted in the internal representation from data type i. The 4 or 8 bytes of the data types i and int8 are positioned in the target field so that they are right-justified and in [big endian](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbig_endian_glosry.htm "Glossary Entry") order. If the target field is too long, it is padded on the left with hexadecimal 0s. If it is too short, it is truncated on the left.
 
 xstring
 
-Data objects of the types b or s are converted in the internal representation from data type i. The 4 or 8 bytes of the data types i and int8 are positioned in the target field in [big endian](javascript:call_link\('abenbig_endian_glosry.htm'\) "Glossary Entry") sequence. In this representation, positive values have 1, 2, 3, 4, or 8 bytes. Negative values always require 4 or 8 bytes. For positive values, the leading zeroes before the fourth or eighth byte are not transported. Therefore, the resulting length of the target field is 1 byte for data type b, 1, 2, or 4 bytes for data type s, and 1, 2, 3, 4, or 8 bytes for data type int8.
+Data objects of the types b or s are converted in the internal representation from data type i. The 4 or 8 bytes of the data types i and int8 are positioned in the target field in [big endian](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbig_endian_glosry.htm "Glossary Entry") sequence. In this representation, positive values have 1, 2, 3, 4, or 8 bytes. Negative values always require 4 or 8 bytes. For positive values, the leading zeroes before the fourth or eighth byte are not transported. Therefore, the resulting length of the target field is 1 byte for data type b, 1, 2, or 4 bytes for data type s, and 1, 2, 3, 4, or 8 bytes for data type int8.
 
 Note
 
@@ -100,7 +104,7 @@ DATA(result) = CONV xstring( 123456 ).
 
 Executable Example
 
-[Conversion of Integer Numbers to Bytes](javascript:call_link\('abenconversion_int_to_hex_abexa.htm'\))
+[Conversion of Integer Numbers to Bytes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_int_to_hex_abexa.htm)
 
 Date/Time Fields as Target Fields
 
@@ -129,4 +133,4 @@ The value of the time field produced by the conversion is 103045.
 DATA(result) = CONV t( 3600 \* 10 + 30 \* 60 + 45 ).
 
 Continue
-![Example](exa.gif "Example") [Conversion of Integer Numbers to Bytes](javascript:call_link\('abenconversion_int_to_hex_abexa.htm'\))
+![Example](exa.gif "Example") [Conversion of Integer Numbers to Bytes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_int_to_hex_abexa.htm)

@@ -4,13 +4,17 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) →  [Byte-Like Source Fields](javascript:call_link\('abenbyte_source_fields.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_elementary.htm) →  [Byte-Like Source Fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbyte_source_fields.htm) → 
 
 Source Field Type xstring
 
--   [Numeric Target Fields](#abenconversion-type-xstring-1--------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_XSTRING_2)
+-   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_XSTRING_1)
 
--   [Byte-Like Target Fields](#abenconversion-type-xstring-3--------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_XSTRING_4)
+-   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_XSTRING_2)
+
+-   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_XSTRING_3)
+
+-   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_XSTRING_4)
 
 Numeric Target Fields
 
@@ -20,19 +24,19 @@ Conversion
 
 i, int8, (b, s)
 
-Content is handled in the same way as a [source field of type x](javascript:call_link\('abenconversion_type_x.htm'\)). If the source field has length 0, the target field is assigned the value 0.
+Content is handled in the same way as a [source field of type x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_x.htm). If the source field has length 0, the target field is assigned the value 0.
 
 p
 
-Content is handled in the same way as a [source field of type x](javascript:call_link\('abenconversion_type_x.htm'\)). If the source field has length 0, the target field is assigned the value 0.
+Content is handled in the same way as a [source field of type x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_x.htm). If the source field has length 0, the target field is assigned the value 0.
 
 decfloat16, decfloat34
 
-Content is handled in the same way as a [source field of type x](javascript:call_link\('abenconversion_type_x.htm'\)). If the source field has length 0, the target field is assigned the value 0.
+Content is handled in the same way as a [source field of type x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_x.htm). If the source field has length 0, the target field is assigned the value 0.
 
 f
 
-Content is handled in the same way as a [source field of type x](javascript:call_link\('abenconversion_type_x.htm'\)). If the source field has length 0, the target field is assigned the value 0.
+Content is handled in the same way as a [source field of type x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_x.htm). If the source field has length 0, the target field is assigned the value 0.
 
 Example
 
@@ -49,15 +53,15 @@ Conversion
 
 c
 
-The content is handled in the same way as a [source field of type x](javascript:call_link\('abenconversion_type_x.htm'\)). If the length of the source field is 0, the target field is padded with blank characters.
+The content is handled in the same way as a [source field of type x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_x.htm). If the length of the source field is 0, the target field is padded with blank characters.
 
 n
 
-The content is handled in the same way as a [source field of type x](javascript:call_link\('abenconversion_type_x.htm'\)). If the length of the source field is 0, the target field is padded with the character "0".
+The content is handled in the same way as a [source field of type x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_x.htm). If the length of the source field is 0, the target field is padded with the character "0".
 
 string
 
-The content is handled in the same way as a [source field of type x](javascript:call_link\('abenconversion_type_x.htm'\)). If the length of the source field is 0, the length of the target field is also 0 after the assignment.
+The content is handled in the same way as a [source field of type x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_x.htm). If the length of the source field is 0, the length of the target field is also 0 after the assignment.
 
 Example
 
@@ -74,11 +78,11 @@ Conversion
 
 x
 
-The content is handled in the same way as a [source field of type x](javascript:call_link\('abenconversion_type_x.htm'\)). If the length of the source field is 0, the target field is padded with the hexadecimal 0.
+The content is handled in the same way as a [source field of type x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_x.htm). If the length of the source field is 0, the target field is padded with the hexadecimal 0.
 
 xstring
 
-The content is handled in the same way as a [source field of type x](javascript:call_link\('abenconversion_type_x.htm'\)). If the length of the source field is 0, the length of the target field is also 0 after the assignment.
+The content is handled in the same way as a [source field of type x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_x.htm). If the length of the source field is 0, the length of the target field is also 0 after the assignment.
 
 Example
 
@@ -95,11 +99,11 @@ Conversion
 
 d
 
-The content is handled in the same way as a [source field of type x](javascript:call_link\('abenconversion_type_x.htm'\)). If the length of the source field is 0, the target field is padded with the character "0".
+The content is handled in the same way as a [source field of type x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_x.htm). If the length of the source field is 0, the target field is padded with the character "0".
 
 t
 
-The content is handled in the same way as a [source field of type x](javascript:call_link\('abenconversion_type_x.htm'\)). If the length of the source field is 0, the target field is padded with the character "0".
+The content is handled in the same way as a [source field of type x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_x.htm). If the length of the source field is 0, the target field is padded with the character "0".
 
 utclong
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions](javascript:call_link\('abenregular_expressions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregular_expressions.htm) → 
 
 Regular Expressions
 
@@ -137,7 +137,7 @@ ENDMODULE.
 
 Description
 
-The example displays a screen in which a text line and a regular expression can be entered. The program scans the text line text for the first or all areas that match the search pattern defined in the regular expression regx and highlights these areas in a result field. The search can be case-sensitive, if required. The search uses the statement [REPLACE](javascript:call_link\('abapreplace.htm'\)), which embeds the occurrence between "@@tgl@@ on the left and "@@tgr@@ on the right. The operator $0 is used as a placeholder for the occurrence in the replacement text repl. The method display formats the text for the representation of the occurrences in HTML format and displays it.
+The example displays a screen in which a text line and a regular expression can be entered. The program scans the text line text for the first or all areas that match the search pattern defined in the regular expression regx and highlights these areas in a result field. The search can be case-sensitive, if required. The search uses the statement [REPLACE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreplace.htm), which embeds the occurrence between "@@tgl@@ on the left and "@@tgr@@ on the right. The operator $0 is used as a placeholder for the occurrence in the replacement text repl. The method display formats the text for the representation of the occurrences in HTML format and displays it.
 
 The predefined example text is:
 

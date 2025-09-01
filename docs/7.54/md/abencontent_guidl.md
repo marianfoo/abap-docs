@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Comments](javascript:call_link\('abencomments_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Comments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomments_guidl.htm) → 
 
 Content
 
@@ -20,7 +20,7 @@ Write comments for your implementations that describe why something is done and 
 
 Details
 
-The best case scenario is where meaningful [identifiers](javascript:call_link\('abennaming_guidl.htm'\) "Guideline") are used in the source code; the source code effectively documents itself. This is the best way to document the concept of "what happens in this program section". In this case, any additional comments that only describe obvious behavior are superfluous and do not make the code easier to understand. There is also the risk that when changes are made to the program logic, the associated comments are not adapted and are therefore no longer correct. In summary, these comments are not only useless but can even be misleading and should be avoided from the start.
+The best case scenario is where meaningful [identifiers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennaming_guidl.htm "Guideline") are used in the source code; the source code effectively documents itself. This is the best way to document the concept of "what happens in this program section". In this case, any additional comments that only describe obvious behavior are superfluous and do not make the code easier to understand. There is also the risk that when changes are made to the program logic, the associated comments are not adapted and are therefore no longer correct. In summary, these comments are not only useless but can even be misleading and should be avoided from the start.
 
 Conversely, developers often tend to assume that their source code is sufficiently self-documenting and leave out descriptive comments. However, this assumption is often incorrect. This becomes apparent when a third party tries to understand the source code (either when attempting to enhance the source code or identify a problem). Even the authors of the code can often face this problem, if they are confronted with source code that they wrote a long time ago and have not seen the source code since.
 
@@ -28,7 +28,7 @@ Even if the identifier names allow readers to easily follow what happens in the 
 
 Note
 
-This section mainly deals with commenting the implementation of functions.. Header comments play a different role. Such comments, usually in the form of line comments that start with an asterisk (\*), subdivide large source codes into meaningful sections and can contain administrative entries. Here the rule also applies that these comments should not repeat what is already clearly described in the source code or described by any other means. For example, the person who last changed the program or the change date is indicated in the program attributes. A header comment with the name of a class or method directly above the class or method is also redundant information. However, it makes more sense to differentiate between logical program parts, which cannot be indicated in the code. For example, you can subdivide the program into a global declaration part and an implementation part. Usually, this is only required if the program is not subdivided by [include programs](javascript:call_link\('abensource_code_modular_guidl.htm'\) "Guideline").
+This section mainly deals with commenting the implementation of functions.. Header comments play a different role. Such comments, usually in the form of line comments that start with an asterisk (\*), subdivide large source codes into meaningful sections and can contain administrative entries. Here the rule also applies that these comments should not repeat what is already clearly described in the source code or described by any other means. For example, the person who last changed the program or the change date is indicated in the program attributes. A header comment with the name of a class or method directly above the class or method is also redundant information. However, it makes more sense to differentiate between logical program parts, which cannot be indicated in the code. For example, you can subdivide the program into a global declaration part and an implementation part. Usually, this is only required if the program is not subdivided by [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensource_code_modular_guidl.htm "Guideline").
 
 Bad Example
 

@@ -3,32 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenabap_objects_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexas.htm)
-- [abenabap_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexa.htm)
-- [abenclass_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_abexa.htm)
-- [abeninheritance_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abexa.htm)
-- [abeninterface_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_abexa.htm)
-- [abenevents_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevents_abexa.htm)
-- [abenfriends_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfriends_abexa.htm)
-- [abenoo_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoo_transaction_abexa.htm)
-
-**Bundle Contains**: 8 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.895Z
-
----
-
 ### abenabap_objects_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenabap_objects_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -36,38 +11,31 @@ Included pages: 8
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Examples%2C%20ABENABAP_OBJECTS_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ABAP Objects - Examples
 
--   [ABAP Objects - Overview](javascript:call_link\('abenabap_objects_abexa.htm'\))
--   [ABAP Objects - Classes](javascript:call_link\('abenclass_abexa.htm'\))
--   [ABAP Objects - Inheritance](javascript:call_link\('abeninheritance_abexa.htm'\))
--   [ABAP Objects - Interfaces](javascript:call_link\('abeninterface_abexa.htm'\))
--   [ABAP Objects - Events](javascript:call_link\('abenevents_abexa.htm'\))
--   [ABAP Objects - Friendship](javascript:call_link\('abenfriends_abexa.htm'\))
--   [ABAP Objects - Object Transaction](javascript:call_link\('abenoo_transaction_abexa.htm'\))
+-   [ABAP Objects - Overview](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexa.htm)
+-   [ABAP Objects - Classes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_abexa.htm)
+-   [ABAP Objects - Inheritance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abexa.htm)
+-   [ABAP Objects - Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_abexa.htm)
+-   [ABAP Objects - Events](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevents_abexa.htm)
+-   [ABAP Objects - Friendship](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfriends_abexa.htm)
+-   [ABAP Objects - Object Transaction](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoo_transaction_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [ABAP Objects - Overview](javascript:call_link\('abenabap_objects_abexa.htm'\))
-![Example](exa.gif "Example") [ABAP Objects - Classes](javascript:call_link\('abenclass_abexa.htm'\))
-![Example](exa.gif "Example") [ABAP Objects - Inheritance](javascript:call_link\('abeninheritance_abexa.htm'\))
-![Example](exa.gif "Example") [ABAP Objects - Interfaces](javascript:call_link\('abeninterface_abexa.htm'\))
-![Example](exa.gif "Example") [ABAP Objects - Events](javascript:call_link\('abenevents_abexa.htm'\))
-![Example](exa.gif "Example") [ABAP Objects - Friendship](javascript:call_link\('abenfriends_abexa.htm'\))
-![Example](exa.gif "Example") [ABAP Objects - Object Transaction](javascript:call_link\('abenoo_transaction_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP Objects - Overview](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexa.htm)
+![Example](exa.gif "Example") [ABAP Objects - Classes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_abexa.htm)
+![Example](exa.gif "Example") [ABAP Objects - Inheritance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abexa.htm)
+![Example](exa.gif "Example") [ABAP Objects - Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_abexa.htm)
+![Example](exa.gif "Example") [ABAP Objects - Events](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevents_abexa.htm)
+![Example](exa.gif "Example") [ABAP Objects - Friendship](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfriends_abexa.htm)
+![Example](exa.gif "Example") [ABAP Objects - Object Transaction](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoo_transaction_abexa.htm)
 
-
-
-**📖 Source**: [abenabap_objects_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexas.htm)
 
 ### abenabap_objects_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenabap_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -75,7 +43,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)) →  [ABAP Objects - Examples](javascript:call_link\('abenabap_objects_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects.htm) →  [ABAP Objects - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Overview%2C%20ABENABAP_OBJECTS_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -301,14 +269,7 @@ Description  
 The class demonstrates how ABAP Objects can be used based on example classes for boats.
 
 
-
-**📖 Source**: [abenabap_objects_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexa.htm)
-
 ### abenclass_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenclass_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -316,7 +277,7 @@ The class demonstrates how ABAP Objects can be used based on example classes for
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)) →  [ABAP Objects - Examples](javascript:call_link\('abenabap_objects_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects.htm) →  [ABAP Objects - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Classes%2C%20ABENCLASS_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -375,14 +336,7 @@ Description  
 The local class counter contains three public methods, set, increment, and get, which work with the private integer field count. Two of the methods have input and output parameters and therefore define the data interface of the class. The field count, on the other hand, is not visible externally.
 
 
-
-**📖 Source**: [abenclass_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_abexa.htm)
-
 ### abeninheritance_abexa.htm
-
-> **📖 Official SAP Documentation**: [abeninheritance_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -390,7 +344,7 @@ The local class counter contains three public methods, set, increment, and get, 
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)) →  [ABAP Objects - Examples](javascript:call_link\('abenabap_objects_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects.htm) →  [ABAP Objects - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Inheritance%2C%20ABENINHERITANCE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -476,14 +430,7 @@ The local class counter\_ten is derived from counter and redefines the method in
 An object of the subclass is created to which a reference variable of the superclass type points. When the method increment is executed using the superclass reference, the redefined method of the subclass is executed.
 
 
-
-**📖 Source**: [abeninheritance_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_abexa.htm)
-
 ### abeninterface_abexa.htm
-
-> **📖 Official SAP Documentation**: [abeninterface_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -491,7 +438,7 @@ An object of the subclass is created to which a reference variable of the superc
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)) →  [ABAP Objects - Examples](javascript:call_link\('abenabap_objects_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects.htm) →  [ABAP Objects - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Interfaces%2C%20ABENINTERFACE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -582,14 +529,7 @@ Using the constructor operator NEW, an object is created for each class to which
 Class reference variables are inserted in the interface reference table to have the lines in status\_tab point to the two objects as well. Using the interface references, it is possible to call the interface method write in the objects, but not the class methods increment or drive.
 
 
-
-**📖 Source**: [abeninterface_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_abexa.htm)
-
 ### abenevents_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenevents_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevents_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -597,7 +537,7 @@ Class reference variables are inserted in the interface reference table to have 
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)) →  [ABAP Objects - Examples](javascript:call_link\('abenabap_objects_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects.htm) →  [ABAP Objects - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Events%2C%20ABENEVENTS_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -779,14 +719,7 @@ Description  
 The user actions on a classic list raise events in ABAP Objects. The list and its data are implemented in a class list. User actions are processed by the class status, which raises an event button\_clicked at AT USER-COMMAND time. The event is handled in the class list. The class list contains an object of the class ship or truck for each line of the list, which both implement the interface vehicle. If the speed of one of these objects changes, the event speed\_change is raised, to which the class list responds by adapting the list output.
 
 
-
-**📖 Source**: [abenevents_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevents_abexa.htm)
-
 ### abenfriends_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenfriends_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfriends_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -794,13 +727,13 @@ The user actions on a classic list raise events in ABAP Objects. The list and it
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)) →  [ABAP Objects - Examples](javascript:call_link\('abenabap_objects_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects.htm) →  [ABAP Objects - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Friendship%2C%20ABENFRIENDS_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ABAP Objects - Friendship
 
-This example demonstrates an interface that is a [friend](javascript:call_link\('abenfriends.htm'\)) of a class.
+This example demonstrates an interface that is a [friend](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfriends.htm) of a class.
 
 Source Code   
 
@@ -825,17 +758,7 @@ Description  
 The empty global interface IF\_DEMO\_FRIEND is a friend of the global class CL\_DEMO\_FRIENDSHIP. Every class that implements IF\_DEMO\_FRIEND can access the private components of CL\_DEMO\_FRIENDSHIP.
 
 
-
-**📖 Source**: [abenfriends_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfriends_abexa.htm)
-
 ### abenoo_transaction_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenoo_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoo_transaction_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenoo_transaction_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoo_transaction_abexa.htm)
-
 
   
 
@@ -843,7 +766,7 @@ The empty global interface IF\_DEMO\_FRIEND is a friend of the global class CL\_
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)) →  [ABAP Objects - Examples](javascript:call_link\('abenabap_objects_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects.htm) →  [ABAP Objects - Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Object%20Transaction%2C%20ABENOO_TRANSACTION_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 

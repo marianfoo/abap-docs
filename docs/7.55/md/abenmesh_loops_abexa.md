@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Using Mesh Paths](javascript:call_link\('abenmesh_path_usage.htm'\)) →  [LOOP AT mesh\_path](javascript:call_link\('abenmesh_loop.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_meshes.htm) →  [Meshes - Using Mesh Paths](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmesh_path_usage.htm) →  [LOOP AT mesh\_path](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmesh_loop.htm) → 
 
 Meshes - Loops Across Mesh Paths
 
@@ -151,6 +151,6 @@ flights-scarr\\\_spfli\[ flights-scarr\[ carrname = name \]
 
 The result set consists of all lines of the node spfli for which the lines in the result set of sflight have specific values in the column plane\_type.
 
-See also the executable example for [table comprehensions for meshes](javascript:call_link\('abenmesh_for_abexa.htm'\)).
+See also the executable example for [table comprehensions for meshes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmesh_for_abexa.htm).
 
 Effect

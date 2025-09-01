@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [News for Release 7.56](javascript:call_link\('abennews-756.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 7.5x](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-75.htm) →  [News for Release 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-756.htm) → 
 
 ABAP CDS Access Control in Release 7.56
 
@@ -27,7 +27,7 @@ From this release on, authors of access controls can mark a subset of the CDS el
 GRANT SELECT ON cds\_entity WITH OPTIONAL ELEMENTS (
      element1 DEFAULT (TRUE|FALSE), ...) WHERE ...
 
-[More Information](javascript:call_link\('abencds_dcl_role_cond_rule.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_dcl_role_cond_rule.htm)
 
 Modification 2   
 
@@ -41,7 +41,7 @@ To accompany this use case, the BYPASS WHEN operator has been extended to litera
 
 A dedicated operator EXISTS can be used when different access conditions using the same set-valued association shall not be coupled in their fields by means of a common join expression.
 
-[More Information](javascript:call_link\('abencds_dcl_role_conditions.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_dcl_role_conditions.htm)
 
 Modification 3   
 
@@ -57,7 +57,7 @@ Now allowed:
 
 ( ... ) = ASPECT PFCG\_AUTH( S\_OBJ IN SCENARIO TheScenario )
 
-[More Information](javascript:call_link\('abencds_f1_define_role.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_role.htm)
 
 Modification 4   
 
@@ -74,7 +74,7 @@ DEFINE ASPECT ... AS SELECT FROM ...
 WHERE ( ... ) = ASPECT ... FILTER BY ( element1 = 'X' OR
                                        alias2 IS NOT NULL )
 
-[More Information](javascript:call_link\('abencds_f1_cond_aspect.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_aspect.htm)
 
 Modification 5   
 
@@ -88,7 +88,7 @@ is now also available for role-based inheritance
 
 INHERIT role FOR GRANT SELECT ON cds\_entity
 
-[More Information](javascript:call_link\('abencds_f1_cond_inherit.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_inherit.htm)
 
 Modification 6   
 
@@ -101,7 +101,7 @@ WHERE INHERITING CONDITIONS FROM ENTITY Source REPLACING {
   ELEMENT Assoc1OfSource WITH Assoc1\[r = 4\].Assoc2OfTarget,
   ELEMENT Assoc2(p : $parameters.p1)\[ q = 1\].Field WITH MyShortField }
 
-[More Information](javascript:call_link\('abencds_f1_cond_inherit_replacing.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_cond_inherit_replacing.htm)
 
 Modification 7   
 
@@ -123,7 +123,7 @@ GRANT SELECT ON cds\_entity
       AND
     ( element ) = ASPECT PFCG\_AUTH( NEW\_AUTH, F );
 
-[More Information](javascript:call_link\('abencds_f1_dcl_function.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_function.htm)
 
 Modification 8   
 
@@ -143,4 +143,4 @@ When operating the system with the emergency user SAP\*, CDS access control is n
 
 During processing of an update task, PFCG conditions are now considered as fully authorized.
 
-[More Information](javascript:call_link\('abenauthority_during_update.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthority_during_update.htm)

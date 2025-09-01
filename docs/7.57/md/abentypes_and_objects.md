@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_declarations.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Data Types and Data Objects, ABENTYPES_AND_OBJECTS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A
 %0D%0A%0D%0ASuggestion for improvement:)
@@ -19,7 +19,7 @@ Data types are templates for creating data objects. Data types can be defined in
 
 Data Objects   
 
-A data object is an instance of a data type and occupies as much memory space as its type or content specifies. An ABAP program only works with data that is available as content of data objects. Data objects are created either implicitly as named data objects, or explicitly as [anonymous data objects](javascript:call_link\('abenanonymous_data_object_glosry.htm'\) "Glossary Entry") using [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)).
+A data object is an instance of a data type and occupies as much memory space as its type or content specifies. An ABAP program only works with data that is available as content of data objects. Data objects are created either implicitly as named data objects, or explicitly as [anonymous data objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenanonymous_data_object_glosry.htm "Glossary Entry") using [CREATE DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_data.htm).
 
 Data Types of Data Objects   
 
@@ -31,11 +31,11 @@ The data types of all class attributes belong to the static properties of a clas
 
 Declaration Statements   
 
--   [Declaring Data Types](javascript:call_link\('abentypes_statements.htm'\))
--   [Declaring Data Objects](javascript:call_link\('abenobjects_statements.htm'\))
+-   [Declaring Data Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentypes_statements.htm)
+-   [Declaring Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobjects_statements.htm)
 
 Continue
-[Types and Objects, Overview](javascript:call_link\('abentypes_objects_oview.htm'\))
-[Declaring Data Types](javascript:call_link\('abentypes_statements.htm'\))
-[Declaring Data Objects](javascript:call_link\('abenobjects_statements.htm'\))
-[Special Declarations](javascript:call_link\('abendeclarations_spcl.htm'\))
+[Types and Objects, Overview](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentypes_objects_oview.htm)
+[Declaring Data Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentypes_statements.htm)
+[Declaring Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobjects_statements.htm)
+[Special Declarations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendeclarations_spcl.htm)

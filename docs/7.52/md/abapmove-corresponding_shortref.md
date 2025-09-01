@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  M
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  M
 
 MOVE-CORRESPONDING - Quick reference
 
-[Reference](javascript:call_link\('abapmove-corresponding.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove-corresponding.htm)
 
 Syntax
 
@@ -22,11 +22,11 @@ Assigns components of a structure struc1 or an internal table itab1 to component
 
 Additions
 
--   [EXACT](javascript:call_link\('abapmove_exact.htm'\))
+-   [EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_exact.htm)
     The assignment is lossless.
     
--   [EXPANDING NESTED TABLES](javascript:call_link\('abapmove-corresponding_structure.htm'\))
+-   [EXPANDING NESTED TABLES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove-corresponding_structure.htm)
     Planned: Resolves tabular components.
     
--   [KEEPING TARGET LINES](javascript:call_link\('abapmove-corresponding_itab.htm'\))
+-   [KEEPING TARGET LINES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove-corresponding_itab.htm)
     Planned: Adds data to target tables instead of overwriting them.

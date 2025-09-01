@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 program name
 
-Unique identification of an ABAP program in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry"). A program name must consist of at least one character. It can have a maximum of 30 alphanumeric characters, including underscores.
+Unique identification of an ABAP program in the [repository](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrepository_glosry.htm "Glossary Entry"). A program name must consist of at least one character. It can have a maximum of 30 alphanumeric characters, including underscores.

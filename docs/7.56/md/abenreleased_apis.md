@@ -4,32 +4,42 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Rules for Strict ABAP](javascript:call_link\('abenabap_strict_rules.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Rules for Strict ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_strict_rules.htm) → 
 
 Released APIs
 
-The following tables show all transportable [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") of the current system that are [released APIs](javascript:call_link\('abenreleased_api_glosry.htm'\) "Glossary Entry") and can be used in [restricted ABAP language versions](javascript:call_link\('abenrestricted_version_glosry.htm'\) "Glossary Entry").
+The following tables show all transportable [repository objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrepository_object_glosry.htm "Glossary Entry") of the current system that are [released APIs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreleased_api_glosry.htm "Glossary Entry") and can be used in [restricted ABAP language versions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrestricted_version_glosry.htm "Glossary Entry").
 
 -   The first three columns show the repository objects or parts of repository objects.
--   Column Release Contract shows the [release contract](javascript:call_link\('abenrelease_contract_glosry.htm'\) "Glossary Entry") that is used for releasing the API.
--   The subsequent columns show, whether the API is released for restricted ABAP language version [ABAP for Cloud Development](javascript:call_link\('abenabap_for_sap_cloud_glosry.htm'\) "Glossary Entry"), [ABAP for Key Users](javascript:call_link\('abenabap_for_key_users_glosry.htm'\) "Glossary Entry") or for both
+-   Column Release Contract shows the [release contract](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrelease_contract_glosry.htm "Glossary Entry") that is used for releasing the API.
+-   The subsequent columns show, whether the API is released for restricted ABAP language version [ABAP for Cloud Development](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_sap_cloud_glosry.htm "Glossary Entry"), [ABAP for Key Users](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_key_users_glosry.htm "Glossary Entry") or for both
 
-Any repository object that can be used in a restricted ABAP language versions must be classified with an appropriate release contract ( [C1 contract](javascript:call_link\('abenc1_contract_glosry.htm'\) "Glossary Entry") in general). But not all repository objects with a release contract can be used in a restricted language version.
+Any repository object that can be used in a restricted ABAP language versions must be classified with an appropriate release contract ( [C1 contract](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_contract_glosry.htm "Glossary Entry") in general). But not all repository objects with a release contract can be used in a restricted language version.
 
 Hint
 
 You can also execute program ABAP\_DOCU\_RELEASED\_APIS, where you can restrict the result to certain release contracts or language versions.
 
--   [AUTH - Authorization Check Fields](#abenreleased-apis-1-------chkc---check-category---@ITOC@@ABENRELEASED_APIS_2)
--   [CHKO - Check](#abenreleased-apis-3-------chkv---check-variant---@ITOC@@ABENRELEASED_APIS_4)
--   [CLAS - Class (ABAP Objects)](#abenreleased-apis-5-------ddls---data-definition-language-source---@ITOC@@ABENRELEASED_APIS_6)
--   [DOMA - Domain](#abenreleased-apis-7-------dtel---data-element---@ITOC@@ABENRELEASED_APIS_8)
--   [ENHS - Enhancement Spot](#abenreleased-apis-9-------fdt0---fdt-brfplus--system-application---@ITOC@@ABENRELEASED_APIS_10)
--   [FUGR - Function Group](#abenreleased-apis-11-------g4ba---sap-gateway-odata-v4-backend-service-group---assigments---@ITOC@@ABENRELEASED_APIS_12)
--   [INTF - Interface (ABAP Objects)](#abenreleased-apis-13-------msag---message-class---@ITOC@@ABENRELEASED_APIS_14)
--   [SUSO - Authorization object](#abenreleased-apis-15-------tabl---table---@ITOC@@ABENRELEASED_APIS_16)
--   [TTYP - Table Type](#abenreleased-apis-17-------type---type-group---@ITOC@@ABENRELEASED_APIS_18)
--   [VIEW - View](#abenreleased-apis-19-------wdca---web-dynpro-application-configuration---@ITOC@@ABENRELEASED_APIS_20)
+-   [AUTH - Authorization Check Fields](#@@ITOC@@ABENRELEASED_APIS_1)
+-   [CHKC - Check category](#@@ITOC@@ABENRELEASED_APIS_2)
+-   [CHKO - Check](#@@ITOC@@ABENRELEASED_APIS_3)
+-   [CHKV - Check Variant](#@@ITOC@@ABENRELEASED_APIS_4)
+-   [CLAS - Class (ABAP Objects)](#@@ITOC@@ABENRELEASED_APIS_5)
+-   [DDLS - Data Definition Language Source](#@@ITOC@@ABENRELEASED_APIS_6)
+-   [DOMA - Domain](#@@ITOC@@ABENRELEASED_APIS_7)
+-   [DTEL - Data Element](#@@ITOC@@ABENRELEASED_APIS_8)
+-   [ENHS - Enhancement Spot](#@@ITOC@@ABENRELEASED_APIS_9)
+-   [FDT0 - FDT/BRFplus: System Application](#@@ITOC@@ABENRELEASED_APIS_10)
+-   [FUGR - Function Group](#@@ITOC@@ABENRELEASED_APIS_11)
+-   [G4BA - SAP Gateway OData V4 Backend Service Group & Assigments](#@@ITOC@@ABENRELEASED_APIS_12)
+-   [INTF - Interface (ABAP Objects)](#@@ITOC@@ABENRELEASED_APIS_13)
+-   [MSAG - Message Class](#@@ITOC@@ABENRELEASED_APIS_14)
+-   [SUSO - Authorization object](#@@ITOC@@ABENRELEASED_APIS_15)
+-   [TABL - Table](#@@ITOC@@ABENRELEASED_APIS_16)
+-   [TTYP - Table Type](#@@ITOC@@ABENRELEASED_APIS_17)
+-   [TYPE - Type Group](#@@ITOC@@ABENRELEASED_APIS_18)
+-   [VIEW - View](#@@ITOC@@ABENRELEASED_APIS_19)
+-   [WDCA - Web Dynpro Application Configuration](#@@ITOC@@ABENRELEASED_APIS_20)
 -   [XSLT - Transformation](#@@ITOC@@ABENRELEASED_APIS_21)
 
 AUTH - Authorization Check Fields

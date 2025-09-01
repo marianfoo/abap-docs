@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) →  [WRITE - TO](javascript:call_link\('abapwrite_to.htm'\)) →  [WRITE - Cutoff Behavior](javascript:call_link\('abenwrite_cutoffs.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_statements.htm) →  [WRITE - TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) →  [WRITE - Cutoff Behavior](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwrite_cutoffs.htm) → 
 
 WRITE, Cutoff Behavior
 
-This example demonstrates the [cutoff behavior](javascript:call_link\('abenwrite_cutoffs.htm'\)) of the statement [WRITE](javascript:call_link\('abapwrite_to.htm'\)) for all elementary data types.
+This example demonstrates the [cutoff behavior](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwrite_cutoffs.htm) of the statement [WRITE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm) for all elementary data types.
 
 Source Code
 
@@ -185,8 +185,8 @@ START-OF-SELECTION.
 
 Description
 
-The class demo contains an attribute for every [built-in ABAP type](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) and for [time stamps](javascript:call_link\('abentime_stamp_oview.htm'\)). These attributes are filled with example values and assigned to a data object by [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)). The length of this data object can be chosen on the selection screen.
+The class demo contains an attribute for every [built-in ABAP type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuilt_in_types_complete.htm) and for [time stamps](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_oview.htm). These attributes are filled with example values and assigned to a data object by [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm). The length of this data object can be chosen on the selection screen.
 
-The [country-specific formats](javascript:call_link\('abencountry_formats.htm'\)) for numbers, dates, and times set by [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)) can also be specified on the selection screen. This example demonstrates these formats as well.
+The [country-specific formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry_formats.htm) for numbers, dates, and times set by [SET COUNTRY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapset_country.htm) can also be specified on the selection screen. This example demonstrates these formats as well.
 
 The output list shows the result of the formatting for each data type. If an exception is raised, the character "!" is highlighted in a different color.

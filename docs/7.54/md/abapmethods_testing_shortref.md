@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  M
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shortref.htm) →  M
 
 METHODS - FOR TESTING - Quick reference
 
-[Reference](javascript:call_link\('abapmethods_testing.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods_testing.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ METHODS meth FOR TESTING.
 
 Effect
 
-Defines a [test method](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") in a [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry").
+Defines a [test method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentest_method_glosry.htm "Glossary Entry") in a [test class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentest_class_glosry.htm "Glossary Entry").

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [RAP - Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [RAP - Entity Behavior Body](javascript:call_link\('abenbdl_body.htm'\)) →  [RAP - RAP BO Operations](javascript:call_link\('abenbdl_operations.htm'\)) →  [RAP - RAP BO Operation, Additions](javascript:call_link\('abenbdl_operations_additions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl.htm) →  [RAP - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bo.htm) →  [RAP - Entity Behavior Definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_define_beh.htm) →  [RAP - Entity Behavior Body](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_body.htm) →  [RAP - RAP BO Operations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_operations.htm) →  [RAP - RAP BO Operation, Additions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_operations_additions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20OutputParameter%2C%20ABENBDL_ACTION_OUTPUT_PARA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -25,24 +25,24 @@ Additions:
 
 Effect
 
-The output parameter for an [action](javascript:call_link\('abenbdl_action.htm'\)) or [function](javascript:call_link\('abenbdl_function.htm'\)) is defined with the keyword result. It can be used to store the result of an action or function in an internal table. However, it does not affect the result of an action or function that is committed to the database. For details on the components of the result structure, see topic [ABAP EML - RESULT result\_tab](javascript:call_link\('abapeml_result.htm'\)).
+The output parameter for an [action](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action.htm) or [function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_function.htm) is defined with the keyword result. It can be used to store the result of an action or function in an internal table. However, it does not affect the result of an action or function that is committed to the database. For details on the components of the result structure, see topic [ABAP EML - RESULT result\_tab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_result.htm).
 
-If a result parameter is declared in the action or function definition, it must be filled in the implementation in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+If a result parameter is declared in the action or function definition, it must be filled in the implementation in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
 
 The return type of the result parameter can be an entity or a structure:
 
 -   $self specifies that the result type is the same type as the entity for which the action or function is defined.
--   entity OutputParameterEntity specifies that the result is a different [entity](javascript:call_link\('abenrap_bo_entity_glosry.htm'\) "Glossary Entry") of the same or another [BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
--   ResultParameterStructure: A [RAP abstract BDEF](javascript:call_link\('abencds_abstract_bdef_glosry.htm'\) "Glossary Entry") or a [DDIC structure](javascript:call_link\('abenddic_structure_glosry.htm'\) "Glossary Entry") can be specified as a return type. A resulting structure for actions or functions is defined without the keyword entity.
+-   entity OutputParameterEntity specifies that the result is a different [entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_entity_glosry.htm "Glossary Entry") of the same or another [BO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_glosry.htm "Glossary Entry").
+-   ResultParameterStructure: A [RAP abstract BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_bdef_glosry.htm "Glossary Entry") or a [DDIC structure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_structure_glosry.htm "Glossary Entry") can be specified as a return type. A resulting structure for actions or functions is defined without the keyword entity.
     
     For result structures, it is possible to define an alias to clearly identify the result in the OData metadata. The keyword external after the result type defines this OData representation of the action or function result.
     
 
 Hints
 
--   If the result is a [CDS abstract entity](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry"), the result must be defined without the keyword entity as abstract entities are generally considered to be structures in ABAP.
--   If [BDEF strict mode](javascript:call_link\('abenbdl_strict.htm'\)) is enabled, OutputParameterEntity specified after the keyword entity must be a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry").
--   If [BDEF strict mode](javascript:call_link\('abenbdl_strict.htm'\)) is enabled, ResultParameterStructure must be a [CDS abstract entity](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry").
+-   If the result is a [CDS abstract entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry"), the result must be defined without the keyword entity as abstract entities are generally considered to be structures in ABAP.
+-   If [BDEF strict mode](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_strict.htm) is enabled, OutputParameterEntity specified after the keyword entity must be a [CDS view entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm "Glossary Entry").
+-   If [BDEF strict mode](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_strict.htm) is enabled, ResultParameterStructure must be a [CDS abstract entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry").
 
 Further Information
 
@@ -104,7 +104,7 @@ Result: the changed entity instance is stored in the result structure.
 
 Executable Example
 
-The example from above is explained in detail in topic [RAP BDL - action](javascript:call_link\('abenbdl_action1_abexa.htm'\)).
+The example from above is explained in detail in topic [RAP BDL - action](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action1_abexa.htm).
 
 Addition 1   
 
@@ -116,7 +116,7 @@ When using the optional addition deep, the syntax for the output parameter is as
 
 ... deep result *\[*selective*\]* \[cardinality\] AbstractBDEF;
 
-The output parameter AbstractBDEF must be a [RAP abstract BDEF](javascript:call_link\('abencds_abstract_bdef_glosry.htm'\) "Glossary Entry") [with hierarchy](javascript:call_link\('abenbdl_bdef_abstract_header.htm'\)). The BDEF derived type for an abstract BDEF is a hierarchy that contains all entity fields plus a component for every [CDS composition](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry").
+The output parameter AbstractBDEF must be a [RAP abstract BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_bdef_glosry.htm "Glossary Entry") [with hierarchy](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_bdef_abstract_header.htm). The BDEF derived type for an abstract BDEF is a hierarchy that contains all entity fields plus a component for every [CDS composition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_composition_glosry.htm "Glossary Entry").
 
 The optional addition selective can be specified to return only parts of the result structure.
 
@@ -124,7 +124,7 @@ Example
 
 The following example shows a managed BDEF. The action a2\_deep\_result uses the abstract BDEF DEMO\_CDS\_ABSTRACT\_ROOT as deep output parameter.
 
-Note: This example is intentionally kept short and simple and serves demonstration purposes only. The [RAP handler methods](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") are not implemented in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") here.
+Note: This example is intentionally kept short and simple and serves demonstration purposes only. The [RAP handler methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") are not implemented in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") here.
 
 managed implementation in class bp\_demo\_cds\_deep\_parameter unique;
 strict(2);
@@ -161,7 +161,7 @@ Effect
 
 With the optional addition selective, it is possible to return only parts of the result structure, for example the keys only. This can help to improve performance.
 
-An implementation in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is required. If selective is specified in the BDEF, the action or function signature has the additional input parameter REQUEST requested fields, which marks all requested fields with 01.
+An implementation in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is required. If selective is specified in the BDEF, the action or function signature has the additional input parameter REQUEST requested fields, which marks all requested fields with 01.
 
 Example
 
@@ -263,7 +263,7 @@ Addition 3  
 
 Effect
 
-Defines the [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") of the output parameter. This is a mandatory addition. The square brackets are part of the syntax. The following values can be specified for cardinality:
+Defines the [cardinality](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencardinality_glosry.htm "Glossary Entry") of the output parameter. This is a mandatory addition. The square brackets are part of the syntax. The following values can be specified for cardinality:
 
 -   \[0..1\]
 -   \[1\]

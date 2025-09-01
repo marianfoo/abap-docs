@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) →  [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) →  [OPEN DATASET - mode](javascript:call_link\('abapopen_dataset_mode.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfile_interface_statements.htm) →  [OPEN DATASET](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset.htm) →  [OPEN DATASET - mode](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_mode.htm) → 
 
 OPEN DATASET - encoding
 
-[Quick Reference](javascript:call_link\('abapopen_dataset_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_shortref.htm)
 
 Syntax
 
@@ -28,11 +28,11 @@ The additions after the mandatory addition ENCODING define the character represe
 
 Programming Guideline
 
-[Write text files in UTF-8 and with a byte order mark.](javascript:call_link\('abencodepage_file_guidl.htm'\) "Guideline")
+[Write text files in UTF-8 and with a byte order mark.](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencodepage_file_guidl.htm "Guideline")
 
 Note
 
-It is best to always write files in UTF-8 (if all readers can process this format). Otherwise, the code page can depend on the [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry") and it is difficult to identify the code page from the file content.
+It is best to always write files in UTF-8 (if all readers can process this format). Otherwise, the code page can depend on the [text environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_environment_glosry.htm "Glossary Entry") and it is difficult to identify the code page from the file content.
 
 Alternative 1
 
@@ -52,7 +52,7 @@ Addition:
 
 Effect
 
-The characters in the file are handled in accordance with the Unicode character representation [UTF-8](javascript:call_link\('abenutf8_glosry.htm'\) "Glossary Entry").
+The characters in the file are handled in accordance with the Unicode character representation [UTF-8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenutf8_glosry.htm "Glossary Entry").
 
 Notes
 
@@ -63,7 +63,7 @@ Notes
 
 Example
 
-Opens a text file as a UTF-8 file and writes a string containing German umlaut characters to the file. Once the file is read to a byte string, it can be converted from UTF-8 to a character string using [CL\_ABAP\_CODEPAGE](javascript:call_link\('abencl_abap_codepage.htm'\)).
+Opens a text file as a UTF-8 file and writes a string containing German umlaut characters to the file. Once the file is read to a byte string, it can be converted from UTF-8 to a character string using [CL\_ABAP\_CODEPAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_codepage.htm).
 
 DATA(dset) = 'test.dat'.
 OPEN DATASET dset FOR OUTPUT IN TEXT MODE ENCODING UTF-8.
@@ -82,16 +82,16 @@ Addition
 
 Effect
 
-This addition defines how the byte order mark (BOM), with which a file encoded in the UTF-8 format can begin, is handled. The BOM is a sequence of three bytes that indicates that a file is encoded in [UTF-8](javascript:call_link\('abenutf8_glosry.htm'\) "Glossary Entry").
+This addition defines how the byte order mark (BOM), with which a file encoded in the UTF-8 format can begin, is handled. The BOM is a sequence of three bytes that indicates that a file is encoded in [UTF-8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenutf8_glosry.htm "Glossary Entry").
 
 -   SKIPPING BYTE-ORDER MARK
-    is only permitted if the file is opened for reading or changing using [FOR INPUT](javascript:call_link\('abapopen_dataset_access.htm'\)) or [FOR UPDATE](javascript:call_link\('abapopen_dataset_access.htm'\)). If there is a BOM at the start of the file, this is ignored and the file pointer is set after it. Without the addition, the BOM is handled as normal file content.
+    is only permitted if the file is opened for reading or changing using [FOR INPUT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_access.htm) or [FOR UPDATE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_access.htm). If there is a BOM at the start of the file, this is ignored and the file pointer is set after it. Without the addition, the BOM is handled as normal file content.
     
 -   WITH BYTE-ORDER MARK
-    is only permitted if the file is opened for writing using [FOR OUTPUT](javascript:call_link\('abapopen_dataset_access.htm'\)). When the file is opened, a BOM is inserted at the start of the file. Without the addition, no BOM is inserted.
+    is only permitted if the file is opened for writing using [FOR OUTPUT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_access.htm). When the file is opened, a BOM is inserted at the start of the file. Without the addition, no BOM is inserted.
     
 
-The addition BYTE-ORDER MARK cannot be used together with the [AT POSITION](javascript:call_link\('abapopen_dataset_position.htm'\)) addition.
+The addition BYTE-ORDER MARK cannot be used together with the [AT POSITION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_position.htm) addition.
 
 Notes
 
@@ -124,7 +124,7 @@ Alternative 3
 
 Effect
 
-The characters of the file are handled in accordance with the non-Unicode code page that would be assigned when reading or writing data in a non-Unicode system (as specified by the entry in the database table TCP0C in the current [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry")).
+The characters of the file are handled in accordance with the non-Unicode code page that would be assigned when reading or writing data in a non-Unicode system (as specified by the entry in the database table TCP0C in the current [text environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_environment_glosry.htm "Glossary Entry")).
 
 Example
 

@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Access Control](javascript:call_link\('abencds_access_control.htm'\)) →  [ABAP CDS - DCL Statements](javascript:call_link\('abencds_f1_dcl_syntax.htm'\)) →  [CDS DCL - DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) →  [CDS DCL - DEFINE ROLE, condition](javascript:call_link\('abencds_dcl_role_conditions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds.htm) →  [ABAP CDS - Access Control](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_access_control.htm) →  [ABAP CDS - DCL Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_syntax.htm) →  [CDS DCL - DEFINE ROLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_role.htm) →  [CDS DCL - DEFINE ROLE, condition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_dcl_role_conditions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DCL%20-%20DEFINE%20ROLE%2C%20Data%20Types%2C%20ABENCDS_F1_DCL_COND_DATA_TYPES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impr
 ovement:)
 
 CDS DCL - DEFINE ROLE, Data Types
 
-The operand specified on the left side of a [condition](javascript:call_link\('abencds_dcl_role_conditions.htm'\)) of an [access rule](javascript:call_link\('abencds_dcl_role_rules.htm'\)) of a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry") cannot have all the [built-in data types in ABAP Dictionary](javascript:call_link\('abenddic_builtin_types.htm'\)). Only the following types are allowed:
+The operand specified on the left side of a [condition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_dcl_role_conditions.htm) of an [access rule](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_dcl_role_rules.htm) of a [CDS role](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_role_glosry.htm "Glossary Entry") cannot have all the [built-in data types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm). Only the following types are allowed:
 
 -   Numeric types
     -   INT1, INT2, INT4, INT8
@@ -24,14 +24,14 @@ The operand specified on the left side of a [condition](javascript:call_link\('a
 -   Binary types
     -   RAW
         
-        CDS elements of type RAW support the operators [IS *\[*NOT*\]* NULL](javascript:call_link\('abencds_cond_expr_null_v2.htm'\)) and [IS *\[*NOT*\]* INITIAL](javascript:call_link\('abencds_cond_expr_initial_v2.htm'\)) and use as a part of the left side for a user-defined aspect or a PFCG mapping. Comparisons with a literal or an authorization field are not possible.
+        CDS elements of type RAW support the operators [IS *\[*NOT*\]* NULL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cond_expr_null_v2.htm) and [IS *\[*NOT*\]* INITIAL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cond_expr_initial_v2.htm) and use as a part of the left side for a user-defined aspect or a PFCG mapping. Comparisons with a literal or an authorization field are not possible.
         
 -   Special types
     -   DATS, DATN, TIMS, TIMN, UTCLONG
     -   NUMC
 
-Any other data types generally produce a syntax error in the definition of a CDS role. In [PFCG conditions](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)), however, invalid data types are sometimes not detected until runtime.
+Any other data types generally produce a syntax error in the definition of a CDS role. In [PFCG conditions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_cond_pfcg.htm), however, invalid data types are sometimes not detected until runtime.
 
-In PFCG conditions, field values of [authorizations](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry") are compared with [CDS elements](javascript:call_link\('abencds_element_glosry.htm'\) "Glossary Entry") of the allowed data types and an appropriate [conversion](javascript:call_link\('abencds_f1_dcl_pfcg_mapping.htm'\)) takes place.
+In PFCG conditions, field values of [authorizations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenauthorization_glosry.htm "Glossary Entry") are compared with [CDS elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_element_glosry.htm "Glossary Entry") of the allowed data types and an appropriate [conversion](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_pfcg_mapping.htm) takes place.
 
-Unlike DATS and TIMS, the types DATN and TIMN do not allow the [LIKE](javascript:call_link\('abencds_cond_expr_like_v2.htm'\)) operator to be used.
+Unlike DATS and TIMS, the types DATN and TIMN do not allow the [LIKE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cond_expr_like_v2.htm) operator to be used.

@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - Views](javascript:call_link\('abenddic_cds_views.htm'\)) →  [ABAP CDS - Client Handling in CDS Views](javascript:call_link\('abencds_client_handling.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_views.htm) →  [ABAP CDS - Client Handling in CDS Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm) → 
 
 CDS Views, Client Handling
 
-This example demonstrates how [client-specific](javascript:call_link\('abencds_client_handling.htm'\)) CDS views are handled.
+This example demonstrates how [client-specific](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm) CDS views are handled.
 
 Source Code
 
@@ -137,11 +137,11 @@ The statement SELECT is used to make the following accesses:
 
 -   Regular access to a database view of the client-specific CDS entity without client column in the SELECT list. The data from the current client is read. The results set has a client column.
 
--   Access to a client-specific CDS entity without client column in the SELECT list using the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)). The data of the client specified in the WHERE condition is read. A name myclient must be defined for this. The results set has a client column with this name.
+-   Access to a client-specific CDS entity without client column in the SELECT list using the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm). The data of the client specified in the WHERE condition is read. A name myclient must be defined for this. The results set has a client column with this name.
 
 -   Regular access to a database view of the client-specific CDS entity with client column in the SELECT list. The data from the current client is read. The results set does not have a client column.
 
-The similar program DEMO\_CDS\_CLIENT\_HANDLING\_SV accesses CDS views in which the annotation @ClientHandling.algorithm: #SESSION\_VARIABLE is used instead of @ClientHandling.algorithm: #AUTOMATED. The results are shown in exactly the same way as here, however access using the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)) is not possible since the [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") [$session.client](javascript:call_link\('abencds_f1_session_variable.htm'\)) is evaluated implicitly in the views.
+The similar program DEMO\_CDS\_CLIENT\_HANDLING\_SV accesses CDS views in which the annotation @ClientHandling.algorithm: #SESSION\_VARIABLE is used instead of @ClientHandling.algorithm: #AUTOMATED. The results are shown in exactly the same way as here, however access using the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm) is not possible since the [session variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_session_variable.htm) is evaluated implicitly in the views.
 
 Note
 

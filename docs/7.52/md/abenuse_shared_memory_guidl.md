@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Data Storage](javascript:call_link\('abendata_storage_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarchitecture_guidl.htm) →  [Data Storage](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_storage_guidl.htm) → 
 
 Using the Shared Memory
 
@@ -12,7 +12,7 @@ Background
 
 The shared memory of an application server is an highly important medium for buffering data with the goal of high-performance access. For this purpose, the shared memory can be used as follows:
 
--   To buffer data from database tables implicitly using [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry"), which can be determined when defining the tables in ABAP Dictionary
+-   To buffer data from database tables implicitly using [table buffering](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_buffering_glosry.htm "Glossary Entry"), which can be determined when defining the tables in ABAP Dictionary
 
 -   To explicitly store data clusters in the cross-transaction application buffer using the statements EXPORT TO SHARED MEMORY or EXPORT TO SHARED BUFFER
 
@@ -30,7 +30,7 @@ For explicit access to the shared memory, shared objects (CREATE AREA HANDLE) pr
 
 -   Any number of (data) objects can be saved, including their mutual interdependencies.
 
--   (Data) objects can be used in the shared objects memory just like objects in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"). Technically, the shared objects memory can be considered an extension of the internal session during the time the memory is bound to it.
+-   (Data) objects can be used in the shared objects memory just like objects in the [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry"). Technically, the shared objects memory can be considered an extension of the internal session during the time the memory is bound to it.
 
 -   Multiple programs can access the same memory area simultaneously without having to copy data to their own internal session.
 

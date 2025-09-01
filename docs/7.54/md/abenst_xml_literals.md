@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Literal Template Content](javascript:call_link\('abenst_literals.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_serial_deserial.htm) →  [ST - Literal Template Content](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_literals.htm) → 
 
 ST - Literal XML Elements and Attributes
 
@@ -24,9 +24,9 @@ Syntax
 
 Effect
 
-Here, element is the name of the element and attr is a set of optional literal attributes with any name. The optional ST-specific attribute [tt:ref](javascript:call_link\('abenst_tt_ref.htm'\)) sets the current node node for the context of the literal element.
+Here, element is the name of the element and attr is a set of optional literal attributes with any name. The optional ST-specific attribute [tt:ref](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_ref.htm) sets the current node node for the context of the literal element.
 
-The optional ST-specific attributes [tt:lax](javascript:call_link\('abenst_tt_lax.htm'\)) and [tt:extensible](javascript:call_link\('abenst_tt_extensible.htm'\)) only have an effect with deserialization. tt:lax determines whether the element name element may differ during deserialization. tt:extensible specifies whether the element’s content can be extended by unspecified elements.
+The optional ST-specific attributes [tt:lax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_lax.htm) and [tt:extensible](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_extensible.htm) only have an effect with deserialization. tt:lax determines whether the element name element may differ during deserialization. tt:extensible specifies whether the element’s content can be extended by unspecified elements.
 
 Serializing Literal XML Elements
 
@@ -34,7 +34,7 @@ In serializations, the element beginning <element *\[*attr*\]*\>, together with 
 
 Note
 
-For information about handling namespaces, see [tt.namespace, Namespaces](javascript:call_link\('abenst_tt_namespace.htm'\)).
+For information about handling namespaces, see [tt.namespace, Namespaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_namespace.htm).
 
 Deserializing Literal XML Elements
 
@@ -44,7 +44,7 @@ After a successful comparison of the element beginning, the element content is d
 
 Special Form of Literal XML Elements
 
-A special form of literal XML attributes combines the [tt:value command](javascript:call_link\('abenst_tt_value_elementary.htm'\)) with the above syntax.
+A special form of literal XML attributes combines the [tt:value command](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_value_elementary.htm) with the above syntax.
 
 Syntax
 
@@ -139,5 +139,5 @@ The following ST program triggers the exception CX\_ST\_MATCH\_ATTRIBUTE even th
 A correct attribute name with an incorrect attribute content raises the exception CX\_ST\_MATCH\_TEXT.
 
 Continue
-[ST - tt:lax, Name Comparisons of Literal XML Elements](javascript:call_link\('abenst_tt_lax.htm'\))
-[ST - tt:extensible, Extensibility of Literal XML Elements](javascript:call_link\('abenst_tt_extensible.htm'\))
+[ST - tt:lax, Name Comparisons of Literal XML Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_lax.htm)
+[ST - tt:extensible, Extensibility of Literal XML Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_extensible.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numerical Functions](javascript:call_link\('abenmathematical_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompute_expressions.htm) →  [Numerical Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmathematical_functions.htm) → 
 
 abs, sign, ceil, floor, trunc, frac - Numeric Functions
 
@@ -46,15 +46,15 @@ Value of the integer part of the argument arg; negative if arg is negative
 
 frac
 
-Value of the [decimal places](javascript:call_link\('abenfractional_portion_glosry.htm'\) "Glossary Entry") of the argument arg; negative if arg is negative
+Value of the [decimal places](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfractional_portion_glosry.htm "Glossary Entry") of the argument arg; negative if arg is negative
 
 The following applies with regard to the data type of the return value:
 
--   With the exception of an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), the data type of the argument determines the data type of the return value.
+-   With the exception of an [arithmetic expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), the data type of the argument determines the data type of the return value.
 
--   Within an arithmetic expression, the argument of the function contributes to the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") of the entire expression and the function is calculated using the calculation type. If the argument itself is an arithmetic expression, its operands contribute to the entire calculation type and the argument is also calculated with this type.
+-   Within an arithmetic expression, the argument of the function contributes to the [calculation type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencalculation_type_glosry.htm "Glossary Entry") of the entire expression and the function is calculated using the calculation type. If the argument itself is an arithmetic expression, its operands contribute to the entire calculation type and the argument is also calculated with this type.
 
--   If the argument arg is a [numeric expression](javascript:call_link\('abennumerical_expression_glosry.htm'\) "Glossary Entry"), the function works like an arithmetic operator and it is handled in its operand position like an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry").
+-   If the argument arg is a [numeric expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumerical_expression_glosry.htm "Glossary Entry"), the function works like an arithmetic operator and it is handled in its operand position like an [arithmetic expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry").
 
 If the argument of a numeric function outside of an arithmetic expression does not have a numeric data type i, int8, p, decfloat16, decfloat34, or f, its data type determines the type of return value as follows:
 
@@ -66,13 +66,13 @@ If the argument of a numeric function outside of an arithmetic expression does n
 
 -   utclong is not allowed
 
-Before the calculation of the function, the argument is [converted](javascript:call_link\('abenconversion_rules.htm'\)) into the respective type..
+Before the calculation of the function, the argument is [converted](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_rules.htm) into the respective type..
 
 Notes
 
 -   The time stamp type utclong cannot be converted implicitly to a numeric type, and therefore cannot be specified directly as an argument.
 
--   The functions described here are some of the functions that can be used in the obsolete [extended functional operand positions](javascript:call_link\('abenextended_functional_positions.htm'\)), even if their argument is a single data object.
+-   The functions described here are some of the functions that can be used in the obsolete [extended functional operand positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenextended_functional_positions.htm), even if their argument is a single data object.
 
 Example
 
@@ -84,4 +84,4 @@ ASSERT pack  = trunc( pack ) + frac( pack ).
 
 Executable Example
 
-[Numeric Functions](javascript:call_link\('abenmath_func_abexa.htm'\))
+[Numeric Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmath_func_abexa.htm)

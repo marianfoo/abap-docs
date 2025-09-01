@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  F
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  F
 
 FUNCTION-POOL - Quick reference
 
-[Reference](javascript:call_link\('abapfunction-pool.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction-pool.htm)
 
 Syntax
 
@@ -19,8 +19,8 @@ FUNCTION-POOL fpool *\[*NO STANDARD PAGE HEADING*\]*
 
 Effect
 
-Introduces a [function group](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry") fpool.
+Introduces a [function group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_group_glosry.htm "Glossary Entry") fpool.
 
 Additions
 
-See [REPORT](javascript:call_link\('abapreport_shortref.htm'\)).
+See [REPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreport_shortref.htm).

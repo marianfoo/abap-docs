@@ -4,15 +4,19 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) →  [Lossless Assignments - Rules](javascript:call_link\('abapmove_exact.htm'\)) →  [Checking Elementary Data Objects](javascript:call_link\('abenmove_exact_elementary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) →  [Lossless Assignments - Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm) →  [Checking Elementary Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm) → 
 
 Valid Values for Lossless Assignments
 
-When a lossless conversion of an elementary argument of the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) to an incompatible data type is performed, the argument must represent a value that is valid in the tables below (and according to its data type):
+When a lossless conversion of an elementary argument of the operator [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) to an incompatible data type is performed, the argument must represent a value that is valid in the tables below (and according to its data type):
 
--   [Numeric Arguments](#abenmove-exact-elementary-valid-1--------character-like-arguments---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_2)
+-   [Numeric Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_1)
 
--   [Byte-Like Arguments](#abenmove-exact-elementary-valid-3--------date-time-fields-as-arguments---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_4)
+-   [Character-Like Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_2)
+
+-   [Byte-Like Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_3)
+
+-   [Date/Time Fields as Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_4)
 
 Numeric Arguments
 
@@ -113,7 +117,7 @@ The argument must contain a valid time in the format "hhmmss", for which the fol
 
 Note
 
-The values that the operator EXACT permits for date fields of type d are different from those defined by the [value range](javascript:call_link\('abenbuiltin_types_date_time.htm'\)). The initial value "00000000", which does not lie within the value range and is normally considered an invalid date, is considered a valid date here, whereas the value "00010101", which does lie within the value range, is considered invalid.
+The values that the operator EXACT permits for date fields of type d are different from those defined by the [value range](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_date_time.htm). The initial value "00000000", which does not lie within the value range and is normally considered an invalid date, is considered a valid date here, whereas the value "00010101", which does lie within the value range, is considered invalid.
 
 Example
 

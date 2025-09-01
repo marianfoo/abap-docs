@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Obsolete Access to Data Clusters](javascript:call_link\('abendata_cluster_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_storage_obsolete.htm) →  [Obsolete Access to Data Clusters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_cluster_obsolete.htm) → 
 
 IMPORT - obs\_id
 
-[Quick Reference](javascript:call_link\('abapimport_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapimport_shortref.htm)
 
 Obsolete Syntax
 
@@ -16,9 +16,9 @@ Obsolete Syntax
 
 Effect
 
-Outside of classes, the addition ID of the statement [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) [FROM DATABASE](javascript:call_link\('abapimport_medium.htm'\)) can be replaced by these additions when database tables are imported. When id1 and id2 are specified, the same rules apply as for id.
+Outside of classes, the addition ID of the statement [IMPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapimport_data_cluster.htm) [FROM DATABASE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapimport_medium.htm) can be replaced by these additions when database tables are imported. When id1 and id2 are specified, the same rules apply as for id.
 
-A [data cluster](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") is imported whose ID in the first part matches the value of id1. If MINOR-ID id2 is also specified, the data cluster is imported whose ID in the second part (at the positions after the number of characters specified in id1) is greater than or equal to the value in id2. The search is canceled once the first match is found.
+A [data cluster](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_cluster_glosry.htm "Glossary Entry") is imported whose ID in the first part matches the value of id1. If MINOR-ID id2 is also specified, the data cluster is imported whose ID in the second part (at the positions after the number of characters specified in id1) is greater than or equal to the value in id2. The search is canceled once the first match is found.
 
 Notes
 

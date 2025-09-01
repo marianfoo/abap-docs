@@ -4,16 +4,16 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_modularization.htm) → 
 
 Event Blocks
 
-The following [event block](javascript:call_link\('abenevent_block_glosry.htm'\) "Glossary Entry") is obsolete:
+The following [event block](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenevent_block_glosry.htm "Glossary Entry") is obsolete:
 
--   [START-OF-EDITING](javascript:call_link\('abapstart-of-editing.htm'\))
+-   [START-OF-EDITING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstart-of-editing.htm)
 
--   [END-OF-EDITING](javascript:call_link\('abapend-of-editing.htm'\))
+-   [END-OF-EDITING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-of-editing.htm)
 
 Continue
-[START-OF-EDITING](javascript:call_link\('abapstart-of-editing.htm'\))
-[END-OF-EDITING](javascript:call_link\('abapend-of-editing.htm'\))
+[START-OF-EDITING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapstart-of-editing.htm)
+[END-OF-EDITING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-of-editing.htm)

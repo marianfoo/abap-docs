@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  R
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_shortref.htm) →  R
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20REPORT%2C%20ABAPREPORT_SHORTREF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 REPORT - Short Reference
 
-[Reference](javascript:call_link\('abapreport.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport.htm)
 
 Syntax
 
@@ -23,19 +23,19 @@ REPORT rep *\[*NO STANDARD PAGE HEADING*\]*
 
 Effect
 
-Introduces an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") rep.
+Introduces an [executable program](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexecutable_program_glosry.htm "Glossary Entry") rep.
 
 Additions   
 
--   [NO STANDARD PAGE HEADING](javascript:call_link\('abapreport_list_options.htm'\))
-    Suppresses the output of a [standard page header](javascript:call_link\('abenstandard_page_header_glosry.htm'\) "Glossary Entry").
--   [LINE-SIZE width](javascript:call_link\('abapreport_list_options.htm'\))
+-   [NO STANDARD PAGE HEADING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport_list_options.htm)
+    Suppresses the output of a [standard page header](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_page_header_glosry.htm "Glossary Entry").
+-   [LINE-SIZE width](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport_list_options.htm)
     Sets the line width of lists of the program to width characters.
--   [LINE-COUNT page\_lines*\[*(footer\_lines)*\]*](javascript:call_link\('abapreport_list_options.htm'\))
+-   [LINE-COUNT page\_lines*\[*(footer\_lines)*\]*](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport_list_options.htm)
     Sets the page length of the basic list of the program to page\_lines and reserves footer\_lines footer lines.
--   [MESSAGE-ID mid](javascript:call_link\('abapreport.htm'\))
+-   [MESSAGE-ID mid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport.htm)
     Specifies a message class mid for short forms of MESSAGE.
--   [DEFINING DATABASE ldb](javascript:call_link\('abapreport_defining.htm'\))
-    Obsolete: Does not call an executable program, but calls the [database program](javascript:call_link\('abendatabase_program_glosry.htm'\) "Glossary Entry") of the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") ldb instead.
--   [REDUCED FUNCTIONALITY](javascript:call_link\('abapprogram.htm'\))
-    This addition is only intended for the [PROGRAM](javascript:call_link\('abapprogram.htm'\)) statement in subroutine pools.
+-   [DEFINING DATABASE ldb](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport_defining.htm)
+    Obsolete: Does not call an executable program, but calls the [database program](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendatabase_program_glosry.htm "Glossary Entry") of the [logical database](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") ldb instead.
+-   [REDUCED FUNCTIONALITY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapprogram.htm)
+    This addition is only intended for the [PROGRAM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapprogram.htm) statement in subroutine pools.

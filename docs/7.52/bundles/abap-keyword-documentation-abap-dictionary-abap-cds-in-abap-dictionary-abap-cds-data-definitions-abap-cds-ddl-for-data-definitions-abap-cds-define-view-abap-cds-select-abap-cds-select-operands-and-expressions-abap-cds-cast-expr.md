@@ -30,7 +30,7 @@ Included pages: 2
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, Operands and Expressions](javascript:call_link\('abencds_operands_and_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_operands_and_expressions.htm) → 
 
 ABAP CDS - cast\_expr
 
@@ -40,11 +40,11 @@ Syntax
 
 Effect
 
-Casting in a [SELECT statement](javascript:call_link\('abencds_f1_select_statement.htm'\)) of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). The cast expression [converts](javascript:call_link\('abencds_f1_cast_expression_rules.htm'\)) the value of the operand operand to the dictionary type specified by dtype. The result has the type dtype. The following can be specified for dtype:
+Casting in a [SELECT statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) of a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"). The cast expression [converts](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression_rules.htm) the value of the operand operand to the dictionary type specified by dtype. The result has the type dtype. The following can be specified for dtype:
 
--   Any [data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry"). In this case, the optional addition PRESERVING TYPE can be specified. If this addition is specified, the built-in data type, the length of the operand and the number of decimal places, and the target data type must match exactly.
+-   Any [data element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_element_glosry.htm "Glossary Entry"). In this case, the optional addition PRESERVING TYPE can be specified. If this addition is specified, the built-in data type, the length of the operand and the number of decimal places, and the target data type must match exactly.
 
--   A [built-in data type](javascript:call_link\('abenddic_builtin_types.htm'\)) in ABAP Dictionary The addition PRESERVING TYPE cannot be specified in this case.
+-   A [built-in data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) in ABAP Dictionary The addition PRESERVING TYPE cannot be specified in this case.
 
 The following table shows the syntax for specifying built-in data types:
 
@@ -54,103 +54,103 @@ Dictionary Type
 
 abap.char( len )
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len
+[CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with length len
 
 abap.clnt*\[*(3)*\]*
 
-[CLNT](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CLNT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 abap.cuky( len )
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len
+[CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with length len
 
 abap.curr(len,decimals)
 
-[CURR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len and decimals decimal places
+[CURR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with length len and decimals decimal places
 
 abap.dats*\[*(8)*\]*
 
-[DATS](javascript:call_link\('abenddic_builtin_types.htm'\))
+[DATS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 abap.dec(len,decimals)
 
-[DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len and decimals decimal places
+[DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with length len and decimals decimal places
 
 abap.fltp*\[*(16,16)*\]*
 
-[FLTP](javascript:call_link\('abenddic_builtin_types.htm'\))
+[FLTP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 abap.int1*\[*(3)*\]*
 
-[INT1](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 abap.int2*\[*(5)*\]*
 
-[INT2](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 abap.int4*\[*(10)*\]*
 
-[INT4](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 abap.int8*\[*(19)*\]*
 
-[INT8](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 abap.lang*\[*(1)*\]*
 
-[LANG](javascript:call_link\('abenddic_builtin_types.htm'\))
+[LANG](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 abap.numc( len )
 
-[NUMC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len
+[NUMC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with length len
 
 abap.quan(len,decimals)
 
-[QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len with decimals decimal places
+[QUAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with length len with decimals decimal places
 
 abap.raw(len)
 
-[RAW](javascript:call_link\('abenddic_builtin_types.htm'\))
+[RAW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 abap.sstring(len)
 
-[SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\))
+[SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 abap.tims*\[*(6)*\]*
 
-[TIMS](javascript:call_link\('abenddic_builtin_types.htm'\))
+[TIMS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 abap.unit( len )
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len
+[CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with length len
 
 The actual length of the result is defined when the CDS view is activated and is must be at least as long as an explicitly defined length len. The predefined values can be specified for types with fixed lengths and decimal places, but this is not mandatory.
 
 The following can be specified for operand:
 
--   A [literal](javascript:call_link\('abencds_f1_literal.htm'\)) without a domain prefix
+-   A [literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) without a domain prefix
 
--   A [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+-   A [parameter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter.htm)
 
--   A [session variable](javascript:call_link\('abencds_f1_session_variable.htm'\))
+-   A [session variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_session_variable.htm)
 
--   A [field](javascript:call_link\('abencds_f1_field.htm'\)) of a data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)) of the current CDS view
+-   A [field](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_field.htm) of a data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm) of the current CDS view
 
--   An [aggregate expression](javascript:call_link\('abencds_f1_aggregate_functions.htm'\))
+-   An [aggregate expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_aggregate_functions.htm)
 
--   A [path expression](javascript:call_link\('abencds_f1_path_expression.htm'\)) that identifies a field of a data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\))
+-   A [path expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) that identifies a field of a data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm)
 
--   A [built-in function](javascript:call_link\('abencds_f1_builtin_functions.htm'\))
+-   A [built-in function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_builtin_functions.htm)
 
--   An [arithmetic expression](javascript:call_link\('abencds_f1_arithmetic_expression.htm'\))
+-   An [arithmetic expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_arithmetic_expression.htm)
 
--   A case distinction with [CASE](javascript:call_link\('abencds_f1_case_expression.htm'\))
+-   A case distinction with [CASE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_case_expression.htm)
 
 -   A nested cast expression
 
-Cast expressions can be specified in the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) and in operand positions of expressions.
+Cast expressions can be specified in the [SELECT list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_list.htm) and in operand positions of expressions.
 
-The following table shows which combinations of built-in data types in ABAP Dictionary can currently be cast to each other and what the prerequisites are in each case. There is a special list of [conversion rules](javascript:call_link\('abencds_f1_cast_expression_rules.htm'\)) for every combination.
+The following table shows which combinations of built-in data types in ABAP Dictionary can currently be cast to each other and what the prerequisites are in each case. There is a special list of [conversion rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression_rules.htm) for every combination.
 
 from/to
 
@@ -964,29 +964,29 @@ There are no further restrictions to note in combinations using "x". The followi
 
 -   In combinations with "p", the data element must have the built-in data type and the same length as the data type of the operand.
 
-In the case of incompatible types, the content of the operand is [converted](javascript:call_link\('abencds_f1_cast_expression_rules.htm'\)) to the target type (exceptions can be raised if values are not suitable). In compatible types, a syntax check warning occurs (unless the target data type is specified as a data element using the addition PRESERVING TYPE).
+In the case of incompatible types, the content of the operand is [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression_rules.htm) to the target type (exceptions can be raised if values are not suitable). In compatible types, a syntax check warning occurs (unless the target data type is specified as a data element using the addition PRESERVING TYPE).
 
 Notes
 
--   If a data element is specified for dtype, the result of the expression is given its semantic attributes. An exception to this is the use of the CAST expression within a case distinction using [CASE](javascript:call_link\('abencds_f1_case_expression.htm'\)),
+-   If a data element is specified for dtype, the result of the expression is given its semantic attributes. An exception to this is the use of the CAST expression within a case distinction using [CASE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_case_expression.htm),
 
 -   The addition PRESERVING TYPE can be used to perform a cast to data elements. This is done solely to modify the semantic attributes of the operand.
 
--   The characters in the [surrogate area](javascript:call_link\('abensurrogate_area_glosry.htm'\) "Glossary Entry") of the [system code page](javascript:call_link\('abensystem_codepage_glosry.htm'\) "Glossary Entry") [UTF-16](javascript:call_link\('abenutf16_glosry.htm'\) "Glossary Entry") are handled as two characters in cast expressions for strings. Care should be taken to avoid splitting these characters in cutoff operations.
+-   The characters in the [surrogate area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensurrogate_area_glosry.htm "Glossary Entry") of the [system code page](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_codepage_glosry.htm "Glossary Entry") [UTF-16](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenutf16_glosry.htm "Glossary Entry") are handled as two characters in cast expressions for strings. Care should be taken to avoid splitting these characters in cutoff operations.
 
--   When performing a [conversion](javascript:call_link\('abencds_f1_cast_expression_rules.htm'\)) between [currency fields](javascript:call_link\('abenddic_currency_field.htm'\)) with type CURR, it should be noted that CAST respects the decimal places defined for the type. In ABAP applications, on the other hand, the position of the decimal point is usually ignored.
+-   When performing a [conversion](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression_rules.htm) between [currency fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_currency_field.htm) with type CURR, it should be noted that CAST respects the decimal places defined for the type. In ABAP applications, on the other hand, the position of the decimal point is usually ignored.
 
 -   A CAST expression should be platform-independent. Conversions from the type FLTP to other numeric types are not allowed because the result would be platform-dependent.
 
--   An aggregate expression [AVG](javascript:call_link\('abencds_f1_aggregate_functions.htm'\)) has the type FLTP by default. It can be specified as an operand but it is not possible to cast to other types. Therefore there is a separate addition for AVG [AS dtype](javascript:call_link\('abencds_f1_avg_as.htm'\)).
+-   An aggregate expression [AVG](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_aggregate_functions.htm) has the type FLTP by default. It can be specified as an operand but it is not possible to cast to other types. Therefore there is a separate addition for AVG [AS dtype](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_avg_as.htm).
 
--   Special built-in [conversion functions](javascript:call_link\('abencds_f1_conversion_functions.htm'\)) are available for special conversions that cannot be covered by a CAST expression:
+-   Special built-in [conversion functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conversion_functions.htm) are available for special conversions that cannot be covered by a CAST expression:
 
--   [FLTP\_TO\_DEC](javascript:call_link\('abencds_f1_conv_func_types.htm'\)) for converting FLTP to packed numbers.
+-   [FLTP\_TO\_DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conv_func_types.htm) for converting FLTP to packed numbers.
 
--   [BINTOHEX](javascript:call_link\('abencds_f1_conv_func_types.htm'\)) and [HEXTOBIN](javascript:call_link\('abencds_f1_conv_func_types.htm'\)) for conversions of byte strings to character strings and back.
+-   [BINTOHEX](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conv_func_types.htm) and [HEXTOBIN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conv_func_types.htm) for conversions of byte strings to character strings and back.
 
--   [Conversion functions for units and currencies](javascript:call_link\('abencds_f1_conv_func_unit_curr.htm'\))
+-   [Conversion functions for units and currencies](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_conv_func_unit_curr.htm)
 
 Example
 
@@ -1051,7 +1051,7 @@ carrname
 };    
 
 Continue
-[ABAP CDS - cast\_expr, Conversion Rules](javascript:call_link\('abencds_f1_cast_expression_rules.htm'\))
+[ABAP CDS - cast\_expr, Conversion Rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression_rules.htm)
 
 
 
@@ -1072,11 +1072,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, Operands and Expressions](javascript:call_link\('abencds_operands_and_expressions.htm'\)) →  [ABAP CDS - cast\_expr](javascript:call_link\('abencds_f1_cast_expression.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_operands_and_expressions.htm) →  [ABAP CDS - cast\_expr](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression.htm) → 
 
 ABAP CDS - cast\_expr, Conversion Rules
 
-The following sections described the conversion rules for [cast expressions](javascript:call_link\('abencds_f1_cast_expression.htm'\)) in the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry").
+The following sections described the conversion rules for [cast expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression.htm) in the [CDS DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm "Glossary Entry").
 
 -   [Numeric source type](#abencds-f1-cast-expression-rules-1--------source-type-int1--int2--int4--int8---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
 
@@ -1106,7 +1106,7 @@ The possible target types are INT1, INT2, INT4, INT8, DEC, CURR, QUAN, and FLTP.
 
 The possible target types are CHAR, SSTRING, and CLNT (in the case of INT1).
 
--   The number value is converted to a character string in [mathematical notation](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") without decimal separators and is left-aligned.
+-   The number value is converted to a character string in [mathematical notation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") without decimal separators and is left-aligned.
 
 -   The length of the target type must be enough for all potential values including the sign. The minimum lengths for INT1, INT2, INT4, and INT8 are 3, 6, 11, and 20.
 
@@ -1120,13 +1120,13 @@ The possible target types are DEC, CURR, QUAN, and FLTP.
 
 -   In the case of the target types DEC, CURR, and QUAN, an exception is raised if the value range in the integer digits is exceeded. This exception can be caught in ABAP using CX\_SY\_OPEN\_SQL\_DB. Any surplus decimal places are cut off without rounding.
 
--   In the case of the target type FLTP, values that cannot be represented as [binary floating point numbers](javascript:call_link\('abenbinfloat_glosry.htm'\) "Glossary Entry") are converted to the next adjacent number.
+-   In the case of the target type FLTP, values that cannot be represented as [binary floating point numbers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbinfloat_glosry.htm "Glossary Entry") are converted to the next adjacent number.
 
 -   Character-like target type
 
 The possible target types are CHAR and SSTRING.
 
--   The number value is converted to a character string in [mathematical notation](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") and is left-aligned.
+-   The number value is converted to a character string in [mathematical notation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") and is left-aligned.
 
 -   The length of the target type must be enough for all potential values in the source type including the sign and decimal separator.
 
@@ -1144,7 +1144,7 @@ The possible target types are CHAR, SSTRING, NUMC, CLNT, LANG, DATS, TIMS, UNIT,
 
 -   The character string is written to the target field as a left-aligned string including leading blanks. If the target type is too short, the string is truncated on the right and a syntax check warning occurs. If the target field is too long, it is padded on the right with blanks.
 
--   There is no special handling for the special target type for numeric text, NUMC, and for the date/time types DATS and TIMS. It is advisable to only convert valid values. In the case of the target type NUMC, the built-in function [LPAD](javascript:call_link\('abencds_f1_sql_functions_character.htm'\)) can be used to create leading zeroes.
+-   There is no special handling for the special target type for numeric text, NUMC, and for the date/time types DATS and TIMS. It is advisable to only convert valid values. In the case of the target type NUMC, the built-in function [LPAD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions_character.htm) can be used to create leading zeroes.
 
 Source type NUMC
 
@@ -1160,7 +1160,7 @@ The possible target types are INT1, INT2, INT4, INT8, DEC, CURR, QUAN, and FLTP.
 
 -   In the case of the target types DEC, CURR, and QUAN, an exception is raised if the value range in the integer digits is exceeded. This exception can be caught in ABAP using CX\_SY\_OPEN\_SQL\_DB. A syntax check warning occurs it a static check knows that an exception can be raised. Any surplus decimal places are cut off without rounding.
 
--   In the case of the target type FLTP, values that cannot be represented as [binary floating point numbers](javascript:call_link\('abenbinfloat_glosry.htm'\) "Glossary Entry") are converted to the next adjacent number.
+-   In the case of the target type FLTP, values that cannot be represented as [binary floating point numbers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbinfloat_glosry.htm "Glossary Entry") are converted to the next adjacent number.
 
 -   Character-like target type
 
@@ -1170,7 +1170,7 @@ The possible target types are CHAR, SSTRING, NUMC, CLNT, DATS, and TIMS.
 
 -   The character string is written to the target field as a left-aligned string including leading blanks. If the target type is too short, the string is truncated on the right and a syntax check warning occurs. If the target field is too long, it is padded on the right with blanks.
 
--   The lengths of the source type and target type must match for the special target type for numeric text, NUMC, and for the date/time types DATS and TIMS. No other special handling takes place. It is advisable to only convert valid values. In the case of the target type NUMC, the built-in function [LPAD](javascript:call_link\('abencds_f1_sql_functions_character.htm'\)) can be used to create leading zeroes.
+-   The lengths of the source type and target type must match for the special target type for numeric text, NUMC, and for the date/time types DATS and TIMS. No other special handling takes place. It is advisable to only convert valid values. In the case of the target type NUMC, the built-in function [LPAD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions_character.htm) can be used to create leading zeroes.
 
 Source types DATS and TIMS
 

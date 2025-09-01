@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [Method Calls](javascript:call_link\('abenmethod_calls.htm'\)) →  [Dynamic Method Call](javascript:call_link\('abenmethod_calls_dynamic.htm'\)) →  [CALL METHOD](javascript:call_link\('abapcall_method_dynamic.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_procedures.htm) →  [Method Calls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_calls.htm) →  [Dynamic Method Call](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_calls_dynamic.htm) →  [CALL METHOD](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_dynamic.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CALL%20METHOD%2C%20dynamic_meth%2C%20ABAPCALL_METHOD_METH_IDENT_DYNA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CALL METHOD, dynamic\_meth
 
-[Short Reference](javascript:call_link\('abapcall_method_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_shortref.htm)
 
 Syntax
 
@@ -51,7 +51,7 @@ Addition 2  
 
 Effect
 
-class\_name expects a character-like field that must contain the name of a class in uppercase letters when the statement is executed. An [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry") can also be specified. The following can be specified for class\_name:
+class\_name expects a character-like field that must contain the name of a class in uppercase letters when the statement is executed. An [absolute type name](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabsolute_typename_glosry.htm "Glossary Entry") can also be specified. The following can be specified for class\_name:
 
 -   Literal or constants
     
@@ -78,12 +78,12 @@ Alternative 2  
 
 Effect
 
-This form is possible for all visible methods of objects. oref can be any [class reference variable](javascript:call_link\('abenclass_reference_variabl_glosry.htm'\) "Glossary Entry") or [interface reference variable](javascript:call_link\('abeninterface_ref_variable_glosry.htm'\) "Glossary Entry") that points to an object containing the method or interface method specified in meth\_name. The system first searches in the [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") and then in the [dynamic type](javascript:call_link\('abendynamic_type_glosry.htm'\) "Glossary Entry") of oref for the method.
+This form is possible for all visible methods of objects. oref can be any [class reference variable](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_reference_variabl_glosry.htm "Glossary Entry") or [interface reference variable](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_ref_variable_glosry.htm "Glossary Entry") that points to an object containing the method or interface method specified in meth\_name. The system first searches in the [static type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_type_glosry.htm "Glossary Entry") and then in the [dynamic type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_type_glosry.htm "Glossary Entry") of oref for the method.
 
 Hints
 
 -   In dynamic access as in static access, interface reference variables cannot be used to access any components, only interface components.
--   The [pseudo reference](javascript:call_link\('abenpseudo_reference_glosry.htm'\) "Glossary Entry") super cannot be used in a dynamic method call.
+-   The [pseudo reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpseudo_reference_glosry.htm "Glossary Entry") super cannot be used in a dynamic method call.
 
 Alternative 3   
 
@@ -105,9 +105,9 @@ For alternatives with a dynamic class specification (class\_name), the system fi
 
 Hints
 
--   Methods of local classes can be called externally only by specifying the [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry"). In the case of classes defined in an [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry"), the name of the include program cannot be used.
--   External calls of local class methods is [critical](javascript:call_link\('abenprogram_groups.htm'\)), especially for executable programs, module pools, and subroutine pools, since it is not usually possible to statically determine to which program group such programs are assigned.
--   If, in class\_name, a class of another program is specified using an [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry"), this program is loaded, depending on the program type, into a new [additional program group](javascript:call_link\('abenadditional_prog_group_glosry.htm'\) "Glossary Entry") or into the current [program group](javascript:call_link\('abenprogram_group_glosry.htm'\) "Glossary Entry"), if it has not been loaded already. If required, the [program constructor](javascript:call_link\('abenprogram_constructor_glosry.htm'\) "Glossary Entry") is also executed.
+-   Methods of local classes can be called externally only by specifying the [compilation unit](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompilation_unit_glosry.htm "Glossary Entry"). In the case of classes defined in an [include program](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninclude_program_glosry.htm "Glossary Entry"), the name of the include program cannot be used.
+-   External calls of local class methods is [critical](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_groups.htm), especially for executable programs, module pools, and subroutine pools, since it is not usually possible to statically determine to which program group such programs are assigned.
+-   If, in class\_name, a class of another program is specified using an [absolute type name](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabsolute_typename_glosry.htm "Glossary Entry"), this program is loaded, depending on the program type, into a new [additional program group](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadditional_prog_group_glosry.htm "Glossary Entry") or into the current [program group](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_group_glosry.htm "Glossary Entry"), if it has not been loaded already. If required, the [program constructor](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_constructor_glosry.htm "Glossary Entry") is also executed.
 
 Example
 

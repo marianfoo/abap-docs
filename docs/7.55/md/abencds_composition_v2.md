@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - CDS View Entity, SELECT, Associations](javascript:call_link\('abencds_association_v2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_statement_v2.htm) →  [CDS DDL - CDS View Entity, SELECT, Associations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_v2.htm) → 
 
 CDS DDL - CDS View Entity, COMPOSITION
 
@@ -19,11 +19,11 @@ Additions:
 
 Effect
 
-Defines a [CDS composition](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry") with the name \_compos in a [SELECT statement](javascript:call_link\('abencds_select_statement_v2.htm'\)) of a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"). A CDS composition associates the current CDS entity, as a [composition source](javascript:call_link\('abencomposition_source_glosry.htm'\) "Glossary Entry"), with the [composition target](javascript:call_link\('abencomposition_target_glosry.htm'\) "Glossary Entry") target specified in the definition of the composition. Compositions are specialized [CDS associations](javascript:call_link\('abencds_association_v2.htm'\)) that are characterized by an existential dependency: the composition source represents the [child entity](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry") and it cannot exist without the composition target, which represents the [parent entity](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry"). For example, in sales, a sales order item (child entity) is always part of a sales order (parent entity).
+Defines a [CDS composition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_composition_glosry.htm "Glossary Entry") with the name \_compos in a [SELECT statement](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_statement_v2.htm) of a [CDS view entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v2_view_glosry.htm "Glossary Entry"). A CDS composition associates the current CDS entity, as a [composition source](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomposition_source_glosry.htm "Glossary Entry"), with the [composition target](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomposition_target_glosry.htm "Glossary Entry") target specified in the definition of the composition. Compositions are specialized [CDS associations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_v2.htm) that are characterized by an existential dependency: the composition source represents the [child entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchild_entity_glosry.htm "Glossary Entry") and it cannot exist without the composition target, which represents the [parent entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchild_entity_glosry.htm "Glossary Entry"). For example, in sales, a sales order item (child entity) is always part of a sales order (parent entity).
 
-The node in which a composition is defined is a parent entity. The target of a composition target is a child entity. The relationship always starts with the child: you first define a [to-parent relationship](javascript:call_link\('abencds_to_parent_assoc_v2.htm'\)) in the child entity and afterwards, you define a composition in the parent entity. The other way around results in syntax errors. No ON condition is defined explicitly for a composition. The ON condition is generated automatically using the ON condition of the to-parent association of the [composition target](javascript:call_link\('abencomposition_target_glosry.htm'\) "Glossary Entry").
+The node in which a composition is defined is a parent entity. The target of a composition target is a child entity. The relationship always starts with the child: you first define a [to-parent relationship](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_to_parent_assoc_v2.htm) in the child entity and afterwards, you define a composition in the parent entity. The other way around results in syntax errors. No ON condition is defined explicitly for a composition. The ON condition is generated automatically using the ON condition of the to-parent association of the [composition target](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomposition_target_glosry.htm "Glossary Entry").
 
-The [composition target](javascript:call_link\('abencomposition_target_glosry.htm'\) "Glossary Entry") cannot be specified using a [path expression](javascript:call_link\('abencds_path_expression_v2.htm'\)) and it must be a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"). If target is a CDS abstract entity, the way the composition can be used is restricted.
+The [composition target](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomposition_target_glosry.htm "Glossary Entry") cannot be specified using a [path expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_path_expression_v2.htm) and it must be a [CDS entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry"). If target is a CDS abstract entity, the way the composition can be used is restricted.
 
 The following applies to the nodes of a composition:
 
@@ -37,11 +37,11 @@ The following applies to the nodes of a composition:
 
 -   A child entity can itself be a parent entity and define further compositions.
 
-The name of the composition \_compos must be added exactly once to the [select\_list](javascript:call_link\('abencds_select_list_v2.htm'\)) of the CDS view entity it is defined in, without attributes and alias. If no name is defined for the composition, the name of the composition is the name of the target entity target and this name must be made available in the SELECT list. It is not allowed to use a composition in a path expression to include a field from the composition target in the same CDS view entity where it is defined.
+The name of the composition \_compos must be added exactly once to the [select\_list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_list_v2.htm) of the CDS view entity it is defined in, without attributes and alias. If no name is defined for the composition, the name of the composition is the name of the target entity target and this name must be made available in the SELECT list. It is not allowed to use a composition in a path expression to include a field from the composition target in the same CDS view entity where it is defined.
 
 A composition can be accessed as follows:
 
--   If a CDS composition whose [composition target](javascript:call_link\('abencomposition_target_glosry.htm'\) "Glossary Entry") is not abstract is exposed by a [path expression](javascript:call_link\('abencds_path_expression_v2.htm'\)) in the SELECT list of the current SELECT statement, other CDS views or ABAP SQL statement can use it in their path expressions.
+-   If a CDS composition whose [composition target](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomposition_target_glosry.htm "Glossary Entry") is not abstract is exposed by a [path expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_path_expression_v2.htm) in the SELECT list of the current SELECT statement, other CDS views or ABAP SQL statement can use it in their path expressions.
 
 -   This is not possible for CDS abstract entities.
 
@@ -55,7 +55,7 @@ The following applies to the compositions:
 
 -   Compositions can be passed using a filter in the SELECT list. The same rules apply as to associations.
 
--   Compositions and joins: the use cases and generation of joins described in topic [CDS DDL - CDS View Entity, Associations and Joins](javascript:call_link\('abencds_assoc_join_v2.htm'\)) also apply to CDS compositions, with the exception of use cases 3 and 4.
+-   Compositions and joins: the use cases and generation of joins described in topic [CDS DDL - CDS View Entity, Associations and Joins](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_assoc_join_v2.htm) also apply to CDS compositions, with the exception of use cases 3 and 4.
 
 Hints
 
@@ -104,7 +104,7 @@ Addition 1
 
 Effect
 
-This addition works in the same way as the addition [association](javascript:call_link\('abencds_association_v2.htm'\)).
+This addition works in the same way as the addition [association](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_v2.htm).
 
 Addition 2
 
@@ -112,4 +112,4 @@ Addition 2
 
 Effect
 
-This addition works in the same way as the addition [association](javascript:call_link\('abencds_association_v2.htm'\)).
+This addition works in the same way as the addition [association](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_v2.htm).

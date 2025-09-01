@@ -4,15 +4,17 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) →  [Character-Like Source Fields](javascript:call_link\('abencharacter_source_fields.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_elementary.htm) →  [Character-Like Source Fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencharacter_source_fields.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Source Field Type c, ABENCONVERSION_TYPE_C, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0
 D%0ASuggestion for improvement:)
 
 Source Field Type c
 
--   [Numeric Target Fields](#abenconversion-type-c-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_C_2)
--   [Byte-Like Target Fields](#abenconversion-type-c-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_C_4)
+-   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_C_1)
+-   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_C_2)
+-   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_C_3)
+-   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_C_4)
 
 Numeric Target Fields   
 
@@ -22,7 +24,7 @@ Conversion
 
 i, int8, (b, s)
 
-The source field must contain a number in mathematical or commercial notation, otherwise the catchable exception CX\_SY\_CONVERSION\_NO\_NUMBER is raised. Exception: A source field that contains only blank characters is interpreted as the number zero. Scientific notation is not allowed, unless it can be interpreted as a mathematical notation. [Decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") are rounded commercially to integer values. If the number is in the value range of data types i, int8, (b, s), it is converted to the corresponding internal representation of an integer, otherwise the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
+The source field must contain a number in mathematical or commercial notation, otherwise the catchable exception CX\_SY\_CONVERSION\_NO\_NUMBER is raised. Exception: A source field that contains only blank characters is interpreted as the number zero. Scientific notation is not allowed, unless it can be interpreted as a mathematical notation. [Decimal places](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendecimal_place_glosry.htm "Glossary Entry") are rounded commercially to integer values. If the number is in the value range of data types i, int8, (b, s), it is converted to the corresponding internal representation of an integer, otherwise the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
 
 p
 
@@ -30,15 +32,15 @@ The source field must contain a number in mathematical or commercial notation, o
 
 decfloat16, decfloat34
 
-The source field must contain a number in [mathematical](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry"), [scientific](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry"), or [commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry"), otherwise the catchable exception CX\_SY\_CONVERSION\_NO\_NUMBER is raised. Exception: A source field that contains only blank characters is interpreted as the number zero. If the number of digits is greater than 16 or 34, it is rounded commercially to 16 or 34 places. If the absolute value of the number is less than 1E-398 or 1E-6176, it is rounded to 0. If the number is in the value range of the data types decfloat16 or decfloat34, it is converted to the internal representation of a decimal floating point number, otherwise the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised. If the mantissa of the target field is long enough, the [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry") of the source field is preserved. The sign is always preserved, even if the number has the value 0.
+The source field must contain a number in [mathematical](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmathematical_notation_glosry.htm "Glossary Entry"), [scientific](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscientific_notation_glosry.htm "Glossary Entry"), or [commercial notation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencommercial_notation_glosry.htm "Glossary Entry"), otherwise the catchable exception CX\_SY\_CONVERSION\_NO\_NUMBER is raised. Exception: A source field that contains only blank characters is interpreted as the number zero. If the number of digits is greater than 16 or 34, it is rounded commercially to 16 or 34 places. If the absolute value of the number is less than 1E-398 or 1E-6176, it is rounded to 0. If the number is in the value range of the data types decfloat16 or decfloat34, it is converted to the internal representation of a decimal floating point number, otherwise the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised. If the mantissa of the target field is long enough, the [scaling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscale_glosry.htm "Glossary Entry") of the source field is preserved. The sign is always preserved, even if the number has the value 0.
 
 f
 
-The source field must contain a number in [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry"), with the first blank after a number completing this number. If not, the catchable exception CX\_SY\_CONVERSION\_NO\_NUMBER is raised. Exception: A source field that contains only blanks or that starts with a blank that is not followed by a valid number is interpreted as zero. [Mathematical](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") or [commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry") is not allowed unless it can be interpreted as scientific notation. Exception: Commercial notation where the plus/minus sign on the right is not separated by blanks is valid if the character string starts directly with the string of digits. If the mantissa contains more than 17 digits, surplus digits are rounded up or down. If the number is in the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") of data type f, it is converted to the internal representation of a binary floating point number, otherwise the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised. If the decimal number cannot be represented as a binary floating point number, the nearest value is used.
+The source field must contain a number in [scientific notation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscientific_notation_glosry.htm "Glossary Entry"), with the first blank after a number completing this number. If not, the catchable exception CX\_SY\_CONVERSION\_NO\_NUMBER is raised. Exception: A source field that contains only blanks or that starts with a blank that is not followed by a valid number is interpreted as zero. [Mathematical](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") or [commercial notation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencommercial_notation_glosry.htm "Glossary Entry") is not allowed unless it can be interpreted as scientific notation. Exception: Commercial notation where the plus/minus sign on the right is not separated by blanks is valid if the character string starts directly with the string of digits. If the mantissa contains more than 17 digits, surplus digits are rounded up or down. If the number is in the [value range](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_range_glosry.htm "Glossary Entry") of data type f, it is converted to the internal representation of a binary floating point number, otherwise the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised. If the decimal number cannot be represented as a binary floating point number, the nearest value is used.
 
 Hint
 
--   The class [CL\_ABAP\_DECFLOAT](javascript:call_link\('abencl_abap_decfloat_doc.htm'\)) contains the methods READ\_DECFLOAT34 and READ\_DECFLOAT16 for converting character strings into decimal floating point numbers. The exceptions of these methods are more significant than those of a regular assignment. Furthermore, the methods return a return value that reveals information about the rounding that was performed.
+-   The class [CL\_ABAP\_DECFLOAT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencl_abap_decfloat_doc.htm) contains the methods READ\_DECFLOAT34 and READ\_DECFLOAT16 for converting character strings into decimal floating point numbers. The exceptions of these methods are more significant than those of a regular assignment. Furthermore, the methods return a return value that reveals information about the rounding that was performed.
 
 Example
 
@@ -70,8 +72,8 @@ The characters in the source field are passed to the target field, including any
 
 Hints
 
--   In ABAP, the [trailing blanks](javascript:call_link\('abenabap_data_string.htm'\)) in source fields of type c are ignored, by default. An assignment from source type c to target type t is an exception to this rule.
--   To assign source fields of type c to target fields (particularly target fields of type string) and respect the trailing blanks, the addition RESPECTING BLANKS of the statement [CONCATENATE](javascript:call_link\('abapconcatenate.htm'\)) can be used.
+-   In ABAP, the [trailing blanks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_string.htm) in source fields of type c are ignored, by default. An assignment from source type c to target type t is an exception to this rule.
+-   To assign source fields of type c to target fields (particularly target fields of type string) and respect the trailing blanks, the addition RESPECTING BLANKS of the statement [CONCATENATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapconcatenate.htm) can be used.
 
 Example
 
@@ -116,7 +118,7 @@ The same conversion rules apply as to a field of type c with the length 6, with 
 
 utclong
 
-The source field must contain a valid [representation of a time stamp](javascript:call_link\('abents_value.htm'\)), such as yyyy-mm-ddThh:mm:ss.fffffff, which is converted to the internal representation of a [time stamp field](javascript:call_link\('abentimestamp_field_glosry.htm'\) "Glossary Entry"). An initial source field is converted to the initial value of a time stamp field. In all other cases, or if an invalid time stamp were to be created, an exception of the class CX\_SY\_CONVERSION\_NO\_DATE\_TIME is raised.
+The source field must contain a valid [representation of a time stamp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abents_value.htm), such as yyyy-mm-ddThh:mm:ss.fffffff, which is converted to the internal representation of a [time stamp field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentimestamp_field_glosry.htm "Glossary Entry"). An initial source field is converted to the initial value of a time stamp field. In all other cases, or if an invalid time stamp were to be created, an exception of the class CX\_SY\_CONVERSION\_NO\_DATE\_TIME is raised.
 
 Hints
 

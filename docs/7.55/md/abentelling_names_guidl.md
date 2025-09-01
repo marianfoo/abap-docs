@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Naming](javascript:call_link\('abennaming_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennaming_guidl.htm) → 
 
 Descriptive Names
 
@@ -61,16 +61,16 @@ The use of nouns, verbs, and adjectives for naming depends on the entity that yo
     They are named using an expression in present perfect that describes their occurrence, for example, cl\_dd\_form\_element->button\_clicked and cl\_gui\_alv\_ tree->selection\_changed. In this example, the noun is abbreviated significantly (o for output format). More information about useful abbreviations can be found below.
 
 -   Procedures
-    New procedures are methods according to the [use ABAP objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") rule. Here, we distinguish between different cases:
+    New procedures are methods according to the [use ABAP objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") rule. Here, we distinguish between different cases:
 
 -   Event handlers are named after the corresponding event. They are assigned a prefix that identifies them as handler methods. In ABAP, the on\_ prefix has established itself. This is consistent with natural language use and clearly labels a method as an event handler. For the two event examples above, the names of the corresponding handler methods would be on\_ button\_clicked and on\_selection\_changed.
 
--   The name of methods with a return value (functional methods) describes the returned result. The get\_ prefix is added to describe the task of the method. An example of this is the cl\_abap\_exceptional\_values=>get\_max\_value method. If the method returns a truth value, is\_ is used as a prefix instead of get\_. In ABAP, these get\_ methods are intended to identify the return value (by using a calculation, for example). Unlike in Java, for example, no own methods should be used to simply return attribute values. Instead you should use the [write-protected (READ-ONLY) attributes](javascript:call_link\('abenencapsulation_guidl.htm'\) "Guideline") provided in ABAP.
+-   The name of methods with a return value (functional methods) describes the returned result. The get\_ prefix is added to describe the task of the method. An example of this is the cl\_abap\_exceptional\_values=>get\_max\_value method. If the method returns a truth value, is\_ is used as a prefix instead of get\_. In ABAP, these get\_ methods are intended to identify the return value (by using a calculation, for example). Unlike in Java, for example, no own methods should be used to simply return attribute values. Instead you should use the [write-protected (READ-ONLY) attributes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenencapsulation_guidl.htm "Guideline") provided in ABAP.
 
--   In all other cases, the name of a method describes an activity to be performed. Therefore, the method name is a verb, generally expressed in the imperative. Examples: cl\_abap\_regex->create\_ matcher and cl\_abap\_memory\_utilities=>do\_garbage\_collection. Methods used to set attributes are described using the relevant attribute, which is prefixed with set\_. Other procedures ([function modules and subroutines](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) required to wrap method calls are named accordingly.
+-   In all other cases, the name of a method describes an activity to be performed. Therefore, the method name is a verb, generally expressed in the imperative. Examples: cl\_abap\_regex->create\_ matcher and cl\_abap\_memory\_utilities=>do\_garbage\_collection. Methods used to set attributes are described using the relevant attribute, which is prefixed with set\_. Other procedures ([function modules and subroutines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) required to wrap method calls are named accordingly.
 
 -   Exception
-    Exceptions describe unexpected states. Technically they are classes. [Classic exceptions](javascript:call_link\('abenclass_exception_guidl.htm'\) "Guideline") should no longer be used. Except for the prefix, the same considerations apply here. To distinguish exceptions from normal classes, they are assigned their [own prefix](javascript:call_link\('abennames_repos_obj_guidl.htm'\) "Guideline") cx\_, provided that they are global exception classes. The name of an exception reflects the rejected state as clearly as possible, for instance, cx\_sy\_offset\_not\_allowed. If an entire hierarchy of exception classes exists, the names of the superclasses do not describe special exception situations. Instead they describe error categories (such as cx\_ sy\_data\_access\_error in this example).
+    Exceptions describe unexpected states. Technically they are classes. [Classic exceptions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_exception_guidl.htm "Guideline") should no longer be used. Except for the prefix, the same considerations apply here. To distinguish exceptions from normal classes, they are assigned their [own prefix](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennames_repos_obj_guidl.htm "Guideline") cx\_, provided that they are global exception classes. The name of an exception reflects the rejected state as clearly as possible, for instance, cx\_sy\_offset\_not\_allowed. If an entire hierarchy of exception classes exists, the names of the superclasses do not describe special exception situations. Instead they describe error categories (such as cx\_ sy\_data\_access\_error in this example).
 
 You should avoid using abbreviations as name components wherever possible. Exceptions to this rule are abbreviations that are usually used instead of the complete term, such as GUI or XML. However, if the use of certain abbreviations cannot be avoided due to restricted space, you should initially use common abbreviations.
 
@@ -80,7 +80,7 @@ An example of a poorly chosen abbreviation would be tstmp for timestamp. This ab
 
 When you create abbreviations in a foreign language, you run the risk that the result represents a word or abbreviation with a completely different meaning. If in doubt, you should enter the abbreviation in a search engine to check it. For example, you only have four characters available and you want to use the word button. In this case, you should select the abbreviation bttn (following the abbreviation rules above), instead of the first four characters.
 
-As a rule, name components should be visually separated using underscores in ABAP. This makes the names easier to read. Separating name components with uppercase and lowercase (common in languages with C-like syntax) is [not useful](javascript:call_link\('abenlower_upper_case_guidl.htm'\) "Guideline") in ABAP. Underscores normally identify a name, because ABAP words are usually not formed this way. The only exceptions here are certain format options for string templates (such as SCIENTIFIC\_WITH\_LEADING\_ZERO), which can only occur within string expressions, and certain additions of SELECTION-SCREEN and WRITE.
+As a rule, name components should be visually separated using underscores in ABAP. This makes the names easier to read. Separating name components with uppercase and lowercase (common in languages with C-like syntax) is [not useful](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlower_upper_case_guidl.htm "Guideline") in ABAP. Underscores normally identify a name, because ABAP words are usually not formed this way. The only exceptions here are certain format options for string templates (such as SCIENTIFIC\_WITH\_LEADING\_ZERO), which can only occur within string expressions, and certain additions of SELECTION-SCREEN and WRITE.
 
 You should not use digits as name components. They are often a sign of poorly selected names (because they are not very descriptive) or indicate the use of multiple individual variables, where the use of an internal table would make more sense. Exceptions include the interface parameters of procedures. Numbering similar parameters definitely makes sense here.
 
@@ -99,7 +99,7 @@ METHOD do\_something.
   ENDDO.
 ENDMETHOD.
 
-The long name lcv\_maximum\_do\_loop\_count is quite difficult to read. A method can only include a manageable [number of statements](javascript:call_link\('abenproc_volume_guidl.htm'\) "Guideline"). Therefore, you can select a very simple name in simple cases:
+The long name lcv\_maximum\_do\_loop\_count is quite difficult to read. A method can only include a manageable [number of statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenproc_volume_guidl.htm "Guideline"). Therefore, you can select a very simple name in simple cases:
 
 METHOD do\_something.
   CONSTANTS nmax TYPE i VALUE 100.
@@ -108,11 +108,11 @@ METHOD do\_something.
   ENDDO.
 ENDMETHOD.
 
-A further example of where short names are useful is helper fields declared in [LET expressions](javascript:call_link\('abaplet.htm'\)).
+A further example of where short names are useful is helper fields declared in [LET expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm).
 
 Bad Example
 
-The following source code shows the declaration of a class that executes arithmetic calculations. This should be understood as a synthetic naming example. Of course, in ABAP, it makes absolutely no sense to [wrap](javascript:call_link\('abenmodularization_guidl.htm'\) "Guideline") the arithmetic operations on elementary numeric data types using a class. The names of the class and its methods are unnecessarily short, and the names of the method parameters have no semantic meaning at all.
+The following source code shows the declaration of a class that executes arithmetic calculations. This should be understood as a synthetic naming example. Of course, in ABAP, it makes absolutely no sense to [wrap](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmodularization_guidl.htm "Guideline") the arithmetic operations on elementary numeric data types using a class. The names of the class and its methods are unnecessarily short, and the names of the method parameters have no semantic meaning at all.
 
 CLASS calcltr DEFINITION.
   PUBLIC SECTION.

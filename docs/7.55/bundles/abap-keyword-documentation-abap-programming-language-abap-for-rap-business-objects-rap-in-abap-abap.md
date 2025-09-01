@@ -3,40 +3,7 @@
 Included pages: 21
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abeneml.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm)
-- [abeneml_modify_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm)
-- [abeneml_modify_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entity.htm)
-- [abeneml_modify_entities_op.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities_op.htm)
-- [abenread_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenread_behavior.htm)
-- [abeneml_read_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entity.htm)
-- [abeneml_read_entities_op.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entities_op.htm)
-- [abeneml_commit_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_entities.htm)
-- [abeneml_commit_dynamic.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_dynamic.htm)
-- [abeneml_commit_block.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_block.htm)
-- [abenconvert_key.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconvert_key.htm)
-- [abeneml_rollback_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_rollback_entities.htm)
-- [abeneml_set_locks.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks.htm)
-- [abeneml_set_locks_dyn.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks_dyn.htm)
-- [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features.htm)
-- [abeneml_get_features_dyn.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features_dyn.htm)
-
-**Bundle Contains**: 16 documentation pages
-**Version**: ABAP 7.55
-**Generated**: 2025-09-01T11:25:45.719Z
-
----
-
 ### abeneml.htm
-
-> **📖 Official SAP Documentation**: [abeneml.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -44,52 +11,45 @@ Included pages: 21
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) → 
 
 ABAP Entity Manipulation Language
 
 \* Work in progress \*
 
-Entity Manipulation Language (or EML for short) is a set of ABAP statements for manipulating the [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") that are granted a behavior by the [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry"). EML statements allow:
+Entity Manipulation Language (or EML for short) is a set of ABAP statements for manipulating the [CDS entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry") that are granted a behavior by the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry"). EML statements allow:
 
 -   Modifying operations on CDS entities.
-    For this purpose, the statement MODIFY ENTITIES is available in different variants, which reference one or more entities of a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"), statically or dynamically: [MODIFY ENTITIES](javascript:call_link\('abeneml_modify_entities.htm'\)), [MODIFY ENTITY](javascript:call_link\('abeneml_modify_entity.htm'\)) and [MODIFY ENTITIES OPERATIONS](javascript:call_link\('abeneml_modify_entities_op.htm'\)).
+    For this purpose, the statement MODIFY ENTITIES is available in different variants, which reference one or more entities of a [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry"), statically or dynamically: [MODIFY ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm), [MODIFY ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entity.htm) and [MODIFY ENTITIES OPERATIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities_op.htm).
 
 -   Read operations on CDS entities.
-    For this purpose, the statement READ ENTITIES is available in different variants, which reference one or more entities of a business object, statically or dynamically: [READ ENTITIES](javascript:call_link\('abenread_behavior.htm'\)), [READ ENTITY](javascript:call_link\('abeneml_read_entity.htm'\)) and [READ ENTITIES OPERATIONS](javascript:call_link\('abeneml_read_entities_op.htm'\)).
+    For this purpose, the statement READ ENTITIES is available in different variants, which reference one or more entities of a business object, statically or dynamically: [READ ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenread_behavior.htm), [READ ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entity.htm) and [READ ENTITIES OPERATIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entities_op.htm).
 
 -   Triggering the saver sequence.
-    For this purpose the statement [COMMIT ENTITIES](javascript:call_link\('abeneml_commit_entities.htm'\)) is available in different variants: COMMIT ENTITIES and COMMIT ENTITIES RESPONSES.
+    For this purpose the statement [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_entities.htm) is available in different variants: COMMIT ENTITIES and COMMIT ENTITIES RESPONSES.
 
--   Handling the result of the [adjust\_numbers](javascript:call_link\('abensaver_adjust_numbers.htm'\)) method.
-    For this purpose there is the block-constructing variant of COMMIT ENTITIES and the [CONVERT KEY](javascript:call_link\('abenconvert_key.htm'\)) statement.
+-   Handling the result of the [adjust\_numbers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_adjust_numbers.htm) method.
+    For this purpose there is the block-constructing variant of COMMIT ENTITIES and the [CONVERT KEY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconvert_key.htm) statement.
 
 -   Rolling back all changes since the last COMMIT.
-    For this purpose there is the [ROLLBACK ENTITIES](javascript:call_link\('abeneml_rollback_entities.htm'\)) statement.
+    For this purpose there is the [ROLLBACK ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_rollback_entities.htm) statement.
 
 -   Explicit locking of instances for a following modification.
-    For this purpose the statement [SET LOCKS](javascript:call_link\('abeneml_set_locks.htm'\)) is available in different variants: SET LOCKS OF and SET LOCKS ENTITY.
+    For this purpose the statement [SET LOCKS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks.htm) is available in different variants: SET LOCKS OF and SET LOCKS ENTITY.
 
 If the IMPORT table is empty, the method is not called.
 
 Continue
-[ABAP EML - MODIFY ENTITIES](javascript:call_link\('abeneml_modify_entities.htm'\))
-[ABAP EML - READ ENTITIES](javascript:call_link\('abenread_behavior.htm'\))
-[ABAP EML - COMMIT ENTITIES](javascript:call_link\('abeneml_commit_entities.htm'\))
-[ABAP EML - CONVERT KEY](javascript:call_link\('abenconvert_key.htm'\))
-[ABAP EML - ROLLBACK ENTITIES](javascript:call_link\('abeneml_rollback_entities.htm'\))
-[ABAP EML - SET LOCKS](javascript:call_link\('abeneml_set_locks.htm'\))
-[ABAP EML - GET FEATURES](javascript:call_link\('abeneml_get_features.htm'\))
+[ABAP EML - MODIFY ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm)
+[ABAP EML - READ ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenread_behavior.htm)
+[ABAP EML - COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_entities.htm)
+[ABAP EML - CONVERT KEY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconvert_key.htm)
+[ABAP EML - ROLLBACK ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_rollback_entities.htm)
+[ABAP EML - SET LOCKS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks.htm)
+[ABAP EML - GET FEATURES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features.htm)
 
-
-
-**📖 Source**: [abeneml.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm)
 
 ### abeneml_modify_entities.htm
-
-> **📖 Official SAP Documentation**: [abeneml_modify_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -97,7 +57,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) → 
 
 ABAP EML - MODIFY ENTITIES
 
@@ -123,50 +83,43 @@ Effect
 
 EML is ABAP.
 
-The [EML](javascript:call_link\('abeneml.htm'\)) statement MODIFY ENTITIES enables change operations to be made to the [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"). It can have a long, short, or dynamic form.
+The [EML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) statement MODIFY ENTITIES enables change operations to be made to the [CDS entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry"). It can have a long, short, or dynamic form.
 
 -   The long form, MODIFY ENTITIES, makes it possible to group multiple operations in multiple entities of a business object.
 
--   The short form [MODIFY ENTITY](javascript:call_link\('abeneml_modify_entity.htm'\)) is intended for the special case where only a single entity is operated on.
+-   The short form [MODIFY ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entity.htm) is intended for the special case where only a single entity is operated on.
 
--   The dynamic form [MODIFY ENTITIES OPERATIONS](javascript:call_link\('abeneml_modify_entities_op.htm'\)) makes it possible to merge operations in multiple business objects in one MODIFY statement. There is no dynamic short form.
+-   The dynamic form [MODIFY ENTITIES OPERATIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities_op.htm) makes it possible to merge operations in multiple business objects in one MODIFY statement. There is no dynamic short form.
 
 The following points apply for the syntax of the statement MODIFY ENTITIES:
 
--   The name of the business object (the same as the name of the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry")) root\_name is specified after OF. This is followed by a list of the operations, grouped by the entity (the schema):
+-   The name of the business object (the same as the name of the [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry")) root\_name is specified after OF. This is followed by a list of the operations, grouped by the entity (the schema):
     ENTITY entity\_name operation *\[*operation ...*\]*
 
 -   Grouping operations by entity is not mandatory, since ENTITY entity\_name can be repeated. The same combination of entity\_name and operation, however, cannot occur more than once.
 
--   The [alias](javascript:call_link\('abenbdl_alias.htm'\)) of the entity should be used as entity\_name, if one is defined in the behavior definition . The original name of the entity can also be used instead of the alias, but this produces a warning.
+-   The [alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm) of the entity should be used as entity\_name, if one is defined in the behavior definition . The original name of the entity can also be used instead of the alias, but this produces a warning.
 
--   The input of each operation is a table of instances (or a table from [%CID](javascript:call_link\('abencomponents_derived_types.htm'\)) in the case of static actions) specified after FROM.
+-   The input of each operation is a table of instances (or a table from [%CID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm) in the case of static actions) specified after FROM.
 
--   For [actions](javascript:call_link\('abenbdl_action.htm'\)) that produce a result (in accordance with the [behavior definition](javascript:call_link\('abencds_behavior_definitions.htm'\))), RESULT ... can be used to specify a target variable it\_result\_a or declare it inline (for example, RESULT DATA(it\_result\_a)).
+-   For [actions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm) that produce a result (in accordance with the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm)), RESULT ... can be used to specify a target variable it\_result\_a or declare it inline (for example, RESULT DATA(it\_result\_a)).
 
 The following applies to the response variables:
 
--   The response variables are structures with n components (one component per entity in the business object) that are specified for the derived type of the [output parameter](javascript:call_link\('abenrpm_export_parameters.htm'\)).
+-   The response variables are structures with n components (one component per entity in the business object) that are specified for the derived type of the [output parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_export_parameters.htm).
 
 -   They must either have the matching type (for example, FAILED it\_failed) or be declared inline (for example, FAILED DATA(it\_failed)).
 
 -   Up to three response variables can be specified to hold response information: FAILED, MAPPED, and REPORTED.
 
--   These are the early response types (without the addition [LATE](javascript:call_link\('abenbdl_late_numbering.htm'\))). The instances are identified using the keys valid in the modifying phase.
+-   These are the early response types (without the addition [LATE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm)). The instances are identified using the keys valid in the modifying phase.
 
 Continue
-[ABAP EML - MODIFY ENTITY](javascript:call_link\('abeneml_modify_entity.htm'\))
-[ABAP EML - MODIFY ENTITIES OPERATIONS](javascript:call_link\('abeneml_modify_entities_op.htm'\))
+[ABAP EML - MODIFY ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entity.htm)
+[ABAP EML - MODIFY ENTITIES OPERATIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities_op.htm)
 
-
-
-**📖 Source**: [abeneml_modify_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm)
 
 ### abeneml_modify_entity.htm
-
-> **📖 Official SAP Documentation**: [abeneml_modify_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -174,7 +127,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - MODIFY ENTITIES](javascript:call_link\('abeneml_modify_entities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) →  [ABAP EML - MODIFY ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm) → 
 
 ABAP EML - MODIFY ENTITY
 
@@ -196,7 +149,7 @@ MODIFY
 
 Effect
 
-The short form MODIFY ENTITY is intended for the special case where only a single entity is operated on. In this case, access via the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") (the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") root\_name) is not necessary.
+The short form MODIFY ENTITY is intended for the special case where only a single entity is operated on. In this case, access via the [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") (the [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry") root\_name) is not necessary.
 
 The following points apply for the syntax of the statement MODIFY ENTITY:
 
@@ -209,17 +162,10 @@ The following points apply for the syntax of the statement MODIFY ENTITY:
            operation
           *\[*operation ...*\]*
 
-For more information on syntax elements, see [MODIFY ENTITIES](javascript:call_link\('abeneml_modify_entities.htm'\)).
+For more information on syntax elements, see [MODIFY ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm).
 
-
-
-**📖 Source**: [abeneml_modify_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entity.htm)
 
 ### abeneml_modify_entities_op.htm
-
-> **📖 Official SAP Documentation**: [abeneml_modify_entities_op.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities_op.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -227,7 +173,7 @@ For more information on syntax elements, see [MODIFY ENTITIES](javascript:call_l
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - MODIFY ENTITIES](javascript:call_link\('abeneml_modify_entities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) →  [ABAP EML - MODIFY ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm) → 
 
 ABAP EML - MODIFY ENTITIES OPERATIONS
 
@@ -243,7 +189,7 @@ MODIFY ENTITIES
 
 Effect
 
-The dynamic form MODIFY ENTITIES OPERATIONS does not specify an introductory name of the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") (OF root\_name). It allows to merge operations on multiple business objects in a statement.
+The dynamic form MODIFY ENTITIES OPERATIONS does not specify an introductory name of the [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") (OF root\_name). It allows to merge operations on multiple business objects in a statement.
 
 The line type of an operation operation has the type ABP\_BEHV\_CHANGES\_TAB and consists of following fields:
 
@@ -272,14 +218,7 @@ The response structures FAILED, MAPPED and REPORTED must either have the matchin
     REF TO DATA contains the same derived types during runtime as in static cases.
 
 
-
-**📖 Source**: [abeneml_modify_entities_op.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities_op.htm)
-
 ### abeneml_modify_entities.htm
-
-> **📖 Official SAP Documentation**: [abeneml_modify_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -287,7 +226,7 @@ The response structures FAILED, MAPPED and REPORTED must either have the matchin
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) → 
 
 ABAP EML - MODIFY ENTITIES
 
@@ -313,50 +252,43 @@ Effect
 
 EML is ABAP.
 
-The [EML](javascript:call_link\('abeneml.htm'\)) statement MODIFY ENTITIES enables change operations to be made to the [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"). It can have a long, short, or dynamic form.
+The [EML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) statement MODIFY ENTITIES enables change operations to be made to the [CDS entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry"). It can have a long, short, or dynamic form.
 
 -   The long form, MODIFY ENTITIES, makes it possible to group multiple operations in multiple entities of a business object.
 
--   The short form [MODIFY ENTITY](javascript:call_link\('abeneml_modify_entity.htm'\)) is intended for the special case where only a single entity is operated on.
+-   The short form [MODIFY ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entity.htm) is intended for the special case where only a single entity is operated on.
 
--   The dynamic form [MODIFY ENTITIES OPERATIONS](javascript:call_link\('abeneml_modify_entities_op.htm'\)) makes it possible to merge operations in multiple business objects in one MODIFY statement. There is no dynamic short form.
+-   The dynamic form [MODIFY ENTITIES OPERATIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities_op.htm) makes it possible to merge operations in multiple business objects in one MODIFY statement. There is no dynamic short form.
 
 The following points apply for the syntax of the statement MODIFY ENTITIES:
 
--   The name of the business object (the same as the name of the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry")) root\_name is specified after OF. This is followed by a list of the operations, grouped by the entity (the schema):
+-   The name of the business object (the same as the name of the [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry")) root\_name is specified after OF. This is followed by a list of the operations, grouped by the entity (the schema):
     ENTITY entity\_name operation *\[*operation ...*\]*
 
 -   Grouping operations by entity is not mandatory, since ENTITY entity\_name can be repeated. The same combination of entity\_name and operation, however, cannot occur more than once.
 
--   The [alias](javascript:call_link\('abenbdl_alias.htm'\)) of the entity should be used as entity\_name, if one is defined in the behavior definition . The original name of the entity can also be used instead of the alias, but this produces a warning.
+-   The [alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm) of the entity should be used as entity\_name, if one is defined in the behavior definition . The original name of the entity can also be used instead of the alias, but this produces a warning.
 
--   The input of each operation is a table of instances (or a table from [%CID](javascript:call_link\('abencomponents_derived_types.htm'\)) in the case of static actions) specified after FROM.
+-   The input of each operation is a table of instances (or a table from [%CID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm) in the case of static actions) specified after FROM.
 
--   For [actions](javascript:call_link\('abenbdl_action.htm'\)) that produce a result (in accordance with the [behavior definition](javascript:call_link\('abencds_behavior_definitions.htm'\))), RESULT ... can be used to specify a target variable it\_result\_a or declare it inline (for example, RESULT DATA(it\_result\_a)).
+-   For [actions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm) that produce a result (in accordance with the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm)), RESULT ... can be used to specify a target variable it\_result\_a or declare it inline (for example, RESULT DATA(it\_result\_a)).
 
 The following applies to the response variables:
 
--   The response variables are structures with n components (one component per entity in the business object) that are specified for the derived type of the [output parameter](javascript:call_link\('abenrpm_export_parameters.htm'\)).
+-   The response variables are structures with n components (one component per entity in the business object) that are specified for the derived type of the [output parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_export_parameters.htm).
 
 -   They must either have the matching type (for example, FAILED it\_failed) or be declared inline (for example, FAILED DATA(it\_failed)).
 
 -   Up to three response variables can be specified to hold response information: FAILED, MAPPED, and REPORTED.
 
--   These are the early response types (without the addition [LATE](javascript:call_link\('abenbdl_late_numbering.htm'\))). The instances are identified using the keys valid in the modifying phase.
+-   These are the early response types (without the addition [LATE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm)). The instances are identified using the keys valid in the modifying phase.
 
 Continue
-[ABAP EML - MODIFY ENTITY](javascript:call_link\('abeneml_modify_entity.htm'\))
-[ABAP EML - MODIFY ENTITIES OPERATIONS](javascript:call_link\('abeneml_modify_entities_op.htm'\))
+[ABAP EML - MODIFY ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entity.htm)
+[ABAP EML - MODIFY ENTITIES OPERATIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities_op.htm)
 
-
-
-**📖 Source**: [abeneml_modify_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm)
 
 ### abenread_behavior.htm
-
-> **📖 Official SAP Documentation**: [abenread_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenread_behavior.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -364,7 +296,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) → 
 
 ABAP EML - READ ENTITIES
 
@@ -389,17 +321,17 @@ READ ENTITIES OF root\_name
 
 Effect
 
-The [EML](javascript:call_link\('abeneml.htm'\)) statement READ ENTITIES enables read operations to be made to the [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"). It can have a long, short, or dynamic form.
+The [EML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) statement READ ENTITIES enables read operations to be made to the [CDS entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry"). It can have a long, short, or dynamic form.
 
 -   The long form, READ ENTITIES, makes it possible to group multiple operations in multiple entities of a business object.
 
--   The short form [READ ENTITY](javascript:call_link\('abeneml_read_entity.htm'\)) is intended for the special case where only a single entity is operated on.
+-   The short form [READ ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entity.htm) is intended for the special case where only a single entity is operated on.
 
--   The dynamic form [READ ENTITIES OPERATIONS](javascript:call_link\('abeneml_read_entities_op.htm'\)) makes it possible to merge operations in multiple [RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") in one statement. There is no dynamic short form.
+-   The dynamic form [READ ENTITIES OPERATIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entities_op.htm) makes it possible to merge operations in multiple [RAP business objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") in one statement. There is no dynamic short form.
 
 The following points apply for the syntax of the statement READ ENTITIES:
 
--   The name of the business object (the same as the name of the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry")) root\_name is specified after OF.
+-   The name of the business object (the same as the name of the [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry")) root\_name is specified after OF.
 
 -   This is followed by the list of the operations, grouped by entity (schema):
         ENTITY entity\_name
@@ -407,9 +339,9 @@ The following points apply for the syntax of the statement READ ENTITIES:
           *\[*operation ...*\]*
     Grouping operations by entity is not mandatory, since ENTITY entity\_name can be repeated. The same combination of entity\_name and operation, however, cannot occur more than once.
 
--   The [alias](javascript:call_link\('abenbdl_alias.htm'\)) of the entity should be used as entity\_name, if one is defined in the [behavior definition](javascript:call_link\('abencds_behavior_definitions.htm'\)). The original name of the entity can also be used instead of the alias, but this produces a warning.
+-   The [alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm) of the entity should be used as entity\_name, if one is defined in the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm). The original name of the entity can also be used instead of the alias, but this produces a warning.
 
--   The simple READ ENTITIES statement does not have its own keyword (such as CREATE in [MODIFY ENTITIES](javascript:call_link\('abeneml_modify_entities.htm'\))), rather it starts directly with FROM it\_instance.
+-   The simple READ ENTITIES statement does not have its own keyword (such as CREATE in [MODIFY ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm)), rather it starts directly with FROM it\_instance.
 
 -   READ ENTITIES statements always have the addition RESULT, since the result of the read must be specified.
 
@@ -430,18 +362,11 @@ The following applies for the response variables:
 -   The response variables must either have the matching type or be declared inline (for example, FAILED DATA(it\_failed)). These are the early response types (without the addition LATE). The instances are identified using the keys valid in the interaction phase.
 
 Continue
-[ABAP EML - READ ENTITY](javascript:call_link\('abeneml_read_entity.htm'\))
-[ABAP EML - READ ENTITIES OPERATIONS](javascript:call_link\('abeneml_read_entities_op.htm'\))
+[ABAP EML - READ ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entity.htm)
+[ABAP EML - READ ENTITIES OPERATIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entities_op.htm)
 
-
-
-**📖 Source**: [abenread_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenread_behavior.htm)
 
 ### abeneml_read_entity.htm
-
-> **📖 Official SAP Documentation**: [abeneml_read_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -449,7 +374,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - READ ENTITIES](javascript:call_link\('abenread_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) →  [ABAP EML - READ ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenread_behavior.htm) → 
 
 ABAP EML - READ ENTITY
 
@@ -472,30 +397,23 @@ READ
 
 Effect
 
-The short form READ ENTITY is intended for the special case where only a single entity is operated on. In this case, access using the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") (the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") root\_name) would not be necessary.
+The short form READ ENTITY is intended for the special case where only a single entity is operated on. In this case, access using the [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") (the [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry") root\_name) would not be necessary.
 
 The following points apply for the syntax of the statement READ ENTITY:
 
 -   The ENTITY entity\_name is specified once.
 
--   An [alias](javascript:call_link\('abenbdl_alias.htm'\)) of the entity cannot be used since no context of the business object is known.
+-   An [alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm) of the entity cannot be used since no context of the business object is known.
 
 -   This is followed by a list of operations on the entity according to the schema:
         ENTITY entity\_name
             operation
            *\[*operation ...*\]*
 
-For more information on syntax elements, see [READ ENTITIES](javascript:call_link\('abenread_behavior.htm'\)).
+For more information on syntax elements, see [READ ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenread_behavior.htm).
 
-
-
-**📖 Source**: [abeneml_read_entity.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entity.htm)
 
 ### abeneml_read_entities_op.htm
-
-> **📖 Official SAP Documentation**: [abeneml_read_entities_op.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entities_op.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -503,7 +421,7 @@ For more information on syntax elements, see [READ ENTITIES](javascript:call_lin
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - READ ENTITIES](javascript:call_link\('abenread_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) →  [ABAP EML - READ ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenread_behavior.htm) → 
 
 ABAP EML - READ ENTITIES OPERATIONS
 
@@ -518,7 +436,7 @@ READ ENTITIES
 
 Effect
 
-The dynamic form READ ENTITIES OPERATIONS does not specify an introductory name of the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") (OF root\_name). It allows to merge operations on multiple business objects in a statement.
+The dynamic form READ ENTITIES OPERATIONS does not specify an introductory name of the [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") (OF root\_name). It allows to merge operations on multiple business objects in a statement.
 
 The table type of an operation operation has the type ABP\_BEHV\_RETRIEVALS\_TAB and consists of following fields:
 
@@ -554,14 +472,7 @@ The line type of the response structures FAILED and REPORTED has the type ABP\_B
 During runtime, REF TO DATA contain the same derived types as in static cases.
 
 
-
-**📖 Source**: [abeneml_read_entities_op.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entities_op.htm)
-
 ### abenread_behavior.htm
-
-> **📖 Official SAP Documentation**: [abenread_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenread_behavior.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -569,7 +480,7 @@ During runtime, REF TO DATA contain the same derived types as in static cases.
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) → 
 
 ABAP EML - READ ENTITIES
 
@@ -594,17 +505,17 @@ READ ENTITIES OF root\_name
 
 Effect
 
-The [EML](javascript:call_link\('abeneml.htm'\)) statement READ ENTITIES enables read operations to be made to the [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"). It can have a long, short, or dynamic form.
+The [EML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) statement READ ENTITIES enables read operations to be made to the [CDS entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry"). It can have a long, short, or dynamic form.
 
 -   The long form, READ ENTITIES, makes it possible to group multiple operations in multiple entities of a business object.
 
--   The short form [READ ENTITY](javascript:call_link\('abeneml_read_entity.htm'\)) is intended for the special case where only a single entity is operated on.
+-   The short form [READ ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entity.htm) is intended for the special case where only a single entity is operated on.
 
--   The dynamic form [READ ENTITIES OPERATIONS](javascript:call_link\('abeneml_read_entities_op.htm'\)) makes it possible to merge operations in multiple [RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") in one statement. There is no dynamic short form.
+-   The dynamic form [READ ENTITIES OPERATIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entities_op.htm) makes it possible to merge operations in multiple [RAP business objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") in one statement. There is no dynamic short form.
 
 The following points apply for the syntax of the statement READ ENTITIES:
 
--   The name of the business object (the same as the name of the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry")) root\_name is specified after OF.
+-   The name of the business object (the same as the name of the [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry")) root\_name is specified after OF.
 
 -   This is followed by the list of the operations, grouped by entity (schema):
         ENTITY entity\_name
@@ -612,9 +523,9 @@ The following points apply for the syntax of the statement READ ENTITIES:
           *\[*operation ...*\]*
     Grouping operations by entity is not mandatory, since ENTITY entity\_name can be repeated. The same combination of entity\_name and operation, however, cannot occur more than once.
 
--   The [alias](javascript:call_link\('abenbdl_alias.htm'\)) of the entity should be used as entity\_name, if one is defined in the [behavior definition](javascript:call_link\('abencds_behavior_definitions.htm'\)). The original name of the entity can also be used instead of the alias, but this produces a warning.
+-   The [alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm) of the entity should be used as entity\_name, if one is defined in the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm). The original name of the entity can also be used instead of the alias, but this produces a warning.
 
--   The simple READ ENTITIES statement does not have its own keyword (such as CREATE in [MODIFY ENTITIES](javascript:call_link\('abeneml_modify_entities.htm'\))), rather it starts directly with FROM it\_instance.
+-   The simple READ ENTITIES statement does not have its own keyword (such as CREATE in [MODIFY ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm)), rather it starts directly with FROM it\_instance.
 
 -   READ ENTITIES statements always have the addition RESULT, since the result of the read must be specified.
 
@@ -635,18 +546,11 @@ The following applies for the response variables:
 -   The response variables must either have the matching type or be declared inline (for example, FAILED DATA(it\_failed)). These are the early response types (without the addition LATE). The instances are identified using the keys valid in the interaction phase.
 
 Continue
-[ABAP EML - READ ENTITY](javascript:call_link\('abeneml_read_entity.htm'\))
-[ABAP EML - READ ENTITIES OPERATIONS](javascript:call_link\('abeneml_read_entities_op.htm'\))
+[ABAP EML - READ ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entity.htm)
+[ABAP EML - READ ENTITIES OPERATIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_read_entities_op.htm)
 
-
-
-**📖 Source**: [abenread_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenread_behavior.htm)
 
 ### abeneml_commit_entities.htm
-
-> **📖 Official SAP Documentation**: [abeneml_commit_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -654,7 +558,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) → 
 
 ABAP EML - COMMIT ENTITIES
 
@@ -672,15 +576,15 @@ COMMIT ENTITIES
 
 Effect
 
-If MODIFY statements are not executed within a [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") and are executed by an ABAP report instead, they would be ignored by the database at first. This is because they are applied only to the transactional buffer (by definition) and the buffer content disappears at the end of the ABAP session. This means the save sequence must be triggered in this scenario. The statement COMMIT ENTITIES is used to do this.
+If MODIFY statements are not executed within a [behavior pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") and are executed by an ABAP report instead, they would be ignored by the database at first. This is because they are applied only to the transactional buffer (by definition) and the buffer content disappears at the end of the ABAP session. This means the save sequence must be triggered in this scenario. The statement COMMIT ENTITIES is used to do this.
 
-The statement COMMIT ENTITIES saves all [RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") that are changed within the [LUW](javascript:call_link\('abenluw_glosry.htm'\) "Glossary Entry").
+The statement COMMIT ENTITIES saves all [RAP business objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") that are changed within the [LUW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenluw_glosry.htm "Glossary Entry").
 
 In its simplest form, the statement COMMIT ENTITIES does not have any parameters.
 
-RESPONSE can be used to obtain the response information of one or more business objects manipulated previously using [MODIFY](javascript:call_link\('abeneml_modify_entities.htm'\)). A RESPONSE clause is then created for each root entity involved (root\_name\_1, root\_name\_2, ...):
+RESPONSE can be used to obtain the response information of one or more business objects manipulated previously using [MODIFY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm). A RESPONSE clause is then created for each root entity involved (root\_name\_1, root\_name\_2, ...):
 
-The response variables are structures with n component (one component for each entity in the business object). Up to two variables can be specified for holding the response information for each [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") in question. FAILED and REPORTED. There are no key assignments in the statement COMMIT, which is why the response structure MAPPED is not used. The response variables must either have the matching type (for example, FAILED it\_failed) or be declared inline (for example, FAILED DATA(it\_failed)). These are the late response types: Instances are identified using the keys valid in the save phase.
+The response variables are structures with n component (one component for each entity in the business object). Up to two variables can be specified for holding the response information for each [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry") in question. FAILED and REPORTED. There are no key assignments in the statement COMMIT, which is why the response structure MAPPED is not used. The response variables must either have the matching type (for example, FAILED it\_failed) or be declared inline (for example, FAILED DATA(it\_failed)). These are the late response types: Instances are identified using the keys valid in the save phase.
 
 The line type of the response structures FAILED and REPORTED has the type ABP\_BEHV\_RESPONSE\_TAB and consists of the following fields:
 
@@ -695,21 +599,14 @@ Statement successful if sy-subrc is 0. It is not enough to evaluate the result o
 
 Note
 
-Within a [behavior implementation](javascript:call_link\('abenabap_behavior_pools.htm'\)), COMMIT ENTITIES is one of the forbidden statements. This restriction is also checked dynamically. If violated, the runtime error BEHAVIOR\_ILLEGAL\_STATEMENT occurs.
+Within a [behavior implementation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm), COMMIT ENTITIES is one of the forbidden statements. This restriction is also checked dynamically. If violated, the runtime error BEHAVIOR\_ILLEGAL\_STATEMENT occurs.
 
 Continue
-[ABAP EML - COMMIT ENTITIES RESPONSES](javascript:call_link\('abeneml_commit_dynamic.htm'\))
-[ABAP EML - COMMIT ENTITIES BLOCK](javascript:call_link\('abeneml_commit_block.htm'\))
+[ABAP EML - COMMIT ENTITIES RESPONSES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_dynamic.htm)
+[ABAP EML - COMMIT ENTITIES BLOCK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_block.htm)
 
-
-
-**📖 Source**: [abeneml_commit_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_entities.htm)
 
 ### abeneml_commit_dynamic.htm
-
-> **📖 Official SAP Documentation**: [abeneml_commit_dynamic.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_dynamic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -717,7 +614,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - COMMIT ENTITIES](javascript:call_link\('abeneml_commit_entities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) →  [ABAP EML - COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_entities.htm) → 
 
 ABAP EML - COMMIT ENTITIES RESPONSES
 
@@ -734,17 +631,10 @@ Effect
 
 The statement COMMIT ENTITIES RESPONSES is a dynamic form of the COMMIT statement. The table root\_names can be used to restrict which business objects are given the response information in FAILED and REPORTED. If not used, all information accumulated in the save phase is passed.
 
-More information about COMMIT ENTITIES can be found under [COMMIT ENTITIES](javascript:call_link\('abeneml_commit_entities.htm'\)).
+More information about COMMIT ENTITIES can be found under [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_entities.htm).
 
-
-
-**📖 Source**: [abeneml_commit_dynamic.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_dynamic.htm)
 
 ### abeneml_commit_block.htm
-
-> **📖 Official SAP Documentation**: [abeneml_commit_block.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_block.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -752,7 +642,7 @@ More information about COMMIT ENTITIES can be found under [COMMIT ENTITIES](java
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - COMMIT ENTITIES](javascript:call_link\('abeneml_commit_entities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) →  [ABAP EML - COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_entities.htm) → 
 
 ABAP EML - COMMIT ENTITIES BLOCK
 
@@ -769,17 +659,10 @@ COMMIT ENTITIES END.
 
 Effect
 
-In the context of the statement [COMMIT ENTITIES](javascript:call_link\('abeneml_commit_entities.htm'\)), the runtime of [ABAP RAP](javascript:call_link\('abenabap_rap_glosry.htm'\) "Glossary Entry") holds its key registry to respond to queries from the statement [CONVERT KEY](javascript:call_link\('abenconvert_key.htm'\)). In the statement COMMIT ENTITIES END, this information is then deleted.
+In the context of the statement [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_entities.htm), the runtime of [ABAP RAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_rap_glosry.htm "Glossary Entry") holds its key registry to respond to queries from the statement [CONVERT KEY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconvert_key.htm). In the statement COMMIT ENTITIES END, this information is then deleted.
 
-
-
-**📖 Source**: [abeneml_commit_block.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_block.htm)
 
 ### abeneml_commit_entities.htm
-
-> **📖 Official SAP Documentation**: [abeneml_commit_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -787,7 +670,7 @@ In the context of the statement [COMMIT ENTITIES](javascript:call_link\('abeneml
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) → 
 
 ABAP EML - COMMIT ENTITIES
 
@@ -805,15 +688,15 @@ COMMIT ENTITIES
 
 Effect
 
-If MODIFY statements are not executed within a [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") and are executed by an ABAP report instead, they would be ignored by the database at first. This is because they are applied only to the transactional buffer (by definition) and the buffer content disappears at the end of the ABAP session. This means the save sequence must be triggered in this scenario. The statement COMMIT ENTITIES is used to do this.
+If MODIFY statements are not executed within a [behavior pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") and are executed by an ABAP report instead, they would be ignored by the database at first. This is because they are applied only to the transactional buffer (by definition) and the buffer content disappears at the end of the ABAP session. This means the save sequence must be triggered in this scenario. The statement COMMIT ENTITIES is used to do this.
 
-The statement COMMIT ENTITIES saves all [RAP business objects](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") that are changed within the [LUW](javascript:call_link\('abenluw_glosry.htm'\) "Glossary Entry").
+The statement COMMIT ENTITIES saves all [RAP business objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") that are changed within the [LUW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenluw_glosry.htm "Glossary Entry").
 
 In its simplest form, the statement COMMIT ENTITIES does not have any parameters.
 
-RESPONSE can be used to obtain the response information of one or more business objects manipulated previously using [MODIFY](javascript:call_link\('abeneml_modify_entities.htm'\)). A RESPONSE clause is then created for each root entity involved (root\_name\_1, root\_name\_2, ...):
+RESPONSE can be used to obtain the response information of one or more business objects manipulated previously using [MODIFY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_modify_entities.htm). A RESPONSE clause is then created for each root entity involved (root\_name\_1, root\_name\_2, ...):
 
-The response variables are structures with n component (one component for each entity in the business object). Up to two variables can be specified for holding the response information for each [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") in question. FAILED and REPORTED. There are no key assignments in the statement COMMIT, which is why the response structure MAPPED is not used. The response variables must either have the matching type (for example, FAILED it\_failed) or be declared inline (for example, FAILED DATA(it\_failed)). These are the late response types: Instances are identified using the keys valid in the save phase.
+The response variables are structures with n component (one component for each entity in the business object). Up to two variables can be specified for holding the response information for each [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry") in question. FAILED and REPORTED. There are no key assignments in the statement COMMIT, which is why the response structure MAPPED is not used. The response variables must either have the matching type (for example, FAILED it\_failed) or be declared inline (for example, FAILED DATA(it\_failed)). These are the late response types: Instances are identified using the keys valid in the save phase.
 
 The line type of the response structures FAILED and REPORTED has the type ABP\_BEHV\_RESPONSE\_TAB and consists of the following fields:
 
@@ -828,21 +711,14 @@ Statement successful if sy-subrc is 0. It is not enough to evaluate the result o
 
 Note
 
-Within a [behavior implementation](javascript:call_link\('abenabap_behavior_pools.htm'\)), COMMIT ENTITIES is one of the forbidden statements. This restriction is also checked dynamically. If violated, the runtime error BEHAVIOR\_ILLEGAL\_STATEMENT occurs.
+Within a [behavior implementation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm), COMMIT ENTITIES is one of the forbidden statements. This restriction is also checked dynamically. If violated, the runtime error BEHAVIOR\_ILLEGAL\_STATEMENT occurs.
 
 Continue
-[ABAP EML - COMMIT ENTITIES RESPONSES](javascript:call_link\('abeneml_commit_dynamic.htm'\))
-[ABAP EML - COMMIT ENTITIES BLOCK](javascript:call_link\('abeneml_commit_block.htm'\))
+[ABAP EML - COMMIT ENTITIES RESPONSES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_dynamic.htm)
+[ABAP EML - COMMIT ENTITIES BLOCK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_block.htm)
 
-
-
-**📖 Source**: [abeneml_commit_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_entities.htm)
 
 ### abenconvert_key.htm
-
-> **📖 Official SAP Documentation**: [abenconvert_key.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconvert_key.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -850,7 +726,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) → 
 
 ABAP EML - CONVERT KEY
 
@@ -867,27 +743,20 @@ COMMIT ENTITIES END.
 
 Effect
 
-For entities with [late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\)), the statement [MODIFY](javascript:call_link\('abenhandler_method_modify.htm'\)) provides only temporary keys. For these temporary keys, a successful save method draws finalized keys. If, for example, the keys of new instances are passed to a HTTP response, they must be the finalized values and not the temporary values from the MODIFY phase. The statement CONVERT KEY is used for this.
+For entities with [late numbering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm), the statement [MODIFY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_modify.htm) provides only temporary keys. For these temporary keys, a successful save method draws finalized keys. If, for example, the keys of new instances are passed to a HTTP response, they must be the finalized values and not the temporary values from the MODIFY phase. The statement CONVERT KEY is used for this.
 
-The statement CONVERT KEY may only be used in the context of a block-constructing variant of the statement [COMMIT ENTITIES](javascript:call_link\('abeneml_commit_block.htm'\)) to determine the finalized value of a temporary key. In the context of the statement COMMIT ENTITIES, the runtime of [ABAP RAP](javascript:call_link\('abenabap_rap_glosry.htm'\) "Glossary Entry") holds its key registry to respond to queries from the statement CONVERT KEY. In the statement COMMIT ENTITIES END, this information is then deleted.
+The statement CONVERT KEY may only be used in the context of a block-constructing variant of the statement [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_commit_block.htm) to determine the finalized value of a temporary key. In the context of the statement COMMIT ENTITIES, the runtime of [ABAP RAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_rap_glosry.htm "Glossary Entry") holds its key registry to respond to queries from the statement CONVERT KEY. In the statement COMMIT ENTITIES END, this information is then deleted.
 
 In its dynamic form, the statement CONVERT KEY is passed the name of the entity and does not perform a static type check.
 
 Remarks
 
--   Unlike the other [EML](javascript:call_link\('abeneml.htm'\)) statements, CONVERT KEY does not operate on tables. This is because the consumer typically iterates across the consumer's own data and needs to fill specific columns. The preceding extraction of all pre\_key, following by a mass conversion and insertion of keys in the target table would be more time-consuming and use more resources than repeating the direct individual operation.
+-   Unlike the other [EML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) statements, CONVERT KEY does not operate on tables. This is because the consumer typically iterates across the consumer's own data and needs to fill specific columns. The preceding extraction of all pre\_key, following by a mass conversion and insertion of keys in the target table would be more time-consuming and use more resources than repeating the direct individual operation.
 
--   Within a [behavior implementation](javascript:call_link\('abenabap_behavior_pools.htm'\)), the statement CONVERT KEY is allowed only in the [SAVE](javascript:call_link\('abensaver_method_save.htm'\)) method. If this rule is violated, the runtime error BEHAVIOR\_ILLEGAL\_STATEMENT occurs.
+-   Within a [behavior implementation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm), the statement CONVERT KEY is allowed only in the [SAVE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_method_save.htm) method. If this rule is violated, the runtime error BEHAVIOR\_ILLEGAL\_STATEMENT occurs.
 
-
-
-**📖 Source**: [abenconvert_key.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconvert_key.htm)
 
 ### abeneml_rollback_entities.htm
-
-> **📖 Official SAP Documentation**: [abeneml_rollback_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_rollback_entities.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -895,7 +764,7 @@ Remarks
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) → 
 
 ABAP EML - ROLLBACK ENTITIES
 
@@ -909,17 +778,10 @@ Effect
 
 The statement ROLLBACK ENTITIES rolls back all changes since the last COMMIT and resets the transactional buffer..
 
-Using the statement ROLLBACK ENTITIES is prohibited in the [behavior implementation methods](javascript:call_link\('abenabap_behavior_pools.htm'\)). If violated, a runtime error occurs.
+Using the statement ROLLBACK ENTITIES is prohibited in the [behavior implementation methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm). If violated, a runtime error occurs.
 
-
-
-**📖 Source**: [abeneml_rollback_entities.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_rollback_entities.htm)
 
 ### abeneml_set_locks.htm
-
-> **📖 Official SAP Documentation**: [abeneml_set_locks.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -927,7 +789,7 @@ Using the statement ROLLBACK ENTITIES is prohibited in the [behavior implementat
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) → 
 
 ABAP EML - SET LOCKS
 
@@ -947,7 +809,7 @@ SET LOCKS
 
 Effect
 
-The explicit locking of instances for a following modification is not necessary since the framework automatically locks instances contained in the method [MODIFY](javascript:call_link\('abenhandler_method_modify.htm'\)). However, if the application knows that instances will be needed (that need to be protected so that users cannot change the same data simultaneously), the SET LOCKS statement can be used.
+The explicit locking of instances for a following modification is not necessary since the framework automatically locks instances contained in the method [MODIFY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_modify.htm). However, if the application knows that instances will be needed (that need to be protected so that users cannot change the same data simultaneously), the SET LOCKS statement can be used.
 
 Two types of the statement SET LOCKS are available:
 
@@ -955,20 +817,13 @@ Two types of the statement SET LOCKS are available:
 
 -   a short form SET LOCKS.
 
-The table types required here can be declared statically using the syntax TYPE ... TABLE FOR LOCK OF (see [Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\))).
+The table types required here can be declared statically using the syntax TYPE ... TABLE FOR LOCK OF (see [Derived Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm)).
 
 Continue
-[ABAP EML - SET LOCKS DYN](javascript:call_link\('abeneml_set_locks_dyn.htm'\))
+[ABAP EML - SET LOCKS DYN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks_dyn.htm)
 
-
-
-**📖 Source**: [abeneml_set_locks.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks.htm)
 
 ### abeneml_set_locks_dyn.htm
-
-> **📖 Official SAP Documentation**: [abeneml_set_locks_dyn.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks_dyn.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -976,21 +831,14 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - SET LOCKS](javascript:call_link\('abeneml_set_locks.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) →  [ABAP EML - SET LOCKS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks.htm) → 
 
 ABAP EML - SET LOCKS DYN
 
 \* Work in progress \*
 
 
-
-**📖 Source**: [abeneml_set_locks_dyn.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks_dyn.htm)
-
 ### abeneml_set_locks.htm
-
-> **📖 Official SAP Documentation**: [abeneml_set_locks.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -998,7 +846,7 @@ ABAP EML - SET LOCKS DYN
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) → 
 
 ABAP EML - SET LOCKS
 
@@ -1018,7 +866,7 @@ SET LOCKS
 
 Effect
 
-The explicit locking of instances for a following modification is not necessary since the framework automatically locks instances contained in the method [MODIFY](javascript:call_link\('abenhandler_method_modify.htm'\)). However, if the application knows that instances will be needed (that need to be protected so that users cannot change the same data simultaneously), the SET LOCKS statement can be used.
+The explicit locking of instances for a following modification is not necessary since the framework automatically locks instances contained in the method [MODIFY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_modify.htm). However, if the application knows that instances will be needed (that need to be protected so that users cannot change the same data simultaneously), the SET LOCKS statement can be used.
 
 Two types of the statement SET LOCKS are available:
 
@@ -1026,20 +874,13 @@ Two types of the statement SET LOCKS are available:
 
 -   a short form SET LOCKS.
 
-The table types required here can be declared statically using the syntax TYPE ... TABLE FOR LOCK OF (see [Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\))).
+The table types required here can be declared statically using the syntax TYPE ... TABLE FOR LOCK OF (see [Derived Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm)).
 
 Continue
-[ABAP EML - SET LOCKS DYN](javascript:call_link\('abeneml_set_locks_dyn.htm'\))
+[ABAP EML - SET LOCKS DYN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks_dyn.htm)
 
-
-
-**📖 Source**: [abeneml_set_locks.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_set_locks.htm)
 
 ### abeneml_get_features.htm
-
-> **📖 Official SAP Documentation**: [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1047,24 +888,17 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) → 
 
 ABAP EML - GET FEATURES
 
 \* Work in progress \*
 
 Continue
-[ABAP EML - GET FEATURES DYN](javascript:call_link\('abeneml_get_features_dyn.htm'\))
+[ABAP EML - GET FEATURES DYN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features_dyn.htm)
 
-
-
-**📖 Source**: [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features.htm)
 
 ### abeneml_get_features_dyn.htm
-
-> **📖 Official SAP Documentation**: [abeneml_get_features_dyn.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features_dyn.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1072,24 +906,14 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - GET FEATURES](javascript:call_link\('abeneml_get_features.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) →  [ABAP EML - GET FEATURES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features.htm) → 
 
 ABAP EML - GET FEATURES DYN
 
 \* Work in progress \*
 
 
-
-**📖 Source**: [abeneml_get_features_dyn.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features_dyn.htm)
-
 ### abeneml_get_features.htm
-
-> **📖 Official SAP Documentation**: [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abeneml_get_features.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features.htm)
-
 
   
 
@@ -1097,11 +921,11 @@ ABAP EML - GET FEATURES DYN
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) → 
 
 ABAP EML - GET FEATURES
 
 \* Work in progress \*
 
 Continue
-[ABAP EML - GET FEATURES DYN](javascript:call_link\('abeneml_get_features_dyn.htm'\))
+[ABAP EML - GET FEATURES DYN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml_get_features_dyn.htm)

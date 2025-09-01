@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_type_obj_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Data%20Type%20for%20Truth%20Values%2C%20ABENDATAOBJECTS_TRUE_VALUE_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -28,7 +28,7 @@ Details  
 
 Using the type ABAP\_BOOLEAN and the constants abap\_true and abap\_false makes it clear that truth values are being used here.
 
-In accordance with the rule for [avoiding](javascript:call_link\('abenliterals_guidl.htm'\) "Guideline") literals in operand positions, not only the literals 'X' and ' ' should be used. State queries about the [predicate operators](javascript:call_link\('abenpredicate_operator_glosry.htm'\) "Glossary Entry") IS INITIAL and IS NOT INITIAL or the use of the constant space are also not advisable, because they require knowledge of the technical values of abap\_true and abap\_false, which are not significant in the sense of real Boolean data objects.
+In accordance with the rule for [avoiding](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenliterals_guidl.htm "Guideline") literals in operand positions, not only the literals 'X' and ' ' should be used. State queries about the [predicate operators](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpredicate_operator_glosry.htm "Glossary Entry") IS INITIAL and IS NOT INITIAL or the use of the constant space are also not advisable, because they require knowledge of the technical values of abap\_true and abap\_false, which are not significant in the sense of real Boolean data objects.
 
 The type pool abap contains a third constant for the type ABAP\_BOOLEAN, namely abap\_undefined. However, implementing a three-value logic is only useful and recommended in exceptional cases. In this case, note that abap\_undefined does not contain the initial value for a variable of type ABAP\_BOOLEAN. The initial value is always the value of abap\_false. However, the value of abap\_undefined can, if required, be specified using the addition VALUE when declaring a truth value as the start value.
 

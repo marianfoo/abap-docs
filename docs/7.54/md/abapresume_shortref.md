@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  R
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shortref.htm) →  R
 
 RESUME - Quick reference
 
-[Reference](javascript:call_link\('abapresume.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapresume.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ RESUME.
 
 Effect
 
-Resumes processing when handling a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry").
+Resumes processing when handling a [resumable exception](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenresumable_exception_glosry.htm "Glossary Entry").

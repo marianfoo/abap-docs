@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [User Interfaces](javascript:call_link\('abenuser_interfaces_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarchitecture_guidl.htm) →  [User Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuser_interfaces_guidl.htm) → 
 
 Selecting the User Interface Technology
 
@@ -29,10 +29,10 @@ The new Web-based technologies are:
     Business Server Pages (BSP) are the counterpart to JavaServer Pages (JSP). BSPs are HTML pages with content that is partly dynamic. The dynamic content is created by server-side scripts that are written in ABAP. In AS ABAP, this type of script occurs as a generated ABAP Objects class. You create Business Server Pages using Web Application Builder in ABAP Workbench.
 
 -   Web Dynpro ABAP
-    Web Dynpro ABAP is a technology for creating platform-independent, Web-based interfaces. The architecture of Web Dynpro is based on the Model View Controller approach (MVC) for [SoC](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline"). The three components of the model view controller are the data model, which describes the application, the presentation view, and the program controller for responding to user actions. Web Dynpro applications are created using Web Dynpro Explorer in ABAP Workbench and appear in AS ABAP using generated ABAP Objects classes.
+    Web Dynpro ABAP is a technology for creating platform-independent, Web-based interfaces. The architecture of Web Dynpro is based on the Model View Controller approach (MVC) for [SoC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenseperation_concerns_guidl.htm "Guideline"). The three components of the model view controller are the data model, which describes the application, the presentation view, and the program controller for responding to user actions. Web Dynpro applications are created using Web Dynpro Explorer in ABAP Workbench and appear in AS ABAP using generated ABAP Objects classes.
 
 -   SAPUI5
-    SAPUI5 is a tool set for developing user interfaces for Web applications in HTML5. SAPUI5 supports the Model View Controller (MVC) approach and based on the user interface elements delivered in JavaScript and CSS libraries. The data connection to the application server is established using the data formats [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry"), [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") or OData. User interfaces developed with SAPUI5 can be connected to SAP and non-SAP platforms. In particular, SAPUI5 user interfaces can be developed for ABAP applications of [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry"). The connection is established using [ICF](javascript:call_link\('abenicf_glosry.htm'\) "Glossary Entry") and [APC](javascript:call_link\('abenapc_glosry.htm'\) "Glossary Entry").
+    SAPUI5 is a tool set for developing user interfaces for Web applications in HTML5. SAPUI5 supports the Model View Controller (MVC) approach and based on the user interface elements delivered in JavaScript and CSS libraries. The data connection to the application server is established using the data formats [XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenxml_glosry.htm "Glossary Entry"), [JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_glosry.htm "Glossary Entry") or OData. User interfaces developed with SAPUI5 can be connected to SAP and non-SAP platforms. In particular, SAPUI5 user interfaces can be developed for ABAP applications of [AS ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm "Glossary Entry"). The connection is established using [ICF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenicf_glosry.htm "Glossary Entry") and [APC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_glosry.htm "Glossary Entry").
 
 Rule
 
@@ -42,7 +42,7 @@ Use Web Dynpro ABAP or SAPUI5 whenever possible to create the UIs of new applica
 
 Details
 
-Web Dynpro ABAP and SAPUI5 are SAP's standard UI technologies for developing modern Web applications in the ABAP environment. The MVC approach automatically ensures a separation of presentation logic and application logic, based on the [SoC principle](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline").
+Web Dynpro ABAP and SAPUI5 are SAP's standard UI technologies for developing modern Web applications in the ABAP environment. The MVC approach automatically ensures a separation of presentation logic and application logic, based on the [SoC principle](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenseperation_concerns_guidl.htm "Guideline").
 
 Compared to Web Dynpro, the BSP technology is much more fundamental. An MVC approach for the SoC is supported, but developers are still responsible for the implementation. BSPs can be regarded as the predecessor technology of Web Dynpro ABAP. The use of BSPs is now restricted to cases where a Web application is based on a single HTML page, for which scripting is required and the function cannot be implemented with Web Dynpro ABAP.
 
@@ -54,7 +54,7 @@ The various UI technologies are not interoperable. In other words, it is usually
 
 Notes
 
--   In general, the UI technology of an application that is strictly modeled on the [separation of concerns](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline") can be replaced without any problems (see example below).
+-   In general, the UI technology of an application that is strictly modeled on the [separation of concerns](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenseperation_concerns_guidl.htm "Guideline") can be replaced without any problems (see example below).
 
 -   Web Dynpro ABAP and SAPUI5 are not part of the ABAP language. Specific guidelines regarding their use are not in the scope of these programming guidelines, which focus mainly on using the ABAP language to implement services.
 

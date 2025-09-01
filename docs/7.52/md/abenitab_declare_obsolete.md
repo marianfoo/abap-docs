@@ -4,20 +4,20 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Declarations](javascript:call_link\('abenobsolete_declarations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_declarations.htm) → 
 
 Internal Tables
 
--   [TYPES - OCCURS](javascript:call_link\('abaptypes_occurs.htm'\))
+-   [TYPES - OCCURS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_occurs.htm)
 
--   [DATA - OCCURS](javascript:call_link\('abapdata_occurs.htm'\))
+-   [DATA - OCCURS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_occurs.htm)
 
--   [TABLE LINE](javascript:call_link\('abaptable_line.htm'\))
+-   [TABLE LINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptable_line.htm)
 
--   [Internal Tables with Header Line](javascript:call_link\('abenitab_header_line.htm'\))
+-   [Internal Tables with Header Line](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_header_line.htm)
 
 Continue
-[TYPES - OCCURS](javascript:call_link\('abaptypes_occurs.htm'\))
-[DATA - OCCURS](javascript:call_link\('abapdata_occurs.htm'\))
-[TYPES, DATA ... - TABLE LINE](javascript:call_link\('abaptable_line.htm'\))
-[Internal Tables with Header Line](javascript:call_link\('abenitab_header_line.htm'\))
+[TYPES - OCCURS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_occurs.htm)
+[DATA - OCCURS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_occurs.htm)
+[TYPES, DATA ... - TABLE LINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptable_line.htm)
+[Internal Tables with Header Line](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_header_line.htm)

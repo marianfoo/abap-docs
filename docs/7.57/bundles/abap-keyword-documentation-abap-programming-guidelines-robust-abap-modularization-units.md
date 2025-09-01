@@ -3,34 +3,7 @@
 Included pages: 10
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenmodularization_unit_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm)
-- [abenfunct_module_subroutine_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm)
-- [abentype_formal_param_proc_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_formal_param_proc_guidl.htm)
-- [abentype_transf_formal_para_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_transf_formal_para_guidl.htm)
-- [abenref_transf_output_param_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_output_param_guidl.htm)
-- [abentype_formal_param_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_formal_param_guidl.htm)
-- [abenintern_extern_proc_call_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenintern_extern_proc_call_guidl.htm)
-- [abenexit_procedure_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexit_procedure_guidl.htm)
-- [abendial_mod_event_block_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendial_mod_event_block_guidl.htm)
-- [abenmacros_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmacros_guidl.htm)
-
-**Bundle Contains**: 10 documentation pages
-**Version**: ABAP 7.57
-**Generated**: 2025-09-01T11:25:45.230Z
-
----
-
 ### abenmodularization_unit_gdl.htm
-
-> **📖 Official SAP Documentation**: [abenmodularization_unit_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -38,7 +11,7 @@ Included pages: 10
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Modularization Units, ABENMODULARIZATION_UNIT_GDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%
 0D%0A%0D%0ASuggestion for improvement:)
@@ -59,36 +32,29 @@ Dialog modules and event blocks do not have parameter interfaces and generally d
 
 Macros are a kind of halfway house between callable units and source code modularization.
 
--   [Function Modules and Subroutines](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")
--   [Type of Formal Parameters in Procedures](javascript:call_link\('abentype_formal_param_proc_guidl.htm'\) "Guideline")
--   [How Formal Parameters Are Passed](javascript:call_link\('abentype_transf_formal_para_guidl.htm'\) "Guideline")
--   [Pass By Reference for Output Parameters](javascript:call_link\('abenref_transf_output_param_guidl.htm'\) "Guideline")
--   [Typing of Formal Parameters](javascript:call_link\('abentype_formal_param_guidl.htm'\) "Guideline")
--   [Internal and External Procedure Calls](javascript:call_link\('abenintern_extern_proc_call_guidl.htm'\) "Guideline")
--   [Exiting Procedures](javascript:call_link\('abenexit_procedure_guidl.htm'\) "Guideline")
--   [Dialog Modules and Event Blocks](javascript:call_link\('abendial_mod_event_block_guidl.htm'\) "Guideline")
--   [Macros](javascript:call_link\('abenmacros_guidl.htm'\) "Guideline")
+-   [Function Modules and Subroutines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")
+-   [Type of Formal Parameters in Procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_formal_param_proc_guidl.htm "Guideline")
+-   [How Formal Parameters Are Passed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_transf_formal_para_guidl.htm "Guideline")
+-   [Pass By Reference for Output Parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_output_param_guidl.htm "Guideline")
+-   [Typing of Formal Parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_formal_param_guidl.htm "Guideline")
+-   [Internal and External Procedure Calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenintern_extern_proc_call_guidl.htm "Guideline")
+-   [Exiting Procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexit_procedure_guidl.htm "Guideline")
+-   [Dialog Modules and Event Blocks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendial_mod_event_block_guidl.htm "Guideline")
+-   [Macros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmacros_guidl.htm "Guideline")
 
 Continue
-[Function Modules and Subroutines](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\))
-[Type of Formal Parameters in Procedures](javascript:call_link\('abentype_formal_param_proc_guidl.htm'\))
-[How Formal Parameters Are Passed](javascript:call_link\('abentype_transf_formal_para_guidl.htm'\))
-[Pass by Reference for Output Parameters](javascript:call_link\('abenref_transf_output_param_guidl.htm'\))
-[Typing of Formal Parameters](javascript:call_link\('abentype_formal_param_guidl.htm'\))
-[Internal and External Procedure Calls](javascript:call_link\('abenintern_extern_proc_call_guidl.htm'\))
-[Exiting Procedures](javascript:call_link\('abenexit_procedure_guidl.htm'\))
-[Dialog Modules and Event Blocks](javascript:call_link\('abendial_mod_event_block_guidl.htm'\))
-[Macros](javascript:call_link\('abenmacros_guidl.htm'\))
+[Function Modules and Subroutines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm)
+[Type of Formal Parameters in Procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_formal_param_proc_guidl.htm)
+[How Formal Parameters Are Passed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_transf_formal_para_guidl.htm)
+[Pass by Reference for Output Parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_output_param_guidl.htm)
+[Typing of Formal Parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_formal_param_guidl.htm)
+[Internal and External Procedure Calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenintern_extern_proc_call_guidl.htm)
+[Exiting Procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexit_procedure_guidl.htm)
+[Dialog Modules and Event Blocks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendial_mod_event_block_guidl.htm)
+[Macros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmacros_guidl.htm)
 
-
-
-**📖 Source**: [abenmodularization_unit_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm)
 
 ### abenfunct_module_subroutine_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenfunct_module_subroutine_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -96,7 +62,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Function Modules and Subroutines, ABENFUNCT_MODULE_SUBROUTINE_GUIDL, 757%0D%0A%0D%0AE
 rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -105,9 +71,9 @@ Function Modules and Subroutines
 
 Background   
 
-Function modules and subroutines are the [procedures](javascript:call_link\('abenmodularization_guidl.htm'\) "Guideline") of the structured programming model that already existed before the introduction of ABAP Objects.
+Function modules and subroutines are the [procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_guidl.htm "Guideline") of the structured programming model that already existed before the introduction of ABAP Objects.
 
--   Function modules in function pools are independent repository objects that the structured model provides for [external calls](javascript:call_link\('abenintern_extern_proc_call_guidl.htm'\) "Guideline") or for the provision of reusable functions.
+-   Function modules in function pools are independent repository objects that the structured model provides for [external calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenintern_extern_proc_call_guidl.htm "Guideline") or for the provision of reusable functions.
 -   Before the introduction of ABAP Objects, subroutines could be created in any programs and were intended for internal calls or for the internal modularization of programs in the structured model.
 
 The introduction of ABAP Objects means that methods now have both roles.
@@ -120,26 +86,19 @@ Only use function modules and subroutines if they are necessary from a technical
 
 Details   
 
-This rule is directly derived from rule [Use ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline"). This rule states that only methods should be created. You are only [allowed](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") to create other types of procedures if is technically not possible to use a method:
+This rule is directly derived from rule [Use ABAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obj_progr_model_guidl.htm "Guideline"). This rule states that only methods should be created. You are only [allowed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") to create other types of procedures if is technically not possible to use a method:
 
 -   Function modules for RFC, updates, and access to classic dynpros or selection screens
 -   Subroutines for PERFORM ON COMMIT/ROLLBACK and GENERATE SUBROUTINE POOL
 
 These subroutines should only be used for wrapping method calls to ensure that ABAP Objects is also used in these cases.
 
-All the rules in these programming guidelines that relate to procedures actually refer to methods because, strictly speaking, no other procedures with nontrivial code are supposed to occur. If you strictly adhere to the above rule, is almost impossible for any of the rules that refer to implementations of procedures to be applied to function modules and subroutines, because they are only used to wrap calls. For example, function modules and subroutines should no longer contain any of the local declarations that are described in ["Defining Local Declarations at the Start of a Procedure"](javascript:call_link\('abenlocal_declar_guidl.htm'\) "Guideline").
+All the rules in these programming guidelines that relate to procedures actually refer to methods because, strictly speaking, no other procedures with nontrivial code are supposed to occur. If you strictly adhere to the above rule, is almost impossible for any of the rules that refer to implementations of procedures to be applied to function modules and subroutines, because they are only used to wrap calls. For example, function modules and subroutines should no longer contain any of the local declarations that are described in ["Defining Local Declarations at the Start of a Procedure"](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocal_declar_guidl.htm "Guideline").
 
-If you cannot adhere to the rule ["Use ABAP Objects"](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") and the above rule because, for example, existing legacy function modules and subroutines need to be maintained or enhanced and you cannot switch to methods, the rules in these programming guidelines that refer to procedures also apply to function modules and subroutines.
+If you cannot adhere to the rule ["Use ABAP Objects"](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") and the above rule because, for example, existing legacy function modules and subroutines need to be maintained or enhanced and you cannot switch to methods, the rules in these programming guidelines that refer to procedures also apply to function modules and subroutines.
 
-
-
-**📖 Source**: [abenfunct_module_subroutine_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm)
 
 ### abentype_formal_param_proc_guidl.htm
-
-> **📖 Official SAP Documentation**: [abentype_formal_param_proc_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_formal_param_proc_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -147,7 +106,7 @@ If you cannot adhere to the rule ["Use ABAP Objects"](javascript:call_link\('abe
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Type of Formal Parameters in Procedures, ABENTYPE_FORMAL_PARAM_PROC_GUIDL, 757%0D%0A%
 0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -156,7 +115,7 @@ Type of Formal Parameters in Procedures
 
 Background   
 
-The parameter interface of a procedure consists of formal parameters and specifies the [exceptions](javascript:call_link\('abenclass_exception_guidl.htm'\) "Guideline") possible in the procedure. The possible types of formal parameters are:
+The parameter interface of a procedure consists of formal parameters and specifies the [exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_exception_guidl.htm "Guideline") possible in the procedure. The possible types of formal parameters are:
 
 -   Input parameters
     
@@ -175,7 +134,7 @@ The parameter interface of a procedure consists of formal parameters and specifi
     Defined using RETURNING in methods.
     
 
-The actual behavior of a formal parameter, however, is in part determined by the combination of the parameter type and the [pass by type](javascript:call_link\('abentype_transf_formal_para_guidl.htm'\) "Guideline").
+The actual behavior of a formal parameter, however, is in part determined by the combination of the parameter type and the [pass by type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_transf_formal_para_guidl.htm "Guideline").
 
 Rule   
 
@@ -193,11 +152,11 @@ For the consumer of a procedure, the parameter types provide important informati
 
 -   Input-only parameters should always have the IMPORTING type (or USING for subroutines). Be aware that, when using pass by reference, writes performed on an input parameter defined using USING are possible without a syntax error being produced (as is the case with input parameters of methods or function modules defined using IMPORTING). Yet another reason to not use subroutines.
 -   Output-only parameters should always be EXPORTING or RETURNING.
--   Parameters that are received and changed should always be of the CHANGING type. In particular, in a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) the fact that an EXPORTING parameter (or a USING parameter in the case of subroutines) passed by reference [behaves](javascript:call_link\('abenref_transf_output_param_guidl.htm'\) "Guideline") (from a technical perspective) like a CHANGING parameter should not be exploited.
+-   Parameters that are received and changed should always be of the CHANGING type. In particular, in a procedure ([method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) the fact that an EXPORTING parameter (or a USING parameter in the case of subroutines) passed by reference [behaves](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_output_param_guidl.htm "Guideline") (from a technical perspective) like a CHANGING parameter should not be exploited.
 
 Input parameters or input/output parameters that are not necessarily required for the execution of a procedure should be defined as optional by using OPTIONAL or by specifying a DEFAULT value. Otherwise, calling programs are forced to pass unnecessary parameters and create helper variables especially for this purpose.
 
-A narrow parameter interface in line with a [procedure with an appropriate number of statements](javascript:call_link\('abenproc_volume_guidl.htm'\) "Guideline") only requires a few input parameters and one return value. However, this cannot really be applied consistently in practice and is therefore not set out as a rule here.
+A narrow parameter interface in line with a [procedure with an appropriate number of statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenproc_volume_guidl.htm "Guideline") only requires a few input parameters and one return value. However, this cannot really be applied consistently in practice and is therefore not set out as a rule here.
 
 Hint
 
@@ -242,14 +201,7 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abentype_formal_param_proc_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_formal_param_proc_guidl.htm)
-
 ### abentype_transf_formal_para_guidl.htm
-
-> **📖 Official SAP Documentation**: [abentype_transf_formal_para_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_transf_formal_para_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -257,7 +209,7 @@ ENDCLASS.
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: How Formal Parameters Are Passed, ABENTYPE_TRANSF_FORMAL_PARA_GUIDL, 757%0D%0A%0D%0AE
 rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -290,29 +242,22 @@ When selecting the pass-by type, consider both speed and security:
 
 Details   
 
-The pass by reference method generally has a higher performance than pass by value because no values need to be copied. This speed advantage can be noticed especially in the case of large parameters, such as internal tables or strings, or in mass data processing. In the case of small, flat parameters, the pass by value method usually does not lead to problems because the copy costs incurred are not high here. Furthermore, for strings and internal tables, sharing takes effect in the case of pass by value. Consequently, only references are passed here. The time-intensive copy process is skipped if the data objects involved are only to be read-accessed, such as in the case of EXPORTING parameters that are filled within a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")), and are not modified by the calling program after the pass.
+The pass by reference method generally has a higher performance than pass by value because no values need to be copied. This speed advantage can be noticed especially in the case of large parameters, such as internal tables or strings, or in mass data processing. In the case of small, flat parameters, the pass by value method usually does not lead to problems because the copy costs incurred are not high here. Furthermore, for strings and internal tables, sharing takes effect in the case of pass by value. Consequently, only references are passed here. The time-intensive copy process is skipped if the data objects involved are only to be read-accessed, such as in the case of EXPORTING parameters that are filled within a procedure ([method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")), and are not modified by the calling program after the pass.
 
 Despite the speed advantage, the pass by reference method can lead to problems due to the following aspects:
 
--   EXPORTING parameters that are passed by reference are not initialized automatically. Therefore, such parameters are [not supposed to be read](javascript:call_link\('abenref_transf_output_param_guidl.htm'\) "Guideline") until the first value has been assigned to them.
--   Writes performed on EXPORTING and CHANGING parameters with the pass by reference method work directly on the actual parameters. Their values are also modified if the procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) is left early due to an exception.
--   IMPORTING parameters that are passed by reference change if the actual parameter changes. The actual parameter can change, for example, if it is a [global variable](javascript:call_link\('abenref_transf_global_data_guidl.htm'\) "Guideline") or a [system field](javascript:call_link\('abenuse_actual_parameters_guidl.htm'\) "Guideline").
+-   EXPORTING parameters that are passed by reference are not initialized automatically. Therefore, such parameters are [not supposed to be read](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_output_param_guidl.htm "Guideline") until the first value has been assigned to them.
+-   Writes performed on EXPORTING and CHANGING parameters with the pass by reference method work directly on the actual parameters. Their values are also modified if the procedure ([method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) is left early due to an exception.
+-   IMPORTING parameters that are passed by reference change if the actual parameter changes. The actual parameter can change, for example, if it is a [global variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_global_data_guidl.htm "Guideline") or a [system field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_actual_parameters_guidl.htm "Guideline").
 
-If passing by value does not cause performance problems, that is, if small data sets are passed or sharing can be used, this method should be used for security reasons. If speed is an issue, pass by reference should be chosen. In this case, the potential risks of implementing the procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) must be [considered](javascript:call_link\('abenref_transf_output_param_guidl.htm'\) "Guideline").
+If passing by value does not cause performance problems, that is, if small data sets are passed or sharing can be used, this method should be used for security reasons. If speed is an issue, pass by reference should be chosen. In this case, the potential risks of implementing the procedure ([method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) must be [considered](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_output_param_guidl.htm "Guideline").
 
 Example
 
-See the example in the section about [Code Inspector](javascript:call_link\('abencode_inspector_guidl.htm'\) "Guideline"). In this example, an internal table is passed by reference due to performance reasons, while an elementary parameter is passed by value due to robustness reasons.
+See the example in the section about [Code Inspector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencode_inspector_guidl.htm "Guideline"). In this example, an internal table is passed by reference due to performance reasons, while an elementary parameter is passed by value due to robustness reasons.
 
-
-
-**📖 Source**: [abentype_transf_formal_para_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_transf_formal_para_guidl.htm)
 
 ### abenref_transf_output_param_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenref_transf_output_param_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_output_param_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -320,7 +265,7 @@ See the example in the section about [Code Inspector](javascript:call_link\('abe
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Pass by Reference for Output Parameters, ABENREF_TRANSF_OUTPUT_PARAM_GUIDL, 757%0D%0A
 %0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -335,7 +280,7 @@ Rule  
 
 Use output parameters correctly with pass by reference
 
-Do not evaluate EXPORTING parameters that are passed by reference in a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) until a value has been explicitly assigned.
+Do not evaluate EXPORTING parameters that are passed by reference in a procedure ([method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) until a value has been explicitly assigned.
 
 Details   
 
@@ -345,7 +290,7 @@ If a parameter like this is an internal table or a string, a simple write is not
 
 Hint
 
-If the described properties are to be exploited for writable parameters that have been passed by reference in a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")), that is, a read is to be performed prior to the write or an existing dynamic data object is to be extended, the [appropriate formal parameter type](javascript:call_link\('abentype_formal_param_proc_guidl.htm'\) "Guideline") must be specified, that is, input/output parameter (CHANGING parameter).
+If the described properties are to be exploited for writable parameters that have been passed by reference in a procedure ([method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")), that is, a read is to be performed prior to the write or an existing dynamic data object is to be extended, the [appropriate formal parameter type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_formal_param_proc_guidl.htm "Guideline") must be specified, that is, input/output parameter (CHANGING parameter).
 
 Exception
 
@@ -371,14 +316,7 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abenref_transf_output_param_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_output_param_guidl.htm)
-
 ### abentype_formal_param_guidl.htm
-
-> **📖 Official SAP Documentation**: [abentype_formal_param_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_formal_param_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -386,7 +324,7 @@ ENDCLASS.
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Typing of Formal Parameters, ABENTYPE_FORMAL_PARAM_GUIDL, 757%0D%0A%0D%0AError:%0D%0A
 %0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -410,16 +348,16 @@ Be only as generic as necessary when typing formal parameters. Fully generic typ
 
 Details   
 
-Absolute type security within a procedure can only be achieved using full typing. It should always be used when providing a generic service is not a defined goal. It is much easier to carry out [tests](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline") for non-generic services than for generic services.
+Absolute type security within a procedure can only be achieved using full typing. It should always be used when providing a generic service is not a defined goal. It is much easier to carry out [tests](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorrectness_quality_guidl.htm "Guideline") for non-generic services than for generic services.
 
-A generically typed procedure interface usually involves more implementation effort within the procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) to avoid [runtime errors](javascript:call_link\('abenruntime_error_dyn_proc_guidl.htm'\) "Guideline"). Therefore, use the following principle when providing generic interfaces: as little generic typing as possible and as much generic typing as necessary. You should use specific generic types, such as numeric or csequence, instead of any or data, for example, if services are involved that are supposed to process numeric values or character strings. However, already when csequence is used, you must take into account that the possible concrete types c and string behave differently with respect to trailing blanks. or that the concrete numeric types that are possible for numeric lead to different [calculation types](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") in calculations. Especially, when existing typings are generalized, it may be necessary to modify the implementation accordingly.
+A generically typed procedure interface usually involves more implementation effort within the procedure ([method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) to avoid [runtime errors](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenruntime_error_dyn_proc_guidl.htm "Guideline"). Therefore, use the following principle when providing generic interfaces: as little generic typing as possible and as much generic typing as necessary. You should use specific generic types, such as numeric or csequence, instead of any or data, for example, if services are involved that are supposed to process numeric values or character strings. However, already when csequence is used, you must take into account that the possible concrete types c and string behave differently with respect to trailing blanks. or that the concrete numeric types that are possible for numeric lead to different [calculation types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_type_glosry.htm "Glossary Entry") in calculations. Especially, when existing typings are generalized, it may be necessary to modify the implementation accordingly.
 
 Generic typing can be a pitfall if you are not aware that you have used generic typing instead of full typing, because only the technical type properties are checked when an actual parameter is connected, but no component names, for example. This can lead to different behavior than expected.
 
 Hints
 
--   These statements about typing apply equally to [field symbols](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline").
--   In typings of formal parameters with the generic type [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\)), it should be noted that no [numeric functions](javascript:call_link\('abenmathematical_funktion_glosry.htm'\) "Glossary Entry"), no [description functions](javascript:call_link\('abendescription_function_glosry.htm'\) "Glossary Entry"), and no [arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") can be passed to these parameters. This restriction can be bypassed by applying the [conversion operator](javascript:call_link\('abenconversion_operator_glosry.htm'\) "Glossary Entry") [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) to the actual parameter. This restriction does not apply to the generic type any, however, which means that, if required, a typing with the generic type any is recommended.
+-   These statements about typing apply equally to [field symbols](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendyn_access_data_obj_guidl.htm "Guideline").
+-   In typings of formal parameters with the generic type [data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_types_generic.htm), it should be noted that no [numeric functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmathematical_funktion_glosry.htm "Glossary Entry"), no [description functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendescription_function_glosry.htm "Glossary Entry"), and no [arithmetic expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") can be passed to these parameters. This restriction can be bypassed by applying the [conversion operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_operator_glosry.htm "Glossary Entry") [CONV](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_conv.htm) to the actual parameter. This restriction does not apply to the generic type any, however, which means that, if required, a typing with the generic type any is recommended.
 
 Bad Example
 
@@ -439,7 +377,7 @@ ENDCLASS.
 
 Good Example
 
-Using the built-in function [condense](javascript:call_link\('abencondense_functions.htm'\)) produces the same behavior when a blank is passed, regardless of the fixed type.
+Using the built-in function [condense](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencondense_functions.htm) produces the same behavior when a blank is passed, regardless of the fixed type.
 
 CLASS demo DEFINITION.
   PUBLIC SECTION.
@@ -495,14 +433,7 @@ itab TYPE STANDARD TABLE OF struc
 ...
 
 
-
-**📖 Source**: [abentype_formal_param_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_formal_param_guidl.htm)
-
 ### abenintern_extern_proc_call_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenintern_extern_proc_call_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenintern_extern_proc_call_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -510,7 +441,7 @@ itab TYPE STANDARD TABLE OF struc
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Internal and External Procedure Calls, ABENINTERN_EXTERN_PROC_CALL_GUIDL, 757%0D%0A%0
 D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -526,7 +457,7 @@ When a procedure is called, a distinction is made between internal and external 
 -   Subroutines in all programs that can contain subroutines (PERFORM...IN PROGRAM)
 -   Methods of local classes, where the name of the class is specified dynamically using an absolute type name (\\PROGRAM= ... \\CLASS=...\\)
 
-The programs loaded within an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") are grouped into program groups. There is always one main program group and a number of optional additional program groups. Each program group contains a main program and possibly several additional programs (loaded due to external use). The loaded programs are not always the result of a call. The reason could also have to do with other references to components of external programs, such as a reference to a visible data type of a global class. The loaded programs are not always the result of a call. The reason could also have to do with other references to components of external programs, such as a reference to a visible data type of a global class.
+The programs loaded within an [internal session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternal_session_glosry.htm "Glossary Entry") are grouped into program groups. There is always one main program group and a number of optional additional program groups. Each program group contains a main program and possibly several additional programs (loaded due to external use). The loaded programs are not always the result of a call. The reason could also have to do with other references to components of external programs, such as a reference to a visible data type of a global class. The loaded programs are not always the result of a call. The reason could also have to do with other references to components of external programs, such as a reference to a visible data type of a global class.
 
 If shared resources of the program group are accessed in an externally called procedure, the information about which program group the program was loaded into is very important. Whether a program creates a separate program group when loaded or whether it is loaded into an existing program group, largely depends on the program type:
 
@@ -558,7 +489,7 @@ In addition, an assignment to a particular program group is not statically defin
 
 Hint
 
-Except for the warning regarding dynamic calls of methods of local classes from other programs, this rule is basically intended to raise the awareness of problems when using existing programs. In new programs, the creation of new subroutines and the use of [shared resources](javascript:call_link\('abentable_work_area_guidl.htm'\) "Guideline") are largely obsolete anyway. The problems mentioned above can only occur if classic dynpros or selection screens (and therefore GUI statuses and table work areas) are used.
+Except for the warning regarding dynamic calls of methods of local classes from other programs, this rule is basically intended to raise the awareness of problems when using existing programs. In new programs, the creation of new subroutines and the use of [shared resources](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_work_area_guidl.htm "Guideline") are largely obsolete anyway. The problems mentioned above can only occur if classic dynpros or selection screens (and therefore GUI statuses and table work areas) are used.
 
 Example
 
@@ -594,14 +525,7 @@ ENDFORM.
 \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 
-
-**📖 Source**: [abenintern_extern_proc_call_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenintern_extern_proc_call_guidl.htm)
-
 ### abenexit_procedure_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenexit_procedure_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexit_procedure_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -609,7 +533,7 @@ ENDFORM.
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Exiting Procedures, ABENEXIT_PROCEDURE_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A
 %0D%0ASuggestion for improvement:)
@@ -627,23 +551,23 @@ You can exit procedures in the usual way using the END... statement or by using 
 These statements end a procedure properly, that is, the system passes output parameters for which passing by value is specified and returns values to the assigned actual parameters. In addition, you can terminate the processing of a procedure as follows, without supplying the actual parameters with values:
 
 -   Calling another unit (program, dynpro) without returning to the procedure
--   Triggering an exception or sending a dialog message if an [error occurs](javascript:call_link\('abenerror_handling_gdl.htm'\))
+-   Triggering an exception or sending a dialog message if an [error occurs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenerror_handling_gdl.htm)
 
 Rule   
 
 Only use RETURN to exit procedures
 
-Use the statement RETURN to properly exit a procedure (method, see rule [no implementations in function modules and subroutines](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) early.
+Use the statement RETURN to properly exit a procedure (method, see rule [no implementations in function modules and subroutines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) early.
 
 Details   
 
 The statement RETURN is used to exit procedures and always has this result. The behavior of the EXIT and CHECK statements (conditional exit), in contrast, is context- dependent: Within a loop, only the loop is exited; outside a loop, the surrounding procedure is exited. This ambiguity limits the legibility of source code. Therefore, EXIT and CHECK should only be used to exit loops, and RETURN only to exit procedures. Only RETURN enables you to exit a procedure in a loop context.
 
-The statements for [exiting programs](javascript:call_link\('abenabap_leave_program.htm'\)) are not recommended inside procedures. They are not allowed in contexts like [unit tests](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") or during [update](javascript:call_link\('abendb_commit_during_update.htm'\)) and lead to exceptions if a procedure is called from such a context.
+The statements for [exiting programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_leave_program.htm) are not recommended inside procedures. They are not allowed in contexts like [unit tests](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunit_test_glosry.htm "Glossary Entry") or during [update](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_commit_during_update.htm) and lead to exceptions if a procedure is called from such a context.
 
 Hint
 
-As well as the statements RETURN, EXIT, and CHECK specified here, the statements REJECT and STOP can be used to exit special [event blocks](javascript:call_link\('abendial_mod_event_block_guidl.htm'\) "Guideline"). Conversely, RETURN, EXIT, and CHECK can also exit processing blocks other than procedures. In both cases, you must consider the particular behavior of the ABAP runtime framework regarding the exited processing block. Because other processing blocks are only supposed to contain one method call according to the rules [use ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") and [no implementations in dialog modules and event blocks](javascript:call_link\('abendial_mod_event_block_guidl.htm'\) "Guideline"), these cases should no longer occur in new programs.
+As well as the statements RETURN, EXIT, and CHECK specified here, the statements REJECT and STOP can be used to exit special [event blocks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendial_mod_event_block_guidl.htm "Guideline"). Conversely, RETURN, EXIT, and CHECK can also exit processing blocks other than procedures. In both cases, you must consider the particular behavior of the ABAP runtime framework regarding the exited processing block. Because other processing blocks are only supposed to contain one method call according to the rules [use ABAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") and [no implementations in dialog modules and event blocks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendial_mod_event_block_guidl.htm "Guideline"), these cases should no longer occur in new programs.
 
 Exception
 
@@ -672,14 +596,7 @@ METHOD some\_method.
 ENDMETHOD.
 
 
-
-**📖 Source**: [abenexit_procedure_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexit_procedure_guidl.htm)
-
 ### abendial_mod_event_block_guidl.htm
-
-> **📖 Official SAP Documentation**: [abendial_mod_event_block_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendial_mod_event_block_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -687,7 +604,7 @@ ENDMETHOD.
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Dialog Modules and Event Blocks, ABENDIAL_MOD_EVENT_BLOCK_GUIDL, 757%0D%0A%0D%0AError
 :%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -719,11 +636,11 @@ Only use dialog modules and event routines if they are necessary from a technica
 
 Details   
 
-Since it is not possible to declare local data in dialog modules and event blocks, you cannot implement any useful program logic. This means that any dialog modules and event blocks (provided that they are still necessary) should only contain one method call. If you [use ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") consistently, only the following elements are required:
+Since it is not possible to declare local data in dialog modules and event blocks, you cannot implement any useful program logic. This means that any dialog modules and event blocks (provided that they are still necessary) should only contain one method call. If you [use ABAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") consistently, only the following elements are required:
 
--   LOAD-OF-PROGRAM or INITIALIZATION as the program constructor in cases where [program types](javascript:call_link\('abenprogram_type_guidl.htm'\) "Guideline") other than class pools are used
--   Dialog modules and AT SELECTION-SCREEN when [classic dynpros and selection screens](javascript:call_link\('abenencap_class_interf_guidl.htm'\) "Guideline") are processed
--   START-OF-SELECTION in [executable programs](javascript:call_link\('abenprogram_type_guidl.htm'\) "Guideline") for background processing. To improve readability, you should always specify the statement explicitly (although it is optional in many situations).
+-   LOAD-OF-PROGRAM or INITIALIZATION as the program constructor in cases where [program types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_type_guidl.htm "Guideline") other than class pools are used
+-   Dialog modules and AT SELECTION-SCREEN when [classic dynpros and selection screens](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenencap_class_interf_guidl.htm "Guideline") are processed
+-   START-OF-SELECTION in [executable programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_type_guidl.htm "Guideline") for background processing. To improve readability, you should always specify the statement explicitly (although it is optional in many situations).
 -   Although possible in the syntax, you should never specify an event block more than once within a program.
 
 Hint
@@ -751,17 +668,7 @@ MODULE reservations\_mark INPUT.
 ENDMODULE.
 
 
-
-**📖 Source**: [abendial_mod_event_block_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendial_mod_event_block_guidl.htm)
-
 ### abenmacros_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenmacros_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmacros_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenmacros_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmacros_guidl.htm)
-
 
   
 
@@ -769,7 +676,7 @@ ENDMODULE.
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_unit_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Macros, ABENMACROS_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for
  improvement:)
@@ -778,26 +685,26 @@ Macros
 
 Background   
 
-A [macro](javascript:call_link\('abenabap_macros.htm'\)) is a summary of a statement list for internal reuse within a program between [DEFINE](javascript:call_link\('abapdefine.htm'\)) and [END-OF-DEFINITION](javascript:call_link\('abapend-of-definition.htm'\)). The statement list is included in another position in the program by specifying the macro name. A macro can contain up to nine placeholders, &1 to &9, in place of ABAP words and operands (or parts of operands). These placeholders must be replaced by fixed words when the macro is included.
+A [macro](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_macros.htm) is a summary of a statement list for internal reuse within a program between [DEFINE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdefine.htm) and [END-OF-DEFINITION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapend-of-definition.htm). The statement list is included in another position in the program by specifying the macro name. A macro can contain up to nine placeholders, &1 to &9, in place of ABAP words and operands (or parts of operands). These placeholders must be replaced by fixed words when the macro is included.
 
 Rule   
 
 Only use macros in exceptional cases.
 
-We recommend that procedures ([methods](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) or expressions with appropriate operators are used instead of macros.
+We recommend that procedures ([methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) or expressions with appropriate operators are used instead of macros.
 
 Details   
 
 Macros are often used as callable units, instead of real procedures. This is rarely a good idea however. Macros do not have a real context, and cannot be executed in steps in ABAP Debugger. This makes it practically impossible to look for errors in programs that use large or complex macros. For these reasons, a macro cannot be viewed as a worthy replacement for a genuine procedure.
 
-In addition, in the past macros were not just used to replace procedures, they were also used to perform recurrent declarations of structured data. Today, macros are, of course, avoided and [standalone types](javascript:call_link\('abenbound_independent_dtype_guidl.htm'\) "Guideline") are used instead.
+In addition, in the past macros were not just used to replace procedures, they were also used to perform recurrent declarations of structured data. Today, macros are, of course, avoided and [standalone types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbound_independent_dtype_guidl.htm "Guideline") are used instead.
 
-Nowadays, expressions can be used instead of macros in many cases. One example is using the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) to fill internal tables, which makes it unnecessary to use macros (which mostly contain the statement APPEND.
+Nowadays, expressions can be used instead of macros in many cases. One example is using the value operator [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_value.htm) to fill internal tables, which makes it unnecessary to use macros (which mostly contain the statement APPEND.
 
 In certain cases, however, the use of macros could be justified, as long as the statement patterns are simple and recurring. Here, a macro can be seen as a design-time generation tool. The following (good) example shows how a macro can be used in this way. In a situation like this, a macro may be preferable to a procedure for the following reasons:
 
 -   The statement list in the macro is clear and simple enough that it does not matter that it cannot be debugged.
--   The syntax check performs static checks on the correctness of the statements. When using the dynamic language methods required in a procedure, any errors (in this case, incorrect names) would not be detected until runtime. [Dynamic access](javascript:call_link\('abendynamic_prog_technique_gdl.htm'\)) would also be more time-consuming.
+-   The syntax check performs static checks on the correctness of the statements. When using the dynamic language methods required in a procedure, any errors (in this case, incorrect names) would not be detected until runtime. [Dynamic access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynamic_prog_technique_gdl.htm) would also be more time-consuming.
 -   Unlike listing all statements separately, using these macros makes the source code clearer, particularly if the statement list is repeated frequently. There is a lower risk of trivial typing errors being made, since there is no need to create and edit a large volume of similar source code. It is easier to make subsequent changes to the logic.
 
 This means that, in certain cases, using macros can improve the correctness and maintainability of source code. Macros that contain non-trivial control structures, however, always present a maintenance problem because they cannot run in steps in ABAP Debugger. For this reason, use macros very sparingly and only if they contain no more than a few lines. Errors in macros are almost impossible to analyze.

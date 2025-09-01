@@ -4,46 +4,46 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Open SQL](javascript:call_link\('abenopensql.htm'\)) →  [Open SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql.htm) →  [Open SQL - Reads](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_reading.htm) → 
 
 SELECT clauses
 
-This section describes the possible clauses and additions, which are possible for the SELECT statements of [main queries](javascript:call_link\('abenmainquery_glosry.htm'\) "Glossary Entry") and [subqueries](javascript:call_link\('abensubquery_glosry.htm'\) "Glossary Entry"). Information on which clauses are possible in which queries can be found in the relevant statements and clauses.
+This section describes the possible clauses and additions, which are possible for the SELECT statements of [main queries](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmainquery_glosry.htm "Glossary Entry") and [subqueries](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubquery_glosry.htm "Glossary Entry"). Information on which clauses are possible in which queries can be found in the relevant statements and clauses.
 
--   [SINGLE](javascript:call_link\('abapselect_single.htm'\))
+-   [SINGLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_single.htm)
 
--   [FROM](javascript:call_link\('abapfrom_clause.htm'\))
+-   [FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfrom_clause.htm)
 
--   [FIELDS](javascript:call_link\('abapfields_clause.htm'\))
+-   [FIELDS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfields_clause.htm)
 
--   [SELECT clause](javascript:call_link\('abapselect_clause.htm'\))
+-   [SELECT clause](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_clause.htm)
 
--   [FOR ALL ENTRIES](javascript:call_link\('abenwhere_logexp_itab.htm'\))
+-   [FOR ALL ENTRIES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_itab.htm)
 
--   [WHERE](javascript:call_link\('abapwhere.htm'\))
+-   [WHERE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwhere.htm)
 
--   [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\))
+-   [GROUP BY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgroupby_clause.htm)
 
--   [HAVING](javascript:call_link\('abaphaving_clause.htm'\))
+-   [HAVING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaphaving_clause.htm)
 
--   [ORDER BY](javascript:call_link\('abaporderby_clause.htm'\))
+-   [ORDER BY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaporderby_clause.htm)
 
--   [INTO*|*APPENDING](javascript:call_link\('abapinto_clause.htm'\))
+-   [INTO*|*APPENDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinto_clause.htm)
 
--   [UP TO, OFFSET](javascript:call_link\('abapselect_up_to_offset.htm'\))
+-   [UP TO, OFFSET](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_up_to_offset.htm)
 
--   [abap\_options](javascript:call_link\('abapselect_additions.htm'\))
+-   [abap\_options](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_additions.htm)
 
 Continue
-[SELECT - SINGLE](javascript:call_link\('abapselect_single.htm'\))
-[SELECT - FROM](javascript:call_link\('abapfrom_clause.htm'\))
-[SELECT - FIELDS](javascript:call_link\('abapfields_clause.htm'\))
-[SELECT - select\_clause](javascript:call_link\('abapselect_clause.htm'\))
-[SELECT - FOR ALL ENTRIES](javascript:call_link\('abenwhere_logexp_itab.htm'\))
-[SELECT - WHERE](javascript:call_link\('abapwhere.htm'\))
-[SELECT - GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\))
-[SELECT - HAVING](javascript:call_link\('abaphaving_clause.htm'\))
-[SELECT - ORDER BY](javascript:call_link\('abaporderby_clause.htm'\))
-[SELECT - INTO, APPENDING](javascript:call_link\('abapinto_clause.htm'\))
-[SELECT - UP TO, OFFSET](javascript:call_link\('abapselect_up_to_offset.htm'\))
-[SELECT - abap\_options](javascript:call_link\('abapselect_additions.htm'\))
+[SELECT - SINGLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_single.htm)
+[SELECT - FROM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfrom_clause.htm)
+[SELECT - FIELDS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfields_clause.htm)
+[SELECT - select\_clause](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_clause.htm)
+[SELECT - FOR ALL ENTRIES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_itab.htm)
+[SELECT - WHERE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwhere.htm)
+[SELECT - GROUP BY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgroupby_clause.htm)
+[SELECT - HAVING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaphaving_clause.htm)
+[SELECT - ORDER BY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaporderby_clause.htm)
+[SELECT - INTO, APPENDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinto_clause.htm)
+[SELECT - UP TO, OFFSET](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_up_to_offset.htm)
+[SELECT - abap\_options](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_additions.htm)

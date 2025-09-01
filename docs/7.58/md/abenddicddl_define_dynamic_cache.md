@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) →  [DDIC - Dynamic Caches](javascript:call_link\('abenddic_dynamic_caches.htm'\)) →  [DDIC - Dictionary DDL for Defining Dynamic Caches](javascript:call_link\('abenddic_define_dynamic_cache.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) →  [DDIC - Dynamic Caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm) →  [DDIC - Dictionary DDL for Defining Dynamic Caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20DDL%20-%20DEFINE%20DYNAMIC%20CACHE%2C%20ABENDDICDDL_DEFINE_DYNAMIC_CACHE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvem
 ent:)
@@ -22,11 +22,11 @@ DEFINE DYNAMIC CACHE cache\_name
 
 Effect
 
-[Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") statement used to define a [dynamic cache](javascript:call_link\('abendynamic_cache_glosry.htm'\) "Glossary Entry") for a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry").
+[Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") statement used to define a [dynamic cache](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_cache_glosry.htm "Glossary Entry") for a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry").
 
-The name cache\_name of a dynamic cache must comply with the [naming conventions for DDIC data types](javascript:call_link\('abenddic_types_names.htm'\)) and can have a maximum of 30 characters. The name is in the namespace of the [DDIC data types](javascript:call_link\('abenddic_data_types.htm'\)) and must match the name of the [DTDC source code](javascript:call_link\('abenddtdc_source_code_glosry.htm'\) "Glossary Entry").
+The name cache\_name of a dynamic cache must comply with the [naming conventions for DDIC data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_types_names.htm) and can have a maximum of 30 characters. The name is in the namespace of the [DDIC data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_types.htm) and must match the name of the [DTDC source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddtdc_source_code_glosry.htm "Glossary Entry").
 
-A dynamic cache can be defined for exactly one DDIC database table dbtab, which is specified after ON. Tables with [data aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry") are not supported. Multiple dynamic caches can be defined for the same database table.
+A dynamic cache can be defined for exactly one DDIC database table dbtab, which is specified after ON. Tables with [data aging](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_aging_glosry.htm "Glossary Entry") are not supported. Multiple dynamic caches can be defined for the same database table.
 
 Projection List
 

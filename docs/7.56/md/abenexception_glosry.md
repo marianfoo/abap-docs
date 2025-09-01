@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 exception
 
-Error situation during execution of an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry"). Exceptions are [catchable](javascript:call_link\('abencatchable_exception_glosry.htm'\) "Glossary Entry") (statements [TRY](javascript:call_link\('abaptry.htm'\)), [CATCH](javascript:call_link\('abapcatch_try.htm'\))) or [uncatchable](javascript:call_link\('abenuncatchable_exception_glosry.htm'\) "Glossary Entry"). Uncaught exceptions result in a [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry").
+Error situation during execution of an [ABAP program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_glosry.htm "Glossary Entry"). Exceptions are [catchable](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencatchable_exception_glosry.htm "Glossary Entry") (statements [TRY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptry.htm), [CATCH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcatch_try.htm)) or [uncatchable](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuncatchable_exception_glosry.htm "Glossary Entry"). Uncaught exceptions result in a [runtime error](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenruntime_error_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenabap_exceptions.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_exceptions.htm)

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [Changes in Releases 4.0 and 4.5](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews.htm) →  [Changes in Releases 4.xx](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-4.htm) →  [Changes in Releases 4.0 and 4.5](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-40.htm) → 
 
 Further Changes in Release 4.0
 
@@ -30,37 +30,37 @@ Further Changes in Release 4.0
 
 Modification 1
 
-Better performance of [EDITOR-CALL FOR itab](javascript:call_link\('abapeditor-call_for_itab.htm'\))
+Better performance of [EDITOR-CALL FOR itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapeditor-call_for_itab.htm)
 The table is only returned with changes if saved in the editor. The new addition ... BACKUP INTO is used to return the table to its original state. Return Code is used to indicate whether change operations were performed in the editor.
 
 Modification 2
 
-New variant [DESCRIBE FIELD f INTO td](javascript:call_link\('abapdescribe_field.htm'\))
+New variant [DESCRIBE FIELD f INTO td](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_field.htm)
 This new variant can be used to determine all of the attributes of a data object f.
 Also, a simple DESCRIBE can be used with the addition "HELP-ID hlp" to determine which help ID belongs to f if any.
 
 Modification 3
 
-[DATA:](javascript:call_link\('abapdata.htm'\)) Fields ending with a '+' or '()' are no longer allowed.
+[DATA:](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata.htm) Fields ending with a '+' or '()' are no longer allowed.
 
 Modification 4
 
-[ABAP types](javascript:call_link\('abaptypes_simple.htm'\)) 1 and 2
+[ABAP types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_simple.htm) 1 and 2
 In Release 3.x, the ABAP types 1 and 2 were still supported in some areas in a very basic manner to retain R/2 compatibility. This is no longer the case in Release 4.0.
 
 Modification 5
 
-[WRITE: New formatting option NO-GROUPING](javascript:call_link\('abapwrite_to_options.htm'\))
+[WRITE: New formatting option NO-GROUPING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_to_options.htm)
 If a field of type I or type P is displayed, its thousands separator is suppressed.
 
 Modification 6
 
-[WRITE: Better Performance for WRITE (name) TO...](javascript:call_link\('abapwrite_to.htm'\))
+[WRITE: Better Performance for WRITE (name) TO...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_to.htm)
 If the content of the field name is invalid, a return code is set and the target field is left unchanged.
 
 Modification 7
 
-[SET RUN TIME ANALYZER ON/OFF](javascript:call_link\('abapset_run_time_analyzer.htm'\))
+[SET RUN TIME ANALYZER ON/OFF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_run_time_analyzer.htm)
 The addition MODE is no longer used.
 
 Modification 8
@@ -84,6 +84,6 @@ Modification 10
 
 Contexts
 
-An overview of contexts is provided [here](javascript:call_link\('abapcontexts.htm'\)).
+An overview of contexts is provided [here](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcontexts.htm).
 
 This translation does not reflect the current version of the documentation.

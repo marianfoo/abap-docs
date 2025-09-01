@@ -4,17 +4,17 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Class Libraries](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)) →  [iXML - Parsing](javascript:call_link\('abenabap_ixml_lib_parse.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml.htm) →  [XML - Class Libraries](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml_libs.htm) →  [iXML Library](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib.htm) →  [iXML - Parsing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_parse.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20iXML%20-%20Complete%20Parse%20to%20DOM%2C%20ABENABAP_IXML_LIB_PARSE_DOM%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 iXML - Complete Parse to DOM
 
-To parse XML data to a DOM representation in a single action, a [parser](javascript:call_link\('abenabap_ixml_lib_parse.htm'\)) created for this purpose is used as follows:
+To parse XML data to a DOM representation in a single action, a [parser](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_parse.htm) created for this purpose is used as follows:
 
 DATA(rc) = parser->parse( ).
 
-Here, parser is a reference variable that points to the parser. The parser checks whether the XML data of the input stream [istream](javascript:call_link\('abenabap_ixml_lib_input_output.htm'\)) is correct and creates a DOM representation of this file in the memory. The return value of the method PARSE has the type i and uses values to provide the result that match the following constants from the type pool IXML:
+Here, parser is a reference variable that points to the parser. The parser checks whether the XML data of the input stream [istream](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_input_output.htm) is correct and creates a DOM representation of this file in the memory. The return value of the method PARSE has the type i and uses values to provide the result that match the following constants from the type pool IXML:
 
 -   ixml\_mr\_parser\_ok
     
@@ -22,19 +22,19 @@ Here, parser is a reference variable that points to the parser. The parser check
     
 -   ixml\_mr\_parser\_error
     
-    The parsed XML data has errors. Although the parser created a valid DOM from the XML file with the errors, it does not usually contain all the XML data. These errors can be [analyzed](javascript:call_link\('abenabap_ixml_lib_parse_error.htm'\)).
+    The parsed XML data has errors. Although the parser created a valid DOM from the XML file with the errors, it does not usually contain all the XML data. These errors can be [analyzed](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_parse_error.htm).
     
 -   ixml\_mr\_parser\_fatal\_error
     
     The XML data could not be parsed at all. This error does not usually occur anymore.
     
 
-If the parsing is successful, the XML document [document](javascript:call_link\('abenabap_ixml_lib_input_output.htm'\)) linked with the parser can be used to [access the DOM](javascript:call_link\('abenabap_ixml_lib_dom_access.htm'\)) stored in the memory.
+If the parsing is successful, the XML document [document](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_input_output.htm) linked with the parser can be used to [access the DOM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_dom_access.htm) stored in the memory.
 
 Hints
 
 -   If an XML element has multiple attributes with the same name, only one of these attributes is passed to DOM, which is given the value of the last identically named attribute (see example class CL\_DEMO\_XML\_ATTRIBUTES).
--   An alternative for complete parsing of XML data to the DOM representation is to call the [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID with [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)). See the executable example [DOM Representation](javascript:call_link\('abenixml_dom_abexa.htm'\)). No streams and factories need to be created explicitly here.
+-   An alternative for complete parsing of XML data to the DOM representation is to call the [identity transformation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID with [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_transformation.htm). See the executable example [DOM Representation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenixml_dom_abexa.htm). No streams and factories need to be created explicitly here.
 
 Example
 

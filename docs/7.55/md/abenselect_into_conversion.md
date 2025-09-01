@@ -4,13 +4,15 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT, clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT, INTO, APPENDING](javascript:call_link\('abapinto_clause.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) →  [ABAP SQL - Read Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_reading.htm) →  [SELECT, clauses](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_clauses.htm) →  [SELECT, INTO, APPENDING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinto_clause.htm) → 
 
 SELECT, Assignment Rules
 
-The following assignment rules apply to assignments of the result fields of the result set of a standalone [SELECT](javascript:call_link\('abapselect.htm'\)), [WITH](javascript:call_link\('abapwith.htm'\)), or [FETCH](javascript:call_link\('abapfetch.htm'\)) statement to the target fields defined in the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause.
+The following assignment rules apply to assignments of the result fields of the result set of a standalone [SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect.htm), [WITH](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwith.htm), or [FETCH](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfetch.htm) statement to the target fields defined in the [INTO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinto_clause.htm) clause.
 
--   [Prerequisites](#abenselect-into-conversion-1--------rules---@ITOC@@ABENSELECT_INTO_CONVERSION_2)
+-   [Prerequisites](#@@ITOC@@ABENSELECT_INTO_CONVERSION_1)
+
+-   [Rules](#@@ITOC@@ABENSELECT_INTO_CONVERSION_2)
 
 Prerequisites
 
@@ -74,9 +76,9 @@ utclong
 
 Hints
 
--   Fields of the types STRING and RAWSTRING ([LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry")) from the result set can be assigned to reference variables for [LOB handles](javascript:call_link\('abenselect_into_lob_handles.htm'\)) as well as to strings. The static type of these reference variables must be one of the system classes or one of the system interfaces that support [streaming and locators](javascript:call_link\('abenstreams_locators.htm'\)) for ABAP SQL.
+-   Fields of the types STRING and RAWSTRING ([LOBs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlob_glosry.htm "Glossary Entry")) from the result set can be assigned to reference variables for [LOB handles](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_into_lob_handles.htm) as well as to strings. The static type of these reference variables must be one of the system classes or one of the system interfaces that support [streaming and locators](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstreams_locators.htm) for ABAP SQL.
 
--   Fields cannot be assigned to [enumerated variables](javascript:call_link\('abenenumerated_variable_glosry.htm'\) "Glossary Entry"), even if their [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") is an allowed ABAP type.
+-   Fields cannot be assigned to [enumerated variables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_variable_glosry.htm "Glossary Entry"), even if their [base type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbase_type_glosry.htm "Glossary Entry") is an allowed ABAP type.
 
 Rules
 
@@ -88,15 +90,15 @@ The following rules apply to the assignment procedure:
 
 -   If the target field is of data type n, the content of the result field is inserted right-aligned into the target field. If necessary, it is padded with zeros on the left. If the target field is too short, the result is truncated to the left.
 
--   If the target field has a [numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry"), the value of the result field is converted to this data type and the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") of the target field must be large enough. Here, any surplus decimal places in result fields of the type CURR, DEC, or QUAN (numbers in the [BCD](javascript:call_link\('abenbcd_glosry.htm'\) "Glossary Entry") format) are cut off.
+-   If the target field has a [numeric data type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumeric_data_type_glosry.htm "Glossary Entry"), the value of the result field is converted to this data type and the [value range](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_range_glosry.htm "Glossary Entry") of the target field must be large enough. Here, any surplus decimal places in result fields of the type CURR, DEC, or QUAN (numbers in the [BCD](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbcd_glosry.htm "Glossary Entry") format) are cut off.
 
--   If the result field contains a [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), a type-dependent initial value is assigned to the target field.
+-   If the result field contains a [null value](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennull_value_glosry.htm "Glossary Entry"), a type-dependent initial value is assigned to the target field.
 
-For assignments of LOBs to reference variables, see [LOB Handles](javascript:call_link\('abenselect_into_lob_handles.htm'\)).
+For assignments of LOBs to reference variables, see [LOB Handles](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_into_lob_handles.htm).
 
 Example
 
-The variable result1 is given the value 1. Any surplus decimal places are cut off. The built-in SQL function [ROUND](javascript:call_link\('abensql_arith_func.htm'\)) can be used to perform roundings like in [conversions](javascript:call_link\('abenconversion_rules.htm'\)) in ABAP. result2 is given the value 2.
+The variable result1 is given the value 1. Any surplus decimal places are cut off. The built-in SQL function [ROUND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_arith_func.htm) can be used to perform roundings like in [conversions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_rules.htm) in ABAP. result2 is given the value 2.
 
 DELETE FROM demo\_expressions.
 INSERT demo\_expressions FROM @( VALUE #( id   = 'X'

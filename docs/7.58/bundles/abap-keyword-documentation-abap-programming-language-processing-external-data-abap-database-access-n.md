@@ -3,31 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
-- [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
-- [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.978Z
-
----
-
 ### abenexec_sql_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,32 +11,21 @@ Included pages: 3
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [Embedded Native SQL (EXEC SQL)](javascript:call_link\('abennativesql.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql.htm) →  [Embedded Native SQL (EXEC SQL)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennativesql.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20EXEC%20SQL%20-%20Examples%2C%20ABENEXEC_SQL_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 EXEC SQL - Examples
 
--   [EXEC SQL - Use](javascript:call_link\('abennative_sql_abexa.htm'\))
--   [EXEC SQL - Access to Database Functions](javascript:call_link\('abenexec_sql_db_function_abexa.htm'\))
+-   [EXEC SQL - Use](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+-   [EXEC SQL - Access to Database Functions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [EXEC SQL - Use](javascript:call_link\('abennative_sql_abexa.htm'\))
-![Example](exa.gif "Example") [EXEC SQL - Access to Database Functions](javascript:call_link\('abenexec_sql_db_function_abexa.htm'\))
+![Example](exa.gif "Example") [EXEC SQL - Use](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
+![Example](exa.gif "Example") [EXEC SQL - Access to Database Functions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
 
-
-
-**📖 Source**: [abenexec_sql_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm)
 
 ### abennative_sql_abexa.htm
-
-> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -68,7 +33,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [Embedded Native SQL (EXEC SQL)](javascript:call_link\('abennativesql.htm'\)) →  [EXEC SQL - Examples](javascript:call_link\('abenexec_sql_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql.htm) →  [Embedded Native SQL (EXEC SQL)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennativesql.htm) →  [EXEC SQL - Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20EXEC%20SQL%20-%20Use%2C%20ABENNATIVE_SQL_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -172,24 +137,10 @@ START-OF-SELECTION.
 
 Description   
 
-The program is the static equivalent of the executable [ADBC](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\)) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert existing rows can only be detected using sy-subrc and the corresponding SQL exception must be raised explicitly.
+The program is the static equivalent of the executable [ADBC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc_dml_ddl_abexa.htm) example. The name of the database abap\_docu\_demo\_mytab cannot be modified. Instead of passing the SQL statements dynamically to methods of the class CL\_SQL\_STATEMENT, they are specified statically between EXEC and ENDEXEC. Attempts to insert existing rows can only be detected using sy-subrc and the corresponding SQL exception must be raised explicitly.
 
-
-
-**📖 Source**: [abennative_sql_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_abexa.htm)
 
 ### abenexec_sql_db_function_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenexec_sql_db_function_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_db_function_abexa.htm)
-
 
   
 
@@ -197,7 +148,7 @@ The program is the static equivalent of the executable [ADBC](javascript:call_li
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [Embedded Native SQL (EXEC SQL)](javascript:call_link\('abennativesql.htm'\)) →  [EXEC SQL - Examples](javascript:call_link\('abenexec_sql_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql.htm) →  [Embedded Native SQL (EXEC SQL)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennativesql.htm) →  [EXEC SQL - Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexec_sql_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20EXEC%20SQL%20-%20Access%20to%20Database%20Functions%2C%20ABENEXEC_SQL_DB_FUNCTION_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20
 improvement:)
@@ -264,4 +215,4 @@ ENDCLASS.
 
 Description   
 
-After [EXEC SQL](javascript:call_link\('abapexec.htm'\)), this example creates a scalar [database function](javascript:call_link\('abendatabase_function_glosry.htm'\) "Glossary Entry") with two input parameters and uses this function in the WHERE condition of a SELECT statement.
+After [EXEC SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexec.htm), this example creates a scalar [database function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_function_glosry.htm "Glossary Entry") with two input parameters and uses this function in the WHERE condition of a SELECT statement.

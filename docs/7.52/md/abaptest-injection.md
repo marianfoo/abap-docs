@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) →  [Test Seams](javascript:call_link\('abentest_seams.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_unit.htm) →  [Test Seams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_seams.htm) → 
 
 TEST-INJECTION
 
-[Quick Reference](javascript:call_link\('abaptest-injection_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-injection_shortref.htm)
 
 Syntax
 
@@ -18,17 +18,17 @@ END-TEST-INJECTION.
 
 Effect
 
-The statement TEST-INJECTION introduces an [injection](javascript:call_link\('abeninjection_glosry.htm'\) "Glossary Entry") for a [test seam](javascript:call_link\('abentest_seam_glosry.htm'\) "Glossary Entry") seam, closed using END-TEST-INJECTION. The test seam seam must be defined in the production code of the current program using the statement [TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\)). When a unit test is performed, the statement block statement\_block of the injection replaces the statement block of the test seam seam in production code.
+The statement TEST-INJECTION introduces an [injection](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninjection_glosry.htm "Glossary Entry") for a [test seam](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_seam_glosry.htm "Glossary Entry") seam, closed using END-TEST-INJECTION. The test seam seam must be defined in the production code of the current program using the statement [TEST-SEAM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-seam.htm). When a unit test is performed, the statement block statement\_block of the injection replaces the statement block of the test seam seam in production code.
 
-An injection can only be defined in those methods of test classes created in a [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry"). Injections have the following properties:
+An injection can only be defined in those methods of test classes created in a [test include](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_include_glosry.htm "Glossary Entry"). Injections have the following properties:
 
 -   Injections can be made only while a test method or the setup method is being executed.
     
 -   Injections cannot be nested, which means that an injection cannot contain further injections.
     
--   An injection cannot extend beyond the limits of a [statement block](javascript:call_link\('abenstatement_block_glosry.htm'\) "Glossary Entry"), but can contain closed [control structures](javascript:call_link\('abencontrol_structure_glosry.htm'\) "Glossary Entry").
+-   An injection cannot extend beyond the limits of a [statement block](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatement_block_glosry.htm "Glossary Entry"), but can contain closed [control structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_structure_glosry.htm "Glossary Entry").
     
--   An injection can include local data declarations using the statement [DATA](javascript:call_link\('abapdata.htm'\)). These variables are visible below their declaration in the current injection and all following injections of the current test class. The data objects declared in an injection are not visible outside of injections (in other parts of the test class or in production code). Injections that access data objects declared in a different injection can only be assigned to test seams defined in the production source code below the test seam (meaning the test seam assigned to the declaring injection).
+-   An injection can include local data declarations using the statement [DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata.htm). These variables are visible below their declaration in the current injection and all following injections of the current test class. The data objects declared in an injection are not visible outside of injections (in other parts of the test class or in production code). Injections that access data objects declared in a different injection can only be assigned to test seams defined in the production source code below the test seam (meaning the test seam assigned to the declaring injection).
     
 -   An injection can be empty (that is, it is does not contain any statements). The code of the specified test seam is removed when the injection is executed.
     
@@ -50,9 +50,9 @@ Notes
 
 Example
 
-The [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry") of the class CL\_DEMO\_TEST\_SEAMS is an example of a test class with injections:
+The [test include](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_include_glosry.htm "Glossary Entry") of the class CL\_DEMO\_TEST\_SEAMS is an example of a test class with injections:
 
-The test method tests the method CHANGE\_PRICE (see the example for [TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\))). Before the test method runs, the injection replaces the injection in the setup method of the test seam selection. When the test method runs,
+The test method tests the method CHANGE\_PRICE (see the example for [TEST-SEAM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptest-seam.htm)). Before the test method runs, the injection replaces the injection in the setup method of the test seam selection. When the test method runs,
 
 -   the statements of the test seam modification are removed when replaced by an empty injection and the successful closing of the method is confirmed,
 
@@ -106,4 +106,4 @@ CLASS test\_demo\_test\_seam IMPLEMENTATION.
 ENDCLASS.
 
 Continue
-[END-TEST-INJECTION](javascript:call_link\('abapend-test-injection.htm'\))
+[END-TEST-INJECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapend-test-injection.htm)

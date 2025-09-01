@@ -4,29 +4,35 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Functions](javascript:call_link\('abenstring_functions.htm'\)) →  [Processing Functions for Character-Like Arguments](javascript:call_link\('abenprocess_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_processing_expr_func.htm) →  [String Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions.htm) →  [Processing Functions for Character-Like Arguments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocess_functions.htm) → 
 
 escape - Escape Function
 
 Syntax
 
-... escape( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) format = format ) ...
+... escape( [val = text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.htm) format = format ) ...
 
 Effect
 
-This function gets the content of the character string in [text](javascript:call_link\('abenstring_functions_val.htm'\)), and hides certain special characters with escape characters according to a rule specified in format.
+This function gets the content of the character string in [text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.htm), and hides certain special characters with escape characters according to a rule specified in format.
 
 The possible values of format are defined as constants with the prefix "E\_" in the class CL\_ABAP\_FORMAT. Each value defines which special characters are replaced, and how. There are rules for special characters in markup languages (XML and HTML), in URIs and URLs, in JSON, as well as in regular expressions and character string templates. An important part is also played by attack protection using Cross Site Scripting (XSS) on Web applications.
 
 format expects data objects of the type i. An invalid value for format raises an exception of the class CX\_SY\_STRG\_PAR\_VAL. For all characters whose codes are between x00 and xFF, the program DEMO\_ESCAPE demonstrates the effect of all associated formats from the class CL\_ABAP\_FORMAT. The top row contains the names of the constants from the class CL\_ABAP\_FORMAT without the prefix "E\_". The other rows show the effect on the characters specified in the first two columns.
 
-This function can be specified in [general](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") and [character-like expression positions](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry"). The return code has the type string.
+This function can be specified in [general](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and [character-like expression positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry"). The return code has the type string.
 
--   [Rules for Markup Languages (Including JavaScript)](#abenescape-functions-1--------rules-for-url-uris---@ITOC@@ABENESCAPE_FUNCTIONS_2)
+-   [Rules for Markup Languages (Including JavaScript)](#@@ITOC@@ABENESCAPE_FUNCTIONS_1)
 
--   [Rules for JSON](#abenescape-functions-3--------rules-for-regular-expressions---@ITOC@@ABENESCAPE_FUNCTIONS_4)
+-   [Rules for URL/URIs](#@@ITOC@@ABENESCAPE_FUNCTIONS_2)
 
--   [Rules for String Templates](#abenescape-functions-5--------rules-for-cross-site-scripting---@ITOC@@ABENESCAPE_FUNCTIONS_6)
+-   [Rules for JSON](#@@ITOC@@ABENESCAPE_FUNCTIONS_3)
+
+-   [Rules for Regular Expressions](#@@ITOC@@ABENESCAPE_FUNCTIONS_4)
+
+-   [Rules for String Templates](#@@ITOC@@ABENESCAPE_FUNCTIONS_5)
+
+-   [Rules for Cross Site Scripting](#@@ITOC@@ABENESCAPE_FUNCTIONS_6)
 
 Rules for Markup Languages (Including JavaScript)
 
@@ -330,7 +336,7 @@ cl\_demo\_output=>display(
 
 Executable Example
 
-[String Functions, escape for HTML](javascript:call_link\('abenstring_function_escape_abexa.htm'\))
+[String Functions, escape for HTML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_function_escape_abexa.htm)
 
 Rules for URL/URIs
 
@@ -360,7 +366,7 @@ E\_URI\_1
 
 \[0-9\], \[a-z\], \[A-Z\], !, $, (, ), \*, +, ,, \-, ., \_, ;, \=, @, ~, \[, \]
 
-All characters with codes from x80 are converted to their [UTF-8](javascript:call_link\('abenutf8_glosry.htm'\) "Glossary Entry") representation. Depending on the character, one to four bytes are represented in the form %hh, where hh is the hexadecimal value of a byte.
+All characters with codes from x80 are converted to their [UTF-8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenutf8_glosry.htm "Glossary Entry") representation. Depending on the character, one to four bytes are represented in the form %hh, where hh is the hexadecimal value of a byte.
 
 Example
 
@@ -372,7 +378,7 @@ cl\_demo\_output=>display(
 
 Rules for JSON
 
-The program DEMO\_ESCAPE\_JSON demonstrates the escape rules of the format E\_JSON\_STRING for [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry"). The special characters " and \\ are prefixed with the escape character \\. Control characters with the codes x08, x09, x0A, x0C, and x0D are escaped using \\b, \\t, \\n, \\f, and \\r respectively. All other codes less than x20 are converted to a four-character hexadecimal representation and prefixed by \\u. None of the other characters are affected.
+The program DEMO\_ESCAPE\_JSON demonstrates the escape rules of the format E\_JSON\_STRING for [JSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_glosry.htm "Glossary Entry"). The special characters " and \\ are prefixed with the escape character \\. Control characters with the codes x08, x09, x0A, x0C, and x0D are escaped using \\b, \\t, \\n, \\f, and \\r respectively. All other codes less than x20 are converted to a four-character hexadecimal representation and prefixed by \\u. None of the other characters are affected.
 
 Example
 
@@ -384,7 +390,7 @@ cl\_demo\_output=>display(
 
 Rules for Regular Expressions
 
-The program DEMO\_ESCAPE\_REGEX demonstrates the escape rules of the format E\_REGEX for regular expressions. The [special characters of regular expressions](javascript:call_link\('abenregex_syntax_specials.htm'\)) are prefixed by the associated escape character \\. Control characters with the codes x08, x09, x0A, x0B, x0C, and x0D are escaped using \\b, \\t, \\n, \\v, \\f, and \\r respectively.
+The program DEMO\_ESCAPE\_REGEX demonstrates the escape rules of the format E\_REGEX for regular expressions. The [special characters of regular expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_syntax_specials.htm) are prefixed by the associated escape character \\. Control characters with the codes x08, x09, x0A, x0B, x0C, and x0D are escaped using \\b, \\t, \\n, \\v, \\f, and \\r respectively.
 
 Example
 
@@ -396,7 +402,7 @@ cl\_demo\_output=>display(
 
 Rules for String Templates
 
-The program DEMO\_ESCAPE\_STRING\_TEMPLATE demonstrates the escape rules of the format E\_STRING\_TPL for string templates. The special characters of [string templates](javascript:call_link\('abenstring_templates.htm'\)) (|, \\, {, }) are prefixed by the associated escape character \\. Control characters with the codes x09, x0A, and x0D are replaced by \\t, \\n, and \\r respectively.
+The program DEMO\_ESCAPE\_STRING\_TEMPLATE demonstrates the escape rules of the format E\_STRING\_TPL for string templates. The special characters of [string templates](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates.htm) (|, \\, {, }) are prefixed by the associated escape character \\. Control characters with the codes x09, x0A, and x0D are replaced by \\t, \\n, and \\r respectively.
 
 Example
 
@@ -408,7 +414,7 @@ cl\_demo\_output=>display(
 
 Rules for Cross Site Scripting
 
-The program DEMO\_ESCAPE\_XSS demonstrates the escape rules of the formats E\_XSS\_... that enable attacks using Cross Site Scripting ([XSS](javascript:call_link\('abenxss_glosry.htm'\) "Glossary Entry")) on Web applications to be prevented. Rules exist for XML/HTML content, JavaScript content, Cascading Style Sheets (CSS), and URL content.
+The program DEMO\_ESCAPE\_XSS demonstrates the escape rules of the formats E\_XSS\_... that enable attacks using Cross Site Scripting ([XSS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxss_glosry.htm "Glossary Entry")) on Web applications to be prevented. Rules exist for XML/HTML content, JavaScript content, Cascading Style Sheets (CSS), and URL content.
 
 The rules for XSS include all the rules for individual formats, plus some extra rules. They are particularly distinct from the rules for markup languages, including JavaScript (see above). These extended rules are designed to be used to protect ABAP programs from Cross Site Scripting, when content can be constructed from non-secure sources. The transformations listed above are replaced or modified as follows:
 
@@ -416,7 +422,7 @@ The rules for XSS include all the rules for individual formats, plus some extra 
 
 -   JavaScript: Format E\_XSS\_JS. All characters (except \[0-9\], \[a-z\], \[A-Z\], ,, ., and \_) are transformed to \\xhh or \\uhhhh, where hh or hhhh is the hexadecimal value of the code.
 
--   URL/URIs: Format E\_XSS\_URL. All characters (except \[0-9\], \[a-z\], \[A-Z\], \*, \-, ., and \_) are transformed to %hh, where hh is the hexadecimal value of the code. All characters with codes from x80 are converted to their [UTF-8](javascript:call_link\('abenutf8_glosry.htm'\) "Glossary Entry") representation. Depending on the character, one to four bytes are represented in the form %hh, where hh is the hexadecimal value of a byte.
+-   URL/URIs: Format E\_XSS\_URL. All characters (except \[0-9\], \[a-z\], \[A-Z\], \*, \-, ., and \_) are transformed to %hh, where hh is the hexadecimal value of the code. All characters with codes from x80 are converted to their [UTF-8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenutf8_glosry.htm "Glossary Entry") representation. Depending on the character, one to four bytes are represented in the form %hh, where hh is the hexadecimal value of a byte.
 
 -   CSS: Format E\_XSS\_CSS. All characters (except \[0-9\], \[a-z\], and \[A-Z\]) are transformed to \\hh or \\hhhh, where hh or hhhh is the hexadecimal value of the code. A blank is inserted after hh or hhhh if the following character is a valid hexadecimal digit.
 
@@ -438,15 +444,15 @@ cl\_demo\_output=>display(
 
 Executable Example
 
-[String Functions, escape for XSS](javascript:call_link\('abenstring_function_esc_xss_abexa.htm'\))
+[String Functions, escape for XSS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_function_esc_xss_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
 CX\_SY\_CONVERSION\_CODEPAGE\_EX
 
--   Cause: A character cannot be converted in a conversion to UTF-8. This can only occur with characters from the [surrogate area](javascript:call_link\('abensurrogate_area_glosry.htm'\) "Glossary Entry"). The position and code of the character is specified in the exception object.
+-   Cause: A character cannot be converted in a conversion to UTF-8. This can only occur with characters from the [surrogate area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensurrogate_area_glosry.htm "Glossary Entry"). The position and code of the character is specified in the exception object.
     Runtime error: CONVT\_CHARACTER
     
 

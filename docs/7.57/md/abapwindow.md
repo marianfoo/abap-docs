@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Display](javascript:call_link\('abenlists_displayed.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpro_list.htm) →  [Lists - Display](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlists_displayed.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: WINDOW, ABAPWINDOW, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for impro
 vement:)
 
 WINDOW
 
-[Short Reference](javascript:call_link\('abapwindow_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwindow_shortref.htm)
 
 Syntax
 
@@ -26,11 +26,11 @@ The upper left corner is determined for the column and the line by the values in
 
 col1, lin1, col2, and lin2 expect data objects of the type i. The values of all data objects should be within the GUI window of the basic list and the values of col1 and lin1 should be less than those of col2 and lin2. If not, the behavior is undefined.
 
-If no GUI status is set using [SET PF-STATUS](javascript:call_link\('abapset_pf-status_list.htm'\)) and an event block is defined using [AT LINE-SELECTION](javascript:call_link\('abapat_line-selection.htm'\)) or [AT PFnn](javascript:call_link\('abapat_pfnn.htm'\)), the system automatically uses a [standard list status](javascript:call_link\('abenstandard_list_status_glosry.htm'\) "Glossary Entry") suitable for the dialog box without a [menu bar](javascript:call_link\('abenmenu_bar_glosry.htm'\) "Glossary Entry") and [system toolbar](javascript:call_link\('abenstandard_toolbar_glosry.htm'\) "Glossary Entry"). This includes pushbuttons for the predefined function codes PICK (only for AT LINE-SELECTION), PRI, %SC, %SC+, and RW in the [application toolbar](javascript:call_link\('abenapplication_toolbar_glosry.htm'\) "Glossary Entry").
+If no GUI status is set using [SET PF-STATUS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_pf-status_list.htm) and an event block is defined using [AT LINE-SELECTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_line-selection.htm) or [AT PFnn](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapat_pfnn.htm), the system automatically uses a [standard list status](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_list_status_glosry.htm "Glossary Entry") suitable for the dialog box without a [menu bar](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmenu_bar_glosry.htm "Glossary Entry") and [system toolbar](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_toolbar_glosry.htm "Glossary Entry"). This includes pushbuttons for the predefined function codes PICK (only for AT LINE-SELECTION), PRI, %SC, %SC+, and RW in the [application toolbar](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenapplication_toolbar_glosry.htm "Glossary Entry").
 
 Hint
 
-If a GUI status is set using SET PF-STATUS, this should be created in the [Menu Painter](javascript:call_link\('abenmenu_painter_glosry.htm'\) "Glossary Entry") as a dialog box status and by including the list template.
+If a GUI status is set using SET PF-STATUS, this should be created in the [Menu Painter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmenu_painter_glosry.htm "Glossary Entry") as a dialog box status and by including the list template.
 
 Example
 
@@ -62,4 +62,4 @@ AT LINE-SELECTION.
   ENDIF.
 
 Continue
-![Example](exa.gif "Example") [Lists - Dialog Box](javascript:call_link\('abenlist_window_abexa.htm'\))
+![Example](exa.gif "Example") [Lists - Dialog Box](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlist_window_abexa.htm)

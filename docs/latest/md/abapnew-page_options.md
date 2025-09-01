@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Create](javascript:call_link\('abenabap_lists.htm'\)) →  [NEW-PAGE](javascript:call_link\('abapnew-page.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpro_list.htm) →  [Lists - Create](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_lists.htm) →  [NEW-PAGE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapnew-page.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20NEW-PAGE%2C%20page_options%2C%20ABAPNEW-PAGE_OPTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 NEW-PAGE, page\_options
 
-[Short Reference](javascript:call_link\('abapnew-page_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapnew-page_shortref.htm)
 
 Syntax
 
@@ -60,7 +60,7 @@ Effect
 
 This addition sets the page length of the subsequent pages of the current list level to the value in page\_lines and sets sy-linct to this value. page\_lines expects a data object of type i. If the value of page\_lines is less than or equal to 0 or greater than 60000, the page length is set to 60000. For the basic list, the addition overrides the page length specified in the program-initiating statement.
 
-The page length determines how many lines, including the [page header](javascript:call_link\('abenpage_header_glosry.htm'\) "Glossary Entry") and [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry"), can be written to a list page. If output is written to a line outside the current page length or in the area reserved for the page footer of a basic list, a new page is created automatically.
+The page length determines how many lines, including the [page header](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpage_header_glosry.htm "Glossary Entry") and [page footer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpage_footer_glosry.htm "Glossary Entry"), can be written to a list page. If output is written to a line outside the current page length or in the area reserved for the page footer of a basic list, a new page is created automatically.
 
 Hints
 
@@ -71,7 +71,7 @@ Hints
 
 Example
 
-The following code demonstrates automatic page breaks in a basic list. The pages have two-line page headers and page footers defined after [TOP-OF-PAGE](javascript:call_link\('abaptop-of-page.htm'\)) and [END-OF-PAGE](javascript:call_link\('abapend-of-page.htm'\)). The page length is specified after NEW-PAGE. The program displays five pages.
+The following code demonstrates automatic page breaks in a basic list. The pages have two-line page headers and page footers defined after [TOP-OF-PAGE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptop-of-page.htm) and [END-OF-PAGE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapend-of-page.htm). The page length is specified after NEW-PAGE. The program displays five pages.
 
 REPORT NO STANDARD PAGE HEADING LINE-COUNT 0(2).
 TOP-OF-PAGE.
@@ -92,13 +92,13 @@ Addition 4  
 
 Effect
 
-This addition sets the page width of the current list level to the value in width and sets sy-linsz to this value. The line width determines the number of characters in the list buffer as well as the number of columns in the list displayed. width expects a data object of type i. The value of width must not be negative. If the value of width is equal to 0 or greater than 1023, the line width is set to a default width, which is based on the window width of the current [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") (sy-scols), but is at least as wide as the width of a standard sized GUI window. For the basic list, the addition overrides the page width specified in the program-initiating statement.
+This addition sets the page width of the current list level to the value in width and sets sy-linsz to this value. The line width determines the number of characters in the list buffer as well as the number of columns in the list displayed. width expects a data object of type i. The value of width must not be negative. If the value of width is equal to 0 or greater than 1023, the line width is set to a default width, which is based on the window width of the current [dynpro](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm "Glossary Entry") (sy-scols), but is at least as wide as the width of a standard sized GUI window. For the basic list, the addition overrides the page width specified in the program-initiating statement.
 
 The addition has an effect only if no output has yet been sent to the current list level. The page width of a list that has already been written cannot be changed.
 
 Hint
 
-The current maximum line width is stored in the constants slist\_max\_linesize of the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") SLIST. A type slist\_max\_listline of type c and length slist\_max\_linesize is also defined there.
+The current maximum line width is stored in the constants slist\_max\_linesize of the [type pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_pool_glosry.htm "Glossary Entry") SLIST. A type slist\_max\_listline of type c and length slist\_max\_linesize is also defined there.
 
 Example
 
@@ -118,7 +118,7 @@ Addition 5  
 
 Effect
 
-This addition suppresses the event [TOP-OF-PAGE](javascript:call_link\('abaptop-of-page.htm'\)) on the new page and on all automatically created pages of the current list level up to the next statement NEW-PAGE. If the addition NO-TOPOFPAGE is not specified, the event TOP-OF-PAGE is raised before the output is sent to a new page.
+This addition suppresses the event [TOP-OF-PAGE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptop-of-page.htm) on the new page and on all automatically created pages of the current list level up to the next statement NEW-PAGE. If the addition NO-TOPOFPAGE is not specified, the event TOP-OF-PAGE is raised before the output is sent to a new page.
 
 Example
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 7.40 and Its SPs](javascript:call_link\('abennews-740.htm'\)) →  [Changes in Release 7.40, SP02](javascript:call_link\('abennews-740_sp02.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews.htm) →  [Changes in Release 7.40 and Its SPs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-740.htm) →  [Changes in Release 7.40, SP02](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-740_sp02.htm) → 
 
 ABAP Objects in Release 7.40, SP02
 
@@ -20,26 +20,26 @@ Modification 1
 
 Parameter Interface of Functional Methods
 
-Alongside the return value defined using RETURNING, a [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") can now have any number of other [formal parameters](javascript:call_link\('abenformal_parameter_glosry.htm'\) "Glossary Entry"). Previously, only [input parameters](javascript:call_link\('abeninput_parameter_glosry.htm'\) "Glossary Entry") were possible.
+Alongside the return value defined using RETURNING, a [functional method](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunctional_method_glosry.htm "Glossary Entry") can now have any number of other [formal parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenformal_parameter_glosry.htm "Glossary Entry"). Previously, only [input parameters](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninput_parameter_glosry.htm "Glossary Entry") were possible.
 
-Accordingly, [functional method calls](javascript:call_link\('abenfunctional_method_call_glosry.htm'\) "Glossary Entry") can now be used with the additions EXPORTING, IMPORTING, and CHANGING, so that actual parameters can be bound to the additional formal parameters.
+Accordingly, [functional method calls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunctional_method_call_glosry.htm "Glossary Entry") can now be used with the additions EXPORTING, IMPORTING, and CHANGING, so that actual parameters can be bound to the additional formal parameters.
 
-When the input parameters of a method are declared, the addition [PREFERRED PARAMETER](javascript:call_link\('abapmethods_general.htm'\)) can now also be specified, if the method has output parameters or input/output parameters. The only requirement is that all input parameters and input/output parameters are optional.
+When the input parameters of a method are declared, the addition [PREFERRED PARAMETER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_general.htm) can now also be specified, if the method has output parameters or input/output parameters. The only requirement is that all input parameters and input/output parameters are optional.
 
 Modification 2
 
 Interfaces in Test Classes
 
-In test classes, the new addition [PARTIALLY IMPLEMENTED](javascript:call_link\('abapinterfaces_partially.htm'\)) can be specified in the statement INTERFACES, which allows only parts interfaces to be implemented. This is particularly useful in test doubles.
+In test classes, the new addition [PARTIALLY IMPLEMENTED](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_partially.htm) can be specified in the statement INTERFACES, which allows only parts interfaces to be implemented. This is particularly useful in test doubles.
 
 Modification 3
 
 Exception Handling
 
-If a class is specified dynamically after TYPE in the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_explicit.htm'\)) and the class does not match the static type of the reference variable, the exception can now be handled using the exception class CX\_SY\_CREATE\_OBJECT\_ERROR.
+If a class is specified dynamically after TYPE in the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_object_explicit.htm) and the class does not match the static type of the reference variable, the exception can now be handled using the exception class CX\_SY\_CREATE\_OBJECT\_ERROR.
 
 Modification 4
 
 Execution of Static Constructor
 
-Until now, the [static constructor](javascript:call_link\('abenstatic_constructor_glosry.htm'\) "Glossary Entry") of a class was called before each use of the class. It is not necessary to execute the static constructor to use a constant of the class. Accessing a constant of a class no longer results in its static constructor being called.
+Until now, the [static constructor](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_constructor_glosry.htm "Glossary Entry") of a class was called before each use of the class. It is not necessary to execute the static constructor to use a constant of the class. Accessing a constant of a class no longer results in its static constructor being called.

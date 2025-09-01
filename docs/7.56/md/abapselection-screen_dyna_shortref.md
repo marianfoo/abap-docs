@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  S
 
 SELECTION-SCREEN DYNAMIC SELECTIONS - Short Reference
 
-[Reference](javascript:call_link\('abapselection-screen_ldb_dynamic.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_ldb_dynamic.htm)
 
 Syntax
 
@@ -17,7 +17,7 @@ SELECTION-SCREEN DYNAMIC SELECTIONS
 
 Effect
 
-Obsolete: Flags a node node of the structure of a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") for dynamic selections.
+Obsolete: Flags a node node of the structure of a [logical database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") for dynamic selections.
 
 Addition
 

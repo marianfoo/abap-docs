@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP RESTful Programming Model](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Behavior Definitions](javascript:call_link\('abenabap_behavior_definitions.htm'\)) →  [ABAP BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [ABAP BDL - Syntax](javascript:call_link\('abenbdl_syntax.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP RESTful Programming Model](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrestful_abap_programming.htm) →  [Behavior Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_behavior_definitions.htm) →  [ABAP BDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_bdl.htm) →  [ABAP BDL - Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_syntax.htm) → 
 
 ABAP BDL - General Syntax Rules
 
-Following rules apply for the ABAP Behavior Definition Language ([BDL](javascript:call_link\('abenbdl_glosry.htm'\) "Glossary Entry")) syntax:
+Following rules apply for the ABAP Behavior Definition Language ([BDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_glosry.htm "Glossary Entry")) syntax:
 
 Keywords
 

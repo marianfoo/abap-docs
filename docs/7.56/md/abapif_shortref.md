@@ -4,17 +4,17 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  I
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  I
 
 IF - Short Reference
 
-[Reference](javascript:call_link\('abapif.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapif.htm)
 
 Syntax
 
-IF [log\_exp1](javascript:call_link\('abenlog_exp_shortref.htm'\)).
+IF [log\_exp1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlog_exp_shortref.htm).
   *\[*statement\_block1*\]*
-*\[*ELSEIF [log\_exp2](javascript:call_link\('abenlog_exp_shortref.htm'\)).
+*\[*ELSEIF [log\_exp2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlog_exp_shortref.htm).
   *\[*statement\_block2*\]**\]*
 ...
 *\[*ELSE.

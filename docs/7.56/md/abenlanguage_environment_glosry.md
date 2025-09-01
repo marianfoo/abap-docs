@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 language environment
 
-Language-dependent settings for [ABAP programs](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry"). The language environment includes both [language settings](javascript:call_link\('abenlanguage_setting_glosry.htm'\) "Glossary Entry") and [format settings](javascript:call_link\('abenformat_setting_glosry.htm'\) "Glossary Entry").
+Language-dependent settings for [ABAP programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_glosry.htm "Glossary Entry"). The language environment includes both [language settings](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlanguage_setting_glosry.htm "Glossary Entry") and [format settings](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenformat_setting_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenlanguage.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlanguage.htm)

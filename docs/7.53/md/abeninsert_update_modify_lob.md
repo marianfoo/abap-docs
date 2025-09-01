@@ -4,31 +4,37 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Write Accesses](javascript:call_link\('abenopen_sql_writing.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Write Accesses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_writing.htm) → 
 
 INSERT, UPDATE, MODIFY dbtab - LOB Handles
 
-In the [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)), [UPDATE](javascript:call_link\('abapupdate.htm'\)), or [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)) statements, [LOB handles](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry") can be created as [writer streams](javascript:call_link\('abenwriter_stream_glosry.htm'\) "Glossary Entry") and specified as [locators](javascript:call_link\('abenlocator_glosry.htm'\) "Glossary Entry").
+In the [INSERT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_dbtab.htm), [UPDATE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapupdate.htm), or [MODIFY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_dbtab.htm) statements, [LOB handles](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_handle_glosry.htm "Glossary Entry") can be created as [writer streams](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwriter_stream_glosry.htm "Glossary Entry") and specified as [locators](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocator_glosry.htm "Glossary Entry").
 
--   [Prerequisites](#abeninsert-update-modify-lob-1--------rules---@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_2)
+-   [Prerequisites](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_1)
 
--   [Changing Accesses Using Write Streams](#abeninsert-update-modify-lob-3--------changing-accesses-using-locators---@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_4)
+-   [Rules](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_2)
 
--   [Restrictions](#abeninsert-update-modify-lob-5--------examples---@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_6)
+-   [Changing Accesses Using Write Streams](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_3)
+
+-   [Changing Accesses Using Locators](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_4)
+
+-   [Restrictions](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_5)
+
+-   [Examples](#@@ITOC@@ABENINSERT_UPDATE_MODIFY_LOB_6)
 
 Prerequisites
 
-An [LOB](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in a row to be inserted or changed can be supplied from an [LOB handle component](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry") of a work area or an individual reference variable for an LOB handle (at UPDATE with SET). The static type of each LOB handle component must be one of the following system classes for [streaming](javascript:call_link\('abenopen_sql_streaming.htm'\)) or [locators](javascript:call_link\('abenlocators.htm'\)):
+An [LOB](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_glosry.htm "Glossary Entry") in a row to be inserted or changed can be supplied from an [LOB handle component](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_handle_glosry.htm "Glossary Entry") of a work area or an individual reference variable for an LOB handle (at UPDATE with SET). The static type of each LOB handle component must be one of the following system classes for [streaming](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_streaming.htm) or [locators](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocators.htm):
 
-The [stream type](javascript:call_link\('abenstream_type_glosry.htm'\) "Glossary Entry") or [locator type](javascript:call_link\('abenlocator_type_glosry.htm'\) "Glossary Entry") must match the data type of the LOBs.
+The [stream type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstream_type_glosry.htm "Glossary Entry") or [locator type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlocator_type_glosry.htm "Glossary Entry") must match the data type of the LOBs.
 
 Rules
 
-Unlike in [reads](javascript:call_link\('abenselect_into_lob_handles.htm'\)), the behavior for streams does not match the behavior for locators.
+Unlike in [reads](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_into_lob_handles.htm), the behavior for streams does not match the behavior for locators.
 
 Changing Accesses Using Write Streams
 
-If, in a changing access, an [LOB](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") is associated with a reference variable of the type CL\_ABAP\_DB\_C\_WRITER or CL\_ABAP\_DB\_X\_WRITER, a corresponding writer stream is usually created and the reference variable points to the object after execution. The LOB to be changed can be edited using the methods of the writer stream. When an LOB is associated with a writer stream referenced by an [LOB handle component](javascript:call_link\('abenlob_handle_component_glosry.htm'\) "Glossary Entry") from the source work area, the following various platform-dependent behavior may occur:
+If, in a changing access, an [LOB](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_glosry.htm "Glossary Entry") is associated with a reference variable of the type CL\_ABAP\_DB\_C\_WRITER or CL\_ABAP\_DB\_X\_WRITER, a corresponding writer stream is usually created and the reference variable points to the object after execution. The LOB to be changed can be edited using the methods of the writer stream. When an LOB is associated with a writer stream referenced by an [LOB handle component](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_handle_component_glosry.htm "Glossary Entry") from the source work area, the following various platform-dependent behavior may occur:
 
 -   On some database systems (MaxDB, Oracle), the components of the work area which are not LOB handle components are written directly to the database when executing the statement. If the rows cannot be added or changed, sy-subrc and sy-dbcnt respectively are set immediately and no writer stream is created for the LOB handle components. If the rows can be added or changed, writer streams are created and their content is passed to the database when closing the last writer stream of the ABAP SQL statement at the latest.
 
@@ -38,7 +44,7 @@ A writer stream created in this way exists until it is explicitly closed using i
 
 When using writer streams, a non-handleable exception is raised in the following cases:
 
--   If a writer stream is still open when closing a [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry") using a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry").
+-   If a writer stream is still open when closing a [database LUW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_luw_glosry.htm "Glossary Entry") using a [database commit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry").
 
 -   When accessing a writer stream that is already closed.
 
@@ -46,11 +52,11 @@ Notes
 
 -   Exactly when the data of a writer stream is passed to the database is not defined. The data is passed at the latest when the last writer stream is closed but can also occur during writing in the stream, for example because a buffer is no longer large enough.
 
--   Always close a writer stream explicitly and as soon as possible using its method CLOSE. Also refer to [Streaming and Locators](javascript:call_link\('abenstreams_locators.htm'\)).
+-   Always close a writer stream explicitly and as soon as possible using its method CLOSE. Also refer to [Streaming and Locators](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstreams_locators.htm).
 
 Changing Accesses Using Locators
 
-If, in a changing access, an [LOB](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") is associated with a reference variable of type CL\_ABAP\_DB\_C\_LOCATOR or CL\_ABAP\_DB\_X\_LOCATOR, this variable must point to an appropriate locator, [created](javascript:call_link\('abenselect_into_lob_handles.htm'\)) in a statement SELECT for a LOB in a different database table or the same table. If the statement can be executed (sy-subrc is 0), the LOB to be changed is replaced directly in the database system using the complete LOB of the locator.
+If, in a changing access, an [LOB](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_glosry.htm "Glossary Entry") is associated with a reference variable of type CL\_ABAP\_DB\_C\_LOCATOR or CL\_ABAP\_DB\_X\_LOCATOR, this variable must point to an appropriate locator, [created](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_into_lob_handles.htm) in a statement SELECT for a LOB in a different database table or the same table. If the statement can be executed (sy-subrc is 0), the LOB to be changed is replaced directly in the database system using the complete LOB of the locator.
 
 Restrictions
 
@@ -58,13 +64,13 @@ The following restrictions apply:
 
 -   A maximum of 16 data streams can be opened for an ABAP SQL statement.
 
--   In a [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry") there can be a maximum of 16 ABAP SQL statements whose data streams are open at the same time.
+-   In a [database LUW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_luw_glosry.htm "Glossary Entry") there can be a maximum of 16 ABAP SQL statements whose data streams are open at the same time.
 
--   A maximum of 1000 LOB handles can be open in a [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry").
+-   A maximum of 1000 LOB handles can be open in a [database LUW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_luw_glosry.htm "Glossary Entry").
 
 Note
 
-Always close a LOB handle as soon as possible using its method CLOSE. Also refer to [Streaming and Locators](javascript:call_link\('abenstreams_locators.htm'\)).
+Always close a LOB handle as soon as possible using its method CLOSE. Also refer to [Streaming and Locators](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstreams_locators.htm).
 
 Examples
 
@@ -113,6 +119,6 @@ cl\_demo\_output=>display( result ).
 
 Executable Examples
 
--   [Write stream, fill database](javascript:call_link\('abendb_writer_abexa.htm'\))
+-   [Write stream, fill database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendb_writer_abexa.htm)
 
--   [Locator, Copy Column](javascript:call_link\('abendb_copy_abexa.htm'\))
+-   [Locator, Copy Column](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendb_copy_abexa.htm)

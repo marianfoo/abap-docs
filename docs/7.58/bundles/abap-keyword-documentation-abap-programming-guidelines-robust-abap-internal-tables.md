@@ -3,36 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenitab_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_gdl.htm)
-- [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_table_type_guidl.htm)
-- [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_key_guidl.htm)
-- [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_memory_requ_guidl.htm)
-- [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensort_guidl.htm)
-- [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencollect_guidl.htm)
-- [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_output_guidl.htm)
-- [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_guidl.htm)
-
-**Bundle Contains**: 8 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.928Z
-
----
-
 ### abenitab_gdl.htm
-
-> **📖 Official SAP Documentation**: [abenitab_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenitab_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -40,7 +11,7 @@ Included pages: 8
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Internal%20Tables%2C%20ABENITAB_GDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -68,7 +39,7 @@ An internal table is a dynamic data object consisting of a sequence of lines wit
     Every internal table has a primary table key. A table key consists of columns from the internal table. The content of these columns identifies table lines. The table category determines whether a key is unique or non-unique.
     
 
-Internal tables enable variable datasets (a variable number of lines) with a fixed structure (the line type) to be processed in the working memory of the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of a program. The content of an internal table can either be accessed sequentially in a LOOP or by accessing individual lines (for example, by using READ TABLE or a table expression).
+Internal tables enable variable datasets (a variable number of lines) with a fixed structure (the line type) to be processed in the working memory of the [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry") of a program. The content of an internal table can either be accessed sequentially in a LOOP or by accessing individual lines (for example, by using READ TABLE or a table expression).
 
 There are two ways of accessing individual lines:
 
@@ -77,36 +48,25 @@ There are two ways of accessing individual lines:
 
 Primary table access is possible for all three table categories. Access using the primary key, however, is optimized only for sorted tables and hashed tables. In standard tables, primary key access uses a linear search. Access using the primary line index, on the other hand, is possible for standard tables and sorted tables only. As well as its primary key, an internal key can also have further secondary keys. These keys enhance and optimize access options to the various table categories.
 
--   [Selecting the Table Category](javascript:call_link\('abenselect_table_type_guidl.htm'\) "Guideline")
--   [Secondary Keys](javascript:call_link\('abensecondary_key_guidl.htm'\) "Guideline")
--   [Initial Memory Requirement](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\) "Guideline")
--   [Sorted Filling](javascript:call_link\('abensort_guidl.htm'\) "Guideline")
--   [Compressed Filling](javascript:call_link\('abencollect_guidl.htm'\) "Guideline")
--   [Target Area](javascript:call_link\('abentable_output_guidl.htm'\) "Guideline")
--   [Loop Processing](javascript:call_link\('abenloop_guidl.htm'\) "Guideline")
+-   [Selecting the Table Category](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_table_type_guidl.htm "Guideline")
+-   [Secondary Keys](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_key_guidl.htm "Guideline")
+-   [Initial Memory Requirement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_memory_requ_guidl.htm "Guideline")
+-   [Sorted Filling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensort_guidl.htm "Guideline")
+-   [Compressed Filling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencollect_guidl.htm "Guideline")
+-   [Target Area](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_output_guidl.htm "Guideline")
+-   [Loop Processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_guidl.htm "Guideline")
 
 Continue
-[Selecting the Table Category](javascript:call_link\('abenselect_table_type_guidl.htm'\))
-[Secondary Key](javascript:call_link\('abensecondary_key_guidl.htm'\))
-[Initial Memory Requirement](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\))
-[Sorted Filling](javascript:call_link\('abensort_guidl.htm'\))
-[Collected Filling](javascript:call_link\('abencollect_guidl.htm'\))
-[Target Area](javascript:call_link\('abentable_output_guidl.htm'\))
-[Loop Processing](javascript:call_link\('abenloop_guidl.htm'\))
+[Selecting the Table Category](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_table_type_guidl.htm)
+[Secondary Key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_key_guidl.htm)
+[Initial Memory Requirement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_memory_requ_guidl.htm)
+[Sorted Filling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensort_guidl.htm)
+[Collected Filling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencollect_guidl.htm)
+[Target Area](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_output_guidl.htm)
+[Loop Processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_guidl.htm)
 
-
-
-**📖 Source**: [abenitab_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_gdl.htm)
 
 ### abenselect_table_type_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_table_type_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_table_type_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -114,7 +74,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Selecting%20the%20Table%20Category%2C%20ABENSELECT_TABLE_TYPE_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -157,28 +117,17 @@ Particularly for tables with a lot of lines, you have to select the appropriate 
     This table category is useful if key accesses are the central operation for table entries, if the tables are large, and if a unique key can be defined.
     
 
-In addition to the processing speed, memory requirements can also play an important role. If this is supposed to be optimized according to [Consider the Ratio of Administration and Application Data](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline"), you must also take into account the administration costs of the table categories.
+In addition to the processing speed, memory requirements can also play an important role. If this is supposed to be optimized according to [Consider the Ratio of Administration and Application Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline"), you must also take into account the administration costs of the table categories.
 
--   Standard tables and sorted tables (index tables) that are managed using a table index, incur the least [administration costs](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline") (6 bytes for each line on average). As long as the logical order in the table index corresponds to the physical order in the table body, a standard table does not incur any line-related administration costs. This is the case if you always append lines after the last line or delete only the last line.
--   Hashed tables require considerably more space for their [administration data](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline") than index tables (18 or 30 bytes for each line on average).
+-   Standard tables and sorted tables (index tables) that are managed using a table index, incur the least [administration costs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline") (6 bytes for each line on average). As long as the logical order in the table index corresponds to the physical order in the table body, a standard table does not incur any line-related administration costs. This is the case if you always append lines after the last line or delete only the last line.
+-   Hashed tables require considerably more space for their [administration data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline") than index tables (18 or 30 bytes for each line on average).
 
 Depending on the length of the key and the number of lines in an internal table, access using a sorted key can be as fast as or even faster than using a hashed table. In cases like this, and if the memory space is critical, you should work with a sorted table instead of a hashed table.
 
-If you use [secondary keys](javascript:call_link\('abensecondary_key_guidl.htm'\) "Guideline"), the rules mentioned here may be qualified to a certain degree, as the overall costs need to be considered in this case.
+If you use [secondary keys](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_key_guidl.htm "Guideline"), the rules mentioned here may be qualified to a certain degree, as the overall costs need to be considered in this case.
 
-
-
-**📖 Source**: [abenselect_table_type_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_table_type_guidl.htm)
 
 ### abensecondary_key_guidl.htm
-
-> **📖 Official SAP Documentation**: [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_key_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_key_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -186,7 +135,7 @@ If you use [secondary keys](javascript:call_link\('abensecondary_key_guidl.htm'\
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Secondary%20Key%2C%20ABENSECONDARY_KEY_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -201,7 +150,7 @@ Secondary keys can be declared for internal tables. The following options are po
 
 These keys are assigned a name when they are declared and can be created for any table category. The primary key (nameless up to this point) is assigned a predefined name (primary\_key), which allows it to be explicitly addressed. A secondary table index is created internally for each sorted secondary key. This enables index access to hashed tables. When internal tables are accessed, a table key or index must be specified. If nothing is explicitly specified, the internal table is accessed using the primary key or primary index by default.
 
-Access to internal tables using secondary keys is always optimized. This generally increases read performance significantly. Previously, no optimized key access was possible for this. On the other hand, secondary keys also incur additional administration costs due to memory consumption and runtime. Additional runtime costs arise, if a secondary table index needs to be updated after changes to table content. The ABAP runtime framework delays these runtime costs for as long as possible, until they are actually required (lazy update and delayed update). The [administration costs](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline") for a secondary key are just as high as for the primary table keys: on average, 6 bytes for each secondary index line and 18 or 30 bytes for each hash key line. On average, another 8 bytes per line are required if the table has at least one non-unique sorted secondary key. Additional memory costs are incurred if a secondary key needs to be updated after changes to internal table content. These memory costs are on the same scale as the costs above and also depend on the number of lines.
+Access to internal tables using secondary keys is always optimized. This generally increases read performance significantly. Previously, no optimized key access was possible for this. On the other hand, secondary keys also incur additional administration costs due to memory consumption and runtime. Additional runtime costs arise, if a secondary table index needs to be updated after changes to table content. The ABAP runtime framework delays these runtime costs for as long as possible, until they are actually required (lazy update and delayed update). The [administration costs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline") for a secondary key are just as high as for the primary table keys: on average, 6 bytes for each secondary index line and 18 or 30 bytes for each hash key line. On average, another 8 bytes per line are required if the table has at least one non-unique sorted secondary key. Additional memory costs are incurred if a secondary key needs to be updated after changes to internal table content. These memory costs are on the same scale as the costs above and also depend on the number of lines.
 
 Rule   
 
@@ -263,18 +212,7 @@ LOOP AT itab USING KEY second\_key.
 ENDLOOP.
 
 
-
-**📖 Source**: [abensecondary_key_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_key_guidl.htm)
-
 ### abeninitial_memory_requ_guidl.htm
-
-> **📖 Official SAP Documentation**: [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_memory_requ_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_memory_requ_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -282,7 +220,7 @@ ENDLOOP.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Initial%20Memory%20Requirement%2C%20ABENINITIAL_MEMORY_REQU_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -290,7 +228,7 @@ Initial Memory Requirement
 
 Background   
 
-Internal tables are stored in the memory block by block. The ABAP runtime framework allocates a suitable memory area for the data of the table by default as the [initial memory requirement](javascript:call_link\('abeninitial_mem_req_glosry.htm'\) "Glossary Entry"). If the initial memory requirement is insufficient, further blocks are created using an internal duplication strategy until a threshold is reached. After this, all blocks are requested with a constant size between eight and 16 kilobytes.
+Internal tables are stored in the memory block by block. The ABAP runtime framework allocates a suitable memory area for the data of the table by default as the [initial memory requirement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_mem_req_glosry.htm "Glossary Entry"). If the initial memory requirement is insufficient, further blocks are created using an internal duplication strategy until a threshold is reached. After this, all blocks are requested with a constant size between eight and 16 kilobytes.
 
 The [INITIAL SIZE](abaptypes_itab.htm#!ABAP_ONE_ADD@1@) addition can be used to predefine a number of table lines when declaring an internal table, to override the number of initially allocated lines set by the system.
 
@@ -339,18 +277,7 @@ TYPES: BEGIN OF line\_structure,
                  WITH UNIQUE KEY ...
 
 
-
-**📖 Source**: [abeninitial_memory_requ_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_memory_requ_guidl.htm)
-
 ### abensort_guidl.htm
-
-> **📖 Official SAP Documentation**: [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensort_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensort_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -358,7 +285,7 @@ TYPES: BEGIN OF line\_structure,
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Sorted%20Filling%2C%20ABENSORT_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -368,7 +295,7 @@ Background  
 
 The statement APPEND for attaching lines to an internal table has the addition SORTED BY. This addition can be used to fill a standard table by using sorted filling. The prerequisites are:
 
--   A value greater than zero must be specified for the addition [INITIAL SIZE](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\) "Guideline").
+-   A value greater than zero must be specified for the addition [INITIAL SIZE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_memory_requ_guidl.htm "Guideline").
 -   Only the statement APPEND with the addition SORTED BY can be used to fill the internal table.
 
 Once these prerequisites have been met, a ranking list is created that contains at most the same number of lines as specified with INITIAL SIZE. This list is sorted by the component specified after SORTED BY in descending order.
@@ -415,18 +342,7 @@ ENDLOOP.
 ...
 
 
-
-**📖 Source**: [abensort_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensort_guidl.htm)
-
 ### abencollect_guidl.htm
-
-> **📖 Official SAP Documentation**: [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencollect_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencollect_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -434,7 +350,7 @@ ENDLOOP.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Collected%20Filling%2C%20ABENCOLLECT_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -458,18 +374,7 @@ The statement COLLECT is based on unique entries with respect to the primary key
 -   COLLECT can be used for sorted tables and hashed tables without any problems since these, unlike standard tables, always have a separate, stable key administration that can be utilized by COLLECT. COLLECT can work properly for sorted tables only if the primary key is unique. If a sorted table has a non-unique key, only COLLECT can be used to fill the table, which is difficult to guarantee. In hashed tables, the key values are always unique.
 
 
-
-**📖 Source**: [abencollect_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencollect_guidl.htm)
-
 ### abentable_output_guidl.htm
-
-> **📖 Official SAP Documentation**: [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_output_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_output_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -477,7 +382,7 @@ The statement COLLECT is based on unique entries with respect to the primary key
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Target%20Area%2C%20ABENTABLE_OUTPUT_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -485,13 +390,13 @@ Target Area
 
 Background   
 
-Internal tables can be read by accessing individual lines using READ TABLE or [table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry"), or sequentially using LOOP AT. In both cases, the following output behavior can be defined by using the statements with the following additions:
+Internal tables can be read by accessing individual lines using READ TABLE or [table expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_expression_glosry.htm "Glossary Entry"), or sequentially using LOOP AT. In both cases, the following output behavior can be defined by using the statements with the following additions:
 
 -   The addition INTO copies the content of the line to an appropriate data object.
--   The addition ASSIGNING assigns the read line to a [field symbol](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline"), which enables the line to be addressed directly.
--   The REFERENCE INTO addition sets a [data reference](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline") to the read line.
+-   The addition ASSIGNING assigns the read line to a [field symbol](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendyn_access_data_obj_guidl.htm "Guideline"), which enables the line to be addressed directly.
+-   The REFERENCE INTO addition sets a [data reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendyn_access_data_obj_guidl.htm "Guideline") to the read line.
 
-In the case of [table expressions](javascript:call_link\('abentable_expressions.htm'\)), the output behavior is controlled by the [category of the result](javascript:call_link\('abentable_exp_result.htm'\)).
+In the case of [table expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_expressions.htm), the output behavior is controlled by the [category of the result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_exp_result.htm).
 
 As well as for exports, the ASSIGNING and REFERENCE INTO additions can also be used for the APPEND, COLLECT, INSERT, and MODIFY statements, where they create references to the line being processed.
 
@@ -509,16 +414,16 @@ Details  
 
 The criteria for selecting the output behavior are the processing speed, on the one hand, and what is to be done with the read line, on the other hand:
 
--   If the content of the read line is to be modified, the addition ASSIGNING or (in the case of table expressions) the appropriate [result](javascript:call_link\('abentable_exp_result.htm'\)) should usually be used. This allows direct access to the line using the value semantics and removes the need for a MODIFY operation later on.
--   If a reference to the read line is required that can be processed using reference semantics, the addition REFERENCE INTO or (in the case of table expressions) the appropriate [result](javascript:call_link\('abentable_exp_result.htm'\)) is to be used.
--   If the content of the read line is not to be modified, any of these procedures can be used. The line type of the table is significant for performance. If the table line is wide or contains deep components (for example, strings or other tables), reads are usually faster if ASSIGNING or REFERENCE INTO is used instead of INTO. The [way they are used](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline") is the determining factor for selecting which of the two should be used.
+-   If the content of the read line is to be modified, the addition ASSIGNING or (in the case of table expressions) the appropriate [result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_exp_result.htm) should usually be used. This allows direct access to the line using the value semantics and removes the need for a MODIFY operation later on.
+-   If a reference to the read line is required that can be processed using reference semantics, the addition REFERENCE INTO or (in the case of table expressions) the appropriate [result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_exp_result.htm) is to be used.
+-   If the content of the read line is not to be modified, any of these procedures can be used. The line type of the table is significant for performance. If the table line is wide or contains deep components (for example, strings or other tables), reads are usually faster if ASSIGNING or REFERENCE INTO is used instead of INTO. The [way they are used](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendyn_access_data_obj_guidl.htm "Guideline") is the determining factor for selecting which of the two should be used.
     
     When working with tables whose lines are flat and do not occupy more than approximately 1KB, copying with INTO is faster (at least for the READ statement) than configuring the administration that is required for dynamic access. For the statement LOOP, these costs are incurred only once, so that using ASSIGNING or REFERENCE INTO is always recommended above a certain number of lines. In contrast, INTO should always be used if the target area is to be modified without this affecting the internal table.
     
 
 Besides the processing speed, it is also important that the source code can be understood. If the recommendations mentioned are followed, reading a table with the addition ASSIGNING (but also REFERENCE INTO) indicates to the reader that the table content is potentially changed. Reading a table with the INTO addition, on the other hand, indicates that the table will not be modified.
 
-For table expressions, the information here applies to the selection of the appropriate [result](javascript:call_link\('abentable_exp_result.htm'\)).
+For table expressions, the information here applies to the selection of the appropriate [result](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_exp_result.htm).
 
 Bad Example
 
@@ -540,21 +445,7 @@ LOOP AT itab ASSIGNING <fs>.
 ENDLOOP.
 
 
-
-**📖 Source**: [abentable_output_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_output_guidl.htm)
-
 ### abenloop_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenloop_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_guidl.htm)
-
 
   
 
@@ -562,7 +453,7 @@ ENDLOOP.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Loop%20Processing%2C%20ABENLOOP_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -590,5 +481,5 @@ A modifying access to the entire table body usually produces a runtime error and
 
 Hints
 
--   This rule is mainly intended to make you more aware of the problem. If you only work with [ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") or if no [syntax check warnings](javascript:call_link\('abensyntax_check_guidl.htm'\) "Guideline") are ignored, the rule above should be met automatically.
--   For more information, see [Changing Internal Tables in a Loop](javascript:call_link\('abenitab_loop_change.htm'\)).
+-   This rule is mainly intended to make you more aware of the problem. If you only work with [ABAP Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") or if no [syntax check warnings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensyntax_check_guidl.htm "Guideline") are ignored, the rule above should be met automatically.
+-   For more information, see [Changing Internal Tables in a Loop](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_loop_change.htm).

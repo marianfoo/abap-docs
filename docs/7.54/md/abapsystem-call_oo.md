@@ -43,7 +43,7 @@ SYSTEM-CALL OBJMGR SET NODELETE MODE f1.
 
 Effect
 
-Does not delete objects completely in NODELETE MODE but retains the header. When such an object is accessed, a runtime error occurs. This mechanism is used for troubleshooting purposes if you assume that the [Garbage Collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry") has wrongly deleted an object. The no-delete mode can also be switched on using the Debugger.
+Does not delete objects completely in NODELETE MODE but retains the header. When such an object is accessed, a runtime error occurs. This mechanism is used for troubleshooting purposes if you assume that the [Garbage Collector](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengarbage_collector_glosry.htm "Glossary Entry") has wrongly deleted an object. The no-delete mode can also be switched on using the Debugger.
 
 Variant 3
 
@@ -115,7 +115,7 @@ SYSTEM-CALL OBJMGR GET STATE OF f1 INTO f2.
 
 Effect
 
-Copies the state (of all instance attributes) from object f1 to a dynamically created data structure and returns a data reference f2 (TYPE REF TO DATA) to that structure. You can use this call to save the current state of an object. The variant SET STATE then allows you to reassign the state saved to the object (the object state is reset to its saved state). These calls should only be used by [Object Services](javascript:call_link\('abenobject_services_glosry.htm'\) "Glossary Entry").
+Copies the state (of all instance attributes) from object f1 to a dynamically created data structure and returns a data reference f2 (TYPE REF TO DATA) to that structure. You can use this call to save the current state of an object. The variant SET STATE then allows you to reassign the state saved to the object (the object state is reset to its saved state). These calls should only be used by [Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_services_glosry.htm "Glossary Entry").
 
 Variant 12
 

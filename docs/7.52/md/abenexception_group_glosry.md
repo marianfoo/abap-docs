@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 exception group
 
-Grouping of multiple [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry") in an organizational unit. The catchable runtime errors of an exception group, together with the obsolete statement [CATCH - ENDCATCH](javascript:call_link\('abapcatch_sys.htm'\)), can be handled by specifying the group name.
+Grouping of multiple [catchable runtime errors](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry") in an organizational unit. The catchable runtime errors of an exception group, together with the obsolete statement [CATCH - ENDCATCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcatch_sys.htm), can be handled by specifying the group name.
 
-[→ More](javascript:call_link\('abensysexc-errkl.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensysexc-errkl.htm)

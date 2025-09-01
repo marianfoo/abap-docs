@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Types](javascript:call_link\('abentypes_statements.htm'\)) →  [TYPES](javascript:call_link\('abaptypes.htm'\)) →  [TYPES - LOB HANDLE](javascript:call_link\('abaptypes_lob_handle.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_and_objects.htm) →  [Declaring Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_statements.htm) →  [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes.htm) →  [TYPES - LOB HANDLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_lob_handle.htm) → 
 
 TYPES - lob\_handle\_columns
 
@@ -15,27 +15,27 @@ Syntax
 
 Effect
 
-These additions define which columns of the database table or the view dbtab are declared as [LOB handle components](javascript:call_link\('abenlob_handle_component_glosry.htm'\) "Glossary Entry") when deriving a [LOB handle structure](javascript:call_link\('abenlob_handle_component_glosry.htm'\) "Glossary Entry") using the statement [TYPES](javascript:call_link\('abaptypes_lob_handle.htm'\)).
+These additions define which columns of the database table or the view dbtab are declared as [LOB handle components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_component_glosry.htm "Glossary Entry") when deriving a [LOB handle structure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_handle_component_glosry.htm "Glossary Entry") using the statement [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_lob_handle.htm).
 
 -   COLUMNS blob1 blob2 ... clob1 clob2 ...
-    This specifies the individual [BLOBs](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry") blob1, blob2, ... or [CLOBs](javascript:call_link\('abenclob_glosry.htm'\) "Glossary Entry") clob1, clob2, ... These must exist in dbtab.
+    This specifies the individual [BLOBs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenblob_glosry.htm "Glossary Entry") blob1, blob2, ... or [CLOBs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclob_glosry.htm "Glossary Entry") clob1, clob2, ... These must exist in dbtab.
     
 -   ALL OTHER BLOB*|*CLOB COLUMNS
-    This specifies all [BLOBs](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry") or [CLOBs](javascript:call_link\('abenclob_glosry.htm'\) "Glossary Entry") in dbtab that are not covered when individual columns are specified. In the statement [TYPES](javascript:call_link\('abaptypes_lob_handle.htm'\)), at least one individual column blob or clob must be specified using COLUMNS ...
+    This specifies all [BLOBs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenblob_glosry.htm "Glossary Entry") or [CLOBs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclob_glosry.htm "Glossary Entry") in dbtab that are not covered when individual columns are specified. In the statement [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_lob_handle.htm), at least one individual column blob or clob must be specified using COLUMNS ...
     
 -   ALL BLOB*|*CLOB COLUMNS
-    This specifies all [BLOBs](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry") or [CLOBs](javascript:call_link\('abenclob_glosry.htm'\) "Glossary Entry") dbtab.
+    This specifies all [BLOBs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenblob_glosry.htm "Glossary Entry") or [CLOBs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclob_glosry.htm "Glossary Entry") dbtab.
     
 -   ALL OTHER COLUMNS
-    This specifies all [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in dbtab that are not covered when individual columns are specified. In the statement [TYPES](javascript:call_link\('abaptypes_lob_handle.htm'\)), at least one individual column must be specified using COLUMNS ...
+    This specifies all [LOBs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_glosry.htm "Glossary Entry") in dbtab that are not covered when individual columns are specified. In the statement [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_lob_handle.htm), at least one individual column must be specified using COLUMNS ...
     
 -   ALL COLUMNS
-    This specifies all [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in dbtab.
+    This specifies all [LOBs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_glosry.htm "Glossary Entry") in dbtab.
     
 
-No other columns can be specified in the statement [TYPES](javascript:call_link\('abaptypes_lob_handle.htm'\)) after columns specified using ALL OTHER ...
+No other columns can be specified in the statement [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_lob_handle.htm) after columns specified using ALL OTHER ...
 
-The different ways in which columns can be combined with each other and with the types specified using [lob\_handle\_type](javascript:call_link\('abaptypes_lob_handle_type.htm'\)) are explained in the statement [TYPES](javascript:call_link\('abaptypes_lob_handle.htm'\)).
+The different ways in which columns can be combined with each other and with the types specified using [lob\_handle\_type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_lob_handle_type.htm) are explained in the statement [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_lob_handle.htm).
 
 Example
 
@@ -48,4 +48,4 @@ TYPES lob\_handle TYPE demo\_lob\_table
 
 Executable Example
 
-Deriving [LOB Handle Structures](javascript:call_link\('abentypes_lob_handle_abexa.htm'\))
+Deriving [LOB Handle Structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_lob_handle_abexa.htm)

@@ -3,27 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abentexteditor.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentexteditor.htm)
-- [abapeditor-call_for_itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeditor-call_for_itab.htm)
-- [abapeditor-call_for_report.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeditor-call_for_report.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.56
-**Generated**: 2025-09-01T11:25:45.481Z
-
----
-
 ### abentexteditor.htm
-
-> **📖 Official SAP Documentation**: [abentexteditor.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentexteditor.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,28 +11,21 @@ Included pages: 3
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengui_obsolete.htm) → 
 
 Obsolete Editor Calls
 
-The following statements trigger calls of editors integrated into [GUI windows](javascript:call_link\('abengui_window_glosry.htm'\) "Glossary Entry").
+The following statements trigger calls of editors integrated into [GUI windows](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengui_window_glosry.htm "Glossary Entry").
 
--   [EDITOR-CALL FOR itab.](javascript:call_link\('abapeditor-call_for_itab.htm'\))
--   [EDITOR-CALL FOR REPORT](javascript:call_link\('abapeditor-call_for_report.htm'\))
+-   [EDITOR-CALL FOR itab.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeditor-call_for_itab.htm)
+-   [EDITOR-CALL FOR REPORT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeditor-call_for_report.htm)
 
 Continue
-[EDITOR-CALL FOR itab](javascript:call_link\('abapeditor-call_for_itab.htm'\))
-[EDITOR-CALL FOR REPORT](javascript:call_link\('abapeditor-call_for_report.htm'\))
+[EDITOR-CALL FOR itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeditor-call_for_itab.htm)
+[EDITOR-CALL FOR REPORT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeditor-call_for_report.htm)
 
-
-
-**📖 Source**: [abentexteditor.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentexteditor.htm)
 
 ### abapeditor-call_for_itab.htm
-
-> **📖 Official SAP Documentation**: [abapeditor-call_for_itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeditor-call_for_itab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -60,11 +33,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) →  [Obsolete Editor Calls](javascript:call_link\('abentexteditor.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengui_obsolete.htm) →  [Obsolete Editor Calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentexteditor.htm) → 
 
 EDITOR-CALL FOR itab
 
-[Short Reference](javascript:call_link\('abapeditor-call_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeditor-call_shortref.htm)
 
 Obsolete Syntax
 
@@ -79,11 +52,11 @@ Additions:
 
 Effect
 
-This statement passes the content of the internal table itab to a text editor and starts this text editor. The internal table must be a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") without [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") with a character-like line type.
+This statement passes the content of the internal table itab to a text editor and starts this text editor. The internal table must be a [standard table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_table_glosry.htm "Glossary Entry") without [secondary table keys](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") with a character-like line type.
 
 The text editor is based on a GUI control displayed in the current GUI window and has its own GUI status, part of which matches that of the ABAP Editor. The text editor has, depending its settings, a line width of 255 or 72 characters. This setting can be made in the GUI status and also applies to the ABAP Editor.
 
-The content of the table lines is converted line by line in accordance with the [conversion rules for elementary data types](javascript:call_link\('abenconversion_elementary.htm'\)) into a field of the type c with length 255 or 72 and passed to the text editor. If the text editor is exited using the function Save, the previous content of the table is deleted and the content of each line of the editor is appended to the internal table from top to bottom. If necessary, this process involves a conversion of the type c of length 255 or 72 to the line type of the internal table.
+The content of the table lines is converted line by line in accordance with the [conversion rules for elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_elementary.htm) into a field of the type c with length 255 or 72 and passed to the text editor. If the text editor is exited using the function Save, the previous content of the table is deleted and the content of each line of the editor is appended to the internal table from top to bottom. If necessary, this process involves a conversion of the type c of length 255 or 72 to the line type of the internal table.
 
 Return Code
 
@@ -105,7 +78,7 @@ The text editor was not exited using the Save function.
 
 Hint
 
-This statement is replaced by using the [Control Framework](javascript:call_link\('abencontrol_framework_glosry.htm'\) "Glossary Entry"). Here, the class CL\_GUI\_TEXTEDIT wraps the corresponding [GUI control](javascript:call_link\('abengui_control_glosry.htm'\) "Glossary Entry").
+This statement is replaced by using the [Control Framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencontrol_framework_glosry.htm "Glossary Entry"). Here, the class CL\_GUI\_TEXTEDIT wraps the corresponding [GUI control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengui_control_glosry.htm "Glossary Entry").
 
 Addition 1   
 
@@ -133,7 +106,7 @@ Addition 3  
 
 Effect
 
-If the addition BACKUP INTO is specified, the content of the internal table itab is assigned to an internal table jtab before the text editor is called. jtab can have any table category. The line types must be [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") or [convertible](javascript:call_link\('abenconvertible_glosry.htm'\) "Glossary Entry").
+If the addition BACKUP INTO is specified, the content of the internal table itab is assigned to an internal table jtab before the text editor is called. jtab can have any table category. The line types must be [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") or [convertible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconvertible_glosry.htm "Glossary Entry").
 
 Example
 
@@ -149,17 +122,7 @@ IF sy-subrc = 0 AND
 ENDIF.
 
 
-
-**📖 Source**: [abapeditor-call_for_itab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeditor-call_for_itab.htm)
-
 ### abapeditor-call_for_report.htm
-
-> **📖 Official SAP Documentation**: [abapeditor-call_for_report.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeditor-call_for_report.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapeditor-call_for_report.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeditor-call_for_report.htm)
-
 
   
 
@@ -167,11 +130,11 @@ ENDIF.
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) →  [Obsolete Editor Calls](javascript:call_link\('abentexteditor.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengui_obsolete.htm) →  [Obsolete Editor Calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentexteditor.htm) → 
 
 EDITOR-CALL FOR REPORT
 
-[Short Reference](javascript:call_link\('abapeditor-call_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeditor-call_shortref.htm)
 
 Obsolete Syntax
 
@@ -183,9 +146,9 @@ Addition:
 
 Effect
 
-This statement starts the ABAP Editor for the source code of the program specified in prog. prog must be a character-like data object, which contains the name of a program in uppercase letters that exists in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry"). If not, a corresponding message is displayed in the status line.
+This statement starts the ABAP Editor for the source code of the program specified in prog. prog must be a character-like data object, which contains the name of a program in uppercase letters that exists in the [repository](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrepository_glosry.htm "Glossary Entry"). If not, a corresponding message is displayed in the status line.
 
-Once ABAP Editor is started, it offers the full range of functions, as when called in the ABAP Workbench or the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"). Forward navigation to branch to other tools is also possible. After returning from the ABAP Editor, the current program continues after the statement EDITOR-CALL.
+Once ABAP Editor is started, it offers the full range of functions, as when called in the ABAP Workbench or the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm "Glossary Entry"). Forward navigation to branch to other tools is also possible. After returning from the ABAP Editor, the current program continues after the statement EDITOR-CALL.
 
 Hints
 

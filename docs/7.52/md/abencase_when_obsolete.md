@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Program Flow](javascript:call_link\('abenobsolete_program_flow.htm'\)) →  [Obsolete Control Structures](javascript:call_link\('abenobsolete_control_structures.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Program Flow](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_program_flow.htm) →  [Obsolete Control Structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_control_structures.htm) → 
 
 CASE, WHEN - obsolete
 
@@ -18,4 +18,4 @@ ENDCASE.
 
 Effect
 
-Statements between [CASE](javascript:call_link\('abapcase.htm'\)) and the first [WHEN](javascript:call_link\('abapwhen.htm'\)) statement take effect if they are specified directly before CASE. This construct is not allowed in classes, and results in a syntax warning outside of classes. The statements must be positioned before CASE.
+Statements between [CASE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcase.htm) and the first [WHEN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwhen.htm) statement take effect if they are specified directly before CASE. This construct is not allowed in classes, and results in a syntax warning outside of classes. The statements must be positioned before CASE.

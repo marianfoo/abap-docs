@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenshm_if_shm_build_instance.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_if_shm_build_instance.htm)
-- [abenshm_area_constructor_class.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_area_constructor_class.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.55
-**Generated**: 2025-09-01T11:25:45.731Z
-
----
-
 ### abenshm_if_shm_build_instance.htm
-
-> **📖 Official SAP Documentation**: [abenshm_if_shm_build_instance.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_if_shm_build_instance.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,11 +11,11 @@ Included pages: 2
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Classes and Interfaces](javascript:call_link\('abenshm_classes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shared_objects.htm) →  [Shared Objects - Classes and Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_classes.htm) → 
 
 Shared Objects - IF\_SHM\_BUILD\_INSTANCE
 
-The interface IF\_SHM\_BUILD\_INSTANCE must be included by an [area constructor class](javascript:call_link\('abenshm_area_constructor_class.htm'\)) that implements the optional area constructor of an area.
+The interface IF\_SHM\_BUILD\_INSTANCE must be included by an [area constructor class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_area_constructor_class.htm) that implements the optional area constructor of an area.
 
 Static Methods
 
@@ -63,20 +44,10 @@ Note
 The method BUILD does not have an input parameter for the client ID. The area is built in the current client when the method is called.
 
 Continue
-[Shared Objects - Area Constructor Class](javascript:call_link\('abenshm_area_constructor_class.htm'\))
+[Shared Objects - Area Constructor Class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_area_constructor_class.htm)
 
-
-
-**📖 Source**: [abenshm_if_shm_build_instance.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_if_shm_build_instance.htm)
 
 ### abenshm_area_constructor_class.htm
-
-> **📖 Official SAP Documentation**: [abenshm_area_constructor_class.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_area_constructor_class.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenshm_area_constructor_class.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_area_constructor_class.htm)
-
 
   
 
@@ -84,13 +55,13 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Classes and Interfaces](javascript:call_link\('abenshm_classes.htm'\)) →  [Shared Objects - IF\_SHM\_BUILD\_INSTANCE](javascript:call_link\('abenshm_if_shm_build_instance.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shared_objects.htm) →  [Shared Objects - Classes and Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_classes.htm) →  [Shared Objects - IF\_SHM\_BUILD\_INSTANCE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_if_shm_build_instance.htm) → 
 
 Shared Objects - Area Constructor Class
 
-An area constructor class is a global class with a freely selectable name that implements the interface [IF\_SHM\_BUILD\_INSTANCE](javascript:call_link\('abenshm_if_shm_build_instance.htm'\)). An area constructor can be implemented in the interface method BUILD.
+An area constructor class is a global class with a freely selectable name that implements the interface [IF\_SHM\_BUILD\_INSTANCE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_if_shm_build_instance.htm). An area constructor can be implemented in the interface method BUILD.
 
-An area constructor class can be [assigned](javascript:call_link\('abenshm_area_dynamic_properties.htm'\)) to an [area](javascript:call_link\('abenshm_areas.htm'\)) in transaction SHMA. This is always necessary if the area is to be built automatically by calling the area constructor, that is, if the components BUILD\_KIND and REFRESH\_TIME of the structure PROPERTIES of the class [CL\_SHM\_AREA](javascript:call_link\('abenshm_cl_shm_area.htm'\)) are filled accordingly. If an area is not built automatically, an area constructor class can be specified for the explicit area constructor call using the method BUILD of the [area class](javascript:call_link\('abenshm_area_class.htm'\)).
+An area constructor class can be [assigned](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_area_dynamic_properties.htm) to an [area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_areas.htm) in transaction SHMA. This is always necessary if the area is to be built automatically by calling the area constructor, that is, if the components BUILD\_KIND and REFRESH\_TIME of the structure PROPERTIES of the class [CL\_SHM\_AREA](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_cl_shm_area.htm) are filled accordingly. If an area is not built automatically, an area constructor class can be specified for the explicit area constructor call using the method BUILD of the [area class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenshm_area_class.htm).
 
 Structure of an Area Constructor
 
@@ -107,7 +78,7 @@ The following structure is recommended for the area constructor implemented in t
 5.  If the area constructor was called automatically, a database commit must be triggered when a transactional area is built.
     
 
-In an area constructor, no statements can be used that exit the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") (such as SUBMIT, CALL TRANSACTION, CALL SCREEN, MESSAGE for message types "W", "I", "E", and so on).
+In an area constructor, no statements can be used that exit the current [internal session](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninternal_session_glosry.htm "Glossary Entry") (such as SUBMIT, CALL TRANSACTION, CALL SCREEN, MESSAGE for message types "W", "I", "E", and so on).
 
 Example
 

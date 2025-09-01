@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Obsolete Database Access](javascript:call_link\('abendatabase_access_obsolete.htm'\)) →  [Obsolete Access Statements](javascript:call_link\('abendb_access_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_storage_obsolete.htm) →  [Obsolete Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_access_obsolete.htm) →  [Obsolete Access Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendb_access_obsolete.htm) → 
 
 READ TABLE dbtab
 
-[Short Reference](javascript:call_link\('abapread_table_dbtab_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_dbtab_shortref.htm)
 
 Obsolete Syntax
 
@@ -25,11 +25,11 @@ Additions:
 
 Effect
 
-This variant of the statement READ (not allowed in classes) reads a row from the database table dbtab or from a [DDIC table view](javascript:call_link\('abentable_view_glosry.htm'\) "Glossary Entry") and assigns the content to a work area.
+This variant of the statement READ (not allowed in classes) reads a row from the database table dbtab or from a [DDIC table view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_view_glosry.htm "Glossary Entry") and assigns the content to a work area.
 
-A [table work area](javascript:call_link\('abentable_work_area_glosry.htm'\) "Glossary Entry") dbtab or \*dbtab is used implicitly as the work area. The table work area must be declared using the statement [TABLES](javascript:call_link\('abaptables.htm'\)). If the name \*dbtab is used instead of the name of the database table or view dbtab, dbtab is accessed, but the [additional table work area](javascript:call_link\('abaptables_asterisk.htm'\)) is used. All components of the table work area that match the [primary key fields](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") of the database table or view dbtab must be character-like.
+A [table work area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_work_area_glosry.htm "Glossary Entry") dbtab or \*dbtab is used implicitly as the work area. The table work area must be declared using the statement [TABLES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptables.htm). If the name \*dbtab is used instead of the name of the database table or view dbtab, dbtab is accessed, but the [additional table work area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptables_asterisk.htm) is used. All components of the table work area that match the [primary key fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprimary_key_glosry.htm "Glossary Entry") of the database table or view dbtab must be character-like.
 
-dbtab expects a database table or [DDIC table view](javascript:call_link\('abentable_view_glosry.htm'\) "Glossary Entry") that starts with "T" and has a maximum length of five characters. If a database table or view is specified that does not begin with "T", the first letter is implicitly replaced by "T".
+dbtab expects a database table or [DDIC table view](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_view_glosry.htm "Glossary Entry") that starts with "T" and has a maximum length of five characters. If a database table or view is specified that does not begin with "T", the first letter is implicitly replaced by "T".
 
 Without the addition WITH KEY, the row to be read is determined by the content of the components of the table work area that correspond to the primary key fields of database table or view dbtab.
 
@@ -57,9 +57,9 @@ The database table or view was not found.
 
 Hints
 
--   This form of READ statement is not allowed in classes. It must be replaced by the [SELECT](javascript:call_link\('abapselect.htm'\)) statement.
+-   This form of READ statement is not allowed in classes. It must be replaced by the [SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect.htm) statement.
 
--   Obsolete access statements do not support [implicit client handling](javascript:call_link\('abenopen_sql_client_handling.htm'\)). The [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") of a database table must be specified explicitly. Note that application programs should only use data from the current client.
+-   Obsolete access statements do not support [implicit client handling](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_client_handling.htm). The [client ID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclient_identifier_glosry.htm "Glossary Entry") of a database table must be specified explicitly. Note that application programs should only use data from the current client.
     
 
 Addition 1
@@ -68,7 +68,7 @@ Addition 1
 
 Effect
 
-The addition WITH KEY determines the key by using the content of data object key, which expects a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like data type.
+The addition WITH KEY determines the key by using the content of data object key, which expects a [flat](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenflat_glosry.htm "Glossary Entry") character-like data type.
 
 The content of the table work area or the data object key is taken from the database table or view as a search key (left-aligned with the length of the key components). A search for a matching entry is then made in the database table or view.
 

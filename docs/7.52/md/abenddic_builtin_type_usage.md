@@ -4,23 +4,23 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Predefined Data Types in ABAP Dictionary](javascript:call_link\('abenddic_builtin_types_intro.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [Predefined Data Types in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types_intro.htm) → 
 
 Use of the Built-In Dictionary Types
 
-The [built-in types](javascript:call_link\('abenddic_builtin_types.htm'\)) in ABAP Dictionary are used for the definition of the elementary parts of all data types, including reference types in ABAP Dictionary, and for specifying some types in Open SQL and ABAP CDS. The built-in types in ABAP Dictionary cannot be specified directly in any places other those specified below:
+The [built-in types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) in ABAP Dictionary are used for the definition of the elementary parts of all data types, including reference types in ABAP Dictionary, and for specifying some types in Open SQL and ABAP CDS. The built-in types in ABAP Dictionary cannot be specified directly in any places other those specified below:
 
--   [Data elements](javascript:call_link\('abenddic_data_elements.htm'\))
+-   [Data elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_data_elements.htm)
 
-A data element for an elementary data type has either a directly specified built-in type or a type specified using a [domain](javascript:call_link\('abenddic_domains.htm'\)). In references to data elements in an ABAP program, this type is mapped to a [built-in ABAP type](javascript:call_link\('abenddic_builtin_types.htm'\)) in accordance with the last column of the [tables of built-in types](javascript:call_link\('abenpredefined_abap_type_glosry.htm'\) "Glossary Entry").
+A data element for an elementary data type has either a directly specified built-in type or a type specified using a [domain](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_domains.htm). In references to data elements in an ABAP program, this type is mapped to a [built-in ABAP type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) in accordance with the last column of the [tables of built-in types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredefined_abap_type_glosry.htm "Glossary Entry").
 
--   [Structures](javascript:call_link\('abenddic_structures.htm'\)), [database tables](javascript:call_link\('abenddic_database_tables.htm'\)), and [classic views](javascript:call_link\('abenddic_classical_views.htm'\))
+-   [Structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures.htm), [database tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables.htm), and [classic views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm)
 
-The elementary components of a structure have either a directly specified built-in type or a type specified using a [data element](javascript:call_link\('abenddic_data_elements.htm'\)). In references to structures in an ABAP program, the structures are mapped to a [structured type](javascript:call_link\('abenstructured_type_glosry.htm'\) "Glossary Entry"), where the elementary components are mapped to [built-in ABAP types](javascript:call_link\('abenddic_builtin_types.htm'\)) in accordance with the last column of the [tables of built-in types](javascript:call_link\('abenpredefined_abap_type_glosry.htm'\) "Glossary Entry"). The same applies to the table fields of database tables and view fields of classic views.
+The elementary components of a structure have either a directly specified built-in type or a type specified using a [data element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_data_elements.htm). In references to structures in an ABAP program, the structures are mapped to a [structured type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructured_type_glosry.htm "Glossary Entry"), where the elementary components are mapped to [built-in ABAP types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) in accordance with the last column of the [tables of built-in types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredefined_abap_type_glosry.htm "Glossary Entry"). The same applies to the table fields of database tables and view fields of classic views.
 
--   [Table types](javascript:call_link\('abenddic_table_types.htm'\))
+-   [Table types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_table_types.htm)
 
-The row types of a table type are defined using existing data types from ABAP Dictionary, whose elementary components have a built-in type (as shown above). When a reference is made to a table type in an ABAP program, the type is mapped to a matching ABAP type. Here, the elementary components are mapped to [built-in ABAP types](javascript:call_link\('abenpredefined_abap_type_glosry.htm'\) "Glossary Entry") in accordance with the [tables of built-in types](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The row types of a table type are defined using existing data types from ABAP Dictionary, whose elementary components have a built-in type (as shown above). When a reference is made to a table type in an ABAP program, the type is mapped to a matching ABAP type. Here, the elementary components are mapped to [built-in ABAP types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredefined_abap_type_glosry.htm "Glossary Entry") in accordance with the [tables of built-in types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm).
 
 -   Reference types
 
@@ -28,19 +28,19 @@ Data elements, components of structures, or row types of table types can all be 
 
 -   Types specified in SQL
 
--   [Typing](javascript:call_link\('abencds_typing.htm'\)) of elements and input parameters of [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") in ABAP CDS.
+-   [Typing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_typing.htm) of elements and input parameters of [CDS entities](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_entity_glosry.htm "Glossary Entry") in ABAP CDS.
 
--   Cast expression [cast](javascript:call_link\('abencds_f1_cast_expression.htm'\)) in the CDSDDL ABAP CDS
+-   Cast expression [cast](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression.htm) in the CDSDDL ABAP CDS
 
--   SQL expression [CAST](javascript:call_link\('abensql_cast.htm'\)) in Open SQL
+-   SQL expression [CAST](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_cast.htm) in Open SQL
 
-The data type of all elementary components in a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"), such as view fields, literals, parameters, and other operands is based indirectly on the built-in data types in ABAP Dictionary.
+The data type of all elementary components in a [CDS entity](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_entity_glosry.htm "Glossary Entry"), such as view fields, literals, parameters, and other operands is based indirectly on the built-in data types in ABAP Dictionary.
 
-Unlike when using the data types above, TYPE references to the built-in data types in ABAP Dictionary are not possible in ABAP programs. Alongside their role in defining data types, these built-in types in ABAP Dictionary must also be considered in [Open SQL statements](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") and when working with [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"):
+Unlike when using the data types above, TYPE references to the built-in data types in ABAP Dictionary are not possible in ABAP programs. Alongside their role in defining data types, these built-in types in ABAP Dictionary must also be considered in [Open SQL statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_glosry.htm "Glossary Entry") and when working with [dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm "Glossary Entry"):
 
 -   Open SQL statements work with database tables defined in ABAP Dictionary whose columns have external data types to which the actual platform-dependent types of the databases are mapped.
 
--   In [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry"), [dynpro fields](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") are also declared with reference to external data types. In a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry"), the special semantic attributes of its data type are usually significant and are evaluated for input masks and for checking input.
+-   In [Screen Painter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_painter_glosry.htm "Glossary Entry"), [dynpro fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_field_glosry.htm "Glossary Entry") are also declared with reference to external data types. In a [dynpro field](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_field_glosry.htm "Glossary Entry"), the special semantic attributes of its data type are usually significant and are evaluated for input masks and for checking input.
 
 Note
 

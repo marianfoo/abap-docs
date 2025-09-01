@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Calculation Statements](javascript:call_link\('abencomputing_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_internal_obsolete.htm) →  [Obsolete Calculation Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomputing_obsolete.htm) → 
 
 SUBTRACT-CORRESPONDING
 
-[Quick Reference](javascript:call_link\('abapsubtract-correspond_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubtract-correspond_shortref.htm)
 
 Obsolete Syntax
 
@@ -18,9 +18,9 @@ Effect
 
 This statement is not allowed in classes and subtracts structures by component. Structures must be specified for struc1 and struc2. For all identically named components in struc1 and struc2, the component in struc1 is subtracted in pairs from the component in struc2 and the result is assigned to the relevant component of struc2.
 
-The names are compared, as in the statement [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)). For each component pair with the same name comp, the statement
+The names are compared, as in the statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove-corresponding.htm). For each component pair with the same name comp, the statement
 
-[SUBTRACT](javascript:call_link\('abapsubtract.htm'\)) struc1-comp FROM struc2-comp.
+[SUBTRACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsubtract.htm) struc1-comp FROM struc2-comp.
 
 is executed, and the appropriate conversions are performed, if necessary.
 
@@ -28,7 +28,7 @@ Note
 
 This statement is error-prone because, particularly in complex structures, it is not easy to check that components of the same name have the data type and content necessary for a numeric operation.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

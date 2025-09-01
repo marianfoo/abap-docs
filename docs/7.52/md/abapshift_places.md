@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) →  [SHIFT](javascript:call_link\('abapshift.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_processing_statements.htm) →  [SHIFT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapshift.htm) → 
 
 SHIFT - places
 
-[Quick Reference](javascript:call_link\('abapshift_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapshift_shortref.htm)
 
 Syntax
 
@@ -25,7 +25,7 @@ Variant 1
 
 Effect
 
-The content of dobj is shifted to the left or right (as specified by [direction](javascript:call_link\('abapshift_direction.htm'\))) by the places specified in num. num is a [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") of operand type i. If the content of num is less than or equal to 0, the content of the data object dobj remains unchanged.
+The content of dobj is shifted to the left or right (as specified by [direction](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapshift_direction.htm)) by the places specified in num. num is a [numeric expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") of operand type i. If the content of num is less than or equal to 0, the content of the data object dobj remains unchanged.
 
 Example
 
@@ -42,11 +42,11 @@ Variant 2
 
 Effect
 
-In the data object dobj, the first substring is searched for whose contents match those of substring. This is case-sensitive. The content of the data object dobj is shifted as far possible to the left or right (as specified in [direction](javascript:call_link\('abapshift_direction.htm'\))) until the byte or character string contained in substring is at the position that is at the beginning or end of the data object dobj before the shift.
+In the data object dobj, the first substring is searched for whose contents match those of substring. This is case-sensitive. The content of the data object dobj is shifted as far possible to the left or right (as specified in [direction](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapshift_direction.htm)) until the byte or character string contained in substring is at the position that is at the beginning or end of the data object dobj before the shift.
 
 substring expects a character-like or byte-like data object. If substring is an empty string, the place in front of the first character or byte is found. On the left, no shift takes place and a shift by the entire length of dobj takes place on the right.
 
-In character string processing, substring is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry"); in data objects, substring with a fixed length respects the trailing blanks.
+In character string processing, substring is a [character-like expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry"); in data objects, substring with a fixed length respects the trailing blanks.
 
 System Fields
 

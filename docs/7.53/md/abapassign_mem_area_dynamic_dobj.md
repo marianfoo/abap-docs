@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Setting Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) →  [ASSIGN](javascript:call_link\('abapassign.htm'\)) →  [ASSIGN - mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_assignments.htm) →  [Setting Field Symbols](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenset_field_symbols.htm) →  [ASSIGN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign.htm) →  [ASSIGN - mem\_area](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_mem_area.htm) → 
 
 ASSIGN - dynamic\_dobj
 
-[Quick Reference](javascript:call_link\('abapassign_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_shortref.htm)
 
 Syntax
 
@@ -26,11 +26,11 @@ Alternatives:
 
 Effect
 
-These alternatives to specifying the memory area [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) of the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)) dynamically are used to dynamically access data objects.
+These alternatives to specifying the memory area [mem\_area](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_mem_area.htm) of the statement [ASSIGN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign.htm) dynamically are used to dynamically access data objects.
 
-In an inline declaration of the field symbol using [FIELD-SYMBOL(<fs>)](javascript:call_link\('abenfield-symbol_inline.htm'\)), its typing is performed with the generic type data.
+In an inline declaration of the field symbol using [FIELD-SYMBOL(<fs>)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfield-symbol_inline.htm), its typing is performed with the generic type data.
 
-In these variants, the statement ASSIGN sets the return code sy-subrc. If the assignment is successful, sy-subrc is set to 0; if not, it is set to 4. If the assignment is not successful, the field symbol keeps its previous state. It is therefore not enough just to evaluate the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [<fs> IS ASSIGNED](javascript:call_link\('abenlogexp_assigned.htm'\)) in a dynamic ASSIGN; sy-subrc needs to be checked as well.
+In these variants, the statement ASSIGN sets the return code sy-subrc. If the assignment is successful, sy-subrc is set to 0; if not, it is set to 4. If the assignment is not successful, the field symbol keeps its previous state. It is therefore not enough just to evaluate the [predicate expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [<fs> IS ASSIGNED](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp_assigned.htm) in a dynamic ASSIGN; sy-subrc needs to be checked as well.
 
 Alternative 1
 
@@ -52,35 +52,35 @@ When the statement is executed, name is not evaluated until runtime (in both cas
 
 name can contain a chain of names consisting of component selectors. For an individual name or if the first name is followed by an object component selector (\->), the specified data object is searched for according to the following hierarchy:
 
-1.  If the statement is located in a [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry"), the local data objects of the procedure are scanned.
+1.  If the statement is located in a [procedure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocedure_glosry.htm "Glossary Entry"), the local data objects of the procedure are scanned.
     
-2.  If the statement is located in a [method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry"), the attributes visible in the method within the class are scanned. In instance methods, the [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") of me (special case of cref->(attr\_name) in [dynamic\_access](javascript:call_link\('abapassign_mem_area_dynamic_access.htm'\))) is scanned.
+2.  If the statement is located in a [method](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_glosry.htm "Glossary Entry"), the attributes visible in the method within the class are scanned. In instance methods, the [static type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_type_glosry.htm "Glossary Entry") of me (special case of cref->(attr\_name) in [dynamic\_access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_mem_area_dynamic_access.htm)) is scanned.
     
 3.  The global data of the current program is scanned.
     
-4.  The interface work areas of the [main program](javascript:call_link\('abenmain_program_glosry.htm'\) "Glossary Entry") of the current program group declared using TABLES are scanned.
+4.  The interface work areas of the [main program](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmain_program_glosry.htm "Glossary Entry") of the current program group declared using TABLES are scanned.
     
-5.  If the statement is located in an [instance method](javascript:call_link\('abeninstance_method_glosry.htm'\) "Glossary Entry"), the [dynamic type](javascript:call_link\('abendynamic_type_glosry.htm'\) "Glossary Entry") of me (special case of cref->(attr\_name) in [dynamic\_access](javascript:call_link\('abapassign_mem_area_dynamic_access.htm'\))) is scanned.
+5.  If the statement is located in an [instance method](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninstance_method_glosry.htm "Glossary Entry"), the [dynamic type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_type_glosry.htm "Glossary Entry") of me (special case of cref->(attr\_name) in [dynamic\_access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_mem_area_dynamic_access.htm)) is scanned.
     
 
-If the data object is found and the name is followed by an object component selector (\->), the search for the following names is continued from left to right, as described under [dynamic\_access](javascript:call_link\('abapassign_mem_area_dynamic_access.htm'\)).
+If the data object is found and the name is followed by an object component selector (\->), the search for the following names is continued from left to right, as described under [dynamic\_access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_mem_area_dynamic_access.htm).
 
-If the first name is followed by a class component selector (\=>), the specified class is searched for, as described under [dynamic\_access](javascript:call_link\('abapassign_mem_area_dynamic_access.htm'\)), and the search is then continued accordingly from left to right.
+If the first name is followed by a class component selector (\=>), the specified class is searched for, as described under [dynamic\_access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_mem_area_dynamic_access.htm), and the search is then continued accordingly from left to right.
 
 Notes
 
--   Dynamically specifying a structure component using a structure component selector produces worse performance than using the addition COMPONENT OF STRUCTURE (see this [executable example](javascript:call_link\('abenassign_component_abexa.htm'\))).
+-   Dynamically specifying a structure component using a structure component selector produces worse performance than using the addition COMPONENT OF STRUCTURE (see this [executable example](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassign_component_abexa.htm)).
     
--   If an attribute of a class in a different program is specified in name using an [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry") and followed by the class component selector (\=>), it is loaded into a new [additional program group](javascript:call_link\('abenadditional_prog_group_glosry.htm'\) "Glossary Entry") or into the current [program group](javascript:call_link\('abenprogram_group_glosry.htm'\) "Glossary Entry") (if not already loaded), depending on the program type. Any existing [program constructors](javascript:call_link\('abenprogram_constructor_glosry.htm'\) "Glossary Entry") are not executed, however, unlike in a genuine [dynamic\_access](javascript:call_link\('abapassign_mem_area_dynamic_access.htm'\)).
+-   If an attribute of a class in a different program is specified in name using an [absolute type name](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabsolute_typename_glosry.htm "Glossary Entry") and followed by the class component selector (\=>), it is loaded into a new [additional program group](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadditional_prog_group_glosry.htm "Glossary Entry") or into the current [program group](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_group_glosry.htm "Glossary Entry") (if not already loaded), depending on the program type. Any existing [program constructors](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_constructor_glosry.htm "Glossary Entry") are not executed, however, unlike in a genuine [dynamic\_access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_mem_area_dynamic_access.htm).
     
--   For internal use only, the name in name can also have the form "(PROG)DOBJ", where "PROG" is the name of an ABAP program and "DOBJ" the name of a global data object of this program (these names are not case-sensitive). If the program "PROG" is loaded into the same [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") as the current program when the statement ASSIGN is executed, the data object "DOBJ" is found in this program and the field symbol points to this data object if the assignment was successful.
+-   For internal use only, the name in name can also have the form "(PROG)DOBJ", where "PROG" is the name of an ABAP program and "DOBJ" the name of a global data object of this program (these names are not case-sensitive). If the program "PROG" is loaded into the same [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") as the current program when the statement ASSIGN is executed, the data object "DOBJ" is found in this program and the field symbol points to this data object if the assignment was successful.
     
--   In an obsolete variant, the addition [TABLE FIELD](javascript:call_link\('abapassign_table_field.htm'\)) can be specified before name. This restricts the search to table work areas.
+-   In an obsolete variant, the addition [TABLE FIELD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_table_field.htm) can be specified before name. This restricts the search to table work areas.
     
 
 Example
 
-Dynamic output of the content of any system field. The validity of the input is checked before it is dynamically assigned with (name) to field symbol syfield via an application of classes of [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry") on structure SYST
+Dynamic output of the content of any system field. The validity of the input is checked before it is dynamically assigned with (name) to field symbol syfield via an application of classes of [RTTI](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry") on structure SYST
 
 DATA(name) = \`sy-uzeit\`.
 cl\_demo\_input=>request( EXPORTING text = \`System field\`
@@ -135,24 +135,24 @@ Alternative 3
 
 Effect
 
-This expression for mem\_area assigns a memory area to the field symbol that has the same length as the memory area of dobj and is incremented inc times this length in reference to the memory area of dobj. inc expects a numeric data object. A data object or a field symbol must be specified directly for dobj. Offset or length specifications or the dereferencing of a data reference are not possible. The field symbol cannot be declared via an inline declaration [FIELD-SYMBOL(<fs>)](javascript:call_link\('abenfield-symbol_inline.htm'\)).
+This expression for mem\_area assigns a memory area to the field symbol that has the same length as the memory area of dobj and is incremented inc times this length in reference to the memory area of dobj. inc expects a numeric data object. A data object or a field symbol must be specified directly for dobj. Offset or length specifications or the dereferencing of a data reference are not possible. The field symbol cannot be declared via an inline declaration [FIELD-SYMBOL(<fs>)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfield-symbol_inline.htm).
 
 Notes
 
 The dynamic ASSIGN variant with INCREMENT is designed for sequential access to similar memory areas that are located at regular intervals after each other, such as consecutive structure components of the same data type. In all other cases, ASSIGN ... INCREMENT should be used carefully. Note the following in particular:
 
--   Usually the addition [RANGE](javascript:call_link\('abapassign_range.htm'\)) must be used to defined the area, within which it is possible to work with INCREMENT.
+-   Usually the addition [RANGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_range.htm) must be used to defined the area, within which it is possible to work with INCREMENT.
     
--   The assigned memory area is handled using the data type dobj if the addition CASTING is not specified in [casting\_spec](javascript:call_link\('abapassign_casting.htm'\)). This means that an implicit casting of the assigned memory areas to the data type of dobj is performed.
+-   The assigned memory area is handled using the data type dobj if the addition CASTING is not specified in [casting\_spec](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_casting.htm). This means that an implicit casting of the assigned memory areas to the data type of dobj is performed.
     
--   The [typing check](javascript:call_link\('abentyping_check_general.htm'\)) also refers to dobj, but is performed only when the statement is executed.
+-   The [typing check](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_check_general.htm) also refers to dobj, but is performed only when the statement is executed.
     
--   Runtime errors always occur if the following general rule is violated: If [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") data objects that are in the assigned memory area do not match the typing as far as type and position are concerned.
+-   Runtime errors always occur if the following general rule is violated: If [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data objects that are in the assigned memory area do not match the typing as far as type and position are concerned.
     
 
 Example
 
-After the ASSIGN statement, the field symbol points to the fourth component col4. See the example for the addition [RANGE](javascript:call_link\('abapassign_range.htm'\)).
+After the ASSIGN statement, the field symbol points to the fourth component col4. See the example for the addition [RANGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_range.htm).
 
 DATA:
   BEGIN OF struct,
@@ -168,7 +168,7 @@ cl\_demo\_output=>display( <fs> ).
 
 Executable Example
 
-[Field Symbols, ASSIGN INCREMENT](javascript:call_link\('abenassign_increment_abexa.htm'\))
+[Field Symbols, ASSIGN INCREMENT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassign_increment_abexa.htm)
 
 Alternative 4
 
@@ -178,11 +178,11 @@ Effect
 
 This expression for mem\_area assigns a memory area of a component comp of a structure struc to the field symbol.
 
-struc is a [result position](javascript:call_link\('abenresult_position_glosry.htm'\) "Glossary Entry"). The structure can be specified as a data object or as a [writable expression](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry"). If struc is specified as an expression, its result must be structured. If struc is specified as a data object, the result does not need to be structured.
+struc is a [result position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenresult_position_glosry.htm "Glossary Entry"). The structure can be specified as a data object or as a [writable expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwritable_expression_glosry.htm "Glossary Entry"). If struc is specified as an expression, its result must be structured. If struc is specified as a data object, the result does not need to be structured.
 
-comp is a [character-like](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry") or [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry"). The evaluation depends on the data type of comp:
+comp is a [character-like](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry") or [numeric expression position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry"). The evaluation depends on the data type of comp:
 
--   If the field comp has a text-like type (c or string) or the type of a [flat](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry") structure, which exclusively contains character-like components, the field content is interpreted as the name of the component. The name must be in uppercase letters. It may contain offsets and lengths, structure component selectors, and component selectors for assigning structured data objects and attributes in classes or objects.
+-   If the field comp has a text-like type (c or string) or the type of a [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_structure_glosry.htm "Glossary Entry") structure, which exclusively contains character-like components, the field content is interpreted as the name of the component. The name must be in uppercase letters. It may contain offsets and lengths, structure component selectors, and component selectors for assigning structured data objects and attributes in classes or objects.
     
 -   If the field comp has a non-text-like elementary type, the content is converted to the type i and interpreted as the position of the component in the structure. If the value of comp is 0, the memory area of the entire structure is assigned to the field symbol.
     
@@ -193,9 +193,9 @@ If an operand struc specified as a data object is not a structure or the specifi
 
 Notes
 
--   Identifying a component by its name is far more performance-intensive than using its position, since far more internal processes are involved. Using COMPONENTS OF, however, always produces better performance than specifying the name after the structure component selector within a fully dynamically specified component in a parenthesized data object name (see this [executable example](javascript:call_link\('abenassign_component_abexa.htm'\))).
+-   Identifying a component by its name is far more performance-intensive than using its position, since far more internal processes are involved. Using COMPONENTS OF, however, always produces better performance than specifying the name after the structure component selector within a fully dynamically specified component in a parenthesized data object name (see this [executable example](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassign_component_abexa.htm)).
     
--   If the structure struc is specified as a [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") and the corresponding row is not found, the exception CX\_SY\_ITAB\_LINE\_NOT\_FOUND is raised.
+-   If the structure struc is specified as a [table expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expression_glosry.htm "Glossary Entry") and the corresponding row is not found, the exception CX\_SY\_ITAB\_LINE\_NOT\_FOUND is raised.
     
 -   Writable expressions can be specified for struc but no other expressions, since these can have a non-temporary result. Assigning a component of a temporary structure to a field symbol would not make sense.
     
@@ -223,9 +223,9 @@ Example
 
 The following two methods show the dynamic assignment of the components of a structure (passed to the parameter para of the methods) to a field symbol <comp>.
 
--   The first implementation does not use [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry"). The statement [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)) is used to check whether the passed data object is a structure. The components are then assigned one after the other to the field symbol in a DO loop.
+-   The first implementation does not use [RTTI](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry"). The statement [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field.htm) is used to check whether the passed data object is a structure. The components are then assigned one after the other to the field symbol in a DO loop.
     
--   The second implementation uses [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry"). A [down cast](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry") of the type description object to the class CL\_ABAP\_STRUCTDESCR for the passed data object ensures that the object is a structure. A loop across the component table COMPONENTS assigns the components to the field symbol via their names.
+-   The second implementation uses [RTTI](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry"). A [down cast](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendown_cast_glosry.htm "Glossary Entry") of the type description object to the class CL\_ABAP\_STRUCTDESCR for the passed data object ensures that the object is a structure. A loop across the component table COMPONENTS assigns the components to the field symbol via their names.
     
 
 CLASS demo DEFINITION.
@@ -280,5 +280,5 @@ ASSIGN COMPONENT 2 OF STRUCTURE itab\[ 2 \] TO FIELD-SYMBOL(<fs>).
 cl\_demo\_output=>display( <fs> ).
 
 Continue
-![Example](exa.gif "Example") [Field Symbols, ASSIGN INCREMENT](javascript:call_link\('abenassign_increment_abexa.htm'\))
-![Example](exa.gif "Example") [Field Symbols, Dynamic Structure Components](javascript:call_link\('abenassign_component_abexa.htm'\))
+![Example](exa.gif "Example") [Field Symbols, ASSIGN INCREMENT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassign_increment_abexa.htm)
+![Example](exa.gif "Example") [Field Symbols, Dynamic Structure Components](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenassign_component_abexa.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services](javascript:call_link\('abenabap_object_services.htm'\)) →  [Transaction Service](javascript:call_link\('abenabap_object_services_transact.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_object_services.htm) →  [Transaction Service](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_object_services_transact.htm) → 
 
 Transaction Service
 
@@ -64,4 +64,4 @@ START-OF-SELECTION.
 
 Description
 
-In this example, a transaction is run in object-oriented mode. To do this, the parameter I\_EXTERNAL\_COMMIT of the system service method INIT\_AND\_SET\_MODES in the static constructor is set to OSCON\_FALSE. After a transaction manager and a transaction (which is also the top level transaction) are created, they are started using START and ended using END. During the transaction, the attributes DEPTIME and ARRTIME of the class object CL\_SPFLI\_PERSISTENT (created in the [executable persistent service example](javascript:call_link\('abenos_persist_abexa.htm'\))) are changed. Calling the END method starts a COMMIT WORK implicitly and writes the changes to the database in the asynchronous update mode. The method handle of the local class th responds to the end of the transaction and analyzes its status.
+In this example, a transaction is run in object-oriented mode. To do this, the parameter I\_EXTERNAL\_COMMIT of the system service method INIT\_AND\_SET\_MODES in the static constructor is set to OSCON\_FALSE. After a transaction manager and a transaction (which is also the top level transaction) are created, they are started using START and ended using END. During the transaction, the attributes DEPTIME and ARRTIME of the class object CL\_SPFLI\_PERSISTENT (created in the [executable persistent service example](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenos_persist_abexa.htm)) are changed. Calling the END method starts a COMMIT WORK implicitly and writes the changes to the database in the asynchronous update mode. The method handle of the local class th responds to the end of the transaction and analyzes its status.

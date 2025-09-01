@@ -4,19 +4,19 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Overview](javascript:call_link\('abenabap_oview.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_oview.htm) → 
 
 ABAP Programs in AS ABAP
 
-ABAP programs are executed in [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry"). The execution of the programs is organized in [sessions](javascript:call_link\('abensession_glosry.htm'\) "Glossary Entry"), which can access different memory areas.
+ABAP programs are executed in [AS ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_nw_abap_glosry.htm "Glossary Entry"). The execution of the programs is organized in [sessions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensession_glosry.htm "Glossary Entry"), which can access different memory areas.
 
--   [Sessions and Memory Areas](javascript:call_link\('abenmemory_organization.htm'\))
+-   [Sessions and Memory Areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmemory_organization.htm)
 
--   [User Sessions](javascript:call_link\('abenuser_sessions.htm'\))
+-   [User Sessions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_sessions.htm)
 
--   [Programs in the Internal Session](javascript:call_link\('abeninternal_session.htm'\))
+-   [Programs in the Internal Session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session.htm)
 
 Continue
-[Sessions and Memory Areas](javascript:call_link\('abenmemory_organization.htm'\))
-[User Sessions](javascript:call_link\('abenuser_sessions.htm'\))
-[Programs in the Internal Session](javascript:call_link\('abeninternal_session.htm'\))
+[Sessions and Memory Areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmemory_organization.htm)
+[User Sessions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_sessions.htm)
+[Programs in the Internal Session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session.htm)

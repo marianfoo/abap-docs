@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 deep
 
-Property of a [data type](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") where the content of its [data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry") is either a [reference](javascript:call_link\('abenreference_glosry.htm'\) "Glossary Entry") that points to the actual content ([reference variables](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry")), or is addressed internally using references ([internal tables](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry"), [strings](javascript:call_link\('abenstring_glosry.htm'\) "Glossary Entry"), and [boxed components](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry")). See also [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry").
+Property of a [data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_type_glosry.htm "Glossary Entry") where the content of its [data object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_object_glosry.htm "Glossary Entry") is either a [reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_glosry.htm "Glossary Entry") that points to the actual content ([reference variables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_variable_glosry.htm "Glossary Entry")), or is addressed internally using references ([internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_glosry.htm "Glossary Entry"), [strings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_glosry.htm "Glossary Entry"), and [boxed components](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboxed_component_glosry.htm "Glossary Entry")). See also [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenmemory_consumption.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmemory_consumption.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarchitecture_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Object-Oriented Programming, ABENOBJ_ORIENTED_GDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%
 0D%0A%0D%0ASuggestion for improvement:)
@@ -20,19 +20,19 @@ Developers who have experience with object-oriented development in other program
 
 Of course, you can transfer algorithms and a general class structure to ABAP, from an application written in another object-oriented programming language. However, the greater the depth, the greater the differences. Therefore, you need to make appropriate modifications to map a detailed design in a different language to ABAP Objects.
 
--   [Encapsulation](javascript:call_link\('abenencapsulation_guidl.htm'\) "Guideline")
--   [Modularization](javascript:call_link\('abenmodularization_guidl.htm'\) "Guideline")
--   [Static Classes and Singletons](javascript:call_link\('abenstatic_class_singleton_guidl.htm'\) "Guideline")
--   [Inheritance](javascript:call_link\('abeninheritance_guidl.htm'\) "Guideline")
--   [Class References and Interface References](javascript:call_link\('abenclass_ref_interf_ref_guidl.htm'\) "Guideline")
--   [Local Types for Global Classes](javascript:call_link\('abenlocal_type_glob_class_guidl.htm'\) "Guideline")
--   [Instance Constructor](javascript:call_link\('abeninstance_constructor_guidl.htm'\) "Guideline")
+-   [Encapsulation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenencapsulation_guidl.htm "Guideline")
+-   [Modularization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_guidl.htm "Guideline")
+-   [Static Classes and Singletons](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_class_singleton_guidl.htm "Guideline")
+-   [Inheritance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninheritance_guidl.htm "Guideline")
+-   [Class References and Interface References](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_ref_interf_ref_guidl.htm "Guideline")
+-   [Local Types for Global Classes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocal_type_glob_class_guidl.htm "Guideline")
+-   [Instance Constructor](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninstance_constructor_guidl.htm "Guideline")
 
 Continue
-[Encapsulation](javascript:call_link\('abenencapsulation_guidl.htm'\))
-[Modularization](javascript:call_link\('abenmodularization_guidl.htm'\))
-[Static Classes and Singletons](javascript:call_link\('abenstatic_class_singleton_guidl.htm'\))
-[Inheritance](javascript:call_link\('abeninheritance_guidl.htm'\))
-[Class References and Interface References](javascript:call_link\('abenclass_ref_interf_ref_guidl.htm'\))
-[Local Types for Global Classes](javascript:call_link\('abenlocal_type_glob_class_guidl.htm'\))
-[Instance Constructor](javascript:call_link\('abeninstance_constructor_guidl.htm'\))
+[Encapsulation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenencapsulation_guidl.htm)
+[Modularization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodularization_guidl.htm)
+[Static Classes and Singletons](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_class_singleton_guidl.htm)
+[Inheritance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninheritance_guidl.htm)
+[Class References and Interface References](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_ref_interf_ref_guidl.htm)
+[Local Types for Global Classes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocal_type_glob_class_guidl.htm)
+[Instance Constructor](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninstance_constructor_guidl.htm)

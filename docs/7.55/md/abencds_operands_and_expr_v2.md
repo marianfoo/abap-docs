@@ -4,41 +4,41 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_statement_v2.htm) → 
 
 CDS DDL - SELECT, CDS View Entity, Operands and Expressions
 
--   [Elementary operands](javascript:call_link\('abencds_operands_v2.htm'\)):
+-   [Elementary operands](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_operands_v2.htm):
 
--   [Literals](javascript:call_link\('abencds_literal_v2.htm'\))
+-   [Literals](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_literal_v2.htm)
 
--   [Fields of data sources](javascript:call_link\('abencds_field_v2.htm'\))
+-   [Fields of data sources](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_field_v2.htm)
 
--   [Parameters](javascript:call_link\('abencds_parameter_v2.htm'\))
+-   [Parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_parameter_v2.htm)
 
--   [Session variables](javascript:call_link\('abencds_session_variable_v2.htm'\))
+-   [Session variables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_session_variable_v2.htm)
 
--   [Expressions](javascript:call_link\('abencds_expressions_v2.htm'\)):
+-   [Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_expressions_v2.htm):
 
--   [Arithmetic expressions](javascript:call_link\('abencds_arithmetic_expression_v2.htm'\))
+-   [Arithmetic expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_arithmetic_expression_v2.htm)
 
--   [Aggregate expressions](javascript:call_link\('abencds_aggregate_functions_v2.htm'\))
+-   [Aggregate expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_aggregate_functions_v2.htm)
 
--   [Case distinction](javascript:call_link\('abencds_case_expression_v2.htm'\))
+-   [Case distinction](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_case_expression_v2.htm)
 
--   [Casting](javascript:call_link\('abencds_cast_expression_v2.htm'\))
+-   [Casting](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_cast_expression_v2.htm)
 
--   [Built-in Functions](javascript:call_link\('abencds_builtin_functions_v2.htm'\))
+-   [Built-in Functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_builtin_functions_v2.htm)
 
--   [Conditions](javascript:call_link\('abencds_conditional_expression_v2.htm'\))
+-   [Conditions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_conditional_expression_v2.htm)
 
--   [Path expressions](javascript:call_link\('abencds_path_expression_v2.htm'\))
+-   [Path expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_path_expression_v2.htm)
 
--   [Passing actual parameters to input parameters](javascript:call_link\('abencds_select_parameters_v2.htm'\))
+-   [Passing actual parameters to input parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_parameters_v2.htm)
 
 Continue
-[CDS DDL - CDS View Entity, Elementary CDS Operands](javascript:call_link\('abencds_operands_v2.htm'\))
-[CDS DDL - CDS View Entity, Expressions](javascript:call_link\('abencds_expressions_v2.htm'\))
-[CDS DDL - CDS View Entity, cds\_cond](javascript:call_link\('abencds_conditional_expression_v2.htm'\))
-[CDS DDL - CDS View Entity, path\_expr](javascript:call_link\('abencds_path_expression_v2.htm'\))
-[CDS DDL - CDS View Entity, CDS parameter passing](javascript:call_link\('abencds_select_parameters_v2.htm'\))
+[CDS DDL - CDS View Entity, Elementary CDS Operands](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_operands_v2.htm)
+[CDS DDL - CDS View Entity, Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_expressions_v2.htm)
+[CDS DDL - CDS View Entity, cds\_cond](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_conditional_expression_v2.htm)
+[CDS DDL - CDS View Entity, path\_expr](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_path_expression_v2.htm)
+[CDS DDL - CDS View Entity, CDS parameter passing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_select_parameters_v2.htm)

@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Streaming](javascript:call_link\('abenstreaming.htm'\)) →  [Streaming for Data Objects](javascript:call_link\('abendata_objects_streams.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Streaming](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstreaming.htm) →  [Streaming for Data Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_objects_streams.htm) → 
 
 Streaming for Internal Tables
 
-The specific classes for [streaming](javascript:call_link\('abenstreaming_glosry.htm'\) "Glossary Entry") for internal tables are:
+The specific classes for [streaming](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstreaming_glosry.htm "Glossary Entry") for internal tables are:
 
 -   CL\_ABAP\_ITAB\_C\_READER
 
@@ -18,7 +18,7 @@ The specific classes for [streaming](javascript:call_link\('abenstreaming_glosry
 
 -   CL\_ABAP\_ITAB\_X\_WRITER
 
-These classes are subclasses of the abstract superclasses [CL\_ABAP\_MEMORY\_...](javascript:call_link\('abendata_objects_streams.htm'\)).
+These classes are subclasses of the abstract superclasses [CL\_ABAP\_MEMORY\_...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_objects_streams.htm).
 
 Example
 

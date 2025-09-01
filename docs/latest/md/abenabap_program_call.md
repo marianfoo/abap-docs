@@ -4,32 +4,32 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_execution.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Calling%20Programs%2C%20ABENABAP_PROGRAM_CALL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Calling Programs
 
-If allowed by the package concept, the following can be called in each [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") of an ABAP program:
+If allowed by the package concept, the following can be called in each [processing block](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprocessing_block_glosry.htm "Glossary Entry") of an ABAP program:
 
--   [Executable programs](javascript:call_link\('abenabap_submit_report.htm'\))
--   [Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)), that is, programs linked to a [transaction code](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry")
+-   [Executable programs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_submit_report.htm)
+-   [Transactions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_call_transaction.htm), that is, programs linked to a [transaction code](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentransaction_code_glosry.htm "Glossary Entry")
 
 When a program is called, the calling program can be exited either temporarily or completely.
 
 ![Figure](abdoc_call_prog.gif)
 
-In temporary exits from the calling program (shown on the left side of the figure), the called program is started in a new [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"). The internal session of the calling program is preserved. The calling program and the called program form a [call sequence](javascript:call_link\('abencall_sequence_glosry.htm'\) "Glossary Entry"). Within a call sequence, there is shared access to the [ABAP Memory](javascript:call_link\('abenabap_memory_glosry.htm'\) "Glossary Entry") using the statements [IMPORT FROM MEMORY](javascript:call_link\('abapimport_data_cluster.htm'\)) and [EXPORT TO MEMORY](javascript:call_link\('abapexport_data_cluster.htm'\)). A call sequence can have a maximum of nine internal sessions. If this maximum is exceeded, the program terminates, and the entire call sequence is deleted.
+In temporary exits from the calling program (shown on the left side of the figure), the called program is started in a new [internal session](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm "Glossary Entry"). The internal session of the calling program is preserved. The calling program and the called program form a [call sequence](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_sequence_glosry.htm "Glossary Entry"). Within a call sequence, there is shared access to the [ABAP Memory](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_memory_glosry.htm "Glossary Entry") using the statements [IMPORT FROM MEMORY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_data_cluster.htm) and [EXPORT TO MEMORY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexport_data_cluster.htm). A call sequence can have a maximum of nine internal sessions. If this maximum is exceeded, the program terminates, and the entire call sequence is deleted.
 
 When the calling program is completely exited (shown on the right side of the figure), the called program is started in a new internal session, which replaces the internal session of the calling program.
 
-A program that creates an internal session when it is called represents the main program of the [main program group](javascript:call_link\('abenmain_program_group_glosry.htm'\) "Glossary Entry") in the internal session.
+A program that creates an internal session when it is called represents the main program of the [main program group](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmain_program_group_glosry.htm "Glossary Entry") in the internal session.
 
 Hints
 
--   When a called program is loaded, the event [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) is raised in that program.
--   The statement [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) without the addition AND RETURN shown on the right side of the figure does not always replace the internal session of the calling program directly. If the calling program was not started with SUBMIT itself, its internal session is preserved in the call sequence and is only deleted after the submitted program is completed.
+-   When a called program is loaded, the event [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapload-of-program.htm) is raised in that program.
+-   The statement [SUBMIT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsubmit.htm) without the addition AND RETURN shown on the right side of the figure does not always replace the internal session of the calling program directly. If the calling program was not started with SUBMIT itself, its internal session is preserved in the call sequence and is only deleted after the submitted program is completed.
 
 Continue
-[Calling Executable Programs](javascript:call_link\('abenabap_submit_report.htm'\))
-[Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\))
+[Calling Executable Programs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_submit_report.htm)
+[Calling Transactions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_call_transaction.htm)

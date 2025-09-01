@@ -4,21 +4,21 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) → 
 
 Lists - Editing List Buffers
 
-The following statements process lists that are already saved as [screen lists](javascript:call_link\('abenscreen_list_glosry.htm'\) "Glossary Entry") in the list buffers:
+The following statements process lists that are already saved as [screen lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_list_glosry.htm "Glossary Entry") in the list buffers:
 
--   [READ LINE](javascript:call_link\('abapread_line.htm'\)),
--   [MODIFY LINE](javascript:call_link\('abapmodify_line.htm'\)),
--   [SCROLL LIST](javascript:call_link\('abapscroll.htm'\)), and
--   [DESCRIBE LIST](javascript:call_link\('abapdescribe_list.htm'\))
+-   [READ LINE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_line.htm),
+-   [MODIFY LINE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_line.htm),
+-   [SCROLL LIST](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapscroll.htm), and
+-   [DESCRIBE LIST](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdescribe_list.htm)
 
-[Spool lists](javascript:call_link\('abenspool_list_glosry.htm'\) "Glossary Entry") that are sent page by page to the SAP spool system cannot be processed in this manner.
+[Spool lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenspool_list_glosry.htm "Glossary Entry") that are sent page by page to the SAP spool system cannot be processed in this manner.
 
 Continue
-[READ LINE](javascript:call_link\('abapread_line.htm'\))
-[MODIFY LINE](javascript:call_link\('abapmodify_line.htm'\))
-[SCROLL LIST](javascript:call_link\('abapscroll.htm'\))
-[DESCRIBE LIST](javascript:call_link\('abapdescribe_list.htm'\))
+[READ LINE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_line.htm)
+[MODIFY LINE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_line.htm)
+[SCROLL LIST](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapscroll.htm)
+[DESCRIBE LIST](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdescribe_list.htm)

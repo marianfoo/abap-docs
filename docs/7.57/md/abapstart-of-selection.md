@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Structure](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Event Blocks](javascript:call_link\('abenevent_blocks.htm'\)) →  [Reporting Events](javascript:call_link\('abenabap_processing_blocks.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Structure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_modularization.htm) →  [Event Blocks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenevent_blocks.htm) →  [Reporting Events](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_processing_blocks.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: START-OF-SELECTION, ABAPSTART-OF-SELECTION, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0
 D%0ASuggestion for improvement:)
 
 START-OF-SELECTION
 
-[Short Reference](javascript:call_link\('abapstart-of-selection_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapstart-of-selection_shortref.htm)
 
 Syntax
 
@@ -19,16 +19,16 @@ START-OF-SELECTION.
 
 Effect
 
-This event keyword defines the standard processing block of an executable program. The associated event is raised by the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry") during the [processing](javascript:call_link\('abenreporting_process.htm'\)) of an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") after selection screen [processing](javascript:call_link\('abenselscreen_processing_glosry.htm'\) "Glossary Entry") of any standard selection screen.
+This event keyword defines the standard processing block of an executable program. The associated event is raised by the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry") during the [processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreporting_process.htm) of an [executable program](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexecutable_program_glosry.htm "Glossary Entry") after selection screen [processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselscreen_processing_glosry.htm "Glossary Entry") of any standard selection screen.
 
 In an executable program, the following statements are assigned to an implicit START-OF-SELECTION event block, which is inserted before any explicit START-OF-SELECTION event block if one exists:
 
--   All statements that are not declaration and are listed before the first explicit [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry").
+-   All statements that are not declaration and are listed before the first explicit [processing block](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocessing_block_glosry.htm "Glossary Entry").
 -   All functional statements of the program if it does not contain any explicit processing blocks,
 
 Hint
 
-If the program is linked to a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry"), preparatory work can be performed in START-OF-SELECTION before the logical database reads data. If the program is not linked to a logical database, this event block represents a "main program", so to speak, from which [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") or classic [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") are called.
+If the program is linked to a [logical database](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_data_base_glosry.htm "Glossary Entry"), preparatory work can be performed in START-OF-SELECTION before the logical database reads data. If the program is not linked to a logical database, this event block represents a "main program", so to speak, from which [procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocedure_glosry.htm "Glossary Entry") or classic [screens](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_glosry.htm "Glossary Entry") are called.
 
 Example
 

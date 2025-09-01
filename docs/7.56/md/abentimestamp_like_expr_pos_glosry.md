@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 time-stamp-like expression position
 
-[Read position](javascript:call_link\('abenread_position_glosry.htm'\) "Glossary Entry") in which a [time stamp field](javascript:call_link\('abentimestamp_field_glosry.htm'\) "Glossary Entry"), as well as an [expression](javascript:call_link\('abencharlike_expression_glosry.htm'\) "Glossary Entry") can be specified whose result has a [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry").
+[Read position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenread_position_glosry.htm "Glossary Entry") in which a [time stamp field](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentimestamp_field_glosry.htm "Glossary Entry"), as well as an [expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharlike_expression_glosry.htm "Glossary Entry") can be specified whose result has a [time stamp type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentimestamp_type_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abentimestamp_expr_positions.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentimestamp_expr_positions.htm)

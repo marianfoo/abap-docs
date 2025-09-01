@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 class reference variable
 
-[Object reference variable](javascript:call_link\('abenobject_refer_variable_glosry.htm'\) "Glossary Entry") whose [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") is a [class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry"). A class reference variable can be used to access all visible components of an object.
+[Object reference variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_refer_variable_glosry.htm "Glossary Entry") whose [static type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_type_glosry.htm "Glossary Entry") is a [class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_glosry.htm "Glossary Entry"). A class reference variable can be used to access all visible components of an object.

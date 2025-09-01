@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Obsolete Database Access](javascript:call_link\('abendatabase_access_obsolete.htm'\)) →  [Obsolete Access to Objects in HANA XS](javascript:call_link\('abenhana_xsc_obsolete.htm'\)) →  [Access to SAP HANA XSC Objects (Obsolete)](javascript:call_link\('abensap_hana_access_xsc.htm'\)) →  [Database Procedure Proxies for SQLScript Procedures in the SAP HANA Repository (Obsolete)](javascript:call_link\('abensql_script.htm'\)) →  [CALL DATABASE PROCEDURE](javascript:call_link\('abapcall_database_procedure.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_storage_obsolete.htm) →  [Obsolete Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_access_obsolete.htm) →  [Obsolete Access to Objects in HANA XS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhana_xsc_obsolete.htm) →  [Access to SAP HANA XSC Objects (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_hana_access_xsc.htm) →  [Database Procedure Proxies for SQLScript Procedures in the SAP HANA Repository (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_script.htm) →  [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_database_procedure.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SAP HANA, Database Procedure Proxy, ABENCALL_DB_PROCEDURE_ABEXA, 757%0D%0A%0D%0AError
 :%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 SAP HANA, Database Procedure Proxy
 
-This example demonstrates how a [database procedure](javascript:call_link\('abendatabase_procedure_glosry.htm'\) "Glossary Entry") created in the program is called.
+This example demonstrates how a [database procedure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_procedure_glosry.htm "Glossary Entry") created in the program is called.
 
 Source Code   
 
@@ -112,12 +112,12 @@ START-OF-SELECTION.
 
 Description   
 
-[ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry") is used in the method create\_db\_procedure to create the same database procedure as in the executable example [ADBC, Stored Procedure](javascript:call_link\('abenadbc_procedure_abexa.htm'\)). Here, however, the procedure is called using the statement [CALL DATABASE PROCEDURE](javascript:call_link\('abapcall_database_procedure.htm'\)) and not using ADBC.
+[ADBC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc_glosry.htm "Glossary Entry") is used in the method create\_db\_procedure to create the same database procedure as in the executable example [ADBC, Stored Procedure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc_procedure_abexa.htm). Here, however, the procedure is called using the statement [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_database_procedure.htm) and not using ADBC.
 
-The [database procedure proxy](javascript:call_link\('abendatabase_proc_proxy_glosry.htm'\) "Glossary Entry") required for this is created temporarily in the program itself using the associated API.
+The [database procedure proxy](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendatabase_proc_proxy_glosry.htm "Glossary Entry") required for this is created temporarily in the program itself using the associated API.
 
 -   The API is created using the factory method GET\_PROXY\_PUBLIC\_API from the factory class CL\_DBPROC\_PROXY\_FACTORY.
 -   The proxy is created using the method CREATE\_PROXY of the interface IF\_DBPROC\_PROXY\_PUBLIC\_API.
 -   Here, the internal table params filled previously is used to define the mapping between the parameter interface and ABAP data types. The parameter names are also modified.
 
-The executable example [AMDP, simple procedure call](javascript:call_link\('abenamdp_abexa.htm'\)) shows how the procedure can be managed and called as an [ABAP Managed Database Procedure](javascript:call_link\('abenamdp.htm'\)).
+The executable example [AMDP, simple procedure call](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_abexa.htm) shows how the procedure can be managed and called as an [ABAP Managed Database Procedure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp.htm).

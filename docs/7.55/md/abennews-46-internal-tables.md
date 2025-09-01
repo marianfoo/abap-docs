@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [Changes in Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 4.xx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-4.htm) →  [Changes in Release 4.6A](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-46a.htm) → 
 
 Internal Tables in Release 4.6A
 
@@ -28,7 +28,7 @@ Modification 1
 
 New keys specified in unstructured internal tables
 
-If the line type of an internal table does not have a structure, the [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line can be used to specify or address the entire table line as the key. The previous form TABLE LINE is now obsolete. If a [structure](javascript:call_link\('abaptypes_struc.htm'\)) contains a component called table\_line, this produces a warning in the syntax check.
+If the line type of an internal table does not have a structure, the [pseudo component](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpseudo_component_glosry.htm "Glossary Entry") table\_line can be used to specify or address the entire table line as the key. The previous form TABLE LINE is now obsolete. If a [structure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_struc.htm) contains a component called table\_line, this produces a warning in the syntax check.
 
 Modification 2
 
@@ -40,7 +40,7 @@ Modification 3
 
 Strings as table keys
 
-[Strings](javascript:call_link\('abenstring.htm'\)) are now allowed as the key of an internal table. This applies to all categories of tables.
+[Strings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring.htm) are now allowed as the key of an internal table. This applies to all categories of tables.
 
 Modification 4
 
@@ -66,33 +66,33 @@ Modification 7
 
 Sorting without sort key specified
 
-Sorting an internal table with type [STANDARD](javascript:call_link\('abaptypes_tabkind.htm'\)) or [HASHED](javascript:call_link\('abaptypes_tabkind.htm'\)) using the statement [SORT](javascript:call_link\('abapsort_itab.htm'\)) now returns a correct result, even if the sort key is not specified in the addition BY.
+Sorting an internal table with type [STANDARD](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_tabkind.htm) or [HASHED](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_tabkind.htm) using the statement [SORT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsort_itab.htm) now returns a correct result, even if the sort key is not specified in the addition BY.
 
 Modification 8
 
 Access to read-only tables
 
-If the statements [DELETE](javascript:call_link\('abapdelete_itab.htm'\)), [INSERT](javascript:call_link\('abapinsert_itab.htm'\)), and [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) are applied to read-only tables (for example, IMPORTING-REFERENCE parameters in function modules or READ-ONLY attributes of classes), the system returns a syntax error. This error used to produce a runtime error.
+If the statements [DELETE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab.htm), [INSERT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_itab.htm), and [MODIFY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmodify_itab.htm) are applied to read-only tables (for example, IMPORTING-REFERENCE parameters in function modules or READ-ONLY attributes of classes), the system returns a syntax error. This error used to produce a runtime error.
 
 Modification 9
 
 Index ranges in table extensions
 
-The statements [INSERT LINES OF itab ...](javascript:call_link\('abapinsert_itab.htm'\)) and [APPEND LINES OF  itab ...](javascript:call_link\('abapappend.htm'\)) return syntax errors if the source table has the type HASHED or ANY and the additions FROM and TO are used to specify an index range. This error used to produce a runtime error.
+The statements [INSERT LINES OF itab ...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_itab.htm) and [APPEND LINES OF  itab ...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapappend.htm) return syntax errors if the source table has the type HASHED or ANY and the additions FROM and TO are used to specify an index range. This error used to produce a runtime error.
 
 Modification 10
 
 IS REQUESTED with TABLES parameter
 
-If the predicate operator [IS REQUESTED](javascript:call_link\('abenlogexp_requested.htm'\)) is used with [TABLES](javascript:call_link\('abenfunction.htm'\)) parameters in update modules, the syntax check produces a [warning](javascript:call_link\('abenwarning_glosry.htm'\) "Glossary Entry"). These parameters are always supplied.
+If the predicate operator [IS REQUESTED](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_requested.htm) is used with [TABLES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction.htm) parameters in update modules, the syntax check produces a [warning](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwarning_glosry.htm "Glossary Entry"). These parameters are always supplied.
 
 Modification 11
 
 Tables as attributes of objects
 
-The statements [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)), [READ](javascript:call_link\('abapread_table.htm'\)), [SORT](javascript:call_link\('abapsort_itab.htm'\)), [DELETE](javascript:call_link\('abapdelete_itab.htm'\)), and [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) now support access to the attributes of objects as the keys of internal tables.
+The statements [LOOP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaploop_at_itab.htm), [READ](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table.htm), [SORT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsort_itab.htm), [DELETE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab.htm), and [MODIFY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmodify_itab.htm) now support access to the attributes of objects as the keys of internal tables.
 
-If the line type of an internal table contains object reference variables from [ABAP Objects](javascript:call_link\('abenabap_objects_oview.htm'\)) as components comp, the attributes attr of the object to which the reference points can be used as key values when reading, sorting, and changing the table. This is possible in the following statements:
+If the line type of an internal table contains object reference variables from [ABAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_objects_oview.htm) as components comp, the attributes attr of the object to which the reference points can be used as key values when reading, sorting, and changing the table. This is possible in the following statements:
 
 LOOP AT itab ... WHERE comp->attr ...
 
@@ -108,10 +108,10 @@ Modification 12
 
 References as Line type
 
-In the declarative statements [DATA](javascript:call_link\('abapdata_itab.htm'\)), [STATICS](javascript:call_link\('abapstatics.htm'\)), and [TYPES](javascript:call_link\('abaptypes_itab.htm'\)), object references and data references can be used as the line type of an internal table.
+In the declarative statements [DATA](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdata_itab.htm), [STATICS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapstatics.htm), and [TYPES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_itab.htm), object references and data references can be used as the line type of an internal table.
 
 Modification 13
 
 Multiple identical keys specified
 
-Identical keys specified more than once in the statement [READ](javascript:call_link\('abapread_table.htm'\)) produce a [warning](javascript:call_link\('abenwarning_glosry.htm'\) "Glossary Entry").
+Identical keys specified more than once in the statement [READ](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table.htm) produce a [warning](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwarning_glosry.htm "Glossary Entry").

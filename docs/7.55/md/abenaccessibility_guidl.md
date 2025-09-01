@@ -4,13 +4,13 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [User Interfaces](javascript:call_link\('abenuser_interfaces_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarchitecture_guidl.htm) →  [User Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_interfaces_guidl.htm) → 
 
 Accessibility
 
 Background
 
-Accessibility is a [product standard](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline") that ensures that information technology products can also be used by people with impairments. For user interfaces, for instance, this means meeting the needs of visually impaired or blind users in particular. These users usually need a screen reader program, which reads the content of the screen aloud.
+Accessibility is a [product standard](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencorrectness_quality_guidl.htm "Guideline") that ensures that information technology products can also be used by people with impairments. For user interfaces, for instance, this means meeting the needs of visually impaired or blind users in particular. These users usually need a screen reader program, which reads the content of the screen aloud.
 
 Rule
 
@@ -32,7 +32,7 @@ Primarily, user interfaces must be designed so that they can be processed by tec
 
 -   Input and output fields on the screen should be grouped as appropriate in frames, each with a meaningful title.
 
-This is another reason to use the most up-to-date interface technologies, such as SAPUI5, Web Dynpro ABAP or ALV. These automatically only allow accessible interfaces, whereas application developers using older technologies such as classic screens or classic lists are themselves responsible for ensuring that the accessibility requirements are met. There are some checks in the [check tools](javascript:call_link\('abencheck_correctness_guidl.htm'\) "Guideline") for classic dynpros and selection screens that report violations of these rules (if they can be identified statically). However, for classic lists such checks are only possible at the time of display.
+This is another reason to use the most up-to-date interface technologies, such as SAPUI5, Web Dynpro ABAP or ALV. These automatically only allow accessible interfaces, whereas application developers using older technologies such as classic screens or classic lists are themselves responsible for ensuring that the accessibility requirements are met. There are some checks in the [check tools](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencheck_correctness_guidl.htm "Guideline") for classic dynpros and selection screens that report violations of these rules (if they can be identified statically). However, for classic lists such checks are only possible at the time of display.
 
 Hint
 

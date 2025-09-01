@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 condense function
 
-[Processing function](javascript:call_link\('abenprocess_function_glosry.htm'\) "Glossary Entry") use to condense a string.
+[Processing function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprocess_function_glosry.htm "Glossary Entry") use to condense a string.
 
-[→ More](javascript:call_link\('abencondense_functions.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencondense_functions.htm)

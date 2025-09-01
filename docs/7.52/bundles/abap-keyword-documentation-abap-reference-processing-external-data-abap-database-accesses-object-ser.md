@@ -3,30 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services_query.htm)
-- [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_terms.htm)
-- [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_comps.htm)
-- [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_filter_cond.htm)
-- [abenos_query_sort_cond.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_sort_cond.htm)
-- [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_abexa.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.483Z
-
----
-
 ### abenabap_object_services_query.htm
-
-> **📖 Official SAP Documentation**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services_query.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,36 +11,29 @@ Included pages: 6
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services](javascript:call_link\('abenabap_object_services.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services.htm) → 
 
 Query Service
 
 The query service enables makes it possible to search for and load persistent objects using logical expressions.
 
--   [Query Service Overview](javascript:call_link\('abenos_query_terms.htm'\))
+-   [Query Service Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_terms.htm)
 
--   [Query Service Components](javascript:call_link\('abenos_query_comps.htm'\))
+-   [Query Service Components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_comps.htm)
 
--   [Query Conditions](javascript:call_link\('abenos_query_filter_cond.htm'\))
+-   [Query Conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_filter_cond.htm)
 
--   [Sort Conditions](javascript:call_link\('abenos_query_sort_cond.htm'\))
+-   [Sort Conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_sort_cond.htm)
 
 Continue
-[Query Service Overview](javascript:call_link\('abenos_query_terms.htm'\))
-[Query Service Components](javascript:call_link\('abenos_query_comps.htm'\))
-[Query Conditions](javascript:call_link\('abenos_query_filter_cond.htm'\))
-[Sort Conditions](javascript:call_link\('abenos_query_sort_cond.htm'\))
-![Example](exa.gif "Example") [Query Service](javascript:call_link\('abenos_query_abexa.htm'\))
+[Query Service Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_terms.htm)
+[Query Service Components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_comps.htm)
+[Query Conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_filter_cond.htm)
+[Sort Conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_sort_cond.htm)
+![Example](exa.gif "Example") [Query Service](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_abexa.htm)
 
-
-
-**📖 Source**: [abenabap_object_services_query.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services_query.htm)
 
 ### abenos_query_terms.htm
-
-> **📖 Official SAP Documentation**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_terms.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -71,7 +41,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services](javascript:call_link\('abenabap_object_services.htm'\)) →  [Query Service](javascript:call_link\('abenabap_object_services_query.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services_query.htm) → 
 
 Query Service Overview
 
@@ -79,7 +49,7 @@ A query is used to search for persistent objects in the database using condition
 
 A query is implemented by an object (query object) that implements the interface IF\_OS\_QUERY and is created by a query manager.
 
-A query is a logical expression that compares the attributes of a persistent class with parameters or values that comprise the [query condition](javascript:call_link\('abenos_query_filter_cond.htm'\)). Those objects are loaded whose attributes meet the query conditions. A query also contains a [sort condition](javascript:call_link\('abenos_query_sort_cond.htm'\)), which determines the order of the loaded objects in the results table.
+A query is a logical expression that compares the attributes of a persistent class with parameters or values that comprise the [query condition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_filter_cond.htm). Those objects are loaded whose attributes meet the query conditions. A query also contains a [sort condition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_sort_cond.htm), which determines the order of the loaded objects in the results table.
 
 When a query is created using the query manager method CREATE\_QUERY method, the query conditions and sort conditions are passed to it.
 
@@ -90,14 +60,7 @@ Note
 When the result quantity of a query is determined, the changes that are made in the current transaction to persistent objects are not considered. The query is executed directly in the database.
 
 
-
-**📖 Source**: [abenos_query_terms.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_terms.htm)
-
 ### abenos_query_comps.htm
-
-> **📖 Official SAP Documentation**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_comps.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -105,7 +68,7 @@ When the result quantity of a query is determined, the changes that are made in 
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services](javascript:call_link\('abenabap_object_services.htm'\)) →  [Query Service](javascript:call_link\('abenabap_object_services_query.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services_query.htm) → 
 
 Query Service Components
 
@@ -244,14 +207,7 @@ Creates a sort condition. The sort condition is returned in the return value RES
 The attributes used for the sort are appended one after the other when the method APPEND\_ASCENDING or APPEND\_DESCENDING of the additional interface IF\_OS\_QUERY\_ORDERING\_EXPR is called. The parameter name is passed to the parameter I\_ATTR.
 
 
-
-**📖 Source**: [abenos_query_comps.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_comps.htm)
-
 ### abenos_query_filter_cond.htm
-
-> **📖 Official SAP Documentation**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_filter_cond.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -259,15 +215,19 @@ The attributes used for the sort are appended one after the other when the metho
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services](javascript:call_link\('abenabap_object_services.htm'\)) →  [Query Service](javascript:call_link\('abenabap_object_services_query.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services_query.htm) → 
 
 Query Conditions
 
 A query condition is a logical expression that compares the attributes of a persistent class with free parameters or values. The syntax of a query condition is based on the syntax of the Open SQL WHERE condition, where reference variables for object references are also supported. Like a WHERE condition, a query condition is made up of elementary comparisons that can be joined using the Boolean operators AND, OR, and NOT, where grouping using parentheses is supported.
 
--   [Relational Operators](#abenos-query-filter-cond-1--------like---@ITOC@@ABENOS_QUERY_FILTER_COND_2)
+-   [Relational Operators](#@@ITOC@@ABENOS_QUERY_FILTER_COND_1)
 
--   [IS NULL](#abenos-query-filter-cond-3--------equalsref---@ITOC@@ABENOS_QUERY_FILTER_COND_4)
+-   [LIKE](#@@ITOC@@ABENOS_QUERY_FILTER_COND_2)
+
+-   [IS NULL](#@@ITOC@@ABENOS_QUERY_FILTER_COND_3)
+
+-   [EQUALSREF](#@@ITOC@@ABENOS_QUERY_FILTER_COND_4)
 
 -   [AND, OR, NOT](#@@ITOC@@ABENOS_QUERY_FILTER_COND_5)
 
@@ -285,11 +245,11 @@ The query condition and its parameter list are analyzed when a query is executed
 
 Security Notes
 
--   The layout of a query condition in a program is one of the dynamic programming techniques. If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the predefined function [escape](javascript:call_link\('abenescape_functions.htm'\)).
+-   The layout of a query condition in a program is one of the dynamic programming techniques. If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the predefined function [escape](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenescape_functions.htm).
 
--   To avoid [SQL injections](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry"), the use of parameters from the parameter list of a chaining is recommended, where dynamic values are represented as literals.
+-   To avoid [SQL injections](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_injection_glosry.htm "Glossary Entry"), the use of parameters from the parameter list of a chaining is recommended, where dynamic values are represented as literals.
 
--   See also [SQL Injections Using Object Services](javascript:call_link\('abensql_inj_os_query_scrty.htm'\)).
+-   See also [SQL Injections Using Object Services](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_inj_os_query_scrty.htm).
 
 Relational Operators
 
@@ -329,14 +289,7 @@ name LIKE PAR1 AND age > '45' AND age < '65'
 ( salary > '50000' AND currency = 'EUR' ) )
 
 
-
-**📖 Source**: [abenos_query_filter_cond.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_filter_cond.htm)
-
 ### abenos_query_sort_cond.htm
-
-> **📖 Official SAP Documentation**: [abenos_query_sort_cond.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_sort_cond.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -344,7 +297,7 @@ name LIKE PAR1 AND age > '45' AND age < '65'
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services](javascript:call_link\('abenabap_object_services.htm'\)) →  [Query Service](javascript:call_link\('abenabap_object_services_query.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services_query.htm) → 
 
 Sort Conditions
 
@@ -367,17 +320,7 @@ Example
 price ASCENDING date DESCENDING
 
 
-
-**📖 Source**: [abenos_query_sort_cond.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_sort_cond.htm)
-
 ### abenos_query_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenos_query_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_query_abexa.htm)
-
 
   
 
@@ -385,7 +328,7 @@ price ASCENDING date DESCENDING
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services](javascript:call_link\('abenabap_object_services.htm'\)) →  [Query Service](javascript:call_link\('abenabap_object_services_query.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services_query.htm) → 
 
 Query Service
 
@@ -436,4 +379,4 @@ Description
 
 A query manager is called using the method GET\_QUERY\_MANAGER of the class CL\_OS\_SYSTEM and a query created using the method CREATE\_QUERY and a specified filter. The query is executed using the interface method GET\_PERSISTENT\_BY\_QUERY of the interface IF\_OS\_CA\_PERSISTENCY and the flights found are displayed.
 
-Since the predefined parameters PAR1, PAR2 from a parameter list are used here, an [SQL injection](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry") is not possible in this example.
+Since the predefined parameters PAR1, PAR2 from a parameter list are used here, an [SQL injection](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_injection_glosry.htm "Glossary Entry") is not possible in this example.

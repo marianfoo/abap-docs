@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [Changes in Release 7.52](javascript:call_link\('abennews-752.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews.htm) →  [Changes in Releases 7.5x](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-75.htm) →  [Changes in Release 7.52](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-752.htm) → 
 
 Data Clusters in Release 7.52
 
@@ -14,7 +14,7 @@ Modification 1
 
 New Catchable Exceptions
 
-The following [exceptions in IMPORT](javascript:call_link\('abenrabax_import_from_database.htm'\)) were previously non-catchable but are now assigned to the exception class CX\_SY\_IMPORT\_FORMAT\_ERROR and hence can be handled:
+The following [exceptions in IMPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrabax_import_from_database.htm) were previously non-catchable but are now assigned to the exception class CX\_SY\_IMPORT\_FORMAT\_ERROR and hence can be handled:
 
 -   CONNE\_ILLEGAL\_TRANSPORT\_HEADER
     

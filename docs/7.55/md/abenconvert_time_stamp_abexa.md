@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Time Stamps](javascript:call_link\('abentime_stamps.htm'\)) →  [Time Stamps in Packed Numbers](javascript:call_link\('abentime_stamps_packed.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendate_time_processing.htm) →  [Time Stamps](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_stamps.htm) →  [Time Stamps in Packed Numbers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_stamps_packed.htm) → 
 
 Convert Time Stamps in Packed Numbers
 
-This example demonstrates the statements [CONVERT TIME STAMP](javascript:call_link\('abapconvert_time-stamp.htm'\)) and [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)).
+This example demonstrates the statements [CONVERT TIME STAMP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapconvert_time-stamp.htm) and [CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapconvert_date_time-stamp.htm).
 
 Source Code
 
@@ -110,7 +110,7 @@ AT SELECTION-SCREEN OUTPUT.
 
 Description
 
-The program is given a date, a time, and a time zone and converts this information into a time stamp in a [time stamp in a packed number](javascript:call_link\('abentime_stamps_packed.htm'\)). The program can also include daylight saving time in its calculations. The resulting time stamp is then converted to the local date and local time of another time zone. The following table shows some possible combinations of input and output, where spc stands for a space and \- for no input or output.
+The program is given a date, a time, and a time zone and converts this information into a time stamp in a [time stamp in a packed number](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_stamps_packed.htm). The program can also include daylight saving time in its calculations. The resulting time stamp is then converted to the local date and local time of another time zone. The following table shows some possible combinations of input and output, where spc stands for a space and \- for no input or output.
 
 date1
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Mesh Paths](javascript:call_link\('abenmesh_pathes.htm'\)) →  [Meshes - mesh\_path](javascript:call_link\('abenmesh_path.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_meshes.htm) →  [Meshes - Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_pathes.htm) →  [Meshes - mesh\_path](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Meshes%20-%20%5C_assoc%5B%20...%20%5D%2C%20ABENMESH_PATH_ASSOC%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -29,13 +29,13 @@ Additions:
 
 Effect
 
-Specifies a mesh association in a [mesh path](javascript:call_link\('abenmesh_path.htm'\)). A mesh association specification is introduced using a backslash character, \\, and is always located directly to the right of an entry node of the mesh path. A mesh association leads from its entry node to a follow-on node in the same mesh. A mesh association is either an initial mesh association [\\\_associ\[ ... \]](javascript:call_link\('abenmesh_path.htm'\)), for which the entry node of the [root node](javascript:call_link\('abenmesh_path.htm'\)) specified explicitly is at the start of a mesh path, or a path extension [\\\_assoc1\[ ... \]](javascript:call_link\('abenmesh_path.htm'\)), [\\\_assoc2\[ ... \]](javascript:call_link\('abenmesh_path.htm'\)), ..., for which the entry node is the follow-on node of a preceding mesh association.
+Specifies a mesh association in a [mesh path](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path.htm). A mesh association specification is introduced using a backslash character, \\, and is always located directly to the right of an entry node of the mesh path. A mesh association leads from its entry node to a follow-on node in the same mesh. A mesh association is either an initial mesh association [\\\_associ\[ ... \]](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path.htm), for which the entry node of the [root node](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path.htm) specified explicitly is at the start of a mesh path, or a path extension [\\\_assoc1\[ ... \]](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path.htm), [\\\_assoc2\[ ... \]](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path.htm), ..., for which the entry node is the follow-on node of a preceding mesh association.
 
-The syntax variants define whether the association is a forward association or an inverse mesh association. The addition in square brackets \[ \] determines the table line of the entry node from which the mesh association originates at runtime. The optional additions + or \* can be used to make reflexive mesh associations ([self-associations](javascript:call_link\('abenself_association_glosry.htm'\) "Glossary Entry")) transitive.
+The syntax variants define whether the association is a forward association or an inverse mesh association. The addition in square brackets \[ \] determines the table line of the entry node from which the mesh association originates at runtime. The optional additions + or \* can be used to make reflexive mesh associations ([self-associations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenself_association_glosry.htm "Glossary Entry")) transitive.
 
 Hint
 
-In the [definition](javascript:call_link\('abaptypes_mesh_association.htm'\)) of a mesh association, its nodes are known as start nodes and target nodes. In evaluations of mesh associations, however, they are known as entry nodes and follow-on nodes. In a forward association, the entry node is always a start node and the follow-on node is always a target node. In inverse mesh associations, the reverse applies.
+In the [definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_mesh_association.htm) of a mesh association, its nodes are known as start nodes and target nodes. In evaluations of mesh associations, however, they are known as entry nodes and follow-on nodes. In a forward association, the entry node is always a start node and the follow-on node is always a target node. In inverse mesh associations, the reverse applies.
 
 Variant 1   
 
@@ -47,11 +47,11 @@ Variant 2  
 
 Effect
 
-Specifies a forward association. In a forward association, the entry node is a start node and the follow-on node is a target node of a mesh association [\_assoc](javascript:call_link\('abaptypes_mesh_association.htm'\)) of the mesh. Both variants have the same semantics. \_assoc is used to specify the name of a mesh association defined for the entry node in the [mesh type](javascript:call_link\('abaptypes_mesh.htm'\)). The follow-on node is the target node of this mesh association and can be specified as node after ~ in alternative 2.
+Specifies a forward association. In a forward association, the entry node is a start node and the follow-on node is a target node of a mesh association [\_assoc](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_mesh_association.htm) of the mesh. Both variants have the same semantics. \_assoc is used to specify the name of a mesh association defined for the entry node in the [mesh type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_mesh.htm). The follow-on node is the target node of this mesh association and can be specified as node after ~ in alternative 2.
 
 Hint
 
-The follow-on node node can be specified explicitly for logging purposes on the consumer side. If the recommended naming convention with the prefix to\_ in front of the name of the target node is used for [mesh associations](javascript:call_link\('abaptypes_mesh_association.htm'\)), however, it is redundant.
+The follow-on node node can be specified explicitly for logging purposes on the consumer side. If the recommended naming convention with the prefix to\_ in front of the name of the target node is used for [mesh associations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_mesh_association.htm), however, it is redundant.
 
 Variant 3   
 
@@ -59,12 +59,12 @@ Variant 3  
 
 Effect
 
-Specifies an inverse mesh association. In an inverse mesh association, the entry node is a target node and the follow-on node is a start node of an association [\_assoc](javascript:call_link\('abaptypes_mesh_association.htm'\)) of the mesh. \_assoc is used to specify the name of a mesh association that has the entry node as a target node in the [mesh type](javascript:call_link\('abaptypes_mesh.htm'\)). The start node of the required mesh association must be specified explicitly as the follow-on node using node after ~.
+Specifies an inverse mesh association. In an inverse mesh association, the entry node is a target node and the follow-on node is a start node of an association [\_assoc](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_mesh_association.htm) of the mesh. \_assoc is used to specify the name of a mesh association that has the entry node as a target node in the [mesh type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_mesh.htm). The start node of the required mesh association must be specified explicitly as the follow-on node using node after ~.
 
 Hints
 
 -   The follow-on node node must be specified since the entry node can be the target node of different mesh associations of an identically named mesh type.
--   An inverse mesh association can also be specified for a reflexive mesh association ([self association](javascript:call_link\('abenself_association_glosry.htm'\) "Glossary Entry")) with the same start node and target node.
+-   An inverse mesh association can also be specified for a reflexive mesh association ([self association](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenself_association_glosry.htm "Glossary Entry")) with the same start node and target node.
 
 Example
 
@@ -90,20 +90,20 @@ Effect
 
 The square brackets are part of the syntax. The square brackets define the table line of the entry node from which the mesh association originates at runtime. This specification in square brackets depends on whether the association is an initial mesh association or a path extension and where the mesh path is used:
 
--   \[ source *\[*[cond](javascript:call_link\('abenmesh_path_assoc_cond.htm'\))*\]* \]
+-   \[ source *\[*[cond](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc_cond.htm)*\]* \]
     
-    Specifies a structure source as a source in an initial mesh association [\\\_associ\[ ... \]](javascript:call_link\('abenmesh_path.htm'\)).
+    Specifies a structure source as a source in an initial mesh association [\\\_associ\[ ... \]](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path.htm).
     
--   \[ *\[*[cond](javascript:call_link\('abenmesh_path_assoc_cond.htm'\))*\]* \]
+-   \[ *\[*[cond](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc_cond.htm)*\]* \]
     
-    Implicitly specifies the source in a path extension [\\\_assoc1\[ ... \]](javascript:call_link\('abenmesh_path.htm'\)), [\\\_assoc2\[ ... \]](javascript:call_link\('abenmesh_path.htm'\)). The source is the result of the preceding mesh association.
+    Implicitly specifies the source in a path extension [\\\_assoc1\[ ... \]](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path.htm), [\\\_assoc2\[ ... \]](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path.htm). The source is the result of the preceding mesh association.
     
 
-Depending on where the association is used, further conditions [cond](javascript:call_link\('abenmesh_path_assoc_cond.htm'\)) can be specified. If no further conditions are specified, the square brackets of an initial mesh association contain only source and the square brackets of a path extension are empty.
+Depending on where the association is used, further conditions [cond](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc_cond.htm) can be specified. If no further conditions are specified, the square brackets of an initial mesh association contain only source and the square brackets of a path extension are empty.
 
 Executable Example
 
-[Mesh Path Expressions](javascript:call_link\('abenmesh_table_expressions_abexa.htm'\))
+[Mesh Path Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_table_expressions_abexa.htm)
 
 Addition 2   
 
@@ -111,13 +111,13 @@ Addition 2  
 
 Effect
 
-An optional + or \* can be specified after the name of the mesh association to make it transitive. To be used transitively, the mesh association [\_assoc](javascript:call_link\('abaptypes_mesh_association.htm'\)) must be reflexive and have the same start node and target node ([self-association](javascript:call_link\('abenself_association_glosry.htm'\) "Glossary Entry")). If the last mesh association in the mesh path is used transitively, it can only be used for single lines with [LOOP](javascript:call_link\('abenmesh_loop.htm'\)) and [FOR](javascript:call_link\('abenmesh_loop.htm'\)) or [DELETE](javascript:call_link\('abenmesh_delete.htm'\)) and [MODIFY](javascript:call_link\('abenmesh_delete.htm'\))
+An optional + or \* can be specified after the name of the mesh association to make it transitive. To be used transitively, the mesh association [\_assoc](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_mesh_association.htm) must be reflexive and have the same start node and target node ([self-association](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenself_association_glosry.htm "Glossary Entry")). If the last mesh association in the mesh path is used transitively, it can only be used for single lines with [LOOP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_loop.htm) and [FOR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_loop.htm) or [DELETE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_delete.htm) and [MODIFY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_delete.htm)
 
-If an mesh association is used transitively, it is evaluated more than once when the mesh path is used. First, the regular [result](javascript:call_link\('abenmesh_path_result.htm'\)) of the mesh association is determined. Starting with this result, the mesh association is evaluated recursively until no new lines are found in the follow-on node. Here, the result of each evaluation is the starting point of the next recursion. The result set of the transitive mesh association is the union set of the individual recursions
+If an mesh association is used transitively, it is evaluated more than once when the mesh path is used. First, the regular [result](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result.htm) of the mesh association is determined. Starting with this result, the mesh association is evaluated recursively until no new lines are found in the follow-on node. Here, the result of each evaluation is the starting point of the next recursion. The result set of the transitive mesh association is the union set of the individual recursions
 
 The variants + and \* differ as follows:
 
--   If + is specified, the result set is only determined by the [results](javascript:call_link\('abenmesh_path_result.htm'\)) of the mesh associations.
+-   If + is specified, the result set is only determined by the [results](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result.htm) of the mesh associations.
 -   If \* is specified, the source of the mesh association is included in the result set. If the association is the initial mesh association, the line is determined from the specified source source using the primary table key and it cannot be empty. If no line is found, the result set is empty.
 
 Each line of the follow-on node occurs only once in the result set, even if it was found more than once when the mesh path was evaluated.
@@ -129,7 +129,7 @@ Hints
 
 Executable Example
 
-[Reflexive Mesh Associations in Mesh Paths](javascript:call_link\('abenmesh_for_reflex_sngl_abexa.htm'\))
+[Reflexive Mesh Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_reflex_sngl_abexa.htm)
 
 Continue
-[Meshes - \[ ... cond \]](javascript:call_link\('abenmesh_path_assoc_cond.htm'\))
+[Meshes - \[ ... cond \]](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc_cond.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Avoiding%20Invalid%20Values%2C%20ABENAVOIDING_INVALID_VALUES_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -18,9 +18,9 @@ For performance reasons, the ABAP runtime framework does not check whether the t
 -   For type d: a calendar date in the format YYYYMMDD
 -   For type t: a time in the format HHMMSS
 
-For a detailed description of the validity of date fields and time fields, see also the [relevant section](javascript:call_link\('abenchar_date_time_fields_validity.htm'\)) of the documentation.
+For a detailed description of the validity of date fields and time fields, see also the [relevant section](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchar_date_time_fields_validity.htm) of the documentation.
 
-A [lossless assignment](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry") can be used to force checks on valid values.
+A [lossless assignment](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_assignment_glosry.htm "Glossary Entry") can be used to force checks on valid values.
 
 Rule   
 
@@ -32,7 +32,7 @@ Details  
 
 Statements that work with variables with types n, d, or t can only be guaranteed to behave correctly if values are valid. If date and time fields are required, it is important to be aware of their special characteristics. Since the initial value for variables of type d is itself not a valid value, a suitable start value must always be specified by using the addition VALUE. Note that in arithmetic calculations with date fields, if an assignment to a target field with data type d has 0 as a result value, this is an invalid initial value and may require special handling.
 
-If the responsibility for filling data objects of the critical data types lies elsewhere, [it is best to](javascript:call_link\('abenuse_conversion_rules_guidl.htm'\) "Guideline") always check the validity of their content before use. [Lossless assignments](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry") with the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) can be used to do this. Note that the initial value of a date field of type d is interpreted as valid for a lossless assignment, but the value 00010101 is considered to be a valid date only in [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry").
+If the responsibility for filling data objects of the critical data types lies elsewhere, [it is best to](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_conversion_rules_guidl.htm "Guideline") always check the validity of their content before use. [Lossless assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_assignment_glosry.htm "Glossary Entry") with the operator [EXACT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_exact.htm) can be used to do this. Note that the initial value of a date field of type d is interpreted as valid for a lossless assignment, but the value 00010101 is considered to be a valid date only in [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm "Glossary Entry").
 
 Bad Example
 

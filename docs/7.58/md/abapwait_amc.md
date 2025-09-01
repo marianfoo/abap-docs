@@ -4,20 +4,20 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [ABAP Messaging Channels (AMC)](javascript:call_link\('abenamc.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_channels.htm) →  [ABAP Messaging Channels (AMC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20WAIT%20FOR%20MESSAGING%20CHANNELS%2C%20ABAPWAIT_AMC%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 WAIT FOR MESSAGING CHANNELS
 
-[Short Reference](javascript:call_link\('abapwait_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_shortref.htm)
 
 Syntax
 
 WAIT FOR MESSAGING CHANNELS
-         *\[*[PUSH CHANNELS](javascript:call_link\('abapwait_apc.htm'\))*\]*
-         *\[*[ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_arfc.htm'\))*\]*
-         UNTIL [log\_exp](javascript:call_link\('abenlogexp.htm'\)) *\[*UP TO sec SECONDS*\]*.
+         *\[*[PUSH CHANNELS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_apc.htm)*\]*
+         *\[*[ASYNCHRONOUS TASKS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_arfc.htm)*\]*
+         UNTIL [log\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm) *\[*UP TO sec SECONDS*\]*.
 
 Additions:
 
@@ -27,7 +27,7 @@ Additions:
 
 Effect
 
-This variant of the statement WAIT can be used only in receiver programs of [ABAP Messaging Channels](javascript:call_link\('abenamc.htm'\)). Any [logical expression](javascript:call_link\('abenlogical_expression_glosry.htm'\) "Glossary Entry") can be specified for [log\_exp](javascript:call_link\('abenlogexp.htm'\)) after UNTIL.
+This variant of the statement WAIT can be used only in receiver programs of [ABAP Messaging Channels](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc.htm). Any [logical expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_expression_glosry.htm "Glossary Entry") can be specified for [log\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm) after UNTIL.
 
 -   If the result of log\_exp is false and a receiver is registered for APC messages, the program waits until an ON\_MESSAGE method has been executed for a message sent by a sender program and checks the logical expression again:
     -   If the new check on the result of the logical expression is true, sy-subrc is set to 0 and the execution of the program is continued with the statement that follows WAIT.
@@ -36,7 +36,7 @@ This variant of the statement WAIT can be used only in receiver programs of [ABA
 -   If the result of log\_exp is false and no receiver is registered for AMC messages, the execution of the program is not interrupted, regardless of the result of log\_exp, and sy-subrc is set to the value 4.
 -   If the logical expression is true, the execution of the program is not interrupted, regardless of whether a receiver is registered for AMC messages, and sy-subrc is set to the value 0.
 
-If the statement WAIT interrupts the program, the [work process](javascript:call_link\('abenwork_process_glosry.htm'\) "Glossary Entry") is changed, and a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") is executed, except in [updates](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry"). For this reason, WAIT must not be used between ABAP SQL statements that open or close a [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry").
+If the statement WAIT interrupts the program, the [work process](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwork_process_glosry.htm "Glossary Entry") is changed, and a [database commit](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_commit_glosry.htm "Glossary Entry") is executed, except in [updates](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenupdate_glosry.htm "Glossary Entry"). For this reason, WAIT must not be used between ABAP SQL statements that open or close a [database cursor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_cursor_glosry.htm "Glossary Entry").
 
 System Fields
 
@@ -50,7 +50,7 @@ The logical expression log\_exp is true.
 
 4
 
-The logical expression log\_exp is false. Also, no receiver is registered for AMC messages in the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") and no registrations for APC messages or [asynchronous function calls](javascript:call_link\('abenasynchronous_rfc_glosry.htm'\) "Glossary Entry") exist when the additions PUSH CHANNELS or ASYNCHRONOUS TASKS are used.
+The logical expression log\_exp is false. Also, no receiver is registered for AMC messages in the current [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry") and no registrations for APC messages or [asynchronous function calls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenasynchronous_rfc_glosry.htm "Glossary Entry") exist when the additions PUSH CHANNELS or ASYNCHRONOUS TASKS are used.
 
 8
 
@@ -62,7 +62,7 @@ If the logical expression is false, the running program is stopped in its curren
 
 Executable Example
 
-[Receiving AMC Messages](javascript:call_link\('abenamc_receive_abexa.htm'\))
+[Receiving AMC Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_receive_abexa.htm)
 
 Addition 1   
 
@@ -74,7 +74,7 @@ Addition 2  
 
 Effect
 
-If these additions are specified, this variant of the statement WAIT is combined with the variants [WAIT FOR PUSH CHANNELS](javascript:call_link\('abapwait_apc.htm'\)) or [WAIT FOR ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_arfc.htm'\)). The program flow described in the variants is added to the program flow described above. The WAIT statement then also waits for APC messages or for asynchronously called functions to be called and does not just wait for AMC messages.
+If these additions are specified, this variant of the statement WAIT is combined with the variants [WAIT FOR PUSH CHANNELS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_apc.htm) or [WAIT FOR ASYNCHRONOUS TASKS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_arfc.htm). The program flow described in the variants is added to the program flow described above. The WAIT statement then also waits for APC messages or for asynchronously called functions to be called and does not just wait for AMC messages.
 
 Addition 3   
 
@@ -91,7 +91,7 @@ Hints
 -   If no receiver is registered for AMC messages, the addition UP TO sec SECONDS is ignored.
 -   The addition UP TO sec SECONDS is ignored with respect to the execution of the RECEIVE methods. Their execution duration can be longer than the time span specified.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

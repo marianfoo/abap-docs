@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm)
-- [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_exception_classes.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.55
-**Generated**: 2025-09-01T11:25:45.759Z
-
----
-
 ### abenabap_language_exceptions.htm
-
-> **📖 Official SAP Documentation**: [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,19 +11,19 @@ Included pages: 2
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_exceptions.htm) → 
 
 Exceptions in ABAP Statements
 
-Error situations that occur during the execution of an ABAP statement raise exceptions. These exceptions are fully integrated into the [exception concept](javascript:call_link\('abenabap_exceptions.htm'\)) and are raised by the runtime environment. Two types of exception exist:
+Error situations that occur during the execution of an ABAP statement raise exceptions. These exceptions are fully integrated into the [exception concept](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_exceptions.htm) and are raised by the runtime environment. Two types of exception exist:
 
--   Catchable exceptions that are based on [predefined](javascript:call_link\('abenabap_exception_classes.htm'\)) [exception classes](javascript:call_link\('abenexception_class_glosry.htm'\) "Glossary Entry").
+-   Catchable exceptions that are based on [predefined](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_exception_classes.htm) [exception classes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexception_class_glosry.htm "Glossary Entry").
 
--   Uncatchable exceptions that directly produce [runtime errors](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry").
+-   Uncatchable exceptions that directly produce [runtime errors](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenruntime_error_glosry.htm "Glossary Entry").
 
 Each catchable exception is assigned to a runtime error that terminates the program if the exception is neither handled nor propagated to a caller. The keyword documentation lists the type of exceptions that can be raised for each statement.
 
-For reasons of backward compatibility, catchable exceptions raised by many ABAP statements can be caught by using both [TRY ... ENDTRY](javascript:call_link\('abaptry.htm'\)) and the obsolete statement [CATCH SYSTEM-EXCEPTIONS ... ENDCATCH](javascript:call_link\('abapcatch_sys.htm'\)). To do this, the runtime error assigned to the exception class must be [catchable](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"). Within processing blocks, the two mechanisms prevent each other from handling exceptions. It is advisable to catch an exception between TRY ... ENDTRY using CATCH or to use the RAISING addition in the definition of the interface to propagate it to the caller. Catching exceptions using CATCH SYSTEM-EXCEPTIONS is no longer recommended.
+For reasons of backward compatibility, catchable exceptions raised by many ABAP statements can be caught by using both [TRY ... ENDTRY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptry.htm) and the obsolete statement [CATCH SYSTEM-EXCEPTIONS ... ENDCATCH](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcatch_sys.htm). To do this, the runtime error assigned to the exception class must be [catchable](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"). Within processing blocks, the two mechanisms prevent each other from handling exceptions. It is advisable to catch an exception between TRY ... ENDTRY using CATCH or to use the RAISING addition in the definition of the interface to propagate it to the caller. Catching exceptions using CATCH SYSTEM-EXCEPTIONS is no longer recommended.
 
 Example
 
@@ -68,7 +49,7 @@ ENDTRY.
 
 Handling Exceptions as Catchable Runtime Errors
 
-Since the runtime error COMPUTE\_INT\_ZERODIVIDE is catchable and assigned to the [exception group](javascript:call_link\('abenexception_group_glosry.htm'\) "Glossary Entry") ARITHMETIC\_ERRORS, it can also be handled using the obsolete statement [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)).
+Since the runtime error COMPUTE\_INT\_ZERODIVIDE is catchable and assigned to the [exception group](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexception_group_glosry.htm "Glossary Entry") ARITHMETIC\_ERRORS, it can also be handled using the obsolete statement [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcatch_sys.htm).
 
 DATA result TYPE i.
 CATCH SYSTEM-EXCEPTIONS arithmetic\_errors = 4.
@@ -79,20 +60,10 @@ IF sy-subrc = 4.
 ENDIF.
 
 Continue
-[Exception Classes for ABAP Statements](javascript:call_link\('abenabap_exception_classes.htm'\))
+[Exception Classes for ABAP Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_exception_classes.htm)
 
-
-
-**📖 Source**: [abenabap_language_exceptions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm)
 
 ### abenabap_exception_classes.htm
-
-> **📖 Official SAP Documentation**: [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_exception_classes.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenabap_exception_classes.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_exception_classes.htm)
-
 
   
 
@@ -100,15 +71,15 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Exceptions in ABAP Statements](javascript:call_link\('abenabap_language_exceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_exceptions.htm) →  [Exceptions in ABAP Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm) → 
 
 Exception Classes for ABAP Statements
 
-The catchable [exceptions in ABAP statements](javascript:call_link\('abenabap_language_exceptions.htm'\)) can be caught using the predefined exception classes listed below, which are subclasses of the classes CX\_DYNAMIC\_CHECK and CX\_NO\_CHECK. These exception classes replace the obsolete [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"). The keyword documentation lists the type of exceptions that can be raised for each statement.
+The catchable [exceptions in ABAP statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm) can be caught using the predefined exception classes listed below, which are subclasses of the classes CX\_DYNAMIC\_CHECK and CX\_NO\_CHECK. These exception classes replace the obsolete [catchable runtime errors](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"). The keyword documentation lists the type of exceptions that can be raised for each statement.
 
 To improve the structure, intermediate abstract classes were introduced so that groups of exceptions can be caught simultaneously.
 
-Each exception class includes message texts, which can be found in the Texts tab in the [Class Builder](javascript:call_link\('abenclass_builder_glosry.htm'\) "Glossary Entry").
+Each exception class includes message texts, which can be found in the Texts tab in the [Class Builder](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_builder_glosry.htm "Glossary Entry").
 
 The following links open the Class Builder for the relevant exception class.
 

@@ -4,29 +4,29 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Objects](javascript:call_link\('abenobjects_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_declarations.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobjects_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20STATICS%2C%20ABAPSTATICS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 STATICS
 
-[Short Reference](javascript:call_link\('abapstatics_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstatics_shortref.htm)
 
 Syntax
 
-STATICS stat *\[*[options](javascript:call_link\('abapdata.htm'\))*\]*.
+STATICS stat *\[*[options](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata.htm)*\]*.
 
 Effect
 
-Declares static variables stat. The statement STATICS for declaring static variables can only be used in [static methods](javascript:call_link\('abenstatic_method_glosry.htm'\) "Glossary Entry"), [function modules](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry"), and [subroutines](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry").
+Declares static variables stat. The statement STATICS for declaring static variables can only be used in [static methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_method_glosry.htm "Glossary Entry"), [function modules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunction_module_glosry.htm "Glossary Entry"), and [subroutines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubroutine_glosry.htm "Glossary Entry").
 
-The [naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) apply to the name stat. The syntax of the additions options is the same as for the statement [DATA](javascript:call_link\('abapdata.htm'\)) for declaring regular variables. Only the additions [READ-ONLY](javascript:call_link\('abapdata_options.htm'\)) and [BOXED](javascript:call_link\('abapdata_boxed.htm'\)), and the declaration of [LOB handle structures](javascript:call_link\('abapdata_lob_handle.htm'\)) are not possible.
+The [naming conventions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennaming_conventions.htm) apply to the name stat. The syntax of the additions options is the same as for the statement [DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata.htm) for declaring regular variables. Only the additions [READ-ONLY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_options.htm) and [BOXED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_boxed.htm), and the declaration of [LOB handle structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_lob_handle.htm) are not possible.
 
-As with regular local variables, variables declared using STATICS are only visible within their [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry"). However, the lifetime of a variable declared using STATICS corresponds to that of a global data object. The variable is created once when the [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry") is loaded into the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"), and its content is assigned the [start value](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry") of the VALUE addition. Calling and ending the procedure have no effect on the lifetime and content.
+As with regular local variables, variables declared using STATICS are only visible within their [procedure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocedure_glosry.htm "Glossary Entry"). However, the lifetime of a variable declared using STATICS corresponds to that of a global data object. The variable is created once when the [compilation unit](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencompilation_unit_glosry.htm "Glossary Entry") is loaded into the [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry"), and its content is assigned the [start value](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstart_value_glosry.htm "Glossary Entry") of the VALUE addition. Calling and ending the procedure have no effect on the lifetime and content.
 
 Hint
 
-In instance methods, the statement STATICS is not allowed. Instead, [static attributes](javascript:call_link\('abenstatic_attribute_glosry.htm'\) "Glossary Entry") of the class declared using [CLASS-DATA](javascript:call_link\('abapclass-data.htm'\)) can be used.
+In instance methods, the statement STATICS is not allowed. Instead, [static attributes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_attribute_glosry.htm "Glossary Entry") of the class declared using [CLASS-DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass-data.htm) can be used.
 
 Example
 

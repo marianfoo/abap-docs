@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Class Libraries](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)) →  [iXML - Examples](javascript:call_link\('abenabap_ixml_lib_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml.htm) →  [XML - Class Libraries](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_libs.htm) →  [iXML Library](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_ixml_lib.htm) →  [iXML - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_ixml_lib_abexas.htm) → 
 
 iXML - Down Casts
 
@@ -63,4 +63,4 @@ START-OF-SELECTION.
 
 Description
 
-An iterator is created for all nodes of a parsed XML document and these are used to iterate. To identify nodes that are not elements, down casts are performed from IF\_IXML\_NODE to IF\_IXML\_ELEMENT. Both checks on regular down casts using the predicate expression [IS INSTANCE OF](javascript:call_link\('abenlogexp_instance_of.htm'\)) and down casts using the method QUERY\_INTERFACE of the interface IF\_IXML\_UNKNOWN are demonstrated.
+An iterator is created for all nodes of a parsed XML document and these are used to iterate. To identify nodes that are not elements, down casts are performed from IF\_IXML\_NODE to IF\_IXML\_ELEMENT. Both checks on regular down casts using the predicate expression [IS INSTANCE OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_instance_of.htm) and down casts using the method QUERY\_INTERFACE of the interface IF\_IXML\_UNKNOWN are demonstrated.

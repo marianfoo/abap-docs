@@ -4,23 +4,35 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services (OS)](javascript:call_link\('abenabap_object_services.htm'\)) →  [OS - Persistency Service](javascript:call_link\('abenabap_object_services_persist.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [Object Services (OS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_object_services.htm) →  [OS - Persistency Service](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_object_services_persist.htm) → 
 
 OS - Components of the Persistence Service
 
 The persistence service is a software layer that manages persistent objects. This software layer consists of a general part and a class-specific part. It is made up of global classes and interfaces from the Class Library. The class-specific part is specially generated for each existing persistent class.
 
--   [CL\_persistent](#abenos-persistence-comps-1--------classes-ca--persistent-and-cb--persistent---@ITOC@@ABENOS_PERSISTENCE_COMPS_2)
+-   [CL\_persistent](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_1)
 
--   [Interfaces for the Class Agent](#abenos-persistence-comps-3--------management-interface-for-the-persistent-class---@ITOC@@ABENOS_PERSISTENCE_COMPS_4)
+-   [Classes CA\_persistent and CB\_persistent](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_2)
 
--   [Other Interfaces and Classes](#abenos-persistence-comps-5--------agent-attribute-of-the-class-agent---@ITOC@@ABENOS_PERSISTENCE_COMPS_6)
+-   [Interfaces for the Class Agent](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_3)
 
--   [Most Important Methods of the Class Agent](#abenos-persistence-comps-7--------methods-inherited-from-cb--persistent---@ITOC@@ABENOS_PERSISTENCE_COMPS_8)
+-   [Management Interface for the Persistent Class](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_4)
 
--   [Methods of the Interface IF\_OS\_FACTORY](#abenos-persistence-comps-9--------methods-of-the-interface-if--os--ca--persistency---@ITOC@@ABENOS_PERSISTENCE_COMPS_10)
+-   [Other Interfaces and Classes](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_5)
 
--   [Methods of the Interface IF\_OS\_CA\_INSTANCE](#abenos-persistence-comps-11--------methods-of-if--os--state---@ITOC@@ABENOS_PERSISTENCE_COMPS_12)
+-   [AGENT Attribute of the Class Agent](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_6)
+
+-   [Most Important Methods of the Class Agent](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_7)
+
+-   [Methods Inherited from CB\_persistent](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_8)
+
+-   [Methods of the Interface IF\_OS\_FACTORY](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_9)
+
+-   [Methods of the Interface IF\_OS\_CA\_PERSISTENCY](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_10)
+
+-   [Methods of the Interface IF\_OS\_CA\_INSTANCE](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_11)
+
+-   [Methods of IF\_OS\_STATE](#@@ITOC@@ABENOS_PERSISTENCE_COMPS_12)
 
 CL\_persistent
 
@@ -56,7 +68,7 @@ Methods Inherited from CB\_persistent
 
 -   CREATE\_PERSISTENT
 
-Creates a new persistent object. The interface is generated in accordance with the [mapping](javascript:call_link\('abenos_persistence_mapping.htm'\)) between the persistent class and ABAP Dictionary. If the persistent object is managed using business keys, the interface contains the relevant input parameters. If the persistent object is managed using GUIDs, a new instance GUID is generated when the object is created. There are optional importing parameters for all persistent attributes, regardless of which keys manage the object. The return value RESULT has the type of the persistent class and contains a reference to the new persistent object. Each program can contain only one object for each key. The object is saved to the database using the statement COMMIT WORK. When the persistence service creates the object, it does not check whether the object already exists in the database. An error occurs only when an attempt is made to save an existing object. It is therefore best to check whether the object already exists using the method GET\_PERSISTENT.
+Creates a new persistent object. The interface is generated in accordance with the [mapping](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenos_persistence_mapping.htm) between the persistent class and ABAP Dictionary. If the persistent object is managed using business keys, the interface contains the relevant input parameters. If the persistent object is managed using GUIDs, a new instance GUID is generated when the object is created. There are optional importing parameters for all persistent attributes, regardless of which keys manage the object. The return value RESULT has the type of the persistent class and contains a reference to the new persistent object. Each program can contain only one object for each key. The object is saved to the database using the statement COMMIT WORK. When the persistence service creates the object, it does not check whether the object already exists in the database. An error occurs only when an attempt is made to save an existing object. It is therefore best to check whether the object already exists using the method GET\_PERSISTENT.
 
 -   GET\_PERSISTENT
 

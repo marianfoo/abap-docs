@@ -4,9 +4,9 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Conditions sql\_cond](javascript:call_link\('abenasql_cond.htm'\)) →  [sql\_cond - rel\_exp for Statements](javascript:call_link\('abenwhere_logexp.htm'\)) →  [sql\_cond - IN ( ... )](javascript:call_link\('abenwhere_logexp_in.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL Conditions sql\_cond](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasql_cond.htm) →  [sql\_cond - rel\_exp for Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp.htm) →  [sql\_cond - IN ( ... )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_in.htm) → 
 
-[Quick Reference](javascript:call_link\('abensql_cond_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_cond_shortref.htm)
 
 sql\_cond - ( operand1, operand2, ... ) IN ( ... )
 
@@ -14,7 +14,7 @@ Syntax
 
 ... ( operand1, operand2*\[*, ...*\]* ) IN *{* ( ( operand11, operand21*\[*, ...*\]* )*\[*,
                                          ( operand12, operand22*\[*, ...*\]* )*\]* ) *}*
-                                   *|* *{* ( SELECT [subquery\_clauses](javascript:call_link\('abenwhere_logexp_subquery.htm'\)) *\[*[UNION ...](javascript:call_link\('abapunion.htm'\))*\]* ) *}* ...
+                                   *|* *{* ( SELECT [subquery\_clauses](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_subquery.htm) *\[*[UNION ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapunion.htm)*\]* ) *}* ...
 
 Variants:
 
@@ -27,13 +27,13 @@ Checks whether the values of the operands operand1, operand2, ... specified as a
 
 -   Using a comma-separated list of parenthesized tuples ( operand11, operand21\[, ...\] ), ( operand12, operand22\[, ...\] ), ...
 
--   Using a [subquery](javascript:call_link\('abensubquery_glosry.htm'\) "Glossary Entry") (not yet implemented)
+-   Using a [subquery](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubquery_glosry.htm "Glossary Entry") (not yet implemented)
 
 The following applies to operand1, operand2, ...:
 
--   Any [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) except [aggregate expressions](javascript:call_link\('abapselect_aggregate.htm'\)) and [window expressions](javascript:call_link\('abapselect_over.htm'\)) can be specified.
+-   Any [SQL expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) except [aggregate expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_aggregate.htm) and [window expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm) can be specified.
 
--   [Aggregate expressions](javascript:call_link\('abapselect_aggregate.htm'\)) can be used in a [HAVING](javascript:call_link\('abaphaving_clause.htm'\)) clause.
+-   [Aggregate expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_aggregate.htm) can be used in a [HAVING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaphaving_clause.htm) clause.
 
 At least one blank must be placed after every opening parenthesis and before every closing parenthesis. The comma-separated list operand1, operand2, ... must contain at least two elements.
 
@@ -49,15 +49,15 @@ Effect
 
 This relational expression is true if the value of every operand operand1, operand2, ... on the left side matches the content of the operand of a parenthesized value tuple ( operand11, operand21\[, ...\] ) in the same place on the right side. Every value tuple must contain the same number of elements as in the comma-separated list operand1, operand2, ... on the left side. The value tuples themselves are specified as a parenthesized comma-separated list (which can also consist of only one element).
 
-operand11, operand21, ... of a value tuple can be any [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) except [window expressions](javascript:call_link\('abapselect_over.htm'\)). [Aggregate expressions](javascript:call_link\('abapselect_aggregate.htm'\)) are currently only possible in a [HAVING](javascript:call_link\('abaphaving_clause.htm'\)) clause. [Literals](javascript:call_link\('abenabap_sql_host_literals.htm'\)), [host variables](javascript:call_link\('abenopen_sql_host_variables.htm'\)), and [host expressions](javascript:call_link\('abenopen_sql_host_expressions.htm'\)) are handled like [elementary SQL expressions](javascript:call_link\('abensql_elem.htm'\)), which means they are mapped to dictionary types instead of being converted.
+operand11, operand21, ... of a value tuple can be any [SQL expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) except [window expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm). [Aggregate expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_aggregate.htm) are currently only possible in a [HAVING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaphaving_clause.htm) clause. [Literals](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql_host_literals.htm), [host variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_variables.htm), and [host expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_expressions.htm) are handled like [elementary SQL expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_elem.htm), which means they are mapped to dictionary types instead of being converted.
 
 Notes
 
--   This variant of IN can be replicated by individual comparisons joined using AND and OR and the [relational operator \=](javascript:call_link\('abenwhere_logexp_compare.htm'\)), but this method does not permit SQL expressions on the right side. This is also how this variant of IN is distinguished from the variant with a [single operand](javascript:call_link\('abenwhere_logexp_operand_in.htm'\)).
+-   This variant of IN can be replicated by individual comparisons joined using AND and OR and the [relational operator \=](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_compare.htm), but this method does not permit SQL expressions on the right side. This is also how this variant of IN is distinguished from the variant with a [single operand](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_operand_in.htm).
 
--   When this variant of IN is used, ABAP SQL bypasses [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry").
+-   When this variant of IN is used, ABAP SQL bypasses [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm "Glossary Entry").
 
--   When used, this variant of IN, applies the [strict mode from Release 7.54](javascript:call_link\('abenopensql_strict_mode_754.htm'\)).
+-   When used, this variant of IN, applies the [strict mode from Release 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql_strict_mode_754.htm).
 
 Example
 

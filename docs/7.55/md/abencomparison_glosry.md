@@ -4,8 +4,8 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 comparison
 
-[Relational expression](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry") that compares one or more [operands](javascript:call_link\('abenoperand_glosry.htm'\) "Glossary Entry"). Implemented in ABAP using [comparison expressions](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry").
+[Relational expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrelational_expression_glosry.htm "Glossary Entry") that compares one or more [operands](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoperand_glosry.htm "Glossary Entry"). Implemented in ABAP using [comparison expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomparison_expression_glosry.htm "Glossary Entry").

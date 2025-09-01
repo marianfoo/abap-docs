@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  L
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  L
 
 LOAD-OF-PROGRAM - Quick reference
 
-[Reference](javascript:call_link\('abapload-of-program.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapload-of-program.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ LOAD-OF-PROGRAM.
 
 Effect
 
-Initializes an event block whose event is raised in an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") when the program is loaded.
+Initializes an event block whose event is raised in an [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") when the program is loaded.

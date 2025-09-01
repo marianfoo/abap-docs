@@ -4,24 +4,24 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Performance Notes](javascript:call_link\('abenitab_perfo.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) →  [itab - Performance Notes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_perfo.htm) → 
 
 itab - Optimizing the WHERE Condition
 
-The statements [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), [DELETE](javascript:call_link\('abapdelete_itab.htm'\)), and [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) can be specified together with a WHERE condition that selects specific lines of the internal table. Searches in a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") using the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") are always linear and cannot be optimized. Searches using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry") or a [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry"), however, can be optimized in certain circumstances. These keys are used for:
+The statements [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm), and [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) can be specified together with a WHERE condition that selects specific lines of the internal table. Searches in a [standard table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_table_glosry.htm "Glossary Entry") using the [primary table key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") are always linear and cannot be optimized. Searches using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry") or a [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry"), however, can be optimized in certain circumstances. These keys are used for:
 
--   accessing a [sorted table](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") using its primary key.
--   accessing a [hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") using its primary key.
--   accessing a table of any table type using a [secondary table key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") specified by USING KEY.
+-   accessing a [sorted table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_table_glosry.htm "Glossary Entry") using its primary key.
+-   accessing a [hashed table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhashed_table_glosry.htm "Glossary Entry") using its primary key.
+-   accessing a table of any table type using a [secondary table key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") specified by USING KEY.
 
-The optimization takes place by mapping all [relational expressions](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry") or a group of the relational expressions in the WHERE condition to a specified key. This specified key performs a corresponding optimized key access (binary search or hash algorithm as in the statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a [table expression](javascript:call_link\('abentable_expressions.htm'\))), to find one or more lines. The found line or lines are then checked using those remaining relational expressions from the WHERE condition that were not mapped to the specified key.
+The optimization takes place by mapping all [relational expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrelational_expression_glosry.htm "Glossary Entry") or a group of the relational expressions in the WHERE condition to a specified key. This specified key performs a corresponding optimized key access (binary search or hash algorithm as in the statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm)), to find one or more lines. The found line or lines are then checked using those remaining relational expressions from the WHERE condition that were not mapped to the specified key.
 
 Prerequisites for the optimization are therefore:
 
 -   The relational expressions of the WHERE condition can be transformed to a specified key.
 -   The corresponding key access returns the same results as the evaluation of this part of the logical expression would. This is guaranteed only for compatible data types, since in the case of incompatible data types:
     -   the content of the specified data objects is converted to the data type of the columns before the evaluation in the case of key accesses.
-    -   The [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types apply when evaluating a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry"). Here, all the data types involved play a part in determining which operand is converted into which comparison type.
+    -   The [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types apply when evaluating a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry"). Here, all the data types involved play a part in determining which operand is converted into which comparison type.
 
 If there are no or insufficient relational expressions to meet both of these prerequisites, no optimization is possible and the behavior is as follows:
 
@@ -30,25 +30,26 @@ If there are no or insufficient relational expressions to meet both of these pre
 
 The following sections describe exactly when an access can be optimized.
 
--   [Prerequisites for the Optimization of Hash Keys](#abenitab-where-optimization-1-------prerequisites-for-the-optimization-of-sorted-keys---@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
+-   [Prerequisites for the Optimization of Hash Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_1)
+-   [Prerequisites for the Optimization of Sorted Keys](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_2)
 -   [Requirements Made on the Operands](#@@ITOC@@ABENITAB_WHERE_OPTIMIZATION_3)
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -116,7 +117,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -183,21 +184,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.

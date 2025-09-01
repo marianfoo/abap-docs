@@ -4,19 +4,19 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Time Stamps](javascript:call_link\('abentime_stamps.htm'\)) →  [Time Stamp Field with Time Stamp Type](javascript:call_link\('abenutclong.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendate_time_processing.htm) →  [Time Stamps](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_stamps.htm) →  [Time Stamp Field with Time Stamp Type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenutclong.htm) → 
 
 Time Stamp Functions (ts\_func)
 
-The following [built-in functions](javascript:call_link\('abenbuiltin_function_glosry.htm'\) "Glossary Entry") for processing time stamps in time stamp fields are available:
+The following [built-in functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_function_glosry.htm "Glossary Entry") for processing time stamps in time stamp fields are available:
 
--   [utclong\_current](javascript:call_link\('abenutclong_current.htm'\)) creates a current time stamp
+-   [utclong\_current](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenutclong_current.htm) creates a current time stamp
 
--   [utclong\_add](javascript:call_link\('abenutclong_current.htm'\)) adds values to a time stamp
+-   [utclong\_add](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenutclong_current.htm) adds values to a time stamp
 
--   [utclong\_diff](javascript:call_link\('abenutclong_current.htm'\)) determines the difference between two time stamps
+-   [utclong\_diff](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenutclong_current.htm) determines the difference between two time stamps
 
 Continue
-[ts\_func - utclong\_current](javascript:call_link\('abenutclong_current.htm'\))
-[ts\_func - utclong\_add](javascript:call_link\('abenutclong_add.htm'\))
-[ts\_func - utclong\_diff](javascript:call_link\('abenutclong_diff.htm'\))
+[ts\_func - utclong\_current](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenutclong_current.htm)
+[ts\_func - utclong\_add](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenutclong_add.htm)
+[ts\_func - utclong\_diff](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenutclong_diff.htm)

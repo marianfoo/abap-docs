@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) →  [READ TABLE itab](javascript:call_link\('abapread_table.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab.htm) →  [Processing Statements for Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_processing_statements.htm) →  [READ TABLE itab](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_table.htm) → 
 
 Internal Tables, Key Accesses
 
@@ -137,7 +137,7 @@ START-OF-SELECTION.
 
 Description
 
-The table itab is a standard table with a non-unique primary key, a unique secondary sorted key, and a unique secondary hash key. For demonstration purposes, this program hides the syntax warning about different table keys in an internal table having the same components, by using the [pragma](javascript:call_link\('abenpragma_glosry.htm'\) "Glossary Entry") ##TABKEY.
+The table itab is a standard table with a non-unique primary key, a unique secondary sorted key, and a unique secondary hash key. For demonstration purposes, this program hides the syntax warning about different table keys in an internal table having the same components, by using the [pragma](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpragma_glosry.htm "Glossary Entry") ##TABKEY.
 
 The program measures the average access time of the statement READ TABLE to individual table rows, dependent on the number of rows in the table. The rows are accessed using the various keys. The keys are specified statically in the method measure\_static and dynamically in the method measure\_dynamic.
 

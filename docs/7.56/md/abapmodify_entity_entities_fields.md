@@ -4,16 +4,16 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\)) →  [MODIFY ENTITY, ENTITIES, operations](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml.htm) →  [MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities.htm) →  [MODIFY ENTITY, ENTITIES, operations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) → 
 
 MODIFY ENTITY, ENTITIES, field\_spec
 
 Syntax
 
-...  *{* FROM [fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\)) *}*
-   *|* *{* AUTO FILL CID WITH [fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\)) *}*
-   *|* *{* *\[*AUTO FILL CID*\]* FIELDS ( comp1 comp2 ... ) WITH [fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\)) *}*
-   *|* *{* *\[*AUTO FILL CID*\]* SET FIELDS WITH [fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\)) *}* ...
+...  *{* FROM [fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm) *}*
+   *|* *{* AUTO FILL CID WITH [fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm) *}*
+   *|* *{* *\[*AUTO FILL CID*\]* FIELDS ( comp1 comp2 ... ) WITH [fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm) *}*
+   *|* *{* *\[*AUTO FILL CID*\]* SET FIELDS WITH [fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm) *}* ...
 
 Variants:
 
@@ -32,9 +32,9 @@ The field specification expressions are used to specify input parameters on whos
 
 The variants FIELDS (...) WITH and SET FIELDS WITH can be used for the operations CREATE, CREATE BY and UPDATE. The variant FROM is the only option for DELETE and EXECUTE. The variants with AUTO FILL CID can be used for the operations CREATE and CREATE BY.
 
-The parameters that are respected for modify operations must be specified in an internal table ([fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\))). It is essential that the internal table is typed with the required [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry"). Depending on the operation and the variant, the parameters of the internal table comprise [special components](javascript:call_link\('abapderived_types_comp.htm'\)).
+The parameters that are respected for modify operations must be specified in an internal table ([fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm)). It is essential that the internal table is typed with the required [BDEF derived type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry"). Depending on the operation and the variant, the parameters of the internal table comprise [special components](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm).
 
-The following table provides an overview of the operations, which field specification expressions are possible for the operations, and which type and components of the required internal table are relevant. Depending on the context, the components listed in the Components column might cover more than mentioned. For example, the draft indicator %is\_draft is available in case of [draft](javascript:call_link\('abenbdl_with_draft.htm'\)) scenarios only. %pid is only available in [late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\)) scenarios.
+The following table provides an overview of the operations, which field specification expressions are possible for the operations, and which type and components of the required internal table are relevant. Depending on the context, the components listed in the Components column might cover more than mentioned. For example, the draft indicator %is\_draft is available in case of [draft](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_with_draft.htm) scenarios only. %pid is only available in [late numbering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_late_numbering.htm) scenarios.
 
 Operation
 
@@ -114,12 +114,12 @@ TABLE FOR ACTION IMPORT bdef~action
 %pky
 %tky
 
-bdef is the root entity name, \_assoc the name of the association defined in the underlying CDS view of the root entity, and action the name of an action specified in the BDEF. See the details on the components in the documentation for [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)).
+bdef is the root entity name, \_assoc the name of the association defined in the underlying CDS view of the root entity, and action the name of an action specified in the BDEF. See the details on the components in the documentation for [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm).
 
 Hints
 
 -   In case of operations for which %cid\_ref can be specified in the internal table, the mandatory specification of the keys in the internal table can be omitted if a clear reference to the instance that is to be modified is given using %cid\_ref.
--   In case of create and create-by-association operations, %cid should be specified even if the [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") is not interested in %cid.
+-   In case of create and create-by-association operations, %cid should be specified even if the [RAP BO consumer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") is not interested in %cid.
 
 Variant 1   
 
@@ -127,7 +127,7 @@ Variant 1  
 
 Effect
 
-The modify operation respects input parameters specified in an internal table ([fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\))). It can be used for all operations (CREATE, CREATE BY, UPDATE, DELETE, EXECUTE) and it is the only option for DELETE and EXECUTE. The [%control](javascript:call_link\('abapderived_types_comp.htm'\)) structure must be filled explicitly in the internal table fields\_tab for CREATE, CREATE BY and UPDATE.
+The modify operation respects input parameters specified in an internal table ([fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm)). It can be used for all operations (CREATE, CREATE BY, UPDATE, DELETE, EXECUTE) and it is the only option for DELETE and EXECUTE. The [%control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm) structure must be filled explicitly in the internal table fields\_tab for CREATE, CREATE BY and UPDATE.
 
 Note:
 
@@ -205,7 +205,7 @@ Variant 2  
 
 Effect
 
-It is basically the variant ... FROM fields\_tab using the addition AUTO FILL CID. In this case, the keyword WITH must be used before fields\_tab instead of FROM. The [%control](javascript:call_link\('abapderived_types_comp.htm'\)) structure must be filled explicitly in the internal table fields\_tab. The variant can be used for CREATE and CREATE BY. See the details on AUTO FILL CID further down.
+It is basically the variant ... FROM fields\_tab using the addition AUTO FILL CID. In this case, the keyword WITH must be used before fields\_tab instead of FROM. The [%control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm) structure must be filled explicitly in the internal table fields\_tab. The variant can be used for CREATE and CREATE BY. See the details on AUTO FILL CID further down.
 
 Example
 
@@ -242,7 +242,7 @@ Variant 3  
 
 Effect
 
-Fields that are to be updated for an instance or required for creating an instance are specified in a field list in parentheses after the keyword FIELDS. The input parameters for the read operation are specified in an internal table ([fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\))). The fields (comp1, comp2, etc.) can be any of the entity's fields. At least one field must be specified in the field list. The fields are not separated by a comma. The order of the fields provided in this list is irrelevant.
+Fields that are to be updated for an instance or required for creating an instance are specified in a field list in parentheses after the keyword FIELDS. The input parameters for the read operation are specified in an internal table ([fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm)). The fields (comp1, comp2, etc.) can be any of the entity's fields. At least one field must be specified in the field list. The fields are not separated by a comma. The order of the fields provided in this list is irrelevant.
 
 The variant is a convenience variant and a shortcut for FROM. It cannot be used for DELETE and EXECUTE. %control is filled implicitly in fields\_tab. If a field is specified within the brackets of FIELDS (...) WITH, it is set to 01 in the %control structure. Otherwise, it is set to 00.
 
@@ -293,7 +293,7 @@ Variant 4  
 
 Effect
 
-It is a convenience variant and shortcut for FROM. The modify operation respects input parameters specified in an internal table ([fields\_tab](javascript:call_link\('abapeml_fields_tab.htm'\))).
+It is a convenience variant and shortcut for FROM. The modify operation respects input parameters specified in an internal table ([fields\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_fields_tab.htm)).
 
 The variant cannot be used for DELETE and EXECUTE. %control is filled implicitly in fields\_tab. If a field is specified in fields\_tab, it is set to 01 in the %control structure. Otherwise, it is set to 00.
 
@@ -343,7 +343,7 @@ Addition  
 
 Effect
 
-The addition AUTO FILL CID is used for create and create-by-association operations as well as [factory actions](javascript:call_link\('abenbdl_action.htm'\)) to create [%cid](javascript:call_link\('abapderived_types_comp.htm'\)) automatically to ensure that %cid is filled. Specifying %cid should be done even if the [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") is not interested. Especially in the context of [early numbering](javascript:call_link\('abenbdl_early_numb.htm'\)) and [late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\)) scenarios, %cid must be specified to avoid issues.
+The addition AUTO FILL CID is used for create and create-by-association operations as well as [factory actions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm) to create [%cid](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm) automatically to ensure that %cid is filled. Specifying %cid should be done even if the [RAP BO consumer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") is not interested. Especially in the context of [early numbering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_early_numb.htm) and [late numbering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_late_numbering.htm) scenarios, %cid must be specified to avoid issues.
 
 If the addition is specified and %cid is initial, %cid gets automatically filled with dummy values that have the prefix %abap\_eml\_cid\_\_. This prefix is followed by numbers, for example, %abap\_eml\_cid\_\_1, %abap\_eml\_cid\_\_2, and so on. If the addition is specified and %cid is specified manually, too, only the manually specified value for %cid is valid.
 
@@ -375,6 +375,6 @@ MODIFY ENTITY demo\_managed\_root\_4
 
 Executable Example
 
--   The example [MODIFY: Field Specification Expressions](javascript:call_link\('abeneml_modify_op_fields_abexa.htm'\)) demonstrates the variants of field selection when setting up internal tables for different modify statements and hence the manipulation of a simple managed RAP BO.
--   The program DEMO\_RAP\_EML\_AUTO\_FILL\_CID demonstrates create and create-by-association operations with manually specified %cid components and automatically created ones using AUTO FILL CID. The output shows the [MAPPED responses](javascript:call_link\('abapeml_response.htm'\)) of the operations as well as the instances that are persisted to the database following [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) statements.
--   For more examples on MODIFY operations in general, see [Examples for ABAP EML MODIFY](javascript:call_link\('abapeml_modify_examples.htm'\)).
+-   The example [MODIFY: Field Specification Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_modify_op_fields_abexa.htm) demonstrates the variants of field selection when setting up internal tables for different modify statements and hence the manipulation of a simple managed RAP BO.
+-   The program DEMO\_RAP\_EML\_AUTO\_FILL\_CID demonstrates create and create-by-association operations with manually specified %cid components and automatically created ones using AUTO FILL CID. The output shows the [MAPPED responses](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_response.htm) of the operations as well as the instances that are persisted to the database following [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit_entities.htm) statements.
+-   For more examples on MODIFY operations in general, see [Examples for ABAP EML MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_modify_examples.htm).

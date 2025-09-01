@@ -4,27 +4,27 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [log\_exp - Logical Expressions](javascript:call_link\('abenlogexp.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_expr_func.htm) →  [log\_exp - Logical Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp.htm) → 
 
 log\_exp - Boolean Operators and Parentheses
 
 The Boolean operators
 
--   [AND](javascript:call_link\('abenlogexp_and.htm'\))
+-   [AND](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_and.htm)
 
--   [OR](javascript:call_link\('abenlogexp_or.htm'\))
+-   [OR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_or.htm)
 
--   [EQUIV](javascript:call_link\('abenlogexp_equiv.htm'\))
+-   [EQUIV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_equiv.htm)
 
 join logical expressions; the operator
 
--   [NOT](javascript:call_link\('abenlogexp_not.htm'\))
+-   [NOT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_not.htm)
 
 negates a logical expression.
 
 Logical expressions can be parenthesized explicitly using
 
--   [( )](javascript:call_link\('abenlogexp_bracket.htm'\))
+-   [( )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_bracket.htm)
 
 .
 
@@ -44,13 +44,13 @@ Notes
 
 -   If multiple logical expressions are joined, the explicit and implicit parentheses always produce exactly one logical expression that is either true or false.
 
--   The smallest unit of a joined logical expression is always a [relational expression](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry").
+-   The smallest unit of a joined logical expression is always a [relational expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrelational_expression_glosry.htm "Glossary Entry").
 
--   If [functional methods](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") are used as operands in the relational expressions in question, they are executed directly before the respective relational expression is evaluated. Functional methods are not executed in relational expressions that do not need to be evaluated to get the result.
+-   If [functional methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_method_glosry.htm "Glossary Entry") are used as operands in the relational expressions in question, they are executed directly before the respective relational expression is evaluated. Functional methods are not executed in relational expressions that do not need to be evaluated to get the result.
 
 Continue
-[log\_exp - NOT](javascript:call_link\('abenlogexp_not.htm'\))
-[log\_exp - AND](javascript:call_link\('abenlogexp_and.htm'\))
-[log\_exp - OR](javascript:call_link\('abenlogexp_or.htm'\))
-[log\_exp - EQUIV](javascript:call_link\('abenlogexp_equiv.htm'\))
-[log\_exp - ( )](javascript:call_link\('abenlogexp_bracket.htm'\))
+[log\_exp - NOT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_not.htm)
+[log\_exp - AND](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_and.htm)
+[log\_exp - OR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_or.htm)
+[log\_exp - EQUIV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_equiv.htm)
+[log\_exp - ( )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_bracket.htm)

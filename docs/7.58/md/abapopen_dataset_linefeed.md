@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) →  [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) →  [OPEN DATASET, mode](javascript:call_link\('abapopen_dataset_mode.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfile_interface_statements.htm) →  [OPEN DATASET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset.htm) →  [OPEN DATASET, mode](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_mode.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20OPEN%20DATASET%2C%20WITH%20LINEFEED%2C%20ABAPOPEN_DATASET_LINEFEED%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 OPEN DATASET, WITH LINEFEED
 
-[Short Reference](javascript:call_link\('abapopen_dataset_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_shortref.htm)
 
 Syntax
 
@@ -28,19 +28,19 @@ Alternatives:
 
 Effect
 
-These additions determine which end-of-line marker is used for [text files](javascript:call_link\('abentext_file_glosry.htm'\) "Glossary Entry") or [legacy](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") text files. If these additions are used, the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") abap/NTfmode is ignored. The two values UNIX or NT cannot both be specified in the addition [TYPE](javascript:call_link\('abapopen_dataset_os_addition.htm'\)) at the same time.
+These additions determine which end-of-line marker is used for [text files](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_file_glosry.htm "Glossary Entry") or [legacy](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlegacy_file_glosry.htm "Glossary Entry") text files. If these additions are used, the [profile parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") abap/NTfmode is ignored. The two values UNIX or NT cannot both be specified in the addition [TYPE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_os_addition.htm) at the same time.
 
-If neither of these additions is used, the end-of-line marker is determined as follows, depending on the operating system of the current [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry") [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"):
+If neither of these additions is used, the end-of-line marker is determined as follows, depending on the operating system of the current [AS instance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_instance_glosry.htm "Glossary Entry") [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry"):
 
 -   The end-of-line marker for Unix is LF. On Unix, OS/390, and IBM i5/OS (previously known as OS/400), only LF is used for reading and writing.
--   The end-of-line marker for MS Windows is CRLF. On MS Windows, however, the values of the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") abap/NTfmode can also be used to specify whether new files are to be handled according to Unix conventions or Windows conventions. If the profile parameter has the value b, the Unix end-of-line marker LF is used. If the profile parameter has the value t or is initial, the Windows end-of-line marker CRLF is used. The setting in the profile parameter can be overridden with the addition [TYPE](javascript:call_link\('abapopen_dataset_os_addition.htm'\)) and the value UNIX or NT. If an existing file is opened without the addition TYPE, this file is searched for the first end-of-line marker (LF or CRLF), and this is used for the entire file. If no end-of-line marker is found, the profile parameter is used. This applies particularly if an existing file is completely overwritten with [FOR OUTPUT](javascript:call_link\('abapopen_dataset_access.htm'\)).
+-   The end-of-line marker for MS Windows is CRLF. On MS Windows, however, the values of the [profile parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") abap/NTfmode can also be used to specify whether new files are to be handled according to Unix conventions or Windows conventions. If the profile parameter has the value b, the Unix end-of-line marker LF is used. If the profile parameter has the value t or is initial, the Windows end-of-line marker CRLF is used. The setting in the profile parameter can be overridden with the addition [TYPE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_os_addition.htm) and the value UNIX or NT. If an existing file is opened without the addition TYPE, this file is searched for the first end-of-line marker (LF or CRLF), and this is used for the entire file. If no end-of-line marker is found, the profile parameter is used. This applies particularly if an existing file is completely overwritten with [FOR OUTPUT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_access.htm).
 
-If an addition WITH NATIVE*|*SMART*|*UNIX*|*WINDOWS LINEFEED is used, this setting can be changed for the open file using the statement [SET DATASET](javascript:call_link\('abapset_dataset.htm'\)). If neither of the additions is used, the end-of-line marker cannot be changed using SET DATASET either.
+If an addition WITH NATIVE*|*SMART*|*UNIX*|*WINDOWS LINEFEED is used, this setting can be changed for the open file using the statement [SET DATASET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_dataset.htm). If neither of the additions is used, the end-of-line marker cannot be changed using SET DATASET either.
 
 Hints
 
--   Without the use of an addition WITH LINEFEED, the end-of-line marker is dependent on various implicit factors such as the operating system of the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"), a profile parameter, and line end markings that are already used. For this reason, the explicit use of WITH LINEFEED is recommended, which makes the use of the addition [TYPE](javascript:call_link\('abapopen_dataset_os_addition.htm'\)) for setting the end-of-line marker obsolete.
--   The end-of-line marker that is currently used can be determined for every open file using [GET DATASET](javascript:call_link\('abapget_dataset.htm'\)).
+-   Without the use of an addition WITH LINEFEED, the end-of-line marker is dependent on various implicit factors such as the operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry"), a profile parameter, and line end markings that are already used. For this reason, the explicit use of WITH LINEFEED is recommended, which makes the use of the addition [TYPE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_os_addition.htm) for setting the end-of-line marker obsolete.
+-   The end-of-line marker that is currently used can be determined for every open file using [GET DATASET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_dataset.htm).
 
 Alternative 1   
 
@@ -48,9 +48,9 @@ Alternative 1  
 
 Effect
 
-This addition defines the end-of-line marker independently of the [access type](javascript:call_link\('abapopen_dataset_access.htm'\)) in accordance with the operating system of the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"), in other words LF for Unix, OS/390, and IBM i5/OS (previously known as OS/400), and CRLF for MS Windows.
+This addition defines the end-of-line marker independently of the [access type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_access.htm) in accordance with the operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry"), in other words LF for Unix, OS/390, and IBM i5/OS (previously known as OS/400), and CRLF for MS Windows.
 
-The end-of-line marker is interpreted in accordance with the current code page. If a code page is specified explicitly using the addition [CODE PAGE](javascript:call_link\('abapopen_dataset_mode.htm'\)), the [control characters](javascript:call_link\('abencontrol_character_glosry.htm'\) "Glossary Entry") of the end-of-line marker must be available or be written according to this code page.
+The end-of-line marker is interpreted in accordance with the current code page. If a code page is specified explicitly using the addition [CODE PAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_mode.htm), the [control characters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_character_glosry.htm "Glossary Entry") of the end-of-line marker must be available or be written according to this code page.
 
 Hint
 
@@ -58,7 +58,7 @@ The addition WITH NATIVE LINEFEED is intended for processing files on a host com
 
 Example
 
-The following example shows the UTF 8 representation of the current line end marking. Comparisons with the corresponding [control characters](javascript:call_link\('abencontrol_character_glosry.htm'\) "Glossary Entry") in [string templates](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry") ensure that it is either LF or CRLF.
+The following example shows the UTF 8 representation of the current line end marking. Comparisons with the corresponding [control characters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_character_glosry.htm "Glossary Entry") in [string templates](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_template_glosry.htm "Glossary Entry") ensure that it is either LF or CRLF.
 
 FINAL(dset) = 'test.dat'.
 OPEN DATASET dset FOR OUTPUT IN TEXT MODE ENCODING DEFAULT
@@ -81,11 +81,11 @@ Alternative 2  
 
 Effect
 
-This addition depends on the [access type](javascript:call_link\('abapopen_dataset_access.htm'\)):
+This addition depends on the [access type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_access.htm):
 
--   In files that are opened for reading using FOR INPUT, both LF and CRLF are interpreted as an end-of-line marker. When opening an EBCDIC file with the addition [CODE PAGE](javascript:call_link\('abapopen_dataset_mode.htm'\)), the corresponding ASCII [control characters](javascript:call_link\('abencontrol_character_glosry.htm'\) "Glossary Entry") are recognized alongside the LF, CRLF, and EBCDIC control characters. In addition, the EBCDIC control characters NL (line separator) is also interpreted as an end-of-line marker.
--   In files opened for appending or changing with FOR APPENDING or FOR UPDATE, the program searches for an end-of-line marker that is already used in the file. The end of the file is identified first. If no end-of-line marker is found here, a certain number of characters at the beginning is analyzed. If an end-of-line marker is found, this is used when writing to the file. This is also affected by the addition [CODE PAGE](javascript:call_link\('abapopen_dataset_mode.htm'\)). For example, ASCII end-of-line markers are recognized and used in a file opened with EBCDIC, but not the other way round. If no end-of-line marker is found or no search is possible, for example, if the file is opened with the addition [FILTER](javascript:call_link\('abapopen_dataset_os_addition.htm'\)), the end-of-line marker is defined in accordance with the operating system of the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"), as with the addition WITH NATIVE LINEFEED.
--   In files opened for writing using FOR OUTPUT, the end-of-line marker is determined in accordance with the operating system the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"), as with the addition WITH NATIVE LINEFEED.
+-   In files that are opened for reading using FOR INPUT, both LF and CRLF are interpreted as an end-of-line marker. When opening an EBCDIC file with the addition [CODE PAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_mode.htm), the corresponding ASCII [control characters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_character_glosry.htm "Glossary Entry") are recognized alongside the LF, CRLF, and EBCDIC control characters. In addition, the EBCDIC control characters NL (line separator) is also interpreted as an end-of-line marker.
+-   In files opened for appending or changing with FOR APPENDING or FOR UPDATE, the program searches for an end-of-line marker that is already used in the file. The end of the file is identified first. If no end-of-line marker is found here, a certain number of characters at the beginning is analyzed. If an end-of-line marker is found, this is used when writing to the file. This is also affected by the addition [CODE PAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_mode.htm). For example, ASCII end-of-line markers are recognized and used in a file opened with EBCDIC, but not the other way round. If no end-of-line marker is found or no search is possible, for example, if the file is opened with the addition [FILTER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_os_addition.htm), the end-of-line marker is defined in accordance with the operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry"), as with the addition WITH NATIVE LINEFEED.
+-   In files opened for writing using FOR OUTPUT, the end-of-line marker is determined in accordance with the operating system the current AS instance [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry"), as with the addition WITH NATIVE LINEFEED.
 
 Hint
 
@@ -119,17 +119,17 @@ Alternative 3  
 
 Effect
 
-The end-of-line marker is set to LF regardless of the [access type](javascript:call_link\('abapopen_dataset_access.htm'\)) and operating system of the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the current AS instance.
+The end-of-line marker is set to LF regardless of the [access type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_access.htm) and operating system of the [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the current AS instance.
 
-The end-of-line marker is interpreted in accordance with the current code page. If a code page is specified explicitly using the addition [CODE PAGE](javascript:call_link\('abapopen_dataset_mode.htm'\)), the [control characters](javascript:call_link\('abencontrol_character_glosry.htm'\) "Glossary Entry") for the end-of-line marker must exist or be written according to this code page.
+The end-of-line marker is interpreted in accordance with the current code page. If a code page is specified explicitly using the addition [CODE PAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_mode.htm), the [control characters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_character_glosry.htm "Glossary Entry") for the end-of-line marker must exist or be written according to this code page.
 
 Hint
 
-The addition WITH UNIX LINEFEED is intended for processing Unix files in which the specific end-of-line markers are to be retained, even if the operating system of the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") is [MS](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") Windows.
+The addition WITH UNIX LINEFEED is intended for processing Unix files in which the specific end-of-line markers are to be retained, even if the operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry") is [MS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry") Windows.
 
 Example
 
-The following example sets the end-of-line marker to LF. This marking is detected after it is read to a binary file and compared with the corresponding control character in a [string template](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry").
+The following example sets the end-of-line marker to LF. This marking is detected after it is read to a binary file and compared with the corresponding control character in a [string template](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_template_glosry.htm "Glossary Entry").
 
 FINAL(dset) = 'test.dat'.
 OPEN DATASET dset FOR OUTPUT IN TEXT MODE ENCODING DEFAULT
@@ -151,17 +151,17 @@ Alternative 4  
 
 Effect
 
-The end-of-line marker is set to CRLF regardless of the [access type](javascript:call_link\('abapopen_dataset_access.htm'\)) and operating system of the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry").
+The end-of-line marker is set to CRLF regardless of the [access type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_access.htm) and operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry").
 
-The end-of-line marker is interpreted in accordance with the current code page. If a code page is specified explicitly using the addition [CODE PAGE](javascript:call_link\('abapopen_dataset_mode.htm'\)), the [control characters](javascript:call_link\('abencontrol_character_glosry.htm'\) "Glossary Entry") for the end-of-line marker must exist or be written according to this code page.
+The end-of-line marker is interpreted in accordance with the current code page. If a code page is specified explicitly using the addition [CODE PAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_mode.htm), the [control characters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_character_glosry.htm "Glossary Entry") for the end-of-line marker must exist or be written according to this code page.
 
 Hint
 
-The addition WITH WINDOWS LINEFEED is intended for use with MS Windows files in which the specific end-of-line marker is to be retained, even if the operating system of the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") is Unix, OS/390, or IBM i5/OS (previously known as OS/400).
+The addition WITH WINDOWS LINEFEED is intended for use with MS Windows files in which the specific end-of-line marker is to be retained, even if the operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry") is Unix, OS/390, or IBM i5/OS (previously known as OS/400).
 
 Example
 
-The following example sets the line end marking to CRLF. This marking is detected after it is read to a binary file and compared with the corresponding control character in a [string template](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry").
+The following example sets the line end marking to CRLF. This marking is detected after it is read to a binary file and compared with the corresponding control character in a [string template](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_template_glosry.htm "Glossary Entry").
 
 FINAL(dset) = 'test.dat'.
 OPEN DATASET dset FOR OUTPUT IN TEXT MODE ENCODING DEFAULT

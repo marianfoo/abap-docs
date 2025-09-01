@@ -4,25 +4,25 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  A
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  A
 
 agg\_exp - Quick reference
 
-[Reference](javascript:call_link\('abapselect_aggregate.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_aggregate.htm)
 
 Syntax
 
 ... *{* AVG( *\[*DISTINCT*\]* col *\[*AS dtype*\]* )
-    *|* MAX( *\[*DISTINCT*\]* col*|*[sql\_exp](javascript:call_link\('abensql_exp_shortref.htm'\)) )
-    *|* MIN( *\[*DISTINCT*\]* col*|*[sql\_exp](javascript:call_link\('abensql_exp_shortref.htm'\)) )
-    *|* SUM( *\[*DISTINCT*\]* col*|*[sql\_exp](javascript:call_link\('abensql_exp_shortref.htm'\)) )
-    *|* COUNT( DISTINCT col*|*[sql\_exp](javascript:call_link\('abensql_exp_shortref.htm'\)) )
+    *|* MAX( *\[*DISTINCT*\]* col*|*[sql\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_exp_shortref.htm) )
+    *|* MIN( *\[*DISTINCT*\]* col*|*[sql\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_exp_shortref.htm) )
+    *|* SUM( *\[*DISTINCT*\]* col*|*[sql\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_exp_shortref.htm) )
+    *|* COUNT( DISTINCT col*|*[sql\_exp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_exp_shortref.htm) )
     *|* COUNT( \* )
     *|* COUNT(\*) *}* ...
 
 Effect
 
-[Aggregate expressions](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry") in the statement [SELECT](javascript:call_link\('abapselect_shortref.htm'\)).
+[Aggregate expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenaggregate_expression_glosry.htm "Glossary Entry") in the statement [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_shortref.htm).
 
 Additions
 

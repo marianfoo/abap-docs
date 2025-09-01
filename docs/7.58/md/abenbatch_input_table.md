@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [CALL TRANSACTION, USING](javascript:call_link\('abapcall_transaction_using.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transaction.htm) →  [CALL TRANSACTION, USING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transaction_using.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CALL%20TRANSACTION%2C%20Batch%20Input%20Table%2C%20ABENBATCH_INPUT_TABLE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CALL TRANSACTION, Batch Input Table
 
-A [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry") of the [line type](javascript:call_link\('abenrow_type_glosry.htm'\) "Glossary Entry") BDCDATA, which is specified after the addition USING of the statement [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) in [transaction](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry") calls, must have the following content, which is achieved by appending lines to an initial table in this order:
+A [batch input table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") of the [line type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrow_type_glosry.htm "Glossary Entry") BDCDATA, which is specified after the addition USING of the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transaction.htm) in [transaction](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransaction_glosry.htm "Glossary Entry") calls, must have the following content, which is achieved by appending lines to an initial table in this order:
 
 -   For each new dynpro, a new line with
     -   A program name in the column PROGRAM
@@ -21,7 +21,7 @@ A [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\)
     -   The name of the dynpro field in the column FNAM
     -   The value to be passed in the column FVAL
     
-    If the field is part of a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry") or [step loop](javascript:call_link\('abenstep_loop_glosry.htm'\) "Glossary Entry"), the desired line number must be appended to the field name. If the dynpro contains [subscreens](javascript:call_link\('abensubscreen_glosry.htm'\) "Glossary Entry"), their fields are assigned to the including dynpro. This can produce multiple fields with the same name, which are then all filled.
+    If the field is part of a [table control](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_control_glosry.htm "Glossary Entry") or [step loop](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstep_loop_glosry.htm "Glossary Entry"), the desired line number must be appended to the field name. If the dynpro contains [subscreens](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubscreen_glosry.htm "Glossary Entry"), their fields are assigned to the including dynpro. This can produce multiple fields with the same name, which are then all filled.
     
 -   If the cursor is to be positioned on a screen element
     
@@ -39,8 +39,8 @@ Any columns in a line that are not listed remain initial.
 Hints
 
 -   Transaction Recorder (transaction SHDB) records executed transactions as batch input tables. The resulting batch input tables can be displayed and edited. Programs and function modules can be generated for their use.
--   In [batch input folders](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry"), multiple field names of subscreens can be distinguished by specifying the special value BDC\_SUBSCR in a preceding line in the column FNAM and in the column FVAL of the subscreen.
+-   In [batch input folders](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbatch_input_session_glosry.htm "Glossary Entry"), multiple field names of subscreens can be distinguished by specifying the special value BDC\_SUBSCR in a preceding line in the column FNAM and in the column FVAL of the subscreen.
 
 Executable Example
 
-[Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
+[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_transaction_bdc_abexa.htm)

@@ -4,29 +4,29 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Functions](javascript:call_link\('abenstring_functions.htm'\)) →  [Processing Functions for Character-Like Arguments](javascript:call_link\('abenprocess_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_expr_func.htm) →  [String Functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions.htm) →  [Processing Functions for Character-Like Arguments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocess_functions.htm) → 
 
 replace - Replace Function
 
 Syntax Forms
 
-1\. ... replace( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) *\[* [off = off](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[*[len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]*
+1\. ... replace( [val = text](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_val.htm) *\[* [off = off](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_off_len.htm)*\]* *\[*[len = len](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_off_len.htm)*\]*
                with = new ) ...
 
-2\. ... replace( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) *{* [sub = substring](javascript:call_link\('abenstring_functions_sub.htm'\))*}**|**{* [regex = regex](javascript:call_link\('abenstring_functions_regex.htm'\))*}*
-               with = new *\[* [case = case](javascript:call_link\('abenstring_functions_case.htm'\))*\]* *\[*[occ = occ](javascript:call_link\('abenstring_functions_occ.htm'\))*\]* ) ...
+2\. ... replace( [val = text](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_val.htm) *{* [sub = substring](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_sub.htm)*}**|**{* [regex = regex](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_regex.htm)*}*
+               with = new *\[* [case = case](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_case.htm)*\]* *\[*[occ = occ](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_occ.htm)*\]* ) ...
 
 Effect
 
-This function replaces a substring of [text](javascript:call_link\('abenstring_functions_val.htm'\)) with the character string specified in new and returns the changed text.
+This function replaces a substring of [text](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_val.htm) with the character string specified in new and returns the changed text.
 
 The substring is determined as follows:
 
--   The variant with the arguments [off](javascript:call_link\('abenstring_functions_off_len.htm'\)) and [len](javascript:call_link\('abenstring_functions_off_len.htm'\)) replaces the substring defined by the offset off and the length len. At least one of these additions must be defined.
+-   The variant with the arguments [off](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_off_len.htm) and [len](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_off_len.htm) replaces the substring defined by the offset off and the length len. At least one of these additions must be defined.
 
--   The variant with the arguments sub or [regex](javascript:call_link\('abenstring_functions_regex.htm'\)) scans the text for the occurrence specified in [occ](javascript:call_link\('abenstring_functions_occ.htm'\)) for a match with the substring specified in [substring](javascript:call_link\('abenstring_functions_sub.htm'\)) or with a [regular expression](javascript:call_link\('abenregex_syntax.htm'\)) specified in [regex](javascript:call_link\('abenstring_functions_regex.htm'\)) and replaces the occurrence. If occ contains the value 0, all occurrences are replaced. If substring is empty, an exception from the class CX\_SY\_STRG\_PAR\_VAL is raised. The search is case-sensitive by default, but this can be overridden using the parameter case. If no substring is found, the unchanged content of text is returned.
+-   The variant with the arguments sub or [regex](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_regex.htm) scans the text for the occurrence specified in [occ](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_occ.htm) for a match with the substring specified in [substring](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_sub.htm) or with a [regular expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_syntax.htm) specified in [regex](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_regex.htm) and replaces the occurrence. If occ contains the value 0, all occurrences are replaced. If substring is empty, an exception from the class CX\_SY\_STRG\_PAR\_VAL is raised. The search is case-sensitive by default, but this can be overridden using the parameter case. If no substring is found, the unchanged content of text is returned.
 
-new is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry"). If they have a fixed length, trailing blanks are ignored.
+new is a [character-like expression position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry"). If they have a fixed length, trailing blanks are ignored.
 
 The return code has the type string accordingly.
 
@@ -34,13 +34,13 @@ Notes
 
 -   Borderline cases for the variants with the arguments off and len:
 
--   If only off is specified or if the value 0 is specified for len, replace works like [insert](javascript:call_link\('abeninsert_functions.htm'\)).
+-   If only off is specified or if the value 0 is specified for len, replace works like [insert](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninsert_functions.htm).
 
 -   If only len is specified or if off has the value 0, the first segment of the length len is replaced.
 
 -   If the value of off is equal to the length of text, the value of len must be equal to 0 or len is not specified. The character string new is then appended to the end of text.
 
--   If a regular expression is used with [regex](javascript:call_link\('abenstring_functions_regex.htm'\)), special [replacement models](javascript:call_link\('abenregex_replace.htm'\)) that allow references to particular occurrences can be specified in new. Note that, in regular replacement texts, the associated special characters $, &, \`, and ´ plus the escape character \\ must be transformed to literal characters using the prefix \\.
+-   If a regular expression is used with [regex](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_functions_regex.htm), special [replacement models](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_replace.htm) that allow references to particular occurrences can be specified in new. Note that, in regular replacement texts, the associated special characters $, &, \`, and ´ plus the escape character \\ must be transformed to literal characters using the prefix \\.
 
 Example
 
@@ -53,7 +53,7 @@ html = replace( val   = html
                 with  = \`<b>$0</b>\`
                 occ   =   0 ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -65,7 +65,7 @@ CX\_SY\_RANGE\_OUT\_OF\_BOUNDS
 
 CX\_SY\_REGEX\_TOO\_COMPLEX
 
--   Cause: More information: [Exceptions in Regular Expressions](javascript:call_link\('abenregex_exceptions.htm'\)).
+-   Cause: More information: [Exceptions in Regular Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_exceptions.htm).
     Runtime error: REGEX\_TOO\_COMPLEX
     
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Expressions and Functions for Internal Tables](javascript:call_link\('abentable_processing_expr_func.htm'\)) →  [FOR - Table Iterations](javascript:call_link\('abenfor_itab.htm'\)) →  [Examples of Table Reductions](javascript:call_link\('abentable_reductions_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Expressions and Functions for Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_processing_expr_func.htm) →  [FOR - Table Iterations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_itab.htm) →  [Examples of Table Reductions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_reductions_abexas.htm) → 
 
 Table Reductions, Structured Result
 
@@ -61,6 +61,6 @@ START-OF-SELECTION.
 
 Description
 
-Reduces a two-column internal table itab using [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)). The content of the first column of all rows is chained after the [FOR expression](javascript:call_link\('abenfor_in_itab.htm'\)), the total of the second column is calculated, and the maximum value of the second column identified. These values are assigned to the components of the local structure res and the structure provided as the result.
+Reduces a two-column internal table itab using [REDUCE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_reduce.htm). The content of the first column of all rows is chained after the [FOR expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_in_itab.htm), the total of the second column is calculated, and the maximum value of the second column identified. These values are assigned to the components of the local structure res and the structure provided as the result.
 
 The separator sep in the chaining is declared as a helper variable after INIT. It is initial for the first row read and set to a value here for the evaluation of the following rows.

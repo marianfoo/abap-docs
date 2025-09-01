@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenddic_structures_tech.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_tech.htm)
-- [abenddic_structures_enh_cat.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_enh_cat.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.56
-**Generated**: 2025-09-01T11:25:45.445Z
-
----
-
 ### abenddic_structures_tech.htm
-
-> **📖 Official SAP Documentation**: [abenddic_structures_tech.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_tech.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,53 +11,43 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Data Types](javascript:call_link\('abenddic_data_types.htm'\)) →  [DDIC - Structures](javascript:call_link\('abenddic_structures.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Data Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_types.htm) →  [DDIC - Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures.htm) → 
 
 DDIC - Technical Attributes of Structures
 
-A DDIC structure describes a [structure type](javascript:call_link\('abenstructured_type_glosry.htm'\) "Glossary Entry") constructed from components and with the following technical attributes:
+A DDIC structure describes a [structure type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstructured_type_glosry.htm "Glossary Entry") constructed from components and with the following technical attributes:
 
 -   Component name
     
-    The name of a component can have a maximum of 30 characters, can consist of only letters, numbers, and underscores, and must start with a letter or a [namespace prefix](javascript:call_link\('abenname_space_prefix_glosry.htm'\) "Glossary Entry"). The following restrictions apply:
+    The name of a component can have a maximum of 30 characters, can consist of only letters, numbers, and underscores, and must start with a letter or a [namespace prefix](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenname_space_prefix_glosry.htm "Glossary Entry"). The following restrictions apply:
     
-    -   A component name cannot be the name of the [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line reserved in ABAP.
-    -   If a structure is to be included in a [database table](javascript:call_link\('abenddic_database_tables.htm'\)), however, the component names cannot have any of the reserved names that are forbidden in DDIC database tables.
+    -   A component name cannot be the name of the [pseudo component](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpseudo_component_glosry.htm "Glossary Entry") table\_line reserved in ABAP.
+    -   If a structure is to be included in a [database table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables.htm), however, the component names cannot have any of the reserved names that are forbidden in DDIC database tables.
 -   Component type
-    -   For elementary components, the technical attributes ( [built-in data type](javascript:call_link\('abenddic_builtin_types.htm'\)), length, and any decimal places) are defined with reference to a [data element](javascript:call_link\('abenddic_data_elements.htm'\)) for an elementary type in the ABAP Dictionary or directly in the structure component. In the case of [DDIC currency fields](javascript:call_link\('abenddic_currency_field_glosry.htm'\) "Glossary Entry") and [DDIC quantity fields,](javascript:call_link\('abenddic_quantity_glosry.htm'\) "Glossary Entry") a [reference field](javascript:call_link\('abenddic_structures_sema.htm'\)) must be specified for the unit.
-    -   For reference-like components, the technical attributes are defined using a reference to a [data element](javascript:call_link\('abenddic_data_elements.htm'\)) that describes a reference type or defined directly in the structure component. When specified directly, data references can be defined by reference to any DDIC data type or to the generic type DATA. Object references can be defined by reference to classes or interfaces in the class library or to the generic type OBJECT,
-    -   Substructures are defined by reference to [DDIC structures](javascript:call_link\('abenddic_structures.htm'\)), [DDIC database tables](javascript:call_link\('abenddic_database_tables.htm'\)), or [DDIC views](javascript:call_link\('abenddic_views.htm'\)). A substructure can be defined as a [static box](javascript:call_link\('abenstatic_box_glosry.htm'\) "Glossary Entry"). In ABAP data objects declared with reference to the DDIC structure, a static box supports [initial value sharing](javascript:call_link\('abeninitial_value_sharing_glosry.htm'\) "Glossary Entry").
-    -   Tabular components are defined by reference to a [DDIC table type](javascript:call_link\('abenddic_table_types.htm'\)).
+    -   For elementary components, the technical attributes ( [built-in data type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm), length, and any decimal places) are defined with reference to a [data element](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements.htm) for an elementary type in the ABAP Dictionary or directly in the structure component. In the case of [DDIC currency fields](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_currency_field_glosry.htm "Glossary Entry") and [DDIC quantity fields,](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_quantity_glosry.htm "Glossary Entry") a [reference field](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_sema.htm) must be specified for the unit.
+    -   For reference-like components, the technical attributes are defined using a reference to a [data element](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements.htm) that describes a reference type or defined directly in the structure component. When specified directly, data references can be defined by reference to any DDIC data type or to the generic type DATA. Object references can be defined by reference to classes or interfaces in the class library or to the generic type OBJECT,
+    -   Substructures are defined by reference to [DDIC structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures.htm), [DDIC database tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables.htm), or [DDIC views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_views.htm). A substructure can be defined as a [static box](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_box_glosry.htm "Glossary Entry"). In ABAP data objects declared with reference to the DDIC structure, a static box supports [initial value sharing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninitial_value_sharing_glosry.htm "Glossary Entry").
+    -   Tabular components are defined by reference to a [DDIC table type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_types.htm).
 -   Enhancement category
     
-    The [enhancement category](javascript:call_link\('abenddic_structures_enh_cat.htm'\)) of a structure specifies how a structure can be enhanced using [customizing includes](javascript:call_link\('abencustomizing_include_glosry.htm'\) "Glossary Entry") or [append structures](javascript:call_link\('abenappend_structure_glosry.htm'\) "Glossary Entry") and affects how ABAP programs that work with data objects of this structure type are checked.
+    The [enhancement category](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_enh_cat.htm) of a structure specifies how a structure can be enhanced using [customizing includes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencustomizing_include_glosry.htm "Glossary Entry") or [append structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenappend_structure_glosry.htm "Glossary Entry") and affects how ABAP programs that work with data objects of this structure type are checked.
     
 -   Activation type
     
-    An [activation type](javascript:call_link\('abenddic_database_tables_act_type.htm'\)) can be defined for a structure, like for DDIC database tables, but has no specific use here.
+    An [activation type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_act_type.htm) can be defined for a structure, like for DDIC database tables, but has no specific use here.
     
 
 Hints
 
--   In ABAP, the component names of structures are not strictly speaking a [technical type attribute](javascript:call_link\('abentechnical_type_attr_glosry.htm'\) "Glossary Entry"). They are listed here however to simplify the picture.
+-   In ABAP, the component names of structures are not strictly speaking a [technical type attribute](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentechnical_type_attr_glosry.htm "Glossary Entry"). They are listed here however to simplify the picture.
 -   The above rules for component names are checked strictly by the ABAP Dictionary only for table fields of DDIC database tables and not for structures. Component names of structures can contain special characters such as a colon : that prevent the component from being addressed in an ABAP program. For this reason, only those component names should be used that comply with the above rules.
--   A substructure cannot be defined using a reference to a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"), but it can be defined using a reference to a [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") of a corresponding [CDS view](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry").
+-   A substructure cannot be defined using a reference to a [CDS entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm "Glossary Entry"), but it can be defined using a reference to a [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") of a corresponding [CDS view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm "Glossary Entry").
 
 Continue
-[DDIC - Enhancement Category of Structures](javascript:call_link\('abenddic_structures_enh_cat.htm'\))
+[DDIC - Enhancement Category of Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_enh_cat.htm)
 
-
-
-**📖 Source**: [abenddic_structures_tech.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_tech.htm)
 
 ### abenddic_structures_enh_cat.htm
-
-> **📖 Official SAP Documentation**: [abenddic_structures_enh_cat.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_enh_cat.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenddic_structures_enh_cat.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_enh_cat.htm)
-
 
   
 
@@ -84,11 +55,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Data Types](javascript:call_link\('abenddic_data_types.htm'\)) →  [DDIC - Structures](javascript:call_link\('abenddic_structures.htm'\)) →  [DDIC - Technical Attributes of Structures](javascript:call_link\('abenddic_structures_tech.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Data Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_types.htm) →  [DDIC - Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures.htm) →  [DDIC - Technical Attributes of Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_tech.htm) → 
 
 DDIC - Enhancement Category of Structures
 
-ABAP Dictionary structures and DDIC database tables that are delivered by SAP can be enhanced using [customizing includes](javascript:call_link\('abencustomizing_include_glosry.htm'\) "Glossary Entry") or [append structures](javascript:call_link\('abenappend_structure_glosry.htm'\) "Glossary Entry"). These types of changes cause problems if the enhancements change the [structure fragment view](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry").
+ABAP Dictionary structures and DDIC database tables that are delivered by SAP can be enhanced using [customizing includes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencustomizing_include_glosry.htm "Glossary Entry") or [append structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenappend_structure_glosry.htm "Glossary Entry"). These types of changes cause problems if the enhancements change the [structure fragment view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry").
 
 For this reason, structures and DDIC database tables are classified in order to be able to recognize and handle problems related to structure enhancements. This classification is used in the program check to create a warning at all positions where the program works with structures, and where later structure enhancements could cause syntax errors or changed program behavior. When a structure or a DDIC database table is defined in the ABAP Dictionary, the enhancement categories shown in the following table can be used as a classification.
 
@@ -156,7 +127,7 @@ Permitted enhancements cannot produce syntax errors, although changes to program
 
 Example
 
-If the structure ddic\_struc in the ABAP Dictionary is defined only with [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") components but is classified as Can be enhanced in any way, the following program section produces a warning in the syntax check. If the structure were to be enhanced by a [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") component after the program was delivered, the program would have incorrect syntax and would no longer be executable. In this case, therefore either the structure ddic\_struc must be classified in the ABAP Dictionary as Can be enhanced and character-like or else the offset/length cannot be specified in the program.
+If the structure ddic\_struc in the ABAP Dictionary is defined only with [flat](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_glosry.htm "Glossary Entry") components but is classified as Can be enhanced in any way, the following program section produces a warning in the syntax check. If the structure were to be enhanced by a [deep](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeep_glosry.htm "Glossary Entry") component after the program was delivered, the program would have incorrect syntax and would no longer be executable. In this case, therefore either the structure ddic\_struc must be classified in the ABAP Dictionary as Can be enhanced and character-like or else the offset/length cannot be specified in the program.
 
 DATA: my\_struc TYPE ddic\_struc,
       str TYPE string,

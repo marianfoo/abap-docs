@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Access to ABAP Objects from ST](javascript:call_link\('abenst_abap_objects.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_st.htm) →  [ST - Access to ABAP Objects from ST](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_abap_objects.htm) → 
 
 ST - tt:create-object, Create Objects
 
@@ -20,15 +20,15 @@ Syntax
 
 Effect
 
-The statement tt:create-object can be used to call an instance of a global ABAP Objects class in an ST program. var can be used to specify a [variable](javascript:call_link\('abenst_tt_variable.htm'\)) or a [parameter](javascript:call_link\('abenst_tt_parameter.htm'\)) of the ST program. The variable or parameter must have been created as a class reference variable or an interface reference variable with the addition ref-type.
+The statement tt:create-object can be used to call an instance of a global ABAP Objects class in an ST program. var can be used to specify a [variable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_variable.htm) or a [parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_parameter.htm) of the ST program. The variable or parameter must have been created as a class reference variable or an interface reference variable with the addition ref-type.
 
-The object is created in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of the ABAP program that called the ST program. If the attribute class is not specified, var must be a class reference variable and an instance of the relevant class is created. If the attribute class is specified, an instance of the specified class is created. A global class from the ABAP class library can be specified for class, either more special or the same as the static type of the reference variable var:
+The object is created in the [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") of the ABAP program that called the ST program. If the attribute class is not specified, var must be a class reference variable and an instance of the relevant class is created. If the attribute class is specified, an instance of the specified class is created. A global class from the ABAP class library can be specified for class, either more special or the same as the static type of the reference variable var:
 
 -   If var is a class reference variable, class must be the class or subclass of the class of var.
 
 -   If var is an interface reference variable, class must implement the interface of var.
 
-The interface parameters para1, para2, ... of the instance constructor of the class of the object can or must be bound to actual parameters, using the ST command tt:with-parameter. The same rules apply here as to regular [method calls](javascript:call_link\('abenst_tt_call-method_static.htm'\)). Constructor exceptions are also handled in the same way as exceptions for regular method calls.
+The interface parameters para1, para2, ... of the instance constructor of the class of the object can or must be bound to actual parameters, using the ST command tt:with-parameter. The same rules apply here as to regular [method calls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_call-method_static.htm). Constructor exceptions are also handled in the same way as exceptions for regular method calls.
 
 After the object has been created, the reference variable var points to the object and can be used to call instance methods.
 

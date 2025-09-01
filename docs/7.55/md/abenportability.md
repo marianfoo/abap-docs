@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) → 
 
 Notes on the Portability of ABAP
 
@@ -12,11 +12,11 @@ The nature of the ABAP runtime environment guarantees that ABAP programs can be 
 
 Native SQL and AMDP
 
-Database-specific statements in ADBC, between EXEC SQL and ENDEXEC, or in [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") are the most critical factor for portability. - Whenever possible, ABAP SQL language elements should be used.
+Database-specific statements in ADBC, between EXEC SQL and ENDEXEC, or in [AMDP methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenamdp_method_glosry.htm "Glossary Entry") are the most critical factor for portability. - Whenever possible, ABAP SQL language elements should be used.
 
 Files
 
-The statements OPEN, CLOSE, TRANSFER, READ DATASET, and DELETE DATASET have a file name as parameter. This file name is passed directly to the underlying operating system. The organization of file systems ( [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry"), hierarchical, ...) and the form of valid file names, however, depend to a great extent on the operating system. The function module FILE\_GET\_NAME makes it possible to convert logical file names (platform-independent) to physical file names (platform-specific).
+The statements OPEN, CLOSE, TRANSFER, READ DATASET, and DELETE DATASET have a file name as parameter. This file name is passed directly to the underlying operating system. The organization of file systems ( [flat](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenflat_glosry.htm "Glossary Entry"), hierarchical, ...) and the form of valid file names, however, depend to a great extent on the operating system. The function module FILE\_GET\_NAME makes it possible to convert logical file names (platform-independent) to physical file names (platform-specific).
 
 Numeric Format
 
@@ -37,7 +37,7 @@ DATA: F        TYPE F,
 
 Alignment
 
-Certain fields are [aligned](javascript:call_link\('abenalignment_glosry.htm'\) "Glossary Entry") in structures at the half word or word limit. As a result, these structures may contain padding bytes, even before the first field in the structure. Furthermore, some ABAP types differ depending on the platform. For this reason, always address components of a structure by name and not with an offset value, for example, t000-ort01 rather than t000+28.
+Certain fields are [aligned](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenalignment_glosry.htm "Glossary Entry") in structures at the half word or word limit. As a result, these structures may contain padding bytes, even before the first field in the structure. Furthermore, some ABAP types differ depending on the platform. For this reason, always address components of a structure by name and not with an offset value, for example, t000-ort01 rather than t000+28.
 
 Character set
 
@@ -53,4 +53,4 @@ Only very limited assumptions can be made about the effect of sorting on the cha
 
 -   While the numbers 0 to 9 follow each other with no gaps, this is not necessary for letters. Letters with an accent are not sorted.
 
-These problems affect the statements SORT, READ TABLE ... BINARY SEARCH, and SELECT ... ORDER BY and the comparison operators <, <=, \>, \>=, BT, and NB. Unfortunately, there is no general solution at present. There is a special solution for the [SORT](javascript:call_link\('abapsort_itab.htm'\)) statement. This is "locale-friendly" sorting, using the addition AS TEXT.
+These problems affect the statements SORT, READ TABLE ... BINARY SEARCH, and SELECT ... ORDER BY and the comparison operators <, <=, \>, \>=, BT, and NB. Unfortunately, there is no general solution at present. There is a special solution for the [SORT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsort_itab.htm) statement. This is "locale-friendly" sorting, using the addition AS TEXT.

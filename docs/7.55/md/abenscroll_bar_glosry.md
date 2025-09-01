@@ -4,8 +4,8 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 scroll bar
 
-Part of [SAP GUI](javascript:call_link\('abensap_gui_glosry.htm'\) "Glossary Entry"). Created automatically whenever a [screen](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") or a [screen element](javascript:call_link\('abenscreen_element_glosry.htm'\) "Glossary Entry") is too large for the area available in the [GUI window](javascript:call_link\('abengui_window_glosry.htm'\) "Glossary Entry").
+Part of [SAP GUI](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensap_gui_glosry.htm "Glossary Entry"). Created automatically whenever a [screen](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscreen_glosry.htm "Glossary Entry") or a [screen element](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscreen_element_glosry.htm "Glossary Entry") is too large for the area available in the [GUI window](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengui_window_glosry.htm "Glossary Entry").

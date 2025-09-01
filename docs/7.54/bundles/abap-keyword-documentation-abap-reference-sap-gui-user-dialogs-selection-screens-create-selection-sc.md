@@ -3,30 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abapselect-options.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options.htm)
-- [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_for.htm)
-- [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_sel_opt_abexa.htm)
-- [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_screen.htm)
-- [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_value.htm)
-- [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_sel_opt_def_abexa.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.995Z
-
----
-
 ### abapselect-options.htm
-
-> **📖 Official SAP Documentation**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,86 +11,79 @@ Included pages: 8
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Create Selection Screens](javascript:call_link\('abenselection_screen_create.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm) →  [Create Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_create.htm) → 
 
 SELECT-OPTIONS
 
-[Quick Reference](javascript:call_link\('abapselect-options_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_shortref.htm)
 
 Syntax
 
-SELECT-OPTIONS selcrit [FOR *{*dobj*|*(name)*}*](javascript:call_link\('abapselect-options_for.htm'\))
-               *\[* [screen\_options](javascript:call_link\('abapselect-options_screen.htm'\))*\]*
-               *\[*[value\_options](javascript:call_link\('abapselect-options_value.htm'\))*\]*
-               *\[* [NO DATABASE SELECTION](javascript:call_link\('abapselect-options_no_db_sel.htm'\))*\]*
-               *\[* [ldb\_options](javascript:call_link\('abapselect-options_ldb.htm'\))*\]*.
+SELECT-OPTIONS selcrit [FOR *{*dobj*|*(name)*}*](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_for.htm)
+               *\[* [screen\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_screen.htm)*\]*
+               *\[*[value\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_value.htm)*\]*
+               *\[* [NO DATABASE SELECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_no_db_sel.htm)*\]*
+               *\[* [ldb\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_ldb.htm)*\]*.
 
 Effect
 
-This declares a selection criterion selcrit for a data object dobj or a type specified in name. Selection criteria are components of a [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry"), to which are assigned a [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") in the ABAP program, as well as two input fields and a pushbutton for multiple selection.
+This declares a selection criterion selcrit for a data object dobj or a type specified in name. Selection criteria are components of a [selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_glosry.htm "Glossary Entry"), to which are assigned a [selection table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_table_glosry.htm "Glossary Entry") in the ABAP program, as well as two input fields and a pushbutton for multiple selection.
 
-The name of the selection criterion selcrit is limited to a maximum of 8 characters. This statement is allowed in the global declaration part of [executable programs](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry"), [function groups](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry"), and [module pools](javascript:call_link\('abenmodul_pool_glosry.htm'\) "Glossary Entry"). In function groups and module pools, the statement is only allowed within the definition of a [standalone selection screen](javascript:call_link\('abapselection-screen_definition.htm'\)). In executable programs, the statement is otherwise automatically assigned to the [standard selection screen](javascript:call_link\('abapselection-screen_standard.htm'\)).
+The name of the selection criterion selcrit is limited to a maximum of 8 characters. This statement is allowed in the global declaration part of [executable programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexecutable_program_glosry.htm "Glossary Entry"), [function groups](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_group_glosry.htm "Glossary Entry"), and [module pools](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmodul_pool_glosry.htm "Glossary Entry"). In function groups and module pools, the statement is only allowed within the definition of a [standalone selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_definition.htm). In executable programs, the statement is otherwise automatically assigned to the [standard selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_standard.htm).
 
 The statement SELECT-OPTIONS has the following effect:
 
--   The statement declares a selection table in the program with the name selcrit. A selection table is an internal [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") and [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry"). Selection tables can be used to store [ranges conditions](javascript:call_link\('abenranges_condition_glosry.htm'\) "Glossary Entry") that join multiple comparison expressions. The content of selection tables can be analyzed in a [relational expression](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry") with the [relational operator](javascript:call_link\('abenrelational_operator_glosry.htm'\) "Glossary Entry") [IN](javascript:call_link\('abenlogexp_select_option.htm'\)) or in a [similar expression](javascript:call_link\('abenwhere_logexp_seltab.htm'\)) of a WHERE condition in ABAP SQL. Selection tables have the same layout as [ranges tables](javascript:call_link\('abenranges_table_glosry.htm'\) "Glossary Entry") and have the following four columns:
+-   The statement declares a selection table in the program with the name selcrit. A selection table is an internal [standard table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_table_glosry.htm "Glossary Entry") with [header line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenheader_line_glosry.htm "Glossary Entry") and [standard key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_key_glosry.htm "Glossary Entry"). Selection tables can be used to store [ranges conditions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenranges_condition_glosry.htm "Glossary Entry") that join multiple comparison expressions. The content of selection tables can be analyzed in a [relational expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrelational_expression_glosry.htm "Glossary Entry") with the [relational operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrelational_operator_glosry.htm "Glossary Entry") [IN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogexp_select_option.htm) or in a [similar expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_seltab.htm) of a WHERE condition in ABAP SQL. Selection tables have the same layout as [ranges tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenranges_table_glosry.htm "Glossary Entry") and have the following four columns:
     
 
 -   sign of type c and length 1. The content of sign determines for every row whether the result of the condition formulated in the column is included or excluded in the entire resulting set for all rows. Valid values are "I" for include and "E" for exclude.
 
 -   option of type c with length 2. option contains the selection option for the condition of the row in the form of relational operators. Valid operators are "EQ", "NE", "GE", "GT", "LE", "LT", "CP", and "NP", if the column high is initial, and "BT", "NB", if column high is not initial. For the options "CP" and "NP", the data type of the columns low and high must be c, and special rules apply to entries on the selection screen.
 
--   low of the data type defined after [FOR](javascript:call_link\('abapselect-options_for.htm'\)). This column is designated for the comparison value or the lower interval limitation.
+-   low of the data type defined after [FOR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_for.htm). This column is designated for the comparison value or the lower interval limitation.
 
--   high of the data type defined after [FOR](javascript:call_link\('abapselect-options_for.htm'\)). This column is designated for the upper interval limitation.
+-   high of the data type defined after [FOR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_for.htm). This column is designated for the upper interval limitation.
 
 -   Two input fields with the name selcrit-low and selcrit-high are created on the current selection screen using a matching external data type in a new row at positions 35 and 60. The length of the input fields is based upon the length of the data type which is defined after FOR. The maximum length of the input fields is 255. The maximum visible length of the input fields is between 10 and 18 (depending on the nesting depth in framed blocks). If the length is greater than the maximum visible length, the content is displayed as movable.
     An output field generated automatically is displayed in the first position available to the left of the input field as a label with a length of between 20 and 30 depending on the nesting depth in blocks with frames. The output field contains either the name of the selcrit selection criterion or the selection text to which the selection criterion is assigned in the text elements of the program. If the user requests field or input help on the output field using the function key F1 or F4, the same output is displayed as if one of the input fields is chosen.
-    A multiple selection pushbutton is created after the second input field. If this pushbutton is selected, a dialog screen with four [tabstrip control pages](javascript:call_link\('abentab_page_glosry.htm'\) "Glossary Entry") appears, in which the input fields are again displayed in tabular form in [Table Controls](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry"). The tabstrip pages are separated based on individual value comparison, interval limitation, and settings for the column sign.
+    A multiple selection pushbutton is created after the second input field. If this pushbutton is selected, a dialog screen with four [tabstrip control pages](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentab_page_glosry.htm "Glossary Entry") appears, in which the input fields are again displayed in tabular form in [Table Controls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_control_glosry.htm "Glossary Entry"). The tabstrip pages are separated based on individual value comparison, interval limitation, and settings for the column sign.
     Users can select an input field with a double-click on the selection screen or use the dialog screen for multiple selection. On the selection screen, the value of the column sign can also be chosen. On the dialog screen for multiple selection, this is done by selecting the respective tabstrip page. If the selection option is not equal to "EQ" or "BT", it is displayed as an icon in front of the first input field. The color of the icon is green if the content of the column sign is "I", and red if it is "E".
     The selection options "CP" and "NP" can be selected only if the first input field contains one of the wildcard characters "\*" or "+". "+" masks a single character, "\*" masks any character string, even an empty one. If one of these characters is entered, the selection option is automatically set to "CP". If "CP" is set, and all wildcard characters have been removed, the selection option is automatically set to "EQ" when there is a user action. This limitation does not apply within the program. When the selection table is evaluated, the column low can also contain a string without wildcard characters for the selection options "CP" and "NP".
-    The attributes of the elements on the selection screen can be influenced with the statement [screen\_options](javascript:call_link\('abapselect-options_screen.htm'\)) or the statement [SELECTION-SCREEN](javascript:call_link\('abapselection-screen.htm'\)).
+    The attributes of the elements on the selection screen can be influenced with the statement [screen\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_screen.htm) or the statement [SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen.htm).
     
 -   The first row of the selection table selcrit is associated with the input fields on the selection screen. All rows are displayed in the dialog box for multiple selection.
-    Each time before the selection screen is sent to the [selection screen event](javascript:call_link\('abenselection_screen_event_glosry.htm'\) "Glossary Entry") ATSELECTION-SCREEN OUTPUT, the content of first row in the selection table is transported to the selection screen, with a [conversion routine](javascript:call_link\('abenconversion_routine_glosry.htm'\) "Glossary Entry") being executed if required. If the length of the columns low and high in the first row of the selection table is greater than 255, the surplus content is cut off on the right. It is only possible for all rows to be transported if the button for multiple selections is selected. A conversion routine might be executed here, and rows might be cut off. Settings for the content of the input fields can be made in [value\_options](javascript:call_link\('abapselect-options_value.htm'\)).
+    Each time before the selection screen is sent to the [selection screen event](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_event_glosry.htm "Glossary Entry") ATSELECTION-SCREEN OUTPUT, the content of first row in the selection table is transported to the selection screen, with a [conversion routine](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_routine_glosry.htm "Glossary Entry") being executed if required. If the length of the columns low and high in the first row of the selection table is greater than 255, the surplus content is cut off on the right. It is only possible for all rows to be transported if the button for multiple selections is selected. A conversion routine might be executed here, and rows might be cut off. Settings for the content of the input fields can be made in [value\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_value.htm).
     After a user action on the selection screen, the contents of the input fields and the chosen settings are transported to the first row and the header row of the selection table.
-    After a user action on the dialog box for multiple selections, the contents of all input fields and the chosen settings are transported to the rows of the selection table. These transports convert the content of character-like fields by default into uppercase letters by default, after which a conversion routine is performed, if required. After each transport, various [selection screen events](javascript:call_link\('abapat_selection-screen_events.htm'\)) are raised.
-    If a value has been entered in the entry field for the upper interval high, the system checks whether this value is greater than the lower interval limit low following each transport and conversion routine (if performed). If necessary, an [error message](javascript:call_link\('abenerror_message_glosry.htm'\) "Glossary Entry") is sent. This check can be switched off before the selection screen is sent, using the function module RS\_SELOPT\_NO\_INTERVAL\_CHECK.
+    After a user action on the dialog box for multiple selections, the contents of all input fields and the chosen settings are transported to the rows of the selection table. These transports convert the content of character-like fields by default into uppercase letters by default, after which a conversion routine is performed, if required. After each transport, various [selection screen events](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapat_selection-screen_events.htm) are raised.
+    If a value has been entered in the entry field for the upper interval high, the system checks whether this value is greater than the lower interval limit low following each transport and conversion routine (if performed). If necessary, an [error message](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenerror_message_glosry.htm "Glossary Entry") is sent. This check can be switched off before the selection screen is sent, using the function module RS\_SELOPT\_NO\_INTERVAL\_CHECK.
     
--   If selection criteria are defined in the selection include of a logical database, further additions [ldb\_options](javascript:call_link\('abapselect-options_ldb.htm'\)) are necessary or possible.
+-   If selection criteria are defined in the selection include of a logical database, further additions [ldb\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_ldb.htm) are necessary or possible.
     
--   If, in an executable program, a selection criterion is defined for a component of a node of the associated logical database, declared by [TABLES](javascript:call_link\('abaptables.htm'\)) or [NODES](javascript:call_link\('abapnodes.htm'\)), and the node in question is intended for dynamic selection on the logical database, the selection table is passed (by default) to the logical database, after [selection screen processing](javascript:call_link\('abenselscreen_processing_glosry.htm'\) "Glossary Entry"), where it is handled as a dynamic selection. Furthermore, in this case, the input fields for the corresponding dynamic selection are displayed directly on the selection screen. Therefore the user does not need to select the fields using the Dynamic Selections function. This transfer can be suppressed using the addition [NO DATABASE SELECTION](javascript:call_link\('abapselect-options_no_db_sel.htm'\)).
+-   If, in an executable program, a selection criterion is defined for a component of a node of the associated logical database, declared by [TABLES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables.htm) or [NODES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapnodes.htm), and the node in question is intended for dynamic selection on the logical database, the selection table is passed (by default) to the logical database, after [selection screen processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselscreen_processing_glosry.htm "Glossary Entry"), where it is handled as a dynamic selection. Furthermore, in this case, the input fields for the corresponding dynamic selection are displayed directly on the selection screen. Therefore the user does not need to select the fields using the Dynamic Selections function. This transfer can be suppressed using the addition [NO DATABASE SELECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_no_db_sel.htm).
     
 
 Notes
 
 -   To avoid undefined system behavior, the header row of a selection table should not be changed in the program. Read access should also be avoided. Instead separate work areas, field symbols, or data references should be used, as always for internal tables.
     
--   If a selection criterion is supplied with data when calling up an executable program using [SUBMIT](javascript:call_link\('abapsubmit.htm'\)), a [conversion routine](javascript:call_link\('abenconversion_routine_glosry.htm'\) "Glossary Entry") may be performed for the first row only, while the value of the columns low and high will be truncated at position 255 for the first row only. If the selection criterion is declared with the addition [NO-DISPLAY](javascript:call_link\('abapselect-options_screen.htm'\)), no conversion routine or truncation will be performed for the first row either.
+-   If a selection criterion is supplied with data when calling up an executable program using [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm), a [conversion routine](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_routine_glosry.htm "Glossary Entry") may be performed for the first row only, while the value of the columns low and high will be truncated at position 255 for the first row only. If the selection criterion is declared with the addition [NO-DISPLAY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_screen.htm), no conversion routine or truncation will be performed for the first row either.
     
--   If the type of the selection criterion is a [decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") that does not refer to a data type in ABAP Dictionary, the output style preserve scaling is set for the input field of the selection screen. Here, any trailing zeroes are preserved in the decimal places. If there is a reference to a data type in the ABAP Dictionary, the output style defined there is used.
+-   If the type of the selection criterion is a [decimal floating point number](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendecfloat_glosry.htm "Glossary Entry") that does not refer to a data type in ABAP Dictionary, the output style preserve scaling is set for the input field of the selection screen. Here, any trailing zeroes are preserved in the decimal places. If there is a reference to a data type in the ABAP Dictionary, the output style defined there is used.
     
--   If the type of the selection criteria is a [packed number](javascript:call_link\('abenpacked_number_glosry.htm'\) "Glossary Entry") or a [decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") defined in ABAP Dictionary, the attribute sign must be set for the type attribute, so that negative numbers can be displayed on the selection screen. This setting is only possible for [domains](javascript:call_link\('abendomain_glosry.htm'\) "Glossary Entry") and not for specifying a built-in type directly for [data elements](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry") or structure components. If a negative number is entered on the selection screen and this property is not set, the system rejects it with an error message. If the columns low or high contain a negative number when the selection screen is called, an non-handleable exception is raised.
+-   If the type of the selection criteria is a [packed number](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpacked_number_glosry.htm "Glossary Entry") or a [decimal floating point number](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendecfloat_glosry.htm "Glossary Entry") defined in ABAP Dictionary, the attribute sign must be set for the type attribute, so that negative numbers can be displayed on the selection screen. This setting is only possible for [domains](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendomain_glosry.htm "Glossary Entry") and not for specifying a built-in type directly for [data elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_element_glosry.htm "Glossary Entry") or structure components. If a negative number is entered on the selection screen and this property is not set, the system rejects it with an error message. If the columns low or high contain a negative number when the selection screen is called, an non-handleable exception is raised.
     
--   If the type of the selection criterion is a [decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") defined in ABAP Dictionary for which the output style "currency amount" is specified, only numbers with the corresponding amount of decimal places can be entered on the selection screen. If a corresponding ABAP data object contains a number with too many decimal places when the selection screen is called, a non-handleable exception is raised. If the output style is "extended currency amount", additional decimal places can be displayed.
+-   If the type of the selection criterion is a [decimal floating point number](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendecfloat_glosry.htm "Glossary Entry") defined in ABAP Dictionary for which the output style "currency amount" is specified, only numbers with the corresponding amount of decimal places can be entered on the selection screen. If a corresponding ABAP data object contains a number with too many decimal places when the selection screen is called, a non-handleable exception is raised. If the output style is "extended currency amount", additional decimal places can be displayed.
     
--   The columns sign and option of a selection table declared using SELECT-OPTIONS are not related to data types in ABAP Dictionary. In the case of [ranges tables](javascript:call_link\('abenranges_table_glosry.htm'\) "Glossary Entry") defined in ABAP Dictionary, these columns refer to the data elements DDSIGN and DDOPTION.
+-   The columns sign and option of a selection table declared using SELECT-OPTIONS are not related to data types in ABAP Dictionary. In the case of [ranges tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenranges_table_glosry.htm "Glossary Entry") defined in ABAP Dictionary, these columns refer to the data elements DDSIGN and DDOPTION.
     
 
 Continue
-[SELECT-OPTIONS - FOR](javascript:call_link\('abapselect-options_for.htm'\))
-[SELECT-OPTIONS - screen\_options](javascript:call_link\('abapselect-options_screen.htm'\))
-[SELECT-OPTIONS - value\_options](javascript:call_link\('abapselect-options_value.htm'\))
+[SELECT-OPTIONS - FOR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_for.htm)
+[SELECT-OPTIONS - screen\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_screen.htm)
+[SELECT-OPTIONS - value\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_value.htm)
 
-
-
-**📖 Source**: [abapselect-options.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options.htm)
 
 ### abapselect-options_for.htm
-
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -121,11 +91,11 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Create Selection Screens](javascript:call_link\('abenselection_screen_create.htm'\)) →  [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm) →  [Create Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_create.htm) →  [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options.htm) → 
 
 SELECT-OPTIONS - FOR
 
-[Quick Reference](javascript:call_link\('abapselect-options_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_shortref.htm)
 
 Syntax
 
@@ -138,13 +108,13 @@ Alternatives:
 
 Effect
 
-This addition determines the data type of the columns low and high in the [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry"). The data type can be defined by means of a static reference to an existing data object dobj or by a dynamic reference to a data type from ABAP Dictionary in name.
+This addition determines the data type of the columns low and high in the [selection table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_table_glosry.htm "Glossary Entry"). The data type can be defined by means of a static reference to an existing data object dobj or by a dynamic reference to a data type from ABAP Dictionary in name.
 
-If the addition [NO-DISPLAY](javascript:call_link\('abapselect-options_screen.htm'\)) is not specified, the data type of the columns low and high in the selection table must be elementary and [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") and the numeric type f is not allowed. If the addition NO-DISPLAY is specified, any data types, except [enumerated types](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"), are possible.
+If the addition [NO-DISPLAY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_screen.htm) is not specified, the data type of the columns low and high in the selection table must be elementary and [flat](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenflat_glosry.htm "Glossary Entry") and the numeric type f is not allowed. If the addition NO-DISPLAY is specified, any data types, except [enumerated types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), are possible.
 
 Note
 
-When referencing data types from ABAP Dictionary, the [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") inherits all the screen-relevant attributes defined there. During data transport to and from the input fields, any conversion routines defined in the domain are executed. The text defined in ABAP Dictionary can be inherited as a selection text. Note, however, that the input fields on the selection screen are linked with a global data object belonging to the program and do not have any real reference to the dictionary, in contrast to screen fields, which are created in the Screen Painter with reference to the dictionary. This has a particular effect on automatic support for input help (F4) and value checking. In comparison to general screens, input help functionality is limited here in that dependencies between fields and previously entered data are not taken into account. No automatic value checking is performed.
+When referencing data types from ABAP Dictionary, the [selection criterion](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_criterion_glosry.htm "Glossary Entry") inherits all the screen-relevant attributes defined there. During data transport to and from the input fields, any conversion routines defined in the domain are executed. The text defined in ABAP Dictionary can be inherited as a selection text. Note, however, that the input fields on the selection screen are linked with a global data object belonging to the program and do not have any real reference to the dictionary, in contrast to screen fields, which are created in the Screen Painter with reference to the dictionary. This has a particular effect on automatic support for input help (F4) and value checking. In comparison to general screens, input help functionality is limited here in that dependencies between fields and previously entered data are not taken into account. No automatic value checking is performed.
 
 Alternative 1
 
@@ -152,7 +122,7 @@ Alternative 1
 
 Effect
 
-If this addition is specified, the columns low and high in the selection table inherit all the attributes of a data object dobj that has already been declared, most importantly a reference to ABAP Dictionary, if applicable. dobj expects a data object that is elementary and flat and not of the type f (unless [NO-DISPLAY](javascript:call_link\('abapselect-options_screen.htm'\)) is used) and is not an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry").
+If this addition is specified, the columns low and high in the selection table inherit all the attributes of a data object dobj that has already been declared, most importantly a reference to ABAP Dictionary, if applicable. dobj expects a data object that is elementary and flat and not of the type f (unless [NO-DISPLAY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_screen.htm) is used) and is not an [enumerated type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_type_glosry.htm "Glossary Entry").
 
 Note
 
@@ -179,7 +149,7 @@ Effect
 
 This addition is used to create the columns low and high in the selection table with data type c and length 45. The input fields are displayed on the selection screen, but with a length, field help, and input help appropriate for the data type specified in name.
 
-name expects a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like data object that contains the name of a component in a flat structure from ABAP Dictionary in uppercase letters when the selection screen is accessed. The following can be specified for name:
+name expects a [flat](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenflat_glosry.htm "Glossary Entry") character-like data object that contains the name of a component in a flat structure from ABAP Dictionary in uppercase letters when the selection screen is accessed. The following can be specified for name:
 
 -   Constant
 
@@ -189,15 +159,15 @@ If the data object name is specified as a constant, it can be evaluated statical
 
 If the data object name is specified as a variable, it is specified only dynamically and the content is not evaluated statically.
 
-A text field literal can be specified for name, but its content is ignored. If the [text pool](javascript:call_link\('abentext_pool_glosry.htm'\) "Glossary Entry") currently loaded does not contain a selection text for the parameter, the output field displays the corresponding field label from ABAP Dictionary. When data is transported from the input field to the selection table, the content is converted as if it were assigned by the corresponding ABAP data type (no formatting characters, period as a decimal separator, date format "yyyymmdd", and so on).
+A text field literal can be specified for name, but its content is ignored. If the [text pool](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_pool_glosry.htm "Glossary Entry") currently loaded does not contain a selection text for the parameter, the output field displays the corresponding field label from ABAP Dictionary. When data is transported from the input field to the selection table, the content is converted as if it were assigned by the corresponding ABAP data type (no formatting characters, period as a decimal separator, date format "yyyymmdd", and so on).
 
 If the content of name is not a structure component in ABAP Dictionary, the input fields are displayed according to the actual type of the columns low and high. This also applies if a literal is specified for name. If a selection text for the parameter is not created in the text pool currently loaded, the output field contains the text "Generic Selection Option".
 
-A dynamic reference to a data type is not possible in a selection include for a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry").
+A dynamic reference to a data type is not possible in a selection include for a [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry").
 
 Example
 
-Dynamic design of the selection criterion selcrit on selection screen 500 based on the entries in the [standard selection screen](javascript:call_link\('abenstandard_selscreen_glosry.htm'\) "Glossary Entry") for an executable program.
+Dynamic design of the selection criterion selcrit on selection screen 500 based on the entries in the [standard selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_selscreen_glosry.htm "Glossary Entry") for an executable program.
 
 PARAMETERS: dbtab  TYPE c LENGTH 30,
             column TYPE c LENGTH 30.
@@ -209,17 +179,10 @@ name = dbtab && '-' && column.
 CALL SELECTION-SCREEN 500 STARTING AT 10 10.
 
 Continue
-![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](javascript:call_link\('abensel_screen_sel_opt_abexa.htm'\))
+![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_sel_opt_abexa.htm)
 
-
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_for.htm)
 
 ### abensel_screen_sel_opt_abexa.htm
-
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_sel_opt_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -227,7 +190,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Create Selection Screens](javascript:call_link\('abenselection_screen_create.htm'\)) →  [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)) →  [SELECT-OPTIONS - FOR](javascript:call_link\('abapselect-options_for.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm) →  [Create Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_create.htm) →  [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options.htm) →  [SELECT-OPTIONS - FOR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_for.htm) → 
 
 Selection Screens, Basic Form of Selection Criteria
 
@@ -276,14 +239,7 @@ For more complex selections, the user can use the pushbutton on the right side o
 The contents of the selection table are then shown in a list. The first column determines whether the subsequent values are to be included or not; the second contains the Boolean operator and the last two columns contain the limits low and high.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_sel_opt_abexa.htm)
-
 ### abapselect-options_for.htm
-
-> **📖 Official SAP Documentation**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_for.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -291,11 +247,11 @@ The contents of the selection table are then shown in a list. The first column d
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Create Selection Screens](javascript:call_link\('abenselection_screen_create.htm'\)) →  [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm) →  [Create Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_create.htm) →  [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options.htm) → 
 
 SELECT-OPTIONS - FOR
 
-[Quick Reference](javascript:call_link\('abapselect-options_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_shortref.htm)
 
 Syntax
 
@@ -308,13 +264,13 @@ Alternatives:
 
 Effect
 
-This addition determines the data type of the columns low and high in the [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry"). The data type can be defined by means of a static reference to an existing data object dobj or by a dynamic reference to a data type from ABAP Dictionary in name.
+This addition determines the data type of the columns low and high in the [selection table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_table_glosry.htm "Glossary Entry"). The data type can be defined by means of a static reference to an existing data object dobj or by a dynamic reference to a data type from ABAP Dictionary in name.
 
-If the addition [NO-DISPLAY](javascript:call_link\('abapselect-options_screen.htm'\)) is not specified, the data type of the columns low and high in the selection table must be elementary and [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") and the numeric type f is not allowed. If the addition NO-DISPLAY is specified, any data types, except [enumerated types](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"), are possible.
+If the addition [NO-DISPLAY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_screen.htm) is not specified, the data type of the columns low and high in the selection table must be elementary and [flat](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenflat_glosry.htm "Glossary Entry") and the numeric type f is not allowed. If the addition NO-DISPLAY is specified, any data types, except [enumerated types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), are possible.
 
 Note
 
-When referencing data types from ABAP Dictionary, the [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") inherits all the screen-relevant attributes defined there. During data transport to and from the input fields, any conversion routines defined in the domain are executed. The text defined in ABAP Dictionary can be inherited as a selection text. Note, however, that the input fields on the selection screen are linked with a global data object belonging to the program and do not have any real reference to the dictionary, in contrast to screen fields, which are created in the Screen Painter with reference to the dictionary. This has a particular effect on automatic support for input help (F4) and value checking. In comparison to general screens, input help functionality is limited here in that dependencies between fields and previously entered data are not taken into account. No automatic value checking is performed.
+When referencing data types from ABAP Dictionary, the [selection criterion](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_criterion_glosry.htm "Glossary Entry") inherits all the screen-relevant attributes defined there. During data transport to and from the input fields, any conversion routines defined in the domain are executed. The text defined in ABAP Dictionary can be inherited as a selection text. Note, however, that the input fields on the selection screen are linked with a global data object belonging to the program and do not have any real reference to the dictionary, in contrast to screen fields, which are created in the Screen Painter with reference to the dictionary. This has a particular effect on automatic support for input help (F4) and value checking. In comparison to general screens, input help functionality is limited here in that dependencies between fields and previously entered data are not taken into account. No automatic value checking is performed.
 
 Alternative 1
 
@@ -322,7 +278,7 @@ Alternative 1
 
 Effect
 
-If this addition is specified, the columns low and high in the selection table inherit all the attributes of a data object dobj that has already been declared, most importantly a reference to ABAP Dictionary, if applicable. dobj expects a data object that is elementary and flat and not of the type f (unless [NO-DISPLAY](javascript:call_link\('abapselect-options_screen.htm'\)) is used) and is not an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry").
+If this addition is specified, the columns low and high in the selection table inherit all the attributes of a data object dobj that has already been declared, most importantly a reference to ABAP Dictionary, if applicable. dobj expects a data object that is elementary and flat and not of the type f (unless [NO-DISPLAY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_screen.htm) is used) and is not an [enumerated type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_type_glosry.htm "Glossary Entry").
 
 Note
 
@@ -349,7 +305,7 @@ Effect
 
 This addition is used to create the columns low and high in the selection table with data type c and length 45. The input fields are displayed on the selection screen, but with a length, field help, and input help appropriate for the data type specified in name.
 
-name expects a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like data object that contains the name of a component in a flat structure from ABAP Dictionary in uppercase letters when the selection screen is accessed. The following can be specified for name:
+name expects a [flat](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenflat_glosry.htm "Glossary Entry") character-like data object that contains the name of a component in a flat structure from ABAP Dictionary in uppercase letters when the selection screen is accessed. The following can be specified for name:
 
 -   Constant
 
@@ -359,15 +315,15 @@ If the data object name is specified as a constant, it can be evaluated statical
 
 If the data object name is specified as a variable, it is specified only dynamically and the content is not evaluated statically.
 
-A text field literal can be specified for name, but its content is ignored. If the [text pool](javascript:call_link\('abentext_pool_glosry.htm'\) "Glossary Entry") currently loaded does not contain a selection text for the parameter, the output field displays the corresponding field label from ABAP Dictionary. When data is transported from the input field to the selection table, the content is converted as if it were assigned by the corresponding ABAP data type (no formatting characters, period as a decimal separator, date format "yyyymmdd", and so on).
+A text field literal can be specified for name, but its content is ignored. If the [text pool](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_pool_glosry.htm "Glossary Entry") currently loaded does not contain a selection text for the parameter, the output field displays the corresponding field label from ABAP Dictionary. When data is transported from the input field to the selection table, the content is converted as if it were assigned by the corresponding ABAP data type (no formatting characters, period as a decimal separator, date format "yyyymmdd", and so on).
 
 If the content of name is not a structure component in ABAP Dictionary, the input fields are displayed according to the actual type of the columns low and high. This also applies if a literal is specified for name. If a selection text for the parameter is not created in the text pool currently loaded, the output field contains the text "Generic Selection Option".
 
-A dynamic reference to a data type is not possible in a selection include for a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry").
+A dynamic reference to a data type is not possible in a selection include for a [logical database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry").
 
 Example
 
-Dynamic design of the selection criterion selcrit on selection screen 500 based on the entries in the [standard selection screen](javascript:call_link\('abenstandard_selscreen_glosry.htm'\) "Glossary Entry") for an executable program.
+Dynamic design of the selection criterion selcrit on selection screen 500 based on the entries in the [standard selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_selscreen_glosry.htm "Glossary Entry") for an executable program.
 
 PARAMETERS: dbtab  TYPE c LENGTH 30,
             column TYPE c LENGTH 30.
@@ -379,17 +335,10 @@ name = dbtab && '-' && column.
 CALL SELECTION-SCREEN 500 STARTING AT 10 10.
 
 Continue
-![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](javascript:call_link\('abensel_screen_sel_opt_abexa.htm'\))
+![Example](exa.gif "Example") [Selection Screens, Basic Form of Selection Criteria](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_sel_opt_abexa.htm)
 
-
-
-**📖 Source**: [abapselect-options_for.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_for.htm)
 
 ### abapselect-options_screen.htm
-
-> **📖 Official SAP Documentation**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -397,11 +346,11 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Create Selection Screens](javascript:call_link\('abenselection_screen_create.htm'\)) →  [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm) →  [Create Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_create.htm) →  [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options.htm) → 
 
 SELECT-OPTIONS - screen\_options
 
-[Quick Reference](javascript:call_link\('abapselect-options_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_shortref.htm)
 
 Syntax
 
@@ -409,7 +358,7 @@ Syntax
     *\[*VISIBLE LENGTH vlen*\]*
     *\[*NO-EXTENSION*\]*
     *\[*NO INTERVALS*\]*
-    *\[*[MODIF ID modid](javascript:call_link\('abapselection-screen_modif_id.htm'\))*\]* ...
+    *\[*[MODIF ID modid](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_modif_id.htm)*\]* ...
 
 Extras:
 
@@ -421,11 +370,11 @@ Extras:
 
 Effect
 
-These additions can be used to declare the first input field as a mandatory field, hide the input field on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry"), and define the visible length of the field. You can suppress the second input field and the pushbutton for multiple selection. The addition [MODIF ID](javascript:call_link\('abapselection-screen_modif_id.htm'\)) assigns all screen elements of the [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") to the [modification group](javascript:call_link\('abenmodification_group_glosry.htm'\) "Glossary Entry") modid.
+These additions can be used to declare the first input field as a mandatory field, hide the input field on the [selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_glosry.htm "Glossary Entry"), and define the visible length of the field. You can suppress the second input field and the pushbutton for multiple selection. The addition [MODIF ID](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_modif_id.htm) assigns all screen elements of the [selection criterion](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_criterion_glosry.htm "Glossary Entry") to the [modification group](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmodification_group_glosry.htm "Glossary Entry") modid.
 
 Note
 
-As well as the additions already available, the function module SELECT\_OPTIONS\_RESTRICT can also be used to restrict the number of selection options offered and prohibit the value "E" for the column sign in the [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") before the selection screen is sent.
+As well as the additions already available, the function module SELECT\_OPTIONS\_RESTRICT can also be used to restrict the number of selection options offered and prohibit the value "E" for the column sign in the [selection table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_table_glosry.htm "Glossary Entry") before the selection screen is sent.
 
 Addition 1
 
@@ -441,9 +390,9 @@ Addition 2
 
 Effect
 
-If you specify this addition, no screen elements are created on the selection screen for the selection criterion. In an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry"), a selection criterion of this type is used exclusively as part of the interface defined by the selection screen. It can be supplied with a value by the calling program when it is called with [SUBMIT](javascript:call_link\('abapsubmit.htm'\)).
+If you specify this addition, no screen elements are created on the selection screen for the selection criterion. In an [executable program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexecutable_program_glosry.htm "Glossary Entry"), a selection criterion of this type is used exclusively as part of the interface defined by the selection screen. It can be supplied with a value by the calling program when it is called with [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm).
 
-If the addition NO-DISPLAY is specified, the low and high columns in the selection table can have any [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") data types. These selection tables can only be supplied with data using the addition [WITH](javascript:call_link\('abapsubmit_selscreen_parameters.htm'\)) of the statement SUBMIT.
+If the addition NO-DISPLAY is specified, the low and high columns in the selection table can have any [flat](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenflat_glosry.htm "Glossary Entry") data types. These selection tables can only be supplied with data using the addition [WITH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit_selscreen_parameters.htm) of the statement SUBMIT.
 
 Note
 
@@ -463,11 +412,11 @@ Addition 4
 
 Effect
 
-If this addition is specified, the pushbutton for multiple selection is not created on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry").
+If this addition is specified, the pushbutton for multiple selection is not created on the [selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_glosry.htm "Glossary Entry").
 
 Note
 
-The user cannot access the dialog box for multiple selection on the selection screen, which means that he or she cannot edit [selection tables](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") containing multiple rows.
+The user cannot access the dialog box for multiple selection on the selection screen, which means that he or she cannot edit [selection tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_table_glosry.htm "Glossary Entry") containing multiple rows.
 
 Addition 5
 
@@ -490,14 +439,7 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
                                             NO INTERVALS.
 
 
-
-**📖 Source**: [abapselect-options_screen.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_screen.htm)
-
 ### abapselect-options_value.htm
-
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -505,11 +447,11 @@ SELECT-OPTIONS s\_carrid FOR spfli\_wa-carrid NO-EXTENSION
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Create Selection Screens](javascript:call_link\('abenselection_screen_create.htm'\)) →  [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm) →  [Create Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_create.htm) →  [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options.htm) → 
 
 SELECT-OPTIONS - value\_options
 
-[Quick Reference](javascript:call_link\('abapselect-options_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_shortref.htm)
 
 Syntax
 
@@ -527,7 +469,7 @@ Extras:
 
 Effect
 
-These additions allow a start value to be specified, allow lowercase, and integrate a search help or a [SPA/GPA parameter](javascript:call_link\('abenspa_gpa_parameter_1_glosry.htm'\) "Glossary Entry").
+These additions allow a start value to be specified, allow lowercase, and integrate a search help or a [SPA/GPA parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenspa_gpa_parameter_1_glosry.htm "Glossary Entry").
 
 Addition 1
 
@@ -535,7 +477,7 @@ Addition 1
 
 Effect
 
-This addition defines [start values](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry") for the columns in the first row of the [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry"). Without the addition DEFAULT, type-dependent [initial values](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry") are used as start values.
+This addition defines [start values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstart_value_glosry.htm "Glossary Entry") for the columns in the first row of the [selection table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_table_glosry.htm "Glossary Entry"). Without the addition DEFAULT, type-dependent [initial values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninitial_value_glosry.htm "Glossary Entry") are used as start values.
 
 val1 and val2 are used to define start values for columns low and high. These start values can either be specified as literals or as previously defined data objects. If the data type of the specified start values does not match the data type of the columns, these are converted according to the conversion rules.
 
@@ -543,11 +485,11 @@ The addition OPTION is used to define the start value for the option column. If 
 
 The addition SIGN is used to define the start value for the sign column. Either i or e must be specified directly for sgn. If the addition SIGN is not used, the content of column sign is changed to "I".
 
-The times at which the start values are passed to the first position in the selection table are processed in the same way as with the addition DEFAULT to the [PARAMETERS](javascript:call_link\('abapparameters_value.htm'\)) statement. If the selection table is not empty when the transfer takes place, the start values are not transferred to the first position. Only the [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") in the selection table is filled with these values, which does not influence the [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry").
+The times at which the start values are passed to the first position in the selection table are processed in the same way as with the addition DEFAULT to the [PARAMETERS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapparameters_value.htm) statement. If the selection table is not empty when the transfer takes place, the start values are not transferred to the first position. Only the [header line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenheader_line_glosry.htm "Glossary Entry") in the selection table is filled with these values, which does not influence the [selection criterion](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_criterion_glosry.htm "Glossary Entry").
 
 Notes
 
--   The associated input fields on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") are only filled with the start values if the first row in the selection table is not changed before the selection screen is sent. The system displays the value contained in the selection table when the event [AT SELECTION-SCREEN OUTPUT](javascript:call_link\('abapat_selection-screen.htm'\)) has been processed. Start values for multiple selection can only be defined by inserting lines in the selection table.
+-   The associated input fields on the [selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_glosry.htm "Glossary Entry") are only filled with the start values if the first row in the selection table is not changed before the selection screen is sent. The system displays the value contained in the selection table when the event [AT SELECTION-SCREEN OUTPUT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapat_selection-screen.htm) has been processed. Start values for multiple selection can only be defined by inserting lines in the selection table.
     
 -   When specifying start values, you must ensure that these have the internal format of the ABAP values, and not the output format of the screen display.
     
@@ -566,7 +508,7 @@ Addition 3
 
 Effect
 
-This addition associates the input fields for the selection criterion with a search help search\_help from ABAP Dictionary. The name of the search help must be specified directly. The addition has the same effect on the input fields as when it is used with a [PARAMETERS](javascript:call_link\('abapparameters_value.htm'\)) statement for an input field for a parameter.
+This addition associates the input fields for the selection criterion with a search help search\_help from ABAP Dictionary. The name of the search help must be specified directly. The addition has the same effect on the input fields as when it is used with a [PARAMETERS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapparameters_value.htm) statement for an input field for a parameter.
 
 Addition 4
 
@@ -574,22 +516,15 @@ Addition 4
 
 Effect
 
-This addition associates the first input field with an [SPA/GPA parameter](javascript:call_link\('abenspa_gpa_parameter_1_glosry.htm'\) "Glossary Entry") in the [user memory](javascript:call_link\('abenuser_memory_glosry.htm'\) "Glossary Entry"). The ID pid of the SPA/GPA parameter must be specified directly and it can contain a maximum of 20 characters. The addition has the same effect on the first input field as when it is used with a [PARAMETERS](javascript:call_link\('abapparameters_value.htm'\)) statement for an input field for a parameter.
+This addition associates the first input field with an [SPA/GPA parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenspa_gpa_parameter_1_glosry.htm "Glossary Entry") in the [user memory](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuser_memory_glosry.htm "Glossary Entry"). The ID pid of the SPA/GPA parameter must be specified directly and it can contain a maximum of 20 characters. The addition has the same effect on the first input field as when it is used with a [PARAMETERS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapparameters_value.htm) statement for an input field for a parameter.
 
 If the specified ID pid is not in the database table TPARA, the extended program check reports an error.
 
 Continue
-![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](javascript:call_link\('abensel_screen_sel_opt_def_abexa.htm'\))
+![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_sel_opt_def_abexa.htm)
 
-
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_value.htm)
 
 ### abensel_screen_sel_opt_def_abexa.htm
-
-> **📖 Official SAP Documentation**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_sel_opt_def_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -597,7 +532,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Create Selection Screens](javascript:call_link\('abenselection_screen_create.htm'\)) →  [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)) →  [SELECT-OPTIONS - value\_options](javascript:call_link\('abapselect-options_value.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm) →  [Create Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_create.htm) →  [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options.htm) →  [SELECT-OPTIONS - value\_options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_value.htm) → 
 
 Selection Screens, Default Values for Selection Criteria
 
@@ -618,17 +553,7 @@ Description
 The symbol in front of the first field indicates that the field airline-option contains the operator NB. The green color indicates that the field airline-sign contains the value "I". The arrow on the right pushbutton is not green since only one row of the selection table is filled.
 
 
-
-**📖 Source**: [abensel_screen_sel_opt_def_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_sel_opt_def_abexa.htm)
-
 ### abapselect-options_value.htm
-
-> **📖 Official SAP Documentation**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_value.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapselect-options_value.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_value.htm)
-
 
   
 
@@ -636,11 +561,11 @@ The symbol in front of the first field indicates that the field airline-option c
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Create Selection Screens](javascript:call_link\('abenselection_screen_create.htm'\)) →  [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm) →  [Create Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_create.htm) →  [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options.htm) → 
 
 SELECT-OPTIONS - value\_options
 
-[Quick Reference](javascript:call_link\('abapselect-options_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect-options_shortref.htm)
 
 Syntax
 
@@ -658,7 +583,7 @@ Extras:
 
 Effect
 
-These additions allow a start value to be specified, allow lowercase, and integrate a search help or a [SPA/GPA parameter](javascript:call_link\('abenspa_gpa_parameter_1_glosry.htm'\) "Glossary Entry").
+These additions allow a start value to be specified, allow lowercase, and integrate a search help or a [SPA/GPA parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenspa_gpa_parameter_1_glosry.htm "Glossary Entry").
 
 Addition 1
 
@@ -666,7 +591,7 @@ Addition 1
 
 Effect
 
-This addition defines [start values](javascript:call_link\('abenstart_value_glosry.htm'\) "Glossary Entry") for the columns in the first row of the [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry"). Without the addition DEFAULT, type-dependent [initial values](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry") are used as start values.
+This addition defines [start values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstart_value_glosry.htm "Glossary Entry") for the columns in the first row of the [selection table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_table_glosry.htm "Glossary Entry"). Without the addition DEFAULT, type-dependent [initial values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninitial_value_glosry.htm "Glossary Entry") are used as start values.
 
 val1 and val2 are used to define start values for columns low and high. These start values can either be specified as literals or as previously defined data objects. If the data type of the specified start values does not match the data type of the columns, these are converted according to the conversion rules.
 
@@ -674,11 +599,11 @@ The addition OPTION is used to define the start value for the option column. If 
 
 The addition SIGN is used to define the start value for the sign column. Either i or e must be specified directly for sgn. If the addition SIGN is not used, the content of column sign is changed to "I".
 
-The times at which the start values are passed to the first position in the selection table are processed in the same way as with the addition DEFAULT to the [PARAMETERS](javascript:call_link\('abapparameters_value.htm'\)) statement. If the selection table is not empty when the transfer takes place, the start values are not transferred to the first position. Only the [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") in the selection table is filled with these values, which does not influence the [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry").
+The times at which the start values are passed to the first position in the selection table are processed in the same way as with the addition DEFAULT to the [PARAMETERS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapparameters_value.htm) statement. If the selection table is not empty when the transfer takes place, the start values are not transferred to the first position. Only the [header line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenheader_line_glosry.htm "Glossary Entry") in the selection table is filled with these values, which does not influence the [selection criterion](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_criterion_glosry.htm "Glossary Entry").
 
 Notes
 
--   The associated input fields on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") are only filled with the start values if the first row in the selection table is not changed before the selection screen is sent. The system displays the value contained in the selection table when the event [AT SELECTION-SCREEN OUTPUT](javascript:call_link\('abapat_selection-screen.htm'\)) has been processed. Start values for multiple selection can only be defined by inserting lines in the selection table.
+-   The associated input fields on the [selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_glosry.htm "Glossary Entry") are only filled with the start values if the first row in the selection table is not changed before the selection screen is sent. The system displays the value contained in the selection table when the event [AT SELECTION-SCREEN OUTPUT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapat_selection-screen.htm) has been processed. Start values for multiple selection can only be defined by inserting lines in the selection table.
     
 -   When specifying start values, you must ensure that these have the internal format of the ABAP values, and not the output format of the screen display.
     
@@ -697,7 +622,7 @@ Addition 3
 
 Effect
 
-This addition associates the input fields for the selection criterion with a search help search\_help from ABAP Dictionary. The name of the search help must be specified directly. The addition has the same effect on the input fields as when it is used with a [PARAMETERS](javascript:call_link\('abapparameters_value.htm'\)) statement for an input field for a parameter.
+This addition associates the input fields for the selection criterion with a search help search\_help from ABAP Dictionary. The name of the search help must be specified directly. The addition has the same effect on the input fields as when it is used with a [PARAMETERS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapparameters_value.htm) statement for an input field for a parameter.
 
 Addition 4
 
@@ -705,9 +630,9 @@ Addition 4
 
 Effect
 
-This addition associates the first input field with an [SPA/GPA parameter](javascript:call_link\('abenspa_gpa_parameter_1_glosry.htm'\) "Glossary Entry") in the [user memory](javascript:call_link\('abenuser_memory_glosry.htm'\) "Glossary Entry"). The ID pid of the SPA/GPA parameter must be specified directly and it can contain a maximum of 20 characters. The addition has the same effect on the first input field as when it is used with a [PARAMETERS](javascript:call_link\('abapparameters_value.htm'\)) statement for an input field for a parameter.
+This addition associates the first input field with an [SPA/GPA parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenspa_gpa_parameter_1_glosry.htm "Glossary Entry") in the [user memory](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuser_memory_glosry.htm "Glossary Entry"). The ID pid of the SPA/GPA parameter must be specified directly and it can contain a maximum of 20 characters. The addition has the same effect on the first input field as when it is used with a [PARAMETERS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapparameters_value.htm) statement for an input field for a parameter.
 
 If the specified ID pid is not in the database table TPARA, the extended program check reports an error.
 
 Continue
-![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](javascript:call_link\('abensel_screen_sel_opt_def_abexa.htm'\))
+![Example](exa.gif "Example") [Selection Screens, Default Values for Selection Criteria](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_sel_opt_def_abexa.htm)

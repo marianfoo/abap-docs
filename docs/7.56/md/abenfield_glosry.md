@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 field
 
-Another name for [elementary data object](javascript:call_link\('abenelementary_data_object_glosry.htm'\) "Glossary Entry").
+Another name for [elementary data object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenelementary_data_object_glosry.htm "Glossary Entry").

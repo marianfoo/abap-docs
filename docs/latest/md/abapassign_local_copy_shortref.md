@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  A
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_shortref.htm) →  A
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ASSIGN%2C%20LOCAL%20COPY%2C%20ABAPASSIGN_LOCAL_COPY_SHORTREF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ASSIGN, LOCAL COPY - Short Reference
 
-[Reference](javascript:call_link\('abapassign_local_copy.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_local_copy.htm)
 
 Syntax
 
@@ -26,13 +26,13 @@ ASSIGN LOCAL COPY
 
 Effect
 
-Obsolete: In a [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry"), creates a local [anonymous data object](javascript:call_link\('abenanonymous_data_object_glosry.htm'\) "Glossary Entry") as a copy of a memory area and assigns it to the field symbol <fs>.
+Obsolete: In a [procedure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprocedure_glosry.htm "Glossary Entry"), creates a local [anonymous data object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenanonymous_data_object_glosry.htm "Glossary Entry") as a copy of a memory area and assigns it to the field symbol <fs>.
 
 Additions   
 
 Specifies the memory area:
 
--   Additions other than LINE OF - See [ASSIGN](javascript:call_link\('abapassign_shortref.htm'\)).
+-   Additions other than LINE OF - See [ASSIGN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_shortref.htm).
 -   LINE OF itab*|*(itab\_name) - Copy of a line of an internal table itab.
 
 Specifies the content:
@@ -43,4 +43,4 @@ Specifies the content:
 Specifies the data type:
 
 -   CASTING ...
-    Specifies the data type used to handle the memory area. See [ASSIGN](javascript:call_link\('abapassign_shortref.htm'\)).
+    Specifies the data type used to handle the memory area. See [ASSIGN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_shortref.htm).

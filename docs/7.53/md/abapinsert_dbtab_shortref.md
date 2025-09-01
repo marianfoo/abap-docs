@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  I
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  I
 
 INSERT dbtab - Quick reference
 
-[Reference](javascript:call_link\('abapinsert_dbtab.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_dbtab.htm)
 
 Syntax
 
@@ -23,27 +23,27 @@ INSERT *{* *{*INTO dbtab*|*view*|*(target\_syntax)
 
 Effect
 
-[ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") statement. Inserts rows into a database table or into a classic view.
+[ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Inserts rows into a database table or into a classic view.
 
 Additions
 
--   [INTO dbtab*|*view*|*(target\_syntax)](javascript:call_link\('abapinsert_target.htm'\))
+-   [INTO dbtab*|*view*|*(target\_syntax)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_target.htm)
     Specifies the database table and/or view statically or dynamically.
     
--   [USING CLIENT](javascript:call_link\('abapinsert_target.htm'\))
-    Switches automatic [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry") to the client specified in clnt.
+-   [USING CLIENT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_target.htm)
+    Switches automatic [client handling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_handling_glosry.htm "Glossary Entry") to the client specified in clnt.
     
--   [CLIENT SPECIFIED](javascript:call_link\('abapinsert_target.htm'\))
-    Deactivates automatic [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry").
+-   [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_target.htm)
+    Deactivates automatic [client handling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_handling_glosry.htm "Glossary Entry").
     
--   [CONNECTION con*|*(con\_syntax)](javascript:call_link\('abapinsert_update_modify_conn.htm'\))
-    Makes the change on a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry").
+-   [CONNECTION con*|*(con\_syntax)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_update_modify_conn.htm)
+    Makes the change on a [secondary connection](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry").
     
--   [*{*VALUES wa*}**|**{*FROM wa*}**|**{*FROM TABLE itab*}*](javascript:call_link\('abapinsert_source.htm'\))
+-   [*{*VALUES wa*}**|**{*FROM wa*}**|**{*FROM TABLE itab*}*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_source.htm)
     Specifies the rows to be inserted as a wa work area or as rows of an itab internal table.
     
--   [ACCEPTING DUPLICATE KEYS](javascript:call_link\('abapinsert_source.htm'\))
+-   [ACCEPTING DUPLICATE KEYS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_source.htm)
     Prevents an exception if rows that already exist are to be inserted.
     
--   [SELECT subquery\_clauses](javascript:call_link\('abapinsert_source.htm'\))
+-   [SELECT subquery\_clauses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_source.htm)
     Specifies the inserted rows as a results set of a subquery SELECT subquery\_clauses.

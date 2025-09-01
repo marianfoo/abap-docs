@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [System Classes for Character String and Byte String Processing](javascript:call_link\('abencl_abap_string_utilities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_string.htm) →  [System Classes for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencl_abap_string_utilities.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Methods for Handling Code Pages, ABENCL_ABAP_CONV_CODEPAGE, 757%0D%0A%0D%0AError:%0D%
 0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -15,7 +15,7 @@ The methods CONVERT of the interfaces IF\_ABAP\_CONV\_OUT and IF\_ABAP\_CONV\_IN
 
 Example
 
-Conversion of the content of a string into its UTF-8 representation. The value UTF-8 is the default value for the parameter CODEPAGE and can also be omitted. The statement [ASSERT](javascript:call_link\('abapassert.htm'\)) shows that the reverse conversion creates the original text again.
+Conversion of the content of a string into its UTF-8 representation. The value UTF-8 is the default value for the parameter CODEPAGE and can also be omitted. The statement [ASSERT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassert.htm) shows that the reverse conversion creates the original text again.
 
 FINAL(str) = \`Blah blah ...\`.
 FINAL(xstr) =

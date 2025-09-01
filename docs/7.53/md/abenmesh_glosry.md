@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 mesh
 
-Instance of a [mesh type](javascript:call_link\('abenmesh_type_glosry.htm'\) "Glossary Entry"). Special [structure](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry") whose [components](javascript:call_link\('abencomponent_glosry.htm'\) "Glossary Entry"), called [mesh nodes](javascript:call_link\('abenmesh_node_glosry.htm'\) "Glossary Entry") are exclusively [internal tables](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") associated with each other using [mesh associations](javascript:call_link\('abenmesh_association_glosry.htm'\) "Glossary Entry").
+Instance of a [mesh type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_type_glosry.htm "Glossary Entry"). Special [structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_glosry.htm "Glossary Entry") whose [components](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomponent_glosry.htm "Glossary Entry"), called [mesh nodes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_node_glosry.htm "Glossary Entry") are exclusively [internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_table_glosry.htm "Glossary Entry") associated with each other using [mesh associations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_association_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenabap_meshes.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_meshes.htm)

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [Changes in Releases 4.0 and 4.5](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews.htm) →  [Changes in Releases 4.xx](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-4.htm) →  [Changes in Releases 4.0 and 4.5](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-40.htm) → 
 
 Runtime Analysis in Release 4.0
 
@@ -66,9 +66,9 @@ If the button With memory management is selected, the following are measured:
     
 -   Transfer of data and data control blocks
     
--   [PXA](javascript:call_link\('abenpxa_glosry.htm'\) "Glossary Entry"): find, generate
+-   [PXA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpxa_glosry.htm "Glossary Entry"): find, generate
     
--   [Screen](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") synchronization
+-   [Screen](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm "Glossary Entry") synchronization
     
 
 Modification 7
@@ -76,7 +76,7 @@ Modification 7
 Enhancements in the table hit list
 
 -   Navigation to table definition
-    To go to the table definition in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry"), double-click on the table name.
+    To go to the table definition in the [repository](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepository_glosry.htm "Glossary Entry"), double-click on the table name.
     
 -   The development class (package) for each table is displayed in a separate column
     

@@ -4,27 +4,27 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Examples for BDEF Derived Type Components](javascript:call_link\('abenderived_types_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_rap_other.htm) →  [ABAP for RAP, BDEF Derived Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_comp.htm) →  [Examples for BDEF Derived Type Components](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenderived_types_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: BDEF Derived Type Components in the Context of Requesting Permissions, ABENDERIVED_TY
 PES_MISC_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 BDEF Derived Type Components in the Context of Requesting Permissions
 
-This example demonstrates the use of the various [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") components with a [managed](javascript:call_link\('abenbdl_impl_type.htm'\)) [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") in the context of requesting permissions using multiple [GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\)) statements with variants of the [ONLY clause](javascript:call_link\('abapget_permissions_only_clause.htm'\)):
+This example demonstrates the use of the various [BDEF derived type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") components with a [managed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_impl_type.htm) [RAP BO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm "Glossary Entry") in the context of requesting permissions using multiple [GET PERMISSIONS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_permissions.htm) statements with variants of the [ONLY clause](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_permissions_only_clause.htm):
 
--   [%action](javascript:call_link\('abapderived_types_action.htm'\))
--   [%assoc](javascript:call_link\('abapderived_types_assoc.htm'\))
--   [%create](javascript:call_link\('abapderived_types_create.htm'\))
--   [%delete](javascript:call_link\('abapderived_types_delete.htm'\))
--   [%features](javascript:call_link\('abapderived_types_features.htm'\))
--   [%field](javascript:call_link\('abapderived_types_field.htm'\))
--   [%op](javascript:call_link\('abapderived_types_op.htm'\))
--   [%perm](javascript:call_link\('abapderived_types_perm.htm'\))
+-   [%action](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_action.htm)
+-   [%assoc](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_assoc.htm)
+-   [%create](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_create.htm)
+-   [%delete](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_delete.htm)
+-   [%features](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_features.htm)
+-   [%field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_field.htm)
+-   [%op](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_op.htm)
+-   [%perm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_perm.htm)
 
 Data model
 
-The CDS data model consists of the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_PERM and its [child entity](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_CHILD\_PERM. The child entity is not used in the example.
+The CDS data model consists of the [root entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenroot_entity_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_PERM and its [child entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenchild_entity_glosry.htm "Glossary Entry") DEMO\_MANAGED\_CHILD\_PERM. The child entity is not used in the example.
 
 Root entity:
 
@@ -43,7 +43,7 @@ define root view entity DEMO\_MANAGED\_ROOT\_REPORTED
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_PERM is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_PERM is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_root\_perm unique;
 strict;
@@ -79,7 +79,7 @@ authorization dependent by \_parent
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_PERM. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
+For the above CDS behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_ROOT\_PERM. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
 
 The following methods are relevant for this example:
 
@@ -293,13 +293,13 @@ START-OF-SELECTION.
 
 Description   
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program:
 
 The example covers most variants of only\_clause using the short form of the GET PERMISSIONS statement.
 
-As a first step, the database table that is used in the example is emptied and filled again with demo values as a basis for the example. Request parameters for an entity are then specified. In this case, all fields, [standard](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") and [nonstandard operations](javascript:call_link\('abenbdl_nonstandard.htm'\)), and an associated entity (the child entity) are enabled. These parameters are used in all GET PERMISSIONS statements. All statements use the same input keys (except those statements where specifying the keys is not allowed) and include response parameters that are not used in the example.
+As a first step, the database table that is used in the example is emptied and filled again with demo values as a basis for the example. Request parameters for an entity are then specified. In this case, all fields, [standard](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencrud_glosry.htm "Glossary Entry") and [nonstandard operations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_nonstandard.htm), and an associated entity (the child entity) are enabled. These parameters are used in all GET PERMISSIONS statements. All statements use the same input keys (except those statements where specifying the keys is not allowed) and include response parameters that are not used in the example.
 
-The result of the individual GET PERMISSIONS statements is displayed in the output showing both instance table and global structure (see [TYPE STRUCTURE FOR PERMISSIONS RESULT](javascript:call_link\('abaptype_structure_for.htm'\))).
+The result of the individual GET PERMISSIONS statements is displayed in the output showing both instance table and global structure (see [TYPE STRUCTURE FOR PERMISSIONS RESULT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_structure_for.htm)).
 
 Notes on the result, i. e. the entries in the output tables:
 
@@ -337,4 +337,4 @@ Notes on the result, i. e. the entries in the output tables:
     
 -   ONLY AUTHORIZATION (focus on %perm component group)
     
-    The implementation in the program serves the purpose of visualizing the %perm component group that is contained in the permission result of GET PERMISSIONS statements and how subcomponents of the result might be referred to. The result is of type [TYPE STRUCTURE FOR PERMISSIONS RESULT](javascript:call_link\('abaptype_structure_for.htm'\)). In the example, a structure type is set up containing the instance key as well as the subcomponents of %perm. An internal table is declared that is filled with the permission result from the instance table. The output shows this internal table. The outcome of the permission result corresponds to the entries in the instance table from the previous example with ONLY AUTHORIZATION.
+    The implementation in the program serves the purpose of visualizing the %perm component group that is contained in the permission result of GET PERMISSIONS statements and how subcomponents of the result might be referred to. The result is of type [TYPE STRUCTURE FOR PERMISSIONS RESULT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_structure_for.htm). In the example, a structure type is set up containing the instance key as well as the subcomponents of %perm. An internal table is declared that is filled with the permission result from the instance table. The output shows this internal table. The outcome of the permission result corresponds to the entries in the instance table from the previous example with ONLY AUTHORIZATION.

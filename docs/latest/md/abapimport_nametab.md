@@ -16,9 +16,9 @@ IMPORT NAMETAB ...
 
 Effect
 
-This statement was used internally to import a DDIC structure description in an internal format from the [name table](javascript:call_link\('abenname_table_glosry.htm'\) "Glossary Entry") of the ABAP Dictionary.
+This statement was used internally to import a DDIC structure description in an internal format from the [name table](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenname_table_glosry.htm "Glossary Entry") of the ABAP Dictionary.
 
-The statement is not supported any more. The usage of the statement is not yet completely prohibited for reasons of downward compatibility only. Any attempt to import the entry for an [DDIC table type](javascript:call_link\('abenddic_table_type_glosry.htm'\) "Glossary Entry") already produces a runtime error. Any other usage produces errors from ATC.
+The statement is not supported any more. The usage of the statement is not yet completely prohibited for reasons of downward compatibility only. Any attempt to import the entry for an [DDIC table type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_table_type_glosry.htm "Glossary Entry") already produces a runtime error. Any other usage produces errors from ATC.
 
 System Fields
 
@@ -36,9 +36,9 @@ The specified entry was not found.
 
 Hint
 
-Instead of this statement, the function modules DDIF\_NAMETAB\_GET and DDIF\_FIELDINFO\_GET must be used. The RTTS class CL\_ABAP\_TYPEDESCR also offers methods GET\_DDIC\_HEADER and GET\_DDIC\_OBJECT to retrieve information from the [name table](javascript:call_link\('abenname_table_glosry.htm'\) "Glossary Entry").
+Instead of this statement, the function modules DDIF\_NAMETAB\_GET and DDIF\_FIELDINFO\_GET must be used. The RTTS class CL\_ABAP\_TYPEDESCR also offers methods GET\_DDIC\_HEADER and GET\_DDIC\_OBJECT to retrieve information from the [name table](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenname_table_glosry.htm "Glossary Entry").
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Time Stamps](javascript:call_link\('abentime_stamps.htm'\)) →  [Time Stamps in Packed Numbers](javascript:call_link\('abentime_stamps_packed.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendate_time_processing.htm) →  [Time Stamps](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentime_stamps.htm) →  [Time Stamps in Packed Numbers](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentime_stamps_packed.htm) → 
 
 System Class for Time Stamps in Packed Numbers
 
-The class CL\_ABAP\_TSTMP is used to calculate and convert [time stamps in packed numbers](javascript:call_link\('abentime_stamps_packed.htm'\)). Important methods include:
+The class CL\_ABAP\_TSTMP is used to calculate and convert [time stamps in packed numbers](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentime_stamps_packed.htm). Important methods include:
 
 -   The method ADD or SUBTRACTSECS adds or subtracts seconds from time stamps.
 -   The method TD\_SUBTRACT calculates the difference between two time stamps.
@@ -32,7 +32,7 @@ cl\_demo\_output=>display( |{ ts1 TIMESTAMP = ISO
 
 Example
 
-Conversion of a time stamp field to time stamps in packed numbers. In formatting using string templates, the formatting option [TIMESTAMP](javascript:call_link\('abapcompute_string_format_options.htm'\)) must be specified for the packed numbers to define a representation as time stamps.
+Conversion of a time stamp field to time stamps in packed numbers. In formatting using string templates, the formatting option [TIMESTAMP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_string_format_options.htm) must be specified for the packed numbers to define a representation as time stamps.
 
 DATA(ts) = utclong\_current( ).
 cl\_demo\_output=>display(

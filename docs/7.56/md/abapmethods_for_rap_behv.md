@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP business objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP Behavior Pools (ABP)](javascript:call_link\('abenabap_behavior_pools.htm'\)) →  [RAP Handler Class](javascript:call_link\('abenabp_handler_class.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_provide_rap_bos.htm) →  [ABAP Behavior Pools (ABP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_behavior_pools.htm) →  [RAP Handler Class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_class.htm) → 
 
 METHODS, FOR
 
@@ -12,51 +12,51 @@ Syntax
 
 Handler method definitions:
 
-[METHODS](javascript:call_link\('abapmethods.htm'\)) meth *\[*[FINAL](javascript:call_link\('abapmethods_abstract_final.htm'\))*\]*
-   FOR *{* [DETERMINE ON *{* SAVE *|* MODIFY *}*](javascript:call_link\('abaphandler_meth_det.htm'\)) ... *\[*[IMPORTING](javascript:call_link\('abapmethods_general.htm'\))*\]* ... FOR ... *}*
-     *|* *{* [GLOBAL AUTHORIZATION](javascript:call_link\('abaphandler_meth_global_auth.htm'\))  ...  *\[*[IMPORTING](javascript:call_link\('abapmethods_general.htm'\))*\]* ... FOR ... *}*
-     *|* *{* [GLOBAL FEATURES](javascript:call_link\('abaphandler_meth_global_features.htm'\)) ... *\[*[IMPORTING](javascript:call_link\('abapmethods_general.htm'\))*\]* ... FOR ... *}*
-     *|* *{* [*\[*INSTANCE*\]* AUTHORIZATION](javascript:call_link\('abaphandler_meth_auth.htm'\)) ... *\[*[IMPORTING](javascript:call_link\('abapmethods_general.htm'\))*\]* ... FOR ... *}*
-     *|* *{* [*\[*INSTANCE*\]* FEATURES](javascript:call_link\('abaphandler_meth_features.htm'\)) ... *\[*[IMPORTING](javascript:call_link\('abapmethods_general.htm'\))*\]* ... FOR ... *}*
-     *|* *{* [LOCK](javascript:call_link\('abaphandler_meth_lock.htm'\)) ... *\[*[IMPORTING](javascript:call_link\('abapmethods_general.htm'\))*\]* ... FOR ... *}*
-     *|* *{* [MODIFY](javascript:call_link\('abaphandler_meth_modify.htm'\)) ... *\[*[IMPORTING](javascript:call_link\('abapmethods_general.htm'\))*\]* ... FOR ... *}*
-     *|* *{* [NUMBERING](javascript:call_link\('abaphandler_meth_numbering.htm'\)) ... *\[*[IMPORTING](javascript:call_link\('abapmethods_general.htm'\))*\]* ... FOR ... *}*
-     *|* *{* [PRECHECK](javascript:call_link\('abaphandler_meth_precheck.htm'\)) ... *\[*[IMPORTING](javascript:call_link\('abapmethods_general.htm'\))*\]* ... FOR ...  *}*
-     *|* *{* [READ](javascript:call_link\('abaphandler_meth_read.htm'\)) ... *\[*[IMPORTING](javascript:call_link\('abapmethods_general.htm'\))*\]* ... FOR ... *}*
-     *|* *{* [VALIDATE ON SAVE](javascript:call_link\('abaphandler_meth_validate.htm'\)) ... *\[*[IMPORTING](javascript:call_link\('abapmethods_general.htm'\))*\]* ... FOR ... *}*
-   *\[*[CHANGING](javascript:call_link\('abapmethods_general.htm'\)) *{* *\[*[failed](javascript:call_link\('abaptype_response_for.htm'\)) TYPE [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\))*\]* *\[*[reported](javascript:call_link\('abaptype_response_for.htm'\)) TYPE [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\))*\]* *\[*[mapped](javascript:call_link\('abaptype_response_for.htm'\)) TYPE [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\))*\]* *}**\]*.
+[METHODS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods.htm) meth *\[*[FINAL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_abstract_final.htm)*\]*
+   FOR *{* [DETERMINE ON *{* SAVE *|* MODIFY *}*](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_det.htm) ... *\[*[IMPORTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm)*\]* ... FOR ... *}*
+     *|* *{* [GLOBAL AUTHORIZATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_global_auth.htm)  ...  *\[*[IMPORTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm)*\]* ... FOR ... *}*
+     *|* *{* [GLOBAL FEATURES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_global_features.htm) ... *\[*[IMPORTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm)*\]* ... FOR ... *}*
+     *|* *{* [*\[*INSTANCE*\]* AUTHORIZATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_auth.htm) ... *\[*[IMPORTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm)*\]* ... FOR ... *}*
+     *|* *{* [*\[*INSTANCE*\]* FEATURES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_features.htm) ... *\[*[IMPORTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm)*\]* ... FOR ... *}*
+     *|* *{* [LOCK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_lock.htm) ... *\[*[IMPORTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm)*\]* ... FOR ... *}*
+     *|* *{* [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_modify.htm) ... *\[*[IMPORTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm)*\]* ... FOR ... *}*
+     *|* *{* [NUMBERING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_numbering.htm) ... *\[*[IMPORTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm)*\]* ... FOR ... *}*
+     *|* *{* [PRECHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_precheck.htm) ... *\[*[IMPORTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm)*\]* ... FOR ...  *}*
+     *|* *{* [READ](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_read.htm) ... *\[*[IMPORTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm)*\]* ... FOR ... *}*
+     *|* *{* [VALIDATE ON SAVE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_validate.htm) ... *\[*[IMPORTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm)*\]* ... FOR ... *}*
+   *\[*[CHANGING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm) *{* *\[*[failed](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_response_for.htm) TYPE [data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_types_generic.htm)*\]* *\[*[reported](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_response_for.htm) TYPE [data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_types_generic.htm)*\]* *\[*[mapped](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_response_for.htm) TYPE [data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_types_generic.htm)*\]* *}**\]*.
 
 Handler method implementations:
 
-[METHOD](javascript:call_link\('abapmethods.htm'\)) meth.
+[METHOD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods.htm) meth.
    ...
-[ENDMETHOD](javascript:call_link\('abapmethods.htm'\)).
+[ENDMETHOD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods.htm).
 
 Effect
 
-[Handler methods](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") must be defined and implemented in a [handler class](javascript:call_link\('abenabp_handler_class_glosry.htm'\) "Glossary Entry") of an [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"). The method name (meth) can be freely chosen except for the predefined [draft actions](javascript:call_link\('abenbdl_draft_action.htm'\)) (whose implementation is only relevant if they are specified with with additional implementation in the BDEF) and the method names in the context of [augment](javascript:call_link\('abenbdl_augment_projection.htm'\)) operations. The METHODS statements of handler methods in behavior pools contain RAP-specific ABAP words like FOR MODIFY, FOR CREATE or FOR READ as well as optional or mandatory ABAP words like REQUEST and RESULT that are followed by parameters typed with [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry").
+[Handler methods](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") must be defined and implemented in a [handler class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_class_glosry.htm "Glossary Entry") of an [ABAP behavior pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry"). The method name (meth) can be freely chosen except for the predefined [draft actions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_draft_action.htm) (whose implementation is only relevant if they are specified with with additional implementation in the BDEF) and the method names in the context of [augment](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_augment_projection.htm) operations. The METHODS statements of handler methods in behavior pools contain RAP-specific ABAP words like FOR MODIFY, FOR CREATE or FOR READ as well as optional or mandatory ABAP words like REQUEST and RESULT that are followed by parameters typed with [BDEF derived types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry").
 
 The following list provides an overview on parameters of handler methods:
 
--   Nearly all parameters are typed with [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") that have [RAP components](javascript:call_link\('abapderived_types_comp.htm'\)). The parameters' names can be chosen freely.
--   Each handler method must have at least one importing parameter. The addition [IMPORTING](javascript:call_link\('abapmethods_general.htm'\)) is optional since it is used implicitly.
--   All handler methods have changing parameters. The changing parameters for retrieving mapping information (mapped) or information on failures (failed) and error messages (reported) have predefined names and are used implicitly. The addition [CHANGING](javascript:call_link\('abapmethods_general.htm'\)) and the explicit specification of those changing parameters is optional. The availability of the mapped, failed and reported parameters depends on the handler method used. When used explicitly, for example, for the method ... FOR MODIFY ... FOR CREATE ..., the syntax can be as follows:
+-   Nearly all parameters are typed with [BDEF derived types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") that have [RAP components](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm). The parameters' names can be chosen freely.
+-   Each handler method must have at least one importing parameter. The addition [IMPORTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm) is optional since it is used implicitly.
+-   All handler methods have changing parameters. The changing parameters for retrieving mapping information (mapped) or information on failures (failed) and error messages (reported) have predefined names and are used implicitly. The addition [CHANGING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm) and the explicit specification of those changing parameters is optional. The availability of the mapped, failed and reported parameters depends on the handler method used. When used explicitly, for example, for the method ... FOR MODIFY ... FOR CREATE ..., the syntax can be as follows:
     
     METHODS create FOR MODIFY
         IMPORTING entities FOR CREATE bdef
         CHANGING failed TYPE DATA mapped TYPE DATA reported TYPE DATA.
     
-    In the above code example, the generic type [DATA](javascript:call_link\('abenbuilt_in_types_generic.htm'\)) is used. At runtime, the typed parameters, e. g. failed, implicitly has the BDEF derived type [TYPE RESPONSE FOR](javascript:call_link\('abaptype_response_for.htm'\)).
+    In the above code example, the generic type [DATA](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_types_generic.htm) is used. At runtime, the typed parameters, e. g. failed, implicitly has the BDEF derived type [TYPE RESPONSE FOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_response_for.htm).
     
--   In many cases, parameters can be passed by reference (see [REFERENCE](javascript:call_link\('abapmethods_parameters.htm'\))), however, they cannot be passed by value ([VALUE](javascript:call_link\('abapmethods_parameters.htm'\))). Hence, the importing parameters cannot be changed in the methods.
+-   In many cases, parameters can be passed by reference (see [REFERENCE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_parameters.htm)), however, they cannot be passed by value ([VALUE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_parameters.htm)). Hence, the importing parameters cannot be changed in the methods.
 
 At least one of the three methods with the predefined names MODIFY, READ and LOCK methods must be implemented in each handler class. Apart from that, helper methods can be implemented.
 
 Hints
 
 -   Obsolete language elements in the context of handler methods:
-    -   Addition [FOR BEHAVIOR](javascript:call_link\('abapmethods_for_behavior.htm'\)) for the variants READ, MODIFY and LOCK.
-    -   [METHODS, FOR DETERMINATION, VALIDATION](javascript:call_link\('abapmethods_for_det_val_obs.htm'\))
+    -   Addition [FOR BEHAVIOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_behavior.htm) for the variants READ, MODIFY and LOCK.
+    -   [METHODS, FOR DETERMINATION, VALIDATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_det_val_obs.htm)
 -   It is recommended to fill the CHANGING parameters failed, reported and mapped with returned information, for example, if an instance cannot be read. The components of each of the CHANGING parameters can vary depending on how it is typed with a BDEF derived type. Here is an example on how a CHANGING parameter can be filled within the method implementation:
     
     LOOP AT import\_params ASSIGNING FIELD-SYMBOL(<fs>).
@@ -71,7 +71,7 @@ Hints
                       ... ) TO reported-bdef.
     ENDLOOP.
     
--   In some cases, the F2 help of the [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") shows further CHANGING parameters for RAP handler methods apart from failed, reported and mapped. For example, result. However, RESULT is a RAP-specific ABAP word that must be explicitly specified. Hence, the CHANGING parameter result cannot be specified using the CHANGING ABAP word:
+-   In some cases, the F2 help of the [ADT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm "Glossary Entry") shows further CHANGING parameters for RAP handler methods apart from failed, reported and mapped. For example, result. However, RESULT is a RAP-specific ABAP word that must be explicitly specified. Hence, the CHANGING parameter result cannot be specified using the CHANGING ABAP word:
     
     METHODS read FOR READ IMPORTING keys FOR READ bdef RESULT result.
     
@@ -86,7 +86,7 @@ Hints
        action\_imp\_param FOR ACTION bdef~action
        cba\_imp\_param FOR CREATE bdef\\\_assoc.
     
--   Exceptions cannot be raised in handler methods, hence, the addition [RAISING](javascript:call_link\('abapmethods_general.htm'\)) cannot be used.
+-   Exceptions cannot be raised in handler methods, hence, the addition [RAISING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm) cannot be used.
 
 Example
 
@@ -109,19 +109,19 @@ METHODS rba\_child FOR READ
 
 Executable Examples
 
--   The example [Example for RAP Handler Methods](javascript:call_link\('abenrap_handler_methods_abexa.htm'\)) demonstrates RAP handler methods within a RAP handler class using a simple unmanaged RAP BO that is draft-enabled.
--   The example [ABAP EML - MODIFY AUGMENTING ENTITY](javascript:call_link\('abeneml_modify_augmenting_abexa.htm'\)) demonstrates the three handler methods augment\_create, augment\_update and augment\_cba\_assoc (assoc refers to the name of the association) with a RAP projection business object.
+-   The example [Example for RAP Handler Methods](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_handler_methods_abexa.htm) demonstrates RAP handler methods within a RAP handler class using a simple unmanaged RAP BO that is draft-enabled.
+-   The example [ABAP EML - MODIFY AUGMENTING ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_modify_augmenting_abexa.htm) demonstrates the three handler methods augment\_create, augment\_update and augment\_cba\_assoc (assoc refers to the name of the association) with a RAP projection business object.
 
 Continue
-[FOR DETERMINE](javascript:call_link\('abaphandler_meth_det.htm'\))
-[FOR INSTANCE AUTHORIZATION, AUTHORIZATION](javascript:call_link\('abaphandler_meth_auth.htm'\))
-[FOR INSTANCE FEATURES, FEATURES](javascript:call_link\('abaphandler_meth_features.htm'\))
-[FOR GLOBAL AUTHORIZATION](javascript:call_link\('abaphandler_meth_global_auth.htm'\))
-[FOR GLOBAL FEATURES](javascript:call_link\('abaphandler_meth_global_features.htm'\))
-[FOR LOCK](javascript:call_link\('abaphandler_meth_lock.htm'\))
-[FOR MODIFY](javascript:call_link\('abaphandler_meth_modify.htm'\))
-[FOR NUMBERING](javascript:call_link\('abaphandler_meth_numbering.htm'\))
-[FOR PRECHECK](javascript:call_link\('abaphandler_meth_precheck.htm'\))
-[FOR READ](javascript:call_link\('abaphandler_meth_read.htm'\))
-[FOR VALIDATE](javascript:call_link\('abaphandler_meth_validate.htm'\))
-![Example](exa.gif "Example") [Example for RAP Handler Methods](javascript:call_link\('abenrap_handler_methods_abexa.htm'\))
+[FOR DETERMINE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_det.htm)
+[FOR INSTANCE AUTHORIZATION, AUTHORIZATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_auth.htm)
+[FOR INSTANCE FEATURES, FEATURES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_features.htm)
+[FOR GLOBAL AUTHORIZATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_global_auth.htm)
+[FOR GLOBAL FEATURES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_global_features.htm)
+[FOR LOCK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_lock.htm)
+[FOR MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_modify.htm)
+[FOR NUMBERING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_numbering.htm)
+[FOR PRECHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_precheck.htm)
+[FOR READ](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_read.htm)
+[FOR VALIDATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphandler_meth_validate.htm)
+![Example](exa.gif "Example") [Example for RAP Handler Methods](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_handler_methods_abexa.htm)

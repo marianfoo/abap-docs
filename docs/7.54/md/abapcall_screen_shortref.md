@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  C
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shortref.htm) →  C
 
 CALL SCREEN - Quick reference
 
-[Reference](javascript:call_link\('abapcall_screen.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_screen.htm)
 
 Syntax
 
@@ -18,7 +18,7 @@ CALL SCREEN dynnr
 
 Effect
 
-Calls the [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") of the number specified in dynnr and starts a [dynpro sequence](javascript:call_link\('abendynpro_sequence_glosry.htm'\) "Glossary Entry") defined by the [next dynpros](javascript:call_link\('abennext_dynpro_glosry.htm'\) "Glossary Entry") of the called dynpro.
+Calls the [dynpro](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm "Glossary Entry") of the number specified in dynnr and starts a [dynpro sequence](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_sequence_glosry.htm "Glossary Entry") defined by the [next dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennext_dynpro_glosry.htm "Glossary Entry") of the called dynpro.
 
 Additions
 

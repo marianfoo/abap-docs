@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 generic ABAP type
 
-[Built-in](javascript:call_link\('abenbuiltin_data_type_glosry.htm'\) "Glossary Entry") [generic data type](javascript:call_link\('abengeneric_data_type_glosry.htm'\) "Glossary Entry"). The generic ABAP types are: any, any table, c, clike, csequence, data, decfloat, hashed table, index table, n, numeric, p, simple, sorted table, standard table, table, x, and xsequence.
+[Built-in](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuiltin_data_type_glosry.htm "Glossary Entry") [generic data type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneric_data_type_glosry.htm "Glossary Entry"). The generic ABAP types are: any, any table, c, clike, csequence, data, decfloat, hashed table, index table, n, numeric, p, simple, sorted table, standard table, table, x, and xsequence.
 
-[→ More about](javascript:call_link\('abenbuilt_in_types_generic.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_types_generic.htm)

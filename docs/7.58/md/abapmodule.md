@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Structure](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Dialog Modules](javascript:call_link\('abendialog_module.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_modularization.htm) →  [Dialog Modules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendialog_module.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20MODULE%2C%20ABAPMODULE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 MODULE
 
-[Short Reference](javascript:call_link\('abapmodule_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodule_shortref.htm)
 
 Syntax
 
@@ -24,9 +24,9 @@ Addition:
 
 Effect
 
-The statement MODULE defines a [dialog module](javascript:call_link\('abendialog_module_glosry.htm'\) "Glossary Entry") mod. The [naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) apply to the name mod. The functions of a dialog module mod are implemented between the statements MODULE ad ENDMODULE.
+The statement MODULE defines a [dialog module](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendialog_module_glosry.htm "Glossary Entry") mod. The [naming conventions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennaming_conventions.htm) apply to the name mod. The functions of a dialog module mod are implemented between the statements MODULE ad ENDMODULE.
 
-A dialog module is called using the identically named statement [MODULE](javascript:call_link\('dynpmodule.htm'\)) of the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry") of any [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") in the ABAP program.
+A dialog module is called using the identically named statement [MODULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynpmodule.htm) of the [dynpro flow logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry") of any [dynpro](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm "Glossary Entry") in the ABAP program.
 
 Addition   
 
@@ -34,11 +34,11 @@ Addition  
 
 Effect
 
-The additions OUTPUT and INPUT determine whether the dialog module can be called at the [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") or [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") event. The addition INPUT is the default and could therefore also be omitted, although this is not recommended for reasons of program readability. Two dialog modules with the same name can be defined in a program, if one of them has the addition OUTPUT and the other has the addition INPUT. However, this is also not recommended for reasons of readability.
+The additions OUTPUT and INPUT determine whether the dialog module can be called at the [PBO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpbo_glosry.htm "Glossary Entry") or [PAI](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpai_glosry.htm "Glossary Entry") event. The addition INPUT is the default and could therefore also be omitted, although this is not recommended for reasons of program readability. Two dialog modules with the same name can be defined in a program, if one of them has the addition OUTPUT and the other has the addition INPUT. However, this is also not recommended for reasons of readability.
 
 Hint
 
-For reasons of data encapsulation, it is recommended that very few functions are implemented in dialog modules and that [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") are called instead.
+For reasons of data encapsulation, it is recommended that very few functions are implemented in dialog modules and that [procedures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocedure_glosry.htm "Glossary Entry") are called instead.
 
 Example
 

@@ -3,29 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abapassign_casting.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting.htm)
-- [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm)
-- [abencasting_imp_exp_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_imp_exp_abexa.htm)
-- [abencasting_obsolete_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_type_abexa.htm)
-- [abencasting_obsolete_dec_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_dec_abexa.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.932Z
-
----
-
 ### abapassign_casting.htm
-
-> **📖 Official SAP Documentation**: [abapassign_casting.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -33,13 +11,13 @@ Included pages: 6
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Assigning Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) →  [ASSIGN](javascript:call_link\('abapassign.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_assignments.htm) →  [Assigning Field Symbols](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenset_field_symbols.htm) →  [ASSIGN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ASSIGN%2C%20casting_spec%2C%20ABAPASSIGN_CASTING%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ASSIGN, casting\_spec
 
-[Short Reference](javascript:call_link\('abapassign_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_shortref.htm)
 
 Syntax
 
@@ -49,7 +27,7 @@ Syntax
               *|* *{*LIKE dobj*}*
               *|* *{**\[*TYPE p*\]* DECIMALS dec*}*
               *|* *{*TYPE HANDLE handle*}* *}* *}*
-  *|* *{* [obsolete\_casting](javascript:call_link\('abapassign_casting_obsolete.htm'\)) *}* ...
+  *|* *{* [obsolete\_casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting_obsolete.htm) *}* ...
 
 Alternatives:
 
@@ -58,12 +36,12 @@ Alternatives:
 
 Effect
 
-The specification casting\_spec defines the data type used to handle the memory area [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) assigned to the field symbol when a statement contains the field symbol in an operand position. Either the addition CASTING can be specified or nothing at all. Outside of classes, the obsolete variants [obsolete\_casting](javascript:call_link\('abapassign_casting_obsolete.htm'\)) are also possible.
+The specification casting\_spec defines the data type used to handle the memory area [mem\_area](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_mem_area.htm) assigned to the field symbol when a statement contains the field symbol in an operand position. Either the addition CASTING can be specified or nothing at all. Outside of classes, the obsolete variants [obsolete\_casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting_obsolete.htm) are also possible.
 
 The following restrictions apply:
 
--   In assignments of [table expressions](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)), only the first alternative can be used without further additions.
--   The CASTING addition cannot be used for [enumerated types](javascript:call_link\('abenenum_type_glosry.htm'\) "Glossary Entry"). This means that the assigned memory area must not be an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") and the specified data type must not be an enumerated type.
+-   In assignments of [table expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_mem_area_writable_exp.htm), only the first alternative can be used without further additions.
+-   The CASTING addition cannot be used for [enumerated types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_type_glosry.htm "Glossary Entry"). This means that the assigned memory area must not be an [enumerated object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenumerated_object_glosry.htm "Glossary Entry") and the specified data type must not be an enumerated type.
 
 Alternative 1   
 
@@ -71,11 +49,11 @@ Alternative 1  
 
 Effect
 
-If nothing is specified for casting\_spec, the field symbol inherits the data type of the data object used in [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) and the assigned memory area is handled accordingly. This data type must [match](javascript:call_link\('abentyping_check_general.htm'\)) the [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of the field symbol.
+If nothing is specified for casting\_spec, the field symbol inherits the data type of the data object used in [mem\_area](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_mem_area.htm) and the assigned memory area is handled accordingly. This data type must [match](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_check_general.htm) the [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_glosry.htm "Glossary Entry") of the field symbol.
 
 Example
 
-After the first assignment the field symbol has type c of length 3 and after the second assignment the field symbol has type string. The statement [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)) returns the corresponding values C 3 and g.
+After the first assignment the field symbol has type c of length 3 and after the second assignment the field symbol has type string. The statement [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_field.htm) returns the corresponding values C 3 and g.
 
 FIELD-SYMBOLS <fs> TYPE csequence.
 ASSIGN 'xxx' TO <fs>.
@@ -100,15 +78,15 @@ Additions:
 
 Effect
 
-If the addition CASTING is used in casting\_spec, the memory area is handled as if it had the type specified by CASTING. If CASTING is specified, the field symbol cannot be typed using the obsolete addition STRUCTURE of the statement [FIELD-SYMBOLS](javascript:call_link\('abapfield-symbols.htm'\)).
+If the addition CASTING is used in casting\_spec, the memory area is handled as if it had the type specified by CASTING. If CASTING is specified, the field symbol cannot be typed using the obsolete addition STRUCTURE of the statement [FIELD-SYMBOLS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfield-symbols.htm).
 
 Casting can either take place implicitly using the typing of the field symbol or explicitly using one of the additions TYPE, LIKE, or DECIMALS. In explicit castings, the field symbol can only be typed generically, not completely.
 
 Hints
 
--   If the data type determined by CASTING is [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") or if deep data objects are stored in the assigned memory area, the deep components must appear with exactly the same type and position in the assigned memory area. In particular, this means that individual [reference variables](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry") can be assigned to only one field symbol that is typed as a reference variable by the same [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry").
--   If the addition CASTING is used, the result of the statement ASSIGN may be platform-dependent. The internal [byte order](javascript:call_link\('abenbyteorder.htm'\)) of characters can, for example, be platform-dependent, which becomes apparent in a cast to a byte-like data type.
--   The memory area [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) must meet the [alignment requirements](javascript:call_link\('abenalignment.htm'\)) of the data type specified by the casting. When flat elementary data types are specified, for example, the memory address mem\_area must be divisible as follows:
+-   If the data type determined by CASTING is [deep](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeep_glosry.htm "Glossary Entry") or if deep data objects are stored in the assigned memory area, the deep components must appear with exactly the same type and position in the assigned memory area. In particular, this means that individual [reference variables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_variable_glosry.htm "Glossary Entry") can be assigned to only one field symbol that is typed as a reference variable by the same [static type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_type_glosry.htm "Glossary Entry").
+-   If the addition CASTING is used, the result of the statement ASSIGN may be platform-dependent. The internal [byte order](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyteorder.htm) of characters can, for example, be platform-dependent, which becomes apparent in a cast to a byte-like data type.
+-   The memory area [mem\_area](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_mem_area.htm) must meet the [alignment requirements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenalignment.htm) of the data type specified by the casting. When flat elementary data types are specified, for example, the memory address mem\_area must be divisible as follows:
     -   By 2 for the character-like data types c and n and the date/time types d and t.
     -   By 4 for the numeric data type i.
     -   By 8 for the numeric data types int8, f, and decfloat16.
@@ -127,7 +105,7 @@ If the addition CASTING is specified without further additions, the assigned mem
 
 Example
 
-Casting of the integer 333 as a byte field. Depending on the [byte order](javascript:call_link\('abenbyte_order_glosry.htm'\) "Glossary Entry"), the output is either 4D01 or 014D.
+Casting of the integer 333 as a byte field. Depending on the [byte order](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_order_glosry.htm "Glossary Entry"), the output is either 4D01 or 014D.
 
 TYPES hex4 TYPE x LENGTH 2.
 FIELD-SYMBOLS <fs> TYPE hex4.
@@ -162,9 +140,9 @@ Explicit specification of a data type after TYPE. The name of the type can be sp
     When the statement is executed, name is not evaluated until runtime in both cases.
     
 
-The assigned memory area is cast to the specified type. The data type specified after TYPE cannot be generic, apart from the built-in ABAP types c, n, p, and x. Furthermore, [table categories](javascript:call_link\('abaptypes_tabcat.htm'\)) and REF TO cannot be specified.
+The assigned memory area is cast to the specified type. The data type specified after TYPE cannot be generic, apart from the built-in ABAP types c, n, p, and x. Furthermore, [table categories](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_tabcat.htm) and REF TO cannot be specified.
 
-The field symbol <fs> can only be typed generically and not completely. The specified data type must [match](javascript:call_link\('abentyping_check.htm'\)) the generic [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of the field symbol, meaning that [castings](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry") are allowed to specialize the generic typing but not to make it more general.
+The field symbol <fs> can only be typed generically and not completely. The specified data type must [match](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_check.htm) the generic [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_glosry.htm "Glossary Entry") of the field symbol, meaning that [castings](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencast_casting_glosry.htm "Glossary Entry") are allowed to specialize the generic typing but not to make it more general.
 
 If a generic character-like type c or n is specified after TYPE, the length of the assigned memory area must be a multiple of the length of a character in the memory when the statement is executed.
 
@@ -199,7 +177,7 @@ Effect
 
 The following can be specified after LIKE:
 
--   A data object dobj according to the rules for [TYPES ...  LIKE](javascript:call_link\('abaptypes_referring.htm'\)). The assigned memory area is cast to the data type of the data object.
+-   A data object dobj according to the rules for [TYPES ...  LIKE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_referring.htm). The assigned memory area is cast to the data type of the data object.
 -   A generically typed field symbol.
     -   If a memory area is assigned to the field symbol, the data type used to handle the memory area is the object of the cast.
     -   If no memory area is assigned to the field symbol, a standard type resulting from the following rules is used:
@@ -218,14 +196,14 @@ The following can be specified after LIKE:
         
 -   A generically typed formal parameter.
     -   If an actual parameter is assigned to the formal parameter, the data type of this parameter is the object of the cast.
-    -   If no actual parameter is assigned to an optional formal parameter, its [associated](javascript:call_link\('abentyping_generic.htm'\)) [standard type](javascript:call_link\('abenstandard_type_glosry.htm'\) "Glossary Entry") is used.
+    -   If no actual parameter is assigned to an optional formal parameter, its [associated](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_generic.htm) [standard type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_type_glosry.htm "Glossary Entry") is used.
 
-The field symbol <fs> can only be typed generically and not completely. The specified data type must [match](javascript:call_link\('abentyping_check.htm'\)) the generic [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of the field symbol, meaning that [castings](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry") are allowed to specialize the generic typing but not to make it more general.
+The field symbol <fs> can only be typed generically and not completely. The specified data type must [match](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_check.htm) the generic [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_glosry.htm "Glossary Entry") of the field symbol, meaning that [castings](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencast_casting_glosry.htm "Glossary Entry") are allowed to specialize the generic typing but not to make it more general.
 
 Hints
 
 -   LIKE can be used to refer to the data objects in its own program, and also to the public attributes of global classes.
--   The standard type for generically typed field symbols specified after CASTING LIKE differs slightly from the [standard type](javascript:call_link\('abentyping_generic.htm'\)) for generic field symbols and formal parameters (length 1 not 4 if any and data are used and no standard type for generic table types).
+-   The standard type for generically typed field symbols specified after CASTING LIKE differs slightly from the [standard type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_generic.htm) for generic field symbols and formal parameters (length 1 not 4 if any and data are used and no standard type for generic table types).
 -   If a generically typed field symbol is specified after CASTING LIKE, a memory area should be assigned to it when the statement is executed.
 
 Example
@@ -248,9 +226,9 @@ Addition 4  
 
 Effect
 
-A numeric data object dec must be specified after DECIMALS. The assigned memory area is cast to the data type p, where the number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") is determined by the content of dec. The number of decimal places must not exceed the total number of [places](javascript:call_link\('abenplace_glosry.htm'\) "Glossary Entry"). TYPE does not need to be specified for DECIMALS. If TYPE is used, only the data type p, which is used anyway, can be specified.
+A numeric data object dec must be specified after DECIMALS. The assigned memory area is cast to the data type p, where the number of [decimal places](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendecimal_place_glosry.htm "Glossary Entry") is determined by the content of dec. The number of decimal places must not exceed the total number of [places](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenplace_glosry.htm "Glossary Entry"). TYPE does not need to be specified for DECIMALS. If TYPE is used, only the data type p, which is used anyway, can be specified.
 
-The field symbol <fs> can only be typed generically and not completely. The specified data type must [match](javascript:call_link\('abentyping_check.htm'\)) the generic [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of the field symbol, meaning that [castings](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry") are allowed to specialize the generic typing but not to make it more general.
+The field symbol <fs> can only be typed generically and not completely. The specified data type must [match](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_check.htm) the generic [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_glosry.htm "Glossary Entry") of the field symbol, meaning that [castings](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencast_casting_glosry.htm "Glossary Entry") are allowed to specialize the generic typing but not to make it more general.
 
 Example
 
@@ -271,11 +249,11 @@ Addition 5  
 
 Effect
 
-After TYPE HANDLE, a reference variable handle of the static type of the class CL\_ABAP\_DATADESCR or its subclasses is specified that points to a [type description object](javascript:call_link\('abentype_object_glosry.htm'\) "Glossary Entry") of the [RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry"). The assigned memory area is cast to the type of the field symbol.
+After TYPE HANDLE, a reference variable handle of the static type of the class CL\_ABAP\_DATADESCR or its subclasses is specified that points to a [type description object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_object_glosry.htm "Glossary Entry") of the [RTTS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry"). The assigned memory area is cast to the type of the field symbol.
 
-The field symbol <fs> can only be typed generically and not completely. The specified data type must [match](javascript:call_link\('abentyping_check.htm'\)) the generic [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of the field symbol, meaning that [castings](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry") are allowed to specialize the generic typing but not to make it more general.
+The field symbol <fs> can only be typed generically and not completely. The specified data type must [match](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_check.htm) the generic [typing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentyping_glosry.htm "Glossary Entry") of the field symbol, meaning that [castings](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencast_casting_glosry.htm "Glossary Entry") are allowed to specialize the generic typing but not to make it more general.
 
-The addition CASTING TYPE HANDLE cannot be used with the addition [RANGE](javascript:call_link\('abapassign_range.htm'\)).
+The addition CASTING TYPE HANDLE cannot be used with the addition [RANGE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_range.htm).
 
 Hint
 
@@ -296,17 +274,10 @@ ASSIGN sy-datlo TO  <fs> CASTING TYPE HANDLE struct.
 cl\_demo\_output=>display( <fs> ).
 
 Continue
-[Casting Examples](javascript:call_link\('abencasting_obsolete_abexas.htm'\))
+[Casting Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm)
 
-
-
-**📖 Source**: [abapassign_casting.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting.htm)
 
 ### abencasting_obsolete_abexas.htm
-
-> **📖 Official SAP Documentation**: [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -314,30 +285,23 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Assigning Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) →  [ASSIGN](javascript:call_link\('abapassign.htm'\)) →  [ASSIGN, casting\_spec](javascript:call_link\('abapassign_casting.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_assignments.htm) →  [Assigning Field Symbols](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenset_field_symbols.htm) →  [ASSIGN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign.htm) →  [ASSIGN, casting\_spec](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Casting%20Examples%2C%20ABENCASTING_OBSOLETE_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Casting Examples
 
--   [Field Symbols, Casting](javascript:call_link\('abencasting_imp_exp_abexa.htm'\))
--   [Field Symbols, Casting Built-In Data Types](javascript:call_link\('abencasting_obsolete_type_abexa.htm'\))
--   [Field Symbols, Casting Decimal Places](javascript:call_link\('abencasting_obsolete_dec_abexa.htm'\))
+-   [Field Symbols, Casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_imp_exp_abexa.htm)
+-   [Field Symbols, Casting Built-In Data Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_type_abexa.htm)
+-   [Field Symbols, Casting Decimal Places](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_dec_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Field Symbols, Casting](javascript:call_link\('abencasting_imp_exp_abexa.htm'\))
-![Example](exa.gif "Example") [Field Symbols, Casting Built-In Data Types](javascript:call_link\('abencasting_obsolete_type_abexa.htm'\))
-![Example](exa.gif "Example") [Field Symbols, Casting Decimal Places](javascript:call_link\('abencasting_obsolete_dec_abexa.htm'\))
+![Example](exa.gif "Example") [Field Symbols, Casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_imp_exp_abexa.htm)
+![Example](exa.gif "Example") [Field Symbols, Casting Built-In Data Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_type_abexa.htm)
+![Example](exa.gif "Example") [Field Symbols, Casting Decimal Places](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_dec_abexa.htm)
 
-
-
-**📖 Source**: [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm)
 
 ### abencasting_imp_exp_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencasting_imp_exp_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_imp_exp_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -345,7 +309,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Assigning Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) →  [ASSIGN](javascript:call_link\('abapassign.htm'\)) →  [ASSIGN, casting\_spec](javascript:call_link\('abapassign_casting.htm'\)) →  [Casting Examples](javascript:call_link\('abencasting_obsolete_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_assignments.htm) →  [Assigning Field Symbols](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenset_field_symbols.htm) →  [ASSIGN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign.htm) →  [ASSIGN, casting\_spec](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting.htm) →  [Casting Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Field%20Symbols%2C%20Casting%2C%20ABENCASTING_IMP_EXP_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -401,14 +365,7 @@ An implicit casting is performed in the first part of the method main. The field
 An explicit casting is performed in the second part of the method main. The field symbol <fs2> is completely generic. A cast is performed to the local type t\_date for the field sy-datum using the addition CASTING of the statement ASSIGN. The field symbol <fs2> can now be handled like a structure but does not recognize components. For this reason, it must be assigned to another field symbol <fs3>, component by component.
 
 
-
-**📖 Source**: [abencasting_imp_exp_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_imp_exp_abexa.htm)
-
 ### abencasting_obsolete_type_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencasting_obsolete_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_type_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -416,7 +373,7 @@ An explicit casting is performed in the second part of the method main. The fiel
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Assigning Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) →  [ASSIGN](javascript:call_link\('abapassign.htm'\)) →  [ASSIGN, casting\_spec](javascript:call_link\('abapassign_casting.htm'\)) →  [Casting Examples](javascript:call_link\('abencasting_obsolete_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_assignments.htm) →  [Assigning Field Symbols](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenset_field_symbols.htm) →  [ASSIGN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign.htm) →  [ASSIGN, casting\_spec](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting.htm) →  [Casting Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Field%20Symbols%2C%20Casting%20Built-In%20Data%20Types%2C%20ABENCASTING_OBSOLETE_TYPE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20fo
 r%20improvement:)
@@ -459,17 +416,10 @@ Description  
 
 This example demonstrates how casting works on built-in data types. First the character string txt is assigned to the field symbol <fs> without casting. Afterwards, txt is assigned to <fs> using casting on types i and x. The second output value depends on the byte order of the current platform. The paired numbers in the last output line represent the hexadecimal code for the character in txt and depend on the character representation on the current AS instance.
 
-The section of the method that has been commented out also shows the syntax for the respective [obsolete casting](javascript:call_link\('abapassign_casting_obsolete.htm'\)).
+The section of the method that has been commented out also shows the syntax for the respective [obsolete casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting_obsolete.htm).
 
-
-
-**📖 Source**: [abencasting_obsolete_type_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_type_abexa.htm)
 
 ### abencasting_obsolete_dec_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencasting_obsolete_dec_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_dec_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -477,7 +427,7 @@ The section of the method that has been commented out also shows the syntax for 
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Assigning Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) →  [ASSIGN](javascript:call_link\('abapassign.htm'\)) →  [ASSIGN, casting\_spec](javascript:call_link\('abapassign_casting.htm'\)) →  [Casting Examples](javascript:call_link\('abencasting_obsolete_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_assignments.htm) →  [Assigning Field Symbols](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenset_field_symbols.htm) →  [ASSIGN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign.htm) →  [ASSIGN, casting\_spec](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting.htm) →  [Casting Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Field%20Symbols%2C%20Casting%20Decimal%20Places%2C%20ABENCASTING_OBSOLETE_DEC_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impr
 ovement:)
@@ -531,20 +481,10 @@ Description  
 
 The three fields of type p all have two decimal places. The field symbols <f1> and <f2> are given one or four decimal places. The numeric values are different for the field symbols and the assigned fields.
 
-The section of the method that has been commented out also shows the syntax for the respective [obsolete casting](javascript:call_link\('abapassign_casting_obsolete.htm'\)).
+The section of the method that has been commented out also shows the syntax for the respective [obsolete casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting_obsolete.htm).
 
-
-
-**📖 Source**: [abencasting_obsolete_dec_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_dec_abexa.htm)
 
 ### abencasting_obsolete_abexas.htm
-
-> **📖 Official SAP Documentation**: [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencasting_obsolete_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_abexas.htm)
-
 
   
 
@@ -552,17 +492,17 @@ The section of the method that has been commented out also shows the syntax for 
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Assigning Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) →  [ASSIGN](javascript:call_link\('abapassign.htm'\)) →  [ASSIGN, casting\_spec](javascript:call_link\('abapassign_casting.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreference_assignments.htm) →  [Assigning Field Symbols](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenset_field_symbols.htm) →  [ASSIGN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign.htm) →  [ASSIGN, casting\_spec](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign_casting.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Casting%20Examples%2C%20ABENCASTING_OBSOLETE_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Casting Examples
 
--   [Field Symbols, Casting](javascript:call_link\('abencasting_imp_exp_abexa.htm'\))
--   [Field Symbols, Casting Built-In Data Types](javascript:call_link\('abencasting_obsolete_type_abexa.htm'\))
--   [Field Symbols, Casting Decimal Places](javascript:call_link\('abencasting_obsolete_dec_abexa.htm'\))
+-   [Field Symbols, Casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_imp_exp_abexa.htm)
+-   [Field Symbols, Casting Built-In Data Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_type_abexa.htm)
+-   [Field Symbols, Casting Decimal Places](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_dec_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Field Symbols, Casting](javascript:call_link\('abencasting_imp_exp_abexa.htm'\))
-![Example](exa.gif "Example") [Field Symbols, Casting Built-In Data Types](javascript:call_link\('abencasting_obsolete_type_abexa.htm'\))
-![Example](exa.gif "Example") [Field Symbols, Casting Decimal Places](javascript:call_link\('abencasting_obsolete_dec_abexa.htm'\))
+![Example](exa.gif "Example") [Field Symbols, Casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_imp_exp_abexa.htm)
+![Example](exa.gif "Example") [Field Symbols, Casting Built-In Data Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_type_abexa.htm)
+![Example](exa.gif "Example") [Field Symbols, Casting Decimal Places](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_obsolete_dec_abexa.htm)

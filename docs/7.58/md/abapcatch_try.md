@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [TRY](javascript:call_link\('abaptry.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexceptions.htm) →  [TRY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptry.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CATCH%2C%20ABAPCATCH_TRY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CATCH
 
-[Short Reference](javascript:call_link\('abaptry_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptry_shortref.htm)
 
 Syntax
 
@@ -23,7 +23,7 @@ Additions:
 
 Effect
 
-Introduces a CATCH block of a [TRY](javascript:call_link\('abaptry.htm'\)) control structure in which exceptions can be handled.
+Introduces a CATCH block of a [TRY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptry.htm) control structure in which exceptions can be handled.
 
 A CATCH block is an exception handler, meaning the program logic that is executed whenever the associated exception is raised in the TRY block of the same TRY control structure.
 
@@ -49,7 +49,7 @@ ENDTRY.
 
 Executable Example
 
-[Exceptions, CATCH](javascript:call_link\('abencatch_exception_abexa.htm'\))
+[Exceptions, CATCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatch_exception_abexa.htm)
 
 Addition 1   
 
@@ -59,24 +59,24 @@ Effect
 
 If the addition BEFORE UNWIND is specified, the context in which the exception was raised is not deleted until the CATCH block is executed. Instead, the context, including all called procedures and their local data, is preserved during the execution of the CATCH block.
 
--   If no [RESUME](javascript:call_link\('abapresume.htm'\)) statement is executed in the CATCH block, the context is deleted when the CATCH block is exited.
--   If a [RESUME](javascript:call_link\('abapresume.htm'\)) statement is executed in the CATCH block, processing resumes after the place that raised the exception.
+-   If no [RESUME](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapresume.htm) statement is executed in the CATCH block, the context is deleted when the CATCH block is exited.
+-   If a [RESUME](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapresume.htm) statement is executed in the CATCH block, processing resumes after the place that raised the exception.
 
-Any [CLEANUP](javascript:call_link\('abapcleanup.htm'\)) blocks are always executed directly before their context is deleted. This means that when BEFORE UNWIND is used, after exception handling, and in all other cases before the exception handling. In a CATCH block with BEFORE UNWIND, no statements can be executed in which the context is deleted without executing any CLEANUP blocks.
+Any [CLEANUP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcleanup.htm) blocks are always executed directly before their context is deleted. This means that when BEFORE UNWIND is used, after exception handling, and in all other cases before the exception handling. In a CATCH block with BEFORE UNWIND, no statements can be executed in which the context is deleted without executing any CLEANUP blocks.
 
--   The statements [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)), [CALL DIALOG](javascript:call_link\('abapcall_dialog.htm'\)), [SUBMIT](javascript:call_link\('abapcall_transaction.htm'\)), [STOP](javascript:call_link\('abapstop.htm'\)), [REJECT](javascript:call_link\('abapreject.htm'\)), [CHECK SELECT-OPTIONS](javascript:call_link\('abapcheck_select-options.htm'\)), and the obsolete variant of [LEAVE](javascript:call_link\('abapleave-.htm'\)) are forbidden by the syntax, as they might leave the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
--   Statements such as [LEAVE TO TRANSACTION](javascript:call_link\('abapleave_to_transaction.htm'\)), which are statically known to leave the internal session, are allowed. In such cases, exception handling is properly terminated while executing the CLEANUP blocks before the statement is executed.
--   Procedure calls are allowed. However, if the context is deleted during such a procedure call, a runtime error EXCP\_HANDLER\_FAILED\_TO\_UNWIND occurs. This is also the case if a statement is executed here that is allowed directly in the CATCH block. For example, [LEAVE TO TRANSACTION](javascript:call_link\('abapleave_to_transaction.htm'\)) can be executed directly in the CATCH block, but not in a procedure that is called there, because otherwise the context would be deleted without executing the CLEANUP blocks.
--   If the [message type](javascript:call_link\('abenmessage_type_glosry.htm'\) "Glossary Entry") is dynamically specified for the [MESSAGE](javascript:call_link\('abapmessage.htm'\)) statement for sending messages, the ABAP runtime framework behaves as if exception handling is to be exited. The context is deleted during the execution of the CLEANUP blocks. However, if the system returns to the CATCH block after the MESSAGE statement has been executed, which can be the case with message types I and S, for example, the exception CX\_SY\_ILLEGAL\_HANDLER is raised.
+-   The statements [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transaction.htm), [CALL DIALOG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_dialog.htm), [SUBMIT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transaction.htm), [STOP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstop.htm), [REJECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreject.htm), [CHECK SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcheck_select-options.htm), and the obsolete variant of [LEAVE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave-.htm) are forbidden by the syntax, as they might leave the [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry").
+-   Statements such as [LEAVE TO TRANSACTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave_to_transaction.htm), which are statically known to leave the internal session, are allowed. In such cases, exception handling is properly terminated while executing the CLEANUP blocks before the statement is executed.
+-   Procedure calls are allowed. However, if the context is deleted during such a procedure call, a runtime error EXCP\_HANDLER\_FAILED\_TO\_UNWIND occurs. This is also the case if a statement is executed here that is allowed directly in the CATCH block. For example, [LEAVE TO TRANSACTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave_to_transaction.htm) can be executed directly in the CATCH block, but not in a procedure that is called there, because otherwise the context would be deleted without executing the CLEANUP blocks.
+-   If the [message type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_type_glosry.htm "Glossary Entry") is dynamically specified for the [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) statement for sending messages, the ABAP runtime framework behaves as if exception handling is to be exited. The context is deleted during the execution of the CLEANUP blocks. However, if the system returns to the CATCH block after the MESSAGE statement has been executed, which can be the case with message types I and S, for example, the exception CX\_SY\_ILLEGAL\_HANDLER is raised.
 
 When combined with INTO, the addition BEFORE UNWIND sets the attribute IS\_RESUMABLE of the exception object and the preceding exception objects of a chaining with the attribute PREVIOUS. Up until the first resumable raised exception, IS\_RESUMABLE is set to the value of abap\_true and is otherwise set to the value of ABAP\_FALSE.
 
 Hints
 
 -   If addition BEFORE UNWIND is not specified, the context is deleted before the CATCH block is executed.
--   The statement [RESUME](javascript:call_link\('abapresume.htm'\)) can be used only when handling a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry") and only in a CATCH block for which the addition BEFORE UNWIND is specified. This is the only case where the context of the exception is not deleted when the CATCH block is exited.
+-   The statement [RESUME](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapresume.htm) can be used only when handling a [resumable exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenresumable_exception_glosry.htm "Glossary Entry") and only in a CATCH block for which the addition BEFORE UNWIND is specified. This is the only case where the context of the exception is not deleted when the CATCH block is exited.
 -   Resumable exceptions can also be handled in CATCH blocks without the addition BEFORE UNWIND. In this case, the context of the exception is deleted before the handling process and the statement RESUME cannot be specified.
--   Use of the addition BEFORE UNWIND for CATCH is only required when the statement [RESUME](javascript:call_link\('abapresume.htm'\)) is used. However, it is allowed in principle during exception handling if the context of the exception is to be evaluated before any cleanup activities in [CLEANUP](javascript:call_link\('abapcleanup.htm'\)) blocks. This is useful, for example, when handling resource bottlenecks if releasing resources in CLEANUP blocks would change the context and thus make the calculation of the free resources in the exception handler meaningless. Other than for logging purposes, evaluating the part of the context that is only of interest locally for implementing the incorrect procedure is not recommended.
+-   Use of the addition BEFORE UNWIND for CATCH is only required when the statement [RESUME](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapresume.htm) is used. However, it is allowed in principle during exception handling if the context of the exception is to be evaluated before any cleanup activities in [CLEANUP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcleanup.htm) blocks. This is useful, for example, when handling resource bottlenecks if releasing resources in CLEANUP blocks would change the context and thus make the calculation of the free resources in the exception handler meaningless. Other than for logging purposes, evaluating the part of the context that is only of interest locally for implementing the incorrect procedure is not recommended.
 -   In a procedure called up using BEFORE UNWIND during a CATCH block, each MESSAGE statement that sends a message causes the runtime error EXCP\_HANDLER\_FAILED\_TO\_UNWIND.
 
 Example
@@ -120,11 +120,11 @@ Effect
 If the addition INTO is specified, a reference to the exception object is stored in oref. The following can be specified for oref:
 
 -   An existing object reference variable oref, whose static type must be more general or as general as the most general of the specified exception classes.
--   An inline declaration with [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)). The static type of the declared object reference variable is this class for a specified exception class. If a common superclass is listed for multiple exception classes, the superclass is the static type of oref; otherwise it is CX\_ROOT.
+-   An inline declaration with [DATA(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_inline.htm) or [FINAL(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfinal_inline.htm). The static type of the declared object reference variable is this class for a specified exception class. If a common superclass is listed for multiple exception classes, the superclass is the static type of oref; otherwise it is CX\_ROOT.
 
 The object reference variable can be used to access the attributes and methods of the exception object.
 
-If the exception was raised with [RAISE RESUMABLE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) and the addition BEFORE UNWIND is also specified, the attribute IS\_RESUMABLE of the current exception object and any preceding exception objects referenced in the attribute PREVIOUS is, until the first resumable raised exception, set to the value of ABAP\_TRUE. In all other exception objects, the attribute IS\_RESUMABLE is set to the value of ABAP\_FALSE.
+If the exception was raised with [RAISE RESUMABLE EXCEPTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm) and the addition BEFORE UNWIND is also specified, the attribute IS\_RESUMABLE of the current exception object and any preceding exception objects referenced in the attribute PREVIOUS is, until the first resumable raised exception, set to the value of ABAP\_TRUE. In all other exception objects, the attribute IS\_RESUMABLE is set to the value of ABAP\_FALSE.
 
 Hint
 

@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Elements](javascript:call_link\('abenabap_dynpro_elements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros.htm) →  [dynpro - Elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpro_elements.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20dynpro%20-%20Screen%20Layout%20and%20Screen%20Elements%2C%20ABENABAP_DYNPROS_SCREEN%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impr
 ovement:)
 
 dynpro - Screen Layout and Screen Elements
 
-The [screen layout](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") is created in the [Layout Editor](javascript:call_link\('abenlayout_editor_glosry.htm'\) "Glossary Entry") in the [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry"). The screen layout of the program DEMO\_DYNPRO contains all possible screen elements. Above the screen layout, the menu bar, standard toolbar, title bar, and the application toolbar can be seen. The status bar is located at the bottom.
+The [screen layout](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen_glosry.htm "Glossary Entry") of a [dynpro](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm "Glossary Entry") is created in the [Layout Editor](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlayout_editor_glosry.htm "Glossary Entry") in the [Screen Painter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen_painter_glosry.htm "Glossary Entry"). The screen layout of the program DEMO\_DYNPRO contains all possible screen elements. Above the screen layout, the menu bar, standard toolbar, title bar, and the application toolbar can be seen. The status bar is located at the bottom.
 
 The following table summarizes the screen elements you can use:
 
@@ -77,25 +77,25 @@ All screen elements have a set of attributes, some of which are set automaticall
 
 The following subtopics are covered in this section:
 
--   [dynpro - Status Icons](javascript:call_link\('abendynpro_status_icons.htm'\))
--   [dynpro - Context Menus](javascript:call_link\('abendynpro_context_menus.htm'\))
--   [dynpro - Subscreens](javascript:call_link\('abendynp_subscreen.htm'\))
--   [dynpro - Tabstrip Controls](javascript:call_link\('abendynp_tabstrip.htm'\))
--   [dynpro - Splitter Controls](javascript:call_link\('abendynp_splitter_control_spcl.htm'\))
--   [dynpro - Custom Controls](javascript:call_link\('abendynpro_custom_controls.htm'\))
--   [dynpro - Table Controls](javascript:call_link\('abendynp_table_controls.htm'\))
--   [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\))
+-   [dynpro - Status Icons](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_status_icons.htm)
+-   [dynpro - Context Menus](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_context_menus.htm)
+-   [dynpro - Subscreens](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynp_subscreen.htm)
+-   [dynpro - Tabstrip Controls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynp_tabstrip.htm)
+-   [dynpro - Splitter Controls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynp_splitter_control_spcl.htm)
+-   [dynpro - Custom Controls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_custom_controls.htm)
+-   [dynpro - Table Controls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynp_table_controls.htm)
+-   [dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen_elements_abexas.htm)
 
 Further Information
 
 [Screen Painter (Help Portal Documentation)](https://help.sap.com/docs/ABAP_PLATFORM_NEW/bd833c8355f34e96a6e83096b38bf192/d1801b50454211d189710000e8322d00)
 
 Continue
-[dynpro - Status Icons](javascript:call_link\('abendynpro_status_icons.htm'\))
-[dynpro - Context Menus](javascript:call_link\('abendynpro_context_menus.htm'\))
-[dynpro - Subscreens](javascript:call_link\('abendynp_subscreen.htm'\))
-[dynpro - Tabstrip Controls](javascript:call_link\('abendynp_tabstrip.htm'\))
-[dynpro - Splitter Controls](javascript:call_link\('abendynp_splitter_control_spcl.htm'\))
-[dynpro - Custom Controls](javascript:call_link\('abendynpro_custom_controls.htm'\))
-[dynpro - Table Controls](javascript:call_link\('abendynp_table_controls.htm'\))
-[dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\))
+[dynpro - Status Icons](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_status_icons.htm)
+[dynpro - Context Menus](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_context_menus.htm)
+[dynpro - Subscreens](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynp_subscreen.htm)
+[dynpro - Tabstrip Controls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynp_tabstrip.htm)
+[dynpro - Splitter Controls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynp_splitter_control_spcl.htm)
+[dynpro - Custom Controls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_custom_controls.htm)
+[dynpro - Table Controls](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynp_table_controls.htm)
+[dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscreen_elements_abexas.htm)

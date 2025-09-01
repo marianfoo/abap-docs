@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  C
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  C
 
 CLASS - DEFERRED, LOAD - Quick reference
 
-[Reference](javascript:call_link\('abapclass_deferred.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_deferred.htm)
 
 Syntax
 
@@ -23,5 +23,5 @@ Additions
 -   DEFERRED *\[*PUBLIC*\]*
     Makes a local or global class public before it is actually declared in the program.
     
--   [LOAD](javascript:call_link\('abapclass_interface_load.htm'\))
+-   [LOAD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_interface_load.htm)
     Obsolete: Previously loaded a global class from the class library.

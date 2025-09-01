@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [APC - ABAP Push Channels](javascript:call_link\('abenapc.htm'\)) →  [Examples of APC](javascript:call_link\('abenapc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_channels.htm) →  [APC - ABAP Push Channels](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapc.htm) →  [Examples of APC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapc_abexas.htm) → 
 
 APC, Creating a Detached Client
 
@@ -122,16 +122,16 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates how an ABAP program can create a [detached APC client](javascript:call_link\('abenapc.htm'\)) for the WebSocket protocol.
+This example demonstrates how an ABAP program can create a [detached APC client](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapc.htm) for the WebSocket protocol.
 
 -   The local class apc\_handler, which implements the interface IF\_APC\_WSP\_EVENT\_HANDLER\_PCP, is used as the handler class. The method on\_open gets a connection handle for the connection. The other methods are not needed.
 
--   CL\_APC\_WSP\_CLIENT\_CONN\_MANAGER is used to create a detached client object for the current AS ABAP as APC. It is possible to select which of the two ABAP push channels, DEMO\_APC\_PCP or DEMO\_APC\_PCP\_STATEFUL, from the executable example [AS ABAP as WebSocket Server](javascript:call_link\('abenapc_abexa.htm'\)) is used. The server can also be instructed to send its messages using [ABAP messaging channels](javascript:call_link\('abenamc.htm'\)). The method CONNECT\_AND\_DETACH is used to create a detached client for the ABAP push channel.
+-   CL\_APC\_WSP\_CLIENT\_CONN\_MANAGER is used to create a detached client object for the current AS ABAP as APC. It is possible to select which of the two ABAP push channels, DEMO\_APC\_PCP or DEMO\_APC\_PCP\_STATEFUL, from the executable example [AS ABAP as WebSocket Server](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapc_abexa.htm) is used. The server can also be instructed to send its messages using [ABAP messaging channels](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamc.htm). The method CONNECT\_AND\_DETACH is used to create a detached client for the ABAP push channel.
 
 -   The connection handler obtained by the method on\_open of the handler class can either be displayed or used immediately in the program to create an attached client for the detached client.
 
--   A displayed connection handle can be used in the program of the executable [attached client](javascript:call_link\('abenapc_attached_client_abexa.htm'\)) example.
+-   A displayed connection handle can be used in the program of the executable [attached client](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapc_attached_client_abexa.htm) example.
 
--   If not, the method ATTACH of the class CL\_APC\_WSP\_CLIENT\_CONN\_MANAGER is used to create an attached client object for the connection handle. Its message manager is then used to create a message in [PCP format](javascript:call_link\('abenpcp.htm'\)) and send it.
+-   If not, the method ATTACH of the class CL\_APC\_WSP\_CLIENT\_CONN\_MANAGER is used to create an attached client object for the connection handle. Its message manager is then used to create a message in [PCP format](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpcp.htm) and send it.
 
-A breakpoint in the method ON\_MESSAGE of the APC handler class CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP can be used to monitor the arrival and processing of the message (it is not possible to respond to messages from the same class here). If the message is sent using [AMC](javascript:call_link\('abenamc.htm'\)), the response from the server is received by all associated AMC receivers. The attached client cannot itself wait for the response.
+A breakpoint in the method ON\_MESSAGE of the APC handler class CL\_APC\_WSP\_EXT\_DEMO\_APC\_PCP can be used to monitor the arrival and processing of the message (it is not possible to respond to messages from the same class here). If the message is sent using [AMC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamc.htm), the response from the server is received by all associated AMC receivers. The attached client cannot itself wait for the response.

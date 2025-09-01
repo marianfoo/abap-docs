@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) →  [SHIFT](javascript:call_link\('abapshift.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_processing_statements.htm) →  [SHIFT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapshift.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SHIFT%2C%20places%2C%20ABAPSHIFT_PLACES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SHIFT, places
 
-[Short Reference](javascript:call_link\('abapshift_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapshift_shortref.htm)
 
 Syntax
 
@@ -27,7 +27,7 @@ Variant 1  
 
 Effect
 
-The content of dobj is shifted to the left or right by the positions specified in num, depending on the specification in [direction](javascript:call_link\('abapshift_direction.htm'\)). num is a [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") of operand type i. If the content of num is less than or equal to 0, the content of the data object dobj remains unchanged.
+The content of dobj is shifted to the left or right by the positions specified in num, depending on the specification in [direction](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapshift_direction.htm). num is a [numeric expression position](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") of operand type i. If the content of num is less than or equal to 0, the content of the data object dobj remains unchanged.
 
 Example
 
@@ -44,11 +44,11 @@ Variant 2  
 
 Effect
 
-In the data object dobj, the first substring is searched for whose content matches that of substring. The search is case-sensitive. Depending on the specification in [direction](javascript:call_link\('abapshift_direction.htm'\)), the content of the data object dobj is shifted to the left or right until the byte string or character string contained in substring is left-aligned or right-aligned at the position that is at the beginning or end of the data object dobj before the shift.
+In the data object dobj, the first substring is searched for whose content matches that of substring. The search is case-sensitive. Depending on the specification in [direction](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapshift_direction.htm), the content of the data object dobj is shifted to the left or right until the byte string or character string contained in substring is left-aligned or right-aligned at the position that is at the beginning or end of the data object dobj before the shift.
 
 substring expects a character-like or byte-like data object. If substring is an empty string, the place in front of the first character or byte is found. There is no shift to the left but a shift by the entire length of dobj to the right.
 
-In character string processing, substring is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry"); in data objects, substring with a fixed length respects the trailing blanks.
+In character string processing, substring is a [character-like expression position](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry"); in data objects, substring with a fixed length respects the trailing blanks.
 
 System Fields
 

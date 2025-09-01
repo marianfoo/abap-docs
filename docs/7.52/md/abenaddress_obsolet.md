@@ -4,17 +4,17 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Declarations](javascript:call_link\('abenobsolete_declarations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobsolete_declarations.htm) → 
 
 Declaration and Loading
 
--   [TYPE-POOLS](javascript:call_link\('abaptype-pools.htm'\))
+-   [TYPE-POOLS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptype-pools.htm)
 
--   [CLASS, INTERFACE - LOAD](javascript:call_link\('abapclass_interface_load.htm'\))
+-   [CLASS, INTERFACE - LOAD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_interface_load.htm)
 
--   [FIELDS](javascript:call_link\('abapfields.htm'\))
+-   [FIELDS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfields.htm)
 
 Continue
-[TYPE-POOLS](javascript:call_link\('abaptype-pools.htm'\))
-[CLASS, INTERFACE - LOAD](javascript:call_link\('abapclass_interface_load.htm'\))
-[FIELDS](javascript:call_link\('abapfields.htm'\))
+[TYPE-POOLS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptype-pools.htm)
+[CLASS, INTERFACE - LOAD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_interface_load.htm)
+[FIELDS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfields.htm)

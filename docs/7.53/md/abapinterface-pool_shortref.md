@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  I
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  I
 
 INTERFACE-POOL - Quick reference
 
-[Reference](javascript:call_link\('abapinterface-pool.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterface-pool.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ INTERFACE-POOL.
 
 Effect
 
-Introduces an [interface pool](javascript:call_link\('abeninterface_pool_glosry.htm'\) "Glossary Entry").
+Introduces an [interface pool](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_pool_glosry.htm "Glossary Entry").

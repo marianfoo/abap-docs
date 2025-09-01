@@ -3,30 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abencl_demo_output.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output.htm)
-- [abencl_demo_output_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output_abexa.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:29.002Z
-
----
-
 ### abencl_demo_output.htm
-
-> **📖 Official SAP Documentation**: [abencl_demo_output.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abencl_demo_output.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,13 +11,13 @@ Included pages: 2
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screens.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Example%20Output%20with%20CL_DEMO_OUTPUT%2C%20ABENCL_DEMO_OUTPUT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Example Output with CL\_DEMO\_OUTPUT
 
-Class CL\_DEMO\_OUTPUT is provided by the ABAP Keyword Documentation to create simple outputs of data in example programs without the need of [classic lists](javascript:call_link\('abenabap_dynpro_list.htm'\)). It is not intended for production usage. It can be used in demonstration programs, local test programs or for temporary testing in production programs. It must not be used in production programs.
+Class CL\_DEMO\_OUTPUT is provided by the ABAP Keyword Documentation to create simple outputs of data in example programs without the need of [classic lists](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpro_list.htm). It is not intended for production usage. It can be used in demonstration programs, local test programs or for temporary testing in production programs. It must not be used in production programs.
 
 The class can be used via static methods and instance methods. For using instance methods, interface IF\_DEMO\_OUTPUT can be used. The following methods create output in an output stream:
 
@@ -62,32 +39,18 @@ Hints
 
 -   CL\_DEMO\_OUTPUT is based on a class CL\_DEMO\_OUTPUT\_STREAM that collects the data in an internal table that is converted to an XML file and raises an event on completion. Special handler classes convert the XML file to HTML, plain text, or JSON depending on the output mode.
 -   CL\_DEMO\_OUTPUT is widely used in the example classes and programs of the ABAP Keyword Documentation.
--   CL\_DEMO\_OUTPUT is integrated into the ABAP console of [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") that can be filled by executing classes (inheriting from CL\_DEMO\_CLASSRUN or implementing IF\_OO\_ADT\_CLASSRUN) or executable programs by F9.
--   There is also a class CL\_DEMO\_INPUT for rudimentary inputs. But this class is not as powerful as [selection screens](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry").
+-   CL\_DEMO\_OUTPUT is integrated into the ABAP console of [ADT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry") that can be filled by executing classes (inheriting from CL\_DEMO\_CLASSRUN or implementing IF\_OO\_ADT\_CLASSRUN) or executable programs by F9.
+-   There is also a class CL\_DEMO\_INPUT for rudimentary inputs. But this class is not as powerful as [selection screens](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselection_screen_glosry.htm "Glossary Entry").
 
 Executable Example
 
-[Usage of CL\_DEMO\_OUTPUT](javascript:call_link\('abencl_demo_output_abexa.htm'\))
+[Usage of CL\_DEMO\_OUTPUT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Usage of CL\_DEMO\_OUTPUT](javascript:call_link\('abencl_demo_output_abexa.htm'\))
+![Example](exa.gif "Example") [Usage of CL\_DEMO\_OUTPUT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output_abexa.htm)
 
-
-
-**📖 Source**: [abencl_demo_output.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output.htm)
 
 ### abencl_demo_output_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencl_demo_output_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abencl_demo_output_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencl_demo_output_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output_abexa.htm)
-
 
   
 
@@ -95,7 +58,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Example Output with CL\_DEMO\_OUTPUT](javascript:call_link\('abencl_demo_output.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screens.htm) →  [Example Output with CL\_DEMO\_OUTPUT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Usage%20of%20CL_DEMO_OUTPUT%2C%20ABENCL_DEMO_OUTPUT_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -214,4 +177,4 @@ ENDCLASS.
 
 Description   
 
-The class shows the output produced by [CL\_DEMO\_OUTPUT](javascript:call_link\('abencl_demo_output.htm'\)) for some ABAP data types. The output mode can be entered. More usage of CL\_DEMO\_OUTPUT can be found in many examples of the ABAP Keyword Documentation.
+The class shows the output produced by [CL\_DEMO\_OUTPUT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_demo_output.htm) for some ABAP data types. The output mode can be entered. More usage of CL\_DEMO\_OUTPUT can be found in many examples of the ABAP Keyword Documentation.

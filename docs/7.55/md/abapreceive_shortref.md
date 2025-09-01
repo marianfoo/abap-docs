@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  R
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  R
 
 RECEIVE - Quick reference
 
-[Reference](javascript:call_link\('abapreceive.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreceive.htm)
 
 Syntax
 
@@ -23,23 +23,23 @@ RECEIVE RESULTS FROM FUNCTION func
 
 Effect
 
-Is sent, in a callback routine, the results of an [asynchronous RFC](javascript:call_link\('abenasynchronous_rfc_glosry.htm'\) "Glossary Entry").
+Is sent, in a callback routine, the results of an [asynchronous RFC](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasynchronous_rfc_glosry.htm "Glossary Entry").
 
 Additions
 
--   [KEEPING TASK](javascript:call_link\('abapreceive.htm'\))
+-   [KEEPING TASK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreceive.htm)
     Prevents the RFC connection from being disconnected after results have been inherited.
     
 
--   [IMPORTING  p1 = a1 p2 = a2 ...](javascript:call_link\('abapreceive_para.htm'\))
+-   [IMPORTING  p1 = a1 p2 = a2 ...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreceive_para.htm)
     Passes output parameters p1, p2, ... to actual parameters a1, a2, ...
     
 
--   [TABLES  t1 = itab1 t2 = itab2 ...](javascript:call_link\('abapreceive_para.htm'\))
+-   [TABLES  t1 = itab1 t2 = itab2 ...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreceive_para.htm)
     Assigns internal tables itab1, itab2, ... to table parameters t1, t2 (...and so on).
     
 
--   [EXCEPTIONS](javascript:call_link\('abapreceive_para.htm'\))
+-   [EXCEPTIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreceive_para.htm)
     Enables the handling of non-class-based exceptions:
     exc1 = n1 exc2 = n2 ... - Assigns numbers n1, n2, ... to the classic exceptions exc1, exc2, ... for the return code sy-subrc.
     system\_failure, communication\_failure (handles special exceptions in RFC including inheritance of the first line of the short dump after smess or cmess)

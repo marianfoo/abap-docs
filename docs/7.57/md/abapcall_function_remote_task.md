@@ -9,7 +9,7 @@ D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CALL FUNCTION, IN REMOTE TASK
 
-[Short Reference](javascript:call_link\('abapcall_function_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_function_shortref.htm)
 
 Syntax
 

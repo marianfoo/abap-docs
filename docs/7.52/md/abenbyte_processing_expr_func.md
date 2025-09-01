@@ -4,16 +4,16 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) → 
 
 Expressions and Functions for Byte String Processing
 
-Expressions and functions for byte string processing can be processed at many [operand positions](javascript:call_link\('abenexpression_positions.htm'\)).
+Expressions and functions for byte string processing can be processed at many [operand positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpression_positions.htm).
 
--   [Bit expressions](javascript:call_link\('abapcompute_bit.htm'\))
+-   [Bit expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_bit.htm)
 
--   [Binary functions](javascript:call_link\('abenbinary_functions.htm'\))
+-   [Binary functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbinary_functions.htm)
 
 Continue
-[bit\_exp - Bit Expressions](javascript:call_link\('abapcompute_bit.htm'\))
-[Byte String Functions](javascript:call_link\('abenbinary_functions.htm'\))
+[bit\_exp - Bit Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_bit.htm)
+[Byte String Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbinary_functions.htm)

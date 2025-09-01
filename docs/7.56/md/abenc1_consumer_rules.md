@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2022 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Rules for Strict ABAP](javascript:call_link\('abenabap_strict_rules.htm'\)) →  [Working with released APIs](javascript:call_link\('abenrestricted_apis.htm'\)) →  [Compatibility Rules for the C1 Contract](javascript:call_link\('abenc1_compatibility_rules.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Rules for Strict ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_strict_rules.htm) →  [Working with released APIs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrestricted_apis.htm) →  [Compatibility Rules for the C1 Contract](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_compatibility_rules.htm) → 
 
 C1 Contract Rules for API Consumers
 
-The [provider rules](javascript:call_link\('abenc1_provider_rules.htm'\)) for objects with C1 contract ensure that released objects are changed only in a very restricted way and help to avoid errors and interruptions after an SAP upgrade. Nevertheless, the rules do not prescribe full downward compatibility and leave some room for necessary enhancements to released APIs. Therefore, users of released APIs still have to consider the allowed compatible changes and access the APIs in such a way that the following errors and interruptions are avoided:
+The [provider rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenc1_provider_rules.htm) for objects with C1 contract ensure that released objects are changed only in a very restricted way and help to avoid errors and interruptions after an SAP upgrade. Nevertheless, the rules do not prescribe full downward compatibility and leave some room for necessary enhancements to released APIs. Therefore, users of released APIs still have to consider the allowed compatible changes and access the APIs in such a way that the following errors and interruptions are avoided:
 
 -   Problems during the upgrade.
 -   Syntax errors after the upgrade.
@@ -17,11 +17,16 @@ The [provider rules](javascript:call_link\('abenc1_provider_rules.htm'\)) for ob
 
 The following sections list allowed changes to released APIs that must be considered when accessing them.
 
--   [Changes to Elementary Data Types](#abenc1-consumer-rules-1-----------operations-with-elementary-data-objects---@ITOC@@ABENC1_CONSUMER_RULES_2)
-    -   [Operations with Structures](#abenc1-consumer-rules-3-------adding-or-changing-non-key-elements-of-structures---@ITOC@@ABENC1_CONSUMER_RULES_4)
-    -   [Includes](#abenc1-consumer-rules-5-----------assignments-and-comparisons---@ITOC@@ABENC1_CONSUMER_RULES_6)
-    -   [Unstructured Access](#abenc1-consumer-rules-7-----------field-symbols---@ITOC@@ABENC1_CONSUMER_RULES_8)
-    -   [RFC](#abenc1-consumer-rules-9-------example---@ITOC@@ABENC1_CONSUMER_RULES_10)
+-   [Changes to Elementary Data Types](#@@ITOC@@ABENC1_CONSUMER_RULES_1)
+    -   [Operations with Elementary Data Objects](#@@ITOC@@ABENC1_CONSUMER_RULES_2)
+    -   [Operations with Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_3)
+-   [Adding or Changing Non-key Elements of Structures](#@@ITOC@@ABENC1_CONSUMER_RULES_4)
+    -   [Includes](#@@ITOC@@ABENC1_CONSUMER_RULES_5)
+    -   [Assignments and Comparisons](#@@ITOC@@ABENC1_CONSUMER_RULES_6)
+    -   [Unstructured Access](#@@ITOC@@ABENC1_CONSUMER_RULES_7)
+    -   [Field Symbols](#@@ITOC@@ABENC1_CONSUMER_RULES_8)
+    -   [RFC](#@@ITOC@@ABENC1_CONSUMER_RULES_9)
+-   [Example](#@@ITOC@@ABENC1_CONSUMER_RULES_10)
 
 Changes to Elementary Data Types
 
@@ -49,12 +54,12 @@ Examples for possible problems are:
 
 -   In assignments of data objects that have a changed type to data objects whose type is not changed, content can be cut off or overflow exceptions may occur.
 -   In statements that require compatible data types, syntax errors can occur. Examples are:
-    -   Assignments between [data reference variables](javascript:call_link\('abendata_reference_variable_glosry.htm'\) "Glossary Entry").
+    -   Assignments between [data reference variables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_reference_variable_glosry.htm "Glossary Entry").
     -   Access to internal tables with an elementary line type using a table key.
-    -   Importing data from data clusters with [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)).
+    -   Importing data from data clusters with [IMPORT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_data_cluster.htm).
 -   In statements that require lossless assignments, exceptions can occur. Examples are:
-    -   [Lossless Operator EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\))
-    -   [Host variables](javascript:call_link\('abenabap_sql_host_variables.htm'\)) in read positions of ABAP SQL.
+    -   [Lossless Operator EXACT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_exact.htm)
+    -   [Host variables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_host_variables.htm) in read positions of ABAP SQL.
 
 Mitigation
 
@@ -62,7 +67,7 @@ When declaring data objects always refer to the released data types itself. Do n
 
 Operations with Structures
 
-Changing the data type of a component of a structure changes the [technical type](javascript:call_link\('abentechnical_type_attr_glosry.htm'\) "Glossary Entry") of the complete structure. This has a large impact since there are many operand positions, where compatibility is required for structures and generally, the same errors can occur that result from changing the elements of structures described below and the same mitigations apply.
+Changing the data type of a component of a structure changes the [technical type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentechnical_type_attr_glosry.htm "Glossary Entry") of the complete structure. This has a large impact since there are many operand positions, where compatibility is required for structures and generally, the same errors can occur that result from changing the elements of structures described below and the same mitigations apply.
 
 Adding or Changing Non-key Elements of Structures
 
@@ -78,24 +83,24 @@ Error, when a component is added that already exists.
 
 Mitigation
 
-Include a released structure only by renaming its components with [suffixes](javascript:call_link\('abenddic_include_structure.htm'\)).
+Include a released structure only by renaming its components with [suffixes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_include_structure.htm).
 
 Assignments and Comparisons
 
 Assignments and comparisons between data objects that are typed with the released structured type and data objects that are typed otherwise can occur for:
 
--   [Logical Expressions](javascript:call_link\('abenlogexp.htm'\))
--   [Assignments](javascript:call_link\('abenvalue_assignments.htm'\))
--   [Working with internal tables](javascript:call_link\('abenitab.htm'\))
--   [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\))
--   [Working with data clusters](javascript:call_link\('abendata_cluster.htm'\))
+-   [Logical Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp.htm)
+-   [Assignments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvalue_assignments.htm)
+-   [Working with internal tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm)
+-   [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm)
+-   [Working with data clusters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_cluster.htm)
 
 Possible Problems
 
 Depending on the change all kinds of errors might occur. Especially, the following allowed changes can affect the rules for processing structures fundamentally:
 
 -   Adding numerical components to a formerly character-like structure.
--   Adding [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") components to a formerly [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") structure.
+-   Adding [deep](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeep_glosry.htm "Glossary Entry") components to a formerly [flat](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_glosry.htm "Glossary Entry") structure.
 -   Shifting the positions of numerical or deep components to formerly character-like sections.
 
 Mitigation
@@ -106,8 +111,8 @@ Unstructured Access
 
 Processing the content of a released structure without addressing single components as for example:
 
--   [Offset/Length Specifications](javascript:call_link\('abenoffset_length.htm'\))
--   [String processing](javascript:call_link\('abenabap_data_string.htm'\)) (on complete structure)
+-   [Offset/Length Specifications](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoffset_length.htm)
+-   [String processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_string.htm) (on complete structure)
 
 Possible Problems
 
@@ -119,10 +124,10 @@ No processing of released structures without accessing single components.
 
 Field Symbols
 
-Addressing released structures with [field symbols](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") by using:
+Addressing released structures with [field symbols](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfield_symbol_glosry.htm "Glossary Entry") by using:
 
--   [ASSIGN](javascript:call_link\('abapassign.htm'\))
--   ASSIGNING addition when [working with internal tables](javascript:call_link\('abenitab.htm'\))
+-   [ASSIGN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign.htm)
+-   ASSIGNING addition when [working with internal tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm)
 
 Possible Problems
 
@@ -134,7 +139,7 @@ No casting assignment of released structures to field symbols.
 
 RFC
 
-Passing released structures to remote [RFMs](javascript:call_link\('abenrfm_glosry.htm'\) "Glossary Entry").
+Passing released structures to remote [RFMs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfm_glosry.htm "Glossary Entry").
 
 Possible Problems
 

@@ -4,19 +4,19 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [VALUE - Value Operator](javascript:call_link\('abenconstructor_expression_value.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencreate_objects.htm) →  [VALUE - Value Operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_value.htm) → 
 
 VALUE - Internal Tables
 
 Syntax
 
-... VALUE dtype*|*#( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]*
+... VALUE dtype*|*#( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplet.htm)*\]*
                    *\[*BASE itab*\]*
-                   *\[*[FOR for\_exp1](javascript:call_link\('abenfor.htm'\))
-                    [FOR for\_exp2](javascript:call_link\('abenfor.htm'\))
+                   *\[*[FOR for\_exp1](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor.htm)
+                    [FOR for\_exp2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor.htm)
                     ... *\]*
-                   ( [line\_spec1](javascript:call_link\('abenvalue_constructor_params_lspc.htm'\)) )
-                   ( [line\_spec2](javascript:call_link\('abenvalue_constructor_params_lspc.htm'\)) )
+                   ( [line\_spec1](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_constructor_params_lspc.htm) )
+                   ( [line\_spec2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_constructor_params_lspc.htm) )
                      ... ) ...
 
 Extras:
@@ -28,23 +28,23 @@ Effect
 
 If dtype is a tabular data type or # stands for a type like this, the table rows of the constructed table are created as follows:
 
--   Firstly, an optional LET expression [let\_exp](javascript:call_link\('abaplet.htm'\)) can be specified to define local helper fields whose values can be used to construct the table rows.
+-   Firstly, an optional LET expression [let\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplet.htm) can be specified to define local helper fields whose values can be used to construct the table rows.
 
 -   An optional start value for the content can then be specified for the content of the internal table after BASE (see below).
 
--   One or more optional consecutive [iteration expressions](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") can then be specified using [FOR](javascript:call_link\('abenfor.htm'\)) (see below).
+-   One or more optional consecutive [iteration expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeniteration_expression_glosry.htm "Glossary Entry") can then be specified using [FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor.htm) (see below).
 
--   The table rows are then constructed in one or more sets of internal parentheses by specifying [line\_spec](javascript:call_link\('abenvalue_constructor_params_lspc.htm'\)). Each set of inner parentheses constructs one or more rows in accordance with the information in line\_spec and inserts them into the new internal table in accordance with the rules for the statement [INSERT](javascript:call_link\('abapinsert_itab.htm'\)) ... [INTO TABLE](javascript:call_link\('abapinsert_itab_position.htm'\)), with one difference: Any conflicts with an existing unique primary table key raise an exception of the class CX\_SY\_ITAB\_DUPLICATE\_KEY. The object is inserted in the order of the parentheses.
+-   The table rows are then constructed in one or more sets of internal parentheses by specifying [line\_spec](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_constructor_params_lspc.htm). Each set of inner parentheses constructs one or more rows in accordance with the information in line\_spec and inserts them into the new internal table in accordance with the rules for the statement [INSERT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab.htm) ... [INTO TABLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab_position.htm), with one difference: Any conflicts with an existing unique primary table key raise an exception of the class CX\_SY\_ITAB\_DUPLICATE\_KEY. The object is inserted in the order of the parentheses.
 
-The constructed rows must meet the requirements of the statement [INSERT](javascript:call_link\('abapinsert_itab.htm'\)) for inserting work areas using table keys and therefore be compatible with the row type. There is one exception to this: when constructing a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") (where the rows are only appended anyway), the value can be shorter than the row length (for row types c and x), in which case it is padded on the right with blanks or hexadecimal 0.
+The constructed rows must meet the requirements of the statement [INSERT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinsert_itab.htm) for inserting work areas using table keys and therefore be compatible with the row type. There is one exception to this: when constructing a [standard table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_table_glosry.htm "Glossary Entry") (where the rows are only appended anyway), the value can be shorter than the row length (for row types c and x), in which case it is padded on the right with blanks or hexadecimal 0.
 
-If the VALUE operator is used as the source of an assignment to an internal table, this table is first initialized after the evaluation of the [LET](javascript:call_link\('abaplet.htm'\)) expression (if available) or is assigned the content of itab. The [line\_spec](javascript:call_link\('abenvalue_constructor_params_lspc.htm'\)) data is then evaluated and inserted directly in the target table.
+If the VALUE operator is used as the source of an assignment to an internal table, this table is first initialized after the evaluation of the [LET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplet.htm) expression (if available) or is assigned the content of itab. The [line\_spec](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_constructor_params_lspc.htm) data is then evaluated and inserted directly in the target table.
 
 Notes
 
--   In assignments of constructor expressions to an internal table, its existing rows cannot be used directly as an argument in [line\_spec](javascript:call_link\('abenvalue_constructor_params_lspc.htm'\)). This is because this table is deleted before line\_spec is evaluated or overwritten by the content of itab. If the entire internal table or rows from the left side are needed on the right side, however, they can be saved in local helper variables using a [LET](javascript:call_link\('abaplet.htm'\)) expression, since this expression is evaluated first.
+-   In assignments of constructor expressions to an internal table, its existing rows cannot be used directly as an argument in [line\_spec](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_constructor_params_lspc.htm). This is because this table is deleted before line\_spec is evaluated or overwritten by the content of itab. If the entire internal table or rows from the left side are needed on the right side, however, they can be saved in local helper variables using a [LET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplet.htm) expression, since this expression is evaluated first.
 
--   The operand type for [line\_spec](javascript:call_link\('abenvalue_constructor_params_lspc.htm'\)) in the inner parentheses is the row type of the table type specified using dtype or #, which means it is always uniquely identifiable. Constructor expressions in this place can therefore always derive the required data type using #.
+-   The operand type for [line\_spec](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_constructor_params_lspc.htm) in the inner parentheses is the row type of the table type specified using dtype or #, which means it is always uniquely identifiable. Constructor expressions in this place can therefore always derive the required data type using #.
     
 
 Example
@@ -74,13 +74,13 @@ itab2 = VALUE #( ( itab1 )
 
 Examples
 
-See also the examples for the instance operator [NEW](javascript:call_link\('abennew_constructor_params_itab.htm'\)).
+See also the examples for the instance operator [NEW](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennew_constructor_params_itab.htm).
 
 Executable Examples
 
--   [VALUE - Operator for Internal Tables](javascript:call_link\('abenvalue_itab_abexa.htm'\))
+-   [VALUE - Operator for Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_itab_abexa.htm)
 
--   [VALUE Operator with LET for Internal Tables](javascript:call_link\('abenvalue_itab_let_abexa.htm'\))
+-   [VALUE Operator with LET for Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_itab_let_abexa.htm)
     
 
 Addition 1
@@ -89,13 +89,13 @@ Addition 1
 
 Effect
 
-An addition, BASE, followed by an internal table, itab, can be specified in front of the inserted rows. This is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry"). The row type of itab must be convertible to the row type of the return value. If BASE is specified, the content of itab is assigned to the return value before the individual rows are inserted. If the character # is specified for the type of the return value and the type cannot be determined from the operand position of the constructor expression, the type of itab is used for this expression (if known).
+An addition, BASE, followed by an internal table, itab, can be specified in front of the inserted rows. This is a [functional operand position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunctional_position_glosry.htm "Glossary Entry"). The row type of itab must be convertible to the row type of the return value. If BASE is specified, the content of itab is assigned to the return value before the individual rows are inserted. If the character # is specified for the type of the return value and the type cannot be determined from the operand position of the constructor expression, the type of itab is used for this expression (if known).
 
 Notes
 
 -   If the addition BASE is not specified, the content of tables can only be reconstructed using the value operator and no new content can be added. If the same table is specified after BASE to which the constructor expression is assigned, further rows can be inserted in this table.
 
--   If the target table is specified as itab after BASE in an assignment to an existing internal table, no assignment takes place before [line\_spec](javascript:call_link\('abenvalue_constructor_params_lspc.htm'\)) is evaluated, and the target table just keeps its value instead.
+-   If the target table is specified as itab after BASE in an assignment to an existing internal table, no assignment takes place before [line\_spec](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_constructor_params_lspc.htm) is evaluated, and the target table just keeps its value instead.
     
 
 Example
@@ -149,7 +149,7 @@ cl\_demo\_output=>display( itab ).
 
 Example
 
-Uses BASE to append rows to an internal table in a loop. After the output, it possible to see how the same function can be applied using an iteration expression with [FOR](javascript:call_link\('abenfor_conditional.htm'\)).
+Uses BASE to append rows to an internal table in a loop. After the output, it possible to see how the same function can be applied using an iteration expression with [FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_conditional.htm).
 
 DATA itab TYPE TABLE OF i WITH EMPTY KEY.
 DO 10 TIMES.
@@ -167,23 +167,23 @@ Addition 2
 
 Effect
 
-If one or more [iteration expressions](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") are specified consecutively using [FOR](javascript:call_link\('abenfor.htm'\)), this means that the rows constructed in [line\_spec](javascript:call_link\('abenvalue_constructor_params_lspc.htm'\)) for every iteration of the last FOR expression are inserted into the target table. When constructing table rows in [line\_spec](javascript:call_link\('abenvalue_constructor_params_lspc.htm'\)), the visible local work areas and field symbols of the iteration expressions can be used to construct table rows.
+If one or more [iteration expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeniteration_expression_glosry.htm "Glossary Entry") are specified consecutively using [FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor.htm), this means that the rows constructed in [line\_spec](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_constructor_params_lspc.htm) for every iteration of the last FOR expression are inserted into the target table. When constructing table rows in [line\_spec](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_constructor_params_lspc.htm), the visible local work areas and field symbols of the iteration expressions can be used to construct table rows.
 
--   If [conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) are used, the new table rows are created in freely defined iteration steps.
+-   If [conditional iterations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_conditional.htm) are used, the new table rows are created in freely defined iteration steps.
 
--   If [table iterations](javascript:call_link\('abenfor_itab.htm'\)) are used, the rows of existing internal tables are evaluated. These are known as [table comprehensions](javascript:call_link\('abentable_comprehension_glosry.htm'\) "Glossary Entry"), since in this case new table rows can be constructed from the rows of existing internal tables.
+-   If [table iterations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_itab.htm) are used, the rows of existing internal tables are evaluated. These are known as [table comprehensions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_comprehension_glosry.htm "Glossary Entry"), since in this case new table rows can be constructed from the rows of existing internal tables.
 
 Notes
 
 -   The term "table comprehension" is derived from similar concepts used in many other languages, where it is also known as "list comprehension".
 
--   [Table filtering](javascript:call_link\('abentable_filtering_glosry.htm'\) "Glossary Entry") can be implemented more efficiently using the [filter operator](javascript:call_link\('abenfilter_operator_glosry.htm'\) "Glossary Entry") [FILTER](javascript:call_link\('abenconstructor_expression_filter.htm'\)).
+-   [Table filtering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_filtering_glosry.htm "Glossary Entry") can be implemented more efficiently using the [filter operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfilter_operator_glosry.htm "Glossary Entry") [FILTER](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_filter.htm).
 
--   Conditional iterations and table comprehensions are also possible with [FOR expressions](javascript:call_link\('abenmesh_for.htm'\)) for [mesh paths](javascript:call_link\('abenmesh_path_glosry.htm'\) "Glossary Entry").
+-   Conditional iterations and table comprehensions are also possible with [FOR expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_for.htm) for [mesh paths](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path_glosry.htm "Glossary Entry").
 
--   For tasks that can be solved using both table comprehensions and [special assignments](javascript:call_link\('abencorresponding.htm'\)) for components (in particular the component operator [CORRESPONDING](javascript:call_link\('abenconstructor_expr_corresponding.htm'\))), it is best to use assignments (see the [executable example](javascript:call_link\('abencorresponding_vs_for_abexa.htm'\))).
+-   For tasks that can be solved using both table comprehensions and [special assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding.htm) for components (in particular the component operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_corresponding.htm)), it is best to use assignments (see the [executable example](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_vs_for_abexa.htm)).
 
--   If the VALUE operator is used, it should be noted that assignments to internal tables are also initialized (or given the content of itab after BASE) even in the case of table comprehensions after the evaluation of a [LET](javascript:call_link\('abaplet.htm'\)) expressions. The target table is then used directly. The original table can therefore not be used directly in the FOR expressions (unless it is assigned to a helper variable after LET).
+-   If the VALUE operator is used, it should be noted that assignments to internal tables are also initialized (or given the content of itab after BASE) even in the case of table comprehensions after the evaluation of a [LET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplet.htm) expressions. The target table is then used directly. The original table can therefore not be used directly in the FOR expressions (unless it is assigned to a helper variable after LET).
 
 Example
 
@@ -196,9 +196,9 @@ cl\_demo\_output=>display(
 
 Executable Examples
 
--   [Examples of Table Comprehensions](javascript:call_link\('abentable_comprehensions_abexas.htm'\))
+-   [Examples of Table Comprehensions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_comprehensions_abexas.htm)
 
 Continue
-[VALUE - line\_spec](javascript:call_link\('abenvalue_constructor_params_lspc.htm'\))
-![Example](exa.gif "Example") [VALUE - Operator for Internal Tables](javascript:call_link\('abenvalue_itab_abexa.htm'\))
-![Example](exa.gif "Example") [VALUE - Operator with LET for Internal Tables](javascript:call_link\('abenvalue_itab_let_abexa.htm'\))
+[VALUE - line\_spec](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_constructor_params_lspc.htm)
+![Example](exa.gif "Example") [VALUE - Operator for Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_itab_abexa.htm)
+![Example](exa.gif "Example") [VALUE - Operator with LET for Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_itab_let_abexa.htm)

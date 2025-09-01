@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_st.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ST - Overview of Statements, ABENST_STATEMENTS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%
 0A%0D%0ASuggestion for improvement:)
@@ -15,7 +15,7 @@ ST programs are XML data consisting of literal elements and ST statements. ST st
 
 During serialization and deserialization, literal elements are copied unchanged into a target document or consumed from a source document and compared. ST statements are executed according to their semantics.
 
-Data is addressed using [tree structures](javascript:call_link\('abenst_trees.htm'\)) whose root nodes (data roots) are bound to ABAP data objects. The root nodes can always be addressed directly using their names. In addition, a current node can be defined, which can be addressed using $ref.
+Data is addressed using [tree structures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_trees.htm) whose root nodes (data roots) are bound to ABAP data objects. The root nodes can always be addressed directly using their names. In addition, a current node can be defined, which can be addressed using $ref.
 
 ST statement
 
@@ -23,176 +23,176 @@ Meaning
 
 <tt:apply ...>
 
-[Calls](javascript:call_link\('abenst_tt_apply.htm'\)) a subtemplate
+[Calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_apply.htm) a subtemplate
 
 <tt:assign ...>
 
-[Assigns](javascript:call_link\('abenst_tt_assign.htm'\)) a value to data
+[Assigns](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_assign.htm) a value to data
 
 <tt:attribute ...>
 
-[Non-literal attribute](javascript:call_link\('abenst_tt_attribute.htm'\))
+[Non-literal attribute](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_attribute.htm)
 
 <tt:call ...>
 
-[Calls](javascript:call_link\('abenst_tt_call.htm'\)) an ST program
+[Calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_call.htm) an ST program
 
 <tt:call-method ...>
 
-Calls a [static method](javascript:call_link\('abenst_tt_call-method_static.htm'\)) or an [instance method](javascript:call_link\('abenst_tt_call-method_instance.htm'\)) in ABAP Objects
+Calls a [static method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_call-method_static.htm) or an [instance method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_call-method_instance.htm) in ABAP Objects
 
 <tt:cast ...>
 
-[Downcasts](javascript:call_link\('abenst_tt_cast.htm'\)) reference variables
+[Downcasts](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_cast.htm) reference variables
 
 <tt:clear ...>
 
-[Initializes](javascript:call_link\('abenst_tt_clear.htm'\)) data
+[Initializes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_clear.htm) data
 
 <tt:cond ...>
 
-[Conditional transformation](javascript:call_link\('abenst_tt_cond.htm'\))
+[Conditional transformation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_cond.htm)
 
 <tt:cond-var ...>
 
-[Condition for variables](javascript:call_link\('abenst_tt_cond-var.htm'\))
+[Condition for variables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_cond-var.htm)
 
 <tt:context ...>
 
-[Context for local data roots](javascript:call_link\('abenst_tt_template_sub.htm'\)) in subtemplates
+[Context for local data roots](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_template_sub.htm) in subtemplates
 
 <tt:copy ...>
 
-[Transformation](javascript:call_link\('abenst_tt_copy.htm'\)) to and from asXML
+[Transformation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_copy.htm) to and from asXML
 
 <tt:create-object ...>
 
-[Creates objects](javascript:call_link\('abenst_tt_create.htm'\)) in ABAP Objects
+[Creates objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_create.htm) in ABAP Objects
 
 <tt:d-cond ...>
 
-[Conditional transformation](javascript:call_link\('abenst_tt_cond.htm'\)) for deserializations
+[Conditional transformation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_cond.htm) for deserializations
 
 <tt:deserialize ...>
 
-Defines the [transformation direction](javascript:call_link\('abenst_tt_serialize_deserialize.htm'\))
+Defines the [transformation direction](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_serialize_deserialize.htm)
 
 <tt:empty ...>
 
-[Empty pattern](javascript:call_link\('abenst_tt_empty.htm'\))
+[Empty pattern](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_empty.htm)
 
 <... tt:extensible="..."...>
 
-[Extensibility](javascript:call_link\('abenst_tt_extensible.htm'\)) of literal XML elements
+[Extensibility](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_extensible.htm) of literal XML elements
 
 <tt:front ...>
 
-[Initial part](javascript:call_link\('abenst_tt_type.htm'\)) of a structured type
+[Initial part](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_type.htm) of a structured type
 
 <tt:group ...>
 
-[Groups](javascript:call_link\('abenst_tt_group.htm'\)) conditional transformations
+[Groups](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_group.htm) conditional transformations
 
 <tt:include ...>
 
-[Includes](javascript:call_link\('abenst_tt_include.htm'\)) an ST program
+[Includes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_include.htm) an ST program
 
 <... tt:lax="..." ...>
 
-[Name comparison](javascript:call_link\('abenst_tt_lax.htm'\)) of literal XML elements
+[Name comparison](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_lax.htm) of literal XML elements
 
 <tt:loop ...>
 
-[Loops](javascript:call_link\('abenst_tt_loop.htm'\)) across internal tables
+[Loops](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_loop.htm) across internal tables
 
 <tt:namespace ...>
 
-Defines a [namespace](javascript:call_link\('abenst_tt_namespace.htm'\))
+Defines a [namespace](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_namespace.htm)
 
 <tt:node ...>
 
-[Component](javascript:call_link\('abenst_tt_type.htm'\)) of a type
+[Component](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_type.htm) of a type
 
 <tt:parameter ...>
 
-Declares [parameters](javascript:call_link\('abenst_tt_parameter.htm'\))
+Declares [parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_parameter.htm)
 
 <tt:read ...>
 
-[Reads](javascript:call_link\('abenst_tt_read.htm'\)) a variable from XML
+[Reads](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_read.htm) a variable from XML
 
 <tt:read-write ...>
 
-[Short form](javascript:call_link\('abenst_tt_read_write.htm'\)) of <tt:read ...> and <tt:write ...>
+[Short form](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_read_write.htm) of <tt:read ...> and <tt:write ...>
 
 <tt:ref ...>
 
-Sets the [current node](javascript:call_link\('abenst_tt_ref.htm'\))
+Sets the [current node](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_ref.htm)
 
 <... tt:ref="..."...>
 
-Sets the [current node](javascript:call_link\('abenst_tt_ref.htm'\)) for a literal XML element
+Sets the [current node](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_ref.htm) for a literal XML element
 
 <tt:root ...>
 
-Declares a [data root](javascript:call_link\('abenst_tt_root.htm'\))
+Declares a [data root](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_root.htm)
 
 <tt:serialize ...>
 
-Defines the [transformation direction](javascript:call_link\('abenst_tt_serialize_deserialize.htm'\))
+Defines the [transformation direction](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_serialize_deserialize.htm)
 
 <tt:s-cond ...>
 
-[Conditional transformation](javascript:call_link\('abenst_tt_cond.htm'\)) for serializations
+[Conditional transformation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_cond.htm) for serializations
 
 <tt:skip ...>
 
-[Skips XML](javascript:call_link\('abenst_tt_skip.htm'\)) elements in deserializations
+[Skips XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_skip.htm) elements in deserializations
 
 <tt:switch ...>
 
-[](javascript:call_link\('abenst_tt_switch.htm'\))Defines a [case distinction](javascript:call_link\('abenst_tt_switch.htm'\)) between conditional transformations.
+[](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_switch.htm)Defines a [case distinction](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_switch.htm) between conditional transformations.
 
 <tt:switch-var ...>
 
-[Case distinctions](javascript:call_link\('abenst_tt_switch-var.htm'\)) for variables
+[Case distinctions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_switch-var.htm) for variables
 
 <tt:template ...>
 
-[Main template](javascript:call_link\('abenst_tt_template_main.htm'\)) or [subtemplates](javascript:call_link\('abenst_tt_template_sub.htm'\))
+[Main template](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_template_main.htm) or [subtemplates](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_template_sub.htm)
 
 <tt:text ...>
 
-[Literal text](javascript:call_link\('abenst_tt_text.htm'\))
+[Literal text](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_text.htm)
 
 <tt:transform ...>
 
-[Root element](javascript:call_link\('abenst_tt_transform.htm'\)) of an ST program
+[Root element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_transform.htm) of an ST program
 
 <tt:type ...>
 
-[Type definition](javascript:call_link\('abenst_tt_type.htm'\))
+[Type definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_type.htm)
 
 <tt:value ...>
 
-Transforms [elementary data objects](javascript:call_link\('abenst_tt_value_elementary.htm'\)) and [structures](javascript:call_link\('abenst_tt_value_structure.htm'\))
+Transforms [elementary data objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_value_elementary.htm) and [structures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_value_structure.htm)
 
 <... tt:value-ref ="..." ...>
 
-[Short form](javascript:call_link\('abenst_tt_value_elementary.htm'\)) of the transformation of elementary data objects
+[Short form](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_value_elementary.htm) of the transformation of elementary data objects
 
 <tt:variable ...>
 
-Declares a [variable](javascript:call_link\('abenst_tt_variable.htm'\))
+Declares a [variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_variable.htm)
 
 <tt:with-parameter ...>
 
-Passes values to [ST programs](javascript:call_link\('abenst_tt_call.htm'\)), [subtemplates](javascript:call_link\('abenst_tt_apply.htm'\)), and [ABAP methods](javascript:call_link\('abenst_tt_call-method_static.htm'\))
+Passes values to [ST programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_call.htm), [subtemplates](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_apply.htm), and [ABAP methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_call-method_static.htm)
 
 <tt:with-root ...>
 
-Passes data nodes to [ST programs](javascript:call_link\('abenst_tt_call.htm'\)) and [subtemplates](javascript:call_link\('abenst_tt_apply.htm'\))
+Passes data nodes to [ST programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_call.htm) and [subtemplates](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_apply.htm)
 
 <tt:write ...>
 
-[Writes](javascript:call_link\('abenst_tt_write.htm'\)) a variable to XML
+[Writes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_write.htm) a variable to XML

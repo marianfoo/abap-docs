@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [Changes in Release 7.52](javascript:call_link\('abennews-752.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews.htm) →  [Changes in Releases 7.5x](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-75.htm) →  [Changes in Release 7.52](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-752.htm) → 
 
 Further Changes in Release 7.52
 
@@ -22,4 +22,4 @@ Modification 2
 
 Standard ABAP with Restricted Object Use
 
-In Release 7.52, a new [ABAP version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") [Standard ABAP with Restricted Object Use](javascript:call_link\('abenstandard_abap_restr_obj_glosry.htm'\) "Glossary Entry") was introduced. The internal version ID in column UCCHECK of system table TRDIR is "4".
+In Release 7.52, a new [ABAP version](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_version_glosry.htm "Glossary Entry") [Standard ABAP with Restricted Object Use](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_abap_restr_obj_glosry.htm "Glossary Entry") was introduced. The internal version ID in column UCCHECK of system table TRDIR is "4".

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [Internal Test Statements](javascript:call_link\('abentests_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_tests.htm) →  [Internal Test Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentests_internal.htm) → 
 
 SYNTAX-TRACE
 
@@ -73,7 +73,7 @@ Effect
 
 This statement can be used to activate the trace function of the ABAP syntax check and to select a certain mode for the trace output.
 
-This trace mode SYNCPOINTS (for internal test purposes only) logs thedeclaration units (that is, used global class and interface declarations as well as [type groups](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry")) for which the routines for creating the load table entries must be called after a delay and not immediately.
+This trace mode SYNCPOINTS (for internal test purposes only) logs thedeclaration units (that is, used global class and interface declarations as well as [type groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry")) for which the routines for creating the load table entries must be called after a delay and not immediately.
 
 In doing so, the call of the generation routine is delayed until a synchronization point is reached, for which the generation of a quantity of declaration units is executed afterwards.
 

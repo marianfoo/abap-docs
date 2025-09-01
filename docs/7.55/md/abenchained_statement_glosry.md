@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 chained statement
 
-Abbreviated way of writing multiple [ABAP statements](javascript:call_link\('abenabap_statement_glosry.htm'\) "Glossary Entry") with the same initial part. The identical initial part is specified once and closed using a colon (:). This is followed by the remaining parts separated by commas.
+Abbreviated way of writing multiple [ABAP statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_statement_glosry.htm "Glossary Entry") with the same initial part. The identical initial part is specified once and closed using a colon (:). This is followed by the remaining parts separated by commas.
 
-[→ More about](javascript:call_link\('abenchained_statements.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchained_statements.htm)

@@ -4,15 +4,15 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) → 
 
 RAP - Simple unmanaged RAP business object
 
-This example demonstrates a simple unmanaged [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") and different ways of accessing it.
+This example demonstrates a simple unmanaged [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") and different ways of accessing it.
 
 Data model
 
-The CDS data model consists of one single [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") without [child entities](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry"):
+The CDS data model consists of one single [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry") without [child entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchild_entity_glosry.htm "Glossary Entry"):
 
 @AbapCatalog.sqlViewName: 'DEMOROOTSIMPLE'
 @AbapCatalog.preserveKey: true
@@ -29,7 +29,7 @@ define root view demo\_cds\_simple\_root\_entity
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 unmanaged;
 define behavior for demo\_cds\_simple\_root\_entity alias demo\_simple\_bo
@@ -38,7 +38,7 @@ define behavior for demo\_cds\_simple\_root\_entity alias demo\_simple\_bo
   action enhancePrice parameter demo\_cds\_param\_for\_simple\_bo;
 }
 
-One [CRUD](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") operation is specified with create and one additional operation is specified with action. The action expects a parameter that must be typed with a structured CDS entity, for which the following [CDS abstract entity](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry") is defined:
+One [CRUD](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencrud_glosry.htm "Glossary Entry") operation is specified with create and one additional operation is specified with action. The action expects a parameter that must be typed with a structured CDS entity, for which the following [CDS abstract entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") is defined:
 
 define abstract entity demo\_cds\_param\_for\_simple\_bo
 {
@@ -47,7 +47,7 @@ define abstract entity demo\_cds\_param\_for\_simple\_bo
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. The global class has two private static attributes:
+For the above CDS behavior definition, one [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. The global class has two private static attributes:
 
 -   BUFFER, an internal table with the structured line type of the root entity DEMO\_CDS\_SIMPLE\_ROOT\_ENTITY that holds the business data.
 

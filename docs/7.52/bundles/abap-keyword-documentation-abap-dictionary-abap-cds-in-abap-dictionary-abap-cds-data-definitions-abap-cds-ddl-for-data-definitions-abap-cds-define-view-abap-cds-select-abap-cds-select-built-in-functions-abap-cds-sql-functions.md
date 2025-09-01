@@ -32,7 +32,7 @@ Included pages: 4
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, Built-In Functions](javascript:call_link\('abencds_f1_builtin_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, Built-In Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_builtin_functions.htm) → 
 
 ABAP CDS - sql\_functions
 
@@ -42,20 +42,20 @@ Syntax
 
 Effect
 
-Calls built-in [SQL functions](javascript:call_link\('abensql_function_glosry.htm'\) "Glossary Entry") in a [SELECT statement](javascript:call_link\('abencds_f1_select_statement.htm'\)) of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). For passed arguments arg1, arg2, ..., a predefined SQL function returns a numeric, character-like, or byte-like result. The possible functions are:
+Calls built-in [SQL functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_function_glosry.htm "Glossary Entry") in a [SELECT statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) of a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"). For passed arguments arg1, arg2, ..., a predefined SQL function returns a numeric, character-like, or byte-like result. The possible functions are:
 
--   [Numeric functions](javascript:call_link\('abencds_f1_sql_functions_numeric.htm'\))
+-   [Numeric functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions_numeric.htm)
 
--   [String functions](javascript:call_link\('abencds_f1_sql_functions_character.htm'\))
+-   [String functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions_character.htm)
 
--   [Coalesce function](javascript:call_link\('abencds_f1_coalesce_expression.htm'\))
+-   [Coalesce function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_coalesce_expression.htm)
 
-If an argument contains the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), the result is always the null value (except in the [Coalesce function](javascript:call_link\('abencds_f1_coalesce_expression.htm'\)). If an argument contains an invalid value or the value range of a result type is exceeded, an exception is raised.
+If an argument contains the [null value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennull_value_glosry.htm "Glossary Entry"), the result is always the null value (except in the [Coalesce function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_coalesce_expression.htm). If an argument contains an invalid value or the value range of a result type is exceeded, an exception is raised.
 
 Continue
-[ABAP CDS - Numeric Functions](javascript:call_link\('abencds_f1_sql_functions_numeric.htm'\))
-[ABAP CDS - String Functions](javascript:call_link\('abencds_f1_sql_functions_character.htm'\))
-[ABAP CDS - coalesce](javascript:call_link\('abencds_f1_coalesce_expression.htm'\))
+[ABAP CDS - Numeric Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions_numeric.htm)
+[ABAP CDS - String Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions_character.htm)
+[ABAP CDS - coalesce](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_coalesce_expression.htm)
 
 
 
@@ -73,11 +73,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, Built-In Functions](javascript:call_link\('abencds_f1_builtin_functions.htm'\)) →  [ABAP CDS - sql\_functions](javascript:call_link\('abencds_f1_sql_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, Built-In Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_builtin_functions.htm) →  [ABAP CDS - sql\_functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions.htm) → 
 
 ABAP CDS - Numeric Functions
 
-The following table shows the possible numerical [SQL functions](javascript:call_link\('abencds_f1_sql_functions.htm'\)) in a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"), plus the requirements made on the arguments. The meaning of the functions can be found under [SQL Functions for Numeric Values](javascript:call_link\('abensql_functions_numeric.htm'\)).
+The following table shows the possible numerical [SQL functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions.htm) in a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"), plus the requirements made on the arguments. The meaning of the functions can be found under [SQL Functions for Numeric Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_numeric.htm).
 
 Function
 
@@ -85,71 +85,71 @@ Valid Argument Types
 
 Result Type
 
-[ABS(arg)](javascript:call_link\('abensql_functions_numeric.htm'\))
+[ABS(arg)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_numeric.htm)
 
-[INT1](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT8](javascript:call_link\('abenddic_builtin_types.htm'\)), [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)), [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)), [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)), [FLTP](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CURR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [QUAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [FLTP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 Data type of arg
 
-[CEIL(arg)](javascript:call_link\('abensql_functions_numeric.htm'\))
+[CEIL(arg)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_numeric.htm)
 
-[INT1](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT8](javascript:call_link\('abenddic_builtin_types.htm'\)), [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)), [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)), [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)), [FLTP](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CURR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [QUAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [FLTP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
-[INT4](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT8](javascript:call_link\('abenddic_builtin_types.htm'\)) (if arg is of type INT8)
+[INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) (if arg is of type INT8)
 
-[DIV(arg1, arg2)](javascript:call_link\('abensql_functions_numeric.htm'\))
+[DIV(arg1, arg2)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_numeric.htm)
 
-[INT1](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT8](javascript:call_link\('abenddic_builtin_types.htm'\)), [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)), [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)), [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)) without decimal places.
+[INT1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CURR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [QUAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) without decimal places.
 
-Data type arg1, where [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)), [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)) and [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)) are implemented after [INT4](javascript:call_link\('abenddic_builtin_types.htm'\))
+Data type arg1, where [DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CURR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) and [QUAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) are implemented after [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
-[DIVISION(arg1, arg2, dec)](javascript:call_link\('abensql_functions_numeric.htm'\))
+[DIVISION(arg1, arg2, dec)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_numeric.htm)
 
-arg1, arg2: [INT1](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT8](javascript:call_link\('abenddic_builtin_types.htm'\)), [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)), [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)), [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\))
-dec: Integer [numeric literal](javascript:call_link\('abencds_f1_literal.htm'\)) greater than or equal to 0 and not greater than the maximum value of 6 and the length of arg2 plus the number of decimal places of arg1 plus 1
+arg1, arg2: [INT1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CURR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [QUAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
+dec: Integer [numeric literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) greater than or equal to 0 and not greater than the maximum value of 6 and the length of arg2 plus the number of decimal places of arg1 plus 1
 
-[DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with dec decimal places. The length of the result is the length of arg1 minus the decimal places in arg1 plus the decimal places in arg2 plus dec. This value must not be greater than 31.
+[DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with dec decimal places. The length of the result is the length of arg1 minus the decimal places in arg1 plus the decimal places in arg2 plus dec. This value must not be greater than 31.
 
-[FLOOR(arg)](javascript:call_link\('abensql_functions_numeric.htm'\))
+[FLOOR(arg)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_numeric.htm)
 
-[INT1](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT8](javascript:call_link\('abenddic_builtin_types.htm'\)), [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)), [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)), [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CURR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [QUAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
-Data type of arg for the integer types, else [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) without decimal places
+Data type of arg for the integer types, else [DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) without decimal places
 
-[MOD(arg1, arg2)](javascript:call_link\('abensql_functions_numeric.htm'\))
+[MOD(arg1, arg2)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_numeric.htm)
 
-[INT1](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT8](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 Data type of arg1
 
-[ROUND(arg, pos)](javascript:call_link\('abensql_functions_numeric.htm'\))
+[ROUND(arg, pos)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_numeric.htm)
 
-arg: [INT1](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT8](javascript:call_link\('abenddic_builtin_types.htm'\)), [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)), [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)), [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\))
-pos: [Literal](javascript:call_link\('abencds_f1_literal.htm'\)), field of a data source or [input parameter](javascript:call_link\('abencds_f1_parameter.htm'\)) of type [INT1](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT4](javascript:call_link\('abenddic_builtin_types.htm'\))
+arg: [INT1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CURR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [QUAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
+pos: [Literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm), field of a data source or [input parameter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter.htm) of type [INT1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
-Data type of arg, where [INT1](javascript:call_link\('abenddic_builtin_types.htm'\)) and [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)) are transformed to [INT4](javascript:call_link\('abenddic_builtin_types.htm'\))
+Data type of arg, where [INT1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) and [INT2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) are transformed to [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 The following can be specified as the arguments arg:
 
--   [Literals](javascript:call_link\('abencds_f1_literal.htm'\)) of a suitable type. The literal can be prefixed with the name of a domain.
+-   [Literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) of a suitable type. The literal can be prefixed with the name of a domain.
 
--   Suitable [fields](javascript:call_link\('abencds_f1_field.htm'\)) of a data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)) of the current CDS view.
+-   Suitable [fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_field.htm) of a data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm) of the current CDS view.
 
--   [Path expressions](javascript:call_link\('abencds_f1_path_expression.htm'\)) that identify a suitable field of a data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)).
+-   [Path expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) that identify a suitable field of a data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm).
 
--   [Input parameters](javascript:call_link\('abencds_f1_parameter.htm'\)) from the parameter list [parameter\_list](javascript:call_link\('abencds_f1_parameter_list.htm'\)).
+-   [Input parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter.htm) from the parameter list [parameter\_list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_list.htm).
 
 -   The following predefined functions and expressions (if they return a matching type):
 
--   Other predefined [SQL functions](javascript:call_link\('abencds_f1_sql_functions.htm'\))
+-   Other predefined [SQL functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions.htm)
 
--   [Arithmetic expressions](javascript:call_link\('abencds_f1_arithmetic_expression.htm'\))
+-   [Arithmetic expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_arithmetic_expression.htm)
 
--   Type modifications using [CAST](javascript:call_link\('abencds_f1_cast_expression.htm'\))
+-   Type modifications using [CAST](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression.htm)
 
 Note
 
-The SQL functions [DIV](javascript:call_link\('abensql_functions_numeric.htm'\)) and [MOD](javascript:call_link\('abensql_functions_numeric.htm'\)) behave differently with respect to the signs than the ABAP operators [DIV](javascript:call_link\('abenarith_operators.htm'\)) and [MOD](javascript:call_link\('abenarith_operators.htm'\)). In the SQL function DIV, the amounts of the arguments are divided and then the sign is assigned (positive if the arguments have the same signs and negative if they have different signs). Accordingly, the result of MOD can be negative, so that multiplying the result of DIV by expr2 plus the result of MOD produces the value of expr1. The ABAP operator [MOD](javascript:call_link\('abenarith_operators.htm'\)), on the other hand, only produces positive results. See [Example](javascript:call_link\('abensql_functions_numeric.htm'\)).
+The SQL functions [DIV](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_numeric.htm) and [MOD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_numeric.htm) behave differently with respect to the signs than the ABAP operators [DIV](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarith_operators.htm) and [MOD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarith_operators.htm). In the SQL function DIV, the amounts of the arguments are divided and then the sign is assigned (positive if the arguments have the same signs and negative if they have different signs). Accordingly, the result of MOD can be negative, so that multiplying the result of DIV by expr2 plus the result of MOD produces the value of expr1. The ABAP operator [MOD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarith_operators.htm), on the other hand, only produces positive results. See [Example](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_numeric.htm).
 
 Example
 
@@ -186,11 +186,11 @@ define view demo\_cds\_sql\_functions\_num
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, Built-In Functions](javascript:call_link\('abencds_f1_builtin_functions.htm'\)) →  [ABAP CDS - sql\_functions](javascript:call_link\('abencds_f1_sql_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, Built-In Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_builtin_functions.htm) →  [ABAP CDS - sql\_functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions.htm) → 
 
 ABAP CDS - String Functions
 
-The following table shows the possible [SQL functions](javascript:call_link\('abencds_f1_sql_functions.htm'\)) for character strings in a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"), plus the requirements made on the arguments. The meaning of the functions can be found under [SQL Functions for Strings](javascript:call_link\('abensql_functions_string.htm'\)).
+The following table shows the possible [SQL functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions.htm) for character strings in a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"), plus the requirements made on the arguments. The meaning of the functions can be found under [SQL Functions for Strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm).
 
 Function
 
@@ -198,120 +198,120 @@ Valid Argument Types
 
 Result Type
 
-[CONCAT(arg1, arg2)](javascript:call_link\('abensql_functions_string.htm'\))
+[CONCAT(arg1, arg2)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
 
 See below
 
-[SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) if an argument has the type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), else [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with the length of the result.
+[SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) if an argument has the type [SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), else [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with the length of the result.
 
-[CONCAT\_WITH\_SPACE(arg1, arg2, spaces )](javascript:call_link\('abensql_functions_string.htm'\))
+[CONCAT\_WITH\_SPACE(arg1, arg2, spaces )](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
 
 arg1, arg2: see below
-spaces: positive [numeric literal](javascript:call_link\('abencds_f1_literal.htm'\)) greater than 0 and less than or equal to 1331
+spaces: positive [numeric literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) greater than 0 and less than or equal to 1331
 
-[SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) if an argument has the type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), else [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with the length of the result.
+[SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) if an argument has the type [SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), else [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with the length of the result.
 
-[INSTR(arg, sub)](javascript:call_link\('abensql_functions_string.htm'\))
-
-arg: see below
-sub: non-empty [numeric literal](javascript:call_link\('abencds_f1_literal.htm'\))
-
-[INT4](javascript:call_link\('abenddic_builtin_types.htm'\))
-
-[LEFT(arg, len)](javascript:call_link\('abensql_functions_string.htm'\))
+[INSTR(arg, sub)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
 
 arg: see below
-len: positive [numeric literal](javascript:call_link\('abencds_f1_literal.htm'\)) greater than 0 and less than or equal to 1333
+sub: non-empty [numeric literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm)
 
-[SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) if arg has the type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), else [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len
+[INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
-[LENGTH(arg)](javascript:call_link\('abensql_functions_string.htm'\))
+[LEFT(arg, len)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
+
+arg: see below
+len: positive [numeric literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) greater than 0 and less than or equal to 1333
+
+[SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) if arg has the type [SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), else [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with length len
+
+[LENGTH(arg)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
 
 See below
 
-[INT4](javascript:call_link\('abenddic_builtin_types.htm'\))
+[INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
-[LOWER( arg )](javascript:call_link\('abensql_functions_string.htm'\))
+[LOWER( arg )](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
 
-See below, with the exception of [NUMC](javascript:call_link\('abenddic_builtin_types.htm'\)), [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) and [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\))
+See below, with the exception of [NUMC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DATS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) and [TIMS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 Data type of arg in the length of arg
 
-[LPAD(arg, len, src)](javascript:call_link\('abensql_functions_string.htm'\))
+[LPAD(arg, len, src)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
 
 arg: see below
-len: positive [numeric literal](javascript:call_link\('abencds_f1_literal.htm'\)) greater than 0 and less than or equal to 1333
-src: [character Literal](javascript:call_link\('abencds_f1_literal.htm'\))
+len: positive [numeric literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) greater than 0 and less than or equal to 1333
+src: [character Literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm)
 
-[SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) if arg has the type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), else [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len
+[SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) if arg has the type [SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), else [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with length len
 
-[LTRIM(arg, char)](javascript:call_link\('abensql_functions_string.htm'\))
+[LTRIM(arg, char)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
 
 arg: see below
-char: [Character literal](javascript:call_link\('abencds_f1_literal.htm'\)) with length 1
+char: [Character literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) with length 1
 
-[SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) if arg has the type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), else [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with the length of arg.
+[SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) if arg has the type [SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), else [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with the length of arg.
 
-[REPLACE(arg1, arg2, arg3)](javascript:call_link\('abensql_functions_string.htm'\))
+[REPLACE(arg1, arg2, arg3)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
 
 See below
 
-[SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) if arg1 or arg3 has the type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), else [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with the maximum possible length of the result.
+[SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) if arg1 or arg3 has the type [SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), else [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with the maximum possible length of the result.
 
-[RIGHT(arg,len)](javascript:call_link\('abensql_functions_string.htm'\))
-
-arg: see below
-len: positive [numeric literal](javascript:call_link\('abencds_f1_literal.htm'\)) greater than 0 and less than or equal to 1333
-
-[SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) if arg has the type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), else [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len
-
-[RPAD(arg, len, src)](javascript:call_link\('abensql_functions_string.htm'\))
+[RIGHT(arg,len)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
 
 arg: see below
-len: positive [numeric literal](javascript:call_link\('abencds_f1_literal.htm'\)) greater than 0 and less than or equal to 1333
-src: [character literal](javascript:call_link\('abencds_f1_literal.htm'\))
+len: positive [numeric literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) greater than 0 and less than or equal to 1333
 
-[SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) if arg has the type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), else [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length len
+[SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) if arg has the type [SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), else [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with length len
 
-[RTRIM(arg, char)](javascript:call_link\('abensql_functions_string.htm'\))
-
-arg: see below
-char: [Character literal](javascript:call_link\('abencds_f1_literal.htm'\)) with length 1
-
-[SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) if arg has the type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), else [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with the length of arg.
-
-[SUBSTRING(arg, pos, len)](javascript:call_link\('abensql_functions_string.htm'\))
+[RPAD(arg, len, src)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
 
 arg: see below
-pos and len: positive [numeric literal](javascript:call_link\('abencds_f1_literal.htm'\)) not equal to zero
+len: positive [numeric literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) greater than 0 and less than or equal to 1333
+src: [character literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm)
 
-[SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)) if arg has the type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)), else [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) or [NUMC](javascript:call_link\('abenddic_builtin_types.htm'\))with length of at lest len
+[SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) if arg has the type [SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), else [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with length len
 
-[UPPER( arg )](javascript:call_link\('abensql_functions_string.htm'\))
+[RTRIM(arg, char)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
 
-See below, with the exception of [NUMC](javascript:call_link\('abenddic_builtin_types.htm'\)), [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) and [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\))
+arg: see below
+char: [Character literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) with length 1
+
+[SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) if arg has the type [SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), else [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with the length of arg.
+
+[SUBSTRING(arg, pos, len)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
+
+arg: see below
+pos and len: positive [numeric literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) not equal to zero
+
+[SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) if arg has the type [SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), else [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) or [NUMC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)with length of at lest len
+
+[UPPER( arg )](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_functions_string.htm)
+
+See below, with the exception of [NUMC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DATS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) and [TIMS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
 
 Data types of arg in the lenght of arg
 
 The following can be specified as the arguments arg:
 
--   [Literals](javascript:call_link\('abencds_f1_literal.htm'\)) of a suitable type. The literal can be prefixed with the name of a domain.
+-   [Literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_literal.htm) of a suitable type. The literal can be prefixed with the name of a domain.
 
--   Suitable [fields](javascript:call_link\('abencds_f1_field.htm'\)) of a data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)) of the current CDS view.
+-   Suitable [fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_field.htm) of a data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm) of the current CDS view.
 
--   [Path expressions](javascript:call_link\('abencds_f1_path_expression.htm'\)) that identify a suitable field of a data source [data\_source](javascript:call_link\('abencds_f1_data_source.htm'\)).
+-   [Path expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_path_expression.htm) that identify a suitable field of a data source [data\_source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_data_source.htm).
 
--   [Input parameters](javascript:call_link\('abencds_f1_parameter.htm'\)) from the parameter list [parameter\_list](javascript:call_link\('abencds_f1_parameter_list.htm'\)).
+-   [Input parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter.htm) from the parameter list [parameter\_list](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_parameter_list.htm).
 
 -   The following predefined functions and expressions (if they return a matching type):
 
--   Other predefined [SQL functions](javascript:call_link\('abencds_f1_sql_functions.htm'\))
+-   Other predefined [SQL functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions.htm)
 
--   [Arithmetic expressions](javascript:call_link\('abencds_f1_arithmetic_expression.htm'\))
+-   [Arithmetic expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_arithmetic_expression.htm)
 
--   Type modifications using [CAST](javascript:call_link\('abencds_f1_cast_expression.htm'\))
+-   Type modifications using [CAST](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_cast_expression.htm)
 
-The valid argument types for arg, arg1, arg2, and arg3 are [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)), [CLNT](javascript:call_link\('abenddic_builtin_types.htm'\)), [LANG](javascript:call_link\('abenddic_builtin_types.htm'\)), [NUMC](javascript:call_link\('abenddic_builtin_types.htm'\)), [CUKY](javascript:call_link\('abenddic_builtin_types.htm'\)), [UNIT](javascript:call_link\('abenddic_builtin_types.htm'\)), [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)), [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)), and [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The valid argument types for arg, arg1, arg2, and arg3 are [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CLNT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [LANG](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [NUMC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CUKY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [UNIT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DATS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [TIMS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), and [SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm).
 
 In functions where an explicit length len is specified, the actual length of the result is defined when the CDS view is activated and is at least as long as len.
 
@@ -319,7 +319,7 @@ In all functions with the exception of LPAD and RPAD, the trailing blanks of all
 
 Note
 
-The characters in the [surrogate area](javascript:call_link\('abensurrogate_area_glosry.htm'\) "Glossary Entry") of the [system code page](javascript:call_link\('abensystem_codepage_glosry.htm'\) "Glossary Entry") [UTF-16](javascript:call_link\('abenutf16_glosry.htm'\) "Glossary Entry") are handled as two characters by the CDS string functions. This must be respected when the length is determined and these characters must not be split by mistake. Functions UPPER and LOWER do not change the character of the surrogate area.
+The characters in the [surrogate area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensurrogate_area_glosry.htm "Glossary Entry") of the [system code page](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_codepage_glosry.htm "Glossary Entry") [UTF-16](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenutf16_glosry.htm "Glossary Entry") are handled as two characters by the CDS string functions. This must be respected when the length is determined and these characters must not be split by mistake. Functions UPPER and LOWER do not change the character of the surrogate area.
 
 Example
 
@@ -366,7 +366,7 @@ define view demo\_cds\_sql\_functions\_string
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, Built-In Functions](javascript:call_link\('abencds_f1_builtin_functions.htm'\)) →  [ABAP CDS - sql\_functions](javascript:call_link\('abencds_f1_sql_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, Built-In Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_builtin_functions.htm) →  [ABAP CDS - sql\_functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_sql_functions.htm) → 
 
 ABAP CDS - coalesce
 
@@ -376,6 +376,6 @@ Syntax
 
 Effect
 
-Coalesce function in a [SELECT statement](javascript:call_link\('abencds_f1_select_statement.htm'\)) of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). The coalesce function returns the value of the argument arg1 (if this is not the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry")); otherwise it returns the value of the argument arg2. The arguments can be literals, fields of a data source, input parameters, predefined functions, or expressions of data types [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)), [SSTR](javascript:call_link\('abenddic_builtin_types.htm'\)), [CLNT](javascript:call_link\('abenddic_builtin_types.htm'\)), [LANG](javascript:call_link\('abenddic_builtin_types.htm'\)), [NUMC](javascript:call_link\('abenddic_builtin_types.htm'\)), [CUKY](javascript:call_link\('abenddic_builtin_types.htm'\)), [UNIT](javascript:call_link\('abenddic_builtin_types.htm'\)), [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)), [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)), [FLTP](javascript:call_link\('abenddic_builtin_types.htm'\)), [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)), [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)), [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT1](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)), or [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)) or [INT8](javascript:call_link\('abenddic_builtin_types.htm'\)).
+Coalesce function in a [SELECT statement](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_select_statement.htm) of a [CDS view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry"). The coalesce function returns the value of the argument arg1 (if this is not the [null value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennull_value_glosry.htm "Glossary Entry")); otherwise it returns the value of the argument arg2. The arguments can be literals, fields of a data source, input parameters, predefined functions, or expressions of data types [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [SSTR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CLNT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [LANG](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [NUMC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CUKY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [UNIT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DATS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [TIMS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [FLTP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [DEC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [CURR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [QUAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), or [INT4](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) or [INT8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm).
 
 The data types of both arguments must either match of the data type of one argument must represent the full value of the other data type. The result has the dictionary type of the argument with the greater value range.

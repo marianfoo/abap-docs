@@ -3,30 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_abexas.htm)
-- [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_parameters_abexa.htm)
-- [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_exceptions_abexa.htm)
-- [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenparallel_rfc_abexa.htm)
-- [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_dynamic_dest_abexa.htm)
-- [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_logon_data_abexa.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.944Z
-
----
-
 ### abenrfc_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -34,26 +11,19 @@ Included pages: 6
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [RFC - Remote Function Call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc.htm) → 
 
 Examples for Remote Function Call
 
 Continue
-![Example](exa.gif "Example") [Parameter Passing in sRFC and aRFC](javascript:call_link\('abenrfc_parameters_abexa.htm'\))
-![Example](exa.gif "Example") [Exception Handling in RFC](javascript:call_link\('abenrfc_exceptions_abexa.htm'\))
-![Example](exa.gif "Example") [Parallel Asynchronous RFC](javascript:call_link\('abenparallel_rfc_abexa.htm'\))
-![Example](exa.gif "Example") [Dynamic RFC Destination](javascript:call_link\('abenrfc_dynamic_dest_abexa.htm'\))
-![Example](exa.gif "Example") [Implicit Logon Data in RFC](javascript:call_link\('abenrfc_logon_data_abexa.htm'\))
+![Example](exa.gif "Example") [Parameter Passing in sRFC and aRFC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_parameters_abexa.htm)
+![Example](exa.gif "Example") [Exception Handling in RFC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_exceptions_abexa.htm)
+![Example](exa.gif "Example") [Parallel Asynchronous RFC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenparallel_rfc_abexa.htm)
+![Example](exa.gif "Example") [Dynamic RFC Destination](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_dynamic_dest_abexa.htm)
+![Example](exa.gif "Example") [Implicit Logon Data in RFC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_logon_data_abexa.htm)
 
-
-
-**📖 Source**: [abenrfc_abexas.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_abexas.htm)
 
 ### abenrfc_parameters_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_parameters_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -61,7 +31,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) →  [Examples for Remote Function Call](javascript:call_link\('abenrfc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [RFC - Remote Function Call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc.htm) →  [Examples for Remote Function Call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_abexas.htm) → 
 
 Parameter Passing in sRFC and aRFC
 
@@ -154,21 +124,14 @@ START-OF-SELECTION.
 
 Description
 
-The function module DEMO\_RFM\_PARAMETERS is called using [synchronous](javascript:call_link\('abapcall_function_destination.htm'\)) and [asynchronous](javascript:call_link\('abapcall_function_starting.htm'\)) RFC.
+The function module DEMO\_RFM\_PARAMETERS is called using [synchronous](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_function_destination.htm) and [asynchronous](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_function_starting.htm) RFC.
 
 -   In synchronous calls, parameters are passed and applied directly in the statement CALL FUNCTION.
 
--   In asynchronous calls, parameters can only be passed in the statement CALL FUNCTION. Parameters are applied using the statement [RECEIVE](javascript:call_link\('abapreceive.htm'\)) in a callback routine. The statement [WAIT FOR ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_until.htm'\)) is used to wait for this routine.
+-   In asynchronous calls, parameters can only be passed in the statement CALL FUNCTION. Parameters are applied using the statement [RECEIVE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreceive.htm) in a callback routine. The statement [WAIT FOR ASYNCHRONOUS TASKS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwait_until.htm) is used to wait for this routine.
 
-
-
-**📖 Source**: [abenrfc_parameters_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_parameters_abexa.htm)
 
 ### abenrfc_exceptions_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_exceptions_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -176,7 +139,7 @@ The function module DEMO\_RFM\_PARAMETERS is called using [synchronous](javascri
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) →  [Examples for Remote Function Call](javascript:call_link\('abenrfc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [RFC - Remote Function Call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc.htm) →  [Examples for Remote Function Call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_abexas.htm) → 
 
 Exception Handling in RFC
 
@@ -220,14 +183,7 @@ The DEMO\_RFM\_CLASSIC\_EXCEPTION function module triggers the non-class-based e
 When DEMO\_RFM\_CLASSIC\_EXCEPTION is called, EXCEPTIONS is specified and values for sy-subrc are assigned to the possible classic exceptions. If none of the predefined RFC interface exceptions are raised, sy-subrc is set to 3.
 
 
-
-**📖 Source**: [abenrfc_exceptions_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_exceptions_abexa.htm)
-
 ### abenparallel_rfc_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenparallel_rfc_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -235,7 +191,7 @@ When DEMO\_RFM\_CLASSIC\_EXCEPTION is called, EXCEPTIONS is specified and values
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) →  [Examples for Remote Function Call](javascript:call_link\('abenrfc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [RFC - Remote Function Call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc.htm) →  [Examples for Remote Function Call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_abexas.htm) → 
 
 Parallel Asynchronous RFC
 
@@ -322,21 +278,14 @@ START-OF-SELECTION.
 
 Description
 
-Parallel asynchronous processing of the function module RFC\_SYSTEM\_INFO using [asynchronous remote function calls](javascript:call_link\('abenasynchronous_rfc_glosry.htm'\) "Glossary Entry"). Ten calls with different task IDs name are made, which each run in a separate [work process](javascript:call_link\('abenwork_process_glosry.htm'\) "Glossary Entry"). The callback routine callbback\_meth counts the completed function modules and receives information about the target system.
+Parallel asynchronous processing of the function module RFC\_SYSTEM\_INFO using [asynchronous remote function calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasynchronous_rfc_glosry.htm "Glossary Entry"). Ten calls with different task IDs name are made, which each run in a separate [work process](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwork_process_glosry.htm "Glossary Entry"). The callback routine callbback\_meth counts the completed function modules and receives information about the target system.
 
-The addition GROUP DEFAULT is used to distribute the execution across all [AS Instances](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry")s of the current AS ABAP. If no more free work processes are available after at least one successful call, the execution of the program is stopped until all function modules started up to that point have been completed. This stoppage is limited to a maximum of 5 seconds.
+The addition GROUP DEFAULT is used to distribute the execution across all [AS Instances](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapplication_server_glosry.htm "Glossary Entry")s of the current AS ABAP. If no more free work processes are available after at least one successful call, the execution of the program is stopped until all function modules started up to that point have been completed. This stoppage is limited to a maximum of 5 seconds.
 
 After all function modules have been started, the system waits until all callback routines have been executed. After that, the internal table task\_list filled there is produced. The output shows the order in which the individual tasks were completed and on which AS Instance.
 
 
-
-**📖 Source**: [abenparallel_rfc_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenparallel_rfc_abexa.htm)
-
 ### abenrfc_dynamic_dest_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_dynamic_dest_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -344,11 +293,11 @@ After all function modules have been started, the system waits until all callbac
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) →  [Examples for Remote Function Call](javascript:call_link\('abenrfc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [RFC - Remote Function Call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc.htm) →  [Examples for Remote Function Call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_abexas.htm) → 
 
 Dynamic RFC Destination
 
-This example demonstrates how [dynamic destinations](javascript:call_link\('abenrfc_destination.htm'\)) are created.
+This example demonstrates how [dynamic destinations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_destination.htm) are created.
 
 Source Code
 
@@ -413,20 +362,10 @@ START-OF-SELECTION.
 
 Description
 
-The method CREATE\_RFC\_DESTINATION of class CL\_DYNAMIC\_DESTINATION is used to create a [dynamic destination](javascript:call_link\('abenrfc_destination.htm'\)). Input values, whose default values are determined from system fields for the current AS ABAP, are passed as parameters. A remote-enabled function module is called using the dynamic destination. The call is only successful if the destination is created correctly.
+The method CREATE\_RFC\_DESTINATION of class CL\_DYNAMIC\_DESTINATION is used to create a [dynamic destination](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_destination.htm). Input values, whose default values are determined from system fields for the current AS ABAP, are passed as parameters. A remote-enabled function module is called using the dynamic destination. The call is only successful if the destination is created correctly.
 
-
-
-**📖 Source**: [abenrfc_dynamic_dest_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_dynamic_dest_abexa.htm)
 
 ### abenrfc_logon_data_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_logon_data_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenrfc_logon_data_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_logon_data_abexa.htm)
-
 
   
 
@@ -434,7 +373,7 @@ The method CREATE\_RFC\_DESTINATION of class CL\_DYNAMIC\_DESTINATION is used to
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) →  [Examples for Remote Function Call](javascript:call_link\('abenrfc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [RFC - Remote Function Call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc.htm) →  [Examples for Remote Function Call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_abexas.htm) → 
 
 Implicit Logon Data in RFC
 
@@ -484,6 +423,6 @@ START-OF-SELECTION.
 
 Description
 
-A remote-enabled function module DEMO\_RFM\_LOGON\_DATA is called with the destination "NONE" using the RFC interface. The logon data user name, client, and logon language of the corresponding [RFC session](javascript:call_link\('abenrfc_context.htm'\)) are provided implicitly. To demonstrate that the [logon language](javascript:call_link\('abenlogon_language_glosry.htm'\) "Glossary Entry") of the RFC session is set by the language of the [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry") of the caller, this is set before the call with the statement [SET LOCALE LANGUAGE](javascript:call_link\('abapset_locale.htm'\)) to a language different from the logon language of the caller. In the called RFM the language of the text environment of the RFC session is also changed and is then different to the logon language there as well.
+A remote-enabled function module DEMO\_RFM\_LOGON\_DATA is called with the destination "NONE" using the RFC interface. The logon data user name, client, and logon language of the corresponding [RFC session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrfc_context.htm) are provided implicitly. To demonstrate that the [logon language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogon_language_glosry.htm "Glossary Entry") of the RFC session is set by the language of the [text environment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_environment_glosry.htm "Glossary Entry") of the caller, this is set before the call with the statement [SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_locale.htm) to a language different from the logon language of the caller. In the called RFM the language of the text environment of the RFC session is also changed and is then different to the logon language there as well.
 
 If the function module DEMO\_RFM\_LOGON\_DATA is called remotely again, the RFC session is reused with the existing logon data. Changing the language of the text environment again in the caller would have no effect.

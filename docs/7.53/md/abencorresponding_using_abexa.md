@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [Assigning Components: Examples](javascript:call_link\('abencorresponding_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding.htm) →  [Assigning Components: Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_abexas.htm) → 
 
 Component operator, lookup table
 
-This example demonstrates the [component operator](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)) with FROM ... USING.
+This example demonstrates the [component operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_corresponding.htm) with FROM ... USING.
 
 Source Code
 
@@ -104,7 +104,7 @@ START-OF-SELECTION.
 
 Description
 
-This example joins two internal tables itab and itab2 in a constructor expression with the component operator CORRESPONDING, which uses the [variant with lookup table](javascript:call_link\('abencorresponding_constr_using.htm'\)).
+This example joins two internal tables itab and itab2 in a constructor expression with the component operator CORRESPONDING, which uses the [variant with lookup table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_using.htm).
 
 -   The first assignment specifies the conditionb1 = a1 b2 = a2 without a mapping rule after USING. In the lookup\_tab, one row is found for the first and third row of itab and its identically named components are assigned to the corresponding row of itab, where b1 and b2 from lookup\_tab and a1 and a2 from itab are ignored here. The only identically named component is c1. All other components keep their preceding value from itab. The second row is taken unchanged from itab1.
 

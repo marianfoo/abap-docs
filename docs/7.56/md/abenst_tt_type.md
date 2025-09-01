@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Structure of ST Programs](javascript:call_link\('abenst_programs_structure.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_st.htm) →  [ST - Structure of ST Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_programs_structure.htm) → 
 
 ST - tt:type, tt:front, tt:node, Type Definitions
 
@@ -28,13 +28,13 @@ Syntax
 
 Effect
 
-The [data roots](javascript:call_link\('abenst_tt_root.htm'\)) used in an ST program can optionally be assigned type specifications. As a rule, types from the repository (ABAP Dictionary, types of global classes) are used, although separate type definitions can also be made in the ST program. An ST program outside of a template can contain one or more definitions of types with statement tt:type. The attribute name is used to declare a symbolic name that can be used to type data roots and in other type definitions.
+The [data roots](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_root.htm) used in an ST program can optionally be assigned type specifications. As a rule, types from the repository (ABAP Dictionary, types of global classes) are used, although separate type definitions can also be made in the ST program. An ST program outside of a template can contain one or more definitions of types with statement tt:type. The attribute name is used to declare a symbolic name that can be used to type data roots and in other type definitions.
 
 Elementary, structured, and tabular types can all be defined, which can be partially or completely generic. Moreover, references to globally defined data types of the repository and to types of the same ST program defined using tt:type are possible. Reference types cannot be defined as standalone types, but they can be created by using references to reference types from the ABAP repository.
 
 Namespaces
 
-The following XML namespaces in [asXML format](javascript:call_link\('abenabap_xslt_asxml.htm'\)) must be used to specify types from the repository and from the same ST program:
+The following XML namespaces in [asXML format](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xslt_asxml.htm) must be used to specify types from the repository and from the same ST program:
 
 -   http://www.sap.com/abapxml/types/dictionary describes ABAP Dictionary.
 -   http://www.sap.com/abapxml/types/type-pool/name describes the type pool name.
@@ -79,7 +79,7 @@ The line type of a tabular type can be partly or completely generic. The latter 
 
 Definition of Reference Types
 
-There is currently no ref-type addition available in tt:types for the definition of reference types. Standalone reference types can be created only by using a reference to a reference type in the ABAP repository. [tt:parameter](javascript:call_link\('abenst_tt_parameter.htm'\)) and [tt:variable](javascript:call_link\('abenst_tt_variable.htm'\)), however, do have a ref-type addition.
+There is currently no ref-type addition available in tt:types for the definition of reference types. Standalone reference types can be created only by using a reference to a reference type in the ABAP repository. [tt:parameter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_parameter.htm) and [tt:variable](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_variable.htm), however, do have a ref-type addition.
 
 Definition of Generic Types
 

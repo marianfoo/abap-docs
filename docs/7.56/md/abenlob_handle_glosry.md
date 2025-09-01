@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 LOB handle
 
-An object from one of the [system classes](javascript:call_link\('abensystem_class_glosry.htm'\) "Glossary Entry") that support [streaming](javascript:call_link\('abenabap_sql_streaming.htm'\)) and [locators](javascript:call_link\('abenlocators.htm'\)) for [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry"). These classes all implement the [interface](javascript:call_link\('abenoo_intf_glosry.htm'\) "Glossary Entry") IF\_ABAP\_DB\_LOB\_HANDLE. See also: [LOB Handle Structure](javascript:call_link\('abenlob_handle_structure_glosry.htm'\) "Glossary Entry").
+An object from one of the [system classes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_class_glosry.htm "Glossary Entry") that support [streaming](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_streaming.htm) and [locators](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocators.htm) for [LOBs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlob_glosry.htm "Glossary Entry") in [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_glosry.htm "Glossary Entry"). These classes all implement the [interface](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoo_intf_glosry.htm "Glossary Entry") IF\_ABAP\_DB\_LOB\_HANDLE. See also: [LOB Handle Structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlob_handle_structure_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenstreams_locators.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstreams_locators.htm)

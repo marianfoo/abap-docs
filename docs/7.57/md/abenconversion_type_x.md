@@ -4,15 +4,17 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) →  [Byte-Like Source Fields](javascript:call_link\('abenbyte_source_fields.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_elementary.htm) →  [Byte-Like Source Fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbyte_source_fields.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Source Field Type x, ABENCONVERSION_TYPE_X, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0
 D%0ASuggestion for improvement:)
 
 Source Field Type x
 
--   [Numeric Target Fields](#abenconversion-type-x-1-------character-like-target-fields---@ITOC@@ABENCONVERSION_TYPE_X_2)
--   [Byte-Like Target Fields](#abenconversion-type-x-3-------date-time-fields-as-target-fields---@ITOC@@ABENCONVERSION_TYPE_X_4)
+-   [Numeric Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_X_1)
+-   [Character-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_X_2)
+-   [Byte-Like Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_X_3)
+-   [Date/Time Fields as Target Fields](#@@ITOC@@ABENCONVERSION_TYPE_X_4)
 
 Numeric Target Fields   
 
@@ -22,7 +24,7 @@ Conversion
 
 i, (b, s)
 
-Only the last 4 bytes of the source field are converted. If the source field is shorter than 4 bytes, it is extended on the left with the hexadecimal 0 until it is 4 bytes long. The content of these bytes is interpreted as a number stored in big endian order, of type i. The hexadecimal values from "00000000" to 7FFFFFFF are assigned to numbers from +0 to +2147483647 and the hexadecimal values from 80000000 to FFFFFFFF are assigned to the numbers -2147483648 to -1. The number obtained in this way is converted to the internal representation of the corresponding integer. If the [value range](javascript:call_link\('abenvalue_range_glosry.htm'\) "Glossary Entry") of data types b or s is not sufficient, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
+Only the last 4 bytes of the source field are converted. If the source field is shorter than 4 bytes, it is extended on the left with the hexadecimal 0 until it is 4 bytes long. The content of these bytes is interpreted as a number stored in big endian order, of type i. The hexadecimal values from "00000000" to 7FFFFFFF are assigned to numbers from +0 to +2147483647 and the hexadecimal values from 80000000 to FFFFFFFF are assigned to the numbers -2147483648 to -1. The number obtained in this way is converted to the internal representation of the corresponding integer. If the [value range](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_range_glosry.htm "Glossary Entry") of data types b or s is not sufficient, the catchable exception CX\_SY\_CONVERSION\_OVERFLOW is raised.
 
 int8
 
@@ -30,15 +32,15 @@ Only the last 8 bytes of the source field are converted. If the source field is 
 
 p
 
-The content of the source field is first converted to data type i (see above) and then to type p (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type p (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_ibs.htm)).
 
 decfloat16, decfloat34
 
-The content of the source field is first converted into data type i (see above) and then into type decfloat16 or decfloat34 (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted into data type i (see above) and then into type decfloat16 or decfloat34 (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_ibs.htm)).
 
 f
 
-The content of the source field is first converted to data type i (see above) and then to type f (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type f (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_ibs.htm)).
 
 Example
 
@@ -59,7 +61,7 @@ The values of each half-byte in the source field are converted to the hexadecima
 
 n
 
-The content of the source field is first converted to data type i (see above) and then to type n (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type n (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_ibs.htm)).
 
 string
 
@@ -103,11 +105,11 @@ Conversion
 
 d
 
-The content of the source field is first converted to data type i (see above) and then to type d (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type d (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_ibs.htm)).
 
 t
 
-The content of the source field is first converted to data type i (see above) and then to type t (see [conversion table for source field type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\))).
+The content of the source field is first converted to data type i (see above) and then to type t (see [conversion table for source field type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_type_ibs.htm)).
 
 utclong
 

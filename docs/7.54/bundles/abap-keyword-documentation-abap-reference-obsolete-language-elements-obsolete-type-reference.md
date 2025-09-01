@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobsolete_typing.htm)
-- [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlike_obsolete.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.956Z
-
----
-
 ### abenobsolete_typing.htm
-
-> **📖 Official SAP Documentation**: [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobsolete_typing.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,27 +11,17 @@ Included pages: 2
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Type Reference
 
--   [Obsolete use of LIKE](javascript:call_link\('abenlike_obsolete.htm'\))
+-   [Obsolete use of LIKE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlike_obsolete.htm)
 
 Continue
-[LIKE - obsolete](javascript:call_link\('abenlike_obsolete.htm'\))
+[LIKE - obsolete](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlike_obsolete.htm)
 
-
-
-**📖 Source**: [abenobsolete_typing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobsolete_typing.htm)
 
 ### abenlike_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlike_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenlike_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlike_obsolete.htm)
-
 
   
 
@@ -58,7 +29,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Type Reference](javascript:call_link\('abenobsolete_typing.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Type Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobsolete_typing.htm) → 
 
 LIKE - obsolete
 
@@ -68,13 +39,13 @@ Obsolete Syntax
 
 Effect
 
-Outside of classes, the addition LIKE can also be used to refer to [flat structures](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry"), [database tables](javascript:call_link\('abendatabase_table_glosry.htm'\) "Glossary Entry"), or [classic views](javascript:call_link\('abenclassical_view_glosry.htm'\) "Glossary Entry") in ABAP Dictionary, as well as to their components. A LIKE reference to the flat components of a deep dictionary structure is not possible. This affects the following ways of using LIKE:
+Outside of classes, the addition LIKE can also be used to refer to [flat structures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenflat_structure_glosry.htm "Glossary Entry"), [database tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_table_glosry.htm "Glossary Entry"), or [classic views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclassical_view_glosry.htm "Glossary Entry") in ABAP Dictionary, as well as to their components. A LIKE reference to the flat components of a deep dictionary structure is not possible. This affects the following ways of using LIKE:
 
--   in the declarative statements [TYPES](javascript:call_link\('abaptypes.htm'\)), [DATA](javascript:call_link\('abapdata.htm'\)), and so on.
+-   in the declarative statements [TYPES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes.htm), [DATA](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata.htm), and so on.
 
--   in [complete typings](javascript:call_link\('abentyping_complete.htm'\))
+-   in [complete typings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentyping_complete.htm)
 
--   in the statement [PARAMETERS](javascript:call_link\('abapparameters_type.htm'\))
+-   in the statement [PARAMETERS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapparameters_type.htm)
 
 If there is a data object called dtype in a local context, then this object obscures the data type from ABAP Dictionary.
 
@@ -82,7 +53,7 @@ Notes
 
 -   The addition LIKE should only be used to refer to data objects.
 
--   It is not possible to make a LIKE reference to a [CDS](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") entity. It is possible, however, to make a LIKE reference to a [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry").
+-   It is not possible to make a LIKE reference to a [CDS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_entity_glosry.htm "Glossary Entry") entity. It is possible, however, to make a LIKE reference to a [CDS database view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_database_view_glosry.htm "Glossary Entry").
 
 -   Always use the addition TYPE to refer to data types.
 

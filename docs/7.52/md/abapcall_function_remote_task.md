@@ -6,7 +6,7 @@ SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
 CALL FUNCTION - IN REMOTE TASK
 
-[Quick Reference](javascript:call_link\('abapcall_function_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function_shortref.htm)
 
 Syntax
 

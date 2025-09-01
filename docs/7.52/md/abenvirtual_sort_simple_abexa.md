@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [System Class for Internal Tables](javascript:call_link\('abencl_abap_itab.htm'\)) →  [Examples of Virtual Sorting of Internal Tables](javascript:call_link\('abenvirtual_sort_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab.htm) →  [System Class for Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencl_abap_itab.htm) →  [Examples of Virtual Sorting of Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvirtual_sort_abexas.htm) → 
 
 Virtual Sorting of an Internal Table
 
@@ -83,4 +83,4 @@ START-OF-SELECTION.
 
 Description
 
-An internal table filled with random numbers and letters is sorted virtually using the method VIRTUAL\_SORT of system class CL\_ABAP\_ITAB\_UTILITIES, first in ascending order by the first two columns and then in descending alphabetical order by the last two columns. The returned array contains the row numbers in the respective sort order. This array is used to fill an internal table sorted\_tab according to the sorting. To compare, an internal table test\_tab with the same content is constructed and sorted with the statement [SORT](javascript:call_link\('abapsort_itab.htm'\)). The results are the same in both cases.
+An internal table filled with random numbers and letters is sorted virtually using the method VIRTUAL\_SORT of system class CL\_ABAP\_ITAB\_UTILITIES, first in ascending order by the first two columns and then in descending alphabetical order by the last two columns. The returned array contains the row numbers in the respective sort order. This array is used to fill an internal table sorted\_tab according to the sorting. To compare, an internal table test\_tab with the same content is constructed and sorted with the statement [SORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsort_itab.htm). The results are the same in both cases.

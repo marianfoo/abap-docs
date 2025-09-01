@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numerical Functions](javascript:call_link\('abenmathematical_functions.htm'\)) →  [Examples of numerical functions](javascript:call_link\('abennumerical_functions_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompute_expressions.htm) →  [Numerical Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmathematical_functions.htm) →  [Examples of numerical functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumerical_functions_abexas.htm) → 
 
 Extremum Functions nmax, nmin
 
-This example demonstrates the extremum functions [nmax](javascript:call_link\('abennmax_nmin_functions.htm'\)) and [nmin](javascript:call_link\('abennmax_nmin_functions.htm'\)).
+This example demonstrates the extremum functions [nmax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennmax_nmin_functions.htm) and [nmin](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennmax_nmin_functions.htm).
 
 Source Code
 

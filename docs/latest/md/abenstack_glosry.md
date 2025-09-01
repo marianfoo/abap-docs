@@ -4,10 +4,10 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_glossary.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20stack%2C%20ABENSTACK_GLOSRY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 stack
 
-Part of the [program memory](javascript:call_link\('abenroll_area_glosry.htm'\) "Glossary Entry") in which [named data objects](javascript:call_link\('abennamed_data_object_glosry.htm'\) "Glossary Entry") of programs and [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") are stacked. The memory used by a procedure is released again once the procedure ends. See also [heap](javascript:call_link\('abenheap_glosry.htm'\) "Glossary Entry").
+Part of the [program memory](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenroll_area_glosry.htm "Glossary Entry") in which [named data objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennamed_data_object_glosry.htm "Glossary Entry") of programs and [procedures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprocedure_glosry.htm "Glossary Entry") are stacked. The memory used by a procedure is released again once the procedure ends. See also [heap](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenheap_glosry.htm "Glossary Entry").

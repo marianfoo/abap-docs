@@ -4,17 +4,19 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Character String and Byte String Processing - Overview](javascript:call_link\('abenstring_processing_oview.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_string.htm) →  [Character String and Byte String Processing - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_oview.htm) → 
 
 Character Strings and Byte Chains
 
--   [Character Strings](#abenstring-processing-strings-1--------byte-chains---@ITOC@@ABENSTRING_PROCESSING_STRINGS_2)
+-   [Character Strings](#@@ITOC@@ABENSTRING_PROCESSING_STRINGS_1)
+
+-   [Byte Chains](#@@ITOC@@ABENSTRING_PROCESSING_STRINGS_2)
 
 Character Strings
 
-Character-like data objects contain character strings. A character-like data object either has a character-like data type (c, n, or string) or it is a date/time type (d or t), or it is a [flat structure](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry") with exclusively character-like components.
+Character-like data objects contain character strings. A character-like data object either has a character-like data type (c, n, or string) or it is a date/time type (d or t), or it is a [flat structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_structure_glosry.htm "Glossary Entry") with exclusively character-like components.
 
-ABAP supports the character format [UCS-2](javascript:call_link\('abenucs2_glosry.htm'\) "Glossary Entry") and a character always occupies two bytes. This ensures that all characters from the system code page [UTF-16](javascript:call_link\('abenutf16_glosry.htm'\) "Glossary Entry") are handled correctly (except for those in the [surrogate area](javascript:call_link\('abensurrogate_area_glosry.htm'\) "Glossary Entry")). These characters occupy four bytes and hence are handled as two characters by ABAP. This can produce unexpected results when cutting character strings or comparing individual characters in character sets.
+ABAP supports the character format [UCS-2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenucs2_glosry.htm "Glossary Entry") and a character always occupies two bytes. This ensures that all characters from the system code page [UTF-16](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenutf16_glosry.htm "Glossary Entry") are handled correctly (except for those in the [surrogate area](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensurrogate_area_glosry.htm "Glossary Entry")). These characters occupy four bytes and hence are handled as two characters by ABAP. This can produce unexpected results when cutting character strings or comparing individual characters in character sets.
 
 Byte Chains
 

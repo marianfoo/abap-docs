@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) →  [FIND](javascript:call_link\('abapfind.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_statements.htm) →  [FIND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind.htm) → 
 
 FIND - pattern
 
-[Quick Reference](javascript:call_link\('abapfind_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_shortref.htm)
 
 Syntax
 
@@ -21,11 +21,11 @@ Variants:
 
 Effect
 
-Defines a search string for the statements [FIND](javascript:call_link\('abapfind.htm'\)) and [FIND IN TABLE](javascript:call_link\('abapfind_itab.htm'\)). The search can either search for an exact substring substring or for a substring that matches a regular expression regex.
+Defines a search string for the statements [FIND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind.htm) and [FIND IN TABLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_itab.htm). The search can either search for an exact substring substring or for a substring that matches a regular expression regex.
 
 Note
 
-The statements [REPLACE](javascript:call_link\('abapreplace.htm'\)) and [REPLACE IN TABLE](javascript:call_link\('abapreplace_itab.htm'\)) use the same search string.
+The statements [REPLACE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreplace.htm) and [REPLACE IN TABLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapreplace_itab.htm) use the same search string.
 
 Variant 1
 
@@ -33,7 +33,7 @@ Variant 1
 
 Effect
 
-In this variant, a search is performed for the exact occurrence of a substring specified in a character-like or byte-like operand substring. substring is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry"). The optional word SUBSTRING can be specified for emphasis.
+In this variant, a search is performed for the exact occurrence of a substring specified in a character-like or byte-like operand substring. substring is a [character-like expression position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry"). The optional word SUBSTRING can be specified for emphasis.
 
 If substring is an empty string or is of type c, n, d, or t and only contains blanks, a search is performed for an empty substring. This is only possible when searching for the first instance, and the empty substring is always found before the first character or byte. In character string processing, the trailing blanks are ignored for substring data objects of fixed length.
 
@@ -86,9 +86,9 @@ Variant 2
 
 Effect
 
-In this variant, a search is performed for a match with a regular expression specified in regex. For regex, either a character-like operand can be specified that contains a [valid, regular expression](javascript:call_link\('abenregex_syntax.htm'\)) when the statement is executed, or an object reference variable that points to an instance of the class CL\_ABAP\_REGEX. If specified directly, regex is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry").
+In this variant, a search is performed for a match with a regular expression specified in regex. For regex, either a character-like operand can be specified that contains a [valid, regular expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_syntax.htm) when the statement is executed, or an object reference variable that points to an instance of the class CL\_ABAP\_REGEX. If specified directly, regex is a [character-like expression position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
 
-In searches using a regular expression, specific [search strings](javascript:call_link\('abenregex_search.htm'\)) can be entered that permit further conditions including forecast conditions. The occurrences are determined according to the "leftmost-longest" rule. Of all the possible matches between the regular expression and the required character string, the substring starting in the furthest position to the left is selected. If there are several matches in this position, the longest of these substrings is selected.
+In searches using a regular expression, specific [search strings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_search.htm) can be entered that permit further conditions including forecast conditions. The occurrences are determined according to the "leftmost-longest" rule. Of all the possible matches between the regular expression and the required character string, the substring starting in the furthest position to the left is selected. If there are several matches in this position, the longest of these substrings is selected.
 
 An empty substring in regex is not a valid regular expression and raises an exception. A character string is empty if regex is either an empty string or is of type c, n, d, or t and only contains blanks.
 
@@ -96,7 +96,7 @@ Notes
 
 -   Some regular expressions that are not empty, such as a\*, are used to search for empty character strings. This is possible when searching for the first occurrence or all occurrences. The relevant empty substrings are found before the first character, between all characters, and after the last character of the search ranges. A range of this type is always successful.
     
--   A regular expression can have correct syntax, but be too complex for the execution of the statement FIND, which raises a handleable exception of the class CX\_SY\_REGEX\_TOO\_COMPLEX. See [Exceptions in Regular Expressions](javascript:call_link\('abenregex_exceptions.htm'\)).
+-   A regular expression can have correct syntax, but be too complex for the execution of the statement FIND, which raises a handleable exception of the class CX\_SY\_REGEX\_TOO\_COMPLEX. See [Exceptions in Regular Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_exceptions.htm).
     
 
 Example

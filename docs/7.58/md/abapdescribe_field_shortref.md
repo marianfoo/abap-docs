@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  D
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_shortref.htm) →  D
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DESCRIBE%20FIELD%2C%20ABAPDESCRIBE_FIELD_SHORTREF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DESCRIBE FIELD - Short Reference
 
-[Reference](javascript:call_link\('abapdescribe_field.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_field.htm)
 
 Syntax
 
@@ -33,10 +33,10 @@ Additions  
 -   LENGTH ilen IN *{*BYTE*|*CHARACTER*}* MODE
     Returns the length in bytes or characters in ilen.
 -   DECIMALS dec
-    Returns the number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") in dec.
+    Returns the number of [decimal places](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecimal_place_glosry.htm "Glossary Entry") in dec.
 -   OUTPUT-LENGTH olen
-    Returns the output length on the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") in olen.
+    Returns the output length on the [screens](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_glosry.htm "Glossary Entry") in olen.
 -   HELP-ID hlp
     Returns the name of the data element in ABAP Dictionary referred to by the type of dobj hlp.
 -   EDIT MASK mask
-    Returns the name of the [conversion exit](javascript:call_link\('abenconversion_exit_glosry.htm'\) "Glossary Entry") that is assigned to the type of dobj in mask.
+    Returns the name of the [conversion exit](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_exit_glosry.htm "Glossary Entry") that is assigned to the type of dobj in mask.

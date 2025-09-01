@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) →  [REPLACE](javascript:call_link\('abapreplace.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_processing_statements.htm) →  [REPLACE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreplace.htm) → 
 
 REPLACE SECTION OF
 
-[Short Reference](javascript:call_link\('abapreplace_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreplace_shortref.htm)
 
 Syntax
 
@@ -21,7 +21,7 @@ Addition:
 
 Effect
 
-In position-based replacements, the section in dobj is replaced starting at the offset specified in off for the length specified in len with the content of the operand new. The same applies to the additions OFFSET and LENGTH as to [FIND SECTION OF](javascript:call_link\('abapfind_section_of.htm'\)).
+In position-based replacements, the section in dobj is replaced starting at the offset specified in off for the length specified in len with the content of the operand new. The same applies to the additions OFFSET and LENGTH as to [FIND SECTION OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfind_section_of.htm).
 
 Addition   
 
@@ -29,7 +29,7 @@ Addition  
 
 Effect
 
-The optional addition IN *{*CHARACTER*|*BYTE*}* MODE determines whether [character string or byte string processing](javascript:call_link\('abenstring_processing_statements.htm'\)) is performed. If the addition is not specified, character string processing is performed. Depending on the processing type, dobj and new must be character-like or byte-like.
+The optional addition IN *{*CHARACTER*|*BYTE*}* MODE determines whether [character string or byte string processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_processing_statements.htm) is performed. If the addition is not specified, character string processing is performed. Depending on the processing type, dobj and new must be character-like or byte-like.
 
 Example
 
@@ -46,7 +46,7 @@ REPLACE SECTION OFFSET off LENGTH len OF:
                 text1 WITH 'should know that',
                 text2 WITH 'should know that'.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 

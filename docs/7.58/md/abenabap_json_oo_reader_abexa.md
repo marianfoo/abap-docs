@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) →  [JSON - Examples](javascript:call_link\('abenabap_json_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json.htm) →  [JSON - Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20JSON%20-%20Parsing%2C%20ABENABAP_JSON_OO_READER_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 JSON - Parsing
 
-The example demonstrates the parsing of [JSON data](javascript:call_link\('abenjson_oview.htm'\)).
+The example demonstrates the parsing of [JSON data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_oview.htm).
 
 Source Code   
 
@@ -128,6 +128,6 @@ ENDCLASS.
 
 Description   
 
-The string json is filled with valid JSON data, which is then displayed. The JSON data is parsed by a [JSON reader](javascript:call_link\('abenjson_reader_glosry.htm'\) "Glossary Entry"). The method used is the same as in the executable example [sXML Library, Object-Oriented Parsing](javascript:call_link\('abensxml_oo_parsing_abexa.htm'\)). The information about the parsed nodes is appended to an internal table and then displayed.
+The string json is filled with valid JSON data, which is then displayed. The JSON data is parsed by a [JSON reader](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_reader_glosry.htm "Glossary Entry"). The method used is the same as in the executable example [sXML Library, Object-Oriented Parsing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensxml_oo_parsing_abexa.htm). The information about the parsed nodes is appended to an internal table and then displayed.
 
-Also, an XML string writer for the standard XML 1.0 is filled with the nodes. The output string is obtained and displayed. It demonstrates the [JSON-XML representation](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") of the parsed JSON data.
+Also, an XML string writer for the standard XML 1.0 is filled with the nodes. The output string is obtained and displayed. It demonstrates the [JSON-XML representation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_xml_glosry.htm "Glossary Entry") of the parsed JSON data.

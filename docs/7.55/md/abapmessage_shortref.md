@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  M
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  M
 
 MESSAGE - Quick reference
 
-[Reference](javascript:call_link\('abapmessage.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage.htm)
 
 Syntax
 
@@ -24,42 +24,42 @@ MESSAGE *{* tn
 
 Effect
 
-Sends a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry").
+Sends a [message](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmessage_glosry.htm "Glossary Entry").
 
 Additions
 
 Specifies the message and message type:
 
--   [tn](javascript:call_link\('abapmessage_msg.htm'\)) (message type t, message number n, message class from the addition MESSAGE-ID of the program introduction)
+-   [tn](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_msg.htm) (message type t, message number n, message class from the addition MESSAGE-ID of the program introduction)
     
 
--   [tn(id)](javascript:call_link\('abapmessage_msg.htm'\)) (message type t, message number n, message class id)
+-   [tn(id)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_msg.htm) (message type t, message number n, message class id)
     
 
--   [ID mid TYPE mtype NUMBER num](javascript:call_link\('abapmessage_msg.htm'\)) (message type from mtype, message number from num, message class from mid)
+-   [ID mid TYPE mtype NUMBER num](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_msg.htm) (message type from mtype, message number from num, message class from mid)
     
 
--   [oref TYPE mtype](javascript:call_link\('abapmessage_msg.htm'\)) (message type from mtype, message number and message class from the interface IF\_T100\_MESSAGE implemented in the [dynamic type](javascript:call_link\('abendynamic_type_glosry.htm'\) "Glossary Entry") of the object reference variable oref)
+-   [oref TYPE mtype](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_msg.htm) (message type from mtype, message number and message class from the interface IF\_T100\_MESSAGE implemented in the [dynamic type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynamic_type_glosry.htm "Glossary Entry") of the object reference variable oref)
     
 
--   [text TYPE mtype](javascript:call_link\('abapmessage_text.htm'\)) (message type from mtype, message text from text)
+-   [text TYPE mtype](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_text.htm) (message type from mtype, message text from text)
     
 
 Specifies the display type:
 
--   [DISPLAY LIKE dtype](javascript:call_link\('abapmessage.htm'\))
+-   [DISPLAY LIKE dtype](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage.htm)
     Displays the message in a dialog box and uses the icon of the message type specified in dtype.
     
 
--   [INTO text](javascript:call_link\('abapmessage.htm'\))
+-   [INTO text](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage.htm)
     Returns the message text in text; the message is not sent.
     
 
--   [WITH dobj1 ... dobj4](javascript:call_link\('abapmessage.htm'\))
+-   [WITH dobj1 ... dobj4](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage.htm)
     Replaces the placeholders "&1" to "&4" and "&" of the message text with the contents of dobj1, ... dobj4.
     
 
 Raises a non-class-based exception
 
--   [RAISING exception](javascript:call_link\('abapmessage_raising.htm'\))
-    Either sends the message or raises a non-class-based exception exception in a [function module](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") or in a method. An exception is raised to which return values were assigned in the call; another exception sends the message.
+-   [RAISING exception](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_raising.htm)
+    Either sends the message or raises a non-class-based exception exception in a [function module](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction_module_glosry.htm "Glossary Entry") or in a method. An exception is raised to which return values were assigned in the call; another exception sends the message.

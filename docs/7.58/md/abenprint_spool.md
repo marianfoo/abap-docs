@@ -4,16 +4,17 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Spool](javascript:call_link\('abenprint.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpro_list.htm) →  [Lists - Spool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprint.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Lists%20-%20Spool%20List%20Levels%20and%20Spool%20Requests%2C%20ABENPRINT_SPOOL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvem
 ent:)
 
 Lists - Spool List Levels and Spool Requests
 
-Every output to a spool list is assigned to exactly one [spool request](javascript:call_link\('abenspool_request_glosry.htm'\) "Glossary Entry"). For every spool request, [spool parameters](javascript:call_link\('abenprint_parameters.htm'\)) are specified that can no longer be changed. Spool lists can be stacked in spool list levels. A spool list level always has exactly one spool request assigned to it.
+Every output to a spool list is assigned to exactly one [spool request](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenspool_request_glosry.htm "Glossary Entry"). For every spool request, [spool parameters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprint_parameters.htm) are specified that can no longer be changed. Spool lists can be stacked in spool list levels. A spool list level always has exactly one spool request assigned to it.
 
--   [Spool List Levels](#abenprint-spool-1-------open-spool-requests---@ITOC@@ABENPRINT_SPOOL_2)
+-   [Spool List Levels](#@@ITOC@@ABENPRINT_SPOOL_1)
+-   [Open Spool Requests](#@@ITOC@@ABENPRINT_SPOOL_2)
 -   [Close Spool Requests](#@@ITOC@@ABENPRINT_SPOOL_3)
 
 Spool List Levels   
@@ -21,10 +22,10 @@ Spool List Levels  
 The following operations create a new spool list level:
 
 -   Choosing Execute + Print on the selection screen
--   Program call with [SUBMIT TO SAP-SPOOL](javascript:call_link\('abapsubmit_list_options.htm'\))
+-   Program call with [SUBMIT TO SAP-SPOOL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsubmit_list_options.htm)
 -   Executing a program in a background job
--   [Dynpro sequence](javascript:call_link\('abendynpro_sequence_glosry.htm'\) "Glossary Entry") call using [CALL SCREEN](javascript:call_link\('abapcall_screen.htm'\)) if a spool request is already open.
--   Executing the statement [NEW-PAGE PRINT ON](javascript:call_link\('abapnew-page_print.htm'\)). This statement, however, does not create an arbitrarily stackable spool list level.
+-   [Dynpro sequence](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_sequence_glosry.htm "Glossary Entry") call using [CALL SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_screen.htm) if a spool request is already open.
+-   Executing the statement [NEW-PAGE PRINT ON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapnew-page_print.htm). This statement, however, does not create an arbitrarily stackable spool list level.
     
     -   In a spool list level created with NEW-PAGE PRINT ON, no other spool list level can be created with NEW-PAGE PRINT ON. However, the other operations for creating spool list levels are still valid. If the addition NEW SECTION is used in NEW-PAGE PRINT ON, the existing request is used again or it is closed implicitly before a new one is opened.
     -   In a spool list level not created with NEW-PAGE PRINT ON or while creating a screen list, no more than one spool list level can be created using NEW-PAGE PRINT ON.
@@ -36,7 +37,7 @@ Up to 20 spool list levels can be stacked.
 
 Open Spool Requests   
 
-The first output statement within a spool list level opens a new spool request whose [spool number](javascript:call_link\('abenspool_number_glosry.htm'\) "Glossary Entry") is placed into system field sy-spono. If another spool request is already open, it remains open and is used again after the spool list level has been exited. In a spool list level that has been created by calling a dynpro sequence, the spool request inherits the spool parameters of the preceding spool request. In all other cases, the explicitly specified spool parameters apply.
+The first output statement within a spool list level opens a new spool request whose [spool number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenspool_number_glosry.htm "Glossary Entry") is placed into system field sy-spono. If another spool request is already open, it remains open and is used again after the spool list level has been exited. In a spool list level that has been created by calling a dynpro sequence, the spool request inherits the spool parameters of the preceding spool request. In all other cases, the explicitly specified spool parameters apply.
 
 Close Spool Requests   
 
@@ -52,4 +53,4 @@ It is best always to close a spool request that was opened using NEW-PAGE PRINT 
 
 Executable Example
 
-[Lists, Spooling](javascript:call_link\('abenprint_list_abexa.htm'\)).
+[Lists, Spooling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprint_list_abexa.htm).

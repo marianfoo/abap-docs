@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  W
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  W
 
 WRITE TO itab - Quick reference
 
-[Reference](javascript:call_link\('abapwrite_to_itab.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_to_itab.htm)
 
 Syntax
 
@@ -24,5 +24,5 @@ Additions
 -   *\[*+off*\]**\[*(len)*\]*
     Writes to the section from position pos and the length len of the table row.
     
--   [format\_options](javascript:call_link\('abapwrite_to_options.htm'\))
-    Additions as in the statement [WRITE TO](javascript:call_link\('abapwrite_to_shortref.htm'\)) for variables.
+-   [format\_options](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_to_options.htm)
+    Additions as in the statement [WRITE TO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_to_shortref.htm) for variables.

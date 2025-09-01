@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_win](javascript:call_link\('abapselect_over.htm'\)) →  [sql\_win - Examples of Window Expressions](javascript:call_link\('abensql_expr_over_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_win](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_over.htm) →  [sql\_win - Examples of Window Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_over_abexas.htm) → 
 
 sql\_win - Window Expressions with Sort
 
-This example demonstrates [window expressions](javascript:call_link\('abapselect_over.htm'\)) with a sort.
+This example demonstrates [window expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_over.htm) with a sort.
 
 Source Code
 
@@ -121,7 +121,7 @@ START-OF-SELECTION.
 
 Description
 
-The example compares SELECT statements with identical [window expressions](javascript:call_link\('abapselect_over.htm'\)) with and without the addition ORDER BY specified after OVER. The use of the [ranking functions](javascript:call_link\('abenranking_function_glosry.htm'\) "Glossary Entry") [RANK](javascript:call_link\('abensql_win_func.htm'\)) and [DENSE\_RANK](javascript:call_link\('abensql_win_func.htm'\)) is only possible in combination with this addition.
+The example compares SELECT statements with identical [window expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_over.htm) with and without the addition ORDER BY specified after OVER. The use of the [ranking functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenranking_function_glosry.htm "Glossary Entry") [RANK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_win_func.htm) and [DENSE\_RANK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_win_func.htm) is only possible in combination with this addition.
 
 -   If the addition ORDER BY is not specified after OVER, the window functions are executed in an undefined order for all rows of the windows defined by the content of the column CHAR1:
     -   The aggregate functions COUNT, MAX, MIN, and SUM evaluate all rows of a window.

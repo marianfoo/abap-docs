@@ -3,27 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-- [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-- [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.958Z
-
----
-
 ### abencl_osql.htm
-
-> **📖 Official SAP Documentation**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,60 +11,43 @@ Included pages: 3
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) → 
 
 ABAP SQL - System Classes
 
 The following system classes are available for extending the scope of the ABAP SQL language:
 
--   [CL\_OSQL\_EXTENDED\_RESULT](javascript:call_link\('abencl_osql_extended_result.htm'\)) handles extended results
+-   [CL\_OSQL\_EXTENDED\_RESULT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm) handles extended results
 
--   s[CL\_OSQL\_REPLACE](javascript:call_link\('abencl_osql_replace.htm'\)) provides a replacement service for executing [module tests](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry")
+-   s[CL\_OSQL\_REPLACE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm) provides a replacement service for executing [module tests](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunit_test_glosry.htm "Glossary Entry")
 
 Continue
-[CL\_OSQL\_EXTENDED\_RESULT - Extended Result](javascript:call_link\('abencl_osql_extended_result.htm'\))
-[CL\_OSQL\_REPLACE - Replacement Service](javascript:call_link\('abencl_osql_replace.htm'\))
+[CL\_OSQL\_EXTENDED\_RESULT - Extended Result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
+[CL\_OSQL\_REPLACE - Replacement Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
 
-
-
-**📖 Source**: [abencl_osql.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm)
 
 ### abencl_osql_extended_result.htm
 
-> **📖 Official SAP Documentation**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - System Classes](javascript:call_link\('abencl_osql.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - System Classes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm) → 
 
 CL\_OSQL\_EXTENDED\_RESULT - Extended Result
 
-An object of the system class CL\_OSQL\_EXTENDED\_RESULT can be specified with the addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of a [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause as the target object for an extended result of a [SELECT](javascript:call_link\('abapselect.htm'\)), [WITH](javascript:call_link\('abapwith.htm'\)), or [FETCH](javascript:call_link\('abapfetch.htm'\))statement. First, the object must be created and the instance constructor must be told which values the extended result will contain.
+An object of the system class CL\_OSQL\_EXTENDED\_RESULT can be specified with the addition [EXTENDED RESULT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_extended_result.htm) of a [INTO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm) clause as the target object for an extended result of a [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm), [WITH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwith.htm), or [FETCH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfetch.htm)statement. First, the object must be created and the instance constructor must be told which values the extended result will contain.
 
-Currently, an extended result can be used to check whether a [query](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry") can read data from the cache when accessing a [cached view](javascript:call_link\('abenhana_cached_views.htm'\)) of the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry").
+Currently, an extended result can be used to check whether a [query](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenquery_glosry.htm "Glossary Entry") can read data from the cache when accessing a [cached view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views.htm) of the [SAP HANA database](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry").
 
 Example
 
-See [SAP HANA, Cached Views](javascript:call_link\('abenhana_cached_views_abexa.htm'\))
+See [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_cached_views_abexa.htm)
 
-
-
-**📖 Source**: [abencl_osql_extended_result.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_extended_result.htm)
 
 ### abencl_osql_replace.htm
-
-> **📖 Official SAP Documentation**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencl_osql_replace.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql_replace.htm)
-
 
   
 
@@ -92,17 +55,23 @@ See [SAP HANA, Cached Views](javascript:call_link\('abenhana_cached_views_abexa.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - System Classes](javascript:call_link\('abencl_osql.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - System Classes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_osql.htm) → 
 
 CL\_OSQL\_REPLACE - Replacement Service
 
-The system class CL\_OSQL\_REPLACE implements a replacement service that can be used to redirect access to data sources in [ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") statements during the execution of [unit tests](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") [ABAP Unit](javascript:call_link\('abenabap_unit_glosry.htm'\) "Glossary Entry"). The system class CL\_OSQL\_REPLACE can only be used in [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") by [ABAP Unit](javascript:call_link\('abenabap_unit_glosry.htm'\) "Glossary Entry").
+The system class CL\_OSQL\_REPLACE implements a replacement service that can be used to redirect access to data sources in [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry") statements during the execution of [unit tests](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunit_test_glosry.htm "Glossary Entry") [ABAP Unit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_unit_glosry.htm "Glossary Entry"). The system class CL\_OSQL\_REPLACE can only be used in [test classes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentest_class_glosry.htm "Glossary Entry") by [ABAP Unit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_unit_glosry.htm "Glossary Entry").
 
--   [Defining Replacement Rules](#abencl-osql-replace-1--------additional-methods---@ITOC@@ABENCL_OSQL_REPLACE_2)
+-   [Defining Replacement Rules](#@@ITOC@@ABENCL_OSQL_REPLACE_1)
 
--   [Restrictions and Special Features](#abencl-osql-replace-3--------data-sources-of-reads---@ITOC@@ABENCL_OSQL_REPLACE_4)
+-   [Additional Methods](#@@ITOC@@ABENCL_OSQL_REPLACE_2)
 
--   [Targets of Writes](#abencl-osql-replace-5--------example---@ITOC@@ABENCL_OSQL_REPLACE_6)
+-   [Restrictions and Special Features](#@@ITOC@@ABENCL_OSQL_REPLACE_3)
+
+-   [Data Sources of Reads](#@@ITOC@@ABENCL_OSQL_REPLACE_4)
+
+-   [Targets of Writes](#@@ITOC@@ABENCL_OSQL_REPLACE_5)
+
+-   [Example](#@@ITOC@@ABENCL_OSQL_REPLACE_6)
 
 Defining Replacement Rules
 
@@ -114,31 +83,31 @@ The static method ACTIVATE\_REPLACEMENT of the system class CL\_OSQL\_REPLACE is
 
 -   The second column, TARGET, contains the name of a database object in the current database to which an ABAP SQL access to the data source named in the first column is redirected.
 
--   The third column, SCHEMA, contains the name of a [database schema](javascript:call_link\('abendatabase_schema_glosry.htm'\) "Glossary Entry") to be searched to find the database object from the second column. If the third column is empty, the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry") is used.
+-   The third column, SCHEMA, contains the name of a [database schema](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_schema_glosry.htm "Glossary Entry") to be searched to find the database object from the second column. If the third column is empty, the [ABAP database schema](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") is used.
 
 -   An ID can be passed to the parameter FLG\_DML to define whether the redirection also applies to write ABAP SQL statements:
 
--   If the value abap\_false is passed to the parameter FLG\_DML, the redirection only applies to [queries](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry"), that is, to the [main queries](javascript:call_link\('abenmainquery_glosry.htm'\) "Glossary Entry") of [reads](javascript:call_link\('abenopen_sql_reading.htm'\)) and for the [subqueries](javascript:call_link\('abensubquery_glosry.htm'\) "Glossary Entry") of all accesses.
+-   If the value abap\_false is passed to the parameter FLG\_DML, the redirection only applies to [queries](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenquery_glosry.htm "Glossary Entry"), that is, to the [main queries](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmainquery_glosry.htm "Glossary Entry") of [reads](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_reading.htm) and for the [subqueries](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubquery_glosry.htm "Glossary Entry") of all accesses.
 
--   If the value abap\_true is passed to the parameter FLG\_DML, the redirection also applies to the database tables to be changed by [writes](javascript:call_link\('abenopen_sql_writing.htm'\)).
+-   If the value abap\_true is passed to the parameter FLG\_DML, the redirection also applies to the database tables to be changed by [writes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_writing.htm).
 
 -   An ID can be passed to the parameter FLG\_SURVIVE\_SUBMIT to define whether the redirection also applies to called programs:
 
 -   If the value of abap\_false is passed to the parameter FLG\_SURVIVE\_SUBMIT, the redirection applies only to the current program.
 
--   If the value of abap\_true is passed to the parameter FLG\_SURVIVE\_SUBMIT, the redirection also applies to programs called using [SUBMIT](javascript:call_link\('abapsubmit.htm'\)), [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)), and [CALL DIALOG](javascript:call_link\('abapcall_dialog.htm'\)).
+-   If the value of abap\_true is passed to the parameter FLG\_SURVIVE\_SUBMIT, the redirection also applies to programs called using [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm), [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transaction.htm), and [CALL DIALOG](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_dialog.htm).
 
 The redirection can be made to any database objects, in particular variants of the database tables or views defined in the ABAP Dictionary. The database objects that are redirected to must have the same structure as the object that is redirected from, otherwise the result is database specific and exceptions may arise.
 
-A successful redirection applies for the entire execution of a module test until the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") is ended or there is another redirection. A redirection is ended explicitly if an empty internal table is passed to the method ACTIVATE\_REPLACEMENT.
+A successful redirection applies for the entire execution of a module test until the [internal session](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninternal_session_glosry.htm "Glossary Entry") is ended or there is another redirection. A redirection is ended explicitly if an empty internal table is passed to the method ACTIVATE\_REPLACEMENT.
 
 Notes
 
--   From a technical perspective, a redirection replaces the names of the database objects in the platform-specific SQL statements, which the [database interface](javascript:call_link\('abendatabase_interface_glosry.htm'\) "Glossary Entry") generates from the ABAP SQL statements and passes to the database system.
+-   From a technical perspective, a redirection replaces the names of the database objects in the platform-specific SQL statements, which the [database interface](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_interface_glosry.htm "Glossary Entry") generates from the ABAP SQL statements and passes to the database system.
 
 -   Redirection of the data sources used by ABAP SQL is used during module tests so that test tables and test data can be processed instead of the actual tables and their data. In particular, this enables testing of system programs that access system tables.
 
--   In the case of redirections in called programs using the parameter FLG\_SURVIVE\_SUBMIT, program calls using [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) without the addition AND RETURN are pointless.
+-   In the case of redirections in called programs using the parameter FLG\_SURVIVE\_SUBMIT, program calls using [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm) without the addition AND RETURN are pointless.
 
 Additional Methods
 
@@ -156,29 +125,29 @@ The following applies to data sources of reads:
 
 -   The data source of a read can only be redirected to an object defined in ABAP Dictionary if the object appears in the database with the name that it is defined with in ABAP Dictionary.
 
--   To redirect a read from a [projection view](javascript:call_link\('abenprojection_view_glosry.htm'\) "Glossary Entry") to another data source, the underlying database table can be redirected.
+-   To redirect a read from a [projection view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprojection_view_glosry.htm "Glossary Entry") to another data source, the underlying database table can be redirected.
 
 -   It is not possible to redirect to the following:
 
--   [Projection views](javascript:call_link\('abenprojection_view_glosry.htm'\) "Glossary Entry")
+-   [Projection views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprojection_view_glosry.htm "Glossary Entry")
 
--   [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry")
+-   [CDS entities](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_entity_glosry.htm "Glossary Entry")
 
 -   If the data source of a subquery in the WHERE condition of a write statement is redirected to the target of the write, the behavior is undefined and unexpected errors may occur.
 
--   The following should be noted for [CDS entities](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"):
+-   The following should be noted for [CDS entities](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry"):
 
--   If a read is redirected to a CDS view or a CDS table function for which one or more [CDS roles](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry") are defined as part of [CDS access control](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry"), the associated access conditions are evaluated independently of the target of the redirection. CDS roles that are defined for the target of a redirection are ignored.
+-   If a read is redirected to a CDS view or a CDS table function for which one or more [CDS roles](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_access_control_glosry.htm "Glossary Entry") are defined as part of [CDS access control](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_role_glosry.htm "Glossary Entry"), the associated access conditions are evaluated independently of the target of the redirection. CDS roles that are defined for the target of a redirection are ignored.
 
--   The following should be noted for [CDS table functions](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry"):
+-   The following should be noted for [CDS table functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_table_function_glosry.htm "Glossary Entry"):
 
--   A CDS table function can only be redirected to a [table function](javascript:call_link\('abentable_function_glosry.htm'\) "Glossary Entry"). However, this does not have to be an [AMDP function](javascript:call_link\('abenamdp_function_glosry.htm'\) "Glossary Entry").
+-   A CDS table function can only be redirected to a [table function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_function_glosry.htm "Glossary Entry"). However, this does not have to be an [AMDP function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_function_glosry.htm "Glossary Entry").
 
--   If a direct or indirect read of a CDS table function is redirected to another data source, the [static constructor](javascript:call_link\('abenstatic_constructor_glosry.htm'\) "Glossary Entry") of the [AMDP class](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") in which the associated [AMDP table function](javascript:call_link\('abenamdp_table_function_glosry.htm'\) "Glossary Entry") is implemented is executed.
+-   If a direct or indirect read of a CDS table function is redirected to another data source, the [static constructor](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_constructor_glosry.htm "Glossary Entry") of the [AMDP class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_class_glosry.htm "Glossary Entry") in which the associated [AMDP table function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_table_function_glosry.htm "Glossary Entry") is implemented is executed.
 
--   If a read of a data source is redirected to an [AMDP](javascript:call_link\('abenamdp_table_function_glosry.htm'\) "Glossary Entry") table function that is known in the current AS ABAP, the [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry") framework creates the associated variant in the database if necessary, and the [static constructor](javascript:call_link\('abenstatic_constructor_glosry.htm'\) "Glossary Entry") of the associated [AMDP](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") class is executed.
+-   If a read of a data source is redirected to an [AMDP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_table_function_glosry.htm "Glossary Entry") table function that is known in the current AS ABAP, the [AMDP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_glosry.htm "Glossary Entry") framework creates the associated variant in the database if necessary, and the [static constructor](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatic_constructor_glosry.htm "Glossary Entry") of the associated [AMDP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_class_glosry.htm "Glossary Entry") class is executed.
 
--   If the source or target of a redirection is a database table of the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry") defined in ABAP Dictionary, for which a [replacement object](javascript:call_link\('abenreplacement_object_glosry.htm'\) "Glossary Entry") is defined, the redirection is evaluated first and then the replacement object.
+-   If the source or target of a redirection is a database table of the [ABAP database schema](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") defined in ABAP Dictionary, for which a [replacement object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreplacement_object_glosry.htm "Glossary Entry") is defined, the redirection is evaluated first and then the replacement object.
 
 -   If a data source of a read is redirected to a database table for which a replacement object is defined, a redirect to the replacement object is made.
 
@@ -186,19 +155,19 @@ The following applies to data sources of reads:
 
 -   If a replacement object is defined for a database table and the replacement object is redirected, the redirection is ignored. The replacement object is accessed here.
 
--   A redirection always bypasses [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry").
+-   A redirection always bypasses [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm "Glossary Entry").
 
 Targets of Writes
 
 The same restrictions apply to the target of a write as to the data sources of reads, if applicable. In addition, targets of writes cannot be redirected to the following objects defined in ABAP Dictionary:
 
--   [Classic views](javascript:call_link\('abenclassical_view_glosry.htm'\) "Glossary Entry")
+-   [Classic views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclassical_view_glosry.htm "Glossary Entry")
 
--   Database tables with active [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry")
+-   Database tables with active [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm "Glossary Entry")
 
--   Database tables with active [logging](javascript:call_link\('abenddic_database_tables_protocol.htm'\))
+-   Database tables with active [logging](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_protocol.htm)
 
-Writes to a [projection view](javascript:call_link\('abenprojection_view_glosry.htm'\) "Glossary Entry") cannot be redirected if the rows to be changed are defined by a work area or an internal table. Therefore, it is only possible to redirect accesses to the database table of a projection view if there are no writes to the view (except with the statements [DELETE](javascript:call_link\('abapdelete_dbtab.htm'\)) with a WHERE condition or [UPDATE](javascript:call_link\('abapupdate.htm'\)) with the addition SET). Otherwise, a runtime error occurs.
+Writes to a [projection view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprojection_view_glosry.htm "Glossary Entry") cannot be redirected if the rows to be changed are defined by a work area or an internal table. Therefore, it is only possible to redirect accesses to the database table of a projection view if there are no writes to the view (except with the statements [DELETE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_dbtab.htm) with a WHERE condition or [UPDATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate.htm) with the addition SET). Otherwise, a runtime error occurs.
 
 Example
 
@@ -208,7 +177,7 @@ See the program DEMO\_CL\_OSQL\_REPLACE.
 
 -   The test class test\_prod tests the methods of the production class.
 
--   In the method setup, access to SCARR is redirected for read and write ABAP SQL statements with cl\_osql\_replace=>activate\_replacement to a test table DEMO\_TEST\_SCARR, which was defined in ABAP Dictionary as a copy of SCARR. The database schema of DEMO\_TEST\_SCARR is passed here explicitly for demonstration purposes, but this is not necessary for database objects from the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry").
+-   In the method setup, access to SCARR is redirected for read and write ABAP SQL statements with cl\_osql\_replace=>activate\_replacement to a test table DEMO\_TEST\_SCARR, which was defined in ABAP Dictionary as a copy of SCARR. The database schema of DEMO\_TEST\_SCARR is passed here explicitly for demonstration purposes, but this is not necessary for database objects from the [ABAP database schema](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_db_schema_glosry.htm "Glossary Entry").
 
 -   In the method setup, the test table DEMO\_TEST\_SCARR is supplied with two rows of test data from an internal table testdata.
 

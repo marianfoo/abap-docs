@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) →  [WRITE, TO](javascript:call_link\('abapwrite_to.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_statements.htm) →  [WRITE, TO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm) → 
 
 WRITE, format\_options
 
-[Short Reference](javascript:call_link\('abapwrite_to_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to_shortref.htm)
 
 Syntax
 
@@ -52,11 +52,11 @@ Additions:
 
 Effect
 
-These formatting options override the [predefined formats](javascript:call_link\('abenwrite_formats.htm'\)) of the statements [WRITE ... TO](javascript:call_link\('abapwrite_to.htm'\)) and [WRITE](javascript:call_link\('abapwrite-.htm'\)). Without these additions, the content of the source field is formatted only according to its data type.
+These formatting options override the [predefined formats](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_formats.htm) of the statements [WRITE ... TO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_to.htm) and [WRITE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite-.htm). Without these additions, the content of the source field is formatted only according to its data type.
 
-The result of the formatting is adapted to the available length. In the case of WRITE ... TO, this is the length of the target variable and for WRITE, this is the [output length](javascript:call_link\('abenwrite_output_length.htm'\)). In some cases, the behavior of the additions used [with WRITE](javascript:call_link\('abapwrite_int_options.htm'\)) can differ from the general behavior in the case of WRITE ... TO.
+The result of the formatting is adapted to the available length. In the case of WRITE ... TO, this is the length of the target variable and for WRITE, this is the [output length](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_output_length.htm). In some cases, the behavior of the additions used [with WRITE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_int_options.htm) can differ from the general behavior in the case of WRITE ... TO.
 
-If a [conversion routine](javascript:call_link\('abenconversion_routine_glosry.htm'\) "Glossary Entry") is executed during formatting, the other formatting options are ignored.
+If a [conversion routine](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_routine_glosry.htm "Glossary Entry") is executed during formatting, the other formatting options are ignored.
 
 The additions can be used together, with the following restrictions:
 
@@ -68,7 +68,7 @@ The additions can be used together, with the following restrictions:
 
 Hint
 
-Since the definition of a [decimal floating point number in the ABAP Dictionary](javascript:call_link\('abenddic_decimal_floating_point.htm'\)) always defines an output format, the same exclusions apply to the output of data objects declared with reference to this type in the ABAP Dictionary as when using the addition STYLE.
+Since the definition of a [decimal floating point number in the ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_decimal_floating_point.htm) always defines an output format, the same exclusions apply to the output of data objects declared with reference to this type in the ABAP Dictionary as when using the addition STYLE.
 
 Addition 1
 
@@ -78,7 +78,7 @@ Effect
 
 This addition determines whether the content of the source field that is formatted according to the other options is adjusted within the available length to the right, the center, or to the left. Trailing blanks are ignored for fields of type c and are handled like all other characters for fields of type string.
 
-The alignment is done by filling surplus positions in the result either from the right or from the left or alternately from the left and right with blanks. If the available length is not sufficient, source fields of the types c and string are truncated on the left in right-aligned alignment, unlike the usual [truncation behavior](javascript:call_link\('abenwrite_truncations.htm'\)).
+The alignment is done by filling surplus positions in the result either from the right or from the left or alternately from the left and right with blanks. If the available length is not sufficient, source fields of the types c and string are truncated on the left in right-aligned alignment, unlike the usual [truncation behavior](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_truncations.htm).
 
 Example
 
@@ -101,7 +101,7 @@ This addition cannot be used together with additions ENVIRONMENT TIME FORMAT and
 
 Effect
 
-This addition determines the exponent when formatting [floating point numbers](javascript:call_link\('abenfloating_point_number_glosry.htm'\) "Glossary Entry"). The addition EXPONENT affects source fields of the type f or when the addition STYLE is specified. Otherwise it is ignored.
+This addition determines the exponent when formatting [floating point numbers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfloating_point_number_glosry.htm "Glossary Entry"). The addition EXPONENT affects source fields of the type f or when the addition STYLE is specified. Otherwise it is ignored.
 
 exp expects a data object of the type i that contains the required exponent.
 
@@ -132,7 +132,7 @@ When formatting data objects of the data types (s), i, int8, p, decfloat16, or d
 
 Example
 
-If not defined otherwise in the [format settings](javascript:call_link\('abenformat_setting_glosry.htm'\) "Glossary Entry"), the result of the formats is 1,000,000 and 1000000.
+If not defined otherwise in the [format settings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenformat_setting_glosry.htm "Glossary Entry"), the result of the formats is 1,000,000 and 1000000.
 
 DATA text TYPE c LENGTH 20.
 SET COUNTRY 'US'.
@@ -198,9 +198,9 @@ This addition cannot be used together with the additions STYLE, ENVIRONMENT TIME
 
 Effect
 
-This addition determines the currency-dependent [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") when formatting data objects of the numeric data types (b, s), i, int8, p and f, decfloat16 or decfloat34. For all other data types, the addition is ignored.
+This addition determines the currency-dependent [decimal places](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecimal_place_glosry.htm "Glossary Entry") when formatting data objects of the numeric data types (b, s), i, int8, p and f, decfloat16 or decfloat34. For all other data types, the addition is ignored.
 
-For all allowed numeric data types, cur expects a character-like field that contains a [currency ID](javascript:call_link\('abencurrency_id_glosry.htm'\) "Glossary Entry") from the column WAERS of the database table TCURC in uppercase letters. By default, two decimal places are used for every value entered in cur, unless the currency ID specified is in the column CURRKEY of the database table TCURX. In this case, the number of decimal places is determined using the CURRDEC column of this table.
+For all allowed numeric data types, cur expects a character-like field that contains a [currency ID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencurrency_id_glosry.htm "Glossary Entry") from the column WAERS of the database table TCURC in uppercase letters. By default, two decimal places are used for every value entered in cur, unless the currency ID specified is in the column CURRKEY of the database table TCURX. In this case, the number of decimal places is determined using the CURRDEC column of this table.
 
 For the individual numeric data types, the following applies:
 
@@ -210,15 +210,15 @@ For the individual numeric data types, the following applies:
 
 -   For data objects of type f, addition CURRENCY has the same effect as addition DECIMALS (see below), whereby the number of decimal places is determined by cur.
 
--   For data objects of type decfloat16 and decfloat34, the addition CURRENCY implicitly adds the addition STYLE cl\_abap\_format=>o\_sign\_as\_postfix, which formats the output in [commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry"). For the decimal places, it has the same effect as addition DECIMALS (see below), whereby the number of decimal places is determined by cur. If the data object is declared with reference to a data type defined in the ABAP Dictionary, the dictionary type must have the [output format Sign right](javascript:call_link\('abenddic_decimal_floating_point.htm'\)). Otherwise a syntax error occurs or an exception of class CX\_SY\_WRITE\_INVALID\_STYLE is raised.
+-   For data objects of type decfloat16 and decfloat34, the addition CURRENCY implicitly adds the addition STYLE cl\_abap\_format=>o\_sign\_as\_postfix, which formats the output in [commercial notation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencommercial_notation_glosry.htm "Glossary Entry"). For the decimal places, it has the same effect as addition DECIMALS (see below), whereby the number of decimal places is determined by cur. If the data object is declared with reference to a data type defined in the ABAP Dictionary, the dictionary type must have the [output format Sign right](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_decimal_floating_point.htm). Otherwise a syntax error occurs or an exception of class CX\_SY\_WRITE\_INVALID\_STYLE is raised.
 
 Hints
 
 -   The addition CURRENCY is useful with currencies from the tables TCURX or TCURX for formatting data objects of types (b, s), i, int8, or p without decimal places, whose contents are currency amounts in the smallest unit of the currency.
 
--   For decimal floating point numbers, the methods CONVERT\_CURR\_TO\_DECFLOAT and CONVERT\_DECFLOAT\_TO\_CURR of the system class [CL\_ABAP\_DECFLOAT](javascript:call_link\('abencl_abap_decfloat_doc.htm'\)) are also available. These convert currency amounts to decimal floating point numbers, depending on a currency key and vice versa.
+-   For decimal floating point numbers, the methods CONVERT\_CURR\_TO\_DECFLOAT and CONVERT\_DECFLOAT\_TO\_CURR of the system class [CL\_ABAP\_DECFLOAT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_abap_decfloat_doc.htm) are also available. These convert currency amounts to decimal floating point numbers, depending on a currency key and vice versa.
 
--   The restriction regarding the output format of decimal floating point numbers defined in the ABAP Dictionary does not apply to the formatting option [CURRENCY](javascript:call_link\('abapcompute_string_format_options.htm'\)) in [string templates](javascript:call_link\('abenstring_templates.htm'\)).
+-   The restriction regarding the output format of decimal floating point numbers defined in the ABAP Dictionary does not apply to the formatting option [CURRENCY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcompute_string_format_options.htm) in [string templates](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_templates.htm).
     
 
 Example
@@ -238,7 +238,7 @@ This addition cannot be used together with additions ENVIRONMENT TIME FORMAT and
 
 Effect
 
-This addition determines the number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") when formatting data objects of the data types (b, s), i, int8, p, decfloat16, decfloat34, or f, as well as for utclong. Otherwise, the addition is ignored.
+This addition determines the number of [decimal places](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecimal_place_glosry.htm "Glossary Entry") when formatting data objects of the data types (b, s), i, int8, p, decfloat16, decfloat34, or f, as well as for utclong. Otherwise, the addition is ignored.
 
 dec expects a data object of type i that contains the number of decimal places required. For the individual data types, the following applies:
 
@@ -252,7 +252,7 @@ If the content of dec is less than 0, it is handled like 0, whereby the content 
 
 -   For data objects of types decfloat16 and decfloat34, the content of dec determines the number of decimal places in mathematical or commercial notation and the number of places in the mantissa in scientific notation. If the source field has more decimal places, they are rounded to the decimal places in dec. If the source field has fewer decimal places, zeros are appended accordingly.
 
--   For data objects of type f, the content of dec determines the number of decimal places in the [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry"). If the content of dec is greater than 16, it is handled like 16. If the content of dec is greater than the number of decimal places of the source field, zeros are appended accordingly. If the content of dec is less than the number of decimal places of the source field, they are rounded to the decimal places in dec.
+-   For data objects of type f, the content of dec determines the number of decimal places in the [scientific notation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscientific_notation_glosry.htm "Glossary Entry"). If the content of dec is greater than 16, it is handled like 16. If the content of dec is greater than the number of decimal places of the source field, zeros are appended accordingly. If the content of dec is less than the number of decimal places of the source field, they are rounded to the decimal places in dec.
 
 -   Time stamp
 
@@ -282,7 +282,7 @@ Addition 8
 
 ... ROUND scale
 
-This addition cannot be used together with additions STYLE, ENVIRONMENT TIME FORMAT, TIME ZONE, and UNIT. Furthermore, ROUND cannot be used for [decimal floating point numbers defined in the ABAP Dictionary](javascript:call_link\('abenddic_decimal_floating_point.htm'\)), because these always have an assigned output format.
+This addition cannot be used together with additions STYLE, ENVIRONMENT TIME FORMAT, TIME ZONE, and UNIT. Furthermore, ROUND cannot be used for [decimal floating point numbers defined in the ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_decimal_floating_point.htm), because these always have an assigned output format.
 
 Effect
 
@@ -290,7 +290,7 @@ For source fields of data type p, this addition multiplies the value of the data
 
 scale expects a data object of type i that contains the value of the desired scaling.
 
-If the value of scale is greater than 0 and the addition DECIMALS is not specified, the interim result is rounded to the number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") defined in the data type. If the addition DECIMALS is specified, it is rounded to the number of decimal places specified in dec and these places are output.
+If the value of scale is greater than 0 and the addition DECIMALS is not specified, the interim result is rounded to the number of [decimal places](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecimal_place_glosry.htm "Glossary Entry") defined in the data type. If the addition DECIMALS is specified, it is rounded to the number of decimal places specified in dec and these places are output.
 
 If the addition CURRENCY is specified, it is applied to the content of the source field before multiplication. If the addition DECIMALS is not specified, the number of decimal places determined by cur is used for rounding and formatting. If the addition DECIMALS is specified, the value in dec is used.
 
@@ -307,13 +307,13 @@ cl\_demo\_output=>display\_text( formatted\_text ).
 Addition 9
 
 ... UNIT unit
-This addition cannot be used together with additions DECIMALS, ROUND, STYLE, ENVIRONMENT TIME FORMAT, and TIME ZONE. Furthermore, UNIT cannot be used for [decimal floating point numbers defined in the ABAP Dictionary](javascript:call_link\('abenddic_decimal_floating_point.htm'\)), because these always have an assigned output format.
+This addition cannot be used together with additions DECIMALS, ROUND, STYLE, ENVIRONMENT TIME FORMAT, and TIME ZONE. Furthermore, UNIT cannot be used for [decimal floating point numbers defined in the ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_decimal_floating_point.htm), because these always have an assigned output format.
 
 Effect
 
-This addition cuts off the [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") that have a value of 0 and that lie outside of the accuracy of a measurement unit when formatting data objects of data type p. Otherwise, the addition is ignored, except for type f.
+This addition cuts off the [decimal places](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecimal_place_glosry.htm "Glossary Entry") that have a value of 0 and that lie outside of the accuracy of a measurement unit when formatting data objects of data type p. Otherwise, the addition is ignored, except for type f.
 
-unit expects a character-like field that contains a [unit code](javascript:call_link\('abenunit_id_glosry.htm'\) "Glossary Entry") from the column MSEHI of the database table T006 in uppercase letters. The system uses column DECAN of the related line in database table T006 to determine the number of decimal places. If the content of unit is not found in T006, the addition is ignored.
+unit expects a character-like field that contains a [unit code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunit_id_glosry.htm "Glossary Entry") from the column MSEHI of the database table T006 in uppercase letters. The system uses column DECAN of the related line in database table T006 to determine the number of decimal places. If the content of unit is not found in T006, the addition is ignored.
 
 -   If the data type of source field is p and has at least as many decimal places as specified by unit, and if no other places that are not equal to 0 are cut off as a result, the content of the source field is formatted with this number of decimal places.
 
@@ -342,13 +342,13 @@ Addition 10
 
 ... ENVIRONMENT TIME FORMAT
 
-This addition cannot be used together with additions CURRENCY, DECIMALS, EXPONENT, NO-GROUPING, NO-SIGN, NO-ZERO, ROUND, STYLE, TIME ZONE, or UNIT. Furthermore, ENVIRONMENT TIME FORMAT cannot be used for [decimal floating point numbers defined in the ABAP Dictionary](javascript:call_link\('abenddic_decimal_floating_point.htm'\)), because these always have an assigned output format.
+This addition cannot be used together with additions CURRENCY, DECIMALS, EXPONENT, NO-GROUPING, NO-SIGN, NO-ZERO, ROUND, STYLE, TIME ZONE, or UNIT. Furthermore, ENVIRONMENT TIME FORMAT cannot be used for [decimal floating point numbers defined in the ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_decimal_floating_point.htm), because these always have an assigned output format.
 
 Effect
 
-When this addition is used, the formatting is based on a time specification according to the current [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry") that can be set using [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)). A 24-hour format (default) and four 12-hour formats can be set. The source field can have the type t. The addition is ignored if other types are specified.
+When this addition is used, the formatting is based on a time specification according to the current [formatting setting](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlanguage_environment_glosry.htm "Glossary Entry") that can be set using [SET COUNTRY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_country.htm). A 24-hour format (default) and four 12-hour formats can be set. The source field can have the type t. The addition is ignored if other types are specified.
 
-The required output length for the 12-hour formats is 11. If data is specified explicitly and statically in the statement WRITE for a source field with type t, an output length of at least 11 must be specified. If a dynamically specified output length or the target field in WRITE TO is shorter than 11, the truncation is performed as described [here](javascript:call_link\('abenwrite_truncations.htm'\)).
+The required output length for the 12-hour formats is 11. If data is specified explicitly and statically in the statement WRITE for a source field with type t, an output length of at least 11 must be specified. If a dynamically specified output length or the target field in WRITE TO is shorter than 11, the truncation is performed as described [here](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_truncations.htm).
 
 Hint
 
@@ -356,7 +356,7 @@ Unlike time specifications, the format of digits or dates in the statement WRITE
 
 Example
 
-The following example searches for a 12 hour format in the column TIMEFM of data base table T005X and sets the formatting settings accordingly. The time is then formatted as follows: 02:29:11 PM. For a demonstration of all formats, see the corresponding [executable example with string templates](javascript:call_link\('abenstring_template_time_abexa.htm'\)).
+The following example searches for a 12 hour format in the column TIMEFM of data base table T005X and sets the formatting settings accordingly. The time is then formatted as follows: 02:29:11 PM. For a demonstration of all formats, see the corresponding [executable example with string templates](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_template_time_abexa.htm).
 
 DATA text TYPE c LENGTH 20.
 SELECT SINGLE land
@@ -374,23 +374,23 @@ Addition 11
 
 ... TIME ZONE tz
 
-This addition cannot be used together with additions CURRENCY, ENVIRONMENT TIME FORMAT, EXPONENT, NO-GROUPING, NO-SIGN, NO-ZERO, ROUND, STYLE, or UNIT. Furthermore, TIME ZONE cannot be used for [decimal floating point numbers defined in the ABAP Dictionary](javascript:call_link\('abenddic_decimal_floating_point.htm'\)), because these always have an assigned output format.
+This addition cannot be used together with additions CURRENCY, ENVIRONMENT TIME FORMAT, EXPONENT, NO-GROUPING, NO-SIGN, NO-ZERO, ROUND, STYLE, or UNIT. Furthermore, TIME ZONE cannot be used for [decimal floating point numbers defined in the ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_decimal_floating_point.htm), because these always have an assigned output format.
 
 Effect
 
-This addition uses the [rules for time zones](javascript:call_link\('abentime_zone_rules.htm'\)) to convert the date and time information of a [time stamp](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") to the [local date](javascript:call_link\('abenlocal_date_glosry.htm'\) "Glossary Entry") and the [local time](javascript:call_link\('abenlocal_time_glosry.htm'\) "Glossary Entry") of the [time zone](javascript:call_link\('abentime_zone_glosry.htm'\) "Glossary Entry") specified in tz. The formatting follows the [predefined format](javascript:call_link\('abenwrite_formats.htm'\)) for time stamps. The addition TIME ZONE can be specified only if the source field is of one of the following data types, otherwise a syntax or runtime error occurs:
+This addition uses the [rules for time zones](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_zone_rules.htm) to convert the date and time information of a [time stamp](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_stamp_glosry.htm "Glossary Entry") to the [local date](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocal_date_glosry.htm "Glossary Entry") and the [local time](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocal_time_glosry.htm "Glossary Entry") of the [time zone](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_zone_glosry.htm "Glossary Entry") specified in tz. The formatting follows the [predefined format](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_formats.htm) for time stamps. The addition TIME ZONE can be specified only if the source field is of one of the following data types, otherwise a syntax or runtime error occurs:
 
--   [Time Stamp Type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry") [utclong](javascript:call_link\('abenbuiltin_types_date_time.htm'\)).
+-   [Time Stamp Type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentimestamp_type_glosry.htm "Glossary Entry") [utclong](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_types_date_time.htm).
 
--   Numeric data type p with length 8 without decimal places (TIMESTAMP from the ABAP Dictionary) or p with length 11 and seven decimal places (TIMESTAMPL from the ABAP Dictionary). The value of the embedded expression is interpreted as a [time stamp in a packed number](javascript:call_link\('abentime_stamps_packed.htm'\)).
+-   Numeric data type p with length 8 without decimal places (TIMESTAMP from the ABAP Dictionary) or p with length 11 and seven decimal places (TIMESTAMPL from the ABAP Dictionary). The value of the embedded expression is interpreted as a [time stamp in a packed number](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_stamps_packed.htm).
 
-The addition TIME ZONE formats source fields of these types in accordance with the [predefined format](javascript:call_link\('abenwrite_formats.htm'\)) for time stamp outputs.
+The addition TIME ZONE formats source fields of these types in accordance with the [predefined format](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_formats.htm) for time stamp outputs.
 
 -   If the addition TIME ZONE is not specified for the time stamp type utclong, it is added implicitly with an initial time zone.
 
 -   If the addition TIME ZONE is not specified for time stamps in packed numbers, these are formatted as numeric fields of the type p.
 
-tz expects a character-like data object containing a [time zone](javascript:call_link\('abentime_zone_glosry.htm'\) "Glossary Entry") from the database table TTZZ. If the [rule set](javascript:call_link\('abentime_zone_rules.htm'\)) for the specified time zone is incomplete, an uncatchable exception is raised. If tz is initial, no time shift is calculated. The conversion takes place as for the statements [CONVERT UTCLONG](javascript:call_link\('abapconvert_utclong.htm'\)) and [CONVERT TIME STAMP](javascript:call_link\('abapconvert_time-stamp.htm'\)). The special rules for the first and last second apply to the time stamp type utclong.
+tz expects a character-like data object containing a [time zone](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_zone_glosry.htm "Glossary Entry") from the database table TTZZ. If the [rule set](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_zone_rules.htm) for the specified time zone is incomplete, an uncatchable exception is raised. If tz is initial, no time shift is calculated. The conversion takes place as for the statements [CONVERT UTCLONG](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapconvert_utclong.htm) and [CONVERT TIME STAMP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapconvert_time-stamp.htm). The special rules for the first and last second apply to the time stamp type utclong.
 
 Initial values are handled as follows:
 
@@ -414,13 +414,13 @@ Error handling is as follows:
 
 Hints
 
--   The addition ENVIRONMENT TIME FORMAT cannot be specified together with TIME ZONE, which means that the 12-hour format for times cannot be used for time stamps in packed numbers. In contrast, the time stamp type utclong follows the current [formatting settings](javascript:call_link\('abenformat_setting_glosry.htm'\) "Glossary Entry") by default.
+-   The addition ENVIRONMENT TIME FORMAT cannot be specified together with TIME ZONE, which means that the 12-hour format for times cannot be used for time stamps in packed numbers. In contrast, the time stamp type utclong follows the current [formatting settings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenformat_setting_glosry.htm "Glossary Entry") by default.
 
 -   The additions DD/MM/YY, and so on, can be specified together with TIME ZONE for time stamps in packed numbers and then change the format of the specified date. They cannot be specified for the time stamp type utclong.
 
 -   The addition DECIMALS can affect the number of decimal places.
 
--   An initial time zone tz matches UTC only if the tables of the [rules for time zones](javascript:call_link\('abentime_zone_rules.htm'\)) are filled correctly for the time zone UTC.
+-   An initial time zone tz matches UTC only if the tables of the [rules for time zones](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_zone_rules.htm) are filled correctly for the time zone UTC.
     
 
 Example
@@ -450,7 +450,7 @@ The addition cannot be used together with the additions CURRENCY, DD/MM/YY, ... 
 
 Effect
 
-This addition defines the output format for [decimal floating point numbers](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry"). Only source fields with a [numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry") are allowed. Numeric source fields that do not have type decfloat34 are [converted](javascript:call_link\('abenconversion_elementary.htm'\)) to this type before they are formatted. If other types are specified dynamically, the exception CX\_SY\_WRITE\_INVALID\_STYLE is raised.
+This addition defines the output format for [decimal floating point numbers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecfloat_glosry.htm "Glossary Entry"). Only source fields with a [numeric data type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumeric_data_type_glosry.htm "Glossary Entry") are allowed. Numeric source fields that do not have type decfloat34 are [converted](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_elementary.htm) to this type before they are formatted. If other types are specified dynamically, the exception CX\_SY\_WRITE\_INVALID\_STYLE is raised.
 
 Only those values can be specified for the stl output format that exist as constants of type OUTPUTSTYLE in the class CL\_ABAP\_FORMAT. If other values are specified, the exception CX\_SY\_WRITE\_INVALID\_STYLE is also raised. The following table contains all possible output formats:
 
@@ -460,27 +460,27 @@ Output Format
 
 O\_SIMPLE
 
-[Predefined Output Format](javascript:call_link\('abenwrite_formats.htm'\))
+[Predefined Output Format](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_formats.htm)
 
 O\_SIGN\_AS\_POSTFIX
 
-[Commercial notation](javascript:call_link\('abencommercial_notation_glosry.htm'\) "Glossary Entry"). The plus/minus sign is appended to the right (minus sign for negative values, blank for positive values). Trailing zeros in decimal places are cut off. If not enough space is available, the system does not switch to the scientific notation as in the O\_SIMPLE format, and an exception occurs instead.
+[Commercial notation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencommercial_notation_glosry.htm "Glossary Entry"). The plus/minus sign is appended to the right (minus sign for negative values, blank for positive values). Trailing zeros in decimal places are cut off. If not enough space is available, the system does not switch to the scientific notation as in the O\_SIMPLE format, and an exception occurs instead.
 
 O\_SCALE\_PRESERVING
 
-Predefined output format that preserves the [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry"), in which trailing zeros in decimal places are not cut off. The same format is created as in the [conversion of a source field of type decfloat34 to type string](javascript:call_link\('abenconversion_type_decfloat.htm'\)), but the [predefined decimal separator](javascript:call_link\('abenwrite_formats.htm'\)) of the statement WRITE is used. If enough space is available, thousands separators are also inserted in the mathematical notation. If not enough space is available, an exception is raised. The maximum required length is 24 for decfloat16 and 46 for decfloat34.
+Predefined output format that preserves the [scaling](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscale_glosry.htm "Glossary Entry"), in which trailing zeros in decimal places are not cut off. The same format is created as in the [conversion of a source field of type decfloat34 to type string](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_decfloat.htm), but the [predefined decimal separator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_formats.htm) of the statement WRITE is used. If enough space is available, thousands separators are also inserted in the mathematical notation. If not enough space is available, an exception is raised. The maximum required length is 24 for decfloat16 and 46 for decfloat34.
 
 O\_SCIENTIFIC
 
-[Scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry"). No plus/minus sign is used for a positive number. The output always has at least a two digit exponent with a plus/minus sign. If the EXPONENT addition is not specified, only one digit whose value is not zero is output in the mantissa before the decimal separator, unless the source field has the value 0. Any trailing zeros in the decimal places of the mantissa are cut off. Using the addition DECIMALS, the number of decimal places of the exponent can be specified with EXPONENT. If neither of the additions DECIMALS and EXPONENT are used, the maximum length required is 23 for decfloat16 and 42 for decfloat34. If not enough space is available, commercial rounding is used. If not enough space is available for the plus/minus sign, the minimum number of digits before the decimal separator of the mantissa and the required exponent, an exception of the CX\_SY\_CONVERSION\_OVERFLOW class is raised.
+[Scientific notation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscientific_notation_glosry.htm "Glossary Entry"). No plus/minus sign is used for a positive number. The output always has at least a two digit exponent with a plus/minus sign. If the EXPONENT addition is not specified, only one digit whose value is not zero is output in the mantissa before the decimal separator, unless the source field has the value 0. Any trailing zeros in the decimal places of the mantissa are cut off. Using the addition DECIMALS, the number of decimal places of the exponent can be specified with EXPONENT. If neither of the additions DECIMALS and EXPONENT are used, the maximum length required is 23 for decfloat16 and 42 for decfloat34. If not enough space is available, commercial rounding is used. If not enough space is available for the plus/minus sign, the minimum number of digits before the decimal separator of the mantissa and the required exponent, an exception of the CX\_SY\_CONVERSION\_OVERFLOW class is raised.
 
 O\_SCIENTIFIC\_WITH\_LEADING\_ZERO
 
-[Scientific with leading zero](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry") with leading zero As O\_SCIENTIFIC with the following differences: Only one digit with the value 0 is output before the decimal separator. The addition EXPONENT cannot be used. If the addition DECIMALS is not used, the maximum length needed is 24 for decfloat16 and 43 for decfloat34.
+[Scientific with leading zero](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscientific_notation_glosry.htm "Glossary Entry") with leading zero As O\_SCIENTIFIC with the following differences: Only one digit with the value 0 is output before the decimal separator. The addition EXPONENT cannot be used. If the addition DECIMALS is not used, the maximum length needed is 24 for decfloat16 and 43 for decfloat34.
 
 O\_SCALE\_PRESERVING\_SCIENTIFIC
 
-[Scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry") preserving [scaling](javascript:call_link\('abenscale_glosry.htm'\) "Glossary Entry"). As O\_SCIENTIFIC with the following differences: The exponent always has three digits for decfloat16 and four digits for decfloat34. Trailing zeros after the decimal separator of the mantissa are not cut off. The addition EXPONENT cannot be specified. If not enough space is available, rounding does not take place. Instead, an exception of the CX\_SY\_CONVERSION\_OVERFLOW class is raised.
+[Scientific notation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscientific_notation_glosry.htm "Glossary Entry") preserving [scaling](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscale_glosry.htm "Glossary Entry"). As O\_SCIENTIFIC with the following differences: The exponent always has three digits for decfloat16 and four digits for decfloat34. Trailing zeros after the decimal separator of the mantissa are not cut off. The addition EXPONENT cannot be specified. If not enough space is available, rounding does not take place. Instead, an exception of the CX\_SY\_CONVERSION\_OVERFLOW class is raised.
 
 O\_ENGINEERING
 
@@ -496,17 +496,17 @@ If the addition STYLE is used together with other additions that also affect the
 
 Hints
 
--   The formats mainly correspond to the output formats specified when a [domain](javascript:call_link\('abendomain_glosry.htm'\) "Glossary Entry") is created with one of the types DF16\_DEC, DF16\_RAW, DF16\_SCL (obsolete), DF34\_DEC, DF34\_RAW, or DF34\_SCL (obsolete) in ABAP Dictionary.
+-   The formats mainly correspond to the output formats specified when a [domain](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendomain_glosry.htm "Glossary Entry") is created with one of the types DF16\_DEC, DF16\_RAW, DF16\_SCL (obsolete), DF34\_DEC, DF34\_RAW, or DF34\_SCL (obsolete) in ABAP Dictionary.
 
--   When a [decimal floating point number defined in the ABAP Dictionary](javascript:call_link\('abenddic_decimal_floating_point.htm'\)) is formatted, the formatting option STYLE overrides the output format defined in the ABAP Dictionary.
+-   When a [decimal floating point number defined in the ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_decimal_floating_point.htm) is formatted, the formatting option STYLE overrides the output format defined in the ABAP Dictionary.
 
 -   It is best to use the formatting option STYLE for the formatting of all numeric output. This addition then replaces all other additions whose output format can be specified using stl.
 
--   To specify the scaling of a decimal floating point number before the use of the format O\_SCALE\_PRESERVING\_SCIENTIFIC, the built-in function [rescale](javascript:call_link\('abendec_floating_point_functions.htm'\)) can be called by specifying the parameter dec.
+-   To specify the scaling of a decimal floating point number before the use of the format O\_SCALE\_PRESERVING\_SCIENTIFIC, the built-in function [rescale](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendec_floating_point_functions.htm) can be called by specifying the parameter dec.
 
--   The methods CONVERT\_CURR\_TO\_DECFLOAT and CONVERT\_DECFLOAT\_TO\_CURR of the system class [CL\_ABAP\_DECFLOAT](javascript:call_link\('abencl_abap_decfloat_doc.htm'\)) are helpful when representing currency amounts stored as decimal floating point numbers. These methods convert currency amounts to decimal floating point numbers depending on a currency key and vice versa.
+-   The methods CONVERT\_CURR\_TO\_DECFLOAT and CONVERT\_DECFLOAT\_TO\_CURR of the system class [CL\_ABAP\_DECFLOAT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_abap_decfloat_doc.htm) are helpful when representing currency amounts stored as decimal floating point numbers. These methods convert currency amounts to decimal floating point numbers depending on a currency key and vice versa.
 
--   The format O\_SCALE\_PRESERVING\_SCIENTIFIC is intended to help create output that is aligned vertically with reference to the decimal separator and exponent without the addition DECIMALS. To achieve this, the built-in function [rescale](javascript:call_link\('abendec_floating_point_functions.htm'\)) can be called before output by specifying the parameter prec.
+-   The format O\_SCALE\_PRESERVING\_SCIENTIFIC is intended to help create output that is aligned vertically with reference to the decimal separator and exponent without the addition DECIMALS. To achieve this, the built-in function [rescale](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendec_floating_point_functions.htm) can be called before output by specifying the parameter prec.
     
 
 Example
@@ -520,7 +520,7 @@ cl\_demo\_output=>display( text ).
 
 Executable Example
 
-[Decimal Floating Point Number, Formatting with STYLE](javascript:call_link\('abenwrite_style_abexa.htm'\))
+[Decimal Floating Point Number, Formatting with STYLE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_style_abexa.htm)
 
 Addition 13
 
@@ -528,7 +528,7 @@ Addition 13
 
 Effect
 
-This addition overrides a [conversion routine](javascript:call_link\('abenconversion_routine_glosry.htm'\) "Glossary Entry") assigned using a reference to the ABAP Dictionary. The addition NO EDIT MASK only deactivates the execution of an assigned conversion routine. The addition EDIT MASK calls either another conversion routine or defines an [edit mask](javascript:call_link\('abenedit_mask_glosry.htm'\) "Glossary Entry"). mask expects a character-like data object.
+This addition overrides a [conversion routine](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_routine_glosry.htm "Glossary Entry") assigned using a reference to the ABAP Dictionary. The addition NO EDIT MASK only deactivates the execution of an assigned conversion routine. The addition EDIT MASK calls either another conversion routine or defines an [edit mask](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenedit_mask_glosry.htm "Glossary Entry"). mask expects a character-like data object.
 
 To call any conversion routine CNVRT, mask must contain two equal signs directly followed by the name of the conversion routine: \==CNVRT. During formatting, the content of the source field is passed to function module CONVERSION\_EXIT\_CNVRT\_OUTPUT, converted there, and the result is used. If the function module is not found, a catchable exception is raised. The statement DESCRIBE FIELD contains an addition to fill mask accordingly.
 
@@ -546,13 +546,13 @@ The formatting is executed for the available length. If formatting options other
 
 Hints
 
--   The plus/minus sign of a negative number is not inserted in the result if no formatting character "V" is specified. The decimal separator of a packed number with [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") must be specified at the required place in the edit mask.
+-   The plus/minus sign of a negative number is not inserted in the result if no formatting character "V" is specified. The decimal separator of a packed number with [decimal places](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecimal_place_glosry.htm "Glossary Entry") must be specified at the required place in the edit mask.
 
 -   For type p, note that only the digits are evaluated and the place of the decimal separator is irrelevant.
 
 -   A conversion routine must be called for the types decfloat16 and decfloat34. Edit masks cannot be specified.
 
--   When using EDIT MASK in the statement [WRITE](javascript:call_link\('abapwrite-.htm'\)) for lists, a number of [special features](javascript:call_link\('abapwrite_int_options.htm'\)) are applicable.
+-   When using EDIT MASK in the statement [WRITE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite-.htm) for lists, a number of [special features](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_int_options.htm) are applicable.
     
 
 Example
@@ -577,24 +577,24 @@ Addition 14
   *|* DDMMYY     *|* MMDDYY
   *|* YYMMDD
 
-These additions cannot be used together with the addition STYLE, not for the time stamp type utclong, and not for [decimal floating point numbers defined in the ABAP Dictionary](javascript:call_link\('abenddic_decimal_floating_point.htm'\)), which always have an assigned output format.
+These additions cannot be used together with the addition STYLE, not for the time stamp type utclong, and not for [decimal floating point numbers defined in the ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_decimal_floating_point.htm), which always have an assigned output format.
 
 Effect
 
-These additions affect the formatting of data objects of the data type d or the date specified in [time stamps in packed numbers](javascript:call_link\('abentime_stamps_packed.htm'\)) if they are specified as such by the addition TIME ZONE. Otherwise they are ignored.
+These additions affect the formatting of data objects of the data type d or the date specified in [time stamps in packed numbers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_stamps_packed.htm) if they are specified as such by the addition TIME ZONE. Otherwise they are ignored.
 
 The content of a data object of type d, or the date specified in a time stamp, is interpreted as a valid date in the form "yyyymmdd" and formatted for the individual additions as follows:
 
 -   DD/MM/YY and MM/DD/YY
-    Both additions have the same effect. The date is formatted with a two-digit year and separators. Separators and the order depend on according to the current [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry") that can be set using [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)).
+    Both additions have the same effect. The date is formatted with a two-digit year and separators. Separators and the order depend on according to the current [formatting setting](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlanguage_environment_glosry.htm "Glossary Entry") that can be set using [SET COUNTRY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_country.htm).
     
 
 -   DD/MM/YYYY and MM/DD/YYYY
-    Both additions have the same effect. The date is formatted with a four-digit year with separators. Separators and the order is according to the current [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry") that can be set using [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)).
+    Both additions have the same effect. The date is formatted with a four-digit year with separators. Separators and the order is according to the current [formatting setting](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlanguage_environment_glosry.htm "Glossary Entry") that can be set using [SET COUNTRY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_country.htm).
     
 
 -   DDMMYY and MMDDYY
-    Both additions have the same effect. The date is formatted with a two-digit year with no separators. The order is according to the current [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry") that can be set using [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)).
+    Both additions have the same effect. The date is formatted with a two-digit year with no separators. The order is according to the current [formatting setting](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlanguage_environment_glosry.htm "Glossary Entry") that can be set using [SET COUNTRY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_country.htm).
     
 
 -   YYMMDD
@@ -604,10 +604,10 @@ If the available length is too short, the formatted output is truncated on the r
 
 Hints
 
--   The truncation on the right differs from the usual [truncation behavior](javascript:call_link\('abenwrite_truncations.htm'\)) for the date output specified by the [formatting setting](javascript:call_link\('abencountry.htm'\)) of the [language environment](javascript:call_link\('abenlanguage_environment_glosry.htm'\) "Glossary Entry"), where first the separators are removed and then any surplus characters are cut off.
+-   The truncation on the right differs from the usual [truncation behavior](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_truncations.htm) for the date output specified by the [formatting setting](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencountry.htm) of the [language environment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlanguage_environment_glosry.htm "Glossary Entry"), where first the separators are removed and then any surplus characters are cut off.
     
 
--   Some [special properties](javascript:call_link\('abapwrite_int_options.htm'\)) apply when date masks are used in the statement [WRITE](javascript:call_link\('abapwrite-.htm'\)) for lists.
+-   Some [special properties](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite_int_options.htm) apply when date masks are used in the statement [WRITE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapwrite-.htm) for lists.
     
 
 Example
@@ -619,4 +619,4 @@ WRITE sy-datlo TO formatted\_text YYMMDD.
 cl\_demo\_output=>display\_text( formatted\_text ).
 
 Continue
-![Example](exa.gif "Example") [Decimal Floating Point Numbers, Formatting with STYLE](javascript:call_link\('abenwrite_style_abexa.htm'\))
+![Example](exa.gif "Example") [Decimal Floating Point Numbers, Formatting with STYLE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwrite_style_abexa.htm)

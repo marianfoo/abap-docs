@@ -4,25 +4,25 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_func](javascript:call_link\('abensql_builtin_func.htm'\)) →  [ABAP SQL - Built-In Functions sql\_func](javascript:call_link\('abenabap_sql_builtin_functions.htm'\)) →  [sql\_func - Special Functions](javascript:call_link\('abenabap_sql_special_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_func](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_builtin_func.htm) →  [ABAP SQL - Built-In Functions sql\_func](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_builtin_functions.htm) →  [sql\_func - Special Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_special_functions.htm) → 
 
 sql\_func - Date Functions and Time Functions
 
-ABAP SQL supports the following [date functions and time functions](javascript:call_link\('abenddic_date_time_functions.htm'\)):
+ABAP SQL supports the following [date functions and time functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_date_time_functions.htm):
 
--   [Date functions](javascript:call_link\('abensql_date_func.htm'\))
--   [Time functions](javascript:call_link\('abensql_time_func.htm'\))
--   [Time stamp functions](javascript:call_link\('abensql_timestamp_func.htm'\))
--   [Time zone functions](javascript:call_link\('abensql_timezone_func.htm'\))
--   [Date/time conversions](javascript:call_link\('abensql_date_time_conversions.htm'\))
+-   [Date functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_date_func.htm)
+-   [Time functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_time_func.htm)
+-   [Time stamp functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_timestamp_func.htm)
+-   [Time zone functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_timezone_func.htm)
+-   [Date/time conversions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_date_time_conversions.htm)
 
 Hint
 
-The date, time, and time stamp types [DATN](javascript:call_link\('abenddic_builtin_types.htm'\)), [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)), and [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)) are not currently supported.
+The date, time, and time stamp types [DATN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm), [TIMN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm), and [UTCLONG](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) are not currently supported.
 
 Continue
-[sql\_func - Date Functions](javascript:call_link\('abensql_date_func.htm'\))
-[sql\_func - Time Functions](javascript:call_link\('abensql_time_func.htm'\))
-[sql\_func - Time Stamp Functions](javascript:call_link\('abensql_timestamp_func.htm'\))
-[sql\_func - Time Zone Functions](javascript:call_link\('abensql_timezone_func.htm'\))
-[sql\_func - Date/Time Conversions](javascript:call_link\('abensql_date_time_conversions.htm'\))
+[sql\_func - Date Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_date_func.htm)
+[sql\_func - Time Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_time_func.htm)
+[sql\_func - Time Stamp Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_timestamp_func.htm)
+[sql\_func - Time Zone Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_timezone_func.htm)
+[sql\_func - Date/Time Conversions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_date_time_conversions.htm)

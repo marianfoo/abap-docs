@@ -4,35 +4,35 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [DDIC - Technical Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_tech.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary.htm) →  [DDIC - Database Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables.htm) →  [DDIC - Technical Attributes of Database Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_tech.htm) → 
 
 DDIC - Table-Specific Technical Attributes of Database Tables
 
 The following technical attributes are provided specifically for DDIC database tables. They define attributes of the physical database table and how the database interface is used for access. With the exception of the table category and activation type, these technical settings constitute a standalone object and can be activated and transported separately from the table.
 
--   [Table category](javascript:call_link\('abenddic_database_tables_tab_type.htm'\))
+-   [Table category](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_tab_type.htm)
 
--   [Data class](javascript:call_link\('abenddic_database_tables_dat_type.htm'\))
+-   [Data class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_dat_type.htm)
 
--   [Size category](javascript:call_link\('abenddic_database_tables_siz_cat.htm'\))
+-   [Size category](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_siz_cat.htm)
 
--   [Logging](javascript:call_link\('abenddic_database_tables_protocol.htm'\))
+-   [Logging](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_protocol.htm)
 
--   [Table buffering](javascript:call_link\('abenddic_database_tables_buffer.htm'\))
+-   [Table buffering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_buffer.htm)
 
--   [Storage type](javascript:call_link\('abenddic_database_tables_storage.htm'\))
+-   [Storage type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_storage.htm)
 
--   [Activation type](javascript:call_link\('abenddic_database_tables_act_type.htm'\))
+-   [Activation type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_act_type.htm)
 
 Hint
 
-Certain combinations of technical properties are not useful. There are [ABAP Test Cockpit (ATC)](javascript:call_link\('abenabap_test_cockpit_glosry.htm'\) "Glossary Entry") tests that report such combinations as errors.
+Certain combinations of technical properties are not useful. There are [ABAP Test Cockpit (ATC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_test_cockpit_glosry.htm "Glossary Entry") tests that report such combinations as errors.
 
 Continue
-[DDIC - Table Category of Database Tables](javascript:call_link\('abenddic_database_tables_tab_type.htm'\))
-[DDIC - Data Class of Database Tables](javascript:call_link\('abenddic_database_tables_dat_type.htm'\))
-[DDIC - Size Category of Database Tables](javascript:call_link\('abenddic_database_tables_siz_cat.htm'\))
-[DDIC - Table Buffering of Database Tables](javascript:call_link\('abenddic_database_tables_buffer.htm'\))
-[DDIC - Logging Database Tables](javascript:call_link\('abenddic_database_tables_protocol.htm'\))
-[DDIC - Storage Type of Database Tables](javascript:call_link\('abenddic_database_tables_storage.htm'\))
-[DDIC - Activation Type of Database Tables](javascript:call_link\('abenddic_database_tables_act_type.htm'\))
+[DDIC - Table Category of Database Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_tab_type.htm)
+[DDIC - Data Class of Database Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_dat_type.htm)
+[DDIC - Size Category of Database Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_siz_cat.htm)
+[DDIC - Table Buffering of Database Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_buffer.htm)
+[DDIC - Logging Database Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_protocol.htm)
+[DDIC - Storage Type of Database Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_storage.htm)
+[DDIC - Activation Type of Database Tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddic_database_tables_act_type.htm)

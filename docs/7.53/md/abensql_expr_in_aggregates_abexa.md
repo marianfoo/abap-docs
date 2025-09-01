@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [Examples of SQL Expressions](javascript:call_link\('abensql_expr_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm) →  [Examples of SQL Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_expr_abexas.htm) → 
 
 SQL Expressions, Use in Aggregate Expressions
 
-This example demonstrates [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) as an argument of [aggregate functions](javascript:call_link\('abapselect_aggregate.htm'\)).
+This example demonstrates [SQL expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm) as an argument of [aggregate functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_aggregate.htm).
 
 Source Code
 
@@ -84,8 +84,8 @@ Description
 
 The database table DEMO\_EXPRESSIONS is filled with random values in the static constructor.
 
--   The first SELECT statement reads the filled columns individually. Here, the total and the product of the numeric columns NUM1 and NUM2 are calculated using [arithmetic statements](javascript:call_link\('abensql_arith.htm'\)) in the SELECT list.
+-   The first SELECT statement reads the filled columns individually. Here, the total and the product of the numeric columns NUM1 and NUM2 are calculated using [arithmetic statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_arith.htm) in the SELECT list.
 
--   The second SELECT statement performs a grouping by the columns CHAR1 and CHAR2. For each group, aggregate functions are used to determined aggregated values whose arguments are [arithmetic expressions](javascript:call_link\('abensql_arith.htm'\))
+-   The second SELECT statement performs a grouping by the columns CHAR1 and CHAR2. For each group, aggregate functions are used to determined aggregated values whose arguments are [arithmetic expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_arith.htm)
 
--   The third SELECT statement performs the same grouping as the second SELECT statement, but restricts the selected groups using a [HAVING clause](javascript:call_link\('abaphaving_clause.htm'\)) in which a condition is set on an aggregate expression that has an [arithmetic expression](javascript:call_link\('abensql_arith.htm'\)) as an argument.
+-   The third SELECT statement performs the same grouping as the second SELECT statement, but restricts the selected groups using a [HAVING clause](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaphaving_clause.htm) in which a condition is set on an aggregate expression that has an [arithmetic expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_arith.htm) as an argument.

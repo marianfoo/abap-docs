@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [LOOP AT itab](javascript:call_link\('abaploop_at_itab_variants.htm'\)) →  [LOOP AT itab, GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) →  [Examples of Grouping with LOOP](javascript:call_link\('abenloop_group_by_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_processing_statements.htm) →  [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_variants.htm) →  [LOOP AT itab, GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm) →  [Examples of Grouping with LOOP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_group_by_abexas.htm) → 
 
 itab - Grouping with LOOP in Group Levels
 
-This example demonstrates simple group level processing using [GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)).
+This example demonstrates simple group level processing using [GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm).
 
 Source Code
 
@@ -70,11 +70,11 @@ START-OF-SELECTION.
 
 Description
 
-This example works in the same way as the executable example for [group level processing](javascript:call_link\('abenint_table_at_abexa.htm'\)). Here, the [group key](javascript:call_link\('abengroup_key_glosry.htm'\) "Glossary Entry") is constructed explicitly using the value of the column col1 and, unlike in group level processing, does not depend on the structure of the table and its sorting.
+This example works in the same way as the executable example for [group level processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenint_table_at_abexa.htm). Here, the [group key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengroup_key_glosry.htm "Glossary Entry") is constructed explicitly using the value of the column col1 and, unlike in group level processing, does not depend on the structure of the table and its sorting.
 
-The statement [SUM](javascript:call_link\('abapsum.htm'\)) is replaced by a functional method that replaces the implicit behavior of the statement with an explicit and self-definable function.
+The statement [SUM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsum.htm) is replaced by a functional method that replaces the implicit behavior of the statement with an explicit and self-definable function.
 
-group and sum could also be filled by the evaluation of a table comprehension or table reduction using [FOR ... IN GROUP](javascript:call_link\('abenfor_in_group.htm'\)), instead of in a [member loop](javascript:call_link\('abenmember_loop_glosry.htm'\) "Glossary Entry") [LOOP AT GROUP](javascript:call_link\('abaploop_at_group.htm'\)):
+group and sum could also be filled by the evaluation of a table comprehension or table reduction using [FOR ... IN GROUP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor_in_group.htm), instead of in a [member loop](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmember_loop_glosry.htm "Glossary Entry") [LOOP AT GROUP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_group.htm):
 
 sum = REDUCE #( INIT s = VALUE line( )
                 FOR line IN GROUP <line>
@@ -82,4 +82,4 @@ sum = REDUCE #( INIT s = VALUE line( )
                                         base = s ) ).
 group = #( FOR <wa> IN GROUP <line> ( <wa> ) ).
 
-The executable example for [grouping with FOR](javascript:call_link\('abenfor_group_by_levels_abexa.htm'\)) demonstrates how the entire group loop can be implemented using expressions.
+The executable example for [grouping with FOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor_group_by_levels_abexa.htm) demonstrates how the entire group loop can be implemented using expressions.

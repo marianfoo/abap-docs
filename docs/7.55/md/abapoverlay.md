@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_statements.htm) → 
 
 OVERLAY
 
-[Short Reference](javascript:call_link\('abapoverlay_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapoverlay_shortref.htm)
 
 Syntax
 
@@ -16,9 +16,9 @@ OVERLAY text1 WITH text2 *\[*ONLY mask*\]*.
 
 Effect
 
-Characters in the variable text1 are replaced by the characters in the operand text2 that are in the same place there. text2 is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry").
+Characters in the variable text1 are replaced by the characters in the operand text2 that are in the same place there. text2 is a [character-like expression position](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
 
-If the addition ONLY is not specified, all blanks in text1 are replaced. If the addition ONLY is specified, all characters are replaced that occur in the operand mask. This is case-sensitive. mask is also a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry").
+If the addition ONLY is not specified, all blanks in text1 are replaced. If the addition ONLY is specified, all characters are replaced that occur in the operand mask. This is case-sensitive. mask is also a [character-like expression position](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
 
 If the lengths of text1 and text2 are different, text1 is processed using the shorter length only.
 
@@ -40,7 +40,7 @@ No characters in text1 have been replaced.
 
 Example
 
-After the text field has been assigned to the time field, it contains the invalid time "12\_\_00" due to the [conversion rules](javascript:call_link\('abenconversion_type_c.htm'\)). As a result of the overlay with the initial\_time constants, the two blanks are replaced by "00" and the result is the valid time "120000".
+After the text field has been assigned to the time field, it contains the invalid time "12\_\_00" due to the [conversion rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_c.htm). As a result of the overlay with the initial\_time constants, the two blanks are replaced by "00" and the result is the valid time "120000".
 
 CONSTANTS initial\_time TYPE t VALUE IS INITIAL.
 DATA: time TYPE t,

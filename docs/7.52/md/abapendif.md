@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) →  [IF](javascript:call_link\('abapif.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_branches.htm) →  [IF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapif.htm) → 
 
 ENDIF
 
-[Quick Reference](javascript:call_link\('abapif_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapif_shortref.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ ENDIF.
 
 Effect
 
-See [IF](javascript:call_link\('abapif.htm'\)).
+See [IF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapif.htm).

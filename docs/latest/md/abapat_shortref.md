@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  A
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_shortref.htm) →  A
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20AT%2C%20ABAPAT_SHORTREF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 AT - Short Reference
 
-[Reference](javascript:call_link\('abapat_itab.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_itab.htm)
 
 Syntax
 
@@ -43,7 +43,7 @@ ENDAT*\]*.
 
 Effect
 
-[Group level processing](javascript:call_link\('abengroup_level_processing_glosry.htm'\) "Glossary Entry") within LOOP statements using [internal tables](javascript:call_link\('abapat_itab.htm'\)) or [extraction datasets](javascript:call_link\('abapat_extract.htm'\)) (obsolete), where statement blocks enclosed in AT and ENDAT are executed depending on conditions.
+[Group level processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengroup_level_processing_glosry.htm "Glossary Entry") within LOOP statements using [internal tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_itab.htm) or [extraction datasets](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_extract.htm) (obsolete), where statement blocks enclosed in AT and ENDAT are executed depending on conditions.
 
 Additions   
 

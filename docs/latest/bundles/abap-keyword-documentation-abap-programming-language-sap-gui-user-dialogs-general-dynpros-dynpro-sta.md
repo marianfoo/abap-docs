@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [dynploop.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynploop.htm)
-- [dynpendloop.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpendloop.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.953Z
-
----
-
 ### dynploop.htm
-
-> **📖 Official SAP Documentation**: [dynploop.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynploop.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,7 +11,7 @@ Included pages: 2
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros_dynpro_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20dynpro%20-%20LOOP%2C%20WITH%20CONTROL%2C%20DYNPLOOP%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -52,9 +33,9 @@ Variants:
 
 Effect
 
-Definition of a loop in the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry") linked with a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry") contrl. The loop sequentially processes the displayed lines of the table control contrl by executing one loop pass for each table control line. contrl expects the name of a table control of the dynpro directly. If the table control does not exist, the loop is ignored. The statement block between LOOP and ENDLOOP can contain the keywords [FIELD](javascript:call_link\('dynpfield.htm'\)), [MODULE](javascript:call_link\('dynpmodule.htm'\)), [CHAIN](javascript:call_link\('dynpchain.htm'\)), and [ENDCHAIN](javascript:call_link\('dynpendchain.htm'\)) from the flow logic. Nesting of loops is not possible. Loops can be executed either with or without reference to an internal table.
+Definition of a loop in the [dynpro flow logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry") linked with a [table control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_control_glosry.htm "Glossary Entry") contrl. The loop sequentially processes the displayed lines of the table control contrl by executing one loop pass for each table control line. contrl expects the name of a table control of the dynpro directly. If the table control does not exist, the loop is ignored. The statement block between LOOP and ENDLOOP can contain the keywords [FIELD](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpfield.htm), [MODULE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpmodule.htm), [CHAIN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpchain.htm), and [ENDCHAIN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpendchain.htm) from the flow logic. Nesting of loops is not possible. Loops can be executed either with or without reference to an internal table.
 
-If table controls are defined in a dynpro, a loop must be defined for each table control both in the [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") processing block and in the [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") processing block.
+If table controls are defined in a dynpro, a loop must be defined for each table control both in the [PBO](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpbo_glosry.htm "Glossary Entry") processing block and in the [PAI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpai_glosry.htm "Glossary Entry") processing block.
 
 System Fields
 
@@ -62,7 +43,7 @@ Within the loop pass, the system field sy-stepl contains the number of the curre
 
 Hint
 
-The loop is linked with a table control using the addition WITH CONTROL. The statement [LOOP](javascript:call_link\('dynploop_obsolete.htm'\)) without this addition processes standalone [step loops](javascript:call_link\('abenstep_loop_glosry.htm'\) "Glossary Entry") and is obsolete.
+The loop is linked with a table control using the addition WITH CONTROL. The statement [LOOP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynploop_obsolete.htm) without this addition processes standalone [step loops](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstep_loop_glosry.htm "Glossary Entry") and is obsolete.
 
 Variant 1   
 
@@ -76,7 +57,7 @@ If the addition AT itab is not specified, the content of the dynpro fields of th
 
 Hints
 
--   For dynpro fields of the table control defined with a reference to flat structures in the ABAP Dictionary, the identically named data objects in the ABAP program must be declared in the same way as regular dynpro fields using [TABLES](javascript:call_link\('abaptables.htm'\)); otherwise no data transport takes place.
+-   For dynpro fields of the table control defined with a reference to flat structures in the ABAP Dictionary, the identically named data objects in the ABAP program must be declared in the same way as regular dynpro fields using [TABLES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptables.htm); otherwise no data transport takes place.
 -   In the loop, dialog modules can be called to process the relevant data objects of the ABAP program. For example, data from an internal table can be read at PBO and written back to the table at PAI, after being processed on the screen.
 
 Variant 2   
@@ -93,16 +74,16 @@ If the addition AT itab is specified, the internal table itab of the associated 
 
 The addition INTO is used to specify a work area wa to which the current line of the internal table is assigned at PBO at the end of each loop pass. If the addition wa is not specified, an internal table with header line must be used, which is then used implicitly instead of wa. After the assignment, the content of wa or of the header line is transported to the identically named fields in the current line of the table control. The work area wa must be a global data object of the ABAP program that matches the line type of the internal table. At PAI time, only the work area wa or the header line of the internal table is filled with the content of the table control lines at the beginning of each loop pass. The content of the internal table is not modified automatically.
 
-The syntax of the additions CURSOR, FROM, and TO is the same as in the processing of [step loops](javascript:call_link\('dynploop_obsolete.htm'\)). In loops across table controls, additions are possible but not necessary, because the table controls are designed to be controlled by the structure of type cxtab\_control created using [CONTROLS](javascript:call_link\('abapcontrols_tableview.htm'\)) in the ABAP program. Here, top\_line corresponds to component top\_line of this structure while the number of lines to be displayed can be controlled using the component lines instead of n1 and n2. If n1 is still specified for table controls, the content of component current\_line is calculated as follows, differing from the method shown at [CONTROLS](javascript:call_link\('abapcontrols_tableview.htm'\)): sy-stepl + ( top\_line -1 ) + ( n1 - 1 ).
+The syntax of the additions CURSOR, FROM, and TO is the same as in the processing of [step loops](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynploop_obsolete.htm). In loops across table controls, additions are possible but not necessary, because the table controls are designed to be controlled by the structure of type cxtab\_control created using [CONTROLS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcontrols_tableview.htm) in the ABAP program. Here, top\_line corresponds to component top\_line of this structure while the number of lines to be displayed can be controlled using the component lines instead of n1 and n2. If n1 is still specified for table controls, the content of component current\_line is calculated as follows, differing from the method shown at [CONTROLS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcontrols_tableview.htm): sy-stepl + ( top\_line -1 ) + ( n1 - 1 ).
 
 Hints
 
--   For dynpro fields of the table control defined with a reference to flat structures in the ABAP Dictionary, the identically named data objects in the ABAP program must be declared in the same way as regular dynpro fields using [TABLES](javascript:call_link\('abaptables.htm'\)); otherwise no data transport takes place.
+-   For dynpro fields of the table control defined with a reference to flat structures in the ABAP Dictionary, the identically named data objects in the ABAP program must be declared in the same way as regular dynpro fields using [TABLES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptables.htm); otherwise no data transport takes place.
 -   Between LOOP and ENDLOOP, no dialog module must be called at PBO to read the data from the internal table. At PAI, however, this is necessary if the transported data is to be evaluated. For example, the internal table can be modified in accordance with the user input.
 
 Example
 
-If a table control FLIGHT\_TAB is defined on the screen of a dynpro, the associated dynpro flow logic may look like this. The loop is executed with reference to the internal table spfli\_tab. At PBO, the loop calls a dialog module prepare\_tab to fill the internal table. In the loop, no dialog module is called at PBO because the table control in this case is filled automatically. At PAI, a dialog module modify\_tab is called in the loop to save the changes the user entered in the table control to the internal table. The associated programming section of the ABAP program is in the example for [CONTROLS](javascript:call_link\('abapcontrols_tableview.htm'\)).
+If a table control FLIGHT\_TAB is defined on the screen of a dynpro, the associated dynpro flow logic may look like this. The loop is executed with reference to the internal table spfli\_tab. At PBO, the loop calls a dialog module prepare\_tab to fill the internal table. In the loop, no dialog module is called at PBO because the table control in this case is filled automatically. At PAI, a dialog module modify\_tab is called in the loop to save the changes the user entered in the table control to the internal table. The associated programming section of the ABAP program is in the example for [CONTROLS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcontrols_tableview.htm).
 
 PROCESS BEFORE OUTPUT.
   MODULE prepare\_tab.
@@ -114,20 +95,10 @@ PROCESS AFTER INPUT.
   ENDLOOP.
 
 Continue
-[dynpro - ENDLOOP](javascript:call_link\('dynpendloop.htm'\))
+[dynpro - ENDLOOP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpendloop.htm)
 
-
-
-**📖 Source**: [dynploop.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynploop.htm)
 
 ### dynpendloop.htm
-
-> **📖 Official SAP Documentation**: [dynpendloop.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpendloop.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [dynpendloop.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynpendloop.htm)
-
 
   
 
@@ -135,7 +106,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [dynpro - LOOP, WITH CONTROL](javascript:call_link\('dynploop.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpros_dynpro_statements.htm) →  [dynpro - LOOP, WITH CONTROL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynploop.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20dynpro%20-%20ENDLOOP%2C%20DYNPENDLOOP%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -147,4 +118,4 @@ ENDLOOP.
 
 Effect
 
-See [LOOP](javascript:call_link\('dynploop.htm'\))
+See [LOOP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/dynploop.htm)

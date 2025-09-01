@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [Obsolete CDS Language Elements](javascript:call_link\('abencds_obsolete.htm'\)) →  [Obsolete CDS Entities](javascript:call_link\('abencds_entities_obsolete.htm'\)) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](javascript:call_link\('abencds_ddic_entity.htm'\)) →  [ABAP CDS - DDIC-Based Views (Obsolete)](javascript:call_link\('abencds_v1_views.htm'\)) →  [CDS DDL - DEFINE VIEW ddic\_based](javascript:call_link\('abencds_define_view_v1.htm'\)) →  [CDS DDL - DDIC-Based View, SELECT](javascript:call_link\('abencds_select_statement_v1.htm'\)) →  [CDS DDL - DDIC-Based View, SELECT, Associations](javascript:call_link\('abencds_association_v1.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [Obsolete CDS Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_obsolete.htm) →  [Obsolete CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities_obsolete.htm) →  [ABAP CDS - DDIC-Based Entities (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views (Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_v1.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DDL - DDIC-Based View, ASSOCIATION TO PARENT, ABENCDS_TO_PARENT_ASSOC_V1, 757%0D%
 0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -13,57 +13,57 @@ CDS DDL - DDIC-Based View, ASSOCIATION TO PARENT
 
 Syntax
 
-... ASSOCIATION TO PARENT target *\[*AS \_assoc*\]* ON $projection.[cds\_cond](javascript:call_link\('abencds_conditional_expression_v1.htm'\)) ...
+... ASSOCIATION TO PARENT target *\[*AS \_assoc*\]* ON $projection.[cds\_cond](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_conditional_expression_v1.htm) ...
 
 Effect
 
-A [CDS to-parent association](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry") in [ABAP CDS](javascript:call_link\('abenabap_core_data_services_glosry.htm'\) "Glossary Entry") is a specialized [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry"). It is the counterpart of a [CDS composition](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry"). A CDS composition is defined in the [parent entity](javascript:call_link\('abenparent_entity_glosry.htm'\) "Glossary Entry") and points to the [child entity](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry"), while a CDS to-parent association in defined in the child entity and points to the parent entity. Both parent and child entity must define mutual associations. Compositions and to-parent associations together define the [CDS composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") of a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") in the context of the [ABAP RESTful Application Programming Model](javascript:call_link\('abenarap_glosry.htm'\) "Glossary Entry").
+A [CDS to-parent association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abento_parent_association_glosry.htm "Glossary Entry") in [ABAP CDS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_core_data_services_glosry.htm "Glossary Entry") is a specialized [CDS association](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_association_glosry.htm "Glossary Entry"). It is the counterpart of a [CDS composition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_glosry.htm "Glossary Entry"). A CDS composition is defined in the [parent entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenparent_entity_glosry.htm "Glossary Entry") and points to the [child entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenchild_entity_glosry.htm "Glossary Entry"), while a CDS to-parent association in defined in the child entity and points to the parent entity. Both parent and child entity must define mutual associations. Compositions and to-parent associations together define the [CDS composition tree](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") of a [RAP business object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm "Glossary Entry") in the context of the [ABAP RESTful Application Programming Model](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarap_glosry.htm "Glossary Entry").
 
-A to-parent association is defined in a [SELECT statement](javascript:call_link\('abencds_select_statement_v1.htm'\)) of a [CDS DDIC-based view](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry") using the keyword ASSOCIATION TO PARENT. A to-parent association associates the current CDS entity, as [association source](javascript:call_link\('abenassociation_source_glosry.htm'\) "Glossary Entry"), with the [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") target specified in the definition of the association.
+A to-parent association is defined in a [SELECT statement](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_statement_v1.htm) of a [CDS DDIC-based view](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry") using the keyword ASSOCIATION TO PARENT. A to-parent association associates the current CDS entity, as [association source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_source_glosry.htm "Glossary Entry"), with the [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") target specified in the definition of the association.
 
-The child entity must always define a to-parent association first and only afterwards can a [CDS composition](javascript:call_link\('abencds_composition_v1.htm'\)) be defined in the parent entity. The other way around results in a syntax error. The to-parent association cannot be deleted as long as the child entity is the target of the composition. The composition must be deleted first and then the to-parent association can be deleted.
+The child entity must always define a to-parent association first and only afterwards can a [CDS composition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_v1.htm) be defined in the parent entity. The other way around results in a syntax error. The to-parent association cannot be deleted as long as the child entity is the target of the composition. The composition must be deleted first and then the to-parent association can be deleted.
 
 Rules
 
 CDS to-parent associations are defined similarly to CDS associations. Here are the similarities and differences:
 
 -   Similarities
-    -   For the name AS \_assoc, the same rules apply as for normal CDS associations, see topic [CDS DDL - DDIC-based View, ASSOCIATION](javascript:call_link\('abencds_simple_association_v1.htm'\)).
+    -   For the name AS \_assoc, the same rules apply as for normal CDS associations, see topic [CDS DDL - DDIC-based View, ASSOCIATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_simple_association_v1.htm).
     -   An ON condition must be defined. The rules for ON conditions of to-parent associations are listed below.
 -   Differences
     -   A default filter cannot be defined for a to-parent association. The syntax ... WITH DEFAULT FILTER ... is not allowed.
-    -   The [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") cannot be defined explicitly for to-parent associations and is generated as \[1..1\].
+    -   The [cardinality](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencardinality_glosry.htm "Glossary Entry") cannot be defined explicitly for to-parent associations and is generated as \[1..1\].
 
 The following applies to the association target target:
 
--   The association target can be another [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"), a [CDS DDIC-based view (obsolete)](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry"), an [abstract entity](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry"), or a [custom entity](javascript:call_link\('abencds_custom_entity_glosry.htm'\) "Glossary Entry").
--   The [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") of a to-parent association cannot be the CDS entity in which the to-parent association is defined. This means that to-parent associations cannot be [self associations](javascript:call_link\('abenself_association_glosry.htm'\) "Glossary Entry").
+-   The association target can be another [CDS view entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v2_view_glosry.htm "Glossary Entry"), a [CDS DDIC-based view (obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_v1_view_glosry.htm "Glossary Entry"), an [abstract entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry"), or a [custom entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_custom_entity_glosry.htm "Glossary Entry").
+-   The [association target](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassociation_target_glosry.htm "Glossary Entry") of a to-parent association cannot be the CDS entity in which the to-parent association is defined. This means that to-parent associations cannot be [self associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenself_association_glosry.htm "Glossary Entry").
 -   The target entity of a CDS composition and a to-parent association defined in the same data definition must be different entities.
 
 General rules for child entities:
 
 -   A child entity must define exactly one to-parent association to its parent entity.
 -   A child entity that is the target of a CDS composition can itself be a parent entity and define further CDS compositions.
--   A [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") cannot define any to-parent associations.
--   The child entity in which the to-parent association is defined must have at least one [key field](javascript:call_link\('abenkey_field_glosry.htm'\) "Glossary Entry").
+-   A [root entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenroot_entity_glosry.htm "Glossary Entry") cannot define any to-parent associations.
+-   The child entity in which the to-parent association is defined must have at least one [key field](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkey_field_glosry.htm "Glossary Entry").
 
 Exposure:
 
--   The name of the to-parent association \_assoc must be added exactly once to the [select\_list](javascript:call_link\('abencds_select_list_v1.htm'\)) of the CDS view it is defined in, without attributes and alias. If no name is defined for the to-parent association, the name of the to-parent association is the name of the target entity target and this name must be made available in the SELECT list.
+-   The name of the to-parent association \_assoc must be added exactly once to the [select\_list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_v1.htm) of the CDS view it is defined in, without attributes and alias. If no name is defined for the to-parent association, the name of the to-parent association is the name of the target entity target and this name must be made available in the SELECT list.
 
 Usage:
 
 -   A to-parent association can be propagated in data definitions other than the one in which it is defined. In this case, the to-parent association uses its special semantics and is handled like a normal CDS association.
--   To-parent associations can be used in [path expressions](javascript:call_link\('abencds_path_expression_v1.htm'\)) locally and also in other CDS entities in which they are propagated.
--   To-parent associations can be specified as values for [AssociationRef](javascript:call_link\('abencds_f1_define_annotation_type.htm'\)) associations. These to-parent associations are then handled as associations.
+-   To-parent associations can be used in [path expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_path_expression_v1.htm) locally and also in other CDS entities in which they are propagated.
+-   To-parent associations can be specified as values for [AssociationRef](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation_type.htm) associations. These to-parent associations are then handled as associations.
 
 To-parent associations and joins:
 
--   All use cases and details about join generation described in topic [CDS DDL - DDIC-based View, Associations and Joins](javascript:call_link\('abencds_assoc_join_v1.htm'\)) also apply to to-parent associations.
+-   All use cases and details about join generation described in topic [CDS DDL - DDIC-based View, Associations and Joins](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_assoc_join_v1.htm) also apply to to-parent associations.
 
 Restrictions:
 
--   To-parent associations cannot be defined in a [CDS view extension](javascript:call_link\('abencds_view_extend_glosry.htm'\) "Glossary Entry"), neither with [EXTEND VIEW](javascript:call_link\('abencds_extend_view.htm'\)), nor with [EXTEND VIEW ENTITY](javascript:call_link\('abencds_extend_view.htm'\)).
+-   To-parent associations cannot be defined in a [CDS view extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_extend_glosry.htm "Glossary Entry"), neither with [EXTEND VIEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm), nor with [EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_extend_view.htm).
 
 ON Condition
 
@@ -71,14 +71,14 @@ A to-parent association must define an ON condition. This ON condition is automa
 
 The following rules apply to the operands and syntax of the ON condition:
 
--   Only [key fields](javascript:call_link\('abenkey_field_glosry.htm'\) "Glossary Entry") of the parent entity can be used in the ON condition.
+-   Only [key fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkey_field_glosry.htm "Glossary Entry") of the parent entity can be used in the ON condition.
 -   The ON condition must use all key fields of the parent entity. Each one can be used only once in the ON condition.
 -   Key fields of the parent entity can only be compared with fields of the child entity.
 -   A field of the child entity can be used only once.
 -   The fields of the association source must be prefixed by $projection.
 -   The fields of the association target must be prefixed by the name of the CDS to-parent association (prefix \_assoc. separated by a period).
--   Only the [comparison operator](javascript:call_link\('abencds_cond_expr_comp_v1.htm'\)) "=" is allowed. No other [relational operator](javascript:call_link\('abenrel_operator_glosry.htm'\) "Glossary Entry") or comparison operator is allowed.
--   Only the [Boolean operator](javascript:call_link\('abenboolean_operator_glosry.htm'\) "Glossary Entry") AND is allowed. Negations using NOT are not allowed.
+-   Only the [comparison operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_comp_v1.htm) "=" is allowed. No other [relational operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrel_operator_glosry.htm "Glossary Entry") or comparison operator is allowed.
+-   Only the [Boolean operator](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboolean_operator_glosry.htm "Glossary Entry") AND is allowed. Negations using NOT are not allowed.
 -   lhs can be a field of the association source or association target.
 -   rhs can be a field of the association source or association target.
 -   Path expressions, expressions, built-in functions, and elementary operands are not allowed.
@@ -87,7 +87,7 @@ The following rules apply to the operands and syntax of the ON condition:
 Hints
 
 -   A node that defines a to-parent association is not automatically a child entity of the business object. A node is only a child entity of the business object when it is the target of a composition.
--   To-parent associations can be given annotations in the [element list](javascript:call_link\('abencds_select_list_entry_v1.htm'\)) of the CDS entity in which they are defined.
+-   To-parent associations can be given annotations in the [element list](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_select_list_entry_v1.htm) of the CDS entity in which they are defined.
 
 Example
 

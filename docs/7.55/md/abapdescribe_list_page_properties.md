@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Editing List Buffers](javascript:call_link\('abenabap_lists_complex.htm'\)) →  [DESCRIBE LIST](javascript:call_link\('abapdescribe_list.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpro_list.htm) →  [Lists - Editing List Buffers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_lists_complex.htm) →  [DESCRIBE LIST](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdescribe_list.htm) → 
 
 DESCRIBE LIST, page\_properties
 
-[Short Reference](javascript:call_link\('abapdescribe_list_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdescribe_list_shortref.htm)
 
 Syntax
 
@@ -42,7 +42,7 @@ Addition 1
 
 Effect
 
-Inserts the line length of the page defined using the addition LINE-SIZE of the statement at the start of the program or of [NEW-PAGE](javascript:call_link\('abapnew-page.htm'\)) after width.
+Inserts the line length of the page defined using the addition LINE-SIZE of the statement at the start of the program or of [NEW-PAGE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapnew-page.htm) after width.
 
 Addition 2
 
@@ -58,7 +58,7 @@ Addition 3
 
 Effect
 
-Inserts the number of lines shown on the page including the [page header](javascript:call_link\('abenpage_header_glosry.htm'\) "Glossary Entry") and [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") after lines.
+Inserts the number of lines shown on the page including the [page header](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpage_header_glosry.htm "Glossary Entry") and [page footer](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpage_footer_glosry.htm "Glossary Entry") after lines.
 
 Addition 4
 
@@ -66,7 +66,7 @@ Addition 4
 
 Effect
 
-Inserts the line number of the first line of the page, with respect to the whole list, after first\_line. The [page headers](javascript:call_link\('abenpage_header_glosry.htm'\) "Glossary Entry") and [page footers](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") are included in the line count, but not the empty lines inserted automatically between the list pages.
+Inserts the line number of the first line of the page, with respect to the whole list, after first\_line. The [page headers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpage_header_glosry.htm "Glossary Entry") and [page footers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpage_footer_glosry.htm "Glossary Entry") are included in the line count, but not the empty lines inserted automatically between the list pages.
 
 Addition 5
 
@@ -74,7 +74,7 @@ Addition 5
 
 Effect
 
-Inserts the number of lines of the [page header](javascript:call_link\('abenpage_header_glosry.htm'\) "Glossary Entry") of the page after top\_lines. The standard page header and the lines shown by the event TOP-OF-PAGE are included in the count.
+Inserts the number of lines of the [page header](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpage_header_glosry.htm "Glossary Entry") of the page after top\_lines. The standard page header and the lines shown by the event TOP-OF-PAGE are included in the count.
 
 Addition 6
 
@@ -82,7 +82,7 @@ Addition 6
 
 Effect
 
-Inserts the number of lines of the standard title of the [standard page header](javascript:call_link\('abenstandard_page_header_glosry.htm'\) "Glossary Entry") of the page after title\_lines.
+Inserts the number of lines of the standard title of the [standard page header](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstandard_page_header_glosry.htm "Glossary Entry") of the page after title\_lines.
 
 Addition 7
 
@@ -90,7 +90,7 @@ Addition 7
 
 Effect
 
-Inserts the number of lines of the column headers of the [standard page header](javascript:call_link\('abenstandard_page_header_glosry.htm'\) "Glossary Entry") of the page after header\_lines.
+Inserts the number of lines of the column headers of the [standard page header](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstandard_page_header_glosry.htm "Glossary Entry") of the page after header\_lines.
 
 Addition 8
 
@@ -98,4 +98,4 @@ Addition 8
 
 Effect
 
-Inserts the number of lines reserved by the addition LINE-COUNT of the statement at the start of the program for the [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") after footer\_lines.
+Inserts the number of lines reserved by the addition LINE-COUNT of the statement at the start of the program for the [page footer](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpage_footer_glosry.htm "Glossary Entry") after footer\_lines.

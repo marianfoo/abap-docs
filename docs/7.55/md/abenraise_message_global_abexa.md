@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) →  [Messages - System Interfaces](javascript:call_link\('abenmessage_interfaces.htm'\)) →  [Messages - System Interface IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_messages.htm) →  [Messages - System Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmessage_interfaces.htm) →  [Messages - System Interface IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenif_t100_dyn_msg.htm) → 
 
 Messages - IF\_T100\_DYN\_MSG in a Global Exception Class
 
@@ -47,14 +47,14 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates the transformation of a non-class-based exception raised in a method using [MESSAGE RAISING](javascript:call_link\('abapmessage_raising.htm'\)) and, when the method is called, handled using the addition [EXCEPTIONS](javascript:call_link\('abapcall_method_parameters.htm'\)) to a class-based exception. This example works in the same way as the [executable example](javascript:call_link\('abenmessage_interface_reuse_abexa.htm'\)) for the system interface [IF\_T100\_MESSAGE](javascript:call_link\('abenif_t100_message.htm'\)), but uses the class CX\_DEMO\_DYN\_T100, which implements the system interface [IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)).
+This example demonstrates the transformation of a non-class-based exception raised in a method using [MESSAGE RAISING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmessage_raising.htm) and, when the method is called, handled using the addition [EXCEPTIONS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_parameters.htm) to a class-based exception. This example works in the same way as the [executable example](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmessage_interface_reuse_abexa.htm) for the system interface [IF\_T100\_MESSAGE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenif_t100_message.htm), but uses the class CX\_DEMO\_DYN\_T100, which implements the system interface [IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenif_t100_dyn_msg.htm).
 
--   In both cases, sy-msgid and sy-msgno can be used after the addition [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)) of the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) to associate the exception object with the message.
+-   In both cases, sy-msgid and sy-msgno can be used after the addition [MESSAGE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_message.htm) of the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_class.htm) to associate the exception object with the message.
 
--   sy-msgv1 to sy-msgv4 can be specified after [WITH](javascript:call_link\('abapraise_exception_message.htm'\)) and are assigned here to the interface attributes MSGV1 to MSGV4 automatically.
+-   sy-msgv1 to sy-msgv4 can be specified after [WITH](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_message.htm) and are assigned here to the interface attributes MSGV1 to MSGV4 automatically.
 
--   sy-msgty can also be passed further here using [MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)).
+-   sy-msgty can also be passed further here using [MESSAGE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_message.htm).
 
 Hint
 
-See also the executable [example](javascript:call_link\('abenraise_message_glbl_shrt_abexa.htm'\)) for using a short form of statement [RAISE EXCEPTION MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)).
+See also the executable [example](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenraise_message_glbl_shrt_abexa.htm) for using a short form of statement [RAISE EXCEPTION MESSAGE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapraise_exception_message.htm).

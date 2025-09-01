@@ -4,13 +4,13 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Structure](javascript:call_link\('abenabap_program_layout.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Structure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_program_layout.htm) → 
 
 ABAP Program Types
 
 The type of an ABAP program determines, among other things, which declarations and processing blocks a program can contain and it can be executed in the ABAP runtime environment.
 
-The following table shows all program types for standalone programs ([compilation units](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry")) and how they affect their properties:
+The following table shows all program types for standalone programs ([compilation units](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencompilation_unit_glosry.htm "Glossary Entry")) and how they affect their properties:
 
 Program Type
 
@@ -24,9 +24,9 @@ Dynpros
 
 Text Pools
 
-[Executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry")
+[Executable program](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexecutable_program_glosry.htm "Glossary Entry")
 
-Statement [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) or call of a dynpro or selection screen using a [transaction code](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry")
+Statement [SUBMIT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsubmit.htm) or call of a dynpro or selection screen using a [transaction code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransaction_code_glosry.htm "Glossary Entry")
 
 Local interfaces and classes, all other declarative statements
 
@@ -36,11 +36,11 @@ Yes
 
 Yes
 
-[Class pool](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry")
+[Class pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_pool_glosry.htm "Glossary Entry")
 
-[Call](javascript:call_link\('abenmethod_calls.htm'\)) using a visible method or using a [transaction code](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry")
+[Call](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmethod_calls.htm) using a visible method or using a [transaction code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransaction_code_glosry.htm "Glossary Entry")
 
-A global class of the class library, local interfaces and classes, statements [TYPES](javascript:call_link\('abaptypes.htm'\)) and [CONSTANTS](javascript:call_link\('abapconstants.htm'\))
+A global class of the class library, local interfaces and classes, statements [TYPES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes.htm) and [CONSTANTS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapconstants.htm)
 
 Methods only
 
@@ -48,19 +48,19 @@ No
 
 Yes
 
-[Function pool](javascript:call_link\('abenfunction_pool_glosry.htm'\) "Glossary Entry") or [function group](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry")
+[Function pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction_pool_glosry.htm "Glossary Entry") or [function group](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction_group_glosry.htm "Glossary Entry")
 
-Call of a function module using [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)) or of a dynpro is called using a [transaction code](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry")
+Call of a function module using [CALL FUNCTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function.htm) or of a dynpro is called using a [transaction code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransaction_code_glosry.htm "Glossary Entry")
 
 Local interfaces and classes, all other declarative statements
 
-All except event blocks for [reporting events](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry")
+All except event blocks for [reporting events](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreporting_event_glosry.htm "Glossary Entry")
 
 Yes
 
 Yes
 
-[Interface pool](javascript:call_link\('abeninterface_pool_glosry.htm'\) "Glossary Entry")
+[Interface pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninterface_pool_glosry.htm "Glossary Entry")
 
 None
 
@@ -72,9 +72,9 @@ No
 
 No
 
-[Module pool](javascript:call_link\('abenmodul_pool_glosry.htm'\) "Glossary Entry")
+[Module pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmodul_pool_glosry.htm "Glossary Entry")
 
-Call of a dynpro using a [transaction code](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry")
+Call of a dynpro using a [transaction code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransaction_code_glosry.htm "Glossary Entry")
 
 Local interfaces and classes, all declarative statements
 
@@ -84,23 +84,23 @@ Yes
 
 Yes
 
-[Subroutine pool](javascript:call_link\('abensubroutine_pool_glosry.htm'\) "Glossary Entry")
+[Subroutine pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensubroutine_pool_glosry.htm "Glossary Entry")
 
 External call of local procedures (subroutines or methods)
 
 Local interfaces and classes, all other declarative statements
 
-Event block [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)), subroutines, methods
+Event block [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapload-of-program.htm), subroutines, methods
 
 No
 
 Yes
 
-[Type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") (also [type group](javascript:call_link\('abentype_group_glosry.htm'\) "Glossary Entry"))
+[Type pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentype_pool_glosry.htm "Glossary Entry") (also [type group](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentype_group_glosry.htm "Glossary Entry"))
 
 None
 
-Statements [TYPES](javascript:call_link\('abaptypes.htm'\)) and [CONSTANTS](javascript:call_link\('abapconstants.htm'\))
+Statements [TYPES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes.htm) and [CONSTANTS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapconstants.htm)
 
 None
 
@@ -108,8 +108,8 @@ No
 
 No
 
-The second column of the table shows the type of execution for which the program type is mainly designated. The third column shows which declarations can be made in the [global declaration part](javascript:call_link\('abenglobal_declaration_sect_glosry.htm'\) "Glossary Entry") of a program with the specified type. The fourth column indicates which [processing blocks](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") the program can contain. The fifth indicates whether independent [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") are supported. The final column indicates whether independent [text pools](javascript:call_link\('abentext_pool_glosry.htm'\) "Glossary Entry") can be created.
+The second column of the table shows the type of execution for which the program type is mainly designated. The third column shows which declarations can be made in the [global declaration part](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenglobal_declaration_sect_glosry.htm "Glossary Entry") of a program with the specified type. The fourth column indicates which [processing blocks](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprocessing_block_glosry.htm "Glossary Entry") the program can contain. The fifth indicates whether independent [dynpros](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendynpro_glosry.htm "Glossary Entry") are supported. The final column indicates whether independent [text pools](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_pool_glosry.htm "Glossary Entry") can be created.
 
 Programming Guideline
 
-[ABAP Program Types](javascript:call_link\('abenprogram_type_guidl.htm'\) "Guideline")
+[ABAP Program Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprogram_type_guidl.htm "Guideline")

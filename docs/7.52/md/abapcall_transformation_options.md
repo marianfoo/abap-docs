@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml_trafos.htm) →  [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transformation.htm) → 
 
 CALL TRANSFORMATION - OPTIONS
 
-[Quick Reference](javascript:call_link\('abapcall_transformation_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transformation_shortref.htm)
 
 Syntax
 
@@ -34,7 +34,7 @@ The addition OPTIONS enables predefined transformation options to be specified, 
 
 Note
 
-The transformations apply to XML and also to [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") (where applicable).
+The transformations apply to XML and also to [JSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_glosry.htm "Glossary Entry") (where applicable).
 
 Addition 1
 
@@ -70,7 +70,7 @@ Addition 2
 
 Effect
 
-The transformation option data\_refs controls the output of [data references](javascript:call_link\('abendata_reference_glosry.htm'\) "Glossary Entry") if the transformation is from ABAP to XML or JSON.
+The transformation option data\_refs controls the output of [data references](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_reference_glosry.htm "Glossary Entry") if the transformation is from ABAP to XML or JSON.
 
 Possible Values
 
@@ -82,15 +82,15 @@ Default for ST, no data references are produced.
 
 heap
 
-Default for XSLT and only allowed there; data referenced using [heap references](javascript:call_link\('abenheap_reference_glosry.htm'\) "Glossary Entry") is produced as subelements of the [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") elements <asx:heap> or the asJSON object %heap. Data objects references using [stack references](javascript:call_link\('abenstack_reference_glosry.htm'\) "Glossary Entry") are not serialized.
+Default for XSLT and only allowed there; data referenced using [heap references](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenheap_reference_glosry.htm "Glossary Entry") is produced as subelements of the [asXML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenasxml_glosry.htm "Glossary Entry") elements <asx:heap> or the asJSON object %heap. Data objects references using [stack references](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstack_reference_glosry.htm "Glossary Entry") are not serialized.
 
 heap-or-error
 
-Only possible for XSLT. As heap, but the exception CX\_REFERENCE\_NOT\_SERIALIZABLE is raised if the data to be serialized contains [stack references](javascript:call_link\('abenstack_reference_glosry.htm'\) "Glossary Entry").
+Only possible for XSLT. As heap, but the exception CX\_REFERENCE\_NOT\_SERIALIZABLE is raised if the data to be serialized contains [stack references](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstack_reference_glosry.htm "Glossary Entry").
 
 heap-or-create
 
-Only possible for XSLT. Like heap, but data objects referenced using [stack references](javascript:call_link\('abenstack_reference_glosry.htm'\) "Glossary Entry") are handled like data objects referenced using [heap references](javascript:call_link\('abenheap_reference_glosry.htm'\) "Glossary Entry").
+Only possible for XSLT. Like heap, but data objects referenced using [stack references](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstack_reference_glosry.htm "Glossary Entry") are handled like data objects referenced using [heap references](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenheap_reference_glosry.htm "Glossary Entry").
 
 embedded
 
@@ -102,7 +102,7 @@ Exception CX\_REFERENCE\_NOT\_SERIALIZABLE cannot be caught directly. It can onl
 
 Executable Example
 
-For information about the differences between serializing to heap and embedded elements, see [Serializations to Heap or Embedded](javascript:call_link\('abenserialize_ref_heap_embed_abexa.htm'\)).
+For information about the differences between serializing to heap and embedded elements, see [Serializations to Heap or Embedded](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenserialize_ref_heap_embed_abexa.htm).
 
 Addition 3
 
@@ -122,7 +122,7 @@ Initial components of structures are produced.
 
 suppress\_boxed
 
-Default setting, does not produce initial [boxed components](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry") of structures; produces initial components of all other structures.
+Default setting, does not produce initial [boxed components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenboxed_component_glosry.htm "Glossary Entry") of structures; produces initial components of all other structures.
 
 suppress
 
@@ -132,7 +132,7 @@ Notes
 
 -   The suppression of initial components in serializations reduces the data volume. However, this option should be used with caution and only there is complete control over deserializations. If the option clear is not used with the value "all" in serializations, suppressed components in ABAP data objects are ignored and the target fields retain their values. Deserialization in external systems can cause problems if a suppressed component is expected.
     
--   The suppression of initial components also affects structure components that are typed with the domains for [XML schema data types](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)). For example, a component typed with the domain XSDBOOLEAN is not displayed if it has the value abap\_false. This can also cause unwanted results.
+-   The suppression of initial components also affects structure components that are typed with the domains for [XML schema data types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_schema.htm). For example, a component typed with the domain XSDBOOLEAN is not displayed if it has the value abap\_false. This can also cause unwanted results.
     
 
 Addition 4
@@ -141,7 +141,7 @@ Addition 4
 
 Effect
 
-The transformation option technical\_types controls the behavior if no type description can be serialized when serializing data references to [asXML](javascript:call_link\('abenasxml_reference_variable.htm'\)) or [asJSON](javascript:call_link\('abenabap_asjson_reference_var.htm'\)). This is the case when the [technical type attributes](javascript:call_link\('abentechnical_type_attr_glosry.htm'\) "Glossary Entry") of the [dynamic type](javascript:call_link\('abendynamic_type_glosry.htm'\) "Glossary Entry") of the data reference variable are known, but the type does not have a name (or it only has a technical name).
+The transformation option technical\_types controls the behavior if no type description can be serialized when serializing data references to [asXML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenasxml_reference_variable.htm) or [asJSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_asjson_reference_var.htm). This is the case when the [technical type attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentechnical_type_attr_glosry.htm "Glossary Entry") of the [dynamic type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynamic_type_glosry.htm "Glossary Entry") of the data reference variable are known, but the type does not have a name (or it only has a technical name).
 
 Possible Values
 
@@ -159,7 +159,7 @@ Notes
 
 -   Exception CX\_REFERENCE\_NOT\_SERIALIZABLE cannot be caught directly. It can only be caught using CX\_XSLT\_SERIALIZATION\_ERROR.
     
--   Data types without names are [bound data types](javascript:call_link\('abenbound_data_type_glosry.htm'\) "Glossary Entry") or data types constructed using [RTTS](javascript:call_link\('abenrtts_glosry.htm'\) "Glossary Entry").
+-   Data types without names are [bound data types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbound_data_type_glosry.htm "Glossary Entry") or data types constructed using [RTTS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrtts_glosry.htm "Glossary Entry").
     
 
 Addition 5
@@ -168,7 +168,7 @@ Addition 5
 
 Effect
 
-The transformation option value\_handling controls the tolerance of conversions when [mapping elementary ABAP types](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)).
+The transformation option value\_handling controls the tolerance of conversions when [mapping elementary ABAP types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_elementary.htm).
 
 Possible Values
 
@@ -229,7 +229,7 @@ full
 
 Default setting; an XML header is produced, specifying the encoding.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

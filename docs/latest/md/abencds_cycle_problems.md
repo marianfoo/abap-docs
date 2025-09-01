@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entities.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20CDS%20-%20Cyclical%20Dependencies%2C%20ABENCDS_CYCLE_PROBLEMS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ABAP CDS - Cyclical Dependencies
 
-In ABAP CDS, [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") can be defined with mutual dependencies. For example, a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") accesses a different CDS view as a data source or exposes a CDS view in a [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry"). A CDS entity that consumes another CDS entity is dependent on the consumed entity. A distinction should be made between the following:
+In ABAP CDS, [CDS entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm "Glossary Entry") can be defined with mutual dependencies. For example, a [CDS view](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_glosry.htm "Glossary Entry") accesses a different CDS view as a data source or exposes a CDS view in a [CDS association](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_association_glosry.htm "Glossary Entry"). A CDS entity that consumes another CDS entity is dependent on the consumed entity. A distinction should be made between the following:
 
 -   Technical dependencies
     
@@ -45,7 +45,7 @@ Hints
 
 -   To avoid activation problems, cyclical dependencies should be kept to a minimum, even if the CDS entities in question could in principle be activated. The data model should enable a hierarchical view of the data and in this way remove the need for cyclical dependencies, even if they are not characterized on the database.
 -   A solution for full resolution of semantic cyclical dependencies using step-by-step activation in mass activation of CDS entities is currently being developed and will be shipped in a future release.
--   [Dictionary objects](javascript:call_link\('abendictionary_object_glosry.htm'\) "Glossary Entry") can have semantic dependencies on each other but no technical dependencies. DDIC table views, for example, cannot contain other views as data sources. Semantic references, however, are possible, for example using foreign key relationships or value tables. Mass activations of dictionary objects resolve any semantic cyclical dependencies using step-by-step activation.
+-   [Dictionary objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendictionary_object_glosry.htm "Glossary Entry") can have semantic dependencies on each other but no technical dependencies. DDIC table views, for example, cannot contain other views as data sources. Semantic references, however, are possible, for example using foreign key relationships or value tables. Mass activations of dictionary objects resolve any semantic cyclical dependencies using step-by-step activation.
 
 Example
 
@@ -63,7 +63,7 @@ define view entity test\_view2 as
 
 Example
 
-The cyclical dependency of the following views is produced by [CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") and has a semantic background.
+The cyclical dependency of the following views is produced by [CDS associations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_association_glosry.htm "Glossary Entry") and has a semantic background.
 
 -   The view test\_view1 defines and exposes a CDS association \_assoc1 with the view test\_view2.
 -   The view test\_view2 defines and exposes a CDS association \_assoc2 with the view test\_view3.

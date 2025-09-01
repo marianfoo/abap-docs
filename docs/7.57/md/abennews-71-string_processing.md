@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 7.0 and its EhPs](javascript:call_link\('abennews-70_ehps.htm'\)) →  [News for Release 7.0, EhP2](javascript:call_link\('abennews-71.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 7.0 and its EhPs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-70_ehps.htm) →  [News for Release 7.0, EhP2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-71.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Character String and Byte String Processing in Release 7.0, EhP2, ABENNEWS-71-STRING_
 PROCESSING, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -29,37 +29,37 @@ Modification 1  
 
 String Expressions
 
-The new [string expressions](javascript:call_link\('abapcompute_string.htm'\)) enhance the previous [calculation expressions](javascript:call_link\('abencalculation_expression_glosry.htm'\) "Glossary Entry") and enable character string processing at specific [operand positions](javascript:call_link\('abenexpression_positions.htm'\)). A string expression is either a [string template](javascript:call_link\('abenstring_templates.htm'\)) or a [concatenation](javascript:call_link\('abenstring_operators.htm'\)) with operator &&.
+The new [string expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_string.htm) enhance the previous [calculation expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_expression_glosry.htm "Glossary Entry") and enable character string processing at specific [operand positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpression_positions.htm). A string expression is either a [string template](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_templates.htm) or a [concatenation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_operators.htm) with operator &&.
 
 Modification 2   
 
 String Templates
 
-[String templates](javascript:call_link\('abenstring_templates.htm'\)) have been introduced as a new way of creating character strings. A string template is enclosed between two "|" characters and creates a character string in a string expression from a
+[String templates](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_templates.htm) have been introduced as a new way of creating character strings. A string template is enclosed between two "|" characters and creates a character string in a string expression from a
 
 -   literal text,
 -   embedded expressions, and
 -   control characters.
 
-String templates replace the [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) statement to a large extent.
+String templates replace the [WRITE TO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to.htm) statement to a large extent.
 
 Modification 3   
 
 Concatenation Operator
 
-The concatenation operator [&&](javascript:call_link\('abenstring_operators.htm'\)) is a new string operator that concatenates together two character-like operands as one operand in a string expression. The concatenation operator replaces the [CONCATENATE](javascript:call_link\('abapconcatenate.htm'\)) statement to a large extent.
+The concatenation operator [&&](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_operators.htm) is a new string operator that concatenates together two character-like operands as one operand in a string expression. The concatenation operator replaces the [CONCATENATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapconcatenate.htm) statement to a large extent.
 
 Modification 4   
 
 String Functions
 
-[String functions](javascript:call_link\('abenstring_functions.htm'\)) have been introduced as a new type of [embedded function](javascript:call_link\('abenbuiltin_function_glosry.htm'\) "Glossary Entry"). There are
+[String functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions.htm) have been introduced as a new type of [embedded function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuiltin_function_glosry.htm "Glossary Entry"). There are
 
--   [Search functions](javascript:call_link\('abensearch_functions.htm'\))
--   a [similarity function](javascript:call_link\('abendistance_functions.htm'\))
--   [Processing functions](javascript:call_link\('abenprocess_functions.htm'\))
+-   [Search functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensearch_functions.htm)
+-   a [similarity function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendistance_functions.htm)
+-   [Processing functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocess_functions.htm)
 
-The [Boolean function](javascript:call_link\('abenboole_functions.htm'\)) boolc can also be considered a string function.
+The [Boolean function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm) boolc can also be considered a string function.
 
 The string functions enable many character string processing tasks to be performed in operand positions where separate statements and helper variables were required previously.
 
@@ -67,13 +67,13 @@ Modification 5  
 
 Bit Functions
 
-[Bit functions](javascript:call_link\('abenbit_functions.htm'\)) have been introduced as a new type of [embedded function](javascript:call_link\('abenbuiltin_function_glosry.htm'\) "Glossary Entry"). A bit function (bit-set) currently exists for setting bits. The [Boolean function](javascript:call_link\('abenboole_functions.htm'\)) boolx can also be considered a bit function.
+[Bit functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbit_functions.htm) have been introduced as a new type of [embedded function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuiltin_function_glosry.htm "Glossary Entry"). A bit function (bit-set) currently exists for setting bits. The [Boolean function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenboole_functions.htm) boolx can also be considered a bit function.
 
 Modification 6   
 
 Management of Short Strings
 
-The internal management of short stings has been optimized to reduce the memory overhead that accumulates when short strings are managed for the relevant [string header](javascript:call_link\('abenmemory_consumption_1.htm'\)). For string lengths of less than 30 characters or 60 bytes, the string header now only requires between 10 and 40 bytes. For longer strings, this remains at approximately 50 bytes. Before Release 7.0, EhP2, the overhead of the string header was not related to the length of the string and was approximately 60 bytes for each string.
+The internal management of short stings has been optimized to reduce the memory overhead that accumulates when short strings are managed for the relevant [string header](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmemory_consumption_1.htm). For string lengths of less than 30 characters or 60 bytes, the string header now only requires between 10 and 40 bytes. For longer strings, this remains at approximately 50 bytes. Before Release 7.0, EhP2, the overhead of the string header was not related to the length of the string and was approximately 60 bytes for each string.
 
 Strings are recommended instead of data objects for all character string and byte string operations where a fixed length is not important.
 
@@ -85,16 +85,16 @@ Modification 7  
 
 Streaming for Strings
 
-The new [streaming](javascript:call_link\('abenstreaming_glosry.htm'\) "Glossary Entry") concept supports [strings](javascript:call_link\('abenstring_streams.htm'\)).
+The new [streaming](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstreaming_glosry.htm "Glossary Entry") concept supports [strings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_streams.htm).
 
 Modification 8   
 
 Any Start Values for Data Objects of Type xstring
 
-From Release 7.0, EhP2, any suitable start value val can be specified for xstring after the addition [VALUE](javascript:call_link\('abapdata_options.htm'\)) for statements DATA, CONSTANTS and so on. Previously, only IS INITIAL was possible.
+From Release 7.0, EhP2, any suitable start value val can be specified for xstring after the addition [VALUE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata_options.htm) for statements DATA, CONSTANTS and so on. Previously, only IS INITIAL was possible.
 
 Modification 9   
 
 Maximum Length of Data Objects of Types c, n, and x
 
-The maximum length of data objects of types [c](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) and [n](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) has been increased from 65535 to 262143. The maximum length of data objects of type [x](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) has been increased from 65535 to 524287.
+The maximum length of data objects of types [c](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_types_complete.htm) and [n](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_types_complete.htm) has been increased from 65535 to 262143. The maximum length of data objects of type [x](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_types_complete.htm) has been increased from 65535 to 524287.

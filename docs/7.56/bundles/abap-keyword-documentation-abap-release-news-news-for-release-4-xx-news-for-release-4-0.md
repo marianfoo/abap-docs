@@ -3,39 +3,7 @@
 Included pages: 15
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abennews-40.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm)
-- [abennews-40-sysexc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-sysexc.htm)
-- [abennews-40-bitops.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-bitops.htm)
-- [abennews-40-dictionary-types.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-dictionary-types.htm)
-- [abennews-40-performance.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-performance.htm)
-- [abennews-40-assign.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-assign.htm)
-- [abennews-40-keytab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-keytab.htm)
-- [abennews-40-itab-more.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-itab-more.htm)
-- [abennews-40-se30.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-se30.htm)
-- [abennews-40-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-abap_sql.htm)
-- [abennews-40-rfc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-rfc.htm)
-- [abennews-40-selscreen.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-selscreen.htm)
-- [abennews-40-ldb.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-ldb.htm)
-- [abennews-40-timestamp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-timestamp.htm)
-- [abennews-40-other-40ab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-40ab.htm)
-
-**Bundle Contains**: 15 documentation pages
-**Version**: ABAP 7.56
-**Generated**: 2025-09-01T11:25:45.509Z
-
----
-
 ### abennews-40.htm
-
-> **📖 Official SAP Documentation**: [abennews-40.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -43,82 +11,68 @@ Included pages: 15
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) → 
 
 News for Release 4.0
 
 Changes were made in the following areas as part of development for SAP Basis Releases 4.0 and 4.5:
 
--   [Catchable Runtime Errors in Release 4.0](javascript:call_link\('abennews-40-sysexc.htm'\))
--   [Bit Operations and Bit Comparisons in Release 4.0](javascript:call_link\('abennews-40-bitops.htm'\))
--   [Data Types in ABAP Dictionary in Release 4.0](javascript:call_link\('abennews-40-dictionary-types.htm'\))
--   [Editing Large Datasets in Release 4.0](javascript:call_link\('abennews-40-performance.htm'\))
--   [Extended Concept for Field Symbols in Release 4.0](javascript:call_link\('abennews-40-assign.htm'\))
--   [Internal Tables in Release 4.0](javascript:call_link\('abennews-40-keytab.htm'\))
--   [Internal Tables and Extracts in Release 4.0](javascript:call_link\('abennews-40-itab-more.htm'\))
--   [Runtime Analysis in Release 4.0](javascript:call_link\('abennews-40-se30.htm'\))
--   [ABAP SQL in Release 4.0](javascript:call_link\('abennews-40-abap_sql.htm'\))
--   [RFC, Remote Function Call in Release 4.0](javascript:call_link\('abennews-40-rfc.htm'\))
--   [Selection Screens in Release 4.0](javascript:call_link\('abennews-40-selscreen.htm'\))
--   [Logical Databases in Release 4.0](javascript:call_link\('abennews-40-ldb.htm'\))
--   [Time Stamps in Release 4.0](javascript:call_link\('abennews-40-timestamp.htm'\))
--   [Further Changes in Release 4.0](javascript:call_link\('abennews-40-other-40ab.htm'\))
+-   [Catchable Runtime Errors in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-sysexc.htm)
+-   [Bit Operations and Bit Comparisons in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-bitops.htm)
+-   [Data Types in ABAP Dictionary in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-dictionary-types.htm)
+-   [Editing Large Datasets in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-performance.htm)
+-   [Extended Concept for Field Symbols in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-assign.htm)
+-   [Internal Tables in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-keytab.htm)
+-   [Internal Tables and Extracts in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-itab-more.htm)
+-   [Runtime Analysis in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-se30.htm)
+-   [ABAP SQL in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-abap_sql.htm)
+-   [RFC, Remote Function Call in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-rfc.htm)
+-   [Selection Screens in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-selscreen.htm)
+-   [Logical Databases in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-ldb.htm)
+-   [Time Stamps in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-timestamp.htm)
+-   [Further Changes in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-40ab.htm)
 
 Earlier Changes in ABAP:
 
-[News for Release 3.0](javascript:call_link\('abennews-30.htm'\))
-[Changes Before Release 3.0](javascript:call_link\('abennews-21.htm'\))
+[News for Release 3.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-30.htm)
+[Changes Before Release 3.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-21.htm)
 
 Continue
-[Catchable Runtime Errors in Release 4.0](javascript:call_link\('abennews-40-sysexc.htm'\))
-[Bit Operations and Bit Comparisons in Release 4.0](javascript:call_link\('abennews-40-bitops.htm'\))
-[Data Types in ABAP Dictionary in Release 4.0](javascript:call_link\('abennews-40-dictionary-types.htm'\))
-[Editing Large Datasets in Release 4.0](javascript:call_link\('abennews-40-performance.htm'\))
-[Extended Concept for Field Symbols in Release 4.0](javascript:call_link\('abennews-40-assign.htm'\))
-[Internal Tables in Release 4.0](javascript:call_link\('abennews-40-keytab.htm'\))
-[Internal Tables and Extracts in Release 4.0](javascript:call_link\('abennews-40-itab-more.htm'\))
-[Runtime Analysis in Release 4.0](javascript:call_link\('abennews-40-se30.htm'\))
-[ABAP SQL in Release 4.0](javascript:call_link\('abennews-40-abap_sql.htm'\))
-[RFC, Remote Function Call in Release 4.0](javascript:call_link\('abennews-40-rfc.htm'\))
-[Selection Screens in Release 4.0](javascript:call_link\('abennews-40-selscreen.htm'\))
-[Logical Databases in Release 4.0](javascript:call_link\('abennews-40-ldb.htm'\))
-[Time Stamps in Release 4.0](javascript:call_link\('abennews-40-timestamp.htm'\))
-[Further Changes in Release 4.0](javascript:call_link\('abennews-40-other-40ab.htm'\))
+[Catchable Runtime Errors in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-sysexc.htm)
+[Bit Operations and Bit Comparisons in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-bitops.htm)
+[Data Types in ABAP Dictionary in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-dictionary-types.htm)
+[Editing Large Datasets in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-performance.htm)
+[Extended Concept for Field Symbols in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-assign.htm)
+[Internal Tables in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-keytab.htm)
+[Internal Tables and Extracts in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-itab-more.htm)
+[Runtime Analysis in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-se30.htm)
+[ABAP SQL in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-abap_sql.htm)
+[RFC, Remote Function Call in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-rfc.htm)
+[Selection Screens in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-selscreen.htm)
+[Logical Databases in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-ldb.htm)
+[Time Stamps in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-timestamp.htm)
+[Further Changes in Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-40ab.htm)
 
-
-
-**📖 Source**: [abennews-40.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm)
 
 ### abennews-40-sysexc.htm
 
-> **📖 Official SAP Documentation**: [abennews-40-sysexc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-sysexc.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 Catchable Runtime Errors in Release 4.0
 
-From Release 4.0, runtime errors can be caught using [CATCH SYSTEM-EXCEPTIONS ... ENDCATCH](javascript:call_link\('abapcatch_sys.htm'\)).
+From Release 4.0, runtime errors can be caught using [CATCH SYSTEM-EXCEPTIONS ... ENDCATCH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcatch_sys.htm).
 
 Previously, the occurrence of a runtime error always terminated the ABAP program. Special tests had to be programmed at critical locations in programs to ensure that the program would always execute without problems.
-[CATCH SYSTEM-EXCEPTIONS ... ENDCATCH](javascript:call_link\('abapcatch_sys.htm'\)) can now be used to wrap these critical program spots. After ENDCATCH, it is then possible to query whether the program block was ended correctly or whether a runtime error occurred that was caught.
+[CATCH SYSTEM-EXCEPTIONS ... ENDCATCH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcatch_sys.htm) can now be used to wrap these critical program spots. After ENDCATCH, it is then possible to query whether the program block was ended correctly or whether a runtime error occurred that was caught.
 
-
-
-**📖 Source**: [abennews-40-sysexc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-sysexc.htm)
 
 ### abennews-40-bitops.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-bitops.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-bitops.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -126,35 +80,28 @@ Previously, the occurrence of a runtime error always terminated the ABAP program
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 Bit Operations and Bit Comparisons in Release 4.0
 
 New Variants SET BIT and GET BIT
 
-[SET BIT n of f](javascript:call_link\('abapset_bit.htm'\)) sets the nth bit of the field f.
-[GET BIT n OF f INTO g](javascript:call_link\('abapget_bit.htm'\)) passes the nth bit of the field f to the field g.
+[SET BIT n of f](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_bit.htm) sets the nth bit of the field f.
+[GET BIT n OF f INTO g](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_bit.htm) passes the nth bit of the field f to the field g.
 
 New Bit Operations BIT-NOT, BIT-AND, BIT-XOR, and BIT-OR
 
-In the [COMPUTE](javascript:call_link\('abapcompute_bit.htm'\)) statement, the new operators BIT-NOT, BIT-AND, BIT-XOR, and BIT-OR can be used for bit operations.
+In the [COMPUTE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_bit.htm) statement, the new operators BIT-NOT, BIT-AND, BIT-XOR, and BIT-OR can be used for bit operations.
 
 Complex conditions and sets can be managed efficiently using the new variants SET BIT and GET BIT and the new bit operations applied to bit strings.
 
 Changes in Bit Comparisons
 
-In the case of the [comparison operators](javascript:call_link\('abenlogexp_bitmasks.htm'\)) O, Z, and M, comparisons now take place in the length of the second operand, which must have the type X.
+In the case of the [comparison operators](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_bitmasks.htm) O, Z, and M, comparisons now take place in the length of the second operand, which must have the type X.
 Before Release 3.0, comparisons took place in length 1 and the second field was considered to be a X field, regardless of its type and length.
 
 
-
-**📖 Source**: [abennews-40-bitops.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-bitops.htm)
-
 ### abennews-40-dictionary-types.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-dictionary-types.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-dictionary-types.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -162,7 +109,7 @@ Before Release 3.0, comparisons took place in length 1 and the second field was 
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 Data Types in ABAP Dictionary in Release 4.0
 
@@ -199,14 +146,7 @@ Outlook
 SAP plans to enable the central definition of constants in ABAP Dictionary. This is currently only possible in type pools. Also, a comprehensive bundling concept will make the encapsulation done in type pools available throughout the system.
 
 
-
-**📖 Source**: [abennews-40-dictionary-types.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-dictionary-types.htm)
-
 ### abennews-40-performance.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-performance.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-performance.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -214,17 +154,17 @@ SAP plans to enable the central definition of constants in ABAP Dictionary. This
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 Editing Large Datasets in Release 4.0
 
 General
 
-Large datasets in ABAP can be managed either as internal tables or [extract datasets](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry").
+Large datasets in ABAP can be managed either as internal tables or [extract datasets](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextract_dataset_glosry.htm "Glossary Entry").
 
 Internal tables are dynamic sequential datasets whose lines all have the same structure and a key.
 
-[Extracts](javascript:call_link\('abenextract_glosry.htm'\) "Glossary Entry") are dynamic sequential datasets whose lines can be structured differently. Extracts cannot be accessed using indexes or keys. They are always processed in a loop.
+[Extracts](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextract_glosry.htm "Glossary Entry") are dynamic sequential datasets whose lines can be structured differently. Extracts cannot be accessed using indexes or keys. They are always processed in a loop.
 
 From Release 4.5A, the performance of some crucial operations on internal tables and extracts has improved significantly.
 
@@ -232,20 +172,20 @@ Description of Functions
 
 New Index Management in Internal Tables
 
-Until now, the cost of manipulating indexes increased in linear relation to the number of entries being inserted or deleted from [standard](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") and [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry"). From Release 4.5A, these index manipulation costs will only increase in logarithmic relation to the number of entries, mainly due to the fact that table indexes are now managed in tree form. This allows for more efficient insertion and deletion in very large standard and sorted tables.
-[Internal Tables](javascript:call_link\('abenitab.htm'\))
+Until now, the cost of manipulating indexes increased in linear relation to the number of entries being inserted or deleted from [standard](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_table_glosry.htm "Glossary Entry") and [sorted tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_table_glosry.htm "Glossary Entry"). From Release 4.5A, these index manipulation costs will only increase in logarithmic relation to the number of entries, mainly due to the fact that table indexes are now managed in tree form. This allows for more efficient insertion and deletion in very large standard and sorted tables.
+[Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm)
 
 Accessing Individual Internal Table Entries Using Field Symbols
 
 Until now, individual entries in internal tables could only be processed indirectly using separate work areas. From Release 4.5A, field symbols can be used to display internal table entries. It is now possible to both read internal table entries and write to them as well. This allows for better performance when working with large and complex tables and makes processing nested internal tables considerably easier.
 
 To assign a table line to a field symbol, use the following statements:
-[LOOP AT itab ASSIGNING <fs>](javascript:call_link\('abaploop_at_itab.htm'\)).
-[READ TABLE itab ASSIGNING <fs>](javascript:call_link\('abapread_table.htm'\)).
+[LOOP AT itab ASSIGNING <fs>](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm).
+[READ TABLE itab ASSIGNING <fs>](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm).
 
 New Repository for Extracts
 
-Until now, [extracts](javascript:call_link\('abenextract_glosry.htm'\) "Glossary Entry") were stored in SAP paging. In an effort to improve sorting and sequential processing performance, extracts of more than 500 kBytes are now stored directly in the file system.
+Until now, [extracts](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextract_glosry.htm "Glossary Entry") were stored in SAP paging. In an effort to improve sorting and sequential processing performance, extracts of more than 500 kBytes are now stored directly in the file system.
 Extracts
 
 New External Sort Process for Internal Tables and Extracts
@@ -255,14 +195,7 @@ The main memory cannot sort large datasets all at once. Until now large datasets
 Extracts stored in the file system are always resorted physically. Internal tables are sorted physically if they are longer than 2^19 lines or greater than 12 MB. Physical sorting reduces the costs of any follow-on sequential processing.
 
 
-
-**📖 Source**: [abennews-40-performance.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-performance.htm)
-
 ### abennews-40-assign.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-assign.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-assign.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -270,15 +203,15 @@ Extracts stored in the file system are always resorted physically. Internal tabl
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 Extended Concept for Field Symbols in Release 4.0
 
 The extended field symbol concept can be summarized as follows:
 
--   The behavior of [typed and untyped field symbols](javascript:call_link\('abapfield-symbols.htm'\)) has been standardized.
--   New predicate expression [<fs> IS ASSIGNED](javascript:call_link\('abenlogexp_assigned.htm'\))
--   New statement [UNASSIGN <fs>](javascript:call_link\('abapunassign.htm'\))
+-   The behavior of [typed and untyped field symbols](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfield-symbols.htm) has been standardized.
+-   New predicate expression [<fs> IS ASSIGNED](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_assigned.htm)
+-   New statement [UNASSIGN <fs>](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapunassign.htm)
 
 Like typed field symbols, untyped field symbols are now, by default, not assigned. This means that writes in either case (like <fs> = f.) produce a runtime error.
 
@@ -288,11 +221,11 @@ Reads on untyped unassigned field symbols are only allowed for the sake of compa
 
 Unassigned field symbols, however, should no longer be accessed.
 
-The new predicate expression [<fs> IS ASSIGNED](javascript:call_link\('abenlogexp_assigned.htm'\)) can be used to query whether a field has already been assigned to the field symbol <fs>.
+The new predicate expression [<fs> IS ASSIGNED](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_assigned.htm) can be used to query whether a field has already been assigned to the field symbol <fs>.
 
-The new statement [UNASSIGN <fs>](javascript:call_link\('abapunassign.htm'\)) sets the field symbol <fs> so that it is not pointing to a field.
+The new statement [UNASSIGN <fs>](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapunassign.htm) sets the field symbol <fs> so that it is not pointing to a field.
 
-The expression [IS ASSIGNED](javascript:call_link\('abenlogexp_assigned.htm'\)), and the [ASSIGN](javascript:call_link\('abapassign.htm'\)) and [UNASSIGN](javascript:call_link\('abapunassign.htm'\)) statements enable the state of a field symbol to be established and modified at any time. This makes ABAP programs simpler and less error-prone.
+The expression [IS ASSIGNED](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_assigned.htm), and the [ASSIGN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign.htm) and [UNASSIGN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapunassign.htm) statements enable the state of a field symbol to be established and modified at any time. This makes ABAP programs simpler and less error-prone.
 
 Further changes:
 
@@ -306,23 +239,16 @@ Further changes:
     
 -   Non-assigned field symbols in INSERT, SORT, and AT:
 
-If the field symbol <fs> was not yet assigned (using [ASSIGN](javascript:call_link\('abapassign.htm'\))), it is ignored in the following statements:
+If the field symbol <fs> was not yet assigned (using [ASSIGN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign.htm)), it is ignored in the following statements:
 
-[INSERT <fs> INTO fg.](javascript:call_link\('abapinsert_fg.htm'\))
-[SORT BY <fs>.](javascript:call_link\('abapsort_extract.htm'\))
-[SORT itab BY <fs>.](javascript:call_link\('abapsort_itab.htm'\))
-[AT NEW <fs>.](javascript:call_link\('abapat_extract.htm'\))
-[AT END OF <fs>.](javascript:call_link\('abapat_extract.htm'\))
+[INSERT <fs> INTO fg.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_fg.htm)
+[SORT BY <fs>.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_extract.htm)
+[SORT itab BY <fs>.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_itab.htm)
+[AT NEW <fs>.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_extract.htm)
+[AT END OF <fs>.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_extract.htm)
 
-
-
-**📖 Source**: [abennews-40-assign.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-assign.htm)
 
 ### abennews-40-keytab.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-keytab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-keytab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -330,50 +256,50 @@ If the field symbol <fs> was not yet assigned (using [ASSIGN](javascript:call_li
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 Internal Tables in Release 4.0
 
 The following features of internal tables have been improved considerably in Release 4.0:
 
--   Performance improvements, particularly for large tables. This has been achieved by introducing [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry"), whose access time is constant, mostly regardless of the number of table entries.
+-   Performance improvements, particularly for large tables. This has been achieved by introducing [hashed tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhashed_table_glosry.htm "Glossary Entry"), whose access time is constant, mostly regardless of the number of table entries.
 -   Introduction of sorted tables. This has removed the need for complex program code, whose tasks are now performed in the kernel.
 -   Support for generic programming by introducing generic table types.
 
-The term [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry") has been expanded to include a user-defined key. In addition to the previous form of internal tables (standard tables), SAP has introduced new table types for [sorted](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") and hashed tables. The key of these tables is an integral part of the type definition. For this reason, tables with these types are also generically known as key tables. For further information, see [internal tables](javascript:call_link\('abenitab.htm'\)).
+The term [standard key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_key_glosry.htm "Glossary Entry") has been expanded to include a user-defined key. In addition to the previous form of internal tables (standard tables), SAP has introduced new table types for [sorted](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_table_glosry.htm "Glossary Entry") and hashed tables. The key of these tables is an integral part of the type definition. For this reason, tables with these types are also generically known as key tables. For further information, see [internal tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm).
 
 New Table Types: STANDARD TABLE, SORTED TABLE, and HASHED TABLE
 
 Internal tables in their old form are now known as standard tables. The old type TABLE has now been replaced by STANDARD TABLE. The new types SORTED TABLE and HASHED TABLE have been introduced.
 
 Sorted tables are always stored sorted by their table key in ascending order. The access time is logarithmically related to the number of table entries.
-[Hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") are managed internally using a hash procedure. The access time to a single table entry is essentially constant, that is, the access time is independent of the number of entries.
+[Hashed tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhashed_table_glosry.htm "Glossary Entry") are managed internally using a hash procedure. The access time to a single table entry is essentially constant, that is, the access time is independent of the number of entries.
 This means that a complete table type is defined as follows:
 1\. Table category (STANDARD TABLE, SORTED TABLE, HASHED TABLE)
 2\. Line type
 3\. Key (the order is part of the type definition)
 4\. Uniqueness attribute (UNIQUE, NON-UNIQUE)
-For further information about defining table types and objects, see the documentation for the statements [TYPES](javascript:call_link\('abaptypes_itab.htm'\)) and [DATA](javascript:call_link\('abapdata_itab.htm'\)).
+For further information about defining table types and objects, see the documentation for the statements [TYPES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_itab.htm) and [DATA](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdata_itab.htm).
 
 Generic Table Types: INDEX TABLE and ANY TABLE
 
-To allow generic programming, there is a [hierarchy](javascript:call_link\('abaptypes_tabcat.htm'\)) based on the basic internal table types listed above. The generic type INDEX TABLE includes standard and sorted tables. The type ANY TABLE can be used for any table.
-Further generic types can be defined by omitting the line type, key, or uniqueness attribute of a table (see [TYPES](javascript:call_link\('abaptypes_itab.htm'\))). This enables the types of parameters to be defined in generic [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry").
+To allow generic programming, there is a [hierarchy](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_tabcat.htm) based on the basic internal table types listed above. The generic type INDEX TABLE includes standard and sorted tables. The type ANY TABLE can be used for any table.
+Further generic types can be defined by omitting the line type, key, or uniqueness attribute of a table (see [TYPES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_itab.htm)). This enables the types of parameters to be defined in generic [procedures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprocedure_glosry.htm "Glossary Entry").
 
 Typing of Procedure Parameters
 
-Since the old internal table type corresponds to the new standard table, only standard tables can be passed to a TABLES parameter. The new tables types can be passed to [FORM](javascript:call_link\('abapform.htm'\)) and [FUNCTION](javascript:call_link\('abapfunction.htm'\)) parameters using the additions USING or CHANGING or the additions IMPORTING, EXPORTING, and CHANGING.
+Since the old internal table type corresponds to the new standard table, only standard tables can be passed to a TABLES parameter. The new tables types can be passed to [FORM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapform.htm) and [FUNCTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfunction.htm) parameters using the additions USING or CHANGING or the additions IMPORTING, EXPORTING, and CHANGING.
 
 New Table Operations
 
 Entries in key tables are located using their key. This means that it must also be possible to add, modify, and delete table entries using the appropriate table key. The following new table operations have therefore been introduced:
 
--   [INSERT](javascript:call_link\('abapinsert_itab.htm'\)) ... INTO TABLE ...
--   [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) TABLE ...
--   [READ](javascript:call_link\('abapread_table.htm'\))   TABLE ... *\[*FROM ... *|*WITH TABLEKEY ...*\]*
--   [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) TABLE ... *\[*FROM ... *|*WITH TABLE KEY ...*\]*
+-   [INSERT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_itab.htm) ... INTO TABLE ...
+-   [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) TABLE ...
+-   [READ](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm)   TABLE ... *\[*FROM ... *|*WITH TABLEKEY ...*\]*
+-   [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) TABLE ... *\[*FROM ... *|*WITH TABLE KEY ...*\]*
 
-The new operations are valid for all table categories and are, in this respect, generic (for details of the semantics, refer to the corresponding keyword documentation). In each of the statements, the key can be specified using a work area, either explicit or implicit (table with [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry")). The key values are then taken from the work area. In the statements READ and DELETE, the key can be specified explicitly as follows:
+The new operations are valid for all table categories and are, in this respect, generic (for details of the semantics, refer to the corresponding keyword documentation). In each of the statements, the key can be specified using a work area, either explicit or implicit (table with [header line](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenheader_line_glosry.htm "Glossary Entry")). The key values are then taken from the work area. In the statements READ and DELETE, the key can be specified explicitly as follows:
 ... WITH TABLE KEY k1 = v1 ... kn = vn
 Unlike the previous form of the READ statement, "WITH KEY k1 = v1 ... kn = vn", the new form must specify the key in full. This is tested within the syntax check.
 The syntax of the new operations has been modeled as far as possible on the existing statements for reading, inserting, modifying and deleting table entries. Note the following rules of thumb:
@@ -385,25 +311,18 @@ Integration of the New Table Types
 
 The new table types can be used both in the new table operations listed above and in existing ABAP statements. This means that the following statements can also be used on key tables:
 
--   [LOOP](javascript:call_link\('abaploop_at_itab.htm'\))
--   [AT](javascript:call_link\('abapat_itab.htm'\))
--   [COLLECT](javascript:call_link\('abapcollect.htm'\))
--   [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\))
--   [IF](javascript:call_link\('abapif.htm'\))
--   [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\))
--   [destination = source](javascript:call_link\('abapmove.htm'\))
--   [SELECT](javascript:call_link\('abapselect.htm'\))
--   [SORT](javascript:call_link\('abapsort_itab.htm'\))
+-   [LOOP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm)
+-   [AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_itab.htm)
+-   [COLLECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcollect.htm)
+-   [EXPORT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexport_data_cluster.htm)
+-   [IF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapif.htm)
+-   [IMPORT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_data_cluster.htm)
+-   [destination = source](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove.htm)
+-   [SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm)
+-   [SORT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_itab.htm)
 
-
-
-**📖 Source**: [abennews-40-keytab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-keytab.htm)
 
 ### abennews-40-itab-more.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-itab-more.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-itab-more.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -411,7 +330,7 @@ The new table types can be used both in the new table operations listed above an
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 Internal Tables and Extracts in Release 4.0
 
@@ -422,34 +341,27 @@ Internal Tables and Extracts in Release 4.0
 Modification 1   
 
 New addition for MODIFY: TRANSPORTING f1 f2 ...
-Using the addition [TRANSPORTING f1 f2 ... *\[*WHERE cond*\]*](javascript:call_link\('abapmodify_itab.htm'\)) of the statement MODIFY, it is now possible to target the content of individual fields and modify it (known as a selective field transport).
+Using the addition [TRANSPORTING f1 f2 ... *\[*WHERE cond*\]*](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) of the statement MODIFY, it is now possible to target the content of individual fields and modify it (known as a selective field transport).
 
 Modification 2   
 
 Unassigned field symbols for INSERT, SORT, and AT
-If the field symbol <fs> was not yet assigned (using [ASSIGN](javascript:call_link\('abapassign.htm'\))), it is ignored in the following statements:
+If the field symbol <fs> was not yet assigned (using [ASSIGN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign.htm)), it is ignored in the following statements:
 
--   [INSERT <fs> INTO fg.](javascript:call_link\('abapinsert_fg.htm'\))
--   [SORT BY <fs>.](javascript:call_link\('abapsort_extract.htm'\))
--   [SORT itab BY <fs>.](javascript:call_link\('abapsort_itab.htm'\))
--   [AT NEW <fs>.](javascript:call_link\('abapat_extract.htm'\))
--   [AT END OF <fs>.](javascript:call_link\('abapat_extract.htm'\))
+-   [INSERT <fs> INTO fg.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinsert_fg.htm)
+-   [SORT BY <fs>.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_extract.htm)
+-   [SORT itab BY <fs>.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsort_itab.htm)
+-   [AT NEW <fs>.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_extract.htm)
+-   [AT END OF <fs>.](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_extract.htm)
 
 Modification 3   
 
 LOOP ... WHERE for unstructured line types
-For tables without structured line types, tables of type I for example, a WHERE condition ([LOOP](javascript:call_link\('abaploop_at_itab.htm'\))) can now be formulated using the addition TABLE LINE.
-The same applies to the WHERE variants of the statements [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)).
+For tables without structured line types, tables of type I for example, a WHERE condition ([LOOP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm)) can now be formulated using the addition TABLE LINE.
+The same applies to the WHERE variants of the statements [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm).
 
-
-
-**📖 Source**: [abennews-40-itab-more.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-itab-more.htm)
 
 ### abennews-40-se30.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-se30.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-se30.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -457,7 +369,7 @@ The same applies to the WHERE variants of the statements [DELETE](javascript:cal
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 Runtime Analysis in Release 4.0
 
@@ -525,8 +437,8 @@ If the With memory management button is selected, the following are measured:
 
 -   Memory: (Re-)allocate, release
 -   Using the data and data control blocks
--   [PXA](javascript:call_link\('abenpxa_glosry.htm'\) "Glossary Entry"): find, create
--   [Dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") synchronization
+-   [PXA](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpxa_glosry.htm "Glossary Entry"): find, create
+-   [Dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_glosry.htm "Glossary Entry") synchronization
 
 Modification 7   
 
@@ -534,7 +446,7 @@ Improvements in the Table Hit List
 
 -   Navigation to table definition
     
-    The table definition in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") can be displayed by double-clicking the table name.
+    The table definition in the [repository](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrepository_glosry.htm "Glossary Entry") can be displayed by double-clicking the table name.
     
 -   The development class (package) for each table is displayed in a separate column
 
@@ -553,14 +465,7 @@ Interface Changes
 -   Utilities → Display Table
 
 
-
-**📖 Source**: [abennews-40-se30.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-se30.htm)
-
 ### abennews-40-abap_sql.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-abap_sql.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -568,31 +473,24 @@ Interface Changes
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 ABAP SQL in Release 4.0
 
 INNER JOIN and LEFT OUTER JOIN
 
-It is now possible to read records from multiple logically associated database tables using a single SELECT statement. This can be done using the new constructs INNER JOIN and LEFT OUTER JOIN in the [FROM clause](javascript:call_link\('abapfrom_clause.htm'\)). In the past this was normally done using a nested SELECT loop. Replacing these loops with joins produces greatly improved runtime performance.
+It is now possible to read records from multiple logically associated database tables using a single SELECT statement. This can be done using the new constructs INNER JOIN and LEFT OUTER JOIN in the [FROM clause](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfrom_clause.htm). In the past this was normally done using a nested SELECT loop. Replacing these loops with joins produces greatly improved runtime performance.
 
 Subqueries
 
-[Subqueries](javascript:call_link\('abensubquery_glosry.htm'\) "Glossary Entry") are now possible in the WHERE conditions of SELECT, UPDATE, and DELETE statements. Tasks that previously required multiple SQL statements can now be solved more efficiently. A description of these subqueries is available in the documentation of the [relational expressions](javascript:call_link\('abenabap_sql_stmt_logexp.htm'\)).
+[Subqueries](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubquery_glosry.htm "Glossary Entry") are now possible in the WHERE conditions of SELECT, UPDATE, and DELETE statements. Tasks that previously required multiple SQL statements can now be solved more efficiently. A description of these subqueries is available in the documentation of the [relational expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_stmt_logexp.htm).
 
 HAVING Clause
 
-The new [HAVING clause](javascript:call_link\('abaphaving_clause.htm'\)) makes it possible to define further conditions for a set of results of a SELECT statement created using [aggregation](javascript:call_link\('abapselect_aggregate.htm'\)) and [grouping](javascript:call_link\('abapgroupby_clause.htm'\)).
+The new [HAVING clause](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaphaving_clause.htm) makes it possible to define further conditions for a set of results of a SELECT statement created using [aggregation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_aggregate.htm) and [grouping](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapgroupby_clause.htm).
 
-
-
-**📖 Source**: [abennews-40-abap_sql.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-abap_sql.htm)
 
 ### abennews-40-rfc.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-rfc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-rfc.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -600,7 +498,7 @@ The new [HAVING clause](javascript:call_link\('abaphaving_clause.htm'\)) makes i
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 RFC, Remote Function Call in Release 4.0
 
@@ -615,24 +513,24 @@ RFC, Remote Function Call in Release 4.0
 Modification 1   
 
 WAIT Statement
-[WAIT](javascript:call_link\('abapwait_arfc.htm'\)) *\[*UNTIL condition*\]* UP TO time SECONDS
-The statement WAIT makes it possible to wait for a response from a function module called asynchronously. This requires the addition PERFORMING form ON END OF TASK. WAIT must be executed in the same [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
+[WAIT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwait_arfc.htm) *\[*UNTIL condition*\]* UP TO time SECONDS
+The statement WAIT makes it possible to wait for a response from a function module called asynchronously. This requires the addition PERFORMING form ON END OF TASK. WAIT must be executed in the same [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry").
 
 Modification 2   
 
 RECEIVE Statement
-RECEIVE RESULTS FROM FUNCTION func [KEEPING TASK](javascript:call_link\('abapreceive.htm'\))
+RECEIVE RESULTS FROM FUNCTION func [KEEPING TASK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreceive.htm)
 The KEEPING TASK addition preserves the remote context in the subroutine for reuse.
 
 Modification 3   
 
 Error messages from the remote system
-If an error occurs in the target system in RFC, details of the [error message](javascript:call_link\('abenerror_message_glosry.htm'\) "Glossary Entry") are passed to the calling system (SY-MSGNO, SY-MSGID, SY-MSGTY, SY-MSGV1, SY-MSGV2, SY-MSGV3, and SY-MSGV4). These fields are set to initial in each RFC call.
+If an error occurs in the target system in RFC, details of the [error message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenerror_message_glosry.htm "Glossary Entry") are passed to the calling system (SY-MSGNO, SY-MSGID, SY-MSGTY, SY-MSGV1, SY-MSGV2, SY-MSGV3, and SY-MSGV4). These fields are set to initial in each RFC call.
 
 Modification 4   
 
 Load checks for asynchronous RFC
-For each RFC [destination](javascript:call_link\('abenrfc_dest_glosry.htm'\) "Glossary Entry"), an improved load check is performed for asynchronous RFCs (menu path Destination -\>ARFC Options in the RFC destination maintenance screen in [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry")). Before the function module is executed, the system makes sure that the target host has enough resources. If the host is overloaded, the execution of the function module is delayed (internally) for a short time. The algorithm used to determine the load situation on the target machine is the same used in asynchronous RFC with the addition [DESTINATION IN GROUP](javascript:call_link\('abapcall_function_starting.htm'\)). Be aware that this option can only be used for target hosts from Release 3.1H.
+For each RFC [destination](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_dest_glosry.htm "Glossary Entry"), an improved load check is performed for asynchronous RFCs (menu path Destination -\>ARFC Options in the RFC destination maintenance screen in [AS ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm "Glossary Entry")). Before the function module is executed, the system makes sure that the target host has enough resources. If the host is overloaded, the execution of the function module is delayed (internally) for a short time. The algorithm used to determine the load situation on the target machine is the same used in asynchronous RFC with the addition [DESTINATION IN GROUP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_starting.htm). Be aware that this option can only be used for target hosts from Release 3.1H.
 
 Modification 5   
 
@@ -648,17 +546,10 @@ An RFC client that is registered as a trusted system can log on to the RFC serve
 Modification 7   
 
 Authorization check
-If RFC communication takes place within a single system and in the same user context (with the same client and user name), no RFC authorization check based on function pools (using the [authorization object](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") S\_RFC) is performed. More information about this topic can be found in [RFC Authorizations](javascript:call_link\('abenrfc_authority.htm'\)).
+If RFC communication takes place within a single system and in the same user context (with the same client and user name), no RFC authorization check based on function pools (using the [authorization object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_object_glosry.htm "Glossary Entry") S\_RFC) is performed. More information about this topic can be found in [RFC Authorizations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrfc_authority.htm).
 
-
-
-**📖 Source**: [abennews-40-rfc.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-rfc.htm)
 
 ### abennews-40-selscreen.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-selscreen.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-selscreen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -666,7 +557,7 @@ If RFC communication takes place within a single system and in the same user con
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 Selection Screens in Release 4.0
 
@@ -681,32 +572,32 @@ Selection Screens in Release 4.0
 Modification 1   
 
 Explicit Calls of Selection Screens
-[Selection screens](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") can now be used universally: [CALL SELECTION-SCREEN  scrn](javascript:call_link\('abapcall_selection_screen.htm'\))
-The language elements [SELECTION-SCREEN BEGIN/END OF SCREEN](javascript:call_link\('abapselection-screen_definition.htm'\)) can be used to define multiple selection screens in module pools and function pools. These selection screens are called using [CALL SELECTION-SCREEN](javascript:call_link\('abapcall_selection_screen.htm'\)).
+[Selection screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselection_screen_glosry.htm "Glossary Entry") can now be used universally: [CALL SELECTION-SCREEN  scrn](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_selection_screen.htm)
+The language elements [SELECTION-SCREEN BEGIN/END OF SCREEN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_definition.htm) can be used to define multiple selection screens in module pools and function pools. These selection screens are called using [CALL SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_selection_screen.htm).
 
 Modification 2   
 
 Calling with Variants
-Selection screen variants can be assigned to one or more selection screens. [CALL SELECTION-SCREEN scrn USING SELECTION-SET variant](javascript:call_link\('abapcall_selection_screen.htm'\))
+Selection screen variants can be assigned to one or more selection screens. [CALL SELECTION-SCREEN scrn USING SELECTION-SET variant](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_selection_screen.htm)
 Only the objects from the assigned screens are saved with the variant. Only the variants assigned to a screen are presented on that screen.
 
 Modification 3   
 
 Calling with SUBMIT
-Specifying a selection screen in the statement [SUBMIT](javascript:call_link\('abapsubmit.htm'\)).
-[SUBMIT report USING SELECTION-SCREEN scrn](javascript:call_link\('abapsubmit.htm'\)) can be used to start a report using different selection screens.
+Specifying a selection screen in the statement [SUBMIT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsubmit.htm).
+[SUBMIT report USING SELECTION-SCREEN scrn](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsubmit.htm) can be used to start a report using different selection screens.
 
 Modification 4   
 
 Initial Selection Screen for Transactions
-Specifying the initial selection screen for a variant in transaction code maintenance for [report transactions](javascript:call_link\('abenreport_transaction_glosry.htm'\) "Glossary Entry").
-This allows the initial screen to be set for a report started using a transaction code. A variant can also be made active when the transaction is called (including all of the usual features of variants, such as variables, hiding objects and so on). For example, different transactions can use the same report, but with different [selection screens](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") or variants.
+Specifying the initial selection screen for a variant in transaction code maintenance for [report transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreport_transaction_glosry.htm "Glossary Entry").
+This allows the initial screen to be set for a report started using a transaction code. A variant can also be made active when the transaction is called (including all of the usual features of variants, such as variables, hiding objects and so on). For example, different transactions can use the same report, but with different [selection screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselection_screen_glosry.htm "Glossary Entry") or variants.
 
 Modification 5   
 
 New Design of Multiple Selection Screen
 More user-friendly design of the multiple selection GUI window
-This screen is now organized in a much clearer manner using [tabstrip controls](javascript:call_link\('abentabstrip_control_glosry.htm'\) "Glossary Entry") and table controls.
+This screen is now organized in a much clearer manner using [tabstrip controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentabstrip_control_glosry.htm "Glossary Entry") and table controls.
 
 Modification 6   
 
@@ -718,17 +609,10 @@ Modification 7  
 
 New Function Modules
 Function modules RS\_SELECTIONSCREEN\_READ and RS\_SELECTIONSCREEN\_UPDATE.
-In the same way as the function modules DYNP\_VALUES\_READ and DYNP\_VALUES\_UPDATE for regular [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), both function modules allow access to user entries on selection screens or values to be modified on selection screens with their own F4. These function modules were created with the multiple selection screen in mind, since the field names used there are unknown to the application program.
+In the same way as the function modules DYNP\_VALUES\_READ and DYNP\_VALUES\_UPDATE for regular [dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_glosry.htm "Glossary Entry"), both function modules allow access to user entries on selection screens or values to be modified on selection screens with their own F4. These function modules were created with the multiple selection screen in mind, since the field names used there are unknown to the application program.
 
-
-
-**📖 Source**: [abennews-40-selscreen.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-selscreen.htm)
 
 ### abennews-40-ldb.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-ldb.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-ldb.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -736,7 +620,7 @@ In the same way as the function modules DYNP\_VALUES\_READ and DYNP\_VALUES\_UPD
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 Logical Databases in Release 4.0
 
@@ -747,7 +631,7 @@ Logical Databases in Release 4.0
 Modification 1   
 
 Logical Nodes
-The nodes of a logical database can have any name; the names are no longer strictly linked with the Dictionary tables. Instead, a node can have any Dictionary or local type. For example, a dictionary structure can be used for multiple nodes and a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") can return a complex data object "in one portion". New language element: NODES.
+The nodes of a logical database can have any name; the names are no longer strictly linked with the Dictionary tables. Instead, a node can have any Dictionary or local type. For example, a dictionary structure can be used for multiple nodes and a [logical database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") can return a complex data object "in one portion". New language element: NODES.
 
 Modification 2   
 
@@ -757,18 +641,11 @@ The created program structure and the Logical Database Builder were adjusted to 
 Modification 3   
 
 Call by Function Module
-The restriction that logical databases can only be used with [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) is no longer valid. A logical database therefore can be used by any program to collect data. You can also call the same logical database more than once and nested calls of different logical databases are also allowed.
+The restriction that logical databases can only be used with [SUBMIT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsubmit.htm) is no longer valid. A logical database therefore can be used by any program to collect data. You can also call the same logical database more than once and nested calls of different logical databases are also allowed.
 See documentation on the function module LDB\_PROCESS.
 
 
-
-**📖 Source**: [abennews-40-ldb.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-ldb.htm)
-
 ### abennews-40-timestamp.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-timestamp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-timestamp.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -776,7 +653,7 @@ See documentation on the function module LDB\_PROCESS.
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 Time Stamps in Release 4.0
 
@@ -785,29 +662,19 @@ When time stamps were introduced in ABAP in Release 4.0, special attention was p
 -   Making the time stamp meaningful to a user in his or her particular time zone
 -   Making objects uniquely identifiable by their time stamp by guaranteeing a higher level of precision
 
-A current time stamp can be created in an ABAP program using the new variant [GET TIME STAMP FIELD f](javascript:call_link\('abapget_time-stamp.htm'\)). It is always globally unique since it is stored in [UTC](javascript:call_link\('abenutc_glosry.htm'\) "Glossary Entry") time (Universal Time Coordination, previously Greenwich Mean Time) and not in local time.
+A current time stamp can be created in an ABAP program using the new variant [GET TIME STAMP FIELD f](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_time-stamp.htm). It is always globally unique since it is stored in [UTC](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenutc_glosry.htm "Glossary Entry") time (Universal Time Coordination, previously Greenwich Mean Time) and not in local time.
 A time stamp can be generated with normal precision (to one second), or accurate to around one microsecond (1E-6 seconds).
 
 To convert the time stamp to local time or to ABAP time and date format (data type T or D), the following variants should be used:
-[CONVERT TIME STAMP tst INTO *\[*DATE*|*TIME*\]* ...](javascript:call_link\('abapconvert_time-stamp.htm'\))
+[CONVERT TIME STAMP tst INTO *\[*DATE*|*TIME*\]* ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapconvert_time-stamp.htm)
 and
-[WRITE tst TIME ZONE tz](javascript:call_link\('abapwrite_to_options.htm'\))
+[WRITE tst TIME ZONE tz](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwrite_to_options.htm)
 .
 See also:
-[Time Stamps in Packed Numbers](javascript:call_link\('abentime_stamps_packed.htm'\))
+[Time Stamps in Packed Numbers](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentime_stamps_packed.htm)
 
-
-
-**📖 Source**: [abennews-40-timestamp.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-timestamp.htm)
 
 ### abennews-40-other-40ab.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-other-40ab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-40ab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abennews-40-other-40ab.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-40ab.htm)
-
 
   
 
@@ -815,7 +682,7 @@ See also:
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40.htm) → 
 
 Further Changes in Release 4.0
 
@@ -885,4 +752,4 @@ Modification 10  
 
 Contexts
 
-An overview of contexts is provided [here](javascript:call_link\('abapcontexts.htm'\)).
+An overview of contexts is provided [here](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcontexts.htm).

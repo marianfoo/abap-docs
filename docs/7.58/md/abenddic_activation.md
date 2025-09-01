@@ -4,22 +4,25 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Activating%20ABAP%20Dictionary%20Types%2C%20ABENDDIC_ACTIVATION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DDIC - Activating ABAP Dictionary Types
 
-When a data type in ABAP Dictionary is activated, a [DDIC runtime object](javascript:call_link\('abenddic_runtime_object_glosry.htm'\) "Glossary Entry") is created that consumers such as dictionary objects, ABAP programs, or dynpros can use to effectively access all relevant type properties. When a data type is activated, all objects that are dependent on it must be activated again as well.
+When a data type in ABAP Dictionary is activated, a [DDIC runtime object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_runtime_object_glosry.htm "Glossary Entry") is created that consumers such as dictionary objects, ABAP programs, or dynpros can use to effectively access all relevant type properties. When a data type is activated, all objects that are dependent on it must be activated again as well.
 
 -   For dependent dictionary objects, this usually happens immediately.
 -   For dependent ABAP programs or dynpros, this happens the next time they are used.
 
 A data type can only be activated if the dependent dictionary objects can be activated as well. However, if an incompatible change to a dictionary type leads to an error in an ABAP program or dynpro, this does not prevent activation. This type of error is detected in the system the next time the program is executed or during an explicit syntax check. When changed dictionary types are transported to target systems, dependent ABAP programs and dynpros are activated by the transport as well. If an error occurs, the transport is reported as unsuccessful.
 
--   [DDIC Runtime Objects](#abenddic-activation-1-------activating-dependent-objects---@ITOC@@ABENDDIC_ACTIVATION_2)
-    -   [Activating Dependent ABAP Programs and Dynpros](#abenddic-activation-3-----------activating-dependent-dictionary-objects---@ITOC@@ABENDDIC_ACTIVATION_4)
--   [Mass Activation](#abenddic-activation-5-------cyclical-dependencies---@ITOC@@ABENDDIC_ACTIVATION_6)
+-   [DDIC Runtime Objects](#@@ITOC@@ABENDDIC_ACTIVATION_1)
+-   [Activating Dependent Objects](#@@ITOC@@ABENDDIC_ACTIVATION_2)
+    -   [Activating Dependent ABAP Programs and Dynpros](#@@ITOC@@ABENDDIC_ACTIVATION_3)
+    -   [Activating Dependent Dictionary Objects](#@@ITOC@@ABENDDIC_ACTIVATION_4)
+-   [Mass Activation](#@@ITOC@@ABENDDIC_ACTIVATION_5)
+-   [Cyclical Dependencies](#@@ITOC@@ABENDDIC_ACTIVATION_6)
 
 Hint
 
@@ -27,18 +30,18 @@ Each time a dictionary object is activated, a detailed activation log is created
 
 DDIC Runtime Objects   
 
-When a data type in ABAP Dictionary is activated, a [DDIC runtime object](javascript:call_link\('abenddic_runtime_object_glosry.htm'\) "Glossary Entry") is usually created in the [name table](javascript:call_link\('abenname_table_glosry.htm'\) "Glossary Entry") ([nametab](javascript:call_link\('abenname_tab_glosry.htm'\) "Glossary Entry")), which the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry") accesses when the data type is used in an ABAP program or dynpro. The DDIC runtime object summarizes all important properties of the data type. A DDIC runtime object has a time stamp for the time it was activated. If an existing type is activated, the corresponding DDIC runtime object is adapted and the time stamp is updated.
+When a data type in ABAP Dictionary is activated, a [DDIC runtime object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_runtime_object_glosry.htm "Glossary Entry") is usually created in the [name table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenname_table_glosry.htm "Glossary Entry") ([nametab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenname_tab_glosry.htm "Glossary Entry")), which the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry") accesses when the data type is used in an ABAP program or dynpro. The DDIC runtime object summarizes all important properties of the data type. A DDIC runtime object has a time stamp for the time it was activated. If an existing type is activated, the corresponding DDIC runtime object is adapted and the time stamp is updated.
 
 Hints
 
--   Activations of [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") also create DDIC runtime objects in the name table.
+-   Activations of [CDS entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm "Glossary Entry") also create DDIC runtime objects in the name table.
 -   DDIC runtime objects are only intended for internal use, but can also be checked when analyzing failed activations.
 -   For quick access, DDIC runtime objects are buffered in the shared memory of the current AS instance.
--   The DDIC runtime object of a dictionary object can be displayed and checked in an ABAP Dictionary [tool](javascript:call_link\('abenddic_tools.htm'\)) by choosing Utilities → Runtime Object. The meaning of the individual components of a DDIC runtime object is also documented here.
+-   The DDIC runtime object of a dictionary object can be displayed and checked in an ABAP Dictionary [tool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tools.htm) by choosing Utilities → Runtime Object. The meaning of the individual components of a DDIC runtime object is also documented here.
 
 Example
 
-The class CL\_DEMO\_GET\_NAMETAB shows a read access to the DDIC runtime objects of user-defined data types using the special methods GET\_DDIC\_HEADER and GET\_DDIC\_OBJECT of the [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry"). The names of data elements, structures, table types, DDIC database tables, DDIC database views, and CDS entities can be passed to the program. Domains cannot be passed.
+The class CL\_DEMO\_GET\_NAMETAB shows a read access to the DDIC runtime objects of user-defined data types using the special methods GET\_DDIC\_HEADER and GET\_DDIC\_OBJECT of the [RTTI](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry"). The names of data elements, structures, table types, DDIC database tables, DDIC database views, and CDS entities can be passed to the program. Domains cannot be passed.
 
 Activating Dependent Objects   
 
@@ -46,7 +49,7 @@ If existing dictionary objects that are already used by other dictionary objects
 
 Activating Dependent ABAP Programs and Dynpros   
 
-ABAP programs and dynpros that depend on a changed data type of the ABAP Dictionary are activated in the same system the first time they are used, and in the target system after the changed dictionary type has been transported and activated. When a dictionary type is activated, the time stamp of its DDIC runtime object is adapted, as are the time stamps of the sources of all ABAP programs and dynpros that use this type, if a change relevant for a program or dynpro has been made. When a program or dynpro is used, or after it has been transported, this time stamp is compared with the current time stamp of its [load](javascript:call_link\('abenload_glosry.htm'\) "Glossary Entry") and is generated again if necessary.
+ABAP programs and dynpros that depend on a changed data type of the ABAP Dictionary are activated in the same system the first time they are used, and in the target system after the changed dictionary type has been transported and activated. When a dictionary type is activated, the time stamp of its DDIC runtime object is adapted, as are the time stamps of the sources of all ABAP programs and dynpros that use this type, if a change relevant for a program or dynpro has been made. When a program or dynpro is used, or after it has been transported, this time stamp is compared with the current time stamp of its [load](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenload_glosry.htm "Glossary Entry") and is generated again if necessary.
 
 Activating Dependent Dictionary Objects   
 
@@ -72,7 +75,7 @@ The system program RUTMSJOB can be used to deal with partially active objects. I
 
 Mass Activation   
 
-In a [mass activation](javascript:call_link\('abenmass_activation_glosry.htm'\) "Glossary Entry"), a system program (RADMASG0) is used as a [mass activator](javascript:call_link\('abenmass_activator_glosry.htm'\) "Glossary Entry") to activate a number of dictionary objects. The mass activator is provided with a list of the dictionary objects to be activated. A mass activation can be started as follows:
+In a [mass activation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmass_activation_glosry.htm "Glossary Entry"), a system program (RADMASG0) is used as a [mass activator](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmass_activator_glosry.htm "Glossary Entry") to activate a number of dictionary objects. The mass activator is provided with a list of the dictionary objects to be activated. A mass activation can be started as follows:
 
 -   Explicit call of the mass activator. The list of dictionary objects can be passed as follows:
     -   Direct Objects
@@ -89,7 +92,7 @@ In a [mass activation](javascript:call_link\('abenmass_activation_glosry.htm'\) 
         
 -   Implicit call of the mass activator after a transport request has been imported into a target system. All dictionary objects contained in the request are activated.
 
-For mass activations that will take a long time, the mass activator can be run in [background processing](javascript:call_link\('abenbackround_processing_glosry.htm'\) "Glossary Entry"). In this case, the dictionary objects to be activated can be specified in an external table with type TACOB or in the TACOB table itself.
+For mass activations that will take a long time, the mass activator can be run in [background processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbackround_processing_glosry.htm "Glossary Entry"). In this case, the dictionary objects to be activated can be specified in an external table with type TACOB or in the TACOB table itself.
 
 Hint
 
@@ -99,4 +102,4 @@ Cyclical Dependencies  
 
 Activations that would produce a cycle of technical dependencies between the DDIC runtime objects are not possible. In mass activations, cyclical dependencies that arise from semantic relationships between dictionary objects are resolved by step-by-step activation. Here, the semantic relationships are first bypassed and then reintroduced.
 
-See also [ABAP CDS - Cyclical Dependencies](javascript:call_link\('abencds_cycle_problems.htm'\))
+See also [ABAP CDS - Cyclical Dependencies](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cycle_problems.htm)

@@ -4,8 +4,8 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 UTF-16
 
-16-bit [Unicode character representation](javascript:call_link\('abenunicode_char_represent_glosry.htm'\) "Glossary Entry"). In this representation, all characters are represented using 2 bytes. The characters of the [surrogate area](javascript:call_link\('abensurrogate_area_glosry.htm'\) "Glossary Entry") are addressed by a [surrogate](javascript:call_link\('abensurrogates_glosry.htm'\) "Glossary Entry"). UTF-16 is the [system code page](javascript:call_link\('abensystem_codepage_glosry.htm'\) "Glossary Entry") of a [Unicode system](javascript:call_link\('abenunicode_system_glosry.htm'\) "Glossary Entry"). The ABAP programming language supports [UCS-2](javascript:call_link\('abenucs2_glosry.htm'\) "Glossary Entry") as a subset of UTF-16 without surrogates.
+16-bit [Unicode character representation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunicode_char_represent_glosry.htm "Glossary Entry"). In this representation, all characters are represented using 2 bytes. The characters of the [surrogate area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensurrogate_area_glosry.htm "Glossary Entry") are addressed by a [surrogate](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensurrogates_glosry.htm "Glossary Entry"). UTF-16 is the [system code page](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_codepage_glosry.htm "Glossary Entry") of a [Unicode system](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunicode_system_glosry.htm "Glossary Entry"). The ABAP programming language supports [UCS-2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenucs2_glosry.htm "Glossary Entry") as a subset of UTF-16 without surrogates.

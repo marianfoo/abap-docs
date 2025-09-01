@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Class Libraries](javascript:call_link\('abenabap_xml_libs.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xml.htm) →  [XML - Class Libraries](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xml_libs.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Access%20to%20XML%20Using%20Class%20Libraries%2C%20ABENXML_ACCESS_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -74,10 +74,10 @@ ENDCLASS.
 
 Description   
 
-The example class CL\_DEMO\_XML\_ACCESS wraps methods of the [sXML Library](javascript:call_link\('abensxml_library_glosry.htm'\) "Glossary Entry").
+The example class CL\_DEMO\_XML\_ACCESS wraps methods of the [sXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensxml_library_glosry.htm "Glossary Entry").
 
 -   Method PARSE\_XML allows the parsing of the relevant data of an XML file from a byte string into an internal table whose structure is defined in that class.
 -   Method RENDER\_XML allows the rendering of the data from such a node table into an XML file in a byte string.
--   Method GET\_HIERARCHY\_DATA allows retrieving information about the hierarchical relations between the XML nodes stored in the internal table. For that, the internal table is accessed with [hierarchy functions](javascript:call_link\('abenhierarchy_function_glosry.htm'\) "Glossary Entry") of ABAP SQL.
+-   Method GET\_HIERARCHY\_DATA allows retrieving information about the hierarchical relations between the XML nodes stored in the internal table. For that, the internal table is accessed with [hierarchy functions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhierarchy_function_glosry.htm "Glossary Entry") of ABAP SQL.
 
-As an example, an XML file is accessed that results from a transformation of an internal table into [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") format by using the predefined identity transformation [ID](javascript:call_link\('abenabap_xslt_id.htm'\)).
+As an example, an XML file is accessed that results from a transformation of an internal table into [asXML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenasxml_glosry.htm "Glossary Entry") format by using the predefined identity transformation [ID](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_id.htm).

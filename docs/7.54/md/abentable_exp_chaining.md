@@ -4,21 +4,23 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Expressions and Functions for Internal Tables](javascript:call_link\('abentable_processing_expr_func.htm'\)) →  [table\_exp - Table Expressions](javascript:call_link\('abentable_expressions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab.htm) →  [Expressions and Functions for Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_processing_expr_func.htm) →  [table\_exp - Table Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expressions.htm) → 
 
 table\_exp - Chainings
 
-[Table expressions](javascript:call_link\('abentable_expressions.htm'\)) can be chained with the structure component selector \-, with other table expressions, and with the object component selector \->.
+[Table expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expressions.htm) can be chained with the structure component selector \-, with other table expressions, and with the object component selector \->.
 
--   [Chainings with the Structure Component Selector](#abentable-exp-chaining-1--------chainings-with-table-expressions---@ITOC@@ABENTABLE_EXP_CHAINING_2)
+-   [Chainings with the Structure Component Selector](#@@ITOC@@ABENTABLE_EXP_CHAINING_1)
+
+-   [Chainings with Table Expressions](#@@ITOC@@ABENTABLE_EXP_CHAINING_2)
 
 -   [Chainings with the Object Component Selector](#@@ITOC@@ABENTABLE_EXP_CHAINING_3)
 
-If the constructor operator VALUE or REF is specified before a chaining to [control the result](javascript:call_link\('abentable_exp_result.htm'\)), only the final result is affected. Any intermediate results are always temporary field symbols and the corresponding performance notes should be read.
+If the constructor operator VALUE or REF is specified before a chaining to [control the result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_result.htm), only the final result is affected. Any intermediate results are always temporary field symbols and the corresponding performance notes should be read.
 
 Note
 
-Chainings of table expressions with functional method calls (namely specifying the internal table as a functional method call meth( ... )\[ ... \] or meth( ... )-comp\[ ... \] and accessing the internal table using a chained attribute access meth( ... )->itab\[ ... \]) are not yet possible. Table expressions cannot currently be placed on the right of a method call in [method chainings](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry").
+Chainings of table expressions with functional method calls (namely specifying the internal table as a functional method call meth( ... )\[ ... \] or meth( ... )-comp\[ ... \] and accessing the internal table using a chained attribute access meth( ... )->itab\[ ... \]) are not yet possible. Table expressions cannot currently be placed on the right of a method call in [method chainings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmethod_chaining_glosry.htm "Glossary Entry").
 
 Chainings with the Structure Component Selector
 
@@ -28,7 +30,7 @@ A table expression can be chained as follows using the structure component selec
 
 ... itab\[ ... \]-comp ...
 
-If comp has a suitable type, a [specified offset/length](javascript:call_link\('abenoffset_length_specific_glosry.htm'\) "Glossary Entry") [+off(len)](javascript:call_link\('abenoffset_length.htm'\)) can be appended, except when the chaining is used as a [memory area](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)) of the statement ASSIGN or as an argument of the reference operator [REF](javascript:call_link\('abentable_exp_result.htm'\)).
+If comp has a suitable type, a [specified offset/length](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoffset_length_specific_glosry.htm "Glossary Entry") [+off(len)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoffset_length.htm) can be appended, except when the chaining is used as a [memory area](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassign_mem_area_writable_exp.htm) of the statement ASSIGN or as an argument of the reference operator [REF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_result.htm).
 
 -   If a structure struct has a table-like component comp, it can be used as the name of the internal table of a table expression:
 
@@ -38,7 +40,7 @@ Both of these alternatives can be combined, enabling a structured component sele
 
 Note
 
-If the reference operator [REF](javascript:call_link\('abenconstructor_expression_ref.htm'\)) is specified in front of a chaining whose result is a component of a structured table row, it creates a reference to this component.
+If the reference operator [REF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_ref.htm) is specified in front of a chaining whose result is a component of a structured table row, it creates a reference to this component.
 
 Example
 
@@ -72,7 +74,7 @@ DATA(num) = itab\[ 1 \]-col2\[ 2 \]-col1.
 
 Executable Example
 
-[Table Expressions, Chainings](javascript:call_link\('abentable_exp_chaining_abexa.htm'\))
+[Table Expressions, Chainings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_chaining_abexa.htm)
 
 Chainings with Table Expressions
 
@@ -164,7 +166,7 @@ DATA(num) = itab\[ 2 \]-col2\[ 1 \]\[ 2 \]-col1.
 
 Chainings with the Object Component Selector
 
-If the result of a table expression or one of the preceding chainings has a reference type, these chainings can be placed directly in front of the [object component selector](javascript:call_link\('abenobject_component_select_glosry.htm'\) "Glossary Entry") to access the components of the referenced object:
+If the result of a table expression or one of the preceding chainings has a reference type, these chainings can be placed directly in front of the [object component selector](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_component_select_glosry.htm "Glossary Entry") to access the components of the referenced object:
 
 ... itab\[ ... \]->comp ...
 
@@ -178,11 +180,11 @@ A component addressed in this way can, depending on its design, be used in all s
 
 Notes
 
--   More specifically, the [dereferencing operator](javascript:call_link\('abendereferencing_operat_glosry.htm'\) "Glossary Entry") \->\* can be specified after table expressions.
+-   More specifically, the [dereferencing operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendereferencing_operat_glosry.htm "Glossary Entry") \->\* can be specified after table expressions.
 
--   An [instance method](javascript:call_link\('abeninstance_method_glosry.htm'\) "Glossary Entry") call can be a [standalone call](javascript:call_link\('abapcall_method_static_short.htm'\)) or a [functional method call](javascript:call_link\('abapcall_method_functional.htm'\)). The obsolete form of the statement [CALL METHOD](javascript:call_link\('abapcall_method_static.htm'\)) cannot be used.
+-   An [instance method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninstance_method_glosry.htm "Glossary Entry") call can be a [standalone call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static_short.htm) or a [functional method call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_functional.htm). The obsolete form of the statement [CALL METHOD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static.htm) cannot be used.
 
--   No table expressions can be specified in a writing position for a read-only internal table. This also applies when the object component selector is used to access another object. As before, [standalone method calls](javascript:call_link\('abapcall_method_static_short.htm'\)) a not possible using a read-only internal table.
+-   No table expressions can be specified in a writing position for a read-only internal table. This also applies when the object component selector is used to access another object. As before, [standalone method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static_short.htm) a not possible using a read-only internal table.
 
 Example
 
@@ -222,4 +224,4 @@ START-OF-SELECTION.
   data(n2) = itab\[ 2 \]->get( ).
 
 Continue
-![Example](exa.gif "Example") [Table Expressions, Chainings](javascript:call_link\('abentable_exp_chaining_abexa.htm'\))
+![Example](exa.gif "Example") [Table Expressions, Chainings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_chaining_abexa.htm)

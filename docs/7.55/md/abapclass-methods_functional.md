@@ -4,25 +4,25 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces (ABAP Objects)](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [ABAP Objects - Methods](javascript:call_link\('abenmethods.htm'\)) →  [CLASS-METHODS](javascript:call_link\('abapclass-methods.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_declarations.htm) →  [Classes and Interfaces (ABAP Objects)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_ifac_components.htm) →  [ABAP Objects - Methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmethods.htm) →  [CLASS-METHODS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass-methods.htm) → 
 
 CLASS-METHODS, RETURNING
 
-[Short Reference](javascript:call_link\('abapclass-methods_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapclass-methods_shortref.htm)
 
 Syntax
 
-CLASS-METHODS meth *\[*[DEFAULT IGNORE*|*FAIL](javascript:call_link\('abapmethods_default.htm'\))*\]*
-  *\[*IMPORTING [parameters](javascript:call_link\('abapmethods_parameters.htm'\)) *\[*PREFERRED PARAMETER p*\]**\]*
-  *\[*EXPORTING [parameters](javascript:call_link\('abapmethods_parameters.htm'\))*\]*
-  *\[*CHANGING  [parameters](javascript:call_link\('abapmethods_parameters.htm'\))*\]*
-  RETURNING VALUE(r) [typing](javascript:call_link\('abentyping_syntax.htm'\))
+CLASS-METHODS meth *\[*[DEFAULT IGNORE*|*FAIL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmethods_default.htm)*\]*
+  *\[*IMPORTING [parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmethods_parameters.htm) *\[*PREFERRED PARAMETER p*\]**\]*
+  *\[*EXPORTING [parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmethods_parameters.htm)*\]*
+  *\[*CHANGING  [parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmethods_parameters.htm)*\]*
+  RETURNING VALUE(r) [typing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_syntax.htm)
   *\[**{*RAISING exc1*|*RESUMABLE(exc1) exc2*|*RESUMABLE(exc2) ...*}*
   *|**{*EXCEPTIONS exc1 exc2 ...*}**\]*.
 
 Effect
 
-This statement declares a [functional](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") [static method](javascript:call_link\('abenstatic_method_glosry.htm'\) "Glossary Entry") meth. The additions have exactly the same syntax and meaning as those for [functional instance methods](javascript:call_link\('abapmethods_functional.htm'\)).
+This statement declares a [functional](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunctional_method_glosry.htm "Glossary Entry") [static method](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstatic_method_glosry.htm "Glossary Entry") meth. The additions have exactly the same syntax and meaning as those for [functional instance methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapmethods_functional.htm).
 
 Example
 

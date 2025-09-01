@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 predicative method call
 
-Call of a [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") as the only [operand](javascript:call_link\('abenoperand_glosry.htm'\) "Glossary Entry") of a [relational expression](javascript:call_link\('abenrelational_expression_glosry.htm'\) "Glossary Entry"). The result of the relational expression is true if the result of the [functional method call](javascript:call_link\('abenfunctional_method_call_glosry.htm'\) "Glossary Entry") is not initial. See also [predicate method](javascript:call_link\('abenpredicate_method_glosry.htm'\) "Glossary Entry").
+Call of a [functional method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_method_glosry.htm "Glossary Entry") as the only [operand](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperand_glosry.htm "Glossary Entry") of a [relational expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrelational_expression_glosry.htm "Glossary Entry"). The result of the relational expression is true if the result of the [functional method call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_method_call_glosry.htm "Glossary Entry") is not initial. See also [predicate method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredicate_method_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenpredicative_method_calls.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredicative_method_calls.htm)

@@ -4,13 +4,13 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Mesh Paths](javascript:call_link\('abenmesh_pathes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_meshes.htm) →  [Meshes - Mesh Paths](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_pathes.htm) → 
 
 Meshes - mesh\_path
 
 Syntax
 
-... *{*mesh-*|*<mesh>-*|*mesh\_ref->*}*rnode [\\\_associ\[ ... \]](javascript:call_link\('abenmesh_path_assoc.htm'\)) [\\\_assoc1\[ ... \]](javascript:call_link\('abenmesh_path_assoc.htm'\))[\\\_assoc2\[ ... \]](javascript:call_link\('abenmesh_path_assoc.htm'\)) ...
+... *{*mesh-*|*<mesh>-*|*mesh\_ref->*}*rnode [\\\_associ\[ ... \]](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc.htm) [\\\_assoc1\[ ... \]](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc.htm)[\\\_assoc2\[ ... \]](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc.htm) ...
 
 Extras:
 
@@ -20,7 +20,7 @@ Extras:
 
 Effect
 
-Specifies a mesh path in [statements and expressions](javascript:call_link\('abenmesh_path_usage.htm'\)) used to process meshes. A mesh path is always constructed as follows:
+Specifies a mesh path in [statements and expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_usage.htm) used to process meshes. A mesh path is always constructed as follows:
 
 -   A root node rnode
 
@@ -28,11 +28,11 @@ Specifies a mesh path in [statements and expressions](javascript:call_link\('abe
 
 -   Optional further associations \\\_assoc1, \\\_assoc2, ... whose source nodes can be the follow-on nodes of preceding associations.
 
-When a mesh path is specified, it is not significant whether the address nodes of the mesh are internal tables or references to internal tables. When a mesh path is evaluated, references to internal tables are dereferenced automatically. A mesh path describes a set of rows in its final path node as its [result](javascript:call_link\('abenmesh_path_result.htm'\)).
+When a mesh path is specified, it is not significant whether the address nodes of the mesh are internal tables or references to internal tables. When a mesh path is evaluated, references to internal tables are dereferenced automatically. A mesh path describes a set of rows in its final path node as its [result](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result.htm).
 
 Note
 
-A mesh path cannot exit a mesh. Each follow-on node is part of the same mesh as the root node. Meshes can, however, be nested by specified a [mesh path expression](javascript:call_link\('abenmesh_path_expression.htm'\)) as the source of the initial association.
+A mesh path cannot exit a mesh. Each follow-on node is part of the same mesh as the root node. Meshes can, however, be nested by specified a [mesh path expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_expression.htm) as the source of the initial association.
 
 Addition 1
 
@@ -40,11 +40,11 @@ Addition 1
 
 Effect
 
-Root node rnode of a mesh path. rnode is a nodes of a [mesh type](javascript:call_link\('abenmesh_type_glosry.htm'\) "Glossary Entry") that must be the start or target node of an [association](javascript:call_link\('abaptypes_mesh_association.htm'\)) of the mesh type. The same options are available when specifying the mesh as when addressing regular structure components:
+Root node rnode of a mesh path. rnode is a nodes of a [mesh type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_type_glosry.htm "Glossary Entry") that must be the start or target node of an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh_association.htm) of the mesh type. The same options are available when specifying the mesh as when addressing regular structure components:
 
 -   mesh-rnode
 
-mesh is a mesh, that is a data object of the [mesh type](javascript:call_link\('abenmesh_type_glosry.htm'\) "Glossary Entry") in question. The root node is addressed using the structure component selector (\-).
+mesh is a mesh, that is a data object of the [mesh type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_type_glosry.htm "Glossary Entry") in question. The root node is addressed using the structure component selector (\-).
 
 -   <mesh>-rnode
 
@@ -78,21 +78,21 @@ Addition 2
 
 Effect
 
-Initial association of a mesh path. Each mesh path has an initial association specified after its root node. All associations [\\\_assoc\[ ... \]](javascript:call_link\('abenmesh_path_assoc.htm'\)) can be specified for \\\_associ\[ ... \] that match the root node, namely:
+Initial association of a mesh path. Each mesh path has an initial association specified after its root node. All associations [\\\_assoc\[ ... \]](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc.htm) can be specified for \\\_associ\[ ... \] that match the root node, namely:
 
--   [Forward associations](javascript:call_link\('abenmesh_path_assoc.htm'\)) with an [association](javascript:call_link\('abaptypes_mesh_association.htm'\)) of the mesh type that has the root node as the start node.
+-   [Forward associations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc.htm) with an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh_association.htm) of the mesh type that has the root node as the start node.
 
--   [Inverse associations](javascript:call_link\('abenmesh_path_assoc.htm'\)) with an [association](javascript:call_link\('abaptypes_mesh_association.htm'\)) of the mesh type that has the root node as the target node.
+-   [Inverse associations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc.htm) with an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh_association.htm) of the mesh type that has the root node as the target node.
 
-The syntax used to specify the row of the source node in the square brackets of the association [\\\_assoc\[ ... \]](javascript:call_link\('abenmesh_path_assoc.htm'\)) is
+The syntax used to specify the row of the source node in the square brackets of the association [\\\_assoc\[ ... \]](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc.htm) is
 
-\[ source *\[*[cond](javascript:call_link\('abenmesh_path_assoc_cond.htm'\))*\]* \]
+\[ source *\[*[cond](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc_cond.htm)*\]* \]
 
-A structure source of the row type of the root node must be specified as the source of the association. This is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). When the mesh path is evaluated, the content of source is used as the starting point of the association. Here, the [ON condition](javascript:call_link\('abaptypes_mesh_association.htm'\)) is used to produce a description of a set of rows of the follow-on node as a [result](javascript:call_link\('abenmesh_path_result_init_assoc.htm'\)) from the association and any additional conditions [cond](javascript:call_link\('abenmesh_path_assoc_cond.htm'\)).
+A structure source of the row type of the root node must be specified as the source of the association. This is a [general expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). When the mesh path is evaluated, the content of source is used as the starting point of the association. Here, the [ON condition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh_association.htm) is used to produce a description of a set of rows of the follow-on node as a [result](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_init_assoc.htm) from the association and any additional conditions [cond](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc_cond.htm).
 
 Note
 
-A structure specified as source does not need to occur as a row in the root node. It is a good idea to use a [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") that read a row from the root node. A [mesh path expression](javascript:call_link\('abenmesh_path_expression.htm'\)) can, however, also be specified to nest meshes.
+A structure specified as source does not need to occur as a row in the root node. It is a good idea to use a [table expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_expression_glosry.htm "Glossary Entry") that read a row from the root node. A [mesh path expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_expression.htm) can, however, also be specified to nest meshes.
 
 Example
 
@@ -114,17 +114,17 @@ Addition 3
 
 Effect
 
-Path extension of a mesh path. Any number of further associations can be chained after the initial association. All associations [\\\_assoc](javascript:call_link\('abenmesh_path_assoc.htm'\)) can be specified for \\\_assoc1, \\\_assoc2, ... that match the source node in question, namely:
+Path extension of a mesh path. Any number of further associations can be chained after the initial association. All associations [\\\_assoc](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc.htm) can be specified for \\\_assoc1, \\\_assoc2, ... that match the source node in question, namely:
 
--   [Forward associations](javascript:call_link\('abenmesh_path_assoc.htm'\)) with an [association](javascript:call_link\('abaptypes_mesh_association.htm'\)) of the mesh type that has the source node as the start node.
+-   [Forward associations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc.htm) with an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh_association.htm) of the mesh type that has the source node as the start node.
 
--   [Inverse associations](javascript:call_link\('abenmesh_path_assoc.htm'\)) with an [association](javascript:call_link\('abaptypes_mesh_association.htm'\)) of the mesh type that has the source node as the target node.
+-   [Inverse associations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc.htm) with an [association](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh_association.htm) of the mesh type that has the source node as the target node.
 
-The syntax used to specify the row of the source node in the square brackets of the association [\\\_assoc\[ ... \]](javascript:call_link\('abenmesh_path_assoc.htm'\)) is
+The syntax used to specify the row of the source node in the square brackets of the association [\\\_assoc\[ ... \]](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc.htm) is
 
-\[ *\[*[cond](javascript:call_link\('abenmesh_path_assoc_cond.htm'\))*\]* \]
+\[ *\[*[cond](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc_cond.htm)*\]* \]
 
-When the mesh path is evaluated, the result of the preceding association (the description of a set of rows in the source node) is used as the starting point of the association. Here, the [ON condition](javascript:call_link\('abaptypes_mesh_association.htm'\)) of the association in question and any additional conditions [cond](javascript:call_link\('abenmesh_path_assoc_cond.htm'\)) are used to produce a description of a set of rows of the follow-on node as a [result](javascript:call_link\('abenmesh_path_result_chaining.htm'\)). If no further conditions are specified, the square brackets are empty.
+When the mesh path is evaluated, the result of the preceding association (the description of a set of rows in the source node) is used as the starting point of the association. Here, the [ON condition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh_association.htm) of the association in question and any additional conditions [cond](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc_cond.htm) are used to produce a description of a set of rows of the follow-on node as a [result](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_result_chaining.htm). If no further conditions are specified, the square brackets are empty.
 
 Example
 
@@ -140,4 +140,4 @@ DATA(mesh) =    VALUE mesh( ).
 ... mesh-node1\\\_assoc2\[ mesh-node1\[ ... \] \]\\\_assoc3\[  \] ...
 
 Continue
-[Meshes - \\\_assoc\[ ... \]](javascript:call_link\('abenmesh_path_assoc.htm'\))
+[Meshes - \\\_assoc\[ ... \]](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc.htm)

@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Related ABAP Language Elements and Topics](javascript:call_link\('abenabap_rap_other.htm'\)) →  [RAP Examples](javascript:call_link\('abapeml_examples_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Related ABAP Language Elements and Topics](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap_other.htm) →  [RAP Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeml_examples_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Transactional%20Phases%20in%20a%20RAP%20Transaction%2C%20ABENRAP_LUW_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Transactional Phases in a RAP Transaction
 
-This example demonstrates the transactional phases of a [RAP transaction](javascript:call_link\('abenrap_luw_glosry.htm'\) "Glossary Entry") using an [unmanaged](javascript:call_link\('abenbdl_impl_type.htm'\)) [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") with [late numbering](javascript:call_link\('abenlate_numbering_glosry.htm'\) "Glossary Entry").
+This example demonstrates the transactional phases of a [RAP transaction](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_luw_glosry.htm "Glossary Entry") using an [unmanaged](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_impl_type.htm) [RAP business object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry") with [late numbering](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlate_numbering_glosry.htm "Glossary Entry").
 
 Data model
 
@@ -31,7 +31,7 @@ define root view entity DEMO\_RAP\_LUW\_LN\_U
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_RAP\_LUW\_LN\_U is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_RAP\_LUW\_LN\_U is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 unmanaged implementation in class bp\_demo\_rap\_luw\_ln\_u unique;
 strict ( 2 );
@@ -48,7 +48,7 @@ authorization master ( global )
 
 Behavior implementation
 
-For the above RAP behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_LUW\_LN\_U. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
+For the above RAP behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_LUW\_LN\_U. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
 
 Source Code   
 
@@ -201,11 +201,11 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class.
 
 The class demonstrates the following:
 
--   A successful save, i.e. the interaction phase and the [RAP save sequence](javascript:call_link\('abenrap_save_seq_glosry.htm'\) "Glossary Entry") have been processed successfully. Two [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") are created. A COMMIT ENTITIES statement triggers the save sequence. The value of sy-subrc is displayed after the commit. During the execution of the method implementation code in the ABP, an internal table is populated that stores the following information: position of the method call sequence, name of the method, if there is an error, a flag for the interaction, early, or late save phase. This table is displayed as well as the entries of the database table as a result of the RAP create operation.
--   Failure in the finalize method: An instance is created. The same steps are taken as described above. In this case, the failure in the finalize method triggers the call of the cleanup\_finalize method. sy-subrc is set to 4 after the commit. There is then another RAP create operation on the [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry"). This time, the RAP transaction is completed with a successful save.
+-   A successful save, i.e. the interaction phase and the [RAP save sequence](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_save_seq_glosry.htm "Glossary Entry") have been processed successfully. Two [RAP BO instances](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") are created. A COMMIT ENTITIES statement triggers the save sequence. The value of sy-subrc is displayed after the commit. During the execution of the method implementation code in the ABP, an internal table is populated that stores the following information: position of the method call sequence, name of the method, if there is an error, a flag for the interaction, early, or late save phase. This table is displayed as well as the entries of the database table as a result of the RAP create operation.
+-   Failure in the finalize method: An instance is created. The same steps are taken as described above. In this case, the failure in the finalize method triggers the call of the cleanup\_finalize method. sy-subrc is set to 4 after the commit. There is then another RAP create operation on the [RAP BO consumer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry"). This time, the RAP transaction is completed with a successful save.
 -   Failure in the check\_before\_save method: The steps are the same as described above. A failure also triggers the cleanup\_finalize method. In all other examples, this method is not called. It is only called if an error occurs in the finalize or check\_before\_save method.
--   Rollback. This example has no COMMIT ENTITIES statement. The purpose is to demonstrate that the ROLLBACK ENTITIES statement only triggers the call of the cleanup method in the [RAP saver class](javascript:call_link\('abenabp_saver_class_glosry.htm'\) "Glossary Entry").
+-   Rollback. This example has no COMMIT ENTITIES statement. The purpose is to demonstrate that the ROLLBACK ENTITIES statement only triggers the call of the cleanup method in the [RAP saver class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_saver_class_glosry.htm "Glossary Entry").

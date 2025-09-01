@@ -4,8 +4,8 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 Repository Browser
 
-Standard display of [Object Navigator](javascript:call_link\('abenobject_navigator_glosry.htm'\) "Glossary Entry") when representing [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") sorted according to type.
+Standard display of [Object Navigator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_navigator_glosry.htm "Glossary Entry") when representing [repository objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepository_object_glosry.htm "Glossary Entry") sorted according to type.

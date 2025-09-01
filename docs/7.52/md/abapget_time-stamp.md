@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Time Stamp](javascript:call_link\('abentime_stamps.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendate_time_processing.htm) →  [Time Stamp](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_stamps.htm) → 
 
 GET TIME STAMP
 
-[Quick Reference](javascript:call_link\('abapget_time_stamp_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_time_stamp_shortref.htm)
 
 Syntax
 
@@ -16,18 +16,18 @@ GET TIME STAMP FIELD time\_stamp.
 
 Effect
 
-This statement creates a [](javascript:call_link\('abenposix_timestamp_glosry.htm'\) "Glossary Entry")[POSIX](javascript:call_link\('abenutc_timestamp_glosry.htm'\) "Glossary Entry") UTC time stamp from the [system time](javascript:call_link\('abensystem_time_glosry.htm'\) "Glossary Entry") and [system date](javascript:call_link\('abensystem_date_glosry.htm'\) "Glossary Entry") in AS ABAP and assigns it to the variable time\_stamp.
+This statement creates a [](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenposix_timestamp_glosry.htm "Glossary Entry")[POSIX](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenutc_timestamp_glosry.htm "Glossary Entry") UTC time stamp from the [system time](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_time_glosry.htm "Glossary Entry") and [system date](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_date_glosry.htm "Glossary Entry") in AS ABAP and assigns it to the variable time\_stamp.
 
 The following can be specified for time\_stamp:
 
--   An existing variable of the data type TIMESTAMP or TIMESTAMPL from ABAP Dictionary, in accordance with ABAP type p with length 8 or p with length 11, with seven decimal places. Depending on the data type, the time stamp is created either in the [short form](javascript:call_link\('abentime_stamp_oview.htm'\)) or in the [long form](javascript:call_link\('abentime_stamp_oview.htm'\)).
+-   An existing variable of the data type TIMESTAMP or TIMESTAMPL from ABAP Dictionary, in accordance with ABAP type p with length 8 or p with length 11, with seven decimal places. Depending on the data type, the time stamp is created either in the [short form](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_stamp_oview.htm) or in the [long form](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentime_stamp_oview.htm).
     
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)), where a variable of type TIMESTAMP is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_inline.htm), where a variable of type TIMESTAMP is declared.
     
 
 Note
 
-The precision of the decimal places of the long form depends on the hardware (processor) of the [application server](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry"). The maximum resolution of 100 ns is not always reached. On some platforms, only a resolution of milliseconds can be reached.
+The precision of the decimal places of the long form depends on the hardware (processor) of the [application server](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapplication_server_glosry.htm "Glossary Entry"). The maximum resolution of 100 ns is not always reached. On some platforms, only a resolution of milliseconds can be reached.
 
 Example
 
@@ -43,7 +43,7 @@ cl\_demo\_output=>new(
                    TIMEZONE = 'UTC' }|
   )->display( ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

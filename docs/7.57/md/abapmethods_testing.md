@@ -4,25 +4,25 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_unit.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: METHODS, FOR TESTING, ABAPMETHODS_TESTING, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D
 %0ASuggestion for improvement:)
 
 METHODS, FOR TESTING
 
-[Short Reference](javascript:call_link\('abapmethods_testing_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_testing_shortref.htm)
 
 Syntax
 
-[METHODS](javascript:call_link\('abapmethods.htm'\)) meth *\[*[ABSTRACT*|*FINAL](javascript:call_link\('abapmethods_abstract_final.htm'\))*\]*
-             *\[*[AMDP OPTIONS *\[*READ-ONLY*\]* *\[*CDS SESSION CLIENT clnt*|*CURRENT*\]*](javascript:call_link\('abapmethods_amdp_options.htm'\))*\]*
+[METHODS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods.htm) meth *\[*[ABSTRACT*|*FINAL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_abstract_final.htm)*\]*
+             *\[*[AMDP OPTIONS *\[*READ-ONLY*\]* *\[*CDS SESSION CLIENT clnt*|*CURRENT*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_amdp_options.htm)*\]*
   FOR TESTING
   *\[*RAISING exc1*|*RESUMABLE(exc1) exc2*|*RESUMABLE(exc2) ...*\]*.
 
 Effect
 
-This statement is only possible in a [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry"). It declares a [test method](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") that is called as a single test during a [test run](javascript:call_link\('abentest_run_glosry.htm'\) "Glossary Entry"). A test can be programmed in the method implementation. To check the test assumptions, static methods from the class CL\_ABAP\_UNIT\_ASSERT are used, such as:
+This statement is only possible in a [test class](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentest_class_glosry.htm "Glossary Entry"). It declares a [test method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentest_method_glosry.htm "Glossary Entry") that is called as a single test during a [test run](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentest_run_glosry.htm "Glossary Entry"). A test can be programmed in the method implementation. To check the test assumptions, static methods from the class CL\_ABAP\_UNIT\_ASSERT are used, such as:
 
 -   ASSERT\_EQUALS
 -   ASSERT\_BOUND
@@ -32,19 +32,19 @@ This statement is only possible in a [test class](javascript:call_link\('abentes
 -   ASSERT\_SUBRC
 -   FAIL
 
-The data is evaluated using the [ABAP Unit](javascript:call_link\('abenabap_unit_glosry.htm'\) "Glossary Entry") Framework.
+The data is evaluated using the [ABAP Unit](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_unit_glosry.htm "Glossary Entry") Framework.
 
-The same applies to the additions ABSTRACT, FINAL, and RAISING as to the [general instance methods](javascript:call_link\('abapmethods_general.htm'\)). Furthermore, the addition [AMDP OPTIONS](javascript:call_link\('abapmethods_amdp_options.htm'\)) can be specified for test methods, since these methods can also be implemented as [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry").
+The same applies to the additions ABSTRACT, FINAL, and RAISING as to the [general instance methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_general.htm). Furthermore, the addition [AMDP OPTIONS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods_amdp_options.htm) can be specified for test methods, since these methods can also be implemented as [AMDP methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_method_glosry.htm "Glossary Entry").
 
-Test methods are usually used to call units of production code and to check the result. Production code units that are called from a test method must be exited [regularly](javascript:call_link\('abenend_processing_blocks.htm'\)) or by a dedicated statement like [RETURN](javascript:call_link\('abapreturn.htm'\)). The statements [LEAVE PROGRAM](javascript:call_link\('abapleave_program.htm'\)) [LEAVE TO TRANSACTION](javascript:call_link\('abapleave_to_transaction.htm'\)) and [SUBMIT](javascript:call_link\('abapsubmit.htm'\)) without AND RETURN that exit the complete program are not allowed in production code called during a unit test.
+Test methods are usually used to call units of production code and to check the result. Production code units that are called from a test method must be exited [regularly](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenend_processing_blocks.htm) or by a dedicated statement like [RETURN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreturn.htm). The statements [LEAVE PROGRAM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapleave_program.htm) [LEAVE TO TRANSACTION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapleave_to_transaction.htm) and [SUBMIT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsubmit.htm) without AND RETURN that exit the complete program are not allowed in production code called during a unit test.
 
 Hints
 
 -   Test methods should be private or protected if the methods are inherited. Since test classes implicitly offer friendship to the test driver in the runtime framework, the driver can call them. Test methods only need to be public in rare cases where a test executes tests from other test classes.
--   When a test method is executed, the same applies to [resumable exceptions](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry") as to all other methods. If processing can be resumed successfully, the interrupted test can be resumed.
--   The special methods setup, teardown, class\_setup, and class\_teardown of the [fixture](javascript:call_link\('abenfixture_glosry.htm'\) "Glossary Entry") are not test methods and the addition FOR TESTING cannot be used for this methods.
--   The special [ABAP Doc comment](javascript:call_link\('abenabap_doc_comment_glosry.htm'\) "Glossary Entry") ["! @testing](javascript:call_link\('abentest_relations.htm'\)) can be written in front of the declaration of a test method in order to define a [test relation](javascript:call_link\('abentest_relation_glosry.htm'\) "Glossary Entry") for that method. This allows repository objects to be tested that do not support test classes themselves.
--   To prevent inaccurate test results, the [rule](javascript:call_link\('abenuse_actual_parameters_guidl.htm'\) "Guideline") that no system fields are passed as actual parameters must be observed, especially for the ASSERT methods of the class CL\_ABAP\_UNIT\_ASSERT. The special method ASSERT\_SUBRC is only used for checking the return value.
+-   When a test method is executed, the same applies to [resumable exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenresumable_exception_glosry.htm "Glossary Entry") as to all other methods. If processing can be resumed successfully, the interrupted test can be resumed.
+-   The special methods setup, teardown, class\_setup, and class\_teardown of the [fixture](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfixture_glosry.htm "Glossary Entry") are not test methods and the addition FOR TESTING cannot be used for this methods.
+-   The special [ABAP Doc comment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_doc_comment_glosry.htm "Glossary Entry") ["! @testing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentest_relations.htm) can be written in front of the declaration of a test method in order to define a [test relation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentest_relation_glosry.htm "Glossary Entry") for that method. This allows repository objects to be tested that do not support test classes themselves.
+-   To prevent inaccurate test results, the [rule](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_actual_parameters_guidl.htm "Guideline") that no system fields are passed as actual parameters must be observed, especially for the ASSERT methods of the class CL\_ABAP\_UNIT\_ASSERT. The special method ASSERT\_SUBRC is only used for checking the return value.
 
 Example
 

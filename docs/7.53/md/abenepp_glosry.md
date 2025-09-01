@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 Extended Passport
 
-Abbreviated as EPP. Internal data structure that exists for every [ABAP session](javascript:call_link\('abenmain_session_glosry.htm'\) "Glossary Entry"). It contains information about the session and its external connections.
+Abbreviated as EPP. Internal data structure that exists for every [ABAP session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmain_session_glosry.htm "Glossary Entry"). It contains information about the session and its external connections.
 
-[→ More](javascript:call_link\('abenepp.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenepp.htm)

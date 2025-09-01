@@ -4,23 +4,23 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_agg](javascript:call_link\('abapselect_aggregate.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_agg](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_aggregate.htm) → 
 
 sql\_exp - agg\_func
 
 Syntax
 
-... AVG( *\[*DISTINCT*\]* [col](javascript:call_link\('abenopen_sql_columns.htm'\)) *\[*[AS dtype](javascript:call_link\('abapselect_avg_as.htm'\))*\]* )
-  *|* MAX( *\[*DISTINCT*\]* [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) )
-  *|* MIN( *\[*DISTINCT*\]* [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) )
-  *|* SUM( *\[*DISTINCT*\]* [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) )
+... AVG( *\[*DISTINCT*\]* [col](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) *\[*[AS dtype](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_avg_as.htm)*\]* )
+  *|* MAX( *\[*DISTINCT*\]* [sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) )
+  *|* MIN( *\[*DISTINCT*\]* [sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) )
+  *|* SUM( *\[*DISTINCT*\]* [sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) )
   *|* PRODUCT( col )
-  *|* STRING\_AGG( [sql\_exp](javascript:call_link\('abapsql_expr.htm'\))*\[*, sep*\]* *\[*ORDER BY [col1](javascript:call_link\('abenopen_sql_columns.htm'\)) *\[*ASCENDING*|*DESCENDING*\]*,
-                                        [col2](javascript:call_link\('abenopen_sql_columns.htm'\)) *\[*ASCENDING*|*DESCENDING*\]*, ...*\]* )
-  *|* COUNT( *\[*DISTINCT*\]* [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) )
+  *|* STRING\_AGG( [sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm)*\[*, sep*\]* *\[*ORDER BY [col1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) *\[*ASCENDING*|*DESCENDING*\]*,
+                                        [col2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) *\[*ASCENDING*|*DESCENDING*\]*, ...*\]* )
+  *|* COUNT( *\[*DISTINCT*\]* [sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) )
   *|* COUNT( \* )
   *|* COUNT(\*)
-  *|* [GROUPING](javascript:call_link\('abengrouping_function.htm'\))( [col](javascript:call_link\('abenopen_sql_columns.htm'\)) ) ...
+  *|* [GROUPING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengrouping_function.htm)( [col](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) ) ...
 
 Variants:
 
@@ -37,26 +37,26 @@ Variants:
 
 Effect
 
-[Aggregate function](javascript:call_link\('abenaggregate_function_glosry.htm'\) "Glossary Entry") in ABAP SQL. An aggregate function aggregates the values of the rows in a specific set of rows to a single value. Aggregate functions can be used in the following places:
+[Aggregate function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenaggregate_function_glosry.htm "Glossary Entry") in ABAP SQL. An aggregate function aggregates the values of the rows in a specific set of rows to a single value. Aggregate functions can be used in the following places:
 
--   As a standalone [aggregate expression](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry") [agg\_exp](javascript:call_link\('abapselect_aggregate.htm'\)) in specific operand positions of a query. The evaluated row set is the full results set of the query or a group created using the addition [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)). The general rules apply.
+-   As a standalone [aggregate expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenaggregate_expression_glosry.htm "Glossary Entry") [agg\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_aggregate.htm) in specific operand positions of a query. The evaluated row set is the full results set of the query or a group created using the addition [GROUP BY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgroupby_clause.htm). The general rules apply.
     
--   As a [window function](javascript:call_link\('abenwindow_function_glosry.htm'\) "Glossary Entry") [win\_func](javascript:call_link\('abensql_win_func.htm'\)) in a [window expression](javascript:call_link\('abapselect_over.htm'\)). The evaluated row set is the current [window](javascript:call_link\('abenwindow_glosry.htm'\) "Glossary Entry") or a box inside the window. The general rules apply, plus the rules for window functions.
+-   As a [window function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwindow_function_glosry.htm "Glossary Entry") [win\_func](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_win_func.htm) in a [window expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm). The evaluated row set is the current [window](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwindow_glosry.htm "Glossary Entry") or a box inside the window. The general rules apply, plus the rules for window functions.
     
--   As an aggregate function in a [hierarchy aggregate navigator](javascript:call_link\('abenselect_hierarchy_agg_navis.htm'\)). The evaluated row set consists of the [hierarchy nodes](javascript:call_link\('abenhierarchy_node_glosry.htm'\) "Glossary Entry") determined by the navigator. The general rules apply, plus the rules for hierarchy aggregate navigators.
+-   As an aggregate function in a [hierarchy aggregate navigator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy_agg_navis.htm). The evaluated row set consists of the [hierarchy nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_node_glosry.htm "Glossary Entry") determined by the navigator. The general rules apply, plus the rules for hierarchy aggregate navigators.
     
 
 The following table shows which aggregate functions can be used in which places:
 
 \-
 
-[agg\_exp](javascript:call_link\('abapselect_aggregate.htm'\))
+[agg\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_aggregate.htm)
 
-[win\_exp](javascript:call_link\('abapselect_over.htm'\))
+[win\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_over.htm)
 
-[HIERARCHY\_DESCENDANTS\_AGGREGATE](javascript:call_link\('abenselect_hierarchy_desc_agg.htm'\))
+[HIERARCHY\_DESCENDANTS\_AGGREGATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy_desc_agg.htm)
 
-[HIERARCHY\_ANCESTORS\_AGGREGATE](javascript:call_link\('abenselect_hierarchy_ancs_agg.htm'\))
+[HIERARCHY\_ANCESTORS\_AGGREGATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy_ancs_agg.htm)
 
 AVG
 
@@ -152,9 +152,9 @@ The following shared properties apply here:
 
 -   The addition DISTINCT excludes duplicate values from the calculation in any operand positions in which it is specified.
     
--   If the argument of an aggregate function (except COUNT) has the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), it is ignored when the function is evaluated. The result is a null value only if all the rows in the column in question contain a null value.
+-   If the argument of an aggregate function (except COUNT) has the [null value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry"), it is ignored when the function is evaluated. The result is a null value only if all the rows in the column in question contain a null value.
     
--   The aggregate function COUNT counts rows and never produces the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry").
+-   The aggregate function COUNT counts rows and never produces the [null value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry").
     
 -   Arguments of type STRING, RAWSTRING, LCHR, LRAW, and GEOM\_EWKB cannot be handled using aggregate functions.
     
@@ -169,17 +169,17 @@ Variant 1
 
 Effect
 
-Determines the average value of the content of a column [col](javascript:call_link\('abenopen_sql_columns.htm'\)) in a row set. The optional addition [AS dtype](javascript:call_link\('abapselect_avg_as.htm'\)) can be used to define the result type explicitly.
+Determines the average value of the content of a column [col](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) in a row set. The optional addition [AS dtype](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_avg_as.htm) can be used to define the result type explicitly.
 
-The data type of the column must be numeric. The data types DF16\_RAW and DF34\_RAW and the obsolete types DF16\_SCL and DF34\_SCL are not allowed. The data type INT8 is only permitted in conjunction with the addition [AS dtype](javascript:call_link\('abapselect_avg_as.htm'\)).
+The data type of the column must be numeric. The data types DF16\_RAW and DF34\_RAW and the obsolete types DF16\_SCL and DF34\_SCL are not allowed. The data type INT8 is only permitted in conjunction with the addition [AS dtype](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_avg_as.htm).
 
-The implicit data type of the result for [decimal floating point numbers](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") is the corresponding data type (DECFLOAT16 or DECFLOAT34 (or DF16\_DEC or DF34\_DEC)) and is otherwise the type FLTP, a platform-dependent subtotal, or is determined by the addition [AS dtype](javascript:call_link\('abapselect_avg_as.htm'\)).
+The implicit data type of the result for [decimal floating point numbers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendecfloat_glosry.htm "Glossary Entry") is the corresponding data type (DECFLOAT16 or DECFLOAT34 (or DF16\_DEC or DF34\_DEC)) and is otherwise the type FLTP, a platform-dependent subtotal, or is determined by the addition [AS dtype](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_avg_as.htm).
 
-[SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) cannot be specified as arguments for AVG.
+[SQL expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) cannot be specified as arguments for AVG.
 
 Note
 
-The result of the aggregate functions AVG in the data type FLTP is platform-dependent. The type of platform also determines whether the result of an aggregate expression AVG, which is used in a HAVING clause as a subtotal, is of type FLTP. The addition [AS dtype](javascript:call_link\('abapselect_avg_as.htm'\)) can be used to force the type FLTP.
+The result of the aggregate functions AVG in the data type FLTP is platform-dependent. The type of platform also determines whether the result of an aggregate expression AVG, which is used in a HAVING clause as a subtotal, is of type FLTP. The addition [AS dtype](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_avg_as.htm) can be used to force the type FLTP.
 
 Example
 
@@ -205,9 +205,9 @@ Variant 3
 
 Effect
 
-Determines the maximum value or minimum value of the results of the SQL expression [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) in a row set. The data type of the result is the [external data type](javascript:call_link\('abenexternal_data_type_glosry.htm'\) "Glossary Entry") of the result of the SQL expression.
+Determines the maximum value or minimum value of the results of the SQL expression [sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) in a row set. The data type of the result is the [external data type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexternal_data_type_glosry.htm "Glossary Entry") of the result of the SQL expression.
 
-The result of the SQL expression sql\_exp must be a numeric type (except for the [replacement types for decimal floating point numbers](javascript:call_link\('abenddic_decimal_floating_point.htm'\))). If a single column [col](javascript:call_link\('abenopen_sql_columns.htm'\)) is specified for the expression, this column can also have any data type.
+The result of the SQL expression sql\_exp must be a numeric type (except for the [replacement types for decimal floating point numbers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_decimal_floating_point.htm)). If a single column [col](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) is specified for the expression, this column can also have any data type.
 
 Example
 
@@ -230,9 +230,9 @@ Variant 4
 
 Effect
 
-Determines the sum of the results of the SQL expression [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) in a row set. The data type of the result is the [external data type](javascript:call_link\('abenexternal_data_type_glosry.htm'\) "Glossary Entry") of the result of the SQL expression.
+Determines the sum of the results of the SQL expression [sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) in a row set. The data type of the result is the [external data type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexternal_data_type_glosry.htm "Glossary Entry") of the result of the SQL expression.
 
-The result of the SQL expression sql\_exp must be a numeric type (except for the [replacement types for decimal floating point numbers](javascript:call_link\('abenddic_decimal_floating_point.htm'\))). If a single column [col](javascript:call_link\('abenopen_sql_columns.htm'\)) is specified for the expression, this column can have any numeric data type except DF16\_RAW and DF34\_RAW and except the obsolete data types DF16\_SCL and DF34\_SCL .
+The result of the SQL expression sql\_exp must be a numeric type (except for the [replacement types for decimal floating point numbers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_decimal_floating_point.htm)). If a single column [col](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) is specified for the expression, this column can have any numeric data type except DF16\_RAW and DF34\_RAW and except the obsolete data types DF16\_SCL and DF34\_SCL .
 
 Note
 
@@ -258,15 +258,15 @@ Variant 5
 
 Effect
 
-Determines the product of the values of a column col in a row set. The data type of the result is the [external data type](javascript:call_link\('abenexternal_data_type_glosry.htm'\) "Glossary Entry") of the column. The column must have a numeric type (except for the [replacement types for decimal floating point numbers](javascript:call_link\('abenddic_decimal_floating_point.htm'\))).
+Determines the product of the values of a column col in a row set. The data type of the result is the [external data type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexternal_data_type_glosry.htm "Glossary Entry") of the column. The column must have a numeric type (except for the [replacement types for decimal floating point numbers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_decimal_floating_point.htm)).
 
 Note
 
-The aggregate function PRODUCT can currently be used only in the [hierarchy aggregate navigator](javascript:call_link\('abenhierarchy_agg_navi_glosry.htm'\) "Glossary Entry") [HIERARCHY\_ANCESTORS\_AGGREGATE](javascript:call_link\('abenselect_hierarchy_ancs_agg.htm'\)).
+The aggregate function PRODUCT can currently be used only in the [hierarchy aggregate navigator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_agg_navi_glosry.htm "Glossary Entry") [HIERARCHY\_ANCESTORS\_AGGREGATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy_ancs_agg.htm).
 
 Executable Example
 
-See [Hierarchy Navigator HIERARCHY\_ANCESTORS\_AGGREGATE](javascript:call_link\('abenhier_ancs_agg_abexa.htm'\))
+See [Hierarchy Navigator HIERARCHY\_ANCESTORS\_AGGREGATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhier_ancs_agg_abexa.htm)
 
 Variant 6
 
@@ -274,24 +274,24 @@ Variant 6
 
 Effect
 
-Chains the results of the SQL expression [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) in a row set. The data type of the result is SSTRING with the length 1333. If the string in question is greater then 1333, a handleable exception of the class CX\_SY\_OPEN\_SQL\_DB is raised The results of the SQL expression sql\_exp must be a flat character-like data type like CHAR, SSTRING, DATS, or TIMS.
+Chains the results of the SQL expression [sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) in a row set. The data type of the result is SSTRING with the length 1333. If the string in question is greater then 1333, a handleable exception of the class CX\_SY\_OPEN\_SQL\_DB is raised The results of the SQL expression sql\_exp must be a flat character-like data type like CHAR, SSTRING, DATS, or TIMS.
 
-An optional separator sep separated by a comma can be specified after the SQL expression. If sep is specified, its content is inserted into the string between successive results of the SQL expression. If sep is not specified, these results are appended to each other directly. sep can be a [literal](javascript:call_link\('abenabap_sql_host_literals.htm'\)) or a [host constant](javascript:call_link\('abenopen_sql_host_variables.htm'\)) with the [ABAP type](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) c, d, t, n, or string with a maximum of 1333 characters.
+An optional separator sep separated by a comma can be specified after the SQL expression. If sep is specified, its content is inserted into the string between successive results of the SQL expression. If sep is not specified, these results are appended to each other directly. sep can be a [literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql_host_literals.htm) or a [host constant](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_host_variables.htm) with the [ABAP type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbuilt_in_types_complete.htm) c, d, t, n, or string with a maximum of 1333 characters.
 
-The optional addition ORDER BY can be used to define the order in which the results of the SQL expression are chained. If ORDER BY is not specified, the order is undefined. ORDER BY is followed by a comma-separated list of columns of the data sources of the current query. These columns are used to sort the rows of the row set. A column can only be specified directly using the column name [col1](javascript:call_link\('abenopen_sql_columns.htm'\)), [col2 ...](javascript:call_link\('abenopen_sql_columns.htm'\)) Alias names defined using [AS](javascript:call_link\('abapselect_list.htm'\)) cannot be specified. The additions ASCENDING and DESCENDING determine whether the rows are sorted in ascending or descending order by the column in question. The default is ASCENDING.
+The optional addition ORDER BY can be used to define the order in which the results of the SQL expression are chained. If ORDER BY is not specified, the order is undefined. ORDER BY is followed by a comma-separated list of columns of the data sources of the current query. These columns are used to sort the rows of the row set. A column can only be specified directly using the column name [col1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm), [col2 ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) Alias names defined using [AS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_list.htm) cannot be specified. The additions ASCENDING and DESCENDING determine whether the rows are sorted in ascending or descending order by the column in question. The default is ASCENDING.
 
 Note
 
 -   The addition DISTINCT cannot be specified for the aggregate function STRING\_AGG.
     
--   The aggregate function STRING\_AGG cannot be used as a [window function](javascript:call_link\('abensql_win_func.htm'\)).
+-   The aggregate function STRING\_AGG cannot be used as a [window function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_win_func.htm).
     
--   When used, the aggregate function STRING\_AGG requires the [strict mode from Release 7.54](javascript:call_link\('abenopensql_strict_mode_754.htm'\)).
+-   When used, the aggregate function STRING\_AGG requires the [strict mode from Release 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql_strict_mode_754.htm).
     
 
 Executable Example
 
-[SQL Expressions, Aggregate Function string\_agg](javascript:call_link\('abensql_expr_string_agg_abexa.htm'\))
+[SQL Expressions, Aggregate Function string\_agg](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_string_agg_abexa.htm)
 
 Variant 7
 
@@ -299,17 +299,17 @@ Variant 7
 
 Effect
 
-Determines the number of distinct values of the results of the SQL expression [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) in a row set.
+Determines the number of distinct values of the results of the SQL expression [sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) in a row set.
 
--   If the addition DISTINCT is not specified, COUNT determines all rows in which the result of the SQL expression [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) is not the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry")
+-   If the addition DISTINCT is not specified, COUNT determines all rows in which the result of the SQL expression [sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) is not the [null value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry")
 
--   If the addition DISTINCT is specified, COUNT determines the number of distinct values of the results of the SQL expression [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)). [Null values](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") are ignored here.
+-   If the addition DISTINCT is specified, COUNT determines the number of distinct values of the results of the SQL expression [sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm). [Null values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry") are ignored here.
 
-The data type of the result is INT4. The SQL expression sql\_exp can be a result with any type (except for the [replacement types for decimal floating point numbers](javascript:call_link\('abenddic_decimal_floating_point.htm'\))). If a single column [col](javascript:call_link\('abenopen_sql_columns.htm'\)) is specified for the expression, this column can have any data type.
+The data type of the result is INT4. The SQL expression sql\_exp can be a result with any type (except for the [replacement types for decimal floating point numbers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_decimal_floating_point.htm)). If a single column [col](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) is specified for the expression, this column can have any data type.
 
 Note
 
-An aggregate function COUNT without the addition DISTINCT requires the [strict mode from Release 7.54](javascript:call_link\('abenopensql_strict_mode_754.htm'\)).
+An aggregate function COUNT without the addition DISTINCT requires the [strict mode from Release 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql_strict_mode_754.htm).
 
 Example
 
@@ -332,14 +332,14 @@ Effect
 
 The two spellings have the same meaning and, regardless of a specific value, produce the number of rows in a row set: The following applies to the data type of the result:
 
--   If used as an aggregate expression [agg\_exp](javascript:call_link\('abapselect_aggregate.htm'\)):
+-   If used as an aggregate expression [agg\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_aggregate.htm):
     
 
--   If COUNT( \* ) or COUNT(\*) is specified as an aggregate expression in a SELECT list with other columns or together with a [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)) clause, the data type of the result is INT4 and no numbers greater than 2147483647 can be determined.
+-   If COUNT( \* ) or COUNT(\*) is specified as an aggregate expression in a SELECT list with other columns or together with a [GROUP BY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgroupby_clause.htm) clause, the data type of the result is INT4 and no numbers greater than 2147483647 can be determined.
 
--   If COUNT( \* ) or COUNT(\*) is specified as the only column and the [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)) clause is not specified as an aggregate expression in a SELECT list, the internal data type of the result is INT8 and numbers up to +9223372036854775807 can be determined. The system field sy-dbcnt is set to the value -1 in results outside of the value range of the type i.
+-   If COUNT( \* ) or COUNT(\*) is specified as the only column and the [GROUP BY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapgroupby_clause.htm) clause is not specified as an aggregate expression in a SELECT list, the internal data type of the result is INT8 and numbers up to +9223372036854775807 can be determined. The system field sy-dbcnt is set to the value -1 in results outside of the value range of the type i.
 
--   If used as a window function [win\_func](javascript:call_link\('abensql_win_func.htm'\)) and in [hierarchy aggregate navigators](javascript:call_link\('abenselect_hierarchy_agg_navis.htm'\)), the data type of the result is INT8.
+-   If used as a window function [win\_func](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_win_func.htm) and in [hierarchy aggregate navigators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy_agg_navis.htm), the data type of the result is INT8.
     
 
 Note
@@ -352,12 +352,12 @@ Example for counting rows using COUNT. The single-row result contains the values
 
 -   10 is the total number of rows in the results set determined using COUNT(\*) and is not dependent on a single value.
     
--   7 is the number of rows determined using COUNT (without DISTINCT) in which [case distinction](javascript:call_link\('abensql_simple_case.htm'\)) does not produce the null value.
+-   7 is the number of rows determined using COUNT (without DISTINCT) in which [case distinction](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_simple_case.htm) does not produce the null value.
     
--   2 is the number of distinct results "X" and "Y” determined using COUNT und DISTINCT of the [case distinction](javascript:call_link\('abensql_simple_case.htm'\)) while ignoring the null value.
+-   2 is the number of distinct results "X" and "Y” determined using COUNT und DISTINCT of the [case distinction](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_simple_case.htm) while ignoring the null value.
     
 
-The difference 3 of the results of COUNT(\*) and COUNT without DISTINCT is the number of rows in which the [case distinction](javascript:call_link\('abensql_simple_case.htm'\)) produces the null value.
+The difference 3 of the results of COUNT(\*) and COUNT without DISTINCT is the number of rows in which the [case distinction](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_simple_case.htm) produces the null value.
 
 DELETE FROM demo\_expressions.
 INSERT demo\_expressions
@@ -381,11 +381,11 @@ Variant 10
 
 Effect
 
-The grouping function [GROUPING](javascript:call_link\('abengrouping_function.htm'\)) can be used to verify whether a column [col](javascript:call_link\('abenopen_sql_columns.htm'\)) is part of the aggregation. The grouping function can be used only if the GROUP BY clause contains the addition GROUPING SETS. The data type of the result of the grouping function is [INT1](javascript:call_link\('abenddic_builtin_types.htm'\)). [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) cannot be specified as arguments for GROUPING. More information can be found in [sql\_agg - GROUPING](javascript:call_link\('abengrouping_function.htm'\)).
+The grouping function [GROUPING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengrouping_function.htm) can be used to verify whether a column [col](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_columns.htm) is part of the aggregation. The grouping function can be used only if the GROUP BY clause contains the addition GROUPING SETS. The data type of the result of the grouping function is [INT1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm). [SQL expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) cannot be specified as arguments for GROUPING. More information can be found in [sql\_agg - GROUPING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengrouping_function.htm).
 
 Executable Example
 
-[GROUPING, Aggregate Function](javascript:call_link\('abengrouping_function_abexa.htm'\))
+[GROUPING, Aggregate Function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengrouping_function_abexa.htm)
 
 Continue
-[sql\_agg - AVG, AS](javascript:call_link\('abapselect_avg_as.htm'\))
+[sql\_agg - AVG, AS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_avg_as.htm)

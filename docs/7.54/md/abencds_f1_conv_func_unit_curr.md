@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, Built-In Functions](javascript:call_link\('abencds_f1_builtin_functions.htm'\)) →  [ABAP CDS - Special Functions](javascript:call_link\('abencds_special_functions.htm'\)) →  [ABAP CDS - Conversion Functions](javascript:call_link\('abencds_f1_conversion_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, Built-In Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_builtin_functions.htm) →  [ABAP CDS - Special Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_special_functions.htm) →  [ABAP CDS - Conversion Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_conversion_functions.htm) → 
 
 ABAP CDS - Conversion Functions for Units and Currencies
 
@@ -22,7 +22,7 @@ Variants:
 
 Effect
 
-Conversion functions for converting between units and between currencies in a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"). The functions have keyword parameters p1, p2, ... (some of which are optional), to which the actual parameters a1, a2, ... must be assigned when called using \=>.
+Conversion functions for converting between units and between currencies in a [CDS view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_glosry.htm "Glossary Entry"). The functions have keyword parameters p1, p2, ... (some of which are optional), to which the actual parameters a1, a2, ... must be assigned when called using \=>.
 
 Variant 1
 
@@ -30,7 +30,7 @@ Variant 1
 
 Effect
 
-The function UNIT\_CONVERSION performs a unit conversion for the value passed to the formal parameter quantity. The result has the data type [QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)) with the length 31 and 14 decimal places. The unit conversion is performed on the basis of the client-specific rules saved in transaction CUNI and in the database tables T006... of the package SZME.
+The function UNIT\_CONVERSION performs a unit conversion for the value passed to the formal parameter quantity. The result has the data type [QUAN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) with the length 31 and 14 decimal places. The unit conversion is performed on the basis of the client-specific rules saved in transaction CUNI and in the database tables T006... of the package SZME.
 
 The table below shows the actual parameters p1, p2, ... and their meaning.
 
@@ -50,9 +50,9 @@ quantity
 
 Initial value
 
-[QUAN](javascript:call_link\('abenddic_builtin_types.htm'\)), [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT1](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT2](javascript:call_link\('abenddic_builtin_types.htm'\)), [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)), [FLTP](javascript:call_link\('abenddic_builtin_types.htm'\))
+[QUAN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), [DEC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), [INT1](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), [INT2](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), [INT4](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), [FLTP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-Field of a [data source](javascript:call_link\('abencds_f1_data_source.htm'\)), [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+Field of a [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm), [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm)
 
 source\_unit
 
@@ -60,9 +60,9 @@ source\_unit
 
 Source currency from column MSEHI of database table T006
 
-[UNIT](javascript:call_link\('abenddic_builtin_types.htm'\))
+[UNIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-Field of a [data source](javascript:call_link\('abencds_f1_data_source.htm'\)), [literal](javascript:call_link\('abencds_f1_literal.htm'\)), [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+Field of a [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm), [literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm), [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm)
 
 target\_unit
 
@@ -70,9 +70,9 @@ target\_unit
 
 Target unit from column MSEHI of database table T006
 
-[UNIT](javascript:call_link\('abenddic_builtin_types.htm'\))
+[UNIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-Field of a [data source](javascript:call_link\('abencds_f1_data_source.htm'\)), [literal](javascript:call_link\('abencds_f1_literal.htm'\)), [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+Field of a [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm), [literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm), [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm)
 
 client
 
@@ -80,23 +80,23 @@ X, \-
 
 Client whose rules are used to perform the unit conversion. Optional (if the current data source is client-specific). Default: Content of the client column of the current row
 
-[CLNT](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CLNT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-Field of a [data source](javascript:call_link\('abencds_f1_data_source.htm'\)), [literal](javascript:call_link\('abencds_f1_literal.htm'\)), [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+Field of a [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm), [literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm), [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm)
 
 error\_handling
 
 X
 
-Error handling. If "FAIL\_ON\_ERROR" (default value), an error raises an exception; if "SET\_TO\_NULL", the result is reset to the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"); if "KEEP\_UNCONVERTED", the source value is not changed.
+Error handling. If "FAIL\_ON\_ERROR" (default value), an error raises an exception; if "SET\_TO\_NULL", the result is reset to the [null value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry"); if "KEEP\_UNCONVERTED", the source value is not changed.
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 20
+[CHAR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) with length 20
 
-[Literal](javascript:call_link\('abencds_f1_literal.htm'\))
+[Literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm)
 
 Note
 
-The precision of the result of the unit conversion depends on the database platform. The highest precision is achieved on databases that support [decimal floating point numbers](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry"). Due to rounding, the result can be different from a unit conversion performed using ABAP methods, such as a standard function module.
+The precision of the result of the unit conversion depends on the database platform. The highest precision is achieved on databases that support [decimal floating point numbers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendecfloat_glosry.htm "Glossary Entry"). Due to rounding, the result can be different from a unit conversion performed using ABAP methods, such as a standard function module.
 
 Example
 
@@ -128,7 +128,7 @@ Variant 2
 
 Effect
 
-The function CURRENCY\_CONVERSION performs a currency conversion for the value passed to the formal parameter amount. The result has the data type [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)) with the same technical attributes as the actual parameter passed to amount. The currency conversion is performed on the basis of the client-specific rules saved in the database tables TCUR... of package SFIB. These rules can be edited using transaction OB08.
+The function CURRENCY\_CONVERSION performs a currency conversion for the value passed to the formal parameter amount. The result has the data type [CURR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) with the same technical attributes as the actual parameter passed to amount. The currency conversion is performed on the basis of the client-specific rules saved in the database tables TCUR... of package SFIB. These rules can be edited using transaction OB08.
 
 The table below shows the actual parameters p1, p2, ... and their meaning.
 
@@ -148,9 +148,9 @@ amount
 
 Initial value
 
-[CURR](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CURR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-Field of a [data source](javascript:call_link\('abencds_f1_data_source.htm'\)), [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+Field of a [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm), [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm)
 
 source\_currency
 
@@ -158,9 +158,9 @@ source\_currency
 
 Source currency from column WAERS of database table TCURC
 
-[CUKY](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CUKY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-Field of a [data source](javascript:call_link\('abencds_f1_data_source.htm'\)), [literal](javascript:call_link\('abencds_f1_literal.htm'\)), [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+Field of a [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm), [literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm), [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm)
 
 target\_currency
 
@@ -168,9 +168,9 @@ target\_currency
 
 Target currency from column WAERS of database table TCURC
 
-[CUKY](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CUKY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-Field of a [data source](javascript:call_link\('abencds_f1_data_source.htm'\)), [literal](javascript:call_link\('abencds_f1_literal.htm'\)), [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+Field of a [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm), [literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm), [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm)
 
 exchange\_rate\_date
 
@@ -178,9 +178,9 @@ exchange\_rate\_date
 
 Exchange rate date for column GDATU of database table TCURR
 
-[DATS](javascript:call_link\('abenddic_builtin_types.htm'\))
+[DATS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-Field of a [data source](javascript:call_link\('abencds_f1_data_source.htm'\)), [literal](javascript:call_link\('abencds_f1_literal.htm'\)), [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+Field of a [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm), [literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm), [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm)
 
 exchange\_rate\_type
 
@@ -188,9 +188,9 @@ X
 
 Exchange rate type from column KURST of database table TCURR, default value: "M"
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 4
+[CHAR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) with length 4
 
-[Literal](javascript:call_link\('abencds_f1_literal.htm'\)), [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+[Literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm), [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm)
 
 client
 
@@ -198,9 +198,9 @@ X, \-
 
 Client whose rules are used to perform the currency conversion. Optional (if the current data source is client-specific). Default: Content of the client column of the current row
 
-[CLNT](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CLNT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-Field of a [data source](javascript:call_link\('abencds_f1_data_source.htm'\)), [literal](javascript:call_link\('abencds_f1_literal.htm'\)), [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+Field of a [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm), [literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm), [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm)
 
 round
 
@@ -208,9 +208,9 @@ X
 
 If "X" (default value), the intermediate result of the conversion is rounded to the end result using commercial rounding; else it is truncated
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CHAR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-[Literal](javascript:call_link\('abencds_f1_literal.htm'\))
+[Literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm)
 
 decimal\_shift
 
@@ -218,9 +218,9 @@ X
 
 If "X" (default value), the decimal places of the source value are moved as specified by the decimal places of the source currency (see below).
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CHAR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-[Literal](javascript:call_link\('abencds_f1_literal.htm'\))
+[Literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm)
 
 decimal\_shift\_back
 
@@ -228,21 +228,21 @@ X
 
 If "X" (default value), the decimal places of the result are moved as specified by the decimal places of the target currency (see below).
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CHAR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-[Literal](javascript:call_link\('abencds_f1_literal.htm'\))
+[Literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm)
 
 error\_handling
 
 X
 
-Error handling. If "FAIL\_ON\_ERROR" (default value), an error raises an exception; if "SET\_TO\_NULL", the result is reset to the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"); if "KEEP\_UNCONVERTED", the source value is not changed.
+Error handling. If "FAIL\_ON\_ERROR" (default value), an error raises an exception; if "SET\_TO\_NULL", the result is reset to the [null value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry"); if "KEEP\_UNCONVERTED", the source value is not changed.
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 20
+[CHAR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) with length 20
 
-[Literal](javascript:call_link\('abencds_f1_literal.htm'\))
+[Literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm)
 
-The [literals](javascript:call_link\('abencds_f1_literal.htm'\)) #cdsboolean.TRUE, #cdsboolean.true, #cdsboolean.FALSE, and #cdsboolean.false can also be specified for the input parameters round, decimal\_shift, and decimal\_shift\_back with the domain prefix CDSBOOLEAN (case-sensitive) or the literals 'true' or 'false' (not case-sensitive). Internally, these literals are handled like the values "X" or " ".
+The [literals](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm) #cdsboolean.TRUE, #cdsboolean.true, #cdsboolean.FALSE, and #cdsboolean.false can also be specified for the input parameters round, decimal\_shift, and decimal\_shift\_back with the domain prefix CDSBOOLEAN (case-sensitive) or the literals 'true' or 'false' (not case-sensitive). Internally, these literals are handled like the values "X" or " ".
 
 Handling the Decimal Places
 
@@ -260,9 +260,9 @@ Note
 
 -   The conversion is performed on the database, which means that part of the calculation takes place using different rounding rules from ABAP. No matter how the conversion is made, the same results cannot be expected as when using standard function modules for currency conversion, since these modules are generally less precise and round the intermediate results accordingly.
 
--   The parameter decimal\_shift is intended to set the source value to the number of decimal places of the source currency before the conversion. This assumes that its technical type, [CURR](javascript:call_link\('abenddic_currency_field.htm'\)), has two decimal places as usual. The parameter decimal\_shift\_back is intended to perform the reverse operation.
+-   The parameter decimal\_shift is intended to set the source value to the number of decimal places of the source currency before the conversion. This assumes that its technical type, [CURR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_currency_field.htm), has two decimal places as usual. The parameter decimal\_shift\_back is intended to perform the reverse operation.
 
--   If the technical type [CURR](javascript:call_link\('abenddic_currency_field.htm'\)) of the source value does not have two decimal places, the function CURRENCY\_CONVERSION may display unexpected behavior.
+-   If the technical type [CURR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_currency_field.htm) of the source value does not have two decimal places, the function CURRENCY\_CONVERSION may display unexpected behavior.
 
 Example
 
@@ -295,7 +295,7 @@ Variant 3
 
 Effect
 
-The function DECIMAL\_SHIFT sets the decimal separator of the value that is passed to the formal parameter amount in accordance with a currency. The result has the data type [CURR](javascript:call_link\('abenddic_builtin_types.htm'\)) with the length 31 and 14 decimal places. Its value is produced by multiplying the input parameter rounded to two decimal places by 10 to the power of two minus the decimal places defined by the currency passed.
+The function DECIMAL\_SHIFT sets the decimal separator of the value that is passed to the formal parameter amount in accordance with a currency. The result has the data type [CURR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) with the length 31 and 14 decimal places. Its value is produced by multiplying the input parameter rounded to two decimal places by 10 to the power of two minus the decimal places defined by the currency passed.
 
 Possible currencies and their decimal places are based on the database tables TCUR... of the package SFIB.
 
@@ -315,9 +315,9 @@ amount
 
 Initial value
 
-[CURR](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CURR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-Field of a [data source](javascript:call_link\('abencds_f1_data_source.htm'\)), [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+Field of a [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm), [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm)
 
 currency
 
@@ -325,19 +325,19 @@ currency
 
 Currency from column WAERS of database table TCURC; the associated decimal places determined from the column CURRDEC of TCURX
 
-[CUKY](javascript:call_link\('abenddic_builtin_types.htm'\))
+[CUKY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm)
 
-Field of a [data source](javascript:call_link\('abencds_f1_data_source.htm'\)), [literal](javascript:call_link\('abencds_f1_literal.htm'\)), [parameter](javascript:call_link\('abencds_f1_parameter.htm'\))
+Field of a [data source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm), [literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm), [parameter](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_parameter.htm)
 
 error\_handling
 
 X
 
-Error handling. If "FAIL\_ON\_ERROR" (default value), an error raises an exception; if "SET\_TO\_NULL", the result is reset to the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"); if "KEEP\_UNCONVERTED", the source value is not changed.
+Error handling. If "FAIL\_ON\_ERROR" (default value), an error raises an exception; if "SET\_TO\_NULL", the result is reset to the [null value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry"); if "KEEP\_UNCONVERTED", the source value is not changed.
 
-[CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 20
+[CHAR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) with length 20
 
-[Literal](javascript:call_link\('abencds_f1_literal.htm'\))
+[Literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm)
 
 Note
 

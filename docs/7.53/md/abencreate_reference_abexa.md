@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) →  [CREATE DATA - REF TO](javascript:call_link\('abapcreate_data_reference.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencreate_objects.htm) →  [CREATE DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data.htm) →  [CREATE DATA - REF TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_reference.htm) → 
 
 Creating Reference Variables
 
@@ -44,8 +44,8 @@ START-OF-SELECTION.
 
 Description
 
-Creates an interface reference variable dynamically. The [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry") is used for the name of the local interface.
+Creates an interface reference variable dynamically. The [absolute type name](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabsolute_typename_glosry.htm "Glossary Entry") is used for the name of the local interface.
 
-The reference variable is assigned to a field symbol <ref> using dereferencing. According to the [general typing rules](javascript:call_link\('abentyping_check_general.htm'\)), the field symbol must either be typed in full generically or typed with reference to the interface intf.
+The reference variable is assigned to a field symbol <ref> using dereferencing. According to the [general typing rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentyping_check_general.htm), the field symbol must either be typed in full generically or typed with reference to the interface intf.
 
-The dynamically created reference variable is used to create and address an object of a class. Since this field symbol is fully generic, only the display variant of the [dynamic ASSIGN](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)) (and not a special [dynamic access](javascript:call_link\('abapassign_mem_area_dynamic_access.htm'\))) can be used to access the interface attribute.
+The dynamically created reference variable is used to create and address an object of a class. Since this field symbol is fully generic, only the display variant of the [dynamic ASSIGN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_mem_area_dynamic_dobj.htm) (and not a special [dynamic access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapassign_mem_area_dynamic_access.htm)) can be used to access the interface attribute.

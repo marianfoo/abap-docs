@@ -6,7 +6,7 @@ AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
 CALL FUNCTION - IN REMOTE TASK
 
-[Quick Reference](javascript:call_link\('abapcall_function_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_shortref.htm)
 
 Syntax
 

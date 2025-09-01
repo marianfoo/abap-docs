@@ -22,7 +22,7 @@ EXPORT NAMETAB h f ID id.
 
 Effect
 
-Exports a generated structure description. This statement may only used by ABAP [Repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") tools. A standard table without a secondary key can be specified for the field list f.
+Exports a generated structure description. This statement may only used by ABAP [Repository](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_glosry.htm "Glossary Entry") tools. A standard table without a secondary key can be specified for the field list f.
 
 Variant 2   
 
@@ -32,7 +32,7 @@ Effect
 
 Reads a generated structure description. This statement may only be used by ABAP Repository tools. A standard table without a secondary key can be specified for the field list f.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

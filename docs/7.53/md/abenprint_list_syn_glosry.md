@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 print list
 
-See [spool list](javascript:call_link\('abenprint_list_glosry.htm'\) "Glossary Entry").
+See [spool list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprint_list_glosry.htm "Glossary Entry").

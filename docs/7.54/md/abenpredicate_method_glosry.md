@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 predicate method
 
-[Functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") whose [return code](javascript:call_link\('abenreturn_value_glosry.htm'\) "Glossary Entry") has the type abap\_bool from the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") ABAP. A predicate method is particularly well suited to [predicative method calls](javascript:call_link\('abenpredicative_method_call_glosry.htm'\) "Glossary Entry"), but is not mandatory.
+[Functional method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_method_glosry.htm "Glossary Entry") whose [return code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreturn_value_glosry.htm "Glossary Entry") has the type abap\_bool from the [type group](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_group_1_glosry.htm "Glossary Entry") ABAP. A predicate method is particularly well suited to [predicative method calls](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpredicative_method_call_glosry.htm "Glossary Entry"), but is not mandatory.

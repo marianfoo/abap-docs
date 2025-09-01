@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfile_interface_statements.htm) → 
 
 TRUNCATE DATASET
 
-[Short Reference](javascript:call_link\('abaptruncate_dataset_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptruncate_dataset_shortref.htm)
 
 Syntax
 
@@ -23,7 +23,7 @@ Effect
 
 This statement sets the end of file of the file specified in dset to the value specified after AT and can thus change the size of the file. When truncated, the file is truncated after the new end of file; when extended, the file from the previous to the new end of file is filled with hexadecimal 0.
 
-dset expects a character-like data object containing the [physical name](javascript:call_link\('abenphysical_filename_glosry.htm'\) "Glossary Entry") of the file. The file must be opened for writing, appending, or changing, and not contain the addition [FILTER](javascript:call_link\('abapopen_dataset_os_addition.htm'\)) of the statement [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)); otherwise an uncatchable exception is raised.
+dset expects a character-like data object containing the [physical name](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenphysical_filename_glosry.htm "Glossary Entry") of the file. The file must be opened for writing, appending, or changing, and not contain the addition [FILTER](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapopen_dataset_os_addition.htm) of the statement [OPEN DATASET](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapopen_dataset.htm); otherwise an uncatchable exception is raised.
 
 Return Code
 
@@ -39,7 +39,7 @@ Addition 1
 
 Effect
 
-The addition CURRENT POSITION sets the end of file to the current [file pointer](javascript:call_link\('abenfile_pointer_glosry.htm'\) "Glossary Entry").
+The addition CURRENT POSITION sets the end of file to the current [file pointer](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfile_pointer_glosry.htm "Glossary Entry").
 
 Example
 
@@ -96,7 +96,7 @@ SET DATASET name POSITION 0.
 READ DATASET name INTO hex.
 CLOSE DATASET name.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -129,5 +129,5 @@ CX\_SY\_FILE\_TRUNCATE
 
 Uncatchable Exceptions
 
--   Cause: Internal error when emptying the file buffer, determining the current file position, or restoring the file when rolling in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
+-   Cause: Internal error when emptying the file buffer, determining the current file position, or restoring the file when rolling in the [internal session](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninternal_session_glosry.htm "Glossary Entry").
     Runtime error: DATASET\_TRUNCATE\_ERROR

@@ -4,17 +4,21 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions](javascript:call_link\('abenregular_expressions.htm'\)) →  [Syntax of Regular Expressions](javascript:call_link\('abenregex_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregular_expressions.htm) →  [Syntax of Regular Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_syntax.htm) → 
 
 Replace Patterns
 
-After [searching](javascript:call_link\('abenregex_search.htm'\)), the replacement of substrings in character strings is the most important application of regular expressions. When replacing, the occurrences of a search (or the substrings that match a regular expression), are replaced by one or more different character strings. In ABAP, the replacement is realized using regular expressions with the addition [REGEX](javascript:call_link\('abapfind_pattern.htm'\)) of the statement [REPLACE](javascript:call_link\('abapreplace.htm'\)).
+After [searching](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_search.htm), the replacement of substrings in character strings is the most important application of regular expressions. When replacing, the occurrences of a search (or the substrings that match a regular expression), are replaced by one or more different character strings. In ABAP, the replacement is realized using regular expressions with the addition [REGEX](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfind_pattern.htm) of the statement [REPLACE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreplace.htm).
 
 In contrast to normal text replacements, when regular expressions are used, operators can be used in the replacement text that refer to the relevant occurrence.
 
--   [Operators for Replacement Texts](#abenregex-replace-1--------addressing-the-full-occurrence---@ITOC@@ABENREGEX_REPLACE_2)
+-   [Operators for Replacement Texts](#@@ITOC@@ABENREGEX_REPLACE_1)
 
--   [Addressing the Registers of Subgroups](#abenregex-replace-3--------addressing-the-text-before-the-occurrence---@ITOC@@ABENREGEX_REPLACE_4)
+-   [Addressing the Full Occurrence](#@@ITOC@@ABENREGEX_REPLACE_2)
+
+-   [Addressing the Registers of Subgroups](#@@ITOC@@ABENREGEX_REPLACE_3)
+
+-   [Addressing the Text Before the Occurrence](#@@ITOC@@ABENREGEX_REPLACE_4)
 
 -   [Addressing the Text After the Occurrence](#@@ITOC@@ABENREGEX_REPLACE_5)
 
@@ -36,7 +40,7 @@ REPLACE REGEX \`\\w+\` IN text WITH \`$0 $0 $&\`.
 
 Addressing the Registers of Subgroups
 
-The operators $1, $2, $3, ... can be used in the replacement text as placeholders for the character strings stored in the registers of [subgroups](javascript:call_link\('abenregex_syntax_operators.htm'\)) for the current occurrence. If the n-th subgroup is not available, or it is not supplied with a value in the match, the corresponding operator $n is replaced by the empty character string.
+The operators $1, $2, $3, ... can be used in the replacement text as placeholders for the character strings stored in the registers of [subgroups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_syntax_operators.htm) for the current occurrence. If the n-th subgroup is not available, or it is not supplied with a value in the match, the corresponding operator $n is replaced by the empty character string.
 
 Example
 

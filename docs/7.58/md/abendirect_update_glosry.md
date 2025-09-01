@@ -4,12 +4,12 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_glossary.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20direct%20update%2C%20ABENDIRECT_UPDATE_GLOSRY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 direct update
 
-Procedure to create or update unique [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") of [internal tables](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry"). After an insertion operation using [INSERT](javascript:call_link\('abapinsert_itab.htm'\)) or [APPEND](javascript:call_link\('abapappend.htm'\)), a modifying operating using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)), or a block operation in which the whole table body is filled in one go, unique secondary table keys are updated immediately. See also [delayed update](javascript:call_link\('abendelayed_update_glosry.htm'\) "Glossary Entry") and [lazy update](javascript:call_link\('abenlazy_update_glosry.htm'\) "Glossary Entry").
+Procedure to create or update unique [secondary table keys](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") of [internal tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry"). After an insertion operation using [INSERT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_itab.htm) or [APPEND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapappend.htm), a modifying operating using [MODIFY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab.htm), or a block operation in which the whole table body is filled in one go, unique secondary table keys are updated immediately. See also [delayed update](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendelayed_update_glosry.htm "Glossary Entry") and [lazy update](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlazy_update_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenitab_key_secondary_update.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key_secondary_update.htm)

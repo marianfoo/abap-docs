@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [News for ABAP Release 6.10](javascript:call_link\('abennews-610.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 6.xx](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-6.htm) →  [News for ABAP Release 6.10](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-610.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Runtime%20and%20Load%20Size%20in%20ABAP%20Release%206.10%2C%20ABENNEWS-610-KERNEL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improv
 ement:)
@@ -24,13 +24,13 @@ Modification 1  
 
 Restrictions on the Statement STOP
 
-The statement [STOP](javascript:call_link\('abapstop.htm'\)) can no longer be used outside of reports or in [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") called using [CALL SCREEN](javascript:call_link\('abapcall_screen.htm'\)). Such actions previously produced a runtime error or, in rarer cases, a non-traceable program flow.
+The statement [STOP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstop.htm) can no longer be used outside of reports or in [dynpros](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm "Glossary Entry") called using [CALL SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_screen.htm). Such actions previously produced a runtime error or, in rarer cases, a non-traceable program flow.
 
 Modification 2   
 
 Addition ON ROLLBACK for Subroutines
 
-The addition [ON ROLLBACK](javascript:call_link\('abapperform.htm'\)) is now available for subroutines, similar to PERFORM ... ON COMMIT. This stops FORM routines of this type from being executed until a [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) or a [MESSAGE](javascript:call_link\('abapmessage.htm'\)) of type A is raised.
+The addition [ON ROLLBACK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapperform.htm) is now available for subroutines, similar to PERFORM ... ON COMMIT. This stops FORM routines of this type from being executed until a [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprollback.htm) or a [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) of type A is raised.
 
 Modification 3   
 
@@ -48,7 +48,7 @@ Modification 5  
 
 Passing of c Literals to Numeric Parameters
 
-When passing c literals to parameters of type p, it was previously possible for a number to have more [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") than the formal parameter. Due to rounding and the associated loss of information loss, the passing of c literals to parameters of types I, INT1, and INT2 also caused problems. For example, the literal '1245.6789' could be passed to a formal parameter of type p DECIMALS 2 or type i, and the rounding was performed in accordance with the associated [conversion rule](javascript:call_link\('abenconversion_rule_glosry.htm'\) "Glossary Entry").
+When passing c literals to parameters of type p, it was previously possible for a number to have more [decimal places](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecimal_place_glosry.htm "Glossary Entry") than the formal parameter. Due to rounding and the associated loss of information loss, the passing of c literals to parameters of types I, INT1, and INT2 also caused problems. For example, the literal '1245.6789' could be passed to a formal parameter of type p DECIMALS 2 or type i, and the rounding was performed in accordance with the associated [conversion rule](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_rule_glosry.htm "Glossary Entry").
 
 Now the system ensures that the formal parameter has as large as a fractional portion as required by the literal. In the case of programs without fixed point arithmetic, the size of the fractional portion must be an exact match.
 
@@ -64,7 +64,7 @@ Modification 7  
 
 Paging Out of the Structure SCREEN
 
-Until now the structure of the data object SCREEN was generated automatically in every program. In ABAP release 6.10 this structure description was paged out into the [type pool](javascript:call_link\('abaptype-pools.htm'\)) SYSCR. Instead of
+Until now the structure of the data object SCREEN was generated automatically in every program. In ABAP release 6.10 this structure description was paged out into the [type pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype-pools.htm) SYSCR. Instead of
 
 data NAME type %\_CX\_SCREEN-Name
 
@@ -76,7 +76,7 @@ Modification 8  
 
 Syntax Revisions in LOOP AT SCREEN and MODIFY SCREEN
 
-The following changes were made to the statements [LOOP AT SCREEN](javascript:call_link\('abaploop_at_screen.htm'\)) and [MODIFY SCREEN](javascript:call_link\('abapmodify_screen.htm'\)).
+The following changes were made to the statements [LOOP AT SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_screen.htm) and [MODIFY SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_screen.htm).
 
 1.  To ensure independence from global definitions, the additional variants LOOP AT SCREEN INTO wa and MODIFY SCREEN FROM wa were introduced.
 2.  LOOP AT SCREEN with an internal table SCREEN defined locally in the program is no longer possible. The following program, previously not terminated until runtime, now produces a syntax error:

@@ -4,12 +4,12 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transaction.htm) → 
 
 Transaction Call - Examples
 
 Continue
-![Example](exa.gif "Example") [Transaction Call, SPA/GPAParameters](javascript:call_link\('abencall_transaction_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, Report Transaction](javascript:call_link\('abencall_transaction_repo_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](javascript:call_link\('abencall_transaction_dialog_abexa.htm'\))
+![Example](exa.gif "Example") [Transaction Call, SPA/GPAParameters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_transaction_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_transaction_bdc_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, Report Transaction](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_transaction_repo_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencall_transaction_dialog_abexa.htm)

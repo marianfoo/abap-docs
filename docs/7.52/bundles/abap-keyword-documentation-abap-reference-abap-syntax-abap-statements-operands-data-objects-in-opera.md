@@ -3,29 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenoperands_data_objects.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_data_objects.htm)
-- [abendata_objects_usage_reading.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_reading.htm)
-- [abendata_objects_usage_writing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_writing.htm)
-- [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm)
-- [abendata_process_fields_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_process_fields_abexa.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.426Z
-
----
-
 ### abenoperands_data_objects.htm
-
-> **📖 Official SAP Documentation**: [abenoperands_data_objects.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_data_objects.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -33,32 +11,25 @@ Included pages: 6
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands.htm) → 
 
 Data Objects in Operand Positions
 
 For data objects in operand positions, you must distinguish between read and write positions. The data type and content of the specified data objects must also be appropriate for the operand position.
 
--   [Read positions](javascript:call_link\('abendata_objects_usage_reading.htm'\))
+-   [Read positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_reading.htm)
 
--   [Write positions](javascript:call_link\('abendata_objects_usage_writing.htm'\))
+-   [Write positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_writing.htm)
 
--   [Subfield access](javascript:call_link\('abenoffset_length.htm'\))
+-   [Subfield access](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm)
 
 Continue
-[Reading Positions](javascript:call_link\('abendata_objects_usage_reading.htm'\))
-[Writing Positions](javascript:call_link\('abendata_objects_usage_writing.htm'\))
-[Substring Access](javascript:call_link\('abenoffset_length.htm'\))
+[Reading Positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_reading.htm)
+[Writing Positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_writing.htm)
+[Substring Access](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm)
 
-
-
-**📖 Source**: [abenoperands_data_objects.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_data_objects.htm)
 
 ### abendata_objects_usage_reading.htm
-
-> **📖 Official SAP Documentation**: [abendata_objects_usage_reading.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_reading.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -66,51 +37,44 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Data Objects in Operand Positions](javascript:call_link\('abenoperands_data_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands.htm) →  [Data Objects in Operand Positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_data_objects.htm) → 
 
 Reading Positions
 
 In a reading position, the content of an operand is only read, and not changed, when the statement is executed. Data objects can be specified as followed in reading positions:
 
--   As a [literal](javascript:call_link\('abenliteral_glosry.htm'\) "Glossary Entry").
+-   As a [literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenliteral_glosry.htm "Glossary Entry").
     
 
--   As a [data object visible](javascript:call_link\('abenlifetime_and_visibility.htm'\)) in this place using a name dobj, a [field symbol](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") <fs>, or a data reference dref->\* dereferenced using the [dereferencing operator](javascript:call_link\('abendereferencing_operat_glosry.htm'\) "Glossary Entry") \->\* (providing dref is specified in full).
-    Here, the names of data objects also include any [text symbols](javascript:call_link\('abentext_symbol_glosry.htm'\) "Glossary Entry") specified using the following:
+-   As a [data object visible](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlifetime_and_visibility.htm) in this place using a name dobj, a [field symbol](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfield_symbol_glosry.htm "Glossary Entry") <fs>, or a data reference dref->\* dereferenced using the [dereferencing operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendereferencing_operat_glosry.htm "Glossary Entry") \->\* (providing dref is specified in full).
+    Here, the names of data objects also include any [text symbols](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_symbol_glosry.htm "Glossary Entry") specified using the following:
     ... text-idf ...,
-    Here, idf is the three-character ID of the text symbol or chainings of reference variables. If a field symbol is used, it must be assigned to a memory area and a data reference must point to a data object. Otherwise a non-handleable exception is raised. As an alternative to specifying a text symbol using text-idf, the three-character code of a text symbol can be appended to the [text field literal](javascript:call_link\('abentext_field_literal_glosry.htm'\) "Glossary Entry") in parentheses:
+    Here, idf is the three-character ID of the text symbol or chainings of reference variables. If a field symbol is used, it must be assigned to a memory area and a data reference must point to a data object. Otherwise a non-handleable exception is raised. As an alternative to specifying a text symbol using text-idf, the three-character code of a text symbol can be appended to the [text field literal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_field_literal_glosry.htm "Glossary Entry") in parentheses:
     ... '...'(idf) ...
-    If the text symbol exists in the currently loaded [text pool](javascript:call_link\('abentext_pool_glosry.htm'\) "Glossary Entry"), the content of the text symbol is used instead of the text field literal, otherwise the literal is used.
+    If the text symbol exists in the currently loaded [text pool](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_pool_glosry.htm "Glossary Entry"), the content of the text symbol is used instead of the text field literal, otherwise the literal is used.
 
--   If the data object is an internal table, the expressions dobj\[\], <fs>\[\], or dref->\*\[\] can also be used. An exception to this is when specifying the internal table of a [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry"), where \[\] cannot be appended to the name. In the case of dobj\[\], this ensures that the [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry") is addressed and no [header lines](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"). If an internal table does not have a header line, its simple name dobj (without \[\]) is interpreted as the table body in all operand positions. However, if an internal table does have a header line, its simple name dobj (without \[\]) is interpreted as the header line and not the table body in almost all operand positions. The operand positions in which the name of an internal table with a header line is interpreted as the internal table are specified under [internal tables with headers](javascript:call_link\('abenitab_header_line.htm'\)).
+-   If the data object is an internal table, the expressions dobj\[\], <fs>\[\], or dref->\*\[\] can also be used. An exception to this is when specifying the internal table of a [table expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_expression_glosry.htm "Glossary Entry"), where \[\] cannot be appended to the name. In the case of dobj\[\], this ensures that the [table body](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_body_glosry.htm "Glossary Entry") is addressed and no [header lines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenheader_line_glosry.htm "Glossary Entry"). If an internal table does not have a header line, its simple name dobj (without \[\]) is interpreted as the table body in all operand positions. However, if an internal table does have a header line, its simple name dobj (without \[\]) is interpreted as the header line and not the table body in almost all operand positions. The operand positions in which the name of an internal table with a header line is interpreted as the internal table are specified under [internal tables with headers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_header_line.htm).
 
--   As a [subarea](javascript:call_link\('abenoffset_length.htm'\)) of a character-like or byte-like data object (or a character-like initial part of a structure) by specifying an [offset/length](javascript:call_link\('abenoffset_length_specific_glosry.htm'\) "Glossary Entry").
+-   As a [subarea](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm) of a character-like or byte-like data object (or a character-like initial part of a structure) by specifying an [offset/length](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length_specific_glosry.htm "Glossary Entry").
 
--   In some positions, number values must be specified directly as digits, although it is often not possible to specify a sign (which is not the case with [numeric literals](javascript:call_link\('abennumeric_literal_glosry.htm'\) "Glossary Entry")). Examples are numbers specified in declarative statements for the length of elementary data objects or for the initial memory requirements of internal tables.
+-   In some positions, number values must be specified directly as digits, although it is often not possible to specify a sign (which is not the case with [numeric literals](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennumeric_literal_glosry.htm "Glossary Entry")). Examples are numbers specified in declarative statements for the length of elementary data objects or for the initial memory requirements of internal tables.
 
 Notes
 
--   Text symbols cannot be specified in all reading positions. For example, they are not permitted for specifying the target of dynamic [executions](javascript:call_link\('abenabap_execution.htm'\)).
+-   Text symbols cannot be specified in all reading positions. For example, they are not permitted for specifying the target of dynamic [executions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_execution.htm).
 
--   A [system field](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") should only be specified as an operand in a reading position if its content is not set by the same statement, since otherwise undefined behavior may occur.
+-   A [system field](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_field_glosry.htm "Glossary Entry") should only be specified as an operand in a reading position if its content is not set by the same statement, since otherwise undefined behavior may occur.
 
--   The predicate expressions [IS ASSIGNED](javascript:call_link\('abenlogexp_assigned.htm'\)) and [IS BOUND](javascript:call_link\('abenlogexp_assigned.htm'\)) can be used to check whether field symbols or data references.
+-   The predicate expressions [IS ASSIGNED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_assigned.htm) and [IS BOUND](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_assigned.htm) can be used to check whether field symbols or data references.
 
--   A data reference variable with a generic static type can only be deserialized using the statement [ASSIGN dref->\* TO <fs>](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)).
+-   A data reference variable with a generic static type can only be deserialized using the statement [ASSIGN dref->\* TO <fs>](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area_dynamic_dobj.htm).
 
--   In many reading positions, [functions or expressions](javascript:call_link\('abenoperands_expressions.htm'\)) can be specified as well as data objects.
+-   In many reading positions, [functions or expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_expressions.htm) can be specified as well as data objects.
 
--   [Enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") with an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") can be used in all reading positions in which the operand type is their enumerated type or in which the operand is converted to one of the character-like types c or string.
+-   [Enumerated objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_object_glosry.htm "Glossary Entry") with an [enumerated type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry") can be used in all reading positions in which the operand type is their enumerated type or in which the operand is converted to one of the character-like types c or string.
 
-
-
-**📖 Source**: [abendata_objects_usage_reading.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_reading.htm)
 
 ### abendata_objects_usage_writing.htm
-
-> **📖 Official SAP Documentation**: [abendata_objects_usage_writing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_writing.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -118,37 +82,30 @@ Notes
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Data Objects in Operand Positions](javascript:call_link\('abenoperands_data_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands.htm) →  [Data Objects in Operand Positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_data_objects.htm) → 
 
 Writing Positions
 
 In a writing position, the content of the operand is changed when the statement is executed. Only modifiable data objects (that is, no literals, text symbols, constants, or non-modifiable formal parameters) can be specified as follows in writing positions:
 
--   A [visible data object](javascript:call_link\('abenlifetime_and_visibility.htm'\)) specified in this place using a name dobj, a field symbol <fs>, or a dereferenced data reference dref->\* (if dref is typed in full). Like in [reading positions](javascript:call_link\('abenreading_position_glosry.htm'\) "Glossary Entry"), \[\] can be appended in internal tables, to address the [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry").
+-   A [visible data object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlifetime_and_visibility.htm) specified in this place using a name dobj, a field symbol <fs>, or a dereferenced data reference dref->\* (if dref is typed in full). Like in [reading positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreading_position_glosry.htm "Glossary Entry"), \[\] can be appended in internal tables, to address the [table body](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_body_glosry.htm "Glossary Entry").
 
--   A [subarea](javascript:call_link\('abenoffset_length.htm'\)) of a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like or byte-like data object specified using an [offset/length](javascript:call_link\('abenoffset_length_specific_glosry.htm'\) "Glossary Entry"). An offset or length cannot be specified in writing positions for data objects of the [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") data types string and xstring.
+-   A [subarea](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm) of a [flat](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenflat_glosry.htm "Glossary Entry") character-like or byte-like data object specified using an [offset/length](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length_specific_glosry.htm "Glossary Entry"). An offset or length cannot be specified in writing positions for data objects of the [deep](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeep_glosry.htm "Glossary Entry") data types string and xstring.
 
--   In a [declaration position](javascript:call_link\('abendeclaration_position_glosry.htm'\) "Glossary Entry"), an [inline declaration](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry") of a data object or field symbol can be made using a [declaration expression](javascript:call_link\('abendeclaration_expression_glosry.htm'\) "Glossary Entry").
+-   In a [declaration position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_position_glosry.htm "Glossary Entry"), an [inline declaration](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninline_declaration_glosry.htm "Glossary Entry") of a data object or field symbol can be made using a [declaration expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_expression_glosry.htm "Glossary Entry").
 
--   [Writable expressions](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") can be specified in a [result position](javascript:call_link\('abenresult_position_glosry.htm'\) "Glossary Entry").
+-   [Writable expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwritable_expression_glosry.htm "Glossary Entry") can be specified in a [result position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenresult_position_glosry.htm "Glossary Entry").
 
 Also available are writing-only positions, where an operand is overwritten without being read, and writing positions where an operand is read and written.
 
 Notes
 
--   In [some writing positions](javascript:call_link\('abenexpression_positions_write.htm'\)), certain expressions can also be specified.
+-   In [some writing positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpression_positions_write.htm), certain expressions can also be specified.
 
--   [Enumerated variables](javascript:call_link\('abenenumerated_variable_glosry.htm'\) "Glossary Entry") can only be used in writing positions in which the operand type is the enumerated type and only the associated [enumerated values](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") can be written.
+-   [Enumerated variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_variable_glosry.htm "Glossary Entry") can only be used in writing positions in which the operand type is the enumerated type and only the associated [enumerated values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_value_glosry.htm "Glossary Entry") can be written.
 
-
-
-**📖 Source**: [abendata_objects_usage_writing.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_writing.htm)
 
 ### abenoffset_length.htm
-
-> **📖 Official SAP Documentation**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -156,7 +113,7 @@ Notes
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Data Objects in Operand Positions](javascript:call_link\('abenoperands_data_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands.htm) →  [Data Objects in Operand Positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_data_objects.htm) → 
 
 Substring Access
 
@@ -174,51 +131,51 @@ Effect
 
 A specified offset or length is directly appended to either the dobj descriptor of the data object, an <fs> field symbol, or a dereferenced data reference variable dref->\*. Offsets/lengths can be specified for:
 
--   [Elementary](javascript:call_link\('abenelementary_data_object_glosry.htm'\) "Glossary Entry") [byte-like data objects](javascript:call_link\('abenbyte_like_data_object_glosry.htm'\) "Glossary Entry")
+-   [Elementary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenelementary_data_object_glosry.htm "Glossary Entry") [byte-like data objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_like_data_object_glosry.htm "Glossary Entry")
 
--   [Elementary](javascript:call_link\('abenelementary_data_object_glosry.htm'\) "Glossary Entry") [character-like data objects](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry")
+-   [Elementary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenelementary_data_object_glosry.htm "Glossary Entry") [character-like data objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharlike_data_object_glosry.htm "Glossary Entry")
 
--   [Flat structures](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry") where one of the following prerequisites must be met:
+-   [Flat structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenflat_structure_glosry.htm "Glossary Entry") where one of the following prerequisites must be met:
 
 -   The structure contains flat character-like components only.
 
--   The first fragment of the [structure fragment view](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry") is flat and character-like, and the substring addressed by specifying the offset and length is located within this fragment.
+-   The first fragment of the [structure fragment view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry") is flat and character-like, and the substring addressed by specifying the offset and length is located within this fragment.
 
 The following restrictions apply:
 
--   In [write positions](javascript:call_link\('abenwriting_position_glosry.htm'\) "Glossary Entry"), only flat data objects are permitted; it is not possible to write to substrings of strings.
+-   In [write positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwriting_position_glosry.htm "Glossary Entry"), only flat data objects are permitted; it is not possible to write to substrings of strings.
 
--   Access to substrings of strings is also not possible in the following [reading positions](javascript:call_link\('abenreading_position_glosry.htm'\) "Glossary Entry"):
+-   Access to substrings of strings is also not possible in the following [reading positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreading_position_glosry.htm "Glossary Entry"):
 
--   dobj*\[*+off*\]**\[*(len)*\]* specified as a memory area [mem\_area](javascript:call_link\('abapassign_mem_area_static_dobj.htm'\)) of the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)).
+-   dobj*\[*+off*\]**\[*(len)*\]* specified as a memory area [mem\_area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area_static_dobj.htm) of the statement [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm).
 
--   dobj*\[*+off*\]**\[*(len)*\]* specified as an argument of the statement [GET REFERENCE](javascript:call_link\('abapget_reference.htm'\)) or the reference operator [REF](javascript:call_link\('abenconstructor_expression_ref.htm'\)).
+-   dobj*\[*+off*\]**\[*(len)*\]* specified as an argument of the statement [GET REFERENCE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_reference.htm) or the reference operator [REF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_ref.htm).
 
--   dobj*\[*+off*\]**\[*(len)*\]* specified as an actual parameter for input parameters in calls of [methods](javascript:call_link\('abenmethod_calls.htm'\)), [function modules](javascript:call_link\('abapcall_function.htm'\)), and [subroutines](javascript:call_link\('abapperform.htm'\)).
+-   dobj*\[*+off*\]**\[*(len)*\]* specified as an actual parameter for input parameters in calls of [methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_calls.htm), [function modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function.htm), and [subroutines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapperform.htm).
 
 -   Offsets/lengths cannot be specified for literals or text symbols.
 
--   A specified offset/length cannot be appended directly to a table expression [itab\[ ... \]](javascript:call_link\('abentable_expressions.htm'\)), but this is possible after a [chaining](javascript:call_link\('abentable_exp_chaining.htm'\)) whose final place is a suitable structure component after a structure component selector.
+-   A specified offset/length cannot be appended directly to a table expression [itab\[ ... \]](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_expressions.htm), but this is possible after a [chaining](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_exp_chaining.htm) whose final place is a suitable structure component after a structure component selector.
 
--   No offset or length can be specified for an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") with an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"), regardless of the [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry").
+-   No offset or length can be specified for an [enumerated object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_object_glosry.htm "Glossary Entry") with an [enumerated type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), regardless of the [base type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbase_type_glosry.htm "Glossary Entry").
 
--   In the case of dynamically [specified operands](javascript:call_link\('abenoperands_specifying.htm'\)) in parentheses, no lengths can be specified.
+-   In the case of dynamically [specified operands](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_specifying.htm) in parentheses, no lengths can be specified.
 
 -   A dereferenced data reference variable dref->\* must be typed in full.
 
--   For a [writable expression](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry"), offsets/lengths cannot be specified as [memory areas](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)) in the statement ASSIGN or as arguments of the reference operator [REF](javascript:call_link\('abenconstructor_expression_ref.htm'\)) (table expressions only).
+-   For a [writable expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwritable_expression_glosry.htm "Glossary Entry"), offsets/lengths cannot be specified as [memory areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area_writable_exp.htm) in the statement ASSIGN or as arguments of the reference operator [REF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_ref.htm) (table expressions only).
 
-The segment of the data object is used that has the offset specified in off and the length (in characters or bytes) specified in len. A memory area must not be addressed outside the field boundaries, except in the case of the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)). In an offset specified without a length, the entire substring is addressed from off characters; for a length specified without an offset, the first len characters are addressed (different rules apply to the statement [ASSIGN](javascript:call_link\('abapassign.htm'\))).
+The segment of the data object is used that has the offset specified in off and the length (in characters or bytes) specified in len. A memory area must not be addressed outside the field boundaries, except in the case of the statement [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm). In an offset specified without a length, the entire substring is addressed from off characters; for a length specified without an offset, the first len characters are addressed (different rules apply to the statement [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm)).
 
 The operands off and len expect data objects of the type i. These data objects must contain positive integers, with the following exceptions.
 
--   The length 0 can be specified for [strings](javascript:call_link\('abenstring_glosry.htm'\) "Glossary Entry").
+-   The length 0 can be specified for [strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_glosry.htm "Glossary Entry").
 
--   A negative offset (but never length 0) can be specified if an <fs> field symbol is specified in the statement [ASSIGN](javascript:call_link\('abapassign_mem_area_static_dobj.htm'\)) for dobj.
+-   A negative offset (but never length 0) can be specified if an <fs> field symbol is specified in the statement [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area_static_dobj.htm) for dobj.
 
 -   If off is less than the length of dobj, an asterisk (\*) can be specified for len. The upper limit of dobj then determines the upper limit of the memory area.
 
-If the prerequisites are not met or if the subarea defined by off and len is not completely contained in the data object (except in the case of [ASSIGN](javascript:call_link\('abapassign.htm'\))), a syntax error occurs (if statically identifiable). Otherwise, an exception of the class CX\_SY\_RANGE\_OUT\_OF\_BOUNDS is raised. If off is specified as a numeric literal, this literal cannot be prefixed with a sign.
+If the prerequisites are not met or if the subarea defined by off and len is not completely contained in the data object (except in the case of [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm)), a syntax error occurs (if statically identifiable). Otherwise, an exception of the class CX\_SY\_RANGE\_OUT\_OF\_BOUNDS is raised. If off is specified as a numeric literal, this literal cannot be prefixed with a sign.
 
 The offset and length specified are counted in characters for character-like data objects and in bytes for all other data objects.
 
@@ -264,17 +221,17 @@ If the length of the substring matches the length of the structure in a substrin
 
 Notes
 
--   For reads on substrings of character-like data objects, predefined [substring functions](javascript:call_link\('abensubstring_functions.htm'\)) that allow searches by specifying both substring and offset/lengths are available. The substring functions can also be used to edit arguments where offsets and lengths cannot be specified, such as data objects with an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"). This is because an implicit conversion to string is performed here.
+-   For reads on substrings of character-like data objects, predefined [substring functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubstring_functions.htm) that allow searches by specifying both substring and offset/lengths are available. The substring functions can also be used to edit arguments where offsets and lengths cannot be specified, such as data objects with an [enumerated type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry"). This is because an implicit conversion to string is performed here.
 
 -   It is a good idea to specify offsets with the value 0 explicitly too (that is, dobj+0(len) instead of dobj(len)). This distinguishes a substring access in the source code clearly from other language constructs that also use parentheses, such as dynamic specifications, method calls, or inline declarations.
 
 -   dobj+0(\*), dobj+0, or dobj(\*) are always interpreted as dobj. In this case, dobj can also be a data object where substring access according to the rules above is not possible.
 
--   No substring access cnt(len), sum(len) can be performed on data objects called cnt and sum unless an offset is specified explicitly. The compiler always interprets this as a [number](javascript:call_link\('abapcnt.htm'\)) or [sum](javascript:call_link\('abapsum.htm'\)) of a field len in the control level processing of an [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry").
+-   No substring access cnt(len), sum(len) can be performed on data objects called cnt and sum unless an offset is specified explicitly. The compiler always interprets this as a [number](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcnt.htm) or [sum](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsum.htm) of a field len in the control level processing of an [extract dataset](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenextract_dataset_glosry.htm "Glossary Entry").
 
--   [Obsolete syntax forms](javascript:call_link\('abentokenization_obsolete.htm'\)) can still occur with substring access (apart from with classes).
+-   [Obsolete syntax forms](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentokenization_obsolete.htm) can still occur with substring access (apart from with classes).
 
--   The statement [MOVE PERCENTAGE](javascript:call_link\('abapmove_percentage.htm'\)) indicates an obsolete form of substring access.
+-   The statement [MOVE PERCENTAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_percentage.htm) indicates an obsolete form of substring access.
 
 Example
 
@@ -291,7 +248,7 @@ DATA:
     g TYPE x LENGTH 2,    "Length 2 bytes
   END OF struc.
 
-The [fragment view](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry") splits the structure into five areas, F1 - F5.
+The [fragment view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry") splits the structure into five areas, F1 - F5.
 
 \[ aaa | bbbb | cccccccc | ddd | AAA | eeee | fffffffffffff | gg \]
 \[            F1               |  F2 |  F3  |       F4      | F5 \]
@@ -300,20 +257,13 @@ Offset/length accesses are possible on the character-like initial fragment F1 on
 
 Executable Example
 
-[Substrings](javascript:call_link\('abendata_process_fields_abexa.htm'\))
+[Substrings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_process_fields_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Substrings](javascript:call_link\('abendata_process_fields_abexa.htm'\))
+![Example](exa.gif "Example") [Substrings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_process_fields_abexa.htm)
 
-
-
-**📖 Source**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm)
 
 ### abendata_process_fields_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendata_process_fields_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_process_fields_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -321,7 +271,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Data Objects in Operand Positions](javascript:call_link\('abenoperands_data_objects.htm'\)) →  [Substring Access](javascript:call_link\('abenoffset_length.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands.htm) →  [Data Objects in Operand Positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_data_objects.htm) →  [Substring Access](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm) → 
 
 Substrings
 
@@ -394,17 +344,7 @@ In the third part, assignments are used. First, the content of f1 is assigned to
 In part four, the WRITE TO statement is used. The first six positions of the field number are written left-justified, centered, and right-justified into the last 12 positions of the string field.
 
 
-
-**📖 Source**: [abendata_process_fields_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_process_fields_abexa.htm)
-
 ### abenoffset_length.htm
-
-> **📖 Official SAP Documentation**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenoffset_length.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm)
-
 
   
 
@@ -412,7 +352,7 @@ In part four, the WRITE TO statement is used. The first six positions of the fie
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Data Objects in Operand Positions](javascript:call_link\('abenoperands_data_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands.htm) →  [Data Objects in Operand Positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_data_objects.htm) → 
 
 Substring Access
 
@@ -430,51 +370,51 @@ Effect
 
 A specified offset or length is directly appended to either the dobj descriptor of the data object, an <fs> field symbol, or a dereferenced data reference variable dref->\*. Offsets/lengths can be specified for:
 
--   [Elementary](javascript:call_link\('abenelementary_data_object_glosry.htm'\) "Glossary Entry") [byte-like data objects](javascript:call_link\('abenbyte_like_data_object_glosry.htm'\) "Glossary Entry")
+-   [Elementary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenelementary_data_object_glosry.htm "Glossary Entry") [byte-like data objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_like_data_object_glosry.htm "Glossary Entry")
 
--   [Elementary](javascript:call_link\('abenelementary_data_object_glosry.htm'\) "Glossary Entry") [character-like data objects](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry")
+-   [Elementary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenelementary_data_object_glosry.htm "Glossary Entry") [character-like data objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharlike_data_object_glosry.htm "Glossary Entry")
 
--   [Flat structures](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry") where one of the following prerequisites must be met:
+-   [Flat structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenflat_structure_glosry.htm "Glossary Entry") where one of the following prerequisites must be met:
 
 -   The structure contains flat character-like components only.
 
--   The first fragment of the [structure fragment view](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry") is flat and character-like, and the substring addressed by specifying the offset and length is located within this fragment.
+-   The first fragment of the [structure fragment view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry") is flat and character-like, and the substring addressed by specifying the offset and length is located within this fragment.
 
 The following restrictions apply:
 
--   In [write positions](javascript:call_link\('abenwriting_position_glosry.htm'\) "Glossary Entry"), only flat data objects are permitted; it is not possible to write to substrings of strings.
+-   In [write positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwriting_position_glosry.htm "Glossary Entry"), only flat data objects are permitted; it is not possible to write to substrings of strings.
 
--   Access to substrings of strings is also not possible in the following [reading positions](javascript:call_link\('abenreading_position_glosry.htm'\) "Glossary Entry"):
+-   Access to substrings of strings is also not possible in the following [reading positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreading_position_glosry.htm "Glossary Entry"):
 
--   dobj*\[*+off*\]**\[*(len)*\]* specified as a memory area [mem\_area](javascript:call_link\('abapassign_mem_area_static_dobj.htm'\)) of the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)).
+-   dobj*\[*+off*\]**\[*(len)*\]* specified as a memory area [mem\_area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area_static_dobj.htm) of the statement [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm).
 
--   dobj*\[*+off*\]**\[*(len)*\]* specified as an argument of the statement [GET REFERENCE](javascript:call_link\('abapget_reference.htm'\)) or the reference operator [REF](javascript:call_link\('abenconstructor_expression_ref.htm'\)).
+-   dobj*\[*+off*\]**\[*(len)*\]* specified as an argument of the statement [GET REFERENCE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_reference.htm) or the reference operator [REF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_ref.htm).
 
--   dobj*\[*+off*\]**\[*(len)*\]* specified as an actual parameter for input parameters in calls of [methods](javascript:call_link\('abenmethod_calls.htm'\)), [function modules](javascript:call_link\('abapcall_function.htm'\)), and [subroutines](javascript:call_link\('abapperform.htm'\)).
+-   dobj*\[*+off*\]**\[*(len)*\]* specified as an actual parameter for input parameters in calls of [methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_calls.htm), [function modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function.htm), and [subroutines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapperform.htm).
 
 -   Offsets/lengths cannot be specified for literals or text symbols.
 
--   A specified offset/length cannot be appended directly to a table expression [itab\[ ... \]](javascript:call_link\('abentable_expressions.htm'\)), but this is possible after a [chaining](javascript:call_link\('abentable_exp_chaining.htm'\)) whose final place is a suitable structure component after a structure component selector.
+-   A specified offset/length cannot be appended directly to a table expression [itab\[ ... \]](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_expressions.htm), but this is possible after a [chaining](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_exp_chaining.htm) whose final place is a suitable structure component after a structure component selector.
 
--   No offset or length can be specified for an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") with an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"), regardless of the [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry").
+-   No offset or length can be specified for an [enumerated object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_object_glosry.htm "Glossary Entry") with an [enumerated type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), regardless of the [base type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbase_type_glosry.htm "Glossary Entry").
 
--   In the case of dynamically [specified operands](javascript:call_link\('abenoperands_specifying.htm'\)) in parentheses, no lengths can be specified.
+-   In the case of dynamically [specified operands](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_specifying.htm) in parentheses, no lengths can be specified.
 
 -   A dereferenced data reference variable dref->\* must be typed in full.
 
--   For a [writable expression](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry"), offsets/lengths cannot be specified as [memory areas](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)) in the statement ASSIGN or as arguments of the reference operator [REF](javascript:call_link\('abenconstructor_expression_ref.htm'\)) (table expressions only).
+-   For a [writable expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwritable_expression_glosry.htm "Glossary Entry"), offsets/lengths cannot be specified as [memory areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area_writable_exp.htm) in the statement ASSIGN or as arguments of the reference operator [REF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_ref.htm) (table expressions only).
 
-The segment of the data object is used that has the offset specified in off and the length (in characters or bytes) specified in len. A memory area must not be addressed outside the field boundaries, except in the case of the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)). In an offset specified without a length, the entire substring is addressed from off characters; for a length specified without an offset, the first len characters are addressed (different rules apply to the statement [ASSIGN](javascript:call_link\('abapassign.htm'\))).
+The segment of the data object is used that has the offset specified in off and the length (in characters or bytes) specified in len. A memory area must not be addressed outside the field boundaries, except in the case of the statement [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm). In an offset specified without a length, the entire substring is addressed from off characters; for a length specified without an offset, the first len characters are addressed (different rules apply to the statement [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm)).
 
 The operands off and len expect data objects of the type i. These data objects must contain positive integers, with the following exceptions.
 
--   The length 0 can be specified for [strings](javascript:call_link\('abenstring_glosry.htm'\) "Glossary Entry").
+-   The length 0 can be specified for [strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_glosry.htm "Glossary Entry").
 
--   A negative offset (but never length 0) can be specified if an <fs> field symbol is specified in the statement [ASSIGN](javascript:call_link\('abapassign_mem_area_static_dobj.htm'\)) for dobj.
+-   A negative offset (but never length 0) can be specified if an <fs> field symbol is specified in the statement [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_mem_area_static_dobj.htm) for dobj.
 
 -   If off is less than the length of dobj, an asterisk (\*) can be specified for len. The upper limit of dobj then determines the upper limit of the memory area.
 
-If the prerequisites are not met or if the subarea defined by off and len is not completely contained in the data object (except in the case of [ASSIGN](javascript:call_link\('abapassign.htm'\))), a syntax error occurs (if statically identifiable). Otherwise, an exception of the class CX\_SY\_RANGE\_OUT\_OF\_BOUNDS is raised. If off is specified as a numeric literal, this literal cannot be prefixed with a sign.
+If the prerequisites are not met or if the subarea defined by off and len is not completely contained in the data object (except in the case of [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign.htm)), a syntax error occurs (if statically identifiable). Otherwise, an exception of the class CX\_SY\_RANGE\_OUT\_OF\_BOUNDS is raised. If off is specified as a numeric literal, this literal cannot be prefixed with a sign.
 
 The offset and length specified are counted in characters for character-like data objects and in bytes for all other data objects.
 
@@ -520,17 +460,17 @@ If the length of the substring matches the length of the structure in a substrin
 
 Notes
 
--   For reads on substrings of character-like data objects, predefined [substring functions](javascript:call_link\('abensubstring_functions.htm'\)) that allow searches by specifying both substring and offset/lengths are available. The substring functions can also be used to edit arguments where offsets and lengths cannot be specified, such as data objects with an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"). This is because an implicit conversion to string is performed here.
+-   For reads on substrings of character-like data objects, predefined [substring functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubstring_functions.htm) that allow searches by specifying both substring and offset/lengths are available. The substring functions can also be used to edit arguments where offsets and lengths cannot be specified, such as data objects with an [enumerated type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry"). This is because an implicit conversion to string is performed here.
 
 -   It is a good idea to specify offsets with the value 0 explicitly too (that is, dobj+0(len) instead of dobj(len)). This distinguishes a substring access in the source code clearly from other language constructs that also use parentheses, such as dynamic specifications, method calls, or inline declarations.
 
 -   dobj+0(\*), dobj+0, or dobj(\*) are always interpreted as dobj. In this case, dobj can also be a data object where substring access according to the rules above is not possible.
 
--   No substring access cnt(len), sum(len) can be performed on data objects called cnt and sum unless an offset is specified explicitly. The compiler always interprets this as a [number](javascript:call_link\('abapcnt.htm'\)) or [sum](javascript:call_link\('abapsum.htm'\)) of a field len in the control level processing of an [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry").
+-   No substring access cnt(len), sum(len) can be performed on data objects called cnt and sum unless an offset is specified explicitly. The compiler always interprets this as a [number](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcnt.htm) or [sum](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsum.htm) of a field len in the control level processing of an [extract dataset](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenextract_dataset_glosry.htm "Glossary Entry").
 
--   [Obsolete syntax forms](javascript:call_link\('abentokenization_obsolete.htm'\)) can still occur with substring access (apart from with classes).
+-   [Obsolete syntax forms](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentokenization_obsolete.htm) can still occur with substring access (apart from with classes).
 
--   The statement [MOVE PERCENTAGE](javascript:call_link\('abapmove_percentage.htm'\)) indicates an obsolete form of substring access.
+-   The statement [MOVE PERCENTAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_percentage.htm) indicates an obsolete form of substring access.
 
 Example
 
@@ -547,7 +487,7 @@ DATA:
     g TYPE x LENGTH 2,    "Length 2 bytes
   END OF struc.
 
-The [fragment view](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry") splits the structure into five areas, F1 - F5.
+The [fragment view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry") splits the structure into five areas, F1 - F5.
 
 \[ aaa | bbbb | cccccccc | ddd | AAA | eeee | fffffffffffff | gg \]
 \[            F1               |  F2 |  F3  |       F4      | F5 \]
@@ -556,7 +496,7 @@ Offset/length accesses are possible on the character-like initial fragment F1 on
 
 Executable Example
 
-[Substrings](javascript:call_link\('abendata_process_fields_abexa.htm'\))
+[Substrings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_process_fields_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Substrings](javascript:call_link\('abendata_process_fields_abexa.htm'\))
+![Example](exa.gif "Example") [Substrings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_process_fields_abexa.htm)

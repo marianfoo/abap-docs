@@ -4,17 +4,17 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) → 
 
 Operators and Expressions
 
-Normally an operater links two operands with an [expression](javascript:call_link\('abenexpressions.htm'\)) or forms an expression with an operand. During the execution of a statement containing such expressions, the result of the expression is determined (operation) and used in the statement. Operators are represented either by special characters or [reserved indicators](javascript:call_link\('abenabap_words.htm'\)).
+Normally an operater links two operands with an [expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions.htm) or forms an expression with an operand. During the execution of a statement containing such expressions, the result of the expression is determined (operation) and used in the statement. Operators are represented either by special characters or [reserved indicators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_words.htm).
 
--   [Operators](javascript:call_link\('abenoperators.htm'\))
+-   [Operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators.htm)
 
--   [Expressions](javascript:call_link\('abenexpressions.htm'\))
+-   [Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions.htm)
 
 Continue
-[Operators](javascript:call_link\('abenoperators.htm'\))
-[Expressions](javascript:call_link\('abenexpressions.htm'\))
-[Examples of Expression-Oriented Programming](javascript:call_link\('abenexpressions_abexas.htm'\))
+[Operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperators.htm)
+[Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions.htm)
+[Examples of Expression-Oriented Programming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpressions_abexas.htm)

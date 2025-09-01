@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Data Consistency](javascript:call_link\('abentransaction.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Data Consistency](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransaction.htm) → 
 
 Database Locks
 
@@ -16,21 +16,25 @@ Any database permitting simultaneous access to multiple transactions requires da
 
 The following sections are a short discussion of the properties of database locks:
 
--   [Setting Locks](#abendb-lock-1--------locked-objects---@ITOC@@ABENDB_LOCK_2)
+-   [Setting Locks](#@@ITOC@@ABENDB_LOCK_1)
 
--   [Lock Mode](#abendb-lock-3--------lock-duration---@ITOC@@ABENDB_LOCK_4)
+-   [Locked Objects](#@@ITOC@@ABENDB_LOCK_2)
+
+-   [Lock Mode](#@@ITOC@@ABENDB_LOCK_3)
+
+-   [Lock Duration](#@@ITOC@@ABENDB_LOCK_4)
 
 Setting Locks
 
 Database systems do not usually provide commands for explicitly setting locks. Database locks are set implicitly each time data on the database is accessed. In ABAP, databases are accessed in the following ways:
 
--   Using one of the [ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") statements [SELECT](javascript:call_link\('abapselect.htm'\)), [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)), [UPDATE](javascript:call_link\('abapupdate.htm'\)), [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)), or [DELETE](javascript:call_link\('abapdelete_dbtab.htm'\)).
+-   Using one of the [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry") statements [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm), [INSERT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_dbtab.htm), [UPDATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate.htm), [MODIFY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_dbtab.htm), or [DELETE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_dbtab.htm).
 
--   Using a [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statement.
+-   Using a [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry") statement.
 
--   Calling [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry").
+-   Calling [AMDP methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_method_glosry.htm "Glossary Entry").
 
--   Using other statements that access the database, such as [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) and [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) FROM and TO DATABASE.
+-   Using other statements that access the database, such as [IMPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapimport_data_cluster.htm) and [EXPORT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexport_data_cluster.htm) FROM and TO DATABASE.
 
 Locked Objects
 
@@ -60,19 +64,19 @@ In principle, one type of lock is enough to control competing data access. Howev
 -   Exclusive lock
     Exclusive locks do not allow other transactions to set any locks for the objects in question.
 
-Exclusive locks are set by the ABAP SQL statements [SELECT SINGLE FOR UPDATE](javascript:call_link\('abapselect_single.htm'\)), [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)), [UPDATE](javascript:call_link\('abapupdate.htm'\)), [MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\)), and [DELETE](javascript:call_link\('abapdelete_dbtab.htm'\)), the corresponding Native SQL statements or platform-specific statements in [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry"), plus [EXPORT TO DATABASE](javascript:call_link\('abapexport_data_cluster_medium.htm'\)).
+Exclusive locks are set by the ABAP SQL statements [SELECT SINGLE FOR UPDATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_single.htm), [INSERT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_dbtab.htm), [UPDATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapupdate.htm), [MODIFY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_dbtab.htm), and [DELETE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdelete_dbtab.htm), the corresponding Native SQL statements or platform-specific statements in [AMDP methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_method_glosry.htm "Glossary Entry"), plus [EXPORT TO DATABASE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexport_data_cluster_medium.htm).
 
-The current [isolation level](javascript:call_link\('abendb_isolation.htm'\)) specifies whether the SQL command SELECT sets a shared lock.
+The current [isolation level](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendb_isolation.htm) specifies whether the SQL command SELECT sets a shared lock.
 
 -   The following settings are possible in all databases except the SAP HANA database and Oracle databases:
 
--   [Uncommitted reads](javascript:call_link\('abendb_isolation.htm'\)) (the default setting) do not attempt to set shared locks. Data is also read that is not protected by an exclusive lock and not yet committed using a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry").
+-   [Uncommitted reads](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendb_isolation.htm) (the default setting) do not attempt to set shared locks. Data is also read that is not protected by an exclusive lock and not yet committed using a [database commit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_commit_glosry.htm "Glossary Entry").
 
--   [Committed reads](javascript:call_link\('abendb_isolation.htm'\)) (which can be configured using the function module DB\_SET\_ISOLATION\_LEVEL) set a shared lock during the read and then remove it again. This is possible only when exclusive locks do not exist, which can entail wait times.
+-   [Committed reads](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendb_isolation.htm) (which can be configured using the function module DB\_SET\_ISOLATION\_LEVEL) set a shared lock during the read and then remove it again. This is possible only when exclusive locks do not exist, which can entail wait times.
 
--   The SAP HANA database and Oracle databases do not set shared locks, but also only read data committed by a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry").
+-   The SAP HANA database and Oracle databases do not set shared locks, but also only read data committed by a [database commit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_commit_glosry.htm "Glossary Entry").
 
-If a transaction cannot lock an object because it is already locked by another transaction, it waits until the other transaction has released the lock. This can produce a deadlock. A [deadlock](javascript:call_link\('abendeadlock_glosry.htm'\) "Glossary Entry") occurs, for example, when two transactions are waiting for a lock held by the other.
+If a transaction cannot lock an object because it is already locked by another transaction, it waits until the other transaction has released the lock. This can produce a deadlock. A [deadlock](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendeadlock_glosry.htm "Glossary Entry") occurs, for example, when two transactions are waiting for a lock held by the other.
 
 Example
 
@@ -110,12 +114,12 @@ ELSE.
 ENDIF.
 COMMIT WORK.
 
-The table row selected by SELECT SINGLE FOR UPDATE and inserted by INSERT is locked until the end of the [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry"). This prevents the flight from being overbooked and inconsistencies from occurring between tables SFLIGHT and SBOOK in the event of a database rollback after an error.
+The table row selected by SELECT SINGLE FOR UPDATE and inserted by INSERT is locked until the end of the [database LUW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). This prevents the flight from being overbooked and inconsistencies from occurring between tables SFLIGHT and SBOOK in the event of a database rollback after an error.
 
 Lock Duration
 
-Database systems do not usually provide commands for explicitly releasing locks. All database locks are released no later than the next [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") or [rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"). Shared locks usually have an even shorter lifetime. Sometimes, this causes problems for transactions that involve multiple dialog steps:
+Database systems do not usually provide commands for explicitly releasing locks. All database locks are released no later than the next [database commit](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_commit_glosry.htm "Glossary Entry") or [rollback](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"). Shared locks usually have an even shorter lifetime. Sometimes, this causes problems for transactions that involve multiple dialog steps:
 
 After the user has selected a flight in the above example, he or she usually performs further dialog steps to enter additional data for the reservation. Here, the flight reservation is added in a different database LUW than the original selection of the flight. Database locking does not prevent another transaction from booking this flight in the meantime, which can mean that the scheduled booking may have to be canceled after all.
 
-From the point of view of the user, this solution is very inconvenient. To avoid this scenario, a flight reservation system must use the [SAP locking mechanism](javascript:call_link\('abensap_lock_glosry.htm'\) "Glossary Entry") to lock the flight for the entire duration of the transaction.
+From the point of view of the user, this solution is very inconvenient. To avoid this scenario, a flight reservation system must use the [SAP locking mechanism](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock_glosry.htm "Glossary Entry") to lock the flight for the entire duration of the transaction.

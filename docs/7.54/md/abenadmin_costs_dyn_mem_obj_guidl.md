@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrobust_abap_guidl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_prog_technique_guidl.htm) → 
 
 Administration Costs of Dynamic Memory Objects
 
@@ -28,7 +28,7 @@ For internal tables, in addition to the administration data (mostly independent 
 
 -   18 bytes per table row on average, provided that the table is not accessed using the DELETE or SORT statements. If one of these access types occurs, an average of 30 bytes is required per table row.
 
-With each additional secondary table key, the [memory](javascript:call_link\('abensecondary_key_guidl.htm'\) "Guideline") requirement increases by the memory needed for secondary key management (secondary index or secondary hash management).
+With each additional secondary table key, the [memory](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_key_guidl.htm "Guideline") requirement increases by the memory needed for secondary key management (secondary index or secondary hash management).
 
 Rule
 
@@ -53,12 +53,12 @@ In addition, the fill level of complex data objects assumes a significant role. 
 
 Deep data objects with a fill level that is sparse or duplicative can usually be used without problems. But for complex data objects with a low fill level, a disparity between administration data and application data can easily occur. ABAP is inappropriate for large-scale use of data objects with a low fill level.
 
-At a low dataset level, class wrapping can be considered as an alternative to internal tables. This is because the extra costs for objects are comparatively low and objects can be completely deleted from the memory (unlike dynamic data objects). This is an exception to the rule that [dynamic data objects](javascript:call_link\('abenuse_dyn_data_object_guidl.htm'\) "Guideline") should be used wherever possible.
+At a low dataset level, class wrapping can be considered as an alternative to internal tables. This is because the extra costs for objects are comparatively low and objects can be completely deleted from the memory (unlike dynamic data objects). This is an exception to the rule that [dynamic data objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuse_dyn_data_object_guidl.htm "Guideline") should be used wherever possible.
 
 Note
 
-Besides the ratio of administration data to application data, the ratio of the [memory allocated](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\) "Guideline") for application data and the memory actually used is also interesting for internal tables.
+Besides the ratio of administration data to application data, the ratio of the [memory allocated](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninitial_memory_requ_guidl.htm "Guideline") for application data and the memory actually used is also interesting for internal tables.
 
 Example
 
-The executable example [DEMO\_MEMORY\_USAGE](javascript:call_link\('abenmemory_usage_abexa.htm'\)) demonstrates the administration costs of deep components with low data content.
+The executable example [DEMO\_MEMORY\_USAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmemory_usage_abexa.htm) demonstrates the administration costs of deep components with low data content.

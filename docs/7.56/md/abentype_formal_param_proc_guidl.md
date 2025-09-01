@@ -4,13 +4,13 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmodularization_unit_gdl.htm) → 
 
 Type of Formal Parameters in Procedures
 
 Background
 
-The parameter interface of a procedure consists of formal parameters and specifies the [exceptions](javascript:call_link\('abenclass_exception_guidl.htm'\) "Guideline") possible in the procedure. The possible types of formal parameters are:
+The parameter interface of a procedure consists of formal parameters and specifies the [exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_exception_guidl.htm "Guideline") possible in the procedure. The possible types of formal parameters are:
 
 -   Input parameters
     
@@ -29,7 +29,7 @@ The parameter interface of a procedure consists of formal parameters and specifi
     Defined using RETURNING in methods.
     
 
-The actual behavior of a formal parameter, however, is in part determined by the combination of the parameter type and the [pass by type](javascript:call_link\('abentype_transf_formal_para_guidl.htm'\) "Guideline").
+The actual behavior of a formal parameter, however, is in part determined by the combination of the parameter type and the [pass by type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentype_transf_formal_para_guidl.htm "Guideline").
 
 Rule
 
@@ -47,11 +47,11 @@ For the consumer of a procedure, the parameter types provide important informati
 
 -   Input-only parameters should always have the IMPORTING type (or USING for subroutines). Be aware that, when using pass by reference, writes performed on an input parameter defined using USING are possible without a syntax error being produced (as is the case with input parameters of methods or function modules defined using IMPORTING). Yet another reason to not use subroutines.
 -   Output-only parameters should always be EXPORTING or RETURNING.
--   Parameters that are received and changed should always be of the CHANGING type. In particular, in a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) the fact that an EXPORTING parameter (or a USING parameter in the case of subroutines) passed by reference [behaves](javascript:call_link\('abenref_transf_output_param_guidl.htm'\) "Guideline") (from a technical perspective) like a CHANGING parameter should not be exploited.
+-   Parameters that are received and changed should always be of the CHANGING type. In particular, in a procedure ([method](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) the fact that an EXPORTING parameter (or a USING parameter in the case of subroutines) passed by reference [behaves](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenref_transf_output_param_guidl.htm "Guideline") (from a technical perspective) like a CHANGING parameter should not be exploited.
 
 Input parameters or input/output parameters that are not necessarily required for the execution of a procedure should be defined as optional by using OPTIONAL or by specifying a DEFAULT value. Otherwise, calling programs are forced to pass unnecessary parameters and create helper variables especially for this purpose.
 
-A narrow parameter interface in line with a [procedure with an appropriate number of statements](javascript:call_link\('abenproc_volume_guidl.htm'\) "Guideline") only requires a few input parameters and one return value. However, this cannot really be applied consistently in practice and is therefore not set out as a rule here.
+A narrow parameter interface in line with a [procedure with an appropriate number of statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenproc_volume_guidl.htm "Guideline") only requires a few input parameters and one return value. However, this cannot really be applied consistently in practice and is therefore not set out as a rule here.
 
 Hint
 

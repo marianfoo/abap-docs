@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) → 
 
 sql\_exp - sql\_string
 
@@ -14,13 +14,13 @@ Syntax
 
 Effect
 
-String expression in ABAP SQL. The operator && chains the character strings in two adjacent operand to a single character string. [Elementary SQL expressions](javascript:call_link\('abensql_elem.htm'\)) can be specified as the operands sql\_elem1, sql\_elem2, with the following restrictions:
+String expression in ABAP SQL. The operator && chains the character strings in two adjacent operand to a single character string. [Elementary SQL expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_elem.htm) can be specified as the operands sql\_elem1, sql\_elem2, with the following restrictions:
 
--   A literal must be a non-empty [text field literal](javascript:call_link\('abentext_field_literal_glosry.htm'\) "Glossary Entry") of type c.
+-   A literal must be a non-empty [text field literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_field_literal_glosry.htm "Glossary Entry") of type c.
 
 -   Host variables and host expressions must be of ABAP type c.
 
--   Columns of [data sources](javascript:call_link\('abapselect_data_source.htm'\)) must have one of the dictionary types [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)), [CLNT](javascript:call_link\('abenddic_builtin_types.htm'\)), [CUKY](javascript:call_link\('abenddic_builtin_types.htm'\)), [LANG](javascript:call_link\('abenddic_builtin_types.htm'\)), or [UNIT](javascript:call_link\('abenddic_builtin_types.htm'\)).
+-   Columns of [data sources](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_data_source.htm) must have one of the dictionary types [CHAR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), [CLNT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), [CUKY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), [LANG](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm), or [UNIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm).
 
 The result of the chaining must be no longer than 255 characters. Trailing blanks are handled as follows:
 
@@ -28,15 +28,15 @@ The result of the chaining must be no longer than 255 characters. Trailing blank
 
 -   In all other cases, trailing blanks are cut off on the right.
 
-The result has the type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) in the resulting length and can be assigned to the ABAP types c and string in accordance with the associated [assignment rule](javascript:call_link\('abenselect_into_conversion.htm'\)).
+The result has the type [CHAR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) in the resulting length and can be assigned to the ABAP types c and string in accordance with the associated [assignment rule](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_into_conversion.htm).
 
-If the operand of a string expression has the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), the result of the full string expression is the null value.
+If the operand of a string expression has the [null value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennull_value_glosry.htm "Glossary Entry"), the result of the full string expression is the null value.
 
 Notes
 
--   Specifying a string expression always means specifying an [SQL expression](javascript:call_link\('abapsql_expr.htm'\)). String expressions can only be specified for operand positions for which SQL expressions are possible.
+-   Specifying a string expression always means specifying an [SQL expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm). String expressions can only be specified for operand positions for which SQL expressions are possible.
 
--   Strings can also be concatenated using the SQL function [CONCAT](javascript:call_link\('abensql_string_func.htm'\)). The function CONCAT is restricted to concatenations of two operands but has the following benefits when compared to the operator &&:
+-   Strings can also be concatenated using the SQL function [CONCAT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_string_func.htm). The function CONCAT is restricted to concatenations of two operands but has the following benefits when compared to the operator &&:
 
 -   Any SQL expressions are permitted as operands.
 
@@ -46,7 +46,7 @@ Notes
 
 -   It allows results to be longer than 255 characters.
 
--   A string expression cannot be evaluated in the [table buffer](javascript:call_link\('abentable_buffer_glosry.htm'\) "Glossary Entry") and always causes [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry") to be bypassed.
+-   A string expression cannot be evaluated in the [table buffer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_buffer_glosry.htm "Glossary Entry") and always causes [table buffering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_buffering_glosry.htm "Glossary Entry") to be bypassed.
 
 Example
 
@@ -65,7 +65,7 @@ cl\_demo\_output=>display( result ).
 
 Executable Example
 
-[SQL expressions, chainings](javascript:call_link\('abensql_expr_string_abexa.htm'\))
+[SQL expressions, chainings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_string_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [SQL Expressions, Chainings](javascript:call_link\('abensql_expr_string_abexa.htm'\))
+![Example](exa.gif "Example") [SQL Expressions, Chainings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_string_abexa.htm)

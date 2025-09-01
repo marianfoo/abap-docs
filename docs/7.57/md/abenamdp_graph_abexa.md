@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: AMDP - Graph Processing, ABENAMDP_GRAPH_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0
 A%0D%0ASuggestion for improvement:)
 
 AMDP - Graph Processing
 
-This example demonstrates [graph](javascript:call_link\('abengraph_glosry.htm'\) "Glossary Entry") processing using a [graph workspace](javascript:call_link\('abengraph_workspace_glosry.htm'\) "Glossary Entry") and a [graph procedure](javascript:call_link\('abengraph_procedure_glosry.htm'\) "Glossary Entry").
+This example demonstrates [graph](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_glosry.htm "Glossary Entry") processing using a [graph workspace](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_workspace_glosry.htm "Glossary Entry") and a [graph procedure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_procedure_glosry.htm "Glossary Entry").
 
 Source Code   
 
@@ -79,9 +79,9 @@ START-OF-SELECTION.
 
 Description   
 
-This example accesses a [graph procedure](javascript:call_link\('abengraph_procedure_glosry.htm'\) "Glossary Entry") that is declared and implemented in the [AMDP class](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") CL\_DEMO\_AMDP\_GRAPH.
+This example accesses a [graph procedure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_procedure_glosry.htm "Glossary Entry") that is declared and implemented in the [AMDP class](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_class_glosry.htm "Glossary Entry") CL\_DEMO\_AMDP\_GRAPH.
 
-The method GET\_SHORTEST\_PATH is a [graph procedure](javascript:call_link\('abengraph_procedure_glosry.htm'\) "Glossary Entry") that refers to the [graph workspace](javascript:call_link\('abengraph_workspace_glosry.htm'\) "Glossary Entry") CL\_DEMO\_AMDP\_GRAPH=>GRAPH\_WORKSPACE operating on a [graph](javascript:call_link\('abengraph_glosry.htm'\) "Glossary Entry") model which is a flight data model. The graph workspace includes the declaration of the [vertex table](javascript:call_link\('abenvertex_table_glosry.htm'\) "Glossary Entry") and the [edge table](javascript:call_link\('abenedge_table_glosry.htm'\) "Glossary Entry").
+The method GET\_SHORTEST\_PATH is a [graph procedure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_procedure_glosry.htm "Glossary Entry") that refers to the [graph workspace](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_workspace_glosry.htm "Glossary Entry") CL\_DEMO\_AMDP\_GRAPH=>GRAPH\_WORKSPACE operating on a [graph](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraph_glosry.htm "Glossary Entry") model which is a flight data model. The graph workspace includes the declaration of the [vertex table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvertex_table_glosry.htm "Glossary Entry") and the [edge table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenedge_table_glosry.htm "Glossary Entry").
 
 METHOD graph\_workspace BY DATABASE GRAPH WORKSPACE FOR HDB
   LANGUAGE SQL
@@ -94,7 +94,7 @@ METHOD graph\_workspace BY DATABASE GRAPH WORKSPACE FOR HDB
     key    column city
 ENDMETHOD.
 
-The graph procedure is a read-only procedure that is written in [GraphScript](javascript:call_link\('abengraphscript_glosry.htm'\) "Glossary Entry"). Its purpose is to return the shortest flight connection between two cities (representing two [vertices](javascript:call_link\('abenvertex_glosry.htm'\) "Glossary Entry")). The parameter ex\_weight returns the overall flight time, and the parameter ex\_route returns the a table showing some details of the round trip.
+The graph procedure is a read-only procedure that is written in [GraphScript](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengraphscript_glosry.htm "Glossary Entry"). Its purpose is to return the shortest flight connection between two cities (representing two [vertices](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvertex_glosry.htm "Glossary Entry")). The parameter ex\_weight returns the overall flight time, and the parameter ex\_route returns the a table showing some details of the round trip.
 
 METHOD get\_shortest\_path BY DATABASE PROCEDURE FOR HDB
   LANGUAGE GRAPH OPTIONS READ-ONLY

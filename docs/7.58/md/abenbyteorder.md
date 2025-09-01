@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Byte%20Order%2C%20ABENBYTEORDER%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -14,11 +14,11 @@ The byte order determines the order in which bytes of specific data objects are 
 
 Binary Representation of Numbers   
 
-The binary representation of numbers with the ABAP type i, int8, decfloat16, decfloat34, f, and s is hardware-dependent. An important part of this is the byte order, which is predefined by the processor of the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") on the current [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry"), is important: It determines whether the highest-value byte or lowest-value byte is stored first in the memory. In the case of the highest-value byte, the binary representation is referred to as [big endian](javascript:call_link\('abenbig_endian_glosry.htm'\) "Glossary Entry") and in the latter case, the representation is known as [little endian](javascript:call_link\('abenlittle_endian_glosry.htm'\) "Glossary Entry").
+The binary representation of numbers with the ABAP type i, int8, decfloat16, decfloat34, f, and s is hardware-dependent. An important part of this is the byte order, which is predefined by the processor of the [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry") on the current [AS instance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_instance_glosry.htm "Glossary Entry"), is important: It determines whether the highest-value byte or lowest-value byte is stored first in the memory. In the case of the highest-value byte, the binary representation is referred to as [big endian](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbig_endian_glosry.htm "Glossary Entry") and in the latter case, the representation is known as [little endian](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlittle_endian_glosry.htm "Glossary Entry").
 
 Hint
 
-The byte order of the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the current [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry") can be taken from the static attribute ENDIAN in the [system class](javascript:call_link\('abensystem_class_glosry.htm'\) "Glossary Entry") [CL\_ABAP\_CHAR\_UTILITIES](javascript:call_link\('abencl_abap_char_utilities.htm'\)).
+The byte order of the [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the current [AS instance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_instance_glosry.htm "Glossary Entry") can be taken from the static attribute ENDIAN in the [system class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_class_glosry.htm "Glossary Entry") [CL\_ABAP\_CHAR\_UTILITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_char_utilities.htm).
 
 Example
 
@@ -58,18 +58,18 @@ The most common processors that use little endian representations are Intel and 
 
 Binary Representation of Characters   
 
-Characters are represented by unsigned 2-byte integer values in the [Unicode](javascript:call_link\('abenunicode_glosry.htm'\) "Glossary Entry") format [UCS-2](javascript:call_link\('abenucs2_glosry.htm'\) "Glossary Entry"), which is supported by the ABAP programming language. This means that this format depends on the number representation used by the hardware. A distinction is therefore made between UCS-2BE (big endian) and UCS-2LE (little endian).
+Characters are represented by unsigned 2-byte integer values in the [Unicode](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunicode_glosry.htm "Glossary Entry") format [UCS-2](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenucs2_glosry.htm "Glossary Entry"), which is supported by the ABAP programming language. This means that this format depends on the number representation used by the hardware. A distinction is therefore made between UCS-2BE (big endian) and UCS-2LE (little endian).
 
 Container Problems   
 
 Character-like or byte-like data objects of the type c or string, or x or xstring, are often used as anonymous containers for data objects, in particular structures, and stored persistently.
 
-If such a container is stored and imported from an [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry") whose [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") has a different byte order, problems can occur if the container is used for content for which the byte order is critical. This is always the case when numeric content of the type i, int8, decfloat16, decfloat34, f, or s is stored in character-like or byte-like containers. Problems can also arise when byte-like content is stored in character-like containers.
+If such a container is stored and imported from an [AS instance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_instance_glosry.htm "Glossary Entry") whose [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry") has a different byte order, problems can occur if the container is used for content for which the byte order is critical. This is always the case when numeric content of the type i, int8, decfloat16, decfloat34, f, or s is stored in character-like or byte-like containers. Problems can also arise when byte-like content is stored in character-like containers.
 
-Usually, in order to be able to work with the content of an imported container, a [casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry") is performed on the data type whose data is stored in the container. However, because no type information is stored in the container, any necessary conversion of the byte order cannot take place.
+Usually, in order to be able to work with the content of an imported container, a [casting](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencast_casting_glosry.htm "Glossary Entry") is performed on the data type whose data is stored in the container. However, because no type information is stored in the container, any necessary conversion of the byte order cannot take place.
 
 The only way to prevent these problems is to avoid having numeric components in anonymous containers and never store byte-like content in character-like fields.
 
 Hint
 
-The statement [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) ... TO [DATA BUFFER](javascript:call_link\('abapexport_data_cluster_medium.htm'\)) can be used to store ABAP data in byte strings. When the statement [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) is used, the byte order is handled automatically.
+The statement [EXPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_data_cluster.htm) ... TO [DATA BUFFER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_data_cluster_medium.htm) can be used to store ABAP data in byte strings. When the statement [IMPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapimport_data_cluster.htm) is used, the byte order is handled automatically.

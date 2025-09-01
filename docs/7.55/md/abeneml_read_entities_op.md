@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - READ ENTITIES](javascript:call_link\('abenread_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) →  [ABAP EML - READ ENTITIES](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenread_behavior.htm) → 
 
 ABAP EML - READ ENTITIES OPERATIONS
 
@@ -19,7 +19,7 @@ READ ENTITIES
 
 Effect
 
-The dynamic form READ ENTITIES OPERATIONS does not specify an introductory name of the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") (OF root\_name). It allows to merge operations on multiple business objects in a statement.
+The dynamic form READ ENTITIES OPERATIONS does not specify an introductory name of the [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") (OF root\_name). It allows to merge operations on multiple business objects in a statement.
 
 The table type of an operation operation has the type ABP\_BEHV\_RETRIEVALS\_TAB and consists of following fields:
 

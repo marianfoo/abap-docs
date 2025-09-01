@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) →  [CALL TRANSFORMATION, Examples](javascript:call_link\('abencall_transformation_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_trafos.htm) →  [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation.htm) →  [CALL TRANSFORMATION, Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transformation_abexas.htm) → 
 
 Deserializing Empty Elements
 
@@ -115,10 +115,10 @@ START-OF-SELECTION.
 
 Description
 
-An elementary data object, a structure and an internal table are transformed using the [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID to their [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") and [asJSON](javascript:call_link\('abenasjson_glosry.htm'\) "Glossary Entry") representations. In the asXML representation, the values of all elements are removed. In the asJSON representation, only the components from objects and arrays can be removed.
+An elementary data object, a structure and an internal table are transformed using the [identity transformation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID to their [asXML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasxml_glosry.htm "Glossary Entry") and [asJSON](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasjson_glosry.htm "Glossary Entry") representations. In the asXML representation, the values of all elements are removed. In the asJSON representation, only the components from objects and arrays can be removed.
 
-After deserialization to the original ABAP data objects, the elementary data object and the internal table are initial. However, the empty element in the structure is interpreted as a missing component and the structure component retains its previous value. If the transformation option [clear](javascript:call_link\('abapcall_transformation_options.htm'\)) is used with the value "all", all ABAP data objects are initialized.
+After deserialization to the original ABAP data objects, the elementary data object and the internal table are initial. However, the empty element in the structure is interpreted as a missing component and the structure component retains its previous value. If the transformation option [clear](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation_options.htm) is used with the value "all", all ABAP data objects are initialized.
 
 Hint
 
-The modification of XML and JSON data using string processing shown here is only for the sake of clarity in the example. In production programs, the APIs of [class libraries for XML](javascript:call_link\('abenabap_xml_libs.htm'\)) should be used for this.
+The modification of XML and JSON data using string processing shown here is only for the sake of clarity in the example. In production programs, the APIs of [class libraries for XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_libs.htm) should be used for this.

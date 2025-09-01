@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)) →  [ABAP Objects - Classes](javascript:call_link\('abenclasses.htm'\)) →  [ABAP Objects - Components of Classes](javascript:call_link\('abenclass_components.htm'\)) →  [ABAP Objects - Methods of Classes](javascript:call_link\('abenclass_methods.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects.htm) →  [ABAP Objects - Classes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclasses.htm) →  [ABAP Objects - Components of Classes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_components.htm) →  [ABAP Objects - Methods of Classes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_methods.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20The%20C%20Destructor%2C%20ABENC_DESTRUCTOR%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -30,8 +30,8 @@ ENDCLASS.
 
 The destructor therefore allows the calling of a C routine name when an object is deleted. The routine must exist in the ABAP kernel so that no syntax error occurs.
 
-If the optional addition NOT AT END OF MODE is used, the destructor is not executed if the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") is closed regardless. Usually a destructor is also executed at the end of an internal session and should mainly be used to release bound external resources that are not released automatically when the session is closed.
+If the optional addition NOT AT END OF MODE is used, the destructor is not executed if the [internal session](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm "Glossary Entry") is closed regardless. Usually a destructor is also executed at the end of an internal session and should mainly be used to release bound external resources that are not released automatically when the session is closed.
 
 When the C routine is called, attributes attr1, attr2, ... of the class of any complex data type can be passed to this routine. If multiple parameters are to be passed, an appropriate data type must be defined.
 
-During the lifetime of an internal session, the time when the method destructor is executed depends on when [Garbage Collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry") is started. When an internal session is closed, the destructors that are not declared using the addition NOT AT END OF MODE are executed for all objects. In cases of inheritance, the destructors of the subclasses are executed before the destructors of the superclasses.
+During the lifetime of an internal session, the time when the method destructor is executed depends on when [Garbage Collector](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengarbage_collector_glosry.htm "Glossary Entry") is started. When an internal session is closed, the destructors that are not declared using the addition NOT AT END OF MODE are executed for all objects. In cases of inheritance, the destructors of the subclasses are executed before the destructors of the superclasses.

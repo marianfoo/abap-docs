@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) →  [JSON - Examples](javascript:call_link\('abenabap_json_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_json.htm) →  [JSON - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_json_abexas.htm) → 
 
 JSON - asJSON for Additional XML Schema Data Types
 
-This example demonstrates [asJSON](javascript:call_link\('abenabap_asjson_abap_types_table.htm'\)) for additional [XML Schema Data Types](javascript:call_link\('abenabap_asjson_schema.htm'\)).
+This example demonstrates [asJSON](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_asjson_abap_types_table.htm) for additional [XML Schema Data Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_asjson_schema.htm).
 
 Source Code
 
@@ -100,6 +100,6 @@ START-OF-SELECTION.
 
 Description
 
-A call of the [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID, for which a [JSON](javascript:call_link\('abenjson_writer_glosry.htm'\) "Glossary Entry") writer is specified as an XML target, creates the [asJSON](javascript:call_link\('abenasjson_glosry.htm'\) "Glossary Entry") representation of a structure. The structure components are typed with regular ABAP types and typed with special [domains](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)) for XML schema data types. The time stamp type utclong is formatted by default using yyyy-mm-ddThh:mm:ss.fffffffZ. Time stamps in packed numbers, on the other hand, require special domains.
+A call of the [identity transformation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID, for which a [JSON](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenjson_writer_glosry.htm "Glossary Entry") writer is specified as an XML target, creates the [asJSON](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasjson_glosry.htm "Glossary Entry") representation of a structure. The structure components are typed with regular ABAP types and typed with special [domains](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xslt_asxml_schema.htm) for XML schema data types. The time stamp type utclong is formatted by default using yyyy-mm-ddThh:mm:ss.fffffffZ. Time stamps in packed numbers, on the other hand, require special domains.
 
-For comparison, the [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") representation of the JSON data and the [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") representation of the ABAP data is also shown.
+For comparison, the [JSON-XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenjson_xml_glosry.htm "Glossary Entry") representation of the JSON data and the [asXML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasxml_glosry.htm "Glossary Entry") representation of the ABAP data is also shown.

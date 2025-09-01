@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_st.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ST - Structure of ST Programs, ABENST_PROGRAMS_STRUCTURE, 757%0D%0A%0D%0AError:%0D%0A
 %0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -43,13 +43,13 @@ Effect
 An ST program must consist of valid XML data that is structured as shown here.
 
 -   The first line <? ... ?> serves to identify the transformation type (ST). It does not need to be entered because the syntax check adds it automatically.
--   The elements of the namespace http://www.sap.com/transformation-templates are [ST statements](javascript:call_link\('abenst_statements.htm'\)). The namespace prefix tt is used in this documentation as a convention for this namespace. ST statements can be XML elements or attributes. All other components of an XML element are so called literal elements, which means that they have no semantics within the ST language.
+-   The elements of the namespace http://www.sap.com/transformation-templates are [ST statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_statements.htm). The namespace prefix tt is used in this documentation as a convention for this namespace. ST statements can be XML elements or attributes. All other components of an XML element are so called literal elements, which means that they have no semantics within the ST language.
 -   Possible elements of an ST program are:
     
-    -   Type definitions using [tt:type](javascript:call_link\('abenst_tt_type.htm'\)).
-    -   A root element [tt:transform](javascript:call_link\('abenst_tt_transform.htm'\)).
-    -   Various data declarations using [tt:root](javascript:call_link\('abenst_tt_root.htm'\)), [tt:parameter](javascript:call_link\('abenst_tt_parameter.htm'\)), and [tt:variable](javascript:call_link\('abenst_tt_variable.htm'\)).
-    -   A [main template](javascript:call_link\('abenst_tt_template_main.htm'\)) defined with tt:template and any number of [subtemplates](javascript:call_link\('abenst_tt_template_sub.htm'\)). A template is a pattern for the XML data into which ABAP data is serialized or from which data is deserialized.
+    -   Type definitions using [tt:type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_type.htm).
+    -   A root element [tt:transform](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_transform.htm).
+    -   Various data declarations using [tt:root](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_root.htm), [tt:parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_parameter.htm), and [tt:variable](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_variable.htm).
+    -   A [main template](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_template_main.htm) defined with tt:template and any number of [subtemplates](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_template_sub.htm). A template is a pattern for the XML data into which ABAP data is serialized or from which data is deserialized.
     
     These elements can be in any order.
     
@@ -60,11 +60,11 @@ In this documentation and in the example programs, double quotation marks (") ar
 
 Executable Example
 
-[Example of an ST program](javascript:call_link\('abenst_program_abexa.htm'\))
+[Example of an ST program](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_program_abexa.htm)
 
 Continue
-[ST - tt:transform, Root Element](javascript:call_link\('abenst_tt_transform.htm'\))
-[ST - tt:type, tt:front, tt:node, Type Definitions](javascript:call_link\('abenst_tt_type.htm'\))
-[ST - Data Declarations](javascript:call_link\('abenst_data_declarations.htm'\))
-[ST - tt:template, Main Template](javascript:call_link\('abenst_tt_template_main.htm'\))
-![Example](exa.gif "Example") [ST - Example of an ST Program](javascript:call_link\('abenst_program_abexa.htm'\))
+[ST - tt:transform, Root Element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_transform.htm)
+[ST - tt:type, tt:front, tt:node, Type Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_type.htm)
+[ST - Data Declarations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_data_declarations.htm)
+[ST - tt:template, Main Template](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_template_main.htm)
+![Example](exa.gif "Example") [ST - Example of an ST Program](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_program_abexa.htm)

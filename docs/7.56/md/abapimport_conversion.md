@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) →  [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_cluster.htm) →  [IMPORT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_data_cluster.htm) → 
 
 IMPORT, conversion\_options
 
-[Short Reference](javascript:call_link\('abapimport_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_shortref.htm)
 
 Syntax
 
@@ -31,7 +31,7 @@ Additions:
 
 Effect
 
-These additions allow the reading of data stored in [data clusters](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") into non-type-compliant data objects and define associated conversion rules. The following table shows which of the additions may be used during imports from the various buffers. The column headers are abbreviations for the following storage locations: [DATA BUFFER](javascript:call_link\('abapimport_medium.htm'\)) (B), [MEMORY](javascript:call_link\('abapimport_medium.htm'\)) (M), [SHARED MEMORY](javascript:call_link\('abapimport_medium.htm'\)) (SM), [SHARED BUFFER](javascript:call_link\('abapimport_medium.htm'\)) (SB), [DATABASE](javascript:call_link\('abapimport_medium.htm'\)) (DB), and [INTERNAL TABLE](javascript:call_link\('abapimport_medium.htm'\)) (IT).
+These additions allow the reading of data stored in [data clusters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_cluster_glosry.htm "Glossary Entry") into non-type-compliant data objects and define associated conversion rules. The following table shows which of the additions may be used during imports from the various buffers. The column headers are abbreviations for the following storage locations: [DATA BUFFER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_medium.htm) (B), [MEMORY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_medium.htm) (M), [SHARED MEMORY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_medium.htm) (SM), [SHARED BUFFER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_medium.htm) (SB), [DATABASE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_medium.htm) (DB), and [INTERNAL TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_medium.htm) (IT).
 
 Conversion Addition
 
@@ -165,7 +165,7 @@ Addition 1  
 
 Effect
 
-This addition extends the rules from [parameter\_list](javascript:call_link\('abapimport_parameterlist.htm'\)) for different data types of source field and target field dobj in the data clusters:
+This addition extends the rules from [parameter\_list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_parameterlist.htm) for different data types of source field and target field dobj in the data clusters:
 
 -   In addition to data objects of the type c, the target field can be longer than the source field for data objects of the type n, p, or x.
 -   Source fields of the type
@@ -174,7 +174,7 @@ This addition extends the rules from [parameter\_list](javascript:call_link\('ab
     -   i can be read into target fields of the type int8
 -   Source fields of the type c can be exported to target fields of the type string and source fields of the type x can be exported to target fields of the type xstring.
 -   The rules above also apply if the component involved is the last component of a source structure or target structure that is otherwise set up in the same way.
--   In a target structure, substructures can also have more components than the substructures of the source structure if the structure is otherwise set up in the same way. The surplus components are provided with type-dependent [initial values](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry").
+-   In a target structure, substructures can also have more components than the substructures of the source structure if the structure is otherwise set up in the same way. The surplus components are provided with type-dependent [initial values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninitial_value_glosry.htm "Glossary Entry").
 
 Hint
 
@@ -209,7 +209,7 @@ Addition 2  
 
 Effect
 
-This addition expands the rules from [parameter\_list](javascript:call_link\('abapimport_parameterlist.htm'\)) for different data types of source field in the data cluster and target field dobj in the data cluster. This means that, in the case of structures that otherwise have the same type, if the source structure at the highest level has more components than the target structure in the data cluster, the surplus components are cut off. A substructure of the source structure must not have more components than the corresponding substructure in the target structure.
+This addition expands the rules from [parameter\_list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_parameterlist.htm) for different data types of source field in the data cluster and target field dobj in the data cluster. This means that, in the case of structures that otherwise have the same type, if the source structure at the highest level has more components than the target structure in the data cluster, the surplus components are cut off. A substructure of the source structure must not have more components than the corresponding substructure in the target structure.
 
 Example
 
@@ -240,9 +240,9 @@ Addition 3  
 
 Effect
 
-This addition expands the rules from [parameter\_list](javascript:call_link\('abapimport_parameterlist.htm'\)) for different data types of source field in the data cluster and target field dobj in the data cluster. In structures, this produces an insignificantly different setup, with the differences resulting from substructures or from various applied components of other structures with the statement [INCLUDE](javascript:call_link\('abapinclude_type.htm'\)). The components of source and target structure are all considered on one level, regardless of the setup inherited from substructures or from components applied using INCLUDE. Any [alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry") that have resulted from substructures are irrelevant.
+This addition expands the rules from [parameter\_list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_parameterlist.htm) for different data types of source field in the data cluster and target field dobj in the data cluster. In structures, this produces an insignificantly different setup, with the differences resulting from substructures or from various applied components of other structures with the statement [INCLUDE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinclude_type.htm). The components of source and target structure are all considered on one level, regardless of the setup inherited from substructures or from components applied using INCLUDE. Any [alignment gaps](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenalignment_gap_glosry.htm "Glossary Entry") that have resulted from substructures are irrelevant.
 
-The addition IGNORING STRUCTURE BOUNDARIES, however, restricts the rules from [parameter\_list](javascript:call_link\('abapimport_parameterlist.htm'\)) in such a way that once the substructures or inherited components in the target structure are resolved, a last component of type c cannot have a different length and the target structure cannot have any additional components. The addition cannot be used together with the additions ACCEPTING PADDING and ACCEPTING TRUNCATION.
+The addition IGNORING STRUCTURE BOUNDARIES, however, restricts the rules from [parameter\_list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_parameterlist.htm) in such a way that once the substructures or inherited components in the target structure are resolved, a last component of type c cannot have a different length and the target structure cannot have any additional components. The addition cannot be used together with the additions ACCEPTING PADDING and ACCEPTING TRUNCATION.
 
 Example
 
@@ -282,7 +282,7 @@ Addition 4  
 
 Effect
 
-This addition suppresses an exception of the class CX\_SY\_CONVERSION\_CODEPAGE, which is raised when a conversion to another [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") is carried out during the import, and a character does not exist in the target code page.
+This addition suppresses an exception of the class CX\_SY\_CONVERSION\_CODEPAGE, which is raised when a conversion to another [code page](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencodepage_glosry.htm "Glossary Entry") is carried out during the import, and a character does not exist in the target code page.
 
 If the addition REPLACEMENT CHARACTER is specified, each non-convertible character is replaced during the conversion by the character in rc. rc expects a character-like data object containing a single character. If the addition is not specified, the character "#" is used as a replacement character.
 
@@ -316,7 +316,7 @@ This addition assigns the ID of the code page of the exported data to the data o
 
 Hint
 
-The code page can be used to process data objects imported using CHAR-TO-HEX MODE. Conversions between code pages can be performed using system classes described in the section [Classes for Conversion of External Data Formats](javascript:call_link\('abencl_abap_conv.htm'\)).
+The code page can be used to process data objects imported using CHAR-TO-HEX MODE. Conversions between code pages can be performed using system classes described in the section [Classes for Conversion of External Data Formats](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencl_abap_conv.htm).
 
 Example
 
@@ -328,7 +328,7 @@ Addition 7  
 
 Effect
 
-This addition assigns the ID of the byte order of the exported data to the data object ENDIAN, which must have the data type abap\_endian from the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") ABAP. The ID for big endian is "B" and "L" for little endian.
+This addition assigns the ID of the byte order of the exported data to the data object ENDIAN, which must have the data type abap\_endian from the [type pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentype_pool_glosry.htm "Glossary Entry") ABAP. The ID for big endian is "B" and "L" for little endian.
 
 Hint
 

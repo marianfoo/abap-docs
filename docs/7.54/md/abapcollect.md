@@ -4,31 +4,31 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab.htm) →  [Processing Statements for Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_processing_statements.htm) → 
 
 COLLECT
 
-[Quick Reference](javascript:call_link\('abapcollect_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcollect_shortref.htm)
 
 Syntax
 
-COLLECT wa INTO itab *\[*[result](javascript:call_link\('abapcollect_itab_result.htm'\))*\]*.
+COLLECT wa INTO itab *\[*[result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcollect_itab_result.htm)*\]*.
 
 Effect
 
-This statement inserts the content of a work area wa either as a single row in an internal table itab or adds the values of its numeric components to the corresponding values of existing rows with the same [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry"). wa is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry").
+This statement inserts the content of a work area wa either as a single row in an internal table itab or adds the values of its numeric components to the corresponding values of existing rows with the same [primary table key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_table_key_glosry.htm "Glossary Entry"). wa is a [functional operand position](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_position_glosry.htm "Glossary Entry").
 
-[result](javascript:call_link\('abapcollect_itab_result.htm'\)) can be used to set a reference to the inserted or changed row in the form of a field symbol or data reference.
+[result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcollect_itab_result.htm) can be used to set a reference to the inserted or changed row in the form of a field symbol or data reference.
 
-Prerequisite for the use of this statement is that wa is [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") with the row type of itab. All components that are not part of the primary table key must have a [numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry").
+Prerequisite for the use of this statement is that wa is [compatible](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencompatible_glosry.htm "Glossary Entry") with the row type of itab. All components that are not part of the primary table key must have a [numeric data type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_data_type_glosry.htm "Glossary Entry").
 
 The table is scanned for a row with the same primary key as follows:
 
--   In [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") that are filled using COLLECT only, the entry is determined by a temporary hash administrator. The workload is independent of the number of entries in the table. The hash administrator is temporary and is generally invalidated when the table is accessed to be changed. If COLLECT statements are specified after an invalidation, a linear search of all table rows is performed. The workload for this search increases in a linear fashion in relation to the number of entries.
+-   In [standard tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_table_glosry.htm "Glossary Entry") that are filled using COLLECT only, the entry is determined by a temporary hash administrator. The workload is independent of the number of entries in the table. The hash administrator is temporary and is generally invalidated when the table is accessed to be changed. If COLLECT statements are specified after an invalidation, a linear search of all table rows is performed. The workload for this search increases in a linear fashion in relation to the number of entries.
     
--   In [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry"), the entry is determined using a binary search. The workload has a logarithmic relationship to the number of entries in the table.
+-   In [sorted tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensorted_table_glosry.htm "Glossary Entry"), the entry is determined using a binary search. The workload has a logarithmic relationship to the number of entries in the table.
     
--   In [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry"), the entry is determined using the hash administrator of the table and is always independent of the number of table entries.
+-   In [hashed tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhashed_table_glosry.htm "Glossary Entry"), the entry is determined using the hash administrator of the table and is always independent of the number of table entries.
     
 
 If no row is found with an identical primary key, a row is inserted as described below and filled with the content of wa:
@@ -42,29 +42,29 @@ If no row is found with an identical primary key, a row is inserted as described
 
 If the internal table already contains one or more rows with an identical primary key, those values of the components of work area wa that are not part of the key are added to the corresponding components of the uppermost existing row (in the case of index tables, this is the row with the lowest primary table index).
 
-A non-handleable exception is raised if a duplicate entry in a unique [secondary table key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") is produced when the statement COLLECT is executed.
+A non-handleable exception is raised if a duplicate entry in a unique [secondary table key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") is produced when the statement COLLECT is executed.
 
-If the primary table key of a standard table is [empty](javascript:call_link\('abenitab_empty_key.htm'\)), all components of the row type must be numeric and the first row of the internal table is always compressed. If the system can statically detect this, the syntax check displays a warning that can be hidden using a [pragma](javascript:call_link\('abenpragma_glosry.htm'\) "Glossary Entry").
+If the primary table key of a standard table is [empty](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_empty_key.htm), all components of the row type must be numeric and the first row of the internal table is always compressed. If the system can statically detect this, the syntax check displays a warning that can be hidden using a [pragma](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpragma_glosry.htm "Glossary Entry").
 
 System Fields
 
-The statement COLLECT sets sy-tabix for [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") and [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") to the row number of the inserted or existing row in the primary table index, and for [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") to the value 0.
+The statement COLLECT sets sy-tabix for [standard tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_table_glosry.htm "Glossary Entry") and [sorted tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensorted_table_glosry.htm "Glossary Entry") to the row number of the inserted or existing row in the primary table index, and for [hashed tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhashed_table_glosry.htm "Glossary Entry") to the value 0.
 
 Programming Guideline
 
-[Do not fill standard tables with collections of rows](javascript:call_link\('abencollect_guidl.htm'\) "Guideline")
+[Do not fill standard tables with collections of rows](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencollect_guidl.htm "Guideline")
 
 Notes
 
--   COLLECT should only be used if internal tables are to be created that are genuinely unique or compressed. In this case, COLLECT can greatly benefit performance. If uniqueness or compression are not required, or the uniqueness is guaranteed for other reasons, the statement [INSERT](javascript:call_link\('abapinsert_itab.htm'\)) should be used instead.
+-   COLLECT should only be used if internal tables are to be created that are genuinely unique or compressed. In this case, COLLECT can greatly benefit performance. If uniqueness or compression are not required, or the uniqueness is guaranteed for other reasons, the statement [INSERT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_itab.htm) should be used instead.
     
 -   The statement COLLECT is not suitable for standard tables and should no longer be used for them. COLLECT can be used for sorted tables and hashed tables without any problems since these, unlike standard tables, always have a separate, stable key administration that can be utilized by COLLECT. When used for sorted tables, these should have a unique primary key or the table should be filled with COLLECT only. For hashed tables, all prerequisites are fulfilled automatically.
     
--   If a standard table is still filled using COLLECT, it should not be edited using any other statement, with the exception of [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)). If the latter is used with the addition TRANSPORTING, no primary key fields can be changed. This is the only way to ensure that the table entries are always unique and compressed, and that the statement COLLECT runs efficiently. The function module ABL\_TABLE\_HASH\_STATE can be used to check whether a standard table is suitable for editing using COLLECT.
+-   If a standard table is still filled using COLLECT, it should not be edited using any other statement, with the exception of [MODIFY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_itab.htm). If the latter is used with the addition TRANSPORTING, no primary key fields can be changed. This is the only way to ensure that the table entries are always unique and compressed, and that the statement COLLECT runs efficiently. The function module ABL\_TABLE\_HASH\_STATE can be used to check whether a standard table is suitable for editing using COLLECT.
     
 -   The method HAS\_COLLECT\_HASH\_ADMIN of the class CL\_ABAP\_ITAB\_UTILITIES can be used in standard tables to check whether temporary hash management insists in the statement COLLECT.
     
--   Outside of classes, an [obsolete short form](javascript:call_link\('abenitab_short_forms.htm'\)) is possible where wa INTO can be omitted if the internal table has a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") itab with the same name. The statement then uses the header line as the work area implicitly.
+-   Outside of classes, an [obsolete short form](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_short_forms.htm) is possible where wa INTO can be omitted if the internal table has a [header line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenheader_line_glosry.htm "Glossary Entry") itab with the same name. The statement then uses the header line as the work area implicitly.
     
 
 Example
@@ -84,7 +84,7 @@ SELECT carrid, connid, seatsocc
   COLLECT seats INTO seats\_tab.
 ENDSELECT.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -102,9 +102,9 @@ Non-Handleable Exceptions
 -   Cause: COLLECT used for non-numeric fields
     Runtime error: TABLE\_COLLECT\_CHAR\_IN\_FUNCTION
     
--   Cause: [Memory area violated](javascript:call_link\('abentables_parameters_restrictions.htm'\)) when TABLES parameter accessed
+-   Cause: [Memory area violated](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentables_parameters_restrictions.htm) when TABLES parameter accessed
     Runtime error: ITAB\_STRUC\_ACCESS\_VIOLATION
     
 
 Continue
-[COLLECT - result](javascript:call_link\('abapcollect_itab_result.htm'\))
+[COLLECT - result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcollect_itab_result.htm)

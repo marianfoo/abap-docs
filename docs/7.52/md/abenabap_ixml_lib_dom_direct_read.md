@@ -4,19 +4,27 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Class Libraries for XML](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)) →  [iXML Library - Access to DOM](javascript:call_link\('abenabap_ixml_lib_dom_access.htm'\)) →  [iXML Library - DOM Reads](javascript:call_link\('abenabap_ixml_lib_dom_access_read.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml.htm) →  [Class Libraries for XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml_libs.htm) →  [iXML Library](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_ixml_lib.htm) →  [iXML Library - Access to DOM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_ixml_lib_dom_access.htm) →  [iXML Library - DOM Reads](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_ixml_lib_dom_access_read.htm) → 
 
 iXML Library - Direct Reads
 
 Direct reads can be used to create references to the node objects in DOM. These references can then be used to access methods and to get the properties of the nodes. Here, any node can be used as the starting point for access to its subnodes.
 
--   [Access by Root Element](#abenabap-ixml-lib-dom-direct-read-1--------access-to-subnodes---@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_2)
+-   [Access by Root Element](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_1)
 
--   [Access to adjacent subnodes](#abenabap-ixml-lib-dom-direct-read-3--------access-using-node-lists---@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_4)
+-   [Access to Subnodes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_2)
 
--   [Access Using Element Names](#abenabap-ixml-lib-dom-direct-read-5--------access-to-attributes---@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_6)
+-   [Access to adjacent subnodes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_3)
 
--   [Attribute access using lists](#abenabap-ixml-lib-dom-direct-read-7--------short-forms-for-attribute-access---@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_8)
+-   [Access using node lists](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_4)
+
+-   [Access Using Element Names](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_5)
+
+-   [Access to Attributes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_6)
+
+-   [Attribute access using lists](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_7)
+
+-   [Short forms for attribute access](#@@ITOC@@ABENABAP_IXML_LIB_DOM_DIRECT_READ_8)
 
 Access by Root Element
 
@@ -46,7 +54,7 @@ The static type of the reference variable next\_child is also IF\_IXML\_NODE. If
 
 Executable Example
 
-[Iteration Using Subnodes](javascript:call_link\('abenixml_child_nodes_abexa.htm'\))
+[Iteration Using Subnodes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenixml_child_nodes_abexa.htm)
 
 Access using node lists
 
@@ -66,7 +74,7 @@ In sequential access to adjacent nodes, access to the node list is also optimize
 
 Executable Example
 
-[Access using node lists](javascript:call_link\('abenixml_node_list_abexa.htm'\))
+[Access using node lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenixml_node_list_abexa.htm)
 
 Access Using Element Names
 
@@ -88,7 +96,7 @@ The static type of the reference variable node is then IF\_IXML\_NODE and it poi
 
 Executable Example
 
-[Access Using Names](javascript:call_link\('abenixml_node_names_abexa.htm'\))
+[Access Using Names](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenixml_node_names_abexa.htm)
 
 Access to Attributes
 
@@ -132,4 +140,4 @@ Before the short forms with reference variables with the type IF\_IXML\_NODE can
 
 Executable Example
 
-[Access to Attributes](javascript:call_link\('abenixml_attributes_abexa.htm'\))
+[Access to Attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenixml_attributes_abexa.htm)

@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 object reference variable
 
-[Reference variable](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry") for [object references](javascript:call_link\('abenobject_reference_glosry.htm'\) "Glossary Entry"). Object reference variables can be either [class reference variables](javascript:call_link\('abenclass_reference_variabl_glosry.htm'\) "Glossary Entry") or [interface reference variables](javascript:call_link\('abeninterface_ref_variable_glosry.htm'\) "Glossary Entry").
+[Reference variable](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_variable_glosry.htm "Glossary Entry") for [object references](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenobject_reference_glosry.htm "Glossary Entry"). Object reference variables can be either [class reference variables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenclass_reference_variabl_glosry.htm "Glossary Entry") or [interface reference variables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninterface_ref_variable_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abaptypes_references.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_references.htm)

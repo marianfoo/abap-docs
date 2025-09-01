@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_func](javascript:call_link\('abensql_builtin_func.htm'\)) →  [ABAP SQL - Built-In Functions sql\_func](javascript:call_link\('abenabap_sql_builtin_functions.htm'\)) →  [sql\_func - Special Functions](javascript:call_link\('abenabap_sql_special_functions.htm'\)) →  [sql\_func - Date Functions and Time Functions](javascript:call_link\('abenabap_sql_date_time_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_func](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_builtin_func.htm) →  [ABAP SQL - Built-In Functions sql\_func](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_builtin_functions.htm) →  [sql\_func - Special Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_special_functions.htm) →  [sql\_func - Date Functions and Time Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_date_time_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20sql_func%20-%20Time%20Functions%2C%20ABENSQL_TIME_FUNC%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,13 +12,20 @@ sql\_func - Time Functions
 
 Syntax Forms
 
-[Generic Time Functions](abensql_time_func.htm#abensql-time-func-1---1-------is--valid--date---time---utclong-----------extract--hour--time---utclong-----------extract--minute--time---utclong-----------extract--second--time---utclong---------functions-for-tims--abensql-time-func-htm-@ITOC@@ABENSQL_TIME_FUNC_2)
+[Generic Time Functions](abensql_time_func.htm#@@ITOC@@ABENSQL_TIME_FUNC_1)
+
+1\. ... IS\_VALID( date*|*time*|*utclong )
+    *|* EXTRACT\_HOUR( time*|*utclong )
+    *|* EXTRACT\_MINUTE( time*|*utclong )
+    *|* EXTRACT\_SECOND( time*|*utclong ) ...
+
+[Functions for TIMS](abensql_time_func.htm#@@ITOC@@ABENSQL_TIME_FUNC_2)
 
 2\. ... TIMS\_IS\_VALID( time ) ...
 
 Effect
 
-These SQL functions perform operations on times with arguments of the built-in data types [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)), [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)), and [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)). The first set covers generic functions and the second set covers one function depending on the data type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)). The arguments of the functions are specified in parentheses. A blank must be placed after the opening parenthesis and in front of the closing parenthesis. [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) of matching data types can be specified as actual parameters. If an actual parameter contains the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), every function except IS\_VALID and TIMS\_IS\_VALID returns a null value. IS\_VALID and TIMS\_IS\_VALID return the value 0.
+These SQL functions perform operations on times with arguments of the built-in data types [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), and [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). The first set covers generic functions and the second set covers one function depending on the data type [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). The arguments of the functions are specified in parentheses. A blank must be placed after the opening parenthesis and in front of the closing parenthesis. [SQL expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsql_expr.htm) of matching data types can be specified as actual parameters. If an actual parameter contains the [null value](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennull_value_glosry.htm "Glossary Entry"), every function except IS\_VALID and TIMS\_IS\_VALID returns a null value. IS\_VALID and TIMS\_IS\_VALID return the value 0.
 
 Generic Time Functions   
 
@@ -38,11 +45,11 @@ Variants:
 
 Effect
 
-These SQL functions perform operations with arguments of the built-in data types [DATN](javascript:call_link\('abenddic_builtin_types.htm'\)), [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)), [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)), [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)), and [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)).
+These SQL functions perform operations with arguments of the built-in data types [DATN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), and [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
 
 Hint
 
-All generic functions enforce the [strict mode from ABAP release 7.56](javascript:call_link\('abenabap_sql_strictmode_756.htm'\)).
+All generic functions enforce the [strict mode from ABAP release 7.56](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_strictmode_756.htm).
 
 Variant 1   
 
@@ -52,15 +59,15 @@ Effect
 
 The generic function IS\_VALID determines whether
 
--   the specified date date contains a valid date in the format YYYYMMDD. The actual parameter must have the built-in data type [DATN](javascript:call_link\('abenddic_builtin_types.htm'\)) or [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)).
--   the specified time time contains a valid time in the format HHMMSS. The actual parameter must have the built-in data type [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)) or [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)).
--   the specified time stamp utclong contains a valid time stamp in a format like 0001-01-01T00:00:00.0000000. The actual parameter must have the built-in data type [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)).
+-   the specified date date contains a valid date in the format YYYYMMDD. The actual parameter must have the built-in data type [DATN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) or [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
+-   the specified time time contains a valid time in the format HHMMSS. The actual parameter must have the built-in data type [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) or [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
+-   the specified time stamp utclong contains a valid time stamp in a format like 0001-01-01T00:00:00.0000000. The actual parameter must have the built-in data type [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
 
-The result has the data type [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)). A valid time and the initial value (for the data types TIMN and TIMS) produce the value 1 and all other input values (including the null value) produce the value 0.
+The result has the data type [INT4](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). A valid time and the initial value (for the data types TIMN and TIMS) produce the value 1 and all other input values (including the null value) produce the value 0.
 
 Hint
 
-The generic function IS\_VALID is also available for [date functions](javascript:call_link\('abensql_date_func.htm'\)) and [time stamp functions](javascript:call_link\('abensql_timestamp_func.htm'\)).
+The generic function IS\_VALID is also available for [date functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_date_func.htm) and [time stamp functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_timestamp_func.htm).
 
 Example
 
@@ -84,14 +91,14 @@ Variant 2  
 
 Effect
 
-The generic function EXTRACT\_HOUR extracts the hour of a time or a time stamp. The actual parameter must have the built-in data type [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)), [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)), or [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The generic function EXTRACT\_HOUR extracts the hour of a time or a time stamp. The actual parameter must have the built-in data type [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), or [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
 
-The result of the function EXTRACT\_HOUR has the data type [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)). The function returns the value 0 for initial input values. If no valid time is passed as a TIMS value, the function EXTRACT\_HOUR raises a catchable exception of class CX\_SY\_OPEN\_SQL\_DB.
+The result of the function EXTRACT\_HOUR has the data type [INT4](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). The function returns the value 0 for initial input values. If no valid time is passed as a TIMS value, the function EXTRACT\_HOUR raises a catchable exception of class CX\_SY\_OPEN\_SQL\_DB.
 
 Hints
 
--   If one of the built-in data types [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)) or [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)) is used, the function EXTRACT\_HOUR calls the [HANA function EXTRACT](https://help.sap.com/docs/SAP_HANA_PLATFORM/4fe29514fd584807ac9f2a04f6754767/20e1a58475191014a343f6fe96c9846c).
--   If the built-in data type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)) is used, the function EXTRACT\_HOUR internally uses the ABAP SQL [SUBSTRING](javascript:call_link\('abensql_string_func.htm'\)) function and a [CAST](javascript:call_link\('abensql_cast.htm'\)) expression afterwards. The corresponding rules apply.
+-   If one of the built-in data types [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) or [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) is used, the function EXTRACT\_HOUR calls the [HANA function EXTRACT](https://help.sap.com/docs/SAP_HANA_PLATFORM/4fe29514fd584807ac9f2a04f6754767/20e1a58475191014a343f6fe96c9846c).
+-   If the built-in data type [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) is used, the function EXTRACT\_HOUR internally uses the ABAP SQL [SUBSTRING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_string_func.htm) function and a [CAST](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_cast.htm) expression afterwards. The corresponding rules apply.
 
 Variant 3   
 
@@ -99,14 +106,14 @@ Variant 3  
 
 Effect
 
-The generic function EXTRACT\_MINUTE extracts the minute of a time or a time stamp. The actual parameter must have the built-in data type [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)), [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)), or [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The generic function EXTRACT\_MINUTE extracts the minute of a time or a time stamp. The actual parameter must have the built-in data type [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), or [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
 
-The result of the function EXTRACT\_MINUTE has the data type [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)). The function returns the value 0 for initial input values. If no valid time is passed as a TIMS value, the function EXTRACT\_MINUTE raises a catchable exception of class CX\_SY\_OPEN\_SQL\_DB.
+The result of the function EXTRACT\_MINUTE has the data type [INT4](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). The function returns the value 0 for initial input values. If no valid time is passed as a TIMS value, the function EXTRACT\_MINUTE raises a catchable exception of class CX\_SY\_OPEN\_SQL\_DB.
 
 Hints
 
--   If one of the built-in data types [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)) or [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)) is used, the function EXTRACT\_MINUTE calls the [HANA function EXTRACT](https://help.sap.com/docs/SAP_HANA_PLATFORM/4fe29514fd584807ac9f2a04f6754767/20e1a58475191014a343f6fe96c9846c).
--   If the built-in data type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)) is used, the function EXTRACT\_MINUTE internally uses the ABAP SQL [SUBSTRING](javascript:call_link\('abensql_string_func.htm'\)) function and a [CAST](javascript:call_link\('abensql_cast.htm'\)) expression afterwards. The corresponding rules apply.
+-   If one of the built-in data types [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) or [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) is used, the function EXTRACT\_MINUTE calls the [HANA function EXTRACT](https://help.sap.com/docs/SAP_HANA_PLATFORM/4fe29514fd584807ac9f2a04f6754767/20e1a58475191014a343f6fe96c9846c).
+-   If the built-in data type [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) is used, the function EXTRACT\_MINUTE internally uses the ABAP SQL [SUBSTRING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_string_func.htm) function and a [CAST](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_cast.htm) expression afterwards. The corresponding rules apply.
 
 Variant 4   
 
@@ -114,14 +121,14 @@ Variant 4  
 
 Effect
 
-The generic function EXTRACT\_SECOND extracts the second of a time or a time stamp. The actual parameter must have the built-in data type [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)), [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)), or [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The generic function EXTRACT\_SECOND extracts the second of a time or a time stamp. The actual parameter must have the built-in data type [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), or [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
 
-The result of the function EXTRACT\_SECOND has the data type [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)). The function returns the value 0 for initial input values. If no valid time is passed as a TIMS value, the function EXTRACT\_SECOND raises a catchable exception of class CX\_SY\_OPEN\_SQL\_DB.
+The result of the function EXTRACT\_SECOND has the data type [INT4](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). The function returns the value 0 for initial input values. If no valid time is passed as a TIMS value, the function EXTRACT\_SECOND raises a catchable exception of class CX\_SY\_OPEN\_SQL\_DB.
 
 Hints
 
--   If one of the built-in data types [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)) or [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)) is used, the function EXTRACT\_SECOND calls the [HANA function EXTRACT](https://help.sap.com/docs/SAP_HANA_PLATFORM/4fe29514fd584807ac9f2a04f6754767/20e1a58475191014a343f6fe96c9846c).
--   If the built-in data type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)) is used, the function EXTRACT\_SECOND internally uses the ABAP SQL [SUBSTRING](javascript:call_link\('abensql_string_func.htm'\)) function and a [CAST](javascript:call_link\('abensql_cast.htm'\)) expression afterwards. The corresponding rules apply.
+-   If one of the built-in data types [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) or [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) is used, the function EXTRACT\_SECOND calls the [HANA function EXTRACT](https://help.sap.com/docs/SAP_HANA_PLATFORM/4fe29514fd584807ac9f2a04f6754767/20e1a58475191014a343f6fe96c9846c).
+-   If the built-in data type [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) is used, the function EXTRACT\_SECOND internally uses the ABAP SQL [SUBSTRING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_string_func.htm) function and a [CAST](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_cast.htm) expression afterwards. The corresponding rules apply.
 
 Example
 
@@ -151,7 +158,7 @@ Variants:
 
 Effect
 
-This SQL function performs operations with arguments of the built-in data type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)).
+This SQL function performs operations with arguments of the built-in data type [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
 
 Variant 1   
 
@@ -159,11 +166,11 @@ Variant 1  
 
 Effect
 
-The function TIMS\_IS\_VALID determines whether the specification time contains a valid time in the format HHMMSS. The actual parameter must have the built-in data type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)). The result has the data type [INT4](javascript:call_link\('abenddic_builtin_types.htm'\)). A valid time and the initial value produce the value 1 and all other input values (including the null value) produce the value 0.
+The function TIMS\_IS\_VALID determines whether the specification time contains a valid time in the format HHMMSS. The actual parameter must have the built-in data type [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). The result has the data type [INT4](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). A valid time and the initial value produce the value 1 and all other input values (including the null value) produce the value 0.
 
 Hint
 
-The use of this function leads to the [strict mode from ABAP release 7.53](javascript:call_link\('abenabap_sql_strictmode_753.htm'\)).
+The use of this function leads to the [strict mode from ABAP release 7.53](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_strictmode_753.htm).
 
 Example
 

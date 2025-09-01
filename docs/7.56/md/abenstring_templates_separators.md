@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Expressions (string\_exp)](javascript:call_link\('abapcompute_string.htm'\)) →  [string\_exp - String Templates (string\_tmpl)](javascript:call_link\('abenstring_templates.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_processing_expr_func.htm) →  [String Expressions (string\_exp)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_string.htm) →  [string\_exp - String Templates (string\_tmpl)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_templates.htm) → 
 
 string\_tmpl - control\_characters
 
@@ -45,8 +45,8 @@ In place of a control character, its hexadecimal value according to the current 
 Hints
 
 -   If a control character is to be included as literal text, its special meaning can be removed by prefixing it with the escape character \\.
--   The control characters in string templates replace the use of some attributes of the class [CL\_ABAP\_CHAR\_UTILITIES](javascript:call_link\('abencl_abap_char_utilities.htm'\)).
--   The control characters have no effect on classical dynpros and [lists](javascript:call_link\('abenabap_dynpro_list.htm'\)). They appear in a list output as the # character. However, you can see the effect in the textedit control, for example.
+-   The control characters in string templates replace the use of some attributes of the class [CL\_ABAP\_CHAR\_UTILITIES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencl_abap_char_utilities.htm).
+-   The control characters have no effect on classical dynpros and [lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm). They appear in a list output as the # character. However, you can see the effect in the textedit control, for example.
 
 Example
 
@@ -63,4 +63,4 @@ cl\_demo\_text=>display\_string( |1\\n2\\n3| ).
 
 Executable Example
 
-[String Templates, Control Characters](javascript:call_link\('abenstring_template_ctrlchar_abexa.htm'\))
+[String Templates, Control Characters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_template_ctrlchar_abexa.htm)

@@ -3,32 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenobj_oriented_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobj_oriented_guidl.htm)
-- [abenencapsulation_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenencapsulation_guidl.htm)
-- [abenmodularization_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodularization_guidl.htm)
-- [abenstatic_class_singleton_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_class_singleton_guidl.htm)
-- [abeninheritance_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance_guidl.htm)
-- [abenclass_ref_interf_ref_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_ref_interf_ref_guidl.htm)
-- [abenlocal_type_glob_class_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_type_glob_class_guidl.htm)
-- [abeninstance_constructor_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_constructor_guidl.htm)
-
-**Bundle Contains**: 8 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.378Z
-
----
-
 ### abenobj_oriented_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenobj_oriented_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobj_oriented_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -36,7 +11,7 @@ Included pages: 8
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarchitecture_guidl.htm) → 
 
 Object-Oriented Programming
 
@@ -50,38 +25,31 @@ Developers who have experience with object-oriented development in other program
 
 Of course, you can transfer algorithms and a general class structure to ABAP, from an application written in another object-oriented programming language. However, the greater the depth, the greater the differences. Therefore, you need to make appropriate modifications, in order to transfer a detailed design in a different language to ABAP Objects.
 
--   [Encapsulation](javascript:call_link\('abenencapsulation_guidl.htm'\) "Guideline")
+-   [Encapsulation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenencapsulation_guidl.htm "Guideline")
 
--   [Modularization](javascript:call_link\('abenmodularization_guidl.htm'\) "Guideline")
+-   [Modularization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodularization_guidl.htm "Guideline")
 
--   [Static Classes and Singletons](javascript:call_link\('abenstatic_class_singleton_guidl.htm'\) "Guideline")
+-   [Static Classes and Singletons](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_class_singleton_guidl.htm "Guideline")
 
--   [Inheritance](javascript:call_link\('abeninheritance_guidl.htm'\) "Guideline")
+-   [Inheritance](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance_guidl.htm "Guideline")
 
--   [Class References and Interface References](javascript:call_link\('abenclass_ref_interf_ref_guidl.htm'\) "Guideline")
+-   [Class References and Interface References](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_ref_interf_ref_guidl.htm "Guideline")
 
--   [Local Types for Global Classes](javascript:call_link\('abenlocal_type_glob_class_guidl.htm'\) "Guideline")
+-   [Local Types for Global Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_type_glob_class_guidl.htm "Guideline")
 
--   [Instance Constructor](javascript:call_link\('abeninstance_constructor_guidl.htm'\) "Guideline")
+-   [Instance Constructor](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_constructor_guidl.htm "Guideline")
 
 Continue
-[Encapsulation](javascript:call_link\('abenencapsulation_guidl.htm'\))
-[Modularization](javascript:call_link\('abenmodularization_guidl.htm'\))
-[Static Classes and Singletons](javascript:call_link\('abenstatic_class_singleton_guidl.htm'\))
-[Inheritance](javascript:call_link\('abeninheritance_guidl.htm'\))
-[Class References and Interface References](javascript:call_link\('abenclass_ref_interf_ref_guidl.htm'\))
-[Local Types for Global Classes](javascript:call_link\('abenlocal_type_glob_class_guidl.htm'\))
-[Instance Constructor](javascript:call_link\('abeninstance_constructor_guidl.htm'\))
+[Encapsulation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenencapsulation_guidl.htm)
+[Modularization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodularization_guidl.htm)
+[Static Classes and Singletons](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_class_singleton_guidl.htm)
+[Inheritance](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance_guidl.htm)
+[Class References and Interface References](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_ref_interf_ref_guidl.htm)
+[Local Types for Global Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_type_glob_class_guidl.htm)
+[Instance Constructor](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_constructor_guidl.htm)
 
-
-
-**📖 Source**: [abenobj_oriented_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobj_oriented_guidl.htm)
 
 ### abenencapsulation_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenencapsulation_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenencapsulation_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -89,7 +57,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Object-Oriented Programming](javascript:call_link\('abenobj_oriented_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarchitecture_guidl.htm) →  [Object-Oriented Programming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobj_oriented_guidl.htm) → 
 
 Encapsulation
 
@@ -117,19 +85,12 @@ This simple rule provides practical access to object-oriented programming that r
 
 -   Consider the private instantiation of classes.
 
--   Mark classes that are not intended as superclasses as [FINAL](javascript:call_link\('abeninheritance_guidl.htm'\) "Guideline").
+-   Mark classes that are not intended as superclasses as [FINAL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance_guidl.htm "Guideline").
 
 Conversely, within an encapsulated unit, that is, within a class, you should avoid accessing more global data directly. Within methods, you should generally modify attributes of the class only. Write access to global data outside the class is not recommended. Accessing data in this way should only be done using specially marked methods, if at all. The use of methods of a class should not evoke any side effects outside the class itself.
 
 
-
-**📖 Source**: [abenencapsulation_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenencapsulation_guidl.htm)
-
 ### abenmodularization_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenmodularization_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodularization_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -137,7 +98,7 @@ Conversely, within an encapsulated unit, that is, within a class, you should avo
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Object-Oriented Programming](javascript:call_link\('abenobj_oriented_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarchitecture_guidl.htm) →  [Object-Oriented Programming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobj_oriented_guidl.htm) → 
 
 Modularization
 
@@ -153,7 +114,7 @@ The implementation of object-oriented programming languages such as ABAP Objects
 
 With regard to ABAP, you must note that ABAP is still a programming language of the fourth generation (4GL) that has been developed especially for application programming in the SAP environment, that is, for mass data processing in business applications. Therefore, ABAP includes significantly more language elements than an elementary programming language in which the more complex functions are usually stored in libraries. This ranges from simple statements for string processing, which are provided as methods of string classes in other object-oriented languages such as Java, to the processing of complex mass data objects, such as internal tables, to very complex statements for operating interfaces such as Open SQL or for calling data transformations (XML), for which other languages have entire class hierarchies.
 
-As already [mentioned](javascript:call_link\('abenobj_oriented_guidl.htm'\) "Guideline"), the performance of the ABAP language is therefore optimized mainly for the execution of its complex statements for mass data processing and less for the individual method call.
+As already [mentioned](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobj_oriented_guidl.htm "Guideline"), the performance of the ABAP language is therefore optimized mainly for the execution of its complex statements for mass data processing and less for the individual method call.
 
 Rule
 
@@ -163,17 +124,17 @@ Modularize your program in classes, but not to the extent that there is an indiv
 
 Details
 
-You should only use [methods of ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") for the implementation of functions; there are very good reasons for this. But ABAP remains ABAP, and the good reasons for using a well-structured program are not invalidated by the implementation of ABAP Objects. Indeed, the ABAP language elements proven and tested in so many application cases are still valid today, are undergoing continuously development, and should be used in their present form in ABAP Objects as well.
+You should only use [methods of ABAP Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") for the implementation of functions; there are very good reasons for this. But ABAP remains ABAP, and the good reasons for using a well-structured program are not invalidated by the implementation of ABAP Objects. Indeed, the ABAP language elements proven and tested in so many application cases are still valid today, are undergoing continuously development, and should be used in their present form in ABAP Objects as well.
 
 A well-structured classic ABAP program, for instance a function group that fulfills a specific task and is modularized using subroutines, should therefore be transferable to a class without any major changes to the implementation, while being provided with all the additional benefits of ABAP Objects.
 
 However, the modularization at the level of a few single statements is and will remain untypical for ABAP. On the one hand this is because of performance reasons, because the costs for the method call must remain low in comparison to the costs for executing the implementation. For example, instead of providing the get\_attribute methods typical for other object-oriented languages that only set their return value to the value of an attribute attribute, you should use public READ-ONLY attributes in ABAP. (If reads on an attribute are associated with further actions, for example, authorization checks, get\_attribute methods are appropriate of course.) On the other hand, virtually all non-fundamental statements of ABAP (all language elements that do not have any equivalent in an elementary language like Java) already play the same role that the methods of system classes assume in other programming languages. The use of a statement like this corresponds to a method call, and another encapsulation is usually not necessary.
 
-Also, for legibility and maintainability reasons, a method with a [reasonable size](javascript:call_link\('abenproc_volume_guidl.htm'\) "Guideline") is preferable to splitting into atomic units, that is, into methods with only one or two statements.
+Also, for legibility and maintainability reasons, a method with a [reasonable size](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenproc_volume_guidl.htm "Guideline") is preferable to splitting into atomic units, that is, into methods with only one or two statements.
 
 Exception
 
-Procedures that encapsulate nothing but the call of another procedure are an exception. A single procedure call represents the implementation of an entire procedure. This applies in particular to function modules and subroutines, which can only be created in [exceptional cases](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") anyway. They should include exactly one [method call](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline"), which delegates the implementation to ABAP Objects. In this case, the improved security through the stricter checks in ABAP Objects outweighs the disadvantages of very short procedures.
+Procedures that encapsulate nothing but the call of another procedure are an exception. A single procedure call represents the implementation of an entire procedure. This applies in particular to function modules and subroutines, which can only be created in [exceptional cases](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") anyway. They should include exactly one [method call](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm "Guideline"), which delegates the implementation to ABAP Objects. In this case, the improved security through the stricter checks in ABAP Objects outweighs the disadvantages of very short procedures.
 
 Bad Example
 
@@ -244,14 +205,7 @@ There is a corresponding predefined function for almost every string processing 
 string = shift\_left( val = string places = ... ).
 
 
-
-**📖 Source**: [abenmodularization_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodularization_guidl.htm)
-
 ### abenstatic_class_singleton_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenstatic_class_singleton_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_class_singleton_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -259,7 +213,7 @@ string = shift\_left( val = string places = ... ).
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Object-Oriented Programming](javascript:call_link\('abenobj_oriented_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarchitecture_guidl.htm) →  [Object-Oriented Programming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobj_oriented_guidl.htm) → 
 
 Static Classes and Singletons
 
@@ -271,7 +225,7 @@ The classes of ABAP Objects support two types of components:
 
 -   Static components (static attributes, static events and static methods). The static components of a class can be addressed using an object and also using the name of the class. This means they can be used independently of a class instance.
 
-A class that only contains static components and no instance components is referred to as a static class. A global static class is loaded once with its class pool into the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"). Like every ABAP program, it cannot be explicitly deleted from the session. The static methods (declared using CLASS-METHODS) of a class cannot be redefined in subclasses.
+A class that only contains static components and no instance components is referred to as a static class. A global static class is loaded once with its class pool into the current [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry"). Like every ABAP program, it cannot be explicitly deleted from the session. The static methods (declared using CLASS-METHODS) of a class cannot be redefined in subclasses.
 
 A singleton is a design pattern where the class has the task of creating objects. The class ensures that only one object exists for every internal session that is made available to consumers.
 
@@ -283,11 +237,11 @@ Use objects instead of static classes. If you do not want multiple instantiation
 
 Details
 
-If no real object-oriented design exists that would use the multiple instantiation of classes, for example, this often produces classes that only contain static methods (declared using CLASS-METHODS), when [ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") are used. These methods are then used as simple procedures. However, even if multiple instantiation is not explicitly required, object creation is preferable to the use of static classes, for the reasons listed below. You can use the singleton design pattern to prevent multiple instantiation:
+If no real object-oriented design exists that would use the multiple instantiation of classes, for example, this often produces classes that only contain static methods (declared using CLASS-METHODS), when [ABAP Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") are used. These methods are then used as simple procedures. However, even if multiple instantiation is not explicitly required, object creation is preferable to the use of static classes, for the reasons listed below. You can use the singleton design pattern to prevent multiple instantiation:
 
 -   Explicit object creation is essential for object-oriented programming. Static classes, however, are implicitly loaded the first time they are used, and the corresponding static constructor — if available — is executed. They are persisted in the memory for as long as the current internal session exists. Therefore, if you use static classes, you cannot actually control the time of initialization. You have no way of releasing the memory occupied by the attributes, as soon as the class function is no longer required.
 
--   Another important argument against the use of static classes are the limited functions of the static constructor, in comparison to an instance constructor. A static constructor has no parameter interface and cannot propagate any [exceptions](javascript:call_link\('abenerror_handling_guidl.htm'\) "Guideline"). This is why you cannot always respond appropriately to an error situation in the static constructor, which can cause a runtime error in extreme cases. However, the exceptions of an instance constructor can be handled.
+-   Another important argument against the use of static classes are the limited functions of the static constructor, in comparison to an instance constructor. A static constructor has no parameter interface and cannot propagate any [exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenerror_handling_guidl.htm "Guideline"). This is why you cannot always respond appropriately to an error situation in the static constructor, which can cause a runtime error in extreme cases. However, the exceptions of an instance constructor can be handled.
 
 -   By using static classes, you restrict your polymorphism options, which are actually provided by object-oriented programming. On the one hand, you cannot redefine static methods. On the other hand, access is not possible using reference variables (the other “pillar” of polymorphism). However, it is worth keeping the option of polymorphism open:
 
@@ -357,19 +311,12 @@ ENDCLASS.
      ...
   ENDTRY.
 
-In the above example, the get\_instance method is used to return the object reference to the object created with the first call. Therefore, this example would appear to violate the rule [modularize rather than atomize](javascript:call_link\('abenmodularization_guidl.htm'\) "Guideline"). This rule states that no method should be created in ABAP that only returns the value of an attribute. However, this objection is not justified here, because the main task of the get\_instance method is to enable the object consumer to control the time of object creation. This is necessary to enable the consumer to respond (in the usual way) to any exceptional situation during the object creation process.
+In the above example, the get\_instance method is used to return the object reference to the object created with the first call. Therefore, this example would appear to violate the rule [modularize rather than atomize](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodularization_guidl.htm "Guideline"). This rule states that no method should be created in ABAP that only returns the value of an attribute. However, this objection is not justified here, because the main task of the get\_instance method is to enable the object consumer to control the time of object creation. This is necessary to enable the consumer to respond (in the usual way) to any exceptional situation during the object creation process.
 
 In special cases, where object creation is performed without parameters and is always successful, you can omit the get\_instance method and publish the object reference using a READ-ONLY attribute. In this case, the object is created within the static constructor. Therefore, this approach is still afflicted with some of the problems of static classes described in other sections.
 
 
-
-**📖 Source**: [abenstatic_class_singleton_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_class_singleton_guidl.htm)
-
 ### abeninheritance_guidl.htm
-
-> **📖 Official SAP Documentation**: [abeninheritance_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -377,7 +324,7 @@ In special cases, where object creation is performed without parameters and is a
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Object-Oriented Programming](javascript:call_link\('abenobj_oriented_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarchitecture_guidl.htm) →  [Object-Oriented Programming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobj_oriented_guidl.htm) → 
 
 Inheritance
 
@@ -408,14 +355,7 @@ Note
 If your main aim is to exploit the possibilities of polymorphy, then interfaces are often a preferable solution to inheritance. If all you want to do is use interfaces, then method interfaces should be used instead of abstract classes. These can be used to create composite interfaces. In ABAP, on the other hand, a composite interface is impossible due to the nature of simple inheritance using classes.
 
 
-
-**📖 Source**: [abeninheritance_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance_guidl.htm)
-
 ### abenclass_ref_interf_ref_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenclass_ref_interf_ref_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_ref_interf_ref_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -423,7 +363,7 @@ If your main aim is to exploit the possibilities of polymorphy, then interfaces 
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Object-Oriented Programming](javascript:call_link\('abenobj_oriented_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarchitecture_guidl.htm) →  [Object-Oriented Programming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobj_oriented_guidl.htm) → 
 
 Class References and Interface References
 
@@ -472,14 +412,7 @@ ENDCLASS.
      ...
 
 
-
-**📖 Source**: [abenclass_ref_interf_ref_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_ref_interf_ref_guidl.htm)
-
 ### abenlocal_type_glob_class_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenlocal_type_glob_class_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_type_glob_class_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -487,13 +420,13 @@ ENDCLASS.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Object-Oriented Programming](javascript:call_link\('abenobj_oriented_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarchitecture_guidl.htm) →  [Object-Oriented Programming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobj_oriented_guidl.htm) → 
 
 Local Types for Global Classes
 
 Background
 
-Within class pools, as in virtually any other ABAP program, data types, local interfaces, and local classes can be defined to ensure a better structure of the implementation of the global class. From a technical point of view, these optional declaration parts, together with the declaration part of the global class, form the global declaration part of the [class pool](javascript:call_link\('abenglobal_declar_guidl.htm'\) "Guideline").
+Within class pools, as in virtually any other ABAP program, data types, local interfaces, and local classes can be defined to ensure a better structure of the implementation of the global class. From a technical point of view, these optional declaration parts, together with the declaration part of the global class, form the global declaration part of the [class pool](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_declar_guidl.htm "Guideline").
 
 These local declarations in a class pool are invisible outside the class pool, which means they can only be used as followed:
 
@@ -533,24 +466,14 @@ Declarations and implementations of a local class are only supposed to be distri
 
 Note
 
-The rule specified here specializes the general rule [implement global declarations centrally](javascript:call_link\('abenglobal_declar_guidl.htm'\) "Guideline") with respect to class pools. They are especially oriented toward the external call of methods of their respective global class and are therefore particularly integrated within a dependency network. For this reason, the rule just mentioned cannot apply to its full extent.
+The rule specified here specializes the general rule [implement global declarations centrally](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_declar_guidl.htm "Guideline") with respect to class pools. They are especially oriented toward the external call of methods of their respective global class and are therefore particularly integrated within a dependency network. For this reason, the rule just mentioned cannot apply to its full extent.
 
 Note
 
-[Test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") should only be created in [test includes](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry").
+[Test classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_class_glosry.htm "Glossary Entry") should only be created in [test includes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_include_glosry.htm "Glossary Entry").
 
-
-
-**📖 Source**: [abenlocal_type_glob_class_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocal_type_glob_class_guidl.htm)
 
 ### abeninstance_constructor_guidl.htm
-
-> **📖 Official SAP Documentation**: [abeninstance_constructor_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_constructor_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abeninstance_constructor_guidl.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_constructor_guidl.htm)
-
 
   
 
@@ -558,13 +481,13 @@ Note
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Object-Oriented Programming](javascript:call_link\('abenobj_oriented_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarchitecture_guidl.htm) →  [Object-Oriented Programming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobj_oriented_guidl.htm) → 
 
 Instance Constructor
 
 Background
 
-When you define an ABAP class, you specify who creates an instance of this class or who may access the instance constructor of the class. To do this, you use the CREATE addition of the CLASS ... DEFINITION statement. The CREATE PUBLIC addition is the default setting and allows for the instancing by any user of the class. By specifying CREATE PROTECTED, you can restrict the object creation to the class itself and its subclasses. With the CREATE PRIVATE addition, objects can only be created by the class itself. The restriction of the object creation to the class itself is useful in connection with the [singleton design pattern](javascript:call_link\('abenstatic_class_singleton_guidl.htm'\) "Guideline"), for example, where the class itself performs the object creation.
+When you define an ABAP class, you specify who creates an instance of this class or who may access the instance constructor of the class. To do this, you use the CREATE addition of the CLASS ... DEFINITION statement. The CREATE PUBLIC addition is the default setting and allows for the instancing by any user of the class. By specifying CREATE PROTECTED, you can restrict the object creation to the class itself and its subclasses. With the CREATE PRIVATE addition, objects can only be created by the class itself. The restriction of the object creation to the class itself is useful in connection with the [singleton design pattern](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_class_singleton_guidl.htm "Guideline"), for example, where the class itself performs the object creation.
 
 From a technical point of view, the instance constructor can be declared in all visibility sections that are more general or equal to the instantiation specified in the CREATE addition of the CLASS ... DEFINITION statement, using the METHODS constructor statement. However, the actual visibility is controlled by the CREATE addition.
 

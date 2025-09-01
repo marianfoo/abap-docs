@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [Type Mapping for ABAP EML](javascript:call_link\('abapeml_type_mapping.htm'\)) →  [SET FLAGS](javascript:call_link\('abapset_flags.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_rap_other.htm) →  [Type Mapping for ABAP EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_type_mapping.htm) →  [SET FLAGS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_flags.htm) → 
 
 ABAP EML - Variants of SET FLAGS
 
@@ -48,7 +48,7 @@ define view entity DEMO\_MANAGED\_CHILD\_MAP
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_MAP is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_MAP is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_root\_map unique;
 strict;
@@ -194,8 +194,8 @@ Description
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program.
 
-For all variants of the SET FLAGS statement, variables are declared for the field list typed with ABP\_FIELD\_NAME\_TAB and for the flags typed with a [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") that includes the %control structure. The field list gets filled, purposely excluding certain field names. Thus, for all fields contained in the field list, the value for the respective component in the %control structure is 01. The value for the ones that are not contained in the field list is 00.
+For all variants of the SET FLAGS statement, variables are declared for the field list typed with ABP\_FIELD\_NAME\_TAB and for the flags typed with a [BDEF derived type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") that includes the %control structure. The field list gets filled, purposely excluding certain field names. Thus, for all fields contained in the field list, the value for the respective component in the %control structure is 01. The value for the ones that are not contained in the field list is 00.
 
 As a result of all the SET NAMES statement variants, the %control structures are displayed in an output window. The first variant comprises examples for both %control and %element.

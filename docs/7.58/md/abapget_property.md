@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and OLE](javascript:call_link\('abenole2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) →  [ABAP and OLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenole2.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20GET%20PROPERTY%2C%20OLE%2C%20ABAPGET_PROPERTY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 GET PROPERTY, OLE
 
-[Short Reference](javascript:call_link\('abapget_property_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_property_shortref.htm)
 
 Syntax
 
@@ -25,7 +25,7 @@ Additions:
 
 Effect
 
-Assigns the content of the property prop of an automation object ole to the data object dobj. The automation object must have been created using the special statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)) for automation objects. The description of the statement CREATE OBJECT applies to the [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of ole. The typing of the data object dobj depends on the properties of the automation property prop.
+Assigns the content of the property prop of an automation object ole to the data object dobj. The automation object must have been created using the special statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_object_ole2.htm) for automation objects. The description of the statement CREATE OBJECT applies to the [typing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_glosry.htm "Glossary Entry") of ole. The typing of the data object dobj depends on the properties of the automation property prop.
 
 System Fields
 
@@ -63,7 +63,7 @@ Addition 2  
 
 Effect
 
-The description of the statement [CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\)) applies to the meaning of the NO FLUSH and QUEUE-ONLY additions.
+The description of the statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_object_ole2.htm) applies to the meaning of the NO FLUSH and QUEUE-ONLY additions.
 
 Addition 3   
 

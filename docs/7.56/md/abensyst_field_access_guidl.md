@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [System Fields](javascript:call_link\('abensystem_fields_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) →  [System Fields](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_fields_gdl.htm) → 
 
 Access
 
@@ -26,7 +26,7 @@ In addition, you cannot misuse system fields as implicit output parameters of pr
 
 Exception
 
-The only system fields where it was allowed to change the field content (in an application program) are part of classic list processing. This should [no longer be used](javascript:call_link\('abenlist_guidl.htm'\) "Guideline").
+The only system fields where it was allowed to change the field content (in an application program) are part of classic list processing. This should [no longer be used](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_guidl.htm "Guideline").
 
 Bad Example
 

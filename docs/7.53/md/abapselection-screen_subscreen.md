@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Creating Selection Screens](javascript:call_link\('abenselection_screen_create.htm'\)) →  [SELECTION-SCREEN](javascript:call_link\('abapselection-screen.htm'\)) →  [SELECTION-SCREEN - BEGIN OF](javascript:call_link\('abapselection-screen_definition.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen.htm) →  [Creating Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_create.htm) →  [SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen.htm) →  [SELECTION-SCREEN - BEGIN OF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_definition.htm) → 
 
 SELECTION-SCREEN - AS SUBSCREEN
 
-[Quick Reference](javascript:call_link\('abapselection-screen_bos_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_bos_shortref.htm)
 
 Syntax
 
@@ -25,15 +25,15 @@ Extras:
 
 Effect
 
-These statements have the same function as the [statements](javascript:call_link\('abapselection-screen_normal.htm'\)) for creating [selection screens](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") as regular dynpros, but here the selection screen is defined as a [subscreen dynpro](javascript:call_link\('abensubscreen_dynpro_glosry.htm'\) "Glossary Entry").
+These statements have the same function as the [statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_normal.htm) for creating [selection screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_glosry.htm "Glossary Entry") as regular dynpros, but here the selection screen is defined as a [subscreen dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscreen_dynpro_glosry.htm "Glossary Entry").
 
-Like all subscreen dynpros, selection screens defined as subscreen dynpros can be included in other dynpros or selection screens, or in subscreen areas or tab pages. However, they cannot be called using [CALL SELECTION-SCREEN](javascript:call_link\('abapcall_selection_screen.htm'\)). They can be integrated into selection screens using the addition [TABBED BLOCK](javascript:call_link\('abapselection-screen_tabbed.htm'\)) of the statement SELECTION-SCREEN. This addition enables an individual subscreen area to be defined without tab titles as a special tabstrip control.
+Like all subscreen dynpros, selection screens defined as subscreen dynpros can be included in other dynpros or selection screens, or in subscreen areas or tab pages. However, they cannot be called using [CALL SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_selection_screen.htm). They can be integrated into selection screens using the addition [TABBED BLOCK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_tabbed.htm) of the statement SELECTION-SCREEN. This addition enables an individual subscreen area to be defined without tab titles as a special tabstrip control.
 
-A selection screen defined as a subscreen dynpro cannot contain any tabstrip controls defined using [TABBED BLOCK](javascript:call_link\('abapselection-screen_tabbed.htm'\)).
+A selection screen defined as a subscreen dynpro cannot contain any tabstrip controls defined using [TABBED BLOCK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselection-screen_tabbed.htm).
 
 Note
 
-If selection screens defined as [subscreens](javascript:call_link\('abensubscreen_glosry.htm'\) "Glossary Entry") are included in dynpros, note that, as is the case with regular subscreen dynpros, the statement [CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\)) in the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry") must be executed at [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") and [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") so that the data is transported between the selection screen and the ABAP program. User actions on selection screens defined as subscreens trigger regular [selection screen processing](javascript:call_link\('abenselscreen_processing_glosry.htm'\) "Glossary Entry"), even if they are included in dynpros.
+If selection screens defined as [subscreens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubscreen_glosry.htm "Glossary Entry") are included in dynpros, note that, as is the case with regular subscreen dynpros, the statement [CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/dynpcall.htm) in the [dynpro flow logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry") must be executed at [PBO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpbo_glosry.htm "Glossary Entry") and [PAI](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpai_glosry.htm "Glossary Entry") so that the data is transported between the selection screen and the ABAP program. User actions on selection screens defined as subscreens trigger regular [selection screen processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselscreen_processing_glosry.htm "Glossary Entry"), even if they are included in dynpros.
 
 Addition 1
 
@@ -41,7 +41,7 @@ Addition 1
 
 Effect
 
-If NO INTERVALS is specified, the addition of the same name (NO INTERVALS) is used implicitly in the statement [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)) when defining all the selection criteria for this selection screen, and the subscreen is made narrower accordingly.
+If NO INTERVALS is specified, the addition of the same name (NO INTERVALS) is used implicitly in the statement [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect-options.htm) when defining all the selection criteria for this selection screen, and the subscreen is made narrower accordingly.
 
 Addition 2
 
@@ -49,11 +49,11 @@ Addition 2
 
 Effect
 
-The addition NESTING LEVEL allows the width of the subscreen to be adjusted if it is included in one or more frames in a [tabstrip control](javascript:call_link\('abentabstrip_control_glosry.htm'\) "Glossary Entry"). n must be specified directly as a number between 0 and 4. To ensure that the width is adjusted correctly, the number n must be the same as the number of frames that surround the tabstrip control. If the tabstrip control is not in a frame, the addition can be specified with the number 0 or omitted.
+The addition NESTING LEVEL allows the width of the subscreen to be adjusted if it is included in one or more frames in a [tabstrip control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentabstrip_control_glosry.htm "Glossary Entry"). n must be specified directly as a number between 0 and 4. To ensure that the width is adjusted correctly, the number n must be the same as the number of frames that surround the tabstrip control. If the tabstrip control is not in a frame, the addition can be specified with the number 0 or omitted.
 
 Example
 
-Defines the selection screens 100 and 200 as subscreen dynpros and includes them in a tabstrip control on the [standard selection screen](javascript:call_link\('abenstandard_selscreen_glosry.htm'\) "Glossary Entry") in an executable program.
+Defines the selection screens 100 and 200 as subscreen dynpros and includes them in a tabstrip control on the [standard selection screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_selscreen_glosry.htm "Glossary Entry") in an executable program.
 
 REPORT ...
 SELECTION-SCREEN BEGIN OF SCREEN 100 AS SUBSCREEN.
@@ -77,5 +77,5 @@ INITIALIZATION.
   button2 = 'Selection Screen 2'.
 
 Continue
-![Example](exa.gif "Example") [Selection Screens as Subscreens](javascript:call_link\('abensel_screen_subscreen_abexa.htm'\))
-![Example](exa.gif "Example") [Selection Screens in Tabstrips](javascript:call_link\('abensel_screen_tabstrip_abexa.htm'\))
+![Example](exa.gif "Example") [Selection Screens as Subscreens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_subscreen_abexa.htm)
+![Example](exa.gif "Example") [Selection Screens in Tabstrips](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_tabstrip_abexa.htm)

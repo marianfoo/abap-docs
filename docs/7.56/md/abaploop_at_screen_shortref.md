@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  L
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  L
 
 LOOP AT SCREEN - Short Reference
 
-[Reference](javascript:call_link\('abaploop_at_screen.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_screen.htm)
 
 Syntax
 
@@ -18,4 +18,4 @@ ENDLOOP.
 
 Effect
 
-Reads the properties of the screen elements of the current [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") in a loop and assigns the results to a work area wa of the structure [SCREEN](javascript:call_link\('abenscreen.htm'\)).
+Reads the properties of the screen elements of the current [dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_glosry.htm "Glossary Entry") in a loop and assigns the results to a work area wa of the structure [SCREEN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen.htm).

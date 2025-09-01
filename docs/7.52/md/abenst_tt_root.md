@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Structure of ST Programs](javascript:call_link\('abenst_programs_structure.htm'\)) →  [ST - Data Declarations](javascript:call_link\('abenst_data_declarations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_st.htm) →  [ST - Structure of ST Programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_programs_structure.htm) →  [ST - Data Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_data_declarations.htm) → 
 
 ST - tt:root, Data Roots
 
@@ -17,19 +17,19 @@ Syntax
 
 Effect
 
-To be able to access ABAP data, an ST program must contain at least one declaration of a data root outside a template. The data roots are the interfaces of the ST program to the ABAP data objects, specified in the statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) as source or target fields. Data roots are defined using the statement tt:root. A name must be assigned to the data root with the name attribute. It can be typed with the attribute *\[*line-*\]*type.
+To be able to access ABAP data, an ST program must contain at least one declaration of a data root outside a template. The data roots are the interfaces of the ST program to the ABAP data objects, specified in the statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transformation.htm) as source or target fields. Data roots are defined using the statement tt:root. A name must be assigned to the data root with the name attribute. It can be typed with the attribute *\[*line-*\]*type.
 
-The data roots declared on the [tt:transform](javascript:call_link\('abenst_tt_transform.htm'\)) level form the context of the [main template](javascript:call_link\('abenst_tt_template_main.htm'\)) and can be addressed directly within it. The data roots are not recognized in [subtemplates](javascript:call_link\('abenst_tt_template_sub.htm'\)). However, they can be bound to the local data roots of subtemplates when these templates are [called](javascript:call_link\('abenst_tt_apply.htm'\)).
+The data roots declared on the [tt:transform](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_transform.htm) level form the context of the [main template](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_template_main.htm) and can be addressed directly within it. The data roots are not recognized in [subtemplates](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_template_sub.htm). However, they can be bound to the local data roots of subtemplates when these templates are [called](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_apply.htm).
 
 Note
 
-An ST program without a data root describes a constant XML fragment that does not access ABAP data. In the statement CALL TRANSFORMATION, the syntax requires source fields or target fields to be specified. Data objects specified when ST programs are called without data roots are ignored in serializations and not changed in deserializations. The example for [literal texts](javascript:call_link\('abenst_tt_text.htm'\)) uses ST programs without data roots.
+An ST program without a data root describes a constant XML fragment that does not access ABAP data. In the statement CALL TRANSFORMATION, the syntax requires source fields or target fields to be specified. Data objects specified when ST programs are called without data roots are ignored in serializations and not changed in deserializations. The example for [literal texts](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_text.htm) uses ST programs without data roots.
 
 Data Root Name
 
-The attribute name is used to declare a symbolic name that can be bound to an ABAP data object. This binding is achieved by assigning these names as bni to data object ei in serializations or to fi in deserializations in the statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)).
+The attribute name is used to declare a symbolic name that can be bound to an ABAP data object. This binding is achieved by assigning these names as bni to data object ei in serializations or to fi in deserializations in the statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transformation.htm).
 
-The symbolic name is not case-sensitive and must be unique. The namespace also includes the data roots declared using [tt:parameter](javascript:call_link\('abenst_tt_parameter.htm'\)) and the variables declared using [tt:variable](javascript:call_link\('abenst_tt_variable.htm'\)). No data roots other than the ones specified here can be used in the statement CALL TRANSFORMATION.
+The symbolic name is not case-sensitive and must be unique. The namespace also includes the data roots declared using [tt:parameter](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_parameter.htm) and the variables declared using [tt:variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_variable.htm). No data roots other than the ones specified here can be used in the statement CALL TRANSFORMATION.
 
 Typing the Data Root
 
@@ -43,11 +43,11 @@ For data roots without explicit typing, no checks are made until the transformat
 
 -   Handling a structured node as elementary
 
-Elementary ABAP types, types from the repository, and types of the same ST program that are defined with [tt:type](javascript:call_link\('abenst_tt_type.htm'\)) can be specified as the value of *\[*line-*\]*type. Type specifications are subject to the same restrictions as the statement [tt:value](javascript:call_link\('abenst_tt_type.htm'\)).
+Elementary ABAP types, types from the repository, and types of the same ST program that are defined with [tt:type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_type.htm) can be specified as the value of *\[*line-*\]*type. Type specifications are subject to the same restrictions as the statement [tt:value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_type.htm).
 
 Accessing a Data Root
 
-Access to a data root is described under [Addressing the Data Roots](javascript:call_link\('abenst_addressing_root_node.htm'\)). [Serializations and deserializations](javascript:call_link\('abenst_serial_deserial.htm'\)) are subject to the general restriction that the content of a data root cannot be modified by serialization and only writes can be performed on a data root in deserializations.
+Access to a data root is described under [Addressing the Data Roots](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_addressing_root_node.htm). [Serializations and deserializations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_serial_deserial.htm) are subject to the general restriction that the content of a data root cannot be modified by serialization and only writes can be performed on a data root in deserializations.
 
 Example
 

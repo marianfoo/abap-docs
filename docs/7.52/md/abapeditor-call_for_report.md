@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) →  [Obsolete Editor Calls](javascript:call_link\('abentexteditor.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengui_obsolete.htm) →  [Obsolete Editor Calls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentexteditor.htm) → 
 
 EDITOR-CALL FOR REPORT
 
-[Quick Reference](javascript:call_link\('abapeditor-call_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapeditor-call_shortref.htm)
 
 Obsolete Syntax
 
@@ -20,9 +20,9 @@ Addition:
 
 Effect
 
-This statement starts ABAP Editor for the source code of the program specified in prog. prog has to be a character-like data object, which contains the name of a program in uppercase letters that exists in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry"). If not, a message is displayed in the status line.
+This statement starts ABAP Editor for the source code of the program specified in prog. prog has to be a character-like data object, which contains the name of a program in uppercase letters that exists in the [repository](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrepository_glosry.htm "Glossary Entry"). If not, a message is displayed in the status line.
 
-Once ABAP Editor is started, it offers the full range of functions (as when called in ABAP Workbench or the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry")). Forward navigation to other tools is also possible. After returning from ABAP Editor, the current program continues after the statement EDITOR-CALL.
+Once ABAP Editor is started, it offers the full range of functions (as when called in ABAP Workbench or the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry")). Forward navigation to other tools is also possible. After returning from ABAP Editor, the current program continues after the statement EDITOR-CALL.
 
 Notes
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Miscellaneous Components](javascript:call_link\('abapderived_types_misc.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_comp.htm) →  [Miscellaneous Components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_misc.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20%25control%2C%20ABAPDERIVED_TYPES_CONTROL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,9 +12,9 @@ AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
 Use
 
-%control is a [component group](javascript:call_link\('abencomponent_group_glosry.htm'\) "Glossary Entry") in [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry").
+%control is a [component group](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomponent_group_glosry.htm "Glossary Entry") in [BDEF derived types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_derived_type_glosry.htm "Glossary Entry").
 
-It is a structure that contains all key and data fields of a [RAP BO instance](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") as components indicating flags. It is used to get information on which fields are provided (e. g. in the context of [CREATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) or [UPDATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) operations) or set a flag for which fields are requested (e. g. in the context of [READ](javascript:call_link\('abapread_entity_entities.htm'\)) operations) by [RAP BO providers](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry") or [RAP BO consumers](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") respectively during the current transaction.
+It is a structure that contains all key and data fields of a [RAP BO instance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") as components indicating flags. It is used to get information on which fields are provided (e. g. in the context of [CREATE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entity_entities_op.htm) or [UPDATE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entity_entities_op.htm) operations) or set a flag for which fields are requested (e. g. in the context of [READ](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_entities.htm) operations) by [RAP BO providers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry") or [RAP BO consumers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") respectively during the current transaction.
 
 In many cases, the control structure is filled implicitly and automatically, for example, in the context of RAP MODIFY operations using the ABAP word [SET FIELDS WITH](abapmodify_entity_entities_fields.htm#!ABAP_VARIANT_4@4@). However, depending on the context, the explicit specification of %control is mandatory. For example, in the context of a RAP MODIFY operation using the ABAP word FROM (e. g. ... CREATE FROM ... or ... UPDATE FROM ...), %control must be specified.
 
@@ -28,14 +28,14 @@ The components of the %control structure have the following type: ABP\_BEHV\_FLA
 
 Where used
 
-This component can occur in the following type declarations of [TYPE TABLE FOR ...](javascript:call_link\('abaptype_table_for.htm'\)) and [TYPE STRUCTURE FOR ...](javascript:call_link\('abaptype_structure_for.htm'\)):
+This component can occur in the following type declarations of [TYPE TABLE FOR ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm) and [TYPE STRUCTURE FOR ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_structure_for.htm):
 
 -   CREATE
 -   UPDATE
 -   READ IMPORT
 -   CHANGE
 
-The component also occurs within the [%target](javascript:call_link\('abapderived_types_target.htm'\)) component in the context of create- or read-by-association operations.
+The component also occurs within the [%target](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_target.htm) component in the context of create- or read-by-association operations.
 
 Example
 
@@ -72,7 +72,7 @@ MODIFY ENTITY demo\_managed\_root\_4
 
 Example
 
-The following source code section taken from CL\_DEMO\_RAP\_DRVD\_TYPES\_CNTRL demonstrates how %control might be specified and enabled for all fields for all RAP BO instances in the [superstructure](javascript:call_link\('abensuperstructure_glosry.htm'\) "Glossary Entry") of an ABAP EML request.
+The following source code section taken from CL\_DEMO\_RAP\_DRVD\_TYPES\_CNTRL demonstrates how %control might be specified and enabled for all fields for all RAP BO instances in the [superstructure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensuperstructure_glosry.htm "Glossary Entry") of an ABAP EML request.
 
 MODIFY ENTITY demo\_managed\_root\_4
   CREATE FROM VALUE #(
@@ -99,4 +99,4 @@ MODIFY ENTITY demo\_managed\_root\_4
 
 Executable Example
 
-The example [Using %control](javascript:call_link\('abenderived_types_control_abexa.htm'\)) demonstrates the use of %control with a managed RAP BO.
+The example [Using %control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_types_control_abexa.htm) demonstrates the use of %control with a managed RAP BO.

@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 soft reference
 
-Reference to an [object](javascript:call_link\('abenobject_glosry.htm'\) "Glossary Entry") where the object is not passed to the reference if the available memory is running low. The class CL\_ABAP\_SOFT\_REFERENCE is planned for soft references but not yet implemented. See also [weak reference](javascript:call_link\('abenweak_reference_glosry.htm'\) "Glossary Entry").
+Reference to an [object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_glosry.htm "Glossary Entry") where the object is not passed to the reference if the available memory is running low. The class CL\_ABAP\_SOFT\_REFERENCE is planned for soft references but not yet implemented. See also [weak reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenweak_reference_glosry.htm "Glossary Entry").

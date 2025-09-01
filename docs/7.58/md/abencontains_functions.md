@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [Logical Expressions (log\_exp)](javascript:call_link\('abenlogexp.htm'\)) →  [rel\_exp - Predicates](javascript:call_link\('abenpredicate.htm'\)) →  [rel\_exp - Predicate Functions](javascript:call_link\('abenpredicate_functions.htm'\)) →  [rel\_exp - Predicate Functions for Character-Like Arguments](javascript:call_link\('abenpredicate_functions_strgs.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_expr_func.htm) →  [Logical Expressions (log\_exp)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm) →  [rel\_exp - Predicates](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpredicate.htm) →  [rel\_exp - Predicate Functions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpredicate_functions.htm) →  [rel\_exp - Predicate Functions for Character-Like Arguments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpredicate_functions_strgs.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20rel_exp%20-%20contains%2C%20contains_...%2C%20ABENCONTAINS_FUNCTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,41 +12,41 @@ rel\_exp - contains, contains\_...
 
 Syntax
 
-1\. ... contains( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) [sub*|*start*|*end = substring](javascript:call_link\('abenstring_functions_sub.htm'\)) *\[* [case = case](javascript:call_link\('abenstring_functions_case.htm'\))*\]*
-                *\[* [off = off](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[* [len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[*occ = occ*\]* ) ...
+1\. ... contains( [val = text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_val.htm) [sub*|*start*|*end = substring](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_sub.htm) *\[* [case = case](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_case.htm)*\]*
+                *\[* [off = off](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_off_len.htm)*\]* *\[* [len = len](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_off_len.htm)*\]* *\[*occ = occ*\]* ) ...
 
-2\. ... contains( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) [pcre*|*xpath = regex](javascript:call_link\('abenstring_functions_regex.htm'\)) *\[* [case = case](javascript:call_link\('abenstring_functions_case.htm'\))*\]*
-                *\[* [off = off](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[* [len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[*occ = occ*\]* ) ...
+2\. ... contains( [val = text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_val.htm) [pcre*|*xpath = regex](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_regex.htm) *\[* [case = case](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_case.htm)*\]*
+                *\[* [off = off](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_off_len.htm)*\]* *\[* [len = len](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_off_len.htm)*\]* *\[*occ = occ*\]* ) ...
 
-3\. ... contains\_any\_of( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) [sub*|*start*|*end = substring](javascript:call_link\('abenstring_functions_sub.htm'\))
-                       *\[* [off = off](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[* [len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[*occ = occ*\]* ) ...
+3\. ... contains\_any\_of( [val = text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_val.htm) [sub*|*start*|*end = substring](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_sub.htm)
+                       *\[* [off = off](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_off_len.htm)*\]* *\[* [len = len](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_off_len.htm)*\]* *\[*occ = occ*\]* ) ...
 
-4\. ... contains\_any\_not\_of( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) [sub*|*start*|*end = substring](javascript:call_link\('abenstring_functions_sub.htm'\))
-                           *\[* [off = off](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[* [len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[*occ = occ*\]* ) ...
+4\. ... contains\_any\_not\_of( [val = text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_val.htm) [sub*|*start*|*end = substring](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_sub.htm)
+                           *\[* [off = off](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_off_len.htm)*\]* *\[* [len = len](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_off_len.htm)*\]* *\[*occ = occ*\]* ) ...
 
 Effect
 
-These [built-in](javascript:call_link\('abenbuilt_in_functions.htm'\)) [predicate functions](javascript:call_link\('abenpredicate_function_glosry.htm'\) "Glossary Entry") return a [truth value](javascript:call_link\('abentruth_value_glosry.htm'\) "Glossary Entry") for a condition to the argument [text](javascript:call_link\('abenstring_functions_val.htm'\)).
+These [built-in](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_functions.htm) [predicate functions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpredicate_function_glosry.htm "Glossary Entry") return a [truth value](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentruth_value_glosry.htm "Glossary Entry") for a condition to the argument [text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_val.htm).
 
--   The variants of the function contains with the parameters sub, start, or end scan a search range defined by [off](javascript:call_link\('abenstring_functions_off_len.htm'\)) and [len](javascript:call_link\('abenstring_functions_off_len.htm'\)) in text for matches with the string specified in [substring](javascript:call_link\('abenstring_functions_sub.htm'\)). The return value is true if at least the number of matches specified in occ is found. The search is case-sensitive by default, but this can be overridden using the parameter [case](javascript:call_link\('abenstring_functions_case.htm'\)). If substring is passed to start or end, the matches must occur directly one after another either at the start or at the end of the search range. sub, on the other hand, allows the matches to occur anywhere in the search range. If substring is empty, an exception of the class CX\_SY\_STRG\_PAR\_VAL is raised.
--   The variants of the function contains with the parameter [pcre](javascript:call_link\('abenstring_functions_regex.htm'\)) or [xpath](javascript:call_link\('abenstring_functions_regex.htm'\)) scan a search range defined by [off](javascript:call_link\('abenstring_functions_off_len.htm'\)) and [len](javascript:call_link\('abenstring_functions_off_len.htm'\)) in text for matches with the [regular expression](javascript:call_link\('abenregex_syntax.htm'\)) specified in [regex](javascript:call_link\('abenstring_functions_regex.htm'\)).
+-   The variants of the function contains with the parameters sub, start, or end scan a search range defined by [off](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_off_len.htm) and [len](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_off_len.htm) in text for matches with the string specified in [substring](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_sub.htm). The return value is true if at least the number of matches specified in occ is found. The search is case-sensitive by default, but this can be overridden using the parameter [case](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_case.htm). If substring is passed to start or end, the matches must occur directly one after another either at the start or at the end of the search range. sub, on the other hand, allows the matches to occur anywhere in the search range. If substring is empty, an exception of the class CX\_SY\_STRG\_PAR\_VAL is raised.
+-   The variants of the function contains with the parameter [pcre](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_regex.htm) or [xpath](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_regex.htm) scan a search range defined by [off](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_off_len.htm) and [len](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_off_len.htm) in text for matches with the [regular expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_syntax.htm) specified in [regex](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_regex.htm).
     
-    -   If the argument pcre is used, regex must contain a [PCRE regular expression](javascript:call_link\('abenregex_pcre_syntax.htm'\)).
-    -   If the argument xpath is used, regex must contain a [XPath regular expression](javascript:call_link\('abenregex_xpath_syntax.htm'\)).
+    -   If the argument pcre is used, regex must contain a [PCRE regular expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_pcre_syntax.htm).
+    -   If the argument xpath is used, regex must contain a [XPath regular expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_xpath_syntax.htm).
     
-    A regular expression in PCRE or XPath syntax is compiled in an extended mode: Most unescaped whitespace (blanks and line breaks) of the pattern are ignored outside character classes and comments can be placed behind #. In order to include whitespace and # in a pattern, they must be escaped or the extended mode must be switched of with [(?-x)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) in the regular expression.
+    A regular expression in PCRE or XPath syntax is compiled in an extended mode: Most unescaped whitespace (blanks and line breaks) of the pattern are ignored outside character classes and comments can be placed behind #. In order to include whitespace and # in a pattern, they must be escaped or the extended mode must be switched of with [(?-x)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_pcre_syntax_specials.htm) in the regular expression.
     
-    The return value is true if at least the number of matches specified in occ is found. The search is case-sensitive by default, but this can be overridden using the parameter [case](javascript:call_link\('abenstring_functions_case.htm'\)).
+    The return value is true if at least the number of matches specified in occ is found. The search is case-sensitive by default, but this can be overridden using the parameter [case](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_case.htm).
     
--   The function contains\_any\_of has the same effect as contains, but does not check for the occurrences of the entire string in [substring](javascript:call_link\('abenstring_functions_sub.htm'\)). Instead, it checks for the individual characters in substring, which is always case-sensitive. The return value is true if text contains at least the set of characters specified in occ. If start or end are specified, the characters must be at the start or at the end of the search range in any order, whereas in sub they can be anywhere.
--   The function contains\_any\_not\_of has the same effect as contains\_any\_of but does not require the characters from [substring](javascript:call_link\('abenstring_functions_sub.htm'\)). Instead, it requires any characters that are not in substring.
+-   The function contains\_any\_of has the same effect as contains, but does not check for the occurrences of the entire string in [substring](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_sub.htm). Instead, it checks for the individual characters in substring, which is always case-sensitive. The return value is true if text contains at least the set of characters specified in occ. If start or end are specified, the characters must be at the start or at the end of the search range in any order, whereas in sub they can be anywhere.
+-   The function contains\_any\_not\_of has the same effect as contains\_any\_of but does not require the characters from [substring](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_sub.htm). Instead, it requires any characters that are not in substring.
 
-occ is a [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry") of type i and its default value is 1. Specifying a value less than or equal to 0 raises an exception of the class CX\_SY\_STRG\_PAR\_VAL.
+occ is a [numeric expression position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry") of type i and its default value is 1. Specifying a value less than or equal to 0 raises an exception of the class CX\_SY\_STRG\_PAR\_VAL.
 
 Hints
 
 -   The parameter occ has a different meaning here than in other functions used for searches.
--   Besides pcre and xpath, also the obsolete argument [regex](javascript:call_link\('abenstring_functions_regex_obs.htm'\)) can be used. Then an obsolete [POSIX regular expression](javascript:call_link\('abenregex_posix_syntax.htm'\)) must be passed.
+-   Besides pcre and xpath, also the obsolete argument [regex](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions_regex_obs.htm) can be used. Then an obsolete [POSIX regular expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_posix_syntax.htm) must be passed.
 
 Example
 
@@ -72,7 +72,7 @@ IF contains( val  = postal\_code
   RETURN.
 ENDIF.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -83,7 +83,7 @@ CX\_SY\_RANGE\_OUT\_OF\_BOUNDS
 
 CX\_SY\_REGEX\_TOO\_COMPLEX
 
--   Cause: See [Exceptions in Regular Expressions](javascript:call_link\('abenregex_exceptions.htm'\)).
+-   Cause: See [Exceptions in Regular Expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenregex_exceptions.htm).
     Runtime error: REGEX\_TOO\_COMPLEX
 
 CX\_SY\_STRG\_PAR\_VAL

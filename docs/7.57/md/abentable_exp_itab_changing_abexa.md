@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Expressions and Functions](javascript:call_link\('abentable_processing_expr_func.htm'\)) →  [itab - Table Expressions (table\_exp)](javascript:call_link\('abentable_expressions.htm'\)) →  [table\_exp - Write Positions](javascript:call_link\('abentable_exp_lhs.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab.htm) →  [itab - Expressions and Functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_processing_expr_func.htm) →  [itab - Table Expressions (table\_exp)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expressions.htm) →  [table\_exp - Write Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_exp_lhs.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: table_exp - Write Positions, ABENTABLE_EXP_ITAB_CHANGING_ABEXA, 757%0D%0A%0D%0AError:
 %0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -68,7 +68,7 @@ Description  
 
 In a DO loop, the content of an internal table
 
--   is passed component by component to an IMPORTING parameter and EXPORTING parameter of a method using two [table expressions](javascript:call_link\('abentable_expressions.htm'\)). This modifies one column of the current line.
--   is passed line by line to a CHANGING parameter of a method using one [table expression](javascript:call_link\('abentable_expressions.htm'\)). This modifies one column of the table line.
+-   is passed component by component to an IMPORTING parameter and EXPORTING parameter of a method using two [table expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expressions.htm). This modifies one column of the current line.
+-   is passed line by line to a CHANGING parameter of a method using one [table expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expressions.htm). This modifies one column of the table line.
 
 The second method is quicker, of course, since only one read is performed on the internal table instead of two.

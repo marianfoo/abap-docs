@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 reader position
 
-[Operand position](javascript:call_link\('abenoperand_position_glosry.htm'\) "Glossary Entry") in which the [operand](javascript:call_link\('abenoperand_glosry.htm'\) "Glossary Entry") is read only.
+[Operand position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperand_position_glosry.htm "Glossary Entry") in which the [operand](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperand_glosry.htm "Glossary Entry") is read only.
 
-[→ More](javascript:call_link\('abendata_objects_usage_reading.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_reading.htm)

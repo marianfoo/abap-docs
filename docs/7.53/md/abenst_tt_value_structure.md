@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Transformation of ABAP Values](javascript:call_link\('abenst_abap_values.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_serial_deserial.htm) →  [ST - Transformation of ABAP Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_abap_values.htm) → 
 
 ST - tt:value, Structures
 
@@ -16,19 +16,19 @@ Syntax
 
 Effect
 
-The serialization and deserialization of structures results directly from the [addressing rules](javascript:call_link\('abenst_addressing.htm'\)), because the structures can be mapped directly to the [tree structures](javascript:call_link\('abenst_trees.htm'\)) that start from the data roots. When the current node is bound to an elementary component of an ABAP structure, the structure can be processed with tt:value just like an [elementary data object](javascript:call_link\('abenst_tt_value_elementary.htm'\)).
+The serialization and deserialization of structures results directly from the [addressing rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_addressing.htm), because the structures can be mapped directly to the [tree structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_trees.htm) that start from the data roots. When the current node is bound to an elementary component of an ABAP structure, the structure can be processed with tt:value just like an [elementary data object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_value_elementary.htm).
 
 Examples
 
 The three ST programs from the sections
 
--   [Current Node](javascript:call_link\('abenst_tt_ref.htm'\))
+-   [Current Node](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_ref.htm)
 
--   [Addressing the Current Node](javascript:call_link\('abenst_addressing_current_node.htm'\))
+-   [Addressing the Current Node](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_addressing_current_node.htm)
 
--   [Addressing Subnodes](javascript:call_link\('abenst_addressing_subnodes.htm'\))
+-   [Addressing Subnodes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_addressing_subnodes.htm)
 
-can transform a nested ABAP structure [symmetrically](javascript:call_link\('abenst_symmetry.htm'\)). The following program can call these three ST programs:
+can transform a nested ABAP structure [symmetrically](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_symmetry.htm). The following program can call these three ST programs:
 
 DATA: BEGIN OF struc1,
         col1(10) TYPE c VALUE 'ABCDEFGHIJ',

@@ -4,28 +4,28 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) →  [EXACT, Lossless Operator](javascript:call_link\('abenconstructor_expression_exact.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlossless_move.htm) →  [EXACT, Lossless Operator](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_exact.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20EXACT%2C%20Lossless%20Conversion%20of%20Enumerated%20Types%2C%20ABENEXACT_CONSTRUCTOR_ENUM%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for
 %20improvement:)
 
 EXACT, Lossless Conversion of Enumerated Types
 
-If the constructor expression [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) is applied to [enumerated types](javascript:call_link\('abenenum_type_glosry.htm'\) "Glossary Entry"), the same [rules](javascript:call_link\('abenconv_constructor_enum.htm'\)) apply as to the conversion operator [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)):
+If the constructor expression [CONV](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_conv.htm) is applied to [enumerated types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_type_glosry.htm "Glossary Entry"), the same [rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconv_constructor_enum.htm) apply as to the conversion operator [CONV](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_conv.htm):
 
--   An [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") can be converted to the [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") of its enumerated type, as with CONV.
+-   An [enumerated object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_object_glosry.htm "Glossary Entry") can be converted to the [base type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbase_type_glosry.htm "Glossary Entry") of its enumerated type, as with CONV.
     
     ... EXACT base\_type( enum\_dobj ) ...
     
--   A data object that can be converted to the [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") of an [enumerated type](javascript:call_link\('abenenum_type_glosry.htm'\) "Glossary Entry") can be converted to the enumerated type, as with CONV.
+-   A data object that can be converted to the [base type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbase_type_glosry.htm "Glossary Entry") of an [enumerated type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_type_glosry.htm "Glossary Entry") can be converted to the enumerated type, as with CONV.
     
     ... EXACT enum\_type( dobj ) ...
     
 
 The conditions of losslessness also apply:
 
--   If a data object that can be converted to the base type is converted to the enumerated type, this happens in accordance with the [rules](javascript:call_link\('abapmove_exact.htm'\)) of [lossless assignment](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry").
--   If an [arithmetic expression](javascript:call_link\('abapcompute_arith.htm'\)) is used as the argument of a conversion to the enumerated type, the result must be obtained in accordance with the [rules](javascript:call_link\('abenlossless_calculation.htm'\)) of [lossless calculation](javascript:call_link\('abenlossless_calculation_glosry.htm'\) "Glossary Entry").
+-   If a data object that can be converted to the base type is converted to the enumerated type, this happens in accordance with the [rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_exact.htm) of [lossless assignment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlossless_assignment_glosry.htm "Glossary Entry").
+-   If an [arithmetic expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcompute_arith.htm) is used as the argument of a conversion to the enumerated type, the result must be obtained in accordance with the [rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlossless_calculation.htm) of [lossless calculation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlossless_calculation_glosry.htm "Glossary Entry").
 
 Example
 

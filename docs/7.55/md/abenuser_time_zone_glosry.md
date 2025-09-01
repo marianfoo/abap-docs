@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 user time zone
 
-[Time zone](javascript:call_link\('abentime_zone_glosry.htm'\) "Glossary Entry") defined in the [user master record](javascript:call_link\('abenuser_master_record_glosry.htm'\) "Glossary Entry") for the local [user time](javascript:call_link\('abenuser_time_glosry.htm'\) "Glossary Entry").
+[Time zone](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentime_zone_glosry.htm "Glossary Entry") defined in the [user master record](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_master_record_glosry.htm "Glossary Entry") for the local [user time](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuser_time_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abensystem_user_time_zones.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_user_time_zones.htm)

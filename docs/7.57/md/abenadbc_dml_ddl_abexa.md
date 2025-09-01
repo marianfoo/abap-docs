@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ABAP Database Connectivity (ADBC)](javascript:call_link\('abenadbc.htm'\)) →  [ADBC - Examples](javascript:call_link\('abenadbc_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennative_sql.htm) →  [ABAP Database Connectivity (ADBC)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc.htm) →  [ADBC - Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ADBC - DDL and DML, ABENADBC_DML_DDL_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0
 D%0ASuggestion for improvement:)
 
 ADBC - DDL and DML
 
-This example demonstrates the use of the [DDL and DML statements](javascript:call_link\('abenadbc_ddl_dml.htm'\)) with ADBC.
+This example demonstrates the use of the [DDL and DML statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenadbc_ddl_dml.htm) with ADBC.
 
 Source Code   
 
@@ -116,6 +116,6 @@ START-OF-SELECTION.
 
 Description   
 
-This program makes it possible to create a database table whose name can be chosen by the user. After this, one hundred rows can be inserted into the database table, individual rows can be read, and the database table can be deleted again. The Native SQL statements are passed to methods of the class CL\_SQL\_STATEMENT using [string expressions](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry").
+This program makes it possible to create a database table whose name can be chosen by the user. After this, one hundred rows can be inserted into the database table, individual rows can be read, and the database table can be deleted again. The Native SQL statements are passed to methods of the class CL\_SQL\_STATEMENT using [string expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_expression_glosry.htm "Glossary Entry").
 
-Any exceptions are handled. When reading rows, quotation marks are escaped in the user input to prevent an [SQL injection](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry").
+Any exceptions are handled. When reading rows, quotation marks are escaped in the user input to prevent an [SQL injection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_injection_glosry.htm "Glossary Entry").

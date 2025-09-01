@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_processing_statements.htm) → 
 
 itab - comp1 comp2 ...
 
-Addresses individual components of internal table lines in a range of statements for processing internal tables and in [table expressions](javascript:call_link\('abentable_expressions.htm'\)). If not stated otherwise, the following syntax applies to comp1 comp2...:
+Addresses individual components of internal table lines in a range of statements for processing internal tables and in [table expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_expressions.htm). If not stated otherwise, the following syntax applies to comp1 comp2...:
 
 Syntax
 
@@ -20,13 +20,13 @@ The following alternatives are available for specifying components:
 
 -   Directly specifying the name comp\_name of a component.
 
--   If the data type of the components is character-like and [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry"), an offset/length +off(len) can be appended to the name of the component, as in [substring access](javascript:call_link\('abenoffset_length.htm'\)), to access subareas of the component. Only directly specified numbers or constants can be specified for off and len.
+-   If the data type of the components is character-like and [flat](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenflat_glosry.htm "Glossary Entry"), an offset/length +off(len) can be appended to the name of the component, as in [substring access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoffset_length.htm), to access subareas of the component. Only directly specified numbers or constants can be specified for off and len.
 
 -   If the component is structured, the structure component selector \- can be used to access the sub\_comp components of the substructure.
 
 -   If the component has a reference type, the object component selector \-> can be used to access all visible attributes attr of the referenced object. In this case, a table component can be specified more than once.
 
--   Specifying a parenthesized [character-like data object](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") name, which contains the name of the component when the statement is executed.
+-   Specifying a parenthesized [character-like data object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") name, which contains the name of the component when the statement is executed.
 
 -   The name of the component in name can contain an offset/length specification.
 
@@ -34,7 +34,7 @@ The following alternatives are available for specifying components:
 
 -   name is not case-sensitive. If name only contains blanks, this component specification is ignored when the statement is executed. If name contains a nonexistent component, an uncatchable exception is raised.
 
--   Specifying the [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line to address the whole table line as a component.
+-   Specifying the [pseudo component](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpseudo_component_glosry.htm "Glossary Entry") table\_line to address the whole table line as a component.
 
 Hints
 
@@ -50,7 +50,7 @@ Hints
 
 -   If the data type allows it (character-like and flat), an offset/length specification can also include adjacent components
 
--   A [customizing include](javascript:call_link\('abencustomizing_include_glosry.htm'\) "Glossary Entry") must not be specified as a component if it is empty.
+-   A [customizing include](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencustomizing_include_glosry.htm "Glossary Entry") must not be specified as a component if it is empty.
     
 
 Example

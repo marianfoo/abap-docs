@@ -4,17 +4,17 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Syntax
 
--   [Obsolete Statement Structuring](javascript:call_link\('abentokenization_obsolete.htm'\))
+-   [Obsolete Statement Structuring](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentokenization_obsolete.htm)
 
--   [Obsolete Operand Positions](javascript:call_link\('abenoperand_positions_obsolete.htm'\))
+-   [Obsolete Operand Positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperand_positions_obsolete.htm)
 
--   [Obsolete Pseudo Comments](javascript:call_link\('abenpseudo_comments_obsolete.htm'\))
+-   [Obsolete Pseudo Comments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comments_obsolete.htm)
 
 Continue
-[Obsolete Statement Structuring](javascript:call_link\('abentokenization_obsolete.htm'\))
-[Obsolete Operand Positions](javascript:call_link\('abenoperand_positions_obsolete.htm'\))
-[Obsolete Pseudo Comments](javascript:call_link\('abenpseudo_comments_obsolete.htm'\))
+[Obsolete Statement Structuring](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentokenization_obsolete.htm)
+[Obsolete Operand Positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperand_positions_obsolete.htm)
+[Obsolete Pseudo Comments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comments_obsolete.htm)

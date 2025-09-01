@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_prog_technique_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Dynamic%20Programming%2C%20ABENGENERIC_PROGR_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -20,16 +20,16 @@ Dynamic programming (dynamic creation of source code) makes programs as dynamic 
     
     -   Dynamic access to attributes of classes
     -   Dynamic calls of procedures, particularly methods (known as dynamic invokes)
-    -   Dynamic type specifications when anonymous data objects are created. In this case, types can be used that are only created at runtime using Runtime Type Services ([RTTS](javascript:call_link\('abenrtti.htm'\))).
+    -   Dynamic type specifications when anonymous data objects are created. In this case, types can be used that are only created at runtime using Runtime Type Services ([RTTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrtti.htm)).
     -   Dynamic specifications of clauses when internal tables are accessed or in ABAP SQL.
         
-        Dynamic token specifications are often used in combination with [dynamic access to data objects](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline").
+        Dynamic token specifications are often used in combination with [dynamic access to data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendyn_access_data_obj_guidl.htm "Guideline").
         
 -   Program generation
     
     Program generation involves preparing complete programs as content for internal tables and then creating the programs. A distinction is made between the following cases:
     
-    -   Transient program generation using GENERATE SUBROUTINE POOL, where the generated programs only exist in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of the current program.
+    -   Transient program generation using GENERATE SUBROUTINE POOL, where the generated programs only exist in the [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry") of the current program.
     -   Persistent program generation with INSERT REPORT. The generated programs are saved as repository objects.
 
 Rule   
@@ -47,7 +47,7 @@ Program generation has a lot of conceptual problems such as checking, testing, a
     -   RTTS define the type properties of data objects at runtime (Runtime Type Information, RTTI). The capabilities of RTTI extend far beyond the statement DESCRIBE FIELD.
     -   It creates types at runtime (Runtime Type Creation, RTTC). RTTC should be used if the CREATE DATA statement does not offer sufficient options for the planned implementation (for example, building new structures).
 
-These methods, combined with [field symbols and data references](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline"), are now usually sufficient for most tasks that could only be solved using program generation in older releases.
+These methods, combined with [field symbols and data references](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendyn_access_data_obj_guidl.htm "Guideline"), are now usually sufficient for most tasks that could only be solved using program generation in older releases.
 
 Exception
 
@@ -57,13 +57,13 @@ Unlike application programs, system programs usually frequently rely on program 
 
 Hints
 
--   Even generated programs should always adhere to the predefined guidelines. For example, in a generated subroutine pool the program logic should be implemented/generated in the form of [local classes](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline"). The generated functions are usually called by means of a single [subroutine](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline") that is used as an entry point into the generated local classes (see the following example).
+-   Even generated programs should always adhere to the predefined guidelines. For example, in a generated subroutine pool the program logic should be implemented/generated in the form of [local classes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obj_progr_model_guidl.htm "Guideline"). The generated functions are usually called by means of a single [subroutine](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunct_module_subroutine_guidl.htm "Guideline") that is used as an entry point into the generated local classes (see the following example).
 -   To minimize the risks involved, it can be useful to save templates with correct syntax that adhere to the guidelines in the repository. READ REPORT can then be used to load the templates as templates for dynamically generated programs, in which only small parts are changed or added at runtime.
--   Subroutines in generated subroutine pools are an exception to the [rule](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline"), which states that subroutines should no longer be created, and an exception to the [rule](javascript:call_link\('abenintern_extern_proc_call_guidl.htm'\) "Guideline"), which states that subroutines should no longer be called. In addition, absolute type names can be used to access the local classes of a generated subroutine pool. However, this violates the rule [Only call suitable procedures externally](javascript:call_link\('abenintern_extern_proc_call_guidl.htm'\) "Guideline").
+-   Subroutines in generated subroutine pools are an exception to the [rule](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obj_progr_model_guidl.htm "Guideline"), which states that subroutines should no longer be created, and an exception to the [rule](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenintern_extern_proc_call_guidl.htm "Guideline"), which states that subroutines should no longer be called. In addition, absolute type names can be used to access the local classes of a generated subroutine pool. However, this violates the rule [Only call suitable procedures externally](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenintern_extern_proc_call_guidl.htm "Guideline").
 
 Bad Example
 
-The following source code demonstrates unnecessary program generation. The only reason for generating the program are dynamic reads on a database table. The name of the database table and the row type of the internal table into which data is read are replaced by a parameter value in the source code of the program to be generated. The value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) is used to create the internal table. As recommended, the subroutine of the generated subroutine pool only contains the call for a method of a local class where the actual implementation is located. Instead of filling the program table row by row, it would have also been possible in this case to create a corresponding program in the repository and load this program using READ REPORT.
+The following source code demonstrates unnecessary program generation. The only reason for generating the program are dynamic reads on a database table. The name of the database table and the row type of the internal table into which data is read are replaced by a parameter value in the source code of the program to be generated. The value operator [VALUE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_value.htm) is used to create the internal table. As recommended, the subroutine of the generated subroutine pool only contains the call for a method of a local class where the actual implementation is located. Instead of filling the program table row by row, it would have also been possible in this case to create a corresponding program in the repository and load this program using READ REPORT.
 
 PARAMETERS dbtab TYPE c LENGTH 16.
 

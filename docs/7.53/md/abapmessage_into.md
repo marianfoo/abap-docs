@@ -4,31 +4,31 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) →  [MESSAGE](javascript:call_link\('abapmessage.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_messages.htm) →  [MESSAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage.htm) → 
 
 MESSAGE - INTO
 
-[Quick Reference](javascript:call_link\('abapmessage_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage_shortref.htm)
 
 Syntax
 
-MESSAGE [msg](javascript:call_link\('abapmessage_msg.htm'\)) [*\[*WITH dobj1 ... dobj4*\]*](javascript:call_link\('abapmessage.htm'\))
+MESSAGE [msg](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage_msg.htm) [*\[*WITH dobj1 ... dobj4*\]*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage.htm)
         INTO text.
 
 Effect
 
-The statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)) with the addition INTO assigns the short text of the message to the target field text. The [message type](javascript:call_link\('abenmessage_type_glosry.htm'\) "Glossary Entry") does not matter. The program flow is not interrupted and no [message processing](javascript:call_link\('abenabap_messages_types.htm'\)) takes place. The following can be specified for text:
+The statement [MESSAGE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage.htm) with the addition INTO assigns the short text of the message to the target field text. The [message type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmessage_type_glosry.htm "Glossary Entry") does not matter. The program flow is not interrupted and no [message processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_messages_types.htm) takes place. The following can be specified for text:
 
 -   An existing character-like variable.
     
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)), where a variable of type string is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm), where a variable of type string is declared.
     
 
-The addition INTO cannot be specified when a text [text](javascript:call_link\('abapmessage_text.htm'\)) is displayed and not when an object reference variable is specified in [msg](javascript:call_link\('abapmessage_text.htm'\)).
+The addition INTO cannot be specified when a text [text](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage_text.htm) is displayed and not when an object reference variable is specified in [msg](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmessage_text.htm).
 
 Example
 
-The short text of a message sent in a function module is assigned to the data object mtext (declared inline) when handling the exception [error\_message](javascript:call_link\('abapcall_function_parameter.htm'\)) using the relevant system fields.
+The short text of a message sent in a function module is assigned to the data object mtext (declared inline) when handling the exception [error\_message](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_function_parameter.htm) using the relevant system fields.
 
 CALL FUNCTION... EXCEPTIONS error\_message = 4.
 IF sy-subrc = 4.

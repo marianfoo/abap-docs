@@ -4,13 +4,13 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Built-In Data Objects
 
--   [Obsolete System Fields](javascript:call_link\('abensystem_fields_obsolete.htm'\))
--   [The Built-In Structure screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\))
+-   [Obsolete System Fields](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_fields_obsolete.htm)
+-   [The Built-In Structure screen](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_structure_obsolete.htm)
 
 Continue
-[Obsolete System Fields](javascript:call_link\('abensystem_fields_obsolete.htm'\))
-[The Built-In Structure screen](javascript:call_link\('abenscreen_structure_obsolete.htm'\))
+[Obsolete System Fields](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_fields_obsolete.htm)
+[The Built-In Structure screen](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_structure_obsolete.htm)

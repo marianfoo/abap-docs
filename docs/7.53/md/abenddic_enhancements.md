@@ -4,30 +4,30 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_classical_objects.htm) → 
 
 Enhancements
 
-A [structure](javascript:call_link\('abenddic_structures.htm'\)), [database table](javascript:call_link\('abenddic_database_tables.htm'\)), [database view](javascript:call_link\('abenddic_database_views.htm'\)), or [domain](javascript:call_link\('abenddic_domains.htm'\)) in ABAP Dictionary created in a system can be enhanced in a different system using customizing includes, append structures, or append views without making any modifications. Customizing includes indicate points already marked by SAP for enhancements, whereas append structures can be appended anywhere.
+A [structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_structures.htm), [database table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_tables.htm), [database view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_database_views.htm), or [domain](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_domains.htm) in ABAP Dictionary created in a system can be enhanced in a different system using customizing includes, append structures, or append views without making any modifications. Customizing includes indicate points already marked by SAP for enhancements, whereas append structures can be appended anywhere.
 
--   [Customizing includes](javascript:call_link\('abenddic_customizing_includes.htm'\))
+-   [Customizing includes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_customizing_includes.htm)
 
--   [Append structures](javascript:call_link\('abenddic_append_structures.htm'\))
+-   [Append structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_append_structures.htm)
 
--   [Append views](javascript:call_link\('abenddic_append_views.htm'\))
+-   [Append views](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_append_views.htm)
 
--   [Fixed value appends](javascript:call_link\('abenddic_fixed_value_appends.htm'\))
+-   [Fixed value appends](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_fixed_value_appends.htm)
 
-[Search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry") can be expanded using [append search helps](javascript:call_link\('abenappend_search_help_glosry.htm'\) "Glossary Entry").
+[Search helps](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensearch_help_glosry.htm "Glossary Entry") can be expanded using [append search helps](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenappend_search_help_glosry.htm "Glossary Entry").
 
-Extensions are connection to [Switch Framework](javascript:call_link\('abenswitch_framework_glosry.htm'\) "Glossary Entry") whenever they are defined in a [package](javascript:call_link\('abenpackage_glosry.htm'\) "Glossary Entry") that is assigned a [switchSchalter](javascript:call_link\('abenswitch_german_glosry.htm'\) "Glossary Entry").
+Extensions are connection to [Switch Framework](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenswitch_framework_glosry.htm "Glossary Entry") whenever they are defined in a [package](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpackage_glosry.htm "Glossary Entry") that is assigned a [switchSchalter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenswitch_german_glosry.htm "Glossary Entry").
 
 Note
 
-For [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"), [CDS view enhancements](javascript:call_link\('abencds_view_extend_glosry.htm'\) "Glossary Entry") are an option for enhancements that is based on the CDS DDL in ABAP CDS.
+For [CDS views](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry"), [CDS view enhancements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_extend_glosry.htm "Glossary Entry") are an option for enhancements that is based on the CDS DDL in ABAP CDS.
 
 Continue
-[Customizing Includes](javascript:call_link\('abenddic_customizing_includes.htm'\))
-[Append Structures](javascript:call_link\('abenddic_append_structures.htm'\))
-[Append Views](javascript:call_link\('abenddic_append_views.htm'\))
-[Fixed Value Appends](javascript:call_link\('abenddic_fixed_value_appends.htm'\))
+[Customizing Includes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_customizing_includes.htm)
+[Append Structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_append_structures.htm)
+[Append Views](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_append_views.htm)
+[Fixed Value Appends](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_fixed_value_appends.htm)

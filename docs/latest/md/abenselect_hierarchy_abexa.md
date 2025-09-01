@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenabap_sql_reading.htm'\)) →  [SELECT, clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT, FROM](javascript:call_link\('abapfrom_clause.htm'\)) →  [SELECT, FROM data\_source](javascript:call_link\('abapselect_data_source.htm'\)) →  [SELECT, FROM hierarchy\_data](javascript:call_link\('abenselect_hierarchy_data.htm'\)) →  [SELECT, FROM hierarchy](javascript:call_link\('abenselect_hierarchy.htm'\)) →  [SELECT, FROM HIERARCHY](javascript:call_link\('abenselect_hierarchy_generator.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql.htm) →  [ABAP SQL - Read Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_reading.htm) →  [SELECT, clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_clauses.htm) →  [SELECT, FROM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfrom_clause.htm) →  [SELECT, FROM data\_source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_data_source.htm) →  [SELECT, FROM hierarchy\_data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_hierarchy_data.htm) →  [SELECT, FROM hierarchy](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_hierarchy.htm) →  [SELECT, FROM HIERARCHY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_hierarchy_generator.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SELECT%2C%20Hierarchy%20Generator%2C%20BULK%20vs.%20INCREMENTAL%2C%20ABENSELECT_HIERARCHY_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%
 20for%20improvement:)
 
 SELECT, Hierarchy Generator, BULK vs. INCREMENTAL
 
-This example demonstrates how the addition [LOAD INCREMENTAL](javascript:call_link\('abenselect_hierarchy_generator.htm'\)) can speed up the generation of a hierarchy.
+This example demonstrates how the addition [LOAD INCREMENTAL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_hierarchy_generator.htm) can speed up the generation of a hierarchy.
 
 Source Code   
 
@@ -145,7 +145,7 @@ ENDCLASS.
 
 Description   
 
-The table DEMO\_GUID\_HIERA serves as data source for a hierarchy. The user can enter how many rows in total are inserted, and how many of them are part of the hierarchy. Then, the table is filled with [GUIDs](javascript:call_link\('abenguid_glosry.htm'\) "Glossary Entry") and the rows that build a hierarchy tree are chosen randomly.
+The table DEMO\_GUID\_HIERA serves as data source for a hierarchy. The user can enter how many rows in total are inserted, and how many of them are part of the hierarchy. Then, the table is filled with [GUIDs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenguid_glosry.htm "Glossary Entry") and the rows that build a hierarchy tree are chosen randomly.
 
 Based on this table, a hierarchy is generated, once with the addition LOAD BULK and once with LOAD INCREMENTAL. The time of hierarchy generation, which is done in DO\-loops with 10 repetitions, is measured and compared.
 

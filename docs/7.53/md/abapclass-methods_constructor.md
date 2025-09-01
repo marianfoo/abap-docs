@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [Methods](javascript:call_link\('abenmethods.htm'\)) →  [CLASS-METHODS](javascript:call_link\('abapclass-methods.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclasses_and_interfaces.htm) →  [Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_ifac_components.htm) →  [Methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethods.htm) →  [CLASS-METHODS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass-methods.htm) → 
 
 CLASS-METHODS - class\_constructor
 
-[Quick Reference](javascript:call_link\('abapclass-methods_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass-methods_shortref.htm)
 
 Syntax
 
@@ -16,11 +16,11 @@ CLASS-METHODS class\_constructor.
 
 Effect
 
-This statement declares the static constructor class\_constructor of a class. It can only be used in the [public](javascript:call_link\('abenpublic_glosry.htm'\) "Glossary Entry") [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry") of the declaration part of a class.
+This statement declares the static constructor class\_constructor of a class. It can only be used in the [public](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpublic_glosry.htm "Glossary Entry") [visibility section](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvisibility_section_glosry.htm "Glossary Entry") of the declaration part of a class.
 
 Each class has a predefined method class\_constructor in its public visibility section. Its functions can be implemented class-specifically by explicit declaration. Without explicit declaration, the static constructor is empty.
 
-The static constructor is called automatically exactly once per class and [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") before the class is first accessed. The class is accessed when an instance of the class is created or a static component is addressed using the class component selector. The exception here is addressing a type or a constant of the class.
+The static constructor is called automatically exactly once per class and [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") before the class is first accessed. The class is accessed when an instance of the class is created or a static component is addressed using the class component selector. The exception here is addressing a type or a constant of the class.
 
 When a subclass is first accessed, the inheritance tree is searched for the next-highest superclass whose static constructor was not yet called. Then the static constructor of this superclass is executed followed by those of all subsequent subclasses up to the subclass in question. The static constructor must be fully executed, otherwise a runtime error occurs.
 
@@ -40,7 +40,7 @@ Notes
     
 -   In static constructors, class-based exceptions cannot be declared using RAISING, since it is generally not specified whether the consumer of a class is the first consumer and whether or not this consumer must handle exceptions propagated by the static constructor.
     
--   If a [static component of a superclass](javascript:call_link\('abeninheritance_statical.htm'\)) is addressed using the name of a subclass, the superclass is addressed and its static constructor is executed, but not the static constructor of the subclass.
+-   If a [static component of a superclass](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninheritance_statical.htm) is addressed using the name of a subclass, the superclass is addressed and its static constructor is executed, but not the static constructor of the subclass.
     
 -   An unsuccessful dynamic access to a nonexistent component of a class does not count as an access to the class and the static constructor is not executed in this case.
     

@@ -4,21 +4,21 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Data and Communication Interfaces
 
--   [Transactional RFC](javascript:call_link\('abenrfc_obsolete.htm'\))
+-   [Transactional RFC](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_obsolete.htm)
 
--   [ABAP and XML](javascript:call_link\('abenabap_xml_obsolete.htm'\))
+-   [ABAP and XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_obsolete.htm)
 
--   [CPI-C Interface](javascript:call_link\('abenabap_cpic.htm'\))
+-   [CPI-C Interface](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_cpic.htm)
 
--   [ABAP and JavaScript](javascript:call_link\('abenabap_java_script.htm'\))
+-   [ABAP and JavaScript](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_java_script.htm)
 
 Continue
-[Obsolete Transactional RFC](javascript:call_link\('abenrfc_obsolete.htm'\))
-[Obsolete Wait](javascript:call_link\('abenwait_obsolete.htm'\))
-[Obsolete XML Binding](javascript:call_link\('abenabap_xml_obsolete.htm'\))
-[CPI-C Interface](javascript:call_link\('abenabap_cpic.htm'\))
-[ABAP and JavaScript](javascript:call_link\('abenabap_java_script.htm'\))
+[Obsolete Transactional RFC](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_obsolete.htm)
+[Obsolete Wait](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwait_obsolete.htm)
+[Obsolete XML Binding](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_obsolete.htm)
+[CPI-C Interface](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_cpic.htm)
+[ABAP and JavaScript](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_java_script.htm)

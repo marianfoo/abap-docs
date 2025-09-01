@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) →  [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_cluster.htm) →  [EXPORT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapexport_data_cluster.htm) → 
 
 Exceptions in EXPORT
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -20,7 +20,7 @@ CX\_SY\_COMPRESSION\_ERROR
 CX\_SY\_EXPIMP\_DB\_SQL\_ERROR
 
 -   Cause: SQL error in export to the database.
-    Runtime error: [DBIF\_...](javascript:call_link\('abenopensql_exceptions.htm'\))
+    Runtime error: [DBIF\_...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql_exceptions.htm)
 
 CX\_SY\_EXPORT\_BUFFER\_NO\_MEMORY
 

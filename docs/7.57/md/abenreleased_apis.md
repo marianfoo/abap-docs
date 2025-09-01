@@ -4,36 +4,47 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Rules for Strict ABAP](javascript:call_link\('abenabap_strict_rules.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Rules for Strict ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_strict_rules.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Released APIs, ABENRELEASED_APIS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugges
 tion for improvement:)
 
 Released APIs
 
-The following tables show all transportable [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") of the current system that are [released APIs](javascript:call_link\('abenreleased_api_glosry.htm'\) "Glossary Entry") and can be used in [restricted ABAP language versions](javascript:call_link\('abenrestricted_version_glosry.htm'\) "Glossary Entry").
+The following tables show all transportable [repository objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_object_glosry.htm "Glossary Entry") of the current system that are [released APIs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreleased_api_glosry.htm "Glossary Entry") and can be used in [restricted ABAP language versions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrestricted_version_glosry.htm "Glossary Entry").
 
 -   The first three columns show the repository objects or parts of repository objects.
--   Column Release Contract shows the [release contract](javascript:call_link\('abenrelease_contract_glosry.htm'\) "Glossary Entry") that is used for releasing the API.
--   The subsequent columns show, whether the API is released for restricted ABAP language version [ABAP for Cloud Development](javascript:call_link\('abenabap_for_sap_cloud_glosry.htm'\) "Glossary Entry"), [ABAP for Key Users](javascript:call_link\('abenabap_for_key_users_glosry.htm'\) "Glossary Entry") or for both
+-   Column Release Contract shows the [release contract](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrelease_contract_glosry.htm "Glossary Entry") that is used for releasing the API.
+-   The subsequent columns show, whether the API is released for restricted ABAP language version [ABAP for Cloud Development](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_sap_cloud_glosry.htm "Glossary Entry"), [ABAP for Key Users](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_key_users_glosry.htm "Glossary Entry") or for both
 
-Any repository object that can be used in a restricted ABAP language versions must be classified with an appropriate release contract ( [C1 contract](javascript:call_link\('abenc1_contract_glosry.htm'\) "Glossary Entry") in general). But not all repository objects with a release contract can be used in a restricted language version.
+Any repository object that can be used in a restricted ABAP language versions must be classified with an appropriate release contract ( [C1 contract](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc1_contract_glosry.htm "Glossary Entry") in general). But not all repository objects with a release contract can be used in a restricted language version.
 
 Hint
 
 You can execute program ABAP\_DOCU\_RELEASED\_APIS, where you can restrict the result to certain release contracts or language versions and also select non-transportable objects.
 
--   [AUTH - Authorization Check Fields](#abenreleased-apis-1-------bdef---behavior-definition---@ITOC@@ABENRELEASED_APIS_2)
--   [CHKC - Check category](#abenreleased-apis-3-------chko---check---@ITOC@@ABENRELEASED_APIS_4)
--   [CHKV - Check Variant](#abenreleased-apis-5-------clas---class--abap-objects----@ITOC@@ABENRELEASED_APIS_6)
--   [DDLS - Data Definition Language Source](#abenreleased-apis-7-------doma---domain---@ITOC@@ABENRELEASED_APIS_8)
--   [DTEL - Data Element](#abenreleased-apis-9-------enhs---enhancement-spot---@ITOC@@ABENRELEASED_APIS_10)
--   [FDT0 - FDT/BRFplus: System Application](#abenreleased-apis-11-------fugr---function-group---@ITOC@@ABENRELEASED_APIS_12)
--   [G4BA - SAP Gateway OData V4 Backend Service Group & Assigments](#abenreleased-apis-13-------intf---interface--abap-objects----@ITOC@@ABENRELEASED_APIS_14)
--   [MSAG - Message Class](#abenreleased-apis-15-------sql1---sql-service-binding--sql1----@ITOC@@ABENRELEASED_APIS_16)
--   [SUSO - Authorization object](#abenreleased-apis-17-------tabl---table---@ITOC@@ABENRELEASED_APIS_18)
--   [TTYP - Table Type](#abenreleased-apis-19-------type---type-group---@ITOC@@ABENRELEASED_APIS_20)
--   [VIEW - View](#abenreleased-apis-21-------wdca---web-dynpro-application-configuration---@ITOC@@ABENRELEASED_APIS_22)
+-   [AUTH - Authorization Check Fields](#@@ITOC@@ABENRELEASED_APIS_1)
+-   [BDEF - Behavior Definition](#@@ITOC@@ABENRELEASED_APIS_2)
+-   [CHKC - Check category](#@@ITOC@@ABENRELEASED_APIS_3)
+-   [CHKO - Check](#@@ITOC@@ABENRELEASED_APIS_4)
+-   [CHKV - Check Variant](#@@ITOC@@ABENRELEASED_APIS_5)
+-   [CLAS - Class (ABAP Objects)](#@@ITOC@@ABENRELEASED_APIS_6)
+-   [DDLS - Data Definition Language Source](#@@ITOC@@ABENRELEASED_APIS_7)
+-   [DOMA - Domain](#@@ITOC@@ABENRELEASED_APIS_8)
+-   [DTEL - Data Element](#@@ITOC@@ABENRELEASED_APIS_9)
+-   [ENHS - Enhancement Spot](#@@ITOC@@ABENRELEASED_APIS_10)
+-   [FDT0 - FDT/BRFplus: System Application](#@@ITOC@@ABENRELEASED_APIS_11)
+-   [FUGR - Function Group](#@@ITOC@@ABENRELEASED_APIS_12)
+-   [G4BA - SAP Gateway OData V4 Backend Service Group & Assigments](#@@ITOC@@ABENRELEASED_APIS_13)
+-   [INTF - Interface (ABAP Objects)](#@@ITOC@@ABENRELEASED_APIS_14)
+-   [MSAG - Message Class](#@@ITOC@@ABENRELEASED_APIS_15)
+-   [SQL1 - SQL Service Binding (SQL1)](#@@ITOC@@ABENRELEASED_APIS_16)
+-   [SUSO - Authorization object](#@@ITOC@@ABENRELEASED_APIS_17)
+-   [TABL - Table](#@@ITOC@@ABENRELEASED_APIS_18)
+-   [TTYP - Table Type](#@@ITOC@@ABENRELEASED_APIS_19)
+-   [TYPE - Type Group](#@@ITOC@@ABENRELEASED_APIS_20)
+-   [VIEW - View](#@@ITOC@@ABENRELEASED_APIS_21)
+-   [WDCA - Web Dynpro Application Configuration](#@@ITOC@@ABENRELEASED_APIS_22)
 -   [XSLT - Transformation](#@@ITOC@@ABENRELEASED_APIS_23)
 
 AUTH - Authorization Check Fields   

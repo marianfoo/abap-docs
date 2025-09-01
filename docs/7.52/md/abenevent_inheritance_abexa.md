@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [Events](javascript:call_link\('abenevents.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses_and_interfaces.htm) →  [Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_ifac_components.htm) →  [Events](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevents.htm) → 
 
 Inheritance Events
 
-The example demonstrates the behavior of [inheritance events](javascript:call_link\('abeninheritance_events.htm'\)).
+The example demonstrates the behavior of [inheritance events](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance_events.htm).
 
 Source Code
 
@@ -126,6 +126,6 @@ In a c1 superclass, a static event ce1 and an instance event ie1 are declared. T
 
 In the c4 class, event handlers are declared in c2 for the events inherited from c1. The main method of the event\_demo class registers events and calls all methods which can trigger events, whereby different possibilities are used to address the methods. The output displays an "X" after the method call for a handled event.
 
--   The event handler cm4, declared for the c2 class, can only handle events which are triggered in this class or in its subclasses. Events which are triggered by the static method cm1 in c1, are not handled, irrelevant of the class name which is specified for the call (also refer to [Inheritance and Static Components](javascript:call_link\('abeninheritance_statical.htm'\))).
+-   The event handler cm4, declared for the c2 class, can only handle events which are triggered in this class or in its subclasses. Events which are triggered by the static method cm1 in c1, are not handled, irrelevant of the class name which is specified for the call (also refer to [Inheritance and Static Components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance_statical.htm)).
 
 -   The event handler im4, declared for the c2 class, can also only handle events which are triggered in this class or in its subclasses. Unlike when calling static methods, the class of the object is always addressed when addressing an object using an object reference, and triggered events in the inherited method im1 of the c2 and c3 classes are handled.

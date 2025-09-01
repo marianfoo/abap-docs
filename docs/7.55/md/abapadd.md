@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Calculation Statements](javascript:call_link\('abencomputing_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_internal_obsolete.htm) →  [Obsolete Calculation Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomputing_obsolete.htm) → 
 
 ADD
 
@@ -16,17 +16,17 @@ Effect
 
 This statement has the same effect as the statement
 
-[dobj2 = dobj2 + dobj1.](javascript:call_link\('abenequals_arith_expr.htm'\))
+[dobj2 = dobj2 + dobj1.](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenequals_arith_expr.htm)
 
-The content of dobj1 is added to the content of dobj2 and the result is assigned to dobj2. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined like an [arithmetic expression](javascript:call_link\('abapcompute_arith.htm'\)).
+The content of dobj1 is added to the content of dobj2 and the result is assigned to dobj2. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencalculation_type_glosry.htm "Glossary Entry") is determined like an [arithmetic expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcompute_arith.htm).
 
 Hint
 
-The statement shown here has been replaced by [calculation assignments](javascript:call_link\('abencalculation_assignment_glosry.htm'\) "Glossary Entry") with the operator [+=](javascript:call_link\('abencalculation_assignments.htm'\)) in which the operands can also be specified as expressions.
+The statement shown here has been replaced by [calculation assignments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencalculation_assignment_glosry.htm "Glossary Entry") with the operator [+=](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencalculation_assignments.htm) in which the operands can also be specified as expressions.
 
 Example
 
-The variable result\_old has the value 10 after the calculation statements. The syntax for the [calculation assignment](javascript:call_link\('abencalculation_assignments.htm'\)) with the same meaning is also shown.
+The variable result\_old has the value 10 after the calculation statements. The syntax for the [calculation assignment](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencalculation_assignments.htm) with the same meaning is also shown.
 
 DATA result\_old TYPE i.
 DO 10 TIMES.
@@ -38,7 +38,7 @@ DO 10 TIMES.
 ENDDO.
 ASSERT result\_old = result\_new.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 

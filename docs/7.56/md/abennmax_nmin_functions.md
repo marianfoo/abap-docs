@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmathematical_functions.htm) → 
 
 num\_func - nmax, nmin
 
@@ -14,16 +14,16 @@ Syntax
 
 Effect
 
-These [built-in functions](javascript:call_link\('abenbuilt_in_functions.htm'\)) return the value of the largest or smallest of the passed arguments. A minimum of two arguments, arg1 and arg2 must, and a maximum of nine arguments can be passed. Here, the optional input parameters val3 to val9 must be filled in ascending order without gaps. The arguments arg1 to arg9 are [numeric expression positions](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry").
+These [built-in functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_functions.htm) return the value of the largest or smallest of the passed arguments. A minimum of two arguments, arg1 and arg2 must, and a maximum of nine arguments can be passed. Here, the optional input parameters val3 to val9 must be filled in ascending order without gaps. The arguments arg1 to arg9 are [numeric expression positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry").
 
 The following applies to the data type of the return value:
 
--   Outside of an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), a [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined from all arguments and used to perform the comparison. The calculation type is determined just like an [arithmetic expression](javascript:call_link\('abenarith_type.htm'\)) and also determines the data type of the return value.
--   Within an arithmetic expression, the arguments of the function contribute to the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") of the entire expression and the function is calculated using the calculation type. If an argument itself is an arithmetic expression, its operands contribute to the entire calculation type and the argument is also calculated using this type.
+-   Outside of an [arithmetic expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), a [calculation type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculation_type_glosry.htm "Glossary Entry") is determined from all arguments and used to perform the comparison. The calculation type is determined just like an [arithmetic expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarith_type.htm) and also determines the data type of the return value.
+-   Within an arithmetic expression, the arguments of the function contribute to the [calculation type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculation_type_glosry.htm "Glossary Entry") of the entire expression and the function is calculated using the calculation type. If an argument itself is an arithmetic expression, its operands contribute to the entire calculation type and the argument is also calculated using this type.
 
 Hints
 
--   The extremum functions [cmax](javascript:call_link\('abencmax_cmin_functions.htm'\)) and [cmin](javascript:call_link\('abencmax_cmin_functions.htm'\)) can be used to determine character-like extreme values.
+-   The extremum functions [cmax](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencmax_cmin_functions.htm) and [cmin](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencmax_cmin_functions.htm) can be used to determine character-like extreme values.
 -   When using two input parameters:
     
     result =  nmax*|*nmin( val1 = arg1 val2 = arg2 )
@@ -41,7 +41,7 @@ When using more than two input parameters, an equivalent control structure would
 
 Example
 
-Determination of the smaller of two time stamps in packed numbers, whereby the initial value of the conditional operator [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)) is not regarded as the smallest value.
+Determination of the smaller of two time stamps in packed numbers, whereby the initial value of the conditional operator [COND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconditional_expression_cond.htm) is not regarded as the smallest value.
 
 CONSTANTS max\_ts TYPE timestamp VALUE 999999999999999.
 DATA: ts1 TYPE timestamp,
@@ -55,4 +55,4 @@ DATA(min\_ts) =
 
 Executable Example
 
-[Extremum Functions nmax, nmin](javascript:call_link\('abennmax_nmin_function_abexa.htm'\))
+[Extremum Functions nmax, nmin](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennmax_nmin_function_abexa.htm)

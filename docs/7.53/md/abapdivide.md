@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Statements for Numeric Calculations](javascript:call_link\('abennum_processing_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompute_expressions.htm) →  [Statements for Numeric Calculations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennum_processing_statements.htm) → 
 
 DIVIDE
 
-[Quick Reference](javascript:call_link\('abapdivide_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide_shortref.htm)
 
 Syntax
 
@@ -18,22 +18,22 @@ Effect
 
 This statement has the same effect as the statement
 
-[dobj1 = dobj1 / dobj2.](javascript:call_link\('abenequals_arith_expr.htm'\))
+[dobj1 = dobj1 / dobj2.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_expr.htm)
 
-The content of dobj1 is divided by the content of dobj2 and the result is assigned to dobj1. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined like an [arithmetic expression](javascript:call_link\('abapcompute_arith.htm'\)).
+The content of dobj1 is divided by the content of dobj2 and the result is assigned to dobj1. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalculation_type_glosry.htm "Glossary Entry") is determined like an [arithmetic expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_arith.htm).
 
 Programming Guidelines
 
--   [Preventing Division by Zero](javascript:call_link\('abendivision_zero_guidl.htm'\) "Guideline")
+-   [Preventing Division by Zero](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendivision_zero_guidl.htm "Guideline")
     
--   [Use the operator format](javascript:call_link\('abencalc_expresssion_guidl.htm'\) "Guideline")
+-   [Use the operator format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalc_expresssion_guidl.htm "Guideline")
     
 
 Notes
 
 -   Division by the value 0 is undefined and raises a handleable exception. The only situation where division by 0 does not raise an exception is if the dividend is also 0. Here, the result is set to 0.
     
--   One obsolete form of the statement DIVIDE is [DIVIDE-CORRESPONDING](javascript:call_link\('abapdivide-corresponding.htm'\)).
+-   One obsolete form of the statement DIVIDE is [DIVIDE-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide-corresponding.htm).
     
 
 Example
@@ -44,7 +44,7 @@ DATA percentage TYPE p DECIMALS 2.
 percentage = '85'.
 DIVIDE percentage BY 100.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) →  [RFC - CALL FUNCTION](javascript:call_link\('abapcall_function_destination-.htm'\)) →  [CALL FUNCTION STARTING NEW TASK](javascript:call_link\('abapcall_function_starting.htm'\)) →  [RECEIVE](javascript:call_link\('abapreceive.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [RFC - Remote Function Call](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc.htm) →  [RFC - CALL FUNCTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_destination-.htm) →  [CALL FUNCTION STARTING NEW TASK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_starting.htm) →  [RECEIVE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreceive.htm) → 
 
 RECEIVE, parameter\_list
 
-[Short Reference](javascript:call_link\('abapreceive_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreceive_shortref.htm)
 
 Syntax
 
@@ -22,9 +22,9 @@ Syntax
 
 Effect
 
-These additions are used to pass the specified formal parameters of the function module func specified after [RECEIVE](javascript:call_link\('abapreceive.htm'\)) to the actual parameter of the callback routine in the calling program. The meaning of the additions is the same as in [synchronous RFC](javascript:call_link\('abapcall_function_destination_para.htm'\)). However, values are only applied by actual parameters specified using CHANGING or TABLES and are not passed.
+These additions are used to pass the specified formal parameters of the function module func specified after [RECEIVE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreceive.htm) to the actual parameter of the callback routine in the calling program. The meaning of the additions is the same as in [synchronous RFC](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_destination_para.htm). However, values are only applied by actual parameters specified using CHANGING or TABLES and are not passed.
 
-If EXCEPTIONS is specified, class-based exception handling is used. Return codes are assigned to the non-class-based exceptions. The same exceptions can be raised as in [synchronous RFC](javascript:call_link\('abapcall_function_destination_para.htm'\)). This means exceptions that are defined in the interface of the function module and the predefined exceptions of the RFC interface. If no exceptions are raised, RECEIVE sets the contents of sy-subrc to 0.
+If EXCEPTIONS is specified, class-based exception handling is used. Return codes are assigned to the non-class-based exceptions. The same exceptions can be raised as in [synchronous RFC](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_function_destination_para.htm). This means exceptions that are defined in the interface of the function module and the predefined exceptions of the RFC interface. If no exceptions are raised, RECEIVE sets the contents of sy-subrc to 0.
 
 Hint
 

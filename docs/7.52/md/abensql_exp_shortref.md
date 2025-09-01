@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  S
 
 sql\_exp - Quick reference
 
-[Reference](javascript:call_link\('abapsql_expr.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm)
 
 Syntax
 
@@ -26,23 +26,23 @@ Expression that is passed to the database system and executed there.
 
 Additions
 
--   [col *|* dobj](javascript:call_link\('abensql_elem.htm'\))
+-   [col *|* dobj](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_elem.htm)
     Column or host variable.
     
--   [operand1 +*|*\-*|*\**|*/ operand2 *\[*+*|*\-*|*\**|*/ operand3 ... *\]*](javascript:call_link\('abensql_arith.htm'\))
+-   [operand1 +*|*\-*|*\**|*/ operand2 *\[*+*|*\-*|*\**|*/ operand3 ... *\]*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_arith.htm)
     Arithmetic expression
     
--   [func( arg1*\[*, arg2*\]*... )](javascript:call_link\('abensql_arith_func.htm'\))
+-   [func( arg1*\[*, arg2*\]*... )](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_arith_func.htm)
     Numeric function or string function.
     
--   [cast( operand AS dtype )](javascript:call_link\('abensql_cast.htm'\))
+-   [cast( operand AS dtype )](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_cast.htm)
     Type modification.
     
--   [operand1 && operand2 *\[*&& operand3 ... *\]*](javascript:call_link\('abensql_string.htm'\))
+-   [operand1 && operand2 *\[*&& operand3 ... *\]*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_string.htm)
     Chaining character strings.
     
--   [COALESCE( arg1, arg2 )](javascript:call_link\('abensql_elem.htm'\))
+-   [COALESCE( arg1, arg2 )](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_elem.htm)
     Replacing null value.
     
--   [CASE ... WHEN ... THEN ... ELSE ... END](javascript:call_link\('abensql_case.htm'\))
+-   [CASE ... WHEN ... THEN ... ELSE ... END](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_case.htm)
     Case distinction.

@@ -4,20 +4,20 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 restricted ABAP language version
 
-[ABAP language version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") that is restricted as follows:
+[ABAP language version](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_version_glosry.htm "Glossary Entry") that is restricted as follows:
 
 -   The ABAP language scope is limited.
--   Access to other repository objects is restricted by [released APIs](javascript:call_link\('abenreleased_api_glosry.htm'\) "Glossary Entry").
+-   Access to other repository objects is restricted by [released APIs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreleased_api_glosry.htm "Glossary Entry").
 
 Restricted ABAP language versions are:
 
--   [ABAP for Cloud Development](javascript:call_link\('abenabap_for_sap_cloud_glosry.htm'\) "Glossary Entry")
--   [ABAP for Key Users](javascript:call_link\('abenabap_for_key_users_glosry.htm'\) "Glossary Entry")
+-   [ABAP for Cloud Development](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_sap_cloud_glosry.htm "Glossary Entry")
+-   [ABAP for Key Users](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_key_users_glosry.htm "Glossary Entry")
 
-[Standard ABAP](javascript:call_link\('abenstandard_abap_glosry.htm'\) "Glossary Entry") is an [unrestricted ABAP language version](javascript:call_link\('abenunrestricted_version_glosry.htm'\) "Glossary Entry").
+[Standard ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_abap_glosry.htm "Glossary Entry") is an [unrestricted ABAP language version](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenunrestricted_version_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenabap_versions_and_apis.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_versions_and_apis.htm)

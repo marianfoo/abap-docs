@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [VALUE, Value Operator](javascript:call_link\('abenconstructor_expression_value.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencreate_objects.htm) →  [VALUE, Value Operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_value.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20VALUE%2C%20Initial%20Value%20for%20All%20Types%2C%20ABENVALUE_CONSTRUCTOR_PARAMS_INIT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20im
 provement:)
@@ -23,7 +23,7 @@ If no parameters are specified in the parentheses, the return value is set to it
 -   xstring for xsequence
 -   decfloat34 for numeric and decfloat
 -   p with the length 8 and no decimal places for generic p
--   The [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry") for a standard table type with generic primary table key
+-   The [standard key](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstandard_key_glosry.htm "Glossary Entry") for a standard table type with generic primary table key
 
 Generic data types other than table types that are explicitly generic with respect to their secondary table keys cannot be made more concrete and produce a syntax error. This applies in particular to the types c, n, and x with generic lengths.
 
@@ -31,7 +31,7 @@ Hints
 
 -   While VALUE with pass by value is used only to construct certain complex values (structures and internal tables), VALUE without pass by value, on the other hand, is a general method for creating type-dependent initial values in any operand positions.
 -   The rules for derivations of the type where # is specified for actual parameters that are passed to generically typed formal parameters can prevent syntax errors in programs that call a procedure and in which the complete typing of a formal parameter is subsequently generalized by converting to a generic type.
--   If dtype or # stand for an [enumerated type](javascript:call_link\('abenenum_type_glosry.htm'\) "Glossary Entry"), its initial value is created according to its [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry").
+-   If dtype or # stand for an [enumerated type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenenum_type_glosry.htm "Glossary Entry"), its initial value is created according to its [base type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbase_type_glosry.htm "Glossary Entry").
 
 Example
 
@@ -62,7 +62,7 @@ ENDCLASS.
 
 Executable Example
 
-[Value Operator, Type Inference](javascript:call_link\('abenvalue_type_inference_abexa.htm'\))
+[Value Operator, Type Inference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_type_inference_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Value Operator, Type Inference](javascript:call_link\('abenvalue_type_inference_abexa.htm'\))
+![Example](exa.gif "Example") [Value Operator, Type Inference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_type_inference_abexa.htm)

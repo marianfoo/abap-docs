@@ -4,20 +4,20 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenoperands.htm) → 
 
 Functions and Expressions in Operand Positions
 
-[Functions](javascript:call_link\('abenfunction_glosry.htm'\) "Glossary Entry") and [expressions](javascript:call_link\('abenexpression_glosry.htm'\) "Glossary Entry") can be specified in certain [reading positions](javascript:call_link\('abenreading_position_glosry.htm'\) "Glossary Entry").
+[Functions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunction_glosry.htm "Glossary Entry") and [expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_glosry.htm "Glossary Entry") can be specified in certain [reading positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreading_position_glosry.htm "Glossary Entry").
 
--   [Functions and Expressions for Operand Positions](javascript:call_link\('abenfunctions_expressions.htm'\))
+-   [Functions and Expressions for Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctions_expressions.htm)
 
--   [Operand Positions for Functions and Expressions](javascript:call_link\('abenexpression_positions.htm'\))
+-   [Operand Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm)
 
 Note
 
 The program DEMO\_EXPRESSIONS shows examples of how functions and expressions are used.
 
 Continue
-[Functions and Expressions for Operand Positions](javascript:call_link\('abenfunctions_expressions.htm'\))
-[Operand Positions for Functions and Expressions](javascript:call_link\('abenexpression_positions.htm'\))
+[Functions and Expressions for Operand Positions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctions_expressions.htm)
+[Operand Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexpression_positions.htm)

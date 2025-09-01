@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Enumerated Objects (Enums)](javascript:call_link\('abenenumerated_types_usage.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Enumerated Objects (Enums)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_types_usage.htm) → 
 
 Enums, Use
 
-This example demonstrates the use of [enumerated types](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry").
+This example demonstrates the use of [enumerated types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_type_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -55,7 +55,7 @@ TYPES:
     l, p,
   END OF ENUM format STRUCTURE fmt.
 
-The use of [enumerated structures](javascript:call_link\('abenenumerated_structure_glosry.htm'\) "Glossary Entry") means that the same name l can occur twice. The method SHOW wraps the method SHOW\_HTML of the class CL\_ABAP\_BROWSER:
+The use of [enumerated structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_structure_glosry.htm "Glossary Entry") means that the same name l can occur twice. The method SHOW wraps the method SHOW\_HTML of the class CL\_ABAP\_BROWSER:
 
 METHOD show.
   cl\_abap\_browser=>show\_html(

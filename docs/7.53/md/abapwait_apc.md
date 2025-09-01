@@ -4,18 +4,18 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [APC - ABAP Push Channels](javascript:call_link\('abenapc.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_channels.htm) →  [APC - ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm) → 
 
 WAIT FOR PUSH CHANNELS
 
-[Quick Reference](javascript:call_link\('abapwait_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
 
 Syntax
 
 WAIT FOR PUSH CHANNELS
-         *\[*[MESSAGING CHANNELS](javascript:call_link\('abapwait_amc.htm'\))*\]*
-         *\[*[ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_until.htm'\))*\]*
-         UNTIL [log\_exp](javascript:call_link\('abenlogexp.htm'\)) *\[*UP TO sec SECONDS*\]*.
+         *\[*[MESSAGING CHANNELS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_amc.htm)*\]*
+         *\[*[ASYNCHRONOUS TASKS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_until.htm)*\]*
+         UNTIL [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm) *\[*UP TO sec SECONDS*\]*.
 
 Extras:
 
@@ -25,7 +25,7 @@ Extras:
 
 Effect
 
-This variant of the statement WAIT can be used only in client programs of [ABAP Push Channels](javascript:call_link\('abenapc.htm'\)). Any [logical expression](javascript:call_link\('abenlogical_expression_glosry.htm'\) "Glossary Entry") can be specified for [log\_exp](javascript:call_link\('abenlogexp.htm'\)) after UNTIL.
+This variant of the statement WAIT can be used only in client programs of [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapc.htm). Any [logical expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_expression_glosry.htm "Glossary Entry") can be specified for [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm) after UNTIL.
 
 -   If the result of log\_exp is false and a receiver is registered for APC messages, the program waits until an ON\_MESSAGE method is executed for a message sent by a sender program and checks the logical expression again:
     
@@ -41,7 +41,7 @@ This variant of the statement WAIT can be used only in client programs of [ABAP 
 -   If the logical expression is true, the execution of the program is not interrupted (regardless of whether a receiver is registered for APC messages) and sy-subrc is set to the value 0.
     
 
-If the statement WAIT interrupts the program, the [work process](javascript:call_link\('abenwork_process_glosry.htm'\) "Glossary Entry") is changed and a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") is executed (except in [updates](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry"). For this reason, WAIT must not be used between ABAP SQL statements that open or close a [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry").
+If the statement WAIT interrupts the program, the [work process](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwork_process_glosry.htm "Glossary Entry") is changed and a [database commit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry") is executed (except in [updates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenupdate_glosry.htm "Glossary Entry"). For this reason, WAIT must not be used between ABAP SQL statements that open or close a [database cursor](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_cursor_glosry.htm "Glossary Entry").
 
 System Fields
 
@@ -55,7 +55,7 @@ The logical expression log\_exp is true.
 
 4
 
-The logical expression log\_exp is false. Also, no receiver is registered for APC messages in the current program and no registrations for AMC messages or [asynchronous function calls](javascript:call_link\('abenasynchronous_rfc_glosry.htm'\) "Glossary Entry") exist when the additions MESSAGING CHANNELS or ASYNCHRONOUS TASKS are used.
+The logical expression log\_exp is false. Also, no receiver is registered for APC messages in the current program and no registrations for AMC messages or [asynchronous function calls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenasynchronous_rfc_glosry.htm "Glossary Entry") exist when the additions MESSAGING CHANNELS or ASYNCHRONOUS TASKS are used.
 
 8
 
@@ -75,7 +75,7 @@ Addition 2
 
 Effect
 
-If these additions are specified, this variant of the statement WAIT is combined with the variants [WAIT FOR MESSAGING CHANNELS](javascript:call_link\('abapwait_amc.htm'\)) or [WAIT FOR ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_until.htm'\)). The program flow described in the variants is added to the program flow described above. The WAIT statement then also waits for APC messages or for asynchronously called functions to be called and does not just wait for AMC messages.
+If these additions are specified, this variant of the statement WAIT is combined with the variants [WAIT FOR MESSAGING CHANNELS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_amc.htm) or [WAIT FOR ASYNCHRONOUS TASKS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_until.htm). The program flow described in the variants is added to the program flow described above. The WAIT statement then also waits for APC messages or for asynchronously called functions to be called and does not just wait for AMC messages.
 
 Addition 3
 
@@ -85,7 +85,7 @@ Effect
 
 If UP TO is specified, a maximum time sec can be specified in seconds and the statement waits for APC for this time.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

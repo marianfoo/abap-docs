@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrobust_abap_guidl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_prog_technique_guidl.htm) → 
 
 Using Dynamic Programming Techniques
 
@@ -22,7 +22,7 @@ The use of dynamic programming techniques includes the following:
 
 -   Generic program development, where parts of the statements are specified using dynamic tokens or entire programs are not created until runtime
 
-In this sense, handling reference variables can also be considered a dynamic technique. The dynamic type (the object to which the reference points) can be more specific than the static type of the variable, which entails polymorphic behavior and becomes apparent in assignments made using [up casts](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") or [down casts](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry").
+In this sense, handling reference variables can also be considered a dynamic technique. The dynamic type (the object to which the reference points) can be more specific than the static type of the variable, which entails polymorphic behavior and becomes apparent in assignments made using [up casts](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenup_cast_glosry.htm "Glossary Entry") or [down casts](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendown_cast_glosry.htm "Glossary Entry").
 
 Rule
 
@@ -32,9 +32,9 @@ Use dynamic programming techniques only when this is necessary and reasonable. U
 
 Details
 
-The advantage of dynamic programming techniques is an increased flexibility when creating programs. Dynamic programming techniques enable flexible and generic services to be developed that meet various requirements. The price to be paid for this advantage is that dynamic programming techniques may decrease the static checkability, legibility, maintainability, testability, performance, and also [security](javascript:call_link\('abenabap_security.htm'\)). [Security standards](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline") may even prohibit the use of high-risk dynamic programming techniques.
+The advantage of dynamic programming techniques is an increased flexibility when creating programs. Dynamic programming techniques enable flexible and generic services to be developed that meet various requirements. The price to be paid for this advantage is that dynamic programming techniques may decrease the static checkability, legibility, maintainability, testability, performance, and also [security](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_security.htm). [Security standards](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencorrectness_quality_guidl.htm "Guideline") may even prohibit the use of high-risk dynamic programming techniques.
 
-This section describes various dynamic programming techniques. These range from [using strings](javascript:call_link\('abenstrings_guidl.htm'\) "Guideline"), which we explicitly recommend, and [using internal tables](javascript:call_link\('abenitab_guidl.htm'\) "Guideline"), which form a basis of ABAP programming, to [generating entire programs](javascript:call_link\('abengeneric_progr_guidl.htm'\) "Guideline"), which we advise against. The higher the dynamics, the more comprehensive the precautionary measures to be taken when using these techniques. Already the simple access to data objects involves a corresponding partial aspect, which was addressed in the rule for [Runtime Errors when Accessing Data Objects](javascript:call_link\('abenruntime_error_dyn_proc_guidl.htm'\) "Guideline"). The rules in this section expand these specific rules and provide a more general framework.
+This section describes various dynamic programming techniques. These range from [using strings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstrings_guidl.htm "Guideline"), which we explicitly recommend, and [using internal tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_guidl.htm "Guideline"), which form a basis of ABAP programming, to [generating entire programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneric_progr_guidl.htm "Guideline"), which we advise against. The higher the dynamics, the more comprehensive the precautionary measures to be taken when using these techniques. Already the simple access to data objects involves a corresponding partial aspect, which was addressed in the rule for [Runtime Errors when Accessing Data Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenruntime_error_dyn_proc_guidl.htm "Guideline"). The rules in this section expand these specific rules and provide a more general framework.
 
 Always consider the following aspects when deploying dynamic techniques:
 
@@ -46,6 +46,6 @@ Always consider the following aspects when deploying dynamic techniques:
 
 -   More tests are required, since numerous states of a dynamic program and possible error situations must be checked.
 
--   If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the predefined function [escape](javascript:call_link\('abenescape_functions.htm'\)).
+-   If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the predefined function [escape](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenescape_functions.htm).
 
 The significance of these aspects differs for the various dynamic programming techniques. For example, a program that uses strings is by no means more complex than a program that works only with text fields. In cases like this, a range of details must nevertheless be taken into account.

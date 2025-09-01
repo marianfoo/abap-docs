@@ -4,8 +4,8 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 Business Application Programming Interface
 
-BAPI for short. A predefined interface to data and processes of an SAP application that is stored in the Business Object Repository with the basic functions Create Objects, Query Object Properties, and Change Object Properties. BAPIs are implemented using remotely called [function modules](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") with the naming convention BAPI\_business\_object\_name\_method\_name that are not allowed to lead a user dialog. The BAPI Explorer that lists the function modules for each application is called using the [transaction code](javascript:call_link\('abentransaction_code_glosry.htm'\) "Glossary Entry") BAPI.
+BAPI for short. A predefined interface to data and processes of an SAP application that is stored in the Business Object Repository with the basic functions Create Objects, Query Object Properties, and Change Object Properties. BAPIs are implemented using remotely called [function modules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfunction_module_glosry.htm "Glossary Entry") with the naming convention BAPI\_business\_object\_name\_method\_name that are not allowed to lead a user dialog. The BAPI Explorer that lists the function modules for each application is called using the [transaction code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentransaction_code_glosry.htm "Glossary Entry") BAPI.

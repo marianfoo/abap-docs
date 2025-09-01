@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (LDB, Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [LDB - Components](javascript:call_link\('abenldb_oview.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (LDB, Obsolete)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb.htm) →  [LDB - Components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_oview.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20LDB%20-%20Database%20Program%2C%20ABENLDB_PROGRAM%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 LDB - Database Program
 
-The database program of a logical database ldb has the name SAPDBldb. It is used as a container for [subroutines](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry") called by the ABAP runtime framework when a logical database is processing. The order of the calls and how they interact with events in executable programs or the function module LDB\_PROCESS is determined by the structure of the logical database.
+The database program of a logical database ldb has the name SAPDBldb. It is used as a container for [subroutines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubroutine_glosry.htm "Glossary Entry") called by the ABAP runtime framework when a logical database is processing. The order of the calls and how they interact with events in executable programs or the function module LDB\_PROCESS is determined by the structure of the logical database.
 
 A logical database program usually contains the following subroutines.
 
@@ -38,17 +38,17 @@ A logical database program usually contains the following subroutines.
     
 -   put\_node
     
-    Called in an order defined by the structure. This subroutine reads the data of the node node and uses the statement [PUT node](javascript:call_link\('abapput.htm'\)) to trigger an appropriate GET event in the ABAP runtime framework. This statement is the central statement of this subroutine. It can be used only in a subroutine of a logical database whose structure contains the node node and whose name starts with put\_node. The PUT statement branches the program flow in accordance with the structure of the logical database. The read depth is determined by the [GET statements](javascript:call_link\('abapget-.htm'\)) of the application program or by the interface parameter CALLBACK of the function module LDB\_PROCESS. First, the subroutine put\_node is processed for the root node. The statement PUT branches the program flow as follows:
+    Called in an order defined by the structure. This subroutine reads the data of the node node and uses the statement [PUT node](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapput.htm) to trigger an appropriate GET event in the ABAP runtime framework. This statement is the central statement of this subroutine. It can be used only in a subroutine of a logical database whose structure contains the node node and whose name starts with put\_node. The PUT statement branches the program flow in accordance with the structure of the logical database. The read depth is determined by the [GET statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget-.htm) of the application program or by the interface parameter CALLBACK of the function module LDB\_PROCESS. First, the subroutine put\_node is processed for the root node. The statement PUT branches the program flow as follows:
     
     -   If the subroutine authority\_check\_node exists in the database program, the statement PUT branches to this subroutine first.
-    -   The PUT statement then triggers a GET event in the runtime framework. If an associated statement [GET node](javascript:call_link\('abapget-.htm'\)) exists in a linked executable program, the corresponding event block is processed. If the parameter CALLBACK of the function module LDB\_PROCESS is filled accordingly, the associated callback routine is called.
+    -   The PUT statement then triggers a GET event in the runtime framework. If an associated statement [GET node](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget-.htm) exists in a linked executable program, the corresponding event block is processed. If the parameter CALLBACK of the function module LDB\_PROCESS is filled accordingly, the associated callback routine is called.
     -   The PUT statement then branches the program flow as follows:
         
         (a) To the next existing subroutine of a direct successor node, if a lower node (not necessarily the direct successor) of the associated subtree in the executable program or function module is requested using GET.
         
         (b) To the subroutine of a node at the same level if the superordinate node branches to a subroutine of this type and if a node of this type is requested in the executable program or function module using GET. Here, the PUT statement starts again with the first step. Branching does not continue in the subroutine of the lowest node in a subtree requested using GET. Instead, the current subroutine is resumed. If a subroutine put\_node is executed completely, the program flow returns to the PUT statement from which it branched to put\_node.
         
-    -   After returning from a subordinate subroutine put\_node, the PUT statement raises the event [GET node LATE](javascript:call_link\('abapget-.htm'\)) in the runtime framework.
+    -   After returning from a subordinate subroutine put\_node, the PUT statement raises the event [GET node LATE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget-.htm) in the runtime framework.
 -   authority\_check\_node
     
     Called automatically by the statement PUT node. An authorization check for the affected node node from the structure of the logical database can be incorporated into this subroutine.
@@ -148,4 +148,4 @@ In this example, the runtime framework calls the routine put\_lfa1 after the eve
 
 Example
 
-See also [Example of a Database Program](javascript:call_link\('abenldb_program_example.htm'\)).
+See also [Example of a Database Program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenldb_program_example.htm).

@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 3.0](javascript:call_link\('abennews-30.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews.htm) →  [Changes in Release 3.0](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-30.htm) → 
 
 Debugger in Release 3.0
 
@@ -21,14 +21,14 @@ Debugger in Release 3.0
 Modification 1
 
 Debugging system dynpros and system programs
-There are now special procedures for handling system programs and system dynpros in ABAP debugging. (System programs are programs with the status 'S' in the program attributes, system dynpros are the [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") of system programs or dynpros that contain only system modules (module name SYST\-...).) ).
+There are now special procedures for handling system programs and system dynpros in ABAP debugging. (System programs are programs with the status 'S' in the program attributes, system dynpros are the [dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") of system programs or dynpros that contain only system modules (module name SYST\-...).) ).
 Beispiele für System-Dynpros: Listen-Dynpro, Selektionsbild-Dynpro, ... .
 System programs and system dynpros must be debugged in system debugging. This can be accessed from anywhere in the system by choosing System → Utilities → Debugging System or by choosing Settings → System Debugging from the debugger.
 
 Modification 2
 
 Debugging ABAP lists
-It is now possible to track how a list is built. As soon as a list is created, it can be displayed by pressing the Display List pushbutton in debugging. The display shows all existing lines with their formats. Ausnahme: The only exception is the current line, which is not formatted until after [NEW-LINE](javascript:call_link\('abapnew-line.htm'\)).
+It is now possible to track how a list is built. As soon as a list is created, it can be displayed by pressing the Display List pushbutton in debugging. The display shows all existing lines with their formats. Ausnahme: The only exception is the current line, which is not formatted until after [NEW-LINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapnew-line.htm).
 
 Modification 3
 

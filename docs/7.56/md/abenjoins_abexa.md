@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenabap_sql_reading.htm'\)) →  [SELECT, clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT, FROM](javascript:call_link\('abapfrom_clause.htm'\)) →  [SELECT, FROM JOIN](javascript:call_link\('abapselect_join.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm) →  [ABAP SQL - Read Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_reading.htm) →  [SELECT, clauses](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_clauses.htm) →  [SELECT, FROM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfrom_clause.htm) →  [SELECT, FROM JOIN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_join.htm) → 
 
 SELECT, Inner, Outer, and Cross Joins
 
-This example demonstrates inner and outer [joins](javascript:call_link\('abapselect_join.htm'\)) as well as [cross joins](javascript:call_link\('abapselect_join.htm'\)) in the SELECT statement.
+This example demonstrates inner and outer [joins](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_join.htm) as well as [cross joins](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_join.htm) in the SELECT statement.
 
 Source Code
 
@@ -298,4 +298,4 @@ Inner and outer joins between two tables DEMO\_JOIN1 and DEMO\_JOIN2, for which 
 -   The result sets of both cross joins without a WHERE condition are identical to the result sets of the corresponding inner and outer joins whose ON condition is always true. It makes no difference which side the data sources are specified on in the cross join. The number of rows is determined by 4 x 3 = 12.
 -   The result set of the cross join with a WHERE condition is identical to the result set of an inner join with a corresponding ON condition. It should be noted that in a cross join, all rows are read first and then selected, whereas the inner join only reads the rows that meet the conditions.
 
-See also the executable example [SQL Expressions, Coalesce Function](javascript:call_link\('abensql_expr_coalesce_abexa.htm'\)), in which the default initial values set for the null values in the outer join are replaced by a different value.
+See also the executable example [SQL Expressions, Coalesce Function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_coalesce_abexa.htm), in which the default initial values set for the null values in the outer join are replaced by a different value.

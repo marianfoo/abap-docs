@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 inheritance
 
-Generalized/specialized relationship between [classes](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry"). Inheritance means that new [subclasses](javascript:call_link\('abensubclass_glosry.htm'\) "Glossary Entry") are derived by adopting all [components](javascript:call_link\('abencomponent_glosry.htm'\) "Glossary Entry") of [superclasses](javascript:call_link\('abensuperclass_glosry.htm'\) "Glossary Entry"). A subclass can also be made more specific by declaring new components and [redefining](javascript:call_link\('abenredefinition_glosry.htm'\) "Glossary Entry") [methods](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry").
+Generalized/specialized relationship between [classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_glosry.htm "Glossary Entry"). Inheritance means that new [subclasses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubclass_glosry.htm "Glossary Entry") are derived by adopting all [components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomponent_glosry.htm "Glossary Entry") of [superclasses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensuperclass_glosry.htm "Glossary Entry"). A subclass can also be made more specific by declaring new components and [redefining](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenredefinition_glosry.htm "Glossary Entry") [methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abeninheritance.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance.htm)

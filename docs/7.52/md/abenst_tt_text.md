@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Literal Template Content](javascript:call_link\('abenst_literals.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_serial_deserial.htm) →  [ST - Literal Template Content](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_literals.htm) → 
 
 ST - tt:text, Literal Text
 
@@ -30,7 +30,7 @@ The literal text of the XML source document is compared character by character (
 
 Note
 
-Literal texts with other characters (except whitespace) should be used sparingly; always identified with tt:text, and should not span multiple lines because line breaks and indents are potential sources of errors in deserializations. The only intended use of unmarked texts is to format the ST program with line breaks and blanks (indents). To avoid problems in deserializations of literal texts, they can be skipped using [tt:skip](javascript:call_link\('abenst_tt_skip.htm'\)).
+Literal texts with other characters (except whitespace) should be used sparingly; always identified with tt:text, and should not span multiple lines because line breaks and indents are potential sources of errors in deserializations. The only intended use of unmarked texts is to format the ST program with line breaks and blanks (indents). To avoid problems in deserializations of literal texts, they can be skipped using [tt:skip](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_skip.htm).
 
 Example
 
@@ -82,7 +82,7 @@ The ST program below cannot deserialize the XML data either, because it expects 
   </tt:template>
 </tt:transform>
 
-The ST program below can deserialize the XML data; all elements are skipped using [tt:skip](javascript:call_link\('abenst_tt_skip.htm'\)).
+The ST program below can deserialize the XML data; all elements are skipped using [tt:skip](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_skip.htm).
 
 <tt:transform
   xmlns:tt="http://www.sap.com/transformation-templates">

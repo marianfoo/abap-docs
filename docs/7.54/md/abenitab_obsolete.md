@@ -4,38 +4,38 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_internal_obsolete.htm) → 
 
 Obsolete Internal Table Processing
 
--   [READ, LOOP, INSERT, COLLECT, APPEND, MODIFY, DELETE - Short Forms](javascript:call_link\('abenitab_short_forms.htm'\))
+-   [READ, LOOP, INSERT, COLLECT, APPEND, MODIFY, DELETE - Short Forms](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_short_forms.htm)
 
--   [\*sys\*, Obsolete Pseudo Component](javascript:call_link\('abensys_table_body.htm'\))
+-   [\*sys\*, Obsolete Pseudo Component](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensys_table_body.htm)
 
--   [READ TABLE itab](javascript:call_link\('abapread_table_obsolet.htm'\))
+-   [READ TABLE itab](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_table_obsolet.htm)
 
--   [LOOP AT itab - TABLE LINE](javascript:call_link\('abaploop_table_line.htm'\))
+-   [LOOP AT itab - TABLE LINE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_table_line.htm)
 
--   [AT field\_symbol](javascript:call_link\('abapat_itab_obsolete.htm'\))
+-   [AT field\_symbol](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapat_itab_obsolete.htm)
 
--   [SORT itab BY field\_symbol](javascript:call_link\('abapsort_itab_obsolete.htm'\))
+-   [SORT itab BY field\_symbol](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsort_itab_obsolete.htm)
 
--   [SEARCH itab](javascript:call_link\('abapsearch_itab.htm'\))
+-   [SEARCH itab](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsearch_itab.htm)
 
--   [WRITE TO itab](javascript:call_link\('abapwrite_to_itab.htm'\))
+-   [WRITE TO itab](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwrite_to_itab.htm)
 
--   [PROVIDE - Short Form](javascript:call_link\('abapprovide_obsolete.htm'\))
+-   [PROVIDE - Short Form](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprovide_obsolete.htm)
 
--   [REFRESH](javascript:call_link\('abaprefresh_itab.htm'\))
+-   [REFRESH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaprefresh_itab.htm)
 
 Continue
-[READ, LOOP, INSERT, COLLECT, APPEND, MODIFY, DELETE - Short Forms](javascript:call_link\('abenitab_short_forms.htm'\))
-[\*sys\*, Obsolete Pseudo Component](javascript:call_link\('abensys_table_body.htm'\))
-[READ TABLE- obsolete\_key](javascript:call_link\('abapread_table_obsolet.htm'\))
-[LOOP AT itab - TABLE LINE](javascript:call_link\('abaploop_table_line.htm'\))
-[AT field\_symbol](javascript:call_link\('abapat_itab_obsolete.htm'\))
-[SORT itab BY field\_symbol](javascript:call_link\('abapsort_itab_obsolete.htm'\))
-[SEARCH itab](javascript:call_link\('abapsearch_itab.htm'\))
-[WRITE TO itab](javascript:call_link\('abapwrite_to_itab.htm'\))
-[PROVIDE - Short Form](javascript:call_link\('abapprovide_obsolete.htm'\))
-[REFRESH](javascript:call_link\('abaprefresh_itab.htm'\))
+[READ, LOOP, INSERT, COLLECT, APPEND, MODIFY, DELETE - Short Forms](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_short_forms.htm)
+[\*sys\*, Obsolete Pseudo Component](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensys_table_body.htm)
+[READ TABLE- obsolete\_key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapread_table_obsolet.htm)
+[LOOP AT itab - TABLE LINE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaploop_table_line.htm)
+[AT field\_symbol](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapat_itab_obsolete.htm)
+[SORT itab BY field\_symbol](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsort_itab_obsolete.htm)
+[SEARCH itab](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsearch_itab.htm)
+[WRITE TO itab](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapwrite_to_itab.htm)
+[PROVIDE - Short Form](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprovide_obsolete.htm)
+[REFRESH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaprefresh_itab.htm)

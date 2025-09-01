@@ -4,25 +4,25 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses_and_interfaces.htm) → 
 
 ABAP Objects - Overview
 
 ABAP Objects is the object-oriented part of ABAP.
 
-ABAP Objects adds a complete set of [language elements](javascript:call_link\('abenobjects_keywords.htm'\)) to ABAP (previously only a procedural language) that allow [object-oriented programming](javascript:call_link\('abenobject_orientation.htm'\)). This object-oriented extension of ABAP builds on the previous range of languages, and is fully compatible with them. ABAP Objects can be used in existing programs, and the [statements](javascript:call_link\('abenabap_objects_differences.htm'\)) that can be used in ABAP Objects correspond to practically all of the remaining SAP language scope. Certain [obsolete language elements](javascript:call_link\('abenoo_differences_obsolete.htm'\)), however, are not permitted in conjunction with ABAP objects due to a previous cleanup of the ABAP language.
+ABAP Objects adds a complete set of [language elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobjects_keywords.htm) to ABAP (previously only a procedural language) that allow [object-oriented programming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_orientation.htm). This object-oriented extension of ABAP builds on the previous range of languages, and is fully compatible with them. ABAP Objects can be used in existing programs, and the [statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_differences.htm) that can be used in ABAP Objects correspond to practically all of the remaining SAP language scope. Certain [obsolete language elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoo_differences_obsolete.htm), however, are not permitted in conjunction with ABAP objects due to a previous cleanup of the ABAP language.
 
 ABAP Objects supports:
 
--   [Classes](javascript:call_link\('abenclasses.htm'\))
+-   [Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses.htm)
 
--   [Interfaces](javascript:call_link\('abeninterfac.htm'\))
+-   [Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterfac.htm)
 
--   [Objects](javascript:call_link\('abenobject.htm'\))
+-   [Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject.htm)
 
--   [Object references](javascript:call_link\('abenreferences.htm'\))
+-   [Object references](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreferences.htm)
 
--   [Inheritance](javascript:call_link\('abeninheritance.htm'\))
+-   [Inheritance](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance.htm)
 
 Note
 
@@ -30,16 +30,16 @@ The package SABAP\_DEMOS\_CAR\_RENTAL contains a complete example application wr
 
 Executable Example
 
-[Overview](javascript:call_link\('abenabap_objects_abexa.htm'\))
+[Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_abexa.htm)
 
 Continue
-[Object Orientation](javascript:call_link\('abenobject_orientation.htm'\))
-[Definition of Classes and Interfaces](javascript:call_link\('abenclass_interface_definition.htm'\))
-[Classes](javascript:call_link\('abenclasses.htm'\))
-[Inheritance](javascript:call_link\('abeninheritance.htm'\))
-[Interfaces](javascript:call_link\('abeninterfac.htm'\))
-[Events](javascript:call_link\('abenevents_overview.htm'\))
-[Friends - Friendship Between Classes](javascript:call_link\('abenfriends.htm'\))
-[Objects](javascript:call_link\('abenobject.htm'\))
-[Statements in ABAP Objects](javascript:call_link\('abenabap_objects_differences.htm'\))
-[Examples for ABAP Objects](javascript:call_link\('abenabap_objects_abexas.htm'\))
+[Object Orientation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_orientation.htm)
+[Definition of Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_interface_definition.htm)
+[Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses.htm)
+[Inheritance](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance.htm)
+[Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterfac.htm)
+[Events](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevents_overview.htm)
+[Friends - Friendship Between Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfriends.htm)
+[Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject.htm)
+[Statements in ABAP Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_differences.htm)
+[Examples for ABAP Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_abexas.htm)

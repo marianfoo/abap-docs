@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP Behavior Pools (ABP)](javascript:call_link\('abenabap_behavior_pools.htm'\)) →  [RAP Saver Classes and Methods](javascript:call_link\('abenabp_saver_class.htm'\)) →  [CL\_ABAP\_BEHAVIOR\_SAVER\_FAILED, RAP Saver Class](javascript:call_link\('abenabp_cl_abap_beh_saver_failed.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_provide_rap_bos.htm) →  [ABAP Behavior Pools (ABP)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_behavior_pools.htm) →  [RAP Saver Classes and Methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_saver_class.htm) →  [CL\_ABAP\_BEHAVIOR\_SAVER\_FAILED, RAP Saver Class](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_cl_abap_beh_saver_failed.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Example%20for%20CL_ABAP_BEHAVIOR_SAVER_FAILED%2C%20ABENCL_ABAP_BEH_SAVER_FAILED_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20im
 provement:)
 
 Example for CL\_ABAP\_BEHAVIOR\_SAVER\_FAILED
 
-This example demonstrates the RAP saver class CL\_ABAP\_BEHAVIOR\_SAVER\_FAILED using a simple managed RAP BO [with unmanaged save](javascript:call_link\('abenbdl_saving.htm'\)).
+This example demonstrates the RAP saver class CL\_ABAP\_BEHAVIOR\_SAVER\_FAILED using a simple managed RAP BO [with unmanaged save](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_saving.htm).
 
 Data model
 
@@ -31,7 +31,7 @@ define root view entity DEMO\_SAVE\_F\_UNM\_S\_M as select from demo\_tab\_root\
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_SAVE\_F\_UNM\_S\_M is defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_SAVE\_F\_UNM\_S\_M is defined in [RAP BDL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed with unmanaged save
 implementation in class bp\_demo\_save\_f\_unm\_s\_m unique;
@@ -49,7 +49,7 @@ authorization master ( global )
 
 Behavior implementation
 
-For the above RAP behavior definition, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_SAVE\_F\_UNM\_S\_M. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. The ABP includes the implementation of a validation. In this simple example, the validation fails if particular fields have particular values.
+For the above RAP behavior definition, one [ABP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_SAVE\_F\_UNM\_S\_M. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool. The ABP includes the implementation of a validation. In this simple example, the validation fails if particular fields have particular values.
 
 The class LSC\_DEMO\_SAVE\_F\_UNM\_S\_M is the RAP saver class that inherits from CL\_ABAP\_BEHAVIOR\_SAVER\_FAILED. The SAVE\_MODIFIED saver method is implemented in a way that a save is denied for a RAP BO instance if particular fields have particular values in a RAP create operation.
 
@@ -324,9 +324,9 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class.
 
-The example demonstrates different ABAP EML requests. Among them, there are modify requests including a create operation to create one instance in most cases. COMMIT ENTITIES statements trigger the save sequence. These statements include the retrieval of the [RAP response parameters](javascript:call_link\('abenrap_response_param_glosry.htm'\) "Glossary Entry") failed and reported. After most modify requests, the responses - if there are any - are displayed. A SELECT statement retrieves the entries on the database table to show the effect of the RAP operations.
+The example demonstrates different ABAP EML requests. Among them, there are modify requests including a create operation to create one instance in most cases. COMMIT ENTITIES statements trigger the save sequence. These statements include the retrieval of the [RAP response parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_response_param_glosry.htm "Glossary Entry") failed and reported. After most modify requests, the responses - if there are any - are displayed. A SELECT statement retrieves the entries on the database table to show the effect of the RAP operations.
 
 The following is covered:
 
@@ -340,7 +340,7 @@ The following is covered:
     
 3.  Failure in the early save phase
     
-    Demonstrates a failure in the early phase of the RAP save sequence (the validation fails). The value of sy-subrc is 4 after the COMMIT ENTITIES statement. A read operation demonstrates that the RAP BO instance that has failed is still available in the [RAP transactional buffer](javascript:call_link\('abentransactional_buffer_glosry.htm'\) "Glossary Entry"). A RAP update operation is carried out on the failed instance to correct the issue.
+    Demonstrates a failure in the early phase of the RAP save sequence (the validation fails). The value of sy-subrc is 4 after the COMMIT ENTITIES statement. A read operation demonstrates that the RAP BO instance that has failed is still available in the [RAP transactional buffer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentransactional_buffer_glosry.htm "Glossary Entry"). A RAP update operation is carried out on the failed instance to correct the issue.
     
 4.  Failure in the late save phase
     

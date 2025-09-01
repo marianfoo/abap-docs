@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) → 
 
 \= - Assignment Operator
 
@@ -14,35 +14,35 @@ lhs = rhs.
 
 Effect
 
-If the character \= is specified in a statement between a left side lhs (or "left hand side") and a right side rhs (or "right hand side"), it works like an [assignment operator](javascript:call_link\('abenassignment_operator_glosry.htm'\) "Glossary Entry") that assigns the value of the right side to the left side, possibly using a [conversion](javascript:call_link\('abenconversion_rules.htm'\)).
+If the character \= is specified in a statement between a left side lhs (or "left hand side") and a right side rhs (or "right hand side"), it works like an [assignment operator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenassignment_operator_glosry.htm "Glossary Entry") that assigns the value of the right side to the left side, possibly using a [conversion](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_rules.htm).
 
-The right side rhs, the source of the assignment, is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") and can be specified as follows:
+The right side rhs, the source of the assignment, is a [general expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and can be specified as follows:
 
--   As a single [data object](javascript:call_link\('abapmove.htm'\))
+-   As a single [data object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove.htm)
 
--   As a [return value or result](javascript:call_link\('abenequals_return_values.htm'\)) of functional methods, predefined functions, or constructor expressions or table expressions
+-   As a [return value or result](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_return_values.htm) of functional methods, predefined functions, or constructor expressions or table expressions
 
--   As a result of [calculation expressions](javascript:call_link\('abenequals_calc_expr.htm'\))
+-   As a result of [calculation expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_calc_expr.htm)
 
-The left side lhs, the target of the assignment, is a both a [declaration position](javascript:call_link\('abendeclaration_position_glosry.htm'\) "Glossary Entry") and a [result position](javascript:call_link\('abenresult_position_glosry.htm'\) "Glossary Entry") and can be specified as follows:
+The left side lhs, the target of the assignment, is a both a [declaration position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_position_glosry.htm "Glossary Entry") and a [result position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenresult_position_glosry.htm "Glossary Entry") and can be specified as follows:
 
--   As any data object that can be specified in a [writing position](javascript:call_link\('abenwriting_position_glosry.htm'\) "Glossary Entry"). The data type of the data object must either be [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") with the assigned value or must be convertible to the data type of lhs in accordance with one of the [conversion rules](javascript:call_link\('abenconversion_rules.htm'\)). If the assigned value does not match the data type of lhs, the exceptions described in the conversion rules may be raised.
+-   As any data object that can be specified in a [writing position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwriting_position_glosry.htm "Glossary Entry"). The data type of the data object must either be [compatible](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompatible_glosry.htm "Glossary Entry") with the assigned value or must be convertible to the data type of lhs in accordance with one of the [conversion rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_rules.htm). If the assigned value does not match the data type of lhs, the exceptions described in the conversion rules may be raised.
 
--   As an inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)). The data type of the declared variable is determined by the right side and is described as one of the rhs options. Any variables used on the right side cannot be declared on the left side. An identically named data object from a more global context can be used on the right side and is not obscured by the local declaration until after the statement.
+-   As an inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_inline.htm). The data type of the declared variable is determined by the right side and is described as one of the rhs options. Any variables used on the right side cannot be declared on the left side. An identically named data object from a more global context can be used on the right side and is not obscured by the local declaration until after the statement.
 
--   As a [writable expression](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") representing an operand to which the right side can be assigned.
+-   As a [writable expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwritable_expression_glosry.htm "Glossary Entry") representing an operand to which the right side can be assigned.
 
 If an exception is raised on the right side, the statement is not executed and the value of the target field is undefined.
 
 Notes
 
--   If lhs is not a data object, it can be prefixed with the obsolete keyword [COMPUTE](javascript:call_link\('abapcompute.htm'\)). This keyword is ignored, however, and should no longer be used.
+-   If lhs is not a data object, it can be prefixed with the obsolete keyword [COMPUTE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute.htm). This keyword is ignored, however, and should no longer be used.
 
--   Another obsolete variant of the assignment is the statement [MOVE rhs TO lhs](javascript:call_link\('abapmove_obs.htm'\)). Here, the left side is on the right side and does not cover all options of the assignment operator \=.
+-   Another obsolete variant of the assignment is the statement [MOVE rhs TO lhs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_obs.htm). Here, the left side is on the right side and does not cover all options of the assignment operator \=.
 
 Programming Guideline
 
-[Assignments with the assignment operators \= and ?=](javascript:call_link\('abenassign_calc_guidl.htm'\) "Guideline") only
+[Assignments with the assignment operators \= and ?=](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenassign_calc_guidl.htm "Guideline") only
 
 Example
 
@@ -56,6 +56,6 @@ o2 = CONV #( '200' ).
 r  = o1 + o2.
 
 Continue
-[\= - Assign Data Objects](javascript:call_link\('abapmove.htm'\))
-[\= - Assign Return Values and Results](javascript:call_link\('abenequals_return_values.htm'\))
-[\= - Assign Calculation Expressions](javascript:call_link\('abenequals_calc_expr.htm'\))
+[\= - Assign Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove.htm)
+[\= - Assign Return Values and Results](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_return_values.htm)
+[\= - Assign Calculation Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_calc_expr.htm)

@@ -3,27 +3,7 @@
 Included pages: 4
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenselection_screen_call.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_call.htm)
-- [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_selection_screen.htm)
-- [abensel_screen_call_sel_scr_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_call_sel_scr_abexa.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.994Z
-
----
-
 ### abenselection_screen_call.htm
-
-> **📖 Official SAP Documentation**: [abenselection_screen_call.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_call.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,25 +11,25 @@ Included pages: 4
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm) → 
 
 Calling Selection Screens
 
-[Selection screens](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") can be called as follows:
+[Selection screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_glosry.htm "Glossary Entry") can be called as follows:
 
--   by the statement [SUBMIT](javascript:call_link\('abapsubmit.htm'\))
+-   by the statement [SUBMIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsubmit.htm)
 
--   as a selection screen of a [report transaction](javascript:call_link\('abenreport_transaction_glosry.htm'\) "Glossary Entry")
+-   as a selection screen of a [report transaction](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreport_transaction_glosry.htm "Glossary Entry")
 
--   as the initial dynpro of a [dialog transaction](javascript:call_link\('abendialog_transaction_glosry.htm'\) "Glossary Entry")
+-   as the initial dynpro of a [dialog transaction](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendialog_transaction_glosry.htm "Glossary Entry")
 
--   by the statement [CALL SELECTION-SCREEN](javascript:call_link\('abapcall_selection_screen.htm'\))
+-   by the statement [CALL SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_selection_screen.htm)
 
-Each call starts [selection screen processing](javascript:call_link\('abenselscreen_processing_glosry.htm'\) "Glossary Entry"). The display language of the selection screen is determined by the current [text environment language](javascript:call_link\('abentext_env_langu_glosry.htm'\) "Glossary Entry"), which can be set with the statement [SET LOCALE LANGUAGE](javascript:call_link\('abapset_locale.htm'\)).
+Each call starts [selection screen processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselscreen_processing_glosry.htm "Glossary Entry"). The display language of the selection screen is determined by the current [text environment language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_env_langu_glosry.htm "Glossary Entry"), which can be set with the statement [SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapset_locale.htm).
 
 Called by SUBMIT
 
-When an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") is called using the statement SUBMIT, the standard selection screen or the selection screen specified in the statement is called between the events [INITIALIZATION](javascript:call_link\('abapinitialization.htm'\)) and [START-OF-SELECTION](javascript:call_link\('abapstart-of-selection.htm'\)), if it contains at least one input field or pushbutton.
+When an [executable program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexecutable_program_glosry.htm "Glossary Entry") is called using the statement SUBMIT, the standard selection screen or the selection screen specified in the statement is called between the events [INITIALIZATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinitialization.htm) and [START-OF-SELECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstart-of-selection.htm), if it contains at least one input field or pushbutton.
 
 Called by report transaction
 
@@ -57,26 +37,19 @@ When a report transaction is executed, the associated executable program is also
 
 Called by dialog transaction
 
-If a selection screen of the associated program is defined as the initial dynpro in a dialog transaction, the transaction code is used to call the selection screen when this program is executed. This screen is not handled like the first dynpro in a [dynpro sequence](javascript:call_link\('abendynpro_sequence_glosry.htm'\) "Glossary Entry") however (see [Selection Screen Processing](javascript:call_link\('abenselection_screen_events.htm'\))).
+If a selection screen of the associated program is defined as the initial dynpro in a dialog transaction, the transaction code is used to call the selection screen when this program is executed. This screen is not handled like the first dynpro in a [dynpro sequence](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_sequence_glosry.htm "Glossary Entry") however (see [Selection Screen Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_events.htm)).
 
 Notes
 
 -   You should not use a selection screen as the initial screen of a dialog transaction, since this does not generally produce the expected program behavior.
 
--   The display language of a general dynpro is the [logon language](javascript:call_link\('abenlogon_language_glosry.htm'\) "Glossary Entry") and not the [text environment language](javascript:call_link\('abentext_env_langu_glosry.htm'\) "Glossary Entry").
+-   The display language of a general dynpro is the [logon language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogon_language_glosry.htm "Glossary Entry") and not the [text environment language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentext_env_langu_glosry.htm "Glossary Entry").
 
 Continue
-[CALL SELECTION-SCREEN](javascript:call_link\('abapcall_selection_screen.htm'\))
+[CALL SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_selection_screen.htm)
 
-
-
-**📖 Source**: [abenselection_screen_call.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_call.htm)
 
 ### abapcall_selection_screen.htm
-
-> **📖 Official SAP Documentation**: [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_selection_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -84,11 +57,11 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Calling Selection Screens](javascript:call_link\('abenselection_screen_call.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm) →  [Calling Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_call.htm) → 
 
 CALL SELECTION-SCREEN
 
-[Quick Reference](javascript:call_link\('abapcall_selection-screen_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_selection-screen_shortref.htm)
 
 Syntax
 
@@ -104,9 +77,9 @@ Extras:
 
 Effect
 
-This statement calls the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") with the [dynpro number](javascript:call_link\('abendynpro_number_glosry.htm'\) "Glossary Entry") specified in dynnr and starts [selection screen processing](javascript:call_link\('abenselscreen_processing_glosry.htm'\) "Glossary Entry"). dynnr expects a data object of the type n and the length 4.
+This statement calls the [selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_glosry.htm "Glossary Entry") with the [dynpro number](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_number_glosry.htm "Glossary Entry") specified in dynnr and starts [selection screen processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselscreen_processing_glosry.htm "Glossary Entry"). dynnr expects a data object of the type n and the length 4.
 
-The statement CALL SELECTION-SCREEN accesses the selection screens of the respective [main program](javascript:call_link\('abenmain_program_glosry.htm'\) "Glossary Entry") of the current program group. These screens work with the parameters and selection criteria of the main program and trigger the selection screen processing in the main program. The main program is generally the current program, except for the case when calling a selection screen in an externally called subroutine. An unhandleable exception is raised if the specified selection screen is not contained in the main program of the program group.
+The statement CALL SELECTION-SCREEN accesses the selection screens of the respective [main program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmain_program_glosry.htm "Glossary Entry") of the current program group. These screens work with the parameters and selection criteria of the main program and trigger the selection screen processing in the main program. The main program is generally the current program, except for the case when calling a selection screen in an externally called subroutine. An unhandleable exception is raised if the specified selection screen is not contained in the main program of the program group.
 
 Any selection screen of the main program can be called, in particular the standard selection screen. The default setting is the display of the selection screen in the GUI window of the preceding dynpro.
 
@@ -126,7 +99,7 @@ User chose Back, Exit, or Cancel on the selection screen.
 
 Notes
 
--   The statement [CALL SCREEN](javascript:call_link\('abapcall_screen.htm'\)) cannot be used to call selection screens, since otherwise the proper execution of the selection screen processing cannot be guaranteed.
+-   The statement [CALL SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_screen.htm) cannot be used to call selection screens, since otherwise the proper execution of the selection screen processing cannot be guaranteed.
     
 -   If the called selection screen is displayed in a dialog window, it is advisable to use the addition AS WINDOW when specifying the selection screen.
     
@@ -137,7 +110,7 @@ Addition 1
 
 Effect
 
-The addition STARTING AT creates a modal dialog box and the selection screen is displayed in it. The upper left corner of the dialog box is determined by the values in col1 and lin1 for column and row. These values refer to the GUI window with the [popup level](javascript:call_link\('abenpop-up_level_glosry.htm'\) "Glossary Entry") 0. The bottom right corner is either set automatically or it can be specified in col2 and lin2 after ENDING AT. col1, lin1, col2, and lin2 expect data objects of the type i. The values of col1, lin1 should be less than col2, lin2, otherwise the behavior will be undefined.
+The addition STARTING AT creates a modal dialog box and the selection screen is displayed in it. The upper left corner of the dialog box is determined by the values in col1 and lin1 for column and row. These values refer to the GUI window with the [popup level](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpop-up_level_glosry.htm "Glossary Entry") 0. The bottom right corner is either set automatically or it can be specified in col2 and lin2 after ENDING AT. col1, lin1, col2, and lin2 expect data objects of the type i. The values of col1, lin1 should be less than col2, lin2, otherwise the behavior will be undefined.
 
 Addition 2
 
@@ -145,24 +118,17 @@ Addition 2
 
 Effect
 
-The addition USING SELECTION-SET populates the parameters and selection criteria of the selection screen with the values of a [selection screen variant](javascript:call_link\('abenvariant_2_glosry.htm'\) "Glossary Entry") specified in variant. The values are passed to the associated data objects of the program immediately before the event [ATSELECTION-SCREEN OUTPUT](javascript:call_link\('abapat_selection-screen.htm'\)). variant expects a [character-like data object](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") which, when the statement is executed, contains the name of a [selection screen variant](javascript:call_link\('abenvariant_2_glosry.htm'\) "Glossary Entry") of the main program stored for the selection screen in uppercase. If a nonexistent variant or a variant of another selection screen of the main program, is specified, the addition is ignored.
+The addition USING SELECTION-SET populates the parameters and selection criteria of the selection screen with the values of a [selection screen variant](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvariant_2_glosry.htm "Glossary Entry") specified in variant. The values are passed to the associated data objects of the program immediately before the event [ATSELECTION-SCREEN OUTPUT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapat_selection-screen.htm). variant expects a [character-like data object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") which, when the statement is executed, contains the name of a [selection screen variant](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvariant_2_glosry.htm "Glossary Entry") of the main program stored for the selection screen in uppercase. If a nonexistent variant or a variant of another selection screen of the main program, is specified, the addition is ignored.
 
 Example
 
-See the example in [SELECTION-SCREEN BEGIN OF SCREEN](javascript:call_link\('abapselection-screen_normal.htm'\)).
+See the example in [SELECTION-SCREEN BEGIN OF SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_normal.htm).
 
 Continue
-![Example](exa.gif "Example") [Selection Screens, Calling Standalone Selection Screens](javascript:call_link\('abensel_screen_call_sel_scr_abexa.htm'\))
+![Example](exa.gif "Example") [Selection Screens, Calling Standalone Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_call_sel_scr_abexa.htm)
 
-
-
-**📖 Source**: [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_selection_screen.htm)
 
 ### abensel_screen_call_sel_scr_abexa.htm
-
-> **📖 Official SAP Documentation**: [abensel_screen_call_sel_scr_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_call_sel_scr_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -170,7 +136,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Calling Selection Screens](javascript:call_link\('abenselection_screen_call.htm'\)) →  [CALL SELECTION-SCREEN](javascript:call_link\('abapcall_selection_screen.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm) →  [Calling Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_call.htm) →  [CALL SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_selection_screen.htm) → 
 
 Selection Screens, Calling Standalone Selection Screens
 
@@ -216,17 +182,7 @@ Description
 In this executable program, two standalone selection screens, 100 and 500, are defined. ‏Selection screen 500 contains the block sel1 of selection screen 100. Note at which events the titles of the individual screens are defined. First, selection screen 100 is called, then 500, and then 100 again.
 
 
-
-**📖 Source**: [abensel_screen_call_sel_scr_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_call_sel_scr_abexa.htm)
-
 ### abapcall_selection_screen.htm
-
-> **📖 Official SAP Documentation**: [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_selection_screen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapcall_selection_screen.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_selection_screen.htm)
-
 
   
 
@@ -234,11 +190,11 @@ In this executable program, two standalone selection screens, 100 and 500, are d
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Calling Selection Screens](javascript:call_link\('abenselection_screen_call.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen.htm) →  [Calling Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_call.htm) → 
 
 CALL SELECTION-SCREEN
 
-[Quick Reference](javascript:call_link\('abapcall_selection-screen_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_selection-screen_shortref.htm)
 
 Syntax
 
@@ -254,9 +210,9 @@ Extras:
 
 Effect
 
-This statement calls the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") with the [dynpro number](javascript:call_link\('abendynpro_number_glosry.htm'\) "Glossary Entry") specified in dynnr and starts [selection screen processing](javascript:call_link\('abenselscreen_processing_glosry.htm'\) "Glossary Entry"). dynnr expects a data object of the type n and the length 4.
+This statement calls the [selection screen](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselection_screen_glosry.htm "Glossary Entry") with the [dynpro number](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_number_glosry.htm "Glossary Entry") specified in dynnr and starts [selection screen processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselscreen_processing_glosry.htm "Glossary Entry"). dynnr expects a data object of the type n and the length 4.
 
-The statement CALL SELECTION-SCREEN accesses the selection screens of the respective [main program](javascript:call_link\('abenmain_program_glosry.htm'\) "Glossary Entry") of the current program group. These screens work with the parameters and selection criteria of the main program and trigger the selection screen processing in the main program. The main program is generally the current program, except for the case when calling a selection screen in an externally called subroutine. An unhandleable exception is raised if the specified selection screen is not contained in the main program of the program group.
+The statement CALL SELECTION-SCREEN accesses the selection screens of the respective [main program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmain_program_glosry.htm "Glossary Entry") of the current program group. These screens work with the parameters and selection criteria of the main program and trigger the selection screen processing in the main program. The main program is generally the current program, except for the case when calling a selection screen in an externally called subroutine. An unhandleable exception is raised if the specified selection screen is not contained in the main program of the program group.
 
 Any selection screen of the main program can be called, in particular the standard selection screen. The default setting is the display of the selection screen in the GUI window of the preceding dynpro.
 
@@ -276,7 +232,7 @@ User chose Back, Exit, or Cancel on the selection screen.
 
 Notes
 
--   The statement [CALL SCREEN](javascript:call_link\('abapcall_screen.htm'\)) cannot be used to call selection screens, since otherwise the proper execution of the selection screen processing cannot be guaranteed.
+-   The statement [CALL SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_screen.htm) cannot be used to call selection screens, since otherwise the proper execution of the selection screen processing cannot be guaranteed.
     
 -   If the called selection screen is displayed in a dialog window, it is advisable to use the addition AS WINDOW when specifying the selection screen.
     
@@ -287,7 +243,7 @@ Addition 1
 
 Effect
 
-The addition STARTING AT creates a modal dialog box and the selection screen is displayed in it. The upper left corner of the dialog box is determined by the values in col1 and lin1 for column and row. These values refer to the GUI window with the [popup level](javascript:call_link\('abenpop-up_level_glosry.htm'\) "Glossary Entry") 0. The bottom right corner is either set automatically or it can be specified in col2 and lin2 after ENDING AT. col1, lin1, col2, and lin2 expect data objects of the type i. The values of col1, lin1 should be less than col2, lin2, otherwise the behavior will be undefined.
+The addition STARTING AT creates a modal dialog box and the selection screen is displayed in it. The upper left corner of the dialog box is determined by the values in col1 and lin1 for column and row. These values refer to the GUI window with the [popup level](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpop-up_level_glosry.htm "Glossary Entry") 0. The bottom right corner is either set automatically or it can be specified in col2 and lin2 after ENDING AT. col1, lin1, col2, and lin2 expect data objects of the type i. The values of col1, lin1 should be less than col2, lin2, otherwise the behavior will be undefined.
 
 Addition 2
 
@@ -295,11 +251,11 @@ Addition 2
 
 Effect
 
-The addition USING SELECTION-SET populates the parameters and selection criteria of the selection screen with the values of a [selection screen variant](javascript:call_link\('abenvariant_2_glosry.htm'\) "Glossary Entry") specified in variant. The values are passed to the associated data objects of the program immediately before the event [ATSELECTION-SCREEN OUTPUT](javascript:call_link\('abapat_selection-screen.htm'\)). variant expects a [character-like data object](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") which, when the statement is executed, contains the name of a [selection screen variant](javascript:call_link\('abenvariant_2_glosry.htm'\) "Glossary Entry") of the main program stored for the selection screen in uppercase. If a nonexistent variant or a variant of another selection screen of the main program, is specified, the addition is ignored.
+The addition USING SELECTION-SET populates the parameters and selection criteria of the selection screen with the values of a [selection screen variant](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvariant_2_glosry.htm "Glossary Entry") specified in variant. The values are passed to the associated data objects of the program immediately before the event [ATSELECTION-SCREEN OUTPUT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapat_selection-screen.htm). variant expects a [character-like data object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") which, when the statement is executed, contains the name of a [selection screen variant](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvariant_2_glosry.htm "Glossary Entry") of the main program stored for the selection screen in uppercase. If a nonexistent variant or a variant of another selection screen of the main program, is specified, the addition is ignored.
 
 Example
 
-See the example in [SELECTION-SCREEN BEGIN OF SCREEN](javascript:call_link\('abapselection-screen_normal.htm'\)).
+See the example in [SELECTION-SCREEN BEGIN OF SCREEN](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselection-screen_normal.htm).
 
 Continue
-![Example](exa.gif "Example") [Selection Screens, Calling Standalone Selection Screens](javascript:call_link\('abensel_screen_call_sel_scr_abexa.htm'\))
+![Example](exa.gif "Example") [Selection Screens, Calling Standalone Selection Screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensel_screen_call_sel_scr_abexa.htm)

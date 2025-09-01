@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 XML writer
 
-[Instance](javascript:call_link\('abeninstance_glosry.htm'\) "Glossary Entry") of a [class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry") in the [sXML Library](javascript:call_link\('abensxml_library_glosry.htm'\) "Glossary Entry") that includes the [interface](javascript:call_link\('abeninterface_glosry.htm'\) "Glossary Entry") IF\_SXML\_WRITER. An XML writer enables [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data to be rendered in various [formats](javascript:call_link\('abenabap_sxml_lib_formats.htm'\)).
+[Instance](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninstance_glosry.htm "Glossary Entry") of a [class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_glosry.htm "Glossary Entry") in the [sXML Library](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensxml_library_glosry.htm "Glossary Entry") that includes the [interface](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_glosry.htm "Glossary Entry") IF\_SXML\_WRITER. An XML writer enables [XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenxml_glosry.htm "Glossary Entry") data to be rendered in various [formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sxml_lib_formats.htm).
 
-[→ More](javascript:call_link\('abenabap_sxml_lib_render.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sxml_lib_render.htm)

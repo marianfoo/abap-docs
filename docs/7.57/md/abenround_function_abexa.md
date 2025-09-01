@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Numeric Functions (num\_func)](javascript:call_link\('abenmathematical_functions.htm'\)) →  [num\_func - Examples](javascript:call_link\('abennumerical_functions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencompute_expressions.htm) →  [Numeric Functions (num\_func)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmathematical_functions.htm) →  [num\_func - Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennumerical_functions_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: num_func - Rounding Function round, ABENROUND_FUNCTION_ABEXA, 757%0D%0A%0D%0AError:%0
 D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 num\_func - Rounding Function round
 
-This example demonstrates the rounding function [round](javascript:call_link\('abendec_floating_point_functions.htm'\)).
+This example demonstrates the rounding function [round](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendec_floating_point_functions.htm).
 
 Source Code   
 
@@ -99,4 +99,4 @@ START-OF-SELECTION.
 
 Description   
 
-For fraction numbers between 1 and -1, the program depicts the effect of all rounding types from the class CL\_ABAP\_MATH in the rounding function [round](javascript:call_link\('abendec_floating_point_functions.htm'\)). The program reads the possible rounding methods using RTTI and sorts them by name.
+For fraction numbers between 1 and -1, the program depicts the effect of all rounding types from the class CL\_ABAP\_MATH in the rounding function [round](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendec_floating_point_functions.htm). The program reads the possible rounding methods using RTTI and sorts them by name.

@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 CFW
 
-→ [Control Framework](javascript:call_link\('abencontrol_framework_glosry.htm'\) "Glossary Entry")
+→ [Control Framework](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencontrol_framework_glosry.htm "Glossary Entry")

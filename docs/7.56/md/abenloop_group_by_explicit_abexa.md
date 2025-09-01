@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [LOOP AT itab](javascript:call_link\('abaploop_at_itab_variants.htm'\)) →  [LOOP AT itab, GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) →  [Examples of Grouping with LOOP](javascript:call_link\('abenloop_group_by_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_processing_statements.htm) →  [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_variants.htm) →  [LOOP AT itab, GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm) →  [Examples of Grouping with LOOP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_group_by_abexas.htm) → 
 
 itab - Grouping with LOOP, Explicit and Implicit
 
-This example demonstrates a self-programmed group loop and how it is replaced by [GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)).
+This example demonstrates a self-programmed group loop and how it is replaced by [GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm).
 
 Source Code
 
@@ -94,6 +94,6 @@ Description
 The task of splitting the lines in a single one-column table into three groups by comparison criteria is solved in two different ways:
 
 -   The method group\_explicit works without GROUP BY. Instead, the grouping takes place explicitly in the ABAP program, which requires an explicit helper table helper\_tab. After the grouping, the lines of the nested table refs in helper\_tab point to the associated lines of the original table numbers for each group defined using the column key. This grouping loop is followed by the group loop across the helper table, where every loop pass accesses the group members by evaluating the nested tables refs.
--   The method group\_by works with GROUP BY. The result matches the result of group\_explicit. A comparison of the methods shows that the grouping loop of the first method in the second method is done implicitly by [GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) and no explicit helper table is required. Only the group loop can be seen.
+-   The method group\_by works with GROUP BY. The result matches the result of group\_explicit. A comparison of the methods shows that the grouping loop of the first method in the second method is done implicitly by [GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm) and no explicit helper table is required. Only the group loop can be seen.
 
 Both methods perform three types of loops, the grouping loop, the group loop, and the optional member loops. Using GROUP BY is easier since the grouping loop does not need to be programmed explicitly and the second method becomes significantly shorter.

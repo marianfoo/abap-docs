@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Spool](javascript:call_link\('abenprint.htm'\)) →  [Lists - Spool Parameters](javascript:call_link\('abenprint_parameters.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dynpro_list.htm) →  [Lists - Spool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprint.htm) →  [Lists - Spool Parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprint_parameters.htm) → 
 
 Lists - Setting Program-Driven Spool Parameters
 
@@ -18,9 +18,9 @@ Spool and archiving parameters can only be set in a program using the following 
 
 -   Interactive querying of the spool parameters in the spool dialog box
 
-The interface parameters for the function module are listed in [Overview of All Spool Parameters](javascript:call_link\('abenprint_parameters_overview.htm'\)).
+The interface parameters for the function module are listed in [Overview of All Spool Parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprint_parameters_overview.htm).
 
-The [spool dialog box](javascript:call_link\('abenprint_parameters_window.htm'\)) is displayed by default and can be switched off using the parameter NO\_DIALOG. The values passed to the function module are used as the default values in the spool dialog box and can be overwritten there.
+The [spool dialog box](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprint_parameters_window.htm) is displayed by default and can be switched off using the parameter NO\_DIALOG. The values passed to the function module are used as the default values in the spool dialog box and can be overwritten there.
 
 The function module gets all parameters that have not been set from the system, taking some values from the user master record. Dependent parameters are set automatically. If the function module is unable to generate a record with valid spool and archiving parameters, it generates an exception. The generated records are either complete or empty. The export parameter VALID (if the spool dialog box is being used) indicates whether a complete record could be created.
 

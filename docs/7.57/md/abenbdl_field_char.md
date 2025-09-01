@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [CDS BDL - Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [CDS BDL - Entity Behavior Body](javascript:call_link\('abenbdl_body.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_rap_bo.htm) →  [CDS BDL - Entity Behavior Definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_define_beh.htm) →  [CDS BDL - Entity Behavior Body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_body.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - field characteristics, ABENBDL_FIELD_CHAR, 757%0D%0A%0D%0AError:%0D%0A%0D%0
 A%0D%0A%0D%0ASuggestion for improvement:)
@@ -31,7 +31,7 @@ Variants:
 
 Effect
 
-This topic lists field attributes for the [fields](javascript:call_link\('abenrap_bo_field_glosry.htm'\) "Glossary Entry") of a [RAP BO entity](javascript:call_link\('abenrap_bo_entity_glosry.htm'\) "Glossary Entry").
+This topic lists field attributes for the [fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_field_glosry.htm "Glossary Entry") of a [RAP BO entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_entity_glosry.htm "Glossary Entry").
 
 Commas can be used to classify multiple fields in the same way. Example: field(readonly) Field1, Field2, Field3;
 
@@ -39,11 +39,11 @@ A field can have multiple characteristics, divided by commas within the brackets
 
 Availability
 
--   [Managed RAP BOs](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry")
--   [Unmanaged RAP BOs](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry")
--   In case of [projection BOs](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry"), automatic inheritance takes place. To newly define field characteristics in a projection BO, special rules apply. See topic [CDS BDL - field characteristics, projection BDEF](javascript:call_link\('abenbdl_field_projection.htm'\)).
--   For [abstract BDEFs](javascript:call_link\('abencds_abstract_bdef_glosry.htm'\) "Glossary Entry"), only one field characteristic is available, see [the respective topic](javascript:call_link\('abenbdl_field_abstract.htm'\)).
--   For [interface BDEFs](javascript:call_link\('abencds_interface_bdef_glosry.htm'\) "Glossary Entry"), only one field characteristic is available, see [the respective topic](javascript:call_link\('abenbdl_body_interface.htm'\)).
+-   [Managed RAP BOs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry")
+-   [Unmanaged RAP BOs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry")
+-   In case of [projection BOs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_projection_bo_glosry.htm "Glossary Entry"), automatic inheritance takes place. To newly define field characteristics in a projection BO, special rules apply. See topic [CDS BDL - field characteristics, projection BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_field_projection.htm).
+-   For [abstract BDEFs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_abstract_bdef_glosry.htm "Glossary Entry"), only one field characteristic is available, see [the respective topic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_field_abstract.htm).
+-   For [interface BDEFs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_interface_bdef_glosry.htm "Glossary Entry"), only one field characteristic is available, see [the respective topic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_body_interface.htm).
 
 Further Information
 
@@ -51,7 +51,7 @@ Further Information
 
 Hint
 
-In UI scenarios, field characteristics are displayed as a [RAP consumer hint](javascript:call_link\('abenrap_consumer_hint_glosry.htm'\) "Glossary Entry").
+In UI scenarios, field characteristics are displayed as a [RAP consumer hint](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_consumer_hint_glosry.htm "Glossary Entry").
 
 Variant 1   
 
@@ -59,10 +59,10 @@ Variant 1  
 
 Effect
 
--   Defines that the values of the specified fields must not be created or updated by the [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry").
--   [Static field attribute](javascript:call_link\('abenrap_static_field_char_glosry.htm'\) "Glossary Entry").
--   No implementation in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") required.
--   If a [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") tries to modify a field specified as readonly in the BDEF using [ABAP EML](javascript:call_link\('abenabap_eml_glosry.htm'\) "Glossary Entry") [CREATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) or [UPDATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)), a [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry") occurs.
+-   Defines that the values of the specified fields must not be created or updated by the [RAP BO consumer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry").
+-   [Static field attribute](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_static_field_char_glosry.htm "Glossary Entry").
+-   No implementation in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") required.
+-   If a [RAP BO consumer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") tries to modify a field specified as readonly in the BDEF using [ABAP EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_eml_glosry.htm "Glossary Entry") [CREATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_entity_entities_op.htm) or [UPDATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_entity_entities_op.htm), a [runtime error](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenruntime_error_glosry.htm "Glossary Entry") occurs.
 
 Variant 2   
 
@@ -70,8 +70,8 @@ Variant 2  
 
 Effect
 
--   Defines that it is mandatory to enter values into the specified fields before persisting them on the database. These fields are marked as mandatory on the user interface in an OData scenario. However, there is no runtime check for mandatory fields and no runtime error occurs if a mandatory field is not filled. If a runtime check is required, the application developer should implement it using a [validation on save](javascript:call_link\('abenbdl_validations.htm'\)).
--   [Static field attribute](javascript:call_link\('abenrap_static_field_char_glosry.htm'\) "Glossary Entry").
+-   Defines that it is mandatory to enter values into the specified fields before persisting them on the database. These fields are marked as mandatory on the user interface in an OData scenario. However, there is no runtime check for mandatory fields and no runtime error occurs if a mandatory field is not filled. If a runtime check is required, the application developer should implement it using a [validation on save](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_validations.htm).
+-   [Static field attribute](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_static_field_char_glosry.htm "Glossary Entry").
 -   No implementation in the ABAP behavior pool required.
 
 Example
@@ -89,7 +89,7 @@ lock master
   field ( mandatory ) char\_field1;
 }
 
-The ABAP program DEMO\_RAP\_MANAGED\_MANDATORY uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access to RAP business object. It creates three entity instances by specifying a value for the primary key field key\_field. No value is entered for the mandatory field char\_field1. It commits the three new entity instances to the database. Using the ABAP SQL SELECT statement, it displays the content of the underlying database table.
+The ABAP program DEMO\_RAP\_MANAGED\_MANDATORY uses [EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") to access to RAP business object. It creates three entity instances by specifying a value for the primary key field key\_field. No value is entered for the mandatory field char\_field1. It commits the three new entity instances to the database. Using the ABAP SQL SELECT statement, it displays the content of the underlying database table.
 
 Code Snippet:
 
@@ -108,7 +108,7 @@ DELETE FROM demo\_dbtab\_field.
                REPORTED FINAL(reported).
     COMMIT ENTITIES.
 
-Result: The mandatory field char\_field1 contains the [initial value](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry"), no syntax check warning or syntax check error occurs.
+Result: The mandatory field char\_field1 contains the [initial value](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninitial_value_glosry.htm "Glossary Entry"), no syntax check warning or syntax check error occurs.
 
 ![Figure](abdoc_mandatory.png)
 
@@ -118,11 +118,11 @@ Variant 3  
 
 Effect
 
--   Field(suppress) can be used to remove a field from the [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry"), OData, and all RAP APIs. This is possible for all fields except for [key fields](javascript:call_link\('abenkey_field_glosry.htm'\) "Glossary Entry"), [foreign key fields](javascript:call_link\('abenforeign_key_field_glosry.htm'\) "Glossary Entry"), and fields used by the current BDEF, such as ETag fields.
+-   Field(suppress) can be used to remove a field from the [BDEF derived types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_derived_type_glosry.htm "Glossary Entry"), OData, and all RAP APIs. This is possible for all fields except for [key fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkey_field_glosry.htm "Glossary Entry"), [foreign key fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenforeign_key_field_glosry.htm "Glossary Entry"), and fields used by the current BDEF, such as ETag fields.
 -   Currency key fields of data type CUKY can be suppressed only if all amount fields that make a reference to this particular CUKY field are also suppressed.
--   [Static field attribute](javascript:call_link\('abenrap_static_field_char_glosry.htm'\) "Glossary Entry").
--   No implementation in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") required.
--   If a [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") tries to modify a suppressed field, an error message occurs that tells the consumer that no field of this name exists.
+-   [Static field attribute](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_static_field_char_glosry.htm "Glossary Entry").
+-   No implementation in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") required.
+-   If a [RAP BO consumer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") tries to modify a suppressed field, an error message occurs that tells the consumer that no field of this name exists.
 
 Example
 
@@ -162,8 +162,8 @@ Variant 4  
 
 Effect
 
--   [Dynamic field attribute](javascript:call_link\('abenrap_dyn_field_char_glosry.htm'\) "Glossary Entry") that defines access restrictions for fields depending on the state of the BO entity instance.
--   Must be implemented in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") in the [RAP handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") [FOR INSTANCE FEATURES](javascript:call_link\('abaphandler_meth_features.htm'\)). In the ABAP behavior pool, it can be specified that a field is dynamically mandatory, read-only, has no restrictions, or that it is mandatory and read-only.
+-   [Dynamic field attribute](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_dyn_field_char_glosry.htm "Glossary Entry") that defines access restrictions for fields depending on the state of the BO entity instance.
+-   Must be implemented in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") in the [RAP handler method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") [FOR INSTANCE FEATURES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaphandler_meth_features.htm). In the ABAP behavior pool, it can be specified that a field is dynamically mandatory, read-only, has no restrictions, or that it is mandatory and read-only.
 -   If a RAP BO consumer tries to breach the dynamic access restrictions, it is ignored. There is no error or warning message. In a managed RAP BO, there is also no entry in the response structures. In an unmanaged RAP BO, the reported structure can be filled, depending on the BO implementation.
 
 Example
@@ -191,10 +191,10 @@ Code snippet:
                         ELSE if\_abap\_behv=>fc-f-unrestricted
                         ) ) ).
 
-The ABAP program DEMO\_RAP\_INSTANCE\_FEATURES uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access to RAP business object.
+The ABAP program DEMO\_RAP\_INSTANCE\_FEATURES uses [EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") to access to RAP business object.
 
 -   First, it inserts an entity instance directly onto the database using ABAP SQL INSERT. This entity instance has the value '1' for field int\_field1. Therefore, it fulfills the condition that triggers feature control: if this instance is updated, field int\_field2 should be read-only.
--   An EML [UPDATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) operation is executed on the same instance. This update operation tries to enter a value into field int\_field2.
+-   An EML [UPDATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_entity_entities_op.htm) operation is executed on the same instance. This update operation tries to enter a value into field int\_field2.
 -   The updated entity instance is committed to the database. Using the ABAP SQL SELECT statement, the content of the underlying database table is displayed.
 
 Result: The update operation is prevented by the dynamic feature control. Field int\_field2 contains the initial value. No syntax check warning or syntax check error occurs.
@@ -207,7 +207,7 @@ Variant 5  
 
 Effect
 
--   [Dynamic field attribute](javascript:call_link\('abenrap_dyn_field_char_glosry.htm'\) "Glossary Entry") that defines that it is mandatory to enter a value when an instance is created.
+-   [Dynamic field attribute](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_dyn_field_char_glosry.htm "Glossary Entry") that defines that it is mandatory to enter a value when an instance is created.
 -   No implementation in the ABAP behavior pool required.
 -   If a RAP BO consumer tries to create a new entity instance without entering a value into the field defined as mandatory:create, a runtime error occurs.
 
@@ -221,6 +221,6 @@ Variant 6  
 
 Effect
 
--   [Dynamic field attribute](javascript:call_link\('abenrap_dyn_field_char_glosry.htm'\) "Glossary Entry") that defines a field as read-only during update operations, that means, the field in question cannot be changed anymore after the create operation.
+-   [Dynamic field attribute](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_dyn_field_char_glosry.htm "Glossary Entry") that defines a field as read-only during update operations, that means, the field in question cannot be changed anymore after the create operation.
 -   No implementation in the ABAP behavior pool required.
 -   If a RAP BO consumer tries to update a field defined as readonly:update, a runtime error occurs.

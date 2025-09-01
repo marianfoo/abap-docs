@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services](javascript:call_link\('abenabap_object_services.htm'\)) →  [transaction service](javascript:call_link\('abenabap_object_services_transact.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services.htm) →  [transaction service](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_object_services_transact.htm) → 
 
 Transaction Service Overview
 
@@ -12,4 +12,4 @@ The classic SAP transaction concept is based on SAP LUWs in which changes to the
 
 The transaction service in Object Services is also based on SAP LUWs and not on a new transaction concept. However, it does the bundling before the developer, so that the developer does not have to explicitly create and register procedures that change the database. Internally, the Transaction Service still works with the classic update function modules.
 
-This concept permits interaction between classic and object-oriented transactions, controlled using a [transaction mode](javascript:call_link\('abenos_transaction_mode.htm'\)) that can be set for a given program.
+This concept permits interaction between classic and object-oriented transactions, controlled using a [transaction mode](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenos_transaction_mode.htm) that can be set for a given program.

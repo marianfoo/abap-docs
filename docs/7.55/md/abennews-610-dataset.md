@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [Changes in Release 6.10](javascript:call_link\('abennews-610.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 6.xx](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-6.htm) →  [Changes in Release 6.10](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-610.htm) → 
 
 File Interface in Release 6.10
 
@@ -20,13 +20,13 @@ Modification 1
 
 Adapting to Unicode
 
-Extensive changes to the file interface have been made as a result of the switch to [Unicode](javascript:call_link\('abenunicode_glosry.htm'\) "Glossary Entry").
+Extensive changes to the file interface have been made as a result of the switch to [Unicode](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunicode_glosry.htm "Glossary Entry").
 
 Modification 2
 
 Reading and changing file properties at runtime
 
-The statement [GET DATASET ...](javascript:call_link\('abapget_dataset.htm'\)) returns both the current reading or write positions and the file properties. In turn, a required file position can be set at runtime using the statement [SET DATASET ...](javascript:call_link\('abapset_dataset.htm'\)). It is also possible to change the properties of the file, but the system only applies values compatible with the opening mode.
+The statement [GET DATASET ...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapget_dataset.htm) returns both the current reading or write positions and the file properties. In turn, a required file position can be set at runtime using the statement [SET DATASET ...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapset_dataset.htm). It is also possible to change the properties of the file, but the system only applies values compatible with the opening mode.
 
 Modification 3
 
@@ -45,10 +45,10 @@ Modification 4
 
 Support for files larger than 2 gigabytes
 
-Files larger than 2 gigabytes can now be read and written on all platforms that support large files. Only the platforms OS/390 and IBM System i (previously AS/400) are currently not included in this change. Additionally, the statement [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) has been enhanced in such a way that, when opening a file, the file pointer also addresses positions larger than 2 gigabytes.
+Files larger than 2 gigabytes can now be read and written on all platforms that support large files. Only the platforms OS/390 and IBM System i (previously AS/400) are currently not included in this change. Additionally, the statement [OPEN DATASET](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapopen_dataset.htm) has been enhanced in such a way that, when opening a file, the file pointer also addresses positions larger than 2 gigabytes.
 
 Modification 5
 
 Limiting data range when reading files
 
-The amount of data to be read can be limited using the addition [MAXIMUM LENGTH maxlen](javascript:call_link\('abapread_dataset.htm'\)). Depending on the mode in which the file was opened, maxlen defines the maximum number of characters or bytes that are to be read from the file.
+The amount of data to be read can be limited using the addition [MAXIMUM LENGTH maxlen](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_dataset.htm). Depending on the mode in which the file was opened, maxlen defines the maximum number of characters or bytes that are to be read from the file.

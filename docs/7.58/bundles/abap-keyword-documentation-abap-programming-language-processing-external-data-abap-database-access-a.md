@@ -3,34 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
-- [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
-- [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
-- [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
-- [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
-- [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.977Z
-
----
-
 ### abenabap_and_hana_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -38,38 +11,27 @@ Included pages: 6
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_hana.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20and%20SAP%20HANA%2C%20Examples%2C%20ABENABAP_AND_HANA_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ABAP and SAP HANA, Examples
 
--   [SAP HANA, ABAP-Specific Session Variables](javascript:call_link\('abenhana_session_variables_abexa.htm'\))
--   [SAP HANA, Cached Views](javascript:call_link\('abenhana_cached_views_abexa.htm'\))
--   [SAP HANA, from ADBC to AMDP](javascript:call_link\('abenfrom_adbc_to_amdp_abexa.htm'\))
--   [SAP HANA, Call Database Procedure](javascript:call_link\('abencall_hana_db_proc_abexa.htm'\))
--   [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
+-   [SAP HANA, ABAP-Specific Session Variables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+-   [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+-   [SAP HANA, from ADBC to AMDP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+-   [SAP HANA, Call Database Procedure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+-   [SAP HANA, Currency Conversion with SQLScript](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [SAP HANA, ABAP-Specific Session Variables](javascript:call_link\('abenhana_session_variables_abexa.htm'\))
-![Example](exa.gif "Example") [SAP HANA, Cached Views](javascript:call_link\('abenhana_cached_views_abexa.htm'\))
-![Example](exa.gif "Example") [SAP HANA, from ADBC to AMDP](javascript:call_link\('abenfrom_adbc_to_amdp_abexa.htm'\))
-![Example](exa.gif "Example") [SAP HANA, Call Database Procedure](javascript:call_link\('abencall_hana_db_proc_abexa.htm'\))
-![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](javascript:call_link\('abensql_script_curr_conv_abexa.htm'\))
+![Example](exa.gif "Example") [SAP HANA, ABAP-Specific Session Variables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
+![Example](exa.gif "Example") [SAP HANA, Cached Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
+![Example](exa.gif "Example") [SAP HANA, from ADBC to AMDP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
+![Example](exa.gif "Example") [SAP HANA, Call Database Procedure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
+![Example](exa.gif "Example") [SAP HANA, Currency Conversion with SQLScript](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
 
-
-
-**📖 Source**: [abenabap_and_hana_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm)
 
 ### abenhana_session_variables_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -77,14 +39,14 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) →  [ABAP and SAP HANA, Examples](javascript:call_link\('abenabap_and_hana_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_hana.htm) →  [ABAP and SAP HANA, Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SAP%20HANA%2C%20ABAP-Specific%20Session%20Variables%2C%20ABENHANA_SESSION_VARIABLES_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%
 20improvement:)
 
 SAP HANA, ABAP-Specific Session Variables
 
-This example demonstrates potential Native SQL reads on [session variables](javascript:call_link\('abenhana_session_variables.htm'\)) on the SAP HANA database.
+This example demonstrates potential Native SQL reads on [session variables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables.htm) on the SAP HANA database.
 
 Source Code   
 
@@ -169,7 +131,7 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
       ENDEXEC.
     ENDMETHOD.
     
-    This method calls the built-in function SESSION\_CONTEXT for the four ABAP-specific [session variables](javascript:call_link\('abenhana_session_variables.htm'\)) on the SAP HANA database in three static Native SQL statements between [EXEC - ENDEXEC](javascript:call_link\('abapexec.htm'\)). The result is returned as a column of the SELECT list of an access to the pseudo table DUMMY.
+    This method calls the built-in function SESSION\_CONTEXT for the four ABAP-specific [session variables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables.htm) on the SAP HANA database in three static Native SQL statements between [EXEC - ENDEXEC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexec.htm). The result is returned as a column of the SELECT list of an access to the pseudo table DUMMY.
     
 -   GET\_SESSION\_VARIABLES\_ADBC
     
@@ -196,7 +158,7 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
       result->next( ).
     ENDMETHOD.
     
-    This method replaces the static Native SQL statements of the preceding method with corresponding Native SQL statements in [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry").
+    This method replaces the static Native SQL statements of the preceding method with corresponding Native SQL statements in [ADBC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc_glosry.htm "Glossary Entry").
     
 -   GET\_SESSION\_VARIABLES\_AMDP
     
@@ -210,21 +172,10 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
       date := session\_context('SAP\_SYSTEM\_DATE');
     ENDMETHOD.
     
-    This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
+    This method is an [AMDP method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_method_glosry.htm "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_glosry.htm "Glossary Entry").
 
-
-
-**📖 Source**: [abenhana_session_variables_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_session_variables_abexa.htm)
 
 ### abenhana_cached_views_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -232,13 +183,13 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) →  [ABAP and SAP HANA, Examples](javascript:call_link\('abenabap_and_hana_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_hana.htm) →  [ABAP and SAP HANA, Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SAP%20HANA%2C%20Cached%20Views%2C%20ABENHANA_CACHED_VIEWS_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SAP HANA, Cached Views
 
-This example demonstrates ABAP SQL access to a [cached view](javascript:call_link\('abenhana_cached_views.htm'\)) on the SAP HANA database.
+This example demonstrates ABAP SQL access to a [cached view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views.htm) on the SAP HANA database.
 
 Source Code   
 
@@ -316,25 +267,14 @@ ENDCLASS.
 
 Description   
 
-The instance DEMOCDSCACH of the [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") DEMO\_CDS\_CACHED\_VIEW on the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") is designated for caching using [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry") and the SQL statement ALTER TABLE. The maximum cache lifetime cannot be specified. It is also possible to delete an existing cache.
+The instance DEMOCDSCACH of the [CDS view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_glosry.htm "Glossary Entry") DEMO\_CDS\_CACHED\_VIEW on the [SAP HANA database](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_database_glosry.htm "Glossary Entry") is designated for caching using [ADBC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc_glosry.htm "Glossary Entry") and the SQL statement ALTER TABLE. The maximum cache lifetime cannot be specified. It is also possible to delete an existing cache.
 
-When the CDS view is accessed using the ABAP SQL statement [SELECT](javascript:call_link\('abapselect.htm'\)), the [database hint](javascript:call_link\('abendatabase_hint_glosry.htm'\) "Glossary Entry") [%\_HINTS](javascript:call_link\('abenabap_sql_db_hints.htm'\)) HDB 'RESULT\_CACHE' is used to specify that the cache is accessed.
+When the CDS view is accessed using the ABAP SQL statement [SELECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect.htm), the [database hint](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_hint_glosry.htm "Glossary Entry") [%\_HINTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_db_hints.htm) HDB 'RESULT\_CACHE' is used to specify that the cache is accessed.
 
-The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result.htm'\)) of the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause can be used to determine whether a cache is available, and the cache properties are read.
+The addition [EXTENDED RESULT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_extended_result.htm) of the [INTO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinto_clause.htm) clause can be used to determine whether a cache is available, and the cache properties are read.
 
-
-
-**📖 Source**: [abenhana_cached_views_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views_abexa.htm)
 
 ### abenfrom_adbc_to_amdp_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -342,7 +282,7 @@ The addition [EXTENDED RESULT](javascript:call_link\('abapselect_extended_result
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) →  [ABAP and SAP HANA, Examples](javascript:call_link\('abenabap_and_hana_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_hana.htm) →  [ABAP and SAP HANA, Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SAP%20HANA%2C%20from%20ADBC%20to%20AMDP%2C%20ABENFROM_ADBC_TO_AMDP_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -408,11 +348,11 @@ The task is to read all rows from the database table SFLIGHT whose key fields MA
 
 Hint
 
-The examples of using HANA-specific language elements shown in the methods are syntax-only examples. The task presented here can be solved just as well using ABAP SQL, which is why ABAP SQL is the preferred method as specified in the [programming guidelines](javascript:call_link\('abendatabase_access_guidl.htm'\) "Guideline").
+The examples of using HANA-specific language elements shown in the methods are syntax-only examples. The task presented here can be solved just as well using ABAP SQL, which is why ABAP SQL is the preferred method as specified in the [programming guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_access_guidl.htm "Guideline").
 
 Reference Implementation Using ABAP SQL   
 
-The method ASQL shows how the task can be solved in ABAP SQL by simply using the addition [FOR ALL ENTRIES](javascript:call_link\('abenwhere_all_entries.htm'\)). The result of the method is used as a reference for the HANA-specific implementations.
+The method ASQL shows how the task can be solved in ABAP SQL by simply using the addition [FOR ALL ENTRIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwhere_all_entries.htm). The result of the method is used as a reference for the HANA-specific implementations.
 
 METHOD asql.
   IF connection\_tab IS NOT INITIAL.
@@ -427,7 +367,7 @@ ENDMETHOD.
 
 Using Native SQL with ADBC   
 
-The method ADBC solves the task by using HANA-specific [Native SQL statements](javascript:call_link\('abennative_sql.htm'\)) that are passed to the SAP HANA database using [ADBC](javascript:call_link\('abenadbc.htm'\)). The table with the key values is evaluated after the addition exists in a subquery of a select statement. To do this, a temporary table DEMO\_ADBC\_CONNECTIONS is created on the database and filled with the content of the connection\_tab using the statement insert. To access the result of the select statement, a standard table std\_flights must be declared as a local internal table of the method, since the return value flights cannot be used for ADBC. The temporary table DEMO\_ADBC\_CONNECTIONS is removed again after SPFLI is read.
+The method ADBC solves the task by using HANA-specific [Native SQL statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql.htm) that are passed to the SAP HANA database using [ADBC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc.htm). The table with the key values is evaluated after the addition exists in a subquery of a select statement. To do this, a temporary table DEMO\_ADBC\_CONNECTIONS is created on the database and filled with the content of the connection\_tab using the statement insert. To access the result of the select statement, a standard table std\_flights must be declared as a local internal table of the method, since the return value flights cannot be used for ADBC. The temporary table DEMO\_ADBC\_CONNECTIONS is removed again after SPFLI is read.
 
 METHOD adbc.
   DATA(sql) = NEW cl\_sql\_statement( ).
@@ -468,9 +408,9 @@ ENDMETHOD.
 
 Call of a Database Procedure Using a Database Procedure Proxy   
 
-The method CDBP solves the task by implementing the HANA-specific select statement in a [database procedure](javascript:call_link\('abendatabase_procedure_glosry.htm'\) "Glossary Entry") that is called by specifying a [database procedure proxy](javascript:call_link\('abendatabase_proc_proxy_glosry.htm'\) "Glossary Entry") in the statement [CALL DATABASE PROCEDURE](javascript:call_link\('abapcall_database_procedure.htm'\)). In a more realistic example, the database procedure DEMO\_ADBC\_GET\_FLIGHTS and the database procedure proxy DEMO\_ADBC\_GET\_FLIGHTS\_PROXY would already exist and the implementation of the method would be restricted to the call CALL DATABASE PROCEDURE (see the executable example for [procedure calls](javascript:call_link\('abencall_hana_db_proc_abexa.htm'\))). In this example, the database procedure and the database procedure proxy are created temporarily and deleted again using ADBC methods and the associated API. The input parameter connections of the procedure references an additional temporary HANA table type, DEMO\_ADBC\_CONNECTIONS\_TYPE. HANA does not support a separate type for numeric text, which means that the type NVARCHAR(4) must be used for the column CONNID. Therefore, the internal table connection\_tab must be assigned to a temporary table connections with the correct row type before the procedure is called. No auxiliary table is required for the result, since the row type is described using an ABAP Dictionary type. An appropriate mapping can be performed for this type using the mapping table params. As an alternative to an auxiliary table for connection\_tab, its data type could also be declared in the ABAP Dictionary and an appropriate mapping performed.
+The method CDBP solves the task by implementing the HANA-specific select statement in a [database procedure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_procedure_glosry.htm "Glossary Entry") that is called by specifying a [database procedure proxy](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_proc_proxy_glosry.htm "Glossary Entry") in the statement [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_database_procedure.htm). In a more realistic example, the database procedure DEMO\_ADBC\_GET\_FLIGHTS and the database procedure proxy DEMO\_ADBC\_GET\_FLIGHTS\_PROXY would already exist and the implementation of the method would be restricted to the call CALL DATABASE PROCEDURE (see the executable example for [procedure calls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)). In this example, the database procedure and the database procedure proxy are created temporarily and deleted again using ADBC methods and the associated API. The input parameter connections of the procedure references an additional temporary HANA table type, DEMO\_ADBC\_CONNECTIONS\_TYPE. HANA does not support a separate type for numeric text, which means that the type NVARCHAR(4) must be used for the column CONNID. Therefore, the internal table connection\_tab must be assigned to a temporary table connections with the correct row type before the procedure is called. No auxiliary table is required for the result, since the row type is described using an ABAP Dictionary type. An appropriate mapping can be performed for this type using the mapping table params. As an alternative to an auxiliary table for connection\_tab, its data type could also be declared in the ABAP Dictionary and an appropriate mapping performed.
 
-The statement CALL DATABASE PROCEDURE is not possible on a [SAP HANA Cloud database](javascript:call_link\('abensap_hana_cloud_db_glosry.htm'\) "Glossary Entry").
+The statement CALL DATABASE PROCEDURE is not possible on a [SAP HANA Cloud database](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_hana_cloud_db_glosry.htm "Glossary Entry").
 
 METHOD cdbp.
   IF cl\_shdb\_hc=>is\_hana\_cloud(  ).
@@ -547,7 +487,7 @@ ENDMETHOD.
 
 Call an AMDP Procedure   
 
-The method AMDP solves the task in the easiest possible way by calling an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") AMDP\_METH in which the HANA-specific select statement is implemented in an [AMDP procedure](javascript:call_link\('abenamdp_procedure_glosry.htm'\) "Glossary Entry"). The main advantage of the AMDP method is that it can be called in the same way as any ABAP method and no auxiliary tables must be introduced, as was the case in the preceding examples.
+The method AMDP solves the task in the easiest possible way by calling an [AMDP method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_method_glosry.htm "Glossary Entry") AMDP\_METH in which the HANA-specific select statement is implemented in an [AMDP procedure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_procedure_glosry.htm "Glossary Entry"). The main advantage of the AMDP method is that it can be called in the same way as any ABAP method and no auxiliary tables must be introduced, as was the case in the preceding examples.
 
 METHOD amdp.
   amdp\_meth( EXPORTING connections = connection\_tab
@@ -567,18 +507,7 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB
 ENDMETHOD.
 
 
-
-**📖 Source**: [abenfrom_adbc_to_amdp_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfrom_adbc_to_amdp_abexa.htm)
-
 ### abencall_hana_db_proc_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -586,7 +515,7 @@ ENDMETHOD.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) →  [ABAP and SAP HANA, Examples](javascript:call_link\('abenabap_and_hana_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_hana.htm) →  [ABAP and SAP HANA, Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SAP%20HANA%2C%20Call%20Database%20Procedure%2C%20ABENCALL_HANA_DB_PROC_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement
 :)
@@ -654,7 +583,7 @@ ENDCLASS.
 
 Description   
 
-Take a database procedure called /1BCAMDP/DEMO\_ADBC\_GET\_FLIGHTS in the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry"):
+Take a database procedure called /1BCAMDP/DEMO\_ADBC\_GET\_FLIGHTS in the [ABAP database schema](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_db_schema_glosry.htm "Glossary Entry"):
 
 begin
   FLIGHTS =
@@ -674,7 +603,7 @@ To do this, the example class calls various methods of the class CL\_DEMO\_CALL\
 
 Comparison Implementation Using ABAP SQL   
 
-The method OSQL shows how the implementation of the database procedure can also be expressed in ABAP SQL. If the function is required only in ABAP, an implementation in SQLScript is unnecessary in this case and should be avoided in accordance with the relevant [programming guideline](javascript:call_link\('abendatabase_access_guidl.htm'\) "Guideline"). In our example, the database procedure is a replacement for a globally available procedure that is also to be called in ABAP. The result of the method OSQL is compared with the results of the various procedure calls to determine whether they are correct.
+The method OSQL shows how the implementation of the database procedure can also be expressed in ABAP SQL. If the function is required only in ABAP, an implementation in SQLScript is unnecessary in this case and should be avoided in accordance with the relevant [programming guideline](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_access_guidl.htm "Guideline"). In our example, the database procedure is a replacement for a globally available procedure that is also to be called in ABAP. The result of the method OSQL is compared with the results of the various procedure calls to determine whether they are correct.
 
 METHOD osql.
   IF connection\_tab IS NOT INITIAL.
@@ -689,7 +618,7 @@ ENDMETHOD.
 
 Call with Native SQL Using ADBC   
 
-The method ADBC uses [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") and [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry") to call the database procedure. To pass the internal table connection\_tab to the database procedure, a temporary table DEMO\_ADBC\_CONNECTIONS with the required type DEMO\_ADBC\_CONNECTIONS\_TYPE is created on the database and provided with the values of the internal table using insert. The database procedure is then called with the temporary table as an input parameter and the result is assigned to an ADBC result set. To read from the result set, a standard table flights\_std is required as an auxiliary table, since the return value flights is a sorted table that cannot be used for ADBC. The temporary table DEMO\_ADBC\_CONNECTIONS is removed again after the database procedure is called.
+The method ADBC uses [Native SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_glosry.htm "Glossary Entry") and [ADBC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadbc_glosry.htm "Glossary Entry") to call the database procedure. To pass the internal table connection\_tab to the database procedure, a temporary table DEMO\_ADBC\_CONNECTIONS with the required type DEMO\_ADBC\_CONNECTIONS\_TYPE is created on the database and provided with the values of the internal table using insert. The database procedure is then called with the temporary table as an input parameter and the result is assigned to an ADBC result set. To read from the result set, a standard table flights\_std is required as an auxiliary table, since the return value flights is a sorted table that cannot be used for ADBC. The temporary table DEMO\_ADBC\_CONNECTIONS is removed again after the database procedure is called.
 
 METHOD adbc.
   DATA(sql) = NEW cl\_sql\_statement( ).
@@ -724,9 +653,9 @@ ENDMETHOD.
 
 Call Using Database Procedure Proxy   
 
-The method CDBP calls the database procedure with the statement [CALL DATABASE PROCEDURE](javascript:call_link\('abapcall_database_procedure.htm'\)) using the assigned [database procedure proxy](javascript:call_link\('abendatabase_proc_proxy_glosry.htm'\) "Glossary Entry") DEMO\_ADBC\_GET\_FLIGHTS\_PROXY. The only thing to note here is that input parameters and output parameters of the database procedure have different row types than the internal tables that are to be assigned to them. In both cases, the column CONNID has the type NVARCHAR(4) on the database, but the type n with length 4 in ABAP. For this reason, the internal table connection\_tab is first assigned to a temporary table connections with the correct row type before the procedure is called. No auxiliary table is required for the result flights, since the row type is described using an ABAP Dictionary type. An appropriate mapping can be performed for this type using the mapping table params. As an alternative to an auxiliary table for connection\_tab, its data type could also be declared in the ABAP Dictionary and an appropriate mapping performed.
+The method CDBP calls the database procedure with the statement [CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_database_procedure.htm) using the assigned [database procedure proxy](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_proc_proxy_glosry.htm "Glossary Entry") DEMO\_ADBC\_GET\_FLIGHTS\_PROXY. The only thing to note here is that input parameters and output parameters of the database procedure have different row types than the internal tables that are to be assigned to them. In both cases, the column CONNID has the type NVARCHAR(4) on the database, but the type n with length 4 in ABAP. For this reason, the internal table connection\_tab is first assigned to a temporary table connections with the correct row type before the procedure is called. No auxiliary table is required for the result flights, since the row type is described using an ABAP Dictionary type. An appropriate mapping can be performed for this type using the mapping table params. As an alternative to an auxiliary table for connection\_tab, its data type could also be declared in the ABAP Dictionary and an appropriate mapping performed.
 
-The statement CALL DATABASE PROCEDURE is not possible on a [SAP HANA Cloud database](javascript:call_link\('abensap_hana_cloud_db_glosry.htm'\) "Glossary Entry").
+The statement CALL DATABASE PROCEDURE is not possible on a [SAP HANA Cloud database](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_hana_cloud_db_glosry.htm "Glossary Entry").
 
 METHOD cdbp.
   TYPES:
@@ -748,7 +677,7 @@ ENDMETHOD.
 
 Call Using AMDP   
 
-The method AMDP calls the [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") AMDP\_METH, in which a call of the database procedure is implemented in SQLScript. In this case, all type-dependent actions required are performed by the AMDP framework.
+The method AMDP calls the [AMDP method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_method_glosry.htm "Glossary Entry") AMDP\_METH, in which a call of the database procedure is implemented in SQLScript. In this case, all type-dependent actions required are performed by the AMDP framework.
 
 METHOD amdp.
   amdp\_meth( EXPORTING connections = connection\_tab
@@ -762,21 +691,7 @@ METHOD amdp\_meth BY DATABASE PROCEDURE FOR HDB LANGUAGE SQLSCRIPT.
 ENDMETHOD.
 
 
-
-**📖 Source**: [abencall_hana_db_proc_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_hana_db_proc_abexa.htm)
-
 ### abensql_script_curr_conv_abexa.htm
-
-> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abensql_script_curr_conv_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_script_curr_conv_abexa.htm)
-
 
   
 
@@ -784,7 +699,7 @@ ENDMETHOD.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) →  [ABAP and SAP HANA, Examples](javascript:call_link\('abenabap_and_hana_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_hana.htm) →  [ABAP and SAP HANA, Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_and_hana_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SAP%20HANA%2C%20Currency%20Conversion%20with%20SQLScript%2C%20ABENSQL_SCRIPT_CURR_CONV_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20f
 or%20improvement:)
@@ -854,7 +769,7 @@ ENDCLASS.
 
 Description   
 
-If possible, the example class calls the [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") CONVERT of the [AMDP class](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") CL\_DEMO\_SQLSCRIPT\_CURR\_CONV.
+If possible, the example class calls the [AMDP method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_method_glosry.htm "Glossary Entry") CONVERT of the [AMDP class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_class_glosry.htm "Glossary Entry") CL\_DEMO\_SQLSCRIPT\_CURR\_CONV.
 
 METHOD convert BY DATABASE PROCEDURE FOR HDB
                            LANGUAGE SQLSCRIPT
@@ -913,11 +828,11 @@ Hint
 
 See also
 
--   [Unit and Currency Conversion Functions in ABAP SQL](javascript:call_link\('abensql_curr_unit_conv_func.htm'\)).
+-   [Unit and Currency Conversion Functions in ABAP SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_curr_unit_conv_func.htm).
     
     The built-in SQL function CURRENCY\_CONVERSION wraps the HANA function CONVERT\_CURRENCY. The class CL\_DEMO\_ASQL\_FUNC\_CURR\_CONV shows how the same function as above can be achieved by using an ABAP SQL SELECT that calls the SQL function.
     
--   [Unit and Currency Conversion Functions in ABAP CDS](javascript:call_link\('abencds_conversion_functions_v2.htm'\)).
+-   [Unit and Currency Conversion Functions in ABAP CDS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conversion_functions_v2.htm).
     
     The built-in CDS function CURRENCY\_CONVERSION wraps the HANA function CONVERT\_CURRENCY. The class CL\_DEMO\_CDS\_FUNC\_CURR\_CONV\_VE shows how the same function as above can be achieved by using a CDS view that calls the CDS function.
     

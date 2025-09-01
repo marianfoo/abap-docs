@@ -4,20 +4,20 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [Logical Expressions (log\_exp)](javascript:call_link\('abenlogexp.htm'\)) →  [rel\_exp - Predicates](javascript:call_link\('abenpredicate.htm'\)) →  [rel\_exp - Predicate Functions](javascript:call_link\('abenpredicate_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_expr_func.htm) →  [Logical Expressions (log\_exp)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp.htm) →  [rel\_exp - Predicates](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate.htm) →  [rel\_exp - Predicate Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_functions.htm) → 
 
 rel\_exp - Predicate Functions for Character-Like Arguments
 
 The following predicate functions exist for character-like arguments:
 
--   [contains, contains\_...](javascript:call_link\('abencontains_functions.htm'\))
--   [matches](javascript:call_link\('abenmatches_functions.htm'\))
+-   [contains, contains\_...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencontains_functions.htm)
+-   [matches](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmatches_functions.htm)
 
 Hint
 
-The predicate functions shown here can be used instead of [comparison operators](javascript:call_link\('abenchar_comp_op_vs_funct.htm'\)).
+The predicate functions shown here can be used instead of [comparison operators](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenchar_comp_op_vs_funct.htm).
 
 Continue
-[rel\_exp - contains , contains\_...](javascript:call_link\('abencontains_functions.htm'\))
-[rel\_exp - matches](javascript:call_link\('abenmatches_functions.htm'\))
-![Example](exa.gif "Example") [rel\_exp - Predicate Function matches](javascript:call_link\('abenpred_function_matches_abexa.htm'\))
+[rel\_exp - contains , contains\_...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencontains_functions.htm)
+[rel\_exp - matches](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmatches_functions.htm)
+![Example](exa.gif "Example") [rel\_exp - Predicate Function matches](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpred_function_matches_abexa.htm)

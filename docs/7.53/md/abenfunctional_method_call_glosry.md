@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 functional method call
 
-Call of a [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") in a suitable [reading position](javascript:call_link\('abenreading_position_glosry.htm'\) "Glossary Entry"), where the [return value](javascript:call_link\('abenreturn_value_glosry.htm'\) "Glossary Entry") of the method is used as an [operand](javascript:call_link\('abenoperand_glosry.htm'\) "Glossary Entry").
+Call of a [functional method](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunctional_method_glosry.htm "Glossary Entry") in a suitable [reading position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreading_position_glosry.htm "Glossary Entry"), where the [return value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreturn_value_glosry.htm "Glossary Entry") of the method is used as an [operand](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperand_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abapcall_method_functional.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_functional.htm)

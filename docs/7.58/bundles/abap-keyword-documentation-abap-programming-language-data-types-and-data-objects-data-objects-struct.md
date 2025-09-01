@@ -3,34 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abendata_objects_structure.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_structure.htm)
-- [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_components.htm)
-- [abenstatic_boxes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_boxes.htm)
-- [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_abexas.htm)
-- [abenstructure_filling_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_filling_abexa.htm)
-- [abendictionary_structure_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_structure_abexa.htm)
-
-**Bundle Contains**: 6 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.952Z
-
----
-
 ### abendata_objects_structure.htm
-
-> **📖 Official SAP Documentation**: [abendata_objects_structure.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_structure.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abendata_objects_structure.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_structure.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -38,23 +11,65 @@ Included pages: 8
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Structures%2C%20ABENDATA_OBJECTS_STRUCTURE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Structures
 
-Structures are data objects that consist of components of any data type that are stored consecutively in the memory. The data type of a structure is a [structured type](javascript:call_link\('abenstructured_type_glosry.htm'\) "Glossary Entry"):
+Structures are data objects that consist of components of any data type that are stored consecutively in the memory. The data type of a structure is a [structured type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructured_type_glosry.htm "Glossary Entry"):
 
--   In a program, a structured type or structure is created using the additions [BEGIN OF ... END OF](javascript:call_link\('abaptypes_struc.htm'\)) of the statements TYPES, DATA, and so on. Structured types can also be created dynamically using the [RTTC](javascript:call_link\('abenrun_time_type_creation_glosry.htm'\) "Glossary Entry") methods.
--   In ABAP Dictionary, structured types are [DDIC structures](javascript:call_link\('abenddic_structures.htm'\)) or types of [DDIC database tables](javascript:call_link\('abenddic_database_tables.htm'\)) or of [DDIC views](javascript:call_link\('abenddic_views.htm'\)).
--   In [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry"), [CDS entities](javascript:call_link\('abencds_entities.htm'\)) represent structured types.
+-   In a program, a structured type or structure is created using the additions [BEGIN OF ... END OF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_struc.htm) of the statements TYPES, DATA, and so on. Structured types can also be created dynamically using the [RTTC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_type_creation_glosry.htm "Glossary Entry") methods.
+-   In ABAP Dictionary, structured types are [DDIC structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_structures.htm) or types of [DDIC database tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables.htm) or of [DDIC views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm).
+-   In [ABAP CDS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cds_glosry.htm "Glossary Entry"), [CDS entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entities.htm) represent structured types.
 
 The following sections give an overview of structures in ABAP.
 
--   [Kinds of Structures](#abendata-objects-structure-1-------use-of-structures---@ITOC@@ABENDATA_OBJECTS_STRUCTURE_2)
-    -   [Use of Deep Structures](#abendata-objects-structure-3-----------use-of-deep-ddic-structures---@ITOC@@ABENDATA_OBJECTS_STRUCTURE_4)
--   [Boxed Components](#abendata-objects-structure-5---programming-guidelines-------names-of-structure-components--javascript-call-link---abenstruc-comp-names-guidl-htm-----guideline--------do-not-include-components-from-structures--javascript-call-link---abenincluding-structures-guidl-htm-----guideline----kinds-of-structures-----depending-on-the-type-of-component--structures-are-named-as-follows-------flat-structures-do-not-contain-any--deep--javascript-call-link---abendeep-glosry-htm-----glossary-entry---components--they-only-contain-components-with-flat-data-types--such-as-elementary-types-c--n--d--t--decfloat16--decfloat34--f--b--s--i--int8--p--x--utclong--or-structures-with-these-types------flat-character-like-structures-are-flat-structures-with-exclusively--character-like--javascript-call-link---abencharlike-data-object-glosry-htm-----glossary-entry---components------nested-structures-contain-at-least-one--substructure--javascript-call-link---abensubstructure-glosry-htm-----glossary-entry----whether-a-nested-structure-is-flat-or-character-like-depends-on-the-properties-of-all-components------deep-structures-contain-at-least-one--deep--javascript-call-link---abendeep-glosry-htm-----glossary-entry---component-in-any-nesting-level--possible-deep-components-include-strings--internal-tables--boxed-components--data-or-object-references---a-structure-that-contains-static-or-dynamic-components-is-formally-also-a--static--javascript-call-link---abenstatic-data-object-glosry-htm-----glossary-entry---or--dynamic-data-object--javascript-call-link---abendynamic-data-object-glosry-htm-----glossary-entry----respectively---the-following-figure-illustrates-a-deep-structure-----figure--abdoc-deep-structure-gif---hints------the-term-nested-structure-must-not-be-confused-with-the-term-deep-structure--a-nested-structure-is-flat-if-it-contains-exclusively-flat-components-and-subcomponents--a-nested-structure-is-deep-when-it-has-at-least-one-deep-component-or-subcomponent------generally--the-components-of-a-structure-are-not-stored-directly-one-after-the-other-in-memory-and--alignment-gaps--javascript-call-link---abenalignment-gap-glosry-htm-----glossary-entry---may-occur------the-maximum-number-of-bytes-a-structure-can-contain-including-alignment-gaps-is-the-maximum-length-of-a-field-of-type-x--which-is-stored-in-the-constant-type--x--max--length-of-the-class-cl--abap--elemdescr--components-that-are-reference-variables--strings-or-internal-tables-each-use-8-bytes---example--nested-structure--the-substructure-is-created-using-a-reference-to-the-ddic-structure-scarr-for-the-second-component--the-components-are-accessed-using-the-structure-component-selector--------data----begin-of-struct------name--type-c-length-10-value--scarr-------scarr-type-scarr----end-of-struct--select-single-----------from-scarr--------where-carrid----lh---------into-corresponding-fields-of-struct-scarr.
+-   [Kinds of Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_1)
+-   [Use of Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_2)
+    -   [Use of Deep Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_3)
+    -   [Use of Deep DDIC Structures](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_4)
+-   [Boxed Components](#@@ITOC@@ABENDATA_OBJECTS_STRUCTURE_5)
+
+Programming Guidelines
+
+-   [Names of Structure Components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstruc_comp_names_guidl.htm "Guideline")
+-   [Do not include components from structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenincluding_structures_guidl.htm "Guideline")
+
+Kinds of Structures   
+
+Depending on the type of component, structures are named as follows:
+
+-   Flat structures do not contain any [deep](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeep_glosry.htm "Glossary Entry") components. They only contain components with flat data types, such as elementary types c, n, d, t, decfloat16, decfloat34, f, b, s, i, int8, p, x, utclong, or structures with these types.
+-   Flat character-like structures are flat structures with exclusively [character-like](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") components.
+-   Nested structures contain at least one [substructure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubstructure_glosry.htm "Glossary Entry"). Whether a nested structure is flat or character-like depends on the properties of all components.
+-   Deep structures contain at least one [deep](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeep_glosry.htm "Glossary Entry") component in any nesting level. Possible deep components include strings, internal tables, boxed components, data or object references.
+
+A structure that contains static or dynamic components is formally also a [static](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_data_object_glosry.htm "Glossary Entry") or [dynamic data object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_data_object_glosry.htm "Glossary Entry"), respectively.
+
+The following figure illustrates a deep structure.
+
+![Figure](abdoc_deep_structure.gif)
+
+Hints
+
+-   The term nested structure must not be confused with the term deep structure. A nested structure is flat if it contains exclusively flat components and subcomponents. A nested structure is deep when it has at least one deep component or subcomponent.
+-   Generally, the components of a structure are not stored directly one after the other in memory and [alignment gaps](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalignment_gap_glosry.htm "Glossary Entry") may occur.
+-   The maximum number of bytes a structure can contain including alignment gaps is the maximum length of a field of type x, which is stored in the constant TYPE\_X\_MAX\_LENGTH of the class CL\_ABAP\_ELEMDESCR. Components that are reference variables, strings or internal tables each use 8 bytes.
+
+Example
+
+Nested structure. The substructure is created using a reference to the DDIC structure SCARR for the second component. The components are accessed using the structure component selector (\-).
+
+DATA:
+  BEGIN OF struct,
+    name  TYPE c LENGTH 10 VALUE 'SCARR',
+    scarr TYPE scarr,
+  END OF struct.
+SELECT SINGLE \*
+       FROM scarr
+       WHERE carrid = 'LH'
+       INTO CORRESPONDING FIELDS OF @struct-scarr.
 cl\_demo\_output=>new(
 )->write\_data( struct-name
 )->write\_data( struct-scarr-carrid
@@ -76,11 +91,11 @@ DATA:
 
 Use of Structures   
 
-Structures are addressed either completely or by component in appropriate operand positions. The [structure component selector](javascript:call_link\('abenstructure_component_sel_glosry.htm'\) "Glossary Entry") (\-) is used for the latter. In the case of data reference variables that are typed as a structure, the components of the structure to which the data reference variable points can also be addressed using the object component selector (\->).
+Structures are addressed either completely or by component in appropriate operand positions. The [structure component selector](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_component_sel_glosry.htm "Glossary Entry") (\-) is used for the latter. In the case of data reference variables that are typed as a structure, the components of the structure to which the data reference variable points can also be addressed using the object component selector (\->).
 
-Special [conversion](javascript:call_link\('abenconversion_struc.htm'\)) and [comparison rules](javascript:call_link\('abenlogexp_rules_operands_struc.htm'\)) apply to assignments that involve structures. Flat character-like structures have the special feature that they can be used like [character-like data objects](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") in many operand positions and included in the generic ABAP type [clike](javascript:call_link\('abenbuilt_in_types_generic.htm'\)). They can be specified in almost all operand positions where elementary character-like data objects are possible. The ABAP runtime framework then interprets the structure as an elementary field of the type c in the length of the structure. An exception to this are operand positions of [string expressions](javascript:call_link\('abapcompute_string.htm'\)) and [string functions](javascript:call_link\('abenstring_functions.htm'\)) with named arguments.
+Special [conversion](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_struc.htm) and [comparison rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_rules_operands_struc.htm) apply to assignments that involve structures. Flat character-like structures have the special feature that they can be used like [character-like data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") in many operand positions and included in the generic ABAP type [clike](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_types_generic.htm). They can be specified in almost all operand positions where elementary character-like data objects are possible. The ABAP runtime framework then interprets the structure as an elementary field of the type c in the length of the structure. An exception to this are operand positions of [string expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcompute_string.htm) and [string functions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_functions.htm) with named arguments.
 
-For the assignment of structure components, there is a special statement [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)), a constructor operator [CORRESPONDING](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)), and a system class [CL\_ABAP\_CORRESPONDING](javascript:call_link\('abencl_abap_corresponding.htm'\)). The [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause of ABAP SQL also has an addition CORRESPONDING. The statement [ASSIGN](javascript:call_link\('abapassign.htm'\)) has a special variant [COMPONENT OF STRUCTURE](javascript:call_link\('abapassign_dynamic_components.htm'\)) for dynamic access to structure components.
+For the assignment of structure components, there is a special statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove-corresponding.htm), a constructor operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expr_corresponding.htm), and a system class [CL\_ABAP\_CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencl_abap_corresponding.htm). The [INTO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinto_clause.htm) clause of ABAP SQL also has an addition CORRESPONDING. The statement [ASSIGN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign.htm) has a special variant [COMPONENT OF STRUCTURE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_dynamic_components.htm) for dynamic access to structure components.
 
 Example
 
@@ -96,7 +111,7 @@ cl\_demo\_output=>display( ).
 
 Example
 
-Creation of a structure as an [anonymous data object](javascript:call_link\('abenanonymous_data_object_glosry.htm'\) "Glossary Entry") with the type of the DDIC database table SCARR in the ABAP Dictionary to which the data reference variable dref points. Used as the target area of a SELECT statement using the [dereferencing operator](javascript:call_link\('abendereferencing_operat_glosry.htm'\) "Glossary Entry") (\->\*). The components of the structure are accessed using the object component selector (\->).
+Creation of a structure as an [anonymous data object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenanonymous_data_object_glosry.htm "Glossary Entry") with the type of the DDIC database table SCARR in the ABAP Dictionary to which the data reference variable dref points. Used as the target area of a SELECT statement using the [dereferencing operator](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendereferencing_operat_glosry.htm "Glossary Entry") (\->\*). The components of the structure are accessed using the object component selector (\->).
 
 FINAL(dref) = NEW scarr( ).
 SELECT \*
@@ -127,13 +142,13 @@ Use of Deep Structures  
 
 Since the data content of deep structures is not stored completely within the memory bounds of the structure itself and the deep components are just references to the actual data instead, there are some general restrictions apply when using deep structures, as opposed to flat structures:
 
--   Deep structures must be [compatible](javascript:call_link\('abencompatibility.htm'\)) in [assignments](javascript:call_link\('abenvalue_assignments.htm'\)) and [comparisons](javascript:call_link\('abenlogexp_comp.htm'\)).
--   [Substring access](javascript:call_link\('abenoffset_length.htm'\)) using offset/lengths is not possible for deep structures.
--   Deep structures cannot be used as character-like data objects in operand positions and are not included in the generic ABAP type [clike](javascript:call_link\('abenbuilt_in_types_generic.htm'\)). This applies in particular to structures that contain [strings](javascript:call_link\('abenstring_glosry.htm'\) "Glossary Entry").
--   When data objects are cast with [ASSIGN](javascript:call_link\('abapassign_casting.htm'\)), the deep components of deep structures must match in type and position in the type of the data object, and in the type of the field symbol.
--   The [work area](javascript:call_link\('abenabap_sql_wa.htm'\)) of ABAP SQL statements cannot contain any deep components other than strings or [LOB handles](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry").
--   The target or source field of the statements [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) and [TRANSFER](javascript:call_link\('abaptransfer.htm'\)) cannot be a deep structure.
--   No internal tables with a deep line type can be passed to a TABLES parameter in a [remote function call](javascript:call_link\('abenremote_function_call_glosry.htm'\) "Glossary Entry"). Deep structures can be passed to the other parameters, as long as they do not contain any reference variables.
+-   Deep structures must be [compatible](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencompatibility.htm) in [assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_assignments.htm) and [comparisons](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_comp.htm).
+-   [Substring access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoffset_length.htm) using offset/lengths is not possible for deep structures.
+-   Deep structures cannot be used as character-like data objects in operand positions and are not included in the generic ABAP type [clike](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_types_generic.htm). This applies in particular to structures that contain [strings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_glosry.htm "Glossary Entry").
+-   When data objects are cast with [ASSIGN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_casting.htm), the deep components of deep structures must match in type and position in the type of the data object, and in the type of the field symbol.
+-   The [work area](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_wa.htm) of ABAP SQL statements cannot contain any deep components other than strings or [LOB handles](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlob_handle_glosry.htm "Glossary Entry").
+-   The target or source field of the statements [OPEN DATASET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset.htm) and [TRANSFER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptransfer.htm) cannot be a deep structure.
+-   No internal tables with a deep line type can be passed to a TABLES parameter in a [remote function call](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenremote_function_call_glosry.htm "Glossary Entry"). Deep structures can be passed to the other parameters, as long as they do not contain any reference variables.
 
 Hint
 
@@ -159,34 +174,23 @@ Use of Deep DDIC Structures  
 
 The same restrictions apply to deep DDIC structures defined in the ABAP Dictionary as to deep structures declared in ABAP programs. Further restrictions apply only when the following language elements that are forbidden in classes in which only flat ABAP Dictionary structures can be specified are used:
 
--   Statement [TABLES](javascript:call_link\('abaptables.htm'\)) for table work areas.
--   Obsolete use of LIKE instead of TYPE as a reference to data types in the ABAP Dictionary in [type declarations](javascript:call_link\('abaptypes.htm'\)) and [typings](javascript:call_link\('abentyping_complete.htm'\))
--   Obsolete use of [INCLUDE STRUCTURE](javascript:call_link\('abapinclude_type.htm'\))
--   Obsolete use of STRUCTURE to force a structure to [field symbols](javascript:call_link\('abapfield-symbols.htm'\)) or interface parameters of [function modules](javascript:call_link\('abenfunction_parameters.htm'\)) or [subroutines](javascript:call_link\('abapform_parameters.htm'\)).
+-   Statement [TABLES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptables.htm) for table work areas.
+-   Obsolete use of LIKE instead of TYPE as a reference to data types in the ABAP Dictionary in [type declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes.htm) and [typings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_complete.htm)
+-   Obsolete use of [INCLUDE STRUCTURE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinclude_type.htm)
+-   Obsolete use of STRUCTURE to force a structure to [field symbols](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfield-symbols.htm) or interface parameters of [function modules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunction_parameters.htm) or [subroutines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapform_parameters.htm).
 
 These language elements are forbidden in classes.
 
 Boxed Components   
 
-The substructures of nested structures and structured components of classes or interfaces can be declared as [boxed components](javascript:call_link\('abenboxed_components.htm'\)).
+The substructures of nested structures and structured components of classes or interfaces can be declared as [boxed components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_components.htm).
 
 Continue
-[Boxed Components](javascript:call_link\('abenboxed_components.htm'\))
-[Examples of Structures](javascript:call_link\('abenstructure_abexas.htm'\))
+[Boxed Components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_components.htm)
+[Examples of Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_abexas.htm)
 
-
-
-**📖 Source**: [abendata_objects_structure.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_structure.htm)
 
 ### abenboxed_components.htm
-
-> **📖 Official SAP Documentation**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_components.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_components.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -194,45 +198,34 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Structures](javascript:call_link\('abendata_objects_structure.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) →  [Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_structure.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Boxed%20Components%2C%20ABENBOXED_COMPONENTS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Boxed Components
 
-Boxed components are structures that are not stored in their superordinate context. Instead, an internal reference that points to the actual structure is stored instead of the structure. A boxed component is therefore always a [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") component of its context.
+Boxed components are structures that are not stored in their superordinate context. Instead, an internal reference that points to the actual structure is stored instead of the structure. A boxed component is therefore always a [deep](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeep_glosry.htm "Glossary Entry") component of its context.
 
 It is currently possible to declare substructures of structured data types and structured attributes of classes as
 
--   [static boxes](javascript:call_link\('abenstatic_boxes.htm'\))
+-   [static boxes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_boxes.htm)
 
-These boxes support [initial value sharing](javascript:call_link\('abeninitial_value_sharing_glosry.htm'\) "Glossary Entry").
+These boxes support [initial value sharing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_value_sharing_glosry.htm "Glossary Entry").
 
 Hints
 
--   Boxed components are a middle ground between [static](javascript:call_link\('abenstatic_data_object_glosry.htm'\) "Glossary Entry") and [dynamic data objects](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry"). Their memory requirements are not fixed when the program is started in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"), but they can be handled like static data objects with a fixed length.
--   A nested structure that contains a boxed component as a component is always a [deep structure](javascript:call_link\('abendeep_structure_glosry.htm'\) "Glossary Entry").
+-   Boxed components are a middle ground between [static](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_data_object_glosry.htm "Glossary Entry") and [dynamic data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_data_object_glosry.htm "Glossary Entry"). Their memory requirements are not fixed when the program is started in the [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry"), but they can be handled like static data objects with a fixed length.
+-   A nested structure that contains a boxed component as a component is always a [deep structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeep_structure_glosry.htm "Glossary Entry").
 -   Structures of the ABAP Dictionary can also contain boxed components. ABAP Dictionary database tables cannot contain any boxed components since their structures must be flat.
--   In [RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry") classes and objects, boxed components are handled as follows:
+-   In [RTTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry") classes and objects, boxed components are handled as follows:
     -   The class CL\_ABAP\_TYPEDESCR contains the constant TYPEKIND\_BREF for static boxes. The value of these constants is specified as the type of a static box in the component table COMPONENTS of the class CL\_ABAP\_STRUCTDESCR or the attribute table ATTRIBUTES of the classes CL\_ABAP\_CLASSDESCR or CL\_ABAP\_INTFDESCR.
-    -   In the return value of the method GET\_COMPONENTS of the class CL\_ABAP\_STRUCTDESCR or GET\_ATTRIBUTE\_TYPE of the classes CL\_ABAP\_CLASSDESCR or CL\_ABAP\_INTFDESCR, boxed components are listed as type description objects of the class CL\_ABAP\_REFDESCR, like reference variables. The method GET\_REFERENCED\_TYPE of this class returns a type description object for the substructure. A type description object of the class CL\_ABAP\_REFDESCR, which describes a boxed component, cannot be used in the statements [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) or [ASSIGN CASTING](javascript:call_link\('abapassign_casting.htm'\)).
+    -   In the return value of the method GET\_COMPONENTS of the class CL\_ABAP\_STRUCTDESCR or GET\_ATTRIBUTE\_TYPE of the classes CL\_ABAP\_CLASSDESCR or CL\_ABAP\_INTFDESCR, boxed components are listed as type description objects of the class CL\_ABAP\_REFDESCR, like reference variables. The method GET\_REFERENCED\_TYPE of this class returns a type description object for the substructure. A type description object of the class CL\_ABAP\_REFDESCR, which describes a boxed component, cannot be used in the statements [CREATE DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_data.htm) or [ASSIGN CASTING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_casting.htm).
 
 Continue
-[Static Boxes](javascript:call_link\('abenstatic_boxes.htm'\))
+[Static Boxes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_boxes.htm)
 
-
-
-**📖 Source**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_components.htm)
 
 ### abenstatic_boxes.htm
-
-> **📖 Official SAP Documentation**: [abenstatic_boxes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_boxes.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenstatic_boxes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_boxes.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -240,38 +233,38 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Structures](javascript:call_link\('abendata_objects_structure.htm'\)) →  [Boxed Components](javascript:call_link\('abenboxed_components.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) →  [Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_structure.htm) →  [Boxed Components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_components.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Static%20Boxes%2C%20ABENSTATIC_BOXES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Static Boxes
 
-Static boxes are [boxed components](javascript:call_link\('abenboxed_components.htm'\)) whose components are known statically, and which are subject to [initial value sharing](javascript:call_link\('abeninitial_value_sharing_glosry.htm'\) "Glossary Entry"). Declarations of static boxes generally require less memory for structures that occur multiple times but are rarely used.
+Static boxes are [boxed components](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_components.htm) whose components are known statically, and which are subject to [initial value sharing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_value_sharing_glosry.htm "Glossary Entry"). Declarations of static boxes generally require less memory for structures that occur multiple times but are rarely used.
 
 The following can currently be declared as static boxes:
 
--   Substructures of structured data with the addition [BOXED](javascript:call_link\('abaptypes_boxed.htm'\)) of the statement [TYPES](javascript:call_link\('abaptypes.htm'\)).
--   Structured attributes of classes or interfaces with the addition [BOXED](javascript:call_link\('abapdata_boxed.htm'\)) of the statement [*\[*CLASS-*\]*DATA](javascript:call_link\('abapdata.htm'\)).
+-   Substructures of structured data with the addition [BOXED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_boxed.htm) of the statement [TYPES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes.htm).
+-   Structured attributes of classes or interfaces with the addition [BOXED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_boxed.htm) of the statement [*\[*CLASS-*\]*DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata.htm).
 
 A static box can have one of two states:
 
 -   Initial value sharing
     
-    As long as none of the actions named in the following point have been executed, initial value sharing applies to a static box. The internal reference refers to a type-dependent initial value of the structure, which is stored exactly once for each [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry") in its [PXA](javascript:call_link\('abenpxa_glosry.htm'\) "Glossary Entry"). The memory requirement in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") is determined only by the internal reference and its [administration](javascript:call_link\('abenmemory_consumption.htm'\)).
+    As long as none of the actions named in the following point have been executed, initial value sharing applies to a static box. The internal reference refers to a type-dependent initial value of the structure, which is stored exactly once for each [AS instance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_instance_glosry.htm "Glossary Entry") in its [PXA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpxa_glosry.htm "Glossary Entry"). The memory requirement in the [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry") is determined only by the internal reference and its [administration](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption.htm).
     
 -   Revoked initial value sharing
     
     The following actions revoke initial value sharing for a static box:
     
     -   Writes to the static box or one of its components.
-    -   Assigning the static box or one of its components to a [field symbol](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") using [ASSIGN](javascript:call_link\('abapassign.htm'\)).
-    -   Addressing the static box or one of its components using a [data reference](javascript:call_link\('abendata_reference_glosry.htm'\) "Glossary Entry").
-    -   Using a static box or one of its components as an [actual parameter](javascript:call_link\('abenactual_parameter_glosry.htm'\) "Glossary Entry") for procedure calls.
+    -   Assigning the static box or one of its components to a [field symbol](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfield_symbol_glosry.htm "Glossary Entry") using [ASSIGN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign.htm).
+    -   Addressing the static box or one of its components using a [data reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_reference_glosry.htm "Glossary Entry").
+    -   Using a static box or one of its components as an [actual parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenactual_parameter_glosry.htm "Glossary Entry") for procedure calls.
     
     The internal reference then refers to an instance of the structure in the current internal session. The memory requirement is the same as for a regular structure plus the administration costs for the internal reference.
     
 
-In initial value sharing, the memory required for the internal session of a static box is not defined at the start of program execution. However, unlike in real [dynamic data objects](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry"), the length of a static box is always known statically. Static boxes can be used in the same way as a regular component of the same type. When a structure that contains a static box is accessed, however, it should be ensured that it is a deep component.
+In initial value sharing, the memory required for the internal session of a static box is not defined at the start of program execution. However, unlike in real [dynamic data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_data_object_glosry.htm "Glossary Entry"), the length of a static box is always known statically. Static boxes can be used in the same way as a regular component of the same type. When a structure that contains a static box is accessed, however, it should be ensured that it is a deep component.
 
 Hints
 
@@ -290,18 +283,7 @@ TYPES:
   END OF struct.
 
 
-
-**📖 Source**: [abenstatic_boxes.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_boxes.htm)
-
 ### abenboxed_components.htm
-
-> **📖 Official SAP Documentation**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_components.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_components.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -309,45 +291,34 @@ TYPES:
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Structures](javascript:call_link\('abendata_objects_structure.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) →  [Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_structure.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Boxed%20Components%2C%20ABENBOXED_COMPONENTS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Boxed Components
 
-Boxed components are structures that are not stored in their superordinate context. Instead, an internal reference that points to the actual structure is stored instead of the structure. A boxed component is therefore always a [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") component of its context.
+Boxed components are structures that are not stored in their superordinate context. Instead, an internal reference that points to the actual structure is stored instead of the structure. A boxed component is therefore always a [deep](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeep_glosry.htm "Glossary Entry") component of its context.
 
 It is currently possible to declare substructures of structured data types and structured attributes of classes as
 
--   [static boxes](javascript:call_link\('abenstatic_boxes.htm'\))
+-   [static boxes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_boxes.htm)
 
-These boxes support [initial value sharing](javascript:call_link\('abeninitial_value_sharing_glosry.htm'\) "Glossary Entry").
+These boxes support [initial value sharing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninitial_value_sharing_glosry.htm "Glossary Entry").
 
 Hints
 
--   Boxed components are a middle ground between [static](javascript:call_link\('abenstatic_data_object_glosry.htm'\) "Glossary Entry") and [dynamic data objects](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry"). Their memory requirements are not fixed when the program is started in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"), but they can be handled like static data objects with a fixed length.
--   A nested structure that contains a boxed component as a component is always a [deep structure](javascript:call_link\('abendeep_structure_glosry.htm'\) "Glossary Entry").
+-   Boxed components are a middle ground between [static](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_data_object_glosry.htm "Glossary Entry") and [dynamic data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_data_object_glosry.htm "Glossary Entry"). Their memory requirements are not fixed when the program is started in the [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry"), but they can be handled like static data objects with a fixed length.
+-   A nested structure that contains a boxed component as a component is always a [deep structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeep_structure_glosry.htm "Glossary Entry").
 -   Structures of the ABAP Dictionary can also contain boxed components. ABAP Dictionary database tables cannot contain any boxed components since their structures must be flat.
--   In [RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry") classes and objects, boxed components are handled as follows:
+-   In [RTTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry") classes and objects, boxed components are handled as follows:
     -   The class CL\_ABAP\_TYPEDESCR contains the constant TYPEKIND\_BREF for static boxes. The value of these constants is specified as the type of a static box in the component table COMPONENTS of the class CL\_ABAP\_STRUCTDESCR or the attribute table ATTRIBUTES of the classes CL\_ABAP\_CLASSDESCR or CL\_ABAP\_INTFDESCR.
-    -   In the return value of the method GET\_COMPONENTS of the class CL\_ABAP\_STRUCTDESCR or GET\_ATTRIBUTE\_TYPE of the classes CL\_ABAP\_CLASSDESCR or CL\_ABAP\_INTFDESCR, boxed components are listed as type description objects of the class CL\_ABAP\_REFDESCR, like reference variables. The method GET\_REFERENCED\_TYPE of this class returns a type description object for the substructure. A type description object of the class CL\_ABAP\_REFDESCR, which describes a boxed component, cannot be used in the statements [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) or [ASSIGN CASTING](javascript:call_link\('abapassign_casting.htm'\)).
+    -   In the return value of the method GET\_COMPONENTS of the class CL\_ABAP\_STRUCTDESCR or GET\_ATTRIBUTE\_TYPE of the classes CL\_ABAP\_CLASSDESCR or CL\_ABAP\_INTFDESCR, boxed components are listed as type description objects of the class CL\_ABAP\_REFDESCR, like reference variables. The method GET\_REFERENCED\_TYPE of this class returns a type description object for the substructure. A type description object of the class CL\_ABAP\_REFDESCR, which describes a boxed component, cannot be used in the statements [CREATE DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_data.htm) or [ASSIGN CASTING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_casting.htm).
 
 Continue
-[Static Boxes](javascript:call_link\('abenstatic_boxes.htm'\))
+[Static Boxes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_boxes.htm)
 
-
-
-**📖 Source**: [abenboxed_components.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboxed_components.htm)
 
 ### abenstructure_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -355,32 +326,21 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Structures](javascript:call_link\('abendata_objects_structure.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) →  [Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_structure.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Examples%20of%20Structures%2C%20ABENSTRUCTURE_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Examples of Structures
 
--   [Filling a Structure](javascript:call_link\('abenstructure_filling_abexa.htm'\))
--   [Structure from ABAP Dictionary](javascript:call_link\('abendictionary_structure_abexa.htm'\))
+-   [Filling a Structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_filling_abexa.htm)
+-   [Structure from ABAP Dictionary](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_structure_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Filling a Structure](javascript:call_link\('abenstructure_filling_abexa.htm'\))
-![Example](exa.gif "Example") [Structure from ABAP Dictionary](javascript:call_link\('abendictionary_structure_abexa.htm'\))
+![Example](exa.gif "Example") [Filling a Structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_filling_abexa.htm)
+![Example](exa.gif "Example") [Structure from ABAP Dictionary](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_structure_abexa.htm)
 
-
-
-**📖 Source**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_abexas.htm)
 
 ### abenstructure_filling_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenstructure_filling_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_filling_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenstructure_filling_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_filling_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -388,7 +348,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Structures](javascript:call_link\('abendata_objects_structure.htm'\)) →  [Examples of Structures](javascript:call_link\('abenstructure_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) →  [Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_structure.htm) →  [Examples of Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Filling%20a%20Structure%2C%20ABENSTRUCTURE_FILLING_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -454,28 +414,17 @@ ENDCLASS.
 
 Description   
 
-In this example, the structure from the executable example [Declaring a Nested Structure](javascript:call_link\('abennested_structure_abexa.htm'\)) is defined with [TYPES](javascript:call_link\('abaptypes_struc.htm'\)) as the data type address\_type and used for the data objects addr and address. A separate structure type is also defined for each of the substructures.
+In this example, the structure from the executable example [Declaring a Nested Structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennested_structure_abexa.htm) is defined with [TYPES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_struc.htm) as the data type address\_type and used for the data objects addr and address. A separate structure type is also defined for each of the substructures.
 
-If a structure is declared with the statement DATA by reference to a structure type as shown here, the addition [VALUE](javascript:call_link\('abapdata_options.htm'\)) cannot be used. Instead, the structure must be filled by accessing the components. In particular, this also applies to the frequently occurring reference to structures of the ABAP Dictionary. There are mainly two ways for doing this:
+If a structure is declared with the statement DATA by reference to a structure type as shown here, the addition [VALUE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_options.htm) cannot be used. Instead, the structure must be filled by accessing the components. In particular, this also applies to the frequently occurring reference to structures of the ABAP Dictionary. There are mainly two ways for doing this:
 
 -   In the first part of the method main, the structure addr is filled using the structure component selector. The component name is assigned a prefilled structure. In the components street and city, the components that are nested there are accessed.
--   In the second part of the method main, the structure address is filled with the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)), but the structure itself is created using an inline declaration. The parentheses after VALUE show different options for accessing the components of substructures. Either the structure component selector is used again in the same way as for the substructure name, or additional VALUE operators are nested, such as for street and city.
+-   In the second part of the method main, the structure address is filled with the value operator [VALUE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_value.htm), but the structure itself is created using an inline declaration. The parentheses after VALUE show different options for accessing the components of substructures. Either the structure component selector is used again in the same way as for the substructure name, or additional VALUE operators are nested, such as for street and city.
 
 The content of both structures is the same. The value operator VALUE represents the modern way, where the need of expressing all the component names explicitly is replaced by the use of parentheses.
 
 
-
-**📖 Source**: [abenstructure_filling_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_filling_abexa.htm)
-
 ### abendictionary_structure_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendictionary_structure_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_structure_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abendictionary_structure_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_structure_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -483,7 +432,7 @@ The content of both structures is the same. The value operator VALUE represents 
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Structures](javascript:call_link\('abendata_objects_structure.htm'\)) →  [Examples of Structures](javascript:call_link\('abenstructure_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) →  [Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_structure.htm) →  [Examples of Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Structure%20from%20ABAP%20Dictionary%2C%20ABENDICTIONARY_STRUCTURE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -517,24 +466,10 @@ ENDCLASS.
 
 Description   
 
-Structure types of the ABAP Dictionary are typically used in ABAP programs to define structures or internal tables with a structured line type to process data that is imported from the database. The example shows how a structure carrier local to a method is declared by reference to a database table SCARR defined in the ABAP Dictionary, and used as the target area of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement.
+Structure types of the ABAP Dictionary are typically used in ABAP programs to define structures or internal tables with a structured line type to process data that is imported from the database. The example shows how a structure carrier local to a method is declared by reference to a database table SCARR defined in the ABAP Dictionary, and used as the target area of a [SELECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect.htm) statement.
 
-
-
-**📖 Source**: [abendictionary_structure_abexa.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_structure_abexa.htm)
 
 ### abenstructure_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenstructure_abexas.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_abexas.htm)
-
 
   
 
@@ -542,15 +477,15 @@ Structure types of the ABAP Dictionary are typically used in ABAP programs to de
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Structures](javascript:call_link\('abendata_objects_structure.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects.htm) →  [Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_objects_structure.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Examples%20of%20Structures%2C%20ABENSTRUCTURE_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Examples of Structures
 
--   [Filling a Structure](javascript:call_link\('abenstructure_filling_abexa.htm'\))
--   [Structure from ABAP Dictionary](javascript:call_link\('abendictionary_structure_abexa.htm'\))
+-   [Filling a Structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_filling_abexa.htm)
+-   [Structure from ABAP Dictionary](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_structure_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Filling a Structure](javascript:call_link\('abenstructure_filling_abexa.htm'\))
-![Example](exa.gif "Example") [Structure from ABAP Dictionary](javascript:call_link\('abendictionary_structure_abexa.htm'\))
+![Example](exa.gif "Example") [Filling a Structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_filling_abexa.htm)
+![Example](exa.gif "Example") [Structure from ABAP Dictionary](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_structure_abexa.htm)

@@ -3,28 +3,7 @@
 Included pages: 4
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenenumerated_types_usage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_types_usage.htm)
-- [abenenum_usage_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_usage_abexa.htm)
-- [abenenum_description_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_description_abexa.htm)
-- [abenenum_deserialization_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_deserialization_abexa.htm)
-
-**Bundle Contains**: 4 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.492Z
-
----
-
 ### abenenumerated_types_usage.htm
-
-> **📖 Official SAP Documentation**: [abenenumerated_types_usage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_types_usage.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -32,63 +11,73 @@ Included pages: 4
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) → 
 
 Enumerated Objects
 
-This section summarizes the use of [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") (data objects with [enumerated types](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry").
+This section summarizes the use of [enumerated objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_object_glosry.htm "Glossary Entry") (data objects with [enumerated types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry").
 
--   [Declaration](#abenenumerated-types-usage-1--------processing-of-enumerated-objects---@ITOC@@ABENENUMERATED_TYPES_USAGE_2)
+-   [Declaration](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_1)
 
--   [Operand Positions for Enumerated Objects](#abenenumerated-types-usage-3--------value-assignments---@ITOC@@ABENENUMERATED_TYPES_USAGE_4)
+-   [Processing of Enumerated Objects](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_2)
 
--   [Comparisons](#abenenumerated-types-usage-5--------typing-of-formal-parameters-and-field-symbols---@ITOC@@ABENENUMERATED_TYPES_USAGE_6)
+-   [Operand Positions for Enumerated Objects](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_3)
 
--   [Access to the Enumerated Value](#abenenumerated-types-usage-7--------type-descriptions---@ITOC@@ABENENUMERATED_TYPES_USAGE_8)
+-   [Value Assignments](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_4)
 
--   [Data interfaces](#abenenumerated-types-usage-9--------forbidden-uses---@ITOC@@ABENENUMERATED_TYPES_USAGE_10)
+-   [Comparisons](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_5)
+
+-   [Typing of Formal Parameters and Field Symbols](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_6)
+
+-   [Access to the Enumerated Value](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_7)
+
+-   [Type Descriptions](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_8)
+
+-   [Data interfaces](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_9)
+
+-   [Forbidden Uses](#@@ITOC@@ABENENUMERATED_TYPES_USAGE_10)
 
 Executable Example
 
-[Enumerated Objects, Use](javascript:call_link\('abenenum_usage_abexa.htm'\))
+[Enumerated Objects, Use](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_usage_abexa.htm)
 
 Declaration
 
-An enumerated object is a data object with an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") defined by one of the following TYPES statements:
+An enumerated object is a data object with an [enumerated type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry") defined by one of the following TYPES statements:
 
-[TYPES BEGIN OF ENUM enum\_type ...](javascript:call_link\('abaptypes_enum.htm'\))
-  [TYPES val1 ...](javascript:call_link\('abaptypes_enum.htm'\))
-  [TYPES val2 ...](javascript:call_link\('abaptypes_enum.htm'\))
+[TYPES BEGIN OF ENUM enum\_type ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_enum.htm)
+  [TYPES val1 ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_enum.htm)
+  [TYPES val2 ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_enum.htm)
   ...
-[TYPES END OF ENUM enum\_type ...](javascript:call_link\('abaptypes_enum.htm'\))
+[TYPES END OF ENUM enum\_type ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_enum.htm)
 
-The technical data type of the content of an enumerated object is the [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") of the enumerated type. The potential content is defined by the [enumerated values](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") defined using TYPES val1, TYPES val2, ..., of which at least one value must have the type-dependent initial value. The base type is i by default but it can be a different elementary data type. The following enumerated objects exist:
+The technical data type of the content of an enumerated object is the [base type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbase_type_glosry.htm "Glossary Entry") of the enumerated type. The potential content is defined by the [enumerated values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_value_glosry.htm "Glossary Entry") defined using TYPES val1, TYPES val2, ..., of which at least one value must have the type-dependent initial value. The base type is i by default but it can be a different elementary data type. The following enumerated objects exist:
 
 -   Enumerated variables
 
-An [enumerated variable](javascript:call_link\('abenenumerated_variable_glosry.htm'\) "Glossary Entry") is a variable defined using
+An [enumerated variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_variable_glosry.htm "Glossary Entry") is a variable defined using
 
-[DATA enum\_var TYPE enum\_type ...](javascript:call_link\('abapdata_enum.htm'\))
+[DATA enum\_var TYPE enum\_type ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_enum.htm)
 
-that can contain only [enumerated values](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") of the enumerated type. This is ensured by the ABAP runtime environment and the rules for using enumerated types.
+that can contain only [enumerated values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_value_glosry.htm "Glossary Entry") of the enumerated type. This is ensured by the ABAP runtime environment and the rules for using enumerated types.
 
 -   Enumeration constants
 
-An [enumeration constant](javascript:call_link\('abenenumerated_constant_glosry.htm'\) "Glossary Entry") is used to define a value in the value set of an enumerated type. In the definition of an enumerated type, it is defined using
+An [enumeration constant](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_constant_glosry.htm "Glossary Entry") is used to define a value in the value set of an enumerated type. In the definition of an enumerated type, it is defined using
 
-[TYPES val ...](javascript:call_link\('abaptypes_enum.htm'\))
+[TYPES val ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_enum.htm)
 
-under the name val. This constant is a constant of the context of its definition and contains the [enumerated value](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") assigned in the definition. It can be specified in all reading positions in which enumerated objects are possible. Its enumerated value is either determined automatically as a whole number or can be specified explicitly in the definition.
+under the name val. This constant is a constant of the context of its definition and contains the [enumerated value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_value_glosry.htm "Glossary Entry") assigned in the definition. It can be specified in all reading positions in which enumerated objects are possible. Its enumerated value is either determined automatically as a whole number or can be specified explicitly in the definition.
 
 -   Components of enumeration structures
 
-A component of an [enumeration structure](javascript:call_link\('abenenumerated_structure_glosry.htm'\) "Glossary Entry") is a special form of an enumeration constant that exists as a component of a constant structure and not as a single data object. The enumeration structure struc is defined using
+A component of an [enumeration structure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_structure_glosry.htm "Glossary Entry") is a special form of an enumeration constant that exists as a component of a constant structure and not as a single data object. The enumeration structure struc is defined using
 
-[TYPES BEGIN OF ENUM enum\_type STRUCTURE struc ...](javascript:call_link\('abaptypes_enum.htm'\))
+[TYPES BEGIN OF ENUM enum\_type STRUCTURE struc ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_enum.htm)
 
 . This makes the enumeration constants defined using
 
-[TYPES val ...](javascript:call_link\('abaptypes_enum.htm'\))
+[TYPES val ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_enum.htm)
 
 into their structure components. Otherwise, the same applies as to regular enumeration constants.
 
@@ -134,17 +123,17 @@ START-OF-SELECTION.
 
 Processing of Enumerated Objects
 
-Enumerated objects are almost always processed independently of the base type of the enumerated type. Only the enumerated type itself is of relevance for all rules specified here. Assignments of enumerated objects with a numeric base type, for example, cannot be assigned to numeric target fields and cannot be compared with numeric fields. The enumerated vale in the base type can be accessed using the constructor operators [CONV](javascript:call_link\('abenconv_constructor_enum.htm'\)) and [EXACT](javascript:call_link\('abenexact_constructor_enum.htm'\)) only.
+Enumerated objects are almost always processed independently of the base type of the enumerated type. Only the enumerated type itself is of relevance for all rules specified here. Assignments of enumerated objects with a numeric base type, for example, cannot be assigned to numeric target fields and cannot be compared with numeric fields. The enumerated vale in the base type can be accessed using the constructor operators [CONV](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconv_constructor_enum.htm) and [EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexact_constructor_enum.htm) only.
 
 Operand Positions for Enumerated Objects
 
 -   Reading positions
 
-Enumerated objects can be used in all [reading positions](javascript:call_link\('abendata_objects_usage_reading.htm'\)) in which the operand type is their enumerated type or in which the operand is converted to one of the character-like types c or string. [Substring access](javascript:call_link\('abenoffset_length.htm'\)) is not possible.
+Enumerated objects can be used in all [reading positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_reading.htm) in which the operand type is their enumerated type or in which the operand is converted to one of the character-like types c or string. [Substring access](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm) is not possible.
 
 -   Writing positions
 
-Enumerated variables can only be used in [writing positions](javascript:call_link\('abendata_objects_usage_writing.htm'\)) in which the operand type is the enumerated type and only the associated enumerated values can be written. If known statically, an attempt to assign a value other than a valid enumerated value to an enumerated variable produces a syntax error. If not known statically, an exception is raised.
+Enumerated variables can only be used in [writing positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_usage_writing.htm) in which the operand type is the enumerated type and only the associated enumerated values can be written. If known statically, an attempt to assign a value other than a valid enumerated value to an enumerated variable produces a syntax error. If not known statically, an exception is raised.
 
 Example
 
@@ -162,11 +151,11 @@ Value Assignments
 
 Only enumerated objects with the same enumerated type can be assigned to an enumerated variable. In the assignment, the target field is given the enumerated value of the source field.
 
-The initial value of the base type is always a valid enumerated value of an enumerated type. Accordingly, an enumerated variable can be set to the initial value of its base type using [CLEAR](javascript:call_link\('abapclear.htm'\)). Assignments of [VALUE enum\_type( )](javascript:call_link\('abenvalue_constructor_params_init.htm'\)) are also possible.
+The initial value of the base type is always a valid enumerated value of an enumerated type. Accordingly, an enumerated variable can be set to the initial value of its base type using [CLEAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclear.htm). Assignments of [VALUE enum\_type( )](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_constructor_params_init.htm) are also possible.
 
-In the reverse case, enumerated objects can only be assigned to compatible enumerated variables, with the following exception: There is a [conversion rule](javascript:call_link\('abenconversion_enumerated.htm'\)) for assignments of enumerated objects to character-like variables of the types c and string. In this case, the target field is assigned the name of the enumeration constant or of the component of the enumeration structure under which the enumerated value of the source field is defined in the enumerated type-
+In the reverse case, enumerated objects can only be assigned to compatible enumerated variables, with the following exception: There is a [conversion rule](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_enumerated.htm) for assignments of enumerated objects to character-like variables of the types c and string. In this case, the target field is assigned the name of the enumeration constant or of the component of the enumeration structure under which the enumerated value of the source field is defined in the enumerated type-
 
-In structures, each component comprises a separate fragment of the [Unicode fragment view](javascript:call_link\('abenunicode_fragment_view.htm'\)) using an enumerated type. In assignments between structures of this type, the fragment views must match. This makes sure that only components with the same enumerated type can be assigned to each other.
+In structures, each component comprises a separate fragment of the [Unicode fragment view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode_fragment_view.htm) using an enumerated type. In assignments between structures of this type, the fragment views must match. This makes sure that only components with the same enumerated type can be assigned to each other.
 
 Example
 
@@ -183,9 +172,9 @@ size\_string = sz-xl.
 
 Comparisons
 
-In comparisons between enumerated objects, the [comparison rule](javascript:call_link\('abenlogexp_rules_operands_enum.htm'\)) applies that an enumerated object can only be compared with an enumerated object with the same enumerated type. Here, the values of the operands are compared in accordance with their base type.
+In comparisons between enumerated objects, the [comparison rule](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules_operands_enum.htm) applies that an enumerated object can only be compared with an enumerated object with the same enumerated type. Here, the values of the operands are compared in accordance with their base type.
 
-Each enumerated type has an initial enumerated value, which makes checks with the predicate expression [IS INITIAL](javascript:call_link\('abenlogexp_initial.htm'\)) possible.
+Each enumerated type has an initial enumerated value, which makes checks with the predicate expression [IS INITIAL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_initial.htm) possible.
 
 Example
 
@@ -206,11 +195,11 @@ ENDIF.
 
 Typing of Formal Parameters and Field Symbols
 
-If [formal parameters](javascript:call_link\('abenformal_parameter_glosry.htm'\) "Glossary Entry") of procedures or [field symbols](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") are [typed](javascript:call_link\('abentyping.htm'\)) with an enumerated type, only enumerated objects with the same enumerated type can be assigned to them. As usual, an exception to this are return values of functional methods that can also be assigned to character-like objects of the types c and string.
+If [formal parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenformal_parameter_glosry.htm "Glossary Entry") of procedures or [field symbols](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfield_symbol_glosry.htm "Glossary Entry") are [typed](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping.htm) with an enumerated type, only enumerated objects with the same enumerated type can be assigned to them. As usual, an exception to this are return values of functional methods that can also be assigned to character-like objects of the types c and string.
 
-Enumerated types are covered by the generic types [any](javascript:call_link\('abenbuilt_in_types_generic.htm'\)), [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\)), and [simple](javascript:call_link\('abenbuilt_in_types_generic.htm'\)). When an enumerated object is passed to generically typed formal parameters or in assignments to generically typed field symbols, these are given the enumerated type. In assignments to field symbols, castings with the [CASTING](javascript:call_link\('abapassign_casting.htm'\)) addition are not possible and an enumerated type cannot be specified after this addition.
+Enumerated types are covered by the generic types [any](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_types_generic.htm), [data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_types_generic.htm), and [simple](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_types_generic.htm). When an enumerated object is passed to generically typed formal parameters or in assignments to generically typed field symbols, these are given the enumerated type. In assignments to field symbols, castings with the [CASTING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_casting.htm) addition are not possible and an enumerated type cannot be specified after this addition.
 
-When generically typed formal parameters or field symbols are used for enumerated objects, the restriction applies that only statically known operands with the same [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") are permitted in [reading positions](javascript:call_link\('abenreading_position_glosry.htm'\) "Glossary Entry") in which an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") is expected and this is known statically. This affects, for example, the source field of an assignment to an [enumerated variable](javascript:call_link\('abenenumerated_variable_glosry.htm'\) "Glossary Entry") or an operand compared with an enumerated object. In [writing positions](javascript:call_link\('abenwriting_position_glosry.htm'\) "Glossary Entry") for enumerated objects, however, generic formal parameters or field symbols are allowed for enumerated types. If the operand type is not known statically, the check is only made at runtime in reading positions too.
+When generically typed formal parameters or field symbols are used for enumerated objects, the restriction applies that only statically known operands with the same [enumerated type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry") are permitted in [reading positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreading_position_glosry.htm "Glossary Entry") in which an [enumerated object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_object_glosry.htm "Glossary Entry") is expected and this is known statically. This affects, for example, the source field of an assignment to an [enumerated variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_variable_glosry.htm "Glossary Entry") or an operand compared with an enumerated object. In [writing positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwriting_position_glosry.htm "Glossary Entry") for enumerated objects, however, generic formal parameters or field symbols are allowed for enumerated types. If the operand type is not known statically, the check is only made at runtime in reading positions too.
 
 Example
 
@@ -233,27 +222,27 @@ ASSERT <fs1> = <fs2>.
 
 Access to the Enumerated Value
 
-A special [rule](javascript:call_link\('abenconv_constructor_enum.htm'\)) for the conversion operator [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) applies when accessing the enumerated value of an enumerated object:
+A special [rule](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconv_constructor_enum.htm) for the conversion operator [CONV](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_conv.htm) applies when accessing the enumerated value of an enumerated object:
 
-[... CONV base\_type( enum\_dobj ) ...](javascript:call_link\('abenconv_constructor_enum.htm'\))
+[... CONV base\_type( enum\_dobj ) ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconv_constructor_enum.htm)
 
 When the base type base\_type of an enumerated object enum\_dobj specified as an argument is specified directly or indirectly, CONV returns its enumerated value.
 
 In the reverse case, a valid enumerated value can be converted to an enumerated object:
 
-[... CONV enum\_type( dobj ) ...](javascript:call_link\('abenconv_constructor_enum.htm'\))
+[... CONV enum\_type( dobj ) ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconv_constructor_enum.htm)
 
 The argument dobj is converted to the base type of the enumerated type enum\_type and CONV returns an enumerated object with this value. Any invalid values raise an exception.
 
 In combinations of these two variants (in which CONV base\_type( enum\_dobj ) is used as an argument dobj of CONV enum\_type( dobj )), there is a short form:
 
-[... CONV enum\_type( enum\_dobj ) ...](javascript:call_link\('abenconv_constructor_enum.htm'\))
+[... CONV enum\_type( enum\_dobj ) ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconv_constructor_enum.htm)
 
 If different enumerated types can have the same base type, an enumerated object of an enumerated type can be converted to the corresponding enumerated object of a different enumerated type.
 
 Note
 
-The corresponding [rules](javascript:call_link\('abenexact_constructor_enum.htm'\)) applies to the lossless operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)). Here, additional losslessness checks are made.
+The corresponding [rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexact_constructor_enum.htm) applies to the lossless operator [EXACT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_exact.htm). Here, additional losslessness checks are made.
 
 Example
 
@@ -270,9 +259,9 @@ ENDDO.
 
 Type Descriptions
 
-The type returned for an enumerated object by the statement [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)) is k. The length is the length of the enumerated value in the base type in bytes.
+The type returned for an enumerated object by the statement [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_field.htm) is k. The length is the length of the enumerated value in the base type in bytes.
 
-In [RTTS](javascript:call_link\('abenrtts_glosry.htm'\) "Glossary Entry"), enumerated objects are described by objects of the class CL\_ABAP\_ENUMDESCR. This class can be used for [RTTI](javascript:call_link\('abenrtti_glosry.htm'\) "Glossary Entry") and [RTTC](javascript:call_link\('abenrttc_glosry.htm'\) "Glossary Entry") purposes. Like any enumerated type, an enumerated type created using RTTC is only compatible with itself.
+In [RTTS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrtts_glosry.htm "Glossary Entry"), enumerated objects are described by objects of the class CL\_ABAP\_ENUMDESCR. This class can be used for [RTTI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrtti_glosry.htm "Glossary Entry") and [RTTC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrttc_glosry.htm "Glossary Entry") purposes. Like any enumerated type, an enumerated type created using RTTC is only compatible with itself.
 
 The following attributes exist in a type description of the class CL\_ABAP\_ENUMDESCR:
 
@@ -286,7 +275,7 @@ The following attributes exist in a type description of the class CL\_ABAP\_ENUM
 
 Executable Example
 
-[Enumerated Objects, Type Description](javascript:call_link\('abenenum_description_abexa.htm'\))
+[Enumerated Objects, Type Description](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_description_abexa.htm)
 
 Data interfaces
 
@@ -294,13 +283,13 @@ The following data interfaces support enumerated types:
 
 The character-like representation of enumerated objects (namely the result of a c or string) is used for their output and serialization. The output consists of the name (with a maximum of thirty characters) of the enumeration constant of the current enumerated value in uppercase. Deserializations are performed in the reverse direction. The following are supported:
 
--   [Data clusters](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") with the statements [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) and [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)). When an enumerated object is exported, the enumerated value is saved in the base type and flagged as an enumerated value. Both enumerated objects and exported data objects of the base type can be imported to a suitable enumerated object (the value is checked here). No exported enumerated objects, however, can be exported to data objects of the base type.
+-   [Data clusters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_cluster_glosry.htm "Glossary Entry") with the statements [EXPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexport_data_cluster.htm) and [IMPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapimport_data_cluster.htm). When an enumerated object is exported, the enumerated value is saved in the base type and flagged as an enumerated value. Both enumerated objects and exported data objects of the base type can be imported to a suitable enumerated object (the value is checked here). No exported enumerated objects, however, can be exported to data objects of the base type.
 
--   [ABAP file interface](javascript:call_link\('abenfile_interface_glosry.htm'\) "Glossary Entry") with the statements [TRANSFER](javascript:call_link\('abaptransfer.htm'\)) and [READ DATASET](javascript:call_link\('abapread_dataset.htm'\)). In writes to a file and reads from a file, enumerated objects are handled like data objects of its base type. In reads from a file to an enumerated object, the value is checked to see whether it is a valid enumerated value.
+-   [ABAP file interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfile_interface_glosry.htm "Glossary Entry") with the statements [TRANSFER](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptransfer.htm) and [READ DATASET](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_dataset.htm). In writes to a file and reads from a file, enumerated objects are handled like data objects of its base type. In reads from a file to an enumerated object, the value is checked to see whether it is a valid enumerated value.
 
--   Serializations and deserializations from and to [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") and [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry"). The formats [asXML](javascript:call_link\('abenabap_xslt_asxml_enum.htm'\)) and [asJSON](javascript:call_link\('abenabap_asjson_abap_types_enum.htm'\)) represent the content of enumerated objects in their character-like representation (the name of the enumeration constant of the current enumerated value). Only valid names are allowed in deserializations to an enumerated object.
+-   Serializations and deserializations from and to [XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxml_glosry.htm "Glossary Entry") and [JSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_glosry.htm "Glossary Entry"). The formats [asXML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xslt_asxml_enum.htm) and [asJSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_asjson_abap_types_enum.htm) represent the content of enumerated objects in their character-like representation (the name of the enumeration constant of the current enumerated value). Only valid names are allowed in deserializations to an enumerated object.
 
--   List output with the statement [WRITE](javascript:call_link\('abapwrite-.htm'\)). Like [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)), this statement converts an enumerated object to its character-like representation (the name of the enumeration constant of the current enumerated value). The [output length](javascript:call_link\('abenwrite_output_length.htm'\)) is the same as the maximum length of the name (30 characters).
+-   List output with the statement [WRITE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite-.htm). Like [WRITE TO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_to.htm), this statement converts an enumerated object to its character-like representation (the name of the enumeration constant of the current enumerated value). The [output length](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwrite_output_length.htm) is the same as the maximum length of the name (30 characters).
 
 Note
 
@@ -323,7 +312,7 @@ ENDWHILE.
 
 Executable Example
 
-[Enumerated Objects, Deserialization](javascript:call_link\('abenenum_deserialization_abexa.htm'\))
+[Enumerated Objects, Deserialization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_deserialization_abexa.htm)
 
 Forbidden Uses
 
@@ -331,13 +320,13 @@ The following uses are forbidden to ensure that an enumerated object only ever c
 
 -   Within ABAP, enumerated objects are never interpreted in accordance with their base type. This means that they cannot be used in operand positions that expect numeric, character-like, or byte-like data types. The only exception to this are the operand positions in which an implicit conversion to a character-like type takes place.
 
--   Enumerated types are not currently supported by [ABAP Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)). Accordingly, no database tables whose columns have an enumerated type can be defined in ABAP Dictionary.
+-   Enumerated types are not currently supported by [ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm). Accordingly, no database tables whose columns have an enumerated type can be defined in ABAP Dictionary.
 
--   In both Open SQL and Native SQL ([EXEC SQL](javascript:call_link\('abapexec.htm'\)), [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry")), no [host variables](javascript:call_link\('abenhost_variable_glosry.htm'\) "Glossary Entry") or references to ABAP variables with enumerated type can be used.
+-   In both Open SQL and Native SQL ([EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm), [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc_glosry.htm "Glossary Entry")), no [host variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhost_variable_glosry.htm "Glossary Entry") or references to ABAP variables with enumerated type can be used.
 
--   No enumerated types are supported for the input fields of [selection screens](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry").
+-   No enumerated types are supported for the input fields of [selection screens](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_screen_glosry.htm "Glossary Entry").
 
--   It is not possible to use enumerated values from [lists in the list buffer](javascript:call_link\('abenabap_lists_complex.htm'\)), since there are no conversion rules between character-like types and enumerated types.
+-   It is not possible to use enumerated values from [lists in the list buffer](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_lists_complex.htm), since there are no conversion rules between character-like types and enumerated types.
 
 If an enumerated object is provided with an invalid value due to a gap in the rules, this results in the following behavior:
 
@@ -345,32 +334,25 @@ If an enumerated object is provided with an invalid value due to a gap in the ru
 
 -   An enumerated object with an invalid value can be assigned to other enumerated objects with the same enumerated type without being checked.
 
--   The expressions [CONV base\_type( enum\_dobj )](javascript:call_link\('abenconv_constructor_enum.htm'\)) and [EXACT base\_type( enum\_dobj )](javascript:call_link\('abenexact_constructor_enum.htm'\)) return the invalid value.
+-   The expressions [CONV base\_type( enum\_dobj )](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconv_constructor_enum.htm) and [EXACT base\_type( enum\_dobj )](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexact_constructor_enum.htm) return the invalid value.
 
 An invalid value must be viewed as an error and should never occur.
 
 Note
 
-Classic [Dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") represent a known gap. Enumerated types are not supported by dynpros. When dynpro input fields are taken from a program by using enumerated objects, they are handled like an object of the base type. Any invalid values are passed to the associated enumerated object in the event [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") without being checked. For this reason, enumerated objects should never be associated with classic dynpros.
+Classic [Dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm "Glossary Entry") represent a known gap. Enumerated types are not supported by dynpros. When dynpro input fields are taken from a program by using enumerated objects, they are handled like an object of the base type. Any invalid values are passed to the associated enumerated object in the event [PAI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpai_glosry.htm "Glossary Entry") without being checked. For this reason, enumerated objects should never be associated with classic dynpros.
 
 Example
 
 The program DEMO\_ENUM\_DYNPRO uses an enumerated object on a dynpro. This can produce invalid values in the program.
 
 Continue
-![Example](exa.gif "Example") [Enumerated Objects, Use](javascript:call_link\('abenenum_usage_abexa.htm'\))
-![Example](exa.gif "Example") [Enumerated Objects, Type Description](javascript:call_link\('abenenum_description_abexa.htm'\))
-![Example](exa.gif "Example") [Enumerated Objects, Deserialization](javascript:call_link\('abenenum_deserialization_abexa.htm'\))
+![Example](exa.gif "Example") [Enumerated Objects, Use](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_usage_abexa.htm)
+![Example](exa.gif "Example") [Enumerated Objects, Type Description](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_description_abexa.htm)
+![Example](exa.gif "Example") [Enumerated Objects, Deserialization](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_deserialization_abexa.htm)
 
-
-
-**📖 Source**: [abenenumerated_types_usage.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_types_usage.htm)
 
 ### abenenum_usage_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenenum_usage_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_usage_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -378,11 +360,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Enumerated Objects](javascript:call_link\('abenenumerated_types_usage.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Enumerated Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_types_usage.htm) → 
 
 Enumerated Objects, Use
 
-This example demonstrates the use of [enumerated types](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry").
+This example demonstrates the use of [enumerated types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -431,7 +413,7 @@ TYPES:
     l, p,
   END OF ENUM format STRUCTURE fmt.
 
-The use of [enumeration structures](javascript:call_link\('abenenumerated_structure_glosry.htm'\) "Glossary Entry") means that the same name l can occur twice. Method SHOW wraps method SHOW\_HTML of class CL\_ABAP\_BROWSER:
+The use of [enumeration structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_structure_glosry.htm "Glossary Entry") means that the same name l can occur twice. Method SHOW wraps method SHOW\_HTML of class CL\_ABAP\_BROWSER:
 
 METHOD show.
   cl\_abap\_browser=>show\_html(
@@ -452,14 +434,7 @@ The input parameters size and format format of the method have the same enumerat
 Enumerated values can be specified for the size and format when the program is executed. The values are passed internally to the program by deserializing the character-like values into the local enumerated variables size and format. The exception for invalid values is caught internally; here the enumerated variables are initialized, which corresponds to the values of the enumeration constants sz-s and fmt-l.
 
 
-
-**📖 Source**: [abenenum_usage_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_usage_abexa.htm)
-
 ### abenenum_description_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenenum_description_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_description_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -467,11 +442,11 @@ Enumerated values can be specified for the size and format when the program is e
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Enumerated Objects](javascript:call_link\('abenenumerated_types_usage.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Enumerated Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_types_usage.htm) → 
 
 Enumerated Objects, Type Description
 
-This example demonstrates type description in [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry").
+This example demonstrates type description in [enumerated objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_object_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -509,20 +484,10 @@ START-OF-SELECTION.
 
 Description
 
-The statement [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)) and the type description class CL\_ABAP\_ENUMDESCR are applied to an enumerated variable size of the enumerated type with the same name.
+The statement [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_field.htm) and the type description class CL\_ABAP\_ENUMDESCR are applied to an enumerated variable size of the enumerated type with the same name.
 
-
-
-**📖 Source**: [abenenum_description_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_description_abexa.htm)
 
 ### abenenum_deserialization_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenenum_deserialization_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_deserialization_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenenum_deserialization_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenum_deserialization_abexa.htm)
-
 
   
 
@@ -530,11 +495,11 @@ The statement [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\))
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Enumerated Objects](javascript:call_link\('abenenumerated_types_usage.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Enumerated Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_types_usage.htm) → 
 
 Enumerated Objects, Deserialization
 
-This example demonstrates how a dynamically created XML file is deserialized to an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry").
+This example demonstrates how a dynamically created XML file is deserialized to an [enumerated object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_object_glosry.htm "Glossary Entry").
 
 Source Code
 

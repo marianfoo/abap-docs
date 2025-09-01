@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Clusters](javascript:call_link\('abendata_cluster.htm'\)) →  [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [Data Clusters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_cluster.htm) →  [IMPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapimport_data_cluster.htm) → 
 
 Exceptions in IMPORT
 
@@ -96,7 +96,7 @@ CX\_SY\_IMPORT\_FORMAT\_ERROR
 CX\_SY\_EXPIMP\_DB\_SQL\_ERROR
 
 -   SQL error in import from the database.
-    Runtime error: [DBIF\_...](javascript:call_link\('abenopensql_exceptions.htm'\))
+    Runtime error: [DBIF\_...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_exceptions.htm)
     
 
 Non-Handleable Exceptions

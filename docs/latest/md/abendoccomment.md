@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Syntax Elements of an ABAP Program](javascript:call_link\('abenabap_syntax.htm'\)) →  [Program Directives](javascript:call_link\('abenprogram_directives.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Syntax Elements of an ABAP Program](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_syntax.htm) →  [Program Directives](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_directives.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Doc%2C%20ABENDOCCOMMENT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -16,24 +16,30 @@ Syntax
 
 Effect
 
-A comment for ABAP Doc is introduced by the string "!. This is a special form of a regular [line end comment](javascript:call_link\('abencomment.htm'\)) that is introduced by ". ABAP Doc allows [declarations](javascript:call_link\('abendeclaration_glosry.htm'\) "Glossary Entry") in ABAP programs to be documented, based on special ABAP Doc comments. In tools of an [ABAP development environment](javascript:call_link\('abenabap_dev_envir_glosry.htm'\) "Glossary Entry"), such as [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), that support [ABAP Doc](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), the content of ABAP Doc comments is evaluated, converted to HTML, and then displayed appropriately.
+A comment for ABAP Doc is introduced by the string "!. This is a special form of a regular [line end comment](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomment.htm) that is introduced by ". ABAP Doc allows [declarations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclaration_glosry.htm "Glossary Entry") in ABAP programs to be documented, based on special ABAP Doc comments. In tools of an [ABAP development environment](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dev_envir_glosry.htm "Glossary Entry"), such as [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm "Glossary Entry"), that support [ABAP Doc](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm "Glossary Entry"), the content of ABAP Doc comments is evaluated, converted to HTML, and then displayed appropriately.
 
--   [Rules for ABAP Doc Comments](#abendoccomment-1-------parameter-interface-of-procedures---@ITOC@@ABENDOCCOMMENT_2)
--   [Formatting](#abendoccomment-3-------short-texts-and-their-synchronization---@ITOC@@ABENDOCCOMMENT_4)
--   [Documentation Links](#abendoccomment-5---hints------a-special-abap-doc-comment-----testing ...](javascript:call_link\('abentest_relations.htm'\)) can be used to define a [test relation](javascript:call_link\('abentest_relation_glosry.htm'\) "Glossary Entry") between a [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") or a [test method](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") and another repository object.
--   ABAP Doc comments are not evaluated by the tools of the [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry") in SAP GUI.
+-   [Rules for ABAP Doc Comments](#@@ITOC@@ABENDOCCOMMENT_1)
+-   [Parameter Interface of Procedures](#@@ITOC@@ABENDOCCOMMENT_2)
+-   [Formatting](#@@ITOC@@ABENDOCCOMMENT_3)
+-   [Short Texts and Their Synchronization](#@@ITOC@@ABENDOCCOMMENT_4)
+-   [Documentation Links](#@@ITOC@@ABENDOCCOMMENT_5)
+
+Hints
+
+-   A special ABAP Doc comment ["! @testing ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentest_relations.htm) can be used to define a [test relation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentest_relation_glosry.htm "Glossary Entry") between a [test class](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentest_class_glosry.htm "Glossary Entry") or a [test method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentest_method_glosry.htm "Glossary Entry") and another repository object.
+-   ABAP Doc comments are not evaluated by the tools of the [ABAP Workbench](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_workbench_glosry.htm "Glossary Entry") in SAP GUI.
 
 Rules for ABAP Doc Comments   
 
 The following rules must be followed to ensure that an ABAP Doc comment is evaluated correctly:
 
 -   An ABAP Doc comment is one of the following:
-    -   A single [comment line](javascript:call_link\('abencomment_line_glosry.htm'\) "Glossary Entry") that only contains the comment
+    -   A single [comment line](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomment_line_glosry.htm "Glossary Entry") that only contains the comment
     -   A multiline block of consecutive comment lines. The content of a block is summarized into a single ABAP Doc comment.
--   An ABAP Doc comment (a line or a line block) must be linked as follows to one [declaration statement](javascript:call_link\('abendeclaration_statement_glosry.htm'\) "Glossary Entry") only:
+-   An ABAP Doc comment (a line or a line block) must be linked as follows to one [declaration statement](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclaration_statement_glosry.htm "Glossary Entry") only:
     
-    -   If the declaration statement does not form a [chained statement](javascript:call_link\('abenchained_statement_glosry.htm'\) "Glossary Entry"), an ABAP Doc comment can be located directly in front of the declaration statement and cannot be separated by empty lines.
-    -   If the declaration statement forms a [chained statement](javascript:call_link\('abenchained_statement_glosry.htm'\) "Glossary Entry"), the colon must be placed after the keyword. An ABAP Doc comment can be placed in front of the identifier of each declared entity.
+    -   If the declaration statement does not form a [chained statement](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchained_statement_glosry.htm "Glossary Entry"), an ABAP Doc comment can be located directly in front of the declaration statement and cannot be separated by empty lines.
+    -   If the declaration statement forms a [chained statement](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchained_statement_glosry.htm "Glossary Entry"), the colon must be placed after the keyword. An ABAP Doc comment can be placed in front of the identifier of each declared entity.
     
     ABAP Doc comments are not allowed at any other positions.
     
@@ -72,7 +78,7 @@ ENDCLASS.
 
 Parameter Interface of Procedures   
 
-The [parameter interface](javascript:call_link\('abenparameter_interface_glosry.htm'\) "Glossary Entry") of [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") and of [events](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry") in classes can be documented in the corresponding ABAP Doc commentary with a special syntax:
+The [parameter interface](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenparameter_interface_glosry.htm "Glossary Entry") of [procedures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprocedure_glosry.htm "Glossary Entry") and of [events](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevent_glosry.htm "Glossary Entry") in classes can be documented in the corresponding ABAP Doc commentary with a special syntax:
 
 Documentation for
 
@@ -174,7 +180,7 @@ The following attributes are possible:
 
 Example
 
-Use of formatting in an ABAP Doc comment for a class. The [ABAP development tools for Eclipse](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") display the documentation according to the formatting.
+Use of formatting in an ABAP Doc comment for a class. The [ABAP development tools for Eclipse](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm "Glossary Entry") display the documentation according to the formatting.
 
 "!<h1>Class demo</h1>
 "!<p>This class must <strong>not</strong> be used in production.</p>
@@ -193,13 +199,13 @@ Parts of ABAP Doc comments can be marked as short texts and the short texts of c
 
 <p class="shorttext">...</p>
 
-A paragraph tagged like this is displayed as a header when displaying the documentation in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), instead of the short text shown in ABAP Workbench.
+A paragraph tagged like this is displayed as a header when displaying the documentation in [ADT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm "Glossary Entry"), instead of the short text shown in ABAP Workbench.
 
 To synchronize the ABAP Doc short texts and the short texts stored as system documentation, the tag can be specified as follows (this is optional):
 
 <p class="shorttext synchronized">...</p>
 
-In this case, the length of the short text in ABAP Doc is restricted to the length of the corresponding short text of the system documentation and is synchronized with the associated short text in the [original language](javascript:call_link\('abenoriginal_langu_guidl.htm'\) "Guideline") of the class or function module as follows:
+In this case, the length of the short text in ABAP Doc is restricted to the length of the corresponding short text of the system documentation and is synchronized with the associated short text in the [original language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoriginal_langu_guidl.htm "Guideline") of the class or function module as follows:
 
 -   When an ABAP Doc short text is created or modified in the source code, the corresponding short text of the repository object is used when the source code is saved. If the short text in ABAP Doc is empty, the short text of the repository object is deleted. If class="shorttext synchronized" is used to remove a full paragraph, the short text of the repository object is preserved. This synchronization works independently of the tool used.
 -   If a short text of a method or a function module in the system documentation is modified, for which a paragraph with class="shorttext synchronized" occurs in ABAP Doc, the short text is replaced accordingly in the source text when saving. When a short text in the system documentation is deleted, an empty paragraph is produced. When a new short text is created in the system documentation for which there is not yet a short text in ABAP Doc, it does not yet lead to the creation of the paragraph in the source code.
@@ -220,24 +226,24 @@ In an ABAP Doc comment, the following syntax can be used to refer to the documen
 
 ... {@link *\[**\[**\[*kind:*\]*name.*\]*...*\]**\[*kind:*\]*name} ...
 
-In curly brackets after @link, a path specification for a repository object is made, which refers to its documentation. When the documentation is displayed in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), a link is created at this position that displays the documentation of the repository object if it is available, when it is selected.
+In curly brackets after @link, a path specification for a repository object is made, which refers to its documentation. When the documentation is displayed in [ADT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm "Glossary Entry"), a link is created at this position that displays the documentation of the repository object if it is available, when it is selected.
 
 -   name is used to specify the name of a repository object or a component of a repository object, which is not case-sensitive.
 -   kind is used to specify the type of the repository object or a component of a repository object. kind must be specified as shown for the following repository objects:
     
     -   DATA for constants, variables, and procedure parameters in the appropriate context
-    -   DOMA for [DDIC domains](javascript:call_link\('abendomain_glosry.htm'\) "Glossary Entry")
-    -   EVNT for [events](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry") in classes
-    -   FUNC for [function modules](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") in function pools
-    -   FORM for [subroutines](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry") in programs
-    -   FUGR for [function pools](javascript:call_link\('abenfunction_pool_glosry.htm'\) "Glossary Entry")
-    -   INTF for [interfaces](javascript:call_link\('abenoo_intf_glosry.htm'\) "Glossary Entry") implemented in a class to access its components.
-    -   METH for [methods](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry")
-    -   PROG for [ABAP programs](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry")
-    -   SEAM for [test seams](javascript:call_link\('abentest_seam_glosry.htm'\) "Glossary Entry")
-    -   XSLT for [XSLT programs](javascript:call_link\('abenxslt_program_glosry.htm'\) "Glossary Entry") and [Simple Transformations](javascript:call_link\('abensimple_transformation_glosry.htm'\) "Glossary Entry")
+    -   DOMA for [DDIC domains](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendomain_glosry.htm "Glossary Entry")
+    -   EVNT for [events](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevent_glosry.htm "Glossary Entry") in classes
+    -   FUNC for [function modules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction_module_glosry.htm "Glossary Entry") in function pools
+    -   FORM for [subroutines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensubroutine_glosry.htm "Glossary Entry") in programs
+    -   FUGR for [function pools](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction_pool_glosry.htm "Glossary Entry")
+    -   INTF for [interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoo_intf_glosry.htm "Glossary Entry") implemented in a class to access its components.
+    -   METH for [methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_glosry.htm "Glossary Entry")
+    -   PROG for [ABAP programs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_program_glosry.htm "Glossary Entry")
+    -   SEAM for [test seams](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentest_seam_glosry.htm "Glossary Entry")
+    -   XSLT for [XSLT programs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenxslt_program_glosry.htm "Glossary Entry") and [Simple Transformations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensimple_transformation_glosry.htm "Glossary Entry")
     
-    kind cannot and must not be specified for global data types and object types (classes and interfaces). These repository objects are solely addressed by their names. This applies specifically to [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry").
+    kind cannot and must not be specified for global data types and object types (classes and interfaces). These repository objects are solely addressed by their names. This applies specifically to [CDS entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_glosry.htm "Glossary Entry").
     
 -   When a repository object is addressed, the path specification is usually single-level. When a component of a repository is addressed, for example a method of a class or a local class of a program, the path specification is usually multileveled, whereby each segment is separated by a period (.). The segments between the periods can also be empty. This turns the path into a relative path and the next higher context of the current context is addressed.
 
@@ -273,14 +279,14 @@ ENDCLASS.
 Programming Guidelines
 
 -   The following guidelines for general comments also specifically apply to ABAP Doc comments.
--   [Comments on programs in English](javascript:call_link\('abencomment_langu_guidl.htm'\) "Guideline")
+-   [Comments on programs in English](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomment_langu_guidl.htm "Guideline")
     
     Adhering to this rule is particularly important, because documentation created in an ABAP Doc as part of the source code is not translated into other languages. One exception are synchronized short texts.
     
--   [Arranging comments correctly](javascript:call_link\('abenarrange_guidl.htm'\) "Guideline")
+-   [Arranging comments correctly](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenarrange_guidl.htm "Guideline")
     
     This rule affects the horizontal indents because the vertical alignment syntactically fixed before declarations.
     
--   [Character set in source code](javascript:call_link\('abencharacter_set_guidl.htm'\) "Guideline")
+-   [Character set in source code](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharacter_set_guidl.htm "Guideline")
     
     This rule is checked by the syntax check.

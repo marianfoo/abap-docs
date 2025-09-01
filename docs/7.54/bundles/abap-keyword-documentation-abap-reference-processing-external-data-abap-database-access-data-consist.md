@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abensap_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock.htm)
-- [abenenqueue_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.958Z
-
----
-
 ### abensap_lock.htm
-
-> **📖 Official SAP Documentation**: [abensap_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,23 +11,25 @@ Included pages: 2
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Data Consistency](javascript:call_link\('abentransaction.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Data Consistency](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransaction.htm) → 
 
 SAP Locks
 
-SAP locks must be persisted for the duration of [SAP LUWs](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry"). For this reason, different work processes and, if applicable, a new [AS Instances](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry") must be able to handle these locks.
+SAP locks must be persisted for the duration of [SAP LUWs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_luw_glosry.htm "Glossary Entry"). For this reason, different work processes and, if applicable, a new [AS Instances](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapplication_server_glosry.htm "Glossary Entry") must be able to handle these locks.
 
-SAP locks are based on lock objects. These are defined in ABAP Dictionary and enable locks to be set on one or more rows in a single database table or locks to be set on rows in multiple database tables associated using [foreign key dependencies](javascript:call_link\('abenforeign_key_dependency_glosry.htm'\) "Glossary Entry").
+SAP locks are based on lock objects. These are defined in ABAP Dictionary and enable locks to be set on one or more rows in a single database table or locks to be set on rows in multiple database tables associated using [foreign key dependencies](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_dependency_glosry.htm "Glossary Entry").
 
 When a lock object is created, two lock function modules are generated whose names consist of the prefixes ENQUEUE\_ and DEQUEUE\_ and the name of the lock object.
 
--   [Setting SAP Locks](#abensap-lock-1--------releasing-sap-locks---@ITOC@@ABENSAP_LOCK_2)
+-   [Setting SAP Locks](#@@ITOC@@ABENSAP_LOCK_1)
+
+-   [Releasing SAP Locks](#@@ITOC@@ABENSAP_LOCK_2)
 
 More details can be found under SAP Lock Concept in the SAP Help Portal.
 
 Setting SAP Locks
 
-When called, lock function modules set or remove SAP locks. These function modules access a central lock table in the memory of a special work process of the current AS Instance. Every [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry") contains exactly one such table (administered by transaction SM12). An enqueue function module sets an SAP lock by writing a corresponding entry in the lock table. If a lock cannot be set because corresponding lock entries already exist in the lock table, the function module terminates with the exception FOREIGN\_LOCK.
+When called, lock function modules set or remove SAP locks. These function modules access a central lock table in the memory of a special work process of the current AS Instance. Every [AS ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm "Glossary Entry") contains exactly one such table (administered by transaction SM12). An enqueue function module sets an SAP lock by writing a corresponding entry in the lock table. If a lock cannot be set because corresponding lock entries already exist in the lock table, the function module terminates with the exception FOREIGN\_LOCK.
 
 The most important input parameters of an enqueue function module are:
 
@@ -56,7 +39,7 @@ Meaning
 
 MODE\_dbtab
 
-Type of the lock for the database table dbtab of the lock object. Possible values include "S" for a [shared lock](javascript:call_link\('abenshared_lock_glosry.htm'\) "Glossary Entry"), "E" for an [exclusive lock](javascript:call_link\('abenexclusive_lock_glosry.htm'\) "Glossary Entry"), "X" for an expanded exclusive lock that can be requested only once (unlike a regular exclusive lock within a program), and "O" for an optimistic lock, which behaves like a shared lock at first, but can be transformed to an exclusive lock.
+Type of the lock for the database table dbtab of the lock object. Possible values include "S" for a [shared lock](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenshared_lock_glosry.htm "Glossary Entry"), "E" for an [exclusive lock](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexclusive_lock_glosry.htm "Glossary Entry"), "X" for an expanded exclusive lock that can be requested only once (unlike a regular exclusive lock within a program), and "O" for an optimistic lock, which behaves like a shared lock at first, but can be transformed to an exclusive lock.
 
 KEY\_FIELDS
 
@@ -64,7 +47,7 @@ For all key fields of the lock object, values can be specified that define the r
 
 \_SCOPE
 
-Definition of the lock duration with respect to an SAP LUW. Possible values include "1" for handling the lock in the same program, "2" for passing the lock to the [updater](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry"), and "3" for handling the lock in the program and in the updater.
+Definition of the lock duration with respect to an SAP LUW. Possible values include "1" for handling the lock in the same program, "2" for passing the lock to the [updater](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenupdate_glosry.htm "Glossary Entry"), and "3" for handling the lock in the program and in the updater.
 
 Note
 
@@ -78,7 +61,7 @@ When an SAP lock is set using the function module ENQUEUE, the value passed to t
 
 -   If \_SCOPE is set to 1, the lock is not associated with the current SAP LUW. The lock can be released either by calling the DEQUEUE function module if the value "1" or "3" is passed to the formal parameter \_SCOPE, or by terminating the program.
 
--   If \_SCOPE is set to 2, the lock is associated with the current SAP LUW. If [CALL FUNCTION ... IN UPDATE TASK](javascript:call_link\('abapcall_function_update.htm'\)) registered at least one update function module, the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) or [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) releases the lock when the SAP LUW is completed. When using COMMIT WORK, the update function releases the lock after processing the update function modules. This type of lock may persist beyond the end of a program until the update procedure has been completed.
+-   If \_SCOPE is set to 2, the lock is associated with the current SAP LUW. If [CALL FUNCTION ... IN UPDATE TASK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_function_update.htm) registered at least one update function module, the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcommit.htm) or [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaprollback.htm) releases the lock when the SAP LUW is completed. When using COMMIT WORK, the update function releases the lock after processing the update function modules. This type of lock may persist beyond the end of a program until the update procedure has been completed.
 
 -   If \_SCOPE is set to 3, both the update function and the program must release the lock. Releasing the lock by update corresponds to \_SCOPE having the value 2. Releasing the lock in the program corresponds to \_SCOPE having the value 1. The full lock release is defined by who released the lock last.
 
@@ -88,23 +71,13 @@ Besides the \_SCOPE parameter, the input parameters of a DEQUEUE function module
 
 Executable Example
 
-[SAP Locks, Set and Release](javascript:call_link\('abenenqueue_abexa.htm'\))
+[SAP Locks, Set and Release](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [SAP Locks, Set and Release](javascript:call_link\('abenenqueue_abexa.htm'\))
+![Example](exa.gif "Example") [SAP Locks, Set and Release](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
 
-
-
-**📖 Source**: [abensap_lock.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock.htm)
 
 ### abenenqueue_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenenqueue_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenenqueue_abexa.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenqueue_abexa.htm)
-
 
   
 
@@ -112,7 +85,7 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Data Consistency](javascript:call_link\('abentransaction.htm'\)) →  [SAP Locks](javascript:call_link\('abensap_lock.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Data Consistency](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentransaction.htm) →  [SAP Locks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_lock.htm) → 
 
 SAP Locks, Set and Release
 

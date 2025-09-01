@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abapset_names.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_names.htm)
-- [abeneml_set_names_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_set_names_abexa.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.56
-**Generated**: 2025-09-01T11:25:45.462Z
-
----
-
 ### abapset_names.htm
-
-> **📖 Official SAP Documentation**: [abapset_names.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_names.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,7 +11,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [Type Mapping for ABAP EML](javascript:call_link\('abapeml_type_mapping.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_rap_other.htm) →  [Type Mapping for ABAP EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_type_mapping.htm) → 
 
 SET NAMES
 
@@ -47,13 +28,13 @@ Variants:
 
 Effect
 
-Used for the conversion of fields that have the [technical type](javascript:call_link\('abentechnical_type_attr_glosry.htm'\) "Glossary Entry") [x](javascript:call_link\('abenbuiltin_types_byte.htm'\)) and field name lists in the context of RAP. The statement deals with [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") that include the components [%control](javascript:call_link\('abapderived_types_comp.htm'\)) and [%element](javascript:call_link\('abapderived_types_comp.htm'\)). The components of %control and %element have the technical type x.
+Used for the conversion of fields that have the [technical type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentechnical_type_attr_glosry.htm "Glossary Entry") [x](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuiltin_types_byte.htm) and field name lists in the context of RAP. The statement deals with [BDEF derived types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") that include the components [%control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm) and [%element](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm). The components of %control and %element have the technical type x.
 
-The ABAP statement is targeted at applications that include, on the one hand, [RAP BOs](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") that use BDEF derived types and, on the other hand, implementations of the [RAP BO behavior](javascript:call_link\('abenrap_bo_behavior_glosry.htm'\) "Glossary Entry") that use other data types. Mapping of field names is required if types are involved that have different field names than those in the underlying [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") of the RAP BO.
+The ABAP statement is targeted at applications that include, on the one hand, [RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm "Glossary Entry") that use BDEF derived types and, on the other hand, implementations of the [RAP BO behavior](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_behavior_glosry.htm "Glossary Entry") that use other data types. Mapping of field names is required if types are involved that have different field names than those in the underlying [CDS entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm "Glossary Entry") of the RAP BO.
 
-fields represents a [general expression](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). A variable in the position of fields must be a table containing one or more field names. It is of type ABP\_FIELD\_NAME\_TAB, the line type is ABP\_FIELD\_NAME. src represents a [general expression](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). A variable in the position of src must be typed with a BDEF derived type that contains %control or %element.
+fields represents a [general expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). A variable in the position of fields must be a table containing one or more field names. It is of type ABP\_FIELD\_NAME\_TAB, the line type is ABP\_FIELD\_NAME. src represents a [general expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). A variable in the position of src must be typed with a BDEF derived type that contains %control or %element.
 
-As a result of the ABAP statement, the field name list fields contains those fields that have non-initial values in the %control or %element structure of src. The ABAP statement [SET FLAGS](javascript:call_link\('abapset_flags.htm'\)) does the conversion the other way round.
+As a result of the ABAP statement, the field name list fields contains those fields that have non-initial values in the %control or %element structure of src. The ABAP statement [SET FLAGS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_flags.htm) does the conversion the other way round.
 
 The following short dumps result from an operation that cannot be executed at runtime using the SET NAMES statements:
 
@@ -66,7 +47,7 @@ Variant 1  
 
 Effect
 
-Used in case type mapping is required for a structured [DDIC type](javascript:call_link\('abenddic_type_glosry.htm'\) "Glossary Entry"), for example, a legacy type. As a prerequisite, the BDEF contains a mapping specification for the mapped type. See more information in the CDS BDL topic [mapping for](javascript:call_link\('abenbdl_type_mapping.htm'\)).
+Used in case type mapping is required for a structured [DDIC type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_type_glosry.htm "Glossary Entry"), for example, a legacy type. As a prerequisite, the BDEF contains a mapping specification for the mapped type. See more information in the CDS BDL topic [mapping for](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_type_mapping.htm).
 
 Variant 2   
 
@@ -74,7 +55,7 @@ Variant 2  
 
 Effect
 
-Used in case type mapping is required for a structured [DDIC type](javascript:call_link\('abenddic_type_glosry.htm'\) "Glossary Entry"), for example, a legacy type. This variant is relevant if the type is not available and is a variable of the required type instead. As a prerequisite, the BDEF contains a mapping specification for the mapped type. See more information in the CDS BDL topic [mapping for](javascript:call_link\('abenbdl_type_mapping.htm'\)).
+Used in case type mapping is required for a structured [DDIC type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_type_glosry.htm "Glossary Entry"), for example, a legacy type. This variant is relevant if the type is not available and is a variable of the required type instead. As a prerequisite, the BDEF contains a mapping specification for the mapped type. See more information in the CDS BDL topic [mapping for](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_type_mapping.htm).
 
 Hint
 
@@ -104,23 +85,13 @@ SET NAMES fields3 FROM FLAGS src MAPPING LIKE var.
 
 Executable Example
 
-The example [ABAP EML - Variants of SET NAMES](javascript:call_link\('abeneml_set_names_abexa.htm'\)) demonstrates the three different variants with a simple managed RAP BO.
+The example [ABAP EML - Variants of SET NAMES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_set_names_abexa.htm) demonstrates the three different variants with a simple managed RAP BO.
 
 Continue
-![Example](exa.gif "Example") [ABAP EML - Variants of SET NAMES](javascript:call_link\('abeneml_set_names_abexa.htm'\))
+![Example](exa.gif "Example") [ABAP EML - Variants of SET NAMES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_set_names_abexa.htm)
 
-
-
-**📖 Source**: [abapset_names.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_names.htm)
 
 ### abeneml_set_names_abexa.htm
-
-> **📖 Official SAP Documentation**: [abeneml_set_names_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_set_names_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abeneml_set_names_abexa.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_set_names_abexa.htm)
-
 
   
 
@@ -128,7 +99,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [Type Mapping for ABAP EML](javascript:call_link\('abapeml_type_mapping.htm'\)) →  [SET NAMES](javascript:call_link\('abapset_names.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_rap_other.htm) →  [Type Mapping for ABAP EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_type_mapping.htm) →  [SET NAMES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_names.htm) → 
 
 ABAP EML - Variants of SET NAMES
 
@@ -172,7 +143,7 @@ define view entity DEMO\_MANAGED\_CHILD\_MAP
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_ROOT\_MAP is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_ROOT\_MAP is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_root\_map unique;
 strict;
@@ -319,8 +290,8 @@ Description
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP program.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP program.
 
-For all variants of the SET NAMES statement, variables are declared for the field list typed with ABP\_FIELD\_NAME\_TAB and for the source that is typed with a [BDEF derived type](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") which includes the %control structure. The components of the %control structure include a value that is initial and, thus, not contained in the field list.
+For all variants of the SET NAMES statement, variables are declared for the field list typed with ABP\_FIELD\_NAME\_TAB and for the source that is typed with a [BDEF derived type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") which includes the %control structure. The components of the %control structure include a value that is initial and, thus, not contained in the field list.
 
 The field lists for all variants are displayed in an output window. The first variant comprises examples for both %control and %element for the source.

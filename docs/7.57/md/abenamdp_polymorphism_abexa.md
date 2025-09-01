@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP Managed Database Procedures (AMDP)](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP Managed Database Procedures (AMDP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: AMDP - AMDP Methods in Interfaces and Superclasses, ABENAMDP_POLYMORPHISM_ABEXA, 757%
 0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -52,7 +52,7 @@ START-OF-SELECTION.
 
 Description   
 
-An interface IF\_DEMO\_AMDP\_INTERFACE and an abstract superclass CL\_DEMO\_AMDP\_SUPERCLASS implement the tag interface IF\_AMDP\_MARKER\_HDB and contain the method GET\_SCARR, which meets the prerequisites of an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry").
+An interface IF\_DEMO\_AMDP\_INTERFACE and an abstract superclass CL\_DEMO\_AMDP\_SUPERCLASS implement the tag interface IF\_AMDP\_MARKER\_HDB and contain the method GET\_SCARR, which meets the prerequisites of an [AMDP method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenamdp_method_glosry.htm "Glossary Entry").
 
 The interface method is implemented once as an AMDP method and once as a regular method in the classes CL\_DEMO\_AMDP\_IMPLEMENT\_HDB and CL\_DEMO\_AMDP\_IMPLEMENT\_OPEN. In the same way, the method of the abstract superclass is redefined in the fixed subclasses CL\_DEMO\_AMDP\_SUBCLASS\_HDB and CL\_DEMO\_AMDP\_SUBCLASS\_OPEN.
 

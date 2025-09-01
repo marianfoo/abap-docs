@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Classes and Interfaces](javascript:call_link\('abenshm_classes.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shared_objects.htm) →  [Shared Objects - Classes and Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshm_classes.htm) → 
 
 Shared Objects - IF\_SHM\_BUILD\_INSTANCE
 
-The interface IF\_SHM\_BUILD\_INSTANCE must be included by an [area constructor class](javascript:call_link\('abenshm_area_constructor_class.htm'\)) that implements the optional area constructor of an area.
+The interface IF\_SHM\_BUILD\_INSTANCE must be included by an [area constructor class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshm_area_constructor_class.htm) that implements the optional area constructor of an area.
 
 Static Methods
 
@@ -37,4 +37,4 @@ Note
 The method BUILD does not have an input parameter for the client ID. The area is built in the current client when the method is called.
 
 Continue
-[Shared Objects - Area Constructor Class](javascript:call_link\('abenshm_area_constructor_class.htm'\))
+[Shared Objects - Area Constructor Class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshm_area_constructor_class.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Text Repositories](javascript:call_link\('abenabap_texts.htm'\)) →  [Messages](javascript:call_link\('abenabap_messages.htm'\)) →  [Messages - System Interfaces](javascript:call_link\('abenmessage_interfaces.htm'\)) →  [Messages - System Interface IF\_T100\_DYN\_MSG](javascript:call_link\('abenif_t100_dyn_msg.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Text Repositories](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_texts.htm) →  [Messages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_messages.htm) →  [Messages - System Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_interfaces.htm) →  [Messages - System Interface IF\_T100\_DYN\_MSG](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenif_t100_dyn_msg.htm) → 
 
 Messages - IF\_T100\_DYN\_MSG for Exception error\_message
 
@@ -46,8 +46,8 @@ START-OF-SELECTION.
 
 Description
 
-This example works in basically the same way as the [executable example](javascript:call_link\('abenraise_message_global_abexa.htm'\)) for transforming a classic exception raised using MESSAGE RAISING to a class-based exception. Here, however, a message of type A caught using [error\_message](javascript:call_link\('abapcall_function_parameter.htm'\)) is transformed.
+This example works in basically the same way as the [executable example](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenraise_message_global_abexa.htm) for transforming a classic exception raised using MESSAGE RAISING to a class-based exception. Here, however, a message of type A caught using [error\_message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_parameter.htm) is transformed.
 
 Hint
 
-See also the executable [example](javascript:call_link\('abenraise_error_message_shrt_abexa.htm'\)) for using a short form of statement [RAISE EXCEPTION MESSAGE](javascript:call_link\('abapraise_exception_message.htm'\)).
+See also the executable [example](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenraise_error_message_shrt_abexa.htm) for using a short form of statement [RAISE EXCEPTION MESSAGE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapraise_exception_message.htm).

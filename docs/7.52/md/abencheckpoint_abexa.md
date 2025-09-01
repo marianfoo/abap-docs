@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [Checkpoints](javascript:call_link\('abencheckpoints.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_tests.htm) →  [Checkpoints](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoints.htm) → 
 
 Checkpoints and checkpoint groups
 
-This example demonstrates the different[checkpoints](javascript:call_link\('abencheckpoint_glosry.htm'\) "Glossary Entry") and their connection to a [checkpoint group](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry").
+This example demonstrates the different[checkpoints](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_glosry.htm "Glossary Entry") and their connection to a [checkpoint group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_group_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -18,13 +18,13 @@ Description
 
 The example includes the following:
 
--   A [logpoint](javascript:call_link\('abenlogpoint_glosry.htm'\) "Glossary Entry")
+-   A [logpoint](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogpoint_glosry.htm "Glossary Entry")
 
--   A [breakpoint](javascript:call_link\('abenbreakpoint_glosry.htm'\) "Glossary Entry")
+-   A [breakpoint](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbreakpoint_glosry.htm "Glossary Entry")
 
--   An [assertion](javascript:call_link\('abenassertion_glosry.htm'\) "Glossary Entry")
+-   An [assertion](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenassertion_glosry.htm "Glossary Entry")
 
-All of these are linked with the DEMO\_CHECKPOINT\_GROUP[checkpoint group](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry").
+All of these are linked with the DEMO\_CHECKPOINT\_GROUP[checkpoint group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheckpoint_group_glosry.htm "Glossary Entry").
 
 For example, you choose the following settings:
 

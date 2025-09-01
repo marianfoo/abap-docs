@@ -4,13 +4,13 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP business objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP Behavior Pools (ABP)](javascript:call_link\('abenabap_behavior_pools.htm'\)) →  [RAP Handler Class](javascript:call_link\('abenabp_handler_class.htm'\)) →  [METHODS, FOR](javascript:call_link\('abapmethods_for_rap_behv.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_provide_rap_bos.htm) →  [ABAP Behavior Pools (ABP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_behavior_pools.htm) →  [RAP Handler Class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabp_handler_class.htm) →  [METHODS, FOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_rap_behv.htm) → 
 
 Example for RAP Handler Methods
 
 This example demonstrates various RAP handler methods with an unmanaged and draft-enabled RAP BO.
 
-Note that the simplified example does not represent a real business scenario. The focus is on the technical side by giving an idea on self-implementing the handler methods of an [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") and dealing with the method parameters. The code should not be reused in a productive scenario.
+Note that the simplified example does not represent a real business scenario. The focus is on the technical side by giving an idea on self-implementing the handler methods of an [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") and dealing with the method parameters. The code should not be reused in a productive scenario.
 
 Data model
 
@@ -56,7 +56,7 @@ key key\_field,
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_UNMANAGED\_ROOT\_DRAFT is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_UNMANAGED\_ROOT\_DRAFT is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 unmanaged implementation in class bp\_demo\_unmanaged\_root\_draft unique;
 strict;
@@ -174,107 +174,107 @@ As an initial step in the method for create-by association operations, both root
 action1
 
 Updates the string in field field2 for all requested instances.
-CDS BDL information: [action](javascript:call_link\('abenbdl_action.htm'\)).
+CDS BDL information: [action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm).
 
 action2
 
 Action specified with result in the BDEF. Updates the string in field field1 for all requested instances. Additionally, the action's result parameter is filled.
-CDS BDL information: [action](javascript:call_link\('abenbdl_action.htm'\)).
+CDS BDL information: [action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm).
 
 action3
 
 Action specified with parameter and result selective in the BDEF. In this example, the input parameter represents a discount percentage and the action subtracts the discount from the value of the fields field3 and field4 of an entity instance. Additionally, the action's result parameter is filled with the values of requested fields.
-CDS BDL information: [action](javascript:call_link\('abenbdl_action.htm'\)).
+CDS BDL information: [action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm).
 
 action4
 
 Creates instances based on keys specified by the RAP consumer. Since action4 is specified with precheck in the BDEF, the method precheck\_action4 is called beforehand to check the uniqueness of the keys.
-CDS BDL information: [action](javascript:call_link\('abenbdl_action.htm'\)), [precheck](javascript:call_link\('abenbdl_precheck.htm'\)).
+CDS BDL information: [action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm), [precheck](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_precheck.htm).
 
 precheck\_action4
 
 Checks that the primary keys for newly created entity instances with action4 are unique. Since action4 is specified with precheck in the BDEF, the method precheck\_action4 is called before action4. In this example, the uniqueness check is actually implemented in the create method. Here, it is available for demonstration purposes and so as not to have the precheck interfere with other operations, for example, if the notation create was specified with precheck in the BDEF.
-CDS BDL information: [precheck](javascript:call_link\('abenbdl_precheck.htm'\)).
+CDS BDL information: [precheck](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_precheck.htm).
 
 function1
 
 Static function that applies to the complete BO, not to any specific entity instance. The function first filters all entity instances. The value of field3 should be higher than 100. Then, it sums up the values of the field field3. The value of the sum is returned in the result parameter.
-CDS BDL information: [function](javascript:call_link\('abenbdl_function.htm'\)).
+CDS BDL information: [function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_function.htm).
 
 function2
 
 Instance function specified with parameter in the BDEF. To execute the function, it is required to specify an entity instance and also a value for the input parameter. In this example, the input parameter represents a discount percentage and the function subtracts the discount from the value of the field field3 of an entity instance. The reduced value is returned in the result parameter.
-CDS BDL information: [function](javascript:call_link\('abenbdl_function.htm'\)).
+CDS BDL information: [function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_function.htm).
 
 function3
 
 Instance function specified with result selective in the BDEF. The importing parameter requested\_fields is considered. Only those fields that are requested by the RAP consumer are filled.
-CDS BDL information: [function](javascript:call_link\('abenbdl_function.htm'\)).
+CDS BDL information: [function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_function.htm).
 
 get\_instance\_authorizations
 
 Checks authorization against the persistent state of the instance. The method returns information on whether update and delete operations as well as the execution of actions are allowed on instances. In this example, they are not allowed if field2 has a particular value.
-CDS BDL information: [authorization](javascript:call_link\('abenbdl_authorization.htm'\)).
+CDS BDL information: [authorization](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_authorization.htm).
 
 lock
 
 A lock object (ELOCKRAP) is available for the database table. The method locks the active instances based on the keys (key\_field). To visualize the locking, the global lock table (transaction SM12) can be checked while debugging the program. The locks are removed after the COMMIT ENTITIES statement has been executed. With regards to editing draft instances, the locks are removed after the draft action activate has been completed.
-CDS BDL information: [locking](javascript:call_link\('abenbdl_locking.htm'\)).
+CDS BDL information: [locking](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_locking.htm).
 
 get\_instance\_features
 
 The method returns information on whether a certain field (field3) is read-only or can be modified based on a certain condition.
-CDS BDL information: [feature control](javascript:call_link\('abenbdl_precheck.htm'\)).
+CDS BDL information: [feature control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_precheck.htm).
 
 get\_global\_features
 
 The method returns information on whether update and delete operations on instances are allowed or not based on a certain condition.
-CDS BDL information: [feature control](javascript:call_link\('abenbdl_precheck.htm'\)).
+CDS BDL information: [feature control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_precheck.htm).
 
 get\_global\_authorizations
 
 The method is implemented in a way that modify operations are only enabled for users with the appropriate authorizations. In the interest of having a simple demo, the example goes without an authorization object which is, for example, a way to handle the authorization granting in productive applications. The variable auth\_flag represents the authorization that is granted or not. In this example, the permission is always granted.
-CDS BDL information: [authorization](javascript:call_link\('abenbdl_authorization.htm'\)).
+CDS BDL information: [authorization](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_authorization.htm).
 
 det\_on\_modify
 
 Adds a string to the existing string value in field field1.
-CDS BDL information: [determination](javascript:call_link\('abenbdl_determinations.htm'\)).
+CDS BDL information: [determination](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_determinations.htm).
 
 det\_on\_save
 
 Performs a simple calculation on the value in field field4.
-CDS BDL information: [determination](javascript:call_link\('abenbdl_determinations.htm'\)).
+CDS BDL information: [determination](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_determinations.htm).
 
 validation
 
 Checks if the value of field field3 is higher than 1000.
-CDS BDL information: [validation](javascript:call_link\('abenbdl_validations.htm'\)).
+CDS BDL information: [validation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_validations.htm).
 
 activate
 
 Performs a simple calculation on the value in field field3.
-CDS BDL information: [draft action](javascript:call_link\('abenbdl_draft_action.htm'\)).
+CDS BDL information: [draft action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_draft_action.htm).
 
 discard
 
 Removes underscores from the string in field field1.
-CDS BDL information: [draft action](javascript:call_link\('abenbdl_draft_action.htm'\)).
+CDS BDL information: [draft action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_draft_action.htm).
 
 edit
 
 Converts the string in field field1 to upper case.
-CDS BDL information: [draft action](javascript:call_link\('abenbdl_draft_action.htm'\)).
+CDS BDL information: [draft action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_draft_action.htm).
 
 resume
 
 Does not contain any implementations on draft instances. It is currently not possible to call and debug this method in the demonstration program.
-CDS BDL information: [draft action](javascript:call_link\('abenbdl_draft_action.htm'\)).
+CDS BDL information: [draft action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_draft_action.htm).
 
 earlynumbering\_create
 
 Early numbering is applied for primary keys. In the example, the key should be a random number between 50 and 100. The keys are mapped to %cid.
-CDS BDL information: [early numbering](javascript:call_link\('abenbdl_early_numb.htm'\)).
+CDS BDL information: [early numbering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_early_numb.htm).
 
 Source Code
 
@@ -1385,7 +1385,7 @@ Description
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the [unmanaged RAP business object](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry") from an ABAP program. The main focus of the program is to demonstrate RAP handler methods with several EML requests.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") to access the [unmanaged RAP business object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry") from an ABAP program. The main focus of the program is to demonstrate RAP handler methods with several EML requests.
 
 The output shows several runs of operations on RAP BOs to visualize the effect of implementations in the RAP handler methods as outlined above. For the program to display successful modify operations, it must be executed in a certain time frame (see the get\_global\_features method), otherwise all modify operations are disallowed.
 

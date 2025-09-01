@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Call Event Handler](javascript:call_link\('abencall_event_handler.htm'\)) →  [SET HANDLER](javascript:call_link\('abapset_handler.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_processing_blocks.htm) →  [Call Event Handler](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencall_event_handler.htm) →  [SET HANDLER](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_handler.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SET%20HANDLER%2C%20static_event%2C%20ABAPSET_HANDLER_STATIC%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SET HANDLER, static\_event
 
-[Short Reference](javascript:call_link\('abapset_handler_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_handler_shortref.htm)
 
 Syntax
 
@@ -22,11 +22,11 @@ Addition:
 
 Effect
 
-This statement registers the [event handlers](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry") handler1 handler2 ... for the associated [static events](javascript:call_link\('abenstatic_event_glosry.htm'\) "Glossary Entry"). The addition ACTIVATION can be used to deregister event handlers or to perform a dynamic registration.
+This statement registers the [event handlers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevent_handler_glosry.htm "Glossary Entry") handler1 handler2 ... for the associated [static events](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_event_glosry.htm "Glossary Entry"). The addition ACTIVATION can be used to deregister event handlers or to perform a dynamic registration.
 
-An event handler is executed if the associated static event is raised using [RAISE EVENT](javascript:call_link\('abapraise_event.htm'\)). The list handler1 handler2 ... has the same form as for [instance events](javascript:call_link\('abapset_handler_instance.htm'\)), but can only contain event handlers for static events declared using [CLASS EVENTS.](javascript:call_link\('abapclass-events.htm'\))
+An event handler is executed if the associated static event is raised using [RAISE EVENT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapraise_event.htm). The list handler1 handler2 ... has the same form as for [instance events](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_handler_instance.htm), but can only contain event handlers for static events declared using [CLASS EVENTS.](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-events.htm)
 
-Events that can be handled by an event handler for static events are defined uniquely by their definition in the statement [*\[*CLASS-*\]*](javascript:call_link\('abapclass-methods_event_handler.htm'\)) [METHODS](javascript:call_link\('abapmethods_event_handler.htm'\)). During registration, the addition FOR, which is required to register or deregister instance event handlers that determine the raising instances, cannot be specified. An event handler for static events is registered or deregistered independently of the instance and this applies globally to the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
+Events that can be handled by an event handler for static events are defined uniquely by their definition in the statement [*\[*CLASS-*\]*](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapclass-methods_event_handler.htm) [METHODS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmethods_event_handler.htm). During registration, the addition FOR, which is required to register or deregister instance event handlers that determine the raising instances, cannot be specified. An event handler for static events is registered or deregistered independently of the instance and this applies globally to the current [internal session](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm "Glossary Entry").
 
 Addition   
 
@@ -34,11 +34,11 @@ Addition  
 
 Effect
 
-The syntax and semantics of the addition ACTIVATION are the same as for the statement [SET HANDLER](javascript:call_link\('abapset_handler_instance.htm'\)) for instance events.
+The syntax and semantics of the addition ACTIVATION are the same as for the statement [SET HANDLER](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_handler_instance.htm) for instance events.
 
 Hint
 
-As long as the registration of an instance method as an event handler for a static event is not canceled using ACTIVATION blank, the associated object cannot be deleted by the [Garbage Collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry"). This is because it is still used by the runtime framework.
+As long as the registration of an instance method as an event handler for a static event is not canceled using ACTIVATION blank, the associated object cannot be deleted by the [Garbage Collector](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abengarbage_collector_glosry.htm "Glossary Entry"). This is because it is still used by the runtime framework.
 
 Example
 

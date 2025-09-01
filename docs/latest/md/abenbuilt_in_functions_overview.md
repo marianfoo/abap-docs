@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Built-In Types, Data Objects, Functions, and Constructors](javascript:call_link\('abenbuilt_in.htm'\)) →  [Built-In Functions](javascript:call_link\('abenbuilt_in_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Built-In Types, Data Objects, Functions, and Constructors](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in.htm) →  [Built-In Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Built-In%20Functions%2C%20Overview%2C%20ABENBUILT_IN_FUNCTIONS_OVERVIEW%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Built-In Functions, Overview
 
-The following tables summarize the built-in functions by purpose. Built-in functions are generally [processing functions](javascript:call_link\('abenprocess_function_glosry.htm'\) "Glossary Entry") or [description functions](javascript:call_link\('abendescription_function_glosry.htm'\) "Glossary Entry").
+The following tables summarize the built-in functions by purpose. Built-in functions are generally [processing functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprocess_function_glosry.htm "Glossary Entry") or [description functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendescription_function_glosry.htm "Glossary Entry").
 
 -   A processing function performs general processing and returns a return value according to its purpose.
 -   A description function determines a property of an argument and usually returns this property as a numeric value.
@@ -23,23 +23,23 @@ Function
 
 Meaning
 
-[boolc](javascript:call_link\('abenboole_functions.htm'\)), [boolx](javascript:call_link\('abenboole_functions.htm'\)), [xsdbool](javascript:call_link\('abenboole_functions.htm'\))
+[boolc](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenboole_functions.htm), [boolx](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenboole_functions.htm), [xsdbool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenboole_functions.htm)
 
 Boolean functions
 
-[contains](javascript:call_link\('abencontains_functions.htm'\)), [contains\_any\_of](javascript:call_link\('abencontains_functions.htm'\)), [contains\_any\_not\_of](javascript:call_link\('abencontains_functions.htm'\))
+[contains](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontains_functions.htm), [contains\_any\_of](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontains_functions.htm), [contains\_any\_not\_of](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencontains_functions.htm)
 
 Predicate functions for strings
 
-[matches](javascript:call_link\('abenmatches_functions.htm'\))
+[matches](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmatches_functions.htm)
 
 Predicate function for strings
 
-[line\_exists](javascript:call_link\('abenline_exists_function.htm'\))
+[line\_exists](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenline_exists_function.htm)
 
 Predicate function for internal tables
 
-[→ More about](javascript:call_link\('abenlogic_functions.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlogic_functions.htm)
 
 Numeric Functions   
 
@@ -47,27 +47,27 @@ Function
 
 Meaning
 
-[abs](javascript:call_link\('abennumerical_functions.htm'\)), [ceil](javascript:call_link\('abennumerical_functions.htm'\)), [floor](javascript:call_link\('abennumerical_functions.htm'\)), [frac](javascript:call_link\('abennumerical_functions.htm'\)), [sign](javascript:call_link\('abennumerical_functions.htm'\)), [trunc](javascript:call_link\('abennumerical_functions.htm'\))
+[abs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions.htm), [ceil](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions.htm), [floor](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions.htm), [frac](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions.htm), [sign](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions.htm), [trunc](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_functions.htm)
 
 General numeric functions
 
-[ipow](javascript:call_link\('abenpower_function.htm'\))
+[ipow](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpower_function.htm)
 
 Integer power function
 
-[nmax](javascript:call_link\('abennmax_nmin_functions.htm'\)), [nmin](javascript:call_link\('abennmax_nmin_functions.htm'\))
+[nmax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_functions.htm), [nmin](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennmax_nmin_functions.htm)
 
 Numeric extremum functions
 
-[acos](javascript:call_link\('abenfloating_point_functions.htm'\)), [asin](javascript:call_link\('abenfloating_point_functions.htm'\)), [atan](javascript:call_link\('abenfloating_point_functions.htm'\)), [cos](javascript:call_link\('abenfloating_point_functions.htm'\)), [sin](javascript:call_link\('abenfloating_point_functions.htm'\)), [tan](javascript:call_link\('abenfloating_point_functions.htm'\)), [cosh](javascript:call_link\('abenfloating_point_functions.htm'\)), [sinh](javascript:call_link\('abenfloating_point_functions.htm'\)), [tanh](javascript:call_link\('abenfloating_point_functions.htm'\)), [exp](javascript:call_link\('abenfloating_point_functions.htm'\)), [log](javascript:call_link\('abenfloating_point_functions.htm'\)), [log10](javascript:call_link\('abenfloating_point_functions.htm'\)), [sqrt](javascript:call_link\('abenfloating_point_functions.htm'\))
+[acos](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm), [asin](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm), [atan](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm), [cos](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm), [sin](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm), [tan](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm), [cosh](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm), [sinh](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm), [tanh](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm), [exp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm), [log](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm), [log10](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm), [sqrt](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfloating_point_functions.htm)
 
 Floating point functions
 
-[round](javascript:call_link\('abendec_floating_point_functions.htm'\)), [rescale](javascript:call_link\('abendec_floating_point_functions.htm'\))
+[round](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendec_floating_point_functions.htm), [rescale](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendec_floating_point_functions.htm)
 
 Rounding functions
 
-[→ More about](javascript:call_link\('abenmathematical_functions.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmathematical_functions.htm)
 
 String Functions   
 
@@ -75,83 +75,83 @@ Function
 
 Meaning
 
-[charlen](javascript:call_link\('abenlength_functions.htm'\)), [dbmaxlen](javascript:call_link\('abenlength_functions.htm'\)), [numofchar](javascript:call_link\('abenlength_functions.htm'\)), [strlen](javascript:call_link\('abenlength_functions.htm'\))
+[charlen](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlength_functions.htm), [dbmaxlen](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlength_functions.htm), [numofchar](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlength_functions.htm), [strlen](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlength_functions.htm)
 
 Length functions
 
-[char\_off](javascript:call_link\('abenlength_functions_args.htm'\))
+[char\_off](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlength_functions_args.htm)
 
 Length function
 
-[cmax](javascript:call_link\('abencmax_cmin_functions.htm'\)), [cmin](javascript:call_link\('abencmax_cmin_functions.htm'\))
+[cmax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencmax_cmin_functions.htm), [cmin](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencmax_cmin_functions.htm)
 
 Character-like extremum value functions
 
-[count](javascript:call_link\('abencount_functions.htm'\)), [count\_any\_of](javascript:call_link\('abencount_functions.htm'\)), [count\_any\_not\_of](javascript:call_link\('abencount_functions.htm'\))
+[count](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencount_functions.htm), [count\_any\_of](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencount_functions.htm), [count\_any\_not\_of](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencount_functions.htm)
 
 Search functions
 
-[distance](javascript:call_link\('abendistance_functions.htm'\))
+[distance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendistance_functions.htm)
 
 Similarity function
 
-[condense](javascript:call_link\('abencondense_functions.htm'\))
+[condense](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencondense_functions.htm)
 
 Condense function
 
-[concat\_lines\_of](javascript:call_link\('abenconcatenation_functions.htm'\))
+[concat\_lines\_of](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconcatenation_functions.htm)
 
 Concatenation function
 
-[escape](javascript:call_link\('abenescape_functions.htm'\))
+[escape](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenescape_functions.htm)
 
 Escape symbol function
 
-[find](javascript:call_link\('abensearch_functions.htm'\)), [find\_end](javascript:call_link\('abensearch_functions.htm'\)), [find\_any\_of](javascript:call_link\('abensearch_functions.htm'\)), [find\_any\_not\_of](javascript:call_link\('abensearch_functions.htm'\))
+[find](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensearch_functions.htm), [find\_end](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensearch_functions.htm), [find\_any\_of](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensearch_functions.htm), [find\_any\_not\_of](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensearch_functions.htm)
 
 Search functions
 
-[insert](javascript:call_link\('abeninsert_functions.htm'\))
+[insert](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninsert_functions.htm)
 
 Insert function
 
-[match](javascript:call_link\('abenmatch_functions.htm'\))
+[match](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmatch_functions.htm)
 
 Substring function
 
-[repeat](javascript:call_link\('abenrepeat_functions.htm'\))
+[repeat](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepeat_functions.htm)
 
 Repeat function
 
-[replace](javascript:call_link\('abenreplace_functions.htm'\))
+[replace](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreplace_functions.htm)
 
 Replace function
 
-[reverse](javascript:call_link\('abenreverse_functions.htm'\))
+[reverse](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreverse_functions.htm)
 
 Reverse function
 
-[segment](javascript:call_link\('abensegment_functions.htm'\))
+[segment](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensegment_functions.htm)
 
 Segment function
 
-[shift\_left](javascript:call_link\('abenshift_functions.htm'\)), [shift\_right](javascript:call_link\('abenshift_functions.htm'\))
+[shift\_left](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshift_functions.htm), [shift\_right](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshift_functions.htm)
 
 Shift functions
 
-[substring](javascript:call_link\('abensubstring_functions.htm'\)), [substring\_after](javascript:call_link\('abensubstring_functions.htm'\)), [substring\_from](javascript:call_link\('abensubstring_functions.htm'\)), [substring\_before](javascript:call_link\('abensubstring_functions.htm'\)), [substring\_to](javascript:call_link\('abensubstring_functions.htm'\))
+[substring](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensubstring_functions.htm), [substring\_after](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensubstring_functions.htm), [substring\_from](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensubstring_functions.htm), [substring\_before](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensubstring_functions.htm), [substring\_to](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensubstring_functions.htm)
 
 Substring functions
 
-[to\_upper](javascript:call_link\('abencase_functions.htm'\)), [to\_lower](javascript:call_link\('abencase_functions.htm'\)), [to\_mixed](javascript:call_link\('abencase_functions.htm'\)), [from\_mixed](javascript:call_link\('abencase_functions.htm'\))
+[to\_upper](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_functions.htm), [to\_lower](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_functions.htm), [to\_mixed](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_functions.htm), [from\_mixed](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencase_functions.htm)
 
 Case functions
 
-[translate](javascript:call_link\('abentranslate_functions.htm'\))
+[translate](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentranslate_functions.htm)
 
 Translation function
 
-[→ More about](javascript:call_link\('abenstring_functions.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions.htm)
 
 Byte String Functions   
 
@@ -159,15 +159,15 @@ Function
 
 Meaning
 
-[xstrlen](javascript:call_link\('abendescriptive_functions_binary.htm'\))
+[xstrlen](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendescriptive_functions_binary.htm)
 
 Length function
 
-[bit-set](javascript:call_link\('abenbit_functions.htm'\))
+[bit-set](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbit_functions.htm)
 
 Bit function
 
-[→ More about](javascript:call_link\('abenbinary_functions.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbinary_functions.htm)
 
 Time Stamp Functions   
 
@@ -175,19 +175,19 @@ Function
 
 Meaning
 
-[utclong\_current](javascript:call_link\('abenutclong_current.htm'\))
+[utclong\_current](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenutclong_current.htm)
 
 Current time stamp
 
-[utclong\_add](javascript:call_link\('abenutclong_add.htm'\))
+[utclong\_add](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenutclong_add.htm)
 
 Addition function for time stamps
 
-[utclong\_diff](javascript:call_link\('abenutclong_diff.htm'\))
+[utclong\_diff](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenutclong_diff.htm)
 
 Difference function for time stamps
 
-[→ More about](javascript:call_link\('abentimestamp_functions.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentimestamp_functions.htm)
 
 Table Functions   
 
@@ -195,12 +195,12 @@ Function
 
 Meaning
 
-[lines](javascript:call_link\('abendescriptive_functions_table.htm'\))
+[lines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendescriptive_functions_table.htm)
 
 Row function
 
-[line\_index](javascript:call_link\('abenline_index_function.htm'\))
+[line\_index](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenline_index_function.htm)
 
 Index function
 
-[→ More about](javascript:call_link\('abentable_functions.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_functions.htm)

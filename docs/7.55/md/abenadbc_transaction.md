@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ABAP Database Connectivity (ADBC)](javascript:call_link\('abenadbc.htm'\)) →  [ADBC - CL\_SQL\_CONNECTION](javascript:call_link\('abencl_sql_connection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennative_sql.htm) →  [ABAP Database Connectivity (ADBC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenadbc.htm) →  [ADBC - CL\_SQL\_CONNECTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_sql_connection.htm) → 
 
 ADBC - Database LUWs
 
-For each open database connection that can be represented by an instance of class [CL\_SQL\_CONNECTION](javascript:call_link\('abencl_sql_connection.htm'\)), only one [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry") is active at any one time. When a connection is opened, the first database LUW of the connection is opened implicitly.
+For each open database connection that can be represented by an instance of class [CL\_SQL\_CONNECTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencl_sql_connection.htm), only one [database LUW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_luw_glosry.htm "Glossary Entry") is active at any one time. When a connection is opened, the first database LUW of the connection is opened implicitly.
 
 The class CL\_SQL\_CONNECTION contains the following instance methods:
 
@@ -16,13 +16,13 @@ The class CL\_SQL\_CONNECTION contains the following instance methods:
 
 -   ROLLBACK
 
-These methods end the current database LUW of a connection using a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") or [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"). The current connection is set to inactive here. If the connection is still associated with an ADBC SQL statement and this statement is being used, it is activated again implicitly and a new database LUW opened at the same time.
+These methods end the current database LUW of a connection using a [database commit](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_commit_glosry.htm "Glossary Entry") or [database rollback](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"). The current connection is set to inactive here. If the connection is still associated with an ADBC SQL statement and this statement is being used, it is activated again implicitly and a new database LUW opened at the same time.
 
-The database LUWs of different connections are independent of one another and must be ended individually. When the work process is switched, with the resulting [implicit database commit](javascript:call_link\('abendb_commit.htm'\)), this is executed on all open connections. The database commit on the default connection takes place last of all.
+The database LUWs of different connections are independent of one another and must be ended individually. When the work process is switched, with the resulting [implicit database commit](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendb_commit.htm), this is executed on all open connections. The database commit on the default connection takes place last of all.
 
 Hints
 
--   Detailed information about database connections can be found [here](javascript:call_link\('abenopensql_multiconnect.htm'\)).
+-   Detailed information about database connections can be found [here](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql_multiconnect.htm).
 
 -   To execute a database commit or a database rollback on the default connection using ADBC, an instance of class CL\_SQL\_CONNECTION must be created for this connection using CREATE OBJECT.
 

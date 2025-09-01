@@ -3,34 +3,7 @@
 Included pages: 13
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenlossless_move.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm)
-- [abenconstructor_expression_exact.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm)
-- [abenexact_constructor_enum.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexact_constructor_enum.htm)
-- [abapmove_exact.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm)
-- [abenmove_exact_elementary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm)
-- [abenmove_exact_elementary_valid.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm)
-- [abenmove_exact_elementary_fit.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_fit.htm)
-- [abenmove_exact_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_abexa.htm)
-- [abenmove_exact_structure.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_structure.htm)
-- [abenmove_exact_itab.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_itab.htm)
-
-**Bundle Contains**: 10 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.210Z
-
----
-
 ### abenlossless_move.htm
-
-> **📖 Official SAP Documentation**: [abenlossless_move.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -38,47 +11,40 @@ Included pages: 13
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) → 
 
 Lossless Assignments
 
-A [lossless assignment](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry") is an assignment between incompatible data types in which the [conversion](javascript:call_link\('abenconversion_glosry.htm'\) "Glossary Entry") is checked to see whether data is lost. Lossless assignments can be performed using the
+A [lossless assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_assignment_glosry.htm "Glossary Entry") is an assignment between incompatible data types in which the [conversion](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_glosry.htm "Glossary Entry") is checked to see whether data is lost. Lossless assignments can be performed using the
 
--   [lossless operator EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)), in which the argument is converted to a result of the specified type using the
+-   [lossless operator EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm), in which the argument is converted to a result of the specified type using the
 
--   [rules for lossless assignments.](javascript:call_link\('abapmove_exact.htm'\))
+-   [rules for lossless assignments.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm)
 
-This makes it possible to use lossless assignments in all operand positions in which [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) can be specified.
+This makes it possible to use lossless assignments in all operand positions in which [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) can be specified.
 
-The real meaning of a lossless assignment is the following method of using a [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") with [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) as the right side of an [assignment](javascript:call_link\('abenequals_operator.htm'\)):
+The real meaning of a lossless assignment is the following method of using a [constructor expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") with [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) as the right side of an [assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_operator.htm):
 
 Syntax
 
-destination = [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) #( source ).
+destination = [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) #( source ).
 
 In this case, source is converted to the data type of destination and checked accordingly.
 
 Notes
 
--   If the argument of the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) is an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), a [lossless calculation](javascript:call_link\('abenlossless_calculation_glosry.htm'\) "Glossary Entry") is performed instead of a lossless assignment.
+-   If the argument of the operator [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) is an [arithmetic expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), a [lossless calculation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_calculation_glosry.htm "Glossary Entry") is performed instead of a lossless assignment.
 
--   When assigning structures component by component using [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)), there is an addition EXACT for lossless assignments.
+-   When assigning structures component by component using [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove-corresponding.htm), there is an addition EXACT for lossless assignments.
 
--   Using the addition EXACT in the obsolete statement [MOVE](javascript:call_link\('abapmove_obs.htm'\)) is an obsolete form of lossless assignment.
+-   Using the addition EXACT in the obsolete statement [MOVE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_obs.htm) is an obsolete form of lossless assignment.
 
 Continue
-[EXACT - Lossless Operator](javascript:call_link\('abenconstructor_expression_exact.htm'\))
-[Lossless Assignments - Rules](javascript:call_link\('abapmove_exact.htm'\))
+[EXACT - Lossless Operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm)
+[Lossless Assignments - Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm)
 
-
-
-**📖 Source**: [abenlossless_move.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm)
 
 ### abenconstructor_expression_exact.htm
-
-> **📖 Official SAP Documentation**: [abenconstructor_expression_exact.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -86,39 +52,39 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) → 
 
 EXACT - Lossless Operator
 
 Syntax
 
-... EXACT type( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]* dobj ) ...
+... EXACT type( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplet.htm)*\]* dobj ) ...
 
 Effect
 
-A [constructor expression](javascript:call_link\('abenconstructor_expressions.htm'\)) with the lossless operator EXACT performs either a [lossless assignment](javascript:call_link\('abenlossless_move.htm'\)) or a [lossless calculation](javascript:call_link\('abenlossless_calculation.htm'\)) (depending on the specified argument dobj) and creates a result with the data type type. The following can be specified for type:
+A [constructor expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expressions.htm) with the lossless operator EXACT performs either a [lossless assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) or a [lossless calculation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_calculation.htm) (depending on the specified argument dobj) and creates a result with the data type type. The following can be specified for type:
 
--   A non-generic data type dtype (with the exception of [reference types](javascript:call_link\('abenreference_type_glosry.htm'\) "Glossary Entry")).
+-   A non-generic data type dtype (with the exception of [reference types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_type_glosry.htm "Glossary Entry")).
 
 -   The # character for a data type, determined in accordance with the following hierarchy:
 
--   If the data type required in an operand position is unique and known completely, the [operand type](javascript:call_link\('abenoperand_type_glosry.htm'\) "Glossary Entry") is used. The operand type can also be generic and the current type is used at runtime.
+-   If the data type required in an operand position is unique and known completely, the [operand type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperand_type_glosry.htm "Glossary Entry") is used. The operand type can also be generic and the current type is used at runtime.
 
 -   If the data type cannot be derived from the context, the calculation type decfloat34 is used in lossless calculations and the data type of the argument is used in lossless assignments.
 
-The parentheses must contain precisely one unnamed argument dobj that can be converted to the data type type. dobj is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). The content of the result is defined as follows:
+The parentheses must contain precisely one unnamed argument dobj that can be converted to the data type type. dobj is a [general expression position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). The content of the result is defined as follows:
 
--   If the argument dobj is specified as an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), the expression is calculated in accordance with the rules for a [lossless assignment](javascript:call_link\('abenlossless_calculation.htm'\)) and the result (with calculation type decfloat34) is converted to the data type type.
+-   If the argument dobj is specified as an [arithmetic expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), the expression is calculated in accordance with the rules for a [lossless assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_calculation.htm) and the result (with calculation type decfloat34) is converted to the data type type.
 
--   In all other cases, the content of the result is defined by an assignment of the argument in accordance with the associated [conversion rules](javascript:call_link\('abenconversion_rules.htm'\)), during which a check is performed in accordance with the [rules of lossless assignments](javascript:call_link\('abapmove_exact.htm'\)).
+-   In all other cases, the content of the result is defined by an assignment of the argument in accordance with the associated [conversion rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_rules.htm), during which a check is performed in accordance with the [rules of lossless assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm).
 
-If data is lost in either case, the corresponding exception is raised. If the argument is compatible with the data type type in a lossless assignment, EXACT does not perform any checks and a syntax check warning is produced. For [enumerated types](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"), additional special [rules](javascript:call_link\('abenexact_constructor_enum.htm'\)) apply.
+If data is lost in either case, the corresponding exception is raised. If the argument is compatible with the data type type in a lossless assignment, EXACT does not perform any checks and a syntax check warning is produced. For [enumerated types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), additional special [rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexact_constructor_enum.htm) apply.
 
-An optional LET expression [let\_exp](javascript:call_link\('abaplet.htm'\)) can be specified before the argument to define local helper fields.
+An optional LET expression [let\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplet.htm) can be specified before the argument to define local helper fields.
 
 Note
 
-The lossless operator EXACT replaces the identically named addition of the obsolete statements [MOVE](javascript:call_link\('abapmove_obs.htm'\)) and [COMPUTE](javascript:call_link\('abapcompute.htm'\)).
+The lossless operator EXACT replaces the identically named addition of the obsolete statements [MOVE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_obs.htm) and [COMPUTE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute.htm).
 
 Example
 
@@ -170,7 +136,7 @@ TRY.
     DATA(rounded\_result) = exc->value.
 ENDTRY.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -181,17 +147,10 @@ CX\_SY\_CONVERSION\_EXACT\_NOT\_SUP
     
 
 Continue
-[EXACT - Lossless Conversion of Enumerated Types](javascript:call_link\('abenexact_constructor_enum.htm'\))
+[EXACT - Lossless Conversion of Enumerated Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexact_constructor_enum.htm)
 
-
-
-**📖 Source**: [abenconstructor_expression_exact.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm)
 
 ### abenexact_constructor_enum.htm
-
-> **📖 Official SAP Documentation**: [abenexact_constructor_enum.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexact_constructor_enum.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -199,25 +158,25 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) →  [EXACT - Lossless Operator](javascript:call_link\('abenconstructor_expression_exact.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) →  [EXACT - Lossless Operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) → 
 
 EXACT - Lossless Conversion of Enumerated Types
 
-If the constructor expression [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) is applied to [enumerated types](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"), the same [rules](javascript:call_link\('abenconv_constructor_enum.htm'\)) apply as for the conversion operator [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)):
+If the constructor expression [CONV](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_conv.htm) is applied to [enumerated types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), the same [rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconv_constructor_enum.htm) apply as for the conversion operator [CONV](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_conv.htm):
 
--   An [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") can be converted to the [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") if its enumerated type, as with CONV.
+-   An [enumerated object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm "Glossary Entry") can be converted to the [base type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbase_type_glosry.htm "Glossary Entry") if its enumerated type, as with CONV.
 
 ... EXACT base\_type( enum\_dobj ) ...
 
--   A data object that can be converted to the [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") of an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") can be converted to the enumerated type, as with CONV.
+-   A data object that can be converted to the [base type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbase_type_glosry.htm "Glossary Entry") of an [enumerated type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry") can be converted to the enumerated type, as with CONV.
 
 ... EXACT enum\_type( dobj ) ...
 
 The conditions of losslessness also apply:
 
--   If a data object that can be converted to the base type is converted to the enumerated type, this happens in accordance with the [rules](javascript:call_link\('abapmove_exact.htm'\)) of [lossless assignment](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry").
+-   If a data object that can be converted to the base type is converted to the enumerated type, this happens in accordance with the [rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm) of [lossless assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_assignment_glosry.htm "Glossary Entry").
 
--   If an [arithmetic expression](javascript:call_link\('abapcompute_arith.htm'\)) is used as the argument of a conversion to the enumerated type, the result must be obtained in accordance with the [rules](javascript:call_link\('abenlossless_calculation.htm'\)) of [lossless calculation](javascript:call_link\('abenlossless_calculation_glosry.htm'\) "Glossary Entry").
+-   If an [arithmetic expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_arith.htm) is used as the argument of a conversion to the enumerated type, the result must be obtained in accordance with the [rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_calculation.htm) of [lossless calculation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_calculation_glosry.htm "Glossary Entry").
 
 Example
 
@@ -251,14 +210,7 @@ TRY.
 ENDTRY.
 
 
-
-**📖 Source**: [abenexact_constructor_enum.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexact_constructor_enum.htm)
-
 ### abenconstructor_expression_exact.htm
-
-> **📖 Official SAP Documentation**: [abenconstructor_expression_exact.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -266,39 +218,39 @@ ENDTRY.
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) → 
 
 EXACT - Lossless Operator
 
 Syntax
 
-... EXACT type( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]* dobj ) ...
+... EXACT type( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplet.htm)*\]* dobj ) ...
 
 Effect
 
-A [constructor expression](javascript:call_link\('abenconstructor_expressions.htm'\)) with the lossless operator EXACT performs either a [lossless assignment](javascript:call_link\('abenlossless_move.htm'\)) or a [lossless calculation](javascript:call_link\('abenlossless_calculation.htm'\)) (depending on the specified argument dobj) and creates a result with the data type type. The following can be specified for type:
+A [constructor expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expressions.htm) with the lossless operator EXACT performs either a [lossless assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) or a [lossless calculation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_calculation.htm) (depending on the specified argument dobj) and creates a result with the data type type. The following can be specified for type:
 
--   A non-generic data type dtype (with the exception of [reference types](javascript:call_link\('abenreference_type_glosry.htm'\) "Glossary Entry")).
+-   A non-generic data type dtype (with the exception of [reference types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_type_glosry.htm "Glossary Entry")).
 
 -   The # character for a data type, determined in accordance with the following hierarchy:
 
--   If the data type required in an operand position is unique and known completely, the [operand type](javascript:call_link\('abenoperand_type_glosry.htm'\) "Glossary Entry") is used. The operand type can also be generic and the current type is used at runtime.
+-   If the data type required in an operand position is unique and known completely, the [operand type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperand_type_glosry.htm "Glossary Entry") is used. The operand type can also be generic and the current type is used at runtime.
 
 -   If the data type cannot be derived from the context, the calculation type decfloat34 is used in lossless calculations and the data type of the argument is used in lossless assignments.
 
-The parentheses must contain precisely one unnamed argument dobj that can be converted to the data type type. dobj is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). The content of the result is defined as follows:
+The parentheses must contain precisely one unnamed argument dobj that can be converted to the data type type. dobj is a [general expression position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). The content of the result is defined as follows:
 
--   If the argument dobj is specified as an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), the expression is calculated in accordance with the rules for a [lossless assignment](javascript:call_link\('abenlossless_calculation.htm'\)) and the result (with calculation type decfloat34) is converted to the data type type.
+-   If the argument dobj is specified as an [arithmetic expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), the expression is calculated in accordance with the rules for a [lossless assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_calculation.htm) and the result (with calculation type decfloat34) is converted to the data type type.
 
--   In all other cases, the content of the result is defined by an assignment of the argument in accordance with the associated [conversion rules](javascript:call_link\('abenconversion_rules.htm'\)), during which a check is performed in accordance with the [rules of lossless assignments](javascript:call_link\('abapmove_exact.htm'\)).
+-   In all other cases, the content of the result is defined by an assignment of the argument in accordance with the associated [conversion rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_rules.htm), during which a check is performed in accordance with the [rules of lossless assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm).
 
-If data is lost in either case, the corresponding exception is raised. If the argument is compatible with the data type type in a lossless assignment, EXACT does not perform any checks and a syntax check warning is produced. For [enumerated types](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"), additional special [rules](javascript:call_link\('abenexact_constructor_enum.htm'\)) apply.
+If data is lost in either case, the corresponding exception is raised. If the argument is compatible with the data type type in a lossless assignment, EXACT does not perform any checks and a syntax check warning is produced. For [enumerated types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), additional special [rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexact_constructor_enum.htm) apply.
 
-An optional LET expression [let\_exp](javascript:call_link\('abaplet.htm'\)) can be specified before the argument to define local helper fields.
+An optional LET expression [let\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplet.htm) can be specified before the argument to define local helper fields.
 
 Note
 
-The lossless operator EXACT replaces the identically named addition of the obsolete statements [MOVE](javascript:call_link\('abapmove_obs.htm'\)) and [COMPUTE](javascript:call_link\('abapcompute.htm'\)).
+The lossless operator EXACT replaces the identically named addition of the obsolete statements [MOVE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_obs.htm) and [COMPUTE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute.htm).
 
 Example
 
@@ -350,7 +302,7 @@ TRY.
     DATA(rounded\_result) = exc->value.
 ENDTRY.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -361,17 +313,10 @@ CX\_SY\_CONVERSION\_EXACT\_NOT\_SUP
     
 
 Continue
-[EXACT - Lossless Conversion of Enumerated Types](javascript:call_link\('abenexact_constructor_enum.htm'\))
+[EXACT - Lossless Conversion of Enumerated Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexact_constructor_enum.htm)
 
-
-
-**📖 Source**: [abenconstructor_expression_exact.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm)
 
 ### abapmove_exact.htm
-
-> **📖 Official SAP Documentation**: [abapmove_exact.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -379,11 +324,11 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) → 
 
 Lossless Assignments - Rules
 
-A lossless assignment checks the assigned content, before its [conversion](javascript:call_link\('abenconversion_glosry.htm'\) "Glossary Entry") to an incompatible target object, to see whether the assignment is possible without data loss. This means:
+A lossless assignment checks the assigned content, before its [conversion](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_glosry.htm "Glossary Entry") to an incompatible target object, to see whether the assignment is possible without data loss. This means:
 
 -   the value is checked to see whether it is a valid value for the data type of the source
     
@@ -392,15 +337,15 @@ A lossless assignment checks the assigned content, before its [conversion](javas
 -   The value is valid for the target field after conversion
     
 
-If the source contains a valid value and no values are lost, the conversion is performed in accordance with the associated [conversion rules](javascript:call_link\('abenconversion_rules.htm'\)). Otherwise no assignment is made. If it is known statically that one of the prerequisites is not met, a syntax error occurs. If this violation is not identified until the program is executed, a handleable exception is raised. The exception class of this exception is generally a subclass of CX\_SY\_CONVERSION\_ERROR.
+If the source contains a valid value and no values are lost, the conversion is performed in accordance with the associated [conversion rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_rules.htm). Otherwise no assignment is made. If it is known statically that one of the prerequisites is not met, a syntax error occurs. If this violation is not identified until the program is executed, a handleable exception is raised. The exception class of this exception is generally a subclass of CX\_SY\_CONVERSION\_ERROR.
 
-The following sections outline which rules are used by the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) when checking the content of its argument with respect to the data types involved:
+The following sections outline which rules are used by the operator [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) when checking the content of its argument with respect to the data types involved:
 
--   [Checks elementary data objects](javascript:call_link\('abenmove_exact_elementary.htm'\))
+-   [Checks elementary data objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm)
     
--   [Checks structures](javascript:call_link\('abenmove_exact_structure.htm'\))
+-   [Checks structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_structure.htm)
     
--   [Checks internal tables](javascript:call_link\('abenmove_exact_itab.htm'\))
+-   [Checks internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_itab.htm)
     
 
 If an exception is raised as a result of an invalid or inappropriate value, the VALUE attribute of the exception object is assigned this value in character form; this value is generally also included in the exception text.
@@ -413,32 +358,25 @@ The content of the argument is passed to the return value without being converte
 
 -   reference variables
 
-Checks on the content of a reference variable using EXACT are not useful. This is because nothing is converted and the content is either assignable or not assignable, as specified by the [assignment rules for reference variables](javascript:call_link\('abenconversion_references.htm'\)).
+Checks on the content of a reference variable using EXACT are not useful. This is because nothing is converted and the content is either assignable or not assignable, as specified by the [assignment rules for reference variables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_references.htm).
 
 A syntax check warning is produced if it is known statically that no checks are performed for the combination of argument and target type, so making EXACT superfluous.
 
 Note
 
-Since lossless checks are only performed for conversions to incompatible data types, it is best to only use the operator EXACT to fill data objects that should only be given valid objects. Other types of assignments that require a start value to be specified in the declaration using [VALUE](javascript:call_link\('abapdata_options.htm'\)) can create invalid values that are then not recognized when a lossless assignment is made to a compatible target field.
+Since lossless checks are only performed for conversions to incompatible data types, it is best to only use the operator EXACT to fill data objects that should only be given valid objects. Other types of assignments that require a start value to be specified in the declaration using [VALUE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_options.htm) can create invalid values that are then not recognized when a lossless assignment is made to a compatible target field.
 
 Executable Example
 
-[Lossless Assignment](javascript:call_link\('abenmove_exact_abexa.htm'\)).
+[Lossless Assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_abexa.htm).
 
 Continue
-[Checking Elementary Data Objects](javascript:call_link\('abenmove_exact_elementary.htm'\))
-[Checking Structures](javascript:call_link\('abenmove_exact_structure.htm'\))
-[Checking Internal Tables](javascript:call_link\('abenmove_exact_itab.htm'\))
+[Checking Elementary Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm)
+[Checking Structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_structure.htm)
+[Checking Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_itab.htm)
 
-
-
-**📖 Source**: [abapmove_exact.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm)
 
 ### abenmove_exact_elementary.htm
-
-> **📖 Official SAP Documentation**: [abenmove_exact_elementary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -446,15 +384,15 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) →  [Lossless Assignments - Rules](javascript:call_link\('abapmove_exact.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) →  [Lossless Assignments - Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm) → 
 
 Checking Elementary Data Objects
 
-In conversions between incompatible [elementary data objects](javascript:call_link\('abenelementary_data_object_glosry.htm'\) "Glossary Entry"), the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) ensures that no values are lost. Regardless of the value of the argument, the operator EXACT generally does not permit assignments between data objects with the following data types. The is because with these data types, values are always lost when the [conversion rules](javascript:call_link\('abenconversion_elementary.htm'\)) are applied.
+In conversions between incompatible [elementary data objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenelementary_data_object_glosry.htm "Glossary Entry"), the operator [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) ensures that no values are lost. Regardless of the value of the argument, the operator EXACT generally does not permit assignments between data objects with the following data types. The is because with these data types, values are always lost when the [conversion rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_elementary.htm) are applied.
 
 -   From x, xstring to n, d, t, and reversed.
 
--   From x, xstring to all [numeric data types](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry"), and reversed.
+-   From x, xstring to all [numeric data types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm "Glossary Entry"), and reversed.
 
 -   From d and t to b and s
 
@@ -464,11 +402,11 @@ If illegal conversions are made, a syntax error occurs, or if the cause cannot b
 
 When permitted conversions are made between incompatible elementary data objects, the operator EXACT checks the contents of the argument at runtime as follows:
 
--   [Check for valid values in the argument](javascript:call_link\('abenmove_exact_elementary_valid.htm'\))
+-   [Check for valid values in the argument](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm)
 
--   [Check for appropriate values in the target type](javascript:call_link\('abenmove_exact_elementary_fit.htm'\))
+-   [Check for appropriate values in the target type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_fit.htm)
 
-If the elementary data types for which no conversion is required are [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry"), no checks are performed and no exceptions are raised.
+If the elementary data types for which no conversion is required are [compatible](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompatible_glosry.htm "Glossary Entry"), no checks are performed and no exceptions are raised.
 
 Notes
 
@@ -478,22 +416,15 @@ Notes
 
 Executable Example
 
-[Lossless Assignment](javascript:call_link\('abenmove_exact_abexa.htm'\)).
+[Lossless Assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_abexa.htm).
 
 Continue
-[Valid Values for Lossless Assignments](javascript:call_link\('abenmove_exact_elementary_valid.htm'\))
-[Suitable Values for Lossless Assignments](javascript:call_link\('abenmove_exact_elementary_fit.htm'\))
-![Example](exa.gif "Example") [Lossless Assignment](javascript:call_link\('abenmove_exact_abexa.htm'\))
+[Valid Values for Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm)
+[Suitable Values for Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_fit.htm)
+![Example](exa.gif "Example") [Lossless Assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_abexa.htm)
 
-
-
-**📖 Source**: [abenmove_exact_elementary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm)
 
 ### abenmove_exact_elementary_valid.htm
-
-> **📖 Official SAP Documentation**: [abenmove_exact_elementary_valid.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -501,15 +432,19 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) →  [Lossless Assignments - Rules](javascript:call_link\('abapmove_exact.htm'\)) →  [Checking Elementary Data Objects](javascript:call_link\('abenmove_exact_elementary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) →  [Lossless Assignments - Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm) →  [Checking Elementary Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm) → 
 
 Valid Values for Lossless Assignments
 
-When a lossless conversion of an elementary argument of the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) to an incompatible data type is performed, the argument must represent a value that is valid in the tables below (and according to its data type):
+When a lossless conversion of an elementary argument of the operator [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) to an incompatible data type is performed, the argument must represent a value that is valid in the tables below (and according to its data type):
 
--   [Numeric Arguments](#abenmove-exact-elementary-valid-1--------character-like-arguments---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_2)
+-   [Numeric Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_1)
 
--   [Byte-Like Arguments](#abenmove-exact-elementary-valid-3--------date-time-fields-as-arguments---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_4)
+-   [Character-Like Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_2)
+
+-   [Byte-Like Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_3)
+
+-   [Date/Time Fields as Arguments](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_VALID_4)
 
 Numeric Arguments
 
@@ -610,7 +545,7 @@ The argument must contain a valid time in the format "hhmmss", for which the fol
 
 Note
 
-The values that the operator EXACT permits for date fields of type d are different from those defined by the [value range](javascript:call_link\('abenbuiltin_types_date_time.htm'\)). The initial value "00000000", which does not lie within the value range and is normally considered an invalid date, is considered a valid date here, whereas the value "00010101", which does lie within the value range, is considered invalid.
+The values that the operator EXACT permits for date fields of type d are different from those defined by the [value range](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuiltin_types_date_time.htm). The initial value "00000000", which does not lie within the value range and is normally considered an invalid date, is considered a valid date here, whereas the value "00010101", which does lie within the value range, is considered invalid.
 
 Example
 
@@ -623,14 +558,7 @@ date = '201607\_\_'.
 DATA(result2) = EXACT i( date ).
 
 
-
-**📖 Source**: [abenmove_exact_elementary_valid.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm)
-
 ### abenmove_exact_elementary_fit.htm
-
-> **📖 Official SAP Documentation**: [abenmove_exact_elementary_fit.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_fit.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -638,23 +566,35 @@ DATA(result2) = EXACT i( date ).
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) →  [Lossless Assignments - Rules](javascript:call_link\('abapmove_exact.htm'\)) →  [Checking Elementary Data Objects](javascript:call_link\('abenmove_exact_elementary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) →  [Lossless Assignments - Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm) →  [Checking Elementary Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm) → 
 
 Suitable Values for Lossless Assignments
 
-When an elementary argument of the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) is converted to an incompatible data type, the argument must contain a value suitable for the target type as shown in the following tables. This avoids loss of values and provides a valid value for the target type.
+When an elementary argument of the operator [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) is converted to an incompatible data type, the argument must contain a value suitable for the target type as shown in the following tables. This avoids loss of values and provides a valid value for the target type.
 
--   [Numeric Target Types](#abenmove-exact-elementary-fit-1--------target-type-with-numeric-type--except-f----@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_2)
+-   [Numeric Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_1)
 
--   [Target Type of Type f](#abenmove-exact-elementary-fit-3--------character-like-target-types---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_4)
+-   [Target Type with Numeric Type (Except f)](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_2)
 
--   [Target Type of Type c](#abenmove-exact-elementary-fit-5--------target-type-of-type-string---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_6)
+-   [Target Type of Type f](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_3)
 
--   [Target Type of Type n](#abenmove-exact-elementary-fit-7--------byte-like-target-types---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_8)
+-   [Character-Like Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_4)
 
--   [Target Type of Type x](#abenmove-exact-elementary-fit-9--------target-type-of-type-xstring---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_10)
+-   [Target Type of Type c](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_5)
 
--   [Date/Time Types as Target Types](#abenmove-exact-elementary-fit-11--------target-type-of-type-d---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_12)
+-   [Target Type of Type string](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_6)
+
+-   [Target Type of Type n](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_7)
+
+-   [Byte-Like Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_8)
+
+-   [Target Type of Type x](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_9)
+
+-   [Target Type of Type xstring](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_10)
+
+-   [Date/Time Types as Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_11)
+
+-   [Target Type of Type d](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_12)
 
 -   [Target Type of Type t](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_13)
 
@@ -666,21 +606,21 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Numbers from the value range of the target type that do not have to be rounded. Inappropriate values raise exceptions from the class CX\_SY\_CONVERSION\_ROUNDING or CX\_SY\_CONVERSION\_OVERFLOW.
 
-[Character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[Character-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
-Numbers from the value range of the target type that do not have to be rounded. In arguments of type c or string, appropriate number [representations](javascript:call_link\('abennumerical_value.htm'\)) determined after applying the [conversion rules](javascript:call_link\('abencharacter_source_fields.htm'\)) are allowed if their value lies within the value range and does not have to be rounded. Arguments of type c or string are also allowed if they contain only blanks or empty strings. Arguments of type n can contain as many digits after leading zeroes that are allowed within the value range. Inappropriate values raise exceptions from the class CX\_SY\_CONVERSION\_ROUNDING or CX\_SY\_CONVERSION\_OVERFLOW.
+Numbers from the value range of the target type that do not have to be rounded. In arguments of type c or string, appropriate number [representations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumerical_value.htm) determined after applying the [conversion rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharacter_source_fields.htm) are allowed if their value lies within the value range and does not have to be rounded. Arguments of type c or string are also allowed if they contain only blanks or empty strings. Arguments of type n can contain as many digits after leading zeroes that are allowed within the value range. Inappropriate values raise exceptions from the class CX\_SY\_CONVERSION\_ROUNDING or CX\_SY\_CONVERSION\_OVERFLOW.
 
-[Byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[Byte-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry") or [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_type_glosry.htm "Glossary Entry") or [time type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_type_glosry.htm "Glossary Entry")
 
-In arguments of types d and t, all [valid](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) date and times (if specified) are allowed; however they cannot be assigned to the target types b and s. Inappropriate values raise exceptions from the class CX\_SY\_CONVERSION\_ROUNDING or CX\_SY\_CONVERSION\_OVERFLOW.
+In arguments of types d and t, all [valid](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm) date and times (if specified) are allowed; however they cannot be assigned to the target types b and s. Inappropriate values raise exceptions from the class CX\_SY\_CONVERSION\_ROUNDING or CX\_SY\_CONVERSION\_OVERFLOW.
 
 Example
 
@@ -695,21 +635,21 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Integers with a maximum of 15 places. In arguments of type i (b, s), all values are allowed. In arguments of types int8, p, decfloat16, and decfloat34, a maximum of 15 places, but no decimal places are permitted. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_INEXACT\_FLTP.
 
-[Character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[Character-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
-Integers with a maximum of 15 places. In arguments of type c or string, numbers can be expressed in [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry"). The values are integers with a maximum of 15 places. Arguments of type c or string are also allowed if they contain only blanks or empty strings. Arguments of type n can contain up to 15 digits after leading zeroes. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_INEXACT\_FLTP.
+Integers with a maximum of 15 places. In arguments of type c or string, numbers can be expressed in [scientific notation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscientific_notation_glosry.htm "Glossary Entry"). The values are integers with a maximum of 15 places. Arguments of type c or string are also allowed if they contain only blanks or empty strings. Arguments of type n can contain up to 15 digits after leading zeroes. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_INEXACT\_FLTP.
 
-[Byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[Byte-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry") or [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_type_glosry.htm "Glossary Entry") or [time type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_type_glosry.htm "Glossary Entry")
 
-In arguments of types d and t, all [valid](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) specified dates and times are allowed. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_DATE or CX\_SY\_CONVERSION\_NO\_TIME
+In arguments of types d and t, all [valid](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm) specified dates and times are allowed. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_DATE or CX\_SY\_CONVERSION\_NO\_TIME
 
 Example
 
@@ -726,21 +666,21 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
-Numbers for which the result from the [conversion](javascript:call_link\('abennumeric_source_fields.htm'\)) to type c is not longer than the target type; the result cannot be rounded. Positive signs represented as blanks are ignored. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_OVERFLOW or CX\_SY\_CONVERSION\_ROUNDING.
+Numbers for which the result from the [conversion](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_source_fields.htm) to type c is not longer than the target type; the result cannot be rounded. Positive signs represented as blanks are ignored. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_OVERFLOW or CX\_SY\_CONVERSION\_ROUNDING.
 
-[Character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[Character-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
 Character strings not longer than the target type. In arguments of type c, trailing blanks are ignored. In arguments of type string, no characters are ignored, including trailing blanks. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_DATA\_LOSS.
 
-[Byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[Byte-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
-Byte chains for which the result from the [conversion](javascript:call_link\('abenbyte_source_fields.htm'\)) to type c is not longer than the target type. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_DATA\_LOSS.
+Byte chains for which the result from the [conversion](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_source_fields.htm) to type c is not longer than the target type. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_DATA\_LOSS.
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry") or [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_type_glosry.htm "Glossary Entry") or [time type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_type_glosry.htm "Glossary Entry")
 
-[Valid](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) dates or times (if specified) that are not longer than the target type. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_DATA\_LOSS.
+[Valid](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm) dates or times (if specified) that are not longer than the target type. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_DATA\_LOSS.
 
 Example
 
@@ -756,21 +696,21 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
-Any [valid](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) numbers.
+Any [valid](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm) numbers.
 
-[Character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[Character-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
 Any character strings.
 
-[Byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[Byte-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Any byte chains.
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry") or [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_type_glosry.htm "Glossary Entry") or [time type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_type_glosry.htm "Glossary Entry")
 
-Any [valid](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) dates or times specified.
+Any [valid](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm) dates or times specified.
 
 Example
 
@@ -786,19 +726,19 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Positive integers including 0, in which the number of digits does not exceed the length of the target type. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_OVERFLOW or CX\_SY\_CONVERSION\_ROUNDING.
 
-[Character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[Character-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
 A closed string of digits that cannot be longer than the target type (excluding the leading zeroes). Arguments of type c and string can contain additional leading and trailing blanks. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_NO\_NUMBER or CX\_SY\_CONVERSION\_OVERFLOW.
 
-[Byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[Byte-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry") or [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_type_glosry.htm "Glossary Entry") or [time type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_type_glosry.htm "Glossary Entry")
 
 Arguments of type d and t cannot contain blanks and the target type must have the same length as the source fields. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_NO\_NUMBER or CX\_SY\_CONVERSION\_OVERFLOW.
 
@@ -818,19 +758,19 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[Character-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
 An even number of characters between "0" and "9" and "A" and "F" in a closed sequence. The number of bytes represented must correspond exactly to the length of the target type. Other characters are not allowed; the only exception is that trailing blanks in arguments of type c are ignored. Arguments of the type n are not allowed. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_SRC\_TOO\_SHORT, CX\_SY\_CONVERSION\_DATA\_LOSS, or CX\_SY\_CONVERSION\_NO\_RAW.
 
-[Byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[Byte-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 A byte chain that has exactly the same length as the target type. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_SRC\_TOO\_SHORT or CX\_SY\_CONVERSION\_DATA\_LOSS.
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry") or [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_type_glosry.htm "Glossary Entry") or [time type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_type_glosry.htm "Glossary Entry")
 
 Arguments of the types d and t are not allowed.
 
@@ -848,19 +788,19 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[Character-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
 An even number of characters between "0" and "9" and "A" and "F" in a closed sequence. Other characters are not allowed; the only exception is that trailing blanks in arguments of type c are ignored. Arguments of the type n are not allowed. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_RAW.
 
-[Byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[Byte-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 A byte chain of any length.
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry") or [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_type_glosry.htm "Glossary Entry") or [time type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_type_glosry.htm "Glossary Entry")
 
 Arguments of the types d and t are not allowed.
 
@@ -879,19 +819,19 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Positive integers between 0 and 3652060 (which corresponds to the date 12/31/9999). Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_OVERFLOW or CX\_SY\_CONVERSION\_ROUNDING.
 
-[Character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[Character-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
-A left-justified [valid date](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) specified with the format "yyyymmdd". Arguments of type n and string can contain these eight digits only. Arguments of type c can also contain trailing blanks. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_DATE.
+A left-justified [valid date](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm) specified with the format "yyyymmdd". Arguments of type n and string can contain these eight digits only. Arguments of type c can also contain trailing blanks. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_DATE.
 
-[Byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[Byte-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry") or [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_type_glosry.htm "Glossary Entry") or [time type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_type_glosry.htm "Glossary Entry")
 
 If specified, a valid date in an argument of type d. Arguments of type t are not allowed.
 
@@ -908,19 +848,19 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Positive integers between 0 and 86399 (which corresponds to the time 23:59:59). Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_OVERFLOW or CX\_SY\_CONVERSION\_ROUNDING.
 
-[Character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[Character-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
-A left-justified [valid time](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) specified with the format "hhmmss". Arguments of type n and string can contain only these six digits. Arguments of type c can also contain trailing blanks. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_TIME.
+A left-justified [valid time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm) specified with the format "hhmmss". Arguments of type n and string can contain only these six digits. Arguments of type c can also contain trailing blanks. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_TIME.
 
-[Byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[Byte-like data type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry") or [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_type_glosry.htm "Glossary Entry") or [time type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_type_glosry.htm "Glossary Entry")
 
 If specified, a valid time in an argument of type t. Arguments of type d are not allowed.
 
@@ -932,14 +872,7 @@ DATA(result1) = EXACT t( 10000 ).
 DATA(result2) = EXACT t( 100000 ).
 
 
-
-**📖 Source**: [abenmove_exact_elementary_fit.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_fit.htm)
-
 ### abenmove_exact_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenmove_exact_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -947,11 +880,11 @@ DATA(result2) = EXACT t( 100000 ).
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) →  [Lossless Assignments - Rules](javascript:call_link\('abapmove_exact.htm'\)) →  [Checking Elementary Data Objects](javascript:call_link\('abenmove_exact_elementary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) →  [Lossless Assignments - Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm) →  [Checking Elementary Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm) → 
 
 Lossless Assignment
 
-This example demonstrates how the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) is used to make lossless assignments.
+This example demonstrates how the operator [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) is used to make lossless assignments.
 
 Source Code
 
@@ -983,19 +916,12 @@ START-OF-SELECTION.
 
 Description
 
-Without the operator EXACT, text is assigned to num\_text without the validity of the assigned value being checked against the associated [conversion rules](javascript:call_link\('abenconversion_type_string.htm'\)). This produces a value that is not very intuitive, "00000042".
+Without the operator EXACT, text is assigned to num\_text without the validity of the assigned value being checked against the associated [conversion rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_type_string.htm). This produces a value that is not very intuitive, "00000042".
 
 Using the operator EXACT, the value that is passed is checked and an exception is raised in the case in question.
 
 
-
-**📖 Source**: [abenmove_exact_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_abexa.htm)
-
 ### abenmove_exact_elementary.htm
-
-> **📖 Official SAP Documentation**: [abenmove_exact_elementary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1003,15 +929,15 @@ Using the operator EXACT, the value that is passed is checked and an exception i
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) →  [Lossless Assignments - Rules](javascript:call_link\('abapmove_exact.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) →  [Lossless Assignments - Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm) → 
 
 Checking Elementary Data Objects
 
-In conversions between incompatible [elementary data objects](javascript:call_link\('abenelementary_data_object_glosry.htm'\) "Glossary Entry"), the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) ensures that no values are lost. Regardless of the value of the argument, the operator EXACT generally does not permit assignments between data objects with the following data types. The is because with these data types, values are always lost when the [conversion rules](javascript:call_link\('abenconversion_elementary.htm'\)) are applied.
+In conversions between incompatible [elementary data objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenelementary_data_object_glosry.htm "Glossary Entry"), the operator [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) ensures that no values are lost. Regardless of the value of the argument, the operator EXACT generally does not permit assignments between data objects with the following data types. The is because with these data types, values are always lost when the [conversion rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_elementary.htm) are applied.
 
 -   From x, xstring to n, d, t, and reversed.
 
--   From x, xstring to all [numeric data types](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry"), and reversed.
+-   From x, xstring to all [numeric data types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennumeric_data_type_glosry.htm "Glossary Entry"), and reversed.
 
 -   From d and t to b and s
 
@@ -1021,11 +947,11 @@ If illegal conversions are made, a syntax error occurs, or if the cause cannot b
 
 When permitted conversions are made between incompatible elementary data objects, the operator EXACT checks the contents of the argument at runtime as follows:
 
--   [Check for valid values in the argument](javascript:call_link\('abenmove_exact_elementary_valid.htm'\))
+-   [Check for valid values in the argument](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm)
 
--   [Check for appropriate values in the target type](javascript:call_link\('abenmove_exact_elementary_fit.htm'\))
+-   [Check for appropriate values in the target type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_fit.htm)
 
-If the elementary data types for which no conversion is required are [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry"), no checks are performed and no exceptions are raised.
+If the elementary data types for which no conversion is required are [compatible](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompatible_glosry.htm "Glossary Entry"), no checks are performed and no exceptions are raised.
 
 Notes
 
@@ -1035,22 +961,15 @@ Notes
 
 Executable Example
 
-[Lossless Assignment](javascript:call_link\('abenmove_exact_abexa.htm'\)).
+[Lossless Assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_abexa.htm).
 
 Continue
-[Valid Values for Lossless Assignments](javascript:call_link\('abenmove_exact_elementary_valid.htm'\))
-[Suitable Values for Lossless Assignments](javascript:call_link\('abenmove_exact_elementary_fit.htm'\))
-![Example](exa.gif "Example") [Lossless Assignment](javascript:call_link\('abenmove_exact_abexa.htm'\))
+[Valid Values for Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_valid.htm)
+[Suitable Values for Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary_fit.htm)
+![Example](exa.gif "Example") [Lossless Assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_abexa.htm)
 
-
-
-**📖 Source**: [abenmove_exact_elementary.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm)
 
 ### abenmove_exact_structure.htm
-
-> **📖 Official SAP Documentation**: [abenmove_exact_structure.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_structure.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1058,19 +977,19 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) →  [Lossless Assignments - Rules](javascript:call_link\('abapmove_exact.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) →  [Lossless Assignments - Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm) → 
 
 Checking Structures
 
-The operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) can only be used to convert structures to [compatible](javascript:call_link\('abencompatibility.htm'\)) structures. Full compatibility is not required for the following deep components, for which the specified requirements apply:
+The operator [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) can only be used to convert structures to [compatible](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompatibility.htm) structures. Full compatibility is not required for the following deep components, for which the specified requirements apply:
 
--   For components that have a [reference type](javascript:call_link\('abenreference_type_glosry.htm'\) "Glossary Entry"), [up casts](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") but not [down casts](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry") are permitted.
+-   For components that have a [reference type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_type_glosry.htm "Glossary Entry"), [up casts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenup_cast_glosry.htm "Glossary Entry") but not [down casts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendown_cast_glosry.htm "Glossary Entry") are permitted.
 
--   For table-like components, it is sufficient if the [row type](javascript:call_link\('abenrow_type_glosry.htm'\) "Glossary Entry") is compatible. This means that the full [compatibility](javascript:call_link\('abencompatibility.htm'\)) needed for [table categories](javascript:call_link\('abentable_category_glosry.htm'\) "Glossary Entry") and [table keys](javascript:call_link\('abentable_key_glosry.htm'\) "Glossary Entry") is not required here.
+-   For table-like components, it is sufficient if the [row type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrow_type_glosry.htm "Glossary Entry") is compatible. This means that the full [compatibility](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompatibility.htm) needed for [table categories](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_category_glosry.htm "Glossary Entry") and [table keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_key_glosry.htm "Glossary Entry") is not required here.
 
 Notes
 
--   When the operator EXACT is used, the [conversion rules](javascript:call_link\('abenconversion_struc.htm'\)) for flat structures are the same as those for deep structures. It is not possible to make conversions between structures and elementary data objects.
+-   When the operator EXACT is used, the [conversion rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_struc.htm) for flat structures are the same as those for deep structures. It is not possible to make conversions between structures and elementary data objects.
 
 -   If the structured types are compatible, no further checks are made on the content. If the source structure contains invalid data, this data is assigned to a compatible return value, even when the addition EXACT is used.
 
@@ -1087,14 +1006,7 @@ DATA(result1) = CONV string( struc ).  "Possible
 DATA(result2) = EXACT string( struc ). "Not possible
 
 
-
-**📖 Source**: [abenmove_exact_structure.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_structure.htm)
-
 ### abenmove_exact_itab.htm
-
-> **📖 Official SAP Documentation**: [abenmove_exact_itab.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_itab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1102,19 +1014,19 @@ DATA(result2) = EXACT string( struc ). "Not possible
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) →  [Lossless Assignments - Rules](javascript:call_link\('abapmove_exact.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) →  [Lossless Assignments - Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm) → 
 
 Checking Internal Tables
 
-The operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) checks a table specified as an argument row-by-row against the table-like row type:
+The operator [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) checks a table specified as an argument row-by-row against the table-like row type:
 
--   If the row types are elementary, each row is checked for [elementary data objects](javascript:call_link\('abenmove_exact_elementary.htm'\)).
+-   If the row types are elementary, each row is checked for [elementary data objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm).
 
--   If the row types are structured, each row is checked for [structures](javascript:call_link\('abenmove_exact_structure.htm'\)).
+-   If the row types are structured, each row is checked for [structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_structure.htm).
 
 -   If the row types are table-like, the check described here is performed. If the inner table is a table with an elementary row type, the row types must be compatible.
 
-The [table category](javascript:call_link\('abentable_category_glosry.htm'\) "Glossary Entry") and the [table key](javascript:call_link\('abentable_key_glosry.htm'\) "Glossary Entry") are ignored by the check.
+The [table category](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_category_glosry.htm "Glossary Entry") and the [table key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_key_glosry.htm "Glossary Entry") are ignored by the check.
 
 If the check raises an exception due to an invalid value or loss of values, the target table is filled with all rows assigned up to that point.
 
@@ -1151,17 +1063,7 @@ ENDTRY.
 cl\_demo\_output=>display( jtab ).
 
 
-
-**📖 Source**: [abenmove_exact_itab.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_itab.htm)
-
 ### abapmove_exact.htm
-
-> **📖 Official SAP Documentation**: [abapmove_exact.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapmove_exact.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove_exact.htm)
-
 
   
 
@@ -1169,11 +1071,11 @@ cl\_demo\_output=>display( jtab ).
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlossless_move.htm) → 
 
 Lossless Assignments - Rules
 
-A lossless assignment checks the assigned content, before its [conversion](javascript:call_link\('abenconversion_glosry.htm'\) "Glossary Entry") to an incompatible target object, to see whether the assignment is possible without data loss. This means:
+A lossless assignment checks the assigned content, before its [conversion](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_glosry.htm "Glossary Entry") to an incompatible target object, to see whether the assignment is possible without data loss. This means:
 
 -   the value is checked to see whether it is a valid value for the data type of the source
     
@@ -1182,15 +1084,15 @@ A lossless assignment checks the assigned content, before its [conversion](javas
 -   The value is valid for the target field after conversion
     
 
-If the source contains a valid value and no values are lost, the conversion is performed in accordance with the associated [conversion rules](javascript:call_link\('abenconversion_rules.htm'\)). Otherwise no assignment is made. If it is known statically that one of the prerequisites is not met, a syntax error occurs. If this violation is not identified until the program is executed, a handleable exception is raised. The exception class of this exception is generally a subclass of CX\_SY\_CONVERSION\_ERROR.
+If the source contains a valid value and no values are lost, the conversion is performed in accordance with the associated [conversion rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_rules.htm). Otherwise no assignment is made. If it is known statically that one of the prerequisites is not met, a syntax error occurs. If this violation is not identified until the program is executed, a handleable exception is raised. The exception class of this exception is generally a subclass of CX\_SY\_CONVERSION\_ERROR.
 
-The following sections outline which rules are used by the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) when checking the content of its argument with respect to the data types involved:
+The following sections outline which rules are used by the operator [EXACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_exact.htm) when checking the content of its argument with respect to the data types involved:
 
--   [Checks elementary data objects](javascript:call_link\('abenmove_exact_elementary.htm'\))
+-   [Checks elementary data objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm)
     
--   [Checks structures](javascript:call_link\('abenmove_exact_structure.htm'\))
+-   [Checks structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_structure.htm)
     
--   [Checks internal tables](javascript:call_link\('abenmove_exact_itab.htm'\))
+-   [Checks internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_itab.htm)
     
 
 If an exception is raised as a result of an invalid or inappropriate value, the VALUE attribute of the exception object is assigned this value in character form; this value is generally also included in the exception text.
@@ -1203,19 +1105,19 @@ The content of the argument is passed to the return value without being converte
 
 -   reference variables
 
-Checks on the content of a reference variable using EXACT are not useful. This is because nothing is converted and the content is either assignable or not assignable, as specified by the [assignment rules for reference variables](javascript:call_link\('abenconversion_references.htm'\)).
+Checks on the content of a reference variable using EXACT are not useful. This is because nothing is converted and the content is either assignable or not assignable, as specified by the [assignment rules for reference variables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_references.htm).
 
 A syntax check warning is produced if it is known statically that no checks are performed for the combination of argument and target type, so making EXACT superfluous.
 
 Note
 
-Since lossless checks are only performed for conversions to incompatible data types, it is best to only use the operator EXACT to fill data objects that should only be given valid objects. Other types of assignments that require a start value to be specified in the declaration using [VALUE](javascript:call_link\('abapdata_options.htm'\)) can create invalid values that are then not recognized when a lossless assignment is made to a compatible target field.
+Since lossless checks are only performed for conversions to incompatible data types, it is best to only use the operator EXACT to fill data objects that should only be given valid objects. Other types of assignments that require a start value to be specified in the declaration using [VALUE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_options.htm) can create invalid values that are then not recognized when a lossless assignment is made to a compatible target field.
 
 Executable Example
 
-[Lossless Assignment](javascript:call_link\('abenmove_exact_abexa.htm'\)).
+[Lossless Assignment](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_abexa.htm).
 
 Continue
-[Checking Elementary Data Objects](javascript:call_link\('abenmove_exact_elementary.htm'\))
-[Checking Structures](javascript:call_link\('abenmove_exact_structure.htm'\))
-[Checking Internal Tables](javascript:call_link\('abenmove_exact_itab.htm'\))
+[Checking Elementary Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_elementary.htm)
+[Checking Structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_structure.htm)
+[Checking Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmove_exact_itab.htm)

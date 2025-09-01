@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 superstructure
 
-Direct predecessor of a [substructure](javascript:call_link\('abensubstructure_glosry.htm'\) "Glossary Entry") in a [nested structure](javascript:call_link\('abennested_structure_glosry.htm'\) "Glossary Entry").
+Direct predecessor of a [substructure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubstructure_glosry.htm "Glossary Entry") in a [nested structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennested_structure_glosry.htm "Glossary Entry").

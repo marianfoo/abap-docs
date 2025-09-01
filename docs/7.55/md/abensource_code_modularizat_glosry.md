@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 source code modularization
 
-Splitting of the [source code](javascript:call_link\('abensource_code_glosry.htm'\) "Glossary Entry") of a program into its individual parts. The source code modularization methods applied in [ABAP programs](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry") are [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") and [macros](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry").
+Splitting of the [source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensource_code_glosry.htm "Glossary Entry") of a program into its individual parts. The source code modularization methods applied in [ABAP programs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_program_glosry.htm "Glossary Entry") are [include programs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninclude_program_glosry.htm "Glossary Entry") and [macros](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmacro_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenabap_language_includes.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_includes.htm)

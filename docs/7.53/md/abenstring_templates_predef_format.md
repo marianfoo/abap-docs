@@ -4,15 +4,19 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [string\_exp - String Expressions](javascript:call_link\('abapcompute_string.htm'\)) →  [string\_exp - String Templates](javascript:call_link\('abenstring_templates.htm'\)) →  [String Templates - embedded\_expressions](javascript:call_link\('abenstring_templates_expressions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_expr_func.htm) →  [string\_exp - String Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string.htm) →  [string\_exp - String Templates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates.htm) →  [String Templates - embedded\_expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_templates_expressions.htm) → 
 
 Embedded Expressions - Predefined Formats
 
-The following predefined formatting rules apply to embedded expressions in string templates. These rules can be overridden by explicit formatting options [format\_options](javascript:call_link\('abapcompute_string_format_options.htm'\)).
+The following predefined formatting rules apply to embedded expressions in string templates. These rules can be overridden by explicit formatting options [format\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm).
 
--   [Text Length](#abenstring-templates-predef-format-1--------alignment---@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_2)
+-   [Text Length](#@@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_1)
 
--   [Character-Like Data Types and Date/Time Types](#abenstring-templates-predef-format-3--------byte-like-data-types---@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_4)
+-   [Alignment](#@@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_2)
+
+-   [Character-Like Data Types and Date/Time Types](#@@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_3)
+
+-   [Byte-Like Data Types](#@@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_4)
 
 -   [Numeric Data Types](#@@ITOC@@ABENSTRING_TEMPLATES_PREDEF_FORMAT_5)
 
@@ -22,7 +26,7 @@ The predefined text length is the minimum length required to represent the whole
 
 Note
 
-The predefined text length can be overridden using the formatting option [WIDTH](javascript:call_link\('abapcompute_string_format_options.htm'\)).
+The predefined text length can be overridden using the formatting option [WIDTH](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm).
 
 Example
 
@@ -36,7 +40,7 @@ The predefined alignment for all data types is left-aligned.
 
 Note
 
-The predefined alignment can be overridden using the formatting option [ALIGN](javascript:call_link\('abapcompute_string_format_options.htm'\)).
+The predefined alignment can be overridden using the formatting option [ALIGN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm).
 
 Example
 
@@ -52,11 +56,11 @@ For character-like data types with fixed lengths (c and n) and the date/time typ
 
 Note
 
-Unlike in [WRITE TO](javascript:call_link\('abenwrite_formats.htm'\)), no formatting is applied to the data types d and t (unless [formatting options](javascript:call_link\('abapcompute_string_format_options.htm'\)) are specified explicitly) and no separators are inserted.
+Unlike in [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwrite_formats.htm), no formatting is applied to the data types d and t (unless [formatting options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) are specified explicitly) and no separators are inserted.
 
 Example
 
-The following string template generates the character string shown below (depending on the date and time). The format is independent of the [formatting settings](javascript:call_link\('abencountry.htm'\)).
+The following string template generates the character string shown below (depending on the date and time). The format is independent of the [formatting settings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry.htm).
 
 DATA(text) = |{ sy-datlo } { sy-timlo }| .
 
@@ -87,15 +91,15 @@ The following rules apply to the representation of numeric values:
 
 The following applies to the individual numeric data types:
 
--   When formatting values of data type (b, s), i, int8, and p, all decimal places are taken into consideration in [mathematical notation](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry").
+-   When formatting values of data type (b, s), i, int8, and p, all decimal places are taken into consideration in [mathematical notation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmathematical_notation_glosry.htm "Glossary Entry").
 
--   Values with the data types decfloat16 and decfloat34 are formatted by default in [mathematical notation](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry"), without an exponent. The formatting option [EXPONENT](javascript:call_link\('abapcompute_string_format_options.htm'\)) can be used to represent the exponent. Trailing zeroes in decimal places are not usually displayed. The formatting option [DECIMALS](javascript:call_link\('abapcompute_string_format_options.htm'\)) can be used to display the required number of decimal places.
+-   Values with the data types decfloat16 and decfloat34 are formatted by default in [mathematical notation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmathematical_notation_glosry.htm "Glossary Entry"), without an exponent. The formatting option [EXPONENT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) can be used to represent the exponent. Trailing zeroes in decimal places are not usually displayed. The formatting option [DECIMALS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) can be used to display the required number of decimal places.
 
--   Values with the data type f are formatted by default in [mathematical notation](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry"), without an exponent. The formatting option [EXPONENT](javascript:call_link\('abapcompute_string_format_options.htm'\)) can be used to represent the exponent. Trailing zeroes in decimal places are not usually displayed. The formatting option [DECIMALS](javascript:call_link\('abapcompute_string_format_options.htm'\)) can be used to display the required number of decimal places.
+-   Values with the data type f are formatted by default in [mathematical notation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmathematical_notation_glosry.htm "Glossary Entry"), without an exponent. The formatting option [EXPONENT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) can be used to represent the exponent. Trailing zeroes in decimal places are not usually displayed. The formatting option [DECIMALS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_string_format_options.htm) can be used to display the required number of decimal places.
 
 Example
 
-The following string template generates the string below, with a platform-dependent result for the data type f. If the [conversion operator](javascript:call_link\('abenconversion_operator_glosry.htm'\) "Glossary Entry") is not specified, the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") of the embedded expression is i.
+The following string template generates the string below, with a platform-dependent result for the data type f. If the [conversion operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_operator_glosry.htm "Glossary Entry") is not specified, the [calculation type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalculation_type_glosry.htm "Glossary Entry") of the embedded expression is i.
 
 DATA(text) = |{                  - 2 / 3   }, {
                 CONV decfloat34( - 2 / 3 ) }, {

@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Class Libraries for XML](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)) →  [iXML Library - Access to DOM](javascript:call_link\('abenabap_ixml_lib_dom_access.htm'\)) →  [iXML Library - DOM Reads](javascript:call_link\('abenabap_ixml_lib_dom_access_read.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml.htm) →  [Class Libraries for XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml_libs.htm) →  [iXML Library](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_ixml_lib.htm) →  [iXML Library - Access to DOM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_ixml_lib_dom_access.htm) →  [iXML Library - DOM Reads](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_ixml_lib_dom_access_read.htm) → 
 
 iXML Library, Reads Using Filters
 
-When a DOM is read using [iterators](javascript:call_link\('abenabap_ixml_lib_dom_iterat_read.htm'\)), all nodes of a document or subtree or all elements of a list are read by default. A filter can be associated with an iterator to restrict it to specific nodes or elements only. Filters can be created using factory methods from the interface IF\_IXML\_NODE. For example, a condition can be set for the name of an element as follows, if document has the type IF\_IXML\_DOCUMENT and points to an XML:
+When a DOM is read using [iterators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_ixml_lib_dom_iterat_read.htm), all nodes of a document or subtree or all elements of a list are read by default. A filter can be associated with an iterator to restrict it to specific nodes or elements only. Filters can be created using factory methods from the interface IF\_IXML\_NODE. For example, a condition can be set for the name of an element as follows, if document has the type IF\_IXML\_DOCUMENT and points to an XML:
 
 DATA(filter) = document->create\_filter\_name\_ns( name = ... ).
 
@@ -22,7 +22,7 @@ or in short
 
 DATA(iterator) = document->create\_iterator\_filtered( filter ).
 
-The [iterator](javascript:call_link\('abenabap_ixml_lib_dom_iterat_read.htm'\)) then only reads elements of the name passed to the filter. The factory methods of the interface for nodes can be used to create the following filters (among others):
+The [iterator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_ixml_lib_dom_iterat_read.htm) then only reads elements of the name passed to the filter. The factory methods of the interface for nodes can be used to create the following filters (among others):
 
 -   CREATE\_FILTER\_NODE\_TYPE: Condition for the type of a node
 
@@ -46,4 +46,4 @@ For more information (about further filters and possible parameters), see the in
 
 Executable Example
 
-[Iterator Filters](javascript:call_link\('abenixml_filter_iterator_abexa.htm'\))
+[Iterator Filters](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenixml_filter_iterator_abexa.htm)

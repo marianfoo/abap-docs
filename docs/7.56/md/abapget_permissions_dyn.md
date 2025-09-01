@@ -4,13 +4,13 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml.htm) →  [GET PERMISSIONS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_permissions.htm) → 
 
 GET PERMISSIONS OPERATIONS, Dynamic Form
 
 Syntax
 
-GET PERMISSIONS *\[* [only\_clause](javascript:call_link\('abapget_permissions_only_clause.htm'\))*\]* OPERATIONS perm\_tab *\[*[response\_param](javascript:call_link\('abapeml_response.htm'\))*\]*.
+GET PERMISSIONS *\[* [only\_clause](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_permissions_only_clause.htm)*\]* OPERATIONS perm\_tab *\[*[response\_param](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapeml_response.htm)*\]*.
 
 Additions:
 
@@ -33,16 +33,16 @@ Specifies the name of the BO entity for which the permissions are requested. The
 
 instances
 
-The specification is optional. It is only relevant for getting the permission information on an instance level. The name must be provided using capital letters. The entry for instances must be a reference variable [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") DATA.
+The specification is optional. It is only relevant for getting the permission information on an instance level. The name must be provided using capital letters. The entry for instances must be a reference variable [static type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_type_glosry.htm "Glossary Entry") DATA.
 
 request
 
-Specifies the REQUEST parameter. It is a mandatory component that must be a reference variable with the [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") DATA.
+Specifies the REQUEST parameter. It is a mandatory component that must be a reference variable with the [static type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_type_glosry.htm "Glossary Entry") DATA.
 
 results
 
-Specifies the RESULT parameter. It is a mandatory component that must be a reference variable with the [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") DATA.
-Note: See the [Guidelines](javascript:call_link\('abapget_permissions_rules.htm'\)) for information on how the components of the permissions result are handled.
+Specifies the RESULT parameter. It is a mandatory component that must be a reference variable with the [static type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_type_glosry.htm "Glossary Entry") DATA.
+Note: See the [Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_permissions_rules.htm) for information on how the components of the permissions result are handled.
 
 Addition 1   
 
@@ -50,7 +50,7 @@ Addition 1  
 
 Effect
 
-The addition [only\_clause](javascript:call_link\('abapget_permissions_only_clause.htm'\)) allows the control characteristics to be specified that are to be included in the result.
+The addition [only\_clause](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_permissions_only_clause.htm) allows the control characteristics to be specified that are to be included in the result.
 
 Addition 2   
 
@@ -109,4 +109,4 @@ GET PERMISSIONS ONLY INSTANCE FEATURES OPERATIONS perm\_tab
 
 Executable Example
 
--   The example [ABAP EML - GET PERMISSIONS, Variants](javascript:call_link\('abenget_perm_forms_abexa.htm'\)) demonstrates the dynamic form of the GET PERMISSIONS statement with a simple managed RAP BO. It also includes the short and long form.
+-   The example [ABAP EML - GET PERMISSIONS, Variants](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenget_perm_forms_abexa.htm) demonstrates the dynamic form of the GET PERMISSIONS statement with a simple managed RAP BO. It also includes the short and long form.

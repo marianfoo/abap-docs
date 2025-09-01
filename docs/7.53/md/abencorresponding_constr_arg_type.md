@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [CORRESPONDING - Component Operator](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding.htm) →  [CORRESPONDING - Component Operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_corresponding.htm) → 
 
 CORRESPONDING - Base Form
 
@@ -12,10 +12,10 @@ Syntax
 
 ... *{* CORRESPONDING dtype*|*#( *\[*DEEP*\]*
                              *\[*BASE ( base )*\]*
-                             struct*|**{*itab *\[* [duplicates](javascript:call_link\('abencorresponding_constr_dupl.htm'\))*\]**}* ) *}*
+                             struct*|**{*itab *\[* [duplicates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_dupl.htm)*\]**}* ) *}*
   *|* *{* CORRESPONDING dtype*|*#( *\[*BASE ( base )*\]*
-                             struct*|**{*itab *\[* [duplicates](javascript:call_link\('abencorresponding_constr_dupl.htm'\))*\]**}*
-                             [mapping](javascript:call_link\('abencorresponding_constr_mapping.htm'\)) ) *}* ...
+                             struct*|**{*itab *\[* [duplicates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_dupl.htm)*\]**}*
+                             [mapping](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_mapping.htm) ) *}* ...
 
 Addition:
 
@@ -23,13 +23,13 @@ Addition:
 
 Effect
 
-This variant of the component operator [CORRESPONDING](javascript:call_link\('abenconstructor_expr_corresponding.htm'\))constructs a result with the target type specified using dtype or # from the components of a parameter struct or itab. struct and itab are [general expression positions](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry").
+This variant of the component operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_corresponding.htm)constructs a result with the target type specified using dtype or # from the components of a parameter struct or itab. struct and itab are [general expression positions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry").
 
--   If the target type is a structured type, a structure struct must be used as a parameter. The expression creates a structure of the target type. The target structure is either initial or is assigned the value of base after the optional addition BASE as a start value. The target structure is then by default assigned the identically named components of struct in accordance with the rules of [MOVE-CORRESPONDING for structures](javascript:call_link\('abapmove-corresponding_structure.htm'\)).
+-   If the target type is a structured type, a structure struct must be used as a parameter. The expression creates a structure of the target type. The target structure is either initial or is assigned the value of base after the optional addition BASE as a start value. The target structure is then by default assigned the identically named components of struct in accordance with the rules of [MOVE-CORRESPONDING for structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove-corresponding_structure.htm).
 
--   If the target type is a table type, an internal table itab must be used as a parameter. The expression creates an internal table of the target type. The target table is either initial or is assigned the value of base after the optional addition BASE as a start value. The target table is then by default assigned the identically named columns of itab in accordance with the rules of [MOVE-CORRESPONDING for internal tables](javascript:call_link\('abapmove-corresponding_itab.htm'\)) using the addition KEEPING TARGET LINES. Here, the addition [duplicates](javascript:call_link\('abencorresponding_constr_dupl.htm'\)) can be used to define the behavior with respect to duplicate rows occurring in a target table with unique table keys.
+-   If the target type is a table type, an internal table itab must be used as a parameter. The expression creates an internal table of the target type. The target table is either initial or is assigned the value of base after the optional addition BASE as a start value. The target table is then by default assigned the identically named columns of itab in accordance with the rules of [MOVE-CORRESPONDING for internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove-corresponding_itab.htm) using the addition KEEPING TARGET LINES. Here, the addition [duplicates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_dupl.htm) can be used to define the behavior with respect to duplicate rows occurring in a target table with unique table keys.
 
-If the addition DEEP is specified, the assignment is made in the same way as with the addition [EXPANDING NESTED TABLES](javascript:call_link\('abapmove-corresponding.htm'\)) of the statement MOVE-CORRESPONDING. A mapping rule [mapping](javascript:call_link\('abencorresponding_constr_mapping.htm'\)) can be used to override the matching name assignment rule of MOVE-CORRESPONDING. If a mapping rule is specified, the addition DEEP is set implicitly. It is not allowed to be set explicitly.
+If the addition DEEP is specified, the assignment is made in the same way as with the addition [EXPANDING NESTED TABLES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove-corresponding.htm) of the statement MOVE-CORRESPONDING. A mapping rule [mapping](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_mapping.htm) can be used to override the matching name assignment rule of MOVE-CORRESPONDING. If a mapping rule is specified, the addition DEEP is set implicitly. It is not allowed to be set explicitly.
 
 Notes
 
@@ -47,7 +47,7 @@ In MOVE-CORRESPONDING, all not identically named components in struct2 keep thei
 
 dobj = CORRESPONDING type( ... ).
 
-the target object is used directly (for optimization reasons) and a temporary version of the expression is not created and assigned. This is not possible when the target object and parameter are identical and a mapping rule is used. This enables, for example, the content of two components to be switched. In cases like this, a temporary copy of the target object must be created and used and an appropriate syntax warning is produced. This warning can be hidden using a pragma. If this is not detected until runtime, the information needed to create the necessary temporary copy of the target object is missing and runtime error CORRESPONDING\_SELF occurs. See the executable example [Reflexive Component Assignments](javascript:call_link\('abenreflexive_corresponding_abexa.htm'\)).
+the target object is used directly (for optimization reasons) and a temporary version of the expression is not created and assigned. This is not possible when the target object and parameter are identical and a mapping rule is used. This enables, for example, the content of two components to be switched. In cases like this, a temporary copy of the target object must be created and used and an appropriate syntax warning is produced. This warning can be hidden using a pragma. If this is not detected until runtime, the information needed to create the necessary temporary copy of the target object is missing and runtime error CORRESPONDING\_SELF occurs. See the executable example [Reflexive Component Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreflexive_corresponding_abexa.htm).
 
 Example
 
@@ -69,11 +69,11 @@ cl\_demo\_output=>display( CORRESPONDING flights( spfli\_tab ) ).
 
 Executable Examples
 
--   [Component Operator for Structures](javascript:call_link\('abencorresponding_struct_abexa.htm'\))
+-   [Component Operator for Structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_struct_abexa.htm)
 
--   [Component Operator for Internal Tables](javascript:call_link\('abencorresponding_itab_abexa.htm'\))
+-   [Component Operator for Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_itab_abexa.htm)
 
--   [Component Operator for Table Expression](javascript:call_link\('abencorresponding_table_exp_abexa.htm'\))
+-   [Component Operator for Table Expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_table_exp_abexa.htm)
     
 
 Addition
@@ -82,9 +82,9 @@ Addition
 
 Effect
 
-The addition BASE can be used to specify a start value base for the new structure or internal table. base is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry") in which a database convertible to the target type can be specified.
+The addition BASE can be used to specify a start value base for the new structure or internal table. base is a [functional operand position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunctional_position_glosry.htm "Glossary Entry") in which a database convertible to the target type can be specified.
 
-If the addition BASE is specified, the value of base is assigned to the target structure or target table in accordance with the general [assignment rules](javascript:call_link\('abenconversion_rules.htm'\)) before the remainder of the expression is evaluated. Here, the addition [duplicates](javascript:call_link\('abencorresponding_constr_dupl.htm'\)) after itab can be used to define the behavior with respect to duplicate rows occurring in a target table.
+If the addition BASE is specified, the value of base is assigned to the target structure or target table in accordance with the general [assignment rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_rules.htm) before the remainder of the expression is evaluated. Here, the addition [duplicates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_dupl.htm) after itab can be used to define the behavior with respect to duplicate rows occurring in a target table.
 
 Notes
 
@@ -92,7 +92,7 @@ Notes
 
 -   Unlike the operators NEW and VALUE, the data type of base is not used in CORRESPONDING to determine a result type specified using #.
 
--   The addition BASE can be used with the component operator to replace the statement [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)) as follows:
+-   The addition BASE can be used with the component operator to replace the statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmove-corresponding.htm) as follows:
 
 -   An assignment of structures
     struct2 = CORRESPONDING #( BASE ( struct2 ) struct1 ).

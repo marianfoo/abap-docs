@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 static attribute
 
-[Attribute](javascript:call_link\('abenattribute_glosry.htm'\) "Glossary Entry") of a [class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry") declared using [CLASS-DATA](javascript:call_link\('abapclass-data.htm'\)) that is valid independent of the class [instance](javascript:call_link\('abeninstance_glosry.htm'\) "Glossary Entry"). The content of the static attributes determines the instance-dependent state of a class.
+[Attribute](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenattribute_glosry.htm "Glossary Entry") of a [class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_glosry.htm "Glossary Entry") declared using [CLASS-DATA](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass-data.htm) that is valid independent of the class [instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninstance_glosry.htm "Glossary Entry"). The content of the static attributes determines the instance-dependent state of a class.
 
-[→ More about](javascript:call_link\('abenclass_attributes.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_attributes.htm)

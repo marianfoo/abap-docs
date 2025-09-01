@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  M
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  M
 
 MOVE-CORRESPONDING - Short Reference
 
-[Reference](javascript:call_link\('abapmove-corresponding.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove-corresponding.htm)
 
 Syntax
 
@@ -22,9 +22,9 @@ Assigns components of a structure struc1 or an internal table itab1 to component
 
 Additions
 
--   [EXACT](javascript:call_link\('abapmove_exact.htm'\))
+-   [EXACT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove_exact.htm)
     The assignment is lossless.
--   [EXPANDING NESTED TABLES](javascript:call_link\('abapmove-corresponding_structure.htm'\))
+-   [EXPANDING NESTED TABLES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove-corresponding_structure.htm)
     Planned: Tabular components are expanded.
--   [KEEPING TARGET LINES](javascript:call_link\('abapmove-corresponding_itab.htm'\))
+-   [KEEPING TARGET LINES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove-corresponding_itab.htm)
     Planned: Target tables are supplemented, not overwritten.

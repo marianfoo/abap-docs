@@ -4,26 +4,42 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - SAP Annotations](javascript:call_link\('abencds_annotations_sap.htm'\)) →  [ABAP CDS - ABAP Annotations](javascript:call_link\('abencds_annotations_abap.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_sap.htm) →  [ABAP CDS - ABAP Annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_abap.htm) → 
 
 ABAP CDS - ABAP Annotation Definitions
 
-The following [DDLA source code](javascript:call_link\('abenddla_source_code_glosry.htm'\) "Glossary Entry") shows the [CDS annotation definitions](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") in all [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") in [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") and [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry") in ABAP CDS.
+The following [DDLA source code](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shows the [CDS annotation definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") in all [ABAP annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_annotation_glosry.htm "Glossary Entry") in [CDS DDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_ddl_glosry.htm "Glossary Entry") and [CDS DCL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS.
 
--   The meaning of the [DDLA source code](javascript:call_link\('abenddla_source_code_glosry.htm'\) "Glossary Entry") shown here can be found in the documentation for [DEFINE ANNOTATION](javascript:call_link\('abencds_f1_define_annotation.htm'\)).
+-   The meaning of the [DDLA source code](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shown here can be found in the documentation for [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_annotation.htm).
 -   The semantics of the annotations can be found in the links in the DDLA source code.
 
-The detailed meanings of these ABAP annotations are described under the relevant [scope](javascript:call_link\('abencds_annotations_scopes.htm'\)) defined after [@Scope](javascript:call_link\('abencds_f1_define_anno_annos.htm'\)) in the documentation.
+The detailed meanings of these ABAP annotations are described under the relevant [scope](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_scopes.htm) defined after [@Scope](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_anno_annos.htm) in the documentation.
 
--   [AbapAnnotation-Annotations](#abencds-annotations-abap-ddla-1-------abapcatalog-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_2)
--   [AccessControl-Annotations](#abencds-annotations-abap-ddla-3-------api-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_4)
--   [ClientDependent-Annotations](#abencds-annotations-abap-ddla-5-------clienthandling-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_6)
--   [CompatibilityContract-Annotations](#abencds-annotations-abap-ddla-7-------dataaging-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_8)
--   [EndUserText-Annotations](#abencds-annotations-abap-ddla-9-------environment-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_10)
--   [LanguageDependency-Annotations](#abencds-annotations-abap-ddla-11-------mappingrole-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_12)
--   [Metadata-Annotations](#abencds-annotations-abap-ddla-13-------metadataextension-annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_14)
--   [ObjectModel-Annotations](#abencds-annotations-abap-ddla-15-------scope------annotations---@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_16)
--   [Semantics-Annotations](#abencds-annotations-abap-ddla-17---hint--see-also--abap-annotation-syntax--javascript-call-link---abencds-annotations-abap-tables-htm-------abapannotation-annotations--Scope: \[[#ANNOTATION](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))\]
+-   [AbapAnnotation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_1)
+-   [AbapCatalog-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_2)
+-   [AccessControl-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_3)
+-   [API-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_4)
+-   [ClientDependent-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_5)
+-   [ClientHandling-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_6)
+-   [CompatibilityContract-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_7)
+-   [DataAging-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_8)
+-   [EndUserText-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_9)
+-   [Environment-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_10)
+-   [LanguageDependency-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_11)
+-   [MappingRole-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_12)
+-   [Metadata-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_13)
+-   [MetadataExtension-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_14)
+-   [ObjectModel-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_15)
+-   [Scope\[ \]-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_16)
+-   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_ABAP_DDLA_17)
+
+Hint
+
+See also [ABAP Annotation Syntax](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_abap_tables.htm).
+
+AbapAnnotation-Annotations
+
+@Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_anno_annos.htm)\]
 annotation AbapAnnotation {
   definitionHidden : Boolean default true;
 };
@@ -110,7 +126,7 @@ annotation AbapCatalog
           }
       }
    }
-   @Scope:\[[#ENTITY](javascript:call_link\('abencds_f1_entity_annotations.htm'\))\]
+   @Scope:\[[#ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_entity_annotations.htm)\]
    extensibility : {
       extensible : Boolean default true;
       elementSuffix: String(3);
@@ -216,7 +232,7 @@ annotation AbapCatalog
        }
       @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
       compareFilter : Boolean default true;
-      @Scope:\[[#ELEMENT](javascript:call_link\('abencds_f1_element_annotation.htm'\))\]
+      @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm)\]
       @AbapAnnotation.definitionHidden: true
       @CompatibilityContract: {
         c1: {
@@ -242,9 +258,9 @@ annotation AbapCatalog
    @API.state: \[#NOT\_RELEASED\]
    internal
    {
-      @Scope:\[[#ELEMENT](javascript:call_link\('abencds_f1_element_annotation.htm'\))\]
+      @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm)\]
       isMandt : Boolean default true;
-      @Scope:\[#VIEW, [#EXTEND\_VIEW](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))\]
+      @Scope:\[#VIEW, [#EXTEND\_VIEW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)\]
       @CompatibilityContract: {
         c1: {
             usageAllowed: true,
@@ -264,16 +280,16 @@ annotation AbapCatalog
       setChange : String(30);
       inheritedType : Boolean default true;
    };
-   @Scope:\[[#EXTEND\_VIEW](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))\]
+   @Scope:\[[#EXTEND\_VIEW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)\]
    @CompatibilityContract.c1.usageAllowed: false
    sqlViewAppendName : String(16);
-   @Scope:\[[#ENTITY](javascript:call_link\('abencds_f1_entity_annotations.htm'\))\]
+   @Scope:\[[#ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_entity_annotations.htm)\]
    @MetadataExtension.usageAllowed: false
    @AbapAnnotation.definitionHidden: true
    @CompatibilityContract.c1.usageAllowed: false
    @API.state: \[#NOT\_RELEASED\]
    sqlName : String(256);
-   @Scope:\[#VIEW, [#HIERARCHY](javascript:call_link\('abencds_f1_hierarchy_annotations.htm'\)), [#TABLE\_FUNCTION](javascript:call_link\('abencds_f1_function_annotations.htm'\))\]
+   @Scope:\[#VIEW, [#HIERARCHY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_hierarchy_annotations.htm), [#TABLE\_FUNCTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_function_annotations.htm)\]
    @CompatibilityContract: {
    c1: { usageAllowed: true,
          allowedChanges: {
@@ -294,24 +310,24 @@ annotation AbapCatalog
 
 AccessControl-Annotations
 
-See [Framework Specific Annotation Definitions](javascript:call_link\('abencds_annotations_frmwrk_ddla.htm'\)).
+See [Framework Specific Annotation Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_frmwrk_ddla.htm).
 
 API-Annotations
 
 define annotation API
 {
-  @Scope:\[[#ANNOTATION](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))\]
+  @Scope:\[[#ANNOTATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_anno_annos.htm)\]
   state: array of String(40) enum {
     NOT\_RELEASED;
     RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM;
     RELEASED\_FOR\_KEY\_USER\_APPS;
   };
-  @Scope:\[[#ANNOTATION](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))\]
+  @Scope:\[[#ANNOTATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_anno_annos.htm)\]
   annotation {    
     releaseState: String(30) enum {DEPRECATED;};
     successor: String(240);    
   };
-  @Scope:\[[#ELEMENT](javascript:call_link\('abencds_f1_element_annotation.htm'\))\]
+  @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm)\]
   @CompatibilityContract.c1.usageAllowed: true
   @CompatibilityContract.c2.usageAllowed: false
   element {    
@@ -328,7 +344,7 @@ Obsolete annotations for scopes #VIEW, #TABLE\_FUNCTION.
 
 ClientHandling-Annotations
 
-@Scope:\[#VIEW, [#TABLE\_FUNCTION](javascript:call_link\('abencds_f1_function_annotations.htm'\))\]
+@Scope:\[#VIEW, [#TABLE\_FUNCTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_function_annotations.htm)\]
 @CompatibilityContract: {
     c1: {
         usageAllowed: true,
@@ -354,7 +370,7 @@ annotation ClientHandling
 
 CompatibilityContract-Annotations
 
-@Scope:\[[#ANNOTATION](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))\]
+@Scope:\[[#ANNOTATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_anno_annos.htm)\]
 define annotation CompatibilityContract {
   c0 {  
     usageAllowed: Boolean default true;
@@ -381,7 +397,7 @@ define annotation CompatibilityContract {
 
 DataAging-Annotations
 
-@Scope:\[#VIEW, [#TABLE\_FUNCTION](javascript:call_link\('abencds_f1_function_annotations.htm'\))\]
+@Scope:\[#VIEW, [#TABLE\_FUNCTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_function_annotations.htm)\]
 @CompatibilityContract: {
     c1: {
         usageAllowed: true,
@@ -428,11 +444,11 @@ annotation EndUserText
    @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
    @MetadataExtension.usageAllowed : true
    @LanguageDependency.maxLength : 40
-   @Scope:\[[#ENTITY](javascript:call_link\('abencds_f1_entity_annotations.htm'\)), [#PARAMETER](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)), [#ELEMENT](javascript:call_link\('abencds_f1_element_annotation.htm'\)), [#EXTEND\_VIEW](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\)), [#ROLE](javascript:call_link\('abencds_f1_dcl_role_annotations.htm'\)), #ASPECT, [#PFCG\_MAPPING](javascript:call_link\('abencds_f1_define_pfcg_mapping.htm'\)), [#ACCESSPOLICY](javascript:call_link\('abencds_f1_define_accesspolicy.htm'\)), [#SERVICE](javascript:call_link\('abencds_define_service_annos.htm'\))\]
+   @Scope:\[[#ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_entity_annotations.htm), [#PARAMETER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_parameter_annotations.htm), [#ELEMENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm), [#EXTEND\_VIEW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm), [#ROLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_role_annotations.htm), #ASPECT, [#PFCG\_MAPPING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_pfcg_mapping.htm), [#ACCESSPOLICY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_accesspolicy.htm), [#SERVICE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_service_annos.htm)\]
    label : String(60);
    @MetadataExtension.usageAllowed : true
    @LanguageDependency.maxLength : 67  
-   @Scope:\[[#ELEMENT](javascript:call_link\('abencds_f1_element_annotation.htm'\)), [#PARAMETER](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)), [#ANNOTATE](javascript:call_link\('abencds_f1_metadata_ext_annos.htm'\))\]
+   @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm), [#PARAMETER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_parameter_annotations.htm), [#ANNOTATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_metadata_ext_annos.htm)\]
    quickInfo : String(100);
    @LanguageDependency.maxLength : 37
    @Scope:\[#SIMPLE\_TYPE\]
@@ -456,9 +472,9 @@ Environment-Annotations
 annotation Environment
 {
    @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
-   @Scope:\[[#PARAMETER](javascript:call_link\('abencds_f1_parameter_annotations.htm'\))\]
+   @Scope:\[[#PARAMETER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_parameter_annotations.htm)\]
    systemField : String(20) enum { CLIENT; SYSTEM\_LANGUAGE; USER; SYSTEM\_DATE; SYSTEM\_TIME; USER\_DATE; USER\_TIMEZONE; };
-   @Scope:\[[#ELEMENT](javascript:call_link\('abencds_f1_element_annotation.htm'\))\]
+   @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm)\]
    sql
    {
       passValue : Boolean default true;
@@ -467,14 +483,14 @@ annotation Environment
 
 LanguageDependency-Annotations
 
-@Scope: \[[#ANNOTATION](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))\]
+@Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_anno_annos.htm)\]
 annotation LanguageDependency {
   maxLength : Integer;
 };
 
 MappingRole-Annotations
 
-@Scope:\[[#ROLE](javascript:call_link\('abencds_f1_dcl_role_annotations.htm'\))\]
+@Scope:\[[#ROLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_dcl_role_annotations.htm)\]
 @CompatibilityContract: {
    c1: { usageAllowed: true },
    c1: {
@@ -495,7 +511,7 @@ annotation MappingRole
 Metadata-Annotations
 
 annotation Metadata {
-  @Scope:\[[#ENTITY](javascript:call_link\('abencds_f1_entity_annotations.htm'\))\]
+  @Scope:\[[#ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_entity_annotations.htm)\]
   @CompatibilityContract: {
       c1: {
           usageAllowed: true,
@@ -528,7 +544,7 @@ annotation Metadata {
   @API.state: \[#RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS\]
   ignorePropagatedAnnotations : Boolean default true;
   @MetadataExtension.usageAllowed : true
-  @Scope:\[[#ANNOTATE](javascript:call_link\('abencds_f1_metadata_ext_annos.htm'\))\]
+  @Scope:\[[#ANNOTATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_metadata_ext_annos.htm)\]
   @CompatibilityContract.c1: {
       usageAllowed: true,
       allowedChanges: {
@@ -550,18 +566,18 @@ annotation Metadata {
 
 MetadataExtension-Annotations
 
-@Scope: \[[#ANNOTATION](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))\]
+@Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_anno_annos.htm)\]
 annotation MetadataExtension {
   usageAllowed : Boolean default true;
 };
 
 ObjectModel-Annotations
 
-See [Framework Specific Annotation Definitions](javascript:call_link\('abencds_annotations_frmwrk_ddla.htm'\)).
+See [Framework Specific Annotation Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_frmwrk_ddla.htm).
 
 Scope\[ \]-Annotations
 
-@Scope: \[[#ANNOTATION](javascript:call_link\('abencds_f1_define_anno_annos.htm'\))\]
+@Scope: \[[#ANNOTATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_anno_annos.htm)\]
 annotation Scope : array of String(20)  
   enum {  
     ENTITY;                
@@ -593,7 +609,7 @@ define annotation Semantics
    {
        currencyCode    : ElementRef;
    };
-   @Scope:\[[#ELEMENT](javascript:call_link\('abencds_f1_element_annotation.htm'\))\]
+   @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm)\]
    @CompatibilityContract: {
    c1: { usageAllowed: true,
          allowedChanges.annotation: \[ #NONE \],
@@ -618,7 +634,7 @@ define annotation Semantics
              allowedChanges.value:      \[ #NONE \] } }
        unitOfMeasureIsoCode   : ElementRef;
    };
-   @Scope:\[[#ELEMENT](javascript:call_link\('abencds_f1_element_annotation.htm'\))\]
+   @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm)\]
    @CompatibilityContract: {
    c1: { usageAllowed: true,
          allowedChanges.annotation: \[ #CUSTOM \],
@@ -628,7 +644,7 @@ define annotation Semantics
          allowedChanges.value:      \[ #NONE \] } }
    @API.state: \[ #RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS \]
    currencyCode        : Boolean default true;
-   @Scope:\[[#ELEMENT](javascript:call_link\('abencds_f1_element_annotation.htm'\))\]
+   @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm)\]
    @CompatibilityContract: {
    c1: { usageAllowed: true,
          allowedChanges.annotation: \[ #CUSTOM \],
@@ -655,7 +671,7 @@ define annotation Semantics
          allowedChanges.value:      \[ #NONE \] } }
    @API.state: \[ #RELEASED\_FOR\_SAP\_CLOUD\_PLATFORM, #RELEASED\_FOR\_KEY\_USER\_APPS \]
    uuid            : Boolean default true;
-   @Scope:\[[#ELEMENT](javascript:call_link\('abencds_f1_element_annotation.htm'\))\]
+   @Scope:\[[#ELEMENT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_element_annotation.htm)\]
    @CompatibilityContract: {
    c1: { usageAllowed: true,
          allowedChanges.annotation: \[ #NONE \],

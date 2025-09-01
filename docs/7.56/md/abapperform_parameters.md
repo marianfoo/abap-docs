@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [PERFORM](javascript:call_link\('abapperform.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_procedures.htm) →  [PERFORM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapperform.htm) → 
 
 PERFORM, parameter\_list
 
-[Short Reference](javascript:call_link\('abapperform_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapperform_shortref.htm)
 
 Syntax
 
@@ -24,11 +24,11 @@ Additions:
 
 Effect
 
-These additions assign actual parameters to the formal parameters of the parameter interface of the subroutine subr. All data objects whose data type matches the [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of the corresponding formal parameter can be specified (see [Check Typing](javascript:call_link\('abentyping_check.htm'\))) as actual parameters. Each formal parameter assumes all the properties of the actual parameter assigned to it when it is called. The order of the additions is fixed.
+These additions assign actual parameters to the formal parameters of the parameter interface of the subroutine subr. All data objects whose data type matches the [typing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentyping_glosry.htm "Glossary Entry") of the corresponding formal parameter can be specified (see [Check Typing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentyping_check.htm)) as actual parameters. Each formal parameter assumes all the properties of the actual parameter assigned to it when it is called. The order of the additions is fixed.
 
 Hint
 
-A [system field](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") should [never be used an actual parameter](javascript:call_link\('abenuse_actual_parameters_guidl.htm'\) "Guideline").
+A [system field](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_field_glosry.htm "Glossary Entry") should [never be used an actual parameter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_actual_parameters_guidl.htm "Guideline").
 
 Addition 1   
 
@@ -36,9 +36,9 @@ Addition 1  
 
 Effect
 
-The addition TABLES must be used to assign an internal table itab as an actual parameter to each table parameter t1 t2 ... defined for the called subroutine using the addition TABLES of the statement [FORM](javascript:call_link\('abapform.htm'\)). The assignment of the actual parameters to the formal parameters takes place using their positions in the lists t1 t2 ... and itab1 itab2 ...
+The addition TABLES must be used to assign an internal table itab as an actual parameter to each table parameter t1 t2 ... defined for the called subroutine using the addition TABLES of the statement [FORM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapform.htm). The assignment of the actual parameters to the formal parameters takes place using their positions in the lists t1 t2 ... and itab1 itab2 ...
 
-Only [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") can be specified for itab. The data is passed by reference. If a specified table itab has a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"), this is also passed. Otherwise, the header line in the corresponding table parameter t is initial when it is called.
+Only [standard tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_table_glosry.htm "Glossary Entry") can be specified for itab. The data is passed by reference. If a specified table itab has a [header line](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenheader_line_glosry.htm "Glossary Entry"), this is also passed. Otherwise, the header line in the corresponding table parameter t is initial when it is called.
 
 Hint
 
@@ -75,14 +75,14 @@ Addition 3  
 
 Effect
 
-If the additions USING and CHANGING are specified, a type-specific actual parameter a1 a2 ... must be assigned to each of the formal parameters u1 u2 ... and c1 c2 ... defined for the called subroutine using the identically named additions of the statement [FORM](javascript:call_link\('abapform.htm'\)). The actual parameters specified after USING and CHANGING form one single shared list. They are assigned to the formal parameters in accordance with the position in the shared list. The type of parameter passing is defined by the additions USING and CHANGING in the statement FORM. The addition USING must be in front of CHANGING. Otherwise, the assignment of the actual parameters to the additions USING and CHANGING is ignored by the statement PERFORM. It is also irrelevant whether only one or both of the additions are specified.
+If the additions USING and CHANGING are specified, a type-specific actual parameter a1 a2 ... must be assigned to each of the formal parameters u1 u2 ... and c1 c2 ... defined for the called subroutine using the identically named additions of the statement [FORM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapform.htm). The actual parameters specified after USING and CHANGING form one single shared list. They are assigned to the formal parameters in accordance with the position in the shared list. The type of parameter passing is defined by the additions USING and CHANGING in the statement FORM. The addition USING must be in front of CHANGING. Otherwise, the assignment of the actual parameters to the additions USING and CHANGING is ignored by the statement PERFORM. It is also irrelevant whether only one or both of the additions are specified.
 
 Hints
 
 -   For program documentation purposes, it is best to specify the additions USING and CHANGING in the statement FORM in accordance with the definition of the parameter interface.
--   No [substring access](javascript:call_link\('abenoffset_length.htm'\)) is possible to an actual parameter of type string or xstring specified after USING or CHANGING.
--   [Up casts](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") are not possible when passing an actual parameter to a USING parameter typed as a reference variable.
--   A USING parameter declared for [pass by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry") behaves in the same way as a CHANGING parameter, which means that the content of the actual parameter could be changed in a forbidden way.
+-   No [substring access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoffset_length.htm) is possible to an actual parameter of type string or xstring specified after USING or CHANGING.
+-   [Up casts](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenup_cast_glosry.htm "Glossary Entry") are not possible when passing an actual parameter to a USING parameter typed as a reference variable.
+-   A USING parameter declared for [pass by reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpass_by_reference_glosry.htm "Glossary Entry") behaves in the same way as a CHANGING parameter, which means that the content of the actual parameter could be changed in a forbidden way.
 
 Example
 

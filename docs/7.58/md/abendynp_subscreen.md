@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Elements](javascript:call_link\('abenabap_dynpro_elements.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpros.htm) →  [dynpro - Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpro_elements.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpros_screen.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20dynpro%20-%20Subscreens%2C%20ABENDYNP_SUBSCREEN%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -42,7 +42,7 @@ Selection screens can also be defined as subscreens.
 
 Including Subscreens Directly
 
-The statement [CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\)) can be used to include other screen layouts directly in the [screen layout](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") in the form of subscreens. Here, subscreen areas must first be defined in the screen layout of the current dynpro. Every subscreen area has a unique name and can be configured to support changes in screen size. If the latter is defined, each size change in the current GUI window raises the [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") event.
+The statement [CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynpcall.htm) can be used to include other screen layouts directly in the [screen layout](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_glosry.htm "Glossary Entry") of a [dynpro](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm "Glossary Entry") in the form of subscreens. Here, subscreen areas must first be defined in the screen layout of the current dynpro. Every subscreen area has a unique name and can be configured to support changes in screen size. If the latter is defined, each size change in the current GUI window raises the [PAI](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpai_glosry.htm "Glossary Entry") event.
 
 As an example, the following statement is used in the PBO event of the main dynpro:
 
@@ -74,21 +74,21 @@ For example, subscreen dynpros can be defined in function groups and their globa
 
 The global data from the main program can be exported as a data cluster to the ABAP memory before PBO of a subscreen dynpro and imported to a PBO module of the subscreen dynpro. The reverse happens at PAI time.
 
-Note: Subscreens are the screen layouts of special [subscreen dynpros](javascript:call_link\('abensubscreen_dynpro_glosry.htm'\) "Glossary Entry"). When a subscreen is included, the flow logic of the subscreen dynpro is also included. Subscreens can also include other subscreens. Subscreens cannot have their own OK field. Instead, user actions on subscreens pass the function codes to the OK field of the including dynpro. In the PAI event block of a subscreen dynpro, a [MODULE](javascript:call_link\('dynpmodule.htm'\)) statement is never executed with the AT EXIT-COMMAND addition.
+Note: Subscreens are the screen layouts of special [subscreen dynpros](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubscreen_dynpro_glosry.htm "Glossary Entry"). When a subscreen is included, the flow logic of the subscreen dynpro is also included. Subscreens can also include other subscreens. Subscreens cannot have their own OK field. Instead, user actions on subscreens pass the function codes to the OK field of the including dynpro. In the PAI event block of a subscreen dynpro, a [MODULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynpmodule.htm) statement is never executed with the AT EXIT-COMMAND addition.
 
 Including Subscreens Using Controls
 
-Subscreens can be included using special [controls](javascript:call_link\('abencontrol_glosry.htm'\) "Glossary Entry"):
+Subscreens can be included using special [controls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_glosry.htm "Glossary Entry"):
 
--   [Tabstrip Controls](javascript:call_link\('abendynp_tabstrip.htm'\))
--   [Splitter Controls](javascript:call_link\('abendynp_splitter_control_spcl.htm'\))
--   [Custom Controls](javascript:call_link\('abendynpro_custom_controls.htm'\))
--   [Table Controls](javascript:call_link\('abendynp_table_controls.htm'\))
+-   [Tabstrip Controls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynp_tabstrip.htm)
+-   [Splitter Controls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynp_splitter_control_spcl.htm)
+-   [Custom Controls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_custom_controls.htm)
+-   [Table Controls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynp_table_controls.htm)
 
 Hint
 
-Subscreens dynpros are defined like regular dynpros in the [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry") and are flagged there as regular dynpros. [Selection screens](javascript:call_link\('abapselection-screen_subscreen.htm'\)) can also be defined as subscreens.
+Subscreens dynpros are defined like regular dynpros in the [Screen Painter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_painter_glosry.htm "Glossary Entry") and are flagged there as regular dynpros. [Selection screens](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselection-screen_subscreen.htm) can also be defined as subscreens.
 
 Executable Example
 
-[Dynpros, Subscreens](javascript:call_link\('abendynpro_subscreen_abexa.htm'\))
+[Dynpros, Subscreens](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_subscreen_abexa.htm)

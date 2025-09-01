@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Expressions and Functions for Internal Tables](javascript:call_link\('abentable_processing_expr_func.htm'\)) →  [table\_exp - Table Expressions](javascript:call_link\('abentable_expressions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab.htm) →  [Expressions and Functions for Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_processing_expr_func.htm) →  [table\_exp - Table Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expressions.htm) → 
 
 table\_exp - default
 
@@ -14,7 +14,7 @@ Syntax
 
 Effect
 
-Specifies a default value for table rows not found. if the [type of the result](javascript:call_link\('abentable_exp_result.htm'\)) of a table expression [table\_exp](javascript:call_link\('abentable_expressions.htm'\)) is defined using the value operator VALUE or the reference operator REF, a default value can be specified after the table expression. If the row [itab\_line](javascript:call_link\('abentable_exp_itab_line.htm'\)) specified in the table expression is not found, an exception of the class CX\_SY\_ITAB\_LINE\_NOT\_FOUND is not raised if a default value is specified and the result is determined by the default value instead.
+Specifies a default value for table rows not found. if the [type of the result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_result.htm) of a table expression [table\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_expressions.htm) is defined using the value operator VALUE or the reference operator REF, a default value can be specified after the table expression. If the row [itab\_line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_itab_line.htm) specified in the table expression is not found, an exception of the class CX\_SY\_ITAB\_LINE\_NOT\_FOUND is not raised if a default value is specified and the result is determined by the default value instead.
 
 -   OPTIONAL
 
@@ -24,21 +24,21 @@ Specifies a default value for table rows not found. if the [type of the result](
 
 -   DEFAULT
 
--   If VALUE is used, the default value is specified using a data object def, which must be convertible to the data type of the table expression, If def is not compatible with the data type of the result of the expression, a conversion is made to this data type in accordance with the [conversion rules](javascript:call_link\('abenconversion_rules.htm'\)).
+-   If VALUE is used, the default value is specified using a data object def, which must be convertible to the data type of the table expression, If def is not compatible with the data type of the result of the expression, a conversion is made to this data type in accordance with the [conversion rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_rules.htm).
 
 -   If REF is used, the default value is specified using a reference variable def, whose static type is the data type of the table expression.
 
-def is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry").
+def is a [general expression position](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry").
 
-If the argument of VALUE or REF is a single table expression, the default value applies to a single row in the table in question. If the argument is a [chaining](javascript:call_link\('abentable_exp_chaining.htm'\)) of table expressions, the default value applies to the result of the chaining (namely how it ends on the right, expressing either a structure component or a table row). A default value specified explicitly must match the result of the chaining accordingly. When a default value is specified for a chaining, the first exception for a missing row across the entire chaining is caught and the default value is returned as a result.
+If the argument of VALUE or REF is a single table expression, the default value applies to a single row in the table in question. If the argument is a [chaining](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_chaining.htm) of table expressions, the default value applies to the result of the chaining (namely how it ends on the right, expressing either a structure component or a table row). A default value specified explicitly must match the result of the chaining accordingly. When a default value is specified for a chaining, the first exception for a missing row across the entire chaining is caught and the default value is returned as a result.
 
 Notes
 
--   Alongside the functions [line\_exists](javascript:call_link\('abenline_exists_function.htm'\)) and [line\_function](javascript:call_link\('abenline_index_function.htm'\)), a characteristic default value specified for missing rows also enables the existence of rows to be checked without catching an exception or checking the return value after the statement ASSIGN.
+-   Alongside the functions [line\_exists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_exists_function.htm) and [line\_function](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenline_index_function.htm), a characteristic default value specified for missing rows also enables the existence of rows to be checked without catching an exception or checking the return value after the statement ASSIGN.
 
 -   A default value def specified after DEFAULT can itself be a table expression with default value. This enables alternative searches to be performed within an expression.
 
--   There is no operator for the default behavior of a table expression in which the [result](javascript:call_link\('abentable_exp_result.htm'\)) is usually a temporary field symbol, which means that no default value can be specified here.
+-   There is no operator for the default behavior of a table expression in which the [result](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_result.htm) is usually a temporary field symbol, which means that no default value can be specified here.
     
 
 Example
@@ -71,7 +71,7 @@ ASSERT var2 = dref2->\*.
 
 Executable Example
 
-[Table Expressions, Default Value](javascript:call_link\('abentable_exp_default_abexa.htm'\))
+[Table Expressions, Default Value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_default_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Table Expressions, Default Value](javascript:call_link\('abentable_exp_default_abexa.htm'\))
+![Example](exa.gif "Example") [Table Expressions, Default Value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_exp_default_abexa.htm)

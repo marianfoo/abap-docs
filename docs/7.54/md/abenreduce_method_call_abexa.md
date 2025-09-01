@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Expressions and Functions for Internal Tables](javascript:call_link\('abentable_processing_expr_func.htm'\)) →  [FOR - Table Iterations](javascript:call_link\('abenfor_itab.htm'\)) →  [Examples of Table Reductions](javascript:call_link\('abentable_reductions_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab.htm) →  [Expressions and Functions for Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_processing_expr_func.htm) →  [FOR - Table Iterations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor_itab.htm) →  [Examples of Table Reductions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_reductions_abexas.htm) → 
 
 Table Reductions, Method Calls
 
-This example demonstrates a [reduction](javascript:call_link\('abenconstructor_expression_reduce.htm'\)) of the columns of an internal table to an object.
+This example demonstrates a [reduction](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_reduce.htm) of the columns of an internal table to an object.
 
 Source Code
 
@@ -46,4 +46,4 @@ START-OF-SELECTION.
 
 Description
 
-In this example, a call of a method to\_string transforms the rows of the internal table carriers after the [FOR expression](javascript:call_link\('abenfor_in_itab.htm'\)) to a text string. This string is then passed to the instance method WRITE of an object of the class CL\_DEMO\_OUTPUT. This object is created after INIT and referenced by the local reference variable o. The return value of the method WRITE returns a reference to its own object, which means that the assignment to o does not modify its value but does meet the syntax rule that o must be filled. At the end of processing, the reference to the object in o is assigned to the reference variable out and the content of the internal table written to the object can be displayed using the method DISPLAY.
+In this example, a call of a method to\_string transforms the rows of the internal table carriers after the [FOR expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor_in_itab.htm) to a text string. This string is then passed to the instance method WRITE of an object of the class CL\_DEMO\_OUTPUT. This object is created after INIT and referenced by the local reference variable o. The return value of the method WRITE returns a reference to its own object, which means that the assignment to o does not modify its value but does meet the syntax rule that o must be filled. At the end of processing, the reference to the object in o is assigned to the reference variable out and the content of the internal table written to the object can be displayed using the method DISPLAY.

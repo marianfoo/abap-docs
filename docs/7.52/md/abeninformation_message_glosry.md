@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 information message
 
-[Message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") of the [message type](javascript:call_link\('abenmessage_type_glosry.htm'\) "Glossary Entry") I. Information messages are usually displayed in a [dialog box](javascript:call_link\('abendialog_box_glosry.htm'\) "Glossary Entry").
+[Message](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_glosry.htm "Glossary Entry") of the [message type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_type_glosry.htm "Glossary Entry") I. Information messages are usually displayed in a [dialog box](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendialog_box_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenabap_messages_types.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_messages_types.htm)

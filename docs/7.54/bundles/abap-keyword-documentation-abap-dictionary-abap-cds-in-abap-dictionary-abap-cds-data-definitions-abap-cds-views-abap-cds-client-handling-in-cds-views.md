@@ -32,11 +32,11 @@ Included pages: 4
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - Views](javascript:call_link\('abenddic_cds_views.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_views.htm) → 
 
 ABAP CDS - Client Handling in CDS Views
 
-For a CDS view in ABAP CDS, the [CDS annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") [@ClientHandling](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)) can be used to specify client handling.
+For a CDS view in ABAP CDS, the [CDS annotation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_annotation_glosry.htm "Glossary Entry") [@ClientHandling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm) can be used to specify client handling.
 
 -   [Determining Client Dependency](#abencds-client-handling-1--------determining-client-handling---@ITOC@@ABENCDS_CLIENT_HANDLING_2)
 
@@ -44,25 +44,25 @@ For a CDS view in ABAP CDS, the [CDS annotation](javascript:call_link\('abencds_
 
 #INHERITED
 
-Default value. The client dependency of the view is determined by the [data sources](javascript:call_link\('abencds_f1_data_source.htm'\)) used.
+Default value. The client dependency of the view is determined by the [data sources](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm) used.
 
--   If one of the data sources used in the view is [client-specific](javascript:call_link\('abenclient_dependence_glosry.htm'\) "Glossary Entry"), the view is client-specific.
+-   If one of the data sources used in the view is [client-specific](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_dependence_glosry.htm "Glossary Entry"), the view is client-specific.
 
--   If none of the data sources used in the view is [client-specific](javascript:call_link\('abenclient_dependence_glosry.htm'\) "Glossary Entry"), the view is a cross-client view.
+-   If none of the data sources used in the view is [client-specific](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclient_dependence_glosry.htm "Glossary Entry"), the view is a cross-client view.
 
 #CLIENT\_DEPENDENT
 
-The view is client-specific. A prerequisite for this is that at least on of the [data sources](javascript:call_link\('abencds_f1_data_source.htm'\)) used in the view is client-specific. If not, a syntax error occurs.
+The view is client-specific. A prerequisite for this is that at least on of the [data sources](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm) used in the view is client-specific. If not, a syntax error occurs.
 
 #CLIENT\_INDEPENDENT
 
-The view is a cross-client view. A prerequisite for this is that none of the [data sources](javascript:call_link\('abencds_f1_data_source.htm'\)) used in the view is client-specific. If not, a syntax error occurs.
+The view is a cross-client view. A prerequisite for this is that none of the [data sources](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_data_source.htm) used in the view is client-specific. If not, a syntax error occurs.
 
 Notes
 
 -   CDS views for application data should usually be client-specific.
 
--   The annotation [@ClientHandling.type](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)) replaces the annotation [@ClientDependent](javascript:call_link\('abencds_view_client_handling_obs.htm'\)) and should be used instead of this annotation.
+-   The annotation [@ClientHandling.type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm) replaces the annotation [@ClientDependent](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_client_handling_obs.htm) and should be used instead of this annotation.
 
 -   Unlike the annotation @ClientDependent, the annotation @ClientHandling.type cannot be used to make a CDS view into a cross-client view if it contains client-specific data sources.
 
@@ -76,7 +76,7 @@ The annotation @ClientHandling.algorithm determines how implicit client handling
 
 Default value for the values #INHERITED and #CLIENT\_DEPENDENT of the annotation @ClientHandling.type. Cannot be used together with its value #CLIENT\_INDEPENDENT.
 
-The value #AUTOMATED expands the joins of the CDS view implicitly as shown in the following table. In the case of outer joins, cross-client sides are made into client-specific sides artificially using cross joins, which avoids NULL values. This applies to joins specified directly using JOIN and to instances of joins created when using [SQL path expressions](javascript:call_link\('abencds_path_expression_glosry.htm'\) "Glossary Entry").
+The value #AUTOMATED expands the joins of the CDS view implicitly as shown in the following table. In the case of outer joins, cross-client sides are made into client-specific sides artificially using cross joins, which avoids NULL values. This applies to joins specified directly using JOIN and to instances of joins created when using [SQL path expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_path_expression_glosry.htm "Glossary Entry").
 
 Left Side
 
@@ -142,7 +142,7 @@ Cross-client
 
 Cannot be used together with the value #CLIENT\_INDEPENDENT of the annotation @ClientHandling.type.
 
-The value #SESSION\_VARIABLE expands the joins of the CDS view implicitly as shown in the following table. This applies to joins specified explicitly and directly using JOIN and to instances of joins created when using [SQL path expressions](javascript:call_link\('abencds_path_expression_glosry.htm'\) "Glossary Entry").
+The value #SESSION\_VARIABLE expands the joins of the CDS view implicitly as shown in the following table. This applies to joins specified explicitly and directly using JOIN and to instances of joins created when using [SQL path expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_path_expression_glosry.htm "Glossary Entry").
 
 Left Side
 
@@ -174,7 +174,7 @@ Client-specific
 
 \-
 
-Compares the client column with the value of the [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") [$session.client](javascript:call_link\('abencds_f1_session_variable.htm'\)) in the ON condition
+Compares the client column with the value of the [session variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_session_variable.htm) in the ON condition
 
 \-
 
@@ -188,7 +188,7 @@ Cross-client
 
 \-
 
-Compares the client column with the value of the [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") [$session.client](javascript:call_link\('abencds_f1_session_variable.htm'\)) in the ON condition
+Compares the client column with the value of the [session variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_session_variable.htm) in the ON condition
 
 \-
 
@@ -204,7 +204,7 @@ Cross-client
 
 \-
 
-In addition, when client-specific data tables are accessed, WHERE clauses with comparisons of the client columns with the [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") [$session.client](javascript:call_link\('abencds_f1_session_variable.htm'\)) are added to the view implicitly. If only client-specific CDS entities are accessed, however, no clauses are added.
+In addition, when client-specific data tables are accessed, WHERE clauses with comparisons of the client columns with the [session variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_session_variable.htm) are added to the view implicitly. If only client-specific CDS entities are accessed, however, no clauses are added.
 
 If the session variable $session.client is evaluated in the view, it is not possible to access the data of different clients in a single read. This applies in the following cases:
 
@@ -212,7 +212,7 @@ If the session variable $session.client is evaluated in the view, it is not poss
 
 -   When client-specific and cross-client sides are joined in an outer join and there is an implicit ON condition for the session variable.
 
-The addition [USING](javascript:call_link\('abapselect_client.htm'\)) of the statement [SELECT](javascript:call_link\('abapselect.htm'\)) for switching [implicit client handling](javascript:call_link\('abenopen_sql_client_handling.htm'\)) is permitted and the client specified here is used implicitly. The obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)) is then not allowed.
+The addition [USING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client.htm) of the statement [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) for switching [implicit client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_client_handling.htm) is permitted and the client specified here is used implicitly. The obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm) is then not allowed.
 
 #NONE
 
@@ -220,7 +220,7 @@ Default value for the value #CLIENT\_INDEPENDENT of the annotation @ClientHandli
 
 Notes
 
--   The values #AUTOMATED and #SESSION\_VARIABLE produce the same result when a client-specific CDS view is used. They modify the way client handling is implemented internally, but do not modify the definition of the view or, with the exception of the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)), its use. The value #SESSION\_VARIABLE can improve performance by concentrating on a single client.
+-   The values #AUTOMATED and #SESSION\_VARIABLE produce the same result when a client-specific CDS view is used. They modify the way client handling is implemented internally, but do not modify the definition of the view or, with the exception of the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm), its use. The value #SESSION\_VARIABLE can improve performance by concentrating on a single client.
 
 -   If a view with the value #INHERITED of the annotation @ClientHandling.type is a cross-client view, no implicit client handling takes place and the values #AUTOMATED and #SESSION\_VARIABLE are ignored.
 
@@ -232,46 +232,46 @@ Notes
 
 -   The value #NONE can only be specified for views declared explicitly as cross-client views. If specified for views declared explicitly as client-specific views using #CLIENT\_DEPENDENT, self-programmed client handling would be required and this is not currently supported.
 
--   If the value #SESSION\_VARIABLE is specified, the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)) of the statement [SELECT](javascript:call_link\('abapselect.htm'\)) is forbidden in cases where the session variable $session.client is actually in use in the view in question. More specifically, specifying a client-specific view in a [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") does not necessarily mean that the session variable is used. The session variable is used only if the CDS association in the view is created with an implicit ON condition for the session variable.
+-   If the value #SESSION\_VARIABLE is specified, the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm) of the statement [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) is forbidden in cases where the session variable $session.client is actually in use in the view in question. More specifically, specifying a client-specific view in a [CDS association](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_association_glosry.htm "Glossary Entry") does not necessarily mean that the session variable is used. The session variable is used only if the CDS association in the view is created with an implicit ON condition for the session variable.
 
 Properties of Client-Specific CDS Views
 
 In ABAP SQL reads, the client dependency of a CDS view has the following consequences for the CDS entity and the associated CDS database view:
 
--   [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry")
+-   [CDS entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_entity_glosry.htm "Glossary Entry")
 
--   The view fields of the CDS entity of a client-specific CDS view do not cover a client column. A client column of a client-specific CDS view specified explicitly in the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)) is also not a component of the structured data type represented by the CDS entity and is removed implicitly from the results set of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement.
+-   The view fields of the CDS entity of a client-specific CDS view do not cover a client column. A client column of a client-specific CDS view specified explicitly in the [SELECT list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list.htm) is also not a component of the structured data type represented by the CDS entity and is removed implicitly from the results set of a [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) statement.
 
--   If [SELECT](javascript:call_link\('abapselect.htm'\)) is used to access a client-specific CDS entity, the data of the current client or the client specified in the addition [USING](javascript:call_link\('abapselect_client.htm'\)) is read implicitly. If the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)) is specified, the column is added to the results set and is filled with the associated client ID for each row. Before this column can be used in the SELECT statement, a name must be assigned to it after the addition CLIENT SPECIFIED. If the name is not defined, no addressing is possible in a clause and no inline declarations can be made using [@DATA(...)](javascript:call_link\('abapselect_into_target.htm'\)) after [INTO](javascript:call_link\('abapinto_clause.htm'\)). The defined name is also used in the case of [INTO CORRESPONDING](javascript:call_link\('abapinto_clause.htm'\)). If no name is defined, the client column is not transported.
+-   If [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm) is used to access a client-specific CDS entity, the data of the current client or the client specified in the addition [USING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client.htm) is read implicitly. If the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm) is specified, the column is added to the results set and is filled with the associated client ID for each row. Before this column can be used in the SELECT statement, a name must be assigned to it after the addition CLIENT SPECIFIED. If the name is not defined, no addressing is possible in a clause and no inline declarations can be made using [@DATA(...)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_into_target.htm) after [INTO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm). The defined name is also used in the case of [INTO CORRESPONDING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinto_clause.htm). If no name is defined, the client column is not transported.
 
--   [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry")
+-   [CDS database view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_database_view_glosry.htm "Glossary Entry")
 
--   The view fields of a CDS database view of a client-specific CDS view always cover a client column. This applies regardless of whether the client column is specified in the [SELECT list](javascript:call_link\('abencds_f1_select_list.htm'\)).
+-   The view fields of a CDS database view of a client-specific CDS view always cover a client column. This applies regardless of whether the client column is specified in the [SELECT list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_list.htm).
 
--   If an [obsolete](javascript:call_link\('abenopen_sql_cds_obsolete.htm'\)) access is made on the CDS database view using [SELECT](javascript:call_link\('abapselect.htm'\)), the view is handled in accordance with regular [implicit client handling](javascript:call_link\('abenopen_sql_client_handling.htm'\)), which itself can be defined using the addition [USING](javascript:call_link\('abapselect_client.htm'\)).
+-   If an [obsolete](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_cds_obsolete.htm) access is made on the CDS database view using [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm), the view is handled in accordance with regular [implicit client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_client_handling.htm), which itself can be defined using the addition [USING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client.htm).
 
 -   The name of the client column of a CDS database view with activated client handling is defined in accordance with the following hierarchy: If the client column is specified in the SELECT list, its name or its alternative name is used. If the client column is not specified in the SELECT list, MANDT is used. If MANDT is already used as an (alternative) element name in the SELECT list, CLIENT is used. If neither MANDT or CLIENT is possible, a syntax error occurs.
 
 Notes
 
--   Only the CDS database view can be accessed using Native SQL or in an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry"). When client-specific views are accessed, the client ID must be specified as usual and only data in the current client should be accessed.
+-   Only the CDS database view can be accessed using Native SQL or in an [AMDP method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_method_glosry.htm "Glossary Entry"). When client-specific views are accessed, the client ID must be specified as usual and only data in the current client should be accessed.
 
 -   The following must be noted when the CDS database view of a client-specific CDS view whose client handling is defined using the annotation @ClientHandling.algorithm:#SESSION\_VARIABLE is accessed using Native SQL or AMDP:
 
--   The [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") [$session.client](javascript:call_link\('abencds_f1_session_variable.htm'\)) is usually used implicitly in the view. This is guaranteed only on [SAP HANA databases](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") used as [standard AS ABAP databases](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") under the name [CDS\_CLIENT](javascript:call_link\('abenhana_session_variables.htm'\)). On other platforms, the existence and content of the session variable are not guaranteed outside of an ABAP SQL access, and this can produced unexpected behavior or programs may crash.
+-   The [session variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_session_variable.htm) is usually used implicitly in the view. This is guaranteed only on [SAP HANA databases](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_database_glosry.htm "Glossary Entry") used as [standard AS ABAP databases](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_db_glosry.htm "Glossary Entry") under the name [CDS\_CLIENT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables.htm). On other platforms, the existence and content of the session variable are not guaranteed outside of an ABAP SQL access, and this can produced unexpected behavior or programs may crash.
 
--   No separate WHERE condition can be used that selects a client other than the session variable and the database-specific variant of the [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") [$session.client](javascript:call_link\('abencds_f1_session_variable.htm'\)) must have the required value in Native SQL or AMDP reads. Outside an ABAP SQL access, it contains the current client by default.
+-   No separate WHERE condition can be used that selects a client other than the session variable and the database-specific variant of the [session variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_session_variable.htm) must have the required value in Native SQL or AMDP reads. Outside an ABAP SQL access, it contains the current client by default.
 
-The last point is particularly important for [client handling](javascript:call_link\('abenamdp_client_handling.htm'\)) in general [AMDP procedure implementations](javascript:call_link\('abenamdp_procedure_method_glosry.htm'\) "Glossary Entry") on the SAP HANA database, which are called like regular methods in ABAP. When a CDS database view like this is accessed, the value of the corresponding HANA session variable [CDS\_CLIENT](javascript:call_link\('abenhana_session_variables.htm'\)) must be set explicitly using the addition [AMDP OPTIONS CDS SESSION CLIENT](javascript:call_link\('abapmethods_amdp_options.htm'\)) in the declaration of the AMDP method. If not, a syntax error occurs. In an [AMDP function implementation](javascript:call_link\('abenamdp_function_method_glosry.htm'\) "Glossary Entry") that is used as a [CDS](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry") table function in ABAP SQL, however, the HANA session variable CDS\_CLIENT is filled with the content defined there.
+The last point is particularly important for [client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_client_handling.htm) in general [AMDP procedure implementations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_procedure_method_glosry.htm "Glossary Entry") on the SAP HANA database, which are called like regular methods in ABAP. When a CDS database view like this is accessed, the value of the corresponding HANA session variable [CDS\_CLIENT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhana_session_variables.htm) must be set explicitly using the addition [AMDP OPTIONS CDS SESSION CLIENT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethods_amdp_options.htm) in the declaration of the AMDP method. If not, a syntax error occurs. In an [AMDP function implementation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_function_method_glosry.htm "Glossary Entry") that is used as a [CDS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_table_function_glosry.htm "Glossary Entry") table function in ABAP SQL, however, the HANA session variable CDS\_CLIENT is filled with the content defined there.
 
 Executable Example
 
-[CDS Views, Client Handling](javascript:call_link\('abencds_client_handling_abexa.htm'\))
+[CDS Views, Client Handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling_abexa.htm)
 
 Continue
-[ABAP CDS - Obsolete Client Handling in Views](javascript:call_link\('abencds_view_client_handling_obs.htm'\))
-![Example](exa.gif "Example") [CDS Views, Client Handling](javascript:call_link\('abencds_client_handling_abexa.htm'\))
-![Example](exa.gif "Example") [CDS Views, Obsolete Client Handling](javascript:call_link\('abencds_client_handling_obs_abexa.htm'\))
+[ABAP CDS - Obsolete Client Handling in Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_client_handling_obs.htm)
+![Example](exa.gif "Example") [CDS Views, Client Handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling_abexa.htm)
+![Example](exa.gif "Example") [CDS Views, Obsolete Client Handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling_obs_abexa.htm)
 
 
 
@@ -289,11 +289,11 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - Views](javascript:call_link\('abenddic_cds_views.htm'\)) →  [ABAP CDS - Client Handling in CDS Views](javascript:call_link\('abencds_client_handling.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_views.htm) →  [ABAP CDS - Client Handling in CDS Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm) → 
 
 ABAP CDS - Obsolete Client Handling in Views
 
-Before the annotation [@ClientHandling](javascript:call_link\('abencds_f1_view_entity_annotations.htm'\)) was introduced, the [client dependency](javascript:call_link\('abencds_func_client_handling.htm'\)) of a CDS view was specified using the annotation ClientDependent with the possible values true and false.
+Before the annotation [@ClientHandling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_view_entity_annotations.htm) was introduced, the [client dependency](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_func_client_handling.htm) of a CDS view was specified using the annotation ClientDependent with the possible values true and false.
 
 -   [Determining Client Dependency](#abencds-view-client-handling-obs-1--------determining-client-handling---@ITOC@@ABENCDS_VIEW_CLIENT_HANDLING_OBS_2)
 
@@ -301,7 +301,7 @@ Before the annotation [@ClientHandling](javascript:call_link\('abencds_f1_view_e
 
 -   true
 
-The annotation ClientDependent:true works like [@ClientHandling.type:#INHERITED](javascript:call_link\('abencds_client_handling.htm'\)).
+The annotation ClientDependent:true works like [@ClientHandling.type:#INHERITED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm).
 
 -   A view with client-specific data sources is a client-specific view.
 
@@ -311,7 +311,7 @@ Unlike in @ClientHandling:#INHERITED, a view in which a cross-client data source
 
 -   false
 
-The annotation ClientDependent:false makes a view into a cross-client view. Unlike in [@ClientHandling.type:#CLIENT\_INDEPENDENT](javascript:call_link\('abencds_client_handling.htm'\)), this value can also be specified for view when a data source of the view is client-specific.
+The annotation ClientDependent:false makes a view into a cross-client view. Unlike in [@ClientHandling.type:#CLIENT\_INDEPENDENT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm), this value can also be specified for view when a data source of the view is client-specific.
 
 Only the annotation @ClientHandling.type should now be used in new CDS views. The annotations @ClientHandling and @ClientDependent cannot be used together in the definition of a CDS table function. If neither of the annotations @ClientHandling.type and @ClientDependent is specified, the default value of @ClientHandling.type applies.
 
@@ -321,23 +321,23 @@ The possible values true and false of the obsolete annotation @ClientDependent h
 
 -   true
 
-The annotation ClientDependent:true works like [@ClientHandling.algorithm:#AUTOMATED](javascript:call_link\('abencds_client_handling.htm'\)). No cross join, however, is created here for the case (forbidden here) where a cross-client data source is joined with a client-specific data source using a LEFT OUTER JOIN.
+The annotation ClientDependent:true works like [@ClientHandling.algorithm:#AUTOMATED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm). No cross join, however, is created here for the case (forbidden here) where a cross-client data source is joined with a client-specific data source using a LEFT OUTER JOIN.
 
 -   false
 
-The annotation @ClientDependent:false works like [@ClientHandling.algorithm:#NONE](javascript:call_link\('abencds_client_handling.htm'\)). Client handling can be switched off here for views that contain client-specific data sources.
+The annotation @ClientDependent:false works like [@ClientHandling.algorithm:#NONE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm). Client handling can be switched off here for views that contain client-specific data sources.
 
 Properties of Cross-Client Views
 
 Client-specific views with the annotation @ClientDependent:true have the same properties as client-specific views with the annotation @ClientHandling.type.#INHERITED or @ClientHandling.type.#CLIENT\_DEPENDENT. @ClientDependent:false can be used, on the other hand, to define cross-client views, even if they contain client-specific data sources. These have the following properties:
 
--   [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry")
+-   [CDS entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_entity_glosry.htm "Glossary Entry")
 
 A client column specified in the SELECT list is preserved in the results set if client dependency is switched off explicitly using the annotation @ClientDependent:false. The column is then applied like a regular view field when the CDS entity is accessed.
 
--   [CDS database view](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry")
+-   [CDS database view](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_database_view_glosry.htm "Glossary Entry")
 
-If client dependency is switched off explicitly using the annotation @ClientDependent:false, a CDS database view does not have a client column if it is not specified explicitly in the SELECT list. A client column specified in the SELECT list, on the other hand, dictates that the CDS database view has a client column, hence making it a client-specific view. This has consequences for [obsolete](javascript:call_link\('abenopen_sql_cds_obsolete.htm'\)) access to the CDS database view using [SELECT](javascript:call_link\('abapselect.htm'\)). This is then handled in accordance with classic [implicit client handling](javascript:call_link\('abenopen_sql_client_handling.htm'\)).
+If client dependency is switched off explicitly using the annotation @ClientDependent:false, a CDS database view does not have a client column if it is not specified explicitly in the SELECT list. A client column specified in the SELECT list, on the other hand, dictates that the CDS database view has a client column, hence making it a client-specific view. This has consequences for [obsolete](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_cds_obsolete.htm) access to the CDS database view using [SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect.htm). This is then handled in accordance with classic [implicit client handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_client_handling.htm).
 
 Note
 
@@ -345,7 +345,7 @@ It is not usually a good idea to switch off client dependency in views with clie
 
 Executable Example
 
-[CDS Views, Obsolete Client Handling](javascript:call_link\('abencds_client_handling_obs_abexa.htm'\))
+[CDS Views, Obsolete Client Handling](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling_obs_abexa.htm)
 
 
 
@@ -363,11 +363,11 @@ Executable Example
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - Views](javascript:call_link\('abenddic_cds_views.htm'\)) →  [ABAP CDS - Client Handling in CDS Views](javascript:call_link\('abencds_client_handling.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_views.htm) →  [ABAP CDS - Client Handling in CDS Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm) → 
 
 CDS Views, Client Handling
 
-This example demonstrates how [client-specific](javascript:call_link\('abencds_client_handling.htm'\)) CDS views are handled.
+This example demonstrates how [client-specific](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm) CDS views are handled.
 
 Source Code
 
@@ -496,11 +496,11 @@ The statement SELECT is used to make the following accesses:
 
 -   Regular access to a database view of the client-specific CDS entity without client column in the SELECT list. The data from the current client is read. The results set has a client column.
 
--   Access to a client-specific CDS entity without client column in the SELECT list using the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)). The data of the client specified in the WHERE condition is read. A name myclient must be defined for this. The results set has a client column with this name.
+-   Access to a client-specific CDS entity without client column in the SELECT list using the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm). The data of the client specified in the WHERE condition is read. A name myclient must be defined for this. The results set has a client column with this name.
 
 -   Regular access to a database view of the client-specific CDS entity with client column in the SELECT list. The data from the current client is read. The results set does not have a client column.
 
-The similar program DEMO\_CDS\_CLIENT\_HANDLING\_SV accesses CDS views in which the annotation @ClientHandling.algorithm: #SESSION\_VARIABLE is used instead of @ClientHandling.algorithm: #AUTOMATED. The results are shown in exactly the same way as here, however access using the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)) is not possible since the [session variable](javascript:call_link\('abensession_variable_glosry.htm'\) "Glossary Entry") [$session.client](javascript:call_link\('abencds_f1_session_variable.htm'\)) is evaluated implicitly in the views.
+The similar program DEMO\_CDS\_CLIENT\_HANDLING\_SV accesses CDS views in which the annotation @ClientHandling.algorithm: #SESSION\_VARIABLE is used instead of @ClientHandling.algorithm: #AUTOMATED. The results are shown in exactly the same way as here, however access using the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm) is not possible since the [session variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensession_variable_glosry.htm "Glossary Entry") [$session.client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_session_variable.htm) is evaluated implicitly in the views.
 
 Note
 
@@ -525,11 +525,11 @@ The accesses to the database views of the CDS shown here are for demonstration p
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - Views](javascript:call_link\('abenddic_cds_views.htm'\)) →  [ABAP CDS - Client Handling in CDS Views](javascript:call_link\('abencds_client_handling.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_views.htm) →  [ABAP CDS - Client Handling in CDS Views](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_client_handling.htm) → 
 
 CDS Views, Obsolete Client Handling
 
-This example demonstrates how obsolete [cross-client](javascript:call_link\('abencds_view_client_handling_obs.htm'\)) CDS views are handled.
+This example demonstrates how obsolete [cross-client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_client_handling_obs.htm) CDS views are handled.
 
 Source Code
 
@@ -638,7 +638,7 @@ spfli.cityfrom,
 spfli.cityto
 }    
 
-They are used to demonstrate the behavior in rare cases where views with the obsolete notation [ClientDependent:false](javascript:call_link\('abencds_view_client_handling_obs.htm'\)) are made into cross-client views even though they contain client-specific data sources:
+They are used to demonstrate the behavior in rare cases where views with the obsolete notation [ClientDependent:false](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_view_client_handling_obs.htm) are made into cross-client views even though they contain client-specific data sources:
 
 -   DEMO\_CDS\_SPFLI\_CLIENT\_2 is a cross-client CDS view in which the client column is not specified in the SELECT list.
 
@@ -660,9 +660,9 @@ The statement SELECT is used to make the following accesses:
 
 -   Regular access to a database view of the cross-client CDS entity without client column in the SELECT list. The data is read from all clients. No conditions can be specified for the client. The results set does not have a client column.
 
--   Regular access to a cross-client CDS entity with client column in the SELECT list. The data of the client specified in the WHERE condition is read. It is not possible to specify the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)) here. The results set has a client column.
+-   Regular access to a cross-client CDS entity with client column in the SELECT list. The data of the client specified in the WHERE condition is read. It is not possible to specify the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm) here. The results set has a client column.
 
--   Access to a database view of the cross-client CDS with client column in the SELECT list using the obsolete addition [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)). The data of the client specified in the WHERE condition is read. The results set has a client column.
+-   Access to a database view of the cross-client CDS with client column in the SELECT list using the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_client_obsolete.htm). The data of the client specified in the WHERE condition is read. The results set has a client column.
 
 Note
 

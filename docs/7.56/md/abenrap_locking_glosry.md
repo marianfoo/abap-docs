@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 RAP locking
 
-Locking mechanism that is based on the [SAP lock](javascript:call_link\('abensap_lock_glosry.htm'\) "Glossary Entry") concept. It uses [lock function modules](javascript:call_link\('abenlock_function_module_glosry.htm'\) "Glossary Entry") for [pessimistic concurrency control](javascript:call_link\('abenpessimist_conc_control_glosry.htm'\) "Glossary Entry").
+Locking mechanism that is based on the [SAP lock](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_lock_glosry.htm "Glossary Entry") concept. It uses [lock function modules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlock_function_module_glosry.htm "Glossary Entry") for [pessimistic concurrency control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpessimist_conc_control_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenbdl_locking.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_locking.htm)

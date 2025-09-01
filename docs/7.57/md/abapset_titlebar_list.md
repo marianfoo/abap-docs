@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Display](javascript:call_link\('abenlists_displayed.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpro_list.htm) →  [Lists - Display](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlists_displayed.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SET TITLEBAR, List, ABAPSET_TITLEBAR_LIST, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D
 %0ASuggestion for improvement:)
 
 SET TITLEBAR, List
 
-[Short Reference](javascript:call_link\('abapset_titlebar_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_titlebar_shortref.htm)
 
 Syntax
 
@@ -25,9 +25,9 @@ Additions:
 
 Effect
 
-In list processing, this statement sets the GUI title specified in title for the display window of the current list level and all following list levels up to the next statement SET TITLEBAR. The statement has mostly the same syntax and semantics as for [dynpros](javascript:call_link\('abapset_titlebar_dynpro.htm'\)).
+In list processing, this statement sets the GUI title specified in title for the display window of the current list level and all following list levels up to the next statement SET TITLEBAR. The statement has mostly the same syntax and semantics as for [dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_titlebar_dynpro.htm).
 
-Unlike in [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of dynpros, each list level remains automatically linked with the title set for it. When the display of a higher list level is switched to the display of a lower list level, the latter is displayed with the title that was set for it.
+Unlike in [screens](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_glosry.htm "Glossary Entry") of dynpros, each list level remains automatically linked with the title set for it. When the display of a higher list level is switched to the display of a lower list level, the latter is displayed with the title that was set for it.
 
 Addition 1   
 
@@ -39,4 +39,4 @@ Addition 2  
 
 Effect
 
-As for [dynpros](javascript:call_link\('abapset_titlebar_dynpro.htm'\)).
+As for [dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_titlebar_dynpro.htm).

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - Projection Views](javascript:call_link\('abencds_proj_views.htm'\)) →  [CDS DDL - CDS Projection View, Transactional Queries](javascript:call_link\('abencds_pv_transactional_query.htm'\)) →  [CDS DDL - projection\_list, Transactional Query](javascript:call_link\('abencds_proj_view_element_list.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_entity.htm) →  [ABAP CDS - Projection Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_views.htm) →  [CDS DDL - CDS Projection View, Transactional Queries](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_transactional_query.htm) →  [CDS DDL - projection\_list, Transactional Query](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_element_list.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20proj_element%2C%20Transactional%20Query%2C%20ABENCDS_PROJ_VIEW_ELEMENT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20i
 mprovement:)
@@ -13,14 +13,14 @@ CDS DDL - proj\_element, Transactional Query
 
 Syntax
 
-... *\[*[@element\_annot1](javascript:call_link\('abencds_element_annotations_v2.htm'\))*\]*
-    *\[*[@element\_annot2](javascript:call_link\('abencds_element_annotations_v2.htm'\))*\]*
+... *\[*[@element\_annot1](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_element_annotations_v2.htm)*\]*
+    *\[*[@element\_annot2](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_element_annotations_v2.htm)*\]*
     ...
     *{**\[*KEY*\]*    *{*proj\_element      *\[*AS alias*\]**}*
-            *|* *{*[expose\_assoc](javascript:call_link\('abencds_proj_view_expose_assoc.htm'\))      *\[*AS alias*\]**}*
-            *|* *{* [path\_expr](javascript:call_link\('abencds_proj_view_path_expr.htm'\)).element *\[*AS alias*\]**\[*: LOCALIZED*\]**}*
-            *|* *{*[cast\_expr](javascript:call_link\('abencds_cast_expression_v2.htm'\))          AS alias*}**}*
-   *|**{**\[*VIRTUAL  elem\_name : [typing](javascript:call_link\('abencds_typing.htm'\))*\]**}*
+            *|* *{*[expose\_assoc](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_expose_assoc.htm)      *\[*AS alias*\]**}*
+            *|* *{* [path\_expr](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_path_expr.htm).element *\[*AS alias*\]**\[*: LOCALIZED*\]**}*
+            *|* *{*[cast\_expr](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cast_expression_v2.htm)          AS alias*}**}*
+   *|**{**\[*VIRTUAL  elem\_name : [typing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_typing.htm)*\]**}*
 
 Additions:
 
@@ -33,18 +33,18 @@ Effect
 
 Defines which elements of the projected entity are part of the CDS projection view. Only elements from the projected entity can be specified as projected element.
 
--   The rules for [propagation of element annotations in CDS projection views](javascript:call_link\('abencds_element_annotations_pv.htm'\)) apply.
--   proj\_element exposes an element from the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry"). AS can be used to define an alternative element name alias.
+-   The rules for [propagation of element annotations in CDS projection views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_element_annotations_pv.htm) apply.
+-   proj\_element exposes an element from the [projected entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_projected_entity_glosry.htm "Glossary Entry"). AS can be used to define an alternative element name alias.
     
     Note: In transactional projection views, an element from the projected entity can be exposed multiple times with different alias names.
     
--   [expose\_assoc](javascript:call_link\('abencds_proj_view_expose_assoc.htm'\)) exposes a [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry"), a [to-child association](javascript:call_link\('abento_child_association_glosry.htm'\) "Glossary Entry"), or a [CDS to-parent association](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry") from the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry"). Exposed associations can be redirected to a new target when the [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") is also projected. The keyword REDIRECTED TO is introduced in topic [CDS DDL - CDS Projection View, expose\_assoc](javascript:call_link\('abencds_proj_view_expose_assoc.htm'\)).
+-   [expose\_assoc](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_expose_assoc.htm) exposes a [CDS association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_association_glosry.htm "Glossary Entry"), a [to-child association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abento_child_association_glosry.htm "Glossary Entry"), or a [CDS to-parent association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abento_parent_association_glosry.htm "Glossary Entry") from the [projected entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_projected_entity_glosry.htm "Glossary Entry"). Exposed associations can be redirected to a new target when the [association target](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassociation_target_glosry.htm "Glossary Entry") is also projected. The keyword REDIRECTED TO is introduced in topic [CDS DDL - CDS Projection View, expose\_assoc](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_expose_assoc.htm).
     
-    All elements included in the ON clause of an exposed [CDS association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") must also be included in the projection list of the CDS projection view.
+    All elements included in the ON clause of an exposed [CDS association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_association_glosry.htm "Glossary Entry") must also be included in the projection list of the CDS projection view.
     
--   [path\_expr](javascript:call_link\('abencds_proj_view_path_expr.htm'\)).element exposes an element of an association target of the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry"). If no alternative element name alias is defined, the element name is defined by the name of the element named by the path expression. The keyword LOCALIZED can be used to display text elements in the user's logon language. All associations that are part of the path expression must be filtered to 1. For details, see the topic about [path expressions in CDS projection views](javascript:call_link\('abencds_proj_view_path_expr.htm'\)).
--   Cast expressions [cast\_expr](javascript:call_link\('abencds_cast_expression_v2.htm'\)) are available in a reduced way:
-    -   The target data type can be specified as [CDS user-defined type](javascript:call_link\('abencds_user_defined_type_glosry.htm'\) "Glossary Entry") or as [DDIC data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry"). Specifying a built-in ABAP Dictionary data type is not possible.
+-   [path\_expr](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_path_expr.htm).element exposes an element of an association target of the [projected entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_projected_entity_glosry.htm "Glossary Entry"). If no alternative element name alias is defined, the element name is defined by the name of the element named by the path expression. The keyword LOCALIZED can be used to display text elements in the user's logon language. All associations that are part of the path expression must be filtered to 1. For details, see the topic about [path expressions in CDS projection views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_path_expr.htm).
+-   Cast expressions [cast\_expr](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cast_expression_v2.htm) are available in a reduced way:
+    -   The target data type can be specified as [CDS user-defined type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_user_defined_type_glosry.htm "Glossary Entry") or as [DDIC data element](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_element_glosry.htm "Glossary Entry"). Specifying a built-in ABAP Dictionary data type is not possible.
     -   The addition PRESERVING TYPE is mandatory and must be used.
         
         That means that type conversions are not supported in CDS projection views and cast expressions can only be used to derive semantic information.
@@ -81,7 +81,7 @@ Addition 1  
 
 Effect
 
-The keyword KEY is used to define the current element as a key element of the [CDS projection view](javascript:call_link\('abencds_projection_view_glosry.htm'\) "Glossary Entry"). A CDS projection view must define exactly the same key elements in the same order as key elements as the underlying projected entity.
+The keyword KEY is used to define the current element as a key element of the [CDS projection view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_projection_view_glosry.htm "Glossary Entry"). A CDS projection view must define exactly the same key elements in the same order as key elements as the underlying projected entity.
 
 Caution: The key elements of a CDS entity do not define unique lines in its result with regard to the key. An application or framework accessing a CDS entity must expect duplicate entries for the key fields in the result set. If the lines of a result set should be unique in respect to a set of key elements, it is the task of the application or framework that provides the CDS entity to define them appropriately and to document the view accordingly.
 
@@ -91,7 +91,7 @@ Addition 2  
 
 Effect
 
-Defines an alternative element name for the projected element. The alternative element name replaces the actual name of the element from the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry"). The view field is created under the alternative element name in the CDS projection view. Accordingly, the alternative element name must comply with the general syntax rules for [names](javascript:call_link\('abencds_general_syntax_rules.htm'\)).
+Defines an alternative element name for the projected element. The alternative element name replaces the actual name of the element from the [projected entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_projected_entity_glosry.htm "Glossary Entry"). The view field is created under the alternative element name in the CDS projection view. Accordingly, the alternative element name must comply with the general syntax rules for [names](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_general_syntax_rules.htm).
 
 Addition 3   
 
@@ -99,7 +99,7 @@ Addition 3  
 
 Effect
 
-The keyword LOCALIZED can be used to display text elements in the current system language. As a prerequisite, you must establish a text association to a text provider view that contains text elements in different languages. It is mandatory that all association paths in the [path expression](javascript:call_link\('abencds_proj_view_path_expr.htm'\)) must be filtered to 1. Then, by using the keyword LOCALIZED, the text elements are chosen in the user's logon language. So in the example shown above, the keyword LOCALIZED is a realization of the path expression \_Text\[to exact one:Language=$session.system\_language\].material\_name.
+The keyword LOCALIZED can be used to display text elements in the current system language. As a prerequisite, you must establish a text association to a text provider view that contains text elements in different languages. It is mandatory that all association paths in the [path expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_path_expr.htm) must be filtered to 1. Then, by using the keyword LOCALIZED, the text elements are chosen in the user's logon language. So in the example shown above, the keyword LOCALIZED is a realization of the path expression \_Text\[to exact one:Language=$session.system\_language\].material\_name.
 
 Find out how to define a text association in the developer guide for the ABAP RESTful Programming Model, in the section about [text associations](https://help.sap.com/docs/ABAP_Cloud/f055b8bf582d4f34b91da667bc1fcce6/ab8283b2064d474fa160871fc23825df?version=sap_cross_product_abap).
 
@@ -109,10 +109,10 @@ Addition 4  
 
 Effect
 
-Defines a [virtual element](javascript:call_link\('abencds_virtual_element_glosry.htm'\) "Glossary Entry") in the [projection list](javascript:call_link\('abencds_proj_view_element_list.htm'\)) of a [CDS projection view](javascript:call_link\('abencds_projection_view_glosry.htm'\) "Glossary Entry"). Virtual elements are read-only elements of a CDS projection view which are not part of the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry"). For further details, see topic [CDS DDL - VIRTUAL](javascript:call_link\('abencds_proj_view_virtual_element.htm'\)).
+Defines a [virtual element](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_virtual_element_glosry.htm "Glossary Entry") in the [projection list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_element_list.htm) of a [CDS projection view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_projection_view_glosry.htm "Glossary Entry"). Virtual elements are read-only elements of a CDS projection view which are not part of the [projected entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_projected_entity_glosry.htm "Glossary Entry"). For further details, see topic [CDS DDL - VIRTUAL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_virtual_element.htm).
 
 Continue
-[CDS DDL - element\_annot, Transactional Query](javascript:call_link\('abencds_element_annotations_pv.htm'\))
-[CDS DDL - path\_expr, Transactional Query](javascript:call_link\('abencds_proj_view_path_expr.htm'\))
-[CDS DDL - expose\_assoc, Transactional Query](javascript:call_link\('abencds_proj_view_expose_assoc.htm'\))
-[CDS DDL - VIRTUAL](javascript:call_link\('abencds_proj_view_virtual_element.htm'\))
+[CDS DDL - element\_annot, Transactional Query](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_element_annotations_pv.htm)
+[CDS DDL - path\_expr, Transactional Query](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_path_expr.htm)
+[CDS DDL - expose\_assoc, Transactional Query](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_expose_assoc.htm)
+[CDS DDL - VIRTUAL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_view_virtual_element.htm)

@@ -4,13 +4,13 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Statements for RAP](javascript:call_link\('abenrap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Statements for RAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_obsolete.htm) → 
 
 Obsolete ABP Statements
 
--   [METHODS, FOR BEHAVIOR](javascript:call_link\('abapmethods_for_behavior.htm'\))
--   [METHODS, FOR DETERMINATION, VALIDATION](javascript:call_link\('abapmethods_for_det_val_obs.htm'\))
+-   [METHODS, FOR BEHAVIOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_behavior.htm)
+-   [METHODS, FOR DETERMINATION, VALIDATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_det_val_obs.htm)
 
 Continue
-[METHODS, FOR BEHAVIOR](javascript:call_link\('abapmethods_for_behavior.htm'\))
-[METHODS, FOR DETERMINATION, VALIDATION](javascript:call_link\('abapmethods_for_det_val_obs.htm'\))
+[METHODS, FOR BEHAVIOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_behavior.htm)
+[METHODS, FOR DETERMINATION, VALIDATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_for_det_val_obs.htm)

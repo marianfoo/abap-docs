@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT, clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT, FROM](javascript:call_link\('abapfrom_clause.htm'\)) →  [SELECT, FROM data\_source](javascript:call_link\('abapselect_data_source.htm'\)) →  [SELECT, FROM @itab](javascript:call_link\('abapselect_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) →  [ABAP SQL - Read Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_reading.htm) →  [SELECT, clauses](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselect_clauses.htm) →  [SELECT, FROM](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfrom_clause.htm) →  [SELECT, FROM data\_source](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_data_source.htm) →  [SELECT, FROM @itab](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_itab.htm) → 
 
 SELECT, Internal Table as Data Source of a Query
 
-This example demonstrates how an internal table is accessed using an ABAP SQL [query](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry").
+This example demonstrates how an internal table is accessed using an ABAP SQL [query](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenquery_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -58,4 +58,4 @@ START-OF-SELECTION.
 
 Description
 
-An internal table is filled with random values and is used as a [data source](javascript:call_link\('abapselect_itab.htm'\)) of a [SELECT](javascript:call_link\('abapselect.htm'\)) statement. Aggregate expressions, an SQL expression, GROUP BY, and ORDER BY are all used when doing this. The statement cannot, however, be executed on the AS ABAP since it does not meet the [restrictions](javascript:call_link\('abenbuffer_restrictions.htm'\)) in force. For this example, the pragma ##itab\_db\_select is used to hide the corresponding syntax check warning.
+An internal table is filled with random values and is used as a [data source](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_itab.htm) of a [SELECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect.htm) statement. Aggregate expressions, an SQL expression, GROUP BY, and ORDER BY are all used when doing this. The statement cannot, however, be executed on the AS ABAP since it does not meet the [restrictions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuffer_restrictions.htm) in force. For this example, the pragma ##itab\_db\_select is used to hide the corresponding syntax check warning.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [News for ABAP Release 6.10](javascript:call_link\('abennews-610.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 6.xx](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-6.htm) →  [News for ABAP Release 6.10](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-610.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Further%20Changes%20in%20ABAP%20Release%206.10%2C%20ABENNEWS-610-OTHERS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -34,13 +34,13 @@ Modification 1  
 
 Dynamic Pass by Parameter in CALL FUNCTION
 
-The addition [PARAMETER-TABLE itab](javascript:call_link\('abapcall_function.htm'\)) can be used to fill the interface of a function module with parameters dynamically. The addition [EXCEPTION-TABLE itab](javascript:call_link\('abapcall_function.htm'\)) is used to pass a table of exceptions to the called function module. At the same time, the number value to be assigned to the system field sy-subrc after the exception is raised is passed to the component VALUE.
+The addition [PARAMETER-TABLE itab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function.htm) can be used to fill the interface of a function module with parameters dynamically. The addition [EXCEPTION-TABLE itab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function.htm) is used to pass a table of exceptions to the called function module. At the same time, the number value to be assigned to the system field sy-subrc after the exception is raised is passed to the component VALUE.
 
 Modification 2   
 
 New Predicate Expression IS BOUND
 
-The predicate expression [IS BOUND](javascript:call_link\('abenlogexp_bound.htm'\)) indicates whether a reference variable contains a valid reference.
+The predicate expression [IS BOUND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_bound.htm) indicates whether a reference variable contains a valid reference.
 
 Modification 3   
 
@@ -48,18 +48,18 @@ Negated Relational Operators
 
 A new word order has been introduced for the negation of the following relational operators. Instead of IF NOT (f IS INITIAL), the spelling IF f IS NOT INITIAL is now possible. This word order is available for the following relational operators:
 
--   [*\[*NOT*\]* BETWEEN](javascript:call_link\('abenlogexp_between.htm'\))
--   [*\[*NOT*\]* IN](javascript:call_link\('abenlogexp_select_option.htm'\))
--   [IS *\[*NOT*\]* INITIAL](javascript:call_link\('abenlogexp_initial.htm'\))
--   [IS *\[*NOT*\]* ASSIGNED](javascript:call_link\('abenlogexp_assigned.htm'\))
--   [IS *\[*NOT*\]* REQUESTED](javascript:call_link\('abenlogexp_requested.htm'\))
--   [IS *\[*NOT*\]* SUPPLIED](javascript:call_link\('abenlogexp_supplied.htm'\))
+-   [*\[*NOT*\]* BETWEEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_between.htm)
+-   [*\[*NOT*\]* IN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_select_option.htm)
+-   [IS *\[*NOT*\]* INITIAL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_initial.htm)
+-   [IS *\[*NOT*\]* ASSIGNED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_assigned.htm)
+-   [IS *\[*NOT*\]* REQUESTED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_requested.htm)
+-   [IS *\[*NOT*\]* SUPPLIED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_supplied.htm)
 
 Modification 4   
 
 Unconditional Exit from a Processing Block
 
-The new statement [RETURN](javascript:call_link\('abapreturn.htm'\)) can be used to exit a [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") explicitly.
+The new statement [RETURN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreturn.htm) can be used to exit a [processing block](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm "Glossary Entry") explicitly.
 
 Modification 5   
 
@@ -71,26 +71,26 @@ Modification 6  
 
 Runtime Analysis
 
-From now on, the runtime analysis can also be called within a program unit by calling the methods ON or OFF from the class CL\_ABAP\_TRACE\_SWITCH. Additionally, the measurement restrictions now have an input help for [program types](javascript:call_link\('abenprogram_type_glosry.htm'\) "Glossary Entry") and the Tips and Tricks interface has been completely redesigned and now includes a tree structure and a text editor.
+From now on, the runtime analysis can also be called within a program unit by calling the methods ON or OFF from the class CL\_ABAP\_TRACE\_SWITCH. Additionally, the measurement restrictions now have an input help for [program types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_type_glosry.htm "Glossary Entry") and the Tips and Tricks interface has been completely redesigned and now includes a tree structure and a text editor.
 
 Modification 7   
 
 Calling Predefined Arithmetic Functions
 
-In expressions, the [arithmetic functions](javascript:call_link\('abapcompute_arith.htm'\)) can be used at the same positions as [functional methods](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry"). The following cases are supported:
+In expressions, the [arithmetic functions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcompute_arith.htm) can be used at the same positions as [functional methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_method_glosry.htm "Glossary Entry"). The following cases are supported:
 
--   Source fields of the [MOVE](javascript:call_link\('abapmove_obs.htm'\)) statement
--   Arithmetic expressions of the [COMPUTE](javascript:call_link\('abapcompute_arith.htm'\)) statement
--   Logical [expressions](javascript:call_link\('abenlogexp.htm'\))
--   The [CASE](javascript:call_link\('abapcase.htm'\)) statement of the CASE control structure
--   The [WHEN](javascript:call_link\('abapwhen.htm'\)) statement of the CASE control structure
--   The [WHERE](javascript:call_link\('abaploop_at_itab.htm'\)) condition in the LOOP AT statement
+-   Source fields of the [MOVE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_obs.htm) statement
+-   Arithmetic expressions of the [COMPUTE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcompute_arith.htm) statement
+-   Logical [expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm)
+-   The [CASE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcase.htm) statement of the CASE control structure
+-   The [WHEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhen.htm) statement of the CASE control structure
+-   The [WHERE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_itab.htm) condition in the LOOP AT statement
 
 Modification 8   
 
 Transformation of XML Data into ABAP Variables
 
-Another new addition is the [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) statement, which enables the transformation of [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data into ABAP variable content. The following transformations are possible:
+Another new addition is the [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation.htm) statement, which enables the transformation of [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") data into ABAP variable content. The following transformations are possible:
 
 -   XML to ABAP
 -   ABAP to XML
@@ -113,35 +113,35 @@ Modification 11  
 
 Enhancement of the MESSAGE Statement
 
-The form MESSAGE msg TYPE t is a new in the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)). It produces direct output of character strings or other strings. This option is designed for exception classes that have exception texts of data type string.
+The form MESSAGE msg TYPE t is a new in the statement [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm). It produces direct output of character strings or other strings. This option is designed for exception classes that have exception texts of data type string.
 
-The new addition DISPLAY LIKE can also be used to modify the icons in the display of the [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry").
+The new addition DISPLAY LIKE can also be used to modify the icons in the display of the [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_glosry.htm "Glossary Entry").
 
 Modification 12   
 
 Displaying Exceptions for Runtime Errors
 
-The display of runtime errors now includes the columns Name of Runtime Error and Exception. The same fields are also displayed and explained in the [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry"), immediately after an uncaught runtime error.
+The display of runtime errors now includes the columns Name of Runtime Error and Exception. The same fields are also displayed and explained in the [short dump](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshort_dump_glosry.htm "Glossary Entry"), immediately after an uncaught runtime error.
 
 Modification 13   
 
 Separate Logical Units of Work for Application and Generation
 
-If a program was not modified by its own logical unit of work ([LUW](javascript:call_link\('abendb_transaction.htm'\))), generation is started in a separate work process when the program is used. The program is generated in the same work process only if no other work process is free.
+If a program was not modified by its own logical unit of work ([LUW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_transaction.htm)), generation is started in a separate work process when the program is used. The program is generated in the same work process only if no other work process is free.
 
-If, for example, modified programs were used in a background process, these were only accessible to other users after the background process was finished. After the program was generated, the system could not trigger a [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)), since this may have caused inconsistencies in the background processing data. The separation of application and generation now ensures that a program is available to other applications immediately after it is generated.
+If, for example, modified programs were used in a background process, these were only accessible to other users after the background process was finished. After the program was generated, the system could not trigger a [COMMIT WORK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommit.htm), since this may have caused inconsistencies in the background processing data. The separation of application and generation now ensures that a program is available to other applications immediately after it is generated.
 
 Modification 14   
 
 Minimum and Maximum Values for Elementary Data Types
 
-The class CL\_ABAP\_EXCEPTIONAL\_VALUES provides the methods GET\_MAX\_VALUE and GET\_MIN\_VALUE, which are used to establish the value ranges of the elementary [data types](javascript:call_link\('abapdata_simple.htm'\)).
+The class CL\_ABAP\_EXCEPTIONAL\_VALUES provides the methods GET\_MAX\_VALUE and GET\_MIN\_VALUE, which are used to establish the value ranges of the elementary [data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_simple.htm).
 
 Modification 15   
 
 Name for a Component in the Structure Buffer
 
-Previously, if you used [<ASSIGN COMPONENT](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)) to access components of a Dictionary structure, then up to now the statement DESCRIBE FIELD ... HELP-ID returned the name of the corresponding data element. The name of the component of the dictionary structure is now returned instead. The following program now produces the value TRDIR-NAME instead of PROGRAMM.
+Previously, if you used [<ASSIGN COMPONENT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_mem_area_dynamic_dobj.htm) to access components of a Dictionary structure, then up to now the statement DESCRIBE FIELD ... HELP-ID returned the name of the corresponding data element. The name of the component of the dictionary structure is now returned instead. The following program now produces the value TRDIR-NAME instead of PROGRAMM.
 
 Example
 
@@ -157,13 +157,13 @@ Modification 16  
 
 Reading a Program Title
 
-Previously, the program title was read from the ABAP text elements using the statement [READ TEXTPOOL](javascript:call_link\('abapread_textpool.htm'\)). For performance and buffering reasons, the program title is now read from the table TRDIRT.
+Previously, the program title was read from the ABAP text elements using the statement [READ TEXTPOOL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_textpool.htm). For performance and buffering reasons, the program title is now read from the table TRDIRT.
 
 Modification 17   
 
 New Medium for Data Clusters
 
-The medium SHARED MEMORY has been added to the statements [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) and [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)). Unlike the variant SHARED BUFFER, whose memory is automatically modified after a displacement, memories must be managed explicitly if this type of repository is used. To do this, the statement [DELETE FROM SHARED MEMORY](javascript:call_link\('abapdelete_cluster.htm'\)) or a method of the class CL\_ABAP\_EXPIMP\_SHMEM can be used.
+The medium SHARED MEMORY has been added to the statements [EXPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_data_cluster.htm) and [IMPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapimport_data_cluster.htm). Unlike the variant SHARED BUFFER, whose memory is automatically modified after a displacement, memories must be managed explicitly if this type of repository is used. To do this, the statement [DELETE FROM SHARED MEMORY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_cluster.htm) or a method of the class CL\_ABAP\_EXPIMP\_SHMEM can be used.
 
 Modification 18   
 
@@ -180,7 +180,7 @@ Modification 19  
 
 New Additions for INSERT REPORT
 
-The following new additions are available for the statement [INSERT REPORT](javascript:call_link\('abapinsert_report.htm'\)):
+The following new additions are available for the statement [INSERT REPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_report.htm):
 
 -   ... KEEPING DIRECTORY ENTRY
 -   ... DIRECTORY ENTRY trdir

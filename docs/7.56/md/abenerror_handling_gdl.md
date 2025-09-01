@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarchitecture_gdl.htm) → 
 
 Error Handling
 
@@ -15,23 +15,23 @@ Error situations are always a possibility when a program is being executed. Thes
 
 ABAP offers various method for responding to error situations like these.
 
--   [Reaction to Error Situations](javascript:call_link\('abenreaction_error_guidl.htm'\) "Guideline")
--   [Classic and Class-Based Exceptions](javascript:call_link\('abenclass_exception_guidl.htm'\) "Guideline")
--   [Exception Categories](javascript:call_link\('abenexception_category_guidl.htm'\) "Guideline")
--   [Exception Texts](javascript:call_link\('abenexception_texts_guidl.htm'\) "Guideline")
--   [Using Exception Classes](javascript:call_link\('abenuse_exception_class_guidl.htm'\) "Guideline")
--   [Handling and Propagating Exceptions](javascript:call_link\('abenhandl_prop_except_guidl.htm'\) "Guideline")
--   [Cleanups After Exceptions](javascript:call_link\('abencleanup_guidl.htm'\) "Guideline")
--   [Assertions](javascript:call_link\('abenassertions_guidl.htm'\) "Guideline")
--   [Messages](javascript:call_link\('abenmessages_guidl.htm'\) "Guideline")
+-   [Reaction to Error Situations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreaction_error_guidl.htm "Guideline")
+-   [Classic and Class-Based Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_exception_guidl.htm "Guideline")
+-   [Exception Categories](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexception_category_guidl.htm "Guideline")
+-   [Exception Texts](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexception_texts_guidl.htm "Guideline")
+-   [Using Exception Classes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_exception_class_guidl.htm "Guideline")
+-   [Handling and Propagating Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhandl_prop_except_guidl.htm "Guideline")
+-   [Cleanups After Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencleanup_guidl.htm "Guideline")
+-   [Assertions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassertions_guidl.htm "Guideline")
+-   [Messages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessages_guidl.htm "Guideline")
 
 Continue
-[Reaction to Error Situations](javascript:call_link\('abenreaction_error_guidl.htm'\))
-[Classic and Class-Based Exceptions](javascript:call_link\('abenclass_exception_guidl.htm'\))
-[Exception Categories](javascript:call_link\('abenexception_category_guidl.htm'\))
-[Exception Texts](javascript:call_link\('abenexception_texts_guidl.htm'\))
-[Using Exception Classes](javascript:call_link\('abenuse_exception_class_guidl.htm'\))
-[Handling and Propagating Exceptions](javascript:call_link\('abenhandl_prop_except_guidl.htm'\))
-[Cleanups After Exceptions](javascript:call_link\('abencleanup_guidl.htm'\))
-[Assertions](javascript:call_link\('abenassertions_guidl.htm'\))
-[Messages](javascript:call_link\('abenmessages_guidl.htm'\))
+[Reaction to Error Situations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreaction_error_guidl.htm)
+[Classic and Class-Based Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_exception_guidl.htm)
+[Exception Categories](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexception_category_guidl.htm)
+[Exception Texts](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexception_texts_guidl.htm)
+[Using Exception Classes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenuse_exception_class_guidl.htm)
+[Handling and Propagating Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhandl_prop_except_guidl.htm)
+[Cleanups After Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencleanup_guidl.htm)
+[Assertions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassertions_guidl.htm)
+[Messages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessages_guidl.htm)

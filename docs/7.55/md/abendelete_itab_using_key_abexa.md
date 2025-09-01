@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [DELETE itab](javascript:call_link\('abapdelete_itab.htm'\)) →  [DELETE itab, itab\_lines](javascript:call_link\('abapdelete_itab_lines.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_processing_statements.htm) →  [DELETE itab](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab.htm) →  [DELETE itab, itab\_lines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_itab_lines.htm) → 
 
 itab - Deleting Lines Using WHERE
 
@@ -102,9 +102,9 @@ The table itab is a hashed table with a unique primary key and a non-unique seco
 
 The program measures the runtime of the statement DELETE itab, whereby a condition is set after WHERE on the column that determines the secondary key.
 
--   For demonstration purposes, the [pragma](javascript:call_link\('abenpragma_glosry.htm'\) "Glossary Entry") ##PRIMKEY is used to suppress the syntax check warning in the first DELETE statement stating that the primary key is being used to access the internal table without its component being filled. In this access, the entire internal table must be searched linearly.
+-   For demonstration purposes, the [pragma](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpragma_glosry.htm "Glossary Entry") ##PRIMKEY is used to suppress the syntax check warning in the first DELETE statement stating that the primary key is being used to access the internal table without its component being filled. In this access, the entire internal table must be searched linearly.
 
--   The secondary key is specified in the second DELETE statement. Since this key is not used to access the internal table after the table is filled, the secondary table key must first be constructed ([lazy update](javascript:call_link\('abenlazy_update_glosry.htm'\) "Glossary Entry")). This time is included in the DELETE statement measurement to make it considerably slower than the previous non-optimized statement.
+-   The secondary key is specified in the second DELETE statement. Since this key is not used to access the internal table after the table is filled, the secondary table key must first be constructed ([lazy update](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlazy_update_glosry.htm "Glossary Entry")). This time is included in the DELETE statement measurement to make it considerably slower than the previous non-optimized statement.
 
 -   Once the internal table is filled again, the secondary key is constructed explicitly using the method FLUSH\_ITAB\_KEY of the class CL\_ABAP\_ITAB\_UTILITIES. The time measured here is largely the runtime needed to create the index.
 

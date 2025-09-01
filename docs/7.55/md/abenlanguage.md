@@ -4,20 +4,20 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) → 
 
 Language Environment
 
 The language environment of a program is part of the runtime environment of an ABAP program and covers the following aspects:
 
--   [Language settings](javascript:call_link\('abenlanguage_settings.htm'\))
+-   [Language settings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlanguage_settings.htm)
 
-The language settings defined by the [logon language](javascript:call_link\('abenlogon_language_glosry.htm'\) "Glossary Entry") and a [text environment language](javascript:call_link\('abentext_env_langu_glosry.htm'\) "Glossary Entry") configure all language-dependent behavior of an ABAP program.
+The language settings defined by the [logon language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogon_language_glosry.htm "Glossary Entry") and a [text environment language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_env_langu_glosry.htm "Glossary Entry") configure all language-dependent behavior of an ABAP program.
 
--   [Format settings](javascript:call_link\('abencountry.htm'\))
+-   [Format settings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencountry.htm)
 
 Country-specific format settings that determine, for example, the format of numbers, dates, times, and time stamps.
 
 Continue
-[Language Settings](javascript:call_link\('abenlanguage_settings.htm'\))
-[Formatting Settings](javascript:call_link\('abencountry.htm'\))
+[Language Settings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlanguage_settings.htm)
+[Formatting Settings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencountry.htm)

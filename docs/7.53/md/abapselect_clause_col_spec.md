@@ -4,17 +4,17 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT - select\_clause](javascript:call_link\('abapselect_clause.htm'\)) →  [SELECT - select\_list](javascript:call_link\('abapselect_list.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Reads](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_reading.htm) →  [SELECT clauses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_clauses.htm) →  [SELECT - select\_clause](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_clause.htm) →  [SELECT - select\_list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm) → 
 
 SELECT - col\_spec
 
-[Quick Reference](javascript:call_link\('abapselect_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm)
 
 Syntax
 
-... [col](javascript:call_link\('abenopen_sql_columns.htm'\))
-  *|* [agg\_exp](javascript:call_link\('abapselect_aggregate.htm'\))
-  *|* [sql\_exp](javascript:call_link\('abapsql_expr.htm'\))
+... [col](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm)
+  *|* [agg\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_aggregate.htm)
+  *|* [sql\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm)
 
 Alternatives:
 
@@ -24,11 +24,11 @@ Alternatives:
 
 Effect
 
-When constructing the results set of a [query](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry") from individual columns, the columns can be specified either by directly entering the name of a column [col](javascript:call_link\('abenopen_sql_columns.htm'\)), by using an aggregate expression [agg\_exp](javascript:call_link\('abapselect_aggregate.htm'\)), or by using an SQL expression [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)).
+When constructing the results set of a [query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquery_glosry.htm "Glossary Entry") from individual columns, the columns can be specified either by directly entering the name of a column [col](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm), by using an aggregate expression [agg\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_aggregate.htm), or by using an SQL expression [sql\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm).
 
 Note
 
-If SQL expressions are specified together with aggregate expressions, the syntax check is performed in a [strict mode](javascript:call_link\('abenopensql_strict_mode_740_sp08.htm'\)), which handles the statement more strictly than the regular syntax check.
+If SQL expressions are specified together with aggregate expressions, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_mode_740_sp08.htm), which handles the statement more strictly than the regular syntax check.
 
 Alternative 1
 
@@ -36,15 +36,15 @@ Alternative 1
 
 Effect
 
-Specifies [col](javascript:call_link\('abenopen_sql_columns.htm'\)) of a [data source](javascript:call_link\('abapselect_data_source.htm'\)) column directly. If the name of a data source is specified directly, the relevant content is provided in the corresponding column of the result set. The data type of a column in the results set is the data type of the corresponding component in ABAP Dictionary. The corresponding data host variable after INTO or APPENDING be a [suitable](javascript:call_link\('abenselect_into_conversion.htm'\)) choice.
+Specifies [col](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm) of a [data source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm) column directly. If the name of a data source is specified directly, the relevant content is provided in the corresponding column of the result set. The data type of a column in the results set is the data type of the corresponding component in ABAP Dictionary. The corresponding data host variable after INTO or APPENDING be a [suitable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_into_conversion.htm) choice.
 
-If required, columns can be specified using a [path expression](javascript:call_link\('abenopen_sql_path.htm'\)) for associations of a CDS view. If the addition CORRESPONDING or an inline declaration @DATA(...) is used in the [INTO](javascript:call_link\('abapinto_clause.htm'\)) clause, any columns specified using a path expression must have an alternative column name alias defined using [AS](javascript:call_link\('abapselect_list.htm'\)).
+If required, columns can be specified using a [path expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path.htm) for associations of a CDS view. If the addition CORRESPONDING or an inline declaration @DATA(...) is used in the [INTO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinto_clause.htm) clause, any columns specified using a path expression must have an alternative column name alias defined using [AS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm).
 
 If the value of a column of type LRAW or LCHR is read, the associated length field of type INT2 or INT4 must also be read and specified in the list in front of the column of type LRAW or LCHR.
 
 Note
 
-Columns can only be specified directly in the obsolete form of [space-separated lists](javascript:call_link\('abenopen_sql_lists_obsolete.htm'\)).
+Columns can only be specified directly in the obsolete form of [space-separated lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_lists_obsolete.htm).
 
 Example
 
@@ -60,34 +60,34 @@ Alternative 2
 
 Effect
 
-Specifies an aggregate expression [agg\_exp](javascript:call_link\('abapselect_aggregate.htm'\)), in which a [data source](javascript:call_link\('abapselect_data_source.htm'\)) column is specified as an argument of an aggregate function. An aggregate function uses the values from multiple rows of the specified column to calculate a single value (with a data type that depends on the aggregate function), and then places this value in the column of the results set. The corresponding data host variable after INTO or APPENDING be a [suitable](javascript:call_link\('abenselect_into_conversion.htm'\)) choice.
+Specifies an aggregate expression [agg\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_aggregate.htm), in which a [data source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm) column is specified as an argument of an aggregate function. An aggregate function uses the values from multiple rows of the specified column to calculate a single value (with a data type that depends on the aggregate function), and then places this value in the column of the results set. The corresponding data host variable after INTO or APPENDING be a [suitable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_into_conversion.htm) choice.
 
-If aggregate expressions are used, any column identifiers that are not included as arguments of an aggregate function must be included after the addition [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)). The aggregate functions evaluate the contents of the groups defined by GROUP BY in the database system and pass the result to the merged rows of the results set.
+If aggregate expressions are used, any column identifiers that are not included as arguments of an aggregate function must be included after the addition [GROUP BY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgroupby_clause.htm). The aggregate functions evaluate the contents of the groups defined by GROUP BY in the database system and pass the result to the merged rows of the results set.
 
 The following rules apply when aggregate expressions are used in the SELECT list:
 
--   If the addition FOR ALL ENTRIES is used before [WHERE](javascript:call_link\('abapwhere.htm'\)), no aggregate expressions can be used except COUNT( \* ). In cases like these, the aggregate expression is not evaluated in the database, but is emulated on the AS ABAP.
+-   If the addition FOR ALL ENTRIES is used before [WHERE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhere.htm), no aggregate expressions can be used except COUNT( \* ). In cases like these, the aggregate expression is not evaluated in the database, but is emulated on the AS ABAP.
     
 -   Columns of type STRING, RAWSTRING, LCHR, or LRAW cannot be handled with aggregate functions.
     
--   When aggregate expressions are used, the SELECT statement bypasses [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry").
+-   When aggregate expressions are used, the SELECT statement bypasses [table buffering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_buffering_glosry.htm "Glossary Entry").
     
--   [Null values](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") are not included in the calculation for the aggregate functions. The result is a null value only if all the rows in the column in question contain a null value.
+-   [Null values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennull_value_glosry.htm "Glossary Entry") are not included in the calculation for the aggregate functions. The result is a null value only if all the rows in the column in question contain a null value.
     
--   If aggregate expressions only are used after SELECT, the results set has just one row and the addition GROUP BY is not required. If a non-table-like target area is specified after INTO in cases where only aggregate expressions are used and the addition GROUP BY is not specified after a single SELECT statement (which means not in the case of multiple statements joined using [UNION](javascript:call_link\('abapunion.htm'\))), the statement ENDSELECT cannot be specified (as is also the case when using the addition SINGLE). If the aggregate expression COUNT( \* ) is not used, an internal table can be specified after INTO regardless of the addition GROUP BY and the first row of this table filled.
+-   If aggregate expressions only are used after SELECT, the results set has just one row and the addition GROUP BY is not required. If a non-table-like target area is specified after INTO in cases where only aggregate expressions are used and the addition GROUP BY is not specified after a single SELECT statement (which means not in the case of multiple statements joined using [UNION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapunion.htm)), the statement ENDSELECT cannot be specified (as is also the case when using the addition SINGLE). If the aggregate expression COUNT( \* ) is not used, an internal table can be specified after INTO regardless of the addition GROUP BY and the first row of this table filled.
     
 -   If aggregate functions are used only without GROUP BY, the results set also contains a row if no data is found in the database. If COUNT( \* ) is used, the column in question contains the value 0. The columns of the other aggregate functions contain initial values. This row is assigned to the data object specified after INTO and, unless COUNT( \* ) is used only statically and an alternative column name is not specified, sy-subrc is set to 0 and sy-dbcnt is set to 1.
     
--   If COUNT( \* ) is used as the only static column specified and an alternative column name is not specified using [AS](javascript:call_link\('abapselect_list.htm'\)) and GROUP BY is not specified at the same time, the addition INTO can be omitted. The number of selected rows can then be taken from the system field sy-dbcnt. If more than 2,147,483,647 rows are selected, sy-dbcnt contains the value -1. If no data is found on the database, sy-dbcnt is set to 0 and sy-subrc is set to 4.
+-   If COUNT( \* ) is used as the only static column specified and an alternative column name is not specified using [AS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm) and GROUP BY is not specified at the same time, the addition INTO can be omitted. The number of selected rows can then be taken from the system field sy-dbcnt. If more than 2,147,483,647 rows are selected, sy-dbcnt contains the value -1. If no data is found on the database, sy-dbcnt is set to 0 and sy-subrc is set to 4.
     
--   To be able to evaluate the result of aggregate functions in [INTO*|*APPENDING CORRESPONDING FIELDS](javascript:call_link\('abapinto_clause.htm'\)) and [ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)), an alternative column name must be specified using [AS](javascript:call_link\('abapselect_list.htm'\)). This is then used by these additions.
+-   To be able to evaluate the result of aggregate functions in [INTO*|*APPENDING CORRESPONDING FIELDS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinto_clause.htm) and [ORDER BY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaporderby_clause.htm), an alternative column name must be specified using [AS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm). This is then used by these additions.
     
 
 Notes
 
--   Aggregate expressions cannot be specified together with [data\_source~\*](javascript:call_link\('abapselect_list.htm'\)) in the comma-separated list.
+-   Aggregate expressions cannot be specified together with [data\_source~\*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm) in the comma-separated list.
     
--   Aggregate expressions can only be specified in the obsolete form of [space-separated lists](javascript:call_link\('abenopen_sql_lists_obsolete.htm'\)).
+-   Aggregate expressions can only be specified in the obsolete form of [space-separated lists](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_lists_obsolete.htm).
     
 
 Example
@@ -104,17 +104,17 @@ Alternative 3
 
 Effect
 
-Specifies an SQL expression [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) that can have columns of the [data source](javascript:call_link\('abapselect_data_source.htm'\)), literals, [host variables](javascript:call_link\('abenopen_sql_host_variables.htm'\)), [host expressions](javascript:call_link\('abenopen_sql_host_expressions.htm'\)), or (again) SQL expressions as operands. An SQL expression uses the operands to determine a value (with a data type dependent on the expression) and places this value in the column of the results set. The corresponding data host variable after INTO or APPENDING be a [suitable](javascript:call_link\('abenselect_into_conversion.htm'\)) choice. The values of the data source columns specified as operands are the selected values of the current row.
+Specifies an SQL expression [sql\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm) that can have columns of the [data source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm), literals, [host variables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_host_variables.htm), [host expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_host_expressions.htm), or (again) SQL expressions as operands. An SQL expression uses the operands to determine a value (with a data type dependent on the expression) and places this value in the column of the results set. The corresponding data host variable after INTO or APPENDING be a [suitable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_into_conversion.htm) choice. The values of the data source columns specified as operands are the selected values of the current row.
 
-SQL expressions cannot currently be used together with the addition [FOR ALL ENTRIES](javascript:call_link\('abenwhere_logexp_itab.htm'\)). The data types usable in SQL expressions are also restricted. [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in particular cannot be edited in expressions.
+SQL expressions cannot currently be used together with the addition [FOR ALL ENTRIES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwhere_logexp_itab.htm). The data types usable in SQL expressions are also restricted. [LOBs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_glosry.htm "Glossary Entry") in particular cannot be edited in expressions.
 
-SQL expressions are not possible if the program attribute fixed point arithmetic is [switched off](javascript:call_link\('abennon_fixed_point_obsolete.htm'\)). They dictate that the syntax check is performed in a [strict mode](javascript:call_link\('abenopensql_strict_mode_740_sp05.htm'\)), which handles the statement more strictly than the regular syntax check. In particular, [host variables](javascript:call_link\('abenopen_sql_host_variables.htm'\)) must be prefixed with the escape character @ and lists must be specified as comma-separated lists.
+SQL expressions are not possible if the program attribute fixed point arithmetic is [switched off](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennon_fixed_point_obsolete.htm). They dictate that the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_mode_740_sp05.htm), which handles the statement more strictly than the regular syntax check. In particular, [host variables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_host_variables.htm) must be prefixed with the escape character @ and lists must be specified as comma-separated lists.
 
 Notes
 
 -   SQL expressions are calculated in the database system.
     
--   [Certain SQL expressions](javascript:call_link\('abenbuffer_expressions.htm'\)) can be calculated in the [table buffer](javascript:call_link\('abentable_buffer_glosry.htm'\) "Glossary Entry"). If any other SQL expressions are used, [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry") is bypassed.
+-   [Certain SQL expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbuffer_expressions.htm) can be calculated in the [table buffer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_buffer_glosry.htm "Glossary Entry"). If any other SQL expressions are used, [table buffering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_buffering_glosry.htm "Glossary Entry") is bypassed.
     
 
 Example

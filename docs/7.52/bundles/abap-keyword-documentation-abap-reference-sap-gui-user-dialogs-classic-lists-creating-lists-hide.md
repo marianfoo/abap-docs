@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abaphide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaphide.htm)
-- [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_hide_abexa.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.511Z
-
----
-
 ### abaphide.htm
-
-> **📖 Official SAP Documentation**: [abaphide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaphide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,11 +11,11 @@ Included pages: 2
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Creating Lists](javascript:call_link\('abenabap_lists.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpro_list.htm) →  [Creating Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_lists.htm) → 
 
 HIDE
 
-[Quick Reference](javascript:call_link\('abaphide_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaphide_shortref.htm)
 
 Syntax
 
@@ -42,16 +23,16 @@ HIDE dobj.
 
 Effect
 
-This statement stores the content of a variable dobj together with the current list line whose line number is contained in sy-linno in the [hide area](javascript:call_link\('abenhide_area_glosry.htm'\) "Glossary Entry") of the current list level. The data type of the variable dobj must be [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") and no field symbols or components of [Boxed Components](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry") can be specified that point to rows of internal tables, and no class attributes can be specified. The saved values can be read as followed:
+This statement stores the content of a variable dobj together with the current list line whose line number is contained in sy-linno in the [hide area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhide_area_glosry.htm "Glossary Entry") of the current list level. The data type of the variable dobj must be [flat](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenflat_glosry.htm "Glossary Entry") and no field symbols or components of [Boxed Components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenboxed_component_glosry.htm "Glossary Entry") can be specified that point to rows of internal tables, and no class attributes can be specified. The saved values can be read as followed:
 
 -   Any user action on a displayed screen list that causes a list event assigns all values saved using HIDE to the relevant variables.
     
--   If a list line of a list level is read or modified using the statements [READ LINE](javascript:call_link\('abapread_line.htm'\)) or [MODIFY LINE](javascript:call_link\('abapmodify_line.htm'\)), all the values of this line saved using HIDE are assigned to the relevant variables.
+-   If a list line of a list level is read or modified using the statements [READ LINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_line.htm) or [MODIFY LINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodify_line.htm), all the values of this line saved using HIDE are assigned to the relevant variables.
     
 
 Notes
 
--   The HIDE statement works independently of whether the [list cursor](javascript:call_link\('abenlist_cursor_glosry.htm'\) "Glossary Entry") was set. In particular, variables for empty list lines can be stored (that is, lines in which the list cursor was positioned using statements like [SKIP](javascript:call_link\('abapskip.htm'\))).
+-   The HIDE statement works independently of whether the [list cursor](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_cursor_glosry.htm "Glossary Entry") was set. In particular, variables for empty list lines can be stored (that is, lines in which the list cursor was positioned using statements like [SKIP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapskip.htm)).
     
 -   The HIDE statement should be executed directly in the statement that has set the list cursor in the line.
     
@@ -60,7 +41,7 @@ Notes
 
 Example
 
-Saving square numbers and cubic numbers for a list of numbers. The example shows that any variable can be stored independently of the line content. In the real world, one would more likely save only the number and execute the calculation, when required, in the the event block for [AT LINE-SELECTION](javascript:call_link\('abapat_line-selection.htm'\)).
+Saving square numbers and cubic numbers for a list of numbers. The example shows that any variable can be stored independently of the line content. In the real world, one would more likely save only the number and execute the calculation, when required, in the the event block for [AT LINE-SELECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapat_line-selection.htm).
 
 REPORT ...
 DATA: square TYPE i,
@@ -76,7 +57,7 @@ START-OF-SELECTION.
 AT LINE-SELECTION.
   WRITE: square, cube.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 
@@ -100,20 +81,10 @@ Non-Handleable Exceptions
     
 
 Continue
-![Example](exa.gif "Example") [Lists, HIDE Technique](javascript:call_link\('abenlist_hide_abexa.htm'\))
+![Example](exa.gif "Example") [Lists, HIDE Technique](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_hide_abexa.htm)
 
-
-
-**📖 Source**: [abaphide.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaphide.htm)
 
 ### abenlist_hide_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_hide_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenlist_hide_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_hide_abexa.htm)
-
 
   
 
@@ -121,7 +92,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Creating Lists](javascript:call_link\('abenabap_lists.htm'\)) →  [HIDE](javascript:call_link\('abaphide.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpro_list.htm) →  [Creating Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_lists.htm) →  [HIDE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaphide.htm) → 
 
 Lists, HIDE Technique
 
@@ -201,7 +172,7 @@ Description
 
 At the event START-OF-SELECTION, the status FLIGHT is set for the basic list. In the status FLIGHT, the function key F2 and a pushbutton have been assigned the function code SELE (text SELECT). As a result, the user actions of double-clicking and choosing F2 or the pushbutton SELECT trigger the event AT USER-COMMAND.
 
-The three fields spfli-carrid, spfli-connid, and num are written to the [Hide area](javascript:call_link\('abenhide_area_glosry.htm'\) "Glossary Entry") while the basic list is created. After a line is selected, the details list defined for the function code SELE in AT USER-COMMAND is displayed. At the event AT USER-COMMAND, all stored Hide fields of the selected line are reloaded. num is used to check if a line of the actual list has been selected. The details list gets the status BOOKING where F2 is assigned the function code INFO (text: Booking Information). The details list displays data which can be selected using the Hide fields of the basic list. For each list line output, the system stores additional information in the [Hide area](javascript:call_link\('abenhide_area_glosry.htm'\) "Glossary Entry").
+The three fields spfli-carrid, spfli-connid, and num are written to the [Hide area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhide_area_glosry.htm "Glossary Entry") while the basic list is created. After a line is selected, the details list defined for the function code SELE in AT USER-COMMAND is displayed. At the event AT USER-COMMAND, all stored Hide fields of the selected line are reloaded. num is used to check if a line of the actual list has been selected. The details list gets the status BOOKING where F2 is assigned the function code INFO (text: Booking Information). The details list displays data which can be selected using the Hide fields of the basic list. For each list line output, the system stores additional information in the [Hide area](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhide_area_glosry.htm "Glossary Entry").
 
 Selecting a line on the details list displays the information stored in a dialog box with the status WIND. For the status WIND, the default settings have been adopted with comparison for the list status. sbook-bookid checks whether the line selection is valid.
 

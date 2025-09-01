@@ -4,35 +4,35 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Loops](javascript:call_link\('abenabap_loops.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_structures.htm) →  [Loops](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_loops.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20WHILE%2C%20ABAPWHILE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 WHILE
 
-[Short Reference](javascript:call_link\('abapwhile_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile_shortref.htm)
 
 Syntax
 
-WHILE [log\_exp](javascript:call_link\('abenlogexp.htm'\))
+WHILE [log\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm)
   *\[*statement\_block*\]*
 ENDWHILE.
 
 Effect
 
-Conditional loop. The statements WHILE and ENDWHILE define a control structure that can contain a complete [statement block](javascript:call_link\('abenstatement_block_glosry.htm'\) "Glossary Entry") statement\_block. After WHILE, any [logical expression](javascript:call_link\('abenlogical_expression_glosry.htm'\) "Glossary Entry") [log\_exp](javascript:call_link\('abenlogexp.htm'\)) can follow.
+Conditional loop. The statements WHILE and ENDWHILE define a control structure that can contain a complete [statement block](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatement_block_glosry.htm "Glossary Entry") statement\_block. After WHILE, any [logical expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_expression_glosry.htm "Glossary Entry") [log\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm) can follow.
 
-The statement block is repeated as long as the logical expression is true, or until it is exited with one of the statements to exit loops. In particular, the statement [EXIT](javascript:call_link\('abapexit_loop.htm'\)) is intended for exiting a loop completely. Within the statement block, the system field sy-index contains the number of previous loop passes, including the current pass. In nested loops, sy-index always refers to the current loop.
+The statement block is repeated as long as the logical expression is true, or until it is exited with one of the statements to exit loops. In particular, the statement [EXIT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_loop.htm) is intended for exiting a loop completely. Within the statement block, the system field sy-index contains the number of previous loop passes, including the current pass. In nested loops, sy-index always refers to the current loop.
 
 Hints
 
--   If WHILE loops are used to construct values or fill internal tables, they can usually be expressed more elegantly using conditional iterations with [FOR](javascript:call_link\('abenfor_conditional.htm'\)) in constructor expressions.
--   A maximum runtime can be configured using the [profile parameters](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") rdisp/scheduler/prio\_low/max\_runtime, rdisp/scheduler/prio\_normal/max\_runtime, and rdisp/scheduler/prio\_high/max\_runtime. If this runtime is exceeded because the logical expression is never false and the loop is not exited in any other way, the program is terminated by the runtime framework.
--   The obsolete addition [VARY](javascript:call_link\('abapwhile_vary.htm'\)) can be used to process a sequence of data objects in the memory.
+-   If WHILE loops are used to construct values or fill internal tables, they can usually be expressed more elegantly using conditional iterations with [FOR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_conditional.htm) in constructor expressions.
+-   A maximum runtime can be configured using the [profile parameters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") rdisp/scheduler/prio\_low/max\_runtime, rdisp/scheduler/prio\_normal/max\_runtime, and rdisp/scheduler/prio\_high/max\_runtime. If this runtime is exceeded because the logical expression is never false and the loop is not exited in any other way, the program is terminated by the runtime framework.
+-   The obsolete addition [VARY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile_vary.htm) can be used to process a sequence of data objects in the memory.
 
 Example
 
-Filling of an internal table with 100 lines. A [FOR](javascript:call_link\('abenfor.htm'\)) expression can now also be used for that purpose.
+Filling of an internal table with 100 lines. A [FOR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor.htm) expression can now also be used for that purpose.
 
 DATA itab TYPE TABLE OF i.
 WHILE lines( itab ) < 100.
@@ -40,4 +40,4 @@ WHILE lines( itab ) < 100.
 ENDWHILE.
 
 Continue
-[ENDWHILE](javascript:call_link\('abapendwhile.htm'\))
+[ENDWHILE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapendwhile.htm)

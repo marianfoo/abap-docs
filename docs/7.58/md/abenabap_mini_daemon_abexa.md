@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Daemon Framework (ADF)](javascript:call_link\('abenabap_daemon.htm'\)) →  [ADF - Examples for ABAP Daemons](javascript:call_link\('abenabap_daemon_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) →  [ABAP Daemon Framework (ADF)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon.htm) →  [ADF - Examples for ABAP Daemons](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ADF%20-%20Simple%20ABAP%20Daemon%2C%20ABENABAP_MINI_DAEMON_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ADF - Simple ABAP Daemon
 
-This example demonstrates a mini [ABAP daemon](javascript:call_link\('abenabap_daemon_glosry.htm'\) "Glossary Entry").
+This example demonstrates a mini [ABAP daemon](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_glosry.htm "Glossary Entry").
 
 Source Code   
 
@@ -61,7 +61,7 @@ ENDCLASS.
 
 Description   
 
-The class CL\_DEMO\_ABAP\_MINI\_DAEMON used by the class above demonstrates a mini [ABAP daemon class](javascript:call_link\('abenabap_daemon_class_glosry.htm'\) "Glossary Entry"). It implements only the following methods of the interface IF\_ABAP\_DAEMON\_EXTENSION:
+The class CL\_DEMO\_ABAP\_MINI\_DAEMON used by the class above demonstrates a mini [ABAP daemon class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_class_glosry.htm "Glossary Entry"). It implements only the following methods of the interface IF\_ABAP\_DAEMON\_EXTENSION:
 
 -   ON\_ACCEPT
     
@@ -92,13 +92,13 @@ The class CL\_DEMO\_ABAP\_MINI\_DAEMON used by the class above demonstrates a mi
                        ID 'DemoMiniDaemon'.
     ENDMETHOD.
     
-    This method indicates that the daemon is reacting to a message from a class. To enable this, the message is exported to the [cross-transaction application buffer](javascript:call_link\('abencrosstrans_app_buffer_glosry.htm'\) "Glossary Entry") of the shared memory.
+    This method indicates that the daemon is reacting to a message from a class. To enable this, the message is exported to the [cross-transaction application buffer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencrosstrans_app_buffer_glosry.htm "Glossary Entry") of the shared memory.
     
 
-The class CL\_DEMO\_ABAP\_SIMPLE\_DAEMON uses the [ABAP daemon manager](javascript:call_link\('abenabap_daemon_manager_glosry.htm'\) "Glossary Entry") to do the following:
+The class CL\_DEMO\_ABAP\_SIMPLE\_DAEMON uses the [ABAP daemon manager](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_manager_glosry.htm "Glossary Entry") to do the following:
 
 -   Start a daemon based on the class CL\_DEMO\_ABAP\_MINI\_DAEMON.
--   Send a [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") message using a temporary [ABAP daemon handle](javascript:call_link\('abenabap_daemon_handle_glosry.htm'\) "Glossary Entry").
+-   Send a [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") message using a temporary [ABAP daemon handle](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_handle_glosry.htm "Glossary Entry").
 -   Stop the daemon immediately, which is not a typical step.
 
 It then checks whether the daemon wrote the message to the shared memory.

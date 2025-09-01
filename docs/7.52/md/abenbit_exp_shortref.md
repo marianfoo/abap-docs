@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  B
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  B
 
 bit\_exp - Quick reference
 
-[Reference](javascript:call_link\('abapcompute_bit.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_bit.htm)
 
 Syntax
 
@@ -19,12 +19,12 @@ Syntax
 
 Effect
 
-Bit expression that calculates a binary result from operand operand. Bit expressions can be parenthesized explicitly using [( )](javascript:call_link\('abenbit_brackets.htm'\)) and can occur in the [reading positions of certain statements](javascript:call_link\('abenoperands_expressions.htm'\)).
+Bit expression that calculates a binary result from operand operand. Bit expressions can be parenthesized explicitly using [( )](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbit_brackets.htm) and can occur in the [reading positions of certain statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_expressions.htm).
 
 Additions
 
--   [BIT-NOT](javascript:call_link\('abapcompute_bit.htm'\))
+-   [BIT-NOT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_bit.htm)
     Negates an operand operand.
     
--   [BIT-AND*|*BIT-OR*|*BIT-XOR](javascript:call_link\('abenbit_operators.htm'\))
+-   [BIT-AND*|*BIT-OR*|*BIT-XOR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbit_operators.htm)
     Bit operators.

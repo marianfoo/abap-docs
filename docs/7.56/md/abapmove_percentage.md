@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Assignments](javascript:call_link\('abenobsolete_assignments.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_internal_obsolete.htm) →  [Obsolete Assignments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobsolete_assignments.htm) → 
 
 MOVE, PERCENTAGE
 
-[Short Reference](javascript:call_link\('abapmove_percentage_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove_percentage_shortref.htm)
 
 Obsolete Syntax
 
@@ -16,13 +16,13 @@ MOVE source TO destination PERCENTAGE perc *\[*LEFT*|*RIGHT*\]*.
 
 Effect
 
-This variant of the statement [MOVE](javascript:call_link\('abapmove_obs.htm'\)) (also obsolete), which is not allowed in classes, assigns the substring of the data object source that begins at the first position and whose length matches the percentage of the total length of source specified in perc, to the data object destination. By default, and if LEFT is specified, destination is left-aligned; if RIGHT is specified, it is right-aligned.
+This variant of the statement [MOVE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmove_obs.htm) (also obsolete), which is not allowed in classes, assigns the substring of the data object source that begins at the first position and whose length matches the percentage of the total length of source specified in perc, to the data object destination. By default, and if LEFT is specified, destination is left-aligned; if RIGHT is specified, it is right-aligned.
 
 The data type of the data objects source and destination must be character-like, otherwise the addition PERCENTAGE is ignored. perc expects a data object of type i. If the value of perc is less than or equal to 0, nothing is assigned. If the value of perc is greater than or equal to 100, the entire content of source is assigned.
 
 Hint
 
-If necessary, this variant of the statement MOVE can be replaced by [substring accesses](javascript:call_link\('abenoffset_length.htm'\)) with dynamic offsets/lengths or by [substring functions](javascript:call_link\('abensubstring_functions.htm'\)).
+If necessary, this variant of the statement MOVE can be replaced by [substring accesses](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoffset_length.htm) with dynamic offsets/lengths or by [substring functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubstring_functions.htm).
 
 Bad Example
 

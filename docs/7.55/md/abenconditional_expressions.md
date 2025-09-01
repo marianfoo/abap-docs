@@ -4,19 +4,19 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_flow_logic.htm) → 
 
 Conditional Expressions
 
-A conditional expression is a [constructor expression](javascript:call_link\('abenconstructor_expressions.htm'\)) that creates a value or raises a class-based exception depending on a logical expression or a case distinction. Conditional expressions are constructed using the following conditional operators:
+A conditional expression is a [constructor expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expressions.htm) that creates a value or raises a class-based exception depending on a logical expression or a case distinction. Conditional expressions are constructed using the following conditional operators:
 
--   [COND](javascript:call_link\('abenconditional_expression_cond.htm'\))
+-   [COND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_cond.htm)
 
--   [SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\))
+-   [SWITCH](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_switch.htm)
 
 Continue
-[COND, Conditional Operator](javascript:call_link\('abenconditional_expression_cond.htm'\))
-[SWITCH, Conditional Operator](javascript:call_link\('abenconditional_expression_switch.htm'\))
-[COND, SWITCH, result](javascript:call_link\('abenconditional_expression_result.htm'\))
-[COND, SWITCH, Type Inference for Actual Parameters](javascript:call_link\('abencond_constructor_inference.htm'\))
-![Example](exa.gif "Example") [Conditional Operator, Type Inference](javascript:call_link\('abencond_type_inference_abexa.htm'\))
+[COND, Conditional Operator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_cond.htm)
+[SWITCH, Conditional Operator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_switch.htm)
+[COND, SWITCH, result](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_result.htm)
+[COND, SWITCH, Type Inference for Actual Parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencond_constructor_inference.htm)
+![Example](exa.gif "Example") [Conditional Operator, Type Inference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencond_type_inference_abexa.htm)

@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_statements.htm) → 
 
 TRANSLATE
 
-[Short Reference](javascript:call_link\('abaptranslate_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptranslate_shortref.htm)
 
 Syntax
 
@@ -34,7 +34,7 @@ If UPPER is specified, all lowercase letters of the data object text are transla
 
 Hint
 
-To change the case of the letters in a character string in an operand position, a [case function](javascript:call_link\('abencase_functions.htm'\)) can be used that includes the functions of the statement TRANSLATE.
+To change the case of the letters in a character string in an operand position, a [case function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencase_functions.htm) can be used that includes the functions of the statement TRANSLATE.
 
 Example
 
@@ -50,13 +50,13 @@ Addition 2
 
 Effect
 
-If USING is specified, the characters in text are translated in accordance with the rule specified in the data object mask. mask is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry") whose value is interpreted as a string of character pairs. Starting with the first pair, a search is performed in text for the first character in every pair and each occurrence is replaced with the second character of the pair. The search is case-sensitive. If mask contains a character multiple times as the first character of a pair, only the first pair is respected. A character in text that has already been replaced cannot be replaced again in the same TRANSLATE statement. Therefore, if the second character of a pair in mask is listed as the first character of a subsequent pair, the second pair affects only the original characters in text.
+If USING is specified, the characters in text are translated in accordance with the rule specified in the data object mask. mask is a [character-like expression position](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry") whose value is interpreted as a string of character pairs. Starting with the first pair, a search is performed in text for the first character in every pair and each occurrence is replaced with the second character of the pair. The search is case-sensitive. If mask contains a character multiple times as the first character of a pair, only the first pair is respected. A character in text that has already been replaced cannot be replaced again in the same TRANSLATE statement. Therefore, if the second character of a pair in mask is listed as the first character of a subsequent pair, the second pair affects only the original characters in text.
 
 Trailing blanks in data objects text and mask are respected for data objects. If mask contains an odd number of characters, the last character is ignored. If mask is an empty string, no replacements are made.
 
 Hint
 
-To translate a character string in an operand position, a [translate function](javascript:call_link\('abentranslate_functions.htm'\)) that includes the functions of the statement TRANSLATE can also be used.
+To translate a character string in an operand position, a [translate function](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentranslate_functions.htm) that includes the functions of the statement TRANSLATE can also be used.
 
 Example
 

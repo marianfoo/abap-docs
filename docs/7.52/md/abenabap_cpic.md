@@ -4,15 +4,15 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Data and Communication Interfaces](javascript:call_link\('abenextern_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Data and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenextern_obsolete.htm) → 
 
 CPI-C Interface
 
-This section describes cross-system communications between two ABAP programs as realized using the [COMMUNICATION](javascript:call_link\('abapcommunication.htm'\)) statement.
+This section describes cross-system communications between two ABAP programs as realized using the [COMMUNICATION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcommunication.htm) statement.
 
 Note
 
-SDK for CPI-C is no longer supported. The CPI-C libraries and the documentation for programming are no longer delivered. For new programs, SDK and the libraries for [RFC](javascript:call_link\('abenrfc_glosry.htm'\) "Glossary Entry") must be used. The API for CPI-C was retained to support existing programs and for internal technical purposes.
+SDK for CPI-C is no longer supported. The CPI-C libraries and the documentation for programming are no longer delivered. For new programs, SDK and the libraries for [RFC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_glosry.htm "Glossary Entry") must be used. The API for CPI-C was retained to support existing programs and for internal technical purposes.
 
 Continue
-[COMMUNICATION](javascript:call_link\('abapcommunication.htm'\))
+[COMMUNICATION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcommunication.htm)

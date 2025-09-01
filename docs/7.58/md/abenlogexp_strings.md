@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [Logical Expressions (log\_exp)](javascript:call_link\('abenlogexp.htm'\)) →  [Comparison Expressions (rel\_exp)](javascript:call_link\('abenlogexp_comp.htm'\)) →  [rel\_exp - Comparison Operators](javascript:call_link\('abenlogexp_op.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_expr_func.htm) →  [Logical Expressions (log\_exp)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp.htm) →  [Comparison Expressions (rel\_exp)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_comp.htm) →  [rel\_exp - Comparison Operators](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_op.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20rel_exp%20-%20Comparison%20Operators%20for%20Character-Like%20Data%20Types%2C%20ABENLOGEXP_STRINGS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggesti
 on%20for%20improvement:)
 
 rel\_exp - Comparison Operators for Character-Like Data Types
 
-The following table shows the comparison operators for comparisons between character-like operands (single data objects and return values or [string expressions](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry")) in [comparison expressions](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry"). Trailing blanks are respected for operands of type string. Unless documented differently in the following table, trailing blanks are not respected for operands of types c, d, n, and t.
+The following table shows the comparison operators for comparisons between character-like operands (single data objects and return values or [string expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_expression_glosry.htm "Glossary Entry")) in [comparison expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomparison_expression_glosry.htm "Glossary Entry"). Trailing blanks are respected for operands of type string. Unless documented differently in the following table, trailing blanks are not respected for operands of types c, d, n, and t.
 
 operator
 
@@ -43,7 +43,7 @@ Contains No String: True, if a comparison expression with CS is false, that is i
 
 CP
 
-Conforms to Pattern: True, if the content of operand1 matches the pattern in operand2. Wildcard characters can be used to form the operand2 pattern, where \* represents any character string, including an empty string, and + represents any character. It is not case-sensitive. Trailing blanks in the left operand are respected. If the comparison is true, sy-fdpos contains the offset of operand2 in operand1, whereby leading wildcard characters \* in operand2 are ignored if operand2 also contains other characters. If the comparison is false, sy-fdpos contains the length of operand1. Characters in operand2 can be marked for direct comparisons by prefixing them with the [escape character](javascript:call_link\('abenescape_character_glosry.htm'\) "Glossary Entry") #. For such characters in operand2, the operator is case-sensitive, wildcard characters and the escape character are not subject to special handling and trailing blanks are relevant.
+Conforms to Pattern: True, if the content of operand1 matches the pattern in operand2. Wildcard characters can be used to form the operand2 pattern, where \* represents any character string, including an empty string, and + represents any character. It is not case-sensitive. Trailing blanks in the left operand are respected. If the comparison is true, sy-fdpos contains the offset of operand2 in operand1, whereby leading wildcard characters \* in operand2 are ignored if operand2 also contains other characters. If the comparison is false, sy-fdpos contains the length of operand1. Characters in operand2 can be marked for direct comparisons by prefixing them with the [escape character](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenescape_character_glosry.htm "Glossary Entry") #. For such characters in operand2, the operator is case-sensitive, wildcard characters and the escape character are not subject to special handling and trailing blanks are relevant.
 
 NP
 
@@ -52,11 +52,11 @@ Does Not Conform to Pattern: True, if a comparison expression with CP is false, 
 Hints
 
 -   For the operators CP and NP, multiple wildcard characters \* one after another have the same effect as the specification of a single wildcard \* character. The wildcard character + does not represent an empty string.
--   When using the operators CP and NP, patterns without wildcard characters in operand2 do not make any sense. Instead, a comparison with [\=](javascript:call_link\('abenlogexp_any_operand.htm'\)) can be performed.
--   Operands of byte-like data types cannot be compared using the comparison operators from this table. To perform corresponding comparisons for byte-like operands, [comparison operators for byte-like data types](javascript:call_link\('abenlogexp_bytes.htm'\)) can be used.
--   Instead of the comparison operators in this table [predicate functions](javascript:call_link\('abenchar_comp_op_vs_funct.htm'\)) can also be used.
--   The statement [FIND](javascript:call_link\('abapfind.htm'\)) and the search functions [find](javascript:call_link\('abensearch_functions.htm'\)) can be quicker than the comparison operator CS by some magnitude.
--   When using comparison operators for character-like data types in a [conditional expression](javascript:call_link\('abenconditional_expression_glosry.htm'\) "Glossary Entry") or in a [Boolean function](javascript:call_link\('abenboole_function_glosry.htm'\) "Glossary Entry"), the system field sy-fdpos has the value set in the expression once the expression is processed.
+-   When using the operators CP and NP, patterns without wildcard characters in operand2 do not make any sense. Instead, a comparison with [\=](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_any_operand.htm) can be performed.
+-   Operands of byte-like data types cannot be compared using the comparison operators from this table. To perform corresponding comparisons for byte-like operands, [comparison operators for byte-like data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogexp_bytes.htm) can be used.
+-   Instead of the comparison operators in this table [predicate functions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchar_comp_op_vs_funct.htm) can also be used.
+-   The statement [FIND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfind.htm) and the search functions [find](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensearch_functions.htm) can be quicker than the comparison operator CS by some magnitude.
+-   When using comparison operators for character-like data types in a [conditional expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_glosry.htm "Glossary Entry") or in a [Boolean function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenboole_function_glosry.htm "Glossary Entry"), the system field sy-fdpos has the value set in the expression once the expression is processed.
 
 Example
 
@@ -70,7 +70,7 @@ ENDIF.
 
 Example
 
-Display of the first position of a letter in a field. The operator CS is used in the conditional operator [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)), which returns the content of the system field sy-fdpos.
+Display of the first position of a letter in a field. The operator CS is used in the conditional operator [COND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconditional_expression_cond.htm), which returns the content of the system field sy-fdpos.
 
 FINAL(abcde) = \`abcdefghijlmnopqrstuvwxyz\`.
 cl\_demo\_output=>display( COND #( WHEN abcde CS 'H' THEN sy-fdpos ) ).
@@ -87,8 +87,8 @@ ENDIF.
 
 Executable Example
 
-[Comparison Operators for Character-Like Data Types](javascript:call_link\('abencharacter_comparisons_abexa.htm'\))
+[Comparison Operators for Character-Like Data Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_comparisons_abexa.htm)
 
 Continue
-[rel\_exp - Comparison Operators vs. Predicate Functions](javascript:call_link\('abenchar_comp_op_vs_funct.htm'\))
-![Example](exa.gif "Example") [rel\_exp - Comparison Operators for Character-Like Data Types](javascript:call_link\('abencharacter_comparisons_abexa.htm'\))
+[rel\_exp - Comparison Operators vs. Predicate Functions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchar_comp_op_vs_funct.htm)
+![Example](exa.gif "Example") [rel\_exp - Comparison Operators for Character-Like Data Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_comparisons_abexa.htm)

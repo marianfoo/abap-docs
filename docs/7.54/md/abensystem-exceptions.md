@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Program Flow](javascript:call_link\('abenobsolete_program_flow.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Program Flow](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobsolete_program_flow.htm) → 
 
 Obsolete Catchable Runtime Errors
 
@@ -16,13 +16,13 @@ With the introduction of class-based exceptions, an exception class is assigned 
 
 Catchable runtime errors cannot be triggered explicitly; they are only triggered implicitly by the runtime environment.
 
--   [Alphabetical Overview of Catchable Runtime Errors](javascript:call_link\('abenueb-abfb-sysexc.htm'\))
+-   [Alphabetical Overview of Catchable Runtime Errors](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenueb-abfb-sysexc.htm)
 
--   [Assignment of Catchable Runtime Errors to Exception Groups](javascript:call_link\('abensysexc-errkl.htm'\))
+-   [Assignment of Catchable Runtime Errors to Exception Groups](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensysexc-errkl.htm)
 
--   [Handling Catchable Runtime Errors](javascript:call_link\('abapcatch_sys.htm'\))
+-   [Handling Catchable Runtime Errors](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcatch_sys.htm)
 
 Continue
-[Alphabetical Overview of Catchable Runtime Errors](javascript:call_link\('abenueb-abfb-sysexc.htm'\))
-[Assignment of Catchable Runtime Errors to Exception Groups](javascript:call_link\('abensysexc-errkl.htm'\))
-[CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\))
+[Alphabetical Overview of Catchable Runtime Errors](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenueb-abfb-sysexc.htm)
+[Assignment of Catchable Runtime Errors to Exception Groups](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensysexc-errkl.htm)
+[CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcatch_sys.htm)

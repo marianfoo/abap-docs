@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 mesh path expression
 
-Standalone specification of a [mesh path](javascript:call_link\('abenmesh_path_glosry.htm'\) "Glossary Entry") in an [operand position](javascript:call_link\('abenoperand_position_glosry.htm'\) "Glossary Entry") for which the same rules apply as for a [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry").
+Standalone specification of a [mesh path](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmesh_path_glosry.htm "Glossary Entry") in an [operand position](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperand_position_glosry.htm "Glossary Entry") for which the same rules apply as for a [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expression_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenmesh_path_expression.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmesh_path_expression.htm)

@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  D
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_shortref.htm) →  D
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DATA%2C%20ABAPDATA_SHORTREF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DATA - Short Reference
 
-[Reference](javascript:call_link\('abapdata.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata.htm)
 
 Syntax
 
@@ -71,37 +71,37 @@ Declares a variable or an instance attribute var.
 
 Additions   
 
--   [(len)](javascript:call_link\('abapdata_simple.htm'\))
+-   [(len)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_simple.htm)
     Defines the length when making reference to generic built in ABAP types.
--   [TYPE](javascript:call_link\('abapdata.htm'\))
+-   [TYPE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata.htm)
     Defines the type by referring to a data type.
--   [LIKE](javascript:call_link\('abapdata.htm'\))
+-   [LIKE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata.htm)
     Defines the type by referring to a data object.
--   [*\[*LENGTH len*\]* *\[*DECIMALS dec*\]*](javascript:call_link\('abapdata_simple.htm'\))
-    Defines the length and number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") when referencing generically built-in ABAP types.
--   [LINE OF](javascript:call_link\('abapdata_referring.htm'\))
+-   [*\[*LENGTH len*\]* *\[*DECIMALS dec*\]*](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_simple.htm)
+    Defines the length and number of [decimal places](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecimal_place_glosry.htm "Glossary Entry") when referencing generically built-in ABAP types.
+-   [LINE OF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_referring.htm)
     Defines the type by referring to the line type of an internal table.
--   [BOXED](javascript:call_link\('abapdata_boxed.htm'\))
-    Declares a structure as a [static box](javascript:call_link\('abenstatic_box_glosry.htm'\) "Glossary Entry").
--   [REF TO](javascript:call_link\('abapdata_references.htm'\))
+-   [BOXED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_boxed.htm)
+    Declares a structure as a [static box](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_box_glosry.htm "Glossary Entry").
+-   [REF TO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_references.htm)
     Creates a reference variable.
--   [*{**\[*STANDARD*\]* TABLE*}**|**{*SORTED TABLE*}**|**{*HASHED TABLE*}*](javascript:call_link\('abaptypes_tabcat.htm'\))
-    Creates a [standard](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry"), [sorted](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry"), or [hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry").
--   [WITH *{**\[*UNIQUE*|*NON-UNIQUE*\]* *{*KEY *\[*primary\_key *\[*ALIAS alias\_name*\]* COMPONENTS*\]* comp1 comp2 ...*}**}**|**{*DEFAULT KEY*}*](javascript:call_link\('abapdata_primary_key.htm'\))
-    Defines a unique or non-unique primary table key primary\_key. The components of the key are either specified explicitly or are defined by a [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry"). ALIAS can be used to define an alias name alias\_name.
--   [WITH EMPTY KEY](javascript:call_link\('abapdata_primary_key.htm'\))
+-   [*{**\[*STANDARD*\]* TABLE*}**|**{*SORTED TABLE*}**|**{*HASHED TABLE*}*](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_tabcat.htm)
+    Creates a [standard](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_table_glosry.htm "Glossary Entry"), [sorted](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensorted_table_glosry.htm "Glossary Entry"), or [hashed table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhashed_table_glosry.htm "Glossary Entry").
+-   [WITH *{**\[*UNIQUE*|*NON-UNIQUE*\]* *{*KEY *\[*primary\_key *\[*ALIAS alias\_name*\]* COMPONENTS*\]* comp1 comp2 ...*}**}**|**{*DEFAULT KEY*}*](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_primary_key.htm)
+    Defines a unique or non-unique primary table key primary\_key. The components of the key are either specified explicitly or are defined by a [standard key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_key_glosry.htm "Glossary Entry"). ALIAS can be used to define an alias name alias\_name.
+-   [WITH EMPTY KEY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_primary_key.htm)
     Defines an empty primary table key.
--   [WITH *{*UNIQUE HASHED*}**|**{**{*UNIQUE*|*NON-UNIQUE*}* SORTED*}* KEY key\_name *\[*ALIAS alias\_name*\]* COMPONENTS comp1 comp2 ...](javascript:call_link\('abapdata_secondary_key.htm'\))
+-   [WITH *{*UNIQUE HASHED*}**|**{**{*UNIQUE*|*NON-UNIQUE*}* SORTED*}* KEY key\_name *\[*ALIAS alias\_name*\]* COMPONENTS comp1 comp2 ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_secondary_key.htm)
     Defines a secondary table key key\_name. It is managed using either a unique hashed algorithm, a unique sorted secondary index, or a non-unique sorted secondary index. ALIAS can be used to define an alias name alias\_name.
--   [INITIAL SIZE n](javascript:call_link\('abapdata_itab.htm'\))
+-   [INITIAL SIZE n](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_itab.htm)
     Defines the initial memory usage of an internal table.
--   [WITH HEADER LINE](javascript:call_link\('abapdata_header_line.htm'\))
-    Obsolete: Defines a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") of the same name for an internal table.
--   [RANGE OF](javascript:call_link\('abapdata_ranges.htm'\))
-    Defines a [ranges table](javascript:call_link\('abenranges_table_glosry.htm'\) "Glossary Entry") with the line type of a [ranges table](javascript:call_link\('abenranges_table_glosry.htm'\) "Glossary Entry").
--   [VALUE *{* val *|* *{*IS INITIAL*}* *}*](javascript:call_link\('abapdata_options.htm'\))
+-   [WITH HEADER LINE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_header_line.htm)
+    Obsolete: Defines a [header line](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenheader_line_glosry.htm "Glossary Entry") of the same name for an internal table.
+-   [RANGE OF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_ranges.htm)
+    Defines a [ranges table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenranges_table_glosry.htm "Glossary Entry") with the line type of a [ranges table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenranges_table_glosry.htm "Glossary Entry").
+-   [VALUE *{* val *|* *{*IS INITIAL*}* *}*](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_options.htm)
     Defines a start value of the data object as val or as the initial value.
--   [READ-ONLY](javascript:call_link\('abapdata_options.htm'\))
-    Protects non- [private](javascript:call_link\('abenprivate_glosry.htm'\) "Glossary Entry") attributes from writes from outside of their own class.
--   [READER*|*WRITER*|*LOCATOR*|**{*LOB HANDLE*}* FOR ... COLUMNS ...](javascript:call_link\('abapdata_lob_handle.htm'\))
-    Derives an [LOB handle structure](javascript:call_link\('abenlob_handle_structure_glosry.htm'\) "Glossary Entry") from the structure of a database table or DDIC database view.
+-   [READ-ONLY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_options.htm)
+    Protects non- [private](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprivate_glosry.htm "Glossary Entry") attributes from writes from outside of their own class.
+-   [READER*|*WRITER*|*LOCATOR*|**{*LOB HANDLE*}* FOR ... COLUMNS ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_lob_handle.htm)
+    Derives an [LOB handle structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlob_handle_structure_glosry.htm "Glossary Entry") from the structure of a database table or DDIC database view.

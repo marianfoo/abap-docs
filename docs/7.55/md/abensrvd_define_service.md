@@ -4,14 +4,14 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Services (BS)](javascript:call_link\('abencds_business_services.htm'\)) →  [ABAP CDS - Service Definitions](javascript:call_link\('abencds_service_definitions.htm'\)) →  [ABAP CDS - SDL for Service Definitions](javascript:call_link\('abencds_f1_sdl_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Services (BS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_services.htm) →  [ABAP CDS - Service Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_service_definitions.htm) →  [ABAP CDS - SDL for Service Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_sdl_syntax.htm) → 
 
 CDS SDL - DEFINE SERVICE
 
 Syntax
 
-*\[*[@service\_annot1](javascript:call_link\('abencds_define_service_annos.htm'\))*\]*
-*\[*[@service\_annot2](javascript:call_link\('abencds_define_service_annos.htm'\))*\]*
+*\[*[@service\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_service_annos.htm)*\]*
+*\[*[@service\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_service_annos.htm)*\]*
   ...
 *\[*DEFINE*\]* SERVICE service
 {
@@ -22,13 +22,13 @@ Syntax
 
 Effect
 
-The statement DEFINE SERVICE implements a [CDS service definition](javascript:call_link\('abencds_service_definition_glosry.htm'\) "Glossary Entry") with the name service in [CDS SDL](javascript:call_link\('abencds_sdl_glosry.htm'\) "Glossary Entry"). The name service is in the same namespace as the [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") defined with [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") and must satisfy the appropriate naming conventions.
+The statement DEFINE SERVICE implements a [CDS service definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_service_definition_glosry.htm "Glossary Entry") with the name service in [CDS SDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_sdl_glosry.htm "Glossary Entry"). The name service is in the same namespace as the [CDS entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry") defined with [CDS DDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddl_glosry.htm "Glossary Entry") and must satisfy the appropriate naming conventions.
 
-The service definition exposes the CDS entities cds\_entity1, cds\_entity2, ... for a [business service](javascript:call_link\('abenbusiness_service_glosry.htm'\) "Glossary Entry"). Each CDS entity is exposed using its own statement EXPOSE within the curly brackets. Each statement must be closed by a semicolon ;. At least one CDS entity must be exposed. The following CDS entities can be specified:
+The service definition exposes the CDS entities cds\_entity1, cds\_entity2, ... for a [business service](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbusiness_service_glosry.htm "Glossary Entry"). Each CDS entity is exposed using its own statement EXPOSE within the curly brackets. Each statement must be closed by a semicolon ;. At least one CDS entity must be exposed. The following CDS entities can be specified:
 
--   [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry")
+-   [CDS views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_view_glosry.htm "Glossary Entry")
 
--   [CDS Abstract entities](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry")
+-   [CDS Abstract entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry")
 
 -   Customer entities
 
@@ -38,13 +38,13 @@ For each CDS entity, the addition AS can be used to specify an optional alias na
 
 In syntax checks and when the service definition is activated, the relationship between the exposed CDS entities is not verified.
 
-The optional annotations [@service\_annot1](javascript:call_link\('abencds_define_service_annos.htm'\)), [@service\_annot2](javascript:call_link\('abencds_define_service_annos.htm'\)), ... can be specified in front of the statement DEFINE SERVICE.
+The optional annotations [@service\_annot1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_service_annos.htm), [@service\_annot2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_service_annos.htm), ... can be specified in front of the statement DEFINE SERVICE.
 
 Hints
 
--   If multiple CDS entities are exposed in a single service definition, these entities must be related semantically. For example, it is recommended that a service definition that exposes a CDS view, which itself exposes [CDS associations](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry"), also exposes the [association targets](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") of these associations. Together with the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") of a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") all other CDS entities of the [composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") should also be exposed.
+-   If multiple CDS entities are exposed in a single service definition, these entities must be related semantically. For example, it is recommended that a service definition that exposes a CDS view, which itself exposes [CDS associations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_association_glosry.htm "Glossary Entry"), also exposes the [association targets](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenassociation_target_glosry.htm "Glossary Entry") of these associations. Together with the [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenroot_entity_glosry.htm "Glossary Entry") of a [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") all other CDS entities of the [composition tree](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") should also be exposed.
 
--   If a service definition is used in a business service, it must be associated with a [RESTful](javascript:call_link\('abenrestful_glosry.htm'\) "Glossary Entry") protocol using a [service binding](javascript:call_link\('abenservice_binding_glosry.htm'\) "Glossary Entry"). The service definition itself, however, is independent of the protocol in question and can be used with different protocols in multiple service bindings.
+-   If a service definition is used in a business service, it must be associated with a [RESTful](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_glosry.htm "Glossary Entry") protocol using a [service binding](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenservice_binding_glosry.htm "Glossary Entry"). The service definition itself, however, is independent of the protocol in question and can be used with different protocols in multiple service bindings.
 
 -   Further restrictions apply to the CDS entities in question when using a service definition in a service binding. For example, the definition must have at least one key field or the cardinalities of the CDS associations must be defined correctly.
 
@@ -72,7 +72,7 @@ define service DEMO\_SD\_CROSS\_JOIN {
 
 Executable Example
 
-See [Consuming Business Services](javascript:call_link\('abenconsume_bs_abexa.htm'\)).
+See [Consuming Business Services](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconsume_bs_abexa.htm).
 
 Continue
-[CDS SDL - service\_annot](javascript:call_link\('abencds_define_service_annos.htm'\))
+[CDS SDL - service\_annot](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_define_service_annos.htm)

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 7.0 and its EhPs](javascript:call_link\('abennews-70_ehps.htm'\)) →  [Changes in Release 7.0, EhP2](javascript:call_link\('abennews-71.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews.htm) →  [Changes in Release 7.0 and its EhPs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-70_ehps.htm) →  [Changes in Release 7.0, EhP2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-71.htm) → 
 
 ABAP Objects in Release 7.0, EhP2
 
@@ -18,13 +18,13 @@ Modification 1
 
 Declaring Instance Constructors
 
-As of Release 7.0, EhP2, the [METHODS](javascript:call_link\('abapmethods_constructor.htm'\)) statement can be used to declare an [instance constructor](javascript:call_link\('abeninstance_constructor_glosry.htm'\) "Glossary Entry") in all [visibility areas](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry"), the instantiablity of which is more general than or equal to that specified in the [CREATE](javascript:call_link\('abapclass_options.htm'\)) addition of the [CLASS DEFINITION](javascript:call_link\('abapclass_definition.htm'\)) statement. Until now, this was only possible with the public visibility area (change has already been downported to Release 7.0).
+As of Release 7.0, EhP2, the [METHODS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_constructor.htm) statement can be used to declare an [instance constructor](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninstance_constructor_glosry.htm "Glossary Entry") in all [visibility areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvisibility_section_glosry.htm "Glossary Entry"), the instantiablity of which is more general than or equal to that specified in the [CREATE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_options.htm) addition of the [CLASS DEFINITION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass_definition.htm) statement. Until now, this was only possible with the public visibility area (change has already been downported to Release 7.0).
 
 Modification 2
 
 C Destructor
 
-As of Release 7.0, EhP2, more than one attribute can be passed in SYSTEM-CALL in the [C Destructor](javascript:call_link\('abenc_destructor.htm'\)).
+As of Release 7.0, EhP2, more than one attribute can be passed in SYSTEM-CALL in the [C Destructor](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenc_destructor.htm).
 
 Modification 3
 

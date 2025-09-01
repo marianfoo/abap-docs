@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_type_obj_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Declaration%20of%20Variables%2C%20ABENDECLARATION_VARIABLES_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -18,9 +18,9 @@ Variables can be declared in the following contexts:
 -   Locally in the program
     -   in the global declaration part of a program
     -   as attributes of local classes and interfaces
-    -   in procedures ([Methods](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline"))
+    -   in procedures ([Methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunct_module_subroutine_guidl.htm "Guideline"))
 
-Variables that are declared within most of the event blocks or dialog modules as well as between completed processing blocks also belong to the global declaration part of a program, but violate the rule [implement global declarations centrally](javascript:call_link\('abenglobal_declar_guidl.htm'\) "Guideline").
+Variables that are declared within most of the event blocks or dialog modules as well as between completed processing blocks also belong to the global declaration part of a program, but violate the rule [implement global declarations centrally](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenglobal_declar_guidl.htm "Guideline").
 
 Program-local variables that are declared in the global declaration part of a program are generally referred to as global variables.
 
@@ -32,24 +32,24 @@ Do not declare variables in the global declaration part of a program. Variables 
 
 Details   
 
-This rule is directly derived from the basic rule [use ABAP objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline"). If you disregard helper variables in procedures ([methods](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")), the content of the variable of a program indicates the state of the program and consequently the state of an application. In object-oriented programming, the class replaces the program, and the state of an application is no longer the state of the programs but the state of the classes or objects.
+This rule is directly derived from the basic rule [use ABAP objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_obj_progr_model_guidl.htm "Guideline"). If you disregard helper variables in procedures ([methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")), the content of the variable of a program indicates the state of the program and consequently the state of an application. In object-oriented programming, the class replaces the program, and the state of an application is no longer the state of the programs but the state of the classes or objects.
 
-Furthermore, the rule [exploit the benefits of encapsulation](javascript:call_link\('abenencapsulation_guidl.htm'\) "Guideline") also assumes a critical role. The data of an application is sufficiently protected from misuse only in the visibility sections of classes.
+Furthermore, the rule [exploit the benefits of encapsulation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenencapsulation_guidl.htm "Guideline") also assumes a critical role. The data of an application is sufficiently protected from misuse only in the visibility sections of classes.
 
 Except for the following exception, you should not declare any global variables in a new ABAP program. They indicate a poor programming style that disregards proven concepts such as task sharing and encapsulation. If you need to access the same data of a program from multiple local classes and interfaces, you must create them in an appropriate visibility section of a local class or an interface. These can also be local classes or interfaces that contain nothing but such attributes.
 
 Hint
 
-The above rule also applies to the declaration of [field symbols](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline") with the FIELD-SYMBOLS statement.
+The above rule also applies to the declaration of [field symbols](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_access_data_obj_guidl.htm "Guideline") with the FIELD-SYMBOLS statement.
 
 Exception
 
-If classic dynpros and selections screens are still used instead of [SAPUI5](javascript:call_link\('abeninterface_tech_guidl.htm'\) "Guideline") or [Web Dynpro ABAP](javascript:call_link\('abeninterface_tech_guidl.htm'\) "Guideline"), global variables are required as interfaces for the communication between ABAP and classic dynpros. Global variables can be declared using the following statements for this purpose alone:
+If classic dynpros and selections screens are still used instead of [SAPUI5](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_tech_guidl.htm "Guideline") or [Web Dynpro ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_tech_guidl.htm "Guideline"), global variables are required as interfaces for the communication between ABAP and classic dynpros. Global variables can be declared using the following statements for this purpose alone:
 
--   DATA, [TABLES](javascript:call_link\('abentable_work_area_guidl.htm'\) "Guideline") and CONTROLS for general dynpros
+-   DATA, [TABLES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_work_area_guidl.htm "Guideline") and CONTROLS for general dynpros
 -   PARAMETERS and SELECT-OPTIONS for selection screens
 
-In these cases, you have to ensure the maximum possible [encapsulation](javascript:call_link\('abenencap_class_interf_guidl.htm'\) "Guideline") of those global variables.
+In these cases, you have to ensure the maximum possible [encapsulation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenencap_class_interf_guidl.htm "Guideline") of those global variables.
 
 Bad Example
 

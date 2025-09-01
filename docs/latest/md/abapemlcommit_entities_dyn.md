@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Consuming RAP Business Objects](javascript:call_link\('abenabap_consume_rap_bos.htm'\)) →  [ABAP EML - Consuming RAP BOs](javascript:call_link\('abeneml.htm'\)) →  [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Consuming RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_consume_rap_bos.htm) →  [ABAP EML - Consuming RAP BOs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml.htm) →  [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20COMMIT%20ENTITIES%20RESPONSES%2C%20Dynamic%20Form%2C%20ABAPEMLCOMMIT_ENTITIES_DYN%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improv
 ement:)
@@ -13,7 +13,7 @@ COMMIT ENTITIES RESPONSES, Dynamic Form
 
 Syntax
 
-COMMIT ENTITIES *\[*IN SIMULATION MODE*\]* RESPONSES OF dyn\_tab [response\_param](javascript:call_link\('abapeml_response.htm'\)).
+COMMIT ENTITIES *\[*IN SIMULATION MODE*\]* RESPONSES OF dyn\_tab [response\_param](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm).
 
 Addition:
 
@@ -21,13 +21,13 @@ Addition:
 
 Effect
 
-Triggers the RAP save sequence and finishes the [RAP transaction](javascript:call_link\('abenrap_luw_glosry.htm'\) "Glossary Entry"). All [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") that have been changed within the RAP transaction and that are present in the transactional buffer are persisted to the database.
+Triggers the RAP save sequence and finishes the [RAP transaction](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_luw_glosry.htm "Glossary Entry"). All [RAP BO instances](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") that have been changed within the RAP transaction and that are present in the transactional buffer are persisted to the database.
 
 The dynamic form of the COMMIT ENTITIES statement allows the root entities for which the commit should be executed to be specified dynamically using the addition OF dyn\_tab. dyn\_tab must be of type ABP\_ENTITY\_NAME\_TAB. The components are the names of the root entities. They must be typed with ABP\_ROOT\_ENTITY\_NAME.
 
-This syntax form of the COMMIT ENTITIES statement includes the retrieval of information returned by [RAP saver methods](javascript:call_link\('abenabp_saver_method_glosry.htm'\) "Glossary Entry"). [FAILED](javascript:call_link\('abapeml_response.htm'\)) and [REPORTED](javascript:call_link\('abapeml_response.htm'\)) responses can be retrieved for one or more RAP BOs that have been modified beforehand. The parameters following FAILED and REPORTED must be internal tables typed with ABP\_BEHV\_RESPONSE\_TAB. For more information on response\_param, see [here](javascript:call_link\('abapeml_response.htm'\)).
+This syntax form of the COMMIT ENTITIES statement includes the retrieval of information returned by [RAP saver methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_saver_method_glosry.htm "Glossary Entry"). [FAILED](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm) and [REPORTED](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm) responses can be retrieved for one or more RAP BOs that have been modified beforehand. The parameters following FAILED and REPORTED must be internal tables typed with ABP\_BEHV\_RESPONSE\_TAB. For more information on response\_param, see [here](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapeml_response.htm).
 
-For general hints on using the statement see the topic [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)).
+For general hints on using the statement see the topic [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities.htm).
 
 Example
 
@@ -46,8 +46,8 @@ RESPONSES OF dyn\_tab
 
 Hints
 
--   COMMIT ENTITIES statements are not allowed in [RAP BO providers](javascript:call_link\('abenrap_bo_provider_glosry.htm'\) "Glossary Entry").
--   When using COMMIT ENTITIES statements, a check of sy-subrc should be included to avoid syntax warnings. If responses are retrieved, it is recommended that the response parameter failed is checked so as to react accordingly. See the topic [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) for more information.
+-   COMMIT ENTITIES statements are not allowed in [RAP BO providers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_bo_provider_glosry.htm "Glossary Entry").
+-   When using COMMIT ENTITIES statements, a check of sy-subrc should be included to avoid syntax warnings. If responses are retrieved, it is recommended that the response parameter failed is checked so as to react accordingly. See the topic [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities.htm) for more information.
 
 Addition   
 
@@ -55,8 +55,8 @@ Addition  
 
 Effect
 
-Used to process a save in simulation mode. See more information in topic [COMMIT ENTITIES, IN SIMULATION MODE](javascript:call_link\('abapcommit_entities_simulation.htm'\)).
+Used to process a save in simulation mode. See more information in topic [COMMIT ENTITIES, IN SIMULATION MODE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcommit_entities_simulation.htm).
 
 Executable Example
 
-The example [COMMIT ENTITIES, Dynamic Form](javascript:call_link\('abeneml_commit_dyn_abexa.htm'\)) demonstrates the use of the dynamic form of the COMMIT ENTITIES statement.
+The example [COMMIT ENTITIES, Dynamic Form](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_commit_dyn_abexa.htm) demonstrates the use of the dynamic form of the COMMIT ENTITIES statement.

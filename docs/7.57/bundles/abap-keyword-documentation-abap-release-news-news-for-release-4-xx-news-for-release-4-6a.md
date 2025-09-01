@@ -3,41 +3,7 @@
 Included pages: 17
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abennews-46a.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm)
-- [abennews-46-objects-vererbung.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-vererbung.htm)
-- [abennews-46-objects-dynamic.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-dynamic.htm)
-- [abennews-46-objects-entwicklungen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-entwicklungen.htm)
-- [abennews-46-objects-obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-obsolete.htm)
-- [abennews-46-strings.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-strings.htm)
-- [abennews-46-data-references.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-data-references.htm)
-- [abennews-46-type-identification.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-type-identification.htm)
-- [abennews-46-includes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-includes.htm)
-- [abennews-46-assign-casting.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-assign-casting.htm)
-- [abennews-46-offset.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-offset.htm)
-- [abennews-46-internal-tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-internal-tables.htm)
-- [abennews-46-se30.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-se30.htm)
-- [abennews-46-debugger.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-debugger.htm)
-- [abennews-46-rfc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-rfc.htm)
-- [abennews-46-entwicklungen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-entwicklungen.htm)
-- [abennews-46-sonstiges.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-sonstiges.htm)
-
-**Bundle Contains**: 17 documentation pages
-**Version**: ABAP 7.57
-**Generated**: 2025-09-01T11:25:45.284Z
-
----
-
 ### abennews-46a.htm
-
-> **📖 Official SAP Documentation**: [abennews-46a.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -45,7 +11,7 @@ Included pages: 17
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: News for Release 4.6A, ABENNEWS-46A, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASug
 gestion for improvement:)
@@ -54,56 +20,49 @@ News for Release 4.6A
 
 Changes were made in the following areas as part of development for SAP Basis Release 4.6A:
 
--   [ABAP Objects - Inheritance and Nested Interfaces in Release 4.6A](javascript:call_link\('abennews-46-objects-vererbung.htm'\))
--   [ABAP Objects - Dynamic Method Calls in Release 4.6A](javascript:call_link\('abennews-46-objects-dynamic.htm'\))
--   [ABAP Objects - Further Developments in Release 4.6A](javascript:call_link\('abennews-46-objects-entwicklungen.htm'\))
--   [ABAP Objects - Obsolete Language Elements in Release 4.6A](javascript:call_link\('abennews-46-objects-obsolete.htm'\))
--   [New Data Types string and xstring for Release 4.6A](javascript:call_link\('abennews-46-strings.htm'\))
--   [Data Objects and Data References in Release 4.6A](javascript:call_link\('abennews-46-data-references.htm'\))
--   [Description of Data Types and Object Types at Runtime in Release 4.6A](javascript:call_link\('abennews-46-type-identification.htm'\))
--   [Named Includes in Release 4.6A](javascript:call_link\('abennews-46-includes.htm'\))
--   [Casts to Any Data Type in Release 4.6A](javascript:call_link\('abennews-46-assign-casting.htm'\))
--   [Dynamic Access to Offsets and Lengths in Release 4.6A](javascript:call_link\('abennews-46-offset.htm'\))
--   [Internal Tables in Release 4.6A](javascript:call_link\('abennews-46-internal-tables.htm'\))
--   [Runtime Analysis in Release 4.6A](javascript:call_link\('abennews-46-se30.htm'\))
--   [Debugger in Release 4.6A](javascript:call_link\('abennews-46-debugger.htm'\))
--   [Remote Function Call in Release 4.6A](javascript:call_link\('abennews-46-rfc.htm'\))
--   [Further Developments in Release 4.6A](javascript:call_link\('abennews-46-entwicklungen.htm'\))
--   [Further Changes in Release 4.6A](javascript:call_link\('abennews-46-sonstiges.htm'\))
+-   [ABAP Objects - Inheritance and Nested Interfaces in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-vererbung.htm)
+-   [ABAP Objects - Dynamic Method Calls in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-dynamic.htm)
+-   [ABAP Objects - Further Developments in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-entwicklungen.htm)
+-   [ABAP Objects - Obsolete Language Elements in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-obsolete.htm)
+-   [New Data Types string and xstring for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-strings.htm)
+-   [Data Objects and Data References in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-data-references.htm)
+-   [Description of Data Types and Object Types at Runtime in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-type-identification.htm)
+-   [Named Includes in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-includes.htm)
+-   [Casts to Any Data Type in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-assign-casting.htm)
+-   [Dynamic Access to Offsets and Lengths in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-offset.htm)
+-   [Internal Tables in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-internal-tables.htm)
+-   [Runtime Analysis in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-se30.htm)
+-   [Debugger in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-debugger.htm)
+-   [Remote Function Call in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-rfc.htm)
+-   [Further Developments in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-entwicklungen.htm)
+-   [Further Changes in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-sonstiges.htm)
 
 Earlier Changes in ABAP:
 
-[News for Release 4.0 and 4.5](javascript:call_link\('abennews-40.htm'\))
-[News for Release 3.0](javascript:call_link\('abennews-30.htm'\))
-[Changes Before Release 3.0](javascript:call_link\('abennews-21.htm'\))
+[News for Release 4.0 and 4.5](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-40.htm)
+[News for Release 3.0](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-30.htm)
+[Changes Before Release 3.0](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-21.htm)
 
 Continue
-[ABAP Objects - Inheritance and Nested Interfaces in Release 4.6A](javascript:call_link\('abennews-46-objects-vererbung.htm'\))
-[ABAP Objects - Dynamic Method Calls in Release 4.6A](javascript:call_link\('abennews-46-objects-dynamic.htm'\))
-[ABAP Objects - Further Developments in Release 4.6A](javascript:call_link\('abennews-46-objects-entwicklungen.htm'\))
-[ABAP Objects - Obsolete Language Elements in Release 4.6A](javascript:call_link\('abennews-46-objects-obsolete.htm'\))
-[New Data Types string and xstring for Release 4.6A](javascript:call_link\('abennews-46-strings.htm'\))
-[Data Objects and Data References in Release 4.6A](javascript:call_link\('abennews-46-data-references.htm'\))
-[Description of Data Types and Object Types at Runtime in Release 4.6A](javascript:call_link\('abennews-46-type-identification.htm'\))
-[Named Includes in Release 4.6A](javascript:call_link\('abennews-46-includes.htm'\))
-[Casts to Any Data Type in Release 4.6A](javascript:call_link\('abennews-46-assign-casting.htm'\))
-[Dynamic Access to Offsets and Lengths in Release 4.6A](javascript:call_link\('abennews-46-offset.htm'\))
-[Internal Tables in Release 4.6A](javascript:call_link\('abennews-46-internal-tables.htm'\))
-[Runtime Analysis in Release 4.6A](javascript:call_link\('abennews-46-se30.htm'\))
-[Debugger in Release 4.6A](javascript:call_link\('abennews-46-debugger.htm'\))
-[Remote Function Call in Release 4.6A](javascript:call_link\('abennews-46-rfc.htm'\))
-[Further Developments in Release 4.6A](javascript:call_link\('abennews-46-entwicklungen.htm'\))
-[Further Changes in Release 4.6A](javascript:call_link\('abennews-46-sonstiges.htm'\))
+[ABAP Objects - Inheritance and Nested Interfaces in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-vererbung.htm)
+[ABAP Objects - Dynamic Method Calls in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-dynamic.htm)
+[ABAP Objects - Further Developments in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-entwicklungen.htm)
+[ABAP Objects - Obsolete Language Elements in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-obsolete.htm)
+[New Data Types string and xstring for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-strings.htm)
+[Data Objects and Data References in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-data-references.htm)
+[Description of Data Types and Object Types at Runtime in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-type-identification.htm)
+[Named Includes in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-includes.htm)
+[Casts to Any Data Type in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-assign-casting.htm)
+[Dynamic Access to Offsets and Lengths in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-offset.htm)
+[Internal Tables in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-internal-tables.htm)
+[Runtime Analysis in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-se30.htm)
+[Debugger in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-debugger.htm)
+[Remote Function Call in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-rfc.htm)
+[Further Developments in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-entwicklungen.htm)
+[Further Changes in Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-sonstiges.htm)
 
-
-
-**📖 Source**: [abennews-46a.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm)
 
 ### abennews-46-objects-vererbung.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-objects-vererbung.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-vererbung.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -111,7 +70,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP Objects - Inheritance and Nested Interfaces in Release 4.6A, ABENNEWS-46-OBJECTS
 -VERERBUNG, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -127,30 +86,23 @@ Modification 1  
 
 Inheritance
 
-ABAP Objects enables [inheritance](javascript:call_link\('abeninheritance.htm'\)). The addition INHERITING FROM of the statement [CLASS class DEFINITION](javascript:call_link\('abapclass.htm'\)) can be used to derive a class from a superclass. Each subclass inherits all components from all superclasses and enables specialization by adding its own components and by using the [REDEFINITION](javascript:call_link\('abapmethods.htm'\)) of previous methods. This makes it possible to define inheritance trees that become more and more specific from subclass to subclass, starting from the root node OBJECT.
+ABAP Objects enables [inheritance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninheritance.htm). The addition INHERITING FROM of the statement [CLASS class DEFINITION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass.htm) can be used to derive a class from a superclass. Each subclass inherits all components from all superclasses and enables specialization by adding its own components and by using the [REDEFINITION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods.htm) of previous methods. This makes it possible to define inheritance trees that become more and more specific from subclass to subclass, starting from the root node OBJECT.
 
-The additions ABSTRACT and FINAL of the statements [CLASS](javascript:call_link\('abapclass.htm'\)) and [METHODS](javascript:call_link\('abapmethods.htm'\)) make it possible to define abstract and final classes and methods. Abstract classes cannot be instantiated. Abstract methods are not implemented in their class and can occur only in abstract classes. Abstract methods can be implemented in a subclass of the abstract class. Final classes cannot have any subclasses. Final methods cannot be redefined. All methods of final classes are automatically final.
+The additions ABSTRACT and FINAL of the statements [CLASS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass.htm) and [METHODS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmethods.htm) make it possible to define abstract and final classes and methods. Abstract classes cannot be instantiated. Abstract methods are not implemented in their class and can occur only in abstract classes. Abstract methods can be implemented in a subclass of the abstract class. Final classes cannot have any subclasses. Final methods cannot be redefined. All methods of final classes are automatically final.
 
 Modification 2   
 
 Nested Interfaces
 
-Interfaces can be [nested](javascript:call_link\('abeninterface_composition.htm'\)) by specifying other interfaces as components in the definition of an interface:
-[INTERFACE i.](javascript:call_link\('abapinterface.htm'\))
+Interfaces can be [nested](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterface_composition.htm) by specifying other interfaces as components in the definition of an interface:
+[INTERFACE i.](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterface.htm)
 ...
-[INTERFACES: i1, i2  ...](javascript:call_link\('abapinterfaces.htm'\))
+[INTERFACES: i1, i2  ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinterfaces.htm)
 ...
-[ENDINTERFACE.](javascript:call_link\('abapendinterface.htm'\))
+[ENDINTERFACE.](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapendinterface.htm)
 
-
-
-**📖 Source**: [abennews-46-objects-vererbung.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-vererbung.htm)
 
 ### abennews-46-objects-dynamic.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-objects-dynamic.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-dynamic.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -158,7 +110,7 @@ Interfaces can be [nested](javascript:call_link\('abeninterface_composition.htm'
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP Objects - Dynamic Method Calls in Release 4.6A, ABENNEWS-46-OBJECTS-DYNAMIC, 757
 %0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -169,7 +121,7 @@ In Release 4.6A, the kernel functions of ABAP Objects are enhanced by dynamic me
 
 Dynamic method call
 
-In addition to the old static [access](javascript:call_link\('abenclass_components_addressing.htm'\)), methods can now also be addressed dynamically using the usual ABAP parenthesis semantics.
+In addition to the old static [access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_components_addressing.htm), methods can now also be addressed dynamically using the usual ABAP parenthesis semantics.
 
 -   Calling an instance method meth:
     
@@ -191,17 +143,10 @@ In addition to the old static [access](javascript:call_link\('abenclass_componen
 
 f and c are fields containing the name of the method meth or class class.
 
-In contrast to subroutines and function modules, the actual parameters can also be passed dynamically in dynamic [method calls](javascript:call_link\('abapcall_method_dynamic.htm'\)).
+In contrast to subroutines and function modules, the actual parameters can also be passed dynamically in dynamic [method calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_dynamic.htm).
 
-
-
-**📖 Source**: [abennews-46-objects-dynamic.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-dynamic.htm)
 
 ### abennews-46-objects-entwicklungen.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-objects-entwicklungen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-entwicklungen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -209,7 +154,7 @@ In contrast to subroutines and function modules, the actual parameters can also 
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP Objects - Further Developments in Release 4.6A, ABENNEWS-46-OBJECTS-ENTWICKLUNGE
 N, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -230,12 +175,12 @@ In Release 4.6A the following components are added to the core ABAP Objects func
 Modification 1   
 
 Creating Objects with Explicitly Specified Class
-The statement [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)) has two new variants that make it possible to specify the name of the class where the instance is created, both statically and dynamically. Previously, a reference variable with reference to the class had to be created before an object could be created. In the new variants of the statement CREATE OBJECT, any reference variables can be used that are compatible with the specified class.
+The statement [CREATE OBJECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_object.htm) has two new variants that make it possible to specify the name of the class where the instance is created, both statically and dynamically. Previously, a reference variable with reference to the class had to be created before an object could be created. In the new variants of the statement CREATE OBJECT, any reference variables can be used that are compatible with the specified class.
 
 Modification 2   
 
 Non-Public Instantiation
-The new additions CREATE PROTECTED and CREATE PRIVATE of the statement [CLASS class DEFINITION](javascript:call_link\('abapclass.htm'\)) can be used to ensure that only the class itself or its subclasses can create instances of the class class. This makes instance management non-ambiguous.
+The new additions CREATE PROTECTED and CREATE PRIVATE of the statement [CLASS class DEFINITION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass.htm) can be used to ensure that only the class itself or its subclasses can create instances of the class class. This makes instance management non-ambiguous.
 
 Modification 3   
 
@@ -253,7 +198,7 @@ If a table contains non-structured lines of the type of a reference variable, th
 Modification 4   
 
 Functional Methods in Expressions
-[Functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") calls are supported for the following statements and expressions:
+[Functional method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunctional_method_glosry.htm "Glossary Entry") calls are supported for the following statements and expressions:
 
 -   In arithmetic expressions (COMPUTE)
 -   In bit expressions (COMPUTE)
@@ -266,7 +211,7 @@ Modification 5  
 
 C Destructor
 
-ABAP Objects does not support an instance destructor that can be implemented in ABAP. For special cases, and for internal use only, there is a destructor known as a [C destructor](javascript:call_link\('abenc_destructor.htm'\)).
+ABAP Objects does not support an instance destructor that can be implemented in ABAP. For special cases, and for internal use only, there is a destructor known as a [C destructor](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenc_destructor.htm).
 
 Modification 6   
 
@@ -280,7 +225,7 @@ Modification 7  
 
 Compiler Enhancements
 
-The statement [CLASS class DEFINITION LOAD](javascript:call_link\('abapclass_deferred.htm'\)) is no longer required with the following statements:
+The statement [CLASS class DEFINITION LOAD](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapclass_deferred.htm) is no longer required with the following statements:
 
 -   CALL METHOD global\_class=>method
 -   SET HANDLER global\_class=>method
@@ -301,19 +246,12 @@ Internal Optimizations
 
 -   Improved memory management is achieved because objects are managed without blocks. In addition, objects can be released individually.
 
--   [Garbage Collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry") uses mark & sweep instead of reference counting, which enables cycles to be detected. This provides efficient support for the debugger in finding all references to a specific object.
+-   [Garbage Collector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengarbage_collector_glosry.htm "Glossary Entry") uses mark & sweep instead of reference counting, which enables cycles to be detected. This provides efficient support for the debugger in finding all references to a specific object.
 
 -   Finally, a separate interface load has been introduced to relieve the load of the implementing classes from some of its tasks.
 
 
-
-**📖 Source**: [abennews-46-objects-entwicklungen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-entwicklungen.htm)
-
 ### abennews-46-objects-obsolete.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-objects-obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -321,7 +259,7 @@ Internal Optimizations
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP Objects - Obsolete Language Elements in Release 4.6A, ABENNEWS-46-OBJECTS-OBSOLE
 TE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -331,14 +269,7 @@ ABAP Objects - Obsolete Language Elements in Release 4.6A
 To clean up the ABAP Objects language, some more stringent syntax checks were introduced for previously valid constructs; some statements are no longer allowed at all.
 
 
-
-**📖 Source**: [abennews-46-objects-obsolete.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-objects-obsolete.htm)
-
 ### abennews-46-strings.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-strings.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-strings.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -346,7 +277,7 @@ To clean up the ABAP Objects language, some more stringent syntax checks were in
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: New Data Types string and xstring for Release 4.6A, ABENNEWS-46-STRINGS, 757%0D%0A%0D
 %0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -356,14 +287,7 @@ New Data Types string and xstring for Release 4.6A
 In Release 4.6A, the two new types string for character strings and xstring for byte strings are now available in addition to the elementary data types C and X.
 
 
-
-**📖 Source**: [abennews-46-strings.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-strings.htm)
-
 ### abennews-46-data-references.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-data-references.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-data-references.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -371,7 +295,7 @@ In Release 4.6A, the two new types string for character strings and xstring for 
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Data Objects and Data References in Release 4.6A, ABENNEWS-46-DATA-REFERENCES, 757%0D
 %0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -388,29 +312,22 @@ Modification 1  
 
 Reference Variables for Data Objects
 
-Previously, reference variables were only available in [ABAP Objects](javascript:call_link\('abenabap_objects_oview.htm'\)). In Release 4.6A, [DATA f TYPE REF TO DATA](javascript:call_link\('abapdata_simple.htm'\)) can be used to declare f as a reference variable that points to a different data object.
+Previously, reference variables were only available in [ABAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_objects_oview.htm). In Release 4.6A, [DATA f TYPE REF TO DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata_simple.htm) can be used to declare f as a reference variable that points to a different data object.
 
 Modification 2   
 
 Creating Data Objects and Getting References
 
-[CREATE DATA dref ...](javascript:call_link\('abapcreate_data.htm'\)) can be used to create a new data object (field) at runtime, where dref can be any reference variable with type [REF TO DATA](javascript:call_link\('abapdata_simple.htm'\)). Furthermore, [GET REFERENCE](javascript:call_link\('abapget_reference.htm'\)) can be used to get a reference to a data object (field).
+[CREATE DATA dref ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_data.htm) can be used to create a new data object (field) at runtime, where dref can be any reference variable with type [REF TO DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata_simple.htm). Furthermore, [GET REFERENCE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_reference.htm) can be used to get a reference to a data object (field).
 
 Modification 3   
 
 Assignment of Referenced Fields
 
-The statement [ASSIGN dref->\* TO <fs>](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)) makes the field symbol <fs> point to the same content as the data reference dref at runtime. If the field symbol is typed, the type is checked when the assignment is made.
+The statement [ASSIGN dref->\* TO <fs>](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_mem_area_dynamic_dobj.htm) makes the field symbol <fs> point to the same content as the data reference dref at runtime. If the field symbol is typed, the type is checked when the assignment is made.
 
-
-
-**📖 Source**: [abennews-46-data-references.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-data-references.htm)
 
 ### abennews-46-type-identification.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-type-identification.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-type-identification.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -418,7 +335,7 @@ The statement [ASSIGN dref->\* TO <fs>](javascript:call_link\('abapassign_mem_ar
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Description of Data Types and Object Types at Runtime in Release 4.6A, ABENNEWS-46-TY
 PE-IDENTIFICATION, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -427,7 +344,7 @@ Description of Data Types and Object Types at Runtime in Release 4.6A
 
 From Release 4.6A, types can be described dynamically.
 
-Previously, the statement [DESCRIBE](javascript:call_link\('abapdescribe_field.htm'\)) could only describe some of the [ABAP types](javascript:call_link\('abentypes_objects_oview.htm'\)). With the introduction of ABAP Objects, an [RTTI concept](javascript:call_link\('abenrtti.htm'\)) based on system classes was implemented that enhances the description to include any data types and object types at runtime.
+Previously, the statement [DESCRIBE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdescribe_field.htm) could only describe some of the [ABAP types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentypes_objects_oview.htm). With the introduction of ABAP Objects, an [RTTI concept](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrtti.htm) based on system classes was implemented that enhances the description to include any data types and object types at runtime.
 
 Example for the description of a field
 
@@ -448,14 +365,7 @@ tdescr = cl\_abap\_typedescr=>describe\_by\_name( name ).
 The type description classes contain all of the attributes and methods that can be assigned to the properties of the different types.
 
 
-
-**📖 Source**: [abennews-46-type-identification.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-type-identification.htm)
-
 ### abennews-46-includes.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-includes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-includes.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -463,14 +373,14 @@ The type description classes contain all of the attributes and methods that can 
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Named Includes in Release 4.6A, ABENNEWS-46-INCLUDES, 757%0D%0A%0D%0AError:%0D%0A%0D%
 0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Named Includes in Release 4.6A
 
-The statements [INCLUDE STRUCTURE rec.](javascript:call_link\('abapinclude_type.htm'\)) and [INCLUDE TYPE type.](javascript:call_link\('abapinclude_type.htm'\)) were enhanced so that symbolic accesses to groups of fields in structures are possible.
+The statements [INCLUDE STRUCTURE rec.](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinclude_type.htm) and [INCLUDE TYPE type.](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinclude_type.htm) were enhanced so that symbolic accesses to groups of fields in structures are possible.
 
 Variants:
 
@@ -480,23 +390,16 @@ Variants:
 
 Advantages:
 
--   [Flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") structures and hierarchy views can be defined simultaneously.
+-   [Flat](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenflat_glosry.htm "Glossary Entry") structures and hierarchy views can be defined simultaneously.
 
--   There are no problems in [alignment](javascript:call_link\('abenalignment_glosry.htm'\) "Glossary Entry") because the flat structure is aligned automatically so that it can carry the hierarchical structure.
+-   There are no problems in [alignment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenalignment_glosry.htm "Glossary Entry") because the flat structure is aligned automatically so that it can carry the hierarchical structure.
 
 -   Flat and hierarchical views use the same memory, so that no exchange between the different memory areas is necessary.
 
 -   Existing structures can be enhanced compatibly and are integrated in full into ABAP Dictionary.
 
 
-
-**📖 Source**: [abennews-46-includes.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-includes.htm)
-
 ### abennews-46-assign-casting.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-assign-casting.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-assign-casting.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -504,7 +407,7 @@ Advantages:
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Casts to Any Data Type in Release 4.6A, ABENNEWS-46-ASSIGN-CASTING, 757%0D%0A%0D%0AEr
 ror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -540,14 +443,7 @@ Hint
 Typed field symbols should be used for performance reasons. The runtime of a typed ASSIGN statement is around 40 percent less than that required for an equivalent untyped ASSIGN statement.
 
 
-
-**📖 Source**: [abennews-46-assign-casting.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-assign-casting.htm)
-
 ### abennews-46-offset.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-offset.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-offset.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -555,7 +451,7 @@ Typed field symbols should be used for performance reasons. The runtime of a typ
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Dynamic Access to Offsets and Lengths in Release 4.6A, ABENNEWS-46-OFFSET, 757%0D%0A%
 0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -571,14 +467,7 @@ g+off2(len2) = f+off1(len1).
 Starting with offset off2 in length len2, the field g is assigned the content of field f starting with offset off1 in length len2. If the two field lengths are not identical, the remaining positions are cut off or padded with initial values. The fields f and g must have the type x, c, n, d, or t. Structures are also allowed.
 
 
-
-**📖 Source**: [abennews-46-offset.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-offset.htm)
-
 ### abennews-46-internal-tables.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-internal-tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-internal-tables.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -586,7 +475,7 @@ Starting with offset off2 in length len2, the field g is assigned the content of
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Internal Tables in Release 4.6A, ABENNEWS-46-INTERNAL-TABLES, 757%0D%0A%0D%0AError:%0
 D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -613,7 +502,7 @@ Modification 1  
 
 New Keys Specified in Unstructured Internal Tables
 
-If the line type of an internal table does not have a structure, the [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line can be used to specify or address the entire table line as the key. The previous form TABLE LINE is now obsolete. If a [structure](javascript:call_link\('abaptypes_struc.htm'\)) contains a component called table\_line, this produces a warning in the syntax check.
+If the line type of an internal table does not have a structure, the [pseudo component](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_component_glosry.htm "Glossary Entry") table\_line can be used to specify or address the entire table line as the key. The previous form TABLE LINE is now obsolete. If a [structure](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_struc.htm) contains a component called table\_line, this produces a warning in the syntax check.
 
 Modification 2   
 
@@ -625,7 +514,7 @@ Modification 3  
 
 Strings as Table Keys
 
-[Strings](javascript:call_link\('abenstring.htm'\)) are now allowed as the key of an internal table. This applies to all categories of tables.
+[Strings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring.htm) are now allowed as the key of an internal table. This applies to all categories of tables.
 
 Modification 4   
 
@@ -651,33 +540,33 @@ Modification 7  
 
 Sorting without Sort Key Specified
 
-Sorting an internal table with type >[STANDARD](javascript:call_link\('abaptypes_tabcat.htm'\)) or [HASHED](javascript:call_link\('abaptypes_tabcat.htm'\)) using the statement [SORT](javascript:call_link\('abapsort_itab.htm'\)) now returns a correct result, even if the sort key is not specified in the addition BY.
+Sorting an internal table with type >[STANDARD](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_tabcat.htm) or [HASHED](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_tabcat.htm) using the statement [SORT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsort_itab.htm) now returns a correct result, even if the sort key is not specified in the addition BY.
 
 Modification 8   
 
 Access to Read-Only Tables
 
-If the statements [DELETE](javascript:call_link\('abapdelete_itab.htm'\)), [INSERT](javascript:call_link\('abapinsert_itab.htm'\)), and [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) are applied to read-only tables (for example, IMPORTING-REFERENCE parameters in function modules or READ-ONLY attributes of classes), the system returns a syntax error. This error used to produce a runtime error.
+If the statements [DELETE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_itab.htm), [INSERT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_itab.htm), and [MODIFY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_itab.htm) are applied to read-only tables (for example, IMPORTING-REFERENCE parameters in function modules or READ-ONLY attributes of classes), the system returns a syntax error. This error used to produce a runtime error.
 
 Modification 9   
 
 Index Ranges in Table Extensions
 
-The statements [INSERT LINES OF itab ...](javascript:call_link\('abapinsert_itab.htm'\)) and [APPEND LINES OF  itab ...](javascript:call_link\('abapappend.htm'\)) return syntax errors if the source table has the type HASHED or ANY and the additions FROM and TO are used to specify an index range. This error used to produce a runtime error.
+The statements [INSERT LINES OF itab ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_itab.htm) and [APPEND LINES OF  itab ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapappend.htm) return syntax errors if the source table has the type HASHED or ANY and the additions FROM and TO are used to specify an index range. This error used to produce a runtime error.
 
 Modification 10   
 
 IS REQUESTED with TABLES Parameter
 
-If the predicate operator [IS REQUESTED](javascript:call_link\('abenlogexp_requested.htm'\)) is used with [TABLES](javascript:call_link\('abenfunction.htm'\)) parameters in update modules, the syntax check produces a [warning](javascript:call_link\('abenwarning_glosry.htm'\) "Glossary Entry"). These parameters are always supplied.
+If the predicate operator [IS REQUESTED](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_requested.htm) is used with [TABLES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction.htm) parameters in update modules, the syntax check produces a [warning](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwarning_glosry.htm "Glossary Entry"). These parameters are always supplied.
 
 Modification 11   
 
 Tables as Attributes of Objects
 
-The statements [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)), [READ](javascript:call_link\('abapread_table.htm'\)), [SORT](javascript:call_link\('abapsort_itab.htm'\)), [DELETE](javascript:call_link\('abapdelete_itab.htm'\)), and [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) now support access to the attributes of objects as the keys of internal tables.
+The statements [LOOP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab.htm), [READ](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table.htm), [SORT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsort_itab.htm), [DELETE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_itab.htm), and [MODIFY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_itab.htm) now support access to the attributes of objects as the keys of internal tables.
 
-If the line type of an internal table contains object reference variables from [ABAP Objects](javascript:call_link\('abenabap_objects_oview.htm'\)) as components comp, the attributes attr of the object to which the reference points can be used as key values when reading, sorting, and changing the table. This is possible in the following statements:
+If the line type of an internal table contains object reference variables from [ABAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_objects_oview.htm) as components comp, the attributes attr of the object to which the reference points can be used as key values when reading, sorting, and changing the table. This is possible in the following statements:
 
 LOOP AT itab ... WHERE comp->attr ...
 
@@ -693,23 +582,16 @@ Modification 12  
 
 References as Line Type
 
-In the declarative statements [DATA](javascript:call_link\('abapdata_itab.htm'\)), [STATICS](javascript:call_link\('abapstatics.htm'\)), and [TYPES](javascript:call_link\('abaptypes_itab.htm'\)), object references and data references can be used as the line type of an internal table.
+In the declarative statements [DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata_itab.htm), [STATICS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapstatics.htm), and [TYPES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_itab.htm), object references and data references can be used as the line type of an internal table.
 
 Modification 13   
 
 Multiple Identical Keys Specified
 
-Identical keys specified more than once in the statement [READ](javascript:call_link\('abapread_table.htm'\)) produce a [warning](javascript:call_link\('abenwarning_glosry.htm'\) "Glossary Entry").
+Identical keys specified more than once in the statement [READ](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table.htm) produce a [warning](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwarning_glosry.htm "Glossary Entry").
 
-
-
-**📖 Source**: [abennews-46-internal-tables.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-internal-tables.htm)
 
 ### abennews-46-se30.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-se30.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-se30.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -717,7 +599,7 @@ Identical keys specified more than once in the statement [READ](javascript:call_
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Runtime Analysis in Release 4.6A, ABENNEWS-46-SE30, 757%0D%0A%0D%0AError:%0D%0A%0D%0A
 %0D%0A%0D%0ASuggestion for improvement:)
@@ -737,7 +619,7 @@ Runtime Analysis in Release 4.6A
 Modification 1   
 
 Measurement in Parallel Session
-Runtime analysis can be activated for ten simultaneous [ABAP sessions](javascript:call_link\('abenabap_session_glosry.htm'\) "Glossary Entry") (work processes). This makes it possible to switch to a long-running job from outside. It is possible to switch in and out of the work processes that are measured using a screen similar to transaction SM50.
+Runtime analysis can be activated for ten simultaneous [ABAP sessions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_session_glosry.htm "Glossary Entry") (work processes). This makes it possible to switch to a long-running job from outside. It is possible to switch in and out of the work processes that are measured using a screen similar to transaction SM50.
 
 Modification 2   
 
@@ -780,7 +662,7 @@ Modification 5  
 
 Unique Identification of Internal Tables
 
-The name of an internal table is the internally unique ID. This makes it possible to distinguish between identically named internal tables from different [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry"). The actual name of the internal table can be identified by navigating to the editor.
+The name of an internal table is the internally unique ID. This makes it possible to distinguish between identically named internal tables from different [procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocedure_glosry.htm "Glossary Entry"). The actual name of the internal table can be identified by navigating to the editor.
 
 Modification 6   
 
@@ -814,14 +696,7 @@ The user interface of the runtime analysis tool has been fully revised. The new 
 -   Analyzing the measurement results
 
 
-
-**📖 Source**: [abennews-46-se30.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-se30.htm)
-
 ### abennews-46-debugger.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-debugger.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-debugger.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -829,7 +704,7 @@ The user interface of the runtime analysis tool has been fully revised. The new 
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Debugger in Release 4.6A, ABENNEWS-46-DEBUGGER, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%
 0A%0D%0ASuggestion for improvement:)
@@ -852,23 +727,16 @@ Modification 2  
 
 Enhancements in ABAP Objects
 
-[Static attributes](javascript:call_link\('abenstatic_attribute_glosry.htm'\) "Glossary Entry") and handlers of [static events](javascript:call_link\('abenstatic_event_glosry.htm'\) "Glossary Entry") can now be displayed without specifying an instance. It is also possible to find all references to a specific object. The same applies to data references.
+[Static attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_attribute_glosry.htm "Glossary Entry") and handlers of [static events](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_event_glosry.htm "Glossary Entry") can now be displayed without specifying an instance. It is also possible to find all references to a specific object. The same applies to data references.
 
 Modification 3   
 
 Other
 
-The 'System Debugging' setting is saved too when breakpoints are saved. Furthermore, the new 'Last [Short Dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry")' button makes it possible to display the last runtime error created. This can also be done using the transaction LAST\_SHORTDUMP.
+The 'System Debugging' setting is saved too when breakpoints are saved. Furthermore, the new 'Last [Short Dump](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshort_dump_glosry.htm "Glossary Entry")' button makes it possible to display the last runtime error created. This can also be done using the transaction LAST\_SHORTDUMP.
 
-
-
-**📖 Source**: [abennews-46-debugger.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-debugger.htm)
 
 ### abennews-46-rfc.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-rfc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-rfc.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -876,7 +744,7 @@ The 'System Debugging' setting is saved too when breakpoints are saved. Furtherm
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Remote Function Call in Release 4.6A, ABENNEWS-46-RFC, 757%0D%0A%0D%0AError:%0D%0A%0D
 %0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -897,14 +765,7 @@ Main Session
 Main sessions could not be created, for example using the /O command in the OK code field, for synchronous RFC until Release 4.6. This function, previously only provided for asynchronous RFC, is now available from this release.
 
 
-
-**📖 Source**: [abennews-46-rfc.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-rfc.htm)
-
 ### abennews-46-entwicklungen.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-entwicklungen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-entwicklungen.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -912,7 +773,7 @@ Main sessions could not be created, for example using the /O command in the OK c
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Further Developments in Release 4.6A, ABENNEWS-46-ENTWICKLUNGEN, 757%0D%0A%0D%0AError
 :%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -931,21 +792,21 @@ Modification 1  
 
 New Event Keyword LOAD-OF-PROGRAM
 
-[LOAD-OF-PROGRAMM](javascript:call_link\('abapload-of-program.htm'\)) is an event keyword which processes an event immediately before execution of the first load statement. For example, when a function module is called, the statements following LOAD-OF-PROGRAM are executed first after the function pool has been loaded into the program memory. It is then no longer necessary to know the order of execution.
+[LOAD-OF-PROGRAMM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapload-of-program.htm) is an event keyword which processes an event immediately before execution of the first load statement. For example, when a function module is called, the statements following LOAD-OF-PROGRAM are executed first after the function pool has been loaded into the program memory. It is then no longer necessary to know the order of execution.
 
-This statement has the same effect as a program constructor, similar to the class constructor in ABAP Objects, which replaces the event LOAD-OF-PROGRAM in [class pools](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") and global classes.
+This statement has the same effect as a program constructor, similar to the class constructor in ABAP Objects, which replaces the event LOAD-OF-PROGRAM in [class pools](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_pool_glosry.htm "Glossary Entry") and global classes.
 
 Modification 2   
 
 Typing of Ranges Tables
 
-The addition RANGE of the statements [DATA](javascript:call_link\('abapdata.htm'\)), [STATICS](javascript:call_link\('abapstatics.htm'\)), and [TYPES](javascript:call_link\('abaptypes.htm'\)) defines an internal table with the type [RANGES](javascript:call_link\('abapranges.htm'\)). This addition can also be used for the definitions in classes and is supported in ABAP Dictionary.
+The addition RANGE of the statements [DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdata.htm), [STATICS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapstatics.htm), and [TYPES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes.htm) defines an internal table with the type [RANGES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapranges.htm). This addition can also be used for the definitions in classes and is supported in ABAP Dictionary.
 
 Modification 3   
 
 Increased Precision in BCD Arithmetic
 
-In rare cases in fixed point arithmetic, calculations were performed with a precision of 15 instead of 31 places. This meant that fields with many [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") were sometimes rounded off. Now calculations are always performed to an accuracy of 31 places.
+In rare cases in fixed point arithmetic, calculations were performed with a precision of 15 instead of 31 places. This meant that fields with many [decimal places](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendecimal_place_glosry.htm "Glossary Entry") were sometimes rounded off. Now calculations are always performed to an accuracy of 31 places.
 
 This change has resulted in a significant reduction of the computing time required for multiplication and division.
 
@@ -953,7 +814,7 @@ Modification 4  
 
 F1 Help for Dynamic Field Access
 
-Previously, F1 help in [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") and lists was not available for fields addressed using [field symbols](javascript:call_link\('abapfield-symbols.htm'\)) or [ASSIGN COMPONENT ...](javascript:call_link\('abapassign_dynamic_components.htm'\)), although the assigned field was defined in ABAP Dictionary. Online help is now available for all fields that have a HELP ID.
+Previously, F1 help in [dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_glosry.htm "Glossary Entry") and lists was not available for fields addressed using [field symbols](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfield-symbols.htm) or [ASSIGN COMPONENT ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_dynamic_components.htm), although the assigned field was defined in ABAP Dictionary. Online help is now available for all fields that have a HELP ID.
 
 Modification 5   
 
@@ -965,7 +826,7 @@ Modification 6  
 
 More Literals and Memory for Literals
 
-The address space for [literals](javascript:call_link\('abenliteral.htm'\)) has also been expanded so that 64 KB are now available for the different literals. The length of the individual literals is limited only by operating system restrictions. Previously, a maximum of 64 KB was available for all literals together (indexes and texts).
+The address space for [literals](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenliteral.htm) has also been expanded so that 64 KB are now available for the different literals. The length of the individual literals is limited only by operating system restrictions. Previously, a maximum of 64 KB was available for all literals together (indexes and texts).
 
 Modification 7   
 
@@ -986,17 +847,7 @@ The documentation has been improved as follows:
 -   All example programs for display, execution, and debugging available in transaction ABAPDOCU.
 
 
-
-**📖 Source**: [abennews-46-entwicklungen.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-entwicklungen.htm)
-
 ### abennews-46-sonstiges.htm
-
-> **📖 Official SAP Documentation**: [abennews-46-sonstiges.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-sonstiges.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abennews-46-sonstiges.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46-sonstiges.htm)
-
 
   
 
@@ -1004,7 +855,7 @@ The documentation has been improved as follows:
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-4.htm) →  [News for Release 4.6A](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-46a.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Further Changes in Release 4.6A, ABENNEWS-46-SONSTIGES, 757%0D%0A%0D%0AError:%0D%0A%0
 D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -1022,7 +873,7 @@ Modification 1  
 
 LOOP in Extracts
 
-As with internal tables, SY-SUBRC is now set to 4 in an extract if, in a [LOOP ... ENDLOOP](javascript:call_link\('abaploop-.htm'\)), the loop pass is not executed.
+As with internal tables, SY-SUBRC is now set to 4 in an extract if, in a [LOOP ... ENDLOOP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop-.htm), the loop pass is not executed.
 
 Modification 2   
 
@@ -1034,19 +885,19 @@ Modification 3  
 
 Bit Operations with Differing Operand Lengths
 
-If operands with differing lengths are joined using statements such as [COMPUTE x = bitexp.](javascript:call_link\('abapcompute_bit.htm'\)), all operands are standardized to the length of the longest operand involved. The shorter operands are padded with trailing HEX 0 characters. Until now, the length of the target field was respected, but now only the operands of the right side are considered in the calculation.
+If operands with differing lengths are joined using statements such as [COMPUTE x = bitexp.](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_bit.htm), all operands are standardized to the length of the longest operand involved. The shorter operands are padded with trailing HEX 0 characters. Until now, the length of the target field was respected, but now only the operands of the right side are considered in the calculation.
 
 Modification 4   
 
 Multiple-Field ASSIGN on Method Parameters
 
-[ASSIGN f TO <fs>](javascript:call_link\('abapassign.htm'\)) statements on method parameters passed by reference that exceed the length of the parameter are now forbidden. This used to be allowed as long as the statement did not exceed the segment length.
+[ASSIGN f TO <fs>](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign.htm) statements on method parameters passed by reference that exceed the length of the parameter are now forbidden. This used to be allowed as long as the statement did not exceed the segment length.
 
 Modification 5   
 
 Obsolete Read Access to Database Tables
 
-When database tables are accessed using the statements [READ TABLE dbtab](javascript:call_link\('abapread_table_dbtab.htm'\)) and [LOOP AT dbtab](javascript:call_link\('abaploop_at_dbtab.htm'\)), a runtime error occurs if the key of the database table contains components that do not have a character-like type. Both statements are obsolete anyway, and can be replaced using appropriate [SELECT](javascript:call_link\('abapselect.htm'\)) statements.
+When database tables are accessed using the statements [READ TABLE dbtab](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table_dbtab.htm) and [LOOP AT dbtab](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_dbtab.htm), a runtime error occurs if the key of the database table contains components that do not have a character-like type. Both statements are obsolete anyway, and can be replaced using appropriate [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) statements.
 
 Modification 6   
 

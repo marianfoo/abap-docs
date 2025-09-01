@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 host constant
 
-[Host variable](javascript:call_link\('abenhost_variable_glosry.htm'\) "Glossary Entry") for which the ABAP [data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry") is a [constant](javascript:call_link\('abenconstant_glosry.htm'\) "Glossary Entry").
+[Host variable](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhost_variable_glosry.htm "Glossary Entry") for which the ABAP [data object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_object_glosry.htm "Glossary Entry") is a [constant](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstant_glosry.htm "Glossary Entry").

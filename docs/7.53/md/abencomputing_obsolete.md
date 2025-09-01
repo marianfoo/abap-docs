@@ -4,26 +4,26 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_internal_obsolete.htm) → 
 
 Obsolete Calculation Statements
 
--   [COMPUTE](javascript:call_link\('abapcompute.htm'\))
+-   [COMPUTE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute.htm)
 
--   [ADD - THEN, UNTIL](javascript:call_link\('abapadd_sequences.htm'\))
+-   [ADD - THEN, UNTIL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd_sequences.htm)
 
--   [ADD-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+-   [ADD-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd-corresponding.htm)
 
--   [SUBTRACT-CORRESPONDING](javascript:call_link\('abapsubtract-corresponding.htm'\))
+-   [SUBTRACT-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract-corresponding.htm)
 
--   [MULTIPLY-CORRESPONDING](javascript:call_link\('abapmultiply-corresponding.htm'\))
+-   [MULTIPLY-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmultiply-corresponding.htm)
 
--   [DIVIDE-CORRESPONDING](javascript:call_link\('abapdivide-corresponding.htm'\))
+-   [DIVIDE-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide-corresponding.htm)
 
 Continue
-[COMPUTE](javascript:call_link\('abapcompute.htm'\))
-[ADD - THEN, UNTIL](javascript:call_link\('abapadd_sequences.htm'\))
-[ADD-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
-[SUBTRACT-CORRESPONDING](javascript:call_link\('abapsubtract-corresponding.htm'\))
-[MULTIPLY-CORRESPONDING](javascript:call_link\('abapmultiply-corresponding.htm'\))
-[DIVIDE-CORRESPONDING](javascript:call_link\('abapdivide-corresponding.htm'\))
+[COMPUTE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute.htm)
+[ADD - THEN, UNTIL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd_sequences.htm)
+[ADD-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd-corresponding.htm)
+[SUBTRACT-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract-corresponding.htm)
+[MULTIPLY-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmultiply-corresponding.htm)
+[DIVIDE-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide-corresponding.htm)

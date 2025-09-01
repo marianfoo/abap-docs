@@ -4,19 +4,19 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [READ TABLE itab](javascript:call_link\('abapread_table.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_processing_statements.htm) →  [READ TABLE itab](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: READ TABLE, free_key, ABAPREAD_TABLE_FREE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D
 %0ASuggestion for improvement:)
 
 READ TABLE, free\_key
 
-[Short Reference](javascript:call_link\('abapread_table_itab_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table_itab_shortref.htm)
 
 Syntax
 
-... WITH KEY *{* [comp1](javascript:call_link\('abenitab_components.htm'\)) = operand1 [comp2](javascript:call_link\('abenitab_components.htm'\)) = operand2 ... *\[*BINARY SEARCH*\]* *}*
-           *|* *{* [keyname](javascript:call_link\('abenkeyname.htm'\)) COMPONENTS [comp1](javascript:call_link\('abenitab_components.htm'\)) = operand1 [comp2](javascript:call_link\('abenitab_components.htm'\)) = operand2 ... *}* ...
+... WITH KEY *{* [comp1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_components.htm) = operand1 [comp2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_components.htm) = operand2 ... *\[*BINARY SEARCH*\]* *}*
+           *|* *{* [keyname](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkeyname.htm) COMPONENTS [comp1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_components.htm) = operand1 [comp2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_components.htm) = operand2 ... *}* ...
 
 Variants:
 
@@ -25,12 +25,12 @@ Variants:
 
 Effect
 
-Specifies a free search key. The free search key can be defined freely or linked to the specification of a [secondary table key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") in [keyname](javascript:call_link\('abenkeyname.htm'\)).
+Specifies a free search key. The free search key can be defined freely or linked to the specification of a [secondary table key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") in [keyname](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkeyname.htm).
 
 Hints
 
--   [Table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") allow corresponding reads to also be performed in operand positions. The free key search is used if components are specified without an explicit [key specified](javascript:call_link\('abentable_exp_itab_line.htm'\)).
--   Outside of classes, the two obsolete variants of the addition [WITH KEY](javascript:call_link\('abapread_table_obsolet.htm'\)) are possible.
+-   [Table expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expression_glosry.htm "Glossary Entry") allow corresponding reads to also be performed in operand positions. The free key search is used if components are specified without an explicit [key specified](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_exp_itab_line.htm).
+-   Outside of classes, the two obsolete variants of the addition [WITH KEY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table_obsolet.htm) are possible.
 
 Variant 1   
 
@@ -42,19 +42,19 @@ Addition:
 
 Effect
 
-After the addition WITH KEY, components comp1 comp2 ... can be specified as search keys, in accordance with the rules [here](javascript:call_link\('abenitab_components.htm'\)). An operand operand1 operand2 ... is assigned to each of these search keys and must be [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") with the data type of the component or convertible to it. No duplicate or overlapping keys may be specified.
+After the addition WITH KEY, components comp1 comp2 ... can be specified as search keys, in accordance with the rules [here](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_components.htm). An operand operand1 operand2 ... is assigned to each of these search keys and must be [compatible](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencompatible_glosry.htm "Glossary Entry") with the data type of the component or convertible to it. No duplicate or overlapping keys may be specified.
 
-operand1 operand2 ... are [general expression positions](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). If necessary, the content of the operands is converted to the data type of the components before the comparison. If an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") is specified, the [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined from its operands and the data type of the component. If necessary, the result is converted to the data type of the component.
+operand1 operand2 ... are [general expression positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). If necessary, the content of the operands is converted to the data type of the components before the comparison. If an [arithmetic expression](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") is specified, the [calculation type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencalculation_type_glosry.htm "Glossary Entry") is determined from its operands and the data type of the component. If necessary, the result is converted to the data type of the component.
 
 The system searches for the first line of the internal table whose values in the specified components or their subareas or attributes match the values in the assigned operands operand1 operand2 ...
 
 The search is performed as follows for the individual table categories if BINARY SEARCH is not specified:
 
--   [Standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") are searched linearly.
--   [Sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") are searched binarily if the specified search key is an initial part of the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") or includes this key; otherwise the search is linear.
--   [Hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") are searched using the hash algorithm if the specified search key is an initial part of the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") or includes this key; otherwise the search is linear.
+-   [Standard tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_table_glosry.htm "Glossary Entry") are searched linearly.
+-   [Sorted tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensorted_table_glosry.htm "Glossary Entry") are searched binarily if the specified search key is an initial part of the [primary table key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") or includes this key; otherwise the search is linear.
+-   [Hashed tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhashed_table_glosry.htm "Glossary Entry") are searched using the hash algorithm if the specified search key is an initial part of the [primary table key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") or includes this key; otherwise the search is linear.
 
-If the [name](javascript:call_link\('abenitab_components.htm'\)) field of a component comp is initial, the first line that matches the remaining search key is read. If all name fields are initial, the first line of the internal table is read.
+If the [name](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_components.htm) field of a component comp is initial, the first line that matches the remaining search key is read. If all name fields are initial, the first line of the internal table is read.
 
 When a line is found, the system field sy-tabix is set according to the table category:
 
@@ -66,15 +66,15 @@ If no line is found, sy-tabix is undefined (-1), except if the complete table ke
 Hints
 
 -   If the line type of the internal table is not known statically, the components of the search key can only be specified dynamically and not directly.
--   If the search key includes components that supply a [secondary table key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") of the internal table without the key being specified in keyname, a warning is raised by the syntax check.
+-   If the search key includes components that supply a [secondary table key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") of the internal table without the key being specified in keyname, a warning is raised by the syntax check.
 -   If the BINARY SEARCH addition is used, and there are multiple hits, either due to an incompletely specified search key or duplicate table entries, the first hit based on the sequence of lines is the primary index, that is, the line with the lowest line number, is always returned.
--   If WITH KEY is used, it should be noted that the values of incompatible operands operand1 operand2 ... are converted to the data type of the columns before the comparison. This means that the [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) do not apply to incompatible data types. If a WHERE condition is used in the statements [LOOP](javascript:call_link\('abaploop_at_itab_cond.htm'\)), [MODIFY](javascript:call_link\('abapmodify_itab_multiple.htm'\)), and [DELETE](javascript:call_link\('abapdelete_itab_lines.htm'\)), however, the comparison rules apply, which can produce different results.
--   Due to the conversion before the comparison, [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") can be specified as operands for character-like types of type c or string and the corresponding special [conversion rules](javascript:call_link\('abenconversion_enumerated.htm'\)) apply, which is not possible in a WHERE condition. This type of conversion produces a message from the extended syntax check.
+-   If WITH KEY is used, it should be noted that the values of incompatible operands operand1 operand2 ... are converted to the data type of the columns before the comparison. This means that the [comparison rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_rules.htm) do not apply to incompatible data types. If a WHERE condition is used in the statements [LOOP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab_cond.htm), [MODIFY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_itab_multiple.htm), and [DELETE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_itab_lines.htm), however, the comparison rules apply, which can produce different results.
+-   Due to the conversion before the comparison, [enumerated objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenenumerated_object_glosry.htm "Glossary Entry") can be specified as operands for character-like types of type c or string and the corresponding special [conversion rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconversion_enumerated.htm) apply, which is not possible in a WHERE condition. This type of conversion produces a message from the extended syntax check.
 -   To avoid unexpected results after a conversion, operand1, operand2, ... must be compatible with the data type of the component.
 
 Example
 
-The internal table html\_viewer\_tab contains references to HTML [controls](javascript:call_link\('abencontrol_glosry.htm'\) "Glossary Entry"). The READ statement reads the reference that points to a HTML control in a specific container control.
+The internal table html\_viewer\_tab contains references to HTML [controls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencontrol_glosry.htm "Glossary Entry"). The READ statement reads the reference that points to a HTML control in a specific container control.
 
 DATA: container   TYPE REF TO cl\_gui\_container,
       html\_viewer TYPE REF TO cl\_gui\_html\_viewer.
@@ -96,17 +96,17 @@ Effect
 
 The addition BINARY SEARCH searches the table binarily instead of linearly. For larger tables (from approximately 100 entries), this can significantly reduce runtime. The table must, however, be sorted in ascending order by the components specified in the search key. The priority of the sort order must match exactly the order of the components in the search key. If this requirement is not met, the correct line is not usually found.
 
--   The addition BINARY SEARCH is recommended for standard tables where no appropriate [sorted](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry") [secondary table key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") is defined.
--   The addition BINARY SEARCH can only be specified for [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") if the specified search key is in the correct order and is an initial part of the table key, or includes the key. It has no special effect in this situation.
--   The addition BINARY SEARCH cannot be specified for [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry").
+-   The addition BINARY SEARCH is recommended for standard tables where no appropriate [sorted](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensorted_key_glosry.htm "Glossary Entry") [secondary table key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") is defined.
+-   The addition BINARY SEARCH can only be specified for [sorted tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensorted_table_glosry.htm "Glossary Entry") if the specified search key is in the correct order and is an initial part of the table key, or includes the key. It has no special effect in this situation.
+-   The addition BINARY SEARCH cannot be specified for [hashed tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhashed_table_glosry.htm "Glossary Entry").
 
 Hints
 
--   If the addition BINARY SEARCH is used, the statement READ always performs an index access, and can therefore only be used for tables with the appropriate type. [Formal parameters](javascript:call_link\('abenformal_parameter_glosry.htm'\) "Glossary Entry") or a [field symbol](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") must have at least the generic type INDEX TABLE.
--   The addition BINARY SEARCH is based on standard sorting according to the size of the components. Text sorting with the addition AS TEXT of the statement [SORT](javascript:call_link\('abapsort_itab.htm'\)) can produce unexpected results, since the result for text-like components no longer depends on the binary representation, but on the [locale](javascript:call_link\('abenlocale_glosry.htm'\) "Glossary Entry") of the current [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry").
+-   If the addition BINARY SEARCH is used, the statement READ always performs an index access, and can therefore only be used for tables with the appropriate type. [Formal parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenformal_parameter_glosry.htm "Glossary Entry") or a [field symbol](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfield_symbol_glosry.htm "Glossary Entry") must have at least the generic type INDEX TABLE.
+-   The addition BINARY SEARCH is based on standard sorting according to the size of the components. Text sorting with the addition AS TEXT of the statement [SORT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsort_itab.htm) can produce unexpected results, since the result for text-like components no longer depends on the binary representation, but on the [locale](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlocale_glosry.htm "Glossary Entry") of the current [text environment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_glosry.htm "Glossary Entry").
 -   The method READ\_BINARY\_SEARCH\_CHECK of the class CL\_ABAP\_ITAB\_UTILITIES can be used to check whether the required sorting exists for the addition BINARY SEARCH.
 -   When the addition BINARY SEARCH is used, if there are multiple hits due to an incomplete search key or duplicate entries in the table, the first hit according to the order of the lines in the primary index is returned. This is the line with the lowest line number.
--   Instead of using the addition BINARY SEARCH, it is recommended that work is done either with [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") or with [sorted](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry") [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry").
+-   Instead of using the addition BINARY SEARCH, it is recommended that work is done either with [sorted tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensorted_table_glosry.htm "Glossary Entry") or with [sorted](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensorted_key_glosry.htm "Glossary Entry") [secondary table keys](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_table_key_glosry.htm "Glossary Entry").
 
 Example
 
@@ -126,12 +126,12 @@ Variant 2  
 
 Effect
 
-[keyname](javascript:call_link\('abenkeyname.htm'\)) can be used to specify a [table key](javascript:call_link\('abentable_key_glosry.htm'\) "Glossary Entry"). The same applies when specifying the components as in the variant without key specifications.
+[keyname](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenkeyname.htm) can be used to specify a [table key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_key_glosry.htm "Glossary Entry"). The same applies when specifying the components as in the variant without key specifications.
 
-If a [secondary table key](javascript:call_link\('abensecondary_table_index_glosry.htm'\) "Glossary Entry") is specified in keyname, the behavior is as follows:
+If a [secondary table key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_table_index_glosry.htm "Glossary Entry") is specified in keyname, the behavior is as follows:
 
--   If a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry") is specified, the specified search key must be an initial part of the secondary table key or include it. The associated [secondary table index](javascript:call_link\('abensecondary_table_index_glosry.htm'\) "Glossary Entry") is then searched binarily. If multiple entries are found when using a non-unique search key, the first hit, that is, the line with the lowest line number, is read in the secondary index. Additional search criteria can also be specified that are also evaluated.
--   If a [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") is specified, the specified search key must include the secondary table key and the hash algorithm is used. Additional search criteria can also be specified that are also evaluated.
+-   If a [sorted key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensorted_key_glosry.htm "Glossary Entry") is specified, the specified search key must be an initial part of the secondary table key or include it. The associated [secondary table index](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_table_index_glosry.htm "Glossary Entry") is then searched binarily. If multiple entries are found when using a non-unique search key, the first hit, that is, the line with the lowest line number, is read in the secondary index. Additional search criteria can also be specified that are also evaluated.
+-   If a [hash key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhash_key_glosry.htm "Glossary Entry") is specified, the specified search key must include the secondary table key and the hash algorithm is used. Additional search criteria can also be specified that are also evaluated.
 
 When a line is found, the system field sy-tabix is set with respect to the specified secondary table key:
 
@@ -140,11 +140,11 @@ When a line is found, the system field sy-tabix is set with respect to the speci
 
 If no line is found, sy-tabix is undefined (-1), except when it is covered completely by a sorted secondary key. In this case, sy-tabix is set to the line number of the entry in the secondary table index in front of which the line would be inserted using INSERT ... INDEX ..., to preserve the sort.
 
-If the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") is specified in keyname using its name primary\_key, the behavior is the same as in the variant without key specifications.
+If the [primary table key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") is specified in keyname using its name primary\_key, the behavior is the same as in the variant without key specifications.
 
 Hints
 
--   The specification of free keys differs when a secondary key is used from the [table\_key](javascript:call_link\('abapread_table_key.htm'\)) variant for specifying the table key in that additional conditions can be specified in the search key. These conditions can also be evaluated and reduce the length of the hit list. For secondary sorted keys, however, free search keys make it possible to specify an incomplete search key, which can make the hit list longer.
+-   The specification of free keys differs when a secondary key is used from the [table\_key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table_key.htm) variant for specifying the table key in that additional conditions can be specified in the search key. These conditions can also be evaluated and reduce the length of the hit list. For secondary sorted keys, however, free search keys make it possible to specify an incomplete search key, which can make the hit list longer.
 -   If a secondary table key is used, when the value of sy-tabix is used subsequently as an index specification in other processing statements for the internal table, it must be ensured that the same table key is used.
 
 Example

@@ -4,20 +4,20 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Editing List Buffers](javascript:call_link\('abenabap_lists_complex.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpro_list.htm) →  [Lists - Editing List Buffers](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_lists_complex.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: DESCRIBE LIST, ABAPDESCRIBE_LIST, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugges
 tion for improvement:)
 
 DESCRIBE LIST
 
-[Short Reference](javascript:call_link\('abapdescribe_list_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdescribe_list_shortref.htm)
 
 Syntax
 
 DESCRIBE LIST *{* *{*NUMBER OF  *{*LINES*|*PAGES*}* n*}*
               *|* *{*LINE linno PAGE page*}*
-              *|* *{*PAGE pagno [page\_properties](javascript:call_link\('abapdescribe_list_page_properties.htm'\))*}* *}*
+              *|* *{*PAGE pagno [page\_properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdescribe_list_page_properties.htm)*}* *}*
               *\[*INDEX idx*\]*.
 
 Alternatives:
@@ -32,7 +32,7 @@ Addition:
 
 Effect
 
-This statement assigns the properties of a list stored in a list buffer to the variables n, page, or the variables specified in [page\_properties](javascript:call_link\('abapdescribe_list_page_properties.htm'\)).
+This statement assigns the properties of a list stored in a list buffer to the variables n, page, or the variables specified in [page\_properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdescribe_list_page_properties.htm).
 
 System Fields
 
@@ -86,7 +86,7 @@ Alternative 3  
 
 Effect
 
-Various properties [page\_properties](javascript:call_link\('abapdescribe_list_page_properties.htm'\)) for the page number specified in pagno are determined and passed to the specified variables. At least one addition must be specified after pagno. pagno expects the data type i. If the page specified in pagno does not exist, the variables are not changed and sy-subrc is set to the value 4.
+Various properties [page\_properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdescribe_list_page_properties.htm) for the page number specified in pagno are determined and passed to the specified variables. At least one addition must be specified after pagno. pagno expects the data type i. If the page specified in pagno does not exist, the variables are not changed and sy-subrc is set to the value 4.
 
 Example
 
@@ -104,4 +104,4 @@ AT LINE-SELECTION.
                                 TOP-LINES  top\_lines.
 
 Continue
-[DESCRIBE LIST, page\_properties](javascript:call_link\('abapdescribe_list_page_properties.htm'\))
+[DESCRIBE LIST, page\_properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdescribe_list_page_properties.htm)

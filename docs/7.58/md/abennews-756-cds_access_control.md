@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [News for ABAP Release 7.56](javascript:call_link\('abennews-756.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 7.5x](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-75.htm) →  [News for ABAP Release 7.56](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-756.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20CDS%20Access%20Control%20in%20ABAP%20Release%207.56%2C%20ABENNEWS-756-CDS_ACCESS_CONTROL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%
 20for%20improvement:)
@@ -30,7 +30,7 @@ From this release on, authors of access controls can mark a subset of the CDS el
 GRANT SELECT ON cds\_entity WITH OPTIONAL ELEMENTS (
      element1 DEFAULT (TRUE|FALSE), ...) WHERE ...
 
-[More Information](javascript:call_link\('abencds_dcl_role_cond_rule.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_dcl_role_cond_rule.htm)
 
 Modification 2   
 
@@ -46,7 +46,7 @@ Now allowed:
 
 ( ... ) = ASPECT PFCG\_AUTH( S\_OBJ IN SCENARIO TheScenario )
 
-[More Information](javascript:call_link\('abencds_f1_define_role.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_define_role.htm)
 
 Modification 3   
 
@@ -63,7 +63,7 @@ DEFINE ASPECT ... AS SELECT FROM ...
 WHERE ( ... ) = ASPECT ... FILTER BY ( element1 = 'X' OR
                                        alias2 IS NOT NULL )
 
-[More Information](javascript:call_link\('abencds_f1_cond_aspect.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_cond_aspect.htm)
 
 Modification 4   
 
@@ -77,7 +77,7 @@ is now also available for role-based inheritance
 
 INHERIT role FOR GRANT SELECT ON cds\_entity
 
-[More Information](javascript:call_link\('abencds_f1_cond_inherit.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_cond_inherit.htm)
 
 Modification 5   
 
@@ -90,7 +90,7 @@ WHERE INHERITING CONDITIONS FROM ENTITY Source REPLACING {
   ELEMENT Assoc1OfSource WITH Assoc1\[r = 4\].Assoc2OfTarget,
   ELEMENT Assoc2(p : $parameters.p1)\[ q = 1\].Field WITH MyShortField }
 
-[More Information](javascript:call_link\('abencds_f1_cond_inherit_replacing.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_cond_inherit_replacing.htm)
 
 Modification 6   
 
@@ -112,7 +112,7 @@ GRANT SELECT ON cds\_entity
       AND
     ( element ) = ASPECT PFCG\_AUTH( NEW\_AUTH, F );
 
-[More Information](javascript:call_link\('abencds_f1_dcl_function.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_function.htm)
 
 Modification 7   
 
@@ -132,10 +132,10 @@ When operating the system with the emergency user SAP\*, CDS access control is n
 
 During processing of an update task, PFCG conditions are now considered as fully authorized.
 
-[More Information](javascript:call_link\('abenauthority_during_update.htm'\))
+[More Information](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenauthority_during_update.htm)
 
 Modification 9   
 
 New DCL Function
 
-The following new [DCL function](javascript:call_link\('abencds_f1_dcl_function.htm'\)) is available: [OPTIONAL\_ELEMENT\_EXISTS](javascript:call_link\('abencds_f1_dcl_function.htm'\)).
+The following new [DCL function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_function.htm) is available: [OPTIONAL\_ELEMENT\_EXISTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_dcl_function.htm).

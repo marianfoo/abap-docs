@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Behavior Pools (ABP)](javascript:call_link\('abenabap_behavior_pools.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Behavior Pools (ABP)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm) → 
 
 ABP - Handler Class
 
@@ -49,11 +49,11 @@ ENDCLASS.
 
 Effect
 
-Within the [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"), one or more local handler classes for handling the [behavior](javascript:call_link\('abenrap_bo_behavior_glosry.htm'\) "Glossary Entry") of the business object are defined. In this interaction phase of the [behavior implementation](javascript:call_link\('abenbehavior_implement_glosry.htm'\) "Glossary Entry") of a business object, the application performs writes and reads that need to be evaluated and whose effects (if without errors) need to be saved to a transactional buffer. Here, it is defined for which operations a method is responsible. In extreme cases, this is the full set of all write (MODIFY) or read (READ) operations allowed by the [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry").
+Within the [behavior pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm "Glossary Entry"), one or more local handler classes for handling the [behavior](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_behavior_glosry.htm "Glossary Entry") of the business object are defined. In this interaction phase of the [behavior implementation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_implement_glosry.htm "Glossary Entry") of a business object, the application performs writes and reads that need to be evaluated and whose effects (if without errors) need to be saved to a transactional buffer. Here, it is defined for which operations a method is responsible. In extreme cases, this is the full set of all write (MODIFY) or read (READ) operations allowed by the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry").
 
 A handler class is defined implicitly as ABSTRACT and FINAL and derived from the basis class CL\_ABAP\_BEHAVIOR\_HANDLER. There are no special rules for the name lcl\_handler\_name of the handler classes.
 
-To make a reference to the entities entity\_name, the [alias](javascript:call_link\('abenbdl_alias.htm'\)) granted in the behavior definition (if available) is used.
+To make a reference to the entities entity\_name, the [alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm) granted in the behavior definition (if available) is used.
 
 The method name method\_name can be specified freely in handler classes. The category of the method is specified for the FOR clause (FOR MODIFY*|*LOCK*|*READ).
 
@@ -63,18 +63,18 @@ The trigger is associated with a freely specified parameter name (for example, u
 
 The following transactional methods can be implemented in the handler class:
 
--   [FOR MODIFY](javascript:call_link\('abenhandler_method_modify.htm'\))
+-   [FOR MODIFY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_modify.htm)
     Covers all change operations (CREATE, UPDATE, DELETE, and certain actions specified in the behavior definition) of an entity.
 
--   [FOR LOCK](javascript:call_link\('abenhandler_method_lock.htm'\))
-    Implements entity locks. Based on the [lock properties](javascript:call_link\('abenlate_numbering_glosry.htm'\) "Glossary Entry") defined in the behavior definition.
+-   [FOR LOCK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_lock.htm)
+    Implements entity locks. Based on the [lock properties](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlate_numbering_glosry.htm "Glossary Entry") defined in the behavior definition.
 
--   [FOR READ](javascript:call_link\('abenhandler_method_read.htm'\))
+-   [FOR READ](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_read.htm)
     Processes reads.
 
 Note
 
-Exceptions cannot be raised in handler methods. The statement RAISE EXCEPTION produces a [runtime error](javascript:call_link\('abenruntime_error_glosry.htm'\) "Glossary Entry").
+Exceptions cannot be raised in handler methods. The statement RAISE EXCEPTION produces a [runtime error](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenruntime_error_glosry.htm "Glossary Entry").
 
 Example
 
@@ -140,7 +140,7 @@ CLASS lcl\_travel\_handler IMPLEMENTATION.
 ENDCLASS.
 
 Continue
-[FOR MODIFY](javascript:call_link\('abenhandler_method_modify.htm'\))
-[FOR READ](javascript:call_link\('abenhandler_method_read.htm'\))
-[FOR LOCK](javascript:call_link\('abenhandler_method_lock.htm'\))
-[Example, Handling of Messages](javascript:call_link\('abenrpm_handling_messages.htm'\))
+[FOR MODIFY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_modify.htm)
+[FOR READ](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_read.htm)
+[FOR LOCK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_lock.htm)
+[Example, Handling of Messages](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_handling_messages.htm)

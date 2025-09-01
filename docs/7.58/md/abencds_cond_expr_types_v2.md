@@ -4,17 +4,19 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](javascript:call_link\('abencds_operands_and_expr_v2.htm'\)) →  [CDS DDL - CDS View Entity, cds\_cond](javascript:call_link\('abencds_conditional_expression_v2.htm'\)) →  [CDS DDL - CDS View Entity, cds\_cond, Comparison Operators](javascript:call_link\('abencds_cond_expr_comp_v2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_select_statement_v2.htm) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_operands_and_expr_v2.htm) →  [CDS DDL - CDS View Entity, cds\_cond](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conditional_expression_v2.htm) →  [CDS DDL - CDS View Entity, cds\_cond, Comparison Operators](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_cond_expr_comp_v2.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20CDS%20View%20Entity%2C%20cds_cond%2C%20Comparable%20Types%2C%20ABENCDS_COND_EXPR_TYPES_V2%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0AS
 uggestion%20for%20improvement:)
 
 CDS DDL - CDS View Entity, cds\_cond, Comparable Types
 
-The following tables show which [built-in data types](javascript:call_link\('abenddic_builtin_types.htm'\)) in ABAP Dictionary can be compared with each other in a [condition](javascript:call_link\('abencds_conditional_expression_v2.htm'\)) of a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry").
+The following tables show which [built-in data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types.htm) in ABAP Dictionary can be compared with each other in a [condition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conditional_expression_v2.htm) of a [CDS view entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v2_view_glosry.htm "Glossary Entry").
 
--   [Comparisons with Fields of Data Sources](#abencds-cond-expr-types-v2-1-------comparisons-with-parameters---@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_2)
--   [Comparisons with Literals](#abencds-cond-expr-types-v2-3-------comparisons-with-cds-amount-fields-and-cds-quantity-fields---@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_4)
+-   [Comparisons with Fields of Data Sources](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_1)
+-   [Comparisons with Parameters](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_2)
+-   [Comparisons with Literals](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_3)
+-   [Comparisons with CDS Amount Fields and CDS Quantity Fields](#@@ITOC@@ABENCDS_COND_EXPR_TYPES_V2_4)
 
 Comparisons with Fields of Data Sources   
 
@@ -1274,9 +1276,9 @@ l
 -   In combinations using l, the lengths of the compared columns must match exactly.
 -   For combinations using m, the length is relevant: the field of type NUMC can have the same lengths or fewer characters than the field of type CHAR. If the field of type NUMC is longer than the field of type CHAR, a syntax error occurs.
 -   For combinations using d, the number of decimal places must match exactly.
-    -   Note: Operands of data type CURR can be cast to data type DECFLOAT34 using the conversion function [CURR\_TO\_DECFLOAT\_AMOUNT](javascript:call_link\('abencds_conv_func_unit_curr_v2.htm'\)) to avoid length requirements.
--   For combinations using a, both operands must be specified as [ABAP CDS quantity fields](javascript:call_link\('abencds_quantity_glosry.htm'\) "Glossary Entry") by adding a reference to a [unit of measurement key](javascript:call_link\('abenunit_glosry.htm'\) "Glossary Entry") using the annotation [@Semantics.quantity.unitOfMeasure](javascript:call_link\('abencds_f1_element_annotation.htm'\)). Otherwise, a syntax check warning occurs.
-    -   Note: You can use the conversion function [GET\_NUMERIC\_VALUE](javascript:call_link\('abencds_conv_func_unit_curr_v2.htm'\)) to turn quantity fields into regular fields of data type DECFLOAT34.
+    -   Note: Operands of data type CURR can be cast to data type DECFLOAT34 using the conversion function [CURR\_TO\_DECFLOAT\_AMOUNT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conv_func_unit_curr_v2.htm) to avoid length requirements.
+-   For combinations using a, both operands must be specified as [ABAP CDS quantity fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_quantity_glosry.htm "Glossary Entry") by adding a reference to a [unit of measurement key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunit_glosry.htm "Glossary Entry") using the annotation [@Semantics.quantity.unitOfMeasure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_element_annotation.htm). Otherwise, a syntax check warning occurs.
+    -   Note: You can use the conversion function [GET\_NUMERIC\_VALUE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conv_func_unit_curr_v2.htm) to turn quantity fields into regular fields of data type DECFLOAT34.
 
 Comparisons with Parameters   
 
@@ -2536,11 +2538,11 @@ l
 -   In combinations using l, the lengths of the compared operands must match exactly.
 -   For combinations using m, the length is relevant: the field of type NUMC can have the same lengths or less characters than the field of type CHAR. If the field of type NUMC is longer than the field of type CHAR, a syntax error occurs.
 -   For combinations using d, the number of decimal places must match exactly.
-    -   Note: Operands of data type CURR can be cast to data type DECFLOAT34 using the conversion function [CURR\_TO\_DECFLOAT\_AMOUNT](javascript:call_link\('abencds_conv_func_unit_curr_v2.htm'\)) to avoid this length requirement.
+    -   Note: Operands of data type CURR can be cast to data type DECFLOAT34 using the conversion function [CURR\_TO\_DECFLOAT\_AMOUNT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conv_func_unit_curr_v2.htm) to avoid this length requirement.
 
 Comparisons with Literals   
 
-The following table shows the possible combinations of data source fields on the left side (lhs) with literals on the right side (rhs) of comparisons. The literals can be [typed](javascript:call_link\('abencds_typed_literal_v2.htm'\)) or [untyped](javascript:call_link\('abencds_untyped_literal_v2.htm'\)). It is recommended that only typed literals are used, because they offer more data types. With typed literals, the data types shown in the table are possible.
+The following table shows the possible combinations of data source fields on the left side (lhs) with literals on the right side (rhs) of comparisons. The literals can be [typed](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_typed_literal_v2.htm) or [untyped](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_untyped_literal_v2.htm). It is recommended that only typed literals are used, because they offer more data types. With typed literals, the data types shown in the table are possible.
 
 lhs/rhs
 
@@ -3501,21 +3503,21 @@ l
 -   For combinations using m, the length of the literal cannot be greater than the column.
 -   For combinations using d, the length of the literal and the number of decimal places cannot be greater than the length and number for the column.
 -   For combinations using l, the length of the literal must be equal to the length of the column.
--   If the literal on the right side (rhs) is of data type CURR, it must have exactly two decimal places. Since the number of decimal places of rhs and lhs must match exactly, lhs must also have exactly two decimal places. The conversion functions [CURR\_TO\_DECFLOAT\_AMOUNT](javascript:call_link\('abencds_conv_func_unit_curr_v2.htm'\)) and [GET\_NUMERIC\_VALUE](javascript:call_link\('abencds_conv_func_unit_curr_v2.htm'\)) can be used to avoid this length requirement.
+-   If the literal on the right side (rhs) is of data type CURR, it must have exactly two decimal places. Since the number of decimal places of rhs and lhs must match exactly, lhs must also have exactly two decimal places. The conversion functions [CURR\_TO\_DECFLOAT\_AMOUNT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conv_func_unit_curr_v2.htm) and [GET\_NUMERIC\_VALUE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conv_func_unit_curr_v2.htm) can be used to avoid this length requirement.
 
 Comparisons with CDS Amount Fields and CDS Quantity Fields   
 
-If one of the operands lhs or rhs of a comparison is a [CDS amount field](javascript:call_link\('abencds_amount_field_glosry.htm'\) "Glossary Entry"), a [CDS quantity field](javascript:call_link\('abencds_quantity_glosry.htm'\) "Glossary Entry"), or a [CDS calculated quantity](javascript:call_link\('abencds_calculated_quantity_glosry.htm'\) "Glossary Entry"), special rules apply:
+If one of the operands lhs or rhs of a comparison is a [CDS amount field](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_amount_field_glosry.htm "Glossary Entry"), a [CDS quantity field](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_quantity_glosry.htm "Glossary Entry"), or a [CDS calculated quantity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calculated_quantity_glosry.htm "Glossary Entry"), special rules apply:
 
--   Both operands lhs and rhs must have the same reference type. Both must be either amounts, or quantities, or calculated quantities. Comparing operands with references of different types ([currency key](javascript:call_link\('abencurrency_key_glosry.htm'\) "Glossary Entry"), [unit key](javascript:call_link\('abenunit_glosry.htm'\) "Glossary Entry"), or [calculated unit](javascript:call_link\('abencds_calculated_unit_glosry.htm'\) "Glossary Entry")) results in a syntax check warning.
+-   Both operands lhs and rhs must have the same reference type. Both must be either amounts, or quantities, or calculated quantities. Comparing operands with references of different types ([currency key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencurrency_key_glosry.htm "Glossary Entry"), [unit key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunit_glosry.htm "Glossary Entry"), or [calculated unit](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_calculated_unit_glosry.htm "Glossary Entry")) results in a syntax check warning.
 -   An operand of type CURR can only be compared with another operand of type CURR. The number of decimal places of both operands must match exactly.
     -   Exception: If lhs has data type CURR and rhs is specified as literal, the following data types are possible for rhs: INT1, INT2, INT4, INT8, DEC, CURR, QUAN, FLTP, DECFLOAT16, DECFLOAT34.
 -   Two conversion functions are available to circumvent limitations:
     
-    -   [CURR\_TO\_DECFLOAT\_AMOUNT](javascript:call_link\('abencds_conv_func_unit_curr_v2.htm'\)) converts an amount field of type CURR to an amount field of type DECFLOAT34.
-    -   [GET\_NUMERIC\_VALUE](javascript:call_link\('abencds_conv_func_unit_curr_v2.htm'\)) convert amounts and quantities into regular fields.
+    -   [CURR\_TO\_DECFLOAT\_AMOUNT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conv_func_unit_curr_v2.htm) converts an amount field of type CURR to an amount field of type DECFLOAT34.
+    -   [GET\_NUMERIC\_VALUE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_conv_func_unit_curr_v2.htm) convert amounts and quantities into regular fields.
     
-    Caution: In the [ON condition of a CDS association](javascript:call_link\('abencds_simple_association_v2.htm'\)), these two conversion functions are not available, since functions in general are not supported in the ON condition of a CDS association.
+    Caution: In the [ON condition of a CDS association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_association_v2.htm), these two conversion functions are not available, since functions in general are not supported in the ON condition of a CDS association.
     
 
 The following table shows the possible combinations of operands in comparisons. Number refers to an operand of a numeric data type without reference annotation that turns it into an amount or quantity field.

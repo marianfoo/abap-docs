@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Editing List Buffers](javascript:call_link\('abenabap_lists_complex.htm'\)) →  [SCROLL LIST](javascript:call_link\('abapscroll.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpro_list.htm) →  [Lists - Editing List Buffers](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_lists_complex.htm) →  [SCROLL LIST](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapscroll.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SCROLL LIST, vertical, ABAPSCROLL_LIST_VERTICAL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D
 %0A%0D%0ASuggestion for improvement:)
 
 SCROLL LIST, vertical
 
-[Short Reference](javascript:call_link\('abapscroll_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapscroll_shortref.htm)
 
 Syntax
 
@@ -63,7 +63,7 @@ Addition  
 
 Effect
 
-The addition LINE specifies which line is displayed first on the pages selected using PAGE. If the addition LINE is not used, the list is displayed starting with the first line on the selected page. If the addition LINE is specified, the line on the selected page specified in lin is displayed under the [page header](javascript:call_link\('abenpage_header_glosry.htm'\) "Glossary Entry"), not counting the page header. lin expects a data object of type i. If the value in lin is 0 or less, it is processed as 1. If it is greater than the page length, it is processed like this page length and sy-subrc is set to 4.
+The addition LINE specifies which line is displayed first on the pages selected using PAGE. If the addition LINE is not used, the list is displayed starting with the first line on the selected page. If the addition LINE is specified, the line on the selected page specified in lin is displayed under the [page header](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpage_header_glosry.htm "Glossary Entry"), not counting the page header. lin expects a data object of type i. If the value in lin is 0 or less, it is processed as 1. If it is greater than the page length, it is processed like this page length and sy-subrc is set to 4.
 
 Alternative 4   
 
@@ -71,6 +71,6 @@ Alternative 4  
 
 Effect
 
-The additions FORWARD and BACKWARD without n PAGES move the current screen segment up or down by the current number of lines in the GUI window (sy-srows). The [page header](javascript:call_link\('abenpage_header_glosry.htm'\) "Glossary Entry") of the top page displayed is always displayed first.
+The additions FORWARD and BACKWARD without n PAGES move the current screen segment up or down by the current number of lines in the GUI window (sy-srows). The [page header](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpage_header_glosry.htm "Glossary Entry") of the top page displayed is always displayed first.
 
 The additions FORWARD and BACKWARD with n PAGES define the top page in the screen segment on the page derived by adding or subtracting the value in n from the current top page. n expects a data object of type i. If the resulting value is less than or equal to 0 or is greater than the number of pages, it is processed as 1 or like this number of pages and sy-subrc is set to 4. The resulting page is displayed starting with the first line.

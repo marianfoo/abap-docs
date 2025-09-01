@@ -4,12 +4,12 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Declarations](javascript:call_link\('abenobsolete_declarations.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Declarations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_declarations.htm) → 
 
 Field Symbols
 
--   [Obsolete Typing](javascript:call_link\('abapfield-symbols_obsolete_typing.htm'\))
+-   [Obsolete Typing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfield-symbols_obsolete_typing.htm)
 
 Continue
-[FIELD-SYMBOLS - obsolete\_typing](javascript:call_link\('abapfield-symbols_obsolete_typing.htm'\))
-![Example](exa.gif "Example") [Field Symbols, Cast Structures](javascript:call_link\('abenfield_symbols_struc_abexa.htm'\))
+[FIELD-SYMBOLS - obsolete\_typing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfield-symbols_obsolete_typing.htm)
+![Example](exa.gif "Example") [Field Symbols, Cast Structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfield_symbols_struc_abexa.htm)

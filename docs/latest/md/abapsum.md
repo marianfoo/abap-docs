@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [LOOP AT itab](javascript:call_link\('abaploop_at_itab_variants.htm'\)) →  [LOOP AT itab, Basic Form](javascript:call_link\('abaploop_at_itab.htm'\)) →  [AT, Group Level Processing](javascript:call_link\('abapat_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentable_processing_statements.htm) →  [LOOP AT itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_itab_variants.htm) →  [LOOP AT itab, Basic Form](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_itab.htm) →  [AT, Group Level Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_itab.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SUM%2C%20ABAPSUM%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SUM
 
-[Short Reference](javascript:call_link\('abapsum_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsum_shortref.htm)
 
 Syntax
 
@@ -18,9 +18,9 @@ SUM.
 
 Effect
 
-The statement SUM can only be specified within a loop [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)) and is only respected within a [AT\-ENDAT](javascript:call_link\('abapat_itab.htm'\)) control structure. Prerequisites for using the statement SUM are that the addition INTO is used in the LOOP statement, and that the specified work area wa is [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") with the line type of the internal table. Furthermore, SUM cannot be used when the line type of the internal table itab contains components that are tables themselves.
+The statement SUM can only be specified within a loop [LOOP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaploop_at_itab.htm) and is only respected within a [AT\-ENDAT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapat_itab.htm) control structure. Prerequisites for using the statement SUM are that the addition INTO is used in the LOOP statement, and that the specified work area wa is [compatible](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompatible_glosry.htm "Glossary Entry") with the line type of the internal table. Furthermore, SUM cannot be used when the line type of the internal table itab contains components that are tables themselves.
 
--   In a group level AT NEW compi and AT END OF compi, SUM calculates the sums of the [numeric](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry") components to the right of the current group key for all lines of the current group level and assigns these to the corresponding components of the work area wa. In an elementary line type, there are no components to the right of the current group key and the work area wa remains unchanged.
+-   In a group level AT NEW compi and AT END OF compi, SUM calculates the sums of the [numeric](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry") components to the right of the current group key for all lines of the current group level and assigns these to the corresponding components of the work area wa. In an elementary line type, there are no components to the right of the current group key and the work area wa remains unchanged.
 -   In the group levels FIRST, LAST, and outside an AT\-ENDAT control structure, for a structured line type the sum of all numeric components of all lines of the internal table is calculated and assigned to the corresponding components of the work area wa. For an elementary numeric line type, SUM sums the line values and assigns the sum to wa. For non-numeric elementary line types, SUM has no effect and the work area wa keeps its current value.
 
 Hint
@@ -67,9 +67,9 @@ ENDLOOP.
 
 Executable Example
 
-[Group Level Processing with Totals](javascript:call_link\('abenint_table_sum_abexa.htm'\))
+[Group Level Processing with Totals](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenint_table_sum_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 

@@ -4,17 +4,22 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions (regex)](javascript:call_link\('abenregular_expressions.htm'\)) →  [regex - Migrating from POSIX to PCRE](javascript:call_link\('abenregex_migrating_posix.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions (regex)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregular_expressions.htm) →  [regex - Migrating from POSIX to PCRE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_migrating_posix.htm) → 
 
 regex - Incompatibilities between POSIX and PCRE
 
 This topics lists all features of POSIX regular expressions that cannot be reused directly in PCRE but require some migration effort by rewriting the regular expressions.
 
--   [Migrating Patterns](#abenregex-posix-pcre-incompat-1-----------fundamental-differences---@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_2)
-    -   [Significance of Whitespaces in Patterns](#abenregex-posix-pcre-incompat-3-----------comments---@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_4)
-    -   [Unicode Handling](#abenregex-posix-pcre-incompat-5-----------matching-uppercase-and-lowercase-letters---@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_6)
-    -   [Matching All Unicode Characters](#abenregex-posix-pcre-incompat-7-----------word-anchors---@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_8)
--   [Migrating Replacement Strings](#abenregex-posix-pcre-incompat-9-----------substituting-the-whole-match---@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_10)
+-   [Migrating Patterns](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_1)
+    -   [Fundamental Differences](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_2)
+    -   [Significance of Whitespaces in Patterns](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_3)
+    -   [Comments](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_4)
+    -   [Unicode Handling](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_5)
+    -   [Matching Uppercase and Lowercase Letters](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_6)
+    -   [Matching All Unicode Characters](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_7)
+    -   [Word Anchors](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_8)
+-   [Migrating Replacement Strings](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_9)
+    -   [Substituting the Whole Match](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_10)
     -   [Substituting Parts around the Match](#@@ITOC@@ABENREGEX_POSIX_PCRE_INCOMPAT_11)
 
 Migrating Patterns
@@ -70,12 +75,12 @@ Significance of Whitespaces in Patterns
 By default PCRE syntax is compiled in an extended mode on AS ABAP: Most unescaped whitespace (blanks and line breaks) of the pattern are ignored outside character classes. In order to include whitespace into a pattern, they must be escaped. In order to explicitly match whitespaces in PCRE's extended mode, there are the following options:
 
 -   Escape the whitespace in the pattern. The pattern Hello\\ World matches Hello World.
--   Match all whitespaces using the special character [\\s](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)). Hello\\sWorld matches Hello World. The same applies to Hello \\s World, which might be more readable.
+-   Match all whitespaces using the special character [\\s](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_pcre_syntax_specials.htm). Hello\\sWorld matches Hello World. The same applies to Hello \\s World, which might be more readable.
 
 While the extended mode allows you to write more readable regular expressions, it can be a bit confusing at first, especially when migrating POSIX regular expressions. The extended mode of PCRE can be switched of as follows:
 
--   By passing ABAP\_FALSE to the parameter EXTENDED when creating a PCRE regular expression with method CREATE\_PCRE of class [CL\_ABAP\_REGEX](javascript:call_link\('abenregex_system_classes.htm'\)).
--   By using the special character [(?-x)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) in the pattern itself. This also works for the addition [PCRE](javascript:call_link\('abapfind_pattern.htm'\)) in statements and the parameter [pcre](javascript:call_link\('abenstring_functions_regex.htm'\)) in string functions.
+-   By passing ABAP\_FALSE to the parameter EXTENDED when creating a PCRE regular expression with method CREATE\_PCRE of class [CL\_ABAP\_REGEX](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_system_classes.htm).
+-   By using the special character [(?-x)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_pcre_syntax_specials.htm) in the pattern itself. This also works for the addition [PCRE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfind_pattern.htm) in statements and the parameter [pcre](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_functions_regex.htm) in string functions.
 
 Example
 
@@ -121,7 +126,7 @@ ASSERT
 
 Unicode Handling
 
-For the representation of character strings, the ABAP programming language supports the two byte [Unicode character representation](javascript:call_link\('abenunicode_char_represent_glosry.htm'\) "Glossary Entry") [UCS-2](javascript:call_link\('abenucs2_glosry.htm'\) "Glossary Entry"). The [system code page](javascript:call_link\('abensystem_codepage_glosry.htm'\) "Glossary Entry") of an AS ABAP is [UTF-16](javascript:call_link\('abenutf16_glosry.htm'\) "Glossary Entry"), that supports all characters of the Unicode standard. UCS-2 is a subset of UTF-16 that supports the so called Basic Multilingual Plane (BMP) of the Unicode standard. In UTF-16, the other Unicode planes are encoded as [surrogates](javascript:call_link\('abensurrogates_glosry.htm'\) "Glossary Entry") ( [surrogate pairs](javascript:call_link\('abensurrogate_pair_glosry.htm'\) "Glossary Entry")) in the [surrogate area](javascript:call_link\('abensurrogate_area_glosry.htm'\) "Glossary Entry").
+For the representation of character strings, the ABAP programming language supports the two byte [Unicode character representation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenunicode_char_represent_glosry.htm "Glossary Entry") [UCS-2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenucs2_glosry.htm "Glossary Entry"). The [system code page](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_codepage_glosry.htm "Glossary Entry") of an AS ABAP is [UTF-16](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenutf16_glosry.htm "Glossary Entry"), that supports all characters of the Unicode standard. UCS-2 is a subset of UTF-16 that supports the so called Basic Multilingual Plane (BMP) of the Unicode standard. In UTF-16, the other Unicode planes are encoded as [surrogates](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensurrogates_glosry.htm "Glossary Entry") ( [surrogate pairs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensurrogate_pair_glosry.htm "Glossary Entry")) in the [surrogate area](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensurrogate_area_glosry.htm "Glossary Entry").
 
 POSIX regular expressions always assume UCS-2 and treat characters that are represented by surrogate pairs as two separate characters what might lead to unexpected results. Unlike POSIX, PCRE can treat character strings as both UCS-2 or UTF-16. This can be configured in different ways depending on the type of regular expression operation performed:
 
@@ -131,7 +136,7 @@ Description
 
 Default Behavior
 
-Methods of system classes [CL\_ABAP\_REGEX](javascript:call_link\('abenregex_system_classes.htm'\)) and [CL\_ABAP\_MATCHER](javascript:call_link\('abenregex_system_classes.htm'\))
+Methods of system classes [CL\_ABAP\_REGEX](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_system_classes.htm) and [CL\_ABAP\_MATCHER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_system_classes.htm)
 
 Unicode handling is controlled by parameter UNICODE\_HANDLING of factory method CREATE\_PCRE. The following values can be passed:
 STRICT - treat character string as UTF-16, raise an exception upon encountering invalid UTF-16 (broken surrogate pairs)
@@ -140,8 +145,8 @@ RELAXED - treat character string as UCS-2; special character \\C is enabled in p
 
 STRICT
 
-Addition [PCRE](javascript:call_link\('abapfind_pattern.htm'\)) of statements [FIND](javascript:call_link\('abapfind.htm'\)) and [REPLACE](javascript:call_link\('abapreplace.htm'\)),
-Argument [pcre](javascript:call_link\('abenstring_functions_regex.htm'\)) of built-in functions for strings
+Addition [PCRE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfind_pattern.htm) of statements [FIND](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfind.htm) and [REPLACE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreplace.htm),
+Argument [pcre](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_functions_regex.htm) of built-in functions for strings
 
 No addition exists to control Unicode handling, instead the syntax (\*UTF) can be specified at the start of the pattern to switch on the strict mode (see above)
 
@@ -157,7 +162,7 @@ Accept Invalid UTF-16?
 
 Action
 
-Methods of system classes [CL\_ABAP\_REGEX](javascript:call_link\('abenregex_system_classes.htm'\)) and [CL\_ABAP\_MATCHER](javascript:call_link\('abenregex_system_classes.htm'\))
+Methods of system classes [CL\_ABAP\_REGEX](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_system_classes.htm) and [CL\_ABAP\_MATCHER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_system_classes.htm)
 
 UTF-16
 
@@ -165,7 +170,7 @@ Yes
 
 Set UNICODE\_HANDLING to IGNORE
 
-Methods of system classes [CL\_ABAP\_REGEX](javascript:call_link\('abenregex_system_classes.htm'\)) and [CL\_ABAP\_MATCHER](javascript:call_link\('abenregex_system_classes.htm'\))
+Methods of system classes [CL\_ABAP\_REGEX](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_system_classes.htm) and [CL\_ABAP\_MATCHER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_system_classes.htm)
 
 UTF-16
 
@@ -173,7 +178,7 @@ No
 
 Set UNICODE\_HANDLING to STRICT (default)
 
-Methods of system classes [CL\_ABAP\_REGEX](javascript:call_link\('abenregex_system_classes.htm'\)) and [CL\_ABAP\_MATCHER](javascript:call_link\('abenregex_system_classes.htm'\))
+Methods of system classes [CL\_ABAP\_REGEX](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_system_classes.htm) and [CL\_ABAP\_MATCHER](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_system_classes.htm)
 
 UCS-2 (ABAP default)
 
@@ -228,9 +233,9 @@ out->write\_text( surrogate\_pair
 
 Matching Uppercase and Lowercase Letters
 
-PCRE does not directly support the POSIX syntax [\\u](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)) and [\\l](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)) to match an uppercase and lowercase letter respectively. This includes the corresponding negations [\\U](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)) and [\\L](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)).
+PCRE does not directly support the POSIX syntax [\\u](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm) and [\\l](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm) to match an uppercase and lowercase letter respectively. This includes the corresponding negations [\\U](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm) and [\\L](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm).
 
-As an alternative PCRE's [\\p{xx}](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) and [\\P{xx}](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)) syntax can be used to match characters having certain Unicode character properties:
+As an alternative PCRE's [\\p{xx}](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_pcre_syntax_specials.htm) and [\\P{xx}](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm) syntax can be used to match characters having certain Unicode character properties:
 
 Description
 
@@ -272,7 +277,7 @@ ASSERT replace( val = \`uuuUuuu\` regex = \`\\u\` with = \`X\` ) ##regex\_posix
 
 Matching All Unicode Characters
 
-While PCRE supports most of the named sets available in the POSIX syntax, there is one exception: [\[\[:unicode:\]\]](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)), which matches any character whose code is greater than 255.
+While PCRE supports most of the named sets available in the POSIX syntax, there is one exception: [\[\[:unicode:\]\]](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm), which matches any character whose code is greater than 255.
 
 Depending on the context there are different ways to achieve the same behavior in PCRE:
 
@@ -333,7 +338,7 @@ ASSERT find( val = text regex = \`\[\[:unicode:\]\]\` ) ##regex\_posix
 
 Word Anchors
 
-PCRE does not directly support the POSIX syntax [\\<](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)) and [\\>](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)) to match the start and end of a word respectively. As an alternative the word anchor [\\b](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) (which matches the start and the end of a word) can be used in conjunction with a look-ahead or look-behind assertion. Alternatively, a special character set can be used.
+PCRE does not directly support the POSIX syntax [\\<](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm) and [\\>](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm) to match the start and end of a word respectively. As an alternative the word anchor [\\b](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_pcre_syntax_specials.htm) (which matches the start and the end of a word) can be used in conjunction with a look-ahead or look-behind assertion. Alternatively, a special character set can be used.
 
 Description
 
@@ -374,7 +379,7 @@ Apart from referring to the content of a capture group by its number ($1, $2, $3
 
 Substituting the Whole Match
 
-POSIX offers both [$0](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)) and [$&](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)) as placeholders for the whole match in the replacement string. PCRE only supports the former syntax [$0](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)), with the latter syntax $& raising an exception. If you are using $& in your POSIX patterns, simply replace it with [$0](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) when migrating to PCRE.
+POSIX offers both [$0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm) and [$&](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm) as placeholders for the whole match in the replacement string. PCRE only supports the former syntax [$0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_pcre_syntax_specials.htm), with the latter syntax $& raising an exception. If you are using $& in your POSIX patterns, simply replace it with [$0](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_pcre_syntax_specials.htm) when migrating to PCRE.
 
 Example
 
@@ -387,7 +392,7 @@ ASSERT
 
 Substituting Parts around the Match
 
-POSIX supports [$\`](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)) and [$'](javascript:call_link\('abenregex_posix_syntax_specials.htm'\)) as placeholders for the text in front of and after the match respectively. PCRE does not offer any directly equivalent functionality. If your pattern makes use of these POSIX features, you can however try to emulate them, e.g. by introducing additional capture groups
+POSIX supports [$\`](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm) and [$'](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenregex_posix_syntax_specials.htm) as placeholders for the text in front of and after the match respectively. PCRE does not offer any directly equivalent functionality. If your pattern makes use of these POSIX features, you can however try to emulate them, e.g. by introducing additional capture groups
 
 There are however limitations to this approach. If your pattern or replacement string is more complex, you may have to either perform the replacement manually (using string operations and the offset and length obtained from the match), or keep your POSIX pattern with the ##regex\_posix pragma.
 

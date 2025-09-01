@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Dynamic Selections](javascript:call_link\('abenfree_selections.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen.htm) →  [Dynamic Selections](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfree_selections.htm) → 
 
 Dynamic Selections
 
@@ -104,7 +104,7 @@ START-OF-SELECTION.
 
 Description
 
-This example shows the simplest way to use a [dynamic selection](javascript:call_link\('abenfree_selections.htm'\)) in a program. When the value "T" of the parameter KIND is passed, the function module FREE\_SELECTIONS\_INIT is configured so that free selections are prepared for database tables in ABAP Dictionary. The names of the database tables (here only one freely selectable table) are passed to the table parameter tables\_tab.
+This example shows the simplest way to use a [dynamic selection](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfree_selections.htm) in a program. When the value "T" of the parameter KIND is passed, the function module FREE\_SELECTIONS\_INIT is configured so that free selections are prepared for database tables in ABAP Dictionary. The names of the database tables (here only one freely selectable table) are passed to the table parameter tables\_tab.
 
 The result of FREE\_SELECTIONS\_INIT is passed to the function module FREE\_SELECTIONS\_DIALOG, which displays a selection screen for entering free selections for the database table. The user can select which database fields are used for free selections, and can then make these selections.
 

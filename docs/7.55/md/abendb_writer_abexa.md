@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Streaming and Locators](javascript:call_link\('abenstreams_locators.htm'\)) →  [ABAP SQL - Examples of LOB Handles](javascript:call_link\('abenlobs_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) →  [ABAP SQL - Streaming and Locators](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstreams_locators.htm) →  [ABAP SQL - Examples of LOB Handles](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlobs_abexas.htm) → 
 
 ABAP SQL - Writer Stream, Fill Database Table
 
-The example demonstrates how data can be written to a DDIC database table using a [writer stream](javascript:call_link\('abenwriter_stream_glosry.htm'\) "Glossary Entry").
+The example demonstrates how data can be written to a DDIC database table using a [writer stream](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwriter_stream_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -89,12 +89,12 @@ START-OF-SELECTION.
 
 Description
 
-The method main [derives](javascript:call_link\('abaptypes_lob_handle.htm'\)) an [LOB handle structure](javascript:call_link\('abenlob_handle_structure_glosry.htm'\) "Glossary Entry") from the structure of the DDIC database table DEMO\_BLOB\_TABLE, where the component PICTURE is declared as an [LOB handle component](javascript:call_link\('abenlob_handle_component_glosry.htm'\) "Glossary Entry") for a binary writer stream.
+The method main [derives](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_lob_handle.htm) an [LOB handle structure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlob_handle_structure_glosry.htm "Glossary Entry") from the structure of the DDIC database table DEMO\_BLOB\_TABLE, where the component PICTURE is declared as an [LOB handle component](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlob_handle_component_glosry.htm "Glossary Entry") for a binary writer stream.
 
-This writer stream is [created](javascript:call_link\('abenium_lob.htm'\)) in the statement INSERT and then the content of the internal table pict is passed to it sequentially. After the writer stream is closed, the content of the internal table is stored in the DDIC database table as a binary string.
+This writer stream is [created](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenium_lob.htm) in the statement INSERT and then the content of the internal table pict is passed to it sequentially. After the writer stream is closed, the content of the internal table is stored in the DDIC database table as a binary string.
 
 Here, the content of the internal table is a figure in GIF format, which is retrieved from the Mime Repository using an auxiliary method. The address there is also used as a DDIC database table key. Any existing rows are deleted in the static constructor so that the example always works.
 
 The number of changed rows is checked by an object of the class CL\_ABAP\_SQL\_CHANGING\_STMNT.
 
-The content can be read again using the executable [reader stream example](javascript:call_link\('abendb_reader_abexa.htm'\)).
+The content can be read again using the executable [reader stream example](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendb_reader_abexa.htm).

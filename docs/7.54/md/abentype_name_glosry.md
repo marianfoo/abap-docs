@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 type name
 
-Name of a [type](javascript:call_link\('abentype_glosry.htm'\) "Glossary Entry"). In a program, only the [relative type name](javascript:call_link\('abenrelative_type_name_glosry.htm'\) "Glossary Entry") is known and statically usable. The [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry") can also be used to specify dynamic types.
+Name of a [type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_glosry.htm "Glossary Entry"). In a program, only the [relative type name](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrelative_type_name_glosry.htm "Glossary Entry") is known and statically usable. The [absolute type name](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabsolute_typename_glosry.htm "Glossary Entry") can also be used to specify dynamic types.

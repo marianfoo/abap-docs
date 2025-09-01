@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.6C](javascript:call_link\('abennews-46c.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.6C](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-46c.htm) → 
 
 ABAP Objects in Release 4.6C
 
@@ -18,19 +18,19 @@ Modification 1  
 
 Run Time Type Identification
 
-The method APPLIES\_TO\_CLASS defined in the class CL\_ABAP\_OBJECTDESCR checks whether or not a reference that has the same type as the type description object can point to an object of the passed class. The class CL\_ABAP\_OBJECTDESCR is assigned to the [Run Time Type Identification](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry") (RTTI) area in the ABAP Runtime System.
+The method APPLIES\_TO\_CLASS defined in the class CL\_ABAP\_OBJECTDESCR checks whether or not a reference that has the same type as the type description object can point to an object of the passed class. The class CL\_ABAP\_OBJECTDESCR is assigned to the [Run Time Type Identification](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry") (RTTI) area in the ABAP Runtime System.
 
-Run time type identification also enables a technical type name to be defined, although types without names can also be used for dynamic type declarations like [CREATE DATA ...](javascript:call_link\('abapcreate_data.htm'\)) or [ASSIGN .... CASTING](javascript:call_link\('abapassign_casting.htm'\)).
+Run time type identification also enables a technical type name to be defined, although types without names can also be used for dynamic type declarations like [CREATE DATA ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcreate_data.htm) or [ASSIGN .... CASTING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_casting.htm).
 
 Modification 2   
 
 Local Types and Classes
 
-Local [CLASS-POOLS](javascript:call_link\('abapclass-pool.htm'\)) types can now be implemented in the [PRIVATE SECTION](javascript:call_link\('abapprivate.htm'\)) of the global class in question too.
+Local [CLASS-POOLS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass-pool.htm) types can now be implemented in the [PRIVATE SECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprivate.htm) of the global class in question too.
 
-Local data types, classes, and interfaces are now defined in includes known as [CCDEF include](javascript:call_link\('abenccdef_glosry.htm'\) "Glossary Entry") and [CCIMP include](javascript:call_link\('abenccimp_glosry.htm'\) "Glossary Entry") instead of in the \===CL include.
+Local data types, classes, and interfaces are now defined in includes known as [CCDEF include](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenccdef_glosry.htm "Glossary Entry") and [CCIMP include](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenccimp_glosry.htm "Glossary Entry") instead of in the \===CL include.
 
-Furthermore, the [macro](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") include \===CCMAC makes it possible to define macros in global classes.
+Furthermore, the [macro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmacro_glosry.htm "Glossary Entry") include \===CCMAC makes it possible to define macros in global classes.
 
 Modification 3   
 

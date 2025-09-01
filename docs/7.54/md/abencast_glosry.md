@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 cast
 
-In ABAP, see [casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry"). In [SQL](javascript:call_link\('abensql_glosry.htm'\) "Glossary Entry"), a cast is a type conversion. In [ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry"), the operator [CAST](javascript:call_link\('abensql_cast.htm'\)) is used. In the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") in [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry"), the operator [CAST](javascript:call_link\('abencds_f1_cast_expression.htm'\)) is used.
+In ABAP, see [casting](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencast_casting_glosry.htm "Glossary Entry"). In [SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_glosry.htm "Glossary Entry"), a cast is a type conversion. In [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_glosry.htm "Glossary Entry"), the operator [CAST](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_cast.htm) is used. In the [CDS DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_ddl_glosry.htm "Glossary Entry") in [ABAP CDS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_cds_glosry.htm "Glossary Entry"), the operator [CAST](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cast_expression.htm) is used.

@@ -4,13 +4,13 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Alternative Spellings](javascript:call_link\('abenalternative_spelling_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstructure_style_guidl.htm) →  [Alternative Spellings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenalternative_spelling_guidl.htm) → 
 
 Calculations
 
 Background
 
-In ABAP, the [arithmetic operators](javascript:call_link\('abenarithmetic_operator_glosry.htm'\) "Glossary Entry") in [arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") are used for numeric calculations. Alongside the operand format, the dedicated ABAP keywords ADD, SUBTRACT, MULTIPLY and DIVIDE are also used for the basic arithmetic operations.
+In ABAP, the [arithmetic operators](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarithmetic_operator_glosry.htm "Glossary Entry") in [arithmetic expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") are used for numeric calculations. Alongside the operand format, the dedicated ABAP keywords ADD, SUBTRACT, MULTIPLY and DIVIDE are also used for the basic arithmetic operations.
 
 Rule
 
@@ -24,7 +24,7 @@ Calculations with the statements ADD, SUBTRACT, MULTIPLY, and DIVIDE are often m
 
 Exception
 
-The command format allows the use of [chained statements](javascript:call_link\('abenchained_statements_guidl.htm'\) "Guideline"), which can be useful in these special cases:
+The command format allows the use of [chained statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchained_statements_guidl.htm "Guideline"), which can be useful in these special cases:
 
 ADD increment TO: sum\_individual,
                   sum\_total.

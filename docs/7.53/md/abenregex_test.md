@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions](javascript:call_link\('abenregular_expressions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregular_expressions.htm) → 
 
 Testing Regular Expressions
 
@@ -12,21 +12,21 @@ A built-in function or system classes can be used to test regular functions.
 
 Using a Built-In Function
 
-The predicate function [matches](javascript:call_link\('abenmatches_functions.htm'\)) can be used as follows to test whether a regular expression passed to regex matches the character string passed to val:
+The predicate function [matches](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmatches_functions.htm) can be used as follows to test whether a regular expression passed to regex matches the character string passed to val:
 
 ... matches( val = ... regex = ...  ) ...
 
-The function matches returns a truth value and can be used like a relational expression in the corresponding positions, for example after IF (see the [executable example for](javascript:call_link\('abenpred_function_matches_abexa.htm'\)) matches). Case-sensitivity can be specified using the parameter case and the passed string can be restricted to a substring.
+The function matches returns a truth value and can be used like a relational expression in the corresponding positions, for example after IF (see the [executable example for](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpred_function_matches_abexa.htm) matches). Case-sensitivity can be specified using the parameter case and the passed string can be restricted to a substring.
 
 Note
 
-The match function [match](javascript:call_link\('abenmatch_functions.htm'\)), however, returns a regular expression that matches a regular expression.
+The match function [match](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmatch_functions.htm), however, returns a regular expression that matches a regular expression.
 
 Using System Classes
 
 The system classes for regular expressions are CL\_ABAP\_REGEX and CL\_ABAP\_MATCHER.
 
--   The class CL\_ABAP\_REGEX creates an object-oriented representation from a [regular expression](javascript:call_link\('abenregex_syntax.htm'\)) in a character-like field.
+-   The class CL\_ABAP\_REGEX creates an object-oriented representation from a [regular expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenregex_syntax.htm) in a character-like field.
 
 -   The class CL\_ABAP\_MATCHER applies a regular expression created using CL\_ABAP\_REGEX to either a character string or an internal table.
 

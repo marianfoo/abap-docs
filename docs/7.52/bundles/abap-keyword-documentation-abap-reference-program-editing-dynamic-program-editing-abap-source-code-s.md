@@ -3,27 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abapsyntax-check_for_itab.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm)
-- [abapsyntax-check_error_handling.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_error_handling.htm)
-- [abapsyntax-check_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_internal.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.501Z
-
----
-
 ### abapsyntax-check_for_itab.htm
-
-> **📖 Official SAP Documentation**: [abapsyntax-check_for_itab.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,18 +11,18 @@ Included pages: 3
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_generic_program.htm) → 
 
 SYNTAX-CHECK
 
-[Quick Reference](javascript:call_link\('abapsyntax-check_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_shortref.htm)
 
 Syntax
 
 SYNTAX-CHECK FOR itab MESSAGE mess LINE lin WORD wrd
                  *\[*PROGRAM prog*\]* *\[*DIRECTORY ENTRY dir*\]*
                  *\[*WITH CURRENT SWITCHSTATES*\]*
-                 *\[*[error\_handling](javascript:call_link\('abapsyntax-check_error_handling.htm'\))*\]*.
+                 *\[*[error\_handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_error_handling.htm)*\]*.
 
 Extras:
 
@@ -52,18 +32,18 @@ Extras:
 
 Effect
 
-This statement executes a [syntax check](javascript:call_link\('abensyntax_check_glosry.htm'\) "Glossary Entry") on the content of the internal table itab. The internal table itab must be a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") without [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") with a character-like row type.
+This statement executes a [syntax check](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensyntax_check_glosry.htm "Glossary Entry") on the content of the internal table itab. The internal table itab must be a [standard table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm "Glossary Entry") without [secondary table keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") with a character-like row type.
 
-If the internal table does not contain [ABAP source code](javascript:call_link\('abenabap_source_code_glosry.htm'\) "Glossary Entry") with correct syntax, the following occurs:
+If the internal table does not contain [ABAP source code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_source_code_glosry.htm "Glossary Entry") with correct syntax, the following occurs:
 
 -   The error message of the first syntax error is assigned to variable mess. mess must be a character-like data object.
     
--   The line number of the first syntax error, with reference to the program in which it occurs (either the source code in itab or an integrated [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") included there) is assigned to the variable lin. lin expects the data type i.
+-   The line number of the first syntax error, with reference to the program in which it occurs (either the source code in itab or an integrated [include program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninclude_program_glosry.htm "Glossary Entry") included there) is assigned to the variable lin. lin expects the data type i.
     
 -   The first token with errors is assigned to the variable wrd. wrd must be a character-like data object.
     
 
-The additions PROGRAM and DIRECTORY ENTRY are used to set the attributes for the syntax check. The addition WITH CURRENT SWITCHSTATES specifies which switch configuration is used for the syntax check. The other [error\_handling](javascript:call_link\('abapsyntax-check_error_handling.htm'\)) additions can be used to identify other attributes of the first syntax error.
+The additions PROGRAM and DIRECTORY ENTRY are used to set the attributes for the syntax check. The addition WITH CURRENT SWITCHSTATES specifies which switch configuration is used for the syntax check. The other [error\_handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_error_handling.htm) additions can be used to identify other attributes of the first syntax error.
 
 System Fields
 
@@ -83,13 +63,13 @@ The internal table itab does not contain an ABAP program. with error-free syntax
 
 A runtime error occurred in the syntax check.
 
-If a runtime error occurs during the syntax check (sy-subrc has the value 8), a database rollback is executed in the usual manner. As usual, the short dump of the runtime error can be found in [ABAP Dump Analysis](javascript:call_link\('abenabap_dump_analsyis_glosry.htm'\) "Glossary Entry").
+If a runtime error occurs during the syntax check (sy-subrc has the value 8), a database rollback is executed in the usual manner. As usual, the short dump of the runtime error can be found in [ABAP Dump Analysis](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dump_analsyis_glosry.htm "Glossary Entry").
 
-If the internal addition [ID](javascript:call_link\('abapsyntax-check_internal.htm'\)) is specified with ERR, the value 6 can also occur for sy-subrc.
+If the internal addition [ID](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_internal.htm) is specified with ERR, the value 6 can also occur for sy-subrc.
 
 Note
 
-It is not required to execute the statement SYNTAX-CHECK directly before [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_subroutine_pool.htm'\)) or [GENERATE REPORT](javascript:call_link\('abapgenerate_report.htm'\)), since the syntax check is always performed when these statements are executed.
+It is not required to execute the statement SYNTAX-CHECK directly before [GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_subroutine_pool.htm) or [GENERATE REPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_report.htm), since the syntax check is always performed when these statements are executed.
 
 Addition 1
 
@@ -101,7 +81,7 @@ Addition 2
 
 Effect
 
-These additions are used to specify the [program attributes](javascript:call_link\('abenprogram_attribute_glosry.htm'\) "Glossary Entry") used for the syntax check.
+These additions are used to specify the [program attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_attribute_glosry.htm "Glossary Entry") used for the syntax check.
 
 -   In prog, the addition PROGRAM can be used to specify the name of an ABAP program whose program attributes are to be used for the syntax check. prog must be a character-like data object, whose content is not case-sensitive. If the specified program is not found, the standard attributes specified below are used.
     
@@ -114,12 +94,12 @@ Notes
 
 -   It is advisable to use the addition PROGRAM, since the components of the structure dir and their valid values can be interpreted within the system only. If the addition DIRECTORY ENTRY is nevertheless used in application programs, the content of the structure dir should be set by reading the appropriate entry from the database table TRDIR and by modifying only individual components as required.
     
--   Examples of program attributes that are important for the syntax check are the program types and the [ABAP language version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry").
+-   Examples of program attributes that are important for the syntax check are the program types and the [ABAP language version](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_version_glosry.htm "Glossary Entry").
     
 
 Example
 
-Syntax check for source code in itab. By reading the attributes of the current program from the database TRDIR into the structure dir, these can be used after DIRECTORY ENTRY. When the version ID in the component dir-uccheck is set, the first syntax check is executed in the same way as for programs with language version [Obsolete ABAP (non-Unicode)](javascript:call_link\('abennon_unicode_program_glosry.htm'\) "Glossary Entry"). The second syntax check is executed as for programs with language version [Standard ABAP (Unicode)](javascript:call_link\('abenunicode_program_glosry.htm'\) "Glossary Entry"). The first syntax check finds the error indicating that the program is not Unicode-enabled. The second syntax check always identifies the error when the addition BYTE or CHARACTER MODE is missing from the statement DESCRIBE.
+Syntax check for source code in itab. By reading the attributes of the current program from the database TRDIR into the structure dir, these can be used after DIRECTORY ENTRY. When the version ID in the component dir-uccheck is set, the first syntax check is executed in the same way as for programs with language version [Obsolete ABAP (non-Unicode)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennon_unicode_program_glosry.htm "Glossary Entry"). The second syntax check is executed as for programs with language version [Standard ABAP (Unicode)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenunicode_program_glosry.htm "Glossary Entry"). The first syntax check finds the error indicating that the program is not Unicode-enabled. The second syntax check always identifies the error when the addition BYTE or CHARACTER MODE is missing from the statement DESCRIBE.
 
 DATA: itab TYPE STANDARD TABLE OF string,
       mess TYPE string,
@@ -150,7 +130,7 @@ ENDIF.
 
 Executable Example
 
-[Program Generation](javascript:call_link\('abenprogram_generation_abexa.htm'\))
+[Program Generation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_generation_abexa.htm)
 
 Addition 3
 
@@ -158,26 +138,19 @@ Addition 3
 
 Effect
 
-This addition causes the syntax check to use the switch configuration of [Switch Framework](javascript:call_link\('abenswitch_german_glosry.htm'\) "Glossary Entry"), in the state it had when the current transaction was called. Without the addition, the switch configuration valid when the statement is executed is used.
+This addition causes the syntax check to use the switch configuration of [Switch Framework](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenswitch_german_glosry.htm "Glossary Entry"), in the state it had when the current transaction was called. Without the addition, the switch configuration valid when the statement is executed is used.
 
--   This addition causes the syntax check to run with the same switch states from Switch Framework as were used when the statement [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_subroutine_pool.htm'\)) was executed.
+-   This addition causes the syntax check to run with the same switch states from Switch Framework as were used when the statement [GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_subroutine_pool.htm) was executed.
     
 -   Without the addition, the syntax check is performed in the same way as for every regular compilation of ABAP programs.
     
 
 Continue
-[SYNTAX-CHECK - error\_handling](javascript:call_link\('abapsyntax-check_error_handling.htm'\))
-[SYNTAX-CHECK - Internal Additions](javascript:call_link\('abapsyntax-check_internal.htm'\))
+[SYNTAX-CHECK - error\_handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_error_handling.htm)
+[SYNTAX-CHECK - Internal Additions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_internal.htm)
 
-
-
-**📖 Source**: [abapsyntax-check_for_itab.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm)
 
 ### abapsyntax-check_error_handling.htm
-
-> **📖 Official SAP Documentation**: [abapsyntax-check_error_handling.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_error_handling.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -185,11 +158,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) →  [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_generic_program.htm) →  [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm) → 
 
 SYNTAX-CHECK - error\_handling
 
-[Quick Reference](javascript:call_link\('abapsyntax-check_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_shortref.htm)
 
 Syntax
 
@@ -205,7 +178,7 @@ Extras:
 
 Effect
 
-These additions can be used for analyzing the syntax errors identified using the statement [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)).
+These additions can be used for analyzing the syntax errors identified using the statement [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm).
 
 Addition 1
 
@@ -213,7 +186,7 @@ Addition 1
 
 Effect
 
-If one or more [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") are included in the source code contained in itab, and one of these programs contains the first syntax error of the checked program, the name of this include program is assigned to the variable incl. incl must be a character-like data object.
+If one or more [include programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninclude_program_glosry.htm "Glossary Entry") are included in the source code contained in itab, and one of these programs contains the first syntax error of the checked program, the name of this include program is assigned to the variable incl. incl must be a character-like data object.
 
 Addition 2
 
@@ -236,17 +209,7 @@ The key of the database table TRMSG is made up of the components SPRAS of length
 The data object mid must have the data type TRMSG\_KEY from ABAP Dictionary, constructed from the components SPRAS with length 1, KEYWORD with length 20, and MSGNUMBER with length 3.
 
 
-
-**📖 Source**: [abapsyntax-check_error_handling.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_error_handling.htm)
-
 ### abapsyntax-check_internal.htm
-
-> **📖 Official SAP Documentation**: [abapsyntax-check_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_internal.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapsyntax-check_internal.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_internal.htm)
-
 
   
 
@@ -254,7 +217,7 @@ The data object mid must have the data type TRMSG\_KEY from ABAP Dictionary, con
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) →  [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_generic_program.htm) →  [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsyntax-check_for_itab.htm) → 
 
 SYNTAX-CHECK - Internal Additions
 
@@ -278,7 +241,7 @@ Addition 1
 
 Effect
 
-If a runtime error occurs, the field sid returns the maximum 30-character key of the corresponding [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry").
+If a runtime error occurs, the field sid returns the maximum 30-character key of the corresponding [short dump](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshort_dump_glosry.htm "Glossary Entry").
 
 Addition 2
 
@@ -296,7 +259,7 @@ Effect
 
 This addition can only be used together with the PROGRAM addition and under the following prerequisites:
 
-The program text contained in the internal table itab does not include the main program, it contains an [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") instead, and the program named under PROGRAM is to be checked. However, if the include program specified in incl is integrated in this program, the content of the internal table itab should be used instead.
+The program text contained in the internal table itab does not include the main program, it contains an [include program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninclude_program_glosry.htm "Glossary Entry") instead, and the program named under PROGRAM is to be checked. However, if the include program specified in incl is integrated in this program, the content of the internal table itab should be used instead.
 
 Addition 4
 
@@ -304,7 +267,7 @@ Addition 4
 
 Effect
 
-The attributes required for checking the program (e.g. [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry"), [program type](javascript:call_link\('abenprogram_type_glosry.htm'\) "Glossary Entry")) are taken from the field dir. Here, dir expects a structure of type TRDIR .
+The attributes required for checking the program (e.g. [logical database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_data_base_glosry.htm "Glossary Entry"), [program type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_glosry.htm "Glossary Entry")) are taken from the field dir. Here, dir expects a structure of type TRDIR .
 
 Addition 5
 
@@ -448,7 +411,7 @@ Addition 6
 
 Effect
 
-Only the ABAP statements specified in flt are respected in the check. flt must have the type SYNT\_FILTER from the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") SYNT.
+Only the ABAP statements specified in flt are respected in the check. flt must have the type SYNT\_FILTER from the [type group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry") SYNT.
 
 The possible values are as follows:
 

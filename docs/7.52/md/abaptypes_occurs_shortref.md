@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  T
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  T
 
 TYPES - OCCURS - Quick reference
 
-[Reference](javascript:call_link\('abaptypes_occurs.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_occurs.htm)
 
 Syntax
 
@@ -17,7 +17,7 @@ TYPES dtype *{* *{*TYPE *\[*REF TO*\]* type*}*
 
 Effect
 
-Obsolete: Declares a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") type with a [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry") and the initial memory requirement n.
+Obsolete: Declares a [standard table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm "Glossary Entry") type with a [standard key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_key_glosry.htm "Glossary Entry") and the initial memory requirement n.
 
 Additions
 

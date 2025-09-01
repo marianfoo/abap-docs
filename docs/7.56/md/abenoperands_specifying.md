@@ -4,13 +4,14 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) →  [Data Objects in Operand Positions](javascript:call_link\('abenoperands_data_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Operands](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperands.htm) →  [Data Objects in Operand Positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperands_data_objects.htm) → 
 
 Specifying Individual Operands
 
-There are three ways to specify the [names of operands](javascript:call_link\('abenoperands_names.htm'\)):
+There are three ways to specify the [names of operands](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoperands_names.htm):
 
--   [Static Specification](#abenoperands-specifying-1-------dynamic-specification-in-parentheses---@ITOC@@ABENOPERANDS_SPECIFYING_2)
+-   [Static Specification](#@@ITOC@@ABENOPERANDS_SPECIFYING_1)
+-   [Dynamic Specification in Parentheses](#@@ITOC@@ABENOPERANDS_SPECIFYING_2)
 -   [Dynamic Specification](#@@ITOC@@ABENOPERANDS_SPECIFYING_3)
 
 Static Specification

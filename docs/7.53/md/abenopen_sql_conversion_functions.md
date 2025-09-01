@@ -4,13 +4,13 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - Built-In Functions sql\_func](javascript:call_link\('abenopen_sql_builtin_functions.htm'\)) →  [ABAP SQL - Special Functions](javascript:call_link\('abenopen_sql_special_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - Built-In Functions sql\_func](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_builtin_functions.htm) →  [ABAP SQL - Special Functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_special_functions.htm) → 
 
 ABAP SQL - Conversion Functions
 
-ABAP SQL supports the following [conversion functions](javascript:call_link\('abenddic_conversion_functions.htm'\)):
+ABAP SQL supports the following [conversion functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_conversion_functions.htm):
 
--   [Type conversion functions](javascript:call_link\('abensql_type_conv_func.htm'\))
+-   [Type conversion functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_type_conv_func.htm)
 
 Continue
-[sql\_exp - Type Conversion Functions](javascript:call_link\('abensql_type_conv_func.htm'\))
+[sql\_exp - Type Conversion Functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_type_conv_func.htm)

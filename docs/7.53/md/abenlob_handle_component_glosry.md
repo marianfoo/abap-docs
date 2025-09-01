@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 LOB Handle Component
 
-[Reference type](javascript:call_link\('abenreference_type_glosry.htm'\) "Glossary Entry") or [reference variable](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry") in a [LOB handle structure](javascript:call_link\('abenlob_handle_structure_glosry.htm'\) "Glossary Entry"). The [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") of a component of this type must be less specific or the same as the [class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry") of a [LOB handle](javascript:call_link\('abenlob_handle_glosry.htm'\) "Glossary Entry") and must contain the [interface](javascript:call_link\('abeninterface_oo_glosry.htm'\) "Glossary Entry") IF\_ABAP\_DB\_LOB\_HANDLE.
+[Reference type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_type_glosry.htm "Glossary Entry") or [reference variable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_variable_glosry.htm "Glossary Entry") in a [LOB handle structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_handle_structure_glosry.htm "Glossary Entry"). The [static type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_type_glosry.htm "Glossary Entry") of a component of this type must be less specific or the same as the [class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_glosry.htm "Glossary Entry") of a [LOB handle](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlob_handle_glosry.htm "Glossary Entry") and must contain the [interface](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_oo_glosry.htm "Glossary Entry") IF\_ABAP\_DB\_LOB\_HANDLE.

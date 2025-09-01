@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  E
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  E
 
 EXTRACT - Quick reference
 
-[Reference](javascript:call_link\('abapextract.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapextract.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ EXTRACT *\[* header *|* field\_group *\]*.
 
 Effect
 
-Obsolete: Attaches a [field group](javascript:call_link\('abenfield_group_glosry.htm'\) "Glossary Entry"), declared using FIELD-GROUPS, to the [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry").
+Obsolete: Attaches a [field group](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield_group_glosry.htm "Glossary Entry"), declared using FIELD-GROUPS, to the [extract dataset](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenextract_dataset_glosry.htm "Glossary Entry").

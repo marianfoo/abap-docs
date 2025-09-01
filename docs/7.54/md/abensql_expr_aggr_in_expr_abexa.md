@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_agg](javascript:call_link\('abapselect_aggregate.htm'\)) →  [ABAP SQL - Examples of Aggregate Expressions](javascript:call_link\('abensql_agg_expr_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_agg](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_aggregate.htm) →  [ABAP SQL - Examples of Aggregate Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_agg_expr_abexas.htm) → 
 
 SQL Expressions, Aggregate Expressions in SQL Expressions
 
-This example demonstrates [aggregate expressions](javascript:call_link\('abapselect_aggregate.htm'\)) as an argument of [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)).
+This example demonstrates [aggregate expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_aggregate.htm) as an argument of [SQL expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsql_expr.htm).
 
 Source Code
 
@@ -84,10 +84,10 @@ Description
 
 The database table DEMO\_EXPRESSIONS is filled with random values in the static constructor.
 
--   The first SELECT statement reads the filled columns individually. Here, the total and the product of the numeric columns NUM1 and NUM2 are calculated using [arithmetic statements](javascript:call_link\('abensql_arith.htm'\)) in the SELECT list.
+-   The first SELECT statement reads the filled columns individually. Here, the total and the product of the numeric columns NUM1 and NUM2 are calculated using [arithmetic statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_arith.htm) in the SELECT list.
 
--   The second SELECT statement performs a grouping by the columns CHAR1 and CHAR2. For each group, aggregated values whose arguments are aggregate expressions are determined using [arithmetic expressions](javascript:call_link\('abensql_arith.htm'\)).
+-   The second SELECT statement performs a grouping by the columns CHAR1 and CHAR2. For each group, aggregated values whose arguments are aggregate expressions are determined using [arithmetic expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_arith.htm).
 
--   The third SELECT statement performs the same grouping as the second SELECT statement, but restricts the selected groups using a [HAVING clause](javascript:call_link\('abaphaving_clause.htm'\)) in which a condition is set on an [arithmetic expression](javascript:call_link\('abensql_arith.htm'\)) that has aggregate expressions as arguments.
+-   The third SELECT statement performs the same grouping as the second SELECT statement, but restricts the selected groups using a [HAVING clause](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaphaving_clause.htm) in which a condition is set on an [arithmetic expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_arith.htm) that has aggregate expressions as arguments.
 
-See also the executable example for [using SQL expression in aggregate expressions](javascript:call_link\('abensql_expr_in_aggregates_abexa.htm'\)). Here, the roles of the expressions are switched and different results are produced.
+See also the executable example for [using SQL expression in aggregate expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_expr_in_aggregates_abexa.htm). Here, the roles of the expressions are switched and different results are produced.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrobust_abap_gdl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_type_obj_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Inline%20Declarations%2C%20ABENDECLARATION_INLINE_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -14,25 +14,25 @@ Background  
 
 The declaration operators
 
--   [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) for variables
--   [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)) for immutable variables
--   [FIELD-SYMBOL(<fs>)](javascript:call_link\('abenfield-symbol_inline.htm'\)) for field symbols
+-   [DATA(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_inline.htm) for variables
+-   [FINAL(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfinal_inline.htm) for immutable variables
+-   [FIELD-SYMBOL(<fs>)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfield-symbol_inline.htm) for field symbols
 
-can be used to make inline declarations in [write positions](javascript:call_link\('abenwrite_position_glosry.htm'\) "Glossary Entry"). In this way, declarations are made in operational statements rather than in [declaration statements](javascript:call_link\('abendeclaration_statement_glosry.htm'\) "Glossary Entry"). The declaration is made when the program is compiled, regardless of whether the statement is actually executed.
+can be used to make inline declarations in [write positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwrite_position_glosry.htm "Glossary Entry"). In this way, declarations are made in operational statements rather than in [declaration statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclaration_statement_glosry.htm "Glossary Entry"). The declaration is made when the program is compiled, regardless of whether the statement is actually executed.
 
 Rule   
 
 Only use inline declarations locally
 
-Only make inline declarations in processing blocks that support [local data](javascript:call_link\('abenlocal_data_glosry.htm'\) "Glossary Entry"). Use them as if they were local declarations in the current statement block. For inline declared variables that are written only once in the current context, [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)) is preferred over [DATA(var)](javascript:call_link\('abendata_inline.htm'\)).
+Only make inline declarations in processing blocks that support [local data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_data_glosry.htm "Glossary Entry"). Use them as if they were local declarations in the current statement block. For inline declared variables that are written only once in the current context, [FINAL(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfinal_inline.htm) is preferred over [DATA(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_inline.htm).
 
 Details   
 
 If used correctly, inline declarations are an excellent way of making programs leaner and easier to understand. An inline declaration in a statement works like a short form of a declaration statement directly in front of the statement, which is why the guidelines for declaration statements must be followed:
 
--   The rule dictating that [no global program variables and field symbols](javascript:call_link\('abendeclaration_variables_guidl.htm'\) "Guideline") are to be declared also applies to inline declarations, without restrictions. For this reason, statements with inline declarations should only be specified in processing blocks with local data, namely procedures and preferably methods. If not, the variables and field symbols declared inline would be global in the program, with all the drawbacks listed in the description of the rule.
--   Inline declarations are an exception to the rule that [local declarations](javascript:call_link\('abenlocal_declar_guidl.htm'\) "Guideline") should only be made at the start of a procedure. They are specified in operational statements, which means that, unlike declaration statements, they cannot be specified at the start of the procedure. Despite this, the restrictions stated in the rule for local declarations are still valid for inline declarations. In particular, the validity of inline declarations is not limited to their current statement block. Inline declarations should, therefore, only be specified in less complex procedures, so making them easier to understand. The variables and field symbols declared inline should only be used in the direct vicinity of their declaration. Under no circumstances should a variable declared inline be accessed dynamically before the declaration. When an inline declaration is specified in a (conditional) control structure, it should usually only be accessed within this statement block.
--   Using [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)) instead of [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) whenever possible can improve the robustness of a program.
+-   The rule dictating that [no global program variables and field symbols](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclaration_variables_guidl.htm "Guideline") are to be declared also applies to inline declarations, without restrictions. For this reason, statements with inline declarations should only be specified in processing blocks with local data, namely procedures and preferably methods. If not, the variables and field symbols declared inline would be global in the program, with all the drawbacks listed in the description of the rule.
+-   Inline declarations are an exception to the rule that [local declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_declar_guidl.htm "Guideline") should only be made at the start of a procedure. They are specified in operational statements, which means that, unlike declaration statements, they cannot be specified at the start of the procedure. Despite this, the restrictions stated in the rule for local declarations are still valid for inline declarations. In particular, the validity of inline declarations is not limited to their current statement block. Inline declarations should, therefore, only be specified in less complex procedures, so making them easier to understand. The variables and field symbols declared inline should only be used in the direct vicinity of their declaration. Under no circumstances should a variable declared inline be accessed dynamically before the declaration. When an inline declaration is specified in a (conditional) control structure, it should usually only be accessed within this statement block.
+-   Using [FINAL(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfinal_inline.htm) instead of [DATA(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_inline.htm) whenever possible can improve the robustness of a program.
 
 Bad Example
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [ABAP for Providing RAP Business Objects](javascript:call_link\('abenabap_provide_rap_bos.htm'\)) →  [ABAP Behavior Pools (ABP)](javascript:call_link\('abenabap_behavior_pools.htm'\)) →  [RAP Saver Classes and Methods](javascript:call_link\('abenabp_saver_class.htm'\)) →  [RAP Saver Methods](javascript:call_link\('abenabp_saver_methods.htm'\)) →  [Examples for RAP Saver Methods](javascript:call_link\('abenrap_saver_methods_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_for_rap_bos.htm) →  [ABAP for Providing RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_provide_rap_bos.htm) →  [ABAP Behavior Pools (ABP)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_behavior_pools.htm) →  [RAP Saver Classes and Methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_saver_class.htm) →  [RAP Saver Methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_saver_methods.htm) →  [Examples for RAP Saver Methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_saver_methods_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Example%20for%20RAP%20Saver%20Method%20map_messages%2C%20ABENABP_MAP_MESSAGES_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impr
 ovement:)
@@ -15,7 +15,7 @@ This example demonstrates the RAP saver method map\_messages within a RAP saver 
 
 Data model
 
-The CDS data model consists of the root entity DEMO\_UNMANAGED\_MAP\_MESSAGES, which represents the exposed RAP BO, and the [foreign entity](javascript:call_link\('abenrap_foreign_entity_glosry.htm'\) "Glossary Entry") DEMO\_UNMANAGED\_FOREIGN\_ENTITY, i. e. the RAP BO that is not exposed.
+The CDS data model consists of the root entity DEMO\_UNMANAGED\_MAP\_MESSAGES, which represents the exposed RAP BO, and the [foreign entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_foreign_entity_glosry.htm "Glossary Entry") DEMO\_UNMANAGED\_FOREIGN\_ENTITY, i. e. the RAP BO that is not exposed.
 
 CDS data model of the exposed BO:
 
@@ -45,7 +45,7 @@ as select from demo\_tab\_root\_7 {
 
 Behavior definition
 
-The following [RAP behavior definitions](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry"), that are defined in [RAP BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry"), are relevant for the example:
+The following [RAP behavior definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry"), that are defined in [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdl_glosry.htm "Glossary Entry"), are relevant for the example:
 
 -   DEMO\_UNMANAGED\_MAP\_MESSAGES
     
@@ -81,14 +81,14 @@ The following [RAP behavior definitions](javascript:call_link\('abencds_behavior
 
 Behavior implementation
 
-For each of the above RAP behavior definitions, one [ABP](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created:
+For each of the above RAP behavior definitions, one [ABP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created:
 
 -   Global class of the behavior pool: BP\_DEMO\_UNMANAGED\_MAP\_MESSAGES. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
 -   Global class of the behavior pool: BP\_DEMO\_UNMANAGED\_FOREIGN\_ENTI. The CCIMP include contains the actual behavior implementation.
 
-The ABPs purposely include only a few method implementations to keep the example small. In this case, only the create method is implemented on [handler](javascript:call_link\('abenabp_handler_class.htm'\)) side. On [saver](javascript:call_link\('abenabp_saver_class.htm'\)) side, only the save method is implemented. The ABP of the exposed BO also includes the implementation of the map\_messages method.
+The ABPs purposely include only a few method implementations to keep the example small. In this case, only the create method is implemented on [handler](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_handler_class.htm) side. On [saver](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabp_saver_class.htm) side, only the save method is implemented. The ABP of the exposed BO also includes the implementation of the map\_messages method.
 
-In this simple example, the map\_messages method is implemented as follows: The messages that are available in the [REPORTED LATE](javascript:call_link\('abaptype_table_for.htm'\)) table of the foreign entity are sequentially processed within a [LOOP AT](javascript:call_link\('abaploop_at_itab_variants.htm'\)) statement. Here, the message from the foreign entity is first replaced, and then inserted into the REPORTED LATE table of the exposed BO. After the loop, the content of the REPORTED LATE table of the foreign entity is deleted.
+In this simple example, the map\_messages method is implemented as follows: The messages that are available in the [REPORTED LATE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype_table_for.htm) table of the foreign entity are sequentially processed within a [LOOP AT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_itab_variants.htm) statement. Here, the message from the foreign entity is first replaced, and then inserted into the REPORTED LATE table of the exposed BO. After the loop, the content of the REPORTED LATE table of the foreign entity is deleted.
 
 Source Code   
 
@@ -171,8 +171,8 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class.
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeneml_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class.
 
-The example includes two ABAP EML MODIFY requests within one [RAP transaction](javascript:call_link\('abenrap_luw_glosry.htm'\) "Glossary Entry"). Each of the MODIFY requests includes a [create operation](javascript:call_link\('abenrap_create_operation_glosry.htm'\) "Glossary Entry") using [CREATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) statements that create two instances for the exposed BO and the foreign entity. A [COMMIT ENTITIES](javascript:call_link\('abapemlcommit_entities_dyn.htm'\)) statement triggers the save sequence and terminates the RAP transaction.
+The example includes two ABAP EML MODIFY requests within one [RAP transaction](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_luw_glosry.htm "Glossary Entry"). Each of the MODIFY requests includes a [create operation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_create_operation_glosry.htm "Glossary Entry") using [CREATE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities_op.htm) statements that create two instances for the exposed BO and the foreign entity. A [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapemlcommit_entities_dyn.htm) statement triggers the save sequence and terminates the RAP transaction.
 
 The output shows the result of the MODIFY requests. The instances that have been saved to the database table are selected from the database table into an internal table. The COMMIT ENTITIES statement includes the REPORTED response. The content of this response is output, too, demonstrating the effect of the map\_messages method. The original messages for the instances of the foreign entity are available for the exposed BO. Furthermore, the messages have been changed and the REPORTED table of the foreign entity does not show any entries since the content has been deleted.

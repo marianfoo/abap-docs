@@ -3,27 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abendialog_module.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendialog_module.htm)
-- [abapmodule.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodule.htm)
-- [abapendmodule.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendmodule.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.508Z
-
----
-
 ### abendialog_module.htm
-
-> **📖 Official SAP Documentation**: [abendialog_module.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendialog_module.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,31 +11,24 @@ Included pages: 3
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) → 
 
 Dialog Modules
 
-Dialog modules help prepare and process [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"). No local data types and data objects can be declared within a dialog module whose functions are implemented between the following statements:
+Dialog modules help prepare and process [screens](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenscreen_glosry.htm "Glossary Entry") of [dynpros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm "Glossary Entry"). No local data types and data objects can be declared within a dialog module whose functions are implemented between the following statements:
 
-[MODULE](javascript:call_link\('abapmodule.htm'\))
+[MODULE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodule.htm)
   ...
-[ENDMODULE](javascript:call_link\('abapendmodule.htm'\))
+[ENDMODULE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendmodule.htm)
 
-All declarative statements in dialog modules are global data declarations of the ABAP program and are visible in all following processing blocks. A dialog module works with the global data types and data objects of the [master program](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") and therefore should not contain its own declarations.
+All declarative statements in dialog modules are global data declarations of the ABAP program and are visible in all following processing blocks. A dialog module works with the global data types and data objects of the [master program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenframe_program_glosry.htm "Glossary Entry") and therefore should not contain its own declarations.
 
 Continue
-[MODULE](javascript:call_link\('abapmodule.htm'\))
-[ENDMODULE](javascript:call_link\('abapendmodule.htm'\))
+[MODULE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodule.htm)
+[ENDMODULE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendmodule.htm)
 
-
-
-**📖 Source**: [abendialog_module.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendialog_module.htm)
 
 ### abapmodule.htm
-
-> **📖 Official SAP Documentation**: [abapmodule.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodule.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -63,11 +36,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Dialog Modules](javascript:call_link\('abendialog_module.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Dialog Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendialog_module.htm) → 
 
 MODULE
 
-[Quick Reference](javascript:call_link\('abapmodule_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodule_shortref.htm)
 
 Syntax
 
@@ -81,9 +54,9 @@ Addition:
 
 Effect
 
-The statement MODULE defines a [dialog module](javascript:call_link\('abendialog_module_glosry.htm'\) "Glossary Entry") mod. The [naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) apply to the name mod. The functions of a dialog module mod are implemented between the statements MODULE ad ENDMODULE.
+The statement MODULE defines a [dialog module](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendialog_module_glosry.htm "Glossary Entry") mod. The [naming conventions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennaming_conventions.htm) apply to the name mod. The functions of a dialog module mod are implemented between the statements MODULE ad ENDMODULE.
 
-A dialog module is called using the identically named statement [MODULE](javascript:call_link\('dynpmodule.htm'\)) of the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry") of any [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") of an ABAP program .
+A dialog module is called using the identically named statement [MODULE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/dynpmodule.htm) of the [dynpro flow logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry") of any [dynpro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_glosry.htm "Glossary Entry") of an ABAP program .
 
 Addition
 
@@ -91,11 +64,11 @@ Addition
 
 Effect
 
-The additions OUTPUT and INPUT determine whether the dialog module can be called for the [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") event or for the [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") event. The addition INPUT is the default and can therefore also be omitted, although this is not recommended for the readability of the program. Two dialog modules with the same name can be defined in a program, if one of them has the addition OUTPUT and the other has the addition INPUT. This is also not recommended for reasons of readability.
+The additions OUTPUT and INPUT determine whether the dialog module can be called for the [PBO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpbo_glosry.htm "Glossary Entry") event or for the [PAI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpai_glosry.htm "Glossary Entry") event. The addition INPUT is the default and can therefore also be omitted, although this is not recommended for the readability of the program. Two dialog modules with the same name can be defined in a program, if one of them has the addition OUTPUT and the other has the addition INPUT. This is also not recommended for reasons of readability.
 
 Note
 
-For data encapsulation reasons, it is recommended that very few functions are implemented in dialog modules and that [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") are called instead.
+For data encapsulation reasons, it is recommended that very few functions are implemented in dialog modules and that [procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocedure_glosry.htm "Glossary Entry") are called instead.
 
 Example
 
@@ -106,17 +79,7 @@ MODULE user\_command\_0100 INPUT.
 ENDMODULE.
 
 
-
-**📖 Source**: [abapmodule.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodule.htm)
-
 ### abapendmodule.htm
-
-> **📖 Official SAP Documentation**: [abapendmodule.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendmodule.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapendmodule.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendmodule.htm)
-
 
   
 
@@ -124,11 +87,11 @@ ENDMODULE.
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Dialog Modules](javascript:call_link\('abendialog_module.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Dialog Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendialog_module.htm) → 
 
 ENDMODULE
 
-[Quick Reference](javascript:call_link\('abapmodule_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodule_shortref.htm)
 
 Syntax
 
@@ -136,4 +99,4 @@ ENDMODULE.
 
 Effect
 
-The statement ENDMODULE closes a module definition introduced using [MODULE](javascript:call_link\('abapmodule.htm'\)).
+The statement ENDMODULE closes a module definition introduced using [MODULE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmodule.htm).

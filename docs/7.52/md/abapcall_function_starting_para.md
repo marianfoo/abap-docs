@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) →  [CALL FUNCTION - RFC](javascript:call_link\('abapcall_function_destination-.htm'\)) →  [CALL FUNCTION - STARTING NEW TASK](javascript:call_link\('abapcall_function_starting.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [RFC - Remote Function Call](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc.htm) →  [CALL FUNCTION - RFC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function_destination-.htm) →  [CALL FUNCTION - STARTING NEW TASK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function_starting.htm) → 
 
 CALL FUNCTION - STARTING NEW TASK parameter\_list
 
-[Quick Reference](javascript:call_link\('abapcall_function_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function_shortref.htm)
 
 Syntax
 
@@ -23,10 +23,10 @@ Syntax
 
 Effect
 
-These additions are used to assign actual parameters to the formal parameters of the asynchronously called function module, and assign return values to exceptions that are not class-based. The additions have the same meaning as in the [synchronous RFC](javascript:call_link\('abapcall_function_destination_para.htm'\)) with the exception that values with IMPORTING cannot be imported and that actual parameters specified by CHANGING or TABLES can be used to pass values but not to accept values. The additional predefined non-class-based exception resource\_failure can also be handled for [pRFC](javascript:call_link\('abenprfc_glosry.htm'\) "Glossary Entry"). For this exception, the addition MESSAGE is not permitted.
+These additions are used to assign actual parameters to the formal parameters of the asynchronously called function module, and assign return values to exceptions that are not class-based. The additions have the same meaning as in the [synchronous RFC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function_destination_para.htm) with the exception that values with IMPORTING cannot be imported and that actual parameters specified by CHANGING or TABLES can be used to pass values but not to accept values. The additional predefined non-class-based exception resource\_failure can also be handled for [pRFC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprfc_glosry.htm "Glossary Entry"). For this exception, the addition MESSAGE is not permitted.
 
-The additions [IMPORTING](javascript:call_link\('abapreceive_para.htm'\)), [CHANGING](javascript:call_link\('abapreceive_para.htm'\)), and [TABLES](javascript:call_link\('abapreceive_para.htm'\)) of the statement [RECEIVE](javascript:call_link\('abapreceive.htm'\)) are used in callback routines to receive values from an asynchronously called function module.
+The additions [IMPORTING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreceive_para.htm), [CHANGING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreceive_para.htm), and [TABLES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreceive_para.htm) of the statement [RECEIVE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreceive.htm) are used in callback routines to receive values from an asynchronously called function module.
 
 Executable Example
 
-[Pass by Parameter in sRFC and aRFC](javascript:call_link\('abenrfc_parameters_abexa.htm'\))
+[Pass by Parameter in sRFC and aRFC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_parameters_abexa.htm)

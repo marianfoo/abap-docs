@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) →  [CREATE DATA - TYPE, LIKE](javascript:call_link\('abapcreate_data_existing.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencreate_objects.htm) →  [CREATE DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data.htm) →  [CREATE DATA - TYPE, LIKE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcreate_data_existing.htm) → 
 
 Creating Structured Data Objects
 
@@ -58,6 +58,6 @@ START-OF-SELECTION.
 
 Description
 
-Creates a work area that is compatible with a database table and reads the first few rows (rows) of the database table into this work area using a [SELECT](javascript:call_link\('abapselect.htm'\)) loop. Since the data reference dref is typed dynamically, the work area can only be read using the field symbol <wa>.
+Creates a work area that is compatible with a database table and reads the first few rows (rows) of the database table into this work area using a [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm) loop. Since the data reference dref is typed dynamically, the work area can only be read using the field symbol <wa>.
 
 The method CHECK\_TABLE\_NAME\_STR of the class CL\_ABAP\_DYN\_PRG checks whether the database table specified exists and can be used.

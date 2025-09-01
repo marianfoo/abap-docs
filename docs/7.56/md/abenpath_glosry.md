@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 path
 
-Sequence of relationships that link objects. In ABAP, sequences of [associations](javascript:call_link\('abenassociation_glosry.htm'\) "Glossary Entry") have a special meaning. Paths like these can be specified using [path expressions](javascript:call_link\('abenpath_expression_glosry.htm'\) "Glossary Entry"). See [CDS association path](javascript:call_link\('abencds_association_path_glosry.htm'\) "Glossary Entry"), [CDS composition path](javascript:call_link\('abencds_composition_path_glosry.htm'\) "Glossary Entry"), and [mesh path](javascript:call_link\('abenmesh_path_glosry.htm'\) "Glossary Entry").
+Sequence of relationships that link objects. In ABAP, sequences of [associations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassociation_glosry.htm "Glossary Entry") have a special meaning. Paths like these can be specified using [path expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpath_expression_glosry.htm "Glossary Entry"). See [CDS association path](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_association_path_glosry.htm "Glossary Entry"), [CDS composition path](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_composition_path_glosry.htm "Glossary Entry"), and [mesh path](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmesh_path_glosry.htm "Glossary Entry").

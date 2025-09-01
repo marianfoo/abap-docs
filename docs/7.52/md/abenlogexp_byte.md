@@ -4,15 +4,19 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [log\_exp - Logical Expressions](javascript:call_link\('abenlogexp.htm'\)) →  [rel\_exp - Comparison Expressions](javascript:call_link\('abenlogexp_comp.htm'\)) →  [rel\_exp - Comparison Rules](javascript:call_link\('abenlogexp_rules.htm'\)) →  [rel\_exp - Comparing Elementary Data Types](javascript:call_link\('abenlogexp_rules_operands.htm'\)) →  [rel\_exp - Comparison Type of Elementary Data Objects](javascript:call_link\('abenlogexp_rules_operands_dobj.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_expr_func.htm) →  [log\_exp - Logical Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp.htm) →  [rel\_exp - Comparison Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_comp.htm) →  [rel\_exp - Comparison Rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules.htm) →  [rel\_exp - Comparing Elementary Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules_operands.htm) →  [rel\_exp - Comparison Type of Elementary Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules_operands_dobj.htm) → 
 
 rel\_exp - Comparison Type of Byte-Like Data Objects
 
-The following tables show the [comparison types](javascript:call_link\('abencomparison_type_glosry.htm'\) "Glossary Entry") for comparisons between byte-like data types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](javascript:call_link\('abenconversion_elementary.htm'\)) to this type. The [comparison rules for the comparison types](javascript:call_link\('abencomparison_type.htm'\)) determine how the comparison is performed.
+The following tables show the [comparison types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomparison_type_glosry.htm "Glossary Entry") for comparisons between byte-like data types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_elementary.htm) to this type. The [comparison rules for the comparison types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomparison_type.htm) determine how the comparison is performed.
 
--   [Comparisons with Numeric Data Types](#abenlogexp-byte-1--------comparisons-with-character-like-data-types---@ITOC@@ABENLOGEXP_BYTE_2)
+-   [Comparisons with Numeric Data Types](#@@ITOC@@ABENLOGEXP_BYTE_1)
 
--   [Comparisons with Byte-Like Data Types](#abenlogexp-byte-3--------comparisons-with-date-time-types---@ITOC@@ABENLOGEXP_BYTE_4)
+-   [Comparisons with Character-Like Data Types](#@@ITOC@@ABENLOGEXP_BYTE_2)
+
+-   [Comparisons with Byte-Like Data Types](#@@ITOC@@ABENLOGEXP_BYTE_3)
+
+-   [Comparisons with Date/Time Types](#@@ITOC@@ABENLOGEXP_BYTE_4)
 
 Comparisons with Numeric Data Types
 
@@ -46,7 +50,7 @@ The comparison type p has 31 places and the number of decimal places in the oper
 
 Note
 
-In [conversions](javascript:call_link\('abenbyte_source_fields.htm'\)) of byte-like data types to any numeric type except int8, all bytes are ignored except for the final four. In the case of int8, the final 8 bytes are respected.
+In [conversions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbyte_source_fields.htm) of byte-like data types to any numeric type except int8, all bytes are ignored except for the final four. In the case of int8, the final 8 bytes are respected.
 
 Example
 
@@ -93,7 +97,7 @@ Length Adjustments
 
 Example
 
-The comparison uses the appropriate [conversion rules](javascript:call_link\('abenconversion_type_x.htm'\)) to convert the hexadecimal content "FF00" of hex to the string "FF00" and this string is then compared with "FFxx". The operands are not equal.
+The comparison uses the appropriate [conversion rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_x.htm) to convert the hexadecimal content "FF00" of hex to the string "FF00" and this string is then compared with "FFxx". The operands are not equal.
 
 DATA hex   TYPE x LENGTH 2.
 DATA text TYPE c LENGTH 4.
@@ -127,11 +131,11 @@ Length Adjustments
 
 -   Operands of the data type xstring with different lengths never match. If the content of the operands matches across the length of the shorter operand, the shorter operand is less than the longer operand. Otherwise the surplus bytes in the longer field are cut off on the right, and then the content is compared.
 
--   In comparisons between two operands of the data type c, the shorter field is [converted](javascript:call_link\('abenconversion_type_x.htm'\)) to the longer field, with hexadecimal 0 used as padding on the right.
+-   In comparisons between two operands of the data type c, the shorter field is [converted](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_x.htm) to the longer field, with hexadecimal 0 used as padding on the right.
 
 Example
 
-Before the comparison, the appropriate [conversion rules](javascript:call_link\('abenconversion_type_c.htm'\)) are used to convert the content of "FFxx" from text to the hexadecimal value "FF00" in the helper variable hex\_helper, and this value is compared with the content of hex.
+Before the comparison, the appropriate [conversion rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_c.htm) are used to convert the content of "FFxx" from text to the hexadecimal value "FF00" in the helper variable hex\_helper, and this value is compared with the content of hex.
 
 DATA hex        TYPE x LENGTH 2.
 DATA text       TYPE c LENGTH 4.

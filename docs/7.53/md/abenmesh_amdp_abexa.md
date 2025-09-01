@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_abexas.htm) → 
 
 AMDP, Fill a Mesh with SQLScript
 
@@ -65,9 +65,9 @@ START-OF-SELECTION.
 
 Description
 
-The AMDP class CL\_DEMO\_AMDP\_MESH has a private AMDP method SELECT\_HDB called by the public method SELECT if the current [standard database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") is the SAP HANA database. For all other databases, the private method SELECT\_OPEN\_SQL is called. Both methods return the same results, verified by a [unit test](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") in the class.
+The AMDP class CL\_DEMO\_AMDP\_MESH has a private AMDP method SELECT\_HDB called by the public method SELECT if the current [standard database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_db_glosry.htm "Glossary Entry") is the SAP HANA database. For all other databases, the private method SELECT\_OPEN\_SQL is called. Both methods return the same results, verified by a [unit test](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunit_test_glosry.htm "Glossary Entry") in the class.
 
-The methods fill the nodes of a [mesh](javascript:call_link\('abenabap_meshes.htm'\)) for sales orders whose type is declared in the AMDP class. The number of sales orders is restricted using a ranges table. In the method SELECT\_OPEN\_SQL, the ABAP SQL addition FOR ALL ENTRIES is used, but in SELECT\_OPEN\_SQL the intermediate results can be evaluated in subqueries.
+The methods fill the nodes of a [mesh](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_meshes.htm) for sales orders whose type is declared in the AMDP class. The number of sales orders is restricted using a ranges table. In the method SELECT\_OPEN\_SQL, the ABAP SQL addition FOR ALL ENTRIES is used, but in SELECT\_OPEN\_SQL the intermediate results can be evaluated in subqueries.
 
 SQLScript implementation of the AMDP method
 

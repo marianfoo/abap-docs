@@ -4,22 +4,22 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_unit.htm) → 
 
 METHODS - FOR TESTING
 
-[Quick Reference](javascript:call_link\('abapmethods_testing_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_testing_shortref.htm)
 
 Syntax
 
-[METHODS](javascript:call_link\('abapmethods.htm'\)) meth *\[*[ABSTRACT*|*FINAL](javascript:call_link\('abapmethods_abstract_final.htm'\))*\]*
-             *\[*[AMDP OPTIONS *\[*READ-ONLY*\]* *\[*CDS SESSION CLIENT clnt*|*CURRENT*\]*](javascript:call_link\('abapmethods_amdp_options.htm'\))*\]*
+[METHODS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods.htm) meth *\[*[ABSTRACT*|*FINAL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_abstract_final.htm)*\]*
+             *\[*[AMDP OPTIONS *\[*READ-ONLY*\]* *\[*CDS SESSION CLIENT clnt*|*CURRENT*\]*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_amdp_options.htm)*\]*
   FOR TESTING
   *\[*RAISING exc1*|*RESUMABLE(exc1) exc2*|*RESUMABLE(exc2) ...*\]*.
 
 Effect
 
-This statement is only possible in a [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry"). It declares a [test method](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") that is called during as a single test during a [test run](javascript:call_link\('abentest_run_glosry.htm'\) "Glossary Entry"). A test can be programmed in the method implementation. To check the test assumptions, static methods from the class CL\_ABAP\_UNIT\_ASSERT are used, such as:
+This statement is only possible in a [test class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_class_glosry.htm "Glossary Entry"). It declares a [test method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_method_glosry.htm "Glossary Entry") that is called during as a single test during a [test run](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentest_run_glosry.htm "Glossary Entry"). A test can be programmed in the method implementation. To check the test assumptions, static methods from the class CL\_ABAP\_UNIT\_ASSERT are used, such as:
 
 -   ASSERT\_EQUALS
     
@@ -34,9 +34,9 @@ This statement is only possible in a [test class](javascript:call_link\('abentes
 -   FAIL
     
 
-The data is evaluated using the [ABAP Unit](javascript:call_link\('abenabap_unit_glosry.htm'\) "Glossary Entry") Framework.
+The data is evaluated using the [ABAP Unit](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_unit_glosry.htm "Glossary Entry") Framework.
 
-The same applies to the additions ABSTRACT, FINAL, and RAISING as to the [general instance methods](javascript:call_link\('abapmethods_general.htm'\)). Furthermore, the addition [AMDP OPTIONS](javascript:call_link\('abapmethods_amdp_options.htm'\)) can be specified for test methods, since these methods can also be implemented as [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry").
+The same applies to the additions ABSTRACT, FINAL, and RAISING as to the [general instance methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_general.htm). Furthermore, the addition [AMDP OPTIONS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_amdp_options.htm) can be specified for test methods, since these methods can also be implemented as [AMDP methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_method_glosry.htm "Glossary Entry").
 
 Notes
 
@@ -44,9 +44,9 @@ Notes
     
 -   At present, all instance methods in global test classes are automatically test methods, that is the addition FOR TESTING is added implicitly.
     
--   When a test method is executed, the same applies to [resumable exceptions](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry") as to all other methods. If processing can be resumed successfully, the interrupted test can be resumed.
+-   When a test method is executed, the same applies to [resumable exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenresumable_exception_glosry.htm "Glossary Entry") as to all other methods. If processing can be resumed successfully, the interrupted test can be resumed.
     
--   The special methods setup, teardown, class\_setup, and class\_teardown of the [fixture](javascript:call_link\('abenfixture_glosry.htm'\) "Glossary Entry") are not test methods and the addition FOR TESTING cannot be used for this methods.
+-   The special methods setup, teardown, class\_setup, and class\_teardown of the [fixture](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfixture_glosry.htm "Glossary Entry") are not test methods and the addition FOR TESTING cannot be used for this methods.
     
 
 Example

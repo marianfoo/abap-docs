@@ -4,8 +4,8 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 reporting
 
-Classic application area of [executable programs](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") where the program flow implements the [IPO](javascript:call_link\('abeneva_glosry.htm'\) "Glossary Entry") principle by displaying a [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry"), reading data (often using a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry")), and displaying a formatted [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry").
+Classic application area of [executable programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexecutable_program_glosry.htm "Glossary Entry") where the program flow implements the [IPO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneva_glosry.htm "Glossary Entry") principle by displaying a [selection screen](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselection_screen_glosry.htm "Glossary Entry"), reading data (often using a [logical database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_data_base_glosry.htm "Glossary Entry")), and displaying a formatted [list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclassic_list_glosry.htm "Glossary Entry").

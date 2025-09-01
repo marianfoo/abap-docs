@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abendata_type_obj_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_type_obj_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Using%20Types%2C%20ABENUSING_TYPES_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,7 +12,7 @@ Using Types
 
 Background   
 
-You can use the data types declared according to the rules on [Bound and Standalone Data Types](javascript:call_link\('abenbound_independent_dtype_guidl.htm'\) "Guideline") and [Declaration of Data Types and Constants](javascript:call_link\('abendeclaration_dtypes_const_guidl.htm'\) "Guideline") for declaring and creating data objects, as well as for typing field symbols or interface parameters. You specify them after the TYPE addition of the corresponding statement.
+You can use the data types declared according to the rules on [Bound and Standalone Data Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbound_independent_dtype_guidl.htm "Guideline") and [Declaration of Data Types and Constants](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclaration_dtypes_const_guidl.htm "Guideline") for declaring and creating data objects, as well as for typing field symbols or interface parameters. You specify them after the TYPE addition of the corresponding statement.
 
 Rule   
 
@@ -30,11 +30,11 @@ In particular, this applies to the reuse or multiple use of existing types. If y
 
 Hint
 
-This rule applies especially for the use of structures from ABAP Dictionary. For example, you should never use a structure defining a database table as a template for input or output fields of classic dynpros or in Web Dynpro. This would violate the [SoC principle](javascript:call_link\('abenseparation_concerns_guidl.htm'\) "Guideline").
+This rule applies especially for the use of structures from ABAP Dictionary. For example, you should never use a structure defining a database table as a template for input or output fields of classic dynpros or in Web Dynpro. This would violate the [SoC principle](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenseparation_concerns_guidl.htm "Guideline").
 
 Bad Example
 
-In the following source code a variable is declared, whose name and use clearly indicate that it is used for a truth value. The variable is declared with a technically correct, but semantically incorrect, data type. syst-batch, after all, is the data type for the [system field](javascript:call_link\('abensystem_fields_gdl.htm'\)) sy-batch, which indicates whether a program is executed in the background.
+In the following source code a variable is declared, whose name and use clearly indicate that it is used for a truth value. The variable is declared with a technically correct, but semantically incorrect, data type. syst-batch, after all, is the data type for the [system field](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensystem_fields_gdl.htm) sy-batch, which indicates whether a program is executed in the background.
 
 DATA is\_empty TYPE syst-batch.
 ...
@@ -44,7 +44,7 @@ ENDIF.
 
 Good Example
 
-The following source code shows an improved example compared to the source code above. In this case, the abap\_bool type of type pool abap, which is intended for [truth values](javascript:call_link\('abendataobjects_true_value_guidl.htm'\) "Guideline"), is used. In addition, the request of the truth value is performed using a specifically designated constant from the same type pool.
+The following source code shows an improved example compared to the source code above. In this case, the abap\_bool type of type pool abap, which is intended for [truth values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendataobjects_true_value_guidl.htm "Guideline"), is used. In addition, the request of the truth value is performed using a specifically designated constant from the same type pool.
 
 DATA is\_empty TYPE abap\_bool.
 ...

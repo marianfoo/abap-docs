@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)) →  [CREATE DATA dref](javascript:call_link\('abapcreate_data_implicit.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencreate_objects.htm) →  [CREATE DATA](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_data.htm) →  [CREATE DATA dref](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_data_implicit.htm) → 
 
 Creating Data Objects with Implicit Type
 
@@ -42,4 +42,4 @@ START-OF-SELECTION.
 
 Description
 
-Creation of an internal table and a data object of type i. The data types of the created objects are the static types of the reference variables tab\_ref and i\_ref. The data objects are created directly before they are used and are then passed to the [Garbage Collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry") by the initialization of the reference variable. The data objects are accessed by dereferencing the data references.
+Creation of an internal table and a data object of type i. The data types of the created objects are the static types of the reference variables tab\_ref and i\_ref. The data objects are created directly before they are used and are then passed to the [Garbage Collector](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abengarbage_collector_glosry.htm "Glossary Entry") by the initialization of the reference variable. The data objects are accessed by dereferencing the data references.

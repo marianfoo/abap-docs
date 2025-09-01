@@ -4,9 +4,9 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Open SQL](javascript:call_link\('abenopensql.htm'\)) →  [Open SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [Open SQL - Conditions sql\_cond](javascript:call_link\('abenopen_sql_cond.htm'\)) →  [sql\_cond - rel\_exp for Statements](javascript:call_link\('abenwhere_logexp.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql.htm) →  [Open SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_operands.htm) →  [Open SQL - Conditions sql\_cond](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_cond.htm) →  [sql\_cond - rel\_exp for Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp.htm) → 
 
-[Quick Reference](javascript:call_link\('abensql_cond_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_cond_shortref.htm)
 
 sql\_cond - LIKE
 
@@ -22,15 +22,15 @@ Effect
 
 This relational expression is true if the value of the operand operand1 matches (does not match) the pattern in the operand operand2.
 
--   [Columns](javascript:call_link\('abenopen_sql_columns.htm'\)) and [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) can be specified for operand1. This covers literals, host variables, and host expressions. In a [HAVING](javascript:call_link\('abaphaving_clause.htm'\)) clause, [aggregate expressions](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry") can also be used.
+-   [Columns](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_columns.htm) and [SQL expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsql_expr.htm) can be specified for operand1. This covers literals, host variables, and host expressions. In a [HAVING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaphaving_clause.htm) clause, [aggregate expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenaggregate_expression_glosry.htm "Glossary Entry") can also be used.
 
 -   The following can be specified for operand2:
 
 -   Literals
 
--   [Host variables](javascript:call_link\('abenopen_sql_host_variables.htm'\)) whose name is prefixed with the escape character @.
+-   [Host variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_variables.htm) whose name is prefixed with the escape character @.
 
-The data type of operand1 can be one of the [dictionary types](javascript:call_link\('abenddic_builtin_types.htm'\)) CHAR, NUMC, CLNT, LANG, DATS, TIMS, ACCP, CUKY, UNIT, or SSTRING. The data type of operand2 must be [c](javascript:call_link\('abenbuiltin_types_character.htm'\)) or [string](javascript:call_link\('abenbuiltin_types_character.htm'\)). The content of operand2 should match the data type of operand1 in accordance with the rules for [lossless assignments](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry"). This is also checked by the [strict modes](javascript:call_link\('abenopensql_strict_modes.htm'\)) of the syntax check from Release 7.40, SP08 and can raise an exception.
+The data type of operand1 can be one of the [dictionary types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) CHAR, NUMC, CLNT, LANG, DATS, TIMS, ACCP, CUKY, UNIT, or SSTRING. The data type of operand2 must be [c](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_character.htm) or [string](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_character.htm). The content of operand2 should match the data type of operand1 in accordance with the rules for [lossless assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlossless_assignment_glosry.htm "Glossary Entry"). This is also checked by the [strict modes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_strict_modes.htm) of the syntax check from Release 7.40, SP08 and can raise an exception.
 
 A pattern in operand2 is defined using the following wildcard characters:
 
@@ -44,17 +44,17 @@ If the pattern in operand2 consists of precisely one "%" character, the evaluati
 
 Notes
 
--   The wildcard characters "\_" and "%" are used as in standard SQL. Elsewhere in ABAP, the wildcard characters "+" and "\*" are used in similar relational expressions, in particular when [selection tables](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") are used.
+-   The wildcard characters "\_" and "%" are used as in standard SQL. Elsewhere in ABAP, the wildcard characters "+" and "\*" are used in similar relational expressions, in particular when [selection tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselection_table_glosry.htm "Glossary Entry") are used.
 
--   It is not usually practical to define patterns in operand2 without wildcard characters. Instead, it is best to perform a comparison using [\=](javascript:call_link\('abenwhere_logexp_compare.htm'\)).
+-   It is not usually practical to define patterns in operand2 without wildcard characters. Instead, it is best to perform a comparison using [\=](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwhere_logexp_compare.htm).
 
 -   Do not use patterns that are closed by wildcard characters to search for trailing blanks. The semantics of searches of this type are dependent on the database system that is used and in general do not produce the required result.
 
--   Due to Open SQL-specific optimization, operand1 LIKE '%' is also true if the operand operand1 contains [null values](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry").
+-   Due to Open SQL-specific optimization, operand1 LIKE '%' is also true if the operand operand1 contains [null values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennull_value_glosry.htm "Glossary Entry").
 
--   No columns and no [host expressions](javascript:call_link\('abenopen_sql_host_expressions.htm'\)) can be specified here on the right side.
+-   No columns and no [host expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_expressions.htm) can be specified here on the right side.
 
--   The special character-like types [n](javascript:call_link\('abenbuiltin_types_character.htm'\)), [d](javascript:call_link\('abenbuiltin_types_character.htm'\)), and [t](javascript:call_link\('abenbuiltin_types_character.htm'\)) cannot be used on the right side, since the wildcard characters "\_" and "%" required for patterns are invalid content for these types.
+-   The special character-like types [n](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_character.htm), [d](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_character.htm), and [t](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_character.htm) cannot be used on the right side, since the wildcard characters "\_" and "%" required for patterns are invalid content for these types.
 
 Example
 
@@ -81,7 +81,7 @@ ENDIF.
 
 Example
 
-Pattern synchronization for a numeric column of the table DEMO\_EXPRESSIONS. A [CAST expression](javascript:call_link\('abensql_cast.htm'\)) is used here to create the required character-like data type.
+Pattern synchronization for a numeric column of the table DEMO\_EXPRESSIONS. A [CAST expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_cast.htm) is used here to create the required character-like data type.
 
 DELETE FROM demo\_expressions.
 INSERT demo\_expressions FROM TABLE @(
@@ -100,9 +100,9 @@ Addition
 
 Effect
 
-The addition ESCAPE can be used to define a single-character [escape character](javascript:call_link\('abenescape_character_glosry.htm'\) "Glossary Entry"). esc expects a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") [character-like](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") data object with the length 1 containing the escape character. A literal or a [host variable](javascript:call_link\('abenopen_sql_host_variables.htm'\)) prefixed with @ can be specified. In the pattern in operand2, the escape character in esc may only be placed before a wildcard character or before the escape character itself. In this case, these lose their special meaning.
+The addition ESCAPE can be used to define a single-character [escape character](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenescape_character_glosry.htm "Glossary Entry"). esc expects a [flat](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenflat_glosry.htm "Glossary Entry") [character-like](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") data object with the length 1 containing the escape character. A literal or a [host variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_host_variables.htm) prefixed with @ can be specified. In the pattern in operand2, the escape character in esc may only be placed before a wildcard character or before the escape character itself. In this case, these lose their special meaning.
 
-If an escape character in operand2 is not placed in front of a valid character, an exception of the class CX\_SY\_OPEN\_SQL\_DB is raised. The addition ESCAPE cannot be used when reading [pooled tables](javascript:call_link\('abenpooled_table_glosry.htm'\) "Glossary Entry").
+If an escape character in operand2 is not placed in front of a valid character, an exception of the class CX\_SY\_OPEN\_SQL\_DB is raised. The addition ESCAPE cannot be used when reading [pooled tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpooled_table_glosry.htm "Glossary Entry").
 
 Notes
 
@@ -112,7 +112,7 @@ Notes
 
 -   If the pattern in operand2 is created dynamically or comes from outside of the program, care must be taken that any escape characters it contains are not placed in front of characters other than "\_", "%", or the escape character itself. To prevent an exception, escape characters that are part of the patter must be escaped using themselves before being used.
 
--   In the [strict modes](javascript:call_link\('abenopensql_strict_modes.htm'\)) of the syntax check from Release 7.40, SP05, the escape character @ must be before an esc that is not specified as a literal.
+-   In the [strict modes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopensql_strict_modes.htm) of the syntax check from Release 7.40, SP05, the escape character @ must be before an esc that is not specified as a literal.
 
 Example
 

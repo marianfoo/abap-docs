@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Declarations](javascript:call_link\('abenobsolete_declarations.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_declare_obsolete.htm'\)) →  [Internal Tables with Header Line](javascript:call_link\('abenitab_header_line.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobsolete_declarations.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_declare_obsolete.htm) →  [Internal Tables with Header Line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_header_line.htm) → 
 
 DATA - BEGIN OF OCCURS
 
-[Quick Reference](javascript:call_link\('abapdata_begin_of_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_begin_of_shortref.htm)
 
 Obsolete Syntax
 
@@ -22,7 +22,7 @@ Addition:
 
 Effect
 
-This variant of the statement list introduced using [DATA BEGIN OF](javascript:call_link\('abapdata_struc.htm'\)) (which is forbidden in classes) declares an internal table itab as a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with a structured row type and a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"). The declarations between the statements DATA BEGIN OF and DATA END OF define the components of the [row type](javascript:call_link\('abenrow_type_glosry.htm'\) "Glossary Entry") of itab, just as in the regular variant of [DATA BEGIN OF](javascript:call_link\('abapdata_struc.htm'\)). The data object n, which has to be specified either directly as a numeric literal or as a numeric constant, determines the initial memory requirement.
+This variant of the statement list introduced using [DATA BEGIN OF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_struc.htm) (which is forbidden in classes) declares an internal table itab as a [standard table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstandard_table_glosry.htm "Glossary Entry") with a structured row type and a [header line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenheader_line_glosry.htm "Glossary Entry"). The declarations between the statements DATA BEGIN OF and DATA END OF define the components of the [row type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrow_type_glosry.htm "Glossary Entry") of itab, just as in the regular variant of [DATA BEGIN OF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_struc.htm). The data object n, which has to be specified either directly as a numeric literal or as a numeric constant, determines the initial memory requirement.
 
 Notes
 
@@ -36,9 +36,9 @@ DATA BEGIN OF wa.
 DATA END OF wa.
 DATA itab LIKE TABLE OF wa.
 
-The last statement is an abbreviated form of the complete [declaration](javascript:call_link\('abapdata_itab.htm'\)) of itab, where the table type and key are supplemented with standard values.
+The last statement is an abbreviated form of the complete [declaration](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata_itab.htm) of itab, where the table type and key are supplemented with standard values.
 
--   The creation of the [header line](javascript:call_link\('abenitab_header_line.htm'\)) cannot be disabled in this variant. Since header lines in internal tables should never be used, however, this way of declaring internal tables should never be encountered again.
+-   The creation of the [header line](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab_header_line.htm) cannot be disabled in this variant. Since header lines in internal tables should never be used, however, this way of declaring internal tables should never be encountered again.
     
 
 Addition
@@ -47,4 +47,4 @@ Addition
 
 Effect
 
-The VALID BETWEEN addition of the DATA END OF statement is only important if the internal table is to be processed using the obsolete form of the statement [PROVIDE](javascript:call_link\('abapprovide_obsolete.htm'\)). intlim1 and intlim2 expect columns from the internal table of the data type d, i, n, or t. These columns are used implicitly as interval limits in their obsolete form of the statement PROVIDE.
+The VALID BETWEEN addition of the DATA END OF statement is only important if the internal table is to be processed using the obsolete form of the statement [PROVIDE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapprovide_obsolete.htm). intlim1 and intlim2 expect columns from the internal table of the data type d, i, n, or t. These columns are used implicitly as interval limits in their obsolete form of the statement PROVIDE.

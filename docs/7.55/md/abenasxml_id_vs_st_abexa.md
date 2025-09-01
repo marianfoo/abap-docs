@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Canonical XML Representation (asXML)](javascript:call_link\('abenabap_xslt_asxml.htm'\)) →  [asXML - Examples of Mappings](javascript:call_link\('abenasxml_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_trafos.htm) →  [Canonical XML Representation (asXML)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml.htm) →  [asXML - Examples of Mappings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasxml_abexas.htm) → 
 
 asXML - Transformation ID vs. Simple Transformation
 
@@ -52,4 +52,4 @@ START-OF-SELECTION.
 
 Description
 
-A text string with five blanks is serialized and deserialized to a [simple transformation](javascript:call_link\('abenabap_st.htm'\)) DEMO\_ASXML\_COPY using the predefined [identity transformation ID](javascript:call_link\('abenabap_xslt_id.htm'\)) and the statement [tt:copy](javascript:call_link\('abenst_tt_copy.htm'\)). The transformation ID contains the statement <xsl:strip-space elements="\*"/> , which means that the blanks are ignored in deserializations and the text string then has the length 0. After deserializations with the simple transformation, the blanks are kept in the text string.
+A text string with five blanks is serialized and deserialized to a [simple transformation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_st.htm) DEMO\_ASXML\_COPY using the predefined [identity transformation ID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_id.htm) and the statement [tt:copy](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_copy.htm). The transformation ID contains the statement <xsl:strip-space elements="\*"/> , which means that the blanks are ignored in deserializations and the text string then has the length 0. After deserializations with the simple transformation, the blanks are kept in the text string.

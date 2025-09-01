@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 EBCDIC
 
-Abbreviation of Extended Binary Coded Decimal Interchange Code. An 8-bit [character set](javascript:call_link\('abencharacter_set_glosry.htm'\) "Glossary Entry") based on [BCD](javascript:call_link\('abenbcd_glosry.htm'\) "Glossary Entry"). EBCDIC covers mostly the same characters as [ASCII](javascript:call_link\('abenascii_glosry.htm'\) "Glossary Entry").
+Abbreviation of Extended Binary Coded Decimal Interchange Code. An 8-bit [character set](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_set_glosry.htm "Glossary Entry") based on [BCD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbcd_glosry.htm "Glossary Entry"). EBCDIC covers mostly the same characters as [ASCII](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenascii_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abencharacter_sets.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencharacter_sets.htm)

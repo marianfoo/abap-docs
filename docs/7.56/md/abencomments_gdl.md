@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstructure_style_gdl.htm) → 
 
 Comments
 
@@ -23,11 +23,11 @@ There are two categories of comments in ABAP:
 
 A comment line or end of line comment can have any content and this content is ignored when the program is generated using ABAP Compiler.
 
--   [Language of Comments](javascript:call_link\('abencomment_langu_guidl.htm'\) "Guideline")
--   [Content](javascript:call_link\('abencontent_guidl.htm'\) "Guideline")
--   [Arrangement in the Source Code](javascript:call_link\('abenarrange_guidl.htm'\) "Guideline")
+-   [Language of Comments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomment_langu_guidl.htm "Guideline")
+-   [Content](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencontent_guidl.htm "Guideline")
+-   [Arrangement in the Source Code](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarrange_guidl.htm "Guideline")
 
 Continue
-[Language of Comments](javascript:call_link\('abencomment_langu_guidl.htm'\))
-[Content](javascript:call_link\('abencontent_guidl.htm'\))
-[Arrangement in the Source Code](javascript:call_link\('abenarrange_guidl.htm'\))
+[Language of Comments](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomment_langu_guidl.htm)
+[Content](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencontent_guidl.htm)
+[Arrangement in the Source Code](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarrange_guidl.htm)

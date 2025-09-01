@@ -4,22 +4,22 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Overview](javascript:call_link\('abenabap_objects_oview.htm'\)) →  [Classes](javascript:call_link\('abenclasses.htm'\)) →  [Components of Classes](javascript:call_link\('abenclass_components.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_oview.htm) →  [Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses.htm) →  [Components of Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_components.htm) → 
 
 Visibility Sections in Classes
 
-The [declaration part](javascript:call_link\('abendeclaration_section_glosry.htm'\) "Glossary Entry") of a class can be split into up to four different visibility sections.
+The [declaration part](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_section_glosry.htm "Glossary Entry") of a class can be split into up to four different visibility sections.
 
-These sections define the external visibility of the [class components](javascript:call_link\('abenclass_components.htm'\)) and therefore the interfaces of the class for all consumers allowed by the [package concept](javascript:call_link\('abenpackage_concept_glosry.htm'\) "Glossary Entry"). Each component of a class must be explicitly assigned to one of the visibility sections. Only the [friends](javascript:call_link\('abenfriend_glosry.htm'\) "Glossary Entry") of a class ignore the associated restrictions.
+These sections define the external visibility of the [class components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_components.htm) and therefore the interfaces of the class for all consumers allowed by the [package concept](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpackage_concept_glosry.htm "Glossary Entry"). Each component of a class must be explicitly assigned to one of the visibility sections. Only the [friends](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfriend_glosry.htm "Glossary Entry") of a class ignore the associated restrictions.
 
 -   Public visibility section
-    All components declared in the public visibility section defined using [PUBLIC SECTION](javascript:call_link\('abappublic.htm'\)) are accessible to all consumers as well as in the methods of all inheritors and the class itself. The public components of the class form the interface between the class and its consumers.
+    All components declared in the public visibility section defined using [PUBLIC SECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abappublic.htm) are accessible to all consumers as well as in the methods of all inheritors and the class itself. The public components of the class form the interface between the class and its consumers.
 
 -   Protected visibility section
-    All components declared in the protected visibility section defined with [PROTECTED SECTION](javascript:call_link\('abapprotected.htm'\)) are accessible in the methods of all inheritors and in the class itself. Protected components form a special interface between a class and its subclasses.
+    All components declared in the protected visibility section defined with [PROTECTED SECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprotected.htm) are accessible in the methods of all inheritors and in the class itself. Protected components form a special interface between a class and its subclasses.
 
 -   Private visibility section
-    All components declared in the private visibility section defined with [PRIVATE SECTION](javascript:call_link\('abapprivate.htm'\)) are only accessible in the class itself, and are also not visible to the inheritors. The private components therefore do not form an interface to the consumers of the class.
+    All components declared in the private visibility section defined with [PRIVATE SECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprivate.htm) are only accessible in the class itself, and are also not visible to the inheritors. The private components therefore do not form an interface to the consumers of the class.
 
 The following table summarizes the visibilities of a class:
 
@@ -65,11 +65,11 @@ The three visibility sections form the basis for the important feature of encaps
 
 Programming Guideline
 
-[Exploit the benefits of encapsulation](javascript:call_link\('abenencapsulation_guidl.htm'\) "Guideline")
+[Exploit the benefits of encapsulation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenencapsulation_guidl.htm "Guideline")
 
 Note
 
-The class is the smallest encapsulation unit in ABAP Objects. A method can therefore use all components of all instances of the same class, except for the components of its own class. An exception to this rule are subclasses that cannot access the private components of superclasses, if they are not their [friends](javascript:call_link\('abenfriends.htm'\)).
+The class is the smallest encapsulation unit in ABAP Objects. A method can therefore use all components of all instances of the same class, except for the components of its own class. An exception to this rule are subclasses that cannot access the private components of superclasses, if they are not their [friends](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfriends.htm).
 
 Example
 

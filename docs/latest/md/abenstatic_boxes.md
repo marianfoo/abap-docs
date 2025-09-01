@@ -4,38 +4,38 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Data Objects](javascript:call_link\('abendata_objects.htm'\)) →  [Structures](javascript:call_link\('abendata_objects_structure.htm'\)) →  [Boxed Components](javascript:call_link\('abenboxed_components.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentypes_and_objects.htm) →  [Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_objects.htm) →  [Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_objects_structure.htm) →  [Boxed Components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenboxed_components.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Static%20Boxes%2C%20ABENSTATIC_BOXES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Static Boxes
 
-Static boxes are [boxed components](javascript:call_link\('abenboxed_components.htm'\)) whose components are known statically, and which are subject to [initial value sharing](javascript:call_link\('abeninitial_value_sharing_glosry.htm'\) "Glossary Entry"). Declarations of static boxes generally require less memory for structures that occur multiple times but are rarely used.
+Static boxes are [boxed components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenboxed_components.htm) whose components are known statically, and which are subject to [initial value sharing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninitial_value_sharing_glosry.htm "Glossary Entry"). Declarations of static boxes generally require less memory for structures that occur multiple times but are rarely used.
 
 The following can currently be declared as static boxes:
 
--   Substructures of structured data with the addition [BOXED](javascript:call_link\('abaptypes_boxed.htm'\)) of the statement [TYPES](javascript:call_link\('abaptypes.htm'\)).
--   Structured attributes of classes or interfaces with the addition [BOXED](javascript:call_link\('abapdata_boxed.htm'\)) of the statement [*\[*CLASS-*\]*DATA](javascript:call_link\('abapdata.htm'\)).
+-   Substructures of structured data with the addition [BOXED](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_boxed.htm) of the statement [TYPES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes.htm).
+-   Structured attributes of classes or interfaces with the addition [BOXED](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata_boxed.htm) of the statement [*\[*CLASS-*\]*DATA](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdata.htm).
 
 A static box can have one of two states:
 
 -   Initial value sharing
     
-    As long as none of the actions named in the following point have been executed, initial value sharing applies to a static box. The internal reference refers to a type-dependent initial value of the structure, which is stored exactly once for each [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry") in its [PXA](javascript:call_link\('abenpxa_glosry.htm'\) "Glossary Entry"). The memory requirement in the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") is determined only by the internal reference and its [administration](javascript:call_link\('abenmemory_consumption.htm'\)).
+    As long as none of the actions named in the following point have been executed, initial value sharing applies to a static box. The internal reference refers to a type-dependent initial value of the structure, which is stored exactly once for each [AS instance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_instance_glosry.htm "Glossary Entry") in its [PXA](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpxa_glosry.htm "Glossary Entry"). The memory requirement in the [internal session](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm "Glossary Entry") is determined only by the internal reference and its [administration](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmemory_consumption.htm).
     
 -   Revoked initial value sharing
     
     The following actions revoke initial value sharing for a static box:
     
     -   Writes to the static box or one of its components.
-    -   Assigning the static box or one of its components to a [field symbol](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") using [ASSIGN](javascript:call_link\('abapassign.htm'\)).
-    -   Addressing the static box or one of its components using a [data reference](javascript:call_link\('abendata_reference_glosry.htm'\) "Glossary Entry").
-    -   Using a static box or one of its components as an [actual parameter](javascript:call_link\('abenactual_parameter_glosry.htm'\) "Glossary Entry") for procedure calls.
+    -   Assigning the static box or one of its components to a [field symbol](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfield_symbol_glosry.htm "Glossary Entry") using [ASSIGN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapassign.htm).
+    -   Addressing the static box or one of its components using a [data reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_reference_glosry.htm "Glossary Entry").
+    -   Using a static box or one of its components as an [actual parameter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenactual_parameter_glosry.htm "Glossary Entry") for procedure calls.
     
     The internal reference then refers to an instance of the structure in the current internal session. The memory requirement is the same as for a regular structure plus the administration costs for the internal reference.
     
 
-In initial value sharing, the memory required for the internal session of a static box is not defined at the start of program execution. However, unlike in real [dynamic data objects](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry"), the length of a static box is always known statically. Static boxes can be used in the same way as a regular component of the same type. When a structure that contains a static box is accessed, however, it should be ensured that it is a deep component.
+In initial value sharing, the memory required for the internal session of a static box is not defined at the start of program execution. However, unlike in real [dynamic data objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_data_object_glosry.htm "Glossary Entry"), the length of a static box is always known statically. Static boxes can be used in the same way as a regular component of the same type. When a structure that contains a static box is accessed, however, it should be ensured that it is a deep component.
 
 Hints
 

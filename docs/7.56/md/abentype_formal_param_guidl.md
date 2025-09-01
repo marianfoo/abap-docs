@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Modularization Units](javascript:call_link\('abenmodularization_unit_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) →  [Modularization Units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmodularization_unit_gdl.htm) → 
 
 Typing of Formal Parameters
 
@@ -25,16 +25,16 @@ Be only as generic as necessary when typing formal parameters. Fully generic typ
 
 Details
 
-Absolute type security within a procedure can only be achieved using full typing. It should always be used when providing a generic service is not a defined goal. It is much easier to carry out [tests](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline") for non-generic services than for generic services.
+Absolute type security within a procedure can only be achieved using full typing. It should always be used when providing a generic service is not a defined goal. It is much easier to carry out [tests](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencorrectness_quality_guidl.htm "Guideline") for non-generic services than for generic services.
 
-A generically typed procedure interface usually involves more implementation effort within the procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")) to avoid [runtime errors](javascript:call_link\('abenruntime_error_dyn_proc_guidl.htm'\) "Guideline"). Therefore, use the following principle when providing generic interfaces: as little generic typing as possible and as much generic typing as necessary. You should use specific generic types, such as numeric or csequence, instead of any or data, for example, if services are involved that are supposed to process numeric values or character strings. However, already when csequence is used, you must take into account that the possible concrete types c and string behave differently with respect to trailing blanks. or that the concrete numeric types that are possible for numeric lead to different [calculation types](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") in calculations. Especially, when existing typings are generalized, it may be necessary to modify the implementation accordingly.
+A generically typed procedure interface usually involves more implementation effort within the procedure ([method](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")) to avoid [runtime errors](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenruntime_error_dyn_proc_guidl.htm "Guideline"). Therefore, use the following principle when providing generic interfaces: as little generic typing as possible and as much generic typing as necessary. You should use specific generic types, such as numeric or csequence, instead of any or data, for example, if services are involved that are supposed to process numeric values or character strings. However, already when csequence is used, you must take into account that the possible concrete types c and string behave differently with respect to trailing blanks. or that the concrete numeric types that are possible for numeric lead to different [calculation types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencalculation_type_glosry.htm "Glossary Entry") in calculations. Especially, when existing typings are generalized, it may be necessary to modify the implementation accordingly.
 
 Generic typing can be a pitfall if you are not aware that you have used generic typing instead of full typing, because only the technical type attributes are checked when an actual parameter is connected, but no component names, for example. This can lead to different behavior than expected.
 
 Hints
 
--   These statements about typing apply equally to [field symbols](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline").
--   In typings of formal parameters with the generic type [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\)), it should be noted that no [numeric functions](javascript:call_link\('abenmathematical_funktion_glosry.htm'\) "Glossary Entry"), no [description functions](javascript:call_link\('abendescription_function_glosry.htm'\) "Glossary Entry"), and no [arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") can be passed to these parameters. This restriction can be bypassed by applying the [conversion operator](javascript:call_link\('abenconversion_operator_glosry.htm'\) "Glossary Entry") [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) to the actual parameter. This restriction does not apply to the generic type any, however, which means that, if required, a typing with the generic type any is recommended.
+-   These statements about typing apply equally to [field symbols](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendyn_access_data_obj_guidl.htm "Guideline").
+-   In typings of formal parameters with the generic type [data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_types_generic.htm), it should be noted that no [numeric functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmathematical_funktion_glosry.htm "Glossary Entry"), no [description functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendescription_function_glosry.htm "Glossary Entry"), and no [arithmetic expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") can be passed to these parameters. This restriction can be bypassed by applying the [conversion operator](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_operator_glosry.htm "Glossary Entry") [CONV](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_conv.htm) to the actual parameter. This restriction does not apply to the generic type any, however, which means that, if required, a typing with the generic type any is recommended.
 
 Bad Example
 
@@ -54,7 +54,7 @@ ENDCLASS.
 
 Good Example
 
-Using the built-in function [condense](javascript:call_link\('abencondense_functions.htm'\)) produces the same behavior when a blank is passed, regardless of the fixed type.
+Using the built-in function [condense](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencondense_functions.htm) produces the same behavior when a blank is passed, regardless of the fixed type.
 
 CLASS demo DEFINITION.
   PUBLIC SECTION.

@@ -4,13 +4,13 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Overview](javascript:call_link\('abenabap_objects_oview.htm'\)) →  [Inheritance](javascript:call_link\('abeninheritance.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_oview.htm) →  [Inheritance](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance.htm) → 
 
 Inheritance and Instantiation
 
-When a subclass is instantiated, all superclasses are instantiated at the same time. Here, the initialization of superclass attributes is ensured by calling the superclass constructors, as described in [Inheritance and Constructors](javascript:call_link\('abeninheritance_constructors.htm'\)).
+When a subclass is instantiated, all superclasses are instantiated at the same time. Here, the initialization of superclass attributes is ensured by calling the superclass constructors, as described in [Inheritance and Constructors](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninheritance_constructors.htm).
 
-In each individual class, the additions CREATE PUBLIC*|*PROTECTED*|*PRIVATE of the statement [CLASS](javascript:call_link\('abapclass.htm'\)) specify who can create an instance of the class or, in other words, can call its instance constructor.
+In each individual class, the additions CREATE PUBLIC*|*PROTECTED*|*PRIVATE of the statement [CLASS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass.htm) specify who can create an instance of the class or, in other words, can call its instance constructor.
 
 This has the following consequences:
 
@@ -18,9 +18,9 @@ If a superclass is defined in a path of the inheritance tree using the addition 
 
 It would therefore also be useful to apply the addition FINAL to a class that was defined using the addition CREATE PRIVATE, to prevent subclasses from being derived. Otherwise subclasses of superclasses like these are all given the implicit addition CREATE NONE.
 
-The only exception to this rule is if a superclass that can be privately instantiated offers its [friendship](javascript:call_link\('abenfriends.htm'\)) to its subclasses. The direct route is rarely the case here because the superclass must know its subclasses for it to be possible. However, a superclass can also offer friendship to an interface which, in turn, can be implemented by its subclasses.
+The only exception to this rule is if a superclass that can be privately instantiated offers its [friendship](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfriends.htm) to its subclasses. The direct route is rarely the case here because the superclass must know its subclasses for it to be possible. However, a superclass can also offer friendship to an interface which, in turn, can be implemented by its subclasses.
 
-Conversely, objects of subclasses cannot be created in their superclass if these are declared using CREATE PROTECTED or CREATE PRIVATE, unless they are [friends](javascript:call_link\('abenfriend_glosry.htm'\) "Glossary Entry") of its subclasses.
+Conversely, objects of subclasses cannot be created in their superclass if these are declared using CREATE PROTECTED or CREATE PRIVATE, unless they are [friends](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfriend_glosry.htm "Glossary Entry") of its subclasses.
 
 Overview of All Cases
 
@@ -30,7 +30,7 @@ Subclasses can have any CREATE addition, regardless of whether they are a friend
 
 Superclass with Addition CREATE PROTECTED.
 
-Subclasses can have any CREATE addition, regardless of whether they are a friend of the superclass. Without an addition, they inherit the attribute CREATE PROTECTED. The superclass allows its subclasses unlimited instantiation and therefore also allow its [protected](javascript:call_link\('abenprotected_glosry.htm'\) "Glossary Entry") instance constructor to be published.
+Subclasses can have any CREATE addition, regardless of whether they are a friend of the superclass. Without an addition, they inherit the attribute CREATE PROTECTED. The superclass allows its subclasses unlimited instantiation and therefore also allow its [protected](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprotected_glosry.htm "Glossary Entry") instance constructor to be published.
 
 Superclass with Addition CREATE PRIVATE
 

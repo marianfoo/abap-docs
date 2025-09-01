@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Data Storage](javascript:call_link\('abendata_storage_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarchitecture_guidl.htm) →  [Data Storage](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_storage_guidl.htm) → 
 
 Client Handling
 
@@ -14,9 +14,9 @@ A client indicates a data area in an AS ABAP database that contains independent 
 
 When logging on to AS ABAP, this client ID must be entered. This selects the client whose data is processed by the user session. The current client is entered in the system field sy-mandt.
 
--   [Open SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") statements support automatic client handling by default, where the data of the current client is accessed by default. This is specified by passing an implicit condition for the current client to WHERE conditions, and ignoring clients specified in modifying statements in work areas. Automatic client handling in Open SQL can be switched to a different client using the addition USING CLIENT or switched off using the addition CLIENT SPECIFIED.
+-   [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_glosry.htm "Glossary Entry") statements support automatic client handling by default, where the data of the current client is accessed by default. This is specified by passing an implicit condition for the current client to WHERE conditions, and ignoring clients specified in modifying statements in work areas. Automatic client handling in Open SQL can be switched to a different client using the addition USING CLIENT or switched off using the addition CLIENT SPECIFIED.
 
--   [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") and [ADBC](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry") do not implement automatic client handling. The client in question does not need to be selected explicitly when Native SQL or AMDP is used to access client-specific database tables or views.
+-   [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_glosry.htm "Glossary Entry") and [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_glosry.htm "Glossary Entry") do not implement automatic client handling. The client in question does not need to be selected explicitly when Native SQL or AMDP is used to access client-specific database tables or views.
 
 Rule
 
@@ -34,7 +34,7 @@ Notes
 
 -   Cross-client database tables (tables without client ID) are usually system tables. This means that cross-client access to these tables is also reserved for system programs.
 
--   If Open SQL has to be used to access data in a different client, USING CLIENT should be used instead of the addition CLIENT SPECIFIED, since all necessary conditions are set implicitly and accessing client-specific [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") is more simple.
+-   If Open SQL has to be used to access data in a different client, USING CLIENT should be used instead of the addition CLIENT SPECIFIED, since all necessary conditions are set implicitly and accessing client-specific [CDS views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry") is more simple.
 
 Bad Example
 

@@ -3,29 +3,7 @@
 Included pages: 5
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abennum_processing_statements.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennum_processing_statements.htm)
-- [abapadd.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd.htm)
-- [abapsubtract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract.htm)
-- [abapmultiply.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmultiply.htm)
-- [abapdivide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.219Z
-
----
-
 ### abennum_processing_statements.htm
-
-> **📖 Official SAP Documentation**: [abennum_processing_statements.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennum_processing_statements.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -33,43 +11,36 @@ Included pages: 5
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompute_expressions.htm) → 
 
 Statements for Numeric Calculations
 
-Alongside [arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), four special statements are provided for performing the basic arithmetic operations addition, subtraction, multiplication, and division:
+Alongside [arithmetic expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), four special statements are provided for performing the basic arithmetic operations addition, subtraction, multiplication, and division:
 
--   [ADD](javascript:call_link\('abapadd.htm'\))
+-   [ADD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd.htm)
 
--   [SUBTRACT](javascript:call_link\('abapsubtract.htm'\))
+-   [SUBTRACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract.htm)
 
--   [MULTIPLY](javascript:call_link\('abapmultiply.htm'\))
+-   [MULTIPLY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmultiply.htm)
 
--   [DIVIDE](javascript:call_link\('abapdivide.htm'\))
+-   [DIVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide.htm)
 
 Programming Guideline
 
-[Use the operator format](javascript:call_link\('abencalc_expresssion_guidl.htm'\) "Guideline")
+[Use the operator format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalc_expresssion_guidl.htm "Guideline")
 
 Note
 
-As well as the statements shown here, a range of [obsolete calculation statements](javascript:call_link\('abencomputing_obsolete.htm'\)) exists.
+As well as the statements shown here, a range of [obsolete calculation statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomputing_obsolete.htm) exists.
 
 Continue
-[ADD](javascript:call_link\('abapadd.htm'\))
-[SUBTRACT](javascript:call_link\('abapsubtract.htm'\))
-[MULTIPLY](javascript:call_link\('abapmultiply.htm'\))
-[DIVIDE](javascript:call_link\('abapdivide.htm'\))
+[ADD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd.htm)
+[SUBTRACT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract.htm)
+[MULTIPLY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmultiply.htm)
+[DIVIDE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide.htm)
 
-
-
-**📖 Source**: [abennum_processing_statements.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennum_processing_statements.htm)
 
 ### abapadd.htm
-
-> **📖 Official SAP Documentation**: [abapadd.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -77,11 +48,11 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Statements for Numeric Calculations](javascript:call_link\('abennum_processing_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompute_expressions.htm) →  [Statements for Numeric Calculations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennum_processing_statements.htm) → 
 
 ADD
 
-[Quick Reference](javascript:call_link\('abapadd_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd_shortref.htm)
 
 Syntax
 
@@ -91,17 +62,17 @@ Effect
 
 This statement has the same effect as the statement
 
-[dobj2 = dobj2 + dobj1.](javascript:call_link\('abenequals_arith_expr.htm'\))
+[dobj2 = dobj2 + dobj1.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_expr.htm)
 
-The content of dobj1 is added to the content of dobj2 and the result is assigned to dobj2. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined like an [arithmetic expression](javascript:call_link\('abapcompute_arith.htm'\)).
+The content of dobj1 is added to the content of dobj2 and the result is assigned to dobj2. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalculation_type_glosry.htm "Glossary Entry") is determined like an [arithmetic expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_arith.htm).
 
 Programming Guideline
 
-[Use the operator format](javascript:call_link\('abencalc_expresssion_guidl.htm'\) "Guideline")
+[Use the operator format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalc_expresssion_guidl.htm "Guideline")
 
 Note
 
-Obsolete forms of the statement ADD are [ADD...THEN...UNTIL](javascript:call_link\('abapadd_sequences.htm'\)) and [ADD-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\)).
+Obsolete forms of the statement ADD are [ADD...THEN...UNTIL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd_sequences.htm) and [ADD-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd-corresponding.htm).
 
 Example
 
@@ -111,7 +82,7 @@ DATA: operand TYPE decfloat16 VALUE 1,
       result  TYPE c LENGTH 10.
 ADD operand TO result.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -137,14 +108,7 @@ Runtime error: ADD\_FIELDS\_ILLEGAL\_ACCESS
     Runtime error: BCD\_BADDATA
 
 
-
-**📖 Source**: [abapadd.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapadd.htm)
-
 ### abapsubtract.htm
-
-> **📖 Official SAP Documentation**: [abapsubtract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -152,11 +116,11 @@ Runtime error: ADD\_FIELDS\_ILLEGAL\_ACCESS
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Statements for Numeric Calculations](javascript:call_link\('abennum_processing_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompute_expressions.htm) →  [Statements for Numeric Calculations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennum_processing_statements.htm) → 
 
 SUBTRACT
 
-[Quick Reference](javascript:call_link\('abapsubtract_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract_shortref.htm)
 
 Syntax
 
@@ -166,17 +130,17 @@ Effect
 
 This statement has the same effect as the statement
 
-[dobj2 = dobj2 - dobj1.](javascript:call_link\('abenequals_arith_expr.htm'\))
+[dobj2 = dobj2 - dobj1.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_expr.htm)
 
-The content of dobj1 is subtracted from the content of dobj2 and the result is assigned to dobj2. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined like an [arithmetic expression](javascript:call_link\('abapcompute_arith.htm'\)).
+The content of dobj1 is subtracted from the content of dobj2 and the result is assigned to dobj2. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalculation_type_glosry.htm "Glossary Entry") is determined like an [arithmetic expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_arith.htm).
 
 Programming Guideline
 
-[Use the operator format](javascript:call_link\('abencalc_expresssion_guidl.htm'\) "Guideline")
+[Use the operator format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalc_expresssion_guidl.htm "Guideline")
 
 Note
 
-One obsolete form of the statement SUBTRACT is [SUBTRACT-CORRESPONDING](javascript:call_link\('abapsubtract-corresponding.htm'\)).
+One obsolete form of the statement SUBTRACT is [SUBTRACT-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract-corresponding.htm).
 
 Example
 
@@ -187,7 +151,7 @@ GET RUN TIME FIELD DATA(t1).
 GET RUN TIME FIELD DATA(t2).
 SUBTRACT t1 FROM t2.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -212,14 +176,7 @@ Non-Handleable Exceptions
     Runtime error: BCD\_BADDATA
 
 
-
-**📖 Source**: [abapsubtract.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsubtract.htm)
-
 ### abapmultiply.htm
-
-> **📖 Official SAP Documentation**: [abapmultiply.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmultiply.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -227,11 +184,11 @@ Non-Handleable Exceptions
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Statements for Numeric Calculations](javascript:call_link\('abennum_processing_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompute_expressions.htm) →  [Statements for Numeric Calculations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennum_processing_statements.htm) → 
 
 MULTIPLY
 
-[Quick Reference](javascript:call_link\('abapmultiply_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmultiply_shortref.htm)
 
 Syntax
 
@@ -241,17 +198,17 @@ Effect
 
 This statement has the same effect as the statement
 
-[dobj1 = dobj1 \* dobj2.](javascript:call_link\('abenequals_arith_expr.htm'\))
+[dobj1 = dobj1 \* dobj2.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_expr.htm)
 
-The content of dobj1 is multiplied by the content of dobj2 and the result is assigned to dobj1. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined like an [arithmetic expression](javascript:call_link\('abapcompute_arith.htm'\)).
+The content of dobj1 is multiplied by the content of dobj2 and the result is assigned to dobj1. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalculation_type_glosry.htm "Glossary Entry") is determined like an [arithmetic expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_arith.htm).
 
 Programming Guideline
 
-[Use the operator format](javascript:call_link\('abencalc_expresssion_guidl.htm'\) "Guideline")
+[Use the operator format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalc_expresssion_guidl.htm "Guideline")
 
 Note
 
-One obsolete form of the statement MULTIPLY is [MULTIPLY-CORRESPONDING](javascript:call_link\('abenequals_arith_expr.htm'\)).
+One obsolete form of the statement MULTIPLY is [MULTIPLY-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_expr.htm).
 
 Example
 
@@ -261,7 +218,7 @@ DATA percentage TYPE p DECIMALS 2.
 percentage = '0.85'.
 MULTIPLY percentage BY 100.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -286,17 +243,7 @@ Non-Handleable Exceptions
     Runtime error: BCD\_BADDATA
 
 
-
-**📖 Source**: [abapmultiply.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmultiply.htm)
-
 ### abapdivide.htm
-
-> **📖 Official SAP Documentation**: [abapdivide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapdivide.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide.htm)
-
 
   
 
@@ -304,11 +251,11 @@ Non-Handleable Exceptions
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Statements for Numeric Calculations](javascript:call_link\('abennum_processing_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompute_expressions.htm) →  [Statements for Numeric Calculations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennum_processing_statements.htm) → 
 
 DIVIDE
 
-[Quick Reference](javascript:call_link\('abapdivide_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide_shortref.htm)
 
 Syntax
 
@@ -318,22 +265,22 @@ Effect
 
 This statement has the same effect as the statement
 
-[dobj1 = dobj1 / dobj2.](javascript:call_link\('abenequals_arith_expr.htm'\))
+[dobj1 = dobj1 / dobj2.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenequals_arith_expr.htm)
 
-The content of dobj1 is divided by the content of dobj2 and the result is assigned to dobj1. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry") is determined like an [arithmetic expression](javascript:call_link\('abapcompute_arith.htm'\)).
+The content of dobj1 is divided by the content of dobj2 and the result is assigned to dobj1. The data objects dobj1 and dobj2 have to be numeric. Only data objects can be specified, no calls or other expressions. The [calculation type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalculation_type_glosry.htm "Glossary Entry") is determined like an [arithmetic expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcompute_arith.htm).
 
 Programming Guidelines
 
--   [Preventing Division by Zero](javascript:call_link\('abendivision_zero_guidl.htm'\) "Guideline")
+-   [Preventing Division by Zero](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendivision_zero_guidl.htm "Guideline")
     
--   [Use the operator format](javascript:call_link\('abencalc_expresssion_guidl.htm'\) "Guideline")
+-   [Use the operator format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencalc_expresssion_guidl.htm "Guideline")
     
 
 Notes
 
 -   Division by the value 0 is undefined and raises a handleable exception. The only situation where division by 0 does not raise an exception is if the dividend is also 0. Here, the result is set to 0.
     
--   One obsolete form of the statement DIVIDE is [DIVIDE-CORRESPONDING](javascript:call_link\('abapdivide-corresponding.htm'\)).
+-   One obsolete form of the statement DIVIDE is [DIVIDE-CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdivide-corresponding.htm).
     
 
 Example
@@ -344,7 +291,7 @@ DATA percentage TYPE p DECIMALS 2.
 percentage = '85'.
 DIVIDE percentage BY 100.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

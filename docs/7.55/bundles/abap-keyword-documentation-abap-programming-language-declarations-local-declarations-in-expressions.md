@@ -3,27 +3,7 @@
 Included pages: 4
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenlocal_expr_declarations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocal_expr_declarations.htm)
-- [abaplet.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm)
-- [abenlet_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlet_abexa.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.55
-**Generated**: 2025-09-01T11:25:45.738Z
-
----
-
 ### abenlocal_expr_declarations.htm
-
-> **📖 Official SAP Documentation**: [abenlocal_expr_declarations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocal_expr_declarations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,58 +11,51 @@ Included pages: 4
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclarations.htm) → 
 
 Local Declarations in Expressions
 
-In most [constructor expressions](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry"), variables and field symbols can be used as local helper fields. They are defined using the language element LET in a
+In most [constructor expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_glosry.htm "Glossary Entry"), variables and field symbols can be used as local helper fields. They are defined using the language element LET in a
 
--   [LET expression let\_exp](javascript:call_link\('abaplet.htm'\))
+-   [LET expression let\_exp](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm)
 
 LET expressions can be used in the following constructor expressions:
 
--   [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\))
+-   [NEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_new.htm)
 
--   [Single values](javascript:call_link\('abennew_constructor_params_single.htm'\))
+-   [Single values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennew_constructor_params_single.htm)
 
--   [Structures](javascript:call_link\('abennew_constructor_params_struct.htm'\))
+-   [Structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennew_constructor_params_struct.htm)
 
--   [Internal tables](javascript:call_link\('abennew_constructor_params_itab.htm'\))
+-   [Internal tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennew_constructor_params_itab.htm)
 
--   [Classes](javascript:call_link\('abennew_constructor_params_class.htm'\))
+-   [Classes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennew_constructor_params_class.htm)
 
--   [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\))
+-   [VALUE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_value.htm)
 
--   [Structures](javascript:call_link\('abenvalue_constructor_params_struc.htm'\))
+-   [Structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_constructor_params_struc.htm)
 
--   [Internal tables](javascript:call_link\('abenvalue_constructor_params_itab.htm'\))
+-   [Internal tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_constructor_params_itab.htm)
 
--   [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\))
+-   [CONV](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_conv.htm)
 
--   [CAST](javascript:call_link\('abenconstructor_expression_cast.htm'\))
+-   [CAST](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_cast.htm)
 
--   [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\))
+-   [EXACT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_exact.htm)
 
--   [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\))
+-   [REDUCE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_reduce.htm)
 
--   [COND](javascript:call_link\('abenconditional_expression_cond.htm'\))
+-   [COND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_cond.htm)
 
--   [SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\))
+-   [SWITCH](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_switch.htm)
 
-LET expressions are also possible in all iteration expressions with [FOR](javascript:call_link\('abenfor.htm'\)).
+LET expressions are also possible in all iteration expressions with [FOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor.htm).
 
 Continue
-[let\_exp, LET ... IN](javascript:call_link\('abaplet.htm'\))
+[let\_exp, LET ... IN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm)
 
-
-
-**📖 Source**: [abenlocal_expr_declarations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocal_expr_declarations.htm)
 
 ### abaplet.htm
-
-> **📖 Official SAP Documentation**: [abaplet.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -90,7 +63,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Local Declarations in Expressions](javascript:call_link\('abenlocal_expr_declarations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclarations.htm) →  [Local Declarations in Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocal_expr_declarations.htm) → 
 
 let\_exp, LET ... IN
 
@@ -112,7 +85,7 @@ A helper field specified in a LET expression is valid in the context in which th
 
 When reusing helper fields in different expressions, the following applies:
 
--   If a helper field is defined for the first time in the current procedure or program, it is declared [inline](javascript:call_link\('abeninline_declarations.htm'\)).
+-   If a helper field is defined for the first time in the current procedure or program, it is declared [inline](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninline_declarations.htm).
 
 -   If a helper field in the current procedure or program is defined again in a LET expression of a different expression and the derived data type matches, the helper field is bound to this expression and can be used there.
 
@@ -120,9 +93,9 @@ When reusing helper fields in different expressions, the following applies:
 
 Hints
 
--   LET expressions can currently only be used in [constructor expressions](javascript:call_link\('abenconstructor_expressions.htm'\)). Subexpressions in which LET expressions can be used are [iteration expressions](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") using [FOR](javascript:call_link\('abenfor.htm'\)) and results specified after THEN and ELSE in the [conditional expressions](javascript:call_link\('abenconditional_expression_glosry.htm'\) "Glossary Entry") [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)) and [SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\)).
+-   LET expressions can currently only be used in [constructor expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expressions.htm). Subexpressions in which LET expressions can be used are [iteration expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeniteration_expression_glosry.htm "Glossary Entry") using [FOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor.htm) and results specified after THEN and ELSE in the [conditional expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_glosry.htm "Glossary Entry") [COND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_cond.htm) and [SWITCH](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_switch.htm).
 
--   In the assignment of a value operator VALUE to [structures](javascript:call_link\('abenvalue_constructor_params_struc.htm'\)) or [internal tables](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)), values on the left side can be saved to helper fields using a LET expression before the left side is overwritten.
+-   In the assignment of a value operator VALUE to [structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_constructor_params_struc.htm) or [internal tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_constructor_params_itab.htm), values on the left side can be saved to helper fields using a LET expression before the left side is overwritten.
 
 -   A helper field defined in a LET expression can be addressed dynamically in the entire current context. This is not recommended, however, since expressions should be free of side effects.
 
@@ -130,7 +103,7 @@ Hints
 
 Executable Example
 
-[LET expression](javascript:call_link\('abenlet_abexa.htm'\)).
+[LET expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlet_abexa.htm).
 
 Alternative 1
 
@@ -140,13 +113,13 @@ Effect
 
 Definition of a local helper variable var as a helper field in a LET expression. The value of the right side, rhs, is assigned to the helper variable as an initial value.
 
-For the right side, rhs, the same can be specified as in a regular assignment using the [assignment operator \=](javascript:call_link\('abenequals_operator.htm'\)). The data type of the helper variable is determined from the right side, rhs, as when an inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) is specified on the left side of an assignment operator using the [assignment operator \=](javascript:call_link\('abenequals_operator.htm'\)). It must be possible to determine the data type completely from the right side to avoid syntax errors.
+For the right side, rhs, the same can be specified as in a regular assignment using the [assignment operator \=](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenequals_operator.htm). The data type of the helper variable is determined from the right side, rhs, as when an inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_inline.htm) is specified on the left side of an assignment operator using the [assignment operator \=](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenequals_operator.htm). It must be possible to determine the data type completely from the right side to avoid syntax errors.
 
 Hints
 
 -   The helper variables declared in a LET expression generally keep the value defined by rhs while the expression is calculated. It is possible to change the value of a helper variable in the expression, for example by binding to a CHANGING parameter of a method, but this would be unusual.
 
--   The helper variables declared in a LET expression are a good example of where long [readable names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline") are not necessary and can even harm readability. The helper variables can only be used in their own expression, which means that short identifiers, even single-character names, are enough.
+-   The helper variables declared in a LET expression are a good example of where long [readable names](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentelling_names_guidl.htm "Guideline") are not necessary and can even harm readability. The helper variables can only be used in their own expression, which means that short identifiers, even single-character names, are enough.
 
 Example
 
@@ -175,7 +148,7 @@ Alternative 2
 
 Effect
 
-Definition of a local field symbol <fs> as a helper field in a LET expression. The result of the [writable expression](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") wrexp is assigned to the field symbol. The same applies here as to assignments of writable expressions using [ASSIGN](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)), which means that only the expressions listed there can be specified. The typing of the field symbol depends on the type of wrexp and is performed in the same way as in inline declarations of a field symbol using the statement [FIELD-SYMBOL](javascript:call_link\('abenfield-symbol_inline.htm'\)).
+Definition of a local field symbol <fs> as a helper field in a LET expression. The result of the [writable expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwritable_expression_glosry.htm "Glossary Entry") wrexp is assigned to the field symbol. The same applies here as to assignments of writable expressions using [ASSIGN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area_writable_exp.htm), which means that only the expressions listed there can be specified. The typing of the field symbol depends on the type of wrexp and is performed in the same way as in inline declarations of a field symbol using the statement [FIELD-SYMBOL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield-symbol_inline.htm).
 
 Example
 
@@ -202,17 +175,10 @@ ENDDO.
 cl\_demo\_output=>display( ).
 
 Continue
-![Example](exa.gif "Example") [LET Expression](javascript:call_link\('abenlet_abexa.htm'\))
+![Example](exa.gif "Example") [LET Expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlet_abexa.htm)
 
-
-
-**📖 Source**: [abaplet.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm)
 
 ### abenlet_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenlet_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlet_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -220,7 +186,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Local Declarations in Expressions](javascript:call_link\('abenlocal_expr_declarations.htm'\)) →  [let\_exp, LET ... IN](javascript:call_link\('abaplet.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclarations.htm) →  [Local Declarations in Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocal_expr_declarations.htm) →  [let\_exp, LET ... IN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm) → 
 
 LET Expression
 
@@ -249,20 +215,10 @@ START-OF-SELECTION.
 
 Description
 
-A constructor expression with the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)) constructs lines in an internal table to which the value of the local helper variable it is passed.
+A constructor expression with the value operator [VALUE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_value.htm) constructs lines in an internal table to which the value of the local helper variable it is passed.
 
-
-
-**📖 Source**: [abenlet_abexa.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlet_abexa.htm)
 
 ### abaplet.htm
-
-> **📖 Official SAP Documentation**: [abaplet.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abaplet.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaplet.htm)
-
 
   
 
@@ -270,7 +226,7 @@ A constructor expression with the value operator [VALUE](javascript:call_link\('
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Local Declarations in Expressions](javascript:call_link\('abenlocal_expr_declarations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendeclarations.htm) →  [Local Declarations in Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlocal_expr_declarations.htm) → 
 
 let\_exp, LET ... IN
 
@@ -292,7 +248,7 @@ A helper field specified in a LET expression is valid in the context in which th
 
 When reusing helper fields in different expressions, the following applies:
 
--   If a helper field is defined for the first time in the current procedure or program, it is declared [inline](javascript:call_link\('abeninline_declarations.htm'\)).
+-   If a helper field is defined for the first time in the current procedure or program, it is declared [inline](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninline_declarations.htm).
 
 -   If a helper field in the current procedure or program is defined again in a LET expression of a different expression and the derived data type matches, the helper field is bound to this expression and can be used there.
 
@@ -300,9 +256,9 @@ When reusing helper fields in different expressions, the following applies:
 
 Hints
 
--   LET expressions can currently only be used in [constructor expressions](javascript:call_link\('abenconstructor_expressions.htm'\)). Subexpressions in which LET expressions can be used are [iteration expressions](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") using [FOR](javascript:call_link\('abenfor.htm'\)) and results specified after THEN and ELSE in the [conditional expressions](javascript:call_link\('abenconditional_expression_glosry.htm'\) "Glossary Entry") [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)) and [SWITCH](javascript:call_link\('abenconditional_expression_switch.htm'\)).
+-   LET expressions can currently only be used in [constructor expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expressions.htm). Subexpressions in which LET expressions can be used are [iteration expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeniteration_expression_glosry.htm "Glossary Entry") using [FOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor.htm) and results specified after THEN and ELSE in the [conditional expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_glosry.htm "Glossary Entry") [COND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_cond.htm) and [SWITCH](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconditional_expression_switch.htm).
 
--   In the assignment of a value operator VALUE to [structures](javascript:call_link\('abenvalue_constructor_params_struc.htm'\)) or [internal tables](javascript:call_link\('abenvalue_constructor_params_itab.htm'\)), values on the left side can be saved to helper fields using a LET expression before the left side is overwritten.
+-   In the assignment of a value operator VALUE to [structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_constructor_params_struc.htm) or [internal tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_constructor_params_itab.htm), values on the left side can be saved to helper fields using a LET expression before the left side is overwritten.
 
 -   A helper field defined in a LET expression can be addressed dynamically in the entire current context. This is not recommended, however, since expressions should be free of side effects.
 
@@ -310,7 +266,7 @@ Hints
 
 Executable Example
 
-[LET expression](javascript:call_link\('abenlet_abexa.htm'\)).
+[LET expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlet_abexa.htm).
 
 Alternative 1
 
@@ -320,13 +276,13 @@ Effect
 
 Definition of a local helper variable var as a helper field in a LET expression. The value of the right side, rhs, is assigned to the helper variable as an initial value.
 
-For the right side, rhs, the same can be specified as in a regular assignment using the [assignment operator \=](javascript:call_link\('abenequals_operator.htm'\)). The data type of the helper variable is determined from the right side, rhs, as when an inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) is specified on the left side of an assignment operator using the [assignment operator \=](javascript:call_link\('abenequals_operator.htm'\)). It must be possible to determine the data type completely from the right side to avoid syntax errors.
+For the right side, rhs, the same can be specified as in a regular assignment using the [assignment operator \=](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenequals_operator.htm). The data type of the helper variable is determined from the right side, rhs, as when an inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_inline.htm) is specified on the left side of an assignment operator using the [assignment operator \=](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenequals_operator.htm). It must be possible to determine the data type completely from the right side to avoid syntax errors.
 
 Hints
 
 -   The helper variables declared in a LET expression generally keep the value defined by rhs while the expression is calculated. It is possible to change the value of a helper variable in the expression, for example by binding to a CHANGING parameter of a method, but this would be unusual.
 
--   The helper variables declared in a LET expression are a good example of where long [readable names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline") are not necessary and can even harm readability. The helper variables can only be used in their own expression, which means that short identifiers, even single-character names, are enough.
+-   The helper variables declared in a LET expression are a good example of where long [readable names](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentelling_names_guidl.htm "Guideline") are not necessary and can even harm readability. The helper variables can only be used in their own expression, which means that short identifiers, even single-character names, are enough.
 
 Example
 
@@ -355,7 +311,7 @@ Alternative 2
 
 Effect
 
-Definition of a local field symbol <fs> as a helper field in a LET expression. The result of the [writable expression](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") wrexp is assigned to the field symbol. The same applies here as to assignments of writable expressions using [ASSIGN](javascript:call_link\('abapassign_mem_area_writable_exp.htm'\)), which means that only the expressions listed there can be specified. The typing of the field symbol depends on the type of wrexp and is performed in the same way as in inline declarations of a field symbol using the statement [FIELD-SYMBOL](javascript:call_link\('abenfield-symbol_inline.htm'\)).
+Definition of a local field symbol <fs> as a helper field in a LET expression. The result of the [writable expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwritable_expression_glosry.htm "Glossary Entry") wrexp is assigned to the field symbol. The same applies here as to assignments of writable expressions using [ASSIGN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area_writable_exp.htm), which means that only the expressions listed there can be specified. The typing of the field symbol depends on the type of wrexp and is performed in the same way as in inline declarations of a field symbol using the statement [FIELD-SYMBOL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield-symbol_inline.htm).
 
 Example
 
@@ -382,4 +338,4 @@ ENDDO.
 cl\_demo\_output=>display( ).
 
 Continue
-![Example](exa.gif "Example") [LET Expression](javascript:call_link\('abenlet_abexa.htm'\))
+![Example](exa.gif "Example") [LET Expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlet_abexa.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Assigning Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) →  [ASSIGN](javascript:call_link\('abapassign.htm'\)) →  [ASSIGN, mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) →  [ASSIGN, dynamic\_dobj](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreference_assignments.htm) →  [Assigning Field Symbols](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenset_field_symbols.htm) →  [ASSIGN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign.htm) →  [ASSIGN, mem\_area](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_mem_area.htm) →  [ASSIGN, dynamic\_dobj](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_mem_area_dynamic_dobj.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Field Symbols, ASSIGN INCREMENT, ABENASSIGN_INCREMENT_ABEXA, 757%0D%0A%0D%0AError:%0D
 %0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -62,7 +62,7 @@ START-OF-SELECTION.
 
 Description   
 
-This example shows why the addition INCREMENT in the statement ASSIGN should be used only to access sequences of similar memory areas and that the typing of the field symbol must match the specification in [casting\_spec](javascript:call_link\('abapassign_casting.htm'\)). Inappropriate access as shown in the example can produce the following behavior:
+This example shows why the addition INCREMENT in the statement ASSIGN should be used only to access sequences of similar memory areas and that the typing of the field symbol must match the specification in [casting\_spec](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_casting.htm). Inappropriate access as shown in the example can produce the following behavior:
 
 -   The first ASSIGN statement returns the value 0 in sy-subrc. <word> is assigned the contiguous memory area of struc-int1 and struc-int2 and this is cast to the type c.
 -   The second ASSIGN statement terminates with a runtime error because the data type of struc-word does not match the typing of <int>.

@@ -4,21 +4,21 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20Abstract%20Behavior%20Definitions%2C%20ABENBDL_ABSTRACT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 RAP - Abstract Behavior Definitions
 
-[RAP abstract behavior definitions](javascript:call_link\('abencds_abstract_bdef_glosry.htm'\) "Glossary Entry") are created using the behavior definition language [RAP BDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") in [BDL source code](javascript:call_link\('abenbdl_source_code_glosry.htm'\) "Glossary Entry").
+[RAP abstract behavior definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_abstract_bdef_glosry.htm "Glossary Entry") are created using the behavior definition language [RAP BDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm "Glossary Entry") in [BDL source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_source_code_glosry.htm "Glossary Entry").
 
-A [RAP abstract behavior definition](javascript:call_link\('abencds_abstract_bdef_glosry.htm'\) "Glossary Entry") mainly serves as typing mechanism for deep [action](javascript:call_link\('abenrap_action_glosry.htm'\) "Glossary Entry") or [function](javascript:call_link\('abenrap_function_glosry.htm'\) "Glossary Entry") parameters. Only a limited range of syntax elements is available, such as associations and type mapping. It is not possible to define any transactional behavior in an abstract behavior definition.
+A [RAP abstract behavior definition](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_abstract_bdef_glosry.htm "Glossary Entry") mainly serves as typing mechanism for deep [action](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_action_glosry.htm "Glossary Entry") or [function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_function_glosry.htm "Glossary Entry") parameters. Only a limited range of syntax elements is available, such as associations and type mapping. It is not possible to define any transactional behavior in an abstract behavior definition.
 
 Related Information
 
--   How to use an abstract BDEF as [input parameter](javascript:call_link\('abeninput_parameter_glosry.htm'\) "Glossary Entry") for a [RAP action](javascript:call_link\('abenbdl_action.htm'\)) or a [RAP function](javascript:call_link\('abenbdl_function.htm'\)) in a managed or unmanaged RAP BO is described in topic [RAP BDL - InputParameter](javascript:call_link\('abenbdl_action_input_param.htm'\)).
--   How to use an abstract BDEF as [output parameter](javascript:call_link\('abenoutput_parameter_glosry.htm'\) "Glossary Entry") for a RAP action or a RAP function in a managed or unmanaged RAP BO is described in topic [RAP BDL - OutputParameter](javascript:call_link\('abenbdl_action_output_para.htm'\)).
--   Abstract behavior definitions can be classified with the [C0 contract](javascript:call_link\('abenc0_contract_glosry.htm'\) "Glossary Entry") for extensibility. The rules are described in the topic [C0 Contract Rules for RAP Behavior Definitions](javascript:call_link\('abenc0_contract_rules_bdef.htm'\)).
+-   How to use an abstract BDEF as [input parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninput_parameter_glosry.htm "Glossary Entry") for a [RAP action](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action.htm) or a [RAP function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_function.htm) in a managed or unmanaged RAP BO is described in topic [RAP BDL - InputParameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action_input_param.htm).
+-   How to use an abstract BDEF as [output parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoutput_parameter_glosry.htm "Glossary Entry") for a RAP action or a RAP function in a managed or unmanaged RAP BO is described in topic [RAP BDL - OutputParameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_action_output_para.htm).
+-   Abstract behavior definitions can be classified with the [C0 contract](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_contract_glosry.htm "Glossary Entry") for extensibility. The rules are described in the topic [C0 Contract Rules for RAP Behavior Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc0_contract_rules_bdef.htm).
 
 Example
 
@@ -100,5 +100,5 @@ The abstract BDEF is used as flat parameter, as structure, or as table, dependin
     ![Figure](abdoc_abstract_table.jpg)
 
 Continue
-[RAP - Behavior Definition Header, Abstract BDEF](javascript:call_link\('abenbdl_bdef_abstract_header.htm'\))
-[RAP - Entity Behavior Definition, Abstract BDEF](javascript:call_link\('abenbdl_define_beh_abstract.htm'\))
+[RAP - Behavior Definition Header, Abstract BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_bdef_abstract_header.htm)
+[RAP - Entity Behavior Definition, Abstract BDEF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbdl_define_beh_abstract.htm)

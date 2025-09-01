@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentypes_and_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Absolute%20Type%20Names%2C%20ABENTYPE_NAMES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -52,51 +52,51 @@ Addition:
 
 Effect
 
-Absolute type names are [character strings](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry") that uniquely specify an user-defined [data type](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") in its [context](javascript:call_link\('abenobj_context_glosry.htm'\) "Glossary Entry"). Absolute type names can be composed from scratch or obtained from [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry") and used in dynamic type specifications.
+Absolute type names are [character strings](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharacter_string_glosry.htm "Glossary Entry") that uniquely specify an user-defined [data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_type_glosry.htm "Glossary Entry") in its [context](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenobj_context_glosry.htm "Glossary Entry"). Absolute type names can be composed from scratch or obtained from [RTTI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry") and used in dynamic type specifications.
 
 An absolute is composed of the following components that must form a path specification leading to a data type named type\_name, a class named class\_name or an interface named intf\_name:
 
 -   \\TYPE=type\_name*\[*\\LINE*\]**\[*\-comp*\]*
     
-    Specifies a [data type](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") type\_name optionally followed by
+    Specifies a [data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_type_glosry.htm "Glossary Entry") type\_name optionally followed by
     
-    -   \\LINE to specify the [line type](javascript:call_link\('abenrow_type_glosry.htm'\) "Glossary Entry") of an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") type
-    -   \-comp to specify the data type of a [component](javascript:call_link\('abenstructure_component_glosry.htm'\) "Glossary Entry") of a [structured type](javascript:call_link\('abenstructured_type_glosry.htm'\) "Glossary Entry")
+    -   \\LINE to specify the [line type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrow_type_glosry.htm "Glossary Entry") of an [internal table](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_table_glosry.htm "Glossary Entry") type
+    -   \-comp to specify the data type of a [component](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructure_component_glosry.htm "Glossary Entry") of a [structured type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstructured_type_glosry.htm "Glossary Entry")
 -   \\CLASS=class\_name
     
-    Specifies a [class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry") class\_name.
+    Specifies a [class](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_glosry.htm "Glossary Entry") class\_name.
     
 -   \\INTERFACE=intf\_name
     
-    Specifies an [interface](javascript:call_link\('abenoo_intf_glosry.htm'\) "Glossary Entry") intf\_name.
+    Specifies an [interface](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoo_intf_glosry.htm "Glossary Entry") intf\_name.
     
 -   \\TYPE-POOL=tp\_name
     
-    Specifies a [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") tp\_name.
+    Specifies a [type pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_pool_glosry.htm "Glossary Entry") tp\_name.
     
 -   \\PROGRAM=prog\_name
     
-    Specifies an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry") prog\_name.
+    Specifies an [ABAP program](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_program_glosry.htm "Glossary Entry") prog\_name.
     
 -   \\CLASS-POOL=class\_name
     
-    Specifies the [class pool](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") of a class class\_name.
+    Specifies the [class pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_pool_glosry.htm "Glossary Entry") of a class class\_name.
     
 -   \\FUNCTION-POOL=fp\_name
     
-    Specifies a [function pool](javascript:call_link\('abenfunction_pool_glosry.htm'\) "Glossary Entry") fp\_name.
+    Specifies a [function pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction_pool_glosry.htm "Glossary Entry") fp\_name.
     
 -   \\METHOD=meth\_name
     
-    Specifies a [method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") meth\_name.
+    Specifies a [method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmethod_glosry.htm "Glossary Entry") meth\_name.
     
 -   \\FUNCTION=func\_name
     
-    Specifies a [function module](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") func\_name.
+    Specifies a [function module](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction_module_glosry.htm "Glossary Entry") func\_name.
     
 -   \\FORM=subr\_name
     
-    Specifies a [subroutine](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry") subr\_name.
+    Specifies a [subroutine](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensubroutine_glosry.htm "Glossary Entry") subr\_name.
     
 
 The last component of a path must always be one of the following:
@@ -111,16 +111,16 @@ Absolute type names can be used in all statements in which dynamic specification
 
 Hints
 
--   Absolute type names provide an alternative to the regular type names that can be used statically in ABAP statements for user-defined (i.e. not built-in) types. Those type names are [relative type names](javascript:call_link\('abenrelative_type_name_glosry.htm'\) "Glossary Entry") that are only valid in relation to their context. For example, a type name my\_type defined with TYPES in a context can be only be used within this context to address the respective type. The same applies to classes and interfaces. Refer also to [Validity and Visibility](javascript:call_link\('abenlifetime_and_visibility.htm'\)).
+-   Absolute type names provide an alternative to the regular type names that can be used statically in ABAP statements for user-defined (i.e. not built-in) types. Those type names are [relative type names](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrelative_type_name_glosry.htm "Glossary Entry") that are only valid in relation to their context. For example, a type name my\_type defined with TYPES in a context can be only be used within this context to address the respective type. The same applies to classes and interfaces. Refer also to [Validity and Visibility](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlifetime_and_visibility.htm).
 -   Usage types for absolute type names are:
     -   Access to global types that are hidden by local types
-    -   Access to data types, classes, and interfaces of other programs. When a different program is accessed, it is loaded into the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") if required.
+    -   Access to data types, classes, and interfaces of other programs. When a different program is accessed, it is loaded into the current [internal session](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_session_glosry.htm "Glossary Entry") if required.
 -   A data type is uniquely identified by its absolute type name. However, there are different ways of forming a unique path for a type.
--   A data type that only exists as a [bound data type](javascript:call_link\('abenbound_data_type_glosry.htm'\) "Glossary Entry") of a data object and, therefore, does not have a relative type name, has an internal [technical type name](javascript:call_link\('abentechnical_type_name_glosry.htm'\) "Glossary Entry"). Such a technical type name can also be part of an absolute type and can be retrieved by [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry").
+-   A data type that only exists as a [bound data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbound_data_type_glosry.htm "Glossary Entry") of a data object and, therefore, does not have a relative type name, has an internal [technical type name](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentechnical_type_name_glosry.htm "Glossary Entry"). Such a technical type name can also be part of an absolute type and can be retrieved by [RTTI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry").
 
 Example
 
-Composing an absolute type name for a data type defined in a method of a local class. The type name is used for creating an anonymous data object. The absolute type name of the anonymous data object retrieved by [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry") is \\PROGRAM=...\\CLASS=CLS\\METHOD=METH\\TYPE=C100 and matches the composed one.
+Composing an absolute type name for a data type defined in a method of a local class. The type name is used for creating an anonymous data object. The absolute type name of the anonymous data object retrieved by [RTTI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry") is \\PROGRAM=...\\CLASS=CLS\\METHOD=METH\\TYPE=C100 and matches the composed one.
 
 CLASS cls DEFINITION.
   PUBLIC SECTION.
@@ -215,7 +215,7 @@ The path consists of one component only.
 
 Example
 
-The absolute type names of global types are retrieved with [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry"). The output is
+The absolute type names of global types are retrieved with [RTTI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry"). The output is
 
 \\TYPE=SCARR
 \\TYPE=DEMO\_CDS\_NULL
@@ -246,7 +246,7 @@ Absolute type name for a data type type\_name defined in a global class or a glo
 
 Example
 
-The absolute type names of types defined in an interface and a class are retrieved with [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry"). The output is
+The absolute type names of types defined in an interface and a class are retrieved with [RTTI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry"). The output is
 
 \\INTERFACE=IF\_DEMO\_INTERFACE\_POOL\\TYPE=CHAR20
 \\CLASS=CL\_DEMO\_CLASS\_POOL\\TYPE=CHAR20
@@ -271,40 +271,40 @@ Alternative 3  
 
 Effect
 
-Absolute type name for a class class\_name, an interface intf\_name or data type type\_name defined in the [global declaration part](javascript:call_link\('abenglobal_declaration_sect_glosry.htm'\) "Glossary Entry") of a program. \\prog must be one of the following:
+Absolute type name for a class class\_name, an interface intf\_name or data type type\_name defined in the [global declaration part](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenglobal_declaration_sect_glosry.htm "Glossary Entry") of a program. \\prog must be one of the following:
 
 -   \\PROGRAM=prog\_name
     
-    For prog\_name, any technical program name (from table TRDIR) that denotes a [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry") can be used. The names of [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") cannot be used.
+    For prog\_name, any technical program name (from table TRDIR) that denotes a [compilation unit](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompilation_unit_glosry.htm "Glossary Entry") can be used. The names of [include programs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninclude_program_glosry.htm "Glossary Entry") cannot be used.
     
 -   \\CLASS-POOL=class\_name
     
-    For class\_name, any global class can be used. The specified program is the [class pool](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") of that class. The local classes, interfaces and data types as well as the global class of the class pool can be specified.
+    For class\_name, any global class can be used. The specified program is the [class pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_pool_glosry.htm "Glossary Entry") of that class. The local classes, interfaces and data types as well as the global class of the class pool can be specified.
     
 -   \\FUNCTION-POOL=fp\_name
     
-    For fp\_name, any [function pool](javascript:call_link\('abenfunction_pool_glosry.htm'\) "Glossary Entry") (without the prefix SAPL) can be used.
+    For fp\_name, any [function pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction_pool_glosry.htm "Glossary Entry") (without the prefix SAPL) can be used.
     
 -   \\TYPE-POOL=tp\_name,
     
-    For tp\_name, any [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") can be used.
+    For tp\_name, any [type pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_pool_glosry.htm "Glossary Entry") can be used.
     
 
 Hints
 
--   For classes, interfaces and data types in a [class pool](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") or [function pool](javascript:call_link\('abenfunction_pool_glosry.htm'\) "Glossary Entry"), besides class\_name or \\fp\_name also the technical name prog\_name of the ABAP program can be specified behind \\PROGRAM. Since the latter is usually not known, it is recommended that \\CLASS-POOL or \\FUNCTION-POOL are used.
--   Since an [interface pool](javascript:call_link\('abeninterface_pool_glosry.htm'\) "Glossary Entry") cannot contain definitions outside its global interface, it cannot be specified by \\INTERFCACE-POOL. In order to address the global interface and its components, \\INTERFACE can be used. The technical name of the interface pool can be used behind \\PROGRAM, but that is not recommended.
--   It is not allowed to access [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") with absolute type names.
--   If an [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry") is used in a program to specify a type of a different program, this program is added to a new [additional program group](javascript:call_link\('abenadditional_prog_group_glosry.htm'\) "Glossary Entry") or to the current [program group](javascript:call_link\('abenprogram_group_glosry.htm'\) "Glossary Entry") depending on the program type, if it has not yet been loaded. The program constructor [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) is not executed.
+-   For classes, interfaces and data types in a [class pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_pool_glosry.htm "Glossary Entry") or [function pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunction_pool_glosry.htm "Glossary Entry"), besides class\_name or \\fp\_name also the technical name prog\_name of the ABAP program can be specified behind \\PROGRAM. Since the latter is usually not known, it is recommended that \\CLASS-POOL or \\FUNCTION-POOL are used.
+-   Since an [interface pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninterface_pool_glosry.htm "Glossary Entry") cannot contain definitions outside its global interface, it cannot be specified by \\INTERFCACE-POOL. In order to address the global interface and its components, \\INTERFACE can be used. The technical name of the interface pool can be used behind \\PROGRAM, but that is not recommended.
+-   It is not allowed to access [test classes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentest_class_glosry.htm "Glossary Entry") with absolute type names.
+-   If an [absolute type name](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabsolute_typename_glosry.htm "Glossary Entry") is used in a program to specify a type of a different program, this program is added to a new [additional program group](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadditional_prog_group_glosry.htm "Glossary Entry") or to the current [program group](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprogram_group_glosry.htm "Glossary Entry") depending on the program type, if it has not yet been loaded. The program constructor [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapload-of-program.htm) is not executed.
 
 Example
 
-Both absolute type names denote the type char10 defined in the [CCDEF include](javascript:call_link\('abenccdef_glosry.htm'\) "Glossary Entry") of the global class CL\_DEMO\_CLASS\_POOL.
+Both absolute type names denote the type char10 defined in the [CCDEF include](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenccdef_glosry.htm "Glossary Entry") of the global class CL\_DEMO\_CLASS\_POOL.
 
 -   The first one uses \\CLASS\_POOL with the name of the global class.
 -   The second one uses \\PROGRAM with the technical name of the class pool.
 
-The [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry") method returns a path with \\CLASS\_POOL in both cases.
+The [RTTI](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry") method returns a path with \\CLASS\_POOL in both cases.
 
 FINAL(out) = cl\_demo\_output=>new( ).
 DATA dref TYPE REF TO data.
@@ -335,12 +335,12 @@ Example
 
 Absolute type names are used
 
--   to create an anonymous data object with a type defined in a local class demo of the [CCIMP include](javascript:call_link\('abenccimp_glosry.htm'\) "Glossary Entry") of the global class,
+-   to create an anonymous data object with a type defined in a local class demo of the [CCIMP include](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenccimp_glosry.htm "Glossary Entry") of the global class,
 -   to create an object of that local class.
 
 The method meth of that class is called dynamically, where the anonymous data object serves as an actual parameter with the correct type. Note the different case sensitivity when creating data objects and instances of classes.
 
-The absolute type name for the [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") TEST\_DEMO of the class pool cannot be used for creating an object. Instead, an exception is raised.
+The absolute type name for the [test class](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentest_class_glosry.htm "Glossary Entry") TEST\_DEMO of the class pool cannot be used for creating an object. Instead, an exception is raised.
 
 FINAL(out) = cl\_demo\_output=>new( ).
 DATA dref TYPE REF TO data.
@@ -372,7 +372,7 @@ Alternative 5  
 
 Effect
 
-Absolute type name for a data type type\_name defined in a [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry").
+Absolute type name for a data type type\_name defined in a [procedure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprocedure_glosry.htm "Glossary Entry").
 
 -   \\clif\\meth specifies a method in a global class or interface. The same applies to \\clif as for the respective alternative. \\meth must be:
     -   \\METHOD=meth\_name
@@ -394,7 +394,7 @@ The specification of a function pool for a type in function module can be omitte
 
 Example
 
-Absolute type names for types defined in methods. The first method is a component of the global class CL\_DEMO\_CLASS\_POOL. The second method is a component of a local class defined in the [CCIMP include](javascript:call_link\('abenccimp_glosry.htm'\) "Glossary Entry") of its class pool.
+Absolute type names for types defined in methods. The first method is a component of the global class CL\_DEMO\_CLASS\_POOL. The second method is a component of a local class defined in the [CCIMP include](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenccimp_glosry.htm "Glossary Entry") of its class pool.
 
 FINAL(out) = cl\_demo\_output=>new( ).
 DATA dref TYPE REF TO data.
@@ -417,18 +417,18 @@ Addition  
 
 Effect
 
-If a path is terminated with \\TYPE=type\_name, the [line type](javascript:call_link\('abenrow_type_glosry.htm'\) "Glossary Entry") of an internal table type or the data type of a component of a structured type can be specified as follows:
+If a path is terminated with \\TYPE=type\_name, the [line type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrow_type_glosry.htm "Glossary Entry") of an internal table type or the data type of a component of a structured type can be specified as follows:
 
 -   \\LINE
     
-    If the data type denoted by type\_name is an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") type, its [line type](javascript:call_link\('abenrow_type_glosry.htm'\) "Glossary Entry") can be specified by \\LINE.
+    If the data type denoted by type\_name is an [internal table](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninternal_table_glosry.htm "Glossary Entry") type, its [line type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrow_type_glosry.htm "Glossary Entry") can be specified by \\LINE.
     
 -   \-comp
     
     If the data type denoted by type\_name or the line type denoted by \\LINE is structured, the type of one of its components can be specified by \-comp where comp is the component name.
     
 
-\\LINE and \-comp cannot be used behind [technical type names](javascript:call_link\('abentechnical_type_name_glosry.htm'\) "Glossary Entry") of data types that only exist as a [bound data type](javascript:call_link\('abenbound_data_type_glosry.htm'\) "Glossary Entry") of a data object.
+\\LINE and \-comp cannot be used behind [technical type names](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentechnical_type_name_glosry.htm "Glossary Entry") of data types that only exist as a [bound data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbound_data_type_glosry.htm "Glossary Entry") of a data object.
 
 Hint
 
@@ -436,7 +436,7 @@ The specification \\LINE is more like a component selector than a component of t
 
 Example
 
-Using the type names of structured and tabular data objects to compose absolute type names for a structure component and a table line. While the absolute names retrieved from data objects struc and itab1 contain the complete types struc and itab1 of the program, the absolute name retrieved from itab2 contains the [technical type name](javascript:call_link\('abentechnical_type_name_glosry.htm'\) "Glossary Entry") of that internal table. Since the data type itab2 is generic (no key definition), a complete type with the standard key is constructed with the DATA statement as a [bound data type](javascript:call_link\('abenbound_data_type_glosry.htm'\) "Glossary Entry"). Its technical type name cannot be used with \\LINE and an exception is raised.
+Using the type names of structured and tabular data objects to compose absolute type names for a structure component and a table line. While the absolute names retrieved from data objects struc and itab1 contain the complete types struc and itab1 of the program, the absolute name retrieved from itab2 contains the [technical type name](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentechnical_type_name_glosry.htm "Glossary Entry") of that internal table. Since the data type itab2 is generic (no key definition), a complete type with the standard key is constructed with the DATA statement as a [bound data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbound_data_type_glosry.htm "Glossary Entry"). Its technical type name cannot be used with \\LINE and an exception is raised.
 
 FINAL(out) = cl\_demo\_output=>new( ).
 TYPES struc TYPE scarr.
@@ -477,7 +477,7 @@ out->display( ).
 
 Executable Example
 
-[Absolute Type Names](javascript:call_link\('abenabs_type_names_abexa.htm'\))
+[Absolute Type Names](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabs_type_names_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Absolute Type Names, Executable Example](javascript:call_link\('abenabs_type_names_abexa.htm'\))
+![Example](exa.gif "Example") [Absolute Type Names, Executable Example](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabs_type_names_abexa.htm)

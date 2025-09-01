@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Addressing ABAP Data](javascript:call_link\('abenst_addressing.htm'\)) →  [ST - Addressing Data Nodes](javascript:call_link\('abenst_addressing_nodes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_st.htm) →  [ST - Addressing ABAP Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_addressing.htm) →  [ST - Addressing Data Nodes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_addressing_nodes.htm) → 
 
 ST - Data Nodes in Conditions
 
-For addressing data nodes in [logical expressions](javascript:call_link\('abenst_tt_cond.htm'\)), a special rule applies. Data nodes as dnode operands of [preconditions](javascript:call_link\('abenst_using.htm'\)), [assertions](javascript:call_link\('abenst_data.htm'\)), or [conditions](javascript:call_link\('abenst_check.htm'\)) can be specified as follows:
+For addressing data nodes in [logical expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_cond.htm), a special rule applies. Data nodes as dnode operands of [preconditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_using.htm), [assertions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_data.htm), or [conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_check.htm) can be specified as follows:
 
 -   If the name node # specified according to the preceding addressing rules # has a letter or underscore as its first character and only letters, numbers, hyphens, or underscores in all other positions, it can be specified directly.
 

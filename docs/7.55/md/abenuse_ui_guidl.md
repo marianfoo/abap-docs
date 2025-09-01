@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [System Fields](javascript:call_link\('abensystem_fields_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrobust_abap_guidl.htm) →  [System Fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_fields_guidl.htm) → 
 
 Using System Fields on the User Interface
 
@@ -20,11 +20,11 @@ Never use system field types to define input or output fields for dynpros or sel
 
 Details
 
-This rule is derived from the [SoC](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline") rule and the [use of data types rule](javascript:call_link\('abenusing_types_guidl.htm'\) "Guideline"). System fields are purely technical. Their semantic attributes, are defined in ABAP Dictionary (documentation and other texts), do not allow meaningful use in the user dialogs of application programs.
+This rule is derived from the [SoC](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenseperation_concerns_guidl.htm "Guideline") rule and the [use of data types rule](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenusing_types_guidl.htm "Guideline"). System fields are purely technical. Their semantic attributes, are defined in ABAP Dictionary (documentation and other texts), do not allow meaningful use in the user dialogs of application programs.
 
 Hint
 
-Similarly, you can apply the rule [only use semantically appropriate data types](javascript:call_link\('abenusing_types_guidl.htm'\) "Guideline") to the use of SYST structure components (for typing interface parameters of procedures). The semantic meaning of a system field (expressed in the short text) does not generally match the meaning of the parameter.
+Similarly, you can apply the rule [only use semantically appropriate data types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenusing_types_guidl.htm "Guideline") to the use of SYST structure components (for typing interface parameters of procedures). The semantic meaning of a system field (expressed in the short text) does not generally match the meaning of the parameter.
 
 Example
 

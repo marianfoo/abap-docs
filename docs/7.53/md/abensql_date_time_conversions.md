@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - Built-In Functions sql\_func](javascript:call_link\('abenopen_sql_builtin_functions.htm'\)) →  [ABAP SQL - Special Functions](javascript:call_link\('abenopen_sql_special_functions.htm'\)) →  [ABAP SQL - Date Functions and Time Functions](javascript:call_link\('abenopen_sql_date_time_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - Built-In Functions sql\_func](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_builtin_functions.htm) →  [ABAP SQL - Special Functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_special_functions.htm) →  [ABAP SQL - Date Functions and Time Functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_date_time_functions.htm) → 
 
 sql\_exp - Date/Time Conversions
 
@@ -37,19 +37,19 @@ Variants:
 
 Effect
 
-These SQL functions convert time stamps into dates or times, and back again. The argument tstmp must have the built-in data type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 15, or the type of the data element TIMESTAMP. The content of an argument of this type is interpreted as an ABAP-specific [time stamp](javascript:call_link\('abentime_stamp_oview.htm'\)).
+These SQL functions convert time stamps into dates or times, and back again. The argument tstmp must have the built-in data type [DEC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) with length 15, or the type of the data element TIMESTAMP. The content of an argument of this type is interpreted as an ABAP-specific [time stamp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_oview.htm).
 
 The arguments of the functions are specified as a comma-separated list in parentheses. A blank must be placed after the opening parenthesis and before the closing parenthesis. The functions have keyword parameters. Optional parameters can be assigned actual parameters when called; non-optional parameters, however, must be assigned actual parameters.
 
-[SQL expressions](javascript:call_link\('abapsql_expr.htm'\)), in particular individual columns, literals, SQL functions, host variables or host expressions or host expressions can be specified as actual parameters. Only [enumeration constants](javascript:call_link\('abenenumerated_constant_glosry.htm'\) "Glossary Entry") of specific classes can be passed to the parameter on\_error. If an actual parameter contains the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), every function returns a null value.
+[SQL expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm), in particular individual columns, literals, SQL functions, host variables or host expressions or host expressions can be specified as actual parameters. Only [enumeration constants](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_constant_glosry.htm "Glossary Entry") of specific classes can be passed to the parameter on\_error. If an actual parameter contains the [null value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennull_value_glosry.htm "Glossary Entry"), every function returns a null value.
 
-The conversions follow the ABAP-specific [rules for time zones](javascript:call_link\('abentime_zone_rules.htm'\)). The associated database tables must be filled correctly.
+The conversions follow the ABAP-specific [rules for time zones](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm). The associated database tables must be filled correctly.
 
 Notes
 
--   These functions move the functions of the ABAP statements [CONVERT TIME STAMP](javascript:call_link\('abapconvert_time-stamp.htm'\)) and [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)) to the database.
+-   These functions move the functions of the ABAP statements [CONVERT TIME STAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_time-stamp.htm) and [CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_date_time-stamp.htm) to the database.
 
--   When used, these functions require the [strict mode from Release 7.53](javascript:call_link\('abenopensql_strict_mode_753.htm'\)).
+-   When used, these functions require the [strict mode from Release 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_mode_753.htm).
     
 
 Variant 1
@@ -60,9 +60,9 @@ Effect
 
 The function TSTMP\_TO\_DATS extracts the local date for the time zone specified in tzone from a time stamp in the argument tstmp.
 
-The actual parameter for the formal parameter tstmp must have the built-in data type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 15 and no decimal places and contain a [valid time stamp](javascript:call_link\('abentime_stamp_oview.htm'\)) in the format YYYYMMDDHHMMSS. tzone expects an actual parameter of the type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 6 and containing a valid [time zone](javascript:call_link\('abentime_zone_glosry.htm'\) "Glossary Entry"). The actual parameter for the optional formal parameter client must have the built-in dictionary type [CLNT](javascript:call_link\('abenddic_builtin_types.htm'\)) and contain a valid [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry"). The default value is the current client ID. This client ID is used in the evaluation of the system tables of the [rules for time zones](javascript:call_link\('abentime_zone_rules.htm'\)). The return value has the built-in data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The actual parameter for the formal parameter tstmp must have the built-in data type [DEC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) with length 15 and no decimal places and contain a [valid time stamp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_oview.htm) in the format YYYYMMDDHHMMSS. tzone expects an actual parameter of the type [CHAR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) with length 6 and containing a valid [time zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_glosry.htm "Glossary Entry"). The actual parameter for the optional formal parameter client must have the built-in dictionary type [CLNT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) and contain a valid [client ID](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclient_identifier_glosry.htm "Glossary Entry"). The default value is the current client ID. This client ID is used in the evaluation of the system tables of the [rules for time zones](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm). The return value has the built-in data type [DATS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm).
 
-The optional parameter on\_error defines the way errors are handled. The parameter for on\_error must be an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") with the [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") ON\_ERROR from the class SQL\_TSTMP\_TO\_DATS and the following [enumeration constants](javascript:call_link\('abenenumerated_constant_glosry.htm'\) "Glossary Entry") can be passed:
+The optional parameter on\_error defines the way errors are handled. The parameter for on\_error must be an [enumerated object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm "Glossary Entry") with the [enumerated type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_type_glosry.htm "Glossary Entry") ON\_ERROR from the class SQL\_TSTMP\_TO\_DATS and the following [enumeration constants](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_constant_glosry.htm "Glossary Entry") can be passed:
 
 -   SQL\_TSTMP\_TO\_DATS=>FAIL (an error raises an exception (default))
 
@@ -79,7 +79,7 @@ The function TSTMP\_TO\_TIMS extracts the local time for the time zone specified
 
 The same applies to the parameters tstmp, tzone, client, and on\_error as to the function TSTMP\_TO\_DATS. Here, the class of the enumerated type of on\_error is SQL\_TSTMP\_TO\_TIMS.
 
-The return value has the built-in data type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The return value has the built-in data type [TIMS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm).
 
 Variant 3
 
@@ -91,7 +91,7 @@ The function TSTMP\_TO\_DST extracts the summer time marker for the time zone sp
 
 The same applies to the parameters tstmp, tzone, client, and on\_error as to the function TSTMP\_TO\_DATS. Here, the class of the enumerated type of on\_error is SQL\_TSTMP\_TO\_DST.
 
-The return value has the built-in data type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 1.
+The return value has the built-in data type [CHAR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) with length 1.
 
 Variant 4
 
@@ -101,9 +101,9 @@ Effect
 
 The function DATS\_TIMS\_TO\_TSTMP constructs a time stamp from a local date specified in date and a local time specified in time in the time zone specified in tzone. The summer time is respected implicitly.
 
-The actual parameter for the formal parameter date must have the built-in data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) and should contain a valid date. The actual parameter for the formal parameter time must have the built-in data type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)) and should contain a valid time. The same applies to the parameters tzone, client, and on\_error as to the function TSTMP\_TO\_DATS. Here, the class of the enumerated type of on\_error is SQL\_DATS\_TIMS\_TO\_TSTMP.
+The actual parameter for the formal parameter date must have the built-in data type [DATS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) and should contain a valid date. The actual parameter for the formal parameter time must have the built-in data type [TIMS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) and should contain a valid time. The same applies to the parameters tzone, client, and on\_error as to the function TSTMP\_TO\_DATS. Here, the class of the enumerated type of on\_error is SQL\_DATS\_TIMS\_TO\_TSTMP.
 
-The return value has the built-in data type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 15 and represents an ABAP-specific [time stamp](javascript:call_link\('abentime_stamp_oview.htm'\)).
+The return value has the built-in data type [DEC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) with length 15 and represents an ABAP-specific [time stamp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_oview.htm).
 
 Example
 

@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)) →  [ABAP Objects - Inheritance](javascript:call_link\('abeninheritance.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects.htm) →  [ABAP Objects - Inheritance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Inheritance%20and%20Constructors%2C%20ABENINHERITANCE_CONSTRUCTORS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20
 improvement:)
 
 ABAP Objects - Inheritance and Constructors
 
-There are special rules governing [constructors](javascript:call_link\('abenconstructor.htm'\)) in inheritance.
+There are special rules governing [constructors](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor.htm) in inheritance.
 
 Instance Constructors   
 
@@ -22,7 +22,7 @@ Each class has an instance constructor called constructor. This is a derivation 
 
 This means that no namespace conflicts can occur.
 
-The instance constructor is called when an object is created using the command [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)) or using the instance operator [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)). Since during inheritance, a subclass contains all of the visible attributes of its superclasses whose content can also be set by instance constructors, the instance constructor of a subclass must ensure that the instance constructors of all of its superclasses are also called. This requires that the direct superclass be called using [super->constructor](javascript:call_link\('abapcall_method_meth_super.htm'\)) in the instance constructor of each subclass, even if it is not explicitly declared. The only exception to this rule are direct subclasses of the root node OBJECT.
+The instance constructor is called when an object is created using the command [CREATE OBJECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcreate_object.htm) or using the instance operator [NEW](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_new.htm). Since during inheritance, a subclass contains all of the visible attributes of its superclasses whose content can also be set by instance constructors, the instance constructor of a subclass must ensure that the instance constructors of all of its superclasses are also called. This requires that the direct superclass be called using [super->constructor](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapcall_method_meth_super.htm) in the instance constructor of each subclass, even if it is not explicitly declared. The only exception to this rule are direct subclasses of the root node OBJECT.
 
 In superclasses that do not have an explicitly defined instance constructor, the instance constructor, which always exists implicitly, is called. This automatically ensures that the instance constructor of the immediate superclass is called.
 
@@ -47,14 +47,14 @@ If there are no explicitly defined instance constructors in the path of the inhe
 
 For CREATE OBJECT or NEW and super->constructor(  ... ), the next possible explicit instance constructor must be considered, and, if it exists, its interface must be filled. The same applies to exception handling for instance constructors. When working with inheritances, a precise knowledge of the entire inheritance tree is required. When an object of a class at the bottom of the inheritance tree is created, it may be necessary to pass parameters to the constructor of a class that is much closer to the root node.
 
-The instance constructor of a subclass is divided into two parts by the call super->constructor( ... ) required by the syntax. In the statements before the call, the constructor behaves like a [static method](javascript:call_link\('abenstatic_method_glosry.htm'\) "Glossary Entry"), which means that the self-reference me-> must not be used and it does not have access to the instance components of its class. me-> cannot be used until after the call and instance components can also be addressed. The statements before the call are used to determine the actual parameters for the interface of the instance constructor of the superclass. Only [static attributes](javascript:call_link\('abenstatic_attribute_glosry.htm'\) "Glossary Entry") or other visible data can be used for this.
+The instance constructor of a subclass is divided into two parts by the call super->constructor( ... ) required by the syntax. In the statements before the call, the constructor behaves like a [static method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_method_glosry.htm "Glossary Entry"), which means that the self-reference me-> must not be used and it does not have access to the instance components of its class. me-> cannot be used until after the call and instance components can also be addressed. The statements before the call are used to determine the actual parameters for the interface of the instance constructor of the superclass. Only [static attributes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_attribute_glosry.htm "Glossary Entry") or other visible data can be used for this.
 
 When a subclass is instantiated, there is a nested call of the instance constructors from the subclass to the superclasses, but only at the lowest nesting level, that is, the highest superclass whose instance attributes can be addressed. When the constructors of the lower subclasses are revisited, their instance attributes can be addressed successively.
 
-The methods of subclasses are not visible in constructors. If an instance constructor calls an instance method of the same class using the implicit [self-reference](javascript:call_link\('abenself_reference_glosry.htm'\) "Glossary Entry") me,the method is called as it is implemented in the class of the instance constructor, and not in any redefined form that may occur in the subclass being instantiated. This is an exception to the rule that when instance methods are called, the implementation is always called in the class to whose instance the reference points.
+The methods of subclasses are not visible in constructors. If an instance constructor calls an instance method of the same class using the implicit [self-reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenself_reference_glosry.htm "Glossary Entry") me,the method is called as it is implemented in the class of the instance constructor, and not in any redefined form that may occur in the subclass being instantiated. This is an exception to the rule that when instance methods are called, the implementation is always called in the class to whose instance the reference points.
 
 Static Constructors   
 
-Every class has a [static constructor](javascript:call_link\('abenstatic_constructor_glosry.htm'\) "Glossary Entry") called class\_constructor. For the namespace within an inheritance tree, the same applies to static constructors as to instance constructors.
+Every class has a [static constructor](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_constructor_glosry.htm "Glossary Entry") called class\_constructor. For the namespace within an inheritance tree, the same applies to static constructors as to instance constructors.
 
 When a subclass is addressed for the first time in a program by creating an instance of the class or by addressing a static component (except for types and constants) using the class component selector, the static constructor is called. However, the preceding static constructors of all of the entire inheritance tree must have been called first. On the other hand, a static constructor may only be called once at program runtime. Therefore, when subclass is first addressed, the system looks for the next highest superclass whose static constructor has not yet been called. It calls the static constructor of this class, followed by those of all classes between this class and the addressed subclass.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 7.0 and its EhPs](javascript:call_link\('abennews-70_ehps.htm'\)) →  [News for ABAP Release 7.0, EhP2](javascript:call_link\('abennews-71.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 7.0 and its EhPs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-70_ehps.htm) →  [News for ABAP Release 7.0, EhP2](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-71.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Tools%20in%20ABAP%20Release%207.0%2C%20EhP2%2C%20ABENNEWS-710-TOOLS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -109,7 +109,7 @@ The following functions have been added to the two-process debugger:
     
 -   Stack tool:
     
-    New setting for displaying the call stack of the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of a caller
+    New setting for displaying the call stack of the [internal session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session_glosry.htm "Glossary Entry") of a caller
     
 -   Exception tool:
     
@@ -131,7 +131,7 @@ The following functions have been added to the two-process debugger:
     
 -   Functions taken from the old debugger:
     
-    Displays the classic list currently being created in the [ABAP session](javascript:call_link\('abenabap_session_glosry.htm'\) "Glossary Entry") of the debuggee.
+    Displays the classic list currently being created in the [ABAP session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_session_glosry.htm "Glossary Entry") of the debuggee.
     
     Possibility of restarting the entire application.
     
@@ -155,7 +155,7 @@ Modification 5  
 
 ABAP Unit
 
-In ABAP release 7.0, EhP2, the additions introduced for the statement [CLASS ... FOR TESTING](javascript:call_link\('abapclass_for_testing.htm'\)), namely RISK LEVEL and DURATION, have replaced the pseudo comments introduced in ABAP release 7.0, namely "#AU Risk\_Level ... and "#AU Duration ..., used for defining the test properties of [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry").
+In ABAP release 7.0, EhP2, the additions introduced for the statement [CLASS ... FOR TESTING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass_for_testing.htm), namely RISK LEVEL and DURATION, have replaced the pseudo comments introduced in ABAP release 7.0, namely "#AU Risk\_Level ... and "#AU Duration ..., used for defining the test properties of [test classes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentest_class_glosry.htm "Glossary Entry").
 
 An ABAP Unit Browser integrated into Object Navigator in ABAP Workbench allows:
 
@@ -175,7 +175,7 @@ The runtime analysis tool has been switched to the new transaction SAT (the prev
 
 -   has a new user interface for analyzing measurements. Like ABAP Debugger, it consists of adjustable desktops where various tools can be organized.
 -   contains additional and more flexible analysis tools than the previous version.
--   saves the measurement data to the database, which makes it independent of the operating system of the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the AS instance.
+-   saves the measurement data to the database, which makes it independent of the operating system of the [host computer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the AS instance.
 -   enables the cross-system comparison of measurement data.
 
 Modification 7   
@@ -196,4 +196,4 @@ Modification 8  
 
 Checkpoint Groups
 
-A time limit now applies to activation settings for [checkpoint groups](javascript:call_link\('abencheckpoint_group_glosry.htm'\) "Glossary Entry"). When an activation setting is saved in transaction SAAB, either a validity period (valid for the current day or week) or a validity end date must be specified. The default value (valid for the current day) is generally suitable for most applications.
+A time limit now applies to activation settings for [checkpoint groups](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheckpoint_group_glosry.htm "Glossary Entry"). When an activation setting is saved in transaction SAAB, either a validity period (valid for the current day or week) or a validity end date must be specified. The default value (valid for the current day) is generally suitable for most applications.

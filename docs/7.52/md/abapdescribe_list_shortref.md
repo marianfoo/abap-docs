@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  D
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  D
 
 DESCRIBE LIST - Quick reference
 
-[Reference](javascript:call_link\('abapdescribe_list.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list.htm)
 
 Syntax
 
@@ -38,14 +38,14 @@ Additions
     
 -   PAGE pagno
     Returns properties of the page specified in pagno:
-    [LINE-SIZE width](javascript:call_link\('abapdescribe_list_page_properties.htm'\)) - Width
-    [LINE-COUNT page\_lines](javascript:call_link\('abapdescribe_list_page_properties.htm'\)) - Page lines
-    [LINES lines](javascript:call_link\('abapdescribe_list_page_properties.htm'\)) - Number of lines
-    [FIRST-LINE first\_line](javascript:call_link\('abapdescribe_list_page_properties.htm'\)) - Line number of the first line
-    [TOP-LINES top\_lines](javascript:call_link\('abapdescribe_list_page_properties.htm'\)) - Number of [header lines](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry")
-    [TITLE-LINES title\_lines](javascript:call_link\('abapdescribe_list_page_properties.htm'\)) - Number of title lines
-    [HEAD-LINES header\_lines](javascript:call_link\('abapdescribe_list_page_properties.htm'\)) - Number of column header lines
-    [END-LINES footer\_lines](javascript:call_link\('abapdescribe_list_page_properties.htm'\)) - Number of footer lines
+    [LINE-SIZE width](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_page_properties.htm) - Width
+    [LINE-COUNT page\_lines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_page_properties.htm) - Page lines
+    [LINES lines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_page_properties.htm) - Number of lines
+    [FIRST-LINE first\_line](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_page_properties.htm) - Line number of the first line
+    [TOP-LINES top\_lines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_page_properties.htm) - Number of [header lines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenheader_line_glosry.htm "Glossary Entry")
+    [TITLE-LINES title\_lines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_page_properties.htm) - Number of title lines
+    [HEAD-LINES header\_lines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_page_properties.htm) - Number of column header lines
+    [END-LINES footer\_lines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdescribe_list_page_properties.htm) - Number of footer lines
     
 -   INDEX idx
     Specifies the list index in idx. If the index is not specified, either the basic list or the list in which a list event occurred is evaluated.

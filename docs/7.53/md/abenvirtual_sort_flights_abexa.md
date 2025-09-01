@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [System Class for Internal Tables](javascript:call_link\('abencl_abap_itab.htm'\)) →  [Examples of Virtual Sorting of Internal Tables](javascript:call_link\('abenvirtual_sort_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [System Class for Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_abap_itab.htm) →  [Examples of Virtual Sorting of Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvirtual_sort_abexas.htm) → 
 
 Virtual Sorting of Flight Data
 
@@ -113,6 +113,6 @@ Description
 
 In this example, an internal table flight\_tab containing flight data is sorted virtually by the longitudes and latitudes of the departure and arrival cities. To do this, two additional tables from\_city\_tab and to\_city\_tab are constructed. The rows of these tables contain the longitudes and latitudes of the departure and arrival cities from the respective rows of flight\_tab.
 
-Virtual sorting with the method VIRTUAL\_SORT of class CL\_ABAP\_ITAB\_UTILITIES takes place at the operand position of a [FOR](javascript:call_link\('abenfor_itab.htm'\)) expression for a table iteration. The virtual sorting involves all three internal tables. The temporary result of the sorting is used to construct a sorted internal table from the rows of flight\_tab. This table is only temporary, and is an input parameter of the method WRITE of class CL\_DEMO\_OUTPUT.
+Virtual sorting with the method VIRTUAL\_SORT of class CL\_ABAP\_ITAB\_UTILITIES takes place at the operand position of a [FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_itab.htm) expression for a table iteration. The virtual sorting involves all three internal tables. The temporary result of the sorting is used to construct a sorted internal table from the rows of flight\_tab. This table is only temporary, and is an input parameter of the method WRITE of class CL\_DEMO\_OUTPUT.
 
 It is sorted once in ascending order and once in descending order. This does not change the order of the rows in the internal tables that are involved. These remain in their original unsorted state. Virtual sorting makes it possible to generate various sorted output data without affecting the original data.

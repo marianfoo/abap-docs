@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [ABAP-Specific Rules](javascript:call_link\('abenabap_specific_rules_gdl.htm'\)) →  [Program Type and Program Properties](javascript:call_link\('abenprogr_type_features_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [ABAP-Specific Rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_specific_rules_gdl.htm) →  [Program Type and Program Properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogr_type_features_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Original Language, ABENORIGINAL_LANGU_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%
 0D%0ASuggestion for improvement:)
@@ -46,4 +46,4 @@ In multilingual projects, it is best develop associated business functions in a 
 Hints
 
 -   When a repository object is created, its original language is the logon language. A conscious decision must be made for the logon language when creating or maintaining repository objects.
--   Regardless of whether a development project is monolingual or multilingual, consistent terminology must be defined for all texts created in the project and used across the board. In multilingual development projects, the translation of the terminology into the relevant languages should be completed before development start if possible, so that the terms can be used by the developers. The existing [standards](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline") for UI texts and documents must also be followed.
+-   Regardless of whether a development project is monolingual or multilingual, consistent terminology must be defined for all texts created in the project and used across the board. In multilingual development projects, the translation of the terminology into the relevant languages should be completed before development start if possible, so that the terms can be used by the developers. The existing [standards](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorrectness_quality_guidl.htm "Guideline") for UI texts and documents must also be followed.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_syntax.htm) → 
 
 Chained Statements
 
@@ -12,13 +12,13 @@ Consecutive statements that have the same initial part can be combined into in a
 
 Programming Guideline
 
-[Only use chained statements where appropriate](javascript:call_link\('abenchained_statements_guidl.htm'\) "Guideline")
+[Only use chained statements where appropriate](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchained_statements_guidl.htm "Guideline")
 
 Hints
 
 -   The identical starting parts are not limited to the keyword.
 
--   When using chained statements, it must be ensured that no syntactically correct statements with incorrect behavior are created by mistake. The risk of this is especially high for more complex statements, as well as when using [expressions](javascript:call_link\('abenexpression_glosry.htm'\) "Glossary Entry") or function calls where chained statements should be avoided all together.
+-   When using chained statements, it must be ensured that no syntactically correct statements with incorrect behavior are created by mistake. The risk of this is especially high for more complex statements, as well as when using [expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexpression_glosry.htm "Glossary Entry") or function calls where chained statements should be avoided all together.
 
 -   If further colons are listed after the first colon of a chained statement, they are handled like blanks.
 

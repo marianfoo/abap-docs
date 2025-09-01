@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Projection Behavior Definitions](javascript:call_link\('abenbdl_projection_bo.htm'\)) →  [RAP - Entity Behavior Definition, Projection BDEF](javascript:call_link\('abenbdl_define_beh_projection.htm'\)) →  [RAP - Entity Behavior Characteristics, Projection BDEF](javascript:call_link\('abenbdl_character_projection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl.htm) →  [RAP - Projection Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_projection_bo.htm) →  [RAP - Entity Behavior Definition, Projection BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_define_beh_projection.htm) →  [RAP - Entity Behavior Characteristics, Projection BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_character_projection.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20authorization%2C%20Projection%20BDEF%2C%20ABENBDL_AUTHORIZATION_PROJECTION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20imp
 rovement:)
@@ -29,21 +29,21 @@ Declaration That Can Be Used in the Entity Behavior Body for an Action
 
 Effect
 
-In a [projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry"), the [authorization control](javascript:call_link\('abenrap_auth_control_glosry.htm'\) "Glossary Entry") from the underlying base BDEF is inherited. This controls [CRUD operations](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry") and [actions](javascript:call_link\('abenbdl_action.htm'\)) that are reused in the projection using the [use action](javascript:call_link\('abenbdl_use_projection.htm'\)) syntax.
+In a [projection BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry"), the [authorization control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_auth_control_glosry.htm "Glossary Entry") from the underlying base BDEF is inherited. This controls [CRUD operations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencrud_glosry.htm "Glossary Entry") and [actions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_action.htm) that are reused in the projection using the [use action](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_use_projection.htm) syntax.
 
-Projections can also define their own actions as described in topic [RAP BDL - actions and functions, projection BDEF](javascript:call_link\('abenbdl_nonstandard_projection.htm'\)). For these actions, it is possible to configure authorization control in the projection layer. For global authorization, this is done in the [RAP handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") [FOR GLOBAL AUTHORIZATION](javascript:call_link\('abaphandler_meth_global_auth.htm'\)) in the local [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry"). For instance authorization, this is done in the [RAP handler method](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") [FOR INSTANCE AUTHORIZATION](javascript:call_link\('abaphandler_meth_auth.htm'\)) in the local [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+Projections can also define their own actions as described in topic [RAP BDL - actions and functions, projection BDEF](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_nonstandard_projection.htm). For these actions, it is possible to configure authorization control in the projection layer. For global authorization, this is done in the [RAP handler method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") [FOR GLOBAL AUTHORIZATION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphandler_meth_global_auth.htm) in the local [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry"). For instance authorization, this is done in the [RAP handler method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") [FOR INSTANCE AUTHORIZATION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaphandler_meth_auth.htm) in the local [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
 
-Authorization control in projection BDEFs is similar to authorizations in base BDEFs (see topic [RAP - authorization](javascript:call_link\('abenbdl_authorization.htm'\))). Here are the main differences:
+Authorization control in projection BDEFs is similar to authorizations in base BDEFs (see topic [RAP - authorization](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_authorization.htm)). Here are the main differences:
 
--   To define authorization control in a projection BDEF, the projection BDEF must enable [BDEF strict mode](javascript:call_link\('abenrap_strict_mode_glosry.htm'\) "Glossary Entry") using the syntax [strict*\[*(version)*\]*](javascript:call_link\('abenbdl_strict.htm'\)).
+-   To define authorization control in a projection BDEF, the projection BDEF must enable [BDEF strict mode](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_strict_mode_glosry.htm "Glossary Entry") using the syntax [strict*\[*(version)*\]*](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_strict.htm).
 -   There is no master/dependent relation. Each projection definition must declare for itself whether it has instance authorization, global authorization, or both.
 
 Authorization control specified in the entity behavior body on action-level:
 
--   authorization:none excludes the operation in question from authorization checks. See topic [RAP - authorization:none](javascript:call_link\('abenbdl_actions_auth.htm'\)) for further details.
--   If authorization:update is used, the operation in question has the same authorization control that is defined in the base BDEF for the update operation. As a prerequisite, it is required that the projection BDEF defines authorization control in its entity behavior characteristics. This configuration in the projection BDEF, however, (instance or global) has no impact, the settings from the base BO (instance, global, or both) are fully reused. See the second example listed in this topic. See topic [RAP - authorization:update](javascript:call_link\('abenbdl_actions_auth_update.htm'\)) for further details.
--   authorization:global specifies global authorization control for the action in question. If authorization control is also defined on entity level, the specification on action level replaces the specification on entity level. Authorization control on entity level is not a prerequisite though. See topic [RAP - authorization:global](javascript:call_link\('abenbdl_actions_auth_global.htm'\)) for further details.
--   authorization:instance specifies instance authorization control for the action in question. If authorization control is also defined on entity level, the specification on action level replaces the specification on entity level. Authorization control on entity level is not a prerequisite though. See topic [RAP - authorization:instance](javascript:call_link\('abenbdl_actions_auth_instance.htm'\)) for further details.
+-   authorization:none excludes the operation in question from authorization checks. See topic [RAP - authorization:none](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_auth.htm) for further details.
+-   If authorization:update is used, the operation in question has the same authorization control that is defined in the base BDEF for the update operation. As a prerequisite, it is required that the projection BDEF defines authorization control in its entity behavior characteristics. This configuration in the projection BDEF, however, (instance or global) has no impact, the settings from the base BO (instance, global, or both) are fully reused. See the second example listed in this topic. See topic [RAP - authorization:update](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_auth_update.htm) for further details.
+-   authorization:global specifies global authorization control for the action in question. If authorization control is also defined on entity level, the specification on action level replaces the specification on entity level. Authorization control on entity level is not a prerequisite though. See topic [RAP - authorization:global](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_auth_global.htm) for further details.
+-   authorization:instance specifies instance authorization control for the action in question. If authorization control is also defined on entity level, the specification on action level replaces the specification on entity level. Authorization control on entity level is not a prerequisite though. See topic [RAP - authorization:instance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_actions_auth_instance.htm) for further details.
 -   authorization:global, authorization:instance performs both instance authorization control and global authorization control for the action in question.
 
 Further Information
@@ -52,7 +52,7 @@ Further Information
 
 Hint
 
-In UI scenarios, authorization control is displayed as [RAP consumer hint](javascript:call_link\('abenrap_consumer_hint_glosry.htm'\) "Glossary Entry").
+In UI scenarios, authorization control is displayed as [RAP consumer hint](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_consumer_hint_glosry.htm "Glossary Entry").
 
 Example - Global Authorization Control in Projection BDEF
 
@@ -136,7 +136,7 @@ METHOD deductDiscount.
                                               %param = item ) ).
 ENDMETHOD.
 
-The ABAP class CL\_DEMO\_RAP\_PROJ\_NEW\_ACTION uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access to RAP business object. It first creates two new entity instances and then executes the action deductDiscount for both of them.
+The ABAP class CL\_DEMO\_RAP\_PROJ\_NEW\_ACTION uses [EML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_glosry.htm "Glossary Entry") to access to RAP business object. It first creates two new entity instances and then executes the action deductDiscount for both of them.
 
 Before executing the action, the RAP frameworks calls the method for global authorization control and checks whether the RAP BO consumer is allowed to execute the action.
 
@@ -177,7 +177,7 @@ REPORTED reported.
              %param = data  ) ).
 ENDMETHOD.
 
-The ABAP class CL\_DEMO\_RAP\_PROJ\_AUTH uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access to RAP business object. It first creates two new entity instances and then executes the action UpdateDataField for one of them. As a result, the field DataField of the respective entity instance is set to A.
+The ABAP class CL\_DEMO\_RAP\_PROJ\_AUTH uses [EML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_glosry.htm "Glossary Entry") to access to RAP business object. It first creates two new entity instances and then executes the action UpdateDataField for one of them. As a result, the field DataField of the respective entity instance is set to A.
 
 Before executing the action, the RAP frameworks calls the base BDEF's method for global authorization control and checks whether the RAP BO consumer is allowed to execute the action. In his example, update authorization is granted.
 

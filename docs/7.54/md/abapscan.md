@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) →  [Internal Statements for Source Code Processing](javascript:call_link\('abengeneric_internal.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_generic_program.htm) →  [Internal Statements for Source Code Processing](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengeneric_internal.htm) → 
 
 SCAN
 
@@ -60,8 +60,8 @@ Effect
 Breaks down the ABAP source code in the source code table itab1 into tokens according to the rules of the ABAP scanner. The tokens are written (one per row) to the token table itab2. The source code to be broken down need not necessarily be contained in an internal table. It can be specified in any character-like field. In particular, you can use fields of the type STRING. However, this variant only makes sense if the program to be broken down does not contain any comments. When an internal table is specified, itab1 must be a standard table.
 The token table itab2 must be a standard table and have the structure STOKES. If the addition WITH ANALYSIS is specified, the token table must have the extended structure STOKESX.
 (For reasons of downward compatibility, STOKEN and STOKEX can still be used. The main difference is that in the new structures the character string which makes up the token is typed with reference to the data type string. With the structures STOKEN and STOKEX, a C field of length 30 and an OVERFLOW area are used instead.)
-Normally, comments are filtered out and subordinate source code units ([include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry"), called [macros](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry")) are ignored. These semantics can be modified by using the additions WITH COMMENTS and WITH ANALYSIS.
-In addition to classifying the source code by token, the scanner organizes the tokens themselves into statements (using the colon-comma logic to form chained statements) and the statement table itab3 contains a statement description on each row. Here, a [three-part chained statement](javascript:call_link\('abenchained_statement_glosry.htm'\) "Glossary Entry") "a: b, c1 c2, d." produces the three entries "a b,", "a c1 c2,", and "a d." in the statement table itab3.
+Normally, comments are filtered out and subordinate source code units ([include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry"), called [macros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmacro_glosry.htm "Glossary Entry")) are ignored. These semantics can be modified by using the additions WITH COMMENTS and WITH ANALYSIS.
+In addition to classifying the source code by token, the scanner organizes the tokens themselves into statements (using the colon-comma logic to form chained statements) and the statement table itab3 contains a statement description on each row. Here, a [three-part chained statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchained_statement_glosry.htm "Glossary Entry") "a: b, c1 c2, d." produces the three entries "a b,", "a c1 c2,", and "a d." in the statement table itab3.
 The statement table itab3 must be a standard table without secondary keys and have the structure SSTMNT.
 The statement classification characters colon, comma, and period are not written to the token table itab2. Instead, the table itab3 contains details about the position of a colon or the type (comma or period) and position of the end marker in the statement description.
 
@@ -153,7 +153,7 @@ The fields of the structure SSTMNT, and thus the columns of the statement table 
 TYPE
 
 Type of statement with possible values:
-E ( [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statement between [EXEC SQL](javascript:call_link\('abapexec.htm'\)) and ENDEXEC or implementation of an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") between [METHOD - BY DATABASE PROCEDURE, FUNCTION](javascript:call_link\('abapmethod_by_db_proc.htm'\)) and ENDMETHOD)
+E ( [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry") statement between [EXEC SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapexec.htm) and ENDEXEC or implementation of an [AMDP method](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenamdp_method_glosry.htm "Glossary Entry") between [METHOD - BY DATABASE PROCEDURE, FUNCTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmethod_by_db_proc.htm) and ENDMETHOD)
 I (INCLUDE prog)
 J (INCLUDE prog, prog does not exist, can occur only in connection with the addition WITH INCLUDES)
 T (TYPE-POOLS pool)
@@ -252,7 +252,7 @@ Notes
 1.  When using the specified start n1, the addition WITHOUT TRMAC must be used to ensure that there are no unnecessary database accesses to the table TRMAC.
     
 2.  The specified end n2 is handled as "soft", meaning a statement that begins on a line <= n2, but ends only on a line > n2, is returned completely.
-    If the specified end n2 splits a [chained statement](javascript:call_link\('abenchained_statement_glosry.htm'\) "Glossary Entry"), only the split part up to the next comma is returned completely, not the entire chained statement up to the next period.
+    If the specified end n2 splits a [chained statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchained_statement_glosry.htm "Glossary Entry"), only the split part up to the next comma is returned completely, not the entire chained statement up to the next period.
     
 3.  Negative line specifications are not allowed and result in a runtime error.
     
@@ -272,7 +272,7 @@ Effect
 Does not return all statements, only those specified in the keyword table itab.
 If the key word table is empty (i.e. it contains 0 rows), all the statements are selected.
 The rows of the key word table are handled like a text field. It must be a standard table without secondary keys.
-To select a [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry") statement or a macro definition, the pseudo keywords EXEC\_SQL or DEFINE\_MACRO can be specified. It makes no difference whether the statements EXEC or DEFINE occur as well. Native SQL statements and macro definitions are returned as one statement (of type E or M even if the expansion of a macro definition results in more than one statement.
+To select a [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_glosry.htm "Glossary Entry") statement or a macro definition, the pseudo keywords EXEC\_SQL or DEFINE\_MACRO can be specified. It makes no difference whether the statements EXEC or DEFINE occur as well. Native SQL statements and macro definitions are returned as one statement (of type E or M even if the expansion of a macro definition results in more than one statement.
 If the key word table contains a blank row, blank statements are also selected.
 
 Addition 4
@@ -281,7 +281,7 @@ Addition 4
 
 Effect
 
-Stores details about each edited source code unit (source code table itab1 itself, expanded [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry"), expanded macro definitions) in the level table itab.
+Stores details about each edited source code unit (source code table itab1 itself, expanded [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry"), expanded macro definitions) in the level table itab.
 Specify a level table only with the additions WITH INCLUDES or WITH IMPLICIT ENHANCEMENTS.
 The level table itab must have the structure SLEVEL. It must be a standard table without secondary keys.
 
@@ -413,7 +413,7 @@ Addition 8
 
 Effect
 
-Returns all declarative statements and all statements with [inline declarations](javascript:call_link\('abeninline_declaration_glosry.htm'\) "Glossary Entry").
+Returns all declarative statements and all statements with [inline declarations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninline_declaration_glosry.htm "Glossary Entry").
 
 Addition 9
 
@@ -492,15 +492,15 @@ Effect
 
 Also breaks down subordinate source code units (include programs, called macros) into tokens.
 
-In addition, [source code plug-ins](javascript:call_link\('abensource_code_plugin_glosry.htm'\) "Glossary Entry") of explicit and implicit [enhancement options](javascript:call_link\('abenenhancement_point_glosry.htm'\) "Glossary Entry") which may exist are automatically inserted in the source code to be split. The optional addition IMPLEMENTATIONS FROM itab can be used to limit the number of inserted enhancements to the number specified in itab. If itab is empty, any enhancements are ignored. itab must be a standard table without secondary keys.
+In addition, [source code plug-ins](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensource_code_plugin_glosry.htm "Glossary Entry") of explicit and implicit [enhancement options](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenhancement_point_glosry.htm "Glossary Entry") which may exist are automatically inserted in the source code to be split. The optional addition IMPLEMENTATIONS FROM itab can be used to limit the number of inserted enhancements to the number specified in itab. If itab is empty, any enhancements are ignored. itab must be a standard table without secondary keys.
 
 Notes
 
 1.  The addition WITH INCLUDES is normally combined with the addition LEVELS INTO itab.
     
-2.  If (at least) one include program does not exist, sy-subrc is set to 1 and the relevant INCLUDE statement is flagged in the statement table itab3 by the statement type J (instead of I), but the breakdown process continues. The level table itab contains no entry for [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") that do not exist.
+2.  If (at least) one include program does not exist, sy-subrc is set to 1 and the relevant INCLUDE statement is flagged in the statement table itab3 by the statement type J (instead of I), but the breakdown process continues. The level table itab contains no entry for [include programs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninclude_program_glosry.htm "Glossary Entry") that do not exist.
     
-3.  If WITH INCLUDES is combined with the addition WITHOUT TRMAC, TRMAC [macros](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") are not expanded because the system does not recognize them as subordinate source code units.
+3.  If WITH INCLUDES is combined with the addition WITHOUT TRMAC, TRMAC [macros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmacro_glosry.htm "Glossary Entry") are not expanded because the system does not recognize them as subordinate source code units.
     
 4.  When macro calls are expanded, no positions can be specified. The corresponding fields in the token table itab2 and in the statement table itab3 are then set to 0.
     
@@ -515,7 +515,7 @@ Addition 13
 
 Effect
 
-This addition has the same effect as the WITH INCLUDES addition, except that with the former, include programs belonging to [type groups](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") are broken down into tokens.
+This addition has the same effect as the WITH INCLUDES addition, except that with the former, include programs belonging to [type groups](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_group_1_glosry.htm "Glossary Entry") are broken down into tokens.
 
 Addition 14
 
@@ -572,7 +572,7 @@ Addition 22
 
 Effect
 
-The above additions have the same effect as the corresponding additions in the statement [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)): c2 is an input field for a program name to be assigned to the source code, the fields c3, c4, c5, n3, and n4 are output fields, used when errors occur.
+The above additions have the same effect as the corresponding additions in the statement [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_for_itab.htm): c2 is an input field for a program name to be assigned to the source code, the fields c3, c4, c5, n3, and n4 are output fields, used when errors occur.
 
 In Release 7.00, the addition PROGRAM FROM was renamed as INCLUDE PROGRAM FROM to clarify the difference between the master program and the split source code unit. If the addition is used in its previous form PROGRAM FROM, it sets the master program and the source code text unit to be scanned at the same time.
 To be able to analyze error situations without modifying programs, it is vital that the additions INCLUDE INTO, MESSAGE INTO, WORD INTO, LINE INTO, and OFFSET INTO are specified. These additions provide information about the error in question.
@@ -583,7 +583,7 @@ Addition 23
 
 Effect
 
-When WITH EXPLICIT ENHANCEMENTS is specified, the existing [source code plug-ins](javascript:call_link\('abensource_code_plugin_glosry.htm'\) "Glossary Entry") for explicit [enhancement points](javascript:call_link\('abenenhancement_point_glosry.htm'\) "Glossary Entry") are automatically inserted into the split source code.
+When WITH EXPLICIT ENHANCEMENTS is specified, the existing [source code plug-ins](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensource_code_plugin_glosry.htm "Glossary Entry") for explicit [enhancement points](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenhancement_point_glosry.htm "Glossary Entry") are automatically inserted into the split source code.
 
 The optional addition IMPLEMENTATIONS FROM can limit the number of inserted enhancements to the number specified in itab. If itab is empty, any enhancements are ignored.
 
@@ -593,7 +593,7 @@ Addition 24
 
 Effect
 
-When WITH IMPLICIT ENHANCEMENTS is specified, the existing [source code plug-ins](javascript:call_link\('abensource_code_plugin_glosry.htm'\) "Glossary Entry") for implicit [enhancement points](javascript:call_link\('abenenhancement_point_glosry.htm'\) "Glossary Entry") are automatically inserted into the split source code.
+When WITH IMPLICIT ENHANCEMENTS is specified, the existing [source code plug-ins](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensource_code_plugin_glosry.htm "Glossary Entry") for implicit [enhancement points](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenhancement_point_glosry.htm "Glossary Entry") are automatically inserted into the split source code.
 
 The optional addition IMPLEMENTATIONS FROM can limit the number of inserted enhancements to the number specified in itab. If itab is empty, any enhancements are ignored.
 
@@ -707,7 +707,7 @@ Addition 28
 
 Effect
 
-Using this addition, the framework program is specified to the source code unit that is broken down. This is necessary, especially for inserting [source code plug-ins](javascript:call_link\('abensource_code_plugin_glosry.htm'\) "Glossary Entry") correctly.
+Using this addition, the framework program is specified to the source code unit that is broken down. This is necessary, especially for inserting [source code plug-ins](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensource_code_plugin_glosry.htm "Glossary Entry") correctly.
 
 Note
 
@@ -721,7 +721,7 @@ Effect
 
 Individual INCLUDE statements can be overridden by specifying an internal table of type SREPTAB. If itab contains an entry "INCL" in column name, the statement INCLUDE incl does not read the include INCL. Instead the source code from column itab-source is inserted.
 
-It has the same effect as the addition REPLACING of the internal statement [SYNTAX-CHECK FOR PROGRAM](javascript:call_link\('abapsyntax-check_for_program.htm'\)). However, the entry itab-trdir is ignored.
+It has the same effect as the addition REPLACING of the internal statement [SYNTAX-CHECK FOR PROGRAM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_for_program.htm). However, the entry itab-trdir is ignored.
 
 itab must be a standard table without secondary keys.
 
@@ -742,7 +742,7 @@ Extras:
 
 Effect
 
-Checks the syntax of the program in table itab1. This check writes all information collected about the program, such as statement structures, statements, tokens, data objects, or types, to the variable result. Here, result must have the type SYSCH\_RESULT, defined in the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") SYSCH.
+Checks the syntax of the program in table itab1. This check writes all information collected about the program, such as statement structures, statements, tokens, data objects, or types, to the variable result. Here, result must have the type SYSCH\_RESULT, defined in the [type group](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_group_1_glosry.htm "Glossary Entry") SYSCH.
 
 Addition 1
 
@@ -770,10 +770,10 @@ Addition 6
 
 Effect
 
-The above additions have the same effect as the corresponding additions in the statement [SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\)): c1 is an input field for a program name to be assigned to the source code, the fields c2, c3, c4, n1, and n2 are output fields, used when errors occur.
+The above additions have the same effect as the corresponding additions in the statement [SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsyntax-check_for_itab.htm): c1 is an input field for a program name to be assigned to the source code, the fields c2, c3, c4, n1, and n2 are output fields, used when errors occur.
 To enable errors to be analyzed without the program being modified, the additions INCLUDE, MESSAGE, WORD, LINE, and OFFSET must be specified to gather information about the error in question.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

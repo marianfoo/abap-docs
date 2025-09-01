@@ -4,39 +4,39 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Enhancements](javascript:call_link\('abenddic_enhancements.htm'\)) →  [Append Structures](javascript:call_link\('abenddic_append_structures.htm'\)) →  [Dictionary DDL for Structure Enhancements](javascript:call_link\('abenddic_extend_type.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_classical_objects.htm) →  [Enhancements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_enhancements.htm) →  [Append Structures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_append_structures.htm) →  [Dictionary DDL for Structure Enhancements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_extend_type.htm) → 
 
 EXTEND TYPE
 
 Syntax
 
-[structure\_annos](javascript:call_link\('abenddicddl_define_struct_props.htm'\))
+[structure\_annos](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_props.htm)
 EXTEND TYPE struct*|*dbtab WITH append\_struct {
   ...
-  [component](javascript:call_link\('abenddicddl_define_struct_comps.htm'\))
+  [component](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_comps.htm)
   *\[*...
-  [extend](javascript:call_link\('abenddicddl_define_struct_comp_ext.htm'\))
+  [extend](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_comp_ext.htm)
   ...*\]*;
   ...
-  [include;](javascript:call_link\('abenddicddl_define_struct_incl.htm'\))
+  [include;](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_incl.htm)
   ...
 }
 
 Effect
 
-[Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") statement for defining an ABAP Dictionary [append structure](javascript:call_link\('abenddic_append_structures.htm'\)) append\_struct in the [ABAP Development Tools](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry").
+[Dictionary DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") statement for defining an ABAP Dictionary [append structure](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_append_structures.htm) append\_struct in the [ABAP Development Tools](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadt_glosry.htm "Glossary Entry").
 
 -   The statement EXTEND TYPE adds the append structure append\_struct defined here either to an existing structure struct or to a database table dbtab.
 
--   The mandatory properties of the append structure must be specified in front of the statement EXTEND TYPE using the same annotations [structure\_annos](javascript:call_link\('abenddicddl_define_struct_props.htm'\)) as in the definition of a structure.
+-   The mandatory properties of the append structure must be specified in front of the statement EXTEND TYPE using the same annotations [structure\_annos](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_props.htm) as in the definition of a structure.
 
--   As in the definition of a structure using [DEFINE STRUCTURE](javascript:call_link\('abenddicddl_define_structure.htm'\)), the components of the append structure are defined in a semicolon-separated list in curly brackets { }, either as individual components [component](javascript:call_link\('abenddicddl_define_struct_comps.htm'\)) or by including include structures [include](javascript:call_link\('abenddicddl_define_struct_incl.htm'\)).
+-   As in the definition of a structure using [DEFINE STRUCTURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_structure.htm), the components of the append structure are defined in a semicolon-separated list in curly brackets { }, either as individual components [component](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_comps.htm) or by including include structures [include](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_incl.htm).
 
--   As when including structures, an assignment to a search help and a definition of a foreign key dependency can be overwritten using additions [extend](javascript:call_link\('abenddicddl_define_struct_comp_ext.htm'\)) in a blank-separated list.
+-   As when including structures, an assignment to a search help and a definition of a foreign key dependency can be overwritten using additions [extend](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddicddl_define_struct_comp_ext.htm) in a blank-separated list.
 
 Notes
 
--   As in the [CDS syntax](javascript:call_link\('abencds_general_syntax_rules.htm'\)), the definition of an ABAP Dictionary append structure can contain comments after // and between /\* ... \*/.
+-   As in the [CDS syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_general_syntax_rules.htm), the definition of an ABAP Dictionary append structure can contain comments after // and between /\* ... \*/.
 
 -   A more detailed description of the syntax is available in the ADT documentation Syntax of ABAP Dictionary Objects.
 

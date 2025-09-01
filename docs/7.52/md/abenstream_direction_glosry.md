@@ -4,8 +4,8 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 stream direction
 
-Property of a [stream](javascript:call_link\('abenstream_glosry.htm'\) "Glossary Entry"). Either a [reader stream](javascript:call_link\('abenreader_stream_glosry.htm'\) "Glossary Entry") or a [writer stream](javascript:call_link\('abenwriter_stream_glosry.htm'\) "Glossary Entry").
+Property of a [stream](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstream_glosry.htm "Glossary Entry"). Either a [reader stream](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreader_stream_glosry.htm "Glossary Entry") or a [writer stream](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwriter_stream_glosry.htm "Glossary Entry").

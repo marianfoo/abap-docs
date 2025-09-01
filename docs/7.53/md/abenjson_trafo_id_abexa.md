@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) →  [JSON, Examples](javascript:call_link\('abenabap_json_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json.htm) →  [JSON, Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_json_abexas.htm) → 
 
 JSON, Identity Transformation with JSON Writer as Target
 
-This example demonstrates various XML sources for [identity transformations](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") with a [JSON writer](javascript:call_link\('abenjson_writer_glosry.htm'\) "Glossary Entry") as a target.
+This example demonstrates various XML sources for [identity transformations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenid_trafo_glosry.htm "Glossary Entry") with a [JSON writer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_writer_glosry.htm "Glossary Entry") as a target.
 
 Source Code
 
@@ -56,10 +56,10 @@ START-OF-SELECTION.
 
 Description
 
-The [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID is filled three times with XML sources. These sources can be passed to the [JSON writer](javascript:call_link\('abenjson_writer_glosry.htm'\) "Glossary Entry") specified as an XML target:
+The [identity transformation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID is filled three times with XML sources. These sources can be passed to the [JSON writer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_writer_glosry.htm "Glossary Entry") specified as an XML target:
 
 -   Valid JSON data in a byte string.
 
--   A [JSON reader](javascript:call_link\('abenjson_reader_glosry.htm'\) "Glossary Entry") that points to this byte string.
+-   A [JSON reader](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_reader_glosry.htm "Glossary Entry") that points to this byte string.
 
--   XML data in a byte string in [JSON XML format](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry").
+-   XML data in a byte string in [JSON XML format](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenjson_xml_glosry.htm "Glossary Entry").

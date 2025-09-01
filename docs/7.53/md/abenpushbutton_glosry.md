@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 pushbutton
 
-[Control element](javascript:call_link\('abencontrol_element_glosry.htm'\) "Glossary Entry") of the [GUI](javascript:call_link\('abengui_glosry.htm'\) "Glossary Entry") associated with a [function code](javascript:call_link\('abenfunction_code_glosry.htm'\) "Glossary Entry"), and which can be selected by being clicked. In [SAP GUI](javascript:call_link\('abensap_gui_glosry.htm'\) "Glossary Entry"), pushbuttons can be defined both as [screen elements](javascript:call_link\('abenscreen_element_glosry.htm'\) "Glossary Entry") and in [standard toolbars](javascript:call_link\('abenstandard_toolbar_glosry.htm'\) "Glossary Entry") and [application toolbars](javascript:call_link\('abenapplication_toolbar_glosry.htm'\) "Glossary Entry").
+[Control element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_element_glosry.htm "Glossary Entry") of the [GUI](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengui_glosry.htm "Glossary Entry") associated with a [function code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_code_glosry.htm "Glossary Entry"), and which can be selected by being clicked. In [SAP GUI](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_gui_glosry.htm "Glossary Entry"), pushbuttons can be defined both as [screen elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_element_glosry.htm "Glossary Entry") and in [standard toolbars](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_toolbar_glosry.htm "Glossary Entry") and [application toolbars](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenapplication_toolbar_glosry.htm "Glossary Entry").

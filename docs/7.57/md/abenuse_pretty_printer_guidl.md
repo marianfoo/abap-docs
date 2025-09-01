@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_gdl.htm'\)) →  [Formatting the Source Code](javascript:call_link\('abenformatting_code_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstructure_style_gdl.htm) →  [Formatting the Source Code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenformatting_code_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Using Pretty Printer, ABENUSE_PRETTY_PRINTER_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A
 %0D%0A%0D%0ASuggestion for improvement:)
@@ -13,9 +13,9 @@ Using Pretty Printer
 
 Background   
 
-The alignment of ABAP statements in the source code is not defined in the syntax. There should be a [maximum of one statement per line](javascript:call_link\('abenstatement_guidl.htm'\) "Guideline"), which can be technically indented and wrapped as required. This makes control structures visible. By inserting blank lines, related source code sections can be grouped, which makes the code easier to read. Note that, in ABAP statements, blanks cannot be added or left out at random. For example, tokens must be separated by at least one blank (especially with operands and operators). In a method call, no blanks are allowed between the name of the method and the opening parenthesis.
+The alignment of ABAP statements in the source code is not defined in the syntax. There should be a [maximum of one statement per line](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatement_guidl.htm "Guideline"), which can be technically indented and wrapped as required. This makes control structures visible. By inserting blank lines, related source code sections can be grouped, which makes the code easier to read. Note that, in ABAP statements, blanks cannot be added or left out at random. For example, tokens must be separated by at least one blank (especially with operands and operators). In a method call, no blanks are allowed between the name of the method and the opening parenthesis.
 
-Languages with a C-like syntax (where statement blocks within control structures are delimited by curly brackets) provide an inexhaustible source for discussions on how to best make indentations. However, for ABAP the solution is obvious: Every initiating statement (such as IF) has an associated concluding statement (in this case, ENDIF). Event blocks for ABAP runtime framework events are the only exception here. They are introduced by a statement (such as START-OF-SELECTION) but are not concluded with the associated concluding statement. Instead, they are concluded with the next event block. However, [event blocks](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") should only be used in exceptional cases. Initiating and concluding statements are aligned at the same level; the block content is indented.
+Languages with a C-like syntax (where statement blocks within control structures are delimited by curly brackets) provide an inexhaustible source for discussions on how to best make indentations. However, for ABAP the solution is obvious: Every initiating statement (such as IF) has an associated concluding statement (in this case, ENDIF). Event blocks for ABAP runtime framework events are the only exception here. They are introduced by a statement (such as START-OF-SELECTION) but are not concluded with the associated concluding statement. Instead, they are concluded with the next event block. However, [event blocks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") should only be used in exceptional cases. Initiating and concluding statements are aligned at the same level; the block content is indented.
 
 Pretty Printer can modify the indentation of control structures and the capitalization of keywords and names in the source code at any time (even in display mode).
 
@@ -33,7 +33,7 @@ Even though Pretty Printer can be used to adapt the source code to any other sty
 
 -   Indent statements
     
-    Absolutely essential for a logical program structure that is clearly visible. A [maximum of one statement per program line](javascript:call_link\('abenstatement_guidl.htm'\) "Guideline") is allowed.
+    Absolutely essential for a logical program structure that is clearly visible. A [maximum of one statement per program line](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatement_guidl.htm "Guideline") is allowed.
     
 -   Do not insert standard comments
     
@@ -41,7 +41,7 @@ Even though Pretty Printer can be used to adapt the source code to any other sty
     
 -   Uppercase keywords
     
-    Makes it easier to [understand the source code](javascript:call_link\('abenlower_upper_case_guidl.htm'\) "Guideline") in printed form. In this case, syntax color-coding is usually not visible.
+    Makes it easier to [understand the source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlower_upper_case_guidl.htm "Guideline") in printed form. In this case, syntax color-coding is usually not visible.
     
 
 The code needs to be edited manually, to ensure the correct use of blank lines between related source code blocks. Syntax units, such as classes, methods, control blocks, or semantic units of a program, should be separated from one another with one or two blank lines (depending on their size and meaning). However, there should not be more than two blank lines in succession.

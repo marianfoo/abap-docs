@@ -4,19 +4,22 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - DDIC-Based Entities](javascript:call_link\('abencds_ddic_entity.htm'\)) →  [ABAP CDS - DDIC-Based Views](javascript:call_link\('abencds_v1_views.htm'\)) →  [CDS DDL - DEFINE VIEW ddic\_based](javascript:call_link\('abencds_define_view_v1.htm'\)) →  [CDS DDL - DDIC-based View, SELECT](javascript:call_link\('abencds_select_statement_v1.htm'\)) →  [CDS DDL - DDIC-Based View, SELECT, Associations](javascript:call_link\('abencds_association_v1.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_entity.htm) →  [ABAP CDS - DDIC-Based Entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_ddic_entity.htm) →  [ABAP CDS - DDIC-Based Views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_views.htm) →  [CDS DDL - DEFINE VIEW ddic\_based](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_view_v1.htm) →  [CDS DDL - DDIC-based View, SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_statement_v1.htm) →  [CDS DDL - DDIC-Based View, SELECT, Associations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_association_v1.htm) → 
 
 CDS DDL - DDIC-Based View, Associations and Joins
 
-This topic describes the different use cases of CDS associations. It explains in which use case a join is generated on the database and which [join type](javascript:call_link\('abenjoin_type_glosry.htm'\) "Glossary Entry") is generated each time. Examples and screenshots of the SQL statement generated on the database are provided to further illustrate the transformation into joins.
+This topic describes the different use cases of CDS associations. It explains in which use case a join is generated on the database and which [join type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenjoin_type_glosry.htm "Glossary Entry") is generated each time. Examples and screenshots of the SQL statement generated on the database are provided to further illustrate the transformation into joins.
 
-When a CDS association is instantiated as join on the database, then the [association source](javascript:call_link\('abenassociation_source_glosry.htm'\) "Glossary Entry") represents the left side and the [association target](javascript:call_link\('abenassociation_target_glosry.htm'\) "Glossary Entry") represents the right side of the join. The ON condition of the association is added to the ON condition of the join.
+When a CDS association is instantiated as join on the database, then the [association source](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassociation_source_glosry.htm "Glossary Entry") represents the left side and the [association target](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenassociation_target_glosry.htm "Glossary Entry") represents the right side of the join. The ON condition of the association is added to the ON condition of the join.
 
 There are the following basic use cases for CDS associations:
 
--   [Using a path expression in the FROM clause](#abencds-assoc-join-v1-1-------exposing-a-cds-association---@ITOC@@ABENCDS_ASSOC_JOIN_V1_2)
--   [Adding a field from the association target to the element list](#abencds-assoc-join-v1-3-------using-a-path-expression-in-the-where-clause---@ITOC@@ABENCDS_ASSOC_JOIN_V1_4)
--   [Using an exposed association in an external view](#abencds-assoc-join-v1-5-------using-an-exposed-association-in-abap-sql---@ITOC@@ABENCDS_ASSOC_JOIN_V1_6)
+-   [Using a path expression in the FROM clause](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_1)
+-   [Exposing a CDS association](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_2)
+-   [Adding a field from the association target to the element list](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_3)
+-   [Using a path expression in the WHERE clause](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_4)
+-   [Using an exposed association in an external view](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_5)
+-   [Using an exposed association in ABAP SQL](#@@ITOC@@ABENCDS_ASSOC_JOIN_V1_6)
 
 Using a path expression in the FROM clause
 
@@ -36,7 +39,7 @@ SQL statement generated on the database:
 
 ![Figure](bdoc_assoc_6.png)
 
-The SQL statement generated on the database shows that the path expression is transformed into an [inner join](javascript:call_link\('abeninner_join_glosry.htm'\) "Glossary Entry") on the database.
+The SQL statement generated on the database shows that the path expression is transformed into an [inner join](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninner_join_glosry.htm "Glossary Entry") on the database.
 
 Exposing a CDS association
 
@@ -82,7 +85,7 @@ SQL statement generated on the database:
 
 ![Figure](bdoc_assoc_2.png)
 
-The SQL statement generated on the database shows that the path expression is transformed into a [left outer join](javascript:call_link\('abenleft_outer_join_glosry.htm'\) "Glossary Entry") on the database.
+The SQL statement generated on the database shows that the path expression is transformed into a [left outer join](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") on the database.
 
 Using a path expression in the WHERE clause
 
@@ -104,7 +107,7 @@ SQL statement generated on the database:
 
 ![Figure](bdoc_assoc_3.png)
 
-The SQL statement generated on the database shows that the path expression is transformed into a [left outer join](javascript:call_link\('abenleft_outer_join_glosry.htm'\) "Glossary Entry") with the cardinality many to one.
+The SQL statement generated on the database shows that the path expression is transformed into a [left outer join](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") with the cardinality many to one.
 
 Using an exposed association in an external view
 
@@ -126,7 +129,7 @@ SQL statement generated on the database:
 
 ![Figure](bdoc_assoc_4.png)
 
-The SQL statement generated on the database shows that the path expression is transformed into a [left outer join](javascript:call_link\('abenleft_outer_join_glosry.htm'\) "Glossary Entry") on the database. Note that this happens in the view that uses the association, and not in the view that defines the association.
+The SQL statement generated on the database shows that the path expression is transformed into a [left outer join](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") on the database. Note that this happens in the view that uses the association, and not in the view that defines the association.
 
 Using an exposed association in ABAP SQL
 
@@ -155,4 +158,4 @@ SQL statement generated on the database:
 
 ![Figure](bdoc_assoc_5.png)
 
-The path expression is transformed into a [left outer join](javascript:call_link\('abenleft_outer_join_glosry.htm'\) "Glossary Entry") on the database.
+The path expression is transformed into a [left outer join](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenleft_outer_join_glosry.htm "Glossary Entry") on the database.

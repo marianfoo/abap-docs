@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [Changes in Release 4.6A](javascript:call_link\('abennews-46a.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews.htm) →  [Changes in Releases 4.xx](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-4.htm) →  [Changes in Release 4.6A](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-46a.htm) → 
 
 Further Developments in Release 4.6A
 
@@ -26,21 +26,21 @@ Modification 1
 
 New event keyword LOAD-OF-PROGRAM
 
-[LOAD-OF-PROGRAMM](javascript:call_link\('abapload-of-program.htm'\)) is an event keyword which processes an event immediately before execution of the first load statement. For example, when a function module is called, the statements following LOAD-OF-PROGRAM are executed first after the function group has been loaded into the program memory. It is then no longer necessary to know the order of execution.
+[LOAD-OF-PROGRAMM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapload-of-program.htm) is an event keyword which processes an event immediately before execution of the first load statement. For example, when a function module is called, the statements following LOAD-OF-PROGRAM are executed first after the function group has been loaded into the program memory. It is then no longer necessary to know the order of execution.
 
-This statement has the same effect as a program constructor, similar to the class constructor in ABAP Objects, which replaces the event LOAD-OF-PROGRAM in [class pools](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") and global classes.
+This statement has the same effect as a program constructor, similar to the class constructor in ABAP Objects, which replaces the event LOAD-OF-PROGRAM in [class pools](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_pool_glosry.htm "Glossary Entry") and global classes.
 
 Modification 2
 
 Typing of RANGE tables
 
-The addition RANGE of the statements [DATA](javascript:call_link\('abapdata.htm'\)), [STATICS](javascript:call_link\('abapstatics.htm'\)), and [TYPES](javascript:call_link\('abaptypes.htm'\)) defines an internal table with the type [RANGES](javascript:call_link\('abapranges.htm'\)). This addition can also be used for the definitions in classes and is supported in ABAP Dictionary.
+The addition RANGE of the statements [DATA](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapdata.htm), [STATICS](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstatics.htm), and [TYPES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptypes.htm) defines an internal table with the type [RANGES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapranges.htm). This addition can also be used for the definitions in classes and is supported in ABAP Dictionary.
 
 Modification 3
 
-Increased precision in [BCD](javascript:call_link\('abenbcd_glosry.htm'\) "Glossary Entry") arithmetic
+Increased precision in [BCD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbcd_glosry.htm "Glossary Entry") arithmetic
 
-In rare cases in fixed point arithmetic, calculations were performed with a precision of 15 instead of 31 places. This meant that fields with many [decimal places](javascript:call_link\('abenfractional_portion_glosry.htm'\) "Glossary Entry") were sometimes rounded off. Now calculations are always performed to an accuracy of 31 places.
+In rare cases in fixed point arithmetic, calculations were performed with a precision of 15 instead of 31 places. This meant that fields with many [decimal places](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfractional_portion_glosry.htm "Glossary Entry") were sometimes rounded off. Now calculations are always performed to an accuracy of 31 places.
 
 This change has resulted in a significant reduction of the computing time required for multiplication and division.
 
@@ -48,7 +48,7 @@ Modification 4
 
 F1 help for dynamic field access
 
-Previously, F1 help in [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") and lists was not available for fields addressed using [field symbols](javascript:call_link\('abapfield-symbols.htm'\)) or [ASSIGN COMPONENT ...](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)), although the assigned field was defined in ABAP Dictionary. Online help is now available for all fields that have a HELP ID.
+Previously, F1 help in [dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm "Glossary Entry") and lists was not available for fields addressed using [field symbols](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfield-symbols.htm) or [ASSIGN COMPONENT ...](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapassign_mem_area_dynamic_dobj.htm), although the assigned field was defined in ABAP Dictionary. Online help is now available for all fields that have a HELP ID.
 
 Modification 5
 
@@ -60,7 +60,7 @@ Modification 6
 
 More literals and memory for literals
 
-The address space for [literals](javascript:call_link\('abenliteral.htm'\)) has also been expanded so that 64 KB are now available for the different literals. The length of the individual literals is limited only by operating system restrictions. Previously, a maximum of 64 KB was available for all literals together (indexes and texts).
+The address space for [literals](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenliteral.htm) has also been expanded so that 64 KB are now available for the different literals. The length of the individual literals is limited only by operating system restrictions. Previously, a maximum of 64 KB was available for all literals together (indexes and texts).
 
 Modification 7
 

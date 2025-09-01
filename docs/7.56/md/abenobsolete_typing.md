@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) → 
 
 Obsolete Type Reference
 
--   [Obsolete use of LIKE](javascript:call_link\('abenlike_obsolete.htm'\))
+-   [Obsolete use of LIKE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlike_obsolete.htm)
 
 Continue
-[LIKE, obsolete](javascript:call_link\('abenlike_obsolete.htm'\))
+[LIKE, obsolete](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlike_obsolete.htm)

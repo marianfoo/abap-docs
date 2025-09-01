@@ -4,19 +4,19 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab.htm) →  [Processing Statements for Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_processing_statements.htm) → 
 
 SORT itab
 
-[Quick Reference](javascript:call_link\('abapsort_itab_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsort_itab_shortref.htm)
 
 Syntax
 
 SORT itab *\[*STABLE*\]*
           *{* *{* *\[*ASCENDING*|*DESCENDING*\]*
               *\[*AS TEXT*\]*
-              *\[*BY *{* [comp1](javascript:call_link\('abenitab_components.htm'\)) *\[*ASCENDING*|*DESCENDING*\]* *\[*AS TEXT*\]**}*
-                  *{* [comp2](javascript:call_link\('abenitab_components.htm'\)) *\[*ASCENDING*|*DESCENDING*\]* *\[*AS TEXT*\]**}*
+              *\[*BY *{* [comp1](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_components.htm) *\[*ASCENDING*|*DESCENDING*\]* *\[*AS TEXT*\]**}*
+                  *{* [comp2](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_components.htm) *\[*ASCENDING*|*DESCENDING*\]* *\[*AS TEXT*\]**}*
                   ... *\]* *}*
           *|* *{* *\[*BY (otab)*\]* *}*
           *|* *{* *\[*BY expr*\]* *}* *}*.
@@ -32,29 +32,29 @@ Extras:
 
 Effect
 
-This statement sorts an internal table itab by the size of its components. Here, default sizes are compared using the general [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)), that is:
+This statement sorts an internal table itab by the size of its components. Here, default sizes are compared using the general [comparison rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules.htm), that is:
 
 -   Numeric and byte-like components are sorted by their values.
     
--   Character-like components are sorted by default by their binary representation ([code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry")). Textual sorting of character-like components can be performed using the addition AS TEXT.
+-   Character-like components are sorted by default by their binary representation ([code page](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencodepage_glosry.htm "Glossary Entry")). Textual sorting of character-like components can be performed using the addition AS TEXT.
     
--   The sizes of other component types are compared using the corresponding rules for [reference variables](javascript:call_link\('abenlogexp_rules_operands_ref.htm'\)), [structures](javascript:call_link\('abenlogexp_rules_operands_struc.htm'\)), and [internal tables](javascript:call_link\('abenlogexp_rules_operands_itab.htm'\)).
+-   The sizes of other component types are compared using the corresponding rules for [reference variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules_operands_ref.htm), [structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules_operands_struc.htm), and [internal tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules_operands_itab.htm).
     
 
-If no explicit sort key is entered using the addition BY, the internal table itab is sorted by the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry"). The priority of the sort is based on the order in which the [key fields](javascript:call_link\('abaptypes_keydef.htm'\)) are specified in the table definition. In [standard keys](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry"), the sort is prioritized according to the order of the key fields in the row type of the table. If the primary table key of a standard table is [empty](javascript:call_link\('abenitab_empty_key.htm'\)), no sort takes place. If this is known statically, the syntax check produces a warning.
+If no explicit sort key is entered using the addition BY, the internal table itab is sorted by the [primary table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_table_key_glosry.htm "Glossary Entry"). The priority of the sort is based on the order in which the [key fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_keydef.htm) are specified in the table definition. In [standard keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_key_glosry.htm "Glossary Entry"), the sort is prioritized according to the order of the key fields in the row type of the table. If the primary table key of a standard table is [empty](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_empty_key.htm), no sort takes place. If this is known statically, the syntax check produces a warning.
 
 Sorting is unstable by default, which means that the relative order of rows that do not have different sort keys is not preserved when they are sorted. The order can be different depending on the platform or when sorted multiple times. The addition STABLE can be used for stable sorting.
 
-itab expects a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") or a [hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry").
+itab expects a [standard table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm "Glossary Entry") or a [hashed table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhashed_table_glosry.htm "Glossary Entry").
 
--   In standard tables, the [primary table index](javascript:call_link\('abenprimary_table_index_glosry.htm'\) "Glossary Entry") is applied in accordance with the sort order
+-   In standard tables, the [primary table index](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_table_index_glosry.htm "Glossary Entry") is applied in accordance with the sort order
     
 -   In hashed tables, the internal order is modified. This internal order was defined either by inserting rows in the internal table or by a previous sort using the statement SORT.
     
 
-In both table categories, SORT specifies the order in which a subsequent [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)) runs without the addition USING KEY.
+In both table categories, SORT specifies the order in which a subsequent [LOOP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab.htm) runs without the addition USING KEY.
 
-Sorted tables cannot be sorted using SORT and applying the statement SORT to [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") is prohibited by the syntax. If the system only detects that a sorted table is to be sorted at runtime, a non-handleable exception is raised if this action could modify the existing sorting. The latter occurs in the following cases:
+Sorted tables cannot be sorted using SORT and applying the statement SORT to [sorted tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensorted_table_glosry.htm "Glossary Entry") is prohibited by the syntax. If the system only detects that a sorted table is to be sorted at runtime, a non-handleable exception is raised if this action could modify the existing sorting. The latter occurs in the following cases:
 
 -   if the addition BY is used to specify a different sort key as the initial part of the table key.
     
@@ -69,25 +69,25 @@ Otherwise, the statement SORT is ignored for sorted tables.
 
 Notes
 
--   It is best to specify an explicit sort key behind BY, if possible. An implicit sort behind the [primary table key](javascript:call_link\('abentable_key_glosry.htm'\) "Glossary Entry") (which can itself, in standard tables, be defined implicitly as a [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry")) makes a program difficult to understand and possibly unpredictable.
+-   It is best to specify an explicit sort key behind BY, if possible. An implicit sort behind the [primary table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_key_glosry.htm "Glossary Entry") (which can itself, in standard tables, be defined implicitly as a [standard key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_key_glosry.htm "Glossary Entry")) makes a program difficult to understand and possibly unpredictable.
     
--   When using the primary table key, note that this key can be the [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry"), which can also have unexpected consequences:
+-   When using the primary table key, note that this key can be the [standard key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_key_glosry.htm "Glossary Entry"), which can also have unexpected consequences:
     
 
 -   If the row type is structured, the table is sorted by all character-like and byte-like components.
 
--   The standard key of a standard table can be [empty](javascript:call_link\('abenitab_empty_key.htm'\)).
+-   The standard key of a standard table can be [empty](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_empty_key.htm).
     
 
 -   Secondary table keys cannot be specified as sort keys.
     
--   SORTs are ignored by the assignment of rows to a [secondary table index](javascript:call_link\('abensecondary_table_index_glosry.htm'\) "Glossary Entry").
+-   SORTs are ignored by the assignment of rows to a [secondary table index](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_table_index_glosry.htm "Glossary Entry").
     
--   The addition [GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) of the statement [LOOP AT itab](javascript:call_link\('abaploop_at_itab.htm'\)) or of a [FOR expression](javascript:call_link\('abenfor_groups_of.htm'\)) also has the additions ASCENDING and DESCENDING for sorting groups. These can be used to expand the statement SORT if its sort criteria are not sufficient (see the [executable example](javascript:call_link\('abenloop_group_by_sort_abexa.htm'\))).
+-   The addition [GROUP BY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_group_by.htm) of the statement [LOOP AT itab](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab.htm) or of a [FOR expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfor_groups_of.htm) also has the additions ASCENDING and DESCENDING for sorting groups. These can be used to expand the statement SORT if its sort criteria are not sufficient (see the [executable example](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenloop_group_by_sort_abexa.htm)).
     
--   It is possible to sort columns with [reference types](javascript:call_link\('abenreference_type_glosry.htm'\) "Glossary Entry") but doing this is questionable. Here it is important to note that no comparison rule is defined for non-initial invalid references. An internal table can only be sorted by valid or initial references. A non-initial, invalid reference leads to a runtime error if it is involved in sorting.
+-   It is possible to sort columns with [reference types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_type_glosry.htm "Glossary Entry") but doing this is questionable. Here it is important to note that no comparison rule is defined for non-initial invalid references. An internal table can only be sorted by valid or initial references. A non-initial, invalid reference leads to a runtime error if it is involved in sorting.
     
--   System class CL\_ABAP\_ITAB\_UTILITIES contains method VIRTUAL\_SORT, which can be used to virtually sort a set of internal tables. See also the executable [examples](javascript:call_link\('abenvirtual_sort_abexas.htm'\)) listed below.
+-   System class CL\_ABAP\_ITAB\_UTILITIES contains method VIRTUAL\_SORT, which can be used to virtually sort a set of internal tables. See also the executable [examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvirtual_sort_abexas.htm) listed below.
     
 
 Example
@@ -103,9 +103,9 @@ SORT carriers.
 
 Executable Examples
 
--   [Sorting Internal Tables](javascript:call_link\('abensort_stable_abexa.htm'\))
+-   [Sorting Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensort_stable_abexa.htm)
 
--   [Sorting Internal Tables with Secondary Keys](javascript:call_link\('abensort_itab_sec_key_abexa.htm'\))
+-   [Sorting Internal Tables with Secondary Keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensort_itab_sec_key_abexa.htm)
     
 
 Addition 1
@@ -141,7 +141,7 @@ The addition ASCENDING or DESCENDING can be used to specify the sort direction e
 
 Example
 
-The internal table itab is sorted by its primary key (in other words, by its rows). Next, [LOOP AT GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) can be used for grouping and determine the number of rows per group.
+The internal table itab is sorted by its primary key (in other words, by its rows). Next, [LOOP AT GROUP BY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaploop_at_itab_group_by.htm) can be used for grouping and determine the number of rows per group.
 
 DATA itab TYPE TABLE OF i WITH NON-UNIQUE KEY table\_line.
 DATA(rnd) = cl\_abap\_random\_int=>create( seed = + sy-uzeit
@@ -163,20 +163,20 @@ Addition 3
 
 Effect
 
-The addition AS TEXT specifies that [text-like](javascript:call_link\('abentextlike_data_type_glosry.htm'\) "Glossary Entry") components are sorted in accordance with the [locale](javascript:call_link\('abenlocale_glosry.htm'\) "Glossary Entry") of the current [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry"). If AS TEXT is not specified, text-like components are sorted according to the encoding in the code page of the current text environment. This can be overwritten after the addition BY for the components specified individually here. The text environment is set when an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") is opened or by using the statement [SET LOCALE](javascript:call_link\('abapset_locale.htm'\)).
+The addition AS TEXT specifies that [text-like](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentextlike_data_type_glosry.htm "Glossary Entry") components are sorted in accordance with the [locale](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlocale_glosry.htm "Glossary Entry") of the current [text environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_environment_glosry.htm "Glossary Entry"). If AS TEXT is not specified, text-like components are sorted according to the encoding in the code page of the current text environment. This can be overwritten after the addition BY for the components specified individually here. The text environment is set when an [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry") is opened or by using the statement [SET LOCALE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_locale.htm).
 
 Notes
 
--   The result of sorting without the addition AS TEXT depends on the operating system of the [application server](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry"). Although the sequence of individual letters that belong to the activated language remains the same across different operating systems, there are differences in terms of the characters that do not belong to the alphabet of the activated language. Even if only the letters from the alphabet of the activated language are used, some slight differences occur when sorting complete words. Furthermore, the order of uppercase and lowercase letters is specific to the operating system.
+-   The result of sorting without the addition AS TEXT depends on the operating system of the [application server](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenapplication_server_glosry.htm "Glossary Entry"). Although the sequence of individual letters that belong to the activated language remains the same across different operating systems, there are differences in terms of the characters that do not belong to the alphabet of the activated language. Even if only the letters from the alphabet of the activated language are used, some slight differences occur when sorting complete words. Furthermore, the order of uppercase and lowercase letters is specific to the operating system.
     
--   The use of the addition AS TEXT usually renders the statement [CONVERT TEXT](javascript:call_link\('abapconvert_text.htm'\)) superfluous in the context of internal tables.
+-   The use of the addition AS TEXT usually renders the statement [CONVERT TEXT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapconvert_text.htm) superfluous in the context of internal tables.
     
--   A sort without the addition AS TEXT is considerably faster than a sort that does use this addition. If it is certain that both sorts produce the same order, the addition AS TEXT is not necessary. This can be the case if, for example, text-like components contain characters from the [ASCII](javascript:call_link\('abenascii_glosry.htm'\) "Glossary Entry") character set only and only lowercase or uppercase letters.
+-   A sort without the addition AS TEXT is considerably faster than a sort that does use this addition. If it is certain that both sorts produce the same order, the addition AS TEXT is not necessary. This can be the case if, for example, text-like components contain characters from the [ASCII](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenascii_glosry.htm "Glossary Entry") character set only and only lowercase or uppercase letters.
     
 
 Example
 
-Sorting a [hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") text\_tab by the order in the code page and in accordance with the locale of the current [text environment](javascript:call_link\('abentext_environment.htm'\)). If a western European text environment is configured, the sorts produce the orders Miller, Moller, Muller, Möller and Miller, Moller, Möller, Muller respectively (also see the [executable example](javascript:call_link\('abenset_locale_abexa.htm'\)) for SET LOCALE).
+Sorting a [hashed table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhashed_table_glosry.htm "Glossary Entry") text\_tab by the order in the code page and in accordance with the locale of the current [text environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_environment.htm). If a western European text environment is configured, the sorts produce the orders Miller, Moller, Muller, Möller and Miller, Moller, Möller, Muller respectively (also see the [executable example](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenset_locale_abexa.htm) for SET LOCALE).
 
 CLASS demo DEFINITION.
   PUBLIC SECTION.
@@ -203,7 +203,7 @@ START-OF-SELECTION.
 
 Executable Example
 
-[Sorting Internal Tables Alphabetically](javascript:call_link\('abensort_text_abexa.htm'\))
+[Sorting Internal Tables Alphabetically](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensort_text_abexa.htm)
 
 Addition 4
 
@@ -211,7 +211,7 @@ Addition 4
 
 Effect
 
-The addition BY compi does not sort the table by the [primary table key](javascript:call_link\('abaptypes_keydef.htm'\)), but by the components comp1 comp2... specified after it instead. The components are specified as described under [Specifying Components](javascript:call_link\('abenitab_components.htm'\)). If all components are specified using name variables and these variables contain only blanks, no sort takes place. The priority of the sort depends on the order in which the components comp1 comp2 ... are specified from left to right. The specified components can also be duplicated or can overlap. The specified components can have any data type. The relevant [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) apply to the evaluation.
+The addition BY compi does not sort the table by the [primary table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_keydef.htm), but by the components comp1 comp2... specified after it instead. The components are specified as described under [Specifying Components](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_components.htm). If all components are specified using name variables and these variables contain only blanks, no sort takes place. The priority of the sort depends on the order in which the components comp1 comp2 ... are specified from left to right. The specified components can also be duplicated or can overlap. The specified components can have any data type. The relevant [comparison rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_rules.htm) apply to the evaluation.
 
 If neither of the additions ASCENDING or DESCENDING are specified after compi, the sort direction specified by addition 2 is used. If one of the additions ASCENDING or DESCENDING is specified, it overwrites the default for this component.
 
@@ -223,7 +223,7 @@ Notes
     
 -   Instead of individual dynamic components, an internal table can be specified directly as otab or as the result of an expression expr as a dynamic sort key (see additions 5 and 6). Using a table like this has the advantage that any exceptions are handleable. When specifying the table, the number of components of the sort key is also dynamic. In contrast, when individual dynamic components are used, a character-like data object must be specified for any required component, which is ignored if it only contains blank characters.
     
--   An [obsolete variant](javascript:call_link\('abapsort_itab_obsolete.htm'\)) allows field symbols to also be specified for the components outside of classes, for standard tables.
+-   An [obsolete variant](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapsort_itab_obsolete.htm) allows field symbols to also be specified for the components outside of classes, for standard tables.
     
 
 Example
@@ -254,17 +254,17 @@ Addition 5
 
 Effect
 
-The addition BY (otab) does not sort the table by the [primary table key](javascript:call_link\('abaptypes_keydef.htm'\)), but by the component specified dynamically in the internal table otab instead. Each row of the table otab defines a component of the sort key. The priority of the sort is based on the order of the rows in otab. If the table otab is initial, the table is not sorted.
+The addition BY (otab) does not sort the table by the [primary table key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_keydef.htm), but by the component specified dynamically in the internal table otab instead. Each row of the table otab defines a component of the sort key. The priority of the sort is based on the order of the rows in otab. If the table otab is initial, the table is not sorted.
 
 For otab, a standard table of the table type ABAP\_SORTORDER\_TAB from ABAP Dictionary must be specified. The row type of this table is the dictionary structure ABAP\_SORTORDER with the following components:
 
--   NAME of type [SSTRING](javascript:call_link\('abenddic_builtin_types.htm'\))
-    for specifying a component of the sort key. The component is specified in the form "comp\_name\[+off(len)\]", where "comp\_name" must be the name of a component in itab (uppercase characters). The component name may contain [offsets and lengths](javascript:call_link\('abenoffset_length.htm'\)), structure component selectors, and component selectors for assigning structured data objects and attributes in classes or objects.
+-   NAME of type [SSTRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm)
+    for specifying a component of the sort key. The component is specified in the form "comp\_name\[+off(len)\]", where "comp\_name" must be the name of a component in itab (uppercase characters). The component name may contain [offsets and lengths](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoffset_length.htm), structure component selectors, and component selectors for assigning structured data objects and attributes in classes or objects.
     
--   DESCENDING of the type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) of a length 1
+-   DESCENDING of the type [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) of a length 1
     for specifying the sort direction for the current component. If DESCENDING is initial, the sort is performed in ascending order. If DESCENDING has the value "X", the table is sorted in descending order.
     
--   ASTEXT of type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 1
+-   ASTEXT of type [CHAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) with length 1
     for the text sorting of the current component. If ASTEXT has the value "X", the sort is performed as with the addition AS TEXT. This is only possible for character-like components. If ASTEXT is initial, character-like components are sorted in accordance with their binary representation.
     
 
@@ -276,7 +276,7 @@ Notes
     
 -   When using the addition BY (otab), it is not possible to use DESCENDING or AS TEXT to specify a descending sort direction or textual sorting for all components.
     
--   If a single parenthesized data object (dobj) is specified after the BY addition, its data type decides whether its content is used to specify a [single dynamic component](javascript:call_link\('abenitab_components.htm'\)) or multiple components. In either case, no sort takes place if dobj is initial.
+-   If a single parenthesized data object (dobj) is specified after the BY addition, its data type decides whether its content is used to specify a [single dynamic component](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_components.htm) or multiple components. In either case, no sort takes place if dobj is initial.
     
 
 Example
@@ -323,7 +323,7 @@ Addition 6
 
 Effect
 
-The addition BY expr can be used to specify an expression or a functional method call expr whose result is an internal table with the same type and content as in the preceding addition BY (otab). expr is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). The behavior is the same as when specifying a parenthesized internal table directly.
+The addition BY expr can be used to specify an expression or a functional method call expr whose result is an internal table with the same type and content as in the preceding addition BY (otab). expr is a [general expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). The behavior is the same as when specifying a parenthesized internal table directly.
 
 Note
 
@@ -331,7 +331,7 @@ Parentheses cannot be placed around expr.
 
 Example
 
-The above example for specifying BY (otab) can be written in a shorter form as shown below. Instead of specifying the unnecessary internal table order, you can specify the tabular value (constructed using value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\))) of the required content.
+The above example for specifying BY (otab) can be written in a shorter form as shown below. Instead of specifying the unnecessary internal table order, you can specify the tabular value (constructed using value operator [VALUE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor_expression_value.htm)) of the required content.
 
 ...
 SPLIT columns AT \`,\` INTO TABLE DATA(column\_tab).
@@ -346,9 +346,9 @@ ENDTRY.
 
 Executable Example
 
-[Sorting Internal Tables Dynamically](javascript:call_link\('abensort_itab_exp_abexa.htm'\)).
+[Sorting Internal Tables Dynamically](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensort_itab_exp_abexa.htm).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 
@@ -389,7 +389,7 @@ Non-Handleable Exceptions
     
 
 Continue
-![Example](exa.gif "Example") [Sorting Internal Tables](javascript:call_link\('abensort_stable_abexa.htm'\))
-![Example](exa.gif "Example") [Sorting Internal Tables with Secondary Keys](javascript:call_link\('abensort_itab_sec_key_abexa.htm'\))
-![Example](exa.gif "Example") [Sorting Internal Tables Alphabetically](javascript:call_link\('abensort_text_abexa.htm'\))
-![Example](exa.gif "Example") [Sorting Internal Tables Dynamically](javascript:call_link\('abensort_itab_exp_abexa.htm'\))
+![Example](exa.gif "Example") [Sorting Internal Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensort_stable_abexa.htm)
+![Example](exa.gif "Example") [Sorting Internal Tables with Secondary Keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensort_itab_sec_key_abexa.htm)
+![Example](exa.gif "Example") [Sorting Internal Tables Alphabetically](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensort_text_abexa.htm)
+![Example](exa.gif "Example") [Sorting Internal Tables Dynamically](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensort_itab_exp_abexa.htm)

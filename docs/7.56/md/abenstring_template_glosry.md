@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 character string template
 
-String template for short. A character string template creates a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry") from literal text, embedded expressions, and control characters in a [string expression](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry").
+String template for short. A character string template creates a [character string](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharacter_string_glosry.htm "Glossary Entry") from literal text, embedded expressions, and control characters in a [string expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_expression_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenstring_templates.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstring_templates.htm)

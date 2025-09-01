@@ -4,16 +4,20 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_cast](javascript:call_link\('abensql_cast.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_cast](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_cast.htm) → 
 
 sql\_exp - sql\_cast, Conversion Rules
 
-The following sections describe the conversion rules for [cast expressions](javascript:call_link\('abensql_cast.htm'\)) in ABAP SQL.
+The following sections describe the conversion rules for [cast expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_cast.htm) in ABAP SQL.
 
--   [Numeric Source Type](#abensql-cast-rules-1-----------source-type-int1--int2--int4--int8--dec---@ITOC@@ABENSQL_CAST_RULES_2)
-    -   [Source Type DF16\_DEC, DF34\_DEC](#abensql-cast-rules-3-------character-like-source-type---@ITOC@@ABENSQL_CAST_RULES_4)
-    -   [Source Types CHAR, SSTRING](#abensql-cast-rules-5-----------source-type-numc---@ITOC@@ABENSQL_CAST_RULES_6)
-    -   [Source Types DATS, TIMS, and CLNT](#abensql-cast-rules-7-----------source-types-lang--unit--and-cuky---@ITOC@@ABENSQL_CAST_RULES_8)
+-   [Numeric Source Type](#@@ITOC@@ABENSQL_CAST_RULES_1)
+    -   [Source Type INT1, INT2, INT4, INT8, DEC](#@@ITOC@@ABENSQL_CAST_RULES_2)
+    -   [Source Type DF16\_DEC, DF34\_DEC](#@@ITOC@@ABENSQL_CAST_RULES_3)
+-   [Character-Like Source Type](#@@ITOC@@ABENSQL_CAST_RULES_4)
+    -   [Source Types CHAR, SSTRING](#@@ITOC@@ABENSQL_CAST_RULES_5)
+    -   [Source Type NUMC](#@@ITOC@@ABENSQL_CAST_RULES_6)
+    -   [Source Types DATS, TIMS, and CLNT](#@@ITOC@@ABENSQL_CAST_RULES_7)
+    -   [Source Types LANG, UNIT, and CUKY](#@@ITOC@@ABENSQL_CAST_RULES_8)
 
 Data types that cannot be converted to each other are not listed. In these cases, casts are either not possible or only casts between type-compliant operands. If the source type and the target type are technically identical, the content is transferred without being converted.
 
@@ -27,14 +31,14 @@ Source Type INT1, INT2, INT4, INT8, DEC, CURR, QUAN, DECFLOAT16, DECFLOAT34
     
     -   The source value is converted to the internal representation for the target type.
     -   If the value range is exceeded, an exception is raised that can be caught using CX\_SY\_OPEN\_SQL\_DB. In the case of the target types DEC, CURR, and QUAN, this applies to the integer digits and any surplus decimal places are cut off without rounding.
-    -   In the case of the target type FLTP, values that cannot be represented as [binary floating point numbers](javascript:call_link\('abenbinfloat_glosry.htm'\) "Glossary Entry") are converted to the next adjacent number.
+    -   In the case of the target type FLTP, values that cannot be represented as [binary floating point numbers](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbinfloat_glosry.htm "Glossary Entry") are converted to the next adjacent number.
 -   Character-like target type
     
     The possible target types are CHAR and SSTRING.
     
-    -   The number value is converted to a character string in [mathematical notation](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") without decimal separators and is left-aligned.
+    -   The number value is converted to a character string in [mathematical notation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") without decimal separators and is left-aligned.
     -   The length of the target type must be sufficient for all potential values including the sign.
-    -   In the case of the source types DECFLOAT16 and DECFLOAT34, [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry") is produced from a specific value.
+    -   In the case of the source types DECFLOAT16 and DECFLOAT34, [scientific notation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscientific_notation_glosry.htm "Glossary Entry") is produced from a specific value.
 
 Hint
 
@@ -71,7 +75,7 @@ Source Type NUMC
     -   If the value range in the integer places is exceeded, an exception is raised that can be caught using CX\_SY\_OPEN\_SQL\_DB.
     -   In the case of the target types DECFLOAT16 and DECFLOAT34, rounding takes place to the last significant place.
     -   In the case of the target types, INT1, INT2, and INT4, any decimal places in the source field raise an exception. In the case of the target types INT8, DEC, CURR, and QUAN, surplus decimal places are cut off without rounding.
-    -   In the case of the target type FLTP, values that cannot be represented as [binary floating point numbers](javascript:call_link\('abenbinfloat_glosry.htm'\) "Glossary Entry") are converted to the next adjacent number.
+    -   In the case of the target type FLTP, values that cannot be represented as [binary floating point numbers](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbinfloat_glosry.htm "Glossary Entry") are converted to the next adjacent number.
 -   Character-like target type
     
     The possible target types are CHAR, SSTRING, NUMC, CLNT, DATS, and TIMS.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP RESTful Programming Model](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Behavior Definitions](javascript:call_link\('abenabap_behavior_definitions.htm'\)) →  [ABAP BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [ABAP BDL - Syntax](javascript:call_link\('abenbdl_syntax.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP RESTful Programming Model](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrestful_abap_programming.htm) →  [Behavior Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_behavior_definitions.htm) →  [ABAP BDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_bdl.htm) →  [ABAP BDL - Syntax](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_syntax.htm) → 
 
 ABAP BDL - Structure
 
@@ -51,7 +51,7 @@ field (read only | mandatory) field*\[*, field, ...*\]*;
 
 Rules
 
--   Not every entity property ([late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\)), [etag](javascript:call_link\('abenbdl_etag.htm'\)), or [lock](javascript:call_link\('abenbdl_lock.htm'\))) from the [composition tree](javascript:call_link\('abencomposition_tree_glosry.htm'\) "Glossary Entry") is a mandatory property.
+-   Not every entity property ([late numbering](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_late_numbering.htm), [etag](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_etag.htm), or [lock](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_lock.htm)) from the [composition tree](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomposition_tree_glosry.htm "Glossary Entry") is a mandatory property.
 
 -   A property can occur a maximum of once in a behavior definition.
 

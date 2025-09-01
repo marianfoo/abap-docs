@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [ABAP-Specific Rules](javascript:call_link\('abenabap_specific_rules_guidl.htm'\)) →  [Checks for Correctness](javascript:call_link\('abencheck_correctness_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [ABAP-Specific Rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_specific_rules_guidl.htm) →  [Checks for Correctness](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheck_correctness_guidl.htm) → 
 
 Code Inspector
 
@@ -12,7 +12,7 @@ Background
 
 The Code Inspector tool performs a static check of repository objects regarding performance, security, syntax, and adherence to naming conventions. Transaction SCI can be called to use the full range of functions of Code Inspector to perform complex static checks and regular mass tests for large numbers of development objects.
 
-Code Inspector can also be called from ABAP Workbench to perform a standard set of checks for the current object, for example by choosing Program → Check → Code Inspector in ABAP Editor. The standard check variant used here contains most of the checks from the [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline"), as well as a few additional security and performance checks. Code Inspector can also be integrated into the release of transports.
+Code Inspector can also be called from ABAP Workbench to perform a standard set of checks for the current object, for example by choosing Program → Check → Code Inspector in ABAP Editor. The standard check variant used here contains most of the checks from the [extended program check](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenextended_program_check_guidl.htm "Guideline"), as well as a few additional security and performance checks. Code Inspector can also be integrated into the release of transports.
 
 As in the extended program check, the results of Code Inspector are divided into three categories (errors, warnings, and simple messages), which you can hide using special pseudo comments.
 
@@ -24,11 +24,11 @@ Perform the standard check variant of Code Inspector before releasing a program,
 
 Details
 
-If the [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline") is used, the standard check variant of Code Inspector only reports messages and checks that are not covered by the extended program check. These are mainly messages relating to potential performance or security risks in programs. Examples are messages about unfavorable WHERE conditions in a SELECT, a pass by value instead of a pass by reference for parameters, or non-secure program calls.
+If the [extended program check](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenextended_program_check_guidl.htm "Guideline") is used, the standard check variant of Code Inspector only reports messages and checks that are not covered by the extended program check. These are mainly messages relating to potential performance or security risks in programs. Examples are messages about unfavorable WHERE conditions in a SELECT, a pass by value instead of a pass by reference for parameters, or non-secure program calls.
 
 Compared with the messages of the extended program check, it is not always so easy to correct these problems at their source, perhaps because there is no other option for a selection, or because the transparency or robustness of a construct is seen as more important than a small potential loss of performance.
 
-In such cases, the messages can be suppressed using the appropriate pseudo comments. A pseudo comment is a clear indication to the reader of a program that the program author has performed the relevant checks and has explicitly suppressed the message for a good reason. If necessary, pseudo comments can be substantiated by additional normal [comments](javascript:call_link\('abencomments_guidl.htm'\) "Guideline").
+In such cases, the messages can be suppressed using the appropriate pseudo comments. A pseudo comment is a clear indication to the reader of a program that the program author has performed the relevant checks and has explicitly suppressed the message for a good reason. If necessary, pseudo comments can be substantiated by additional normal [comments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomments_guidl.htm "Guideline").
 
 Bad Example
 

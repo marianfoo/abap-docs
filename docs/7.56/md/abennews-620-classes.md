@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [News for Release 6.20](javascript:call_link\('abennews-620.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 6.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-6.htm) →  [News for Release 6.20](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-620.htm) → 
 
 System Classes and Methods in Release 6.20
 
@@ -17,7 +17,7 @@ Modification 1  
 
 Class for Calculating with Time Stamps
 
-Class CL\_ABAP\_TSTMP has been introduced for calculating with [time stamps](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") in packed numbers.
+Class CL\_ABAP\_TSTMP has been introduced for calculating with [time stamps](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentime_stamp_glosry.htm "Glossary Entry") in packed numbers.
 
 Modification 2   
 
@@ -37,7 +37,7 @@ Modification 4  
 
 Methods for Determining Type Attributes
 
-Two new methods have been introduced in class CL\_ABAP\_DATADESCR for determining type attributes at runtime ([RTTI](javascript:call_link\('abenrtti.htm'\))):
+Two new methods have been introduced in class CL\_ABAP\_DATADESCR for determining type attributes at runtime ([RTTI](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrtti.htm)):
 
 -   The method IS\_READ\_ONLY determines whether a reference data object is write-protected.
 -   The method APPLIES\_TO\_DATA\_REF executes a type check between the description and the data object. This makes it possible to determine the compatibility of data objects.

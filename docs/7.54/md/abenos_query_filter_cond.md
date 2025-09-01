@@ -4,15 +4,19 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Object Services](javascript:call_link\('abenabap_object_services.htm'\)) →  [Query Service](javascript:call_link\('abenabap_object_services_query.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services.htm) →  [Query Service](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_object_services_query.htm) → 
 
 Query Conditions
 
 A query condition is a logical expression that compares the attributes of a persistent class with free parameters or values. The syntax of a query condition is based on the syntax of the ABAP SQL WHERE condition, where reference variables for object references are also supported. Like a WHERE condition, a query condition is made up of elementary comparisons that can be joined using the Boolean operators AND, OR, and NOT, where grouping using parentheses is supported.
 
--   [Relational Operators](#abenos-query-filter-cond-1--------like---@ITOC@@ABENOS_QUERY_FILTER_COND_2)
+-   [Relational Operators](#@@ITOC@@ABENOS_QUERY_FILTER_COND_1)
 
--   [IS NULL](#abenos-query-filter-cond-3--------equalsref---@ITOC@@ABENOS_QUERY_FILTER_COND_4)
+-   [LIKE](#@@ITOC@@ABENOS_QUERY_FILTER_COND_2)
+
+-   [IS NULL](#@@ITOC@@ABENOS_QUERY_FILTER_COND_3)
+
+-   [EQUALSREF](#@@ITOC@@ABENOS_QUERY_FILTER_COND_4)
 
 -   [AND, OR, NOT](#@@ITOC@@ABENOS_QUERY_FILTER_COND_5)
 
@@ -30,11 +34,11 @@ The query condition and its parameter list are analyzed when a query is executed
 
 Security Notes
 
--   The layout of a query condition in a program is one of the dynamic programming techniques. If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the predefined function [escape](javascript:call_link\('abenescape_functions.htm'\)).
+-   The layout of a query condition in a program is one of the dynamic programming techniques. If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the predefined function [escape](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenescape_functions.htm).
 
--   To avoid [SQL injections](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry"), the use of parameters from the parameter list of a chaining is recommended, where dynamic values are represented as literals.
+-   To avoid [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry"), the use of parameters from the parameter list of a chaining is recommended, where dynamic values are represented as literals.
 
--   See also [SQL Injections Using Object Services](javascript:call_link\('abensql_inj_os_query_scrty.htm'\)).
+-   See also [SQL Injections Using Object Services](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_inj_os_query_scrty.htm).
 
 Relational Operators
 

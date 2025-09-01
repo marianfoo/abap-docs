@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [Method Calls](javascript:call_link\('abenmethod_calls.htm'\)) →  [Dynamic Method Call](javascript:call_link\('abenmethod_calls_dynamic.htm'\)) →  [CALL METHOD](javascript:call_link\('abapcall_method_dynamic.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_procedures.htm) →  [Method Calls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_calls.htm) →  [Dynamic Method Call](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmethod_calls_dynamic.htm) →  [CALL METHOD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_dynamic.htm) → 
 
 CALL METHOD - parameter\_tables
 
-[Quick Reference](javascript:call_link\('abapcall_method_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_shortref.htm)
 
 Syntax
 
@@ -22,7 +22,7 @@ Extras:
 
 Effect
 
-In [dynamic method calls](javascript:call_link\('abapcall_method_dynamic.htm'\)), these additions assign actual parameters and exceptions to the formal parameters and non-class-based exceptions respectively, using the special internal tables ptab and etab.
+In [dynamic method calls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_dynamic.htm), these additions assign actual parameters and exceptions to the formal parameters and non-class-based exceptions respectively, using the special internal tables ptab and etab.
 
 Addition 1
 
@@ -30,7 +30,7 @@ Addition 1
 
 Effect
 
-PARAMETER-TABLE can be used to assign actual parameters to all formal parameters of a dynamically called method. ptab expects a [hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") of table type ABAP\_PARMBIND\_TAB or of row type ABAP\_PARMBIND from the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") ABAP. When the statement CALL METHOD is executed, the table must contain exactly one row for each non-optional formal parameter. This row is optional for each optional formal parameter. The table columns are:
+PARAMETER-TABLE can be used to assign actual parameters to all formal parameters of a dynamically called method. ptab expects a [hashed table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhashed_table_glosry.htm "Glossary Entry") of table type ABAP\_PARMBIND\_TAB or of row type ABAP\_PARMBIND from the [type group](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_group_1_glosry.htm "Glossary Entry") ABAP. When the statement CALL METHOD is executed, the table must contain exactly one row for each non-optional formal parameter. This row is optional for each optional formal parameter. The table columns are:
 
 -   NAME of type c and length 30
     Specifies the name of the formal parameter in question in uppercase. If a nonexistent formal parameter is specified, a handleable exception is raised.
@@ -50,10 +50,10 @@ Addition 2
 
 Effect
 
-EXCEPTION-TABLE can be used to assign return codes to all [non-class-based exceptions](javascript:call_link\('abenexceptions_non_class.htm'\)) of a dynamically called method. etab expects a [hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") of table type ABAP\_EXCPBIND\_TAB or of row type ABAP\_EXCPBIND from the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") ABAP. When the statement CALL METHOD is executed, this table can contain exactly one row for every non-class-based exception of the method. The table columns are:
+EXCEPTION-TABLE can be used to assign return codes to all [non-class-based exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexceptions_non_class.htm) of a dynamically called method. etab expects a [hashed table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhashed_table_glosry.htm "Glossary Entry") of table type ABAP\_EXCPBIND\_TAB or of row type ABAP\_EXCPBIND from the [type group](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_group_1_glosry.htm "Glossary Entry") ABAP. When the statement CALL METHOD is executed, this table can contain exactly one row for every non-class-based exception of the method. The table columns are:
 
 -   NAME of type c and length 30
-    Specifies the name of the respective exception or [OTHERS](javascript:call_link\('abapcall_method_parameters.htm'\)) in uppercase.
+    Specifies the name of the respective exception or [OTHERS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_method_parameters.htm) in uppercase.
     
 -   VALUE of type i
     Specifies the number value available in sy-subrc after the exception specified in NAME is raised.

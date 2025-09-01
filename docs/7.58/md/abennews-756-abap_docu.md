@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [News for ABAP Release 7.56](javascript:call_link\('abennews-756.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 7.5x](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-75.htm) →  [News for ABAP Release 7.56](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-756.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Keyword%20Documentation%20in%20ABAP%20Release%207.56%2C%20ABENNEWS-756-ABAP_DOCU%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20
 improvement:)
@@ -23,7 +23,7 @@ The following properties can be set:
 
 -   CP
     
-    If set to X, the ABAP Keyword Documentation uses terms appropriate for the [SAP BTP ABAP Environment](javascript:call_link\('abensap_btp_abap_env_glosry.htm'\) "Glossary Entry") (aka [Steampunk](javascript:call_link\('abensteampunk_glosry.htm'\) "Glossary Entry")) instead of [Application Server ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry") in some footers and copyright texts.
+    If set to X, the ABAP Keyword Documentation uses terms appropriate for the [SAP BTP ABAP Environment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_btp_abap_env_glosry.htm "Glossary Entry") (aka [Steampunk](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensteampunk_glosry.htm "Glossary Entry")) instead of [Application Server ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_abap_glosry.htm "Glossary Entry") in some footers and copyright texts.
     
     Recommendation:
     
@@ -31,7 +31,7 @@ The following properties can be set:
     -   Set to initial in all other systems.
 -   ICF
     
-    Enables or disables the Web Version of the ABAP Keyword Documentation based on [ICF](javascript:call_link\('abenicf_glosry.htm'\) "Glossary Entry") nodes /sap/public/bc/abap/docu and /sap/bc/abap/docu.
+    Enables or disables the Web Version of the ABAP Keyword Documentation based on [ICF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenicf_glosry.htm "Glossary Entry") nodes /sap/public/bc/abap/docu and /sap/bc/abap/docu.
     
     The following settings can be applied:
     
@@ -62,12 +62,12 @@ The following properties can be set:
     -   Set to initial in all other systems.
 -   VERSION
     
-    Determines the [ABAP language version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") for which the ABAP Keyword Documentation is displayed. Allowed values are defined in domain ABAPVRS. This setting can be overridden when calling the documentation using the respective APIs:
+    Determines the [ABAP language version](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_version_glosry.htm "Glossary Entry") for which the ABAP Keyword Documentation is displayed. Allowed values are defined in domain ABAPVRS. This setting can be overridden when calling the documentation using the respective APIs:
     
     -   CL\_ABAP\_DOCU for the SAP GUI version
     -   CL\_ABAP\_DOCU\_EXTERNAL for the ADT or Web version.
     
-    Calls to the documentation from ABAP Workbench and ADT set the language version depending on the object currently being edited. Calls to the documentation via the ABAPDOCU and ABAPHELP transactions use the version from ABDOCCONFIG by default. An initial value for VERSION in ABDOCCONFIG displays the documentation for [Standard ABAP](javascript:call_link\('abenstandard_abap_glosry.htm'\) "Glossary Entry") (X).
+    Calls to the documentation from ABAP Workbench and ADT set the language version depending on the object currently being edited. Calls to the documentation via the ABAPDOCU and ABAPHELP transactions use the version from ABDOCCONFIG by default. An initial value for VERSION in ABDOCCONFIG displays the documentation for [Standard ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_abap_glosry.htm "Glossary Entry") (X).
     
     Recommendation:
     

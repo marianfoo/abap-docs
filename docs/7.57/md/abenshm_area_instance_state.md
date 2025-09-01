@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Area Instance Versions](javascript:call_link\('abenshm_area_instance_access.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_shared_objects.htm) →  [Shared Objects - Area Instance Versions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_area_instance_access.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Shared Objects - States of Area Instance Versions, ABENSHM_AREA_INSTANCE_STATE, 757%0
 D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -15,15 +15,15 @@ Area instance versions can have the following states.
 
 -   "Under Construction"
     
-    An area instance version that has a [change lock](javascript:call_link\('abenshm_area_instance_locks.htm'\)) is being built. Change locks automatically create a version under construction.
+    An area instance version that has a [change lock](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_area_instance_locks.htm) is being built. Change locks automatically create a version under construction.
     
 -   "Active"
     
-    The area instance version whose construction or update was last released using the method [DETACH\_COMMIT](javascript:call_link\('abenshm_cl_shm_area.htm'\)) (and a database commit in the case of transactional areas) is active. All read locks are automatically set to the currently active version.
+    The area instance version whose construction or update was last released using the method [DETACH\_COMMIT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_cl_shm_area.htm) (and a database commit in the case of transactional areas) is active. All read locks are automatically set to the currently active version.
     
 -   "Obsolete"
     
-    If the construction of a new version is completed during read access on the currently active version, the new version becomes active and the version that was previously active becomes obsolete. The [read locks](javascript:call_link\('abenshm_area_instance_locks.htm'\)) on the obsolete version remain until the read is completed, but new read locks for the area instance, however, are always set on the active version.
+    If the construction of a new version is completed during read access on the currently active version, the new version becomes active and the version that was previously active becomes obsolete. The [read locks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenshm_area_instance_locks.htm) on the obsolete version remain until the read is completed, but new read locks for the area instance, however, are always set on the active version.
     
 -   "Expired"
     

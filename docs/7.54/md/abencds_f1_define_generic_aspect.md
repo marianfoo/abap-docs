@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Access Control](javascript:call_link\('abencds_authorizations.htm'\)) →  [ABAP CDS - DCL Statements](javascript:call_link\('abencds_f1_dcl_syntax.htm'\)) →  [ABAP CDS - DEFINE ACCESSPOLICY](javascript:call_link\('abencds_f1_define_accesspolicy.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Access Control](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_authorizations.htm) →  [ABAP CDS - DCL Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_dcl_syntax.htm) →  [ABAP CDS - DEFINE ACCESSPOLICY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm) → 
 
 ABAP CDS - DEFINE ASPECT
 
@@ -19,7 +19,7 @@ Syntax
 
 Effect
 
-Defines a generic aspect generic\_aspect as part of a [CDS access policy](javascript:call_link\('abencds_access_policy_glosry.htm'\) "Glossary Entry") defined using [DEFINE ACCESSPOLICY](javascript:call_link\('abencds_f1_define_accesspolicy.htm'\)). The name of the generic aspect must be the same as the name of the CDS access policy.
+Defines a generic aspect generic\_aspect as part of a [CDS access policy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_access_policy_glosry.htm "Glossary Entry") defined using [DEFINE ACCESSPOLICY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_accesspolicy.htm). The name of the generic aspect must be the same as the name of the CDS access policy.
 
 The definition of a generic aspect contains the following:
 
@@ -29,7 +29,7 @@ The definition of a generic aspect contains the following:
 
 -   A comma-separated list that specifies the output fields output1, output2, ... of the generic aspect. The specified order applies.
 
--   Any number of output fields that can be tagged with a condition using the addition BYPASS WHEN aspect\_bypass\_condition. Typical bypass values are \* or an empty value. The following are possible as aspect bypass conditions aspect\_bypass\_condition: [IS NULL](javascript:call_link\('abencds_cond_expr_null.htm'\)) *|* [IS *\[*NOT*\]* NULL](javascript:call_link\('abencds_cond_expr_initial.htm'\)) *|* \= [Literal](javascript:call_link\('abencds_f1_literal.htm'\))
+-   Any number of output fields that can be tagged with a condition using the addition BYPASS WHEN aspect\_bypass\_condition. Typical bypass values are \* or an empty value. The following are possible as aspect bypass conditions aspect\_bypass\_condition: [IS NULL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_null.htm) *|* [IS *\[*NOT*\]* NULL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_cond_expr_initial.htm) *|* \= [Literal](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_literal.htm)
 
 At runtime, the field user\_element is filled with the user name of the current user. The rows produced in the aspect entity are matched with their output fields in the specified order and with the elements on the left side of the access condition to which the generic aspect is assigned. This means those rows in the protected entity meet the condition for which a row exists for the current user in the aspect entity.
 
@@ -56,4 +56,4 @@ Notes
 
 -   If auditing cannot be ensured, the aspect entity cannot be used in a generic aspect.
 
--   In ABAP SQL access to a CDS entity assigned a role of this type, generic aspects are defined internally using a [subquery](javascript:call_link\('abensubquery_glosry.htm'\) "Glossary Entry") after EXISTS. This can be seen in an SQL trace.
+-   In ABAP SQL access to a CDS entity assigned a role of this type, generic aspects are defined internally using a [subquery](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubquery_glosry.htm "Glossary Entry") after EXISTS. This can be seen in an SQL trace.

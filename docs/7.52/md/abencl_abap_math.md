@@ -4,14 +4,14 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompute_expressions.htm) → 
 
 System Classes for Numbers
 
--   [System Class CL\_ABAP\_MATH](javascript:call_link\('abenfloating_point_class.htm'\))
+-   [System Class CL\_ABAP\_MATH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfloating_point_class.htm)
 
--   [Random Numbers](javascript:call_link\('abenrandom_number_class.htm'\))
+-   [Random Numbers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrandom_number_class.htm)
 
 Continue
-[System class CL\_ABAP\_MATH](javascript:call_link\('abenfloating_point_class.htm'\))
-[Random Numbers](javascript:call_link\('abenrandom_number_class.htm'\))
+[System class CL\_ABAP\_MATH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfloating_point_class.htm)
+[Random Numbers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrandom_number_class.htm)

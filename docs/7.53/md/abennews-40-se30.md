@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [Changes in Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews.htm) →  [Changes in Releases 4.xx](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-4.htm) →  [Changes in Release 4.0](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennews-40.htm) → 
 
 Runtime Analysis in Release 4.0
 
@@ -67,9 +67,9 @@ If the With memory management button is selected, the following are measured:
     
 -   Using the data and data control blocks
     
--   [PXA](javascript:call_link\('abenpxa_glosry.htm'\) "Glossary Entry"): find, create
+-   [PXA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpxa_glosry.htm "Glossary Entry"): find, create
     
--   [Dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") synchronization
+-   [Dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") synchronization
     
 
 Modification 7
@@ -77,7 +77,7 @@ Modification 7
 Improvements in the Table Hit List
 
 -   Navigation to table definition
-    The table definition in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") can be displayed by double-clicking the table name.
+    The table definition in the [repository](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrepository_glosry.htm "Glossary Entry") can be displayed by double-clicking the table name.
     
 -   The development class (package) for each table is displayed in a separate column
     

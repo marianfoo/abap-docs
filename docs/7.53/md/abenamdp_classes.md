@@ -4,15 +4,15 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp.htm) → 
 
 AMDP - Classes
 
-An AMDP class is a global class in the [class library](javascript:call_link\('abenclass_library_glosry.htm'\) "Glossary Entry") that contains one or more of the following [tag interfaces](javascript:call_link\('abentag_interface_glosry.htm'\) "Glossary Entry"):
+An AMDP class is a global class in the [class library](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_library_glosry.htm "Glossary Entry") that contains one or more of the following [tag interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentag_interface_glosry.htm "Glossary Entry"):
 
 The names of the interfaces all start with IF\_AMDP\_MARKER and a suffix indicates the database system for which the ABAP Managed Database Procedures can be implemented in AMDP methods of the class.
 
-An AMDP class can contain both regular methods and [AMDP methods](javascript:call_link\('abenamdp_methods.htm'\)). It can contain one or more AMDP methods for each database system specified by a tag interface.
+An AMDP class can contain both regular methods and [AMDP methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_methods.htm). It can contain one or more AMDP methods for each database system specified by a tag interface.
 
 Example
 

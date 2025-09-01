@@ -3,27 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenevent_block_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevent_block_obsolete.htm)
-- [abapstart-of-editing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstart-of-editing.htm)
-- [abapend-of-editing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-of-editing.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.54
-**Generated**: 2025-09-01T11:25:45.952Z
-
----
-
 ### abenevent_block_obsolete.htm
-
-> **📖 Official SAP Documentation**: [abenevent_block_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevent_block_obsolete.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,29 +11,22 @@ Included pages: 3
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobsolete_modularization.htm) → 
 
 Event Blocks
 
-The following [event block](javascript:call_link\('abenevent_block_glosry.htm'\) "Glossary Entry") is obsolete:
+The following [event block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevent_block_glosry.htm "Glossary Entry") is obsolete:
 
--   [START-OF-EDITING](javascript:call_link\('abapstart-of-editing.htm'\))
+-   [START-OF-EDITING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstart-of-editing.htm)
 
--   [END-OF-EDITING](javascript:call_link\('abapend-of-editing.htm'\))
+-   [END-OF-EDITING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-of-editing.htm)
 
 Continue
-[START-OF-EDITING](javascript:call_link\('abapstart-of-editing.htm'\))
-[END-OF-EDITING](javascript:call_link\('abapend-of-editing.htm'\))
+[START-OF-EDITING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstart-of-editing.htm)
+[END-OF-EDITING](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-of-editing.htm)
 
-
-
-**📖 Source**: [abenevent_block_obsolete.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevent_block_obsolete.htm)
 
 ### abapstart-of-editing.htm
-
-> **📖 Official SAP Documentation**: [abapstart-of-editing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstart-of-editing.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -61,11 +34,11 @@ Continue
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Event Blocks](javascript:call_link\('abenevent_block_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobsolete_modularization.htm) →  [Event Blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevent_block_obsolete.htm) → 
 
 START-OF-EDITING
 
-[Quick Reference](javascript:call_link\('abapstart-of-editing_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstart-of-editing_shortref.htm)
 
 Obsolete Syntax
 
@@ -73,24 +46,14 @@ START-OF-EDITING.
 
 Effect
 
-The statement START-OF-EDITING defines an [event block](javascript:call_link\('abenevent_block_glosry.htm'\) "Glossary Entry") in an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry"). The program's event is triggered from the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry") in the [executable program flow](javascript:call_link\('abenreporting_process.htm'\)) directly after [START-OF-SELECTION](javascript:call_link\('abapstart-of-selection.htm'\)).
+The statement START-OF-EDITING defines an [event block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevent_block_glosry.htm "Glossary Entry") in an [executable program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexecutable_program_glosry.htm "Glossary Entry"). The program's event is triggered from the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry") in the [executable program flow](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreporting_process.htm) directly after [START-OF-SELECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstart-of-selection.htm).
 
 Note
 
 An implementation of the event block START-OF-EDITING is not required.
 
 
-
-**📖 Source**: [abapstart-of-editing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapstart-of-editing.htm)
-
 ### abapend-of-editing.htm
-
-> **📖 Official SAP Documentation**: [abapend-of-editing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-of-editing.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapend-of-editing.htm](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-of-editing.htm)
-
 
   
 
@@ -98,11 +61,11 @@ An implementation of the event block START-OF-EDITING is not required.
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Modularization](javascript:call_link\('abenobsolete_modularization.htm'\)) →  [Event Blocks](javascript:call_link\('abenevent_block_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obsolete.htm) →  [Obsolete Modularization](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobsolete_modularization.htm) →  [Event Blocks](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevent_block_obsolete.htm) → 
 
 END-OF-EDITING
 
-[Quick Reference](javascript:call_link\('abapend-of-editing_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-of-editing_shortref.htm)
 
 Obsolete Syntax
 
@@ -110,7 +73,7 @@ END-OF-EDITING.
 
 Effect
 
-The statement END-OF-EDITING defines an [event block](javascript:call_link\('abenevent_block_glosry.htm'\) "Glossary Entry") in an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry"). The program's event is triggered from the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry") during the [executable program flow](javascript:call_link\('abenreporting_process.htm'\)) directly after [END-OF-SELECTION](javascript:call_link\('abapend-of-selection.htm'\)).
+The statement END-OF-EDITING defines an [event block](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenevent_block_glosry.htm "Glossary Entry") in an [executable program](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexecutable_program_glosry.htm "Glossary Entry"). The program's event is triggered from the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry") during the [executable program flow](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreporting_process.htm) directly after [END-OF-SELECTION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapend-of-selection.htm).
 
 Note
 

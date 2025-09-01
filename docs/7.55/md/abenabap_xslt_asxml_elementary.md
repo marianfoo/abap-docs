@@ -4,29 +4,35 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Canonical XML Representation (asXML)](javascript:call_link\('abenabap_xslt_asxml.htm'\)) →  [asXML - Mapping of ABAP Data Types](javascript:call_link\('abenabap_xslt_asxml_named.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_trafos.htm) →  [Canonical XML Representation (asXML)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml.htm) →  [asXML - Mapping of ABAP Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml_named.htm) → 
 
 asXML - Mapping of Elementary ABAP Types
 
 The asXML representation of elementary ABAP types is used in XSL transformations and in Simple Transformations. In both cases, the elementary values or the elementary components of complex structures are converted in accordance with this mapping.
 
-For elementary data objects with [built-in ABAP types](javascript:call_link\('abenbuiltin_data_type_glosry.htm'\) "Glossary Entry"), the asXML representation is based on the representation of [XML schema data types](http://www.w3.org/TR/xmlschema-2/) from the namespace xsd="http://www.w3.org/2001/XMLSchema", where dates and times are represented in accordance with ISO-8601 and binary data is represented in accordance with [Base64](javascript:call_link\('abenbase64_glosry.htm'\) "Glossary Entry"). The mapping of ABAP types to the XML schema data types is not fully bijective, due to the different value ranges. For example, a time zone can be specified for the XML schema data type xds:date, which is not possible for the ABAP type d.
+For elementary data objects with [built-in ABAP types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuiltin_data_type_glosry.htm "Glossary Entry"), the asXML representation is based on the representation of [XML schema data types](http://www.w3.org/TR/xmlschema-2/) from the namespace xsd="http://www.w3.org/2001/XMLSchema", where dates and times are represented in accordance with ISO-8601 and binary data is represented in accordance with [Base64](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbase64_glosry.htm "Glossary Entry"). The mapping of ABAP types to the XML schema data types is not fully bijective, due to the different value ranges. For example, a time zone can be specified for the XML schema data type xds:date, which is not possible for the ABAP type d.
 
--   [Mapping Tables](#abenabap-xslt-asxml-elementary-1--------numeric-data-types---@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_2)
+-   [Mapping Tables](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_1)
 
--   [Character-Like Data Types](#abenabap-xslt-asxml-elementary-3--------byte-like-data-types---@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_4)
+-   [Numeric Data Types](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_2)
 
--   [Date types, time types, and time stamp types](#abenabap-xslt-asxml-elementary-5--------differences-in-serialization---@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_6)
+-   [Character-Like Data Types](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_3)
+
+-   [Byte-Like Data Types](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_4)
+
+-   [Date types, time types, and time stamp types](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_5)
+
+-   [Differences in Serialization](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_6)
 
 -   [Differences in Deserialization](#@@ITOC@@ABENABAP_XSLT_ASXML_ELEMENTARY_7)
 
 Hints
 
--   Some of the mapping rules can be overridden by specifying [format](javascript:call_link\('abenst_option_format.htm'\)), [decimals](javascript:call_link\('abenst_option_format.htm'\)), [regime](javascript:call_link\('abenst_option_format.htm'\)), and [noError](javascript:call_link\('abenst_option_format.htm'\)) in the [option](javascript:call_link\('abenst_option.htm'\)) attribute of the ST statement [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)).
+-   Some of the mapping rules can be overridden by specifying [format](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_option_format.htm), [decimals](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_option_format.htm), [regime](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_option_format.htm), and [noError](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_option_format.htm) in the [option](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_option.htm) attribute of the ST statement [tt:value](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_value_elementary.htm).
 
--   Exceptions from mappings cannot be handled directly. Instead, the exception CX\_TRANSFORMATION\_ERROR (or one of its subclasses) from statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) can be handled. The attribute PREVIOUS then contains a reference to the original exception.
+-   Exceptions from mappings cannot be handled directly. Instead, the exception CX\_TRANSFORMATION\_ERROR (or one of its subclasses) from statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation.htm) can be handled. The attribute PREVIOUS then contains a reference to the original exception.
 
--   The exceptions that occur when mapping the data types shown here can in some cases be suppressed by specifying [noError](javascript:call_link\('abenst_option_format.htm'\)) in the [option](javascript:call_link\('abenst_option.htm'\)) attribute of the ST statement [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)).
+-   The exceptions that occur when mapping the data types shown here can in some cases be suppressed by specifying [noError](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_option_format.htm) in the [option](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_option.htm) attribute of the ST statement [tt:value](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_value_elementary.htm).
 
 Mapping Tables
 
@@ -108,7 +114,7 @@ Hints
 
 -   In the ABAP type p, a number with more decimal places than available places (twice the length minus one) is considered to be invalid and cannot be serialized to asXML.
 
--   If [noError](javascript:call_link\('abenst_option_format.htm'\)) is specified in the [option](javascript:call_link\('abenst_option.htm'\)) attribute of the ST statement [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), an invalid sign byte for type p is interpreted as a positive sign, which prevents the corresponding exception.
+-   If [noError](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_option_format.htm) is specified in the [option](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_option.htm) attribute of the ST statement [tt:value](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_value_elementary.htm), an invalid sign byte for type p is interpreted as a positive sign, which prevents the corresponding exception.
 
 -   The type precisionDecimal is not yet an official XML schema type.
 
@@ -212,9 +218,9 @@ During the serialization of a time stamp field of the type utclong, only the sig
 
 Differences in Serialization
 
-In serializations, ABAP values are converted to the appropriate character-like XML format. Deserializations operate in the opposite direction. Note the following differences to the usual [conversion rules](javascript:call_link\('abenconversion_rules.htm'\)) that apply in ABAP.
+In serializations, ABAP values are converted to the appropriate character-like XML format. Deserializations operate in the opposite direction. Note the following differences to the usual [conversion rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_rules.htm) that apply in ABAP.
 
--   In serializations of [decimal floating point numbers](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry"), the same format is created as for their [conversion to type string](javascript:call_link\('abenconversion_type_decfloat.htm'\)).
+-   In serializations of [decimal floating point numbers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecfloat_glosry.htm "Glossary Entry"), the same format is created as for their [conversion to type string](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_decfloat.htm).
 
 -   When data objects with the type x are serialized, trailing bytes with the value hexadecimal 0 are handled in the same way as trailing blanks with data type c and are ignored.
 
@@ -228,21 +234,21 @@ In serializations, ABAP values are converted to the appropriate character-like X
 
 -   A data object of the type utclong must contain a valid value. The initial value results in an empty XML element.
 
-Any violations of these rules raise catchable exceptions, some of which can be bypassed by specifying a [transformation option](javascript:call_link\('abapcall_transformation_options.htm'\)) after the OPTIONS addition of the CALL TRANSFORMATION statement.
+Any violations of these rules raise catchable exceptions, some of which can be bypassed by specifying a [transformation option](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_options.htm) after the OPTIONS addition of the CALL TRANSFORMATION statement.
 
 Hints
 
--   To check the validity of dates and times, the domains [XSDDATE\_D](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)) and [XSDTIME\_T](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)) can be used instead of the data types d and t.
+-   To check the validity of dates and times, the domains [XSDDATE\_D](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml_schema.htm) and [XSDTIME\_T](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_asxml_schema.htm) can be used instead of the data types d and t.
 
--   If [noError](javascript:call_link\('abenst_option_format.htm'\)) is specified in the [option](javascript:call_link\('abenst_option.htm'\)) attribute of the ST statement [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), leading and trailing blanks are ignored for type n, which prevents the corresponding exception.
+-   If [noError](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_option_format.htm) is specified in the [option](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_option.htm) attribute of the ST statement [tt:value](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_value_elementary.htm), leading and trailing blanks are ignored for type n, which prevents the corresponding exception.
 
 Differences in Deserialization
 
--   For deserialization to [decimal floating point numbers](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry"), the [conversion rule for source fields of the type c](javascript:call_link\('abenconversion_type_c.htm'\)) is used.
+-   For deserialization to [decimal floating point numbers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecfloat_glosry.htm "Glossary Entry"), the [conversion rule for source fields of the type c](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_c.htm) is used.
 
 -   Serializations to an ABAP data object must retain the precision of the XML value:
 
--   Numeric types cannot lose any [places](javascript:call_link\('abenplace_glosry.htm'\) "Glossary Entry").
+-   Numeric types cannot lose any [places](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenplace_glosry.htm "Glossary Entry").
 
 -   In character-like or byte-like data types with fixed lengths (c, n, x), the target object must have enough places for the entire content, unless only leading and trailing blanks in data type c and leading zeros in data type n are affected.
 
@@ -250,10 +256,10 @@ Differences in Deserialization
 
 -   Deserializations fill data objects of the type c or x with blanks or hexadecimal 0 on the right (as usual) if fewer characters or bytes are passed than can fit in the data object.
 
--   If the required XML element does not exist when the system is deserializing in an elementary data object, the elementary data object keeps its previous value. If an empty element is assigned to an elementary data object, it is set to its type-dependent initial value. To initialize the data object in either case, the transformation option [clear](javascript:call_link\('abapcall_transformation_options.htm'\)) can be used with the value "all".
+-   If the required XML element does not exist when the system is deserializing in an elementary data object, the elementary data object keeps its previous value. If an empty element is assigned to an elementary data object, it is set to its type-dependent initial value. To initialize the data object in either case, the transformation option [clear](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_options.htm) can be used with the value "all".
 
-Any violations of these rules raise catchable exceptions such as CX\_SY\_CONVERSION\_DATA\_LOSS, some of which can be bypassed by specifying a [transformation option](javascript:call_link\('abapcall_transformation_options.htm'\)) after the OPTIONS addition of the CALL TRANSFORMATION statement.
+Any violations of these rules raise catchable exceptions such as CX\_SY\_CONVERSION\_DATA\_LOSS, some of which can be bypassed by specifying a [transformation option](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_transformation_options.htm) after the OPTIONS addition of the CALL TRANSFORMATION statement.
 
 Executable Example
 
-[asXML, Mapping of Elementary Data Types](javascript:call_link\('abenasxml_elementary_abexa.htm'\))
+[asXML, Mapping of Elementary Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasxml_elementary_abexa.htm)

@@ -3,33 +3,7 @@
 Included pages: 5
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abencheck_correctness_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheck_correctness_gdl.htm)
-- [abensyntax_check_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensyntax_check_guidl.htm)
-- [abenextended_program_check_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_guidl.htm)
-- [abencode_inspector_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencode_inspector_guidl.htm)
-- [abenabap-testcockpit_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap-testcockpit_guidl.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.922Z
-
----
-
 ### abencheck_correctness_gdl.htm
-
-> **📖 Official SAP Documentation**: [abencheck_correctness_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheck_correctness_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abencheck_correctness_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheck_correctness_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -37,38 +11,27 @@ Included pages: 5
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [ABAP-Specific Rules](javascript:call_link\('abenabap_specific_rules_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [ABAP-Specific Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_specific_rules_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Checks%20for%20Correctness%2C%20ABENCHECK_CORRECTNESS_GDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Checks for Correctness
 
-This section enhances the section [Correctness and Quality](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline") by providing more information about static checks on ABAP programs.
+This section enhances the section [Correctness and Quality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencorrectness_quality_guidl.htm "Guideline") by providing more information about static checks on ABAP programs.
 
--   [Syntax Check](javascript:call_link\('abensyntax_check_guidl.htm'\) "Guideline")
--   [Extended Program Check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline")
--   [Code Inspector](javascript:call_link\('abencode_inspector_guidl.htm'\) "Guideline")
--   [ABAP Test Cockpit](javascript:call_link\('abenabap-testcockpit_guidl.htm'\) "Guideline")
+-   [Syntax Check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensyntax_check_guidl.htm "Guideline")
+-   [Extended Program Check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_guidl.htm "Guideline")
+-   [Code Inspector](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencode_inspector_guidl.htm "Guideline")
+-   [ABAP Test Cockpit](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap-testcockpit_guidl.htm "Guideline")
 
 Continue
-[ABAP Syntax Check](javascript:call_link\('abensyntax_check_guidl.htm'\))
-[Extended Program Check](javascript:call_link\('abenextended_program_check_guidl.htm'\))
-[Code Inspector](javascript:call_link\('abencode_inspector_guidl.htm'\))
-[ABAP Test Cockpit](javascript:call_link\('abenabap-testcockpit_guidl.htm'\))
+[ABAP Syntax Check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensyntax_check_guidl.htm)
+[Extended Program Check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_guidl.htm)
+[Code Inspector](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencode_inspector_guidl.htm)
+[ABAP Test Cockpit](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap-testcockpit_guidl.htm)
 
-
-
-**📖 Source**: [abencheck_correctness_gdl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheck_correctness_gdl.htm)
 
 ### abensyntax_check_guidl.htm
-
-> **📖 Official SAP Documentation**: [abensyntax_check_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensyntax_check_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abensyntax_check_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensyntax_check_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -76,7 +39,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [ABAP-Specific Rules](javascript:call_link\('abenabap_specific_rules_gdl.htm'\)) →  [Checks for Correctness](javascript:call_link\('abencheck_correctness_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [ABAP-Specific Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_specific_rules_gdl.htm) →  [Checks for Correctness](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheck_correctness_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Syntax%20Check%2C%20ABENSYNTAX_CHECK_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -87,7 +50,7 @@ Background  
 The syntax check provides syntax errors and syntax warnings:
 
 -   As soon as a syntax error occurs, the system stops the check and displays the relevant error message. In many cases, the system suggests a correction that can be applied. Programs with syntax errors can be activated, but they cannot be generated and executed. In the extended program check, the syntax errors are reported as fatal errors. Syntax errors must be corrected at all costs.
--   If a syntax warning occurs, the syntax check is not terminated. The program can still be executed. The syntax warnings are displayed in ABAP Editor after the syntax check and the [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline"). Of course, testing tools that include the checks of the extended program check (such as Code Inspector and ABAP Test Cockpit) also display syntax warnings. When a program is activated, the system only displays syntax warnings if syntax errors have occurred at the same time. The warnings reported by the syntax check are subdivided into three priorities that are only displayed by the extended program check:
+-   If a syntax warning occurs, the syntax check is not terminated. The program can still be executed. The syntax warnings are displayed in ABAP Editor after the syntax check and the [extended program check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_guidl.htm "Guideline"). Of course, testing tools that include the checks of the extended program check (such as Code Inspector and ABAP Test Cockpit) also display syntax warnings. When a program is activated, the system only displays syntax warnings if syntax errors have occurred at the same time. The warnings reported by the syntax check are subdivided into three priorities that are only displayed by the extended program check:
     -   Priority 1
         
         Errors that could cause program termination if the ABAP program is executed. This priority also includes all constructs that should not be used at all, because they indicate program errors and are very likely to make the program behave incorrectly.
@@ -101,7 +64,7 @@ The syntax check provides syntax errors and syntax warnings:
         Includes all errors where correction would be beneficial, but not necessarily essential, for the current release. However, the possibility of raising the priority in future releases is not ruled out.
         
 
-The [severity of the ABAP syntax check](javascript:call_link\('abenprogr_type_features_gdl.htm'\)) is determined by the decisions that were made when the program was created. As a result, program constructs that only cause syntax warnings outside of classes can actually indicate real syntax errors within classes. Selected syntax warnings can be suppressed by using pragmas. A pragma is a program directive that affects specific checks but does not affect the program flow.
+The [severity of the ABAP syntax check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogr_type_features_gdl.htm) is determined by the decisions that were made when the program was created. As a result, program constructs that only cause syntax warnings outside of classes can actually indicate real syntax errors within classes. Selected syntax warnings can be suppressed by using pragmas. A pragma is a program directive that affects specific checks but does not affect the program flow.
 
 Rule   
 
@@ -140,18 +103,7 @@ ASSIGN itab\[ KEY cities
              COMPONENTS cityfrom = '...' cityto = '...' \] TO <fs>.
 
 
-
-**📖 Source**: [abensyntax_check_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensyntax_check_guidl.htm)
-
 ### abenextended_program_check_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenextended_program_check_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenextended_program_check_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -159,7 +111,7 @@ ASSIGN itab\[ KEY cities
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [ABAP-Specific Rules](javascript:call_link\('abenabap_specific_rules_gdl.htm'\)) →  [Checks for Correctness](javascript:call_link\('abencheck_correctness_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [ABAP-Specific Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_specific_rules_gdl.htm) →  [Checks for Correctness](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheck_correctness_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Extended%20Program%20Check%2C%20ABENEXTENDED_PROGRAM_CHECK_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -169,7 +121,7 @@ Background  
 
 You can call the [extended program check](https://help.sap.com/docs/ABAP_PLATFORM_NEW/bd833c8355f34e96a6e83096b38bf192/d1801afd454211d189710000e8322d00) for activated programs either from ABAP Workbench or by using transaction SLIN. It performs static checks that are too complex for the regular syntax check. Both individual and multiple subtests can be performed, or an ATC-relevant check that includes important subtests.
 
-The extended program check reports errors, warnings and messages. The ATC-relevant check reports errors and warnings that are particularly critical. These checks are also performed in program checks in [ABAP Test Cockpit (ATC)](javascript:call_link\('abenabap_test_cockpit_glosry.htm'\) "Glossary Entry"). The classification of individual results (error, warning or message) depends on whether an ATC-relevant check is performed or explicitly selected individual checks. The extended program check also reports the errors and warnings of the syntax check.
+The extended program check reports errors, warnings and messages. The ATC-relevant check reports errors and warnings that are particularly critical. These checks are also performed in program checks in [ABAP Test Cockpit (ATC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_test_cockpit_glosry.htm "Glossary Entry"). The classification of individual results (error, warning or message) depends on whether an ATC-relevant check is performed or explicitly selected individual checks. The extended program check also reports the errors and warnings of the syntax check.
 
 In the initial screen of the extended program check, a programming guidelines check can also be selected. This checks whether certain rules presented in this book (that can be verified statically) have been adhered to.
 
@@ -177,7 +129,7 @@ The messages from the extended program check, which are inapplicable in some spe
 
 Hint
 
-The extended program check also covers security checks used to test ABAP programs for all potential [security risks](javascript:call_link\('abenabap_security.htm'\)). In customer systems, these checks are subject to a special licensing procedure.
+The extended program check also covers security checks used to test ABAP programs for all potential [security risks](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_security.htm). In customer systems, these checks are subject to a special licensing procedure.
 
 Rule   
 
@@ -187,7 +139,7 @@ Use the extended program check and take the results seriously. Message are not a
 
 Details   
 
-The errors, warnings and messages output by the extended program check are just as important as the syntax errors and syntax warnings from the [syntax check](javascript:call_link\('abensyntax_check_guidl.htm'\) "Guideline"). For example, an error reported by the extended program check can indicate that a program will definitely lead to a runtime error when it is executed. Warnings and messages usually indicate a questionable use of language elements, which is likely to cause unexpected program behavior.
+The errors, warnings and messages output by the extended program check are just as important as the syntax errors and syntax warnings from the [syntax check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensyntax_check_guidl.htm "Guideline"). For example, an error reported by the extended program check can indicate that a program will definitely lead to a runtime error when it is executed. Warnings and messages usually indicate a questionable use of language elements, which is likely to cause unexpected program behavior.
 
 In rare cases, when a result reported by the extended program check is not justified, this must be documented using an appropriate pragma (the relevant pragma is indicated in the message). This means that the system suppresses the message of the extended program check. Ideally, in less obvious situations, an additional comment should be used to describe why the message is not applicable.
 
@@ -203,7 +155,7 @@ If the ABAP program is submitted to a code review, the results of the extended p
 
 Bad Example
 
-If the following source code is checked using the extended program check, a warning appears. It indicates a particularly questionable query of the content of the [return code](javascript:call_link\('abenreturn_code_guidl.htm'\) "Guideline") sy-subrc.
+If the following source code is checked using the extended program check, a warning appears. It indicates a particularly questionable query of the content of the [return code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreturn_code_guidl.htm "Guideline") sy-subrc.
 
 ASSIGN field TO <fs>.
 IF sy-subrc <> 0.
@@ -222,18 +174,7 @@ IF <fs> IS ASSIGNED.
 ENDIF.
 
 
-
-**📖 Source**: [abenextended_program_check_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_guidl.htm)
-
 ### abencode_inspector_guidl.htm
-
-> **📖 Official SAP Documentation**: [abencode_inspector_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencode_inspector_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abencode_inspector_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencode_inspector_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -241,7 +182,7 @@ ENDIF.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [ABAP-Specific Rules](javascript:call_link\('abenabap_specific_rules_gdl.htm'\)) →  [Checks for Correctness](javascript:call_link\('abencheck_correctness_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [ABAP-Specific Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_specific_rules_gdl.htm) →  [Checks for Correctness](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheck_correctness_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Code%20Inspector%2C%20ABENCODE_INSPECTOR_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -251,7 +192,7 @@ Background  
 
 The Code Inspector tool performs a static check of repository objects regarding performance, security, syntax, and adherence to naming conventions. Transaction SCI can be called to use the full range of functions of Code Inspector to perform complex static checks and regular mass tests for large numbers of development objects.
 
-Code Inspector can also be called from ABAP Workbench to perform a standard set of checks for the current object, for example by choosing Program → Check → Code Inspector in ABAP Editor. The standard check variant used here contains most of the checks from the [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline"), as well as a few additional security and performance checks. Code Inspector can also be integrated into the release of transports.
+Code Inspector can also be called from ABAP Workbench to perform a standard set of checks for the current object, for example by choosing Program → Check → Code Inspector in ABAP Editor. The standard check variant used here contains most of the checks from the [extended program check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_guidl.htm "Guideline"), as well as a few additional security and performance checks. Code Inspector can also be integrated into the release of transports.
 
 As in the extended program check, the results of Code Inspector are divided into three categories (errors, warnings, and simple messages), which you can hide using special pseudo comments.
 
@@ -263,11 +204,11 @@ Perform the standard check variant of Code Inspector before releasing a program,
 
 Details   
 
-If the [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline") is used, the standard check variant of Code Inspector only reports messages and checks that are not covered by the extended program check. These are mainly messages relating to potential performance or security risks in programs. Examples are messages about unfavorable WHERE conditions in a SELECT, a pass by value instead of a pass by reference for parameters, or non-secure program calls.
+If the [extended program check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_guidl.htm "Guideline") is used, the standard check variant of Code Inspector only reports messages and checks that are not covered by the extended program check. These are mainly messages relating to potential performance or security risks in programs. Examples are messages about unfavorable WHERE conditions in a SELECT, a pass by value instead of a pass by reference for parameters, or non-secure program calls.
 
 Compared with the messages of the extended program check, it is not always so easy to correct these problems at their source, perhaps because there is no other option for a selection, or because the transparency or robustness of a construct is seen as more important than a small potential loss of performance.
 
-In such cases, the messages can be suppressed using the appropriate pseudo comments. A pseudo comment is a clear indication to the reader of a program that the program author has performed the relevant checks and has explicitly suppressed the message for a good reason. If necessary, pseudo comments can be substantiated by additional regular [comments](javascript:call_link\('abencomments_gdl.htm'\)).
+In such cases, the messages can be suppressed using the appropriate pseudo comments. A pseudo comment is a clear indication to the reader of a program that the program author has performed the relevant checks and has explicitly suppressed the message for a good reason. If necessary, pseudo comments can be substantiated by additional regular [comments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencomments_gdl.htm).
 
 Bad Example
 
@@ -344,21 +285,7 @@ CLASS class IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abencode_inspector_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencode_inspector_guidl.htm)
-
 ### abenabap-testcockpit_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenabap-testcockpit_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap-testcockpit_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenabap-testcockpit_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap-testcockpit_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenabap-testcockpit_guidl.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap-testcockpit_guidl.htm)
-
 
   
 
@@ -366,7 +293,7 @@ ENDCLASS.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [ABAP-Specific Rules](javascript:call_link\('abenabap_specific_rules_gdl.htm'\)) →  [Checks for Correctness](javascript:call_link\('abencheck_correctness_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_pgl.htm) →  [ABAP-Specific Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_specific_rules_gdl.htm) →  [Checks for Correctness](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheck_correctness_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Test%20Cockpit%2C%20ABENABAP-TESTCOCKPIT_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -374,7 +301,7 @@ ABAP Test Cockpit
 
 Background   
 
-[ABAP Test Cockpit (ATC)](https://help.sap.com/docs/ABAP_PLATFORM_NEW/ba879a6e2ea04d9bb94c7ccd7cdac446/62c41ad841554516bb06fb3620540e47) is a framework that is integrated into ABAP Workbench and the [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"); it simplifies considerably the handling of the tests required during development. ATC makes it possible to execute and display results for various tests on development objects, for example:
+[ABAP Test Cockpit (ATC)](https://help.sap.com/docs/ABAP_PLATFORM_NEW/ba879a6e2ea04d9bb94c7ccd7cdac446/62c41ad841554516bb06fb3620540e47) is a framework that is integrated into ABAP Workbench and the [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry"); it simplifies considerably the handling of the tests required during development. ATC makes it possible to execute and display results for various tests on development objects, for example:
 
 -   Extended program checks
 -   Static performance tests
@@ -383,7 +310,7 @@ Background  
 -   Package checks
 -   Security checks
 
-Whereas Code Inspector is only integrated into the [ABAP development environment](javascript:call_link\('abenabap_dev_envir_glosry.htm'\) "Glossary Entry") by way of the [standard check](javascript:call_link\('abencode_inspector_guidl.htm'\) "Guideline") and can otherwise only be used by calling a separate transaction, ATC is completely integrated into Object Navigator and Transport Organizer, and is available there for tests during development. ATC allows quality managers to perform mass tests. In the [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), some tests are provided only from ATC.
+Whereas Code Inspector is only integrated into the [ABAP development environment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dev_envir_glosry.htm "Glossary Entry") by way of the [standard check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencode_inspector_guidl.htm "Guideline") and can otherwise only be used by calling a separate transaction, ATC is completely integrated into Object Navigator and Transport Organizer, and is available there for tests during development. ATC allows quality managers to perform mass tests. In the [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry"), some tests are provided only from ATC.
 
 Rule   
 
@@ -395,11 +322,11 @@ Details  
 
 ATC is a tool that can be used both by SAP developers and as part of central quality assurance management. For example, if a developer checks all development objects of a package in the development system using the same ATC configuration used by a quality manager as part of a mass run in a consolidation system, all messages can be taken care of without having to wait for feedback from the quality manager.
 
-If ATC is configured correctly, the above rule includes the previous rules for [syntax warnings](javascript:call_link\('abensyntax_check_guidl.htm'\) "Guideline"), [extended program checks](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline"), and [Code Inspector](javascript:call_link\('abencode_inspector_guidl.htm'\) "Guideline").
+If ATC is configured correctly, the above rule includes the previous rules for [syntax warnings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensyntax_check_guidl.htm "Guideline"), [extended program checks](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_guidl.htm "Guideline"), and [Code Inspector](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencode_inspector_guidl.htm "Guideline").
 
 Hints
 
--   More specifically, the security checks in the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry") can be executed and managed from ATC, which makes their integration into the transport release possible.
+-   More specifically, the security checks in the [extended program check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_glosry.htm "Glossary Entry") can be executed and managed from ATC, which makes their integration into the transport release possible.
 -   Outside of SAP, ATC is available from the following releases:
     -   AS ABAP 7.0, EhP2, Support Package 12
     -   AS ABAP 7.0, EhP3, Support Package 05

@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [CALL TRANSACTION - standard](javascript:call_link\('abapcall_transaction_standard.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) →  [CALL TRANSACTION - standard](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_standard.htm) → 
 
 CALL TRANSACTION - AUTHORITY-CHECK
 
-[Quick Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_shortref.htm)
 
 Syntax
 
@@ -21,11 +21,11 @@ Extras:
 
 Effect
 
-These additions control the authorization checks when the statement [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) is executed.
+These additions control the authorization checks when the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction.htm) is executed.
 
 Note
 
-The use of the statement CALL TRANSACTION without one of the additions WITH AUTHORITY-CHECK or WITHOUT AUTHORITY-CHECK is now [obsolete](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)).
+The use of the statement CALL TRANSACTION without one of the additions WITH AUTHORITY-CHECK or WITHOUT AUTHORITY-CHECK is now [obsolete](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_auth_obs.htm).
 
 Addition 1
 
@@ -33,7 +33,7 @@ Addition 1
 
 Effect
 
-If this addition is specified, the authorization of the current user to execute the called transaction is checked using the following [authorization objects](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") before the transaction is called:
+If this addition is specified, the authorization of the current user to execute the called transaction is checked using the following [authorization objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthorization_object_glosry.htm "Glossary Entry") before the transaction is called:
 
 -   The authorization object S\_TCODE
     
@@ -44,7 +44,7 @@ If no authorization is found, a handleable exception of the class CX\_SY\_AUTHOR
 
 Note
 
-The addition WITH AUTHORITY-CHECK is the recommended method of checking the authorizations of the current user. It replaces checks using the statement [AUTHORITY-CHECK](javascript:call_link\('abapauthority-check_shortref.htm'\)), the function module AUTHORITY\_CHECK\_TCODE, and checks associated with the content of the database table [TCDCOUPLES](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)).
+The addition WITH AUTHORITY-CHECK is the recommended method of checking the authorizations of the current user. It replaces checks using the statement [AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapauthority-check_shortref.htm), the function module AUTHORITY\_CHECK\_TCODE, and checks associated with the content of the database table [TCDCOUPLES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_auth_obs.htm).
 
 Addition 2
 
@@ -56,6 +56,6 @@ If this addition is specified, the authorization of the current user is not chec
 
 Notes
 
--   The addition WITHOUT AUTHORITY-CHECK indicates explicitly that no authorization checks are required when the transaction is called. It suppresses the corresponding error message from the security test in the [extended program checks](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry").
+-   The addition WITHOUT AUTHORITY-CHECK indicates explicitly that no authorization checks are required when the transaction is called. It suppresses the corresponding error message from the security test in the [extended program checks](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextended_program_check_glosry.htm "Glossary Entry").
     
--   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the database table [TCDCOUPLES](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)) is ignored.
+-   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the database table [TCDCOUPLES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transaction_auth_obs.htm) is ignored.

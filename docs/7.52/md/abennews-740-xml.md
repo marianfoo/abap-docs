@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 7.40 and Its SPs](javascript:call_link\('abennews-740.htm'\)) →  [Changes in Release 7.40, SP02](javascript:call_link\('abennews-740_sp02.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews.htm) →  [Changes in Release 7.40 and Its SPs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-740.htm) →  [Changes in Release 7.40, SP02](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennews-740_sp02.htm) → 
 
 XML Interface in Release 7.40, SP02
 
@@ -20,18 +20,18 @@ Modification 1
 
 New ST Statement tt:read-write
 
-The new ST statement [tt:read-write](javascript:call_link\('abenst_tt_read_write.htm'\)) is a short form for the statements tt:read and tt:write specified one after the other.
+The new ST statement [tt:read-write](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_read_write.htm) is a short form for the statements tt:read and tt:write specified one after the other.
 
 Modification 2
 
 Mapping Rules for tt:value
 
-In the ST statement [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), the attribute [option="...,..."](javascript:call_link\('abenst_option.htm'\)) can be used to specify options for certain data types that override the default mapping of elementary data objects to the asXML format.
+In the ST statement [tt:value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_tt_value_elementary.htm), the attribute [option="...,..."](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenst_option.htm) can be used to specify options for certain data types that override the default mapping of elementary data objects to the asXML format.
 
 Modification 3
 
 Support for JSON
 
-The format IF\_SXML=>CO\_XT\_JSON has been added to the [formats](javascript:call_link\('abenabap_sxml_lib_formats.htm'\)) supported by [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)). [XML readers](javascript:call_link\('abenxml_reader_glosry.htm'\) "Glossary Entry") and [XML writers](javascript:call_link\('abenxml_writer_glosry.htm'\) "Glossary Entry") created in this format can be used to process [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") data. A special [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") is used as an intermediate format here.
+The format IF\_SXML=>CO\_XT\_JSON has been added to the [formats](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sxml_lib_formats.htm) supported by [sXML Library](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sxml_lib.htm). [XML readers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxml_reader_glosry.htm "Glossary Entry") and [XML writers](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxml_writer_glosry.htm "Glossary Entry") created in this format can be used to process [JSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_glosry.htm "Glossary Entry") data. A special [JSON-XML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_xml_glosry.htm "Glossary Entry") is used as an intermediate format here.
 
-The statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) can access these JSON readers and JSON writers and use them as XML sources or XML targets. Furthermore, JSON data can also be specified as an XML source in strings and internal tables.
+The statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transformation.htm) can access these JSON readers and JSON writers and use them as XML sources or XML targets. Furthermore, JSON data can also be specified as an XML source in strings and internal tables.

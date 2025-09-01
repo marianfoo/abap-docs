@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Creating Selection Screens](javascript:call_link\('abenselection_screen_create.htm'\)) →  [PARAMETERS](javascript:call_link\('abapparameters.htm'\)) →  [PARAMETERS - screen\_options](javascript:call_link\('abapparameters_screen.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen.htm) →  [Creating Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_create.htm) →  [PARAMETERS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapparameters.htm) →  [PARAMETERS - screen\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapparameters_screen.htm) → 
 
 Selection Screens, Display Properties for Parameters
 
@@ -86,7 +86,7 @@ START-OF-SELECTION.
 
 Description
 
-This example program consists of six parts, each representing one of the [screen\_options](javascript:call_link\('abapparameters_screen.htm'\)) additions of the statement PARAMETERS. Each example corresponds to a block on selection screen 100.
+This example program consists of six parts, each representing one of the [screen\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapparameters_screen.htm) additions of the statement PARAMETERS. Each example corresponds to a block on selection screen 100.
 
 -   Part 1: If the cursor is not on the input field, a symbol appears in the input field of the parameter p which tells the user that an entry in this field is required and that the program cannot continue if no entry is made in this field.
 

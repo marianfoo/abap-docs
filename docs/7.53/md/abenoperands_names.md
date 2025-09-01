@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenoperands.htm) → 
 
 Names for Individual Operands
 
@@ -26,25 +26,25 @@ Accordingly, names for operands are either elementary names or names constructed
 
 -   superunits made up of components
 
-[Naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) apply to the elementary names. Composite names with component selectors are used for addressing individual components. A component can itself be a superunit of further components. Subcomponents can be addressed by [chaining](javascript:call_link\('abenchaining_glosry.htm'\) "Glossary Entry") multiple names.
+[Naming conventions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_conventions.htm) apply to the elementary names. Composite names with component selectors are used for addressing individual components. A component can itself be a superunit of further components. Subcomponents can be addressed by [chaining](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchaining_glosry.htm "Glossary Entry") multiple names.
 
--   [Structure Component Selector](javascript:call_link\('abenstructure_component_selector.htm'\))
+-   [Structure Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_component_selector.htm)
 
--   [Object Component Selector](javascript:call_link\('abenobject_component_selector.htm'\))
+-   [Object Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_component_selector.htm)
 
--   [Class Component Selector](javascript:call_link\('abenclass_component_selector.htm'\))
+-   [Class Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_component_selector.htm)
 
--   [Interface Component Selector](javascript:call_link\('abeninterface_component_selector.htm'\))
+-   [Interface Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_component_selector.htm)
 
--   [Chainings](javascript:call_link\('abencomponent_chaining_selector.htm'\))
+-   [Chainings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomponent_chaining_selector.htm)
 
 Note
 
-As well as the component selectors specified here, [ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") has a [column selector](javascript:call_link\('abentable_comp_selector_glosry.htm'\) "Glossary Entry") (~).
+As well as the component selectors specified here, [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") has a [column selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_comp_selector_glosry.htm "Glossary Entry") (~).
 
 Continue
-[Structure Component Selector](javascript:call_link\('abenstructure_component_selector.htm'\))
-[Object Component Selector](javascript:call_link\('abenobject_component_selector.htm'\))
-[Class Component Selector](javascript:call_link\('abenclass_component_selector.htm'\))
-[Interface Component Selector](javascript:call_link\('abeninterface_component_selector.htm'\))
-[Chainings](javascript:call_link\('abencomponent_chaining_selector.htm'\))
+[Structure Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_component_selector.htm)
+[Object Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobject_component_selector.htm)
+[Class Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_component_selector.htm)
+[Interface Component Selector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_component_selector.htm)
+[Chainings](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomponent_chaining_selector.htm)

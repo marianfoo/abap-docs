@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Channels](javascript:call_link\('abenabap_channels.htm'\)) →  [APC - ABAP Push Channels](javascript:call_link\('abenapc.htm'\)) →  [Examples of APC](javascript:call_link\('abenapc_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP Channels](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_channels.htm) →  [APC - ABAP Push Channels](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc.htm) →  [Examples of APC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_abexas.htm) → 
 
 APC, AS ABAP as TCP Socket Client
 
@@ -118,7 +118,7 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates how an ABAP program can create an [APC client](javascript:call_link\('abenapc.htm'\)) for the TCP socket protocol. It is structured in exactly the same way as in the [executable example](javascript:call_link\('abenapc_ws_client_abexa.htm'\)) for the WebSocket client, but with the connection being made to a TCP socket server. The current front-end computer is used as the TCP socket server here and the available [Ncat](https://nmap.org/ncat/) can be downloaded to this computer.
+This example demonstrates how an ABAP program can create an [APC client](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc.htm) for the TCP socket protocol. It is structured in exactly the same way as in the [executable example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenapc_ws_client_abexa.htm) for the WebSocket client, but with the connection being made to a TCP socket server. The current front-end computer is used as the TCP socket server here and the available [Ncat](https://nmap.org/ncat/) can be downloaded to this computer.
 
 This program requires the Ncat.exe directory and the address of the current front-end computer (proposals are made for this information). In addition, a terminator character is needed for the TCP framework structure.
 

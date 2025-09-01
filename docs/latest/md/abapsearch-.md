@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Character String and Byte String Processing](javascript:call_link\('abencharacter_string_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_internal_obsolete.htm) →  [Obsolete Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharacter_string_obsolete.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SEARCH%2C%20ABAPSEARCH-%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SEARCH
 
-[Short Reference](javascript:call_link\('abapsearch_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsearch_shortref.htm)
 
 Obsolete Syntax
 
@@ -77,10 +77,10 @@ The search pattern was not found in dobj.
 
 Hints
 
--   It is preferable to use the statement [FIND](javascript:call_link\('abapfind.htm'\)) or appropriate [string functions](javascript:call_link\('abenstring_functions.htm'\)) instead of SEARCH, wherever possible. The functions of SEARCH, except for marking the found pattern using the addition AND MARK, are covered by [regular expressions](javascript:call_link\('abenregular_expressions.htm'\)). If required, the marking performed after a pattern is found can be replaced by the statement [REPLACE](javascript:call_link\('abapreplace_in_pattern.htm'\)) or the built-in function [replace](javascript:call_link\('abenreplace_functions.htm'\)). Here, the replacement patterns for regular expressions are particularly useful.
+-   It is preferable to use the statement [FIND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind.htm) or appropriate [string functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions.htm) instead of SEARCH, wherever possible. The functions of SEARCH, except for marking the found pattern using the addition AND MARK, are covered by [regular expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregular_expressions.htm). If required, the marking performed after a pattern is found can be replaced by the statement [REPLACE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreplace_in_pattern.htm) or the built-in function [replace](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenreplace_functions.htm). Here, the replacement patterns for regular expressions are particularly useful.
 -   Unlike FIND, SEARCH is not case-sensitive and is much slower when searching large texts.
--   Some differences between SEARCH and FIND are listed under [Migrating SEARCH to FIND](javascript:call_link\('abenmigrate_search_to_find.htm'\)).
--   A variant of this statement [SEARCH itab](javascript:call_link\('abapsearch_itab.htm'\)) that is used for searching internal tables has also been replaced by a variant of the statement [FIND](javascript:call_link\('abapfind_itab.htm'\)).
+-   Some differences between SEARCH and FIND are listed under [Migrating SEARCH to FIND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmigrate_search_to_find.htm).
+-   A variant of this statement [SEARCH itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsearch_itab.htm) that is used for searching internal tables has also been replaced by a variant of the statement [FIND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfind_itab.htm).
 
 Addition 1   
 
@@ -88,7 +88,7 @@ Addition 1  
 
 Effect
 
-The optional addition IN *{*CHARACTER*|*BYTE*}* MODE determines whether [character string or byte string processing](javascript:call_link\('abenstring_processing_statements.htm'\)) is performed. If the addition is not specified, character string processing is performed. Depending on the processing type, dobj and pattern must be either character-like or byte-like.
+The optional addition IN *{*CHARACTER*|*BYTE*}* MODE determines whether [character string or byte string processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_processing_statements.htm) is performed. If the addition is not specified, character string processing is performed. Depending on the processing type, dobj and pattern must be either character-like or byte-like.
 
 Addition 2   
 
@@ -108,7 +108,7 @@ If the addition STARTING AT is specified, sy-fdpos is set to the offset of the o
 
 Hint
 
-The term position is not equivalent to the term [offset](javascript:call_link\('abenoffset_glosry.htm'\) "Glossary Entry"). A byte or a character on position 1 has an offset of 0.
+The term position is not equivalent to the term [offset](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_glosry.htm "Glossary Entry"). A byte or a character on position 1 has an offset of 0.
 
 Addition 3   
 
@@ -155,4 +155,4 @@ IF sy-subrc = 0.
 ENDIF.
 
 Continue
-[Migrating SEARCH to FIND](javascript:call_link\('abenmigrate_search_to_find.htm'\))
+[Migrating SEARCH to FIND](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmigrate_search_to_find.htm)

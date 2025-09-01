@@ -4,17 +4,23 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [ABAP CDS in ABAP Dictionary](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abenddic_cds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) →  [ABAP CDS - SELECT](javascript:call_link\('abencds_f1_select_statement.htm'\)) →  [ABAP CDS - SELECT, Operands and Expressions](javascript:call_link\('abencds_operands_and_expressions.htm'\)) →  [ABAP CDS - cast\_expr](javascript:call_link\('abencds_f1_cast_expression.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary.htm) →  [ABAP CDS in ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_cds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - DEFINE VIEW](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_view.htm) →  [ABAP CDS - SELECT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_select_statement.htm) →  [ABAP CDS - SELECT, Operands and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_operands_and_expressions.htm) →  [ABAP CDS - cast\_expr](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cast_expression.htm) → 
 
 ABAP CDS - cast\_expr, Conversion Rules
 
-The following sections describe the conversion rules for [cast expressions](javascript:call_link\('abencds_f1_cast_expression.htm'\)) in [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry").
+The following sections describe the conversion rules for [cast expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_cast_expression.htm) in [CDS DDL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_ddl_glosry.htm "Glossary Entry").
 
--   [Numeric Source Type](#abencds-f1-cast-expression-rules-1--------source-types-int1--int2--int4--int8--dec---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
+-   [Numeric Source Type](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_1)
 
--   [Character-Like Source Type](#abencds-f1-cast-expression-rules-3--------source-types-char-and-sstring---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_4)
+-   [Source Types INT1, INT2, INT4, INT8, DEC](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_2)
 
--   [Source Type NUMC](#abencds-f1-cast-expression-rules-5--------source-types-dats-and-tims---@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_6)
+-   [Character-Like Source Type](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_3)
+
+-   [Source Types CHAR and SSTRING](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_4)
+
+-   [Source Type NUMC](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_5)
+
+-   [Source Types DATS and TIMS](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_6)
 
 -   [Source Types CLNT, LANG, UNIT, and CUKY](#@@ITOC@@ABENCDS_F1_CAST_EXPRESSION_RULES_7)
 
@@ -36,13 +42,13 @@ Source Types INT1, INT2, INT4, INT8, DEC, CURR, QUAN, DECFLOAT16, and DECFLOAT34
 
 -   In the case of the target types DEC, CURR, and QUAN, a syntax check warning is produced if it is known statically that an exception can be raised.
 
--   In the case of the target type FLTP, values that cannot be represented as [binary floating point numbers](javascript:call_link\('abenbinfloat_glosry.htm'\) "Glossary Entry") are converted to the next adjacent number.
+-   In the case of the target type FLTP, values that cannot be represented as [binary floating point numbers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbinfloat_glosry.htm "Glossary Entry") are converted to the next adjacent number.
 
 -   Character-like target type (not for DECFLOAT16 and DECFLOAT34)
 
 -   The possible target types are CHAR, SSTRING, and CLNT (in the case of INT1).
 
--   The number value is converted to a character string in [mathematical notation](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") and is left-aligned.
+-   The number value is converted to a character string in [mathematical notation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") and is left-aligned.
 
 -   The length of the target type must be enough for all potential values in the source type including the sign and decimal separator.
 
@@ -60,7 +66,7 @@ Source Types CHAR and SSTRING
 
 -   The character string is written to the target field as a left-aligned string including leading blanks. If the target type is too short, the string is truncated on the right and a syntax check warning occurs. If the target field is too long, it is padded on the right with blanks.
 
--   There is no special handling for the special target type for numeric text NUMC and for the date/time types DATS and TIMS. It is advisable to only convert valid values. In the case of the target type NUMC, the built-in function [LPAD](javascript:call_link\('abencds_f1_sql_functions_character.htm'\)) can be used to create leading zeroes.
+-   There is no special handling for the special target type for numeric text NUMC and for the date/time types DATS and TIMS. It is advisable to only convert valid values. In the case of the target type NUMC, the built-in function [LPAD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm) can be used to create leading zeroes.
 
 -   The target type ACCP must be specified using a data element. The data element must have the same length as the data type ACCP.
 
@@ -80,7 +86,7 @@ Source Type NUMC
 
 -   In the case of the target types, INT1, INT2, and INT4, any decimal places in the source field raise an exception. In the case of the target types INT8, DEC, CURR, and QUAN, surplus decimal places are cut off without rounding.
 
--   In the case of the target type FLTP, values that cannot be represented as [binary floating point numbers](javascript:call_link\('abenbinfloat_glosry.htm'\) "Glossary Entry") are converted to the next adjacent number.
+-   In the case of the target type FLTP, values that cannot be represented as [binary floating point numbers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbinfloat_glosry.htm "Glossary Entry") are converted to the next adjacent number.
 
 -   Character-like target type
 
@@ -90,7 +96,7 @@ Source Type NUMC
 
 -   The character string is written to the target field as a left-aligned string including leading blanks. If the target type is too short, the string is truncated on the right and a syntax check warning occurs. If the target field is too long, it is padded on the right with blanks.
 
--   The lengths of the source type and target type must match for the special target type for numeric text NUMC and for the date/time types DATS and TIMS. No other special handling takes place. It is advisable to only convert valid values. In the case of the target type NUMC, the built-in function [LPAD](javascript:call_link\('abencds_f1_sql_functions_character.htm'\)) can be used to create leading zeroes.
+-   The lengths of the source type and target type must match for the special target type for numeric text NUMC and for the date/time types DATS and TIMS. No other special handling takes place. It is advisable to only convert valid values. In the case of the target type NUMC, the built-in function [LPAD](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_sql_functions_character.htm) can be used to create leading zeroes.
 
 Source Types DATS and TIMS
 

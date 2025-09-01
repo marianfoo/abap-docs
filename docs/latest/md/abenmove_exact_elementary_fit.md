@@ -4,22 +4,29 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) →  [Lossless Assignments, Rules](javascript:call_link\('abapmove_exact.htm'\)) →  [Checking Elementary Data Objects](javascript:call_link\('abenmove_exact_elementary.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_move.htm) →  [Lossless Assignments, Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove_exact.htm) →  [Checking Elementary Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmove_exact_elementary.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Suitable%20Values%20for%20Lossless%20Assignments%2C%20ABENMOVE_EXACT_ELEMENTARY_FIT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impr
 ovement:)
 
 Suitable Values for Lossless Assignments
 
-When an elementary argument of the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) is converted to an incompatible elementary data type, the argument must contain a value suitable for the target type as shown in the following tables. This avoids loss of values and provides a valid value for the target type.
+When an elementary argument of the operator [EXACT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_exact.htm) is converted to an incompatible elementary data type, the argument must contain a value suitable for the target type as shown in the following tables. This avoids loss of values and provides a valid value for the target type.
 
--   [Numeric Target Types](#abenmove-exact-elementary-fit-1-----------target-type-with-numeric-type--except-f----@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_2)
-    -   [Target Type of Type f](#abenmove-exact-elementary-fit-3-------character-like-target-types---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_4)
-    -   [Target Type of Type c](#abenmove-exact-elementary-fit-5-----------target-type-of-type-string---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_6)
-    -   [Target Type of Type n](#abenmove-exact-elementary-fit-7-------byte-like-target-types---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_8)
-    -   [Target Type of Type x](#abenmove-exact-elementary-fit-9-----------target-type-of-type-xstring---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_10)
--   [Date/Time Types as Target Types](#abenmove-exact-elementary-fit-11-----------target-type-of-type-d---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_12)
-    -   [Target Type of Type t](#abenmove-exact-elementary-fit-13-----------target-type-of-type-utclong---@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_14)
+-   [Numeric Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_1)
+    -   [Target Type with Numeric Type (Except f)](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_2)
+    -   [Target Type of Type f](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_3)
+-   [Character-Like Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_4)
+    -   [Target Type of Type c](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_5)
+    -   [Target Type of Type string](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_6)
+    -   [Target Type of Type n](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_7)
+-   [Byte-Like Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_8)
+    -   [Target Type of Type x](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_9)
+    -   [Target Type of Type xstring](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_10)
+-   [Date/Time Types as Target Types](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_11)
+    -   [Target Type of Type d](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_12)
+    -   [Target Type of Type t](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_13)
+    -   [Target Type of Type utclong](#@@ITOC@@ABENMOVE_EXACT_ELEMENTARY_FIT_14)
 
 Numeric Target Types   
 
@@ -29,21 +36,21 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Numbers from the value range of the target type that do not have to be rounded. Inappropriate values raise exceptions from the class CX\_SY\_CONVERSION\_ROUNDING or CX\_SY\_CONVERSION\_OVERFLOW.
 
-[character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[character-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
-Numbers from the value range of the target type that do not have to be rounded. In arguments of type c or string, appropriate number [representations](javascript:call_link\('abennumerical_value.htm'\)) according to the [conversion rules](javascript:call_link\('abencharacter_source_fields.htm'\)) are allowed if their value lies within the value range and does not have to be rounded. Arguments of type c or string are also allowed if they contain only blanks or empty strings. Arguments of type n can contain as many digits after leading zeros as fit in the value range. Inappropriate values raise exceptions from the class CX\_SY\_CONVERSION\_ROUNDING or CX\_SY\_CONVERSION\_OVERFLOW.
+Numbers from the value range of the target type that do not have to be rounded. In arguments of type c or string, appropriate number [representations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumerical_value.htm) according to the [conversion rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharacter_source_fields.htm) are allowed if their value lies within the value range and does not have to be rounded. Arguments of type c or string are also allowed if they contain only blanks or empty strings. Arguments of type n can contain as many digits after leading zeros as fit in the value range. Inappropriate values raise exceptions from the class CX\_SY\_CONVERSION\_ROUNDING or CX\_SY\_CONVERSION\_OVERFLOW.
 
-[byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[byte-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry"), [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry"), or [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_type_glosry.htm "Glossary Entry"), [time type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_type_glosry.htm "Glossary Entry"), or [time stamp type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentimestamp_type_glosry.htm "Glossary Entry")
 
-In arguments of types d and t, all [valid](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) date and times (if specified) are allowed, but they cannot be assigned to the target types b and s. Inappropriate values raise exceptions from the class CX\_SY\_CONVERSION\_ROUNDING or CX\_SY\_CONVERSION\_OVERFLOW. The time stamp type utclong is not allowed.
+In arguments of types d and t, all [valid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmove_exact_elementary_valid.htm) date and times (if specified) are allowed, but they cannot be assigned to the target types b and s. Inappropriate values raise exceptions from the class CX\_SY\_CONVERSION\_ROUNDING or CX\_SY\_CONVERSION\_OVERFLOW. The time stamp type utclong is not allowed.
 
 Example
 
@@ -58,21 +65,21 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Integers with a maximum of 15 digits. In arguments of type i (b, s), all values are allowed. In arguments of types int8, p, decfloat16, and decfloat34, a maximum of 15 places, but no decimal places are allowed. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_INEXACT\_FLTP.
 
-[character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[character-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
-Integers with a maximum of 15 digits. In arguments of type c or string, numeric representations in [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry") are allowed, whose values are integers with a maximum of 15 places. Arguments of type c or string are also allowed if they contain only blanks or empty strings. Arguments of type n can contain up to 15 digits after leading zeros. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_INEXACT\_FLTP.
+Integers with a maximum of 15 digits. In arguments of type c or string, numeric representations in [scientific notation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenscientific_notation_glosry.htm "Glossary Entry") are allowed, whose values are integers with a maximum of 15 places. Arguments of type c or string are also allowed if they contain only blanks or empty strings. Arguments of type n can contain up to 15 digits after leading zeros. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_INEXACT\_FLTP.
 
-[byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[byte-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry"), [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry"), or [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_type_glosry.htm "Glossary Entry"), [time type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_type_glosry.htm "Glossary Entry"), or [time stamp type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentimestamp_type_glosry.htm "Glossary Entry")
 
-In arguments of types d and t, all [valid](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) date and time specifications are allowed. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_DATE or CX\_SY\_CONVERSION\_NO\_TIME The time stamp type utclong is not allowed.
+In arguments of types d and t, all [valid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmove_exact_elementary_valid.htm) date and time specifications are allowed. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_DATE or CX\_SY\_CONVERSION\_NO\_TIME The time stamp type utclong is not allowed.
 
 Example
 
@@ -89,21 +96,21 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
-Numbers for which the result from the [conversion](javascript:call_link\('abennumeric_source_fields.htm'\)) to type c is not longer than the target type, but the result cannot be rounded. Positive signs represented as blanks are ignored. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_OVERFLOW or CX\_SY\_CONVERSION\_ROUNDING.
+Numbers for which the result from the [conversion](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_source_fields.htm) to type c is not longer than the target type, but the result cannot be rounded. Positive signs represented as blanks are ignored. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_OVERFLOW or CX\_SY\_CONVERSION\_ROUNDING.
 
-[character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[character-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
 Character strings that are not longer than the target type. In arguments of type c, trailing blanks are ignored. In arguments of type string, no characters are ignored, including trailing blanks. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_DATA\_LOSS.
 
-[byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[byte-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
-Byte chains for which the result from the [conversion](javascript:call_link\('abenbyte_source_fields.htm'\)) to type c is not longer than the target type. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_DATA\_LOSS.
+Byte chains for which the result from the [conversion](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_source_fields.htm) to type c is not longer than the target type. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_DATA\_LOSS.
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry"), [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry"), or [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_type_glosry.htm "Glossary Entry"), [time type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_type_glosry.htm "Glossary Entry"), or [time stamp type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentimestamp_type_glosry.htm "Glossary Entry")
 
-[Valid](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) date, time, or time stamp specifications. The result of the conversion must not be longer than the target type. Values that are too long raise an exception from class CX\_SY\_CONVERSION\_DATA\_LOSS.
+[Valid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmove_exact_elementary_valid.htm) date, time, or time stamp specifications. The result of the conversion must not be longer than the target type. Values that are too long raise an exception from class CX\_SY\_CONVERSION\_DATA\_LOSS.
 
 Example
 
@@ -119,21 +126,21 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
-Any [valid](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) numbers.
+Any [valid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmove_exact_elementary_valid.htm) numbers.
 
-[character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[character-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
 Any character strings.
 
-[Byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[Byte-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Any byte chains.
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry"), [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry"), or [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_type_glosry.htm "Glossary Entry"), [time type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_type_glosry.htm "Glossary Entry"), or [time stamp type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentimestamp_type_glosry.htm "Glossary Entry")
 
-Any [valid](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) date, time, or time stamp information.
+Any [valid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmove_exact_elementary_valid.htm) date, time, or time stamp information.
 
 Example
 
@@ -149,19 +156,19 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Positive integers including 0, whose number of digits does not exceed the length of the target type. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_OVERFLOW or CX\_SY\_CONVERSION\_ROUNDING.
 
-[character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[character-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
 A closed string of digits that cannot be longer than the target type apart from leading zeros. Arguments of type c and string can contain additional leading and trailing blanks. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_NO\_NUMBER or CX\_SY\_CONVERSION\_OVERFLOW.
 
-[byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[byte-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry"), [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry"), or [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry").
+[Date type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_type_glosry.htm "Glossary Entry"), [time type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_type_glosry.htm "Glossary Entry"), or [time stamp type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentimestamp_type_glosry.htm "Glossary Entry").
 
 Arguments of type d and t cannot contain blanks and the target type must have the same length as the source fields. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_NO\_NUMBER or CX\_SY\_CONVERSION\_OVERFLOW. The time stamp type utclong is not allowed.
 
@@ -181,19 +188,19 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[Character-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
 An even number of characters between 0 and 9 and A and F in a closed sequence. The number of bytes represented must correspond exactly to the length of the target type. Other characters are not allowed, with the exception that trailing blanks in arguments of type c are ignored. Arguments of the type n are not allowed. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_SRC\_TOO\_SHORT, CX\_SY\_CONVERSION\_DATA\_LOSS, or CX\_SY\_CONVERSION\_NO\_RAW.
 
-[byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[byte-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 A byte chain that has exactly the same length as the target type. Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_SRC\_TOO\_SHORT or CX\_SY\_CONVERSION\_DATA\_LOSS.
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry"), [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry"), or [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_type_glosry.htm "Glossary Entry"), [time type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_type_glosry.htm "Glossary Entry"), or [time stamp type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentimestamp_type_glosry.htm "Glossary Entry")
 
 Arguments of the types d, t, and utclong are not allowed.
 
@@ -211,19 +218,19 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[Character-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
 An even number of characters between 0 and 9 and A and F in a closed sequence. Other characters are not allowed, with the exception that trailing blanks in arguments of type c are ignored. Arguments of the type n are not allowed. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_RAW.
 
-[byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[byte-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 A byte chain of any length.
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry"), [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry"), or [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_type_glosry.htm "Glossary Entry"), [time type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_type_glosry.htm "Glossary Entry"), or [time stamp type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentimestamp_type_glosry.htm "Glossary Entry")
 
 Arguments of the types d, t, and utclong are not allowed.
 
@@ -242,19 +249,19 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Positive integers between 0 and 3652060 (which corresponds to the date 12/31/9999). Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_OVERFLOW or CX\_SY\_CONVERSION\_ROUNDING.
 
-[character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[character-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
-A left-aligned [valid date](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) specification with the format yyyymmdd. Arguments of type n and string can contain these eight digits only. Arguments of type c can also contain trailing blanks. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_DATE.
+A left-aligned [valid date](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmove_exact_elementary_valid.htm) specification with the format yyyymmdd. Arguments of type n and string can contain these eight digits only. Arguments of type c can also contain trailing blanks. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_DATE.
 
-[byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[byte-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry"), [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry"), or [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_type_glosry.htm "Glossary Entry"), [time type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_type_glosry.htm "Glossary Entry"), or [time stamp type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentimestamp_type_glosry.htm "Glossary Entry")
 
 Valid date specification in an argument of type d. An argument of type t or utclong is not allowed.
 
@@ -271,19 +278,19 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Positive integers between 0 and 86399 (which corresponds to the time 23:59:59). Inappropriate values raise exceptions from classes CX\_SY\_CONVERSION\_OVERFLOW or CX\_SY\_CONVERSION\_ROUNDING.
 
-[character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[character-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
-A left-aligned [valid time](javascript:call_link\('abenmove_exact_elementary_valid.htm'\)) specification with the format hhmmss. Arguments of type n and string can contain only these six digits. Arguments of type c can also contain trailing blanks. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_TIME.
+A left-aligned [valid time](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmove_exact_elementary_valid.htm) specification with the format hhmmss. Arguments of type n and string can contain only these six digits. Arguments of type c can also contain trailing blanks. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_TIME.
 
-[byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[byte-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry"), [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry"), or [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_type_glosry.htm "Glossary Entry"), [time type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_type_glosry.htm "Glossary Entry"), or [time stamp type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentimestamp_type_glosry.htm "Glossary Entry")
 
 Valid time specification in an argument of type t. An argument of type d or utclong is not allowed.
 
@@ -300,19 +307,19 @@ Argument
 
 Suitable Values
 
-[Numeric data type](javascript:call_link\('abennumeric_data_type_glosry.htm'\) "Glossary Entry")
+[Numeric data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumeric_data_type_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry")
+[Character-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencharlike_data_type_glosry.htm "Glossary Entry")
 
-A left-aligned valid [character-like representation](javascript:call_link\('abents_value.htm'\)) of a time stamp, such as yyyy-mm-ddThh:mm:ss.fffffff or an initial value with any number of trailing blanks. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_DATE\_TIME. Arguments of type n are not allowed.
+A left-aligned valid [character-like representation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abents_value.htm) of a time stamp, such as yyyy-mm-ddThh:mm:ss.fffffff or an initial value with any number of trailing blanks. Inappropriate values raise an exception from class CX\_SY\_CONVERSION\_NO\_DATE\_TIME. Arguments of type n are not allowed.
 
-[byte-like data type](javascript:call_link\('abenbyte_like_data_typ_glosry.htm'\) "Glossary Entry")
+[byte-like data type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbyte_like_data_typ_glosry.htm "Glossary Entry")
 
 Not allowed
 
-[Date type](javascript:call_link\('abendate_type_glosry.htm'\) "Glossary Entry"), [time type](javascript:call_link\('abentime_type_glosry.htm'\) "Glossary Entry"), or [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry")
+[Date type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendate_type_glosry.htm "Glossary Entry"), [time type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_type_glosry.htm "Glossary Entry"), or [time stamp type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentimestamp_type_glosry.htm "Glossary Entry")
 
 Valid time stamp in an argument of type utclong. Arguments of type d or t are not allowed.
 

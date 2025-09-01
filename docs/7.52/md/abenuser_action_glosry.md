@@ -4,8 +4,8 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 user action
 
-Action performed by a user on a [control element](javascript:call_link\('abencontrol_element_glosry.htm'\) "Glossary Entry") on the [user interface](javascript:call_link\('abenuser_interface_glosry.htm'\) "Glossary Entry"). Triggers the [dynpro event](javascript:call_link\('abendynpro_event_glosry.htm'\) "Glossary Entry") [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") if the selected control element is associated with a [function code](javascript:call_link\('abenfunction_code_glosry.htm'\) "Glossary Entry").
+Action performed by a user on a [control element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_element_glosry.htm "Glossary Entry") on the [user interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuser_interface_glosry.htm "Glossary Entry"). Triggers the [dynpro event](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendynpro_event_glosry.htm "Glossary Entry") [PAI](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpai_glosry.htm "Glossary Entry") if the selected control element is associated with a [function code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_code_glosry.htm "Glossary Entry").

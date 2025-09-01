@@ -4,20 +4,20 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Naming](javascript:call_link\('abennaming_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Naming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennaming_guidl.htm) → 
 
 Names of Repository Objects
 
 Background
 
-Repository objects are development objects edited using the tools in ABAP Workbench. Each repository object is assigned to a package. Packages encapsulate the repository objects contained and use package interfaces to make objects available that should be usable outside the package. This complies with the [SoC principle](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline").
+Repository objects are development objects edited using the tools in ABAP Workbench. Each repository object is assigned to a package. Packages encapsulate the repository objects contained and use package interfaces to make objects available that should be usable outside the package. This complies with the [SoC principle](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenseperation_concerns_guidl.htm "Guideline").
 
 From a semantic point of view, packages represent a context for declarations, which is one level above the contexts of an ABAP program. Unlike the contexts of an ABAP program (programs, classes, procedures), a package does not generate a separate namespace.
 
 The namespace for repository objects is defined as follows:
 
 -   Prefix namespace
-    Development organizations (SAP departments, SAP partners, and SAP customers) can request a [prefix namespace](javascript:call_link\('abenprefix_name_space_glosry.htm'\) "Glossary Entry") for their own development systems. A prefix namespace has a name with at least 5 and a maximum of 10 digits, and the first digit and last digit must be slashes (/.../). After the namespace has been assigned, repository objects only can be created in systems, where the namespace is enabled by prefixing the namespace name /.../. If a package is created in this type of prefix namespace, it can only contain repository objects belonging to the same namespace. However, multiple packages can be created within a single prefix namespace. The available length for the actual name is reduced by the length of the [namespace prefix](javascript:call_link\('abenname_space_prefix_glosry.htm'\) "Glossary Entry"), including the slashes.
+    Development organizations (SAP departments, SAP partners, and SAP customers) can request a [prefix namespace](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprefix_name_space_glosry.htm "Glossary Entry") for their own development systems. A prefix namespace has a name with at least 5 and a maximum of 10 digits, and the first digit and last digit must be slashes (/.../). After the namespace has been assigned, repository objects only can be created in systems, where the namespace is enabled by prefixing the namespace name /.../. If a package is created in this type of prefix namespace, it can only contain repository objects belonging to the same namespace. However, multiple packages can be created within a single prefix namespace. The available length for the actual name is reduced by the length of the [namespace prefix](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenname_space_prefix_glosry.htm "Glossary Entry"), including the slashes.
 
 -   Customer namespace
     If no prefix namespace is available, the names of repository objects created in customer systems or non-SAP development systems must have Y or Z as the first character. This means they are located in the customer namespace. Repository objects whose names start with Z can also be located within packages whose names start with Y and the other way round.
@@ -27,7 +27,7 @@ The namespace for repository objects is defined as follows:
 
 Note
 
-The global types, namely the global [object types](javascript:call_link\('abenobject_type_glosry.htm'\) "Glossary Entry") of the [class library](javascript:call_link\('abenclass_library_glosry.htm'\) "Glossary Entry") and the global [data types](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") of [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry") are in separate dedicated namespaces. They are always unique when used after REF TO.
+The global types, namely the global [object types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_type_glosry.htm "Glossary Entry") of the [class library](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenclass_library_glosry.htm "Glossary Entry") and the global [data types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_type_glosry.htm "Glossary Entry") of [ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary_glosry.htm "Glossary Entry") are in separate dedicated namespaces. They are always unique when used after REF TO.
 
 Rule
 
@@ -37,7 +37,7 @@ Use common naming conventions for repository objects. The predefined name prefix
 
 Details
 
-Classes and interfaces are the most important entities for [programming with ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline"). Either a class type or an interface type can be used to type a object reference. It is useful to uniquely flag these two types in the class library by means of a prefix. Global exception classes should also be uniquely identified by a prefix. The following naming conventions apply. These conventions are sometimes enforced by Class Builder but are sometimes only evaluated:
+Classes and interfaces are the most important entities for [programming with ABAP Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_obj_progr_model_guidl.htm "Guideline"). Either a class type or an interface type can be used to type a object reference. It is useful to uniquely flag these two types in the class library by means of a prefix. Global exception classes should also be uniquely identified by a prefix. The following naming conventions apply. These conventions are sometimes enforced by Class Builder but are sometimes only evaluated:
 
 -   CL\_ for global classes
 
@@ -47,7 +47,7 @@ Classes and interfaces are the most important entities for [programming with ABA
 
 -   CL\_BADI\_, IF\_BADI\_, CX\_BADI\_ for classes, interfaces, and exception classes of Business Add-Ins (BAdI)
 
-These naming conventions distinguish [object types](javascript:call_link\('abenobject_type_glosry.htm'\) "Glossary Entry") from the global [data types](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") of [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry"), with which they share a namespace.
+These naming conventions distinguish [object types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobject_type_glosry.htm "Glossary Entry") from the global [data types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_type_glosry.htm "Glossary Entry") of [ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dictionary_glosry.htm "Glossary Entry"), with which they share a namespace.
 
 In addition, the names of all repository objects should clearly identify the package or component they belong to. Technically speaking, a package does not generate its own namespace and therefore naming requires strict discipline. Using prefix namespaces is very helpful in itself. However, they are not intended for the package level but for bigger development projects, which usually comprise numerous packages.
 
@@ -59,9 +59,9 @@ If developers find a repository object with a global name, they naturally assume
 
 Note
 
-The above rule supplements the global rule regarding [descriptive names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline"). With regard to technical information in repository object names, the same information stated in section on descriptive names also applies here (also refer to the discussion on prefixes and suffixes in [program-internal names](javascript:call_link\('abenprog_intern_names_guidl.htm'\) "Guideline")).
+The above rule supplements the global rule regarding [descriptive names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm "Guideline"). With regard to technical information in repository object names, the same information stated in section on descriptive names also applies here (also refer to the discussion on prefixes and suffixes in [program-internal names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprog_intern_names_guidl.htm "Guideline")).
 
-All development organizations are free to create own naming conventions on the basis of the above rule regarding [descriptive names](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline"). However, note that the use of a namespace prefix only leaves limited space for the remaining name components. For example, the names of database tables are restricted to 16 characters. Therefore, the namespace prefix should not be too long. It should simply describe a product line using an abbreviation
+All development organizations are free to create own naming conventions on the basis of the above rule regarding [descriptive names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm "Guideline"). However, note that the use of a namespace prefix only leaves limited space for the remaining name components. For example, the names of database tables are restricted to 16 characters. Therefore, the namespace prefix should not be too long. It should simply describe a product line using an abbreviation
 
 Exception
 
@@ -69,10 +69,10 @@ Not all repository objects can be created in prefix namespaces. Some examples ar
 
 A similar guideline applies if further development is performed in areas that are traditionally located in the SAP namespace or the customer namespace. Instead of using a real namespace prefix, this can be simulated by using uniform prefixes when new packages and development objects are created.
 
-If ABAP Workbench itself allocates [names](javascript:call_link\('abensource_code_orga_guidl.htm'\) "Guideline"), for instance, for include programs, which are assigned to specific master programs (such as function groups or class pools), this name allocation always has priority over all other rules. This ensures that the workbench and the compiler run correctly.
+If ABAP Workbench itself allocates [names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensource_code_orga_guidl.htm "Guideline"), for instance, for include programs, which are assigned to specific master programs (such as function groups or class pools), this name allocation always has priority over all other rules. This ensures that the workbench and the compiler run correctly.
 
 Example
 
 Refer to the repository objects of the example application in the package SABAP\_DEMOS\_CAR\_RENTAL.
 
-The subpackages of the SABAP\_DEMOS\_CAR\_RENTAL package start with the same name as the superpackage (as [recommended](javascript:call_link\('abentelling_names_guidl.htm'\) "Guideline") in these guidelines). A suffix indicates their specialization. The same applies to the package interfaces. Instead of a real namespace prefix, the repository objects of the packages have the DEMO\_ prefix. This indicates that the objects are part of a demo package. The affiliation with the car rental application is indicated by the abbreviation CR (car rental).
+The subpackages of the SABAP\_DEMOS\_CAR\_RENTAL package start with the same name as the superpackage (as [recommended](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentelling_names_guidl.htm "Guideline") in these guidelines). A suffix indicates their specialization. The same applies to the package interfaces. Instead of a real namespace prefix, the repository objects of the packages have the DEMO\_ prefix. This indicates that the objects are part of a demo package. The affiliation with the car rental application is indicated by the abbreviation CR (car rental).

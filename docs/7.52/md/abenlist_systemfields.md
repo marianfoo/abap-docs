@@ -4,15 +4,15 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpro_list.htm) → 
 
 Lists - System Fields
 
-The sections below give an overview of the [system fields](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") relevant for list processing. The list that is currently being created is called the "current" list (like the current page, or current row).A list that has just been displayed, possibly involving a list event, is known as the "displayed" list. "Absolute" means that the list itself is referred to and not the state of the [list dynpro](javascript:call_link\('abenlist_dynpro_glosry.htm'\) "Glossary Entry"). A row selected by a list event on which the cursor is positioned, or which is read by READ LINE, is called the "selected" row.
+The sections below give an overview of the [system fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_field_glosry.htm "Glossary Entry") relevant for list processing. The list that is currently being created is called the "current" list (like the current page, or current row).A list that has just been displayed, possibly involving a list event, is known as the "displayed" list. "Absolute" means that the list itself is referred to and not the state of the [list dynpro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_dynpro_glosry.htm "Glossary Entry"). A row selected by a list event on which the cursor is positioned, or which is read by READ LINE, is called the "selected" row.
 
 System Fields when Creating Lists
 
-These system fields are set after every interactive list event and by the statement [READ LINE](javascript:call_link\('abapread_line.htm'\)).
+These system fields are set after every interactive list event and by the statement [READ LINE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapread_line.htm).
 
 System Field
 
@@ -32,15 +32,15 @@ Number of the column on which the cursor is positioned on the current list. Coun
 
 sy-linct
 
-Number of rows per page of the current list, if it was specified by the LINE-COUNT addition of the statement [REPORT](javascript:call_link\('abapreport.htm'\)) or [NEW-PAGE](javascript:call_link\('abapnew-page.htm'\)). Otherwise, sy-linct has the value zero.
+Number of rows per page of the current list, if it was specified by the LINE-COUNT addition of the statement [REPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreport.htm) or [NEW-PAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page.htm). Otherwise, sy-linct has the value zero.
 
 sy-linsz
 
-Row width of the current list. Set by the LINE-SIZE addition of the [REPORT](javascript:call_link\('abapreport.htm'\)) or [NEW-PAGE](javascript:call_link\('abapnew-page.htm'\)) statement.
+Row width of the current list. Set by the LINE-SIZE addition of the [REPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapreport.htm) or [NEW-PAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page.htm) statement.
 
 sy-title
 
-List header. Set in the text elements of a program or by [SET TITLEBAR](javascript:call_link\('abapset_titlebar_list.htm'\)).
+List header. Set in the text elements of a program or by [SET TITLEBAR](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_titlebar_list.htm).
 
 sy-srows
 
@@ -86,7 +86,7 @@ Number of the first displayed page of the displayed list. Counting begins at 1.
 
 sy-staro
 
-Number of the first row on the first displayed page of the displayed list. Counting starts at 1, the rows of the [page header](javascript:call_link\('abenpage_header_glosry.htm'\) "Glossary Entry") are included.
+Number of the first row on the first displayed page of the displayed list. Counting starts at 1, the rows of the [page header](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpage_header_glosry.htm "Glossary Entry") are included.
 
 sy-staco
 

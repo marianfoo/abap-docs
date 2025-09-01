@@ -3,32 +3,7 @@
 Included pages: 11
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abapdescribe.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm)
-- [abapdescribe_field.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field.htm)
-- [abendescribe_field_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field_abexa.htm)
-- [abapdescribe_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_table.htm)
-- [abapdescribe_distance.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_distance.htm)
-- [abendescribe_distance_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_distance_abexa.htm)
-- [abendescribe_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_internal.htm)
-- [abapdescribe_field_into.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field_into.htm)
-
-**Bundle Contains**: 8 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.211Z
-
----
-
 ### abapdescribe.htm
-
-> **📖 Official SAP Documentation**: [abapdescribe.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -36,17 +11,17 @@ Included pages: 11
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field.htm) → 
 
 DESCRIBE
 
 Syntax Forms
 
-[Field Properties](javascript:call_link\('abapdescribe_field.htm'\))
+[Field Properties](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field.htm)
 1\. DESCRIBE FIELD ...
-[Properties of an Internal Table](javascript:call_link\('abapdescribe_table.htm'\))
+[Properties of an Internal Table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_table.htm)
 2\. DESCRIBE TABLE ...
-[Distance Between Two Fields](javascript:call_link\('abapdescribe_distance.htm'\))
+[Distance Between Two Fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_distance.htm)
 3\. DESCRIBE DISTANCE ...
 
 Effect
@@ -55,26 +30,19 @@ The variants of the statement DESCRIBE listed above can be used to specify some 
 
 Notes
 
--   The statement DESCRIBE is used to determine the attributes of data objects of elementary data types. When DESCRIBE is used for structures or data objects of [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") data types like strings, internal tables, or reference variables, only elementary attributes can be identified. Additional information, for example the static or dynamic type of a reference, cannot be determined by DESCRIBE. For this kind of information, the type description classes of [runtime type services](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry") (RTTS) should be used. These enable all data object attributes of all data types to be determined. Since the functions of the RTTS type description classes comprise the complete functions of the DESCRIBE statement, the system classes can be used instead of the statement.
+-   The statement DESCRIBE is used to determine the attributes of data objects of elementary data types. When DESCRIBE is used for structures or data objects of [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data types like strings, internal tables, or reference variables, only elementary attributes can be identified. Additional information, for example the static or dynamic type of a reference, cannot be determined by DESCRIBE. For this kind of information, the type description classes of [runtime type services](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry") (RTTS) should be used. These enable all data object attributes of all data types to be determined. Since the functions of the RTTS type description classes comprise the complete functions of the DESCRIBE statement, the system classes can be used instead of the statement.
     
--   The variant [DESCRIBE LIST](javascript:call_link\('abapdescribe_list.htm'\)) specifies the attributes of lists in the list buffer.
+-   The variant [DESCRIBE LIST](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_list.htm) specifies the attributes of lists in the list buffer.
     
 
 Continue
-[DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\))
-[DESCRIBE TABLE](javascript:call_link\('abapdescribe_table.htm'\))
-[DESCRIBE DISTANCE](javascript:call_link\('abapdescribe_distance.htm'\))
-[DESCRIBE - Internal Variant](javascript:call_link\('abendescribe_internal.htm'\))
+[DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field.htm)
+[DESCRIBE TABLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_table.htm)
+[DESCRIBE DISTANCE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_distance.htm)
+[DESCRIBE - Internal Variant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_internal.htm)
 
-
-
-**📖 Source**: [abapdescribe.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm)
 
 ### abapdescribe_field.htm
-
-> **📖 Official SAP Documentation**: [abapdescribe_field.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -82,11 +50,11 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm) → 
 
 DESCRIBE FIELD
 
-[Quick Reference](javascript:call_link\('abapdescribe_field_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field_shortref.htm)
 
 Syntax
 
@@ -113,16 +81,16 @@ This statement determines multiple attributes of the data object dobj and assign
 
 -   Existing variables to which the return value can be converted.
     
--   Inline declarations [DATA(var)](javascript:call_link\('abendata_inline.htm'\)).
+-   Inline declarations [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm).
     
 
-The various additions make it possible to determine the data type and the number of components for structures, the length used in the memory, the number of [decimal places](javascript:call_link\('abenfractional_portion_glosry.htm'\) "Glossary Entry"), the output length, the name of the data type for a reference to a data element in ABAP Dictionary, and any conversion routines.
+The various additions make it possible to determine the data type and the number of components for structures, the length used in the memory, the number of [decimal places](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfractional_portion_glosry.htm "Glossary Entry"), the output length, the name of the data type for a reference to a data element in ABAP Dictionary, and any conversion routines.
 
 Notes
 
--   Field symbols or formal parameters can be specified in [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") for dobj to identify the attributes of the data object they represent when the statement is executed.
+-   Field symbols or formal parameters can be specified in [procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocedure_glosry.htm "Glossary Entry") for dobj to identify the attributes of the data object they represent when the statement is executed.
     
--   The statement DESCRIBE is used to determine the attributes of data objects of elementary data types. When DESCRIBE is used for structures or data objects of [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") data types like strings, internal tables, or reference variables, only elementary attributes can be identified. Further details, for example, the static or dynamic type of a reference variable cannot be identified using DESCRIBE. For this kind of information, the type description classes of runtime type services ([RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry")) should be used. These enable all data object attributes of all data types to be determined.
+-   The statement DESCRIBE is used to determine the attributes of data objects of elementary data types. When DESCRIBE is used for structures or data objects of [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data types like strings, internal tables, or reference variables, only elementary attributes can be identified. Further details, for example, the static or dynamic type of a reference variable cannot be identified using DESCRIBE. For this kind of information, the type description classes of runtime type services ([RTTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry")) should be used. These enable all data object attributes of all data types to be determined.
     
 
 Addition 1
@@ -249,11 +217,11 @@ The addition COMPONENTS determines the number of direct components of the data o
 
 Note
 
-If DESCRIBE FIELD is applied directly to a [static box](javascript:call_link\('abenstatic_box_glosry.htm'\) "Glossary Entry"), its data type according to the above table is returned and not the internal ID j for the boxed component.
+If DESCRIBE FIELD is applied directly to a [static box](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_box_glosry.htm "Glossary Entry"), its data type according to the above table is returned and not the internal ID j for the boxed component.
 
 Example
 
-For the [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") nested structure struc1, identifies the type ID "v" and three components. For the [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") structure struc2, identifies the type ID "u" and two components.
+For the [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") nested structure struc1, identifies the type ID "v" and three components. For the [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") structure struc2, identifies the type ID "u" and two components.
 
 DATA: BEGIN OF struc1,
         comp1 TYPE c LENGTH 1,
@@ -274,15 +242,15 @@ Effect
 
 Determines the length used directly by the data object dobj in the memory in bytes or characters depending on the addition MODE. The return value has the type i. In an inline declaration, a variable of the type i is declared.
 
-The variant with the addition IN BYTE MODE identifies the length of the data object dobj in bytes. The variant with the addition IN CHARACTER MODE identifies the length of the data object dobj in characters. When using IN CHARACTER MODE, the data type of dobj must be flat and character-like. For [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") data types, only IN BYTE MODE can be specified. This always identifies the length of the references involved (eight bytes for each reference).
+The variant with the addition IN BYTE MODE identifies the length of the data object dobj in bytes. The variant with the addition IN CHARACTER MODE identifies the length of the data object dobj in characters. When using IN CHARACTER MODE, the data type of dobj must be flat and character-like. For [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data types, only IN BYTE MODE can be specified. This always identifies the length of the references involved (eight bytes for each reference).
 
 Notes
 
--   For data objects with a fixed length, the length is identified that is specified when the data object is created. The [built-in function](javascript:call_link\('abenpredefined_function_glosry.htm'\) "Glossary Entry") strlen can be used to identify the used length of character-like data objects while ignoring the trailing blanks.
+-   For data objects with a fixed length, the length is identified that is specified when the data object is created. The [built-in function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredefined_function_glosry.htm "Glossary Entry") strlen can be used to identify the used length of character-like data objects while ignoring the trailing blanks.
     
--   In structures, the [alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry") are included in the length. This is particularly significant in the case of alignment gaps that occur before the end of the structure.
+-   In structures, the [alignment gaps](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalignment_gap_glosry.htm "Glossary Entry") are included in the length. This is particularly significant in the case of alignment gaps that occur before the end of the structure.
     
--   With [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry"), the addition IN BYTE MODE must be specified and the length of the actual [enumerated value](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") is determined in the [basic type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry").
+-   With [enumerated objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm "Glossary Entry"), the addition IN BYTE MODE must be specified and the length of the actual [enumerated value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_value_glosry.htm "Glossary Entry") is determined in the [basic type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbase_type_glosry.htm "Glossary Entry").
     
 
 Example
@@ -312,7 +280,7 @@ Addition 3
 
 Effect
 
-Determines the [number of decimal places](javascript:call_link\('abenfractional_portion_glosry.htm'\) "Glossary Entry") of the data object dobj. The return value has the type i. In an inline declaration, a variable of the type i is declared.
+Determines the [number of decimal places](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfractional_portion_glosry.htm "Glossary Entry") of the data object dobj. The return value has the type i. In an inline declaration, a variable of the type i is declared.
 
 Note
 
@@ -346,15 +314,15 @@ Addition 4
 
 Effect
 
-For data objects with a fixed length, determines the output length of the data object dobj required for [screen layouts](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry"). The return value has the type i. In an inline declaration, a variable of the type i is declared.
+For data objects with a fixed length, determines the output length of the data object dobj required for [screen layouts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry"). The return value has the type i. In an inline declaration, a variable of the type i is declared.
 
 Generally, this result corresponds to the predefined output length of the data object in accordance with its data type in the output in the list buffer. In strings, olen is always set to 0. olen expects the data type i.
 
 Notes
 
--   Normally, the required output length is specified adequately by the entry in the table for predefined [output lengths](javascript:call_link\('abenwrite_output_length.htm'\)). This is not the case when the data type of the data object is defined with a reference to ABAP Dictionary and an output length or a conversion routine is specified in the corresponding domain.
+-   Normally, the required output length is specified adequately by the entry in the table for predefined [output lengths](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwrite_output_length.htm). This is not the case when the data type of the data object is defined with a reference to ABAP Dictionary and an output length or a conversion routine is specified in the corresponding domain.
     
--   If the output length defined in a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") for a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") with the same name as dobj is shorter than the required output length, an overflow raises a non-handleable exception. When passed to the list buffer, the output is truncated if the output length is shorter than the required output length.
+-   If the output length defined in a [dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") for a [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") with the same name as dobj is shorter than the required output length, an overflow raises a non-handleable exception. When passed to the list buffer, the output is truncated if the output length is shorter than the required output length.
     
 -   When separators or templates are provided in the user master record for the output of a data type, they are only displayed if the defined output length is sufficient. The required length can be longer than the output length identified by OUTPUT-LENGTH.
     
@@ -376,7 +344,7 @@ Addition 5
 
 Effect
 
-If the data type of the data object dobj is determined by a [data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry") in ABAP Dictionary, the name of the data type is assigned that was used after the addition TYPE when defining the data object dobj. The return value is a string. In an inline declaration, a variable of the type string is declared.
+If the data type of the data object dobj is determined by a [data element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_element_glosry.htm "Glossary Entry") in ABAP Dictionary, the name of the data type is assigned that was used after the addition TYPE when defining the data object dobj. The return value is a string. In an inline declaration, a variable of the type string is declared.
 
 If the data object does not refer to a data object in ABAP Dictionary, hlp is initialized. hlp expects a character-like data object.
 
@@ -439,17 +407,10 @@ WRITE seconds TO output USING EDIT MASK msk.
 cl\_demo\_output=>display\_data( output ).
 
 Continue
-![Example](exa.gif "Example") [Determining Elementary Data Types](javascript:call_link\('abendescribe_field_abexa.htm'\))
+![Example](exa.gif "Example") [Determining Elementary Data Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field_abexa.htm)
 
-
-
-**📖 Source**: [abapdescribe_field.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field.htm)
 
 ### abendescribe_field_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendescribe_field_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -457,7 +418,7 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) →  [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm) →  [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field.htm) → 
 
 Determining Elementary Data Types
 
@@ -522,17 +483,10 @@ The new data objects are assigned to field symbols <data1> and <data2>. Then, th
 
 The example does not work if complex data types such as SCARR and SPFLI are entered in the input fields. In this case DESCRIBE FIELD, determines the same types ("u"), which can cause runtime errors if the structures are not convertible.
 
-The [RTTS](javascript:call_link\('abenrtti.htm'\)) methods can be used to check complex data types and object types at runtime.
+The [RTTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrtti.htm) methods can be used to check complex data types and object types at runtime.
 
-
-
-**📖 Source**: [abendescribe_field_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field_abexa.htm)
 
 ### abapdescribe_field.htm
-
-> **📖 Official SAP Documentation**: [abapdescribe_field.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -540,11 +494,11 @@ The [RTTS](javascript:call_link\('abenrtti.htm'\)) methods can be used to check 
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm) → 
 
 DESCRIBE FIELD
 
-[Quick Reference](javascript:call_link\('abapdescribe_field_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field_shortref.htm)
 
 Syntax
 
@@ -571,16 +525,16 @@ This statement determines multiple attributes of the data object dobj and assign
 
 -   Existing variables to which the return value can be converted.
     
--   Inline declarations [DATA(var)](javascript:call_link\('abendata_inline.htm'\)).
+-   Inline declarations [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm).
     
 
-The various additions make it possible to determine the data type and the number of components for structures, the length used in the memory, the number of [decimal places](javascript:call_link\('abenfractional_portion_glosry.htm'\) "Glossary Entry"), the output length, the name of the data type for a reference to a data element in ABAP Dictionary, and any conversion routines.
+The various additions make it possible to determine the data type and the number of components for structures, the length used in the memory, the number of [decimal places](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfractional_portion_glosry.htm "Glossary Entry"), the output length, the name of the data type for a reference to a data element in ABAP Dictionary, and any conversion routines.
 
 Notes
 
--   Field symbols or formal parameters can be specified in [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") for dobj to identify the attributes of the data object they represent when the statement is executed.
+-   Field symbols or formal parameters can be specified in [procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprocedure_glosry.htm "Glossary Entry") for dobj to identify the attributes of the data object they represent when the statement is executed.
     
--   The statement DESCRIBE is used to determine the attributes of data objects of elementary data types. When DESCRIBE is used for structures or data objects of [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") data types like strings, internal tables, or reference variables, only elementary attributes can be identified. Further details, for example, the static or dynamic type of a reference variable cannot be identified using DESCRIBE. For this kind of information, the type description classes of runtime type services ([RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry")) should be used. These enable all data object attributes of all data types to be determined.
+-   The statement DESCRIBE is used to determine the attributes of data objects of elementary data types. When DESCRIBE is used for structures or data objects of [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data types like strings, internal tables, or reference variables, only elementary attributes can be identified. Further details, for example, the static or dynamic type of a reference variable cannot be identified using DESCRIBE. For this kind of information, the type description classes of runtime type services ([RTTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry")) should be used. These enable all data object attributes of all data types to be determined.
     
 
 Addition 1
@@ -707,11 +661,11 @@ The addition COMPONENTS determines the number of direct components of the data o
 
 Note
 
-If DESCRIBE FIELD is applied directly to a [static box](javascript:call_link\('abenstatic_box_glosry.htm'\) "Glossary Entry"), its data type according to the above table is returned and not the internal ID j for the boxed component.
+If DESCRIBE FIELD is applied directly to a [static box](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_box_glosry.htm "Glossary Entry"), its data type according to the above table is returned and not the internal ID j for the boxed component.
 
 Example
 
-For the [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") nested structure struc1, identifies the type ID "v" and three components. For the [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") structure struc2, identifies the type ID "u" and two components.
+For the [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") nested structure struc1, identifies the type ID "v" and three components. For the [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") structure struc2, identifies the type ID "u" and two components.
 
 DATA: BEGIN OF struc1,
         comp1 TYPE c LENGTH 1,
@@ -732,15 +686,15 @@ Effect
 
 Determines the length used directly by the data object dobj in the memory in bytes or characters depending on the addition MODE. The return value has the type i. In an inline declaration, a variable of the type i is declared.
 
-The variant with the addition IN BYTE MODE identifies the length of the data object dobj in bytes. The variant with the addition IN CHARACTER MODE identifies the length of the data object dobj in characters. When using IN CHARACTER MODE, the data type of dobj must be flat and character-like. For [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") data types, only IN BYTE MODE can be specified. This always identifies the length of the references involved (eight bytes for each reference).
+The variant with the addition IN BYTE MODE identifies the length of the data object dobj in bytes. The variant with the addition IN CHARACTER MODE identifies the length of the data object dobj in characters. When using IN CHARACTER MODE, the data type of dobj must be flat and character-like. For [deep](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data types, only IN BYTE MODE can be specified. This always identifies the length of the references involved (eight bytes for each reference).
 
 Notes
 
--   For data objects with a fixed length, the length is identified that is specified when the data object is created. The [built-in function](javascript:call_link\('abenpredefined_function_glosry.htm'\) "Glossary Entry") strlen can be used to identify the used length of character-like data objects while ignoring the trailing blanks.
+-   For data objects with a fixed length, the length is identified that is specified when the data object is created. The [built-in function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredefined_function_glosry.htm "Glossary Entry") strlen can be used to identify the used length of character-like data objects while ignoring the trailing blanks.
     
--   In structures, the [alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry") are included in the length. This is particularly significant in the case of alignment gaps that occur before the end of the structure.
+-   In structures, the [alignment gaps](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalignment_gap_glosry.htm "Glossary Entry") are included in the length. This is particularly significant in the case of alignment gaps that occur before the end of the structure.
     
--   With [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry"), the addition IN BYTE MODE must be specified and the length of the actual [enumerated value](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") is determined in the [basic type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry").
+-   With [enumerated objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_object_glosry.htm "Glossary Entry"), the addition IN BYTE MODE must be specified and the length of the actual [enumerated value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenenumerated_value_glosry.htm "Glossary Entry") is determined in the [basic type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbase_type_glosry.htm "Glossary Entry").
     
 
 Example
@@ -770,7 +724,7 @@ Addition 3
 
 Effect
 
-Determines the [number of decimal places](javascript:call_link\('abenfractional_portion_glosry.htm'\) "Glossary Entry") of the data object dobj. The return value has the type i. In an inline declaration, a variable of the type i is declared.
+Determines the [number of decimal places](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfractional_portion_glosry.htm "Glossary Entry") of the data object dobj. The return value has the type i. In an inline declaration, a variable of the type i is declared.
 
 Note
 
@@ -804,15 +758,15 @@ Addition 4
 
 Effect
 
-For data objects with a fixed length, determines the output length of the data object dobj required for [screen layouts](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry"). The return value has the type i. In an inline declaration, a variable of the type i is declared.
+For data objects with a fixed length, determines the output length of the data object dobj required for [screen layouts](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry"). The return value has the type i. In an inline declaration, a variable of the type i is declared.
 
 Generally, this result corresponds to the predefined output length of the data object in accordance with its data type in the output in the list buffer. In strings, olen is always set to 0. olen expects the data type i.
 
 Notes
 
--   Normally, the required output length is specified adequately by the entry in the table for predefined [output lengths](javascript:call_link\('abenwrite_output_length.htm'\)). This is not the case when the data type of the data object is defined with a reference to ABAP Dictionary and an output length or a conversion routine is specified in the corresponding domain.
+-   Normally, the required output length is specified adequately by the entry in the table for predefined [output lengths](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwrite_output_length.htm). This is not the case when the data type of the data object is defined with a reference to ABAP Dictionary and an output length or a conversion routine is specified in the corresponding domain.
     
--   If the output length defined in a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") for a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") with the same name as dobj is shorter than the required output length, an overflow raises a non-handleable exception. When passed to the list buffer, the output is truncated if the output length is shorter than the required output length.
+-   If the output length defined in a [dynpro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry") for a [dynpro field](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_field_glosry.htm "Glossary Entry") with the same name as dobj is shorter than the required output length, an overflow raises a non-handleable exception. When passed to the list buffer, the output is truncated if the output length is shorter than the required output length.
     
 -   When separators or templates are provided in the user master record for the output of a data type, they are only displayed if the defined output length is sufficient. The required length can be longer than the output length identified by OUTPUT-LENGTH.
     
@@ -834,7 +788,7 @@ Addition 5
 
 Effect
 
-If the data type of the data object dobj is determined by a [data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry") in ABAP Dictionary, the name of the data type is assigned that was used after the addition TYPE when defining the data object dobj. The return value is a string. In an inline declaration, a variable of the type string is declared.
+If the data type of the data object dobj is determined by a [data element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_element_glosry.htm "Glossary Entry") in ABAP Dictionary, the name of the data type is assigned that was used after the addition TYPE when defining the data object dobj. The return value is a string. In an inline declaration, a variable of the type string is declared.
 
 If the data object does not refer to a data object in ABAP Dictionary, hlp is initialized. hlp expects a character-like data object.
 
@@ -897,17 +851,10 @@ WRITE seconds TO output USING EDIT MASK msk.
 cl\_demo\_output=>display\_data( output ).
 
 Continue
-![Example](exa.gif "Example") [Determining Elementary Data Types](javascript:call_link\('abendescribe_field_abexa.htm'\))
+![Example](exa.gif "Example") [Determining Elementary Data Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field_abexa.htm)
 
-
-
-**📖 Source**: [abapdescribe_field.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field.htm)
 
 ### abapdescribe_table.htm
-
-> **📖 Official SAP Documentation**: [abapdescribe_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_table.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -915,11 +862,11 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm) → 
 
 DESCRIBE TABLE
 
-[Quick Reference](javascript:call_link\('abapdescribe_table_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_table_shortref.htm)
 
 Syntax
 
@@ -937,7 +884,7 @@ This statement determines some of the properties of the internal table itab and 
 
 -   Existing variables to which the return value can be converted.
     
--   Inline declarations [DATA(var)](javascript:call_link\('abendata_inline.htm'\)).
+-   Inline declarations [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm).
     
 
 The various additions enable the table category, the number of currently filled rows, and the initial memory requirement to be determined.
@@ -946,7 +893,7 @@ In addition, the system fields sy-tfill and sy-tleng are filled with the current
 
 Notes
 
--   For more detailed information about an internal table, it is best to use the methods of the [RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry") of the statement DESCRIBE TABLE.
+-   For more detailed information about an internal table, it is best to use the methods of the [RTTS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry") of the statement DESCRIBE TABLE.
     
 -   If no addition is specified, the statement DESCRIBE TABLE only sets the system fields sy-tfill and sy-tleng.
     
@@ -959,11 +906,11 @@ Effect
 
 Determines the table category of the internal table itab. The return value is a single character character-like ID. In an inline declaration, a variable of the type c with length 1 is declared.
 
-The possible IDs are "T" for [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry"), "S" for sorted tables, and "H" for [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry"). These values are also defined as constants sydes\_kind-standard, sydes\_kind-sorted, and sydes\_kind-hashed in the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") SYDES.
+The possible IDs are "T" for [standard tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_table_glosry.htm "Glossary Entry"), "S" for sorted tables, and "H" for [hashed tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhashed_table_glosry.htm "Glossary Entry"). These values are also defined as constants sydes\_kind-standard, sydes\_kind-sorted, and sydes\_kind-hashed in the [type group](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_group_1_glosry.htm "Glossary Entry") SYDES.
 
 Example
 
-Sorts a generically typed internal table in a method in descending order. Since [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") cannot be sorted in descending order, the table category is checked to prevent non-handleable exceptions from being raised.
+Sorts a generically typed internal table in a method in descending order. Since [sorted tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensorted_table_glosry.htm "Glossary Entry") cannot be sorted in descending order, the table category is checked to prevent non-handleable exceptions from being raised.
 
 CLASS demo DEFINITION.
   PUBLIC SECTION.
@@ -993,11 +940,11 @@ Determines the current number of table rows in the internal table itab. The retu
 
 Note
 
-The current number of rows of an internal table can also be determined using the [built-in function](javascript:call_link\('abenpredefined_function_glosry.htm'\) "Glossary Entry") [lines](javascript:call_link\('abendescriptive_functions_table.htm'\)), which can be used in suitable [operand positions](javascript:call_link\('abenexpression_positions.htm'\)).
+The current number of rows of an internal table can also be determined using the [built-in function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredefined_function_glosry.htm "Glossary Entry") [lines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescriptive_functions_table.htm), which can be used in suitable [operand positions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexpression_positions.htm).
 
 Example
 
-The example shows that the addition of LINES to DESCRIBE TABLE and the built-in function [lines](javascript:call_link\('abendescriptive_functions_table.htm'\)) have the same result.
+The example shows that the addition of LINES to DESCRIBE TABLE and the built-in function [lines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescriptive_functions_table.htm) have the same result.
 
 SELECT carrid
        FROM scarr
@@ -1011,7 +958,7 @@ Addition 3
 
 Effect
 
-Determines the initial memory requirements defined using the addition [INITIAL SIZE](javascript:call_link\('abaptypes_itab.htm'\)) or the obsolete addition [OCCURS](javascript:call_link\('abaptypes_occurs.htm'\)) when the internal table is created. The return value has the type i. In an inline declaration, a variable of the type i is declared.
+Determines the initial memory requirements defined using the addition [INITIAL SIZE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_itab.htm) or the obsolete addition [OCCURS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_occurs.htm) when the internal table is created. The return value has the type i. In an inline declaration, a variable of the type i is declared.
 
 Example
 
@@ -1023,14 +970,7 @@ ASSERT occ = CAST cl\_abap\_tabledescr(
   cl\_abap\_typedescr=>describe\_by\_data( itab ) )->initial\_size.
 
 
-
-**📖 Source**: [abapdescribe_table.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_table.htm)
-
 ### abapdescribe_distance.htm
-
-> **📖 Official SAP Documentation**: [abapdescribe_distance.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_distance.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1038,11 +978,11 @@ ASSERT occ = CAST cl\_abap\_tabledescr(
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm) → 
 
 DESCRIBE DISTANCE
 
-[Quick Reference](javascript:call_link\('abapdescribe_distance_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_distance_shortref.htm)
 
 Syntax
 
@@ -1057,20 +997,20 @@ The return value has the type i. The following can be specified for dst:
 
 -   An existing variable to which the return value can be converted.
     
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)), where a variable of type i is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm), where a variable of type i is declared.
     
 
 It is not important in which order dobj1 and dobj2 are specified.
 
 The variant with the addition IN BYTE MODE determines the distance in bytes. The variant with the addition IN CHARACTER MODE converts the distance into characters that can be stored in this length according to the current character format. When this addition is used in IN CHARACTER MODE and the determined distance cannot be converted into a number of characters, a non-handleable exception is raised.
 
-In the case of [deeper](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") data types, the referenced data object is not relevant but the position of the internal reference (for strings and internal tables) or the reference variables instead.
+In the case of [deeper](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data types, the referenced data object is not relevant but the position of the internal reference (for strings and internal tables) or the reference variables instead.
 
 Notes
 
--   The distance between data objects should only be determined within the same structure and only the components of the structures should be used, since this is the only way to guarantee that they follow each other immediately in the memory. Note that the [alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry") are counted as well. Therefore, use the addition in IN BYTE MODE to avoid a non-handleable exception.
+-   The distance between data objects should only be determined within the same structure and only the components of the structures should be used, since this is the only way to guarantee that they follow each other immediately in the memory. Note that the [alignment gaps](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalignment_gap_glosry.htm "Glossary Entry") are counted as well. Therefore, use the addition in IN BYTE MODE to avoid a non-handleable exception.
     
--   With respect to DESCRIBE DISTANCE, every substructure declared as a [boxed component](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry") is an independent structure. The distance between components which are not in the same boxed component is undefined.
+-   With respect to DESCRIBE DISTANCE, every substructure declared as a [boxed component](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboxed_component_glosry.htm "Glossary Entry") is an independent structure. The distance between components which are not in the same boxed component is undefined.
     
 
 Example
@@ -1087,9 +1027,9 @@ DESCRIBE DISTANCE BETWEEN text+2(1) AND text+7(1)
 
 Executable Example
 
-[Determining Data Object Distances](javascript:call_link\('abendescribe_distance_abexa.htm'\))
+[Determining Data Object Distances](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_distance_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 
@@ -1098,17 +1038,10 @@ Non-Handleable Exceptions
     
 
 Continue
-![Example](exa.gif "Example") [Determining Data Object Distances](javascript:call_link\('abendescribe_distance_abexa.htm'\))
+![Example](exa.gif "Example") [Determining Data Object Distances](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_distance_abexa.htm)
 
-
-
-**📖 Source**: [abapdescribe_distance.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_distance.htm)
 
 ### abendescribe_distance_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendescribe_distance_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_distance_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1116,7 +1049,7 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) →  [DESCRIBE DISTANCE](javascript:call_link\('abapdescribe_distance.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm) →  [DESCRIBE DISTANCE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_distance.htm) → 
 
 Determining Data Object Distances
 
@@ -1158,14 +1091,7 @@ Description
 Determines the offset and length, in bytes, of a character-like fragment within the struc structure, accesses the fragment using an offset/length access, and assigns it a field symbol of type c. Since the structure is not just character-like, the offset/length access takes place using a field symbol. If not, a syntax error occurs. The field symbol is of the type x, since offsets and lengths are determined in bytes. The field symbol <result> points to the fragment "Hey you!".
 
 
-
-**📖 Source**: [abendescribe_distance_abexa.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_distance_abexa.htm)
-
 ### abapdescribe_distance.htm
-
-> **📖 Official SAP Documentation**: [abapdescribe_distance.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_distance.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1173,11 +1099,11 @@ Determines the offset and length, in bytes, of a character-like fragment within 
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm) → 
 
 DESCRIBE DISTANCE
 
-[Quick Reference](javascript:call_link\('abapdescribe_distance_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_distance_shortref.htm)
 
 Syntax
 
@@ -1192,20 +1118,20 @@ The return value has the type i. The following can be specified for dst:
 
 -   An existing variable to which the return value can be converted.
     
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)), where a variable of type i is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm), where a variable of type i is declared.
     
 
 It is not important in which order dobj1 and dobj2 are specified.
 
 The variant with the addition IN BYTE MODE determines the distance in bytes. The variant with the addition IN CHARACTER MODE converts the distance into characters that can be stored in this length according to the current character format. When this addition is used in IN CHARACTER MODE and the determined distance cannot be converted into a number of characters, a non-handleable exception is raised.
 
-In the case of [deeper](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") data types, the referenced data object is not relevant but the position of the internal reference (for strings and internal tables) or the reference variables instead.
+In the case of [deeper](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeep_glosry.htm "Glossary Entry") data types, the referenced data object is not relevant but the position of the internal reference (for strings and internal tables) or the reference variables instead.
 
 Notes
 
--   The distance between data objects should only be determined within the same structure and only the components of the structures should be used, since this is the only way to guarantee that they follow each other immediately in the memory. Note that the [alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry") are counted as well. Therefore, use the addition in IN BYTE MODE to avoid a non-handleable exception.
+-   The distance between data objects should only be determined within the same structure and only the components of the structures should be used, since this is the only way to guarantee that they follow each other immediately in the memory. Note that the [alignment gaps](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenalignment_gap_glosry.htm "Glossary Entry") are counted as well. Therefore, use the addition in IN BYTE MODE to avoid a non-handleable exception.
     
--   With respect to DESCRIBE DISTANCE, every substructure declared as a [boxed component](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry") is an independent structure. The distance between components which are not in the same boxed component is undefined.
+-   With respect to DESCRIBE DISTANCE, every substructure declared as a [boxed component](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboxed_component_glosry.htm "Glossary Entry") is an independent structure. The distance between components which are not in the same boxed component is undefined.
     
 
 Example
@@ -1222,9 +1148,9 @@ DESCRIBE DISTANCE BETWEEN text+2(1) AND text+7(1)
 
 Executable Example
 
-[Determining Data Object Distances](javascript:call_link\('abendescribe_distance_abexa.htm'\))
+[Determining Data Object Distances](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_distance_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 
@@ -1233,17 +1159,10 @@ Non-Handleable Exceptions
     
 
 Continue
-![Example](exa.gif "Example") [Determining Data Object Distances](javascript:call_link\('abendescribe_distance_abexa.htm'\))
+![Example](exa.gif "Example") [Determining Data Object Distances](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_distance_abexa.htm)
 
-
-
-**📖 Source**: [abapdescribe_distance.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_distance.htm)
 
 ### abendescribe_internal.htm
-
-> **📖 Official SAP Documentation**: [abendescribe_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_internal.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1251,27 +1170,20 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm) → 
 
 DESCRIBE - Internal Variant
 
 This statement is for internal use only.
 It must not be used in application programs.
 
--   [DESCRIBE FIELD INTO](javascript:call_link\('abapdescribe_field_into.htm'\))
+-   [DESCRIBE FIELD INTO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field_into.htm)
 
 Continue
-[DESCRIBE FIELD INTO](javascript:call_link\('abapdescribe_field_into.htm'\))
+[DESCRIBE FIELD INTO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field_into.htm)
 
-
-
-**📖 Source**: [abendescribe_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_internal.htm)
 
 ### abapdescribe_field_into.htm
-
-> **📖 Official SAP Documentation**: [abapdescribe_field_into.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field_into.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1279,7 +1191,7 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) →  [DESCRIBE - Internal Variant](javascript:call_link\('abendescribe_internal.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm) →  [DESCRIBE - Internal Variant](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_internal.htm) → 
 
 DESCRIBE FIELD INTO
 
@@ -1292,7 +1204,7 @@ DESCRIBE FIELD dobj INTO td.
 
 Effect
 
-All attributes of the field f, its components, subcomponents, and so on, are in the output of the field td (type description). td must have the type SYDES\_DESC, defined in the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") SYDES.
+All attributes of the field f, its components, subcomponents, and so on, are in the output of the field td (type description). td must have the type SYDES\_DESC, defined in the [type group](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_group_1_glosry.htm "Glossary Entry") SYDES.
 
 The structure SYDES\_DESC has two table-like components TYPES and NAMES:
 
@@ -1310,7 +1222,7 @@ Component name
 
 IDX\_USER\_TYPE
 
-Name of a user-defined type, in other words a type defined by a [TYPES](javascript:call_link\('abaptypes.htm'\)) statement. Derived types (... TYPE A-B) and structures from ABAP Dictionary are not considered to be user-defined types.
+Name of a user-defined type, in other words a type defined by a [TYPES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes.htm) statement. Derived types (... TYPE A-B) and structures from ABAP Dictionary are not considered to be user-defined types.
 
 CONTEXT
 
@@ -1344,15 +1256,15 @@ Output length, like the addition OUTPUT-LENGTH in a simple DESCRIBE
 
 DECIMALS
 
-Number of [decimal digits](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry"), like the addition DECIMALS in a simple DESCRIBE
+Number of [decimal digits](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendecimal_place_glosry.htm "Glossary Entry"), like the addition DECIMALS in a simple DESCRIBE
 
 TYPE
 
-ABAP type, like the addition TYPE in a simple DESCRIBE. If DESCRIBE INTO is applied to a nested structure which contains a [boxed component](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry"), the type is returned with the internal ID j ([static box](javascript:call_link\('abenstatic_box_glosry.htm'\) "Glossary Entry")).
+ABAP type, like the addition TYPE in a simple DESCRIBE. If DESCRIBE INTO is applied to a nested structure which contains a [boxed component](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboxed_component_glosry.htm "Glossary Entry"), the type is returned with the internal ID j ([static box](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_box_glosry.htm "Glossary Entry")).
 
 TABLE\_KIND
 
-A [table category](javascript:call_link\('abaptypes_tabkind.htm'\)) is stored here for the components which represent an internal table. The same values are returned as with the variant [DESCRIBE TABLE itab KIND k](javascript:call_link\('abapdescribe_table.htm'\)). For components which do not represent a table, the return code is set to SYDES\_KIND-UNDEFINED (see type group SYDES).
+A [table category](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptypes_tabkind.htm) is stored here for the components which represent an internal table. The same values are returned as with the variant [DESCRIBE TABLE itab KIND k](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_table.htm). For components which do not represent a table, the return code is set to SYDES\_KIND-UNDEFINED (see type group SYDES).
 
 Example
 
@@ -1431,17 +1343,7 @@ The name table TD-NAMES contains the following entries. Note that the names SALA
 11 |        |ABSENT              22 |        |TO
 
 
-
-**📖 Source**: [abapdescribe_field_into.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field_into.htm)
-
 ### abendescribe_internal.htm
-
-> **📖 Official SAP Documentation**: [abendescribe_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_internal.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abendescribe_internal.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_internal.htm)
-
 
   
 
@@ -1449,14 +1351,14 @@ The name table TD-NAMES contains the following entries. Note that the names SALA
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe.htm) → 
 
 DESCRIBE - Internal Variant
 
 This statement is for internal use only.
 It must not be used in application programs.
 
--   [DESCRIBE FIELD INTO](javascript:call_link\('abapdescribe_field_into.htm'\))
+-   [DESCRIBE FIELD INTO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field_into.htm)
 
 Continue
-[DESCRIBE FIELD INTO](javascript:call_link\('abapdescribe_field_into.htm'\))
+[DESCRIBE FIELD INTO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdescribe_field_into.htm)

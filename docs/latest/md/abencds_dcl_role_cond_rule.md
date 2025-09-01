@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Access Control](javascript:call_link\('abencds_access_control.htm'\)) →  [ABAP CDS - DCL Statements](javascript:call_link\('abencds_f1_dcl_syntax.htm'\)) →  [CDS DCL - DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) →  [CDS DCL - DEFINE ROLE, access\_rules](javascript:call_link\('abencds_dcl_role_rules.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Access Control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control.htm) →  [ABAP CDS - DCL Statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_syntax.htm) →  [CDS DCL - DEFINE ROLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_role.htm) →  [CDS DCL - DEFINE ROLE, access\_rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_role_rules.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DCL%20-%20DEFINE%20ROLE%2C%20conditional_rule%2C%20ABENCDS_DCL_ROLE_COND_RULE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impr
 ovement:)
@@ -16,7 +16,7 @@ Syntax
 GRANT SELECT ON cds\_entity
      *\[*WITH OPTIONAL ELEMENTS ( element1 DEFAULT  { TRUE *|* FALSE }, ...  ) *\]*
      *\[*COMBINATION MODE OR *|* COMBINATION MODE AND *|* REDEFINITION*\]*
-      WHERE [cds\_cond](javascript:call_link\('abencds_dcl_role_cond_expr.htm'\));
+      WHERE [cds\_cond](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_role_cond_expr.htm);
 
 Additions:
 
@@ -27,7 +27,7 @@ Additions:
 
 Effect
 
-Conditional access rule in the statement [DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) of the [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry"). A conditional access rule GRANT SELECT ON with the addition WHERE restricts access to a CDS entity cds\_entity using [access conditions](javascript:call_link\('abenaccess_condition_glosry.htm'\) "Glossary Entry") [cds\_cond](javascript:call_link\('abencds_dcl_role_cond_expr.htm'\)).
+Conditional access rule in the statement [DEFINE ROLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_role.htm) of the [CDS DCL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_glosry.htm "Glossary Entry"). A conditional access rule GRANT SELECT ON with the addition WHERE restricts access to a CDS entity cds\_entity using [access conditions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaccess_condition_glosry.htm "Glossary Entry") [cds\_cond](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_role_cond_expr.htm).
 
 A single CDS entity can be specified in multiple access rules of a CDS role and multiple CDS roles can contain access rules for a single CDS entity.
 
@@ -35,7 +35,7 @@ If a CDS entity is specified in multiple access rules of a CDS role or in multip
 
 Hint
 
-No [CDS abstract entities](javascript:call_link\('abencds_abstract_entity_glosry.htm'\) "Glossary Entry") or [CDS custom entities](javascript:call_link\('abencds_custom_entity_glosry.htm'\) "Glossary Entry") can be specified for cds\_entity.
+No [CDS abstract entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_entity_glosry.htm "Glossary Entry") or [CDS custom entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_custom_entity_glosry.htm "Glossary Entry") can be specified for cds\_entity.
 
 Addition 1   
 
@@ -81,7 +81,7 @@ The following applies to the addition COMBINATION MODE OR:
 
 -   The addition COMBINATION MODE OR does not need to be specified explicitly. If there are multiple access rules for a CDS entity, they are combined implicitly using the logical operator or. For reasons of consistency, however, the addition COMBINATION MODE OR is recommended.
 -   Any existing access controls without the explicit addition COMBINATION MODE OR are valid.
--   In roles with the [SWITCHABLE](javascript:call_link\('abencds_f1_define_role.htm'\)) addition, the COMBINATION MODE addition is mandatory, including for the mode OR.
+-   In roles with the [SWITCHABLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_role.htm) addition, the COMBINATION MODE addition is mandatory, including for the mode OR.
 
 Addition 3   
 
@@ -97,7 +97,7 @@ The following applies to the addition REDEFINITION:
 -   The addition can also be applied if there are no other access rules for an entity. It ensures that the conditions defined here are not disabled by any later access rules.
 -   The addition can be used for a maximum of one access rule for a CDS entity. If used more than once, an activation error or import error occurs.
 -   This addition also disables existing full access rules for a CDS entity. SAP does not deliver full access rules, which means that this statement applies only to customer full access rules that are themselves overridden by customer REDEFINITION rules.
--   In roles with the [SWITCHABLE](javascript:call_link\('abencds_f1_define_role.htm'\)) addition, REDEFINITION is not allowed.
+-   In roles with the [SWITCHABLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_role.htm) addition, REDEFINITION is not allowed.
 
 Addition 4   
 
@@ -105,11 +105,11 @@ Addition 4  
 
 Effect
 
-A WHERE clause is used to define an [access condition](javascript:call_link\('abenaccess_condition_glosry.htm'\) "Glossary Entry") [cds\_cond](javascript:call_link\('abencds_dcl_role_cond_expr.htm'\)) for the CDS entity cds\_entity. When a CDS entity is accessed using ABAP SQL, and an access rule is configured for this entity in a role, the access conditions are evaluated implicitly. This means their selection is restricted accordingly and hence any [SELECT](javascript:call_link\('abapselect.htm'\)) reads use a logical and to add the access condition to the select condition of the statement passed to the database by the database interface.
+A WHERE clause is used to define an [access condition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaccess_condition_glosry.htm "Glossary Entry") [cds\_cond](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_role_cond_expr.htm) for the CDS entity cds\_entity. When a CDS entity is accessed using ABAP SQL, and an access rule is configured for this entity in a role, the access conditions are evaluated implicitly. This means their selection is restricted accordingly and hence any [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm) reads use a logical and to add the access condition to the select condition of the statement passed to the database by the database interface.
 
 Example
 
-The following CDS role DEMO\_CDS\_ROLE\_LIT\_PFCG\_VE defines an access condition for the CDS view entity demo\_cds\_authority\_lit\_pfcg\_ve in an access rule. Both a [PFCG condition](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)) for the [authorization object](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") S\_CARRID and a [literal condition](javascript:call_link\('abencds_f1_cond_literal.htm'\)) for the currency field are specified.
+The following CDS role DEMO\_CDS\_ROLE\_LIT\_PFCG\_VE defines an access condition for the CDS view entity demo\_cds\_authority\_lit\_pfcg\_ve in an access rule. Both a [PFCG condition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_cond_pfcg.htm) for the [authorization object](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenauthorization_object_glosry.htm "Glossary Entry") S\_CARRID and a [literal condition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_cond_literal.htm) for the currency field are specified.
 
 @MappingRole: true
 define role demo\_cds\_role\_lit\_pfcg\_ve {
@@ -131,7 +131,7 @@ define view entity DEMO\_CDS\_AUTHORITY\_LIT\_PFCG\_VE
           url
     }
 
-The class CL\_DEMO\_CDS\_AUTH\_LIT\_PFCG\_VE uses [SELECT](javascript:call_link\('abapselect.htm'\)) to access the view entity. CDS access control restricts the selections to data for which the current user has authorization according to classic role maintenance (transaction PFCG) and that meets the literal condition.
+The class CL\_DEMO\_CDS\_AUTH\_LIT\_PFCG\_VE uses [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm) to access the view entity. CDS access control restricts the selections to data for which the current user has authorization according to classic role maintenance (transaction PFCG) and that meets the literal condition.
 
 Continue
-[CDS DCL - DEFINE ROLE, cds\_cond](javascript:call_link\('abencds_dcl_role_cond_expr.htm'\))
+[CDS DCL - DEFINE ROLE, cds\_cond](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_role_cond_expr.htm)

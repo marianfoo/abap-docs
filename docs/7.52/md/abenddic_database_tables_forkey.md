@@ -4,17 +4,17 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Database Tables](javascript:call_link\('abenddic_database_tables.htm'\)) →  [Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_sema.htm'\)) →  [Table-Specific Semantic Attributes of Database Tables](javascript:call_link\('abenddic_database_tables_semasspec.htm'\)) →  [Foreign Key Dependencies](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_objects.htm) →  [Database Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables.htm) →  [Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_sema.htm) →  [Table-Specific Semantic Attributes of Database Tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_semasspec.htm) →  [Foreign Key Dependencies](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkeyrel.htm) → 
 
 Foreign Key
 
-A foreign key consists of one or more [foreign key fields](javascript:call_link\('abenforeign_key_field_glosry.htm'\) "Glossary Entry") of a [foreign key table](javascript:call_link\('abenforeign_key_table_glosry.htm'\) "Glossary Entry") that is itself the [primary key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") of a [check table](javascript:call_link\('abencheck_table_glosry.htm'\) "Glossary Entry"). A database table can have more than one foreign key. A [foreign key dependency](javascript:call_link\('abenforeign_key_dependency_glosry.htm'\) "Glossary Entry") joins a foreign key table and its check tables. A foreign key table usually only contains entries where the content of the foreign key also occurs precisely once as content of the primary key in the check table. This must also be respected in [writes](javascript:call_link\('abenopen_sql_writing.htm'\)) performed using Open SQL.
+A foreign key consists of one or more [foreign key fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenforeign_key_field_glosry.htm "Glossary Entry") of a [foreign key table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenforeign_key_table_glosry.htm "Glossary Entry") that is itself the [primary key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_key_glosry.htm "Glossary Entry") of a [check table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheck_table_glosry.htm "Glossary Entry"). A database table can have more than one foreign key. A [foreign key dependency](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenforeign_key_dependency_glosry.htm "Glossary Entry") joins a foreign key table and its check tables. A foreign key table usually only contains entries where the content of the foreign key also occurs precisely once as content of the primary key in the check table. This must also be respected in [writes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_writing.htm) performed using Open SQL.
 
 Foreign keys can have the following attributes:
 
 -   Input check
 
-In the definition of the foreign key, it is possible to activate an input check for dynpros or Web Dynpros using a foreign key dependency. Furthermore, the standard message here can be replaced by a custom [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry"). Any placeholders in the message are filled as follows when the message is sent: The first three placeholders are filled with the content of the foreign key fields that are assigned to the first three key fields of the check table after the client field. The fourth placeholder is filled with the name of the check table.
+In the definition of the foreign key, it is possible to activate an input check for dynpros or Web Dynpros using a foreign key dependency. Furthermore, the standard message here can be replaced by a custom [message](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_glosry.htm "Glossary Entry"). Any placeholders in the message are filled as follows when the message is sent: The first three placeholders are filled with the content of the foreign key fields that are assigned to the first three key fields of the check table after the client field. The fourth placeholder is filled with the name of the check table.
 
 -   Generic foreign key fields
 
@@ -30,7 +30,7 @@ The fields of included include structures can be foreign key fields and are part
 
 -   Cardinality
 
-An n:m cardinality can be defined for each foreign key. This cardinality has only a logging purpose, except in the definition of [maintenance views](javascript:call_link\('abenddic_maintenance_views.htm'\)) and [help views](javascript:call_link\('abenddic_help_views.htm'\)).
+An n:m cardinality can be defined for each foreign key. This cardinality has only a logging purpose, except in the definition of [maintenance views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_maintenance_views.htm) and [help views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_help_views.htm).
 
 Possible values for n:
 

@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP RESTful Programming Model](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) →  [ABAP EML - READ ENTITIES](javascript:call_link\('abenread_behavior.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [ABAP RESTful Programming Model](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrestful_abap_programming.htm) →  [Entity Manipulation Language](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeneml.htm) →  [ABAP EML - READ ENTITIES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenread_behavior.htm) → 
 
 ABAP EML - READ ENTITY
 
@@ -25,17 +25,17 @@ READ
 
 Effect
 
-The short form READ ENTITY is intended for the special case where only a single entity is operated on. In this case, accessing via the [business object](javascript:call_link\('abenbusiness_object_glosry.htm'\) "Glossary Entry") (the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") root\_name) would not be necessary.
+The short form READ ENTITY is intended for the special case where only a single entity is operated on. In this case, accessing via the [business object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbusiness_object_glosry.htm "Glossary Entry") (the [root entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_entity_glosry.htm "Glossary Entry") root\_name) would not be necessary.
 
 The following points apply for the syntax of the statement READ ENTITY:
 
 -   The ENTITY entity\_name is specified once.
 
--   An [alias](javascript:call_link\('abenbdl_alias.htm'\)) of the entity cannot be used since no context of the business object is known.
+-   An [alias](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbdl_alias.htm) of the entity cannot be used since no context of the business object is known.
 
 -   This is followed by a list of operations on the entity according to the schema:
         ENTITY entity\_name
             operation
            *\[*operation ...*\]*
 
-For more information on syntax elements, see [READ ENTITIES](javascript:call_link\('abenread_behavior.htm'\)).
+For more information on syntax elements, see [READ ENTITIES](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenread_behavior.htm).

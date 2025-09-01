@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Replacement Objects](javascript:call_link\('abenddic_replacement_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Replacement Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Replacement%20Object%20for%20Database%20Table%2C%20ABENDDIC_REPLACEMENT_OBJECT_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%
 20for%20improvement:)
 
 DDIC - Replacement Object for Database Table
 
-This example demonstrates a DDIC database table with a [replacement object](javascript:call_link\('abenreplacement_object_glosry.htm'\) "Glossary Entry").
+This example demonstrates a DDIC database table with a [replacement object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreplacement_object_glosry.htm "Glossary Entry").
 
 Source Code   
 
@@ -81,7 +81,7 @@ ENDCLASS.
 
 Description   
 
-This class accesses two DDIC database tables, DEMO\_SUMDIST\_AGG and DEMO\_SUMDIST. These tables are identical except for the fact that the [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") DEMO\_CDS\_SUMDIST is defined as a [replacement object](javascript:call_link\('abenddic_replacement_objects.htm'\)) for DEMO\_SUMDIST.
+This class accesses two DDIC database tables, DEMO\_SUMDIST\_AGG and DEMO\_SUMDIST. These tables are identical except for the fact that the [CDS view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_glosry.htm "Glossary Entry") DEMO\_CDS\_SUMDIST is defined as a [replacement object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm) for DEMO\_SUMDIST.
 
 The DDIC database table DEMO\_SUMDIST\_AGG is filled with aggregated data (done here in the static constructor of the class demo). When DEMO\_SUMDIST is accessed, the replacement object performs exactly the same aggregation:
 
@@ -106,11 +106,11 @@ group by
   s.carrname,
   p.distid
 
-Both similar accesses to the DDIC database tables produce the same results, which is verified using the statement [ASSERT](javascript:call_link\('abapassert.htm'\)).
+Both similar accesses to the DDIC database tables produce the same results, which is verified using the statement [ASSERT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassert.htm).
 
-A third SELECT statement accesses the [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") DEMO\_CDS\_SUMDIST directly. To produce the same result set as when accessing the DDIC database tables, a [client column](javascript:call_link\('abenclient_column_glosry.htm'\) "Glossary Entry") must be added, since the result set of a [client-dependent CDS view](javascript:call_link\('abenclient_dependent_glosry.htm'\) "Glossary Entry") does not contain a client column.
+A third SELECT statement accesses the [CDS view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_glosry.htm "Glossary Entry") DEMO\_CDS\_SUMDIST directly. To produce the same result set as when accessing the DDIC database tables, a [client column](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclient_column_glosry.htm "Glossary Entry") must be added, since the result set of a [client-dependent CDS view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclient_dependent_glosry.htm "Glossary Entry") does not contain a client column.
 
-A [DDIC database view](javascript:call_link\('abendatabase_view_glosry.htm'\) "Glossary Entry") DEMO\_SUMDIST\_OBS contains the DDIC database table DEMO\_SUMDIST as a basis table. There is no redirect to the replacement object of DEMO\_SUMDIST in a SELECT. A DDIC database view DEMO\_SUMDISTVIEW that is otherwise similar has the following CDS view as a replacement object:
+A [DDIC database view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_view_glosry.htm "Glossary Entry") DEMO\_SUMDIST\_OBS contains the DDIC database table DEMO\_SUMDIST as a basis table. There is no redirect to the replacement object of DEMO\_SUMDIST in a SELECT. A DDIC database view DEMO\_SUMDISTVIEW that is otherwise similar has the following CDS view as a replacement object:
 
 @AbapCatalog.sqlViewName: 'DEMO\_CDS\_SUDIV'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED

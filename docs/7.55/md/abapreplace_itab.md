@@ -4,34 +4,34 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_processing_statements.htm) → 
 
 REPLACE IN TABLE itab
 
-[Short Reference](javascript:call_link\('abapreplace_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_shortref.htm)
 
 Syntax
 
-REPLACE *\[**{*FIRST OCCURRENCE*}**|**{*ALL OCCURRENCES*}* OF*\]* [pattern](javascript:call_link\('abapreplace_pattern.htm'\))
-        IN TABLE itab *\[*[table\_range](javascript:call_link\('abapreplace_table_range.htm'\))*\]* WITH new
+REPLACE *\[**{*FIRST OCCURRENCE*}**|**{*ALL OCCURRENCES*}* OF*\]* [pattern](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_pattern.htm)
+        IN TABLE itab *\[*[table\_range](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_table_range.htm)*\]* WITH new
         *\[*IN *{*CHARACTER*|*BYTE*}* MODE*\]*
-        *\[*[replace\_options*\]*](javascript:call_link\('abapreplace_itab_options.htm'\)).
+        *\[*[replace\_options*\]*](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_itab_options.htm).
 
 Effect
 
-The internal table itab is searched line-by-line for the character or byte strings specified by [pattern](javascript:call_link\('abapreplace_pattern.htm'\)) and replaces any occurrences with the content of the operand new. new is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry").
+The internal table itab is searched line-by-line for the character or byte strings specified by [pattern](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_pattern.htm) and replaces any occurrences with the content of the operand new. new is a [character-like expression position](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
 
-itab expects a standard table without [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry"). The lines in the table must be [character](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry")\-like or [byte](javascript:call_link\('abenbyte_like_data_object_glosry.htm'\) "Glossary Entry")\-like, depending on the addition CHARACTER or BYTE MODE. Byte or character strings that cover multiple table lines are not replaced.
+itab expects a standard table without [secondary table keys](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensecondary_table_key_glosry.htm "Glossary Entry"). The lines in the table must be [character](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_data_object_glosry.htm "Glossary Entry")\-like or [byte](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbyte_like_data_object_glosry.htm "Glossary Entry")\-like, depending on the addition CHARACTER or BYTE MODE. Byte or character strings that cover multiple table lines are not replaced.
 
-The addition [table\_range](javascript:call_link\('abapreplace_table_range.htm'\)) can be used to restrict the search range in the table. When searching in individual table lines, the other additions operate in the same way as in the statement [REPLACE pattern IN](javascript:call_link\('abapreplace_in_pattern.htm'\)) for elementary character or byte strings, with a further addition, [REPLACEMENT LINE](javascript:call_link\('abapreplace_itab_options.htm'\)) that also returns the line number of an occurrence.
+The addition [table\_range](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_table_range.htm) can be used to restrict the search range in the table. When searching in individual table lines, the other additions operate in the same way as in the statement [REPLACE pattern IN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_in_pattern.htm) for elementary character or byte strings, with a further addition, [REPLACEMENT LINE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_itab_options.htm) that also returns the line number of an occurrence.
 
 In string processing for line types of fixed length, trailing blanks are respected, whereas with new they are ignored.
 
 Hints
 
--   REPLACE IN TABLE can be used in tables with structured line types to replace character strings if the structure only contains [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") [character-like](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") components. Every line is then handled in the same way as a field of type c.
+-   REPLACE IN TABLE can be used in tables with structured line types to replace character strings if the structure only contains [flat](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenflat_glosry.htm "Glossary Entry") [character-like](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") components. Every line is then handled in the same way as a field of type c.
 
--   Replacements using REPLACE IN TABLE give better performance than running a [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)) and using [REPLACE](javascript:call_link\('abapreplace_in_pattern.htm'\)) to make replacements in individual lines.
+-   Replacements using REPLACE IN TABLE give better performance than running a [LOOP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaploop_at_itab.htm) and using [REPLACE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_in_pattern.htm) to make replacements in individual lines.
     
 
 System Fields
@@ -69,7 +69,7 @@ REPLACE ALL OCCURRENCES OF REGEX \`\\b(DM)\\b\`
         IN TABLE menu WITH 'EUR'
         RESPECTING CASE.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -90,5 +90,5 @@ CX\_SY\_INVALID\_REGEX
     
 
 Continue
-[REPLACE IN TABLE, table\_range](javascript:call_link\('abapreplace_table_range.htm'\))
-[REPLACE IN TABLE, options](javascript:call_link\('abapreplace_itab_options.htm'\))
+[REPLACE IN TABLE, table\_range](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_table_range.htm)
+[REPLACE IN TABLE, options](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapreplace_itab_options.htm)

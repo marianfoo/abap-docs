@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Data Types and Data Objects](javascript:call_link\('abentypes_and_objects.htm'\)) →  [Declaring Data Types](javascript:call_link\('abentypes_statements.htm'\)) →  [TYPES](javascript:call_link\('abaptypes.htm'\)) →  [TYPES - BEGIN OF MESH mesh\_type](javascript:call_link\('abaptypes_mesh.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Data Types and Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_and_objects.htm) →  [Declaring Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_statements.htm) →  [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes.htm) →  [TYPES - BEGIN OF MESH mesh\_type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh.htm) → 
 
 TYPES - association
 
-[Quick Reference](javascript:call_link\('abaptypes_begin_of_mesh_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_begin_of_mesh_shortref.htm)
 
 Syntax
 
@@ -24,17 +24,17 @@ Extras:
 
 Effect
 
-Defines an association named \_assoc for a mesh node of a mesh type. The addition ASSOCIATION to TYPES can only be used in the definition of a mesh type between [TYPES BEGIN OF MESH](javascript:call_link\('abaptypes_mesh.htm'\)) and [TYPES END OF MESH](javascript:call_link\('abaptypes_mesh.htm'\)). The mesh node for which an association is defined is its start node. The mesh node node specified after TO is the target node. Any node in the current mesh (including the start node) can be specified as the target node node. An association where the start node and target node are the same is referred to as a reflexive association.
+Defines an association named \_assoc for a mesh node of a mesh type. The addition ASSOCIATION to TYPES can only be used in the definition of a mesh type between [TYPES BEGIN OF MESH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh.htm) and [TYPES END OF MESH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes_mesh.htm). The mesh node for which an association is defined is its start node. The mesh node node specified after TO is the target node. Any node in the current mesh (including the start node) can be specified as the target node node. An association where the start node and target node are the same is referred to as a reflexive association.
 
 The name of an association cannot be longer than 30 characters. It can only contain the letters A-Z, the digits 0-9, and the underscore "\_" character, and cannot begin with a digit.
 
 Notes
 
--   The associations defined for a mesh node are evaluated in [expressions and statements](javascript:call_link\('abenmesh_path_usage.htm'\)) for [meshes](javascript:call_link\('abenabap_meshes.htm'\)) in [mesh paths](javascript:call_link\('abenmesh_pathes.htm'\)).
+-   The associations defined for a mesh node are evaluated in [expressions and statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_usage.htm) for [meshes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_meshes.htm) in [mesh paths](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_pathes.htm).
     
 -   It is not mandatory to define a target node before the start node to make the target node visible. However, the Code Completion function of the editor only works properly if the target node is defined before the start node.
     
--   The prefix \_ is recommended as the naming convention for associations. The name that follows this prefix should contain the target node name (in non-reflexive associations). This convention makes it easier to read the [mesh path](javascript:call_link\('abenmesh_path.htm'\)).
+-   The prefix \_ is recommended as the naming convention for associations. The name that follows this prefix should contain the target node name (in non-reflexive associations). This convention makes it easier to read the [mesh path](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path.htm).
     
 
 Addition 1
@@ -43,11 +43,11 @@ Addition 1
 
 Effect
 
-For every association, a condition must be specified after ON that consists of at least one [comparison](javascript:call_link\('abencomparison_glosry.htm'\) "Glossary Entry") for equality. Additional comparisons for equality can be added using AND. The left operand tcomp of every comparison must be a directly specified column of the target node. The right operand scomp must be a directly specified column of the start node and this column must be compatible with the column of the target node.
+For every association, a condition must be specified after ON that consists of at least one [comparison](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomparison_glosry.htm "Glossary Entry") for equality. Additional comparisons for equality can be added using AND. The left operand tcomp of every comparison must be a directly specified column of the target node. The right operand scomp must be a directly specified column of the start node and this column must be compatible with the column of the target node.
 
 An association represents the relationship between the start node and target node. It assigns all the rows of the target node that meet the condition to a row of the start node.
 
-The associations are type-only attributes and therefore affect the compatibility of mesh types. Associations are evaluated in [mesh paths](javascript:call_link\('abenmesh_pathes.htm'\)) in expressions and in statements for meshes.
+The associations are type-only attributes and therefore affect the compatibility of mesh types. Associations are evaluated in [mesh paths](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_pathes.htm) in expressions and in statements for meshes.
 
 Notes
 
@@ -62,9 +62,9 @@ Addition 2
 
 Effect
 
-Using the addition USING KEY, a table key of the target node can be specified for the ON condition of an association. The target node is the one used in expressions and statements to evaluate [meshes](javascript:call_link\('abenabap_meshes.htm'\)) for accessing the mesh node:
+Using the addition USING KEY, a table key of the target node can be specified for the ON condition of an association. The target node is the one used in expressions and statements to evaluate [meshes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_meshes.htm) for accessing the mesh node:
 
--   A [secondary key](javascript:call_link\('abensecondary_key_glosry.htm'\) "Glossary Entry") using its name
+-   A [secondary key](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_key_glosry.htm "Glossary Entry") using its name
     
 -   The primary key using its predefined name primary\_key or using an alias. If the primary key is specified, the target node must be a sorted table or a hashed table.
     
@@ -80,7 +80,7 @@ If the addition USING KEY is not specified, the primary key is used to access th
 
 Note
 
-When the association is used in a [mesh path](javascript:call_link\('abenmesh_path.htm'\)), the table key specified in the definition of the ON condition can be overridden by specifying USING KEY in an [additional condition](javascript:call_link\('abenmesh_path_assoc_cond.htm'\)). In this case, the ON condition and the additional condition are combined to make one single condition, which must meet the above prerequisites.
+When the association is used in a [mesh path](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path.htm), the table key specified in the definition of the ON condition can be overridden by specifying USING KEY in an [additional condition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmesh_path_assoc_cond.htm). In this case, the ON condition and the additional condition are combined to make one single condition, which must meet the above prerequisites.
 
 Example
 

@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Display](javascript:call_link\('abenlists_displayed.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Display](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlists_displayed.htm) → 
 
 SET PF-STATUS, List
 
-[Short Reference](javascript:call_link\('abapset_pf-status_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_pf-status_shortref.htm)
 
 Syntax
 
@@ -23,20 +23,20 @@ Additions:
 
 Effect
 
-In list processing, this statement sets the GUI status specified in status for the display window of the current list, and all subsequent list levels until the next SET PF-STATUS statement. The statement mostly has the same function as for [dynpros](javascript:call_link\('abapset_pf-status_dynpro.htm'\)).
+In list processing, this statement sets the GUI status specified in status for the display window of the current list, and all subsequent list levels until the next SET PF-STATUS statement. The statement mostly has the same function as for [dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_pf-status_dynpro.htm).
 
-Unlike the [screen layouts](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of dynpros, however, every list level is automatically linked with the GUI status that is set for it. If the system returns from displaying a higher list level to a lower list level, the latter is displayed again with the GUI status that was set for it.
+Unlike the [screen layouts](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry") of dynpros, however, every list level is automatically linked with the GUI status that is set for it. If the system returns from displaying a higher list level to a lower list level, the latter is displayed again with the GUI status that was set for it.
 
-If the status of the data object is initial, the standard list status is set, and the additions OF PROGRAM and EXCLUDING are ignored. The [standard list status](javascript:call_link\('abenstandard_list_status_glosry.htm'\) "Glossary Entry") contains predefined list-specific functions whose functions codes are handled by the runtime framework when a screen list is displayed, and produce calls of event blocks in the ABAP program. If event blocks are also defined with AT LINE-SELECTION or AT PFnn, further function keys are automatically assigned function codes in the standard list status:
+If the status of the data object is initial, the standard list status is set, and the additions OF PROGRAM and EXCLUDING are ignored. The [standard list status](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_list_status_glosry.htm "Glossary Entry") contains predefined list-specific functions whose functions codes are handled by the runtime framework when a screen list is displayed, and produce calls of event blocks in the ABAP program. If event blocks are also defined with AT LINE-SELECTION or AT PFnn, further function keys are automatically assigned function codes in the standard list status:
 
--   If [AT LINE-SELECTION](javascript:call_link\('abapat_line-selection.htm'\)) is used, the F2 key and the double-click function of the mouse is assigned the function code "PICK" and the function text Select. This function is then also automatically displayed in the [application toolbar](javascript:call_link\('abenapplication_toolbar_glosry.htm'\) "Glossary Entry").
--   If [AT PFnn](javascript:call_link\('abapat_pfnn.htm'\)) is used, all the Fnn functions of the keyboard that are not handled by the runtime framework are assigned the function codes "PFnn", where "nn" is a number between 01 and 24.
+-   If [AT LINE-SELECTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_line-selection.htm) is used, the F2 key and the double-click function of the mouse is assigned the function code "PICK" and the function text Select. This function is then also automatically displayed in the [application toolbar](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapplication_toolbar_glosry.htm "Glossary Entry").
+-   If [AT PFnn](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_pfnn.htm) is used, all the Fnn functions of the keyboard that are not handled by the runtime framework are assigned the function codes "PFnn", where "nn" is a number between 01 and 24.
 
 If the standard list status is set, sy-pfkey is assigned the value "STLI".
 
 Hint
 
-When setting the GUI status for the [list dynpro](javascript:call_link\('abenlist_dynpro_glosry.htm'\) "Glossary Entry"), it is best to set a GUI status for which a list status has been included as a template status in the [Menu Painter](javascript:call_link\('abenmenu_painter_glosry.htm'\) "Glossary Entry"). Including this type of template status passes the list-specific functions of the standard list status to a self-defined GUI status.
+When setting the GUI status for the [list dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlist_dynpro_glosry.htm "Glossary Entry"), it is best to set a GUI status for which a list status has been included as a template status in the [Menu Painter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmenu_painter_glosry.htm "Glossary Entry"). Including this type of template status passes the list-specific functions of the standard list status to a self-defined GUI status.
 
 Addition 1   
 
@@ -48,7 +48,7 @@ Addition 2  
 
 Effect
 
-As for [dynpros](javascript:call_link\('abapset_pf-status_dynpro.htm'\)).
+As for [dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_pf-status_dynpro.htm).
 
 Addition 3   
 

@@ -43,34 +43,34 @@ Included pages: 4
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Data Types](javascript:call_link\('abenddic_data_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Data Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_types.htm) → 
 
 DDIC - Table Types
 
-A [DDIC table type](javascript:call_link\('abenddic_table_type_glosry.htm'\) "Glossary Entry") defines the data type of an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") in ABAP. The DDIC table type defines the following in an internal table:
+A [DDIC table type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_type_glosry.htm "Glossary Entry") defines the data type of an [internal table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_table_glosry.htm "Glossary Entry") in ABAP. The DDIC table type defines the following in an internal table:
 
--   [Line type](javascript:call_link\('abenrow_type_glosry.htm'\) "Glossary Entry")
--   The [table category](javascript:call_link\('abentable_category_glosry.htm'\) "Glossary Entry")
--   The [table key](javascript:call_link\('abentable_key_glosry.htm'\) "Glossary Entry")
+-   [Line type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrow_type_glosry.htm "Glossary Entry")
+-   The [table category](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_category_glosry.htm "Glossary Entry")
+-   The [table key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_key_glosry.htm "Glossary Entry")
 
 A program-internal object declared with reference to a table type is an internal table of this type.
 
--   [Technical attributes of table types](javascript:call_link\('abenddic_table_types_tech.htm'\))
--   [Semantic attributes of table types](javascript:call_link\('abenddic_table_types_sema.htm'\))
+-   [Technical attributes of table types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_types_tech.htm)
+-   [Semantic attributes of table types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_types_sema.htm)
 
 Hints
 
--   Unlike in [data elements](javascript:call_link\('abenddic_data_elements.htm'\)) and [DDIC structures](javascript:call_link\('abenddic_structures.htm'\)), the DDIC table types exist only to create globally visible definitions of internal tables. DDIC table types replace the definition of internal tables in [type pools](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") and can themselves be replaced using the declaration of internal table types in global classes and interfaces (if the context where the type is required is suitable). The attributes of an internal table that can be defined in the ABAP Dictionary match those that can be specified using the statement [TYPES ... TABLE OF](javascript:call_link\('abaptypes_itab.htm'\)) in ABAP programs completely. For more information, see the in-depth documentation about [internal tables](javascript:call_link\('abenitab.htm'\)) in the ABAP programming language.
--   The name of a table type must follow the [naming rules for DDIC data types](javascript:call_link\('abenddic_types_names.htm'\)).
+-   Unlike in [data elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements.htm) and [DDIC structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures.htm), the DDIC table types exist only to create globally visible definitions of internal tables. DDIC table types replace the definition of internal tables in [type pools](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentype_pool_glosry.htm "Glossary Entry") and can themselves be replaced using the declaration of internal table types in global classes and interfaces (if the context where the type is required is suitable). The attributes of an internal table that can be defined in the ABAP Dictionary match those that can be specified using the statement [TYPES ... TABLE OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_itab.htm) in ABAP programs completely. For more information, see the in-depth documentation about [internal tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) in the ABAP programming language.
+-   The name of a table type must follow the [naming rules for DDIC data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_types_names.htm).
 
 Example
 
 The table type SPFLI\_KEY\_TAB describes a hashed table with the structured line type SPFLI with a unique primary key and two non-unique secondary table keys.
 
 Continue
-[DDIC - Technical Attributes of Table Types](javascript:call_link\('abenddic_table_types_tech.htm'\))
-[DDIC - Semantic Attributes of Table Types](javascript:call_link\('abenddic_table_types_sema.htm'\))
-[DDIC - Ranges Table Type](javascript:call_link\('abenddic_table_types_ranges.htm'\))
+[DDIC - Technical Attributes of Table Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_types_tech.htm)
+[DDIC - Semantic Attributes of Table Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_types_sema.htm)
+[DDIC - Ranges Table Type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_types_ranges.htm)
 
 
 
@@ -88,45 +88,45 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Data Types](javascript:call_link\('abenddic_data_types.htm'\)) →  [DDIC - Table Types](javascript:call_link\('abenddic_table_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Data Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_types.htm) →  [DDIC - Table Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_types.htm) → 
 
 DDIC - Technical Attributes of Table Types
 
-A table type describes an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") with the following technical attributes:
+A table type describes an [internal table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_table_glosry.htm "Glossary Entry") with the following technical attributes:
 
 -   Line type
     
     The line type can be defined as follows:
     
-    -   Any line type can be defined by referencing any [data type](javascript:call_link\('abenddic_data_types.htm'\)), including [DDIC database tables](javascript:call_link\('abenddic_database_tables.htm'\)) and [DDIC views](javascript:call_link\('abenddic_views.htm'\)) in the ABAP Dictionary.
-    -   Elementary or reference-like line types can also be specified by using their technical attributes directly. This is done in the same way as with [data elements](javascript:call_link\('abenddic_data_elements.htm'\)) or [structure components](javascript:call_link\('abenddic_structures_tech.htm'\)).
+    -   Any line type can be defined by referencing any [data type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_types.htm), including [DDIC database tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables.htm) and [DDIC views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_views.htm) in the ABAP Dictionary.
+    -   Elementary or reference-like line types can also be specified by using their technical attributes directly. This is done in the same way as with [data elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements.htm) or [structure components](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_tech.htm).
 -   Table category
     
     The table category can be specified as follows:
     
-    -   [Standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry")
-    -   [Sorted table](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry")
-    -   [Hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry")
-    -   [Index table](javascript:call_link\('abenindex_table_glosry.htm'\) "Glossary Entry") as a generic table category for standard tables and sorted tables
+    -   [Standard table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_table_glosry.htm "Glossary Entry")
+    -   [Sorted table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_table_glosry.htm "Glossary Entry")
+    -   [Hashed table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhashed_table_glosry.htm "Glossary Entry")
+    -   [Index table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenindex_table_glosry.htm "Glossary Entry") as a generic table category for standard tables and sorted tables
     -   Any table as a generic table category for all table categories
     
-    These methods are the same as defining the table category using the statement [TYPES](javascript:call_link\('abaptypes_tabcat.htm'\)).
+    These methods are the same as defining the table category using the statement [TYPES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_tabcat.htm).
     
 -   Table key
     
     The following can be defined as table keys:
     
-    -   A primary key as a [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry"). The primary key is either the [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry"), the entire table line if it is not a table type, or does not contain a table type as a component, or is determined using individual components of a structured line type in the relevant order. A primary key of sorted tables and hashed tables can be given a unique [alias name](javascript:call_link\('abenalias_glosry.htm'\) "Glossary Entry") from the namespace of the secondary keys. It is currently not possible to specify an [empty primary table key](javascript:call_link\('abenitab_empty_key.htm'\)) explicitly in the ABAP Dictionary. The uniqueness of the primary key is unique or non-unique, depending on the table category, and cannot be specified for generic tables. If no primary key is specified or its uniqueness is not defined, the table type is generic for this property.
-    -   Up to 15 secondary keys as [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry"). Each secondary key has a unique name, which cannot be PRIMARY\_KEY or LOOP\_KEY, and is either a sorted key or a hash key. Sorted keys can be either unique or non-unique and a hash key is always unique. A secondary key is defined either by the entire table line, if it is not a table type or does not contain a table type as component, or by using individual components of a structured line type in the relevant order. Using the additions [WITH](javascript:call_link\('abaptypes_keydef.htm'\)) or [WITHOUT FURTHER SECONDARY KEYS](javascript:call_link\('abaptypes_keydef.htm'\)) of the statement TYPES, it is possible to define explicitly whether the table type is generic with respect to the secondary keys. It is currently not possible to specify an [alias name](javascript:call_link\('abenalias_glosry.htm'\) "Glossary Entry") for a secondary key in the ABAP Dictionary.
+    -   A primary key as a [primary table key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprimary_table_key_glosry.htm "Glossary Entry"). The primary key is either the [standard key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_key_glosry.htm "Glossary Entry"), the entire table line if it is not a table type, or does not contain a table type as a component, or is determined using individual components of a structured line type in the relevant order. A primary key of sorted tables and hashed tables can be given a unique [alias name](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenalias_glosry.htm "Glossary Entry") from the namespace of the secondary keys. It is currently not possible to specify an [empty primary table key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_empty_key.htm) explicitly in the ABAP Dictionary. The uniqueness of the primary key is unique or non-unique, depending on the table category, and cannot be specified for generic tables. If no primary key is specified or its uniqueness is not defined, the table type is generic for this property.
+    -   Up to 15 secondary keys as [secondary table keys](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_table_key_glosry.htm "Glossary Entry"). Each secondary key has a unique name, which cannot be PRIMARY\_KEY or LOOP\_KEY, and is either a sorted key or a hash key. Sorted keys can be either unique or non-unique and a hash key is always unique. A secondary key is defined either by the entire table line, if it is not a table type or does not contain a table type as component, or by using individual components of a structured line type in the relevant order. Using the additions [WITH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_keydef.htm) or [WITHOUT FURTHER SECONDARY KEYS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_keydef.htm) of the statement TYPES, it is possible to define explicitly whether the table type is generic with respect to the secondary keys. It is currently not possible to specify an [alias name](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenalias_glosry.htm "Glossary Entry") for a secondary key in the ABAP Dictionary.
 -   Initial row count
     
-    This specification is a hint for the internal memory management of internal tables and corresponds to the addition [INITIAL SIZE](javascript:call_link\('abaptypes_itab.htm'\)) in the declaration of an internal table in an ABAP program.
+    This specification is a hint for the internal memory management of internal tables and corresponds to the addition [INITIAL SIZE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_itab.htm) in the declaration of an internal table in an ABAP program.
     
 
 Hints
 
--   Generic table types, that is, table types for which one or more attributes are generic) can only be used in ABAP for [generic typings](javascript:call_link\('abengeneric_typing_glosry.htm'\) "Glossary Entry") of formal parameters or field symbols.
--   A line type cannot be defined using a reference to a [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"), but it can be defined using a reference to a [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") of a corresponding [CDS DDIC-based views](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry").
+-   Generic table types, that is, table types for which one or more attributes are generic) can only be used in ABAP for [generic typings](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneric_typing_glosry.htm "Glossary Entry") of formal parameters or field symbols.
+-   A line type cannot be defined using a reference to a [CDS entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm "Glossary Entry"), but it can be defined using a reference to a [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") of a corresponding [CDS DDIC-based views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_view_glosry.htm "Glossary Entry").
 
 
 
@@ -144,7 +144,7 @@ Hints
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Data Types](javascript:call_link\('abenddic_data_types.htm'\)) →  [DDIC - Table Types](javascript:call_link\('abenddic_table_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Data Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_types.htm) →  [DDIC - Table Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_types.htm) → 
 
 DDIC - Semantic Attributes of Table Types
 
@@ -178,13 +178,13 @@ Table types in the ABAP Dictionary can be given the following semantic attribute
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Data Types](javascript:call_link\('abenddic_data_types.htm'\)) →  [DDIC - Table Types](javascript:call_link\('abenddic_table_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Data Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_types.htm) →  [DDIC - Table Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_table_types.htm) → 
 
 DDIC - Ranges Table Type
 
-A ranges table type is a table type for a [ranges table](javascript:call_link\('abenranges_table_glosry.htm'\) "Glossary Entry"). A ranges table is a standard table with a standard key and a specially structured line type and can be used in general logical expressions with the relational expression [IN range tab](javascript:call_link\('abenlogexp_select_option.htm'\)) or used after WHERE in ABAP SQL with the relational expression [IN range tab](javascript:call_link\('abenwhere_logexp_seltab.htm'\)). In the ABAP Dictionary, ranges table types are created in the same way as with the statement [TYPES ... RANGE OF](javascript:call_link\('abaptypes_ranges.htm'\)).
+A ranges table type is a table type for a [ranges table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenranges_table_glosry.htm "Glossary Entry"). A ranges table is a standard table with a standard key and a specially structured line type and can be used in general logical expressions with the relational expression [IN range tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm) or used after WHERE in ABAP SQL with the relational expression [IN range tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwhere_logexp_seltab.htm). In the ABAP Dictionary, ranges table types are created in the same way as with the statement [TYPES ... RANGE OF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptypes_ranges.htm).
 
-The data types of the components SIGN and OPTION are the data elements DDSIGN and DDOPTION. The data type for the components LOW and HIGH must be elementary and can be specified directly as a [built-in data type](javascript:call_link\('abenddic_builtin_types.htm'\)) or using a [data element](javascript:call_link\('abenddic_data_elements.htm'\)).
+The data types of the components SIGN and OPTION are the data elements DDSIGN and DDOPTION. The data type for the components LOW and HIGH must be elementary and can be specified directly as a [built-in data type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_builtin_types.htm) or using a [data element](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_data_elements.htm).
 
 The structure of the ranges table must be a standalone DDIC structure. When a ranges table type is defined, it can be created from the type specifications for the components LOW and HIGH.
 
@@ -221,15 +221,15 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS entity extension](javascript:call_link\('abencds_view_extension.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS entity extension](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_extension.htm) → 
 
 CDS DDL - EXTEND VIEW ddic\_based
 
 Syntax
 
-[@AbapCatalog.sqlViewAppendName: 'CDS\_APPEND\_VIEW'](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
-*\[*[@extension\_annot1](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))*\]*
-*\[*[@extension\_annot2](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))*\]*
+[@AbapCatalog.sqlViewAppendName: 'CDS\_APPEND\_VIEW'](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+*\[*[@extension\_annot1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)*\]*
+*\[*[@extension\_annot2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)*\]*
 ...
 EXTEND VIEW ddic\_based\_view
        WITH cds\_view\_extension
@@ -246,52 +246,52 @@ Additions:
 
 Effect
 
-Extends an existing [CDS DDIC-based view](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry") ddic\_based\_view using a [CDS view extension](javascript:call_link\('abencds_view_extend_glosry.htm'\) "Glossary Entry") cds\_view\_extension in the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry"). An existing CDS DDIC-based view can have one or more CDS view extensions.
+Extends an existing [CDS DDIC-based view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_view_glosry.htm "Glossary Entry") ddic\_based\_view using a [CDS view extension](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_extend_glosry.htm "Glossary Entry") cds\_view\_extension in the [CDS DDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_ddl_glosry.htm "Glossary Entry"). An existing CDS DDIC-based view can have one or more CDS view extensions.
 
-The extended CDS view ddic\_based\_view must be specified under the name of its [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"). The name of the [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") cannot be specified.
+The extended CDS view ddic\_based\_view must be specified under the name of its [CDS entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm "Glossary Entry"). The name of the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") cannot be specified.
 
 Prerequisite
 
-As a prerequisite for the enhancement of the CDS view with the statement EXTEND VIEW, the elements of the [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") [AbapCatalog.viewEnhancementCategory\[ \]](javascript:call_link\('abencds_view_anno_v1.htm'\)) must be specified accordingly in its definition with [DEFINE VIEW](javascript:call_link\('abencds_define_view_v1.htm'\)):
+As a prerequisite for the enhancement of the CDS view with the statement EXTEND VIEW, the elements of the [annotation array](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenannotation_array_glosry.htm "Glossary Entry") [AbapCatalog.viewEnhancementCategory\[ \]](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_anno_v1.htm) must be specified accordingly in its definition with [DEFINE VIEW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_view_v1.htm):
 
--   By default or if only the value #PROJECTION\_LIST is specified, views without [aggregate expressions](javascript:call_link\('abencds_aggregate_functions_v1.htm'\)) in the SELECT list and without a [UNION](javascript:call_link\('abencds_union_v1.htm'\)) clause can be extended.
--   In order to extend views that have [aggregate expressions](javascript:call_link\('abencds_aggregate_functions_v1.htm'\)) in the SELECT list, the annotation array must contain the value #GROUP\_BY alongside #PROJECTION\_LIST.
--   In order to extend views that contain [UNION](javascript:call_link\('abencds_union_v1.htm'\)) clauses, the annotation array must contain the value #UNION alongside #PROJECTION\_LIST.
+-   By default or if only the value #PROJECTION\_LIST is specified, views without [aggregate expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list and without a [UNION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_union_v1.htm) clause can be extended.
+-   In order to extend views that have [aggregate expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list, the annotation array must contain the value #GROUP\_BY alongside #PROJECTION\_LIST.
+-   In order to extend views that contain [UNION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_union_v1.htm) clauses, the annotation array must contain the value #UNION alongside #PROJECTION\_LIST.
 -   If the annotation array contains the value #NONE, the view cannot be extended.
 
 Components of a view extension
 
 View extensions can make additions to the original view, but it can't modify, overwrite, or delete elements from the original view. The following components are possible in a CDS view extension:
 
--   The annotation [AbapCatalog.sqlViewAppendName](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\)) is mandatory. Further annotations [extension\_annot1](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\)), [extension\_annot2](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\)), ... can also be specified. This is optional.
--   New associations association1, association2 can be defined and exposed in the CDS view extension. The same rules apply that are described in topic [CDS DDL - DDIC-based view, ASSOCIATION](javascript:call_link\('abencds_simple_association_v1.htm'\)).
+-   The annotation [AbapCatalog.sqlViewAppendName](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm) is mandatory. Further annotations [extension\_annot1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm), [extension\_annot2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm), ... can also be specified. This is optional.
+-   New associations association1, association2 can be defined and exposed in the CDS view extension. The same rules apply that are described in topic [CDS DDL - DDIC-based view, ASSOCIATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_simple_association_v1.htm).
     
-    Note: It is not allowed to define new [CDS compositions](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry") or [CDS to-parent associations](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry") in a view extension.
+    Note: It is not allowed to define new [CDS compositions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_composition_glosry.htm "Glossary Entry") or [CDS to-parent associations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abento_parent_association_glosry.htm "Glossary Entry") in a view extension.
     
--   The elements of the extension list select\_list\_extension specified after EXTEND VIEW are added to the existing SELECT list. At least one element must be added. It is possible to access all fields of all data sources of the extended view in the extension list select\_list\_extension. The list can have all [elements](javascript:call_link\('abencds_select_list_entry_v1.htm'\)) of a [SELECT list](javascript:call_link\('abencds_select_list_v1.htm'\)), namely:
-    -   [field](javascript:call_link\('abencds_field_v2.htm'\)) of a data source
-    -   [Input parameters](javascript:call_link\('abencds_parameter_v1.htm'\)) of the extended CDS view. It is not possible to specify new input parameters in a view extension.
-    -   It can expose a [CDS association](javascript:call_link\('abencds_select_list_association_v2.htm'\)) of the extended view or a newly defined association
-    -   Using a [path expressions](javascript:call_link\('abencds_path_expression_v1.htm'\)), a field of an association target can be included. Path expressions are possible for associations of the extended view or for newly defined associations.
-    -   [literals, session variables, expressions and functions](javascript:call_link\('abencds_operands_and_expr_v1.htm'\))
+-   The elements of the extension list select\_list\_extension specified after EXTEND VIEW are added to the existing SELECT list. At least one element must be added. It is possible to access all fields of all data sources of the extended view in the extension list select\_list\_extension. The list can have all [elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_list_v1.htm), namely:
+    -   [field](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_field_v2.htm) of a data source
+    -   [Input parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_parameter_v1.htm) of the extended CDS view. It is not possible to specify new input parameters in a view extension.
+    -   It can expose a [CDS association](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_list_association_v2.htm) of the extended view or a newly defined association
+    -   Using a [path expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_path_expression_v1.htm), a field of an association target can be included. Path expressions are possible for associations of the extended view or for newly defined associations.
+    -   [literals, session variables, expressions and functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_operands_and_expr_v1.htm)
         
         Note: To add aggregate expressions to a view extension, special rules apply. See below.
         
 -   Aggregate expressions are possible in the SELECT list of a view extension only if the following conditions are met:
-    -   The original view must contain [aggregate expressions](javascript:call_link\('abencds_aggregate_functions_v1.htm'\)). If the original view does not contain any aggregate expressions, this is not possible.
+    -   The original view must contain [aggregate expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_aggregate_functions_v1.htm). If the original view does not contain any aggregate expressions, this is not possible.
     -   The extended view must be annotated with AbapCatalog.viewEnhancementCategory \[#PROJECTION\_LIST, #GROUP\_BY\]
-    -   If non-aggregated elements are added to a CDS view with aggregate expressions, then the [GROUP-BY](javascript:call_link\('abencds_group_by_v1.htm'\)) clause must be extended using the addition GROUP BY
--   If the original view contains [UNION](javascript:call_link\('abencds_union_v1.htm'\)), equivalent UNION additions must be used in the statement EXTEND VIEW. As a prerequisite, the extended view must be annotated with AbapCatalog.viewEnhancementCategory \[#PROJECTION\_LIST, #UNION\]
+    -   If non-aggregated elements are added to a CDS view with aggregate expressions, then the [GROUP-BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_group_by_v1.htm) clause must be extended using the addition GROUP BY
+-   If the original view contains [UNION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_union_v1.htm), equivalent UNION additions must be used in the statement EXTEND VIEW. As a prerequisite, the extended view must be annotated with AbapCatalog.viewEnhancementCategory \[#PROJECTION\_LIST, #UNION\]
     
     If an appended element already occurs in the existing SELECT list or if a different extension occurs, it must be given an alternative element name using AS.
     
 
 Restrictions
 
--   CDS views with an explicit [name list](javascript:call_link\('abencds_name_list_v1.htm'\)) cannot currently be extended.
+-   CDS views with an explicit [name list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_name_list_v1.htm) cannot currently be extended.
 -   CDS view extensions themselves cannot be extended.
 -   It is not possible to specify new input parameters in a view extension.
--   No addition [ROOT](javascript:call_link\('abencds_define_root_view_v1.htm'\)) can be specified in the statement EXTEND VIEW to transform a regular view to a [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry").
+-   No addition [ROOT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_root_view_v1.htm) can be specified in the statement EXTEND VIEW to transform a regular view to a [root entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_entity_glosry.htm "Glossary Entry").
 -   An appended field cannot be defined as a key field using KEY.
 -   It is not allowed to define new to-parent or composition associations in a view extension.
 -   For views that have an element of data type LRAW or LCHR in the SELECT list, no view extension is possible and the annotation AbapCatalog.viewEnhancementCategory\[#NONE\] is enforced. The reason is that elements of data types LRAW or LCHR must always be in the last position of the SELECT list.
@@ -300,8 +300,8 @@ Naming
 
 Two repository objects are created for a CDS view extension that is defined using EXTEND VIEW. A name must be specified for each of the two objects:
 
--   The actual name cds\_view\_extension of the CDS view extension is specified after the keywords EXTEND VIEW. This name follows the same rules as the name of an [DDIC append view](javascript:call_link\('abenddic_append_view_glosry.htm'\) "Glossary Entry"), but can have up to 30 characters.
--   The name CDS\_APPEND\_VIEW for an [append view](javascript:call_link\('abenddic_append_view_glosry.htm'\) "Glossary Entry") in ABAP Dictionary must be specified in quotation marks after the annotation [@AbapCatalog.sqlViewAppendName](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\)). This name is subject to the same rules as the name of a [DDIC database view](javascript:call_link\('abendatabase_view_glosry.htm'\) "Glossary Entry") in ABAP Dictionary, see topic [DDIC - Naming Rules for DDIC Views](javascript:call_link\('abenddic_view_names.htm'\)). The new DDIC append view extends the [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") of the extended CDS view. The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
+-   The actual name cds\_view\_extension of the CDS view extension is specified after the keywords EXTEND VIEW. This name follows the same rules as the name of an [DDIC append view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_view_glosry.htm "Glossary Entry"), but can have up to 30 characters.
+-   The name CDS\_APPEND\_VIEW for an [append view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_view_glosry.htm "Glossary Entry") in ABAP Dictionary must be specified in quotation marks after the annotation [@AbapCatalog.sqlViewAppendName](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm). This name is subject to the same rules as the name of a [DDIC database view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_view_glosry.htm "Glossary Entry") in ABAP Dictionary, see topic [DDIC - Naming Rules for DDIC Views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_view_names.htm). The new DDIC append view extends the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") of the extended CDS view. The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 The name of the new DDIC append view and of the actual CDS view extension should be located in the customer namespace (or in the namespace of a partner or special development) to protect it against being overwritten by upgrades or new releases.
 
@@ -312,10 +312,10 @@ Note: The DDL source code of a CDS view extension does not need to have the same
 Hints
 
 -   Currently it is not possible to define extension categories for CDS views. The following restrictions apply for this reason:
-    -   CDS views have the property can be extended in any way with respect to the [extension category of DDIC structures](javascript:call_link\('abenddic_structures_enh_cat.htm'\)). The consequences of this must be respected when extending a CDS view.
-    -   The attributes of a CDS view defined using [annotations](javascript:call_link\('abencds_view_anno_v1.htm'\)), such as switching on [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry"), cannot currently be modified using extensions.
--   CDS view extensions specified with EXTEND ENTITY are recommended for CDS DDIC-based views only. However, for compatibility and migration reasons, it is also possible to extend [CDS projection views](javascript:call_link\('abencds_projection_view_glosry.htm'\) "Glossary Entry") or [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") with the statement EXTEND VIEW. However, view extends defined using EXTEND VIEW don't support the syntax elements specific to projection views and CDS view entities. Therefore, it is recommended to use the statement [EXTEND VIEW ENTITY](javascript:call_link\('abencds_extend_view_entity.htm'\)) for extensions of CDS projection views and CDS view entities instead.
--   If, for some reason, a CDS projection view or a CDS view entity is extended with EXTEND VIEW, the [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") is deleted (as CDS projection views and CDS view entities do not have any DDIC artefacts), and entity annotations referring to the CDS-managed DDIC view are ignored.
+    -   CDS views have the property can be extended in any way with respect to the [extension category of DDIC structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_enh_cat.htm). The consequences of this must be respected when extending a CDS view.
+    -   The attributes of a CDS view defined using [annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_anno_v1.htm), such as switching on [table buffering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_buffering_glosry.htm "Glossary Entry"), cannot currently be modified using extensions.
+-   CDS view extensions specified with EXTEND ENTITY are recommended for CDS DDIC-based views only. However, for compatibility and migration reasons, it is also possible to extend [CDS projection views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_projection_view_glosry.htm "Glossary Entry") or [CDS view entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_view_glosry.htm "Glossary Entry") with the statement EXTEND VIEW. However, view extends defined using EXTEND VIEW don't support the syntax elements specific to projection views and CDS view entities. Therefore, it is recommended to use the statement [EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view_entity.htm) for extensions of CDS projection views and CDS view entities instead.
+-   If, for some reason, a CDS projection view or a CDS view entity is extended with EXTEND VIEW, the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") is deleted (as CDS projection views and CDS view entities do not have any DDIC artefacts), and entity annotations referring to the CDS-managed DDIC view are ignored.
 
 Example
 
@@ -346,7 +346,7 @@ define view demo\_cds\_original\_view  
           spfli.cityto       as destination
     }; .
 
-The DDIC append view DEMO\_CDS\_EXTENS is created in ABAP Dictionary. The program DEMO\_CDS\_VIEW\_EXTENSION uses the statement [SELECT](javascript:call_link\('abapselect.htm'\)) to access the enhanced view and also displays the components of the dictionary structures in question.
+The DDIC append view DEMO\_CDS\_EXTENS is created in ABAP Dictionary. The program DEMO\_CDS\_VIEW\_EXTENSION uses the statement [SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm) to access the enhanced view and also displays the components of the dictionary structures in question.
 
 Addition 1   
 
@@ -354,7 +354,7 @@ Addition 1  
 
 Effect
 
-This addition must be specified if elements not defined using aggregate expressions are added to a view with [aggregate expressions](javascript:call_link\('abencds_aggregate_functions_v1.htm'\)). These elements must be specified after GROUP BY add extend the [GROUP-BY](javascript:call_link\('abencds_group_by_v1.htm'\)) clause of the original view. With respect to the extended view, the extended GROUP-BY clause must follow the general rules for a GROUP-BY clause.
+This addition must be specified if elements not defined using aggregate expressions are added to a view with [aggregate expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_aggregate_functions_v1.htm). These elements must be specified after GROUP BY add extend the [GROUP-BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_group_by_v1.htm) clause of the original view. With respect to the extended view, the extended GROUP-BY clause must follow the general rules for a GROUP-BY clause.
 
 The addition cannot be specified if the definition of the original view does not contain any aggregate expressions in its SELECT list.
 
@@ -398,7 +398,7 @@ Addition 2  
 
 Effect
 
-This addition must be specified when a view with [UNION](javascript:call_link\('abencds_union_v1.htm'\)) clauses is extended. A corresponding UNION addition must be specified for each UNION clause of the original view. The addition ALL must be specified each time it is specified in the associated UNION clause of the original view. The curly brackets can contain elements that extend the SELECT list of the associated UNION clause of the original view. As specified by the SELECT list extended using select\_list\_extension, the UNION clauses must be extended so that the rules for UNION clauses are not broken in the extended view.
+This addition must be specified when a view with [UNION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_union_v1.htm) clauses is extended. A corresponding UNION addition must be specified for each UNION clause of the original view. The addition ALL must be specified each time it is specified in the associated UNION clause of the original view. The curly brackets can contain elements that extend the SELECT list of the associated UNION clause of the original view. As specified by the SELECT list extended using select\_list\_extension, the UNION clauses must be extended so that the rules for UNION clauses are not broken in the extended view.
 
 The addition cannot be specified if the definition of the original view does not have a UNION clause.
 
@@ -455,7 +455,7 @@ union all select from
 The original view has two UNION clauses represented using corresponding UNION additions in the definition of the CDS view extension. Two elements with matching types are added to the three SELECT lists of the original view.
 
 Continue
-[CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
+[CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
 
 
 
@@ -473,21 +473,21 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS entity extension](javascript:call_link\('abencds_view_extension.htm'\)) →  [CDS DDL - EXTEND VIEW ddic\_based](javascript:call_link\('abencds_extend_view.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS entity extension](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_extension.htm) →  [CDS DDL - EXTEND VIEW ddic\_based](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm) → 
 
 CDS DDL - EXTEND VIEW, extension\_annot
 
 Syntax
 
-... @[annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)) ...
+... @[annotation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax.htm) ...
 
 Effect
 
-Specifies an [annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") [annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)) as an extension annotation in the definition of a [CDS view extension](javascript:call_link\('abencds_view_extend_glosry.htm'\) "Glossary Entry") before the statement [EXTEND VIEW](javascript:call_link\('abencds_extend_view.htm'\)). The character @ must be placed in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") and the annotation definition annotation [@Scope](javascript:call_link\('abencds_f1_define_anno_annos.htm'\)) should be specified here using the value #EXTEND\_VIEW.
+Specifies an [annotation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotation_glosry.htm "Glossary Entry") [annotation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax.htm) as an extension annotation in the definition of a [CDS view extension](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_extend_glosry.htm "Glossary Entry") before the statement [EXTEND VIEW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm). The character @ must be placed in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the annotation definition annotation [@Scope](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_anno_annos.htm) should be specified here using the value #EXTEND\_VIEW.
 
-The following tables show the possible [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
+The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
 
-The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
+The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
 
 AbapCatalog Annotations
 
@@ -507,7 +507,7 @@ AbapCatalog.sqlViewAppendName
 
 Name of the DDIC append view of the CDS view extension
 
-Character string with a maximum of 16 characters consisting of letters, numbers and underscores and that starts with a [namespace prefix](javascript:call_link\('abenname_space_prefix_glosry.htm'\) "Glossary Entry").
+Character string with a maximum of 16 characters consisting of letters, numbers and underscores and that starts with a [namespace prefix](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenname_space_prefix_glosry.htm "Glossary Entry").
 
 \-
 
@@ -546,15 +546,15 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS entity extension](javascript:call_link\('abencds_view_extension.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS entity extension](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_extension.htm) → 
 
 CDS DDL - EXTEND VIEW ddic\_based
 
 Syntax
 
-[@AbapCatalog.sqlViewAppendName: 'CDS\_APPEND\_VIEW'](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
-*\[*[@extension\_annot1](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))*\]*
-*\[*[@extension\_annot2](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))*\]*
+[@AbapCatalog.sqlViewAppendName: 'CDS\_APPEND\_VIEW'](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
+*\[*[@extension\_annot1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)*\]*
+*\[*[@extension\_annot2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)*\]*
 ...
 EXTEND VIEW ddic\_based\_view
        WITH cds\_view\_extension
@@ -571,52 +571,52 @@ Additions:
 
 Effect
 
-Extends an existing [CDS DDIC-based view](javascript:call_link\('abencds_v1_view_glosry.htm'\) "Glossary Entry") ddic\_based\_view using a [CDS view extension](javascript:call_link\('abencds_view_extend_glosry.htm'\) "Glossary Entry") cds\_view\_extension in the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry"). An existing CDS DDIC-based view can have one or more CDS view extensions.
+Extends an existing [CDS DDIC-based view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v1_view_glosry.htm "Glossary Entry") ddic\_based\_view using a [CDS view extension](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_extend_glosry.htm "Glossary Entry") cds\_view\_extension in the [CDS DDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_ddl_glosry.htm "Glossary Entry"). An existing CDS DDIC-based view can have one or more CDS view extensions.
 
-The extended CDS view ddic\_based\_view must be specified under the name of its [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"). The name of the [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") cannot be specified.
+The extended CDS view ddic\_based\_view must be specified under the name of its [CDS entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_glosry.htm "Glossary Entry"). The name of the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") cannot be specified.
 
 Prerequisite
 
-As a prerequisite for the enhancement of the CDS view with the statement EXTEND VIEW, the elements of the [annotation array](javascript:call_link\('abenannotation_array_glosry.htm'\) "Glossary Entry") [AbapCatalog.viewEnhancementCategory\[ \]](javascript:call_link\('abencds_view_anno_v1.htm'\)) must be specified accordingly in its definition with [DEFINE VIEW](javascript:call_link\('abencds_define_view_v1.htm'\)):
+As a prerequisite for the enhancement of the CDS view with the statement EXTEND VIEW, the elements of the [annotation array](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenannotation_array_glosry.htm "Glossary Entry") [AbapCatalog.viewEnhancementCategory\[ \]](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_anno_v1.htm) must be specified accordingly in its definition with [DEFINE VIEW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_view_v1.htm):
 
--   By default or if only the value #PROJECTION\_LIST is specified, views without [aggregate expressions](javascript:call_link\('abencds_aggregate_functions_v1.htm'\)) in the SELECT list and without a [UNION](javascript:call_link\('abencds_union_v1.htm'\)) clause can be extended.
--   In order to extend views that have [aggregate expressions](javascript:call_link\('abencds_aggregate_functions_v1.htm'\)) in the SELECT list, the annotation array must contain the value #GROUP\_BY alongside #PROJECTION\_LIST.
--   In order to extend views that contain [UNION](javascript:call_link\('abencds_union_v1.htm'\)) clauses, the annotation array must contain the value #UNION alongside #PROJECTION\_LIST.
+-   By default or if only the value #PROJECTION\_LIST is specified, views without [aggregate expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list and without a [UNION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_union_v1.htm) clause can be extended.
+-   In order to extend views that have [aggregate expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_aggregate_functions_v1.htm) in the SELECT list, the annotation array must contain the value #GROUP\_BY alongside #PROJECTION\_LIST.
+-   In order to extend views that contain [UNION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_union_v1.htm) clauses, the annotation array must contain the value #UNION alongside #PROJECTION\_LIST.
 -   If the annotation array contains the value #NONE, the view cannot be extended.
 
 Components of a view extension
 
 View extensions can make additions to the original view, but it can't modify, overwrite, or delete elements from the original view. The following components are possible in a CDS view extension:
 
--   The annotation [AbapCatalog.sqlViewAppendName](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\)) is mandatory. Further annotations [extension\_annot1](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\)), [extension\_annot2](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\)), ... can also be specified. This is optional.
--   New associations association1, association2 can be defined and exposed in the CDS view extension. The same rules apply that are described in topic [CDS DDL - DDIC-based view, ASSOCIATION](javascript:call_link\('abencds_simple_association_v1.htm'\)).
+-   The annotation [AbapCatalog.sqlViewAppendName](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm) is mandatory. Further annotations [extension\_annot1](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm), [extension\_annot2](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm), ... can also be specified. This is optional.
+-   New associations association1, association2 can be defined and exposed in the CDS view extension. The same rules apply that are described in topic [CDS DDL - DDIC-based view, ASSOCIATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_simple_association_v1.htm).
     
-    Note: It is not allowed to define new [CDS compositions](javascript:call_link\('abencds_composition_glosry.htm'\) "Glossary Entry") or [CDS to-parent associations](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry") in a view extension.
+    Note: It is not allowed to define new [CDS compositions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_composition_glosry.htm "Glossary Entry") or [CDS to-parent associations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abento_parent_association_glosry.htm "Glossary Entry") in a view extension.
     
--   The elements of the extension list select\_list\_extension specified after EXTEND VIEW are added to the existing SELECT list. At least one element must be added. It is possible to access all fields of all data sources of the extended view in the extension list select\_list\_extension. The list can have all [elements](javascript:call_link\('abencds_select_list_entry_v1.htm'\)) of a [SELECT list](javascript:call_link\('abencds_select_list_v1.htm'\)), namely:
-    -   [field](javascript:call_link\('abencds_field_v2.htm'\)) of a data source
-    -   [Input parameters](javascript:call_link\('abencds_parameter_v1.htm'\)) of the extended CDS view. It is not possible to specify new input parameters in a view extension.
-    -   It can expose a [CDS association](javascript:call_link\('abencds_select_list_association_v2.htm'\)) of the extended view or a newly defined association
-    -   Using a [path expressions](javascript:call_link\('abencds_path_expression_v1.htm'\)), a field of an association target can be included. Path expressions are possible for associations of the extended view or for newly defined associations.
-    -   [literals, session variables, expressions and functions](javascript:call_link\('abencds_operands_and_expr_v1.htm'\))
+-   The elements of the extension list select\_list\_extension specified after EXTEND VIEW are added to the existing SELECT list. At least one element must be added. It is possible to access all fields of all data sources of the extended view in the extension list select\_list\_extension. The list can have all [elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_list_entry_v1.htm) of a [SELECT list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_list_v1.htm), namely:
+    -   [field](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_field_v2.htm) of a data source
+    -   [Input parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_parameter_v1.htm) of the extended CDS view. It is not possible to specify new input parameters in a view extension.
+    -   It can expose a [CDS association](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_select_list_association_v2.htm) of the extended view or a newly defined association
+    -   Using a [path expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_path_expression_v1.htm), a field of an association target can be included. Path expressions are possible for associations of the extended view or for newly defined associations.
+    -   [literals, session variables, expressions and functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_operands_and_expr_v1.htm)
         
         Note: To add aggregate expressions to a view extension, special rules apply. See below.
         
 -   Aggregate expressions are possible in the SELECT list of a view extension only if the following conditions are met:
-    -   The original view must contain [aggregate expressions](javascript:call_link\('abencds_aggregate_functions_v1.htm'\)). If the original view does not contain any aggregate expressions, this is not possible.
+    -   The original view must contain [aggregate expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_aggregate_functions_v1.htm). If the original view does not contain any aggregate expressions, this is not possible.
     -   The extended view must be annotated with AbapCatalog.viewEnhancementCategory \[#PROJECTION\_LIST, #GROUP\_BY\]
-    -   If non-aggregated elements are added to a CDS view with aggregate expressions, then the [GROUP-BY](javascript:call_link\('abencds_group_by_v1.htm'\)) clause must be extended using the addition GROUP BY
--   If the original view contains [UNION](javascript:call_link\('abencds_union_v1.htm'\)), equivalent UNION additions must be used in the statement EXTEND VIEW. As a prerequisite, the extended view must be annotated with AbapCatalog.viewEnhancementCategory \[#PROJECTION\_LIST, #UNION\]
+    -   If non-aggregated elements are added to a CDS view with aggregate expressions, then the [GROUP-BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_group_by_v1.htm) clause must be extended using the addition GROUP BY
+-   If the original view contains [UNION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_union_v1.htm), equivalent UNION additions must be used in the statement EXTEND VIEW. As a prerequisite, the extended view must be annotated with AbapCatalog.viewEnhancementCategory \[#PROJECTION\_LIST, #UNION\]
     
     If an appended element already occurs in the existing SELECT list or if a different extension occurs, it must be given an alternative element name using AS.
     
 
 Restrictions
 
--   CDS views with an explicit [name list](javascript:call_link\('abencds_name_list_v1.htm'\)) cannot currently be extended.
+-   CDS views with an explicit [name list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_name_list_v1.htm) cannot currently be extended.
 -   CDS view extensions themselves cannot be extended.
 -   It is not possible to specify new input parameters in a view extension.
--   No addition [ROOT](javascript:call_link\('abencds_define_root_view_v1.htm'\)) can be specified in the statement EXTEND VIEW to transform a regular view to a [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry").
+-   No addition [ROOT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_define_root_view_v1.htm) can be specified in the statement EXTEND VIEW to transform a regular view to a [root entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_entity_glosry.htm "Glossary Entry").
 -   An appended field cannot be defined as a key field using KEY.
 -   It is not allowed to define new to-parent or composition associations in a view extension.
 -   For views that have an element of data type LRAW or LCHR in the SELECT list, no view extension is possible and the annotation AbapCatalog.viewEnhancementCategory\[#NONE\] is enforced. The reason is that elements of data types LRAW or LCHR must always be in the last position of the SELECT list.
@@ -625,8 +625,8 @@ Naming
 
 Two repository objects are created for a CDS view extension that is defined using EXTEND VIEW. A name must be specified for each of the two objects:
 
--   The actual name cds\_view\_extension of the CDS view extension is specified after the keywords EXTEND VIEW. This name follows the same rules as the name of an [DDIC append view](javascript:call_link\('abenddic_append_view_glosry.htm'\) "Glossary Entry"), but can have up to 30 characters.
--   The name CDS\_APPEND\_VIEW for an [append view](javascript:call_link\('abenddic_append_view_glosry.htm'\) "Glossary Entry") in ABAP Dictionary must be specified in quotation marks after the annotation [@AbapCatalog.sqlViewAppendName](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\)). This name is subject to the same rules as the name of a [DDIC database view](javascript:call_link\('abendatabase_view_glosry.htm'\) "Glossary Entry") in ABAP Dictionary, see topic [DDIC - Naming Rules for DDIC Views](javascript:call_link\('abenddic_view_names.htm'\)). The new DDIC append view extends the [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") of the extended CDS view. The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
+-   The actual name cds\_view\_extension of the CDS view extension is specified after the keywords EXTEND VIEW. This name follows the same rules as the name of an [DDIC append view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_view_glosry.htm "Glossary Entry"), but can have up to 30 characters.
+-   The name CDS\_APPEND\_VIEW for an [append view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_view_glosry.htm "Glossary Entry") in ABAP Dictionary must be specified in quotation marks after the annotation [@AbapCatalog.sqlViewAppendName](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm). This name is subject to the same rules as the name of a [DDIC database view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_view_glosry.htm "Glossary Entry") in ABAP Dictionary, see topic [DDIC - Naming Rules for DDIC Views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_view_names.htm). The new DDIC append view extends the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") of the extended CDS view. The name given to the DDIC append view can no longer be changed after the CDS view extension is transported into a follow-on system.
 
 The name of the new DDIC append view and of the actual CDS view extension should be located in the customer namespace (or in the namespace of a partner or special development) to protect it against being overwritten by upgrades or new releases.
 
@@ -637,10 +637,10 @@ Note: The DDL source code of a CDS view extension does not need to have the same
 Hints
 
 -   Currently it is not possible to define extension categories for CDS views. The following restrictions apply for this reason:
-    -   CDS views have the property can be extended in any way with respect to the [extension category of DDIC structures](javascript:call_link\('abenddic_structures_enh_cat.htm'\)). The consequences of this must be respected when extending a CDS view.
-    -   The attributes of a CDS view defined using [annotations](javascript:call_link\('abencds_view_anno_v1.htm'\)), such as switching on [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry"), cannot currently be modified using extensions.
--   CDS view extensions specified with EXTEND ENTITY are recommended for CDS DDIC-based views only. However, for compatibility and migration reasons, it is also possible to extend [CDS projection views](javascript:call_link\('abencds_projection_view_glosry.htm'\) "Glossary Entry") or [CDS view entities](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry") with the statement EXTEND VIEW. However, view extends defined using EXTEND VIEW don't support the syntax elements specific to projection views and CDS view entities. Therefore, it is recommended to use the statement [EXTEND VIEW ENTITY](javascript:call_link\('abencds_extend_view_entity.htm'\)) for extensions of CDS projection views and CDS view entities instead.
--   If, for some reason, a CDS projection view or a CDS view entity is extended with EXTEND VIEW, the [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") is deleted (as CDS projection views and CDS view entities do not have any DDIC artefacts), and entity annotations referring to the CDS-managed DDIC view are ignored.
+    -   CDS views have the property can be extended in any way with respect to the [extension category of DDIC structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_enh_cat.htm). The consequences of this must be respected when extending a CDS view.
+    -   The attributes of a CDS view defined using [annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_anno_v1.htm), such as switching on [table buffering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_buffering_glosry.htm "Glossary Entry"), cannot currently be modified using extensions.
+-   CDS view extensions specified with EXTEND ENTITY are recommended for CDS DDIC-based views only. However, for compatibility and migration reasons, it is also possible to extend [CDS projection views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_projection_view_glosry.htm "Glossary Entry") or [CDS view entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_v2_view_glosry.htm "Glossary Entry") with the statement EXTEND VIEW. However, view extends defined using EXTEND VIEW don't support the syntax elements specific to projection views and CDS view entities. Therefore, it is recommended to use the statement [EXTEND VIEW ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view_entity.htm) for extensions of CDS projection views and CDS view entities instead.
+-   If, for some reason, a CDS projection view or a CDS view entity is extended with EXTEND VIEW, the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") is deleted (as CDS projection views and CDS view entities do not have any DDIC artefacts), and entity annotations referring to the CDS-managed DDIC view are ignored.
 
 Example
 
@@ -671,7 +671,7 @@ define view demo\_cds\_original\_view  
           spfli.cityto       as destination
     }; .
 
-The DDIC append view DEMO\_CDS\_EXTENS is created in ABAP Dictionary. The program DEMO\_CDS\_VIEW\_EXTENSION uses the statement [SELECT](javascript:call_link\('abapselect.htm'\)) to access the enhanced view and also displays the components of the dictionary structures in question.
+The DDIC append view DEMO\_CDS\_EXTENS is created in ABAP Dictionary. The program DEMO\_CDS\_VIEW\_EXTENSION uses the statement [SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm) to access the enhanced view and also displays the components of the dictionary structures in question.
 
 Addition 1   
 
@@ -679,7 +679,7 @@ Addition 1  
 
 Effect
 
-This addition must be specified if elements not defined using aggregate expressions are added to a view with [aggregate expressions](javascript:call_link\('abencds_aggregate_functions_v1.htm'\)). These elements must be specified after GROUP BY add extend the [GROUP-BY](javascript:call_link\('abencds_group_by_v1.htm'\)) clause of the original view. With respect to the extended view, the extended GROUP-BY clause must follow the general rules for a GROUP-BY clause.
+This addition must be specified if elements not defined using aggregate expressions are added to a view with [aggregate expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_aggregate_functions_v1.htm). These elements must be specified after GROUP BY add extend the [GROUP-BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_group_by_v1.htm) clause of the original view. With respect to the extended view, the extended GROUP-BY clause must follow the general rules for a GROUP-BY clause.
 
 The addition cannot be specified if the definition of the original view does not contain any aggregate expressions in its SELECT list.
 
@@ -723,7 +723,7 @@ Addition 2  
 
 Effect
 
-This addition must be specified when a view with [UNION](javascript:call_link\('abencds_union_v1.htm'\)) clauses is extended. A corresponding UNION addition must be specified for each UNION clause of the original view. The addition ALL must be specified each time it is specified in the associated UNION clause of the original view. The curly brackets can contain elements that extend the SELECT list of the associated UNION clause of the original view. As specified by the SELECT list extended using select\_list\_extension, the UNION clauses must be extended so that the rules for UNION clauses are not broken in the extended view.
+This addition must be specified when a view with [UNION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_union_v1.htm) clauses is extended. A corresponding UNION addition must be specified for each UNION clause of the original view. The addition ALL must be specified each time it is specified in the associated UNION clause of the original view. The curly brackets can contain elements that extend the SELECT list of the associated UNION clause of the original view. As specified by the SELECT list extended using select\_list\_extension, the UNION clauses must be extended so that the rules for UNION clauses are not broken in the extended view.
 
 The addition cannot be specified if the definition of the original view does not have a UNION clause.
 
@@ -780,7 +780,7 @@ union all select from
 The original view has two UNION clauses represented using corresponding UNION additions in the definition of the CDS view extension. Two elements with matching types are added to the three SELECT lists of the original view.
 
 Continue
-[CDS DDL - EXTEND VIEW, extension\_annot](javascript:call_link\('abencds_f1_extend_view_annotations.htm'\))
+[CDS DDL - EXTEND VIEW, extension\_annot](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_extend_view_annotations.htm)
 
 
 
@@ -798,21 +798,21 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS entity extension](javascript:call_link\('abencds_view_extension.htm'\)) →  [CDS DDL - EXTEND VIEW ddic\_based](javascript:call_link\('abencds_extend_view.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS entity extension](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_extension.htm) →  [CDS DDL - EXTEND VIEW ddic\_based](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm) → 
 
 CDS DDL - EXTEND VIEW, extension\_annot
 
 Syntax
 
-... @[annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)) ...
+... @[annotation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax.htm) ...
 
 Effect
 
-Specifies an [annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") [annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)) as an extension annotation in the definition of a [CDS view extension](javascript:call_link\('abencds_view_extend_glosry.htm'\) "Glossary Entry") before the statement [EXTEND VIEW](javascript:call_link\('abencds_extend_view.htm'\)). The character @ must be placed in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") and the annotation definition annotation [@Scope](javascript:call_link\('abencds_f1_define_anno_annos.htm'\)) should be specified here using the value #EXTEND\_VIEW.
+Specifies an [annotation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotation_glosry.htm "Glossary Entry") [annotation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_syntax.htm) as an extension annotation in the definition of a [CDS view extension](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_extend_glosry.htm "Glossary Entry") before the statement [EXTEND VIEW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_extend_view.htm). The character @ must be placed in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the annotation definition annotation [@Scope](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_f1_define_anno_annos.htm) should be specified here using the value #EXTEND\_VIEW.
 
-The following tables show the possible [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
+The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS entity. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
 
-The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](javascript:call_link\('abenannotation_value_glosry.htm'\) "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
+The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
 
 AbapCatalog Annotations
 
@@ -832,7 +832,7 @@ AbapCatalog.sqlViewAppendName
 
 Name of the DDIC append view of the CDS view extension
 
-Character string with a maximum of 16 characters consisting of letters, numbers and underscores and that starts with a [namespace prefix](javascript:call_link\('abenname_space_prefix_glosry.htm'\) "Glossary Entry").
+Character string with a maximum of 16 characters consisting of letters, numbers and underscores and that starts with a [namespace prefix](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenname_space_prefix_glosry.htm "Glossary Entry").
 
 \-
 
@@ -871,56 +871,56 @@ Included pages: 13
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) → 
 
 CALL TRANSACTION
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm)
 
 Syntax Forms
 
-[Simple transaction call](javascript:call_link\('abapcall_transaction_standard.htm'\))
-1\. CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) *\[*AND SKIP FIRST SCREEN*\]*.
-[Transaction call using batch input table](javascript:call_link\('abapcall_transaction_using.htm'\))
-2\. CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
+[Simple transaction call](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_standard.htm)
+1\. CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) *\[*AND SKIP FIRST SCREEN*\]*.
+[Transaction call using batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_using.htm)
+2\. CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm)
                       USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
                                     *|*  *\[*OPTIONS FROM opt*\]* *}*
                                        *\[*MESSAGES INTO itab*\]*.
 
 Effect
 
-The statement CALL TRANSACTION calls the [transaction](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry") whose transaction code is contained in the data object ta. The calling program and its data are preserved. After the transaction call, the program execution of the calling program is resumed after the statement CALL TRANSACTION. The data object ta must be character-like, flat and contain the transaction code in uppercase letters. The following can be specified for ta:
+The statement CALL TRANSACTION calls the [transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_glosry.htm "Glossary Entry") whose transaction code is contained in the data object ta. The calling program and its data are preserved. After the transaction call, the program execution of the calling program is resumed after the statement CALL TRANSACTION. The data object ta must be character-like, flat and contain the transaction code in uppercase letters. The following can be specified for ta:
 
 -   Literal or constant
     
-    If the data object ta is specified as a [text field literal](javascript:call_link\('abentext_field_literal_glosry.htm'\) "Glossary Entry") or as a [constant](javascript:call_link\('abenconstant_glosry.htm'\) "Glossary Entry"), it is evaluated as a static specification by tools such as the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry") or the where-used list.
+    If the data object ta is specified as a [text field literal](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_field_literal_glosry.htm "Glossary Entry") or as a [constant](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstant_glosry.htm "Glossary Entry"), it is evaluated as a static specification by tools such as the [extended program check](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextended_program_check_glosry.htm "Glossary Entry") or the where-used list.
     
 -   Variable
     
-    If the data object ta is specified as a [variable](javascript:call_link\('abenvariable_glosry.htm'\) "Glossary Entry"), it is specified only dynamically, and the content is not evaluated statically.
+    If the data object ta is specified as a [variable](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvariable_glosry.htm "Glossary Entry"), it is specified only dynamically, and the content is not evaluated statically.
     
 
 When the statement is executed, ta is not evaluated until runtime in both cases. If the transaction specified in ta is not found, a uncatchable exception is raised.
 
--   In the [first variant](javascript:call_link\('abapcall_transaction_standard.htm'\)), the display of the initial dynpro can be suppressed.
--   In the [second variant](javascript:call_link\('abapcall_transaction_using.htm'\)), the transaction is controlled by a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry").
+-   In the [first variant](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_standard.htm), the display of the initial dynpro can be suppressed.
+-   In the [second variant](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_using.htm), the transaction is controlled by a [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry").
 
-In both variants, an [authorization check](javascript:call_link\('abenauthorization_check_glosry.htm'\) "Glossary Entry") can be performed for the called transaction.
+In both variants, an [authorization check](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_check_glosry.htm "Glossary Entry") can be performed for the called transaction.
 
-When the transaction is called, the ABAP program linked to the transaction code is loaded in a new [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of the current [call sequence](javascript:call_link\('abencall_sequence_glosry.htm'\) "Glossary Entry"). The session of the calling program and the current [SAP LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry") are retained. The called program runs in its own SAP LUW.
+When the transaction is called, the ABAP program linked to the transaction code is loaded in a new [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry") of the current [call sequence](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_sequence_glosry.htm "Glossary Entry"). The session of the calling program and the current [SAP LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_luw_glosry.htm "Glossary Entry") are retained. The called program runs in its own SAP LUW.
 
--   If the called transaction is a dialog transaction, the event [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) is raised after the ABAP program is loaded and the [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") defined as the initial dynpro of the transaction is called. The initial dynpro is the first dynpro of a [dynpro sequence](javascript:call_link\('abendynpro_sequence_glosry.htm'\) "Glossary Entry"). The transaction is finished when the dynpro sequence is ended by encountering the next dynpro with dynpro number 0 or when the program is exited using the statement [LEAVE PROGRAM](javascript:call_link\('abapleave_program.htm'\)).
--   If the called transaction is an [OO transaction](javascript:call_link\('abenoo_transaction_glosry.htm'\) "Glossary Entry"), then, after all programs other than [class pools](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") are loaded, the event LOAD-OF-PROGRAM is raised and the method linked to the transaction code is called. If the method is an instance method, an object of the corresponding class is generated implicitly and referenced by the runtime framework. The transaction is finished when the method is finished or when the program is exited using the statement LEAVE PROGRAM.
+-   If the called transaction is a dialog transaction, the event [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapload-of-program.htm) is raised after the ABAP program is loaded and the [dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_glosry.htm "Glossary Entry") defined as the initial dynpro of the transaction is called. The initial dynpro is the first dynpro of a [dynpro sequence](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_sequence_glosry.htm "Glossary Entry"). The transaction is finished when the dynpro sequence is ended by encountering the next dynpro with dynpro number 0 or when the program is exited using the statement [LEAVE PROGRAM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave_program.htm).
+-   If the called transaction is an [OO transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoo_transaction_glosry.htm "Glossary Entry"), then, after all programs other than [class pools](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_pool_glosry.htm "Glossary Entry") are loaded, the event LOAD-OF-PROGRAM is raised and the method linked to the transaction code is called. If the method is an instance method, an object of the corresponding class is generated implicitly and referenced by the runtime framework. The transaction is finished when the method is finished or when the program is exited using the statement LEAVE PROGRAM.
 
 Hints
 
--   CALL TRANSACTION does not end the current [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry"). A [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") or [database rollback](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") in the called program has the same effect as in the current program.
--   The statement CALL TRANSACTION opens a new [SAP LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry"), but it does not open a new [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry"). This means that a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry") in this SAP LUW, in particular, can roll back all registration entries made by the statements [CALL FUNCTION IN UPDATE TASK](javascript:call_link\('abapcall_function_update.htm'\)) or [CALL FUNCTION IN BACKGROUND TASK](javascript:call_link\('abapcall_function_background_task.htm'\)) in the tables VB... or ARFCSSTATE and ARFCSDATA. The statement [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) in the called program may also affect the interrupted SAP LUW under certain circumstances. To prevent this, an explicit [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") must be executed before the program is called. This problem does not occur during [local updates](javascript:call_link\('abenlocal_update_glosry.htm'\) "Glossary Entry").
--   The number of internal sessions in a [call sequence](javascript:call_link\('abencall_sequence_glosry.htm'\) "Glossary Entry") is restricted to nine. If this is exceeded by CALL TRANSACTION, the program is terminated and the entire call sequence is deleted.
+-   CALL TRANSACTION does not end the current [database LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). A [database commit](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_commit_glosry.htm "Glossary Entry") or [database rollback](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_commit_glosry.htm "Glossary Entry") in the called program has the same effect as in the current program.
+-   The statement CALL TRANSACTION opens a new [SAP LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_luw_glosry.htm "Glossary Entry"), but it does not open a new [database LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). This means that a [database rollback](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_rollback_glosry.htm "Glossary Entry") in this SAP LUW, in particular, can roll back all registration entries made by the statements [CALL FUNCTION IN UPDATE TASK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_update.htm) or [CALL FUNCTION IN BACKGROUND TASK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_task.htm) in the tables VB... or ARFCSSTATE and ARFCSDATA. The statement [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaprollback.htm) in the called program may also affect the interrupted SAP LUW under certain circumstances. To prevent this, an explicit [database commit](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_commit_glosry.htm "Glossary Entry") must be executed before the program is called. This problem does not occur during [local updates](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocal_update_glosry.htm "Glossary Entry").
+-   The number of internal sessions in a [call sequence](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_sequence_glosry.htm "Glossary Entry") is restricted to nine. If this is exceeded by CALL TRANSACTION, the program is terminated and the entire call sequence is deleted.
 
 Security Hint
 
-If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, this a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](javascript:call_link\('abendyn_call_scrty.htm'\)).
+If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, this a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendyn_call_scrty.htm).
 
 Example
 
@@ -934,9 +934,9 @@ ENDTRY.
 
 Executable Examples
 
-[Transaction Call - Examples](javascript:call_link\('abentransactions_abexas.htm'\))
+[Transaction Call - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactions_abexas.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -960,9 +960,9 @@ Uncatchable Exceptions
     
 
 Continue
-[CALL TRANSACTION, standard](javascript:call_link\('abapcall_transaction_standard.htm'\))
-[CALL TRANSACTION, USING](javascript:call_link\('abapcall_transaction_using.htm'\))
-[Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\))
+[CALL TRANSACTION, standard](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_standard.htm)
+[CALL TRANSACTION, USING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_using.htm)
+[Transaction Call, Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactions_abexas.htm)
 
 
 
@@ -980,15 +980,15 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) → 
 
 CALL TRANSACTION, standard
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm)
 
 Syntax
 
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) *\[*AND SKIP FIRST SCREEN*\]*.
+CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) *\[*AND SKIP FIRST SCREEN*\]*.
 
 Addition:
 
@@ -996,7 +996,7 @@ Addition:
 
 Effect
 
-This variant calls the version specified in ta as described under the statement [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) are used to control the authorization check. AND SKIP FIRST SCREEN can be used to suppress the initial screen.
+This variant calls the version specified in ta as described under the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) are used to control the authorization check. AND SKIP FIRST SCREEN can be used to suppress the initial screen.
 
 Hint
 
@@ -1008,12 +1008,12 @@ Addition  
 
 Effect
 
-This addition can be used to suppress the display of a [screen layout](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of the initial dynpro of a called dialog transaction. The addition AND SKIP FIRST SCREEN suppresses the first screen only under the following prerequisites:
+This addition can be used to suppress the display of a [screen layout](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry") of the initial dynpro of a called dialog transaction. The addition AND SKIP FIRST SCREEN suppresses the first screen only under the following prerequisites:
 
--   For the initial dynpro, its own dynpro number must not be entered as the static next dynpro in [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry").
--   All mandatory input fields of the initial dynpro must be filled completely and with the correct values by the [SPA/GPA parameters](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry").
+-   For the initial dynpro, its own dynpro number must not be entered as the static next dynpro in [Screen Painter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_painter_glosry.htm "Glossary Entry").
+-   All mandatory input fields of the initial dynpro must be filled completely and with the correct values by the [SPA/GPA parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenspa_gpa_parameter_glosry.htm "Glossary Entry").
 
-If these prerequisites are met, the screen of the dynpro is displayed that is specified in the Screen Painter as the [next dynpro](javascript:call_link\('abennext_dynpro_glosry.htm'\) "Glossary Entry") of the initial dynpro.
+If these prerequisites are met, the screen of the dynpro is displayed that is specified in the Screen Painter as the [next dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennext_dynpro_glosry.htm "Glossary Entry") of the initial dynpro.
 
 Example
 
@@ -1032,7 +1032,7 @@ TRY.
 ENDTRY.
 
 Continue
-[CALL TRANSACTION, AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
+[CALL TRANSACTION, AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm)
 
 
 
@@ -1050,11 +1050,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [CALL TRANSACTION, standard](javascript:call_link\('abapcall_transaction_standard.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) →  [CALL TRANSACTION, standard](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_standard.htm) → 
 
 CALL TRANSACTION, AUTHORITY-CHECK
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm)
 
 Syntax
 
@@ -1067,11 +1067,11 @@ Additions:
 
 Effect
 
-These additions control the authorization checks when the statement [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) is executed.
+These additions control the authorization checks when the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) is executed.
 
 Hint
 
-The use of the statement CALL TRANSACTION without one of the additions WITH AUTHORITY-CHECK or WITHOUT AUTHORITY-CHECK is [obsolete](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)).
+The use of the statement CALL TRANSACTION without one of the additions WITH AUTHORITY-CHECK or WITHOUT AUTHORITY-CHECK is [obsolete](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_auth_obs.htm).
 
 Addition 1   
 
@@ -1079,7 +1079,7 @@ Addition 1  
 
 Effect
 
-If this addition is specified, the authorization of the current user to execute the called transaction is checked using the following [authorization objects](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") before the transaction call is executed:
+If this addition is specified, the authorization of the current user to execute the called transaction is checked using the following [authorization objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_object_glosry.htm "Glossary Entry") before the transaction call is executed:
 
 -   The authorization object S\_TCODE.
 -   Any authorization object specified in the definition of the transaction code (transaction SE93). Fields of the authorization object for which no value is specified here are not checked.
@@ -1088,7 +1088,7 @@ If no authorization exists, a catchable exception of the class CX\_SY\_AUTHORIZA
 
 Hint
 
-The use of the addition WITH AUTHORITY-CHECK is the recommended method of checking the authorizations of the current user. It replaces the preceding checks using the statement [AUTHORITY-CHECK](javascript:call_link\('abapauthority-check_shortref.htm'\)), the function module AUTHORITY\_CHECK\_TCODE, and checks that depend on the content of the DDIC database table [TCDCOUPLES](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)).
+The use of the addition WITH AUTHORITY-CHECK is the recommended method of checking the authorizations of the current user. It replaces the preceding checks using the statement [AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapauthority-check_shortref.htm), the function module AUTHORITY\_CHECK\_TCODE, and checks that depend on the content of the DDIC database table [TCDCOUPLES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_auth_obs.htm).
 
 Addition 2   
 
@@ -1100,8 +1100,8 @@ If this addition is specified, the authorization of the current user to execute 
 
 Hints
 
--   The addition WITHOUT AUTHORITY-CHECK indicates explicitly that no authorization check is necessary for the transaction call. It prevents the corresponding error message from the security test in the [extended program checks](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry").
--   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the DDIC database table [TCDCOUPLES](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)) is ignored.
+-   The addition WITHOUT AUTHORITY-CHECK indicates explicitly that no authorization check is necessary for the transaction call. It prevents the corresponding error message from the security test in the [extended program checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextended_program_check_glosry.htm "Glossary Entry").
+-   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the DDIC database table [TCDCOUPLES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_auth_obs.htm) is ignored.
 
 
 
@@ -1119,15 +1119,15 @@ Hints
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) → 
 
 CALL TRANSACTION, standard
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm)
 
 Syntax
 
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) *\[*AND SKIP FIRST SCREEN*\]*.
+CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) *\[*AND SKIP FIRST SCREEN*\]*.
 
 Addition:
 
@@ -1135,7 +1135,7 @@ Addition:
 
 Effect
 
-This variant calls the version specified in ta as described under the statement [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) are used to control the authorization check. AND SKIP FIRST SCREEN can be used to suppress the initial screen.
+This variant calls the version specified in ta as described under the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) are used to control the authorization check. AND SKIP FIRST SCREEN can be used to suppress the initial screen.
 
 Hint
 
@@ -1147,12 +1147,12 @@ Addition  
 
 Effect
 
-This addition can be used to suppress the display of a [screen layout](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of the initial dynpro of a called dialog transaction. The addition AND SKIP FIRST SCREEN suppresses the first screen only under the following prerequisites:
+This addition can be used to suppress the display of a [screen layout](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry") of the initial dynpro of a called dialog transaction. The addition AND SKIP FIRST SCREEN suppresses the first screen only under the following prerequisites:
 
--   For the initial dynpro, its own dynpro number must not be entered as the static next dynpro in [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry").
--   All mandatory input fields of the initial dynpro must be filled completely and with the correct values by the [SPA/GPA parameters](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry").
+-   For the initial dynpro, its own dynpro number must not be entered as the static next dynpro in [Screen Painter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_painter_glosry.htm "Glossary Entry").
+-   All mandatory input fields of the initial dynpro must be filled completely and with the correct values by the [SPA/GPA parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenspa_gpa_parameter_glosry.htm "Glossary Entry").
 
-If these prerequisites are met, the screen of the dynpro is displayed that is specified in the Screen Painter as the [next dynpro](javascript:call_link\('abennext_dynpro_glosry.htm'\) "Glossary Entry") of the initial dynpro.
+If these prerequisites are met, the screen of the dynpro is displayed that is specified in the Screen Painter as the [next dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennext_dynpro_glosry.htm "Glossary Entry") of the initial dynpro.
 
 Example
 
@@ -1171,7 +1171,7 @@ TRY.
 ENDTRY.
 
 Continue
-[CALL TRANSACTION, AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
+[CALL TRANSACTION, AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm)
 
 
 
@@ -1189,15 +1189,15 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) → 
 
 CALL TRANSACTION, USING
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm)
 
 Syntax
 
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
+CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm)
                     USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
                                   *|*  *\[*OPTIONS FROM opt*\]* *}*
                                      *\[*MESSAGES INTO itab*\]*.
@@ -1211,13 +1211,13 @@ Additions:
 
 Effect
 
-In the variant with the addition USING, the transaction is executed using a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) are used to control the authorization check.
+In the variant with the addition USING, the transaction is executed using a [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) are used to control the authorization check.
 
 bdc\_tab expects an internal table with the line type BDCDATA from the ABAP Dictionary. The additions control its processing.
 
 When a transaction with the addition USING is called, the system field sy-binpt is set to the value "X" in the called program, and no other transaction can be called using this addition while this transaction is running.
 
-In a program, a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
+In a program, a [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
 
 Component
 
@@ -1237,13 +1237,13 @@ Flag for the start of a new dynpro (possible values are "X" and " ")
 
 FNAM
 
-Name of a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
+Name of a [dynpro field](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_field_glosry.htm "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
 
 FVAL
 
 Value to be passed to the dynpro field or to the control statement
 
-Using the [content](javascript:call_link\('abenbatch_input_table.htm'\)) of the internal table bdc\_tab, any number of screens of the called transaction can be provided with input and user actions.
+Using the [content](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table.htm) of the internal table bdc\_tab, any number of screens of the called transaction can be provided with input and user actions.
 
 System Fields
 
@@ -1257,7 +1257,7 @@ The called transaction was processed successfully.
 
 < 1000
 
-Error in the called transaction. If a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
+Error in the called transaction. If a [message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
 
 1001
 
@@ -1265,8 +1265,8 @@ Processing error.
 
 Hints
 
--   Calling a transaction using a batch input table is actually not the same as executing [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"). However, there is no exact dividing line between the two, since batch input-based frameworks, such as [CATT](javascript:call_link\('abencatt_glosry.htm'\) "Glossary Entry"), and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. As a result, they can use certain options that are not available in genuine batch input.
--   The control options for a batch input table include the control options for [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in real [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"), and sometimes exceed them.
+-   Calling a transaction using a batch input table is actually not the same as executing [batch input sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry"). However, there is no exact dividing line between the two, since batch input-based frameworks, such as [CATT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencatt_glosry.htm "Glossary Entry"), and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. As a result, they can use certain options that are not available in genuine batch input.
+-   The control options for a batch input table include the control options for [batch input sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in real [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry"), and sometimes exceed them.
 
 Example
 
@@ -1296,7 +1296,7 @@ Effect
 
 "A"
 
-Processing with display of the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry")
+Processing with display of the [screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry")
 
 "E"
 
@@ -1304,7 +1304,7 @@ Display of screens only if an error occurs
 
 "N"
 
-Processing without display of the screens. If a breakpoint is reached in one of the called [transactions](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. Then, the field sy-msgty contains "S", sy-msgid contains "00", sy-msgno contains "344", sy-msgv1 contains "SAPMSSY3", and sy-msgv2 contains "0131".
+Processing without display of the screens. If a breakpoint is reached in one of the called [transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_glosry.htm "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. Then, the field sy-msgty contains "S", sy-msgid contains "00", sy-msgno contains "344", sy-msgv1 contains "SAPMSSY3", and sy-msgv2 contains "0131".
 
 "P"
 
@@ -1328,7 +1328,7 @@ Effect
 
 "A"
 
-Asynchronous update. [Updates](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry") of the called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)).
+Asynchronous update. [Updates](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenupdate_glosry.htm "Glossary Entry") of the called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit.htm).
 
 "S"
 
@@ -1336,7 +1336,7 @@ Synchronous update. Updates of the called programs are executed in the same way 
 
 "L"
 
-Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](javascript:call_link\('abapset_update_task_local.htm'\)) had been executed in it.
+Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_update_task_local.htm) had been executed in it.
 
 Others
 
@@ -1344,7 +1344,7 @@ As for "A".
 
 Hint
 
-This option is not available for execution of [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"). Updates are always synchronous here.
+This option is not available for execution of [batch input sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry"). Updates are always synchronous here.
 
 Addition 3   
 
@@ -1368,15 +1368,15 @@ Update mode for processing. Values as for the addition UPDATE.
 
 CATTMODE
 
-[CATT](javascript:call_link\('abencatt_glosry.htm'\) "Glossary Entry") mode for processing. While [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry") is used mostly for data transfer, CATT processes are designed to be reusable tests of more complex [transactions](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry"). Values: " " (no CATT mode), "N" (CATT without single screen control), "A" (CATT with single screen control).
+[CATT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencatt_glosry.htm "Glossary Entry") mode for processing. While [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry") is used mostly for data transfer, CATT processes are designed to be reusable tests of more complex [transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_glosry.htm "Glossary Entry"). Values: " " (no CATT mode), "N" (CATT without single screen control), "A" (CATT with single screen control).
 
 DEFSIZE
 
-Flag to indicate whether the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: "X" (standard size), " " (current size).
+Flag to indicate whether the [screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: "X" (standard size), " " (current size).
 
 RACOMMIT
 
-Flag to indicate whether the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) terminates processing or not. Values: " " ( COMMIT WORK terminates processing), "X" (COMMIT WORK does not terminate processing).
+Flag to indicate whether the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit.htm) terminates processing or not. Values: " " ( COMMIT WORK terminates processing), "X" (COMMIT WORK does not terminate processing).
 
 NOBINPT
 
@@ -1394,14 +1394,14 @@ Addition 4  
 
 Effect
 
-Using this addition, all the [messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") sent during batch input processing are stored in an internal table itab of the line type BDCMSGCOLL from the ABAP Dictionary.
+Using this addition, all the [messages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm "Glossary Entry") sent during batch input processing are stored in an internal table itab of the line type BDCMSGCOLL from the ABAP Dictionary.
 
 Executable Example
 
-[Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
+[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_bdc_abexa.htm)
 
 Continue
-[CALL TRANSACTION, Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
+[CALL TRANSACTION, Batch Input Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table.htm)
 
 
 
@@ -1419,11 +1419,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [CALL TRANSACTION, USING](javascript:call_link\('abapcall_transaction_using.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) →  [CALL TRANSACTION, USING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_using.htm) → 
 
 CALL TRANSACTION, Batch Input Table
 
-A [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry") of the [line type](javascript:call_link\('abenrow_type_glosry.htm'\) "Glossary Entry") BDCDATA , which is specified after the addition USING of the statement [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) in [transaction](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry") calls, must have the following content, which is achieved by appending lines to an initial table in this order:
+A [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") of the [line type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrow_type_glosry.htm "Glossary Entry") BDCDATA , which is specified after the addition USING of the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) in [transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_glosry.htm "Glossary Entry") calls, must have the following content, which is achieved by appending lines to an initial table in this order:
 
 -   For each new dynpro, a new line with
     -   A program name in the column PROGRAM
@@ -1434,7 +1434,7 @@ A [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\)
     -   The name of the dynpro field in the column FNAM
     -   The value to be passed in the column FVAL
     
-    If the field is part of a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry") or [step loop](javascript:call_link\('abenstep_loop_glosry.htm'\) "Glossary Entry"), the desired line number must be appended to the field name. If the dynpro contains [subscreens](javascript:call_link\('abensubscreen_glosry.htm'\) "Glossary Entry"), their fields are assigned to the including dynpro. This can produce multiple fields with the same name, which are then all filled.
+    If the field is part of a [table control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_control_glosry.htm "Glossary Entry") or [step loop](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstep_loop_glosry.htm "Glossary Entry"), the desired line number must be appended to the field name. If the dynpro contains [subscreens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubscreen_glosry.htm "Glossary Entry"), their fields are assigned to the including dynpro. This can produce multiple fields with the same name, which are then all filled.
     
 -   If the cursor is to be positioned on a screen element
     
@@ -1452,11 +1452,11 @@ Any columns in a line that are not listed remain initial.
 Hints
 
 -   Transaction Recorder (transaction SHDB) records executed transactions as batch input tables. The resulting batch input tables can be displayed and edited. Programs and function modules can be generated for their use.
--   In [batch input folders](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry"), multiple field names of subscreens can be distinguished by specifying the special value "BDC\_SUBSCR in a preceding line in the column FNAM and in the column FVAL of the subscreen.
+-   In [batch input folders](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry"), multiple field names of subscreens can be distinguished by specifying the special value "BDC\_SUBSCR in a preceding line in the column FNAM and in the column FVAL of the subscreen.
 
 Executable Example
 
-[Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
+[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_bdc_abexa.htm)
 
 
 
@@ -1474,15 +1474,15 @@ Executable Example
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) → 
 
 CALL TRANSACTION, USING
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm)
 
 Syntax
 
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
+CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm)
                     USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
                                   *|*  *\[*OPTIONS FROM opt*\]* *}*
                                      *\[*MESSAGES INTO itab*\]*.
@@ -1496,13 +1496,13 @@ Additions:
 
 Effect
 
-In the variant with the addition USING, the transaction is executed using a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) are used to control the authorization check.
+In the variant with the addition USING, the transaction is executed using a [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) are used to control the authorization check.
 
 bdc\_tab expects an internal table with the line type BDCDATA from the ABAP Dictionary. The additions control its processing.
 
 When a transaction with the addition USING is called, the system field sy-binpt is set to the value "X" in the called program, and no other transaction can be called using this addition while this transaction is running.
 
-In a program, a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
+In a program, a [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
 
 Component
 
@@ -1522,13 +1522,13 @@ Flag for the start of a new dynpro (possible values are "X" and " ")
 
 FNAM
 
-Name of a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
+Name of a [dynpro field](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_field_glosry.htm "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
 
 FVAL
 
 Value to be passed to the dynpro field or to the control statement
 
-Using the [content](javascript:call_link\('abenbatch_input_table.htm'\)) of the internal table bdc\_tab, any number of screens of the called transaction can be provided with input and user actions.
+Using the [content](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table.htm) of the internal table bdc\_tab, any number of screens of the called transaction can be provided with input and user actions.
 
 System Fields
 
@@ -1542,7 +1542,7 @@ The called transaction was processed successfully.
 
 < 1000
 
-Error in the called transaction. If a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
+Error in the called transaction. If a [message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
 
 1001
 
@@ -1550,8 +1550,8 @@ Processing error.
 
 Hints
 
--   Calling a transaction using a batch input table is actually not the same as executing [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"). However, there is no exact dividing line between the two, since batch input-based frameworks, such as [CATT](javascript:call_link\('abencatt_glosry.htm'\) "Glossary Entry"), and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. As a result, they can use certain options that are not available in genuine batch input.
--   The control options for a batch input table include the control options for [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in real [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"), and sometimes exceed them.
+-   Calling a transaction using a batch input table is actually not the same as executing [batch input sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry"). However, there is no exact dividing line between the two, since batch input-based frameworks, such as [CATT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencatt_glosry.htm "Glossary Entry"), and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. As a result, they can use certain options that are not available in genuine batch input.
+-   The control options for a batch input table include the control options for [batch input sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in real [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry"), and sometimes exceed them.
 
 Example
 
@@ -1581,7 +1581,7 @@ Effect
 
 "A"
 
-Processing with display of the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry")
+Processing with display of the [screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry")
 
 "E"
 
@@ -1589,7 +1589,7 @@ Display of screens only if an error occurs
 
 "N"
 
-Processing without display of the screens. If a breakpoint is reached in one of the called [transactions](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. Then, the field sy-msgty contains "S", sy-msgid contains "00", sy-msgno contains "344", sy-msgv1 contains "SAPMSSY3", and sy-msgv2 contains "0131".
+Processing without display of the screens. If a breakpoint is reached in one of the called [transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_glosry.htm "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. Then, the field sy-msgty contains "S", sy-msgid contains "00", sy-msgno contains "344", sy-msgv1 contains "SAPMSSY3", and sy-msgv2 contains "0131".
 
 "P"
 
@@ -1613,7 +1613,7 @@ Effect
 
 "A"
 
-Asynchronous update. [Updates](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry") of the called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)).
+Asynchronous update. [Updates](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenupdate_glosry.htm "Glossary Entry") of the called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit.htm).
 
 "S"
 
@@ -1621,7 +1621,7 @@ Synchronous update. Updates of the called programs are executed in the same way 
 
 "L"
 
-Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](javascript:call_link\('abapset_update_task_local.htm'\)) had been executed in it.
+Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_update_task_local.htm) had been executed in it.
 
 Others
 
@@ -1629,7 +1629,7 @@ As for "A".
 
 Hint
 
-This option is not available for execution of [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"). Updates are always synchronous here.
+This option is not available for execution of [batch input sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry"). Updates are always synchronous here.
 
 Addition 3   
 
@@ -1653,15 +1653,15 @@ Update mode for processing. Values as for the addition UPDATE.
 
 CATTMODE
 
-[CATT](javascript:call_link\('abencatt_glosry.htm'\) "Glossary Entry") mode for processing. While [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry") is used mostly for data transfer, CATT processes are designed to be reusable tests of more complex [transactions](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry"). Values: " " (no CATT mode), "N" (CATT without single screen control), "A" (CATT with single screen control).
+[CATT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencatt_glosry.htm "Glossary Entry") mode for processing. While [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry") is used mostly for data transfer, CATT processes are designed to be reusable tests of more complex [transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_glosry.htm "Glossary Entry"). Values: " " (no CATT mode), "N" (CATT without single screen control), "A" (CATT with single screen control).
 
 DEFSIZE
 
-Flag to indicate whether the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: "X" (standard size), " " (current size).
+Flag to indicate whether the [screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: "X" (standard size), " " (current size).
 
 RACOMMIT
 
-Flag to indicate whether the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) terminates processing or not. Values: " " ( COMMIT WORK terminates processing), "X" (COMMIT WORK does not terminate processing).
+Flag to indicate whether the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit.htm) terminates processing or not. Values: " " ( COMMIT WORK terminates processing), "X" (COMMIT WORK does not terminate processing).
 
 NOBINPT
 
@@ -1679,14 +1679,14 @@ Addition 4  
 
 Effect
 
-Using this addition, all the [messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") sent during batch input processing are stored in an internal table itab of the line type BDCMSGCOLL from the ABAP Dictionary.
+Using this addition, all the [messages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm "Glossary Entry") sent during batch input processing are stored in an internal table itab of the line type BDCMSGCOLL from the ABAP Dictionary.
 
 Executable Example
 
-[Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
+[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_bdc_abexa.htm)
 
 Continue
-[CALL TRANSACTION, Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
+[CALL TRANSACTION, Batch Input Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table.htm)
 
 
 
@@ -1704,15 +1704,15 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) → 
 
 Transaction Call, Examples
 
 Continue
-![Example](exa.gif "Example") [Transaction Call, SPA/GPAParameters](javascript:call_link\('abencall_transaction_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, Report Transaction](javascript:call_link\('abencall_transaction_repo_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](javascript:call_link\('abencall_transaction_dialog_abexa.htm'\))
+![Example](exa.gif "Example") [Transaction Call, SPA/GPAParameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_bdc_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, Report Transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_repo_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_dialog_abexa.htm)
 
 
 
@@ -1730,7 +1730,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) →  [Transaction Call, Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactions_abexas.htm) → 
 
 Transaction Call, SPA/GPAParameters
 
@@ -1760,7 +1760,7 @@ START-OF-SELECTION.
 
 Description
 
-The transaction DEMO\_TRANSACTION displays the details for a flight uniquely identified by the airline and the flight number. It is called from main using the statement CALL TRANSACTION and filled with [SPA/GPA parameters](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry") as initial values using the statement SET PARAMETER.
+The transaction DEMO\_TRANSACTION displays the details for a flight uniquely identified by the airline and the flight number. It is called from main using the statement CALL TRANSACTION and filled with [SPA/GPA parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenspa_gpa_parameter_glosry.htm "Glossary Entry") as initial values using the statement SET PARAMETER.
 
 
 
@@ -1778,11 +1778,11 @@ The transaction DEMO\_TRANSACTION displays the details for a flight uniquely ide
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) →  [Transaction Call, Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactions_abexas.htm) → 
 
 Transaction Call, BDC Table
 
-This example demonstrates a transaction call using a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry").
+This example demonstrates a transaction call using a [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -1831,7 +1831,7 @@ Call of the Class Builder (transaction SE24) and display of the class CL\_ABAP\_
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) →  [Transaction Call, Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactions_abexas.htm) → 
 
 Transaction Call, Report Transaction
 
@@ -1874,7 +1874,7 @@ START-OF-SELECTION.
 
 Description
 
-When the assigned transaction DEMO\_REPORT\_TRANSACT is called, the executable program starts with the selection screen 500 in the same GUI window. Further processing is described in the executable example [Selection Screens, Calling Standalone Selection Screens](javascript:call_link\('abensel_screen_call_sel_scr_abexa.htm'\)).
+When the assigned transaction DEMO\_REPORT\_TRANSACT is called, the executable program starts with the selection screen 500 in the same GUI window. Further processing is described in the executable example [Selection Screens, Calling Standalone Selection Screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensel_screen_call_sel_scr_abexa.htm).
 
 
 
@@ -1892,7 +1892,7 @@ When the assigned transaction DEMO\_REPORT\_TRANSACT is called, the executable p
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) →  [Transaction Call, Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactions_abexas.htm) → 
 
 Transaction Call, Dialog Transaction
 
@@ -1939,15 +1939,15 @@ When the associated transaction DEMO\_SELSCREEN\_DYNP is called, the program sta
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) → 
 
 Transaction Call, Examples
 
 Continue
-![Example](exa.gif "Example") [Transaction Call, SPA/GPAParameters](javascript:call_link\('abencall_transaction_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, Report Transaction](javascript:call_link\('abencall_transaction_repo_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](javascript:call_link\('abencall_transaction_dialog_abexa.htm'\))
+![Example](exa.gif "Example") [Transaction Call, SPA/GPAParameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_bdc_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, Report Transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_repo_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_dialog_abexa.htm)
 
 
 ---
@@ -1977,56 +1977,56 @@ Included pages: 13
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) → 
 
 CALL TRANSACTION
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm)
 
 Syntax Forms
 
-[Simple transaction call](javascript:call_link\('abapcall_transaction_standard.htm'\))
-1\. CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) *\[*AND SKIP FIRST SCREEN*\]*.
-[Transaction call using batch input table](javascript:call_link\('abapcall_transaction_using.htm'\))
-2\. CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
+[Simple transaction call](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_standard.htm)
+1\. CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) *\[*AND SKIP FIRST SCREEN*\]*.
+[Transaction call using batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_using.htm)
+2\. CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm)
                       USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
                                     *|*  *\[*OPTIONS FROM opt*\]* *}*
                                        *\[*MESSAGES INTO itab*\]*.
 
 Effect
 
-The statement CALL TRANSACTION calls the [transaction](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry") whose transaction code is contained in the data object ta. The calling program and its data are preserved. After the transaction call, the program execution of the calling program is resumed after the statement CALL TRANSACTION. The data object ta must be character-like, flat and contain the transaction code in uppercase letters. The following can be specified for ta:
+The statement CALL TRANSACTION calls the [transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_glosry.htm "Glossary Entry") whose transaction code is contained in the data object ta. The calling program and its data are preserved. After the transaction call, the program execution of the calling program is resumed after the statement CALL TRANSACTION. The data object ta must be character-like, flat and contain the transaction code in uppercase letters. The following can be specified for ta:
 
 -   Literal or constant
     
-    If the data object ta is specified as a [text field literal](javascript:call_link\('abentext_field_literal_glosry.htm'\) "Glossary Entry") or as a [constant](javascript:call_link\('abenconstant_glosry.htm'\) "Glossary Entry"), it is evaluated as a static specification by tools such as the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry") or the where-used list.
+    If the data object ta is specified as a [text field literal](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_field_literal_glosry.htm "Glossary Entry") or as a [constant](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstant_glosry.htm "Glossary Entry"), it is evaluated as a static specification by tools such as the [extended program check](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextended_program_check_glosry.htm "Glossary Entry") or the where-used list.
     
 -   Variable
     
-    If the data object ta is specified as a [variable](javascript:call_link\('abenvariable_glosry.htm'\) "Glossary Entry"), it is specified only dynamically, and the content is not evaluated statically.
+    If the data object ta is specified as a [variable](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvariable_glosry.htm "Glossary Entry"), it is specified only dynamically, and the content is not evaluated statically.
     
 
 When the statement is executed, ta is not evaluated until runtime in both cases. If the transaction specified in ta is not found, a uncatchable exception is raised.
 
--   In the [first variant](javascript:call_link\('abapcall_transaction_standard.htm'\)), the display of the initial dynpro can be suppressed.
--   In the [second variant](javascript:call_link\('abapcall_transaction_using.htm'\)), the transaction is controlled by a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry").
+-   In the [first variant](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_standard.htm), the display of the initial dynpro can be suppressed.
+-   In the [second variant](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_using.htm), the transaction is controlled by a [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry").
 
-In both variants, an [authorization check](javascript:call_link\('abenauthorization_check_glosry.htm'\) "Glossary Entry") can be performed for the called transaction.
+In both variants, an [authorization check](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_check_glosry.htm "Glossary Entry") can be performed for the called transaction.
 
-When the transaction is called, the ABAP program linked to the transaction code is loaded in a new [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of the current [call sequence](javascript:call_link\('abencall_sequence_glosry.htm'\) "Glossary Entry"). The session of the calling program and the current [SAP LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry") are retained. The called program runs in its own SAP LUW.
+When the transaction is called, the ABAP program linked to the transaction code is loaded in a new [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry") of the current [call sequence](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_sequence_glosry.htm "Glossary Entry"). The session of the calling program and the current [SAP LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_luw_glosry.htm "Glossary Entry") are retained. The called program runs in its own SAP LUW.
 
--   If the called transaction is a dialog transaction, the event [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) is raised after the ABAP program is loaded and the [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") defined as the initial dynpro of the transaction is called. The initial dynpro is the first dynpro of a [dynpro sequence](javascript:call_link\('abendynpro_sequence_glosry.htm'\) "Glossary Entry"). The transaction is finished when the dynpro sequence is ended by encountering the next dynpro with dynpro number 0 or when the program is exited using the statement [LEAVE PROGRAM](javascript:call_link\('abapleave_program.htm'\)).
--   If the called transaction is an [OO transaction](javascript:call_link\('abenoo_transaction_glosry.htm'\) "Glossary Entry"), then, after all programs other than [class pools](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") are loaded, the event LOAD-OF-PROGRAM is raised and the method linked to the transaction code is called. If the method is an instance method, an object of the corresponding class is generated implicitly and referenced by the runtime framework. The transaction is finished when the method is finished or when the program is exited using the statement LEAVE PROGRAM.
+-   If the called transaction is a dialog transaction, the event [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapload-of-program.htm) is raised after the ABAP program is loaded and the [dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_glosry.htm "Glossary Entry") defined as the initial dynpro of the transaction is called. The initial dynpro is the first dynpro of a [dynpro sequence](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_sequence_glosry.htm "Glossary Entry"). The transaction is finished when the dynpro sequence is ended by encountering the next dynpro with dynpro number 0 or when the program is exited using the statement [LEAVE PROGRAM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapleave_program.htm).
+-   If the called transaction is an [OO transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoo_transaction_glosry.htm "Glossary Entry"), then, after all programs other than [class pools](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_pool_glosry.htm "Glossary Entry") are loaded, the event LOAD-OF-PROGRAM is raised and the method linked to the transaction code is called. If the method is an instance method, an object of the corresponding class is generated implicitly and referenced by the runtime framework. The transaction is finished when the method is finished or when the program is exited using the statement LEAVE PROGRAM.
 
 Hints
 
--   CALL TRANSACTION does not end the current [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry"). A [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") or [database rollback](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") in the called program has the same effect as in the current program.
--   The statement CALL TRANSACTION opens a new [SAP LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry"), but it does not open a new [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry"). This means that a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry") in this SAP LUW, in particular, can roll back all registration entries made by the statements [CALL FUNCTION IN UPDATE TASK](javascript:call_link\('abapcall_function_update.htm'\)) or [CALL FUNCTION IN BACKGROUND TASK](javascript:call_link\('abapcall_function_background_task.htm'\)) in the tables VB... or ARFCSSTATE and ARFCSDATA. The statement [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) in the called program may also affect the interrupted SAP LUW under certain circumstances. To prevent this, an explicit [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") must be executed before the program is called. This problem does not occur during [local updates](javascript:call_link\('abenlocal_update_glosry.htm'\) "Glossary Entry").
--   The number of internal sessions in a [call sequence](javascript:call_link\('abencall_sequence_glosry.htm'\) "Glossary Entry") is restricted to nine. If this is exceeded by CALL TRANSACTION, the program is terminated and the entire call sequence is deleted.
+-   CALL TRANSACTION does not end the current [database LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). A [database commit](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_commit_glosry.htm "Glossary Entry") or [database rollback](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_commit_glosry.htm "Glossary Entry") in the called program has the same effect as in the current program.
+-   The statement CALL TRANSACTION opens a new [SAP LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensap_luw_glosry.htm "Glossary Entry"), but it does not open a new [database LUW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). This means that a [database rollback](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_rollback_glosry.htm "Glossary Entry") in this SAP LUW, in particular, can roll back all registration entries made by the statements [CALL FUNCTION IN UPDATE TASK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_update.htm) or [CALL FUNCTION IN BACKGROUND TASK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_function_background_task.htm) in the tables VB... or ARFCSSTATE and ARFCSDATA. The statement [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaprollback.htm) in the called program may also affect the interrupted SAP LUW under certain circumstances. To prevent this, an explicit [database commit](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_commit_glosry.htm "Glossary Entry") must be executed before the program is called. This problem does not occur during [local updates](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlocal_update_glosry.htm "Glossary Entry").
+-   The number of internal sessions in a [call sequence](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_sequence_glosry.htm "Glossary Entry") is restricted to nine. If this is exceeded by CALL TRANSACTION, the program is terminated and the entire call sequence is deleted.
 
 Security Hint
 
-If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, this a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](javascript:call_link\('abendyn_call_scrty.htm'\)).
+If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, this a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendyn_call_scrty.htm).
 
 Example
 
@@ -2040,9 +2040,9 @@ ENDTRY.
 
 Executable Examples
 
-[Transaction Call - Examples](javascript:call_link\('abentransactions_abexas.htm'\))
+[Transaction Call - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactions_abexas.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -2066,9 +2066,9 @@ Uncatchable Exceptions
     
 
 Continue
-[CALL TRANSACTION, standard](javascript:call_link\('abapcall_transaction_standard.htm'\))
-[CALL TRANSACTION, USING](javascript:call_link\('abapcall_transaction_using.htm'\))
-[Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\))
+[CALL TRANSACTION, standard](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_standard.htm)
+[CALL TRANSACTION, USING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_using.htm)
+[Transaction Call, Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactions_abexas.htm)
 
 
 
@@ -2086,15 +2086,15 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) → 
 
 CALL TRANSACTION, standard
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm)
 
 Syntax
 
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) *\[*AND SKIP FIRST SCREEN*\]*.
+CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) *\[*AND SKIP FIRST SCREEN*\]*.
 
 Addition:
 
@@ -2102,7 +2102,7 @@ Addition:
 
 Effect
 
-This variant calls the version specified in ta as described under the statement [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) are used to control the authorization check. AND SKIP FIRST SCREEN can be used to suppress the initial screen.
+This variant calls the version specified in ta as described under the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) are used to control the authorization check. AND SKIP FIRST SCREEN can be used to suppress the initial screen.
 
 Hint
 
@@ -2114,12 +2114,12 @@ Addition  
 
 Effect
 
-This addition can be used to suppress the display of a [screen layout](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of the initial dynpro of a called dialog transaction. The addition AND SKIP FIRST SCREEN suppresses the first screen only under the following prerequisites:
+This addition can be used to suppress the display of a [screen layout](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry") of the initial dynpro of a called dialog transaction. The addition AND SKIP FIRST SCREEN suppresses the first screen only under the following prerequisites:
 
--   For the initial dynpro, its own dynpro number must not be entered as the static next dynpro in [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry").
--   All mandatory input fields of the initial dynpro must be filled completely and with the correct values by the [SPA/GPA parameters](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry").
+-   For the initial dynpro, its own dynpro number must not be entered as the static next dynpro in [Screen Painter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_painter_glosry.htm "Glossary Entry").
+-   All mandatory input fields of the initial dynpro must be filled completely and with the correct values by the [SPA/GPA parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenspa_gpa_parameter_glosry.htm "Glossary Entry").
 
-If these prerequisites are met, the screen of the dynpro is displayed that is specified in the Screen Painter as the [next dynpro](javascript:call_link\('abennext_dynpro_glosry.htm'\) "Glossary Entry") of the initial dynpro.
+If these prerequisites are met, the screen of the dynpro is displayed that is specified in the Screen Painter as the [next dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennext_dynpro_glosry.htm "Glossary Entry") of the initial dynpro.
 
 Example
 
@@ -2138,7 +2138,7 @@ TRY.
 ENDTRY.
 
 Continue
-[CALL TRANSACTION, AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
+[CALL TRANSACTION, AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm)
 
 
 
@@ -2156,11 +2156,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [CALL TRANSACTION, standard](javascript:call_link\('abapcall_transaction_standard.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) →  [CALL TRANSACTION, standard](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_standard.htm) → 
 
 CALL TRANSACTION, AUTHORITY-CHECK
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm)
 
 Syntax
 
@@ -2173,11 +2173,11 @@ Additions:
 
 Effect
 
-These additions control the authorization checks when the statement [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) is executed.
+These additions control the authorization checks when the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) is executed.
 
 Hint
 
-The use of the statement CALL TRANSACTION without one of the additions WITH AUTHORITY-CHECK or WITHOUT AUTHORITY-CHECK is [obsolete](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)).
+The use of the statement CALL TRANSACTION without one of the additions WITH AUTHORITY-CHECK or WITHOUT AUTHORITY-CHECK is [obsolete](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_auth_obs.htm).
 
 Addition 1   
 
@@ -2185,7 +2185,7 @@ Addition 1  
 
 Effect
 
-If this addition is specified, the authorization of the current user to execute the called transaction is checked using the following [authorization objects](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") before the transaction call is executed:
+If this addition is specified, the authorization of the current user to execute the called transaction is checked using the following [authorization objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenauthorization_object_glosry.htm "Glossary Entry") before the transaction call is executed:
 
 -   The authorization object S\_TCODE.
 -   Any authorization object specified in the definition of the transaction code (transaction SE93). Fields of the authorization object for which no value is specified here are not checked.
@@ -2194,7 +2194,7 @@ If no authorization exists, a catchable exception of the class CX\_SY\_AUTHORIZA
 
 Hint
 
-The use of the addition WITH AUTHORITY-CHECK is the recommended method of checking the authorizations of the current user. It replaces the preceding checks using the statement [AUTHORITY-CHECK](javascript:call_link\('abapauthority-check_shortref.htm'\)), the function module AUTHORITY\_CHECK\_TCODE, and checks that depend on the content of the DDIC database table [TCDCOUPLES](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)).
+The use of the addition WITH AUTHORITY-CHECK is the recommended method of checking the authorizations of the current user. It replaces the preceding checks using the statement [AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapauthority-check_shortref.htm), the function module AUTHORITY\_CHECK\_TCODE, and checks that depend on the content of the DDIC database table [TCDCOUPLES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_auth_obs.htm).
 
 Addition 2   
 
@@ -2206,8 +2206,8 @@ If this addition is specified, the authorization of the current user to execute 
 
 Hints
 
--   The addition WITHOUT AUTHORITY-CHECK indicates explicitly that no authorization check is necessary for the transaction call. It prevents the corresponding error message from the security test in the [extended program checks](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry").
--   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the DDIC database table [TCDCOUPLES](javascript:call_link\('abapcall_transaction_auth_obs.htm'\)) is ignored.
+-   The addition WITHOUT AUTHORITY-CHECK indicates explicitly that no authorization check is necessary for the transaction call. It prevents the corresponding error message from the security test in the [extended program checks](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextended_program_check_glosry.htm "Glossary Entry").
+-   If the addition WITHOUT AUTHORITY-CHECK is specified, the content of the DDIC database table [TCDCOUPLES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_auth_obs.htm) is ignored.
 
 
 
@@ -2225,15 +2225,15 @@ Hints
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) → 
 
 CALL TRANSACTION, standard
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm)
 
 Syntax
 
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) *\[*AND SKIP FIRST SCREEN*\]*.
+CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) *\[*AND SKIP FIRST SCREEN*\]*.
 
 Addition:
 
@@ -2241,7 +2241,7 @@ Addition:
 
 Effect
 
-This variant calls the version specified in ta as described under the statement [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) are used to control the authorization check. AND SKIP FIRST SCREEN can be used to suppress the initial screen.
+This variant calls the version specified in ta as described under the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) are used to control the authorization check. AND SKIP FIRST SCREEN can be used to suppress the initial screen.
 
 Hint
 
@@ -2253,12 +2253,12 @@ Addition  
 
 Effect
 
-This addition can be used to suppress the display of a [screen layout](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of the initial dynpro of a called dialog transaction. The addition AND SKIP FIRST SCREEN suppresses the first screen only under the following prerequisites:
+This addition can be used to suppress the display of a [screen layout](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry") of the initial dynpro of a called dialog transaction. The addition AND SKIP FIRST SCREEN suppresses the first screen only under the following prerequisites:
 
--   For the initial dynpro, its own dynpro number must not be entered as the static next dynpro in [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry").
--   All mandatory input fields of the initial dynpro must be filled completely and with the correct values by the [SPA/GPA parameters](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry").
+-   For the initial dynpro, its own dynpro number must not be entered as the static next dynpro in [Screen Painter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_painter_glosry.htm "Glossary Entry").
+-   All mandatory input fields of the initial dynpro must be filled completely and with the correct values by the [SPA/GPA parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenspa_gpa_parameter_glosry.htm "Glossary Entry").
 
-If these prerequisites are met, the screen of the dynpro is displayed that is specified in the Screen Painter as the [next dynpro](javascript:call_link\('abennext_dynpro_glosry.htm'\) "Glossary Entry") of the initial dynpro.
+If these prerequisites are met, the screen of the dynpro is displayed that is specified in the Screen Painter as the [next dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennext_dynpro_glosry.htm "Glossary Entry") of the initial dynpro.
 
 Example
 
@@ -2277,7 +2277,7 @@ TRY.
 ENDTRY.
 
 Continue
-[CALL TRANSACTION, AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
+[CALL TRANSACTION, AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm)
 
 
 
@@ -2295,15 +2295,15 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) → 
 
 CALL TRANSACTION, USING
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm)
 
 Syntax
 
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
+CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm)
                     USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
                                   *|*  *\[*OPTIONS FROM opt*\]* *}*
                                      *\[*MESSAGES INTO itab*\]*.
@@ -2317,13 +2317,13 @@ Additions:
 
 Effect
 
-In the variant with the addition USING, the transaction is executed using a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) are used to control the authorization check.
+In the variant with the addition USING, the transaction is executed using a [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) are used to control the authorization check.
 
 bdc\_tab expects an internal table with the line type BDCDATA from the ABAP Dictionary. The additions control its processing.
 
 When a transaction with the addition USING is called, the system field sy-binpt is set to the value "X" in the called program, and no other transaction can be called using this addition while this transaction is running.
 
-In a program, a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
+In a program, a [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
 
 Component
 
@@ -2343,13 +2343,13 @@ Flag for the start of a new dynpro (possible values are "X" and " ")
 
 FNAM
 
-Name of a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
+Name of a [dynpro field](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_field_glosry.htm "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
 
 FVAL
 
 Value to be passed to the dynpro field or to the control statement
 
-Using the [content](javascript:call_link\('abenbatch_input_table.htm'\)) of the internal table bdc\_tab, any number of screens of the called transaction can be provided with input and user actions.
+Using the [content](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table.htm) of the internal table bdc\_tab, any number of screens of the called transaction can be provided with input and user actions.
 
 System Fields
 
@@ -2363,7 +2363,7 @@ The called transaction was processed successfully.
 
 < 1000
 
-Error in the called transaction. If a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
+Error in the called transaction. If a [message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
 
 1001
 
@@ -2371,8 +2371,8 @@ Processing error.
 
 Hints
 
--   Calling a transaction using a batch input table is actually not the same as executing [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"). However, there is no exact dividing line between the two, since batch input-based frameworks, such as [CATT](javascript:call_link\('abencatt_glosry.htm'\) "Glossary Entry"), and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. As a result, they can use certain options that are not available in genuine batch input.
--   The control options for a batch input table include the control options for [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in real [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"), and sometimes exceed them.
+-   Calling a transaction using a batch input table is actually not the same as executing [batch input sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry"). However, there is no exact dividing line between the two, since batch input-based frameworks, such as [CATT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencatt_glosry.htm "Glossary Entry"), and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. As a result, they can use certain options that are not available in genuine batch input.
+-   The control options for a batch input table include the control options for [batch input sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in real [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry"), and sometimes exceed them.
 
 Example
 
@@ -2402,7 +2402,7 @@ Effect
 
 "A"
 
-Processing with display of the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry")
+Processing with display of the [screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry")
 
 "E"
 
@@ -2410,7 +2410,7 @@ Display of screens only if an error occurs
 
 "N"
 
-Processing without display of the screens. If a breakpoint is reached in one of the called [transactions](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. Then, the field sy-msgty contains "S", sy-msgid contains "00", sy-msgno contains "344", sy-msgv1 contains "SAPMSSY3", and sy-msgv2 contains "0131".
+Processing without display of the screens. If a breakpoint is reached in one of the called [transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_glosry.htm "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. Then, the field sy-msgty contains "S", sy-msgid contains "00", sy-msgno contains "344", sy-msgv1 contains "SAPMSSY3", and sy-msgv2 contains "0131".
 
 "P"
 
@@ -2434,7 +2434,7 @@ Effect
 
 "A"
 
-Asynchronous update. [Updates](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry") of the called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)).
+Asynchronous update. [Updates](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenupdate_glosry.htm "Glossary Entry") of the called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit.htm).
 
 "S"
 
@@ -2442,7 +2442,7 @@ Synchronous update. Updates of the called programs are executed in the same way 
 
 "L"
 
-Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](javascript:call_link\('abapset_update_task_local.htm'\)) had been executed in it.
+Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_update_task_local.htm) had been executed in it.
 
 Others
 
@@ -2450,7 +2450,7 @@ As for "A".
 
 Hint
 
-This option is not available for execution of [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"). Updates are always synchronous here.
+This option is not available for execution of [batch input sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry"). Updates are always synchronous here.
 
 Addition 3   
 
@@ -2474,15 +2474,15 @@ Update mode for processing. Values as for the addition UPDATE.
 
 CATTMODE
 
-[CATT](javascript:call_link\('abencatt_glosry.htm'\) "Glossary Entry") mode for processing. While [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry") is used mostly for data transfer, CATT processes are designed to be reusable tests of more complex [transactions](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry"). Values: " " (no CATT mode), "N" (CATT without single screen control), "A" (CATT with single screen control).
+[CATT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencatt_glosry.htm "Glossary Entry") mode for processing. While [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry") is used mostly for data transfer, CATT processes are designed to be reusable tests of more complex [transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_glosry.htm "Glossary Entry"). Values: " " (no CATT mode), "N" (CATT without single screen control), "A" (CATT with single screen control).
 
 DEFSIZE
 
-Flag to indicate whether the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: "X" (standard size), " " (current size).
+Flag to indicate whether the [screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: "X" (standard size), " " (current size).
 
 RACOMMIT
 
-Flag to indicate whether the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) terminates processing or not. Values: " " ( COMMIT WORK terminates processing), "X" (COMMIT WORK does not terminate processing).
+Flag to indicate whether the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit.htm) terminates processing or not. Values: " " ( COMMIT WORK terminates processing), "X" (COMMIT WORK does not terminate processing).
 
 NOBINPT
 
@@ -2500,14 +2500,14 @@ Addition 4  
 
 Effect
 
-Using this addition, all the [messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") sent during batch input processing are stored in an internal table itab of the line type BDCMSGCOLL from the ABAP Dictionary.
+Using this addition, all the [messages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm "Glossary Entry") sent during batch input processing are stored in an internal table itab of the line type BDCMSGCOLL from the ABAP Dictionary.
 
 Executable Example
 
-[Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
+[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_bdc_abexa.htm)
 
 Continue
-[CALL TRANSACTION, Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
+[CALL TRANSACTION, Batch Input Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table.htm)
 
 
 
@@ -2525,11 +2525,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [CALL TRANSACTION, USING](javascript:call_link\('abapcall_transaction_using.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) →  [CALL TRANSACTION, USING](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_using.htm) → 
 
 CALL TRANSACTION, Batch Input Table
 
-A [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry") of the [line type](javascript:call_link\('abenrow_type_glosry.htm'\) "Glossary Entry") BDCDATA , which is specified after the addition USING of the statement [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) in [transaction](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry") calls, must have the following content, which is achieved by appending lines to an initial table in this order:
+A [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") of the [line type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrow_type_glosry.htm "Glossary Entry") BDCDATA , which is specified after the addition USING of the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) in [transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_glosry.htm "Glossary Entry") calls, must have the following content, which is achieved by appending lines to an initial table in this order:
 
 -   For each new dynpro, a new line with
     -   A program name in the column PROGRAM
@@ -2540,7 +2540,7 @@ A [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\)
     -   The name of the dynpro field in the column FNAM
     -   The value to be passed in the column FVAL
     
-    If the field is part of a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry") or [step loop](javascript:call_link\('abenstep_loop_glosry.htm'\) "Glossary Entry"), the desired line number must be appended to the field name. If the dynpro contains [subscreens](javascript:call_link\('abensubscreen_glosry.htm'\) "Glossary Entry"), their fields are assigned to the including dynpro. This can produce multiple fields with the same name, which are then all filled.
+    If the field is part of a [table control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_control_glosry.htm "Glossary Entry") or [step loop](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstep_loop_glosry.htm "Glossary Entry"), the desired line number must be appended to the field name. If the dynpro contains [subscreens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubscreen_glosry.htm "Glossary Entry"), their fields are assigned to the including dynpro. This can produce multiple fields with the same name, which are then all filled.
     
 -   If the cursor is to be positioned on a screen element
     
@@ -2558,11 +2558,11 @@ Any columns in a line that are not listed remain initial.
 Hints
 
 -   Transaction Recorder (transaction SHDB) records executed transactions as batch input tables. The resulting batch input tables can be displayed and edited. Programs and function modules can be generated for their use.
--   In [batch input folders](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry"), multiple field names of subscreens can be distinguished by specifying the special value "BDC\_SUBSCR in a preceding line in the column FNAM and in the column FVAL of the subscreen.
+-   In [batch input folders](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry"), multiple field names of subscreens can be distinguished by specifying the special value "BDC\_SUBSCR in a preceding line in the column FNAM and in the column FVAL of the subscreen.
 
 Executable Example
 
-[Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
+[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_bdc_abexa.htm)
 
 
 
@@ -2580,15 +2580,15 @@ Executable Example
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) → 
 
 CALL TRANSACTION, USING
 
-[Short Reference](javascript:call_link\('abapcall_transaction_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_shortref.htm)
 
 Syntax
 
-CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\))
+CALL TRANSACTION ta [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm)
                     USING bdc\_tab *{* *{**\[*MODE mode*\]* *\[*UPDATE upd*\]**}*
                                   *|*  *\[*OPTIONS FROM opt*\]* *}*
                                      *\[*MESSAGES INTO itab*\]*.
@@ -2602,13 +2602,13 @@ Additions:
 
 Effect
 
-In the variant with the addition USING, the transaction is executed using a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](javascript:call_link\('abapcall_transaction_authority.htm'\)) are used to control the authorization check.
+In the variant with the addition USING, the transaction is executed using a [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry"). The transaction is called as described under [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm). The additions [WITH*|*WITHOUT AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction_authority.htm) are used to control the authorization check.
 
 bdc\_tab expects an internal table with the line type BDCDATA from the ABAP Dictionary. The additions control its processing.
 
 When a transaction with the addition USING is called, the system field sy-binpt is set to the value "X" in the called program, and no other transaction can be called using this addition while this transaction is running.
 
-In a program, a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
+In a program, a [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") bdc\_tab is the internal representation of a subset of a [batch input session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") and must be filled accordingly. The structure BDCDATA has the components shown in the table below.
 
 Component
 
@@ -2628,13 +2628,13 @@ Flag for the start of a new dynpro (possible values are "X" and " ")
 
 FNAM
 
-Name of a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
+Name of a [dynpro field](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_field_glosry.htm "Glossary Entry") to be filled or batch input control statement, for example to position the cursor
 
 FVAL
 
 Value to be passed to the dynpro field or to the control statement
 
-Using the [content](javascript:call_link\('abenbatch_input_table.htm'\)) of the internal table bdc\_tab, any number of screens of the called transaction can be provided with input and user actions.
+Using the [content](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table.htm) of the internal table bdc\_tab, any number of screens of the called transaction can be provided with input and user actions.
 
 System Fields
 
@@ -2648,7 +2648,7 @@ The called transaction was processed successfully.
 
 < 1000
 
-Error in the called transaction. If a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
+Error in the called transaction. If a [message](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm "Glossary Entry") was sent within the transaction, it can be received using the addition MESSAGES.
 
 1001
 
@@ -2656,8 +2656,8 @@ Processing error.
 
 Hints
 
--   Calling a transaction using a batch input table is actually not the same as executing [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"). However, there is no exact dividing line between the two, since batch input-based frameworks, such as [CATT](javascript:call_link\('abencatt_glosry.htm'\) "Glossary Entry"), and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. As a result, they can use certain options that are not available in genuine batch input.
--   The control options for a batch input table include the control options for [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in real [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"), and sometimes exceed them.
+-   Calling a transaction using a batch input table is actually not the same as executing [batch input sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry"). However, there is no exact dividing line between the two, since batch input-based frameworks, such as [CATT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencatt_glosry.htm "Glossary Entry"), and batch input management sometimes also execute the statement CALL TRANSACTION USING internally. As a result, they can use certain options that are not available in genuine batch input.
+-   The control options for a batch input table include the control options for [batch input sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in real [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry"), and sometimes exceed them.
 
 Example
 
@@ -2687,7 +2687,7 @@ Effect
 
 "A"
 
-Processing with display of the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry")
+Processing with display of the [screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry")
 
 "E"
 
@@ -2695,7 +2695,7 @@ Display of screens only if an error occurs
 
 "N"
 
-Processing without display of the screens. If a breakpoint is reached in one of the called [transactions](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. Then, the field sy-msgty contains "S", sy-msgid contains "00", sy-msgno contains "344", sy-msgv1 contains "SAPMSSY3", and sy-msgv2 contains "0131".
+Processing without display of the screens. If a breakpoint is reached in one of the called [transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_glosry.htm "Glossary Entry"), processing is terminated with sy-subrc equal to 1001. Then, the field sy-msgty contains "S", sy-msgid contains "00", sy-msgno contains "344", sy-msgv1 contains "SAPMSSY3", and sy-msgv2 contains "0131".
 
 "P"
 
@@ -2719,7 +2719,7 @@ Effect
 
 "A"
 
-Asynchronous update. [Updates](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry") of the called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)).
+Asynchronous update. [Updates](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenupdate_glosry.htm "Glossary Entry") of the called programs are executed in the same way as if the addition AND WAIT were not specified in the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit.htm).
 
 "S"
 
@@ -2727,7 +2727,7 @@ Synchronous update. Updates of the called programs are executed in the same way 
 
 "L"
 
-Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](javascript:call_link\('abapset_update_task_local.htm'\)) had been executed in it.
+Local updates. Updates of the called program are executed in the same way as if the statement [SET UPDATE TASK LOCAL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_update_task_local.htm) had been executed in it.
 
 Others
 
@@ -2735,7 +2735,7 @@ As for "A".
 
 Hint
 
-This option is not available for execution of [batch input sessions](javascript:call_link\('abenbatch_input_session_glosry.htm'\) "Glossary Entry") in [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry"). Updates are always synchronous here.
+This option is not available for execution of [batch input sessions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_session_glosry.htm "Glossary Entry") in [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry"). Updates are always synchronous here.
 
 Addition 3   
 
@@ -2759,15 +2759,15 @@ Update mode for processing. Values as for the addition UPDATE.
 
 CATTMODE
 
-[CATT](javascript:call_link\('abencatt_glosry.htm'\) "Glossary Entry") mode for processing. While [batch input](javascript:call_link\('abenbatch_input_glosry.htm'\) "Glossary Entry") is used mostly for data transfer, CATT processes are designed to be reusable tests of more complex [transactions](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry"). Values: " " (no CATT mode), "N" (CATT without single screen control), "A" (CATT with single screen control).
+[CATT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencatt_glosry.htm "Glossary Entry") mode for processing. While [batch input](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_glosry.htm "Glossary Entry") is used mostly for data transfer, CATT processes are designed to be reusable tests of more complex [transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransaction_glosry.htm "Glossary Entry"). Values: " " (no CATT mode), "N" (CATT without single screen control), "A" (CATT with single screen control).
 
 DEFSIZE
 
-Flag to indicate whether the [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: "X" (standard size), " " (current size).
+Flag to indicate whether the [screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry") of the called transaction are displayed in the standard screen size. Values: "X" (standard size), " " (current size).
 
 RACOMMIT
 
-Flag to indicate whether the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) terminates processing or not. Values: " " ( COMMIT WORK terminates processing), "X" (COMMIT WORK does not terminate processing).
+Flag to indicate whether the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcommit.htm) terminates processing or not. Values: " " ( COMMIT WORK terminates processing), "X" (COMMIT WORK does not terminate processing).
 
 NOBINPT
 
@@ -2785,14 +2785,14 @@ Addition 4  
 
 Effect
 
-Using this addition, all the [messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") sent during batch input processing are stored in an internal table itab of the line type BDCMSGCOLL from the ABAP Dictionary.
+Using this addition, all the [messages](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmessage_glosry.htm "Glossary Entry") sent during batch input processing are stored in an internal table itab of the line type BDCMSGCOLL from the ABAP Dictionary.
 
 Executable Example
 
-[Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
+[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_bdc_abexa.htm)
 
 Continue
-[CALL TRANSACTION, Batch Input Table](javascript:call_link\('abenbatch_input_table.htm'\))
+[CALL TRANSACTION, Batch Input Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table.htm)
 
 
 
@@ -2810,15 +2810,15 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) → 
 
 Transaction Call, Examples
 
 Continue
-![Example](exa.gif "Example") [Transaction Call, SPA/GPAParameters](javascript:call_link\('abencall_transaction_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, Report Transaction](javascript:call_link\('abencall_transaction_repo_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](javascript:call_link\('abencall_transaction_dialog_abexa.htm'\))
+![Example](exa.gif "Example") [Transaction Call, SPA/GPAParameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_bdc_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, Report Transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_repo_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_dialog_abexa.htm)
 
 
 
@@ -2836,7 +2836,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) →  [Transaction Call, Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactions_abexas.htm) → 
 
 Transaction Call, SPA/GPAParameters
 
@@ -2866,7 +2866,7 @@ START-OF-SELECTION.
 
 Description
 
-The transaction DEMO\_TRANSACTION displays the details for a flight uniquely identified by the airline and the flight number. It is called from main using the statement CALL TRANSACTION and filled with [SPA/GPA parameters](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry") as initial values using the statement SET PARAMETER.
+The transaction DEMO\_TRANSACTION displays the details for a flight uniquely identified by the airline and the flight number. It is called from main using the statement CALL TRANSACTION and filled with [SPA/GPA parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenspa_gpa_parameter_glosry.htm "Glossary Entry") as initial values using the statement SET PARAMETER.
 
 
 
@@ -2884,11 +2884,11 @@ The transaction DEMO\_TRANSACTION displays the details for a flight uniquely ide
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) →  [Transaction Call, Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactions_abexas.htm) → 
 
 Transaction Call, BDC Table
 
-This example demonstrates a transaction call using a [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry").
+This example demonstrates a transaction call using a [batch input table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbatch_input_table_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -2937,7 +2937,7 @@ Call of the Class Builder (transaction SE24) and display of the class CL\_ABAP\_
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) →  [Transaction Call, Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactions_abexas.htm) → 
 
 Transaction Call, Report Transaction
 
@@ -2980,7 +2980,7 @@ START-OF-SELECTION.
 
 Description
 
-When the assigned transaction DEMO\_REPORT\_TRANSACT is called, the executable program starts with the selection screen 500 in the same GUI window. Further processing is described in the executable example [Selection Screens, Calling Standalone Selection Screens](javascript:call_link\('abensel_screen_call_sel_scr_abexa.htm'\)).
+When the assigned transaction DEMO\_REPORT\_TRANSACT is called, the executable program starts with the selection screen 500 in the same GUI window. Further processing is described in the executable example [Selection Screens, Calling Standalone Selection Screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensel_screen_call_sel_scr_abexa.htm).
 
 
 
@@ -2998,7 +2998,7 @@ When the assigned transaction DEMO\_REPORT\_TRANSACT is called, the executable p
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [Transaction Call, Examples](javascript:call_link\('abentransactions_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) →  [Transaction Call, Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransactions_abexas.htm) → 
 
 Transaction Call, Dialog Transaction
 
@@ -3045,15 +3045,15 @@ When the associated transaction DEMO\_SELSCREEN\_DYNP is called, the program sta
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transaction.htm) → 
 
 Transaction Call, Examples
 
 Continue
-![Example](exa.gif "Example") [Transaction Call, SPA/GPAParameters](javascript:call_link\('abencall_transaction_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, Report Transaction](javascript:call_link\('abencall_transaction_repo_abexa.htm'\))
-![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](javascript:call_link\('abencall_transaction_dialog_abexa.htm'\))
+![Example](exa.gif "Example") [Transaction Call, SPA/GPAParameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_bdc_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, Report Transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_repo_abexa.htm)
+![Example](exa.gif "Example") [Transaction Call, Dialog Transaction](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencall_transaction_dialog_abexa.htm)
 
 
 ---
@@ -3083,21 +3083,21 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_expr_func.htm) → 
 
 Logical Functions
 
-Logical functions are a part of [built-in functions](javascript:call_link\('abenbuilt_in_functions.htm'\)). They are divided into:
+Logical functions are a part of [built-in functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_functions.htm). They are divided into:
 
--   [Boolean functions](javascript:call_link\('abenboole_functions.htm'\))
--   [Predicate functions](javascript:call_link\('abenpredicate_functions.htm'\))
+-   [Boolean functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenboole_functions.htm)
+-   [Predicate functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_functions.htm)
 
 Hint
 
 The program DEMO\_EXPRESSIONS shows examples of how to use logical functions.
 
 Continue
-[boolc, boolx, xsdbool, Boolean Functions](javascript:call_link\('abenboole_functions.htm'\))
+[boolc, boolx, xsdbool, Boolean Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenboole_functions.htm)
 
 
 
@@ -3115,7 +3115,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [Logical Functions](javascript:call_link\('abenlogic_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_expr_func.htm) →  [Logical Functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogic_functions.htm) → 
 
 boolc, boolx, xsdbool, Boolean Functions
 
@@ -3127,7 +3127,7 @@ Variants:
 
 Effect
 
-The [built-in](javascript:call_link\('abenbuilt_in_functions.htm'\)) Boolean functions determine the [truth value](javascript:call_link\('abentruth_value_glosry.htm'\) "Glossary Entry") of a logical expression [log\_exp](javascript:call_link\('abenlogexp.htm'\)) specified as an argument. For log\_exp, any logical expression can be specified in accordance with the applicable rules. The return value of a Boolean function has a data type dependent on the function and expresses the truth value of the logical expression with a value of this type.
+The [built-in](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_functions.htm) Boolean functions determine the [truth value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentruth_value_glosry.htm "Glossary Entry") of a logical expression [log\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp.htm) specified as an argument. For log\_exp, any logical expression can be specified in accordance with the applicable rules. The return value of a Boolean function has a data type dependent on the function and expresses the truth value of the logical expression with a value of this type.
 
 Hint
 
@@ -3139,13 +3139,13 @@ Variant 1  
 
 Effect
 
-The function boolc returns a single-character character string of the type string. If the logical expression is true, "X" is returned. If the logical expression is false, a blank is returned. In principle, boolc is one of the [processing functions with character-like results](javascript:call_link\('abenprocess_functions.htm'\)) and can be specified in [general expression positions](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") and in [character-like expression positions](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry").
+The function boolc returns a single-character character string of the type string. If the logical expression is true, "X" is returned. If the logical expression is false, a blank is returned. In principle, boolc is one of the [processing functions with character-like results](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprocess_functions.htm) and can be specified in [general expression positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and in [character-like expression positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
 
 Hints
 
--   If boolc requires return values other than "X" or " " (for example, "Y" and "N" or "1" and "0"), the result of boolc can be processed directly using the function [translate](javascript:call_link\('abentranslate_functions.htm'\)) or another suitable [processing function](javascript:call_link\('abenprocess_functions.htm'\)).
+-   If boolc requires return values other than "X" or " " (for example, "Y" and "N" or "1" and "0"), the result of boolc can be processed directly using the function [translate](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentranslate_functions.htm) or another suitable [processing function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprocess_functions.htm).
 -   The result of boolc should not be compared with the constants abap\_true and abap\_false in relational expressions, since the latter converts from c to string and ignores any blanks. Comparisons of this type are not usually necessary. If a comparison of this type is to be executed anyway, the function xsdbool can be used instead of boolc whose result has the same ABAP type as abap\_bool.
--   If the logical expression is false, the result of boolc does not meet the condition [IS INITIAL](javascript:call_link\('abenlogexp_initial.htm'\)), since a blank and no empty string is returned. If this is desired, the function xsdbool can be used instead of boolc.
+-   If the logical expression is false, the result of boolc does not meet the condition [IS INITIAL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_initial.htm), since a blank and no empty string is returned. If this is desired, the function xsdbool can be used instead of boolc.
 -   If boolc is used in inappropriate places as specified in the points above, this leads to a syntax warning, which can be hidden using a pragma.
 
 Example
@@ -3173,7 +3173,7 @@ Variant 2  
 
 Effect
 
-The function boolx returns a byte chain of the type xstring. If the logical expression is true, the byte chain is filled as if the function [bit-set( bit )](javascript:call_link\('abenbit_functions.htm'\)) were executed. If the logical expression is false, the byte chain is filled as if the function [bit-set( 0 )](javascript:call_link\('abenbit_functions.htm'\)) were executed. bit expects a data object of the type i. In principle, boolx belongs to the [bit functions](javascript:call_link\('abenbit_functions.htm'\)) and can be used in all positions where a [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry") is also allowed.
+The function boolx returns a byte chain of the type xstring. If the logical expression is true, the byte chain is filled as if the function [bit-set( bit )](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbit_functions.htm) were executed. If the logical expression is false, the byte chain is filled as if the function [bit-set( 0 )](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbit_functions.htm) were executed. bit expects a data object of the type i. In principle, boolx belongs to the [bit functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbit_functions.htm) and can be used in all positions where a [bit expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbit_expression_glosry.htm "Glossary Entry") is also allowed.
 
 Hint
 
@@ -3181,7 +3181,7 @@ The function boolx can be used for efficient storage of sequences of truth value
 
 Example
 
-The result of the following [bit expression](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry") is hexadecimal 55, which corresponds to the calculated bit string 01010101.
+The result of the following [bit expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbit_expression_glosry.htm "Glossary Entry") is hexadecimal 55, which corresponds to the calculated bit string 01010101.
 
 DATA(result) = boolx( bool = 2 > 1 bit = 8 )
         BIT-OR boolx( bool = 2 < 1 bit = 7 )
@@ -3192,7 +3192,7 @@ DATA(result) = boolx( bool = 2 > 1 bit = 8 )
         BIT-OR boolx( bool = 2 > 1 bit = 2 )
         BIT-OR boolx( bool = 2 < 1 bit = 1 ).
 
-The bit expression above can be expressed using the following iteration with the operator [REDUCE](javascript:call_link\('abenconstructor_expression_reduce.htm'\)).
+The bit expression above can be expressed using the following iteration with the operator [REDUCE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_reduce.htm).
 
 DATA(result) =
   REDUCE xstring( INIT x TYPE xstring
@@ -3209,20 +3209,20 @@ Effect
 
 Like boolc, the function xsdbool returns the value "X" for true and a blank for false. The data type of the return value, however, has the type c of the length 1 here.
 
-The return value references the type XSDBOOLEAN from the ABAP Dictionary. This type, which refers to the identically named domain of type CHAR and length 1, is handled like a real Boolean type in serializations and deserializations to or from [asXML](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)) and [asJSON](javascript:call_link\('abenabap_asjson_schema.htm'\)) using [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)). The XML or JSON values true and false are assigned to the values "X" and " " of this type.
+The return value references the type XSDBOOLEAN from the ABAP Dictionary. This type, which refers to the identically named domain of type CHAR and length 1, is handled like a real Boolean type in serializations and deserializations to or from [asXML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xslt_asxml_schema.htm) and [asJSON](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_asjson_schema.htm) using [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_transformation.htm). The XML or JSON values true and false are assigned to the values "X" and " " of this type.
 
-xsdbool can be specified in [general](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry") and [character-like expression positions](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry").
+xsdbool can be specified in [general](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry") and [character-like expression positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
 
 Hints
 
 -   The result of xsdbool can be used like a value of the type abap\_bool and can be compared with the constants abap\_true and abap\_false without any problems.
--   If the logical expression is false, the result of boolc fulfills the condition [IS INITIAL](javascript:call_link\('abenlogexp_initial.htm'\)), since the returned blank is the type-dependent initial value at the same time.
--   The result of xsdbool cannot usually be converted directly using a [processing function](javascript:call_link\('abenprocess_functions.htm'\)) such as [translate](javascript:call_link\('abentranslate_functions.htm'\)), since the trailing blanks here are ignored in text fields of type c. The result of a false logical expression would be ignored. The result of the function boolc of type string is better suited for conversions of this type.
+-   If the logical expression is false, the result of boolc fulfills the condition [IS INITIAL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_initial.htm), since the returned blank is the type-dependent initial value at the same time.
+-   The result of xsdbool cannot usually be converted directly using a [processing function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprocess_functions.htm) such as [translate](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentranslate_functions.htm), since the trailing blanks here are ignored in text fields of type c. The result of a false logical expression would be ignored. The result of the function boolc of type string is better suited for conversions of this type.
 -   The abbreviation xsd stands for [XML schema data types](http://www.w3.org/TR/xmlschema-2/).
 
 Example
 
-This example sets the type and the value of the variable gui\_flag declared inline using the Boolean function xsdbool for whose argument a [predicative method call](javascript:call_link\('abenpredicative_method_call_glosry.htm'\) "Glossary Entry") is listed. The variable is then serialized to [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") and [asJSON](javascript:call_link\('abenasjson_glosry.htm'\) "Glossary Entry") using the predefined [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") [ID](javascript:call_link\('abenabap_xslt_id.htm'\)). This produces the value true or false. After a comparison with the identically typed constant abap\_false, the formatted result of the serialization is either read or displayed.
+This example sets the type and the value of the variable gui\_flag declared inline using the Boolean function xsdbool for whose argument a [predicative method call](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicative_method_call_glosry.htm "Glossary Entry") is listed. The variable is then serialized to [asXML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasxml_glosry.htm "Glossary Entry") and [asJSON](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenasjson_glosry.htm "Glossary Entry") using the predefined [identity transformation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenid_trafo_glosry.htm "Glossary Entry") [ID](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xslt_id.htm). This produces the value true or false. After a comparison with the identically typed constant abap\_false, the formatted result of the serialization is either read or displayed.
 
 The result would be quite different if boolc were used instead of xsdbool. First, the transformations would have a different result since the values "X" and " " are not transformed to true or false; second, the logical expression gui\_flag = abap\_false would always be false, since abap\_false loses its blank when converting to the type string.
 
@@ -3270,7 +3270,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -3283,20 +3283,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -3364,7 +3364,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -3431,21 +3431,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -3510,7 +3510,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -3523,20 +3523,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -3604,7 +3604,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -3671,21 +3671,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -3750,7 +3750,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -3763,20 +3763,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -3844,7 +3844,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -3911,21 +3911,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -3990,7 +3990,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -4003,20 +4003,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -4084,7 +4084,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -4151,21 +4151,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -4230,7 +4230,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -4243,20 +4243,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -4324,7 +4324,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -4391,21 +4391,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -4470,7 +4470,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -4483,20 +4483,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -4564,7 +4564,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -4631,21 +4631,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -4710,7 +4710,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -4723,20 +4723,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -4804,7 +4804,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -4871,21 +4871,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -4950,7 +4950,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -4963,20 +4963,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -5044,7 +5044,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -5111,21 +5111,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -5190,7 +5190,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -5203,20 +5203,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -5284,7 +5284,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -5351,21 +5351,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -5430,7 +5430,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -5443,20 +5443,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -5524,7 +5524,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -5591,21 +5591,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -5670,7 +5670,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -5683,20 +5683,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -5764,7 +5764,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -5831,21 +5831,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -5910,7 +5910,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -5923,20 +5923,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -6004,7 +6004,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -6071,21 +6071,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -6150,7 +6150,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -6163,20 +6163,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -6244,7 +6244,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -6311,21 +6311,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -6390,7 +6390,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -6403,20 +6403,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -6484,7 +6484,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -6551,21 +6551,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -6630,7 +6630,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -6643,20 +6643,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -6724,7 +6724,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -6791,21 +6791,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -6870,7 +6870,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -6883,20 +6883,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -6964,7 +6964,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -7031,21 +7031,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -7110,7 +7110,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -7123,20 +7123,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -7204,7 +7204,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -7271,21 +7271,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -7350,7 +7350,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -7363,20 +7363,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -7444,7 +7444,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -7511,21 +7511,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -7590,7 +7590,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -7603,20 +7603,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -7684,7 +7684,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -7751,21 +7751,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -7830,7 +7830,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -7843,20 +7843,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -7924,7 +7924,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -7991,21 +7991,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -8070,7 +8070,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -8083,20 +8083,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -8164,7 +8164,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -8231,21 +8231,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -8310,7 +8310,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -8323,20 +8323,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -8404,7 +8404,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -8471,21 +8471,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -8550,7 +8550,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -8563,20 +8563,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -8644,7 +8644,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -8711,21 +8711,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -8790,7 +8790,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -8803,20 +8803,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -8884,7 +8884,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -8951,21 +8951,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -9030,7 +9030,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -9043,20 +9043,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -9124,7 +9124,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -9191,21 +9191,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -9270,7 +9270,7 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab.htm) → 
 
 itab - Performance Notes
 
@@ -9283,20 +9283,20 @@ itab - Performance Notes
 
 Hint
 
-If the lines selected using WHERE are modified or deleted using [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)) or [DELETE](javascript:call_link\('abapdelete_itab.htm'\)) and not just read using [LOOP AT](javascript:call_link\('abaploop_at_itab.htm'\)), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
+If the lines selected using WHERE are modified or deleted using [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_itab.htm) or [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdelete_itab.htm) and not just read using [LOOP AT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), further update costs are incurred in addition to the search for the lines. When deleting lines from standard tables, it should be noted that searches using a secondary key optimize the selection of lines to be deleted, but not the update required for the primary key, which is usually performed using a linear search.
 
 Prerequisites for the Optimization of Hash Keys
 
-In the case of [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
+In the case of [hash key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhash_key_glosry.htm "Glossary Entry") accesses, there must be exactly one relational expression combined using AND for each component of the key. This expression is either
 
--   a [comparison expression](javascript:call_link\('abencomparison_expression_glosry.htm'\) "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
--   a [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS INITIAL without the addition NOT.
+-   a [comparison expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencomparison_expression_glosry.htm "Glossary Entry") with the comparison operator \= (or EQ), whose operands meet the requirements above or
+-   a [predicate expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS INITIAL without the addition NOT.
 
 These relational expressions construct the part of the logical expression used for the key access. This part must not contain duplicate key components. The remainder of the logical expression can contain any number of relational expressions combined using AND. Optimization may not be possible, however, if the Boolean operators NOT or OR are used. Key components may be used in the relational expressions not used for the key access.
 
 Hint
 
-Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](javascript:call_link\('abenlogexp_select_option.htm'\)), even if it can be traced back to optimizable comparisons.
+Relational expressions other than comparisons using \= (or EQ) or predicate expressions IS INITIAL are not part of the key access. This applies particularly to the tabular comparison operator [IN range\_tab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_select_option.htm), even if it can be traced back to optimizable comparisons.
 
 Example
 
@@ -9364,7 +9364,7 @@ The next six WHERE conditions cannot be optimized and produce syntax errors. Thi
 
 Prerequisites for the Optimization of Sorted Keys
 
-In the case of reads using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
+In the case of reads using a [sorted key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensorted_key_glosry.htm "Glossary Entry"), the same applies as to a hash key. The only difference is that only an initial section of the key consisting of at least one component needs to be covered rather than the entire key.
 
 The internal table is accessed in part sequentially. The starting point for the processing of the table is determined by a binary search using the subconditions that cover the table key completely or partially. From the starting point onwards, the table is only processed for as long as these subconditions remain fulfilled.
 
@@ -9431,21 +9431,21 @@ The next five WHERE conditions cannot be optimized and produce syntax errors. Th
 
 Requirements Made on the Operands
 
-The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or a corresponding [table expression](javascript:call_link\('abentable_expressions.htm'\)) that specifies the corresponding components as keys.
+The part of the logical expression that can be mapped to a key access must select the same lines as a statement [READ TABLE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table.htm) or a corresponding [table expression](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm) that specifies the corresponding components as keys.
 
--   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](javascript:call_link\('abenlogexp_rules.htm'\)) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
--   If the additions [WITH TABLE KEY](javascript:call_link\('abapread_table_key.htm'\)) and [WITH KEY](javascript:call_link\('abapread_table_free.htm'\)) of the statement READ or [KEY](javascript:call_link\('abentable_exp_itab_line.htm'\)) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
+-   When comparing incompatible data objects, the WHERE condition is subject to the same [comparison rules](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules.htm) for incompatible data types. Here, the data types involved determine which operand is converted to which comparison type.
+-   If the additions [WITH TABLE KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_key.htm) and [WITH KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapread_table_free.htm) of the statement READ or [KEY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_itab_line.htm) in a table expression are used, however, the content of the specified data objects is always converted to the data type of the columns before the comparison.
 
-If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](javascript:call_link\('abenlogexp_rules_operands.htm'\)), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
+If this produces differing results, an optimization is not possible. Due to the complexity of the comparison rules, particularly for [elementary data types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_rules_operands.htm), it is not a good idea to construct a set of rules detailing exactly when the comparison type matches the data type of the left operand. Generally speaking,
 
 -   only fully compatible operands are optimizable,
 -   in some cases, elementary operands with different data types can be optimized, if the value ranges or lengths are suitable. For example, a comparison of a column with the type of a floating point number with an operand of type integer or of a column of c with a similar operand, if its length is less than the length of the column.
 
-For this reason, it is advisable to use only pairs of [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
+For this reason, it is advisable to use only pairs of [compatible](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompatible_glosry.htm "Glossary Entry") operands in the WHERE condition. This guarantees that the differences in behavior of the WHERE condition and the specified key do not affect the result.
 
 Example
 
-The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](javascript:call_link\('abaploop_at_itab_cond.htm'\)). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
+The following example is largely similar to the example in the section WHERE log\_exp in [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_cond.htm). In that case, access takes place using the primary key and no optimization. Here, however, access takes place using a secondary table key and a syntax check warning is produced and an exception raised when the program is executed. The number of lines in the internal table determines whether the exception is raised.
 
 DATA text\_short TYPE c LENGTH 2.
 DATA text\_long  TYPE c LENGTH 4.
@@ -9510,22 +9510,22 @@ Included pages: 11
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_dynpro_statements.htm) → 
 
 dynpro - Subscreens, Tabstrips, and Splitter Controls
 
-Subscreens are screen layouts of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special [controls](javascript:call_link\('abencontrol_glosry.htm'\) "Glossary Entry").
+Subscreens are screen layouts of special subscreen dynpros that can be included in other dynpros. Subscreens are either included directly, or using special [controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencontrol_glosry.htm "Glossary Entry").
 
--   [Including Subscreens Directly](javascript:call_link\('abendynp_subscreen.htm'\))
--   [Tabstrip Controls](javascript:call_link\('abendynp_tabstrip.htm'\))
--   [Splitter Controls](javascript:call_link\('abendynp_splitter_control_spcl.htm'\))
+-   [Including Subscreens Directly](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreen.htm)
+-   [Tabstrip Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_tabstrip.htm)
+-   [Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_splitter_control_spcl.htm)
 
 Continue
-[dynpro - Including Subscreens Directly](javascript:call_link\('abendynp_subscreen.htm'\))
-[dynpro - Tabstrip Controls](javascript:call_link\('abendynp_tabstrip.htm'\))
-[dynpro - Splitter Controls](javascript:call_link\('abendynp_splitter_control_spcl.htm'\))
-[dynpro - CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\))
-[dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abentab_strip_control_abexas.htm'\))
+[dynpro - Including Subscreens Directly](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreen.htm)
+[dynpro - Tabstrip Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_tabstrip.htm)
+[dynpro - Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_splitter_control_spcl.htm)
+[dynpro - CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpcall.htm)
+[dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control_abexas.htm)
 
 
 
@@ -9543,21 +9543,21 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_dynpro_statements.htm) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreens.htm) → 
 
 dynpro - Including Subscreens Directly
 
-The statement [CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\)) can be used to include other screen layouts directly in the [screen layout](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") of a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") in the form of subscreens. Here, subscreen areas must first be defined in the screen layout of the current dynpro. Every subscreen area has a unique name and can be configured to support changes in screen size. If the latter is defined, each size change in the current GUI window raises the [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") event.
+The statement [CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpcall.htm) can be used to include other screen layouts directly in the [screen layout](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry") of a [dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_glosry.htm "Glossary Entry") in the form of subscreens. Here, subscreen areas must first be defined in the screen layout of the current dynpro. Every subscreen area has a unique name and can be configured to support changes in screen size. If the latter is defined, each size change in the current GUI window raises the [PAI](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpai_glosry.htm "Glossary Entry") event.
 
-Subscreens are the screen layouts of special [subscreen dynpros](javascript:call_link\('abensubscreen_dynpro_glosry.htm'\) "Glossary Entry"). When a subscreen is included, the flow logic of the subscreen dynpro is also included. Subscreens can also include other subscreens. Subscreens cannot have their own OK field. Instead, user actions on subscreens pass the function codes to the OK field of the including dynpro. In the PAI event block of a subscreen dynpro, a [MODULE](javascript:call_link\('dynpmodule.htm'\)) statement is never executed with the AT EXIT-COMMAND addition.
+Subscreens are the screen layouts of special [subscreen dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubscreen_dynpro_glosry.htm "Glossary Entry"). When a subscreen is included, the flow logic of the subscreen dynpro is also included. Subscreens can also include other subscreens. Subscreens cannot have their own OK field. Instead, user actions on subscreens pass the function codes to the OK field of the including dynpro. In the PAI event block of a subscreen dynpro, a [MODULE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpmodule.htm) statement is never executed with the AT EXIT-COMMAND addition.
 
 Hint
 
-Subscreens dynpros are defined like regular dynpros in the [Screen Painter](javascript:call_link\('abenscreen_painter_glosry.htm'\) "Glossary Entry") and are flagged there as regular dynpros. [Selection screens](javascript:call_link\('abapselection-screen_subscreen.htm'\)) can also be defined as subscreens.
+Subscreens dynpros are defined like regular dynpros in the [Screen Painter](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_painter_glosry.htm "Glossary Entry") and are flagged there as regular dynpros. [Selection screens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselection-screen_subscreen.htm) can also be defined as subscreens.
 
 Executable Example
 
-[Dynpros, Subscreens](javascript:call_link\('abendynpro_subscreen_abexa.htm'\))
+[Dynpros, Subscreens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_subscreen_abexa.htm)
 
 
 
@@ -9575,19 +9575,19 @@ Executable Example
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_dynpro_statements.htm) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreens.htm) → 
 
 dynpro - Tabstrip Controls
 
-A tabstrip control is a screen element that consists of multiple tab pages. Every tab page contains a single-line [tab title](javascript:call_link\('abentab_title_glosry.htm'\) "Glossary Entry") linked with a function code and which can be used to select the tab page by clicking it once. Under the tab title, a tab page consists of a subscreen area. Each tab title must have a subscreen area assigned to it, in which any subscreens can be displayed. There are two ways to do this:
+A tabstrip control is a screen element that consists of multiple tab pages. Every tab page contains a single-line [tab title](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_title_glosry.htm "Glossary Entry") linked with a function code and which can be used to select the tab page by clicking it once. Under the tab title, a tab page consists of a subscreen area. Each tab title must have a subscreen area assigned to it, in which any subscreens can be displayed. There are two ways to do this:
 
 -   Browsing in SAP GUI
     
-    A separate subscreen area is assigned to each tab title and the function codes of the tab titles are defined with the function type "P". If the user selects a tab title, the event PAI is not raised. The associated subscreens are included once in each individual subscreen area by using the [CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\)) statement of the flow logic. If the user selects a tab title, the SAP GUI browses to the associated tab page and displays its subscreen.
+    A separate subscreen area is assigned to each tab title and the function codes of the tab titles are defined with the function type "P". If the user selects a tab title, the event PAI is not raised. The associated subscreens are included once in each individual subscreen area by using the [CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpcall.htm) statement of the flow logic. If the user selects a tab title, the SAP GUI browses to the associated tab page and displays its subscreen.
     
 -   Browsing in ABAP Programs
     
-    The same subscreen area is assigned to each tab title, and the function codes of the tab titles are defined without [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry"). If the user selects a tab title, the event PAI is raised. The associated subscreen is included dynamically using the [CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\)) statement of the flow logic in the subscreen area each time the user browses. In the ABAP program, the associated tab page must be activated using [CONTROLS](javascript:call_link\('abapcontrols.htm'\)) and the correct subscreen dynpro for the subscreen area must be specified.
+    The same subscreen area is assigned to each tab title, and the function codes of the tab titles are defined without [typing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentyping_glosry.htm "Glossary Entry"). If the user selects a tab title, the event PAI is raised. The associated subscreen is included dynamically using the [CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpcall.htm) statement of the flow logic in the subscreen area each time the user browses. In the ABAP program, the associated tab page must be activated using [CONTROLS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcontrols.htm) and the correct subscreen dynpro for the subscreen area must be specified.
     
 
 Hint
@@ -9596,8 +9596,8 @@ If a tab title is selected when browsing in the SAP GUI, input checks are not ma
 
 Executable Examples
 
--   [Dynpros, Tabstrips with Scrolling in SAP GUI](javascript:call_link\('abentab_strip_control1_abexa.htm'\))
--   [Dynpros, Tabstrips with Scrolling in AS instance](javascript:call_link\('abentab_strip_control2_abexa.htm'\))
+-   [Dynpros, Tabstrips with Scrolling in SAP GUI](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control1_abexa.htm)
+-   [Dynpros, Tabstrips with Scrolling in AS instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control2_abexa.htm)
 
 
 
@@ -9615,13 +9615,13 @@ Executable Examples
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_dynpro_statements.htm) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreens.htm) → 
 
 dynpro - Splitter Controls
 
-A splitter control is a screen element that divides the area it covers either horizontally into two adjacent [subscreen areas](javascript:call_link\('abensubscreen_arrea_glosry.htm'\) "Glossary Entry") or vertically one above each other. The division is made by a sash. The horizontal or vertical position of the sash is specified statically in the definition of the splitter control. It can be set to PBO in the ABAP program and changed by the user while the screen layout is displayed.
+A splitter control is a screen element that divides the area it covers either horizontally into two adjacent [subscreen areas](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubscreen_arrea_glosry.htm "Glossary Entry") or vertically one above each other. The division is made by a sash. The horizontal or vertical position of the sash is specified statically in the definition of the splitter control. It can be set to PBO in the ABAP program and changed by the user while the screen layout is displayed.
 
-[Subscreen dynpros](javascript:call_link\('abensubscreen_dynpro_glosry.htm'\) "Glossary Entry") are included in both subscreen areas in exactly the same way as [direct inclusion](javascript:call_link\('abendynp_subscreen.htm'\)) using the [CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\)) statement in the dynpro flow logic. Any subscreens can be included, particularly those that contain splitter controls again.
+[Subscreen dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubscreen_dynpro_glosry.htm "Glossary Entry") are included in both subscreen areas in exactly the same way as [direct inclusion](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreen.htm) using the [CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpcall.htm) statement in the dynpro flow logic. Any subscreens can be included, particularly those that contain splitter controls again.
 
 In ABAP programs, the position of the sash of a splitter controls is controlled using an instance of the CL\_DYNPRO\_SPLITTER class. If, before sending this screen layout, an object of this class is created and its constructor is given the name of a splitter control, this is bound to the splitter control and its methods can be used to set and read the position of the sash. The sash position is specified as a percentage and refers to the width or height of the splitter control. In the object, the position is represented by a private attribute. Important methods of the class are:
 
@@ -9638,16 +9638,16 @@ In ABAP programs, the position of the sash of a splitter controls is controlled 
     Returns the sash position of the bound splitter control at PBO and PAI.
     
 
-A splitter control can have a [function code](javascript:call_link\('abenfunction_code_glosry.htm'\) "Glossary Entry") assigned to it, which can be used to react to changes to the sash position made by the user in ABAP programs.
+A splitter control can have a [function code](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunction_code_glosry.htm "Glossary Entry") assigned to it, which can be used to react to changes to the sash position made by the user in ABAP programs.
 
 Hints
 
--   A splitter control can only be created in the alphanumeric Screen Painter by using Edit → Create Element → Splitter Control. For this reason, it should only be used in cases when the functions offered are required on classic dynpros. [SAPUI5](javascript:call_link\('abensapui5_glosry.htm'\) "Glossary Entry") or [Web Dynpro ABAP](javascript:call_link\('abenweb_dynpro_glosry.htm'\) "Glossary Entry") should be used for new developments instead of classic dynpros.
--   Splitter controls offer certain advantages over the corresponding [CFW](javascript:call_link\('abencfw_glosry.htm'\) "Glossary Entry") containers. One advantage is that they allow all screen elements of a classic dynpro to be displayed directly in a flexible frame. Another is that they have better performance than CFW controls. An example of intensive use of splitter controls is the flexible interface of the ABAP Debugger.
+-   A splitter control can only be created in the alphanumeric Screen Painter by using Edit → Create Element → Splitter Control. For this reason, it should only be used in cases when the functions offered are required on classic dynpros. [SAPUI5](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensapui5_glosry.htm "Glossary Entry") or [Web Dynpro ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenweb_dynpro_glosry.htm "Glossary Entry") should be used for new developments instead of classic dynpros.
+-   Splitter controls offer certain advantages over the corresponding [CFW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencfw_glosry.htm "Glossary Entry") containers. One advantage is that they allow all screen elements of a classic dynpro to be displayed directly in a flexible frame. Another is that they have better performance than CFW controls. An example of intensive use of splitter controls is the flexible interface of the ABAP Debugger.
 
 Executable Example
 
-[Dynpros, Splitter Controls](javascript:call_link\('abendynpro_splitter_control_abexa.htm'\))
+[Dynpros, Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_splitter_control_abexa.htm)
 
 
 
@@ -9665,7 +9665,7 @@ Executable Example
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_dynpro_statements.htm) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreens.htm) → 
 
 dynpro - CALL SUBSCREEN
 
@@ -9680,12 +9680,12 @@ Variants:
 
 Effect
 
-Includes a [subscreen](javascript:call_link\('abensubscreen_glosry.htm'\) "Glossary Entry") in the [dynpro flow logic](javascript:call_link\('abendynpro_flow_logic_glosry.htm'\) "Glossary Entry"). There is one variant for the event [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") and one variant for the event [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry"). The statement CALL SUBSCREEN cannot be used between the statements LOOP and ENDLOOP or CHAIN and ENDCHAIN.
+Includes a [subscreen](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubscreen_glosry.htm "Glossary Entry") in the [dynpro flow logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_flow_logic_glosry.htm "Glossary Entry"). There is one variant for the event [PBO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpbo_glosry.htm "Glossary Entry") and one variant for the event [PAI](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpai_glosry.htm "Glossary Entry"). The statement CALL SUBSCREEN cannot be used between the statements LOOP and ENDLOOP or CHAIN and ENDCHAIN.
 
 Hints
 
--   The statement CALL SUBSCREEN is required to [include](javascript:call_link\('abendynp_subscreen.htm'\)) subscreens directly and to include them using [tabstrips](javascript:call_link\('abendynp_tabstrip.htm'\)) or [splitter controls](javascript:call_link\('abendynp_splitter_control_spcl.htm'\)).
--   An obsolete variant of this statement is [CALL CUSTOMER SUBSCREEN](javascript:call_link\('dynpcall_customer_subscreen.htm'\)).
+-   The statement CALL SUBSCREEN is required to [include](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreen.htm) subscreens directly and to include them using [tabstrips](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_tabstrip.htm) or [splitter controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_splitter_control_spcl.htm).
+-   An obsolete variant of this statement is [CALL CUSTOMER SUBSCREEN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpcall_customer_subscreen.htm).
 
 Variant 1   
 
@@ -9695,11 +9695,11 @@ Effect
 
 PBO
 
-This statement is used to include the [subscreen dynpro](javascript:call_link\('abensubscreen_dynpro_glosry.htm'\) "Glossary Entry") of the program defined in prog and the dynpro number defined in dynnr in the [subscreen area](javascript:call_link\('abensubscreen_arrea_glosry.htm'\) "Glossary Entry") sub\_area of the current dynpro, and processes its PBO flow logic at this point. After PBO processing of the subscreen dynpro, the flow logic of the current dynpro is continued after the CALL statement.
+This statement is used to include the [subscreen dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubscreen_dynpro_glosry.htm "Glossary Entry") of the program defined in prog and the dynpro number defined in dynnr in the [subscreen area](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubscreen_arrea_glosry.htm "Glossary Entry") sub\_area of the current dynpro, and processes its PBO flow logic at this point. After PBO processing of the subscreen dynpro, the flow logic of the current dynpro is continued after the CALL statement.
 
 The area sub\_area must be specified directly. prog expects either a two-character data object from the current ABAP program or a text field literal. dynnr expects a data object of the type n and length 4 from the current ABAP program or a text field literal. An uncatchable exception is raised if the specified subscreen dynpro cannot be found. If no subscreen dynpro is included for PBO in a subscreen area, the area remains empty.
 
-If the specified subscreen dynpro is not defined in the current ABAP program, the specified program is loaded into the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") and [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) is raised. If the object is a [function pool](javascript:call_link\('abenfunction_pool_glosry.htm'\) "Glossary Entry"), a new [additional program group](javascript:call_link\('abenadditional_prog_group_glosry.htm'\) "Glossary Entry") is created. If the object is an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") or a [module pool](javascript:call_link\('abenmodul_pool_glosry.htm'\) "Glossary Entry"), the program is loaded to the [program group](javascript:call_link\('abenprogram_group_glosry.htm'\) "Glossary Entry") of the current program.
+If the specified subscreen dynpro is not defined in the current ABAP program, the specified program is loaded into the [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry") and [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapload-of-program.htm) is raised. If the object is a [function pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunction_pool_glosry.htm "Glossary Entry"), a new [additional program group](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadditional_prog_group_glosry.htm "Glossary Entry") is created. If the object is an [executable program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexecutable_program_glosry.htm "Glossary Entry") or a [module pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmodul_pool_glosry.htm "Glossary Entry"), the program is loaded to the [program group](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprogram_group_glosry.htm "Glossary Entry") of the current program.
 
 The flow logic of the subscreen dynpro calls the dialog modules of its own ABAP program and the global fields of its own program are transported to the subscreen dynpro. When a subscreen is being processed, sy-dynnr contains the dynpro number of the subscreen.
 
@@ -9713,7 +9713,7 @@ Effect
 
 PAI
 
-The statement calls the PAI flow logic of the [subscreen dynpro](javascript:call_link\('abensubscreen_dynpro_glosry.htm'\) "Glossary Entry") included in the sub\_area [subscreen area](javascript:call_link\('abensubscreen_arrea_glosry.htm'\) "Glossary Entry"). The subscreen dynpro must be included in the subscreen area for PBO (see variant 1). The same applies to the dialog modules called by the PAI flow logic as to the modules called by PBO. The data transport between the subscreen dynpro and its ABAP program is performed at the call, or is delayed when [FIELD](javascript:call_link\('dynpfield.htm'\)) statements are executed in the PAI flow logic of the subscreen logic.
+The statement calls the PAI flow logic of the [subscreen dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubscreen_dynpro_glosry.htm "Glossary Entry") included in the sub\_area [subscreen area](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensubscreen_arrea_glosry.htm "Glossary Entry"). The subscreen dynpro must be included in the subscreen area for PBO (see variant 1). The same applies to the dialog modules called by the PAI flow logic as to the modules called by PBO. The data transport between the subscreen dynpro and its ABAP program is performed at the call, or is delayed when [FIELD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/dynpfield.htm) statements are executed in the PAI flow logic of the subscreen logic.
 
 Hints
 
@@ -9723,7 +9723,7 @@ Hints
 
 Example
 
-If a tabstrip control with untyped tabstrips and a subscreen area called SUB is defined on a dynpro, the associated dynpro flow logic can appear as follows. The statement CALL SUBSCREEN includes the subscreen dynpro of the same ABAP program whose number is in the ABAP data object dynnr in the subscreen area SUB. The associated programming section of the ABAP program is in the example for [CONTROLS](javascript:call_link\('abapcontrols_tabstrip.htm'\)).
+If a tabstrip control with untyped tabstrips and a subscreen area called SUB is defined on a dynpro, the associated dynpro flow logic can appear as follows. The statement CALL SUBSCREEN includes the subscreen dynpro of the same ABAP program whose number is in the ABAP data object dynnr in the subscreen area SUB. The associated programming section of the ABAP program is in the example for [CONTROLS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcontrols_tabstrip.htm).
 
 PROCESS BEFORE OUTPUT.
   MODULE prepare\_tabstrip.
@@ -9748,15 +9748,15 @@ PROCESS AFTER INPUT.
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_dynpro_statements.htm) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreens.htm) → 
 
 dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls
 
 Continue
-![Example](exa.gif "Example") [dynpro - Subscreens](javascript:call_link\('abendynpro_subscreen_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Tabstrips with Scrolling in SAP GUI](javascript:call_link\('abentab_strip_control1_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Tabstrips with Scrolling on the ABAP Server](javascript:call_link\('abentab_strip_control2_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Splitter Control](javascript:call_link\('abendynpro_splitter_control_abexa.htm'\))
+![Example](exa.gif "Example") [dynpro - Subscreens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_subscreen_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Tabstrips with Scrolling in SAP GUI](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control1_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Tabstrips with Scrolling on the ABAP Server](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control2_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Splitter Control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_splitter_control_abexa.htm)
 
 
 
@@ -9774,7 +9774,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) →  [dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abentab_strip_control_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_dynpro_statements.htm) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreens.htm) →  [dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control_abexas.htm) → 
 
 dynpro - Subscreens
 
@@ -9890,7 +9890,7 @@ The function code of the pushbuttons of the subscreen dynpros is different and r
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) →  [dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abentab_strip_control_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_dynpro_statements.htm) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreens.htm) →  [dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control_abexas.htm) → 
 
 dynpro - Tabstrips with Scrolling in SAP GUI
 
@@ -9943,7 +9943,7 @@ When the user chooses Continue, the PAI event is raised, and an information mess
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) →  [dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abentab_strip_control_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_dynpro_statements.htm) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreens.htm) →  [dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control_abexas.htm) → 
 
 dynpro - Tabstrips with Scrolling on the ABAP Server
 
@@ -9986,11 +9986,11 @@ ENDMODULE.
 
 Description
 
-The static next dynpro number of dynpro 100 is 100. The layout of dynpro 100 and the subscreen dynpros 110 to 130 is the same as in the [executable example](javascript:call_link\('abentab_strip_control1_abexa.htm'\)) with local scrolling. The function codes of the three tab titles are not typed and a common subscreen area sub is assigned to all tab titles.
+The static next dynpro number of dynpro 100 is 100. The layout of dynpro 100 and the subscreen dynpros 110 to 130 is the same as in the [executable example](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control1_abexa.htm) with local scrolling. The function codes of the three tab titles are not typed and a common subscreen area sub is assigned to all tab titles.
 
 The dynpro flow logic of dynpro 100 makes a dynamic binding to PBO, a subscreen dynpro in the subscreen area sub. The dynpro flow logic of subscreen dynpros 110 to 130 does not contain any module calls.
 
-This example works in exactly the same way as the [example with local scrolling](javascript:call_link\('abentab_strip_control1_abexa.htm'\)) except that scrolling between the tabstrip pages is programmed in the ABAP program. Each time the user chooses a tab title, the function code from the OK field is assigned to the activetab component of structure mytabstrip. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
+This example works in exactly the same way as the [example with local scrolling](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control1_abexa.htm) except that scrolling between the tabstrip pages is programmed in the ABAP program. Each time the user chooses a tab title, the function code from the OK field is assigned to the activetab component of structure mytabstrip. At the same time, the variable number is given the dynpro number of the subscreen dynpro to be displayed in the subscreen area SUB of the tabstrip.
 
 
 
@@ -10008,11 +10008,11 @@ This example works in exactly the same way as the [example with local scrolling]
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) →  [dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abentab_strip_control_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_dynpro_statements.htm) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreens.htm) →  [dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control_abexas.htm) → 
 
 dynpro - Splitter Control
 
-This example demonstrates a [splitter control](javascript:call_link\('abensplitter_control_glosry.htm'\) "Glossary Entry").
+This example demonstrates a [splitter control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensplitter_control_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -10056,15 +10056,15 @@ A subscreen is assigned to both parts of the splitter control. The subscreens ar
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Statements in the Dynpro Flow Logic](javascript:call_link\('abenabap_dynpros_dynpro_statements.htm'\)) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](javascript:call_link\('abendynp_subscreens.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) →  [dynpro - Statements in the Dynpro Flow Logic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_dynpro_statements.htm) →  [dynpro - Subscreens, Tabstrips, and Splitter Controls](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynp_subscreens.htm) → 
 
 dynpro - Examples of Subscreens, Tabstrips, and Splitter Controls
 
 Continue
-![Example](exa.gif "Example") [dynpro - Subscreens](javascript:call_link\('abendynpro_subscreen_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Tabstrips with Scrolling in SAP GUI](javascript:call_link\('abentab_strip_control1_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Tabstrips with Scrolling on the ABAP Server](javascript:call_link\('abentab_strip_control2_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Splitter Control](javascript:call_link\('abendynpro_splitter_control_abexa.htm'\))
+![Example](exa.gif "Example") [dynpro - Subscreens](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_subscreen_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Tabstrips with Scrolling in SAP GUI](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control1_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Tabstrips with Scrolling on the ABAP Server](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentab_strip_control2_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Splitter Control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_splitter_control_abexa.htm)
 
 
 ---
@@ -10094,15 +10094,15 @@ Included pages: 3
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Declarations](javascript:call_link\('abenobsolete_declarations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Declarations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobsolete_declarations.htm) → 
 
 Field Symbols
 
--   [Obsolete Typing](javascript:call_link\('abapfield-symbols_obsolete_typing.htm'\))
+-   [Obsolete Typing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfield-symbols_obsolete_typing.htm)
 
 Continue
-[FIELD-SYMBOLS, obsolete\_typing](javascript:call_link\('abapfield-symbols_obsolete_typing.htm'\))
-![Example](exa.gif "Example") [Field Symbols, Cast Structures](javascript:call_link\('abenfield_symbols_struc_abexa.htm'\))
+[FIELD-SYMBOLS, obsolete\_typing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfield-symbols_obsolete_typing.htm)
+![Example](exa.gif "Example") [Field Symbols, Cast Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfield_symbols_struc_abexa.htm)
 
 
 
@@ -10120,11 +10120,11 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Declarations](javascript:call_link\('abenobsolete_declarations.htm'\)) →  [Field Symbols](javascript:call_link\('abenfield_symbols_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Declarations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobsolete_declarations.htm) →  [Field Symbols](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfield_symbols_obsolete.htm) → 
 
 FIELD-SYMBOLS, obsolete\_typing
 
-[Short Reference](javascript:call_link\('abapfield-symbols_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfield-symbols_shortref.htm)
 
 Obsolete Syntax
 
@@ -10137,7 +10137,7 @@ Additions:
 
 Effect
 
-These additions of the statement [FIELD-SYMBOLS](javascript:call_link\('abapfield-symbols.htm'\)) produce an obsolete typing of the field symbol and are forbidden in classes.
+These additions of the statement [FIELD-SYMBOLS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfield-symbols.htm) produce an obsolete typing of the field symbol and are forbidden in classes.
 
 Addition 1   
 
@@ -10145,7 +10145,7 @@ Addition 1  
 
 Effect
 
-If no explicit type is specified after FIELD-SYMBOLS, the field symbol is typed implicitly with the completely generic type any. Furthermore, the field symbol is assigned the predefined constant space when the context is loaded. This means that the field symbol is not initial directly after it has been declared, and a check using [IS ASSIGNED](javascript:call_link\('abenlogexp_assigned.htm'\)) is true.
+If no explicit type is specified after FIELD-SYMBOLS, the field symbol is typed implicitly with the completely generic type any. Furthermore, the field symbol is assigned the predefined constant space when the context is loaded. This means that the field symbol is not initial directly after it has been declared, and a check using [IS ASSIGNED](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogexp_assigned.htm) is true.
 
 Addition 2   
 
@@ -10153,18 +10153,18 @@ Addition 2  
 
 Effect
 
-If the addition STRUCTURE, which is forbidden within classes, is specified for a field symbol instead of [typing](javascript:call_link\('abentyping_syntax.htm'\)) and struc is a local program structure (a data object, not a data type) or a [flat structure](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry") from the ABAP Dictionary, this structure is cast for the field symbol <fs>. dobj must be used to specify a data object that is assigned to the field symbol as an initial object.
+If the addition STRUCTURE, which is forbidden within classes, is specified for a field symbol instead of [typing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentyping_syntax.htm) and struc is a local program structure (a data object, not a data type) or a [flat structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_structure_glosry.htm "Glossary Entry") from the ABAP Dictionary, this structure is cast for the field symbol <fs>. dobj must be used to specify a data object that is assigned to the field symbol as an initial object.
 
 The field symbol inherits the technical attributes of structure struc, as with complete typing. In the case of a structured data object dobj, this data object must be at least as long as the formal parameter:
 
--   In the case of a structured data object, its [fragment view](javascript:call_link\('abenunicode_fragment_view_glosry.htm'\) "Glossary Entry") must match the fragment view of the corresponding initial part of struc.
+-   In the case of a structured data object, its [fragment view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenunicode_fragment_view_glosry.htm "Glossary Entry") must match the fragment view of the corresponding initial part of struc.
 -   An elementary data object must be character-like and flat and the corresponding initial part of struc can contain only components of this type.
 
-The same applies to assignments of data objects to field symbols typed using STRUCTURE when using the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)).
+The same applies to assignments of data objects to field symbols typed using STRUCTURE when using the statement [ASSIGN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign.htm).
 
 Hint
 
-Field symbols declared using the addition STRUCTURE are a mixture of typed field symbols and a tool for [casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry") to structured data types. The additions TYPE or LIKE of the statement FIELD-SYMBOLS should be used to type field symbols, while the addition CASTING of the statement ASSIGN is used for casting.
+Field symbols declared using the addition STRUCTURE are a mixture of typed field symbols and a tool for [casting](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencast_casting_glosry.htm "Glossary Entry") to structured data types. The additions TYPE or LIKE of the statement FIELD-SYMBOLS should be used to type field symbols, while the addition CASTING of the statement ASSIGN is used for casting.
 
 Example
 
@@ -10183,7 +10183,7 @@ ASSIGN wa2 TO <scarr2> CASTING.
 
 Executable Example
 
-[Field Symbols, Cast Structures](javascript:call_link\('abenfield_symbols_struc_abexa.htm'\))
+[Field Symbols, Cast Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfield_symbols_struc_abexa.htm)
 
 
 
@@ -10201,7 +10201,7 @@ Executable Example
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Declarations](javascript:call_link\('abenobsolete_declarations.htm'\)) →  [Field Symbols](javascript:call_link\('abenfield_symbols_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Declarations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobsolete_declarations.htm) →  [Field Symbols](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfield_symbols_obsolete.htm) → 
 
 Field Symbols, Cast Structures
 
@@ -10276,22 +10276,22 @@ Included pages: 6
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (LDB, Obsolete)](javascript:call_link\('abenldb.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (LDB, Obsolete)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb.htm) → 
 
 LDB - Examples
 
--   [Example of a logical database](javascript:call_link\('abenldb_example.htm'\))
--   [Example of selection include](javascript:call_link\('abenldb_selections_example.htm'\))
--   [Example of a database program](javascript:call_link\('abenldb_program_example.htm'\))
--   [Logical database, linked with a program](javascript:call_link\('abenreport_abexa.htm'\))
--   [Logical database, called by function module](javascript:call_link\('abenlogical_database_abexa.htm'\))
+-   [Example of a logical database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_example.htm)
+-   [Example of selection include](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_selections_example.htm)
+-   [Example of a database program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_program_example.htm)
+-   [Logical database, linked with a program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreport_abexa.htm)
+-   [Logical database, called by function module](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_database_abexa.htm)
 
 Continue
-[LDB - Example of a Logical Database](javascript:call_link\('abenldb_example.htm'\))
-[LDB - Example of a Selection Include](javascript:call_link\('abenldb_selections_example.htm'\))
-[LDB - Example of a Database Program](javascript:call_link\('abenldb_program_example.htm'\))
-![Example](exa.gif "Example") [LDB - Linkage with a Program](javascript:call_link\('abenreport_abexa.htm'\))
-![Example](exa.gif "Example") [LDB - Calls Using a Function Module](javascript:call_link\('abenlogical_database_abexa.htm'\))
+[LDB - Example of a Logical Database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_example.htm)
+[LDB - Example of a Selection Include](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_selections_example.htm)
+[LDB - Example of a Database Program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_program_example.htm)
+![Example](exa.gif "Example") [LDB - Linkage with a Program](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenreport_abexa.htm)
+![Example](exa.gif "Example") [LDB - Calls Using a Function Module](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_database_abexa.htm)
 
 
 
@@ -10309,7 +10309,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (LDB, Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [LDB - Examples](javascript:call_link\('abenldb_examples.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (LDB, Obsolete)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb.htm) →  [LDB - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_examples.htm) → 
 
 LDB - Example of a Logical Database
 
@@ -10356,9 +10356,9 @@ FORM put\_bkpf.
   ENDSELECT.
 ENDFORM.
 
-The PROGRAM statement has the addition [DEFINING DATABASE test\_ldb](javascript:call_link\('abapreport_defining.htm'\)). This defines the link of the database program with the logical database TEST\_LDB.
+The PROGRAM statement has the addition [DEFINING DATABASE test\_ldb](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapreport_defining.htm). This defines the link of the database program with the logical database TEST\_LDB.
 
-The nodes of the structure are declared using the [NODES statement](javascript:call_link\('abapnodes.htm'\)). This creates the required interface work areas as table work areas. The statement [TABLES](javascript:call_link\('abaptables.htm'\)) can be used as a node in the same way for database tables. If the nodes are not database tables, they must be declared using NODES. The interface work areas are shared by the database program and a linked executable program or the function module LDB\_PROCESS and therefore become the interface used for passing data.
+The nodes of the structure are declared using the [NODES statement](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapnodes.htm). This creates the required interface work areas as table work areas. The statement [TABLES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptables.htm) can be used as a node in the same way for database tables. If the nodes are not database tables, they must be declared using NODES. The interface work areas are shared by the database program and a linked executable program or the function module LDB\_PROCESS and therefore become the interface used for passing data.
 
 The selection screen can be initialized in the subroutines init and pbo.
 
@@ -10384,11 +10384,11 @@ This program is only intended to demonstrate the principles of the structure of 
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (LDB, Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [LDB - Examples](javascript:call_link\('abenldb_examples.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (LDB, Obsolete)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb.htm) →  [LDB - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_examples.htm) → 
 
 LDB - Example of a Selection Include
 
-A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](javascript:call_link\('abenldb_example.htm'\)). The generated proposal for the selection include is then as follows:
+A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_example.htm). The generated proposal for the selection include is then as follows:
 
 \*-----------------------------------------------------------\*
 \* Include DBTEST\_LDBSEL
@@ -10459,11 +10459,11 @@ A selection is made from the available selection criteria and is given a name. T
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (LDB, Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [LDB - Examples](javascript:call_link\('abenldb_examples.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (LDB, Obsolete)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb.htm) →  [LDB - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_examples.htm) → 
 
 LDB - Example of a Database Program
 
-A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](javascript:call_link\('abenldb_example.htm'\)). All nodes are database tables. Selections are defined in the selection include:
+A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include:
 
 SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR.
 SELECT-OPTIONS SBUKRS  FOR LFB1-BUKRS.
@@ -10627,7 +10627,7 @@ The comment characters in front of ABAP statements that are to be used in additi
 
 When the database is accessed in the subroutines put\_node, SELECT statements with conditions for the primary key fields in the WHERE clauses are generated. The performance of these statements is, however, not yet optimized. In particular, the subroutines put\_node of a subtree of the structure represent nested SELECT loops, which should generally be avoided. Instead, the data read can be buffered in internal tables, for example, and passed from here to the application program using the PUT statement. The statement PUT node, however, should always be in a subroutine whose name starts with put\_node for technical reasons.
 
-If the selections specify [dynamic selections](javascript:call_link\('abenldb_free_selections.htm'\)) or [field selections](javascript:call_link\('abenldb_field_selections.htm'\)) for a node, corresponding statements are generated in the subroutine put\_node and the SELECT statement created automatically is modified, as shown in the example for the node BKPF.
+If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_free_selections.htm) or [field selections](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_field_selections.htm) for a node, corresponding statements are generated in the subroutine put\_node and the SELECT statement created automatically is modified, as shown in the example for the node BKPF.
 
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.
 
@@ -10647,7 +10647,7 @@ The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a c
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (LDB, Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [LDB - Examples](javascript:call_link\('abenldb_examples.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (LDB, Obsolete)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb.htm) →  [LDB - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_examples.htm) → 
 
 LDB - Linkage with a Program
 
@@ -10690,7 +10690,7 @@ END-OF-SELECTION.
 
 Description
 
-This example shows a typical report where the [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") F1S is assigned to its properties.
+This example shows a typical report where the [logical database](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") F1S is assigned to its properties.
 
 
 
@@ -10708,7 +10708,7 @@ This example shows a typical report where the [logical database](javascript:call
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (LDB, Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [LDB - Examples](javascript:call_link\('abenldb_examples.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (LDB, Obsolete)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb.htm) →  [LDB - Examples](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenldb_examples.htm) → 
 
 LDB - Calls Using a Function Module
 
@@ -10824,7 +10824,7 @@ Included pages: 8
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) → 
 
 Internal Tables
 
@@ -10850,7 +10850,7 @@ An internal table is a dynamic data object consisting of a sequence of lines wit
     Every internal table has a primary table key. A table key consists of columns from the internal table. The content of these columns identifies table lines. The table category determines whether a key is unique or non-unique.
     
 
-Internal tables enable variable datasets (a variable number of lines) with a fixed structure (the line type) to be processed in the working memory of the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of a program. The content of an internal table can either be accessed sequentially in a LOOP or by accessing individual lines (for example, by using READ TABLE or a table expression).
+Internal tables enable variable datasets (a variable number of lines) with a fixed structure (the line type) to be processed in the working memory of the [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry") of a program. The content of an internal table can either be accessed sequentially in a LOOP or by accessing individual lines (for example, by using READ TABLE or a table expression).
 
 There are two ways of accessing individual lines:
 
@@ -10859,22 +10859,22 @@ There are two ways of accessing individual lines:
 
 Primary table access is possible for all three table categories. Access using the primary key, however, is optimized only for sorted tables and hashed tables. In standard tables, primary key access uses a linear search. Access using the primary line index, on the other hand, is possible for standard tables and sorted tables only. As well as its primary key, an internal key can also have further secondary keys. These keys enhance and optimize access options to the various table categories.
 
--   [Selecting the Table Category](javascript:call_link\('abenselect_table_type_guidl.htm'\) "Guideline")
--   [Secondary Keys](javascript:call_link\('abensecondary_key_guidl.htm'\) "Guideline")
--   [Initial Memory Requirements](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\) "Guideline")
--   [Sorted Filling](javascript:call_link\('abensort_guidl.htm'\) "Guideline")
--   [Compressed Filling](javascript:call_link\('abencollect_guidl.htm'\) "Guideline")
--   [Target Area](javascript:call_link\('abentable_output_guidl.htm'\) "Guideline")
--   [Loop Processing](javascript:call_link\('abenloop_guidl.htm'\) "Guideline")
+-   [Selecting the Table Category](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_table_type_guidl.htm "Guideline")
+-   [Secondary Keys](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_key_guidl.htm "Guideline")
+-   [Initial Memory Requirements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninitial_memory_requ_guidl.htm "Guideline")
+-   [Sorted Filling](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensort_guidl.htm "Guideline")
+-   [Compressed Filling](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencollect_guidl.htm "Guideline")
+-   [Target Area](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_output_guidl.htm "Guideline")
+-   [Loop Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_guidl.htm "Guideline")
 
 Continue
-[Selecting the Table Category](javascript:call_link\('abenselect_table_type_guidl.htm'\))
-[Secondary Key](javascript:call_link\('abensecondary_key_guidl.htm'\))
-[Initial Memory Requirements](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\))
-[Sorted Filling](javascript:call_link\('abensort_guidl.htm'\))
-[Collected Filling](javascript:call_link\('abencollect_guidl.htm'\))
-[Target Area](javascript:call_link\('abentable_output_guidl.htm'\))
-[Loop Processing](javascript:call_link\('abenloop_guidl.htm'\))
+[Selecting the Table Category](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_table_type_guidl.htm)
+[Secondary Key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_key_guidl.htm)
+[Initial Memory Requirements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninitial_memory_requ_guidl.htm)
+[Sorted Filling](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensort_guidl.htm)
+[Collected Filling](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencollect_guidl.htm)
+[Target Area](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_output_guidl.htm)
+[Loop Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_guidl.htm)
 
 
 
@@ -10892,7 +10892,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_gdl.htm) → 
 
 Selecting the Table Category
 
@@ -10933,14 +10933,14 @@ Particularly for tables with a lot of lines, you have to select the appropriate 
     This table category is useful if key accesses are the central operation for table entries, if the tables are large, and if a unique key can be defined.
     
 
-In addition to the processing speed, memory requirements can also play an important role. If this is supposed to be optimized according to [Consider the Ratio of Administration and Application Data](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline"), you must also take into account the administration costs of the table categories.
+In addition to the processing speed, memory requirements can also play an important role. If this is supposed to be optimized according to [Consider the Ratio of Administration and Application Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline"), you must also take into account the administration costs of the table categories.
 
--   Standard tables and sorted tables (index tables) that are managed using a table index, incur the least [administration costs](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline") (6 bytes for each line on average). As long as the logical order in the table index corresponds to the physical order in the table body, a standard table does not incur any line-related administration costs. This is the case if you always append lines after the last line or delete only the last line.
--   Hashed tables require considerably more space for their [administration data](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline") than index tables (18 or 30 bytes for each line on average).
+-   Standard tables and sorted tables (index tables) that are managed using a table index, incur the least [administration costs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline") (6 bytes for each line on average). As long as the logical order in the table index corresponds to the physical order in the table body, a standard table does not incur any line-related administration costs. This is the case if you always append lines after the last line or delete only the last line.
+-   Hashed tables require considerably more space for their [administration data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline") than index tables (18 or 30 bytes for each line on average).
 
 Depending on the length of the key and the number of lines in an internal table, access using a sorted key can be as fast as or even faster than using a hashed table. In cases like this, and if the memory space is critical, you should work with a sorted table instead of a hashed table.
 
-If you use [secondary keys](javascript:call_link\('abensecondary_key_guidl.htm'\) "Guideline"), the rules mentioned here may be qualified to a certain degree, as the overall costs need to be considered in this case.
+If you use [secondary keys](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensecondary_key_guidl.htm "Guideline"), the rules mentioned here may be qualified to a certain degree, as the overall costs need to be considered in this case.
 
 
 
@@ -10958,7 +10958,7 @@ If you use [secondary keys](javascript:call_link\('abensecondary_key_guidl.htm'\
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_gdl.htm) → 
 
 Secondary Key
 
@@ -10971,7 +10971,7 @@ Secondary keys can be declared for internal tables. The following options are po
 
 These keys are assigned a name when they are declared and can be created for any table category. The primary key (nameless up to this point) is assigned a predefined name (primary\_key), which allows it to be explicitly addressed. A secondary table index is created internally for each sorted secondary key. This enables index access to hashed tables. When internal tables are accessed, a table key or index must be specified. If nothing is explicitly specified, the internal table is accessed using the primary key or primary index by default.
 
-Access to internal tables using secondary keys is always optimized. This generally increases read performance significantly. Previously, no optimized key access was possible for this. On the other hand, secondary keys also incur additional administration costs due to memory consumption and runtime. Additional runtime costs arise, if a secondary table index needs to be updated after changes to table content. The ABAP runtime framework delays these runtime costs for as long as possible, until they are actually required (lazy update and delayed update). The [administration costs](javascript:call_link\('abenadmin_costs_dyn_mem_obj_guidl.htm'\) "Guideline") for a secondary key are just as high as for the primary table keys: on average, 6 bytes for each secondary index line and 18 or 30 bytes for each hash key line. On average, another 8 bytes per line are required if the table has at least one non-unique sorted secondary key. Additional memory costs are incurred if a secondary key needs to be updated after changes to internal table content. These memory costs are on the same scale as the costs above and also depend on the number of lines.
+Access to internal tables using secondary keys is always optimized. This generally increases read performance significantly. Previously, no optimized key access was possible for this. On the other hand, secondary keys also incur additional administration costs due to memory consumption and runtime. Additional runtime costs arise, if a secondary table index needs to be updated after changes to table content. The ABAP runtime framework delays these runtime costs for as long as possible, until they are actually required (lazy update and delayed update). The [administration costs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadmin_costs_dyn_mem_obj_guidl.htm "Guideline") for a secondary key are just as high as for the primary table keys: on average, 6 bytes for each secondary index line and 18 or 30 bytes for each hash key line. On average, another 8 bytes per line are required if the table has at least one non-unique sorted secondary key. Additional memory costs are incurred if a secondary key needs to be updated after changes to internal table content. These memory costs are on the same scale as the costs above and also depend on the number of lines.
 
 Rule
 
@@ -11048,7 +11048,7 @@ ENDLOOP.
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_gdl.htm) → 
 
 Initial Memory Requirements
 
@@ -11118,7 +11118,7 @@ TYPES: BEGIN OF line\_structure,
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_gdl.htm) → 
 
 Sorted Filling
 
@@ -11126,7 +11126,7 @@ Background
 
 The statement APPEND for attaching lines to an internal table has the addition SORTED BY. This addition can be used to fill a standard table by using sorted filling. The prerequisites are:
 
--   A value greater than zero must be specified for the addition [INITIAL SIZE](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\) "Guideline").
+-   A value greater than zero must be specified for the addition [INITIAL SIZE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninitial_memory_requ_guidl.htm "Guideline").
 -   Only the statement APPEND with the addition SORTED BY can be used to fill the internal table.
 
 Once these prerequisites have been met, a ranking list is created that contains at most the same number of lines as specified with INITIAL SIZE. This list is sorted by the component specified after SORTED BY in descending order.
@@ -11188,7 +11188,7 @@ ENDLOOP.
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_gdl.htm) → 
 
 Collected Filling
 
@@ -11225,19 +11225,19 @@ The statement COLLECT is based on unique entries with respect to the primary key
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_gdl.htm) → 
 
 Target Area
 
 Background
 
-Internal tables can be read by accessing individual lines using READ TABLE or [table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry"), or sequentially using LOOP AT. In both cases, the following output behavior can be defined by using the statements with the following additions:
+Internal tables can be read by accessing individual lines using READ TABLE or [table expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expression_glosry.htm "Glossary Entry"), or sequentially using LOOP AT. In both cases, the following output behavior can be defined by using the statements with the following additions:
 
 -   The addition INTO copies the content of the line to an appropriate data object.
--   The addition ASSIGNING assigns the read line to a [field symbol](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline"), which enables the line to be addressed directly.
--   The REFERENCE INTO addition sets a [data reference](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline") to the read line.
+-   The addition ASSIGNING assigns the read line to a [field symbol](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendyn_access_data_obj_guidl.htm "Guideline"), which enables the line to be addressed directly.
+-   The REFERENCE INTO addition sets a [data reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendyn_access_data_obj_guidl.htm "Guideline") to the read line.
 
-In the case of [table expressions](javascript:call_link\('abentable_expressions.htm'\)), the output behavior is controlled by the [category of the result](javascript:call_link\('abentable_exp_result.htm'\)).
+In the case of [table expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_expressions.htm), the output behavior is controlled by the [category of the result](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_result.htm).
 
 As well as for exports, the ASSIGNING and REFERENCE INTO additions can also be used for the APPEND, COLLECT, INSERT, and MODIFY statements, where they create references to the line being processed.
 
@@ -11255,16 +11255,16 @@ Details
 
 The criteria for selecting the output behavior are the processing speed, on the one hand, and what is to be done with the read line, on the other hand:
 
--   If the content of the read line is to be modified, the addition ASSIGNING or (in the case of table expressions) the appropriate [result](javascript:call_link\('abentable_exp_result.htm'\)) should usually be used. This allows direct access to the line using the value semantics and removes the need for a MODIFY operation later on.
--   If a reference to the read line is required that can be processed using reference semantics, the addition REFERENCE INTO or (in the case of table expressions) the appropriate [result](javascript:call_link\('abentable_exp_result.htm'\)) is to be used.
--   If the content of the read line is not to be modified, any of these procedures can be used. The line type of the table is significant for performance. If the table line is wide or contains deep components (for example, strings or other tables), reads are usually faster if ASSIGNING or REFERENCE INTO is used instead of INTO. The [way they are used](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline") is the determining factor for selecting which of the two should be used.
+-   If the content of the read line is to be modified, the addition ASSIGNING or (in the case of table expressions) the appropriate [result](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_result.htm) should usually be used. This allows direct access to the line using the value semantics and removes the need for a MODIFY operation later on.
+-   If a reference to the read line is required that can be processed using reference semantics, the addition REFERENCE INTO or (in the case of table expressions) the appropriate [result](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_result.htm) is to be used.
+-   If the content of the read line is not to be modified, any of these procedures can be used. The line type of the table is significant for performance. If the table line is wide or contains deep components (for example, strings or other tables), reads are usually faster if ASSIGNING or REFERENCE INTO is used instead of INTO. The [way they are used](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendyn_access_data_obj_guidl.htm "Guideline") is the determining factor for selecting which of the two should be used.
     
     When working with tables whose lines are flat and do not occupy more than approximately 1KB, copying with INTO is faster (at least for the READ statement) than configuring the administration that is required for dynamic access. For the statement LOOP, these costs are incurred only once, so that using ASSIGNING or REFERENCE INTO is always recommended above a certain number of lines. In contrast, INTO should always be used if the target area is to be modified without this affecting the internal table.
     
 
 Besides the processing speed, it is also important that the source code can be understood. If the recommendations mentioned are kept, reading a table with the addition ASSIGNING (but also REFERENCE INTO) indicates to the reader that the table content is potentially changed. Reading a table with the INTO addition, on the other hand, indicates that the table will not be modified.
 
-For table expressions, the information here applies to the selection of the appropriate [result](javascript:call_link\('abentable_exp_result.htm'\)).
+For table expressions, the information here applies to the selection of the appropriate [result](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_exp_result.htm).
 
 Bad Example
 
@@ -11301,7 +11301,7 @@ ENDLOOP.
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrobust_abap_gdl.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_gdl.htm) → 
 
 Loop Processing
 
@@ -11327,7 +11327,7 @@ A modifying access to the entire table body usually produces a runtime error and
 
 Hint
 
-This rule is mainly intended to make you more aware of the problem. If you only work with [ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") or if no [syntax check warnings](javascript:call_link\('abensyntax_check_guidl.htm'\) "Guideline") are ignored, the rule above should be met automatically.
+This rule is mainly intended to make you more aware of the problem. If you only work with [ABAP Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") or if no [syntax check warnings](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensyntax_check_guidl.htm "Guideline") are ignored, the rule above should be met automatically.
 
 
 ---
@@ -11360,18 +11360,18 @@ Included pages: 2
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Cheat Sheets](javascript:call_link\('abenabap_blurb.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Cheat Sheets](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_blurb.htm) → 
 
 Grouping Internal Tables
 
-Similar to SQL's [GROUP BY](javascript:call_link\('abapgroupby_clause.htm'\)), there is also a [GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)) for working with internal tables, that can be used behind [LOOP AT itab](javascript:call_link\('abaploop_at_itab_variants.htm'\)) or in the form [IN GROUP](javascript:call_link\('abenfor_in_group.htm'\)) in a table iteration with [FOR](javascript:call_link\('abenfor_itab.htm'\)). It replaces the clumsy group level processing with statements [AT NEW ...](javascript:call_link\('abapat_itab.htm'\)) that relies on the order of table columns and contents that is sorted respectively.
+Similar to SQL's [GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapgroupby_clause.htm), there is also a [GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm) for working with internal tables, that can be used behind [LOOP AT itab](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_variants.htm) or in the form [IN GROUP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor_in_group.htm) in a table iteration with [FOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor_itab.htm). It replaces the clumsy group level processing with statements [AT NEW ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapat_itab.htm) that relies on the order of table columns and contents that is sorted respectively.
 
 While there are may examples for all the powerful features of GROUP BY and IN GROUP under
 
--   [Examples of Grouping with LOOP](javascript:call_link\('abenloop_group_by_abexas.htm'\)),
--   [Examples of Grouping with FOR](javascript:call_link\('abenfor_grouping_abexas.htm'\)),
+-   [Examples of Grouping with LOOP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenloop_group_by_abexas.htm),
+-   [Examples of Grouping with FOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfor_grouping_abexas.htm),
 
-the following explains the grouping of internal tables step by step using a very simple case of an internal table spfli\_tab that is filled with data from the database table SPFLI. The following steps show how the contents of the internal table can be grouped using [LOOP AT GROUP BY](javascript:call_link\('abaploop_at_itab_group_by.htm'\)):
+the following explains the grouping of internal tables step by step using a very simple case of an internal table spfli\_tab that is filled with data from the database table SPFLI. The following steps show how the contents of the internal table can be grouped using [LOOP AT GROUP BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab_group_by.htm):
 
 -   [Grouping by One Column](#abapsheets-grouping-iitabs-1-------grouping-by-more-than-one-column---@ITOC@@ABAPSHEETS_GROUPING_IITABS_2)
 -   [Group Key Binding when Grouping by One Column](#abapsheets-grouping-iitabs-3-------group-key-binding-when-grouping-by-more-than-one-column---@ITOC@@ABAPSHEETS_GROUPING_IITABS_4)
@@ -11462,7 +11462,7 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates all syntactical options shown in [Grouping internal tables](javascript:call_link\('abapsheets_grouping_iitabs.htm'\)).
+This example demonstrates all syntactical options shown in [Grouping internal tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheets_grouping_iitabs.htm).
 
 
 ---

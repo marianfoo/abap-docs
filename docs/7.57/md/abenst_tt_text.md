@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Literal Template Content](javascript:call_link\('abenst_literals.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_serial_deserial.htm) →  [ST - Literal Template Content](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_literals.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ST - tt:text, Literal Text, ABENST_TT_TEXT, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0
 D%0ASuggestion for improvement:)
@@ -33,7 +33,7 @@ The literal text of the XML source document is compared character by character (
 
 Hint
 
-Literal texts with other characters other than whitespaces should be used sparingly; always identified with tt:text, and should not span multiple lines because line breaks and indents are potential sources of errors in deserializations. Unflagged texts should only be used to format the ST program with line breaks and blanks (indents). To avoid problems in deserializations of literal texts, they can be skipped using [tt:skip](javascript:call_link\('abenst_tt_skip.htm'\)).
+Literal texts with other characters other than whitespaces should be used sparingly; always identified with tt:text, and should not span multiple lines because line breaks and indents are potential sources of errors in deserializations. Unflagged texts should only be used to format the ST program with line breaks and blanks (indents). To avoid problems in deserializations of literal texts, they can be skipped using [tt:skip](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_skip.htm).
 
 Example
 
@@ -85,7 +85,7 @@ The ST program below cannot deserialize the XML data either, because it expects 
   </tt:template>
 </tt:transform>
 
-The ST program below can deserialize the XML data, where all elements are skipped using [tt:skip](javascript:call_link\('abenst_tt_skip.htm'\)).
+The ST program below can deserialize the XML data, where all elements are skipped using [tt:skip](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_skip.htm).
 
 <tt:transform
   xmlns:tt="http://www.sap.com/transformation-templates">

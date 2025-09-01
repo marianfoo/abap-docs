@@ -4,17 +4,17 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_branches.htm) → 
 
 IF
 
-[Quick Reference](javascript:call_link\('abapif_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapif_shortref.htm)
 
 Syntax
 
-IF [log\_exp1](javascript:call_link\('abenlogexp.htm'\)).
+IF [log\_exp1](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm).
   *\[*statement\_block1*\]*
-*\[*ELSEIF [log\_exp2](javascript:call_link\('abenlogexp.htm'\)).
+*\[*ELSEIF [log\_exp2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm).
   *\[*statement\_block2*\]**\]*
 ...
 *\[*ELSE.
@@ -23,9 +23,9 @@ ENDIF.
 
 Effect
 
-These statements define a control structure which can contain multiple statement blocks statement\_block of which a maximum of one will be executed in conjunction with logical expressions [log\_exp](javascript:call_link\('abenlogexp.htm'\)).
+These statements define a control structure which can contain multiple statement blocks statement\_block of which a maximum of one will be executed in conjunction with logical expressions [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm).
 
-After IF and ELSEIF any logical expressions [log\_exp](javascript:call_link\('abenlogexp.htm'\)) can be executed while the expressions statement\_block stand for any statement blocks.
+After IF and ELSEIF any logical expressions [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogexp.htm) can be executed while the expressions statement\_block stand for any statement blocks.
 
 The logical expressions, beginning with the IFstatement, are checked from top to bottom and the statement block after the first is executed during the logical expression. If none of the logical expressions are true, the statement block after the ELSE statement is executed.
 
@@ -33,11 +33,11 @@ When the end of the statement block is reached or if no statement block is to be
 
 Note
 
-Furthermore, the [conditional operator](javascript:call_link\('abenconditional_operator_glosry.htm'\) "Glossary Entry") [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)) can also be used to implement branches in operand positions that are based on logical expressions.
+Furthermore, the [conditional operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconditional_operator_glosry.htm "Glossary Entry") [COND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconditional_expression_cond.htm) can also be used to implement branches in operand positions that are based on logical expressions.
 
 Example
 
-Transforms a time to the 12-hour format (see also [Country-Specific Formats](javascript:call_link\('abencountry_formats.htm'\))).
+Transforms a time to the 12-hour format (see also [Country-Specific Formats](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencountry_formats.htm)).
 
 DATA time TYPE t.
 time = sy-uzeit.
@@ -53,9 +53,9 @@ ELSE.
     |High Noon| ).
 ENDIF.
 
-See also the example for [COND](javascript:call_link\('abenconditional_expression_cond.htm'\)).
+See also the example for [COND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconditional_expression_cond.htm).
 
 Continue
-[ELSEIF](javascript:call_link\('abapelseif.htm'\))
-[ELSE](javascript:call_link\('abapelse.htm'\))
-[ENDIF](javascript:call_link\('abapendif.htm'\))
+[ELSEIF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapelseif.htm)
+[ELSE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapelse.htm)
+[ENDIF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapendif.htm)

@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [News for Release 6.40](javascript:call_link\('abennews-640.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 6.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-6.htm) →  [News for Release 6.40](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-640.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Runtime Type Services in Release 6.40, ABENNEWS-640-RTTI, 757%0D%0A%0D%0AError:%0D%0A
 %0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Runtime Type Services in Release 6.40
 
-The [runtime type services (RTTS)](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry") are a further development of the former [runtime type identification (RTTI)](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry"). With the enhancement of the [type description classes](javascript:call_link\('abentype_class_glosry.htm'\) "Glossary Entry") to include methods for creating dynamic types (see modification 1), the RTTS include (from Release 6.40) the RTTI and also runtime type creation (RTTC).
+The [runtime type services (RTTS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry") are a further development of the former [runtime type identification (RTTI)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry"). With the enhancement of the [type description classes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_class_glosry.htm "Glossary Entry") to include methods for creating dynamic types (see modification 1), the RTTS include (from Release 6.40) the RTTI and also runtime type creation (RTTC).
 
 [1\. Methods for Creating Data Types](#!ABAP_MODIFICATION_1@1@)
 [2\. New Methods for Types from ABAP Dictionary](#!ABAP_MODIFICATION_2@2@)
@@ -25,9 +25,9 @@ Modification 1  
 
 Methods for Creating Data Types
 
-The type description classes of RTTI were enhanced using [RTTC](javascript:call_link\('abenrun_time_type_creation_glosry.htm'\) "Glossary Entry") methods. These methods create type description objects independently of existing types. This means what was previously RTTI becomes the [RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry").
+The type description classes of RTTI were enhanced using [RTTC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrun_time_type_creation_glosry.htm "Glossary Entry") methods. These methods create type description objects independently of existing types. This means what was previously RTTI becomes the [RTTS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry").
 
-Together with the addition HANDLE of the statements [CREATE DATA](javascript:call_link\('abapcreate_data_handle.htm'\)) and [ASSIGN](javascript:call_link\('abapassign_casting.htm'\)), the RTTC-specific methods of the RTTS allow the construction of data objects of any types for the program runtime and the [casting](javascript:call_link\('abencast_casting_glosry.htm'\) "Glossary Entry") of dynamic types.
+Together with the addition HANDLE of the statements [CREATE DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_data_handle.htm) and [ASSIGN](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_casting.htm), the RTTC-specific methods of the RTTS allow the construction of data objects of any types for the program runtime and the [casting](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencast_casting_glosry.htm "Glossary Entry") of dynamic types.
 
 The most important new methods for dynamically defining data types are:
 
@@ -54,11 +54,11 @@ For any data types
     
 -   CL\_ABAP\_TYPEDESCR=>GET\_DDIC\_HEADER
     
-    returns the [nametab header](javascript:call_link\('abenname_tab_header_glosry.htm'\) "Glossary Entry") of a type from ABAP Dictionary
+    returns the [nametab header](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenname_tab_header_glosry.htm "Glossary Entry") of a type from ABAP Dictionary
     
 -   CL\_ABAP\_TYPEDESCR=>GET\_DDIC\_OBJECT
     
-    returns the [nametab field descriptions](javascript:call_link\('abenname_tab_fields_glosry.htm'\) "Glossary Entry") of a type from ABAP Dictionary
+    returns the [nametab field descriptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenname_tab_fields_glosry.htm "Glossary Entry") of a type from ABAP Dictionary
     
 
 For elementary data types
@@ -69,7 +69,7 @@ For elementary data types
     
 -   CL\_ABAP\_ELEMDESCR=>GET\_DDIC\_FIXED\_VALUES
     
-    returns the [fixed values](javascript:call_link\('abenfixed_value_glosry.htm'\) "Glossary Entry") of the data element
+    returns the [fixed values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfixed_value_glosry.htm "Glossary Entry") of the data element
     
 
 For structures and database tables
@@ -107,4 +107,4 @@ Modification 7  
 
 New Method GET\_DATA\_TYPE\_KIND
 
-A new public method GET\_DATA\_TYPE\_KIND has been introduced in class CL\_ABAP\_DATADESCR. This method returns the same values as the statement [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)) with the addition TYPE. These values are also defined as constants with the prefix TYPE\_KIND\_ of class CL\_ABAP\_DATADESCR.
+A new public method GET\_DATA\_TYPE\_KIND has been introduced in class CL\_ABAP\_DATADESCR. This method returns the same values as the statement [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdescribe_field.htm) with the addition TYPE. These values are also defined as constants with the prefix TYPE\_KIND\_ of class CL\_ABAP\_DATADESCR.

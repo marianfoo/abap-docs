@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [Data Consistency](javascript:call_link\('abendata_consistency.htm'\)) →  [SAP LUW](javascript:call_link\('abensap_luw.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [Data Consistency](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_consistency.htm) →  [SAP LUW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CALL%20FUNCTION%2C%20IN%20UPDATE%20TASK%2C%20ABAPCALL_FUNCTION_UPDATE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CALL FUNCTION, IN UPDATE TASK
 
-[Short Reference](javascript:call_link\('abapcall_function_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_shortref.htm)
 
 Syntax
 
@@ -25,15 +25,15 @@ Additions:
 
 Effect
 
-This statement registers the update function module specified in update\_function. update\_function must be a character-like field, which contains the name of an [update function module](javascript:call_link\('abenupdate_function_module_glosry.htm'\) "Glossary Entry") in uppercase letters during execution of the statement. If specified, the same applies to update\_function as to [general function module calls](javascript:call_link\('abapcall_function_general.htm'\)).
+This statement registers the update function module specified in update\_function. update\_function must be a character-like field, which contains the name of an [update function module](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenupdate_function_module_glosry.htm "Glossary Entry") in uppercase letters during execution of the statement. If specified, the same applies to update\_function as to [general function module calls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_general.htm).
 
-An update function module is a [function module](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") for which the property update module is flagged in the [Function Builder](javascript:call_link\('abenfunction_builder_glosry.htm'\) "Glossary Entry"). The registration of an update function module is an essential part of the [update](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry").
+An update function module is a [function module](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunction_module_glosry.htm "Glossary Entry") for which the property update module is flagged in the [Function Builder](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunction_builder_glosry.htm "Glossary Entry"). The registration of an update function module is an essential part of the [update](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenupdate_glosry.htm "Glossary Entry").
 
-The function module is not executed immediately, but it is scheduled for execution in a special work process (update work process) or, if [local updates](javascript:call_link\('abenlocal_update_glosry.htm'\) "Glossary Entry") are enabled, in the current work process. To do this, the name of the function module and the actual parameters passed are stored in the DDIC database tables VBMOD and VBDATA, which are managed by VBHDR. If the statement is executed during the update task, the addition IN UPDATE TASK is ignored.
+The function module is not executed immediately, but it is scheduled for execution in a special work process (update work process) or, if [local updates](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlocal_update_glosry.htm "Glossary Entry") are enabled, in the current work process. To do this, the name of the function module and the actual parameters passed are stored in the DDIC database tables VBMOD and VBDATA, which are managed by VBHDR. If the statement is executed during the update task, the addition IN UPDATE TASK is ignored.
 
-If the statement [SET UPDATE TASK LOCAL](javascript:call_link\('abapset_update_task_local.htm'\)) is executed before registration of an update function module in the current [SAP LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry"), registration takes place in the [ABAP memory](javascript:call_link\('abenabap_memory_glosry.htm'\) "Glossary Entry") rather than on the database, and for the current work process.
+If the statement [SET UPDATE TASK LOCAL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_update_task_local.htm) is executed before registration of an update function module in the current [SAP LUW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw_glosry.htm "Glossary Entry"), registration takes place in the [ABAP memory](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_memory_glosry.htm "Glossary Entry") rather than on the database, and for the current work process.
 
-The actual execution is triggered by the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)). The formal parameters of the function module receive the values of the actual parameters from the DDIC database table VBDATA. A function module that is registered more than once is also executed more than once with the relevant parameter values. If no COMMIT WORK statement is executed when the current program is executed after the registration of a function module, the function module is not executed and the associated entries are deleted from the corresponding DDIC database tables when the program ends. The statement [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) deletes all previous registrations for the current SAP LUW.
+The actual execution is triggered by the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommit.htm). The formal parameters of the function module receive the values of the actual parameters from the DDIC database table VBDATA. A function module that is registered more than once is also executed more than once with the relevant parameter values. If no COMMIT WORK statement is executed when the current program is executed after the registration of a function module, the function module is not executed and the associated entries are deleted from the corresponding DDIC database tables when the program ends. The statement [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprollback.htm) deletes all previous registrations for the current SAP LUW.
 
 System Fields
 
@@ -41,12 +41,12 @@ The system field sy-subrc is undefined after the statement CALL FUNCTION ... IN 
 
 Hints
 
--   No [database commits](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") and no [database rollbacks](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry") can occur, and the update control cannot be modified during the processing of an update function module triggered using COMMIT WORK is being processed. Any statements that would produce this situation are [forbidden statements in updates](javascript:call_link\('abendb_commit_during_update.htm'\)) and always directly produce runtime errors.
--   No [authorization checks](javascript:call_link\('abenauthority_during_update.htm'\)) are possible while an update function module triggered using [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) is being processed.
--   Subroutines can be registered using [PERFORM ON COMMIT](javascript:call_link\('abapperform_on_commit.htm'\)) during the processing of an update function module triggered by [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)). They are then executed at the end of the current update.
--   If a runtime error occurs during the [update](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry"), the update work process executes a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"), logs this in the corresponding DDIC database tables, and notifies the user whose program created the entries by SAPMail. After the cause of the error has been resolved, the canceled entries can be updated again.
--   When handling the registration entries in the DDIC database tables, it should be noted that they are subject to the regular administration rules for a [database LUW](javascript:call_link\('abendatabase_luw_glosry.htm'\) "Glossary Entry"). For example, the database LUW is ended by a [database rollback](javascript:call_link\('abendatabase_rollback_glosry.htm'\) "Glossary Entry"), all registration entries of the current database LUW are deleted.
--   When an update function module is registered using CALL FUNCTION ... IN UPDATE TASK, the relevant data is exported internally to a data cluster using [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) and is imported again when executing the function module with [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)). If an error occurs in the export, for example because too much data is exported, the exceptions documented in [EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\)) are raised. If the data types of the exported actual parameters do not match the typing of the formal parameter of the function module, the exceptions documented in [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) may be raised.
+-   No [database commits](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_commit_glosry.htm "Glossary Entry") and no [database rollbacks](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_rollback_glosry.htm "Glossary Entry") can occur, and the update control cannot be modified during the processing of an update function module triggered using COMMIT WORK is being processed. Any statements that would produce this situation are [forbidden statements in updates](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_commit_during_update.htm) and always directly produce runtime errors.
+-   No [authorization checks](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenauthority_during_update.htm) are possible while an update function module triggered using [COMMIT WORK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommit.htm) is being processed.
+-   Subroutines can be registered using [PERFORM ON COMMIT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapperform_on_commit.htm) during the processing of an update function module triggered by [COMMIT WORK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommit.htm). They are then executed at the end of the current update.
+-   If a runtime error occurs during the [update](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenupdate_glosry.htm "Glossary Entry"), the update work process executes a [database rollback](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"), logs this in the corresponding DDIC database tables, and notifies the user whose program created the entries by SAPMail. After the cause of the error has been resolved, the canceled entries can be updated again.
+-   When handling the registration entries in the DDIC database tables, it should be noted that they are subject to the regular administration rules for a [database LUW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_luw_glosry.htm "Glossary Entry"). For example, the database LUW is ended by a [database rollback](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_rollback_glosry.htm "Glossary Entry"), all registration entries of the current database LUW are deleted.
+-   When an update function module is registered using CALL FUNCTION ... IN UPDATE TASK, the relevant data is exported internally to a data cluster using [EXPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_data_cluster.htm) and is imported again when executing the function module with [IMPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapimport_data_cluster.htm). If an error occurs in the export, for example because too much data is exported, the exceptions documented in [EXPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_data_cluster.htm) are raised. If the data types of the exported actual parameters do not match the typing of the formal parameter of the function module, the exceptions documented in [IMPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapimport_data_cluster.htm) may be raised.
 
 Addition 1   
 
@@ -58,9 +58,9 @@ Addition 2  
 
 Effect
 
-The additions EXPORTING and TABLES have the same syntax and meaning as in the [parameter\_list](javascript:call_link\('abapcall_function_parameter.htm'\)) of the general function module call, except that for EXPORTING, no [reference variables](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry") or data objects that contain reference variables can be specified as actual parameters.
+The additions EXPORTING and TABLES have the same syntax and meaning as in the [parameter\_list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_parameter.htm) of the general function module call, except that for EXPORTING, no [reference variables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreference_variable_glosry.htm "Glossary Entry") or data objects that contain reference variables can be specified as actual parameters.
 
-When passing internal tables with non-unique [table keys](javascript:call_link\('abenitab_key.htm'\)), the order of the duplicate lines in relation to these keys is not retained.
+When passing internal tables with non-unique [table keys](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key.htm), the order of the duplicate lines in relation to these keys is not retained.
 
 Hint
 
@@ -68,7 +68,7 @@ The additions IMPORTING, CHANGING and EXCEPTIONS of the general function module 
 
 Example
 
-Registering of the update function module DEMO\_UPDATE\_INSERT for execution when the statement [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) is executed and passing an internal table.
+Registering of the update function module DEMO\_UPDATE\_INSERT for execution when the statement [COMMIT WORK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommit.htm) is executed and passing an internal table.
 
     FINAL(values) = VALUE demo\_update\_tab(
       ( id = 'X' col1 = 100 col2 = 200 col3 = 300 col4 = 400 )
@@ -80,5 +80,5 @@ Registering of the update function module DEMO\_UPDATE\_INSERT for execution whe
 
 Executable Examples
 
--   [SAP-LUW, UPDATE TASK](javascript:call_link\('abensap_luw_update_task_abexa.htm'\))
--   The example [Demonstrating the SAP LUW](javascript:call_link\('abensap_luw_bundl_tech_abexa.htm'\)) demonstrates the SAP LUW using update function modules as bundling technique.
+-   [SAP-LUW, UPDATE TASK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw_update_task_abexa.htm)
+-   The example [Demonstrating the SAP LUW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw_bundl_tech_abexa.htm) demonstrates the SAP LUW using update function modules as bundling technique.

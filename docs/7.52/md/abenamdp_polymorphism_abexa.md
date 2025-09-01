@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm) → 
 
 AMDP, AMDP Methods in Interfaces and Superclasses
 
@@ -49,7 +49,7 @@ START-OF-SELECTION.
 
 Description
 
-An interface IF\_DEMO\_AMDP\_INTERFACE and an abstract superclass CL\_DEMO\_AMDP\_SUPERCLASS implement the tag interface IF\_AMDP\_MARKER\_HDB and contain the method GET\_CARRIER, which meets the prerequisites of an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry").
+An interface IF\_DEMO\_AMDP\_INTERFACE and an abstract superclass CL\_DEMO\_AMDP\_SUPERCLASS implement the tag interface IF\_AMDP\_MARKER\_HDB and contain the method GET\_CARRIER, which meets the prerequisites of an [AMDP method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_method_glosry.htm "Glossary Entry").
 
 The interface method is implemented once as an AMDP method and once as a regular method in the classes CL\_DEMO\_AMDP\_IMPLEMENT\_HDB and CL\_DEMO\_AMDP\_IMPLEMENT\_OPEN. In the same way, the method of the abstract superclass is redefined in the fixed subclasses CL\_DEMO\_AMDP\_SUBCLASS\_HDB and CL\_DEMO\_AMDP\_SUBCLASS\_OPEN.
 

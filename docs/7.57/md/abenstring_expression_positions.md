@@ -4,80 +4,80 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Syntax Elements of an ABAP Program](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operand Positions](javascript:call_link\('abenoperand_positions.htm'\)) →  [Expression Positions for Functions and Expressions](javascript:call_link\('abenexpression_positions.htm'\)) →  [Read Positions for Functions and Expressions](javascript:call_link\('abenexpression_positions_read.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Syntax Elements of an ABAP Program](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_statements.htm) →  [Operand Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenoperand_positions.htm) →  [Expression Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpression_positions.htm) →  [Read Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexpression_positions_read.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Character-Like Expression Positions, ABENSTRING_EXPRESSION_POSITIONS, 757%0D%0A%0D%0A
 Error:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Character-Like Expression Positions
 
-Character-like expression positions are [read positions](javascript:call_link\('abenread_position_glosry.htm'\) "Glossary Entry") where [character-like data objects](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry"), [constructor expressions](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry"), [string expressions](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry"), [table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry"), and [built-in functions](javascript:call_link\('abenbuiltin_function_glosry.htm'\) "Glossary Entry") can be specified, as well as [functional method calls](javascript:call_link\('abenfunctional_method_call_glosry.htm'\) "Glossary Entry") and [method chainings](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry") whose return value has a [character-like data type](javascript:call_link\('abencharlike_data_type_glosry.htm'\) "Glossary Entry"). The following character-like expression positions exist:
+Character-like expression positions are [read positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenread_position_glosry.htm "Glossary Entry") where [character-like data objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencharlike_data_object_glosry.htm "Glossary Entry"), [constructor expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_glosry.htm "Glossary Entry"), [string expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_expression_glosry.htm "Glossary Entry"), [table expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_expression_glosry.htm "Glossary Entry"), and [built-in functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuiltin_function_glosry.htm "Glossary Entry") can be specified, as well as [functional method calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunctional_method_call_glosry.htm "Glossary Entry") and [method chainings](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethod_chaining_glosry.htm "Glossary Entry") whose return value has a [character-like data type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencharlike_data_type_glosry.htm "Glossary Entry"). The following character-like expression positions exist:
 
--   Operand positions in [string expressions](javascript:call_link\('abapcompute_string.htm'\))
--   Character-like arguments in [processing functions](javascript:call_link\('abenprocess_functions.htm'\))
--   Character-like arguments in [description functions](javascript:call_link\('abendescriptive_functions.htm'\))
+-   Operand positions in [string expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_string.htm)
+-   Character-like arguments in [processing functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocess_functions.htm)
+-   Character-like arguments in [description functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendescriptive_functions.htm)
 -   Operand comp of the statement
     
-    [ASSIGN COMPONENT comp OF STRUCTURE](javascript:call_link\('abapassign_dynamic_components.htm'\))
+    [ASSIGN COMPONENT comp OF STRUCTURE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassign_dynamic_components.htm)
     
 -   Regular expression regex in the statements
     
-    [FIND ... PCRE*|*REGEX regex ... IN ...](javascript:call_link\('abapfind_pattern.htm'\))
-    [REPLACE ... PCRE*|*REGEX regex ... IN ...](javascript:call_link\('abapreplace_pattern.htm'\))
+    [FIND ... PCRE*|*REGEX regex ... IN ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfind_pattern.htm)
+    [REPLACE ... PCRE*|*REGEX regex ... IN ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreplace_pattern.htm)
     
 -   Search pattern substring in the statements
     
-    [FIND ... SUBSTRING substring ... IN ...](javascript:call_link\('abapfind_pattern.htm'\))
-    [REPLACE ... SUBSTRING substring ... IN ...](javascript:call_link\('abapreplace_pattern.htm'\))
+    [FIND ... SUBSTRING substring ... IN ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfind_pattern.htm)
+    [REPLACE ... SUBSTRING substring ... IN ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreplace_pattern.htm)
     
 -   Operand dobj in the statement
     
-    [FIND ... IN dobj ...](javascript:call_link\('abapfind.htm'\))
+    [FIND ... IN dobj ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfind.htm)
     
 -   Operand new in the statement
     
-    [REPLACE ... WITH new ...](javascript:call_link\('abapreplace.htm'\))
-    [REPLACE ... IN TABLE ... WITH new ...](javascript:call_link\('abapreplace_itab.htm'\))
+    [REPLACE ... WITH new ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreplace.htm)
+    [REPLACE ... IN TABLE ... WITH new ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreplace_itab.htm)
     
 -   Operand substring in the statement
     
-    [SHIFT ... UP TO substring](javascript:call_link\('abapshift_places.htm'\))
+    [SHIFT ... UP TO substring](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapshift_places.htm)
     
 -   Operand mask in the statement
     
-    [SHIFT ... DELETING ... mask](javascript:call_link\('abapshift_deleting.htm'\))
+    [SHIFT ... DELETING ... mask](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapshift_deleting.htm)
     
 -   Operands dobj and sep in the statement
     
-    [SPLIT dobj AT sep INTO ...](javascript:call_link\('abapsplit.htm'\))
+    [SPLIT dobj AT sep INTO ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsplit.htm)
     
 -   Operand text in the statement
     
-    [CONVERT text INTO SORTABLE CODE ...](javascript:call_link\('abapconvert_text.htm'\))
+    [CONVERT text INTO SORTABLE CODE ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapconvert_text.htm)
     
 -   Operands text2 and text2 in the statement
     
-    [OVERLAY ... WITH text2 USING mask](javascript:call_link\('abapoverlay.htm'\))
+    [OVERLAY ... WITH text2 USING mask](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapoverlay.htm)
     
 -   Operand mask in the statement
     
-    [TRANSLATE ... USING mask](javascript:call_link\('abaptranslate.htm'\))
+    [TRANSLATE ... USING mask](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptranslate.htm)
     
 -   Operand sub in the statement
     
-    [ASSERT ... SUBKEY sub ...](javascript:call_link\('abapassert.htm'\))
+    [ASSERT ... SUBKEY sub ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapassert.htm)
     
-    [LOG-POINT ... SUBKEY sub ...](javascript:call_link\('abaplog-point.htm'\))
+    [LOG-POINT ... SUBKEY sub ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaplog-point.htm)
     
 -   Operands text and dobj1 to dobj4 in the statements
     
-    MESSAGE [text](javascript:call_link\('abapmessage_text.htm'\)) ...
-    MESSAGE ...[WITH dobj1 ... dobj4](javascript:call_link\('abapmessage.htm'\))
+    MESSAGE [text](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmessage_text.htm) ...
+    MESSAGE ...[WITH dobj1 ... dobj4](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmessage.htm)
     
 
 Example
 
-Use of a string expression \`(\` && sub && \`)+\` to form a regular expression in the statement [FIND](javascript:call_link\('abapfind.htm'\)) to make it possible to find groups of a substring sub.
+Use of a string expression \`(\` && sub && \`)+\` to form a regular expression in the statement [FIND](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfind.htm) to make it possible to find groups of a substring sub.
 
 DATA: text TYPE string,
       sub  TYPE string.

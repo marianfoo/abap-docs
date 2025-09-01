@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 password
 
-Sequence of characters that is only known to a specific [user](javascript:call_link\('abenuser_glosry.htm'\) "Glossary Entry") and is required by this user to [log on](javascript:call_link\('abenlogon_glosry.htm'\) "Glossary Entry") to [AS ABAP](javascript:call_link\('abensap_nw_abap_glosry.htm'\) "Glossary Entry"). Used together with the [user name](javascript:call_link\('abenuser_name_glosry.htm'\) "Glossary Entry"), the password enables authorized use of an AS ABAP.
+Sequence of characters that is only known to a specific [user](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuser_glosry.htm "Glossary Entry") and is required by this user to [log on](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogon_glosry.htm "Glossary Entry") to [AS ABAP](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensap_nw_abap_glosry.htm "Glossary Entry"). Used together with the [user name](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuser_name_glosry.htm "Glossary Entry"), the password enables authorized use of an AS ABAP.

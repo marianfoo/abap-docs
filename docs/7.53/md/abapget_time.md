@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [System Fields for Date and Time](javascript:call_link\('abentime_system_fields.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_processing.htm) →  [System Fields for Date and Time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm) → 
 
 GET TIME
 
-[Quick Reference](javascript:call_link\('abapget_time_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_time_shortref.htm)
 
 Syntax
 
@@ -20,15 +20,15 @@ Addition:
 
 Effect
 
-Without the addition FIELD, the [system fields for date and time](javascript:call_link\('abentime_system_fields.htm'\)), sy-datlo, sy-datum, sy-timlo, and sy-uzeit, are set to the current value. The content of the system fields sy-dayst, sy-fdayw, sy-tzone, and sy-zonlo is not updated.
+Without the addition FIELD, the [system fields for date and time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm), sy-datlo, sy-datum, sy-timlo, and sy-uzeit, are set to the current value. The content of the system fields sy-dayst, sy-fdayw, sy-tzone, and sy-zonlo is not updated.
 
 Note
 
-Except for GET TIME, the system fields are updated after starting a program, after sending a [screen](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry"), and after changing the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry").
+Except for GET TIME, the system fields are updated after starting a program, after sending a [screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenscreen_glosry.htm "Glossary Entry"), and after changing the [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry").
 
 Example
 
-Approximate runtime measurement. You should use the statement [GET RUN TIME](javascript:call_link\('abapget_run_time.htm'\)) instead.
+Approximate runtime measurement. You should use the statement [GET RUN TIME](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapget_run_time.htm) instead.
 
 GET TIME.
 DATA(t1) = sy-timlo.
@@ -44,11 +44,11 @@ Addition
 
 Effect
 
-The addition FIELD is used to pass the current [system time](javascript:call_link\('abensystem_time_glosry.htm'\) "Glossary Entry") in the format "hhmmss" to the variable tim instead of sy-uzeit, and none of the system fields are updated. The return value of the statement has data type t. The following can be specified for tim:
+The addition FIELD is used to pass the current [system time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_time_glosry.htm "Glossary Entry") in the format "hhmmss" to the variable tim instead of sy-uzeit, and none of the system fields are updated. The return value of the statement has data type t. The following can be specified for tim:
 
 -   An existing variable of the data type t or a variable to which the type t can be converted.
     
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)), where a variable of type t is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm), where a variable of type t is declared.
     
 
 Example

@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Contexts (Obsolete)](javascript:call_link\('abencontext.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_storage_obsolete.htm) →  [Contexts (Obsolete)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontext.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DEMAND%2C%20ABAPDEMAND%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DEMAND
 
-[Short Reference](javascript:call_link\('abapdemand_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdemand_shortref.htm)
 
 Obsolete Syntax
 
@@ -24,11 +24,11 @@ Addition:
 
 Effect
 
-This statement assigns the values of derived fields val1 val2 ... of a [context](javascript:call_link\('abencontext_glosry.htm'\) "Glossary Entry") instance to the data objects f1 f2 .... context\_ref expects a data object that points to a context instance (see [CONTEXTS](javascript:call_link\('abapcontexts.htm'\))). The names of derived fields of the corresponding context can be specified for val1 val2 .... f1 f2 ... expects data objects whose data type matches the corresponding context field val1 val2 ....
+This statement assigns the values of derived fields val1 val2 ... of a [context](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontext_glosry.htm "Glossary Entry") instance to the data objects f1 f2 .... context\_ref expects a data object that points to a context instance (see [CONTEXTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcontexts.htm)). The names of derived fields of the corresponding context can be specified for val1 val2 .... f1 f2 ... expects data objects whose data type matches the corresponding context field val1 val2 ....
 
-If the context instance contains valid derived values for the current key, these are assigned directly. Otherwise, the cross-transaction [buffer](javascript:call_link\('abencontext_buffer.htm'\)) of the context is searched for the corresponding data record, which is then passed to the context instance and from there to the data objects f1 f2 .... Only if no corresponding data is found here, are the values in the modules of the context derived and placed in the buffer, the context instance, and the data objects f1 f2 ....
+If the context instance contains valid derived values for the current key, these are assigned directly. Otherwise, the cross-transaction [buffer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontext_buffer.htm) of the context is searched for the corresponding data record, which is then passed to the context instance and from there to the data objects f1 f2 .... Only if no corresponding data is found here, are the values in the modules of the context derived and placed in the buffer, the context instance, and the data objects f1 f2 ....
 
-If not all required values can be derived since not enough key fields are known, processing is terminated, the derived values are initialized, and the module sends the [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") specified in the context for this purpose.
+If not all required values can be derived since not enough key fields are known, processing is terminated, the derived values are initialized, and the module sends the [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_glosry.htm "Glossary Entry") specified in the context for this purpose.
 
 System Fields
 
@@ -54,7 +54,7 @@ Addition  
 
 Effect
 
-The addition MESSAGES is used for handling any messages sent by the modules of a context. If the addition MESSAGES is not specified, each message is sent in accordance with its definition in the context, as described under [Messages](javascript:call_link\('abenabap_messages.htm'\)). If the addition MESSAGES is specified, the messages are not sent. Instead, for each message, a line is appended to the internal table itab to be specified after INTO. The line type of the internal table must refer to the structure SYMSG in the ABAP Dictionary. The columns msgty, msgid, msgno, and msgv1 to msgv4 contain the message type, message class, message number, and content of any placeholders. The internal table itab is initialized at the start of the statement DEMAND.
+The addition MESSAGES is used for handling any messages sent by the modules of a context. If the addition MESSAGES is not specified, each message is sent in accordance with its definition in the context, as described under [Messages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_messages.htm). If the addition MESSAGES is specified, the messages are not sent. Instead, for each message, a line is appended to the internal table itab to be specified after INTO. The line type of the internal table must refer to the structure SYMSG in the ABAP Dictionary. The columns msgty, msgid, msgno, and msgv1 to msgv4 contain the message type, message class, message number, and content of any placeholders. The internal table itab is initialized at the start of the statement DEMAND.
 
 Example
 

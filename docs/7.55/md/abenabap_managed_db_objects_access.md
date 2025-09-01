@@ -4,25 +4,25 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP-Managed Database Objects](javascript:call_link\('abenabap_managed_db_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP-Managed Database Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_objects.htm) → 
 
 Access to ABAP-Managed Database Objects
 
-[ABAP-managed database objects](javascript:call_link\('abenabap_managed_db_object_glosry.htm'\) "Glossary Entry") can be accessed as follows:
+[ABAP-managed database objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_object_glosry.htm "Glossary Entry") can be accessed as follows:
 
--   [ABAP SQL Access to ABAP-Managed Database Objects](javascript:call_link\('abenabap_managed_db_objects_osql.htm'\))
+-   [ABAP SQL Access to ABAP-Managed Database Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_objects_osql.htm)
 
--   [AMDP access to ABAP-managed database objects](javascript:call_link\('abenabap_managed_db_objects_amdp.htm'\))
+-   [AMDP access to ABAP-managed database objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_objects_amdp.htm)
 
--   [Native SQL access to ABAP-managed database objects](javascript:call_link\('abenabap_managed_db_objects_nsql.htm'\))
+-   [Native SQL access to ABAP-managed database objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_objects_nsql.htm)
 
 These access methods each have their own attributes and restrictions, which are described in the corresponding sections. The following table summarizes the most important aspects supported by each access method:
 
 \-
 
-[Dependency Rules](javascript:call_link\('abendependency_rule_glosry.htm'\) "Glossary Entry") Respected
+[Dependency Rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendependency_rule_glosry.htm "Glossary Entry") Respected
 
-[Data Aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry") Respected
+[Data Aging](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_aging_glosry.htm "Glossary Entry") Respected
 
 Mapping Between ABAP Types and Database Types,
 Existence of the Database Objects,
@@ -39,7 +39,7 @@ Table Buffering,
 Table Logging, ...,
 CDS Entities
 
-[ABAP SQL](javascript:call_link\('abenabap_managed_db_objects_osql.htm'\))
+[ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_objects_osql.htm)
 
 Yes
 
@@ -53,7 +53,7 @@ Yes
 
 Yes
 
-[AMDP](javascript:call_link\('abenabap_managed_db_objects_amdp.htm'\))
+[AMDP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_objects_amdp.htm)
 
 Yes
 
@@ -67,7 +67,7 @@ Yes
 
 No
 
-[ABAP-Managed Native SQL](javascript:call_link\('abenabap_managed_db_objects_nsql.htm'\))
+[ABAP-Managed Native SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_objects_nsql.htm)
 
 Yes
 
@@ -81,7 +81,7 @@ No
 
 No
 
-[Non-ABAP-Managed Native SQL](javascript:call_link\('abenabap_managed_db_objects_nsql.htm'\))
+[Non-ABAP-Managed Native SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_objects_nsql.htm)
 
 Yes
 
@@ -97,9 +97,9 @@ No
 
 Hint
 
-These access methods can be used separately from each other, but there are some mutual dependencies. One example are AS ABAP [database connections](javascript:call_link\('abenopensql_multiconnect.htm'\)) and their transaction contexts, which are shared by ABAP SQL, Native SQL, and AMDP.
+These access methods can be used separately from each other, but there are some mutual dependencies. One example are AS ABAP [database connections](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql_multiconnect.htm) and their transaction contexts, which are shared by ABAP SQL, Native SQL, and AMDP.
 
 Continue
-[ABAP SQL Access to ABAP-Managed Database Objects](javascript:call_link\('abenabap_managed_db_objects_osql.htm'\))
-[AMDP Access to ABAP-Managed Database Objects](javascript:call_link\('abenabap_managed_db_objects_amdp.htm'\))
-[Native SQL Access to ABAP-Managed Database Objects](javascript:call_link\('abenabap_managed_db_objects_nsql.htm'\))
+[ABAP SQL Access to ABAP-Managed Database Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_objects_osql.htm)
+[AMDP Access to ABAP-Managed Database Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_objects_amdp.htm)
+[Native SQL Access to ABAP-Managed Database Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_managed_db_objects_nsql.htm)

@@ -4,22 +4,22 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Function Definitions](javascript:call_link\('abencds_fdl.htm'\)) →  [ABAP CDS - FDL for Function Definitions](javascript:call_link\('abencds_functions.htm'\)) →  [ABAP CDS - Scalar Functions](javascript:call_link\('abencds_scalar_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_fdl.htm) →  [ABAP CDS - FDL for Function Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_functions.htm) →  [ABAP CDS - Scalar Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20CDS%20-%20Analytical%20Scalar%20Functions%2C%20ABENCDS_ANA_SCALAR_FUNCTION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improv
 ement:)
 
 ABAP CDS - Analytical Scalar Functions
 
-[Analytical scalar functions](javascript:call_link\('abencds_ana_scalar_glosry.htm'\) "Glossary Entry") are [scalar functions](javascript:call_link\('abencds_scalar_function_glosry.htm'\) "Glossary Entry") that are evaluated by an analytical runtime environment.
+[Analytical scalar functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_ana_scalar_glosry.htm "Glossary Entry") are [scalar functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_scalar_function_glosry.htm "Glossary Entry") that are evaluated by an analytical runtime environment.
 
-They can be specified in the [element list](javascript:call_link\('abencds_select_list_entry_v2.htm'\)) of [analytical projection views](javascript:call_link\('abencds_analytical_pv_glosry.htm'\) "Glossary Entry").
+They can be specified in the [element list](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_list_entry_v2.htm) of [analytical projection views](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_analytical_pv_glosry.htm "Glossary Entry").
 
-Analytical scalar functions are delivered by SAP. They can only be defined and implemented internally by SAP. They are available for internal and external use in [CDS analytical queries](javascript:call_link\('abencds_analytic_query_glosry.htm'\) "Glossary Entry").
+Analytical scalar functions are delivered by SAP. They can only be defined and implemented internally by SAP. They are available for internal and external use in [CDS analytical queries](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_analytic_query_glosry.htm "Glossary Entry").
 
 SAP-Delivered Analytical Scalar Functions
 
-The following analytical scalar functions are delivered by SAP. They are released under the [C1 contract for system-internal use](javascript:call_link\('abenc1_contract_glosry.htm'\) "Glossary Entry").
+The following analytical scalar functions are delivered by SAP. They are released under the [C1 contract for system-internal use](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenc1_contract_glosry.htm "Glossary Entry").
 
 -   CALENDAR\_OPERATION
 -   CALENDAR\_SHIFT

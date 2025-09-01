@@ -4,22 +4,22 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses_and_interfaces.htm) →  [Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_ifac_components.htm) → 
 
 Implementing and including interfaces
 
 Interfaces can be implemented by classes using the statement
 
--   [INTERFACES](javascript:call_link\('abapinterfaces.htm'\))
+-   [INTERFACES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces.htm)
 
 or can be included by other interfaces.
 
 Alias names can be defined for interface components using the statement
 
--   [ALIASES](javascript:call_link\('abapaliases.htm'\))
+-   [ALIASES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapaliases.htm)
 
 .
 
 Continue
-[INTERFACES](javascript:call_link\('abapinterfaces.htm'\))
-[ALIASES](javascript:call_link\('abapaliases.htm'\))
+[INTERFACES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinterfaces.htm)
+[ALIASES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapaliases.htm)

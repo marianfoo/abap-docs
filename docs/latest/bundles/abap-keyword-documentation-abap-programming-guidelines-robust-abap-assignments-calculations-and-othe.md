@@ -3,37 +3,7 @@
 Included pages: 13
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenassignment_access_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm)
-- [abenassignemnt_diff_types_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignemnt_diff_types_guidl.htm)
-- [abenavoiding_invalid_values_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenavoiding_invalid_values_guidl.htm)
-- [abenuse_conversion_rules_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_conversion_rules_guidl.htm)
-- [abentrailing_blanks_literals_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentrailing_blanks_literals_guidl.htm)
-- [abennumbers_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumbers_guidl.htm)
-- [abenselect_numeric_type_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_numeric_type_guidl.htm)
-- [abenrounding_error_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrounding_error_guidl.htm)
-- [abendivision_zero_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendivision_zero_guidl.htm)
-- [abencasting_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_guidl.htm)
-- [abenruntime_error_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenruntime_error_data_obj_guidl.htm)
-- [abenunknown_container_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunknown_container_guidl.htm)
-- [abenref_transf_global_data_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenref_transf_global_data_guidl.htm)
-
-**Bundle Contains**: 13 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.889Z
-
----
-
 ### abenassignment_access_gdl.htm
-
-> **📖 Official SAP Documentation**: [abenassignment_access_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -41,53 +11,46 @@ Included pages: 13
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Assignments%2C%20Calculations%2C%20and%20Other%20Types%20of%20Data%20Access%2C%20ABENASSIGNMENT_ACCESS_GDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0A
 Suggestion%20for%20improvement:)
 
 Assignments, Calculations, and Other Types of Data Access
 
-An assignment passes the content of a data object, a return value, or a result of a calculation expression to a data object. If the data types are compatible, the content is copied unchanged. If the data types are incompatible and there is a suitable conversion rule, the content is converted. An assignment is usually performed with the [assignment operator (\=)](javascript:call_link\('abenequals_operator.htm'\)).
+An assignment passes the content of a data object, a return value, or a result of a calculation expression to a data object. If the data types are compatible, the content is copied unchanged. If the data types are incompatible and there is a suitable conversion rule, the content is converted. An assignment is usually performed with the [assignment operator (\=)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenequals_operator.htm).
 
 A calculation is executed in a calculation expression, which can be specified in an operand position, in particular on the right side of the assignment operator \=. If necessary, the result of a calculation expression is converted to the data type of the operand position or of the result of the assignment. In arithmetic expressions, the calculation is executed in a calculation type based on the data types of all operands including the result.
 
--   [Assignments Between Different Types](javascript:call_link\('abenassignemnt_diff_types_guidl.htm'\) "Guideline")
--   [Avoiding Invalid Values](javascript:call_link\('abenavoiding_invalid_values_guidl.htm'\) "Guideline")
--   [Using Conversion Rules](javascript:call_link\('abenuse_conversion_rules_guidl.htm'\) "Guideline")
--   [Trailing Blanks in Character Literals](javascript:call_link\('abentrailing_blanks_literals_guidl.htm'\) "Guideline")
--   [Specifying Numbers](javascript:call_link\('abennumbers_guidl.htm'\) "Guideline")
--   [Selecting the Numeric Type](javascript:call_link\('abenselect_numeric_type_guidl.htm'\) "Guideline")
--   [Rounding Errors](javascript:call_link\('abenrounding_error_guidl.htm'\) "Guideline")
--   [Dividing by Zero](javascript:call_link\('abendivision_zero_guidl.htm'\) "Guideline")
--   [Casting](javascript:call_link\('abencasting_guidl.htm'\) "Guideline")
--   [Runtime Errors When Accessing Data Objects](javascript:call_link\('abenruntime_error_data_obj_guidl.htm'\) "Guideline")
--   [Anonymous Containers](javascript:call_link\('abenunknown_container_guidl.htm'\) "Guideline")
--   [Pass by Reference of Global Data](javascript:call_link\('abenref_transf_global_data_guidl.htm'\) "Guideline")
+-   [Assignments Between Different Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignemnt_diff_types_guidl.htm "Guideline")
+-   [Avoiding Invalid Values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenavoiding_invalid_values_guidl.htm "Guideline")
+-   [Using Conversion Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_conversion_rules_guidl.htm "Guideline")
+-   [Trailing Blanks in Character Literals](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentrailing_blanks_literals_guidl.htm "Guideline")
+-   [Specifying Numbers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumbers_guidl.htm "Guideline")
+-   [Selecting the Numeric Type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_numeric_type_guidl.htm "Guideline")
+-   [Rounding Errors](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrounding_error_guidl.htm "Guideline")
+-   [Dividing by Zero](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendivision_zero_guidl.htm "Guideline")
+-   [Casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_guidl.htm "Guideline")
+-   [Runtime Errors When Accessing Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenruntime_error_data_obj_guidl.htm "Guideline")
+-   [Anonymous Containers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunknown_container_guidl.htm "Guideline")
+-   [Pass by Reference of Global Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenref_transf_global_data_guidl.htm "Guideline")
 
 Continue
-[Assignments Between Different Types](javascript:call_link\('abenassignemnt_diff_types_guidl.htm'\))
-[Avoiding Invalid Values](javascript:call_link\('abenavoiding_invalid_values_guidl.htm'\))
-[Using Conversion Rules](javascript:call_link\('abenuse_conversion_rules_guidl.htm'\))
-[Trailing Blanks in Character Literals](javascript:call_link\('abentrailing_blanks_literals_guidl.htm'\))
-[Specifying Numbers](javascript:call_link\('abennumbers_guidl.htm'\))
-[Selecting the Numeric Type](javascript:call_link\('abenselect_numeric_type_guidl.htm'\))
-[Rounding Errors](javascript:call_link\('abenrounding_error_guidl.htm'\))
-[Division by Zero](javascript:call_link\('abendivision_zero_guidl.htm'\))
-[Casting](javascript:call_link\('abencasting_guidl.htm'\))
-[Runtime Errors when Accessing Data Objects](javascript:call_link\('abenruntime_error_data_obj_guidl.htm'\))
-[Anonymous Containers](javascript:call_link\('abenunknown_container_guidl.htm'\))
-[Pass by Reference of Global Data](javascript:call_link\('abenref_transf_global_data_guidl.htm'\))
+[Assignments Between Different Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignemnt_diff_types_guidl.htm)
+[Avoiding Invalid Values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenavoiding_invalid_values_guidl.htm)
+[Using Conversion Rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_conversion_rules_guidl.htm)
+[Trailing Blanks in Character Literals](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentrailing_blanks_literals_guidl.htm)
+[Specifying Numbers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumbers_guidl.htm)
+[Selecting the Numeric Type](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_numeric_type_guidl.htm)
+[Rounding Errors](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrounding_error_guidl.htm)
+[Division by Zero](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendivision_zero_guidl.htm)
+[Casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_guidl.htm)
+[Runtime Errors when Accessing Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenruntime_error_data_obj_guidl.htm)
+[Anonymous Containers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunknown_container_guidl.htm)
+[Pass by Reference of Global Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenref_transf_global_data_guidl.htm)
 
-
-
-**📖 Source**: [abenassignment_access_gdl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm)
 
 ### abenassignemnt_diff_types_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenassignemnt_diff_types_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignemnt_diff_types_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -95,7 +58,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Assignments%20Between%20Different%20Types%2C%20ABENASSIGNEMNT_DIFF_TYPES_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improveme
 nt:)
@@ -116,7 +79,7 @@ Where possible, assignments should be performed between compatible data objects 
 
 Details   
 
-Type conversions incur additional runtime and may not always have the result intended by the developer. Therefore, conversions should only be performed between data objects with different data types if there is no other choice. In particular, conversions should be avoided where the [conversion rules](javascript:call_link\('abenuse_conversion_rules_guidl.htm'\) "Guideline") produce unexpected results.
+Type conversions incur additional runtime and may not always have the result intended by the developer. Therefore, conversions should only be performed between data objects with different data types if there is no other choice. In particular, conversions should be avoided where the [conversion rules](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_conversion_rules_guidl.htm "Guideline") produce unexpected results.
 
 Bad Example
 
@@ -141,14 +104,7 @@ DO ... TIMES.
 ENDDO.
 
 
-
-**📖 Source**: [abenassignemnt_diff_types_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignemnt_diff_types_guidl.htm)
-
 ### abenavoiding_invalid_values_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenavoiding_invalid_values_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenavoiding_invalid_values_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -156,7 +112,7 @@ ENDDO.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Avoiding%20Invalid%20Values%2C%20ABENAVOIDING_INVALID_VALUES_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -170,9 +126,9 @@ For performance reasons, the ABAP runtime framework does not check whether the t
 -   For type d: a calendar date in the format YYYYMMDD
 -   For type t: a time in the format HHMMSS
 
-For a detailed description of the validity of date fields and time fields, see also the [relevant section](javascript:call_link\('abenchar_date_time_fields_validity.htm'\)) of the documentation.
+For a detailed description of the validity of date fields and time fields, see also the [relevant section](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenchar_date_time_fields_validity.htm) of the documentation.
 
-A [lossless assignment](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry") can be used to force checks on valid values.
+A [lossless assignment](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_assignment_glosry.htm "Glossary Entry") can be used to force checks on valid values.
 
 Rule   
 
@@ -184,7 +140,7 @@ Details  
 
 Statements that work with variables with types n, d, or t can only be guaranteed to behave correctly if values are valid. If date and time fields are required, it is important to be aware of their special characteristics. Since the initial value for variables of type d is itself not a valid value, a suitable start value must always be specified by using the addition VALUE. Note that in arithmetic calculations with date fields, if an assignment to a target field with data type d has 0 as a result value, this is an invalid initial value and may require special handling.
 
-If the responsibility for filling data objects of the critical data types lies elsewhere, [it is best to](javascript:call_link\('abenuse_conversion_rules_guidl.htm'\) "Guideline") always check the validity of their content before use. [Lossless assignments](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry") with the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) can be used to do this. Note that the initial value of a date field of type d is interpreted as valid for a lossless assignment, but the value 00010101 is considered to be a valid date only in [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry").
+If the responsibility for filling data objects of the critical data types lies elsewhere, [it is best to](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_conversion_rules_guidl.htm "Guideline") always check the validity of their content before use. [Lossless assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_assignment_glosry.htm "Glossary Entry") with the operator [EXACT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_exact.htm) can be used to do this. Note that the initial value of a date field of type d is interpreted as valid for a lossless assignment, but the value 00010101 is considered to be a valid date only in [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm "Glossary Entry").
 
 Bad Example
 
@@ -217,14 +173,7 @@ TRY.
 ENDTRY.
 
 
-
-**📖 Source**: [abenavoiding_invalid_values_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenavoiding_invalid_values_guidl.htm)
-
 ### abenuse_conversion_rules_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenuse_conversion_rules_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_conversion_rules_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -232,7 +181,7 @@ ENDTRY.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Using%20Conversion%20Rules%2C%20ABENUSE_CONVERSION_RULES_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -242,29 +191,29 @@ Background  
 
 ABAP contains numerous conversion rules for assignments between data objects of different data types. These rules relate to assignments between:
 
--   [Elementary data objects](javascript:call_link\('abenconversion_elementary.htm'\))
--   [Elementary data objects and structures](javascript:call_link\('abenconversion_flat_elementary.htm'\))
--   [Structures](javascript:call_link\('abenconversion_struc.htm'\))
--   [Internal tables](javascript:call_link\('abenconversion_itab.htm'\))
--   [Reference variables](javascript:call_link\('abenconversion_references.htm'\))
+-   [Elementary data objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_elementary.htm)
+-   [Elementary data objects and structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_flat_elementary.htm)
+-   [Structures](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_struc.htm)
+-   [Internal tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_itab.htm)
+-   [Reference variables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconversion_references.htm)
 
-Assignments between data objects of nearly every different data type are possible. The only prohibited assignments are for data types for data and time specifications. Almost all allowed assignments have a corresponding conversion rule. It is especially important to have rules for assignments between data objects of the same data type, if different technical properties (such as length or number of decimal places) are allowed. [Lossless assignments](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry") allow only conversions that produce valid values and where no values are lost.
+Assignments between data objects of nearly every different data type are possible. The only prohibited assignments are for data types for data and time specifications. Almost all allowed assignments have a corresponding conversion rule. It is especially important to have rules for assignments between data objects of the same data type, if different technical properties (such as length or number of decimal places) are allowed. [Lossless assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_assignment_glosry.htm "Glossary Entry") allow only conversions that produce valid values and where no values are lost.
 
 Rule   
 
 Avoid unexpected conversion results
 
-Only assign data objects to each other if the content corresponds to the data type of the target field and produces an expected result. Do not exploit every ABAP conversion rule to its full extent. Consider using [lossless assignments](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry").
+Only assign data objects to each other if the content corresponds to the data type of the target field and produces an expected result. Do not exploit every ABAP conversion rule to its full extent. Consider using [lossless assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_assignment_glosry.htm "Glossary Entry").
 
 Details   
 
 The ABAP conversion rules are based on the philosophy that assignments should be allowed between as many combinations of values as possible, without raising exceptions. In this situation, ABAP behaves quite differently from other programming languages. In other languages, assignments between different data types are usually handled much more strictly and special conversion exits or explicit casting for specific requested conversions are used.
 
-Although it is convenient to be able to readily assign all possible data objects to each other, there are also disadvantages, such as the [creation of invalid values](javascript:call_link\('abenavoiding_invalid_values_guidl.htm'\) "Guideline"). Another example is [implicit casting](javascript:call_link\('abencasting_guidl.htm'\) "Guideline"), which occurs when assignments are made between elementary data objects and structures, or between incompatible structures.
+Although it is convenient to be able to readily assign all possible data objects to each other, there are also disadvantages, such as the [creation of invalid values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenavoiding_invalid_values_guidl.htm "Guideline"). Another example is [implicit casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_guidl.htm "Guideline"), which occurs when assignments are made between elementary data objects and structures, or between incompatible structures.
 
 Even if no invalid values are created, problems still can occur. If valid target values are created from invalid source values, this does not necessarily meet the expectations of the reader and it can make program maintenance considerably difficult. One example of this is the handling of invalid content in the source field in assignments from a character-like type to a byte-like type. Instead of exiting the assignment with an exception, hexadecimal zeros are passed from the first invalid character.
 
-The only solution here are [lossless assignments](javascript:call_link\('abenlossless_assignment_glosry.htm'\) "Glossary Entry") with the operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)), which produce an exception in these cases. Even though this is a bit late in the day, the behavior of an assignment with the operator EXACT could be regarded as the normal, expected behavior. Other unexpected behaviors represent an implementation of special rules, which is actually the standard behavior in ABAP.
+The only solution here are [lossless assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenlossless_assignment_glosry.htm "Glossary Entry") with the operator [EXACT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_exact.htm), which produce an exception in these cases. Even though this is a bit late in the day, the behavior of an assignment with the operator EXACT could be regarded as the normal, expected behavior. Other unexpected behaviors represent an implementation of special rules, which is actually the standard behavior in ABAP.
 
 Bad Example
 
@@ -279,7 +228,7 @@ num\_text = text.
 
 Good Example
 
-This issue is corrected in the source code below. The [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) operator is used, which raises an exception.
+This issue is corrected in the source code below. The [EXACT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expression_exact.htm) operator is used, which raises an exception.
 
 ...
 text = '4 Apples + 2 Oranges'.
@@ -291,14 +240,7 @@ TRY.
 ENDTRY.
 
 
-
-**📖 Source**: [abenuse_conversion_rules_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_conversion_rules_guidl.htm)
-
 ### abentrailing_blanks_literals_guidl.htm
-
-> **📖 Official SAP Documentation**: [abentrailing_blanks_literals_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentrailing_blanks_literals_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -306,7 +248,7 @@ ENDTRY.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Trailing%20Blanks%20in%20Character%20Literals%2C%20ABENTRAILING_BLANKS_LITERALS_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20im
 provement:)
@@ -315,7 +257,7 @@ Trailing Blanks in Character Literals
 
 Background   
 
-Trailing blanks in text field literals use memory, but are [generally](javascript:call_link\('abenstring_processing_trail_blanks.htm'\)) ignored in operand positions, like all data objects of the type c. In text string literals they are always relevant, as is the case for all data objects of type string.
+Trailing blanks in text field literals use memory, but are [generally](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_processing_trail_blanks.htm) ignored in operand positions, like all data objects of the type c. In text string literals they are always relevant, as is the case for all data objects of type string.
 
 Rule   
 
@@ -358,14 +300,7 @@ Good Example
 Depending on whether the blank is needed as a separator, either ' ' or \`\` must be specified after SEPARATED BY to express this clearly.
 
 
-
-**📖 Source**: [abentrailing_blanks_literals_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentrailing_blanks_literals_guidl.htm)
-
 ### abennumbers_guidl.htm
-
-> **📖 Official SAP Documentation**: [abennumbers_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumbers_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -373,7 +308,7 @@ Depending on whether the blank is needed as a separator, either ' ' or \`\` must
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Specifying%20Numbers%2C%20ABENNUMBERS_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -438,14 +373,7 @@ number = '-1000'.
 ENDMETHOD.
 
 
-
-**📖 Source**: [abennumbers_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennumbers_guidl.htm)
-
 ### abenselect_numeric_type_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenselect_numeric_type_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_numeric_type_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -453,7 +381,7 @@ ENDMETHOD.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Selecting%20the%20Numeric%20Type%2C%20ABENSELECT_NUMERIC_TYPE_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -518,14 +446,7 @@ The following source code shows a declaration of a decimal floating point number
 DATA number TYPE decfloat34 VALUE '0.815'
 
 
-
-**📖 Source**: [abenselect_numeric_type_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_numeric_type_guidl.htm)
-
 ### abenrounding_error_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenrounding_error_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrounding_error_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -533,7 +454,7 @@ DATA number TYPE decfloat34 VALUE '0.815'
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Rounding%20Errors%2C%20ABENROUNDING_ERROR_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -582,14 +503,7 @@ result = value \* result.
 WRITE result TO output DECIMALS 2 EXPONENT 0.
 
 
-
-**📖 Source**: [abenrounding_error_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrounding_error_guidl.htm)
-
 ### abendivision_zero_guidl.htm
-
-> **📖 Official SAP Documentation**: [abendivision_zero_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendivision_zero_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -597,7 +511,7 @@ WRITE result TO output DECIMALS 2 EXPONENT 0.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Division%20by%20Zero%2C%20ABENDIVISION_ZERO_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -628,14 +542,7 @@ ELSE.
 ENDIF.
 
 
-
-**📖 Source**: [abendivision_zero_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendivision_zero_guidl.htm)
-
 ### abencasting_guidl.htm
-
-> **📖 Official SAP Documentation**: [abencasting_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -643,7 +550,7 @@ ENDIF.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Casting%2C%20ABENCASTING_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -653,7 +560,7 @@ Background  
 
 Casting refers to the process of handling a data object by assuming a certain data type. This definition is different to the meaning of the concept in other programming languages, such as Java. Here, casting means a different concept which is referred to as 'conversion' in ABAP. Casting in ABAP is either explicit or implicit:
 
--   Explicit casting is possible by using the CASTING addition with the ASSIGN statement and by using the ASSIGNING addition in statements for processing internal tables. Assignments between reference variables allow [upcasts](javascript:call_link\('abenup_cast_glosry.htm'\) "Glossary Entry") and [downcasts](javascript:call_link\('abendown_cast_glosry.htm'\) "Glossary Entry"). Obsolete explicit casting is also possible for formal parameters and field symbols, if the STRUCTURE addition is used.
+-   Explicit casting is possible by using the CASTING addition with the ASSIGN statement and by using the ASSIGNING addition in statements for processing internal tables. Assignments between reference variables allow [upcasts](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenup_cast_glosry.htm "Glossary Entry") and [downcasts](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendown_cast_glosry.htm "Glossary Entry"). Obsolete explicit casting is also possible for formal parameters and field symbols, if the STRUCTURE addition is used.
 -   Implicit casting is sometimes performed for special assignments or during operand handling at certain operand positions. A common example is the handling of flat structures using character-like-only components as a single field of type c.
 
 Rule   
@@ -672,7 +579,7 @@ Implicit casting can potentially occur if structures are used as follows:
 -   Reads from the database using SELECT \* ... INTO wa
 -   Using the INCREMENT addition for the ASSIGN statement
 
-The use of implicit casting is prone to errors and produces source code that is difficult to understand. If the CASTING addition is used when handling field symbols, explicit casting can be implemented, which is easier to follow and understand. The explicit casting option is a very important reason to [use field symbols](javascript:call_link\('abendyn_access_data_obj_guidl.htm'\) "Guideline").
+The use of implicit casting is prone to errors and produces source code that is difficult to understand. If the CASTING addition is used when handling field symbols, explicit casting can be implemented, which is easier to follow and understand. The explicit casting option is a very important reason to [use field symbols](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendyn_access_data_obj_guidl.htm "Guideline").
 
 Bad Example
 
@@ -699,14 +606,7 @@ ASSIGN structure TO <text> CASTING.
 <text> = ...
 
 
-
-**📖 Source**: [abencasting_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_guidl.htm)
-
 ### abenruntime_error_data_obj_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenruntime_error_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenruntime_error_data_obj_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -714,7 +614,7 @@ ASSIGN structure TO <text> CASTING.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Runtime%20Errors%20when%20Accessing%20Data%20Objects%2C%20ABENRUNTIME_ERROR_DATA_OBJ_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for
 %20improvement:)
@@ -765,14 +665,7 @@ CATCH cx\_sy\_range\_out\_of\_bounds.
 ENDTRY.
 
 
-
-**📖 Source**: [abenruntime_error_data_obj_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenruntime_error_data_obj_guidl.htm)
-
 ### abenunknown_container_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenunknown_container_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunknown_container_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -780,7 +673,7 @@ ENDTRY.
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Anonymous%20Containers%2C%20ABENUNKNOWN_CONTAINER_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -788,7 +681,7 @@ Anonymous Containers
 
 Background   
 
-Anonymous containers are character-like or byte-like data objects of type c or string type (or x/xstring type). Data objects of other types (especially structures) are assigned using [casting](javascript:call_link\('abencasting_guidl.htm'\) "Guideline") to these objects, to store them persistently in these containers.
+Anonymous containers are character-like or byte-like data objects of type c or string type (or x/xstring type). Data objects of other types (especially structures) are assigned using [casting](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencasting_guidl.htm "Guideline") to these objects, to store them persistently in these containers.
 
 Rule   
 
@@ -798,9 +691,9 @@ Do not store structured data in unstructured character-like or byte-like variabl
 
 Details   
 
-The direct storage of structured data in unstructured character-like or byte-like data objects is problematic, particularly with data exchanges using remote function calls (RFC), input/output through the file system of the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") or output to a printer. Unexpected results can occur due to platform-dependent byte orders (endianness), alignment requirements and different character sets (code pages).
+The direct storage of structured data in unstructured character-like or byte-like data objects is problematic, particularly with data exchanges using remote function calls (RFC), input/output through the file system of the [host computer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_computer_glosry.htm "Glossary Entry") or output to a printer. Unexpected results can occur due to platform-dependent byte orders (endianness), alignment requirements and different character sets (code pages).
 
-If, for example, a container is saved and imported from an AS instance whose [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") has a different byte order, problems occur if the container is used for content for which the byte order is critical. In other words, the numeric fields of types i, decfloat16, decfloat34 and f. The order of the character-like data objects of bytes is also dependent on the platform in the character representation [UCS-2](javascript:call_link\('abenucs2_glosry.htm'\) "Glossary Entry") of the programming language ABAP.
+If, for example, a container is saved and imported from an AS instance whose [host computer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhost_computer_glosry.htm "Glossary Entry") has a different byte order, problems occur if the container is used for content for which the byte order is critical. In other words, the numeric fields of types i, decfloat16, decfloat34 and f. The order of the character-like data objects of bytes is also dependent on the platform in the character representation [UCS-2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenucs2_glosry.htm "Glossary Entry") of the programming language ABAP.
 
 Even without these technical problems, it can difficult to correctly import data that has been stored as described above. You usually have to perform another casting operation for the data type of the data stored in the container. However, as the relevant type information is not saved with the data, it might not be possible to perform type-compliant casting.
 
@@ -809,17 +702,7 @@ Hint
 If data needs to be saved in an unstructured container, the statement EXPORT ... TO DATA BUFFER can be used. This type of data storage is robust against different platform properties. However, you cannot use EXPORT and IMPORT to directly process reference variables or instances referenced by them. As a workaround, you can serialize these variables and instances for storage by using the statement CALL TRANSFORMATION. A class must include the IF\_SERIALIZABLE\_OBJECT tag interface, so that its objects can be serialized using CALL TRANSFORMATION.
 
 
-
-**📖 Source**: [abenunknown_container_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenunknown_container_guidl.htm)
-
 ### abenref_transf_global_data_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenref_transf_global_data_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenref_transf_global_data_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenref_transf_global_data_guidl.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenref_transf_global_data_guidl.htm)
-
 
   
 
@@ -827,7 +710,7 @@ If data needs to be saved in an unstructured container, the statement EXPORT ...
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Assignments, Calculations, and Other Types of Data Access](javascript:call_link\('abenassignment_access_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Assignments, Calculations, and Other Types of Data Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenassignment_access_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Pass%20by%20Reference%20of%20Global%20Data%2C%20ABENREF_TRANSF_GLOBAL_DATA_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improve
 ment:)
@@ -836,7 +719,7 @@ Pass by Reference of Global Data
 
 Background   
 
-In a local context you can normally directly access the [data objects](javascript:call_link\('abendata_type_obj_gdl.htm'\)) of superordinate more global contexts. For example, it is possible in a method to perform writes on the attributes of its class and on any global data of the current program.
+In a local context you can normally directly access the [data objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_type_obj_gdl.htm) of superordinate more global contexts. For example, it is possible in a method to perform writes on the attributes of its class and on any global data of the current program.
 
 Therefore, if a more global data object is passed to a procedure by reference, access is granted there both through its name and the formal parameter.
 
@@ -848,9 +731,9 @@ Do not use global data as actual parameters for formal parameters of procedures 
 
 Details   
 
-If a global data object that has also been passed by reference is changed in a procedure ([method](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline")), this also changes the formal parameter and vice versa. This behavior is not usually anticipated when writing the procedure.
+If a global data object that has also been passed by reference is changed in a procedure ([method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfunct_module_subroutine_guidl.htm "Guideline")), this also changes the formal parameter and vice versa. This behavior is not usually anticipated when writing the procedure.
 
-Global data is only supposed to be passed to formal parameters for which [pass by value](javascript:call_link\('abentype_transf_formal_para_guidl.htm'\) "Guideline") is declared, or to procedures that are guaranteed not to have any unwanted consequences for this data.
+Global data is only supposed to be passed to formal parameters for which [pass by value](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentype_transf_formal_para_guidl.htm "Guideline") is declared, or to procedures that are guaranteed not to have any unwanted consequences for this data.
 
 Bad Example
 

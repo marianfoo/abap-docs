@@ -4,22 +4,27 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [Regular Expressions (regex)](javascript:call_link\('abenregular_expressions.htm'\)) →  [regex - Migrating from POSIX to PCRE](javascript:call_link\('abenregex_migrating_posix.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_processing_expr_func.htm) →  [Regular Expressions (regex)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregular_expressions.htm) →  [regex - Migrating from POSIX to PCRE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_migrating_posix.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: regex - New Features in PCRE Compared to POSIX, ABENREGEX_POSIX_PCRE_IMPROVE, 757%0D%
 0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 regex - New Features in PCRE Compared to POSIX
 
-While topic [Incompatibilities between POSIX and PCRE](javascript:call_link\('abenregex_posix_pcre_incompat.htm'\)) deals with incompatibilities and missing features when migrating from POSIX to PCRE, it is also worth taking a look at the vast array of new features PCRE has to offer.
+While topic [Incompatibilities between POSIX and PCRE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_posix_pcre_incompat.htm) deals with incompatibilities and missing features when migrating from POSIX to PCRE, it is also worth taking a look at the vast array of new features PCRE has to offer.
 
 An introduction to some of these features is provided in the following, the list is however far from complete.
 
--   [Making Use of New Features for Patterns](#abenregex-posix-pcre-improve-1-----------lazy-quantifiers---@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_2)
-    -   [Look-behind Assertions](#abenregex-posix-pcre-improve-3-----------multiline-mode---@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_4)
-    -   [Named Capture Groups](#abenregex-posix-pcre-improve-5-----------subroutine-calls-and-recursion---@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_6)
-    -   [Callouts](#abenregex-posix-pcre-improve-7-------making-use-of-new-features-for-replacements---@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_8)
-    -   [Conditional Substitution](#abenregex-posix-pcre-improve-9-----------case-conversion---@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_10)
+-   [Making Use of New Features for Patterns](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_1)
+    -   [Lazy Quantifiers](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_2)
+    -   [Look-behind Assertions](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_3)
+    -   [Multiline Mode](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_4)
+    -   [Named Capture Groups](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_5)
+    -   [Subroutine Calls and Recursion](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_6)
+    -   [Callouts](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_7)
+-   [Making Use of New Features for Replacements](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_8)
+    -   [Conditional Substitution](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_9)
+    -   [Case Conversion](#@@ITOC@@ABENREGEX_POSIX_PCRE_IMPROVE_10)
 
 Making Use of New Features for Patterns   
 
@@ -27,7 +32,7 @@ Lazy Quantifiers  
 
 The most obvious downside of POSIX regular expressions in ABAP is the lack of lazy (also known as non-greedy or reluctant) quantifiers.
 
-In PCRE a quantifier can be made lazy by adding a trailing [?:](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)):
+In PCRE a quantifier can be made lazy by adding a trailing [?:](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm):
 
 Description
 
@@ -93,7 +98,7 @@ Multiline Mode  
 
 In some scenarios it is necessary to respect line feeds during matching, e.g. matching something only if it is located at the beginning of a line. PCRE makes this very convenient by providing a large amount of control over the handling of multiple lines in the matching process.
 
-When creating a regular expression using method CREATE\_PCRE of system class [CL\_ABAP\_REGEX](javascript:call_link\('abenregex_system_classes.htm'\)) multi line handling can be controlled by the following parameters:
+When creating a regular expression using method CREATE\_PCRE of system class [CL\_ABAP\_REGEX](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_system_classes.htm) multi line handling can be controlled by the following parameters:
 
 Parameter
 
@@ -113,21 +118,21 @@ controls what gets recognized as a line feed character
 
 Despite their names, single line and multi line mode are not mutually exclusive and can be combined.
 
-It is also possible to set these options directly in the pattern, which is especially useful for regular expressions used in statements [FIND](javascript:call_link\('abapfind.htm'\)) and [REPLACE](javascript:call_link\('abapreplace.htm'\)) behind [PCRE](javascript:call_link\('abapfind_pattern.htm'\)) or in built-in functions behind [pcre](javascript:call_link\('abenstring_functions_regex.htm'\)):
+It is also possible to set these options directly in the pattern, which is especially useful for regular expressions used in statements [FIND](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfind.htm) and [REPLACE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapreplace.htm) behind [PCRE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapfind_pattern.htm) or in built-in functions behind [pcre](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions_regex.htm):
 
--   Single line mode can be enabled using the option setting syntax [(?s)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) anywhere in the pattern.
--   Multi line mode can be enabled using the option setting syntax [(?m)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) anywhere in the pattern.
+-   Single line mode can be enabled using the option setting syntax [(?s)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) anywhere in the pattern.
+-   Multi line mode can be enabled using the option setting syntax [(?m)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) anywhere in the pattern.
 -   What gets recognized as a line feed character can be controlled by the following syntax that can only appear at the start of the pattern:
-    -   [(\*CR)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) carriage return only
-    -   [(\*LF)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) linefeed only
-    -   [(\*CRLF)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) carriage return followed by linefeed
-    -   [(\*ANYCRLF)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) all three of the above
-    -   [(\*ANY)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) any Unicode line feed sequence
-    -   [(\*NUL)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) the NUL character (binary zero)
+    -   [(\*CR)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) carriage return only
+    -   [(\*LF)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) linefeed only
+    -   [(\*CRLF)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) carriage return followed by linefeed
+    -   [(\*ANYCRLF)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) all three of the above
+    -   [(\*ANY)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) any Unicode line feed sequence
+    -   [(\*NUL)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) the NUL character (binary zero)
 
 Example
 
-While the first regular expression matches only the beginning of the character string, the second one also matches the beginning of new lines that are defined by the syntax [\\n](javascript:call_link\('abenstring_templates_separators.htm'\)) for line feeds in a string template.
+While the first regular expression matches only the beginning of the character string, the second one also matches the beginning of new lines that are defined by the syntax [\\n](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_templates_separators.htm) for line feeds in a string template.
 
 FINAL(result1) = replace( val  = |xxx\\nyyy\\nzzz|
                          pcre = \`^\`
@@ -142,7 +147,7 @@ FINAL(result2) = replace( val  = |xxx\\nyyy\\nzzz|
 
 Named Capture Groups   
 
-PCRE supports the naming of capture groups, meaning you can assign a name to a capture group, e.g. using the [(?<name>...)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) syntax. You can refer to a named capture group by its name, e.g. in a backreference using the [\\k<name>](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) syntax.
+PCRE supports the naming of capture groups, meaning you can assign a name to a capture group, e.g. using the [(?<name>...)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) syntax. You can refer to a named capture group by its name, e.g. in a backreference using the [\\k<name>](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) syntax.
 
 Example
 
@@ -153,15 +158,15 @@ ASSERT matches( val  = \`foobarfoo\`
 
 Subroutine Calls and Recursion   
 
-Apart from referring to the content of a group via backreferences, PCRE supports calling groups as subroutines using the [(?n)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) syntax. It is also possible to call a named group as a subroutine, e.g. using the [(?&name)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) syntax.
+Apart from referring to the content of a group via backreferences, PCRE supports calling groups as subroutines using the [(?n)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) syntax. It is also possible to call a named group as a subroutine, e.g. using the [(?&name)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) syntax.
 
 Example
 
 The example shows the calling of groups as subroutines in three blocks:
 
--   In the first block, the backreference [\\1](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) simply matches whatever the first capture group actually matched most recently, instead of matching all the things the capture group could match.
--   The second block shows, how this behavior can be achieved by calling the group as a subroutine using the [(?n)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) syntax.
--   The third block shows, how by recursing over the whole pattern using the [(?R)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) syntax in one branch of the alternation, it is ensured that there is a balanced but arbitrary number of opening (\\() and closing (\\)) parentheses to either side of the digits. Note that the pattern makes use of the possessive quantifier ++ that acts the same as + but prevents backtracking into what was matched by the quantifier.
+-   In the first block, the backreference [\\1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) simply matches whatever the first capture group actually matched most recently, instead of matching all the things the capture group could match.
+-   The second block shows, how this behavior can be achieved by calling the group as a subroutine using the [(?n)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) syntax.
+-   The third block shows, how by recursing over the whole pattern using the [(?R)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) syntax in one branch of the alternation, it is ensured that there is a balanced but arbitrary number of opening (\\() and closing (\\)) parentheses to either side of the digits. Note that the pattern makes use of the possessive quantifier ++ that acts the same as + but prevents backtracking into what was matched by the quantifier.
 
 ASSERT matches(
   val  = \`sense and sensibility\`
@@ -201,11 +206,11 @@ Callouts  
 
 Callouts are another powerful feature. It invokes ABAP code from within the pattern during the matching process, passing data from the pattern to the callout routine.
 
-Callouts are achieved with the [(?C...)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)). A callout routine cannot only access the numeric data n provided by the callout (?Cn) or the string data str provided by the callout (?C"str"), but also a lot of other properties and information about the current matcher state.
+Callouts are achieved with the [(?C...)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm). A callout routine cannot only access the numeric data n provided by the callout (?Cn) or the string data str provided by the callout (?C"str"), but also a lot of other properties and information about the current matcher state.
 
 Executable Example
 
-[PCRE Regular Expression with Callouts](javascript:call_link\('abenpcre_callout_abexa.htm'\))
+[PCRE Regular Expression with Callouts](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpcre_callout_abexa.htm)
 
 Making Use of New Features for Replacements   
 
@@ -215,7 +220,7 @@ PCRE's conditional substitution syntax allows you to check if a certain capture 
 
 Example
 
-Conditional substitutions with [{id...}](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)).
+Conditional substitutions with [{id...}](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm).
 
 FINAL(result1) = replace( val  =  \`male\`
                          pcre = \`(fe)?male\`
@@ -229,7 +234,7 @@ BREAK-POINT.
 
 Case Conversion   
 
-Using the [\\u](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)), [\\U](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)), [\\l](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) and [\\L](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) modifiers in the PCRE replacement string, the case of the inserted text can be converted to uppercase or lowercase. While \\u and \\l only affect the first character following them, \\U and \\L affect all following characters, until a different case conversion modifier or the termination operator \\E is reached.
+Using the [\\u](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm), [\\U](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm), [\\l](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) and [\\L](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenregex_pcre_syntax_specials.htm) modifiers in the PCRE replacement string, the case of the inserted text can be converted to uppercase or lowercase. While \\u and \\l only affect the first character following them, \\U and \\L affect all following characters, until a different case conversion modifier or the termination operator \\E is reached.
 
 The case conversion syntax can also be combined with conditional substitution.
 

@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [VALUE - Value Operator](javascript:call_link\('abenconstructor_expression_value.htm'\)) →  [VALUE - Initial Value for All Types](javascript:call_link\('abenvalue_constructor_params_init.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencreate_objects.htm) →  [VALUE - Value Operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_value.htm) →  [VALUE - Initial Value for All Types](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_constructor_params_init.htm) → 
 
 Value Operator, Type Inference
 
-This example demonstrates a type inference for the value operator [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)).
+This example demonstrates a type inference for the value operator [VALUE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_value.htm).
 
 Source Code
 
@@ -58,7 +58,7 @@ START-OF-SELECTION.
 
 Description
 
-Passes constructor expressions with the value operator [VALUE](javascript:call_link\('abenvalue_constructor_params_init.htm'\)) for initial values to differently typed formal parameters of methods.
+Passes constructor expressions with the value operator [VALUE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_constructor_params_init.htm) for initial values to differently typed formal parameters of methods.
 
 -   Fully typed formal parameter
 

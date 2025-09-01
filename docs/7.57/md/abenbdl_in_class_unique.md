@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [CDS BDL - CDS Behavior Definition Header](javascript:call_link\('abenbdl_bdef_header.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_rap_bo.htm) →  [CDS BDL - CDS Behavior Definition Header](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_bdef_header.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - implementation in class unique, ABENBDL_IN_CLASS_UNIQUE, 757%0D%0A%0D%0AErr
 or:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -17,27 +17,27 @@ Syntax
 
 Effect
 
-Specifies an [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") for the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+Specifies an [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") for the [RAP business object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
--   In a [managed RAP BO](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), a behavior pool is not necessarily required. [Standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\)) and [operations for associations](javascript:call_link\('abenbdl_association.htm'\)) work without implementation in a behavior pool. A behavior pool is only required if the behavior definition contains components that cannot be handled by the [managed RAP BO provider](javascript:call_link\('abenmanaged_rap_bo_prov_glosry.htm'\) "Glossary Entry"), such as [nonstandard operations](javascript:call_link\('abenbdl_nonstandard.htm'\)) or [validations](javascript:call_link\('abenbdl_validations.htm'\)).
--   In an [unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), an ABAP behavior pool is always required.
--   In a [projection behavior definition](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry"), an ABAP behavior pool is not necessary, but possible:
-    -   functionality that is [reused](javascript:call_link\('abenbdl_use_projection.htm'\)) from the [projected BO](javascript:call_link\('abenrap_projected_bo_glosry.htm'\) "Glossary Entry") does not require an own implementation. The implementation from the projected BO is reused.
-    -   if the projection BDEF defines [new actions or functions](javascript:call_link\('abenbdl_nonstandard_projection.htm'\)), an ABAP behavior pool is required.
+-   In a [managed RAP BO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry"), a behavior pool is not necessarily required. [Standard operations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_standard_operations.htm) and [operations for associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_association.htm) work without implementation in a behavior pool. A behavior pool is only required if the behavior definition contains components that cannot be handled by the [managed RAP BO provider](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmanaged_rap_bo_prov_glosry.htm "Glossary Entry"), such as [nonstandard operations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_nonstandard.htm) or [validations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_validations.htm).
+-   In an [unmanaged RAP BO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry"), an ABAP behavior pool is always required.
+-   In a [projection behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry"), an ABAP behavior pool is not necessary, but possible:
+    -   functionality that is [reused](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_use_projection.htm) from the [projected BO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_projected_bo_glosry.htm "Glossary Entry") does not require an own implementation. The implementation from the projected BO is reused.
+    -   if the projection BDEF defines [new actions or functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_nonstandard_projection.htm), an ABAP behavior pool is required.
 
 There exist different options for notation that define how the implementation is distributed:
 
--   The behavior pool can be defined in the [CDS behavior definition header](javascript:call_link\('abencds_bdef_header_glosry.htm'\) "Glossary Entry").
+-   The behavior pool can be defined in the [CDS behavior definition header](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef_header_glosry.htm "Glossary Entry").
     
-    In this case, all implementation-relevant parts of all [RAP BO entities](javascript:call_link\('abenrap_bo_entity_glosry.htm'\) "Glossary Entry") that do not have an own implementation class are implemented in the same class.
+    In this case, all implementation-relevant parts of all [RAP BO entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_entity_glosry.htm "Glossary Entry") that do not have an own implementation class are implemented in the same class.
     
     Further behavior pools on entity-level are possible.
     
--   The behavior pool can be defined in the [entity behavior definition](javascript:call_link\('abencds_entity_bdef_glosry.htm'\) "Glossary Entry") for each CDS entity. Each node of a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") can have an own implementation class.
+-   The behavior pool can be defined in the [entity behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_bdef_glosry.htm "Glossary Entry") for each CDS entity. Each node of a [RAP business object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm "Glossary Entry") can have an own implementation class.
     
     If there is an additional implementation on header level, this applies to all entities which do not have an own implementation class.
     
--   The behavior pool can be defined within the [entity behavior body](javascript:call_link\('abencds_entity_body_glosry.htm'\) "Glossary Entry") for one or more [implementation groups](javascript:call_link\('abenbdl_grouping.htm'\)). Each group must have an own implementation class, while entities must not have an implementation class. An additional implementation class on header level is possible.
+-   The behavior pool can be defined within the [entity behavior body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_body_glosry.htm "Glossary Entry") for one or more [implementation groups](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_grouping.htm). Each group must have an own implementation class, while entities must not have an implementation class. An additional implementation class on header level is possible.
 
 The behavior for a certain entity or group can only be implemented in the specified behavior pool. Any other class that attempts this will get an error message.
 
@@ -45,7 +45,7 @@ The mandatory addition unique defines that each operation can be implemented exa
 
 Hint
 
--   If [BDEF strict mode](javascript:call_link\('abenbdl_strict.htm'\)) is enabled, it is mandatory to specify an ABAP behavior pool as soon as there are any implementation-relevant operations (an exception is a managed BDEF that contains, for example, only standard [CRUD operations](javascript:call_link\('abencrud_glosry.htm'\) "Glossary Entry")). The addition unique is also mandatory and leads to a syntax check error if left out.
+-   If [BDEF strict mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_strict.htm) is enabled, it is mandatory to specify an ABAP behavior pool as soon as there are any implementation-relevant operations (an exception is a managed BDEF that contains, for example, only standard [CRUD operations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencrud_glosry.htm "Glossary Entry")). The addition unique is also mandatory and leads to a syntax check error if left out.
 
 Example
 
@@ -62,7 +62,7 @@ managed;
     implementation in class ClassName unique;
    ...
 
-Behavior definition with implementation groups. Each group has its own implementation class. An implementation class on header level is required to implement the [unmanaged save](javascript:call_link\('abenrap_unman_save_glosry.htm'\) "Glossary Entry").
+Behavior definition with implementation groups. Each group has its own implementation class. An implementation class on header level is required to implement the [unmanaged save](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_unman_save_glosry.htm "Glossary Entry").
 
 managed implementation in class ClassName unique;
   define behavior for CDSEntityName alias AliasName

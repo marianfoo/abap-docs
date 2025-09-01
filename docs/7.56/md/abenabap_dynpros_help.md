@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros.htm) → 
 
 dynpro - Field Help, Input Help, and Dropdown List Boxes
 
@@ -17,12 +17,12 @@ There are different ways of providing field help and input help, some of which i
 
 One special way to display value list, for example, are dropdown list boxes.
 
--   [Field help](javascript:call_link\('abenabap_dynpros_field_help.htm'\))
--   [Input help](javascript:call_link\('abenabap_dynpros_value_help.htm'\))
--   [Dropdown list boxes](javascript:call_link\('abenabap_dynpros_listbox.htm'\))
+-   [Field help](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_field_help.htm)
+-   [Input help](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_value_help.htm)
+-   [Dropdown list boxes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_listbox.htm)
 
 Continue
-[dynpro - Field Help](javascript:call_link\('abenabap_dynpros_field_help.htm'\))
-[dynpro - Input Help](javascript:call_link\('abenabap_dynpros_value_help.htm'\))
-[dynpro - Dropdown List Boxes](javascript:call_link\('abenabap_dynpros_listbox.htm'\))
-[dynpro - Field Helps, Input Helps, and Dropdown List Boxes](javascript:call_link\('abeninput_help_abexas.htm'\))
+[dynpro - Field Help](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_field_help.htm)
+[dynpro - Input Help](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_value_help.htm)
+[dynpro - Dropdown List Boxes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpros_listbox.htm)
+[dynpro - Field Helps, Input Helps, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninput_help_abexas.htm)

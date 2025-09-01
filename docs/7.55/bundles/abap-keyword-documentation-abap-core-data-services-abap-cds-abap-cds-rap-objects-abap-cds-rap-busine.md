@@ -3,42 +3,7 @@
 Included pages: 22
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.55](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abencds_behavior_definitions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm)
-- [abencds_f1_bdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm)
-- [abenabap_bdl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)
-- [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm)
-- [abenbdl_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_general_syntax_rules.htm)
-- [abenbdl_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_structure.htm)
-- [abenbdl_language_elements.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_language_elements.htm)
-- [abenbdl_implementation.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm)
-- [abenbdl_define_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm)
-- [abenbdl_alias.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm)
-- [abenbdl_in_class_unique.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_in_class_unique.htm)
-- [abenbdl_late_numbering.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm)
-- [abenbdl_etag.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_etag.htm)
-- [abenbdl_lock.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm)
-- [abenbdl_field.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_field.htm)
-- [abenbdl_standard_operations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm)
-- [abenbdl_action.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm)
-- [abenbdl_association.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm)
-
-**Bundle Contains**: 18 documentation pages
-**Version**: ABAP 7.55
-**Generated**: 2025-09-01T11:25:45.655Z
-
----
-
 ### abencds_behavior_definitions.htm
-
-> **📖 Official SAP Documentation**: [abencds_behavior_definitions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -46,42 +11,35 @@ Included pages: 22
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) → 
 
 ABAP CDS - Behavior Definitions
 
 \* Work in progress \*
 
-A [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") is created using [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") in [BDL source code](javascript:call_link\('abenbdl_source_code_glosry.htm'\) "Glossary Entry").
+A [CDS behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") is created using [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_bdl_glosry.htm "Glossary Entry") in [BDL source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_source_code_glosry.htm "Glossary Entry").
 
-A business object behavior definition (behavior definition for short) is an ABAP repository object (a source text artifact) that represents the behavior of the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") in the context of [ABAP RAP](javascript:call_link\('abenabap_rap_glosry.htm'\) "Glossary Entry").
+A business object behavior definition (behavior definition for short) is an ABAP repository object (a source text artifact) that represents the behavior of the [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") in the context of [ABAP RAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_rap_glosry.htm "Glossary Entry").
 
 A behavior definition always references a CDS data model. The matching name of the CDS entity ensures that a behavior definition has a reference to the data model. This also means that the data model must always exist before the behavior definition, as shown in the following example:
 
-The CDS definition define root view /DMO/I\_Travel ... must exist before a behavior definition /DMO/I\_Travel can be created. The CDS view /DMO/I\_Travel is the [root entity](javascript:call_link\('abenparent_entity_glosry.htm'\) "Glossary Entry") in the data structure.
+The CDS definition define root view /DMO/I\_Travel ... must exist before a behavior definition /DMO/I\_Travel can be created. The CDS view /DMO/I\_Travel is the [root entity](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenparent_entity_glosry.htm "Glossary Entry") in the data structure.
 
 Once the behavior definition is created, the root entity becomes a transactional entity and can, in principle, be used in modifying REST operations. All operations in the specific business object that have transactional support must be specified in this behavior definition.
 
-The transactional behavior of a CDS entity is modeled using CDS Behavior Definition Language ([CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry")).
+The transactional behavior of a CDS entity is modeled using CDS Behavior Definition Language ([CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_bdl_glosry.htm "Glossary Entry")).
 
 Rules
 
 -   A root entity can have at most one behavior definition, in which the behavior of the child entities may need to be specified too. Conversely, a behavior definition has exactly one root entity.
 
--   The [implementation](javascript:call_link\('abenabap_behavior_pools.htm'\)) of a behavior definition can be made in both a single ABAP class (a [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry")) or spread across any number of ABAP classes (behavior pools). This means that any number of behavior pools can be assigned to a behavior definition (a 1:n relation).
+-   The [implementation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm) of a behavior definition can be made in both a single ABAP class (a [behavior pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm "Glossary Entry")) or spread across any number of ABAP classes (behavior pools). This means that any number of behavior pools can be assigned to a behavior definition (a 1:n relation).
 
 Continue
-[ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\))
+[ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm)
 
-
-
-**📖 Source**: [abencds_behavior_definitions.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm)
 
 ### abencds_f1_bdl_syntax.htm
-
-> **📖 Official SAP Documentation**: [abencds_f1_bdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -89,24 +47,17 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) → 
 
 ABAP CDS - BDL for Behavior Definitions
 
 In construction
 
 Continue
-[CDS BDL](javascript:call_link\('abenabap_bdl.htm'\))
+[CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)
 
-
-
-**📖 Source**: [abencds_f1_bdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm)
 
 ### abenabap_bdl.htm
-
-> **📖 Official SAP Documentation**: [abenabap_bdl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -114,7 +65,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) → 
 
 CDS BDL
 
@@ -122,28 +73,21 @@ CDS BDL
 
 The transactional behavior of a CDS entity is modeled using the Behavior Definition Language (BDL).
 
-BDL describes the functions and properties of one or more [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") nodes, such as
+BDL describes the functions and properties of one or more [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") nodes, such as
 
--   the [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\)) create, update, and delete (the CRUD operations),
+-   the [standard operations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm) create, update, and delete (the CRUD operations),
 
--   application-specific operations ([actions](javascript:call_link\('abenbdl_action.htm'\))),
+-   application-specific operations ([actions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm)),
 
--   definition of a [lock property](javascript:call_link\('abenbdl_lock.htm'\)) for modifying operations on business object nodes, including the option of propagating locks to child nodes (known as a lock master/lock dependent relationship).
+-   definition of a [lock property](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm) for modifying operations on business object nodes, including the option of propagating locks to child nodes (known as a lock master/lock dependent relationship).
 
 Continue
-[CDS BDL - Syntax](javascript:call_link\('abenbdl_syntax.htm'\))
-[CDS BDL - IMPLEMENTATION](javascript:call_link\('abenbdl_implementation.htm'\))
-[CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\))
+[CDS BDL - Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm)
+[CDS BDL - IMPLEMENTATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm)
+[CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm)
 
-
-
-**📖 Source**: [abenabap_bdl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)
 
 ### abenbdl_syntax.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -151,28 +95,21 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) → 
 
 CDS BDL - Syntax
 
 \* Work in progress \*
 
-The syntax of the Behavior Definition Language (BDL) is oriented to the [Data Definition Language](javascript:call_link\('abenddl_glosry.htm'\) "Glossary Entry") (DDL) used to define CDS entities. The artifacts in question have some technical differences however: BDL artifacts are managed by ABAP Compiler. This means ABAP Compiler is responsible for syntax checks and semantic checks and for generating the [behavior definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)).
+The syntax of the Behavior Definition Language (BDL) is oriented to the [Data Definition Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_glosry.htm "Glossary Entry") (DDL) used to define CDS entities. The artifacts in question have some technical differences however: BDL artifacts are managed by ABAP Compiler. This means ABAP Compiler is responsible for syntax checks and semantic checks and for generating the [behavior definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm).
 
 Continue
-[CDS BDL - General Syntax Rules](javascript:call_link\('abenbdl_general_syntax_rules.htm'\))
-[CDS BDL - Structure](javascript:call_link\('abenbdl_structure.htm'\))
-[CDS BDL - Language Elements](javascript:call_link\('abenbdl_language_elements.htm'\))
+[CDS BDL - General Syntax Rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_general_syntax_rules.htm)
+[CDS BDL - Structure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_structure.htm)
+[CDS BDL - Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_language_elements.htm)
 
-
-
-**📖 Source**: [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm)
 
 ### abenbdl_general_syntax_rules.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_general_syntax_rules.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -180,13 +117,13 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - Syntax](javascript:call_link\('abenbdl_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm) → 
 
 CDS BDL - General Syntax Rules
 
 \* Work in progress \*
 
-The following rules apply to the CDS Behavior Definition Language ([CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry")) syntax:
+The following rules apply to the CDS Behavior Definition Language ([CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_bdl_glosry.htm "Glossary Entry")) syntax:
 
 Keywords
 
@@ -216,14 +153,7 @@ Tip
 It is a good idea to use the same spelling of names as in ABAP CDS.
 
 
-
-**📖 Source**: [abenbdl_general_syntax_rules.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_general_syntax_rules.htm)
-
 ### abenbdl_structure.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_structure.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -231,7 +161,7 @@ It is a good idea to use the same spelling of names as in ABAP CDS.
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - Syntax](javascript:call_link\('abenbdl_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm) → 
 
 CDS BDL - Structure
 
@@ -280,21 +210,14 @@ field (read only | mandatory) field*\[*, field, ...*\]*;
 
 Rules
 
--   Not every entity property ([late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\)), [etag](javascript:call_link\('abenbdl_etag.htm'\)), or [lock](javascript:call_link\('abenbdl_lock.htm'\))) from the [composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") is a mandatory property.
+-   Not every entity property ([late numbering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm), [etag](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_etag.htm), or [lock](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm)) from the [composition tree](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") is a mandatory property.
 
 -   A property can occur a maximum of once in a behavior definition.
 
 -   If an entity does not occur in the behavior definition, the entity does not have a transactional character (it is read-only).
 
 
-
-**📖 Source**: [abenbdl_structure.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_structure.htm)
-
 ### abenbdl_language_elements.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_language_elements.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_language_elements.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -302,70 +225,63 @@ Rules
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - Syntax](javascript:call_link\('abenbdl_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm) → 
 
 CDS BDL - Language Elements
 
 \* Work in progress \*
 
-The following section summarizes the CDS Behavior Definition Language ([CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry")) language elements, arranged by topics.
+The following section summarizes the CDS Behavior Definition Language ([CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_bdl_glosry.htm "Glossary Entry")) language elements, arranged by topics.
 
 Header
 
-[implementation](javascript:call_link\('abenbdl_implementation.htm'\)) Business object behavior implementation type.
-... [unmanaged](javascript:call_link\('abenbdl_implementation.htm'\)) Utilization of the existing legacy business logic.
-... [managed](javascript:call_link\('abenbdl_implementation.htm'\)) Implementation of new business logic.
-... [abstract](javascript:call_link\('abenbdl_implementation.htm'\)) Metadata artifact.
-... [in class unique](javascript:call_link\('abenbdl_implementation.htm'\)) Class restriction.
+[implementation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm) Business object behavior implementation type.
+... [unmanaged](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm) Utilization of the existing legacy business logic.
+... [managed](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm) Implementation of new business logic.
+... [abstract](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm) Metadata artifact.
+... [in class unique](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm) Class restriction.
 
 Entity Behavior Definition
 
-[define behavior for](javascript:call_link\('abenbdl_define_behavior.htm'\)) Definition of the behavior of an entity.
-... [alias](javascript:call_link\('abenbdl_alias.htm'\)) Definition of the alias name for the entity.
+[define behavior for](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm) Definition of the behavior of an entity.
+... [alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm) Definition of the alias name for the entity.
 
 Entity Properties
 
-[implementation in class unique](javascript:call_link\('abenbdl_in_class_unique.htm'\)) class restriction.
-[late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\)) Late numbering of entity instances.
-... [in place](javascript:call_link\('abenbdl_late_numbering.htm'\)) Use own key fields.
-[etag](javascript:call_link\('abenbdl_etag.htm'\)) Optimistic lock in shared access.
-[lock](javascript:call_link\('abenbdl_lock.htm'\)) Can the entity be locked.
-... [master](javascript:call_link\('abenbdl_lock.htm'\)) Support for direct locks.
-...[... dependent](javascript:call_link\('abenbdl_lock.htm'\)) Definition of the lock dependencies.
-[field](javascript:call_link\('abenbdl_field.htm'\)) Access restrictions.
-... [read only](javascript:call_link\('abenbdl_field.htm'\)) The field is not changed.
-... [mandatory](javascript:call_link\('abenbdl_field.htm'\)) The field is given a value.
+[implementation in class unique](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_in_class_unique.htm) class restriction.
+[late numbering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm) Late numbering of entity instances.
+... [in place](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm) Use own key fields.
+[etag](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_etag.htm) Optimistic lock in shared access.
+[lock](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm) Can the entity be locked.
+... [master](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm) Support for direct locks.
+...[... dependent](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm) Definition of the lock dependencies.
+[field](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_field.htm) Access restrictions.
+... [read only](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_field.htm) The field is not changed.
+... [mandatory](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_field.htm) The field is given a value.
 
 Operations
 
-[create](javascript:call_link\('abenbdl_standard_operations.htm'\)) Standard operation, creates a new entity instance.
-[update](javascript:call_link\('abenbdl_standard_operations.htm'\)) Standard operation, updates an existing entity instance.
-[delete](javascript:call_link\('abenbdl_standard_operations.htm'\)) Standard operation, deletes an existing entity instance.
-[action](javascript:call_link\('abenbdl_action.htm'\)) Non-standard operation.
-[static](javascript:call_link\('abenbdl_action.htm'\)) Static action.
-... [external](javascript:call_link\('abenbdl_action.htm'\)) External name of an action.
-... [parameter](javascript:call_link\('abenbdl_action.htm'\)) Definition of an input parameter.
-... [result](javascript:call_link\('abenbdl_action.htm'\)) Definition of an output parameter.
-... [cardinality](javascript:call_link\('abenbdl_action.htm'\)) Cardinality of the result entity.
-... [$self](javascript:call_link\('abenbdl_action.htm'\)) The type of the entity: self.
-[internal](javascript:call_link\('abenbdl_action.htm'\)) Operation can be implemented but not consumed.
+[create](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm) Standard operation, creates a new entity instance.
+[update](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm) Standard operation, updates an existing entity instance.
+[delete](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm) Standard operation, deletes an existing entity instance.
+[action](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm) Non-standard operation.
+[static](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm) Static action.
+... [external](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm) External name of an action.
+... [parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm) Definition of an input parameter.
+... [result](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm) Definition of an output parameter.
+... [cardinality](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm) Cardinality of the result entity.
+... [$self](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm) The type of the entity: self.
+[internal](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm) Operation can be implemented but not consumed.
 
 Associations
 
-[association](javascript:call_link\('abenbdl_association.htm'\)) Definition of the association.
-... [... abbreviation](javascript:call_link\('abenbdl_association.htm'\)) Alternative name of an association.
-... [... create](javascript:call_link\('abenbdl_association.htm'\)) Creates instances of the child entity using the association of the parent entity.
-[internal](javascript:call_link\('abenbdl_association.htm'\)) Association can be implemented but not consumed.
+[association](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm) Definition of the association.
+... [... abbreviation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm) Alternative name of an association.
+... [... create](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm) Creates instances of the child entity using the association of the parent entity.
+[internal](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm) Association can be implemented but not consumed.
 
-
-
-**📖 Source**: [abenbdl_language_elements.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_language_elements.htm)
 
 ### abenbdl_syntax.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -373,28 +289,21 @@ Associations
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) → 
 
 CDS BDL - Syntax
 
 \* Work in progress \*
 
-The syntax of the Behavior Definition Language (BDL) is oriented to the [Data Definition Language](javascript:call_link\('abenddl_glosry.htm'\) "Glossary Entry") (DDL) used to define CDS entities. The artifacts in question have some technical differences however: BDL artifacts are managed by ABAP Compiler. This means ABAP Compiler is responsible for syntax checks and semantic checks and for generating the [behavior definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)).
+The syntax of the Behavior Definition Language (BDL) is oriented to the [Data Definition Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenddl_glosry.htm "Glossary Entry") (DDL) used to define CDS entities. The artifacts in question have some technical differences however: BDL artifacts are managed by ABAP Compiler. This means ABAP Compiler is responsible for syntax checks and semantic checks and for generating the [behavior definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm).
 
 Continue
-[CDS BDL - General Syntax Rules](javascript:call_link\('abenbdl_general_syntax_rules.htm'\))
-[CDS BDL - Structure](javascript:call_link\('abenbdl_structure.htm'\))
-[CDS BDL - Language Elements](javascript:call_link\('abenbdl_language_elements.htm'\))
+[CDS BDL - General Syntax Rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_general_syntax_rules.htm)
+[CDS BDL - Structure](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_structure.htm)
+[CDS BDL - Language Elements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_language_elements.htm)
 
-
-
-**📖 Source**: [abenbdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm)
 
 ### abenbdl_implementation.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_implementation.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -402,7 +311,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) → 
 
 CDS BDL - IMPLEMENTATION
 
@@ -414,26 +323,26 @@ implementation unmanaged*|*managed*|*abstract *\[*in class class\_name unique*\]
 
 Effect
 
-The implementation type of the [business object behavior](javascript:call_link\('abenrap_bo_behavior_glosry.htm'\) "Glossary Entry") is introduced in the [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") using the keyword implementation.
+The implementation type of the [business object behavior](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_behavior_glosry.htm "Glossary Entry") is introduced in the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") using the keyword implementation.
 
 Implementation types can be split into the following categories:
 
 -   unmanaged
-    In the case of the implementation type unmanaged, all important components of the REST contract must be implemented first. All required operations (the [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\)) create, update, and delete plus any application-specific [actions](javascript:call_link\('abenbdl_action.htm'\))) must be defined in the relevant behavior definition before being implemented in ABAP. This implementation type is best used when using existing legacy business logic for [behavior implementation](javascript:call_link\('abenbehavior_implement_glosry.htm'\) "Glossary Entry").
+    In the case of the implementation type unmanaged, all important components of the REST contract must be implemented first. All required operations (the [standard operations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm) create, update, and delete plus any application-specific [actions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm)) must be defined in the relevant behavior definition before being implemented in ABAP. This implementation type is best used when using existing legacy business logic for [behavior implementation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_implement_glosry.htm "Glossary Entry").
 
 -   managed
     The implementation type managed is best used when implementing completely new business logic. In this case, a behavior definition is sufficient to obtain a ready-to-run business object.
 
 -   abstract
-    A behavior definition with the implementation type abstract cannot be implemented using [behavior pools](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") and is used as a metadata-only artifact in the representation of external services instead.
+    A behavior definition with the implementation type abstract cannot be implemented using [behavior pools](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") and is used as a metadata-only artifact in the representation of external services instead.
 
-A behavior definition can specify one or more classes which allow the behavior implementation of a business object. This can be done by using the addition [in class ... unique](javascript:call_link\('abenbdl_in_class_unique.htm'\)) in the behavior definition of the business object.
+A behavior definition can specify one or more classes which allow the behavior implementation of a business object. This can be done by using the addition [in class ... unique](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_in_class_unique.htm) in the behavior definition of the business object.
 
 Effect of in class ... unique:
 
 -   A behavior for the entity in question can only be implemented in a behavior pool with the specified name. Any other class that attempts this raises an ABAP Compiler error.
 
--   If the addition in class ... unique is specified, an operation must not be implemented multiple times in different [handler classes](javascript:call_link\('abenabp_handler_class.htm'\)).
+-   If the addition in class ... unique is specified, an operation must not be implemented multiple times in different [handler classes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_handler_class.htm).
 
 Example
 
@@ -450,14 +359,7 @@ define behavior for /DMO/I\_Travel alias Travel
 }
 
 
-
-**📖 Source**: [abenbdl_implementation.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm)
-
 ### abenbdl_define_behavior.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_define_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -465,7 +367,7 @@ define behavior for /DMO/I\_Travel alias Travel
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR
 
@@ -493,7 +395,7 @@ define behavior for CDSEntityName *\[*alias AliasName*\]*
 
 Effect
 
-Similarly to CDS entities, the [behavior](javascript:call_link\('abenrap_bo_behavior_glosry.htm'\) "Glossary Entry") for an entity can be divided into a part for once-only specifications (implementation, late numbering, etag, and lock), followed by a part of multiple specifications (field, standard operations, actions, and associations) enclosed in {...}.
+Similarly to CDS entities, the [behavior](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_behavior_glosry.htm "Glossary Entry") for an entity can be divided into a part for once-only specifications (implementation, late numbering, etag, and lock), followed by a part of multiple specifications (field, standard operations, actions, and associations) enclosed in {...}.
 
 Example
 
@@ -517,25 +419,18 @@ etag LastChangedAt
 }
 
 Continue
-[CDS BDL - DEFINE BEHAVIOR, alias](javascript:call_link\('abenbdl_alias.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, in class unique](javascript:call_link\('abenbdl_in_class_unique.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, etag](javascript:call_link\('abenbdl_etag.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, lock](javascript:call_link\('abenbdl_lock.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, field](javascript:call_link\('abenbdl_field.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, Standard Operations](javascript:call_link\('abenbdl_standard_operations.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, action](javascript:call_link\('abenbdl_action.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, association](javascript:call_link\('abenbdl_association.htm'\))
+[CDS BDL - DEFINE BEHAVIOR, alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm)
+[CDS BDL - DEFINE BEHAVIOR, in class unique](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_in_class_unique.htm)
+[CDS BDL - DEFINE BEHAVIOR, late numbering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm)
+[CDS BDL - DEFINE BEHAVIOR, etag](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_etag.htm)
+[CDS BDL - DEFINE BEHAVIOR, lock](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm)
+[CDS BDL - DEFINE BEHAVIOR, field](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_field.htm)
+[CDS BDL - DEFINE BEHAVIOR, Standard Operations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm)
+[CDS BDL - DEFINE BEHAVIOR, action](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm)
+[CDS BDL - DEFINE BEHAVIOR, association](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm)
 
-
-
-**📖 Source**: [abenbdl_define_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm)
 
 ### abenbdl_alias.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_alias.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -543,7 +438,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR, alias
 
@@ -555,11 +450,11 @@ Syntax
 
 Effect
 
-Behavior Definition Language ([CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry")) makes it possible to define an alias name AliasName for a CDS entity.
+Behavior Definition Language ([CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_bdl_glosry.htm "Glossary Entry")) makes it possible to define an alias name AliasName for a CDS entity.
 
-A BDL alias for an entity makes it possible to introduce a alias name for a CDS entity. This name can be clearer than the entity name itself, since it does not need to be uniquely global in [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry").
+A BDL alias for an entity makes it possible to introduce a alias name for a CDS entity. This name can be clearer than the entity name itself, since it does not need to be uniquely global in [ABAP Dictionary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_dictionary_glosry.htm "Glossary Entry").
 
-The alias name is visible in the method syntax of the [behavior implementation](javascript:call_link\('abenabap_behavior_pools.htm'\)) of the business object and in the [derived types](javascript:call_link\('abenrpm_derived_types.htm'\)).
+The alias name is visible in the method syntax of the [behavior implementation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm) of the business object and in the [derived types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm).
 
 The length of an alias name AliasName is restricted to 20 characters.
 
@@ -578,14 +473,7 @@ define behavior for /DMO/I\_Travel alias Travel
 }
 
 
-
-**📖 Source**: [abenbdl_alias.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm)
-
 ### abenbdl_in_class_unique.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_in_class_unique.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_in_class_unique.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -593,7 +481,7 @@ define behavior for /DMO/I\_Travel alias Travel
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR, in class unique
 
@@ -605,7 +493,7 @@ Syntax
 
 Effect
 
-A behavior definition can specify one or more [global classes](javascript:call_link\('abenabp_global_class.htm'\)) that allow the behavior implementation of a business object. This can be specified in two places:
+A behavior definition can specify one or more [global classes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_global_class.htm) that allow the behavior implementation of a business object. This can be specified in two places:
 
 -   In the header of the business object behavior definition.
 
@@ -625,19 +513,12 @@ A specification for each business object applies to all entities that do not hav
 
 Effect of specifying in class ClassName unique:
 
--   Behavior for the entity in question can only be implemented in a [behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") with the specified name ClassName. Any other class that attempts this raises an ABAP Compiler error.
+-   Behavior for the entity in question can only be implemented in a [behavior pool](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") with the specified name ClassName. Any other class that attempts this raises an ABAP Compiler error.
 
--   An operation (a [standard operation](javascript:call_link\('abenbdl_standard_operations.htm'\)) or an [action](javascript:call_link\('abenbdl_action.htm'\))) must not be implemented multiple times in different [handler classes](javascript:call_link\('abenabp_handler_class.htm'\)). Each operation on an entity can be implemented no more than once
+-   An operation (a [standard operation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm) or an [action](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm)) must not be implemented multiple times in different [handler classes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_handler_class.htm). Each operation on an entity can be implemented no more than once
 
-
-
-**📖 Source**: [abenbdl_in_class_unique.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_in_class_unique.htm)
 
 ### abenbdl_late_numbering.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_late_numbering.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -645,7 +526,7 @@ Effect of specifying in class ClassName unique:
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR, late numbering
 
@@ -657,15 +538,15 @@ Syntax
 
 Effect
 
-Late numbering is a concept for gapless assignments of unique keys when creating new entity instances. New entity instances are given their final key shortly before the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") is saved. Until this moment, the application logic uses a temporary key that has to be replaced when the business object data is saved.
+Late numbering is a concept for gapless assignments of unique keys when creating new entity instances. New entity instances are given their final key shortly before the [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") is saved. Until this moment, the application logic uses a temporary key that has to be replaced when the business object data is saved.
 
-The addition in place indicates that a CDS entity uses its own key fields for late numbering. These key fields are written to the special values, which are identified as temporary. This means that the [derived types](javascript:call_link\('abenrpm_derived_types.htm'\)) for the entity do not contain an additional field [%PID](javascript:call_link\('abencomponents_derived_types.htm'\)). The task when assigning the keys (TYPE TABLE FOR MAPPED) therefore is to map from a temporary key to the final key and not to map from a %PID to the final key. This means that the mapped structure contains the entity key fields twice, once as a component %TMP and once as a component [%KEY](javascript:call_link\('abencomponents_derived_types.htm'\)).
+The addition in place indicates that a CDS entity uses its own key fields for late numbering. These key fields are written to the special values, which are identified as temporary. This means that the [derived types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm) for the entity do not contain an additional field [%PID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm). The task when assigning the keys (TYPE TABLE FOR MAPPED) therefore is to map from a temporary key to the final key and not to map from a %PID to the final key. This means that the mapped structure contains the entity key fields twice, once as a component %TMP and once as a component [%KEY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm).
 
-Late numbering must be applied by implementing the method [adjust\_numbers()](javascript:call_link\('abensaver_adjust_numbers.htm'\)) of the local [saver class](javascript:call_link\('abenabp_saver_class.htm'\)) that is part of the [behavior implementation](javascript:call_link\('abenbehavior_implement_glosry.htm'\) "Glossary Entry"). When declared in the [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") of the entity, late numbering causes the runtime to call the method adjust\_numbers() at the time in question. This implementation is then responsible for assigning the final keys and passing them to the method parameter mapped.
+Late numbering must be applied by implementing the method [adjust\_numbers()](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_adjust_numbers.htm) of the local [saver class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_saver_class.htm) that is part of the [behavior implementation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_implement_glosry.htm "Glossary Entry"). When declared in the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") of the entity, late numbering causes the runtime to call the method adjust\_numbers() at the time in question. This implementation is then responsible for assigning the final keys and passing them to the method parameter mapped.
 
 Remarks
 
--   The parameter mapped is used to pass the final keys to the framework and hence replace the temporary keys. Ideally, this replacement action is decoupled from the actual saving of the data but many legacy applications determine their keys when the data is saved. In these cases, it is best to implement the save logic in adjust\_numbers() and leave the method [save](javascript:call_link\('abensaver_method_save.htm'\)) itself empty.
+-   The parameter mapped is used to pass the final keys to the framework and hence replace the temporary keys. Ideally, this replacement action is decoupled from the actual saving of the data but many legacy applications determine their keys when the data is saved. In these cases, it is best to implement the save logic in adjust\_numbers() and leave the method [save](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_method_save.htm) itself empty.
 
 -   Late numbering modifies the derived types: The tables mapped, reported, and failed are given the additional field %PID to hold a temporary key.
 
@@ -686,14 +567,7 @@ late numbering
 }
 
 
-
-**📖 Source**: [abenbdl_late_numbering.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm)
-
 ### abenbdl_etag.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_etag.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_etag.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -701,7 +575,7 @@ late numbering
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR, etag
 
@@ -717,9 +591,9 @@ The etag field field of an entity is used for locks in the OData protocol. It re
 
 A field flagged as an entity tag (ETag) field field is typically used to describe, uniquely, the state of a requested resource (for example a specific entity instance). Any changes made to the requested resource update the etag field. Often fields containing time stamps, check sums, or version numbers are used for this.
 
-In the [behavior implementation](javascript:call_link\('abenbehavior_implement_glosry.htm'\) "Glossary Entry"), the method [read](javascript:call_link\('abenhandler_method_read.htm'\)) of the [handler class](javascript:call_link\('abenabp_handler_class.htm'\)) is called, which then requests the current ETag for the resource as shown in the following example. The process flow is as follows:
+In the [behavior implementation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_implement_glosry.htm "Glossary Entry"), the method [read](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_read.htm) of the [handler class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_handler_class.htm) is called, which then requests the current ETag for the resource as shown in the following example. The process flow is as follows:
 
--   If an entity has an ETag field in its [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry"), a write operation (such as update) passes an if match header with the value of the ETag in the query and hence informs the framework of the expected state.
+-   If an entity has an ETag field in its [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry"), a write operation (such as update) passes an if match header with the value of the ETag in the query and hence informs the framework of the expected state.
 
 -   The method read then checks whether the requested resource exists in a buffered state or, if not, whether it needs to be read from the database.
 
@@ -748,14 +622,7 @@ etag LastChangedAt
 }
 
 
-
-**📖 Source**: [abenbdl_etag.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_etag.htm)
-
 ### abenbdl_lock.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_lock.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -763,7 +630,7 @@ etag LastChangedAt
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR, lock
 
@@ -784,7 +651,7 @@ A behavior definition can specify the following for an entity:
 
 A foreign key relationship must be defined for any lock dependencies. This relationship describes which field in the child entity references which field in the parent entity, expressed using LocalField = MasterField in BDL syntax.
 
-Remarks [ABAP RAP](javascript:call_link\('abenabap_rap_glosry.htm'\) "Glossary Entry") supports lock master for root nodes of the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") only.
+Remarks [ABAP RAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_rap_glosry.htm "Glossary Entry") supports lock master for root nodes of the [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") only.
 
 -   The lock property is only relevant for those entities that provide change operations (such as update).
 
@@ -805,14 +672,7 @@ lock master
 }
 
 
-
-**📖 Source**: [abenbdl_lock.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm)
-
 ### abenbdl_field.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_field.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_field.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -820,7 +680,7 @@ lock master
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR, field
 
@@ -867,14 +727,7 @@ lock master
 }
 
 
-
-**📖 Source**: [abenbdl_field.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_field.htm)
-
 ### abenbdl_standard_operations.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_standard_operations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -882,7 +735,7 @@ lock master
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR, Standard Operations
 
@@ -896,17 +749,17 @@ Syntax
 
 Effect
 
-The standard operations create, update, and delete (known as the CRUD operations) are the most important operations for the transactional behavior of a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"). The operations create, update, and delete must be declared appropriately in the [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") for an entity whenever an entity is created, updated, or deleted.
+The standard operations create, update, and delete (known as the CRUD operations) are the most important operations for the transactional behavior of a [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry"). The operations create, update, and delete must be declared appropriately in the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") for an entity whenever an entity is created, updated, or deleted.
 
 A standard operation can be given the addition internal. This makes it possible to implement the action without making it consumable from outside. Example: internal update;
 
 CRUD operations can be made available for an entity simply by declaring them in the body of the entity in question.
 
-The [behavior](javascript:call_link\('abenrap_bo_behavior_glosry.htm'\) "Glossary Entry") for the operations create, update, and delete is implemented in the method [FOR MODIFY](javascript:call_link\('abenhandler_method_modify.htm'\)) of the [handler class](javascript:call_link\('abenabp_handler_class.htm'\)).
+The [behavior](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_behavior_glosry.htm "Glossary Entry") for the operations create, update, and delete is implemented in the method [FOR MODIFY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_modify.htm) of the [handler class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_handler_class.htm).
 
 Note
 
-The [FOR LOCK](javascript:call_link\('abenhandler_method_lock.htm'\)) method of the handler class is called automatically before a change operation (such as update) is triggered. However, the corresponding entity must have the lock property in its behavior definition.
+The [FOR LOCK](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_lock.htm) method of the handler class is called automatically before a change operation (such as update) is triggered. However, the corresponding entity must have the lock property in its behavior definition.
 
 Example
 
@@ -923,17 +776,10 @@ lock master
   delete;
 }
 
-The transactional behavior of the business object is defined by the standard operations create, update, and delete. These operations are [implemented](javascript:call_link\('abenabap_behavior_pools.htm'\)) in the association [behavior pools](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+The transactional behavior of the business object is defined by the standard operations create, update, and delete. These operations are [implemented](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm) in the association [behavior pools](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
 
-
-
-**📖 Source**: [abenbdl_standard_operations.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm)
 
 ### abenbdl_action.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_action.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -941,7 +787,7 @@ The transactional behavior of the business object is defined by the standard ope
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR, action
 
@@ -964,14 +810,14 @@ Input and output parameters are optional. Actions can pass CDS entities as input
 
 InputParameterEntity can be any type defined in ABAP Dictionary or ABAP CDS. OData accepts structured types only. EML can also handle elementary types.
 
-An instance action is always multi-instance-enabled. The result [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") in instance actions specifies whether an input instance points to 0..1, 1, 0..n, or 1..n instances. The potential cardinality values are therefore as follows: \[0..1\], \[1\], \[0..\*\] or \[1..\*\].
+An instance action is always multi-instance-enabled. The result [cardinality](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencardinality_glosry.htm "Glossary Entry") in instance actions specifies whether an input instance points to 0..1, 1, 0..n, or 1..n instances. The potential cardinality values are therefore as follows: \[0..1\], \[1\], \[0..\*\] or \[1..\*\].
 
 An action can also be given an external name. Here is one example:
 
 action ActionName external 'AVeryLongExternalActionName'
      result \[0..1\] OutputParameter;
 
-The external name can be up to 128 characters long. It will only be exposed in the OData metadata. It is ignored within ABAP, for example the action cannot be addressed in [Entity Manipulation Language](javascript:call_link\('abeneml.htm'\)) using the external name.
+The external name can be up to 128 characters long. It will only be exposed in the OData metadata. It is ignored within ABAP, for example the action cannot be addressed in [Entity Manipulation Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeneml.htm) using the external name.
 
 Note
 
@@ -992,17 +838,10 @@ define behavior for /DMO/I\_Travel alias Travel
   action set\_status\_booked result \[1\] $self;
 }
 
-The transactional [behavior](javascript:call_link\('abenrap_bo_behavior_glosry.htm'\) "Glossary Entry") of the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") travel is defined by the [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\)) create, update, and delete plus one action. The end user can use the action set\_status\_booked to set the status of a trip to booked. The action set\_status\_booked is bound to an instance of the type travel, which in this case is also returned by the action. This means the cardinality equals \[1\] and $self is set as the type of the output parameter.
+The transactional [behavior](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_behavior_glosry.htm "Glossary Entry") of the [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") travel is defined by the [standard operations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm) create, update, and delete plus one action. The end user can use the action set\_status\_booked to set the status of a trip to booked. The action set\_status\_booked is bound to an instance of the type travel, which in this case is also returned by the action. This means the cardinality equals \[1\] and $self is set as the type of the output parameter.
 
-
-
-**📖 Source**: [abenbdl_action.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm)
 
 ### abenbdl_association.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_association.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1010,7 +849,7 @@ The transactional [behavior](javascript:call_link\('abenrap_bo_behavior_glosry.h
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) →  [CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) →  [CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR, association
 
@@ -1033,7 +872,7 @@ An association can be given the addition internal. This makes it possible to imp
 
 If the create action is internally activated (it can be implemented but is not consumable), the operation create can be given the addition internal. Example: association \_Booking { internal create; }
 
-The addition abbreviation defines an alternative name, in a similar way to alias for entities. AbbreviationName is not an alias, however, which is why a different keyword is used here. Associations are in the namespace of their root entity, which is why their names are usually easy to read and no more than 30 characters long. This is too long for [ABAP RAP](javascript:call_link\('abenabap_rap_glosry.htm'\) "Glossary Entry"), since certain component names are created by concatenating association names and default suffixes. This why an abbreviation AbbreviationName must be defined if the name of the association in the CDS view exceeds the length of 11 characters.
+The addition abbreviation defines an alternative name, in a similar way to alias for entities. AbbreviationName is not an alias, however, which is why a different keyword is used here. Associations are in the namespace of their root entity, which is why their names are usually easy to read and no more than 30 characters long. This is too long for [ABAP RAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_rap_glosry.htm "Glossary Entry"), since certain component names are created by concatenating association names and default suffixes. This why an abbreviation AbbreviationName must be defined if the name of the association in the CDS view exceeds the length of 11 characters.
 
 Example
 
@@ -1053,14 +892,7 @@ define behavior for /DMO/I\_Travel alias Travel
 The association \_Booking specifies that new instances of the child entity Booking can be created for a specific instance of the entity Travel only. The keyword { create; } indicates that this assignment is activated for the standard operation create. Therefore, booking instances can only be created using a travel instance Travel.
 
 
-
-**📖 Source**: [abenbdl_association.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm)
-
 ### abenbdl_define_behavior.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_define_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1068,7 +900,7 @@ The association \_Booking specifies that new instances of the child entity Booki
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) →  [CDS BDL](javascript:call_link\('abenabap_bdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) →  [CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm) → 
 
 CDS BDL - DEFINE BEHAVIOR
 
@@ -1096,7 +928,7 @@ define behavior for CDSEntityName *\[*alias AliasName*\]*
 
 Effect
 
-Similarly to CDS entities, the [behavior](javascript:call_link\('abenrap_bo_behavior_glosry.htm'\) "Glossary Entry") for an entity can be divided into a part for once-only specifications (implementation, late numbering, etag, and lock), followed by a part of multiple specifications (field, standard operations, actions, and associations) enclosed in {...}.
+Similarly to CDS entities, the [behavior](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_behavior_glosry.htm "Glossary Entry") for an entity can be divided into a part for once-only specifications (implementation, late numbering, etag, and lock), followed by a part of multiple specifications (field, standard operations, actions, and associations) enclosed in {...}.
 
 Example
 
@@ -1120,25 +952,18 @@ etag LastChangedAt
 }
 
 Continue
-[CDS BDL - DEFINE BEHAVIOR, alias](javascript:call_link\('abenbdl_alias.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, in class unique](javascript:call_link\('abenbdl_in_class_unique.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, etag](javascript:call_link\('abenbdl_etag.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, lock](javascript:call_link\('abenbdl_lock.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, field](javascript:call_link\('abenbdl_field.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, Standard Operations](javascript:call_link\('abenbdl_standard_operations.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, action](javascript:call_link\('abenbdl_action.htm'\))
-[CDS BDL - DEFINE BEHAVIOR, association](javascript:call_link\('abenbdl_association.htm'\))
+[CDS BDL - DEFINE BEHAVIOR, alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm)
+[CDS BDL - DEFINE BEHAVIOR, in class unique](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_in_class_unique.htm)
+[CDS BDL - DEFINE BEHAVIOR, late numbering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_late_numbering.htm)
+[CDS BDL - DEFINE BEHAVIOR, etag](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_etag.htm)
+[CDS BDL - DEFINE BEHAVIOR, lock](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm)
+[CDS BDL - DEFINE BEHAVIOR, field](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_field.htm)
+[CDS BDL - DEFINE BEHAVIOR, Standard Operations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm)
+[CDS BDL - DEFINE BEHAVIOR, action](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm)
+[CDS BDL - DEFINE BEHAVIOR, association](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_association.htm)
 
-
-
-**📖 Source**: [abenbdl_define_behavior.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm)
 
 ### abenabap_bdl.htm
-
-> **📖 Official SAP Documentation**: [abenabap_bdl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1146,7 +971,7 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abencds_f1_bdl_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm) → 
 
 CDS BDL
 
@@ -1154,31 +979,21 @@ CDS BDL
 
 The transactional behavior of a CDS entity is modeled using the Behavior Definition Language (BDL).
 
-BDL describes the functions and properties of one or more [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") nodes, such as
+BDL describes the functions and properties of one or more [RAP business object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrap_bo_glosry.htm "Glossary Entry") nodes, such as
 
--   the [standard operations](javascript:call_link\('abenbdl_standard_operations.htm'\)) create, update, and delete (the CRUD operations),
+-   the [standard operations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_standard_operations.htm) create, update, and delete (the CRUD operations),
 
--   application-specific operations ([actions](javascript:call_link\('abenbdl_action.htm'\))),
+-   application-specific operations ([actions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_action.htm)),
 
--   definition of a [lock property](javascript:call_link\('abenbdl_lock.htm'\)) for modifying operations on business object nodes, including the option of propagating locks to child nodes (known as a lock master/lock dependent relationship).
+-   definition of a [lock property](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_lock.htm) for modifying operations on business object nodes, including the option of propagating locks to child nodes (known as a lock master/lock dependent relationship).
 
 Continue
-[CDS BDL - Syntax](javascript:call_link\('abenbdl_syntax.htm'\))
-[CDS BDL - IMPLEMENTATION](javascript:call_link\('abenbdl_implementation.htm'\))
-[CDS BDL - DEFINE BEHAVIOR](javascript:call_link\('abenbdl_define_behavior.htm'\))
+[CDS BDL - Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_syntax.htm)
+[CDS BDL - IMPLEMENTATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_implementation.htm)
+[CDS BDL - DEFINE BEHAVIOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_define_behavior.htm)
 
-
-
-**📖 Source**: [abenabap_bdl.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)
 
 ### abencds_f1_bdl_syntax.htm
-
-> **📖 Official SAP Documentation**: [abencds_f1_bdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencds_f1_bdl_syntax.htm](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_bdl_syntax.htm)
-
 
   
 
@@ -1186,11 +1001,11 @@ Continue
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (BO)](javascript:call_link\('abencds_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_behavior_definitions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (BO)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) → 
 
 ABAP CDS - BDL for Behavior Definitions
 
 In construction
 
 Continue
-[CDS BDL](javascript:call_link\('abenabap_bdl.htm'\))
+[CDS BDL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_bdl.htm)

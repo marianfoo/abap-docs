@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Access Control](javascript:call_link\('abencds_access_control.htm'\)) →  [ABAP CDS - DCL Statements](javascript:call_link\('abencds_f1_dcl_syntax.htm'\)) →  [CDS DCL - DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) →  [CDS DCL - DEFINE ROLE, condition](javascript:call_link\('abencds_dcl_role_conditions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Access Control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control.htm) →  [ABAP CDS - DCL Statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_dcl_syntax.htm) →  [CDS DCL - DEFINE ROLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_role.htm) →  [CDS DCL - DEFINE ROLE, condition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_role_conditions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DCL%20-%20DEFINE%20ROLE%2C%20dcl_function%2C%20ABENCDS_F1_DCL_FUNCTION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement
 :)
@@ -34,7 +34,7 @@ Variants:
 
 Effect
 
-DCL functions are evaluated in the ABAP application server before the [access conditions](javascript:call_link\('abenaccess_condition_glosry.htm'\) "Glossary Entry") are sent to the database.
+DCL functions are evaluated in the ABAP application server before the [access conditions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenaccess_condition_glosry.htm "Glossary Entry") are sent to the database.
 
 They evaluate to either logical TRUE or logical FALSE and then may result in reduction of the logical expression tree of the access control.
 
@@ -122,7 +122,7 @@ Variant 3  
 
 Effect
 
-This function retrieves the runtime state of a switch in the [Switch Framework](javascript:call_link\('abenswitch_framework_glosry.htm'\) "Glossary Entry") (SFW):
+This function retrieves the runtime state of a switch in the [Switch Framework](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenswitch_framework_glosry.htm "Glossary Entry") (SFW):
 
 -   If the switch state is On, the result of the function is considered non-initial and testing the function with IS NOT INITIAL returns TRUE, while testing with IS INITIAL returns FALSE.
 -   Otherwise, the result of the function is initial and the test result is reversed under the two operators mentioned above.
@@ -130,7 +130,7 @@ This function retrieves the runtime state of a switch in the [Switch Framework](
 Hints
 
 -   For switches in the Switch Framework of type Feature Toggle, use the dedicated DCL function TOGGLE\_RUNTIME\_STATE.
--   This function is only evaluated at runtime. See the documentation for the CDS role addition [SWITCHABLE](javascript:call_link\('abencds_f1_define_role.htm'\)) for another type of switch dependency in CDS access control that affects the access control generation process.
+-   This function is only evaluated at runtime. See the documentation for the CDS role addition [SWITCHABLE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_role.htm) for another type of switch dependency in CDS access control that affects the access control generation process.
 
 Example
 

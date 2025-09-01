@@ -4,26 +4,26 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Call Event Handler](javascript:call_link\('abencall_event_handler.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_processing_blocks.htm) →  [Call Event Handler](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_event_handler.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SET HANDLER, ABAPSET_HANDLER, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion
  for improvement:)
 
 SET HANDLER
 
-[Short Reference](javascript:call_link\('abapset_handler_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler_shortref.htm)
 
 Syntax Forms
 
-[Registers an instance events handler](javascript:call_link\('abapset_handler_instance.htm'\))
+[Registers an instance events handler](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler_instance.htm)
 1\. SET HANDLER handler1 handler2 ... FOR oref*|**{*ALL INSTANCES*}*
                                     *\[*ACTIVATION act*\]*.
-[Register static events handler](javascript:call_link\('abapset_handler_static.htm'\))
+[Register static events handler](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler_static.htm)
 2\. SET HANDLER handler1 handler2 ... *\[*ACTIVATION act*\]*.
 
 Effect
 
-This statement registers or deregisters the [event handlers](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry") handler for the corresponding [instance events](javascript:call_link\('abeninstance_event_glosry.htm'\) "Glossary Entry") or [static events](javascript:call_link\('abenstatic_event_glosry.htm'\) "Glossary Entry").
+This statement registers or deregisters the [event handlers](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenevent_handler_glosry.htm "Glossary Entry") handler for the corresponding [instance events](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninstance_event_glosry.htm "Glossary Entry") or [static events](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_event_glosry.htm "Glossary Entry").
 
 System Fields
 
@@ -47,7 +47,7 @@ Hints
 
 -   The statement SET HANDLER internally manages different system tables that relate the event raisers and event handlers to each other in single registrations, mass registrations, and registrations of static events. Each registration represents one line in one of the system tables assigned to the trigger. A handler can only occur once in a particular system table but can appear in multiple system tables, that is, it can be registered for different events. When an event is raised using RAISE EVENT, the system evaluates the corresponding system tables and calls the event handlers registered there.
 -   The order of the calls of registered event handlers is not defined and can change at program runtime. To get a fixed order of different method calls, these can be called in one event handler.
--   When an instance method is registered, a reference to the corresponding object is added in the relevant table and then deleted again when deregistering. With respect to the [Garbage Collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry"), such a reference has the same effect as a reference in a reference variable. Objects registered as handlers are therefore not deleted as long as they are registered, that is, they are not deregistered using the addition ACTIVATION. If a triggering instance is deleted by the Garbage Collector, the corresponding system table is also deleted and, as a result, its registrations are removed.
+-   When an instance method is registered, a reference to the corresponding object is added in the relevant table and then deleted again when deregistering. With respect to the [Garbage Collector](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengarbage_collector_glosry.htm "Glossary Entry"), such a reference has the same effect as a reference in a reference variable. Objects registered as handlers are therefore not deleted as long as they are registered, that is, they are not deregistered using the addition ACTIVATION. If a triggering instance is deleted by the Garbage Collector, the corresponding system table is also deleted and, as a result, its registrations are removed.
 -   If the statement SET HANDLER registers the current handler again for the current event that has just been handled, it is not defined whether the registration is ignored by the current event handler. This can produce endless recursions and should be avoided.
 
 Example
@@ -75,7 +75,7 @@ DATA: trigger TYPE REF TO c2,
 SET HANDLER: c3=>h1 handler->h2 FOR trigger,
              handler->h3.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 
@@ -91,5 +91,5 @@ Uncatchable Exceptions
     Runtime error: SET\_HANDLER\_HOBJ\_NULL
 
 Continue
-[SET HANDLER, FOR](javascript:call_link\('abapset_handler_instance.htm'\))
-[SET HANDLER, static\_event](javascript:call_link\('abapset_handler_static.htm'\))
+[SET HANDLER, FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler_instance.htm)
+[SET HANDLER, static\_event](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_handler_static.htm)

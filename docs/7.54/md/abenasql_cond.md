@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_operands.htm) → 
 
 ABAP SQL - SQL Conditions sql\_cond
 
@@ -15,13 +15,13 @@ Syntax
 
 Effect
 
-Logical expression sql\_cond for formulating a condition in ABAP SQL. A logical expression consists of one or more relational expressions rel\_exp that are joined by [AND](javascript:call_link\('abenwhere_logexp_andornot.htm'\)) or [OR](javascript:call_link\('abenwhere_logexp_andornot.htm'\)) and can be negated with [NOT](javascript:call_link\('abenwhere_logexp_andornot.htm'\)). There are different types of relational expressions:
+Logical expression sql\_cond for formulating a condition in ABAP SQL. A logical expression consists of one or more relational expressions rel\_exp that are joined by [AND](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_andornot.htm) or [OR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_andornot.htm) and can be negated with [NOT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_andornot.htm). There are different types of relational expressions:
 
--   [Relational expressions for statements](javascript:call_link\('abenwhere_logexp.htm'\))
+-   [Relational expressions for statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp.htm)
 
--   [Relational expressions for expressions](javascript:call_link\('abenosql_expr_logexp.htm'\))
+-   [Relational expressions for expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenosql_expr_logexp.htm)
 
 Continue
-[sql\_cond - rel\_exp for Statements](javascript:call_link\('abenwhere_logexp.htm'\))
-[sql\_cond - rel\_exp for Expressions](javascript:call_link\('abenosql_expr_logexp.htm'\))
-[sql\_cond - AND, OR, NOT, ( )](javascript:call_link\('abenwhere_logexp_andornot.htm'\))
+[sql\_cond - rel\_exp for Statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp.htm)
+[sql\_cond - rel\_exp for Expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenosql_expr_logexp.htm)
+[sql\_cond - AND, OR, NOT, ( )](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwhere_logexp_andornot.htm)

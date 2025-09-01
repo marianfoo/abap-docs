@@ -3,32 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abensystem_fields_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields_gdl.htm)
-- [abensyst_field_access_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensyst_field_access_guidl.htm)
-- [abenobs_intern_system_field_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobs_intern_system_field_guidl.htm)
-- [abenevaluation_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenevaluation_guidl.htm)
-- [abenreturn_code_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreturn_code_guidl.htm)
-- [abenuse_actual_parameters_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_actual_parameters_guidl.htm)
-- [abenuse_ui_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_ui_guidl.htm)
-- [abenuse_operand_position_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_operand_position_guidl.htm)
-
-**Bundle Contains**: 8 documentation pages
-**Version**: ABAP 7.57
-**Generated**: 2025-09-01T11:25:45.231Z
-
----
-
 ### abensystem_fields_gdl.htm
-
-> **📖 Official SAP Documentation**: [abensystem_fields_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields_gdl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -36,43 +11,36 @@ Included pages: 8
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: System Fields, ABENSYSTEM_FIELDS_GDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASu
 ggestion for improvement:)
 
 System Fields
 
-An ABAP program can request the state of the ABAP runtime framework using the [system fields](javascript:call_link\('abensystem_fields.htm'\)). From a technical viewpoint, these system fields are a set of built-in variables (the components of the built-in sy structure with the data type SYST from ABAP Dictionary) that always exist when the program is running.
+An ABAP program can request the state of the ABAP runtime framework using the [system fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields.htm). From a technical viewpoint, these system fields are a set of built-in variables (the components of the built-in sy structure with the data type SYST from ABAP Dictionary) that always exist when the program is running.
 
 The system field sy-repid is an exception. This field indicates the name of the program currently running. In this case, we are dealing with a built-in constant and not a component of the built-in sy structure.
 
--   [Access](javascript:call_link\('abensyst_field_access_guidl.htm'\) "Guideline")
--   [Obsolete and internal system fields](javascript:call_link\('abenobs_intern_system_field_guidl.htm'\) "Guideline")
--   [Evaluation](javascript:call_link\('abenevaluation_guidl.htm'\) "Guideline")
--   [Return code](javascript:call_link\('abenreturn_code_guidl.htm'\) "Guideline")
--   [Use as actual parameter](javascript:call_link\('abenuse_actual_parameters_guidl.htm'\) "Guideline")
--   [Using system fields on the user interface](javascript:call_link\('abenuse_ui_guidl.htm'\) "Guideline")
--   [Use in operand positions](javascript:call_link\('abenuse_operand_position_guidl.htm'\) "Guideline")
+-   [Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensyst_field_access_guidl.htm "Guideline")
+-   [Obsolete and internal system fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobs_intern_system_field_guidl.htm "Guideline")
+-   [Evaluation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenevaluation_guidl.htm "Guideline")
+-   [Return code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreturn_code_guidl.htm "Guideline")
+-   [Use as actual parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_actual_parameters_guidl.htm "Guideline")
+-   [Using system fields on the user interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_ui_guidl.htm "Guideline")
+-   [Use in operand positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_operand_position_guidl.htm "Guideline")
 
 Continue
-[Access](javascript:call_link\('abensyst_field_access_guidl.htm'\))
-[Obsolete and Internal System Fields](javascript:call_link\('abenobs_intern_system_field_guidl.htm'\))
-[Evaluation](javascript:call_link\('abenevaluation_guidl.htm'\))
-[Return Code](javascript:call_link\('abenreturn_code_guidl.htm'\))
-[Using System Fields as Actual Parameters](javascript:call_link\('abenuse_actual_parameters_guidl.htm'\))
-[Using System Fields on the User Interface](javascript:call_link\('abenuse_ui_guidl.htm'\))
-[Using Elements in Operand Positions](javascript:call_link\('abenuse_operand_position_guidl.htm'\))
+[Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensyst_field_access_guidl.htm)
+[Obsolete and Internal System Fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobs_intern_system_field_guidl.htm)
+[Evaluation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenevaluation_guidl.htm)
+[Return Code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreturn_code_guidl.htm)
+[Using System Fields as Actual Parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_actual_parameters_guidl.htm)
+[Using System Fields on the User Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_ui_guidl.htm)
+[Using Elements in Operand Positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_operand_position_guidl.htm)
 
-
-
-**📖 Source**: [abensystem_fields_gdl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields_gdl.htm)
 
 ### abensyst_field_access_guidl.htm
-
-> **📖 Official SAP Documentation**: [abensyst_field_access_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensyst_field_access_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -80,7 +48,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [System Fields](javascript:call_link\('abensystem_fields_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [System Fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Access, ABENSYST_FIELD_ACCESS_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASug
 gestion for improvement:)
@@ -105,7 +73,7 @@ In addition, you cannot misuse system fields as implicit output parameters of pr
 
 Exception
 
-The only system fields where it was allowed to change the field content (in an application program) are part of classic list processing. This should [no longer be used](javascript:call_link\('abenlist_guidl.htm'\) "Guideline").
+The only system fields where it was allowed to change the field content (in an application program) are part of classic list processing. This should [no longer be used](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlist_guidl.htm "Guideline").
 
 Bad Example
 
@@ -129,14 +97,7 @@ CASE sy-subrc.
    ...
 
 
-
-**📖 Source**: [abensyst_field_access_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensyst_field_access_guidl.htm)
-
 ### abenobs_intern_system_field_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenobs_intern_system_field_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobs_intern_system_field_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -144,7 +105,7 @@ CASE sy-subrc.
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [System Fields](javascript:call_link\('abensystem_fields_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [System Fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Obsolete and Internal System Fields, ABENOBS_INTERN_SYSTEM_FIELD_GUIDL, 757%0D%0A%0D%
 0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -153,7 +114,7 @@ Obsolete and Internal System Fields
 
 Background   
 
-Not all system fields are designed to be used in application programs. All available system fields are components of the structure SYST in ABAP Dictionary (or components of the structure sy in the debugger). The meaning of the components is included in the accompanying description. Any system fields that are [obsolete](javascript:call_link\('abensystem_fields_obsolete.htm'\)) or only to be [used internally](javascript:call_link\('abensystem_fields_internal.htm'\)) are clearly marked.
+Not all system fields are designed to be used in application programs. All available system fields are components of the structure SYST in ABAP Dictionary (or components of the structure sy in the debugger). The meaning of the components is included in the accompanying description. Any system fields that are [obsolete](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields_obsolete.htm) or only to be [used internally](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields_internal.htm) are clearly marked.
 
 Rule   
 
@@ -185,14 +146,7 @@ DATA decimals TYPE i.
 DESCRIBE FIELD dobj TYPE type DECIMALS decimals.
 
 
-
-**📖 Source**: [abenobs_intern_system_field_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenobs_intern_system_field_guidl.htm)
-
 ### abenevaluation_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenevaluation_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenevaluation_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -200,7 +154,7 @@ DESCRIBE FIELD dobj TYPE type DECIMALS decimals.
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [System Fields](javascript:call_link\('abensystem_fields_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [System Fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Evaluation, ABENEVALUATION_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugges
 tion for improvement:)
@@ -209,7 +163,7 @@ Evaluation
 
 Background   
 
-System fields describe general system states or are set specifically by individual statements. The content of system fields is only defined as described in the documentation of the system fields or in the documentation of ABAP statements that set system fields. In contexts other than those described there, the content of system fields is not defined. Particularly statements whose effects on system fields are undocumented can modify the content of specific system fields, such as the [return code](javascript:call_link\('abenreturn_code_guidl.htm'\) "Guideline") sy-subrc, in an undefined way. This applies especially to statements that call ABAP code implicitly or explicitly when executed.
+System fields describe general system states or are set specifically by individual statements. The content of system fields is only defined as described in the documentation of the system fields or in the documentation of ABAP statements that set system fields. In contexts other than those described there, the content of system fields is not defined. Particularly statements whose effects on system fields are undocumented can modify the content of specific system fields, such as the [return code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreturn_code_guidl.htm "Guideline") sy-subrc, in an undefined way. This applies especially to statements that call ABAP code implicitly or explicitly when executed.
 
 Rule   
 
@@ -221,9 +175,9 @@ Details  
 
 If possible, a system field should be evaluated directly after the statement that set it, to prevent it from being overwritten by other statements. The bigger the gap between the ABAP statement in question and the evaluation of a system field, the higher the risk that this system field will be affected by a different statement in the meantime.
 
-If necessary, the values of system fields should be saved in helper variables. This applies in particular to the general [return code](javascript:call_link\('abenreturn_code_guidl.htm'\) "Guideline"), sy-subrc, which is set by very many different statements. Other common examples include the syindex loop counter or the sy-tabix table index.
+If necessary, the values of system fields should be saved in helper variables. This applies in particular to the general [return code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreturn_code_guidl.htm "Guideline"), sy-subrc, which is set by very many different statements. Other common examples include the syindex loop counter or the sy-tabix table index.
 
-You should never evaluate statement-related system fields after statements that do not set these fields according to their documentation. As before, a common example is the evaluation of sy-subrc. If it is not documented for a statement that it sets sy-subrc in a defined way, an evaluation after this statement is very risky. Either sy-subrc still has the previous value, or it is set in an undefined way by the statement. Both outcomes can lead to incorrect program behavior. The bad example in the [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline") section shows an example of this.
+You should never evaluate statement-related system fields after statements that do not set these fields according to their documentation. As before, a common example is the evaluation of sy-subrc. If it is not documented for a statement that it sets sy-subrc in a defined way, an evaluation after this statement is very risky. Either sy-subrc still has the previous value, or it is set in an undefined way by the statement. Both outcomes can lead to incorrect program behavior. The bad example in the [extended program check](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenextended_program_check_guidl.htm "Guideline") section shows an example of this.
 
 Hint
 
@@ -255,14 +209,7 @@ IF find\_subrc = 0.
 ENDIF.
 
 
-
-**📖 Source**: [abenevaluation_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenevaluation_guidl.htm)
-
 ### abenreturn_code_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenreturn_code_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreturn_code_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -270,7 +217,7 @@ ENDIF.
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [System Fields](javascript:call_link\('abensystem_fields_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [System Fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Return Code, ABENRETURN_CODE_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugg
 estion for improvement:)
@@ -279,7 +226,7 @@ Return Code
 
 Background   
 
-The most prominent system field is probably the [return code](javascript:call_link\('abenreturn_code_glosry.htm'\) "Glossary Entry") sy-subrc, which signals the successful execution of an ABAP statement or, if you are [using classic exceptions](javascript:call_link\('abenuse_exception_class_guidl.htm'\) "Guideline"), of a procedure. A return code of 0 generally indicates successful execution.
+The most prominent system field is probably the [return code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreturn_code_glosry.htm "Glossary Entry") sy-subrc, which signals the successful execution of an ABAP statement or, if you are [using classic exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_exception_class_guidl.htm "Guideline"), of a procedure. A return code of 0 generally indicates successful execution.
 
 Rule   
 
@@ -291,15 +238,15 @@ Details  
 
 The system field sy-subrc indicates whether a statement was successfully executed. If the execution was not successful, the program should usually react accordingly. If this does not happen, the program's response will probably be unexpected.
 
-This rule is a specialization of the more general rule [evaluate system fields in the correct place](javascript:call_link\('abenevaluation_guidl.htm'\) "Guideline"). It is specified here again separately due to the prominent role of the return code sy-subrc. The system field sy-subrc must always be evaluated immediately and, if necessary, assigned to a help variable. An evaluation cannot occur after statements that set sy-subrc not defined, because otherwise wrong conclusions could easily be drawn.
+This rule is a specialization of the more general rule [evaluate system fields in the correct place](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenevaluation_guidl.htm "Guideline"). It is specified here again separately due to the prominent role of the return code sy-subrc. The system field sy-subrc must always be evaluated immediately and, if necessary, assigned to a help variable. An evaluation cannot occur after statements that set sy-subrc not defined, because otherwise wrong conclusions could easily be drawn.
 
 Hint
 
-Special care must be taken in [functional method calls](javascript:call_link\('abapcall_method_functional.htm'\)). If executed successfully, each method call sets the return code sy-subrc to 0, which means that functional method calls overwrite the return code when used in statements where the setting of the return code is not documented. The same applies to the instance operator [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) when instances of classes are created.
+Special care must be taken in [functional method calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_functional.htm). If executed successfully, each method call sets the return code sy-subrc to 0, which means that functional method calls overwrite the return code when used in statements where the setting of the return code is not documented. The same applies to the instance operator [NEW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenconstructor_expression_new.htm) when instances of classes are created.
 
 Exception
 
-If a handling action seems unnecessary because, in the developer's opinion, the statement is always executed successfully, the assumption should at least be saved and documented using an [assertion](javascript:call_link\('abenassertions_guidl.htm'\) "Guideline").
+If a handling action seems unnecessary because, in the developer's opinion, the statement is always executed successfully, the assumption should at least be saved and documented using an [assertion](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenassertions_guidl.htm "Guideline").
 
 Bad Example
 
@@ -323,14 +270,7 @@ ENDIF
 ... "work with wa
 
 
-
-**📖 Source**: [abenreturn_code_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenreturn_code_guidl.htm)
-
 ### abenuse_actual_parameters_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenuse_actual_parameters_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_actual_parameters_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -338,7 +278,7 @@ ENDIF
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [System Fields](javascript:call_link\('abensystem_fields_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [System Fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Using System Fields as Actual Parameters, ABENUSE_ACTUAL_PARAMETERS_GUIDL, 757%0D%0A%
 0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -347,7 +287,7 @@ Using System Fields as Actual Parameters
 
 Background   
 
-The structure sy exists once in an [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") and is shared by all programs in this internal session. The components of sy represent the system fields. System fields are global for all programs of an internal session and their procedures.
+The structure sy exists once in an [internal session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternal_session_glosry.htm "Glossary Entry") and is shared by all programs in this internal session. The components of sy represent the system fields. System fields are global for all programs of an internal session and their procedures.
 
 Rule   
 
@@ -357,7 +297,7 @@ Never use system fields as actual parameters - especially not for passing by ref
 
 Details   
 
-This rule reinforces the rule [do not pass global data to local contexts by reference](javascript:call_link\('abenref_transf_global_data_guidl.htm'\) "Guideline"). Since system fields are set implicitly, it is important to be even more careful. If the value of a system field changes implicitly within a procedure, the value of the parameter passed by reference, which refers to this system field, also changes. Procedures are never prepared for this behavior.
+This rule reinforces the rule [do not pass global data to local contexts by reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenref_transf_global_data_guidl.htm "Guideline"). Since system fields are set implicitly, it is important to be even more careful. If the value of a system field changes implicitly within a procedure, the value of the parameter passed by reference, which refers to this system field, also changes. Procedures are never prepared for this behavior.
 
 Even pass by value should be avoided for system fields. This is because a procedure might be switched to pass by reference in an enhancement process, without the consumer of the procedure being notified. The only secure method is to assign the value of a system field to a regular variable and then use this variable as the actual parameter when calling the program.
 
@@ -402,14 +342,7 @@ ENDCLASS.
 ...
 
 
-
-**📖 Source**: [abenuse_actual_parameters_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_actual_parameters_guidl.htm)
-
 ### abenuse_ui_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenuse_ui_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_ui_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -417,7 +350,7 @@ ENDCLASS.
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [System Fields](javascript:call_link\('abensystem_fields_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [System Fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Using System Fields on the User Interface, ABENUSE_UI_GUIDL, 757%0D%0A%0D%0AError:%0D
 %0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -436,28 +369,18 @@ Never use system field types to define input or output fields for dynpros or sel
 
 Details   
 
-This rule is derived from the [SoC](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline") rule and the [use of data types rule](javascript:call_link\('abenusing_types_guidl.htm'\) "Guideline"). System fields are purely technical. Their semantic properties, are defined in ABAP Dictionary (documentation and other texts), do not allow meaningful use in the user dialogs of application programs.
+This rule is derived from the [SoC](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenseperation_concerns_guidl.htm "Guideline") rule and the [use of data types rule](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenusing_types_guidl.htm "Guideline"). System fields are purely technical. Their semantic properties, are defined in ABAP Dictionary (documentation and other texts), do not allow meaningful use in the user dialogs of application programs.
 
 Hint
 
-Similarly, you can apply the rule [only use semantically appropriate data types](javascript:call_link\('abenusing_types_guidl.htm'\) "Guideline") to the use of SYST structure components (for typing interface parameters of procedures). The semantic meaning of a system field (expressed in the short text) does not generally match the meaning of the parameter.
+Similarly, you can apply the rule [only use semantically appropriate data types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenusing_types_guidl.htm "Guideline") to the use of SYST structure components (for typing interface parameters of procedures). The semantic meaning of a system field (expressed in the short text) does not generally match the meaning of the parameter.
 
 Example
 
 When the program PGL\_SYSTEM\_FIELD\_ON\_UI is executed, input fields for document output language are displayed on a classic dynpro. The first input field is declared with reference to data type syst-langu of system field sy-langu. The second input field is declared with reference to a semantically suitable ABAP Dictionary data type. The displayed F1 help clearly indicates that syst-langu is not suited for language fields in a user dialog. This is because the help only describes the behavior of the sy-langu field in a program. It does not describe the meaning of the language field in the relevant application.
 
 
-
-**📖 Source**: [abenuse_ui_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_ui_guidl.htm)
-
 ### abenuse_operand_position_guidl.htm
-
-> **📖 Official SAP Documentation**: [abenuse_operand_position_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_operand_position_guidl.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenuse_operand_position_guidl.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuse_operand_position_guidl.htm)
-
 
   
 
@@ -465,7 +388,7 @@ When the program PGL\_SYSTEM\_FIELD\_ON\_UI is executed, input fields for docume
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [System Fields](javascript:call_link\('abensystem_fields_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) →  [System Fields](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensystem_fields_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Using Elements in Operand Positions, ABENUSE_OPERAND_POSITION_GUIDL, 757%0D%0A%0D%0AE
 rror:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)

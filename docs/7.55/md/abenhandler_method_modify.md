@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [ABAP Behavior Pools (ABP)](javascript:call_link\('abenabap_behavior_pools.htm'\)) →  [ABP - Handler Class](javascript:call_link\('abenabp_handler_class.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [ABAP Behavior Pools (ABP)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm) →  [ABP - Handler Class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_handler_class.htm) → 
 
 FOR MODIFY
 
@@ -27,21 +27,21 @@ METHODS method\_name FOR MODIFY
 
 Effect
 
-The method MODIFY implements the handler that makes changes to the entities in the context of [ABAP RAP](javascript:call_link\('abenabap_rap_glosry.htm'\) "Glossary Entry"). This method is called if the application is processing a change request containing at least one of the change operations (CREATE, UPDATE, DELETE, or ACTION) specified in the [behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry"). The command ... parameter IS \[NOT\] INITIAL can be used to determine which operations are actually used.
+The method MODIFY implements the handler that makes changes to the entities in the context of [ABAP RAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_rap_glosry.htm "Glossary Entry"). This method is called if the application is processing a change request containing at least one of the change operations (CREATE, UPDATE, DELETE, or ACTION) specified in the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry"). The command ... parameter IS \[NOT\] INITIAL can be used to determine which operations are actually used.
 
-Like the method [READ](javascript:call_link\('abenhandler_method_read.htm'\)), the method MODIFY is mass-enabled and bundle-enabled (which means it can handle mass requests and can implement multiple operations). Multiple operations in a MODIFY method, however, are not allowed.
+Like the method [READ](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhandler_method_read.htm), the method MODIFY is mass-enabled and bundle-enabled (which means it can handle mass requests and can implement multiple operations). Multiple operations in a MODIFY method, however, are not allowed.
 
 No rules apply to the order in which individual operations are processed within a MODIFY method. The application processes all individual passed operations in an appropriate order, for example create operations before update operations.
 
-The method name method\_name can be specified freely. Using this generalization, it is possible to accommodate multiple MODIFY methods in a single [handler class](javascript:call_link\('abenabp_handler_class.htm'\)). For example, each action can be defined as a method in the same handler class. This enables the behavior implementation of a business object without introducing a corresponding number of handler classes.
+The method name method\_name can be specified freely. Using this generalization, it is possible to accommodate multiple MODIFY methods in a single [handler class](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabp_handler_class.htm). For example, each action can be defined as a method in the same handler class. This enables the behavior implementation of a business object without introducing a corresponding number of handler classes.
 
-entity\_name refers to the name of the entity or the [alias](javascript:call_link\('abenbdl_alias.htm'\)), if one is defined in the behavior definition.
+entity\_name refers to the name of the entity or the [alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm), if one is defined in the behavior definition.
 
 Input Parameters
 
 The name of the input parameter (for example, create\_import\_parameter) can be specified freely.
 
-The row type of the input parameters for the corresponding operations contains the following (the associated [parameters](javascript:call_link\('abencomponents_derived_types.htm'\)) are flagged with "x"):
+The row type of the input parameters for the corresponding operations contains the following (the associated [parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm) are flagged with "x"):
 
 Operation
 
@@ -137,13 +137,13 @@ Output Parameters
 
 The name of the output parameter (for example, create\_export\_parameter) can be specified freely.
 
-For an action with the addition RESULT, a named output parameter must be filled. Other operations do not necessarily have visible results. If they do, the results are written implicitly to three return structures (failed, mapped, and reported for errors, mappings, or messages). They can, however, be declared explicitly as [CHANGING](javascript:call_link\('abenchanging_type_data.htm'\)) parameters in the method signature using the generic type DATA:
+For an action with the addition RESULT, a named output parameter must be filled. Other operations do not necessarily have visible results. If they do, the results are written implicitly to three return structures (failed, mapped, and reported for errors, mappings, or messages). They can, however, be declared explicitly as [CHANGING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenchanging_type_data.htm) parameters in the method signature using the generic type DATA:
 
 CHANGING failed   TYPE DATA
          mapped   TYPE DATA
          reported TYPE DATA
 
-The parameters failed, mapped and reported don't have fixed data types and are assigned with [derived types](javascript:call_link\('abenrpm_derived_types.htm'\)) from the behavior definition instead.
+The parameters failed, mapped and reported don't have fixed data types and are assigned with [derived types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm) from the behavior definition instead.
 
 Remarks
 
@@ -175,7 +175,7 @@ In the example, each of the operations and the action are implemented in the met
 
 The second step can generate failed keys (ls\_travel\_create-%cid) and messages (lt\_messages). Failed keys are saved in the table failed while all instance-specific messages are saved in the table reported. If successful (lt\_messages IS INITIAL), the content ID (%CID) and the new key travel\_id are written to the table mapped.
 
-For the sake of readability, the methods for handling the messages are implemented in the separate class zcl\_messages. The class zcl\_messages is described in [Example - Handling of Messages](javascript:call_link\('abenrpm_handling_messages.htm'\)).
+For the sake of readability, the methods for handling the messages are implemented in the separate class zcl\_messages. The class zcl\_messages is described in [Example - Handling of Messages](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_handling_messages.htm).
 
 CLASS lcl\_travel\_handler DEFINITION
     INHERITING FROM cl\_abap\_behavior\_handler.

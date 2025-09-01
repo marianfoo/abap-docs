@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Editing List Buffers](javascript:call_link\('abenabap_lists_complex.htm'\)) →  [SCROLL LIST](javascript:call_link\('abapscroll.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpro_list.htm) →  [Lists - Editing List Buffers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_lists_complex.htm) →  [SCROLL LIST](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SCROLL%20LIST%2C%20horizontal%2C%20ABAPSCROLL_LIST_HORIZONTAL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SCROLL LIST, horizontal
 
-[Short Reference](javascript:call_link\('abapscroll_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapscroll_shortref.htm)
 
 Syntax
 
@@ -41,7 +41,7 @@ The addition TO COLUMN specifies the value from col for the first column in the 
 
 Example
 
-Before the first display, the main list is scrolled to column 25. Since [SET LEFT SCROLL-BOUNDARY](javascript:call_link\('abapset_scroll-boundary.htm'\)) is specified, the display of the IDs of the carriers stays fixed.
+Before the first display, the main list is scrolled to column 25. Since [SET LEFT SCROLL-BOUNDARY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapset_scroll-boundary.htm) is specified, the display of the IDs of the carriers stays fixed.
 
 DATA scarr\_wa TYPE scarr.
 SELECT \*

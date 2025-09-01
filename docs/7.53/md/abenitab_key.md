@@ -4,22 +4,22 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Internal Tables - Overview](javascript:call_link\('abenitab_oview.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Internal Tables - Overview](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_oview.htm) → 
 
 Table Key
 
 Internal tables always have a primary key and can have up to 15 optional secondary table keys. If no explicit primary key is defined in a standard table, it has a standard key automatically.
 
--   [Primary table key](javascript:call_link\('abenitab_key_primary.htm'\))
+-   [Primary table key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm)
 
--   [Secondary table key](javascript:call_link\('abenitab_key_secondary.htm'\))
+-   [Secondary table key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm)
 
--   [Duplicate unique keys](javascript:call_link\('abenitab_key_duplicates.htm'\))
+-   [Duplicate unique keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_duplicates.htm)
 
--   [Duplicate non-unique keys](javascript:call_link\('abenitab_key_secondary_duplicates.htm'\))
+-   [Duplicate non-unique keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_duplicates.htm)
 
 Continue
-[Primary Table Keys](javascript:call_link\('abenitab_key_primary.htm'\))
-[Secondary Table Key](javascript:call_link\('abenitab_key_secondary.htm'\))
-[Duplicate Unique Keys](javascript:call_link\('abenitab_key_duplicates.htm'\))
-[Duplicate Non-Unique Keys](javascript:call_link\('abenitab_key_secondary_duplicates.htm'\))
+[Primary Table Keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_primary.htm)
+[Secondary Table Key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary.htm)
+[Duplicate Unique Keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_duplicates.htm)
+[Duplicate Non-Unique Keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab_key_secondary_duplicates.htm)

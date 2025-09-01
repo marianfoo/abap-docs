@@ -4,29 +4,29 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Objects](javascript:call_link\('abenabap_objects.htm'\)) →  [ABAP Objects - Inheritance](javascript:call_link\('abeninheritance.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_objects.htm) →  [ABAP Objects - Inheritance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Inheritance%20and%20Static%20Components%2C%20ABENINHERITANCE_STATICAL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for
 %20improvement:)
 
 ABAP Objects - Inheritance and Static Components
 
-[Static components](javascript:call_link\('abenstatic_component_glosry.htm'\) "Glossary Entry"), like all components, exist only once in each inheritance tree, and can be used as of the declaring class:
+[Static components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_component_glosry.htm "Glossary Entry"), like all components, exist only once in each inheritance tree, and can be used as of the declaring class:
 
 -   A subclass can access all non-private static components of its superclasses. The class in which the static component is declared is always addressed.
 -   From outside, the class component selector can be used to access all visible static components. Each class can be specified in which the component exists, that is, the declaring class and each subclass. Regardless of the class name used in the class component selector, however, the class in which the component is declared is always addressed.
 
 The class in which the component is declared is always the class addressed, regardless of whether the static component is used internally or externally. This is important in the following cases:
 
--   Calls of the [static constructors](javascript:call_link\('abenstatic_constructor_glosry.htm'\) "Glossary Entry").
+-   Calls of the [static constructors](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_constructor_glosry.htm "Glossary Entry").
     
     Static constructors are called the first time a class is addressed. If a static component is addressed using the class name of a subclass, but is declared in a superclass, only the static constructor of the superclass is called.
     
--   Access to the [static attributes](javascript:call_link\('abenstatic_attribute_glosry.htm'\) "Glossary Entry")
+-   Access to the [static attributes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstatic_attribute_glosry.htm "Glossary Entry")
     
     A subclass has access to the content of all non-private static attributes of all superclasses. Conversely, a superclass shares its public and protected static attributes with all subclasses. When inherited, static attributes are therefore not only usable in a single class but can also be used in the subtree of the inheritance tree that consists of all subclasses of the defining class. Changes to the values are visible in all involved classes, regardless of the class used to address an attribute.
     
--   Registrations of [event handlers](javascript:call_link\('abenevent_handler_glosry.htm'\) "Glossary Entry").
+-   Registrations of [event handlers](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevent_handler_glosry.htm "Glossary Entry").
     
     If an event handler is declared for a static event of a subclass inherited from a superclass, it can only react to this event if it is raised by a method of the subclass or one of its subclasses. If the event is raised in a static method of a superclass, it is not handled, even if the method is called in a subclass or if the name of the subclass is specified.
     
@@ -100,4 +100,4 @@ ENDCLASS.
 
 Executable Example
 
-[Events in Inheritance](javascript:call_link\('abenevent_inheritance_abexa.htm'\))
+[Events in Inheritance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevent_inheritance_abexa.htm)

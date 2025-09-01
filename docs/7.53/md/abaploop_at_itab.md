@@ -4,39 +4,39 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) →  [LOOP AT itab](javascript:call_link\('abaploop_at_itab_variants.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Processing Statements for Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_processing_statements.htm) →  [LOOP AT itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_variants.htm) → 
 
 LOOP AT itab - Basic Form
 
-[Quick Reference](javascript:call_link\('abaploop_at_itab_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_shortref.htm)
 
 Syntax
 
-LOOP AT itab [result](javascript:call_link\('abaploop_at_itab_result.htm'\)) *\[*[cond](javascript:call_link\('abaploop_at_itab_cond.htm'\))*\]*.
+LOOP AT itab [result](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_result.htm) *\[*[cond](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_cond.htm)*\]*.
   ...
-  *\[*[AT ...](javascript:call_link\('abapat_itab.htm'\))
-    [...](javascript:call_link\('abapat_itab.htm'\))
-  [ENDAT.](javascript:call_link\('abapat_itab.htm'\))*\]*
+  *\[*[AT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_itab.htm)
+    [...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_itab.htm)
+  [ENDAT.](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_itab.htm)*\]*
   ...
 ENDLOOP.
 
 Effect
 
-This variant of the statement [LOOP AT itab](javascript:call_link\('abaploop_at_itab_variants.htm'\)) executes the statement block between LOOP and ENDLOOP once for each read row.
+This variant of the statement [LOOP AT itab](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_variants.htm) executes the statement block between LOOP and ENDLOOP once for each read row.
 
--   The output response [result](javascript:call_link\('abaploop_at_itab_result.htm'\)) determines how and to where the row contents are read.
+-   The output response [result](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_result.htm) determines how and to where the row contents are read.
     
--   The table key with which the loop is executed can be determined in [cond](javascript:call_link\('abaploop_at_itab_cond.htm'\)). Either all the rows are read or [cond](javascript:call_link\('abaploop_at_itab_cond.htm'\)) conditions are specified to restrict which rows are read.
+-   The table key with which the loop is executed can be determined in [cond](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_cond.htm). Either all the rows are read or [cond](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_cond.htm) conditions are specified to restrict which rows are read.
     
--   [AT ... ENDAT](javascript:call_link\('abapat_itab.htm'\)) can be used to define control structures for [control level processing](javascript:call_link\('abencontrol_level_processin_glosry.htm'\) "Glossary Entry").
+-   [AT ... ENDAT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_itab.htm) can be used to define control structures for [control level processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_level_processin_glosry.htm "Glossary Entry").
     
 
-If the internal table is specified as the return value or result of a [functional method](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry"), a [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry"), or a [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry"), the value is persisted for the duration of the loop. Afterwards, it is no longer possible to access the internal table.
+If the internal table is specified as the return value or result of a [functional method](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunctional_method_glosry.htm "Glossary Entry"), a [constructor expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_glosry.htm "Glossary Entry"), or a [table expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expression_glosry.htm "Glossary Entry"), the value is persisted for the duration of the loop. Afterwards, it is no longer possible to access the internal table.
 
-If no explicit table key name is specified after [USING KEY](javascript:call_link\('abaploop_at_itab_cond.htm'\)), the order in which the rows are read depends on the table category as follows:
+If no explicit table key name is specified after [USING KEY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_cond.htm), the order in which the rows are read depends on the table category as follows:
 
 -   Standard tables and sorted tables
-    The rows are read by ascending row numbers in the [primary table index](javascript:call_link\('abenprimary_table_index_glosry.htm'\) "Glossary Entry"). In each loop pass, the system field sy-tabix contains the row number of the current row in the primary table index.
+    The rows are read by ascending row numbers in the [primary table index](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprimary_table_index_glosry.htm "Glossary Entry"). In each loop pass, the system field sy-tabix contains the row number of the current row in the primary table index.
     
 -   Hashed tables
     The rows are processed in the order in which they were inserted in the table, and by the sort order used after the statement SORT. In each loop pass, the system field sy-tabix contains the value 0.
@@ -48,9 +48,9 @@ System Fields
 
 This variant of the statement LOOP AT sets the value of the system field sy-tabix:
 
--   In each loop pass for [index tables](javascript:call_link\('abenindex_table_glosry.htm'\) "Glossary Entry") and when using a [sorted key](javascript:call_link\('abensorted_key_glosry.htm'\) "Glossary Entry") on the row number of the current table row in the associated table index.
+-   In each loop pass for [index tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenindex_table_glosry.htm "Glossary Entry") and when using a [sorted key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensorted_key_glosry.htm "Glossary Entry") on the row number of the current table row in the associated table index.
     
--   In [hashed tables](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") and when using a [hash key](javascript:call_link\('abenhash_key_glosry.htm'\) "Glossary Entry") on the value 0.
+-   In [hashed tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhashed_table_glosry.htm "Glossary Entry") and when using a [hash key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhash_key_glosry.htm "Glossary Entry") on the value 0.
     
 
 LOOP AT does not modify sy-subrc. After leaving the loop using ENDLOOP, sy-tabix is set to the value that it had before entering the loop and that applies for sy-subrc:
@@ -82,32 +82,32 @@ If rows are inserted or deleted in the statement block of a LOOP, this has the f
 -   If the current row or rows before the current row are deleted, the internal loop counter is decreased by one with each deleted row. In the case of loops on index tables or if using a sorted key, this affects sy-tabix in the subsequent loop pass, and sy-tabix is decreased accordingly.
     
 
-The replacement of the entire table body in a LOOP using this table causes the loop to be exited at the next loop pass in accordance with the rules described above. This is particularly the case if new rows were added to the table afterwards. Since this usually produces unpredictable program behavior, the entire table body cannot be accessed in change mode in a loop. If this is known statically, a syntax error occurs in classes and for LOOPS with secondary keys known statically. Otherwise, the syntax check simply returns a warning for compatibility reasons. However, at runtime, a runtime error occurs in most cases when replacing the entire table body with statements such as [CLEAR](javascript:call_link\('abapclear.htm'\)), [FREE](javascript:call_link\('abapfree_dataobject.htm'\)), [LOCAL](javascript:call_link\('abaplocal.htm'\)), [REFRESH](javascript:call_link\('abaprefresh_itab.htm'\)), [SORT](javascript:call_link\('abapsort_itab.htm'\)), [DELETE ... WHERE](javascript:call_link\('abapdelete_itab_lines.htm'\)), and with all types of assignments to itab.
+The replacement of the entire table body in a LOOP using this table causes the loop to be exited at the next loop pass in accordance with the rules described above. This is particularly the case if new rows were added to the table afterwards. Since this usually produces unpredictable program behavior, the entire table body cannot be accessed in change mode in a loop. If this is known statically, a syntax error occurs in classes and for LOOPS with secondary keys known statically. Otherwise, the syntax check simply returns a warning for compatibility reasons. However, at runtime, a runtime error occurs in most cases when replacing the entire table body with statements such as [CLEAR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclear.htm), [FREE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfree_dataobject.htm), [LOCAL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaplocal.htm), [REFRESH](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaprefresh_itab.htm), [SORT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsort_itab.htm), [DELETE ... WHERE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdelete_itab_lines.htm), and with all types of assignments to itab.
 
 Programming Guideline
 
-[Loop Processing](javascript:call_link\('abenloop_guidl.htm'\) "Guideline")
+[Loop Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_guidl.htm "Guideline")
 
 Notes
 
--   If the internal table itab is specified using a [reference variable](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry"), the loop is executed completely using the table referenced at entry. Any changes to the reference variable do not have an effect on the loop. The associated object cannot be deleted from the [Garbage Collector](javascript:call_link\('abengarbage_collector_glosry.htm'\) "Glossary Entry") until the loop has been completed. The same thing is true if the table is represented by a field symbol. After the implementation of the field symbol in the loop, iteration still takes place using the table linked to the field symbol when LOOP is entered.
+-   If the internal table itab is specified using a [reference variable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenreference_variable_glosry.htm "Glossary Entry"), the loop is executed completely using the table referenced at entry. Any changes to the reference variable do not have an effect on the loop. The associated object cannot be deleted from the [Garbage Collector](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengarbage_collector_glosry.htm "Glossary Entry") until the loop has been completed. The same thing is true if the table is represented by a field symbol. After the implementation of the field symbol in the loop, iteration still takes place using the table linked to the field symbol when LOOP is entered.
     
--   There is no implicit selection of a suitable key or index. The used table key or table index is always specified uniquely. The syntax check issues a warning if there is a suitable [secondary table key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") but this table key is not used. This warning should be removed through using the key. However, in exceptional cases, it can be bypassed using a [pragma](javascript:call_link\('abenpragma_glosry.htm'\) "Glossary Entry").
+-   There is no implicit selection of a suitable key or index. The used table key or table index is always specified uniquely. The syntax check issues a warning if there is a suitable [secondary table key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") but this table key is not used. This warning should be removed through using the key. However, in exceptional cases, it can be bypassed using a [pragma](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpragma_glosry.htm "Glossary Entry").
     
--   It is generally better to read multiple rows in a LOOP than making multiple individual row reads using the statement [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or [table expressions](javascript:call_link\('abentable_expressions.htm'\)).
+-   It is generally better to read multiple rows in a LOOP than making multiple individual row reads using the statement [READ TABLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_table.htm) or [table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expressions.htm).
     
--   There is no addition that can reverse the order of the read rows. This must done using an iteration with [DO](javascript:call_link\('abapdo.htm'\)), [WHILE](javascript:call_link\('abapwhile.htm'\)), or [FOR](javascript:call_link\('abenfor.htm'\)) in which individual rows are read using [READ TABLE](javascript:call_link\('abapread_table.htm'\)) or using [table expressions](javascript:call_link\('abentable_expressions.htm'\)). The [loop conditions](javascript:call_link\('abaploop_at_itab_cond.htm'\)) must then be programmed accordingly in the loop (see the [executable example](javascript:call_link\('abeninverse_itab_for_abexa.htm'\))).
+-   There is no addition that can reverse the order of the read rows. This must done using an iteration with [DO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdo.htm), [WHILE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm), or [FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor.htm) in which individual rows are read using [READ TABLE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapread_table.htm) or using [table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_expressions.htm). The [loop conditions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_cond.htm) must then be programmed accordingly in the loop (see the [executable example](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninverse_itab_for_abexa.htm)).
     
--   Due to compatibility reasons, when a table body is replaced, the only situation where a runtime does not occur in the loop is when a directly specified table is read without a specified secondary key and when a work area wa is specified for output response [result](javascript:call_link\('abaploop_at_itab_result.htm'\)).
+-   Due to compatibility reasons, when a table body is replaced, the only situation where a runtime does not occur in the loop is when a directly specified table is read without a specified secondary key and when a work area wa is specified for output response [result](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_result.htm).
     
--   Using a special variant [LOOP AT mesh\_path](javascript:call_link\('abenmesh_loop.htm'\)), a loop can be executed across the last node of a [mesh path](javascript:call_link\('abenmesh_path_glosry.htm'\) "Glossary Entry").
+-   Using a special variant [LOOP AT mesh\_path](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_loop.htm), a loop can be executed across the last node of a [mesh path](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmesh_path_glosry.htm "Glossary Entry").
     
--   A further form of [table iterations](javascript:call_link\('abentable_iteration_glosry.htm'\) "Glossary Entry") are possible using [iteration expressions](javascript:call_link\('abeniteration_expression_glosry.htm'\) "Glossary Entry") and [FOR](javascript:call_link\('abenfor_itab.htm'\)) in certain constructor expressions.
+-   A further form of [table iterations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_iteration_glosry.htm "Glossary Entry") are possible using [iteration expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeniteration_expression_glosry.htm "Glossary Entry") and [FOR](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfor_itab.htm) in certain constructor expressions.
     
 
 Example
 
-Loop across an internal table constructed using the [value operator](javascript:call_link\('abenvalue_operator_glosry.htm'\) "Glossary Entry") [VALUE](javascript:call_link\('abenconstructor_expression_value.htm'\)), where each row is assigned to a field symbol declared inline using [FIELD-SYMBOL](javascript:call_link\('abenfield-symbol_inline.htm'\)).
+Loop across an internal table constructed using the [value operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_operator_glosry.htm "Glossary Entry") [VALUE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expression_value.htm), where each row is assigned to a field symbol declared inline using [FIELD-SYMBOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfield-symbol_inline.htm).
 
 TYPES t\_itab TYPE TABLE OF i WITH EMPTY KEY.
 LOOP AT VALUE t\_itab( ( 1 ) ( 2 ) ( 3 ) ) ASSIGNING FIELD-SYMBOL(<fs>).
@@ -140,7 +140,7 @@ LOOP AT scarr\_tab ASSIGNING FIELD-SYMBOL(<scarr\_line>)
 ENDLOOP.
 cl\_demo\_output=>display( ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -163,7 +163,7 @@ Non-Handleable Exceptions
     
 
 Continue
-[LOOP AT itab - result](javascript:call_link\('abaploop_at_itab_result.htm'\))
-[LOOP AT itab - cond](javascript:call_link\('abaploop_at_itab_cond.htm'\))
-[AT - Group Level Processing](javascript:call_link\('abapat_itab.htm'\))
-![Example](exa.gif "Example") [Internal Tables, Loop with Key Specified](javascript:call_link\('abenloop_at_itab_key_abexa.htm'\))
+[LOOP AT itab - result](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_result.htm)
+[LOOP AT itab - cond](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab_cond.htm)
+[AT - Group Level Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_itab.htm)
+![Example](exa.gif "Example") [Internal Tables, Loop with Key Specified](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenloop_at_itab_key_abexa.htm)

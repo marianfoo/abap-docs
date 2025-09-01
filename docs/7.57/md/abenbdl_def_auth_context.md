@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [CDS BDL - Authorization Context](javascript:call_link\('abenbdl_authorization_context.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [ABAP CDS - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_rap_bo.htm) →  [CDS BDL - Authorization Context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization_context.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - define authorization context, ABENBDL_DEF_AUTH_CONTEXT, 757%0D%0A%0D%0AErro
 r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -16,18 +16,18 @@ Syntax
 define authorization context ContextName
       *\[**{*for disable(*{*modify*|*read*|*modify,read*}*)*}**\]*
 {
-   [AuthObject1](javascript:call_link\('abenbc_authority_check.htm'\));
-  *\[* [AuthObject2](javascript:call_link\('abenbc_authority_check.htm'\));*\]*
+   [AuthObject1](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbc_authority_check.htm);
+  *\[* [AuthObject2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbc_authority_check.htm);*\]*
   *\[*...*\]*
 }
 
 Effect
 
-A [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") can define [authorization contexts](javascript:call_link\('abencds_auth_context_glosry.htm'\) "Glossary Entry") using the statement define authorization context. Authorization contexts list multiple [authorization objects](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") that are used for the ABAP statement [AUTHORITY-CHECK OBJECT](javascript:call_link\('abapauthority-check.htm'\)). When an authorization context is activated, authority checks for all associated authorization objects are always successful; in other words, the respective authorization checks are skipped. This can be useful, for example, when a BDEF implements its own [authorization check](javascript:call_link\('abenbdl_authorization.htm'\)) and then calls existing code, which again has its own authorization checks.
+A [CDS behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") can define [authorization contexts](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_auth_context_glosry.htm "Glossary Entry") using the statement define authorization context. Authorization contexts list multiple [authorization objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenauthorization_object_glosry.htm "Glossary Entry") that are used for the ABAP statement [AUTHORITY-CHECK OBJECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapauthority-check.htm). When an authorization context is activated, authority checks for all associated authorization objects are always successful; in other words, the respective authorization checks are skipped. This can be useful, for example, when a BDEF implements its own [authorization check](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization.htm) and then calls existing code, which again has its own authorization checks.
 
-One CDS behavior definition can define one or more authorization contexts. The contexts may be defined before, between, or after the entity behavior definitions. Each context can contain one or more [authorization objects](javascript:call_link\('abenauthorization_object_glosry.htm'\) "Glossary Entry") AuthObject1, AuthObject2, .... It is also possible to define an empty authorization context. This can be useful when using [BDEF privileged mode](javascript:call_link\('abenbdl_privileged_mode.htm'\)): to enable BDEF privileged mode, it is mandatory to specify at least one authorization context. However, some RAP BOs use authority checks that do not rely on authorization objects. In this case, an empty authorization context can be specified.
+One CDS behavior definition can define one or more authorization contexts. The contexts may be defined before, between, or after the entity behavior definitions. Each context can contain one or more [authorization objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenauthorization_object_glosry.htm "Glossary Entry") AuthObject1, AuthObject2, .... It is also possible to define an empty authorization context. This can be useful when using [BDEF privileged mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_privileged_mode.htm): to enable BDEF privileged mode, it is mandatory to specify at least one authorization context. However, some RAP BOs use authority checks that do not rely on authorization objects. In this case, an empty authorization context can be specified.
 
-The optional addition for disable(*{*modify*|*read*|*modify,read*}*) activates the authorization context in question for certain [handler methods](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry"). When a context is activated for a handler method, then the corresponding handler method is automatically and implicitly disabled for the authorization context in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry").
+The optional addition for disable(*{*modify*|*read*|*modify,read*}*) activates the authorization context in question for certain [handler methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_handler_method_glosry.htm "Glossary Entry"). When a context is activated for a handler method, then the corresponding handler method is automatically and implicitly disabled for the authorization context in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry").
 
 Example:
 
@@ -44,9 +44,9 @@ ENDMETHOD.
 in the ABAP behavior pool behaves as if the code was
 
 METHOD read.
-[AUTHORITY-CHECK DISABLE BEGIN CONTEXT](javascript:call_link\('abapauthority-check_disable.htm'\)) demo\_context~ReadContext.
+[AUTHORITY-CHECK DISABLE BEGIN CONTEXT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapauthority-check_disable.htm) demo\_context~ReadContext.
 ...
-[AUTHORITY-CHECK DISABLE END](javascript:call_link\('abapauthority-check_disable.htm'\)).
+[AUTHORITY-CHECK DISABLE END](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapauthority-check_disable.htm).
 ENDMETHOD.
 
 Currently, only the handler methods modify and read are available. They can be specified individually, or both together. Each handler method can only be assigned once within a CDS behavior definition.
@@ -55,23 +55,23 @@ Activating an Authorization Context
 
 An authorization context can be activated and the corresponding authorization objects skipped in the following ways:
 
--   by using [AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END](javascript:call_link\('abapauthority-check_disable.htm'\)) in the ABAP behavior pool for a handler or [saver method](javascript:call_link\('abenabp_saver_method_glosry.htm'\) "Glossary Entry").
--   implicitly by [registering a context for use in privileged mode](javascript:call_link\('abenbdl_privileged_mode.htm'\)).
+-   by using [AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapauthority-check_disable.htm) in the ABAP behavior pool for a handler or [saver method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabp_saver_method_glosry.htm "Glossary Entry").
+-   implicitly by [registering a context for use in privileged mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_privileged_mode.htm).
 -   implicitly by registering a context for a category of handler method, as described above.
 
 Availability
 
--   [Managed RAP BO](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry")
--   [Unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry")
--   [Projection BDEF](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry"): a projection BDEF can define an authorization context independently of the projected BDEF. That means that an authorization context can be defined in the projection layer even if the projected entity does not have an authorization context.
+-   [Managed RAP BO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry")
+-   [Unmanaged RAP BO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry")
+-   [Projection BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_projection_bo_glosry.htm "Glossary Entry"): a projection BDEF can define an authorization context independently of the projected BDEF. That means that an authorization context can be defined in the projection layer even if the projected entity does not have an authorization context.
 
 Dependency
 
-If you define and activate an authorization context which lists authorization objects (that means, it is not empty), you also need to specify a [RAP own authorization context](javascript:call_link\('abencds_own_ac_glosry.htm'\) "Glossary Entry") that lists all mentioned authorization objects, as long as their classification in transaction SU21 allows this. Otherwise, syntax check warnings occur. Further details are described in topic [CDS BDL - define own authorization context](javascript:call_link\('abenbdl_def_own_auth_context.htm'\)).
+If you define and activate an authorization context which lists authorization objects (that means, it is not empty), you also need to specify a [RAP own authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_own_ac_glosry.htm "Glossary Entry") that lists all mentioned authorization objects, as long as their classification in transaction SU21 allows this. Otherwise, syntax check warnings occur. Further details are described in topic [CDS BDL - define own authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_def_own_auth_context.htm).
 
 Hint
 
-The optional registration of an authority context for a dedicated purpose using the syntax for disable(*{*modify*|*read*|*modify,read*}*) does not generate an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END bracket within handler methods that are introduced by RAP extensions. In other words, no such bracket is generated in implementation classes that are named in [extension BDEFs](javascript:call_link\('abenbdl_extension.htm'\)).
+The optional registration of an authority context for a dedicated purpose using the syntax for disable(*{*modify*|*read*|*modify,read*}*) does not generate an AUTHORITY-CHECK DISABLE BEGIN CONTEXT ... AUTHORITY-CHECK DISABLE END bracket within handler methods that are introduced by RAP extensions. In other words, no such bracket is generated in implementation classes that are named in [extension BDEFs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm).
 
 Example
 
@@ -130,4 +130,4 @@ authorization dependent by \_parent
 
 Executable Example
 
-The example [Using the addition PRIVILEGED with an ABAP EML Statement](javascript:call_link\('abeneml_privileged_abexa.htm'\)) defines an authorization context and registers it for use in privileged mode. It then demonstrates access to the RAP BO, first without the addition PRIVILEGED, afterwards with using PRIVILEGED.
+The example [Using the addition PRIVILEGED with an ABAP EML Statement](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_privileged_abexa.htm) defines an authorization context and registers it for use in privileged mode. It then demonstrates access to the RAP BO, first without the addition PRIVILEGED, afterwards with using PRIVILEGED.

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) →  [RFC Overview](javascript:call_link\('abenrfc_intro_oview.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [RFC - Remote Function Call](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc.htm) →  [RFC Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_intro_oview.htm) → 
 
 RFC Interface
 
@@ -14,9 +14,9 @@ The RFC interface is required to execute a remote function call. The RFC interfa
 
 -   Logging on to and log off from the remote system and authorization checks for the function groups used.
 
--   Converting actual parameters to the format required in the remote system and vice-versa. This includes any platform-dependent conversions (for different [code pages](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") or byte orders, for example). The conversion supports all ABAP data types.
+-   Converting actual parameters to the format required in the remote system and vice-versa. This includes any platform-dependent conversions (for different [code pages](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencodepage_glosry.htm "Glossary Entry") or byte orders, for example). The conversion supports all ABAP data types.
 
--   Handling any communication errors and forwarding them to the caller if [requested](javascript:call_link\('abenrfc_exception.htm'\)).
+-   Handling any communication errors and forwarding them to the caller if [requested](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrfc_exception.htm).
 
 If the AS ABAP are not the same, two ABAP programs communicate using the RFC interface, whereas for communication between an AS ABAP and an external system, an ABAP program connects with a program in another programming language (C, C++, Visual Basic, Java or .NET).
 

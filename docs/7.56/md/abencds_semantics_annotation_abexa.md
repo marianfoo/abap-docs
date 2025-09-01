@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - Evaluation of Annotations](javascript:call_link\('abencds_annotations_analysis.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations.htm) →  [ABAP CDS - Evaluation of Annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_analysis.htm) → 
 
 ABAP CDS, Evaluation of Annotations
 
-This example demonstrates how [semantics annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)) of [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") are evaluated.
+This example demonstrates how [semantics annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_frmwrk.htm) of [DDL source code](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddl_source_code_glosry.htm "Glossary Entry") are evaluated.
 
 Source Code
 
@@ -64,7 +64,7 @@ Description
 
 This program uses a simple example to show how annotations can be evaluated in a framework. All rows in a CDS entity are to be found that do not contain a fully specified address. Here, a fully specified address is simply a set of elements for name, street, city, postal code, and country, none of which can be empty.
 
-To do this, the program uses cl\_dd\_ddl\_annotation\_service=>get\_drct\_annos\_4\_entity\_elmnts to read the element annotations of a CDS entity and gets the names of the elements defined (using [semantics annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\))) as the required components of an address in the internal table address\_components. In the next step, the CDS entity is read using [SELECT](javascript:call_link\('abapselect.htm'\)) and a [dynamic](javascript:call_link\('abapassign_mem_area_dynamic_dobj.htm'\)) [ASSIGN](javascript:call_link\('abapassign.htm'\)) statement is used to check whether all required elements have a non-initial value for each read row. The output consists of any rows that do not contain a full address.
+To do this, the program uses cl\_dd\_ddl\_annotation\_service=>get\_drct\_annos\_4\_entity\_elmnts to read the element annotations of a CDS entity and gets the names of the elements defined (using [semantics annotations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_annotations_frmwrk.htm)) as the required components of an address in the internal table address\_components. In the next step, the CDS entity is read using [SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm) and a [dynamic](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign_mem_area_dynamic_dobj.htm) [ASSIGN](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapassign.htm) statement is used to check whether all required elements have a non-initial value for each read row. The output consists of any rows that do not contain a full address.
 
 The following CDS view is used as an example for a CDS entity:
 
@@ -99,4 +99,4 @@ define view demo\_cds\_semantics\_annotation
       email
     }
 
-This view wraps the DDIC database table SCUSTOM, which contains address data. The assignment of the semantics annotations to the columns of the DDIC database table gives the columns semantics that can be evaluated. Previously, this was only provided by those names and [DDIC data elements](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry") that are no longer relevant for the evaluation depicted here.
+This view wraps the DDIC database table SCUSTOM, which contains address data. The assignment of the semantics annotations to the columns of the DDIC database table gives the columns semantics that can be evaluated. Previously, this was only provided by those names and [DDIC data elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_element_glosry.htm "Glossary Entry") that are no longer relevant for the evaluation depicted here.

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Area Instance Versions](javascript:call_link\('abenshm_area_instance_access.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shared_objects.htm) →  [Shared Objects - Area Instance Versions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_instance_access.htm) → 
 
 Shared Objects - States of Area Instance Versions
 
@@ -12,15 +12,15 @@ Area instance versions can have the following states.
 
 1.  "Building"
 
-An area instance version that has a [change lock](javascript:call_link\('abenshm_area_instance_locks.htm'\)) is being built. Change locks automatically create a building version.
+An area instance version that has a [change lock](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_instance_locks.htm) is being built. Change locks automatically create a building version.
 
 1.  "Active"
 
-The area instance version whose build or update was last released using the [DETACH\_COMMIT](javascript:call_link\('abenshm_cl_shm_area.htm'\)) method (and a database commit in the case of transactional areas) is active. All shared locks are set automatically to the current active version.
+The area instance version whose build or update was last released using the [DETACH\_COMMIT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_cl_shm_area.htm) method (and a database commit in the case of transactional areas) is active. All shared locks are set automatically to the current active version.
 
 1.  "Obsolete"
 
-If a new version becomes complete when reads are performed on the currently active version of the build, the new version becomes active and the version that was previously active becomes obsolete. The [shared locks](javascript:call_link\('abenshm_area_instance_locks.htm'\)) on the obsolete version remain until the read process is complete; new shared locks for the area instance are always set on the active version, however.
+If a new version becomes complete when reads are performed on the currently active version of the build, the new version becomes active and the version that was previously active becomes obsolete. The [shared locks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_instance_locks.htm) on the obsolete version remain until the read process is complete; new shared locks for the area instance are always set on the active version, however.
 
 1.  "Expired"
 

@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Numeric Calculations](javascript:call_link\('abencompute_expressions.htm'\)) →  [Arithmetic Expressions (arith\_exp)](javascript:call_link\('abapcompute_arith.htm'\)) →  [arith\_exp - Lossless Calculations](javascript:call_link\('abenlossless_calculation.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Numeric Calculations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencompute_expressions.htm) →  [Arithmetic Expressions (arith\_exp)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_arith.htm) →  [arith\_exp - Lossless Calculations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlossless_calculation.htm) → 
 
 arith\_exp - Lossless Calculations
 
-The example demonstrates [lossless calculations](javascript:call_link\('abenlossless_calculation_glosry.htm'\) "Glossary Entry") and the exceptions raised when roundings occur.
+The example demonstrates [lossless calculations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlossless_calculation_glosry.htm "Glossary Entry") and the exceptions raised when roundings occur.
 
 Source Code
 
@@ -62,7 +62,7 @@ START-OF-SELECTION.
 
 Description
 
-The lossless operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)) is used to perform the following calculations and to assign the result to a data object with the type decfloat34:
+The lossless operator [EXACT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconstructor_expression_exact.htm) is used to perform the following calculations and to assign the result to a data object with the type decfloat34:
 
 result = number / sy-index
 

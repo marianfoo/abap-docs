@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Error Handling](javascript:call_link\('abenerror_handling_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarchitecture_guidl.htm) →  [Error Handling](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenerror_handling_guidl.htm) → 
 
 Using Exception Classes
 
@@ -22,7 +22,7 @@ Details
 
 Reusing existing exception classes with the wrong content removes all benefits of freely definable exception classes. The new exception object cannot describe the exception situation adequately. It also makes it very difficult to maintain and analyze the code. In particular, you run a great risk of handling the exception incorrectly. This is because a caller layer higher up in the hierarchy never expects the exceptions it handles to be raised by a situation with the wrong semantics.
 
-The following procedure is recommended for raising correct exceptions, where you must take care that the right [exception category](javascript:call_link\('abenexception_category_guidl.htm'\) "Guideline") is used:
+The following procedure is recommended for raising correct exceptions, where you must take care that the right [exception category](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_category_guidl.htm "Guideline") is used:
 
 1.  Search for an existing exception class that is released for use in the current concept (and as part of the package concept) and which matches that error situation exactly.
 2.  Make an existing, almost ideal exception class more specific by passing on and/or adding new exception texts.

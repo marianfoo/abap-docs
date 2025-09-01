@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - ABAP Statements](javascript:call_link\('abenabap_dynpros_abap_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - ABAP Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_abap_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: GET PF-STATUS, ABAPGET_PF, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion fo
 r improvement:)
 
 GET PF-STATUS
 
-[Short Reference](javascript:call_link\('abapget_pf-status_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_pf-status_shortref.htm)
 
 Syntax
 
@@ -27,9 +27,9 @@ Effect
 This statement assigns data object status the currently set GUI status, whose name is also available in the sy-pfkey system field. The following can be specified for status:
 
 -   An existing character-like variable.
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)), where a variable of type GUI\_STATUS is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_inline.htm) or [FINAL(var)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfinal_inline.htm), where a variable of type GUI\_STATUS is declared.
 
-If no status is set (empty status is displayed in the GUI window), status is initialized. If the [standard list status](javascript:call_link\('abenstandard_list_status_glosry.htm'\) "Glossary Entry") is set, status is set to the value STLI.
+If no status is set (empty status is displayed in the GUI window), status is initialized. If the [standard list status](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_list_status_glosry.htm "Glossary Entry") is set, status is set to the value STLI.
 
 Addition 1   
 
@@ -45,11 +45,11 @@ Addition 2  
 
 Effect
 
-The addition EXCLUDING is used to insert the function codes which are inactive in the current GUI status line by line into the internal table fcode. For fcode, an internal table with a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like line type can be specified. Function codes are only determined if they have been deactivated with the relevant addition of the statement SET PF-STATUS. Statically deactivated function codes in the GUI status are not defined.
+The addition EXCLUDING is used to insert the function codes which are inactive in the current GUI status line by line into the internal table fcode. For fcode, an internal table with a [flat](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenflat_glosry.htm "Glossary Entry") character-like line type can be specified. Function codes are only determined if they have been deactivated with the relevant addition of the statement SET PF-STATUS. Statically deactivated function codes in the GUI status are not defined.
 
 Example
 
-Determination of the current status in a [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") module.
+Determination of the current status in a [PAI](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpai_glosry.htm "Glossary Entry") module.
 
 DATA: status TYPE string,
       prog   TYPE string,

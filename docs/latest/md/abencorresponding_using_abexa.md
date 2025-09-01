@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [Assigning Components, Examples](javascript:call_link\('abencorresponding_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding.htm) →  [Assigning Components, Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Component%20Operator%2C%20Lookup%20Table%2C%20ABENCORRESPONDING_USING_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:
 )
 
 Component Operator, Lookup Table
 
-This example demonstrates the [component operator](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)) with FROM ... USING.
+This example demonstrates the [component operator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenconstructor_expr_corresponding.htm) with FROM ... USING.
 
 Source Code   
 
@@ -108,7 +108,7 @@ ENDCLASS.
 
 Description   
 
-This example joins two internal tables itab and itab2 in a constructor expression with the component operator CORRESPONDING in the [variant with lookup table](javascript:call_link\('abencorresponding_constr_using.htm'\)).
+This example joins two internal tables itab and itab2 in a constructor expression with the component operator CORRESPONDING in the [variant with lookup table](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencorresponding_constr_using.htm).
 
 -   The first assignment specifies the conditionb1 = a1 b2 = a2 without a mapping rule after USING. In the lookup\_tab, a line is found for the first and third line of itab and its identically named components are assigned to the corresponding line of itab, where b1 and b2 from lookup\_tab and a1 and a2 from itab are ignored. The only identically named component remaining is c1. All other components keep their previous value from itab. The second line is transferred unchanged from itab1.
 -   In the second assignment, the default handling is overridden by specifying a mapping rule a1 = a1 a2 = a2 b1 = b1 b2 = b2 c2 = d2, where a mapping relationship for all components that were ignored until now is listed. Accordingly, the content of all components in the first and third line of itab are modified.

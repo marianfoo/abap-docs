@@ -4,21 +4,21 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Flow Control](javascript:call_link\('abenst_flow_control.htm'\)) →  [ST - tt:cond, Conditional Transformations](javascript:call_link\('abenst_tt_cond.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_serial_deserial.htm) →  [ST - Flow Control](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_flow_control.htm) →  [ST - tt:cond, Conditional Transformations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_cond.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ST - Pattern, ABENST_PATTERN, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion
  for improvement:)
 
 ST - Pattern
 
-When [conditional transformations](javascript:call_link\('abenst_tt_cond.htm'\)) are deserialized, the criterion for the evaluation is whether the template content is also a pattern. A pattern contains one or more constructs that are used as markers. The most common form of a marker is a literal XML element: if the content of the condition consists of exactly one XML element, the condition has exactly one positive result if an XML element with this name follows at the current position in the XML input stream.
+When [conditional transformations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_cond.htm) are deserialized, the criterion for the evaluation is whether the template content is also a pattern. A pattern contains one or more constructs that are used as markers. The most common form of a marker is a literal XML element: if the content of the condition consists of exactly one XML element, the condition has exactly one positive result if an XML element with this name follows at the current position in the XML input stream.
 
 Marker constructs are:
 
--   [Literal XML element](javascript:call_link\('abenst_xml_literals.htm'\)) with or without content
--   [Non-literal attribute](javascript:call_link\('abenst_tt_attribute.htm'\)) with content
--   Non-empty [literal text](javascript:call_link\('abenst_tt_text.htm'\))
--   Explicit [empty template content](javascript:call_link\('abenst_tt_empty.htm'\))
+-   [Literal XML element](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_xml_literals.htm) with or without content
+-   [Non-literal attribute](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_attribute.htm) with content
+-   Non-empty [literal text](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_text.htm)
+-   Explicit [empty template content](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_empty.htm)
 
 Each of these constructs can be compared with the input stream in an obvious way.
 

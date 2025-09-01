@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for ABAP Release 4.0](javascript:call_link\('abennews-40.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennews.htm) →  [News for ABAP Release 4.xx](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennews-4.htm) →  [News for ABAP Release 4.0](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennews-40.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Runtime%20Analysis%20in%20ABAP%20Release%204.0%2C%20ABENNEWS-40-SE30%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -80,8 +80,8 @@ If the With memory management button is selected, the following are measured:
 
 -   Memory: (Re-)allocate, release
 -   Using the data and data control blocks
--   [PXA](javascript:call_link\('abenpxa_glosry.htm'\) "Glossary Entry"): find, create
--   [Dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") synchronization
+-   [PXA](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpxa_glosry.htm "Glossary Entry"): find, create
+-   [Dynpro](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynpro_glosry.htm "Glossary Entry") synchronization
 
 Modification 7   
 
@@ -91,7 +91,7 @@ The following improvements were made:
 
 -   Navigation to table definition
     
-    The table definition in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") can be displayed by double-clicking the table name.
+    The table definition in the [repository](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrepository_glosry.htm "Glossary Entry") can be displayed by double-clicking the table name.
     
 -   The development class (package) for each table is displayed in a separate column
 

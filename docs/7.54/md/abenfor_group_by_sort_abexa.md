@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Expressions and Functions for Internal Tables](javascript:call_link\('abentable_processing_expr_func.htm'\)) →  [FOR - Table Iterations](javascript:call_link\('abenfor_itab.htm'\)) →  [Examples of Grouping with FOR](javascript:call_link\('abenfor_grouping_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenitab.htm) →  [Expressions and Functions for Internal Tables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentable_processing_expr_func.htm) →  [FOR - Table Iterations](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor_itab.htm) →  [Examples of Grouping with FOR](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor_grouping_abexas.htm) → 
 
 Internal Table, Grouping with FOR for Sorts
 
@@ -37,4 +37,4 @@ START-OF-SELECTION.
 
 Description
 
-This example works in the same way as the [executable example](javascript:call_link\('abenloop_group_by_sort_abexa.htm'\)) for sorts across groupings using LOOP. Here, all groupings are collected in a single expression using three [FOR expressions](javascript:call_link\('abenfor_groups_of.htm'\)).
+This example works in the same way as the [executable example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenloop_group_by_sort_abexa.htm) for sorts across groupings using LOOP. Here, all groupings are collected in a single expression using three [FOR expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfor_groups_of.htm).

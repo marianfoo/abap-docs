@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Flow Control](javascript:call_link\('abenst_flow_control.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_serial_deserial.htm) →  [ST - Flow Control](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_flow_control.htm) → 
 
 ST - tt:group, Grouping
 
@@ -18,15 +18,15 @@ Syntax
 
 Effect
 
-In deserializations, variable inbound XML streams containing groups of related elements in any order can be responded to using the statement tt:group. Hereby, a list of cases is specified in tt:group, where the syntax of each case is formulated by a conditional transformation, namely a subelement [tt:*\[*s-*|*d-*\]*cond](javascript:call_link\('abenst_tt_cond.htm'\)). In this case, tt:*\[*s-*\]*cond defines a serialization-relevant case, and tt:*\[*d-*\]*cond a deserialization-relevant case. Other direct subelements are not possible in tt:group. The statement tt:group can be a subelement of tt:*\[*s-*|*d-*\]*cond.
+In deserializations, variable inbound XML streams containing groups of related elements in any order can be responded to using the statement tt:group. Hereby, a list of cases is specified in tt:group, where the syntax of each case is formulated by a conditional transformation, namely a subelement [tt:*\[*s-*|*d-*\]*cond](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_tt_cond.htm). In this case, tt:*\[*s-*\]*cond defines a serialization-relevant case, and tt:*\[*d-*\]*cond a deserialization-relevant case. Other direct subelements are not possible in tt:group. The statement tt:group can be a subelement of tt:*\[*s-*|*d-*\]*cond.
 
-In contrast to conditional transformations positioned outside of tt:group, there is no need to specify at least one attribute [using](javascript:call_link\('abenst_using.htm'\)), [data](javascript:call_link\('abenst_data.htm'\)) or [check](javascript:call_link\('abenst_check.htm'\)) for a case, provided that the content of tt:*\[*s-*|*d-*\]*cond is not a [pattern](javascript:call_link\('abenst_pattern.htm'\)).
+In contrast to conditional transformations positioned outside of tt:group, there is no need to specify at least one attribute [using](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_using.htm), [data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_data.htm) or [check](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_check.htm) for a case, provided that the content of tt:*\[*s-*|*d-*\]*cond is not a [pattern](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_pattern.htm).
 
 In the list of cases, the following must be noted:
 
 -   Any number of serialization-relevant cases can be specified in which no attribute using, data, or check is specified.
 
--   Only one deserialization-relevant case that does not contain a [pattern](javascript:call_link\('abenst_pattern.htm'\)) can be specified. This case is called standard deserialization.
+-   Only one deserialization-relevant case that does not contain a [pattern](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenst_pattern.htm) can be specified. This case is called standard deserialization.
 
 To control how often a deserialization-relevant case must or can be executed in deserializations, tt:*\[*d-*\]*cond within tt:group can contain the additional attribute frq (frequency) with one of three allowed values:
 

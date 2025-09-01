@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT - FROM](javascript:call_link\('abapfrom_clause.htm'\)) →  [SELECT - FROM data\_source](javascript:call_link\('abapselect_data_source.htm'\)) →  [SELECT - FROM table\_function](javascript:call_link\('abenselect_table_function.htm'\)) →  [SELECT - FROM hierarchy\_function](javascript:call_link\('abenselect_hierarchy_functions.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Reads](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_reading.htm) →  [SELECT clauses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_clauses.htm) →  [SELECT - FROM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfrom_clause.htm) →  [SELECT - FROM data\_source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm) →  [SELECT - FROM table\_function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_table_function.htm) →  [SELECT - FROM hierarchy\_function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_hierarchy_functions.htm) → 
 
 SELECT - FROM HIERARCHY
 
@@ -12,7 +12,7 @@ Syntax
 
 ... HIERARCHY( FROM HIERARCHY SOURCE cds\_view
                      CHILD TO PARENT ASSOCIATION \_assoc
-                       START WHERE [sql\_cond](javascript:call_link\('abenosql_expr_logexp.htm'\))
+                       START WHERE [sql\_cond](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenosql_expr_logexp.htm)
                        *\[*SIBLINGS ORDER BY field1 *\[*ASCENDING*|*DESCENDING*\]**\[*,
                                           field2 *\[*ASCENDING*|*DESCENDING*\]*, ...*\]**\]*
                        *\[*DEPTH depth*\]*
@@ -32,11 +32,11 @@ Extras:
 
 Effect
 
-Specifies the [hierarchy function](javascript:call_link\('abenhierarchy_function_glosry.htm'\) "Glossary Entry") HIERARCHY as a data source [data\_source](javascript:call_link\('abapselect_data_source.htm'\)) in a ABAP SQL [query](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry"). The tabular result of HIERARCHY contains a [hierarchy](javascript:call_link\('abenhierarchy_glosry.htm'\) "Glossary Entry") of rows in [parent-child relationships](javascript:call_link\('abenpcr_glosry.htm'\) "Glossary Entry") (PCR). The parent-child relationship is defined in the [association](javascript:call_link\('abencds_association_glosry.htm'\) "Glossary Entry") \_assoc of a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") cds\_view (specified after FROM HIERARCHY SOURCE) specified after CHILD TO PARENT ASSOCIATION. The results set when ABAP SQL accesses the table function HIERARCHY comprises the components of the CDS view cds\_view and additional columns.
+Specifies the [hierarchy function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhierarchy_function_glosry.htm "Glossary Entry") HIERARCHY as a data source [data\_source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm) in a ABAP SQL [query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquery_glosry.htm "Glossary Entry"). The tabular result of HIERARCHY contains a [hierarchy](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhierarchy_glosry.htm "Glossary Entry") of rows in [parent-child relationships](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpcr_glosry.htm "Glossary Entry") (PCR). The parent-child relationship is defined in the [association](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_association_glosry.htm "Glossary Entry") \_assoc of a [CDS view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry") cds\_view (specified after FROM HIERARCHY SOURCE) specified after CHILD TO PARENT ASSOCIATION. The results set when ABAP SQL accesses the table function HIERARCHY comprises the components of the CDS view cds\_view and additional columns.
 
-The additional columns are defined by the abstract CDS entity [DDDDL\_HIERARCHY](javascript:call_link\('abenddddl_hierarchy.htm'\)) and contain row-specific information about the hierarchy. If \* or ...~\* is specified in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)), only the components of the CDS view cds\_view are read and not the additional columns. In this case, they are also ignored by any structure or internal table created in the [INTO clause](javascript:call_link\('abapinto_clause.htm'\)) by an inline declaration @DATA(...). The additional components must be specified explicitly in the SELECT list before they can be read. Regardless of this, they can be used for specified columns [colname](javascript:call_link\('abenopen_sql_columns.htm'\)) in the other clauses of the query, like any other column in the results set.
+The additional columns are defined by the abstract CDS entity [DDDDL\_HIERARCHY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddddl_hierarchy.htm) and contain row-specific information about the hierarchy. If \* or ...~\* is specified in the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm), only the components of the CDS view cds\_view are read and not the additional columns. In this case, they are also ignored by any structure or internal table created in the [INTO clause](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinto_clause.htm) by an inline declaration @DATA(...). The additional components must be specified explicitly in the SELECT list before they can be read. Regardless of this, they can be used for specified columns [colname](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm) in the other clauses of the query, like any other column in the results set.
 
-cds\_view can be specified as a [CDS view](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") that [publishes](javascript:call_link\('abencds_f1_select_list_association.htm'\)) the association \_assoc in its SELECT list. This association defines the parent-child relationship between rows of the results set of the CDS view. The following conditions apply here:
+cds\_view can be specified as a [CDS view](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_view_glosry.htm "Glossary Entry") that [publishes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_association.htm) the association \_assoc in its SELECT list. This association defines the parent-child relationship between rows of the results set of the CDS view. The following conditions apply here:
 
 -   The association must be a self-association. The target data source must be the same as the source data source (namely the CDS view cds\_view).
 
@@ -44,11 +44,11 @@ cds\_view can be specified as a [CDS view](javascript:call_link\('abencds_view_g
 
 -   In each comparison in the ON condition, one field of the source data source cds\_view must be compared with a field (prefixed with \_assoc) of the target data source.
 
--   The source data source cds\_view cannot contain any fields that have the same name as fields in the abstract CDS entity [DDDDL\_HIERARCHY](javascript:call_link\('abenddddl_hierarchy.htm'\)). If the data source of the view does contain a field like this, [AS](javascript:call_link\('abencds_f1_select_list_entry.htm'\)) or a [name list](javascript:call_link\('abencds_f1_name_list.htm'\)) must be used to define an alternative element name.
+-   The source data source cds\_view cannot contain any fields that have the same name as fields in the abstract CDS entity [DDDDL\_HIERARCHY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddddl_hierarchy.htm). If the data source of the view does contain a field like this, [AS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_select_list_entry.htm) or a [name list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencds_f1_name_list.htm) must be used to define an alternative element name.
 
 If these prerequisites are not met, the view and association cannot be used in the HIERARCHY function.
 
-START WHERE must be followed by a logical expression [sql\_cond](javascript:call_link\('abenosql_expr_logexp.htm'\)) that contains conditions for rows in the results set of the view cds\_view. The selected rows comprise the root node set of the hierarchy. They are used as the first predecessors of the parent-child relationship defined using the association \_assoc. The selected rows are inserted into the result of the hierarchy function and, starting from each of these rows, all following rows of the results set of the view that match a predecessor row (as specified by the ON condition of the association) are selected and inserted recursively. The additional fields from the abstract CDS entity [DDDDL\_HIERARCHY](javascript:call_link\('abenddddl_hierarchy.htm'\)) contain information about the position of the row in the hierarchy.
+START WHERE must be followed by a logical expression [sql\_cond](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenosql_expr_logexp.htm) that contains conditions for rows in the results set of the view cds\_view. The selected rows comprise the root node set of the hierarchy. They are used as the first predecessors of the parent-child relationship defined using the association \_assoc. The selected rows are inserted into the result of the hierarchy function and, starting from each of these rows, all following rows of the results set of the view that match a predecessor row (as specified by the ON condition of the association) are selected and inserted recursively. The additional fields from the abstract CDS entity [DDDDL\_HIERARCHY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddddl_hierarchy.htm) contain information about the position of the row in the hierarchy.
 
 Notes
 
@@ -57,7 +57,7 @@ Notes
 
 Example
 
-Accesses a tree-like hierarchy defined by the association \_tree in a CDS view DEMO\_CDS\_SIMPLE\_TREE\_SOURCE. The CDS view uses the [global temporary table](javascript:call_link\('abenglobal_temporary_table_glosry.htm'\) "Glossary Entry") DEMO\_SIMPLE\_TREE as a data source. This source is filled with suitable data. The hierarchy function returns all child nodes (and their child nodes) in the source row with the value 5 in the column ID. The results set contains all columns of the view DEMO\_CDS\_SIMPLE\_TREE\_SOURCE but does not contain any of the additional columns from the abstract CDS entity. [DDDDL\_HIERARCHY](javascript:call_link\('abenddddl_hierarchy.htm'\)).
+Accesses a tree-like hierarchy defined by the association \_tree in a CDS view DEMO\_CDS\_SIMPLE\_TREE\_SOURCE. The CDS view uses the [global temporary table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry") DEMO\_SIMPLE\_TREE as a data source. This source is filled with suitable data. The hierarchy function returns all child nodes (and their child nodes) in the source row with the value 5 in the column ID. The results set contains all columns of the view DEMO\_CDS\_SIMPLE\_TREE\_SOURCE but does not contain any of the additional columns from the abstract CDS entity. [DDDDL\_HIERARCHY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddddl_hierarchy.htm).
 
 INSERT demo\_simple\_tree FROM TABLE @( VALUE #(
         ( id = 1  parent\_id = 0 name = 'AA'          )
@@ -92,13 +92,13 @@ Fields field1, field2, ... of the CDS view cds\_view can be specified in a comma
 
 The addition ASCENDING or DESCENDING can be specified for each field to specify an ascending or descending order (ascending is the default).
 
-The fields specified after ORDER BY cannot be of the [type](javascript:call_link\('abenddic_builtin_types.htm'\)) LCHR, LRAW, STRING, or RAWSTRING.
+The fields specified after ORDER BY cannot be of the [type](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddic_builtin_types.htm) LCHR, LRAW, STRING, or RAWSTRING.
 
 Notes
 
--   If specified, an additional general [ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) clause of the current query is applied to the results set sorted by SIBLINGS ORDER BY.
+-   If specified, an additional general [ORDER BY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaporderby_clause.htm) clause of the current query is applied to the results set sorted by SIBLINGS ORDER BY.
 
--   The additional columns of the abstract entity [DDDDL\_HIERARCHY](javascript:call_link\('abenddddl_hierarchy.htm'\)) cannot be specified here. They can, however, be specified in the general [ORDER BY](javascript:call_link\('abaporderby_clause.htm'\)) clause of the current query.
+-   The additional columns of the abstract entity [DDDDL\_HIERARCHY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddddl_hierarchy.htm) cannot be specified here. They can, however, be specified in the general [ORDER BY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaporderby_clause.htm) clause of the current query.
 
 Example
 
@@ -127,7 +127,7 @@ Addition 2
 
 Effect
 
-The addition depth can be used to limit the maximum number of parent-child relationships. depth expects a [host variable](javascript:call_link\('abenopen_sql_host_variables.htm'\)) with a prefixed escape character @, a [host expression](javascript:call_link\('abenopen_sql_host_expressions.htm'\)), or a literal of type i. Only the types b, s, or i can be specified for depth.
+The addition depth can be used to limit the maximum number of parent-child relationships. depth expects a [host variable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_host_variables.htm) with a prefixed escape character @, a [host expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_host_expressions.htm), or a literal of type i. Only the types b, s, or i can be specified for depth.
 
 The value in depth has the following meaning:
 
@@ -139,7 +139,7 @@ The value in depth has the following meaning:
 
 Example
 
-Limits the number of parent-child relationships in the program DEMO\_HIERARCHY\_DEPTH. When executed, this program demonstrates how this addition works. It also shows the [hierarchy level](javascript:call_link\('abenhierarchy_level_glosry.htm'\) "Glossary Entry") from the additional column HIERARCHY\_LEVEL.
+Limits the number of parent-child relationships in the program DEMO\_HIERARCHY\_DEPTH. When executed, this program demonstrates how this addition works. It also shows the [hierarchy level](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhierarchy_level_glosry.htm "Glossary Entry") from the additional column HIERARCHY\_LEVEL.
 
 SELECT FROM HIERARCHY( SOURCE demo\_cds\_simple\_tree\_source
                        CHILD TO PARENT ASSOCIATION \_tree
@@ -284,4 +284,4 @@ Effect
 ...
 
 Continue
-[DDDDL\_HIERARCHY](javascript:call_link\('abenddddl_hierarchy.htm'\))
+[DDDDL\_HIERARCHY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddddl_hierarchy.htm)

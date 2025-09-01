@@ -4,17 +4,17 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenopen_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_agg](javascript:call_link\('abapselect_aggregate.htm'\)) →  [sql\_agg - agg\_func](javascript:call_link\('abensql_agg_func.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_agg](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_aggregate.htm) →  [sql\_agg - agg\_func](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_agg_func.htm) → 
 
 sql\_agg - ALLOW\_PRECISION\_LOSS
 
 Syntax
 
-... ALLOW\_PRECISION\_LOSS( [SUM](javascript:call_link\('abensql_agg_func.htm'\))( *\[*DISTINCT*\]* [sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) )
+... ALLOW\_PRECISION\_LOSS( [SUM](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_agg_func.htm)( *\[*DISTINCT*\]* [sql\_exp](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapsql_expr.htm) )
 
 Effect
 
-The ALLOW\_PRECISION\_LOSS statement can improve the performance of an [aggregate expression](javascript:call_link\('abenaggregate_expression_glosry.htm'\) "Glossary Entry") [agg\_exp](javascript:call_link\('abapselect_aggregate.htm'\)) at the cost of accuracy of the result. This function should only be used on decimal values and when loss of precision is acceptable. Currently, [SUM](javascript:call_link\('abensql_agg_func.htm'\)) is the only supported aggregate expression.
+The ALLOW\_PRECISION\_LOSS statement can improve the performance of an [aggregate expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenaggregate_expression_glosry.htm "Glossary Entry") [agg\_exp](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapselect_aggregate.htm) at the cost of accuracy of the result. This function should only be used on decimal values and when loss of precision is acceptable. Currently, [SUM](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_agg_func.htm) is the only supported aggregate expression.
 
 Hint
 
@@ -22,4 +22,4 @@ A different result is not necessarily obtained when using the ALLOW\_PRECISION\_
 
 Executable Example
 
-[Aggregate function, allow precision loss](javascript:call_link\('abensql_expr_aggr_prec_loss_abexa.htm'\))
+[Aggregate function, allow precision loss](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_expr_aggr_prec_loss_abexa.htm)

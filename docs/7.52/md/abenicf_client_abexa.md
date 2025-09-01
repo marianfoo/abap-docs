@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ICF - Internet Communication Framework](javascript:call_link\('abenicf.htm'\)) →  [ICF Examples](javascript:call_link\('abenicf_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ICF - Internet Communication Framework](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenicf.htm) →  [ICF Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenicf_abexas.htm) → 
 
 ABAP as HTTP Client
 
-This example demonstrates an [ICF](javascript:call_link\('abenicf_glosry.htm'\) "Glossary Entry") client object.
+This example demonstrates an [ICF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenicf_glosry.htm "Glossary Entry") client object.
 
 Source Code
 

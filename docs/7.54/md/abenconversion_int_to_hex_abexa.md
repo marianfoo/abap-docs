@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversion Rules for Elementary Data Objects](javascript:call_link\('abenconversion_elementary.htm'\)) →  [Numeric Source Fields](javascript:call_link\('abennumeric_source_fields.htm'\)) →  [Source Field Type i, int8, (b, s)](javascript:call_link\('abenconversion_type_ibs.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_rules.htm) →  [Conversion Rules for Elementary Data Objects](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_elementary.htm) →  [Numeric Source Fields](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennumeric_source_fields.htm) →  [Source Field Type i, int8, (b, s)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_type_ibs.htm) → 
 
 Conversion of Integer Numbers to Bytes
 
@@ -135,6 +135,6 @@ Description
 
 The program assigns numbers of the data types b, s, and i and int8, which cover the entire value range, to byte fields with the lengths 1, 2, 4, and 8 as well as to a byte string and displays them.
 
-In part, the [calculation type](javascript:call_link\('abenarith_type.htm'\)) decfloat34 is forced to calculate numbers using powers of two. This prevents overflows when assigning the results of the function [ipow](javascript:call_link\('abenipow_function_abexa.htm'\)) to subtotals of the calculation type i or int8.
+In part, the [calculation type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarith_type.htm) decfloat34 is forced to calculate numbers using powers of two. This prevents overflows when assigning the results of the function [ipow](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenipow_function_abexa.htm) to subtotals of the calculation type i or int8.
 
 This example highlights the different lengths that can be produced for these assignments to byte strings. It also shows that, in the case of assignments of the type s to x, a field length of 4 bytes is required for negative numbers.

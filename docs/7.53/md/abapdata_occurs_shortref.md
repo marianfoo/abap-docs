@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  D
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  D
 
 DATA - OCCURS - Quick reference
 
-[Reference](javascript:call_link\('abapdata_occurs.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_occurs.htm)
 
 Syntax
 
@@ -18,7 +18,7 @@ DATA itab *{* *{*TYPE *\[*REF TO*\]* type*}*
 
 Effect
 
-Obsolete: Declares a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with a [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry") and the initial memory requirement n.
+Obsolete: Declares a [standard table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_table_glosry.htm "Glossary Entry") with a [standard key](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstandard_key_glosry.htm "Glossary Entry") and the initial memory requirement n.
 
 Additions
 
@@ -31,5 +31,5 @@ Additions
 -   REF TO
     Creates the row type as a reference type.
     
--   [WITH HEADER LINE](javascript:call_link\('abapdata_header_line.htm'\))
+-   [WITH HEADER LINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata_header_line.htm)
     Defines a header line with the same name.

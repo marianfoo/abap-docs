@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [RFC - Remote Function Call](javascript:call_link\('abenrfc.htm'\)) →  [RFC - Overview](javascript:call_link\('abenrfc_intro_oview.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [RFC - Remote Function Call](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc.htm) →  [RFC - Overview](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrfc_intro_oview.htm) → 
 
 RFC - Introduction
 
@@ -24,17 +24,17 @@ RFC can be used as a synchronous or asynchronous communication procedure.
 
 There are also different RFC variants designed for different purposes and which therefore have with different service properties:
 
--   [Synchronous RFC (sRFC)](javascript:call_link\('abensynchronous_rfc_glosry.htm'\) "Glossary Entry")
+-   [Synchronous RFC (sRFC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensynchronous_rfc_glosry.htm "Glossary Entry")
 
--   [Asynchronous RFC (aRFC)](javascript:call_link\('abenasynchronous_rfc_glosry.htm'\) "Glossary Entry")
+-   [Asynchronous RFC (aRFC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasynchronous_rfc_glosry.htm "Glossary Entry")
 
--   [Parallel RFC (pRFC)](javascript:call_link\('abenparalel_remote_function_glosry.htm'\) "Glossary Entry")
+-   [Parallel RFC (pRFC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenparalel_remote_function_glosry.htm "Glossary Entry")
 
--   [Background RFC (bgRFC)](javascript:call_link\('abenbg_remote_function_glosry.htm'\) "Glossary Entry")
+-   [Background RFC (bgRFC)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbg_remote_function_glosry.htm "Glossary Entry")
 
--   [Transactional RFC (tRFC), obsolete](javascript:call_link\('abentrfc_1_glosry.htm'\) "Glossary Entry")
+-   [Transactional RFC (tRFC), obsolete](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentrfc_1_glosry.htm "Glossary Entry")
 
--   [Queued RFC (qRFC), obsolete](javascript:call_link\('abenqueued_remote_function_glosry.htm'\) "Glossary Entry")
+-   [Queued RFC (qRFC), obsolete](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenqueued_remote_function_glosry.htm "Glossary Entry")
 
 Transactional and Queued RFC were replaced by Background RFC.
 

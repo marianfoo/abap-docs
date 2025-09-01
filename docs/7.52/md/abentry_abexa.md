@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [Examples of Exceptions](javascript:call_link\('abenexception_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions.htm) →  [Examples of Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexception_abexas.htm) → 
 
 Exceptions, TRY
 
@@ -70,7 +70,7 @@ START-OF-SELECTION.
 
 Description
 
--   If the content of number is larger than 100, in the TRY block the TRY control structure of the [framework program](javascript:call_link\('abenframe_program_glosry.htm'\) "Glossary Entry") will trigger an exception of the class CX\_DEMO\_ABS\_TOO\_LARGE. This exception is handled by the second CATCH block of the same TRY control structure since the subclass of the most general exception is CX\_ROOT.
+-   If the content of number is larger than 100, in the TRY block the TRY control structure of the [framework program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenframe_program_glosry.htm "Glossary Entry") will trigger an exception of the class CX\_DEMO\_ABS\_TOO\_LARGE. This exception is handled by the second CATCH block of the same TRY control structure since the subclass of the most general exception is CX\_ROOT.
 
 -   If the content of number is 0, the runtime environment in the TRY block of the TRY control structure of the called method calculation triggers an exception of the predfined class CX\_SY\_ZERODIVIDE. This is handled in the CATCH block of the same TRY control structure.
 

@@ -16,11 +16,11 @@ EXPORT NAMETAB ...
 
 Effect
 
-This statement was used internally to export a DDIC structure description in an internal format to the [name table](javascript:call_link\('abenname_table_glosry.htm'\) "Glossary Entry") of the ABAP Dictionary.
+This statement was used internally to export a DDIC structure description in an internal format to the [name table](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenname_table_glosry.htm "Glossary Entry") of the ABAP Dictionary.
 
 The statement is no longer supported and produces a runtime error.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 

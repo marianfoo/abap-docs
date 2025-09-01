@@ -4,26 +4,26 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [Method Calls](javascript:call_link\('abenmethod_calls.htm'\)) →  [Static Method Calls](javascript:call_link\('abenmethod_calls_static.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencall_procedures.htm) →  [Method Calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethod_calls.htm) →  [Static Method Calls](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethod_calls_static.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: meth\( ... \), Standalone Method Call, ABAPCALL_METHOD_STATIC_SHORT, 757%0D%0A%0D%0AErr
 or:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 meth( ... ), Standalone Method Call
 
-[Short Reference](javascript:call_link\('abenmeth_call_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmeth_call_shortref.htm)
 
 Syntax
 
-*{* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( )
-*|* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( a )
-*|* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( p1 = a1 p2 = a2 ... )
-*|* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( *\[*[EXPORTING  p1 = a1 p2 = a2 ...](javascript:call_link\('abapcall_method_parameters.htm'\))*\]*
-        *\[*[IMPORTING  p1 = a1 p2 = a2 ...](javascript:call_link\('abapcall_method_parameters.htm'\))*\]*
-        *\[*[CHANGING   p1 = a1 p2 = a2 ...](javascript:call_link\('abapcall_method_parameters.htm'\))*\]*
-        *\[*[RECEIVING  r  = a](javascript:call_link\('abapcall_method_parameters.htm'\))*\]*
-        *\[*[EXCEPTIONS *\[*exc1 =n1 exc2 = n2 ...*\]*](javascript:call_link\('abapcall_method_parameters.htm'\))
-                    *\[*[OTHERS = n\_others*\]**\]*](javascript:call_link\('abapcall_method_parameters.htm'\)) ) *}*.
+*{* [meth](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_meth_ident_stat.htm)( )
+*|* [meth](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_meth_ident_stat.htm)( a )
+*|* [meth](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_meth_ident_stat.htm)( p1 = a1 p2 = a2 ... )
+*|* [meth](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_meth_ident_stat.htm)( *\[*[EXPORTING  p1 = a1 p2 = a2 ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_parameters.htm)*\]*
+        *\[*[IMPORTING  p1 = a1 p2 = a2 ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_parameters.htm)*\]*
+        *\[*[CHANGING   p1 = a1 p2 = a2 ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_parameters.htm)*\]*
+        *\[*[RECEIVING  r  = a](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_parameters.htm)*\]*
+        *\[*[EXCEPTIONS *\[*exc1 =n1 exc2 = n2 ...*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_parameters.htm)
+                    *\[*[OTHERS = n\_others*\]**\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_parameters.htm) ) *}*.
 
 Alternatives:
 
@@ -34,15 +34,15 @@ Alternatives:
 
 Effect
 
-Static call of a method specified as a standalone statement using the name [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)). The [parameter interface](javascript:call_link\('abenparameter_interface_glosry.htm'\) "Glossary Entry") of the method is filled with the actual parameters in the parentheses. In the first alternative, no formal parameters are supplied with actual parameters. The second and third alternatives are short forms for methods where only the input parameters are supplied with actual parameters. The fourth alternative allows all possible formal parameters to be supplied with actual parameters and non-class-based exceptions to be handled.
+Static call of a method specified as a standalone statement using the name [meth](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_meth_ident_stat.htm). The [parameter interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenparameter_interface_glosry.htm "Glossary Entry") of the method is filled with the actual parameters in the parentheses. In the first alternative, no formal parameters are supplied with actual parameters. The second and third alternatives are short forms for methods where only the input parameters are supplied with actual parameters. The fourth alternative allows all possible formal parameters to be supplied with actual parameters and non-class-based exceptions to be handled.
 
 System Fields
 
-Each method call sets the system field sy-subrc to 0 in the moment the method is called. Handling [non-class-based exceptions](javascript:call_link\('abenexceptions_non_class.htm'\)) can change this value.
+Each method call sets the system field sy-subrc to 0 in the moment the method is called. Handling [non-class-based exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexceptions_non_class.htm) can change this value.
 
 Hint
 
-The static method call described here must not be confused with the call of [static methods](javascript:call_link\('abenstatic_method_glosry.htm'\) "Glossary Entry"). A static method call is the static specification of an [instance method](javascript:call_link\('abeninstance_method_glosry.htm'\) "Glossary Entry") or a static method. In addition, there is the [dynamic method call](javascript:call_link\('abenmethod_calls_dynamic.htm'\)), for which the methods are specified dynamically.
+The static method call described here must not be confused with the call of [static methods](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstatic_method_glosry.htm "Glossary Entry"). A static method call is the static specification of an [instance method](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninstance_method_glosry.htm "Glossary Entry") or a static method. In addition, there is the [dynamic method call](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmethod_calls_dynamic.htm), for which the methods are specified dynamically.
 
 Alternative 1   
 
@@ -50,7 +50,7 @@ meth( ).
 
 Effect
 
-Call of the method [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)) without passing parameters. The method cannot have any or can have only optional input parameters or input/output parameters. No actual parameters are assigned to any output parameters or to a return value.
+Call of the method [meth](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_meth_ident_stat.htm) without passing parameters. The method cannot have any or can have only optional input parameters or input/output parameters. No actual parameters are assigned to any output parameters or to a return value.
 
 Example
 
@@ -76,9 +76,9 @@ Effect
 
 This is the short form of:
 
-meth( [EXPORTING](javascript:call_link\('abapcall_method_parameters.htm'\)) p = a ).
+meth( [EXPORTING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_parameters.htm) p = a ).
 
-The method [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)) can have the following parameters:
+The method [meth](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_meth_ident_stat.htm) can have the following parameters:
 
 -   Either exactly one non-optional input parameter p and any number of optional input parameters
 -   Or only optional input parameters from which p is defined as a preferred parameter using PREFERRED PARAMETER
@@ -111,9 +111,9 @@ Effect
 
 This is the short form of:
 
-meth( [EXPORTING](javascript:call_link\('abapcall_method_parameters.htm'\)) p1 = a1 p2 = a2 ... ).
+meth( [EXPORTING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_parameters.htm) p1 = a1 p2 = a2 ... ).
 
-The method [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)) can have any number of input parameters p1, p2, ... that are supplied with the actual parameters a1, a2, .... The actual parameters can be specified as a data object, a function, or an expression.
+The method [meth](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_meth_ident_stat.htm) can have any number of input parameters p1, p2, ... that are supplied with the actual parameters a1, a2, .... The actual parameters can be specified as a data object, a function, or an expression.
 
 The method can only have optional input/output parameters. No actual parameter is assigned to these input/output parameters, any output parameters, or return values.
 
@@ -140,7 +140,7 @@ meth( EXPORTING ...  IMPORTING ... CHANGING ... RECEIVING ... ).
 
 Effect
 
-Call of the method [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)) with explicit [parameter passing](javascript:call_link\('abapcall_method_parameters.htm'\)) and the option of handling non-class-based exceptions. This format can be used to call methods with any number of parameter interfaces.
+Call of the method [meth](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_meth_ident_stat.htm) with explicit [parameter passing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_parameters.htm) and the option of handling non-class-based exceptions. This format can be used to call methods with any number of parameter interfaces.
 
 Example
 
@@ -167,5 +167,5 @@ START-OF-SELECTION.
                     RECEIVING r  = FINAL(a3) ).
 
 Continue
-[meth( ... ), Static Method Specification](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))
-[super->meth( ... )](javascript:call_link\('abapcall_method_meth_super.htm'\))
+[meth( ... ), Static Method Specification](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_meth_ident_stat.htm)
+[super->meth( ... )](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcall_method_meth_super.htm)

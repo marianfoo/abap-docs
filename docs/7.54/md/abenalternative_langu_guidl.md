@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) →  [Alternative Spellings](javascript:call_link\('abenalternative_spelling_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstructure_style_guidl.htm) →  [Alternative Spellings](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenalternative_spelling_guidl.htm) → 
 
 Alternative Language Constructs
 
@@ -24,13 +24,13 @@ To make your programming easier to understand, always choose the spelling that i
 
 -   If you can choose from a range of relational operators (\= or EQ, \> or GT, < or LT, \>= or GE, <= or LE) we recommend that you pick a type of operator and stick to it within the context of a program. The variant with the characters =, <, and > is seen as more modern, but also overloads these characters. The relational operators that consist of two letters are better matched to other relational operators such as CO, CN, and so on, which have no alternative forms.
 
--   The addition NOT of the [relational operators](javascript:call_link\('abenrel_operator_glosry.htm'\) "Glossary Entry") BETWEEN, IN, IS ASSIGNED, IS BOUND, IS INSTANCE OF, IS INITIAL, and IS SUPPLIED is a better option than the identical Boolean operator NOT, for improved readability. For example, the expression a IS NOT INITIAL is easier than the logically identical expression NOT a IS INITIAL. This corresponds to the definition of comparison expressions, where a <> b is more intuitive than NOT a = b.
+-   The addition NOT of the [relational operators](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrel_operator_glosry.htm "Glossary Entry") BETWEEN, IN, IS ASSIGNED, IS BOUND, IS INSTANCE OF, IS INITIAL, and IS SUPPLIED is a better option than the identical Boolean operator NOT, for improved readability. For example, the expression a IS NOT INITIAL is easier than the logically identical expression NOT a IS INITIAL. This corresponds to the definition of comparison expressions, where a <> b is more intuitive than NOT a = b.
 
--   The addition LENGTH len of the declarative statements DATA and TYPES is preferable to the length specified in parentheses (len). This then matches the spelling used in CREATE DATA ... LENGTH. In addition to this, it is easy to mistake the parenthesized form for [dynamic tokens](javascript:call_link\('abendynamic_prog_technique_guidl.htm'\) "Guideline"). Only dynamic tokens should use this form.
+-   The addition LENGTH len of the declarative statements DATA and TYPES is preferable to the length specified in parentheses (len). This then matches the spelling used in CREATE DATA ... LENGTH. In addition to this, it is easy to mistake the parenthesized form for [dynamic tokens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynamic_prog_technique_guidl.htm "Guideline"). Only dynamic tokens should use this form.
 
 -   The optional addition SUBSTRING of the statements FIND and REPLACE can be used to make a clearer distinction from the alternative addition REGEX.
 
--   In ABAP SQL, comma-separated lists are preferable to lists without commas. Using commas as separators is the prerequisite for using expressions in lists. [Host variables](javascript:call_link\('abenhost_variable_glosry.htm'\) "Glossary Entry") should always be indicated by the escape character @.
+-   In ABAP SQL, comma-separated lists are preferable to lists without commas. Using commas as separators is the prerequisite for using expressions in lists. [Host variables](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhost_variable_glosry.htm "Glossary Entry") should always be indicated by the escape character @.
 
 -   Within the parameter list of the statements EXPORT and IMPORT, use the equals sign (=) instead of the additions FROM or TO. The spelling then matches the spelling used in parameter lists in other calls, such as methods, functions modules, and transformations.
 

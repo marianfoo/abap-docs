@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) →  [JSON - Transformations](javascript:call_link\('abenabap_json_trafos.htm'\)) →  [asJSON - Canonical JSON Representation](javascript:call_link\('abenabap_asjson.htm'\)) →  [asJSON - Mapping of ABAP Data Types](javascript:call_link\('abenabap_asjson_abap_types.htm'\)) →  [asJSON - Mapping of Reference Variables and Objects](javascript:call_link\('abenabap_asxml_references.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_json.htm) →  [JSON - Transformations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_json_trafos.htm) →  [asJSON - Canonical JSON Representation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_asjson.htm) →  [asJSON - Mapping of ABAP Data Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_asjson_abap_types.htm) →  [asJSON - Mapping of Reference Variables and Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_asxml_references.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: asJSON - Anonymous Data Objects, ABENABAP_ASJSON_ANONYM_DO, 757%0D%0A%0D%0AError:%0D%
 0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -26,9 +26,9 @@ The value of the anonymous data object is specified as content of the component 
 
 The remaining components specify the data type of the anonymous data object.
 
--   The same rules apply to the content of %type as to the element name type in [asXML](javascript:call_link\('abenasxml_anonymous_data_object.htm'\)).
--   The components %maxLength, %totalDigits, and %fractionDigits specify the technical properties of the type, if required. The same rules apply to their content as to the corresponding attributes in [asXML](javascript:call_link\('abenasxml_anonymous_data_object.htm'\)).
+-   The same rules apply to the content of %type as to the element name type in [asXML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenasxml_anonymous_data_object.htm).
+-   The components %maxLength, %totalDigits, and %fractionDigits specify the technical properties of the type, if required. The same rules apply to their content as to the corresponding attributes in [asXML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenasxml_anonymous_data_object.htm).
 
 Executable Example
 
-[asJSON for Anonymous Data Objects](javascript:call_link\('abenabap_json_asjson_dref_abexa.htm'\)).
+[asJSON for Anonymous Data Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_json_asjson_dref_abexa.htm).

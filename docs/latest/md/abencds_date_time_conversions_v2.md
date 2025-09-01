@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\)) →  [CDS DDL - DEFINE VIEW ENTITY](javascript:call_link\('abencds_define_view_entity.htm'\)) →  [CDS DDL - CDS View Entity, SELECT](javascript:call_link\('abencds_select_statement_v2.htm'\)) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](javascript:call_link\('abencds_operands_and_expr_v2.htm'\)) →  [CDS DDL - CDS View Entity, Expressions](javascript:call_link\('abencds_expressions_v2.htm'\)) →  [CDS DDL - CDS View Entity, Built-In Functions](javascript:call_link\('abencds_builtin_functions_v2.htm'\)) →  [CDS DDL - CDS View Entity, Special Functions](javascript:call_link\('abencds_special_functions_v2.htm'\)) →  [CDS DDL - CDS View Entity, Date Functions and Time Functions](javascript:call_link\('abencds_date_time_functions_v2.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_entity.htm) →  [ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_views.htm) →  [CDS DDL - DEFINE VIEW ENTITY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_define_view_entity.htm) →  [CDS DDL - CDS View Entity, SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_select_statement_v2.htm) →  [CDS DDL - SELECT, CDS View Entity, Operands and Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_operands_and_expr_v2.htm) →  [CDS DDL - CDS View Entity, Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_expressions_v2.htm) →  [CDS DDL - CDS View Entity, Built-In Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_builtin_functions_v2.htm) →  [CDS DDL - CDS View Entity, Special Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_special_functions_v2.htm) →  [CDS DDL - CDS View Entity, Date Functions and Time Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_date_time_functions_v2.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20CDS%20View%20Entity%2C%20Date%2FTime%20Conversions%2C%20ABENCDS_DATE_TIME_CONVERSIONS_V2%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASu
 ggestion%20for%20improvement:)
@@ -39,16 +39,16 @@ Variants:
 
 Effect
 
-In a [CDS view entity](javascript:call_link\('abencds_v2_view_glosry.htm'\) "Glossary Entry"), these functions perform conversions between date, time, and time stamp formats.
+In a [CDS view entity](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_v2_view_glosry.htm "Glossary Entry"), these functions perform conversions between date, time, and time stamp formats.
 
-The functions have [positional parameters](javascript:call_link\('abenpositional_parameter_glosry.htm'\) "Glossary Entry") to which actual parameters need to be assigned when called. There are currently no optional parameters. Suitable fields of a [data source](javascript:call_link\('abencds_data_source_v2.htm'\)), [literals](javascript:call_link\('abencds_literal_v2.htm'\)), [parameters](javascript:call_link\('abencds_parameter_v2.htm'\)), [path expressions](javascript:call_link\('abencds_path_expression_v2.htm'\)), [built-in functions](javascript:call_link\('abencds_builtin_functions_v2.htm'\)), [SQL-based scalar functions](javascript:call_link\('abencds_sql_scalar_function.htm'\)), [expressions](javascript:call_link\('abencds_expressions_v2.htm'\)), or [reuse expressions](javascript:call_link\('abencds_reusable_expression_v2.htm'\)) using $projection can all be specified as actual parameters. Only literals can be passed to the parameters on\_error, on\_initial, and on\_null. If an actual parameter contains the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"), every function returns a null value.
+The functions have [positional parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpositional_parameter_glosry.htm "Glossary Entry") to which actual parameters need to be assigned when called. There are currently no optional parameters. Suitable fields of a [data source](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_data_source_v2.htm), [literals](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_literal_v2.htm), [parameters](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_parameter_v2.htm), [path expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_path_expression_v2.htm), [built-in functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_builtin_functions_v2.htm), [SQL-based scalar functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_sql_scalar_function.htm), [expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_expressions_v2.htm), or [reuse expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_reusable_expression_v2.htm) using $projection can all be specified as actual parameters. Only literals can be passed to the parameters on\_error, on\_initial, and on\_null. If an actual parameter contains the [null value](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennull_value_glosry.htm "Glossary Entry"), every function returns a null value.
 
-The conversions follow the ABAP-specific [rules for time zones](javascript:call_link\('abentime_zone_rules.htm'\)). The associated DDIC database tables must be filled correctly.
+The conversions follow the ABAP-specific [rules for time zones](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_zone_rules.htm). The associated DDIC database tables must be filled correctly.
 
 Hints
 
--   These functions move the functions of the ABAP statements [CONVERT TIME STAMP](javascript:call_link\('abapconvert_time-stamp.htm'\)) and [CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\)) to the database.
--   [Typed literals](javascript:call_link\('abencds_typed_literal_v2.htm'\)) are available for date, time, and time stamp data types. With typed literals, all parameter positions can be filled with literals.
+-   These functions move the functions of the ABAP statements [CONVERT TIME STAMP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapconvert_time-stamp.htm) and [CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapconvert_date_time-stamp.htm) to the database.
+-   [Typed literals](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_typed_literal_v2.htm) are available for date, time, and time stamp data types. With typed literals, all parameter positions can be filled with literals.
 -   To carry out conversions that are not yet supported by built-in CDS conversion functions, an option is to use the respective HANA functions in AMDP or Native SQL.
 
 Variant 1   
@@ -59,9 +59,9 @@ Effect
 
 The function TSTMP\_TO\_DATS extracts the local date for the time zone specified in tzone from a time stamp in the argument tstmp.
 
-The actual parameter tstmp must have the built-in data type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 15 and no decimal places and contain a [valid time stamp](javascript:call_link\('abentime_stamps_packed.htm'\)) in the format YYYYMMDDHHMMSS. tzone expects an actual parameter of the type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 6, either initial or containing a valid [time zone](javascript:call_link\('abentime_zone_glosry.htm'\) "Glossary Entry"). If an initial time zone is specified, no time shift is calculated. The actual parameter clnt must have the built-in dictionary type [CLNT](javascript:call_link\('abenddic_builtin_types.htm'\)) and must contain a valid [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry"). This client ID is used in the evaluation of the system tables of the [rules for time zones](javascript:call_link\('abentime_zone_rules.htm'\)). The return value has the built-in data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The actual parameter tstmp must have the built-in data type [DEC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) with length 15 and no decimal places and contain a [valid time stamp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_stamps_packed.htm) in the format YYYYMMDDHHMMSS. tzone expects an actual parameter of the type [CHAR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) with length 6, either initial or containing a valid [time zone](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_zone_glosry.htm "Glossary Entry"). If an initial time zone is specified, no time shift is calculated. The actual parameter clnt must have the built-in dictionary type [CLNT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and must contain a valid [client ID](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclient_identifier_glosry.htm "Glossary Entry"). This client ID is used in the evaluation of the system tables of the [rules for time zones](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_zone_rules.htm). The return value has the built-in data type [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
 
-The actual parameter on\_error controls error handling. It must have the built-in data type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with the length 10 and must have one of the following values:
+The actual parameter on\_error controls error handling. It must have the built-in data type [CHAR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) with the length 10 and must have one of the following values:
 
 -   FAIL (an error raises an exception)
 -   NULL (an error returns the null value)
@@ -77,7 +77,7 @@ Effect
 
 The function TSTMP\_TO\_TIMS extracts the local time for the time zone specified in tzone from a time stamp in the argument tstmp.
 
-The same applies to the actual parameters tstmp, tzone, clnt, and on\_error as to the function TSTMP\_TO\_DATS. The return value has the built-in data type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The same applies to the actual parameters tstmp, tzone, clnt, and on\_error as to the function TSTMP\_TO\_DATS. The return value has the built-in data type [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
 
 Variant 3   
 
@@ -87,7 +87,7 @@ Effect
 
 The function TSTMP\_TO\_DST extracts the daylight saving time marker for the time zone specified in tzone from a time stamp in the argument tstmp. This is X if the time stamp for the time zone is in the daylight saving time, otherwise it is initial.
 
-The same applies to the actual parameters tstmp, tzone, clnt, and on\_error as to the function TSTMP\_TO\_DATS. The return value has the built-in data type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 1.
+The same applies to the actual parameters tstmp, tzone, clnt, and on\_error as to the function TSTMP\_TO\_DATS. The return value has the built-in data type [CHAR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) with length 1.
 
 Variant 4   
 
@@ -97,9 +97,9 @@ Effect
 
 The function DATS\_TIMS\_TO\_TSTMP constructs a time stamp from a local date specified in date and a local time specified in time in the time zone specified in tzone. The daylight saving time is respected implicitly.
 
-The actual parameter date must have the built-in data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) and should contain a valid date. The actual parameter time must have the built-in data type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)) and should contain a valid time. The same applies to the actual parameters tzone, clnt, and on\_error as to the function TSTMP\_TO\_DATS.
+The actual parameter date must have the built-in data type [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and should contain a valid date. The actual parameter time must have the built-in data type [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and should contain a valid time. The same applies to the actual parameters tzone, clnt, and on\_error as to the function TSTMP\_TO\_DATS.
 
-The return value has the built-in data type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 15 and represents an ABAP-specific [time stamp in a packed number](javascript:call_link\('abentime_stamps_packed.htm'\)).
+The return value has the built-in data type [DEC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) with length 15 and represents an ABAP-specific [time stamp in a packed number](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_stamps_packed.htm).
 
 Variant 5   
 
@@ -107,13 +107,13 @@ Variant 5  
 
 Effect
 
-The function TSTMPL\_TO\_UTCL converts a time stamp tstmpl from the ABAP Dictionary type TIMESTAMPL to the built-in dictionary type [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The function TSTMPL\_TO\_UTCL converts a time stamp tstmpl from the ABAP Dictionary type TIMESTAMPL to the built-in dictionary type [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
 
-The actual parameter for the formal parameter tstmpl must have the built-in data type [DEC](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 21 and 7 decimal places and contain a [valid time stamp](javascript:call_link\('abentime_stamps_packed.htm'\)) in the format YYYYMMDDHHMMSSMMMUUUN.
+The actual parameter for the formal parameter tstmpl must have the built-in data type [DEC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) with length 21 and 7 decimal places and contain a [valid time stamp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentime_stamps_packed.htm) in the format YYYYMMDDHHMMSSMMMUUUN.
 
 The same applies to the actual parameter on\_error as to the function TSTMP\_TO\_DATS.
 
-The actual parameter on\_initial defines the way arguments with initial values are handled. It must have the built-in data type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with the length 10 and must have one of the following values:
+The actual parameter on\_initial defines the way arguments with initial values are handled. It must have the built-in data type [CHAR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) with the length 10 and must have one of the following values:
 
 -   FAIL (an initial value raises an exception)
 -   NULL (an initial value returns the null value)
@@ -131,11 +131,11 @@ Variant 6  
 
 Effect
 
-The function TSTMPL\_FROM\_UTCL converts a time stamp utcl from the built-in dictionary type [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)) to the ABAP Dictionary type TIMESTAMPL. It is the counterpart to variant 5.
+The function TSTMPL\_FROM\_UTCL converts a time stamp utcl from the built-in dictionary type [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) to the ABAP Dictionary type TIMESTAMPL. It is the counterpart to variant 5.
 
-The actual parameter for the formal parameter utcl must have the built-in data type [UTCLONG](javascript:call_link\('abenddic_builtin_types.htm'\)) and it should contain a valid time stamp.
+The actual parameter for the formal parameter utcl must have the built-in data type [UTCLONG](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and it should contain a valid time stamp.
 
-The actual parameter on\_null defines the way null values as arguments are handled. It must have the built-in data type [CHAR](javascript:call_link\('abenddic_builtin_types.htm'\)) with the length 10 and must have one of the following values:
+The actual parameter on\_null defines the way null values as arguments are handled. It must have the built-in data type [CHAR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) with the length 10 and must have one of the following values:
 
 -   FAIL (a null value raises an exception)
 -   NULL (a null value returns the null value)
@@ -155,13 +155,13 @@ Variant 7  
 
 Effect
 
-The function DATS\_TO\_DATN converts a date dats from the built-in ABAP Dictionary data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) to the built-in ABAP Dictionary type [DATN](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The function DATS\_TO\_DATN converts a date dats from the built-in ABAP Dictionary data type [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) to the built-in ABAP Dictionary type [DATN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
 
-The actual parameter for the formal parameter dats must have the built-in data type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) and should contain a valid date in the format YYYYMMDD. The same applies to the actual parameters on\_error and on\_initial as to the function TSTMPL\_TO\_UTCL (variant 5, see above).
+The actual parameter for the formal parameter dats must have the built-in data type [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and should contain a valid date in the format YYYYMMDD. The same applies to the actual parameters on\_error and on\_initial as to the function TSTMPL\_TO\_UTCL (variant 5, see above).
 
 Hint
 
-[DATN](javascript:call_link\('abenddic_builtin_types.htm'\)) is a newer dictionary type which represents a real date type in a database. [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)), by contrast, is an older dictionary type. It is instantiated on a database as a character-like field. [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) and [DATN](javascript:call_link\('abenddic_builtin_types.htm'\)) are not interchangeable and a conversion is necessary to use certain functions.
+[DATN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) is a newer dictionary type which represents a real date type in a database. [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), by contrast, is an older dictionary type. It is instantiated on a database as a character-like field. [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and [DATN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) are not interchangeable and a conversion is necessary to use certain functions.
 
 Variant 8   
 
@@ -169,13 +169,13 @@ Variant 8  
 
 Effect
 
-The function DATS\_FROM\_DATN converts a date datn from the built-in ABAP Dictionary data type [DATN](javascript:call_link\('abenddic_builtin_types.htm'\)) to the built-in ABAP Dictionary type [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)). It is the counterpart to variant 7.
+The function DATS\_FROM\_DATN converts a date datn from the built-in ABAP Dictionary data type [DATN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) to the built-in ABAP Dictionary type [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). It is the counterpart to variant 7.
 
-The actual parameter for the formal parameter datn must have the built-in data type [DATN](javascript:call_link\('abenddic_builtin_types.htm'\)) and must contain a valid date in the format YYYYMMDD. The same applies to the actual parameter on\_null as to the function TSTMPL\_FROM\_UTCL (variant 6, see above).
+The actual parameter for the formal parameter datn must have the built-in data type [DATN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and must contain a valid date in the format YYYYMMDD. The same applies to the actual parameter on\_null as to the function TSTMPL\_FROM\_UTCL (variant 6, see above).
 
 Hint
 
-[DATN](javascript:call_link\('abenddic_builtin_types.htm'\)) is a newer dictionary type which represents a real date type in a database. [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)), by contrast, is an older dictionary type. It is instantiated on a database as a character-like field. [DATS](javascript:call_link\('abenddic_builtin_types.htm'\)) and [DATN](javascript:call_link\('abenddic_builtin_types.htm'\)) are not interchangeable and to use certain functions, a conversion is necessary.
+[DATN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) is a newer dictionary type which represents a real date type in a database. [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), by contrast, is an older dictionary type. It is instantiated on a database as a character-like field. [DATS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and [DATN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) are not interchangeable and to use certain functions, a conversion is necessary.
 
 Variant 9   
 
@@ -183,13 +183,13 @@ Variant 9  
 
 Effect
 
-The function TIMS\_TO\_TIMN converts a time tims from the ABAP Dictionary type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)) to the ABAP Dictionary type [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)).
+The function TIMS\_TO\_TIMN converts a time tims from the ABAP Dictionary type [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) to the ABAP Dictionary type [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm).
 
-The actual parameter for the formal parameter tims must have the built-in data type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)) and contain a valid time in the format HHMMSS. The same applies to the actual parameter on\_error as to the function TSTMP\_TO\_DATS (variant 1, see above).
+The actual parameter for the formal parameter tims must have the built-in data type [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and contain a valid time in the format HHMMSS. The same applies to the actual parameter on\_error as to the function TSTMP\_TO\_DATS (variant 1, see above).
 
 Hint
 
-[TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)) is a newer dictionary type which represents a real date type in a database. [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)), by contrast, is an older dictionary type. It is instantiated on a database as a character-like field. [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)) and [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)) are not interchangeable and to use certain functions, a conversion is necessary.
+[TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) is a newer dictionary type which represents a real date type in a database. [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), by contrast, is an older dictionary type. It is instantiated on a database as a character-like field. [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) are not interchangeable and to use certain functions, a conversion is necessary.
 
 Variant 10   
 
@@ -197,13 +197,13 @@ Variant 10  
 
 Effect
 
-The function TIMS\_FROM\_TIMN converts a time timn from the ABAP Dictionary type [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)) to the ABAP Dictionary type [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)). It is the counterpart to variant 9.
+The function TIMS\_FROM\_TIMN converts a time timn from the ABAP Dictionary type [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) to the ABAP Dictionary type [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm). It is the counterpart to variant 9.
 
-The actual parameter for the formal parameter timn must have the built-in data type [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)) and contain a valid time in the format HHMMSS. The same applies to the actual parameter on\_null as to the function TSTMPL\_FROM\_UTCL (variant 6, see above).
+The actual parameter for the formal parameter timn must have the built-in data type [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and contain a valid time in the format HHMMSS. The same applies to the actual parameter on\_null as to the function TSTMPL\_FROM\_UTCL (variant 6, see above).
 
 Hint
 
-[TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)) is a newer dictionary type which represents a real date type in a database. [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)), by contrast, is an older dictionary type. It is instantiated on a database as a character-like field. [TIMS](javascript:call_link\('abenddic_builtin_types.htm'\)) and [TIMN](javascript:call_link\('abenddic_builtin_types.htm'\)) are not interchangeable and to use certain functions, a conversion is necessary.
+[TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) is a newer dictionary type which represents a real date type in a database. [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm), by contrast, is an older dictionary type. It is instantiated on a database as a character-like field. [TIMS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) and [TIMN](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenddic_builtin_types.htm) are not interchangeable and to use certain functions, a conversion is necessary.
 
 Example
 

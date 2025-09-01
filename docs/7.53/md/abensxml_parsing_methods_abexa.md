@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Class Libraries for XML](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)) →  [sXML Library, Examples](javascript:call_link\('abenabap_sxml_lib_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml.htm) →  [Class Libraries for XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_libs.htm) →  [sXML Library](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sxml_lib.htm) →  [sXML Library, Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sxml_lib_abexas.htm) → 
 
 sXML Library, Methods for Token-Based Parsing.
 
-This example demonstrates how various methods are used in [token-based parsing](javascript:call_link\('abenabap_sxml_lib_parse_iterative.htm'\)).
+This example demonstrates how various methods are used in [token-based parsing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sxml_lib_parse_iterative.htm).
 
 Source Code
 
@@ -252,7 +252,7 @@ A string of XML data is parsed more than once:
 
 -   Then an iteration runs across all attributes of all elements (without evaluating the elements) until a specific value occurs. If the value occurs, the method CURRENT\_NODE is used to move the parser to the start of the current attribute list and the list is evaluated.
 
--   Finally, the method NEXT\_ATTRIBUTE\_VALUE is used to read the value of each attribute as raw data saved in [Base64](javascript:call_link\('abenbase64_glosry.htm'\) "Glossary Entry") format. The data is displayed only if this is successful.
+-   Finally, the method NEXT\_ATTRIBUTE\_VALUE is used to read the value of each attribute as raw data saved in [Base64](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbase64_glosry.htm "Glossary Entry") format. The data is displayed only if this is successful.
 
 -   In the fourth and fifth parsings, the method SKIP\_NODE demonstrates why the hierarchy level of the current node is saved in the helper variable level.
 

@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [TRY](javascript:call_link\('abaptry.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions.htm) →  [TRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptry.htm) → 
 
 RESUME
 
-[Quick Reference](javascript:call_link\('abapresume_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapresume_shortref.htm)
 
 Syntax
 
@@ -16,11 +16,11 @@ RESUME.
 
 Effect
 
-This statement exits the [CATCH](javascript:call_link\('abapcatch_try.htm'\)) handling of a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry") and resumes processing after the statement that raised the exception. This statement can only be executed in a [CATCH](javascript:call_link\('abapcatch_try.htm'\)) block of a [TRY](javascript:call_link\('abaptry.htm'\)) control structure for which the addition BEFORE UNWIND is declared. When exception handling is exited using RESUME, the context of the exception is not deleted and any CLEANUP blocks are not executed.
+This statement exits the [CATCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcatch_try.htm) handling of a [resumable exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenresumable_exception_glosry.htm "Glossary Entry") and resumes processing after the statement that raised the exception. This statement can only be executed in a [CATCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcatch_try.htm) block of a [TRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptry.htm) control structure for which the addition BEFORE UNWIND is declared. When exception handling is exited using RESUME, the context of the exception is not deleted and any CLEANUP blocks are not executed.
 
 The following are prerequisites for resuming processing:
 
--   The exception was raised as a resumable exception by the addition RESUMABLE of the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) or by the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)).
+-   The exception was raised as a resumable exception by the addition RESUMABLE of the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception_class.htm) or by the addition [THROW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expressions.htm).
     
 -   The exception was declared with the addition RESUMABLE of RAISING in the interface of all procedures from which it was propagated (if it is not an exception derived from CX\_NO\_CHECK).
     
@@ -29,11 +29,11 @@ If these points do not apply, an exception of the class CX\_SY\_ILLEGAL\_HANDLER
 
 Notes
 
--   If the resumable exception was not raised by the variant [RAISE RESUMABLE EXCEPTION oref](javascript:call_link\('abapraise_exception_class.htm'\)), the handler can send information to the raiser of the event by assigning values to appropriate attributes of the exception object.
+-   If the resumable exception was not raised by the variant [RAISE RESUMABLE EXCEPTION oref](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception_class.htm), the handler can send information to the raiser of the event by assigning values to appropriate attributes of the exception object.
     
 -   Resuming processing after an exception is particularly useful if the exception was raised when a special method was called, such as a constructor or a functional method in an operand position.
     
--   If a CATCH block is not exited using RESUME when handling a resumable exception, the program does not continue in the context of the statement that raised the exception (as described in [System Response After a Class-Based Exception](javascript:call_link\('abenexceptions_system_response.htm'\))). This context is deleted when the CATCH block is exited, at the latest.
+-   If a CATCH block is not exited using RESUME when handling a resumable exception, the program does not continue in the context of the statement that raised the exception (as described in [System Response After a Class-Based Exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_system_response.htm)). This context is deleted when the CATCH block is exited, at the latest.
     
 
 Example
@@ -61,7 +61,7 @@ START-OF-SELECTION.
       RESUME.
   ENDTRY.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

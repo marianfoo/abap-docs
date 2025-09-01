@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [Changes in Release 7.54](javascript:call_link\('abennews-754.htm'\)) →  [ABAP RESTful Programming Model in Release 7.54](javascript:call_link\('abennews-754-restful.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews.htm) →  [Changes in Releases 7.5x](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-75.htm) →  [Changes in Release 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-754.htm) →  [ABAP RESTful Programming Model in Release 7.54](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-754-restful.htm) → 
 
 Derived Types in Release 7.54
 
@@ -18,7 +18,7 @@ Modification 1
 
 TYPE STRUCTURE FOR
 
-It is now possible to directly get the row type of a [derived table type](javascript:call_link\('abenspecific_derived_types.htm'\)) using following syntax:
+It is now possible to directly get the row type of a [derived table type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenspecific_derived_types.htm) using following syntax:
 
 TYPES ts\_create TYPE STRUCTURE FOR ...
 
@@ -26,7 +26,7 @@ Modification 2
 
 Response Information
 
-There is now a syntax for the [response information](javascript:call_link\('abenrpm_export_parameters.htm'\)), that can be used in [handler](javascript:call_link\('abenrpm_handler_class.htm'\)) methods for the parameters FAILED, MAPPED and REPORTED:
+There is now a syntax for the [response information](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_export_parameters.htm), that can be used in [handler](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrpm_handler_class.htm) methods for the parameters FAILED, MAPPED and REPORTED:
 
 TYPES ts\_reported TYPE RESPONSE FOR FAILED*|*MAPPED*|*REPORTED BehaviorDefinitionName.
 
@@ -36,4 +36,4 @@ Modification 3
 
 Absolute Type Names
 
-Derived types are now also easily recognizable in the [ABAP Debugger](javascript:call_link\('abenabap_debugger_glosry.htm'\) "Glossary Entry") using their [absolute type name](javascript:call_link\('abenvariables_derived_types.htm'\)). The absolute name starts with \\BDEF=, followed by the name of the [behavior definition](javascript:call_link\('abenbehavior_definition_glosry.htm'\) "Glossary Entry") (identical to the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") name); usually, this is followed by \\ENTITY=EntityName and the specification of an operation, for example an action.
+Derived types are now also easily recognizable in the [ABAP Debugger](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_debugger_glosry.htm "Glossary Entry") using their [absolute type name](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvariables_derived_types.htm). The absolute name starts with \\BDEF=, followed by the name of the [behavior definition](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbehavior_definition_glosry.htm "Glossary Entry") (identical to the [root entity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenroot_entity_glosry.htm "Glossary Entry") name); usually, this is followed by \\ENTITY=EntityName and the specification of an operation, for example an action.

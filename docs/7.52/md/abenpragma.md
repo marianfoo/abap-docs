@@ -4,19 +4,21 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [Program Directives](javascript:call_link\('abenprogram_directives.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_syntax.htm) →  [Program Directives](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directives.htm) → 
 
 Pragmas
 
-Pragmas are [program directives](javascript:call_link\('abenprogram_directive_glosry.htm'\) "Glossary Entry") that can be used to hide warnings from various check tools. The following are supported:
+Pragmas are [program directives](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_directive_glosry.htm "Glossary Entry") that can be used to hide warnings from various check tools. The following are supported:
 
--   Warnings from the ABAP Compiler [syntax check](javascript:call_link\('abensyntax_check_glosry.htm'\) "Glossary Entry")
+-   Warnings from the ABAP Compiler [syntax check](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensyntax_check_glosry.htm "Glossary Entry")
 
--   Warnings from the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry")
+-   Warnings from the [extended program check](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenextended_program_check_glosry.htm "Glossary Entry")
 
 For more information, see:
 
--   [Syntax of Pragmas](#abenpragma-1--------positioning-of-pragmas-in-abap-source-code---@ITOC@@ABENPRAGMA_2)
+-   [Syntax of Pragmas](#@@ITOC@@ABENPRAGMA_1)
+
+-   [Positioning of Pragmas in ABAP Source Code](#@@ITOC@@ABENPRAGMA_2)
 
 Syntax of Pragmas
 
@@ -32,11 +34,11 @@ Notes
 
 -   The existence of a pragma for a specific warning from the system check can be checked using the long text of the message (which in this case always exists). The description of a message for the extended program check is also specified by the pragma, which can be used to hide it.
 
--   Pragmas replace the previously common [pseudo comments](javascript:call_link\('abenpseudo_comment_slin.htm'\)) to hide warnings from the extended program check. Pseudo comments are now obsolete and should no longer be used. The program ABAP\_SLIN\_PRAGMAS shows which pragmas are to be used instead of the obsolete pseudo comments.
+-   Pragmas replace the previously common [pseudo comments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_slin.htm) to hide warnings from the extended program check. Pseudo comments are now obsolete and should no longer be used. The program ABAP\_SLIN\_PRAGMAS shows which pragmas are to be used instead of the obsolete pseudo comments.
 
--   The statement [SET EXTENDED CHECK](javascript:call_link\('abapset_extended_check.htm'\)) and the [pseudo comment](javascript:call_link\('abenpseudo_comment_slin.htm'\)) #EC \* should not be used in programs that use pragmas to deactivate warnings. This causes an extended program check warning that cannot be deactivated.
+-   The statement [SET EXTENDED CHECK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_extended_check.htm) and the [pseudo comment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpseudo_comment_slin.htm) #EC \* should not be used in programs that use pragmas to deactivate warnings. This causes an extended program check warning that cannot be deactivated.
 
--   A pragma in a type definition made using [TYPES](javascript:call_link\('abaptypes.htm'\)) (for example, for hiding the warning about redundant secondary keys of table types) can also be applied to data declarations using [DATA](javascript:call_link\('abapdata.htm'\)) (in the case of non-generic types) and associated statements that reference the data type using [TYPE](javascript:call_link\('abapdata_referring.htm'\)). In the case of references to a generic data type defined using TYPES (that is a table type for which no primary table key is defined), a specified pragma is not applied to the data declaration. This is because the declaration uses a full table type implicitly and the pragma must potentially be specified again.
+-   A pragma in a type definition made using [TYPES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptypes.htm) (for example, for hiding the warning about redundant secondary keys of table types) can also be applied to data declarations using [DATA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata.htm) (in the case of non-generic types) and associated statements that reference the data type using [TYPE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapdata_referring.htm). In the case of references to a generic data type defined using TYPES (that is a table type for which no primary table key is defined), a specified pragma is not applied to the data declaration. This is because the declaration uses a full table type implicitly and the pragma must potentially be specified again.
 
 Example
 
@@ -68,11 +70,11 @@ text  = 'Hello Pragmas' ##no\_text.
 
 Examples
 
-In some executable examples for key accesses to internal tables ([read](javascript:call_link\('abenread_itab_using_key_abexa.htm'\)), [delete](javascript:call_link\('abendelete_itab_using_key_abexa.htm'\))), syntax warnings are hidden by the relevant pragma. The pragmas were found in the long text of the syntax warnings (i button selected).
+In some executable examples for key accesses to internal tables ([read](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenread_itab_using_key_abexa.htm), [delete](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendelete_itab_using_key_abexa.htm)), syntax warnings are hidden by the relevant pragma. The pragmas were found in the long text of the syntax warnings (i button selected).
 
 Positioning of Pragmas in ABAP Source Code
 
-A pragma applies to the current statement, that is to the statement that ends at the next "." or ",". Pragmas in front of the ":" of a chained statement apply to the whole chained statement. Pragmas that occur when calling a [macro](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") apply to all statements of the macro.
+A pragma applies to the current statement, that is to the statement that ends at the next "." or ",". Pragmas in front of the ":" of a chained statement apply to the whole chained statement. Pragmas that occur when calling a [macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_glosry.htm "Glossary Entry") apply to all statements of the macro.
 
 Pragmas must only occur at certain positions in the source code for reasons of readability, namely:
 

@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  S
 
 SHIFT - Quick reference
 
-[Reference](javascript:call_link\('abapshift.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapshift.htm)
 
 Syntax
 
@@ -24,17 +24,17 @@ Moves characters or bytes in a character string or byte string dobj.
 
 Additions
 
--   [BY num PLACES](javascript:call_link\('abapshift_places.htm'\))
+-   [BY num PLACES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapshift_places.htm)
     Moves the characters or bytes by num.
     
--   [UP TO substring](javascript:call_link\('abapshift_places.htm'\))
+-   [UP TO substring](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapshift_places.htm)
     Moves the characters or bytes up to the substring specified in substring.
     
--   [*\[*LEFT*|*RIGHT*\]* *\[*CIRCULAR*\]*](javascript:call_link\('abapshift_direction.htm'\))
+-   [*\[*LEFT*|*RIGHT*\]* *\[*CIRCULAR*\]*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapshift_direction.htm)
     Moves the characters or bytes to the left or right. CIRCULAR inserts characters pushed out of the screen on the other side.
     
--   [*{*LEFT DELETING LEADING*}**|**{*RIGHT DELETING TRAILING*}* mask](javascript:call_link\('abapshift_deleting.htm'\))
+-   [*{*LEFT DELETING LEADING*}**|**{*RIGHT DELETING TRAILING*}* mask](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapshift_deleting.htm)
     Moves the characters or bytes by one position to the left or the right until the content of the first or last position in dobj is displayed in pattern.
     
--   [IN *{*CHARACTER*|*BYTE*}* MODE](javascript:call_link\('abapshift.htm'\))
+-   [IN *{*CHARACTER*|*BYTE*}* MODE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapshift.htm)
     Specifies character string or byte string processing.

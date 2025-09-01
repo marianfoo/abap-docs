@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Release 7.0 and its EhPs](javascript:call_link\('abennews-70_ehps.htm'\)) →  [Changes in Release 7.0](javascript:call_link\('abennews-70.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews.htm) →  [Changes in Release 7.0 and its EhPs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-70_ehps.htm) →  [Changes in Release 7.0](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennews-70.htm) → 
 
 Character string processing for release 7.0
 
@@ -22,30 +22,30 @@ Modification 1
 
 Search for regular expressions in character strings
 
-As of release 7.0, it is possible to search for [regular expressions](javascript:call_link\('abenregular_expression_glosry.htm'\) "Glossary Entry") in the statements [FIND](javascript:call_link\('abapfind.htm'\)) and [REPLACE](javascript:call_link\('abapreplace_in_pattern.htm'\)). This replaces the search for patterns with the statement [SEARCH](javascript:call_link\('abapsearch-.htm'\)).
+As of release 7.0, it is possible to search for [regular expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenregular_expression_glosry.htm "Glossary Entry") in the statements [FIND](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind.htm) and [REPLACE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_in_pattern.htm). This replaces the search for patterns with the statement [SEARCH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsearch-.htm).
 
 Modification 2
 
 Search for multiple found locations with FIND
 
-As of release 7.0, the addition ALL OCCURRENCES can be used in the statement [FIND](javascript:call_link\('abapfind.htm'\)). The previous behavior is expressed using the addition FIRST OCCURRENCE. In addition, the statements FIND and [REPLACE](javascript:call_link\('abapreplace_in_pattern.htm'\)) for pattern-based searching have been widely standardized.
+As of release 7.0, the addition ALL OCCURRENCES can be used in the statement [FIND](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind.htm). The previous behavior is expressed using the addition FIRST OCCURRENCE. In addition, the statements FIND and [REPLACE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_in_pattern.htm) for pattern-based searching have been widely standardized.
 
 Modification 3
 
 Number of found locations in unsuccessful searches
 
-As of release 7.0, the addition REPLACEMENT COUNT of the statement [REPLACE](javascript:call_link\('abapreplace_in_pattern.htm'\)) sets the operand rcnt to 0, if no replacement has been made. This is the same as the statement [FIND](javascript:call_link\('abapfind.htm'\)), in which mcnt is also set to 0 by the addition MATCH COUNT for unsuccessful searches. Before release 7.0, rcnt retained its own previous value if no replacement was made.
+As of release 7.0, the addition REPLACEMENT COUNT of the statement [REPLACE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_in_pattern.htm) sets the operand rcnt to 0, if no replacement has been made. This is the same as the statement [FIND](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind.htm), in which mcnt is also set to 0 by the addition MATCH COUNT for unsuccessful searches. Before release 7.0, rcnt retained its own previous value if no replacement was made.
 
 Modification 4
 
 Find and replace in internal tables
 
-As of release 7.0, internal tables can be searched with the statement [FINDIN TABLE](javascript:call_link\('abapfind_itab.htm'\)) and modified using [REPLACE IN TABLE](javascript:call_link\('abapreplace_itab.htm'\)). This replaces the search in internal tables using the statement [SEARCH](javascript:call_link\('abapsearch_itab.htm'\)).
+As of release 7.0, internal tables can be searched with the statement [FINDIN TABLE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfind_itab.htm) and modified using [REPLACE IN TABLE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapreplace_itab.htm). This replaces the search in internal tables using the statement [SEARCH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapsearch_itab.htm).
 
 Modification 5
 
 New additions for CONCATENATE
 
-As of release 7.0, the addition LINES OF in the statement [CONCATENATE](javascript:call_link\('abapconcatenate.htm'\)) can be used to concatenate rows of an internal table.
+As of release 7.0, the addition LINES OF in the statement [CONCATENATE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapconcatenate.htm) can be used to concatenate rows of an internal table.
 
 The new addition RESPECTING BLANKS enables closing blanks to be taken into account in data objects of fixed length. This can also be used to assign text fields to strings when taking into account the closing blanks.

@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  N
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  N
 
 NEW-PAGE - Quick reference
 
-[Reference](javascript:call_link\('abapnew-page.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page.htm)
 
 Syntax
 
@@ -29,35 +29,35 @@ Creates a new page in a list.
 
 Additions
 
--   [WITH-TITLE*|*NO-TITLE](javascript:call_link\('abapnew-page_options.htm'\))
+-   [WITH-TITLE*|*NO-TITLE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_options.htm)
     Switches the standard title on and off.
     
--   [WITH-HEADING*|*NO-HEADING](javascript:call_link\('abapnew-page_options.htm'\))
+-   [WITH-HEADING*|*NO-HEADING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_options.htm)
     Switches the column headings on and off.
     
--   [LINE-COUNT page\_lines](javascript:call_link\('abapnew-page_options.htm'\))
+-   [LINE-COUNT page\_lines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_options.htm)
     Defines the page length.
     
--   [LINE-SIZE page\_lines](javascript:call_link\('abapnew-page_options.htm'\))
+-   [LINE-SIZE page\_lines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_options.htm)
     Defines the line width.
     
--   [NO-TOPOFPAGE](javascript:call_link\('abapnew-page_options.htm'\))
+-   [NO-TOPOFPAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_options.htm)
     Suppresses the event TOP-OF-PAGE.
     
--   [PRINT ON](javascript:call_link\('abapnew-page_print.htm'\))
+-   [PRINT ON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_print.htm)
     Redirects the output statements to a spool list.
     
--   [NEW-SECTION](javascript:call_link\('abapnew-page_print.htm'\))
-    Creates a new [spool request](javascript:call_link\('abenspool_request_glosry.htm'\) "Glossary Entry") with different spool parameters.
+-   [NEW-SECTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_print.htm)
+    Creates a new [spool request](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenspool_request_glosry.htm "Glossary Entry") with different spool parameters.
     
--   [PARAMETERS pri\_params](javascript:call_link\('abapnew-page_print.htm'\))
+-   [PARAMETERS pri\_params](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_print.htm)
     Specifies the spool parameters in a structure pri\_params of type PRI\_PARAMS.
     
--   [ARCHIVE PARAMETERS arc\_params](javascript:call_link\('abapnew-page_print.htm'\))
+-   [ARCHIVE PARAMETERS arc\_params](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_print.htm)
     Specifies the archiving parameters in a structure arc\_params of type ARC\_PARAMS.
     
--   [NO DIALOG](javascript:call_link\('abapnew-page_print.htm'\))
+-   [NO DIALOG](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_print.htm)
     Suppresses the spool dialog window.
     
--   [PRINT OFF](javascript:call_link\('abapnew-page_print.htm'\))
+-   [PRINT OFF](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapnew-page_print.htm)
     Closes the current spool list.

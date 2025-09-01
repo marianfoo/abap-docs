@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 string
 
-[Dynamic data object](javascript:call_link\('abendynamic_data_object_glosry.htm'\) "Glossary Entry") of variable length, either a [text string](javascript:call_link\('abentext_string_glosry.htm'\) "Glossary Entry") or a [byte string](javascript:call_link\('abenbyte_string_glosry.htm'\) "Glossary Entry").
+[Dynamic data object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynamic_data_object_glosry.htm "Glossary Entry") of variable length, either a [text string](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentext_string_glosry.htm "Glossary Entry") or a [byte string](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_string_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenstring.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring.htm)

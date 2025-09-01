@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Class Libraries](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)) →  [sXML - Rendering](javascript:call_link\('abenabap_sxml_lib_render.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml.htm) →  [XML - Class Libraries](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_libs.htm) →  [sXML Library](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sxml_lib.htm) →  [sXML - Rendering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sxml_lib_render.htm) → 
 
 sXML - Token-Based Rendering
 
@@ -36,7 +36,7 @@ Since the method is a class-specific method, a down cast is required if an inter
 
 Executable Example
 
-[Token-Based Rendering](javascript:call_link\('abensxml_rendering_abexa.htm'\))
+[Token-Based Rendering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensxml_rendering_abexa.htm)
 
 Methods for Token-Based Rendering
 
@@ -50,8 +50,8 @@ The following methods are declared in the interface IF\_SXML\_WRITER for token-b
 -   WRITE\_VALUE\_RAW - Writes a byte-like value behind an element opening.
 -   CLOSE\_ELEMENT - Writes an end of element.
 
-If text-like data is written, this data is converted automatically from the current system code page to the representation of the XML data, which is determined by the chosen [format](javascript:call_link\('abenabap_sxml_lib_formats.htm'\)). If byte-like raw data is written, this data is also converted in accordance with the chosen [format](javascript:call_link\('abenabap_sxml_lib_formats.htm'\)), for example to the format [Base64](javascript:call_link\('abenbase64_glosry.htm'\) "Glossary Entry") for XML 1.0 or to the binary part of the XOP package for [XOP](javascript:call_link\('abenxop_glosry.htm'\) "Glossary Entry").
+If text-like data is written, this data is converted automatically from the current system code page to the representation of the XML data, which is determined by the chosen [format](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sxml_lib_formats.htm). If byte-like raw data is written, this data is also converted in accordance with the chosen [format](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sxml_lib_formats.htm), for example to the format [Base64](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbase64_glosry.htm "Glossary Entry") for XML 1.0 or to the binary part of the XOP package for [XOP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenxop_glosry.htm "Glossary Entry").
 
 Executable Example
 
-[Namespace Declarations in Token-Based Rendering](javascript:call_link\('abensxml_renderering_ns_abexa.htm'\))
+[Namespace Declarations in Token-Based Rendering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensxml_renderering_ns_abexa.htm)

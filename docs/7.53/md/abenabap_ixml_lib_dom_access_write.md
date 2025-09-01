@@ -4,23 +4,25 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Class Libraries for XML](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)) →  [iXML Library - Access to DOM](javascript:call_link\('abenabap_ixml_lib_dom_access.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml.htm) →  [Class Libraries for XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_libs.htm) →  [iXML Library](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib.htm) →  [iXML Library - Access to DOM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_dom_access.htm) → 
 
 iXML Library - DOM Writes
 
-Writes enable an XML document to be constructed from scratch in the memory or an existing document to be modified. The most important methods used to construct a DOM create elements and add attributes to elements. These methods are declared in the interface IF\_IXML\_DOCUMENT are summarized here. Other methods are used to remove elements from a DOM, which is described in the interface documentation (see also the executable [rendering example](javascript:call_link\('abenixml_render_abexa.htm'\))).
+Writes enable an XML document to be constructed from scratch in the memory or an existing document to be modified. The most important methods used to construct a DOM create elements and add attributes to elements. These methods are declared in the interface IF\_IXML\_DOCUMENT are summarized here. Other methods are used to remove elements from a DOM, which is described in the interface documentation (see also the executable [rendering example](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenixml_render_abexa.htm)).
 
--   [Adding Nodes](#abenabap-ixml-lib-dom-access-write-1--------adding-elements---@ITOC@@ABENABAP_IXML_LIB_DOM_ACCESS_WRITE_2)
+-   [Adding Nodes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_ACCESS_WRITE_1)
+
+-   [Adding Elements](#@@ITOC@@ABENABAP_IXML_LIB_DOM_ACCESS_WRITE_2)
 
 -   [Adding Attributes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_ACCESS_WRITE_3)
 
 Notes
 
--   Writes to the DOM must be avoided during [sequential parsing](javascript:call_link\('abenabap_ixml_lib_parse_event.htm'\)), since this can produce unexpected behavior.
+-   Writes to the DOM must be avoided during [sequential parsing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_ixml_lib_parse_event.htm), since this can produce unexpected behavior.
 
--   iXML documents can also be specified as an XML target for XSL transformations called using [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)).
+-   iXML documents can also be specified as an XML target for XSL transformations called using [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_transformation.htm).
 
--   If writes produce content of elements or attributes, the characters <, \>, &, ", and ' are transformed automatically into the associated [XML](javascript:call_link\('abenxml_oview.htm'\)) notation.
+-   If writes produce content of elements or attributes, the characters <, \>, &, ", and ' are transformed automatically into the associated [XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenxml_oview.htm) notation.
 
 Adding Nodes
 
@@ -71,6 +73,6 @@ This creates an attribute called name with the value passed to value.
 
 Executable Examples
 
--   [Creating Nodes](javascript:call_link\('abenixml_crea_elem_abexa.htm'\))
+-   [Creating Nodes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenixml_crea_elem_abexa.htm)
 
--   [Creating Elements](javascript:call_link\('abenixml_crea_simple_elem_abexa.htm'\))
+-   [Creating Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenixml_crea_simple_elem_abexa.htm)

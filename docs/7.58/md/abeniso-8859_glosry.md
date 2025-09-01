@@ -4,10 +4,10 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_glossary.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ISO-8859%2C%20ABENISO-8859_GLOSRY%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ISO-8859
 
-Standard for 8-bit [character sets](javascript:call_link\('abencharacter_set_glosry.htm'\) "Glossary Entry") whose first 128 characters are identical to [ASCII](javascript:call_link\('abenascii_glosry.htm'\) "Glossary Entry"). The associated [code pages](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") ISO-8859-1, -9, -14, and -15 (Latin1, -5, -8, and -9) cover the western European characters; ISO-8859-2 (Latin2) covers most eastern European characters; ISO-8859-3 (Latin3) contains characters for Esperanto and Maltese; ISO-8859-4, -10, and -13 (Latin4, -6, and -7) cover the northern European (Baltic, Greenlandic, and Lappish) characters. Also covered are: Cyrillic (ISO-8859-5), Arabic (ISO-8859-6), Greek (ISO-8859-7), Hebrew (ISO-8859-8), and Thai (ISO-8859-11).
+Standard for 8-bit [character sets](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_set_glosry.htm "Glossary Entry") whose first 128 characters are identical to [ASCII](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenascii_glosry.htm "Glossary Entry"). The associated [code pages](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencodepage_glosry.htm "Glossary Entry") ISO-8859-1, -9, -14, and -15 (Latin1, -5, -8, and -9) cover the western European characters; ISO-8859-2 (Latin2) covers most eastern European characters; ISO-8859-3 (Latin3) contains characters for Esperanto and Maltese; ISO-8859-4, -10, and -13 (Latin4, -6, and -7) cover the northern European (Baltic, Greenlandic, and Lappish) characters. Also covered are: Cyrillic (ISO-8859-5), Arabic (ISO-8859-6), Greek (ISO-8859-7), Hebrew (ISO-8859-8), and Thai (ISO-8859-11).

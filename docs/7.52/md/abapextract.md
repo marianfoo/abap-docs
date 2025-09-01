@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Extracts](javascript:call_link\('abenabap_extracts_extended.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_extracts_extended.htm) → 
 
 EXTRACT
 
-[Quick Reference](javascript:call_link\('abapextract_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapextract_shortref.htm)
 
 Obsolete Syntax
 
@@ -16,26 +16,26 @@ EXTRACT *\[* header *|* field\_group *\]*.
 
 Effect
 
-This statement appends the current content of the fields previously included in the field group header or field\_group using the statement [INSERT](javascript:call_link\('abapinsert_fg.htm'\)) to the [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry") of the program. If there is no field group specified after EXTRACT, the field group header is added implicitly.
+This statement appends the current content of the fields previously included in the field group header or field\_group using the statement [INSERT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_fg.htm) to the [extract dataset](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenextract_dataset_glosry.htm "Glossary Entry") of the program. If there is no field group specified after EXTRACT, the field group header is added implicitly.
 
 The extract dataset is created the first time EXTRACT is executed and the first row added. Once an EXTRACT statement is executed, no other fields can be included in the specified field group field\_group using INSERT. If not, a non-handleable exception is raised by the next EXTRACT statement for the same field group.
 
-Fields of the types [s](javascript:call_link\('abenbuiltin_types_numeric.htm'\)), [i](javascript:call_link\('abenbuiltin_types_numeric.htm'\)), and [int8](javascript:call_link\('abenbuiltin_types_numeric.htm'\)) with the minimum value -32768, -2147483648, or -9223372036854775808 respectively are set to the value 0 when extracted to the field group header.
+Fields of the types [s](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_numeric.htm), [i](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_numeric.htm), and [int8](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuiltin_types_numeric.htm) with the minimum value -32768, -2147483648, or -9223372036854775808 respectively are set to the value 0 when extracted to the field group header.
 
 Notes
 
 -   The field group header is the initial part and sort key of every field group, which means that no more fields can be included in header after EXTRACT is executed for the first time.
     
--   The rows of an extract dataset cannot be deleted explicitly and are persisted as long as the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of the program.
+-   The rows of an extract dataset cannot be deleted explicitly and are persisted as long as the [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry") of the program.
     
 -   In global classes, no field groups can be defined or edited. In methods of local classes of programs other than class pools, the statement EXTRACT is possible for globally defined field groups.
     
--   Extracts are obsolete. [Internal tables](javascript:call_link\('abenitab.htm'\)) are recommended instead.
+-   Extracts are obsolete. [Internal tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab.htm) are recommended instead.
     
 
 Example
 
-This example continues the example under [INSERT](javascript:call_link\('abapinsert_fg.htm'\)). The fields of the field groups flight\_info and flight\_date are filled in a nested LOOP and appended to the extract dataset.
+This example continues the example under [INSERT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_fg.htm). The fields of the field groups flight\_info and flight\_date are filled in a nested LOOP and appended to the extract dataset.
 
 REPORT ...
 DATA: spfli\_wa TYPE spfli,
@@ -64,7 +64,7 @@ START-OF-SELECTION.
     ENDLOOP.
   ENDLOOP.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

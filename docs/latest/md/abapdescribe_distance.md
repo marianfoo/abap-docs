@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DESCRIBE%20DISTANCE%2C%20ABAPDESCRIBE_DISTANCE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DESCRIBE DISTANCE
 
-[Short Reference](javascript:call_link\('abapdescribe_distance_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapdescribe_distance_shortref.htm)
 
 Syntax
 
@@ -24,19 +24,19 @@ This statement determines the distance between the start positions of the data o
 The return value has the type i. The following can be specified for dst:
 
 -   An existing variable to which the return value can be converted.
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)), where a variable of type i is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_inline.htm) or [FINAL(var)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenfinal_inline.htm), where a variable of type i is declared.
 
 It is not important in which order dobj1 and dobj2 are specified.
 
 The variant with the addition IN BYTE MODE determines the distance in bytes. The variant with the addition IN CHARACTER MODE converts the distance into the number of characters that can be stored in this length according to the current character format. When this addition is used in IN CHARACTER MODE and the determined distance cannot be converted into a number of characters, an uncatchable exception is raised.
 
-In the case of [deeper](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") data types, the referenced data object is not relevant but the position of the internal reference (for strings and internal tables) or the reference variables instead.
+In the case of [deeper](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeep_glosry.htm "Glossary Entry") data types, the referenced data object is not relevant but the position of the internal reference (for strings and internal tables) or the reference variables instead.
 
 Hints
 
--   The distance between data objects should only be determined within a structure for its components, since this is the only way to guarantee that they follow each other directly in the memory. It should be noted that the [alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry") are counted as well, which is why the addition in IN BYTE MODE should be used to avoid an uncatchable exception.
+-   The distance between data objects should only be determined within a structure for its components, since this is the only way to guarantee that they follow each other directly in the memory. It should be noted that the [alignment gaps](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenalignment_gap_glosry.htm "Glossary Entry") are counted as well, which is why the addition in IN BYTE MODE should be used to avoid an uncatchable exception.
 -   The byte offset of a component in a structure can be determined by applying DESCRIBE DISTANCE to this component and the first component of the structure.
--   With respect to DESCRIBE DISTANCE, every substructure declared as a [boxed component](javascript:call_link\('abenboxed_component_glosry.htm'\) "Glossary Entry") is an independent structure. The distance between components which are not in the same boxed component is undefined.
+-   With respect to DESCRIBE DISTANCE, every substructure declared as a [boxed component](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenboxed_component_glosry.htm "Glossary Entry") is an independent structure. The distance between components which are not in the same boxed component is undefined.
 
 Example
 
@@ -68,9 +68,9 @@ cl\_demo\_output=>new(
 
 Executable Example
 
-[Determining Data Object Distances](javascript:call_link\('abendescribe_distance_abexa.htm'\))
+[Determining Data Object Distances](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendescribe_distance_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
 
 Uncatchable Exceptions
 
@@ -78,4 +78,4 @@ Uncatchable Exceptions
     Runtime error: UC\_NO\_CHAR\_NUMBER
 
 Continue
-![Example](exa.gif "Example") [Determining Data Object Distances](javascript:call_link\('abendescribe_distance_abexa.htm'\))
+![Example](exa.gif "Example") [Determining Data Object Distances](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendescribe_distance_abexa.htm)

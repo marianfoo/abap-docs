@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  A
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  A
 
 AT - Quick reference
 
-[Reference](javascript:call_link\('abapat_itab.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_itab.htm)
 
 Syntax
 
@@ -41,7 +41,7 @@ ENDAT*\]*.
 
 Effect
 
-[Group level processing](javascript:call_link\('abencontrol_level_processin_glosry.htm'\) "Glossary Entry") within LOOPs using [internal tables](javascript:call_link\('abapat_itab.htm'\)) or [extraction datasets](javascript:call_link\('abapat_extract.htm'\)) (obsolete), where statement blocks enclosed in AT and ENDAT are executed depending on conditions.
+[Group level processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_level_processin_glosry.htm "Glossary Entry") within LOOPs using [internal tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_itab.htm) or [extraction datasets](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_extract.htm) (obsolete), where statement blocks enclosed in AT and ENDAT are executed depending on conditions.
 
 Additions
 

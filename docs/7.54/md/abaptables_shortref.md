@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  T
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shortref.htm) →  T
 
 TABLES - Quick reference
 
-[Reference](javascript:call_link\('abaptables.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abaptables.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ TABLES table\_wa.
 
 Effect
 
-Declares an [interface work area](javascript:call_link\('abeninterface_work_area_glosry.htm'\) "Glossary Entry") table\_wa for data transfer to and from [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") and from [logical databases](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry").
+Declares an [interface work area](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abeninterface_work_area_glosry.htm "Glossary Entry") table\_wa for data transfer to and from [dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_glosry.htm "Glossary Entry") and from [logical databases](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_data_base_glosry.htm "Glossary Entry").

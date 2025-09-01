@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenabap_sql_reading.htm'\)) →  [SELECT, clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT, INTO, APPENDING](javascript:call_link\('abapinto_clause.htm'\)) →  [SELECT, indicators](javascript:call_link\('abapselect_indicators.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql.htm) →  [ABAP SQL - Read Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_reading.htm) →  [SELECT, clauses](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselect_clauses.htm) →  [SELECT, INTO, APPENDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapinto_clause.htm) →  [SELECT, indicators](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_indicators.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SELECT%2C%20Byte%20Field%20Indicators%2C%20ABENSELECT_IND_BITFIELD_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SELECT, Byte Field Indicators
 
-This example demonstrates a [condensed indicator structure](javascript:call_link\('abencondensed_ind_structure_glosry.htm'\) "Glossary Entry") as a [null indicator](javascript:call_link\('abennull_indicator_glosry.htm'\) "Glossary Entry") in a SELECT statement. It shows the difference between position-based and name-based assignments of indicator bits without and with CORRESPONDING FIELDS.
+This example demonstrates a [condensed indicator structure](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencondensed_ind_structure_glosry.htm "Glossary Entry") as a [null indicator](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennull_indicator_glosry.htm "Glossary Entry") in a SELECT statement. It shows the difference between position-based and name-based assignments of indicator bits without and with CORRESPONDING FIELDS.
 
 Source Code   
 
@@ -85,7 +85,7 @@ ENDCLASS.
 
 Description   
 
-Data are selected with and without CORRESPONDING FIELDS from an internal table @data\_tab with five columns col1 to col5. In the result set, columns col1 col3 and col4 contain the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry"). The target areas contains a byte field null\_ind as the last component but are differently structured than the result set in front of null\_ind. The following figure illustrates the behavior:
+Data are selected with and without CORRESPONDING FIELDS from an internal table @data\_tab with five columns col1 to col5. In the result set, columns col1 col3 and col4 contain the [null value](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abennull_value_glosry.htm "Glossary Entry"). The target areas contains a byte field null\_ind as the last component but are differently structured than the result set in front of null\_ind. The following figure illustrates the behavior:
 
 ![Figure](indicators.png)
 

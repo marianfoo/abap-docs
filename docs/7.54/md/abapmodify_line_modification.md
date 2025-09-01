@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Processing Lists in the List Buffer](javascript:call_link\('abenabap_lists_complex.htm'\)) →  [MODIFY LINE](javascript:call_link\('abapmodify_line.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpro_list.htm) →  [Processing Lists in the List Buffer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_lists_complex.htm) →  [MODIFY LINE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_line.htm) → 
 
 MODIFY LINE - source
 
-[Quick Reference](javascript:call_link\('abapmodify_line_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodify_line_shortref.htm)
 
 Syntax
 
@@ -58,6 +58,6 @@ Addition 4
 
 Effect
 
-For ext\_format\_options, one or more additions of the statement [FORMAT](javascript:call_link\('abapformat.htm'\)) can be specified. The addition FRAMES cannot be used. The addition LINE FORMAT formats the whole list line accordingly; FIELD FORMAT formats only the output areas of the dobj1 dobj2 ... data objects displayed in the list line. If specified, FIELD FORMAT overrides LINE FORMAT.
+For ext\_format\_options, one or more additions of the statement [FORMAT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapformat.htm) can be specified. The addition FRAMES cannot be used. The addition LINE FORMAT formats the whole list line accordingly; FIELD FORMAT formats only the output areas of the dobj1 dobj2 ... data objects displayed in the list line. If specified, FIELD FORMAT overrides LINE FORMAT.
 
 If data objects dobj1 dobj2... appear more than once in a line with the same name, only the first object is edited. If a data object dobj1 dobj2 ... is not found at all, it is ignored.

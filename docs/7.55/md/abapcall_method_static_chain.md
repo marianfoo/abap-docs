@@ -4,14 +4,14 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and exiting program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [Method Calls](javascript:call_link\('abenmethod_calls.htm'\)) →  [Static Method Calls](javascript:call_link\('abenmethod_calls_static.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Calling and exiting program units](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_procedures.htm) →  [Method Calls](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmethod_calls.htm) →  [Static Method Calls](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmethod_calls_static.htm) → 
 
 ... meth1( ... )->meth2( ... )->..., Method Chaining
 
 Syntax
 
-... *{* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( ... )-> [meth1](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( ... )->meth2( ... )->...->[methn](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( ... ) *}*
-  *|* *{* [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\))( ... )->meth1( ... )->meth2( ... )->...->attr        *}* ...
+... *{* [meth](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_meth_ident_stat.htm)( ... )-> [meth1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_meth_ident_stat.htm)( ... )->meth2( ... )->...->[methn](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_meth_ident_stat.htm)( ... ) *}*
+  *|* *{* [meth](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_meth_ident_stat.htm)( ... )->meth1( ... )->meth2( ... )->...->attr        *}* ...
 
 Alternatives:
 
@@ -20,9 +20,9 @@ Alternatives:
 
 Effect
 
-Chaining of static method calls to a chained method call or a chained attribute access. [meth](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)), [meth1](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)), [meth2](javascript:call_link\('abapcall_method_meth_ident_stat.htm'\)), ... , expect [functional methods](javascript:call_link\('abapcall_method_functional.htm'\)) whose return values are reference variables that point to objects with the next method in question. All methods that follow meth must be called using the object component selector.
+Chaining of static method calls to a chained method call or a chained attribute access. [meth](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_meth_ident_stat.htm), [meth1](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_meth_ident_stat.htm), [meth2](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_meth_ident_stat.htm), ... , expect [functional methods](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_functional.htm) whose return values are reference variables that point to objects with the next method in question. All methods that follow meth must be called using the object component selector.
 
-The parameters are passed to the functional methods meth, meth1, meth2, ... using the syntax valid for [functional method calls](javascript:call_link\('abapcall_method_functional.htm'\)).
+The parameters are passed to the functional methods meth, meth1, meth2, ... using the syntax valid for [functional method calls](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_functional.htm).
 
 Alternative 1
 
@@ -32,13 +32,13 @@ Effect
 
 Chained method call. Call of the instance method methn in an object. The reference variable for the object is the return value of the preceding method chaining.
 
-A chained method call can be specified as a [standalone statement](javascript:call_link\('abapcall_method_static_short.htm'\)) or as a [functional method call](javascript:call_link\('abapcall_method_functional.htm'\)) in a suitable [operand position](javascript:call_link\('abenexpression_positions.htm'\)). The relevant rules apply in parameter passing to meth.
+A chained method call can be specified as a [standalone statement](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_static_short.htm) or as a [functional method call](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_functional.htm) in a suitable [operand position](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexpression_positions.htm). The relevant rules apply in parameter passing to meth.
 
-If the return value of the last method has a structured data type, the chained method call can, like a structure, be listed in front of the [structure component selector](javascript:call_link\('abenstructure_component_sel_glosry.htm'\) "Glossary Entry") \- and be used to access a component of the structure.
+If the return value of the last method has a structured data type, the chained method call can, like a structure, be listed in front of the [structure component selector](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstructure_component_sel_glosry.htm "Glossary Entry") \- and be used to access a component of the structure.
 
 Hint
 
-In methn, a [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") can be specified with a [constructor operator](javascript:call_link\('abenconstructor_operator_glosry.htm'\) "Glossary Entry") [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) or [CAST](javascript:call_link\('abenconstructor_expression_cast.htm'\)) for oref not only in a functional call, but also in standalone statements.
+In methn, a [constructor expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") can be specified with a [constructor operator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_operator_glosry.htm "Glossary Entry") [NEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_new.htm) or [CAST](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_cast.htm) for oref not only in a functional call, but also in standalone statements.
 
 Example
 
@@ -89,9 +89,9 @@ Effect
 
 Chained attribute access. Access to the instance attribute attr in an object. The reference variable for the object is the return value of the preceding method chaining.
 
-If the attribute has a structured data type, the chained attribute access can, like a structure, be listed in front of the [structure component selector](javascript:call_link\('abenstructure_component_sel_glosry.htm'\) "Glossary Entry") \- and be used to access a component of the structure.
+If the attribute has a structured data type, the chained attribute access can, like a structure, be listed in front of the [structure component selector](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstructure_component_sel_glosry.htm "Glossary Entry") \- and be used to access a component of the structure.
 
-Chained attribute access can currently only be specified in suitable [read positions](javascript:call_link\('abenexpression_positions.htm'\)). Writes to an attribute addressed using method chaining are not yet possible.
+Chained attribute access can currently only be specified in suitable [read positions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenexpression_positions.htm). Writes to an attribute addressed using method chaining are not yet possible.
 
 Example
 
@@ -102,7 +102,7 @@ cl\_demo\_output=>display(
 
 Executable Example
 
-[Method Chaining](javascript:call_link\('abenmethod_chaining_abexa.htm'\))
+[Method Chaining](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmethod_chaining_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Method Chaining](javascript:call_link\('abenmethod_chaining_abexa.htm'\))
+![Example](exa.gif "Example") [Method Chaining](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmethod_chaining_abexa.htm)

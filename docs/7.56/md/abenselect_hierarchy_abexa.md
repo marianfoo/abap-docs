@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenabap_sql_reading.htm'\)) →  [SELECT, clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT, FROM](javascript:call_link\('abapfrom_clause.htm'\)) →  [SELECT, FROM data\_source](javascript:call_link\('abapselect_data_source.htm'\)) →  [SELECT, FROM hierarchy\_data](javascript:call_link\('abenselect_hierarchy_data.htm'\)) →  [SELECT, FROM hierarchy](javascript:call_link\('abenselect_hierarchy.htm'\)) →  [SELECT, FROM HIERARCHY](javascript:call_link\('abenselect_hierarchy_generator.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm) →  [ABAP SQL - Read Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_reading.htm) →  [SELECT, clauses](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_clauses.htm) →  [SELECT, FROM](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfrom_clause.htm) →  [SELECT, FROM data\_source](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_data_source.htm) →  [SELECT, FROM hierarchy\_data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_hierarchy_data.htm) →  [SELECT, FROM hierarchy](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_hierarchy.htm) →  [SELECT, FROM HIERARCHY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_hierarchy_generator.htm) → 
 
 SELECT, hierarchy generator, BULK vs INCREMENTAL
 
-This example demonstrates how the addition [LOAD INCREMENTAL](javascript:call_link\('abenselect_hierarchy_generator.htm'\)) can speed up the generation of a hierarchy.
+This example demonstrates how the addition [LOAD INCREMENTAL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_hierarchy_generator.htm) can speed up the generation of a hierarchy.
 
 Source Code
 
@@ -138,7 +138,7 @@ START-OF-SELECTION.
 
 Description
 
-The table DEMO\_GUID\_HIERA serves as data source for a hierarchy. The user can enter how many rows in total are inserted, and how many of them are part of the hierarchy. Then, the table is filled with [GUIDs](javascript:call_link\('abenguid_glosry.htm'\) "Glossary Entry") and the rows that build a hierarchy tree are chosen randomly.
+The table DEMO\_GUID\_HIERA serves as data source for a hierarchy. The user can enter how many rows in total are inserted, and how many of them are part of the hierarchy. Then, the table is filled with [GUIDs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenguid_glosry.htm "Glossary Entry") and the rows that build a hierarchy tree are chosen randomly.
 
 Based on this table, a hierarchy is generated, once with the addition LOAD BULK and once with LOAD INCREMENTAL. The time of hierarchy generation, which is done in DO\-loops with 10 repetitions, is measured and compared.
 

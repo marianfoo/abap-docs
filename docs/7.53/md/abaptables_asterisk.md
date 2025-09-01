@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Declarations](javascript:call_link\('abenobsolete_declarations.htm'\)) →  [Interface Work Areas](javascript:call_link\('abeninterface_areas_obsolete.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_obsolete.htm) →  [Obsolete Declarations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenobsolete_declarations.htm) →  [Interface Work Areas](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninterface_areas_obsolete.htm) → 
 
 TABLES \*
 
-[Quick Reference](javascript:call_link\('abaptables_plus_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables_plus_shortref.htm)
 
 Obsolete Syntax
 
@@ -16,9 +16,9 @@ TABLES \*table\_wa.
 
 Effect
 
-This statement declares an additional [table work area](javascript:call_link\('abentable_work_area_glosry.htm'\) "Glossary Entry") \*table\_wa, whose data type, like that of the regular [TABLES](javascript:call_link\('abaptables.htm'\)) statement with its [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") structured data type table\_wa, is taken from ABAP Dictionary.
+This statement declares an additional [table work area](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_work_area_glosry.htm "Glossary Entry") \*table\_wa, whose data type, like that of the regular [TABLES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptables.htm) statement with its [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") structured data type table\_wa, is taken from ABAP Dictionary.
 
-The additional table work area can be used just like the regular table work area. This applies in particular to obsolete [database accesses](javascript:call_link\('abendatabase_access_obsolete.htm'\)).
+The additional table work area can be used just like the regular table work area. This applies in particular to obsolete [database accesses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_access_obsolete.htm).
 
 Note
 

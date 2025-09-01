@@ -4,27 +4,27 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Data Types](javascript:call_link\('abenddic_data_types.htm'\)) →  [Data Elements](javascript:call_link\('abenddic_data_elements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_objects.htm) →  [Data Types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_data_types.htm) →  [Data Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_data_elements.htm) → 
 
 Technical Attributes of Data Elements
 
-A data element describes an [elementary data type](javascript:call_link\('abenelementary_data_type_glosry.htm'\) "Glossary Entry") or a [reference type](javascript:call_link\('abenreference_type_glosry.htm'\) "Glossary Entry") with the following technical attributes:
+A data element describes an [elementary data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenelementary_data_type_glosry.htm "Glossary Entry") or a [reference type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_type_glosry.htm "Glossary Entry") with the following technical attributes:
 
 -   Elementary type
 
-A data element that describes an elementary type has a [built-in data type](javascript:call_link\('abenddic_builtin_types.htm'\)) from ABAP Dictionary, a length, and an (optional) number of fractional digits as its technical attributes. These technical attributes are defined either directly in the data element or are applied from a [domain](javascript:call_link\('abenddic_domains.htm'\)).
+A data element that describes an elementary type has a [built-in data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) from ABAP Dictionary, a length, and an (optional) number of fractional digits as its technical attributes. These technical attributes are defined either directly in the data element or are applied from a [domain](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_domains.htm).
 
 -   Reference type
 
-A data element that describes a reference type is either a type for a [data reference variable](javascript:call_link\('abendata_reference_variable_glosry.htm'\) "Glossary Entry") or for an [object reference variable](javascript:call_link\('abenobject_refer_variable_glosry.htm'\) "Glossary Entry").
+A data element that describes a reference type is either a type for a [data reference variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_reference_variable_glosry.htm "Glossary Entry") or for an [object reference variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_refer_variable_glosry.htm "Glossary Entry").
 
--   The [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") for a data reference variable is either the generic type DATA, any data type from ABAP Dictionary (including [database tables](javascript:call_link\('abenddic_database_tables.htm'\)) or [views](javascript:call_link\('abenddic_views.htm'\))), or a directly specified [built-in data type](javascript:call_link\('abenddic_builtin_types.htm'\)).
+-   The [static type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_type_glosry.htm "Glossary Entry") for a data reference variable is either the generic type DATA, any data type from ABAP Dictionary (including [database tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables.htm) or [views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm)), or a directly specified [built-in data type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm).
 
--   The [static type](javascript:call_link\('abenstatic_type_glosry.htm'\) "Glossary Entry") for an object reference variable is either the generic type OBJECT or a global class or global interface from the [class library](javascript:call_link\('abenclass_library_glosry.htm'\) "Glossary Entry").
+-   The [static type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_type_glosry.htm "Glossary Entry") for an object reference variable is either the generic type OBJECT or a global class or global interface from the [class library](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_library_glosry.htm "Glossary Entry").
 
 Notes
 
--   When existing data elements are modified, all consumers of the data element are also affected. In particular, [foreign keys](javascript:call_link\('abenddic_database_tables_forkey.htm'\)) can become inconsistent when used for fields of database tables, which makes [conversions](javascript:call_link\('abenddic_database_tables_conv.htm'\)) necessary.
+-   When existing data elements are modified, all consumers of the data element are also affected. In particular, [foreign keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkey.htm) can become inconsistent when used for fields of database tables, which makes [conversions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_conv.htm) necessary.
 
 -   Global reference types in ABAP Dictionary can be used to specify types in ABAP programs. They cannot, however, be used for fields of database tables or in CDS views.
 

@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 EPP precomponent ID
 
-Component of an [Extended Passport (EPP)](javascript:call_link\('abenepp_glosry.htm'\) "Glossary Entry"). Contains the [system ID](javascript:call_link\('abensystem_id_glosry.htm'\) "Glossary Entry") and the name of the [application server instance](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry") of the [ABAP session](javascript:call_link\('abenabap_session_glosry.htm'\) "Glossary Entry") on which the current connection is based.
+Component of an [Extended Passport (EPP)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenepp_glosry.htm "Glossary Entry"). Contains the [system ID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensystem_id_glosry.htm "Glossary Entry") and the name of the [application server instance](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapplication_server_glosry.htm "Glossary Entry") of the [ABAP session](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_session_glosry.htm "Glossary Entry") on which the current connection is based.
 
-[→ More about](javascript:call_link\('abenepp.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenepp.htm)

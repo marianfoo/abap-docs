@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 structural fragment view
 
-Fragment View for short. Splits [structures](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry") into [alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry"), [character-like](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") and [byte-like](javascript:call_link\('abenbyte_like_data_object_glosry.htm'\) "Glossary Entry") areas, [numeric data objects](javascript:call_link\('abennumeric_data_object_glosry.htm'\) "Glossary Entry"), [strings](javascript:call_link\('abenstring_glosry.htm'\) "Glossary Entry"), [time stamp fields](javascript:call_link\('abentimestamp_field_glosry.htm'\) "Glossary Entry"), [reference variables](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry"), and [internal tables](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry").
+Fragment View for short. Splits [structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstructure_glosry.htm "Glossary Entry") into [alignment gaps](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenalignment_gap_glosry.htm "Glossary Entry"), [character-like](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") and [byte-like](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbyte_like_data_object_glosry.htm "Glossary Entry") areas, [numeric data objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumeric_data_object_glosry.htm "Glossary Entry"), [strings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_glosry.htm "Glossary Entry"), [time stamp fields](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentimestamp_field_glosry.htm "Glossary Entry"), [reference variables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_variable_glosry.htm "Glossary Entry"), and [internal tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninternal_table_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenunicode_fragment_view.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenunicode_fragment_view.htm)

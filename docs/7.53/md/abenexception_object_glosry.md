@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 exception object
 
-[Instance](javascript:call_link\('abeninstance_glosry.htm'\) "Glossary Entry") of an [exception class](javascript:call_link\('abenexception_class_glosry.htm'\) "Glossary Entry"). Is created when a [handleable exception](javascript:call_link\('abentreatable_exception_glosry.htm'\) "Glossary Entry") is raised and contains information about the exception situation. Can be propagated across call levels.
+[Instance](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninstance_glosry.htm "Glossary Entry") of an [exception class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexception_class_glosry.htm "Glossary Entry"). Is created when a [handleable exception](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentreatable_exception_glosry.htm "Glossary Entry") is raised and contains information about the exception situation. Can be propagated across call levels.
 
-[→ More](javascript:call_link\('abenexceptions_system_response.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexceptions_system_response.htm)

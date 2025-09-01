@@ -3,29 +3,7 @@
 Included pages: 5
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abapopen_dataset_mode.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm)
-- [abapopen_dataset_encoding.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_encoding.htm)
-- [abapopen_dataset_linefeed.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_linefeed.htm)
-- [abapopen_dataset_endian.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_endian.htm)
-- [abapopen_dataset_code_page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.57
-**Generated**: 2025-09-01T11:25:45.259Z
-
----
-
 ### abapopen_dataset_mode.htm
-
-> **📖 Official SAP Documentation**: [abapopen_dataset_mode.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -33,21 +11,21 @@ Included pages: 5
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) →  [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfile_interface_statements.htm) →  [OPEN DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: OPEN DATASET, mode, ABAPOPEN_DATASET_MODE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D
 %0ASuggestion for improvement:)
 
 OPEN DATASET, mode
 
-[Short Reference](javascript:call_link\('abapopen_dataset_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_shortref.htm)
 
 Syntax
 
 ... *{*BINARY MODE*}*
-  *|* *{*TEXT MODE [encoding](javascript:call_link\('abapopen_dataset_encoding.htm'\)) *\[*[linefeed](javascript:call_link\('abapopen_dataset_linefeed.htm'\))*\]**}*
-  *|* *{*LEGACY BINARY MODE *\[* [endian](javascript:call_link\('abapopen_dataset_endian.htm'\))*\]**\[* [CODE PAGE cp](javascript:call_link\('abapopen_dataset_code_page.htm'\))*\]**}*
-  *|* *{*LEGACY TEXT MODE *\[* [endian](javascript:call_link\('abapopen_dataset_endian.htm'\))*\]* *\[* [CODE PAGE cp](javascript:call_link\('abapopen_dataset_code_page.htm'\))*\]* *\[* [linefeed](javascript:call_link\('abapopen_dataset_linefeed.htm'\))*\]**}* ...
+  *|* *{*TEXT MODE [encoding](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_encoding.htm) *\[*[linefeed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_linefeed.htm)*\]**}*
+  *|* *{*LEGACY BINARY MODE *\[* [endian](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_endian.htm)*\]**\[* [CODE PAGE cp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm)*\]**}*
+  *|* *{*LEGACY TEXT MODE *\[* [endian](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_endian.htm)*\]* *\[* [CODE PAGE cp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm)*\]* *\[* [linefeed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_linefeed.htm)*\]**}* ...
 
 Alternatives:
 
@@ -58,7 +36,7 @@ Alternatives:
 
 Effect
 
-These mandatory additions define whether the file is handled as a binary file or as a text file. By specifying LEGACY, files can be written in the format that is expected by a non- [Unicode system](javascript:call_link\('abenunicode_system_glosry.htm'\) "Glossary Entry"), and files that have been created by a non-Unicode-system can be read. The [byte order](javascript:call_link\('abenbyte_order_glosry.htm'\) "Glossary Entry") or the [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") must be specified explicitly.
+These mandatory additions define whether the file is handled as a binary file or as a text file. By specifying LEGACY, files can be written in the format that is expected by a non- [Unicode system](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunicode_system_glosry.htm "Glossary Entry"), and files that have been created by a non-Unicode-system can be read. The [byte order](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbyte_order_glosry.htm "Glossary Entry") or the [code page](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencodepage_glosry.htm "Glossary Entry") must be specified explicitly.
 
 Alternative 1   
 
@@ -70,7 +48,7 @@ The addition IN BINARY MODE opens the file as a binary file. When writing to a b
 
 Example
 
-Opens a binary file for reads and writes. The binary data is created by converting a string to [UTF-8](javascript:call_link\('abenutf8_glosry.htm'\) "Glossary Entry").
+Opens a binary file for reads and writes. The binary data is created by converting a string to [UTF-8](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenutf8_glosry.htm "Glossary Entry").
 
 DATA(utf8) =
   cl\_abap\_conv\_codepage=>create\_out( )->convert( 'Blahblahblah ...' ).
@@ -95,13 +73,13 @@ Effect
 
 The addition IN TEXT MODE opens the file as a text file. Only the content of character-like data objects can be passed to text files and read from text files.
 
-The addition [encoding](javascript:call_link\('abapopen_dataset_encoding.htm'\)) defines how the characters are represented in the text file. When writing to a text file, the content of a data object is converted to the representation entered after encoding and passed to the file. If the data type is character-like and [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry"), any trailing blanks are cut off. In the data type string, trailing blanks are not cut off.
+The addition [encoding](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_encoding.htm) defines how the characters are represented in the text file. When writing to a text file, the content of a data object is converted to the representation entered after encoding and passed to the file. If the data type is character-like and [flat](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenflat_glosry.htm "Glossary Entry"), any trailing blanks are cut off. In the data type string, trailing blanks are not cut off.
 
-The end-of-line marker of the relevant platform is applied to the passed data by default. When reading from a text file, the content of the file is read until the next end-of-line marker, converted from the format specified after ENCODING into the current character format, and passed to a data object. The end-of-line marker used is controlled using the addition [linefeed](javascript:call_link\('abapopen_dataset_linefeed.htm'\)).
+The end-of-line marker of the relevant platform is applied to the passed data by default. When reading from a text file, the content of the file is read until the next end-of-line marker, converted from the format specified after ENCODING into the current character format, and passed to a data object. The end-of-line marker used is controlled using the addition [linefeed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_linefeed.htm).
 
 Example
 
-Opens a text file for reads and writes. An end-of-line marker is appended in every write in every TRANSFER statement. Any reads are performed line by line. Compare the example for the addition NO END OF LINE of the statement [TRANSFER](javascript:call_link\('abaptransfer.htm'\)).
+Opens a text file for reads and writes. An end-of-line marker is appended in every write in every TRANSFER statement. Any reads are performed line by line. Compare the example for the addition NO END OF LINE of the statement [TRANSFER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptransfer.htm).
 
 FINAL(dset) = 'test.dat'.
 OPEN DATASET dset FOR OUTPUT IN TEXT MODE ENCODING DEFAULT.
@@ -130,7 +108,7 @@ Alternative 3  
 
 Effect
 
-Opening a [legacy file](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry"). The addition IN LEGACY BINARY MODE opens the file as a legacy binary file, where [endian](javascript:call_link\('abapopen_dataset_endian.htm'\)) can be used to specify the [byte order](javascript:call_link\('abenbyte_order_glosry.htm'\) "Glossary Entry") and [CODE PAGE](javascript:call_link\('abapopen_dataset_code_page.htm'\)) can be used to specify the [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") that handle the content of the file.
+Opening a [legacy file](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlegacy_file_glosry.htm "Glossary Entry"). The addition IN LEGACY BINARY MODE opens the file as a legacy binary file, where [endian](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_endian.htm) can be used to specify the [byte order](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbyte_order_glosry.htm "Glossary Entry") and [CODE PAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm) can be used to specify the [code page](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencodepage_glosry.htm "Glossary Entry") that handle the content of the file.
 
 Hint
 
@@ -138,7 +116,7 @@ When a flat character-like field is written to the legacy binary files, the numb
 
 Example
 
-See the example for the addition [endian](javascript:call_link\('abapopen_dataset_endian.htm'\)).
+See the example for the addition [endian](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_endian.htm).
 
 Alternative 4   
 
@@ -146,9 +124,9 @@ Alternative 4  
 
 Effect
 
-Opening a [legacy file](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry"). The addition IN LEGACY TEXT MODE opens the file as a legacy text file, where, in legacy binary files, [endian](javascript:call_link\('abapopen_dataset_endian.htm'\)) can be used to specify the byte order and [CODE PAGE](javascript:call_link\('abapopen_dataset_code_page.htm'\)) can be used to specify the code page that handle the content of the file. The syntax and semantics of *{*BIG*|*LITTLE*}* ENDIAN and CODE PAGE cp are the same as in legacy binary files. The syntax and meaning of [linefeed](javascript:call_link\('abapopen_dataset_linefeed.htm'\)) are the same as for regular text files.
+Opening a [legacy file](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlegacy_file_glosry.htm "Glossary Entry"). The addition IN LEGACY TEXT MODE opens the file as a legacy text file, where, in legacy binary files, [endian](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_endian.htm) can be used to specify the byte order and [CODE PAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm) can be used to specify the code page that handle the content of the file. The syntax and semantics of *{*BIG*|*LITTLE*}* ENDIAN and CODE PAGE cp are the same as in legacy binary files. The syntax and meaning of [linefeed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_linefeed.htm) are the same as for regular text files.
 
-Unlike legacy binary files, the trailing blanks are cut off when writing character-like [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") data objects to a legacy text file. Also, as in the case of a text file, an [end-of-line marker](javascript:call_link\('abapopen_dataset_linefeed.htm'\)) is appended to the passed data by default. Unlike the text files opened by the addition IN TEXT MODE, there is no check on whether the data objects used in writing or reading are character-like. Also, the LENGTH additions of the statements READ DATASET and TRANSFER are used for counting in bytes for legacy text files, and in the units of a character represented in the memory for text files.
+Unlike legacy binary files, the trailing blanks are cut off when writing character-like [flat](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenflat_glosry.htm "Glossary Entry") data objects to a legacy text file. Also, as in the case of a text file, an [end-of-line marker](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_linefeed.htm) is appended to the passed data by default. Unlike the text files opened by the addition IN TEXT MODE, there is no check on whether the data objects used in writing or reading are character-like. Also, the LENGTH additions of the statements READ DATASET and TRANSFER are used for counting in bytes for legacy text files, and in the units of a character represented in the memory for text files.
 
 Hints
 
@@ -157,23 +135,16 @@ Hints
 
 Example
 
-See the example for the addition [CODE PAGE](javascript:call_link\('abapopen_dataset_code_page.htm'\)).
+See the example for the addition [CODE PAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm).
 
 Continue
-[OPEN DATASET, encoding](javascript:call_link\('abapopen_dataset_encoding.htm'\))
-[OPEN DATASET, WITH LINEFEED](javascript:call_link\('abapopen_dataset_linefeed.htm'\))
-[OPEN DATASET, endian](javascript:call_link\('abapopen_dataset_endian.htm'\))
-[OPEN DATASET, CODE PAGE](javascript:call_link\('abapopen_dataset_code_page.htm'\))
+[OPEN DATASET, encoding](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_encoding.htm)
+[OPEN DATASET, WITH LINEFEED](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_linefeed.htm)
+[OPEN DATASET, endian](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_endian.htm)
+[OPEN DATASET, CODE PAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm)
 
-
-
-**📖 Source**: [abapopen_dataset_mode.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm)
 
 ### abapopen_dataset_encoding.htm
-
-> **📖 Official SAP Documentation**: [abapopen_dataset_encoding.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_encoding.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -181,14 +152,14 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) →  [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) →  [OPEN DATASET, mode](javascript:call_link\('abapopen_dataset_mode.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfile_interface_statements.htm) →  [OPEN DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset.htm) →  [OPEN DATASET, mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: OPEN DATASET, encoding, ABAPOPEN_DATASET_ENCODING, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%
 0D%0A%0D%0ASuggestion for improvement:)
 
 OPEN DATASET, encoding
 
-[Short Reference](javascript:call_link\('abapopen_dataset_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_shortref.htm)
 
 Syntax
 
@@ -208,11 +179,11 @@ The additions after the mandatory addition ENCODING define the character represe
 
 Programming Guideline
 
-[Write text files in UTF-8 and with a byte order mark.](javascript:call_link\('abencodepage_file_guidl.htm'\) "Guideline")
+[Write text files in UTF-8 and with a byte order mark.](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencodepage_file_guidl.htm "Guideline")
 
 Hint
 
-It is best to always write files in UTF-8 if all readers can process this format. Otherwise, the code page can depend on the [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry") and it is difficult to identify the code page from the file content.
+It is best to always write files in UTF-8 if all readers can process this format. Otherwise, the code page can depend on the [text environment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_glosry.htm "Glossary Entry") and it is difficult to identify the code page from the file content.
 
 Alternative 1   
 
@@ -232,7 +203,7 @@ Addition:
 
 Effect
 
-The characters in the file are handled in accordance with the Unicode character representation [UTF-8](javascript:call_link\('abenutf8_glosry.htm'\) "Glossary Entry").
+The characters in the file are handled in accordance with the Unicode character representation [UTF-8](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenutf8_glosry.htm "Glossary Entry").
 
 Hints
 
@@ -261,18 +232,18 @@ Addition  
 
 Effect
 
-This addition defines how the byte order mark (BOM), with which a file encoded in the UTF-8 format can begin, is handled. The BOM is a sequence of three bytes that indicates that a file is encoded in [UTF-8](javascript:call_link\('abenutf8_glosry.htm'\) "Glossary Entry").
+This addition defines how the byte order mark (BOM), with which a file encoded in the UTF-8 format can begin, is handled. The BOM is a sequence of three bytes that indicates that a file is encoded in [UTF-8](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenutf8_glosry.htm "Glossary Entry").
 
 -   SKIPPING BYTE-ORDER MARK
     
-    is only allowed if the file is opened for reads or writes using [FOR INPUT](javascript:call_link\('abapopen_dataset_access.htm'\)) or [FOR UPDATE](javascript:call_link\('abapopen_dataset_access.htm'\)). If there is a BOM at the start of the file, this is ignored, and the file pointer is set after it. Without the addition, the BOM is handled as regular file content.
+    is only allowed if the file is opened for reads or writes using [FOR INPUT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_access.htm) or [FOR UPDATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_access.htm). If there is a BOM at the start of the file, this is ignored, and the file pointer is set after it. Without the addition, the BOM is handled as regular file content.
     
 -   WITH BYTE-ORDER MARK
     
-    is only allowed if the file is opened for writing using [FOR OUTPUT](javascript:call_link\('abapopen_dataset_access.htm'\)). When the file is opened, a BOM is inserted at the start of the file. Without the addition, no BOM is inserted.
+    is only allowed if the file is opened for writing using [FOR OUTPUT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_access.htm). When the file is opened, a BOM is inserted at the start of the file. Without the addition, no BOM is inserted.
     
 
-The addition BYTE-ORDER MARK cannot be used together with the [AT POSITION](javascript:call_link\('abapopen_dataset_position.htm'\)) addition.
+The addition BYTE-ORDER MARK cannot be used together with the [AT POSITION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_position.htm) addition.
 
 Hints
 
@@ -302,7 +273,7 @@ Alternative 3  
 
 Effect
 
-The characters of the file are handled in accordance with the non-Unicode code page that would be assigned when reading or writing data in a non-Unicode system, as specified by the entry in the database table TCP0C in the current [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry").
+The characters of the file are handled in accordance with the non-Unicode code page that would be assigned when reading or writing data in a non-Unicode system, as specified by the entry in the database table TCP0C in the current [text environment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_glosry.htm "Glossary Entry").
 
 Example
 
@@ -331,14 +302,7 @@ cl\_demo\_output=>display( text ).
 DELETE DATASET dset.
 
 
-
-**📖 Source**: [abapopen_dataset_encoding.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_encoding.htm)
-
 ### abapopen_dataset_linefeed.htm
-
-> **📖 Official SAP Documentation**: [abapopen_dataset_linefeed.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_linefeed.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -346,14 +310,14 @@ DELETE DATASET dset.
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) →  [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) →  [OPEN DATASET, mode](javascript:call_link\('abapopen_dataset_mode.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfile_interface_statements.htm) →  [OPEN DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset.htm) →  [OPEN DATASET, mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: OPEN DATASET, WITH LINEFEED, ABAPOPEN_DATASET_LINEFEED, 757%0D%0A%0D%0AError:%0D%0A%0
 D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 OPEN DATASET, WITH LINEFEED
 
-[Short Reference](javascript:call_link\('abapopen_dataset_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_shortref.htm)
 
 Syntax
 
@@ -371,19 +335,19 @@ Alternatives:
 
 Effect
 
-These additions determine which end-of-line marker is used for [text files](javascript:call_link\('abentext_file_glosry.htm'\) "Glossary Entry") or [legacy](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") text files. If these additions are used, the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") abap/NTfmode is ignored. The two values UNIX or NT cannot both be specified in the addition [TYPE](javascript:call_link\('abapopen_dataset_os_addition.htm'\)) at the same time.
+These additions determine which end-of-line marker is used for [text files](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_file_glosry.htm "Glossary Entry") or [legacy](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlegacy_file_glosry.htm "Glossary Entry") text files. If these additions are used, the [profile parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") abap/NTfmode is ignored. The two values UNIX or NT cannot both be specified in the addition [TYPE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_os_addition.htm) at the same time.
 
-If neither of these additions is used, the end-of-line marker is determined as follows, depending on the operating system of the current [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry") [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"):
+If neither of these additions is used, the end-of-line marker is determined as follows, depending on the operating system of the current [AS instance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenas_instance_glosry.htm "Glossary Entry") [host computer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_computer_glosry.htm "Glossary Entry"):
 
 -   The end-of-line marker for Unix is LF. On Unix, OS/390, and IBM i5/OS (previously known as OS/400), only LF is used for reading and writing.
--   The end-of-line marker for MS Windows is CRLF. On MS Windows, however, the values of the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") abap/NTfmode can also be used to specify whether new files are to be handled according to Unix conventions or Windows conventions. If the profile parameter has the value b, the Unix end-of-line marker LF is used. If the profile parameter has the value t or is initial, the Windows end-of-line marker CRLF is used. The setting in the profile parameter can be overridden with the addition [TYPE](javascript:call_link\('abapopen_dataset_os_addition.htm'\)) and the value UNIX or NT. If an existing file is opened without the addition TYPE, this file is searched for the first end-of-line marker (LF or CRLF), and this is used for the entire file. If no end-of-line marker is found, the profile parameter is used. This applies particularly if an existing file is completely overwritten with [FOR OUTPUT](javascript:call_link\('abapopen_dataset_access.htm'\)).
+-   The end-of-line marker for MS Windows is CRLF. On MS Windows, however, the values of the [profile parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") abap/NTfmode can also be used to specify whether new files are to be handled according to Unix conventions or Windows conventions. If the profile parameter has the value b, the Unix end-of-line marker LF is used. If the profile parameter has the value t or is initial, the Windows end-of-line marker CRLF is used. The setting in the profile parameter can be overridden with the addition [TYPE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_os_addition.htm) and the value UNIX or NT. If an existing file is opened without the addition TYPE, this file is searched for the first end-of-line marker (LF or CRLF), and this is used for the entire file. If no end-of-line marker is found, the profile parameter is used. This applies particularly if an existing file is completely overwritten with [FOR OUTPUT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_access.htm).
 
-If an addition WITH NATIVE*|*SMART*|*UNIX*|*WINDOWS LINEFEED is used, this setting can be changed for the open file using the statement [SET DATASET](javascript:call_link\('abapset_dataset.htm'\)). If neither of the additions is used, the end-of-line marker cannot be changed using SET DATASET either.
+If an addition WITH NATIVE*|*SMART*|*UNIX*|*WINDOWS LINEFEED is used, this setting can be changed for the open file using the statement [SET DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_dataset.htm). If neither of the additions is used, the end-of-line marker cannot be changed using SET DATASET either.
 
 Hints
 
--   Without the use of an addition WITH LINEFEED, the end-of-line marker is dependent on various implicit factors such as the operating system of the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"), a profile parameter, and line end markings that are already used. For this reason, the explicit use of WITH LINEFEED is recommended, which makes the use of the addition [TYPE](javascript:call_link\('abapopen_dataset_os_addition.htm'\)) for setting the end-of-line marker obsolete.
--   The end-of-line marker that is currently used can be determined for every open file using [GET DATASET](javascript:call_link\('abapget_dataset.htm'\)).
+-   Without the use of an addition WITH LINEFEED, the end-of-line marker is dependent on various implicit factors such as the operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_computer_glosry.htm "Glossary Entry"), a profile parameter, and line end markings that are already used. For this reason, the explicit use of WITH LINEFEED is recommended, which makes the use of the addition [TYPE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_os_addition.htm) for setting the end-of-line marker obsolete.
+-   The end-of-line marker that is currently used can be determined for every open file using [GET DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapget_dataset.htm).
 
 Alternative 1   
 
@@ -391,9 +355,9 @@ Alternative 1  
 
 Effect
 
-This addition defines the end-of-line marker independently of the [access type](javascript:call_link\('abapopen_dataset_access.htm'\)) in accordance with the operating system of the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"), in other words LF for Unix, OS/390, and IBM i5/OS (previously known as OS/400), and CRLF for MS Windows.
+This addition defines the end-of-line marker independently of the [access type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_access.htm) in accordance with the operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_computer_glosry.htm "Glossary Entry"), in other words LF for Unix, OS/390, and IBM i5/OS (previously known as OS/400), and CRLF for MS Windows.
 
-The end-of-line marker is interpreted in accordance with the current code page. If a code page is specified explicitly using the addition [CODE PAGE](javascript:call_link\('abapopen_dataset_mode.htm'\)), the control characters of the end-of-line marker must be available or be written according to this code page.
+The end-of-line marker is interpreted in accordance with the current code page. If a code page is specified explicitly using the addition [CODE PAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm), the control characters of the end-of-line marker must be available or be written according to this code page.
 
 Hint
 
@@ -401,7 +365,7 @@ The addition WITH NATIVE LINEFEED is intended for processing files on a host com
 
 Example
 
-The following example shows the UTF 8 representation of the current line end marking. Comparisons with the corresponding control characters in [string templates](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry") ensure that it is either LF or CRLF.
+The following example shows the UTF 8 representation of the current line end marking. Comparisons with the corresponding control characters in [string templates](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_template_glosry.htm "Glossary Entry") ensure that it is either LF or CRLF.
 
 FINAL(dset) = 'test.dat'.
 OPEN DATASET dset FOR OUTPUT IN TEXT MODE ENCODING DEFAULT
@@ -424,11 +388,11 @@ Alternative 2  
 
 Effect
 
-This addition depends on the [access type](javascript:call_link\('abapopen_dataset_access.htm'\)):
+This addition depends on the [access type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_access.htm):
 
--   In files that are opened for reading using FOR INPUT, both LF and CRLF are interpreted as an end-of-line marker. When opening an EBCDIC file with the addition [CODE PAGE](javascript:call_link\('abapopen_dataset_mode.htm'\)), the corresponding ASCII control characters are recognized alongside the LF, CRLF, and EBCDIC control characters. In addition, the EBCDIC control characters NL (line separator) is also interpreted as an end-of-line marker.
--   In files opened for appending or changing with FOR APPENDING or FOR UPDATE, the program searches for an end-of-line marker that is already used in the file. The end of the file is identified first. If no end-of-line marker is found here, a certain number of characters at the beginning is analyzed. If an end-of-line marker is found, this is used when writing to the file. This is also affected by the addition [CODE PAGE](javascript:call_link\('abapopen_dataset_mode.htm'\)). For example, ASCII end-of-line markers are recognized and used in a file opened with EBCDIC, but not the other way round. If no end-of-line marker is found or no search is possible, for example, if the file is opened with the addition [FILTER](javascript:call_link\('abapopen_dataset_os_addition.htm'\)), the end-of-line marker is defined in accordance with the operating system of the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"), as with the addition WITH NATIVE LINEFEED.
--   In files opened for writing using FOR OUTPUT, the end-of-line marker is determined in accordance with the operating system the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"), as with the addition WITH NATIVE LINEFEED.
+-   In files that are opened for reading using FOR INPUT, both LF and CRLF are interpreted as an end-of-line marker. When opening an EBCDIC file with the addition [CODE PAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm), the corresponding ASCII control characters are recognized alongside the LF, CRLF, and EBCDIC control characters. In addition, the EBCDIC control characters NL (line separator) is also interpreted as an end-of-line marker.
+-   In files opened for appending or changing with FOR APPENDING or FOR UPDATE, the program searches for an end-of-line marker that is already used in the file. The end of the file is identified first. If no end-of-line marker is found here, a certain number of characters at the beginning is analyzed. If an end-of-line marker is found, this is used when writing to the file. This is also affected by the addition [CODE PAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm). For example, ASCII end-of-line markers are recognized and used in a file opened with EBCDIC, but not the other way round. If no end-of-line marker is found or no search is possible, for example, if the file is opened with the addition [FILTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_os_addition.htm), the end-of-line marker is defined in accordance with the operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_computer_glosry.htm "Glossary Entry"), as with the addition WITH NATIVE LINEFEED.
+-   In files opened for writing using FOR OUTPUT, the end-of-line marker is determined in accordance with the operating system the current AS instance [host computer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_computer_glosry.htm "Glossary Entry"), as with the addition WITH NATIVE LINEFEED.
 
 Hint
 
@@ -462,17 +426,17 @@ Alternative 3  
 
 Effect
 
-The end-of-line marker is set to LF regardless of the [access type](javascript:call_link\('abapopen_dataset_access.htm'\)) and operating system of the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the current AS instance.
+The end-of-line marker is set to LF regardless of the [access type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_access.htm) and operating system of the [host computer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the current AS instance.
 
-The end-of-line marker is interpreted in accordance with the current code page. If a code page is specified explicitly using the addition [CODE PAGE](javascript:call_link\('abapopen_dataset_mode.htm'\)), the control characters for the end-of-line marker must exist or be written according to this code page.
+The end-of-line marker is interpreted in accordance with the current code page. If a code page is specified explicitly using the addition [CODE PAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm), the control characters for the end-of-line marker must exist or be written according to this code page.
 
 Hint
 
-The addition WITH UNIX LINEFEED is intended for processing Unix files in which the specific end-of-line markers are to be retained, even if the operating system of the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") is [MS](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") Windows.
+The addition WITH UNIX LINEFEED is intended for processing Unix files in which the specific end-of-line markers are to be retained, even if the operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_computer_glosry.htm "Glossary Entry") is [MS](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_computer_glosry.htm "Glossary Entry") Windows.
 
 Example
 
-The following example sets the end-of-line marker to LF. This marking is detected after it is read to a binary file and compared with the corresponding control character in a [string template](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry").
+The following example sets the end-of-line marker to LF. This marking is detected after it is read to a binary file and compared with the corresponding control character in a [string template](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_template_glosry.htm "Glossary Entry").
 
 FINAL(dset) = 'test.dat'.
 OPEN DATASET dset FOR OUTPUT IN TEXT MODE ENCODING DEFAULT
@@ -494,17 +458,17 @@ Alternative 4  
 
 Effect
 
-The end-of-line marker is set to CRLF regardless of the [access type](javascript:call_link\('abapopen_dataset_access.htm'\)) and operating system of the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry").
+The end-of-line marker is set to CRLF regardless of the [access type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_access.htm) and operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_computer_glosry.htm "Glossary Entry").
 
-The end-of-line marker is interpreted in accordance with the current code page. If a code page is specified explicitly using the addition [CODE PAGE](javascript:call_link\('abapopen_dataset_mode.htm'\)), the control characters for the end-of-line marker must exist or be written according to this code page.
+The end-of-line marker is interpreted in accordance with the current code page. If a code page is specified explicitly using the addition [CODE PAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm), the control characters for the end-of-line marker must exist or be written according to this code page.
 
 Hint
 
-The addition WITH WINDOWS LINEFEED is intended for use with MS Windows files in which the specific end-of-line marker is to be retained, even if the operating system of the current AS instance [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") is Unix, OS/390, or IBM i5/OS (previously known as OS/400).
+The addition WITH WINDOWS LINEFEED is intended for use with MS Windows files in which the specific end-of-line marker is to be retained, even if the operating system of the current AS instance [host computer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_computer_glosry.htm "Glossary Entry") is Unix, OS/390, or IBM i5/OS (previously known as OS/400).
 
 Example
 
-The following example sets the line end marking to CRLF. This marking is detected after it is read to a binary file and compared with the corresponding control character in a [string template](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry").
+The following example sets the line end marking to CRLF. This marking is detected after it is read to a binary file and compared with the corresponding control character in a [string template](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_template_glosry.htm "Glossary Entry").
 
 FINAL(dset) = 'test.dat'.
 OPEN DATASET dset FOR OUTPUT IN TEXT MODE ENCODING DEFAULT
@@ -521,14 +485,7 @@ DELETE DATASET dset.
 ASSERT xstr = cl\_abap\_conv\_codepage=>create\_out( )->convert( |\\r\\n| ).
 
 
-
-**📖 Source**: [abapopen_dataset_linefeed.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_linefeed.htm)
-
 ### abapopen_dataset_endian.htm
-
-> **📖 Official SAP Documentation**: [abapopen_dataset_endian.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_endian.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -536,14 +493,14 @@ ASSERT xstr = cl\_abap\_conv\_codepage=>create\_out( )->convert( |\\r\\n| ).
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) →  [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) →  [OPEN DATASET, mode](javascript:call_link\('abapopen_dataset_mode.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfile_interface_statements.htm) →  [OPEN DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset.htm) →  [OPEN DATASET, mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: OPEN DATASET, endian, ABAPOPEN_DATASET_ENDIAN, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0
 A%0D%0ASuggestion for improvement:)
 
 OPEN DATASET, endian
 
-[Short Reference](javascript:call_link\('abapopen_dataset_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_shortref.htm)
 
 Syntax
 
@@ -551,12 +508,12 @@ Syntax
 
 Effect
 
-This addition specifies that, when a [legacy file](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") is opened, numeric data objects of the type i, int8, decfloat16, decfloat34, f, or s are stored in the file in the [byte order](javascript:call_link\('abenbyte_order_glosry.htm'\) "Glossary Entry") Big Endian or Little Endian. When a data object of these types is written or read, a conversion between these orders and the byte order of the current platform is performed, if necessary. If the addition is not specified, the byte order of the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the current [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry") is used.
+This addition specifies that, when a [legacy file](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlegacy_file_glosry.htm "Glossary Entry") is opened, numeric data objects of the type i, int8, decfloat16, decfloat34, f, or s are stored in the file in the [byte order](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbyte_order_glosry.htm "Glossary Entry") Big Endian or Little Endian. When a data object of these types is written or read, a conversion between these orders and the byte order of the current platform is performed, if necessary. If the addition is not specified, the byte order of the [host computer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the current [AS instance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenas_instance_glosry.htm "Glossary Entry") is used.
 
 Hints
 
--   The statement [SET DATASET](javascript:call_link\('abapset_dataset.htm'\)) can be used to specify a different byte order for an opened legacy file.
--   The addition *{*BIG*|*LITTLE*}* ENDIAN replaces the use of the obsolete statement [TRANSLATE NUMBER FORMAT](javascript:call_link\('abaptranslate.htm'\)) in the case of file accesses.
+-   The statement [SET DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_dataset.htm) can be used to specify a different byte order for an opened legacy file.
+-   The addition *{*BIG*|*LITTLE*}* ENDIAN replaces the use of the obsolete statement [TRANSLATE NUMBER FORMAT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptranslate.htm) in the case of file accesses.
 
 Example
 
@@ -582,17 +539,7 @@ cl\_demo\_output=>display( ).
 DELETE DATASET dset.
 
 
-
-**📖 Source**: [abapopen_dataset_endian.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_endian.htm)
-
 ### abapopen_dataset_code_page.htm
-
-> **📖 Official SAP Documentation**: [abapopen_dataset_code_page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapopen_dataset_code_page.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_code_page.htm)
-
 
   
 
@@ -600,14 +547,14 @@ DELETE DATASET dset.
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) →  [OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\)) →  [OPEN DATASET, mode](javascript:call_link\('abapopen_dataset_mode.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfile_interface_statements.htm) →  [OPEN DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset.htm) →  [OPEN DATASET, mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_mode.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: OPEN DATASET, CODE PAGE, ABAPOPEN_DATASET_CODE_PAGE, 757%0D%0A%0D%0AError:%0D%0A%0D%0
 A%0D%0A%0D%0ASuggestion for improvement:)
 
 OPEN DATASET, CODE PAGE
 
-[Short Reference](javascript:call_link\('abapopen_dataset_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_shortref.htm)
 
 Syntax
 
@@ -615,19 +562,19 @@ Syntax
 
 Effect
 
-This addition specifies that, when a [legacy file](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") is opened, the representation of character-like data objects in the file is based on the code page specified in cp. When a character-like data object is written or read, a conversion between this code page and the current character representation is performed, if necessary. If this addition is not specified, the characters in the file are handled in accordance with the non-Unicode code page that would be assigned when reading or writing data in a non-Unicode system (as specified by the entry in the database table TCP0C in the current [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry")).
+This addition specifies that, when a [legacy file](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlegacy_file_glosry.htm "Glossary Entry") is opened, the representation of character-like data objects in the file is based on the code page specified in cp. When a character-like data object is written or read, a conversion between this code page and the current character representation is performed, if necessary. If this addition is not specified, the characters in the file are handled in accordance with the non-Unicode code page that would be assigned when reading or writing data in a non-Unicode system (as specified by the entry in the database table TCP0C in the current [text environment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_environment_glosry.htm "Glossary Entry")).
 
 To specify the code page cp a character-like data object is expected that must contain, when the statement is executed, the name of a non-Unicode page from the column CPCODEPAGE in the database table TCP00. Unicode code pages cannot be specified.
 
 Hints
 
--   This addition enables the automatic conversion of file content to the current Unicode character representation [UCS-2](javascript:call_link\('abenucs2_glosry.htm'\) "Glossary Entry") when reading and writing files. In this way, files that were stored in any non-Unicode systems can be imported.
--   The statement [SET DATASET](javascript:call_link\('abapset_dataset.htm'\)) can be used to specify a different code page for an opened legacy file.
--   The addition CODE PAGE replaces the use of the obsolete statement [TRANSLATE CODE PAGE](javascript:call_link\('abaptranslate.htm'\)) in when accessing files.
+-   This addition enables the automatic conversion of file content to the current Unicode character representation [UCS-2](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenucs2_glosry.htm "Glossary Entry") when reading and writing files. In this way, files that were stored in any non-Unicode systems can be imported.
+-   The statement [SET DATASET](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_dataset.htm) can be used to specify a different code page for an opened legacy file.
+-   The addition CODE PAGE replaces the use of the obsolete statement [TRANSLATE CODE PAGE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptranslate.htm) in when accessing files.
 
 Example
 
-Opens legacy text files with the IDs 1101 for 7-Bit USA ASCII and 1102 for 7-Bit German ASCII from the table TCP00. When an attempt is made to write a German umlaut character to the open file with the ID 1101, an exception of the class CX\_SY\_CONVERSION\_CODEPAGE is raised. When the character is written to the open file with the ID 1102, this exception is not raised. See also the example for the addition [REPLACEMENT CHARACTER](javascript:call_link\('abapopen_dataset_error_handling.htm'\)).
+Opens legacy text files with the IDs 1101 for 7-Bit USA ASCII and 1102 for 7-Bit German ASCII from the table TCP00. When an attempt is made to write a German umlaut character to the open file with the ID 1101, an exception of the class CX\_SY\_CONVERSION\_CODEPAGE is raised. When the character is written to the open file with the ID 1102, this exception is not raised. See also the example for the addition [REPLACEMENT CHARACTER](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapopen_dataset_error_handling.htm).
 
 FINAL(dset) = 'test.dat'.
 OPEN DATASET dset FOR OUTPUT IN LEGACY TEXT MODE CODE PAGE '1101'.

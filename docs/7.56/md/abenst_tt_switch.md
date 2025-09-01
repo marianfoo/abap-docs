@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Flow Control](javascript:call_link\('abenst_flow_control.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_serial_deserial.htm) →  [ST - Flow Control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_flow_control.htm) → 
 
 ST - tt:switch, Case Distinction
 
@@ -18,9 +18,9 @@ Syntax
 
 Effect
 
-The statement tt:switch can be used to execute a maximum of one conditional transformations from a set of conditional transformations. A list of cases is specified in tt:switch, where the syntax of each case is formulated by a conditional transformation, namely a subelement [tt:*\[*s-*|*d-*\]*cond](javascript:call_link\('abenst_tt_cond.htm'\)). In this case, tt:*\[*s-*\]*cond defines a serialization-relevant case, and tt:*\[*d-*\]*cond a deserialization-relevant case. Other direct subelements are not possible in tt:switch.
+The statement tt:switch can be used to execute a maximum of one conditional transformations from a set of conditional transformations. A list of cases is specified in tt:switch, where the syntax of each case is formulated by a conditional transformation, namely a subelement [tt:*\[*s-*|*d-*\]*cond](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_tt_cond.htm). In this case, tt:*\[*s-*\]*cond defines a serialization-relevant case, and tt:*\[*d-*\]*cond a deserialization-relevant case. Other direct subelements are not possible in tt:switch.
 
-In contrast to conditional transformations positioned outside of tt:switch, for a case specifying at least one attribute [using](javascript:call_link\('abenst_using.htm'\)), [data](javascript:call_link\('abenst_data.htm'\)), or [check](javascript:call_link\('abenst_check.htm'\)) is not necessary, provided that the content of tt:*\[*s-*|*d-*\]*cond is not a [pattern](javascript:call_link\('abenst_pattern.htm'\)).
+In contrast to conditional transformations positioned outside of tt:switch, for a case specifying at least one attribute [using](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_using.htm), [data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_data.htm), or [check](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_check.htm) is not necessary, provided that the content of tt:*\[*s-*|*d-*\]*cond is not a [pattern](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_pattern.htm).
 
 In the list of cases, the following must be noted:
 
@@ -41,7 +41,7 @@ Deserialization
 
 Deserializations follow these rules:
 
-1.  The first deserialization-relevant case tt:*\[*d-*\]*cond that contains a suitable [pattern](javascript:call_link\('abenst_pattern.htm'\)) and whose prerequisites are met is executed (the assertions are deserialized and met) and the element tt:switch is exited.
+1.  The first deserialization-relevant case tt:*\[*d-*\]*cond that contains a suitable [pattern](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenst_pattern.htm) and whose prerequisites are met is executed (the assertions are deserialized and met) and the element tt:switch is exited.
 2.  If no deserialization-relevant case that contains a pattern can be executed, the system tries to execute a standard deserialization, if it exists. After the execution, the element tt:switch is exited. If the possible prerequisites using, data, or check of the standard deserialization are not met, the exception CX\_ST\_REF\_ACCESS is raised.
 3.  If no standard deserialization exists, the exception CX\_ST\_SWITCH\_NO\_CASE is raised.
 

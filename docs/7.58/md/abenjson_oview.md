@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20JSON%20-%20Quick%20Overview%2C%20ABENJSON_OVIEW%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -21,7 +21,7 @@ The syntax of JSON consists of the following components:
     -   A comma , separates the components inside arrays and objects.
 -   Representation of values
     -   Character-like values are specified between double quotation marks "...". The \\ character is used as the escape character for syntax characters.
-    -   Number values are represented in [mathematical notation](javascript:call_link\('abenmathematical_notation_glosry.htm'\) "Glossary Entry") or in [scientific notation](javascript:call_link\('abenscientific_notation_glosry.htm'\) "Glossary Entry").
+    -   Number values are represented in [mathematical notation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmathematical_notation_glosry.htm "Glossary Entry") or in [scientific notation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscientific_notation_glosry.htm "Glossary Entry").
     -   Boolean values are represented by the keywords true and false.
     -   Null values are represented by the keyword null.
 -   Data structures

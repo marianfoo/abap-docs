@@ -4,20 +4,20 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xml_trafos.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CALL%20TRANSFORMATION%2C%20ABAPCALL_TRANSFORMATION%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CALL TRANSFORMATION
 
-[Short Reference](javascript:call_link\('abapcall_transformation_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation_shortref.htm)
 
 Syntax
 
 CALL TRANSFORMATION ID
                   *|* trans*|*(name)
                     *\[*PARAMETERS *{*p1 = e1 p2 = e2 ...*}**|*(ptab)*\]*
-                    *\[*[OPTIONS options](javascript:call_link\('abapcall_transformation_options.htm'\))*\]*
+                    *\[*[OPTIONS options](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation_options.htm)*\]*
                     SOURCE *{*XML src\_xml*}*
                          *|* *{**{*bn1 = e1 bn2 = e2 ...*}**|*(stab)*}*
                     RESULT *{*XML rslt\_xml*}*
@@ -36,30 +36,30 @@ Additions:
 
 Effect
 
-This statement calls the specified [XSL transformation](javascript:call_link\('abenxsl_transformation_glosry.htm'\) "Glossary Entry") (XSLT) or a [Simple Transformation](javascript:call_link\('abensimple_transformation_glosry.htm'\) "Glossary Entry") (ST). The source of the transformation is specified behind SOURCE and the result is stored as specified behind RESULT. PARAMETERS can be used to pass parameters to the transformation. The addition [OPTIONS](javascript:call_link\('abapcall_transformation_options.htm'\)) can be used to specify transformation options options. The possible transformation types are:
+This statement calls the specified [XSL transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxsl_transformation_glosry.htm "Glossary Entry") (XSLT) or a [Simple Transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensimple_transformation_glosry.htm "Glossary Entry") (ST). The source of the transformation is specified behind SOURCE and the result is stored as specified behind RESULT. PARAMETERS can be used to pass parameters to the transformation. The addition [OPTIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation_options.htm) can be used to specify transformation options options. The possible transformation types are:
 
 -   from XML to XML (for XSLT only)
 -   from XML to ABAP (for XSLT and Simple Transformations only)
 -   from ABAP to XML (for XSLT and Simple Transformations only)
 -   from ABAP to ABAP (for XSLT only)
 
-[JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry"), which maps [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") data to XML, can be used to execute all categories of transformations for JSON that are also possible for XML. For more information, see [Transformations for JSON](javascript:call_link\('abenabap_json_trafos.htm'\)).
+[JSON-XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_xml_glosry.htm "Glossary Entry"), which maps [JSON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_glosry.htm "Glossary Entry") data to XML, can be used to execute all categories of transformations for JSON that are also possible for XML. For more information, see [Transformations for JSON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json_trafos.htm).
 
 Hints
 
--   The characters <, \>, &, ", and ', which have a separate meaning in XML syntax, are handled automatically for XML data. When XML data is written, the required XML notation <, &lt;, &gt;, &amp;, &quot;, or &apos; is automatically created in values of elements or attributes. When XML data is read, the XML notation is transformed to the corresponding characters. It is not usually necessary to apply the escape character function [escape](javascript:call_link\('abenescape_functions.htm'\)) or a similar method to character-like XML results of the statement CALL TRANSFORMATION and would produce incorrect results. An exception to this rule is creating HTML data with XSLT if it contains JavaScript parts.
--   When JSON data is written, [special characters](javascript:call_link\('abenjson_oview.htm'\)) in character-like values are prefixed automatically with the escape character \\. Conversely, the escape character is removed from character-like values when JSON data is read.
--   When a transformation is performed, methods from the [class libraries for XML](javascript:call_link\('abenabap_xml_libs.htm'\)) are used internally.
+-   The characters <, \>, &, ", and ', which have a separate meaning in XML syntax, are handled automatically for XML data. When XML data is written, the required XML notation <, &lt;, &gt;, &amp;, &quot;, or &apos; is automatically created in values of elements or attributes. When XML data is read, the XML notation is transformed to the corresponding characters. It is not usually necessary to apply the escape character function [escape](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenescape_functions.htm) or a similar method to character-like XML results of the statement CALL TRANSFORMATION and would produce incorrect results. An exception to this rule is creating HTML data with XSLT if it contains JavaScript parts.
+-   When JSON data is written, [special characters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_oview.htm) in character-like values are prefixed automatically with the escape character \\. Conversely, the escape character is removed from character-like values when JSON data is read.
+-   When a transformation is performed, methods from the [class libraries for XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xml_libs.htm) are used internally.
     
-    -   In the case of XSLT, a [DOM](javascript:call_link\('abendom_glosry.htm'\) "Glossary Entry") is always needed as a source. This DOM is constructed and processed using the [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)). In the case of the [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID, the [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)) is used only if the corresponding objects are specified as source or target.
-    -   ST is processed serially, using the [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)).
+    -   In the case of XSLT, a [DOM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendom_glosry.htm "Glossary Entry") is always needed as a source. This DOM is constructed and processed using the [iXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib.htm). In the case of the [identity transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID, the [iXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib.htm) is used only if the corresponding objects are specified as source or target.
+    -   ST is processed serially, using the [sXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib.htm).
     
-    The library that is used affects the character set that is supported. The iXML Library supports [UCS-2](javascript:call_link\('abenucs2_glosry.htm'\) "Glossary Entry") and the sXML Library supports [UTF](javascript:call_link\('abenutf_glosry.htm'\) "Glossary Entry").
+    The library that is used affects the character set that is supported. The iXML Library supports [UCS-2](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenucs2_glosry.htm "Glossary Entry") and the sXML Library supports [UTF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenutf_glosry.htm "Glossary Entry").
     
 
 Example
 
-The transaction STDEMO demonstrates various transformations from ABAP data to [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") and [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry").
+The transaction STDEMO demonstrates various transformations from ABAP data to [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") and [JSON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_glosry.htm "Glossary Entry").
 
 Alternative 1   
 
@@ -67,14 +67,14 @@ Alternative 1  
 
 Effect
 
-Specifies the [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID directly. This transformation exists as an XSL transformation in the repository but is executed by the runtime framework in an optimized ID engine, depending on the transformation source or target. For more information, see:
+Specifies the [identity transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID directly. This transformation exists as an XSL transformation in the repository but is executed by the runtime framework in an optimized ID engine, depending on the transformation source or target. For more information, see:
 
--   [Identity transformation](javascript:call_link\('abenabap_xslt_id.htm'\))
--   [Identity Transformation for JSON](javascript:call_link\('abenabap_json_trafo_id.htm'\))
+-   [Identity transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_id.htm)
+-   [Identity Transformation for JSON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json_trafo_id.htm)
 
 Executable Example
 
-[Executable Example of an Identity Transformation](javascript:call_link\('abenxslt_abexa.htm'\))
+[Executable Example of an Identity Transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxslt_abexa.htm)
 
 Alternative 2   
 
@@ -93,11 +93,11 @@ Specifies any transformation. The transformation addition can be specified eithe
     If dynamic, the transformation is specified as the uppercase content of a parenthesized character-like data object name.
     
 
-The specified transformation must exist as an [XSLT program](javascript:call_link\('abenxslt_program_glosry.htm'\) "Glossary Entry") or as a [Simple Transformation](javascript:call_link\('abensimple_transformation_glosry.htm'\) "Glossary Entry") in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry"). If a dynamically specified transformation is not found, an exception of the class CX\_INVALID\_TRANSFORMATION is raised.
+The specified transformation must exist as an [XSLT program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxslt_program_glosry.htm "Glossary Entry") or as a [Simple Transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensimple_transformation_glosry.htm "Glossary Entry") in the [repository](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_glosry.htm "Glossary Entry"). If a dynamically specified transformation is not found, an exception of the class CX\_INVALID\_TRANSFORMATION is raised.
 
 Executable Example
 
-[Executable Example of a Simple Transformation](javascript:call_link\('abenst_program_abexa.htm'\))
+[Executable Example of a Simple Transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_program_abexa.htm)
 
 Addition 1a   
 
@@ -109,55 +109,55 @@ Specifying the source.
 
 Transformation of XML Data
 
-When XML src\_xml is specified, the [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data contained in src\_xml is transformed. src\_xml can exist in the following forms:
+When XML src\_xml is specified, the [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") data contained in src\_xml is transformed. src\_xml can exist in the following forms:
 
--   As a data object with the type string or as a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") character-like line type, which can contain the following data:
-    -   Character-like [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data in XML 1.0 format.
-    -   Character-like [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") data. When any transformation trans*|*(name) is used, the JSON data is converted to the associated [JSON XML format](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") and passed to this transformation. The predefined [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") [ID](javascript:call_link\('abenabap_json_trafo_id.htm'\)) handles the JSON data directly.
--   As a data object with the type xstring or as a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") with a [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") byte-like line type, which can contain the following data:
-    -   Byte-like representation of the characters in [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data in XML 1.0 format, in accordance with a code page such as UTF-8.
-    -   [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data in [Binary XML](javascript:call_link\('abenbinary_xml_glosry.htm'\) "Glossary Entry") format.
-    -   Byte-like representation of the characters in [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") data, in accordance with a code page such as UTF-8. When any transformation trans*|*(name) is used, the JSON data is converted to the associated [JSON XML format](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") and passed to this transformation in this way. The predefined [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") [ID](javascript:call_link\('abenabap_json_trafo_id.htm'\)) handles the JSON data directly.
--   As an interface reference variable for objects in the [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)) (XSLT only):
-    -   Interface reference variable with the type IF\_IXML\_ISTREAM that points to an [input stream](javascript:call_link\('abenabap_ixml_lib_input_output.htm'\)) that reads XML data.
-    -   Interface reference variable with the type IF\_IXML\_NODE that points to a node or an entire XML document in [DOM representation](javascript:call_link\('abenabap_ixml_lib_dom_access.htm'\)).
--   As a reference variable of the type IF\_SXML\_READER or CL\_SXML\_READER for [XML Reader](javascript:call_link\('abenxml_reader_glosry.htm'\) "Glossary Entry") in the [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)). The transformation moves the reader by one node and processes the entire matching subtree. If the transformation is successful, the reader is located at the end of the processed data. Any valid reader can be specified:
-    -   XML readers for [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data in XML 1.0 format.
-    -   XML readers for [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data in [Binary XML](javascript:call_link\('abenbinary_xml_glosry.htm'\) "Glossary Entry") format.
-    -   XOP readers for [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data in [XOP](javascript:call_link\('abenxop_glosry.htm'\) "Glossary Entry") format.
-    -   JSON readers for [JSON data](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry"). When any transformation trans*|*(name) is used, the JSON reader returns the JSON data in [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") format. When a predefined [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") [ID](javascript:call_link\('abenabap_json_trafo_id.htm'\)) is used, the JSON data is handled directly.
+-   As a data object with the type string or as a [standard table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_table_glosry.htm "Glossary Entry") with a [flat](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenflat_glosry.htm "Glossary Entry") character-like line type, which can contain the following data:
+    -   Character-like [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") data in XML 1.0 format.
+    -   Character-like [JSON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_glosry.htm "Glossary Entry") data. When any transformation trans*|*(name) is used, the JSON data is converted to the associated [JSON XML format](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_xml_glosry.htm "Glossary Entry") and passed to this transformation. The predefined [identity transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenid_trafo_glosry.htm "Glossary Entry") [ID](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json_trafo_id.htm) handles the JSON data directly.
+-   As a data object with the type xstring or as a [standard table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_table_glosry.htm "Glossary Entry") with a [flat](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenflat_glosry.htm "Glossary Entry") byte-like line type, which can contain the following data:
+    -   Byte-like representation of the characters in [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") data in XML 1.0 format, in accordance with a code page such as UTF-8.
+    -   [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") data in [Binary XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbinary_xml_glosry.htm "Glossary Entry") format.
+    -   Byte-like representation of the characters in [JSON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_glosry.htm "Glossary Entry") data, in accordance with a code page such as UTF-8. When any transformation trans*|*(name) is used, the JSON data is converted to the associated [JSON XML format](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_xml_glosry.htm "Glossary Entry") and passed to this transformation in this way. The predefined [identity transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenid_trafo_glosry.htm "Glossary Entry") [ID](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json_trafo_id.htm) handles the JSON data directly.
+-   As an interface reference variable for objects in the [iXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib.htm) (XSLT only):
+    -   Interface reference variable with the type IF\_IXML\_ISTREAM that points to an [input stream](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib_input_output.htm) that reads XML data.
+    -   Interface reference variable with the type IF\_IXML\_NODE that points to a node or an entire XML document in [DOM representation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib_dom_access.htm).
+-   As a reference variable of the type IF\_SXML\_READER or CL\_SXML\_READER for [XML Reader](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_reader_glosry.htm "Glossary Entry") in the [sXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib.htm). The transformation moves the reader by one node and processes the entire matching subtree. If the transformation is successful, the reader is located at the end of the processed data. Any valid reader can be specified:
+    -   XML readers for [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") data in XML 1.0 format.
+    -   XML readers for [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") data in [Binary XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbinary_xml_glosry.htm "Glossary Entry") format.
+    -   XOP readers for [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") data in [XOP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxop_glosry.htm "Glossary Entry") format.
+    -   JSON readers for [JSON data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_glosry.htm "Glossary Entry"). When any transformation trans*|*(name) is used, the JSON reader returns the JSON data in [JSON-XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_xml_glosry.htm "Glossary Entry") format. When a predefined [identity transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenid_trafo_glosry.htm "Glossary Entry") [ID](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json_trafo_id.htm) is used, the JSON data is handled directly.
 
 Hints
 
--   The interface IF\_SXML\_READER and the class CL\_SXML\_READER are part of the API of the [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)), whose objects can be accessed using CALL TRANSFORMATION.
--   Transformations of XML data in [XOP format](javascript:call_link\('abenxop_glosry.htm'\) "Glossary Entry") are only possible with an XOP reader in the sXML Library. All other formats can be also specified in appropriate strings or internal tables.
+-   The interface IF\_SXML\_READER and the class CL\_SXML\_READER are part of the API of the [sXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib.htm), whose objects can be accessed using CALL TRANSFORMATION.
+-   Transformations of XML data in [XOP format](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxop_glosry.htm "Glossary Entry") are only possible with an XOP reader in the sXML Library. All other formats can be also specified in appropriate strings or internal tables.
 -   When XML data is specified in strings or internal tables, it is best to use byte strings or byte-like line types and the UTF-8 code page for the representation.
 -   The methods CONVERT of the interfaces IF\_ABAP\_CONV\_IN and IF\_ABAP\_CONV\_OUT of objects created using the class CL\_ABAP\_CONV\_CODEPAGE can be used to transform character-like XML data or JSON data to a byte-like representation in accordance with a code page and vice versa.
--   The interfaces IF\_IXML\_ISTREAM and IF\_IXML\_NODE are part of the API of the [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)), whose objects can be accessed using CALL TRANSFORMATION.
+-   The interfaces IF\_IXML\_ISTREAM and IF\_IXML\_NODE are part of the API of the [iXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib.htm), whose objects can be accessed using CALL TRANSFORMATION.
 -   For compatibility reasons, src\_xml can also be a class reference variable of the type CL\_FX\_READER. The class CL\_FX\_READER, however, is scheduled for replacement by CL\_SXML\_READER.
 
 Transformation of ABAP Data
 
 bn1 = e1 ... or (stab) is used to specify the ABAP data e1 e2 ... to be transformed.
 
--   When the [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID is called, the ABAP data is either serialized to the [canonical XML format](javascript:call_link\('abenabap_xslt_asxml.htm'\)) [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") or to the [canonical JSON format](javascript:call_link\('abenabap_asjson.htm'\)) [asJSON](javascript:call_link\('abenasjson_glosry.htm'\) "Glossary Entry"), depending on the target.
--   When an XSLT program is called, the ABAP data is serialized to the [canonical XML representation](javascript:call_link\('abenabap_xslt_asxml.htm'\)), which is then used as the source of the XSL transformation. bn1 bn2 ... is used to specify the names of the XML elements that represent the ABAP data objects in the canonical XML representation.
+-   When the [identity transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID is called, the ABAP data is either serialized to the [canonical XML format](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_asxml.htm) [asXML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenasxml_glosry.htm "Glossary Entry") or to the [canonical JSON format](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_asjson.htm) [asJSON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenasjson_glosry.htm "Glossary Entry"), depending on the target.
+-   When an XSLT program is called, the ABAP data is serialized to the [canonical XML representation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_asxml.htm), which is then used as the source of the XSL transformation. bn1 bn2 ... is used to specify the names of the XML elements that represent the ABAP data objects in the canonical XML representation.
 -   When a Simple Transformation is called, the transformation has read-only access to the ABAP data using the names bn1 bn2 ....
 
-Instead of using a static parameter list, the data objects can be passed dynamically as value pairs in the columns of an internal table stab that has the type abap\_trans\_srcbind\_tab from the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") ABAP.
+Instead of using a static parameter list, the data objects can be passed dynamically as value pairs in the columns of an internal table stab that has the type abap\_trans\_srcbind\_tab from the [type pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_pool_glosry.htm "Glossary Entry") ABAP.
 
-Serializations convert the elementary components of the ABAP data objects to [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") or [asJSON](javascript:call_link\('abenasjson_glosry.htm'\) "Glossary Entry"), in accordance with the [mappings for built-in ABAP types](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)) or for [further XML schema data types](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)). This can raise the exceptions described there, some of which can be bypassed by using [transformation options](javascript:call_link\('abapcall_transformation_options.htm'\)).
+Serializations convert the elementary components of the ABAP data objects to [asXML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenasxml_glosry.htm "Glossary Entry") or [asJSON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenasjson_glosry.htm "Glossary Entry"), in accordance with the [mappings for built-in ABAP types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_asxml_elementary.htm) or for [further XML schema data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_asxml_schema.htm). This can raise the exceptions described there, some of which can be bypassed by using [transformation options](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation_options.htm).
 
 The case of the names in the XML data or JSON data depends on how they are specified in the ABAP runtime framework. If specified statically (b1, b2, ...), uppercase is used and if specified dynamically in stab, the case used there is used.
 
 Hint
 
-When a Simple Transformation is called, the serialization always creates an internal [XML writer](javascript:call_link\('abenxml_writer_glosry.htm'\) "Glossary Entry"), which can be addressed using the interface IF\_SXML\_WRITER from [sXML](javascript:call_link\('abenabap_sxml_lib.htm'\)) Library. The object is accessed using attributes of the ST statement [tt:call-method](javascript:call_link\('abenst_tt_call-method_static.htm'\)).
+When a Simple Transformation is called, the serialization always creates an internal [XML writer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_writer_glosry.htm "Glossary Entry"), which can be addressed using the interface IF\_SXML\_WRITER from [sXML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib.htm) Library. The object is accessed using attributes of the ST statement [tt:call-method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_call-method_static.htm).
 
 Executable Examples
 
--   For an overview of all possible XML sources, see [XML Sources of Transformations](javascript:call_link\('abencall_trafo_sources_abexa.htm'\)).
--   For deserializations of ABAP data from an XML reader in the sXML Library, see [sXML-Library, Transformation from XML Reader](javascript:call_link\('abensxml_trafo_from_reader_abexa.htm'\)).
+-   For an overview of all possible XML sources, see [XML Sources of Transformations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_trafo_sources_abexa.htm).
+-   For deserializations of ABAP data from an XML reader in the sXML Library, see [sXML-Library, Transformation from XML Reader](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensxml_trafo_from_reader_abexa.htm).
 
 Addition 1b   
 
@@ -169,65 +169,65 @@ Specifying the target.
 
 Transformation to XML Data
 
-When XML rslt\_xml is specified, a transformation to [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data takes place and this data is passed to rslt\_xml. rslt\_xml can exist in the following forms:
+When XML rslt\_xml is specified, a transformation to [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") data takes place and this data is passed to rslt\_xml. rslt\_xml can exist in the following forms:
 
 -   As a variable with the type string or as a standard table with a flat character-like line type. The XML data returned by the transformation is stored in XML 1.0 format as a character string in the string or in the table. Here, a byte order mark (BOM) is used as a prefix.
 -   As a variable with the type xstring or as a standard table with a flat byte-like line type. The XML data returned by the transformation is stored in XML 1.0 format as a byte string in the string or table. The byte string represents the characters of the XML data in accordance with the code page UTF-8. A byte order mark (BOM) is not used as a prefix.
--   As an inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)), where a variable with the type xstring is created.
--   As an interface reference variable for objects in the [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)) (XSLT only):
-    -   Interface reference variable with the type IF\_IXML\_OSTREAM that points to an [output stream](javascript:call_link\('abenabap_ixml_lib_input_output.htm'\)) that writes XML data.
-    -   Interface reference variable with the type IF\_IXML\_DOCUMENT that points to an [XML document](javascript:call_link\('abenabap_ixml_lib_input_output.htm'\)) in [DOM](javascript:call_link\('abendom_glosry.htm'\) "Glossary Entry") representation.
--   As a reference variable with the type IF\_SXML\_WRITER or CL\_SXML\_WRITER for [XML](javascript:call_link\('abenxml_writer_glosry.htm'\) "Glossary Entry") writers in the [sXML](javascript:call_link\('abenabap_sxml_lib.htm'\)) Library. The result of the transformation is added to the current element of the writer as a subtree. Any valid writer can be specified:
-    -   XML writers for [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data in XML 1.0 format.
-    -   XML writers for [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data in [Binary XML](javascript:call_link\('abenbinary_xml_glosry.htm'\) "Glossary Entry") format.
-    -   XOP writers for [XML](javascript:call_link\('abenxml_glosry.htm'\) "Glossary Entry") data in [XOP](javascript:call_link\('abenxop_glosry.htm'\) "Glossary Entry") format.
-    -   JSON writers for [JSON](javascript:call_link\('abenjson_glosry.htm'\) "Glossary Entry") data. A transformation trans*|*(name) must create XML data in [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") format. The predefined [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") [ID](javascript:call_link\('abenabap_json_trafo_id.htm'\)) creates the appropriate data directly.
+-   As an inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_inline.htm) or [FINAL(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfinal_inline.htm), where a variable with the type xstring is created.
+-   As an interface reference variable for objects in the [iXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib.htm) (XSLT only):
+    -   Interface reference variable with the type IF\_IXML\_OSTREAM that points to an [output stream](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib_input_output.htm) that writes XML data.
+    -   Interface reference variable with the type IF\_IXML\_DOCUMENT that points to an [XML document](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib_input_output.htm) in [DOM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendom_glosry.htm "Glossary Entry") representation.
+-   As a reference variable with the type IF\_SXML\_WRITER or CL\_SXML\_WRITER for [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_writer_glosry.htm "Glossary Entry") writers in the [sXML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib.htm) Library. The result of the transformation is added to the current element of the writer as a subtree. Any valid writer can be specified:
+    -   XML writers for [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") data in XML 1.0 format.
+    -   XML writers for [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") data in [Binary XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbinary_xml_glosry.htm "Glossary Entry") format.
+    -   XOP writers for [XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_glosry.htm "Glossary Entry") data in [XOP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxop_glosry.htm "Glossary Entry") format.
+    -   JSON writers for [JSON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_glosry.htm "Glossary Entry") data. A transformation trans*|*(name) must create XML data in [JSON-XML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenjson_xml_glosry.htm "Glossary Entry") format. The predefined [identity transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenid_trafo_glosry.htm "Glossary Entry") [ID](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_json_trafo_id.htm) creates the appropriate data directly.
 
 Hints
 
--   The interface IF\_SXML\_WRITER and the class CL\_SXML\_WRITER are part of the API of the [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)), whose objects can be accessed using CALL TRANSFORMATION.
--   Transformations to formats other than XML 1.0 are only possible with the corresponding writers in the [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)).
+-   The interface IF\_SXML\_WRITER and the class CL\_SXML\_WRITER are part of the API of the [sXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib.htm), whose objects can be accessed using CALL TRANSFORMATION.
+-   Transformations to formats other than XML 1.0 are only possible with the corresponding writers in the [sXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib.htm).
 -   When XML data is stored in strings or internal tables, it is best to use byte strings or byte-like line types and the UTF-8 code page for the representation.
--   XML data that is written to [Unicode systems](javascript:call_link\('abenunicode_system_glosry.htm'\) "Glossary Entry") as character-like data cannot be processed as character-like data in a non-Unicode system due to the byte order mark (BOM) that is predefined by the XML standard.
+-   XML data that is written to [Unicode systems](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunicode_system_glosry.htm "Glossary Entry") as character-like data cannot be processed as character-like data in a non-Unicode system due to the byte order mark (BOM) that is predefined by the XML standard.
 -   The methods CONVERT of the interfaces IF\_ABAP\_CONV\_OUT and IF\_ABAP\_CONV\_IN of objects created using the class CL\_ABAP\_CONV\_CODEPAGE can be used to transform character-like XML data or JSON data to a byte-like representation in accordance with a code page.
--   The interfaces IF\_IXML\_OSTREAM and IF\_IXML\_DOCUMENT are part of the API of the [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)), whose objects can be accessed using CALL TRANSFORMATION.
+-   The interfaces IF\_IXML\_OSTREAM and IF\_IXML\_DOCUMENT are part of the API of the [iXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib.htm), whose objects can be accessed using CALL TRANSFORMATION.
 -   For compatibility reasons, rslt\_xml can also be a class reference variable of the type CL\_FX\_WRITER. However, the class CL\_FX\_WRITER is replaced by CL\_SXML\_WRITER.
 
 Security Hint
 
-If HTML data containing JavaScript is created using the output method html of an XSL transformation, the syntax characters <, blank, &, ", and ' in the JavaScript parts are not transformed to their [XML notation](javascript:call_link\('abenxml_oview.htm'\)). To prevent cross site scripting (XSS) in HTML data that contains dynamic JavaScript parts, appropriate measures must be taken. These measures are best applied in the XSL transformation that creates the data.
+If HTML data containing JavaScript is created using the output method html of an XSL transformation, the syntax characters <, blank, &, ", and ' in the JavaScript parts are not transformed to their [XML notation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_oview.htm). To prevent cross site scripting (XSS) in HTML data that contains dynamic JavaScript parts, appropriate measures must be taken. These measures are best applied in the XSL transformation that creates the data.
 
 Transformation to ABAP Data
 
 bn1 = f1 ... or (rtab) are used to specify the ABAP target fields f1 f2 ... into which the XML data is to be transformed.
 
--   When the [identity transformation](javascript:call_link\('abenid_trafo_glosry.htm'\) "Glossary Entry") ID is called, the source must either be a [canonical XML representation](javascript:call_link\('abenabap_xslt_asxml.htm'\)) or a [canonical JSON representation](javascript:call_link\('abenabap_asjson.htm'\)) of ABAP data. The canonical representation is deserialized into the ABAP data objects. bn1 bn2 ... is used to specify the names of the XML elements that represent the ABAP data objects in the canonical XML representation, and f1 f2 ... is used to specify ABAP data objects that are appropriate to the data type into which they are deserialized.
--   When an XSLT program is called, the result of the XSL transformation must represent a [canonical XML representation](javascript:call_link\('abenabap_xslt_asxml.htm'\)) that is deserialized into the ABAP data objects, as with the identity transformation.
+-   When the [identity transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenid_trafo_glosry.htm "Glossary Entry") ID is called, the source must either be a [canonical XML representation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_asxml.htm) or a [canonical JSON representation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_asjson.htm) of ABAP data. The canonical representation is deserialized into the ABAP data objects. bn1 bn2 ... is used to specify the names of the XML elements that represent the ABAP data objects in the canonical XML representation, and f1 f2 ... is used to specify ABAP data objects that are appropriate to the data type into which they are deserialized.
+-   When an XSLT program is called, the result of the XSL transformation must represent a [canonical XML representation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_asxml.htm) that is deserialized into the ABAP data objects, as with the identity transformation.
 -   When a Simple Transformation is called, the transformation performs writes on the ABAP data using the names bn1 bn2 ....
 
-Instead of using a static parameter list, the data objects can be passed dynamically as value pairs to the columns of the internal table rtab that has the type abap\_trans\_resbind\_tab from the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") ABAP.
+Instead of using a static parameter list, the data objects can be passed dynamically as value pairs to the columns of the internal table rtab that has the type abap\_trans\_resbind\_tab from the [type pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_pool_glosry.htm "Glossary Entry") ABAP.
 
-Deserialization converts the elementary XML or JSON values to elementary ABAP data types in accordance with the [mappings for built-in ABAP types](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)) or for [further XML schema data types](javascript:call_link\('abenabap_xslt_asxml_schema.htm'\)). This can raise the exceptions described there, some of which can be bypassed by using [transformation options](javascript:call_link\('abapcall_transformation_options.htm'\)).
+Deserialization converts the elementary XML or JSON values to elementary ABAP data types in accordance with the [mappings for built-in ABAP types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_asxml_elementary.htm) or for [further XML schema data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_asxml_schema.htm). This can raise the exceptions described there, some of which can be bypassed by using [transformation options](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation_options.htm).
 
 The case used in the XML or JSON data must match exactly the case in the ABAP runtime framework. If specified statically (b1, b2, ...), uppercase is used and if specified dynamically in rtab, the case used there is used.
 
-When deserializing from a canonical representation, if no corresponding asXML element or asJON object component exists for an ABAP object, the data object retains its previous value. If an empty XML element or an empty JSON array is assigned to an elementary or tabular ABAP data object, the ABAP data object is set to its type-dependent initial value. If an empty XML element or empty JSON object is assigned to a structure, this has the same effect as non-existent elements on the structure components. The structure components retain their previous values. The transformation option [clear](javascript:call_link\('abapcall_transformation_options.htm'\)) with the value all can be used to initialize all data objects that have nonexistent or empty elements assigned to them.
+When deserializing from a canonical representation, if no corresponding asXML element or asJON object component exists for an ABAP object, the data object retains its previous value. If an empty XML element or an empty JSON array is assigned to an elementary or tabular ABAP data object, the ABAP data object is set to its type-dependent initial value. If an empty XML element or empty JSON object is assigned to a structure, this has the same effect as non-existent elements on the structure components. The structure components retain their previous values. The transformation option [clear](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation_options.htm) with the value all can be used to initialize all data objects that have nonexistent or empty elements assigned to them.
 
-In the case of the deserialization of internal tables with non-unique [table keys](javascript:call_link\('abenitab_key.htm'\)), the order of the duplicate lines in relation to these keys is not retained.
+In the case of the deserialization of internal tables with non-unique [table keys](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_key.htm), the order of the duplicate lines in relation to these keys is not retained.
 
 Hint
 
-When a Simple Transformation is called, deserialization always creates an internal [XML reader](javascript:call_link\('abenxml_reader_glosry.htm'\) "Glossary Entry") object, which can be addressed using the interface IF\_SXML\_READER from the [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)). The object is accessed using attributes of the ST statement [tt:call-method](javascript:call_link\('abenst_tt_call-method_static.htm'\)).
+When a Simple Transformation is called, deserialization always creates an internal [XML reader](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxml_reader_glosry.htm "Glossary Entry") object, which can be addressed using the interface IF\_SXML\_READER from the [sXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib.htm). The object is accessed using attributes of the ST statement [tt:call-method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_call-method_static.htm).
 
 Executable Examples
 
--   For an overview of all possible XML sources, see [XML Sources of Transformations](javascript:call_link\('abencall_trafo_results_abexa.htm'\)).
--   For transformations of XML data to DOM representation in the iXML Library, see [iXML Library, DOM Representation](javascript:call_link\('abenixml_dom_abexa.htm'\)).
--   For transformations of ABAP data to an XML writer in the sXML Library, see [sXML Library, Transformation to XML Writer](javascript:call_link\('abensxml_trafo_into_writer_abexa.htm'\)).
+-   For an overview of all possible XML sources, see [XML Sources of Transformations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_trafo_results_abexa.htm).
+-   For transformations of XML data to DOM representation in the iXML Library, see [iXML Library, DOM Representation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenixml_dom_abexa.htm).
+-   For transformations of ABAP data to an XML writer in the sXML Library, see [sXML Library, Transformation to XML Writer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensxml_trafo_into_writer_abexa.htm).
 -   For deserializations of missing or empty asXML elements or asJSON object components, see:
-    -   [Deserializing Missing Elements](javascript:call_link\('abenabap_deserl_no_elem_abexa.htm'\))
-    -   [Deserializing Empty Elements](javascript:call_link\('abenabap_deserl_no_elem_abexa.htm'\))
--   For transformations of syntax characters to XML targets, see [Transformation of Syntax Characters](javascript:call_link\('abencall_trafo_escaping_abexa.htm'\)).
+    -   [Deserializing Missing Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_deserl_no_elem_abexa.htm)
+    -   [Deserializing Empty Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_deserl_no_elem_abexa.htm)
+-   For transformations of syntax characters to XML targets, see [Transformation of Syntax Characters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_trafo_escaping_abexa.htm).
 
 Addition 2   
 
@@ -235,9 +235,9 @@ Addition 2  
 
 Effect
 
-This addition can be used to bind ABAP data objects e1 e2 ... to the parameters p1 p2 ... of an [XSL transformation](javascript:call_link\('abenxsl_transformation_glosry.htm'\) "Glossary Entry") or a [Simple Transformation](javascript:call_link\('abensimple_transformation_glosry.htm'\) "Glossary Entry"). All elementary data objects and object references are allowed.
+This addition can be used to bind ABAP data objects e1 e2 ... to the parameters p1 p2 ... of an [XSL transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxsl_transformation_glosry.htm "Glossary Entry") or a [Simple Transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensimple_transformation_glosry.htm "Glossary Entry"). All elementary data objects and object references are allowed.
 
-Instead of using a static parameter list, the parameters can be specified dynamically as value pairs in the columns of the internal table ptab that has one of the following types from the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") ABAP:
+Instead of using a static parameter list, the parameters can be specified dynamically as value pairs in the columns of the internal table ptab that has one of the following types from the [type pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_pool_glosry.htm "Glossary Entry") ABAP:
 
 -   abap\_trans\_parmbind\_tab for specifying strings,
 -   abap\_trans\_objbind\_tab for specifying object references (for XSLT only),
@@ -269,7 +269,7 @@ number
 
 x, xstring
 
-string, where the content is represented in [Base 64](javascript:call_link\('abenbase64_glosry.htm'\) "Glossary Entry").
+string, where the content is represented in [Base 64](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbase64_glosry.htm "Glossary Entry").
 
 If the XSL types shown in the table above are specified explicitly in the XSL transformation, appropriate elementary ABAP parameters must be specified that can be converted to the XSL type:
 
@@ -282,7 +282,7 @@ If a parameter does not match the XSL type, an uncatchable exception is raised. 
 Hints
 
 -   The XSL types string, number, boolean, and nodeset are standard XSL types, where xstring and object represent special SAP enhancements. The type xstring enables byte strings to be represented in hexadecimal instead of base 64. The type object enables ABAP methods to be called from the XSLT program.
--   The special addition [OBJECTS](javascript:call_link\('abapcall_transformation_objects.htm'\)) can be used to pass object references, but this addition is replaced by PARAMETERS.
+-   The special addition [OBJECTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation_objects.htm) can be used to pass object references, but this addition is replaced by PARAMETERS.
 
 Parameter Passing to ST Programs
 
@@ -293,21 +293,21 @@ In an ST program, the parameters must be defined as follows as parameters of the
 
 When an ST program is called, output parameters and input/output parameters are supported as well as input parameters. The type of the parameter is defined using kind in the ST program, where in, out, and inout can be specified. inout is the default. The val attributes can be used to define replacement values.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
 CX\_TRANSFORMATION\_ERROR
 
--   Cause: Common superclass of all transformation-specific exception classes for CALL TRANSFORMATION. The direct subclasses are CX\_ST\_ERROR for Simple Transformations and CX\_XSLT\_EXCEPTION for XSL transformations. When the statement CALL TRANSFORMATION is executed, exceptions of the class CX\_TRANSFORMATION\_ERROR and almost all its subclasses can be handled. The resumability of an exception of the subclass CX\_ST\_DESERIALIZATION\_ERROR can be defined using the transformation option [exceptions = 'resumable'](javascript:call_link\('abapcall_transformation_options.htm'\)).
+-   Cause: Common superclass of all transformation-specific exception classes for CALL TRANSFORMATION. The direct subclasses are CX\_ST\_ERROR for Simple Transformations and CX\_XSLT\_EXCEPTION for XSL transformations. When the statement CALL TRANSFORMATION is executed, exceptions of the class CX\_TRANSFORMATION\_ERROR and almost all its subclasses can be handled. The resumability of an exception of the subclass CX\_ST\_DESERIALIZATION\_ERROR can be defined using the transformation option [exceptions = 'resumable'](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation_options.htm).
     
     In addition, the following exceptions may be raised when a transformation is executed:
     
-    -   Exceptions like those raised in [mappings from ABAP data types to asXML](javascript:call_link\('abenabap_xslt_asxml_named.htm'\)) cannot be handled directly. These exceptions raise exceptions of the class CX\_TRANSFORMATION\_ERROR (or its subclasses) and can be handled using these.
-    -   Exceptions raised in ABAP methods called in transformations, such as transformations of objects using the methods [SERIALIZE\_HELPER](javascript:call_link\('abenasxml_class_instances.htm'\)) and [DESERIALIZE\_HELPER](javascript:call_link\('abenasxml_class_instances.htm'\)) or when [accessing ABAP Objects from ST](javascript:call_link\('abenst_abap_objects.htm'\)), raise exceptions of the class CX\_TRANSFORMATION\_ERROR (or its subclasses), if they are declared in the interface of the method [RAISING](javascript:call_link\('abapmethods_general.htm'\)). The [resumability](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry") of the original exception is applied here. Non-declared exceptions, on the other hand, raise the exception [CX\_SY\_NO\_HANDLER](javascript:call_link\('abenexceptions_procedures.htm'\)), which cannot be handled using CX\_TRANSFORMATION\_ERROR (or its subclasses).
+    -   Exceptions like those raised in [mappings from ABAP data types to asXML](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_xslt_asxml_named.htm) cannot be handled directly. These exceptions raise exceptions of the class CX\_TRANSFORMATION\_ERROR (or its subclasses) and can be handled using these.
+    -   Exceptions raised in ABAP methods called in transformations, such as transformations of objects using the methods [SERIALIZE\_HELPER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenasxml_class_instances.htm) and [DESERIALIZE\_HELPER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenasxml_class_instances.htm) or when [accessing ABAP Objects from ST](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_abap_objects.htm), raise exceptions of the class CX\_TRANSFORMATION\_ERROR (or its subclasses), if they are declared in the interface of the method [RAISING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods_general.htm). The [resumability](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenresumable_exception_glosry.htm "Glossary Entry") of the original exception is applied here. Non-declared exceptions, on the other hand, raise the exception [CX\_SY\_NO\_HANDLER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexceptions_procedures.htm), which cannot be handled using CX\_TRANSFORMATION\_ERROR (or its subclasses).
     -   The exception CX\_SY\_STRING\_SIZE\_TOO\_LARGE can also occur but does not raise an exception of the class CX\_TRANSFORMATION\_ERROR. It must be handled directly (see below).
     
-    The attribute PREVIOUS of the associated exception object always contains a reference to the original exception. If an exception of this type is not handled, the [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") shows the original exception.
+    The attribute PREVIOUS of the associated exception object always contains a reference to the original exception. If an exception of this type is not handled, the [short dump](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshort_dump_glosry.htm "Glossary Entry") shows the original exception.
     
 
 Subclasses of CX\_ST\_ERROR
@@ -358,7 +358,7 @@ CX\_ST\_SERIALIZATION\_ERROR
 
 CX\_ST\_VALIDATION\_ERROR
 
--   Cause: Failed validation with the attribute xsd-type in the ST statements [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), [tt:write](javascript:call_link\('abenst_tt_write.htm'\)), or [tt:read](javascript:call_link\('abenst_tt_read.htm'\)). This exception cannot be caught directly.
+-   Cause: Failed validation with the attribute xsd-type in the ST statements [tt:value](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_value_elementary.htm), [tt:write](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_write.htm), or [tt:read](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenst_tt_read.htm). This exception cannot be caught directly.
 
 Subclasses of CX\_XSLT\_EXCEPTION
 
@@ -391,7 +391,7 @@ Other exception classes
 
 CX\_SY\_STRING\_SIZE\_TOO\_LARGE
 
--   Cause: During a transformation, an operation with a string exceeds its [maximum size](javascript:call_link\('abenmemory_consumption_2.htm'\)). This exception does not raise an exception of the class CX\_TRANSFORMATION\_ERROR but must be handled directly.
+-   Cause: During a transformation, an operation with a string exceeds its [maximum size](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_consumption_2.htm). This exception does not raise an exception of the class CX\_TRANSFORMATION\_ERROR but must be handled directly.
     
     It can be handled for all kinds of transformations in the following cases:
     
@@ -401,11 +401,11 @@ CX\_SY\_STRING\_SIZE\_TOO\_LARGE
     It cannot be handled in the following cases:
     
     -   The target specified behind RESULT is an interface reference variable with the type IF\_IXML\_OSTREAM.
-    -   Methods of the [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)) or [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)) are involved that are implemented as [kernel methods](javascript:call_link\('abenkernel_method_glosry.htm'\) "Glossary Entry").
+    -   Methods of the [iXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ixml_lib.htm) or [sXML Library](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sxml_lib.htm) are involved that are implemented as [kernel methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenkernel_method_glosry.htm "Glossary Entry").
     
     In these cases, a runtime error always occurs.
     
 
 Continue
-[CALL TRANSFORMATION, OPTIONS](javascript:call_link\('abapcall_transformation_options.htm'\))
-[CALL TRANSFORMATION, Examples](javascript:call_link\('abencall_transformation_abexas.htm'\))
+[CALL TRANSFORMATION, OPTIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation_options.htm)
+[CALL TRANSFORMATION, Examples](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_transformation_abexas.htm)

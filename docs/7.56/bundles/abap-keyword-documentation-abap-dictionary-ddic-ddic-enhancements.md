@@ -3,31 +3,7 @@
 Included pages: 9
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_enhancements.htm)
-- [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_customizing_includes.htm)
-- [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_structures.htm)
-- [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_extend_type.htm)
-- [abenddicddl_extend_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_extend_type.htm)
-- [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_views.htm)
-- [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_fixed_value_appends.htm)
-
-**Bundle Contains**: 7 documentation pages
-**Version**: ABAP 7.56
-**Generated**: 2025-09-01T11:25:45.450Z
-
----
-
 ### abenddic_enhancements.htm
-
-> **📖 Official SAP Documentation**: [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_enhancements.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,40 +11,33 @@ Included pages: 9
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) → 
 
 DDIC - Enhancements
 
-A [DDIC structure](javascript:call_link\('abenddic_structures.htm'\)), [DDIC database table](javascript:call_link\('abenddic_database_tables.htm'\)), [DDIC database view](javascript:call_link\('abenddic_database_views.htm'\)), or [domain](javascript:call_link\('abenddic_domains.htm'\)) in ABAP Dictionary created in a system can be enhanced in a different system using customizing includes, append structures, or DDIC append views without making any modifications. Customizing includes indicate points already marked by SAP for enhancements, whereas append structures can be appended anywhere.
+A [DDIC structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures.htm), [DDIC database table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables.htm), [DDIC database view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_views.htm), or [domain](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains.htm) in ABAP Dictionary created in a system can be enhanced in a different system using customizing includes, append structures, or DDIC append views without making any modifications. Customizing includes indicate points already marked by SAP for enhancements, whereas append structures can be appended anywhere.
 
--   [Customizing includes](javascript:call_link\('abenddic_customizing_includes.htm'\))
--   [Append structures](javascript:call_link\('abenddic_append_structures.htm'\))
--   [DDIC append views](javascript:call_link\('abenddic_append_views.htm'\))
--   [Fixed value appends](javascript:call_link\('abenddic_fixed_value_appends.htm'\))
+-   [Customizing includes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_customizing_includes.htm)
+-   [Append structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_structures.htm)
+-   [DDIC append views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_views.htm)
+-   [Fixed value appends](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_fixed_value_appends.htm)
 
-[Search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry") can be expanded using [append search helps](javascript:call_link\('abenappend_search_help_glosry.htm'\) "Glossary Entry").
+[Search helps](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensearch_help_glosry.htm "Glossary Entry") can be expanded using [append search helps](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenappend_search_help_glosry.htm "Glossary Entry").
 
-Enhancements are connected to [Switch Framework](javascript:call_link\('abenswitch_framework_glosry.htm'\) "Glossary Entry") whenever they are defined in a [package](javascript:call_link\('abenpackage_glosry.htm'\) "Glossary Entry") that is assigned a [switch](javascript:call_link\('abenswitch_glosry.htm'\) "Glossary Entry").
+Enhancements are connected to [Switch Framework](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenswitch_framework_glosry.htm "Glossary Entry") whenever they are defined in a [package](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpackage_glosry.htm "Glossary Entry") that is assigned a [switch](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenswitch_glosry.htm "Glossary Entry").
 
 Hint
 
-For [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"), [CDS view extensions](javascript:call_link\('abencds_view_extend_glosry.htm'\) "Glossary Entry") are an option for enhancements that is based on the CDS DDL of ABAP CDS.
+For [CDS views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_glosry.htm "Glossary Entry"), [CDS view extensions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_extend_glosry.htm "Glossary Entry") are an option for enhancements that is based on the CDS DDL of ABAP CDS.
 
 Continue
-[DDIC - Customizing Includes](javascript:call_link\('abenddic_customizing_includes.htm'\))
-[DDIC - Append Structures](javascript:call_link\('abenddic_append_structures.htm'\))
-[DDIC - Append Views](javascript:call_link\('abenddic_append_views.htm'\))
-[DDIC - Fixed Value Appends](javascript:call_link\('abenddic_fixed_value_appends.htm'\))
+[DDIC - Customizing Includes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_customizing_includes.htm)
+[DDIC - Append Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_structures.htm)
+[DDIC - Append Views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_views.htm)
+[DDIC - Fixed Value Appends](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_fixed_value_appends.htm)
 
-
-
-**📖 Source**: [abenddic_enhancements.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_enhancements.htm)
 
 ### abenddic_customizing_includes.htm
-
-> **📖 Official SAP Documentation**: [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_customizing_includes.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -76,25 +45,18 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Enhancements](javascript:call_link\('abenddic_enhancements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_enhancements.htm) → 
 
 DDIC - Customizing Includes
 
-A customizing include is a DDIC structure whose name has the prefix CI\_ for customers and SI\_ for partners and is in the customer namespace. Customizing includes can be included in [DDIC structures](javascript:call_link\('abenddic_structures.htm'\)) and [DDIC database tables](javascript:call_link\('abenddic_database_tables.htm'\)) delivered by SAP. The customizing includes in DDIC structures and DDIC database tables delivered by SAP are usually empty. They are not linked with existing structures and reserve only the names of the structures. In customer or partner systems, these includes can be enhanced as part of an [enhancement category](javascript:call_link\('abenddic_structures_enh_cat.htm'\)) in customizing by creating the included customizing includes and using customizing transactions to give them components. Any existing transparent DDIC database tables are not transformed, which can put the fields in different orders in the dictionary and on the database.
+A customizing include is a DDIC structure whose name has the prefix CI\_ for customers and SI\_ for partners and is in the customer namespace. Customizing includes can be included in [DDIC structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures.htm) and [DDIC database tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables.htm) delivered by SAP. The customizing includes in DDIC structures and DDIC database tables delivered by SAP are usually empty. They are not linked with existing structures and reserve only the names of the structures. In customer or partner systems, these includes can be enhanced as part of an [enhancement category](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_enh_cat.htm) in customizing by creating the included customizing includes and using customizing transactions to give them components. Any existing transparent DDIC database tables are not transformed, which can put the fields in different orders in the dictionary and on the database.
 
 A customizing include can be included in multiple DDIC database tables or DDIC structures. Its enhancement is then applied to all DDIC database tables or DDIC structures in which it is included. An empty customizing include of a DDIC database table or DDIC structure does not need to be enhanced.
 
 Enhancements of a delivered DDIC structure or DDIC database table using a customizing include are not modifications. If a customizing include is used to add fields to a DDIC database table or DDIC structure in the standard system, these fields are inserted automatically in the new DDIC structure or DDIC database table delivered by SAP in an upgrade.
 
 
-
-**📖 Source**: [abenddic_customizing_includes.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_customizing_includes.htm)
-
 ### abenddic_append_structures.htm
-
-> **📖 Official SAP Documentation**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_structures.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -102,32 +64,32 @@ Enhancements of a delivered DDIC structure or DDIC database table using a custom
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Enhancements](javascript:call_link\('abenddic_enhancements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_enhancements.htm) → 
 
 DDIC - Append Structures
 
-An append structure is a structure in ABAP Dictionary appended to another [DDIC structure](javascript:call_link\('abenddic_structures.htm'\)) or [DDIC database table](javascript:call_link\('abenddic_database_tables.htm'\)) and which adds its components to this structure or table. In customer systems, append structures can be added to structures and DDIC database tables delivered by SAP. An append structure is assigned to exactly one table or structure. There can, however, be more than one append structure for a table or structure. The components of append structures must meet the [prerequisites](javascript:call_link\('abenddic_database_tables_techstruc.htm'\)) for table fields.
+An append structure is a structure in ABAP Dictionary appended to another [DDIC structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures.htm) or [DDIC database table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables.htm) and which adds its components to this structure or table. In customer systems, append structures can be added to structures and DDIC database tables delivered by SAP. An append structure is assigned to exactly one table or structure. There can, however, be more than one append structure for a table or structure. The components of append structures must meet the [prerequisites](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_techstruc.htm) for table fields.
 
 The following enhancements can be made to a DDIC database table or structure using an append structure:
 
--   New components inserted (if allowed by the [enhancement category](javascript:call_link\('abenddic_structures_enh_cat.htm'\)))
--   [Foreign keys](javascript:call_link\('abenforeign_key_glosry.htm'\) "Glossary Entry") defined for existing fields of a DDIC database table
--   [Search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry") bound to existing components
+-   New components inserted (if allowed by the [enhancement category](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_enh_cat.htm))
+-   [Foreign keys](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenforeign_key_glosry.htm "Glossary Entry") defined for existing fields of a DDIC database table
+-   [Search helps](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensearch_help_glosry.htm "Glossary Entry") bound to existing components
 
-All enhancements are part of the append structure, which means that any changes made to these enhancements are made only using the append structure. The same applies to transports. When a DDIC database table or structure is activated, all associated append structures are found and their components are appended to the DDIC database table or structure. Any foreign keys or search help bindings added using the append structure are also appended. When an append structure is activated, the assigned DDIC database table or DDIC structure is adjusted to the changes made. Any existing tables are not [adjusted](javascript:call_link\('abenddic_database_tables_adj.htm'\)), which can put the fields in the dictionary in a different order from the order on the database. When a DDIC structure or DDIC database table with an append structure is copied, the appended fields, foreign keys, and search helps become real elements of the target of the copy.
+All enhancements are part of the append structure, which means that any changes made to these enhancements are made only using the append structure. The same applies to transports. When a DDIC database table or structure is activated, all associated append structures are found and their components are appended to the DDIC database table or structure. Any foreign keys or search help bindings added using the append structure are also appended. When an append structure is activated, the assigned DDIC database table or DDIC structure is adjusted to the changes made. Any existing tables are not [adjusted](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_adj.htm), which can put the fields in the dictionary in a different order from the order on the database. When a DDIC structure or DDIC database table with an append structure is copied, the appended fields, foreign keys, and search helps become real elements of the target of the copy.
 
 The following must be noted when using append structures to enhance DDIC database tables:
 
--   Append structures can only be appended to [transparent tables](javascript:call_link\('abentransparent_table_glosry.htm'\) "Glossary Entry").
+-   Append structures can only be appended to [transparent tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransparent_table_glosry.htm "Glossary Entry").
 -   No append structures can be appended to DDIC database tables with fields of the type LCHR or LRAW, since these fields must always be the last field of the table.
--   Any fields appended to a DDIC database table using an append structure can be added to its [secondary indexes](javascript:call_link\('abenddic_database_tables_index.htm'\)). No secondary index can be defined for the append structure itself.
+-   Any fields appended to a DDIC database table using an append structure can be added to its [secondary indexes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_index.htm). No secondary index can be defined for the append structure itself.
 -   A binding of a check table or search help that already exists for a field of the DDIC database table cannot be modified using the append structure.
 
 Enhancements of SAP structures or SAP tables using append structures in customer systems do not constitute modifications. Append structures created for SAP objects in customer systems are in the customer namespace (or in the namespace of a partner of a special development project) and hence are protected from being overwritten by upgrades. It is advisable to also create the components of append structures of this type with names from the customer namespace to avoid naming conflicts. After an upgrade, the associated append structures are again appended to tables modified by SAP.
 
-Append structures can be defined as form-based structures in transaction SE11 or as source-code-based structures using [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") in the [ABAP Development Tools](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"). The following section is a summary of the syntax of the source code-based definition:
+Append structures can be defined as form-based structures in transaction SE11 or as source-code-based structures using [Dictionary DDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") in the [ABAP Development Tools](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm "Glossary Entry"). The following section is a summary of the syntax of the source code-based definition:
 
--   [Dictionary DDL for Structure Enhancements](javascript:call_link\('abenddic_extend_type.htm'\))
+-   [Dictionary DDL for Structure Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_extend_type.htm)
 
 Hint
 
@@ -138,17 +100,10 @@ Example
 The append structure DEMO\_APPEND\_STRUCTURE enhances the structure DEMO\_STRUCTURE.
 
 Continue
-[DDIC - Dictionary DDL for Structure Enhancements](javascript:call_link\('abenddic_extend_type.htm'\))
+[DDIC - Dictionary DDL for Structure Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_extend_type.htm)
 
-
-
-**📖 Source**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_structures.htm)
 
 ### abenddic_extend_type.htm
-
-> **📖 Official SAP Documentation**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_extend_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -156,30 +111,23 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Enhancements](javascript:call_link\('abenddic_enhancements.htm'\)) →  [DDIC - Append Structures](javascript:call_link\('abenddic_append_structures.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_enhancements.htm) →  [DDIC - Append Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_structures.htm) → 
 
 DDIC - Dictionary DDL for Structure Enhancements
 
-In the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), a structure or DDIC database table can be given a source-code-based enhancement known as an append structure in [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry"). Here, however, the source code of an append structure is not saved and transported. Instead, the source code of an existing append structure is generated from the metadata of the associated system tables. When saved, the metadata is derived directly from the append structure and saved to the system tables.
+In the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm "Glossary Entry"), a structure or DDIC database table can be given a source-code-based enhancement known as an append structure in [Dictionary DDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendictionary_ddl_glosry.htm "Glossary Entry"). Here, however, the source code of an append structure is not saved and transported. Instead, the source code of an existing append structure is generated from the metadata of the associated system tables. When saved, the metadata is derived directly from the append structure and saved to the system tables.
 
--   [EXTEND TYPE](javascript:call_link\('abenddicddl_extend_type.htm'\))
+-   [EXTEND TYPE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_extend_type.htm)
 
 Hint
 
 Each property of an append structure can be defined using either EXTEND TYPE or in the transaction SE11.
 
 Continue
-[DDIC DDL - EXTEND TYPE](javascript:call_link\('abenddicddl_extend_type.htm'\))
+[DDIC DDL - EXTEND TYPE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_extend_type.htm)
 
-
-
-**📖 Source**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_extend_type.htm)
 
 ### abenddicddl_extend_type.htm
-
-> **📖 Official SAP Documentation**: [abenddicddl_extend_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_extend_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -187,36 +135,36 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Enhancements](javascript:call_link\('abenddic_enhancements.htm'\)) →  [DDIC - Append Structures](javascript:call_link\('abenddic_append_structures.htm'\)) →  [DDIC - Dictionary DDL for Structure Enhancements](javascript:call_link\('abenddic_extend_type.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_enhancements.htm) →  [DDIC - Append Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_structures.htm) →  [DDIC - Dictionary DDL for Structure Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_extend_type.htm) → 
 
 DDIC DDL - EXTEND TYPE
 
 Syntax
 
-[structure\_annos](javascript:call_link\('abenddicddl_define_struct_props.htm'\))
+[structure\_annos](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_struct_props.htm)
 EXTEND TYPE struct*|*dbtab WITH append\_struct {
   ...
-  [component](javascript:call_link\('abenddicddl_define_struct_comps.htm'\))
+  [component](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_struct_comps.htm)
   *\[*...
-  [extend](javascript:call_link\('abenddicddl_define_struct_comp_ext.htm'\))
+  [extend](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_struct_comp_ext.htm)
   ...*\]*;
   ...
-  [include;](javascript:call_link\('abenddicddl_define_struct_incl.htm'\))
+  [include;](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_struct_incl.htm)
   ...
 }
 
 Effect
 
-[Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") statement for defining an ABAP Dictionary [append structure](javascript:call_link\('abenddic_append_structures.htm'\)) append\_struct in the [ABAP Development Tools](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry").
+[Dictionary DDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") statement for defining an ABAP Dictionary [append structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_structures.htm) append\_struct in the [ABAP Development Tools](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm "Glossary Entry").
 
 -   The statement EXTEND TYPE adds the append structure append\_struct defined here either to an existing structure struct or to a DDIC database table dbtab.
--   The mandatory properties of the append structure must be specified in front of the statement EXTEND TYPE using the same annotations [structure\_annos](javascript:call_link\('abenddicddl_define_struct_props.htm'\)) as in the definition of a structure.
--   As in the definition of a structure using [DEFINE STRUCTURE](javascript:call_link\('abenddicddl_define_structure.htm'\)), the components of the append structure are defined in a semicolon-separated list in curly brackets { }, either as individual components [component](javascript:call_link\('abenddicddl_define_struct_comps.htm'\)) or by including include structures [include](javascript:call_link\('abenddicddl_define_struct_incl.htm'\)).
--   As when including structures, an assignment to a search help and a definition of a foreign key dependency can be overwritten using additions [extend](javascript:call_link\('abenddicddl_define_struct_comp_ext.htm'\)) in a blank-separated list.
+-   The mandatory properties of the append structure must be specified in front of the statement EXTEND TYPE using the same annotations [structure\_annos](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_struct_props.htm) as in the definition of a structure.
+-   As in the definition of a structure using [DEFINE STRUCTURE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_structure.htm), the components of the append structure are defined in a semicolon-separated list in curly brackets { }, either as individual components [component](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_struct_comps.htm) or by including include structures [include](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_struct_incl.htm).
+-   As when including structures, an assignment to a search help and a definition of a foreign key dependency can be overwritten using additions [extend](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_define_struct_comp_ext.htm) in a blank-separated list.
 
 Hints
 
--   As in the [CDS syntax](javascript:call_link\('abencds_general_syntax_rules.htm'\)), the definition of an ABAP Dictionary append structure can contain comments after // and between /\* ... \*/.
+-   As in the [CDS syntax](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_general_syntax_rules.htm), the definition of an ABAP Dictionary append structure can contain comments after // and between /\* ... \*/.
 -   A more detailed description of the syntax is available in the ADT documentation Syntax of ABAP Dictionary Objects.
 
 Example
@@ -232,14 +180,7 @@ extend type demo\_structure with demo\_append\_structure {
 The source code used to define the structure DEMO\_STRUCTURE is not modified by this enhancement. In the ADT, however, an icon indicates that the structure is enhanced using DEMO\_APPEND\_STRUCTURE.
 
 
-
-**📖 Source**: [abenddicddl_extend_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_extend_type.htm)
-
 ### abenddic_extend_type.htm
-
-> **📖 Official SAP Documentation**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_extend_type.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -247,30 +188,23 @@ The source code used to define the structure DEMO\_STRUCTURE is not modified by 
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Enhancements](javascript:call_link\('abenddic_enhancements.htm'\)) →  [DDIC - Append Structures](javascript:call_link\('abenddic_append_structures.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_enhancements.htm) →  [DDIC - Append Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_structures.htm) → 
 
 DDIC - Dictionary DDL for Structure Enhancements
 
-In the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), a structure or DDIC database table can be given a source-code-based enhancement known as an append structure in [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry"). Here, however, the source code of an append structure is not saved and transported. Instead, the source code of an existing append structure is generated from the metadata of the associated system tables. When saved, the metadata is derived directly from the append structure and saved to the system tables.
+In the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm "Glossary Entry"), a structure or DDIC database table can be given a source-code-based enhancement known as an append structure in [Dictionary DDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendictionary_ddl_glosry.htm "Glossary Entry"). Here, however, the source code of an append structure is not saved and transported. Instead, the source code of an existing append structure is generated from the metadata of the associated system tables. When saved, the metadata is derived directly from the append structure and saved to the system tables.
 
--   [EXTEND TYPE](javascript:call_link\('abenddicddl_extend_type.htm'\))
+-   [EXTEND TYPE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_extend_type.htm)
 
 Hint
 
 Each property of an append structure can be defined using either EXTEND TYPE or in the transaction SE11.
 
 Continue
-[DDIC DDL - EXTEND TYPE](javascript:call_link\('abenddicddl_extend_type.htm'\))
+[DDIC DDL - EXTEND TYPE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddicddl_extend_type.htm)
 
-
-
-**📖 Source**: [abenddic_extend_type.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_extend_type.htm)
 
 ### abenddic_append_structures.htm
-
-> **📖 Official SAP Documentation**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_structures.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -278,32 +212,32 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Enhancements](javascript:call_link\('abenddic_enhancements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_enhancements.htm) → 
 
 DDIC - Append Structures
 
-An append structure is a structure in ABAP Dictionary appended to another [DDIC structure](javascript:call_link\('abenddic_structures.htm'\)) or [DDIC database table](javascript:call_link\('abenddic_database_tables.htm'\)) and which adds its components to this structure or table. In customer systems, append structures can be added to structures and DDIC database tables delivered by SAP. An append structure is assigned to exactly one table or structure. There can, however, be more than one append structure for a table or structure. The components of append structures must meet the [prerequisites](javascript:call_link\('abenddic_database_tables_techstruc.htm'\)) for table fields.
+An append structure is a structure in ABAP Dictionary appended to another [DDIC structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures.htm) or [DDIC database table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables.htm) and which adds its components to this structure or table. In customer systems, append structures can be added to structures and DDIC database tables delivered by SAP. An append structure is assigned to exactly one table or structure. There can, however, be more than one append structure for a table or structure. The components of append structures must meet the [prerequisites](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_techstruc.htm) for table fields.
 
 The following enhancements can be made to a DDIC database table or structure using an append structure:
 
--   New components inserted (if allowed by the [enhancement category](javascript:call_link\('abenddic_structures_enh_cat.htm'\)))
--   [Foreign keys](javascript:call_link\('abenforeign_key_glosry.htm'\) "Glossary Entry") defined for existing fields of a DDIC database table
--   [Search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry") bound to existing components
+-   New components inserted (if allowed by the [enhancement category](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_structures_enh_cat.htm))
+-   [Foreign keys](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenforeign_key_glosry.htm "Glossary Entry") defined for existing fields of a DDIC database table
+-   [Search helps](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensearch_help_glosry.htm "Glossary Entry") bound to existing components
 
-All enhancements are part of the append structure, which means that any changes made to these enhancements are made only using the append structure. The same applies to transports. When a DDIC database table or structure is activated, all associated append structures are found and their components are appended to the DDIC database table or structure. Any foreign keys or search help bindings added using the append structure are also appended. When an append structure is activated, the assigned DDIC database table or DDIC structure is adjusted to the changes made. Any existing tables are not [adjusted](javascript:call_link\('abenddic_database_tables_adj.htm'\)), which can put the fields in the dictionary in a different order from the order on the database. When a DDIC structure or DDIC database table with an append structure is copied, the appended fields, foreign keys, and search helps become real elements of the target of the copy.
+All enhancements are part of the append structure, which means that any changes made to these enhancements are made only using the append structure. The same applies to transports. When a DDIC database table or structure is activated, all associated append structures are found and their components are appended to the DDIC database table or structure. Any foreign keys or search help bindings added using the append structure are also appended. When an append structure is activated, the assigned DDIC database table or DDIC structure is adjusted to the changes made. Any existing tables are not [adjusted](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_adj.htm), which can put the fields in the dictionary in a different order from the order on the database. When a DDIC structure or DDIC database table with an append structure is copied, the appended fields, foreign keys, and search helps become real elements of the target of the copy.
 
 The following must be noted when using append structures to enhance DDIC database tables:
 
--   Append structures can only be appended to [transparent tables](javascript:call_link\('abentransparent_table_glosry.htm'\) "Glossary Entry").
+-   Append structures can only be appended to [transparent tables](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentransparent_table_glosry.htm "Glossary Entry").
 -   No append structures can be appended to DDIC database tables with fields of the type LCHR or LRAW, since these fields must always be the last field of the table.
--   Any fields appended to a DDIC database table using an append structure can be added to its [secondary indexes](javascript:call_link\('abenddic_database_tables_index.htm'\)). No secondary index can be defined for the append structure itself.
+-   Any fields appended to a DDIC database table using an append structure can be added to its [secondary indexes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_tables_index.htm). No secondary index can be defined for the append structure itself.
 -   A binding of a check table or search help that already exists for a field of the DDIC database table cannot be modified using the append structure.
 
 Enhancements of SAP structures or SAP tables using append structures in customer systems do not constitute modifications. Append structures created for SAP objects in customer systems are in the customer namespace (or in the namespace of a partner of a special development project) and hence are protected from being overwritten by upgrades. It is advisable to also create the components of append structures of this type with names from the customer namespace to avoid naming conflicts. After an upgrade, the associated append structures are again appended to tables modified by SAP.
 
-Append structures can be defined as form-based structures in transaction SE11 or as source-code-based structures using [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") in the [ABAP Development Tools](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"). The following section is a summary of the syntax of the source code-based definition:
+Append structures can be defined as form-based structures in transaction SE11 or as source-code-based structures using [Dictionary DDL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") in the [ABAP Development Tools](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenadt_glosry.htm "Glossary Entry"). The following section is a summary of the syntax of the source code-based definition:
 
--   [Dictionary DDL for Structure Enhancements](javascript:call_link\('abenddic_extend_type.htm'\))
+-   [Dictionary DDL for Structure Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_extend_type.htm)
 
 Hint
 
@@ -314,17 +248,10 @@ Example
 The append structure DEMO\_APPEND\_STRUCTURE enhances the structure DEMO\_STRUCTURE.
 
 Continue
-[DDIC - Dictionary DDL for Structure Enhancements](javascript:call_link\('abenddic_extend_type.htm'\))
+[DDIC - Dictionary DDL for Structure Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_extend_type.htm)
 
-
-
-**📖 Source**: [abenddic_append_structures.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_structures.htm)
 
 ### abenddic_append_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -332,39 +259,29 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Enhancements](javascript:call_link\('abenddic_enhancements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_enhancements.htm) → 
 
 DDIC - Append Views
 
-[DDIC database views](javascript:call_link\('abenddic_database_views.htm'\)) delivered by SAP can be enhanced by partners and customers using views known as DDIC append views, without making any modifications. The name of an append view is subject to the same rules as the name of a [DDIC view](javascript:call_link\('abenddic_views.htm'\)) and should be located in the customer namespace (or in the namespace of a partner or special development) to protect it against being overwritten by upgrades or new releases.
+[DDIC database views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_database_views.htm) delivered by SAP can be enhanced by partners and customers using views known as DDIC append views, without making any modifications. The name of an append view is subject to the same rules as the name of a [DDIC view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_views.htm) and should be located in the customer namespace (or in the namespace of a partner or special development) to protect it against being overwritten by upgrades or new releases.
 
 Further fields from basis tables in the DDIC database view can be added to DDIC append views as view fields. Append views cannot be used to add further basis tables to the view or to modify the join conditions or selection conditions of a DDIC database view. An append view is assigned to exactly one DDIC database view. More than one append view can be created for a DDIC database view.
 
-When an DDIC append view is activated, an [append structure](javascript:call_link\('abenappend_structure_glosry.htm'\) "Glossary Entry") with this name is created in ABAP Dictionary and its components become the additional view fields of the append view.
+When an DDIC append view is activated, an [append structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenappend_structure_glosry.htm "Glossary Entry") with this name is created in ABAP Dictionary and its components become the additional view fields of the append view.
 
 If a DDIC database view is activated, all DDIC append views for this view are found and their fields are appended to the DDIC database view. The append structure of the append view is added to the structure of the DDIC database view. If an append view is created or modified, the associated DDIC database view is adjusted to this change automatically when the append view is activated.
 
 Hints
 
--   DDIC append views are possible only for DDIC database views and not for other [DDIC views](javascript:call_link\('abenddic_views.htm'\)).
--   In the case of [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") linked with [CDS-managed DDIC views](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry"), [CDS view extensions](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry") are a separate option for extensions and work in the similar way to append views. When a CDS view extension is created, an append view is created that is added to the [CDS-managed DDIC view](javascript:call_link\('abencds_mngdddic_view_glosry.htm'\) "Glossary Entry").
+-   DDIC append views are possible only for DDIC database views and not for other [DDIC views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_views.htm).
+-   In the case of [CDS views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_view_glosry.htm "Glossary Entry") linked with [CDS-managed DDIC views](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry"), [CDS view extensions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") are a separate option for extensions and work in the similar way to append views. When a CDS view extension is created, an append view is created that is added to the [CDS-managed DDIC view](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry").
 
 Example
 
-The DDIC append view DEMO\_APPEND\_VIEW is added to the DDIC database view DEMO\_ORIGINAL. The program DEMO\_APPEND\_VIEW uses [SELECT](javascript:call_link\('abapselect.htm'\)) to access the extended view and also displays the components of the structures in question.
+The DDIC append view DEMO\_APPEND\_VIEW is added to the DDIC database view DEMO\_ORIGINAL. The program DEMO\_APPEND\_VIEW uses [SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm) to access the extended view and also displays the components of the structures in question.
 
-
-
-**📖 Source**: [abenddic_append_views.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_append_views.htm)
 
 ### abenddic_fixed_value_appends.htm
-
-> **📖 Official SAP Documentation**: [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_fixed_value_appends.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenddic_fixed_value_appends.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_fixed_value_appends.htm)
-
 
   
 
@@ -372,13 +289,13 @@ The DDIC append view DEMO\_APPEND\_VIEW is added to the DDIC database view DEMO\
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Enhancements](javascript:call_link\('abenddic_enhancements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dictionary.htm) →  [DDIC - Enhancements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_enhancements.htm) → 
 
 DDIC - Fixed Value Appends
 
-[Domains](javascript:call_link\('abenddic_domains.htm'\)) delivered by SAP can be enhanced by partners and customers using appends known as fixed value appends, without making any modifications. The name of a fixed value append is subject to the same rules as the name of a domain and should be located in the customer namespace (or in the namespace of a partner or special development) to protect it against being overwritten by upgrades or new releases.
+[Domains](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenddic_domains.htm) delivered by SAP can be enhanced by partners and customers using appends known as fixed value appends, without making any modifications. The name of a fixed value append is subject to the same rules as the name of a domain and should be located in the customer namespace (or in the namespace of a partner or special development) to protect it against being overwritten by upgrades or new releases.
 
-A fixed value append adds further [fixed values](javascript:call_link\('abenfixed_value_glosry.htm'\) "Glossary Entry") or intervals to the value range of a domain. A domain can have more than one fixed value append.
+A fixed value append adds further [fixed values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfixed_value_glosry.htm "Glossary Entry") or intervals to the value range of a domain. A domain can have more than one fixed value append.
 
 When a domain is activated, all fixed value appends for this domain are found and their fixed values and intervals added to the domain. When a fixed value append is created or modified, the associated domain is adjusted to this change automatically when the fixed value append is activated.
 

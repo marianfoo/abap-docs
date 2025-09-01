@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Functions (string\_func)](javascript:call_link\('abenstring_functions.htm'\)) →  [string\_func - Processing Functions](javascript:call_link\('abenprocess_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_processing_expr_func.htm) →  [String Functions (string\_func)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions.htm) →  [string\_func - Processing Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenprocess_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20string_func%20-%20substring%2C%20substring_...%2C%20ABENSUBSTRING_FUNCTIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:
 )
@@ -13,43 +13,43 @@ string\_func - substring, substring\_...
 
 Syntax
 
-1\. ... substring( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) *\[* [off = off](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[*[len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* ) ...
+1\. ... substring( [val = text](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm) *\[* [off = off](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_off_len.htm)*\]* *\[*[len = len](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_off_len.htm)*\]* ) ...
 
-2\. ... substring\_from( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) *{* [sub = substring](javascript:call_link\('abenstring_functions_sub.htm'\))*}**|**{* [pcre = regex](javascript:call_link\('abenstring_functions_regex.htm'\))*}*
-                     *\[* [case = case](javascript:call_link\('abenstring_functions_case.htm'\))*\]* *\[* [occ = occ](javascript:call_link\('abenstring_functions_occ.htm'\))*\]* *\[* [len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]*  ) ...
+2\. ... substring\_from( [val = text](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm) *{* [sub = substring](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_sub.htm)*}**|**{* [pcre = regex](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_regex.htm)*}*
+                     *\[* [case = case](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_case.htm)*\]* *\[* [occ = occ](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_occ.htm)*\]* *\[* [len = len](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_off_len.htm)*\]*  ) ...
 
-3\. ... substring\_after( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) *{* [sub = substring](javascript:call_link\('abenstring_functions_sub.htm'\))*}**|**{* [pcre = regex](javascript:call_link\('abenstring_functions_regex.htm'\))*}*
-                      *\[*[case = case](javascript:call_link\('abenstring_functions_case.htm'\))*\]* *\[* [occ = occ](javascript:call_link\('abenstring_functions_occ.htm'\))*\]* *\[* [len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]*  ) ...
+3\. ... substring\_after( [val = text](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm) *{* [sub = substring](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_sub.htm)*}**|**{* [pcre = regex](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_regex.htm)*}*
+                      *\[*[case = case](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_case.htm)*\]* *\[* [occ = occ](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_occ.htm)*\]* *\[* [len = len](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_off_len.htm)*\]*  ) ...
 
-4\. ... substring\_before( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) *{* [sub = substring](javascript:call_link\('abenstring_functions_sub.htm'\))*}**|**{* [pcre = regex](javascript:call_link\('abenstring_functions_regex.htm'\))*}*
-                       *\[*[case = case](javascript:call_link\('abenstring_functions_case.htm'\))*\]* *\[* [occ = occ](javascript:call_link\('abenstring_functions_occ.htm'\))*\]* *\[* [len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]*  ) ...
+4\. ... substring\_before( [val = text](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm) *{* [sub = substring](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_sub.htm)*}**|**{* [pcre = regex](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_regex.htm)*}*
+                       *\[*[case = case](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_case.htm)*\]* *\[* [occ = occ](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_occ.htm)*\]* *\[* [len = len](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_off_len.htm)*\]*  ) ...
 
-5\. ... substring\_to( [val = text](javascript:call_link\('abenstring_functions_val.htm'\)) *{* [sub = substring](javascript:call_link\('abenstring_functions_sub.htm'\))*}**|**{* [pcre = regex](javascript:call_link\('abenstring_functions_regex.htm'\))*}*
-                   *\[* [case = case](javascript:call_link\('abenstring_functions_case.htm'\))*\]* *\[* [occ = occ](javascript:call_link\('abenstring_functions_occ.htm'\))*\]* *\[* [len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]*  ) ...
+5\. ... substring\_to( [val = text](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm) *{* [sub = substring](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_sub.htm)*}**|**{* [pcre = regex](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_regex.htm)*}*
+                   *\[* [case = case](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_case.htm)*\]* *\[* [occ = occ](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_occ.htm)*\]* *\[* [len = len](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_off_len.htm)*\]*  ) ...
 
 Effect
 
-The [built-in](javascript:call_link\('abenbuilt_in_functions.htm'\)) substring functions determine a substring in the argument [text](javascript:call_link\('abenstring_functions_val.htm'\)) and return it.
+The [built-in](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbuilt_in_functions.htm) substring functions determine a substring in the argument [text](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_val.htm) and return it.
 
 The substring is determined as follows:
 
--   The function substring uses the offset [off](javascript:call_link\('abenstring_functions_off_len.htm'\)) and the length [len](javascript:call_link\('abenstring_functions_off_len.htm'\)) to return a certain substring. At least one of the arguments off or len must be specified.
--   The function substring\_from searches text for the match specified in [occ](javascript:call_link\('abenstring_functions_occ.htm'\)) with the character string specified in [substring](javascript:call_link\('abenstring_functions_sub.htm'\)) or with the [regular expression](javascript:call_link\('abenregex_syntax.htm'\)) specified in [regex](javascript:call_link\('abenstring_functions_regex.htm'\)) and returns the subarea of the length [len](javascript:call_link\('abenstring_functions_off_len.htm'\)) from the offset of the occurrence.
+-   The function substring uses the offset [off](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_off_len.htm) and the length [len](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_off_len.htm) to return a certain substring. At least one of the arguments off or len must be specified.
+-   The function substring\_from searches text for the match specified in [occ](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_occ.htm) with the character string specified in [substring](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_sub.htm) or with the [regular expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_syntax.htm) specified in [regex](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_regex.htm) and returns the subarea of the length [len](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_off_len.htm) from the offset of the occurrence.
     
-    If the argument pcre is used, regex must contain a [PCRE regular expression](javascript:call_link\('abenregex_pcre_syntax.htm'\)). A regular expression in PCRE syntax is compiled in an extended mode: Most unescaped whitespace (blanks and line breaks) of the pattern are ignored outside character classes and comments can be placed behind #. In order to include whitespace and # into a pattern, they must be escaped or the extended mode must be switched of with [(?-x)](javascript:call_link\('abenregex_pcre_syntax_specials.htm'\)) in the regular expression.
+    If the argument pcre is used, regex must contain a [PCRE regular expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_pcre_syntax.htm). A regular expression in PCRE syntax is compiled in an extended mode: Most unescaped whitespace (blanks and line breaks) of the pattern are ignored outside character classes and comments can be placed behind #. In order to include whitespace and # into a pattern, they must be escaped or the extended mode must be switched of with [(?-x)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_pcre_syntax_specials.htm) in the regular expression.
     
     If len is not specified, the substring is returned to the end of the character string. If substring is empty, an exception of the class CX\_SY\_STRG\_PAR\_VAL is raised. The search is case-sensitive by default, but this can be overridden using the parameter case. If no substring is found, the return value is empty.
     
 -   The function substring\_after works in the same way as substring\_from, but the subarea plus the length of the substring found is returned, from the offset of the occurrence.
--   The function substring\_before works in the same way as substring\_from, but the subarea of the length [len](javascript:call_link\('abenstring_functions_off_len.htm'\)) is returned before the offset of the occurrence. If len is not specified, the subarea is formed from the start of the character string.
+-   The function substring\_before works in the same way as substring\_from, but the subarea of the length [len](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_off_len.htm) is returned before the offset of the occurrence. If len is not specified, the subarea is formed from the start of the character string.
 -   The function substring\_to works in the same way as substring\_before, but the subarea before the offset of the occurrence plus the length of the substring found is returned.
 
 The return value has the type string accordingly.
 
 Hints
 
--   The performance of the substring functions is not as good as a direct [substring access](javascript:call_link\('abenoffset_length.htm'\)). They do, however, make it possible to use [expressions](javascript:call_link\('abenexpression_glosry.htm'\) "Glossary Entry") in all operand positions and they allow searches for substrings that match regular expressions.
--   Besides pcre, also the obsolete argument [regex](javascript:call_link\('abenstring_functions_regex_obs.htm'\)) can be used. Then an obsolete [POSIX regular expression](javascript:call_link\('abenregex_posix_syntax.htm'\)) must be passed.
+-   The performance of the substring functions is not as good as a direct [substring access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenoffset_length.htm). They do, however, make it possible to use [expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexpression_glosry.htm "Glossary Entry") in all operand positions and they allow searches for substrings that match regular expressions.
+-   Besides pcre, also the obsolete argument [regex](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenstring_functions_regex_obs.htm) can be used. Then an obsolete [POSIX regular expression](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_posix_syntax.htm) must be passed.
 
 Example
 
@@ -68,7 +68,7 @@ result = substring\_before( val = 'ABCDEFGH' sub = 'CD' ).
 result = substring\_to( val = 'ABCDEFGH' sub = 'CD' ).
 ...
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -79,7 +79,7 @@ CX\_SY\_RANGE\_OUT\_OF\_BOUNDS
 
 CX\_SY\_REGEX\_TOO\_COMPLEX
 
--   Cause: More information: [Exceptions in Regular Expressions](javascript:call_link\('abenregex_exceptions.htm'\)).
+-   Cause: More information: [Exceptions in Regular Expressions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenregex_exceptions.htm).
     Runtime error: REGEX\_TOO\_COMPLEX
 
 CX\_SY\_STRG\_PAR\_VAL

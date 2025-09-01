@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrobust_abap_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Internal Tables, ABENITAB_GDL, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestio
 n for improvement:)
@@ -33,7 +33,7 @@ An internal table is a dynamic data object consisting of a sequence of lines wit
     Every internal table has a primary table key. A table key consists of columns from the internal table. The content of these columns identifies table lines. The table category determines whether a key is unique or non-unique.
     
 
-Internal tables enable variable datasets (a variable number of lines) with a fixed structure (the line type) to be processed in the working memory of the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") of a program. The content of an internal table can either be accessed sequentially in a LOOP or by accessing individual lines (for example, by using READ TABLE or a table expression).
+Internal tables enable variable datasets (a variable number of lines) with a fixed structure (the line type) to be processed in the working memory of the [internal session](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninternal_session_glosry.htm "Glossary Entry") of a program. The content of an internal table can either be accessed sequentially in a LOOP or by accessing individual lines (for example, by using READ TABLE or a table expression).
 
 There are two ways of accessing individual lines:
 
@@ -42,19 +42,19 @@ There are two ways of accessing individual lines:
 
 Primary table access is possible for all three table categories. Access using the primary key, however, is optimized only for sorted tables and hashed tables. In standard tables, primary key access uses a linear search. Access using the primary line index, on the other hand, is possible for standard tables and sorted tables only. As well as its primary key, an internal key can also have further secondary keys. These keys enhance and optimize access options to the various table categories.
 
--   [Selecting the Table Category](javascript:call_link\('abenselect_table_type_guidl.htm'\) "Guideline")
--   [Secondary Keys](javascript:call_link\('abensecondary_key_guidl.htm'\) "Guideline")
--   [Initial Memory Requirement](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\) "Guideline")
--   [Sorted Filling](javascript:call_link\('abensort_guidl.htm'\) "Guideline")
--   [Compressed Filling](javascript:call_link\('abencollect_guidl.htm'\) "Guideline")
--   [Target Area](javascript:call_link\('abentable_output_guidl.htm'\) "Guideline")
--   [Loop Processing](javascript:call_link\('abenloop_guidl.htm'\) "Guideline")
+-   [Selecting the Table Category](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_table_type_guidl.htm "Guideline")
+-   [Secondary Keys](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_key_guidl.htm "Guideline")
+-   [Initial Memory Requirement](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninitial_memory_requ_guidl.htm "Guideline")
+-   [Sorted Filling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensort_guidl.htm "Guideline")
+-   [Compressed Filling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencollect_guidl.htm "Guideline")
+-   [Target Area](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_output_guidl.htm "Guideline")
+-   [Loop Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenloop_guidl.htm "Guideline")
 
 Continue
-[Selecting the Table Category](javascript:call_link\('abenselect_table_type_guidl.htm'\))
-[Secondary Key](javascript:call_link\('abensecondary_key_guidl.htm'\))
-[Initial Memory Requirement](javascript:call_link\('abeninitial_memory_requ_guidl.htm'\))
-[Sorted Filling](javascript:call_link\('abensort_guidl.htm'\))
-[Collected Filling](javascript:call_link\('abencollect_guidl.htm'\))
-[Target Area](javascript:call_link\('abentable_output_guidl.htm'\))
-[Loop Processing](javascript:call_link\('abenloop_guidl.htm'\))
+[Selecting the Table Category](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenselect_table_type_guidl.htm)
+[Secondary Key](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_key_guidl.htm)
+[Initial Memory Requirement](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninitial_memory_requ_guidl.htm)
+[Sorted Filling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensort_guidl.htm)
+[Collected Filling](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencollect_guidl.htm)
+[Target Area](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_output_guidl.htm)
+[Loop Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenloop_guidl.htm)

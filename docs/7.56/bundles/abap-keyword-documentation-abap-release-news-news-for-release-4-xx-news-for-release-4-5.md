@@ -3,27 +3,7 @@
 Included pages: 3
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.56](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abennews-40-other-45a.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-45a.htm)
-- [abennews-40-objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-objects.htm)
-- [abennews-45-se30.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-45-se30.htm)
-
-**Bundle Contains**: 3 documentation pages
-**Version**: ABAP 7.56
-**Generated**: 2025-09-01T11:25:45.510Z
-
----
-
 ### abennews-40-other-45a.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-other-45a.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-45a.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -31,7 +11,7 @@ Included pages: 3
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) → 
 
 News for Release 4.5
 
@@ -42,18 +22,18 @@ News for Release 4.5
 [5\. New Addition for IMPORT](#!ABAP_MODIFICATION_5@5@)
 [6\. New Addition QUICKINFO for WRITE](#!ABAP_MODIFICATION_6@6@)
 
--   [Introducing ABAP Objects in Release 4.5](javascript:call_link\('abennews-40-objects.htm'\))
--   [Runtime Analysis in Release 4.5](javascript:call_link\('abennews-45-se30.htm'\))
+-   [Introducing ABAP Objects in Release 4.5](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-objects.htm)
+-   [Runtime Analysis in Release 4.5](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-45-se30.htm)
 
 Modification 1   
 
 New Addition STABLE for the Statement SORT
-This addition makes stable sorts of internal tables and [extract datasets](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry") possible.
+This addition makes stable sorts of internal tables and [extract datasets](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenextract_dataset_glosry.htm "Glossary Entry") possible.
 
 Modification 2   
 
 New Error Classes for Catchable Runtime Errors
-The following new [ERROR classes](javascript:call_link\('abensysexc-errkl.htm'\)) are supported:
+The following new [ERROR classes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensysexc-errkl.htm) are supported:
 FILE\_ACCESS\_ERRORS
 IMPORT\_MISMATCH\_ERRORS
 LOCALIZATION\_ERRORS
@@ -61,36 +41,29 @@ LOCALIZATION\_ERRORS
 Modification 3   
 
 New Statement SET RUN TIME CLOCK RESOLUTION *\[*HIGH*|*LOW*\]*
-This statement can be used to set the clock used to measure runtime in the statement [GET RUN TIME](javascript:call_link\('abapget_run_time.htm'\)).
+This statement can be used to set the clock used to measure runtime in the statement [GET RUN TIME](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_run_time.htm).
 
 Modification 4   
 
 New Addition for EXPORT
-In [EXPORT obj1...objn TO DATABASE/SHARED BUFFER dbtab(ar) ID key](javascript:call_link\('abapexport_data_cluster.htm'\)) the addition FROM wa uses the specified work area wa instead of the table work area.
+In [EXPORT obj1...objn TO DATABASE/SHARED BUFFER dbtab(ar) ID key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexport_data_cluster.htm) the addition FROM wa uses the specified work area wa instead of the table work area.
 
 Modification 5   
 
 New Addition for IMPORT
-In [IMPORT obj1...objn FROM DATABASE/SHARED BUFFER dbtab(ar) ID key](javascript:call_link\('abapimport_data_cluster.htm'\)) the addition TO wa uses the specified work area wa instead of the table work area.
+In [IMPORT obj1...objn FROM DATABASE/SHARED BUFFER dbtab(ar) ID key](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_data_cluster.htm) the addition TO wa uses the specified work area wa instead of the table work area.
 
 Modification 6   
 
 New Addition QUICKINFO for WRITE
-This addition for WRITE f is used to display the field f with the [tooltip](javascript:call_link\('abentool_tip_glosry.htm'\) "Glossary Entry") g. The content of g appears as an explanatory text for f whenever the mouse pointer is positioned over f.
+This addition for WRITE f is used to display the field f with the [tooltip](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentool_tip_glosry.htm "Glossary Entry") g. The content of g appears as an explanatory text for f whenever the mouse pointer is positioned over f.
 
 Continue
-[Introducing ABAP Objects in Release 4.5](javascript:call_link\('abennews-40-objects.htm'\))
-[Runtime Analysis in Release 4.5](javascript:call_link\('abennews-45-se30.htm'\))
+[Introducing ABAP Objects in Release 4.5](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-objects.htm)
+[Runtime Analysis in Release 4.5](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-45-se30.htm)
 
-
-
-**📖 Source**: [abennews-40-other-45a.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-45a.htm)
 
 ### abennews-40-objects.htm
-
-> **📖 Official SAP Documentation**: [abennews-40-objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-objects.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -98,7 +71,7 @@ Continue
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.5](javascript:call_link\('abennews-40-other-45a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.5](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-45a.htm) → 
 
 Introducing ABAP Objects in Release 4.5
 
@@ -109,17 +82,7 @@ The kernel functions of ABAP Objects are available from Release 4.5A. The follow
 ABAP Objects will first be used productively in pilot projects, which will probably produce minor changes to the language. Activities that prepare for the introduction of ABAP Objects in the applications will be performed in parallel. This should answer any fundamental questions about object-oriented programming in ABAP centrally.
 
 
-
-**📖 Source**: [abennews-40-objects.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-objects.htm)
-
 ### abennews-45-se30.htm
-
-> **📖 Official SAP Documentation**: [abennews-45-se30.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-45-se30.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abennews-45-se30.htm](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-45-se30.htm)
-
 
   
 
@@ -127,7 +90,7 @@ ABAP Objects will first be used productively in pilot projects, which will proba
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for Release 4.5](javascript:call_link\('abennews-40-other-45a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews.htm) →  [News for Release 4.xx](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-4.htm) →  [News for Release 4.5](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abennews-40-other-45a.htm) → 
 
 Runtime Analysis in Release 4.5
 
@@ -146,12 +109,12 @@ During measurement, the compressed data is written to a file in blocks. It is th
 Modification 2   
 
 Setting Measurement Accuracy
-Before the measurement, the [measurement accuracy](javascript:call_link\('abapset_run_time_clock_resolution.htm'\)) can be set between high and low.
+Before the measurement, the [measurement accuracy](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_run_time_clock_resolution.htm) can be set between high and low.
 
 Modification 3   
 
 Information About the Measurement Interval
-In the initial screen, choose Utilities → Measurement interval... to see the size of the maximum [measurement interval](javascript:call_link\('abapget_run_time.htm'\)) of the machine in question depending on the measurement accuracy set.
+In the initial screen, choose Utilities → Measurement interval... to see the size of the maximum [measurement interval](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapget_run_time.htm) of the machine in question depending on the measurement accuracy set.
 
 Modification 4   
 
@@ -159,7 +122,7 @@ Statistics
 When the statistics are called up, the following information is provided about the loaded programs:
 \- Load size in bytes
 \- Size of the global data in bytes
-\- Number of [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") defined or used
+\- Number of [procedures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprocedure_glosry.htm "Glossary Entry") defined or used
 The statistics can be sorted by a column by clicking the title of the column once.
 An overview of the procedures can be displayed by clicking the number of defined or used procedures once. In this overview, click a procedure to go to the position of the procedure call or definition.
 
@@ -174,6 +137,6 @@ Interface Changes
 
 The following changes were made:
 
--   Initial screen: Settings → Measurement Accuracy...(see [SET RUN TIME CLOCK RESOLUTION HIGH/LOW](javascript:call_link\('abapset_run_time_clock_resolution.htm'\))).
+-   Initial screen: Settings → Measurement Accuracy...(see [SET RUN TIME CLOCK RESOLUTION HIGH/LOW](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_run_time_clock_resolution.htm)).
 -   Initial screen: Utilities → Measurement Interval ...
 -   Overview screen: Goto → Statistics

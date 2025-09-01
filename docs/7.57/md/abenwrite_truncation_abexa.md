@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) →  [WRITE, TO](javascript:call_link\('abapwrite_to.htm'\)) →  [WRITE, Truncation Behavior](javascript:call_link\('abenwrite_truncations.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_processing_statements.htm) →  [WRITE, TO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to.htm) →  [WRITE, Truncation Behavior](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_truncations.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: WRITE TO, Truncation Behavior, ABENWRITE_TRUNCATION_ABEXA, 757%0D%0A%0D%0AError:%0D%0
 A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 WRITE TO, Truncation Behavior
 
-This example demonstrates the [truncation behavior](javascript:call_link\('abenwrite_truncations.htm'\)) of the statement [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) for all elementary data types.
+This example demonstrates the [truncation behavior](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenwrite_truncations.htm) of the statement [WRITE TO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to.htm) for all elementary data types.
 
 Source Code   
 
@@ -190,8 +190,8 @@ START-OF-SELECTION.
 
 Description   
 
-The class demo contains an attribute for every [built-in ABAP type](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) and for [time stamps in packed numbers](javascript:call_link\('abentime_stamps_packed.htm'\)). These attributes are filled with example values and assigned to a data object using [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)), whose length can be selected on the selection screen.
+The class demo contains an attribute for every [built-in ABAP type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_types_complete.htm) and for [time stamps in packed numbers](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentime_stamps_packed.htm). These attributes are filled with example values and assigned to a data object using [WRITE TO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to.htm), whose length can be selected on the selection screen.
 
-The [country-specific formats](javascript:call_link\('abencountry_formats.htm'\)) for numbers, dates, and times set by [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)) can also be specified on the selection screen. This example demonstrates these formats as well.
+The [country-specific formats](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencountry_formats.htm) for numbers, dates, and times set by [SET COUNTRY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapset_country.htm) can also be specified on the selection screen. This example demonstrates these formats as well.
 
 The output list shows the result of the formatting for each data type. If an exception is raised, the character "!" is output in a different color.

@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Structure and Style](javascript:call_link\('abenstructure_style_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Structure and Style](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstructure_style_guidl.htm) → 
 
 Comments
 
@@ -22,13 +22,13 @@ An end of line comment is a comment added using the " character and located on t
 
 A comment line or end of line comment can have any content and this content is ignored when the program is generated using ABAP Compiler.
 
--   [Choosing the Language](javascript:call_link\('abenlangu_choice_guidl.htm'\) "Guideline")
+-   [Choosing the Language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlangu_choice_guidl.htm "Guideline")
 
--   [Content](javascript:call_link\('abencontent_guidl.htm'\) "Guideline")
+-   [Content](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontent_guidl.htm "Guideline")
 
--   [Arrangement in the Source Code](javascript:call_link\('abenarrange_guidl.htm'\) "Guideline")
+-   [Arrangement in the Source Code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarrange_guidl.htm "Guideline")
 
 Continue
-[Choosing the Language](javascript:call_link\('abenlangu_choice_guidl.htm'\))
-[Content](javascript:call_link\('abencontent_guidl.htm'\))
-[Arrangement in the Source Code](javascript:call_link\('abenarrange_guidl.htm'\))
+[Choosing the Language](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlangu_choice_guidl.htm)
+[Content](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontent_guidl.htm)
+[Arrangement in the Source Code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenarrange_guidl.htm)

@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 logical function
 
-[Built-in function](javascript:call_link\('abenpredefined_function_glosry.htm'\) "Glossary Entry"). Either a [Boolean function](javascript:call_link\('abenboole_function_glosry.htm'\) "Glossary Entry") that evaluates a [logical expression](javascript:call_link\('abenlogical_expression_glosry.htm'\) "Glossary Entry") or a [predicate function](javascript:call_link\('abenpredicate_function_glosry.htm'\) "Glossary Entry") that returns a [logical value](javascript:call_link\('abenlogical_value_glosry.htm'\) "Glossary Entry").
+[Built-in function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredefined_function_glosry.htm "Glossary Entry"). Either a [Boolean function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenboole_function_glosry.htm "Glossary Entry") that evaluates a [logical expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_expression_glosry.htm "Glossary Entry") or a [predicate function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpredicate_function_glosry.htm "Glossary Entry") that returns a [logical value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_value_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenlogic_functions.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogic_functions.htm)

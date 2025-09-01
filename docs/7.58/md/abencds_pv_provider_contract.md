@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - Projection Views](javascript:call_link\('abencds_proj_views.htm'\)) →  [CDS DDL - CDS Projection View, Transactional Queries](javascript:call_link\('abencds_pv_transactional_query.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_entity.htm) →  [ABAP CDS - Projection Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_proj_views.htm) →  [CDS DDL - CDS Projection View, Transactional Queries](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_transactional_query.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20PROVIDER%20CONTRACT%2C%20ABENCDS_PV_PROVIDER_CONTRACT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -46,7 +46,7 @@ Currently, the following provider contracts are available:
 -   TRANSACTIONAL\_INTERFACE
 -   ANALYTICAL\_QUERY
 
-[Child entities](javascript:call_link\('abenchild_entity_glosry.htm'\) "Glossary Entry") within a [CDS composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") inherit their parents' provider contract and the specification of a provider contract for a child entity is not allowed. As soon as a projection view contains a [to-parent association](javascript:call_link\('abento_parent_association_glosry.htm'\) "Glossary Entry") or a [redirection](javascript:call_link\('abencds_pv_assoc_redirected.htm'\)) to a parent entity, a provider contract must not be set.
+[Child entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenchild_entity_glosry.htm "Glossary Entry") within a [CDS composition tree](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") inherit their parents' provider contract and the specification of a provider contract for a child entity is not allowed. As soon as a projection view contains a [to-parent association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abento_parent_association_glosry.htm "Glossary Entry") or a [redirection](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_assoc_redirected.htm) to a parent entity, a provider contract must not be set.
 
 Hint
 
@@ -58,11 +58,11 @@ Addition 1  
 
 Effect
 
-Specifies a CDS projection view as [transactional query](javascript:call_link\('abencds_transactional_pv_glosry.htm'\) "Glossary Entry"). Transactional queries are intended for modelling the projection layer of a [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry"). A transactional projection view must always be part of a business object. That means it must either be a [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") itself, or it must be part of a composition tree that contains a root entity.
+Specifies a CDS projection view as [transactional query](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_transactional_pv_glosry.htm "Glossary Entry"). Transactional queries are intended for modelling the projection layer of a [RAP business object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry"). A transactional projection view must always be part of a business object. That means it must either be a [root entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenroot_entity_glosry.htm "Glossary Entry") itself, or it must be part of a composition tree that contains a root entity.
 
-The feature set focuses on specializing the [RAP BO operations](javascript:call_link\('abenrap_bo_operation_glosry.htm'\) "Glossary Entry") of the underlying business object.
+The feature set focuses on specializing the [RAP BO operations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_operation_glosry.htm "Glossary Entry") of the underlying business object.
 
-The runtime for transactional queries is mainly the [RAP query engine](javascript:call_link\('abenrap_query_engine_glosry.htm'\) "Glossary Entry"), but also the [RAP transactional engine](javascript:call_link\('abenrap_transac_engine_glosry.htm'\) "Glossary Entry").
+The runtime for transactional queries is mainly the [RAP query engine](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_query_engine_glosry.htm "Glossary Entry"), but also the [RAP transactional engine](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_transac_engine_glosry.htm "Glossary Entry").
 
 Example
 
@@ -103,7 +103,7 @@ Addition 2  
 
 Effect
 
-Specifies a [CDS transactional interface](javascript:call_link\('abencds_trans_interface_glosry.htm'\) "Glossary Entry"). CDS transactional interfaces serve as stable public interface layer in a CDS data model. They are typically used in the context of the [ABAP RESTful Application Programming Model](javascript:call_link\('abenarap_glosry.htm'\) "Glossary Entry") to provide the basis for a [RAP BO interface](javascript:call_link\('abenrap_bo_interface_glosry.htm'\) "Glossary Entry"). CDS transactional interfaces have a restricted feature set. They only support projecting elements and associations from the projected entity. It is recommended that [release contracts](javascript:call_link\('abenrelease_contract_glosry.htm'\) "Glossary Entry") [C1](javascript:call_link\('abenc1_contract_glosry.htm'\) "Glossary Entry") and, optionally, also [C0](javascript:call_link\('abenc1_contract_glosry.htm'\) "Glossary Entry") are added.
+Specifies a [CDS transactional interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_trans_interface_glosry.htm "Glossary Entry"). CDS transactional interfaces serve as stable public interface layer in a CDS data model. They are typically used in the context of the [ABAP RESTful Application Programming Model](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarap_glosry.htm "Glossary Entry") to provide the basis for a [RAP BO interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_interface_glosry.htm "Glossary Entry"). CDS transactional interfaces have a restricted feature set. They only support projecting elements and associations from the projected entity. It is recommended that [release contracts](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrelease_contract_glosry.htm "Glossary Entry") [C1](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_contract_glosry.htm "Glossary Entry") and, optionally, also [C0](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenc1_contract_glosry.htm "Glossary Entry") are added.
 
 Example
 
@@ -146,9 +146,9 @@ Addition 3  
 
 Effect
 
-[CDS analytical projection views](javascript:call_link\('abencds_analytical_pv_glosry.htm'\) "Glossary Entry") are intended for modelling analytical queries within a CDS data model. An analytical projection view must always be part of an analytical object and the [projected entity](javascript:call_link\('abencds_pv_projected_entity_glosry.htm'\) "Glossary Entry") must be an [analytical cube view](javascript:call_link\('abencds_analytical_cube_glosry.htm'\) "Glossary Entry") or an [analytical dimension view](javascript:call_link\('abencds_anal_dim_view_glosry.htm'\) "Glossary Entry"). The feature set is restricted to the capabilities of the runtime of the analytical engine. The runtime for analytical queries are analytical engines, such as [ABAP Analytical Engine](javascript:call_link\('abenabap_ae_glosry.htm'\) "Glossary Entry") or Online Analytical Processing (OLAP).
+[CDS analytical projection views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_analytical_pv_glosry.htm "Glossary Entry") are intended for modelling analytical queries within a CDS data model. An analytical projection view must always be part of an analytical object and the [projected entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_projected_entity_glosry.htm "Glossary Entry") must be an [analytical cube view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_analytical_cube_glosry.htm "Glossary Entry") or an [analytical dimension view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_anal_dim_view_glosry.htm "Glossary Entry"). The feature set is restricted to the capabilities of the runtime of the analytical engine. The runtime for analytical queries are analytical engines, such as [ABAP Analytical Engine](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_ae_glosry.htm "Glossary Entry") or Online Analytical Processing (OLAP).
 
-See also: [CDS Projection View, Analytical Queries](javascript:call_link\('abencds_analytical_query_apv.htm'\))
+See also: [CDS Projection View, Analytical Queries](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_analytical_query_apv.htm)
 
 Example
 
@@ -202,4 +202,4 @@ Alternative 2  
 
 Effect
 
-It is possible, but not recommended, to leave out the provider contract. The default provider contract, if no provider contract is set explicitly, is TRANSACTIONAL\_QUERY. The same features are available as for transactional queries and a projection view without provider contract can be used in the same scenarios. However, there are some minor differences in the syntax checks applied. The differences are listed in topic [CDS projection view, no contract](javascript:call_link\('abencds_pv_no_contract.htm'\)).
+It is possible, but not recommended, to leave out the provider contract. The default provider contract, if no provider contract is set explicitly, is TRANSACTIONAL\_QUERY. The same features are available as for transactional queries and a projection view without provider contract can be used in the same scenarios. However, there are some minor differences in the syntax checks applied. The differences are listed in topic [CDS projection view, no contract](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_pv_no_contract.htm).

@@ -3,31 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenddic_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm)
-- [abenddic_classical_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm)
-- [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm)
-- [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_projection_views.htm)
-- [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_maintenance_views.htm)
-- [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_help_views.htm)
-- [abenddic_external_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_external_views.htm)
-
-**Bundle Contains**: 7 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.374Z
-
----
-
 ### abenddic_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,13 +11,13 @@ Included pages: 8
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_objects.htm) → 
 
 Views
 
-A view in ABAP Dictionary is a grouping of columns in one or more database tables in accordance with an application-specific view. In AS ABAP, views are defined in ABAP Dictionary and can be referenced as data types (like flat structures). Views can be used like database tables in Open SQL read statements (and sometimes in write statements). For this reason, the ABAP Dictionary views are in the same namespace as all types and database tables in ABAP Dictionary and the global [object types](javascript:call_link\('abenobject_type_glosry.htm'\) "Glossary Entry") in the [class library](javascript:call_link\('abenclass_library_glosry.htm'\) "Glossary Entry").
+A view in ABAP Dictionary is a grouping of columns in one or more database tables in accordance with an application-specific view. In AS ABAP, views are defined in ABAP Dictionary and can be referenced as data types (like flat structures). Views can be used like database tables in Open SQL read statements (and sometimes in write statements). For this reason, the ABAP Dictionary views are in the same namespace as all types and database tables in ABAP Dictionary and the global [object types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_type_glosry.htm "Glossary Entry") in the [class library](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_library_glosry.htm "Glossary Entry").
 
-The name of a view can have a maximum of 16 characters, can consist of letters, numbers, and underscores, must start with a letter, and can be prefixed by a [namespace prefix](javascript:call_link\('abenname_space_prefix_glosry.htm'\) "Glossary Entry") (/.../) of a [prefix namespace](javascript:call_link\('abenprefix_name_space_glosry.htm'\) "Glossary Entry"). The name is in the namespace of the [data types](javascript:call_link\('abenddic_data_types.htm'\)) in ABAP Dictionary.
+The name of a view can have a maximum of 16 characters, can consist of letters, numbers, and underscores, must start with a letter, and can be prefixed by a [namespace prefix](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenname_space_prefix_glosry.htm "Glossary Entry") (/.../) of a [prefix namespace](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprefix_name_space_glosry.htm "Glossary Entry"). The name is in the namespace of the [data types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_data_types.htm) in ABAP Dictionary.
 
 The data in a view is read from the database tables involved by the database and is not saved physically.
 
@@ -49,41 +25,34 @@ The data in a view is read from the database tables involved by the database and
 
 -   Views for multiple database tables use joins or subqueries to join these tables and to read the required fields and rows.
 
-The views in ABAP Dictionary are usually platform-independent. With some special exceptions, the views in ABAP Dictionary are, when activated, transformed into platform-specific SQL views in the current [standard AS ABAP database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") in the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry"). This is done using the [DDL](javascript:call_link\('abenddl_glosry.htm'\) "Glossary Entry") statement CREATE VIEW with the addition AS SELECT, which formulates the corresponding SELECT statement. The definition of a view in the database can be displayed in ABAP Dictionary by choosing Utilities → Database Object.
+The views in ABAP Dictionary are usually platform-independent. With some special exceptions, the views in ABAP Dictionary are, when activated, transformed into platform-specific SQL views in the current [standard AS ABAP database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_db_glosry.htm "Glossary Entry") in the [ABAP database schema](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_db_schema_glosry.htm "Glossary Entry"). This is done using the [DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_glosry.htm "Glossary Entry") statement CREATE VIEW with the addition AS SELECT, which formulates the corresponding SELECT statement. The definition of a view in the database can be displayed in ABAP Dictionary by choosing Utilities → Database Object.
 
 ABAP Dictionary manages the following categories of views:
 
--   [Classic views](javascript:call_link\('abenddic_classical_views.htm'\))
+-   [Classic views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm)
 
 In classic views (or views for short), the platform-dependent DDL statement is created from the definition of the view in the form-based ABAP Dictionary tool.
 
--   [External views](javascript:call_link\('abenddic_external_views.htm'\))
+-   [External views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_external_views.htm)
 
-An external view externalizes an [SAP HANA view](javascript:call_link\('abenhana_view_glosry.htm'\) "Glossary Entry") in ABAP programs and makes it usable like a regular view in ABAP Dictionary.
+An external view externalizes an [SAP HANA view](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_view_glosry.htm "Glossary Entry") in ABAP programs and makes it usable like a regular view in ABAP Dictionary.
 
-When a view is accessed using the Open SQL statement [SELECT](javascript:call_link\('abapselect.htm'\)), the SELECT statement defined in the DDL statement is executed and the results set is returned as if a SELECT were executed on a database table whose structure matches the structure defined by the view.
+When a view is accessed using the Open SQL statement [SELECT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect.htm), the SELECT statement defined in the DDL statement is executed and the results set is returned as if a SELECT were executed on a database table whose structure matches the structure defined by the view.
 
 Notes
 
 -   Views are usually defined in the implementation of data models in ABAP Dictionary and this is not usually the job of a regular ABAP application programmer. Once created, views are used in ABAP programs using Open SQL statements and must be stable enough to allow this.
 
--   When making selections using views, it is also important that suitable [indexes](javascript:call_link\('abenddic_database_tables_index.htm'\)) are created for the basis tables in the view.
+-   When making selections using views, it is also important that suitable [indexes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_index.htm) are created for the basis tables in the view.
 
--   The [CDS views](javascript:call_link\('abenddic_cds_views.htm'\)) in the [ABAP Core Data Services (CDS)](javascript:call_link\('abencds.htm'\)) are added to the views specified. A CDS view is defined in a (mostly) platform-independent [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") in [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry"). CDS views expand on the functions provided by the classic views.
+-   The [CDS views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_views.htm) in the [ABAP Core Data Services (CDS)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm) are added to the views specified. A CDS view is defined in a (mostly) platform-independent [CDS DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm "Glossary Entry") in [DDL source code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_source_code_glosry.htm "Glossary Entry"). CDS views expand on the functions provided by the classic views.
 
 Continue
-[Classic Views](javascript:call_link\('abenddic_classical_views.htm'\))
-[External Views](javascript:call_link\('abenddic_external_views.htm'\))
+[Classic Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm)
+[External Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_external_views.htm)
 
-
-
-**📖 Source**: [abenddic_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm)
 
 ### abenddic_classical_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_classical_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -91,11 +60,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Views](javascript:call_link\('abenddic_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_objects.htm) →  [Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm) → 
 
 Classic Views
 
-A classic view (or view for short) is a repository object in ABAP Dictionary defined for existing database tables and their fields in the form-based ABAP Dictionary [tool](javascript:call_link\('abenddic_tools.htm'\)) in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry"). As well as the classic views, the ABAP Dictionary also manages the [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") of the [ABAP Core Data Services](javascript:call_link\('abencds.htm'\)), which are defined by the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") in [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry").
+A classic view (or view for short) is a repository object in ABAP Dictionary defined for existing database tables and their fields in the form-based ABAP Dictionary [tool](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_tools.htm) in [ABAP Workbench](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_workbench_glosry.htm "Glossary Entry"). As well as the classic views, the ABAP Dictionary also manages the [CDS views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry") of the [ABAP Core Data Services](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm), which are defined by the [CDS DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm "Glossary Entry") in [DDL source code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_source_code_glosry.htm "Glossary Entry").
 
 The definition of a classic view consists of the following:
 
@@ -105,7 +74,7 @@ A list of database tables accessed by the view. Multiple tables are joined using
 
 -   View fields
 
-A list of table fields of the basis tables that defines the structure of the view. Except in the case of projection views, a different [data element](javascript:call_link\('abenddic_data_elements.htm'\)) can be assigned to a view field that that used for the corresponding table field of the basis table. This can only happen if the type of the table field is defined using a data element with a [domain](javascript:call_link\('abenddic_domains.htm'\)) and if the new data element references the same domain. This makes it possible to adjust the semantic attributes of the view field to the view.
+A list of table fields of the basis tables that defines the structure of the view. Except in the case of projection views, a different [data element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_data_elements.htm) can be assigned to a view field that that used for the corresponding table field of the basis table. This can only happen if the type of the table field is defined using a data element with a [domain](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_domains.htm) and if the new data element references the same domain. This makes it possible to adjust the semantic attributes of the view field to the view.
 
 -   Key
 
@@ -121,19 +90,19 @@ Used to restrict the read rows to specific values of view fields or other fields
 
 -   The possible relational operators are \=, <>, \>=, \>, <=, <, LIKE, and NOT LIKE.
 
--   Depending on the data type of the view field, constant texts and numbers are allowed as comparison values. [System fields](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") can be specified for maintenance views and help views using SYST-... or SY-....
+-   Depending on the data type of the view field, constant texts and numbers are allowed as comparison values. [System fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_field_glosry.htm "Glossary Entry") can be specified for maintenance views and help views using SYST-... or SY-....
 
 -   Multiple comparisons can be joined using AND and multiple comparisons for the same field can be joined using OR. Here, OR is stronger than AND.
 
 The following types of classic views exist, of which only the database views are defined as SQL views on the database:
 
--   [Database views](javascript:call_link\('abenddic_database_views.htm'\))
+-   [Database views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm)
 
--   [Projection views](javascript:call_link\('abenddic_projection_views.htm'\))
+-   [Projection views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_projection_views.htm)
 
--   [Maintenance views](javascript:call_link\('abenddic_maintenance_views.htm'\))
+-   [Maintenance views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_maintenance_views.htm)
 
--   [Help views](javascript:call_link\('abenddic_help_views.htm'\))
+-   [Help views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_help_views.htm)
 
 Like database tables, views have a short text description and (optional) documentation. A status known as a maintenance status determines whether a view is read-only or whether data can be inserted or modified in the view.
 
@@ -143,23 +112,16 @@ Notes
 
 -   Only database tables can be specified as the basis tables of classic views, and no other views.
 
--   [CDS views](javascript:call_link\('abenddic_cds_views.htm'\)) defined using the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") of the ABAP Core Data Services in [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") offer all the functions of classic views and more. CDS views are, however, read-only, while some classic views can be modified.
+-   [CDS views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_views.htm) defined using the [CDS DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm "Glossary Entry") of the ABAP Core Data Services in [DDL source code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_source_code_glosry.htm "Glossary Entry") offer all the functions of classic views and more. CDS views are, however, read-only, while some classic views can be modified.
 
 Continue
-[Database Views](javascript:call_link\('abenddic_database_views.htm'\))
-[Projection Views](javascript:call_link\('abenddic_projection_views.htm'\))
-[Maintenance Views](javascript:call_link\('abenddic_maintenance_views.htm'\))
-[Help Views](javascript:call_link\('abenddic_help_views.htm'\))
+[Database Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm)
+[Projection Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_projection_views.htm)
+[Maintenance Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_maintenance_views.htm)
+[Help Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_help_views.htm)
 
-
-
-**📖 Source**: [abenddic_classical_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm)
 
 ### abenddic_database_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -167,47 +129,47 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Views](javascript:call_link\('abenddic_views.htm'\)) →  [Classic Views](javascript:call_link\('abenddic_classical_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_objects.htm) →  [Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm) →  [Classic Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm) → 
 
 Database Views
 
-A database view is a general view for one or more basis tables. If there are multiple basis tables, they are joined using an inner join. A matching SQL view is created on the database when the view is activated. The structure type defined using the view fields of the database view can be referenced in ABAP programs using TYPE. A database view can be accessed using Open SQL, Native SQL, or AMDP, and also from outside AS ABAP using the programming interface of the database. The latter method is, however, [not recommended](javascript:call_link\('abendatabase_access_recomm.htm'\)).
+A database view is a general view for one or more basis tables. If there are multiple basis tables, they are joined using an inner join. A matching SQL view is created on the database when the view is activated. The structure type defined using the view fields of the database view can be referenced in ABAP programs using TYPE. A database view can be accessed using Open SQL, Native SQL, or AMDP, and also from outside AS ABAP using the programming interface of the database. The latter method is, however, [not recommended](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_access_recomm.htm).
 
 Notes
 
 -   A database view can be activated in ABAP Dictionary without its basis tables being defined on the database. The view is also not created on the database in this case.
 
--   As in a [database table](javascript:call_link\('abenddic_database_tables_client.htm'\)), the client dependency of a database view is determined by an initial column with the built-in dictionary type CLNT.
+-   As in a [database table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_client.htm), the client dependency of a database view is determined by an initial column with the built-in dictionary type CLNT.
 
--   [Append views](javascript:call_link\('abenddic_append_views.htm'\)) are available for enhancing the database views in ABAP Dictionary delivered by SAP without making any modifications.
+-   [Append views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_append_views.htm) are available for enhancing the database views in ABAP Dictionary delivered by SAP without making any modifications.
 
--   Suitable [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") can be defined as [replacement objects](javascript:call_link\('abenddic_replacement_objects.htm'\)) for database views. In this case, reads in [Open SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") access the replacement objects rather than the database views.
+-   Suitable [CDS views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry") can be defined as [replacement objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_replacement_objects.htm) for database views. In this case, reads in [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_glosry.htm "Glossary Entry") access the replacement objects rather than the database views.
 
--   Database views managed by ABAP Dictionary should not be accessed directly in the database (see [Access to ABAP-Managed Database Objects](javascript:call_link\('abendatabase_access_recomm.htm'\))).
+-   Database views managed by ABAP Dictionary should not be accessed directly in the database (see [Access to ABAP-Managed Database Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_access_recomm.htm)).
 
 Basis Tables
 
-The basis tables of database views must be [transparent tables](javascript:call_link\('abentransparent_table_glosry.htm'\) "Glossary Entry"), so that the SQL view can access them. The actual join operation is performed on the database.
+The basis tables of database views must be [transparent tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentransparent_table_glosry.htm "Glossary Entry"), so that the SQL view can access them. The actual join operation is performed on the database.
 
 Note
 
-The basis tables of [CDS database views](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry") that are generated for [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") can also be other database views.
+The basis tables of [CDS database views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry") that are generated for [CDS views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry") can also be other database views.
 
 View Fields
 
-An include mechanism can be used to add individual fields or all fields from the basis tables as view fields of a database view. When individual fields are used, a name other than the name in the basis tables.can be defined for a view field. This name can have a maximum of 30 characters, must meet the naming conventions for component names of [structures](javascript:call_link\('abenddic_structures.htm'\)), and cannot be a reserved name. The reserved names that cannot be used are specified in the database table TRESE.
+An include mechanism can be used to add individual fields or all fields from the basis tables as view fields of a database view. When individual fields are used, a name other than the name in the basis tables.can be defined for a view field. This name can have a maximum of 30 characters, must meet the naming conventions for component names of [structures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_structures.htm), and cannot be a reserved name. The reserved names that cannot be used are specified in the database table TRESE.
 
 To use all fields, the \* character is used instead of the field name. If the \- character is used for individual fields of a basis table included using \*, all fields up to the fields specified with \- become view fields. If the structure of a database table whose fields were added in this way is modified, the structure of the view is also modified.
 
 Notes
 
--   If a [foreign key field](javascript:call_link\('abenforeign_key_field_glosry.htm'\) "Glossary Entry") is added as a view field, it keeps this attribute and all associated foreign key fields become the foreign key of the view.
+-   If a [foreign key field](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenforeign_key_field_glosry.htm "Glossary Entry") is added as a view field, it keeps this attribute and all associated foreign key fields become the foreign key of the view.
 
--   For [CDS database views](javascript:call_link\('abencds_database_view_glosry.htm'\) "Glossary Entry"), the view fields displayed here as key fields are in no way related to the key fields that are defined using [DEFINE VIEW](javascript:call_link\('abencds_f1_define_view.htm'\)) for the [CDS entity](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry").
+-   For [CDS database views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_database_view_glosry.htm "Glossary Entry"), the view fields displayed here as key fields are in no way related to the key fields that are defined using [DEFINE VIEW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_f1_define_view.htm) for the [CDS entity](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_entity_glosry.htm "Glossary Entry").
 
 Join Conditions
 
-The join conditions for the inner join can be formulated using equality relationships between any two table fields in the basis tables. The inner join joins the rows of the basis tables in question as a results set containing all combinations of rows whose columns together meet the join conditions. If there are no rows that meet the join conditions in the basis tables in question, no row is created in the results set. If there is a suitable [foreign key dependency](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)) (including generic and constant foreign keys) between two basis tables, this dependency can be used as a default for defining join conditions in the ABAP Dictionary [tool](javascript:call_link\('abenddic_tools.htm'\)).
+The join conditions for the inner join can be formulated using equality relationships between any two table fields in the basis tables. The inner join joins the rows of the basis tables in question as a results set containing all combinations of rows whose columns together meet the join conditions. If there are no rows that meet the join conditions in the basis tables in question, no row is created in the results set. If there is a suitable [foreign key dependency](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkeyrel.htm) (including generic and constant foreign keys) between two basis tables, this dependency can be used as a default for defining join conditions in the ABAP Dictionary [tool](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_tools.htm).
 
 Maintenance Status
 
@@ -219,15 +181,15 @@ The database view can only be used to read data with Open SQL.
 
 -   Read, change, delete, and insert
 
-If the database view contains only a single basis table, data can be [changed](javascript:call_link\('abenopen_sql_writing.htm'\)) using Open SQL.
+If the database view contains only a single basis table, data can be [changed](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_writing.htm) using Open SQL.
 
-A database view with multiple basis tables can only be read with Open SQL. If a database view contains only a single table, data can be inserted in this table using the view with the Open SQL statements [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)) or [MODIFY](javascript:call_link\('abapinsert_dbtab.htm'\)). The following options are available for the content of the table fields not in the view:
+A database view with multiple basis tables can only be read with Open SQL. If a database view contains only a single table, data can be inserted in this table using the view with the Open SQL statements [INSERT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab.htm) or [MODIFY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapinsert_dbtab.htm). The following options are available for the content of the table fields not in the view:
 
--   If the table field is defined with [NOT NULL](javascript:call_link\('abenddic_database_tables_init.htm'\)) on the database, the field is filled with the corresponding initial value.
+-   If the table field is defined with [NOT NULL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_init.htm) on the database, the field is filled with the corresponding initial value.
 
--   If the table field is defined with [NOT NULL](javascript:call_link\('abenddic_database_tables_init.htm'\)) on the database, and there is no initial value, nothing can be inserted and a database error occurs with a corresponding exception.
+-   If the table field is defined with [NOT NULL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_init.htm) on the database, and there is no initial value, nothing can be inserted and a database error occurs with a corresponding exception.
 
--   If the table field is not defined with [NOT NULL](javascript:call_link\('abenddic_database_tables_init.htm'\)) on the database, the field is filled with the [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry").
+-   If the table field is not defined with [NOT NULL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_init.htm) on the database, the field is filled with the [null value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennull_value_glosry.htm "Glossary Entry").
 
 Notes
 
@@ -235,11 +197,11 @@ Notes
 
 -   It is not usually a problem to modify existing data records using a database view in cases where the database view contains all key fields of the table.
 
--   Like a database table, the maintenance status of a database view has a [Display and Maintain](javascript:call_link\('abenddic_database_tables_maint.htm'\)) setting alongside the Access setting. The setting must match the Access setting. In database views containing multiple basis tables, only the setting Display/maintenance not allowed is possible.
+-   Like a database table, the maintenance status of a database view has a [Display and Maintain](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_maint.htm) setting alongside the Access setting. The setting must match the Access setting. In database views containing multiple basis tables, only the setting Display/maintenance not allowed is possible.
 
 Table Buffering
 
-Just like in database tables, it is possible to define for a database view whether the data in the [table buffer](javascript:call_link\('abentable_buffer_glosry.htm'\) "Glossary Entry") is buffered. The same [buffering types](javascript:call_link\('abenddic_database_tables_buffer.htm'\)) can be defined and [table buffering in Open SQL](javascript:call_link\('abensap_puffering.htm'\)) is handled in the same way for views and for database tables with the only difference being that, when data is modified in one of the basis tables, the entire buffer is invalidated when the [buffers are synchronized](javascript:call_link\('abenbuffer_synchro.htm'\)), regardless of the buffering type In client-specific views, however, this only affects the content of the current client.
+Just like in database tables, it is possible to define for a database view whether the data in the [table buffer](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_buffer_glosry.htm "Glossary Entry") is buffered. The same [buffering types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_buffer.htm) can be defined and [table buffering in Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_puffering.htm) is handled in the same way for views and for database tables with the only difference being that, when data is modified in one of the basis tables, the entire buffer is invalidated when the [buffers are synchronized](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuffer_synchro.htm), regardless of the buffering type In client-specific views, however, this only affects the content of the current client.
 
 The following prerequisites must be met before a database view can be buffered:
 
@@ -247,11 +209,11 @@ The following prerequisites must be met before a database view can be buffered:
 
 -   If all fields of the database view are key fields, these fields must also be key fields of the basis tables.
 
--   A view whose data is written to using Open SQL cannot have a [replacement object](javascript:call_link\('abenddic_replacement_objects.htm'\)).
+-   A view whose data is written to using Open SQL cannot have a [replacement object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_replacement_objects.htm).
 
 Note
 
-No [replacement objects](javascript:call_link\('abenddic_replacement_objects.htm'\)) can be created for an existing buffered view whose data can be written to using Open SQL.
+No [replacement objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_replacement_objects.htm) can be created for an existing buffered view whose data can be written to using Open SQL.
 
 Example
 
@@ -289,14 +251,7 @@ SELECT \*
 cl\_demo\_output=>display( result ).
 
 
-
-**📖 Source**: [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm)
-
 ### abenddic_projection_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_projection_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -304,13 +259,13 @@ cl\_demo\_output=>display( result ).
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Views](javascript:call_link\('abenddic_views.htm'\)) →  [Classic Views](javascript:call_link\('abenddic_classical_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_objects.htm) →  [Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm) →  [Classic Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm) → 
 
 Projection Views
 
 A projection view is a special view for hiding fields from a single basis table. An SQL view is not created on the database. No selection conditions can be specified for a projection view.
 
-The structure type defined using the view fields of the projection view can be referenced in ABAP programs using TYPE. A projection view can be accessed using Open SQL but not using Native SQL or AMDP. Projection views can be used to access [pooled table or cluster tables](javascript:call_link\('abenddic_database_tables_poolclu.htm'\)) as well as transparent tables. The database interface transforms an Open SQL statement that accesses a projection view to a platform-specific SQL statement that provides the correct result.
+The structure type defined using the view fields of the projection view can be referenced in ABAP programs using TYPE. A projection view can be accessed using Open SQL but not using Native SQL or AMDP. Projection views can be used to access [pooled table or cluster tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_poolclu.htm) as well as transparent tables. The database interface transforms an Open SQL statement that accesses a projection view to a platform-specific SQL statement that provides the correct result.
 
 The Access setting in the maintenance status of a projection view can have the following values:
 
@@ -320,15 +275,15 @@ The projection view can only be used to read data with Open SQL.
 
 -   Read, change, delete, and insert
 
-The projection view can only be used to [change](javascript:call_link\('abenopen_sql_writing.htm'\)) data with Open SQL.
+The projection view can only be used to [change](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_writing.htm) data with Open SQL.
 
-When rows are inserted using projection views, all table fields not in the view are given the type-specific initial values of the field. This is done regardless of whether the field is defined as [NOT NULL](javascript:call_link\('abenddic_database_tables_init.htm'\)) on the database.
+When rows are inserted using projection views, all table fields not in the view are given the type-specific initial values of the field. This is done regardless of whether the field is defined as [NOT NULL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_init.htm) on the database.
 
 Notes
 
--   As in a [database table](javascript:call_link\('abenddic_database_tables_client.htm'\)), the client dependency of a projection view is determined by an initial column with the built-in dictionary type CLNT.
+-   As in a [database table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_client.htm), the client dependency of a projection view is determined by an initial column with the built-in dictionary type CLNT.
 
--   Like a database table, the maintenance status of a projection view has a [Display and Maintain](javascript:call_link\('abenddic_database_tables_maint.htm'\)) setting alongside the Access setting. The setting must match the Access setting.
+-   Like a database table, the maintenance status of a projection view has a [Display and Maintain](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_maint.htm) setting alongside the Access setting. The setting must match the Access setting.
 
 Example
 
@@ -341,14 +296,7 @@ SELECT \*
 cl\_demo\_output=>display( result ).
 
 
-
-**📖 Source**: [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_projection_views.htm)
-
 ### abenddic_maintenance_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_maintenance_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -356,7 +304,7 @@ cl\_demo\_output=>display( result ).
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Views](javascript:call_link\('abenddic_views.htm'\)) →  [Classic Views](javascript:call_link\('abenddic_classical_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_objects.htm) →  [Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm) →  [Classic Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm) → 
 
 Maintenance Views
 
@@ -364,21 +312,21 @@ A maintenance view is a special view for performing writes on multiple tables us
 
 A maintenance view is not defined on the database. The structure type defined using a maintenance view can be referenced in ABAP programs using TYPE. A maintenance view cannot, however, be accessed using Open SQL. Instead, the transaction SE54 can be used to create dialogs called maintenance dialogs for maintenance views, which can themselves be used to edit the tables of the maintenance views jointly in extended table maintenance (transactions SM30 and SM31).
 
-When data records are inserted using maintenance views, all tables fields not in the view are given the type-specific initial values of the field. This is done regardless of whether the field is defined as [NOT NULL](javascript:call_link\('abenddic_database_tables_init.htm'\)) on the database.
+When data records are inserted using maintenance views, all tables fields not in the view are given the type-specific initial values of the field. This is done regardless of whether the field is defined as [NOT NULL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_init.htm) on the database.
 
 Primary Table and Secondary Tables
 
-All database tables grouped in a maintenance view must be joined using [foreign key dependencies](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)), which means that the join conditions are always derived from a foreign key in the case of maintenance views. The first table included in the maintenance view is known as the primary table of the maintenance view. The tables added to this primary table using foreign keys are known as secondary tables. The following restrictions apply when selecting the secondary tables of a maintenance view:
+All database tables grouped in a maintenance view must be joined using [foreign key dependencies](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkeyrel.htm), which means that the join conditions are always derived from a foreign key in the case of maintenance views. The first table included in the maintenance view is known as the primary table of the maintenance view. The tables added to this primary table using foreign keys are known as secondary tables. The following restrictions apply when selecting the secondary tables of a maintenance view:
 
--   The secondary tables must have an N:1 dependency on the primary table or on the transitively preceding secondary table. This makes sure that no more than one dependent data record exists in each of the secondary tables for a specific data record in the primary table. An N:1 dependency exists if the secondary table is the [check table](javascript:call_link\('abencheck_table_glosry.htm'\) "Glossary Entry") in the [foreign key in question](javascript:call_link\('abenforeign_key_glosry.htm'\) "Glossary Entry").
+-   The secondary tables must have an N:1 dependency on the primary table or on the transitively preceding secondary table. This makes sure that no more than one dependent data record exists in each of the secondary tables for a specific data record in the primary table. An N:1 dependency exists if the secondary table is the [check table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheck_table_glosry.htm "Glossary Entry") in the [foreign key in question](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenforeign_key_glosry.htm "Glossary Entry").
 
--   If the secondary table is the [foreign key table](javascript:call_link\('abenforeign_key_table_glosry.htm'\) "Glossary Entry"), the foreign key fields must be key fields of a table or the foreign key must have the cardinality N:1 or N:C.
+-   If the secondary table is the [foreign key table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenforeign_key_table_glosry.htm "Glossary Entry"), the foreign key fields must be key fields of a table or the foreign key must have the cardinality N:1 or N:C.
 
 A maintenance view implements an inner join. All key fields in the primary table must be included in its maintenance view. All key fields of secondary tables that are not part of the foreign key (that is, they are not joined with a key field already in the view using a join condition) must also be included in the view. This makes sure that the records inserted using a maintenance view can be written correctly to the tables in the view.
 
 Note
 
-If a database table is joined with its [text table](javascript:call_link\('abentext_table_glosry.htm'\) "Glossary Entry") in a maintenance view, the logon language is selected automatically for this table.
+If a database table is joined with its [text table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_table_glosry.htm "Glossary Entry") in a maintenance view, the logon language is selected automatically for this table.
 
 Time-Dependent Key
 
@@ -410,7 +358,7 @@ The maintenance view can be used to insert only entries whose non-time-dependent
 
 Note
 
-Like a database table, the maintenance status of a maintenance view has a [Display and Maintain](javascript:call_link\('abenddic_database_tables_maint.htm'\)) setting alongside the Access setting. The setting must match the Access setting. The setting Display/maintenance not allowed is not possible here.
+Like a database table, the maintenance status of a maintenance view has a [Display and Maintain](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_maint.htm) setting alongside the Access setting. The setting must match the Access setting. The setting Display/maintenance not allowed is not possible here.
 
 Maintenance Characteristics of View Fields
 
@@ -434,23 +382,16 @@ A field of this type is not displayed in extended table maintenance and cannot b
 
 Delivery Class
 
-A maintenance view also has a [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)). The delivery class of a maintenance view is analyzed in the extended table maintenance.
+A maintenance view also has a [delivery class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_delivery.htm). The delivery class of a maintenance view is analyzed in the extended table maintenance.
 
 -   If the view is assigned one of the delivery classes G or E, the customer namespace for the entries of the view must be defined in the database table TRESC.
 
 -   The transport interface of extended table maintenance must match the delivery class.
 
-Regardless of this, the transport of the basis tables involved in upgrades and in transports between customer systems is determined solely by their [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)).
+Regardless of this, the transport of the basis tables involved in upgrades and in transports between customer systems is determined solely by their [delivery class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_delivery.htm).
 
-
-
-**📖 Source**: [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_maintenance_views.htm)
 
 ### abenddic_help_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_help_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -458,13 +399,13 @@ Regardless of this, the transport of the basis tables involved in upgrades and i
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Views](javascript:call_link\('abenddic_views.htm'\)) →  [Classic Views](javascript:call_link\('abenddic_classical_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_objects.htm) →  [Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm) →  [Classic Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm) → 
 
 Help Views
 
-A help view is a special view for use in [search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry"). The selection methods of a search help can be database tables, database views, and the special help views. Database tables restrict the search help to one table and database views restrict it to inner joins, whereas help views also make outer joins possible. A help view is not defined on the database. The structure type defined using a help view can be referenced in ABAP programs using TYPE. A help view cannot, however, be accessed using Open SQL.
+A help view is a special view for use in [search helps](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensearch_help_glosry.htm "Glossary Entry"). The selection methods of a search help can be database tables, database views, and the special help views. Database tables restrict the search help to one table and database views restrict it to inner joins, whereas help views also make outer joins possible. A help view is not defined on the database. The structure type defined using a help view can be referenced in ABAP programs using TYPE. A help view cannot, however, be accessed using Open SQL.
 
-The join conditions of a help view must be applied from existing foreign keys. Tables can be grouped in help views only if they are joined using [foreign keys](javascript:call_link\('abenforeign_key_glosry.htm'\) "Glossary Entry"). The first table included in the help view is known as the primary table of the help view. The tables added to this primary table using foreign keys are known as secondary tables. The same restrictions apply when selecting secondary tables of a help view as to [maintenance views](javascript:call_link\('abenddic_maintenance_views.htm'\)).
+The join conditions of a help view must be applied from existing foreign keys. Tables can be grouped in help views only if they are joined using [foreign keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenforeign_key_glosry.htm "Glossary Entry"). The first table included in the help view is known as the primary table of the help view. The tables added to this primary table using foreign keys are known as secondary tables. The same restrictions apply when selecting secondary tables of a help view as to [maintenance views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_maintenance_views.htm).
 
 A help view implements an outer join, which means that the full content of the primary table of the help view is always displayed. If records in a secondary table cannot be read due to a selection condition, the content of the corresponding fields of the secondary table are displayed with initial values.
 
@@ -481,14 +422,7 @@ Notes
 -   Selections using help views can only be made quicker by making restrictions on the primary table. When accessing help views from the ABAP runtime environment, special selection routines are generated. These routines always make the selection using the primary table first and then use the records found as a key for selecting the supplementary information.
 
 
-
-**📖 Source**: [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_help_views.htm)
-
 ### abenddic_classical_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_classical_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -496,11 +430,11 @@ Notes
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Views](javascript:call_link\('abenddic_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_objects.htm) →  [Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm) → 
 
 Classic Views
 
-A classic view (or view for short) is a repository object in ABAP Dictionary defined for existing database tables and their fields in the form-based ABAP Dictionary [tool](javascript:call_link\('abenddic_tools.htm'\)) in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry"). As well as the classic views, the ABAP Dictionary also manages the [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") of the [ABAP Core Data Services](javascript:call_link\('abencds.htm'\)), which are defined by the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") in [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry").
+A classic view (or view for short) is a repository object in ABAP Dictionary defined for existing database tables and their fields in the form-based ABAP Dictionary [tool](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_tools.htm) in [ABAP Workbench](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_workbench_glosry.htm "Glossary Entry"). As well as the classic views, the ABAP Dictionary also manages the [CDS views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_view_glosry.htm "Glossary Entry") of the [ABAP Core Data Services](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds.htm), which are defined by the [CDS DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm "Glossary Entry") in [DDL source code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_source_code_glosry.htm "Glossary Entry").
 
 The definition of a classic view consists of the following:
 
@@ -510,7 +444,7 @@ A list of database tables accessed by the view. Multiple tables are joined using
 
 -   View fields
 
-A list of table fields of the basis tables that defines the structure of the view. Except in the case of projection views, a different [data element](javascript:call_link\('abenddic_data_elements.htm'\)) can be assigned to a view field that that used for the corresponding table field of the basis table. This can only happen if the type of the table field is defined using a data element with a [domain](javascript:call_link\('abenddic_domains.htm'\)) and if the new data element references the same domain. This makes it possible to adjust the semantic attributes of the view field to the view.
+A list of table fields of the basis tables that defines the structure of the view. Except in the case of projection views, a different [data element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_data_elements.htm) can be assigned to a view field that that used for the corresponding table field of the basis table. This can only happen if the type of the table field is defined using a data element with a [domain](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_domains.htm) and if the new data element references the same domain. This makes it possible to adjust the semantic attributes of the view field to the view.
 
 -   Key
 
@@ -526,19 +460,19 @@ Used to restrict the read rows to specific values of view fields or other fields
 
 -   The possible relational operators are \=, <>, \>=, \>, <=, <, LIKE, and NOT LIKE.
 
--   Depending on the data type of the view field, constant texts and numbers are allowed as comparison values. [System fields](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") can be specified for maintenance views and help views using SYST-... or SY-....
+-   Depending on the data type of the view field, constant texts and numbers are allowed as comparison values. [System fields](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensystem_field_glosry.htm "Glossary Entry") can be specified for maintenance views and help views using SYST-... or SY-....
 
 -   Multiple comparisons can be joined using AND and multiple comparisons for the same field can be joined using OR. Here, OR is stronger than AND.
 
 The following types of classic views exist, of which only the database views are defined as SQL views on the database:
 
--   [Database views](javascript:call_link\('abenddic_database_views.htm'\))
+-   [Database views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm)
 
--   [Projection views](javascript:call_link\('abenddic_projection_views.htm'\))
+-   [Projection views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_projection_views.htm)
 
--   [Maintenance views](javascript:call_link\('abenddic_maintenance_views.htm'\))
+-   [Maintenance views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_maintenance_views.htm)
 
--   [Help views](javascript:call_link\('abenddic_help_views.htm'\))
+-   [Help views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_help_views.htm)
 
 Like database tables, views have a short text description and (optional) documentation. A status known as a maintenance status determines whether a view is read-only or whether data can be inserted or modified in the view.
 
@@ -548,26 +482,16 @@ Notes
 
 -   Only database tables can be specified as the basis tables of classic views, and no other views.
 
--   [CDS views](javascript:call_link\('abenddic_cds_views.htm'\)) defined using the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") of the ABAP Core Data Services in [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") offer all the functions of classic views and more. CDS views are, however, read-only, while some classic views can be modified.
+-   [CDS views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_cds_views.htm) defined using the [CDS DDL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_ddl_glosry.htm "Glossary Entry") of the ABAP Core Data Services in [DDL source code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddl_source_code_glosry.htm "Glossary Entry") offer all the functions of classic views and more. CDS views are, however, read-only, while some classic views can be modified.
 
 Continue
-[Database Views](javascript:call_link\('abenddic_database_views.htm'\))
-[Projection Views](javascript:call_link\('abenddic_projection_views.htm'\))
-[Maintenance Views](javascript:call_link\('abenddic_maintenance_views.htm'\))
-[Help Views](javascript:call_link\('abenddic_help_views.htm'\))
+[Database Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_views.htm)
+[Projection Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_projection_views.htm)
+[Maintenance Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_maintenance_views.htm)
+[Help Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_help_views.htm)
 
-
-
-**📖 Source**: [abenddic_classical_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_views.htm)
 
 ### abenddic_external_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_external_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_external_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenddic_external_views.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_external_views.htm)
-
 
   
 
@@ -575,15 +499,15 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary](javascript:call_link\('abenabap_dictionary.htm'\)) →  [Classic Objects in ABAP Dictionary](javascript:call_link\('abenddic_classical_objects.htm'\)) →  [Views](javascript:call_link\('abenddic_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dictionary.htm) →  [Classic Objects in ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_classical_objects.htm) →  [Views](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_views.htm) → 
 
 External Views
 
-An external view is a special view in ABAP Dictionary that [defines](javascript:call_link\('abenexternal_views.htm'\)) an [SAP HANA View](javascript:call_link\('abenhana_view_glosry.htm'\) "Glossary Entry") in [SAP HANA XSC](javascript:call_link\('abenxsc_glosry.htm'\) "Glossary Entry") in ABAP programs. The structure type defined using the view fields of an external view can be referenced in ABAP programs using TYPE. An external view can be specified as a source in [Open SQL read](javascript:call_link\('abenopen_sql_reading.htm'\)) statements
+An external view is a special view in ABAP Dictionary that [defines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexternal_views.htm) an [SAP HANA View](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_view_glosry.htm "Glossary Entry") in [SAP HANA XSC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsc_glosry.htm "Glossary Entry") in ABAP programs. The structure type defined using the view fields of an external view can be referenced in ABAP programs using TYPE. An external view can be specified as a source in [Open SQL read](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_reading.htm) statements
 
-External views can only be created using the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") and only if the current database is an [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"). The SAP HANA view must exist in the [SAP HANA repository](javascript:call_link\('abensap_hana_repository_glosry.htm'\) "Glossary Entry") in [SAP HANA XSC](javascript:call_link\('abenxsc_glosry.htm'\) "Glossary Entry"). For SAP HANA views in [SAP HANA XSA](javascript:call_link\('abenxsa_glosry.htm'\) "Glossary Entry"), no external views can be defined in ADT.
+External views can only be created using the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry") and only if the current database is an [SAP HANA database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm "Glossary Entry"). The SAP HANA view must exist in the [SAP HANA repository](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensap_hana_repository_glosry.htm "Glossary Entry") in [SAP HANA XSC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsc_glosry.htm "Glossary Entry"). For SAP HANA views in [SAP HANA XSA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsa_glosry.htm "Glossary Entry"), no external views can be defined in ADT.
 
-When an external view is activated, an alias with the name of the view is created on the SAP HANA database that points to the SAP HANA view. The names of the view fields of the external view can be defined differently from the names of the view fields of the SAP HANA view. The [runtime object](javascript:call_link\('abenruntime_object_glosry.htm'\) "Glossary Entry") of the external view accesses the alias on the SAP HANA database. This performs a mapping of HANA-specific data types to the [built-in types](javascript:call_link\('abenddic_builtin_types.htm'\)) in ABAP Dictionary. The following table lists the currently supported HANA-specific data types and indicates which ABAP Dictionary types they are mapped to by default.
+When an external view is activated, an alias with the name of the view is created on the SAP HANA database that points to the SAP HANA view. The names of the view fields of the external view can be defined differently from the names of the view fields of the SAP HANA view. The [runtime object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenruntime_object_glosry.htm "Glossary Entry") of the external view accesses the alias on the SAP HANA database. This performs a mapping of HANA-specific data types to the [built-in types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm) in ABAP Dictionary. The following table lists the currently supported HANA-specific data types and indicates which ABAP Dictionary types they are mapped to by default.
 
 HANA Type
 
@@ -651,18 +575,18 @@ Unicode character string
 
 STRING
 
-External views can be displayed in the ABAP Dictionary [tool](javascript:call_link\('abenddic_tools.htm'\)) in the SAP GUI-based ABAP Workbench, but not edited.
+External views can be displayed in the ABAP Dictionary [tool](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_tools.htm) in the SAP GUI-based ABAP Workbench, but not edited.
 
-An external view can only be read using Open SQL if an SAP HANA database is being accessed in which the associated SAP HANA view exists. If not, the non-handleable exception DBSQL\_TABLE\_UNKNOWN is raised. External views can exist actively and be used as data types in a system whose standard database is not an SAP HANA database. Views of this type cannot, however, be accessed through the [standard connection](javascript:call_link\('abenstandard_db_connection_glosry.htm'\) "Glossary Entry") using Open SQL, only through a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry") to an SAP HANA database. Conversely, when an SAP HANA view in an SAP HANA database is accessed through a secondary connection in the current system, only an identically named database table or a structure suitable for any view in ABAP Dictionary can exist actively in ABAP Dictionary.
+An external view can only be read using Open SQL if an SAP HANA database is being accessed in which the associated SAP HANA view exists. If not, the non-handleable exception DBSQL\_TABLE\_UNKNOWN is raised. External views can exist actively and be used as data types in a system whose standard database is not an SAP HANA database. Views of this type cannot, however, be accessed through the [standard connection](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry") using Open SQL, only through a [secondary connection](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry") to an SAP HANA database. Conversely, when an SAP HANA view in an SAP HANA database is accessed through a secondary connection in the current system, only an identically named database table or a structure suitable for any view in ABAP Dictionary can exist actively in ABAP Dictionary.
 
 Notes
 
 -   The following restrictions currently apply to the use of external views in ABAP programs:
 
--   The structure of analytic views do not allow them to be read using [SELECT \*](javascript:call_link\('abapselect_list.htm'\)). The same basic rules apply to the statement SELECT in Open SQL as when using the HANA-SQL statement SELECT, with individual columns and the addition GROUP BY needing to be specified. If SELECT \* is used, a runtime error occurs.
+-   The structure of analytic views do not allow them to be read using [SELECT \*](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapselect_list.htm). The same basic rules apply to the statement SELECT in Open SQL as when using the HANA-SQL statement SELECT, with individual columns and the addition GROUP BY needing to be specified. If SELECT \* is used, a runtime error occurs.
 
 -   Calculation views with parameters can be access only if a default value is defined for each parameter. If not, reads are canceled and produce a runtime error.
 
--   External views should only be used in those cases that are not covered by [ABAP CDS](javascript:call_link\('abenabap_cds_glosry.htm'\) "Glossary Entry") or [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry").
+-   External views should only be used in those cases that are not covered by [ABAP CDS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_cds_glosry.htm "Glossary Entry") or [AMDP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_glosry.htm "Glossary Entry").
 
--   For SAP HANA views in [SAP HANA XSA](javascript:call_link\('abenxsa_glosry.htm'\) "Glossary Entry"), other methods must be used such as [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry") or [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry").
+-   For SAP HANA views in [SAP HANA XSA](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenxsa_glosry.htm "Glossary Entry"), other methods must be used such as [AMDP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_glosry.htm "Glossary Entry") or [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc_glosry.htm "Glossary Entry").

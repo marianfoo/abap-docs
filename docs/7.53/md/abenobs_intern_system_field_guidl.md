@@ -4,13 +4,13 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_guidl.htm'\)) →  [System Fields](javascript:call_link\('abensystem_fields_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrobust_abap_guidl.htm) →  [System Fields](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields_guidl.htm) → 
 
 Obsolete and Internal System Fields
 
 Background
 
-Not all system fields are designed to be used in application programs. All available system fields can be displayed as components of the structure SYST in ABAP Dictionary (or as components of the structure sy in the debugger). The meaning of the components is included in the accompanying description. Any system fields that are [obsolete](javascript:call_link\('abensystem_fields_obsolete.htm'\)) or only to be [used internally](javascript:call_link\('abensystem_fields_internal.htm'\)) are clearly marked.
+Not all system fields are designed to be used in application programs. All available system fields can be displayed as components of the structure SYST in ABAP Dictionary (or as components of the structure sy in the debugger). The meaning of the components is included in the accompanying description. Any system fields that are [obsolete](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields_obsolete.htm) or only to be [used internally](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensystem_fields_internal.htm) are clearly marked.
 
 Rule
 

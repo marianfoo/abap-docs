@@ -4,19 +4,23 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [Logical Expressions (log\_exp)](javascript:call_link\('abenlogexp.htm'\)) →  [Comparison Expressions (rel\_exp)](javascript:call_link\('abenlogexp_comp.htm'\)) →  [rel\_exp - Comparison Rules](javascript:call_link\('abenlogexp_rules.htm'\)) →  [rel\_exp - Comparing Elementary Data Types](javascript:call_link\('abenlogexp_rules_operands.htm'\)) →  [rel\_exp - Comparison Type of Elementary Data Objects](javascript:call_link\('abenlogexp_rules_operands_dobj.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogical_expr_func.htm) →  [Logical Expressions (log\_exp)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp.htm) →  [Comparison Expressions (rel\_exp)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_comp.htm) →  [rel\_exp - Comparison Rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_rules.htm) →  [rel\_exp - Comparing Elementary Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_rules_operands.htm) →  [rel\_exp - Comparison Type of Elementary Data Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_rules_operands_dobj.htm) → 
 
 rel\_exp - Comparison Type of Numeric Data Objects
 
-The following tables show the [comparison types](javascript:call_link\('abencomparison_type_glosry.htm'\) "Glossary Entry") for comparisons between numeric data types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](javascript:call_link\('abenconversion_elementary.htm'\)) to this type. The [comparison rules for the comparison types](javascript:call_link\('abencomparison_type.htm'\)) determine how the comparison is executed.
+The following tables show the [comparison types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomparison_type_glosry.htm "Glossary Entry") for comparisons between numeric data types and other data types. If the type of an operand is not the same as the comparison type, it is [converted](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_elementary.htm) to this type. The [comparison rules for the comparison types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomparison_type.htm) determine how the comparison is executed.
 
--   [Comparisons with Numeric Data Types](#abenlogexp-numeric-1--------comparisons-with-character-like-data-types---@ITOC@@ABENLOGEXP_NUMERIC_2)
+-   [Comparisons with Numeric Data Types](#@@ITOC@@ABENLOGEXP_NUMERIC_1)
 
--   [Comparisons with Byte-Like Data Types](#abenlogexp-numeric-3--------comparisons-with-date-types--time-types--or-time-stamp-types---@ITOC@@ABENLOGEXP_NUMERIC_4)
+-   [Comparisons with Character-Like Data Types](#@@ITOC@@ABENLOGEXP_NUMERIC_2)
+
+-   [Comparisons with Byte-Like Data Types](#@@ITOC@@ABENLOGEXP_NUMERIC_3)
+
+-   [Comparisons with Date Types, Time Types, or Time Stamp Types](#@@ITOC@@ABENLOGEXP_NUMERIC_4)
 
 Hint
 
-If a [decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") is involved in a comparison, the comparison always takes place with the type decfloat34.
+If a [decimal floating point number](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecfloat_glosry.htm "Glossary Entry") is involved in a comparison, the comparison always takes place with the type decfloat34.
 
 Comparisons with Numeric Data Types
 
@@ -152,9 +156,9 @@ Value Ranges and Length Adjustments
 
 -   When two operands with data type p are compared, numbers with more than 31 places are used internally to ensure that there is no overflow.
 
--   When two operands with data type p but with different lengths are compared, the shorter operand is [converted](javascript:call_link\('abenconversion_type_p.htm'\)) to the greater length.
+-   When two operands with data type p but with different lengths are compared, the shorter operand is [converted](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_p.htm) to the greater length.
 
--   When two operands with data type p but with different numbers of decimal places are compared, the operand with fewer decimal places is [converted](javascript:call_link\('abenconversion_type_p.htm'\)) to a number with the same number of decimal places as the other operand.
+-   When two operands with data type p but with different numbers of decimal places are compared, the operand with fewer decimal places is [converted](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconversion_type_p.htm) to a number with the same number of decimal places as the other operand.
 
 -   When an operand with type p is compared with an operand with type int8, i, s, or b, the comparison type p has 31 places and the number of decimal places of the operand of type p.
 
@@ -248,7 +252,7 @@ The comparison type p has 31 places and the number of decimal places for the ope
 
 Hint
 
-In [conversions](javascript:call_link\('abenbyte_source_fields.htm'\)) of byte-like data types to any numeric type except int8, it should be noted that only the last four bytes are considered. In the case of int8, the last 8 bytes are considered.
+In [conversions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbyte_source_fields.htm) of byte-like data types to any numeric type except int8, it should be noted that only the last four bytes are considered. In the case of int8, the last 8 bytes are considered.
 
 Example
 

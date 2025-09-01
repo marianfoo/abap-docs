@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [News for ABAP Release 7.56](javascript:call_link\('abennews-756.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 7.5x](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-75.htm) →  [News for ABAP Release 7.56](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-756.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Internal%20Tables%20in%20ABAP%20Release%207.56%2C%20ABENNEWS-756-ITAB%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -17,13 +17,13 @@ Modification 1  
 
 Access to Generically Typed Internal Tables
 
-Earlier, in statements for [accessing internal tables](javascript:call_link\('abenitab_access.htm'\)), the internal table had to be known statically. The operand had to be typed at least with any table.
+Earlier, in statements for [accessing internal tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenitab_access.htm), the internal table had to be known statically. The operand had to be typed at least with any table.
 
-Now, this restriction is partly removed. In the statements [INSERT](javascript:call_link\('abapinsert_itab.htm'\)), [APPEND](javascript:call_link\('abapappend.htm'\)), [COLLECT](javascript:call_link\('abapcollect.htm'\)), [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)), [DELETE](javascript:call_link\('abapdelete_itab.htm'\)), [READ](javascript:call_link\('abapread_table.htm'\)), [LOOP](javascript:call_link\('abaploop_at_itab_variants.htm'\)), and [SORT](javascript:call_link\('abapsort_itab.htm'\)), operands can be field symbols and formal parameters that are typed fully generically with TYPE data or TYPE any. Such operands can be used as if typed with any table. If an index access is involved, operands are still required that are typed at least with TYPE index\_table.
+Now, this restriction is partly removed. In the statements [INSERT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_itab.htm), [APPEND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapappend.htm), [COLLECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcollect.htm), [MODIFY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab.htm), [DELETE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_itab.htm), [READ](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_table.htm), [LOOP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_itab_variants.htm), and [SORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsort_itab.htm), operands can be field symbols and formal parameters that are typed fully generically with TYPE data or TYPE any. Such operands can be used as if typed with any table. If an index access is involved, operands are still required that are typed at least with TYPE index\_table.
 
 Hint
 
-This is not yet possible in expressions as [FOR expressions](javascript:call_link\('abenfor_itab.htm'\)) or [table expressions](javascript:call_link\('abentable_expressions.htm'\)).
+This is not yet possible in expressions as [FOR expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfor_itab.htm) or [table expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_expressions.htm).
 
 Example
 
@@ -40,4 +40,4 @@ Modification 2  
 
 Alias Names for Secondary Keys
 
-Alias names can now be declared for [secondary keys](javascript:call_link\('abensecondary_key_glosry.htm'\) "Glossary Entry") of internal tables by using the addition ALIAS of [TYPES](javascript:call_link\('abaptypes_secondary_key.htm'\)) and [DATA](javascript:call_link\('abapdata_secondary_key.htm'\)). This can be helpful when changing existing secondary keys without invalidating users.
+Alias names can now be declared for [secondary keys](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_key_glosry.htm "Glossary Entry") of internal tables by using the addition ALIAS of [TYPES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_secondary_key.htm) and [DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_secondary_key.htm). This can be helpful when changing existing secondary keys without invalidating users.

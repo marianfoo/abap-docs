@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 Message number
 
-Number that identifies the [messages](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") of a [message class](javascript:call_link\('abenmessage_class_glosry.htm'\) "Glossary Entry").
+Number that identifies the [messages](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmessage_glosry.htm "Glossary Entry") of a [message class](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenmessage_class_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenabap_messages.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_messages.htm)

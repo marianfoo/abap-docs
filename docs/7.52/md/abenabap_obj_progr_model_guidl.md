@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [ABAP-Specific Rules](javascript:call_link\('abenabap_specific_rules_guidl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_pgl.htm) →  [ABAP-Specific Rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_specific_rules_guidl.htm) → 
 
 ABAP Objects as a Programming Model
 
@@ -22,7 +22,7 @@ Use ABAP objects wherever possible for new and further developments. Classic pro
 
 Details
 
-The need to achieve [separation of concerns](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline") is best supported by using ABAP objects as much as possible. Object-oriented programming - particularly ABAP Objects in comparison to classic procedural ABAP - is better suited. Here are the reasons why:
+The need to achieve [separation of concerns](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenseperation_concerns_guidl.htm "Guideline") is best supported by using ABAP objects as much as possible. Object-oriented programming - particularly ABAP Objects in comparison to classic procedural ABAP - is better suited. Here are the reasons why:
 
 1.  Data encapsulation
     ABAP Objects enables an advanced type of data encapsulation to be used. In classic procedural programming, the state of an application is determined by the content of the global variables of a program. In object-oriented programming, the state is encapsulated in classes or objects as instances of classes. The distribution of data across the different visibility sections of a class — public, protected and private — allows a clear differentiation between externally and internally usable data. Even without in-depth object-oriented modeling, application programs benefit from these properties in terms of stability and maintainability.
@@ -37,7 +37,7 @@ The need to achieve [separation of concerns](javascript:call_link\('abenseperati
 6.  Explicit orthogonal concepts
     ABAP Objects contains a small number of closely defined, mutually orthogonal, fundamental concepts, which makes it more reliable and less error-prone than classic ABAP. Classic procedural ABAP is dominated by implicit behaviors, where programs are controlled by implicit events of the runtime environment and by global data. The concepts of ABAP Objects, however, are explicitly shown in a program. ABAP Objects is easier to learn and use than classic procedural ABAP.
 7.  Cleansed syntax
-    ABAP Objects uses cleansed syntax rules and semantics rules. Classic procedural ABAP is a language that has evolved over time, and contains several obsolete and overlapping concepts. The introduction of ABAP Objects meant that classes and methods provided a field for cleansed syntax and semantics rules, which was completely unaffected by downward compatibility requirements. This meant that most obsolete and error-prone language constructs were forbidden in ABAP Objects syntax (within classes and methods). Also, any questionable and potentially incorrect data accesses are checked more closely and can also be forbidden. The syntax cleansing enforces the use of the ABAP language in classes, which can only be requested using the [Modern ABAP](javascript:call_link\('abenmodern_abap_guidl.htm'\) "Guideline") guideline, outside of classes.
+    ABAP Objects uses cleansed syntax rules and semantics rules. Classic procedural ABAP is a language that has evolved over time, and contains several obsolete and overlapping concepts. The introduction of ABAP Objects meant that classes and methods provided a field for cleansed syntax and semantics rules, which was completely unaffected by downward compatibility requirements. This meant that most obsolete and error-prone language constructs were forbidden in ABAP Objects syntax (within classes and methods). Also, any questionable and potentially incorrect data accesses are checked more closely and can also be forbidden. The syntax cleansing enforces the use of the ABAP language in classes, which can only be requested using the [Modern ABAP](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmodern_abap_guidl.htm "Guideline") guideline, outside of classes.
 8.  Access to new technologies
     ABAP Objects is often the only way of dealing with new ABAP technologies. For example, GUI controls, Web Dynpro ABAP, runtime type services (RTTS), or Internet Connection Framework (ICF) only provide class-based interfaces. If programs that use these services were still implemented on a purely procedural basis, this would result in an unnecessary mix of programming models and increased complexity.
 
@@ -47,7 +47,7 @@ Therefore the urgent recommendation to use ABAP Objects has both formal and cont
 
 -   Points 6 through 8 describe more formal aspects. These points suggest that procedures should be created only as methods, even in the absence of a real object-oriented design. Function modules and subroutines should be created only in exceptional cases, where ABAP Objects does not currently provide any alternatives.
 
-The section [Object-Oriented Programming](javascript:call_link\('abenobj_oriented_guidl.htm'\) "Guideline") provides notes and recommendations on the optimal use of ABAP Objects.
+The section [Object-Oriented Programming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobj_oriented_guidl.htm "Guideline") provides notes and recommendations on the optimal use of ABAP Objects.
 
 Exception
 
@@ -67,15 +67,15 @@ The following properties are still missing in ABAP Objects. They are needed to r
 
 In these cases, the following classic processing blocks can still be created in new programs:
 
--   [Function modules](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline") are still required for RFC and the update and are recommended for calling [classic dynpros and selection screens](javascript:call_link\('abenencap_class_interf_guidl.htm'\) "Guideline").
+-   [Function modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm "Guideline") are still required for RFC and the update and are recommended for calling [classic dynpros and selection screens](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenencap_class_interf_guidl.htm "Guideline").
 
--   [Subroutines](javascript:call_link\('abenfunct_module_subroutine_guidl.htm'\) "Guideline") are still required for PERFORM ON COMMIT$/ROLLBACK and in dynamically generated subroutine pools (GENERATE SUBROUTINE POOL).
+-   [Subroutines](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunct_module_subroutine_guidl.htm "Guideline") are still required for PERFORM ON COMMIT$/ROLLBACK and in dynamically generated subroutine pools (GENERATE SUBROUTINE POOL).
 
--   [Dialog modules and event blocks](javascript:call_link\('abendial_mod_event_block_guidl.htm'\) "Guideline") for selection screen events are still required in function groups that [wrap](javascript:call_link\('abenprogram_type_guidl.htm'\) "Guideline") the classic dynpros and selection screens.
+-   [Dialog modules and event blocks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendial_mod_event_block_guidl.htm "Guideline") for selection screen events are still required in function groups that [wrap](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_guidl.htm "Guideline") the classic dynpros and selection screens.
 
 -   The START-OF-SELECTION event block is still required in executable programs that are intended for background processing.
 
-Within this type of processing block, however, the execution should be delegated immediately to a suitable method This does not have to be a method of a global class, but it can be located in the associated main program within the scope of a local class. To ensure that the system implements the same stricter check in these processing blocks as in the methods, the obsolete statements check (OO context) can be activated in the [extended program check](javascript:call_link\('abenextended_program_check_guidl.htm'\) "Guideline").
+Within this type of processing block, however, the execution should be delegated immediately to a suitable method This does not have to be a method of a global class, but it can be located in the associated main program within the scope of a local class. To ensure that the system implements the same stricter check in these processing blocks as in the methods, the obsolete statements check (OO context) can be activated in the [extended program check](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenextended_program_check_guidl.htm "Guideline").
 
 Bad Example
 
@@ -175,7 +175,7 @@ Good Example
 
 The following source code contains a rudimentary implementation for handling different types of bank accounts in classes and their use in a class. Only the “withdrawal of an amount” function is shown.
 
-The different types of accounts are implemented in subclasses of an abstract class for accounts. Each instance of an account is provided with the required data in its constructor. If required, the application class creates instances of accounts of the required type and uses their methods polymorphically by means of a superclass reference variable. Exception handling is carried out using class-based exceptions. CASE\-WHEN control structures are not required. As already explained in [separation of concerns](javascript:call_link\('abenseperation_concerns_guidl.htm'\) "Guideline"), no overhead code is incurred here when using classes, compared to procedural programming.
+The different types of accounts are implemented in subclasses of an abstract class for accounts. Each instance of an account is provided with the required data in its constructor. If required, the application class creates instances of accounts of the required type and uses their methods polymorphically by means of a superclass reference variable. Exception handling is carried out using class-based exceptions. CASE\-WHEN control structures are not required. As already explained in [separation of concerns](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenseperation_concerns_guidl.htm "Guideline"), no overhead code is incurred here when using classes, compared to procedural programming.
 
 CLASS cx\_negative\_amount DEFINITION PUBLIC
                          INHERITING FROM cx\_static\_check.

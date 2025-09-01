@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Expressions and Functions for Conditions](javascript:call_link\('abenlogical_expr_func.htm'\)) →  [log\_exp - Logical Expressions](javascript:call_link\('abenlogexp.htm'\)) →  [rel\_exp - Predicates](javascript:call_link\('abenpredicate.htm'\)) →  [rel\_exp - Predicate Expressions](javascript:call_link\('abenpredicate_expressions.htm'\)) →  [rel\_exp - IS BOUND](javascript:call_link\('abenlogexp_bound.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Expressions and Functions for Conditions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_expr_func.htm) →  [log\_exp - Logical Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp.htm) →  [rel\_exp - Predicates](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate.htm) →  [rel\_exp - Predicate Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_expressions.htm) →  [rel\_exp - IS BOUND](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_bound.htm) → 
 
 Predicate Expression IS NOT BOUND
 
-This example demonstrates the predicate expression [IS NOT BOUND](javascript:call_link\('abenlogexp_bound.htm'\)).
+This example demonstrates the predicate expression [IS NOT BOUND](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_bound.htm).
 
 Source Code
 
@@ -34,4 +34,4 @@ START-OF-SELECTION.
 
 Description
 
-The static attribute dref of a class is assigned a reference to a local data object in a method. This [stack reference](javascript:call_link\('abenstack_reference_glosry.htm'\) "Glossary Entry") is invalid once the method is exited. Therefore, both predicate expressions IS NOT INITIAL and IS NOT BOUND are true for dref.
+The static attribute dref of a class is assigned a reference to a local data object in a method. This [stack reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstack_reference_glosry.htm "Glossary Entry") is invalid once the method is exited. Therefore, both predicate expressions IS NOT INITIAL and IS NOT BOUND are true for dref.

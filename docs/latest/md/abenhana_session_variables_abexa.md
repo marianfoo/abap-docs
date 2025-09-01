@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP and SAP HANA](javascript:call_link\('abenabap_hana.htm'\)) →  [ABAP and SAP HANA, Examples](javascript:call_link\('abenabap_and_hana_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendb_access.htm) →  [ABAP and SAP HANA](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_hana.htm) →  [ABAP and SAP HANA, Examples](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_and_hana_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SAP%20HANA%2C%20ABAP-Specific%20Session%20Variables%2C%20ABENHANA_SESSION_VARIABLES_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%
 20improvement:)
 
 SAP HANA, ABAP-Specific Session Variables
 
-This example demonstrates potential Native SQL reads on [session variables](javascript:call_link\('abenhana_session_variables.htm'\)) on the SAP HANA database.
+This example demonstrates potential Native SQL reads on [session variables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_session_variables.htm) on the SAP HANA database.
 
 Source Code   
 
@@ -96,7 +96,7 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
       ENDEXEC.
     ENDMETHOD.
     
-    This method calls the built-in function SESSION\_CONTEXT for the four ABAP-specific [session variables](javascript:call_link\('abenhana_session_variables.htm'\)) on the SAP HANA database in three static Native SQL statements between [EXEC - ENDEXEC](javascript:call_link\('abapexec.htm'\)). The result is returned as a column of the SELECT list of an access to the pseudo table DUMMY.
+    This method calls the built-in function SESSION\_CONTEXT for the four ABAP-specific [session variables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_session_variables.htm) on the SAP HANA database in three static Native SQL statements between [EXEC - ENDEXEC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapexec.htm). The result is returned as a column of the SELECT list of an access to the pseudo table DUMMY.
     
 -   GET\_SESSION\_VARIABLES\_ADBC
     
@@ -123,7 +123,7 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
       result->next( ).
     ENDMETHOD.
     
-    This method replaces the static Native SQL statements of the preceding method with corresponding Native SQL statements in [ADBC](javascript:call_link\('abenadbc_glosry.htm'\) "Glossary Entry").
+    This method replaces the static Native SQL statements of the preceding method with corresponding Native SQL statements in [ADBC](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadbc_glosry.htm "Glossary Entry").
     
 -   GET\_SESSION\_VARIABLES\_AMDP
     
@@ -137,4 +137,4 @@ This class calls the following methods of the class CL\_DEMO\_HANA\_SESSION\_VAR
       date := session\_context('SAP\_SYSTEM\_DATE');
     ENDMETHOD.
     
-    This method is an [AMDP method](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry").
+    This method is an [AMDP method](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenamdp_method_glosry.htm "Glossary Entry") and shows how the result of the built-in function SESSION\_CONTEXT can be used directly in [SQLScript](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensql_script_glosry.htm "Glossary Entry").

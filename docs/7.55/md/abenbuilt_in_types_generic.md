@@ -4,13 +4,13 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Built-In Types, Data Objects, Functions, and Constructors](javascript:call_link\('abenbuilt_in.htm'\)) →  [Built-In Data Types](javascript:call_link\('abenbuilt_in_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Built-In Types, Data Objects, Functions, and Constructors](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in.htm) →  [Built-In Data Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbuilt_in_types.htm) → 
 
 Generic ABAP Types
 
-The following table shows the built-in generic ABAP types. A generic data type is an incomplete type specification that contains multiple complete type specifications. Apart from object, all generic types can be used after [TYPE](javascript:call_link\('abentyping_generic.htm'\)) for the [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of [field symbols](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") and [formal parameters](javascript:call_link\('abenformal_parameter_glosry.htm'\) "Glossary Entry"). When a data object is assigned to generically typed field symbols using the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)), or when a data object is used as an [actual parameter](javascript:call_link\('abenactual_parameter_glosry.htm'\) "Glossary Entry") for generically typed formal parameters in [procedure calls](javascript:call_link\('abencall_procedures.htm'\)), the system checks whether its concrete data type is [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") with the object, that is, whether the data type is a subset of the generic type.
+The following table shows the built-in generic ABAP types. A generic data type is an incomplete type specification that contains multiple complete type specifications. Apart from object, all generic types can be used after [TYPE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_generic.htm) for the [typing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_glosry.htm "Glossary Entry") of [field symbols](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield_symbol_glosry.htm "Glossary Entry") and [formal parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenformal_parameter_glosry.htm "Glossary Entry"). When a data object is assigned to generically typed field symbols using the statement [ASSIGN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign.htm), or when a data object is used as an [actual parameter](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenactual_parameter_glosry.htm "Glossary Entry") for generically typed formal parameters in [procedure calls](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencall_procedures.htm), the system checks whether its concrete data type is [compatible](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencompatible_glosry.htm "Glossary Entry") with the object, that is, whether the data type is a subset of the generic type.
 
-The only generic types that can be used after [TYPE REF TO](javascript:call_link\('abaptypes_references.htm'\)) are data, for the generic typing of data references and object, for the generic typing of object references.
+The only generic types that can be used after [TYPE REF TO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_references.htm) are data, for the generic typing of data references and object, for the generic typing of object references.
 
 Type
 
@@ -30,7 +30,7 @@ Text field with a generic length
 
 clike
 
-Character-like (c, n, and string, as well as the date/time types d, t and character-like [flat structures](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry"))
+Character-like (c, n, and string, as well as the date/time types d, t and character-like [flat structures](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenflat_structure_glosry.htm "Glossary Entry"))
 
 csequence
 
@@ -42,19 +42,19 @@ Any data type
 
 decfloat
 
-[Decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") (decfloat16, decfloat34)
+[Decimal floating point number](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecfloat_glosry.htm "Glossary Entry") (decfloat16, decfloat34)
 
 hashed table
 
-[Hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry")
+[Hashed table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhashed_table_glosry.htm "Glossary Entry")
 
 index table
 
-[Index table](javascript:call_link\('abenindex_table_glosry.htm'\) "Glossary Entry")
+[Index table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenindex_table_glosry.htm "Glossary Entry")
 
 n
 
-[Numeric text](javascript:call_link\('abennumeric_text_glosry.htm'\) "Glossary Entry") with generic length
+[Numeric text](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumeric_text_glosry.htm "Glossary Entry") with generic length
 
 numeric
 
@@ -66,19 +66,19 @@ Any object type (root class of the inheritance hierarchy)
 
 p
 
-Packed number with generic length and generic number of [decimal places](javascript:call_link\('abenfract_digit_glosry.htm'\) "Glossary Entry")
+Packed number with generic length and generic number of [decimal places](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfract_digit_glosry.htm "Glossary Entry")
 
 simple
 
-Elementary data type including [enumerated types](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") and structured types with exclusively character-like flat components
+Elementary data type including [enumerated types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_type_glosry.htm "Glossary Entry") and structured types with exclusively character-like flat components
 
 sorted table
 
-[Sorted table](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry")
+[Sorted table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensorted_table_glosry.htm "Glossary Entry")
 
 standard table
 
-[Standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry")
+[Standard table](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstandard_table_glosry.htm "Glossary Entry")
 
 table
 
@@ -92,15 +92,15 @@ xsequence
 
 Byte-like (x, xstring)
 
-A typing with the generic type data acts like a typing with the generic type any, with the following exception: No [numeric functions](javascript:call_link\('abenmathematical_funktion_glosry.htm'\) "Glossary Entry"), [description functions](javascript:call_link\('abendescription_function_glosry.htm'\) "Glossary Entry"), or [arithmetic functions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") can be passed to a formal parameter typed with the type data. All other expressions, built-in functions, and functional methods are possible.
+A typing with the generic type data acts like a typing with the generic type any, with the following exception: No [numeric functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenmathematical_funktion_glosry.htm "Glossary Entry"), [description functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendescription_function_glosry.htm "Glossary Entry"), or [arithmetic functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") can be passed to a formal parameter typed with the type data. All other expressions, built-in functions, and functional methods are possible.
 
-In addition to the built-in generic types shown in the table above, ABAP currently includes exactly one kind of self-defined generic type. A [table type](javascript:call_link\('abentable_type_glosry.htm'\) "Glossary Entry") defined with [TYPES - TABLE OF](javascript:call_link\('abaptypes_itab.htm'\)) or defined in the ABAP Dictionary is generic if the [primary table key](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") is not specified or specified incompletely or if the [secondary table key](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") of the table type is generic.
+In addition to the built-in generic types shown in the table above, ABAP currently includes exactly one kind of self-defined generic type. A [table type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_type_glosry.htm "Glossary Entry") defined with [TYPES - TABLE OF](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_itab.htm) or defined in the ABAP Dictionary is generic if the [primary table key](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") is not specified or specified incompletely or if the [secondary table key](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") of the table type is generic.
 
 Hints
 
--   When generic types are used for the [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry") of [field symbols](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") and [formal parameters](javascript:call_link\('abenformal_parameter_glosry.htm'\) "Glossary Entry"), it must be ensured that the correct results are obtained regardless of the actual type used. For example, if csequence is used, it must be ensured that the possible concrete types c and string behave differently with respect to trailing blanks, or that the concrete numeric types that are possible for numeric in calculations lead to different [calculation types](javascript:call_link\('abencalculation_type_glosry.htm'\) "Glossary Entry"). Especially during generalization of existing types, it may be necessary to adapt the implementation accordingly.
+-   When generic types are used for the [typing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyping_glosry.htm "Glossary Entry") of [field symbols](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield_symbol_glosry.htm "Glossary Entry") and [formal parameters](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenformal_parameter_glosry.htm "Glossary Entry"), it must be ensured that the correct results are obtained regardless of the actual type used. For example, if csequence is used, it must be ensured that the possible concrete types c and string behave differently with respect to trailing blanks, or that the concrete numeric types that are possible for numeric in calculations lead to different [calculation types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencalculation_type_glosry.htm "Glossary Entry"). Especially during generalization of existing types, it may be necessary to adapt the implementation accordingly.
 
--   Like all generic types listed here, the generic type any can only be specified directly after TYPE, except data and object. any cannot be specified after [TYPE REF TO](javascript:call_link\('abaptypes_references.htm'\)). The only generic types allowed there are data for fully generic data reference variables and object for fully generic object reference variables. Specifying REF TO any would define a fully generic reference variable that includes data references and object references, which is currently not possible.
+-   Like all generic types listed here, the generic type any can only be specified directly after TYPE, except data and object. any cannot be specified after [TYPE REF TO](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abaptypes_references.htm). The only generic types allowed there are data for fully generic data reference variables and object for fully generic object reference variables. Specifying REF TO any would define a fully generic reference variable that includes data references and object references, which is currently not possible.
 
 -   The generic type object can only be specified after REF TO and not directly after TYPE.
 
@@ -110,7 +110,7 @@ Hints
 
 -   The elementary data type utclong is only included in the generic types simple, data, and any.
 
--   Regardless of their [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry"), [enumerative types](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") are only enclosed by the generic types any, data and simple.
+-   Regardless of their [base type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbase_type_glosry.htm "Glossary Entry"), [enumerative types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenumerated_type_glosry.htm "Glossary Entry") are only enclosed by the generic types any, data and simple.
 
 Example
 

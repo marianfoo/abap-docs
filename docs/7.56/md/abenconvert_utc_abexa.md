@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Time Stamps](javascript:call_link\('abentime_stamps.htm'\)) →  [Time Stamp Fields with Time Stamp Type](javascript:call_link\('abenutclong.htm'\)) →  [Conversion Statements for Time Stamp Fields](javascript:call_link\('abentimestamp_conversions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendate_time_processing.htm) →  [Time Stamps](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentime_stamps.htm) →  [Time Stamp Fields with Time Stamp Type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenutclong.htm) →  [Conversion Statements for Time Stamp Fields](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentimestamp_conversions.htm) → 
 
 Convert Time Stamp in Time Stamp Field
 
-This example demonstrates the statements [CONVERT INTO UTCLONG](javascript:call_link\('abapconvert_date_utclong.htm'\)) and [CONVERT UTCLONG](javascript:call_link\('abapconvert_utclong.htm'\)).
+This example demonstrates the statements [CONVERT INTO UTCLONG](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapconvert_date_utclong.htm) and [CONVERT UTCLONG](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapconvert_utclong.htm).
 
 Source Code
 

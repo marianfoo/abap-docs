@@ -4,46 +4,46 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Overview](javascript:call_link\('abenabap_oview.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [ABAP - Overview](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_oview.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Programs%20on%20the%20AS%20ABAP%2C%20ABENORGANIZATION_OF_MODULES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ABAP Programs on the AS ABAP
 
-ABAP programs are executed on the [Application Server ABAP (AS ABAP)](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry") of an [ABAP system](javascript:call_link\('abenabap_system_glosry.htm'\) "Glossary Entry") implementing an [ABAP Platform](javascript:call_link\('abenabap_platform_glosry.htm'\) "Glossary Entry"). The figure below shows a highly simplified representation of the AS ABAP as part of an ABAP system.
+ABAP programs are executed on the [Application Server ABAP (AS ABAP)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_abap_glosry.htm "Glossary Entry") of an [ABAP system](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_system_glosry.htm "Glossary Entry") implementing an [ABAP Platform](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_platform_glosry.htm "Glossary Entry"). The figure below shows a highly simplified representation of the AS ABAP as part of an ABAP system.
 
 ![Figure](abap_platform.gif)
 
-The [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry") represents the application layer of the ABAP system. The AS ABAP is identified by a [system ID](javascript:call_link\('abensystem_id_glosry.htm'\) "Glossary Entry"), which is also the name of the entire ABAP system. Users can log on to the AS ABAP using a [user name](javascript:call_link\('abenuser_name_glosry.htm'\) "Glossary Entry"). The most important components of an AS ABAP for ABAP program execution are:
+The [AS ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_abap_glosry.htm "Glossary Entry") represents the application layer of the ABAP system. The AS ABAP is identified by a [system ID](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_id_glosry.htm "Glossary Entry"), which is also the name of the entire ABAP system. Users can log on to the AS ABAP using a [user name](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_name_glosry.htm "Glossary Entry"). The most important components of an AS ABAP for ABAP program execution are:
 
 -   AS instance
     
-    The actual ABAP program execution takes place in [AS instances (application server instances)](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry"). One or more AS instances can be instantiated for an AS ABAP. Multiple AS instances are usually distributed across several [host computers](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry"). The AS instances communicate with each other using a [message server](javascript:call_link\('abenmessage_server_glosry.htm'\) "Glossary Entry") that exists only once for each AS ABAP.
+    The actual ABAP program execution takes place in [AS instances (application server instances)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_instance_glosry.htm "Glossary Entry"). One or more AS instances can be instantiated for an AS ABAP. Multiple AS instances are usually distributed across several [host computers](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhost_computer_glosry.htm "Glossary Entry"). The AS instances communicate with each other using a [message server](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_server_glosry.htm "Glossary Entry") that exists only once for each AS ABAP.
     
 -   Work processes
     
-    Each AS instance has [work processes](javascript:call_link\('abenwork_process_glosry.htm'\) "Glossary Entry") to execute ABAP programs. There are different types of work processes for different applications: dialog, enqueue, background, spool, and update work processes. For the entire runtime of an AS instance, each work process is logged on to the [standard database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") of the [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry") as a [database user](javascript:call_link\('abendatabase_user_glosry.htm'\) "Glossary Entry") using a [standard connection](javascript:call_link\('abenstandard_db_connection_glosry.htm'\) "Glossary Entry"). This user is assigned the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry") that represents the [database layer](javascript:call_link\('abendatabase_layer_glosry.htm'\) "Glossary Entry") of an [ABAP system](javascript:call_link\('abenabap_system_glosry.htm'\) "Glossary Entry"). The ABAP database schema stores both [system programs](javascript:call_link\('abensystem_program_glosry.htm'\) "Glossary Entry") and [system tables](javascript:call_link\('abensystem_table_glosry.htm'\) "Glossary Entry"), as well as [application programs](javascript:call_link\('abenapplication_program_glosry.htm'\) "Glossary Entry") and [application tables](javascript:call_link\('abenapplication_table_glosry.htm'\) "Glossary Entry").
+    Each AS instance has [work processes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwork_process_glosry.htm "Glossary Entry") to execute ABAP programs. There are different types of work processes for different applications: dialog, enqueue, background, spool, and update work processes. For the entire runtime of an AS instance, each work process is logged on to the [standard database](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_db_glosry.htm "Glossary Entry") of the [AS ABAP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenas_abap_glosry.htm "Glossary Entry") as a [database user](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_user_glosry.htm "Glossary Entry") using a [standard connection](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_db_connection_glosry.htm "Glossary Entry"). This user is assigned the [ABAP database schema](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_db_schema_glosry.htm "Glossary Entry") that represents the [database layer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_layer_glosry.htm "Glossary Entry") of an [ABAP system](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_system_glosry.htm "Glossary Entry"). The ABAP database schema stores both [system programs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_program_glosry.htm "Glossary Entry") and [system tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_table_glosry.htm "Glossary Entry"), as well as [application programs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenapplication_program_glosry.htm "Glossary Entry") and [application tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenapplication_table_glosry.htm "Glossary Entry").
     
 -   Communication components
     
-    The communication components connect the AS instances to the [presentation layer](javascript:call_link\('abenpresentation_layer_glosry.htm'\) "Glossary Entry") of the [ABAP system](javascript:call_link\('abenabap_system_glosry.htm'\) "Glossary Entry"), or to other systems that themselves can be another AS ABAP or external systems. Examples of communication components are:
+    The communication components connect the AS instances to the [presentation layer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpresentation_layer_glosry.htm "Glossary Entry") of the [ABAP system](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_system_glosry.htm "Glossary Entry"), or to other systems that themselves can be another AS ABAP or external systems. Examples of communication components are:
     
-    -   The [ICM](javascript:call_link\('abenicm_glosry.htm'\) "Glossary Entry") for linking to browser-based [user interfaces](javascript:call_link\('abenuser_interface_glosry.htm'\) "Glossary Entry") ([SAPUI5](javascript:call_link\('abensapui5_glosry.htm'\) "Glossary Entry"), [Web Dynpro](javascript:call_link\('abenweb_dynpro_glosry.htm'\) "Glossary Entry")) and to the Internet.
-    -   The [RFC interface](javascript:call_link\('abenrfc_interface_glosry.htm'\) "Glossary Entry") for linking to other systems.
-    -   A dispatcher for linking to [SAP GUI](javascript:call_link\('abensap_gui_glosry.htm'\) "Glossary Entry").
+    -   The [ICM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenicm_glosry.htm "Glossary Entry") for linking to browser-based [user interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_interface_glosry.htm "Glossary Entry") ([SAPUI5](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensapui5_glosry.htm "Glossary Entry"), [Web Dynpro](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenweb_dynpro_glosry.htm "Glossary Entry")) and to the Internet.
+    -   The [RFC interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrfc_interface_glosry.htm "Glossary Entry") for linking to other systems.
+    -   A dispatcher for linking to [SAP GUI](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_gui_glosry.htm "Glossary Entry").
     
     There are different protocols for communication, such as HTTP, HTTPS, TCP, or SAP's RFC protocol.
     
 
 For more information, see [Application Server Infrastructure - ABAP](https://help.sap.com/docs/ABAP_PLATFORM_NEW/7bbf03267f654b5cb06a8bf78f61fca1/797de8aa42e24916953c4bb3d983662d).
 
-ABAP program execution is organized in [sessions](javascript:call_link\('abensession_glosry.htm'\) "Glossary Entry"), which can access different memory areas:
+ABAP program execution is organized in [sessions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensession_glosry.htm "Glossary Entry"), which can access different memory areas:
 
--   [Sessions and Memory Areas](javascript:call_link\('abenmemory_organization.htm'\))
--   [User Sessions](javascript:call_link\('abenuser_sessions.htm'\))
--   [Programs in the Internal Session](javascript:call_link\('abeninternal_session.htm'\))
+-   [Sessions and Memory Areas](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_organization.htm)
+-   [User Sessions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_sessions.htm)
+-   [Programs in the Internal Session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session.htm)
 
 Continue
-[Sessions and Memory Areas](javascript:call_link\('abenmemory_organization.htm'\))
-[User Sessions](javascript:call_link\('abenuser_sessions.htm'\))
-[Programs in the Internal Session](javascript:call_link\('abeninternal_session.htm'\))
+[Sessions and Memory Areas](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmemory_organization.htm)
+[User Sessions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenuser_sessions.htm)
+[Programs in the Internal Session](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_session.htm)

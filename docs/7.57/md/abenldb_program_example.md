@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of External Data](javascript:call_link\('abendata_storage_obsolete.htm'\)) →  [Logical Databases (LDB, Obsolete)](javascript:call_link\('abenldb.htm'\)) →  [LDB - Examples](javascript:call_link\('abenldb_examples.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_storage_obsolete.htm) →  [Logical Databases (LDB, Obsolete)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb.htm) →  [LDB - Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_examples.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: LDB - Example of a Database Program, ABENLDB_PROGRAM_EXAMPLE, 757%0D%0A%0D%0AError:%0
 D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 LDB - Example of a Database Program
 
-A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](javascript:call_link\('abenldb_example.htm'\)). All nodes are database tables. Selections are defined in the selection include:
+A logical database TEST\_LDB has the structure shown in [Example of a Logical Database](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_example.htm). All nodes are database tables. Selections are defined in the selection include:
 
 SELECT-OPTIONS SLIFNR  FOR LFA1-LIFNR.
 SELECT-OPTIONS SBUKRS  FOR LFB1-BUKRS.
@@ -175,6 +175,6 @@ The comment characters in front of ABAP statements that are to be used in additi
 
 When the database is accessed in the subroutines put\_node, SELECT statements with conditions for the primary key fields in the WHERE clauses are generated. The performance of these statements is, however, not yet optimized. In particular, the subroutines put\_node of a subtree of the structure represent nested SELECT loops, which should generally be avoided. Instead, the data read can be buffered in internal tables, for example, and passed from here to the application program using the PUT statement. The statement PUT node, however, should always be in a subroutine whose name starts with put\_node for technical reasons.
 
-If the selections specify [dynamic selections](javascript:call_link\('abenldb_free_selections.htm'\)) or [field selections](javascript:call_link\('abenldb_field_selections.htm'\)) for a node, corresponding statements are generated in the subroutine put\_node and the SELECT statement created automatically is modified, as shown in the example for the node BKPF.
+If the selections specify [dynamic selections](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_free_selections.htm) or [field selections](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenldb_field_selections.htm) for a node, corresponding statements are generated in the subroutine put\_node and the SELECT statement created automatically is modified, as shown in the example for the node BKPF.
 
 The subroutines before\_event, after\_event, and put\_ldb\_sp are created as a comment in the database program and can be modified and activated by deleting the asterisks. before\_event is called before the event specified in the parameter event is processed. after\_event is called after the event specified in the parameter event is processed. When a search help selection is made, put\_ldb\_sp is called to process the return values instead of put\_node for the root node.

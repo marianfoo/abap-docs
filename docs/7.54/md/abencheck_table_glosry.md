@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 check table
 
-[Database table](javascript:call_link\('abendatabase_table_glosry.htm'\) "Glossary Entry") whose [primary key](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") appears as a [foreign key](javascript:call_link\('abenforeign_key_glosry.htm'\) "Glossary Entry") in a [foreign key table](javascript:call_link\('abenforeign_key_table_glosry.htm'\) "Glossary Entry").
+[Database table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendatabase_table_glosry.htm "Glossary Entry") whose [primary key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenprimary_key_glosry.htm "Glossary Entry") appears as a [foreign key](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_glosry.htm "Glossary Entry") in a [foreign key table](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenforeign_key_table_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenddic_database_tables_checktab.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_checktab.htm)

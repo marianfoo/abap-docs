@@ -4,15 +4,15 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces (ABAP Objects)](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [ABAP Objects - Methods](javascript:call_link\('abenmethods.htm'\)) →  [METHODS](javascript:call_link\('abapmethods.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_declarations.htm) →  [Classes and Interfaces (ABAP Objects)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenclass_ifac_components.htm) →  [ABAP Objects - Methods](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmethods.htm) →  [METHODS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods.htm) → 
 
 METHODS, REDEFINITION
 
-[Short Reference](javascript:call_link\('abapmethods_redefinition_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_redefinition_shortref.htm)
 
 Syntax
 
-METHODS meth *\[*[FINAL](javascript:call_link\('abapmethods_abstract_final.htm'\))*\]* REDEFINITION.
+METHODS meth *\[*[FINAL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_abstract_final.htm)*\]* REDEFINITION.
 
 Addition:
 
@@ -20,22 +20,22 @@ Addition:
 
 Effect
 
-This statement is possible only in subclasses and redefines an inherited instance method meth. It has the effect that the method meth must be reimplemented in the implementation part of the subclass. The new implementation in the current class hides the implementation of the superclass. The redefined method accesses the [private](javascript:call_link\('abenprivate_glosry.htm'\) "Glossary Entry") components of the redefined class and not any private components of the same name in the superclass. In the redefined method, the implementation of the direct superclass can be called using [super->meth](javascript:call_link\('abapcall_method_meth_super.htm'\)). The redefinition is valid for the subclasses of the redefined class until the method is redefined again.
+This statement is possible only in subclasses and redefines an inherited instance method meth. It has the effect that the method meth must be reimplemented in the implementation part of the subclass. The new implementation in the current class hides the implementation of the superclass. The redefined method accesses the [private](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprivate_glosry.htm "Glossary Entry") components of the redefined class and not any private components of the same name in the superclass. In the redefined method, the implementation of the direct superclass can be called using [super->meth](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcall_method_meth_super.htm). The redefinition is valid for the subclasses of the redefined class until the method is redefined again.
 
-With the exception of the [instance constructor](javascript:call_link\('abapmethods_constructor.htm'\)), any non-final instance method declared in the [public](javascript:call_link\('abenpublic_glosry.htm'\) "Glossary Entry") or [protected](javascript:call_link\('abenprotected_glosry.htm'\) "Glossary Entry") [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry") of a superclass of the current class can be specified for meth. In particular, meth can be an abstract method of an abstract superclass. The [redefinition](javascript:call_link\('abenredefinition_glosry.htm'\) "Glossary Entry") must take place in the same visibility section as the method declaration. The interface and the category of the method (a [general](javascript:call_link\('abapmethods_general.htm'\)) or [functional](javascript:call_link\('abapmethods_functional.htm'\)) [instance method](javascript:call_link\('abeninstance_method_glosry.htm'\) "Glossary Entry") or [event handler](javascript:call_link\('abapmethods_event_handler.htm'\))) are not changed in a redefinition. Private methods in superclasses cannot be redefined.
+With the exception of the [instance constructor](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_constructor.htm), any non-final instance method declared in the [public](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpublic_glosry.htm "Glossary Entry") or [protected](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprotected_glosry.htm "Glossary Entry") [visibility section](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenvisibility_section_glosry.htm "Glossary Entry") of a superclass of the current class can be specified for meth. In particular, meth can be an abstract method of an abstract superclass. The [redefinition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenredefinition_glosry.htm "Glossary Entry") must take place in the same visibility section as the method declaration. The interface and the category of the method (a [general](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_general.htm) or [functional](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_functional.htm) [instance method](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninstance_method_glosry.htm "Glossary Entry") or [event handler](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_event_handler.htm)) are not changed in a redefinition. Private methods in superclasses cannot be redefined.
 
 Hints
 
--   Every object reference that points to an object of a subclass, independent of its static type, addresses the redefined methods. This applies in particular to the [self-reference](javascript:call_link\('abenself_reference_glosry.htm'\) "Glossary Entry") me->.
--   When an [instance constructor](javascript:call_link\('abeninstance_constructor_glosry.htm'\) "Glossary Entry") of a superclass is executed during the creation of an object, the method implementations of the superclass are always called and not the redefined methods of the subclass. Specifying the self-reference me-> has no effect at this time.
--   In the redefinition of a method of an interface, an alias name of the class defined using [ALIASES](javascript:call_link\('abapaliases.htm'\)) can be specified for meth.
--   The explicit implementation can be omitted when redefining an optional interface method declared using [DEFAULT](javascript:call_link\('abapmethods_default.htm'\)). Instead, the default behavior defined using DEFAULT applies in calls from the current subclass. However, this is not recommended. The default behavior is often not as expected, particularly if an explicit implementation already exists in a preceding superclass.
+-   Every object reference that points to an object of a subclass, independent of its static type, addresses the redefined methods. This applies in particular to the [self-reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenself_reference_glosry.htm "Glossary Entry") me->.
+-   When an [instance constructor](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninstance_constructor_glosry.htm "Glossary Entry") of a superclass is executed during the creation of an object, the method implementations of the superclass are always called and not the redefined methods of the subclass. Specifying the self-reference me-> has no effect at this time.
+-   In the redefinition of a method of an interface, an alias name of the class defined using [ALIASES](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapaliases.htm) can be specified for meth.
+-   The explicit implementation can be omitted when redefining an optional interface method declared using [DEFAULT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_default.htm). Instead, the default behavior defined using DEFAULT applies in calls from the current subclass. However, this is not recommended. The default behavior is often not as expected, particularly if an explicit implementation already exists in a preceding superclass.
 
 Addition   
 
 ... FINAL
 
-A method can be redefined repeatedly along a path in the inheritance tree until the addition [FINAL](javascript:call_link\('abapmethods_abstract_final.htm'\)) is used in the redefinition. The method is then final as of the current class and can no longer be redefined in its subclasses.
+A method can be redefined repeatedly along a path in the inheritance tree until the addition [FINAL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmethods_abstract_final.htm) is used in the redefinition. The method is then final as of the current class and can no longer be redefined in its subclasses.
 
 Example
 

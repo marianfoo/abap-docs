@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 inline declaration
 
-[Declaration](javascript:call_link\('abendeclaration_glosry.htm'\) "Glossary Entry") of a [variable](javascript:call_link\('abenvariable_glosry.htm'\) "Glossary Entry") or a [field symbol](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry") in a [declaration expression](javascript:call_link\('abendeclaration_expression_glosry.htm'\) "Glossary Entry") in a [declaration position](javascript:call_link\('abendeclaration_position_glosry.htm'\) "Glossary Entry").
+[Declaration](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclaration_glosry.htm "Glossary Entry") of a [variable](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvariable_glosry.htm "Glossary Entry") or a [field symbol](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfield_symbol_glosry.htm "Glossary Entry") in a [declaration expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclaration_expression_glosry.htm "Glossary Entry") in a [declaration position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclaration_position_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abeninline_declarations.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninline_declarations.htm)

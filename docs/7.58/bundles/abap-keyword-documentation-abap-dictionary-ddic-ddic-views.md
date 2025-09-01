@@ -3,35 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenddic_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm)
-- [abenddic_view_names.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_view_names.htm)
-- [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
-- [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm)
-- [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_projection_views.htm)
-- [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm)
-- [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_help_views.htm)
-
-**Bundle Contains**: 7 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.921Z
-
----
-
 ### abenddic_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -39,61 +11,50 @@ Included pages: 8
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Views%2C%20ABENDDIC_VIEWS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DDIC - Views
 
-A [DDIC view](javascript:call_link\('abenddic_view_glosry.htm'\) "Glossary Entry") is a grouping of columns of one or more DDIC database tables, resulting in an application-specific view. In AS ABAP, views are defined in ABAP Dictionary and can be referenced as data types in the same way as DDIC structures. Views can be used like DDIC database tables in reading ABAP SQL statements and, with some limitations, also in writing ABAP SQL statements. For this reason, the ABAP DDIC views are in the same namespace as all types of the ABAP Dictionary and hence in the namespace of all [global types](javascript:call_link\('abenglobal_type_glosry.htm'\) "Glossary Entry") of an AS ABAP.
+A [DDIC view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_view_glosry.htm "Glossary Entry") is a grouping of columns of one or more DDIC database tables, resulting in an application-specific view. In AS ABAP, views are defined in ABAP Dictionary and can be referenced as data types in the same way as DDIC structures. Views can be used like DDIC database tables in reading ABAP SQL statements and, with some limitations, also in writing ABAP SQL statements. For this reason, the ABAP DDIC views are in the same namespace as all types of the ABAP Dictionary and hence in the namespace of all [global types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_type_glosry.htm "Glossary Entry") of an AS ABAP.
 
-The name of a view must follow the [naming rules for DDIC views](javascript:call_link\('abenddic_view_names.htm'\)).
+The name of a view must follow the [naming rules for DDIC views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_view_names.htm).
 
 The data in a view is not saved physically. It is read from the database from the involved DDIC database tables.
 
 -   Views can be used to restrict data access for a DDIC database table. Access to fields is restricted with projections and access to specific rows is restricted with selections.
 -   Views that select from multiple DDIC database tables use joins or subqueries to join these tables and to read the required fields and rows.
 
-The views in ABAP Dictionary are usually platform-independent. With some exceptions, the views in ABAP Dictionary are, when activated, transformed into platform-dependent [SQL views](javascript:call_link\('abensql_view_glosry.htm'\) "Glossary Entry") in the current [standard AS ABAP database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") in the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry"). This is done using the [DDL](javascript:call_link\('abenddl_glosry.htm'\) "Glossary Entry") statement CREATE VIEW with the addition AS SELECT, which formulates the corresponding SELECT statement. The definition of a view in the database can be displayed in transaction SE11 by choosing Utilities → Database Object.
+The views in ABAP Dictionary are usually platform-independent. With some exceptions, the views in ABAP Dictionary are, when activated, transformed into platform-dependent [SQL views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_view_glosry.htm "Glossary Entry") in the current [standard AS ABAP database](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_db_glosry.htm "Glossary Entry") in the [ABAP database schema](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_db_schema_glosry.htm "Glossary Entry"). This is done using the [DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddl_glosry.htm "Glossary Entry") statement CREATE VIEW with the addition AS SELECT, which formulates the corresponding SELECT statement. The definition of a view in the database can be displayed in transaction SE11 by choosing Utilities → Database Object.
 
 ABAP Dictionary manages the following categories of views:
 
--   [DDIC table views](javascript:call_link\('abenddic_table_views.htm'\))
+-   [DDIC table views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
     
-    In DDIC table views the platform-dependent DDL statement is created from the definition of the view in the form-based ABAP Dictionary [tool](javascript:call_link\('abenddic_tools.htm'\)).
+    In DDIC table views the platform-dependent DDL statement is created from the definition of the view in the form-based ABAP Dictionary [tool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tools.htm).
     
--   [DDIC external views](javascript:call_link\('abenddic_external_views.htm'\)) (obsolete)
+-   [DDIC external views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_external_views.htm) (obsolete)
     
-    A DDIC external view makes an [SAP HANA view](javascript:call_link\('abenhana_view_glosry.htm'\) "Glossary Entry") known in ABAP programs and makes it usable like a DDIC table view.
+    A DDIC external view makes an [SAP HANA view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_view_glosry.htm "Glossary Entry") known in ABAP programs and makes it usable like a DDIC table view.
     
-    Note: [SAP HANA XSA](javascript:call_link\('abenxsa_glosry.htm'\) "Glossary Entry") replaces [SAP HANA XSC](javascript:call_link\('abenxsc_glosry.htm'\) "Glossary Entry"). The access methods designed specifically for XSC objects are not suitable for XSA objects and have become obsolete. [DDIC external views](javascript:call_link\('abenexternal_view_glosry.htm'\) "Glossary Entry") represent one such access method and have been declared obsolete. See [SAP Note 3116165](https://launchpad.support.sap.com/#/notes/3116165) and [SAP Note 2465027](https://launchpad.support.sap.com/#/notes/2465027).
+    Note: [SAP HANA XSA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxsa_glosry.htm "Glossary Entry") replaces [SAP HANA XSC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxsc_glosry.htm "Glossary Entry"). The access methods designed specifically for XSC objects are not suitable for XSA objects and have become obsolete. [DDIC external views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexternal_view_glosry.htm "Glossary Entry") represent one such access method and have been declared obsolete. See [SAP Note 3116165](https://launchpad.support.sap.com/#/notes/3116165) and [SAP Note 2465027](https://launchpad.support.sap.com/#/notes/2465027).
     
 
-When a view is accessed using the ABAP SQL statement [SELECT](javascript:call_link\('abapselect.htm'\)), the database SELECT statement defined in the DDL statement is executed and the result set is returned as if a SELECT were executed on a DDIC database table whose structure matches the structure defined by the view.
+When a view is accessed using the ABAP SQL statement [SELECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect.htm), the database SELECT statement defined in the DDL statement is executed and the result set is returned as if a SELECT were executed on a DDIC database table whose structure matches the structure defined by the view.
 
 Hints
 
 -   Defining views is usually not the job of an ABAP application programmer, but is part of the implementation of data models in ABAP Dictionary. Once created, views are used in ABAP programs using ABAP SQL statements and must be stable enough to allow this.
--   The DDIC database tables a view is based on should have suitable [indexes](javascript:call_link\('abenddic_database_tables_index.htm'\)). This is important for selections using views.
--   [ABAP Core Data Services (CDS)](javascript:call_link\('abencds.htm'\)) offers [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry") and other [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") for the implementation of data models and replaces data modeling with DDIC views. CDS entities are defined in a (mostly) platform-independent [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") in [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry"). CDS entities offer advanced modeling capabilities compared to DDIC views.
+-   The DDIC database tables a view is based on should have suitable [indexes](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_index.htm). This is important for selections using views.
+-   [ABAP Core Data Services (CDS)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds.htm) offers [CDS views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_glosry.htm "Glossary Entry") and other [CDS entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm "Glossary Entry") for the implementation of data models and replaces data modeling with DDIC views. CDS entities are defined in a (mostly) platform-independent [CDS DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm "Glossary Entry") in [DDL source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddl_source_code_glosry.htm "Glossary Entry"). CDS entities offer advanced modeling capabilities compared to DDIC views.
 
 Continue
-[DDIC - Naming Rules for DDIC Views](javascript:call_link\('abenddic_view_names.htm'\))
-[DDIC - Table Views](javascript:call_link\('abenddic_table_views.htm'\))
+[DDIC - Naming Rules for DDIC Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_view_names.htm)
+[DDIC - Table Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
 
-
-
-**📖 Source**: [abenddic_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm)
 
 ### abenddic_view_names.htm
-
-> **📖 Official SAP Documentation**: [abenddic_view_names.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_view_names.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_view_names.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_view_names.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -101,7 +62,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Views](javascript:call_link\('abenddic_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Naming%20Rules%20for%20DDIC%20Views%2C%20ABENDDIC_VIEW_NAMES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -110,23 +71,12 @@ DDIC - Naming Rules for DDIC Views
 The name of a view defined in the ABAP Dictionary must comply to the following rules:
 
 -   It can have a maximum of 16 characters.
--   It must follow the [naming rules for DDIC types](javascript:call_link\('abenddic_types_names.htm'\)),
--   It must follow the special [naming rules for DDIC structures](javascript:call_link\('abenddic_structures_names.htm'\)), with the exception, that it can always contain an underscore (\_) at the second or third position.
--   It is located in the namespace of the [data types](javascript:call_link\('abenddic_data_types.htm'\)) in ABAP Dictionary and by that the namespace of all [global types](javascript:call_link\('abenglobal_type_glosry.htm'\) "Glossary Entry") of an AS ABAP.
+-   It must follow the [naming rules for DDIC types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_types_names.htm),
+-   It must follow the special [naming rules for DDIC structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_structures_names.htm), with the exception, that it can always contain an underscore (\_) at the second or third position.
+-   It is located in the namespace of the [data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_types.htm) in ABAP Dictionary and by that the namespace of all [global types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_type_glosry.htm "Glossary Entry") of an AS ABAP.
 
-
-
-**📖 Source**: [abenddic_view_names.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_view_names.htm)
 
 ### abenddic_table_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -134,13 +84,13 @@ The name of a view defined in the ABAP Dictionary must comply to the following r
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Views](javascript:call_link\('abenddic_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Table%20Views%2C%20ABENDDIC_TABLE_VIEWS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DDIC - Table Views
 
-A DDIC table view is a repository object in ABAP Dictionary defined for existing DDIC database tables and their fields in the form-based ABAP Dictionary [tool](javascript:call_link\('abenddic_tools.htm'\)) in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry").
+A DDIC table view is a repository object in ABAP Dictionary defined for existing DDIC database tables and their fields in the form-based ABAP Dictionary [tool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tools.htm) in [ABAP Workbench](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
 
 The definition of a DDIC table view consists of the following:
 
@@ -150,7 +100,7 @@ The definition of a DDIC table view consists of the following:
     
 -   View fields
     
-    A list of table fields of the basis tables that defines the structure of the view. Except in the case of DDIC projection views, a different [data element](javascript:call_link\('abenddic_data_elements.htm'\)) can be assigned to a view field than used for the corresponding table field of the basis table. As a prerequisite, the type of the table field must be defined using a data element with a [domain](javascript:call_link\('abenddic_domains.htm'\)) and the new data element must reference the same domain. This makes it possible to adjust the semantic properties of the view field.
+    A list of table fields of the basis tables that defines the structure of the view. Except in the case of DDIC projection views, a different [data element](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_elements.htm) can be assigned to a view field than used for the corresponding table field of the basis table. As a prerequisite, the type of the table field must be defined using a data element with a [domain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_domains.htm) and the new data element must reference the same domain. This makes it possible to adjust the semantic properties of the view field.
     
 -   Key
     
@@ -165,15 +115,15 @@ The definition of a DDIC table view consists of the following:
     Restrict the read rows to specific values of view fields or other fields.
     
     -   The possible comparison operators are \=, <>, \>=, \>, <=, <, LIKE, and NOT LIKE.
-    -   Depending on the data type of the view field, constant texts and numbers are allowed as comparison values. [System fields](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") can be specified for DDIC maintenance views and DDIC help views using SYST-... or SY-....
+    -   Depending on the data type of the view field, constant texts and numbers are allowed as comparison values. [System fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_field_glosry.htm "Glossary Entry") can be specified for DDIC maintenance views and DDIC help views using SYST-... or SY-....
     -   Multiple comparisons can be joined using AND and multiple comparisons for the same field can be joined using OR. Here, OR is stronger than AND.
 
-The following types of DDIC table views exist, of which only the DDIC database views are defined as [SQL views](javascript:call_link\('abensql_view_glosry.htm'\) "Glossary Entry") on the database:
+The following types of DDIC table views exist, of which only the DDIC database views are defined as [SQL views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_view_glosry.htm "Glossary Entry") on the database:
 
--   [DDIC database views](javascript:call_link\('abenddic_database_views.htm'\))
--   [DDIC projection views](javascript:call_link\('abenddic_projection_views.htm'\))
--   [DDIC maintenance views](javascript:call_link\('abenddic_maintenance_views.htm'\))
--   [DDIC help views](javascript:call_link\('abenddic_help_views.htm'\))
+-   [DDIC database views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm)
+-   [DDIC projection views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_projection_views.htm)
+-   [DDIC maintenance views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm)
+-   [DDIC help views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_help_views.htm)
 
 Like DDIC database tables, views have a short text description and (optional) documentation. A status known as a maintenance status determines whether a view is read-only or whether data can be inserted or modified in the view.
 
@@ -181,31 +131,20 @@ Hints
 
 -   To implement a projection, either DDIC database views or DDIC projection views can be used.
 -   Only DDIC database tables can be specified as the basis tables of table views. Other views are not possible as basis object.
--   In [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry"), only views whose key fields are located together at the beginning of the view can be accessed.
--   Views whose fields are all key fields should not be written to using [UPDATE FROM](javascript:call_link\('abapupdate.htm'\)) or [MODIFY FROM](javascript:call_link\('abapmodify_dbtab.htm'\)). For DDIC database views, this produces a syntax check warning and for projection views a syntax error or runtime error.
--   As in DDIC database tables, the [client dependency](javascript:call_link\('abenclient_dependency_glosry.htm'\) "Glossary Entry") of a table view that can be accessed using ABAP SQL (a DDIC database view or a DDIC projection view) is determined by a first column with the built-in dictionary type CLNT. The client dependency of the basis tables is ignored.
--   Table views cannot be maintained using the [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") in the [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry").
--   [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") defined using the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") of the ABAP Core Data Services in [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") offer all the functions of table views and more. CDS view entities allow only read access, however, while some DDIC views can be modified.
+-   In [ABAP SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_glosry.htm "Glossary Entry"), only views whose key fields are located together at the beginning of the view can be accessed.
+-   Views whose fields are all key fields should not be written to using [UPDATE FROM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapupdate.htm) or [MODIFY FROM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_dbtab.htm). For DDIC database views, this produces a syntax check warning and for projection views a syntax error or runtime error.
+-   As in DDIC database tables, the [client dependency](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclient_dependency_glosry.htm "Glossary Entry") of a table view that can be accessed using ABAP SQL (a DDIC database view or a DDIC projection view) is determined by a first column with the built-in dictionary type CLNT. The client dependency of the basis tables is ignored.
+-   Table views cannot be maintained using the [Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") in the [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry").
+-   [CDS entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm "Glossary Entry") defined using the [CDS DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm "Glossary Entry") of the ABAP Core Data Services in [DDL source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddl_source_code_glosry.htm "Glossary Entry") offer all the functions of table views and more. CDS view entities allow only read access, however, while some DDIC views can be modified.
 
 Continue
-[DDIC - Database Views](javascript:call_link\('abenddic_database_views.htm'\))
-[DDIC - Projection Views](javascript:call_link\('abenddic_projection_views.htm'\))
-[DDIC - Maintenance Views](javascript:call_link\('abenddic_maintenance_views.htm'\))
-[DDIC - Help Views](javascript:call_link\('abenddic_help_views.htm'\))
+[DDIC - Database Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm)
+[DDIC - Projection Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_projection_views.htm)
+[DDIC - Maintenance Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm)
+[DDIC - Help Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_help_views.htm)
 
-
-
-**📖 Source**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
 
 ### abenddic_database_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -213,32 +152,124 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Views](javascript:call_link\('abenddic_views.htm'\)) →  [DDIC - Table Views](javascript:call_link\('abenddic_table_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm) →  [DDIC - Table Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Database%20Views%2C%20ABENDDIC_DATABASE_VIEWS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DDIC - Database Views
 
-A DDIC database view defines a view on one or more basis tables. If there are multiple basis tables, they are joined using an inner join. An [SQL view](javascript:call_link\('abensql_view_glosry.htm'\) "Glossary Entry") is created as a [database object](javascript:call_link\('abendb_object_glosry.htm'\) "Glossary Entry") on the database when the view is activated. The structure type defined using the view fields of the database view can be referenced in ABAP programs using TYPE. A database view can be accessed using [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry"), [AMDP](javascript:call_link\('abenamdp_glosry.htm'\) "Glossary Entry"), [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry"), [CDS views](javascript:call_link\('abencds_view_glosry.htm'\) "Glossary Entry"), and also from outside AS ABAP using the programming interface of the database. The latter method is, however, [not recommended](javascript:call_link\('abendatabase_access_recomm.htm'\)).
+A DDIC database view defines a view on one or more basis tables. If there are multiple basis tables, they are joined using an inner join. An [SQL view](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_view_glosry.htm "Glossary Entry") is created as a [database object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_object_glosry.htm "Glossary Entry") on the database when the view is activated. The structure type defined using the view fields of the database view can be referenced in ABAP programs using TYPE. A database view can be accessed using [ABAP SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_glosry.htm "Glossary Entry"), [AMDP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamdp_glosry.htm "Glossary Entry"), [Native SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_glosry.htm "Glossary Entry"), [CDS views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_glosry.htm "Glossary Entry"), and also from outside AS ABAP using the programming interface of the database. The latter method is, however, [not recommended](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_access_recomm.htm).
 
--   [Basis Tables](#abenddic-database-views-1-------view-fields---@ITOC@@ABENDDIC_DATABASE_VIEWS_2)
--   [Join Conditions](#abenddic-database-views-3-------maintenance-status---@ITOC@@ABENDDIC_DATABASE_VIEWS_4)
--   [Table Buffering](#abenddic-database-views-5---hints------a-ddic-database-view-can-be-activated-in-abap-dictionary-without-its-basis-tables-being-defined-on-the-database--the-view-is-also-not-created-on-the-database-in-this-case------as-in-a--ddic-database-table--javascript-call-link---abenddic-database-tables-client-htm------the-client-dependency-of-a-database-view-is-determined-by-a-column-with-the-built-in-dictionary-type-clnt--this-column-must-be-the-first-column-of-the-view-------ddic-append-views--javascript-call-link---abenddic-append-views-htm-----are-available-for-extending-ddic-database-views-delivered-by-sap-without-modifying-the-original-object------suitable--cds-views--javascript-call-link---abencds-view-glosry-htm-----glossary-entry---can-be-defined-as--replacement-objects--javascript-call-link---abenddic-replacement-objects-htm-----for-database-views--in-this-case--reads-in--abap-sql--javascript-call-link---abenabap-sql-glosry-htm-----glossary-entry---access-the-replacement-objects-rather-than-the-database-views------database-views-managed-by-abap-dictionary-should-not-be-accessed-directly-in-the-database--see--access-to-abap-managed-database-objects--javascript-call-link---abendatabase-access-recomm-htm--------basis-tables-----the-basis-tables-of-database-views-can-be--transparent-tables--javascript-call-link---abentransparent-table-glosry-htm-----glossary-entry---and--global-temporary-tables--javascript-call-link---abenglobal-temporary-table-glosry-htm-----glossary-entry-----view-fields-----the-view-fields-of-a-ddic-database-view-can-be-one-or-more-fields-from-the-basis-tables--an-include-mechanism-can-be-used-to-add-all-fields-from-a-basis-table--when-individual-fields-are-used--a-name-other-than-the-name-in-the-basis-tables-can-be-defined-for-a-view-field--this-name-can-have-a-maximum-of-30-characters--must-meet-the-naming-conventions-for-component-names-of--ddic-structures--javascript-call-link---abenddic-structures-htm------and-cannot-be-a-reserved-name--the-reserved-names-that-cannot-be-used-are-specified-in-the-database-table-trese--fields-with-the-type-char-can-have-a-maximum-of-1333-characters--fields-with-the-type-lraw-or-lchr-must-be-at-the-end-of-the-view--only-one-such-field-is-allowed-per-view--furthermore--each-field-of-type-lraw-or-lchr-must-have-a-field-with-the-type-int2-or-int4-directly-in-front-of-it--the-value-of-this-integer-field-specifies-the-maximum-length-of-the-lraw-or-lchr-field---to-include-all-fields-from-a-basis-table-in-a-ddic-view--the-asterisk-character------can-be-used-instead-of-the-field-name--if-the-minus-character------is-used-for-individual-fields-of-a-basis-table-included-using-----all-fields-except-for-the-fields-specified-with----become-view-fields--if-the-structure-of-a-ddic-database-table-whose-fields-were-added-with----is-modified--the-structure-of-the-view-is-also-modified---hints------if-a--foreign-key-field--javascript-call-link---abenforeign-key-field-glosry-htm-----glossary-entry---is-added-as-a-view-field--it-keeps-its-foreign-key-attribute-and-all-associated-foreign-key-fields-become-the-foreign-key-of-the-view------for--cds-managed-ddic-views--obsolete---javascript-call-link---abencds-mngdddic-view-glosry-htm-----glossary-entry------javascript-call-link---abencds-v1-views-htm------the-view-fields-shown-as-key-fields-are-in-no-way-related-to-the-key-fields-defined-using--define-view--javascript-call-link---abencds-define-view-v1-htm-----for-the--cds-entity--javascript-call-link---abencds-entity-glosry-htm-----glossary-entry--------a-ddic-database-view-in-the-software-component-sap--basis-can-contain-a-maximum-of-750-view-fields-and-the-total-of-the-field-lengths--the-number-of-bytes-in-non-character-like-fields-plus-the-number-of-characters-in-flat-character-like-fields--must-not-exceed-4096--a-database-view-in-any-other-software-component-can-contain-a-maximum-of-1500-view-fields-and-the-total-of-the-field-lengths-is-not-checked-in-abap-dictionary---join-conditions-----the-join-conditions-for-an-inner-join-that-combines-two-basis-tables-can-be-formulated-using-equality-operators-between-any-two-table-fields-in-the-basis-tables--the-inner-join-joins-the-rows-of-the-basis-tables-in-question--the-result-set-contains-all-combinations-of-rows-whose-columns-meet-the-join-conditions--if-there-are-no-rows-in-the-basis-tables-that-meet-the-join-conditions--the-result-set-is-empty--if-there-is-a-suitable--foreign-key-dependency--javascript-call-link---abenddic-database-tables-forkeyrel-htm------including-generic-and-constant-foreign-keys--between-two-basis-tables--this-dependency-can-be-used-as-a-default-for-defining-join-conditions-in-abap-dictionary---maintenance-status-----the-access-setting-in-the-maintenance-status-of-a-ddic-database-view-can-have-the-following-values-------read-only----------the-database-view-can-only-be-used-to-read-data-with-abap-sql-----------read--change--delete--and-insert----------if-the-database-view-contains-only-a-single-basis-table--data-can-be--changed--javascript-call-link---abenabap-sql-writing-htm-----using-abap-sql--------a-database-view-with-multiple-basis-tables-can-only-be-read-with-abap-sql--if-a-database-view-is-based-on-a-single-table--data-can-be-inserted-in-this-table-using-the-view-with-the-abap-sql-statements--insert--javascript-call-link---abapinsert-dbtab-htm-----or--modify--javascript-call-link---abapinsert-dbtab-htm------fields-from-the-basis-table-that-are-not-included-in-the-ddic-view-can-be-handled-as-follows-------if-the-table-field-is-defined-with--not-null--javascript-call-link---abenddic-database-tables-init-htm-----on-the-database--the-field-is-filled-with-the-type-specific-initial-value------if-the-table-field-is-defined-with--not-null--javascript-call-link---abenddic-database-tables-init-htm-----on-the-database--and-there-is-no-initial-value--nothing-can-be-inserted-and-a-database-error-occurs-with-a-corresponding-exception------if-the-table-field-is-not-defined-with--not-null--javascript-call-link---abenddic-database-tables-init-htm-----on-the-database--the-field-is-filled-with-the--null-value--javascript-call-link---abennull-value-glosry-htm-----glossary-entry-----hints------a-ddic-database-view-should-only-be-used-to-insert-data-in-the-basis-table-if-the-flag-for-initial-values-is-set-for-all-table-fields-that-are-not-included-in-the-ddic-view------modifying-existing-data-records-via-a-ddic-database-view-does-not-cause-any-issues-as-long-as-the-database-view-contains-all-key-fields-of-the-table------like-a-ddic-database-table--the-maintenance-status-of-a-database-view-has-a--display-and-maintain--javascript-call-link---abenddic-database-tables-maint-htm-----setting-alongside-the-access-setting--the-display-and-maintain-setting-must-match-the-access-setting--in-database-views-containing-multiple-basis-tables--only-the-setting-display-maintenance-not-allowed-is-possible---table-buffering-----just-like-in-ddic-database-tables--it-is-possible-to-define-for-a-database-view-whether-the-data-in-the--table-buffer--javascript-call-link---abentable-buffer-glosry-htm-----glossary-entry---is-buffered--the-same--buffering-types--javascript-call-link---abenddic-database-tables-buffer-htm-----can-be-defined-and--table-buffering-in-abap-sql--javascript-call-link---abensap-puffering-htm-----is-handled-in-the-same-way-for-views-and-for-ddic-database-tables-with-the-only-difference-being-that--when-data-is-modified-in-one-of-the-basis-tables--the-entire-buffer-is-invalidated-when-the--buffers-are-synchronized--javascript-call-link---abenbuffer-synchro-htm------regardless-of-the-buffering-type--in-client-dependent-views--however--this-only-affects-the-content-of-the-current-client--as-for-ddic-database-tables--the-settings-for-buffering-are-separate-technical-settings--that-can-be-transported-independently-from-the-view---the-following-prerequisites-must-be-met-before-a-ddic-database-view-can-be-buffered-------a-basis-table-can-occur-in-no-more-than-nine-buffered-database-views------if-all-fields-of-the-database-view-are-key-fields--these-fields-must-also-be-key-fields-of-the-basis-tables------a-ddic-view-that-allows-abap-sql-write-access-must-not-have-a--replacement-object--javascript-call-link---abenddic-replacement-objects-htm-------hint--for-an-existing-ddic-view-that-already-has-a-buffer-and-allows-abap-sql-write-access--no--replacement-object--javascript-call-link---abenddic-replacement-objects-htm-----can-be-created---example--the-ddic-database-view-demo--scarr--spfli-contains-fields-of-the-tables-scarr-and-spfli--other-names-are-assigned-to-these-fields-in-the-view---the-associated-database-object-looks-as-follows---create-view-demo--scarr--spfli-----client-----id-----carrier-----flight-----departure-----destination---as-select----t1--mandt------t2--carrid------t1--carrname------t2--connid------t2--cityfrom------t2--cityto--from------scarr--t1-------spfli--t2-where-----t1--mandt-----t2--mandt--and-----t1--carrid----t2--carrid---the-view-can-be-accessed-as-follows-using-abap-sql---select-----------from-demo--scarr--spfli--------order-by-id--carrier--flight--------into-table-FINAL(result).
+-   [Basis Tables](#@@ITOC@@ABENDDIC_DATABASE_VIEWS_1)
+-   [View Fields](#@@ITOC@@ABENDDIC_DATABASE_VIEWS_2)
+-   [Join Conditions](#@@ITOC@@ABENDDIC_DATABASE_VIEWS_3)
+-   [Maintenance Status](#@@ITOC@@ABENDDIC_DATABASE_VIEWS_4)
+-   [Table Buffering](#@@ITOC@@ABENDDIC_DATABASE_VIEWS_5)
+
+Hints
+
+-   A DDIC database view can be activated in ABAP Dictionary without its basis tables being defined on the database. The view is also not created on the database in this case.
+-   As in a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_client.htm), the client dependency of a database view is determined by a column with the built-in dictionary type CLNT. This column must be the first column of the view.
+-   [DDIC append views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_append_views.htm) are available for extending DDIC database views delivered by SAP without modifying the original object.
+-   Suitable [CDS views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_view_glosry.htm "Glossary Entry") can be defined as [replacement objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm) for database views. In this case, reads in [ABAP SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_glosry.htm "Glossary Entry") access the replacement objects rather than the database views.
+-   Database views managed by ABAP Dictionary should not be accessed directly in the database (see [Access to ABAP-Managed Database Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_access_recomm.htm)).
+
+Basis Tables   
+
+The basis tables of database views can be [transparent tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransparent_table_glosry.htm "Glossary Entry") and [global temporary tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry").
+
+View Fields   
+
+The view fields of a DDIC database view can be one or more fields from the basis tables. An include mechanism can be used to add all fields from a basis table. When individual fields are used, a name other than the name in the basis tables can be defined for a view field. This name can have a maximum of 30 characters, must meet the naming conventions for component names of [DDIC structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_structures.htm), and cannot be a reserved name. The reserved names that cannot be used are specified in the database table TRESE. Fields with the type CHAR can have a maximum of 1333 characters. Fields with the type LRAW or LCHR must be at the end of the view. Only one such field is allowed per view. Furthermore, each field of type LRAW or LCHR must have a field with the type INT2 or INT4 directly in front of it. The value of this integer field specifies the maximum length of the LRAW or LCHR field.
+
+To include all fields from a basis table in a DDIC view, the asterisk character (\*) can be used instead of the field name. If the minus character (\-) is used for individual fields of a basis table included using \*, all fields except for the fields specified with \- become view fields. If the structure of a DDIC database table whose fields were added with \* is modified, the structure of the view is also modified.
+
+Hints
+
+-   If a [foreign key field](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenforeign_key_field_glosry.htm "Glossary Entry") is added as a view field, it keeps its foreign key attribute and all associated foreign key fields become the foreign key of the view.
+-   For [CDS-managed DDIC views (obsolete)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_mngdddic_view_glosry.htm "Glossary Entry") [](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_v1_views.htm), the view fields shown as key fields are in no way related to the key fields defined using [DEFINE VIEW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_define_view_v1.htm) for the [CDS entity](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm "Glossary Entry").
+-   A DDIC database view in the software component SAP\_BASIS can contain a maximum of 750 view fields and the total of the field lengths (the number of bytes in non-character-like fields plus the number of characters in flat character-like fields) must not exceed 4096. A database view in any other software component can contain a maximum of 1500 view fields and the total of the field lengths is not checked in ABAP Dictionary.
+
+Join Conditions   
+
+The join conditions for an inner join that combines two basis tables can be formulated using equality operators between any two table fields in the basis tables. The inner join joins the rows of the basis tables in question. The result set contains all combinations of rows whose columns meet the join conditions. If there are no rows in the basis tables that meet the join conditions, the result set is empty. If there is a suitable [foreign key dependency](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_forkeyrel.htm) (including generic and constant foreign keys) between two basis tables, this dependency can be used as a default for defining join conditions in ABAP Dictionary.
+
+Maintenance Status   
+
+The Access setting in the maintenance status of a DDIC database view can have the following values:
+
+-   Read only
+    
+    The database view can only be used to read data with ABAP SQL.
+    
+-   Read, change, delete, and insert
+    
+    If the database view contains only a single basis table, data can be [changed](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_writing.htm) using ABAP SQL.
+    
+
+A database view with multiple basis tables can only be read with ABAP SQL. If a database view is based on a single table, data can be inserted in this table using the view with the ABAP SQL statements [INSERT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_dbtab.htm) or [MODIFY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_dbtab.htm). Fields from the basis table that are not included in the DDIC view can be handled as follows:
+
+-   If the table field is defined with [NOT NULL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_init.htm) on the database, the field is filled with the type-specific initial value.
+-   If the table field is defined with [NOT NULL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_init.htm) on the database, and there is no initial value, nothing can be inserted and a database error occurs with a corresponding exception.
+-   If the table field is not defined with [NOT NULL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_init.htm) on the database, the field is filled with the [null value](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennull_value_glosry.htm "Glossary Entry").
+
+Hints
+
+-   A DDIC database view should only be used to insert data in the basis table if the flag for initial values is set for all table fields that are not included in the DDIC view.
+-   Modifying existing data records via a DDIC database view does not cause any issues as long as the database view contains all key fields of the table.
+-   Like a DDIC database table, the maintenance status of a database view has a [Display and Maintain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_maint.htm) setting alongside the Access setting. The Display and Maintain setting must match the Access setting. In database views containing multiple basis tables, only the setting Display/maintenance not allowed is possible.
+
+Table Buffering   
+
+Just like in DDIC database tables, it is possible to define for a database view whether the data in the [table buffer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_buffer_glosry.htm "Glossary Entry") is buffered. The same [buffering types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_buffer.htm) can be defined and [table buffering in ABAP SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_puffering.htm) is handled in the same way for views and for DDIC database tables with the only difference being that, when data is modified in one of the basis tables, the entire buffer is invalidated when the [buffers are synchronized](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuffer_synchro.htm), regardless of the buffering type. In client-dependent views, however, this only affects the content of the current client. As for DDIC database tables, the settings for buffering are separate technical settings, that can be transported independently from the view.
+
+The following prerequisites must be met before a DDIC database view can be buffered:
+
+-   A basis table can occur in no more than nine buffered database views.
+-   If all fields of the database view are key fields, these fields must also be key fields of the basis tables.
+-   A DDIC view that allows ABAP SQL write access must not have a [replacement object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm).
+
+Hint
+
+For an existing DDIC view that already has a buffer and allows ABAP SQL write access, no [replacement object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_replacement_objects.htm) can be created.
+
+Example
+
+The DDIC database view DEMO\_SCARR\_SPFLI contains fields of the tables SCARR and SPFLI. Other names are assigned to these fields in the view.
+
+The associated database object looks as follows:
+
+CREATE VIEW DEMO\_SCARR\_SPFLI
+   (CLIENT,
+   ID,
+   CARRIER,
+   FLIGHT,
+   DEPARTURE,
+   DESTINATION )
+AS SELECT
+   T1."MANDT",
+   T2."CARRID",
+   T1."CARRNAME",
+   T2."CONNID",
+   T2."CITYFROM",
+   T2."CITYTO"
+FROM
+    "SCARR" T1,
+    "SPFLI" T2
+WHERE
+    T1."MANDT"  = T2."MANDT" AND
+    T1."CARRID" = T2."CARRID"
+
+The view can be accessed as follows using ABAP SQL:
+
+SELECT \*
+       FROM demo\_scarr\_spfli
+       ORDER BY id, carrier, flight
+       INTO TABLE @FINAL(result).
 cl\_demo\_output=>display( result ).
 
 
-
-**📖 Source**: [abenddic_database_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm)
-
 ### abenddic_projection_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_projection_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_projection_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -246,7 +277,7 @@ cl\_demo\_output=>display( result ).
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Views](javascript:call_link\('abenddic_views.htm'\)) →  [DDIC - Table Views](javascript:call_link\('abenddic_table_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm) →  [DDIC - Table Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Projection%20Views%2C%20ABENDDIC_PROJECTION_VIEWS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -264,16 +295,16 @@ The Access setting in the maintenance status of a projection view can have the f
     
 -   Read, change, delete, and insert
     
-    The projection view can be used to read or [change](javascript:call_link\('abenabap_sql_writing.htm'\)) data with ABAP SQL.
+    The projection view can be used to read or [change](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_writing.htm) data with ABAP SQL.
     
 
-When rows are inserted via DDIC projection views, all fields from the basis table that are not part of the DDIC view are given the type-specific initial value. This is done regardless of whether the field is defined as [NOT NULL](javascript:call_link\('abenddic_database_tables_init.htm'\)) on the database.
+When rows are inserted via DDIC projection views, all fields from the basis table that are not part of the DDIC view are given the type-specific initial value. This is done regardless of whether the field is defined as [NOT NULL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_init.htm) on the database.
 
 Hints
 
--   As in a [DDIC database table](javascript:call_link\('abenddic_database_tables_client.htm'\)), the client dependency of a DDIC projection view is determined by a column with the built-in dictionary type CLNT. This column must be the first column of the view.
--   Like a DDIC database table, the maintenance status of a projection view has a [Display and Maintain](javascript:call_link\('abenddic_database_tables_maint.htm'\)) setting alongside the Access setting. The setting must match the Access setting.
--   The basis table of a projection view can be a [transparent table](javascript:call_link\('abentransparent_table_glosry.htm'\) "Glossary Entry") or a [global temporary table](javascript:call_link\('abenglobal_temporary_table_glosry.htm'\) "Glossary Entry").
+-   As in a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_client.htm), the client dependency of a DDIC projection view is determined by a column with the built-in dictionary type CLNT. This column must be the first column of the view.
+-   Like a DDIC database table, the maintenance status of a projection view has a [Display and Maintain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_maint.htm) setting alongside the Access setting. The setting must match the Access setting.
+-   The basis table of a projection view can be a [transparent table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransparent_table_glosry.htm "Glossary Entry") or a [global temporary table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenglobal_temporary_table_glosry.htm "Glossary Entry").
 
 Example
 
@@ -286,18 +317,7 @@ SELECT \*
 cl\_demo\_output=>display( result ).
 
 
-
-**📖 Source**: [abenddic_projection_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_projection_views.htm)
-
 ### abenddic_maintenance_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -305,7 +325,7 @@ cl\_demo\_output=>display( result ).
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Views](javascript:call_link\('abenddic_views.htm'\)) →  [DDIC - Table Views](javascript:call_link\('abenddic_table_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm) →  [DDIC - Table Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Maintenance%20Views%2C%20ABENDDIC_MAINTENANCE_VIEWS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -315,20 +335,20 @@ A DDIC maintenance view is a DDIC table view intended for performing writes on m
 
 A DDIC maintenance view is not created on the database. The structure type defined by a maintenance view can be referenced in ABAP programs using TYPE. A maintenance view cannot, however, be accessed using ABAP SQL. Instead, the transaction SE54 can be used to create dialogs called maintenance dialogs for maintenance views, which can themselves be used to edit the content of the tables of the maintenance views jointly in Table View Maintenance (transactions SM30 and SM31).
 
-When data records are inserted using DDIC maintenance views, all tables fields not in the view are given the type-specific initial values of the field. This is done regardless of whether the field is defined as [NOT NULL](javascript:call_link\('abenddic_database_tables_init.htm'\)) on the database.
+When data records are inserted using DDIC maintenance views, all tables fields not in the view are given the type-specific initial values of the field. This is done regardless of whether the field is defined as [NOT NULL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_init.htm) on the database.
 
 Primary Table and Secondary Tables   
 
-All DDIC database tables grouped in a DDIC maintenance view must be joined using [foreign key dependencies](javascript:call_link\('abenddic_database_tables_forkeyrel.htm'\)), which means that the join conditions of maintenance views are always derived from a foreign key. The first table included in the maintenance view is known as the primary table of the maintenance view. The tables added to this primary table using foreign keys are known as secondary tables. The following restrictions apply when selecting the secondary tables of a maintenance view:
+All DDIC database tables grouped in a DDIC maintenance view must be joined using [foreign key dependencies](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_forkeyrel.htm), which means that the join conditions of maintenance views are always derived from a foreign key. The first table included in the maintenance view is known as the primary table of the maintenance view. The tables added to this primary table using foreign keys are known as secondary tables. The following restrictions apply when selecting the secondary tables of a maintenance view:
 
--   The secondary tables must have an N:1 dependency on the primary table or on the transitively preceding secondary table. This makes sure that no more than one dependent data record exists in each of the secondary tables for a specific data record in the primary table. An N:1 dependency exists if the secondary table is the [check table](javascript:call_link\('abencheck_table_glosry.htm'\) "Glossary Entry") of the [foreign key](javascript:call_link\('abenforeign_key_glosry.htm'\) "Glossary Entry") in question.
--   If the secondary table is the [foreign key table](javascript:call_link\('abenforeign_key_table_glosry.htm'\) "Glossary Entry"), the foreign key fields must be key fields of a table or the foreign key must have the [cardinality](javascript:call_link\('abencardinality_glosry.htm'\) "Glossary Entry") N:1 or N:C.
+-   The secondary tables must have an N:1 dependency on the primary table or on the transitively preceding secondary table. This makes sure that no more than one dependent data record exists in each of the secondary tables for a specific data record in the primary table. An N:1 dependency exists if the secondary table is the [check table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencheck_table_glosry.htm "Glossary Entry") of the [foreign key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenforeign_key_glosry.htm "Glossary Entry") in question.
+-   If the secondary table is the [foreign key table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenforeign_key_table_glosry.htm "Glossary Entry"), the foreign key fields must be key fields of a table or the foreign key must have the [cardinality](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencardinality_glosry.htm "Glossary Entry") N:1 or N:C.
 
 A maintenance view implements an inner join. All key fields of the primary table must be included in its maintenance view. All key fields of secondary tables that are not part of the foreign key (that is, they are not joined with a key field already in the view using a join condition) must also be included in the view. This makes sure that the records inserted using a maintenance view can be written correctly to the tables in the view.
 
 Hint
 
-If a DDIC database table is joined with its [text table](javascript:call_link\('abentext_table_glosry.htm'\) "Glossary Entry") in a DDIC maintenance view, the logon language is selected automatically.
+If a DDIC database table is joined with its [text table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_table_glosry.htm "Glossary Entry") in a DDIC maintenance view, the logon language is selected automatically.
 
 Time-Dependent Key   
 
@@ -361,7 +381,7 @@ The Access setting in the maintenance status of a maintenance view can have the 
 
 Hint
 
-Like a DDIC database table, the maintenance status of a DDIC maintenance view has a [Display and Maintenance](javascript:call_link\('abenddic_database_tables_maint.htm'\)) setting alongside the Access setting. The setting must match the Access setting. The setting Display/maintenance not allowed is not possible here.
+Like a DDIC database table, the maintenance status of a DDIC maintenance view has a [Display and Maintenance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_maint.htm) setting alongside the Access setting. The setting must match the Access setting. The setting Display/maintenance not allowed is not possible here.
 
 Maintenance Characteristics of View Fields   
 
@@ -386,26 +406,15 @@ Alongside the maintenance status of the view, characteristics called maintenance
 
 Delivery Class   
 
-A DDIC maintenance view also has a [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)). The delivery class of a maintenance view is analyzed in the extended table maintenance.
+A DDIC maintenance view also has a [delivery class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_delivery.htm). The delivery class of a maintenance view is analyzed in the extended table maintenance.
 
 -   If the view is assigned one of the delivery classes G or E, the customer namespace for the entries of the view must be defined in the DDIC database table TRESC.
 -   The transport interface of extended table maintenance must match the delivery class.
 
-The delivery class of the basis tables of a maintenance view is not affected by this. The basis tables of a maintenance views have their own [delivery class](javascript:call_link\('abenddic_database_tables_delivery.htm'\)). This delivery class is used for upgrades and transports between customer systems
+The delivery class of the basis tables of a maintenance view is not affected by this. The basis tables of a maintenance views have their own [delivery class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_delivery.htm). This delivery class is used for upgrades and transports between customer systems
 
-
-
-**📖 Source**: [abenddic_maintenance_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm)
 
 ### abenddic_help_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_help_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_help_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -413,15 +422,15 @@ The delivery class of the basis tables of a maintenance view is not affected by 
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Views](javascript:call_link\('abenddic_views.htm'\)) →  [DDIC - Table Views](javascript:call_link\('abenddic_table_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm) →  [DDIC - Table Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Help%20Views%2C%20ABENDDIC_HELP_VIEWS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DDIC - Help Views
 
-A DDIC help view is a DDIC table view for use in [search helps](javascript:call_link\('abensearch_help_glosry.htm'\) "Glossary Entry"). The selection methods of a search help can be database tables, DDIC database views, and the special help views. DDIC database tables restrict the search help to one single table and DDIC database views restrict it to inner joins, whereas help views also make outer joins possible. A help view is not created on the database. The structure type defined by a help view can be referenced in ABAP programs using TYPE. A help view cannot, however, be accessed using ABAP SQL.
+A DDIC help view is a DDIC table view for use in [search helps](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensearch_help_glosry.htm "Glossary Entry"). The selection methods of a search help can be database tables, DDIC database views, and the special help views. DDIC database tables restrict the search help to one single table and DDIC database views restrict it to inner joins, whereas help views also make outer joins possible. A help view is not created on the database. The structure type defined by a help view can be referenced in ABAP programs using TYPE. A help view cannot, however, be accessed using ABAP SQL.
 
-The join conditions of a DDIC help view must be taken over from existing foreign keys. Tables can be grouped in help views only if they are joined using [foreign keys](javascript:call_link\('abenforeign_key_glosry.htm'\) "Glossary Entry"). The first table included in the help view is known as the primary table of the help view. The tables added to this primary table using foreign keys are known as secondary tables. The same rules apply to secondary tables of DDIC help views as to secondary tables of [DDIC maintenance views](javascript:call_link\('abenddic_maintenance_views.htm'\)).
+The join conditions of a DDIC help view must be taken over from existing foreign keys. Tables can be grouped in help views only if they are joined using [foreign keys](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenforeign_key_glosry.htm "Glossary Entry"). The first table included in the help view is known as the primary table of the help view. The tables added to this primary table using foreign keys are known as secondary tables. The same rules apply to secondary tables of DDIC help views as to secondary tables of [DDIC maintenance views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm).
 
 A DDIC help view implements an outer join, which means that the full content of the primary table of the help view is always displayed. If records in a secondary table cannot be read due to a selection condition, the content of the corresponding fields of the secondary table is displayed with initial values.
 
@@ -434,21 +443,7 @@ Hints
 -   Selections using help views can only be made quicker by making restrictions on the primary table. When accessing help views from the ABAP runtime framework, special selection routines are generated. These routines always make the selection using the primary table first and then use the records found as a key for selecting the supplementary information.
 
 
-
-**📖 Source**: [abenddic_help_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_help_views.htm)
-
 ### abenddic_table_views.htm
-
-> **📖 Official SAP Documentation**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenddic_table_views.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_table_views.htm)
-
 
   
 
@@ -456,13 +451,13 @@ Hints
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Views](javascript:call_link\('abenddic_views.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_views.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Table%20Views%2C%20ABENDDIC_TABLE_VIEWS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DDIC - Table Views
 
-A DDIC table view is a repository object in ABAP Dictionary defined for existing DDIC database tables and their fields in the form-based ABAP Dictionary [tool](javascript:call_link\('abenddic_tools.htm'\)) in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry").
+A DDIC table view is a repository object in ABAP Dictionary defined for existing DDIC database tables and their fields in the form-based ABAP Dictionary [tool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tools.htm) in [ABAP Workbench](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
 
 The definition of a DDIC table view consists of the following:
 
@@ -472,7 +467,7 @@ The definition of a DDIC table view consists of the following:
     
 -   View fields
     
-    A list of table fields of the basis tables that defines the structure of the view. Except in the case of DDIC projection views, a different [data element](javascript:call_link\('abenddic_data_elements.htm'\)) can be assigned to a view field than used for the corresponding table field of the basis table. As a prerequisite, the type of the table field must be defined using a data element with a [domain](javascript:call_link\('abenddic_domains.htm'\)) and the new data element must reference the same domain. This makes it possible to adjust the semantic properties of the view field.
+    A list of table fields of the basis tables that defines the structure of the view. Except in the case of DDIC projection views, a different [data element](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_elements.htm) can be assigned to a view field than used for the corresponding table field of the basis table. As a prerequisite, the type of the table field must be defined using a data element with a [domain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_domains.htm) and the new data element must reference the same domain. This makes it possible to adjust the semantic properties of the view field.
     
 -   Key
     
@@ -487,15 +482,15 @@ The definition of a DDIC table view consists of the following:
     Restrict the read rows to specific values of view fields or other fields.
     
     -   The possible comparison operators are \=, <>, \>=, \>, <=, <, LIKE, and NOT LIKE.
-    -   Depending on the data type of the view field, constant texts and numbers are allowed as comparison values. [System fields](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") can be specified for DDIC maintenance views and DDIC help views using SYST-... or SY-....
+    -   Depending on the data type of the view field, constant texts and numbers are allowed as comparison values. [System fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_field_glosry.htm "Glossary Entry") can be specified for DDIC maintenance views and DDIC help views using SYST-... or SY-....
     -   Multiple comparisons can be joined using AND and multiple comparisons for the same field can be joined using OR. Here, OR is stronger than AND.
 
-The following types of DDIC table views exist, of which only the DDIC database views are defined as [SQL views](javascript:call_link\('abensql_view_glosry.htm'\) "Glossary Entry") on the database:
+The following types of DDIC table views exist, of which only the DDIC database views are defined as [SQL views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_view_glosry.htm "Glossary Entry") on the database:
 
--   [DDIC database views](javascript:call_link\('abenddic_database_views.htm'\))
--   [DDIC projection views](javascript:call_link\('abenddic_projection_views.htm'\))
--   [DDIC maintenance views](javascript:call_link\('abenddic_maintenance_views.htm'\))
--   [DDIC help views](javascript:call_link\('abenddic_help_views.htm'\))
+-   [DDIC database views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm)
+-   [DDIC projection views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_projection_views.htm)
+-   [DDIC maintenance views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm)
+-   [DDIC help views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_help_views.htm)
 
 Like DDIC database tables, views have a short text description and (optional) documentation. A status known as a maintenance status determines whether a view is read-only or whether data can be inserted or modified in the view.
 
@@ -503,14 +498,14 @@ Hints
 
 -   To implement a projection, either DDIC database views or DDIC projection views can be used.
 -   Only DDIC database tables can be specified as the basis tables of table views. Other views are not possible as basis object.
--   In [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry"), only views whose key fields are located together at the beginning of the view can be accessed.
--   Views whose fields are all key fields should not be written to using [UPDATE FROM](javascript:call_link\('abapupdate.htm'\)) or [MODIFY FROM](javascript:call_link\('abapmodify_dbtab.htm'\)). For DDIC database views, this produces a syntax check warning and for projection views a syntax error or runtime error.
--   As in DDIC database tables, the [client dependency](javascript:call_link\('abenclient_dependency_glosry.htm'\) "Glossary Entry") of a table view that can be accessed using ABAP SQL (a DDIC database view or a DDIC projection view) is determined by a first column with the built-in dictionary type CLNT. The client dependency of the basis tables is ignored.
--   Table views cannot be maintained using the [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") in the [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry").
--   [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") defined using the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") of the ABAP Core Data Services in [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") offer all the functions of table views and more. CDS view entities allow only read access, however, while some DDIC views can be modified.
+-   In [ABAP SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_glosry.htm "Glossary Entry"), only views whose key fields are located together at the beginning of the view can be accessed.
+-   Views whose fields are all key fields should not be written to using [UPDATE FROM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapupdate.htm) or [MODIFY FROM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_dbtab.htm). For DDIC database views, this produces a syntax check warning and for projection views a syntax error or runtime error.
+-   As in DDIC database tables, the [client dependency](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclient_dependency_glosry.htm "Glossary Entry") of a table view that can be accessed using ABAP SQL (a DDIC database view or a DDIC projection view) is determined by a first column with the built-in dictionary type CLNT. The client dependency of the basis tables is ignored.
+-   Table views cannot be maintained using the [Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") in the [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry").
+-   [CDS entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm "Glossary Entry") defined using the [CDS DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm "Glossary Entry") of the ABAP Core Data Services in [DDL source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddl_source_code_glosry.htm "Glossary Entry") offer all the functions of table views and more. CDS view entities allow only read access, however, while some DDIC views can be modified.
 
 Continue
-[DDIC - Database Views](javascript:call_link\('abenddic_database_views.htm'\))
-[DDIC - Projection Views](javascript:call_link\('abenddic_projection_views.htm'\))
-[DDIC - Maintenance Views](javascript:call_link\('abenddic_maintenance_views.htm'\))
-[DDIC - Help Views](javascript:call_link\('abenddic_help_views.htm'\))
+[DDIC - Database Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_views.htm)
+[DDIC - Projection Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_projection_views.htm)
+[DDIC - Maintenance Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_maintenance_views.htm)
+[DDIC - Help Views](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_help_views.htm)

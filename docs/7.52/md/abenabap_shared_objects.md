@@ -4,33 +4,33 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencreate_objects.htm) → 
 
 Shared Objects
 
-Shared objects are objects in areas of shared memory. These areas are accessed using [area handles](javascript:call_link\('abenarea_handle_glosry.htm'\) "Glossary Entry").
+Shared objects are objects in areas of shared memory. These areas are accessed using [area handles](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenarea_handle_glosry.htm "Glossary Entry").
 
--   [Overview](javascript:call_link\('abenshm_oview.htm'\))
+-   [Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_oview.htm)
 
--   [Areas](javascript:call_link\('abenshm_areas.htm'\))
+-   [Areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_areas.htm)
 
--   [Area instance versions](javascript:call_link\('abenshm_area_instance_access.htm'\))
+-   [Area instance versions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_instance_access.htm)
 
--   [Objects](javascript:call_link\('abenshm_objects.htm'\))
+-   [Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_objects.htm)
 
--   [Classes and interfaces](javascript:call_link\('abenshm_classes.htm'\))
+-   [Classes and interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_classes.htm)
 
--   [Restrictions](javascript:call_link\('abenshm_restrictions.htm'\))
+-   [Restrictions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_restrictions.htm)
 
 Programming Guideline
 
-[Using Shared Objects](javascript:call_link\('abenuse_shared_objects_guidl.htm'\) "Guideline")
+[Using Shared Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenuse_shared_objects_guidl.htm "Guideline")
 
 Continue
-[Shared Objects - Overview](javascript:call_link\('abenshm_oview.htm'\))
-[Shared Objects - Areas](javascript:call_link\('abenshm_areas.htm'\))
-[Shared Objects - Area Instance Versions](javascript:call_link\('abenshm_area_instance_access.htm'\))
-[Shared Objects - Objects](javascript:call_link\('abenshm_objects.htm'\))
-[Shared Objects - Classes and Interfaces](javascript:call_link\('abenshm_classes.htm'\))
-[Shared Objects - Restrictions](javascript:call_link\('abenshm_restrictions.htm'\))
-![Example](exa.gif "Example") [Shared Objects](javascript:call_link\('abenshared_objects_abexa.htm'\))
+[Shared Objects - Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_oview.htm)
+[Shared Objects - Areas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_areas.htm)
+[Shared Objects - Area Instance Versions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_area_instance_access.htm)
+[Shared Objects - Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_objects.htm)
+[Shared Objects - Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_classes.htm)
+[Shared Objects - Restrictions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshm_restrictions.htm)
+![Example](exa.gif "Example") [Shared Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshared_objects_abexa.htm)

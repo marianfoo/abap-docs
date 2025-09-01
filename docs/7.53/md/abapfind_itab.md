@@ -4,26 +4,26 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables](javascript:call_link\('abenitab.htm'\)) →  [Processing Statements for Internal Tables](javascript:call_link\('abentable_processing_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenitab.htm) →  [Processing Statements for Internal Tables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentable_processing_statements.htm) → 
 
 FIND IN TABLE itab
 
-[Quick Reference](javascript:call_link\('abapfind_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_shortref.htm)
 
 Syntax
 
-FIND *\[**{*FIRST OCCURRENCE*}**|**{*ALL OCCURRENCES*}* OF*\]* [pattern](javascript:call_link\('abapfind_pattern.htm'\))
-  IN TABLE itab *\[*[table\_range](javascript:call_link\('abapfind_table_range.htm'\))*\]*
+FIND *\[**{*FIRST OCCURRENCE*}**|**{*ALL OCCURRENCES*}* OF*\]* [pattern](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_pattern.htm)
+  IN TABLE itab *\[*[table\_range](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_table_range.htm)*\]*
   *\[*IN *{*CHARACTER*|*BYTE*}* MODE*\]*
-  *\[*[find\_options](javascript:call_link\('abapfind_itab_options.htm'\))*\]*.
+  *\[*[find\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_itab_options.htm)*\]*.
 
 Effect
 
-The internal table itab is searched row-by-row for the character strings or byte strings specified in [pattern](javascript:call_link\('abapfind_pattern.htm'\)). itab is a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry").
+The internal table itab is searched row-by-row for the character strings or byte strings specified in [pattern](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_pattern.htm). itab is a [functional operand position](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunctional_position_glosry.htm "Glossary Entry").
 
-itab must be a standard table with no [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry"). The rows in the table must be [character](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry")\-like or [byte](javascript:call_link\('abenbyte_like_data_object_glosry.htm'\) "Glossary Entry")\-like, depending on the addition CHARACTER or BYTE MODE. Character strings or byte strings that cover multiple table rows are not found.
+itab must be a standard table with no [secondary table keys](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensecondary_table_key_glosry.htm "Glossary Entry"). The rows in the table must be [character](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_object_glosry.htm "Glossary Entry")\-like or [byte](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbyte_like_data_object_glosry.htm "Glossary Entry")\-like, depending on the addition CHARACTER or BYTE MODE. Character strings or byte strings that cover multiple table rows are not found.
 
-The [table\_range](javascript:call_link\('abapfind_table_range.htm'\)) addition can be used to restrict the search range in the table. When making replacements in the individual table rows, the other additions generally have the same meaning as the statement [FIND](javascript:call_link\('abapfind.htm'\)) for elementary character or byte strings. Here, a further addition [MATCH LINE](javascript:call_link\('abapfind_itab_options.htm'\)) also returns the row number of any occurrence.
+The [table\_range](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_table_range.htm) addition can be used to restrict the search range in the table. When making replacements in the individual table rows, the other additions generally have the same meaning as the statement [FIND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind.htm) for elementary character or byte strings. Here, a further addition [MATCH LINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_itab_options.htm) also returns the row number of any occurrence.
 
 The search is terminated if the search pattern was found for the first time, or if all search patterns were found in the entire search area, or if the end of the search area was reached. The search result is communicated by setting sy-subrc.
 
@@ -31,11 +31,11 @@ In string processing with row types of fixed length, trailing blanks are respect
 
 Notes
 
--   Using FIND IN TABLE you can search tables with structured row types for character strings, if the structure only contains [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") [character-like](javascript:call_link\('abencharlike_data_object_glosry.htm'\) "Glossary Entry") components. Every row is then handled in the same way as a field of type c.
+-   Using FIND IN TABLE you can search tables with structured row types for character strings, if the structure only contains [flat](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_glosry.htm "Glossary Entry") [character-like](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencharlike_data_object_glosry.htm "Glossary Entry") components. Every row is then handled in the same way as a field of type c.
     
--   Searching using FIND IN TABLE produces better performance than running a [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)) and using [FIND](javascript:call_link\('abapfind.htm'\)) to search the individual rows.
+-   Searching using FIND IN TABLE produces better performance than running a [LOOP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaploop_at_itab.htm) and using [FIND](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind.htm) to search the individual rows.
     
--   If searching multiple rows, the rows can be transferred in a string by using the concatenation function [concat\_lines\_of](javascript:call_link\('abenconcatenation_functions.htm'\)) or the statement [CONCATENATE LINES OF](javascript:call_link\('abapconcatenate.htm'\)). Ensure that trailing blanks are handled correctly.
+-   If searching multiple rows, the rows can be transferred in a string by using the concatenation function [concat\_lines\_of](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconcatenation_functions.htm) or the statement [CONCATENATE LINES OF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconcatenate.htm). Ensure that trailing blanks are handled correctly.
     
 
 System Fields
@@ -74,7 +74,7 @@ IF cl\_abap\_docu\_itf=>get\_docu( EXPORTING id = 'SD'
   ENDIF.
 ENDIF.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -97,5 +97,5 @@ CX\_SY\_INVALID\_REGEX
     
 
 Continue
-[FIND IN TABLE - table\_range](javascript:call_link\('abapfind_table_range.htm'\))
-[FIND IN TABLE - options](javascript:call_link\('abapfind_itab_options.htm'\))
+[FIND IN TABLE - table\_range](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_table_range.htm)
+[FIND IN TABLE - options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfind_itab_options.htm)

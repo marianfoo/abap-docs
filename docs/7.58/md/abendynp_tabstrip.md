@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Elements](javascript:call_link\('abenabap_dynpro_elements.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpros.htm) →  [dynpro - Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpro_elements.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dynpros_screen.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20dynpro%20-%20Tabstrip%20Controls%2C%20ABENDYNP_TABSTRIP%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 dynpro - Tabstrip Controls
 
-A tabstrip control is a dynpro element that consists of multiple tab pages. Every tab page contains a single-line [tab title](javascript:call_link\('abentab_title_glosry.htm'\) "Glossary Entry") linked with a function code and which can be used to select the tab page by clicking it once.
+A tabstrip control is a dynpro element that consists of multiple tab pages. Every tab page contains a single-line [tab title](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentab_title_glosry.htm "Glossary Entry") linked with a function code and which can be used to select the tab page by clicking it once.
 
 ![Figure](dynpro_tabstrip.png)
 
@@ -22,11 +22,11 @@ There are two ways to do this:
 
 -   Scrolling in SAP GUI
     
-    A separate subscreen area is assigned to each tab title and the function codes of the tab titles are defined with the function type P. If the user selects a tab title, the event PAI is not raised. The associated subscreens are included once in each individual subscreen area by using the [CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\)) statement of the flow logic. If the user selects a tab title, the SAP GUI browses to the associated tab page and displays its subscreen.
+    A separate subscreen area is assigned to each tab title and the function codes of the tab titles are defined with the function type P. If the user selects a tab title, the event PAI is not raised. The associated subscreens are included once in each individual subscreen area by using the [CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynpcall.htm) statement of the flow logic. If the user selects a tab title, the SAP GUI browses to the associated tab page and displays its subscreen.
     
 -   Scrolling in ABAP Programs
     
-    The same subscreen area is assigned to each tab title, and the function codes of the tab titles are defined without [typing](javascript:call_link\('abentyping_glosry.htm'\) "Glossary Entry"). If the user selects a tab title, the event PAI is raised. The associated subscreen is included dynamically using the [CALL SUBSCREEN](javascript:call_link\('dynpcall.htm'\)) statement of the flow logic in the subscreen area each time the user scrolls. In the ABAP program, the associated tab page must be activated using [CONTROLS](javascript:call_link\('abapcontrols.htm'\)) and the correct subscreen dynpro for the subscreen area must be specified.
+    The same subscreen area is assigned to each tab title, and the function codes of the tab titles are defined without [typing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_glosry.htm "Glossary Entry"). If the user selects a tab title, the event PAI is raised. The associated subscreen is included dynamically using the [CALL SUBSCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/dynpcall.htm) statement of the flow logic in the subscreen area each time the user scrolls. In the ABAP program, the associated tab page must be activated using [CONTROLS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcontrols.htm) and the correct subscreen dynpro for the subscreen area must be specified.
     
 
 Hint
@@ -128,5 +128,5 @@ Otherwise, tabstrip controls are handled like normal subscreens in ABAP programs
 
 Executable Examples
 
--   [Dynpros, Tabstrips with Scrolling in SAP GUI](javascript:call_link\('abentab_strip_control1_abexa.htm'\))
--   [Dynpros, Tabstrips with Scrolling in AS instance](javascript:call_link\('abentab_strip_control2_abexa.htm'\))
+-   [Dynpros, Tabstrips with Scrolling in SAP GUI](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentab_strip_control1_abexa.htm)
+-   [Dynpros, Tabstrips with Scrolling in AS instance](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentab_strip_control2_abexa.htm)

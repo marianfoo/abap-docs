@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 kernel method
 
-[Method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") which is implemented in the [kernel](javascript:call_link\('abenkernel_glosry.htm'\) "Glossary Entry") of the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry") instead of in an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry").
+[Method](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_glosry.htm "Glossary Entry") which is implemented in the [kernel](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkernel_glosry.htm "Glossary Entry") of the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry") instead of in an [ABAP program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenkernel_methods.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkernel_methods.htm)

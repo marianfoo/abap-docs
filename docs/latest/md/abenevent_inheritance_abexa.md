@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Components in Classes and Interfaces](javascript:call_link\('abenclass_ifac_components.htm'\)) →  [ABAP Objects - Events](javascript:call_link\('abenevents.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Components in Classes and Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclass_ifac_components.htm) →  [ABAP Objects - Events](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenevents.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Objects%20-%20Events%20in%20Inheritance%2C%20ABENEVENT_INHERITANCE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvem
 ent:)
 
 ABAP Objects - Events in Inheritance
 
-This example demonstrates the behavior of [events in inheritance](javascript:call_link\('abeninheritance_events.htm'\)).
+This example demonstrates the behavior of [events in inheritance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_events.htm).
 
 Source Code   
 
@@ -130,5 +130,5 @@ A static event ce1 and an instance event ie1 are declared in a superclass c1. Th
 
 In the class c4, event handlers are declared in c2 for the events inherited from c1. The method main of the class event\_demo registers the events and calls all methods that can raise events, whereby different options are used to address the methods. An X is displayed after the method call for a handled event.
 
--   The event handler cm4 declared for the class c2 can only handle events that are raised in this class or in its subclass. Events that are raised by the static method cm1 in c1 are not handled, regardless of the class name specified for the call (see also [Inheritance and Static Components](javascript:call_link\('abeninheritance_statical.htm'\))).
+-   The event handler cm4 declared for the class c2 can only handle events that are raised in this class or in its subclass. Events that are raised by the static method cm1 in c1 are not handled, regardless of the class name specified for the call (see also [Inheritance and Static Components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeninheritance_statical.htm)).
 -   The event handler im4 declared for the class c2 can also only handle events raised in this class or in its subclass. Unlike when calling static methods, the class of the object is always addressed when addressing an object using an object reference and raised events in the inherited method im1 of the classes c2 and c3 are handled.

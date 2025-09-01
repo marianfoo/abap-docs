@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Control Structures](javascript:call_link\('abencontrol_structures.htm'\)) →  [Branches](javascript:call_link\('abenabap_branches.htm'\)) →  [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_flow_logic.htm) →  [Control Structures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencontrol_structures.htm) →  [Branches](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_branches.htm) →  [CASE TYPE OF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcase_type.htm) → 
 
 Case Distinction CASE TYPE OF for RTTI
 
-This example demonstrates the case distinction [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) for type description classes.
+This example demonstrates the case distinction [CASE TYPE OF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcase_type.htm) for type description classes.
 
 Source Code
 
@@ -47,4 +47,4 @@ START-OF-SELECTION.
 
 Description
 
-Actual parameters of various types are passed to the generically typed parameter param of the method main and an [RTTI](javascript:call_link\('abenrun_time_type_identific_glosry.htm'\) "Glossary Entry") [type description object](javascript:call_link\('abentype_object_glosry.htm'\) "Glossary Entry") is created that points to the general object reference variable typedescr. The case distinction [CASE TYPE OF](javascript:call_link\('abapcase_type.htm'\)) is used to define a more specific RTTI type description class that matches the type. An online declaration after the addition INTO of the statement WHEN TYPE is used to create an object reference variable of this static type and is assigned the reference to the type description object. Special attributes of the type description objects are accessed in the associated statement blocks.
+Actual parameters of various types are passed to the generically typed parameter param of the method main and an [RTTI](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenrun_time_type_identific_glosry.htm "Glossary Entry") [type description object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentype_object_glosry.htm "Glossary Entry") is created that points to the general object reference variable typedescr. The case distinction [CASE TYPE OF](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcase_type.htm) is used to define a more specific RTTI type description class that matches the type. An online declaration after the addition INTO of the statement WHEN TYPE is used to create an object reference variable of this static type and is assigned the reference to the type description object. Special attributes of the type description objects are accessed in the associated statement blocks.

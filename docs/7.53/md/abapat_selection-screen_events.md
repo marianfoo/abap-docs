@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Selection Screen Processing](javascript:call_link\('abenselection_screen_events.htm'\)) →  [AT SELECTION-SCREEN](javascript:call_link\('abapat_selection-screen.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen.htm) →  [Selection Screen Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_events.htm) →  [AT SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen.htm) → 
 
 AT SELECTION-SCREEN - selscreen\_event
 
-[Quick Reference](javascript:call_link\('abapat_selection-screen_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapat_selection-screen_shortref.htm)
 
 Syntax
 
@@ -35,7 +35,7 @@ Alternatives:
 
 Effect
 
-These additions allow individual evaluation of specific elements of the [selection screens](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") of the program. The information about which selection screen raised the event is in the system field sy-dynnr.
+These additions allow individual evaluation of specific elements of the [selection screens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_glosry.htm "Glossary Entry") of the program. The information about which selection screen raised the event is in the system field sy-dynnr.
 
 Alternative 1
 
@@ -43,18 +43,18 @@ Alternative 1
 
 Effect
 
-This event is raised by the dynpro event [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry") of a selection screen. In the event block, the selection screen can be prepared using assignments to the data objects of parameters and selection criteria and using dynamic screen modifications.
+This event is raised by the dynpro event [PBO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpbo_glosry.htm "Glossary Entry") of a selection screen. In the event block, the selection screen can be prepared using assignments to the data objects of parameters and selection criteria and using dynamic screen modifications.
 
 Notes
 
--   The assignments to input fields in the event block AT SELECTION-SCREEN OUTPUT always affect the selection screen and overwrite the user input from previous displays of the same selection screen. Assignments in the event blocks [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) or [INITIALIZATION](javascript:call_link\('abapinitialization.htm'\)), on the other hand, only have an effect the first time the program starts.
+-   The assignments to input fields in the event block AT SELECTION-SCREEN OUTPUT always affect the selection screen and overwrite the user input from previous displays of the same selection screen. Assignments in the event blocks [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapload-of-program.htm) or [INITIALIZATION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinitialization.htm), on the other hand, only have an effect the first time the program starts.
     
--   The statement [MODIFY SCREEN](javascript:call_link\('abapmodify_screen.htm'\)) can be used during the event AT SELECTION-SCREEN OUTPUT to modify properties of screen elements of the selection screen.
+-   The statement [MODIFY SCREEN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmodify_screen.htm) can be used during the event AT SELECTION-SCREEN OUTPUT to modify properties of screen elements of the selection screen.
     
 
 Example
 
-Modifies an input field of a selection screen declared using [PARAMETERS](javascript:call_link\('abapparameters.htm'\)). The field input is made invisible using the characters "\*\*\*..." (for example, for entering a password).
+Modifies an input field of a selection screen declared using [PARAMETERS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapparameters.htm). The field input is made invisible using the characters "\*\*\*..." (for example, for entering a password).
 
 PARAMETERS pass(30) TYPE c.
 AT SELECTION-SCREEN OUTPUT.
@@ -71,13 +71,13 @@ Alternative 2
 
 Effect
 
-This event is raised by the dynpro event [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") of a selection screen if the content of the input field of a parameter para or a line of a [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") selcrit was passed to the ABAP program. The user input can be checked in this event block. Sending a [warning](javascript:call_link\('abenwarning_glosry.htm'\) "Glossary Entry") or an [error message](javascript:call_link\('abenerror_message_glosry.htm'\) "Glossary Entry") in the event block makes the fields para and selcrit ready for input again.
+This event is raised by the dynpro event [PAI](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpai_glosry.htm "Glossary Entry") of a selection screen if the content of the input field of a parameter para or a line of a [selection criterion](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_criterion_glosry.htm "Glossary Entry") selcrit was passed to the ABAP program. The user input can be checked in this event block. Sending a [warning](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwarning_glosry.htm "Glossary Entry") or an [error message](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenerror_message_glosry.htm "Glossary Entry") in the event block makes the fields para and selcrit ready for input again.
 
 No parameter that is defined as a radio button can be specified. For this purpose, the addition ON RADIOBUTTON GROUP is provided.
 
 Note
 
-If a user action takes place in the dialog box for the multiple selection of a selection criterion selcrit, the entries of the [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") are passed to the program, line by line. For each line, the event AT SELECTION-SCREEN ON selcrit is raised.
+If a user action takes place in the dialog box for the multiple selection of a selection criterion selcrit, the entries of the [selection table](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_table_glosry.htm "Glossary Entry") are passed to the program, line by line. For each line, the event AT SELECTION-SCREEN ON selcrit is raised.
 
 Alternative 3
 
@@ -101,7 +101,7 @@ Alternative 5
 
 Effect
 
-This event is raised by the dynpro event [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry") of a selection screen if all the fields of a radio button group group of the selection screen were passed to the ABAP program. The user input can be checked in this event block. Sending a [warning](javascript:call_link\('abenwarning_glosry.htm'\) "Glossary Entry") or [error message](javascript:call_link\('abenerror_message_glosry.htm'\) "Glossary Entry") in the event block makes all the radio buttons of the group group ready for input again.
+This event is raised by the dynpro event [PAI](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpai_glosry.htm "Glossary Entry") of a selection screen if all the fields of a radio button group group of the selection screen were passed to the ABAP program. The user input can be checked in this event block. Sending a [warning](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenwarning_glosry.htm "Glossary Entry") or [error message](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenerror_message_glosry.htm "Glossary Entry") in the event block makes all the radio buttons of the group group ready for input again.
 
 Note
 
@@ -121,15 +121,15 @@ Alternative 7
 
 Effect
 
-The two events ON HELP-REQUEST and ON VALUE-REQUEST are raised by the dynpro events [POH](javascript:call_link\('abenpoh_glosry.htm'\) "Glossary Entry") and [POV](javascript:call_link\('abenpov_glosry.htm'\) "Glossary Entry") of a selection screen if, for the input field of a parameter para or one of the input fields of a [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") selcrit, the field help F1 or the input help F4 was called. Other [selection events](javascript:call_link\('abenselection_screen_event_glosry.htm'\) "Glossary Entry") are not raised.
+The two events ON HELP-REQUEST and ON VALUE-REQUEST are raised by the dynpro events [POH](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpoh_glosry.htm "Glossary Entry") and [POV](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpov_glosry.htm "Glossary Entry") of a selection screen if, for the input field of a parameter para or one of the input fields of a [selection criterion](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_criterion_glosry.htm "Glossary Entry") selcrit, the field help F1 or the input help F4 was called. Other [selection events](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_event_glosry.htm "Glossary Entry") are not raised.
 
 In the event blocks, a self-defined field or input field can be programmed, which overrides any helps defined in ABAP Dictionary.
 
 Notes
 
--   These event blocks can only be implemented for fields of the selection screen that are defined in the same ABAP program and not in any associated [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry").
+-   These event blocks can only be implemented for fields of the selection screen that are defined in the same ABAP program and not in any associated [logical database](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_data_base_glosry.htm "Glossary Entry").
     
--   The events for the field help and input help do not transport data between the selection screen and the ABAP program. As with general [dynpros](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry"), suitable function modules such as RS\_SELECTIONSCREEN\_READ and RS\_SELECTIONSCREEN\_UPDATE must be used for this. The parameters and selection criteria changed for the input help are transported to the selection screen.
+-   The events for the field help and input help do not transport data between the selection screen and the ABAP program. As with general [dynpros](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_glosry.htm "Glossary Entry"), suitable function modules such as RS\_SELECTIONSCREEN\_READ and RS\_SELECTIONSCREEN\_UPDATE must be used for this. The parameters and selection criteria changed for the input help are transported to the selection screen.
     
 
 Alternative 8
@@ -142,7 +142,7 @@ This event is raised if the user has called one of the functions Back, Exit, or 
 
 Example
 
-This [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry") defines a standard selection screen and a further selection screen. In the event blocks AT SELECTION-SCREEN, the input in the selection screens can be specially handled using the evaluation of the name p\_carrid and the [dynpro number](javascript:call_link\('abendynpro_number_glosry.htm'\) "Glossary Entry") in sy-dynnr.
+This [executable program](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexecutable_program_glosry.htm "Glossary Entry") defines a standard selection screen and a further selection screen. In the event blocks AT SELECTION-SCREEN, the input in the selection screens can be specially handled using the evaluation of the name p\_carrid and the [dynpro number](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendynpro_number_glosry.htm "Glossary Entry") in sy-dynnr.
 
 REPORT demo\_at\_selection\_screen.
 \* Global data
@@ -191,6 +191,6 @@ START-OF-SELECTION.
   ...
 
 Continue
-![Example](exa.gif "Example") [Selection Screens, Block Processing and Radio Button Processing](javascript:call_link\('abensel_screen_at_sel_on_abexa.htm'\))
-![Example](exa.gif "Example") [Selection Screens, Field Help](javascript:call_link\('abensel_screen_f1_help_abexa.htm'\))
-![Example](exa.gif "Example") [Selection Screens, Input Help](javascript:call_link\('abensel_screen_f4_help_abexa.htm'\))
+![Example](exa.gif "Example") [Selection Screens, Block Processing and Radio Button Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_at_sel_on_abexa.htm)
+![Example](exa.gif "Example") [Selection Screens, Field Help](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_f1_help_abexa.htm)
+![Example](exa.gif "Example") [Selection Screens, Input Help](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensel_screen_f4_help_abexa.htm)

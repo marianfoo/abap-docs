@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Calculation Statements](javascript:call_link\('abencomputing_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_internal_obsolete.htm) →  [Obsolete Calculation Statements](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencomputing_obsolete.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ADD-CORRESPONDING%2C%20SUBTRACT-CORRESPONDING%2C%20MULTIPLY-CORRESPONDING%2C%20DIVIDE-CORRESPONDING%2C%20ABAPADD-CORRESPONDING%2C%20758%0D%0A%0D%0AError:%0D%
 0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
@@ -22,12 +22,12 @@ Effect
 
 These statements, which are forbidden in classes, add, subtract, multiply, or divide structures by component. Structures must be specified for struc1 and struc2. All identically named components in struc1 and struct2 are processed in pairs and the result is assigned to the respective component of struct2.
 
-The names are compared, as in the statement [MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\)). For each identically named component pair comp, the statement
+The names are compared, as in the statement [MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmove-corresponding.htm). For each identically named component pair comp, the statement
 
--   [ADD](javascript:call_link\('abapadd.htm'\)) struc1-comp TO struc2-comp.
--   [SUBTRACT](javascript:call_link\('abapadd.htm'\)) struc1-comp FROM struc2-comp.
--   [MULTIPLY](javascript:call_link\('abapadd.htm'\)) struc1-comp BY struc2-comp.
--   [DIVIDE](javascript:call_link\('abapadd.htm'\)) struc1-comp BY struc2-comp.
+-   [ADD](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd.htm) struc1-comp TO struc2-comp.
+-   [SUBTRACT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd.htm) struc1-comp FROM struc2-comp.
+-   [MULTIPLY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd.htm) struc1-comp BY struc2-comp.
+-   [DIVIDE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapadd.htm) struc1-comp BY struc2-comp.
 
 is executed internally, and the appropriate conversions are performed, if necessary. In complex structures, the names of the field pairs in question must be completely identical at all hierarchical levels.
 
@@ -53,7 +53,7 @@ DATA: BEGIN OF struc1,
 ...
 ADD-CORRESPONDING struc1 TO struc2.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 

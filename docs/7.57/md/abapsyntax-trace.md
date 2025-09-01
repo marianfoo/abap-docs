@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [Internal Test Statements](javascript:call_link\('abentests_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_tests.htm) →  [Internal Test Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentests_internal.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SYNTAX-TRACE, ABAPSYNTAX-TRACE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggesti
 on for improvement:)
@@ -76,7 +76,7 @@ Effect
 
 This statement can be used to activate the trace function of the ABAP syntax check and to select a certain mode for the trace output.
 
-This trace mode SYNCPOINTS (for internal test purposes only) logs the declaration units, that is, used global class and interface declarations as well as [type pools](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry"), for which the routines for creating the load table entries must be called after a delay and not immediately.
+This trace mode SYNCPOINTS (for internal test purposes only) logs the declaration units, that is, used global class and interface declarations as well as [type pools](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_pool_glosry.htm "Glossary Entry"), for which the routines for creating the load table entries must be called after a delay and not immediately.
 
 In doing so, the call of the generation routine is delayed until a synchronization point is reached, for which the generation of a set of declaration units is executed afterwards.
 

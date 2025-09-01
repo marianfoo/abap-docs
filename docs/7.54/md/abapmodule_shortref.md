@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  M
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_shortref.htm) →  M
 
 MODULE - Quick reference
 
-[Reference](javascript:call_link\('abapmodule.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapmodule.htm)
 
 Syntax
 
@@ -18,12 +18,12 @@ ENDMODULE.
 
 Effect
 
-Defines a [dialog module](javascript:call_link\('abendialog_module_glosry.htm'\) "Glossary Entry") mod.
+Defines a [dialog module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendialog_module_glosry.htm "Glossary Entry") mod.
 
 Additions
 
 -   OUTPUT
-    Defines a dialog module for [PBO](javascript:call_link\('abenpbo_glosry.htm'\) "Glossary Entry").
+    Defines a dialog module for [PBO](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpbo_glosry.htm "Glossary Entry").
     
 -   INPUT
-    Defines a dialog module for [PAI](javascript:call_link\('abenpai_glosry.htm'\) "Glossary Entry"), [POH](javascript:call_link\('abenpoh_glosry.htm'\) "Glossary Entry") and [POV](javascript:call_link\('abenpov_glosry.htm'\) "Glossary Entry").
+    Defines a dialog module for [PAI](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpai_glosry.htm "Glossary Entry"), [POH](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpoh_glosry.htm "Glossary Entry") and [POV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpov_glosry.htm "Glossary Entry").

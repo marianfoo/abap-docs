@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - Table Functions](javascript:call_link\('abencds_table_functions.htm'\)) →  [CDS DDL - DEFINE TABLE FUNCTION](javascript:call_link\('abencds_f1_define_table_function.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_entity.htm) →  [ABAP CDS - Table Functions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_table_functions.htm) →  [CDS DDL - DEFINE TABLE FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_table_function.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CDS%20DDL%20-%20DEFINE%20TABLE%20FUNCTION%2C%20function_annot%2C%20ABENCDS_F1_FUNCTION_ANNOTATIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggesti
 on%20for%20improvement:)
@@ -13,21 +13,134 @@ CDS DDL - DEFINE TABLE FUNCTION, function\_annot
 
 Syntax
 
-... @[annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)) ...
+... @[annotation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax.htm) ...
 
 Effect
 
-Specifies an [annotation](javascript:call_link\('abencds_annotation_glosry.htm'\) "Glossary Entry") [annotation](javascript:call_link\('abencds_annotations_syntax.htm'\)) in the definition of a [CDS table function](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry") in front of the statement [DEFINE TABLE FUNCTION](javascript:call_link\('abencds_f1_define_table_function.htm'\)) as a function notation. The character @ must be placed in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") and the annotation definition annotation [@Scope](javascript:call_link\('abencds_f1_define_anno_annos.htm'\)) should be specified here using the value #TABLE\_FUNCTION.
+Specifies an [annotation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotation_glosry.htm "Glossary Entry") [annotation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_syntax.htm) in the definition of a [CDS table function](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_table_function_glosry.htm "Glossary Entry") in front of the statement [DEFINE TABLE FUNCTION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_table_function.htm) as a function notation. The character @ must be placed in front of the name annotation of the annotation. The annotation should be defined as a CDS object in a [CDS annotation definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") and the annotation definition annotation [@Scope](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_define_anno_annos.htm) should be specified here using the value #TABLE\_FUNCTION.
 
-The following tables show the possible [ABAP annotations](javascript:call_link\('abenabap_annotation_glosry.htm'\) "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS object. Annotations with other identifiers are usually [framework-specific annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
+The following tables show the possible [ABAP annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_annotation_glosry.htm "Glossary Entry") that can be specified and their meanings. The ABAP annotations are evaluated by the ABAP runtime framework for every CDS object. Annotations with other identifiers are usually [framework-specific annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_frmwrk.htm). These are not evaluated by the ABAP runtime framework but by other SAP frameworks instead.
 
--   [AbapCatalog Annotations](#abencds-f1-function-annotations-1-------accesscontrol-annotations---@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_2)
--   [ClientHandling Annotations](#abencds-f1-function-annotations-3-------dataaging-annotations---@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_4)
--   [ObjectModel Annotations](#abencds-f1-function-annotations-5---the-first-column-of-the-table-shows-the--possibly-structured--name-annotation-of-an-abap-annotation-and-the-second-column-shows-its-meaning--the-third-column-shows-the-possible--annotation-values--javascript-call-link---abenannotation-value-glosry-htm-----glossary-entry----the-fourth-column-shows-the-default-value-which-is-used-if-the-annotation-is-not-used-at-all--the-fifth-column-shows-the-default-value-set-implicitly-for-value-in-accordance-with-the--annotation-definition--javascript-call-link---abencds-anno-definition-glosry-htm-----glossary-entry---if-the-annotation-is-specified-without-a-value--if-nothing-is-specified-for-the-annotation-value--the-annotation-should-be-specified-without-a-value---hint--alongside-the-function-annotations-shown-here--the-globally-valid--entity-annotations--javascript-call-link---abencds-f1-entity-annotations-htm-----can-also-be-specified-for-a-table-function---abapcatalog-annotations-----technical-settings-of-a-cds-table-function---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--abapcatalog-datamaintenance--can-be-used-to-restrict-data-preview-for-a-cds-table-function---restricted--display-allowed-with-restrictions--display--only--display-only--data-preview-is-allowed--not--allowed--display-not-allowed---restricted------hint--the-annotation-abapcatalog-datamaintenance-defines-whether-the-cds-table-function-can-be-displayed-or-maintained-by-certain-tools-such-as-data-preview-in--abap-development-tools-for-eclipse--adt---javascript-call-link---abenadt-glosry-htm-----glossary-entry----the-annotation-is-evaluated-by-these-tools--restrictions-imposed-by-that-annotation-are-user-independent-and-they-are-evaluated-before-accessing-the-data--additional-restrictions-imposed-by--cds-roles--javascript-call-link---abencds-role-glosry-htm-----glossary-entry---are-evaluated-during-the-actual-data-access--if-this-is-done-by-abap-sql---accesscontrol-annotations-----defines--access-control--javascript-call-link---abencds-access-control-glosry-htm-----glossary-entry---for-the-cds-table-function---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--accesscontrol-authorizationcheck--defines-implicit--access-control--javascript-call-link---abencds-access-control-glosry-htm-----glossary-entry---when-abap-sql-is-used-to-access-the-cds-table-function---check--if-abap-sql-is-used-to-access-the-table-function---access-control--javascript-call-link---abencds-access-control-htm-----is-applied-implicitly-if-a--cds-role--javascript-call-link---abencds-role-glosry-htm-----glossary-entry---is-assigned-to-the-table-function--if-there-is-no-role-for-the-table-function--a-syntax-check-warning-occurs---not--required--like--check--but-there-is-no-syntax-check-warning---mandatory--it-is-mandatory-to-define-a-cds-role-for-the-table-function--if-no-access-control-has-been-created--a-runtime-error-occurs-when-abap-sql-is-used-to-access-the-table-function---not--allowed--no--access-control--javascript-call-link---abencds-access-control-htm-----is-performed--this-produces-a-syntax-check-warning-in-the-dcl-source-code-of-a-role-for-the-table-function---privileged--only--privileged-cds-association--evaluated-by--sadl--javascript-call-link---abensadl-glosry-htm-----glossary-entry-------not--required---not--required--hints------the-value--not--required-is-recommended-for-cds-table-functions-not-subject-to--access-control--javascript-call-link---abencds-access-control-glosry-htm-----glossary-entry---when-created--but-for-which-roles-can-be-defined-later------the-value--not--allowed-disables-implicit-access-control-when-the-cds-table-function-is-accessed-in-abap-sql--the-addition--with-privileged-access--javascript-call-link---abapselect-data-source-htm-----can-be-used-in-the--from--javascript-call-link---abapfrom-clause-htm-----clause-to-disable-access-control-for-table-functions-not-annotated-with-this-annotation------the-annotation-accesscontrol-has-further--framework-specific-subannotations--javascript-call-link---abencds-annotations-frmwrk-htm-----------cds-access-control--javascript-call-link---abencds-access-control-glosry-htm-----glossary-entry---does-not-work-for-client-independent-access--this-is-why-in-abap-sql--the-addition--using--javascript-call-link---abapselect-client-htm-----and-the-obsolete-addition--client-specified--javascript-call-link---abapselect-client-obsolete-htm-----can-only-be-used-when-accessing-cds-entities-where-access-control-is-disabled--it-is-recommended-that-the-annotation-accesscontrol-authorizationcheck--not--allowed-is-only-specified-for-cds-table-functions-that-are-subject-to-client-independent-access---clienthandling-annotations-----control-of-the--client-handling--javascript-call-link---abencds-func-client-handling-htm-----for-the-cds-table-function---annotation--meaning--annotation-values--default-value-if-not-used--default-value-if-used-without-value--clienthandling-type--defines--client-handling--javascript-call-link---abencds-func-client-handling-htm-----when-abap-sql-is-used-to-access-the-cds-table-function----client--dependent--the-cds-table-function-is-client-dependent--when-accessed-using--select--javascript-call-link---abapselect-htm-------implicit-client-handling--javascript-call-link---abenabap-sql-client-handling-htm-----is-applied---client--independent--the-cds-table-function-is-a-client-independent-function--no--implicit-client-handling--javascript-call-link---abenabap-sql-client-handling-htm-----is-applied----client--dependent---client--dependent--hints------any-other-annotations-specified-using-the--main-annotation--javascript-call-link---abenmain-annotation-glosry-htm-----glossary-entry---clienthandling-and-any-other-values-than-those-shown-here-cannot-be-specified-in-the-definition-of-a-cds-table-function------an-annotation-ClientHandling cannot be specified together with the obsolete annotation @ClientDependent.
+-   [AbapCatalog Annotations](#@@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_1)
+-   [AccessControl Annotations](#@@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_2)
+-   [ClientHandling Annotations](#@@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_3)
+-   [DataAging Annotations](#@@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_4)
+-   [ObjectModel Annotations](#@@ITOC@@ABENCDS_F1_FUNCTION_ANNOTATIONS_5)
+
+The first column of the table shows the (possibly structured) name annotation of an ABAP annotation and the second column shows its meaning. The third column shows the possible [annotation values](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenannotation_value_glosry.htm "Glossary Entry"). The fourth column shows the default value which is used if the annotation is not used at all. The fifth column shows the default value set implicitly for value in accordance with the [annotation definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") if the annotation is specified without a value. If nothing is specified for the annotation value, the annotation should be specified without a value.
+
+Hint
+
+Alongside the function annotations shown here, the globally valid [entity annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_f1_entity_annotations.htm) can also be specified for a table function.
+
+AbapCatalog Annotations   
+
+Technical settings of a CDS table function.
+
+Annotation
+
+Meaning
+
+Annotation Values
+
+Default Value if Not Used
+
+Default Value if Used Without Value
+
+AbapCatalog.dataMaintenance
+
+Can be used to restrict data preview for a CDS table function
+
+#RESTRICTED:
+Display allowed with restrictions
+#DISPLAY\_ONLY:
+Display only. Data preview is allowed
+#NOT\_ALLOWED:
+Display not allowed
+
+#RESTRICTED
+
+\-
+
+Hint
+
+The annotation AbapCatalog.dataMaintenance defines whether the CDS table function can be displayed or maintained by certain tools such as Data Preview in [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenadt_glosry.htm "Glossary Entry"). The annotation is evaluated by these tools. Restrictions imposed by that annotation are user-independent and they are evaluated before accessing the data. Additional restrictions imposed by [CDS roles](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_role_glosry.htm "Glossary Entry") are evaluated during the actual data access, if this is done by ABAP SQL.
+
+AccessControl Annotations   
+
+Defines [access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control_glosry.htm "Glossary Entry") for the CDS table function.
+
+Annotation
+
+Meaning
+
+Annotation Values
+
+Default Value if Not Used
+
+Default Value if Used Without Value
+
+AccessControl.authorizationCheck
+
+Defines implicit [access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control_glosry.htm "Glossary Entry") when ABAP SQL is used to access the CDS table function
+
+#CHECK:
+If ABAP SQL is used to access the table function, [access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control.htm) is applied implicitly if a [CDS role](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_role_glosry.htm "Glossary Entry") is assigned to the table function. If there is no role for the table function, a syntax check warning occurs.
+#NOT\_REQUIRED:
+Like #CHECK, but there is no syntax check warning.
+#MANDATORY:
+It is mandatory to define a CDS role for the table function. If no access control has been created, a runtime error occurs when ABAP SQL is used to access the table function.
+#NOT\_ALLOWED:
+No [access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control.htm) is performed. This produces a syntax check warning in the DCL source code of a role for the table function.
+#PRIVILEGED\_ONLY:
+Privileged CDS association (evaluated by [SADL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensadl_glosry.htm "Glossary Entry")).
+
+#NOT\_REQUIRED
+
+#NOT\_REQUIRED
+
+Hints
+
+-   The value #NOT\_REQUIRED is recommended for CDS table functions not subject to [access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control_glosry.htm "Glossary Entry") when created, but for which roles can be defined later.
+-   The value #NOT\_ALLOWED disables implicit access control when the CDS table function is accessed in ABAP SQL. The addition [WITH PRIVILEGED ACCESS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_data_source.htm) can be used in the [FROM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapfrom_clause.htm) clause to disable access control for table functions not annotated with this annotation.
+-   The annotation AccessControl has further [framework-specific subannotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_frmwrk.htm).
+-   [CDS access control](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_access_control_glosry.htm "Glossary Entry") does not work for client-independent access. This is why in ABAP SQL, the addition [USING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_client.htm) and the obsolete addition [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect_client_obsolete.htm) can only be used when accessing CDS entities where access control is disabled. It is recommended that the annotation AccessControl.authorizationCheck:#NOT\_ALLOWED is only specified for CDS table functions that are subject to client-independent access.
+
+ClientHandling Annotations   
+
+Control of the [client handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_func_client_handling.htm) for the CDS table function.
+
+Annotation
+
+Meaning
+
+Annotation Values
+
+Default Value if Not Used
+
+Default Value if Used Without Value
+
+ClientHandling.type
+
+Defines [client handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_func_client_handling.htm) when ABAP SQL is used to access the CDS table function.
+
+#CLIENT\_DEPENDENT:
+The CDS table function is client-dependent. When accessed using [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm), [implicit client handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_client_handling.htm) is applied.
+#CLIENT\_INDEPENDENT:
+The CDS table function is a client-independent function. No [implicit client handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_client_handling.htm) is applied.
+
+#CLIENT\_DEPENDENT
+
+#CLIENT\_DEPENDENT
+
+Hints
+
+-   Any other annotations specified using the [main annotation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmain_annotation_glosry.htm "Glossary Entry") ClientHandling and any other values than those shown here cannot be specified in the definition of a CDS table function.
+-   An annotation @ClientHandling cannot be specified together with the obsolete annotation @ClientDependent.
 
 DataAging Annotations   
 
-Defines [data aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry") for the CDS table function.
+Defines [data aging](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_aging_glosry.htm "Glossary Entry") for the CDS table function.
 
 Annotation
 
@@ -41,7 +154,7 @@ Default Value if Used Without Value
 
 DataAging.noAgingRestriction
 
-Defines how [data aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry") is respected on a [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") when the CDS table function is accessed using ABAP SQL.
+Defines how [data aging](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_aging_glosry.htm "Glossary Entry") is respected on a [SAP HANA database](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenhana_database_glosry.htm "Glossary Entry") when the CDS table function is accessed using ABAP SQL.
 
 true:
 ABAP SQL reads all data
@@ -132,5 +245,5 @@ The expected size of the data volume that needs to be scanned is 100,000,000 or 
 
 Hints
 
--   The above subannotations of ObjectModel can be used to document for which kind of application a table function is intended and which kind of data is expected. This information is especially important in regards of performance that can be expected by the consumer of the function. In contrast to the corresponding [annotations](javascript:call_link\('abencds_view_entity_anno.htm'\)) for DEFINE VIEW ENTITY, however, no detailed rules for specifying values can be given for CDS table functions. It is up to the developer of a function to assess how it is annotated in regard of its performance-relevant properties.
--   The annotation ObjectModel has further [framework-specific subannotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)).
+-   The above subannotations of ObjectModel can be used to document for which kind of application a table function is intended and which kind of data is expected. This information is especially important in regards of performance that can be expected by the consumer of the function. In contrast to the corresponding [annotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_view_entity_anno.htm) for DEFINE VIEW ENTITY, however, no detailed rules for specifying values can be given for CDS table functions. It is up to the developer of a function to assess how it is annotated in regard of its performance-relevant properties.
+-   The annotation ObjectModel has further [framework-specific subannotations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_annotations_frmwrk.htm).

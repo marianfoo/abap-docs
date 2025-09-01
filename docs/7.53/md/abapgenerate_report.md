@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) →  [Internal Statements for Source Code Processing](javascript:call_link\('abengeneric_internal.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_generic_program.htm) →  [Internal Statements for Source Code Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengeneric_internal.htm) → 
 
 GENERATE REPORT
 
@@ -32,15 +32,15 @@ Extras:
 
 Effect
 
-The program specified in the prog field is generated in the current work process. If the program is an executable program (that is, a type 1 program), the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") is also generated automatically.
+The program specified in the prog field is generated in the current work process. If the program is an executable program (that is, a type 1 program), the [selection screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_glosry.htm "Glossary Entry") is also generated automatically.
 
-For the syntax check, the switch configuration of [Switch Framework](javascript:call_link\('abenswitch_german_glosry.htm'\) "Glossary Entry") is used in its current status at the time the statement is executed.
+For the syntax check, the switch configuration of [Switch Framework](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenswitch_german_glosry.htm "Glossary Entry") is used in its current status at the time the statement is executed.
 
-[Inline declarations](javascript:call_link\('abendata_inline.htm'\)) can be specified for the same operands, as is the case with the statement [GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_subroutine_pool.htm'\)).
+[Inline declarations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm) can be specified for the same operands, as is the case with the statement [GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgenerate_subroutine_pool.htm).
 
 Notes
 
--   If the profile parameter abap/pxa has the value "develop", a [database commit](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") is triggered after generation.
+-   If the profile parameter abap/pxa has the value "develop", a [database commit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_commit_glosry.htm "Glossary Entry") is triggered after generation.
     
 -   The static method GET\_VALUES of the system class CL\_ABAP\_GEN\_LIMITS gets the generation limits of an ABAP program. In ABAP Workbench, these can be determined by choosing Program → Check → Generation Limits. The generation limits of an ABAP program are technical maximum values which must not be exceeded for a successful generation. The values affected include:
     
@@ -89,7 +89,7 @@ Addition 2
 
 Effect
 
-When a syntax error occurs, the name of the [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") in which the error occurred is stored in this field.
+When a syntax error occurs, the name of the [include program](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninclude_program_glosry.htm "Glossary Entry") in which the error occurred is stored in this field.
 
 Addition 3
 
@@ -137,7 +137,7 @@ Addition 8
 
 Effect
 
-The [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") is not generated.
+The [selection screen](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselection_screen_glosry.htm "Glossary Entry") is not generated.
 
 Addition 9
 
@@ -153,20 +153,20 @@ Addition 10
 
 Effect
 
-If a [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") occurs, the key of the corresponding short dump is returned in the f9 field. This key has a maximum length of 30 characters.
+If a [short dump](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenshort_dump_glosry.htm "Glossary Entry") occurs, the key of the corresponding short dump is returned in the f9 field. This key has a maximum length of 30 characters.
 
 Addition 11
 
 ... WITH PRECOMPILED HEADERS
 
-This addition allows precompiled headers to be regenerated when generating the ABAP program prog. Precompiled headers are used to increase the translation speed of ABAP Compiler by buffering the declaration data of global classes, interfaces, and [type groups](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") in formatted form for ABAP Compiler.
+This addition allows precompiled headers to be regenerated when generating the ABAP program prog. Precompiled headers are used to increase the translation speed of ABAP Compiler by buffering the declaration data of global classes, interfaces, and [type groups](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentype_group_1_glosry.htm "Glossary Entry") in formatted form for ABAP Compiler.
 
 Note
 
-If this addition is used, it must be ensured that the application performs a [COMMIT WORK](javascript:call_link\('abapcommit.htm'\)) or [ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\)) within a short period of time. This ensures that the [database locks](javascript:call_link\('abendatabase_lock_glosry.htm'\) "Glossary Entry") that are set when the precompiled headers are regenerated, are held for a short time only and therefore do not block generation of other ABAP programs.
+If this addition is used, it must be ensured that the application performs a [COMMIT WORK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcommit.htm) or [ROLLBACK WORK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaprollback.htm) within a short period of time. This ensures that the [database locks](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_lock_glosry.htm "Glossary Entry") that are set when the precompiled headers are regenerated, are held for a short time only and therefore do not block generation of other ABAP programs.
 
 Addition 12
 
 ... WITH TEST CODE
 
-With this addition, the [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") of the program are generated independently of the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") abap/test\_generation.
+With this addition, the [test classes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_class_glosry.htm "Glossary Entry") of the program are generated independently of the [profile parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") abap/test\_generation.

@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencall_procedures.htm) →  [CALL FUNCTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CALL%20FUNCTION%2C%20parameter_tables%2C%20ABAPCALL_FUNCTION_DYNAMIC%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 CALL FUNCTION, parameter\_tables
 
-[Short Reference](javascript:call_link\('abapcall_function_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_shortref.htm)
 
 Syntax
 
@@ -32,7 +32,7 @@ Addition 1  
 
 Effect
 
-PARAMETER-TABLE can be used to assign actual parameters to all formal parameters of the called function module. ptab expects a [sorted table](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry") of table type abap\_func\_parmbind\_tab or line type abap\_func\_parmbind from the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") ABAP. When the statement CALL FUNCTION is executed, the table must contain exactly one line for each non-optional formal parameter. This line is optional for each optional formal parameter. The table columns are:
+PARAMETER-TABLE can be used to assign actual parameters to all formal parameters of the called function module. ptab expects a [sorted table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensorted_table_glosry.htm "Glossary Entry") of table type abap\_func\_parmbind\_tab or line type abap\_func\_parmbind from the [type pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_pool_glosry.htm "Glossary Entry") ABAP. When the statement CALL FUNCTION is executed, the table must contain exactly one line for each non-optional formal parameter. This line is optional for each optional formal parameter. The table columns are:
 
 -   name of type c and length 30
     
@@ -55,7 +55,7 @@ PARAMETER-TABLE can be used to assign actual parameters to all formal parameters
     
 -   tables\_wa of type REF TO data
     
-    as a pointer to a suitable work area if the column kind contains the value abap\_func\_tables. If tables\_wa is not initial, the data object to which the reference variable points in tables\_wa is passed to the [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry") of the table parameter specified in name.
+    as a pointer to a suitable work area if the column kind contains the value abap\_func\_tables. If tables\_wa is not initial, the data object to which the reference variable points in tables\_wa is passed to the [header line](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenheader_line_glosry.htm "Glossary Entry") of the table parameter specified in name.
     
 
 The columns name and kind form the unique key of the table ptab. A line with a parameter name that is not defined in the function module's parameter interface is ignored.
@@ -66,7 +66,7 @@ Addition 2  
 
 Effect
 
-EXCEPTION-TABLE can be used to assign return values to exceptions of the called function module that are not marked as exception classes in the [Function Builder](javascript:call_link\('abenfunction_builder_glosry.htm'\) "Glossary Entry"). etab expects a [hashed table](javascript:call_link\('abenhashed_table_glosry.htm'\) "Glossary Entry") of table type abap\_func\_excpbind\_tab or of line type abap\_func\_excpbind from the [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") ABAP. The table can contain exactly one line for each non-class-based exception of the function module when the statement CALL FUNCTION is executed. The table columns are:
+EXCEPTION-TABLE can be used to assign return values to exceptions of the called function module that are not marked as exception classes in the [Function Builder](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunction_builder_glosry.htm "Glossary Entry"). etab expects a [hashed table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhashed_table_glosry.htm "Glossary Entry") of table type abap\_func\_excpbind\_tab or of line type abap\_func\_excpbind from the [type pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_pool_glosry.htm "Glossary Entry") ABAP. The table can contain exactly one line for each non-class-based exception of the function module when the statement CALL FUNCTION is executed. The table columns are:
 
 -   name of type c and length 30
     
@@ -76,7 +76,7 @@ EXCEPTION-TABLE can be used to assign return values to exceptions of the called 
     
     For the numeric value that is to be available in sy-subrc after the exception specified in name is handled
     
--   message of type REF TO data (not used for general function call but for [remote function call](javascript:call_link\('abapcall_function_destination_para.htm'\)))
+-   message of type REF TO data (not used for general function call but for [remote function call](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_destination_para.htm))
 
 The column name is the unique key of table etab. A line with an exception name that is not in the function module's parameter interface is ignored.
 

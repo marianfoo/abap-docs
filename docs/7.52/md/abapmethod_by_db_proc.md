@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Methods](javascript:call_link\('abenamdp_methods.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp.htm) →  [AMDP - Methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_methods.htm) → 
 
 METHOD - BY DATABASE PROCEDURE, FUNCTION
 
@@ -27,14 +27,14 @@ Extras:
 
 Effect
 
-Implements an [AMDP procedure](javascript:call_link\('abenamdp_procedure_glosry.htm'\) "Glossary Entry") or an [AMDP function](javascript:call_link\('abenamdp_function_glosry.htm'\) "Glossary Entry") in an [AMDP class](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry"). The addition BY DATABASE PROCEDURE or BY DATABASE FUNCTION can be specified in the [implementation part](javascript:call_link\('abenimplementation_part_glosry.htm'\) "Glossary Entry") of a [global class](javascript:call_link\('abenglobal_class_glosry.htm'\) "Glossary Entry") that contains an appropriate tag interface [IF\_AMDP\_MARKER\_...](javascript:call_link\('abenamdp_classes.htm'\)) for [AMDP classes](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry").
+Implements an [AMDP procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_procedure_glosry.htm "Glossary Entry") or an [AMDP function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_function_glosry.htm "Glossary Entry") in an [AMDP class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_class_glosry.htm "Glossary Entry"). The addition BY DATABASE PROCEDURE or BY DATABASE FUNCTION can be specified in the [implementation part](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenimplementation_part_glosry.htm "Glossary Entry") of a [global class](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_class_glosry.htm "Glossary Entry") that contains an appropriate tag interface [IF\_AMDP\_MARKER\_...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_classes.htm) for [AMDP classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_class_glosry.htm "Glossary Entry").
 
--   The addition BY DATABASE PROCEDURE defines an [AMDP procedure implementation](javascript:call_link\('abenamdp_procedure_methods.htm'\)) for implementing a [database procedure](javascript:call_link\('abendatabase_procedure_glosry.htm'\) "Glossary Entry").
+-   The addition BY DATABASE PROCEDURE defines an [AMDP procedure implementation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_procedure_methods.htm) for implementing a [database procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_procedure_glosry.htm "Glossary Entry").
     
--   The addition BY DATABASE FUNCTION defines an [AMDP function implementation](javascript:call_link\('abenamdp_function_methods.htm'\)) for implementing a [database function](javascript:call_link\('abendatabase_function_glosry.htm'\) "Glossary Entry").
+-   The addition BY DATABASE FUNCTION defines an [AMDP function implementation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_function_methods.htm) for implementing a [database function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_function_glosry.htm "Glossary Entry").
     
 
-The parameter interface of the method declared in the [declaration part](javascript:call_link\('abendeclaration_section_glosry.htm'\) "Glossary Entry") must meet the prerequisites for [AMDP procedure implementations](javascript:call_link\('abenamdp_procedure_methods.htm'\)) or [AMDP function implementations](javascript:call_link\('abenamdp_function_methods.htm'\)). The parameter interface of an AMDP function implementation that implements a [CDS table function](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry") is taken from the definition of the CDS table function specified after the addition [FOR TABLE FUNCTION](javascript:call_link\('abapclass-methods_for_tabfunc.htm'\)) in the declaration of the method.
+The parameter interface of the method declared in the [declaration part](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclaration_section_glosry.htm "Glossary Entry") must meet the prerequisites for [AMDP procedure implementations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_procedure_methods.htm) or [AMDP function implementations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_function_methods.htm). The parameter interface of an AMDP function implementation that implements a [CDS table function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencds_table_function_glosry.htm "Glossary Entry") is taken from the definition of the CDS table function specified after the addition [FOR TABLE FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclass-methods_for_tabfunc.htm) in the declaration of the method.
 
 The addition FOR db defines the database system where the method is used. The addition LANGUAGE defines the database-specific language in which the method is implemented. OPTIONS is used to specify database-specific options. USING is used to declare database objects managed by ABAP that are used in the AMDP method.
 
@@ -44,7 +44,7 @@ If the current AS ABAP does not have sufficient authorizations to manage databas
 
 Executable Examples
 
-[AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\))
+[AMDP - Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_abexas.htm)
 
 Addition 1
 
@@ -66,13 +66,13 @@ SAP HANA database
 
 IF\_AMDP\_MARKER\_HDB
 
-The AMDP method can only be called in an AS ABAP whose [standard database](javascript:call_link\('abenstandard_db_glosry.htm'\) "Glossary Entry") is managed by the specified database system; otherwise a runtime error is produced.
+The AMDP method can only be called in an AS ABAP whose [standard database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_db_glosry.htm "Glossary Entry") is managed by the specified database system; otherwise a runtime error is produced.
 
 Notes
 
 -   An AMDP class can contain multiple tag interfaces for different database systems for implementing AMDP methods in various languages.
     
--   Additional regular methods can be provided to make an AMDP class with [AMDP procedure implementations](javascript:call_link\('abenamdp_procedure_methods.htm'\)) public. These methods call the AMDP methods as specified by the database system of the current standard AS ABAP database. In database systems that do not support AMDP, an alternative implementation in Open SQL or Native SQL can be created in regular methods.
+-   Additional regular methods can be provided to make an AMDP class with [AMDP procedure implementations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_procedure_methods.htm) public. These methods call the AMDP methods as specified by the database system of the current standard AS ABAP database. In database systems that do not support AMDP, an alternative implementation in Open SQL or Native SQL can be created in regular methods.
     
 
 Addition 2
@@ -95,17 +95,17 @@ HDB
 
 SQLSCRIPT
 
-[SQLScript](javascript:call_link\('abensql_script_glosry.htm'\) "Glossary Entry")
+[SQLScript](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensql_script_glosry.htm "Glossary Entry")
 
-[SQLScript for the SAP HANA database](javascript:call_link\('abenamdp_hdb_sqlscript.htm'\))
+[SQLScript for the SAP HANA database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_hdb_sqlscript.htm)
 
 HDB
 
 LLANG
 
-[L](javascript:call_link\('abenllang_glosry.htm'\) "Glossary Entry")
+[L](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenllang_glosry.htm "Glossary Entry")
 
-[L for the SAP HANA database](javascript:call_link\('abenamdp_hdb_l_internal.htm'\)) (for internal SAP use only and only for [AMDP procedure implementations](javascript:call_link\('abenamdp_procedure_methods.htm'\)))
+[L for the SAP HANA database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_hdb_l_internal.htm) (for internal SAP use only and only for [AMDP procedure implementations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_procedure_methods.htm))
 
 If possible, the ABAP syntax check examines the implementation of the method for the specified language. This is possible only if the check takes place on an AS ABAP whose standard database is managed by the specified database system. The check is performed with respect to the currently installed version of the database. No checks take place on an AS ABAP with a different database system.
 
@@ -133,11 +133,11 @@ HDB
 
 SUPPRESS SYNTAX ERRORS
 
-For internal use at SAP only: If the AMDP procedure accesses database objects not managed by ABAP that do not exist at the time of the syntax check, only syntax warnings are raised and not syntax errors. If a required object is missing at runtime, a [catchable exception is raised](javascript:call_link\('abenamdp_exceptions.htm'\)).
+For internal use at SAP only: If the AMDP procedure accesses database objects not managed by ABAP that do not exist at the time of the syntax check, only syntax warnings are raised and not syntax errors. If a required object is missing at runtime, a [catchable exception is raised](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_exceptions.htm).
 
-The option READ-ONLY can also be specified with the addition [AMDP OPTIONS](javascript:call_link\('abapmethods_amdp_options.htm'\)) in the declaration of an AMDP method. It applies when specified either in the implementation or in the declaration of the method, or both.
+The option READ-ONLY can also be specified with the addition [AMDP OPTIONS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_amdp_options.htm) in the declaration of an AMDP method. It applies when specified either in the implementation or in the declaration of the method, or both.
 
-These options are optional, with the following exception: READ-ONLY must be specified at least once in the implementation of an [AMDP function](javascript:call_link\('abenamdp_function_glosry.htm'\) "Glossary Entry") or an [L procedure](javascript:call_link\('abenamdp_hdb_l_internal.htm'\)).
+These options are optional, with the following exception: READ-ONLY must be specified at least once in the implementation of an [AMDP function](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_function_glosry.htm "Glossary Entry") or an [L procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_hdb_l_internal.htm).
 
 The syntax check examines the specified options at runtime.
 
@@ -162,9 +162,9 @@ These tables, views, and procedures are from the current database schema used in
 
 Each database object specified after USING must also be used in the procedure or function. Any database objects other than those above managed by ABAP cannot be specified after USING and the procedure or function cannot be used to access database objects not specified after USING, with the following exceptions:
 
--   Database objects in the current database schema if they are not in the namespace of the [namespace prefix](javascript:call_link\('abenname_space_prefix_glosry.htm'\) "Glossary Entry") /1BCAMDP/. If used in the procedure or function, they must be specified directly and without specifying the database schema.
+-   Database objects in the current database schema if they are not in the namespace of the [namespace prefix](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenname_space_prefix_glosry.htm "Glossary Entry") /1BCAMDP/. If used in the procedure or function, they must be specified directly and without specifying the database schema.
     
--   Database objects in a different database schema using their full qualified names ([logical database schemas](javascript:call_link\('abenamdp_logical_db_schemas.htm'\)) can be used here too).
+-   Database objects in a different database schema using their full qualified names ([logical database schemas](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_logical_db_schemas.htm) can be used here too).
     
 
 With the exception of the namespace /1BCAMDP/, database objects from the current database schema can be accessed in a database procedure or database function managed by AMDP only if they are managed by ABAP and specified after USING.
@@ -177,7 +177,7 @@ Notes
     
 -   In the case of database tables in ABAP Dictionary specified after USING, the AMDP framework makes sure that the order of the fields defined in the dictionary is respected when the tables are accessed statically (this may be different from the order on the database).
     
--   When an AMDP method class=>meth is specified after USING, the ABAP runtime environment identifies this as a use of the class class and its [static constructor](javascript:call_link\('abenstatic_constructor_glosry.htm'\) "Glossary Entry") is executed before the first call of the AMDP method. This means that, if an AMDP procedure or function uses other AMDP procedures or functions, the corresponding static constructor is executed.
+-   When an AMDP method class=>meth is specified after USING, the ABAP runtime environment identifies this as a use of the class class and its [static constructor](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstatic_constructor_glosry.htm "Glossary Entry") is executed before the first call of the AMDP method. This means that, if an AMDP procedure or function uses other AMDP procedures or functions, the corresponding static constructor is executed.
     
 -   AMDP methods in the same class must also be specified after USING, if used in the procedure or function.
     
@@ -185,9 +185,9 @@ Notes
     
 -   The namespace /1BCAMDP/ is intended for temporary database tables, views, or database procedures or database functions of the current database schema accessed in AMDP procedures or functions.
     
--   The addition USING cannot be specified in the implementation of [L procedures](javascript:call_link\('abenamdp_hdb_l_internal.htm'\)).
+-   The addition USING cannot be specified in the implementation of [L procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_hdb_l_internal.htm).
     
 
 Continue
-[AMDP - SQL Script for the SAP HANA Database](javascript:call_link\('abenamdp_hdb_sqlscript.htm'\))
-[AMDP - L for the SAP HANA Database](javascript:call_link\('abenamdp_hdb_l_internal.htm'\))
+[AMDP - SQL Script for the SAP HANA Database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_hdb_sqlscript.htm)
+[AMDP - L for the SAP HANA Database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenamdp_hdb_l_internal.htm)

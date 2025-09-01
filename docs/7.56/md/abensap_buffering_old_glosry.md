@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 SAP buffering
 
-Buffering of frequently used data in the [shared memory](javascript:call_link\('abenshared_memory_glosry.htm'\) "Glossary Entry") buffers of an [AS ABAP](javascript:call_link\('abenas_abap_glosry.htm'\) "Glossary Entry") [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry"). Includes [table buffering](javascript:call_link\('abentable_buffering_glosry.htm'\) "Glossary Entry").
+Buffering of frequently used data in the [shared memory](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshared_memory_glosry.htm "Glossary Entry") buffers of an [AS ABAP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_abap_glosry.htm "Glossary Entry") [AS instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenas_instance_glosry.htm "Glossary Entry"). Includes [table buffering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_buffering_glosry.htm "Glossary Entry").
 
 → More about

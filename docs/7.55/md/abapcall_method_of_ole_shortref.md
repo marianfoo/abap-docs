@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  C
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  C
 
 CALL METHOD, OLE - Quick reference
 
-[Reference](javascript:call_link\('abapcall_method_ole2.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcall_method_ole2.htm)
 
 Syntax
 
@@ -18,7 +18,7 @@ CALL METHOD OF ole meth *\[*\= rc*\]*
 
 Effect
 
-Calls a method meth of an [automation object](javascript:call_link\('abenole_automation_glosry.htm'\) "Glossary Entry") ole created using CREATE OBJECT ole. The the return code can be saved in a variable rc.
+Calls a method meth of an [automation object](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenole_automation_glosry.htm "Glossary Entry") ole created using CREATE OBJECT ole. The the return code can be saved in a variable rc.
 
 Additions
 
@@ -27,7 +27,7 @@ Additions
     
 
 -   NO FLUSH
-    Dictates that the method call is passed to the presentation layer only when the function module FLUSH is called or the [screen](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") changes.
+    Dictates that the method call is passed to the presentation layer only when the function module FLUSH is called or the [screen](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenscreen_glosry.htm "Glossary Entry") changes.
     
 
 -   QUEUE-ONLY

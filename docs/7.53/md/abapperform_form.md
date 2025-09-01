@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and Exiting Program Units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Processing Blocks](javascript:call_link\('abencall_processing_blocks.htm'\)) →  [Calling Procedures](javascript:call_link\('abencall_procedures.htm'\)) →  [PERFORM](javascript:call_link\('abapperform.htm'\)) →  [PERFORM - general](javascript:call_link\('abapperform_general.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Calling and Exiting Program Units](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_execution.htm) →  [Calling Processing Blocks](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_processing_blocks.htm) →  [Calling Procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencall_procedures.htm) →  [PERFORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapperform.htm) →  [PERFORM - general](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapperform_general.htm) → 
 
 PERFORM - subr\_identifier
 
-[Quick Reference](javascript:call_link\('abapperform_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapperform_shortref.htm)
 
 Syntax
 
@@ -24,11 +24,11 @@ Alternatives:
 
 Effect
 
-These names are used in the statement [PERFORM](javascript:call_link\('abapperform.htm'\)) to specify the called program and the ABAP program in which it is defined.
+These names are used in the statement [PERFORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapperform.htm) to specify the called program and the ABAP program in which it is defined.
 
 Note
 
-As well as the alternatives shown here, there is another [obsolete form](javascript:call_link\('abapperform_obsolete.htm'\)) of the external subroutine call.
+As well as the alternatives shown here, there is another [obsolete form](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapperform_obsolete.htm) of the external subroutine call.
 
 Alternative 1
 
@@ -36,7 +36,7 @@ Alternative 1
 
 Effect
 
-When specified directly, subr calls any subroutine of the current program using its name declared in the statement [FORM](javascript:call_link\('abapform.htm'\)). The subroutine must exist.
+When specified directly, subr calls any subroutine of the current program using its name declared in the statement [FORM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapform.htm). The subroutine must exist.
 
 Example
 
@@ -84,26 +84,26 @@ Specifies the program as the content of a character-like data object pname (dyna
 
 When the statement is executed, pname is not evaluated until runtime (in both cases).
 
-Valid programs for external subroutine calls are [executable programs](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry"), [module pools](javascript:call_link\('abenmodul_pool_glosry.htm'\) "Glossary Entry"), [function groups](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry"), and [subroutine pools](javascript:call_link\('abensubroutine_pool_glosry.htm'\) "Glossary Entry"). If an external subroutine is specified statically, the syntax check does not check whether the specified program and subroutine exist and also does not check the type of the program. Only the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry") registers any invalid or nonexistent programs or subroutines as errors by default. This also applies to names specified as constants or literals. If the addition IF FOUND is specified, the extended program check also skips the check.
+Valid programs for external subroutine calls are [executable programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenexecutable_program_glosry.htm "Glossary Entry"), [module pools](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmodul_pool_glosry.htm "Glossary Entry"), [function groups](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_group_glosry.htm "Glossary Entry"), and [subroutine pools](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubroutine_pool_glosry.htm "Glossary Entry"). If an external subroutine is specified statically, the syntax check does not check whether the specified program and subroutine exist and also does not check the type of the program. Only the [extended program check](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenextended_program_check_glosry.htm "Glossary Entry") registers any invalid or nonexistent programs or subroutines as errors by default. This also applies to names specified as constants or literals. If the addition IF FOUND is specified, the extended program check also skips the check.
 
 If the statically or dynamically specified subroutine or program does not exist at runtime, a handleable exception of the class CX\_SY\_DYN\_CALL\_ILLEGAL\_FORM or CX\_SY\_PROGRAM\_NOT\_FOUND is raised by default. If the addition IF FOUND is specified, the statement PERFORM is skipped.
 
-If the specified program exists, it is loaded, if required, into the [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry") and scanned for the specified subroutine. The event LOAD-OF-PROGRAM is not triggered. If the subroutine is available, the event LOAD-OF-PROGRAM is triggered (if not already triggered) and then the subroutine is executed.
+If the specified program exists, it is loaded, if required, into the [internal session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninternal_session_glosry.htm "Glossary Entry") and scanned for the specified subroutine. The event LOAD-OF-PROGRAM is not triggered. If the subroutine is available, the event LOAD-OF-PROGRAM is triggered (if not already triggered) and then the subroutine is executed.
 
 Notes
 
 -   External calls of subroutines are almost completely obsolete. Instead of subroutines, methods and function modules can be used as explicit functional interfaces of a program.
     
--   Furthermore, external calls of subroutines are critical, since there is usually no static way of determining which [program groups](javascript:call_link\('abenprogram_groups.htm'\)) are assigned to the master program.
+-   Furthermore, external calls of subroutines are critical, since there is usually no static way of determining which [program groups](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_groups.htm) are assigned to the master program.
     
--   If no further addition is specified apart from IN PROGRAM (no IF FOUND, no [parameter list](javascript:call_link\('abapperform_parameters.htm'\))), the program name can be omitted and is added implicitly with the name of the current program.
+-   If no further addition is specified apart from IN PROGRAM (no IF FOUND, no [parameter list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapperform_parameters.htm)), the program name can be omitted and is added implicitly with the name of the current program.
     
--   Any subroutines defined in an [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry") cannot be called externally by specifying the include program, since it cannot be generated as a standalone program. The include program can be called, however, by being included in a [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry") and by specifying the name of this unit.
+-   Any subroutines defined in an [include program](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninclude_program_glosry.htm "Glossary Entry") cannot be called externally by specifying the include program, since it cannot be generated as a standalone program. The include program can be called, however, by being included in a [compilation unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompilation_unit_glosry.htm "Glossary Entry") and by specifying the name of this unit.
     
 
 Security Note
 
-If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, the result is a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](javascript:call_link\('abendyn_call_scrty.htm'\)).
+If the name of a program unit is specified dynamically when it is called, and this name is passed to a program from outside, the result is a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used in calls. The system class CL\_ABAP\_DYN\_PRG, for example, can be used to do this. See [Dynamic Calls](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendyn_call_scrty.htm).
 
 Example
 

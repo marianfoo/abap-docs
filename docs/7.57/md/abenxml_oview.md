@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: XML - Quick Overview, ABENXML_OVIEW, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASug
 gestion for improvement:)
@@ -92,5 +92,5 @@ XML data is valid (well-formed) if it does not violate any XML rules. Generally 
 
 Hints
 
--   The XML 1.0 format shown here, that is, character strings in angle brackets, is only one way of representing XML data, although it is the most widely used. A [W3C recommendation](http://www.w3.org/TR/xml-infoset/) states that the tree-like arrangement of data in information sets defines the XML format. Any data structured in this way can be handled as XML data. Other notations can also be used, not just XML 1.0. For example, SAP's own [Binary XML](javascript:call_link\('abenbinary_xml_glosry.htm'\) "Glossary Entry") uses a binary format instead of character strings and does not delimit tags with angle brackets. ABAP supports further formats in addition to XML 1.0 due to the [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)).
+-   The XML 1.0 format shown here, that is, character strings in angle brackets, is only one way of representing XML data, although it is the most widely used. A [W3C recommendation](http://www.w3.org/TR/xml-infoset/) states that the tree-like arrangement of data in information sets defines the XML format. Any data structured in this way can be handled as XML data. Other notations can also be used, not just XML 1.0. For example, SAP's own [Binary XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbinary_xml_glosry.htm "Glossary Entry") uses a binary format instead of character strings and does not delimit tags with angle brackets. ABAP supports further formats in addition to XML 1.0 due to the [sXML Library](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sxml_lib.htm).
 -   The program DEMO\_XML\_SYNTAX\_CHECK enables XML data to be entered and check its syntax.

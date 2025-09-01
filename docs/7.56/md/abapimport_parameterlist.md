@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Cluster](javascript:call_link\('abendata_cluster.htm'\)) →  [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [Data Cluster](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_cluster.htm) →  [IMPORT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_data_cluster.htm) → 
 
 IMPORT, parameter\_list
 
-[Short Reference](javascript:call_link\('abapimport_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_shortref.htm)
 
 Syntax
 
@@ -24,20 +24,20 @@ Additions:
 
 Effect
 
-A [data cluster](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") can be read statically using an enumeration in the form p1 = dobj1 p2 = dobj2 ... or p1 TO dobj1 p2 TO dobj2 ... and dynamically by specifying a parenthesized internal table ptab. Here the system searches for the data clusters stored under the names p1, p2, .... If specified statically as b1, b2, ..., the system searches for the names in uppercase letters. If specified dynamically in rtab, the system searches for the names in the case used there.
+A [data cluster](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_cluster_glosry.htm "Glossary Entry") can be read statically using an enumeration in the form p1 = dobj1 p2 = dobj2 ... or p1 TO dobj1 p2 TO dobj2 ... and dynamically by specifying a parenthesized internal table ptab. Here the system searches for the data clusters stored under the names p1, p2, .... If specified statically as b1, b2, ..., the system searches for the names in uppercase letters. If specified dynamically in rtab, the system searches for the names in the case used there.
 
 If a parameter p1, p2, ... is specified that is not stored in the data cluster, the specification is ignored and the data object dobj retains its current value. The data objects dobj must have the same data type as the parameter p1, p2, ... of the cluster, in the standard version. In internal tables, only the row type and not the table category is relevant. The following exceptions apply:
 
--   With data objects of the type c, different lengths are allowed. In this case, the appropriate conversion rule from the [conversion table for source field type c](javascript:call_link\('abenconversion_type_c.htm'\)) applies.
--   If the data types of all components of a structure, except for the last one, match and this component is of the type c, it can be lengthened or shortened in accordance with the conversion rule from the conversion table for source field type c. [Alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry") in front of this component are considered part of the component.
--   In the case of structures, it is enough that the initial part of a target structure has the same type as the source structure in the data cluster. After this, the target structure can contain further components at the highest level. In imports, the surplus components are filled with their [initial values](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry"). A substructure of the target structure must not, however, have more components than the corresponding substructure in the source structure.
--   Data objects of the [basic type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") of an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") stored in the cluster can be imported into an enumeration object whose value is a valid [enumerated value](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") of the [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"). This includes any stored enumerated objects and regular elementary data objects of the basic type. Conversely, stored enumerated objects cannot be imported into data objects of their basic type.
+-   With data objects of the type c, different lengths are allowed. In this case, the appropriate conversion rule from the [conversion table for source field type c](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenconversion_type_c.htm) applies.
+-   If the data types of all components of a structure, except for the last one, match and this component is of the type c, it can be lengthened or shortened in accordance with the conversion rule from the conversion table for source field type c. [Alignment gaps](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenalignment_gap_glosry.htm "Glossary Entry") in front of this component are considered part of the component.
+-   In the case of structures, it is enough that the initial part of a target structure has the same type as the source structure in the data cluster. After this, the target structure can contain further components at the highest level. In imports, the surplus components are filled with their [initial values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninitial_value_glosry.htm "Glossary Entry"). A substructure of the target structure must not, however, have more components than the corresponding substructure in the source structure.
+-   Data objects of the [basic type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbase_type_glosry.htm "Glossary Entry") of an [enumerated object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenenumerated_object_glosry.htm "Glossary Entry") stored in the cluster can be imported into an enumeration object whose value is a valid [enumerated value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenenumerated_value_glosry.htm "Glossary Entry") of the [enumerated type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenenumerated_type_glosry.htm "Glossary Entry"). This includes any stored enumerated objects and regular elementary data objects of the basic type. Conversely, stored enumerated objects cannot be imported into data objects of their basic type.
 
-When structures are exported, the information indicating whether the structure contains components inherited using the statement [INCLUDE](javascript:call_link\('abapinclude_type.htm'\)) or inherited from other substructures in the ABAP Dictionary is stored. A structure into which data is imported must also match the structure in the data cluster with respect to the components applied using INCLUDE. Only for structures that were stored prior to Release 6.10 and structures where all the components of the uppermost hierarchy level were transferred using INCLUDE does the target structure not necessarily need to be set up with the same INCLUDE statements.
+When structures are exported, the information indicating whether the structure contains components inherited using the statement [INCLUDE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinclude_type.htm) or inherited from other substructures in the ABAP Dictionary is stored. A structure into which data is imported must also match the structure in the data cluster with respect to the components applied using INCLUDE. Only for structures that were stored prior to Release 6.10 and structures where all the components of the uppermost hierarchy level were transferred using INCLUDE does the target structure not necessarily need to be set up with the same INCLUDE statements.
 
-When importing from internal tables with non-unique [table keys](javascript:call_link\('abenitab_key.htm'\)), the order of duplicate rows in relation to these keys is not retained.
+When importing from internal tables with non-unique [table keys](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenitab_key.htm), the order of duplicate rows in relation to these keys is not retained.
 
-The additions specified under [conversion\_options](javascript:call_link\('abapimport_conversion.htm'\)) allow additional conversions and define other conversion rules. If structured data with character-like components is imported into [Unicode systems](javascript:call_link\('abenunicode_system_glosry.htm'\) "Glossary Entry"), and these components were exported in a [MDMP system](javascript:call_link\('abenmdmp-system_glosry.htm'\) "Glossary Entry") and vice versa, a special [text language rule](javascript:call_link\('abenimport_text_language.htm'\)) applies.
+The additions specified under [conversion\_options](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapimport_conversion.htm) allow additional conversions and define other conversion rules. If structured data with character-like components is imported into [Unicode systems](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenunicode_system_glosry.htm "Glossary Entry"), and these components were exported in a [MDMP system](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmdmp-system_glosry.htm "Glossary Entry") and vice versa, a special [text language rule](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenimport_text_language.htm) applies.
 
 Hint
 
@@ -53,21 +53,21 @@ Addition 2  
 
 Effect
 
-In the static case, the content is read from the data objects stored in the data cluster under the names p1, p2, ..., and these content is passed to the dobj data objects. The system searches for the names p1, p2, ... in uppercase letters in the data cluster. The specifications p1 = dobj1 p2 = dobj2 ... and p1 TO dobj1 p2 TO dobj2 ... have the same meaning. If a data object dobj is an internal table with a [header line](javascript:call_link\('abenheader_line_glosry.htm'\) "Glossary Entry"), the [table body](javascript:call_link\('abentable_body_glosry.htm'\) "Glossary Entry") is addressed instead of the header line.
+In the static case, the content is read from the data objects stored in the data cluster under the names p1, p2, ..., and these content is passed to the dobj data objects. The system searches for the names p1, p2, ... in uppercase letters in the data cluster. The specifications p1 = dobj1 p2 = dobj2 ... and p1 TO dobj1 p2 TO dobj2 ... have the same meaning. If a data object dobj is an internal table with a [header line](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenheader_line_glosry.htm "Glossary Entry"), the [table body](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentable_body_glosry.htm "Glossary Entry") is addressed instead of the header line.
 
 Programming Guideline
 
-[Use consistent spelling](javascript:call_link\('abenalternative_langu_guidl.htm'\) "Guideline")
+[Use consistent spelling](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenalternative_langu_guidl.htm "Guideline")
 
 Hints
 
 -   The use of \= is recommended rather than TO, since \= is also used by other ABAP statements to inherit data.
--   In the static case, it is not possible to read any data objects with names containing lowercase letters. These names can be defined using the dynamic variant of the [parameter list](javascript:call_link\('abapexport_data_cluster_param.htm'\)) for statement EXPORT.
--   Outside of classes, and if the name does not contain an address specification such as an [instance component selector](javascript:call_link\('abeninstance_comp_selector_glosry.htm'\) "Glossary Entry") or an [offset/length specification](javascript:call_link\('abenoffset_length_specific_glosry.htm'\) "Glossary Entry"), the [obsolete short form](javascript:call_link\('abapexport_import_obsolete.htm'\)) dobj1 dobj2... can be used in the static variant. In this case, the parameters are searched for implicitly in the cluster under the name of the specified data object.
+-   In the static case, it is not possible to read any data objects with names containing lowercase letters. These names can be defined using the dynamic variant of the [parameter list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexport_data_cluster_param.htm) for statement EXPORT.
+-   Outside of classes, and if the name does not contain an address specification such as an [instance component selector](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninstance_comp_selector_glosry.htm "Glossary Entry") or an [offset/length specification](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoffset_length_specific_glosry.htm "Glossary Entry"), the [obsolete short form](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexport_import_obsolete.htm) dobj1 dobj2... can be used in the static variant. In this case, the parameters are searched for implicitly in the cluster under the name of the specified data object.
 
 Example
 
-Static import of data stored using the dynamic variant of the [parameter list](javascript:call_link\('abapexport_data_cluster_param.htm'\)) of the statement EXPORT. The data can be read with the static variant of the parameter list for the statement IMPORT, because the data names only contain uppercase characters.
+Static import of data stored using the dynamic variant of the [parameter list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexport_data_cluster_param.htm) of the statement EXPORT. The data can be read with the static variant of the parameter list for the statement IMPORT, because the data names only contain uppercase characters.
 
 TYPES:
   BEGIN OF pline,
@@ -100,12 +100,12 @@ In the dynamic case, the parameter list is inherited from the two-column interna
 
 Hints
 
--   To read data objects with the dynamic variant that were stored using the static variant of the [parameter list](javascript:call_link\('abapexport_data_cluster_param.htm'\)) of the statement EXPORT, the names of these data objects must be specified in uppercase letters. Any names containing lowercase letters can only be read and written with the dynamic variants.
--   Outside of classes, a single-column internal table for parameter\_list can also be used. This is the dynamic variant of the [obsolete short form](javascript:call_link\('abapexport_import_obsolete.htm'\)) used to search for the data objects stored in the data cluster under the names of the data objects specified in the table.
+-   To read data objects with the dynamic variant that were stored using the static variant of the [parameter list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexport_data_cluster_param.htm) of the statement EXPORT, the names of these data objects must be specified in uppercase letters. Any names containing lowercase letters can only be read and written with the dynamic variants.
+-   Outside of classes, a single-column internal table for parameter\_list can also be used. This is the dynamic variant of the [obsolete short form](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexport_import_obsolete.htm) used to search for the data objects stored in the data cluster under the names of the data objects specified in the table.
 
 Example
 
-Dynamic import of data stored using the static variant of the [parameter list](javascript:call_link\('abapexport_data_cluster_param.htm'\)) of the statement EXPORT. To read data with the dynamic variant of the parameter list of the statement IMPORT, the names must be specified in uppercase letters in the first column of ptab.
+Dynamic import of data stored using the static variant of the [parameter list](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapexport_data_cluster_param.htm) of the statement EXPORT. To read data with the dynamic variant of the parameter list of the statement IMPORT, the names must be specified in uppercase letters in the first column of ptab.
 
 DATA:
   num1 TYPE i VALUE 1,

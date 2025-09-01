@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Selection Screens - Create](javascript:call_link\('abenselection_screen_create.htm'\)) →  [PARAMETERS](javascript:call_link\('abapparameters.htm'\)) →  [PARAMETERS, screen\_options](javascript:call_link\('abapparameters_screen.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen.htm) →  [Selection Screens - Create](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen_create.htm) →  [PARAMETERS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapparameters.htm) →  [PARAMETERS, screen\_options](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapparameters_screen.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Selection%20Screens%20-%20Display%20Properties%20for%20Parameters%2C%20ABENSEL_SCREEN_PARAM_SCREEN_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASu
 ggestion%20for%20improvement:)
@@ -89,7 +89,7 @@ START-OF-SELECTION.
 
 Description   
 
-This example program consists of six parts, each representing one of the [screen\_options](javascript:call_link\('abapparameters_screen.htm'\)) additions of the statement PARAMETERS. Each example corresponds to a block on selection screen 100.
+This example program consists of six parts, each representing one of the [screen\_options](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapparameters_screen.htm) additions of the statement PARAMETERS. Each example corresponds to a block on selection screen 100.
 
 -   Part 1: If the cursor is not on the input field, a symbol appears in the input field of the selection parameter p which tells the user that an entry in this field is required and that the program cannot continue if no entry is made in this field.
 -   Part 2: The three selection parameters p1, p2 and p3 have the same length (10) but are displayed in different lengths on the selection screen. Up to ten places, however, can be entered in any of the fields.

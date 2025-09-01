@@ -4,23 +4,23 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT - FROM](javascript:call_link\('abapfrom_clause.htm'\)) →  [SELECT - FROM data\_source](javascript:call_link\('abapselect_data_source.htm'\)) →  [SELECT - FROM hierarchy\_data](javascript:call_link\('abenselect_hierarchy_data.htm'\)) →  [SELECT - FROM hierarchy](javascript:call_link\('abenselect_hierarchy.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Reads](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_reading.htm) →  [SELECT clauses](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_clauses.htm) →  [SELECT - FROM](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapfrom_clause.htm) →  [SELECT - FROM data\_source](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapselect_data_source.htm) →  [SELECT - FROM hierarchy\_data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy_data.htm) →  [SELECT - FROM hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy.htm) → 
 
 SELECT - FROM cds\_hierarchy
 
 Syntax
 
-... cds\_hierarchy*\[*[sql\_para](javascript:call_link\('abenopen_sql_parameters.htm'\))*\]* ...
+... cds\_hierarchy*\[*[sql\_para](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_parameters.htm)*\]* ...
 
 Effect
 
-Specifies a [CDS hierarchy](javascript:call_link\('abencds_hierarchy_glosry.htm'\) "Glossary Entry") cds\_hierarchy as a hierarchy [hierarchy](javascript:call_link\('abenselect_hierarchy.htm'\)) in an ABAP SQL query. The CDS hierarchy is specified using the name cds\_hierarchy defined for it after [DEFINE HIERARCHY](javascript:call_link\('abencds_f1_define_hierarchy.htm'\)). If the CDS hierarchy has input parameters, actual parameters must be assigned to these in a parenthesized list [sql\_para](javascript:call_link\('abenopen_sql_parameters.htm'\)).
+Specifies a [CDS hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_hierarchy_glosry.htm "Glossary Entry") cds\_hierarchy as a hierarchy [hierarchy](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_hierarchy.htm) in an ABAP SQL query. The CDS hierarchy is specified using the name cds\_hierarchy defined for it after [DEFINE HIERARCHY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_define_hierarchy.htm). If the CDS hierarchy has input parameters, actual parameters must be assigned to these in a parenthesized list [sql\_para](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_parameters.htm).
 
-The rows of the tabular results set of a CDS hierarchy specified as a data source are the [hierarchy nodes](javascript:call_link\('abenhierarchy_node_glosry.htm'\) "Glossary Entry") of the hierarchy and their columns comprise the elements of the CDS hierarchy and the additional [hierarchy columns](javascript:call_link\('abenddddl_hierarchy.htm'\)) that can be used to access the [hierarchy attributes](javascript:call_link\('abenhierarchy_attribute_glosry.htm'\) "Glossary Entry") of the data source of the CDS hierarchy.
+The rows of the tabular results set of a CDS hierarchy specified as a data source are the [hierarchy nodes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_node_glosry.htm "Glossary Entry") of the hierarchy and their columns comprise the elements of the CDS hierarchy and the additional [hierarchy columns](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddddl_hierarchy.htm) that can be used to access the [hierarchy attributes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenhierarchy_attribute_glosry.htm "Glossary Entry") of the data source of the CDS hierarchy.
 
 Note
 
-When a CDS hierarchy is accessed, the hierarchy columns are read regardless of whether hierarchy attributes are listed in the [element list](javascript:call_link\('abencds_f1_hiera_element_list.htm'\)). If a hierarchy attribute is defined as an explicit element of the CDS hierarchy, it is possible to access both the element and the additional hierarchy column in ABAP SQL.
+When a CDS hierarchy is accessed, the hierarchy columns are read regardless of whether hierarchy attributes are listed in the [element list](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencds_f1_hiera_element_list.htm). If a hierarchy attribute is defined as an explicit element of the CDS hierarchy, it is possible to access both the element and the additional hierarchy column in ABAP SQL.
 
 Example
 

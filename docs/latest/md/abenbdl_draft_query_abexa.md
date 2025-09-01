@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [RAP - Entity Behavior Definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [RAP - Entity Behavior Characteristics](javascript:call_link\('abenbdl_character.htm'\)) →  [RAP - draft table](javascript:call_link\('abenbdl_draft_table.htm'\)) →  [RAP - query](javascript:call_link\('abenbdl_draft_query_view.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl.htm) →  [RAP - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bo.htm) →  [RAP - Entity Behavior Definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_define_beh.htm) →  [RAP - Entity Behavior Characteristics](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_character.htm) →  [RAP - draft table](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_draft_table.htm) →  [RAP - query](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_draft_query_view.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20RAP%20BO%20with%20DCL%20Access%20Control%2C%20ABENBDL_DRAFT_QUERY_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improv
 ement:)
 
 RAP - RAP BO with DCL Access Control
 
-This example demonstrates how read access control is implemented and evaluated for a RAP BO for active data and for draft data using the CDS data control language [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry").
+This example demonstrates how read access control is implemented and evaluated for a RAP BO for active data and for draft data using the CDS data control language [CDS DCL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_dcl_glosry.htm "Glossary Entry").
 
 Data model
 
@@ -83,9 +83,9 @@ define role DEMO\_RAP\_DCL\_DRAFT {
 
 Behavior definition
 
-The [RAP behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_RAP\_MANAGED\_DRAFT\_QUERY is managed and draft-enabled. It specifies the CDS view entity DEMO\_RAP\_DRAFT\_QUERY\_VIEW as draft query view.
+The [RAP behavior definition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_RAP\_MANAGED\_DRAFT\_QUERY is managed and draft-enabled. It specifies the CDS view entity DEMO\_RAP\_DRAFT\_QUERY\_VIEW as draft query view.
 
-Note: This example is intentionally kept short and simple and serves demonstration purposes only. The [RAP handler methods](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") are not implemented in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") here.
+Note: This example is intentionally kept short and simple and serves demonstration purposes only. The [RAP handler methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") are not implemented in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") here.
 
 managed implementation in class bp\_demo\_rap\_managed\_draft\_quer unique;
 strict ( 2 );
@@ -233,10 +233,10 @@ Description  
 
 Access with ABAP using EML and ABAP SQL
 
-The above source code uses [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") and [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry") to access the RAP business object from an ABAP class:
+The above source code uses [EML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abeneml_glosry.htm "Glossary Entry") and [ABAP SQL](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sql_glosry.htm "Glossary Entry") to access the RAP business object from an ABAP class:
 
--   It creates four active entity instances using the EML statement [MODIFY ENTITIES CREATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)).
--   It reads these active instances, first with the EML statement [READ ENTITIES](javascript:call_link\('abapread_entity_entities.htm'\)), and afterwards with ABAP SQL [SELECT](javascript:call_link\('abapselect.htm'\)). In the EML read, the DCL access condition is applied and the result set is filtered according to the access condition. Some data sets are filtered out. By contrast, the ABAP SQL SELECT displays all instances that were saved on the database.
+-   It creates four active entity instances using the EML statement [MODIFY ENTITIES CREATE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapmodify_entity_entities_op.htm).
+-   It reads these active instances, first with the EML statement [READ ENTITIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapread_entity_entities.htm), and afterwards with ABAP SQL [SELECT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect.htm). In the EML read, the DCL access condition is applied and the result set is filtered according to the access condition. Some data sets are filtered out. By contrast, the ABAP SQL SELECT displays all instances that were saved on the database.
 -   It creates four draft instances using the EML statement MODIFY ENTITIES CREATE.
 -   It reads these draft instances, first with the EML statement READ ENTITIES, and afterwards with ABAP SQL SELECT. In the EML read, the DCL access condition attached to the draft query view is applied and the result set is filtered according to the access condition. Some data sets are filtered out. By contrast, the ABAP SQL SELECT displays all instances that were saved in the RAP draft table.
--   Finally, the RAP draft table is cleared using the draft action [Discard](javascript:call_link\('abenbdl_draft_action.htm'\)).
+-   Finally, the RAP draft table is cleared using the draft action [Discard](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_draft_action.htm).

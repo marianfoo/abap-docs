@@ -4,16 +4,16 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning References](javascript:call_link\('abenreference_assignments.htm'\)) →  [Setting Field Symbols](javascript:call_link\('abenset_field_symbols.htm'\)) →  [ASSIGN](javascript:call_link\('abapassign.htm'\)) →  [ASSIGN, mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenvalue_assignments.htm) →  [Assigning References](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenreference_assignments.htm) →  [Setting Field Symbols](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenset_field_symbols.htm) →  [ASSIGN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign.htm) →  [ASSIGN, mem\_area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area.htm) → 
 
 ASSIGN, writable\_exp
 
-[Short Reference](javascript:call_link\('abapassign_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_shortref.htm)
 
 Syntax
 
-... [NEW class( ... )->attr](javascript:call_link\('abennew_constructor_params_class.htm'\)) *|* [CAST type( ... )->dobj](javascript:call_link\('abenconstructor_expression_cast.htm'\))
-  *|* [table\_exp](javascript:call_link\('abentable_expressions.htm'\))  ...
+... [NEW class( ... )->attr](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennew_constructor_params_class.htm) *|* [CAST type( ... )->dobj](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_cast.htm)
+  *|* [table\_exp](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_expressions.htm)  ...
 
 Alternatives:
 
@@ -22,13 +22,13 @@ Alternatives:
 
 Effect
 
-The operand position after ASSIGN is a [result position](javascript:call_link\('abenresult_position_glosry.htm'\) "Glossary Entry") in which [writable expressions](javascript:call_link\('abenwritable_expression_glosry.htm'\) "Glossary Entry") can be specified.
+The operand position after ASSIGN is a [result position](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenresult_position_glosry.htm "Glossary Entry") in which [writable expressions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenwritable_expression_glosry.htm "Glossary Entry") can be specified.
 
 Hints
 
 -   Writable expressions can be specified for the memory area but no other expressions, because only writable expressions can have a non-temporary result. Assigning a temporary data object to a field symbol would not make sense.
 
--   Writable expressions cannot be specified dynamically in a data object [name](javascript:call_link\('abapassign_mem_area_dynamic_access.htm'\)).
+-   Writable expressions cannot be specified dynamically in a data object [name](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area_dynamic_access.htm).
     
 
 Alternative 1
@@ -37,13 +37,13 @@ Alternative 1
 
 Effect
 
-This alternative to specifying the memory area [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) of the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)) assigns the result of the following [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") to a field symbol:
+This alternative to specifying the memory area [mem\_area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area.htm) of the statement [ASSIGN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign.htm) assigns the result of the following [constructor expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") to a field symbol:
 
--   [NEW class( ... )->attr](javascript:call_link\('abennew_constructor_params_class.htm'\))
+-   [NEW class( ... )->attr](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennew_constructor_params_class.htm)
 
--   [CAST type( ... )->dobj](javascript:call_link\('abenconstructor_expression_cast.htm'\))
+-   [CAST type( ... )->dobj](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_cast.htm)
 
-The same rules apply as to [statically specifying](javascript:call_link\('abapassign_mem_area_static_dobj.htm'\)) the memory area, but no offsets/lengths can be specified.
+The same rules apply as to [statically specifying](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area_static_dobj.htm) the memory area, but no offsets/lengths can be specified.
 
 Hints
 
@@ -87,41 +87,41 @@ Alternative 2
 
 Effect
 
-This alternative to specifying the memory area [mem\_area](javascript:call_link\('abapassign_mem_area.htm'\)) of the statement [ASSIGN](javascript:call_link\('abapassign.htm'\)) assigns the result of the [table expression](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry") [table\_exp](javascript:call_link\('abentable_expressions.htm'\)) or [table expression chaining](javascript:call_link\('abentable_exp_chaining.htm'\)) to the field symbol. The result of a table expression in these positions is always a temporary field symbol.
+This alternative to specifying the memory area [mem\_area](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_mem_area.htm) of the statement [ASSIGN](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign.htm) assigns the result of the [table expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_expression_glosry.htm "Glossary Entry") [table\_exp](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_expressions.htm) or [table expression chaining](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm) to the field symbol. The result of a table expression in these positions is always a temporary field symbol.
 
--   If a single table expression is specified, or a [chaining](javascript:call_link\('abentable_exp_chaining.htm'\)) whose last position is a table expression, the entire line found is assigned to the field symbol.
+-   If a single table expression is specified, or a [chaining](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm) whose last position is a table expression, the entire line found is assigned to the field symbol.
 
--   If a [chaining](javascript:call_link\('abentable_exp_chaining.htm'\)) is specified whose last position is a structure component after a structure component selector, this component is assigned to the field symbol. No offsets/lengths, however, can be specified for the structure component here.
+-   If a [chaining](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_chaining.htm) is specified whose last position is a structure component after a structure component selector, this component is assigned to the field symbol. No offsets/lengths, however, can be specified for the structure component here.
 
 In this variant, the statement ASSIGN sets the return value sy-subrc.
 
 -   If the specified line is found, sy-subrc is set to 0.
 
--   If the line is not found, sy-subrc is set to 4, except when the end of the table is reached in binary searches in [sorted tables](javascript:call_link\('abensorted_table_glosry.htm'\) "Glossary Entry"). In this case, sy-subrc is set to 8.
+-   If the line is not found, sy-subrc is set to 4, except when the end of the table is reached in binary searches in [sorted tables](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensorted_table_glosry.htm "Glossary Entry"). In this case, sy-subrc is set to 8.
 
-Unlike in other use cases of table expressions, the system field sy-tabix is set here in the same way as in a corresponding [READ TABLE](javascript:call_link\('abapread_table.htm'\)) statement.
+Unlike in other use cases of table expressions, the system field sy-tabix is set here in the same way as in a corresponding [READ TABLE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table.htm) statement.
 
-If the assignment is not successful, the field symbol keeps its previous state. In this variant, it is therefore not sufficient to evaluate the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [<fs> IS ASSIGNED](javascript:call_link\('abenlogexp_assigned.htm'\)), but sy-subrc needs to be checked as well.
+If the assignment is not successful, the field symbol keeps its previous state. In this variant, it is therefore not sufficient to evaluate the [predicate expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [<fs> IS ASSIGNED](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlogexp_assigned.htm), but sy-subrc needs to be checked as well.
 
-In this variant of the statement ASSIGN, the addition [CASTING](javascript:call_link\('abapassign_casting.htm'\)) can only be specified in assignments to an existing field symbol and not in [inline declarations](javascript:call_link\('abenfield-symbol_inline.htm'\)), and only as a standalone addition. The addition [RANGE](javascript:call_link\('abapassign_range.htm'\)) cannot be specified.
+In this variant of the statement ASSIGN, the addition [CASTING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_casting.htm) can only be specified in assignments to an existing field symbol and not in [inline declarations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield-symbol_inline.htm), and only as a standalone addition. The addition [RANGE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_range.htm) cannot be specified.
 
 Hints
 
--   This variant of the statement ASSIGN can be regarded as a different form of [READ TABLE ... ASSIGNING ...](javascript:call_link\('abapread_table_outdesc.htm'\)).
+-   This variant of the statement ASSIGN can be regarded as a different form of [READ TABLE ... ASSIGNING ...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_outdesc.htm).
 
 -   More specifically, the value of sy-subrc and sy-tabix is set as in the statement READ TABLE and
 
--   the addition [CASTING](javascript:call_link\('abapassign_casting.htm'\)) cannot be specified after an [inline declaration](javascript:call_link\('abenfield-symbol_inline.htm'\)) for the field symbol.
+-   the addition [CASTING](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapassign_casting.htm) cannot be specified after an [inline declaration](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfield-symbol_inline.htm) for the field symbol.
 
 Unlike READ TABLE, chainings can also be used to assign components of read lines or lines of nested internal tables.
 
--   The constructor operators VALUE and REF used to control the [result](javascript:call_link\('abentable_exp_result.htm'\)) of the table expression cannot be used here.
+-   The constructor operators VALUE and REF used to control the [result](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_exp_result.htm) of the table expression cannot be used here.
 
 -   If the specified line is not found, an exception is not raised, unlike in other uses of table expressions.
 
 Example
 
-This example works in the same way as the example for [READ TABLE ... ASSIGNING ...](javascript:call_link\('abapread_table_outdesc.htm'\)). Here, the READ statement is replaced by an ASSIGN statements and the required component is assigned directly.
+This example works in the same way as the example for [READ TABLE ... ASSIGNING ...](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapread_table_outdesc.htm). Here, the READ statement is replaced by an ASSIGN statements and the required component is assigned directly.
 
 DATA: carrid TYPE sflight-carrid,
       connid TYPE sflight-connid,

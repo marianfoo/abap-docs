@@ -4,21 +4,21 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Components related to keys and RAP BO instance identification](javascript:call_link\('abapderived_types_keys_id.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_rap_other.htm) →  [ABAP for RAP, BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_comp.htm) →  [Components related to keys and RAP BO instance identification](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_keys_id.htm) → 
 
 %cid
 
 Use
 
-%cid is a component of [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry"). It is a string to define a content ID. Content IDs are used as a unique and preliminary identifier for [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") instances, especially as long as no primary key exists for the particular instance. %cid is used in RAP create operations and then performing further, referencing modifications on them using [%cid\_ref](javascript:call_link\('abapderived_types_cid_ref.htm'\)), for example, RAP operations with [CREATE BY](javascript:call_link\('abapmodify_entity_entities_op.htm'\)), [UPDATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)) and [DELETE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)), as well as [actions](javascript:call_link\('abenbdl_action.htm'\)) with [EXECUTE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)), in a single ABAP EML [MODIFY](javascript:call_link\('abapmodify_entity_entities.htm'\)) request. Furthermore, %cid should be filled because it is relevant for the [RAP BO instance](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") identification in the RAP [response parameters](javascript:call_link\('abaptype_response_for.htm'\)) mapped, failed and reported.
+%cid is a component of [BDEF derived types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_derived_type_glosry.htm "Glossary Entry"). It is a string to define a content ID. Content IDs are used as a unique and preliminary identifier for [RAP BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm "Glossary Entry") instances, especially as long as no primary key exists for the particular instance. %cid is used in RAP create operations and then performing further, referencing modifications on them using [%cid\_ref](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_cid_ref.htm), for example, RAP operations with [CREATE BY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm), [UPDATE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm) and [DELETE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm), as well as [actions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm) with [EXECUTE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_op.htm), in a single ABAP EML [MODIFY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities.htm) request. Furthermore, %cid should be filled because it is relevant for the [RAP BO instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") identification in the RAP [response parameters](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_response_for.htm) mapped, failed and reported.
 
-%cid must be unique within one ABAP EML request and specified manually. The specified content ID is only valid within one ABAP EML request. The specification of %cid should be done even if there are no further operations referring to it. Especially in the context of [early numbering](javascript:call_link\('abenbdl_early_numb.htm'\)) and [late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\)) scenarios, %cid must be specified to avoid issues.
+%cid must be unique within one ABAP EML request and specified manually. The specified content ID is only valid within one ABAP EML request. The specification of %cid should be done even if there are no further operations referring to it. Especially in the context of [early numbering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_early_numb.htm) and [late numbering](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_late_numbering.htm) scenarios, %cid must be specified to avoid issues.
 
-In ABAP EML MODIFY statements, the addition [AUTO FILL CID](javascript:call_link\('abapmodify_entity_entities_fields.htm'\)) can be used to create %cid automatically to ensure that %cid is filled. However, if %cid\_ref is to be used, %cid must be specified manually since %cid\_ref cannot refer to an automatically created value.
+In ABAP EML MODIFY statements, the addition [AUTO FILL CID](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities_fields.htm) can be used to create %cid automatically to ensure that %cid is filled. However, if %cid\_ref is to be used, %cid must be specified manually since %cid\_ref cannot refer to an automatically created value.
 
 Further Information
 
-[Use of keys and RAP BO instance identifiers in a nutshell](javascript:call_link\('abapderived_types_keys_identifiers.htm'\))
+[Use of keys and RAP BO instance identifiers in a nutshell](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_keys_identifiers.htm)
 
 Type
 
@@ -26,22 +26,22 @@ The component has the following type: ABP\_BEHV\_CID.
 
 Where used
 
-This component can occur in the following type declarations of [TYPE TABLE FOR ...](javascript:call_link\('abaptype_table_for.htm'\)) and [TYPE STRUCTURE FOR ...](javascript:call_link\('abaptype_structure_for.htm'\)):
+This component can occur in the following type declarations of [TYPE TABLE FOR ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_table_for.htm) and [TYPE STRUCTURE FOR ...](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_structure_for.htm):
 
 -   CREATE
--   ACTION IMPORT ([static action](javascript:call_link\('abenbdl_action.htm'\)))
+-   ACTION IMPORT ([static action](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_action.htm))
 -   ACTION RESULT (static action)
--   FUNCTION IMPORT ([static function](javascript:call_link\('abenbdl_function.htm'\)))
+-   FUNCTION IMPORT ([static function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_function.htm))
 -   FUNCTION RESULT (static function)
 -   FAILED \[EARLY\]
 -   MAPPED \[EARLY\]
 -   REPORTED \[EARLY\]
 
-The component also occurs in the [%target](javascript:call_link\('abapderived_types_target.htm'\)) component.
+The component also occurs in the [%target](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapderived_types_target.htm) component.
 
 Hint
 
-Note the difference of using %cid with static actions and [factory actions](javascript:call_link\('abenrap_factory_action_glosry.htm'\) "Glossary Entry"). In factory actions (this also includes static factory actions), the use of %cid is as outlined above. In case of static actions, %cid assumes a different role. Here, %cid must be considered as an operation ID which can be referred to in RAP [responses](javascript:call_link\('abaptype_response_for.htm'\)).
+Note the difference of using %cid with static actions and [factory actions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_factory_action_glosry.htm "Glossary Entry"). In factory actions (this also includes static factory actions), the use of %cid is as outlined above. In case of static actions, %cid assumes a different role. Here, %cid must be considered as an operation ID which can be referred to in RAP [responses](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaptype_response_for.htm).
 
 Example
 
@@ -74,4 +74,4 @@ MODIFY ENTITY demo\_managed\_root\_4
 
 Executable Example
 
-The example [Using %cid / %cid\_ref](javascript:call_link\('abenderived_types_cid_cidref_abexa.htm'\)) demonstrates the use of %cid and %cid\_ref with a managed RAP BO.
+The example [Using %cid / %cid\_ref](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenderived_types_cid_cidref_abexa.htm) demonstrates the use of %cid and %cid\_ref with a managed RAP BO.

@@ -4,21 +4,29 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Creating Lists](javascript:call_link\('abenabap_lists.htm'\)) →  [WRITE](javascript:call_link\('abapwrite-.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_dynpro_list.htm) →  [Creating Lists](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_lists.htm) →  [WRITE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite-.htm) → 
 
 WRITE - Output Length
 
-When data is written using the statement WRITE, the output is saved to the [list buffer](javascript:call_link\('abenlist_buffer_glosry.htm'\) "Glossary Entry") and accessed from there for display when the list is called.
+When data is written using the statement WRITE, the output is saved to the [list buffer](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlist_buffer_glosry.htm "Glossary Entry") and accessed from there for display when the list is called.
 
--   [Predefined Output Lengths](#abenwrite-output-length-1--------numeric-data-types---@ITOC@@ABENWRITE_OUTPUT_LENGTH_2)
+-   [Predefined Output Lengths](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_1)
 
--   [Character-Like Data Types](#abenwrite-output-length-3--------byte-like-data-types---@ITOC@@ABENWRITE_OUTPUT_LENGTH_4)
+-   [Numeric Data Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_2)
 
--   [Enumerated Types](#abenwrite-output-length-5--------output-length-in-list-buffer---@ITOC@@ABENWRITE_OUTPUT_LENGTH_6)
+-   [Character-Like Data Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_3)
 
--   [Output Length in the List](#abenwrite-output-length-7--------class-for-calculating-output-lengths---@ITOC@@ABENWRITE_OUTPUT_LENGTH_8)
+-   [Byte-Like Data Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_4)
 
-Each time a data object is produced by a WRITE, an output length is defined, either implicitly (in accordance with the tables below), or [explicitly](javascript:call_link\('abapwrite-.htm'\)) (if len is specified after the addition AT). The output length defines the following:
+-   [Enumerated Types](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_5)
+
+-   [Output Length in List Buffer](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_6)
+
+-   [Output Length in the List](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_7)
+
+-   [Class for Calculating Output Lengths](#@@ITOC@@ABENWRITE_OUTPUT_LENGTH_8)
+
+Each time a data object is produced by a WRITE, an output length is defined, either implicitly (in accordance with the tables below), or [explicitly](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite-.htm) (if len is specified after the addition AT). The output length defines the following:
 
 -   The number of places (or memory space) available for characters in the list buffer
 
@@ -32,7 +40,7 @@ Notes
 
 -   With all data objects, except those of type string, and with text field literals, it is possible that fewer characters are displayed in the list than are saved in the list buffer when predefined output lengths are used. With data objects of data type string and text field literals it is assumed that all characters should be displayed. For this reason the implicit output length is calculated using the characters contained in the data object so that it corresponds to the number of columns needed in the list. Any blanks added in the list buffer are removed when the actual list is written.
 
--   For data objects whose data types are defined in reference to ABAP Dictionary, a different output length can be specified in the corresponding [domains](javascript:call_link\('abenddic_domains.htm'\)) or using the [predefined type](javascript:call_link\('abenddic_builtin_types.htm'\)). The output length specified here is used instead of the implicit output length from the table above.
+-   For data objects whose data types are defined in reference to ABAP Dictionary, a different output length can be specified in the corresponding [domains](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_domains.htm) or using the [predefined type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm). The output length specified here is used instead of the implicit output length from the table above.
 
 Numeric Data Types
 
@@ -108,7 +116,7 @@ The output lengths of text field literals is set in the same way as those of dat
 
 Notes
 
--   The predefined output lengths given in the table above for the types d and t are not sufficient to display the correct [separator](javascript:call_link\('abenwrite_formats.htm'\)).
+-   The predefined output lengths given in the table above for the types d and t are not sufficient to display the correct [separator](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwrite_formats.htm).
 
 -   For the data types SSTRING and STRING, it is not possible specify an output length in ABAP Dictionary and the lengths given in the table above always apply.
 
@@ -132,15 +140,15 @@ For the data type RAWSTRING, it is not possible specify an output length in ABAP
 
 Enumerated Types
 
-The output length of an [enumerated type](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry") is 30.
+The output length of an [enumerated type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_type_glosry.htm "Glossary Entry") is 30.
 
 Note
 
-In the list output, an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") is converted to the name of the [enumerated value](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry"), which can have a maximum of 30 characters.
+In the list output, an [enumerated object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_object_glosry.htm "Glossary Entry") is converted to the name of the [enumerated value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenenumerated_value_glosry.htm "Glossary Entry"), which can have a maximum of 30 characters.
 
 Output Length in List Buffer
 
-If the output length is shorter than the length of the data format specified for the data object or defined using [int\_format\_options](javascript:call_link\('abapwrite_to.htm'\)), the output is shortened in accordance with the [cutoff behavior](javascript:call_link\('abenwrite_cutoffs.htm'\)) described in [WRITE ... TO](javascript:call_link\('abapwrite_int_options.htm'\)).
+If the output length is shorter than the length of the data format specified for the data object or defined using [int\_format\_options](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_to.htm), the output is shortened in accordance with the [cutoff behavior](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwrite_cutoffs.htm) described in [WRITE ... TO](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapwrite_int_options.htm).
 
 If the output length is greater than the length of a predefined or user-defined format, this output length is filled in the list buffer and output is arranged there according to the predefined or user-defined alignment. Space that is not required is padded with blanks.
 

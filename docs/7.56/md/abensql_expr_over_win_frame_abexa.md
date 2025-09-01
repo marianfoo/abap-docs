@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_win](javascript:call_link\('abapselect_over.htm'\)) →  [sql\_win - Examples of Window Expressions](javascript:call_link\('abensql_expr_over_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_win](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_over.htm) →  [sql\_win - Examples of Window Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_over_abexas.htm) → 
 
 sql\_win - Window Frame Specification
 
-The example demonstrates how different [window functions](javascript:call_link\('abenwindow_function_glosry.htm'\) "Glossary Entry") are applied to frames inside a window.
+The example demonstrates how different [window functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwindow_function_glosry.htm "Glossary Entry") are applied to frames inside a window.
 
 Source Code
 
@@ -49,7 +49,7 @@ START-OF-SELECTION.
 
 Description
 
--   count sorts the rows by the column ID and counts the number of rows from the first row of the window to the current row. The result is the same as that returned by the [ROW\_NUMBER( )](javascript:call_link\('abensql_win_func.htm'\)) function.
+-   count sorts the rows by the column ID and counts the number of rows from the first row of the window to the current row. The result is the same as that returned by the [ROW\_NUMBER( )](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_win_func.htm) function.
 -   count\_reverse sorts the rows by the column ID and counts the number of rows from the current row to the last row of the window. The result is reverse numbering.
 -   average sorts the rows by the column ID and calculates the rolling averages of a subset of rows from column COL1. The subset consists of the current row plus one preceding and one following row. With this function, it is possible, for example, to calculate the 3-day-average temperature for every day from a list of temperature data.
 -   accumulate sorts the rows by the column ID and accumulates the values from the first row of the window up to the current row, thus computing the running total of column COL1.

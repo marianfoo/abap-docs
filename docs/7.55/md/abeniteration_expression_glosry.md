@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 iteration expression
 
-Expression that executes an [iteration](javascript:call_link\('abeniteration_glosry.htm'\) "Glossary Entry"). An iteration expression is a subexpression of a [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") introduced using the [iteration operator](javascript:call_link\('abeniteration_operator_glosry.htm'\) "Glossary Entry") [FOR](javascript:call_link\('abenfor.htm'\)) and executes [conditional iterations](javascript:call_link\('abenfor_conditional.htm'\)) or [table iterations](javascript:call_link\('abentable_iteration_glosry.htm'\) "Glossary Entry").
+Expression that executes an [iteration](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeniteration_glosry.htm "Glossary Entry"). An iteration expression is a subexpression of a [constructor expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") introduced using the [iteration operator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeniteration_operator_glosry.htm "Glossary Entry") [FOR](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor.htm) and executes [conditional iterations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor_conditional.htm) or [table iterations](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_iteration_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenfor.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfor.htm)

@@ -3,37 +3,7 @@
 Included pages: 14
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenddic_tuning_objects.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm)
-- [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm)
-- [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm)
-- [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm)
-- [abenddicddl_define_filter_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_filter_drul.htm)
-- [abenddicddl_define_join_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_join_drul.htm)
-- [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm)
-- [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm)
-- [abenddicddl_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_dynamic_cache.htm)
-
-**Bundle Contains**: 9 documentation pages
-**Version**: ABAP 7.58
-**Generated**: 2025-09-01T11:25:28.921Z
-
----
-
 ### abenddic_tuning_objects.htm
-
-> **📖 Official SAP Documentation**: [abenddic_tuning_objects.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_tuning_objects.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -41,34 +11,23 @@ Included pages: 14
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Tuning%20Objects%2C%20ABENDDIC_TUNING_OBJECTS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DDIC - Tuning Objects
 
-A [tuning object](javascript:call_link\('abentuning_object_glosry.htm'\) "Glossary Entry") is a [repository object](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") that defines technical settings or tunings for another repository object. A tuning object can be defined and transported separately from the repository object for which it is defined. ABAP Dictionary provides the following [HANA tuning objects](javascript:call_link\('abenhana_tuning_object_glosry.htm'\) "Glossary Entry") to define tunings for dictionary objects:
+A [tuning object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentuning_object_glosry.htm "Glossary Entry") is a [repository object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_object_glosry.htm "Glossary Entry") that defines technical settings or tunings for another repository object. A tuning object can be defined and transported separately from the repository object for which it is defined. ABAP Dictionary provides the following [HANA tuning objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_tuning_object_glosry.htm "Glossary Entry") to define tunings for dictionary objects:
 
--   [DDIC - Dependency Rules](javascript:call_link\('abenddic_dependency_rules.htm'\))
--   [DDIC - Dynamic Caches](javascript:call_link\('abenddic_dynamic_caches.htm'\))
+-   [DDIC - Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm)
+-   [DDIC - Dynamic Caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm)
 
 Continue
-[DDIC - Dependency Rules](javascript:call_link\('abenddic_dependency_rules.htm'\))
-[DDIC - Dynamic Caches](javascript:call_link\('abenddic_dynamic_caches.htm'\))
+[DDIC - Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm)
+[DDIC - Dynamic Caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm)
 
-
-
-**📖 Source**: [abenddic_tuning_objects.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm)
 
 ### abenddic_dependency_rules.htm
-
-> **📖 Official SAP Documentation**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -76,45 +35,34 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Dependency%20Rules%2C%20ABENDDIC_DEPENDENCY_RULES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DDIC - Dependency Rules
 
-A dependency rule is a [HANA tuning object](javascript:call_link\('abenhana_tuning_object_glosry.htm'\) "Glossary Entry") for which an instance is created on an [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"). A dependency rule is defined for one or more DDIC database tables. From a relational expression of a selection condition, it derives an additional condition for these DDIC database tables. The SAP HANA database optimizer evaluates this rule when the DDIC database tables are read. If possible, it creates the additional selection conditions and uses AND to join it with the other conditions.
+A dependency rule is a [HANA tuning object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_tuning_object_glosry.htm "Glossary Entry") for which an instance is created on an [SAP HANA database](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_database_glosry.htm "Glossary Entry"). A dependency rule is defined for one or more DDIC database tables. From a relational expression of a selection condition, it derives an additional condition for these DDIC database tables. The SAP HANA database optimizer evaluates this rule when the DDIC database tables are read. If possible, it creates the additional selection conditions and uses AND to join it with the other conditions.
 
 ABAP Dictionary dependency rules are defined using the
 
--   [Dictionary DDL for defining dependency rules](javascript:call_link\('abenddic_define_dependency_rule.htm'\))
+-   [Dictionary DDL for defining dependency rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm)
 
 Caution
 
-It cannot be guaranteed that the SAP HANA database evaluates a dependency rule correctly and creates the required additional selection condition. In queries with [common table expressions](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry"), alias names, and so on, it can occur that the optimizer does not detect the selection condition in question. For this reason, dependency rules must only be defined in ways that do not modify the result set and that are solely intended for internal optimization. When a DDIC database table is accessed by an application program, the result must always be the same, regardless of any dependency rules. This is the only way to avoid producing results that are dependent on the behavior of the optimizer.
+It cannot be guaranteed that the SAP HANA database evaluates a dependency rule correctly and creates the required additional selection condition. In queries with [common table expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencommon_table_expression_glosry.htm "Glossary Entry"), alias names, and so on, it can occur that the optimizer does not detect the selection condition in question. For this reason, dependency rules must only be defined in ways that do not modify the result set and that are solely intended for internal optimization. When a DDIC database table is accessed by an application program, the result must always be the same, regardless of any dependency rules. This is the only way to avoid producing results that are dependent on the behavior of the optimizer.
 
 Hints
 
 -   Dependency rules usually join semantic columns of a DDIC database table with technical columns of the same table. Semantic columns contain regular data and technical columns contain data used for internal database processes. ABAP programs should not access the data in technical columns in most cases. A dependency rule can be used to create additional selection conditions for technical columns from existing selection conditions for semantic columns. This modifies access to the table in a transparent way for the ABAP program.
--   One important application for dependency rules is the [optimization of access to deprecated data](javascript:call_link\('abenhana_data_aging_druls.htm'\)) in [DDIC database tables](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry") where [data aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry") is enabled. In this case, dependency rules join the [temperature column](javascript:call_link\('abentemperature_column_glosry.htm'\) "Glossary Entry") of a DDIC database table with regular date columns in the table.
--   In all SQL reads on DDIC database tables, the SAP HANA database optimizer evaluates their dependency rules. This is done regardless of the [access type](javascript:call_link\('abenabap_managed_db_objects_access.htm'\)) and covers access with ABAP SQL, AMDP, and Native SQL, plus access to views that have a DDIC database table as a data source. Dependency rules are not evaluated in reads not made using SQL (such as in calculation views).
+-   One important application for dependency rules is the [optimization of access to deprecated data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_data_aging_druls.htm) in [DDIC database tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry") where [data aging](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_aging_glosry.htm "Glossary Entry") is enabled. In this case, dependency rules join the [temperature column](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentemperature_column_glosry.htm "Glossary Entry") of a DDIC database table with regular date columns in the table.
+-   In all SQL reads on DDIC database tables, the SAP HANA database optimizer evaluates their dependency rules. This is done regardless of the [access type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_managed_db_objects_access.htm) and covers access with ABAP SQL, AMDP, and Native SQL, plus access to views that have a DDIC database table as a data source. Dependency rules are not evaluated in reads not made using SQL (such as in calculation views).
 -   Partners and customers cannot currently define their own dependency rules.
 
 Continue
-[DDIC - Dictionary DDL for Defining Dependency Rules](javascript:call_link\('abenddic_define_dependency_rule.htm'\))
+[DDIC - Dictionary DDL for Defining Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm)
 
-
-
-**📖 Source**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm)
 
 ### abenddic_define_dependency_rule.htm
-
-> **📖 Official SAP Documentation**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -122,38 +70,27 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) →  [DDIC - Dependency Rules](javascript:call_link\('abenddic_dependency_rules.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) →  [DDIC - Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Dictionary%20DDL%20for%20Defining%20Dependency%20Rules%2C%20ABENDDIC_DEFINE_DEPENDENCY_RULE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugg
 estion%20for%20improvement:)
 
 DDIC - Dictionary DDL for Defining Dependency Rules
 
-An ABAP Dictionary [dependency rule](javascript:call_link\('abendependency_rule_glosry.htm'\) "Glossary Entry") is defined as a source-code-based rule in the [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry"). A dependency rule is defined in a separate piece of [DRUL source code](javascript:call_link\('abendrul_source_code_glosry.htm'\) "Glossary Entry") and is saved and transported with this code. One piece of DRUL source code for dependency rules can define exactly one dependency rule with the following Dictionary DDL statement:
+An ABAP Dictionary [dependency rule](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendependency_rule_glosry.htm "Glossary Entry") is defined as a source-code-based rule in the [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry") [Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry"). A dependency rule is defined in a separate piece of [DRUL source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendrul_source_code_glosry.htm "Glossary Entry") and is saved and transported with this code. One piece of DRUL source code for dependency rules can define exactly one dependency rule with the following Dictionary DDL statement:
 
--   [DEFINE DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_drul.htm'\))
+-   [DEFINE DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm)
 
 Hints
 
--   The [DRUL source code](javascript:call_link\('abendrul_source_code_glosry.htm'\) "Glossary Entry") of dependency rules has its own editor in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), which is documented there. DRUL source code can also be displayed in [Repository Browser](javascript:call_link\('abenrepository_browser_glosry.htm'\) "Glossary Entry") in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry").
+-   The [DRUL source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendrul_source_code_glosry.htm "Glossary Entry") of dependency rules has its own editor in [ADT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry"), which is documented there. DRUL source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
 -   Partners and customers cannot currently define their own dependency rules.
 
 Continue
-[DDIC DDL - DEFINE DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_drul.htm'\))
+[DDIC DDL - DEFINE DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm)
 
-
-
-**📖 Source**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm)
 
 ### abenddicddl_define_drul.htm
-
-> **📖 Official SAP Documentation**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -161,7 +98,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) →  [DDIC - Dependency Rules](javascript:call_link\('abenddic_dependency_rules.htm'\)) →  [DDIC - Dictionary DDL for Defining Dependency Rules](javascript:call_link\('abenddic_define_dependency_rule.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) →  [DDIC - Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm) →  [DDIC - Dictionary DDL for Defining Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20DDL%20-%20DEFINE%20DEPENDENCY%20RULE%2C%20ABENDDICDDL_DEFINE_DRUL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -169,26 +106,26 @@ DDIC DDL - DEFINE DEPENDENCY RULE
 
 Syntax
 
-DEFINE [FILTER](javascript:call_link\('abenddicddl_define_filter_drul.htm'\))*|* [JOIN](javascript:call_link\('abenddicddl_define_join_drul.htm'\)) DEPENDENCY RULE drul
+DEFINE [FILTER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_filter_drul.htm)*|* [JOIN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_join_drul.htm) DEPENDENCY RULE drul
   ON dbtab *\[*, ...*\]*
     IF { cond\_pattern }
       THEN { derived\_cond }
 
 Effect
 
-[Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") statement used to define a [dependency rule](javascript:call_link\('abendependency_rule_glosry.htm'\) "Glossary Entry"). The statement has two variants:
+[Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") statement used to define a [dependency rule](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendependency_rule_glosry.htm "Glossary Entry"). The statement has two variants:
 
--   [DEFINE FILTER DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_filter_drul.htm'\)) for filter dependency rules.
--   [DEFINE JOIN DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_join_drul.htm'\)) for join dependency rules.
+-   [DEFINE FILTER DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_filter_drul.htm) for filter dependency rules.
+-   [DEFINE JOIN DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_join_drul.htm) for join dependency rules.
 
-The name drul of a dependency rule must comply with the [naming conventions for data types](javascript:call_link\('abenddic_types_names.htm'\)) and can have a maximum of 30 characters. The name is in the namespace of the [DDIC data types](javascript:call_link\('abenddic_data_types.htm'\)) and must match the name of the [DRUL source code](javascript:call_link\('abendrul_source_code_glosry.htm'\) "Glossary Entry").
+The name drul of a dependency rule must comply with the [naming conventions for data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_types_names.htm) and can have a maximum of 30 characters. The name is in the namespace of the [DDIC data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_types.htm) and must match the name of the [DRUL source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendrul_source_code_glosry.htm "Glossary Entry").
 
 After ON, the name(s) dbtab of DDIC database table(s) for which the dependency rule is defined are specified:
 
 -   In the case of filter dependency rules, exactly one DDIC database table must be specified.
 -   In the case of join dependency rules, exactly two comma-separated DDIC database tables must be specified.
 
-cond\_pattern is used to specify a pattern for a relational expression after IF. In the case of reads made on the database table dbtab, the SAP HANA database optimizer searches for this pattern in the associated WHERE condition or ON condition. If the pattern is found, the optimizer uses AND to add the condition derived\_cond specified after THEN to the corresponding WHERE condition or ON condition. The potential conditions are specified in the same way as in the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") or [CDS DCL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") syntax and are described in the filter and join dependency rules.
+cond\_pattern is used to specify a pattern for a relational expression after IF. In the case of reads made on the database table dbtab, the SAP HANA database optimizer searches for this pattern in the associated WHERE condition or ON condition. If the pattern is found, the optimizer uses AND to add the condition derived\_cond specified after THEN to the corresponding WHERE condition or ON condition. The potential conditions are specified in the same way as in the [CDS DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm "Glossary Entry") or [CDS DCL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm "Glossary Entry") syntax and are described in the filter and join dependency rules.
 
 Caution
 
@@ -196,29 +133,18 @@ It cannot be guaranteed that the SAP HANA database optimizer finds the pattern c
 
 Hints
 
--   The derived condition derived\_cond from a pattern cond\_pattern usually defines a dependency between semantic and technical columns of a DDIC database table. When an application accesses a table with a specific selection condition for semantic columns, an additional condition for technical columns is created implicitly. In the [optimization of access to deprecated data](javascript:call_link\('abenhana_data_aging_druls.htm'\)), regular date columns are the semantic columns and the [temperature column](javascript:call_link\('abentemperature_column_glosry.htm'\) "Glossary Entry") is the technical column.
+-   The derived condition derived\_cond from a pattern cond\_pattern usually defines a dependency between semantic and technical columns of a DDIC database table. When an application accesses a table with a specific selection condition for semantic columns, an additional condition for technical columns is created implicitly. In the [optimization of access to deprecated data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_data_aging_druls.htm), regular date columns are the semantic columns and the [temperature column](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentemperature_column_glosry.htm "Glossary Entry") is the technical column.
 -   If multiple dependency rules are defined for a DDIC database table, AND is used to join all additional conditions and append them to the original condition.
 -   Dependency rules can be defined for DDIC database tables only; they cannot be defined for DDIC views. The SAP HANA database optimizer evaluates all SQL accesses on DDIC database tables, including accesses with ABAP SQL, AMDP, and Native SQL, plus all accesses made on views that contain the DDIC database table as a data source.
 -   Dependency rules are not evaluated when a DDIC database table is accessed with a method other than ABAP SQL, such as in calculation views.
 -   Partners and customers cannot currently define their own dependency rules.
 
 Continue
-[DDIC DDL - DEFINE FILTER DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_filter_drul.htm'\))
-[DDIC DDL - DEFINE JOIN DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_join_drul.htm'\))
+[DDIC DDL - DEFINE FILTER DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_filter_drul.htm)
+[DDIC DDL - DEFINE JOIN DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_join_drul.htm)
 
-
-
-**📖 Source**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm)
 
 ### abenddicddl_define_filter_drul.htm
-
-> **📖 Official SAP Documentation**: [abenddicddl_define_filter_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_filter_drul.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddicddl_define_filter_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_filter_drul.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -226,7 +152,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) →  [DDIC - Dependency Rules](javascript:call_link\('abenddic_dependency_rules.htm'\)) →  [DDIC - Dictionary DDL for Defining Dependency Rules](javascript:call_link\('abenddic_define_dependency_rule.htm'\)) →  [DDIC DDL - DEFINE DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_drul.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) →  [DDIC - Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm) →  [DDIC - Dictionary DDL for Defining Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm) →  [DDIC DDL - DEFINE DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20DDL%20-%20DEFINE%20FILTER%20DEPENDENCY%20RULE%2C%20ABENDDICDDL_DEFINE_FILTER_DRUL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%2
 0improvement:)
@@ -242,7 +168,7 @@ DEFINE FILTER DEPENDENCY RULE drul
 
 Effect
 
-Variant of the [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") statement [DEFINE DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_drul.htm'\)) used to define a filter [dependency rule](javascript:call_link\('abendependency_rule_glosry.htm'\) "Glossary Entry"). A filter dependency rule can be defined for exactly one DDIC database table dbtab. It derives an additional filter condition derived\_cond from the pattern cond\_pattern. When the DDIC database table is read, the SAP HANA database optimizer finds the pattern in the WHERE condition and, if necessary, adds the additional filter condition AND to this condition.
+Variant of the [Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") statement [DEFINE DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm) used to define a filter [dependency rule](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendependency_rule_glosry.htm "Glossary Entry"). A filter dependency rule can be defined for exactly one DDIC database table dbtab. It derives an additional filter condition derived\_cond from the pattern cond\_pattern. When the DDIC database table is read, the SAP HANA database optimizer finds the pattern in the WHERE condition and, if necessary, adds the additional filter condition AND to this condition.
 
 cond\_pattern
 
@@ -256,7 +182,7 @@ It is not possible to join multiple expressions using AND or OR or to negate the
     -   dbtab.column for a column column of the DDIC database table dbtab.
 -   The following can be specified as the right side rhs of the comparison:
     -   dbtab.column for a column column of the DDIC database table dbtab.
-    -   An untyped character literal or an untyped numeric literal. This syntax is the same as in [untyped literals in ABAP CDS](javascript:call_link\('abencds_untyped_literal_v2.htm'\)).
+    -   An untyped character literal or an untyped numeric literal. This syntax is the same as in [untyped literals in ABAP CDS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_untyped_literal_v2.htm).
     -   A numbered placeholder $1, $2, ...
 
 derived\_cond
@@ -271,15 +197,15 @@ Single comparisons can be placed in parentheses ( ). Negations using NOT are not
     -   dbtab.column for the column column of the database table dbtab.
 -   The following can be specified as the right side rhs of a comparison:
     -   dbtab.column for the column column of the database table dbtab.
-    -   An untyped character literal or an untyped numeric literal. This syntax is the same as in [untyped literals in ABAP CDS](javascript:call_link\('abencds_untyped_literal_v2.htm'\)).
+    -   An untyped character literal or an untyped numeric literal. This syntax is the same as in [untyped literals in ABAP CDS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_untyped_literal_v2.htm).
     -   A numbered placeholder $1, $2, ..., which must also be specified in cond\_pattern. When the condition is added, the operand for the condition is inserted into this placeholder. The same placeholder for the same operand value must exist in the pattern cond\_pattern.
-    -   [Built-in functions in ABAP Dictionary](javascript:call_link\('abenddic_builtin_functions.htm'\)) in [ABAP CDS](javascript:call_link\('abencds_builtin_functions_v2.htm'\)) syntax.
-    -   [Simple case distinctions](javascript:call_link\('abencds_simple_case_expression_v2.htm'\)) in ABAP CDS syntax.
+    -   [Built-in functions in ABAP Dictionary](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_functions.htm) in [ABAP CDS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_builtin_functions_v2.htm) syntax.
+    -   [Simple case distinctions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_case_expression_v2.htm) in ABAP CDS syntax.
 
 Hints
 
 -   It cannot be guaranteed that the SAP HANA database optimizer finds the pattern cond\_pattern. This is why the additional condition derived\_cond must not modify the result set of the original query. It is technically possible to modify the result set with a dependency rule, but produces undefined behavior in cases where the SAP HANA database optimizer finds the pattern cond\_pattern in some reads but not in others.
--   The additional condition for a query can be viewed in the [SQL Trace](javascript:call_link\('abensql_trace_glosry.htm'\) "Glossary Entry") tool (transaction ST05) by choosing Display Execution Plan.
+-   The additional condition for a query can be viewed in the [SQL Trace](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_trace_glosry.htm "Glossary Entry") tool (transaction ST05) by choosing Display Execution Plan.
 
 Example
 
@@ -319,7 +245,7 @@ WHERE value > @num AND area = @num.
 
 This restricts the result set to those rows in which the column AREA also has the value of num. This restriction does not apply when DEMO\_PARTS is accessed.
 
-If the first SELECT statement is transformed into a [WITH](javascript:call_link\('abapwith.htm'\)) statement or if alias names are used, for example, the optimizer may not find the pattern and may not add an additional condition. Therefore, the result of this example is dependent on the behavior of the optimizer, which should never occur in production programs.
+If the first SELECT statement is transformed into a [WITH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwith.htm) statement or if alias names are used, for example, the optimizer may not find the pattern and may not add an additional condition. Therefore, the result of this example is dependent on the behavior of the optimizer, which should never occur in production programs.
 
 Example
 
@@ -349,18 +275,7 @@ ASSERT result1 = result2.
 If the data in the DDIC database table is structured so that in rows where the column VALUE contains values greater than or equal to 30 and the values in the column AREA are greater than or equal to 3, the result sets of both reads are identical. To derive an additional condition with a dependency on the condition value < 40, a further filter dependency rule could be defined for the same DDIC database table.
 
 
-
-**📖 Source**: [abenddicddl_define_filter_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_filter_drul.htm)
-
 ### abenddicddl_define_join_drul.htm
-
-> **📖 Official SAP Documentation**: [abenddicddl_define_join_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_join_drul.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddicddl_define_join_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_join_drul.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -368,7 +283,7 @@ If the data in the DDIC database table is structured so that in rows where the c
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) →  [DDIC - Dependency Rules](javascript:call_link\('abenddic_dependency_rules.htm'\)) →  [DDIC - Dictionary DDL for Defining Dependency Rules](javascript:call_link\('abenddic_define_dependency_rule.htm'\)) →  [DDIC DDL - DEFINE DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_drul.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) →  [DDIC - Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm) →  [DDIC - Dictionary DDL for Defining Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm) →  [DDIC DDL - DEFINE DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20DDL%20-%20DEFINE%20JOIN%20DEPENDENCY%20RULE%2C%20ABENDDICDDL_DEFINE_JOIN_DRUL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20imp
 rovement:)
@@ -384,7 +299,7 @@ DEFINE JOIN DEPENDENCY RULE drul
 
 Effect
 
-Variant of the [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") statement [DEFINE DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_drul.htm'\)) used to define a join [dependency rule](javascript:call_link\('abendependency_rule_glosry.htm'\) "Glossary Entry"). A join dependency rule can be defined for exactly two database tables dbtab1 and dbtab2, separated by a comma. It derives an additional join condition derived\_cond from the pattern cond\_pattern. When two DDIC database tables joined by a join expression are read, the SAP HANA database optimizer finds the pattern in the ON condition of the expression and, if necessary, adds the additional join condition AND to this condition. If any further additional conditions are defined by [filter dependency rules](javascript:call_link\('abenddicddl_define_filter_drul.htm'\)) for one of the two database tables, these rules are also applied to the other DDIC database table, if they apply to the columns specified in the join condition.
+Variant of the [Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") statement [DEFINE DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm) used to define a join [dependency rule](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendependency_rule_glosry.htm "Glossary Entry"). A join dependency rule can be defined for exactly two database tables dbtab1 and dbtab2, separated by a comma. It derives an additional join condition derived\_cond from the pattern cond\_pattern. When two DDIC database tables joined by a join expression are read, the SAP HANA database optimizer finds the pattern in the ON condition of the expression and, if necessary, adds the additional join condition AND to this condition. If any further additional conditions are defined by [filter dependency rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_filter_drul.htm) for one of the two database tables, these rules are also applied to the other DDIC database table, if they apply to the columns specified in the join condition.
 
 cond\_pattern
 
@@ -398,7 +313,7 @@ Comparisons with the operator \= joined using AND are possible. Joins using OR o
     -   dbtab1.column or dbtab2.column for a column column of the DDIC database tables dbtab1 or dbtab2.
 -   The following can be specified as the right side rhs of the comparison:
     -   dbtab1.column or dbtab2.column for a column column of the DDIC database tables dbtab1 or dbtab2.
-    -   An untyped character literal or an untyped numeric literal. This syntax is the same as in [untyped literals in ABAP CDS](javascript:call_link\('abencds_untyped_literal_v2.htm'\)).
+    -   An untyped character literal or an untyped numeric literal. This syntax is the same as in [untyped literals in ABAP CDS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_untyped_literal_v2.htm).
     -   A numbered placeholder $1, $2, ...
 
 derived\_cond
@@ -413,15 +328,15 @@ Single comparisons can be placed in parentheses ( ). Negations using NOT are not
     -   dbtab1.column or dbtab2.column for a column column of the database table dbtab1 or dbtab2.
 -   The following can be specified as the right side rhs of a comparison:
     -   dbtab1.column or dbtab2.column for a column column of the database table dbtab1 or dbtab2.
-    -   An untyped character literal or an untyped numeric literal. This syntax is the same as in [untyped literals in ABAP CDS](javascript:call_link\('abencds_untyped_literal_v2.htm'\)).
+    -   An untyped character literal or an untyped numeric literal. This syntax is the same as in [untyped literals in ABAP CDS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_untyped_literal_v2.htm).
     -   A numbered placeholder $1, $2, ..., which must also be specified in cond\_pattern. When the condition is added, the operand for the condition is inserted into this placeholder. The same placeholder for the same operand value must exist in the pattern cond\_pattern.
-    -   [Built-in functions in ABAP Dictionary](javascript:call_link\('abenddic_builtin_functions.htm'\)) in [ABAP CDS](javascript:call_link\('abencds_builtin_functions_v2.htm'\)) syntax.
-    -   [Simple case distinctions](javascript:call_link\('abencds_simple_case_expression_v2.htm'\)) in ABAP CDS syntax.
+    -   [Built-in functions in ABAP Dictionary](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_functions.htm) in [ABAP CDS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_builtin_functions_v2.htm) syntax.
+    -   [Simple case distinctions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_simple_case_expression_v2.htm) in ABAP CDS syntax.
 
 Hints
 
 -   It cannot be guaranteed that the SAP HANA database optimizer finds the pattern cond\_pattern. This is why the additional condition derived\_cond must not modify the result set of the original query. It is technically possible to modify the result set with a dependency rule, but should be avoided since it produces undefined behavior in cases where the SAP HANA database optimizer finds the pattern cond\_pattern in some reads but not in others.
--   The additional condition for a query can be viewed in the [SQL Trace](javascript:call_link\('abensql_trace_glosry.htm'\) "Glossary Entry") tool (transaction ST05) by choosing Display Execution Plan.
+-   The additional condition for a query can be viewed in the [SQL Trace](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensql_trace_glosry.htm "Glossary Entry") tool (transaction ST05) by choosing Display Execution Plan.
 
 Example
 
@@ -468,18 +383,7 @@ AND demo\_parts\_4~area <  4
 If the data in the DDIC database tables is structured correctly, the dependency rules do not modify the result set.
 
 
-
-**📖 Source**: [abenddicddl_define_join_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_join_drul.htm)
-
 ### abenddicddl_define_drul.htm
-
-> **📖 Official SAP Documentation**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -487,7 +391,7 @@ If the data in the DDIC database tables is structured correctly, the dependency 
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) →  [DDIC - Dependency Rules](javascript:call_link\('abenddic_dependency_rules.htm'\)) →  [DDIC - Dictionary DDL for Defining Dependency Rules](javascript:call_link\('abenddic_define_dependency_rule.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) →  [DDIC - Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm) →  [DDIC - Dictionary DDL for Defining Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20DDL%20-%20DEFINE%20DEPENDENCY%20RULE%2C%20ABENDDICDDL_DEFINE_DRUL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -495,26 +399,26 @@ DDIC DDL - DEFINE DEPENDENCY RULE
 
 Syntax
 
-DEFINE [FILTER](javascript:call_link\('abenddicddl_define_filter_drul.htm'\))*|* [JOIN](javascript:call_link\('abenddicddl_define_join_drul.htm'\)) DEPENDENCY RULE drul
+DEFINE [FILTER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_filter_drul.htm)*|* [JOIN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_join_drul.htm) DEPENDENCY RULE drul
   ON dbtab *\[*, ...*\]*
     IF { cond\_pattern }
       THEN { derived\_cond }
 
 Effect
 
-[Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") statement used to define a [dependency rule](javascript:call_link\('abendependency_rule_glosry.htm'\) "Glossary Entry"). The statement has two variants:
+[Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") statement used to define a [dependency rule](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendependency_rule_glosry.htm "Glossary Entry"). The statement has two variants:
 
--   [DEFINE FILTER DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_filter_drul.htm'\)) for filter dependency rules.
--   [DEFINE JOIN DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_join_drul.htm'\)) for join dependency rules.
+-   [DEFINE FILTER DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_filter_drul.htm) for filter dependency rules.
+-   [DEFINE JOIN DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_join_drul.htm) for join dependency rules.
 
-The name drul of a dependency rule must comply with the [naming conventions for data types](javascript:call_link\('abenddic_types_names.htm'\)) and can have a maximum of 30 characters. The name is in the namespace of the [DDIC data types](javascript:call_link\('abenddic_data_types.htm'\)) and must match the name of the [DRUL source code](javascript:call_link\('abendrul_source_code_glosry.htm'\) "Glossary Entry").
+The name drul of a dependency rule must comply with the [naming conventions for data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_types_names.htm) and can have a maximum of 30 characters. The name is in the namespace of the [DDIC data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_types.htm) and must match the name of the [DRUL source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendrul_source_code_glosry.htm "Glossary Entry").
 
 After ON, the name(s) dbtab of DDIC database table(s) for which the dependency rule is defined are specified:
 
 -   In the case of filter dependency rules, exactly one DDIC database table must be specified.
 -   In the case of join dependency rules, exactly two comma-separated DDIC database tables must be specified.
 
-cond\_pattern is used to specify a pattern for a relational expression after IF. In the case of reads made on the database table dbtab, the SAP HANA database optimizer searches for this pattern in the associated WHERE condition or ON condition. If the pattern is found, the optimizer uses AND to add the condition derived\_cond specified after THEN to the corresponding WHERE condition or ON condition. The potential conditions are specified in the same way as in the [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") or [CDS DCL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") syntax and are described in the filter and join dependency rules.
+cond\_pattern is used to specify a pattern for a relational expression after IF. In the case of reads made on the database table dbtab, the SAP HANA database optimizer searches for this pattern in the associated WHERE condition or ON condition. If the pattern is found, the optimizer uses AND to add the condition derived\_cond specified after THEN to the corresponding WHERE condition or ON condition. The potential conditions are specified in the same way as in the [CDS DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm "Glossary Entry") or [CDS DCL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_ddl_glosry.htm "Glossary Entry") syntax and are described in the filter and join dependency rules.
 
 Caution
 
@@ -522,29 +426,18 @@ It cannot be guaranteed that the SAP HANA database optimizer finds the pattern c
 
 Hints
 
--   The derived condition derived\_cond from a pattern cond\_pattern usually defines a dependency between semantic and technical columns of a DDIC database table. When an application accesses a table with a specific selection condition for semantic columns, an additional condition for technical columns is created implicitly. In the [optimization of access to deprecated data](javascript:call_link\('abenhana_data_aging_druls.htm'\)), regular date columns are the semantic columns and the [temperature column](javascript:call_link\('abentemperature_column_glosry.htm'\) "Glossary Entry") is the technical column.
+-   The derived condition derived\_cond from a pattern cond\_pattern usually defines a dependency between semantic and technical columns of a DDIC database table. When an application accesses a table with a specific selection condition for semantic columns, an additional condition for technical columns is created implicitly. In the [optimization of access to deprecated data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_data_aging_druls.htm), regular date columns are the semantic columns and the [temperature column](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentemperature_column_glosry.htm "Glossary Entry") is the technical column.
 -   If multiple dependency rules are defined for a DDIC database table, AND is used to join all additional conditions and append them to the original condition.
 -   Dependency rules can be defined for DDIC database tables only; they cannot be defined for DDIC views. The SAP HANA database optimizer evaluates all SQL accesses on DDIC database tables, including accesses with ABAP SQL, AMDP, and Native SQL, plus all accesses made on views that contain the DDIC database table as a data source.
 -   Dependency rules are not evaluated when a DDIC database table is accessed with a method other than ABAP SQL, such as in calculation views.
 -   Partners and customers cannot currently define their own dependency rules.
 
 Continue
-[DDIC DDL - DEFINE FILTER DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_filter_drul.htm'\))
-[DDIC DDL - DEFINE JOIN DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_join_drul.htm'\))
+[DDIC DDL - DEFINE FILTER DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_filter_drul.htm)
+[DDIC DDL - DEFINE JOIN DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_join_drul.htm)
 
-
-
-**📖 Source**: [abenddicddl_define_drul.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm)
 
 ### abenddic_define_dependency_rule.htm
-
-> **📖 Official SAP Documentation**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -552,38 +445,27 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) →  [DDIC - Dependency Rules](javascript:call_link\('abenddic_dependency_rules.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) →  [DDIC - Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Dictionary%20DDL%20for%20Defining%20Dependency%20Rules%2C%20ABENDDIC_DEFINE_DEPENDENCY_RULE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugg
 estion%20for%20improvement:)
 
 DDIC - Dictionary DDL for Defining Dependency Rules
 
-An ABAP Dictionary [dependency rule](javascript:call_link\('abendependency_rule_glosry.htm'\) "Glossary Entry") is defined as a source-code-based rule in the [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry"). A dependency rule is defined in a separate piece of [DRUL source code](javascript:call_link\('abendrul_source_code_glosry.htm'\) "Glossary Entry") and is saved and transported with this code. One piece of DRUL source code for dependency rules can define exactly one dependency rule with the following Dictionary DDL statement:
+An ABAP Dictionary [dependency rule](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendependency_rule_glosry.htm "Glossary Entry") is defined as a source-code-based rule in the [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry") [Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry"). A dependency rule is defined in a separate piece of [DRUL source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendrul_source_code_glosry.htm "Glossary Entry") and is saved and transported with this code. One piece of DRUL source code for dependency rules can define exactly one dependency rule with the following Dictionary DDL statement:
 
--   [DEFINE DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_drul.htm'\))
+-   [DEFINE DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm)
 
 Hints
 
--   The [DRUL source code](javascript:call_link\('abendrul_source_code_glosry.htm'\) "Glossary Entry") of dependency rules has its own editor in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), which is documented there. DRUL source code can also be displayed in [Repository Browser](javascript:call_link\('abenrepository_browser_glosry.htm'\) "Glossary Entry") in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry").
+-   The [DRUL source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendrul_source_code_glosry.htm "Glossary Entry") of dependency rules has its own editor in [ADT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry"), which is documented there. DRUL source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
 -   Partners and customers cannot currently define their own dependency rules.
 
 Continue
-[DDIC DDL - DEFINE DEPENDENCY RULE](javascript:call_link\('abenddicddl_define_drul.htm'\))
+[DDIC DDL - DEFINE DEPENDENCY RULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_drul.htm)
 
-
-
-**📖 Source**: [abenddic_define_dependency_rule.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm)
 
 ### abenddic_dependency_rules.htm
-
-> **📖 Official SAP Documentation**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -591,45 +473,34 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Dependency%20Rules%2C%20ABENDDIC_DEPENDENCY_RULES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DDIC - Dependency Rules
 
-A dependency rule is a [HANA tuning object](javascript:call_link\('abenhana_tuning_object_glosry.htm'\) "Glossary Entry") for which an instance is created on an [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry"). A dependency rule is defined for one or more DDIC database tables. From a relational expression of a selection condition, it derives an additional condition for these DDIC database tables. The SAP HANA database optimizer evaluates this rule when the DDIC database tables are read. If possible, it creates the additional selection conditions and uses AND to join it with the other conditions.
+A dependency rule is a [HANA tuning object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_tuning_object_glosry.htm "Glossary Entry") for which an instance is created on an [SAP HANA database](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_database_glosry.htm "Glossary Entry"). A dependency rule is defined for one or more DDIC database tables. From a relational expression of a selection condition, it derives an additional condition for these DDIC database tables. The SAP HANA database optimizer evaluates this rule when the DDIC database tables are read. If possible, it creates the additional selection conditions and uses AND to join it with the other conditions.
 
 ABAP Dictionary dependency rules are defined using the
 
--   [Dictionary DDL for defining dependency rules](javascript:call_link\('abenddic_define_dependency_rule.htm'\))
+-   [Dictionary DDL for defining dependency rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm)
 
 Caution
 
-It cannot be guaranteed that the SAP HANA database evaluates a dependency rule correctly and creates the required additional selection condition. In queries with [common table expressions](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry"), alias names, and so on, it can occur that the optimizer does not detect the selection condition in question. For this reason, dependency rules must only be defined in ways that do not modify the result set and that are solely intended for internal optimization. When a DDIC database table is accessed by an application program, the result must always be the same, regardless of any dependency rules. This is the only way to avoid producing results that are dependent on the behavior of the optimizer.
+It cannot be guaranteed that the SAP HANA database evaluates a dependency rule correctly and creates the required additional selection condition. In queries with [common table expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencommon_table_expression_glosry.htm "Glossary Entry"), alias names, and so on, it can occur that the optimizer does not detect the selection condition in question. For this reason, dependency rules must only be defined in ways that do not modify the result set and that are solely intended for internal optimization. When a DDIC database table is accessed by an application program, the result must always be the same, regardless of any dependency rules. This is the only way to avoid producing results that are dependent on the behavior of the optimizer.
 
 Hints
 
 -   Dependency rules usually join semantic columns of a DDIC database table with technical columns of the same table. Semantic columns contain regular data and technical columns contain data used for internal database processes. ABAP programs should not access the data in technical columns in most cases. A dependency rule can be used to create additional selection conditions for technical columns from existing selection conditions for semantic columns. This modifies access to the table in a transparent way for the ABAP program.
--   One important application for dependency rules is the [optimization of access to deprecated data](javascript:call_link\('abenhana_data_aging_druls.htm'\)) in [DDIC database tables](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry") where [data aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry") is enabled. In this case, dependency rules join the [temperature column](javascript:call_link\('abentemperature_column_glosry.htm'\) "Glossary Entry") of a DDIC database table with regular date columns in the table.
--   In all SQL reads on DDIC database tables, the SAP HANA database optimizer evaluates their dependency rules. This is done regardless of the [access type](javascript:call_link\('abenabap_managed_db_objects_access.htm'\)) and covers access with ABAP SQL, AMDP, and Native SQL, plus access to views that have a DDIC database table as a data source. Dependency rules are not evaluated in reads not made using SQL (such as in calculation views).
+-   One important application for dependency rules is the [optimization of access to deprecated data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_data_aging_druls.htm) in [DDIC database tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry") where [data aging](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_aging_glosry.htm "Glossary Entry") is enabled. In this case, dependency rules join the [temperature column](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentemperature_column_glosry.htm "Glossary Entry") of a DDIC database table with regular date columns in the table.
+-   In all SQL reads on DDIC database tables, the SAP HANA database optimizer evaluates their dependency rules. This is done regardless of the [access type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_managed_db_objects_access.htm) and covers access with ABAP SQL, AMDP, and Native SQL, plus access to views that have a DDIC database table as a data source. Dependency rules are not evaluated in reads not made using SQL (such as in calculation views).
 -   Partners and customers cannot currently define their own dependency rules.
 
 Continue
-[DDIC - Dictionary DDL for Defining Dependency Rules](javascript:call_link\('abenddic_define_dependency_rule.htm'\))
+[DDIC - Dictionary DDL for Defining Dependency Rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dependency_rule.htm)
 
-
-
-**📖 Source**: [abenddic_dependency_rules.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dependency_rules.htm)
 
 ### abenddic_dynamic_caches.htm
-
-> **📖 Official SAP Documentation**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -637,17 +508,17 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Dynamic%20Caches%2C%20ABENDDIC_DYNAMIC_CACHES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DDIC - Dynamic Caches
 
-A [dynamic cache](javascript:call_link\('abendynamic_cache_glosry.htm'\) "Glossary Entry") is a [HANA tuning object](javascript:call_link\('abenhana_tuning_object_glosry.htm'\) "Glossary Entry") that serves as an interface between [dynamic result caches](https://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/bc12a173118548e9be8b69f1d62dfae1) in SAP HANA and DDIC views. A dynamic cache is defined for a DDIC database table. It defines a restricted subquery on the database table with the goal to cache read results of the table in question to avoid repeated aggregation. This optimizes the performance in certain use cases. At the same time, a dynamic caches guarantees up-to-date data. Each time the cached database table is updated with INSERT, the cached data is updated automatically.
+A [dynamic cache](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_cache_glosry.htm "Glossary Entry") is a [HANA tuning object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_tuning_object_glosry.htm "Glossary Entry") that serves as an interface between [dynamic result caches](https://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/bc12a173118548e9be8b69f1d62dfae1) in SAP HANA and DDIC views. A dynamic cache is defined for a DDIC database table. It defines a restricted subquery on the database table with the goal to cache read results of the table in question to avoid repeated aggregation. This optimizes the performance in certain use cases. At the same time, a dynamic caches guarantees up-to-date data. Each time the cached database table is updated with INSERT, the cached data is updated automatically.
 
 ABAP Dictionary dynamic caches are defined using the
 
--   [Dictionary DDL for Defining Dynamic Caches](javascript:call_link\('abenddic_define_dynamic_cache.htm'\))
+-   [Dictionary DDL for Defining Dynamic Caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm)
 
 Further Information
 
@@ -655,26 +526,15 @@ Further Information
 
 Hints
 
--   SAP HANA offers static and dynamic [view caches](javascript:call_link\('abenview_cache_glosry.htm'\) "Glossary Entry"). Only the dynamic version has been integrated into DDIC. Static view caches are called [Result Cache](https://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/8ea43b3ff2e541e398e27d7e5caefab7) on SAP HANA, and dynamic caches are called [Dynamic Result Cache](https://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/bc12a173118548e9be8b69f1d62dfae1).
+-   SAP HANA offers static and dynamic [view caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenview_cache_glosry.htm "Glossary Entry"). Only the dynamic version has been integrated into DDIC. Static view caches are called [Result Cache](https://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/8ea43b3ff2e541e398e27d7e5caefab7) on SAP HANA, and dynamic caches are called [Dynamic Result Cache](https://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/bc12a173118548e9be8b69f1d62dfae1).
 -   A DDIC dynamic cache is generated as SQL view on the database. Therefore, it is also referred to as view cache.
--   Further details on SAP HANA cached views and an executable example can be found in the topic about [Cached Views in SAP HANA](javascript:call_link\('abenhana_cached_views.htm'\)).
+-   Further details on SAP HANA cached views and an executable example can be found in the topic about [Cached Views in SAP HANA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views.htm).
 
 Continue
-[DDIC - Dictionary DDL for Defining Dynamic Caches](javascript:call_link\('abenddic_define_dynamic_cache.htm'\))
+[DDIC - Dictionary DDL for Defining Dynamic Caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm)
 
-
-
-**📖 Source**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm)
 
 ### abenddic_define_dynamic_cache.htm
-
-> **📖 Official SAP Documentation**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -682,40 +542,29 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) →  [DDIC - Dynamic Caches](javascript:call_link\('abenddic_dynamic_caches.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) →  [DDIC - Dynamic Caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Dictionary%20DDL%20for%20Defining%20Dynamic%20Caches%2C%20ABENDDIC_DEFINE_DYNAMIC_CACHE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggesti
 on%20for%20improvement:)
 
 DDIC - Dictionary DDL for Defining Dynamic Caches
 
-An ABAP Dictionary [dynamic cache](javascript:call_link\('abendynamic_cache_glosry.htm'\) "Glossary Entry") is defined as a source-code-based cache in the [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry"). A dynamic cache is defined in a separate piece of [DTDC source code](javascript:call_link\('abenddtdc_source_code_glosry.htm'\) "Glossary Entry") and is saved and transported with this code. A piece of DTDC source code for dynamic caches can define exactly one dynamic cache:
+An ABAP Dictionary [dynamic cache](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_cache_glosry.htm "Glossary Entry") is defined as a source-code-based cache in the [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry") [Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry"). A dynamic cache is defined in a separate piece of [DTDC source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddtdc_source_code_glosry.htm "Glossary Entry") and is saved and transported with this code. A piece of DTDC source code for dynamic caches can define exactly one dynamic cache:
 
--   [DEFINE DYNAMIC CACHE](javascript:call_link\('abenddicddl_define_dynamic_cache.htm'\))
+-   [DEFINE DYNAMIC CACHE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_dynamic_cache.htm)
 
-No [name table](javascript:call_link\('abenname_table_glosry.htm'\) "Glossary Entry") and no [DDIC runtime object](javascript:call_link\('abenddic_runtime_object_glosry.htm'\) "Glossary Entry") are generated for a dynamic cache. Therefore, a dynamic cache cannot be accessed or read with ABAP.
+No [name table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenname_table_glosry.htm "Glossary Entry") and no [DDIC runtime object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_runtime_object_glosry.htm "Glossary Entry") are generated for a dynamic cache. Therefore, a dynamic cache cannot be accessed or read with ABAP.
 
 Hints
 
--   The DTDC source code of dynamic caches has its own editor in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), which is documented there. DTDC source code can also be displayed in [Repository Browser](javascript:call_link\('abenrepository_browser_glosry.htm'\) "Glossary Entry") in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry").
--   DDIC dynamic caches are connected to a [Switch Framework](javascript:call_link\('abenswitch_framework_glosry.htm'\) "Glossary Entry") and can be toggled on or off.
+-   The DTDC source code of dynamic caches has its own editor in [ADT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry"), which is documented there. DTDC source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
+-   DDIC dynamic caches are connected to a [Switch Framework](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenswitch_framework_glosry.htm "Glossary Entry") and can be toggled on or off.
 
 Continue
-[DDIC DDL - DEFINE DYNAMIC CACHE](javascript:call_link\('abenddicddl_define_dynamic_cache.htm'\))
+[DDIC DDL - DEFINE DYNAMIC CACHE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_dynamic_cache.htm)
 
-
-
-**📖 Source**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm)
 
 ### abenddicddl_define_dynamic_cache.htm
-
-> **📖 Official SAP Documentation**: [abenddicddl_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_dynamic_cache.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddicddl_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_dynamic_cache.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -723,7 +572,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) →  [DDIC - Dynamic Caches](javascript:call_link\('abenddic_dynamic_caches.htm'\)) →  [DDIC - Dictionary DDL for Defining Dynamic Caches](javascript:call_link\('abenddic_define_dynamic_cache.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) →  [DDIC - Dynamic Caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm) →  [DDIC - Dictionary DDL for Defining Dynamic Caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20DDL%20-%20DEFINE%20DYNAMIC%20CACHE%2C%20ABENDDICDDL_DEFINE_DYNAMIC_CACHE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvem
 ent:)
@@ -741,11 +590,11 @@ DEFINE DYNAMIC CACHE cache\_name
 
 Effect
 
-[Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry") statement used to define a [dynamic cache](javascript:call_link\('abendynamic_cache_glosry.htm'\) "Glossary Entry") for a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry").
+[Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry") statement used to define a [dynamic cache](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_cache_glosry.htm "Glossary Entry") for a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry").
 
-The name cache\_name of a dynamic cache must comply with the [naming conventions for DDIC data types](javascript:call_link\('abenddic_types_names.htm'\)) and can have a maximum of 30 characters. The name is in the namespace of the [DDIC data types](javascript:call_link\('abenddic_data_types.htm'\)) and must match the name of the [DTDC source code](javascript:call_link\('abenddtdc_source_code_glosry.htm'\) "Glossary Entry").
+The name cache\_name of a dynamic cache must comply with the [naming conventions for DDIC data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_types_names.htm) and can have a maximum of 30 characters. The name is in the namespace of the [DDIC data types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_data_types.htm) and must match the name of the [DTDC source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddtdc_source_code_glosry.htm "Glossary Entry").
 
-A dynamic cache can be defined for exactly one DDIC database table dbtab, which is specified after ON. Tables with [data aging](javascript:call_link\('abendata_aging_glosry.htm'\) "Glossary Entry") are not supported. Multiple dynamic caches can be defined for the same database table.
+A dynamic cache can be defined for exactly one DDIC database table dbtab, which is specified after ON. Tables with [data aging](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_aging_glosry.htm "Glossary Entry") are not supported. Multiple dynamic caches can be defined for the same database table.
 
 Projection List
 
@@ -812,18 +661,7 @@ This cache is generated as SQL view on the database. Client handling is added au
 ![Figure](dynamic_cache.png)
 
 
-
-**📖 Source**: [abenddicddl_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_dynamic_cache.htm)
-
 ### abenddic_define_dynamic_cache.htm
-
-> **📖 Official SAP Documentation**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -831,43 +669,29 @@ This cache is generated as SQL view on the database. Client handling is added au
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) →  [DDIC - Dynamic Caches](javascript:call_link\('abenddic_dynamic_caches.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) →  [DDIC - Dynamic Caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Dictionary%20DDL%20for%20Defining%20Dynamic%20Caches%2C%20ABENDDIC_DEFINE_DYNAMIC_CACHE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggesti
 on%20for%20improvement:)
 
 DDIC - Dictionary DDL for Defining Dynamic Caches
 
-An ABAP Dictionary [dynamic cache](javascript:call_link\('abendynamic_cache_glosry.htm'\) "Glossary Entry") is defined as a source-code-based cache in the [ABAP development tools for Eclipse (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") [Dictionary DDL](javascript:call_link\('abendictionary_ddl_glosry.htm'\) "Glossary Entry"). A dynamic cache is defined in a separate piece of [DTDC source code](javascript:call_link\('abenddtdc_source_code_glosry.htm'\) "Glossary Entry") and is saved and transported with this code. A piece of DTDC source code for dynamic caches can define exactly one dynamic cache:
+An ABAP Dictionary [dynamic cache](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_cache_glosry.htm "Glossary Entry") is defined as a source-code-based cache in the [ABAP development tools for Eclipse (ADT)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry") [Dictionary DDL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendictionary_ddl_glosry.htm "Glossary Entry"). A dynamic cache is defined in a separate piece of [DTDC source code](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddtdc_source_code_glosry.htm "Glossary Entry") and is saved and transported with this code. A piece of DTDC source code for dynamic caches can define exactly one dynamic cache:
 
--   [DEFINE DYNAMIC CACHE](javascript:call_link\('abenddicddl_define_dynamic_cache.htm'\))
+-   [DEFINE DYNAMIC CACHE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_dynamic_cache.htm)
 
-No [name table](javascript:call_link\('abenname_table_glosry.htm'\) "Glossary Entry") and no [DDIC runtime object](javascript:call_link\('abenddic_runtime_object_glosry.htm'\) "Glossary Entry") are generated for a dynamic cache. Therefore, a dynamic cache cannot be accessed or read with ABAP.
+No [name table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenname_table_glosry.htm "Glossary Entry") and no [DDIC runtime object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_runtime_object_glosry.htm "Glossary Entry") are generated for a dynamic cache. Therefore, a dynamic cache cannot be accessed or read with ABAP.
 
 Hints
 
--   The DTDC source code of dynamic caches has its own editor in [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry"), which is documented there. DTDC source code can also be displayed in [Repository Browser](javascript:call_link\('abenrepository_browser_glosry.htm'\) "Glossary Entry") in [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry").
--   DDIC dynamic caches are connected to a [Switch Framework](javascript:call_link\('abenswitch_framework_glosry.htm'\) "Glossary Entry") and can be toggled on or off.
+-   The DTDC source code of dynamic caches has its own editor in [ADT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadt_glosry.htm "Glossary Entry"), which is documented there. DTDC source code can also be displayed in [Repository Browser](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrepository_browser_glosry.htm "Glossary Entry") in [ABAP Workbench](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_workbench_glosry.htm "Glossary Entry").
+-   DDIC dynamic caches are connected to a [Switch Framework](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenswitch_framework_glosry.htm "Glossary Entry") and can be toggled on or off.
 
 Continue
-[DDIC DDL - DEFINE DYNAMIC CACHE](javascript:call_link\('abenddicddl_define_dynamic_cache.htm'\))
+[DDIC DDL - DEFINE DYNAMIC CACHE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddicddl_define_dynamic_cache.htm)
 
-
-
-**📖 Source**: [abenddic_define_dynamic_cache.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm)
 
 ### abenddic_dynamic_caches.htm
-
-> **📖 Official SAP Documentation**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-> **📖 Official SAP Documentation**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenddic_dynamic_caches.htm](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_dynamic_caches.htm)
-
 
   
 
@@ -875,17 +699,17 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Tuning Objects](javascript:call_link\('abenddic_tuning_objects.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Tuning Objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_tuning_objects.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Dynamic%20Caches%2C%20ABENDDIC_DYNAMIC_CACHES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 DDIC - Dynamic Caches
 
-A [dynamic cache](javascript:call_link\('abendynamic_cache_glosry.htm'\) "Glossary Entry") is a [HANA tuning object](javascript:call_link\('abenhana_tuning_object_glosry.htm'\) "Glossary Entry") that serves as an interface between [dynamic result caches](https://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/bc12a173118548e9be8b69f1d62dfae1) in SAP HANA and DDIC views. A dynamic cache is defined for a DDIC database table. It defines a restricted subquery on the database table with the goal to cache read results of the table in question to avoid repeated aggregation. This optimizes the performance in certain use cases. At the same time, a dynamic caches guarantees up-to-date data. Each time the cached database table is updated with INSERT, the cached data is updated automatically.
+A [dynamic cache](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynamic_cache_glosry.htm "Glossary Entry") is a [HANA tuning object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_tuning_object_glosry.htm "Glossary Entry") that serves as an interface between [dynamic result caches](https://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/bc12a173118548e9be8b69f1d62dfae1) in SAP HANA and DDIC views. A dynamic cache is defined for a DDIC database table. It defines a restricted subquery on the database table with the goal to cache read results of the table in question to avoid repeated aggregation. This optimizes the performance in certain use cases. At the same time, a dynamic caches guarantees up-to-date data. Each time the cached database table is updated with INSERT, the cached data is updated automatically.
 
 ABAP Dictionary dynamic caches are defined using the
 
--   [Dictionary DDL for Defining Dynamic Caches](javascript:call_link\('abenddic_define_dynamic_cache.htm'\))
+-   [Dictionary DDL for Defining Dynamic Caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm)
 
 Further Information
 
@@ -893,9 +717,9 @@ Further Information
 
 Hints
 
--   SAP HANA offers static and dynamic [view caches](javascript:call_link\('abenview_cache_glosry.htm'\) "Glossary Entry"). Only the dynamic version has been integrated into DDIC. Static view caches are called [Result Cache](https://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/8ea43b3ff2e541e398e27d7e5caefab7) on SAP HANA, and dynamic caches are called [Dynamic Result Cache](https://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/bc12a173118548e9be8b69f1d62dfae1).
+-   SAP HANA offers static and dynamic [view caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenview_cache_glosry.htm "Glossary Entry"). Only the dynamic version has been integrated into DDIC. Static view caches are called [Result Cache](https://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/8ea43b3ff2e541e398e27d7e5caefab7) on SAP HANA, and dynamic caches are called [Dynamic Result Cache](https://help.sap.com/docs/SAP_HANA_PLATFORM/bed8c14f9f024763b0777aa72b5436f6/bc12a173118548e9be8b69f1d62dfae1).
 -   A DDIC dynamic cache is generated as SQL view on the database. Therefore, it is also referred to as view cache.
--   Further details on SAP HANA cached views and an executable example can be found in the topic about [Cached Views in SAP HANA](javascript:call_link\('abenhana_cached_views.htm'\)).
+-   Further details on SAP HANA cached views and an executable example can be found in the topic about [Cached Views in SAP HANA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_cached_views.htm).
 
 Continue
-[DDIC - Dictionary DDL for Defining Dynamic Caches](javascript:call_link\('abenddic_define_dynamic_cache.htm'\))
+[DDIC - Dictionary DDL for Defining Dynamic Caches](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_define_dynamic_cache.htm)

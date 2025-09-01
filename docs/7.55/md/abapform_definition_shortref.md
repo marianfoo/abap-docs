@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  F
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_shortref.htm) →  F
 
 FORM, DEFINITION, IMPLEMENTATION - Quick reference
 
-[Reference](javascript:call_link\('abapform_definition.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapform_definition.htm)
 
 Syntax
 
@@ -23,9 +23,9 @@ Obsolete: Defines a subroutine subr. The definition of the subroutine is shared 
 
 Additions
 
--   [DEFINITION](javascript:call_link\('abapform_definition.htm'\))
-    Declaration part of the subroutine. The declaration of the parameter interface is the same as in [FORM](javascript:call_link\('abapform_shortref.htm'\)).
+-   [DEFINITION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapform_definition.htm)
+    Declaration part of the subroutine. The declaration of the parameter interface is the same as in [FORM](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapform_shortref.htm).
     
 
--   [IMPLEMENTATION](javascript:call_link\('abapform_definition.htm'\))
+-   [IMPLEMENTATION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapform_definition.htm)
     Implementation part of the subroutine. The implementation takes place between FORM and ENDFORM.

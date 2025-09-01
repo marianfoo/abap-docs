@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [CONV, Conversion Operator](javascript:call_link\('abenconstructor_expression_conv.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_assignments.htm) →  [CONV, Conversion Operator](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_conv.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20CONV%2C%20Type%20Inference%20for%20Actual%20Parameters%2C%20ABENCONV_CONSTRUCTOR_INFERENCE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for
 %20improvement:)
@@ -13,7 +13,7 @@ CONV, Type Inference for Actual Parameters
 
 If a constructor expression
 
-[CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) #( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]* dobj )
+[CONV](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_conv.htm) #( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm)*\]* dobj )
 
 is passed to generically typed formal parameters as an actual parameter using the character # as a symbol for the operand type, the following type inference is performed for the character #:
 
@@ -21,11 +21,11 @@ is passed to generically typed formal parameters as an actual parameter using th
 -   If the data type of the argument dobj is known and is elementary, types are derived from it as follows for formal parameter types with generic lengths as follows:
     -   Generic type c
         
-        c with the length of the argument in arguments of the types n, d, and t; c of the predefined [output length](javascript:call_link\('abenwrite_output_length.htm'\)) of the argument for all other argument types except strings; no type is derived for arguments of the types string and xtring
+        c with the length of the argument in arguments of the types n, d, and t; c of the predefined [output length](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwrite_output_length.htm) of the argument for all other argument types except strings; no type is derived for arguments of the types string and xtring
         
     -   Generic type n
         
-        n with the length of the argument for arguments of the types n, d, and t and n with the length of a [conversion](javascript:call_link\('abenconversion_elementary.htm'\)) of the argument to n for all other argument types except numeric types with decimal places and strings; no type is derived for arguments of the types decfloat16, decfloat34, f, and p with decimal places plus string and xtring
+        n with the length of the argument for arguments of the types n, d, and t and n with the length of a [conversion](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_elementary.htm) of the argument to n for all other argument types except numeric types with decimal places and strings; no type is derived for arguments of the types decfloat16, decfloat34, f, and p with decimal places plus string and xtring
         
     -   Generic type x
         
@@ -40,7 +40,7 @@ is passed to generically typed formal parameters as an actual parameter using th
     -   xsequence produces xstring
     -   numeric and decfloat produce decfloat34
     -   p produces p with the length 8 and no decimal places
-    -   Standard table type with generic primary table key produces a standard table with a [standard key](javascript:call_link\('abenstandard_key_glosry.htm'\) "Glossary Entry")
+    -   Standard table type with generic primary table key produces a standard table with a [standard key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_key_glosry.htm "Glossary Entry")
 
 Other combinations of generic formal parameter types and arguments cannot be made more concrete in any meaningful way and produce a syntax error with the exception of table types that are explicitly generic with respect to their secondary table keys.
 
@@ -52,7 +52,7 @@ The rules for derivations of the type where # is specified for actual parameters
 
 Example
 
-The operator CONV generates a result of type decfloat34 in this case. The generic parameter p has this type during the execution of the method, which is shown by the value e returned by [DESCRIBE FIELD](javascript:call_link\('abapdescribe_field.htm'\)). The method call produces a corresponding syntax warning.
+The operator CONV generates a result of type decfloat34 in this case. The generic parameter p has this type during the execution of the method, which is shown by the value e returned by [DESCRIBE FIELD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_field.htm). The method call produces a corresponding syntax warning.
 
 CLASS demo1 DEFINITION.
   PUBLIC SECTION.
@@ -80,7 +80,7 @@ ENDCLASS.
 
 Executable Example
 
-[Conversion Operator, Type Inference](javascript:call_link\('abenconv_type_inference_abexa.htm'\))
+[Conversion Operator, Type Inference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconv_type_inference_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Conversion Operator, Type Inference](javascript:call_link\('abenconv_type_inference_abexa.htm'\))
+![Example](exa.gif "Example") [Conversion Operator, Type Inference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconv_type_inference_abexa.htm)

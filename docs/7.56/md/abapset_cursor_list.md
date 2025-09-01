@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Display](javascript:call_link\('abenlists_displayed.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_dynpro_list.htm) →  [Lists - Display](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenlists_displayed.htm) → 
 
 SET CURSOR, List
 
-[Short Reference](javascript:call_link\('abapset_cursor_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_cursor_shortref.htm)
 
 Syntax
 
@@ -27,9 +27,9 @@ Effect
 
 In list processing, this statement sets the cursor in the next list displayed on the screen. This is either the current list or, if no details list is created in an event block after an interactive list event, the previous list. The cursor can be positioned by specifying a field after FIELD or a line after LINE, or by specifying a specific position using col and lin.
 
-If the statement SET CURSOR is not specified, the cursor is set by default on the first field in the list that is ready for input or in the command field in the [standard toolbar](javascript:call_link\('abenstandard_toolbar_glosry.htm'\) "Glossary Entry").
+If the statement SET CURSOR is not specified, the cursor is set by default on the first field in the list that is ready for input or in the command field in the [standard toolbar](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstandard_toolbar_glosry.htm "Glossary Entry").
 
-The statement is ignored if the specified position is outside the display area of the list, or if it points to [line elements](javascript:call_link\('abenline_element_glosry.htm'\) "Glossary Entry").
+The statement is ignored if the specified position is outside the display area of the list, or if it points to [line elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenline_element_glosry.htm "Glossary Entry").
 
 Hint
 
@@ -47,7 +47,7 @@ The cursor is positioned in the list line specified in line in the output area o
 -   If OFFSET is specified without an addition, or with the addition DISPLAY, the cursor is positioned in the column of the output area entered in off.
 -   If OFFSET is specified with the addition MEMORY, the cursor is positioned on the character in the output area that is specified in off in the list buffer in the output of the data object in field. If this character is cut off in the list display, the cursor is set on the corresponding indicator (< or >).
 
-The data object field must be character-like and [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry"). line and off expect data objects of type i.
+The data object field must be character-like and [flat](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_glosry.htm "Glossary Entry"). line and off expect data objects of type i.
 
 If the data object specified in field was contained in the output more than once in the visible area of the line, the cursor is positioned in the first output area. If the data object specified in field does not occur in the visible area of the line, the specification is ignored.
 
@@ -79,7 +79,7 @@ line and off expect data objects of type i.
 
 Hint
 
-This variant of the SET CURSOR statement does not work in [screen layouts](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry").
+This variant of the SET CURSOR statement does not work in [screen layouts](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry").
 
 Alternative 3   
 

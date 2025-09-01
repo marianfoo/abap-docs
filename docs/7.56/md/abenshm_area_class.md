@@ -4,23 +4,32 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [Shared Objects](javascript:call_link\('abenabap_shared_objects.htm'\)) →  [Shared Objects - Classes and Interfaces](javascript:call_link\('abenshm_classes.htm'\)) →  [Shared Objects - CL\_ABAP\_MEMORY\_AREA](javascript:call_link\('abenshm_cl_abap_memory_area.htm'\)) →  [Shared Objects - CL\_SHM\_AREA](javascript:call_link\('abenshm_cl_shm_area.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencreate_objects.htm) →  [Shared Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shared_objects.htm) →  [Shared Objects - Classes and Interfaces](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_classes.htm) →  [Shared Objects - CL\_ABAP\_MEMORY\_AREA](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_cl_abap_memory_area.htm) →  [Shared Objects - CL\_SHM\_AREA](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_cl_shm_area.htm) → 
 
 Shared Objects - Area Classes
 
-An area class is generated as a subclass of the class [CL\_SHM\_AREA](javascript:call_link\('abenshm_cl_shm_area.htm'\)) when an area is created using transaction SHMA. Its instances serve as [area handles](javascript:call_link\('abenarea_handle_glosry.htm'\) "Glossary Entry") for the [area instance versions](javascript:call_link\('abenarea_instance_version_glosry.htm'\) "Glossary Entry") of this area. The name of an area class is the same as the name of the area, which should therefore start with CL\_.
+An area class is generated as a subclass of the class [CL\_SHM\_AREA](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_cl_shm_area.htm) when an area is created using transaction SHMA. Its instances serve as [area handles](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarea_handle_glosry.htm "Glossary Entry") for the [area instance versions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenarea_instance_version_glosry.htm "Glossary Entry") of this area. The name of an area class is the same as the name of the area, which should therefore start with CL\_.
 
 Area classes can be displayed in the Class Builder, but cannot be changed there. The structure of an area class depends on the definition of the area in transaction SHMA. After the properties of an area have been changed, the area class is regenerated if necessary.
 
--   [Static Attributes](#abenshm-area-class-1-----------area--name---@ITOC@@ABENSHM_AREA_CLASS_2)
--   [Instance Attributes](#abenshm-area-class-3-----------root---@ITOC@@ABENSHM_AREA_CLASS_4)
--   [Static Methods](#abenshm-area-class-5-----------attach--for--read---@ITOC@@ABENSHM_AREA_CLASS_6)
-    -   [ATTACH\_FOR\_WRITE](#abenshm-area-class-7-----------attach--for--update---@ITOC@@ABENSHM_AREA_CLASS_8)
-    -   [DETACH\_AREA](#abenshm-area-class-9-----------invalidate--instance---@ITOC@@ABENSHM_AREA_CLASS_10)
-    -   [INVALIDATE\_AREA](#abenshm-area-class-11-----------free--instance---@ITOC@@ABENSHM_AREA_CLASS_12)
-    -   [FREE\_AREA](#abenshm-area-class-13-----------get--instance--infos---@ITOC@@ABENSHM_AREA_CLASS_14)
-    -   [BUILD](#abenshm-area-class-15-----------propagate--instance--obsolete----@ITOC@@ABENSHM_AREA_CLASS_16)
-    -   [PROPAGATE\_AREA (Obsolete)](#abenshm-area-class-17-------instance-methods---@ITOC@@ABENSHM_AREA_CLASS_18)
+-   [Static Attributes](#@@ITOC@@ABENSHM_AREA_CLASS_1)
+    -   [AREA\_NAME](#@@ITOC@@ABENSHM_AREA_CLASS_2)
+-   [Instance Attributes](#@@ITOC@@ABENSHM_AREA_CLASS_3)
+    -   [ROOT](#@@ITOC@@ABENSHM_AREA_CLASS_4)
+-   [Static Methods](#@@ITOC@@ABENSHM_AREA_CLASS_5)
+    -   [ATTACH\_FOR\_READ](#@@ITOC@@ABENSHM_AREA_CLASS_6)
+    -   [ATTACH\_FOR\_WRITE](#@@ITOC@@ABENSHM_AREA_CLASS_7)
+    -   [ATTACH\_FOR\_UPDATE](#@@ITOC@@ABENSHM_AREA_CLASS_8)
+    -   [DETACH\_AREA](#@@ITOC@@ABENSHM_AREA_CLASS_9)
+    -   [INVALIDATE\_INSTANCE](#@@ITOC@@ABENSHM_AREA_CLASS_10)
+    -   [INVALIDATE\_AREA](#@@ITOC@@ABENSHM_AREA_CLASS_11)
+    -   [FREE\_INSTANCE](#@@ITOC@@ABENSHM_AREA_CLASS_12)
+    -   [FREE\_AREA](#@@ITOC@@ABENSHM_AREA_CLASS_13)
+    -   [GET\_INSTANCE\_INFOS](#@@ITOC@@ABENSHM_AREA_CLASS_14)
+    -   [BUILD](#@@ITOC@@ABENSHM_AREA_CLASS_15)
+    -   [PROPAGATE\_INSTANCE (Obsolete)](#@@ITOC@@ABENSHM_AREA_CLASS_16)
+    -   [PROPAGATE\_AREA (Obsolete)](#@@ITOC@@ABENSHM_AREA_CLASS_17)
+-   [Instance Methods](#@@ITOC@@ABENSHM_AREA_CLASS_18)
     -   [SET\_ROOT](#@@ITOC@@ABENSHM_AREA_CLASS_19)
 
 Hint
@@ -37,7 +46,7 @@ Instance Attributes
 
 ROOT
 
-Reference variable of the type REF TO area\_root\_class, where area\_root\_class is the [area root class](javascript:call_link\('abenroot_data_class_glosry.htm'\) "Glossary Entry") of the area. This attribute has the READ-ONLY property and is used for direct reads of the [root object](javascript:call_link\('abenroot_object_glosry.htm'\) "Glossary Entry") of an area instance version. Access using the GET\_ROOT method is necessary in exceptional cases only, such as when using generic programming.
+Reference variable of the type REF TO area\_root\_class, where area\_root\_class is the [area root class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_data_class_glosry.htm "Glossary Entry") of the area. This attribute has the READ-ONLY property and is used for direct reads of the [root object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_object_glosry.htm "Glossary Entry") of an area instance version. Access using the GET\_ROOT method is necessary in exceptional cases only, such as when using generic programming.
 
 Static Methods
 
@@ -67,7 +76,7 @@ Exceptions
 
 -   CX\_SHM\_INCONSISTENT
     
-    The type of an object saved in the area instance does not match the definition of the object with the same name in the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"). If the time stamp for the type of the shared objects is newer than the time stamp in the internal session, the application should be restarted, to ensure the internal session also uses the current version of the type. If the time stamp of the type in the internal session is newer than the time stamp of the shared object, a new area instance version should be constructed, so that the current type is used there.
+    The type of an object saved in the area instance does not match the definition of the object with the same name in the current [internal session](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeninternal_session_glosry.htm "Glossary Entry"). If the time stamp for the type of the shared objects is newer than the time stamp in the internal session, the application should be restarted, to ensure the internal session also uses the current version of the type. If the time stamp of the type in the internal session is newer than the time stamp of the shared object, a new area instance version should be constructed, so that the current type is used there.
     
 -   CX\_SHM\_NO\_ACTIVE\_VERSION
     
@@ -108,7 +117,7 @@ Input Parameters
     
 -   CLIENT of the type SHM\_CLIENT
     
-    Client ID if the area is client-dependent. Specifying the client ID is optional. The default value is the ID of the current client. In [tenant-isolation](javascript:call_link\('abentenant_isolation_glosry.htm'\) "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](javascript:call_link\('abenapplication_client_glosry.htm'\) "Glossary Entry").
+    Client ID if the area is client-dependent. Specifying the client ID is optional. The default value is the ID of the current client. In [tenant-isolation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentenant_isolation_glosry.htm "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapplication_client_glosry.htm "Glossary Entry").
     
 -   ATTACH\_MODE of the type SHM\_ATTACH\_MODE
     
@@ -187,7 +196,7 @@ Input Parameters
     
 -   CLIENT of the type SHM\_CLIENT
     
-    Client ID if the area is client-dependent. Specifying the client ID is optional. The default value is the ID of the current client. In [tenant-isolation](javascript:call_link\('abentenant_isolation_glosry.htm'\) "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](javascript:call_link\('abenapplication_client_glosry.htm'\) "Glossary Entry").
+    Client ID if the area is client-dependent. Specifying the client ID is optional. The default value is the ID of the current client. In [tenant-isolation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentenant_isolation_glosry.htm "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapplication_client_glosry.htm "Glossary Entry").
     
 -   ATTACH\_MODE of the type SHM\_ATTACH\_MODE
     
@@ -279,7 +288,7 @@ Input Parameters
 
 -   CLIENT of the type SHM\_CLIENT
     
-    Optional client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](javascript:call_link\('abentenant_isolation_glosry.htm'\) "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](javascript:call_link\('abenapplication_client_glosry.htm'\) "Glossary Entry").
+    Optional client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentenant_isolation_glosry.htm "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapplication_client_glosry.htm "Glossary Entry").
     
 
 Return Value
@@ -303,7 +312,7 @@ Input Parameters
     
 -   CLIENT of the type SHM\_CLIENT
     
-    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](javascript:call_link\('abentenant_isolation_glosry.htm'\) "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](javascript:call_link\('abenapplication_client_glosry.htm'\) "Glossary Entry").
+    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentenant_isolation_glosry.htm "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapplication_client_glosry.htm "Glossary Entry").
     
 -   TERMINATE\_CHANGER of the type abap\_bool
     
@@ -349,7 +358,7 @@ Input Parameters
 
 -   CLIENT of the type SHM\_CLIENT
     
-    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](javascript:call_link\('abentenant_isolation_glosry.htm'\) "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](javascript:call_link\('abenapplication_client_glosry.htm'\) "Glossary Entry").
+    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentenant_isolation_glosry.htm "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapplication_client_glosry.htm "Glossary Entry").
     
 -   TERMINATE\_CHANGER of the type abap\_bool
     
@@ -404,7 +413,7 @@ Input Parameters
     
 -   CLIENT of the type SHM\_CLIENT
     
-    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](javascript:call_link\('abentenant_isolation_glosry.htm'\) "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](javascript:call_link\('abenapplication_client_glosry.htm'\) "Glossary Entry").
+    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentenant_isolation_glosry.htm "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapplication_client_glosry.htm "Glossary Entry").
     
 -   TERMINATE\_CHANGER of the type abap\_bool
     
@@ -448,7 +457,7 @@ Input Parameters
 
 -   CLIENT of the type SHM\_CLIENT
     
-    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](javascript:call_link\('abentenant_isolation_glosry.htm'\) "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](javascript:call_link\('abenapplication_client_glosry.htm'\) "Glossary Entry").
+    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentenant_isolation_glosry.htm "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapplication_client_glosry.htm "Glossary Entry").
     
 -   TERMINATE\_CHANGER of the type abap\_bool
     
@@ -494,7 +503,7 @@ Input Parameters
 
 -   CLIENT of the type SHM\_CLIENT
     
-    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](javascript:call_link\('abentenant_isolation_glosry.htm'\) "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](javascript:call_link\('abenapplication_client_glosry.htm'\) "Glossary Entry").
+    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentenant_isolation_glosry.htm "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapplication_client_glosry.htm "Glossary Entry").
     
 
 Return Value
@@ -514,7 +523,7 @@ Return Value
 
 BUILD
 
-Calls the [area constructor](javascript:call_link\('abenshm_area_constructor_class.htm'\)) explicitly . The area constructor is executed in the current internal session. If the areas are client-dependent, the area of the current client is built.
+Calls the [area constructor](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenshm_area_constructor_class.htm) explicitly . The area constructor is executed in the current internal session. If the areas are client-dependent, the area of the current client is built.
 
 Input Parameters
 
@@ -554,7 +563,7 @@ Input Parameters
     
 -   CLIENT of the type SHM\_CLIENT
     
-    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](javascript:call_link\('abentenant_isolation_glosry.htm'\) "Glossary Entry") systems, the CLIENT parameter cannot be passed in [application clients](javascript:call_link\('abenapplication_client_glosry.htm'\) "Glossary Entry").
+    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentenant_isolation_glosry.htm "Glossary Entry") systems, the CLIENT parameter cannot be passed in [application clients](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapplication_client_glosry.htm "Glossary Entry").
     
 -   AFFECTING\_LOCAL\_SERVER of the type abap\_bool
     
@@ -582,7 +591,7 @@ Input Parameters
 
 -   CLIENT of the type SHM\_CLIENT
     
-    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](javascript:call_link\('abentenant_isolation_glosry.htm'\) "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](javascript:call_link\('abenapplication_client_glosry.htm'\) "Glossary Entry").
+    Client ID if the area is client-dependent. The default value is the ID of the current client. In [tenant-isolation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentenant_isolation_glosry.htm "Glossary Entry") systems, the CLIENT parameter must not be passed in [application clients](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenapplication_client_glosry.htm "Glossary Entry").
     
 -   AFFECTING\_LOCAL\_SERVER of the type abap\_bool
     
@@ -602,11 +611,11 @@ Instance Methods
 
 SET\_ROOT
 
-This method defines the [root object](javascript:call_link\('abenroot_object_glosry.htm'\) "Glossary Entry") (instance of the area root class) of the area instance version. Before a change lock can be released using the DETACH\_COMMIT method, the root object must be reset at least once using SET\_ROOT. Updates are possible. The SET\_ROOT method can only be called in area handles with change locks.
+This method defines the [root object](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_object_glosry.htm "Glossary Entry") (instance of the area root class) of the area instance version. Before a change lock can be released using the DETACH\_COMMIT method, the root object must be reset at least once using SET\_ROOT. Updates are possible. The SET\_ROOT method can only be called in area handles with change locks.
 
 Input Parameters
 
--   ROOT of the type REF TO area\_root\_class, where [area\_root\_class](javascript:call_link\('abenroot_data_class_glosry.htm'\) "Glossary Entry") is the area root class of the area.
+-   ROOT of the type REF TO area\_root\_class, where [area\_root\_class](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_data_class_glosry.htm "Glossary Entry") is the area root class of the area.
 
 Exceptions
 

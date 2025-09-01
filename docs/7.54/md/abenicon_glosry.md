@@ -4,8 +4,8 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 icon
 
-Graphical element of the [GUI](javascript:call_link\('abengui_glosry.htm'\) "Glossary Entry") for use on [pushbuttons](javascript:call_link\('abenpushbutton_glosry.htm'\) "Glossary Entry"), and also as a [status icon](javascript:call_link\('abenstatus_icon_glosry.htm'\) "Glossary Entry") on [screens](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") or in [lists](javascript:call_link\('abenlist_glosry.htm'\) "Glossary Entry"). The program SHOWICON shows a list of possible icons.
+Graphical element of the [GUI](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abengui_glosry.htm "Glossary Entry") for use on [pushbuttons](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenpushbutton_glosry.htm "Glossary Entry"), and also as a [status icon](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstatus_icon_glosry.htm "Glossary Entry") on [screens](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenscreen_glosry.htm "Glossary Entry") or in [lists](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlist_glosry.htm "Glossary Entry"). The program SHOWICON shows a list of possible icons.

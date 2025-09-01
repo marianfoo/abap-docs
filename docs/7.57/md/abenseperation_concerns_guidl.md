@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [General Rules](javascript:call_link\('abengeneral_rules_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_pgl.htm) →  [General Rules](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneral_rules_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Separation of Concerns, ABENSEPERATION_CONCERNS_GUIDL, 757%0D%0A%0D%0AError:%0D%0A%0D
 %0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -38,7 +38,7 @@ The SoC principle identifies the parts of an application with a specific purpose
 -   easier to maintain
 -   easier to test
 
-Regarding the last point, it would even be true to say that following the SoC principle is a prerequisite for executing isolated, automated [unit tests](javascript:call_link\('abencorrectness_quality_guidl.htm'\) "Guideline").
+Regarding the last point, it would even be true to say that following the SoC principle is a prerequisite for executing isolated, automated [unit tests](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorrectness_quality_guidl.htm "Guideline").
 
 Bad Example
 
@@ -257,6 +257,6 @@ ENDCLASS.
 START-OF-SELECTION.
 report=>main( ).
 
-At first glance, the above source code appears to be very excessive compared to the first source code. But only on the first glance. A real application program usually only consists of 25 lines. The larger and more realistic the application program, the smaller the proportion of the overhead that is incurred by wrapping the concerns in classes. If the reuse options for [ABAP Objects](javascript:call_link\('abenabap_obj_progr_model_guidl.htm'\) "Guideline") are used appropriately, it is even possible to reduce the amount of source code.
+At first glance, the above source code appears to be very excessive compared to the first source code. But only on the first glance. A real application program usually only consists of 25 lines. The larger and more realistic the application program, the smaller the proportion of the overhead that is incurred by wrapping the concerns in classes. If the reuse options for [ABAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obj_progr_model_guidl.htm "Guideline") are used appropriately, it is even possible to reduce the amount of source code.
 
 In addition, the individual steps are now wrapped in classes, in other words, real program units (unlike in the second source code). In practice, wrapping is not performed in one single program, but in global classes that are assigned to different packages, depending on the layer. These packages are connected to each other using package interfaces. It is only by using these interfaces that you can achieve the other benefits of separating the concerns (in addition to the testing capability achieved in the second source code).

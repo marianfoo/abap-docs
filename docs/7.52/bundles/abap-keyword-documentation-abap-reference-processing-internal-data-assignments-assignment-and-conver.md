@@ -3,26 +3,7 @@
 Included pages: 2
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenconversion_perfo.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_perfo.htm)
-- [abenconversion_costs_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_costs_abexa.htm)
-
-**Bundle Contains**: 2 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.486Z
-
----
-
 ### abenconversion_perfo.htm
-
-> **📖 Official SAP Documentation**: [abenconversion_perfo.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_perfo.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -30,7 +11,7 @@ Included pages: 2
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_rules.htm) → 
 
 Conversions - Performance Notes
 
@@ -38,23 +19,13 @@ Conversions in assignments between data objects with different data types, or sp
 
 Executable Example
 
-[Conversion Costs](javascript:call_link\('abenconversion_costs_abexa.htm'\))
+[Conversion Costs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_costs_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Conversion Costs](javascript:call_link\('abenconversion_costs_abexa.htm'\))
+![Example](exa.gif "Example") [Conversion Costs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_costs_abexa.htm)
 
-
-
-**📖 Source**: [abenconversion_perfo.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_perfo.htm)
 
 ### abenconversion_costs_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenconversion_costs_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_costs_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenconversion_costs_abexa.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_costs_abexa.htm)
-
 
   
 
@@ -62,7 +33,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assignment and Conversion Rules](javascript:call_link\('abenconversion_rules.htm'\)) →  [Conversions - Performance Notes](javascript:call_link\('abenconversion_perfo.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenvalue_assignments.htm) →  [Assignment and Conversion Rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_rules.htm) →  [Conversions - Performance Notes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_perfo.htm) → 
 
 Conversion Costs
 

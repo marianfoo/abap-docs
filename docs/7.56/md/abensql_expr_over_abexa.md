@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_win](javascript:call_link\('abapselect_over.htm'\)) →  [sql\_win - Examples of Window Expressions](javascript:call_link\('abensql_expr_over_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_win](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_over.htm) →  [sql\_win - Examples of Window Expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_expr_over_abexas.htm) → 
 
 sql\_win - Window Expressions
 
-This example demonstrates simple [window expressions](javascript:call_link\('abapselect_over.htm'\)).
+This example demonstrates simple [window expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_over.htm).
 
 Source Code
 
@@ -70,4 +70,4 @@ START-OF-SELECTION.
 
 Description
 
-The example demonstrates how different [window functions](javascript:call_link\('abensql_win_func.htm'\)) are applied to windows of a result set of a query defined using [PARTITION](javascript:call_link\('abapselect_over.htm'\)). The content of the columns CHAR1 and CHAR2 is used as a window criterion. All rows that have identical content in these columns form a window. The result of a window function for a row is determined from all rows of the window this row is a part of. The final column perc demonstrates how a window function can be used as arguments of an SQL expression and hence produce row-dependent results, in this case the percentage of the value of the column NUM1 as part of the entire window.
+The example demonstrates how different [window functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_win_func.htm) are applied to windows of a result set of a query defined using [PARTITION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect_over.htm). The content of the columns CHAR1 and CHAR2 is used as a window criterion. All rows that have identical content in these columns form a window. The result of a window function for a row is determined from all rows of the window this row is a part of. The final column perc demonstrates how a window function can be used as arguments of an SQL expression and hence produce row-dependent results, in this case the percentage of the value of the column NUM1 as part of the entire window.

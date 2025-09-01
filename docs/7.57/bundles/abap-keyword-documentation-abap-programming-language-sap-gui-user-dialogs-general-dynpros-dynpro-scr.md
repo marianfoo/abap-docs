@@ -3,34 +3,7 @@
 Included pages: 10
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenscreen_elements_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm)
-- [abendynpro_status_icons_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_status_icons_abexa.htm)
-- [abendynpro_context_menu_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_context_menu_abexa.htm)
-- [abendynpro_cfw_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_cfw_abexa.htm)
-- [abendynpro_custom_control_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_custom_control_abexa.htm)
-- [abenhtml_browser_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhtml_browser_abexa.htm)
-- [abenhtml_input_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhtml_input_abexa.htm)
-- [abenmime_pictures_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmime_pictures_abexa.htm)
-- [abenmime_html_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmime_html_abexa.htm)
-- [abentext_output_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_output_abexa.htm)
-
-**Bundle Contains**: 10 documentation pages
-**Version**: ABAP 7.57
-**Generated**: 2025-09-01T11:25:45.278Z
-
----
-
 ### abenscreen_elements_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenscreen_elements_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -38,7 +11,7 @@ Included pages: 10
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_screen.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - Examples of Screen Elements, ABENSCREEN_ELEMENTS_ABEXAS, 757%0D%0A%0D%0AErro
 r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -46,25 +19,18 @@ r:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 dynpro - Examples of Screen Elements
 
 Continue
-![Example](exa.gif "Example") [dynpro - Status Icons](javascript:call_link\('abendynpro_status_icons_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Context Menus](javascript:call_link\('abendynpro_context_menu_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - CFW](javascript:call_link\('abendynpro_cfw_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - CFW Events](javascript:call_link\('abendynpro_custom_control_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - HTML Browser](javascript:call_link\('abenhtml_browser_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Input in HTML File](javascript:call_link\('abenhtml_input_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Images in HTML](javascript:call_link\('abenmime_pictures_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - HTML from the MIME Repository](javascript:call_link\('abenmime_html_abexa.htm'\))
-![Example](exa.gif "Example") [dynpro - Text Output](javascript:call_link\('abentext_output_abexa.htm'\))
+![Example](exa.gif "Example") [dynpro - Status Icons](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_status_icons_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Context Menus](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_context_menu_abexa.htm)
+![Example](exa.gif "Example") [dynpro - CFW](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_cfw_abexa.htm)
+![Example](exa.gif "Example") [dynpro - CFW Events](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_custom_control_abexa.htm)
+![Example](exa.gif "Example") [dynpro - HTML Browser](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhtml_browser_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Input in HTML File](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhtml_input_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Images in HTML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmime_pictures_abexa.htm)
+![Example](exa.gif "Example") [dynpro - HTML from the MIME Repository](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmime_html_abexa.htm)
+![Example](exa.gif "Example") [dynpro - Text Output](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_output_abexa.htm)
 
-
-
-**📖 Source**: [abenscreen_elements_abexas.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm)
 
 ### abendynpro_status_icons_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendynpro_status_icons_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_status_icons_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -72,7 +38,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) →  [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_screen.htm) →  [dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - Status Icons, ABENDYNPRO_STATUS_ICONS_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%
 0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -150,14 +116,7 @@ PROCESS AFTER INPUT.
 Depending on the local value field in the program, the dialog module set\_icon passes different values to the function module ICON\_CREATE. The status field status\_icon is filled with the content of the export parameter result of the function module. This displays the corresponding icon including the text and tooltip on the screen. When the user chooses Continue, the content of the field value are changed in the PAI, and consequently a new icon is defined in the PBO event.
 
 
-
-**📖 Source**: [abendynpro_status_icons_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_status_icons_abexa.htm)
-
 ### abendynpro_context_menu_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendynpro_context_menu_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_context_menu_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -165,7 +124,7 @@ Depending on the local value field in the program, the dialog module set\_icon p
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) →  [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_screen.htm) →  [dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - Context Menus, ABENDYNPRO_CONTEXT_MENU_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D
 %0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -306,14 +265,7 @@ When the program is executed and the right mouse button or SHIFT+F10 is pressed,
 When a new dynamic function is selected, calculations are performed with the number in the input field FIELD1 and then passed to FIELD2. When the function Hide Result (HIDE) is selected, the screen is modified dynamically. This makes the fourth line visible and the context menu REVEAL can be used.
 
 
-
-**📖 Source**: [abendynpro_context_menu_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_context_menu_abexa.htm)
-
 ### abendynpro_cfw_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendynpro_cfw_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_cfw_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -321,7 +273,7 @@ When a new dynamic function is selected, calculations are performed with the num
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) →  [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_screen.htm) →  [dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - CFW, ABENDYNPRO_CFW_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugg
 estion for improvement:)
@@ -612,14 +564,7 @@ Hint
 The class CL\_SALV\_TABLE and other classes with the prefix CL\_SALV\_ offer more convenient ways of displaying ALV controls.
 
 
-
-**📖 Source**: [abendynpro_cfw_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_cfw_abexa.htm)
-
 ### abendynpro_custom_control_abexa.htm
-
-> **📖 Official SAP Documentation**: [abendynpro_custom_control_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_custom_control_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -627,7 +572,7 @@ The class CL\_SALV\_TABLE and other classes with the prefix CL\_SALV\_ offer mor
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) →  [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_screen.htm) →  [dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - CFW Events, ABENDYNPRO_CUSTOM_CONTROL_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%
 0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -757,14 +702,7 @@ If F4 is selected on the textedit control, PAI is raised. The method DISPATCH is
 In either case, regardless of whether the user chooses F1 or F4, the content of the textedit control is not passed to the internal table text\_tab. Consequently, the textedit control is overwritten with the previous content of text\_tab after PBO.
 
 
-
-**📖 Source**: [abendynpro_custom_control_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendynpro_custom_control_abexa.htm)
-
 ### abenhtml_browser_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenhtml_browser_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhtml_browser_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -772,7 +710,7 @@ In either case, regardless of whether the user chooses F1 or F4, the content of 
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) →  [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_screen.htm) →  [dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - HTML Browser, ABENHTML_BROWSER_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0
 A%0D%0ASuggestion for improvement:)
@@ -922,14 +860,7 @@ The class CL\_ABAP\_BROWSER encapsulates the use of the class CL\_GUI\_HTML\_VIE
 When the program starts, the file can be display in a modal window, a modeless window, or without a dialog box. If a modeless dialog box is chosen, container dynpros and information messages must be used to keep the dialog box alive. If no messages were sent, the modeless dialog box would not be visible.
 
 
-
-**📖 Source**: [abenhtml_browser_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhtml_browser_abexa.htm)
-
 ### abenhtml_input_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenhtml_input_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhtml_input_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -937,7 +868,7 @@ When the program starts, the file can be display in a modal window, a modeless w
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) →  [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_screen.htm) →  [dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - Input in HTML File, ABENHTML_INPUT_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%
 0D%0A%0D%0ASuggestion for improvement:)
@@ -1023,17 +954,10 @@ Description  
 
 This example creates a HTML file containing multiple input fields, a pushbutton, and JavaScript functions for handling the input. The form INPUT uses method="post" to send the input data. The HTML control in CFW uses the parameter QUERY\_TABLE of the event SAPEVENT to pass this data to its handler. The class CL\_ABAP\_BROWSER (a wrapper for the class CL\_GUI\_HTML\_VIEWER also passes this parameter and the user input can be used in the ABAP program.
 
-See also the corresponding executable example for [ICF](javascript:call_link\('abenicf_post_service_abexa.htm'\)).
+See also the corresponding executable example for [ICF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenicf_post_service_abexa.htm).
 
-
-
-**📖 Source**: [abenhtml_input_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenhtml_input_abexa.htm)
 
 ### abenmime_pictures_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenmime_pictures_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmime_pictures_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1041,7 +965,7 @@ See also the corresponding executable example for [ICF](javascript:call_link\('a
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) →  [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_screen.htm) →  [dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - Images in HTML, ABENMIME_PICTURES_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0
 D%0A%0D%0ASuggestion for improvement:)
@@ -1147,17 +1071,10 @@ Images loaded here from the MIME repository using an API are displayed in two br
 -   The method main1 uses the class CL\_GUI\_HTML\_VIEWER directly. Its method LOAD\_DATA is used to get a URL for the image in the internal table, which is then used on the HTML page.
 -   The method main2 uses the class CL\_ABAP\_BROWSER as a wrapper for the direct use of CL\_GUI\_HTML\_VIEWER and calls of the method LOAD\_DATA. A reference, linked with the name used in the HTML page, is passed to the internal table.
 
-See also the [executable example](javascript:call_link\('abenicf_mime_pictures_abexa.htm'\)) for direct access to objects from the MIME repository using ICF.
+See also the [executable example](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenicf_mime_pictures_abexa.htm) for direct access to objects from the MIME repository using ICF.
 
-
-
-**📖 Source**: [abenmime_pictures_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmime_pictures_abexa.htm)
 
 ### abenmime_html_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenmime_html_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmime_html_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -1165,7 +1082,7 @@ See also the [executable example](javascript:call_link\('abenicf_mime_pictures_a
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) →  [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_screen.htm) →  [dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - HTML from the MIME Repository, ABENMIME_HTML_ABEXA, 757%0D%0A%0D%0AError:%0D
 %0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -1241,20 +1158,10 @@ Description  
 
 An API is used to load a HTML file and an image from the MIME repository and store them in internal tables. The method LOAD\_DATA of the class CL\_GUI\_HTML\_VIEWER is used to associate the data with the HTML control of CFW and the HTML file is displayed. The name of the image in the HTML file is the same as the URL passed to the method LOAD\_DATA for the image. LOAD\_DATA is given a URL for the image in the internal table and is used on the HTML page.
 
-See also the [executable example](javascript:call_link\('abenicf_mime_pictures_abexa.htm'\)) for direct access to objects from the MIME repository using ICF.
+See also the [executable example](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenicf_mime_pictures_abexa.htm) for direct access to objects from the MIME repository using ICF.
 
-
-
-**📖 Source**: [abenmime_html_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmime_html_abexa.htm)
 
 ### abentext_output_abexa.htm
-
-> **📖 Official SAP Documentation**: [abentext_output_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_output_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abentext_output_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentext_output_abexa.htm)
-
 
   
 
@@ -1262,7 +1169,7 @@ See also the [executable example](javascript:call_link\('abenicf_mime_pictures_a
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [dynpro - Screen Layout and Screen Elements](javascript:call_link\('abenabap_dynpros_screen.htm'\)) →  [dynpro - Examples of Screen Elements](javascript:call_link\('abenscreen_elements_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros.htm) →  [dynpro - Screen Layout and Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpros_screen.htm) →  [dynpro - Examples of Screen Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenscreen_elements_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: dynpro - Text Output, ABENTEXT_OUTPUT_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%
 0D%0ASuggestion for improvement:)
@@ -1309,4 +1216,4 @@ Description  
 
 The program uses the methods of the class CL\_DEMO\_TEXT, which was designed for this purpose. The class encapsulates the use of a text edit control in a dialog box.
 
-Wrappers like this can replace the use of the statement [WRITE](javascript:call_link\('abapwrite-.htm'\)) for simple text output.
+Wrappers like this can replace the use of the statement [WRITE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite-.htm) for simple text output.

@@ -4,21 +4,21 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [ST - Simple Transformations](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Flow Control](javascript:call_link\('abenst_flow_control.htm'\)) →  [ST - tt:cond, Conditional Transformations](javascript:call_link\('abenst_tt_cond.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_xml_trafos.htm) →  [ST - Simple Transformations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_serial_deserial.htm) →  [ST - Flow Control](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_flow_control.htm) →  [ST - tt:cond, Conditional Transformations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_cond.htm) → 
 
 ST - Pattern
 
-When [conditional transformations](javascript:call_link\('abenst_tt_cond.htm'\)) are deserialized, the fact that the template content is also a pattern is used as a criterion for the assessment. A pattern contains one or more constructs that are used as markers. The most common form of a marker is a literal XML element: if the content of the condition consists of exactly one XML element, then the condition has exactly one positive result if an XML element with this name follows at the current position in the XML input stream.
+When [conditional transformations](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_cond.htm) are deserialized, the fact that the template content is also a pattern is used as a criterion for the assessment. A pattern contains one or more constructs that are used as markers. The most common form of a marker is a literal XML element: if the content of the condition consists of exactly one XML element, then the condition has exactly one positive result if an XML element with this name follows at the current position in the XML input stream.
 
 Marker constructs are:
 
--   [Literal XML element](javascript:call_link\('abenst_xml_literals.htm'\)) with or without content
+-   [Literal XML element](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_xml_literals.htm) with or without content
 
--   [Non-literal attribute](javascript:call_link\('abenst_tt_attribute.htm'\)) with content
+-   [Non-literal attribute](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_attribute.htm) with content
 
--   Non-empty [literal text](javascript:call_link\('abenst_tt_text.htm'\))
+-   Non-empty [literal text](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_text.htm)
 
--   Explict [empty template content](javascript:call_link\('abenst_tt_empty.htm'\))
+-   Explict [empty template content](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenst_tt_empty.htm)
 
 Each of these constructs can be compared with the input stream in an obvious way.
 

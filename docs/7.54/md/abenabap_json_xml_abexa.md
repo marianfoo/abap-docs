@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) →  [JSON, Examples](javascript:call_link\('abenabap_json_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json.htm) →  [JSON, Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_abexas.htm) → 
 
 JSON, Object Components in JSON-XML
 
-This example demonstrates the two alternatives for object components in [JSON-XML](javascript:call_link\('abenabap_json_xml.htm'\)).
+This example demonstrates the two alternatives for object components in [JSON-XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_xml.htm).
 
 Source Code
 
@@ -84,8 +84,8 @@ START-OF-SELECTION.
 
 Description
 
-The string json\_xml is filled with XML data in valid [JSON-XML](javascript:call_link\('abenjson_xml_glosry.htm'\) "Glossary Entry") and displayed. The element <object> contains elements that embody JSON object components directly and <member> elements that wrap these components.
+The string json\_xml is filled with XML data in valid [JSON-XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_xml_glosry.htm "Glossary Entry") and displayed. The element <object> contains elements that embody JSON object components directly and <member> elements that wrap these components.
 
-A [JSON reader](javascript:call_link\('abenjson_reader_glosry.htm'\) "Glossary Entry") parses the string json\_xml by calling the method SKIP\_NODE in a single action and passes the XML data to a [JSON writer](javascript:call_link\('abenjson_writer_glosry.htm'\) "Glossary Entry") created with the type IF\_SXML=>CO\_XT\_JSON. The output of this writer is passed to the string json, which then contains valid JSON data. The writer has applied both alternatives to the object components with the same result.
+A [JSON reader](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_reader_glosry.htm "Glossary Entry") parses the string json\_xml by calling the method SKIP\_NODE in a single action and passes the XML data to a [JSON writer](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenjson_writer_glosry.htm "Glossary Entry") created with the type IF\_SXML=>CO\_XT\_JSON. The output of this writer is passed to the string json, which then contains valid JSON data. The writer has applied both alternatives to the object components with the same result.
 
 The string json is parsed with two further XML readers. The first parses with standard setting and the setting applies the option IF\_SXML\_READER=>CO\_OPT\_SEP\_MEMBER. In the JSON-XML result of the first reader, no object component has a <member> element; in the JSON-XML results of the second reader, every object component is displayed with a <member> element.

@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 foreign key
 
-One or more columns of a [database table](javascript:call_link\('abendatabase_table_glosry.htm'\) "Glossary Entry") ([foreign key table](javascript:call_link\('abenforeign_key_table_glosry.htm'\) "Glossary Entry")) that are [primary keys](javascript:call_link\('abenprimary_key_glosry.htm'\) "Glossary Entry") of another database table ([check table](javascript:call_link\('abencheck_table_glosry.htm'\) "Glossary Entry")).
+One or more columns of a [database table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_table_glosry.htm "Glossary Entry") ([foreign key table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenforeign_key_table_glosry.htm "Glossary Entry")) that are [primary keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprimary_key_glosry.htm "Glossary Entry") of another database table ([check table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencheck_table_glosry.htm "Glossary Entry")).
 
-[→ More](javascript:call_link\('abenddic_database_tables_forkey.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_database_tables_forkey.htm)

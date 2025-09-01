@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 7.40 and its SPs](javascript:call_link\('abennews-740.htm'\)) →  [News for ABAP Release 7.40, SP02](javascript:call_link\('abennews-740_sp02.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 7.40 and its SPs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-740.htm) →  [News for ABAP Release 7.40, SP02](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-740_sp02.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Operand%20Positions%20in%20ABAP%20Release%207.40%2C%20SP02%2C%20ABENNEWS-740-OPERAND_POSITIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%2
 0for%20improvement:)
@@ -25,25 +25,25 @@ Modification 1  
 
 Declaration Positions
 
-The [new](javascript:call_link\('abennews-740-expressions.htm'\)) [inline declarations](javascript:call_link\('abeninline_declarations.htm'\)) can be made in the new [declaration positions](javascript:call_link\('abendeclaration_positions.htm'\)).
+The [new](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-740-expressions.htm) [inline declarations](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninline_declarations.htm) can be made in the new [declaration positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendeclaration_positions.htm).
 
 Modification 2   
 
 Operand Position in CALL FUNCTION ... EXPORTING
 
-Actual parameters specified after [CALL FUNCTION ... EXPORTING](javascript:call_link\('abapcall_function_parameter.htm'\)) have now become a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry").
+Actual parameters specified after [CALL FUNCTION ... EXPORTING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_parameter.htm) have now become a [general expression position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry").
 
 Modification 3   
 
 Operand Position After CASE
 
-The operand position after [CASE](javascript:call_link\('abapcase.htm'\)) was changed to a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry").
+The operand position after [CASE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcase.htm) was changed to a [general expression position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry").
 
 Modification 4   
 
 Operand Position in Dynamic ASSIGN
 
-The operand comp in the statement [ASSIGN COMPONENT comp OF STRUCTURE](javascript:call_link\('abapassign_dynamic_components.htm'\)) is now a [character-like](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry") or [numeric expression position](javascript:call_link\('abennumerical_expr_position_glosry.htm'\) "Glossary Entry").
+The operand comp in the statement [ASSIGN COMPONENT comp OF STRUCTURE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_dynamic_components.htm) is now a [character-like](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry") or [numeric expression position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumerical_expr_position_glosry.htm "Glossary Entry").
 
 Modification 5   
 
@@ -51,13 +51,13 @@ Operand Positions in Statements for Internal Tables
 
 The following changes have been made:
 
--   The operands after the addition WITH TABLE KEY of the statements [READ TABLE itab](javascript:call_link\('abapread_table.htm'\)) and [DELETE TABLE itab](javascript:call_link\('abapdelete_itab_line.htm'\)) are now [general expression positions](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry").
--   The work area wa of the following statements was changed from functional operand positions to [general expression positions](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"):
-    -   [APPEND wa TO ...](javascript:call_link\('abapappend_linespec.htm'\))
-    -   [INSERT wa INTO ...](javascript:call_link\('abapinsert_itab_linespec.htm'\))
-    -   [MODIFY ... FROM wa ...](javascript:call_link\('abapmodify_itab_single.htm'\))
--   The internal table itab specified in the statements [READ TABLE itab ...](javascript:call_link\('abapread_table.htm'\)) and [LOOP AT itab ...](javascript:call_link\('abaploop_at_itab.htm'\)) is now a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry").
--   In the statement [SORT itab](javascript:call_link\('abapsort_itab.htm'\)), the internal table (otab) can now be specified for dynamic sorts as the result of an expression or functional method call.
+-   The operands after the addition WITH TABLE KEY of the statements [READ TABLE itab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_table.htm) and [DELETE TABLE itab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_itab_line.htm) are now [general expression positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry").
+-   The work area wa of the following statements was changed from functional operand positions to [general expression positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"):
+    -   [APPEND wa TO ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapappend_linespec.htm)
+    -   [INSERT wa INTO ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_itab_linespec.htm)
+    -   [MODIFY ... FROM wa ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab_single.htm)
+-   The internal table itab specified in the statements [READ TABLE itab ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_table.htm) and [LOOP AT itab ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_itab.htm) is now a [functional operand position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_position_glosry.htm "Glossary Entry").
+-   In the statement [SORT itab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsort_itab.htm), the internal table (otab) can now be specified for dynamic sorts as the result of an expression or functional method call.
 
 Modification 6   
 
@@ -65,32 +65,32 @@ Operand Positions for Events in ABAP Objects
 
 The following changes have been made:
 
--   The operand positions for formal parameters of the statement [RAISE EVENT](javascript:call_link\('abapraise_event.htm'\)) are now [general expression positions](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). [Functions and expressions](javascript:call_link\('abentyping_arith_expr.htm'\)) can now also be passed to event handlers as actual parameters.
--   oref specified after [SET HANDLER ... FOR](javascript:call_link\('abapset_handler_instance.htm'\)) is now a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry").
+-   The operand positions for formal parameters of the statement [RAISE EVENT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_event.htm) are now [general expression positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). [Functions and expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentyping_arith_expr.htm) can now also be passed to event handlers as actual parameters.
+-   oref specified after [SET HANDLER ... FOR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_handler_instance.htm) is now a [functional operand position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_position_glosry.htm "Glossary Entry").
 
 Modification 7   
 
 Operand Positions After MESSAGE
 
-The following operand positions of the statement [MESSAGE](javascript:call_link\('abapmessage.htm'\)) were changed:
+The following operand positions of the statement [MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) were changed:
 
--   [oref](javascript:call_link\('abapmessage_msg.htm'\)) is now a [functional operand position](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry").
--   [text](javascript:call_link\('abapmessage_text.htm'\)) is now a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry").
--   dobj through dobj4 after [WITH](javascript:call_link\('abapmessage.htm'\)) are now [character-like expression positions](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry") or [functional operand positions](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry").
+-   [oref](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_msg.htm) is now a [functional operand position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_position_glosry.htm "Glossary Entry").
+-   [text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage_text.htm) is now a [character-like expression position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
+-   dobj through dobj4 after [WITH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm) are now [character-like expression positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry") or [functional operand positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_position_glosry.htm "Glossary Entry").
 
 Modification 8   
 
 Operand Position in WRITE and WRITE TO
 
-Until now, the statements [WRITE](javascript:call_link\('abapwrite-.htm'\)) and [WRITE TO](javascript:call_link\('abapwrite_to.htm'\)) could only be used to produce or assign a single data object dobj. Now the following can also be specified instead of dobj:
+Until now, the statements [WRITE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite-.htm) and [WRITE TO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to.htm) could only be used to produce or assign a single data object dobj. Now the following can also be specified instead of dobj:
 
--   A [built-in function](javascript:call_link\('abenbuiltin_function_glosry.htm'\) "Glossary Entry"), a [functional method call](javascript:call_link\('abenfunctional_method_call_glosry.htm'\) "Glossary Entry") or [method chaining](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry"), or a [constructor expression](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") If the return value/result meets the conditions for dobj.
--   A [string expression](javascript:call_link\('abenstring_expression_glosry.htm'\) "Glossary Entry").
+-   A [built-in function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_function_glosry.htm "Glossary Entry"), a [functional method call](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_method_call_glosry.htm "Glossary Entry") or [method chaining](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_chaining_glosry.htm "Glossary Entry"), or a [constructor expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") If the return value/result meets the conditions for dobj.
+-   A [string expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_expression_glosry.htm "Glossary Entry").
 
-[Arithmetic expressions](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry") and [bit expressions](javascript:call_link\('abenbit_expression_glosry.htm'\) "Glossary Entry") cannot be specified directly, but can be specified as [embedded expressions](javascript:call_link\('abenembedded_expression_glosry.htm'\) "Glossary Entry") in [string templates](javascript:call_link\('abenstring_template_glosry.htm'\) "Glossary Entry").
+[Arithmetic expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry") and [bit expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbit_expression_glosry.htm "Glossary Entry") cannot be specified directly, but can be specified as [embedded expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenembedded_expression_glosry.htm "Glossary Entry") in [string templates](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_template_glosry.htm "Glossary Entry").
 
 Modification 9   
 
 Case Sensitivity of Name in ASSIGN COMPONENT
 
-A component name specified as a character string in [ASSIGN COMPONENT](javascript:call_link\('abapassign_dynamic_components.htm'\)) does not have to be in uppercase letters any more.
+A component name specified as a character string in [ASSIGN COMPONENT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_dynamic_components.htm) does not have to be in uppercase letters any more.

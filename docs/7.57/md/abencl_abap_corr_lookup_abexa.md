@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [Assigning Components, Examples](javascript:call_link\('abencorresponding_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorresponding.htm) →  [Assigning Components, Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorresponding_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CL_ABAP_CORRESPONDING with Lookup Table, ABENCL_ABAP_CORR_LOOKUP_ABEXA, 757%0D%0A%0D%
 0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CL\_ABAP\_CORRESPONDING with Lookup Table
 
-This example demonstrates the system class [CL\_ABAP\_CORRESPONDING](javascript:call_link\('abencl_abap_corresponding.htm'\)) with a lookup table
+This example demonstrates the system class [CL\_ABAP\_CORRESPONDING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencl_abap_corresponding.htm) with a lookup table
 
 Source Code   
 
@@ -109,4 +109,4 @@ START-OF-SELECTION.
 
 Description   
 
-This example shows how the first two uses of the component operator CORRESPONDING in the executable example [Component Operator, Lookup Table](javascript:call_link\('abencorresponding_using_abexa.htm'\)) can be transformed to method calls for the class CL\_ABAP\_CORRESPONDING. The results are the same in both cases. There is no equivalent for the third option of using the component operator, since the method EXECUTE\_USING uses a CHANGING parameter and the source table therefore always matches the target table.
+This example shows how the first two uses of the component operator CORRESPONDING in the executable example [Component Operator, Lookup Table](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencorresponding_using_abexa.htm) can be transformed to method calls for the class CL\_ABAP\_CORRESPONDING. The results are the same in both cases. There is no equivalent for the third option of using the component operator, since the method EXECUTE\_USING uses a CHANGING parameter and the source table therefore always matches the target table.

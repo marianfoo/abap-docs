@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [RAP - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [RAP - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [RAP - Managed and Unmanaged Behavior Definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [RAP - Behavior Definition Header](javascript:call_link\('abenbdl_bdef_header.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [RAP - Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef.htm) →  [RAP - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl.htm) →  [RAP - Managed and Unmanaged Behavior Definitions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_rap_bo.htm) →  [RAP - Behavior Definition Header](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_bdef_header.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20RAP%20-%20extensible%2C%20ABENBDL_EXTENSIBLE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -23,12 +23,12 @@ extensible *\[*{
 
 Effect
 
-The addition extensible can be used to allow [BDEF extensions](javascript:call_link\('abenbdl_extension.htm'\)). If it is not specified, then extensions are not allowed. As a prerequisite, [BDEF strict mode](javascript:call_link\('abenbdl_strict.htm'\)) must be switched on.
+The addition extensible can be used to allow [BDEF extensions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extension.htm). If it is not specified, then extensions are not allowed. As a prerequisite, [BDEF strict mode](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_strict.htm) must be switched on.
 
 The keyword extensible must be specified in two places:
 
--   It must be declared in the [BDEF header](javascript:call_link\('abencds_bdef_header_glosry.htm'\) "Glossary Entry")
--   It must be declared in the [entity behavior characteristics](javascript:call_link\('abencds_entity_properties_glosry.htm'\) "Glossary Entry") for each individual entity that allows BDEF extensions.
+-   It must be declared in the [BDEF header](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_bdef_header_glosry.htm "Glossary Entry")
+-   It must be declared in the [entity behavior characteristics](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_entity_properties_glosry.htm "Glossary Entry") for each individual entity that allows BDEF extensions.
 
 In the header declaration, the following optional additions are available:
 
@@ -37,7 +37,7 @@ In the header declaration, the following optional additions are available:
 -   with determinations on modify
 -   with additional save
 
-These additions explicitly allow the kinds of [validations](javascript:call_link\('abenbdl_validations.htm'\)), [determinations](javascript:call_link\('abenbdl_determinations.htm'\)), or a [RAP additional save](javascript:call_link\('abenrap_add_save_glosry.htm'\) "Glossary Entry") in a [RAP entity behavior extension](javascript:call_link\('abenrap_behavior_extension_glosry.htm'\) "Glossary Entry"). If not declared explicitly, the respective type of determination, validation, and the additional save must not be defined in an extension to an existing RAP BO entity.
+These additions explicitly allow the kinds of [validations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_validations.htm), [determinations](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_determinations.htm), or a [RAP additional save](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_add_save_glosry.htm "Glossary Entry") in a [RAP entity behavior extension](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_behavior_extension_glosry.htm "Glossary Entry"). If not declared explicitly, the respective type of determination, validation, and the additional save must not be defined in an extension to an existing RAP BO entity.
 
 Note: This declaration refers only to extensions of existing RAP BO entities. In extension nodes, validations, determinations, and an additional save are always possible and no explicit permission is required.
 
@@ -45,10 +45,10 @@ Availability
 
 Currently, the keyword extensible is available for
 
--   [managed RAP BOs](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry")
--   [projection BDEFs](javascript:call_link\('abenrap_projection_bo_glosry.htm'\) "Glossary Entry")
--   [interface BDEFs](javascript:call_link\('abencds_interface_bdef_glosry.htm'\) "Glossary Entry")
--   [abstract BDEFs](javascript:call_link\('abencds_abstract_bdef_glosry.htm'\) "Glossary Entry")
+-   [managed RAP BOs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry")
+-   [projection BDEFs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_projection_bo_glosry.htm "Glossary Entry")
+-   [interface BDEFs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_interface_bdef_glosry.htm "Glossary Entry")
+-   [abstract BDEFs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_abstract_bdef_glosry.htm "Glossary Entry")
 
 In projection BDEFs, interface BDEFs, and abstract BDEFs, only the keyword extensible is possible, without any further additions.
 
@@ -56,13 +56,13 @@ In interface BDEFs, extensible can be specified only in the BDEF header and stri
 
 Further Information
 
-A complete overview of extension points and extensibility enabling for behavior definitions is described in section [Extensibility Enabling](javascript:call_link\('abenbdl_extensibility_enabling.htm'\)).
+A complete overview of extension points and extensibility enabling for behavior definitions is described in section [Extensibility Enabling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_extensibility_enabling.htm).
 
 Example
 
 The RAP behavior definition for DEMO\_RAP\_EXTENSIBLE enables BDEF extensions by specifying multiple extension points.
 
-Note: This example is intentionally kept short and simple and serves demonstration purposes only. For example, some [RAP handler methods](javascript:call_link\('abenabp_handler_method_glosry.htm'\) "Glossary Entry") of the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") are not implemented here.
+Note: This example is intentionally kept short and simple and serves demonstration purposes only. For example, some [RAP handler methods](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabp_handler_method_glosry.htm "Glossary Entry") of the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") are not implemented here.
 
 managed implementation in class bp\_demo\_rap\_extensible unique;
 strict(2);

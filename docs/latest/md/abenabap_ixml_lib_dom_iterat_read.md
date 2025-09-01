@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Class Libraries](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)) →  [iXML - Access to DOM](javascript:call_link\('abenabap_ixml_lib_dom_access.htm'\)) →  [iXML - DOM Reads](javascript:call_link\('abenabap_ixml_lib_dom_access_read.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml.htm) →  [XML - Class Libraries](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml_libs.htm) →  [iXML Library](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib.htm) →  [iXML - Access to DOM](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_dom_access.htm) →  [iXML - DOM Reads](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_dom_access_read.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20iXML%20-%20Reads%20Using%20Iterators%2C%20ABENABAP_IXML_LIB_DOM_ITERAT_READ%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:
 )
 
 iXML - Reads Using Iterators
 
-The section [Direct Read](javascript:call_link\('abenabap_ixml_lib_dom_direct_read.htm'\)) demonstrates how to access the DOM nodes directly using the following objects:
+The section [Direct Read](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_dom_direct_read.htm) demonstrates how to access the DOM nodes directly using the following objects:
 
 -   Objects with the IF\_IXML\_NODE interface for individual nodes
 -   Objects with the IF\_IXML\_NODE\_LIST interface for lists of subnodes
@@ -20,7 +20,8 @@ The section [Direct Read](javascript:call_link\('abenabap_ixml_lib_dom_direct_re
 
 An iterator can be created for each of these objects. This iterator makes it possible to iterate using the DOM elements represented by the objects. The interface of every iterator provides the same options for accessing the objects iterated by the iterator.
 
--   [Iterator for Nodes](#abenabap-ixml-lib-dom-iterat-read-1-------iterators-for-lists---@ITOC@@ABENABAP_IXML_LIB_DOM_ITERAT_READ_2)
+-   [Iterator for Nodes](#@@ITOC@@ABENABAP_IXML_LIB_DOM_ITERAT_READ_1)
+-   [Iterators for Lists](#@@ITOC@@ABENABAP_IXML_LIB_DOM_ITERAT_READ_2)
 
 Hint
 
@@ -42,16 +43,16 @@ The static type of the reference variable node is then IF\_IXML\_NODE and it poi
 
 Hints
 
--   Unlike a node [direct read](javascript:call_link\('abenabap_ixml_lib_dom_direct_read.htm'\)), which can be restricted to the elements of the represented XML data, an iterator captures all nodes in an XML document, including nodes that only contain structural information. The method GET\_TYPE of interface IF\_IXML\_NODE should be used to read the node type and compare it to constants of this interface. [Filter](javascript:call_link\('abenabap_ixml_lib_dom_filter_read.htm'\)) or [Downcasts](javascript:call_link\('abenixml_down_casts.htm'\)) provide further options for only selecting specified nodes.
+-   Unlike a node [direct read](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_dom_direct_read.htm), which can be restricted to the elements of the represented XML data, an iterator captures all nodes in an XML document, including nodes that only contain structural information. The method GET\_TYPE of interface IF\_IXML\_NODE should be used to read the node type and compare it to constants of this interface. [Filter](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_dom_filter_read.htm) or [Downcasts](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenixml_down_casts.htm) provide further options for only selecting specified nodes.
 -   In addition to the iterator for subnodes shown here, an inline iterator is also available with the interface IF\_IXML\_INLINE\_ITERATOR for iterating neighboring nodes.
 
 Executable Example
 
-[Iterator for Nodes](javascript:call_link\('abenixml_node_iterator_abexa.htm'\))
+[Iterator for Nodes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenixml_node_iterator_abexa.htm)
 
 Iterators for Lists   
 
-An iterator can be created for all of the lists under [Direct Read](javascript:call_link\('abenabap_ixml_lib_dom_direct_read.htm'\))
+An iterator can be created for all of the lists under [Direct Read](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib_dom_direct_read.htm)
 
 -   Node list (IF\_IXML\_NODE\_LIST)
 -   Element list (IF\_IXML\_NODE\_COLLECTION)
@@ -68,6 +69,6 @@ Since the lists only contain the required elements, it is usually not necessary 
 
 Executable Examples
 
--   [Iterator for Node List](javascript:call_link\('abenixml_node_list_iterator_abexa.htm'\))
--   [Iterator for Element List](javascript:call_link\('abenixml_name_list_iterator_abexa.htm'\))
--   [Iterator for Attributes](javascript:call_link\('abenixml_attributes_iterator_abexa.htm'\))
+-   [Iterator for Node List](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenixml_node_list_iterator_abexa.htm)
+-   [Iterator for Element List](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenixml_name_list_iterator_abexa.htm)
+-   [Iterator for Attributes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenixml_attributes_iterator_abexa.htm)

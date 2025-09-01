@@ -3,31 +3,7 @@
 Included pages: 9
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.57](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenbdl_extensibility_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm)
-- [abenbdl_extension_for_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm)
-- [abenbdl_extend_beh_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)
-- [abenbdl_proj_ext_body.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm)
-- [abenbdl_proj_ext_entity.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm)
-- [abenbdl_entity_proj_ext_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_abexa.htm)
-- [abenbdl_entity_proj_ext_1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_1_abexa.htm)
-
-**Bundle Contains**: 7 documentation pages
-**Version**: ABAP 7.57
-**Generated**: 2025-09-01T11:25:45.200Z
-
----
-
 ### abenbdl_extensibility_projection.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_extensibility_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,38 +11,31 @@ Included pages: 9
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - BDEF Projection Extension, ABENBDL_EXTENSIBILITY_PROJECTION, 757%0D%0A%0D%0
 AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 CDS BDL - BDEF Projection Extension
 
-A [BDEF projection extension](javascript:call_link\('abenrap_projec_bdef_ext_glosry.htm'\) "Glossary Entry") is a repository object that extends a [CDS projection behavior definition](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry") using the statement [extension for projection](javascript:call_link\('abenbdl_extension_for_projection.htm'\)).
+A [BDEF projection extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_projec_bdef_ext_glosry.htm "Glossary Entry") is a repository object that extends a [CDS projection behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry") using the statement [extension for projection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm).
 
-As a prerequisite, the respective projection BDEF must explicitly allow extensions as described in topic [Extensibility Enabling for CDS Projection BDEFs](javascript:call_link\('abenbdl_ext_enabling_projection.htm'\)).
+As a prerequisite, the respective projection BDEF must explicitly allow extensions as described in topic [Extensibility Enabling for CDS Projection BDEFs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_ext_enabling_projection.htm).
 
 The following image shows the possible components of a BDEF projection extension:
 
 ![Figure](bdef_projection_extension_struc.jpg)
 
--   The [BDEF projection extension header](javascript:call_link\('abenrap_proj_ext_header_glosry.htm'\) "Glossary Entry") is a mandatory component that starts with [extension for projection](javascript:call_link\('abenbdl_extension_for_projection.htm'\)).
--   An [entity projection extension](javascript:call_link\('abenrap_entity_proj_ext_glosry.htm'\) "Glossary Entry") is an optional component. It extends the behavior of an existing RAP BO entity of a BDEF projection. It starts with [extend behavior for](javascript:call_link\('abenbdl_extend_beh_proj.htm'\)).
--   A [projection extension entity](javascript:call_link\('abenrap_proj_ext_entity_glosry.htm'\) "Glossary Entry") is an optional component that defines the behavior for the projection of an extension node. It starts with [define behavior for](javascript:call_link\('abenbdl_proj_ext_entity.htm'\)).
--   An [authorization context](javascript:call_link\('abencds_auth_context_glosry.htm'\) "Glossary Entry") can be added or an [own authorization context](javascript:call_link\('abencds_own_ac_glosry.htm'\) "Glossary Entry") may be extended.
+-   The [BDEF projection extension header](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_proj_ext_header_glosry.htm "Glossary Entry") is a mandatory component that starts with [extension for projection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm).
+-   An [entity projection extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_entity_proj_ext_glosry.htm "Glossary Entry") is an optional component. It extends the behavior of an existing RAP BO entity of a BDEF projection. It starts with [extend behavior for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm).
+-   A [projection extension entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_proj_ext_entity_glosry.htm "Glossary Entry") is an optional component that defines the behavior for the projection of an extension node. It starts with [define behavior for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm).
+-   An [authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_auth_context_glosry.htm "Glossary Entry") can be added or an [own authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_own_ac_glosry.htm "Glossary Entry") may be extended.
 
 Continue
-[CDS BDL - extension for projection](javascript:call_link\('abenbdl_extension_for_projection.htm'\))
+[CDS BDL - extension for projection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm)
 
-
-
-**📖 Source**: [abenbdl_extensibility_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm)
 
 ### abenbdl_extension_for_projection.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_extension_for_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -74,7 +43,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [CDS BDL - BDEF Projection Extension](javascript:call_link\('abenbdl_extensibility_projection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm) →  [CDS BDL - BDEF Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - extension for projection, ABENBDL_EXTENSION_FOR_PROJECTION, 757%0D%0A%0D%0A
 Error:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -83,36 +52,36 @@ CDS BDL - extension for projection
 
 Syntax
 
-extension for projection *\[*[implementation in class ClassName unique](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\))*\]*;
-  *\[*[with privileged mode disabling base context *\[*and ContextName*\]*](javascript:call_link\('abenbdl_privileged_mode.htm'\))*\]*;
-  *\[*[foreign entity](javascript:call_link\('abenbdl_foreign.htm'\))*\]*
-  *\[*[define behavior for](javascript:call_link\('abenbdl_proj_ext_entity.htm'\))*\]*
-  *\[*[extend behavior for](javascript:call_link\('abenbdl_extend_beh_proj.htm'\))*\]*
-  *\[*[extend own authorization context](javascript:call_link\('abenbdl_extend_own_auth_context.htm'\))*\]*
-  *\[*[define authorization context](javascript:call_link\('abenbdl_def_auth_context.htm'\))*\]*
+extension for projection *\[*[implementation in class ClassName unique](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm)*\]*;
+  *\[*[with privileged mode disabling base context *\[*and ContextName*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_privileged_mode.htm)*\]*;
+  *\[*[foreign entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_foreign.htm)*\]*
+  *\[*[define behavior for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm)*\]*
+  *\[*[extend behavior for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)*\]*
+  *\[*[extend own authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_own_auth_context.htm)*\]*
+  *\[*[define authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_def_auth_context.htm)*\]*
 ...
 
 Effect
 
-Extends an existing [CDS projection behavior definition](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry") using a [BDEF projection extension](javascript:call_link\('abenrap_projec_bdef_ext_glosry.htm'\) "Glossary Entry") in the [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry"). A CDS projection behavior definition can have one or more BDEF projection extensions. The number of extensions is not limited. A BDEF projection extension itself cannot be further extended.
+Extends an existing [CDS projection behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry") using a [BDEF projection extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_projec_bdef_ext_glosry.htm "Glossary Entry") in the [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry"). A CDS projection behavior definition can have one or more BDEF projection extensions. The number of extensions is not limited. A BDEF projection extension itself cannot be further extended.
 
 A BDEF projection extension can have the following components:
 
--   implementation in class ClassName unique: an [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is possible in a BDEF projection extension:
+-   implementation in class ClassName unique: an [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is possible in a BDEF projection extension:
     -   Functionality that is reused from the original BO does not require its own implementation. The implementation from the original BO is reused.
     -   If the BDEF projection extension defines new actions or functions, an ABAP behavior pool is required.
-    -   The rules for extension ABPs apply, see topic [implementation in class unique, extension](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)).
+    -   The rules for extension ABPs apply, see topic [implementation in class unique, extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm).
 -   with privileged mode disabling base context *\[*and ContextName*\]*:
-    -   A BDEF projection extension can enable [BDEF privileged mode](javascript:call_link\('abenrap_privileged_mode_glosry.htm'\) "Glossary Entry"). As a prerequisite, the original BO of type managed or unmanaged must enable privileged mode. The behavior of the extended BDEF of type projection is irrelevant. It may define privileged mode, but this is optional.
-    -   The syntax addition disabling base context is mandatory; and ContextName is optional. The same rules apply as for projection behavior definitions, see topic [with privileged mode](javascript:call_link\('abenbdl_privileged_mode.htm'\)), Alternative 2.
+    -   A BDEF projection extension can enable [BDEF privileged mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_privileged_mode_glosry.htm "Glossary Entry"). As a prerequisite, the original BO of type managed or unmanaged must enable privileged mode. The behavior of the extended BDEF of type projection is irrelevant. It may define privileged mode, but this is optional.
+    -   The syntax addition disabling base context is mandatory; and ContextName is optional. The same rules apply as for projection behavior definitions, see topic [with privileged mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_privileged_mode.htm), Alternative 2.
 -   foreign entity:
-    -   Defines a [RAP BO entity](javascript:call_link\('abenrap_bo_entity_glosry.htm'\) "Glossary Entry") which is not part of the [CDS composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") of the current RAP BO as part of the response structures.
+    -   Defines a [RAP BO entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_entity_glosry.htm "Glossary Entry") which is not part of the [CDS composition tree](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") of the current RAP BO as part of the response structures.
     -   A foreign entity can be defined before, after, or between the other components.
-    -   Only entities that belong to the same software component can be added as [RAP foreign entity](javascript:call_link\('abenrap_foreign_entity_glosry.htm'\) "Glossary Entry") to a BDEF projection extension.
--   [define behavior for](javascript:call_link\('abenbdl_proj_ext_entity.htm'\)): Defines a [RAP projection extension entity](javascript:call_link\('abenrap_proj_ext_entity_glosry.htm'\) "Glossary Entry") using the statement [define behavior for](javascript:call_link\('abenbdl_proj_ext_entity.htm'\)).
--   [extend behavior for](javascript:call_link\('abenbdl_extend_beh_proj.htm'\)): A [RAP entity projection extension](javascript:call_link\('abenrap_entity_proj_ext_glosry.htm'\) "Glossary Entry") extends the behavior of an existing entity of a projection BDEF.
--   [extend own authorization context](javascript:call_link\('abenbdl_extend_own_auth_context.htm'\)): if the projected BDEF of implementation type projection defines an [own authorization context](javascript:call_link\('abencds_own_ac_glosry.htm'\) "Glossary Entry"), this context can be extended. If the projected BDEF does not define an own authorization context, it must not be added via an extension.
--   [define authorization context](javascript:call_link\('abenbdl_def_auth_context.htm'\)): a new [authorization context](javascript:call_link\('abencds_auth_context_glosry.htm'\) "Glossary Entry") can be defined in a BDEF projection extension. For details, see topic [CDS BDL - define authorization context](javascript:call_link\('abenbdl_def_auth_context.htm'\)).
+    -   Only entities that belong to the same software component can be added as [RAP foreign entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_foreign_entity_glosry.htm "Glossary Entry") to a BDEF projection extension.
+-   [define behavior for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm): Defines a [RAP projection extension entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_proj_ext_entity_glosry.htm "Glossary Entry") using the statement [define behavior for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm).
+-   [extend behavior for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm): A [RAP entity projection extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_entity_proj_ext_glosry.htm "Glossary Entry") extends the behavior of an existing entity of a projection BDEF.
+-   [extend own authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_own_auth_context.htm): if the projected BDEF of implementation type projection defines an [own authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_own_ac_glosry.htm "Glossary Entry"), this context can be extended. If the projected BDEF does not define an own authorization context, it must not be added via an extension.
+-   [define authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_def_auth_context.htm): a new [authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_auth_context_glosry.htm "Glossary Entry") can be defined in a BDEF projection extension. For details, see topic [CDS BDL - define authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_def_auth_context.htm).
 
 Example
 
@@ -138,23 +107,16 @@ The BDEF projection extension DEMO\_RAP\_PROJ\_EXT\_BEH\_1 extends the CDS proje
 
 Executable Example
 
-The executable example [Projection Entity Extension](javascript:call_link\('abenbdl_entity_proj_ext_abexa.htm'\)) explains the example above in detail.
+The executable example [Projection Entity Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_abexa.htm) explains the example above in detail.
 
 Continue
-[CDS BDL - Entity Projection Extension](javascript:call_link\('abenbdl_extend_beh_proj.htm'\))
-[CDS BDL - Projection Extension Entity](javascript:call_link\('abenbdl_proj_ext_entity.htm'\))
-![Example](exa.gif "Example") [CDS BDL - BDEF Projection Extension, Node Extension](javascript:call_link\('abenbdl_entity_proj_ext_abexa.htm'\))
-![Example](exa.gif "Example") [CDS BDL - BDEF Projection Extension, Field Extension](javascript:call_link\('abenbdl_entity_proj_ext_1_abexa.htm'\))
+[CDS BDL - Entity Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)
+[CDS BDL - Projection Extension Entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm)
+![Example](exa.gif "Example") [CDS BDL - BDEF Projection Extension, Node Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_abexa.htm)
+![Example](exa.gif "Example") [CDS BDL - BDEF Projection Extension, Field Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_1_abexa.htm)
 
-
-
-**📖 Source**: [abenbdl_extension_for_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm)
 
 ### abenbdl_extend_beh_proj.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_extend_beh_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -162,7 +124,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [CDS BDL - BDEF Projection Extension](javascript:call_link\('abenbdl_extensibility_projection.htm'\)) →  [CDS BDL - extension for projection](javascript:call_link\('abenbdl_extension_for_projection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm) →  [CDS BDL - BDEF Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm) →  [CDS BDL - extension for projection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - Entity Projection Extension, ABENBDL_EXTEND_BEH_PROJ, 757%0D%0A%0D%0AError:
 %0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -172,25 +134,25 @@ CDS BDL - Entity Projection Extension
 Syntax
 
 extend behavior for ProjectionEntity
-  *\[* [implementation in class ClassName unique](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\))*\]*
-  *\[*[authorization](javascript:call_link\('abenbdl_authorization_projection.htm'\))*\]*
+  *\[* [implementation in class ClassName unique](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm)*\]*
+  *\[*[authorization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization_projection.htm)*\]*
 {
-   [projection\_extension\_body](javascript:call_link\('abenbdl_proj_ext_body.htm'\))
+   [projection\_extension\_body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm)
 }
 ...
 
 Effect
 
-An [entity projection extension](javascript:call_link\('abenrap_entity_proj_ext_glosry.htm'\) "Glossary Entry") extends a [projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry") ProjectionEntity. As a prerequisite, extensions must be explicitly enabling as described in topic [Extensibility Enabling for CDS Projection BDEFs](javascript:call_link\('abenbdl_ext_enabling_projection.htm'\)).
+An [entity projection extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_entity_proj_ext_glosry.htm "Glossary Entry") extends a [projection BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry") ProjectionEntity. As a prerequisite, extensions must be explicitly enabling as described in topic [Extensibility Enabling for CDS Projection BDEFs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_ext_enabling_projection.htm).
 
 Syntax additions and components:
 
--   [implementation in class ClassName unique](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)): specifies an [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") for the [extension](javascript:call_link\('abenrap_prefix_extension_glosry.htm'\) "Glossary Entry") behavior of the particular entity. Optional and only required if the entity in question defines new actions or functions. The rules for extension ABPs apply, see topic [CDS BDL - implementation in class unique, Extension](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)).
--   [authorization](javascript:call_link\('abenbdl_authorization_projection.htm'\)):
+-   [implementation in class ClassName unique](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm): specifies an [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") for the [extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_prefix_extension_glosry.htm "Glossary Entry") behavior of the particular entity. Optional and only required if the entity in question defines new actions or functions. The rules for extension ABPs apply, see topic [CDS BDL - implementation in class unique, Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm).
+-   [authorization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization_projection.htm):
     -   Defines authorization control for actions that were added in the projection layer via a BDEF projection extension.
     -   Optional and only useful in combination with new actions.
-    -   Works in the same way as for projection BDEFs, see topic [CDS BDL - authorization, Projection BDEF](javascript:call_link\('abenbdl_authorization_projection.htm'\)).
--   [projection\_extension\_body](javascript:call_link\('abenbdl_proj_ext_body.htm'\)): extends the [entity behavior body](javascript:call_link\('abencds_entity_body_glosry.htm'\) "Glossary Entry") of a projection BDEF.
+    -   Works in the same way as for projection BDEFs, see topic [CDS BDL - authorization, Projection BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization_projection.htm).
+-   [projection\_extension\_body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm): extends the [entity behavior body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_body_glosry.htm "Glossary Entry") of a projection BDEF.
 
 Example
 
@@ -206,20 +168,13 @@ field(readonly:update) int\_field\_ext;
 
 Executable Example
 
-The executable example [BDEF Projection Extension, Field Extension](javascript:call_link\('abenbdl_entity_proj_ext_1_abexa.htm'\)) explains the example above in detail.
+The executable example [BDEF Projection Extension, Field Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_1_abexa.htm) explains the example above in detail.
 
 Continue
-[CDS BDL - extension\_body, Projection Extension](javascript:call_link\('abenbdl_proj_ext_body.htm'\))
+[CDS BDL - extension\_body, Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm)
 
-
-
-**📖 Source**: [abenbdl_extend_beh_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)
 
 ### abenbdl_proj_ext_body.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_proj_ext_body.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -227,7 +182,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [CDS BDL - BDEF Projection Extension](javascript:call_link\('abenbdl_extensibility_projection.htm'\)) →  [CDS BDL - extension for projection](javascript:call_link\('abenbdl_extension_for_projection.htm'\)) →  [CDS BDL - Entity Projection Extension](javascript:call_link\('abenbdl_extend_beh_proj.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm) →  [CDS BDL - BDEF Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm) →  [CDS BDL - extension for projection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm) →  [CDS BDL - Entity Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - extension_body, Projection Extension, ABENBDL_PROJ_EXT_BODY, 757%0D%0A%0D%0
 AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -245,50 +200,43 @@ Syntax
 
 Effect
 
-Defines the [behavior extension body](javascript:call_link\('abenrap_behavior_ext_body_glosry.htm'\) "Glossary Entry") to extend an existing [RAP BO entity](javascript:call_link\('abenrap_bo_entity_glosry.htm'\) "Glossary Entry") in a [CDS projection behavior definition](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry").
+Defines the [behavior extension body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_behavior_ext_body_glosry.htm "Glossary Entry") to extend an existing [RAP BO entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_entity_glosry.htm "Glossary Entry") in a [CDS projection behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry").
 
 Components:
 
 -   field characteristics:
-    -   Adds [field attributes](javascript:call_link\('abenrap_field_char_glosry.htm'\) "Glossary Entry") to extension fields in a BDEF projection extension.
-    -   Field attributes can be added only for extension fields. Extension fields are fields which are not part of the original BO, but are added via [RAP data model extension](javascript:call_link\('abenrap_data_model_ext_glosry.htm'\) "Glossary Entry").
+    -   Adds [field attributes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_field_char_glosry.htm "Glossary Entry") to extension fields in a BDEF projection extension.
+    -   Field attributes can be added only for extension fields. Extension fields are fields which are not part of the original BO, but are added via [RAP data model extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_data_model_ext_glosry.htm "Glossary Entry").
     -   The following field attributes are available in BDEF projection extensions for extension fields: readonly, suppress, readonly:update.
-    -   These field attributes work as described in topic [Field Characteristics, Projection BDEF](javascript:call_link\('abenbdl_field_projection.htm'\)).
+    -   These field attributes work as described in topic [Field Characteristics, Projection BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_field_projection.htm).
         
-        Note: The field characteristics mandatory, modify, and features:instance are not available in [BDEF projection extensions](javascript:call_link\('abenrap_projec_bdef_ext_glosry.htm'\) "Glossary Entry").
+        Note: The field characteristics mandatory, modify, and features:instance are not available in [BDEF projection extensions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_projec_bdef_ext_glosry.htm "Glossary Entry").
         
 -   use:
-    -   The keyword use allows the reuse of [RAP BO operations](javascript:call_link\('abenrap_bo_operation_glosry.htm'\) "Glossary Entry").
-    -   The following operations can be reused: [RAP actions](javascript:call_link\('abenrap_action_glosry.htm'\) "Glossary Entry"), [RAP functions](javascript:call_link\('abenrap_function_glosry.htm'\) "Glossary Entry"), and [associations](javascript:call_link\('abenbdl_association.htm'\)).
+    -   The keyword use allows the reuse of [RAP BO operations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_operation_glosry.htm "Glossary Entry").
+    -   The following operations can be reused: [RAP actions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_action_glosry.htm "Glossary Entry"), [RAP functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_function_glosry.htm "Glossary Entry"), and [associations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_association.htm).
         
-        Limitation: The [operation augmentation](javascript:call_link\('abenrap_bo_augmentation_glosry.htm'\) "Glossary Entry") is not available in BDEF projection extensions. As a consequence, the following is not supported: use association \_child {create(augment);}.
+        Limitation: The [operation augmentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_augmentation_glosry.htm "Glossary Entry") is not available in BDEF projection extensions. As a consequence, the following is not supported: use association \_child {create(augment);}.
         
     -   Only extension operations that were created in the same software component can be reused. Operations from the original BDEF of type managed or unmanaged must not be reused.
     -   Actions, functions, and associations from the projection layer cannot be reused.
-    -   Reuse works as described in topic [CDS BDL - use](javascript:call_link\('abenbdl_use_projection.htm'\)).
+    -   Reuse works as described in topic [CDS BDL - use](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_use_projection.htm).
 -   Actions and functions:
-    -   New [RAP actions](javascript:call_link\('abenrap_action_glosry.htm'\) "Glossary Entry") and [RAP functions](javascript:call_link\('abenrap_function_glosry.htm'\) "Glossary Entry") can be defined and implemented in a BDEF projection extension.
-    -   The syntax is exactly the same as for actions and functions in projection BDEFs, see topic [Actions and Functions, Projection BDEF](javascript:call_link\('abenbdl_nonstandard_projection.htm'\)).
-    -   An implementation in an extension ABP is required. The rules for extension ABPs apply, see topic [CDS BDL - implementation in class unique, Extension](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)).
--   [mapping for](javascript:call_link\('abenbdl_type_mapping.htm'\)):
-    -   [RAP type mapping](javascript:call_link\('abenrap_type_mapping_glosry.htm'\) "Glossary Entry") can be added. This type mapping can only contain extension fields. It must not contain any fields from the original BDEF. The syntax is exactly the same as for RAP BOs, see topic [CDS BDL - Type Mapping](javascript:call_link\('abenbdl_type_mapping.htm'\)).
--   [extend mapping for](javascript:call_link\('abenbdl_type_mapping_ext.htm'\)):
-    -   An existing RAP type mapping can be extended with extension fields using the syntax [extend mapping for](javascript:call_link\('abenbdl_type_mapping_ext.htm'\)) as described in topic [CDS BDL - extend mapping](javascript:call_link\('abenbdl_type_mapping_ext.htm'\)).
+    -   New [RAP actions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_action_glosry.htm "Glossary Entry") and [RAP functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_function_glosry.htm "Glossary Entry") can be defined and implemented in a BDEF projection extension.
+    -   The syntax is exactly the same as for actions and functions in projection BDEFs, see topic [Actions and Functions, Projection BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_nonstandard_projection.htm).
+    -   An implementation in an extension ABP is required. The rules for extension ABPs apply, see topic [CDS BDL - implementation in class unique, Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm).
+-   [mapping for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_type_mapping.htm):
+    -   [RAP type mapping](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_type_mapping_glosry.htm "Glossary Entry") can be added. This type mapping can only contain extension fields. It must not contain any fields from the original BDEF. The syntax is exactly the same as for RAP BOs, see topic [CDS BDL - Type Mapping](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_type_mapping.htm).
+-   [extend mapping for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_type_mapping_ext.htm):
+    -   An existing RAP type mapping can be extended with extension fields using the syntax [extend mapping for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_type_mapping_ext.htm) as described in topic [CDS BDL - extend mapping](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_type_mapping_ext.htm).
 
 Executable Examples
 
--   [BDEF Projection Extension, Node Extension](javascript:call_link\('abenbdl_entity_proj_ext_abexa.htm'\))
--   [BDEF Projection Extension, Field Extension](javascript:call_link\('abenbdl_entity_proj_ext_1_abexa.htm'\))
+-   [BDEF Projection Extension, Node Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_abexa.htm)
+-   [BDEF Projection Extension, Field Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_1_abexa.htm)
 
-
-
-**📖 Source**: [abenbdl_proj_ext_body.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm)
 
 ### abenbdl_extend_beh_proj.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_extend_beh_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -296,7 +244,7 @@ Executable Examples
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [CDS BDL - BDEF Projection Extension](javascript:call_link\('abenbdl_extensibility_projection.htm'\)) →  [CDS BDL - extension for projection](javascript:call_link\('abenbdl_extension_for_projection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm) →  [CDS BDL - BDEF Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm) →  [CDS BDL - extension for projection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - Entity Projection Extension, ABENBDL_EXTEND_BEH_PROJ, 757%0D%0A%0D%0AError:
 %0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -306,25 +254,25 @@ CDS BDL - Entity Projection Extension
 Syntax
 
 extend behavior for ProjectionEntity
-  *\[* [implementation in class ClassName unique](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\))*\]*
-  *\[*[authorization](javascript:call_link\('abenbdl_authorization_projection.htm'\))*\]*
+  *\[* [implementation in class ClassName unique](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm)*\]*
+  *\[*[authorization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization_projection.htm)*\]*
 {
-   [projection\_extension\_body](javascript:call_link\('abenbdl_proj_ext_body.htm'\))
+   [projection\_extension\_body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm)
 }
 ...
 
 Effect
 
-An [entity projection extension](javascript:call_link\('abenrap_entity_proj_ext_glosry.htm'\) "Glossary Entry") extends a [projection BDEF](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry") ProjectionEntity. As a prerequisite, extensions must be explicitly enabling as described in topic [Extensibility Enabling for CDS Projection BDEFs](javascript:call_link\('abenbdl_ext_enabling_projection.htm'\)).
+An [entity projection extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_entity_proj_ext_glosry.htm "Glossary Entry") extends a [projection BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry") ProjectionEntity. As a prerequisite, extensions must be explicitly enabling as described in topic [Extensibility Enabling for CDS Projection BDEFs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_ext_enabling_projection.htm).
 
 Syntax additions and components:
 
--   [implementation in class ClassName unique](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)): specifies an [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") for the [extension](javascript:call_link\('abenrap_prefix_extension_glosry.htm'\) "Glossary Entry") behavior of the particular entity. Optional and only required if the entity in question defines new actions or functions. The rules for extension ABPs apply, see topic [CDS BDL - implementation in class unique, Extension](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)).
--   [authorization](javascript:call_link\('abenbdl_authorization_projection.htm'\)):
+-   [implementation in class ClassName unique](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm): specifies an [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") for the [extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_prefix_extension_glosry.htm "Glossary Entry") behavior of the particular entity. Optional and only required if the entity in question defines new actions or functions. The rules for extension ABPs apply, see topic [CDS BDL - implementation in class unique, Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm).
+-   [authorization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization_projection.htm):
     -   Defines authorization control for actions that were added in the projection layer via a BDEF projection extension.
     -   Optional and only useful in combination with new actions.
-    -   Works in the same way as for projection BDEFs, see topic [CDS BDL - authorization, Projection BDEF](javascript:call_link\('abenbdl_authorization_projection.htm'\)).
--   [projection\_extension\_body](javascript:call_link\('abenbdl_proj_ext_body.htm'\)): extends the [entity behavior body](javascript:call_link\('abencds_entity_body_glosry.htm'\) "Glossary Entry") of a projection BDEF.
+    -   Works in the same way as for projection BDEFs, see topic [CDS BDL - authorization, Projection BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_authorization_projection.htm).
+-   [projection\_extension\_body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm): extends the [entity behavior body](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entity_body_glosry.htm "Glossary Entry") of a projection BDEF.
 
 Example
 
@@ -340,20 +288,13 @@ field(readonly:update) int\_field\_ext;
 
 Executable Example
 
-The executable example [BDEF Projection Extension, Field Extension](javascript:call_link\('abenbdl_entity_proj_ext_1_abexa.htm'\)) explains the example above in detail.
+The executable example [BDEF Projection Extension, Field Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_1_abexa.htm) explains the example above in detail.
 
 Continue
-[CDS BDL - extension\_body, Projection Extension](javascript:call_link\('abenbdl_proj_ext_body.htm'\))
+[CDS BDL - extension\_body, Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_body.htm)
 
-
-
-**📖 Source**: [abenbdl_extend_beh_proj.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)
 
 ### abenbdl_proj_ext_entity.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_proj_ext_entity.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -361,7 +302,7 @@ Continue
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [CDS BDL - BDEF Projection Extension](javascript:call_link\('abenbdl_extensibility_projection.htm'\)) →  [CDS BDL - extension for projection](javascript:call_link\('abenbdl_extension_for_projection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm) →  [CDS BDL - BDEF Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm) →  [CDS BDL - extension for projection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - Projection Extension Entity, ABENBDL_PROJ_EXT_ENTITY, 757%0D%0A%0D%0AError:
 %0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -370,22 +311,22 @@ CDS BDL - Projection Extension Entity
 
 Syntax
 
-[... define behavior for ProjectionEntity ...](javascript:call_link\('abenbdl_projection_bo.htm'\))
+[... define behavior for ProjectionEntity ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_projection_bo.htm)
 
 Prerequisites
 
--   As a prerequisite, the underlying [CDS projection behavior definition](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry") must explicitly allow BDEF extensions as described in topic [CDS BDL - Extensibility Enabling for CDS Projection BDEFs](javascript:call_link\('abenbdl_ext_enabling_projection.htm'\)).
--   The extension node must be added to the RAP data model via [RAP data model extension](javascript:call_link\('abenrap_data_model_ext_glosry.htm'\) "Glossary Entry").
+-   As a prerequisite, the underlying [CDS projection behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry") must explicitly allow BDEF extensions as described in topic [CDS BDL - Extensibility Enabling for CDS Projection BDEFs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_ext_enabling_projection.htm).
+-   The extension node must be added to the RAP data model via [RAP data model extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_data_model_ext_glosry.htm "Glossary Entry").
 
 Effect
 
-A [projection extension entity](javascript:call_link\('abenrap_proj_ext_entity_glosry.htm'\) "Glossary Entry") defines the behavior for an extension node in a [BDEF projection extension](javascript:call_link\('abenrap_projec_bdef_ext_glosry.htm'\) "Glossary Entry") using the statement define behavior for.
+A [projection extension entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_proj_ext_entity_glosry.htm "Glossary Entry") defines the behavior for an extension node in a [BDEF projection extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_projec_bdef_ext_glosry.htm "Glossary Entry") using the statement define behavior for.
 
-The projection behavior for this extension node is defined similar to projection BDEFs, see section [CDS BDL - Entity Behavior Definition, Projection BDEF](javascript:call_link\('abenbdl_define_beh_projection.htm'\)). Note the following restrictions:
+The projection behavior for this extension node is defined similar to projection BDEFs, see section [CDS BDL - Entity Behavior Definition, Projection BDEF](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_define_beh_projection.htm). Note the following restrictions:
 
--   The [operation augment](javascript:call_link\('abenbdl_augment_projection.htm'\)) is currently not supported in BDEF extensions.
+-   The [operation augment](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_augment_projection.htm) is currently not supported in BDEF extensions.
 
-If an ABAP behavior pool is specified, the rules for extension ABPs apply. See topic [CDS BDL - implementation in class unique, Extension](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)).
+If an ABAP behavior pool is specified, the rules for extension ABPs apply. See topic [CDS BDL - implementation in class unique, Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm).
 
 Example
 
@@ -407,17 +348,10 @@ define behavior for DEMO\_RAP\_PROJ\_EXT\_BEH\_CH alias Child
 
 Executable Example
 
-The executable example [BDEF Projection Extension, Node Extension](javascript:call_link\('abenbdl_entity_proj_ext_abexa.htm'\)) explains the example above in detail.
+The executable example [BDEF Projection Extension, Node Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_abexa.htm) explains the example above in detail.
 
-
-
-**📖 Source**: [abenbdl_proj_ext_entity.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm)
 
 ### abenbdl_entity_proj_ext_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_entity_proj_ext_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -425,7 +359,7 @@ The executable example [BDEF Projection Extension, Node Extension](javascript:ca
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [CDS BDL - BDEF Projection Extension](javascript:call_link\('abenbdl_extensibility_projection.htm'\)) →  [CDS BDL - extension for projection](javascript:call_link\('abenbdl_extension_for_projection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm) →  [CDS BDL - BDEF Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm) →  [CDS BDL - extension for projection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - BDEF Projection Extension, Node Extension, ABENBDL_ENTITY_PROJ_EXT_ABEXA, 7
 57%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -453,7 +387,7 @@ define root view entity DEMO\_RAP\_BEH\_EXT
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_RAP\_BEH\_EXT is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as shown below. It defines implementation-relevant components and extension points.
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_RAP\_BEH\_EXT is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry") as shown below. It defines implementation-relevant components and extension points.
 
 managed implementation in class bp\_demo\_rap\_beh\_ext unique;
 strict(2);
@@ -476,7 +410,7 @@ define own authorization context by privileged mode;
 
 Behavior implementation
 
-For the CDS behavior definition, one [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_BEH\_EXT, see CCIMP include. This global class implements the following methods:
+For the CDS behavior definition, one [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_BEH\_EXT, see CCIMP include. This global class implements the following methods:
 
 -   get\_instance\_features: Instance feature control for the standard operation update. If the value of field int\_field1 is more than 50, updates are not allowed. If the value is equal to or smaller than 50, updates are allowed.
 -   get\_global\_authorizations: Global authorization control defines that create, update, and delete are always allowed.
@@ -733,7 +667,7 @@ Description  
 
 Access with ABAP using EML
 
-The above source code uses [ABAP EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the projection BO from an ABAP program:
+The above source code uses [ABAP EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") to access the projection BO from an ABAP program:
 
 -   It inserts two parent entity instances and two child entity instances.
 -   It updates the two parent entity instances
@@ -743,14 +677,7 @@ The above source code uses [ABAP EML](javascript:call_link\('abeneml_glosry.htm'
 The screen output includes a table that lists the execution order of handler methods of the ABAP behavior pool. This shows which methods in which order are executed when accessing the RAP BO.
 
 
-
-**📖 Source**: [abenbdl_entity_proj_ext_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_abexa.htm)
-
 ### abenbdl_entity_proj_ext_1_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_entity_proj_ext_1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_1_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -758,7 +685,7 @@ The screen output includes a table that lists the execution order of handler met
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [CDS BDL - BDEF Projection Extension](javascript:call_link\('abenbdl_extensibility_projection.htm'\)) →  [CDS BDL - extension for projection](javascript:call_link\('abenbdl_extension_for_projection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm) →  [CDS BDL - BDEF Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm) →  [CDS BDL - extension for projection](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - BDEF Projection Extension, Field Extension, ABENBDL_ENTITY_PROJ_EXT_1_ABEXA
 , 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -814,7 +741,7 @@ define root view entity DEMO\_RAP\_FIELD\_EXT
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_RAP\_FIELD\_EXT is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as shown below. It defines global authorization control and adds field attributes to several fields.
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_RAP\_FIELD\_EXT is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry") as shown below. It defines global authorization control and adds field attributes to several fields.
 
 managed implementation in class bp\_demo\_rap\_field\_ext unique;
 strict(2);
@@ -842,7 +769,7 @@ extensible
 
 Behavior implementation
 
-For the CDS behavior definition, one [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_FIELD\_EXT, see CCIMP include. This global class implements two methods:
+For the CDS behavior definition, one [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_RAP\_FIELD\_EXT, see CCIMP include. This global class implements two methods:
 
 -   get\_instance\_features: Implements dynamic feature control for field DataField: If field CharField has value A, then field DataField is read-only. If field CharField has any other value, then field DataField can be accessed without any restrictions.
 -   get\_global\_auth: Defines global feature control for the complete RAP BO: Update requests are generally authorized and delete requests are generally unauthorized.
@@ -1007,25 +934,15 @@ Description  
 
 Access with ABAP using EML
 
-The source code above uses [ABAP EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") to access the [RAP business object](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry") from an ABAP program:
+The source code above uses [ABAP EML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeneml_glosry.htm "Glossary Entry") to access the [RAP business object](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm "Glossary Entry") from an ABAP program:
 
--   It inserts two entity instances using [MODIFY ENTITIES CREATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)).
--   It updates both entity instances using [MODIFY ENTITIES UPDATE](javascript:call_link\('abapmodify_entity_entities_op.htm'\)).
+-   It inserts two entity instances using [MODIFY ENTITIES CREATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_entity_entities_op.htm).
+-   It updates both entity instances using [MODIFY ENTITIES UPDATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_entity_entities_op.htm).
 
 Field attributes from the original BO, from the projection BO, and from the extensions are respected. Fields declared as read-only on any layer must not be updated. CharFieldExt is not available in the derived types, since it has been suppressed.
 
 
-
-**📖 Source**: [abenbdl_entity_proj_ext_1_abexa.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_1_abexa.htm)
-
 ### abenbdl_extension_for_projection.htm
-
-> **📖 Official SAP Documentation**: [abenbdl_extension_for_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenbdl_extension_for_projection.htm](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension_for_projection.htm)
-
 
   
 
@@ -1033,7 +950,7 @@ Field attributes from the original BO, from the projection BO, and from the exte
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [CDS BDL - BDEF Extension](javascript:call_link\('abenbdl_extension.htm'\)) →  [CDS BDL - BDEF Projection Extension](javascript:call_link\('abenbdl_extensibility_projection.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl.htm) →  [CDS BDL - BDEF Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extension.htm) →  [CDS BDL - BDEF Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extensibility_projection.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS BDL - extension for projection, ABENBDL_EXTENSION_FOR_PROJECTION, 757%0D%0A%0D%0A
 Error:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -1042,36 +959,36 @@ CDS BDL - extension for projection
 
 Syntax
 
-extension for projection *\[*[implementation in class ClassName unique](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\))*\]*;
-  *\[*[with privileged mode disabling base context *\[*and ContextName*\]*](javascript:call_link\('abenbdl_privileged_mode.htm'\))*\]*;
-  *\[*[foreign entity](javascript:call_link\('abenbdl_foreign.htm'\))*\]*
-  *\[*[define behavior for](javascript:call_link\('abenbdl_proj_ext_entity.htm'\))*\]*
-  *\[*[extend behavior for](javascript:call_link\('abenbdl_extend_beh_proj.htm'\))*\]*
-  *\[*[extend own authorization context](javascript:call_link\('abenbdl_extend_own_auth_context.htm'\))*\]*
-  *\[*[define authorization context](javascript:call_link\('abenbdl_def_auth_context.htm'\))*\]*
+extension for projection *\[*[implementation in class ClassName unique](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm)*\]*;
+  *\[*[with privileged mode disabling base context *\[*and ContextName*\]*](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_privileged_mode.htm)*\]*;
+  *\[*[foreign entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_foreign.htm)*\]*
+  *\[*[define behavior for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm)*\]*
+  *\[*[extend behavior for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)*\]*
+  *\[*[extend own authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_own_auth_context.htm)*\]*
+  *\[*[define authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_def_auth_context.htm)*\]*
 ...
 
 Effect
 
-Extends an existing [CDS projection behavior definition](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry") using a [BDEF projection extension](javascript:call_link\('abenrap_projec_bdef_ext_glosry.htm'\) "Glossary Entry") in the [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry"). A CDS projection behavior definition can have one or more BDEF projection extensions. The number of extensions is not limited. A BDEF projection extension itself cannot be further extended.
+Extends an existing [CDS projection behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry") using a [BDEF projection extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_projec_bdef_ext_glosry.htm "Glossary Entry") in the [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry"). A CDS projection behavior definition can have one or more BDEF projection extensions. The number of extensions is not limited. A BDEF projection extension itself cannot be further extended.
 
 A BDEF projection extension can have the following components:
 
--   implementation in class ClassName unique: an [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is possible in a BDEF projection extension:
+-   implementation in class ClassName unique: an [ABAP behavior pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is possible in a BDEF projection extension:
     -   Functionality that is reused from the original BO does not require its own implementation. The implementation from the original BO is reused.
     -   If the BDEF projection extension defines new actions or functions, an ABAP behavior pool is required.
-    -   The rules for extension ABPs apply, see topic [implementation in class unique, extension](javascript:call_link\('abenbdl_in_class_unique_ext.htm'\)).
+    -   The rules for extension ABPs apply, see topic [implementation in class unique, extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_in_class_unique_ext.htm).
 -   with privileged mode disabling base context *\[*and ContextName*\]*:
-    -   A BDEF projection extension can enable [BDEF privileged mode](javascript:call_link\('abenrap_privileged_mode_glosry.htm'\) "Glossary Entry"). As a prerequisite, the original BO of type managed or unmanaged must enable privileged mode. The behavior of the extended BDEF of type projection is irrelevant. It may define privileged mode, but this is optional.
-    -   The syntax addition disabling base context is mandatory; and ContextName is optional. The same rules apply as for projection behavior definitions, see topic [with privileged mode](javascript:call_link\('abenbdl_privileged_mode.htm'\)), Alternative 2.
+    -   A BDEF projection extension can enable [BDEF privileged mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_privileged_mode_glosry.htm "Glossary Entry"). As a prerequisite, the original BO of type managed or unmanaged must enable privileged mode. The behavior of the extended BDEF of type projection is irrelevant. It may define privileged mode, but this is optional.
+    -   The syntax addition disabling base context is mandatory; and ContextName is optional. The same rules apply as for projection behavior definitions, see topic [with privileged mode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_privileged_mode.htm), Alternative 2.
 -   foreign entity:
-    -   Defines a [RAP BO entity](javascript:call_link\('abenrap_bo_entity_glosry.htm'\) "Glossary Entry") which is not part of the [CDS composition tree](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") of the current RAP BO as part of the response structures.
+    -   Defines a [RAP BO entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_entity_glosry.htm "Glossary Entry") which is not part of the [CDS composition tree](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") of the current RAP BO as part of the response structures.
     -   A foreign entity can be defined before, after, or between the other components.
-    -   Only entities that belong to the same software component can be added as [RAP foreign entity](javascript:call_link\('abenrap_foreign_entity_glosry.htm'\) "Glossary Entry") to a BDEF projection extension.
--   [define behavior for](javascript:call_link\('abenbdl_proj_ext_entity.htm'\)): Defines a [RAP projection extension entity](javascript:call_link\('abenrap_proj_ext_entity_glosry.htm'\) "Glossary Entry") using the statement [define behavior for](javascript:call_link\('abenbdl_proj_ext_entity.htm'\)).
--   [extend behavior for](javascript:call_link\('abenbdl_extend_beh_proj.htm'\)): A [RAP entity projection extension](javascript:call_link\('abenrap_entity_proj_ext_glosry.htm'\) "Glossary Entry") extends the behavior of an existing entity of a projection BDEF.
--   [extend own authorization context](javascript:call_link\('abenbdl_extend_own_auth_context.htm'\)): if the projected BDEF of implementation type projection defines an [own authorization context](javascript:call_link\('abencds_own_ac_glosry.htm'\) "Glossary Entry"), this context can be extended. If the projected BDEF does not define an own authorization context, it must not be added via an extension.
--   [define authorization context](javascript:call_link\('abenbdl_def_auth_context.htm'\)): a new [authorization context](javascript:call_link\('abencds_auth_context_glosry.htm'\) "Glossary Entry") can be defined in a BDEF projection extension. For details, see topic [CDS BDL - define authorization context](javascript:call_link\('abenbdl_def_auth_context.htm'\)).
+    -   Only entities that belong to the same software component can be added as [RAP foreign entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_foreign_entity_glosry.htm "Glossary Entry") to a BDEF projection extension.
+-   [define behavior for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm): Defines a [RAP projection extension entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_proj_ext_entity_glosry.htm "Glossary Entry") using the statement [define behavior for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm).
+-   [extend behavior for](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm): A [RAP entity projection extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_entity_proj_ext_glosry.htm "Glossary Entry") extends the behavior of an existing entity of a projection BDEF.
+-   [extend own authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_own_auth_context.htm): if the projected BDEF of implementation type projection defines an [own authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_own_ac_glosry.htm "Glossary Entry"), this context can be extended. If the projected BDEF does not define an own authorization context, it must not be added via an extension.
+-   [define authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_def_auth_context.htm): a new [authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_auth_context_glosry.htm "Glossary Entry") can be defined in a BDEF projection extension. For details, see topic [CDS BDL - define authorization context](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_def_auth_context.htm).
 
 Example
 
@@ -1097,10 +1014,10 @@ The BDEF projection extension DEMO\_RAP\_PROJ\_EXT\_BEH\_1 extends the CDS proje
 
 Executable Example
 
-The executable example [Projection Entity Extension](javascript:call_link\('abenbdl_entity_proj_ext_abexa.htm'\)) explains the example above in detail.
+The executable example [Projection Entity Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_abexa.htm) explains the example above in detail.
 
 Continue
-[CDS BDL - Entity Projection Extension](javascript:call_link\('abenbdl_extend_beh_proj.htm'\))
-[CDS BDL - Projection Extension Entity](javascript:call_link\('abenbdl_proj_ext_entity.htm'\))
-![Example](exa.gif "Example") [CDS BDL - BDEF Projection Extension, Node Extension](javascript:call_link\('abenbdl_entity_proj_ext_abexa.htm'\))
-![Example](exa.gif "Example") [CDS BDL - BDEF Projection Extension, Field Extension](javascript:call_link\('abenbdl_entity_proj_ext_1_abexa.htm'\))
+[CDS BDL - Entity Projection Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_extend_beh_proj.htm)
+[CDS BDL - Projection Extension Entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_proj_ext_entity.htm)
+![Example](exa.gif "Example") [CDS BDL - BDEF Projection Extension, Node Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_abexa.htm)
+![Example](exa.gif "Example") [CDS BDL - BDEF Projection Extension, Field Extension](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_entity_proj_ext_1_abexa.htm)

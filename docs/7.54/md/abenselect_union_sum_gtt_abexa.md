@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [UNION](javascript:call_link\('abapunion.htm'\)) →  [UNION Examples](javascript:call_link\('abenunion_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopensql.htm) →  [ABAP SQL - Reads](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenopen_sql_reading.htm) →  [UNION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapunion.htm) →  [UNION Examples](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenunion_abexas.htm) → 
 
 SELECT, Union with Global Temporary Table
 
@@ -45,14 +45,14 @@ START-OF-SELECTION.
 
 Description
 
-This example has the same result as the executable example for a [union with aggregate expression](javascript:call_link\('abenselect_union_sum_abexa.htm'\)). Here, however, the SELECT statement is split into two ABAP SQL statements for demonstration purposes:
+This example has the same result as the executable example for a [union with aggregate expression](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenselect_union_sum_abexa.htm). Here, however, the SELECT statement is split into two ABAP SQL statements for demonstration purposes:
 
--   The aggregation is performed in the [subquery](javascript:call_link\('abensubquery_glosry.htm'\) "Glossary Entry") of an [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)) statement whose results set is written to a [global temporary table (GTT)](javascript:call_link\('abenddic_database_tables_gtt.htm'\)).
+-   The aggregation is performed in the [subquery](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensubquery_glosry.htm "Glossary Entry") of an [INSERT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapinsert_dbtab.htm) statement whose results set is written to a [global temporary table (GTT)](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_database_tables_gtt.htm).
 
--   [UNION](javascript:call_link\('abapunion.htm'\)) is used to create the union of the results set of a SELECT statement on the table SFLIGHT and a SELECT statement on the GTT.
+-   [UNION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapunion.htm) is used to create the union of the results set of a SELECT statement on the table SFLIGHT and a SELECT statement on the GTT.
 
 The GTT must be cleared explicitly before the end of the program to prevent the runtime error COMMIT\_GTT\_ERROR in the next implicit database commit.
 
 Note
 
-See also the corresponding executable [example](javascript:call_link\('abenwith_agg_union_abexa.htm'\)) for [common table expressions](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry").
+See also the corresponding executable [example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenwith_agg_union_abexa.htm) for [common table expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencommon_table_expression_glosry.htm "Glossary Entry").

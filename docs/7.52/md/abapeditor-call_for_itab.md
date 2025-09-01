@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete User Dialogs](javascript:call_link\('abengui_obsolete.htm'\)) →  [Obsolete Editor Calls](javascript:call_link\('abentexteditor.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete User Dialogs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengui_obsolete.htm) →  [Obsolete Editor Calls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentexteditor.htm) → 
 
 EDITOR-CALL FOR itab
 
-[Quick Reference](javascript:call_link\('abapeditor-call_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapeditor-call_shortref.htm)
 
 Obsolete Syntax
 
@@ -23,11 +23,11 @@ Extras:
 
 Effect
 
-This statement passes the content of the internal table itab to a text editor and starts this text editor. The internal table has to be a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") without [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") with a character-like row type.
+This statement passes the content of the internal table itab to a text editor and starts this text editor. The internal table has to be a [standard table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstandard_table_glosry.htm "Glossary Entry") without [secondary table keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") with a character-like row type.
 
 The text editor is based on a GUI control displayed in the current GUI window and has its own GUI status, part of which is the same as in ABAP Editor. The text editor has, depending its configuration, a line width of 255 or 72 characters. This setting can be made in the GUI status and also applies to ABAP Editor.
 
-The content of the table rows is converted row by row in accordance with the [conversion rules for elementary data types](javascript:call_link\('abenconversion_elementary.htm'\)) into a field of the type c with length 255 or 72 and passed to the text editor. If the text editor is exited using the function Save, the previous content of the table is deleted and the content of each row of the editor is appended (from top to bottom) to the internal table. If necessary, this process involves a conversion of the type c of length 255 or 72 to the row type of the internal table.
+The content of the table rows is converted row by row in accordance with the [conversion rules for elementary data types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_elementary.htm) into a field of the type c with length 255 or 72 and passed to the text editor. If the text editor is exited using the function Save, the previous content of the table is deleted and the content of each row of the editor is appended (from top to bottom) to the internal table. If necessary, this process involves a conversion of the type c of length 255 or 72 to the row type of the internal table.
 
 Return Value
 
@@ -49,7 +49,7 @@ The text editor was not exited using the Save function.
 
 Note
 
-This statement is replaced when using [Control Framework](javascript:call_link\('abencontrol_framework_glosry.htm'\) "Glossary Entry"). Here, the class CL\_GUI\_TEXTEDIT wraps the corresponding [GUI control](javascript:call_link\('abengui_control_glosry.htm'\) "Glossary Entry").
+This statement is replaced when using [Control Framework](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencontrol_framework_glosry.htm "Glossary Entry"). Here, the class CL\_GUI\_TEXTEDIT wraps the corresponding [GUI control](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengui_control_glosry.htm "Glossary Entry").
 
 Addition 1
 
@@ -77,7 +77,7 @@ Addition 3
 
 Effect
 
-If the addition BACKUP INTO is specified, the content of the internal table itab is assigned to an internal table jtab before the text editor is called. jtab can have any table category. The row types have to be [compatible](javascript:call_link\('abencompatible_glosry.htm'\) "Glossary Entry") or [convertible](javascript:call_link\('abenconvertible_glosry.htm'\) "Glossary Entry").
+If the addition BACKUP INTO is specified, the content of the internal table itab is assigned to an internal table jtab before the text editor is called. jtab can have any table category. The row types have to be [compatible](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencompatible_glosry.htm "Glossary Entry") or [convertible](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconvertible_glosry.htm "Glossary Entry").
 
 Example
 

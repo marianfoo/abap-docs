@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstring_processing_statements.htm) → 
 
 CONDENSE
 
-[Quick Reference](javascript:call_link\('abapcondense_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcondense_shortref.htm)
 
 Syntax
 
@@ -22,11 +22,11 @@ The data object text must be character-like. If the data object has a fixed leng
 
 Note
 
-A character string can also be condensed in an operand position using a [condense function](javascript:call_link\('abencondense_functions.htm'\)) which includes the functions of the statement CONDENSE.
+A character string can also be condensed in an operand position using a [condense function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencondense_functions.htm) which includes the functions of the statement CONDENSE.
 
 Example
 
-The [flat structure](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry") sentence contains only character-like components and can therefore be assigned to the string text. After the statement CONDENSE is executed, text contains "She feeds you tea and oranges". Before the condense operation, the words in text are 30 places apart from one another.
+The [flat structure](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenflat_structure_glosry.htm "Glossary Entry") sentence contains only character-like components and can therefore be assigned to the string text. After the statement CONDENSE is executed, text contains "She feeds you tea and oranges". Before the condense operation, the words in text are 30 places apart from one another.
 
 DATA: BEGIN OF sentence,
         word1 TYPE c LENGTH 30 VALUE 'She',

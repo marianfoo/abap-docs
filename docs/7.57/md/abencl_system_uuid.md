@@ -4,17 +4,17 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: System Class for UUIDs, ABENCL_SYSTEM_UUID, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0
 D%0ASuggestion for improvement:)
 
 System Class for UUIDs
 
-The methods CREATE\_... of the class CL\_SYSTEM\_UUID create [UUIDs](javascript:call_link\('abenuuid_glosry.htm'\) "Glossary Entry") with a length of 16 bytes in the following formats:
+The methods CREATE\_... of the class CL\_SYSTEM\_UUID create [UUIDs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenuuid_glosry.htm "Glossary Entry") with a length of 16 bytes in the following formats:
 
 -   16-character byte-like representation
--   22-character character-like representation in [Base64](javascript:call_link\('abenbase64_glosry.htm'\) "Glossary Entry")
+-   22-character character-like representation in [Base64](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbase64_glosry.htm "Glossary Entry")
 -   26-character character-like representation in Base32
 -   32-character character-like hexadecimal representation
 

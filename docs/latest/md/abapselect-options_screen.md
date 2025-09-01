@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Selection Screens - Create](javascript:call_link\('abenselection_screen_create.htm'\)) →  [SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen.htm) →  [Selection Screens - Create](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen_create.htm) →  [SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect-options.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SELECT-OPTIONS%2C%20screen_options%2C%20ABAPSELECT-OPTIONS_SCREEN%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SELECT-OPTIONS, screen\_options
 
-[Short Reference](javascript:call_link\('abapselect-options_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselect-options_shortref.htm)
 
 Syntax
 
@@ -18,7 +18,7 @@ Syntax
     *\[*VISIBLE LENGTH vlen*\]*
     *\[*NO-EXTENSION*\]*
     *\[*NO INTERVALS*\]*
-    *\[*[MODIF ID modid](javascript:call_link\('abapselection-screen_modif_id.htm'\))*\]* ...
+    *\[*[MODIF ID modid](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_modif_id.htm)*\]* ...
 
 Additions:
 
@@ -30,11 +30,11 @@ Additions:
 
 Effect
 
-These additions can be used to declare the first input field as a mandatory field, hide the input field on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry"), and define the visible length of the field. The display of the second input field and the pushbutton for multiple selection can be prevented. The addition [MODIF ID](javascript:call_link\('abapselection-screen_modif_id.htm'\)) assigns all screen elements of the [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry") to the [modification group](javascript:call_link\('abenmodification_group_glosry.htm'\) "Glossary Entry") modid.
+These additions can be used to declare the first input field as a mandatory field, hide the input field on the [selection screen](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen_glosry.htm "Glossary Entry"), and define the visible length of the field. The display of the second input field and the pushbutton for multiple selection can be prevented. The addition [MODIF ID](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapselection-screen_modif_id.htm) assigns all screen elements of the [selection criterion](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_criterion_glosry.htm "Glossary Entry") to the [modification group](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmodification_group_glosry.htm "Glossary Entry") modid.
 
 Hint
 
-In addition to the additions already available, the function module SELECT\_OPTIONS\_RESTRICT can also be used to restrict the number of selection options offered and prohibit the value E for the column sign in the [selection table](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") before the selection screen is sent.
+In addition to the additions already available, the function module SELECT\_OPTIONS\_RESTRICT can also be used to restrict the number of selection options offered and prohibit the value E for the column sign in the [selection table](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_table_glosry.htm "Glossary Entry") before the selection screen is sent.
 
 Addition 1   
 
@@ -50,9 +50,9 @@ Addition 2  
 
 Effect
 
-Using this addition, no screen elements are created on the selection screen for the selection criterion. In an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry"), a selection criterion of this type is used exclusively as part of the interface defined by the selection screen. It can be supplied with a value by the calling program when it is called with [SUBMIT](javascript:call_link\('abapsubmit.htm'\)).
+Using this addition, no screen elements are created on the selection screen for the selection criterion. In an [executable program](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexecutable_program_glosry.htm "Glossary Entry"), a selection criterion of this type is used exclusively as part of the interface defined by the selection screen. It can be supplied with a value by the calling program when it is called with [SUBMIT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsubmit.htm).
 
-If the addition NO-DISPLAY is specified, the low and high columns in the selection table can have any [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") data types. Such selection tables can only be supplied with data using the addition [WITH](javascript:call_link\('abapsubmit_selscreen_parameters.htm'\)) of the statement SUBMIT.
+If the addition NO-DISPLAY is specified, the low and high columns in the selection table can have any [flat](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenflat_glosry.htm "Glossary Entry") data types. Such selection tables can only be supplied with data using the addition [WITH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapsubmit_selscreen_parameters.htm) of the statement SUBMIT.
 
 Hint
 
@@ -72,11 +72,11 @@ Addition 4  
 
 Effect
 
-If this addition is specified, the pushbutton for multiple selection is not created on the [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry").
+If this addition is specified, the pushbutton for multiple selection is not created on the [selection screen](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_screen_glosry.htm "Glossary Entry").
 
 Hint
 
-The user cannot access the dialog box for multiple selection on the selection screen and therefore cannot process [selection tables](javascript:call_link\('abenselection_table_glosry.htm'\) "Glossary Entry") containing multiple lines.
+The user cannot access the dialog box for multiple selection on the selection screen and therefore cannot process [selection tables](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenselection_table_glosry.htm "Glossary Entry") containing multiple lines.
 
 Addition 5   
 

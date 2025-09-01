@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) →  [FIND](javascript:call_link\('abapfind.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenstring_processing_statements.htm) →  [FIND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind.htm) → 
 
 FIND, options
 
-[Short Reference](javascript:call_link\('abapfind_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind_shortref.htm)
 
 Syntax
 
@@ -30,7 +30,7 @@ Additions:
 
 Effect
 
-These additions control the [FIND](javascript:call_link\('abapfind.htm'\)) statement and provide advanced evaluation options. The addition CASE can be used to specify whether the search is case-sensitive. The additions MATCH, SUBMATCHES, and RESULTS can be used to determine the number, position, and length of the sequences found.
+These additions control the [FIND](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind.htm) statement and provide advanced evaluation options. The addition CASE can be used to specify whether the search is case-sensitive. The additions MATCH, SUBMATCHES, and RESULTS can be used to determine the number, position, and length of the sequences found.
 
 Addition 1
 
@@ -38,7 +38,7 @@ Addition 1
 
 Effect
 
-This addition is only allowed for character string processing. It specifies whether the search in pattern and dobj is case-sensitive. If RESPECTING CASE is specified, the search is case-sensitive and if IGNORING CASE is used, it is not. If neither of these additions is specified, RESPECTING CASE is used implicitly. If a regular expression is passed as an object of class CL\_ABAP\_REGEX for [pattern](javascript:call_link\('abapfind_pattern.htm'\)), this addition is not allowed. Instead, the properties of the object are respected by the search.
+This addition is only allowed for character string processing. It specifies whether the search in pattern and dobj is case-sensitive. If RESPECTING CASE is specified, the search is case-sensitive and if IGNORING CASE is used, it is not. If neither of these additions is specified, RESPECTING CASE is used implicitly. If a regular expression is passed as an object of class CL\_ABAP\_REGEX for [pattern](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind_pattern.htm), this addition is not allowed. Instead, the properties of the object are respected by the search.
 
 Example
 
@@ -58,7 +58,7 @@ If the search pattern pattern is found in the search range, the MATCH COUNT addi
 
 -   An existing variable that expects the data type i.
 
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)). The declared variable has the data type i.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_inline.htm). The declared variable has the data type i.
 
 If FIRST OCCURRENCE is used, the value after a successful search is always 1. If the search is not successful, mcnt is set to 0.
 
@@ -80,11 +80,11 @@ Addition 3
 
 Effect
 
-If the search pattern pattern is found in the search range, the MATCH OFFSET addition saves the [offset](javascript:call_link\('abenoffset_glosry.htm'\) "Glossary Entry") of the last occurrence with reference to the dobj operand in moff. The following can be specified for moff:
+If the search pattern pattern is found in the search range, the MATCH OFFSET addition saves the [offset](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoffset_glosry.htm "Glossary Entry") of the last occurrence with reference to the dobj operand in moff. The following can be specified for moff:
 
 -   An existing variable that expects the data type i.
 
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)). The declared variable has the data type i.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_inline.htm). The declared variable has the data type i.
 
 If FIRST OCCURRENCE is used, the result is the offset of the first occurrence. If the search is not successful, moff retains its previous value or remains initial.
 
@@ -102,7 +102,7 @@ If the search pattern pattern is found in the search range, the MATCH LENGTH add
 
 -   An existing variable that expects the data type i.
 
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)). The declared variable has the data type i.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_inline.htm). The declared variable has the data type i.
 
 If FIRST OCCURRENCE is used, the result is the length of the first occurrence. If the search is not successful, mlen retains its previous value or remains initial.
 
@@ -127,7 +127,7 @@ If the search pattern pattern is found in the search range, the RESULTS addition
 
 -   An existing internal table with the table type MATCH\_RESULT\_TAB with the line type MATCH\_RESULT from the ABAP Dictionary is specified for result\_tab. A structure of the type MATCH\_RESULT from the ABAP Dictionary is specified for result\_wa
 
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) is specified after RESULTS. If ALL OCCURRENCES is used, an internal table of the type MATCH\_RESULT\_TAB is declared. If FIRST OCCURRENCE is used, a structure of the type MATCH\_RESULT is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_inline.htm) is specified after RESULTS. If ALL OCCURRENCES is used, an internal table of the type MATCH\_RESULT\_TAB is declared. If FIRST OCCURRENCE is used, a structure of the type MATCH\_RESULT is declared.
 
 When an internal table is used, it is initialized before the search starts and a line is inserted into the internal table for each match found. If a structure is used, it is assigned the values of the last occurrence. If FIRST OCCURRENCE is used and an internal table is specified, exactly one line is inserted into this table if the search is successful.
 
@@ -137,9 +137,9 @@ The line type or structure type MATCH\_RESULT has the following components:
 
 -   LENGTH of type INT4 for storing the length of the substring
 
--   SUBMATCHES of table type SUBMATCH\_RESULT\_TAB with the line type SUBMATCH\_RESULT for storing the offset and length of the substring of the current occurrence, which are stored in the [subgroup registers](javascript:call_link\('abenregex_posix_syntax_operators.htm'\)) of a regular expression
+-   SUBMATCHES of table type SUBMATCH\_RESULT\_TAB with the line type SUBMATCH\_RESULT for storing the offset and length of the substring of the current occurrence, which are stored in the [subgroup registers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_syntax_operators.htm) of a regular expression
 
-The lines from result\_tab are sorted according to the OFFSET and LENGTH columns. An additional component LINE is only relevant for the [FIND IN TABLE](javascript:call_link\('abapfind_itab.htm'\)) variant.
+The lines from result\_tab are sorted according to the OFFSET and LENGTH columns. An additional component LINE is only relevant for the [FIND IN TABLE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind_itab.htm) variant.
 
 After an unsuccessful search, the contents of the result\_tab internal table are empty, whereas the result\_wa structure preserves its contents.
 
@@ -162,11 +162,11 @@ Addition 6
 
 Effect
 
-This addition can be used only if a [regular expression](javascript:call_link\('abenregex_syntax.htm'\)) is used in [pattern](javascript:call_link\('abapfind_pattern.htm'\)). The current contents of the [registry of the subgroups](javascript:call_link\('abenregex_posix_syntax_operators.htm'\)) of the regular expression are written to s1, s2, ... for the current occurrence. The operands can be specified as follows:
+This addition can be used only if a [regular expression](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_syntax.htm) is used in [pattern](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapfind_pattern.htm). The current contents of the [registry of the subgroups](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenregex_posix_syntax_operators.htm) of the regular expression are written to s1, s2, ... for the current occurrence. The operands can be specified as follows:
 
 -   As existing variables that expect a character-like type.
 
--   As an inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)), where a variable of type string is declared.
+-   As an inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_inline.htm), where a variable of type string is declared.
 
 When ALL OCCURRENCES is used, the last occurrence is evaluated. If more operands s1, s2, ... than subgroups are listed, the surplus variables of fixed length are filled with blanks and strings are initialized. If fewer operands s1, s2, ... than subgroups are listed, the surplus subgroups are ignored.
 

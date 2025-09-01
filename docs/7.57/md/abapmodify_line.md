@@ -4,21 +4,21 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Editing List Buffers](javascript:call_link\('abenabap_lists_complex.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpro_list.htm) →  [Lists - Editing List Buffers](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_lists_complex.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: MODIFY LINE, ABAPMODIFY_LINE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion
  for improvement:)
 
 MODIFY LINE
 
-[Short Reference](javascript:call_link\('abapmodify_line_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_line_shortref.htm)
 
 Syntax
 
 MODIFY *{* *{*LINE line *\[*OF *{*PAGE page*}**|**{*CURRENT PAGE*}**\]*
                      *\[*INDEX idx*\]**}*
        *|* *{*CURRENT LINE*}* *}*
-       *\[*[source](javascript:call_link\('abapmodify_line_modification.htm'\))*\]*.
+       *\[*[source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_line_modification.htm)*\]*.
 
 Additions:
 
@@ -27,9 +27,9 @@ Additions:
 
 Effect
 
-This statement overwrites a line stored in the list buffer with the content of the sy-lisel system field and allows additional modifications according to [source](javascript:call_link\('abapmodify_line_modification.htm'\)). In addition, all values for this line stored using HIDE are assigned to the respective variables.
+This statement overwrites a line stored in the list buffer with the content of the sy-lisel system field and allows additional modifications according to [source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_line_modification.htm). In addition, all values for this line stored using HIDE are assigned to the respective variables.
 
-The first output of a data object in the list buffer with the statement [WRITE](javascript:call_link\('abapwrite-.htm'\)) defines the output length, which cannot be changed by the MODIFY statement. The statement MODIFY ignores any specified [alignments](javascript:call_link\('abenalignment_glosry.htm'\) "Glossary Entry") that are specified for the output with WRITE and [CENTERED, RIGHT-JUSTIFIED](javascript:call_link\('abapwrite_to_options.htm'\)).
+The first output of a data object in the list buffer with the statement [WRITE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite-.htm) defines the output length, which cannot be changed by the MODIFY statement. The statement MODIFY ignores any specified [alignments](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenalignment_glosry.htm "Glossary Entry") that are specified for the output with WRITE and [CENTERED, RIGHT-JUSTIFIED](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwrite_to_options.htm).
 
 System Fields
 
@@ -47,7 +47,7 @@ The specified line does not exist.
 
 Hints
 
--   It is recommended that the system field sy-lisel is filled with the content of the list line to be changed before the statement MODIFY LINE is executed, and that the line is modified exclusively using the information in [source](javascript:call_link\('abapmodify_line_modification.htm'\)), not by changing sy-lisel. The sy-lisel system field is filled either using list events or with the statement [READ LINE](javascript:call_link\('abapread_line.htm'\)).
+-   It is recommended that the system field sy-lisel is filled with the content of the list line to be changed before the statement MODIFY LINE is executed, and that the line is modified exclusively using the information in [source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_line_modification.htm), not by changing sy-lisel. The sy-lisel system field is filled either using list events or with the statement [READ LINE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_line.htm).
 -   The function modules LIST\_ICON\_PREPARE\_FOR\_MODIFY and LIST\_MODIFY\_QUICKINFO can be used to modify icons and tooltips in list lines.
 
 Addition 1   
@@ -60,7 +60,7 @@ Addition 2  
 
 Effect
 
-The line to be changed is specified using the addition LINE or CURRENT LINE. The syntax and description of the additions are the same as for the statement [READ LINE](javascript:call_link\('abapread_line.htm'\)).
+The line to be changed is specified using the addition LINE or CURRENT LINE. The syntax and description of the additions are the same as for the statement [READ LINE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_line.htm).
 
 Example
 
@@ -75,4 +75,4 @@ AT LINE-SELECTION.
                       LINE FORMAT COLOR 5.
 
 Continue
-[MODIFY LINE, source](javascript:call_link\('abapmodify_line_modification.htm'\))
+[MODIFY LINE, source](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_line_modification.htm)

@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Text Environment](javascript:call_link\('abentext_environment_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Text Environment](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abentext_environment_obsolete.htm) → 
 
 SET LOCALE, obsolete\_parameters
 
-[Short Reference](javascript:call_link\('abapset_locale_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_locale_shortref.htm)
 
 Obsolete Syntax
 
@@ -21,7 +21,7 @@ Additions:
 
 Effect
 
-ABAP syntax allows the additions COUNTRY and MODIFIER to be specified for the statement[SET LOCALE LANGUAGE](javascript:call_link\('abapset_locale.htm'\)). These additions should not be used.
+ABAP syntax allows the additions COUNTRY and MODIFIER to be specified for the statement[SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_locale.htm). These additions should not be used.
 
 Addition 1   
 
@@ -31,11 +31,11 @@ Effect
 
 The addition COUNTRY was intended for explicitly setting country-specific text environments. cntry expects a character-like data object that contains a country key with a maximum of three characters.
 
-The function of this addition was not implemented completely and is undefined. If the data object lang of the statement [SET LOCALE LANGUAGE](javascript:call_link\('abapset_locale.htm'\)) contains only blanks, the addition is ignored.
+The function of this addition was not implemented completely and is undefined. If the data object lang of the statement [SET LOCALE LANGUAGE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_locale.htm) contains only blanks, the addition is ignored.
 
 Hint
 
-The statement SET LOCALE LANGUAGE must not be confused with the addition COUNTRY of the statement [SET COUNTRY](javascript:call_link\('abapset_country.htm'\)) for setting the [formatting settings](javascript:call_link\('abenformat_setting_glosry.htm'\) "Glossary Entry").
+The statement SET LOCALE LANGUAGE must not be confused with the addition COUNTRY of the statement [SET COUNTRY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_country.htm) for setting the [formatting settings](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenformat_setting_glosry.htm "Glossary Entry").
 
 Addition 2   
 

@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Date and Time Processing](javascript:call_link\('abendate_time_processing.htm'\)) →  [Time Stamp](javascript:call_link\('abentime_stamps.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Date and Time Processing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendate_time_processing.htm) →  [Time Stamp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamps.htm) → 
 
 CONVERT INTO TIME STAMP
 
-[Quick Reference](javascript:call_link\('abapconvert_time_stamp_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_time_stamp_shortref.htm)
 
 Syntax
 
@@ -18,13 +18,13 @@ CONVERT DATE dat
 
 Effect
 
-This statement converts a date specified in dat, a time specified in tim, and a summer time marker specified in dst from the time zone specified in tz into a [time stamp](javascript:call_link\('abentime_stamp_oview.htm'\)) and maps the result to the variable time\_stamp.
+This statement converts a date specified in dat, a time specified in tim, and a summer time marker specified in dst from the time zone specified in tz into a [time stamp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_oview.htm) and maps the result to the variable time\_stamp.
 
-dat, tim, dst, and tz are [functional operand positions](javascript:call_link\('abenfunctional_position_glosry.htm'\) "Glossary Entry").
+dat, tim, dst, and tz are [functional operand positions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunctional_position_glosry.htm "Glossary Entry").
 
--   dat expects a data object of the type d containing a valid date. Operands of other types are converted to d. If dat contains an [invalid value](javascript:call_link\('abenchar_date_time_fields_validity.htm'\)), time\_stamp is not changed and sy-subrc is set to 12.
+-   dat expects a data object of the type d containing a valid date. Operands of other types are converted to d. If dat contains an [invalid value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchar_date_time_fields_validity.htm), time\_stamp is not changed and sy-subrc is set to 12.
     
--   tim expects a data object of the type t containing a valid time. Operands of other types are converted to t. If the addition TIME is not specified, the system implicitly uses the initial time "000000" for tim. In tim, only the values 00 to 23 for the hours, and 00 to 59 for the minutes are valid. If tim contains an [invalid value](javascript:call_link\('abenchar_date_time_fields_validity.htm'\)), time\_stamp is not changed and sy-subrc is set to 12.
+-   tim expects a data object of the type t containing a valid time. Operands of other types are converted to t. If the addition TIME is not specified, the system implicitly uses the initial time "000000" for tim. In tim, only the values 00 to 23 for the hours, and 00 to 59 for the minutes are valid. If tim contains an [invalid value](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenchar_date_time_fields_validity.htm), time\_stamp is not changed and sy-subrc is set to 12.
     
 -   dst can be specified as a data object of the type c with length 1 containing the value "X" or " ". This controls the behavior of the statement with respect to summer time.
     
@@ -35,20 +35,20 @@ dat, tim, dst, and tz are [functional operand positions](javascript:call_link\('
 
 If the time zone specified in tz does not have a summer time rule (for example when "UTC" is specified), the addition DAYLIGHT SAVING TIME is ignored. If the addition DAYLIGHT SAVING TIME is not specified, the value of dst is set to "X" implicitly if the data in tim and dat is in summer time and is set to " " for data in winter time. In the extra hour that is caused by switching from summer time to winter time, tim and dat are interpreted as a time in summer time and dst is set to the value "X". If the value in dst does not match the data in tim and dat (that is, if the value "X" is specified in winter time and the value " " in summer time, time\_stamp is not changed and sy-subrc is set to 12.
 
--   tz expects a character-like data object containing a [time zone](javascript:call_link\('abentime_zone_glosry.htm'\) "Glossary Entry") from the database table TTZZ.
+-   tz expects a character-like data object containing a [time zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_glosry.htm "Glossary Entry") from the database table TTZZ.
     
 
 -   If tz is initial, the time zone is set implicitly to "UTC", time\_stamp is given the appropriate data, and sy-subrc is set to 4.
 
 -   If the specified time zone is not found in the database table TTZZ, time\_stamp remains unchanged and sy-subrc is set to 8.
 
--   If the [rule set](javascript:call_link\('abentime_zone_rules.htm'\)) for the specified time zone is incomplete, a non-handleable exception is raised.
+-   If the [rule set](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_rules.htm) for the specified time zone is incomplete, a non-handleable exception is raised.
 
 The following can be specified for time\_stamp:
 
--   An existing variable of the data type TIMESTAMP or TIMESTAMPL from ABAP Dictionary, in accordance with ABAP type p with length 8 or p with length 11, with seven decimal places. If time\_stamp has the data type TIMESTAMPL for the [long form](javascript:call_link\('abentime_stamp_oview.htm'\)), the seconds fractions in the decimal places are initialized when the assignment is made.
+-   An existing variable of the data type TIMESTAMP or TIMESTAMPL from ABAP Dictionary, in accordance with ABAP type p with length 8 or p with length 11, with seven decimal places. If time\_stamp has the data type TIMESTAMPL for the [long form](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_oview.htm), the seconds fractions in the decimal places are initialized when the assignment is made.
     
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)), where a variable of type TIMESTAMP is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendata_inline.htm), where a variable of type TIMESTAMP is declared.
     
 
 When dates are converted to reflect the conversion from the Julian calendar to the Gregorian calendar and the non-existence of the days between 19/5/1582 and 10/14/1582, this returns the same results as the conversion for the days from 10/15/1582 to 10/24/1582 (which do exist).
@@ -79,7 +79,7 @@ The specified time could not be converted, because dat, tim, or dst contain inva
 
 Notes
 
--   Current user-specific local times and the corresponding local time zones are stored in the system fields [sy-datlo](javascript:call_link\('abentime_system_fields.htm'\)), [sy-timlo](javascript:call_link\('abentime_system_fields.htm'\)), and [sy-zonlo](javascript:call_link\('abentime_system_fields.htm'\)).
+-   Current user-specific local times and the corresponding local time zones are stored in the system fields [sy-datlo](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm), [sy-timlo](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm), and [sy-zonlo](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_system_fields.htm).
     
 -   Specifying daylight saving time and winter time after DAYLIGHT SAVING TIME enables different UTC time stamps to be created from matching local time stamps within the extra hour when switching from daylight saving time to winter time.
     
@@ -90,7 +90,7 @@ Notes
 
 Example
 
-For the time zone "EST", the settings apply that are described in the example for [CONVERT TIME STAMP](javascript:call_link\('abapconvert_time-stamp.htm'\)) in the rule set for time stamps. By specifying the daylight saving and winter time, two different UTC time stamps "20161030053000" and "20161030063000" are created from one specified local time. Without the addition DAYLIGHT SAVING TIME, the UTC time stamp "20161030053000" is created.
+For the time zone "EST", the settings apply that are described in the example for [CONVERT TIME STAMP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapconvert_time-stamp.htm) in the rule set for time stamps. By specifying the daylight saving and winter time, two different UTC time stamps "20161030053000" and "20161030063000" are created from one specified local time. Without the addition DAYLIGHT SAVING TIME, the UTC time stamp "20161030053000" is created.
 
 DATA: dat TYPE d,
       tim TYPE t,
@@ -106,7 +106,7 @@ CONVERT DATE dat TIME tim DAYLIGHT SAVING TIME ' '
 cl\_demo\_output=>write\_data( time\_stamp ).
 cl\_demo\_output=>display( ).
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

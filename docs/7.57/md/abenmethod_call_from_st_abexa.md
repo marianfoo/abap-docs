@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Examples](javascript:call_link\('abenst_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_st.htm) →  [ST - Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ST - Method Call, ABENMETHOD_CALL_FROM_ST_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D
 %0A%0D%0ASuggestion for improvement:)
@@ -72,4 +72,4 @@ The method MAIN of the global class CL\_DEMO\_CALL\_FROM\_ST calls an ST program
   </tt:template>
 </tt:transform>
 
-In a serialization in a [tt:loop loop](javascript:call_link\('abenst_tt_loop.htm'\)), the data root SCARR\_TAB is used to call the static method GET\_FLIGHTS of the global class CL\_DEMO\_CALL\_FROM\_ST. This passes the component carrid of the internal table scarr\_tab to the input parameter of the method. In the method, spfli\_tab is filled in a different way in each loop pass in accordance with the passed parameters.
+In a serialization in a [tt:loop loop](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_loop.htm), the data root SCARR\_TAB is used to call the static method GET\_FLIGHTS of the global class CL\_DEMO\_CALL\_FROM\_ST. This passes the component carrid of the internal table scarr\_tab to the input parameter of the method. In the method, spfli\_tab is filled in a different way in each loop pass in accordance with the passed parameters.

@@ -4,11 +4,11 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [Transformations for XML](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [asXML - Canonical XML Representation](javascript:call_link\('abenabap_xslt_asxml.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml.htm) →  [Transformations for XML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xml_trafos.htm) →  [asXML - Canonical XML Representation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml.htm) → 
 
 asXML - Mapping Additional XML Schema Data Types
 
-As well as the [XML schema data types](http://www.w3.org/TR/xmlschema-2/) required for [mapping elementary ABAP types](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)), there are additional XML schema data types that cannot be mapped directly to built-in ABAP types. To enable type-friendly deserialization of these external types to ABAP data objects, a special [domain](javascript:call_link\('abendomain_glosry.htm'\) "Glossary Entry") is implemented in ABAP Dictionary for each required XML schema data type. The name of the domain starts with XSD. Any elementary ABAP data objects whose data type is defined using a [data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry") that refers to a domain of this type are mapped to the appropriate XML schema data type, both when serialized and when deserialized. The required conversions are performed internally. This applies to both XSL transformations and to simple transformations.
+As well as the [XML schema data types](http://www.w3.org/TR/xmlschema-2/) required for [mapping elementary ABAP types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_elementary.htm), there are additional XML schema data types that cannot be mapped directly to built-in ABAP types. To enable type-friendly deserialization of these external types to ABAP data objects, a special [domain](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendomain_glosry.htm "Glossary Entry") is implemented in ABAP Dictionary for each required XML schema data type. The name of the domain starts with XSD. Any elementary ABAP data objects whose data type is defined using a [data element](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendata_element_glosry.htm "Glossary Entry") that refers to a domain of this type are mapped to the appropriate XML schema data type, both when serialized and when deserialized. The required conversions are performed internally. This applies to both XSL transformations and to simple transformations.
 
 The following table provides a summary of the XML schema data types supported by domains, as well as other supported types (UUID, currCode and unitCode).
 
@@ -95,13 +95,21 @@ KM, MI
 
 The following sections describe the domains and their mappings in more detail.
 
--   [boolean](#abenabap-xslt-asxml-schema-1--------date---@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_2)
+-   [boolean](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_1)
 
--   [dateTime](#abenabap-xslt-asxml-schema-3--------qname---@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_4)
+-   [date](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_2)
 
--   [time](#abenabap-xslt-asxml-schema-5--------uuid---@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_6)
+-   [dateTime](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_3)
 
--   [language](#abenabap-xslt-asxml-schema-7--------currcode---@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_8)
+-   [QName](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_4)
+
+-   [time](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_5)
+
+-   [UUID](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_6)
+
+-   [language](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_7)
+
+-   [currCode](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_8)
 
 -   [unitCode](#@@ITOC@@ABENABAP_XSLT_ASXML_SCHEMA_9)
 
@@ -109,45 +117,45 @@ The following applies to all domains:
 
 -   in deserializations of an empty XML element in an ABAP data object (which is typed with reference to this type of domain), the initial value of the associated elementary ABAP type is assigned as usual.
 
--   The transformation option [initial\_components](javascript:call_link\('abapcall_transformation_options.htm'\)) for suppressing initial values in serializations has the same effect as for normal data types. This can lead to unexpected behavior in deserializations, if the transformation option [clear](javascript:call_link\('abapcall_transformation_options.htm'\)) is not used with the value "all".
+-   The transformation option [initial\_components](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transformation_options.htm) for suppressing initial values in serializations has the same effect as for normal data types. This can lead to unexpected behavior in deserializations, if the transformation option [clear](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transformation_options.htm) is not used with the value "all".
 
 Notes
 
--   With the exception of XSDQNAME, all domains are also supported in [transformations for JSON](javascript:call_link\('abenabap_json_trafos.htm'\)). See the associated [executable example](javascript:call_link\('abenabap_json_asjson_xsd_abexa.htm'\)).
+-   With the exception of XSDQNAME, all domains are also supported in [transformations for JSON](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_trafos.htm). See the associated [executable example](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_json_asjson_xsd_abexa.htm).
 
--   By specifying [format](javascript:call_link\('abenst_option_format.htm'\)) in the attribute [option](javascript:call_link\('abenst_option.htm'\)) of the ST command [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), many of the formats here can also be applied to ABAP data objects that are not typed with a domain of this type.
+-   By specifying [format](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option_format.htm) in the attribute [option](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option.htm) of the ST command [tt:value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_value_elementary.htm), many of the formats here can also be applied to ABAP data objects that are not typed with a domain of this type.
 
--   By specifying [regime](javascript:call_link\('abenst_option_format.htm'\)) in the attribute [option](javascript:call_link\('abenst_option.htm'\)) of the ST command [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), the effect of the domains shown here is disabled.
+-   By specifying [regime](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option_format.htm) in the attribute [option](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option.htm) of the ST command [tt:value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_value_elementary.htm), the effect of the domains shown here is disabled.
 
--   Exceptions that occur when mapping the domains displayed here can in some cases be suppressed by specifying [noError](javascript:call_link\('abenst_option_format.htm'\)) in the attribute [option](javascript:call_link\('abenst_option.htm'\)) of the ST command [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)).
+-   Exceptions that occur when mapping the domains displayed here can in some cases be suppressed by specifying [noError](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option_format.htm) in the attribute [option](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option.htm) of the ST command [tt:value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_value_elementary.htm).
 
--   Exceptions from mappings cannot be handled directly. Instead, the exception CX\_TRANSFORMATION\_ERROR (or one of its subclasses) from statement [CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\)) can be handled. The attribute PREVIOUS then contains a reference to the original exception.
+-   Exceptions from mappings cannot be handled directly. Instead, the exception CX\_TRANSFORMATION\_ERROR (or one of its subclasses) from statement [CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transformation.htm) can be handled. The attribute PREVIOUS then contains a reference to the original exception.
 
 boolean
 
-The domain XSDBOOLEAN has the data type CHAR with length 1 and therefore supports the usual ABAP representation of a [truth value](javascript:call_link\('abenlogical_value_glosry.htm'\) "Glossary Entry") using "X" for true and " " for false. These values are entered as [fixed values](javascript:call_link\('abenfixed_value_glosry.htm'\) "Glossary Entry") for the domain and are checked when an ABAP data object linked to this domain is serialized. The serialization creates the values "true" and "false" in XML. A deserialization also accepts the non-canonical XML values "1" and "0". Any other values raise the exception CX\_SY\_CONVERSION\_NO\_BOOLEAN. An empty element creates the value " " in deserializations.
+The domain XSDBOOLEAN has the data type CHAR with length 1 and therefore supports the usual ABAP representation of a [truth value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenlogical_value_glosry.htm "Glossary Entry") using "X" for true and " " for false. These values are entered as [fixed values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfixed_value_glosry.htm "Glossary Entry") for the domain and are checked when an ABAP data object linked to this domain is serialized. The serialization creates the values "true" and "false" in XML. A deserialization also accepts the non-canonical XML values "1" and "0". Any other values raise the exception CX\_SY\_CONVERSION\_NO\_BOOLEAN. An empty element creates the value " " in deserializations.
 
 Notes
 
--   By specifying [noError](javascript:call_link\('abenst_option_format.htm'\)) in the attribute [option](javascript:call_link\('abenst_option.htm'\)) of the ST command [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), an exception for invalid ABAP values in serialization can be avoided. All values except " " are interpreted as true.
+-   By specifying [noError](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option_format.htm) in the attribute [option](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option.htm) of the ST command [tt:value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_value_elementary.htm), an exception for invalid ABAP values in serialization can be avoided. All values except " " are interpreted as true.
 
--   The transformation option [initial\_components](javascript:call_link\('abapcall_transformation_options.htm'\)) suppresses components of type XSDBOOLEAN in serializations, if the components contain the value " " for "false". Therefore this option should be used carefully.
+-   The transformation option [initial\_components](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_transformation_options.htm) suppresses components of type XSDBOOLEAN in serializations, if the components contain the value " " for "false". Therefore this option should be used carefully.
 
--   The return value of the Boolean function [xsdbool](javascript:call_link\('abenboole_functions.htm'\)) has the type XSDBOOLEAN.
+-   The return value of the Boolean function [xsdbool](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenboole_functions.htm) has the type XSDBOOLEAN.
 
 date
 
-The XML schema data type date for dates is supported by both the built-in ABAP type [d](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)) and the domain XSDDATE\_D. This domain has the data type DATS. When data is serialized and deserialized, the validity of the date is also checked, which is not the case with the built-in ABAP type d. An empty element creates the value "00000000" in deserializations.
+The XML schema data type date for dates is supported by both the built-in ABAP type [d](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_elementary.htm) and the domain XSDDATE\_D. This domain has the data type DATS. When data is serialized and deserialized, the validity of the date is also checked, which is not the case with the built-in ABAP type d. An empty element creates the value "00000000" in deserializations.
 
 Note
 
-By specifying [noError](javascript:call_link\('abenst_option_format.htm'\)) in the attribute [option](javascript:call_link\('abenst_option.htm'\)) of the ST command[tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), an exception for an invalid date in serialization can be avoided.
+By specifying [noError](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option_format.htm) in the attribute [option](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option.htm) of the ST command[tt:value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_value_elementary.htm), an exception for an invalid date in serialization can be avoided.
 
 dateTime
 
 The XML schema data type dateTime supports the representation of dates and times in a field, based on ISO 8601. An XML value of this type is either in UTC format, contains a time zone, or represents a local time. Five domains are assigned to this schema data type:
 
--   The domains XSDDATETIME\_Z and XSDDATETIME\_LONG\_Z have the data types DEC with length 15 or 21. XSDDATETIME\_Z has no decimal places and XSDDATETIME\_LONG\_Z has seven decimal places. These domains support the long and short form of [time stamps in packed numbers](javascript:call_link\('abentime_stamps_packed.htm'\)), which is always processed as the current [UTC](javascript:call_link\('abenutc_glosry.htm'\) "Glossary Entry") reference time. The serialization generates values in the UTC format (yyyy-mm-ddThh:mm:ss.fffffffZ) in XML. Only significant decimal places are written to XML. A deserialization accepts XML values in UTC format (closed by Z) or with time zones (closed by *{*+*|*\-*}*hh:mm). The time zones are converted to the appropriate UTC value. No precision may be lost in deserializations. This means that only XML values with a maximum of seven decimal places can be deserialized. An empty element creates the value 0 in deserializations.
+-   The domains XSDDATETIME\_Z and XSDDATETIME\_LONG\_Z have the data types DEC with length 15 or 21. XSDDATETIME\_Z has no decimal places and XSDDATETIME\_LONG\_Z has seven decimal places. These domains support the long and short form of [time stamps in packed numbers](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentime_stamps_packed.htm), which is always processed as the current [UTC](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenutc_glosry.htm "Glossary Entry") reference time. The serialization generates values in the UTC format (yyyy-mm-ddThh:mm:ss.fffffffZ) in XML. Only significant decimal places are written to XML. A deserialization accepts XML values in UTC format (closed by Z) or with time zones (closed by *{*+*|*\-*}*hh:mm). The time zones are converted to the appropriate UTC value. No precision may be lost in deserializations. This means that only XML values with a maximum of seven decimal places can be deserialized. An empty element creates the value 0 in deserializations.
 
 -   The domain XSDDATETIME\_OFFSET has the data type CHAR with length 18. It permits mappings to XML values in which a time zone is specified (yyyy-mm-ddThh:mm:ss*{*+*|*\-*}*hh:mm). The defined format for an ABAP data object of type XSDDATETIME\_OFFSET is yyyymmddhhmmss*{*+*|*\-*}*mmm. In a deserialization, the time zone of the XML value specified in hours and minutes is converted to a three-figure number of minutes. An empty element creates an empty string in deserializations.
 
@@ -157,7 +165,7 @@ Invalid values raise the exception CX\_SY\_CONVERSION\_NO\_DATE\_TIME.
 
 Note
 
-[Time stamp fields with time stamp type](javascript:call_link\('abenutclong.htm'\)) are mapped to the format yyyy-mm-ddThh:mm:ss.fffffffZ by default.
+[Time stamp fields with time stamp type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenutclong.htm) are mapped to the format yyyy-mm-ddThh:mm:ss.fffffffZ by default.
 
 Example
 
@@ -203,35 +211,35 @@ The class CL\_ABAP\_XSDTYPE\_HELPER contains the methods TO\_XSDQNAME and FROM\_
 
 Executable Example
 
-[asXML, Mapping of Qualified Names](javascript:call_link\('abenasxml_qnames_abexa.htm'\))
+[asXML, Mapping of Qualified Names](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenasxml_qnames_abexa.htm)
 
 time
 
-The XML schema data type time for times is supported by both the built-in ABAP type [t](javascript:call_link\('abenabap_xslt_asxml_elementary.htm'\)) and the domain XSDTIME\_T. This domain has the data type TIMS. When data is serialized and deserialized, the validity of the time is also checked, which is not the case with the built-in ABAP type t. An empty element creates the value "000000" in deserializations.
+The XML schema data type time for times is supported by both the built-in ABAP type [t](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_asxml_elementary.htm) and the domain XSDTIME\_T. This domain has the data type TIMS. When data is serialized and deserialized, the validity of the time is also checked, which is not the case with the built-in ABAP type t. An empty element creates the value "000000" in deserializations.
 
 Note
 
-By specifying [noError](javascript:call_link\('abenst_option_format.htm'\)) in the attribute [option](javascript:call_link\('abenst_option.htm'\)) of the ST command[tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), an exception for an invalid time in serialization can be avoided.
+By specifying [noError](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option_format.htm) in the attribute [option](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option.htm) of the ST command[tt:value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_value_elementary.htm), an exception for an invalid time in serialization can be avoided.
 
 UUID
 
 The domains have the following meaning:
 
--   XSDUUID\_RAW has the data type RAW with length 16 for 16-byte [UUIDs](javascript:call_link\('abenuuid_glosry.htm'\) "Glossary Entry") in binary format.
+-   XSDUUID\_RAW has the data type RAW with length 16 for 16-byte [UUIDs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuuid_glosry.htm "Glossary Entry") in binary format.
 
--   XSDUUID\_CHARhas the data type CHAR with length 32 for 16-byte [UUIDs](javascript:call_link\('abenuuid_glosry.htm'\) "Glossary Entry") in hexadecimal format.
+-   XSDUUID\_CHARhas the data type CHAR with length 32 for 16-byte [UUIDs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuuid_glosry.htm "Glossary Entry") in hexadecimal format.
 
--   XSDUUID\_BASE64 has the data type CHAR with length 22 for 16-byte [UUIDs](javascript:call_link\('abenuuid_glosry.htm'\) "Glossary Entry") in [base64](javascript:call_link\('abenbase64_glosry.htm'\) "Glossary Entry") format.
+-   XSDUUID\_BASE64 has the data type CHAR with length 22 for 16-byte [UUIDs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuuid_glosry.htm "Glossary Entry") in [base64](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbase64_glosry.htm "Glossary Entry") format.
 
 A serialization creates the hexadecimal XML schema representation from data objects of these types, with hyphens and lowercase letters. Deserializations accept uppercase letters as well. A character-like UUID of type XSDUUID\_CHAR can contain only uppercase letters in serializations. Invalid UUIDs raise the exception CX\_SY\_CONVERSION\_NO\_UUID. An empty element creates byte strings or character strings filled with hexadecimal zeroes or blanks in deserializations.
 
 Note
 
-UUIDs can be generated in ABAP data objects from the class [CL\_SYSTEM\_UUID](javascript:call_link\('abencl_system_uuid.htm'\)).
+UUIDs can be generated in ABAP data objects from the class [CL\_SYSTEM\_UUID](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_system_uuid.htm).
 
 Example
 
-Serialization of a 16-byte [UUID](javascript:call_link\('abenuuid_glosry.htm'\) "Glossary Entry") in [base64](javascript:call_link\('abenbase64_glosry.htm'\) "Glossary Entry") format.
+Serialization of a 16-byte [UUID](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenuuid_glosry.htm "Glossary Entry") in [base64](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbase64_glosry.htm "Glossary Entry") format.
 
 DATA uuid TYPE xsduuid\_base64.
 uuid = cl\_uuid\_factory=>create\_system\_uuid( )->create\_uuid\_c22( ).
@@ -241,11 +249,11 @@ cl\_demo\_output=>display\_xml( xml ).
 
 Executable Example
 
-[asXML, Mapping of UUIDs](javascript:call_link\('abenabap_xslt_mapping_abexa.htm'\))
+[asXML, Mapping of UUIDs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_xslt_mapping_abexa.htm)
 
 language
 
-The domain XSDLANGUAGE has the data type [LANG](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 1. It permits mappings of one-character internal language codes to the associated two-character external ISO codes and back. The rule for the mapping is specified in the columns SPRAS (single-character code) and LAISO (two-character code) of the database table T002. In serializations, the single-character code is found in the table T002 and the associated two-character code is used as an XML value. The opposite happens in deserializations. In deserializations, lowercase letters are transformed to uppercase letters first. If no code is found in the table T002, the following relationship is evaluated:
+The domain XSDLANGUAGE has the data type [LANG](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) with length 1. It permits mappings of one-character internal language codes to the associated two-character external ISO codes and back. The rule for the mapping is specified in the columns SPRAS (single-character code) and LAISO (two-character code) of the database table T002. In serializations, the single-character code is found in the table T002 and the associated two-character code is used as an XML value. The opposite happens in deserializations. In deserializations, lowercase letters are transformed to uppercase letters first. If no code is found in the table T002, the following relationship is evaluated:
 
 Y = ( X2 - 0x20 ) + ( X1 - 0x20 ) \* ( 0x80 - 0x20 ) + 0xAC00
 
@@ -257,7 +265,7 @@ Here, Y is the 16-bit Unicode value of the single-character code and X1 and X2 a
 
 Note
 
-By specifying [noError](javascript:call_link\('abenst_option_format.htm'\)) in the attribute [option](javascript:call_link\('abenst_option.htm'\)) of the ST command [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), an exception for an unknown language in serialization can be avoided. In this case, no conversion is performed.
+By specifying [noError](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option_format.htm) in the attribute [option](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option.htm) of the ST command [tt:value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_value_elementary.htm), an exception for an unknown language in serialization can be avoided. In this case, no conversion is performed.
 
 Example
 
@@ -278,11 +286,11 @@ ENDTRY.
 
 currCode
 
-The domain XSDCURRCODE has the data type [CUKY](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 5. It permits mappings of SAP-specific currency codes to external ISO currency codes and back. The rule for the mapping is specified in the columns WAERS (SAP code) and ISOCD (ISO code) of the database table TCURC. In serializations, the SAP code is found in the table TCURC and the associated ISO code is used as an XML value. The opposite happens in deserializations. If a code is not found in the table TCURC, the exception CX\_SY\_CONVERSION\_UNKNOWN\_CURR is raised.
+The domain XSDCURRCODE has the data type [CUKY](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) with length 5. It permits mappings of SAP-specific currency codes to external ISO currency codes and back. The rule for the mapping is specified in the columns WAERS (SAP code) and ISOCD (ISO code) of the database table TCURC. In serializations, the SAP code is found in the table TCURC and the associated ISO code is used as an XML value. The opposite happens in deserializations. If a code is not found in the table TCURC, the exception CX\_SY\_CONVERSION\_UNKNOWN\_CURR is raised.
 
 Note
 
-By specifying [noError](javascript:call_link\('abenst_option_format.htm'\)) in the attribute [option](javascript:call_link\('abenst_option.htm'\)) of the ST command [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), an exception for an unknown SAP code in serialization can be avoided. In this case, no conversion is performed.
+By specifying [noError](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option_format.htm) in the attribute [option](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option.htm) of the ST command [tt:value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_value_elementary.htm), an exception for an unknown SAP code in serialization can be avoided. In this case, no conversion is performed.
 
 Example
 
@@ -303,11 +311,11 @@ ENDTRY.
 
 unitCode
 
-The domain XSDUNITCODE has the data type [UNIT](javascript:call_link\('abenddic_builtin_types.htm'\)) with length 3. It permits mappings of SAP-specific unit codes to external ISO unit codes and back. The rule for the mapping is specified in the columns MSEHI (SAP code) and ISOCODE (ISO code) of the database table T006. In serializations, the SAP code is found in the table T006 and the associated ISO code is used as an XML value. The opposite happens in deserializations. If a code is not found in the table T006, the exception CX\_SY\_CONVERSION\_UNKNOWN\_UNIT is raised.
+The domain XSDUNITCODE has the data type [UNIT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenddic_builtin_types.htm) with length 3. It permits mappings of SAP-specific unit codes to external ISO unit codes and back. The rule for the mapping is specified in the columns MSEHI (SAP code) and ISOCODE (ISO code) of the database table T006. In serializations, the SAP code is found in the table T006 and the associated ISO code is used as an XML value. The opposite happens in deserializations. If a code is not found in the table T006, the exception CX\_SY\_CONVERSION\_UNKNOWN\_UNIT is raised.
 
 Note
 
-By specifying [noError](javascript:call_link\('abenst_option_format.htm'\)) in the attribute [option](javascript:call_link\('abenst_option.htm'\)) of the ST command [tt:value](javascript:call_link\('abenst_tt_value_elementary.htm'\)), an exception for an unknown SAP code in serialization can be avoided. In this case, no conversion is performed.
+By specifying [noError](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option_format.htm) in the attribute [option](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_option.htm) of the ST command [tt:value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenst_tt_value_elementary.htm), an exception for an unknown SAP code in serialization can be avoided. In this case, no conversion is performed.
 
 Example
 

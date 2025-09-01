@@ -4,23 +4,23 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Creating Objects and Values](javascript:call_link\('abencreate_objects.htm'\)) →  [CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Creating Objects and Values](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencreate_objects.htm) →  [CREATE OBJECT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object.htm) → 
 
 CREATE OBJECT oref
 
-[Short Reference](javascript:call_link\('abapcreate_object_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_shortref.htm)
 
 Syntax
 
-CREATE OBJECT oref *\[* [area\_handle](javascript:call_link\('abapcreate_object_area_handle.htm'\))*\]* *\[* [parameter\_list](javascript:call_link\('abapcreate_object_parameters.htm'\))*\]*.
+CREATE OBJECT oref *\[* [area\_handle](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_area_handle.htm)*\]* *\[* [parameter\_list](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapcreate_object_parameters.htm)*\]*.
 
 Effect
 
-If the addition TYPE is not specified, the object reference variable oref must be a class reference variable. An instance of the class is created that is the static type of the object reference variable. The static type of the class reference variable must not be an [abstract](javascript:call_link\('abenabstract_glosry.htm'\) "Glossary Entry") class, and in particular not the root class object.
+If the addition TYPE is not specified, the object reference variable oref must be a class reference variable. An instance of the class is created that is the static type of the object reference variable. The static type of the class reference variable must not be an [abstract](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabstract_glosry.htm "Glossary Entry") class, and in particular not the root class object.
 
 Hint
 
-If the character # is used in an operand position with the operand type of a class reference variable, the [instance operator](javascript:call_link\('abeninstance_operator_glosry.htm'\) "Glossary Entry") [NEW](javascript:call_link\('abenconstructor_expression_new.htm'\)) works like the statement CREATE DATA dref.
+If the character # is used in an operand position with the operand type of a class reference variable, the [instance operator](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninstance_operator_glosry.htm "Glossary Entry") [NEW](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconstructor_expression_new.htm) works like the statement CREATE DATA dref.
 
 Example
 

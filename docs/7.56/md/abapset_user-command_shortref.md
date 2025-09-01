@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  S
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  S
 
 SET USER-COMMAND - Short Reference
 
-[Reference](javascript:call_link\('abapset_user-command.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapset_user-command.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ SET USER-COMMAND fcode.
 
 Effect
 
-Raises a list event with a [function code](javascript:call_link\('abenfunction_code_glosry.htm'\) "Glossary Entry") specified in fcode.
+Raises a list event with a [function code](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenfunction_code_glosry.htm "Glossary Entry") specified in fcode.

@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) →  [SHIFT](javascript:call_link\('abapshift.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_processing_statements.htm) →  [SHIFT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapshift.htm) → 
 
 SHIFT - deleting
 
-[Quick Reference](javascript:call_link\('abapshift_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapshift_shortref.htm)
 
 Syntax
 
@@ -21,7 +21,7 @@ If these additions are used, the statement SHIFT shifts the content of dobj by o
 
 If the data object dobj is a string, it is shortened when it is shifted to the left but not lengthened when it is shifted to the right. This means the content of mask can also be moved out of a string to the right.
 
-In character string processing, mask is a [character-like expression position](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry"). It is case-sensitive and any trailing blanks in mask are respected. If the content of the first or last place in dobj is not in mask, the content of text remains unchanged. More specifically, nothing is shifted if mask is an empty string.
+In character string processing, mask is a [character-like expression position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry"). It is case-sensitive and any trailing blanks in mask are respected. If the content of the first or last place in dobj is not in mask, the content of text remains unchanged. More specifically, nothing is shifted if mask is an empty string.
 
 Example
 

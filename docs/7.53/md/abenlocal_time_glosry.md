@@ -4,8 +4,8 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 local time
 
-[Time](javascript:call_link\('abentime_glosry.htm'\) "Glossary Entry") valid in a [time zone](javascript:call_link\('abentime_zone_glosry.htm'\) "Glossary Entry").
+[Time](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_glosry.htm "Glossary Entry") valid in a [time zone](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_zone_glosry.htm "Glossary Entry").

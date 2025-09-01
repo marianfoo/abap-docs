@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  I
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_shortref.htm) →  I
 
 INTERFACE, DEFERRED, LOAD - Short Reference
 
-[Reference](javascript:call_link\('abapinterface_deferred.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapinterface_deferred.htm)
 
 Syntax
 
@@ -22,5 +22,5 @@ Additions
 
 -   DEFERRED *\[*PUBLIC*\]*
     Makes a local or global interface public before its actual declaration in the program.
--   [LOAD](javascript:call_link\('abapclass_interface_load.htm'\))
+-   [LOAD](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclass_interface_load.htm)
     Obsolete: Previously loaded a global interface from the Class Library.

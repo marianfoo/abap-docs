@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Dictionary (DDIC)](javascript:call_link\('abenabap_dictionary.htm'\)) →  [DDIC - Built-In Data Types](javascript:call_link\('abenddic_builtin_types_intro.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Dictionary (DDIC)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary.htm) →  [DDIC - Built-In Data Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types_intro.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20DDIC%20-%20Overview%20of%20All%20Built-In%20Dictionary%20Types%2C%20ABENDDIC_BUILTIN_TYPES%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for
 %20improvement:)
 
 DDIC - Overview of All Built-In Dictionary Types
 
-The following tables show the built-in types in [ABAP Dictionary](javascript:call_link\('abenabap_dictionary_glosry.htm'\) "Glossary Entry") and their fundamental technical properties. For each built-in data type in ABAP Dictionary, the last column specifies the [built-in ABAP type](javascript:call_link\('abenbuiltin_abap_type_glosry.htm'\) "Glossary Entry") to which the built-in dictionary type is mapped when used as type reference in an ABAP program. Most built-in dictionary types are assigned an initial value. These initial values are applied, for example, when initial [dynpro fields](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") are displayed, when database fields are [initialized](javascript:call_link\('abenddic_database_tables_init.htm'\)), and in the ABAP SQL condition [IS INITIAL](javascript:call_link\('abenwhere_logexp_initial.htm'\)). The initial value of ABAP Dictionary types is not used for data objects declared in ABAP programs when referring to these types. Here, the initial value of the mapped [built-in ABAP types](javascript:call_link\('abenbuilt_in_types_complete.htm'\)) is used.
+The following tables show the built-in types in [ABAP Dictionary](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_dictionary_glosry.htm "Glossary Entry") and their fundamental technical properties. For each built-in data type in ABAP Dictionary, the last column specifies the [built-in ABAP type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_abap_type_glosry.htm "Glossary Entry") to which the built-in dictionary type is mapped when used as type reference in an ABAP program. Most built-in dictionary types are assigned an initial value. These initial values are applied, for example, when initial [dynpro fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_field_glosry.htm "Glossary Entry") are displayed, when database fields are [initialized](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_database_tables_init.htm), and in the ABAP SQL condition [IS INITIAL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenwhere_logexp_initial.htm). The initial value of ABAP Dictionary types is not used for data objects declared in ABAP programs when referring to these types. Here, the initial value of the mapped [built-in ABAP types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuilt_in_types_complete.htm) is used.
 
 General Types   
 
@@ -41,7 +41,7 @@ INT1
 
 1-byte integer, 0 to 255
 
-[b](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[b](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 INT2
 
@@ -53,7 +53,7 @@ INT2
 
 2-byte integer, -32,768 to 32,767
 
-[s](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[s](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 INT4
 
@@ -65,7 +65,7 @@ INT4
 
 4-byte integer, -2,147,483,648 to +2,147,483,647
 
-[i](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[i](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 INT8
 
@@ -77,7 +77,7 @@ INT8
 
 8-byte integer, -9,223,372,036,854,775,808 to +9,223,372,036,854,775,807
 
-[int8](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[int8](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 DEC
 
@@ -87,9 +87,9 @@ DEC
 
 0
 
-Packed number in [BCD](javascript:call_link\('abenbcd_glosry.htm'\) "Glossary Entry") format
+Packed number in [BCD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbcd_glosry.htm "Glossary Entry") format
 
-[p](javascript:call_link\('abenbuiltin_types_numeric.htm'\)), length m [DIV](javascript:call_link\('abenarith_operators.htm'\)) 2 + 1, decimal places n
+[p](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm), length m [DIV](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarith_operators.htm) 2 + 1, decimal places n
 
 DECFLOAT16
 
@@ -99,9 +99,9 @@ DECFLOAT16
 
 0
 
-[Decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry")
+[Decimal floating point number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_glosry.htm "Glossary Entry")
 
-[decfloat16](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[decfloat16](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 DF16\_DEC
 
@@ -111,9 +111,9 @@ DF16\_DEC
 
 0
 
-[Decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") stored in [BCD](javascript:call_link\('abenbcd_glosry.htm'\) "Glossary Entry") format
+[Decimal floating point number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_glosry.htm "Glossary Entry") stored in [BCD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbcd_glosry.htm "Glossary Entry") format
 
-[decfloat16](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[decfloat16](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 DF16\_RAW
 
@@ -123,9 +123,9 @@ DF16\_RAW
 
 0
 
-[Decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") stored in binary format
+[Decimal floating point number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_glosry.htm "Glossary Entry") stored in binary format
 
-[decfloat16](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[decfloat16](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 DECFLOAT34
 
@@ -135,9 +135,9 @@ DECFLOAT34
 
 0
 
-[Decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry")
+[Decimal floating point number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_glosry.htm "Glossary Entry")
 
-[decfloat34](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[decfloat34](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 DF34\_DEC
 
@@ -147,9 +147,9 @@ DF34\_DEC
 
 0
 
-[Decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") stored in [BCD](javascript:call_link\('abenbcd_glosry.htm'\) "Glossary Entry") format
+[Decimal floating point number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_glosry.htm "Glossary Entry") stored in [BCD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbcd_glosry.htm "Glossary Entry") format
 
-[decfloat34](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[decfloat34](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 DF34\_RAW
 
@@ -159,9 +159,9 @@ DF34\_RAW
 
 0
 
-[Decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") stored in binary format
+[Decimal floating point number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_glosry.htm "Glossary Entry") stored in binary format
 
-[decfloat34](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[decfloat34](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 FLTP
 
@@ -171,11 +171,11 @@ FLTP
 
 0
 
-[Binary floating point number](javascript:call_link\('abenbinfloat_glosry.htm'\) "Glossary Entry")
+[Binary floating point number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbinfloat_glosry.htm "Glossary Entry")
 
-[f](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[f](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
-See [Integers, Packed Numbers, Binary Floating Point Numbers](javascript:call_link\('abenddic_builtin_types_int_pack.htm'\)) and [Decimal Floating Point Numbers](javascript:call_link\('abenddic_decimal_floating_point.htm'\)).
+See [Integers, Packed Numbers, Binary Floating Point Numbers](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_builtin_types_int_pack.htm) and [Decimal Floating Point Numbers](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_decimal_floating_point.htm).
 
 Character-Like Types   
 
@@ -197,7 +197,7 @@ m blanks
 
 String
 
-[c](javascript:call_link\('abenbuiltin_types_character.htm'\)), length m
+[c](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_character.htm), length m
 
 LCHR
 
@@ -207,7 +207,7 @@ None
 
 Long character string
 
-[c](javascript:call_link\('abenbuiltin_types_character.htm'\)), length m
+[c](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_character.htm), length m
 
 SSTRING
 
@@ -217,7 +217,7 @@ Empty string
 
 Character string
 
-[string](javascript:call_link\('abenbuiltin_types_character.htm'\))
+[string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_character.htm)
 
 STRING
 
@@ -225,11 +225,11 @@ STRING
 
 Empty string
 
-Character string ([CLOB](javascript:call_link\('abenclob_glosry.htm'\) "Glossary Entry"))
+Character string ([CLOB](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclob_glosry.htm "Glossary Entry"))
 
-[string](javascript:call_link\('abenbuiltin_types_character.htm'\))
+[string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_character.htm)
 
-See [Character-Like Types and Byte-Like Types](javascript:call_link\('abenddic_character_byte_types.htm'\)).
+See [Character-Like Types and Byte-Like Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_character_byte_types.htm).
 
 Byte-Like Types   
 
@@ -251,7 +251,7 @@ None
 
 Byte string
 
-[x](javascript:call_link\('abenbuiltin_types_byte.htm'\)), length m
+[x](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_byte.htm), length m
 
 LRAW
 
@@ -261,7 +261,7 @@ None
 
 Long byte string
 
-[x](javascript:call_link\('abenbuiltin_types_byte.htm'\)), length m
+[x](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_byte.htm), length m
 
 RAWSTRING
 
@@ -269,11 +269,11 @@ RAWSTRING
 
 Empty string
 
-Byte string ([BLOB](javascript:call_link\('abenblob_glosry.htm'\) "Glossary Entry"))
+Byte string ([BLOB](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenblob_glosry.htm "Glossary Entry"))
 
-[xstring](javascript:call_link\('abenbuiltin_types_byte.htm'\))
+[xstring](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_byte.htm)
 
-See [Character-Like Types and Byte-Like Types](javascript:call_link\('abenddic_character_byte_types.htm'\)).
+See [Character-Like Types and Byte-Like Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_character_byte_types.htm).
 
 Special Types   
 
@@ -299,7 +299,7 @@ DATN
 
 Date in internal format of database
 
-[d](javascript:call_link\('abenbuiltin_types_date_time.htm'\))
+[d](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_date_time.htm)
 
 DATS
 
@@ -309,7 +309,7 @@ DATS
 
 Date in the format YYYYMMDD
 
-[d](javascript:call_link\('abenbuiltin_types_date_time.htm'\))
+[d](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_date_time.htm)
 
 TIMN
 
@@ -319,7 +319,7 @@ TIMN
 
 Time in internal format of database
 
-[t](javascript:call_link\('abenbuiltin_types_date_time.htm'\))
+[t](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_date_time.htm)
 
 TIMS
 
@@ -329,7 +329,7 @@ TIMS
 
 Time in the format HHMMSS
 
-[t](javascript:call_link\('abenbuiltin_types_date_time.htm'\))
+[t](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_date_time.htm)
 
 ACCP
 
@@ -339,7 +339,7 @@ ACCP
 
 Posting period in the format YYYYMM
 
-[n](javascript:call_link\('abenbuiltin_types_character.htm'\)), length 6
+[n](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_character.htm), length 6
 
 UTCLONG
 
@@ -349,9 +349,9 @@ UTCLONG
 
 Time stamp (exact to 100 ns)
 
-[utclong](javascript:call_link\('abenbuiltin_types_date_time.htm'\))
+[utclong](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_date_time.htm)
 
-See [Date Fields, Time Fields, and Time Stamp Fields](javascript:call_link\('abenddic_date_time_types.htm'\)).
+See [Date Fields, Time Fields, and Time Stamp Fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_date_time_types.htm).
 
 Character-Like Types with Special Semantics   
 
@@ -371,9 +371,9 @@ NUMC
 
 m zeros
 
-[Numeric text](javascript:call_link\('abennumeric_text_glosry.htm'\) "Glossary Entry")
+[Numeric text](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumeric_text_glosry.htm "Glossary Entry")
 
-[n](javascript:call_link\('abenbuiltin_types_character.htm'\)), length m
+[n](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_character.htm), length m
 
 CLNT
 
@@ -395,7 +395,7 @@ Language key
 
 c, length 1
 
-See [Special Character-Like Types](javascript:call_link\('abenddic_special_character_types.htm'\)).
+See [Special Character-Like Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_special_character_types.htm).
 
 Currency Fields and Quantity Fields   
 
@@ -419,9 +419,9 @@ CURR
 
 0
 
-[Currency field](javascript:call_link\('abencurrency_field_glosry.htm'\) "Glossary Entry") in [BCD](javascript:call_link\('abenbcd_glosry.htm'\) "Glossary Entry") format
+[Currency field](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencurrency_field_glosry.htm "Glossary Entry") in [BCD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbcd_glosry.htm "Glossary Entry") format
 
-[p](javascript:call_link\('abenbuiltin_types_numeric.htm'\)), length m [DIV](javascript:call_link\('abenarith_operators.htm'\)) 2 + 1, decimal places n
+[p](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm), length m [DIV](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarith_operators.htm) 2 + 1, decimal places n
 
 CUKY
 
@@ -431,7 +431,7 @@ CUKY
 
 5 blanks
 
-[Currency key](javascript:call_link\('abencurrency_key_glosry.htm'\) "Glossary Entry") for [currency fields](javascript:call_link\('abenddic_currency_field_glosry.htm'\) "Glossary Entry")
+[Currency key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencurrency_key_glosry.htm "Glossary Entry") for [currency fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_currency_field_glosry.htm "Glossary Entry")
 
 c, length 5
 
@@ -443,9 +443,9 @@ QUAN
 
 0
 
-[Quantity field](javascript:call_link\('abenddic_quantity_glosry.htm'\) "Glossary Entry") in [BCD](javascript:call_link\('abenbcd_glosry.htm'\) "Glossary Entry") format
+[Quantity field](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_quantity_glosry.htm "Glossary Entry") in [BCD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbcd_glosry.htm "Glossary Entry") format
 
-[p](javascript:call_link\('abenbuiltin_types_numeric.htm'\)), length m [DIV](javascript:call_link\('abenarith_operators.htm'\)) 2 + 1, decimal places n
+[p](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm), length m [DIV](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarith_operators.htm) 2 + 1, decimal places n
 
 UNIT
 
@@ -455,11 +455,11 @@ UNIT
 
 2 or 3 blanks
 
-[Unit key](javascript:call_link\('abenunit_glosry.htm'\) "Glossary Entry") of a [quantity field](javascript:call_link\('abenddic_quantity_glosry.htm'\) "Glossary Entry")
+[Unit key](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenunit_glosry.htm "Glossary Entry") of a [quantity field](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_quantity_glosry.htm "Glossary Entry")
 
-[c](javascript:call_link\('abenbuiltin_types_character.htm'\)), length m
+[c](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_character.htm), length m
 
-See [Currency Fields](javascript:call_link\('abenddic_currency_field.htm'\)) and [Quantity Fields](javascript:call_link\('abenddic_quantity_field.htm'\)).
+See [Currency Fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_currency_field.htm) and [Quantity Fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_quantity_field.htm).
 
 Geodata Types   
 
@@ -481,9 +481,9 @@ Empty string
 
 Geometric data in EWKB representation
 
-[xstring](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[xstring](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
-See [Geodata Types](javascript:call_link\('abenddic_geo_data.htm'\)).
+See [Geodata Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_geo_data.htm).
 
 Obsolete Types   
 
@@ -503,9 +503,9 @@ DF16\_SCL
 
 0
 
-[Decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") stored in binary format with scaling specified (obsolete)
+[Decimal floating point number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_glosry.htm "Glossary Entry") stored in binary format with scaling specified (obsolete)
 
-[decfloat16](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[decfloat16](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 DF34\_SCL
 
@@ -513,9 +513,9 @@ DF34\_SCL
 
 0
 
-[Decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") stored in binary format with scaling specified (obsolete)
+[Decimal floating point number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendecfloat_glosry.htm "Glossary Entry") stored in binary format with scaling specified (obsolete)
 
-[decfloat34](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[decfloat34](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 PREC
 
@@ -525,7 +525,7 @@ PREC
 
 Obsolete data type
 
-[s](javascript:call_link\('abenbuiltin_types_numeric.htm'\))
+[s](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_numeric.htm)
 
 VARC
 
@@ -535,6 +535,6 @@ None
 
 Obsolete data type
 
-[c](javascript:call_link\('abenbuiltin_types_character.htm'\)), length m
+[c](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_types_character.htm), length m
 
-See [Obsolete Types](javascript:call_link\('abenddic_obsolete_types.htm'\)).
+See [Obsolete Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_obsolete_types.htm).

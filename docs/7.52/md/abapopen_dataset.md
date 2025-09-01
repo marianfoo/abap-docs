@@ -4,34 +4,34 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfile_interface_statements.htm) → 
 
 OPEN DATASET
 
-[Quick Reference](javascript:call_link\('abapopen_dataset_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_shortref.htm)
 
 Syntax
 
-OPEN DATASET dset FOR [access](javascript:call_link\('abapopen_dataset_access.htm'\)) IN [mode](javascript:call_link\('abapopen_dataset_mode.htm'\)) *\[*[position](javascript:call_link\('abapopen_dataset_position.htm'\))*\]*
-                                     *\[*[os\_additions](javascript:call_link\('abapopen_dataset_os_addition.htm'\))*\]*
-                                     *\[*[error\_handling](javascript:call_link\('abapopen_dataset_error_handling.htm'\))*\]*.
+OPEN DATASET dset FOR [access](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_access.htm) IN [mode](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_mode.htm) *\[*[position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_position.htm)*\]*
+                                     *\[*[os\_additions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_os_addition.htm)*\]*
+                                     *\[*[error\_handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_error_handling.htm)*\]*.
 
 Effect
 
-This statement opens the file specified in dset for the access specified in [access](javascript:call_link\('abapopen_dataset_access.htm'\)) in a storage mode specified in [mode](javascript:call_link\('abapopen_dataset_mode.htm'\)). dset expects a character-like data object containing the [physical name](javascript:call_link\('abenphysical_filename_glosry.htm'\) "Glossary Entry") of the file. The file must not yet be open in the current program; otherwise a handleable exception is raised.
+This statement opens the file specified in dset for the access specified in [access](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_access.htm) in a storage mode specified in [mode](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_mode.htm). dset expects a character-like data object containing the [physical name](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenphysical_filename_glosry.htm "Glossary Entry") of the file. The file must not yet be open in the current program; otherwise a handleable exception is raised.
 
-Use the additions [positions](javascript:call_link\('abapopen_dataset_position.htm'\)), [os\_addition](javascript:call_link\('abapopen_dataset_os_addition.htm'\)), and [error\_handling](javascript:call_link\('abapopen_dataset_error_handling.htm'\)) to determine the position at which file is opened, specify platform-specific additions, and influence error handling.
+Use the additions [positions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_position.htm), [os\_addition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_os_addition.htm), and [error\_handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_error_handling.htm) to determine the position at which file is opened, specify platform-specific additions, and influence error handling.
 
 Notes
 
--   Up to 100 files can be opened per [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"). The actual maximum number of simultaneously open files may be less, depending on the platform.
+-   Up to 100 files can be opened per [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry"). The actual maximum number of simultaneously open files may be less, depending on the platform.
     
--   When a file is opened, [automatic authorization checks](javascript:call_link\('abenfile_interface_authority.htm'\)) are performed; [self-programmed checks](javascript:call_link\('abendataset_auth_self.htm'\)) may also be necessary.
+-   When a file is opened, [automatic authorization checks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfile_interface_authority.htm) are performed; [self-programmed checks](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendataset_auth_self.htm) may also be necessary.
     
 
 Security Note
 
-Access to a file whose name dset is injected into a program from outside is a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used. See [Directory Traversal](javascript:call_link\('abendyn_file_scrty.htm'\)).
+Access to a file whose name dset is injected into a program from outside is a serious security risk. Any names passed to a program from outside must be checked thoroughly before being used. See [Directory Traversal](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendyn_file_scrty.htm).
 
 Return Value
 
@@ -65,7 +65,7 @@ The example demonstrates the following:
 
 -   Deleting the file
 
-The XML data is created by transforming an internal table to the [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") format.
+The XML data is created by transforming an internal table to the [asXML](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenasxml_glosry.htm "Glossary Entry") format.
 
 SELECT \*
      FROM scarr
@@ -86,7 +86,7 @@ CALL TRANSFORMATION id SOURCE XML xml
 cl\_demo\_output=>display( itab ).
 DELETE DATASET dset.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -136,8 +136,8 @@ Non-Handleable Exceptions
     
 
 Continue
-[OPEN DATASET - access](javascript:call_link\('abapopen_dataset_access.htm'\))
-[OPEN DATASET - mode](javascript:call_link\('abapopen_dataset_mode.htm'\))
-[OPEN DATASET - position](javascript:call_link\('abapopen_dataset_position.htm'\))
-[OPEN DATASET - os\_additions](javascript:call_link\('abapopen_dataset_os_addition.htm'\))
-[OPEN DATASET - error\_handling](javascript:call_link\('abapopen_dataset_error_handling.htm'\))
+[OPEN DATASET - access](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_access.htm)
+[OPEN DATASET - mode](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_mode.htm)
+[OPEN DATASET - position](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_position.htm)
+[OPEN DATASET - os\_additions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_os_addition.htm)
+[OPEN DATASET - error\_handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_error_handling.htm)

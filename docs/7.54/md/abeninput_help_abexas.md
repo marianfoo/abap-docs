@@ -4,13 +4,13 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [General Dynpros](javascript:call_link\('abenabap_dynpros.htm'\)) →  [Field Help, Input Help, and Dropdown List Boxes](javascript:call_link\('abenabap_dynpros_help.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_screens.htm) →  [General Dynpros](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros.htm) →  [Field Help, Input Help, and Dropdown List Boxes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_dynpros_help.htm) → 
 
 Field Helps, Input Helps, and Dropdown List Boxes - Examples
 
 Continue
-![Example](exa.gif "Example") [Dynpros, Field Help](javascript:call_link\('abendynpro_f1_help_abexa.htm'\))
-![Example](exa.gif "Example") [Dynpros, Input Help from ABAP Dictionary](javascript:call_link\('abendynpro_f4_help_dic_abexa.htm'\))
-![Example](exa.gif "Example") [Dynpros, Input Help in Dialog Modules](javascript:call_link\('abendynpro_f4_help_dial_abexa.htm'\))
-![Example](exa.gif "Example") [Dynpros, List Box with Value List from Input Help](javascript:call_link\('abendynpro_drop1_abexa.htm'\))
-![Example](exa.gif "Example") [Dynpros, List Box with Value List from PBO Module](javascript:call_link\('abendynpro_drop2_abexa.htm'\))
+![Example](exa.gif "Example") [Dynpros, Field Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f1_help_abexa.htm)
+![Example](exa.gif "Example") [Dynpros, Input Help from ABAP Dictionary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f4_help_dic_abexa.htm)
+![Example](exa.gif "Example") [Dynpros, Input Help in Dialog Modules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_f4_help_dial_abexa.htm)
+![Example](exa.gif "Example") [Dynpros, List Box with Value List from Input Help](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_drop1_abexa.htm)
+![Example](exa.gif "Example") [Dynpros, List Box with Value List from PBO Module](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abendynpro_drop2_abexa.htm)

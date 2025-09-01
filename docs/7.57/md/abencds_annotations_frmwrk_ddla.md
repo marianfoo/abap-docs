@@ -4,29 +4,45 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Annotations](javascript:call_link\('abencds_annotations.htm'\)) →  [ABAP CDS - SAP Annotations](javascript:call_link\('abencds_annotations_sap.htm'\)) →  [ABAP CDS - Framework-Specific Annotations](javascript:call_link\('abencds_annotations_frmwrk.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations.htm) →  [ABAP CDS - SAP Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_sap.htm) →  [ABAP CDS - Framework-Specific Annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ABAP CDS - Framework-Specific Annotation Definitions, ABENCDS_ANNOTATIONS_FRMWRK_DDLA
 , 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 ABAP CDS - Framework-Specific Annotation Definitions
 
-The following [DDLA source code](javascript:call_link\('abenddla_source_code_glosry.htm'\) "Glossary Entry") shows the [CDS annotation definitions](javascript:call_link\('abencds_anno_definition_glosry.htm'\) "Glossary Entry") in all [framework-specific annotations](javascript:call_link\('abenfrmwrk_annotation_glosry.htm'\) "Glossary Entry") in [CDS DDL](javascript:call_link\('abencds_ddl_glosry.htm'\) "Glossary Entry") and [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry") in ABAP CDS.
+The following [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shows the [CDS annotation definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_anno_definition_glosry.htm "Glossary Entry") in all [framework-specific annotations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfrmwrk_annotation_glosry.htm "Glossary Entry") in [CDS DDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_ddl_glosry.htm "Glossary Entry") and [CDS DCL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_dcl_glosry.htm "Glossary Entry") in ABAP CDS.
 
--   The meaning of the [DDLA source code](javascript:call_link\('abenddla_source_code_glosry.htm'\) "Glossary Entry") shown here can be found in the documentation for [DEFINE ANNOTATION](javascript:call_link\('abencds_f1_define_annotation.htm'\)).
+-   The meaning of the [DDLA source code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenddla_source_code_glosry.htm "Glossary Entry") shown here can be found in the documentation for [DEFINE ANNOTATION](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_annotation.htm).
 -   The semantics of the annotations can be found in the links in the DDLA source code.
 
 The documentation CDS Annotations summarizes the descriptions of the framework-specific annotations.
 
--   [AccessControl-Annotations](#abencds-annotations-frmwrk-ddla-1-------aggregation-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_2)
--   [Analytics-Annotations](#abencds-annotations-frmwrk-ddla-3-------analyticsdetails-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_4)
--   [Consumption-Annotations](#abencds-annotations-frmwrk-ddla-5-------defaultaggregation-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_6)
--   [EnterpriseSearch-Annotations](#abencds-annotations-frmwrk-ddla-7-------event-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_8)
--   [Feature-Annotations](#abencds-annotations-frmwrk-ddla-9-------genericpersistency-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_10)
--   [Hierarchy-Annotations](#abencds-annotations-frmwrk-ddla-11-------objectmodel-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_12)
--   [OData-Annotations](#abencds-annotations-frmwrk-ddla-13-------search-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_14)
--   [Semantics-Annotations](#abencds-annotations-frmwrk-ddla-15-------ui-annotations---@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_16)
--   [VDM-Annotations](#abencds-annotations-frmwrk-ddla-17---hint--see-also--framework-specific-annotation-syntax--javascript-call-link---abencds-annotations-frmwrk-tables-htm-------accesscontrol-annotations-----Scope:\[#VIEW, #TABLE\_FUNCTION, #HIERARCHY\]
+-   [AccessControl-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_1)
+-   [Aggregation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_2)
+-   [Analytics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_3)
+-   [AnalyticsDetails-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_4)
+-   [Consumption-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_5)
+-   [DefaultAggregation-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_6)
+-   [EnterpriseSearch-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_7)
+-   [Event-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_8)
+-   [Feature-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_9)
+-   [GenericPersistency-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_10)
+-   [Hierarchy-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_11)
+-   [ObjectModel-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_12)
+-   [OData-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_13)
+-   [Search-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_14)
+-   [Semantics-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_15)
+-   [UI-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_16)
+-   [VDM-Annotations](#@@ITOC@@ABENCDS_ANNOTATIONS_FRMWRK_DDLA_17)
+
+Hint
+
+See also [Framework-Specific Annotation Syntax](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_annotations_frmwrk_tables.htm).
+
+AccessControl-Annotations   
+
+@Scope:\[#VIEW, #TABLE\_FUNCTION, #HIERARCHY\]
 annotation AccessControl
 {
   @CompatibilityContract: {

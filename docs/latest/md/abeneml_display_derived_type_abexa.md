@@ -4,22 +4,22 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - RAP Business Objects](javascript:call_link\('abenabap_rap.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [Components of BDEF Derived Types](javascript:call_link\('abapderived_types_comp.htm'\)) →  [Examples for BDEF Derived Type Components](javascript:call_link\('abenderived_types_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_rap.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_for_rap_bos.htm) →  [BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrpm_derived_types.htm) →  [Components of BDEF Derived Types](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_comp.htm) →  [Examples for BDEF Derived Type Components](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenderived_types_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Display%20BDEF%20Derived%20Type%20Components%2C%20ABENEML_DISPLAY_DERIVED_TYPE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20imp
 rovement:)
 
 Display BDEF Derived Type Components
 
-This example allows multiple BDEF derived type components and their availability in variables typed with [TYPE TABLE FOR ...](javascript:call_link\('abaptype_table_for.htm'\)) and [TYPE STRUCTURE FOR ...](javascript:call_link\('abaptype_structure_for.htm'\)) to be explored.
+This example allows multiple BDEF derived type components and their availability in variables typed with [TYPE TABLE FOR ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_table_for.htm) and [TYPE STRUCTURE FOR ...](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptype_structure_for.htm) to be explored.
 
 The program makes use of three different RAP scenarios:
 
--   [RAP external numbering](javascript:call_link\('abenrap_ext_numbering_glosry.htm'\) "Glossary Entry") (non-draft, non-late numbering)
--   [Late numbering](javascript:call_link\('abenbdl_late_numbering.htm'\))
--   [Draft](javascript:call_link\('abenbdl_with_draft.htm'\))
+-   [RAP external numbering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrap_ext_numbering_glosry.htm "Glossary Entry") (non-draft, non-late numbering)
+-   [Late numbering](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_late_numbering.htm)
+-   [Draft](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbdl_with_draft.htm)
 
-The example is based on dummy [BDEFs](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") and [behavior pools (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") that just serve the purpose of including many specifications to display a variety of BDEF derived type components in the output:
+The example is based on dummy [BDEFs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") and [behavior pools (ABP)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") that just serve the purpose of including many specifications to display a variety of BDEF derived type components in the output:
 
 Scenario
 
@@ -1452,4 +1452,4 @@ AT SELECTION-SCREEN OUTPUT.
 
 Description   
 
-The program allows a BDEF derived type to be chosen, either TYPE TABLE FOR ... or TYPE STRUCTURE FOR ..., and a RAP scenario (external numbering, late numbering and draft) to be selected. The output shows an initial internal table. The table's column names represent the BDEF derived type components that are available in the chosen BDEF derived type. In many cases, multiple component groups are available in BDEF derived types, for example, [%tky](javascript:call_link\('abapderived_types_tky.htm'\)) is often available if [%key](javascript:call_link\('abapderived_types_key.htm'\)) is available. These component groups are additionally displayed. Note that this example displays components and component groups on a high level. The availability of components and component groups depends on the specifications in the BDEF. Make sure to check the F2 help for your variables typed with BDEF derived types to get the full overview.
+The program allows a BDEF derived type to be chosen, either TYPE TABLE FOR ... or TYPE STRUCTURE FOR ..., and a RAP scenario (external numbering, late numbering and draft) to be selected. The output shows an initial internal table. The table's column names represent the BDEF derived type components that are available in the chosen BDEF derived type. In many cases, multiple component groups are available in BDEF derived types, for example, [%tky](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_tky.htm) is often available if [%key](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapderived_types_key.htm) is available. These component groups are additionally displayed. Note that this example displays components and component groups on a high level. The availability of components and component groups depends on the specifications in the BDEF. Make sure to check the F2 help for your variables typed with BDEF derived types to get the full overview.

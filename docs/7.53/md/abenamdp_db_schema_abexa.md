@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [AMDP - ABAP Managed Database Procedures](javascript:call_link\('abenamdp.htm'\)) →  [AMDP - Examples](javascript:call_link\('abenamdp_abexas.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [AMDP - ABAP Managed Database Procedures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp.htm) →  [AMDP - Examples](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_abexas.htm) → 
 
 AMDP, Access to Database Schemas
 
-Demonstrates access to tables in explicitly specified [database schemas](javascript:call_link\('abendatabase_schema_glosry.htm'\) "Glossary Entry").
+Demonstrates access to tables in explicitly specified [database schemas](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendatabase_schema_glosry.htm "Glossary Entry").
 
 Source Code
 
@@ -57,7 +57,7 @@ START-OF-SELECTION.
 
 Description
 
-This example accesses [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") that are declared and implemented in the [AMDP class](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry") CL\_DEMO\_AMDP\_DB\_SCHEMA.
+This example accesses [AMDP methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_method_glosry.htm "Glossary Entry") that are declared and implemented in the [AMDP class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_class_glosry.htm "Glossary Entry") CL\_DEMO\_AMDP\_DB\_SCHEMA.
 
 -   The method GET\_SCHEMAS\_PHYSICAL accesses the table SCHEMAS of the physical database schema SYS by specifying the schema directly. All existing database schema are saved in this table.
 
@@ -68,7 +68,7 @@ METHOD get\_schemas\_physical BY DATABASE PROCEDURE
       FROM "SYS"."SCHEMAS";
 ENDMETHOD.
 
--   The method GET\_SCHEMAS\_LOGICAL accesses the physical database schema that is mapped to the [logical database schema](javascript:call_link\('abenlogical_database_schema_glosry.htm'\) "Glossary Entry") DEMO\_LOGICAL\_DB\_SCHEMA in transaction [](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry")[DB\_SCHEMA\_MAP](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry") by specifying the [AMDP macro](javascript:call_link\('abenamdp_macro_glosry.htm'\) "Glossary Entry") [](javascript:call_link\('abenamdp_logical_db_schemas.htm'\))[$ABAP.schema](javascript:call_link\('abenamdp_logical_db_schemas.htm'\)). If this is SYS, the same table is accessed.
+-   The method GET\_SCHEMAS\_LOGICAL accesses the physical database schema that is mapped to the [logical database schema](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_database_schema_glosry.htm "Glossary Entry") DEMO\_LOGICAL\_DB\_SCHEMA in transaction [](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_macro_glosry.htm "Glossary Entry")[DB\_SCHEMA\_MAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_macro_glosry.htm "Glossary Entry") by specifying the [AMDP macro](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_macro_glosry.htm "Glossary Entry") [](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_logical_db_schemas.htm)[$ABAP.schema](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_logical_db_schemas.htm). If this is SYS, the same table is accessed.
 
 METHOD get\_schemas\_logical BY DATABASE PROCEDURE
                            FOR HDB LANGUAGE SQLSCRIPT.
@@ -77,7 +77,7 @@ METHOD get\_schemas\_logical BY DATABASE PROCEDURE
       FROM "$ABAP.schema( DEMO\_LOGICAL\_DB\_SCHEMA )"."SCHEMAS";
 ENDMETHOD.
 
--   Another method, GET\_SCHEMAS\_LOGICAL\_TO\_ABAP, demonstrates how the addition [USING SCHEMA](javascript:call_link\('abapmethod_by_db_proc.htm'\)) of the statement METHOD is specified. The [logical database schema](javascript:call_link\('abenlogical_database_schema_glosry.htm'\) "Glossary Entry") DEMO\_LOGICAL\_DB\_SCHEMA\_TO\_ABAP is defined in such a way that it allows access to the [ABAP database schema](javascript:call_link\('abenabap_db_schema_glosry.htm'\) "Glossary Entry"). Since it is used in the method in the macro [$ABAP.schema](javascript:call_link\('abenamdp_logical_db_schemas.htm'\)), it must be declared after USING SCHEMA.
+-   Another method, GET\_SCHEMAS\_LOGICAL\_TO\_ABAP, demonstrates how the addition [USING SCHEMA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethod_by_db_proc.htm) of the statement METHOD is specified. The [logical database schema](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlogical_database_schema_glosry.htm "Glossary Entry") DEMO\_LOGICAL\_DB\_SCHEMA\_TO\_ABAP is defined in such a way that it allows access to the [ABAP database schema](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_db_schema_glosry.htm "Glossary Entry"). Since it is used in the method in the macro [$ABAP.schema](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_logical_db_schemas.htm), it must be declared after USING SCHEMA.
 
 METHOD get\_schemas\_logical\_to\_abap BY DATABASE PROCEDURE
                                    FOR HDB LANGUAGE SQLSCRIPT

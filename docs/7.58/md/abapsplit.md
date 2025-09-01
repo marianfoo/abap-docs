@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Statements for Character String and Byte String Processing](javascript:call_link\('abenstring_processing_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_string.htm) →  [Statements for Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_processing_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SPLIT%2C%20ABAPSPLIT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 SPLIT
 
-[Short Reference](javascript:call_link\('abapsplit_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsplit_shortref.htm)
 
 Syntax
 
@@ -28,12 +28,12 @@ The content of the operand dobj is split into segments in accordance with the se
 
 -   At least two target fields result1 result2 ... must be specified. The following can be specified for the target fields:
     -   Existing character-like or byte-like variables.
-    -   Inline declarations with [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)). If IN CHARACTER MODE is used, the declared variables are of the type string; if IN BYTE MODE is used, they are of the type xstring.
+    -   Inline declarations with [DATA(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_inline.htm) or [FINAL(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfinal_inline.htm). If IN CHARACTER MODE is used, the declared variables are of the type string; if IN BYTE MODE is used, they are of the type xstring.
 -   The following can be specified for the internal table result\_tab:
-    -   An existing internal table with character-like or byte-like line type. It must be a [standard table](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry") without [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry"). The table is initialized before being split.
-    -   An inline declaration with [DATA(var)](javascript:call_link\('abendata_inline.htm'\)) or [FINAL(var)](javascript:call_link\('abenfinal_inline.htm'\)). A standard table is declared with the table line as the primary table key and without secondary table keys. If IN CHARACTER MODE is used, the line type is of the type string; if IN BYTE MODE is used, it is of the type xstring.
+    -   An existing internal table with character-like or byte-like line type. It must be a [standard table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstandard_table_glosry.htm "Glossary Entry") without [secondary table keys](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_table_key_glosry.htm "Glossary Entry"). The table is initialized before being split.
+    -   An inline declaration with [DATA(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_inline.htm) or [FINAL(var)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfinal_inline.htm). A standard table is declared with the table line as the primary table key and without secondary table keys. If IN CHARACTER MODE is used, the line type is of the type string; if IN BYTE MODE is used, it is of the type xstring.
 
-dobj and sep are [character-like expression positions](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry").
+dobj and sep are [character-like expression positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry").
 
 The system searches the operand dobj from left to right for all occurrences of the content of the operand sep. The search is case-sensitive. All segments between the start of the operand and the first occurrence, between the occurrences, and between the last occurrence and the end of the operand are assigned one by one to the individual target fields result1 result2 ..., or appended to the internal table result\_tab as follows.
 
@@ -69,7 +69,7 @@ Hints
     -   If the last occurrence is at the end of the operand, the number of segments matches the number of occurrences.
 -   In the case of target fields or table lines with the type n, d, or t, the type-dependent assignment rules and initial values are not relevant. The segments are assigned as unconverted segments and any surplus target fields are filled with blanks.
 -   All specified single fields result1 result2 ... are given values.
--   To access the segments of a character string directly in an operand position, a [segment function](javascript:call_link\('abensegment_functions.htm'\)) can be used that covers some of the functions of the statement SPLIT.
+-   To access the segments of a character string directly in an operand position, a [segment function](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensegment_functions.htm) can be used that covers some of the functions of the statement SPLIT.
 
 Example
 
@@ -116,7 +116,7 @@ Addition  
 
 Effect
 
-The optional addition IN *{*CHARACTER*|*BYTE*}* MODE determines whether [character string or byte string processing](javascript:call_link\('abenstring_processing_statements.htm'\)) is performed. If the addition is not specified, character string processing is performed. Depending on the type of processing, the operands dobj, sep, and the target fields result1 result2 ... or the lines of the internal table result\_tab must be byte-like or character-like.
+The optional addition IN *{*CHARACTER*|*BYTE*}* MODE determines whether [character string or byte string processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_processing_statements.htm) is performed. If the addition is not specified, character string processing is performed. Depending on the type of processing, the operands dobj, sep, and the target fields result1 result2 ... or the lines of the internal table result\_tab must be byte-like or character-like.
 
 Example
 

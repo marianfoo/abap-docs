@@ -4,33 +4,33 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_ddl_syntax.htm) → 
 
 ABAP CDS - CDS Entities
 
-The following sections describe the possible [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry"):
+The following sections describe the possible [CDS entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_entity_glosry.htm "Glossary Entry"):
 
--   [CDS view entities](javascript:call_link\('abencds_v2_views.htm'\))
+-   [CDS view entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v2_views.htm)
 
--   [CDS projection views](javascript:call_link\('abencds_proj_views.htm'\))
+-   [CDS projection views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_views.htm)
 
--   [CDS table functions](javascript:call_link\('abencds_table_functions.htm'\))
+-   [CDS table functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_table_functions.htm)
 
--   [CDS hierarchies](javascript:call_link\('abencds_hierarchies.htm'\))
+-   [CDS hierarchies](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_hierarchies.htm)
 
--   [CDS custom entities](javascript:call_link\('abencds_custom_entities.htm'\))
+-   [CDS custom entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_custom_entities.htm)
 
--   [CDS abstract entities](javascript:call_link\('abencds_abstract_entities.htm'\))
+-   [CDS abstract entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_abstract_entities.htm)
 
--   [CDS DDIC-based entities](javascript:call_link\('abencds_ddic_entity.htm'\))
+-   [CDS DDIC-based entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddic_entity.htm)
 
 Each section first gives an overview of the concept, describes client handling and table buffering for the respective entity, and then describes the associated CDS DDL statement and all possible additions.
 
 Continue
-[ABAP CDS - View Entities](javascript:call_link\('abencds_v2_views.htm'\))
-[ABAP CDS - Projection Views](javascript:call_link\('abencds_proj_views.htm'\))
-[ABAP CDS - Table Functions](javascript:call_link\('abencds_table_functions.htm'\))
-[ABAP CDS - Hierarchies](javascript:call_link\('abencds_hierarchies.htm'\))
-[ABAP CDS - Custom Entities](javascript:call_link\('abencds_custom_entities.htm'\))
-[ABAP CDS - Abstract Entities](javascript:call_link\('abencds_abstract_entities.htm'\))
-[ABAP CDS - DDIC-Based Entities](javascript:call_link\('abencds_ddic_entity.htm'\))
+[ABAP CDS - View Entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_v2_views.htm)
+[ABAP CDS - Projection Views](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_proj_views.htm)
+[ABAP CDS - Table Functions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_table_functions.htm)
+[ABAP CDS - Hierarchies](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_hierarchies.htm)
+[ABAP CDS - Custom Entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_custom_entities.htm)
+[ABAP CDS - Abstract Entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_abstract_entities.htm)
+[ABAP CDS - DDIC-Based Entities](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_ddic_entity.htm)

@@ -4,17 +4,17 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT clauses](javascript:call_link\('abenselect_clauses.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Reads](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_reading.htm) →  [SELECT clauses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_clauses.htm) → 
 
 SELECT - GROUP BY
 
-[Quick Reference](javascript:call_link\('abapselect_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm)
 
 Syntax
 
-... GROUP BY *{* *{* [col1](javascript:call_link\('abenopen_sql_columns.htm'\)), [col2](javascript:call_link\('abenopen_sql_columns.htm'\)), ...
-                 [sql\_exp1](javascript:call_link\('abapsql_expr.htm'\)), [sql\_exp2](javascript:call_link\('abapsql_expr.htm'\)) ...
-                 [grouping\_sets1](javascript:call_link\('abapgrouping_sets_clause.htm'\)), [grouping\_sets2](javascript:call_link\('abapgrouping_sets_clause.htm'\)), ...*}*
+... GROUP BY *{* *{* [col1](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm), [col2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm), ...
+                 [sql\_exp1](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm), [sql\_exp2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm) ...
+                 [grouping\_sets1](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgrouping_sets_clause.htm), [grouping\_sets2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgrouping_sets_clause.htm), ...*}*
              *|* (grouping\_syntax) *}* ...
 
 Extras:
@@ -33,19 +33,19 @@ The addition GROUP BY combines groups of rows
 -   and that have the same result in the SQL expressions sql\_exp1, sql\_exp2, ...,
     
 
-as a single row in the results set of of a [query](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry"). This can be specified either statically as a comma-separated list col1, col2 ..., sql\_exp1, sql\_exp2, ..., grouping\_sets1, grouping\_sets2, ... or dynamically as a parenthesized data object grouping\_syntax. The order of the columns, SQL expressions or grouping sets within the comma-separated list is not important.
+as a single row in the results set of of a [query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquery_glosry.htm "Glossary Entry"). This can be specified either statically as a comma-separated list col1, col2 ..., sql\_exp1, sql\_exp2, ..., grouping\_sets1, grouping\_sets2, ... or dynamically as a parenthesized data object grouping\_syntax. The order of the columns, SQL expressions or grouping sets within the comma-separated list is not important.
 
-If used, GROUP BY demands that only individual elements but not all the columns are specified in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)) using \*. If GROUP BY is used, all columns that are specified directly after SELECT or as an argument of an [SQL expression](javascript:call_link\('abapsql_expr.htm'\)) and not as the argument of an [aggregate function](javascript:call_link\('abenaggregate_function_glosry.htm'\) "Glossary Entry") must be specified here (except in the [grouping function](javascript:call_link\('abengrouping_function.htm'\))). This means that columns not specified after GROUP BY can only be specified after SELECT as the argument of an aggregate function (with the exception of the grouping function). The aggregate functions define how the content of these columns is determined in the combined row from the contents of all the rows of a group. For the grouping function, however, the column specified as the argument of the grouping function or specified directly in an SQL expression must be specified after GROUP BY or after [GROUPING SETS](javascript:call_link\('abapgrouping_sets_clause.htm'\)).
+If used, GROUP BY demands that only individual elements but not all the columns are specified in the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm) using \*. If GROUP BY is used, all columns that are specified directly after SELECT or as an argument of an [SQL expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm) and not as the argument of an [aggregate function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenaggregate_function_glosry.htm "Glossary Entry") must be specified here (except in the [grouping function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengrouping_function.htm)). This means that columns not specified after GROUP BY can only be specified after SELECT as the argument of an aggregate function (with the exception of the grouping function). The aggregate functions define how the content of these columns is determined in the combined row from the contents of all the rows of a group. For the grouping function, however, the column specified as the argument of the grouping function or specified directly in an SQL expression must be specified after GROUP BY or after [GROUPING SETS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgrouping_sets_clause.htm).
 
 The columns specified after GROUP BY cannot have the type STRING, RAWSTRING, LCHR, or LRAW.
 
 Notes
 
--   If GROUP BY is used, the statement SELECT bypasses [table buffering](javascript:call_link\('abensap_buffering_glosry.htm'\) "Glossary Entry").
+-   If GROUP BY is used, the statement SELECT bypasses [table buffering](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensap_buffering_glosry.htm "Glossary Entry").
     
 -   Using GROUP BY and aggregate functions ensures that aggregates and groups are assembled by the database system, not AS ABAP. This can considerably reduce the volume of data that has to be transported from the database to AS ABAP.
     
--   If GROUP BY is used together with SQL expressions after SELECT, the syntax check is performed in a [strict mode](javascript:call_link\('abenopensql_strict_mode_740_sp08.htm'\)), which handles the statement more strictly than the regular syntax check.
+-   If GROUP BY is used together with SQL expressions after SELECT, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_mode_740_sp08.htm), which handles the statement more strictly than the regular syntax check.
     
 
 Addition 1
@@ -54,19 +54,19 @@ Addition 1
 
 Effect
 
-Specifies individual columns [col1](javascript:call_link\('abenopen_sql_columns.htm'\)), [col2](javascript:call_link\('abenopen_sql_columns.htm'\)), ..., directly whose content is used for grouping. The same column names must be specified as in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)). Alternative column names cannot be specified.
+Specifies individual columns [col1](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm), [col2](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm), ..., directly whose content is used for grouping. The same column names must be specified as in the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm). Alternative column names cannot be specified.
 
 Notes
 
--   If a column specified after GROUP BY contains [null values](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") in the results set, these values are not part of the group of ABAP-specific initial values and create a distinct group instead.
+-   If a column specified after GROUP BY contains [null values](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennull_value_glosry.htm "Glossary Entry") in the results set, these values are not part of the group of ABAP-specific initial values and create a distinct group instead.
     
--   If individual columns that are grouped in the SELECT in an [SQL expression](javascript:call_link\('abapsql_expr.htm'\)) are specified after GROUP BY, multiple groups can arise with the same result. To prevent this, the columns must be grouped after the expression.
+-   If individual columns that are grouped in the SELECT in an [SQL expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm) are specified after GROUP BY, multiple groups can arise with the same result. To prevent this, the columns must be grouped after the expression.
     
--   When a comma-separated list is used, the syntax check is performed in a [strict mode](javascript:call_link\('abenopensql_strict_mode_740_sp05.htm'\)), which handles the statement more strictly than the regular syntax check.
+-   When a comma-separated list is used, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_mode_740_sp05.htm), which handles the statement more strictly than the regular syntax check.
     
--   If specified, the columns col1, col2, ... can contain a [path expressions](javascript:call_link\('abenopen_sql_path.htm'\)) for associations of a CDS view. These must match in the GROUP BY clause and in the SELECT list (parameter passings and specified attributes can be compared here too).
+-   If specified, the columns col1, col2, ... can contain a [path expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_path.htm) for associations of a CDS view. These must match in the GROUP BY clause and in the SELECT list (parameter passings and specified attributes can be compared here too).
     
--   Instead of using commas, blanks can be used to separate the columns col1, col2, ... specified in an [obsolete form](javascript:call_link\('abenopen_sql_lists_obsolete.htm'\)). Commas must be specified, however, in the [strict modes](javascript:call_link\('abenopensql_strict_modes.htm'\)) of the syntax check from Release 7.40, SP05.
+-   Instead of using commas, blanks can be used to separate the columns col1, col2, ... specified in an [obsolete form](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_lists_obsolete.htm). Commas must be specified, however, in the [strict modes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_modes.htm) of the syntax check from Release 7.40, SP05.
     
 
 Example
@@ -87,20 +87,20 @@ Addition 2
 
 Effect
 
-Specifies SQL expressions whose result is used for grouping. Every [SQL expression](javascript:call_link\('abapsql_expr.htm'\)) specified after GROUP BY must also be specified somewhere in the [SELECT list](javascript:call_link\('abapselect_list.htm'\)), with identical spelling.
+Specifies SQL expressions whose result is used for grouping. Every [SQL expression](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm) specified after GROUP BY must also be specified somewhere in the [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm), with identical spelling.
 
-When a [column](javascript:call_link\('abenopen_sql_columns.htm'\)) is used as the operand of an SQL expression after GROUP BY, the effect on the interaction with the SELECT list is the same as specifying the column individually. A column that is not the argument of an aggregate function in the SELECT list can be specified either individually or as the operand of an SQL expression after GROUP BY. If a column like this is specified as the operand of an SQL expression, it does not need to be specified individually.
+When a [column](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_columns.htm) is used as the operand of an SQL expression after GROUP BY, the effect on the interaction with the SELECT list is the same as specifying the column individually. A column that is not the argument of an aggregate function in the SELECT list can be specified either individually or as the operand of an SQL expression after GROUP BY. If a column like this is specified as the operand of an SQL expression, it does not need to be specified individually.
 
-All [SQL expressions](javascript:call_link\('abapsql_expr.htm'\)) possible in the SELECT list can be specified after GROUP BY with the following restrictions:
+All [SQL expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapsql_expr.htm) possible in the SELECT list can be specified after GROUP BY with the following restrictions:
 
--   Each expression must contain at least one column of a [data source](javascript:call_link\('abapselect_data_source.htm'\)) as its operand.
+-   Each expression must contain at least one column of a [data source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm) as its operand.
     
--   The expressions cannot contain any [host variables](javascript:call_link\('abenopen_sql_host_variables.htm'\)) or ABAP literals as operands, with the exception of statically known constants or literals with the
+-   The expressions cannot contain any [host variables](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_host_variables.htm) or ABAP literals as operands, with the exception of statically known constants or literals with the
     
 
--   data type i with any content, but not as an argument of the [numeric functions](javascript:call_link\('abensql_arith_func.htm'\)) or of the function [COALESCE](javascript:call_link\('abensql_coalesce.htm'\)).
+-   data type i with any content, but not as an argument of the [numeric functions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_arith_func.htm) or of the function [COALESCE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_coalesce.htm).
 
--   Data type c with length 1 with the content "X" or a blank, but not as an argument of the function [COALESCE](javascript:call_link\('abensql_coalesce.htm'\)).
+-   Data type c with length 1 with the content "X" or a blank, but not as an argument of the function [COALESCE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_coalesce.htm).
 
 Notes
 
@@ -110,7 +110,7 @@ Notes
     
 -   After GROUP BY, it is not possible to specify, instead of an expression, the alternative column name specified in the SELECT list in the rule for the corresponding expression.
     
--   If SQL expressions are specified after GROUP BY, the syntax check is performed in a [strict mode](javascript:call_link\('abenopensql_strict_mode_740_sp08.htm'\)), which handles the statement more strictly than the regular syntax check.
+-   If SQL expressions are specified after GROUP BY, the syntax check is performed in a [strict mode](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_mode_740_sp08.htm), which handles the statement more strictly than the regular syntax check.
     
 
 Example
@@ -127,7 +127,7 @@ cl\_demo\_output=>display( result ).
 
 Executable Example
 
-[SQL Expressions, Use with GROUP BY](javascript:call_link\('abensql_expr_with_group_by_abexa.htm'\))
+[SQL Expressions, Use with GROUP BY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_expr_with_group_by_abexa.htm)
 
 Addition 3
 
@@ -135,7 +135,7 @@ Addition 3
 
 Effect
 
-The GROUP BY addition [GROUPING SETS](javascript:call_link\('abapgrouping_sets_clause.htm'\)) makes it possible to group multiple aggregations under one [SELECT](javascript:call_link\('abapselect.htm'\)) statement. This can also be done by specifying the same SELECT statement with different GROUP BY clauses and using the addition [UNION](javascript:call_link\('abapunion.htm'\)) to group them in a single statement. This approach is more work, however, is error prone and is harder for the database to optimize. The addition GROUPING SETS also makes it easier to interpret and maintain the SELECT statement. More information can be found under [SELECT - GROUP BY, grouping\_sets](javascript:call_link\('abapgrouping_sets_clause.htm'\)).
+The GROUP BY addition [GROUPING SETS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgrouping_sets_clause.htm) makes it possible to group multiple aggregations under one [SELECT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect.htm) statement. This can also be done by specifying the same SELECT statement with different GROUP BY clauses and using the addition [UNION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapunion.htm) to group them in a single statement. This approach is more work, however, is error prone and is harder for the database to optimize. The addition GROUPING SETS also makes it easier to interpret and maintain the SELECT statement. More information can be found under [SELECT - GROUP BY, grouping\_sets](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgrouping_sets_clause.htm).
 
 Addition 4
 
@@ -143,13 +143,13 @@ Addition 4
 
 Effect
 
-As an alternative to specifying columns statically, a parenthesized data object grouping\_syntax can be specified, which either contains the syntax of the list of columns or SQL expressions (with the exception of [host expressions](javascript:call_link\('abenhost_expression_glosry.htm'\) "Glossary Entry")) or is initial when the statement is executed. The same applies to grouping\_syntax as when specifying columns dynamically as a [SELECT list](javascript:call_link\('abapselect_list.htm'\)).
+As an alternative to specifying columns statically, a parenthesized data object grouping\_syntax can be specified, which either contains the syntax of the list of columns or SQL expressions (with the exception of [host expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhost_expression_glosry.htm "Glossary Entry")) or is initial when the statement is executed. The same applies to grouping\_syntax as when specifying columns dynamically as a [SELECT list](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_list.htm).
 
 If the content of grouping\_syntax is initial, either all the rows or no rows at all are grouped together. The columns in the SELECT list must then be specified either solely as arguments of aggregate functions or only directly. If not, this would raise a handleable exception CX\_SY\_OPEN\_SQL\_DB. Invalid syntax raises a handleable exception from the class CX\_SY\_DYNAMIC\_OSQL\_ERROR.
 
 Security Note
 
-If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the built-in function [escape](javascript:call_link\('abenescape_functions.htm'\)). See [SQL Injections Using Dynamic Tokens](javascript:call_link\('abensql_inj_dyn_tokens_scrty.htm'\)).
+If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the built-in function [escape](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenescape_functions.htm). See [SQL Injections Using Dynamic Tokens](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensql_inj_dyn_tokens_scrty.htm).
 
 Notes
 
@@ -162,7 +162,7 @@ Notes
 
 -   The literals of the dynamically specified ABAP SQL statements can span multiple rows of a token specified dynamically as an internal table.
 
--   When specified dynamically, ABAP SQL statements can contain the comment characters [\*](javascript:call_link\('abencomment.htm'\)) and ["](javascript:call_link\('abencomment.htm'\)) as follows:
+-   When specified dynamically, ABAP SQL statements can contain the comment characters [\*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomment.htm) and ["](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencomment.htm) as follows:
 
 -   In a dynamic token specified as a character-like data object, all content is ignored from the first comment character ".
 
@@ -210,6 +210,6 @@ TRY.
 ENDTRY.
 
 Continue
-[SELECT - GROUP BY, grouping\_sets](javascript:call_link\('abapgrouping_sets_clause.htm'\))
-[agg\_exp - GROUPING](javascript:call_link\('abengrouping_function.htm'\))
-![Example](exa.gif "Example") [SELECT, Grouping Sets](javascript:call_link\('abenselect_grouping_sets_abexa.htm'\))
+[SELECT - GROUP BY, grouping\_sets](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapgrouping_sets_clause.htm)
+[agg\_exp - GROUPING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abengrouping_function.htm)
+![Example](exa.gif "Example") [SELECT, Grouping Sets](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_grouping_sets_abexa.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 4.xx](javascript:call_link\('abennews-4.htm'\)) →  [News for ABAP Release 4.5](javascript:call_link\('abennews-40-other-45a.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 4.xx](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-4.htm) →  [News for ABAP Release 4.5](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-40-other-45a.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Runtime%20Analysis%20in%20ABAP%20Release%204.5%2C%20ABENNEWS-45-SE30%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -27,13 +27,13 @@ Modification 2  
 
 Setting Measurement Accuracy
 
-Before the measurement, the [measurement accuracy](javascript:call_link\('abapset_run_time_clock_resolution.htm'\)) can be set between high and low.
+Before the measurement, the [measurement accuracy](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_run_time_clock_resolution.htm) can be set between high and low.
 
 Modification 3   
 
 Information About the Measurement Interval
 
-In the initial screen, choose Utilities → Measurement interval... to see the size of the maximum [measurement interval](javascript:call_link\('abapget_run_time.htm'\)) of the machine in question depending on the measurement accuracy set.
+In the initial screen, choose Utilities → Measurement interval... to see the size of the maximum [measurement interval](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_run_time.htm) of the machine in question depending on the measurement accuracy set.
 
 Modification 4   
 
@@ -43,7 +43,7 @@ When the statistics are called up, the following information is provided about t
 
 -   Load size in bytes
 -   Size of the global data in bytes
--   Number of [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") defined or used
+-   Number of [procedures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocedure_glosry.htm "Glossary Entry") defined or used
 
 The statistics can be sorted by a column by clicking the title of the column once.
 
@@ -61,6 +61,6 @@ Interface Changes
 
 The following changes were made:
 
--   Initial screen: Settings → Measurement Accuracy...(see [SET RUN TIME CLOCK RESOLUTION HIGH/LOW](javascript:call_link\('abapset_run_time_clock_resolution.htm'\))).
+-   Initial screen: Settings → Measurement Accuracy...(see [SET RUN TIME CLOCK RESOLUTION HIGH/LOW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_run_time_clock_resolution.htm)).
 -   Initial screen: Utilities → Measurement Interval ...
 -   Overview screen: Goto → Statistics

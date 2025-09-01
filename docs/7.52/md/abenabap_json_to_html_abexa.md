@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) →  [JSON, Examples](javascript:call_link\('abenabap_json_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_json.htm) →  [JSON, Examples](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_json_abexas.htm) → 
 
 JSON, Transformation to HTML
 
@@ -38,4 +38,4 @@ START-OF-SELECTION.
 
 Description
 
-This example demonstrates how [JSON data](javascript:call_link\('abenjson_oview.htm'\)) is transformed to SJSON2HTML to HTML using the transformation XSL. The nodes for objects and arrays can be opened and closed in the displayed result.
+This example demonstrates how [JSON data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenjson_oview.htm) is transformed to SJSON2HTML to HTML using the transformation XSL. The nodes for objects and arrays can be opened and closed in the displayed result.

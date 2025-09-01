@@ -4,7 +4,7 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Objects (RAP BO)](javascript:call_link\('abencds_rap_business_objects.htm'\)) →  [ABAP CDS - Behavior Definitions](javascript:call_link\('abencds_bdef.htm'\)) →  [ABAP CDS - BDL for Behavior Definitions](javascript:call_link\('abenbdl.htm'\)) →  [ABAP CDS - managed and unmanaged behavior definitions](javascript:call_link\('abenbdl_rap_bo.htm'\)) →  [CDS BDL - entity behavior definition](javascript:call_link\('abenbdl_define_beh.htm'\)) →  [CDS BDL - entity behavior characteristics](javascript:call_link\('abenbdl_character.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Objects (RAP BO)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_rap_business_objects.htm) →  [ABAP CDS - Behavior Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_bdef.htm) →  [ABAP CDS - BDL for Behavior Definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl.htm) →  [ABAP CDS - managed and unmanaged behavior definitions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_rap_bo.htm) →  [CDS BDL - entity behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_define_beh.htm) →  [CDS BDL - entity behavior characteristics](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_character.htm) → 
 
 CDS BDL - etag
 
@@ -13,7 +13,7 @@ Syntax Forms
 ETag for active version
   etag master MasterField
 *|* etag dependent by \_Assoc
-ETag for [draft version](javascript:call_link\('abenbdl_with_draft.htm'\))
+ETag for [draft version](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_with_draft.htm)
   total etag TotalEtagField
 
 Variants:
@@ -24,22 +24,22 @@ Variants:
 
 Effect
 
-Defines a field as entity tag ([ETag](javascript:call_link\('abenrap_etag_glosry.htm'\) "Glossary Entry")) field for [optimistic concurrency control](javascript:call_link\('abenoptimistic_conc_control_glosry.htm'\) "Glossary Entry"). A field flagged as ETag field is used to describe, uniquely, the state of a requested resource (for example a specific [entity instance](javascript:call_link\('abenrap_bo_entity_inst_glosry.htm'\) "Glossary Entry")). Any changes made to the requested resource update the ETag field. On each change request, the value of the ETag field is compared to the value the [RAP BO consumer](javascript:call_link\('abenrap_bo_consumer_glosry.htm'\) "Glossary Entry") sends with the request and only if these values match is the change request accepted. This way, inconsistencies and unintentional changes of data are prevented when multiple users work on the same data. Often fields containing time stamps, hash values, or any other versioning that precisely identifies the version of the data set are used.
+Defines a field as entity tag ([ETag](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_etag_glosry.htm "Glossary Entry")) field for [optimistic concurrency control](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenoptimistic_conc_control_glosry.htm "Glossary Entry"). A field flagged as ETag field is used to describe, uniquely, the state of a requested resource (for example a specific [entity instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_entity_inst_glosry.htm "Glossary Entry")). Any changes made to the requested resource update the ETag field. On each change request, the value of the ETag field is compared to the value the [RAP BO consumer](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_consumer_glosry.htm "Glossary Entry") sends with the request and only if these values match is the change request accepted. This way, inconsistencies and unintentional changes of data are prevented when multiple users work on the same data. Often fields containing time stamps, hash values, or any other versioning that precisely identifies the version of the data set are used.
 
-etag master and etag dependent can optionally be used for the [persistent data](javascript:call_link\('abenrap_persistent_data_glosry.htm'\) "Glossary Entry") of a business object. They are defined at entity-level in the [entity behavior characteristics](javascript:call_link\('abencds_entity_properties_glosry.htm'\) "Glossary Entry") for each [RAP BO entity](javascript:call_link\('abenrap_bo_entity_glosry.htm'\) "Glossary Entry") separately. If an entity is an [ETag master entity](javascript:call_link\('abenrap_etag_ma_ent_glosry.htm'\) "Glossary Entry"), it has its own ETag field. An [ETag dependent entity](javascript:call_link\('abenrap_etag_dep_ent_glosry.htm'\) "Glossary Entry") uses the ETag field of another entity for optimistic concurrency control.
+etag master and etag dependent can optionally be used for the [persistent data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_persistent_data_glosry.htm "Glossary Entry") of a business object. They are defined at entity-level in the [entity behavior characteristics](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_entity_properties_glosry.htm "Glossary Entry") for each [RAP BO entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_entity_glosry.htm "Glossary Entry") separately. If an entity is an [ETag master entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_etag_ma_ent_glosry.htm "Glossary Entry"), it has its own ETag field. An [ETag dependent entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_etag_dep_ent_glosry.htm "Glossary Entry") uses the ETag field of another entity for optimistic concurrency control.
 
-total etag is available only for [draft-enabled business objects](javascript:call_link\('abenbdl_with_draft.htm'\)) and for these, it is recommended. It manages the transitions from active data to draft data and vice versa.
+total etag is available only for [draft-enabled business objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_with_draft.htm) and for these, it is recommended. It manages the transitions from active data to draft data and vice versa.
 
-In a [managed RAP BO](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), optimistic concurrency control with ETag fields can be handled by the [managed RAP BO provider](javascript:call_link\('abenmanaged_rap_bo_prov_glosry.htm'\) "Glossary Entry"), so that no implementation in the [ABAP behavior pool](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is required. This is only possible if the following prerequisites are met:
+In a [managed RAP BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry"), optimistic concurrency control with ETag fields can be handled by the [managed RAP BO provider](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmanaged_rap_bo_prov_glosry.htm "Glossary Entry"), so that no implementation in the [ABAP behavior pool](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is required. This is only possible if the following prerequisites are met:
 
--   The ETag field must be updated reliably with every change on the [RAP BO entity instance](javascript:call_link\('abenrap_bo_entity_inst_glosry.htm'\) "Glossary Entry").
+-   The ETag field must be updated reliably with every change on the [RAP BO entity instance](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_entity_inst_glosry.htm "Glossary Entry").
 -   The read access to the ETag master field from every entity that uses an ETag must be guaranteed.
 
-In a [projection behavior definition](javascript:call_link\('abencds_proj_bdef_glosry.htm'\) "Glossary Entry"), the optimistic concurrency control functionality can be reused with the keyword use etag. For details, see topic [CDS BDL - use, projection BDEF](javascript:call_link\('abenbdl_use_projection.htm'\)).
+In a [projection behavior definition](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_proj_bdef_glosry.htm "Glossary Entry"), the optimistic concurrency control functionality can be reused with the keyword use etag. For details, see topic [CDS BDL - use, projection BDEF](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_use_projection.htm).
 
 Hints
 
--   In draft-enabled RAP BOs, [total ETag](javascript:call_link\('abenrap_total_etag_glosry.htm'\) "Glossary Entry") and ETag master/dependent (formatting) complement each other and it is recommended that both are used together. Since both serve different purposes, separate fields must be used to enable both functionalities.
+-   In draft-enabled RAP BOs, [total ETag](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_total_etag_glosry.htm "Glossary Entry") and ETag master/dependent (formatting) complement each other and it is recommended that both are used together. Since both serve different purposes, separate fields must be used to enable both functionalities.
 -   The RAP framework offers reuse data elements that can be used as ETag and total ETag fields. For more information, see RAP Reuse Data Elements.
 
 Further Information
@@ -73,13 +73,13 @@ etag master LastChangedAt
   }
 }
 
-The program DEMO\_RAP\_MANAGED\_TOTAL\_ETAG accesses the business object using [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") and executes the following actions:
+The program DEMO\_RAP\_MANAGED\_TOTAL\_ETAG accesses the business object using [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") and executes the following actions:
 
 -   First, it creates a new draft instance.
 -   Then, it creates a new active instance.
 -   Finally, it activates the new draft instance.
 
-The entries of the database tables after each of these actions are shown. Both the ETag field and the total ETag field of the [persistent database table](javascript:call_link\('abenrap_persistent_table_glosry.htm'\) "Glossary Entry") are automatically filled with a time stamp period.
+The entries of the database tables after each of these actions are shown. Both the ETag field and the total ETag field of the [persistent database table](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_persistent_table_glosry.htm "Glossary Entry") are automatically filled with a time stamp period.
 
 Result: the ETag field LCHG\_DATE\_TIME and the total ETag field CREA\_DATE\_TIME are automatically filled with a time stamp value.
 
@@ -151,7 +151,7 @@ GET TIME STAMP FIELD DATA(ts2).
     ENDLOOP.
 ENDMETHOD.
 
-The program DEMO\_RAP\_UNMANAGED\_TOTAL\_ETAG accesses the business object using [EML](javascript:call_link\('abeneml_glosry.htm'\) "Glossary Entry") and executes the following actions:
+The program DEMO\_RAP\_UNMANAGED\_TOTAL\_ETAG accesses the business object using [EML](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeneml_glosry.htm "Glossary Entry") and executes the following actions:
 
 -   First, it creates a new draft instance.
 -   Then, it creates a new active instance.
@@ -167,13 +167,13 @@ Variant 1  
 
 Effect
 
--   Defines an entity as ETag master and assigns a field MasterField for change logging. [Root entities](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") are often ETag masters that log the changes of every [business object entity](javascript:call_link\('abenrap_bo_entity_glosry.htm'\) "Glossary Entry") that is part of the [BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
--   In a [managed RAP BO](javascript:call_link\('abenmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), a value for the total ETag field can be provided automatically if the following conditions are met:
+-   Defines an entity as ETag master and assigns a field MasterField for change logging. [Root entities](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenroot_entity_glosry.htm "Glossary Entry") are often ETag masters that log the changes of every [business object entity](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_entity_glosry.htm "Glossary Entry") that is part of the [BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_bo_glosry.htm "Glossary Entry").
+-   In a [managed RAP BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenmanaged_rap_bo_glosry.htm "Glossary Entry"), a value for the total ETag field can be provided automatically if the following conditions are met:
     -   The ETag field MasterField must be annotated in CDS with the annotation @Semantics.systemDateTime.localInstanceLastChangedAt: true
     -   The data type must be date compatible.
--   In [unmanaged RAP BO](javascript:call_link\('abenunmanaged_rap_bo_glosry.htm'\) "Glossary Entry"), the application developer must ensure that a value is provided for the total ETag field by filling the respective field in the implementation of all [MODIFY ENTITY](javascript:call_link\('abapmodify_entity_entities.htm'\)) operations.
--   If you choose an element as ETag field that is not automatically updated, you have to make sure that the ETag value is updated on every MODIFY ENTITY operation via [determinations](javascript:call_link\('abenbdl_determinations.htm'\)).
--   In a managed RAP BO, the [RAP read operation](javascript:call_link\('abenrap_read_operation_glosry.htm'\) "Glossary Entry") is always implicitly available and therefore, this prerequisite is always fulfilled.
+-   In [unmanaged RAP BO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenunmanaged_rap_bo_glosry.htm "Glossary Entry"), the application developer must ensure that a value is provided for the total ETag field by filling the respective field in the implementation of all [MODIFY ENTITY](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapmodify_entity_entities.htm) operations.
+-   If you choose an element as ETag field that is not automatically updated, you have to make sure that the ETag value is updated on every MODIFY ENTITY operation via [determinations](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_determinations.htm).
+-   In a managed RAP BO, the [RAP read operation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_read_operation_glosry.htm "Glossary Entry") is always implicitly available and therefore, this prerequisite is always fulfilled.
 
 Variant 2   
 
@@ -184,26 +184,26 @@ Variant 2  
     association \_AssocToETagMaster { }
     This association must also be defined in the underlying CDS data model.
     
--   An ETag master entity must always be higher in the BO [composition structure](javascript:call_link\('abencds_composition_tree_glosry.htm'\) "Glossary Entry") than its dependent entities.
+-   An ETag master entity must always be higher in the BO [composition structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencds_composition_tree_glosry.htm "Glossary Entry") than its dependent entities.
 
 Variant 3   
 
 ... total etag TotalEtagField
 
-Defines a field as [total ETag field](javascript:call_link\('abenrap_total_etag_glosry.htm'\) "Glossary Entry") for [draft-enabled scenarios](javascript:call_link\('abenbdl_with_draft.htm'\)) to enable optimistic concurrency checks during the transition from draft to persistent data. If a user edits data in draft mode and returns after the exclusive lock of their editing session has expired, the total etag checks whether the persistent data has been changed during the period of absence. Each time the persistent state is changed, the total etag field is updated. To resume a draft version, the infrastructure first compares the total etag of the persistent and the draft version and only if both values are identical the draft can be resumed.
+Defines a field as [total ETag field](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrap_total_etag_glosry.htm "Glossary Entry") for [draft-enabled scenarios](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_with_draft.htm) to enable optimistic concurrency checks during the transition from draft to persistent data. If a user edits data in draft mode and returns after the exclusive lock of their editing session has expired, the total etag checks whether the persistent data has been changed during the period of absence. Each time the persistent state is changed, the total etag field is updated. To resume a draft version, the infrastructure first compares the total etag of the persistent and the draft version and only if both values are identical the draft can be resumed.
 
-The total ETag field is defined in the entity behavior characteristics of the [lock master](javascript:call_link\('abenbdl_locking.htm'\)) entity (currently identical to the root entity) and it controls the whole business object. A total ETag field is recommended for draft-enabled BOs. Its position is important: it must be defined directly after the lock master definition in the behavior definition.
+The total ETag field is defined in the entity behavior characteristics of the [lock master](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_locking.htm) entity (currently identical to the root entity) and it controls the whole business object. A total ETag field is recommended for draft-enabled BOs. Its position is important: it must be defined directly after the lock master definition in the behavior definition.
 
 A value for the total ETag field can be provided automatically in the managed RAP BO if the following conditions are met:
 
 -   The field that is specified as TotalEtagField must be annotated in CDS with the annotation @Semantics.systemDateTime.lastChangedAt: true and the data type must be date compatible.
--   The total ETag field must be included in the [type mapping](javascript:call_link\('abenbdl_type_mapping.htm'\)) in the entity behavior definition body, if its name in the database table and in the CDS view model differs.
+-   The total ETag field must be included in the [type mapping](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_type_mapping.htm) in the entity behavior definition body, if its name in the database table and in the CDS view model differs.
 
 In unmanaged RAP BOs, the application developer must ensure that a value is provided for the total ETag field by filling the respective field in the implementation of all MODIFY ENTITY operations.
 
 Hint
 
-If [BDEF strict mode](javascript:call_link\('abenbdl_strict.htm'\)) is enabled, draft-enabled scenarios require a total etag field. Otherwise, a syntax error occurs.
+If [BDEF strict mode](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbdl_strict.htm) is enabled, draft-enabled scenarios require a total etag field. Otherwise, a syntax error occurs.
 
 Further Information
 

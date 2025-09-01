@@ -4,32 +4,32 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_generic_program.htm) → 
 
 GENERATE SUBROUTINE POOL
 
-[Quick Reference](javascript:call_link\('abapgenerate_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_shortref.htm)
 
 Syntax
 
-GENERATE SUBROUTINE POOL itab NAME prog *\[*[error\_handling](javascript:call_link\('abapgenerate_subr_error_handling.htm'\))*\]*.
+GENERATE SUBROUTINE POOL itab NAME prog *\[*[error\_handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_subr_error_handling.htm)*\]*.
 
 Effect
 
-This statement generates a temporary [subroutine pool](javascript:call_link\('abensubroutine_pool_glosry.htm'\) "Glossary Entry"). The source code of the subroutine pool is taken from the internal table itab. The generated subroutine pool is stored internally in the current [internal session](javascript:call_link\('abeninternal_session_glosry.htm'\) "Glossary Entry"). The eight-character name of the temporary subroutine pool is assigned to the variable prog. The following can be specified for prog:
+This statement generates a temporary [subroutine pool](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensubroutine_pool_glosry.htm "Glossary Entry"). The source code of the subroutine pool is taken from the internal table itab. The generated subroutine pool is stored internally in the current [internal session](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_session_glosry.htm "Glossary Entry"). The eight-character name of the temporary subroutine pool is assigned to the variable prog. The following can be specified for prog:
 
 -   An existing character-like variable
     
--   An inline declaration [DATA(var)](javascript:call_link\('abendata_inline.htm'\)), where a variable of type PROGNAME is declared.
+-   An inline declaration [DATA(var)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_inline.htm), where a variable of type PROGNAME is declared.
     
 
-For itab, only a standard table without [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") is permitted. The row type of itab must be character-like. A line of source code in itab can have no more than 255 characters (if the row type has a fixed length, trailing blanks are ignored). In an internal session, a maximum of 36 temporary subroutine pools can be created.
+For itab, only a standard table without [secondary table keys](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") is permitted. The row type of itab must be character-like. A line of source code in itab can have no more than 255 characters (if the row type has a fixed length, trailing blanks are ignored). In an internal session, a maximum of 36 temporary subroutine pools can be created.
 
-If the source code in itab has a syntax error, the subroutine pool is not generated and initialized using prog. The addition [error\_handling](javascript:call_link\('abapgenerate_subr_error_handling.htm'\)) can be used to analyze syntax errors and generation errors. For the syntax check, the switch configuration of [Switch Framework](javascript:call_link\('abenswitch_german_glosry.htm'\) "Glossary Entry") is used in the state it had when the current transaction was called.
+If the source code in itab has a syntax error, the subroutine pool is not generated and initialized using prog. The addition [error\_handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_subr_error_handling.htm) can be used to analyze syntax errors and generation errors. For the syntax check, the switch configuration of [Switch Framework](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenswitch_german_glosry.htm "Glossary Entry") is used in the state it had when the current transaction was called.
 
-If an exception is raised when the subroutine pool is generated, the runtime error is handled internally so that no programs are terminated. Instead, sy-subrc is set to the value 8. However, there is still a [database rollback](javascript:call_link\('abendatabase_commit_glosry.htm'\) "Glossary Entry") and the corresponding [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") is saved as normal. The addition [SHORTDUMP-ID](javascript:call_link\('abapgenerate_subr_error_handling.htm'\)) can be used to determine the ID of the runtime error.
+If an exception is raised when the subroutine pool is generated, the runtime error is handled internally so that no programs are terminated. Instead, sy-subrc is set to the value 8. However, there is still a [database rollback](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendatabase_commit_glosry.htm "Glossary Entry") and the corresponding [short dump](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshort_dump_glosry.htm "Glossary Entry") is saved as normal. The addition [SHORTDUMP-ID](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_subr_error_handling.htm) can be used to determine the ID of the runtime error.
 
-In the source code of the subroutine pool, subroutines can be called from all programs that are loaded in the same internal session by specifying the program name prog using the statement [PERFORM](javascript:call_link\('abapperform.htm'\)). When a subroutine is called for the first time in the subroutine pool, this is loaded into the internal session, and the event [LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\)) is triggered.
+In the source code of the subroutine pool, subroutines can be called from all programs that are loaded in the same internal session by specifying the program name prog using the statement [PERFORM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapperform.htm). When a subroutine is called for the first time in the subroutine pool, this is loaded into the internal session, and the event [LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapload-of-program.htm) is triggered.
 
 System Fields
 
@@ -53,25 +53,25 @@ If a runtime error occurs during the generation process (sy-subrc has the value 
 
 Programming Guideline
 
-[Generic Programming](javascript:call_link\('abengeneric_progr_guidl.htm'\) "Guideline")
+[Generic Programming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_progr_guidl.htm "Guideline")
 
 Security Note
 
-If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the predefined function [escape](javascript:call_link\('abenescape_functions.htm'\)). See [ABAP Command Injections](javascript:call_link\('abengeneric_prog_scrty.htm'\)).
+If used wrongly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before being used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the predefined function [escape](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenescape_functions.htm). See [ABAP Command Injections](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_prog_scrty.htm).
 
 Notes
 
 -   Since subroutines are now obsolete as a method of program modularization, a temporary subroutine pool created using GENERATE SUBROUTINE POOL should only contain a single initial subroutine that calls a method of a local class and does not contain any other functional code.
     
--   The syntax rules of the [ABAP language version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") of the creator program also apply to the subroutine pool created.
+-   The syntax rules of the [ABAP language version](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_version_glosry.htm "Glossary Entry") of the creator program also apply to the subroutine pool created.
     
 -   Using the switch configuration from when the transaction was called for the syntax check ensures that the whole transaction is executed using the same switch configuration (guaranteed by Switch Framework).
     
--   The source code in the internal table itab must contain a complete ABAP program, including the [statement that introduces the program](javascript:call_link\('abenprogram_init_statement_glosry.htm'\) "Glossary Entry").
+-   The source code in the internal table itab must contain a complete ABAP program, including the [statement that introduces the program](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_init_statement_glosry.htm "Glossary Entry").
     
--   In a temporary subroutine pool, the same global declarations and editing rules are defined as in the static subroutine pool of the repository (see [table of program types](javascript:call_link\('abenprogram_type_oview.htm'\))).
+-   In a temporary subroutine pool, the same global declarations and editing rules are defined as in the static subroutine pool of the repository (see [table of program types](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_type_oview.htm)).
     
--   The addition REDUCED FUNCTIONALITY of the introductory program statement [PROGRAM](javascript:call_link\('abapprogram.htm'\)) also works in temporary subroutine pools and its use is recommended to reduce their resource use.
+-   The addition REDUCED FUNCTIONALITY of the introductory program statement [PROGRAM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapprogram.htm) also works in temporary subroutine pools and its use is recommended to reduce their resource use.
     
 -   Temporarily created subroutine pools can be executed in ABAP Debugger in single steps.
     
@@ -79,12 +79,12 @@ Notes
     
 -   The eight-character internal name of a temporary subroutine pool begins with "%\_T". This prefix is reserved for temporary subroutine pools.
     
--   GENERATE SUBROUTINE POOL should only be used in exceptional cases in application programs. ABAP provides many other means of dynamic programming, which generally make creating source code dynamically unnecessary (see the list in [dynamic program processing](javascript:call_link\('abenabap_language_dynamic.htm'\))).
+-   GENERATE SUBROUTINE POOL should only be used in exceptional cases in application programs. ABAP provides many other means of dynamic programming, which generally make creating source code dynamically unnecessary (see the list in [dynamic program processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm)).
     
 
 Example
 
-Creates and generates (dynamically) a subroutine pool that implements the event block LOAD-OF-PROGRAM and two subroutines. Depending on the return code sy-subrc, a subroutine is called or a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry") is issued.
+Creates and generates (dynamically) a subroutine pool that implements the event block LOAD-OF-PROGRAM and two subroutines. Depending on the return code sy-subrc, a subroutine is called or a [message](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmessage_glosry.htm "Glossary Entry") is issued.
 
 DATA tab TYPE STANDARD TABLE OF string WITH EMPTY KEY.
 tab = VALUE #(
@@ -117,7 +117,7 @@ ENDIF.
 
 Example
 
-Creates and generates (dynamically) a subroutine pool that implements a local class. The static method meth of the class can be called using the [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry") of the class.
+Creates and generates (dynamically) a subroutine pool that implements a local class. The static method meth of the class can be called using the [absolute type name](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabsolute_typename_glosry.htm "Glossary Entry") of the class.
 
 DATA itab TYPE TABLE OF string.
 DATA class TYPE string.
@@ -138,7 +138,7 @@ CALL METHOD (class)=>meth.
 
 Example
 
-Creates and generates (dynamically) a subroutine pool that implements a local class. The class is instantiated using its [absolute type name](javascript:call_link\('abenabsolute_typename_glosry.htm'\) "Glossary Entry"), and the instance method meth is called dynamically.
+Creates and generates (dynamically) a subroutine pool that implements a local class. The class is instantiated using its [absolute type name](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabsolute_typename_glosry.htm "Glossary Entry"), and the instance method meth is called dynamically.
 
 DATA itab TYPE TABLE OF string.
 DATA class TYPE string.
@@ -161,9 +161,9 @@ CALL METHOD oref->('METH').
 
 Executable Example
 
-[Program Generation](javascript:call_link\('abenprogram_generation_abexa.htm'\))
+[Program Generation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_generation_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -180,5 +180,5 @@ CX\_SY\_GEN\_SOURCE\_TOO\_WIDE
     
 
 Continue
-[GENERATE SUBROUTINE POOL - error\_handling](javascript:call_link\('abapgenerate_subr_error_handling.htm'\))
-[GENERATE SUBROUTINE POOL - internal addition](javascript:call_link\('abapgenerate_subr_pool_internal.htm'\))
+[GENERATE SUBROUTINE POOL - error\_handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_subr_error_handling.htm)
+[GENERATE SUBROUTINE POOL - internal addition](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapgenerate_subr_pool_internal.htm)

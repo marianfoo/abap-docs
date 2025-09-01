@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Operands and Expressions](javascript:call_link\('abenabap_sql_operands.htm'\)) →  [ABAP SQL - SQL Expressions sql\_exp](javascript:call_link\('abapsql_expr.htm'\)) →  [sql\_exp - sql\_null](javascript:call_link\('abensql_null.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql.htm) →  [ABAP SQL - Operands and Expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_sql_operands.htm) →  [ABAP SQL - SQL Expressions sql\_exp](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsql_expr.htm) →  [sql\_exp - sql\_null](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_null.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: sql_exp - Null Expression, ABENSQL_EXPR_NULL_ABEXA, 757%0D%0A%0D%0AError:%0D%0A%0D%0A
 %0D%0A%0D%0ASuggestion for improvement:)
 
 sql\_exp - Null Expression
 
-This example demonstrates [null expressions](javascript:call_link\('abensql_null.htm'\)) in ABAP SQL.
+This example demonstrates [null expressions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_null.htm) in ABAP SQL.
 
 Source Code   
 
@@ -46,9 +46,9 @@ cl\_demo\_output=>display( result ).
 
 Description   
 
-In the SELECT list, two [simple case distinctions](javascript:call_link\('abensql_simple_case.htm'\)) are made which both explicitly specify the null expression NULL after ELSE.
+In the SELECT list, two [simple case distinctions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensql_simple_case.htm) are made which both explicitly specify the null expression NULL after ELSE.
 
 -   The column distance returns the result of all matches and if there is no match returns the null value.
 -   The column null returns an unknown result for the first comparison, which is true, and the null value for the second comparison, which is not true.
 
-The [null value](javascript:call_link\('abennull_value_glosry.htm'\) "Glossary Entry") is converted to the type-dependent [initial value](javascript:call_link\('abeninitial_value_glosry.htm'\) "Glossary Entry") in both cases when passed to the result table.
+The [null value](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennull_value_glosry.htm "Glossary Entry") is converted to the type-dependent [initial value](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninitial_value_glosry.htm "Glossary Entry") in both cases when passed to the result table.

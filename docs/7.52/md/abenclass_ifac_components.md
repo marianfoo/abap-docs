@@ -4,20 +4,20 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses_and_interfaces.htm) → 
 
 Components in Classes and Interfaces
 
 The components of classes and interfaces are declared in the declaration part of classes and interfaces. The components of a class are as follows:
 
--   [Data types and attributes](javascript:call_link\('abentypes_attributes.htm'\))
+-   [Data types and attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_attributes.htm)
 
--   [Methods](javascript:call_link\('abenmethods.htm'\))
+-   [Methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethods.htm)
 
--   [Events](javascript:call_link\('abenevents.htm'\))
+-   [Events](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevents.htm)
 
 Continue
-[Data Types and Attributes](javascript:call_link\('abentypes_attributes.htm'\))
-[Methods](javascript:call_link\('abenmethods.htm'\))
-[Events](javascript:call_link\('abenevents.htm'\))
-[Implementing and including interfaces](javascript:call_link\('abeninterfaces.htm'\))
+[Data Types and Attributes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentypes_attributes.htm)
+[Methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethods.htm)
+[Events](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenevents.htm)
+[Implementing and including interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninterfaces.htm)

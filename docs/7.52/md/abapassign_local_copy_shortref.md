@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  A
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  A
 
 ASSIGN - LOCAL COPY - Quick reference
 
-[Reference](javascript:call_link\('abapassign_local_copy.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_local_copy.htm)
 
 Syntax
 
@@ -24,13 +24,13 @@ ASSIGN LOCAL COPY
 
 Effect
 
-Obsolete: In a [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry"), creates a local [anonymous data object](javascript:call_link\('abenanonymous_data_object_glosry.htm'\) "Glossary Entry") as a copy of a memory area and assigns it to the field symbol <fs>.
+Obsolete: In a [procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocedure_glosry.htm "Glossary Entry"), creates a local [anonymous data object](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenanonymous_data_object_glosry.htm "Glossary Entry") as a copy of a memory area and assigns it to the field symbol <fs>.
 
 Additions
 
 Specifies the memory area:
 
--   Additions other than LINE OF - See [ASSIGN](javascript:call_link\('abapassign_shortref.htm'\)).
+-   Additions other than LINE OF - See [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_shortref.htm).
     
 -   LINE OF itab*|*(itab\_name) - Copy of a row of an internal table itab.
     
@@ -44,4 +44,4 @@ Specifies the content:
 Specifies the data type:
 
 -   CASTING ...
-    Specifies the data type used to handle the memory area. See [ASSIGN](javascript:call_link\('abapassign_shortref.htm'\)).
+    Specifies the data type used to handle the memory area. See [ASSIGN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_shortref.htm).

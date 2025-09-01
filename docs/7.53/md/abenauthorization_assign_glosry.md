@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 authorization assignment
 
-Creates [authorization profiles](javascript:call_link\('abenauthorization_profile_glosry.htm'\) "Glossary Entry") in the [user master record](javascript:call_link\('abenuser_master_record_glosry.htm'\) "Glossary Entry").
+Creates [authorization profiles](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenauthorization_profile_glosry.htm "Glossary Entry") in the [user master record](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuser_master_record_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenbc_authority_check.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbc_authority_check.htm)

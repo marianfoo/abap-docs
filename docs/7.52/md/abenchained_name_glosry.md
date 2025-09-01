@@ -4,10 +4,10 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_glossary.htm) → 
 
 chained name
 
-[Chaining](javascript:call_link\('abenchaining_glosry.htm'\) "Glossary Entry") in which a name for an [operand](javascript:call_link\('abenoperand_glosry.htm'\) "Glossary Entry") is made up of [component selectors](javascript:call_link\('abencomponent_selector_glosry.htm'\) "Glossary Entry"). See also [chained attribute access](javascript:call_link\('abenchained_attribute_acc_glosry.htm'\) "Glossary Entry").
+[Chaining](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchaining_glosry.htm "Glossary Entry") in which a name for an [operand](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperand_glosry.htm "Glossary Entry") is made up of [component selectors](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencomponent_selector_glosry.htm "Glossary Entry"). See also [chained attribute access](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenchained_attribute_acc_glosry.htm "Glossary Entry").
 
-[→ More](javascript:call_link\('abenoperands_names.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenoperands_names.htm)

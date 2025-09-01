@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfile_interface_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20TRANSFER%2C%20ABAPTRANSFER%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 TRANSFER
 
-[Short Reference](javascript:call_link\('abaptransfer_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptransfer_shortref.htm)
 
 Syntax
 
@@ -24,25 +24,25 @@ Additions:
 
 Effect
 
-This statement passes the content of data object dobj to the file specified in dset. For dobj, data objects with elementary data types and [flat structures](javascript:call_link\('abenflat_structure_glosry.htm'\) "Glossary Entry") can be specified. The file must be open for writing, appending, or changing. If a closed or invalid file is accessed, a catchable exception is raised. If the file was opened as a [text file](javascript:call_link\('abentext_file_glosry.htm'\) "Glossary Entry"), dobj must be character-like. This restriction does not apply to [legacy text files](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry").
+This statement passes the content of data object dobj to the file specified in dset. For dobj, data objects with elementary data types and [flat structures](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenflat_structure_glosry.htm "Glossary Entry") can be specified. The file must be open for writing, appending, or changing. If a closed or invalid file is accessed, a catchable exception is raised. If the file was opened as a [text file](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_file_glosry.htm "Glossary Entry"), dobj must be character-like. This restriction does not apply to [legacy text files](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlegacy_file_glosry.htm "Glossary Entry").
 
-dset expects a character-like data object containing the [physical name](javascript:call_link\('abenphysical_filename_glosry.htm'\) "Glossary Entry") of the file. The content is written to the file from the current file pointer. After the data has been passed, the file pointer is positioned after the inserted data. The addition LENGTH can be used to restrict the number of characters or bytes passed.
+dset expects a character-like data object containing the [physical name](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenphysical_filename_glosry.htm "Glossary Entry") of the file. The content is written to the file from the current file pointer. After the data has been passed, the file pointer is positioned after the inserted data. The addition LENGTH can be used to restrict the number of characters or bytes passed.
 
 Effect of the Access Type
 
-The [access type](javascript:call_link\('abapopen_dataset_access.htm'\)) defined in the statement OPEN DATASET has the following effect on the data passed from:
+The [access type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_access.htm) defined in the statement OPEN DATASET has the following effect on the data passed from:
 
--   A file opened to be read using [FOR INPUT](javascript:call_link\('abapopen_dataset_access.htm'\)) cannot be written.
--   In a file opened for writing using [FOR OUTPUT](javascript:call_link\('abapopen_dataset_access.htm'\)), the system writes to the file from the current file pointer. If the file pointer is positioned after the current start of the file, the file is padded with hexadecimal 0 from the start of the file to the file pointer.
--   In a file opened for appending using [FOR APPENDING](javascript:call_link\('abapopen_dataset_access.htm'\)), the system writes to the file from the current file pointer, which is always at the end of the file.
+-   A file opened to be read using [FOR INPUT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_access.htm) cannot be written.
+-   In a file opened for writing using [FOR OUTPUT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_access.htm), the system writes to the file from the current file pointer. If the file pointer is positioned after the current start of the file, the file is padded with hexadecimal 0 from the start of the file to the file pointer.
+-   In a file opened for appending using [FOR APPENDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_access.htm), the system writes to the file from the current file pointer, which is always at the end of the file.
 -   In a file opened for changing using FOR UPDATE, the system writes to the file from the current file pointer. If the file pointer is positioned after the end of the file, the file is padded with hexadecimal 0 between the end of the file and the file pointer position.
 
 Effect of the Storage Type
 
-The data is passed regardless of the [storage type](javascript:call_link\('abapopen_dataset_mode.htm'\)) used to open the file with the statement OPEN DATASET. If the specified storage type requires conversion, it is carried out before writing.
+The data is passed regardless of the [storage type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_mode.htm) used to open the file with the statement OPEN DATASET. If the specified storage type requires conversion, it is carried out before writing.
 
--   If the file was opened as a [text file](javascript:call_link\('abentext_file_glosry.htm'\) "Glossary Entry") or a [legacy](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") text file, the trailing blank characters are deleted for all data objects, except for those of data type string. The [end-of-line marker](javascript:call_link\('abapopen_dataset_linefeed.htm'\)) defined when the file was opened is then added to the remaining content of the data object or to the result of the conversion, and the final result is written byte-by-byte to the file. The appending of the end-of-line marker can be prevented using NO END OF LINE.
--   If the file was opened as a [binary file](javascript:call_link\('abenbinary_file_glosry.htm'\) "Glossary Entry") or a [legacy binary file](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry"), the content of the data object or the result of the conversion is written byte-by-byte to the file.
+-   If the file was opened as a [text file](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_file_glosry.htm "Glossary Entry") or a [legacy](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlegacy_file_glosry.htm "Glossary Entry") text file, the trailing blank characters are deleted for all data objects, except for those of data type string. The [end-of-line marker](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_linefeed.htm) defined when the file was opened is then added to the remaining content of the data object or to the result of the conversion, and the final result is written byte-by-byte to the file. The appending of the end-of-line marker can be prevented using NO END OF LINE.
+-   If the file was opened as a [binary file](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbinary_file_glosry.htm "Glossary Entry") or a [legacy binary file](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlegacy_file_glosry.htm "Glossary Entry"), the content of the data object or the result of the conversion is written byte-by-byte to the file.
 
 Return Code
 
@@ -50,9 +50,9 @@ The statement TRANSFER always sets sy-subrc to the value 0 or raises an exceptio
 
 Hints
 
--   Only character-like data objects can be written to text files. Only byte-like data objects should be written to binary files. To save numeric data objects or mixed structures, it is best to assign them to character-like or byte-like typed field symbols using the [CASTING](javascript:call_link\('abapassign_casting.htm'\)) addition of the statement ASSIGN and save these field symbols.
+-   Only character-like data objects can be written to text files. Only byte-like data objects should be written to binary files. To save numeric data objects or mixed structures, it is best to assign them to character-like or byte-like typed field symbols using the [CASTING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign_casting.htm) addition of the statement ASSIGN and save these field symbols.
 -   If parts of a file are to be overwritten, it must be opened for changes.
--   [Enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") are written in accordance with their [basic type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry").
+-   [Enumerated objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenumerated_object_glosry.htm "Glossary Entry") are written in accordance with their [basic type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbase_type_glosry.htm "Glossary Entry").
 
 Example
 
@@ -75,9 +75,9 @@ Addition 1  
 
 Effect
 
-This addition determines how many characters or bytes of the data object dobj are written to the file. len expects a data object of the type i. It contains the number of characters or bytes. In text files, the content of len specifies the number of characters that are written from the memory. For binary files, legacy text files, and legacy binary files, len specifies the number of bytes that are written to the file. The first len characters or bytes are passed and [alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry") are included in the structures. If the addition LENGTH is not specified, all characters or bytes are passed.
+This addition determines how many characters or bytes of the data object dobj are written to the file. len expects a data object of the type i. It contains the number of characters or bytes. In text files, the content of len specifies the number of characters that are written from the memory. For binary files, legacy text files, and legacy binary files, len specifies the number of bytes that are written to the file. The first len characters or bytes are passed and [alignment gaps](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalignment_gap_glosry.htm "Glossary Entry") are included in the structures. If the addition LENGTH is not specified, all characters or bytes are passed.
 
-If the value of len is less than or equal to 0, no characters or bytes are passed. If the file is opened as a (legacy) text file, however, an [end-of-line marker](javascript:call_link\('abapopen_dataset_linefeed.htm'\)) is inserted into the file by default. If the value of len is greater than the number of characters or bytes in dobj, blank characters or hexadecimal 0 are passed to the file instead of the missing characters or bytes, depending on whether the file was opened as a (legacy) text file or a (legacy) binary file.
+If the value of len is less than or equal to 0, no characters or bytes are passed. If the file is opened as a (legacy) text file, however, an [end-of-line marker](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_linefeed.htm) is inserted into the file by default. If the value of len is greater than the number of characters or bytes in dobj, blank characters or hexadecimal 0 are passed to the file instead of the missing characters or bytes, depending on whether the file was opened as a (legacy) text file or a (legacy) binary file.
 
 Example
 
@@ -105,7 +105,7 @@ This addition has the effect that, in text files or legacy text files, no end-of
 
 Example
 
-Opens a text file for reads and writes. No end-of-line marker is appended if writes are performed using the TRANSFER statements. In the case of reads, the entire content of the file is placed in the text string. Compare the example with the addition [TEXT MODE](javascript:call_link\('abapopen_dataset_mode.htm'\)) of the statement OPEN DATASET.
+Opens a text file for reads and writes. No end-of-line marker is appended if writes are performed using the TRANSFER statements. In the case of reads, the entire content of the file is placed in the text string. Compare the example with the addition [TEXT MODE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset_mode.htm) of the statement OPEN DATASET.
 
 FINAL(dset) = 'test.dat'.
 OPEN DATASET dset FOR OUTPUT IN TEXT MODE ENCODING DEFAULT.
@@ -121,7 +121,7 @@ CLOSE DATASET dset.
 cl\_demo\_output=>display( text ).
 DELETE DATASET dset.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 

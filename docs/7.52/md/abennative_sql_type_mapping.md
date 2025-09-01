@@ -4,17 +4,17 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Accesses](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP Database Accesses](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql.htm) → 
 
 Native SQL - Mapping of ABAP Types
 
 In Native SQL, data can be transferred from the database to ABAP data objects in reads, and the other way round in the case of writes.
 
--   In [ADBC](javascript:call_link\('abenadbc.htm'\)), ABAP data objects are bound using data references.
+-   In [ADBC](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadbc.htm), ABAP data objects are bound using data references.
 
--   ABAP data objects are specified as [host variables](javascript:call_link\('abapexec_host.htm'\)) after [EXEC SQL](javascript:call_link\('abapexec.htm'\)).
+-   ABAP data objects are specified as [host variables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec_host.htm) after [EXEC SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapexec.htm).
 
-In assignments between ABAP data objects and fields in database tables, the ABAP data objects are bound to the database fields using the [Native SQL interface](javascript:call_link\('abennative_sql_interface_glosry.htm'\) "Glossary Entry"). ABAP data objects should usually only be bound to suitable database fields. The following tables show which elementary ABAP types match which HANA types, using the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry") as an example. There are similar assignments for other database systems.
+In assignments between ABAP data objects and fields in database tables, the ABAP data objects are bound to the database fields using the [Native SQL interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abennative_sql_interface_glosry.htm "Glossary Entry"). ABAP data objects should usually only be bound to suitable database fields. The following tables show which elementary ABAP types match which HANA types, using the [SAP HANA database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenhana_database_glosry.htm "Glossary Entry") as an example. There are similar assignments for other database systems.
 
 Numeric Types
 
@@ -108,11 +108,11 @@ For this reason, conversions in the Native SQL interface should be avoided if po
 
 Note
 
-Unlike Native SQL, [Open SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") respects the column types of database tables and views defined in the ABAP Dictionary. These are based on the [built-in data types of the ABAP Dictionary](javascript:call_link\('abenddic_builtin_types.htm'\)), which can all be mapped to a [built-in ABAP type](javascript:call_link\('abenpredefined_abap_type_glosry.htm'\) "Glossary Entry"). Therefore, the Open SQL interface can also execute platform-independent conversions between incompatible data types if they correspond to the conversion rules in ABAP. For example, see the [assignment rules](javascript:call_link\('abenselect_into_conversion.htm'\)) for reads.
+Unlike Native SQL, [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_glosry.htm "Glossary Entry") respects the column types of database tables and views defined in the ABAP Dictionary. These are based on the [built-in data types of the ABAP Dictionary](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenddic_builtin_types.htm), which can all be mapped to a [built-in ABAP type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredefined_abap_type_glosry.htm "Glossary Entry"). Therefore, the Open SQL interface can also execute platform-independent conversions between incompatible data types if they correspond to the conversion rules in ABAP. For example, see the [assignment rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_into_conversion.htm) for reads.
 
 Example
 
-The example shows that if the data of a column with type NUMC is assigned in Native SQL to a host variable with the ABAP type n that is too short, it is truncated on the right, but the [rule](javascript:call_link\('abenselect_into_conversion.htm'\)) that is applied in Open SQL passes the data right-justified and truncated on the left.
+The example shows that if the data of a column with type NUMC is assigned in Native SQL to a host variable with the ABAP type n that is too short, it is truncated on the right, but the [rule](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenselect_into_conversion.htm) that is applied in Open SQL passes the data right-justified and truncated on the left.
 
 DELETE FROM demo\_expressions.
 INSERT demo\_expressions FROM @( VALUE #( id = 'X' numc1 = '123' ) ).
@@ -131,7 +131,7 @@ Native SQL 00000
 
 Example
 
-The example shows that if a host variable with ABAP type n that is too long is assigned to a column with type NUMC in Native SQL, an exception occurs. The [conversion rule](javascript:call_link\('abenconversion_type_n.htm'\)) that is applied in Open SQL, however, passes the data right-justified and truncated on the left.
+The example shows that if a host variable with ABAP type n that is too long is assigned to a column with type NUMC in Native SQL, an exception occurs. The [conversion rule](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconversion_type_n.htm) that is applied in Open SQL, however, passes the data right-justified and truncated on the left.
 
 DELETE FROM demo\_expressions.
 INSERT demo\_expressions FROM @( VALUE #( id = 'X' ) ).

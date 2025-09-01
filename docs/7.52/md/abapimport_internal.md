@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [Data Clusters](javascript:call_link\('abendata_cluster.htm'\)) →  [IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [Data Clusters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_cluster.htm) →  [IMPORT](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapimport_data_cluster.htm) → 
 
 IMPORT - Internal Additions
 
@@ -32,7 +32,7 @@ Addition 2
 
 Effect
 
-This addition can be specified for [IMPORT FROM DATABASE](javascript:call_link\('abapimport_medium.htm'\)) if a table work area dbtab is declared for the relevant database table using [TABLES](javascript:call_link\('abaptables.htm'\)). The TO wa addition is not permitted. The data is not imported from the database table. Instead, the subroutine subr is called. In the subroutine, the first row of a data cluster must be provided in the table work area dbtab as it would be read from the database. The subroutine is then called automatically as often as required until a complete data cluster has been imported. The table work area dbtab has to be filled accordingly in every call.
+This addition can be specified for [IMPORT FROM DATABASE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapimport_medium.htm) if a table work area dbtab is declared for the relevant database table using [TABLES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables.htm). The TO wa addition is not permitted. The data is not imported from the database table. Instead, the subroutine subr is called. In the subroutine, the first row of a data cluster must be provided in the table work area dbtab as it would be read from the database. The subroutine is then called automatically as often as required until a complete data cluster has been imported. The table work area dbtab has to be filled accordingly in every call.
 
 The subroutine must either be defined in the same program or in a program, prog, specified explicitly. Its name must be prefixed with the name of the database table ("dbtab"). The subroutine must have a USING parameter of type any, which is currently not supplied.
 
@@ -40,7 +40,7 @@ Notes
 
 -   FROM DATABASE ... USING is not intended for external use; instead, TO INTERNAL TABLE is used.
     
--   Specifying an external program prog is the same as the obsolete variant of [PERFORM](javascript:call_link\('abapperform_obsolete.htm'\)).
+-   Specifying an external program prog is the same as the obsolete variant of [PERFORM](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapperform_obsolete.htm).
     
 
 Example

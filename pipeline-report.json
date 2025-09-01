@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-09-01T11:38:57.740Z",
+  "totalVersions": 1,
+  "successfulVersions": 1,
+  "totalTime": 3350,
+  "versions": [
+    {
+      "version": "7.58",
+      "success": true,
+      "timeSeconds": 3,
+      "steps": 3,
+      "finalStatus": {
+        "exists": true,
+        "hasHtml": true,
+        "hasMd": true,
+        "hasBundles": true
+      }
+    }
+  ]
+}

@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Attributes of Data Objects](javascript:call_link\('abendescribe_field.htm'\)) →  [DESCRIBE](javascript:call_link\('abapdescribe.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Attributes of Data Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendescribe_field.htm) →  [DESCRIBE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdescribe.htm) → 
 
 DESCRIBE FIELD
 
-[Short Reference](javascript:call_link\('abapdescribe_field_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdescribe_field_shortref.htm)
 
 Syntax
 
@@ -34,14 +34,14 @@ Effect
 This statement determines some attributes of the data object dobj and assigns them to the specified target fields. The following can be specified as target fields of each addition:
 
 -   Existing variables to which the return value can be converted.
--   Inline declarations [DATA(var)](javascript:call_link\('abendata_inline.htm'\)).
+-   Inline declarations [DATA(var)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_inline.htm).
 
-The different additions make it possible to determine the data type and the number of components for structures, the length used in the memory, the number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry"), the output length, the name of the data type for a reference to a data element in the ABAP Dictionary, and any conversion routines.
+The different additions make it possible to determine the data type and the number of components for structures, the length used in the memory, the number of [decimal places](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendecimal_place_glosry.htm "Glossary Entry"), the output length, the name of the data type for a reference to a data element in the ABAP Dictionary, and any conversion routines.
 
 Hints
 
--   Field symbols or formal parameters can be specified in [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") for dobj to determine the attributes of the data object they represent when the statement is executed.
--   The statement DESCRIBE is mainly suitable for determining the attributes of data objects of elementary data types. When DESCRIBE is used for structures or data objects of [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") data types like strings, internal tables, or reference variables, only elementary attributes can be determined. Additional information, for example, the static or dynamic type of a reference variable cannot be determined using DESCRIBE. For this kind of information, the type description classes of runtime type services ([RTTS](javascript:call_link\('abenrun_time_type_services_glosry.htm'\) "Glossary Entry")) should be used. These enable all data object attributes of all data types to be determined.
+-   Field symbols or formal parameters can be specified in [procedures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprocedure_glosry.htm "Glossary Entry") for dobj to determine the attributes of the data object they represent when the statement is executed.
+-   The statement DESCRIBE is mainly suitable for determining the attributes of data objects of elementary data types. When DESCRIBE is used for structures or data objects of [deep](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeep_glosry.htm "Glossary Entry") data types like strings, internal tables, or reference variables, only elementary attributes can be determined. Additional information, for example, the static or dynamic type of a reference variable cannot be determined using DESCRIBE. For this kind of information, the type description classes of runtime type services ([RTTS](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrun_time_type_services_glosry.htm "Glossary Entry")) should be used. These enable all data object attributes of all data types to be determined.
 
 Addition 1   
 
@@ -51,7 +51,7 @@ Effect
 
 Determines the data type of the data object dobj. The return value is a single character ID. In an inline declaration for typ, a variable of the type c with length 1 is declared. The following tables list the assignment of return values for all possible data types. The ID is case-sensitive.
 
-The type description classes of [Runtime Type Services (RTTS)](javascript:call_link\('abenrtti.htm'\)) use constants with values that correspond to the internal, character-like IDs for all possible data types. These constants are defined in class CL\_ABAP\_TYPEDESCR and are listed in column RTTS constant.
+The type description classes of [Runtime Type Services (RTTS)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenrtti.htm) use constants with values that correspond to the internal, character-like IDs for all possible data types. These constants are defined in class CL\_ABAP\_TYPEDESCR and are listed in column RTTS constant.
 
 Numeric Data Type
 
@@ -231,11 +231,11 @@ The addition COMPONENTS determines the number of direct components of the data o
 
 Hint
 
-If DESCRIBE FIELD is applied directly to a [static box](javascript:call_link\('abenstatic_box_glosry.htm'\) "Glossary Entry"), its data type according to the above table is returned and not the internal ID j for the boxed component.
+If DESCRIBE FIELD is applied directly to a [static box](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatic_box_glosry.htm "Glossary Entry"), its data type according to the above table is returned and not the internal ID j for the boxed component.
 
 Example
 
-For the [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") nested structure struc1, the type ID "v" and three components are determined. For the [flat](javascript:call_link\('abenflat_glosry.htm'\) "Glossary Entry") structure struc2, the type ID "u" and two components are determined.
+For the [deep](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeep_glosry.htm "Glossary Entry") nested structure struc1, the type ID "v" and three components are determined. For the [flat](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenflat_glosry.htm "Glossary Entry") structure struc2, the type ID "u" and two components are determined.
 
 DATA: BEGIN OF struc1,
         comp1 TYPE c LENGTH 1,
@@ -256,13 +256,13 @@ Effect
 
 Determines the length used directly by the data object dobj in the memory in bytes or characters depending on the addition MODE. The return value is of type i. For an inline declaration, a variable of type i is declared.
 
-The variant with the addition IN BYTE MODE determines the length of the data object dobj in bytes. The variant with the addition IN CHARACTER MODE determines the length of the data object dobj in characters. When using IN CHARACTER MODE, the data type of dobj must be flat and character-like. For [deep](javascript:call_link\('abendeep_glosry.htm'\) "Glossary Entry") data types, only IN BYTE MODE can be specified and the length of the references involved (eight bytes for each reference) is always determined.
+The variant with the addition IN BYTE MODE determines the length of the data object dobj in bytes. The variant with the addition IN CHARACTER MODE determines the length of the data object dobj in characters. When using IN CHARACTER MODE, the data type of dobj must be flat and character-like. For [deep](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendeep_glosry.htm "Glossary Entry") data types, only IN BYTE MODE can be specified and the length of the references involved (eight bytes for each reference) is always determined.
 
 Hints
 
--   For data objects with a fixed length, the length is determined that is specified when the data object is created. The [built-in function](javascript:call_link\('abenbuiltin_function_glosry.htm'\) "Glossary Entry") strlen can be used to determine the occupied length of character-like data objects while ignoring the trailing blanks.
--   In structures, the [alignment gaps](javascript:call_link\('abenalignment_gap_glosry.htm'\) "Glossary Entry") are part of the length. This is particularly significant in the case of alignment gaps that can occur before the end of the structure.
--   With [enumerated objects](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry"), the addition IN BYTE MODE must be specified and the length of the actual [enumerated value](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") is determined in the [basic type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry").
+-   For data objects with a fixed length, the length is determined that is specified when the data object is created. The [built-in function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuiltin_function_glosry.htm "Glossary Entry") strlen can be used to determine the occupied length of character-like data objects while ignoring the trailing blanks.
+-   In structures, the [alignment gaps](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenalignment_gap_glosry.htm "Glossary Entry") are part of the length. This is particularly significant in the case of alignment gaps that can occur before the end of the structure.
+-   With [enumerated objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenenumerated_object_glosry.htm "Glossary Entry"), the addition IN BYTE MODE must be specified and the length of the actual [enumerated value](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenenumerated_value_glosry.htm "Glossary Entry") is determined in the [basic type](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbase_type_glosry.htm "Glossary Entry").
 
 Example
 
@@ -291,7 +291,7 @@ Addition 3  
 
 Effect
 
-Determines the [number of decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry") of the data object dobj. The return value is of type i. For an inline declaration, a variable of type i is declared.
+Determines the [number of decimal places](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendecimal_place_glosry.htm "Glossary Entry") of the data object dobj. The return value is of type i. For an inline declaration, a variable of type i is declared.
 
 Hint
 
@@ -325,14 +325,14 @@ Addition 4  
 
 Effect
 
-For data objects with a fixed length, the output length of the data object dobj required for [screen layouts](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry") is determined. The return value is of type i. For an inline declaration, a variable of type i is declared.
+For data objects with a fixed length, the output length of the data object dobj required for [screen layouts](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenscreen_glosry.htm "Glossary Entry") is determined. The return value is of type i. For an inline declaration, a variable of type i is declared.
 
 Generally, this result corresponds to the predefined output length of the data object in accordance with its data type in the output in the list buffer. In strings, olen is always set to 0. olen expects the data type i.
 
 Hints
 
--   Normally, the required output length is determined sufficiently by the specification in the table for predefined [output lengths](javascript:call_link\('abenwrite_output_length.htm'\)), unless the data type of the data object is defined with a reference to ABAP Dictionary and an output length or a conversion routine is specified in the corresponding domain.
--   If the output length defined in a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry") for a [dynpro field](javascript:call_link\('abendynpro_field_glosry.htm'\) "Glossary Entry") with the same name as dobj is shorter than the required output length, an overflow raises an uncatchable exception. When passed to the list buffer, the outputs are truncated if the output length is shorter than the required output length.
+-   Normally, the required output length is determined sufficiently by the specification in the table for predefined [output lengths](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwrite_output_length.htm), unless the data type of the data object is defined with a reference to ABAP Dictionary and an output length or a conversion routine is specified in the corresponding domain.
+-   If the output length defined in a [dynpro](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_glosry.htm "Glossary Entry") for a [dynpro field](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendynpro_field_glosry.htm "Glossary Entry") with the same name as dobj is shorter than the required output length, an overflow raises an uncatchable exception. When passed to the list buffer, the outputs are truncated if the output length is shorter than the required output length.
 -   When separators or templates are defined in the user master record for the output of a data type, they are only displayed if the defined output length is sufficient. The required length can be longer than the output length determined by OUTPUT-LENGTH.
 -   The output length for strings can be determined using the functions strlen or xstrlen.
 
@@ -351,7 +351,7 @@ Addition 5  
 
 Effect
 
-If the data type of the data object dobj is determined by a [DDIC data element](javascript:call_link\('abendata_element_glosry.htm'\) "Glossary Entry"), the name of the data type is assigned that was used after the addition TYPE when defining the data object dobj. The return value is a string. In an inline declaration, a variable of the type string is declared.
+If the data type of the data object dobj is determined by a [DDIC data element](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendata_element_glosry.htm "Glossary Entry"), the name of the data type is assigned that was used after the addition TYPE when defining the data object dobj. The return value is a string. In an inline declaration, a variable of the type string is declared.
 
 If the data object does not refer to a data object in the ABAP Dictionary, hlp is initialized. hlp expects a character-like data object.
 
@@ -415,4 +415,4 @@ WRITE seconds TO output USING EDIT MASK msk.
 cl\_demo\_output=>display\_data( output ).
 
 Continue
-![Example](exa.gif "Example") [Determining Elementary Data Types](javascript:call_link\('abendescribe_field_abexa.htm'\))
+![Example](exa.gif "Example") [Determining Elementary Data Types](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendescribe_field_abexa.htm)

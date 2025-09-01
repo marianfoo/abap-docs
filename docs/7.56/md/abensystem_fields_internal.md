@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Built-In Types, Data Objects, Functions, and Constructors](javascript:call_link\('abenbuilt_in.htm'\)) →  [Built-In Data Objects](javascript:call_link\('abenbuilt_in_objects.htm'\)) →  [ABAP System Fields](javascript:call_link\('abensystem_fields.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Built-In Types, Data Objects, Functions, and Constructors](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in.htm) →  [Built-In Data Objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbuilt_in_objects.htm) →  [ABAP System Fields](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_fields.htm) → 
 
 Internal System Fields
 
-Internal [system fields](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") are intended purely for internal use in the ABAP runtime framework and in the kernel. They must never be overwritten in an ABAP program and they should not be accessed in read-only mode.
+Internal [system fields](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensystem_field_glosry.htm "Glossary Entry") are intended purely for internal use in the ABAP runtime framework and in the kernel. They must never be overwritten in an ABAP program and they should not be accessed in read-only mode.
 
 Name
 

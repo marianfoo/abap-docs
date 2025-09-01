@@ -4,8 +4,8 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 list box
 
-→ [Dropdown list box](javascript:call_link\('abendropdown_listbox_glosry.htm'\) "Glossary Entry")
+→ [Dropdown list box](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendropdown_listbox_glosry.htm "Glossary Entry")

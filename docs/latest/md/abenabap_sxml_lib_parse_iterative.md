@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Class Libraries](javascript:call_link\('abenabap_xml_libs.htm'\)) →  [sXML Library](javascript:call_link\('abenabap_sxml_lib.htm'\)) →  [sXML - Parsing](javascript:call_link\('abenabap_sxml_lib_parse.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml.htm) →  [XML - Class Libraries](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_xml_libs.htm) →  [sXML Library](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sxml_lib.htm) →  [sXML - Parsing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sxml_lib_parse.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20sXML%20-%20Token-Based%20Parsing%2C%20ABENABAP_SXML_LIB_PARSE_ITERATIVE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,8 +12,10 @@ sXML - Token-Based Parsing
 
 In token-based parsing, the parser iterates across all nodes (tokens) in the tree structure of the XML data, one after the other. By default, the iterator passes across all subnode branches until the final node. The parser pauses after every iteration step on a node whose properties are available in the attributes of the XML reader. If the parser pauses on the node for an element opening, the list of the XML attributes there can be accessed.
 
--   [Basic Approach](#abenabap-sxml-lib-parse-iterative-1-------methods-and-attributes-for-token-based-parsing---@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_2)
-    -   [Methods for Token-Based Parsing](#abenabap-sxml-lib-parse-iterative-3-----------attributes-for-token-based-parsing---@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_4)
+-   [Basic Approach](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_1)
+-   [Methods and Attributes for Token-Based Parsing](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_2)
+    -   [Methods for Token-Based Parsing](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_3)
+    -   [Attributes for Token-Based Parsing](#@@ITOC@@ABENABAP_SXML_LIB_PARSE_ITERATIVE_4)
 
 Basic Approach   
 
@@ -31,7 +33,7 @@ Once the method is called, the attributes of the reader with the required proper
 
 reader->next\_attribute( ).
 
-After this method, the attributes of the reader object contain the name and the value of the current XML attribute. The end of the data is represented by the value of the constants IF\_SXML\_NODE=>CO\_NT\_FINAL in the attribute NODE\_TYPE. Any [exceptions](javascript:call_link\('abenabap_sxml_lib_exceptions.htm'\)) should be caught and handled in a TRY control structure.
+After this method, the attributes of the reader object contain the name and the value of the current XML attribute. The end of the data is represented by the value of the constants IF\_SXML\_NODE=>CO\_NT\_FINAL in the attribute NODE\_TYPE. Any [exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_sxml_lib_exceptions.htm) should be caught and handled in a TRY control structure.
 
 Example
 
@@ -39,7 +41,7 @@ The program DEMO\_SXML\_PARSE\_XML executes a simple token-based parsing for any
 
 Executable Example
 
-[Token-based parsing](javascript:call_link\('abensxml_parsing_abexa.htm'\))
+[Token-based parsing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensxml_parsing_abexa.htm)
 
 Methods and Attributes for Token-Based Parsing   
 
@@ -62,13 +64,13 @@ Hints
 -   The method CURRENT\_NODE is most useful when reading an attribute list, to return to the start.
 -   If an XML element has multiple identically named attributes, all of these attributes are respected in the order in which they appear (see example class CL\_DEMO\_XML\_ATTRIBUTES)
 -   Apart from simply skipping nodes, the method SKIP\_NODE can also be used to check the subtrees or the entire tree for errors or to copy trees. In particular, the format of the copied tree or subtree can be transformed into a different format.
--   For the latter see the [executable example](javascript:call_link\('abensxml_format_trafos_abexa.htm'\)).
--   Token-based parsing is designed mainly for forward iteration through the XML data. Free navigation, as possible in [iXML Library](javascript:call_link\('abenabap_ixml_lib.htm'\)) in DOM, is not recommended here. The method PUSH\_BACK makes it possible to move back a step but does not restore the reader to the state it had when it reached the node using NEXT\_NODE. After a PUSH\_BACK, the parsed node does not always produce the same result as the last time. In particular, subnodes already parsed could be skipped.
+-   For the latter see the [executable example](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensxml_format_trafos_abexa.htm).
+-   Token-based parsing is designed mainly for forward iteration through the XML data. Free navigation, as possible in [iXML Library](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_ixml_lib.htm) in DOM, is not recommended here. The method PUSH\_BACK makes it possible to move back a step but does not restore the reader to the state it had when it reached the node using NEXT\_NODE. After a PUSH\_BACK, the parsed node does not always produce the same result as the last time. In particular, subnodes already parsed could be skipped.
 
 Executable Examples
 
--   [Steps in Token-Based Parsing](javascript:call_link\('abensxml_parsing_steps_abexa.htm'\))
--   [Methods for token-based parsing](javascript:call_link\('abensxml_parsing_methods_abexa.htm'\))
+-   [Steps in Token-Based Parsing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensxml_parsing_steps_abexa.htm)
+-   [Methods for token-based parsing](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abensxml_parsing_methods_abexa.htm)
 
 Attributes for Token-Based Parsing   
 

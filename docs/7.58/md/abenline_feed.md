@@ -4,21 +4,24 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Character String and Byte String Processing, Overview](javascript:call_link\('abenstring_processing_oview.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_string.htm) →  [Character String and Byte String Processing, Overview](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_processing_oview.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Line%20Feeds%20in%20Character%20String%20Processing%2C%20ABENLINE_FEED%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Line Feeds in Character String Processing
 
-A line feed (LF) is a [control character](javascript:call_link\('abencontrol_character_glosry.htm'\) "Glossary Entry") that positions the cursor when writing an output. Other of such control characters are return (CR from carriage return) or a tabulator. There are also combinations possible as CRLF for return plus line feed. If a character string contains control characters, it depends on the framework handling the character string how these are interpreted. While, for example, most notepad applications or text editors handle control characters as such, HTML or XML browsers handle control characters as whitespace characters.
+A line feed (LF) is a [control character](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_character_glosry.htm "Glossary Entry") that positions the cursor when writing an output. Other of such control characters are return (CR from carriage return) or a tabulator. There are also combinations possible as CRLF for return plus line feed. If a character string contains control characters, it depends on the framework handling the character string how these are interpreted. While, for example, most notepad applications or text editors handle control characters as such, HTML or XML browsers handle control characters as whitespace characters.
 
--   [Control Characters in ABAP](#abenline-feed-1-------using-the-line-feed-character-in-abap---@ITOC@@ABENLINE_FEED_2)
-    -   [Line Feed in Outputs](#abenline-feed-3-----------line-feed-in-files---@ITOC@@ABENLINE_FEED_4)
-    -   [Line Feed in Classic Lists](#abenline-feed-5-----------replacing-line-feeds---@ITOC@@ABENLINE_FEED_6)
+-   [Control Characters in ABAP](#@@ITOC@@ABENLINE_FEED_1)
+-   [Using the Line Feed Character in ABAP](#@@ITOC@@ABENLINE_FEED_2)
+    -   [Line Feed in Outputs](#@@ITOC@@ABENLINE_FEED_3)
+    -   [Line Feed in Files](#@@ITOC@@ABENLINE_FEED_4)
+    -   [Line Feed in Classic Lists](#@@ITOC@@ABENLINE_FEED_5)
+    -   [Replacing Line Feeds](#@@ITOC@@ABENLINE_FEED_6)
 
 Control Characters in ABAP   
 
-In ABAP, some control characters, especially the line feed character, can easily obtained by using the respective [string template](javascript:call_link\('abenstring_templates_separators.htm'\)):
+In ABAP, some control characters, especially the line feed character, can easily obtained by using the respective [string template](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstring_templates_separators.htm):
 
 -   |...\\n...| for a linefeed among other content
 -   |\\n| for a single line feed character
@@ -60,7 +63,7 @@ The following are examples for line feeds in common output media.
 
 Example
 
-The text control of the [SAP GUI Control Framework](javascript:call_link\('abencontrol_framework_glosry.htm'\) "Glossary Entry") handles control characters.
+The text control of the [SAP GUI Control Framework](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_framework_glosry.htm "Glossary Entry") handles control characters.
 
 cl\_demo\_text=>display\_string(
   |<html>| &&
@@ -121,11 +124,11 @@ cl\_gui\_frontend\_services=>gui\_download(
   EXPORTING filename = 'c:\\temp\\text.htm'
   CHANGING  data\_tab = text  ).
 
-Opening the file with a notepad editor shows that the line feeds are handled there. Here, \\r\\n is used, since \\n is not sufficient in Windows. The [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) or the above used class CL\_GUI\_FRONTEND\_SERVICES offer further capabilities to handle control characters.
+Opening the file with a notepad editor shows that the line feeds are handled there. Here, \\r\\n is used, since \\n is not sufficient in Windows. The [ABAP File Interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_files.htm) or the above used class CL\_GUI\_FRONTEND\_SERVICES offer further capabilities to handle control characters.
 
 Line Feed in Classic Lists   
 
-The line feed character and other control characters cannot be used in [classic lists](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry"). The list processor does not recognize a control character and it does not handle it as a whitespace. It is an unknown character that is displayed as #. In classic lists, two (chained) [WRITE](javascript:call_link\('abapwrite-.htm'\)) statements are needed:
+The line feed character and other control characters cannot be used in [classic lists](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry"). The list processor does not recognize a control character and it does not handle it as a whitespace. It is an unknown character that is displayed as #. In classic lists, two (chained) [WRITE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite-.htm) statements are needed:
 
 WRITE: |aaaa|, / |bbbbb|.
 

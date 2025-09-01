@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 floating point arithmetic
 
-Calculation with [floating point numbers](javascript:call_link\('abenfloating_point_number_glosry.htm'\) "Glossary Entry"). It is executed directly on the [host computer](javascript:call_link\('abenhost_computer_glosry.htm'\) "Glossary Entry") of the current [AS instance](javascript:call_link\('abenapplication_server_glosry.htm'\) "Glossary Entry"). Either [binary floating point arithmetic](javascript:call_link\('abenbinfloat_arith_glosry.htm'\) "Glossary Entry") or [decimal floating point arithmetic](javascript:call_link\('abendecfloat_arith_glosry.htm'\) "Glossary Entry").
+Calculation with [floating point numbers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenfloating_point_number_glosry.htm "Glossary Entry"). It is executed directly on the [host computer](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenhost_computer_glosry.htm "Glossary Entry") of the current [AS instance](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenapplication_server_glosry.htm "Glossary Entry"). Either [binary floating point arithmetic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbinfloat_arith_glosry.htm "Glossary Entry") or [decimal floating point arithmetic](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendecfloat_arith_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenarith_type.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenarith_type.htm)

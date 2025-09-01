@@ -4,24 +4,24 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Functions](javascript:call_link\('abenstring_functions.htm'\)) →  [Description Functions for Character-Like Arguments](javascript:call_link\('abendescriptive_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_processing_expr_func.htm) →  [String Functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions.htm) →  [Description Functions for Character-Like Arguments](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendescriptive_functions.htm) → 
 
 count, count\_... - Search Functions
 
 Syntax Forms
 
-1\. ... count( [val = text](javascript:call_link\('abenstring_functions_val.htm'\))  *{*[sub = substring](javascript:call_link\('abenstring_functions_sub.htm'\))*}**|**{* [regex = regex](javascript:call_link\('abenstring_functions_regex.htm'\))*}* *\[*[case = case](javascript:call_link\('abenstring_functions_case.htm'\))*\]*
-             *\[* [off = off](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[*[len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* ) ...
+1\. ... count( [val = text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.htm)  *{*[sub = substring](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_sub.htm)*}**|**{* [regex = regex](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_regex.htm)*}* *\[*[case = case](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_case.htm)*\]*
+             *\[* [off = off](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_off_len.htm)*\]* *\[*[len = len](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_off_len.htm)*\]* ) ...
 
-2\. ... count\_any\_of( [val = text](javascript:call_link\('abenstring_functions_val.htm'\))  [sub = substring](javascript:call_link\('abenstring_functions_sub.htm'\))
-                    *\[*[off = off](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[* [len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* ) ...
+2\. ... count\_any\_of( [val = text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.htm)  [sub = substring](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_sub.htm)
+                    *\[*[off = off](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_off_len.htm)*\]* *\[* [len = len](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_off_len.htm)*\]* ) ...
 
-3\. ... count\_any\_not\_of( [val = text](javascript:call_link\('abenstring_functions_val.htm'\))  [sub = substring](javascript:call_link\('abenstring_functions_sub.htm'\))
-                        *\[* [off = off](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* *\[*[len = len](javascript:call_link\('abenstring_functions_off_len.htm'\))*\]* ) ...
+3\. ... count\_any\_not\_of( [val = text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.htm)  [sub = substring](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_sub.htm)
+                        *\[* [off = off](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_off_len.htm)*\]* *\[*[len = len](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_off_len.htm)*\]* ) ...
 
 Effect
 
-Just like the search functions [find](javascript:call_link\('abensearch_functions.htm'\)) and [find\_...](javascript:call_link\('abensearch_functions.htm'\)), the search functions count and count\_... search [text](javascript:call_link\('abenstring_functions_val.htm'\)) in the entire string [text](javascript:call_link\('abenstring_functions_val.htm'\)) or in a subarea defined using [off](javascript:call_link\('abenstring_functions_off_len.htm'\)) and [len](javascript:call_link\('abenstring_functions_off_len.htm'\)) for characters specified in [substring](javascript:call_link\('abenstring_functions_sub.htm'\)) or for a match with a [regular expression](javascript:call_link\('abenregex_syntax.htm'\)) specified in [regex](javascript:call_link\('abenstring_functions_regex.htm'\)). Instead of an offset, they return the number of occurrences.
+Just like the search functions [find](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensearch_functions.htm) and [find\_...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abensearch_functions.htm), the search functions count and count\_... search [text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.htm) in the entire string [text](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_val.htm) or in a subarea defined using [off](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_off_len.htm) and [len](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_off_len.htm) for characters specified in [substring](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_sub.htm) or for a match with a [regular expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_syntax.htm) specified in [regex](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_functions_regex.htm). Instead of an offset, they return the number of occurrences.
 
 The return value has the type i.
 
@@ -35,9 +35,9 @@ DATA(result3) = count\_any\_not\_of( val = \`xxx123yyy\` sub   = \`x\`   ).
 
 Executable Example
 
-[String functions, count, find, and match](javascript:call_link\('abenstring_function_find_abexa.htm'\))
+[String functions, count, find, and match](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_function_find_abexa.htm)
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 
@@ -49,7 +49,7 @@ CX\_SY\_RANGE\_OUT\_OF\_BOUNDS
 
 CX\_SY\_REGEX\_TOO\_COMPLEX
 
--   Cause: More information: [Exceptions in Regular Expressions](javascript:call_link\('abenregex_exceptions.htm'\)).
+-   Cause: More information: [Exceptions in Regular Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenregex_exceptions.htm).
     Runtime error: REGEX\_TOO\_COMPLEX
     
 

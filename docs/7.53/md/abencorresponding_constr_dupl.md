@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Assigning Structure Components](javascript:call_link\('abencorresponding.htm'\)) →  [CORRESPONDING - Component Operator](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenvalue_assignments.htm) →  [Assigning Structure Components](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding.htm) →  [CORRESPONDING - Component Operator](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_corresponding.htm) → 
 
 CORRESPONDING - Duplicates
 
@@ -14,13 +14,13 @@ Syntax
 
 Effect
 
-Addition for handling duplicate rows in component operator [CORRESPONDING](javascript:call_link\('abenconstructor_expr_corresponding.htm'\)). The addition DISCARDING DUPLICATES can be specified:
+Addition for handling duplicate rows in component operator [CORRESPONDING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconstructor_expr_corresponding.htm). The addition DISCARDING DUPLICATES can be specified:
 
--   After a tabular parameter itab in the [basic form](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)).
+-   After a tabular parameter itab in the [basic form](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_arg_type.htm).
 
--   After [mapping relationships](javascript:call_link\('abencorresponding_constr_mapping.htm'\)) t1 = s1, t2 = s2, ... for tabular components.
+-   After [mapping relationships](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_mapping.htm) t1 = s1, t2 = s2, ... for tabular components.
 
-The addition DISCARDING DUPLICATES prevents an exception when duplicate entries occur with respect to a unique [primary](javascript:call_link\('abenprimary_table_key_glosry.htm'\) "Glossary Entry") or secondary table key during assignment to a target table. In the basic form, this also applies to the rows in an internal table specified after [BASE](javascript:call_link\('abencorresponding_constr_arg_type.htm'\)).
+The addition DISCARDING DUPLICATES prevents an exception when duplicate entries occur with respect to a unique [primary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprimary_table_key_glosry.htm "Glossary Entry") or secondary table key during assignment to a target table. In the basic form, this also applies to the rows in an internal table specified after [BASE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_constr_arg_type.htm).
 
 By default, the addition DISCARDING DUPLICATES acts on the source table that it is specified after. That is, either to itab of the basic form or tos1, s2, ... of mapping relationships. If DISCARDING DUPLICATES is specified after itab of the basic form together with the addition DEEP, it also acts on the statements of nested internal tables.
 
@@ -30,7 +30,7 @@ If the addition DISCARDING DUPLICATES is specified for an operand for which a un
 
 Example
 
-Using DISCARDING DUPLICATES in the [executable example](javascript:call_link\('abencorresponding_duplicates_abexa.htm'\)).
+Using DISCARDING DUPLICATES in the [executable example](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_duplicates_abexa.htm).
 
 ... CORRESPONDING itab2( itab1 DISCARDING DUPLICATES
                          MAPPING y1 = x1
@@ -38,4 +38,4 @@ Using DISCARDING DUPLICATES in the [executable example](javascript:call_link\('a
 
 Executable Example
 
-[Handling Duplicates](javascript:call_link\('abencorresponding_duplicates_abexa.htm'\))
+[Handling Duplicates](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencorresponding_duplicates_abexa.htm)

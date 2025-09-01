@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP - Short Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  I
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [ABAP - Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_shortref.htm) →  I
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20IMPORT%2C%20ABAPIMPORT_SHORTREF%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 IMPORT - Short Reference
 
-[Reference](javascript:call_link\('abapimport_data_cluster.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_data_cluster.htm)
 
 Syntax
 
@@ -34,39 +34,39 @@ IMPORT *{* *{*p1 = dobj1 p2 = dobj2 ...*}*
 
 Effect
 
-Imports a [data cluster](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") into the data objects dobj1, dobj2, ...
+Imports a [data cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster_glosry.htm "Glossary Entry") into the data objects dobj1, dobj2, ...
 
 Additions   
 
--   [*{*p1 = dobj1 p2 = dobj2 ...*}**|**{*p1 TO dobj1 p2 TO dobj2 ...*}**|*(ptab)](javascript:call_link\('abapimport_parameterlist.htm'\))
+-   [*{*p1 = dobj1 p2 = dobj2 ...*}**|**{*p1 TO dobj1 p2 TO dobj2 ...*}**|*(ptab)](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_parameterlist.htm)
     Selects the data to be read by statically specifying individual parameters using p1 = dobj1 p2 = dobj2 ... or p1 TO dobj1 p2 TO dobj2 ... or by specifying them dynamically in an internal table ptab.
--   [DATA BUFFER xstr](javascript:call_link\('abapimport_medium.htm'\))
+-   [DATA BUFFER xstr](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_medium.htm)
     Specifies a data cluster stored as a byte sequence in xstr.
--   [INTERNAL TABLE itab](javascript:call_link\('abapimport_medium.htm'\))
+-   [INTERNAL TABLE itab](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_medium.htm)
     Specifies a data cluster stored in an internal table itab.
--   [MEMORY](javascript:call_link\('abapimport_medium.htm'\))
-    Specifies a data cluster stored in the [ABAP Memory](javascript:call_link\('abenabap_memory_glosry.htm'\) "Glossary Entry").
--   [DATABASE dbtab(ar) *\[*CLIENT cl*\]*](javascript:call_link\('abapimport_medium.htm'\))
-    Specifies a data cluster stored in a database table dbtab in the area ar with the [client ID](javascript:call_link\('abenclient_identifier_glosry.htm'\) "Glossary Entry") cl.
--   [*{*SHARED MEMORY*}**|**{*SHARED BUFFER*}* dbtab(ar) *\[*CLIENT cl*\]*](javascript:call_link\('abapimport_medium.htm'\))
-    Specifies a data cluster stored in an application buffer in the [shared memory](javascript:call_link\('abenshared_memory_glosry.htm'\) "Glossary Entry") of the current [AS instance](javascript:call_link\('abenas_instance_glosry.htm'\) "Glossary Entry") addressed using the name of a database table dbtab, an area ar, and a client ID cl. These two alternatives have different displacement mechanisms.
--   [ID id](javascript:call_link\('abapimport_medium.htm'\))
-    Specifies the identifier id of the [data cluster](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry").
--   [MAJOR-ID id1 *\[*MINOR-ID id2*\]*](javascript:call_link\('abapimport_obsolete_id.htm'\))
+-   [MEMORY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_medium.htm)
+    Specifies a data cluster stored in the [ABAP Memory](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_memory_glosry.htm "Glossary Entry").
+-   [DATABASE dbtab(ar) *\[*CLIENT cl*\]*](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_medium.htm)
+    Specifies a data cluster stored in a database table dbtab in the area ar with the [client ID](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenclient_identifier_glosry.htm "Glossary Entry") cl.
+-   [*{*SHARED MEMORY*}**|**{*SHARED BUFFER*}* dbtab(ar) *\[*CLIENT cl*\]*](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_medium.htm)
+    Specifies a data cluster stored in an application buffer in the [shared memory](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenshared_memory_glosry.htm "Glossary Entry") of the current [AS instance](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenas_instance_glosry.htm "Glossary Entry") addressed using the name of a database table dbtab, an area ar, and a client ID cl. These two alternatives have different displacement mechanisms.
+-   [ID id](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_medium.htm)
+    Specifies the identifier id of the [data cluster](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendata_cluster_glosry.htm "Glossary Entry").
+-   [MAJOR-ID id1 *\[*MINOR-ID id2*\]*](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_obsolete_id.htm)
     Obsolete: Specifies the identification id of a data cluster in database tables using a pattern.
--   [TO wa](javascript:call_link\('abapimport_medium.htm'\))
+-   [TO wa](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_medium.htm)
     Specifies a work area wa for including details about the data cluster.
--   [ACCEPTING PADDING](javascript:call_link\('abapimport_conversion.htm'\))
+-   [ACCEPTING PADDING](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_conversion.htm)
     Enables data to be exported to longer target fields.
--   [ACCEPTING TRUNCATION](javascript:call_link\('abapimport_conversion.htm'\))
+-   [ACCEPTING TRUNCATION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_conversion.htm)
     Enables data to be exported to shorter target fields.
--   [IGNORING STRUCTURE BOUNDARIES](javascript:call_link\('abapimport_conversion.htm'\))
+-   [IGNORING STRUCTURE BOUNDARIES](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_conversion.htm)
     Enables data to be exported to structures with different boundaries.
--   [IGNORING CONVERSION ERRORS *\[*REPLACEMENT CHARACTER rc*\]*](javascript:call_link\('abapimport_conversion.htm'\))
-    Suppresses uncatchable exceptions when converting to the target [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry"), where rc specifies a replacement character for characters that cannot be converted.
--   [IN CHAR-TO-HEX MODE](javascript:call_link\('abapimport_conversion.htm'\))
+-   [IGNORING CONVERSION ERRORS *\[*REPLACEMENT CHARACTER rc*\]*](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_conversion.htm)
+    Suppresses uncatchable exceptions when converting to the target [code page](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencodepage_glosry.htm "Glossary Entry"), where rc specifies a replacement character for characters that cannot be converted.
+-   [IN CHAR-TO-HEX MODE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_conversion.htm)
     Enables character-like data to be exported to byte sequences.
--   [CODE PAGE INTO cp](javascript:call_link\('abapimport_conversion.htm'\))
+-   [CODE PAGE INTO cp](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_conversion.htm)
     Returns the code page for the data cluster in cp.
--   [ENDIAN INTO endian](javascript:call_link\('abapimport_conversion.htm'\))
+-   [ENDIAN INTO endian](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapimport_conversion.htm)
     Returns the byte order of the data cluster in endian.

@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  C
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  C
 
 CALL DIALOG - Quick reference
 
-[Reference](javascript:call_link\('abapcall_dialog.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapcall_dialog.htm)
 
 Syntax
 
@@ -19,7 +19,7 @@ CALL DIALOG dialog *\[* *{*AND SKIP FIRST SCREEN*}*
 
 Effect
 
-Obsolete: Calls the [dialog module](javascript:call_link\('abendialog_module_object_glosry.htm'\) "Glossary Entry") specified in dialog.
+Obsolete: Calls the [dialog module](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendialog_module_object_glosry.htm "Glossary Entry") specified in dialog.
 
 Additions
 
@@ -27,7 +27,7 @@ Additions
     Suppresses the initial screen.
     
 -   USING bdc\_tab *\[*MODE mode*\]*
-    Executes the dialog module using a [batch input session](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry") in the internal table bdc\_tab. The processing mode can be specified in mode.
+    Executes the dialog module using a [batch input session](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") in the internal table bdc\_tab. The processing mode can be specified in mode.
     
 -   EXPORTING p1 FROM a1 p2 FROM a2 ...
     Passes actual parameters a1, a2, ... to input parameters p1, p2, ...

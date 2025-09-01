@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Access Control](javascript:call_link\('abencds_access_control.htm'\)) →  [ABAP CDS - DCL Statements](javascript:call_link\('abencds_f1_dcl_syntax.htm'\)) →  [CDS DCL - DEFINE ACCESSPOLICY](javascript:call_link\('abencds_f1_define_accesspolicy.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Access Control](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_access_control.htm) →  [ABAP CDS - DCL Statements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_syntax.htm) →  [CDS DCL - DEFINE ACCESSPOLICY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: CDS DCL - DEFINE ASPECT, ABENCDS_F1_DEFINE_GENERIC_ASPECT, 757%0D%0A%0D%0AError:%0D%0
 A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -13,7 +13,7 @@ CDS DCL - DEFINE ASPECT
 
 Syntax
 
-*\[*[aspect\_annot](javascript:call_link\('abencds_f1_dcl_as_annotations.htm'\))*\]*
+*\[*[aspect\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)*\]*
 *\[*DEFINE*\]* ASPECT aspect AS SELECT FROM aspect\_entity
   WITH USER ELEMENT user\_element
   *\[*WITH FILTER ELEMENTS ( filter\_element1 *\[*AS filter\_alias1*\]*,
@@ -25,7 +25,7 @@ Syntax
 
 Effect
 
-Defines a self-defined aspect aspect as part of a [CDS access policy](javascript:call_link\('abencds_access_policy_glosry.htm'\) "Glossary Entry") defined using [DEFINE ACCESSPOLICY](javascript:call_link\('abencds_f1_define_accesspolicy.htm'\)). The name of the self-defined aspect must be the same as the name of the CDS access policy.
+Defines a self-defined aspect aspect as part of a [CDS access policy](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_access_policy_glosry.htm "Glossary Entry") defined using [DEFINE ACCESSPOLICY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_define_accesspolicy.htm). The name of the self-defined aspect must be the same as the name of the CDS access policy.
 
 The definition of a self-defined aspect contains the following:
 
@@ -37,13 +37,13 @@ The definition of a self-defined aspect contains the following:
 
 The following are possible as bypass conditions aspect\_bypass\_condition:
 
--   [IS *\[*NOT*\]* NULL](javascript:call_link\('abencds_cond_expr_null_v2.htm'\))
--   [IS *\[*NOT*\]* INITIAL](javascript:call_link\('abencds_cond_expr_initial_v2.htm'\))
+-   [IS *\[*NOT*\]* NULL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_null_v2.htm)
+-   [IS *\[*NOT*\]* INITIAL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_cond_expr_initial_v2.htm)
 -   IS INITIAL OR NULL
     
     Is met if the value of the aspect is NULL or the type-compliant initial value.
     
--   \= [literal](javascript:call_link\('abencds_literal_v2.htm'\))
+-   \= [literal](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_literal_v2.htm)
 
 At runtime, the field user\_element is filled with the user name of the current user. The rows produced in the aspect entity are matched with their output fields in the specified order and with the elements on the left side of the access condition to which the self-defined aspect is assigned. This means those rows in the protected entity meet the condition for which a row exists for the current user in the aspect entity.
 
@@ -65,7 +65,7 @@ Hints
 -   Just adding the annotations, however, does not activate auditing. This annotation should only be set if it is ensured that auditing takes place.
 -   Auditing must respect all data sources of the aspect entity.
 -   If auditing cannot be ensured, the aspect entity cannot be used in a self-defined aspect.
--   In ABAP SQL access to a CDS entity assigned a role of this type, self-defined aspects are defined internally using a [subquery](javascript:call_link\('abensubquery_glosry.htm'\) "Glossary Entry") after EXISTS.
+-   In ABAP SQL access to a CDS entity assigned a role of this type, self-defined aspects are defined internally using a [subquery](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensubquery_glosry.htm "Glossary Entry") after EXISTS.
 
 Continue
-[CDS DCL - DEFINE ASPECT, aspect\_annot](javascript:call_link\('abencds_f1_dcl_as_annotations.htm'\))
+[CDS DCL - DEFINE ASPECT, aspect\_annot](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_dcl_as_annotations.htm)

@@ -4,11 +4,11 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Reads](javascript:call_link\('abenopen_sql_reading.htm'\)) →  [SELECT clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT - FROM](javascript:call_link\('abapfrom_clause.htm'\)) →  [SELECT - FROM data\_source](javascript:call_link\('abapselect_data_source.htm'\)) →  [SELECT - FROM table\_function](javascript:call_link\('abenselect_table_function.htm'\)) →  [SELECT - FROM hierarchy\_function](javascript:call_link\('abenselect_hierarchy_functions.htm'\)) →  [SELECT - FROM HIERARCHY](javascript:call_link\('abenselect_hierarchy_definition.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql.htm) →  [ABAP SQL - Reads](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_reading.htm) →  [SELECT clauses](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_clauses.htm) →  [SELECT - FROM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapfrom_clause.htm) →  [SELECT - FROM data\_source](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_data_source.htm) →  [SELECT - FROM table\_function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_table_function.htm) →  [SELECT - FROM hierarchy\_function](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_hierarchy_functions.htm) →  [SELECT - FROM HIERARCHY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_hierarchy_definition.htm) → 
 
 DDDDL\_HIERARCHY
 
-The [abstract CDS entity](javascript:call_link\('abenabstract_entity_glosry.htm'\) "Glossary Entry") DDDDL\_HIERARCHY defines the additional components of the results set when a ABAP SQL query accesses the hierarchy function [HIERARCHY](javascript:call_link\('abenselect_hierarchy_definition.htm'\)). The following [DDL source code](javascript:call_link\('abenddl_source_code_glosry.htm'\) "Glossary Entry") demonstrates the definition of this CDS entity.
+The [abstract CDS entity](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabstract_entity_glosry.htm "Glossary Entry") DDDDL\_HIERARCHY defines the additional components of the results set when a ABAP SQL query accesses the hierarchy function [HIERARCHY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_hierarchy_definition.htm). The following [DDL source code](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenddl_source_code_glosry.htm "Glossary Entry") demonstrates the definition of this CDS entity.
 
 @EndUserText.label: 'Generated fields of hierarchy func'  
 @AbapCatalog.sqlName: 'HIERARCHY'
@@ -54,7 +54,7 @@ HIERARCHY\_PARENT\_RANK
 
 HIERARCHY\_LEVEL
 
-[Hierarchy level](javascript:call_link\('abenhierarchy_level_glosry.htm'\) "Glossary Entry"), where the first parent level, or the rows selected by the start condition, has the value 1.
+[Hierarchy level](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenhierarchy_level_glosry.htm "Glossary Entry"), where the first parent level, or the rows selected by the start condition, has the value 1.
 
 HIERARCHY\_IS\_CYCLE
 
@@ -74,7 +74,7 @@ Internal character-like key that chains the values of all source data source fie
 
 Example
 
-The program DEMO\_CDS\_SIMPLE\_TREE accesses the hierarchy function [HIERARCHY](javascript:call_link\('abenselect_hierarchy_definition.htm'\)) and specifies the following CDS view as a source:
+The program DEMO\_CDS\_SIMPLE\_TREE accesses the hierarchy function [HIERARCHY](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenselect_hierarchy_definition.htm) and specifies the following CDS view as a source:
 
 @AbapCatalog.sqlViewName: 'DEMOTREESOURCE'
 @AccessControl.authorizationCheck: #NOT\_REQUIRED

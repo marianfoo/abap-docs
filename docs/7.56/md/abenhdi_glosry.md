@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 HDI
 
-SAP HANA Deployment Infrastructure Framework for deploying [HDI objects](javascript:call_link\('abenhdi_object_glosry.htm'\) "Glossary Entry").
+SAP HANA Deployment Infrastructure Framework for deploying [HDI objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenhdi_object_glosry.htm "Glossary Entry").
 
 → More about

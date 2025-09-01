@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 ranking function
 
-[Window function](javascript:call_link\('abenwindow_function_glosry.htm'\) "Glossary Entry") that assigns a criterion for the ranking within the [window](javascript:call_link\('abenwindow_glosry.htm'\) "Glossary Entry") for a line of a window on the result set of a [query](javascript:call_link\('abenquery_glosry.htm'\) "Glossary Entry") in [ABAP SQL](javascript:call_link\('abenabap_sql_glosry.htm'\) "Glossary Entry"). The calculation is executed in the [database system](javascript:call_link\('abendatabase_system_glosry.htm'\) "Glossary Entry").
+[Window function](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwindow_function_glosry.htm "Glossary Entry") that assigns a criterion for the ranking within the [window](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenwindow_glosry.htm "Glossary Entry") for a line of a window on the result set of a [query](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenquery_glosry.htm "Glossary Entry") in [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql_glosry.htm "Glossary Entry"). The calculation is executed in the [database system](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendatabase_system_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abensql_win_func.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abensql_win_func.htm)

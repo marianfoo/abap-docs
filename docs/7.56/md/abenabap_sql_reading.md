@@ -4,22 +4,22 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_sql.htm) → 
 
 ABAP SQL - Read Access
 
 The ABAP SQL language elements for performing reads on the database are:
 
--   [SELECT](javascript:call_link\('abapselect.htm'\))
--   [WITH](javascript:call_link\('abapwith.htm'\))
--   [OPEN CURSOR](javascript:call_link\('abapopen_cursor.htm'\))
-    -   [FETCH NEXT CURSOR](javascript:call_link\('abapfetch.htm'\))
-    -   [CLOSE CURSOR](javascript:call_link\('abapclose_cursor.htm'\))
--   [UNION](javascript:call_link\('abapunion.htm'\))
+-   [SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm)
+-   [WITH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwith.htm)
+-   [OPEN CURSOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapopen_cursor.htm)
+    -   [FETCH NEXT CURSOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapfetch.htm)
+    -   [CLOSE CURSOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapclose_cursor.htm)
+-   [UNION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapunion.htm)
 
 Continue
-[SELECT](javascript:call_link\('abapselect.htm'\))
-[WITH](javascript:call_link\('abapwith.htm'\))
-[OPEN CURSOR](javascript:call_link\('abapopen_cursor.htm'\))
-[UNION](javascript:call_link\('abapunion.htm'\))
-[SELECT, clauses](javascript:call_link\('abenselect_clauses.htm'\))
+[SELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm)
+[WITH](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwith.htm)
+[OPEN CURSOR](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapopen_cursor.htm)
+[UNION](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapunion.htm)
+[SELECT, clauses](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenselect_clauses.htm)

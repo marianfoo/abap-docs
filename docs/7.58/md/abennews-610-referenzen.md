@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - ABAP Release News](javascript:call_link\('abennews.htm'\)) →  [News for ABAP Release 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [News for ABAP Release 6.10](javascript:call_link\('abennews-610.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - ABAP Release News](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews.htm) →  [News for ABAP Release 6.xx](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-6.htm) →  [News for ABAP Release 6.10](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennews-610.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Data%20References%20in%20ABAP%20Release%206.10%2C%20ABENNEWS-610-REFERENZEN%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:
 )
@@ -24,25 +24,25 @@ Modification 1  
 
 Typing Using TYPE DATA
 
-TYPE DATA was previously handled like [TYPE REF TO DATA](javascript:call_link\('abaptypes_simple.htm'\)) and were therefore completely typed. Now TYPE DATA can only be used for formal parameters and field symbols; otherwise a syntax error occurs. A non-generic type can now be specified after REF TO.
+TYPE DATA was previously handled like [TYPE REF TO DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_simple.htm) and were therefore completely typed. Now TYPE DATA can only be used for formal parameters and field symbols; otherwise a syntax error occurs. A non-generic type can now be specified after REF TO.
 
 Modification 2   
 
 Specifying Types for CREATE
 
-A type no longer needs to be specified for the statement [CREATE DATA ...](javascript:call_link\('abapcreate_data.htm'\)) if the reference is completely typed. In this case, the new data object is given the type of the reference.
+A type no longer needs to be specified for the statement [CREATE DATA ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_data.htm) if the reference is completely typed. In this case, the new data object is given the type of the reference.
 
 Modification 3   
 
 Uppercase and Lowercase in Dynamically Specified Types
 
-In the statement [CREATE DATA ...](javascript:call_link\('abapcreate_data.htm'\)), previously only uppercase letters could be used for the field content of dynamically specified types. In ABAP release 6.10, lowercase letters can also be used. Initially the system searches using the specified field content; if this search fails, the system searches again using uppercase letters. If this search also fails, a runtime error occurs.
+In the statement [CREATE DATA ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_data.htm), previously only uppercase letters could be used for the field content of dynamically specified types. In ABAP release 6.10, lowercase letters can also be used. Initially the system searches using the specified field content; if this search fails, the system searches again using uppercase letters. If this search also fails, a runtime error occurs.
 
 Modification 4   
 
 Defining Typed Data References
 
-In the case of the statements [TYPES](javascript:call_link\('abaptypes_simple.htm'\)) and [DATA](javascript:call_link\('abapdata_simple.htm'\)), a fixed type can now be specified for the addition REF TO.
+In the case of the statements [TYPES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes_simple.htm) and [DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata_simple.htm), a fixed type can now be specified for the addition REF TO.
 
 Modification 5   
 
@@ -79,7 +79,7 @@ Modification 7  
 
 Any Typing for CREATE DATA
 
-New types, such as data references and internal tables, can be constructed when data objects are created using the statement [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)). Previously, only references to existing types were possible.
+New types, such as data references and internal tables, can be constructed when data objects are created using the statement [CREATE DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_data.htm). Previously, only references to existing types were possible.
 
 Modification 8   
 

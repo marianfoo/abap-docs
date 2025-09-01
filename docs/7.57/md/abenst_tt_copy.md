@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Transformations](javascript:call_link\('abenabap_xml_trafos.htm'\)) →  [Simple Transformations (ST)](javascript:call_link\('abenabap_st.htm'\)) →  [ST - Serialization and Deserialization](javascript:call_link\('abenst_serial_deserial.htm'\)) →  [ST - Transformation of ABAP Values](javascript:call_link\('abenst_abap_values.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml.htm) →  [XML - Transformations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xml_trafos.htm) →  [Simple Transformations (ST)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_st.htm) →  [ST - Serialization and Deserialization](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_serial_deserial.htm) →  [ST - Transformation of ABAP Values](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_abap_values.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: ST - tt:copy, asXML Format, ABENST_TT_COPY, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0
 D%0ASuggestion for improvement:)
@@ -17,17 +17,17 @@ Syntax
 
 Effect
 
-Statement tt:copy is used to serialize in and deserialize from the [asXML format](javascript:call_link\('abenabap_xslt_asxml.htm'\)). It can be used on all data objects with the exception of reference variables or objects containing reference variables as components.
+Statement tt:copy is used to serialize in and deserialize from the [asXML format](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xslt_asxml.htm). It can be used on all data objects with the exception of reference variables or objects containing reference variables as components.
 
-The optional attribute ref can be used to define the [current node](javascript:call_link\('abenst_tt_ref.htm'\)) for the statement. If ref is not specified, the current node of the surrounding element is used implicitly.
+The optional attribute ref can be used to define the [current node](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_ref.htm) for the statement. If ref is not specified, the current node of the surrounding element is used implicitly.
 
 Serialization   
 
-In serializations, the entire ABAP data object that is bound to the current node is recursively transformed with all its components to [asXML](javascript:call_link\('abenabap_xslt_asxml.htm'\)) format and inserted into the XML data in place of the statement.
+In serializations, the entire ABAP data object that is bound to the current node is recursively transformed with all its components to [asXML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xslt_asxml.htm) format and inserted into the XML data in place of the statement.
 
 Deserialization   
 
-In deserializations, the XML data stream is interpreted as [asXML format](javascript:call_link\('abenabap_xslt_asxml.htm'\)) and its values are passed to the ABAP data object that is bound to the current node.
+In deserializations, the XML data stream is interpreted as [asXML format](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_xslt_asxml.htm) and its values are passed to the ABAP data object that is bound to the current node.
 
 Hint
 
@@ -47,7 +47,7 @@ The following Simple Transformation serializes the ABAP data object that is boun
   </tt:template>
 </tt:transform>
 
-When the ABAP program from the example in section [Internal Tables](javascript:call_link\('abenst_tt_loop.htm'\)) calls this transformation, the serialization process has the following result:
+When the ABAP program from the example in section [Internal Tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_tt_loop.htm) calls this transformation, the serialization process has the following result:
 
 <node>
   <item>
@@ -76,4 +76,4 @@ When the ABAP program from the example in section [Internal Tables](javascript:c
   </item>
 </node>
 
-The Simple Transformation is [symmetrical](javascript:call_link\('abenst_symmetry.htm'\)).
+The Simple Transformation is [symmetrical](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenst_symmetry.htm).

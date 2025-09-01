@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [string\_exp - String Expressions](javascript:call_link\('abapcompute_string.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_processing_expr_func.htm) →  [string\_exp - String Expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_string.htm) → 
 
 string\_exp - Performance Note
 
-If the right side of an [assignment](javascript:call_link\('abenequals_string_expr.htm'\)) appends strings in a [string expression](javascript:call_link\('abapcompute_string.htm'\)) to a variable str with the type string specified on the left side of the assignment, the variable is used directly in the following cases without producing a subtotal.
+If the right side of an [assignment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenequals_string_expr.htm) appends strings in a [string expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcompute_string.htm) to a variable str with the type string specified on the left side of the assignment, the variable is used directly in the following cases without producing a subtotal.
 
 -   str = str && dobj1 && dobj2 && ... .
 
@@ -18,9 +18,9 @@ The appended strings cannot be dependent on str (as known by the compiler):
 
 -   The target field str can occur only once in the string expression, and only at the very beginning.
 
--   Formatting options cannot be used on str in a [string template](javascript:call_link\('abenstring_templates.htm'\)).
+-   Formatting options cannot be used on str in a [string template](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_templates.htm).
 
--   Only directly specified data objects dobj1, dobj2, and so on can be used, even if they are not dependent on str. No other [expressions](javascript:call_link\('abenexpression_glosry.htm'\) "Glossary Entry") or [functions](javascript:call_link\('abenfunction_glosry.htm'\) "Glossary Entry") can be used.
+-   Only directly specified data objects dobj1, dobj2, and so on can be used, even if they are not dependent on str. No other [expressions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexpression_glosry.htm "Glossary Entry") or [functions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_glosry.htm "Glossary Entry") can be used.
 
 Optimization is therefore deactivated in the following cases:
 
@@ -66,7 +66,7 @@ html = html && \`</table></body></html>\`.
 
 Executable Example
 
-[Chaining Strings](javascript:call_link\('abenstring_concatenation_abexa.htm'\))
+[Chaining Strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_concatenation_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Chaining Strings](javascript:call_link\('abenstring_concatenation_abexa.htm'\))
+![Example](exa.gif "Example") [Chaining Strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_concatenation_abexa.htm)

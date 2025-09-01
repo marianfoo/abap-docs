@@ -4,22 +4,22 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abendb_access.htm) → 
 
 Object Services (OS)
 
-Object Services is an object-oriented framework for handling relational databases. Instead of working directly with ABAP SQL statements, [persistent objects](javascript:call_link\('abenpersistent_object_glosry.htm'\) "Glossary Entry") are used whose attributes are mapped to database content. In this way the actual database access is encapsulated by the classes and interfaces of Object Services.
+Object Services is an object-oriented framework for handling relational databases. Instead of working directly with ABAP SQL statements, [persistent objects](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenpersistent_object_glosry.htm "Glossary Entry") are used whose attributes are mapped to database content. In this way the actual database access is encapsulated by the classes and interfaces of Object Services.
 
 Object Services provide the following services for handling persistent objects on the database:
 
--   [Persistence service](javascript:call_link\('abenabap_object_services_persist.htm'\))
--   [Transaction service](javascript:call_link\('abenabap_object_services_transact.htm'\))
--   [Query service](javascript:call_link\('abenabap_object_services_query.htm'\))
+-   [Persistence service](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_object_services_persist.htm)
+-   [Transaction service](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_object_services_transact.htm)
+-   [Query service](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_object_services_query.htm)
 
 The creation of persistent classes is supported in the Class Builder by generating an object-relational mapping using the attributes of the class and automatic creation of associated class agents.
 
 Continue
-[OS - Persistence Service](javascript:call_link\('abenabap_object_services_persist.htm'\))
-[OS - Transaction Service](javascript:call_link\('abenabap_object_services_transact.htm'\))
-[OS - Query Service](javascript:call_link\('abenabap_object_services_query.htm'\))
-[OS - Exception Classes](javascript:call_link\('abenos_exceptions.htm'\))
+[OS - Persistence Service](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_object_services_persist.htm)
+[OS - Transaction Service](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_object_services_transact.htm)
+[OS - Query Service](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_object_services_query.htm)
+[OS - Exception Classes](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenos_exceptions.htm)

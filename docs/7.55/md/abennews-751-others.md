@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release-Specific Changes](javascript:call_link\('abennews.htm'\)) →  [Changes in Releases 7.5x](javascript:call_link\('abennews-75.htm'\)) →  [Changes in Release 7.51](javascript:call_link\('abennews-751.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Release-Specific Changes](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews.htm) →  [Changes in Releases 7.5x](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-75.htm) →  [Changes in Release 7.51](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennews-751.htm) → 
 
 Further Changes in Release 7.51
 
@@ -21,4 +21,4 @@ Modification 2
 
 Static ABAP with Restricted Object Use
 
-In Release 7.51, a new [ABAP version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") [Static ABAP with Restricted Object Use](javascript:call_link\('abenabap_static_restr_glosry.htm'\) "Glossary Entry") was introduced. The internal version ID in column UCCHECK of system table TRDIR is "3".
+In Release 7.51, a new [ABAP version](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_version_glosry.htm "Glossary Entry") [Static ABAP with Restricted Object Use](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_static_restr_glosry.htm "Glossary Entry") was introduced. The internal version ID in column UCCHECK of system table TRDIR is "3".

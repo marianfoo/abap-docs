@@ -4,19 +4,19 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operands](javascript:call_link\('abenoperands.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_statements.htm) →  [Operands](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoperands.htm) → 
 
 Data Objects in Operand Positions
 
 When using data objects in operand positions, read positions and write positions must be distinguished. The data type and content of the specified data objects must also be appropriate for the operand position.
 
--   [Read Positions](javascript:call_link\('abendata_objects_usage_reading.htm'\))
+-   [Read Positions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_objects_usage_reading.htm)
 
--   [Write Positions](javascript:call_link\('abendata_objects_usage_writing.htm'\))
+-   [Write Positions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_objects_usage_writing.htm)
 
--   [Substring Access](javascript:call_link\('abenoffset_length.htm'\))
+-   [Substring Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoffset_length.htm)
 
 Continue
-[Read Positions](javascript:call_link\('abendata_objects_usage_reading.htm'\))
-[Write Positions](javascript:call_link\('abendata_objects_usage_writing.htm'\))
-[Substring Access](javascript:call_link\('abenoffset_length.htm'\))
+[Read Positions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_objects_usage_reading.htm)
+[Write Positions](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_objects_usage_writing.htm)
+[Substring Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenoffset_length.htm)

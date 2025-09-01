@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Robust ABAP](javascript:call_link\('abenrobust_abap_gdl.htm'\)) →  [Dynamic Programming Techniques](javascript:call_link\('abendynamic_prog_technique_gdl.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Guidelines](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_pgl.htm) →  [Robust ABAP](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenrobust_abap_gdl.htm) →  [Dynamic Programming Techniques](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abendynamic_prog_technique_gdl.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Runtime%20Errors%20in%20Dynamic%20Processing%2C%20ABENRUNTIME_ERROR_DYN_PROC_GUIDL%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impro
 vement:)
@@ -25,13 +25,13 @@ Details  
 
 The different dynamic techniques also require different reactions to the possible exception situations. Examples:
 
--   When dynamic data objects are accessed, [their limitations must not be violated](javascript:call_link\('abenruntime_error_data_obj_guidl.htm'\) "Guideline"). For internal tables, for example, no line numbers must be specified for which no line exists.
+-   When dynamic data objects are accessed, [their limitations must not be violated](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenruntime_error_data_obj_guidl.htm "Guideline"). For internal tables, for example, no line numbers must be specified for which no line exists.
 -   Before data objects are accessed dynamically by using data references or field symbols, it must be ensured, before execution, that these are bound to a data object and this binding checked using IS BOUND or IS ASSIGNED, if necessary. Afterwards, the return code should be checked to see whether execution was successful.
 -   In dynamic calls, exceptions must be caught that are raised due to nonexistent programs, classes, or procedures, or due to inappropriate parameters.
 -   In the case of a dynamically specified token, for example, a dynamic WHERE condition in ABAP SQL or internal tables, possible exceptions must be caught and responded to accordingly.
 -   If programs are developed generically, the programs in question must checked using the statement SYNTAX-CHECK.
 
-These examples illustrate how the use of dynamic techniques can lead to more complex and less clear code due to the numerous possible exception situations. Of course, the more the mentioned techniques are combined, the more complex and less clear the code becomes. Therefore, [dynamic programming techniques must always be used with care](javascript:call_link\('abenuse_dynamic_progr_tech_guidl.htm'\) "Guideline").
+These examples illustrate how the use of dynamic techniques can lead to more complex and less clear code due to the numerous possible exception situations. Of course, the more the mentioned techniques are combined, the more complex and less clear the code becomes. Therefore, [dynamic programming techniques must always be used with care](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenuse_dynamic_progr_tech_guidl.htm "Guideline").
 
 Hint
 

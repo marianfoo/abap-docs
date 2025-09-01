@@ -4,7 +4,7 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [ABAP-Specific Rules](javascript:call_link\('abenabap_specific_rules_guidl.htm'\)) →  [Program Type and Program Attributes](javascript:call_link\('abenprogr_type_features_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_pgl.htm) →  [ABAP-Specific Rules](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_specific_rules_guidl.htm) →  [Program Type and Program Attributes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogr_type_features_guidl.htm) → 
 
 Program Attributes
 
@@ -13,7 +13,7 @@ Background
 Alongside various, less important properties, each ABAP program has a set of program attributes that control specific aspects of the program behavior and syntax check severity:
 
 -   ABAP language version
-    for configuring the [ABAP language version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry")
+    for configuring the [ABAP language version](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_version_glosry.htm "Glossary Entry")
 
 -   Fixed point arithmetic
     For respecting the decimal separator for operations with packed numbers.
@@ -29,7 +29,7 @@ Use the default settings for program attributes
 
 Set the program attributes for new programs as follows:
 
--   ABAP language version is [Standard ABAP (Unicode)](javascript:call_link\('abenunicode_program_glosry.htm'\) "Glossary Entry") or higher
+-   ABAP language version is [Standard ABAP (Unicode)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_program_glosry.htm "Glossary Entry") or higher
 
 -   Fixed Point Arithmetic activated
 
@@ -41,7 +41,7 @@ Details
 
 Different behaviors or check severities are only provided for compatibility reasons, to ensure that existing programs can still be compiled and executed. New programs should definitely not use obsolete settings.
 
--   When a new program is created, the ABAP Language Version attribute is already set to [Standard ABAP (Unicode)](javascript:call_link\('abenunicode_program_glosry.htm'\) "Glossary Entry") by default. This attribute must never be set to [Non-Unicode ABAP](javascript:call_link\('abennon_unicode_program_glosry.htm'\) "Glossary Entry"). Only Unicode systems are supported in the current release, which means such programs can no longer be used. Higher [ABAP language versions](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") are possible because they cover the Unicode checks.
+-   When a new program is created, the ABAP Language Version attribute is already set to [Standard ABAP (Unicode)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_program_glosry.htm "Glossary Entry") by default. This attribute must never be set to [Non-Unicode ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennon_unicode_program_glosry.htm "Glossary Entry"). Only Unicode systems are supported in the current release, which means such programs can no longer be used. Higher [ABAP language versions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_version_glosry.htm "Glossary Entry") are possible because they cover the Unicode checks.
 
 -   When a new program is created, the Fixed Point Arithmetic attribute is already set by default. This attribute must never be reset. If fixed point arithmetic is disabled, the position of the decimal separator of packed numbers (type p) is only respected for output in a classic dynpro, in assignments to fields of the types c and string, or for formatting using WRITE TO. The position is not respected for calculations. Today, this behavior only rarely meets the developer’s expectations. If the calculation is to be carried out with packed numbers without any decimal places, this must be specified using the DECIMALS 0 addition for the declaration.
 
@@ -53,7 +53,7 @@ The following sections assume that fixed point arithmetic is always activated an
 
 Note
 
-From Release 740, SP05, the [strict modes](javascript:call_link\('abenopensql_strict_modes.htm'\)) in the ABAP SQL syntax check require programs with the ABAP language version [Standard ABAP (Unicode)](javascript:call_link\('abenunicode_program_glosry.htm'\) "Glossary Entry") in which the program attribute [fixed point arithmetic](javascript:call_link\('abenfixed_point_arithmetic_glosry.htm'\) "Glossary Entry") is switched on.
+From Release 740, SP05, the [strict modes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopensql_strict_modes.htm) in the ABAP SQL syntax check require programs with the ABAP language version [Standard ABAP (Unicode)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_program_glosry.htm "Glossary Entry") in which the program attribute [fixed point arithmetic](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfixed_point_arithmetic_glosry.htm "Glossary Entry") is switched on.
 
 Example
 
@@ -68,6 +68,6 @@ METHOD ...
   struct+2(4) = 'XXXX'.
 ENDMETHOD.
 
-This was only possible for programs in the obsolete ABAP language version [Non-Unicode ABAP](javascript:call_link\('abennon_unicode_program_glosry.htm'\) "Glossary Entry"). Here an implicit [casting](javascript:call_link\('abencasting_guidl.htm'\) "Guideline") of the subarea is performed for type c. The result in the components depends on the alignment gaps, the internal presentation of numeric values (byte order), and the code page used. Therefore, the result is extremely platform-dependent. A live program must never contain this type of code. This type of code often produces data with errors or runtime errors that are difficult to trace.
+This was only possible for programs in the obsolete ABAP language version [Non-Unicode ABAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennon_unicode_program_glosry.htm "Glossary Entry"). Here an implicit [casting](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencasting_guidl.htm "Guideline") of the subarea is performed for type c. The result in the components depends on the alignment gaps, the internal presentation of numeric values (byte order), and the code page used. Therefore, the result is extremely platform-dependent. A live program must never contain this type of code. This type of code often produces data with errors or runtime errors that are difficult to trace.
 
-The above code produces a syntax error when used in an ABAP program defined as [Standard ABAP (Unicode)](javascript:call_link\('abenunicode_program_glosry.htm'\) "Glossary Entry") or higher in the program attributes (in accordance with the above rule). Unwanted substring accesses are prohibited, just like any other unwanted accesses to structures or other parts of the working memory. If these accesses cannot be identified by the syntax check, a runtime error occurs with a descriptive short dump while the program is running.
+The above code produces a syntax error when used in an ABAP program defined as [Standard ABAP (Unicode)](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunicode_program_glosry.htm "Glossary Entry") or higher in the program attributes (in accordance with the above rule). Unwanted substring accesses are prohibited, just like any other unwanted accesses to structures or other parts of the working memory. If these accesses cannot be identified by the syntax check, a runtime error occurs with a descriptive short dump while the program is running.

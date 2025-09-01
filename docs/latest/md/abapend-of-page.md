@@ -4,13 +4,13 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Event Blocks](javascript:call_link\('abenabap_lists_interactive.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_dynpro_list.htm) →  [Lists - Event Blocks](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_lists_interactive.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20END-OF-PAGE%2C%20ABAPEND-OF-PAGE%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 END-OF-PAGE
 
-[Short Reference](javascript:call_link\('abapend-of-page_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapend-of-page_shortref.htm)
 
 Syntax
 
@@ -18,14 +18,14 @@ END-OF-PAGE.
 
 Effect
 
-This statement defines an event block, whose event is raised by the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry") during the creation of a basic list at the following time:
+This statement defines an event block, whose event is raised by the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry") during the creation of a basic list at the following time:
 
--   If lines were reserved in the addition [LINE-COUNT](javascript:call_link\('abapreport_list_options.htm'\)) of the program-initiating statement for a [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") that was reached by a write on this page. List output made in the event block is placed in this area. Output statements that exceed the reserved area are ignored.
--   If no lines were reserved in the addition [LINE-COUNT](javascript:call_link\('abapreport_list_options.htm'\)) for a [page footer](javascript:call_link\('abenpage_footer_glosry.htm'\) "Glossary Entry") and the end of page was reached by a write on this page. List outputs made in the event block have no effect.
+-   If lines were reserved in the addition [LINE-COUNT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport_list_options.htm) of the program-initiating statement for a [page footer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpage_footer_glosry.htm "Glossary Entry") that was reached by a write on this page. List output made in the event block is placed in this area. Output statements that exceed the reserved area are ignored.
+-   If no lines were reserved in the addition [LINE-COUNT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapreport_list_options.htm) for a [page footer](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenpage_footer_glosry.htm "Glossary Entry") and the end of page was reached by a write on this page. List outputs made in the event block have no effect.
 
 Hint
 
-The event END-OF-PAGE is intended for writing list outputs in the page footer and is raised only when the page footer or end of page is reached. Statements such as [NEW-PAGE](javascript:call_link\('abapnew-page.htm'\)) do not raise the event.
+The event END-OF-PAGE is intended for writing list outputs in the page footer and is raised only when the page footer or end of page is reached. Statements such as [NEW-PAGE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abapnew-page.htm) do not raise the event.
 
 Example
 

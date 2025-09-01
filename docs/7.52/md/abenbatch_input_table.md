@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Calling and leaving program units](javascript:call_link\('abenabap_execution.htm'\)) →  [Calling Programs](javascript:call_link\('abenabap_program_call.htm'\)) →  [Calling Transactions](javascript:call_link\('abenabap_call_transaction.htm'\)) →  [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) →  [CALL TRANSACTION - USING](javascript:call_link\('abapcall_transaction_using.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Calling and leaving program units](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_execution.htm) →  [Calling Programs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_call.htm) →  [Calling Transactions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_call_transaction.htm) →  [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transaction.htm) →  [CALL TRANSACTION - USING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transaction_using.htm) → 
 
 CALL TRANSACTION - Batch Input Table
 
-A [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\) "Glossary Entry") of the [row type](javascript:call_link\('abenrow_type_glosry.htm'\) "Glossary Entry") BDCDATA specified after the addition USING of the statement [CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\)) in [transaction](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry") calls must have the following content. This content is achieved by appending rows to an initial table in this order:
+A [batch input table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbatch_input_table_glosry.htm "Glossary Entry") of the [row type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenrow_type_glosry.htm "Glossary Entry") BDCDATA specified after the addition USING of the statement [CALL TRANSACTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_transaction.htm) in [transaction](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentransaction_glosry.htm "Glossary Entry") calls must have the following content. This content is achieved by appending rows to an initial table in this order:
 
 -   For each new dynpro, a new row with one of the following:
 
@@ -24,7 +24,7 @@ A [batch input table](javascript:call_link\('abenbatch_input_table_glosry.htm'\)
 
 -   The passed value in the column FVAL
 
-If the field is part of a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry") or [step loop](javascript:call_link\('abenstep_loop_glosry.htm'\) "Glossary Entry"), the required row number must be appended to the field name.
+If the field is part of a [table control](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentable_control_glosry.htm "Glossary Entry") or [step loop](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstep_loop_glosry.htm "Glossary Entry"), the required row number must be appended to the field name.
 
 -   If the cursor is positioned on a screen element, one of the following:
 
@@ -48,4 +48,4 @@ Transaction Recorder (transaction SHDB) records executed transactions as batch i
 
 Executable Example
 
-[Transaction Call, BDC Table](javascript:call_link\('abencall_transaction_bdc_abexa.htm'\))
+[Transaction Call, BDC Table](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencall_transaction_bdc_abexa.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Selection Screens](javascript:call_link\('abenselection_screen.htm'\)) →  [Selection Screens - Create](javascript:call_link\('abenselection_screen_create.htm'\)) →  [PARAMETERS](javascript:call_link\('abapparameters.htm'\)) →  [PARAMETERS, value\_options](javascript:call_link\('abapparameters_value.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_screens.htm) →  [Selection Screens](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselection_screen.htm) →  [Selection Screens - Create](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenselection_screen_create.htm) →  [PARAMETERS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapparameters.htm) →  [PARAMETERS, value\_options](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapparameters_value.htm) → 
 
 Selection Screens - Value Properties of Parameters
 
@@ -54,7 +54,7 @@ START-OF-SELECTION.
 
 Description
 
-This example program consists of five parts, each illustrating one of [value\_options](javascript:call_link\('abapparameters_value.htm'\)) additions of the statement PARAMETERS. Each example corresponds to a block on selection screen 100.
+This example program consists of five parts, each illustrating one of [value\_options](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapparameters_value.htm) additions of the statement PARAMETERS. Each example corresponds to a block on selection screen 100.
 
 -   Part 1: The input fields of the parameters on the selection screen are filled with default values. The user can accept or change this value. The default value of the field name is the user name. The default value for date appears in the format defined in the user master record.
 

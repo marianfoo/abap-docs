@@ -4,27 +4,27 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [CONV - Conversion Operator](javascript:call_link\('abenconstructor_expression_conv.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenvalue_assignments.htm) →  [CONV - Conversion Operator](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_conv.htm) → 
 
 CONV - Conversion of Enumerated Types
 
-If the constructor expression [CONV](javascript:call_link\('abenconstructor_expression_conv.htm'\)) is used on [enumerated types](javascript:call_link\('abenenumerated_type_glosry.htm'\) "Glossary Entry"), the following rules apply:
+If the constructor expression [CONV](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_conv.htm) is used on [enumerated types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_type_glosry.htm "Glossary Entry"), the following rules apply:
 
--   If the argument dobj is an [enumerated object](javascript:call_link\('abenenumerated_object_glosry.htm'\) "Glossary Entry") enum\_dobj and type corresponds exactly to the [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") base\_type of the enumerated type, the result is the actual [enumerated value](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry") of the argument.
+-   If the argument dobj is an [enumerated object](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_object_glosry.htm "Glossary Entry") enum\_dobj and type corresponds exactly to the [base type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbase_type_glosry.htm "Glossary Entry") base\_type of the enumerated type, the result is the actual [enumerated value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_value_glosry.htm "Glossary Entry") of the argument.
 
 ... CONV base\_type( enum\_dobj ) ...
 
 -   If type is an enumerated type enum\_type, the following can be specified for the argument dobj:
 
--   A data object of the same elementary type as the [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") of the enumerated type, with any length and number of decimal places
+-   A data object of the same elementary type as the [base type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbase_type_glosry.htm "Glossary Entry") of the enumerated type, with any length and number of decimal places
 
--   An expression permitted at this position whose result can be converted to the [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry") of the enumerated type
+-   An expression permitted at this position whose result can be converted to the [base type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbase_type_glosry.htm "Glossary Entry") of the enumerated type
 
-If the argument represents a valid [enumerated value](javascript:call_link\('abenenumerated_value_glosry.htm'\) "Glossary Entry"), the result is a temporary [enumerated variable](javascript:call_link\('abenenumerated_variable_glosry.htm'\) "Glossary Entry") with this value. If the value is not valid, an exception CX\_SY\_CONVERSION\_NO\_ENUM\_VALUE occurs.
+If the argument represents a valid [enumerated value](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_value_glosry.htm "Glossary Entry"), the result is a temporary [enumerated variable](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenenumerated_variable_glosry.htm "Glossary Entry") with this value. If the value is not valid, an exception CX\_SY\_CONVERSION\_NO\_ENUM\_VALUE occurs.
 
 ... CONV enum\_type( dobj ) ...
 
-In all other cases, the normal [conversion rules](javascript:call_link\('abenconversion_enumerated.htm'\)) also apply for CONV, where enumerated types can only be converted to the character-like types c and string; no other types are converted to enumerated types.
+In all other cases, the normal [conversion rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_enumerated.htm) also apply for CONV, where enumerated types can only be converted to the character-like types c and string; no other types are converted to enumerated types.
 
 Short form:
 
@@ -42,13 +42,13 @@ Notes
 
 -   Using CONV for enumerated types deviates from the rule that CONV always behaves according to the normal conversion rules in assignments.
 
--   If the argument is an enumerated type with a character-like [base type](javascript:call_link\('abenbase_type_glosry.htm'\) "Glossary Entry"), and this base type is specified as type, the special rule above applies instead of the general conversion rule. That is, the enumerated value is returned, not the name.
+-   If the argument is an enumerated type with a character-like [base type](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenbase_type_glosry.htm "Glossary Entry"), and this base type is specified as type, the special rule above applies instead of the general conversion rule. That is, the enumerated value is returned, not the name.
 
--   Corresponding [rules](javascript:call_link\('abenexact_constructor_enum.htm'\)) apply to the lossless operator [EXACT](javascript:call_link\('abenconstructor_expression_exact.htm'\)).
+-   Corresponding [rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenexact_constructor_enum.htm) apply to the lossless operator [EXACT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_exact.htm).
 
 Example
 
-The first three assignments to the fields text1, text2, and text3 follow the normal [conversion rules](javascript:call_link\('abenconversion_enumerated.htm'\)) for enumerated type to character-like. The result in each case is the name BLUE.
+The first three assignments to the fields text1, text2, and text3 follow the normal [conversion rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_enumerated.htm) for enumerated type to character-like. The result in each case is the name BLUE.
 
 A direct assignment of the enumerated constant blue to a field value1 of type i is not possible. The conversion operator CONV returns the actual enumerated value 1 for the base type i.
 
@@ -104,7 +104,7 @@ cl\_demo\_output=>display( CONV animal( peach ) ).
 
 Example
 
-The example shows the difference between the normal [conversion rules](javascript:call_link\('abenconversion_enumerated.htm'\)) and using CONV for a character-like base type:
+The example shows the difference between the normal [conversion rules](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconversion_enumerated.htm) and using CONV for a character-like base type:
 
 -   When the assignment is to result1, the normal conversion rules apply and the name SECOND is assigned.
 
@@ -126,7 +126,7 @@ cl\_demo\_output=>display(
 
 Executable Example
 
-[Conversion Operator, Enumerated Types](javascript:call_link\('abenconv_enum_abexa.htm'\))
+[Conversion Operator, Enumerated Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconv_enum_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Conversion Operator, Enumerated Types](javascript:call_link\('abenconv_enum_abexa.htm'\))
+![Example](exa.gif "Example") [Conversion Operator, Enumerated Types](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconv_enum_abexa.htm)

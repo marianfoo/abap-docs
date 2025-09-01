@@ -3,29 +3,7 @@
 Included pages: 6
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenstreaming.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming.htm)
-- [abenstreaming_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_classes_interfaces.htm)
-- [abendata_objects_streams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm)
-- [abenstring_streams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_streams.htm)
-- [abenitab_streams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_streams.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.499Z
-
----
-
 ### abenstreaming.htm
-
-> **📖 Official SAP Documentation**: [abenstreaming.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -33,46 +11,39 @@ Included pages: 6
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) → 
 
 Streaming
 
-Streaming describes how [streams](javascript:call_link\('abenstream_glosry.htm'\) "Glossary Entry") are passed. Streams are represented by instances of special classes. Streams are passed by calling the relevant methods of the object.
+Streaming describes how [streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstream_glosry.htm "Glossary Entry") are passed. Streams are represented by instances of special classes. Streams are passed by calling the relevant methods of the object.
 
 Properties of Streams
 
 Streams are classified by the following properties:
 
 -   Stream category
-    [Data streams](javascript:call_link\('abendata_stream_glosry.htm'\) "Glossary Entry") and [filter streams](javascript:call_link\('abenfilter_stream_glosry.htm'\) "Glossary Entry")
+    [Data streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_stream_glosry.htm "Glossary Entry") and [filter streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfilter_stream_glosry.htm "Glossary Entry")
 
 -   Stream direction
-    [Reader streams](javascript:call_link\('abenreader_stream_glosry.htm'\) "Glossary Entry") and [writer streams](javascript:call_link\('abenwriter_stream_glosry.htm'\) "Glossary Entry")
+    [Reader streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreader_stream_glosry.htm "Glossary Entry") and [writer streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenwriter_stream_glosry.htm "Glossary Entry")
 
 -   Stream type
-    [Binary streams](javascript:call_link\('abenbinary_stream_glosry.htm'\) "Glossary Entry") and [character streams](javascript:call_link\('abencharacter_stream_glosry.htm'\) "Glossary Entry")
+    [Binary streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbinary_stream_glosry.htm "Glossary Entry") and [character streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencharacter_stream_glosry.htm "Glossary Entry")
 
 More Information
 
--   [Classes and Interfaces for Streams](javascript:call_link\('abenstreaming_classes_interfaces.htm'\))
+-   [Classes and Interfaces for Streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_classes_interfaces.htm)
 
--   [Streaming for Data Objects](javascript:call_link\('abendata_objects_streams.htm'\))
+-   [Streaming for Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm)
 
--   [Streaming in Open SQL](javascript:call_link\('abenopen_sql_streaming.htm'\))
+-   [Streaming in Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_streaming.htm)
 
 Continue
-[Classes and Interfaces for Streams](javascript:call_link\('abenstreaming_classes_interfaces.htm'\))
-[Streaming for Data Objects](javascript:call_link\('abendata_objects_streams.htm'\))
+[Classes and Interfaces for Streams](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_classes_interfaces.htm)
+[Streaming for Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm)
 
-
-
-**📖 Source**: [abenstreaming.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming.htm)
 
 ### abenstreaming_classes_interfaces.htm
-
-> **📖 Official SAP Documentation**: [abenstreaming_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_classes_interfaces.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -80,7 +51,7 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Streaming](javascript:call_link\('abenstreaming.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Streaming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming.htm) → 
 
 Classes and Interfaces for Streams
 
@@ -94,13 +65,13 @@ The classes for data streams and filter streams are the templates for data strea
 
 The classes for the "data stream" stream kind start with "CL\_ABAP\_", followed by
 
-1.  an identification resource, for the resource, which is used as a [data source](javascript:call_link\('abendata_source_glosry.htm'\) "Glossary Entry") or a [data drain](javascript:call_link\('abendata_source_glosry.htm'\) "Glossary Entry"). At the moment, data streams are supported for the following resources:
+1.  an identification resource, for the resource, which is used as a [data source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_source_glosry.htm "Glossary Entry") or a [data drain](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_source_glosry.htm "Glossary Entry"). At the moment, data streams are supported for the following resources:
 
--   [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in database tables; the associated resource ID is " [DB](javascript:call_link\('abenopen_sql_streaming.htm'\))".
+-   [LOBs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_glosry.htm "Glossary Entry") in database tables; the associated resource ID is " [DB](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_streaming.htm)".
 
--   [Strings](javascript:call_link\('abenstring_glosry.htm'\) "Glossary Entry"); the associated resource ID is " [STRING](javascript:call_link\('abenstring_streams.htm'\))".
+-   [Strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_glosry.htm "Glossary Entry"); the associated resource ID is " [STRING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_streams.htm)".
 
--   [Internal tables](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry"); the associated resource ID is " [ITAB](javascript:call_link\('abenitab_streams.htm'\))".
+-   [Internal tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abeninternal_table_glosry.htm "Glossary Entry"); the associated resource ID is " [ITAB](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_streams.htm)".
     
 
 1.  an identification type for the stream type. Here the identifications "C" and "X" are possible for the binary streams and character streams.
@@ -125,7 +96,7 @@ Data stream classes inherit CL\_ABAP\_type\_direction from abstract superclasses
 
 Important Methods
 
-In the case of data streams, the following methods are implemented as [kernel methods](javascript:call_link\('abenkernel_method_glosry.htm'\) "Glossary Entry"). This means that access to the [data source](javascript:call_link\('abendata_source_glosry.htm'\) "Glossary Entry") or [data drain](javascript:call_link\('abendata_sink_glosry.htm'\) "Glossary Entry") is completed by the ABAP runtime environment.
+In the case of data streams, the following methods are implemented as [kernel methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkernel_method_glosry.htm "Glossary Entry"). This means that access to the [data source](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_source_glosry.htm "Glossary Entry") or [data drain](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_sink_glosry.htm "Glossary Entry") is completed by the ABAP runtime environment.
 
 Methods for Reader Streams
 
@@ -154,14 +125,7 @@ Methods from the IF\_ABAP\_CLOSE\_RESOURCE interface:
 -   IS\_CLOSED returns "X" if the stream is closed.
 
 
-
-**📖 Source**: [abenstreaming_classes_interfaces.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_classes_interfaces.htm)
-
 ### abendata_objects_streams.htm
-
-> **📖 Official SAP Documentation**: [abendata_objects_streams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -169,11 +133,11 @@ Methods from the IF\_ABAP\_CLOSE\_RESOURCE interface:
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Streaming](javascript:call_link\('abenstreaming.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Streaming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming.htm) → 
 
 Streaming for Data Objects
 
-The abstract superclasses for [streaming](javascript:call_link\('abenstreaming_glosry.htm'\) "Glossary Entry") for data objects are:
+The abstract superclasses for [streaming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_glosry.htm "Glossary Entry") for data objects are:
 
 -   CL\_ABAP\_MEMORY\_C\_READER
 
@@ -185,27 +149,20 @@ The abstract superclasses for [streaming](javascript:call_link\('abenstreaming_g
 
 Streaming is possible for strings and internal tables:
 
--   [Streaming for strings](javascript:call_link\('abenstring_streams.htm'\))
+-   [Streaming for strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_streams.htm)
 
--   [Streaming for internal tables](javascript:call_link\('abenitab_streams.htm'\))
+-   [Streaming for internal tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_streams.htm)
 
 Note
 
-Another important application for streaming is when using [Open SQL](javascript:call_link\('abenopen_sql_streaming.htm'\)) to access [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in database tables.
+Another important application for streaming is when using [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_streaming.htm) to access [LOBs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_glosry.htm "Glossary Entry") in database tables.
 
 Continue
-[Streaming for Strings](javascript:call_link\('abenstring_streams.htm'\))
-[Streaming for internal tables](javascript:call_link\('abenitab_streams.htm'\))
+[Streaming for Strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_streams.htm)
+[Streaming for internal tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_streams.htm)
 
-
-
-**📖 Source**: [abendata_objects_streams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm)
 
 ### abenstring_streams.htm
-
-> **📖 Official SAP Documentation**: [abenstring_streams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_streams.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -213,11 +170,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Streaming](javascript:call_link\('abenstreaming.htm'\)) →  [Streaming for Data Objects](javascript:call_link\('abendata_objects_streams.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Streaming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming.htm) →  [Streaming for Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm) → 
 
 Streaming for Strings
 
-The specific classes for [streaming](javascript:call_link\('abenstreaming_glosry.htm'\) "Glossary Entry") for strings are:
+The specific classes for [streaming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_glosry.htm "Glossary Entry") for strings are:
 
 -   CL\_ABAP\_STRING\_C\_READER
 
@@ -227,7 +184,7 @@ The specific classes for [streaming](javascript:call_link\('abenstreaming_glosry
 
 -   CL\_ABAP\_STRING\_X\_WRITER
 
-These classes are subclasses of the abstract superclasses [CL\_ABAP\_MEMORY\_...](javascript:call_link\('abendata_objects_streams.htm'\)).
+These classes are subclasses of the abstract superclasses [CL\_ABAP\_MEMORY\_...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm).
 
 Example
 
@@ -248,14 +205,7 @@ string\_reader->close( ).
 cl\_demo\_output=>display( ).
 
 
-
-**📖 Source**: [abenstring_streams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_streams.htm)
-
 ### abenitab_streams.htm
-
-> **📖 Official SAP Documentation**: [abenitab_streams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_streams.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -263,11 +213,11 @@ cl\_demo\_output=>display( ).
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Streaming](javascript:call_link\('abenstreaming.htm'\)) →  [Streaming for Data Objects](javascript:call_link\('abendata_objects_streams.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Streaming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming.htm) →  [Streaming for Data Objects](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm) → 
 
 Streaming for internal tables
 
-The specific classes for [streaming](javascript:call_link\('abenstreaming_glosry.htm'\) "Glossary Entry") for internal tables are: CL\_ABAP\_ITAB\_C\_READER
+The specific classes for [streaming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_glosry.htm "Glossary Entry") for internal tables are: CL\_ABAP\_ITAB\_C\_READER
 
 -   CL\_ABAP\_ITAB\_C\_READER
 
@@ -277,7 +227,7 @@ The specific classes for [streaming](javascript:call_link\('abenstreaming_glosry
 
 -   CL\_ABAP\_ITAB\_X\_WRITER
 
-These classes are subclasses of the abstract superclasses [CL\_ABAP\_MEMORY\_...](javascript:call_link\('abendata_objects_streams.htm'\)).
+These classes are subclasses of the abstract superclasses [CL\_ABAP\_MEMORY\_...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm).
 
 Example
 
@@ -293,17 +243,7 @@ itab\_reader->close( ).
 cl\_demo\_output=>display( ).
 
 
-
-**📖 Source**: [abenitab_streams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_streams.htm)
-
 ### abendata_objects_streams.htm
-
-> **📖 Official SAP Documentation**: [abendata_objects_streams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abendata_objects_streams.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_objects_streams.htm)
-
 
   
 
@@ -311,11 +251,11 @@ cl\_demo\_output=>display( ).
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Streaming](javascript:call_link\('abenstreaming.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_data_working.htm) →  [Streaming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming.htm) → 
 
 Streaming for Data Objects
 
-The abstract superclasses for [streaming](javascript:call_link\('abenstreaming_glosry.htm'\) "Glossary Entry") for data objects are:
+The abstract superclasses for [streaming](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstreaming_glosry.htm "Glossary Entry") for data objects are:
 
 -   CL\_ABAP\_MEMORY\_C\_READER
 
@@ -327,14 +267,14 @@ The abstract superclasses for [streaming](javascript:call_link\('abenstreaming_g
 
 Streaming is possible for strings and internal tables:
 
--   [Streaming for strings](javascript:call_link\('abenstring_streams.htm'\))
+-   [Streaming for strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_streams.htm)
 
--   [Streaming for internal tables](javascript:call_link\('abenitab_streams.htm'\))
+-   [Streaming for internal tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_streams.htm)
 
 Note
 
-Another important application for streaming is when using [Open SQL](javascript:call_link\('abenopen_sql_streaming.htm'\)) to access [LOBs](javascript:call_link\('abenlob_glosry.htm'\) "Glossary Entry") in database tables.
+Another important application for streaming is when using [Open SQL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenopen_sql_streaming.htm) to access [LOBs](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlob_glosry.htm "Glossary Entry") in database tables.
 
 Continue
-[Streaming for Strings](javascript:call_link\('abenstring_streams.htm'\))
-[Streaming for internal tables](javascript:call_link\('abenitab_streams.htm'\))
+[Streaming for Strings](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenstring_streams.htm)
+[Streaming for internal tables](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenitab_streams.htm)

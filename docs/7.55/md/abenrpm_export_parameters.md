@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_business_objects.htm'\)) →  [RAP in ABAP](javascript:call_link\('abenrestful_abap_programming.htm'\)) →  [Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_business_objects.htm) →  [RAP in ABAP](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrestful_abap_programming.htm) →  [Derived Types](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenrpm_derived_types.htm) → 
 
 Type of the Output Parameter
 
@@ -33,11 +33,11 @@ The output parameters FAILED, MAPPED, and REPORTED are structure types that cont
 
 -   MAPPED *\[*LATE*\]*
     Provides the consumer with ID mapping information.
-    The mapping information is available in the interaction phase by default. The [%CID](javascript:call_link\('abencomponents_derived_types.htm'\)) is then mapped to the real key or to the [%PID](javascript:call_link\('abencomponents_derived_types.htm'\)). The addition LATE specifies that the mapping information is available only when saving. This is important when [late numbering](javascript:call_link\('abenlate_numbering_glosry.htm'\) "Glossary Entry") is used (the method [adjust\_numbers](javascript:call_link\('abensaver_adjust_numbers.htm'\))), during which the %PID is mapped to the real key.
+    The mapping information is available in the interaction phase by default. The [%CID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm) is then mapped to the real key or to the [%PID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm). The addition LATE specifies that the mapping information is available only when saving. This is important when [late numbering](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenlate_numbering_glosry.htm "Glossary Entry") is used (the method [adjust\_numbers](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensaver_adjust_numbers.htm)), during which the %PID is mapped to the real key.
 
 -   FAILED *\[*LATE*\]*
     Contains information that identifies the data record when an error occurs.
-    FAILED is provided during the [interaction phase](javascript:call_link\('abenabap_behavior_pools.htm'\)) and contains the %CID or the [%KEY](javascript:call_link\('abencomponents_derived_types.htm'\)) to specify instances for which an operation (CREATE, UPDATE, DELETE, LOCK, or READ IMPORT) has failed. FAILED with the addition LATE is provided during the [save phase](javascript:call_link\('abenabap_behavior_pools.htm'\)) only and contains the %PID or the %KEY, but not the %CID.
+    FAILED is provided during the [interaction phase](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm) and contains the %CID or the [%KEY](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencomponents_derived_types.htm) to specify instances for which an operation (CREATE, UPDATE, DELETE, LOCK, or READ IMPORT) has failed. FAILED with the addition LATE is provided during the [save phase](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_behavior_pools.htm) only and contains the %PID or the %KEY, but not the %CID.
 
 -   REPORTED *\[*LATE*\]*
     This parameter is used to send error messages.
@@ -48,7 +48,7 @@ The output parameters FAILED, MAPPED, and REPORTED are structure types that cont
 
 The type name of the output parameter (type\_for\_export\_parameter, type\_for\_action\_export\_parameter, and ts\_reported) can be specified freely.
 
-CDS\_entity\_name refers to the name of the CDS entity or the [alias](javascript:call_link\('abenbdl_alias.htm'\)) as defined in the [behavior definition](javascript:call_link\('abencds_behavior_definitions.htm'\)) for the CDS entity.
+CDS\_entity\_name refers to the name of the CDS entity or the [alias](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenbdl_alias.htm) as defined in the [behavior definition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_behavior_definitions.htm) for the CDS entity.
 
 ...TYPE RESPONSE FOR... are structures that contain one component for each entity of the business object.
 

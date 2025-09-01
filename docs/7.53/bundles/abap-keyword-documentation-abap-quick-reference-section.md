@@ -3,31 +3,7 @@
 Included pages: 7
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-- [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-- [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-- [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-- [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-- [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-- [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
-**Bundle Contains**: 7 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.170Z
-
----
-
 ### abapwait_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,18 +11,18 @@ Included pages: 7
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  W
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
 
 WAIT - Quick reference
 
-[Reference](javascript:call_link\('abapwait_up_to.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm)
 
 Syntax
 
 WAIT *{*UP TO t SECONDS*}*
-   *|* *{*FOR *\[*ASYNCHRONOUS TASKS UNTIL [log\_exp](javascript:call_link\('abenlog_exp_shortref.htm'\)) *\[*UP TO t SECONDS*\]**\]*
-          *\[*MESSAGING CHANNELS UNTIL [log\_exp](javascript:call_link\('abenlog_exp_shortref.htm'\)) *\[*UP TO t SECONDS*\]**\]*
-          *\[*PUSH CHANNELS UNTIL [log\_exp](javascript:call_link\('abenlog_exp_shortref.htm'\)) *\[*UP TO t SECONDS*\]**\]**}*.
+   *|* *{*FOR *\[*ASYNCHRONOUS TASKS UNTIL [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) *\[*UP TO t SECONDS*\]**\]*
+          *\[*MESSAGING CHANNELS UNTIL [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) *\[*UP TO t SECONDS*\]**\]*
+          *\[*PUSH CHANNELS UNTIL [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm) *\[*UP TO t SECONDS*\]**\]**}*.
 
 Effect
 
@@ -54,27 +30,20 @@ Interrupts the execution of a program.
 
 Additions
 
--   [UP TO t SECONDS](javascript:call_link\('abapwait_up_to.htm'\))
+-   [UP TO t SECONDS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_up_to.htm)
     Interrupts the execution of a program for (a maximum of) t seconds.
     
--   [FOR ASYNCHRONOUS TASKS UNTIL log\_exp](javascript:call_link\('abapwait_until.htm'\))
-    Interrupts the execution of a program until the logical expression log\_exp after a callback routine of an [asynchronous RFC](javascript:call_link\('abenasynchronous_rfc_glosry.htm'\) "Glossary Entry") is true.
+-   [FOR ASYNCHRONOUS TASKS UNTIL log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_until.htm)
+    Interrupts the execution of a program until the logical expression log\_exp after a callback routine of an [asynchronous RFC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenasynchronous_rfc_glosry.htm "Glossary Entry") is true.
     
--   [FOR MESSAGING CHANNELS UNTIL log\_exp](javascript:call_link\('abapwait_amc.htm'\))
-    Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP messaging channels](javascript:call_link\('abenabap_messaging_channels_glosry.htm'\) "Glossary Entry") is true.
+-   [FOR MESSAGING CHANNELS UNTIL log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_amc.htm)
+    Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP messaging channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_messaging_channels_glosry.htm "Glossary Entry") is true.
     
--   [FOR PUSH CHANNELS UNTIL log\_exp](javascript:call_link\('abapwait_apc.htm'\))
-    Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](javascript:call_link\('abenabap_push_channels_glosry.htm'\) "Glossary Entry") is true.
+-   [FOR PUSH CHANNELS UNTIL log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_apc.htm)
+    Interrupts the execution of a program until the logical expression log\_exp after a receiving a message from [ABAP Push Channels](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_push_channels_glosry.htm "Glossary Entry") is true.
 
-
-
-**📖 Source**: [abapwait_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwait_shortref.htm)
 
 ### abapwhile_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -82,15 +51,15 @@ Additions
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  W
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
 
 WHILE - Quick reference
 
-[Reference](javascript:call_link\('abapwhile.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile.htm)
 
 Syntax
 
-WHILE [log\_exp](javascript:call_link\('abenlog_exp_shortref.htm'\))
+WHILE [log\_exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlog_exp_shortref.htm)
       *\[*VARY dobj FROM dobj1 NEXT dobj2 *\[*RANGE range*\]*
       *\[*VARY ...*\]**\]*.
   *\[*statement\_block*\]*
@@ -106,14 +75,7 @@ Addition
     Obsolete: In each loop pass of a variable, assigns a value from the sequence defined in the memory using dobj1 and dobj2 to a variable dobj. The data object range limits the addressable memory area.
 
 
-
-**📖 Source**: [abapwhile_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwhile_shortref.htm)
-
 ### abapwindow_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -121,11 +83,11 @@ Addition
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  W
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
 
 WINDOW - Quick reference
 
-[Reference](javascript:call_link\('abapwindow.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow.htm)
 
 Syntax
 
@@ -145,14 +107,7 @@ Additions
     Specifies the right lower corner.
 
 
-
-**📖 Source**: [abapwindow_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwindow_shortref.htm)
-
 ### abapwith_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -160,35 +115,28 @@ Additions
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  W
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
 
 WITH - Quick reference
 
-[Reference](javascript:call_link\('abapwith.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith.htm)
 
 Syntax
 
 WITH
-  +cte1*\[*( name1, name2, ... )*\]* AS [subquery](javascript:call_link\('abensubquery_shortref.htm'\))*\[*,
-  +cte2*\[*( name1, name2, ... )*\]* AS [subquery](javascript:call_link\('abensubquery_shortref.htm'\))
+  +cte1*\[*( name1, name2, ... )*\]* AS [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm)*\[*,
+  +cte2*\[*( name1, name2, ... )*\]* AS [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm)
   ... *\]*
-  [SELECT ...](javascript:call_link\('abapselect_shortref.htm'\)) .
+  [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm) .
   ...
 ENDWITH.
 
 Effect
 
-[ABAP SQL](javascript:call_link\('abenopen_sql_glosry.htm'\) "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry") +cte1, +cte2 for use in a closing [main query](javascript:call_link\('abenmainquery_glosry.htm'\) "Glossary Entry") [SELECT ...](javascript:call_link\('abapselect_shortref.htm'\)). The results set of a common table expression is determined by a subquery [subquery](javascript:call_link\('abensubquery_shortref.htm'\)).
+[ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenopen_sql_glosry.htm "Glossary Entry") statement. Introduces the definition of one or more [common table expressions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencommon_table_expression_glosry.htm "Glossary Entry") +cte1, +cte2 for use in a closing [main query](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenmainquery_glosry.htm "Glossary Entry") [SELECT ...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapselect_shortref.htm). The results set of a common table expression is determined by a subquery [subquery](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abensubquery_shortref.htm).
 
-
-
-**📖 Source**: [abapwith_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwith_shortref.htm)
 
 ### abapwrite_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -196,11 +144,11 @@ Effect
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  W
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
 
 WRITE - Quick reference
 
-[Reference](javascript:call_link\('abapwrite-.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm)
 
 Syntax
 
@@ -249,45 +197,38 @@ Formats the content of the data object dobj and writes it to the current list.
 
 Additions
 
--   [*\[*AT*\]* *\[*/*\]**\[*pos*\]**\[*(len*|*\**|*\*\*)*\]*](javascript:call_link\('abapwrite-.htm'\))
+-   [*\[*AT*\]* *\[*/*\]**\[*pos*\]**\[*(len*|*\**|*\*\*)*\]*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm)
     Specifies the line feed /, the horizontal position pos, and the length len*|*\**|*\*\* of the output.
     
--   [UNDER other\_dobj](javascript:call_link\('abapwrite-.htm'\))
+-   [UNDER other\_dobj](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm)
     Positions the output in the current line at the position where the data object other\_dobj was in the output of a previous WRITE statement.
     
--   [NO-GAP](javascript:call_link\('abapwrite-.htm'\))
-    Positions the [list cursor](javascript:call_link\('abenlist_cursor_glosry.htm'\) "Glossary Entry") directly after the output and not in the next but one position of the list buffer.
+-   [NO-GAP](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm)
+    Positions the [list cursor](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenlist_cursor_glosry.htm "Glossary Entry") directly after the output and not in the next but one position of the list buffer.
     
--   [LEFT-JUSTIFIED, ..., YYMMDD](javascript:call_link\('abapwrite_int_options.htm'\))
-    As in the statement [WRITE TO](javascript:call_link\('abapwrite_to_shortref.htm'\)) but with reference to the output area of the list.
+-   [LEFT-JUSTIFIED, ..., YYMMDD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_int_options.htm)
+    As in the statement [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm) but with reference to the output area of the list.
     
--   [COLOR, INTENSIFIED, INVERSE, HOTSPOT, INPUT, FRAMES, RESET](javascript:call_link\('abapwrite_ext_options.htm'\))
-    As in the statement [FORMAT](javascript:call_link\('abapformat_shortref.htm'\)) but with reference to the current output.
+-   [COLOR, INTENSIFIED, INVERSE, HOTSPOT, INPUT, FRAMES, RESET](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_ext_options.htm)
+    As in the statement [FORMAT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapformat_shortref.htm) but with reference to the current output.
     
--   [AS CHECKBOX](javascript:call_link\('abapwrite_list_elements.htm'\))
+-   [AS CHECKBOX](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_list_elements.htm)
     Produces a one-character checkbox which is ready for input.
     
--   [AS ICON](javascript:call_link\('abapwrite_list_elements.htm'\))
+-   [AS ICON](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_list_elements.htm)
     Produces an icon if dobj contains the corresponding internal representation.
     
--   [AS SYMBOL](javascript:call_link\('abapwrite_list_elements.htm'\))
+-   [AS SYMBOL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_list_elements.htm)
     Produces a symbol if dobj contains the corresponding internal representation.
     
--   [AS LINE](javascript:call_link\('abapwrite_list_elements.htm'\))
+-   [AS LINE](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_list_elements.htm)
     Produces a line element if dobj contains the corresponding internal representation.
     
--   [QUICKINFO info](javascript:call_link\('abapwrite-.htm'\))
-    Assigns a [tooltip](javascript:call_link\('abenquick_info_glosry.htm'\) "Glossary Entry") to the output.
+-   [QUICKINFO info](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite-.htm)
+    Assigns a [tooltip](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenquick_info_glosry.htm "Glossary Entry") to the output.
 
-
-
-**📖 Source**: [abapwrite_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_shortref.htm)
 
 ### abapwrite_to_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -295,11 +236,11 @@ Additions
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  W
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
 
 WRITE TO - Quick reference
 
-[Reference](javascript:call_link\('abapwrite_to.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to.htm)
 
 Syntax
 
@@ -325,61 +266,51 @@ Formats the content of a data object specified either statically as source or dy
 
 Additions
 
--   [LEFT-JUSTIFIED*|*CENTERED*|*RIGHT-JUSTIFIED](javascript:call_link\('abapwrite_to_options.htm'\))
+-   [LEFT-JUSTIFIED*|*CENTERED*|*RIGHT-JUSTIFIED](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
     Determines if the output is left-justified, centered or right-justified within the current output length.
     
--   [EXPONENT exp](javascript:call_link\('abapwrite_to_options.htm'\))
+-   [EXPONENT exp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
     Determines the exponent for the output of data objects of the data type f.
     
--   [NO-GROUPING](javascript:call_link\('abapwrite_to_options.htm'\))
+-   [NO-GROUPING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
     Suppresses the thousands separators in the output of data objects of the data types (b, s), i, int8, or p.
     
--   [NO-SIGN](javascript:call_link\('abapwrite_to_options.htm'\))
+-   [NO-SIGN](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
     Suppresses the sign in the output of data objects of the data types i, p, or f.
     
--   [NO-ZERO](javascript:call_link\('abapwrite_to_options.htm'\))
+-   [NO-ZERO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
     Replaces zeroes with blanks.
     
--   [CURRENCY cur](javascript:call_link\('abapwrite_to_options.htm'\))
-    Defines currency-related [decimal places](javascript:call_link\('abenfractional_portion_glosry.htm'\) "Glossary Entry") for the output of data objects of the data types i or p by using a currency key cur from the database table TCURX.
+-   [CURRENCY cur](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
+    Defines currency-related [decimal places](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfractional_portion_glosry.htm "Glossary Entry") for the output of data objects of the data types i or p by using a currency key cur from the database table TCURX.
     
--   [DECIMALS dec](javascript:call_link\('abapwrite_to_options.htm'\))
+-   [DECIMALS dec](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
     Sets the decimal places displayed in the output of data objects of the data types i, p, or f to dec.
     
--   [ROUND scale](javascript:call_link\('abapwrite_to_options.htm'\))
+-   [ROUND scale](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
     Multiplies the value of a data object of the data type p by 10\*\*(-scale) before the output.
     
--   [UNIT unit](javascript:call_link\('abapwrite_to_options.htm'\))
+-   [UNIT unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
     Cuts off decimal places which have the value 0 and are outside the precision of a measurement unit unit from the database table T006 when displaying data objects of the data type p.
     
--   [ENVIRONMENT TIME FORMAT](javascript:call_link\('abapwrite_to_options.htm'\))
+-   [ENVIRONMENT TIME FORMAT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
     Formats a time output in 12 hour or 24 hour format.
     
--   [TIME ZONE tz](javascript:call_link\('abapwrite_to_options.htm'\))
-    Formats a [time stamp](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") with reference to a time zone tz.
+-   [TIME ZONE tz](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
+    Formats a [time stamp](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentime_stamp_glosry.htm "Glossary Entry") with reference to a time zone tz.
     
--   [STYLE stl](javascript:call_link\('abapwrite_to_options.htm'\))
-    Formats a [decimal floating point number](javascript:call_link\('abendecfloat_glosry.htm'\) "Glossary Entry") into an output format stl.
+-   [STYLE stl](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
+    Formats a [decimal floating point number](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendecfloat_glosry.htm "Glossary Entry") into an output format stl.
     
--   [USING *{**{*NO EDIT MASK*}**|**{*EDIT MASK mask*}**}*](javascript:call_link\('abapwrite_to_options.htm'\))
-    NO EDIT MASK - Disables the execution of an assigned [conversion routine](javascript:call_link\('abenconversion_routine_glosry.htm'\) "Glossary Entry").
+-   [USING *{**{*NO EDIT MASK*}**|**{*EDIT MASK mask*}**}*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
+    NO EDIT MASK - Disables the execution of an assigned [conversion routine](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenconversion_routine_glosry.htm "Glossary Entry").
     EDIT MASK - Either calls another conversion routine mask or defines an edit mask mask.
     
--   [DD/MM/YY*|*MM/DD/YY*|*DD/MM/YYYY*|*MM/DD/YYYY*|*DDMMYY*|*MMDDYY*|*YYMMDD](javascript:call_link\('abapwrite_to_options.htm'\))
+-   [DD/MM/YY*|*MM/DD/YY*|*DD/MM/YYYY*|*MM/DD/YYYY*|*DDMMYY*|*MMDDYY*|*YYMMDD](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
     Functions as an edit mask for the output of data objects of the data type d.
 
 
-
-**📖 Source**: [abapwrite_to_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm)
-
 ### abapwrite_to_itab_shortref.htm
-
-> **📖 Official SAP Documentation**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapwrite_to_itab_shortref.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab_shortref.htm)
-
 
   
 
@@ -387,11 +318,11 @@ Additions
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  W
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_shortref.htm) →  W
 
 WRITE TO itab - Quick reference
 
-[Reference](javascript:call_link\('abapwrite_to_itab.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_itab.htm)
 
 Syntax
 
@@ -407,5 +338,5 @@ Additions
 -   *\[*+off*\]**\[*(len)*\]*
     Writes to the section from position pos and the length len of the table row.
     
--   [format\_options](javascript:call_link\('abapwrite_to_options.htm'\))
-    Additions as in the statement [WRITE TO](javascript:call_link\('abapwrite_to_shortref.htm'\)) for variables.
+-   [format\_options](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_options.htm)
+    Additions as in the statement [WRITE TO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapwrite_to_shortref.htm) for variables.

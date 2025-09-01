@@ -4,26 +4,26 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendata_internal_obsolete.htm) → 
 
 Obsolete Assignments
 
--   [MOVE](javascript:call_link\('abapmove_obs.htm'\))
+-   [MOVE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_obs.htm)
 
--   [MOVE - PERCENTAGE](javascript:call_link\('abapmove_percentage.htm'\))
+-   [MOVE - PERCENTAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_percentage.htm)
 
--   [PACK](javascript:call_link\('abappack.htm'\))
+-   [PACK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abappack.htm)
 
--   [ASSIGN - obsolete\_casting](javascript:call_link\('abapassign_casting_obsolete.htm'\))
+-   [ASSIGN - obsolete\_casting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_casting_obsolete.htm)
 
--   [ASSIGN - TABLE FIELD](javascript:call_link\('abapassign_table_field.htm'\))
+-   [ASSIGN - TABLE FIELD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_table_field.htm)
 
--   [CLEAR - WITH NULL](javascript:call_link\('abapclear_with_null.htm'\))
+-   [CLEAR - WITH NULL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclear_with_null.htm)
 
 Continue
-[MOVE](javascript:call_link\('abapmove_obs.htm'\))
-[MOVE - PERCENTAGE](javascript:call_link\('abapmove_percentage.htm'\))
-[PACK](javascript:call_link\('abappack.htm'\))
-[ASSIGN - obsolete\_casting](javascript:call_link\('abapassign_casting_obsolete.htm'\))
-[ASSIGN - TABLE FIELD](javascript:call_link\('abapassign_table_field.htm'\))
-[CLEAR - WITH NULL](javascript:call_link\('abapclear_with_null.htm'\))
+[MOVE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_obs.htm)
+[MOVE - PERCENTAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmove_percentage.htm)
+[PACK](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abappack.htm)
+[ASSIGN - obsolete\_casting](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_casting_obsolete.htm)
+[ASSIGN - TABLE FIELD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapassign_table_field.htm)
+[CLEAR - WITH NULL](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapclear_with_null.htm)

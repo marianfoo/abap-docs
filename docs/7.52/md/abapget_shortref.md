@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Quick Reference](javascript:call_link\('abenabap_shortref.htm'\)) →  G
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_shortref.htm) →  G
 
 GET node - Quick reference
 
-[Reference](javascript:call_link\('abapget-.htm'\))
+[Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget-.htm)
 
 Syntax
 
@@ -16,7 +16,7 @@ GET node *\[*LATE*\]* *\[*FIELDS f1 f2 ...*\]*.
 
 Effect
 
-Obsolete: Introduces an event block whose event is triggered by a [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") when data records of the node node are read.
+Obsolete: Introduces an event block whose event is triggered by a [logical database](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") when data records of the node node are read.
 
 Additions
 

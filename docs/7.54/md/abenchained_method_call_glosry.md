@@ -4,10 +4,10 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_glossary.htm) → 
 
 chained method call
 
-A [chaining](javascript:call_link\('abenchaining_glosry.htm'\) "Glossary Entry") in which multiple [functional methods](javascript:call_link\('abenfunctional_method_glosry.htm'\) "Glossary Entry") or [constructor expressions](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry") are joined using [component selectors](javascript:call_link\('abencomponent_selector_glosry.htm'\) "Glossary Entry"). Here, the [return values](javascript:call_link\('abenreturn_value_glosry.htm'\) "Glossary Entry") or results of the individual methods become the references to the subsequent methods. A chained method call can either be specified as a [functional method call](javascript:call_link\('abapcall_method_functional.htm'\)) or as a [standalone statement](javascript:call_link\('abapcall_method_static_short.htm'\)).
+A [chaining](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenchaining_glosry.htm "Glossary Entry") in which multiple [functional methods](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenfunctional_method_glosry.htm "Glossary Entry") or [constructor expressions](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenconstructor_expression_glosry.htm "Glossary Entry") are joined using [component selectors](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencomponent_selector_glosry.htm "Glossary Entry"). Here, the [return values](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenreturn_value_glosry.htm "Glossary Entry") or results of the individual methods become the references to the subsequent methods. A chained method call can either be specified as a [functional method call](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_functional.htm) or as a [standalone statement](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static_short.htm).
 
-[→ More](javascript:call_link\('abapcall_method_static_chain.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abapcall_method_static_chain.htm)

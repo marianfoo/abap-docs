@@ -4,7 +4,7 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [Native SQL](javascript:call_link\('abennative_sql.htm'\)) →  [ADBC - ABAP Database Connectivity](javascript:call_link\('abenadbc.htm'\)) →  [ADBC - CL\_SQL\_STATEMENT](javascript:call_link\('abencl_sql_statement.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_sql.htm) →  [Native SQL](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql.htm) →  [ADBC - ABAP Database Connectivity](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc.htm) →  [ADBC - CL\_SQL\_STATEMENT](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abencl_sql_statement.htm) → 
 
 ADBC - Queries
 
@@ -12,7 +12,7 @@ Queries can be executed using the following instance method from class CL\_SQL\_
 
 -   EXECUTE\_QUERY
 
-The method has a mandatory input parameter STATEMENT of type string that must be passed to a SELECT statement with correct syntax. As with [DML statements](javascript:call_link\('abenadbc_ddl_dml.htm'\)), the method SET\_PARAM can be used to bind ABAP data objects to place holders ?.
+The method has a mandatory input parameter STATEMENT of type string that must be passed to a SELECT statement with correct syntax. As with [DML statements](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_ddl_dml.htm), the method SET\_PARAM can be used to bind ABAP data objects to place holders ?.
 
 As the result of a query, a reference to an object of the class CL\_SQL\_RESULT\_SET is returned in the return value RESULT\_SET. The methods of this object allow access to the results set of the query. To preserve the results set beyond the end of a database LUW, the input parameter HOLD\_CURSOR of the EXECUTE\_QUERY method can be filled with "X".
 
@@ -31,11 +31,11 @@ Notes
 
 -   A data reference to an indicator variable with the built-in type INT2 from ABAP Dictionary can be passed to the optional input parameter IND\_REF of the method SET\_PARAM. Here, the value -1 can be used to display whether a zero value existed on the database.
 
--   For security reasons, it is better to define the parameters of a query using the placeholder ? rather than chaining dynamic content. This is also a way of preventing [SQL injections](javascript:call_link\('abensql_injection_glosry.htm'\) "Glossary Entry"). If the statement only contains static content from the program and dynamic content from outside the program is possible only in operand positions (using placeholders), the statement cannot be modified from outside.
+-   For security reasons, it is better to define the parameters of a query using the placeholder ? rather than chaining dynamic content. This is also a way of preventing [SQL injections](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abensql_injection_glosry.htm "Glossary Entry"). If the statement only contains static content from the program and dynamic content from outside the program is possible only in operand positions (using placeholders), the statement cannot be modified from outside.
 
--   In assignments between fields in database tables and ABAP data objects, a [mapping](javascript:call_link\('abennative_sql_type_mapping.htm'\)) takes place between the ABAP types and the database types. The ABAP types must match the database types. If they do not match, conversions must be made in the Native SQL interface. These conversions are platform-dependent and can raise exceptions.
+-   In assignments between fields in database tables and ABAP data objects, a [mapping](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abennative_sql_type_mapping.htm) takes place between the ABAP types and the database types. The ABAP types must match the database types. If they do not match, conversions must be made in the Native SQL interface. These conversions are platform-dependent and can raise exceptions.
 
--   The method EXECUTE\_QUERY can also be used to call [stored procedures](javascript:call_link\('abenstored_procedure_glosry.htm'\) "Glossary Entry"). In databases that meet the requirements, internal tables, for example, can then be bound to the results set. This is not possible with the method [EXECUTE PROCEDURE](javascript:call_link\('abenadbc_procedure.htm'\)) (see the example under this method).
+-   The method EXECUTE\_QUERY can also be used to call [stored procedures](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenstored_procedure_glosry.htm "Glossary Entry"). In databases that meet the requirements, internal tables, for example, can then be bound to the results set. This is not possible with the method [EXECUTE PROCEDURE](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_procedure.htm) (see the example under this method).
 
 Example
 
@@ -87,9 +87,9 @@ cl\_demo\_output=>display( result ).
 
 Executable Examples
 
--   [ADBC, Query](javascript:call_link\('abenadbc_query_abexa.htm'\))
+-   [ADBC, Query](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_query_abexa.htm)
 
--   [ADBC, DDL, and DML](javascript:call_link\('abenadbc_dml_ddl_abexa.htm'\)), [ADBC, Parameter Binding](javascript:call_link\('abenadbc_dml_ddl_binding_abexa.htm'\)), [ADBC, Bulk Access](javascript:call_link\('abenadbc_dml_ddl_bulk_abexa.htm'\))
+-   [ADBC, DDL, and DML](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_abexa.htm), [ADBC, Parameter Binding](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_binding_abexa.htm), [ADBC, Bulk Access](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenadbc_dml_ddl_bulk_abexa.htm)
 
 Further Example
 

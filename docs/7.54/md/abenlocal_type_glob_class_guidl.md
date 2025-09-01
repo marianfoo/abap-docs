@@ -4,13 +4,13 @@
 
 AS ABAP Release 754, ©Copyright 2019 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Programming Guidelines](javascript:call_link\('abenabap_pgl.htm'\)) →  [Architecture](javascript:call_link\('abenarchitecture_guidl.htm'\)) →  [Object-Oriented Programming](javascript:call_link\('abenobj_oriented_guidl.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap.htm) →  [ABAP Programming Guidelines](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenabap_pgl.htm) →  [Architecture](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenarchitecture_guidl.htm) →  [Object-Oriented Programming](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenobj_oriented_guidl.htm) → 
 
 Local Types for Global Classes
 
 Background
 
-Within class pools, as in virtually any other ABAP program, data types, local interfaces, and local classes can be defined to ensure a better structure of the implementation of the global class. From a technical point of view, these optional declaration parts, together with the declaration part of the global class, form the global declaration part of the [class pool](javascript:call_link\('abenglobal_declar_guidl.htm'\) "Guideline").
+Within class pools, as in virtually any other ABAP program, data types, local interfaces, and local classes can be defined to ensure a better structure of the implementation of the global class. From a technical point of view, these optional declaration parts, together with the declaration part of the global class, form the global declaration part of the [class pool](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenglobal_declar_guidl.htm "Guideline").
 
 These local declarations in a class pool are invisible outside the class pool, which means they can only be used as followed:
 
@@ -50,8 +50,8 @@ Declarations and implementations of a local class are only supposed to be distri
 
 Note
 
-The rule specified here specializes the general rule [implement global declarations centrally](javascript:call_link\('abenglobal_declar_guidl.htm'\) "Guideline") with respect to class pools. They are especially oriented toward the external call of methods of their respective global class and are therefore particularly integrated within a dependency network. For this reason, the rule just mentioned cannot apply to its full extent.
+The rule specified here specializes the general rule [implement global declarations centrally](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abenglobal_declar_guidl.htm "Guideline") with respect to class pools. They are especially oriented toward the external call of methods of their respective global class and are therefore particularly integrated within a dependency network. For this reason, the rule just mentioned cannot apply to its full extent.
 
 Note
 
-[Test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") should only be created in [test includes](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry").
+[Test classes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentest_class_glosry.htm "Glossary Entry") should only be created in [test includes](https://help.sap.com/doc/abapdocu_754_index_htm/7.54/en-US/abentest_include_glosry.htm "Glossary Entry").

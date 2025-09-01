@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Processing of Internal Data](javascript:call_link\('abendata_internal_obsolete.htm'\)) →  [Obsolete Extracts](javascript:call_link\('abenabap_extracts_extended.htm'\)) →  [SORT, Extract](javascript:call_link\('abapsort_extract.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_obsolete.htm) →  [Obsolete Processing of Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abendata_internal_obsolete.htm) →  [Obsolete Extracts](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_extracts_extended.htm) →  [SORT, Extract](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsort_extract.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: SORT, sort_key, ABAPSORT_KEY, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion
  for improvement:)
 
 SORT, sort\_key
 
-[Short Reference](javascript:call_link\('abapsort_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsort_shortref.htm)
 
 Obsolete Syntax
 
@@ -32,7 +32,7 @@ For field1 field2 ..., field symbols can also be specified. If a component of th
 
 Hint
 
-No [customizing includes](javascript:call_link\('abencustomizing_include_glosry.htm'\) "Glossary Entry") may be specified for field1 field2 ... if they are empty.
+No [customizing includes](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencustomizing_include_glosry.htm "Glossary Entry") may be specified for field1 field2 ... if they are empty.
 
 Addition 1   
 

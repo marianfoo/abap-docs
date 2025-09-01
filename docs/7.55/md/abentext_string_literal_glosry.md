@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 text string literal
 
-[Character literal](javascript:call_link\('abencharacter_literal_glosry.htm'\) "Glossary Entry") of the type [text string](javascript:call_link\('abentext_string_glosry.htm'\) "Glossary Entry").
+[Character literal](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharacter_literal_glosry.htm "Glossary Entry") of the type [text string](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentext_string_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenuntyped_character_literals.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenuntyped_character_literals.htm)

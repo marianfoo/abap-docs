@@ -4,28 +4,28 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Access Control](javascript:call_link\('abencds_access_control.htm'\)) →  [ABAP CDS - DCL Statements](javascript:call_link\('abencds_f1_dcl_syntax.htm'\)) →  [CDS DCL - DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) →  [CDS DCL - DEFINE ROLE, access\_rules](javascript:call_link\('abencds_dcl_role_rules.htm'\)) →  [CDS DCL - DEFINE ROLE, conditional\_rule](javascript:call_link\('abencds_dcl_role_cond_rule.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - Access Control](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_access_control.htm) →  [ABAP CDS - DCL Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_dcl_syntax.htm) →  [CDS DCL - DEFINE ROLE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_role.htm) →  [CDS DCL - DEFINE ROLE, access\_rules](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_rules.htm) →  [CDS DCL - DEFINE ROLE, conditional\_rule](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_cond_rule.htm) → 
 
 CDS DCL - DEFINE ROLE, cds\_cond
 
 Syntax
 
-... [condition](javascript:call_link\('abencds_dcl_role_conditions.htm'\))
+... [condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_conditions.htm)
   | *\[*NOT*\]* cds\_cond *\[*AND*|*OR cds\_cond*\]* ...
 
 Effect
 
-Formulates an [access condition](javascript:call_link\('abenaccess_condition_glosry.htm'\) "Glossary Entry") in the statement [DEFINE ROLE](javascript:call_link\('abencds_f1_define_role.htm'\)) in [CDS DCL](javascript:call_link\('abencds_dcl_glosry.htm'\) "Glossary Entry"). The result of an access condition is true or false.
+Formulates an [access condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenaccess_condition_glosry.htm "Glossary Entry") in the statement [DEFINE ROLE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_define_role.htm) in [CDS DCL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_glosry.htm "Glossary Entry"). The result of an access condition is true or false.
 
-An access condition is either a single condition, [condition](javascript:call_link\('abencds_dcl_role_conditions.htm'\)), or an expression constructed from the Boolean operators NOT, AND, and OR in which parenthesized full conditions cds\_cond using parentheses ( ... ) are possible. The Boolean operators work as follows:
+An access condition is either a single condition, [condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_dcl_role_conditions.htm), or an expression constructed from the Boolean operators NOT, AND, and OR in which parenthesized full conditions cds\_cond using parentheses ( ... ) are possible. The Boolean operators work as follows:
 
 -   NOT negates the result of the following condition. It cannot be used if cds\_cond is one of the following conditions:
 
--   A PFCG condition [pfcg\_condition](javascript:call_link\('abencds_f1_cond_pfcg.htm'\)) whose left side specifies CDS elements that themselves are assigned authorization fields on the right side after ASPECT pfcg\_auth using mapped\_field1, mapped\_field2, ...
+-   A PFCG condition [pfcg\_condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_cond_pfcg.htm) whose left side specifies CDS elements that themselves are assigned authorization fields on the right side after ASPECT pfcg\_auth using mapped\_field1, mapped\_field2, ...
 
--   A self-defined aspect [aspect](javascript:call_link\('abencds_f1_cond_aspect.htm'\)).
+-   A self-defined aspect [aspect](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_cond_aspect.htm).
 
--   An inheritance condition [inherit\_condition](javascript:call_link\('abencds_f1_cond_inherit.htm'\)).
+-   An inheritance condition [inherit\_condition](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_f1_cond_inherit.htm).
 
 -   An AND join is true if both joined conditions are true.
 

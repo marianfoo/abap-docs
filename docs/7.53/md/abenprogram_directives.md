@@ -4,19 +4,19 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP Syntax](javascript:call_link\('abenabap_syntax.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [ABAP Syntax](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_syntax.htm) → 
 
 Program Directives
 
-The ABAP [program directives](javascript:call_link\('abenprogram_directive_glosry.htm'\) "Glossary Entry") enable source-code-based development objects to be documented or modify the check results of various check tools.
+The ABAP [program directives](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_directive_glosry.htm "Glossary Entry") enable source-code-based development objects to be documented or modify the check results of various check tools.
 
--   [ABAP Doc](javascript:call_link\('abendoccomment.htm'\))
+-   [ABAP Doc](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendoccomment.htm)
 
--   [Pragmas](javascript:call_link\('abenpragma.htm'\))
+-   [Pragmas](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpragma.htm)
 
--   [Pseudo Comments](javascript:call_link\('abenpseudo_comment.htm'\))
+-   [Pseudo Comments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpseudo_comment.htm)
 
 Continue
-[ABAP Doc](javascript:call_link\('abendoccomment.htm'\))
-[Pragmas](javascript:call_link\('abenpragma.htm'\))
-[Pseudo Comments](javascript:call_link\('abenpseudo_comment.htm'\))
+[ABAP Doc](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendoccomment.htm)
+[Pragmas](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpragma.htm)
+[Pseudo Comments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpseudo_comment.htm)

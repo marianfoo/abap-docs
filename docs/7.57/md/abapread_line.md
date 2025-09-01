@@ -4,21 +4,21 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [SAP GUI User Dialogs](javascript:call_link\('abenabap_screens.htm'\)) →  [Classic Lists](javascript:call_link\('abenabap_dynpro_list.htm'\)) →  [Lists - Editing List Buffers](javascript:call_link\('abenabap_lists_complex.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [SAP GUI User Dialogs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_screens.htm) →  [Classic Lists](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_dynpro_list.htm) →  [Lists - Editing List Buffers](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_lists_complex.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: READ LINE, ABAPREAD_LINE, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for
  improvement:)
 
 READ LINE
 
-[Short Reference](javascript:call_link\('abapread_line_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_line_shortref.htm)
 
 Syntax
 
 READ *{* *{*LINE line *\[**{*OF PAGE page*}**|**{*OF CURRENT PAGE*}**\]*
                    *\[*INDEX idx*\]**}*
      *|* *{*CURRENT LINE*}* *}*
-     *\[*[result](javascript:call_link\('abapread_line_result.htm'\))*\]*.
+     *\[*[result](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_line_result.htm)*\]*.
 
 Additions:
 
@@ -27,7 +27,7 @@ Additions:
 
 Effect
 
-This statement assigns the content of a line stored in the list buffer to the system field sy-lisel, and allows other target fields to be specified in [result](javascript:call_link\('abapread_line_result.htm'\)). In addition, all values for this line stored using [HIDE](javascript:call_link\('abaphide.htm'\)) are assigned to the respective variables.
+This statement assigns the content of a line stored in the list buffer to the system field sy-lisel, and allows other target fields to be specified in [result](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_line_result.htm). In addition, all values for this line stored using [HIDE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaphide.htm) are assigned to the respective variables.
 
 The line to be read is specified using the addition LINE or using CURRENT LINE.
 
@@ -90,4 +90,4 @@ AT LINE-SELECTION.
   ENDDO.
 
 Continue
-[READ LINE, result](javascript:call_link\('abapread_line_result.htm'\))
+[READ LINE, result](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_line_result.htm)

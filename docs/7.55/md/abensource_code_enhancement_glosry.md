@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 source code enhancement
 
-A modification-free [enhancement](javascript:call_link\('abenenhancement_glosry.htm'\) "Glossary Entry") to [ABAP source code](javascript:call_link\('abenabap_source_code_glosry.htm'\) "Glossary Entry"), where [source code plug-ins](javascript:call_link\('abensource_code_plugin_glosry.htm'\) "Glossary Entry") are inserted into the code at [enhancement options](javascript:call_link\('abenenhancement_point_glosry.htm'\) "Glossary Entry") that are defined implicitly or explicitly using the statement [ENHANCEMENT-POINT](javascript:call_link\('abapenhancement-point.htm'\)), or that replace an enhancement option that was explicitly defined using [ENHANCEMENT-SECTION](javascript:call_link\('abapenhancement-section.htm'\)) and [END-ENHANCEMENT-SECTION](javascript:call_link\('abapend-enhancement-section.htm'\)).
+A modification-free [enhancement](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenhancement_glosry.htm "Glossary Entry") to [ABAP source code](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_source_code_glosry.htm "Glossary Entry"), where [source code plug-ins](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensource_code_plugin_glosry.htm "Glossary Entry") are inserted into the code at [enhancement options](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenenhancement_point_glosry.htm "Glossary Entry") that are defined implicitly or explicitly using the statement [ENHANCEMENT-POINT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-point.htm), or that replace an enhancement option that was explicitly defined using [ENHANCEMENT-SECTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapenhancement-section.htm) and [END-ENHANCEMENT-SECTION](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapend-enhancement-section.htm).
 
-[→ More about](javascript:call_link\('abensource_code_enhancement.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensource_code_enhancement.htm)

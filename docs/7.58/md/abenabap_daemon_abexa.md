@@ -4,14 +4,14 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP Daemon Framework (ADF)](javascript:call_link\('abenabap_daemon.htm'\)) →  [ADF - Examples for ABAP Daemons](javascript:call_link\('abenabap_daemon_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_communication.htm) →  [ABAP Daemon Framework (ADF)](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon.htm) →  [ADF - Examples for ABAP Daemons](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ADF%20-%20Creating%20and%20Using%20an%20ABAP%20Daemon%2C%20ABENABAP_DAEMON_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improve
 ment:)
 
 ADF - Creating and Using an ABAP Daemon
 
-This example demonstrates an [ABAP Daemon](javascript:call_link\('abenabap_daemon_glosry.htm'\) "Glossary Entry").
+This example demonstrates an [ABAP Daemon](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_glosry.htm "Glossary Entry").
 
 Source Code   
 
@@ -214,7 +214,7 @@ This class makes it possible to start an ABAP daemon interactively and then perf
 
 -   START\_DAEMON
     
-    Attempt to start an ABAP daemon. Only one ABAP daemon of the used ABAP daemon class may exist. When the class is executed, a version number is passed in [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") format. If an ABAP daemon already exists, this daemon is used.
+    Attempt to start an ABAP daemon. Only one ABAP daemon of the used ABAP daemon class may exist. When the class is executed, a version number is passed in [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") format. If an ABAP daemon already exists, this daemon is used.
     
 -   GET\_INFORMATION
     
@@ -222,38 +222,38 @@ This class makes it possible to start an ABAP daemon interactively and then perf
     
 -   SEND\_MESSAGE
     
-    Sends a text message to the ABAP daemon in [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") format.
+    Sends a text message to the ABAP daemon in [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") format.
     
 -   TRIGGER\_AMC
     
-    Sends a [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") message to the ABAP daemon instructing the daemon to send an [AMC](javascript:call_link\('abenamc_glosry.htm'\) "Glossary Entry") message. The execution waits until the message arrives at a dedicated AMC receiver.
+    Sends a [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") message to the ABAP daemon instructing the daemon to send an [AMC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_glosry.htm "Glossary Entry") message. The execution waits until the message arrives at a dedicated AMC receiver.
     
 -   TRIGGER\_EXCEPTION
     
-    Sends a [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") message to the ABAP daemon, which raises an exception there. The exception produces a [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") that can be viewed in transaction ST22 and the ABAP daemon is restarted automatically. This raises the version number by 1.
+    Sends a [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") message to the ABAP daemon, which raises an exception there. The exception produces a [short dump](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshort_dump_glosry.htm "Glossary Entry") that can be viewed in transaction ST22 and the ABAP daemon is restarted automatically. This raises the version number by 1.
     
 -   TRIGGER\_BLOCKING
     
-    Sends a [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") message to the ABAP daemon instructing it to create a statement forbidden in [non-blocking mode](javascript:call_link\('abenadf_non_blocking_model.htm'\)). This raises an exception and [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry"), which can be viewed in transaction ST22. The ABAP daemon is then restarted automatically. This raises the version number by 1.
+    Sends a [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") message to the ABAP daemon instructing it to create a statement forbidden in [non-blocking mode](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenadf_non_blocking_model.htm). This raises an exception and [short dump](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenshort_dump_glosry.htm "Glossary Entry"), which can be viewed in transaction ST22. The ABAP daemon is then restarted automatically. This raises the version number by 1.
     
 -   TRIGGER\_RESTART
     
-    Sends a [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") message to the ABAP daemon that restarts the daemon. This raises the version number by 1.
+    Sends a [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") message to the ABAP daemon that restarts the daemon. This raises the version number by 1.
     
 -   TRIGGER\_RELOCATION
     
-    Sends a [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") message to the ABAP daemon instructing the daemon to create a new instance of its class on a different AS instance and delete the previous instance.
+    Sends a [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") message to the ABAP daemon instructing the daemon to create a new instance of its class on a different AS instance and delete the previous instance.
     
 -   TRIGGER\_STOP
     
-    Sends a [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") message to the ABAP daemon instructing it to stop.
+    Sends a [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") message to the ABAP daemon instructing it to stop.
     
 -   STOP\_DAEMON
     
     Stops the daemon.
     
 
-The class creates an output that displays the individual actions in both the class and in the ABAP daemon. To do this, the daemon writes entries to the [export/import table](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry") DEMO\_INDX\_BLOB, which are then read by the class after a short wait time. If the current system is slow, this wait time may not be long enough to collect all actions of the daemon. The ABAP daemon on the current AS instance can be monitored in parallel to the execution of the class using the transaction SMDAEMON.
+The class creates an output that displays the individual actions in both the class and in the ABAP daemon. To do this, the daemon writes entries to the [export/import table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexport_import_table_glosry.htm "Glossary Entry") DEMO\_INDX\_BLOB, which are then read by the class after a short wait time. If the current system is slow, this wait time may not be long enough to collect all actions of the daemon. The ABAP daemon on the current AS instance can be monitored in parallel to the execution of the class using the transaction SMDAEMON.
 
 Class CL\_DEMO\_ABAP\_DAEMON\_BROKER
 
@@ -320,7 +320,7 @@ The class CL\_DEMO\_ABAP\_DAEMON\_DEMO does not work directly with the class CL\
         i\_instance\_id = instance\_id ).
     ENDMETHOD.
     
-    This method wraps the method ATTACH of the class CL\_ABAP\_DAEMON\_CLIENT\_MANAGER. The returned reference to the [ABAP daemon handle](javascript:call_link\('abenabap_daemon_handle_glosry.htm'\) "Glossary Entry") is stored in the private attribute DAEMON\_HANDLE.
+    This method wraps the method ATTACH of the class CL\_ABAP\_DAEMON\_CLIENT\_MANAGER. The returned reference to the [ABAP daemon handle](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_handle_glosry.htm "Glossary Entry") is stored in the private attribute DAEMON\_HANDLE.
     
 -   SEND\_MESSAGE
     
@@ -333,7 +333,7 @@ The class CL\_DEMO\_ABAP\_DAEMON\_DEMO does not work directly with the class CL\
       daemon\_handle->send( pcp ).
     ENDMETHOD.
     
-    This method is used to send [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") messages to the ABAP daemon. To do this, the method SEND of the [ABAP daemon handle](javascript:call_link\('abenabap_daemon_handle_glosry.htm'\) "Glossary Entry") is used, which is referenced in the private attribute DAEMON\_HANDLE.
+    This method is used to send [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") messages to the ABAP daemon. To do this, the method SEND of the [ABAP daemon handle](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_handle_glosry.htm "Glossary Entry") is used, which is referenced in the private attribute DAEMON\_HANDLE.
     
 -   STOP\_DAEMON
     
@@ -349,7 +349,7 @@ The name of the ABAP daemon and the ABAP daemon class are defined as constants o
 
 Class CL\_DEMO\_ABAP\_DAEMON
 
-The class CL\_DEMO\_ABAP\_DAEMON is a subclass of CL\_ABAP\_DAEMON\_EXT\_BASE and the ABAP daemon class for this example. It implements the most important methods of the interface IF\_ABAP\_DAEMON\_EXTENSION and further standalone helper methods. It also implements the interface IF\_ABAP\_TIMER\_HANDLER so that it can be an [ABAP Timer handler](javascript:call_link\('abenabap_timer_handler_glosry.htm'\) "Glossary Entry") for an [ABAP Timer](javascript:call_link\('abenabap_timer_glosry.htm'\) "Glossary Entry"). Although daemons should never be stopped, daemons created by this example should be deleted automatically after an hour, if it is not stopped explicitly first.
+The class CL\_DEMO\_ABAP\_DAEMON is a subclass of CL\_ABAP\_DAEMON\_EXT\_BASE and the ABAP daemon class for this example. It implements the most important methods of the interface IF\_ABAP\_DAEMON\_EXTENSION and further standalone helper methods. It also implements the interface IF\_ABAP\_TIMER\_HANDLER so that it can be an [ABAP Timer handler](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_timer_handler_glosry.htm "Glossary Entry") for an [ABAP Timer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_timer_glosry.htm "Glossary Entry"). Although daemons should never be stopped, daemons created by this example should be deleted automatically after an hour, if it is not stopped explicitly first.
 
 -   IF\_ABAP\_DAEMON\_EXTENSION~ON\_ACCEPT
     
@@ -424,7 +424,7 @@ The class CL\_DEMO\_ABAP\_DAEMON is a subclass of CL\_ABAP\_DAEMON\_EXT\_BASE an
       ENDTRY.
     ENDMETHOD.
     
-    This method evaluates the inbound [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") messages and performs the corresponding actions directly or calls helper methods from the ABAP daemon class.
+    This method evaluates the inbound [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") messages and performs the corresponding actions directly or calls helper methods from the ABAP daemon class.
     
 -   IF\_ABAP\_DAEMON\_EXTENSION~ON\_ERROR
     
@@ -477,7 +477,7 @@ The class CL\_DEMO\_ABAP\_DAEMON is a subclass of CL\_ABAP\_DAEMON\_EXT\_BASE an
       ENDTRY.
     ENDMETHOD.
     
-    In the case of a timeout event of the [ABAP Timer](javascript:call_link\('abenabap_timer_glosry.htm'\) "Glossary Entry") started in SET\_CONTEXT, this method stops the daemon.
+    In the case of a timeout event of the [ABAP Timer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_timer_glosry.htm "Glossary Entry") started in SET\_CONTEXT, this method stops the daemon.
     
 -   SET\_CONTEXT
     
@@ -505,7 +505,7 @@ The class CL\_DEMO\_ABAP\_DAEMON is a subclass of CL\_ABAP\_DAEMON\_EXT\_BASE an
       ENDTRY.
     ENDMETHOD.
     
-    This method sets an attribute of the class to the context object and uses its method SET\_APPLICATION\_PARAMETER to store the current version number in the [ABAP daemon memory](javascript:call_link\('abenabap_daemon_memory_glosry.htm'\) "Glossary Entry") in [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") format. If SET\_CONTEXT is called after a restart, the previous version number is fetched from the ABAP daemon memory and raised by 1. Furthermore, SET\_CONTEXT initializes an [ABAP Timer](javascript:call_link\('abenabap_timer_glosry.htm'\) "Glossary Entry") to which the method IF\_ABAP\_TIMER\_HANDLER~ON\_TIMEOUT of the current daemon reacts.
+    This method sets an attribute of the class to the context object and uses its method SET\_APPLICATION\_PARAMETER to store the current version number in the [ABAP daemon memory](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_memory_glosry.htm "Glossary Entry") in [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") format. If SET\_CONTEXT is called after a restart, the previous version number is fetched from the ABAP daemon memory and raised by 1. Furthermore, SET\_CONTEXT initializes an [ABAP Timer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_timer_glosry.htm "Glossary Entry") to which the method IF\_ABAP\_TIMER\_HANDLER~ON\_TIMEOUT of the current daemon reacts.
     
 -   SEND\_AMC
     
@@ -522,7 +522,7 @@ The class CL\_DEMO\_ABAP\_DAEMON is a subclass of CL\_ABAP\_DAEMON\_EXT\_BASE an
       ENDTRY.
     ENDMETHOD.
     
-    This method sends an [AMC](javascript:call_link\('abenamc_glosry.htm'\) "Glossary Entry") message.
+    This method sends an [AMC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_glosry.htm "Glossary Entry") message.
     
 -   RELOCATE
     
@@ -557,7 +557,7 @@ The class CL\_DEMO\_ABAP\_DAEMON is a subclass of CL\_ABAP\_DAEMON\_EXT\_BASE an
       ENDTRY.
     ENDMETHOD.
     
-    This method attempts to move the current daemon to a different AS instance. To do this, an AS instance is selected at random from a list in the current AS ABAP. This application server is then used as a destination for starting a daemon of the current ABAP daemon class using CL\_DEMO\_ABAP\_DAEMON\_BROKER. Here, the current context information from the [ABAP daemon memory](javascript:call_link\('abenabap_daemon_memory_glosry.htm'\) "Glossary Entry") is passed directly as start parameters in [PCP](javascript:call_link\('abenpcp_glosry.htm'\) "Glossary Entry") format. The current daemon is then stopped.
+    This method attempts to move the current daemon to a different AS instance. To do this, an AS instance is selected at random from a list in the current AS ABAP. This application server is then used as a destination for starting a daemon of the current ABAP daemon class using CL\_DEMO\_ABAP\_DAEMON\_BROKER. Here, the current context information from the [ABAP daemon memory](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_daemon_memory_glosry.htm "Glossary Entry") is passed directly as start parameters in [PCP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpcp_glosry.htm "Glossary Entry") format. The current daemon is then stopped.
     
 -   WRITE\_LOG
     
@@ -575,7 +575,7 @@ The class CL\_DEMO\_ABAP\_DAEMON is a subclass of CL\_ABAP\_DAEMON\_EXT\_BASE an
       COMMIT CONNECTION default.
     ENDMETHOD.
     
-    This method writes log entries to the [export/import table](javascript:call_link\('abenexport_import_table_glosry.htm'\) "Glossary Entry") DEMO\_INDX\_BLOB as a string. It is called by the other methods to log the actions of the daemon for the output of the class CL\_DEMO\_ABAP\_DAEMON\_DEMO.
+    This method writes log entries to the [export/import table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexport_import_table_glosry.htm "Glossary Entry") DEMO\_INDX\_BLOB as a string. It is called by the other methods to log the actions of the daemon for the output of the class CL\_DEMO\_ABAP\_DAEMON\_DEMO.
     
 
 In this example, the remaining methods of the interface IF\_ABAP\_DAEMON\_EXTENSION only write log entries.

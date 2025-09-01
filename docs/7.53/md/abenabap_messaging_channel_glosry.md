@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 ABAP Messaging Channel
 
-[Repository object](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry") that defines the properties of [AMC](javascript:call_link\('abenabap_messaging_channels_glosry.htm'\) "Glossary Entry") communication.
+[Repository object](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenrepository_object_glosry.htm "Glossary Entry") that defines the properties of [AMC](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_messaging_channels_glosry.htm "Glossary Entry") communication.
 
-[→ More](javascript:call_link\('abenamc.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamc.htm)

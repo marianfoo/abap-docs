@@ -4,27 +4,27 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Syntax Elements of an ABAP Program](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) →  [Operand Positions](javascript:call_link\('abenoperand_positions.htm'\)) →  [Expression Positions for Functions and Expressions](javascript:call_link\('abenexpression_positions.htm'\)) →  [Read Positions for Functions and Expressions](javascript:call_link\('abenexpression_positions_read.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Syntax Elements of an ABAP Program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_statements.htm) →  [Operand Positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_positions.htm) →  [Expression Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions.htm) →  [Read Positions for Functions and Expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexpression_positions_read.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Time-Stamp-Like%20Expression%20Positions%2C%20ABENTIMESTAMP_EXPR_POSITIONS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Time-Stamp-Like Expression Positions
 
-Time-stamp-like expression positions are [read positions](javascript:call_link\('abenread_position_glosry.htm'\) "Glossary Entry") where [time stamp fields](javascript:call_link\('abentimestamp_field_glosry.htm'\) "Glossary Entry") and [constructor expressions](javascript:call_link\('abenconstructor_expression_glosry.htm'\) "Glossary Entry"), [table expressions](javascript:call_link\('abentable_expression_glosry.htm'\) "Glossary Entry"), and [built-in functions](javascript:call_link\('abenbuiltin_function_glosry.htm'\) "Glossary Entry") can be specified, or [functional method calls](javascript:call_link\('abenfunctional_method_call_glosry.htm'\) "Glossary Entry") and [method chainings](javascript:call_link\('abenmethod_chaining_glosry.htm'\) "Glossary Entry") whose return value has a [time stamp type](javascript:call_link\('abentimestamp_type_glosry.htm'\) "Glossary Entry"). The following time-stamp-like expression positions exist:
+Time-stamp-like expression positions are [read positions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenread_position_glosry.htm "Glossary Entry") where [time stamp fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentimestamp_field_glosry.htm "Glossary Entry") and [constructor expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expression_glosry.htm "Glossary Entry"), [table expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_expression_glosry.htm "Glossary Entry"), and [built-in functions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbuiltin_function_glosry.htm "Glossary Entry") can be specified, or [functional method calls](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunctional_method_call_glosry.htm "Glossary Entry") and [method chainings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_chaining_glosry.htm "Glossary Entry") whose return value has a [time stamp type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentimestamp_type_glosry.htm "Glossary Entry"). The following time-stamp-like expression positions exist:
 
 -   Time-stamp-like arguments in time stamp functions
     -   Operand time\_stamp of the function
         
-        [utclong\_add( val  = time\_stamp ... )](javascript:call_link\('abenutclong_add.htm'\))
+        [utclong\_add( val  = time\_stamp ... )](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenutclong_add.htm)
         
     -   Operands time\_stamp2 and time\_stamp1 of the function
         
-        [utclong\_diff( high = time\_stamp2 low = time\_stamp1 )](javascript:call_link\('abenutclong_diff.htm'\))
+        [utclong\_diff( high = time\_stamp2 low = time\_stamp1 )](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenutclong_diff.htm)
         
 -   Functional operand positions in statements for time stamps
     -   Operand time\_stamp of the statement
         
-        [CONVERT UTCLONG time\_stamp TIME ZONE tz INTO ...](javascript:call_link\('abapconvert_utclong.htm'\))
+        [CONVERT UTCLONG time\_stamp TIME ZONE tz INTO ...](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconvert_utclong.htm)
         
 
 Example

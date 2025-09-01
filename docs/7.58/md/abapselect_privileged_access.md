@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abendb_access.htm'\)) →  [ABAP SQL](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL - Read Access](javascript:call_link\('abenabap_sql_reading.htm'\)) →  [SELECT, clauses](javascript:call_link\('abenselect_clauses.htm'\)) →  [SELECT, abap\_options](javascript:call_link\('abapselect_additions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendb_access.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql.htm) →  [ABAP SQL - Read Access](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_reading.htm) →  [SELECT, clauses](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselect_clauses.htm) →  [SELECT, abap\_options](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_additions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20SELECT%2C%20PRIVILEGED%20ACCESS%2C%20ABAPSELECT_PRIVILEGED_ACCESS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -16,20 +16,20 @@ Syntax
 
 Effect
 
-The addition PRIVILEGED ACCESS disables [CDS access control](javascript:call_link\('abencds_access_control_glosry.htm'\) "Glossary Entry") for all [CDS entities](javascript:call_link\('abencds_entity_glosry.htm'\) "Glossary Entry") accessed in the current SELECT statement. Any [access conditions](javascript:call_link\('abenaccess_condition_glosry.htm'\) "Glossary Entry") that are defined for a CDS entity by a [CDS role](javascript:call_link\('abencds_role_glosry.htm'\) "Glossary Entry") are not evaluated.
+The addition PRIVILEGED ACCESS disables [CDS access control](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_access_control_glosry.htm "Glossary Entry") for all [CDS entities](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_entity_glosry.htm "Glossary Entry") accessed in the current SELECT statement. Any [access conditions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenaccess_condition_glosry.htm "Glossary Entry") that are defined for a CDS entity by a [CDS role](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencds_role_glosry.htm "Glossary Entry") are not evaluated.
 
 The addition PRIVILEGED ACCESS cannot be used together with the following additions:
 
--   [WITH PRIVILEGED ACCESS](javascript:call_link\('abapselect_data_source.htm'\)) of the FROM clause that affects only one CDS entity.
--   [CLIENT SPECIFIED](javascript:call_link\('abapselect_client_obsolete.htm'\)) for disabling the implicit ABAP SQL [client handling](javascript:call_link\('abenclient_handling_glosry.htm'\) "Glossary Entry"), It can be used with [USING CLIENT, CLIENTS](javascript:call_link\('abapselect_client.htm'\)).
+-   [WITH PRIVILEGED ACCESS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_data_source.htm) of the FROM clause that affects only one CDS entity.
+-   [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_client_obsolete.htm) for disabling the implicit ABAP SQL [client handling](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclient_handling_glosry.htm "Glossary Entry"), It can be used with [USING CLIENT, CLIENTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_client.htm).
 
 Hints
 
 -   The addition PRIVILEGED ACCESS overrides all delivered and user-defined roles.
 -   CDS access control can also be disabled using the annotation @AccessControl.authorizationCheck:#NOT\_ALLOWED when a non-abstract CDS entity is defined.
--   In contrast to the addition [WITH PRIVILEGED ACCESS](javascript:call_link\('abapselect_data_source.htm'\)) of the FROM clause, PRIVILEGED ACCESS prevents the evaluation of any conditions from CDS access control for the complete SELECT statement. In particular, CDS access control is also disabled for entities that are addressed by a [SQL path expression](javascript:call_link\('abenabap_sql_path.htm'\)).
--   If the addition PRIVILEGED ACCESS is specified, the syntax check is performed in [strict mode from ABAP release 7.58](javascript:call_link\('abenabap_sql_strictmode_758.htm'\)).
--   In [updates](javascript:call_link\('abenauthority_during_update.htm'\)), either the addition PRIVILEGED ACCESS or [WITH PRIVILEGED ACCESS](javascript:call_link\('abapselect_data_source.htm'\)) must be specified for all CDS entities for which CDS access control is not disabled using the annotation @AccessControl.authorizationCheck:#NOT\_ALLOWED.
+-   In contrast to the addition [WITH PRIVILEGED ACCESS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_data_source.htm) of the FROM clause, PRIVILEGED ACCESS prevents the evaluation of any conditions from CDS access control for the complete SELECT statement. In particular, CDS access control is also disabled for entities that are addressed by a [SQL path expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_path.htm).
+-   If the addition PRIVILEGED ACCESS is specified, the syntax check is performed in [strict mode from ABAP release 7.58](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_sql_strictmode_758.htm).
+-   In [updates](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenauthority_during_update.htm), either the addition PRIVILEGED ACCESS or [WITH PRIVILEGED ACCESS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect_data_source.htm) must be specified for all CDS entities for which CDS access control is not disabled using the annotation @AccessControl.authorizationCheck:#NOT\_ALLOWED.
 
 Example
 

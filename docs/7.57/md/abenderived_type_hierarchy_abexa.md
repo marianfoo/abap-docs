@@ -4,18 +4,18 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [ABAP for RAP Business Objects](javascript:call_link\('abenabap_for_rap_bos.htm'\)) →  [Other RAP-Supporting ABAP Language Elements](javascript:call_link\('abenabap_rap_other.htm'\)) →  [ABAP for RAP, BDEF Derived Types](javascript:call_link\('abenrpm_derived_types.htm'\)) →  [TYPE TABLE FOR](javascript:call_link\('abaptype_table_for.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [ABAP for RAP Business Objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_rap_bos.htm) →  [Other RAP-Supporting ABAP Language Elements](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_rap_other.htm) →  [ABAP for RAP, BDEF Derived Types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrpm_derived_types.htm) →  [TYPE TABLE FOR](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_table_for.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY, ABENDERIVED_TYPE_HIERARCHY_ABEXA, 757%
 0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 Using TYPE TABLE/TYPE STRUCTURE FOR HIERARCHY
 
-This example demonstrates [actions](javascript:call_link\('abenaction_glosry.htm'\) "Glossary Entry") whose [deep input parameters](javascript:call_link\('abenbdl_action_input_param.htm'\)) and [deep output parameters](javascript:call_link\('abenbdl_action_output_para.htm'\)) use the [BDEF derived types](javascript:call_link\('abenrap_derived_type_glosry.htm'\) "Glossary Entry") [TYPE TABLE FOR HIERARCHY](javascript:call_link\('abaptype_table_for.htm'\)) and [TYPE STRUCTURE FOR HIERARCHY](javascript:call_link\('abaptype_structure_for.htm'\)) with a [managed](javascript:call_link\('abenbdl_impl_type.htm'\)) [RAP BO](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+This example demonstrates [actions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenaction_glosry.htm "Glossary Entry") whose [deep input parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action_input_param.htm) and [deep output parameters](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_action_output_para.htm) use the [BDEF derived types](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_derived_type_glosry.htm "Glossary Entry") [TYPE TABLE FOR HIERARCHY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_table_for.htm) and [TYPE STRUCTURE FOR HIERARCHY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_structure_for.htm) with a [managed](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbdl_impl_type.htm) [RAP BO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
 Data model
 
-The CDS data model consists of the [root entity](javascript:call_link\('abenroot_entity_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_HIERARCHY:
+The CDS data model consists of the [root entity](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenroot_entity_glosry.htm "Glossary Entry") DEMO\_MANAGED\_HIERARCHY:
 
 @AccessControl.authorizationCheck: #NOT\_REQUIRED
 define root view entity DEMO\_MANAGED\_HIERARCHY
@@ -38,7 +38,7 @@ Furthermore, the example uses the following abstract entities:
 
 Behavior definition
 
-The [CDS behavior definition](javascript:call_link\('abencds_behavior_definition_glosry.htm'\) "Glossary Entry") DEMO\_MANAGED\_HIERARCHY is defined in [CDS BDL](javascript:call_link\('abencds_bdl_glosry.htm'\) "Glossary Entry") as follows:
+The [CDS behavior definition](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_behavior_definition_glosry.htm "Glossary Entry") DEMO\_MANAGED\_HIERARCHY is defined in [CDS BDL](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_bdl_glosry.htm "Glossary Entry") as follows:
 
 managed implementation in class bp\_demo\_managed\_hierarchy unique;
 strict(2);
@@ -74,13 +74,13 @@ Further BDEFs for root abstract entities that are relevant for the example:
 
 Behavior implementation
 
-For the above CDS behavior definition, one [ABAP behavior pool (ABP)](javascript:call_link\('abenbehavior_pool_glosry.htm'\) "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_HIERARCHY. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
+For the above CDS behavior definition, one [ABAP behavior pool (ABP)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbehavior_pool_glosry.htm "Glossary Entry") is created. The global class of the behavior pool is BP\_DEMO\_MANAGED\_HIERARCHY. The actual behavior implementation takes place in local classes that are defined and implemented in the CCIMP include of the behavior pool.
 
 The following methods are relevant for the example:
 
 -   action\_flat\_param
     
-    The method loops at the flat input parameter. In the loop, the components of a structure are filled with values from the input parameter. These values are also changed within the loop. This change includes adding characters to the character fields and a calculation for the numeric fields. The output parameter result returns the changed instances. Furthermore, the instances are added to an internal table that is typed with the BDEF derived type [TYPE TABLE FOR CREATE](javascript:call_link\('abaptype_table_for.htm'\)). This internal table with RAP BO instances is used as input for a [RAP create operation](javascript:call_link\('abenrap_create_operation_glosry.htm'\) "Glossary Entry").
+    The method loops at the flat input parameter. In the loop, the components of a structure are filled with values from the input parameter. These values are also changed within the loop. This change includes adding characters to the character fields and a calculation for the numeric fields. The output parameter result returns the changed instances. Furthermore, the instances are added to an internal table that is typed with the BDEF derived type [TYPE TABLE FOR CREATE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptype_table_for.htm). This internal table with RAP BO instances is used as input for a [RAP create operation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrap_create_operation_glosry.htm "Glossary Entry").
     
 -   action\_deep\_param
     
@@ -92,7 +92,7 @@ The following methods are relevant for the example:
     
 -   returnhdata
     
-    The method returns hierarchy data. The focus of this method is the use of variables that are typed with either TYPE TABLE FOR HIERARCHY or TYPE STRUCTURE FOR HIERARCHY. It visualizes how the BDEF derived type component [%param](javascript:call_link\('abapderived_types_param.htm'\)), which is contained in the output parameter result, might be set up, i. e. the component itself can contain subcomponents of type TYPE TABLE FOR HIERARCHY and TYPE STRUCTURE FOR HIERARCHY. The variables, i. e. the structures and internal tables, are filled with demo data. This data is added to the output parameter result.
+    The method returns hierarchy data. The focus of this method is the use of variables that are typed with either TYPE TABLE FOR HIERARCHY or TYPE STRUCTURE FOR HIERARCHY. It visualizes how the BDEF derived type component [%param](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_param.htm), which is contained in the output parameter result, might be set up, i. e. the component itself can contain subcomponents of type TYPE TABLE FOR HIERARCHY and TYPE STRUCTURE FOR HIERARCHY. The variables, i. e. the structures and internal tables, are filled with demo data. This data is added to the output parameter result.
     
 -   storehdata
     
@@ -262,22 +262,22 @@ Description  
 
 Access with ABAP using EML
 
-The program includes multiple ABAP EML [MODIFY](javascript:call_link\('abapmodify_entity_entities.htm'\)) requests executing actions. Before the actions are carried out, the input parameters for those actions is prepared. In this case, multiple internal tables and structures that are typed with the BDEF derived types TYPE TABLE FOR HIERARCHY or TYPE STRUCTURE FOR HIERARCHY respectively are created. The structures and internal tables are filled with demo values to provide input parameters for the actions that have deep parameters. In case of the action action\_deep\_param, the input parameter is a structure. In case of the action action\_deep\_table\_param, the input parameter is an internal table. The value assignment just visualizes the hierarchy data and possible components of the BDEF derived types, i. e. multiple types with FOR HIERARCHY can occur in those BDEF derived types.
+The program includes multiple ABAP EML [MODIFY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_entity_entities.htm) requests executing actions. Before the actions are carried out, the input parameters for those actions is prepared. In this case, multiple internal tables and structures that are typed with the BDEF derived types TYPE TABLE FOR HIERARCHY or TYPE STRUCTURE FOR HIERARCHY respectively are created. The structures and internal tables are filled with demo values to provide input parameters for the actions that have deep parameters. In case of the action action\_deep\_param, the input parameter is a structure. In case of the action action\_deep\_table\_param, the input parameter is an internal table. The value assignment just visualizes the hierarchy data and possible components of the BDEF derived types, i. e. multiple types with FOR HIERARCHY can occur in those BDEF derived types.
 
 The following ABAP EML MODIFY requests executing actions are covered in the example:
 
 1.  Executing action action\_flat\_param
     
-    A content ID [%cid](javascript:call_link\('abapderived_types_cid.htm'\)) and a flat parameter %param are provided as input parameter. A [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) statement saves the RAP BO instances to the database. The result of the action is output based on the method implementation mentioned above. The database table entries are retrieved using a [SELECT](javascript:call_link\('abapselect.htm'\)) statement and displayed as well.
+    A content ID [%cid](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_cid.htm) and a flat parameter %param are provided as input parameter. A [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit_entities.htm) statement saves the RAP BO instances to the database. The result of the action is output based on the method implementation mentioned above. The database table entries are retrieved using a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) statement and displayed as well.
     
 2.  Executing action action\_deep\_param
     
-    A content ID [%cid](javascript:call_link\('abapderived_types_cid.htm'\)) and a deep parameter %param are provided as input parameter. Here, %param is a structure. A [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) statement saves the RAP BO instances to the database. The result of the action is output based on the method implementation mentioned above. The database table entries are retrieved using a [SELECT](javascript:call_link\('abapselect.htm'\)) statement and output as well.
+    A content ID [%cid](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_cid.htm) and a deep parameter %param are provided as input parameter. Here, %param is a structure. A [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit_entities.htm) statement saves the RAP BO instances to the database. The result of the action is output based on the method implementation mentioned above. The database table entries are retrieved using a [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm) statement and output as well.
     
 3.  Executing action action\_deep\_table\_param
     
-    A content ID [%cid](javascript:call_link\('abapderived_types_cid.htm'\)) and a deep parameter %param are provided as input parameter. Here, %param is an internal table. A [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) statement saves the RAP BO instances to the database. The result of the action is output based on the method implementation mentioned above. The database table entries are displayed, too.
+    A content ID [%cid](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_cid.htm) and a deep parameter %param are provided as input parameter. Here, %param is an internal table. A [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit_entities.htm) statement saves the RAP BO instances to the database. The result of the action is output based on the method implementation mentioned above. The database table entries are displayed, too.
     
 4.  Executing actions returnhdata and storehdata
     
-    A content ID [%cid](javascript:call_link\('abapderived_types_cid.htm'\)) is provided as input parameter for the returnhdata method. The method returns data based on the method implementation mentioned above. This data is used as input parameter for the storehdata method which includes a RAP create operations that create RAP BO instances. A [COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\)) statement saves the RAP BO instances to the database. The result of both actions is displayed as well as the database table entries.
+    A content ID [%cid](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapderived_types_cid.htm) is provided as input parameter for the returnhdata method. The method returns data based on the method implementation mentioned above. This data is used as input parameter for the storehdata method which includes a RAP create operations that create RAP BO instances. A [COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcommit_entities.htm) statement saves the RAP BO instances to the database. The result of both actions is displayed as well as the database table entries.

@@ -4,7 +4,7 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [program editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Editing](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [text element](javascript:call_link\('abentextpool.htm'\)) →  [Internal Statement for Editing Text Elements](javascript:call_link\('abengeneric_text_internal.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [program editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprogram_editing.htm) →  [Dynamic Program Editing](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_dynamic.htm) →  [text element](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentextpool.htm) →  [Internal Statement for Editing Text Elements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abengeneric_text_internal.htm) → 
 
 DELETE TEXTPOOL
 
@@ -21,7 +21,7 @@ Addition:
 
 Effect
 
-[All](javascript:call_link\('abentext_element_glosry.htm'\) "Glossary Entry") text elements in the program whose name is in the field prog are deleted from the library in the specified language lg.
+[All](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_element_glosry.htm "Glossary Entry") text elements in the program whose name is in the field prog are deleted from the library in the specified language lg.
 If the value '\*' is used for lg, the text elements of all languages are deleted.
 
 Example
@@ -56,7 +56,7 @@ Before the statement can evaluate the worklist of the current user, it must be p
 -   the inactive version of the repository object if "I" is specified. The user to which the inactive version is assigned is not important here or whether the version is part of a worklist. If there are no inactive versions, the object is not accessed and sy-subrc is set to 4.
     
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

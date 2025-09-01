@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Obsolete Language Elements](javascript:call_link\('abenabap_obsolete.htm'\)) →  [Obsolete Program Flow](javascript:call_link\('abenobsolete_program_flow.htm'\)) →  [Obsolete Control Structures](javascript:call_link\('abenobsolete_control_structures.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Obsolete Language Elements](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_obsolete.htm) →  [Obsolete Program Flow](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobsolete_program_flow.htm) →  [Obsolete Control Structures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenobsolete_control_structures.htm) → 
 
 ON CHANGE OF
 
-[Short Reference](javascript:call_link\('abapon_change_of_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapon_change_of_shortref.htm)
 
 Obsolete Syntax
 
@@ -20,15 +20,15 @@ ENDON.
 
 Effect
 
-The statements ON CHANGE OF and ENDON, which are forbidden in classes, define a [control structure](javascript:call_link\('abencontrol_structure_glosry.htm'\) "Glossary Entry") that can contain two statement blocks: statement\_block1 and statement\_block2. After ON CHANGE OF, any number of data objects dobj1, dobj2... of any data type linked by OR can be specified.
+The statements ON CHANGE OF and ENDON, which are forbidden in classes, define a [control structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencontrol_structure_glosry.htm "Glossary Entry") that can contain two statement blocks: statement\_block1 and statement\_block2. After ON CHANGE OF, any number of data objects dobj1, dobj2... of any data type linked by OR can be specified.
 
 The first time a statement ON CHANGE OF is executed, the first statement block statement\_block1 is executed if at least one of the specified data objects is not initial. The first statement block is executed for each additional execution of the same statement ON CHANGE OF, if the content of one of the specified data objects has changed since the last time the statement ON CHANGE OF was executed. The optional second statement block statement\_block2 after ELSE is executed if the first statement block is not executed.
 
-Each time the statement ON CHANGE OF is executed, the content of all the specified data objects is stored in an internal helper variable that is global to the program. This helper variable is linked to this statement and cannot be accessed in the program. The helper variables and their content are preserved longer than the lifetime of [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry"). A helper variable of this type can only be initialized if its statement ON CHANGE OF is executed while the associated data object is initial.
+Each time the statement ON CHANGE OF is executed, the content of all the specified data objects is stored in an internal helper variable that is global to the program. This helper variable is linked to this statement and cannot be accessed in the program. The helper variables and their content are preserved longer than the lifetime of [procedures](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenprocedure_glosry.htm "Glossary Entry"). A helper variable of this type can only be initialized if its statement ON CHANGE OF is executed while the associated data object is initial.
 
 Hint
 
-This control structure is particularly prone to errors and should be replaced by [branches](javascript:call_link\('abenbranch_glosry.htm'\) "Glossary Entry") with explicitly declared helper variables.
+This control structure is particularly prone to errors and should be replaced by [branches](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbranch_glosry.htm "Glossary Entry") with explicitly declared helper variables.
 
 Example
 
@@ -64,4 +64,4 @@ SELECT \*
 ENDSELECT.
 
 Continue
-[ENDON](javascript:call_link\('abapendon.htm'\))
+[ENDON](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapendon.htm)

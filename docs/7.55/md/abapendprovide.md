@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Internal Tables (itab)](javascript:call_link\('abenitab.htm'\)) →  [itab - Processing Statements](javascript:call_link\('abentable_processing_statements.htm'\)) →  [itab - Interval Join](javascript:call_link\('abeninternal_table_interval_spcl.htm'\)) →  [PROVIDE](javascript:call_link\('abapprovide.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_working.htm) →  [Internal Tables (itab)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenitab.htm) →  [itab - Processing Statements](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentable_processing_statements.htm) →  [itab - Interval Join](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abeninternal_table_interval_spcl.htm) →  [PROVIDE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapprovide.htm) → 
 
 ENDPROVIDE
 
-[Short Reference](javascript:call_link\('abapprovide_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapprovide_shortref.htm)
 
 Syntax
 
@@ -16,4 +16,4 @@ ENDPROVIDE.
 
 Effect
 
-The statement ENDPROVIDE closes a loop started using [PROVIDE](javascript:call_link\('abapprovide.htm'\)).
+The statement ENDPROVIDE closes a loop started using [PROVIDE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapprovide.htm).

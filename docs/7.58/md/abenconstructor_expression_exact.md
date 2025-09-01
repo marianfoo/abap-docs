@@ -4,7 +4,7 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Assignments](javascript:call_link\('abenvalue_assignments.htm'\)) →  [Lossless Assignments](javascript:call_link\('abenlossless_move.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_data_working.htm) →  [Assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvalue_assignments.htm) →  [Lossless Assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlossless_move.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20EXACT%2C%20Lossless%20Operator%2C%20ABENCONSTRUCTOR_EXPRESSION_EXACT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -12,29 +12,29 @@ EXACT, Lossless Operator
 
 Syntax
 
-... EXACT type( *\[*[let\_exp](javascript:call_link\('abaplet.htm'\))*\]* dobj ) ...
+... EXACT type( *\[*[let\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm)*\]* dobj ) ...
 
 Effect
 
-A [constructor expression](javascript:call_link\('abenconstructor_expressions.htm'\)) with the lossless operator EXACT performs either a [lossless assignment](javascript:call_link\('abenlossless_move.htm'\)) or a [lossless calculation](javascript:call_link\('abenlossless_calculation.htm'\)), depending on the specified argument dobj, and creates a result with the data type type. The following can be specified for type:
+A [constructor expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstructor_expressions.htm) with the lossless operator EXACT performs either a [lossless assignment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlossless_move.htm) or a [lossless calculation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlossless_calculation.htm), depending on the specified argument dobj, and creates a result with the data type type. The following can be specified for type:
 
--   A non-generic data type dtype, apart from [reference types](javascript:call_link\('abenreference_type_glosry.htm'\) "Glossary Entry").
+-   A non-generic data type dtype, apart from [reference types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreference_type_glosry.htm "Glossary Entry").
 -   The # character for a data type that is determined in accordance with the following hierarchy:
-    -   If the data type required in an operand position is unique and known completely, the [operand type](javascript:call_link\('abenoperand_type_glosry.htm'\) "Glossary Entry") is used. The operand type can also be generic, and the current type is used at runtime.
+    -   If the data type required in an operand position is unique and known completely, the [operand type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoperand_type_glosry.htm "Glossary Entry") is used. The operand type can also be generic, and the current type is used at runtime.
     -   If the data type cannot be derived from the context, the calculation type decfloat34 is used in lossless calculations and the data type of the argument is used in lossless assignments.
 
-The parentheses must contain exactly one unnamed argument dobj that can be converted to the data type type. dobj is a [general expression position](javascript:call_link\('abengeneral_expr_position_glosry.htm'\) "Glossary Entry"). The content of the result is determined as follows:
+The parentheses must contain exactly one unnamed argument dobj that can be converted to the data type type. dobj is a [general expression position](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengeneral_expr_position_glosry.htm "Glossary Entry"). The content of the result is determined as follows:
 
--   If the argument dobj is specified as an [arithmetic expression](javascript:call_link\('abenarithmetic_expression_glosry.htm'\) "Glossary Entry"), the expression is calculated in accordance with the rules for a [lossless assignment](javascript:call_link\('abenlossless_calculation.htm'\)) and the result with the calculation type decfloat34 is converted to the data type type.
--   In all other cases, the content of the result is determined by an assignment of the argument in accordance with the associated [conversion rules](javascript:call_link\('abenconversion_rules.htm'\)), during which a check is performed in accordance with the [rules of lossless assignments](javascript:call_link\('abapmove_exact.htm'\)).
+-   If the argument dobj is specified as an [arithmetic expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenarithmetic_expression_glosry.htm "Glossary Entry"), the expression is calculated in accordance with the rules for a [lossless assignment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlossless_calculation.htm) and the result with the calculation type decfloat34 is converted to the data type type.
+-   In all other cases, the content of the result is determined by an assignment of the argument in accordance with the associated [conversion rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconversion_rules.htm), during which a check is performed in accordance with the [rules of lossless assignments](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_exact.htm).
 
-In the case of a value loss, the corresponding exception is raised in both cases. If the argument is compatible with the data type type in a lossless assignment, EXACT does not perform any checks and a syntax check warning occurs. For [enumerated types](javascript:call_link\('abenenum_type_glosry.htm'\) "Glossary Entry"), additional special [rules](javascript:call_link\('abenexact_constructor_enum.htm'\)) apply.
+In the case of a value loss, the corresponding exception is raised in both cases. If the argument is compatible with the data type type in a lossless assignment, EXACT does not perform any checks and a syntax check warning occurs. For [enumerated types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenenum_type_glosry.htm "Glossary Entry"), additional special [rules](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexact_constructor_enum.htm) apply.
 
-An optional LET expression [let\_exp](javascript:call_link\('abaplet.htm'\)) can be specified before the argument to define local helper fields.
+An optional LET expression [let\_exp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplet.htm) can be specified before the argument to define local helper fields.
 
 Hint
 
-The lossless operator EXACT replaces the identically named addition of the obsolete statements [MOVE](javascript:call_link\('abapmove_obs.htm'\)) and [COMPUTE](javascript:call_link\('abapcompute.htm'\)).
+The lossless operator EXACT replaces the identically named addition of the obsolete statements [MOVE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_obs.htm) and [COMPUTE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcompute.htm).
 
 Example
 
@@ -94,7 +94,7 @@ TRY.
     FINAL(rounded\_result) = exc->value.
 ENDTRY.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -104,4 +104,4 @@ CX\_SY\_CONVERSION\_EXACT\_NOT\_SUP
     Runtime error: CONVT\_NOT\_SUPPORTED
 
 Continue
-[EXACT, Lossless Conversion of Enumerated Types](javascript:call_link\('abenexact_constructor_enum.htm'\))
+[EXACT, Lossless Conversion of Enumerated Types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexact_constructor_enum.htm)

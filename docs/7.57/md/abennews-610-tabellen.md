@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Release News](javascript:call_link\('abennews.htm'\)) →  [News for Release 6.xx](javascript:call_link\('abennews-6.htm'\)) →  [News for Release 6.10](javascript:call_link\('abennews-610.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Release News](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews.htm) →  [News for Release 6.xx](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-6.htm) →  [News for Release 6.10](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennews-610.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Internal Tables in Release 6.10, ABENNEWS-610-TABELLEN, 757%0D%0A%0D%0AError:%0D%0A%0
 D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -30,19 +30,19 @@ Modification 1  
 
 Creating a Table Object
 
-Any table objects can be created at runtime by using the statement [CREATE DATA](javascript:call_link\('abapcreate_data.htm'\)). If the table type is known in full, this is respected by the syntax check.
+Any table objects can be created at runtime by using the statement [CREATE DATA](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcreate_data.htm). If the table type is known in full, this is respected by the syntax check.
 
 Modification 2   
 
 Checking the Convertibility of Key Fields
 
-In the case of the statements [READ TABLE itab WITH KEY k1 = v1 .... kn = vn](javascript:call_link\('abapread_table.htm'\)) and [DELETE TABLE itab WITH KEY = v1 .... kn = vn](javascript:call_link\('abapdelete_itab.htm'\)), the system already checks whether the key values are convertible to the component type in the syntax check. This convertibility check is also effective for the newer variant READ ... WITH TABLE KEY .... Previously, the runtime error MOVE\_NOT\_SUPPORTED was raised if the conversion was not possible.
+In the case of the statements [READ TABLE itab WITH KEY k1 = v1 .... kn = vn](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table.htm) and [DELETE TABLE itab WITH KEY = v1 .... kn = vn](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_itab.htm), the system already checks whether the key values are convertible to the component type in the syntax check. This convertibility check is also effective for the newer variant READ ... WITH TABLE KEY .... Previously, the runtime error MOVE\_NOT\_SUPPORTED was raised if the conversion was not possible.
 
 Modification 3   
 
 Duplicate or Overlapping Key Specifications
 
-In the case of duplicate or overlapping key specifications, the statement [READ TABLE itab WITH KEY k1 = v1 .... kn = vn](javascript:call_link\('abapread_table.htm'\)) now raises a syntax error instead of a syntax warning. If specified dynamically, it was previously the case that the last key specification was used; now the runtime error DYN\_KEY\_DUPLICATE is raised.
+In the case of duplicate or overlapping key specifications, the statement [READ TABLE itab WITH KEY k1 = v1 .... kn = vn](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table.htm) now raises a syntax error instead of a syntax warning. If specified dynamically, it was previously the case that the last key specification was used; now the runtime error DYN\_KEY\_DUPLICATE is raised.
 
 Modification 4   
 
@@ -54,45 +54,45 @@ Modification 5  
 
 Table Categories for Text Pools and IN Conditions
 
-Alongside [standard tables](javascript:call_link\('abenstandard_table_glosry.htm'\) "Glossary Entry"), the [tables categories](javascript:call_link\('abaptypes_tabcat.htm'\)) HASHED and SORTED are supported for the statements [READ](javascript:call_link\('abapread_textpool.htm'\)), [DELETE](javascript:call_link\('abapdelete_textpool.htm'\)), and [INSERT TEXTPOOL ...](javascript:call_link\('abapinsert_textpool.htm'\)). The IN conditions for [SELECT ... WHERE](javascript:call_link\('abapwhere.htm'\)) and [LOOP ... WHERE](javascript:call_link\('abenlogexp_select_option.htm'\)) are also no longer dependent on the table category.
+Alongside [standard tables](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_table_glosry.htm "Glossary Entry"), the [tables categories](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptypes_tabcat.htm) HASHED and SORTED are supported for the statements [READ](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_textpool.htm), [DELETE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdelete_textpool.htm), and [INSERT TEXTPOOL ...](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_textpool.htm). The IN conditions for [SELECT ... WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapwhere.htm) and [LOOP ... WHERE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogexp_select_option.htm) are also no longer dependent on the table category.
 
 Modification 6   
 
 Handling Overflows in COLLECT and SUM
 
-Previously, fields of type f were only checked for possible overflows in the case of arithmetic additions. When using [COLLECT](javascript:call_link\('abapcollect.htm'\)) and [SUM](javascript:call_link\('abapsum.htm'\)), the addition was terminated in accordance with IEEE standards and a runtime error was raised as soon as the overflow limit (Infinity) was reached. Now this raises the exception CX\_SY\_ARITHMETIC\_OVERFLOW, which can be caught using [TRY](javascript:call_link\('abaptry.htm'\)).
+Previously, fields of type f were only checked for possible overflows in the case of arithmetic additions. When using [COLLECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcollect.htm) and [SUM](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsum.htm), the addition was terminated in accordance with IEEE standards and a runtime error was raised as soon as the overflow limit (Infinity) was reached. Now this raises the exception CX\_SY\_ARITHMETIC\_OVERFLOW, which can be caught using [TRY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaptry.htm).
 
 Modification 7   
 
 Additions ASSIGNING and REFERENCE INTO
 
-The additions [ASSIGNING](javascript:call_link\('abapread_table_outdesc.htm'\)) and [REFERENCE INTO](javascript:call_link\('abapread_table_outdesc.htm'\)) are now available for the statements [READ](javascript:call_link\('abapread_table.htm'\)), [LOOP](javascript:call_link\('abaploop_at_itab.htm'\)), [INSERT](javascript:call_link\('abapinsert_itab.htm'\)), [APPEND](javascript:call_link\('abapappend.htm'\)), [MODIFY](javascript:call_link\('abapmodify_itab.htm'\)), and [COLLECT](javascript:call_link\('abapcollect.htm'\)). Previously, only the addition ASSIGNING for the keywords LOOP and READ was available.
+The additions [ASSIGNING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table_outdesc.htm) and [REFERENCE INTO](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table_outdesc.htm) are now available for the statements [READ](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapread_table.htm), [LOOP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abaploop_at_itab.htm), [INSERT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_itab.htm), [APPEND](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapappend.htm), [MODIFY](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapmodify_itab.htm), and [COLLECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcollect.htm). Previously, only the addition ASSIGNING for the keywords LOOP and READ was available.
 
 Modification 8   
 
 Uppercase and Lowercase Spelling in Dynamic Components
 
-Previously, the field content of a dynamic component always had to written in capitals, for example [SORT ... BY ('COMP')](javascript:call_link\('abapsort_itab.htm'\)). Now lowercase spelling is valid in specifications for all internal table statements.
+Previously, the field content of a dynamic component always had to written in capitals, for example [SORT ... BY ('COMP')](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapsort_itab.htm). Now lowercase spelling is valid in specifications for all internal table statements.
 
 Modification 9   
 
 Combined Key Specifications with table\_line
 
-Now there are additional key specifications for the [pseudo component](javascript:call_link\('abenpseudo_component_glosry.htm'\) "Glossary Entry") table\_line. Previously, it was not possible to have a key specified in the form READ ... WITH KEY table\_line->attr = ... table\_line = ... BINARY SEARCH, for example, where both the value of the attribute attr and the value of the reference itself were the key.
+Now there are additional key specifications for the [pseudo component](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenpseudo_component_glosry.htm "Glossary Entry") table\_line. Previously, it was not possible to have a key specified in the form READ ... WITH KEY table\_line->attr = ... table\_line = ... BINARY SEARCH, for example, where both the value of the attribute attr and the value of the reference itself were the key.
 
 Modification 10   
 
 Establishing the Number of Lines in an Internal Table
 
-The number of lines in an internal table can be determined using the function [LINES](javascript:call_link\('abapcompute_arith.htm'\)). For consistency, this function is intended to replace the statement [DESCRIBE TABLE](javascript:call_link\('abapdescribe_table.htm'\)) in the long term, since not all ABAP types can be described using DESCRIBE.
+The number of lines in an internal table can be determined using the function [LINES](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcompute_arith.htm). For consistency, this function is intended to replace the statement [DESCRIBE TABLE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapdescribe_table.htm) in the long term, since not all ABAP types can be described using DESCRIBE.
 
 Modification 11   
 
 Optimization when Accessing Internal Tables
 
-For Release 6.10, optimized access to tables of the types SORTED and HASHED has been introduced. For more details, see the section on [Optimized Key Operations](javascript:call_link\('abenitab_perfo.htm'\)).
+For Release 6.10, optimized access to tables of the types SORTED and HASHED has been introduced. For more details, see the section on [Optimized Key Operations](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenitab_perfo.htm).
 
-In addition, in the case of assignments between internal tables of the same type, data is now only copied if changes were made to these tables. This [table sharing](javascript:call_link\('abentable_sharing_glosry.htm'\) "Glossary Entry") has a positive effect on runtime and the memory required.
+In addition, in the case of assignments between internal tables of the same type, data is now only copied if changes were made to these tables. This [table sharing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentable_sharing_glosry.htm "Glossary Entry") has a positive effect on runtime and the memory required.
 Until now, these optimizations had to be carried out explicitly using field symbols. Now it is possible to work normally with a work area, because no table is copied when reads are performed.
 
 Modification 12   

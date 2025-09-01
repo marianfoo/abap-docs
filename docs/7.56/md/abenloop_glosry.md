@@ -4,10 +4,10 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_glossary.htm) → 
 
 loop
 
-[Control structure](javascript:call_link\('abencontrol_structure_glosry.htm'\) "Glossary Entry") that performs an [iteration](javascript:call_link\('abeniteration_glosry.htm'\) "Glossary Entry"). Consists of a [statement block](javascript:call_link\('abenstatement_block_glosry.htm'\) "Glossary Entry") defined by the keywords [DO - ENDDO](javascript:call_link\('abapdo.htm'\)), [WHILE - ENDWHILE](javascript:call_link\('abapwhile.htm'\)), [LOOP - ENDLOOP](javascript:call_link\('abaploop_at_itab.htm'\)), [PROVIDE - ENDPROVIDE](javascript:call_link\('abapprovide.htm'\)), [SELECT - ENDSELECT](javascript:call_link\('abapselect.htm'\)) and that can be executed multiple times.
+[Control structure](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abencontrol_structure_glosry.htm "Glossary Entry") that performs an [iteration](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abeniteration_glosry.htm "Glossary Entry"). Consists of a [statement block](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenstatement_block_glosry.htm "Glossary Entry") defined by the keywords [DO - ENDDO](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapdo.htm), [WHILE - ENDWHILE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapwhile.htm), [LOOP - ENDLOOP](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abaploop_at_itab.htm), [PROVIDE - ENDPROVIDE](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapprovide.htm), [SELECT - ENDSELECT](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapselect.htm) and that can be executed multiple times.
 
-[→ More about](javascript:call_link\('abenabap_loops.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_loops.htm)

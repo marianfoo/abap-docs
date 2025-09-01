@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) →  [Expressions and Functions for String Processing](javascript:call_link\('abenstring_processing_expr_func.htm'\)) →  [String Functions (string\_func)](javascript:call_link\('abenstring_functions.htm'\)) →  [string\_func - Processing Functions](javascript:call_link\('abenprocess_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_string.htm) →  [Expressions and Functions for String Processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_processing_expr_func.htm) →  [String Functions (string\_func)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions.htm) →  [string\_func - Processing Functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprocess_functions.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: string_func - condense, ABENCONDENSE_FUNCTIONS, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%
 0A%0D%0ASuggestion for improvement:)
@@ -13,26 +13,26 @@ string\_func - condense
 
 Syntax
 
-... condense( [*\[*val =*\]* text](javascript:call_link\('abenstring_functions_val.htm'\)) *\[*del = del*\]* *\[*from = from*\]* *\[*to = to*\]* ) ...
+... condense( [*\[*val =*\]* text](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions_val.htm) *\[*del = del*\]* *\[*from = from*\]* *\[*to = to*\]* ) ...
 
 Effect
 
-This [built-in function](javascript:call_link\('abenbuilt_in_functions.htm'\)) returns a condensed content of [text](javascript:call_link\('abenstring_functions_val.htm'\)). The function works as follows:
+This [built-in function](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenbuilt_in_functions.htm) returns a condensed content of [text](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstring_functions_val.htm). The function works as follows:
 
 1.  First, all leading and trailing characters are removed, that are specified del. If del is an empty string, no leading and trailing characters are removed.
 2.  Second, in the remaining string all substrings composed of characters specified in from are replaced with the first character of the string specified in to. If from is an empty string, no characters are replaced. If to is an empty string, the characters specified in from are removed.
 
 The default values for del, from, and to are one blank each. If neither del, from, nor to are specified, val = can also be omitted. Then, the condense function first removes any leading and trailing blanks and then all substrings of the remaining character string that contain nothing but blanks are replaced by exactly one blank.
 
-del, from, and to are [character-like expression positions](javascript:call_link\('abencharlike_expr_position_glosry.htm'\) "Glossary Entry"). If these have a fixed length, trailing blanks are ignored.
+del, from, and to are [character-like expression positions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencharlike_expr_position_glosry.htm "Glossary Entry"). If these have a fixed length, trailing blanks are ignored.
 
 The return value has the type string.
 
 Hints
 
--   Comparison with the [CONDENSE](javascript:call_link\('abapcondense.htm'\)) statement:
-    -   When del, from, and to are not specified or their default values (one blank) are passed, the condense function works in the same way as the [CONDENSE](javascript:call_link\('abapcondense.htm'\)) statement without the NO-GAPS addition.
-    -   When for del and from their default values (one blank) are passed and for to an empty string is passed, the condense function works in the same way as the [CONDENSE](javascript:call_link\('abapcondense.htm'\)) statement with the NO-GAPS addition.
+-   Comparison with the [CONDENSE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcondense.htm) statement:
+    -   When del, from, and to are not specified or their default values (one blank) are passed, the condense function works in the same way as the [CONDENSE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcondense.htm) statement without the NO-GAPS addition.
+    -   When for del and from their default values (one blank) are passed and for to an empty string is passed, the condense function works in the same way as the [CONDENSE](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapcondense.htm) statement with the NO-GAPS addition.
 -   When using default values, the effect of condensing substrings containing nothing than blanks to one blank, comes from applying the default values for from and to and has nothing to do with the value of del.
 -   For removing the leading and trailing blanks without affecting the remaining character string, you can use the default value for del and an empty string for from. The latter must be specified explicitly, because the default value (blank) causes substrings consisting of blanks to be replaced by the first character from to, which also is a blank.
 -   Specifying a text field literal ' ' containing one blank for del, from, and to is the same as specifying \`\` but not the same as\` \` \`. Only the latter represents the default value.

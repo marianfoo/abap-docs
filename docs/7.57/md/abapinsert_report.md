@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Maintenance](javascript:call_link\('abenprogram_editing.htm'\)) →  [Dynamic Program Development](javascript:call_link\('abenabap_language_dynamic.htm'\)) →  [ABAP Source Code](javascript:call_link\('abenabap_generic_program.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Program Maintenance](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_editing.htm) →  [Dynamic Program Development](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_dynamic.htm) →  [ABAP Source Code](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_generic_program.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: INSERT REPORT, ABAPINSERT_REPORT, 757%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASugges
 tion for improvement:)
 
 INSERT REPORT
 
-[Short Reference](javascript:call_link\('abapinsert_report_shortref.htm'\))
+[Short Reference](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_report_shortref.htm)
 
 Syntax
 
@@ -34,32 +34,32 @@ Additions:
 
 Effect
 
-This statement passes the content of itab to the ABAP program specified in prog in the [repository](javascript:call_link\('abenrepository_glosry.htm'\) "Glossary Entry") as source code. If a program with the specified name already exists, its source code is overwritten. Otherwise a new program with the name specified in prog and the source code from itab is created in the repository.
+This statement passes the content of itab to the ABAP program specified in prog in the [repository](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_glosry.htm "Glossary Entry") as source code. If a program with the specified name already exists, its source code is overwritten. Otherwise a new program with the name specified in prog and the source code from itab is created in the repository.
 
-The additions for determining the [program properties](javascript:call_link\('abenprogram_property_glosry.htm'\) "Glossary Entry") create the program properties in the system table TRDIR.
+The additions for determining the [program properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_property_glosry.htm "Glossary Entry") create the program properties in the system table TRDIR.
 
 If none of the additions are specified, the following default values are set when a new program is created:
 
--   The original language is set to the system language stored in the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") zcsa/system\_language.
+-   The original language is set to the system language stored in the [profile parameter](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") zcsa/system\_language.
 -   The creation date and the date of last change, along with the corresponding times, are set to the current value.
 -   The program properties author and last changed by are set to the current user.
 -   The program status is set to active by default. The program is compiled when it is first executed.
--   The program type is set to [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry").
+-   The program type is set to [executable program](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexecutable_program_glosry.htm "Glossary Entry").
 -   The application is set to the value of the current program.
--   No [logical database](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry") is linked with the program.
+-   No [logical database](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenlogical_data_base_glosry.htm "Glossary Entry") is linked with the program.
 -   Fixed point arithmetic is activated.
--   The setting for the [ABAP language version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") is taken from the current program.
+-   The setting for the [ABAP language version](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_version_glosry.htm "Glossary Entry") is taken from the current program.
 
 If none of the additions are specified, the properties of an existing program are preserved if it is overwritten, with the following exceptions:
 
 -   The date and time of the last change are set to the current value.
 -   The property last changed by is set to the current user.
 -   The version number is increased by one.
--   The [ABAP language version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") is set as follows:
-    -   If the current program is from the ABAP language version [Standard ABAP](javascript:call_link\('abenstandard_abap_glosry.htm'\) "Glossary Entry"), the overwritten program is always set to this language version.
+-   The [ABAP language version](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_version_glosry.htm "Glossary Entry") is set as follows:
+    -   If the current program is from the ABAP language version [Standard ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_abap_glosry.htm "Glossary Entry"), the overwritten program is always set to this language version.
     -   The statement INSERT REPORT cannot currently be used in other ABAP language versions.
 
-For itab, only a standard table without [secondary table keys](javascript:call_link\('abensecondary_table_key_glosry.htm'\) "Glossary Entry") is allowed. A source code line in itab must be character-like and can have a maximum of 255 characters. Trailing blanks are ignored for line types with a fixed length. prog must be a character-like flat data object, which can contain no more than 30 characters, and whose content is not case-sensitive.
+For itab, only a standard table without [secondary table keys](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensecondary_table_key_glosry.htm "Glossary Entry") is allowed. A source code line in itab must be character-like and can have a maximum of 255 characters. Trailing blanks are ignored for line types with a fixed length. prog must be a character-like flat data object, which can contain no more than 30 characters, and whose content is not case-sensitive.
 
 System Fields
 
@@ -77,15 +77,15 @@ An error occurred when creating or overwriting the program specified in prog.
 
 Security Hint
 
-If used incorrectly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before it is used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the built-in function [escape](javascript:call_link\('abenescape_functions.htm'\)). See [ABAP Command Injections](javascript:call_link\('abengeneric_prog_scrty.htm'\)).
+If used incorrectly, dynamic programming techniques can present a serious security risk. Any dynamic content that is passed to a program from the outside must be checked thoroughly or escaped before it is used in dynamic statements. This can be done using the system class CL\_ABAP\_DYN\_PRG or the built-in function [escape](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenescape_functions.htm). See [ABAP Command Injections](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abengeneric_prog_scrty.htm).
 
 Hints
 
 -   The statement INSERT REPORT must be used with extreme caution, because it can completely overwrite existing programs without warning. Any inadvertent overwriting can be prevented by checking whether the specified name already exists in the NAME column of the system table TRDIR.
--   If INSERT REPORT is used to create a new program, this program is not assigned to a package, which means it is not connected to the [Change and Transport System (CTS)](javascript:call_link\('abencts_glosry.htm'\) "Glossary Entry"). The program must either be assigned to a package in the ABAP Workbench or it is only suitable for temporary tasks in the current system.
--   It is vital to have a precise working knowledge of the structures and names of the program when using the statement INSERT REPORT for programs organized in a [master program](javascript:call_link\('abenmaster_program_glosry.htm'\) "Glossary Entry") and using [include programs](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry"), if they were created in the ABAP Workbench.
--   The [program name](javascript:call_link\('abenprogram_name_glosry.htm'\) "Glossary Entry") that is created should comply with the naming conventions of the [ABAP Workbench](javascript:call_link\('abenabap_workbench_glosry.htm'\) "Glossary Entry") if it is to be processed using the tools in the workbench.
--   INSERT REPORT should be used in application programs in exceptional cases only. ABAP provides many other means of dynamic programming, which generally make creating source code dynamically unnecessary (see the list in [dynamic program processing](javascript:call_link\('abenabap_language_dynamic.htm'\))).
+-   If INSERT REPORT is used to create a new program, this program is not assigned to a package, which means it is not connected to the [Change and Transport System (CTS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencts_glosry.htm "Glossary Entry"). The program must either be assigned to a package in the ABAP Workbench or it is only suitable for temporary tasks in the current system.
+-   It is vital to have a precise working knowledge of the structures and names of the program when using the statement INSERT REPORT for programs organized in a [master program](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmaster_program_glosry.htm "Glossary Entry") and using [include programs](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninclude_program_glosry.htm "Glossary Entry"), if they were created in the ABAP Workbench.
+-   The [program name](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_name_glosry.htm "Glossary Entry") that is created should comply with the naming conventions of the [ABAP Workbench](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_workbench_glosry.htm "Glossary Entry") if it is to be processed using the tools in the workbench.
+-   INSERT REPORT should be used in application programs in exceptional cases only. ABAP provides many other means of dynamic programming, which generally make creating source code dynamically unnecessary (see the list in [dynamic program processing](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_dynamic.htm)).
 
 Addition 1   
 
@@ -101,7 +101,7 @@ Addition 2  
 
 Effect
 
-This addition is only effective when a program is overwritten. The statement behaves as if no additions are specified (see above), with the exception that the [ABAP language version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") remains intact in the overwritten program.
+This addition is only effective when a program is overwritten. The statement behaves as if no additions are specified (see above), with the exception that the [ABAP language version](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_version_glosry.htm "Glossary Entry") remains intact in the overwritten program.
 
 Addition 3   
 
@@ -109,7 +109,7 @@ Addition 3  
 
 Effect
 
-This addition defines the [program type](javascript:call_link\('abenprogram_type_glosry.htm'\) "Glossary Entry") of the new or overwritten program in accordance with the content of pt. pt must be a data object of data type c with length 1 that contains a valid ID for a program type. The following table shows the case-sensitive IDs of all ABAP program types.
+This addition defines the [program type](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_type_glosry.htm "Glossary Entry") of the new or overwritten program in accordance with the content of pt. pt must be a data object of data type c with length 1 that contains a valid ID for a program type. The following table shows the case-sensitive IDs of all ABAP program types.
 
 ID
 
@@ -117,35 +117,35 @@ Program Type
 
 1
 
-[Executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry")
+[Executable program](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenexecutable_program_glosry.htm "Glossary Entry")
 
 F
 
-[Function pool](javascript:call_link\('abenfunction_pool_glosry.htm'\) "Glossary Entry") (or function group)
+[Function pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfunction_pool_glosry.htm "Glossary Entry") (or function group)
 
 I
 
-[Include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry")
+[Include program](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninclude_program_glosry.htm "Glossary Entry")
 
 J
 
-[Interface pool](javascript:call_link\('abeninterface_pool_glosry.htm'\) "Glossary Entry")
+[Interface pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abeninterface_pool_glosry.htm "Glossary Entry")
 
 K
 
-[Class pool](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry")
+[Class pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenclass_pool_glosry.htm "Glossary Entry")
 
 M
 
-[Module pool](javascript:call_link\('abenmodul_pool_glosry.htm'\) "Glossary Entry")
+[Module pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenmodul_pool_glosry.htm "Glossary Entry")
 
 S
 
-[Subroutine pool](javascript:call_link\('abensubroutine_pool_glosry.htm'\) "Glossary Entry")
+[Subroutine pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensubroutine_pool_glosry.htm "Glossary Entry")
 
 T
 
-[Type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry") or type group
+[Type pool](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abentype_pool_glosry.htm "Glossary Entry") or type group
 
 Addition 4   
 
@@ -153,7 +153,7 @@ Addition 4  
 
 Effect
 
-This addition defines the [fixed-point arithmetic](javascript:call_link\('abenfixed_point_arithmetic_glosry.htm'\) "Glossary Entry") property of the new or overwritten program in accordance with the content of fp. fp must be a data object of data type c with length 1 that contains either the value X or blank. The value X sets the fixed-point arithmetic property, while the value blank deactivates it.
+This addition defines the [fixed-point arithmetic](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenfixed_point_arithmetic_glosry.htm "Glossary Entry") property of the new or overwritten program in accordance with the content of fp. fp must be a data object of data type c with length 1 that contains either the value X or blank. The value X sets the fixed-point arithmetic property, while the value blank deactivates it.
 
 Addition 5   
 
@@ -161,7 +161,7 @@ Addition 5  
 
 Effect
 
-This addition specifies the [ABAP language version](javascript:call_link\('abenabap_versions.htm'\)) for the new or overwritten program in accordance with the content of vs. vs must be a data object of data type c with a length of 1, which can have the following values as version ID:
+This addition specifies the [ABAP language version](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_versions.htm) for the new or overwritten program in accordance with the content of vs. vs must be a data object of data type c with a length of 1, which can have the following values as version ID:
 
 vs
 
@@ -171,45 +171,45 @@ Meaning
 
 X
 
-[Standard ABAP](javascript:call_link\('abenstandard_abap_glosry.htm'\) "Glossary Entry")
+[Standard ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_abap_glosry.htm "Glossary Entry")
 
-Basic version, [Unicode check](javascript:call_link\('abenunicode_check_glosry.htm'\) "Glossary Entry") activated
+Basic version, [Unicode check](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunicode_check_glosry.htm "Glossary Entry") activated
 
 2
 
-[ABAP for Key Users](javascript:call_link\('abenabap_for_key_users_glosry.htm'\) "Glossary Entry")
+[ABAP for Key Users](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_key_users_glosry.htm "Glossary Entry")
 
 Restricted language scope for enhancements by key users
 
 3
 
-[Static ABAP with restricted object use](javascript:call_link\('abenabap_static_restr_glosry.htm'\) "Glossary Entry")
+[Static ABAP with restricted object use](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_static_restr_glosry.htm "Glossary Entry")
 
-Restricted use of external [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry"), dynamic language elements are not allowed
+Restricted use of external [repository objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_object_glosry.htm "Glossary Entry"), dynamic language elements are not allowed
 
 4
 
-[Standard ABAP with restricted object use](javascript:call_link\('abenstandard_abap_restr_obj_glosry.htm'\) "Glossary Entry")
+[Standard ABAP with restricted object use](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_abap_restr_obj_glosry.htm "Glossary Entry")
 
-Restricted use of external [repository objects](javascript:call_link\('abenrepository_object_glosry.htm'\) "Glossary Entry"), dynamic language elements are allowed
+Restricted use of external [repository objects](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenrepository_object_glosry.htm "Glossary Entry"), dynamic language elements are allowed
 
 5
 
-[ABAP for Cloud Development](javascript:call_link\('abenabap_for_sap_cloud_glosry.htm'\) "Glossary Entry")
+[ABAP for Cloud Development](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_for_sap_cloud_glosry.htm "Glossary Entry")
 
-Restricted language scope for developments in the [SAP Business Technology Platform](javascript:call_link\('abensap_btp_glosry.htm'\) "Glossary Entry").
+Restricted language scope for developments in the [SAP Business Technology Platform](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abensap_btp_glosry.htm "Glossary Entry").
 
 \-
 
-[Non-Unicode ABAP](javascript:call_link\('abennon_unicode_abap_glosry.htm'\) "Glossary Entry")
+[Non-Unicode ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennon_unicode_abap_glosry.htm "Glossary Entry")
 
-Obsolete, [Unicode check](javascript:call_link\('abenunicode_check_glosry.htm'\) "Glossary Entry") deactivated
+Obsolete, [Unicode check](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunicode_check_glosry.htm "Glossary Entry") deactivated
 
 Technically, the addition supplies the column UCCHECK of database table TRDIR. Values other than the ones shown here should not be specified. If incorrect values are specified as a literal and this is known statically, a syntax error occurs. Unknown values, on the other hand, are always saved in the database table TRDIR. Values not contained in the above table act as a version that does not support language elements.
 
 Hint
 
-An obsolete addition [UNICODE ENABLING](javascript:call_link\('abapinsert_report_obsolete.htm'\)) has the same meaning as VERSION.
+An obsolete addition [UNICODE ENABLING](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_report_obsolete.htm) has the same meaning as VERSION.
 
 Addition 6   
 
@@ -217,7 +217,7 @@ Addition 6  
 
 Effect
 
-This addition defines the [program properties](javascript:call_link\('abenprogram_property_glosry.htm'\) "Glossary Entry") for the new or overwritten program in accordance with the content of dir. dir must be a structure of data type TRDIR from the ABAP Dictionary. The required program properties can be specified in the components of this structure. Invalid content produces invalid program properties. All program properties are obtained from dir, except for the creation and change dates, and the corresponding times, properties program author or last changed by properties, and the version numbers. The latter are set to the same values as if nothing were specified.
+This addition defines the [program properties](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenprogram_property_glosry.htm "Glossary Entry") for the new or overwritten program in accordance with the content of dir. dir must be a structure of data type TRDIR from the ABAP Dictionary. The required program properties can be specified in the components of this structure. Invalid content produces invalid program properties. All program properties are obtained from dir, except for the creation and change dates, and the corresponding times, properties program author or last changed by properties, and the version numbers. The latter are set to the same values as if nothing were specified.
 
 Hint
 
@@ -225,7 +225,7 @@ When using the addition DIRECTORY ENTRY, it is strongly recommended that the con
 
 Example
 
-Switches parts of a program to [Unicode](javascript:call_link\('abenunicode_glosry.htm'\) "Glossary Entry"). A program with the obsolete language version [Non-Unicode ABAP](javascript:call_link\('abennon_unicode_abap_glosry.htm'\) "Glossary Entry") is imported and the statement DESCRIBE FIELD is switched to the syntax for [Unicode systems](javascript:call_link\('abenunicode_system_glosry.htm'\) "Glossary Entry") as an example. The source code of the program is then overwritten with the modified source code and the [ABAP language version](javascript:call_link\('abenabap_version_glosry.htm'\) "Glossary Entry") is set to [Standard ABAP](javascript:call_link\('abenstandard_abap_glosry.htm'\) "Glossary Entry").
+Switches parts of a program to [Unicode](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunicode_glosry.htm "Glossary Entry"). A program with the obsolete language version [Non-Unicode ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abennon_unicode_abap_glosry.htm "Glossary Entry") is imported and the statement DESCRIBE FIELD is switched to the syntax for [Unicode systems](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenunicode_system_glosry.htm "Glossary Entry") as an example. The source code of the program is then overwritten with the modified source code and the [ABAP language version](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_version_glosry.htm "Glossary Entry") is set to [Standard ABAP](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenstandard_abap_glosry.htm "Glossary Entry").
 
 DATA: itab TYPE TABLE OF string,
       prog TYPE sy-repid,
@@ -254,7 +254,7 @@ IF sy-subrc = 0.
   ENDIF.
 ENDIF.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_language_exceptions.htm)
 
 Catchable Exceptions
 
@@ -289,4 +289,4 @@ Uncatchable Exceptions
     Runtime error: INSERT\_REPORT\_NO\_EXTTYPE
 
 Continue
-[INSERT REPORT, Internal Additions](javascript:call_link\('abapinsert_report_internal.htm'\))
+[INSERT REPORT, Internal Additions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapinsert_report_internal.htm)

@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Exceptions Before Class-Based Exceptions](javascript:call_link\('abenexceptions_pre_610.htm'\)) →  [Non-Class-Based Exceptions](javascript:call_link\('abenexceptions_non_class.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_exceptions.htm) →  [Exceptions Before Class-Based Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_pre_610.htm) →  [Non-Class-Based Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_non_class.htm) → 
 
 RAISE
 
-[Quick Reference](javascript:call_link\('abapraise_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_shortref.htm)
 
 Syntax
 
@@ -16,7 +16,7 @@ RAISE exception.
 
 Effect
 
-This statement raises the [non-class-based exception](javascript:call_link\('abenexceptions_non_class.htm'\)) exception.
+This statement raises the [non-class-based exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_non_class.htm) exception.
 
 -   RAISE can be specified in a method only if the non-class-based exception is defined in the interface of the method.
     
@@ -27,22 +27,22 @@ This statement raises the [non-class-based exception](javascript:call_link\('abe
 
 After the exception exception is raised, the system proceeds as follows:
 
--   If the exception is raised in a method or function module whose caller assigns a return value to the exception, the [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") ends immediately, the system returns to the calling position, and the system field sy-subrc is set according to the assignment.
+-   If the exception is raised in a method or function module whose caller assigns a return value to the exception, the [procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocedure_glosry.htm "Glossary Entry") ends immediately, the system returns to the calling position, and the system field sy-subrc is set according to the assignment.
     
--   If the exception is raised in a method or function module whose caller does not assign a return value to the exception, a runtime error is then triggered whose [short dump](javascript:call_link\('abenshort_dump_glosry.htm'\) "Glossary Entry") contains the name of the exception.
+-   If the exception is raised in a method or function module whose caller does not assign a return value to the exception, a runtime error is then triggered whose [short dump](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenshort_dump_glosry.htm "Glossary Entry") contains the name of the exception.
     
 -   If the exception is raised in a subroutine, the system searches for the first function module in the procedures of the preceding call stack. If it finds a function module of this type and the exception is defined in it, the system acts as though the exception was raised in this function module. Otherwise, a runtime error occurs.
     
 -   In all other processing blocks, raising a non-class-based exception produces a runtime error that immediately ends the program.
     
 
-This form of the statement RAISE cannot be used in the same [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") as the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) or the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)) to raise class-based exceptions.
+This form of the statement RAISE cannot be used in the same [processing block](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocessing_block_glosry.htm "Glossary Entry") as the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception_class.htm) or the addition [THROW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expressions.htm) to raise class-based exceptions.
 
 Notes
 
--   The statement MESSAGE with the addition [RAISING](javascript:call_link\('abapmessage_raising.htm'\)) also raises a non-class-based exception. In cases in which non-class-based exceptions are still used, this statement is preferred instead of RAISE, because it offers the option of adding a text to the exception.
+-   The statement MESSAGE with the addition [RAISING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage_raising.htm) also raises a non-class-based exception. In cases in which non-class-based exceptions are still used, this statement is preferred instead of RAISE, because it offers the option of adding a text to the exception.
     
--   If a [procedure](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") is exited by raising an exception, the content of the formal parameter for which the [pass by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry") is defined is not assigned to the respective actual parameters.
+-   If a [procedure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocedure_glosry.htm "Glossary Entry") is exited by raising an exception, the content of the formal parameter for which the [pass by value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpass_by_value_glosry.htm "Glossary Entry") is defined is not assigned to the respective actual parameters.
     
 
 Example
@@ -69,7 +69,7 @@ START-OF-SELECTION.
       ...
   ENDCASE.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Non-Handleable Exceptions
 

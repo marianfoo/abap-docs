@@ -3,31 +3,7 @@
 Included pages: 8
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenmesh_path_result.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result.htm)
-- [abenmesh_path_result_init_assoc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_init_assoc.htm)
-- [abenmesh_path_result_chaining.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_chaining.htm)
-- [abenmesh_path_result_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_abexas.htm)
-- [abenmesh_for_forward_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_forward_abexa.htm)
-- [abenmesh_for_inverse_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_inverse_abexa.htm)
-- [abenmesh_for_reflex_sngl_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_reflex_sngl_abexa.htm)
-
-**Bundle Contains**: 7 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.939Z
-
----
-
 ### abenmesh_path_result.htm
-
-> **📖 Official SAP Documentation**: [abenmesh_path_result.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -35,36 +11,29 @@ Included pages: 8
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Mesh Paths](javascript:call_link\('abenmesh_pathes.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_meshes.htm) →  [Meshes - Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_pathes.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Meshes%20-%20Result%20of%20Mesh%20Paths%2C%20ABENMESH_PATH_RESULT%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Meshes - Result of Mesh Paths
 
-The mesh path result is a description of a set of lines in the last node path node of the expression. The result is used in statements and expressions for [using mesh paths](javascript:call_link\('abenmesh_path_usage.htm'\)) (with one exception); either for navigating in the last path node or for manipulating the last path node. The exception is statement [SET ASSOCIATION](javascript:call_link\('abenmesh_set_association.htm'\)), which works with the second last path node.
+The mesh path result is a description of a set of lines in the last node path node of the expression. The result is used in statements and expressions for [using mesh paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_usage.htm) (with one exception); either for navigating in the last path node or for manipulating the last path node. The exception is statement [SET ASSOCIATION](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_set_association.htm), which works with the second last path node.
 
--   [Result of the initial mesh association](javascript:call_link\('abenmesh_path_result_init_assoc.htm'\))
--   [Result of a path extension](javascript:call_link\('abenmesh_path_result_chaining.htm'\))
+-   [Result of the initial mesh association](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_init_assoc.htm)
+-   [Result of a path extension](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_chaining.htm)
 
 Hints
 
--   At runtime, the mesh path result expresses the relationship defined by mesh associations between the entry node and follow-on node. The result is managed internally by the ABAP runtime framework and evaluated in line with [Using Mesh Paths](javascript:call_link\('abenmesh_path_usage.htm'\)).
--   Loops implemented with [LOOP AT](javascript:call_link\('abenmesh_loop.htm'\)) or [FOR](javascript:call_link\('abenmesh_for.htm'\)) are suitable for performing reads on all the lines described by the mesh path result.
+-   At runtime, the mesh path result expresses the relationship defined by mesh associations between the entry node and follow-on node. The result is managed internally by the ABAP runtime framework and evaluated in line with [Using Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_usage.htm).
+-   Loops implemented with [LOOP AT](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_loop.htm) or [FOR](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for.htm) are suitable for performing reads on all the lines described by the mesh path result.
 
 Continue
-[Meshes - Result of the Initial Mesh Association](javascript:call_link\('abenmesh_path_result_init_assoc.htm'\))
-[Meshes - Result of a Path Extension](javascript:call_link\('abenmesh_path_result_chaining.htm'\))
-[Meshes - Example of Results of Mesh Paths](javascript:call_link\('abenmesh_path_result_abexas.htm'\))
+[Meshes - Result of the Initial Mesh Association](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_init_assoc.htm)
+[Meshes - Result of a Path Extension](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_chaining.htm)
+[Meshes - Example of Results of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_abexas.htm)
 
-
-
-**📖 Source**: [abenmesh_path_result.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result.htm)
 
 ### abenmesh_path_result_init_assoc.htm
-
-> **📖 Official SAP Documentation**: [abenmesh_path_result_init_assoc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_init_assoc.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -72,21 +41,21 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Mesh Paths](javascript:call_link\('abenmesh_pathes.htm'\)) →  [Meshes - Result of Mesh Paths](javascript:call_link\('abenmesh_path_result.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_meshes.htm) →  [Meshes - Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_pathes.htm) →  [Meshes - Result of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Meshes%20-%20Result%20of%20the%20Initial%20Mesh%20Association%2C%20ABENMESH_PATH_RESULT_INIT_ASSOC%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggesti
 on%20for%20improvement:)
 
 Meshes - Result of the Initial Mesh Association
 
-An initial mesh association with the [syntax](javascript:call_link\('abenmesh_path.htm'\))
+An initial mesh association with the [syntax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path.htm)
 
-...rnode[\\\_associ](javascript:call_link\('abenmesh_path_assoc.htm'\))\[ source *\[*[cond](javascript:call_link\('abenmesh_path_assoc_cond.htm'\))*\]* \] ...
+...rnode[\\\_associ](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc.htm)\[ source *\[*[cond](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc_cond.htm)*\]* \] ...
 
 describes a set of lines in the follow-on node of the used mesh association that meets the following conditions:
 
--   All lines meet the [ON condition](javascript:call_link\('abaptypes_mesh_association.htm'\)) of the used mesh association with respect to the specified structure source. Every tcomp column specified in the ON condition has the same content as in the scomp column of the root node in the source structure that is assigned to the ON condition.
--   Depending on the mesh path [usage](javascript:call_link\('abenmesh_path_usage.htm'\)), the set of lines can be further restricted by using additional [cond](javascript:call_link\('abenmesh_path_assoc_cond.htm'\)) conditions.
+-   All lines meet the [ON condition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_mesh_association.htm) of the used mesh association with respect to the specified structure source. Every tcomp column specified in the ON condition has the same content as in the scomp column of the root node in the source structure that is assigned to the ON condition.
+-   Depending on the mesh path [usage](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_usage.htm), the set of lines can be further restricted by using additional [cond](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc_cond.htm) conditions.
 
 Hint
 
@@ -94,17 +63,10 @@ The set of lines described by the result can be either one line or multiple line
 
 Executable Examples
 
-[Results of Mesh Paths](javascript:call_link\('abenmesh_path_result_abexas.htm'\))
+[Results of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_abexas.htm)
 
-
-
-**📖 Source**: [abenmesh_path_result_init_assoc.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_init_assoc.htm)
 
 ### abenmesh_path_result_chaining.htm
-
-> **📖 Official SAP Documentation**: [abenmesh_path_result_chaining.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_chaining.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -112,16 +74,16 @@ Executable Examples
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Mesh Paths](javascript:call_link\('abenmesh_pathes.htm'\)) →  [Meshes - Result of Mesh Paths](javascript:call_link\('abenmesh_path_result.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_meshes.htm) →  [Meshes - Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_pathes.htm) →  [Meshes - Result of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Meshes%20-%20Result%20of%20a%20Path%20Extension%2C%20ABENMESH_PATH_RESULT_CHAINING%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20impro
 vement:)
 
 Meshes - Result of a Path Extension
 
-A path extension with the [syntax](javascript:call_link\('abenmesh_path.htm'\))
+A path extension with the [syntax](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path.htm)
 
-...[\\\_assoc1](javascript:call_link\('abenmesh_path_assoc.htm'\))\[ *\[* [cond](javascript:call_link\('abenmesh_path_assoc_cond.htm'\))*\]* \] [\\\_assoc2](javascript:call_link\('abenmesh_path_assoc.htm'\))\[ *\[*[cond](javascript:call_link\('abenmesh_path_assoc_cond.htm'\))*\]* \] ...
+...[\\\_assoc1](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc.htm)\[ *\[* [cond](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc_cond.htm)*\]* \] [\\\_assoc2](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc.htm)\[ *\[*[cond](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc_cond.htm)*\]* \] ...
 
 describes a set of lines in the last path node.
 
@@ -129,8 +91,8 @@ Result when Used in a Loop
 
 Each mesh association specified in a mesh path with path extension describes a set of lines in its follow-on node that is used as a starting point for its follow-on nodes of the lines and meets the following conditions:
 
--   All lines meet the [ON condition](javascript:call_link\('abaptypes_mesh_association.htm'\)) of the mesh association used in relation to the set of lines described in the preceding mesh association. Every tcomp column listed in the ON condition has the same content as in the scomp column of the entry node assigned in the ON condition in a line of its result.
--   Depending on the mesh path [usage](javascript:call_link\('abenmesh_path_usage.htm'\)), the set of lines can be further restricted by using additional [cond](javascript:call_link\('abenmesh_path_assoc_cond.htm'\)) conditions.
+-   All lines meet the [ON condition](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abaptypes_mesh_association.htm) of the mesh association used in relation to the set of lines described in the preceding mesh association. Every tcomp column listed in the ON condition has the same content as in the scomp column of the entry node assigned in the ON condition in a line of its result.
+-   Depending on the mesh path [usage](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_usage.htm), the set of lines can be further restricted by using additional [cond](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_assoc_cond.htm) conditions.
 
 In the set of lines described by a path extension, each line occurs only once, even if it was found more than once in the evaluation of the mesh path.
 
@@ -144,17 +106,10 @@ The set of lines described by the result can be either one line or multiple line
 
 Executable Example
 
-[Results of Mesh Paths](javascript:call_link\('abenmesh_path_result_abexas.htm'\))
+[Results of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_abexas.htm)
 
-
-
-**📖 Source**: [abenmesh_path_result_chaining.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_chaining.htm)
 
 ### abenmesh_path_result_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenmesh_path_result_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -162,31 +117,24 @@ Executable Example
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Mesh Paths](javascript:call_link\('abenmesh_pathes.htm'\)) →  [Meshes - Result of Mesh Paths](javascript:call_link\('abenmesh_path_result.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_meshes.htm) →  [Meshes - Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_pathes.htm) →  [Meshes - Result of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Meshes%20-%20Example%20of%20Results%20of%20Mesh%20Paths%2C%20ABENMESH_PATH_RESULT_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%2
 0improvement:)
 
 Meshes - Example of Results of Mesh Paths
 
--   [Meshes - Forward Associations in Mesh Paths](javascript:call_link\('abenmesh_for_forward_abexa.htm'\))
--   [Meshes - Inverse Associations in Mesh Paths](javascript:call_link\('abenmesh_for_inverse_abexa.htm'\))
--   [Meshes - Reflexive Associations in Mesh Paths](javascript:call_link\('abenmesh_for_reflex_sngl_abexa.htm'\))
+-   [Meshes - Forward Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_forward_abexa.htm)
+-   [Meshes - Inverse Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_inverse_abexa.htm)
+-   [Meshes - Reflexive Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_reflex_sngl_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Meshes - Forward Associations in Mesh Paths](javascript:call_link\('abenmesh_for_forward_abexa.htm'\))
-![Example](exa.gif "Example") [Meshes - Inverse Associations in Mesh Paths](javascript:call_link\('abenmesh_for_inverse_abexa.htm'\))
-![Example](exa.gif "Example") [Meshes - Reflexive Associations in Mesh Paths](javascript:call_link\('abenmesh_for_reflex_sngl_abexa.htm'\))
+![Example](exa.gif "Example") [Meshes - Forward Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_forward_abexa.htm)
+![Example](exa.gif "Example") [Meshes - Inverse Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_inverse_abexa.htm)
+![Example](exa.gif "Example") [Meshes - Reflexive Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_reflex_sngl_abexa.htm)
 
-
-
-**📖 Source**: [abenmesh_path_result_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_abexas.htm)
 
 ### abenmesh_for_forward_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenmesh_for_forward_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_forward_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -194,7 +142,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Mesh Paths](javascript:call_link\('abenmesh_pathes.htm'\)) →  [Meshes - Result of Mesh Paths](javascript:call_link\('abenmesh_path_result.htm'\)) →  [Meshes - Example of Results of Mesh Paths](javascript:call_link\('abenmesh_path_result_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_meshes.htm) →  [Meshes - Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_pathes.htm) →  [Meshes - Result of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result.htm) →  [Meshes - Example of Results of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Meshes%20-%20Forward%20Associations%20in%20Mesh%20Paths%2C%20ABENMESH_FOR_FORWARD_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20
 improvement:)
@@ -301,17 +249,10 @@ ENDCLASS.
 
 Description   
 
-[Table comprehensions](javascript:call_link\('abenmesh_for.htm'\)) are used to construct and return internal tables that are described using forward associations in the mesh nodes mesh-node2 and mesh-node3.
+[Table comprehensions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for.htm) are used to construct and return internal tables that are described using forward associations in the mesh nodes mesh-node2 and mesh-node3.
 
-
-
-**📖 Source**: [abenmesh_for_forward_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_forward_abexa.htm)
 
 ### abenmesh_for_inverse_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenmesh_for_inverse_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_inverse_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -319,7 +260,7 @@ Description  
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Mesh Paths](javascript:call_link\('abenmesh_pathes.htm'\)) →  [Meshes - Result of Mesh Paths](javascript:call_link\('abenmesh_path_result.htm'\)) →  [Meshes - Example of Results of Mesh Paths](javascript:call_link\('abenmesh_path_result_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_meshes.htm) →  [Meshes - Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_pathes.htm) →  [Meshes - Result of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result.htm) →  [Meshes - Example of Results of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Meshes%20-%20Inverse%20Associations%20in%20Mesh%20Paths%2C%20ABENMESH_FOR_INVERSE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20
 improvement:)
@@ -427,17 +368,10 @@ ENDCLASS.
 
 Description   
 
-[Table comprehensions](javascript:call_link\('abenmesh_for.htm'\)) are used to construct and return internal tables that are described using inverse mesh associations in the mesh nodes mesh-node2 and mesh-node1.
+[Table comprehensions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for.htm) are used to construct and return internal tables that are described using inverse mesh associations in the mesh nodes mesh-node2 and mesh-node1.
 
-
-
-**📖 Source**: [abenmesh_for_inverse_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_inverse_abexa.htm)
 
 ### abenmesh_for_reflex_sngl_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenmesh_for_reflex_sngl_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_reflex_sngl_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -445,7 +379,7 @@ Description  
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Mesh Paths](javascript:call_link\('abenmesh_pathes.htm'\)) →  [Meshes - Result of Mesh Paths](javascript:call_link\('abenmesh_path_result.htm'\)) →  [Meshes - Example of Results of Mesh Paths](javascript:call_link\('abenmesh_path_result_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_meshes.htm) →  [Meshes - Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_pathes.htm) →  [Meshes - Result of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result.htm) →  [Meshes - Example of Results of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Meshes%20-%20Reflexive%20Associations%20in%20Mesh%20Paths%2C%20ABENMESH_FOR_REFLEX_SNGL_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20
 for%20improvement:)
@@ -547,17 +481,7 @@ In a reflexive mesh association (self-association), the source and target nodes 
     The result set also includes the line described by source.
 
 
-
-**📖 Source**: [abenmesh_for_reflex_sngl_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_reflex_sngl_abexa.htm)
-
 ### abenmesh_path_result_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenmesh_path_result_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abenmesh_path_result_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result_abexas.htm)
-
 
   
 
@@ -565,18 +489,18 @@ In a reflexive mesh association (self-association), the source and target nodes 
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Meshes](javascript:call_link\('abenabap_meshes.htm'\)) →  [Meshes - Mesh Paths](javascript:call_link\('abenmesh_pathes.htm'\)) →  [Meshes - Result of Mesh Paths](javascript:call_link\('abenmesh_path_result.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_data_working.htm) →  [Meshes](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_meshes.htm) →  [Meshes - Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_pathes.htm) →  [Meshes - Result of Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_path_result.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Meshes%20-%20Example%20of%20Results%20of%20Mesh%20Paths%2C%20ABENMESH_PATH_RESULT_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%2
 0improvement:)
 
 Meshes - Example of Results of Mesh Paths
 
--   [Meshes - Forward Associations in Mesh Paths](javascript:call_link\('abenmesh_for_forward_abexa.htm'\))
--   [Meshes - Inverse Associations in Mesh Paths](javascript:call_link\('abenmesh_for_inverse_abexa.htm'\))
--   [Meshes - Reflexive Associations in Mesh Paths](javascript:call_link\('abenmesh_for_reflex_sngl_abexa.htm'\))
+-   [Meshes - Forward Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_forward_abexa.htm)
+-   [Meshes - Inverse Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_inverse_abexa.htm)
+-   [Meshes - Reflexive Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_reflex_sngl_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Meshes - Forward Associations in Mesh Paths](javascript:call_link\('abenmesh_for_forward_abexa.htm'\))
-![Example](exa.gif "Example") [Meshes - Inverse Associations in Mesh Paths](javascript:call_link\('abenmesh_for_inverse_abexa.htm'\))
-![Example](exa.gif "Example") [Meshes - Reflexive Associations in Mesh Paths](javascript:call_link\('abenmesh_for_reflex_sngl_abexa.htm'\))
+![Example](exa.gif "Example") [Meshes - Forward Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_forward_abexa.htm)
+![Example](exa.gif "Example") [Meshes - Inverse Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_inverse_abexa.htm)
+![Example](exa.gif "Example") [Meshes - Reflexive Associations in Mesh Paths](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenmesh_for_reflex_sngl_abexa.htm)

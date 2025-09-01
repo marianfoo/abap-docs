@@ -4,11 +4,11 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP Database Access](javascript:call_link\('abenabap_sql.htm'\)) →  [ABAP SQL](javascript:call_link\('abenopensql.htm'\)) →  [ABAP SQL - Write Access](javascript:call_link\('abenopen_sql_writing.htm'\)) →  [INSERT, UPDATE, MODIFY, DELETE, target](javascript:call_link\('abapiumd_target.htm'\)) →  [INSERT, UPDATE, MODIFY, DELETE dbtab, CLIENT, CLIENTS](javascript:call_link\('abapiumd_client.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_language_external_data.htm) →  [ABAP Database Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_sql.htm) →  [ABAP SQL](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopensql.htm) →  [ABAP SQL - Write Access](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenopen_sql_writing.htm) →  [INSERT, UPDATE, MODIFY, DELETE, target](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_target.htm) →  [INSERT, UPDATE, MODIFY, DELETE dbtab, CLIENT, CLIENTS](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_client.htm) → 
 
 INSERT, CLIENT
 
-This example demonstrates client handling in the ABAP SQL statement [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)).
+This example demonstrates client handling in the ABAP SQL statement [INSERT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_dbtab.htm).
 
 Source Code
 
@@ -114,11 +114,11 @@ START-OF-SELECTION.
 
 Description
 
-The example demonstrates how the additions [USING CLIENT](javascript:call_link\('abapiumd_client.htm'\)) and [CLIENT SPECIFIED](javascript:call_link\('abapiumd_client.htm'\)) are used in [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)) statements that use various [subqueries](javascript:call_link\('abapinsert_from_select.htm'\)) as data sources. The example uses two DDIC database tables, the client-dependent table DEMO\_CLNT and the client-independent table DEMO\_NO\_CLNT, which themselves are associated in the subqueries by a join.
+The example demonstrates how the additions [USING CLIENT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_client.htm) and [CLIENT SPECIFIED](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapiumd_client.htm) are used in [INSERT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_dbtab.htm) statements that use various [subqueries](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_from_select.htm) as data sources. The example uses two DDIC database tables, the client-dependent table DEMO\_CLNT and the client-independent table DEMO\_NO\_CLNT, which themselves are associated in the subqueries by a join.
 
--   First, [DELETE](javascript:call_link\('abapdelete_dbtab.htm'\)) statements are used to delete all data in both DDIC database tables without specifying a condition or a source. For the client-dependent table, the addition USING ALL CLIENTS is used to delete the data of all clients.
+-   First, [DELETE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapdelete_dbtab.htm) statements are used to delete all data in both DDIC database tables without specifying a condition or a source. For the client-dependent table, the addition USING ALL CLIENTS is used to delete the data of all clients.
 
--   [INSERT](javascript:call_link\('abapinsert_dbtab.htm'\)) statements are then used to fill both tables with data from internal tables constructed in a host expression. For the client-dependent table, the addition CLIENT SPECIFIED is used to respect the client IDs in the client column of the internal table.
+-   [INSERT](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abapinsert_dbtab.htm) statements are then used to fill both tables with data from internal tables constructed in a host expression. For the client-dependent table, the addition CLIENT SPECIFIED is used to respect the client IDs in the client column of the internal table.
 
 -   The output shows the result set of the query used as a subquery in the following INSERT statement. This query uses the addition USING CLIENT to ensure that data from the client 100 is read. A LEFT OUTER JOIN between the client-dependent table and client-independent table produces a null value in the client column.
 
@@ -128,4 +128,4 @@ The example demonstrates how the additions [USING CLIENT](javascript:call_link\(
 
 -   However, a difference arises when the query is used as a subquery in an INSERT statement. USING CLIENTS IN @rtab is interpreted in such a way that the client ID of the subquery is to be inserted, which is why implicit client handling by the INSERT statement using CLIENT SPECIFIED has to be switched accordingly. Since the client column of the subquery contains a null value, the corresponding exception is raised.
 
--   The final INSERT statement bypasses the exception by using the [COALESCE](javascript:call_link\('abensql_coalesce.htm'\)) function in the SELECT list to replace the null value with the client ID 100.
+-   The final INSERT statement bypasses the exception by using the [COALESCE](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensql_coalesce.htm) function in the SELECT list to replace the null value with the client ID 100.

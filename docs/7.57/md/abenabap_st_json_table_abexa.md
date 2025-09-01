@@ -4,14 +4,14 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and JSON](javascript:call_link\('abenabap_json.htm'\)) →  [JSON - Examples](javascript:call_link\('abenabap_json_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_data_communication.htm) →  [ABAP and JSON](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_json.htm) →  [JSON - Examples](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_json_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: JSON - Simple Transformation for Internal Tables, ABENABAP_ST_JSON_TABLE_ABEXA, 757%0
 D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
 
 JSON - Simple Transformation for Internal Tables
 
-The example demonstrates the Simple Transformation of an internal table to [JSON data](javascript:call_link\('abenjson_oview.htm'\)).
+The example demonstrates the Simple Transformation of an internal table to [JSON data](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenjson_oview.htm).
 
 Source Code   
 
@@ -94,12 +94,12 @@ An internal table carrier\_tab is filled with data from the database table SCARR
   </tt:template>
 </tt:transform>
 
-The transformation is written in such a way that the new XML data has a valid [JSON XML](javascript:call_link\('abenabap_json_xml.htm'\)) format.
+The transformation is written in such a way that the new XML data has a valid [JSON XML](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_json_xml.htm) format.
 
--   When the transformation is called for the first time, a [JSON writer](javascript:call_link\('abenabap_json_sxml.htm'\)) is specified as the result. The JSON data can be retrieved directly from this result and added to the json string, where the data can be output.
+-   When the transformation is called for the first time, a [JSON writer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_json_sxml.htm) is specified as the result. The JSON data can be retrieved directly from this result and added to the json string, where the data can be output.
 -   When the transformation is called for the second time, an inline declared byte string xml is specified as the result. This usually creates XML data in XML 1.0 format. The output shows that it is the JSON XML created by the transformation.
 
 Finally, a demonstration that:
 
 -   The Simple Transformation is symmetrical. To do this, the JSON data is passed to the transformation. The result matches the source table.
--   An additional [JSON writer](javascript:call_link\('abenabap_json_sxml.htm'\)) creates the same JSON data in xml from the JSON-XML, as when the transformation is called. Specifying a JSON writer as the result of a transformation means that JSON-XML does not need to be explicitly handled in the ABAP program.
+-   An additional [JSON writer](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap_json_sxml.htm) creates the same JSON data in xml from the JSON-XML, as when the transformation is called. Specifying a JSON writer as the result of a transformation means that JSON-XML does not need to be explicitly handled in the ABAP program.

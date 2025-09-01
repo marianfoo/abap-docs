@@ -4,11 +4,11 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing External Data](javascript:call_link\('abenabap_language_external_data.htm'\)) →  [ABAP File Interface](javascript:call_link\('abenabap_language_files.htm'\)) →  [Statements for the ABAP File Interface](javascript:call_link\('abenfile_interface_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Processing External Data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_external_data.htm) →  [ABAP File Interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_files.htm) →  [Statements for the ABAP File Interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfile_interface_statements.htm) → 
 
 SET DATASET
 
-[Quick Reference](javascript:call_link\('abapset_dataset_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapset_dataset_shortref.htm)
 
 Syntax
 
@@ -24,7 +24,7 @@ Effect
 
 This statement uses the addition POSITION to determine the position of the file pointer in the file specified in dset. It uses the addition ATTRIBUTES to set additional attributes for the file. At least one of these two additions must be specified.
 
-dset expects a character-like data object containing the [physical name](javascript:call_link\('abenphysical_filename_glosry.htm'\) "Glossary Entry") of the file. The file must already be open, otherwise a handleable exception is raised.
+dset expects a character-like data object containing the [physical name](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenphysical_filename_glosry.htm "Glossary Entry") of the file. The file must already be open, otherwise a handleable exception is raised.
 
 Return Value
 
@@ -51,18 +51,18 @@ Note the following special cases:
 4.  If the file is opened for changes, and the value of pos is greater than the length of the file, it is filled with hexadecimal 0s from the end of the file to the specified position the next time a write is performed on it.
     
 
-The addition POSITION cannot be specified for files that have been opened with the addition [FILTER](javascript:call_link\('abapopen_dataset_os_addition.htm'\)) of the statement OPEN DATASET. This raises a handleable exception.
+The addition POSITION cannot be specified for files that have been opened with the addition [FILTER](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_os_addition.htm) of the statement OPEN DATASET. This raises a handleable exception.
 
 Notes
 
 -   For file sizes greater than 2 GB, a data object pos of data type i is not sufficient for entering all the possible positions of the file pointer.
     
--   Free specified positions are more suitable for binary files than for text files. In text files, positions depend on the character format, line-end markers, and in UTF-8 files, also on a Byte Order Mark (BOM). In text files, only place the file pointer in positions known precisely, for example positions obtained using [GET DATASET](javascript:call_link\('abapget_dataset.htm'\)).
+-   Free specified positions are more suitable for binary files than for text files. In text files, positions depend on the character format, line-end markers, and in UTF-8 files, also on a Byte Order Mark (BOM). In text files, only place the file pointer in positions known precisely, for example positions obtained using [GET DATASET](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_dataset.htm).
     
 
 Example
 
-When a write is performed, the file is read from the start of the file until the first end-of-line marker, and then the new content is written starting from the end of the file. If the data pointer is not set explicitly after a read, the last [TRANSFER](javascript:call_link\('abaptransfer.htm'\)) statements would overwrite the file after the first end-of-line marker.
+When a write is performed, the file is read from the start of the file until the first end-of-line marker, and then the new content is written starting from the end of the file. If the data pointer is not set explicitly after a read, the last [TRANSFER](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptransfer.htm) statements would overwrite the file after the first end-of-line marker.
 
 DATA: file TYPE string VALUE 'test1.dat',
       pos  TYPE i,
@@ -87,7 +87,7 @@ Addition 2
 
 Effect
 
-This addition can be used to change some of the attributes that were determined when the file was opened with the statement [OPENDATASET](javascript:call_link\('abapopen_dataset.htm'\)). attr expects a data object of type dset\_changeable\_attributes from the [type group](javascript:call_link\('abentype_group_1_glosry.htm'\) "Glossary Entry") DSET (see the table below). The structure dset\_changeable\_attributes corresponds to the substructure changeable of the structure dset\_attributes. Data objects of the structure dset\_attributes can be filled using the statement [GET DATASET](javascript:call_link\('abapget_dataset.htm'\)).
+This addition can be used to change some of the attributes that were determined when the file was opened with the statement [OPENDATASET](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset.htm). attr expects a data object of type dset\_changeable\_attributes from the [type group](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentype_group_1_glosry.htm "Glossary Entry") DSET (see the table below). The structure dset\_changeable\_attributes corresponds to the substructure changeable of the structure dset\_attributes. Data objects of the structure dset\_attributes can be filled using the statement [GET DATASET](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapget_dataset.htm).
 
 Component
 
@@ -99,33 +99,33 @@ Structure with the components repl\_char, conv\_errors, code\_page, endian, and 
 
 repl\_char
 
-In this component of attr, a single-character character-like replacement character can be specified to overwrite the replacement character specified when the file was opened using the addition [REPLACEMENT CHARACTER](javascript:call_link\('abapopen_dataset_error_handling.htm'\)) of the statement OPEN DATASET.
+In this component of attr, a single-character character-like replacement character can be specified to overwrite the replacement character specified when the file was opened using the addition [REPLACEMENT CHARACTER](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_error_handling.htm) of the statement OPEN DATASET.
 
 conv\_errors
 
-In this component of attr, the value "I" or "R" can be specified to overwrite the setting made when the file was opened using the addition [IGNORING CONVERSION ERRORS](javascript:call_link\('abapopen_dataset_error_handling.htm'\)). The value "I" suppresses the exceptions, "R" raises the exceptions.
+In this component of attr, the value "I" or "R" can be specified to overwrite the setting made when the file was opened using the addition [IGNORING CONVERSION ERRORS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_error_handling.htm). The value "I" suppresses the exceptions, "R" raises the exceptions.
 
 code\_page
 
-In this component of attr, a [code page](javascript:call_link\('abencodepage_glosry.htm'\) "Glossary Entry") from the column CPCODEPAGE of the database table TCP00 can be specified, to overwrite the code page specified when the file was opened using the addition [CODE PAGE](javascript:call_link\('abapopen_dataset_mode.htm'\)) of the statement OPEN DATASET.
+In this component of attr, a [code page](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencodepage_glosry.htm "Glossary Entry") from the column CPCODEPAGE of the database table TCP00 can be specified, to overwrite the code page specified when the file was opened using the addition [CODE PAGE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_mode.htm) of the statement OPEN DATASET.
 
 endian
 
-In this component of attr, the value "B" or "L" can be specified to overwrite the setting made when the file was opened using the additions [*{*BIG*|*LITTLE*}* ENDIAN](javascript:call_link\('abapopen_dataset_mode.htm'\)) of the statement OPEN DATASET. The value "B" sets the byte order to Big Endian, the value "L" sets it to Little Endian.
+In this component of attr, the value "B" or "L" can be specified to overwrite the setting made when the file was opened using the additions [*{*BIG*|*LITTLE*}* ENDIAN](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_mode.htm) of the statement OPEN DATASET. The value "B" sets the byte order to Big Endian, the value "L" sets it to Little Endian.
 
 linefeed\_mode
 
-In this component of attr, one of the values "N", "S", "U" or "W" can be entered to overwrite the setting made using the addition [WITH NATIVE*|*SMART*|*UNIX*|*WINDOWS LINEFEED](javascript:call_link\('abapopen_dataset_linefeed.htm'\)) of the statement OPEN DATASET as appropriate.
+In this component of attr, one of the values "N", "S", "U" or "W" can be entered to overwrite the setting made using the addition [WITH NATIVE*|*SMART*|*UNIX*|*WINDOWS LINEFEED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_linefeed.htm) of the statement OPEN DATASET as appropriate.
 
 For some components, the possible input values are defined as constants in the type group DSET.
 
 The values entered in attr must comply with the syntax rules for the relevant additions of the statement OPEN DATASET, otherwise this raises a handleable exception:
 
--   The components repl\_char and conv\_errors can only be used when making changes if the file is opened as a [text file](javascript:call_link\('abentext_file_glosry.htm'\) "Glossary Entry"), [legacy](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") text file, or [legacy](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") binary file, but not if it is opened as a [binary file](javascript:call_link\('abenbinary_file_glosry.htm'\) "Glossary Entry")
+-   The components repl\_char and conv\_errors can only be used when making changes if the file is opened as a [text file](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_file_glosry.htm "Glossary Entry"), [legacy](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlegacy_file_glosry.htm "Glossary Entry") text file, or [legacy](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlegacy_file_glosry.htm "Glossary Entry") binary file, but not if it is opened as a [binary file](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbinary_file_glosry.htm "Glossary Entry")
     
 -   The components code\_page and endian can only be used when making changes if the file is opened as a legacy text file or a legacy binary file.
     
--   The component linefeed\_mode can only be used when making changes if the file is opened as a [text file](javascript:call_link\('abentext_file_glosry.htm'\) "Glossary Entry") or a [legacy](javascript:call_link\('abenlegacy_file_glosry.htm'\) "Glossary Entry") text file and if the line-end marker has been set explicitly using the addition [WITH LINEFEED](javascript:call_link\('abapopen_dataset_linefeed.htm'\)).
+-   The component linefeed\_mode can only be used when making changes if the file is opened as a [text file](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentext_file_glosry.htm "Glossary Entry") or a [legacy](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlegacy_file_glosry.htm "Glossary Entry") text file and if the line-end marker has been set explicitly using the addition [WITH LINEFEED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapopen_dataset_linefeed.htm).
     
 
 Note
@@ -158,7 +158,7 @@ IF attr-fixed-mode = 'T' OR
 ENDIF.
 CLOSE DATASET dset.
 
-[Exceptions](javascript:call_link\('abenabap_language_exceptions.htm'\))
+[Exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_exceptions.htm)
 
 Handleable Exceptions
 

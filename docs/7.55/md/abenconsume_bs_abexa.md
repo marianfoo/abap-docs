@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - RAP Objects](javascript:call_link\('abencds_rap_objects.htm'\)) →  [ABAP CDS - RAP Business Services (BS)](javascript:call_link\('abencds_business_services.htm'\)) →  [ABAP CDS - Consuming Business Services](javascript:call_link\('abenservice_bindings_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds.htm) →  [ABAP CDS - RAP Objects](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_rap_objects.htm) →  [ABAP CDS - RAP Business Services (BS)](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencds_business_services.htm) →  [ABAP CDS - Consuming Business Services](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenservice_bindings_abexas.htm) → 
 
 ABAP CDS - Consuming Business Services with Demo Class
 
@@ -46,7 +46,7 @@ START-OF-SELECTION.
 
 Description
 
-Business services are designed mainly for accessing AS ABAP from outside, however for demonstration purposes here, an ICF client implemented in ABAP is used to read the ICF nodes of business services. The ICF client is implemented in the class CL\_DEMO\_BS\_CONSUMPTION that offers some methods for examining the OData data of [service bindings](javascript:call_link\('abenservice_binding_glosry.htm'\) "Glossary Entry") whose names are passed by parameter:
+Business services are designed mainly for accessing AS ABAP from outside, however for demonstration purposes here, an ICF client implemented in ABAP is used to read the ICF nodes of business services. The ICF client is implemented in the class CL\_DEMO\_BS\_CONSUMPTION that offers some methods for examining the OData data of [service bindings](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenservice_binding_glosry.htm "Glossary Entry") whose names are passed by parameter:
 
 -   Several methods are available for reading URLs for use in browsers.
 
@@ -72,4 +72,4 @@ The defaults for the input parameters of the programs access service definitions
 
 Hint
 
-See also [Consuming Business Services with Client Proxy](javascript:call_link\('abenconsume_bs_client_proxy_abexa.htm'\))
+See also [Consuming Business Services with Client Proxy](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenconsume_bs_client_proxy_abexa.htm)

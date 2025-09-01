@@ -4,10 +4,10 @@
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_glossary.htm) → 
 
 test seam
 
-[Seam](javascript:call_link\('abenseam_glosry.htm'\) "Glossary Entry") enclosed by the statements [TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\)) and [END-TEST-SEAM](javascript:call_link\('abapend-test-seam.htm'\)) in production code and replaced by an [injection](javascript:call_link\('abeninjection_glosry.htm'\) "Glossary Entry") when [unit tests](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") are executed.
+[Seam](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenseam_glosry.htm "Glossary Entry") enclosed by the statements [TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm) and [END-TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-test-seam.htm) in production code and replaced by an [injection](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninjection_glosry.htm "Glossary Entry") when [unit tests](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunit_test_glosry.htm "Glossary Entry") are executed.
 
-[→ More](javascript:call_link\('abentest_seams.htm'\))
+[→ More](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm)

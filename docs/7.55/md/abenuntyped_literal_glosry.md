@@ -4,10 +4,10 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP Glossary](javascript:call_link\('abenabap_glossary.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP Glossary](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_glossary.htm) → 
 
 untyped literal
 
-[Literal](javascript:call_link\('abenliteral_glosry.htm'\) "Glossary Entry") whose [data type](javascript:call_link\('abendata_type_glosry.htm'\) "Glossary Entry") is defined by its value or by its delimiter. Both untyped [numeric literals](javascript:call_link\('abennumeric_literal_glosry.htm'\) "Glossary Entry") and untyped [character literals](javascript:call_link\('abencharacter_literal_glosry.htm'\) "Glossary Entry") exist. See also [typed literal](javascript:call_link\('abentyped_literal_glosry.htm'\) "Glossary Entry").
+[Literal](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenliteral_glosry.htm "Glossary Entry") whose [data type](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abendata_type_glosry.htm "Glossary Entry") is defined by its value or by its delimiter. Both untyped [numeric literals](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abennumeric_literal_glosry.htm "Glossary Entry") and untyped [character literals](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abencharacter_literal_glosry.htm "Glossary Entry") exist. See also [typed literal](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abentyped_literal_glosry.htm "Glossary Entry").
 
-[→ More about](javascript:call_link\('abenliteral.htm'\))
+[→ More about](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenliteral.htm)

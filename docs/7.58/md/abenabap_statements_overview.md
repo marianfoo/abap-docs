@@ -4,1358 +4,1358 @@
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Syntax Elements of an ABAP Program](javascript:call_link\('abenabap_syntax.htm'\)) →  [ABAP Statements](javascript:call_link\('abenabap_statements.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_reference.htm) →  [Syntax Elements of an ABAP Program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_syntax.htm) →  [ABAP Statements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_statements.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20ABAP%20Statements%2C%20Overview%2C%20ABENABAP_STATEMENTS_OVERVIEW%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 ABAP Statements, Overview
 
-This section contains a thematically organized overview of all statements that are introduced by [ABAP keywords](javascript:call_link\('abenabap_keyword_glosry.htm'\) "Glossary Entry"). An alphabetical list of all ABAP words can be found under [ABAP Words](javascript:call_link\('abenabap_words.htm'\)).
+This section contains a thematically organized overview of all statements that are introduced by [ABAP keywords](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_keyword_glosry.htm "Glossary Entry"). An alphabetical list of all ABAP words can be found under [ABAP Words](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_words.htm).
 
 Program-Initiating Statements   
 
-[CLASS-POOL](javascript:call_link\('abapclass-pool.htm'\))
+[CLASS-POOL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass-pool.htm)
 
-Introduces a [class pool](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry")
+Introduces a [class pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_pool_glosry.htm "Glossary Entry")
 
-[FUNCTION-POOL](javascript:call_link\('abapfunction-pool.htm'\))
+[FUNCTION-POOL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfunction-pool.htm)
 
-Introduces a [function pool](javascript:call_link\('abenfunction_pool_glosry.htm'\) "Glossary Entry")
+Introduces a [function pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunction_pool_glosry.htm "Glossary Entry")
 
-[INTERFACE-POOL](javascript:call_link\('abapinterface-pool.htm'\))
+[INTERFACE-POOL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterface-pool.htm)
 
-Introduces an [interface pool](javascript:call_link\('abeninterface_pool_glosry.htm'\) "Glossary Entry")
+Introduces an [interface pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninterface_pool_glosry.htm "Glossary Entry")
 
-[PROGRAM](javascript:call_link\('abapprogram.htm'\))
+[PROGRAM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprogram.htm)
 
-Introduces a [module pool](javascript:call_link\('abenmodul_pool_glosry.htm'\) "Glossary Entry") or [subroutine pool](javascript:call_link\('abensubroutine_pool_glosry.htm'\) "Glossary Entry")
+Introduces a [module pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmodul_pool_glosry.htm "Glossary Entry") or [subroutine pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubroutine_pool_glosry.htm "Glossary Entry")
 
-[REPORT](javascript:call_link\('abapreport.htm'\))
+[REPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreport.htm)
 
-Introduces an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry")
+Introduces an [executable program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexecutable_program_glosry.htm "Glossary Entry")
 
-[TYPE-POOL](javascript:call_link\('abaptype-pool.htm'\))
+[TYPE-POOL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype-pool.htm)
 
-Introduces a [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry")
+Introduces a [type pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_pool_glosry.htm "Glossary Entry")
 
 Modularization Statements   
 
 Procedures   
 
-[FUNCTION ... ENDFUNCTION](javascript:call_link\('abapfunction.htm'\))
+[FUNCTION ... ENDFUNCTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfunction.htm)
 
-Defines a [function module](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry")
+Defines a [function module](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunction_module_glosry.htm "Glossary Entry")
 
-[METHOD ... ENDMETHOD](javascript:call_link\('abapmethod.htm'\))
+[METHOD ... ENDMETHOD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethod.htm)
 
-Defines a [method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry")
+Defines a [method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_glosry.htm "Glossary Entry")
 
 Dialog Modules   
 
-[MODULE ... ENDMODULE](javascript:call_link\('abapmodule.htm'\))
+[MODULE ... ENDMODULE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodule.htm)
 
-Defines a [dialog module](javascript:call_link\('abendialog_module_glosry.htm'\) "Glossary Entry")
+Defines a [dialog module](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendialog_module_glosry.htm "Glossary Entry")
 
 Event Blocks   
 
-[AT LINE-SELECTION](javascript:call_link\('abapat_line-selection.htm'\))
+[AT LINE-SELECTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_line-selection.htm)
 
-[List event](javascript:call_link\('abenlist_event_glosry.htm'\) "Glossary Entry")
+[List event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_event_glosry.htm "Glossary Entry")
 
-[AT SELECTION-SCREEN](javascript:call_link\('abapat_selection-screen.htm'\))
+[AT SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_selection-screen.htm)
 
-[Selection screen event](javascript:call_link\('abenselection_screen_event_glosry.htm'\) "Glossary Entry")
+[Selection screen event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselection_screen_event_glosry.htm "Glossary Entry")
 
-[AT USER-COMMAND](javascript:call_link\('abapat_user-command.htm'\))
+[AT USER-COMMAND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_user-command.htm)
 
-[List event](javascript:call_link\('abenlist_event_glosry.htm'\) "Glossary Entry")
+[List event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_event_glosry.htm "Glossary Entry")
 
-[END-OF-PAGE](javascript:call_link\('abapend-of-page.htm'\))
+[END-OF-PAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapend-of-page.htm)
 
-[List event](javascript:call_link\('abenlist_event_glosry.htm'\) "Glossary Entry")
+[List event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_event_glosry.htm "Glossary Entry")
 
-[INITIALIZATION](javascript:call_link\('abapinitialization.htm'\))
+[INITIALIZATION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinitialization.htm)
 
-[Reporting event](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry")
+[Reporting event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreporting_event_glosry.htm "Glossary Entry")
 
-[LOAD-OF-PROGRAM](javascript:call_link\('abapload-of-program.htm'\))
+[LOAD-OF-PROGRAM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapload-of-program.htm)
 
-[Program constructor event](javascript:call_link\('abenprogram_construct_event_glosry.htm'\) "Glossary Entry")
+[Program constructor event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprogram_construct_event_glosry.htm "Glossary Entry")
 
-[START-OF-SELECTION](javascript:call_link\('abapstart-of-selection.htm'\))
+[START-OF-SELECTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstart-of-selection.htm)
 
-[Reporting event](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry")
+[Reporting event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreporting_event_glosry.htm "Glossary Entry")
 
-[TOP-OF-PAGE](javascript:call_link\('abaptop-of-page.htm'\))
+[TOP-OF-PAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptop-of-page.htm)
 
-[List event](javascript:call_link\('abenlist_event_glosry.htm'\) "Glossary Entry")
+[List event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_event_glosry.htm "Glossary Entry")
 
 Source Code Modules   
 
-[DEFINE ... END-OF-DEFINITION](javascript:call_link\('abapdefine.htm'\))
+[DEFINE ... END-OF-DEFINITION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdefine.htm)
 
-Defines a [macro](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry")
+Defines a [macro](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmacro_glosry.htm "Glossary Entry")
 
-[INCLUDE](javascript:call_link\('abapinclude_prog.htm'\))
+[INCLUDE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinclude_prog.htm)
 
-Includes an [include program](javascript:call_link\('abeninclude_program_glosry.htm'\) "Glossary Entry")
+Includes an [include program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninclude_program_glosry.htm "Glossary Entry")
 
 Declarative Statements   
 
 Data Types and Data Objects   
 
-[CONSTANTS](javascript:call_link\('abapconstants.htm'\))
+[CONSTANTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconstants.htm)
 
-Declares a [constant](javascript:call_link\('abenconstant_glosry.htm'\) "Glossary Entry")
+Declares a [constant](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenconstant_glosry.htm "Glossary Entry")
 
-[DATA](javascript:call_link\('abapdata.htm'\))
+[DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdata.htm)
 
-Declares a [variable](javascript:call_link\('abenvariable_glosry.htm'\) "Glossary Entry")
+Declares a [variable](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvariable_glosry.htm "Glossary Entry")
 
-[FIELD-SYMBOLS](javascript:call_link\('abapfield-symbols.htm'\))
+[FIELD-SYMBOLS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfield-symbols.htm)
 
-Declares a [field symbol](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry")
+Declares a [field symbol](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfield_symbol_glosry.htm "Glossary Entry")
 
-[INCLUDE](javascript:call_link\('abapinclude_type.htm'\))
+[INCLUDE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinclude_type.htm)
 
-Includes a [structure](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry")
+Includes a [structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_glosry.htm "Glossary Entry")
 
-[NODES](javascript:call_link\('abapnodes.htm'\))
+[NODES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapnodes.htm)
 
-Declares a [table work area](javascript:call_link\('abentable_work_area_glosry.htm'\) "Glossary Entry")
+Declares a [table work area](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_work_area_glosry.htm "Glossary Entry")
 
-[STATICS](javascript:call_link\('abapstatics.htm'\))
+[STATICS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstatics.htm)
 
-Declares a static [variable](javascript:call_link\('abenvariable_glosry.htm'\) "Glossary Entry")
+Declares a static [variable](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvariable_glosry.htm "Glossary Entry")
 
-[TABLES](javascript:call_link\('abaptables.htm'\))
+[TABLES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptables.htm)
 
-Declares a [table work area](javascript:call_link\('abentable_work_area_glosry.htm'\) "Glossary Entry")
+Declares a [table work area](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_work_area_glosry.htm "Glossary Entry")
 
-[TYPES](javascript:call_link\('abaptypes.htm'\))
+[TYPES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptypes.htm)
 
-Defines a [standalone data type](javascript:call_link\('abenstand-alone_data_type_glosry.htm'\) "Glossary Entry")
+Defines a [standalone data type](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstand-alone_data_type_glosry.htm "Glossary Entry")
 
 Classes and Interfaces   
 
-[ALIASES](javascript:call_link\('abapaliases.htm'\))
+[ALIASES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapaliases.htm)
 
-Declares an [alias name](javascript:call_link\('abenalias_glosry.htm'\) "Glossary Entry")
+Declares an [alias name](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenalias_glosry.htm "Glossary Entry")
 
-[CLASS ... ENDCLASS](javascript:call_link\('abapclass.htm'\))
+[CLASS ... ENDCLASS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass.htm)
 
-Defines a [class](javascript:call_link\('abenclass_glosry.htm'\) "Glossary Entry")
+Defines a [class](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_glosry.htm "Glossary Entry")
 
-[CLASS-DATA](javascript:call_link\('abapclass-data.htm'\))
+[CLASS-DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass-data.htm)
 
-Declares a [static attribute](javascript:call_link\('abenstatic_attribute_glosry.htm'\) "Glossary Entry")
+Declares a [static attribute](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_attribute_glosry.htm "Glossary Entry")
 
-[CLASS-EVENTS](javascript:call_link\('abapclass-events.htm'\))
+[CLASS-EVENTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass-events.htm)
 
-Declares a [static event](javascript:call_link\('abenstatic_event_glosry.htm'\) "Glossary Entry")
+Declares a [static event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_event_glosry.htm "Glossary Entry")
 
-[CLASS-METHODS](javascript:call_link\('abapclass-methods.htm'\))
+[CLASS-METHODS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclass-methods.htm)
 
-Declares a [static method](javascript:call_link\('abenstatic_method_glosry.htm'\) "Glossary Entry")
+Declares a [static method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstatic_method_glosry.htm "Glossary Entry")
 
-[EVENTS](javascript:call_link\('abapevents.htm'\))
+[EVENTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapevents.htm)
 
-Declares an [instance event](javascript:call_link\('abeninstance_event_glosry.htm'\) "Glossary Entry")
+Declares an [instance event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninstance_event_glosry.htm "Glossary Entry")
 
-[INTERFACE ... ENDINTERFACE](javascript:call_link\('abapinterface.htm'\))
+[INTERFACE ... ENDINTERFACE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterface.htm)
 
-Defines an [interface](javascript:call_link\('abenoo_intf_glosry.htm'\) "Glossary Entry")
+Defines an [interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoo_intf_glosry.htm "Glossary Entry")
 
-[INTERFACES](javascript:call_link\('abapinterfaces.htm'\))
+[INTERFACES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinterfaces.htm)
 
-Includes an [interface](javascript:call_link\('abenoo_intf_glosry.htm'\) "Glossary Entry")
+Includes an [interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenoo_intf_glosry.htm "Glossary Entry")
 
-[METHODS](javascript:call_link\('abapmethods.htm'\))
+[METHODS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmethods.htm)
 
-Declares an [instance method](javascript:call_link\('abeninstance_method_glosry.htm'\) "Glossary Entry")
+Declares an [instance method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninstance_method_glosry.htm "Glossary Entry")
 
-[PRIVATE SECTION](javascript:call_link\('abapprivate.htm'\))
+[PRIVATE SECTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprivate.htm)
 
-Introduces the package [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry")
+Introduces the package [visibility section](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvisibility_section_glosry.htm "Glossary Entry")
 
-[PROTECTED SECTION](javascript:call_link\('abapprotected.htm'\))
+[PROTECTED SECTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprotected.htm)
 
-Introduces the protected [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry")
+Introduces the protected [visibility section](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvisibility_section_glosry.htm "Glossary Entry")
 
-[PUBLIC SECTION](javascript:call_link\('abappublic.htm'\))
+[PUBLIC SECTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abappublic.htm)
 
-Introduces the public [visibility section](javascript:call_link\('abenvisibility_section_glosry.htm'\) "Glossary Entry")
+Introduces the public [visibility section](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenvisibility_section_glosry.htm "Glossary Entry")
 
 Object Creation   
 
-[CREATE DATA](javascript:call_link\('abapcreate_data.htm'\))
+[CREATE DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_data.htm)
 
-Creates an [anonymous data object](javascript:call_link\('abenanonymous_data_object_glosry.htm'\) "Glossary Entry")
+Creates an [anonymous data object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenanonymous_data_object_glosry.htm "Glossary Entry")
 
-[CREATE OBJECT](javascript:call_link\('abapcreate_object.htm'\))
+[CREATE OBJECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_object.htm)
 
-Creates an [object](javascript:call_link\('abenobject_glosry.htm'\) "Glossary Entry")
+Creates an [object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenobject_glosry.htm "Glossary Entry")
 
 Calling and Exiting Program Units   
 
 Calling Programs  
 
-[CALL TRANSACTION](javascript:call_link\('abapcall_transaction.htm'\))
+[CALL TRANSACTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transaction.htm)
 
-Calls a [transaction](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry")
+Calls a [transaction](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransaction_glosry.htm "Glossary Entry")
 
-[LEAVE TO TRANSACTION](javascript:call_link\('abapleave_to_transaction.htm'\))
+[LEAVE TO TRANSACTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave_to_transaction.htm)
 
-Calls a [transaction](javascript:call_link\('abentransaction_glosry.htm'\) "Glossary Entry")
+Calls a [transaction](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentransaction_glosry.htm "Glossary Entry")
 
-[SUBMIT](javascript:call_link\('abapsubmit.htm'\))
+[SUBMIT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsubmit.htm)
 
-Calls an [executable program](javascript:call_link\('abenexecutable_program_glosry.htm'\) "Glossary Entry")
+Calls an [executable program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexecutable_program_glosry.htm "Glossary Entry")
 
 Calling Processing Blocks   
 
-[CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\))
+[CALL FUNCTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function.htm)
 
-Calls a [function module](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry")
+Calls a [function module](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunction_module_glosry.htm "Glossary Entry")
 
-[CALL METHOD](javascript:call_link\('abapcall_method_dynamic.htm'\))
+[CALL METHOD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_dynamic.htm)
 
-Calls a [method](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") dynamically
+Calls a [method](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmethod_glosry.htm "Glossary Entry") dynamically
 
-[PERFORM](javascript:call_link\('abapperform.htm'\))
+[PERFORM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapperform.htm)
 
-Calls a [subroutine](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry")
+Calls a [subroutine](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubroutine_glosry.htm "Glossary Entry")
 
-[RAISE EVENT](javascript:call_link\('abapraise_event.htm'\))
+[RAISE EVENT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_event.htm)
 
-Triggers an [event](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry")
+Triggers an [event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevent_glosry.htm "Glossary Entry")
 
-[SET HANDLER](javascript:call_link\('abapset_handler.htm'\))
+[SET HANDLER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_handler.htm)
 
-Registers an [event](javascript:call_link\('abenevent_glosry.htm'\) "Glossary Entry")
+Registers an [event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenevent_glosry.htm "Glossary Entry")
 
-[SET USER-COMMAND](javascript:call_link\('abapset_user-command.htm'\))
+[SET USER-COMMAND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_user-command.htm)
 
-Triggers a [list event](javascript:call_link\('abenlist_event_glosry.htm'\) "Glossary Entry")
+Triggers a [list event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_event_glosry.htm "Glossary Entry")
 
 Exiting Program Units   
 
-[CHECK](javascript:call_link\('abapcheck_loop.htm'\))
+[CHECK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcheck_loop.htm)
 
-Exits a [loop](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry") pass or [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry")
+Exits a [loop](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_glosry.htm "Glossary Entry") pass or [processing block](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm "Glossary Entry")
 
-[CONTINUE](javascript:call_link\('abapcontinue.htm'\))
+[CONTINUE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcontinue.htm)
 
-Exits a [loop](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry") pass
+Exits a [loop](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_glosry.htm "Glossary Entry") pass
 
-[EXIT](javascript:call_link\('abapexit_loop.htm'\))
+[EXIT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_loop.htm)
 
-Exits a [loop](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry") or [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry")
+Exits a [loop](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_glosry.htm "Glossary Entry") or [processing block](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm "Glossary Entry")
 
-[LEAVE PROGRAM](javascript:call_link\('abapleave_program.htm'\))
+[LEAVE PROGRAM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave_program.htm)
 
-Exits an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry")
+Exits an [ABAP program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_glosry.htm "Glossary Entry")
 
-[RETURN](javascript:call_link\('abapreturn.htm'\))
+[RETURN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreturn.htm)
 
-Exits a [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry")
+Exits a [processing block](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm "Glossary Entry")
 
-[STOP](javascript:call_link\('abapstop.htm'\))
+[STOP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstop.htm)
 
-Exits a [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry")
+Exits a [processing block](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm "Glossary Entry")
 
 Program Flow Logic   
 
 Control Structures   
 
-[DO ... ENDDO](javascript:call_link\('abapdo.htm'\))
+[DO ... ENDDO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdo.htm)
 
-[Loop](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry")
+[Loop](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_glosry.htm "Glossary Entry")
 
-[CASE ... WHEN ... ENDCASE](javascript:call_link\('abapcase.htm'\))
+[CASE ... WHEN ... ENDCASE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcase.htm)
 
-[Branch](javascript:call_link\('abenbranch_glosry.htm'\) "Glossary Entry")
+[Branch](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbranch_glosry.htm "Glossary Entry")
 
-[CASE TYPE OF ... WHEN TYPE ... ENDCASE](javascript:call_link\('abapcase_type.htm'\))
+[CASE TYPE OF ... WHEN TYPE ... ENDCASE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcase_type.htm)
 
-[Case distinction](javascript:call_link\('abencase_distinction_glosry.htm'\) "Glossary Entry")
+[Case distinction](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencase_distinction_glosry.htm "Glossary Entry")
 
-[IF ... ELSEIF ... ELSE ... ENDIF](javascript:call_link\('abapif.htm'\))
+[IF ... ELSEIF ... ELSE ... ENDIF](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapif.htm)
 
-[Case distinction](javascript:call_link\('abencase_distinction_glosry.htm'\) "Glossary Entry")
+[Case distinction](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencase_distinction_glosry.htm "Glossary Entry")
 
-[WHILE ... ENDWHILE](javascript:call_link\('abapwhile.htm'\))
+[WHILE ... ENDWHILE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwhile.htm)
 
-[Loop](javascript:call_link\('abenloop_glosry.htm'\) "Glossary Entry")
+[Loop](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenloop_glosry.htm "Glossary Entry")
 
 Program Interruption   
 
-[WAIT UP TO](javascript:call_link\('abapwait_up_to.htm'\))
+[WAIT UP TO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_up_to.htm)
 
 Interrupts a program for a specified time
 
 Exception Handling   
 
-[RAISE](javascript:call_link\('abapraise_exception.htm'\))
+[RAISE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception.htm)
 
-Triggers a non-class-based [exception](javascript:call_link\('abenexception_glosry.htm'\) "Glossary Entry")
+Triggers a non-class-based [exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenexception_glosry.htm "Glossary Entry")
 
-[RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\))
+[RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapraise_exception_class.htm)
 
-Triggers a [class-based exception](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry")
+Triggers a [class-based exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_based_exception_glosry.htm "Glossary Entry")
 
-[TRY ... CATCH ... CLEANUP ... ENDTRY](javascript:call_link\('abaptry.htm'\))
+[TRY ... CATCH ... CLEANUP ... ENDTRY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptry.htm)
 
-Handles [class-based exceptions](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry")
+Handles [class-based exceptions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclass_based_exception_glosry.htm "Glossary Entry")
 
-[RESUME](javascript:call_link\('abapresume.htm'\))
+[RESUME](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapresume.htm)
 
-Resumes after a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry")
+Resumes after a [resumable exception](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenresumable_exception_glosry.htm "Glossary Entry")
 
 Assignments   
 
 Special Assignments   
 
-[MOVE-CORRESPONDING](javascript:call_link\('abapmove-corresponding.htm'\))
+[MOVE-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove-corresponding.htm)
 
-Assigns [structure](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry") components
+Assigns [structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_glosry.htm "Glossary Entry") components
 
-[UNPACK](javascript:call_link\('abapunpack.htm'\))
+[UNPACK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapunpack.htm)
 
-Unpacks a [packed number](javascript:call_link\('abenpacked_number_glosry.htm'\) "Glossary Entry")
+Unpacks a [packed number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpacked_number_glosry.htm "Glossary Entry")
 
 Setting References   
 
-[ASSIGN](javascript:call_link\('abapassign.htm'\))
+[ASSIGN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassign.htm)
 
-Sets a [field symbol](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry")
+Sets a [field symbol](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfield_symbol_glosry.htm "Glossary Entry")
 
-[UNASSIGN](javascript:call_link\('abapunassign.htm'\))
+[UNASSIGN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapunassign.htm)
 
-Initializes a [field symbol](javascript:call_link\('abenfield_symbol_glosry.htm'\) "Glossary Entry")
+Initializes a [field symbol](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfield_symbol_glosry.htm "Glossary Entry")
 
-[GET REFERENCE](javascript:call_link\('abapget_reference.htm'\))
+[GET REFERENCE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_reference.htm)
 
-Sets a [data reference](javascript:call_link\('abendata_reference_glosry.htm'\) "Glossary Entry")
+Sets a [data reference](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_reference_glosry.htm "Glossary Entry")
 
 Initializations   
 
-[CLEAR](javascript:call_link\('abapclear.htm'\))
+[CLEAR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclear.htm)
 
-Initializes a [data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry")
+Initializes a [data object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_object_glosry.htm "Glossary Entry")
 
-[FREE](javascript:call_link\('abapfree_dataobject.htm'\))
+[FREE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfree_dataobject.htm)
 
-Initializes a [data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry")
+Initializes a [data object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_object_glosry.htm "Glossary Entry")
 
 Processing Internal Data   
 
 Character String and Byte String Processing   
 
-[CONCATENATE](javascript:call_link\('abapconcatenate.htm'\))
+[CONCATENATE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconcatenate.htm)
 
-Concatenates [character strings](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry") or [byte chains](javascript:call_link\('abenbyte_chain_glosry.htm'\) "Glossary Entry")
+Concatenates [character strings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_glosry.htm "Glossary Entry") or [byte chains](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbyte_chain_glosry.htm "Glossary Entry")
 
-[CONDENSE](javascript:call_link\('abapcondense.htm'\))
+[CONDENSE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcondense.htm)
 
-Condenses a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry")
+Condenses a [character string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_glosry.htm "Glossary Entry")
 
-[CONVERT TEXT](javascript:call_link\('abapconvert_text.htm'\))
+[CONVERT TEXT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconvert_text.htm)
 
-Converts a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry")
+Converts a [character string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_glosry.htm "Glossary Entry")
 
-[FIND](javascript:call_link\('abapfind.htm'\))
+[FIND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfind.htm)
 
-Searches in a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry") or [byte chain](javascript:call_link\('abenbyte_chain_glosry.htm'\) "Glossary Entry")
+Searches in a [character string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_glosry.htm "Glossary Entry") or [byte chain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbyte_chain_glosry.htm "Glossary Entry")
 
-[GET BIT](javascript:call_link\('abapget_bit.htm'\))
+[GET BIT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_bit.htm)
 
-Reads individual bits in a [byte chain](javascript:call_link\('abenbyte_chain_glosry.htm'\) "Glossary Entry")
+Reads individual bits in a [byte chain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbyte_chain_glosry.htm "Glossary Entry")
 
-[OVERLAY](javascript:call_link\('abapoverlay.htm'\))
+[OVERLAY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapoverlay.htm)
 
-Makes a replacement in a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry")
+Makes a replacement in a [character string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_glosry.htm "Glossary Entry")
 
-[REPLACE](javascript:call_link\('abapreplace.htm'\))
+[REPLACE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreplace.htm)
 
-Makes a replacement in a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry") or [byte chain](javascript:call_link\('abenbyte_chain_glosry.htm'\) "Glossary Entry")
+Makes a replacement in a [character string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_glosry.htm "Glossary Entry") or [byte chain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbyte_chain_glosry.htm "Glossary Entry")
 
-[SET BIT](javascript:call_link\('abapset_bit.htm'\))
+[SET BIT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_bit.htm)
 
-Sets individual bits in a [byte chain](javascript:call_link\('abenbyte_chain_glosry.htm'\) "Glossary Entry")
+Sets individual bits in a [byte chain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbyte_chain_glosry.htm "Glossary Entry")
 
-[SHIFT](javascript:call_link\('abapshift.htm'\))
+[SHIFT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapshift.htm)
 
-Moves a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry") or [byte chain](javascript:call_link\('abenbyte_chain_glosry.htm'\) "Glossary Entry")
+Moves a [character string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_glosry.htm "Glossary Entry") or [byte chain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbyte_chain_glosry.htm "Glossary Entry")
 
-[SPLIT](javascript:call_link\('abapsplit.htm'\))
+[SPLIT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsplit.htm)
 
-Splits a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry") or [byte chain](javascript:call_link\('abenbyte_chain_glosry.htm'\) "Glossary Entry")
+Splits a [character string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_glosry.htm "Glossary Entry") or [byte chain](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbyte_chain_glosry.htm "Glossary Entry")
 
-[TRANSLATE](javascript:call_link\('abaptranslate.htm'\))
+[TRANSLATE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptranslate.htm)
 
-Transforms a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry")
+Transforms a [character string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_glosry.htm "Glossary Entry")
 
-[WRITE TO](javascript:call_link\('abapwrite_to.htm'\))
+[WRITE TO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to.htm)
 
 Formats values as a character string
 
 Date and Time Processing   
 
-[CONVERT INTO UTCLONG](javascript:call_link\('abapconvert_date_utclong.htm'\))
+[CONVERT INTO UTCLONG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconvert_date_utclong.htm)
 
-Converts a date and time into a [time stamp](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") in a time stamp field
+Converts a date and time into a [time stamp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentime_stamp_glosry.htm "Glossary Entry") in a time stamp field
 
-[CONVERT UTCLONG](javascript:call_link\('abapconvert_utclong.htm'\))
+[CONVERT UTCLONG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconvert_utclong.htm)
 
-Converts a [time stamp](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") into a date and time in a time field
+Converts a [time stamp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentime_stamp_glosry.htm "Glossary Entry") into a date and time in a time field
 
-[CONVERT INTO TIME STAMP](javascript:call_link\('abapconvert_date_time-stamp.htm'\))
+[CONVERT INTO TIME STAMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconvert_date_time-stamp.htm)
 
-Converts a date and time into a [time stamp](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") in a packed number
+Converts a date and time into a [time stamp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentime_stamp_glosry.htm "Glossary Entry") in a packed number
 
-[CONVERT TIME STAMP](javascript:call_link\('abapconvert_time-stamp.htm'\))
+[CONVERT TIME STAMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconvert_time-stamp.htm)
 
-Converts a [time stamp](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") into a date and time in a packed number
+Converts a [time stamp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentime_stamp_glosry.htm "Glossary Entry") into a date and time in a packed number
 
-[GET TIME](javascript:call_link\('abapget_time.htm'\))
+[GET TIME](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_time.htm)
 
-Fills the [system fields](javascript:call_link\('abensystem_field_glosry.htm'\) "Glossary Entry") for date and time
+Fills the [system fields](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensystem_field_glosry.htm "Glossary Entry") for date and time
 
-[GET TIME STAMP](javascript:call_link\('abapget_time-stamp.htm'\))
+[GET TIME STAMP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_time-stamp.htm)
 
-Creates a [time stamp](javascript:call_link\('abentime_stamp_glosry.htm'\) "Glossary Entry") in a packed number
+Creates a [time stamp](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentime_stamp_glosry.htm "Glossary Entry") in a packed number
 
 Internal Tables   
 
-[APPEND](javascript:call_link\('abapappend.htm'\))
+[APPEND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapappend.htm)
 
-Appends lines to an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Appends lines to an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
-[COLLECT](javascript:call_link\('abapcollect.htm'\))
+[COLLECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcollect.htm)
 
-Inserts collected lines into an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Inserts collected lines into an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
-[DELETE](javascript:call_link\('abapdelete_itab.htm'\))
+[DELETE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_itab.htm)
 
-Deletes lines from an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Deletes lines from an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
-[FIND IN TABLE](javascript:call_link\('abapfind_itab.htm'\))
+[FIND IN TABLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfind_itab.htm)
 
-Searches in an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Searches in an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
-[INSERT](javascript:call_link\('abapinsert_itab.htm'\))
+[INSERT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_itab.htm)
 
-Inserts lines into an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Inserts lines into an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
-[LOOP AT itab ... ENDLOOP](javascript:call_link\('abaploop_at_itab.htm'\))
+[LOOP AT itab ... ENDLOOP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_itab.htm)
 
-Loop across an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Loop across an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
-[LOOP AT GROUP ... ENDLOOP](javascript:call_link\('abaploop_at_group.htm'\))
+[LOOP AT GROUP ... ENDLOOP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_group.htm)
 
-Loop across a line group in an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Loop across a line group in an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
-[AT](javascript:call_link\('abapat_itab.htm'\))
+[AT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_itab.htm)
 
-[Group level processing](javascript:call_link\('abengroup_level_processing_glosry.htm'\) "Glossary Entry")
+[Group level processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengroup_level_processing_glosry.htm "Glossary Entry")
 
-[MODIFY](javascript:call_link\('abapmodify_itab.htm'\))
+[MODIFY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_itab.htm)
 
-Changes lines in an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Changes lines in an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
-[READ TABLE](javascript:call_link\('abapread_table.htm'\))
+[READ TABLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_table.htm)
 
-Reads a line of an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Reads a line of an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
-[REPLACE IN TABLE](javascript:call_link\('abapreplace_itab.htm'\))
+[REPLACE IN TABLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreplace_itab.htm)
 
-Makes a replacement in an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Makes a replacement in an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
-[SORT](javascript:call_link\('abapsort_itab.htm'\))
+[SORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsort_itab.htm)
 
-Sorts an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Sorts an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
-[SUM](javascript:call_link\('abapsum.htm'\))
+[SUM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsum.htm)
 
-Sums numeric fields in an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Sums numeric fields in an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
 Meshes   
 
-[SET ASSOCIATION](javascript:call_link\('abenmesh_set_association.htm'\))
+[SET ASSOCIATION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_set_association.htm)
 
-Sets a [mesh association](javascript:call_link\('abenmesh_association_glosry.htm'\) "Glossary Entry") for a [mesh path](javascript:call_link\('abenmesh_path_glosry.htm'\) "Glossary Entry")
+Sets a [mesh association](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_association_glosry.htm "Glossary Entry") for a [mesh path](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmesh_path_glosry.htm "Glossary Entry")
 
 Properties of Data Objects   
 
-[DESCRIBE](javascript:call_link\('abapdescribe.htm'\))
+[DESCRIBE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe.htm)
 
-Determines the properties of a [data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry")
+Determines the properties of a [data object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_object_glosry.htm "Glossary Entry")
 
 Processing External Data   
 
 ABAP SQL   
 
-[CLOSE CURSOR](javascript:call_link\('abapclose_cursor.htm'\))
+[CLOSE CURSOR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclose_cursor.htm)
 
-Closes a [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry")
+Closes a [database cursor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_cursor_glosry.htm "Glossary Entry")
 
-[DELETE](javascript:call_link\('abapdelete_dbtab.htm'\))
+[DELETE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_dbtab.htm)
 
-Deletes rows from a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry")
+Deletes rows from a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry")
 
-[FETCH NEXT CURSOR](javascript:call_link\('abapfetch.htm'\))
+[FETCH NEXT CURSOR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfetch.htm)
 
-Reads rows using a [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry")
+Reads rows using a [database cursor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_cursor_glosry.htm "Glossary Entry")
 
-[INSERT](javascript:call_link\('abapinsert_dbtab.htm'\))
+[INSERT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_dbtab.htm)
 
-Inserts rows into a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry")
+Inserts rows into a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry")
 
-[MODIFY](javascript:call_link\('abapmodify_dbtab.htm'\))
+[MODIFY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_dbtab.htm)
 
-Changes or inserts rows in a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry")
+Changes or inserts rows in a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry")
 
-[OPEN CURSOR](javascript:call_link\('abapopen_cursor.htm'\))
+[OPEN CURSOR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_cursor.htm)
 
-Opens a [database cursor](javascript:call_link\('abendatabase_cursor_glosry.htm'\) "Glossary Entry")
+Opens a [database cursor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_cursor_glosry.htm "Glossary Entry")
 
-[SELECT ... ENDSELECT](javascript:call_link\('abapselect.htm'\))
+[SELECT ... ENDSELECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect.htm)
 
-Reads rows from a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry")
+Reads rows from a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry")
 
-[UPDATE](javascript:call_link\('abapupdate.htm'\))
+[UPDATE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapupdate.htm)
 
-Changes rows in a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry")
+Changes rows in a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry")
 
-[WITH](javascript:call_link\('abapwith.htm'\))
+[WITH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwith.htm)
 
-Defines [common table expressions](javascript:call_link\('abencommon_table_expression_glosry.htm'\) "Glossary Entry")
+Defines [common table expressions](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencommon_table_expression_glosry.htm "Glossary Entry")
 
 Native SQL   
 
-[EXEC SQL ... ENDEXEC](javascript:call_link\('abapexec.htm'\))
+[EXEC SQL ... ENDEXEC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexec.htm)
 
-Defines an area for embedded [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry")
+Defines an area for embedded [Native SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_glosry.htm "Glossary Entry")
 
 ABAP and HANA   
 
-[CALL DATABASE PROCEDURE](javascript:call_link\('abapcall_database_procedure.htm'\))
+[CALL DATABASE PROCEDURE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_database_procedure.htm)
 
-Calls a [database procedure](javascript:call_link\('abendatabase_procedure_glosry.htm'\) "Glossary Entry") of the [SAP HANA database](javascript:call_link\('abenhana_database_glosry.htm'\) "Glossary Entry")
+Calls a [database procedure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendatabase_procedure_glosry.htm "Glossary Entry") of the [SAP HANA database](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenhana_database_glosry.htm "Glossary Entry")
 
 Secondary Connections   
 
-[COMMIT CONNECTION](javascript:call_link\('abapcommit_rollback_connection.htm'\))
+[COMMIT CONNECTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommit_rollback_connection.htm)
 
-Completes an [SAP LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry") on a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry")
+Completes an [SAP LUW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw_glosry.htm "Glossary Entry") on a [secondary connection](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry")
 
-[ROLLBACK CONNECTION](javascript:call_link\('abapcommit_rollback_connection.htm'\))
+[ROLLBACK CONNECTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommit_rollback_connection.htm)
 
-Rolls back an [SAP LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry") on a [secondary connection](javascript:call_link\('abensecondary_db_connection_glosry.htm'\) "Glossary Entry")
+Rolls back an [SAP LUW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw_glosry.htm "Glossary Entry") on a [secondary connection](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensecondary_db_connection_glosry.htm "Glossary Entry")
 
 Data Clusters   
 
-[DELETE](javascript:call_link\('abapdelete_cluster.htm'\))
+[DELETE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_cluster.htm)
 
-Deletes [data clusters](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry")
+Deletes [data clusters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_cluster_glosry.htm "Glossary Entry")
 
-[EXPORT](javascript:call_link\('abapexport_data_cluster.htm'\))
+[EXPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_data_cluster.htm)
 
-Exports data objects into a [data cluster](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry")
+Exports data objects into a [data cluster](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_cluster_glosry.htm "Glossary Entry")
 
-[FREE MEMORY](javascript:call_link\('abapfree_memory.htm'\))
+[FREE MEMORY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfree_memory.htm)
 
-Deletes [data clusters](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry") from the [ABAP memory](javascript:call_link\('abenabap_memory_glosry.htm'\) "Glossary Entry")
+Deletes [data clusters](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_cluster_glosry.htm "Glossary Entry") from the [ABAP memory](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_memory_glosry.htm "Glossary Entry")
 
-[IMPORT](javascript:call_link\('abapimport_data_cluster.htm'\))
+[IMPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapimport_data_cluster.htm)
 
-Imports data objects from a [data cluster](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry")
+Imports data objects from a [data cluster](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_cluster_glosry.htm "Glossary Entry")
 
-[IMPORT DIRECTORY](javascript:call_link\('abapimport_directory.htm'\))
+[IMPORT DIRECTORY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapimport_directory.htm)
 
-Creates the interval directory of a [data cluster](javascript:call_link\('abendata_cluster_glosry.htm'\) "Glossary Entry")
+Creates the interval directory of a [data cluster](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_cluster_glosry.htm "Glossary Entry")
 
 File Interface   
 
-[CLOSE DATASET](javascript:call_link\('abapclose_dataset.htm'\))
+[CLOSE DATASET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapclose_dataset.htm)
 
-Closes a [file](javascript:call_link\('abenfile_glosry.htm'\) "Glossary Entry")
+Closes a [file](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfile_glosry.htm "Glossary Entry")
 
-[DELETE DATASET](javascript:call_link\('abapdelete_dataset.htm'\))
+[DELETE DATASET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_dataset.htm)
 
-Deletes a [file](javascript:call_link\('abenfile_glosry.htm'\) "Glossary Entry")
+Deletes a [file](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfile_glosry.htm "Glossary Entry")
 
-[GET DATASET](javascript:call_link\('abapget_dataset.htm'\))
+[GET DATASET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_dataset.htm)
 
-Specifies the properties of a [file](javascript:call_link\('abenfile_glosry.htm'\) "Glossary Entry")
+Specifies the properties of a [file](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfile_glosry.htm "Glossary Entry")
 
-[OPEN DATASET](javascript:call_link\('abapopen_dataset.htm'\))
+[OPEN DATASET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapopen_dataset.htm)
 
-Opens a [file](javascript:call_link\('abenfile_glosry.htm'\) "Glossary Entry")
+Opens a [file](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfile_glosry.htm "Glossary Entry")
 
-[READ DATASET](javascript:call_link\('abapread_dataset.htm'\))
+[READ DATASET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_dataset.htm)
 
-Reads a [file](javascript:call_link\('abenfile_glosry.htm'\) "Glossary Entry")
+Reads a [file](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfile_glosry.htm "Glossary Entry")
 
-[SET DATASET](javascript:call_link\('abapset_dataset.htm'\))
+[SET DATASET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_dataset.htm)
 
-Sets the properties of a [file](javascript:call_link\('abenfile_glosry.htm'\) "Glossary Entry")
+Sets the properties of a [file](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfile_glosry.htm "Glossary Entry")
 
-[TRANSFER](javascript:call_link\('abaptransfer.htm'\))
+[TRANSFER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptransfer.htm)
 
-Fills a [file](javascript:call_link\('abenfile_glosry.htm'\) "Glossary Entry")
+Fills a [file](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfile_glosry.htm "Glossary Entry")
 
-[TRUNCATE DATASET](javascript:call_link\('abaptruncate.htm'\))
+[TRUNCATE DATASET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptruncate.htm)
 
-Changes the size of a [file](javascript:call_link\('abenfile_glosry.htm'\) "Glossary Entry")
+Changes the size of a [file](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfile_glosry.htm "Glossary Entry")
 
 Data Consistency   
 
-[AUTHORITY-CHECK](javascript:call_link\('abapauthority-check.htm'\))
+[AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapauthority-check.htm)
 
-Checks an [authorization](javascript:call_link\('abenauthorization_glosry.htm'\) "Glossary Entry")
+Checks an [authorization](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenauthorization_glosry.htm "Glossary Entry")
 
-[COMMIT WORK](javascript:call_link\('abapcommit.htm'\))
+[COMMIT WORK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommit.htm)
 
-Completes an [SAP-LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry")
+Completes an [SAP-LUW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw_glosry.htm "Glossary Entry")
 
-[ROLLBACK WORK](javascript:call_link\('abaprollback.htm'\))
+[ROLLBACK WORK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprollback.htm)
 
-Cancels an [SAP-LUW](javascript:call_link\('abensap_luw_glosry.htm'\) "Glossary Entry")
+Cancels an [SAP-LUW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_luw_glosry.htm "Glossary Entry")
 
-[SET UPDATE TASK LOCAL](javascript:call_link\('abapset_update_task_local.htm'\))
+[SET UPDATE TASK LOCAL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_update_task_local.htm)
 
-Sets the local [update](javascript:call_link\('abenupdate_glosry.htm'\) "Glossary Entry")
+Sets the local [update](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenupdate_glosry.htm "Glossary Entry")
 
 ABAP for RAP Business Objects   
 
 ABAP EML   
 
-[COMMIT ENTITIES](javascript:call_link\('abapcommit_entities.htm'\))
+[COMMIT ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommit_entities.htm)
 
-Triggers the [RAP save sequence](javascript:call_link\('abenrap_save_seq_glosry.htm'\) "Glossary Entry").
+Triggers the [RAP save sequence](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_save_seq_glosry.htm "Glossary Entry").
 
-[GET PERMISSIONS](javascript:call_link\('abapget_permissions.htm'\))
+[GET PERMISSIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_permissions.htm)
 
-Retrieves information about permissions of [RAP BOs](javascript:call_link\('abenrap_bo_glosry.htm'\) "Glossary Entry").
+Retrieves information about permissions of [RAP BOs](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_glosry.htm "Glossary Entry").
 
-[MODIFY ENTITY, ENTITIES](javascript:call_link\('abapmodify_entity_entities.htm'\))
+[MODIFY ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_entity_entities.htm)
 
-Performs modify operations on [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry").
+Performs modify operations on [RAP BO instances](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry").
 
-[READ ENTITY, ENTITIES](javascript:call_link\('abapread_entity_entities.htm'\))
+[READ ENTITY, ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_entity_entities.htm)
 
-Performs read operations on [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry").
+Performs read operations on [RAP BO instances](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry").
 
-[ROLLBACK ENTITIES](javascript:call_link\('abaprollback_entities.htm'\))
+[ROLLBACK ENTITIES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprollback_entities.htm)
 
-Rolls back all changes of the current [RAP transaction](javascript:call_link\('abenrap_luw_glosry.htm'\) "Glossary Entry").
+Rolls back all changes of the current [RAP transaction](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_luw_glosry.htm "Glossary Entry").
 
-[SET LOCKS](javascript:call_link\('abapset_locks_entity.htm'\))
+[SET LOCKS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_locks_entity.htm)
 
-Sets [enqueue locks](javascript:call_link\('abensap_lock.htm'\)) for [RAP BO instances](javascript:call_link\('abenrap_bo_instance_glosry.htm'\) "Glossary Entry") to prevent the concurrent modification of instances.
+Sets [enqueue locks](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensap_lock.htm) for [RAP BO instances](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenrap_bo_instance_glosry.htm "Glossary Entry") to prevent the concurrent modification of instances.
 
 Program Parameters   
 
 User Memory   
 
-[GET PARAMETER](javascript:call_link\('abapget_parameter.htm'\))
+[GET PARAMETER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_parameter.htm)
 
-Reads an [SPA/GPA parameter](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry")
+Reads an [SPA/GPA parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenspa_gpa_parameter_glosry.htm "Glossary Entry")
 
-[SET PARAMETER](javascript:call_link\('abapset_parameter.htm'\))
+[SET PARAMETER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_parameter.htm)
 
-Sets an [SPA/GPA parameter](javascript:call_link\('abenspa_gpa_parameter_glosry.htm'\) "Glossary Entry")
+Sets an [SPA/GPA parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenspa_gpa_parameter_glosry.htm "Glossary Entry")
 
 Language Environment   
 
-[GET LOCALE](javascript:call_link\('abapget_locale.htm'\))
+[GET LOCALE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_locale.htm)
 
-Specifies the [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry").
+Specifies the [text environment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_environment_glosry.htm "Glossary Entry").
 
-[SET COUNTRY](javascript:call_link\('abapset_country.htm'\))
+[SET COUNTRY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_country.htm)
 
-Sets the [formatting settings](javascript:call_link\('abenformat_setting_glosry.htm'\) "Glossary Entry") of the language environment
+Sets the [formatting settings](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenformat_setting_glosry.htm "Glossary Entry") of the language environment
 
-[SET LANGUAGE](javascript:call_link\('abapset_language.htm'\))
+[SET LANGUAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_language.htm)
 
-Loads a [text pool](javascript:call_link\('abentext_pool_glosry.htm'\) "Glossary Entry")
+Loads a [text pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_pool_glosry.htm "Glossary Entry")
 
-[SET LOCALE](javascript:call_link\('abapset_locale.htm'\))
+[SET LOCALE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_locale.htm)
 
-Sets the [text environment](javascript:call_link\('abentext_environment_glosry.htm'\) "Glossary Entry")
+Sets the [text environment](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_environment_glosry.htm "Glossary Entry")
 
 Program Editing   
 
 Testing and Checking Programs   
 
-[ASSERT](javascript:call_link\('abapassert.htm'\))
+[ASSERT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapassert.htm)
 
-Defines an [assertion](javascript:call_link\('abenassertion_glosry.htm'\) "Glossary Entry")
+Defines an [assertion](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenassertion_glosry.htm "Glossary Entry")
 
-[BREAK-POINT](javascript:call_link\('abapbreak-point.htm'\))
+[BREAK-POINT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapbreak-point.htm)
 
-Defines a [breakpoint](javascript:call_link\('abenbreakpoint_glosry.htm'\) "Glossary Entry")
+Defines a [breakpoint](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbreakpoint_glosry.htm "Glossary Entry")
 
-[LOG-POINT](javascript:call_link\('abaplog-point.htm'\))
+[LOG-POINT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplog-point.htm)
 
-Defines a [logpoint](javascript:call_link\('abenlogpoint_glosry.htm'\) "Glossary Entry")
+Defines a [logpoint](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogpoint_glosry.htm "Glossary Entry")
 
-[GET RUN TIME](javascript:call_link\('abapget_run_time.htm'\))
+[GET RUN TIME](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_run_time.htm)
 
-Determines a [measuring interval](javascript:call_link\('abenmeasuring_intervall_glosry.htm'\) "Glossary Entry")
+Determines a [measuring interval](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmeasuring_intervall_glosry.htm "Glossary Entry")
 
-[SET RUN TIME ANALYZER](javascript:call_link\('abapset_run_time_analyzer.htm'\))
+[SET RUN TIME ANALYZER](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_run_time_analyzer.htm)
 
-Controls [runtime analysis](javascript:call_link\('abenruntime_analysis_glosry.htm'\) "Glossary Entry")
+Controls [runtime analysis](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenruntime_analysis_glosry.htm "Glossary Entry")
 
-[SET RUN TIME CLOCK](javascript:call_link\('abapset_run_time_clock_resolution.htm'\))
+[SET RUN TIME CLOCK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_run_time_clock_resolution.htm)
 
-Sets the measurement accuracy for [measuring intervals](javascript:call_link\('abenmeasuring_intervall_glosry.htm'\) "Glossary Entry")
+Sets the measurement accuracy for [measuring intervals](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmeasuring_intervall_glosry.htm "Glossary Entry")
 
-[TEST-SEAM ... END-TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\))
+[TEST-SEAM ... END-TEST-SEAM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptest-seam.htm)
 
-[Test seam](javascript:call_link\('abentest_seam_glosry.htm'\) "Glossary Entry")
+[Test seam](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentest_seam_glosry.htm "Glossary Entry")
 
-[TEST-INJECTION ... END-TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\))
+[TEST-INJECTION ... END-TEST-INJECTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptest-injection.htm)
 
-[Injection](javascript:call_link\('abeninjection_glosry.htm'\) "Glossary Entry")
+[Injection](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninjection_glosry.htm "Glossary Entry")
 
 Dynamic Program Development   
 
-[GENERATE SUBROUTINE POOL](javascript:call_link\('abapgenerate_subroutine_pool.htm'\))
+[GENERATE SUBROUTINE POOL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapgenerate_subroutine_pool.htm)
 
-Generates a [subroutine pool](javascript:call_link\('abensubroutine_pool_glosry.htm'\) "Glossary Entry")
+Generates a [subroutine pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubroutine_pool_glosry.htm "Glossary Entry")
 
-[INSERT REPORT](javascript:call_link\('abapinsert_report.htm'\))
+[INSERT REPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_report.htm)
 
-Stores an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry")
+Stores an [ABAP program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_glosry.htm "Glossary Entry")
 
-[INSERT TEXTPOOL](javascript:call_link\('abapinsert_textpool.htm'\))
+[INSERT TEXTPOOL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_textpool.htm)
 
-Stores a [text pool](javascript:call_link\('abentext_pool_glosry.htm'\) "Glossary Entry")
+Stores a [text pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_pool_glosry.htm "Glossary Entry")
 
-[READ REPORT](javascript:call_link\('abapread_report.htm'\))
+[READ REPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_report.htm)
 
-Imports an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry")
+Imports an [ABAP program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_glosry.htm "Glossary Entry")
 
-[READ TEXTPOOL](javascript:call_link\('abapread_textpool.htm'\))
+[READ TEXTPOOL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_textpool.htm)
 
-Imports a [text pool](javascript:call_link\('abentext_pool_glosry.htm'\) "Glossary Entry")
+Imports a [text pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_pool_glosry.htm "Glossary Entry")
 
-[SYNTAX-CHECK](javascript:call_link\('abapsyntax-check_for_itab.htm'\))
+[SYNTAX-CHECK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsyntax-check_for_itab.htm)
 
-Calls the [syntax check](javascript:call_link\('abensyntax_check_glosry.htm'\) "Glossary Entry")
+Calls the [syntax check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensyntax_check_glosry.htm "Glossary Entry")
 
 ABAP Data and Communication Interfaces   
 
 Remote Function Call   
 
-[CALL FUNCTION DESTINATION](javascript:call_link\('abapcall_function_destination-.htm'\))
+[CALL FUNCTION DESTINATION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_function_destination-.htm)
 
-[Remote function call](javascript:call_link\('abenremote_function_call_glosry.htm'\) "Glossary Entry")
+[Remote function call](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenremote_function_call_glosry.htm "Glossary Entry")
 
-[RECEIVE](javascript:call_link\('abapreceive.htm'\))
+[RECEIVE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreceive.htm)
 
-Receives parameters in a [remote function call](javascript:call_link\('abenremote_function_call_glosry.htm'\) "Glossary Entry")
+Receives parameters in a [remote function call](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenremote_function_call_glosry.htm "Glossary Entry")
 
-[WAIT FOR ASYNCHRONOUS TASKS](javascript:call_link\('abapwait_arfc.htm'\))
+[WAIT FOR ASYNCHRONOUS TASKS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_arfc.htm)
 
-Waits for completion of a [remote function call](javascript:call_link\('abenremote_function_call_glosry.htm'\) "Glossary Entry")
+Waits for completion of a [remote function call](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenremote_function_call_glosry.htm "Glossary Entry")
 
-[WAIT FOR MESSAGING CHANNELS](javascript:call_link\('abapwait_amc.htm'\))
+[WAIT FOR MESSAGING CHANNELS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_amc.htm)
 
-Waits for messages in communication using [AMC](javascript:call_link\('abenamc_glosry.htm'\) "Glossary Entry")
+Waits for messages in communication using [AMC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenamc_glosry.htm "Glossary Entry")
 
-[WAIT FOR PUSH CHANNELS](javascript:call_link\('abapwait_apc.htm'\))
+[WAIT FOR PUSH CHANNELS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwait_apc.htm)
 
-Waits for messages in communication using [APC](javascript:call_link\('abenapc_glosry.htm'\) "Glossary Entry")
+Waits for messages in communication using [APC](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenapc_glosry.htm "Glossary Entry")
 
 ABAP and XML   
 
-[CALL TRANSFORMATION](javascript:call_link\('abapcall_transformation.htm'\))
+[CALL TRANSFORMATION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_transformation.htm)
 
-Calls an [XSLT program](javascript:call_link\('abenxslt_program_glosry.htm'\) "Glossary Entry") or a [Simple Transformation](javascript:call_link\('abensimple_transformation_glosry.htm'\) "Glossary Entry")
+Calls an [XSLT program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenxslt_program_glosry.htm "Glossary Entry") or a [Simple Transformation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensimple_transformation_glosry.htm "Glossary Entry")
 
 OLE Interface   
 
-[CALL METHOD](javascript:call_link\('abapcall_method_ole2.htm'\))
+[CALL METHOD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_method_ole2.htm)
 
-Calls an [OLE automation](javascript:call_link\('abenole_automation_glosry.htm'\) "Glossary Entry") method
+Calls an [OLE automation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenole_automation_glosry.htm "Glossary Entry") method
 
-[CREATE OBJECT](javascript:call_link\('abapcreate_object_ole2.htm'\))
+[CREATE OBJECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcreate_object_ole2.htm)
 
-Creates an [OLE automation](javascript:call_link\('abenole_automation_glosry.htm'\) "Glossary Entry") object
+Creates an [OLE automation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenole_automation_glosry.htm "Glossary Entry") object
 
-[FREE OBJECT](javascript:call_link\('abapfree_object.htm'\))
+[FREE OBJECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfree_object.htm)
 
-Releases memory in [OLE automation](javascript:call_link\('abenole_automation_glosry.htm'\) "Glossary Entry")
+Releases memory in [OLE automation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenole_automation_glosry.htm "Glossary Entry")
 
-[GET PROPERTY](javascript:call_link\('abapget_property.htm'\))
+[GET PROPERTY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_property.htm)
 
-Reads a property in [OLE automation](javascript:call_link\('abenole_automation_glosry.htm'\) "Glossary Entry")
+Reads a property in [OLE automation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenole_automation_glosry.htm "Glossary Entry")
 
-[SET PROPERTY](javascript:call_link\('abapset_property.htm'\))
+[SET PROPERTY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_property.htm)
 
-Sets a property in [OLE automation](javascript:call_link\('abenole_automation_glosry.htm'\) "Glossary Entry")
+Sets a property in [OLE automation](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenole_automation_glosry.htm "Glossary Entry")
 
 User Dialogs   
 
 Dynpros   
 
-[CALL SCREEN](javascript:call_link\('abapcall_screen.htm'\))
+[CALL SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_screen.htm)
 
-Calls a [dynpro sequence](javascript:call_link\('abendynpro_sequence_glosry.htm'\) "Glossary Entry")
+Calls a [dynpro sequence](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_sequence_glosry.htm "Glossary Entry")
 
-[CONTROLS](javascript:call_link\('abapcontrols.htm'\))
+[CONTROLS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcontrols.htm)
 
-Declares a [control](javascript:call_link\('abencontrol_glosry.htm'\) "Glossary Entry")
+Declares a [control](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontrol_glosry.htm "Glossary Entry")
 
-[EXIT FROM STEP-LOOP](javascript:call_link\('abapexit_step-loop.htm'\))
+[EXIT FROM STEP-LOOP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_step-loop.htm)
 
-Exits a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry") or [step loop](javascript:call_link\('abenstep_loop_glosry.htm'\) "Glossary Entry")
+Exits a [table control](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_control_glosry.htm "Glossary Entry") or [step loop](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstep_loop_glosry.htm "Glossary Entry")
 
-[GET CURSOR](javascript:call_link\('abapget_cursor_dynpro.htm'\))
+[GET CURSOR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_cursor_dynpro.htm)
 
-Reads the [cursor](javascript:call_link\('abencursor_glosry.htm'\) "Glossary Entry") position
+Reads the [cursor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencursor_glosry.htm "Glossary Entry") position
 
-[GET PF-STATUS](javascript:call_link\('abapget_pf.htm'\))
+[GET PF-STATUS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_pf.htm)
 
-Sets the [GUI status](javascript:call_link\('abengui_status_glosry.htm'\) "Glossary Entry")
+Sets the [GUI status](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengui_status_glosry.htm "Glossary Entry")
 
-[LEAVE *\[*TO*\]* SCREEN](javascript:call_link\('abapleave_screen.htm'\))
+[LEAVE *\[*TO*\]* SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave_screen.htm)
 
-Exits a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry")
+Exits a [dynpro](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm "Glossary Entry")
 
-[LOOP AT SCREEN ... ENDLOOP](javascript:call_link\('abaploop_at_screen.htm'\))
+[LOOP AT SCREEN ... ENDLOOP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_screen.htm)
 
-Loop across [screen elements](javascript:call_link\('abenscreen_element_glosry.htm'\) "Glossary Entry")
+Loop across [screen elements](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_element_glosry.htm "Glossary Entry")
 
-[MODIFY SCREEN](javascript:call_link\('abapmodify_screen.htm'\))
+[MODIFY SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_screen.htm)
 
-Modifies a [screen element](javascript:call_link\('abenscreen_element_glosry.htm'\) "Glossary Entry")
+Modifies a [screen element](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_element_glosry.htm "Glossary Entry")
 
-[REFRESH CONTROL](javascript:call_link\('abaprefresh_control.htm'\))
+[REFRESH CONTROL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprefresh_control.htm)
 
-Initializes a [table control](javascript:call_link\('abentable_control_glosry.htm'\) "Glossary Entry")
+Initializes a [table control](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentable_control_glosry.htm "Glossary Entry")
 
-[SET CURSOR](javascript:call_link\('abapset_cursor_dynpro.htm'\))
+[SET CURSOR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_cursor_dynpro.htm)
 
-Sets the [cursor](javascript:call_link\('abencursor_glosry.htm'\) "Glossary Entry") position
+Sets the [cursor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencursor_glosry.htm "Glossary Entry") position
 
-[SET HOLD DATA](javascript:call_link\('abapset_hold_data.htm'\))
+[SET HOLD DATA](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_hold_data.htm)
 
-Enables or disables standard [menu items](javascript:call_link\('abenmenu_option_glosry.htm'\) "Glossary Entry")
+Enables or disables standard [menu items](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmenu_option_glosry.htm "Glossary Entry")
 
-[SET PF-STATUS](javascript:call_link\('abapset_pf-status_dynpro.htm'\))
+[SET PF-STATUS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_pf-status_dynpro.htm)
 
-Sets the [GUI status](javascript:call_link\('abengui_status_glosry.htm'\) "Glossary Entry")
+Sets the [GUI status](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengui_status_glosry.htm "Glossary Entry")
 
-[SET SCREEN](javascript:call_link\('abapset_screen.htm'\))
+[SET SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_screen.htm)
 
-Sets the [next dynpro](javascript:call_link\('abennext_dynpro_glosry.htm'\) "Glossary Entry")
+Sets the [next dynpro](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennext_dynpro_glosry.htm "Glossary Entry")
 
-[SET TITLEBAR](javascript:call_link\('abapset_titlebar_dynpro.htm'\))
+[SET TITLEBAR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_titlebar_dynpro.htm)
 
-Sets the [GUI title](javascript:call_link\('abengui_title_glosry.htm'\) "Glossary Entry")
+Sets the [GUI title](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengui_title_glosry.htm "Glossary Entry")
 
-[SUPPRESS DIALOG](javascript:call_link\('abapsuppress.htm'\))
+[SUPPRESS DIALOG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsuppress.htm)
 
-Suppresses the [screen layout](javascript:call_link\('abenscreen_glosry.htm'\) "Glossary Entry")
+Suppresses the [screen layout](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_glosry.htm "Glossary Entry")
 
 Selection Screens   
 
-[PARAMETERS](javascript:call_link\('abapparameters.htm'\))
+[PARAMETERS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapparameters.htm)
 
-Defines a [selection parameter](javascript:call_link\('abenselpar_glosry.htm'\) "Glossary Entry")
+Defines a [selection parameter](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselpar_glosry.htm "Glossary Entry")
 
-[SELECTION-SCREEN](javascript:call_link\('abapselection-screen.htm'\))
+[SELECTION-SCREEN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselection-screen.htm)
 
-Defines a [selection screen](javascript:call_link\('abenselection_screen_glosry.htm'\) "Glossary Entry") or a [screen element](javascript:call_link\('abenscreen_element_glosry.htm'\) "Glossary Entry")
+Defines a [selection screen](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselection_screen_glosry.htm "Glossary Entry") or a [screen element](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenscreen_element_glosry.htm "Glossary Entry")
 
-[SELECT-OPTIONS](javascript:call_link\('abapselect-options.htm'\))
+[SELECT-OPTIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapselect-options.htm)
 
-Defines a [selection criterion](javascript:call_link\('abenselection_criterion_glosry.htm'\) "Glossary Entry")
+Defines a [selection criterion](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenselection_criterion_glosry.htm "Glossary Entry")
 
 Lists   
 
-[BACK](javascript:call_link\('abapback.htm'\))
+[BACK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapback.htm)
 
-Relative positioning of [list cursor](javascript:call_link\('abenlist_cursor_glosry.htm'\) "Glossary Entry")
+Relative positioning of [list cursor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_cursor_glosry.htm "Glossary Entry")
 
-[DESCRIBE LIST](javascript:call_link\('abapdescribe_list.htm'\))
+[DESCRIBE LIST](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdescribe_list.htm)
 
-Specifies the properties of a list in the [list buffer](javascript:call_link\('abenlist_buffer_glosry.htm'\) "Glossary Entry")
+Specifies the properties of a list in the [list buffer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_buffer_glosry.htm "Glossary Entry")
 
-[FORMAT](javascript:call_link\('abapformat.htm'\))
+[FORMAT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapformat.htm)
 
-Formats a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Formats a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
-[GET CURSOR](javascript:call_link\('abapget_cursor_list.htm'\))
+[GET CURSOR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_cursor_list.htm)
 
-Reads the [cursor](javascript:call_link\('abencursor_glosry.htm'\) "Glossary Entry") position
+Reads the [cursor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencursor_glosry.htm "Glossary Entry") position
 
-[HIDE](javascript:call_link\('abaphide.htm'\))
+[HIDE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaphide.htm)
 
-Saves a data object in a [list level](javascript:call_link\('abenlist_level_glosry.htm'\) "Glossary Entry")
+Saves a data object in a [list level](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_level_glosry.htm "Glossary Entry")
 
-[LEAVE TO LIST-PROCESSING](javascript:call_link\('abapleave_to_list-processing.htm'\))
+[LEAVE TO LIST-PROCESSING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave_to_list-processing.htm)
 
-Calls [list processing](javascript:call_link\('abenlist_processing_glosry.htm'\) "Glossary Entry")
+Calls [list processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_processing_glosry.htm "Glossary Entry")
 
-[LEAVE LIST-PROCESSING](javascript:call_link\('abapleave_list-processing.htm'\))
+[LEAVE LIST-PROCESSING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave_list-processing.htm)
 
-Exits [list processing](javascript:call_link\('abenlist_processing_glosry.htm'\) "Glossary Entry")
+Exits [list processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_processing_glosry.htm "Glossary Entry")
 
-[MODIFY LINE](javascript:call_link\('abapmodify_line.htm'\))
+[MODIFY LINE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_line.htm)
 
-Changes a list in the [list buffer](javascript:call_link\('abenlist_buffer_glosry.htm'\) "Glossary Entry")
+Changes a list in the [list buffer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_buffer_glosry.htm "Glossary Entry")
 
-[NEW-LINE](javascript:call_link\('abapnew-line.htm'\))
+[NEW-LINE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapnew-line.htm)
 
-Line break in a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Line break in a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
-[NEW-PAGE](javascript:call_link\('abapnew-page.htm'\))
+[NEW-PAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapnew-page.htm)
 
-Page break in a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Page break in a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
-[POSITION](javascript:call_link\('abapposition.htm'\))
+[POSITION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapposition.htm)
 
-Positions the [list cursor](javascript:call_link\('abenlist_cursor_glosry.htm'\) "Glossary Entry")
+Positions the [list cursor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_cursor_glosry.htm "Glossary Entry")
 
-[PRINT-CONTROL](javascript:call_link\('abapprint-control.htm'\))
+[PRINT-CONTROL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprint-control.htm)
 
-Formats a [spool list](javascript:call_link\('abenspool_list_glosry.htm'\) "Glossary Entry")
+Formats a [spool list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenspool_list_glosry.htm "Glossary Entry")
 
-[READ LINE](javascript:call_link\('abapread_line.htm'\))
+[READ LINE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_line.htm)
 
-Reads a list in the [list buffer](javascript:call_link\('abenlist_buffer_glosry.htm'\) "Glossary Entry")
+Reads a list in the [list buffer](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_buffer_glosry.htm "Glossary Entry")
 
-[RESERVE](javascript:call_link\('abapreserve.htm'\))
+[RESERVE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreserve.htm)
 
-Relative page break in a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Relative page break in a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
-[SCROLL LIST](javascript:call_link\('abapscroll.htm'\))
+[SCROLL LIST](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscroll.htm)
 
-Scrolls in a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Scrolls in a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
-[SET BLANK LINES](javascript:call_link\('abapset_blank_lines.htm'\))
+[SET BLANK LINES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_blank_lines.htm)
 
-Sets the blanks in a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Sets the blanks in a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
-[SET CURSOR](javascript:call_link\('abapset_cursor_list.htm'\))
+[SET CURSOR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_cursor_list.htm)
 
-Sets the [cursor](javascript:call_link\('abencursor_glosry.htm'\) "Glossary Entry") position
+Sets the [cursor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencursor_glosry.htm "Glossary Entry") position
 
-[SET MARGIN](javascript:call_link\('abapset_margin.htm'\))
+[SET MARGIN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_margin.htm)
 
-Sets the margin of a [spool list](javascript:call_link\('abenspool_list_glosry.htm'\) "Glossary Entry")
+Sets the margin of a [spool list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenspool_list_glosry.htm "Glossary Entry")
 
-[SET PF-STATUS](javascript:call_link\('abapset_pf-status_list.htm'\))
+[SET PF-STATUS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_pf-status_list.htm)
 
-Sets the [GUI status](javascript:call_link\('abengui_status_glosry.htm'\) "Glossary Entry")
+Sets the [GUI status](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengui_status_glosry.htm "Glossary Entry")
 
-[SET LEFT SCROLL-BOUNDARY](javascript:call_link\('abapset_scroll-boundary.htm'\))
+[SET LEFT SCROLL-BOUNDARY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_scroll-boundary.htm)
 
-Sets the scroll boundaries of a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Sets the scroll boundaries of a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
-[SET TITLEBAR](javascript:call_link\('abapset_titlebar_list.htm'\))
+[SET TITLEBAR](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_titlebar_list.htm)
 
-Sets the [GUI title](javascript:call_link\('abengui_title_glosry.htm'\) "Glossary Entry")
+Sets the [GUI title](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengui_title_glosry.htm "Glossary Entry")
 
-[SKIP](javascript:call_link\('abapskip.htm'\))
+[SKIP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapskip.htm)
 
-Positions the [list cursor](javascript:call_link\('abenlist_cursor_glosry.htm'\) "Glossary Entry")
+Positions the [list cursor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_cursor_glosry.htm "Glossary Entry")
 
-[ULINE](javascript:call_link\('abapuline.htm'\))
+[ULINE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapuline.htm)
 
-Displays a line in a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Displays a line in a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
-[WINDOW](javascript:call_link\('abapwindow.htm'\))
+[WINDOW](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwindow.htm)
 
-Displays a list in a [dialog box](javascript:call_link\('abendialog_box_glosry.htm'\) "Glossary Entry")
+Displays a list in a [dialog box](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendialog_box_glosry.htm "Glossary Entry")
 
-[WRITE](javascript:call_link\('abapwrite-.htm'\))
+[WRITE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite-.htm)
 
-Displays data in a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Displays data in a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
 Messages   
 
-[MESSAGE](javascript:call_link\('abapmessage.htm'\))
+[MESSAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmessage.htm)
 
-Sends a [message](javascript:call_link\('abenmessage_glosry.htm'\) "Glossary Entry")
+Sends a [message](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenmessage_glosry.htm "Glossary Entry")
 
 Enhancements   
 
 Source Code Enhancements   
 
-[ENHANCEMENT ... ENDENHANCEMENT](javascript:call_link\('abapenhancement.htm'\))
+[ENHANCEMENT ... ENDENHANCEMENT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapenhancement.htm)
 
-Implements a [source code enhancement](javascript:call_link\('abensource_code_enhancement_glosry.htm'\) "Glossary Entry")
+Implements a [source code enhancement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensource_code_enhancement_glosry.htm "Glossary Entry")
 
-[ENHANCEMENT-POINT](javascript:call_link\('abapenhancement-point.htm'\))
+[ENHANCEMENT-POINT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapenhancement-point.htm)
 
-Defines a [source code enhancement](javascript:call_link\('abensource_code_enhancement_glosry.htm'\) "Glossary Entry")
+Defines a [source code enhancement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensource_code_enhancement_glosry.htm "Glossary Entry")
 
-[ENHANCEMENT-SECTION ... END-ENHANCEMENT-SECTION](javascript:call_link\('abapenhancement-section.htm'\))
+[ENHANCEMENT-SECTION ... END-ENHANCEMENT-SECTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapenhancement-section.htm)
 
-Defines a [source code enhancement](javascript:call_link\('abensource_code_enhancement_glosry.htm'\) "Glossary Entry")
+Defines a [source code enhancement](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensource_code_enhancement_glosry.htm "Glossary Entry")
 
 Enhancements Using BAdIs   
 
-[GET BADI](javascript:call_link\('abapget_badi.htm'\))
+[GET BADI](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget_badi.htm)
 
-Creates a [BAdI object](javascript:call_link\('abenbadi_object_glosry.htm'\) "Glossary Entry")
+Creates a [BAdI object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbadi_object_glosry.htm "Glossary Entry")
 
-[CALL BADI](javascript:call_link\('abapcall_badi.htm'\))
+[CALL BADI](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_badi.htm)
 
-Calls [BAdI methods](javascript:call_link\('abenbadi_method_glosry.htm'\) "Glossary Entry")
+Calls [BAdI methods](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbadi_method_glosry.htm "Glossary Entry")
 
 Statements for Experts   
 
-[INFOTYPES](javascript:call_link\('abapinfotypes.htm'\))
+[INFOTYPES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinfotypes.htm)
 
-Declares an internal table for HR [info types](javascript:call_link\('abeninfo_type_glosry.htm'\) "Glossary Entry")
+Declares an internal table for HR [info types](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninfo_type_glosry.htm "Glossary Entry")
 
-[PROVIDE ... ENDPROVIDE](javascript:call_link\('abapprovide.htm'\))
+[PROVIDE ... ENDPROVIDE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapprovide.htm)
 
-Loop across multiple [internal tables](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+Loop across multiple [internal tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
 Obsolete Statements   
 
 Obsolete Modularization   
 
-[FORM ... ENDFORM](javascript:call_link\('abapform.htm'\))
+[FORM ... ENDFORM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapform.htm)
 
-Defines a [subroutine](javascript:call_link\('abensubroutine_glosry.htm'\) "Glossary Entry")
+Defines a [subroutine](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensubroutine_glosry.htm "Glossary Entry")
 
-[END-OF-EDITING](javascript:call_link\('abapend-of-editing.htm'\))
+[END-OF-EDITING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapend-of-editing.htm)
 
-[Reporting event](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry")
+[Reporting event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreporting_event_glosry.htm "Glossary Entry")
 
-[END-OF-SELECTION](javascript:call_link\('abapend-of-selection.htm'\))
+[END-OF-SELECTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapend-of-selection.htm)
 
-[Reporting event](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry")
+[Reporting event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreporting_event_glosry.htm "Glossary Entry")
 
-[GET](javascript:call_link\('abapget-.htm'\))
+[GET](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapget-.htm)
 
-[Reporting event](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry")
+[Reporting event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreporting_event_glosry.htm "Glossary Entry")
 
-[START-OF-EDITING](javascript:call_link\('abapstart-of-editing.htm'\))
+[START-OF-EDITING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapstart-of-editing.htm)
 
-[Reporting event](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry")
+[Reporting event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreporting_event_glosry.htm "Glossary Entry")
 
-[LOCAL](javascript:call_link\('abaplocal.htm'\))
+[LOCAL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaplocal.htm)
 
-Buffers a [data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry")
+Buffers a [data object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_object_glosry.htm "Glossary Entry")
 
 Obsolete Declarations   
 
-[FIELDS](javascript:call_link\('abapfields.htm'\))
+[FIELDS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfields.htm)
 
-Addresses a [data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry")
+Addresses a [data object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_object_glosry.htm "Glossary Entry")
 
-[RANGES](javascript:call_link\('abapranges.htm'\))
+[RANGES](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapranges.htm)
 
-Declares a [ranges table](javascript:call_link\('abenranges_table_glosry.htm'\) "Glossary Entry")
+Declares a [ranges table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenranges_table_glosry.htm "Glossary Entry")
 
-[TYPE-POOLS](javascript:call_link\('abaptype-pools.htm'\))
+[TYPE-POOLS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaptype-pools.htm)
 
-Loads a [type pool](javascript:call_link\('abentype_pool_glosry.htm'\) "Glossary Entry")
+Loads a [type pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentype_pool_glosry.htm "Glossary Entry")
 
 Obsolete Calls   
 
-[CALL CUSTOMER-FUNCTION](javascript:call_link\('abapcall_customer-function.htm'\))
+[CALL CUSTOMER-FUNCTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_customer-function.htm)
 
-Calls a [function module exit](javascript:call_link\('abenfunction_module_exit_glosry.htm'\) "Glossary Entry")
+Calls a [function module exit](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfunction_module_exit_glosry.htm "Glossary Entry")
 
-[CALL DIALOG](javascript:call_link\('abapcall_dialog.htm'\))
+[CALL DIALOG](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall_dialog.htm)
 
-Calls a [dialog module](javascript:call_link\('abendialog_module_object_glosry.htm'\) "Glossary Entry")
+Calls a [dialog module](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendialog_module_object_glosry.htm "Glossary Entry")
 
-[PUT](javascript:call_link\('abapput.htm'\))
+[PUT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapput.htm)
 
-Triggers a [reporting event](javascript:call_link\('abenreporting_event_glosry.htm'\) "Glossary Entry")
+Triggers a [reporting event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenreporting_event_glosry.htm "Glossary Entry")
 
 Obsolete Exit   
 
-[LEAVE](javascript:call_link\('abapleave-.htm'\))
+[LEAVE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapleave-.htm)
 
-Context-dependent exit of an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry")
+Context-dependent exit of an [ABAP program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_glosry.htm "Glossary Entry")
 
-[REJECT](javascript:call_link\('abapreject.htm'\))
+[REJECT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreject.htm)
 
-Exits a [processing block](javascript:call_link\('abenprocessing_block_glosry.htm'\) "Glossary Entry") for [logical databases](javascript:call_link\('abenlogical_data_base_glosry.htm'\) "Glossary Entry")
+Exits a [processing block](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenprocessing_block_glosry.htm "Glossary Entry") for [logical databases](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlogical_data_base_glosry.htm "Glossary Entry")
 
 Obsolete Control Structure   
 
-[ON CHANGE OF ... ENDON](javascript:call_link\('abapon.htm'\))
+[ON CHANGE OF ... ENDON](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapon.htm)
 
-Obsolete [branch](javascript:call_link\('abenbranch_glosry.htm'\) "Glossary Entry")
+Obsolete [branch](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbranch_glosry.htm "Glossary Entry")
 
 Obsolete Exception Handling   
 
-[CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\))
+[CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcatch_sys.htm)
 
-Catches [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry")
+Catches [catchable runtime errors](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry")
 
 Obsolete Assignments   
 
-[MOVE](javascript:call_link\('abapmove_obs.htm'\))
+[MOVE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_obs.htm)
 
 Assigns data objects
 
-[MOVE - PERCENTAGE](javascript:call_link\('abapmove_percentage.htm'\))
+[MOVE - PERCENTAGE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmove_percentage.htm)
 
-Assigns a subobject of a [data object](javascript:call_link\('abendata_object_glosry.htm'\) "Glossary Entry")
+Assigns a subobject of a [data object](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendata_object_glosry.htm "Glossary Entry")
 
-[PACK](javascript:call_link\('abappack.htm'\))
+[PACK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abappack.htm)
 
-Packs a [packed number](javascript:call_link\('abenpacked_number_glosry.htm'\) "Glossary Entry")
+Packs a [packed number](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenpacked_number_glosry.htm "Glossary Entry")
 
 Obsolete Calculation Statements   
 
-[COMPUTE](javascript:call_link\('abapcompute.htm'\))
+[COMPUTE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcompute.htm)
 
-Calculates a [calculation expression](javascript:call_link\('abencalculation_expression_glosry.htm'\) "Glossary Entry")
+Calculates a [calculation expression](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencalculation_expression_glosry.htm "Glossary Entry")
 
-[ADD](javascript:call_link\('abapadd.htm'\))
+[ADD](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd.htm)
 
-Adds [numeric data objects](javascript:call_link\('abennumeric_data_object_glosry.htm'\) "Glossary Entry")
+Adds [numeric data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumeric_data_object_glosry.htm "Glossary Entry")
 
-[ADD-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+[ADD-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd-corresponding.htm)
 
-Adds [structure](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry") components
+Adds [structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_glosry.htm "Glossary Entry") components
 
-[DIVIDE](javascript:call_link\('abapsubtract_multiply_divide.htm'\))
+[DIVIDE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsubtract_multiply_divide.htm)
 
-Divides [numeric data objects](javascript:call_link\('abennumeric_data_object_glosry.htm'\) "Glossary Entry")
+Divides [numeric data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumeric_data_object_glosry.htm "Glossary Entry")
 
-[DIVIDE-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+[DIVIDE-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd-corresponding.htm)
 
-Divides [structure](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry") components
+Divides [structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_glosry.htm "Glossary Entry") components
 
-[MULTIPLY](javascript:call_link\('abapsubtract_multiply_divide.htm'\))
+[MULTIPLY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsubtract_multiply_divide.htm)
 
-Multiplies [numeric data objects](javascript:call_link\('abennumeric_data_object_glosry.htm'\) "Glossary Entry")
+Multiplies [numeric data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumeric_data_object_glosry.htm "Glossary Entry")
 
-[MULTIPLY-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+[MULTIPLY-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd-corresponding.htm)
 
-Multiplies [structure](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry") components
+Multiplies [structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_glosry.htm "Glossary Entry") components
 
-[SUBTRACT](javascript:call_link\('abapsubtract_multiply_divide.htm'\))
+[SUBTRACT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsubtract_multiply_divide.htm)
 
-Subtracts [numeric data objects](javascript:call_link\('abennumeric_data_object_glosry.htm'\) "Glossary Entry")
+Subtracts [numeric data objects](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennumeric_data_object_glosry.htm "Glossary Entry")
 
-[SUBTRACT-CORRESPONDING](javascript:call_link\('abapadd-corresponding.htm'\))
+[SUBTRACT-CORRESPONDING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapadd-corresponding.htm)
 
-Subtracts [structure](javascript:call_link\('abenstructure_glosry.htm'\) "Glossary Entry") components
+Subtracts [structure](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenstructure_glosry.htm "Glossary Entry") components
 
 Obsolete Character String and Byte String Processing   
 
-[CONVERT DATE*|*INVERTED-DATE](javascript:call_link\('abapconvert_date.htm'\))
+[CONVERT DATE*|*INVERTED-DATE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapconvert_date.htm)
 
-Transforms a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry") into nine's complement
+Transforms a [character string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_glosry.htm "Glossary Entry") into nine's complement
 
-[REPLACE](javascript:call_link\('abapreplace_obsolete.htm'\))
+[REPLACE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapreplace_obsolete.htm)
 
-Makes a replacement in a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry") or [byte string](javascript:call_link\('abenbyte_string_glosry.htm'\) "Glossary Entry")
+Makes a replacement in a [character string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_glosry.htm "Glossary Entry") or [byte string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbyte_string_glosry.htm "Glossary Entry")
 
-[SEARCH](javascript:call_link\('abapsearch-.htm'\))
+[SEARCH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsearch-.htm)
 
-Searches in a [character string](javascript:call_link\('abencharacter_string_glosry.htm'\) "Glossary Entry") or [byte string](javascript:call_link\('abenbyte_string_glosry.htm'\) "Glossary Entry") (obsolete)
+Searches in a [character string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencharacter_string_glosry.htm "Glossary Entry") or [byte string](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenbyte_string_glosry.htm "Glossary Entry") (obsolete)
 
 Obsolete Internal Table Processing   
 
-In [Internal Tables](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry")
+In [Internal Tables](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry")
 
-[REFRESH](javascript:call_link\('abaprefresh_itab.htm'\))
+[REFRESH](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprefresh_itab.htm)
 
-Initializes an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") (obsolete)
+Initializes an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry") (obsolete)
 
-[SEARCH itab](javascript:call_link\('abapsearch_itab.htm'\))
+[SEARCH itab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsearch_itab.htm)
 
-Searches in an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") (obsolete)
+Searches in an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry") (obsolete)
 
-[WRITE TO itab](javascript:call_link\('abapwrite_to_itab.htm'\))
+[WRITE TO itab](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapwrite_to_itab.htm)
 
-Writes to an [internal table](javascript:call_link\('abeninternal_table_glosry.htm'\) "Glossary Entry") (obsolete)
+Writes to an [internal table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abeninternal_table_glosry.htm "Glossary Entry") (obsolete)
 
 Obsolete Extracts   
 
-[AT](javascript:call_link\('abapat_extract.htm'\))
+[AT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_extract.htm)
 
-[Group level processing](javascript:call_link\('abengroup_level_processing_glosry.htm'\) "Glossary Entry") in the [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry")
+[Group level processing](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengroup_level_processing_glosry.htm "Glossary Entry") in the [extract dataset](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextract_dataset_glosry.htm "Glossary Entry")
 
-[EXTRACT](javascript:call_link\('abapextract.htm'\))
+[EXTRACT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapextract.htm)
 
-Fills the [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry")
+Fills the [extract dataset](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextract_dataset_glosry.htm "Glossary Entry")
 
-[FIELD-GROUPS](javascript:call_link\('abapfield-groups.htm'\))
+[FIELD-GROUPS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapfield-groups.htm)
 
-Declares a [field group](javascript:call_link\('abenfield_group_glosry.htm'\) "Glossary Entry")
+Declares a [field group](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfield_group_glosry.htm "Glossary Entry")
 
-[INSERT](javascript:call_link\('abapinsert_fg.htm'\))
+[INSERT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinsert_fg.htm)
 
-Builds a [field group](javascript:call_link\('abenfield_group_glosry.htm'\) "Glossary Entry")
+Builds a [field group](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenfield_group_glosry.htm "Glossary Entry")
 
-[LOOP ... ENDLOOP](javascript:call_link\('abaploop-.htm'\))
+[LOOP ... ENDLOOP](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop-.htm)
 
-Loop across the [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry")
+Loop across the [extract dataset](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextract_dataset_glosry.htm "Glossary Entry")
 
-[SORT](javascript:call_link\('abapsort_extract.htm'\))
+[SORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsort_extract.htm)
 
-Sorts the [extract dataset](javascript:call_link\('abenextract_dataset_glosry.htm'\) "Glossary Entry")
+Sorts the [extract dataset](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextract_dataset_glosry.htm "Glossary Entry")
 
 Obsolete Database Access   
 
-[DELETE](javascript:call_link\('abapdelete_dbtab_obsolete.htm'\))
+[DELETE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_dbtab_obsolete.htm)
 
-Deletes a row in a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry")
+Deletes a row in a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry")
 
-[LOOP AT](javascript:call_link\('abaploop_at_dbtab.htm'\))
+[LOOP AT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaploop_at_dbtab.htm)
 
-Loop across a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry")
+Loop across a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry")
 
-[MODIFY](javascript:call_link\('abapmodify_dbtab_obsolete.htm'\))
+[MODIFY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmodify_dbtab_obsolete.htm)
 
-Changes a row in a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry")
+Changes a row in a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry")
 
-[READ TABLE](javascript:call_link\('abapread_table_dbtab.htm'\))
+[READ TABLE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapread_table_dbtab.htm)
 
-Reads a row in a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry")
+Reads a row in a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry")
 
-[REFRESH FROM](javascript:call_link\('abaprefresh_obsolete.htm'\))
+[REFRESH FROM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abaprefresh_obsolete.htm)
 
-Reads rows in a [DDIC database table](javascript:call_link\('abenddic_db_table_glosry.htm'\) "Glossary Entry")
+Reads rows in a [DDIC database table](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenddic_db_table_glosry.htm "Glossary Entry")
 
 Native SQL   
 
-[EXIT FROM SQL](javascript:call_link\('abapexit_sql.htm'\))
+[EXIT FROM SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexit_sql.htm)
 
-Exits implicit cursor processing of [Native SQL](javascript:call_link\('abennative_sql_glosry.htm'\) "Glossary Entry")
+Exits implicit cursor processing of [Native SQL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abennative_sql_glosry.htm "Glossary Entry")
 
 Contexts   
 
-[CONTEXTS](javascript:call_link\('abapcontexts.htm'\))
+[CONTEXTS](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcontexts.htm)
 
-Data type for [contexts](javascript:call_link\('abencontext_glosry.htm'\) "Glossary Entry")
+Data type for [contexts](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontext_glosry.htm "Glossary Entry")
 
-[DEMAND](javascript:call_link\('abapdemand.htm'\))
+[DEMAND](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdemand.htm)
 
-Requests a [context](javascript:call_link\('abencontext_glosry.htm'\) "Glossary Entry")
+Requests a [context](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontext_glosry.htm "Glossary Entry")
 
-[SUPPLY](javascript:call_link\('abapsupply.htm'\))
+[SUPPLY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsupply.htm)
 
-Fills the key fields of a [context](javascript:call_link\('abencontext_glosry.htm'\) "Glossary Entry")
+Fills the key fields of a [context](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abencontext_glosry.htm "Glossary Entry")
 
 Obsolete Statements in List Processing   
 
-[AT PFnn](javascript:call_link\('abapat_pfnn.htm'\))
+[AT PFnn](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapat_pfnn.htm)
 
-Obsolete [list event](javascript:call_link\('abenlist_event_glosry.htm'\) "Glossary Entry")
+Obsolete [list event](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenlist_event_glosry.htm "Glossary Entry")
 
-[DETAIL](javascript:call_link\('abapdetail.htm'\))
+[DETAIL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdetail.htm)
 
-Intensity of the background color in a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Intensity of the background color in a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
-[INPUT](javascript:call_link\('abapinput.htm'\))
+[INPUT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapinput.htm)
 
-[List](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry") availability for input
+[List](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry") availability for input
 
-[MAXIMUM](javascript:call_link\('abapmaximum.htm'\))
+[MAXIMUM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapmaximum.htm)
 
-Maximum value of output values in a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Maximum value of output values in a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
-[MINIMUM](javascript:call_link\('abapminimum.htm'\))
+[MINIMUM](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapminimum.htm)
 
-Minimum value of output values in a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Minimum value of output values in a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
-[NEW-SECTION](javascript:call_link\('abapnew-section.htm'\))
+[NEW-SECTION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapnew-section.htm)
 
-Controls a [spool list](javascript:call_link\('abenspool_list_glosry.htm'\) "Glossary Entry").
+Controls a [spool list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenspool_list_glosry.htm "Glossary Entry").
 
-[SUMMARY](javascript:call_link\('abapsummary.htm'\))
+[SUMMARY](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsummary.htm)
 
-Intensity of the background color in a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Intensity of the background color in a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
-[SUMMING](javascript:call_link\('abapsumming.htm'\))
+[SUMMING](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsumming.htm)
 
-Sums output values in a [list](javascript:call_link\('abenclassic_list_glosry.htm'\) "Glossary Entry")
+Sums output values in a [list](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenclassic_list_glosry.htm "Glossary Entry")
 
 Obsolete Editor Calls   
 
-[EDITOR-CALL FOR itab.](javascript:call_link\('abapeditor-call_for_itab.htm'\))
+[EDITOR-CALL FOR itab.](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeditor-call_for_itab.htm)
 
-Calls a [GUI control](javascript:call_link\('abengui_control_glosry.htm'\) "Glossary Entry") (obsolete)
+Calls a [GUI control](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abengui_control_glosry.htm "Glossary Entry") (obsolete)
 
-[EDITOR-CALL FOR REPORT](javascript:call_link\('abapeditor-call_for_report.htm'\))
+[EDITOR-CALL FOR REPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapeditor-call_for_report.htm)
 
-Calls the [ABAP Editor](javascript:call_link\('abenabap_editor_glosry.htm'\) "Glossary Entry")
+Calls the [ABAP Editor](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_editor_glosry.htm "Glossary Entry")
 
 Obsolete Tests and Checks   
 
-[SET EXTENDED CHECK](javascript:call_link\('abapset_extended_check.htm'\))
+[SET EXTENDED CHECK](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapset_extended_check.htm)
 
-Controls the [extended program check](javascript:call_link\('abenextended_program_check_glosry.htm'\) "Glossary Entry")
+Controls the [extended program check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenextended_program_check_glosry.htm "Glossary Entry")
 
 Obsolete External Programming Interface   
 
-[COMMUNICATION](javascript:call_link\('abapcommunication.htm'\))
+[COMMUNICATION](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcommunication.htm)
 
-Addresses the [CPI-C interface](javascript:call_link\('abenabap_cpic.htm'\))
+Addresses the [CPI-C interface](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_cpic.htm)
 
 Internal Statements   
 
 Program Editing   
 
-[DELETE DYNPRO](javascript:call_link\('abapdelete_dynpro.htm'\))
+[DELETE DYNPRO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_dynpro.htm)
 
-Deletes a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry")
+Deletes a [dynpro](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm "Glossary Entry")
 
-[DELETE REPORT](javascript:call_link\('abapdelete_report.htm'\))
+[DELETE REPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_report.htm)
 
-Deletes an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry")
+Deletes an [ABAP program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_glosry.htm "Glossary Entry")
 
-[DELETE TEXTPOOL](javascript:call_link\('abapdelete_textpool.htm'\))
+[DELETE TEXTPOOL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapdelete_textpool.htm)
 
-Deletes a [text pool](javascript:call_link\('abentext_pool_glosry.htm'\) "Glossary Entry")
+Deletes a [text pool](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abentext_pool_glosry.htm "Glossary Entry")
 
-[EXPORT DYNPRO](javascript:call_link\('abapexport_dynpro.htm'\))
+[EXPORT DYNPRO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapexport_dynpro.htm)
 
-Exports a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry")
+Exports a [dynpro](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm "Glossary Entry")
 
-[GENERATE DYNPRO](javascript:call_link\('abapgenerate_dynpro.htm'\))
+[GENERATE DYNPRO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapgenerate_dynpro.htm)
 
-Generates a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry")
+Generates a [dynpro](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm "Glossary Entry")
 
-[GENERATE REPORT](javascript:call_link\('abapgenerate_report.htm'\))
+[GENERATE REPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapgenerate_report.htm)
 
-Generates an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry")
+Generates an [ABAP program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_glosry.htm "Glossary Entry")
 
-[LOAD REPORT](javascript:call_link\('abapload.htm'\))
+[LOAD REPORT](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapload.htm)
 
-Loads an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry")
+Loads an [ABAP program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_glosry.htm "Glossary Entry")
 
-[IMPORT DYNPRO](javascript:call_link\('abapimport_dynpro.htm'\))
+[IMPORT DYNPRO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapimport_dynpro.htm)
 
-Imports a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry")
+Imports a [dynpro](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm "Glossary Entry")
 
-[SCAN](javascript:call_link\('abapscan.htm'\))
+[SCAN](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapscan.htm)
 
-Splits an [ABAP program](javascript:call_link\('abenabap_program_glosry.htm'\) "Glossary Entry") into tokens
+Splits an [ABAP program](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_program_glosry.htm "Glossary Entry") into tokens
 
-[SYNTAX-CHECK FOR DYNPRO](javascript:call_link\('abapsyntax-check_for_dynpro.htm'\))
+[SYNTAX-CHECK FOR DYNPRO](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsyntax-check_for_dynpro.htm)
 
-Syntax check for a [dynpro](javascript:call_link\('abendynpro_glosry.htm'\) "Glossary Entry")
+Syntax check for a [dynpro](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abendynpro_glosry.htm "Glossary Entry")
 
-[SYNTAX-TRACE](javascript:call_link\('abapsyntax-trace.htm'\))
+[SYNTAX-TRACE](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapsyntax-trace.htm)
 
-Modifies the [syntax check](javascript:call_link\('abensyntax_check_glosry.htm'\) "Glossary Entry")
+Modifies the [syntax check](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abensyntax_check_glosry.htm "Glossary Entry")
 
 External Interface   
 
-[CALL](javascript:call_link\('abapcall-.htm'\))
+[CALL](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abapcall-.htm)
 
-Calls a c function of the [ABAP runtime framework](javascript:call_link\('abenabap_runtime_frmwk_glosry.htm'\) "Glossary Entry")
+Calls a c function of the [ABAP runtime framework](https://help.sap.com/doc/abapdocu_758_index_htm/7.58/en-US/abenabap_runtime_frmwk_glosry.htm "Glossary Entry")

@@ -3,29 +3,7 @@
 Included pages: 7
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.52](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenabap_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_functions.htm)
-- [abapfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm)
-- [abenfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm)
-- [abenfunction_parameters.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm)
-- [abapendfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendfunction.htm)
-
-**Bundle Contains**: 5 documentation pages
-**Version**: ABAP 7.52
-**Generated**: 2025-09-01T11:25:46.509Z
-
----
-
 ### abenabap_functions.htm
-
-> **📖 Official SAP Documentation**: [abenabap_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_functions.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -33,35 +11,28 @@ Included pages: 7
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_procedures.htm) → 
 
 Function Modules
 
-Function modules are cross-program reusable [procedures](javascript:call_link\('abenprocedure_glosry.htm'\) "Glossary Entry") that are organized into [function groups](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry") and whose functions are implemented between the following statements:
+Function modules are cross-program reusable [procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenprocedure_glosry.htm "Glossary Entry") that are organized into [function groups](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_group_glosry.htm "Glossary Entry") and whose functions are implemented between the following statements:
 
-[FUNCTION](javascript:call_link\('abapfunction.htm'\))
+[FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm)
   ...
-[ENDFUNCTION](javascript:call_link\('abapendfunction.htm'\))
+[ENDFUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendfunction.htm)
 
-Function modules and their [interfaces](javascript:call_link\('abenfunction.htm'\)) are created in [Function Builder](javascript:call_link\('abenfunction_builder_glosry.htm'\) "Glossary Entry") in ABAP Workbench or in the [ABAP Development Tools (ADT)](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry").
+Function modules and their [interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm) are created in [Function Builder](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_builder_glosry.htm "Glossary Entry") in ABAP Workbench or in the [ABAP Development Tools (ADT)](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry").
 
 Note
 
-Function modules in function groups are the predecessor technology of public [methods](javascript:call_link\('abenmethod_glosry.htm'\) "Glossary Entry") in global classes.
+Function modules in function groups are the predecessor technology of public [methods](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmethod_glosry.htm "Glossary Entry") in global classes.
 
 Continue
-[FUNCTION](javascript:call_link\('abapfunction.htm'\))
-[ENDFUNCTION](javascript:call_link\('abapendfunction.htm'\))
+[FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm)
+[ENDFUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendfunction.htm)
 
-
-
-**📖 Source**: [abenabap_functions.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_functions.htm)
 
 ### abapfunction.htm
-
-> **📖 Official SAP Documentation**: [abapfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -69,35 +40,35 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) →  [Function Modules](javascript:call_link\('abenabap_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_procedures.htm) →  [Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_functions.htm) → 
 
 FUNCTION
 
-[Quick Reference](javascript:call_link\('abapfunction_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_shortref.htm)
 
 Syntax
 
 FUNCTION func.
 \*"---------------------------------------------------------
 \*" Local Interface:
-\*" [parameter\_interface](javascript:call_link\('abenfunction.htm'\))
+\*" [parameter\_interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm)
 \*"---------------------------------------------------------
   ...
 ENDFUNCTION.
 
 Effect
 
-Between the statements FUNCTION and ENDFUNCTION, the functions of a [function module](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") func are implemented in a function group. The function module and its interface are defined in the [Function Builder](javascript:call_link\('abenfunction_builder_glosry.htm'\) "Glossary Entry") tool. In the source code of the function module, the function module interface defined in Function Builder is automatically displayed as [parameter\_interface](javascript:call_link\('abenfunction.htm'\)) in comment lines underneath the statement FUNCTION.
+Between the statements FUNCTION and ENDFUNCTION, the functions of a [function module](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_module_glosry.htm "Glossary Entry") func are implemented in a function group. The function module and its interface are defined in the [Function Builder](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_builder_glosry.htm "Glossary Entry") tool. In the source code of the function module, the function module interface defined in Function Builder is automatically displayed as [parameter\_interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm) in comment lines underneath the statement FUNCTION.
 
-Within the function module, local data types and data objects can be declared. There is also access to the formal parameters of the function module and to the global data types and data objects of the function group. A function module is called using the statement [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)).
+Within the function module, local data types and data objects can be declared. There is also access to the formal parameters of the function module and to the global data types and data objects of the function group. A function module is called using the statement [CALL FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function.htm).
 
 Note
 
-The [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [IS SUPPLIED](javascript:call_link\('abenlogexp_supplied.htm'\)) can be used in the function module to determine whether an actual parameter has been specified for a formal parameter.
+The [predicate expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [IS SUPPLIED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_supplied.htm) can be used in the function module to determine whether an actual parameter has been specified for a formal parameter.
 
 Example
 
-Implements a function module that reads data in a table-like formal parameter flight\_tab under the condition of an elementary formal parameter id. The [parameter interface](javascript:call_link\('abenfunction.htm'\)) defined in Function Builder is visible as a comment.
+Implements a function module that reads data in a table-like formal parameter flight\_tab under the condition of an elementary formal parameter id. The [parameter interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm) defined in Function Builder is visible as a comment.
 
 FUNCTION read\_spfli\_into\_table.
 \*"---------------------------------------------------------
@@ -114,17 +85,10 @@ FUNCTION read\_spfli\_into\_table.
 ENDFUNCTION.
 
 Continue
-[Function Module Interface](javascript:call_link\('abenfunction.htm'\))
+[Function Module Interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm)
 
-
-
-**📖 Source**: [abapfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm)
 
 ### abenfunction.htm
-
-> **📖 Official SAP Documentation**: [abenfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -132,26 +96,26 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) →  [Function Modules](javascript:call_link\('abenabap_functions.htm'\)) →  [FUNCTION](javascript:call_link\('abapfunction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_procedures.htm) →  [Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_functions.htm) →  [FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm) → 
 
 Function Module Interface
 
-The [parameter interface](javascript:call_link\('abenparameter_interface_glosry.htm'\) "Glossary Entry") of a function module is defined in Function Builder. It defines interface parameters and specifies exceptions that can be raised by a function module. Function Builder creates comment lines below the statement [FUNCTION](javascript:call_link\('abapfunction.htm'\)) automatically in the source code of the function module. These represent the interface of the function module with the following syntax:
+The [parameter interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenparameter_interface_glosry.htm "Glossary Entry") of a function module is defined in Function Builder. It defines interface parameters and specifies exceptions that can be raised by a function module. Function Builder creates comment lines below the statement [FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm) automatically in the source code of the function module. These represent the interface of the function module with the following syntax:
 
 Syntax
 
-... *\[*IMPORTING [parameters](javascript:call_link\('abenfunction_parameters.htm'\))*\]*
-    *\[*EXPORTING [parameters](javascript:call_link\('abenfunction_parameters.htm'\))*\]*
-    *\[*TABLES [table\_parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\))*\]*
-    *\[*CHANGING [parameters](javascript:call_link\('abenfunction_parameters.htm'\))*\]*
+... *\[*IMPORTING [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm)*\]*
+    *\[*EXPORTING [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm)*\]*
+    *\[*TABLES [table\_parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm)*\]*
+    *\[*CHANGING [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm)*\]*
     *\[**{*RAISING exc1*|*RESUMABLE(exc1) exc2*|*RESUMABLE(exc2) ...*}*
     *|**{*EXCEPTIONS exc1 exc2 ...*}**\]*
 
-The syntax and semantics of IMPORTING, EXPORTING, CHANGING, RAISING, and EXCEPTIONS mainly correspond to the definition of method interfaces using [*\[*CLASS-*\]*METHODS](javascript:call_link\('abapmethods_general.htm'\)). The additional option of defining table parameters using [TABLES](javascript:call_link\('abaptables_parameters_obsolete.htm'\)) is obsolete.
+The syntax and semantics of IMPORTING, EXPORTING, CHANGING, RAISING, and EXCEPTIONS mainly correspond to the definition of method interfaces using [*\[*CLASS-*\]*METHODS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_general.htm). The additional option of defining table parameters using [TABLES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm) is obsolete.
 
 Note
 
-The [ABAP Development Tools](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") do not have a form-based Function Builder and the parameter interface of a function module is defined in an ABAP pseudo syntax. These statements are not compiled like genuine ABAP statements and the regular ABAP syntax checks are not applied. When a function module is generated, they are interpreted like the form-based instructions from classic Function Builder.
+The [ABAP Development Tools](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry") do not have a form-based Function Builder and the parameter interface of a function module is defined in an ABAP pseudo syntax. These statements are not compiled like genuine ABAP statements and the regular ABAP syntax checks are not applied. When a function module is generated, they are interpreted like the form-based instructions from classic Function Builder.
 
 Interface Parameters
 
@@ -161,30 +125,30 @@ The interface parameters are defined on the relevant tab pages in Function Build
 
 -   EXPORTING parameters are output parameters. When the function module is called, a suitable actual parameter can be specified for every output parameter. The content of an output parameter that is defined for 'pass by value' is passed to the actual parameter if the function module is completed without errors. An output parameter that is defined for pass by reference is not initialized when the function module is called.
 
--   TABLES parameters are [obsolete table parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\)).
+-   TABLES parameters are [obsolete table parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm).
 
 -   CHANGING parameters are input and output parameters. When the function module is called, a suitable actual parameter must be specified for every non-optional input or output parameter. When the function module is called, the content of the actual parameter is passed to the input/output parameter, and when the function module is completed, the content of the input/output parameter is passed to the actual parameter.
 
 Note
 
-The formal parameters of a function module can be registered as [global parameters](javascript:call_link\('abenglobal_parameters_obsolete.htm'\)) in Function Builder, however this is obsolete.
+The formal parameters of a function module can be registered as [global parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_parameters_obsolete.htm) in Function Builder, however this is obsolete.
 
 Exceptions
 
-The exceptions of a function module are defined on the Exceptions tab page in Function Builder. Here, exception classes can be selected to define whether [class-based exceptions](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry") are declared or [non-class-based exception](javascript:call_link\('abenexceptions_non_class.htm'\)) are defined. Class-based exceptions are represented in the above syntax by RAISING and non-class-based exceptions are represented by EXCEPTIONS.
+The exceptions of a function module are defined on the Exceptions tab page in Function Builder. Here, exception classes can be selected to define whether [class-based exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_based_exception_glosry.htm "Glossary Entry") are declared or [non-class-based exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_non_class.htm) are defined. Class-based exceptions are represented in the above syntax by RAISING and non-class-based exceptions are represented by EXCEPTIONS.
 
--   The addition RAISING is used to declare class-based exceptions that can be propagated from the function module to the caller. Exceptions in the categories CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK must be declared explicitly, to prevent propagations from violating the interface. Violations of the interface raise the handleable exception CX\_SY\_NO\_HANDLER. Exceptions of the category CX\_NO\_CHECK are always declared implicitly and with the addition RESUMABLE. Declarations of exceptions of the category CX\_STATIC\_CHECK are checked statically in the syntax check. For exceptions of the category CX\_DYNAMIC\_CHECK, the check is not performed until runtime. In a function module in which class-based exceptions are declared using the addition RAISING, the obsolete statement [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)) cannot be used to handle [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"). Instead, the handleable exceptions assigned to the runtime errors should be handled in a [TRY](javascript:call_link\('abaptry.htm'\)) control structure.
-    The addition RESUMABLE declares an exception that can be propagated as a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry"). This addition has no relevance to a non-resumable exception. The addition does not have any effect on a non-resumable exception. If a resumable exception is propagated with RAISING without the addition RESUMABLE, it becomes non-resumable. If a superclass is declared as resumable, any subclasses must also be declared as resumable.
+-   The addition RAISING is used to declare class-based exceptions that can be propagated from the function module to the caller. Exceptions in the categories CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK must be declared explicitly, to prevent propagations from violating the interface. Violations of the interface raise the handleable exception CX\_SY\_NO\_HANDLER. Exceptions of the category CX\_NO\_CHECK are always declared implicitly and with the addition RESUMABLE. Declarations of exceptions of the category CX\_STATIC\_CHECK are checked statically in the syntax check. For exceptions of the category CX\_DYNAMIC\_CHECK, the check is not performed until runtime. In a function module in which class-based exceptions are declared using the addition RAISING, the obsolete statement [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcatch_sys.htm) cannot be used to handle [catchable runtime errors](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"). Instead, the handleable exceptions assigned to the runtime errors should be handled in a [TRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptry.htm) control structure.
+    The addition RESUMABLE declares an exception that can be propagated as a [resumable exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenresumable_exception_glosry.htm "Glossary Entry"). This addition has no relevance to a non-resumable exception. The addition does not have any effect on a non-resumable exception. If a resumable exception is propagated with RAISING without the addition RESUMABLE, it becomes non-resumable. If a superclass is declared as resumable, any subclasses must also be declared as resumable.
 
--   The addition EXCEPTIONS is used to define a list of non-class-based exceptions that can be raised in the function module using the statements [RAISE](javascript:call_link\('abapraise_exception.htm'\)) or [MESSAGE RAISING](javascript:call_link\('abapmessage_raising.htm'\)). Exceptions defined in this way are (as with formal parameters) bound to the function module and cannot be propagated. If an exception of this type is raised in a function module, and no return value was assigned to it with the identically named addition EXCEPTIONS of the statement [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)) when the call was made, a runtime error is produced. In a function module in whose interface non-class-based exceptions are defined, the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) or the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)) cannot be used to raise class-based exceptions.
+-   The addition EXCEPTIONS is used to define a list of non-class-based exceptions that can be raised in the function module using the statements [RAISE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception.htm) or [MESSAGE RAISING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage_raising.htm). Exceptions defined in this way are (as with formal parameters) bound to the function module and cannot be propagated. If an exception of this type is raised in a function module, and no return value was assigned to it with the identically named addition EXCEPTIONS of the statement [CALL FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function.htm) when the call was made, a runtime error is produced. In a function module in whose interface non-class-based exceptions are defined, the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception_class.htm) or the addition [THROW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expressions.htm) cannot be used to raise class-based exceptions.
 
-The Resumable column in Function Builder can be selected to flag a class-based exception as a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry"). This places the addition RESUMABLE behind RAISING in the syntax above.
+The Resumable column in Function Builder can be selected to flag a class-based exception as a [resumable exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenresumable_exception_glosry.htm "Glossary Entry"). This places the addition RESUMABLE behind RAISING in the syntax above.
 
 Notes
 
 -   For new developments, SAP recommends working with class-based exceptions that are independent of the function module.
 
--   See also [Class-Based Exceptions in Procedures](javascript:call_link\('abenexceptions_procedures.htm'\)).
+-   See also [Class-Based Exceptions in Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_procedures.htm).
 
 Example
 
@@ -205,17 +169,10 @@ Comment lines generated by Function Builder for various categories of actual par
 \*"----------------------------------------------------------------------
 
 Continue
-[Properties of Interface Parameters](javascript:call_link\('abenfunction_parameters.htm'\))
+[Properties of Interface Parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm)
 
-
-
-**📖 Source**: [abenfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm)
 
 ### abenfunction_parameters.htm
-
-> **📖 Official SAP Documentation**: [abenfunction_parameters.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -223,27 +180,27 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) →  [Function Modules](javascript:call_link\('abenabap_functions.htm'\)) →  [FUNCTION](javascript:call_link\('abapfunction.htm'\)) →  [Function Module Interface](javascript:call_link\('abenfunction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_procedures.htm) →  [Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_functions.htm) →  [FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm) →  [Function Module Interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm) → 
 
 Properties of Interface Parameters
 
-When an interface parameter p1, p2... is defined in Function Builder, properties are determined for the parameter that are reflected in the syntax of parameters and [table\_parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\)).
+When an interface parameter p1, p2... is defined in Function Builder, properties are determined for the parameter that are reflected in the syntax of parameters and [table\_parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm).
 
 Syntax
 
 ... *{* VALUE(p1) *|* REFERENCE(p1) *}*
-         *\[* *{*TYPE *\[*REF TO*\]* type*}* *|* [like\_structure](javascript:call_link\('abapfunction_typing_obsolete.htm'\))
+         *\[* *{*TYPE *\[*REF TO*\]* type*}* *|* [like\_structure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm)
            *\[*OPTIONAL*|**{*DEFAULT def1*}**\]* *\]*
     *{* VALUE(p2) *|* REFERENCE(p2) *}*
-         *\[* *{*TYPE *\[*REF TO*\]* type*}* *|* [like\_structure](javascript:call_link\('abapfunction_typing_obsolete.htm'\))
+         *\[* *{*TYPE *\[*REF TO*\]* type*}* *|* [like\_structure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm)
            *\[*OPTIONAL*|**{*DEFAULT def2*}**\]* *\]*
     ...
 
-The syntax and semantics of VALUE, TYPE, OPTIONAL, and DEFAULT are mainly the same as in the definition of method interfaces by [*\[*CLASS-*\]*METHODS](javascript:call_link\('abapmethods_parameters.htm'\)). The obsolete option [like\_structure](javascript:call_link\('abapfunction_typing_obsolete.htm'\)) also exists, which uses LIKE or STRUCTURE to type interface parameters.
+The syntax and semantics of VALUE, TYPE, OPTIONAL, and DEFAULT are mainly the same as in the definition of method interfaces by [*\[*CLASS-*\]*METHODS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_parameters.htm). The obsolete option [like\_structure](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm) also exists, which uses LIKE or STRUCTURE to type interface parameters.
 
 Type of Parameter Passing
 
-There are two types of parameter passing: [pass by reference](javascript:call_link\('abenpass_by_reference_glosry.htm'\) "Glossary Entry") and [pass by value](javascript:call_link\('abenpass_by_value_glosry.htm'\) "Glossary Entry"). Pass by value is selected in Function Builder by selecting pass by value and differs from pass by reference in the above syntax (indicated by REFERENCE( )) by VALUE( ) being specified. If only one name p1 p2 ... is specified, the parameter is passed by reference by default.
+There are two types of parameter passing: [pass by reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpass_by_reference_glosry.htm "Glossary Entry") and [pass by value](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpass_by_value_glosry.htm "Glossary Entry"). Pass by value is selected in Function Builder by selecting pass by value and differs from pass by reference in the above syntax (indicated by REFERENCE( )) by VALUE( ) being specified. If only one name p1 p2 ... is specified, the parameter is passed by reference by default.
 
 -   In pass by reference, the formal parameter points directly to the actual parameter, so that changes to the formal parameters have an immediate effect on the actual parameter.
 
@@ -251,7 +208,7 @@ There are two types of parameter passing: [pass by reference](javascript:call_li
 
 Note the following for the different types of parameter:
 
--   In IMPORTING, EXPORTING, and CHANGING parameters, pass by reference and pass by value are possible. In [TABLES parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\)), only pass by reference is possible.
+-   In IMPORTING, EXPORTING, and CHANGING parameters, pass by reference and pass by value are possible. In [TABLES parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm), only pass by reference is possible.
 
 -   IMPORTING parameters passed by reference must not be overwritten in the function module.
 
@@ -263,9 +220,9 @@ The time the function module was last edited specifies whether a parameter passe
 
 Typing of Interface Parameters
 
-The parameter interface of a function module is public across the system. Interface parameters can therefore only be typed with reference to data types from ABAP Dictionary or from the public visible section of global classes. In Function Builder, interface parameters can be typed by selecting either TYPE or TYPE REF TO or by entering [LIKE](javascript:call_link\('abapfunction_typing_obsolete.htm'\)).
+The parameter interface of a function module is public across the system. Interface parameters can therefore only be typed with reference to data types from ABAP Dictionary or from the public visible section of global classes. In Function Builder, interface parameters can be typed by selecting either TYPE or TYPE REF TO or by entering [LIKE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_typing_obsolete.htm).
 
-Typing with TYPE *\[*REF TO*\]* is the recommended typing for interface parameters of function modules. It takes place when TYPE or TYPE REF TO is selected in Function Builder. For IMPORTING, EXPORTING, and CHANGING parameters, any [predefined ABAP type](javascript:call_link\('abenbuilt_in_types.htm'\)) (complete or generic), or any data type from ABAP Dictionary or from the public visibility section of a global class can be specified after TYPE. After TYPE REF TO, the generic data type [data](javascript:call_link\('abenbuilt_in_types_generic.htm'\)), a non-generic data type, or an [object type](javascript:call_link\('abenobject_type_glosry.htm'\) "Glossary Entry") can be specified and the interface parameter is typed as a [reference variable](javascript:call_link\('abenreference_variable_glosry.htm'\) "Glossary Entry"). The [typing check](javascript:call_link\('abentyping_check.htm'\)) is performed in the same way as for methods.
+Typing with TYPE *\[*REF TO*\]* is the recommended typing for interface parameters of function modules. It takes place when TYPE or TYPE REF TO is selected in Function Builder. For IMPORTING, EXPORTING, and CHANGING parameters, any [predefined ABAP type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_types.htm) (complete or generic), or any data type from ABAP Dictionary or from the public visibility section of a global class can be specified after TYPE. After TYPE REF TO, the generic data type [data](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenbuilt_in_types_generic.htm), a non-generic data type, or an [object type](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenobject_type_glosry.htm "Glossary Entry") can be specified and the interface parameter is typed as a [reference variable](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenreference_variable_glosry.htm "Glossary Entry"). The [typing check](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_check.htm) is performed in the same way as for methods.
 
 Note
 
@@ -273,23 +230,16 @@ Without an explicit typing, a formal parameter is typed implicitly with the full
 
 Optional Parameters
 
-IMPORTING, CHANGING, and [TABLES parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\)) can be made optional by selecting optional in Function Builder. EXPORTING parameters are always optional. IMPORTING and CHANGING parameters can be assigned a replacement parameter (the default value in Function Builder). In the above syntax, this is expressed using the additions OPTIONAL or DEFAULT. For an optional parameter, no actual parameter must be entered when the function module is called. While a formal parameter with the addition OPTIONAL is then initialized as a type-friendly parameter, a formal parameter with the addition DEFAULT assumes the value and type of the replacement parameter def1 def2 ...
+IMPORTING, CHANGING, and [TABLES parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm) can be made optional by selecting optional in Function Builder. EXPORTING parameters are always optional. IMPORTING and CHANGING parameters can be assigned a replacement parameter (the default value in Function Builder). In the above syntax, this is expressed using the additions OPTIONAL or DEFAULT. For an optional parameter, no actual parameter must be entered when the function module is called. While a formal parameter with the addition OPTIONAL is then initialized as a type-friendly parameter, a formal parameter with the addition DEFAULT assumes the value and type of the replacement parameter def1 def2 ...
 
-If no actual parameter is specified for a generically typed formal parameter with the addition OPTIONAL when it is called, the type of the formal parameter is completed according to [fixed rules](javascript:call_link\('abentyping_generic.htm'\)).
+If no actual parameter is specified for a generically typed formal parameter with the addition OPTIONAL when it is called, the type of the formal parameter is completed according to [fixed rules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abentyping_generic.htm).
 
 Note
 
-Within a function module, the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [IS SUPPLIED](javascript:call_link\('abenlogexp_supplied.htm'\)) can be used to check whether an optional formal parameter was assigned an actual parameter when it was called.
+Within a function module, the [predicate expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [IS SUPPLIED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_supplied.htm) can be used to check whether an optional formal parameter was assigned an actual parameter when it was called.
 
-
-
-**📖 Source**: [abenfunction_parameters.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm)
 
 ### abenfunction.htm
-
-> **📖 Official SAP Documentation**: [abenfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -297,26 +247,26 @@ Within a function module, the [predicate expression](javascript:call_link\('aben
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) →  [Function Modules](javascript:call_link\('abenabap_functions.htm'\)) →  [FUNCTION](javascript:call_link\('abapfunction.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_procedures.htm) →  [Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_functions.htm) →  [FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm) → 
 
 Function Module Interface
 
-The [parameter interface](javascript:call_link\('abenparameter_interface_glosry.htm'\) "Glossary Entry") of a function module is defined in Function Builder. It defines interface parameters and specifies exceptions that can be raised by a function module. Function Builder creates comment lines below the statement [FUNCTION](javascript:call_link\('abapfunction.htm'\)) automatically in the source code of the function module. These represent the interface of the function module with the following syntax:
+The [parameter interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenparameter_interface_glosry.htm "Glossary Entry") of a function module is defined in Function Builder. It defines interface parameters and specifies exceptions that can be raised by a function module. Function Builder creates comment lines below the statement [FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm) automatically in the source code of the function module. These represent the interface of the function module with the following syntax:
 
 Syntax
 
-... *\[*IMPORTING [parameters](javascript:call_link\('abenfunction_parameters.htm'\))*\]*
-    *\[*EXPORTING [parameters](javascript:call_link\('abenfunction_parameters.htm'\))*\]*
-    *\[*TABLES [table\_parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\))*\]*
-    *\[*CHANGING [parameters](javascript:call_link\('abenfunction_parameters.htm'\))*\]*
+... *\[*IMPORTING [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm)*\]*
+    *\[*EXPORTING [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm)*\]*
+    *\[*TABLES [table\_parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm)*\]*
+    *\[*CHANGING [parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm)*\]*
     *\[**{*RAISING exc1*|*RESUMABLE(exc1) exc2*|*RESUMABLE(exc2) ...*}*
     *|**{*EXCEPTIONS exc1 exc2 ...*}**\]*
 
-The syntax and semantics of IMPORTING, EXPORTING, CHANGING, RAISING, and EXCEPTIONS mainly correspond to the definition of method interfaces using [*\[*CLASS-*\]*METHODS](javascript:call_link\('abapmethods_general.htm'\)). The additional option of defining table parameters using [TABLES](javascript:call_link\('abaptables_parameters_obsolete.htm'\)) is obsolete.
+The syntax and semantics of IMPORTING, EXPORTING, CHANGING, RAISING, and EXCEPTIONS mainly correspond to the definition of method interfaces using [*\[*CLASS-*\]*METHODS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethods_general.htm). The additional option of defining table parameters using [TABLES](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm) is obsolete.
 
 Note
 
-The [ABAP Development Tools](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") do not have a form-based Function Builder and the parameter interface of a function module is defined in an ABAP pseudo syntax. These statements are not compiled like genuine ABAP statements and the regular ABAP syntax checks are not applied. When a function module is generated, they are interpreted like the form-based instructions from classic Function Builder.
+The [ABAP Development Tools](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenadt_glosry.htm "Glossary Entry") do not have a form-based Function Builder and the parameter interface of a function module is defined in an ABAP pseudo syntax. These statements are not compiled like genuine ABAP statements and the regular ABAP syntax checks are not applied. When a function module is generated, they are interpreted like the form-based instructions from classic Function Builder.
 
 Interface Parameters
 
@@ -326,30 +276,30 @@ The interface parameters are defined on the relevant tab pages in Function Build
 
 -   EXPORTING parameters are output parameters. When the function module is called, a suitable actual parameter can be specified for every output parameter. The content of an output parameter that is defined for 'pass by value' is passed to the actual parameter if the function module is completed without errors. An output parameter that is defined for pass by reference is not initialized when the function module is called.
 
--   TABLES parameters are [obsolete table parameters](javascript:call_link\('abaptables_parameters_obsolete.htm'\)).
+-   TABLES parameters are [obsolete table parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptables_parameters_obsolete.htm).
 
 -   CHANGING parameters are input and output parameters. When the function module is called, a suitable actual parameter must be specified for every non-optional input or output parameter. When the function module is called, the content of the actual parameter is passed to the input/output parameter, and when the function module is completed, the content of the input/output parameter is passed to the actual parameter.
 
 Note
 
-The formal parameters of a function module can be registered as [global parameters](javascript:call_link\('abenglobal_parameters_obsolete.htm'\)) in Function Builder, however this is obsolete.
+The formal parameters of a function module can be registered as [global parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenglobal_parameters_obsolete.htm) in Function Builder, however this is obsolete.
 
 Exceptions
 
-The exceptions of a function module are defined on the Exceptions tab page in Function Builder. Here, exception classes can be selected to define whether [class-based exceptions](javascript:call_link\('abenclass_based_exception_glosry.htm'\) "Glossary Entry") are declared or [non-class-based exception](javascript:call_link\('abenexceptions_non_class.htm'\)) are defined. Class-based exceptions are represented in the above syntax by RAISING and non-class-based exceptions are represented by EXCEPTIONS.
+The exceptions of a function module are defined on the Exceptions tab page in Function Builder. Here, exception classes can be selected to define whether [class-based exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_based_exception_glosry.htm "Glossary Entry") are declared or [non-class-based exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_non_class.htm) are defined. Class-based exceptions are represented in the above syntax by RAISING and non-class-based exceptions are represented by EXCEPTIONS.
 
--   The addition RAISING is used to declare class-based exceptions that can be propagated from the function module to the caller. Exceptions in the categories CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK must be declared explicitly, to prevent propagations from violating the interface. Violations of the interface raise the handleable exception CX\_SY\_NO\_HANDLER. Exceptions of the category CX\_NO\_CHECK are always declared implicitly and with the addition RESUMABLE. Declarations of exceptions of the category CX\_STATIC\_CHECK are checked statically in the syntax check. For exceptions of the category CX\_DYNAMIC\_CHECK, the check is not performed until runtime. In a function module in which class-based exceptions are declared using the addition RAISING, the obsolete statement [CATCH SYSTEM-EXCEPTIONS](javascript:call_link\('abapcatch_sys.htm'\)) cannot be used to handle [catchable runtime errors](javascript:call_link\('abencatchable_runtime_error_glosry.htm'\) "Glossary Entry"). Instead, the handleable exceptions assigned to the runtime errors should be handled in a [TRY](javascript:call_link\('abaptry.htm'\)) control structure.
-    The addition RESUMABLE declares an exception that can be propagated as a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry"). This addition has no relevance to a non-resumable exception. The addition does not have any effect on a non-resumable exception. If a resumable exception is propagated with RAISING without the addition RESUMABLE, it becomes non-resumable. If a superclass is declared as resumable, any subclasses must also be declared as resumable.
+-   The addition RAISING is used to declare class-based exceptions that can be propagated from the function module to the caller. Exceptions in the categories CX\_STATIC\_CHECK and CX\_DYNAMIC\_CHECK must be declared explicitly, to prevent propagations from violating the interface. Violations of the interface raise the handleable exception CX\_SY\_NO\_HANDLER. Exceptions of the category CX\_NO\_CHECK are always declared implicitly and with the addition RESUMABLE. Declarations of exceptions of the category CX\_STATIC\_CHECK are checked statically in the syntax check. For exceptions of the category CX\_DYNAMIC\_CHECK, the check is not performed until runtime. In a function module in which class-based exceptions are declared using the addition RAISING, the obsolete statement [CATCH SYSTEM-EXCEPTIONS](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcatch_sys.htm) cannot be used to handle [catchable runtime errors](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abencatchable_runtime_error_glosry.htm "Glossary Entry"). Instead, the handleable exceptions assigned to the runtime errors should be handled in a [TRY](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abaptry.htm) control structure.
+    The addition RESUMABLE declares an exception that can be propagated as a [resumable exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenresumable_exception_glosry.htm "Glossary Entry"). This addition has no relevance to a non-resumable exception. The addition does not have any effect on a non-resumable exception. If a resumable exception is propagated with RAISING without the addition RESUMABLE, it becomes non-resumable. If a superclass is declared as resumable, any subclasses must also be declared as resumable.
 
--   The addition EXCEPTIONS is used to define a list of non-class-based exceptions that can be raised in the function module using the statements [RAISE](javascript:call_link\('abapraise_exception.htm'\)) or [MESSAGE RAISING](javascript:call_link\('abapmessage_raising.htm'\)). Exceptions defined in this way are (as with formal parameters) bound to the function module and cannot be propagated. If an exception of this type is raised in a function module, and no return value was assigned to it with the identically named addition EXCEPTIONS of the statement [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)) when the call was made, a runtime error is produced. In a function module in whose interface non-class-based exceptions are defined, the statement [RAISE EXCEPTION](javascript:call_link\('abapraise_exception_class.htm'\)) or the addition [THROW](javascript:call_link\('abenconditional_expression_result.htm'\)) in a [conditional expression](javascript:call_link\('abenconditional_expressions.htm'\)) cannot be used to raise class-based exceptions.
+-   The addition EXCEPTIONS is used to define a list of non-class-based exceptions that can be raised in the function module using the statements [RAISE](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception.htm) or [MESSAGE RAISING](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmessage_raising.htm). Exceptions defined in this way are (as with formal parameters) bound to the function module and cannot be propagated. If an exception of this type is raised in a function module, and no return value was assigned to it with the identically named addition EXCEPTIONS of the statement [CALL FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function.htm) when the call was made, a runtime error is produced. In a function module in whose interface non-class-based exceptions are defined, the statement [RAISE EXCEPTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapraise_exception_class.htm) or the addition [THROW](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expression_result.htm) in a [conditional expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconditional_expressions.htm) cannot be used to raise class-based exceptions.
 
-The Resumable column in Function Builder can be selected to flag a class-based exception as a [resumable exception](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry"). This places the addition RESUMABLE behind RAISING in the syntax above.
+The Resumable column in Function Builder can be selected to flag a class-based exception as a [resumable exception](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenresumable_exception_glosry.htm "Glossary Entry"). This places the addition RESUMABLE behind RAISING in the syntax above.
 
 Notes
 
 -   For new developments, SAP recommends working with class-based exceptions that are independent of the function module.
 
--   See also [Class-Based Exceptions in Procedures](javascript:call_link\('abenexceptions_procedures.htm'\)).
+-   See also [Class-Based Exceptions in Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions_procedures.htm).
 
 Example
 
@@ -370,17 +320,10 @@ Comment lines generated by Function Builder for various categories of actual par
 \*"----------------------------------------------------------------------
 
 Continue
-[Properties of Interface Parameters](javascript:call_link\('abenfunction_parameters.htm'\))
+[Properties of Interface Parameters](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_parameters.htm)
 
-
-
-**📖 Source**: [abenfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm)
 
 ### abapfunction.htm
-
-> **📖 Official SAP Documentation**: [abapfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -388,35 +331,35 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) →  [Function Modules](javascript:call_link\('abenabap_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_procedures.htm) →  [Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_functions.htm) → 
 
 FUNCTION
 
-[Quick Reference](javascript:call_link\('abapfunction_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_shortref.htm)
 
 Syntax
 
 FUNCTION func.
 \*"---------------------------------------------------------
 \*" Local Interface:
-\*" [parameter\_interface](javascript:call_link\('abenfunction.htm'\))
+\*" [parameter\_interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm)
 \*"---------------------------------------------------------
   ...
 ENDFUNCTION.
 
 Effect
 
-Between the statements FUNCTION and ENDFUNCTION, the functions of a [function module](javascript:call_link\('abenfunction_module_glosry.htm'\) "Glossary Entry") func are implemented in a function group. The function module and its interface are defined in the [Function Builder](javascript:call_link\('abenfunction_builder_glosry.htm'\) "Glossary Entry") tool. In the source code of the function module, the function module interface defined in Function Builder is automatically displayed as [parameter\_interface](javascript:call_link\('abenfunction.htm'\)) in comment lines underneath the statement FUNCTION.
+Between the statements FUNCTION and ENDFUNCTION, the functions of a [function module](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_module_glosry.htm "Glossary Entry") func are implemented in a function group. The function module and its interface are defined in the [Function Builder](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction_builder_glosry.htm "Glossary Entry") tool. In the source code of the function module, the function module interface defined in Function Builder is automatically displayed as [parameter\_interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm) in comment lines underneath the statement FUNCTION.
 
-Within the function module, local data types and data objects can be declared. There is also access to the formal parameters of the function module and to the global data types and data objects of the function group. A function module is called using the statement [CALL FUNCTION](javascript:call_link\('abapcall_function.htm'\)).
+Within the function module, local data types and data objects can be declared. There is also access to the formal parameters of the function module and to the global data types and data objects of the function group. A function module is called using the statement [CALL FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall_function.htm).
 
 Note
 
-The [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") [IS SUPPLIED](javascript:call_link\('abenlogexp_supplied.htm'\)) can be used in the function module to determine whether an actual parameter has been specified for a formal parameter.
+The [predicate expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") [IS SUPPLIED](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenlogexp_supplied.htm) can be used in the function module to determine whether an actual parameter has been specified for a formal parameter.
 
 Example
 
-Implements a function module that reads data in a table-like formal parameter flight\_tab under the condition of an elementary formal parameter id. The [parameter interface](javascript:call_link\('abenfunction.htm'\)) defined in Function Builder is visible as a comment.
+Implements a function module that reads data in a table-like formal parameter flight\_tab under the condition of an elementary formal parameter id. The [parameter interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm) defined in Function Builder is visible as a comment.
 
 FUNCTION read\_spfli\_into\_table.
 \*"---------------------------------------------------------
@@ -433,20 +376,10 @@ FUNCTION read\_spfli\_into\_table.
 ENDFUNCTION.
 
 Continue
-[Function Module Interface](javascript:call_link\('abenfunction.htm'\))
+[Function Module Interface](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenfunction.htm)
 
-
-
-**📖 Source**: [abapfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm)
 
 ### abapendfunction.htm
-
-> **📖 Official SAP Documentation**: [abapendfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendfunction.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abapendfunction.htm](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapendfunction.htm)
-
 
   
 
@@ -454,11 +387,11 @@ Continue
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Layout](javascript:call_link\('abenabap_program_layout.htm'\)) →  [Modularization Statements](javascript:call_link\('abenabap_language_modularization.htm'\)) →  [Procedures](javascript:call_link\('abenabap_language_procedures.htm'\)) →  [Function Modules](javascript:call_link\('abenabap_functions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Program Layout](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_program_layout.htm) →  [Modularization Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_modularization.htm) →  [Procedures](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_language_procedures.htm) →  [Function Modules](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_functions.htm) → 
 
 ENDFUNCTION
 
-[Quick Reference](javascript:call_link\('abapfunction_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction_shortref.htm)
 
 Syntax
 
@@ -466,4 +399,4 @@ ENDFUNCTION.
 
 Effect
 
-The statement ENDFUNCTION closes a function module introduced using [FUNCTION](javascript:call_link\('abapfunction.htm'\)).
+The statement ENDFUNCTION closes a function module introduced using [FUNCTION](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapfunction.htm).

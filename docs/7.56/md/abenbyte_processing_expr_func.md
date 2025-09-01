@@ -4,15 +4,15 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Processing Internal Data](javascript:call_link\('abenabap_data_working.htm'\)) →  [Character String and Byte String Processing](javascript:call_link\('abenabap_data_string.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_reference.htm) →  [Processing Internal Data](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_working.htm) →  [Character String and Byte String Processing](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_data_string.htm) → 
 
 Expressions and Functions for Byte String Processing
 
-Expressions and functions for byte string processing can be listed at many [operand positions](javascript:call_link\('abenexpression_positions.htm'\)).
+Expressions and functions for byte string processing can be listed at many [operand positions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenexpression_positions.htm).
 
--   [Bit expressions](javascript:call_link\('abapcompute_bit.htm'\))
--   [Binary functions](javascript:call_link\('abenbinary_functions.htm'\))
+-   [Bit expressions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_bit.htm)
+-   [Binary functions](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbinary_functions.htm)
 
 Continue
-[Bit Expressions (bit\_exp)](javascript:call_link\('abapcompute_bit.htm'\))
-[Byte String Functions (bit\_func)](javascript:call_link\('abenbinary_functions.htm'\))
+[Bit Expressions (bit\_exp)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapcompute_bit.htm)
+[Byte String Functions (bit\_func)](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenbinary_functions.htm)

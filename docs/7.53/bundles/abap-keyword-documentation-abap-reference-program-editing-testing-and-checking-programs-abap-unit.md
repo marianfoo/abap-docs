@@ -3,33 +3,7 @@
 Included pages: 12
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation 7.53](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenabap_unit.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm)
-- [abapclass_for_testing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_for_testing.htm)
-- [abapmethods_testing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_testing.htm)
-- [abapinterfaces_partially.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_partially.htm)
-- [abentest_seams.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm)
-- [abaptest-seam.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm)
-- [abapend-test-seam.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-test-seam.htm)
-- [abaptest-injection.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm)
-- [abapend-test-injection.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-test-injection.htm)
-
-**Bundle Contains**: 9 documentation pages
-**Version**: ABAP 7.53
-**Generated**: 2025-09-01T11:25:46.223Z
-
----
-
 ### abenabap_unit.htm
-
-> **📖 Official SAP Documentation**: [abenabap_unit.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -37,55 +11,48 @@ Included pages: 12
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) → 
 
 ABAP Unit
 
-ABAP Unit is a test framework for [unit tests](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry"). ABAP Unit can be used to:
+ABAP Unit is a test framework for [unit tests](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunit_test_glosry.htm "Glossary Entry"). ABAP Unit can be used to:
 
 -   run single tests or mass tests
 
 -   evaluate test results
 
-Single texts can be started directly in the tool for the program in question. More comprehensive test runs are executed from ABAP Unit Browser in ABAP Workbench or by using ABAP Test Cockpit. ABAP Unit is closely associated with [Coverage Analyzer](javascript:call_link\('abencoverage_analyzer_glosry.htm'\) "Glossary Entry"), enabling test coverage to be measured as well.
+Single texts can be started directly in the tool for the program in question. More comprehensive test runs are executed from ABAP Unit Browser in ABAP Workbench or by using ABAP Test Cockpit. ABAP Unit is closely associated with [Coverage Analyzer](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencoverage_analyzer_glosry.htm "Glossary Entry"), enabling test coverage to be measured as well.
 
-In ABAP programs, unit tests are performed as [test methods](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") in local [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry"). They are not part of the production code of a program, but are transported in the same way. Test methods of this type are executed and evaluated using ABAP Unit Framework. The test methods generally call the tested units of the production code and then check the results using methods of the class CL\_ABAP\_UNIT\_ASSERT. Test classes and test methods are defined using the following language elements. Special [test includes](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry") are used to define test classes in class pools and function groups.
+In ABAP programs, unit tests are performed as [test methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_method_glosry.htm "Glossary Entry") in local [test classes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_class_glosry.htm "Glossary Entry"). They are not part of the production code of a program, but are transported in the same way. Test methods of this type are executed and evaluated using ABAP Unit Framework. The test methods generally call the tested units of the production code and then check the results using methods of the class CL\_ABAP\_UNIT\_ASSERT. Test classes and test methods are defined using the following language elements. Special [test includes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_include_glosry.htm "Glossary Entry") are used to define test classes in class pools and function groups.
 
--   [CLASS ... DEFINITION FOR TESTING](javascript:call_link\('abapclass_for_testing.htm'\))
+-   [CLASS ... DEFINITION FOR TESTING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_for_testing.htm)
 
--   [METHODS ... FOR TESTING](javascript:call_link\('abapmethods_testing.htm'\))
+-   [METHODS ... FOR TESTING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_testing.htm)
 
 If test classes implement interfaces, not all interface methods generally need to be implemented there. The error message or warning that otherwise occurs can be hidden in test classes by using an addition of the statement INTERFACES.
 
--   [INTERFACES ... PARTIALLY IMPLEMENTED](javascript:call_link\('abapinterfaces_partially.htm'\))
+-   [INTERFACES ... PARTIALLY IMPLEMENTED](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_partially.htm)
 
-If production code contains parts that are not suitable for unit tests, sections of code can be flagged as [test seams](javascript:call_link\('abentest_seams.htm'\)). [Injections](javascript:call_link\('abeninjection_glosry.htm'\) "Glossary Entry") can be defined in methods of test classes. Injections replace the test seams with test-friendly code when a unit test is executed.
+If production code contains parts that are not suitable for unit tests, sections of code can be flagged as [test seams](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm). [Injections](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninjection_glosry.htm "Glossary Entry") can be defined in methods of test classes. Injections replace the test seams with test-friendly code when a unit test is executed.
 
 Notes
 
 -   All components required for tests in the context of ABAP Unit should be defined exclusively in test classes. This ensures that they are not generated in production systems and cannot be addressed by production code. Alongside test classes with test methods, this also includes test dummies and other helper classes that do not contain test methods.
 
--   The new syntax @testing ... in [ABAP Doc comments](javascript:call_link\('abenabap_doc_comment_glosry.htm'\) "Glossary Entry") associates test classes and test methods with repository objects. This makes it possible to display and execute these classes and methods in the [ADT](javascript:call_link\('abenadt_glosry.htm'\) "Glossary Entry") of the repository objects.
+-   The new syntax @testing ... in [ABAP Doc comments](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_doc_comment_glosry.htm "Glossary Entry") associates test classes and test methods with repository objects. This makes it possible to display and execute these classes and methods in the [ADT](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenadt_glosry.htm "Glossary Entry") of the repository objects.
 
--   In test classes, a [replacement service for ABAP SQL](javascript:call_link\('abencl_osql_replace.htm'\)) enables access to data sources by ABAP SQL statements to be redirected to other database objects.
+-   In test classes, a [replacement service for ABAP SQL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencl_osql_replace.htm) enables access to data sources by ABAP SQL statements to be redirected to other database objects.
 
 -   For more information, see the ABAP Unit documentation on [SAP Help Portal](http://help.sap.com).
 
 Continue
-[CLASS - FOR TESTING](javascript:call_link\('abapclass_for_testing.htm'\))
-[METHODS - FOR TESTING](javascript:call_link\('abapmethods_testing.htm'\))
-[INTERFACES - PARTIALLY IMPLEMENTED](javascript:call_link\('abapinterfaces_partially.htm'\))
-[Test Seams](javascript:call_link\('abentest_seams.htm'\))
+[CLASS - FOR TESTING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_for_testing.htm)
+[METHODS - FOR TESTING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_testing.htm)
+[INTERFACES - PARTIALLY IMPLEMENTED](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_partially.htm)
+[Test Seams](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm)
 
-
-
-**📖 Source**: [abenabap_unit.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm)
 
 ### abapclass_for_testing.htm
-
-> **📖 Official SAP Documentation**: [abapclass_for_testing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_for_testing.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -93,15 +60,15 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm) → 
 
 CLASS - FOR TESTING
 
-[Quick Reference](javascript:call_link\('abapclass_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_shortref.htm)
 
 Syntax
 
-[CLASS class DEFINITION](javascript:call_link\('abapclass_definition.htm'\)) FOR TESTING *\[*RISK LEVEL *{*CRITICAL*|*DANGEROUS*|*HARMLESS*}**\]*
+[CLASS class DEFINITION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_definition.htm) FOR TESTING *\[*RISK LEVEL *{*CRITICAL*|*DANGEROUS*|*HARMLESS*}**\]*
                                    *\[*DURATION   *{*SHORT*|*MEDIUM*|*LONG*}**\]*.
 
 Extras:
@@ -111,24 +78,24 @@ Extras:
 
 Effect
 
-The FOR TESTING addition is used to defined a class as a [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") for the [ABAP Unit](javascript:call_link\('abenabap_unit_glosry.htm'\) "Glossary Entry") tool. Test classes can contain [test methods](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") that are called as individual tests during a [test run](javascript:call_link\('abentest_run_glosry.htm'\) "Glossary Entry").
+The FOR TESTING addition is used to defined a class as a [test class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_class_glosry.htm "Glossary Entry") for the [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit_glosry.htm "Glossary Entry") tool. Test classes can contain [test methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_method_glosry.htm "Glossary Entry") that are called as individual tests during a [test run](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_run_glosry.htm "Glossary Entry").
 
-A test class is usually a local class. The source code in a test class is not part of the production code of the program and is not generated in production systems (controlled using the [profile parameter](javascript:call_link\('abenprofile_parameter_glosry.htm'\) "Glossary Entry") abap/test\_generation) . A test class and its components cannot be addressed in the production code of the program therefore, only in other test classes. In particular, a subclass of a test class must be a test class itself and be declared using the FOR TESTING addition. The only exception to this rule is that test classes can be specified as [friends](javascript:call_link\('abenfriend_glosry.htm'\) "Glossary Entry") in the definition of production classes to make it possible to test private components.
+A test class is usually a local class. The source code in a test class is not part of the production code of the program and is not generated in production systems (controlled using the [profile parameter](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprofile_parameter_glosry.htm "Glossary Entry") abap/test\_generation) . A test class and its components cannot be addressed in the production code of the program therefore, only in other test classes. In particular, a subclass of a test class must be a test class itself and be declared using the FOR TESTING addition. The only exception to this rule is that test classes can be specified as [friends](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfriend_glosry.htm "Glossary Entry") in the definition of production classes to make it possible to test private components.
 
-A local test class can contain special private methods that implement the [fixture](javascript:call_link\('abenfixture_glosry.htm'\) "Glossary Entry") for the tests of the class. These methods have the following predefined names:
+A local test class can contain special private methods that implement the [fixture](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfixture_glosry.htm "Glossary Entry") for the tests of the class. These methods have the following predefined names:
 
--   An [instance method](javascript:call_link\('abeninstance_method_glosry.htm'\) "Glossary Entry") setup, which is executed before each individual test or before each execution of a test method.
+-   An [instance method](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninstance_method_glosry.htm "Glossary Entry") setup, which is executed before each individual test or before each execution of a test method.
     
 -   An instance method teardown, which is executed after each individual test or after each execution of a test method.
     
--   A [static method](javascript:call_link\('abenstatic_method_glosry.htm'\) "Glossary Entry") class\_setup, which is executed once before all tests of the class.
+-   A [static method](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatic_method_glosry.htm "Glossary Entry") class\_setup, which is executed once before all tests of the class.
     
 -   A static method class\_teardown, which is executed once after every test of the class.
     
 
 Notes
 
--   Create test classes for class pools and function groups only in the [test includes](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry") designed for them. In other programs, these tests should run at the end of the program.
+-   Create test classes for class pools and function groups only in the [test includes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_include_glosry.htm "Glossary Entry") designed for them. In other programs, these tests should run at the end of the program.
     
 -   In addition to the test methods and special methods for the fixture, a test class can also contain other components. These components can be used in a user's own test class only or in other test classes, depending on the visibility. In this way, help methods can be defined for tests, for example.
     
@@ -138,13 +105,13 @@ Notes
     
 -   Global test classes can be created for reusing complex test preparations. Global test classes should always be abstract and can only be used in local test classes. Currently, all instance methods of a global test class are automatically test methods.
     
--   In test classes, the addition [PARTIALLY IMPLEMENTED](javascript:call_link\('abapinterfaces_partially.htm'\)) of the statement INTERFACES can be specified, which allows interfaces to be implemented only partially. This is particularly useful in test doubles.
+-   In test classes, the addition [PARTIALLY IMPLEMENTED](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_partially.htm) of the statement INTERFACES can be specified, which allows interfaces to be implemented only partially. This is particularly useful in test doubles.
     
 -   The addition FOR TESTING in a local class created in the area for local types of the class pool of a global test class. The addition is not needed in auxiliary classes for the global test class, since its property test class has an effect on the entire class pool with regard to its generation. In rare cases in which a global test class is to be tested itself, local test classes can be created as recommended for other global classes in the area local test classes.
     
--   The methods of the [fixture](javascript:call_link\('abenfixture_glosry.htm'\) "Glossary Entry") are not test methods and the addition [FOR TESTING](javascript:call_link\('abapmethods_testing.htm'\)) cannot be specified for their declaration.
+-   The methods of the [fixture](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfixture_glosry.htm "Glossary Entry") are not test methods and the addition [FOR TESTING](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_testing.htm) cannot be specified for their declaration.
     
--   Global test classes can also contain [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry") as test methods, in which case they must include the appropriate tag interface [IF\_AMDP\_MARKER\_...](javascript:call_link\('abenamdp_classes.htm'\)) for [AMDP classes](javascript:call_link\('abenamdp_class_glosry.htm'\) "Glossary Entry").
+-   Global test classes can also contain [AMDP methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_method_glosry.htm "Glossary Entry") as test methods, in which case they must include the appropriate tag interface [IF\_AMDP\_MARKER\_...](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_classes.htm) for [AMDP classes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_class_glosry.htm "Glossary Entry").
     
 
 Addition 1
@@ -168,7 +135,7 @@ Notes
 
 -   A risk level must be defined for SAP test classes.
     
--   The additions RISK LEVEL and DURATION replace the [pseudo comments for test classes](javascript:call_link\('abenpseudo_comment_test_class.htm'\)). Existing pseudo comments are not ignored, but should no longer be used.
+-   The additions RISK LEVEL and DURATION replace the [pseudo comments for test classes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenpseudo_comment_test_class.htm). Existing pseudo comments are not ignored, but should no longer be used.
     
 
 Example
@@ -189,14 +156,7 @@ See the program DEMO\_ABAP\_UNIT.
 The test method is called when the module test of DEMO\_ABAP\_UNIT is executed and should not produce an error.
 
 
-
-**📖 Source**: [abapclass_for_testing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapclass_for_testing.htm)
-
 ### abapmethods_testing.htm
-
-> **📖 Official SAP Documentation**: [abapmethods_testing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_testing.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -204,22 +164,22 @@ The test method is called when the module test of DEMO\_ABAP\_UNIT is executed a
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm) → 
 
 METHODS - FOR TESTING
 
-[Quick Reference](javascript:call_link\('abapmethods_testing_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_testing_shortref.htm)
 
 Syntax
 
-[METHODS](javascript:call_link\('abapmethods.htm'\)) meth *\[*[ABSTRACT*|*FINAL](javascript:call_link\('abapmethods_abstract_final.htm'\))*\]*
-             *\[*[AMDP OPTIONS *\[*READ-ONLY*\]* *\[*CDS SESSION CLIENT clnt*|*CURRENT*\]*](javascript:call_link\('abapmethods_amdp_options.htm'\))*\]*
+[METHODS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods.htm) meth *\[*[ABSTRACT*|*FINAL](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_abstract_final.htm)*\]*
+             *\[*[AMDP OPTIONS *\[*READ-ONLY*\]* *\[*CDS SESSION CLIENT clnt*|*CURRENT*\]*](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_amdp_options.htm)*\]*
   FOR TESTING
   *\[*RAISING exc1*|*RESUMABLE(exc1) exc2*|*RESUMABLE(exc2) ...*\]*.
 
 Effect
 
-This statement is only possible in a [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry"). It declares a [test method](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") that is called during as a single test during a [test run](javascript:call_link\('abentest_run_glosry.htm'\) "Glossary Entry"). A test can be programmed in the method implementation. To check the test assumptions, static methods from the class CL\_ABAP\_UNIT\_ASSERT are used, such as:
+This statement is only possible in a [test class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_class_glosry.htm "Glossary Entry"). It declares a [test method](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_method_glosry.htm "Glossary Entry") that is called during as a single test during a [test run](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_run_glosry.htm "Glossary Entry"). A test can be programmed in the method implementation. To check the test assumptions, static methods from the class CL\_ABAP\_UNIT\_ASSERT are used, such as:
 
 -   ASSERT\_EQUALS
     
@@ -236,19 +196,19 @@ This statement is only possible in a [test class](javascript:call_link\('abentes
 -   FAIL
     
 
-The data is evaluated using the [ABAP Unit](javascript:call_link\('abenabap_unit_glosry.htm'\) "Glossary Entry") Framework.
+The data is evaluated using the [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit_glosry.htm "Glossary Entry") Framework.
 
-The same applies to the additions ABSTRACT, FINAL, and RAISING as to the [general instance methods](javascript:call_link\('abapmethods_general.htm'\)). Furthermore, the addition [AMDP OPTIONS](javascript:call_link\('abapmethods_amdp_options.htm'\)) can be specified for test methods, since these methods can also be implemented as [AMDP methods](javascript:call_link\('abenamdp_method_glosry.htm'\) "Glossary Entry").
+The same applies to the additions ABSTRACT, FINAL, and RAISING as to the [general instance methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_general.htm). Furthermore, the addition [AMDP OPTIONS](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_amdp_options.htm) can be specified for test methods, since these methods can also be implemented as [AMDP methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenamdp_method_glosry.htm "Glossary Entry").
 
 Notes
 
 -   Test methods should be private, or protected if the methods are inherited. Since test classes implicitly offer friendship to the test driver in the runtime environment, the driver can call them. Test methods only need to be public in rare cases where a test executes tests from other test classes.
     
--   When a test method is executed, the same applies to [resumable exceptions](javascript:call_link\('abenresumable_exception_glosry.htm'\) "Glossary Entry") as to all other methods. If processing can be resumed successfully, the interrupted test can be resumed.
+-   When a test method is executed, the same applies to [resumable exceptions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenresumable_exception_glosry.htm "Glossary Entry") as to all other methods. If processing can be resumed successfully, the interrupted test can be resumed.
     
--   The special methods setup, teardown, class\_setup, and class\_teardown of the [fixture](javascript:call_link\('abenfixture_glosry.htm'\) "Glossary Entry") are not test methods and the addition FOR TESTING cannot be used for this methods.
+-   The special methods setup, teardown, class\_setup, and class\_teardown of the [fixture](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfixture_glosry.htm "Glossary Entry") are not test methods and the addition FOR TESTING cannot be used for this methods.
     
--   To prevent inaccurate test results, the [rule](javascript:call_link\('abenuse_actual_parameters_guidl.htm'\) "Guideline") that no system fields are passed as actual parameters must be observed, most specifically for the ASSERT methods of the class CL\_ABAP\_UNIT\_ASSERT. The special method ASSERT\_SUBRC is only used for checking the return code.
+-   To prevent inaccurate test results, the [rule](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenuse_actual_parameters_guidl.htm "Guideline") that no system fields are passed as actual parameters must be observed, most specifically for the ASSERT methods of the class CL\_ABAP\_UNIT\_ASSERT. The special method ASSERT\_SUBRC is only used for checking the return code.
     
 
 Example
@@ -280,14 +240,7 @@ CLASS mytest IMPLEMENTATION.
 ENDCLASS.
 
 
-
-**📖 Source**: [abapmethods_testing.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapmethods_testing.htm)
-
 ### abapinterfaces_partially.htm
-
-> **📖 Official SAP Documentation**: [abapinterfaces_partially.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_partially.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -295,21 +248,21 @@ ENDCLASS.
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm) → 
 
 INTERFACES - PARTIALLY IMPLEMENTED
 
-[Quick Reference](javascript:call_link\('abapinterfaces_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_shortref.htm)
 
 Syntax
 
-[INTERFACES](javascript:call_link\('abapinterfaces_class.htm'\)) intf
+[INTERFACES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_class.htm) intf
   PARTIALLY IMPLEMENTED
   ...
 
 Effect
 
-The addition PARTIALLY IMPLEMENTED for statement [INTERFACES](javascript:call_link\('abapinterfaces_class.htm'\)) for implementing interfaces in classes can only be used in [test classes](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry"). This addition prevents the syntax check error/warning from occurring if not all of the concrete non-optional interface methods are implemented in the test class. The addition must be specified before the additions that list the attributes or methods.
+The addition PARTIALLY IMPLEMENTED for statement [INTERFACES](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_class.htm) for implementing interfaces in classes can only be used in [test classes](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_class_glosry.htm "Glossary Entry"). This addition prevents the syntax check error/warning from occurring if not all of the concrete non-optional interface methods are implemented in the test class. The addition must be specified before the additions that list the attributes or methods.
 
 If an interface method that is not implemented is called during a test, an exception from the class CX\_SY\_DYN\_CALL\_ILLEGAL\_METHOD is raised.
 
@@ -319,7 +272,7 @@ The addition is particularly useful when classes (acting as test doubles) implem
 
 Example
 
-The class [CL\_HTTP\_EXT\_SERVICE\_DEMO](javascript:call_link\('abenicf_service_abexa.htm'\)), described under [Calling an HTTP Service](javascript:call_link\('abenicf_service_abexa.htm'\)), is an example of production code. This class demonstrates the function of a simple HTTP service. If the service is used normally, the method IF\_HTTP\_EXTENSION~HANDLE\_REQUEST from [ICF](javascript:call_link\('abenicf_glosry.htm'\) "Glossary Entry") is called. ICF-independent tests can be run for the class: In its [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry"), local classes are declared as test doubles for the classes of ICF, which are implemented by the following interfaces:
+The class [CL\_HTTP\_EXT\_SERVICE\_DEMO](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_service_abexa.htm), described under [Calling an HTTP Service](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_service_abexa.htm), is an example of production code. This class demonstrates the function of a simple HTTP service. If the service is used normally, the method IF\_HTTP\_EXTENSION~HANDLE\_REQUEST from [ICF](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenicf_glosry.htm "Glossary Entry") is called. ICF-independent tests can be run for the class: In its [test include](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_include_glosry.htm "Glossary Entry"), local classes are declared as test doubles for the classes of ICF, which are implemented by the following interfaces:
 
 CLASS mock\_server DEFINITION FOR TESTING FINAL.
   PUBLIC SECTION.
@@ -381,14 +334,7 @@ ENDCLASS.
 In the test method, ICF is simulated by directly creating objects of the test doubles. The REQUEST test double simulates the form field. The RESPONSE test double contains the result that is checked after the method HANDLER is called for testing.
 
 
-
-**📖 Source**: [abapinterfaces_partially.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapinterfaces_partially.htm)
-
 ### abentest_seams.htm
-
-> **📖 Official SAP Documentation**: [abentest_seams.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -396,19 +342,19 @@ In the test method, ICF is simulated by directly creating objects of the test do
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm) → 
 
 Test Seams
 
-Test seams are language constructs designed especially for [unit tests](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") and are implemented using the following statements:
+Test seams are language constructs designed especially for [unit tests](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunit_test_glosry.htm "Glossary Entry") and are implemented using the following statements:
 
--   [TEST-SEAM - END-TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\))
+-   [TEST-SEAM - END-TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm)
 
 Defines a test seam as a replaceable area in the production code of a program.
 
--   [TEST-INJECTION - END-TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\))
+-   [TEST-INJECTION - END-TEST-INJECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm)
 
-Replaces the executable statements of a test seam by the statements of an injection in a [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") of the same program.
+Replaces the executable statements of a test seam by the statements of an injection in a [test class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_class_glosry.htm "Glossary Entry") of the same program.
 
 Test seams have the following properties:
 
@@ -418,9 +364,9 @@ Test seams have the following properties:
 
 -   Multiple injections can be defined for a single test seam.
 
--   Injections can only be created in test classes that are defined in a [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry"). Test seams can be used in all executable units of a master program that includes a test include , including local classes and subroutines .
+-   Injections can only be created in test classes that are defined in a [test include](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_include_glosry.htm "Glossary Entry"). Test seams can be used in all executable units of a master program that includes a test include , including local classes and subroutines .
 
--   Unit tests can make injections while [test methods](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") or the setup method are being executed.
+-   Unit tests can make injections while [test methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_method_glosry.htm "Glossary Entry") or the setup method are being executed.
 
 -   If injections are repeated in the same test seam, the last injection is the active injection.
 
@@ -438,7 +384,7 @@ Test seams are a simple way of replacing or expanding source code in production 
 
 Example for authorization checks
 
-An injection can use the statement [AUTHORITY-CHECK](javascript:call_link\('abapauthority-check.htm'\)) to bypass the dependency of a unit test on the authorizations of the current user by setting a suitable return code.
+An injection can use the statement [AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapauthority-check.htm) to bypass the dependency of a unit test on the authorizations of the current user by setting a suitable return code.
 
 Test Seam
 
@@ -520,18 +466,11 @@ Example
 See also the class CL\_AU\_SAMPLE\_TEST\_SEAMS in the package SABP\_UNIT\_SAMPLE.
 
 Continue
-[TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\))
-[TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\))
+[TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm)
+[TEST-INJECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm)
 
-
-
-**📖 Source**: [abentest_seams.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm)
 
 ### abaptest-seam.htm
-
-> **📖 Official SAP Documentation**: [abaptest-seam.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -539,11 +478,11 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) →  [Test Seams](javascript:call_link\('abentest_seams.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm) →  [Test Seams](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm) → 
 
 TEST-SEAM
 
-[Quick Reference](javascript:call_link\('abaptest-seam_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam_shortref.htm)
 
 Syntax
 
@@ -553,21 +492,21 @@ END-TEST-SEAM.
 
 Effect
 
-The statement SEAM introduces a [test seam](javascript:call_link\('abentest_seam_glosry.htm'\) "Glossary Entry") called seam which is closed by END-TEST-SEAM. A [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") of the current program can use the statement [TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\)) to replace the statement block statement\_block using an [injection](javascript:call_link\('abeninjection_glosry.htm'\) "Glossary Entry") defined there. If no injection is performed for the test seam, the original code is executed.
+The statement SEAM introduces a [test seam](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seam_glosry.htm "Glossary Entry") called seam which is closed by END-TEST-SEAM. A [test class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_class_glosry.htm "Glossary Entry") of the current program can use the statement [TEST-INJECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm) to replace the statement block statement\_block using an [injection](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninjection_glosry.htm "Glossary Entry") defined there. If no injection is performed for the test seam, the original code is executed.
 
 Test seams have the following properties:
 
--   Multiple test seams can be defined in a single [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry"), but each must have a unique name.
+-   Multiple test seams can be defined in a single [compilation unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompilation_unit_glosry.htm "Glossary Entry"), but each must have a unique name.
     
--   The general [naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) apply to the name seam.
+-   The general [naming conventions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_conventions.htm) apply to the name seam.
     
 -   Test seams cannot be nested, which means that a test seam cannot contain further test seams.
     
--   A test seam cannot extend beyond the limits of a [statement block](javascript:call_link\('abenstatement_block_glosry.htm'\) "Glossary Entry"), but can contain closed [control structures](javascript:call_link\('abencontrol_structure_glosry.htm'\) "Glossary Entry").
+-   A test seam cannot extend beyond the limits of a [statement block](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatement_block_glosry.htm "Glossary Entry"), but can contain closed [control structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_structure_glosry.htm "Glossary Entry").
     
 -   A test seam can include data declarations. These declarations are not replaced when an injection is performed and remain visible in their context.
     
--   Test seams can be defined in the [global declaration part](javascript:call_link\('abenglobal_declaration_sect_glosry.htm'\) "Glossary Entry") of a program but not in the [declaration part](javascript:call_link\('abendeclaration_section_glosry.htm'\) "Glossary Entry") of a class.
+-   Test seams can be defined in the [global declaration part](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenglobal_declaration_sect_glosry.htm "Glossary Entry") of a program but not in the [declaration part](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclaration_section_glosry.htm "Glossary Entry") of a class.
     
 -   A test seam can be empty (that is, it does not contain any statements). An injection is inserted instead.
     
@@ -576,13 +515,13 @@ Test seams have the following properties:
 
 Note
 
-[Injections](javascript:call_link\('abeninjection_glosry.htm'\) "Glossary Entry") can only be created in test classes that are defined in a [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry") of the current program. Test includes are currently only possible in [class pools](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") and [function groups](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry"). This means that test seams are only feasible in class pools and function groups.
+[Injections](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninjection_glosry.htm "Glossary Entry") can only be created in test classes that are defined in a [test include](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_include_glosry.htm "Glossary Entry") of the current program. Test includes are currently only possible in [class pools](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_pool_glosry.htm "Glossary Entry") and [function groups](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_group_glosry.htm "Glossary Entry"). This means that test seams are only feasible in class pools and function groups.
 
 Example
 
 Here, the class CL\_DEMO\_TEST\_SEAMS is an example of production code. The method CHANGE\_PRICE multiplies the price of a flight in the database table SFLIGHT by a factor and (if successful) returns the modified price. If a database access fails, a specific invalid value is returned instead of the price.
 
-Test seams are defined for both database accesses. This makes it possible to run a unit test without accessing real data. See the example for [TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\)).
+Test seams are defined for both database accesses. This makes it possible to run a unit test without accessing real data. See the example for [TEST-INJECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm).
 
 METHOD change\_price.
   DATA wa TYPE sflight.
@@ -610,29 +549,22 @@ METHOD change\_price.
 ENDMETHOD.
 
 Continue
-[END-TEST-SEAM](javascript:call_link\('abapend-test-seam.htm'\))
+[END-TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-test-seam.htm)
 
-
-
-**📖 Source**: [abaptest-seam.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm)
 
 ### abapend-test-seam.htm
 
-> **📖 Official SAP Documentation**: [abapend-test-seam.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-test-seam.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) →  [Test Seams](javascript:call_link\('abentest_seams.htm'\)) →  [TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm) →  [Test Seams](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm) →  [TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm) → 
 
 END-TEST-SEAM
 
-[Quick Reference](javascript:call_link\('abaptest-seam_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam_shortref.htm)
 
 Syntax
 
@@ -640,17 +572,10 @@ END-TEST-SEAM.
 
 Effect
 
-The statement END-TEST-SEAM closes a test seam introduced using [TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\)).
+The statement END-TEST-SEAM closes a test seam introduced using [TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm).
 
-
-
-**📖 Source**: [abapend-test-seam.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-test-seam.htm)
 
 ### abaptest-seam.htm
-
-> **📖 Official SAP Documentation**: [abaptest-seam.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -658,11 +583,11 @@ The statement END-TEST-SEAM closes a test seam introduced using [TEST-SEAM](java
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) →  [Test Seams](javascript:call_link\('abentest_seams.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm) →  [Test Seams](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm) → 
 
 TEST-SEAM
 
-[Quick Reference](javascript:call_link\('abaptest-seam_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam_shortref.htm)
 
 Syntax
 
@@ -672,21 +597,21 @@ END-TEST-SEAM.
 
 Effect
 
-The statement SEAM introduces a [test seam](javascript:call_link\('abentest_seam_glosry.htm'\) "Glossary Entry") called seam which is closed by END-TEST-SEAM. A [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") of the current program can use the statement [TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\)) to replace the statement block statement\_block using an [injection](javascript:call_link\('abeninjection_glosry.htm'\) "Glossary Entry") defined there. If no injection is performed for the test seam, the original code is executed.
+The statement SEAM introduces a [test seam](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seam_glosry.htm "Glossary Entry") called seam which is closed by END-TEST-SEAM. A [test class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_class_glosry.htm "Glossary Entry") of the current program can use the statement [TEST-INJECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm) to replace the statement block statement\_block using an [injection](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninjection_glosry.htm "Glossary Entry") defined there. If no injection is performed for the test seam, the original code is executed.
 
 Test seams have the following properties:
 
--   Multiple test seams can be defined in a single [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry"), but each must have a unique name.
+-   Multiple test seams can be defined in a single [compilation unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencompilation_unit_glosry.htm "Glossary Entry"), but each must have a unique name.
     
--   The general [naming conventions](javascript:call_link\('abennaming_conventions.htm'\)) apply to the name seam.
+-   The general [naming conventions](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abennaming_conventions.htm) apply to the name seam.
     
 -   Test seams cannot be nested, which means that a test seam cannot contain further test seams.
     
--   A test seam cannot extend beyond the limits of a [statement block](javascript:call_link\('abenstatement_block_glosry.htm'\) "Glossary Entry"), but can contain closed [control structures](javascript:call_link\('abencontrol_structure_glosry.htm'\) "Glossary Entry").
+-   A test seam cannot extend beyond the limits of a [statement block](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatement_block_glosry.htm "Glossary Entry"), but can contain closed [control structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_structure_glosry.htm "Glossary Entry").
     
 -   A test seam can include data declarations. These declarations are not replaced when an injection is performed and remain visible in their context.
     
--   Test seams can be defined in the [global declaration part](javascript:call_link\('abenglobal_declaration_sect_glosry.htm'\) "Glossary Entry") of a program but not in the [declaration part](javascript:call_link\('abendeclaration_section_glosry.htm'\) "Glossary Entry") of a class.
+-   Test seams can be defined in the [global declaration part](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenglobal_declaration_sect_glosry.htm "Glossary Entry") of a program but not in the [declaration part](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abendeclaration_section_glosry.htm "Glossary Entry") of a class.
     
 -   A test seam can be empty (that is, it does not contain any statements). An injection is inserted instead.
     
@@ -695,13 +620,13 @@ Test seams have the following properties:
 
 Note
 
-[Injections](javascript:call_link\('abeninjection_glosry.htm'\) "Glossary Entry") can only be created in test classes that are defined in a [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry") of the current program. Test includes are currently only possible in [class pools](javascript:call_link\('abenclass_pool_glosry.htm'\) "Glossary Entry") and [function groups](javascript:call_link\('abenfunction_group_glosry.htm'\) "Glossary Entry"). This means that test seams are only feasible in class pools and function groups.
+[Injections](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninjection_glosry.htm "Glossary Entry") can only be created in test classes that are defined in a [test include](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_include_glosry.htm "Glossary Entry") of the current program. Test includes are currently only possible in [class pools](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenclass_pool_glosry.htm "Glossary Entry") and [function groups](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenfunction_group_glosry.htm "Glossary Entry"). This means that test seams are only feasible in class pools and function groups.
 
 Example
 
 Here, the class CL\_DEMO\_TEST\_SEAMS is an example of production code. The method CHANGE\_PRICE multiplies the price of a flight in the database table SFLIGHT by a factor and (if successful) returns the modified price. If a database access fails, a specific invalid value is returned instead of the price.
 
-Test seams are defined for both database accesses. This makes it possible to run a unit test without accessing real data. See the example for [TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\)).
+Test seams are defined for both database accesses. This makes it possible to run a unit test without accessing real data. See the example for [TEST-INJECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm).
 
 METHOD change\_price.
   DATA wa TYPE sflight.
@@ -729,17 +654,10 @@ METHOD change\_price.
 ENDMETHOD.
 
 Continue
-[END-TEST-SEAM](javascript:call_link\('abapend-test-seam.htm'\))
+[END-TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-test-seam.htm)
 
-
-
-**📖 Source**: [abaptest-seam.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm)
 
 ### abaptest-injection.htm
-
-> **📖 Official SAP Documentation**: [abaptest-injection.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -747,11 +665,11 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) →  [Test Seams](javascript:call_link\('abentest_seams.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm) →  [Test Seams](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm) → 
 
 TEST-INJECTION
 
-[Quick Reference](javascript:call_link\('abaptest-injection_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection_shortref.htm)
 
 Syntax
 
@@ -761,17 +679,17 @@ END-TEST-INJECTION.
 
 Effect
 
-The statement TEST-INJECTION introduces an [injection](javascript:call_link\('abeninjection_glosry.htm'\) "Glossary Entry") for a [test seam](javascript:call_link\('abentest_seam_glosry.htm'\) "Glossary Entry") seam, closed using END-TEST-INJECTION. The test seam seam must be defined in the production code of the current program using the statement [TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\)). When a unit test is performed, the statement block statement\_block of the injection replaces the statement block of the test seam seam in production code.
+The statement TEST-INJECTION introduces an [injection](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninjection_glosry.htm "Glossary Entry") for a [test seam](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seam_glosry.htm "Glossary Entry") seam, closed using END-TEST-INJECTION. The test seam seam must be defined in the production code of the current program using the statement [TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm). When a unit test is performed, the statement block statement\_block of the injection replaces the statement block of the test seam seam in production code.
 
-An injection can only be defined in those methods of test classes created in a [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry"). Injections have the following properties:
+An injection can only be defined in those methods of test classes created in a [test include](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_include_glosry.htm "Glossary Entry"). Injections have the following properties:
 
 -   Injections can be made only while a test method or the setup method is being executed.
     
 -   Injections cannot be nested, which means that an injection cannot contain further injections.
     
--   An injection cannot extend beyond the limits of a [statement block](javascript:call_link\('abenstatement_block_glosry.htm'\) "Glossary Entry"), but can contain closed [control structures](javascript:call_link\('abencontrol_structure_glosry.htm'\) "Glossary Entry").
+-   An injection cannot extend beyond the limits of a [statement block](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatement_block_glosry.htm "Glossary Entry"), but can contain closed [control structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_structure_glosry.htm "Glossary Entry").
     
--   An injection can include local data declarations using the statement [DATA](javascript:call_link\('abapdata.htm'\)). These variables are visible below their declaration in the current injection and all following injections of the current test class. The data objects declared in an injection are not visible outside of injections (in other parts of the test class or in production code). Injections that access data objects declared in a different injection can only be assigned to test seams defined in the production source code below the test seam (meaning the test seam assigned to the declaring injection).
+-   An injection can include local data declarations using the statement [DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata.htm). These variables are visible below their declaration in the current injection and all following injections of the current test class. The data objects declared in an injection are not visible outside of injections (in other parts of the test class or in production code). Injections that access data objects declared in a different injection can only be assigned to test seams defined in the production source code below the test seam (meaning the test seam assigned to the declaring injection).
     
 -   An injection can be empty (that is, it is does not contain any statements). The code of the specified test seam is removed when the injection is executed.
     
@@ -793,9 +711,9 @@ Notes
 
 Example
 
-The [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry") of the class CL\_DEMO\_TEST\_SEAMS is an example of a test class with injections:
+The [test include](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_include_glosry.htm "Glossary Entry") of the class CL\_DEMO\_TEST\_SEAMS is an example of a test class with injections:
 
-The test method tests the method CHANGE\_PRICE (see the example for [TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\))). Before the test method runs, the injection replaces the injection in the setup method of the test seam selection. When the test method runs,
+The test method tests the method CHANGE\_PRICE (see the example for [TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm)). Before the test method runs, the injection replaces the injection in the setup method of the test seam selection. When the test method runs,
 
 -   the statements of the test seam modification are removed when replaced by an empty injection and the successful closing of the method is confirmed,
 
@@ -849,29 +767,22 @@ CLASS test\_demo\_test\_seam IMPLEMENTATION.
 ENDCLASS.
 
 Continue
-[END-TEST-INJECTION](javascript:call_link\('abapend-test-injection.htm'\))
+[END-TEST-INJECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-test-injection.htm)
 
-
-
-**📖 Source**: [abaptest-injection.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm)
 
 ### abapend-test-injection.htm
 
-> **📖 Official SAP Documentation**: [abapend-test-injection.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-test-injection.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
   
 
 * * *
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) →  [Test Seams](javascript:call_link\('abentest_seams.htm'\)) →  [TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm) →  [Test Seams](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm) →  [TEST-INJECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm) → 
 
 END-TEST-INJECTION
 
-[Quick Reference](javascript:call_link\('abaptest-injection_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection_shortref.htm)
 
 Syntax
 
@@ -879,17 +790,10 @@ END-TEST-INJECTION.
 
 Effect
 
-The statement END-TEST-INJECTION closes a test injection that was initiated using [TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\)).
+The statement END-TEST-INJECTION closes a test injection that was initiated using [TEST-INJECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm).
 
-
-
-**📖 Source**: [abapend-test-injection.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-test-injection.htm)
 
 ### abaptest-injection.htm
-
-> **📖 Official SAP Documentation**: [abaptest-injection.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -897,11 +801,11 @@ The statement END-TEST-INJECTION closes a test injection that was initiated usin
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) →  [Test Seams](javascript:call_link\('abentest_seams.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm) →  [Test Seams](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm) → 
 
 TEST-INJECTION
 
-[Quick Reference](javascript:call_link\('abaptest-injection_shortref.htm'\))
+[Quick Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection_shortref.htm)
 
 Syntax
 
@@ -911,17 +815,17 @@ END-TEST-INJECTION.
 
 Effect
 
-The statement TEST-INJECTION introduces an [injection](javascript:call_link\('abeninjection_glosry.htm'\) "Glossary Entry") for a [test seam](javascript:call_link\('abentest_seam_glosry.htm'\) "Glossary Entry") seam, closed using END-TEST-INJECTION. The test seam seam must be defined in the production code of the current program using the statement [TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\)). When a unit test is performed, the statement block statement\_block of the injection replaces the statement block of the test seam seam in production code.
+The statement TEST-INJECTION introduces an [injection](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abeninjection_glosry.htm "Glossary Entry") for a [test seam](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seam_glosry.htm "Glossary Entry") seam, closed using END-TEST-INJECTION. The test seam seam must be defined in the production code of the current program using the statement [TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm). When a unit test is performed, the statement block statement\_block of the injection replaces the statement block of the test seam seam in production code.
 
-An injection can only be defined in those methods of test classes created in a [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry"). Injections have the following properties:
+An injection can only be defined in those methods of test classes created in a [test include](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_include_glosry.htm "Glossary Entry"). Injections have the following properties:
 
 -   Injections can be made only while a test method or the setup method is being executed.
     
 -   Injections cannot be nested, which means that an injection cannot contain further injections.
     
--   An injection cannot extend beyond the limits of a [statement block](javascript:call_link\('abenstatement_block_glosry.htm'\) "Glossary Entry"), but can contain closed [control structures](javascript:call_link\('abencontrol_structure_glosry.htm'\) "Glossary Entry").
+-   An injection cannot extend beyond the limits of a [statement block](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenstatement_block_glosry.htm "Glossary Entry"), but can contain closed [control structures](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abencontrol_structure_glosry.htm "Glossary Entry").
     
--   An injection can include local data declarations using the statement [DATA](javascript:call_link\('abapdata.htm'\)). These variables are visible below their declaration in the current injection and all following injections of the current test class. The data objects declared in an injection are not visible outside of injections (in other parts of the test class or in production code). Injections that access data objects declared in a different injection can only be assigned to test seams defined in the production source code below the test seam (meaning the test seam assigned to the declaring injection).
+-   An injection can include local data declarations using the statement [DATA](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapdata.htm). These variables are visible below their declaration in the current injection and all following injections of the current test class. The data objects declared in an injection are not visible outside of injections (in other parts of the test class or in production code). Injections that access data objects declared in a different injection can only be assigned to test seams defined in the production source code below the test seam (meaning the test seam assigned to the declaring injection).
     
 -   An injection can be empty (that is, it is does not contain any statements). The code of the specified test seam is removed when the injection is executed.
     
@@ -943,9 +847,9 @@ Notes
 
 Example
 
-The [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry") of the class CL\_DEMO\_TEST\_SEAMS is an example of a test class with injections:
+The [test include](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_include_glosry.htm "Glossary Entry") of the class CL\_DEMO\_TEST\_SEAMS is an example of a test class with injections:
 
-The test method tests the method CHANGE\_PRICE (see the example for [TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\))). Before the test method runs, the injection replaces the injection in the setup method of the test seam selection. When the test method runs,
+The test method tests the method CHANGE\_PRICE (see the example for [TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm)). Before the test method runs, the injection replaces the injection in the setup method of the test seam selection. When the test method runs,
 
 -   the statements of the test seam modification are removed when replaced by an empty injection and the successful closing of the method is confirmed,
 
@@ -999,20 +903,10 @@ CLASS test\_demo\_test\_seam IMPLEMENTATION.
 ENDCLASS.
 
 Continue
-[END-TEST-INJECTION](javascript:call_link\('abapend-test-injection.htm'\))
+[END-TEST-INJECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapend-test-injection.htm)
 
-
-
-**📖 Source**: [abaptest-injection.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm)
 
 ### abentest_seams.htm
-
-> **📖 Official SAP Documentation**: [abentest_seams.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abentest_seams.htm](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_seams.htm)
-
 
   
 
@@ -1020,19 +914,19 @@ Continue
 
 AS ABAP Release 753, ©Copyright 2019 SAP AG. All rights reserved.
 
-[ABAP Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP − Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Editing](javascript:call_link\('abenprogram_editing.htm'\)) →  [Testing and Checking Programs](javascript:call_link\('abenabap_tests.htm'\)) →  [ABAP Unit](javascript:call_link\('abenabap_unit.htm'\)) → 
+[ABAP Keyword Documentation](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap.htm) →  [ABAP − Reference](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_reference.htm) →  [Program Editing](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenprogram_editing.htm) →  [Testing and Checking Programs](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_tests.htm) →  [ABAP Unit](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenabap_unit.htm) → 
 
 Test Seams
 
-Test seams are language constructs designed especially for [unit tests](javascript:call_link\('abenunit_test_glosry.htm'\) "Glossary Entry") and are implemented using the following statements:
+Test seams are language constructs designed especially for [unit tests](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abenunit_test_glosry.htm "Glossary Entry") and are implemented using the following statements:
 
--   [TEST-SEAM - END-TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\))
+-   [TEST-SEAM - END-TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm)
 
 Defines a test seam as a replaceable area in the production code of a program.
 
--   [TEST-INJECTION - END-TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\))
+-   [TEST-INJECTION - END-TEST-INJECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm)
 
-Replaces the executable statements of a test seam by the statements of an injection in a [test class](javascript:call_link\('abentest_class_glosry.htm'\) "Glossary Entry") of the same program.
+Replaces the executable statements of a test seam by the statements of an injection in a [test class](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_class_glosry.htm "Glossary Entry") of the same program.
 
 Test seams have the following properties:
 
@@ -1042,9 +936,9 @@ Test seams have the following properties:
 
 -   Multiple injections can be defined for a single test seam.
 
--   Injections can only be created in test classes that are defined in a [test include](javascript:call_link\('abentest_include_glosry.htm'\) "Glossary Entry"). Test seams can be used in all executable units of a master program that includes a test include , including local classes and subroutines .
+-   Injections can only be created in test classes that are defined in a [test include](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_include_glosry.htm "Glossary Entry"). Test seams can be used in all executable units of a master program that includes a test include , including local classes and subroutines .
 
--   Unit tests can make injections while [test methods](javascript:call_link\('abentest_method_glosry.htm'\) "Glossary Entry") or the setup method are being executed.
+-   Unit tests can make injections while [test methods](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abentest_method_glosry.htm "Glossary Entry") or the setup method are being executed.
 
 -   If injections are repeated in the same test seam, the last injection is the active injection.
 
@@ -1062,7 +956,7 @@ Test seams are a simple way of replacing or expanding source code in production 
 
 Example for authorization checks
 
-An injection can use the statement [AUTHORITY-CHECK](javascript:call_link\('abapauthority-check.htm'\)) to bypass the dependency of a unit test on the authorizations of the current user by setting a suitable return code.
+An injection can use the statement [AUTHORITY-CHECK](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abapauthority-check.htm) to bypass the dependency of a unit test on the authorizations of the current user by setting a suitable return code.
 
 Test Seam
 
@@ -1144,5 +1038,5 @@ Example
 See also the class CL\_AU\_SAMPLE\_TEST\_SEAMS in the package SABP\_UNIT\_SAMPLE.
 
 Continue
-[TEST-SEAM](javascript:call_link\('abaptest-seam.htm'\))
-[TEST-INJECTION](javascript:call_link\('abaptest-injection.htm'\))
+[TEST-SEAM](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-seam.htm)
+[TEST-INJECTION](https://help.sap.com/doc/abapdocu_753_index_htm/7.53/en-US/abaptest-injection.htm)

@@ -4,7 +4,7 @@
 
 AS ABAP Release 755, ©Copyright 2020 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Data Interfaces and Communication Interfaces](javascript:call_link\('abenabap_data_communication.htm'\)) →  [ABAP and XML](javascript:call_link\('abenabap_xml.htm'\)) →  [XML - Class Libraries](javascript:call_link\('abenabap_xml_libs.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_reference.htm) →  [Data Interfaces and Communication Interfaces](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_data_communication.htm) →  [ABAP and XML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml.htm) →  [XML - Class Libraries](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xml_libs.htm) → 
 
 Access to XML using Class Libraries
 
@@ -40,10 +40,10 @@ START-OF-SELECTION.
 
 Description
 
-The example class CL\_DEMO\_XML\_ACCESS wraps methods of the [sXML Library](javascript:call_link\('abensxml_library_glosry.htm'\) "Glossary Entry").
+The example class CL\_DEMO\_XML\_ACCESS wraps methods of the [sXML Library](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abensxml_library_glosry.htm "Glossary Entry").
 
 -   Method PARSE\_XML allows to parse the relevant data of an XML file from a byte string into an internal table whose structure is defined in that class.
 
 -   Method RENDER\_XML allows to render the data from such a node table into an XML file in a byte string.
 
-As an example, an XML file is accessed that results from an transformation of an internal table into [asXML](javascript:call_link\('abenasxml_glosry.htm'\) "Glossary Entry") format by using the predefined identity transformation [ID](javascript:call_link\('abenabap_xslt_id.htm'\)).
+As an example, an XML file is accessed that results from an transformation of an internal table into [asXML](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenasxml_glosry.htm "Glossary Entry") format by using the predefined identity transformation [ID](https://help.sap.com/doc/abapdocu_755_index_htm/7.55/en-US/abenabap_xslt_id.htm).

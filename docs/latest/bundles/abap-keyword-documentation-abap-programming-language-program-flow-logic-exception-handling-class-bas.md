@@ -3,28 +3,7 @@
 Included pages: 4
 
 
-
-## 🔗 Source References
-
-**Base URL**: [ABAP Keyword Documentation latest](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm)
-
-**Individual Pages in this Bundle**:
-- [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
-- [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
-- [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
-- [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
-
-**Bundle Contains**: 4 documentation pages
-**Version**: ABAP latest
-**Generated**: 2025-09-01T11:25:44.943Z
-
----
-
 ### abenexception_abexas.htm
-
-> **📖 Official SAP Documentation**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -32,30 +11,23 @@ Included pages: 4
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexceptions.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Examples%20of%20Exceptions%2C%20ABENEXCEPTION_ABEXAS%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
 Examples of Exceptions
 
--   [Exceptions, RAISE](javascript:call_link\('abenraise_abexa.htm'\))
--   [Exceptions, TRY](javascript:call_link\('abentry_abexa.htm'\))
--   [Exceptions, CATCH](javascript:call_link\('abencatch_exception_abexa.htm'\))
+-   [Exceptions, RAISE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
+-   [Exceptions, TRY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
+-   [Exceptions, CATCH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
 
 Continue
-![Example](exa.gif "Example") [Exceptions, RAISE](javascript:call_link\('abenraise_abexa.htm'\))
-![Example](exa.gif "Example") [Exceptions, TRY](javascript:call_link\('abentry_abexa.htm'\))
-![Example](exa.gif "Example") [Exceptions, CATCH](javascript:call_link\('abencatch_exception_abexa.htm'\))
+![Example](exa.gif "Example") [Exceptions, RAISE](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
+![Example](exa.gif "Example") [Exceptions, TRY](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
+![Example](exa.gif "Example") [Exceptions, CATCH](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
 
-
-
-**📖 Source**: [abenexception_abexas.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm)
 
 ### abenraise_abexa.htm
-
-> **📖 Official SAP Documentation**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -63,7 +35,7 @@ Continue
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [Examples of Exceptions](javascript:call_link\('abenexception_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexceptions.htm) →  [Examples of Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Exceptions%2C%20RAISE%2C%20ABENRAISE_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -115,14 +87,7 @@ This example shows the two variants of the statement RAISE EXCEPTION. The first 
 The output of the line number in which the exception was raised indicates that, when the existing exception object was reused, its information was changed.
 
 
-
-**📖 Source**: [abenraise_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenraise_abexa.htm)
-
 ### abentry_abexa.htm
-
-> **📖 Official SAP Documentation**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
 
   
 
@@ -130,7 +95,7 @@ The output of the line number in which the exception was raised indicates that, 
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [Examples of Exceptions](javascript:call_link\('abenexception_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexceptions.htm) →  [Examples of Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Exceptions%2C%20TRY%2C%20ABENTRY_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 
@@ -198,23 +163,13 @@ ENDCLASS.
 
 Description   
 
--   If the content of number is greater than 100, the TRY control structure of the [compilation unit](javascript:call_link\('abencompilation_unit_glosry.htm'\) "Glossary Entry") raises an exception of the class CX\_DEMO\_ABS\_TOO\_LARGE in the TRY block. This exception is handled by the second CATCH block of the same TRY control structure, since the subclass of the most general exception is CX\_ROOT.
+-   If the content of number is greater than 100, the TRY control structure of the [compilation unit](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencompilation_unit_glosry.htm "Glossary Entry") raises an exception of the class CX\_DEMO\_ABS\_TOO\_LARGE in the TRY block. This exception is handled by the second CATCH block of the same TRY control structure, since the subclass of the most general exception is CX\_ROOT.
 -   If the content of number is 0, the runtime framework in the TRY block of the TRY control structure of the called method calculation raises an exception of the predefined class CX\_SY\_ZERODIVIDE. This is handled in the CATCH block of the same TRY control structure.
 -   If the content of number is a negative number, the runtime framework in the TRY block of the TRY control structure of the called method calculation raises an exception of the predefined class CX\_SY\_ARG\_OUT\_OF\_DOMAIN. Since no handler is defined for this exception in this TRY control structure, the exception is propagated from the method, which is made possible by the declaration of the superclass CX\_SY\_ARITHMETIC\_ERROR using RAISING in the method interface. The CLEANUP block of the inner TRY control structure is executed first.
 -   Any other exceptions are handled in the final CATCH block of the TRY control structure of the compilation unit, which catches all possible exceptions by specifying the most generic exception class CX\_ROOT. If, for example, CX\_SY\_ARG\_OUT\_OF\_DOMAIN or one of its superclasses was not declared in the method interface, the exception CX\_SY\_NO\_HANDLER would be raised and would be handled in the final CATCH block.
 
 
-
-**📖 Source**: [abentry_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abentry_abexa.htm)
-
 ### abencatch_exception_abexa.htm
-
-> **📖 Official SAP Documentation**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
-> **🔍 Direct Link**: This section contains the complete content from the official SAP ABAP documentation page.
-
-
-**📖 Source**: [abencatch_exception_abexa.htm](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abencatch_exception_abexa.htm)
-
 
   
 
@@ -222,7 +177,7 @@ Description  
 
 AS ABAP Release 758, ©Copyright 2024 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Programming Language](javascript:call_link\('abenabap_reference.htm'\)) →  [Program Flow Logic](javascript:call_link\('abenabap_flow_logic.htm'\)) →  [Exception Handling](javascript:call_link\('abenabap_exceptions.htm'\)) →  [Class-Based Exceptions](javascript:call_link\('abenexceptions.htm'\)) →  [Examples of Exceptions](javascript:call_link\('abenexception_abexas.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap.htm) →  [ABAP - Programming Language](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_reference.htm) →  [Program Flow Logic](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_flow_logic.htm) →  [Exception Handling](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenabap_exceptions.htm) →  [Class-Based Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexceptions.htm) →  [Examples of Exceptions](https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/abenexception_abexas.htm) → 
 
  [![](Mail.gif?object=Mail.gif "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback%20on%20ABAP%20Documentation&body=Document:%20Exceptions%2C%20CATCH%2C%20ABENCATCH_EXCEPTION_ABEXA%2C%20758%0D%0A%0D%0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion%20for%20improvement:)
 

@@ -4,34 +4,34 @@
 
 SAP NetWeaver AS ABAP Release 752, ©Copyright 2017 SAP AG. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Reference](javascript:call_link\('abenabap_reference.htm'\)) →  [Declarations](javascript:call_link\('abendeclarations.htm'\)) →  [Declaration Statements](javascript:call_link\('abenabap_declarations.htm'\)) →  [Classes and Interfaces](javascript:call_link\('abenclasses_and_interfaces.htm'\)) →  [ABAP Objects - Overview](javascript:call_link\('abenabap_objects_oview.htm'\)) →  [Classes](javascript:call_link\('abenclasses.htm'\)) →  [Components of Classes](javascript:call_link\('abenclass_components.htm'\)) →  [Methods of Classes](javascript:call_link\('abenclass_methods.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap.htm) →  [ABAP - Reference](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_reference.htm) →  [Declarations](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendeclarations.htm) →  [Declaration Statements](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_declarations.htm) →  [Classes and Interfaces](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses_and_interfaces.htm) →  [ABAP Objects - Overview](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_objects_oview.htm) →  [Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclasses.htm) →  [Components of Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_components.htm) →  [Methods of Classes](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_methods.htm) → 
 
 Kernel Methods
 
-For internal use, kernel methods can be implemented in the [ABAP kernel](javascript:call_link\('abenkernel_glosry.htm'\) "Glossary Entry") instead of in the ABAP language.
+For internal use, kernel methods can be implemented in the [ABAP kernel](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenkernel_glosry.htm "Glossary Entry") instead of in the ABAP language.
 
 Introduction
 
-Kernel methods allow ABAP kernel functions implemented in C or C++ to be called directly. Kernel methods replace the previous concepts of [C calls](javascript:call_link\('abapcall-.htm'\)) and system calls. New C calls or system calls should be avoided.
+Kernel methods allow ABAP kernel functions implemented in C or C++ to be called directly. Kernel methods replace the previous concepts of [C calls](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcall-.htm) and system calls. New C calls or system calls should be avoided.
 
-Kernel methods offer the same checks and security features as regular ABAP methods. Except for the [constructors](javascript:call_link\('abenconstructor.htm'\)) and the [C destructor](javascript:call_link\('abenc_destructor.htm'\)), all ABAP methods can be implemented as kernel methods. An ABAP method can still be redefined as a kernel method and a kernel method can still be redefined as an ABAP method within a path of the inheritance hierarchy.
+Kernel methods offer the same checks and security features as regular ABAP methods. Except for the [constructors](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor.htm) and the [C destructor](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenc_destructor.htm), all ABAP methods can be implemented as kernel methods. An ABAP method can still be redefined as a kernel method and a kernel method can still be redefined as an ABAP method within a path of the inheritance hierarchy.
 
-For C developers who want to implement a kernel method, an API is available that allows simple, high-performance, and secure access to arguments. [Class-based exceptions](javascript:call_link\('abenexceptions.htm'\)) also continue to be supported.
+For C developers who want to implement a kernel method, an API is available that allows simple, high-performance, and secure access to arguments. [Class-based exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions.htm) also continue to be supported.
 
 Defining Kernel Methods
 
 Declaration in ABAP
 
-A kernel method is declared in the same way as a regular ABAP method, either in [Class Builder](javascript:call_link\('abenclass_builder_glosry.htm'\) "Glossary Entry") or in the declaration part of a local class. The implementation of a method as a kernel method is not important for the declaration. In ABAP, this means that a kernel method can be used just like a regular ABAP method.
+A kernel method is declared in the same way as a regular ABAP method, either in [Class Builder](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenclass_builder_glosry.htm "Glossary Entry") or in the declaration part of a local class. The implementation of a method as a kernel method is not important for the declaration. In ABAP, this means that a kernel method can be used just like a regular ABAP method.
 
 Implementation in ABAP
 
-A method is specified as a kernel method in the implementation part of the class using the optional addition [BY KERNEL MODULE kmod1 kmod2 ...](javascript:call_link\('abapmethod_kernel_module_internal.htm'\)) of the statement [METHOD](javascript:call_link\('abapmethod.htm'\)). kmod1, kmod2, ... are the names of kernel modules that implement the method. The ABAP implementation of a kernel method must be empty, which means that there cannot be any ABAP statements between METHOD and ENDMETHOD:
+A method is specified as a kernel method in the implementation part of the class using the optional addition [BY KERNEL MODULE kmod1 kmod2 ...](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod_kernel_module_internal.htm) of the statement [METHOD](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapmethod.htm). kmod1, kmod2, ... are the names of kernel modules that implement the method. The ABAP implementation of a kernel method must be empty, which means that there cannot be any ABAP statements between METHOD and ENDMETHOD:
 
 METHOD meth BY KERNEL MODULE kmod1 kmod2 ...
 ENDMETHOD.
 
-[Constructors](javascript:call_link\('abenconstructor.htm'\)) and the [C destructor](javascript:call_link\('abenc_destructor.htm'\)) cannot be implemented as kernel methods. There is a separate mechanism for the C Destructor.
+[Constructors](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenconstructor.htm) and the [C destructor](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenc_destructor.htm) cannot be implemented as kernel methods. There is a separate mechanism for the C Destructor.
 
 After KERNEL MODULE, a list of kernel modules kmod1, kmod2, ... can be specified. Currently, only C functions of the kernel can be specified for kmod1, kmod2, ... The list after KERNEL MODULE is evaluated by the compiler from left to right. The first kernel module in the list that is registered in the kernel (see below) is used in the generation.
 
@@ -53,7 +53,7 @@ First, the kernel is searched for xx\_impl\_620. Then the kernel is searched for
 
 Implementation in the Kernel
 
-Currently, only C functions can be used as kernel modules of kernel methods. The C functions can have any position in the kernel. No special includes from the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry") are required for implementing the C function. The C functions must have a specific interface. The interface itself is wrapped by a [macro](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") called ARGUMENTS. All required definitions and prototypes are in the include //src/include/abkmeth.h. This is the only include needed for defining C functions for kernel methods.
+Currently, only C functions can be used as kernel modules of kernel methods. The C functions can have any position in the kernel. No special includes from the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry") are required for implementing the C function. The C functions must have a specific interface. The interface itself is wrapped by a [macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_glosry.htm "Glossary Entry") called ARGUMENTS. All required definitions and prototypes are in the include //src/include/abkmeth.h. This is the only include needed for defining C functions for kernel methods.
 
 Since C functions can be defined in C and C++ , externC must be used in C++:
 
@@ -100,7 +100,7 @@ ARGUMENT\_P(index,"name",type\_kind,"type",read\_write,length,decimals)
 
 ARGUMENT\_STRUCT(index,"name",type\_kind,"type",read\_write,ctype)
 
-These [macros](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") define an argument with the name name and an index index.
+These [macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_glosry.htm "Glossary Entry") define an argument with the name name and an index index.
 
 basetype must be used to assign the type of the ABAP data object in accordance with the following table. If the basetype is C, N, X, P, or STRUCT, more parameters must be specified than for other types.
 
@@ -310,17 +310,17 @@ The macro parameters have the following meanings:
 
 -   In the case of ARGUMENT\_*\[*C*|*N*|*X*|*P*\]*, length must be used to specify the length of all ABAP data types with a generic length. (This is specified in characters in the case of c and n and in bytes in the case of x and p.)
 
--   When using ARGUMENT\_P, decimals must be used to specify the number of [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry").
+-   When using ARGUMENT\_P, decimals must be used to specify the number of [decimal places](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendecimal_place_glosry.htm "Glossary Entry").
 
 -   When using ARGUMENT\_STRUCT, ctype must be used to specify a suitable C type. This type should be generated from an ABAP type definition using saphfile.
 
 Accessing Arguments
 
-After registering the arguments, the following macros can be used to access them within the C function. With the exception of direct access to the data control block, the access macros do not require any includes from the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry").
+After registering the arguments, the following macros can be used to access them within the C function. With the exception of direct access to the data control block, the access macros do not require any includes from the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry").
 
 ARGUMENT\_basetype\_READ(index,"name");
 
-This [macro](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") returns the read address of an argument with the type const ctype, where ctype is defined by basetype according to the above table. The index and name of the argument must be passed. Additional parameters must be specified for the generic types (see below). Only the index is needed to access the argument. However, to make the C function more legible and to ensure that additional consistency checks can be executed, the name must also be specified. If the kernel is compiled in debugging mode, the system executes a consistency check between index and name and the specified C type and ABAP type of the argument are also checked. In the case of an error, an appropriate ABAP runtime error occurs (KMETH\_INVALID\_ARGUMENT\_ID, KMETH\_INVALID\_ARGUMENT\_NAME, or KMETH\_INVALID\_CTYPE\_LENG). No checks are made in the optimized kernel.
+This [macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_glosry.htm "Glossary Entry") returns the read address of an argument with the type const ctype, where ctype is defined by basetype according to the above table. The index and name of the argument must be passed. Additional parameters must be specified for the generic types (see below). Only the index is needed to access the argument. However, to make the C function more legible and to ensure that additional consistency checks can be executed, the name must also be specified. If the kernel is compiled in debugging mode, the system executes a consistency check between index and name and the specified C type and ABAP type of the argument are also checked. In the case of an error, an appropriate ABAP runtime error occurs (KMETH\_INVALID\_ARGUMENT\_ID, KMETH\_INVALID\_ARGUMENT\_NAME, or KMETH\_INVALID\_CTYPE\_LENG). No checks are made in the optimized kernel.
 
 ARGUMENT\_basetype\_WRITE(index,"name");
 
@@ -348,7 +348,7 @@ If these macros are used, a variable of the type size\_tU or size\_tR containing
 ARGUMENT\_P\_GENERIC\_READ(index,"name",size\_tR,decimals);
 ARGUMENT\_P\_GENERIC\_WRITE(index,"name",size\_tR,decimals);
 
-If these macros are used, a variable decimals (for the [decimal places](javascript:call_link\('abendecimal_place_glosry.htm'\) "Glossary Entry")) as well as the length size\_tR must be specified for the type P\_GENERIC.
+If these macros are used, a variable decimals (for the [decimal places](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abendecimal_place_glosry.htm "Glossary Entry")) as well as the length size\_tR must be specified for the type P\_GENERIC.
 
 ARGUMENT\_STRUCT\_READ(index,"name",ctype);
 ARGUMENT\_STRUCT\_READ(index,"name",ctype);
@@ -357,19 +357,19 @@ If these macros are used, a suitable C type ctype must be specified for all stru
 
 ARGUMENT\_C\_POINTER(index,"name");
 
-This [macro](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") is used specifically for the type %\_c\_pointer. This type is a special internal ABAP type that has exactly the byte length of a C pointer (4, 8, or 16 bytes, depending on the platform). The type is always mapped to the predefined ABAP type x. The macros for the type X or X\_GENERIC are not used due to the variable length and platform-dependency.
+This [macro](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_glosry.htm "Glossary Entry") is used specifically for the type %\_c\_pointer. This type is a special internal ABAP type that has exactly the byte length of a C pointer (4, 8, or 16 bytes, depending on the platform). The type is always mapped to the predefined ABAP type x. The macros for the type X or X\_GENERIC are not used due to the variable length and platform-dependency.
 
 ARGUMENT\_IS\_SUPPLIED(index,"name");
 
-This macro has the same semantics as the [predicate expression](javascript:call_link\('abenpredicate_expression_glosry.htm'\) "Glossary Entry") IS SUPPLIED in ABAP. The same consistency checks are executed as for ARGUMENT\_READ.
+This macro has the same semantics as the [predicate expression](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenpredicate_expression_glosry.htm "Glossary Entry") IS SUPPLIED in ABAP. The same consistency checks are executed as for ARGUMENT\_READ.
 
 ARGUMENT\_DATA(index,"name",ctype);
 
-This macro returns the data control block with the C type const DATA \*. The same consistency checks are executed as for ARGUMENT\_READ. The macro is only active if the include //src/include/abdata.h of the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry") was included.
+This macro returns the data control block with the C type const DATA \*. The same consistency checks are executed as for ARGUMENT\_READ. The macro is only active if the include //src/include/abdata.h of the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry") was included.
 
 Raising Exceptions
 
-C functions that implement kernel methods can raise [class-based exceptions](javascript:call_link\('abenexceptions.htm'\)).
+C functions that implement kernel methods can raise [class-based exceptions](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenexceptions.htm).
 
 Registering Exceptions
 
@@ -416,11 +416,11 @@ EXCEPTION\_SET\_CSTRING(CX\_...\_attr1, value, valueLength);
 EXCEPTION\_SET\_C      (CX\_...\_attr2, value, valueLength);
 EXCEPTION\_RAISE();
 
-Within the macros EXCEPTION\_CREATE or EXCEPTION\_RAISE, a long jump to Extri always takes place, which means that the C function that implements the kernel method is exited in a long jump and the [ABAP runtime environment](javascript:call_link\('abenabap_runtime_envir_glosry.htm'\) "Glossary Entry") takes control. Therefore, the C function should release its temporary memory before raising an exception. If the exception is caught in ABAP using [CATCH](javascript:call_link\('abapcatch_try.htm'\)) without the addition INTO, the long jump takes place in EXCEPTION\_CREATE. If the exception is caught using the addition INTO (the exception object is used) or not caught at all, the long jump takes place in EXCEPTION\_RAISE.
+Within the macros EXCEPTION\_CREATE or EXCEPTION\_RAISE, a long jump to Extri always takes place, which means that the C function that implements the kernel method is exited in a long jump and the [ABAP runtime environment](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenabap_runtime_envir_glosry.htm "Glossary Entry") takes control. Therefore, the C function should release its temporary memory before raising an exception. If the exception is caught in ABAP using [CATCH](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abapcatch_try.htm) without the addition INTO, the long jump takes place in EXCEPTION\_CREATE. If the exception is caught using the addition INTO (the exception object is used) or not caught at all, the long jump takes place in EXCEPTION\_RAISE.
 
 The exceptions are processed in the runtime environment as if they were raised in ABAP and the same dynamic checks are executed.
 
-Currently, the following [macros](javascript:call_link\('abenmacro_glosry.htm'\) "Glossary Entry") (which can be expanded if necessary) are available for setting exception attributes. Strings, integers, and C fields are currently supported. See the sequence above for information about how to use them.
+Currently, the following [macros](https://help.sap.com/doc/abapdocu_752_index_htm/7.52/en-US/abenmacro_glosry.htm "Glossary Entry") (which can be expanded if necessary) are available for setting exception attributes. Strings, integers, and C fields are currently supported. See the sequence above for information about how to use them.
 
 EXCEPTION\_SET\_CSTRING\_UC
 EXCEPTION\_SET\_C

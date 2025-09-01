@@ -4,7 +4,7 @@
 
 AS ABAP Release 757, ©Copyright 2023 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Core Data Services (ABAP CDS)](javascript:call_link\('abencds.htm'\)) →  [ABAP CDS - Data Definitions](javascript:call_link\('abencds_entities.htm'\)) →  [ABAP CDS - DDL for Data Definitions](javascript:call_link\('abencds_f1_ddl_syntax.htm'\)) →  [ABAP CDS - CDS Entities](javascript:call_link\('abencds_view_entity.htm'\)) →  [ABAP CDS - Table Functions](javascript:call_link\('abencds_table_functions.htm'\)) →  [ABAP CDS - Client Handling in CDS Table Functions](javascript:call_link\('abencds_func_client_handling.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abenabap.htm) →  [ABAP - Core Data Services (ABAP CDS)](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds.htm) →  [ABAP CDS - Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_entities.htm) →  [ABAP CDS - DDL for Data Definitions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_ddl_syntax.htm) →  [ABAP CDS - CDS Entities](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_view_entity.htm) →  [ABAP CDS - Table Functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_table_functions.htm) →  [ABAP CDS - Client Handling in CDS Table Functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_func_client_handling.htm) → 
 
  [![](Mail.gif?object=Mail.gif&sap-language=EN "Feedback mail for displayed topic") Mail Feedback](mailto:f1_help@sap.com?subject=Feedback on ABAP Documentation&body=Document: Client-Independent CDS Table Functions, ABENCDS_FUNC_CLIENT_INDEP_ABEXA, 757%0D%0A%0D
 %0AError:%0D%0A%0D%0A%0D%0A%0D%0ASuggestion for improvement:)
@@ -51,7 +51,7 @@ START-OF-SELECTION.
 
 Description   
 
-This example program accesses two [client-independent](javascript:call_link\('abencds_func_client_handling.htm'\)) [CDS table functions](javascript:call_link\('abencds_table_function_glosry.htm'\) "Glossary Entry").
+This example program accesses two [client-independent](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_func_client_handling.htm) [CDS table functions](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_table_function_glosry.htm "Glossary Entry").
 
 -   The CDS table function DEMO\_CDS\_GET\_SCARR\_SPFLI\_NOCL does not have any elements of the type CLNT.
     
@@ -89,8 +89,8 @@ This example program accesses two [client-independent](javascript:call_link\('ab
         CL\_DEMO\_AMDP\_FUNCTIONS\_CLNT=>GET\_SCARR\_SPFLI\_FOR\_CDS;
     
 
-Both CDS table functions have an input parameter clnt of the type CLNT without the annotation [@Environment.systemField](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)). The client ID of the current client is passed explicitly to this parameter by the statement [SELECT](javascript:call_link\('abapselect.htm'\)). The implementations in the AMDP method GET\_SCARR\_SPFLI\_FOR\_CDS of the associated AMDP classes CL\_DEMO\_AMDP\_FUNCTIONS\_NOCL or CL\_DEMO\_AMDP\_FUNCTIONS\_CLNT use this input parameter in their WHERE conditions to read the data of the current client only. Both result sets have the same number of rows and are distinguished only by the extra client column of the function DEMO\_CDS\_GET\_SCARR\_SPFLI\_CLNT.
+Both CDS table functions have an input parameter clnt of the type CLNT without the annotation [@Environment.systemField](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_parameter_annotations.htm). The client ID of the current client is passed explicitly to this parameter by the statement [SELECT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abapselect.htm). The implementations in the AMDP method GET\_SCARR\_SPFLI\_FOR\_CDS of the associated AMDP classes CL\_DEMO\_AMDP\_FUNCTIONS\_NOCL or CL\_DEMO\_AMDP\_FUNCTIONS\_CLNT use this input parameter in their WHERE conditions to read the data of the current client only. Both result sets have the same number of rows and are distinguished only by the extra client column of the function DEMO\_CDS\_GET\_SCARR\_SPFLI\_CLNT.
 
 Hint
 
-In both table functions, the input field for the client ID could also be annotated with the predefined value [#CLIENT](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)) using the annotation [@Environment.systemField](javascript:call_link\('abencds_f1_parameter_annotations.htm'\)) to stop the client ID from being passed explicitly by SELECT statements.
+In both table functions, the input field for the client ID could also be annotated with the predefined value [#CLIENT](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_parameter_annotations.htm) using the annotation [@Environment.systemField](https://help.sap.com/doc/abapdocu_757_index_htm/7.57/en-US/abencds_f1_parameter_annotations.htm) to stop the client ID from being passed explicitly by SELECT statements.

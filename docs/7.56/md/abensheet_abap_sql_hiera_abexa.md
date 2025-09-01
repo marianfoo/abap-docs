@@ -4,11 +4,11 @@
 
 AS ABAP Release 756, ©Copyright 2021 SAP SE. All rights reserved.
 
-[ABAP - Keyword Documentation](javascript:call_link\('abenabap.htm'\)) →  [ABAP - Cheat Sheets](javascript:call_link\('abenabap_blurb.htm'\)) →  [ABAP SQL: Working with Hierarchies](javascript:call_link\('abapsheet_abap_sql_hierarchies.htm'\)) → 
+[ABAP - Keyword Documentation](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap.htm) →  [ABAP - Cheat Sheets](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abenabap_blurb.htm) →  [ABAP SQL: Working with Hierarchies](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql_hierarchies.htm) → 
 
 ABAP SQL - Working with Hierarchies
 
-This example is the basis for the code snippets shown under [Working with Hierarchies](javascript:call_link\('abapsheet_abap_sql_hierarchies.htm'\)).
+This example is the basis for the code snippets shown under [Working with Hierarchies](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql_hierarchies.htm).
 
 Source Code
 
@@ -374,4 +374,4 @@ START-OF-SELECTION.
 
 Description
 
-The example is explained in detail under [Working with Hierarchies](javascript:call_link\('abapsheet_abap_sql_hierarchies.htm'\)). Besides the code snippets shown there it contains the generation of example data and the determination of some start values that lead to meaningful results.
+The example is explained in detail under [Working with Hierarchies](https://help.sap.com/doc/abapdocu_756_index_htm/7.56/en-US/abapsheet_abap_sql_hierarchies.htm). Besides the code snippets shown there it contains the generation of example data and the determination of some start values that lead to meaningful results.
